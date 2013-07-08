@@ -12,12 +12,8 @@ task :build => :clean do
   mkdir_p BUILD_DIR
   $stderr.print "Building... "
   IO.popen(%W(cpio -pd #{BUILD_DIR}), 'w') do |io|
-    io.puts(build_file_list)
+    io.puts(`git ls-files`.split("\n") - BUILD_IGNORE)
   end
-end
-
-def build_file_list
-  `git ls-files`.split("\n") - BUILD_IGNORE
 end
 
 desc 'Sync working tree to S3'
