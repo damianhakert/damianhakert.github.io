@@ -1,3 +1,7 @@
+# Development
+
+Serve a local build on http://localhost:8000 using `rake serve`.
+
 # Deploying 
 
 Install s3cmd (`brew install s3cmd` or `sudo apt-get install s3cmd`) and

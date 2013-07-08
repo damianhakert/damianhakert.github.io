@@ -2,6 +2,7 @@ BUILD_DIR = '_build/'
 BUILD_IGNORE = %w{.gitignore Rakefile README.md}
 BUCKET = 's3://www.gitlab.com'
 DEPLOY_BRANCH = 'master'
+SERVE_PORT = 8000
 
 task :clean do
   rm_rf BUILD_DIR
@@ -35,6 +36,14 @@ task :no_changes do
   unless system(*%w{git diff --quiet HEAD})
     abort("Cannot deploy when there are uncomitted changes")
   end
+end
+
+desc "Build and serve the site on http://localhost:#{SERVE_PORT}"
+task :serve => :build do
+  require 'webrick'
+  server = WEBrick::HTTPServer.new :Port => SERVE_PORT, :DocumentRoot => BUILD_DIR
+  trap('INT') { server.shutdown }
+  server.start
 end
 
 task :default => :build
