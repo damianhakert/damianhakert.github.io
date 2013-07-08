@@ -13,7 +13,7 @@ task :build do
 end
 
 def build_file_list
-  `git ls-files`.split("\n").reject { |f| BUILD_IGNORE.include?(f) }
+  `git ls-files`.split("\n") - BUILD_IGNORE
 end
 
 desc 'Sync working tree to S3'
