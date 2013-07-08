@@ -1,5 +1,5 @@
 BUILD_DIR = '_build/'
-BUILD_IGNORE = %w{.gitignore Rakefile}
+BUILD_IGNORE = %w{.gitignore Rakefile README.md}
 BUCKET = 's3://www.gitlab.com'
 
 desc "Build website in #{BUILD_DIR}"
