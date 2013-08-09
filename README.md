@@ -1,6 +1,6 @@
 # Development
 
-Serve a local build on http://localhost:8000 using `rake serve`.
+Serve a local build on http://localhost:4000 using `jekyll serve`.
 
 # Deploying 
 

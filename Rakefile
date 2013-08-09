@@ -1,8 +1,6 @@
-BUILD_DIR = '_build/'
-BUILD_IGNORE = %w{.gitignore Rakefile README.md}
+BUILD_DIR = '_site/'
 BUCKET = 's3://www.gitlab.com'
 DEPLOY_BRANCH = 'master'
-SERVE_PORT = 8000
 
 task :clean do
   rm_rf BUILD_DIR
@@ -10,11 +8,7 @@ end
 
 desc "Build website in #{BUILD_DIR}"
 task :build => :clean do
-  mkdir_p BUILD_DIR
-  $stderr.print "Building... "
-  IO.popen(%W(cpio -pd #{BUILD_DIR}), 'w') do |io|
-    io.puts(`git ls-files`.split("\n") - BUILD_IGNORE)
-  end
+  system 'jekyll', 'build'
 end
 
 desc 'Sync working tree to S3'
@@ -36,14 +30,6 @@ task :no_changes do
   unless system(*%w{git diff --quiet HEAD})
     abort("Cannot deploy when there are uncomitted changes")
   end
-end
-
-desc "Build and serve the site on http://localhost:#{SERVE_PORT}"
-task :serve => :build do
-  require 'webrick'
-  server = WEBrick::HTTPServer.new :Port => SERVE_PORT, :DocumentRoot => BUILD_DIR
-  trap('INT') { server.shutdown }
-  server.start
 end
 
 task :default => :build
