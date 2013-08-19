@@ -64,6 +64,7 @@
       </div>
     </div>
 
+    {% unless page.suppress_header %}
     <div id="header">
       <div class="container">  
         <div class="row">
@@ -73,6 +74,7 @@
         </div>
       </div>
     </div>
+    {% endunless %}
 
     {{ content }}
 
