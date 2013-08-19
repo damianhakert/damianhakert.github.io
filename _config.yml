@@ -1,3 +1,4 @@
 name: GitLab.com
 markdown: redcarpet
 pygments: true
+exclude: [Rakefile, README.md, Gemfile, Gemfile.lock]
