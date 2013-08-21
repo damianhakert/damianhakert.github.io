@@ -1,14 +1,21 @@
 BUILD_DIR = '_site/'
-BUCKET = 's3://www.gitlab.com'
+BUCKET = 'www.gitlab.com'
+STAGING_BUCKET = "#{BUCKET}.#{`git log -1 --format='format:%H'`}"
 DEPLOY_BRANCH = 'master'
 S3_CMD = %w{s3cmd -c .s3cfg}
 
+AWS_CREDENTIALS = {
+  'AWS_ACCESS_KEY_ID' => `awk '/access_key/ {print $3}' .s3cfg`.chomp,
+  'AWS_SECRET_ACCESS_KEY' => `awk '/secret_key/ {print $3}' .s3cfg`.chomp,
+}
+
 def s3_sync(source, destination)
-  system *S3_CMD, *%w{sync --delete-removed -P}, source, destination
+  system *S3_CMD, *%w{sync --delete-removed -P}, source, "s3://#{destination}"
 end
 
 def s3_create_bucket(bucket_name)
-  system *S3_CMD, 'mb', bucket_name
+  system(AWS_CREDENTIALS, *%W(aws s3 create-bucket --bucket #{bucket_name}))
+  puts # the aws tool does not print a newline
 end
 
 task :clean do
@@ -25,11 +32,13 @@ task :sync => [:no_changes, :check_branch, :build] do
   s3_sync BUILD_DIR, BUCKET
 end
 
+task :create_bucket do
+  s3_create_bucket(STAGING_BUCKET) || abort("Failed to create bucket #{STAGING_BUCKET}")
+end
+
 desc 'Creating staging bucket on S3 (you need to enable Static Hosting manually!)'
-task :stage, [:s3_cfg] => [:no_changes, :build] do |t, args|
-  staging_bucket = "#{BUCKET}.#{`git log -1 --format='format:%H'`}"
-  s3_create_bucket staging_bucket
-  s3_sync BUILD_DIR, staging_bucket
+task :stage, [:s3_cfg] => [:no_changes, :build, :create_bucket] do
+  s3_sync(BUILD_DIR, STAGING_BUCKET) || abort("Failed to sync")
 end
 
 task :check_branch do
