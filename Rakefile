@@ -1,36 +1,15 @@
-require 'json'
-
 BUILD_DIR = '_site/'
 DEPLOY_BUCKET = 'www.gitlab.com'
-STAGING_PREFIX = "#{DEPLOY_BUCKET}.staging."
-STAGING_BUCKET = STAGING_PREFIX + `git log -1 --format='format:%H'`
+STAGING_BUCKET = DEPLOY_BUCKET + '.staging'
 DEPLOY_BRANCH = 'master'
 S3_CMD = %w{s3cmd -c .s3cfg}
-AWS = %w{aws --no-verify-ssl}
-
-AWS_CREDENTIALS = {
-  'AWS_ACCESS_KEY_ID' => `awk '/access_key/ {print $3}' .s3cfg`.chomp,
-  'AWS_SECRET_ACCESS_KEY' => `awk '/secret_key/ {print $3}' .s3cfg`.chomp,
-}
 
 def s3_sync(source, destination)
   system *S3_CMD, *%w{sync --delete-removed -P}, source, "s3://#{destination}"
 end
 
 def s3_create_bucket(bucket_name)
-  unless system(AWS_CREDENTIALS, *AWS, *%W(s3 create-bucket --bucket #{bucket_name}))
-    raise "Could not create bucket #{bucket_name}"
-  end
-end
-
-def s3_enable_bucket_website(bucket_name)
-  unless system(
-    AWS_CREDENTIALS,
-    *AWS, *%W(s3 put-bucket-website --bucket #{bucket_name}),
-    *%W( --website-configuration #{JSON.dump({'IndexDocument' => {'Suffix' => 'index.html'}})})
-  )
-    raise "Could not enable web access for #{bucket_name}"
-  end
+  system(*S3_CMD, 'mb', "s3://#{bucket_name}")
 end
 
 task :clean do
@@ -42,19 +21,24 @@ task :build => :clean do
   system 'jekyll', 'build'
 end
 
-desc 'Sync working tree to S3'
+desc 'Deploy master to S3'
 task :sync => [:no_changes, :check_branch, :build] do
-  s3_sync BUILD_DIR, DEPLOY_BUCKET
+  unless s3_sync(BUILD_DIR, DEPLOY_BUCKET)
+    raise "Could not sync to #{DEPLOY_BUCKET}"
+  end
 end
 
-task :create_bucket do
-  s3_create_bucket(STAGING_BUCKET)
-  s3_enable_bucket_website(STAGING_BUCKET)
+task :create_staging_bucket do
+  unless s3_create_bucket(STAGING_BUCKET)
+    raise "Could not create staging bucket #{STAGING_BUCKET}"
+  end
 end
 
 desc 'Creating staging bucket on S3'
-task :stage, [:s3_cfg] => [:no_changes, :build, :create_bucket] do
-  s3_sync(BUILD_DIR, STAGING_BUCKET) || abort("Failed to sync")
+task :stage => [:no_changes, :build, :create_staging_bucket] do
+  unless s3_sync(BUILD_DIR, STAGING_BUCKET)
+    raise "Could not sync to #{STAGING_BUCKET}"
+  end
 end
 
 task :check_branch do
