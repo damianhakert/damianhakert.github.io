@@ -1,6 +1,7 @@
 BUILD_DIR = '_site/'
-BUCKET = 'www.gitlab.com'
-STAGING_BUCKET = "#{BUCKET}.staging.#{`git log -1 --format='format:%H'`}"
+DEPLOY_BUCKET = 'www.gitlab.com'
+STAGING_PREFIX = "#{DEPLOY_BUCKET}.staging."
+STAGING_BUCKET = STAGING_PREFIX + `git log -1 --format='format:%H'`
 DEPLOY_BRANCH = 'master'
 S3_CMD = %w{s3cmd -c .s3cfg}
 
@@ -39,7 +40,7 @@ end
 
 desc 'Sync working tree to S3'
 task :sync => [:no_changes, :check_branch, :build] do
-  s3_sync BUILD_DIR, BUCKET
+  s3_sync BUILD_DIR, DEPLOY_BUCKET
 end
 
 task :create_bucket do
