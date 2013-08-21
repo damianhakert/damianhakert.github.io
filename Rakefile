@@ -1,6 +1,6 @@
 BUILD_DIR = '_site/'
 BUCKET = 'www.gitlab.com'
-STAGING_BUCKET = "#{BUCKET}.#{`git log -1 --format='format:%H'`}"
+STAGING_BUCKET = "#{BUCKET}.staging.#{`git log -1 --format='format:%H'`}"
 DEPLOY_BRANCH = 'master'
 S3_CMD = %w{s3cmd -c .s3cfg}
 
@@ -14,8 +14,18 @@ def s3_sync(source, destination)
 end
 
 def s3_create_bucket(bucket_name)
-  system(AWS_CREDENTIALS, *%W(aws s3 create-bucket --bucket #{bucket_name}))
-  puts # the aws tool does not print a newline
+  unless system(AWS_CREDENTIALS, *%W(aws s3 create-bucket --bucket #{bucket_name}))
+    return false
+  end
+  unless system(
+    AWS_CREDENTIALS,
+    *%W(aws s3 put-bucket-website --bucket #{bucket_name}),
+    *%W( --website-configuration #{'{"index_document" : {"suffix": "index.html"}}'})
+  )
+    return false
+  end
+  puts
+  return true
 end
 
 task :clean do
@@ -36,7 +46,7 @@ task :create_bucket do
   s3_create_bucket(STAGING_BUCKET) || abort("Failed to create bucket #{STAGING_BUCKET}")
 end
 
-desc 'Creating staging bucket on S3 (you need to enable Static Hosting manually!)'
+desc 'Creating staging bucket on S3'
 task :stage, [:s3_cfg] => [:no_changes, :build, :create_bucket] do
   s3_sync(BUILD_DIR, STAGING_BUCKET) || abort("Failed to sync")
 end
