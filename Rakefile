@@ -1,3 +1,5 @@
+require 'json'
+
 BUILD_DIR = '_site/'
 DEPLOY_BUCKET = 'www.gitlab.com'
 STAGING_PREFIX = "#{DEPLOY_BUCKET}.staging."
@@ -16,17 +18,20 @@ end
 
 def s3_create_bucket(bucket_name)
   unless system(AWS_CREDENTIALS, *%W(aws s3 create-bucket --bucket #{bucket_name}))
-    return false
+    raise "Could not create bucket #{bucket_name}"
   end
+  puts
+end
+
+def s3_enable_bucket_website(bucket_name)
   unless system(
     AWS_CREDENTIALS,
     *%W(aws s3 put-bucket-website --bucket #{bucket_name}),
-    *%W( --website-configuration #{'{"index_document" : {"suffix": "index.html"}}'})
+    *%W( --website-configuration #{JSON.dump({'index_document' => {'suffix' => 'index.html'}})})
   )
-    return false
+    raise "Could not enable web access for #{bucket_name}"
   end
   puts
-  return true
 end
 
 task :clean do
@@ -44,7 +49,8 @@ task :sync => [:no_changes, :check_branch, :build] do
 end
 
 task :create_bucket do
-  s3_create_bucket(STAGING_BUCKET) || abort("Failed to create bucket #{STAGING_BUCKET}")
+  s3_create_bucket(STAGING_BUCKET)
+  s3_enable_bucket_website(STAGING_BUCKET)
 end
 
 desc 'Creating staging bucket on S3'
