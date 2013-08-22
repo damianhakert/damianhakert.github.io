@@ -2,4 +2,4 @@ name: GitLab.com
 markdown: redcarpet
 pygments: true
 exclude: [Rakefile, README.md, Gemfile, Gemfile.lock]
-permalinks: /:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
