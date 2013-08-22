@@ -1,0 +1,14 @@
+---
+layout: post
+title: Working on getting the first people online
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_twitter: '1'
+  _elasticsearch_indexed_on: '2012-09-11 07:09:52'
+---
+For the past couple of days I've been working on the production environment for Gitlab.com. I say 'I' instead of 'we' because <a href="http://blog.gitlab.com/2012/09/04/welcome-marin/">Marin</a> is on a well deserved holiday in Norway. I'm using <a href="http://aws.amazon.com/">Amazon Web Services</a> (AWS) and <a href="http://www.opscode.com/chef/">Chef</a> which I both like a lot.  I've taken an existing Chef recipe as a starting point but that was quite a bit different from the <a href="https://github.com/gitlabhq/gitlabhq/blob/master/doc/installation.md">current installation manual</a>. So I'm now making <a href="https://github.com/dosire/cookbook-gitlab/">a new recipe</a>.
+
+It has taken a bit more time as I expected. I've had no problem setting up <a href="http://aws.amazon.com/rds/">a database service</a> and <a href="http://aws.amazon.com/ses/">an email service</a> using the AWS services. But storing the repositories and attachments on an separate <a href="http://aws.amazon.com/ebs/">EBS volume</a> has brought out some things that are a bit brittle in the configuration of Gitlab. I look forward to getting the first 10 people online this week. When Marin is back we'll also polish our public chef recipe so other people can leverage it.

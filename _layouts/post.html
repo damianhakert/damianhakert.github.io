@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>GitLab.com | {{ page.title }}</title>
+    <title>GitLab.com Blog | {{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
 
@@ -49,11 +49,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>		
-          {% if page.blog_index %}
-            <a class="brand" href="/blog/">GitLab.com Blog</a>
-          {% else %}
-            <a class="brand" href="/">GitLab.com</a>
-          {% endif %}
+          <a class="brand" href="/blog/">GitLab.com Blog</a>
           <div class="nav-collapse collapse">
             <ul class="nav pull-right animated">
               <li><a href="/">Home</a></li>
@@ -68,22 +64,43 @@
       </div>
     </div>
 
-    {% unless page.suppress_header %}
-    <div id="header">
-      <div class="container">  
-        <div class="row">
-          <div class="span12">
-            <h1>{{ page.title }}</h1>
+    <div id="content">
+      <div class="container txt-lefty">			
+        <div class="row-fluid">
+          <div class="span9">	
+            <div class="entry">
+              <div class="row-fluid">
+                <div class="span12">
+                  <h1>{{ page.title }}</h1>
+                  <h4>{{ page.date | date: "%d %B %Y" }}</h4>
+                  {{ content }}
+                </div>
+              </div>
+            </div>
+
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'gitlab'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+             dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+             })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
           </div>
         </div>
       </div>
     </div>
-    {% endunless %}
 
-    {{ content }}
 
     {% include footer.html %}
 
     {% include scripts.html %}
+
   </body>
 </html>

@@ -1,0 +1,29 @@
+---
+layout: default
+title: GitLab.com Blog
+blog_index: true
+---
+<div id="content">
+  <div class="container txt-lefty">			
+    <div class="row-fluid">
+      <div class="span9">	
+        <div class="entry">
+          <div class="row-fluid">
+            <div class="span9">
+              <ul>
+                {% for post in site.posts %}
+                <li>
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+                  <small>{{ post.date | date: "%d %B %Y" }}</small>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>				
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
