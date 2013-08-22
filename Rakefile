@@ -1,6 +1,16 @@
 BUILD_DIR = '_site/'
-BUCKET = 's3://www.gitlab.com'
+DEPLOY_BUCKET = 'www.gitlab.com'
+STAGING_BUCKET = DEPLOY_BUCKET + '.staging'
 DEPLOY_BRANCH = 'master'
+S3_CMD = %w{s3cmd -c .s3cfg}
+
+def s3_sync(source, destination)
+  system *S3_CMD, *%w{sync --delete-removed -P}, source, "s3://#{destination}"
+end
+
+def s3_create_bucket(bucket_name)
+  system(*S3_CMD, 'mb', "s3://#{bucket_name}")
+end
 
 task :clean do
   rm_rf BUILD_DIR
@@ -11,13 +21,24 @@ task :build => :clean do
   system 'jekyll', 'build'
 end
 
-desc 'Sync working tree to S3'
-task :sync, [:s3_cfg] => [:no_changes, :check_branch, :build] do |t, args|
-  sync_options = %w{--delete-removed -P}
-  if args.s3_cfg
-    sync_options << '-c' << args.s3_cfg
+desc 'Deploy master to S3'
+task :sync => [:no_changes, :check_branch, :build] do
+  unless s3_sync(BUILD_DIR, DEPLOY_BUCKET)
+    raise "Could not sync to #{DEPLOY_BUCKET}"
   end
-  system 's3cmd', 'sync', *sync_options, BUILD_DIR, BUCKET
+end
+
+task :create_staging_bucket do
+  unless s3_create_bucket(STAGING_BUCKET)
+    raise "Could not create staging bucket #{STAGING_BUCKET}"
+  end
+end
+
+desc 'Creating staging bucket on S3'
+task :stage => [:no_changes, :build, :create_staging_bucket] do
+  unless s3_sync(BUILD_DIR, STAGING_BUCKET)
+    raise "Could not sync to #{STAGING_BUCKET}"
+  end
 end
 
 task :check_branch do

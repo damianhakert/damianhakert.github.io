@@ -4,8 +4,10 @@ Serve a local build on http://localhost:4000 using `jekyll serve`.
 
 # Deploying 
 
-Install s3cmd (`brew install s3cmd` or `sudo apt-get install s3cmd`) and
-configure it with credentials which have full access to s3://www.gitlab.com.
-Then run `rake sync`.
+Install s3cmd (`brew install s3cmd` or `sudo apt-get install s3cmd`) and the AWS command
+line tools (`pip install awscli==0.14.1`).
+Configure s3cmd with credentials which have full access to s3://www.gitlab.com and put (or link)
+the `.s3cfg` file in the root of this repository. Then run `rake sync`.
 
-If you want to use an s3cfg-file other than ~/.s3cfg, run the task as `rake sync[/my/s3cfg]`.
+# Staging
+Run `rake stage` to create an S3 bucket for the current commit.
