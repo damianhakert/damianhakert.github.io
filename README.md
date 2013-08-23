@@ -1,6 +1,7 @@
 # Development
 
-Serve a local build on http://localhost:4000 using `jekyll serve`.
+Serve a local build on http://localhost:4000 using `bundle exec jekyll serve`.
+After each change you have to restart.
 
 # Deploying 
 
