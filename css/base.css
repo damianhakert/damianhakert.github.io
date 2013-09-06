@@ -447,6 +447,13 @@ ul.plans {
     cursor: pointer;
 }
 
+/* Terms
+-------------------------------------------------- */
+h2.terms {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
 /* Mobile Defaults
 ------------------------- */
 @media (max-width: 979px) {
