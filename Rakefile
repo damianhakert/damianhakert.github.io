@@ -3,6 +3,7 @@ DEPLOY_BUCKET = 'www.gitlab.com'
 STAGING_BUCKET = DEPLOY_BUCKET + '.staging'
 DEPLOY_BRANCH = 'master'
 S3_CMD = %w{s3cmd -c .s3cfg}
+PDFS = FileList['terms/print/*.html'].pathmap('%{^,_site/}X.pdf')
 
 def s3_sync(source, destination)
   system *S3_CMD, *%w{sync --delete-removed -P}, source, "s3://#{destination}"
@@ -17,9 +18,18 @@ task :clean do
 end
 
 desc "Build website in #{BUILD_DIR}"
-task :build => :clean do
+task :build => [:clean, :jekyll_build, :pdfs] 
+
+task :jekyll_build do
   system 'jekyll', 'build'
 end
+
+rule %r{^_site/terms/print/.*\.pdf} => [->(f) { f.pathmap('%X.html') }] do |pdf|
+  system 'bin/wkhtmltopdf', '--footer-center', "PDF generated #{Time.now.to_s}", pdf.source, pdf.name
+end
+
+desc 'Generate PDFs'
+task :pdfs => PDFS
 
 desc 'Deploy master to S3'
 task :sync => [:no_changes, :check_branch, :build] do

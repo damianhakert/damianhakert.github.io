@@ -1,5 +1,5 @@
 name: GitLab.com
 markdown: redcarpet
 pygments: true
-exclude: [Rakefile, README.md, Gemfile, Gemfile.lock]
+exclude: [Rakefile, README.md, Gemfile, Gemfile.lock, bin]
 permalink: /:year/:month/:day/:title/
