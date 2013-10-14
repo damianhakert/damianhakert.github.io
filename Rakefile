@@ -25,8 +25,8 @@ task :jekyll_build do
 end
 
 rule %r{^_site/terms/print/.*\.pdf} => [->(f) { f.pathmap('%X.html') }] do |pdf|
-  options = ['--footer-spacing', '2', '--footer-center', "PDF generated on #{Time.now.to_s}"]
-  system 'bin/wkhtmltopdf', *options, pdf.source, pdf.name
+  options = %W(--template=_terms_template.tex --latex-engine=xelatex -V date=#{Time.now.to_s})
+  system 'pandoc', *options, '-o', pdf.name, pdf.source
 end
 
 desc 'Generate PDFs'
