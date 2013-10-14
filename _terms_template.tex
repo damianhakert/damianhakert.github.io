@@ -129,7 +129,7 @@ $endif$
 \date{$date$}
 
 \pagestyle{fancy}
-\cfoot{PDF generated on $date$}
+\cfoot{Page \thepage \ of \pageref*{LastPage}; PDF generated on $date$}
 
 \begin{document}
 
@@ -167,4 +167,5 @@ $for(include-after)$
 $include-after$
 
 $endfor$
+\label{LastPage}
 \end{document}
