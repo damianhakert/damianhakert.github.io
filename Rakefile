@@ -26,6 +26,7 @@ end
 
 rule %r{^_site/terms/print/.*\.pdf} => [->(f) { f.pathmap('%X.html') }] do |pdf|
   options = %W(--template=_terms_template.tex --latex-engine=xelatex -V date=#{Time.now.to_s})
+  warn "Generating #{pdf.name}"
   system 'pandoc', *options, '-o', pdf.name, pdf.source
 end
 
