@@ -1,17 +1,7 @@
 BUILD_DIR = '_site/'
-DEPLOY_BUCKET = 'www.gitlab.com'
-STAGING_BUCKET = DEPLOY_BUCKET + '.staging'
+DEPLOY_LOCATION = 'deploy@blue-moon.gitlap.com:public/'
 DEPLOY_BRANCH = 'master'
-S3_CMD = %w{s3cmd -c .s3cfg}
 PDFS = FileList['terms/print/*.html'].pathmap('%{^,_site/}X.pdf')
-
-def s3_sync(source, destination)
-  system *S3_CMD, *%w{sync --delete-removed -P}, source, "s3://#{destination}"
-end
-
-def s3_create_bucket(bucket_name)
-  system(*S3_CMD, 'mb', "s3://#{bucket_name}")
-end
 
 task :clean do
   rm_rf BUILD_DIR
@@ -33,11 +23,10 @@ end
 desc 'Generate PDFs'
 task :pdfs => PDFS
 
-desc 'Deploy master to S3'
+desc "Deploy master to #{DEPLOY_LOCATION}"
 task :sync => [:no_changes, :check_branch, :build] do
-  unless s3_sync(BUILD_DIR, DEPLOY_BUCKET)
-    raise "Could not sync to #{DEPLOY_BUCKET}"
-  end
+  warn "Deploying to #{DEPLOY_LOCATION}"
+  system *%W(rsync --delete-after -r #{BUILD_DIR} #{DEPLOY_LOCATION})
 end
 
 task :create_staging_bucket do
