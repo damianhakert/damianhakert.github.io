@@ -29,19 +29,6 @@ task :sync => [:no_changes, :check_branch, :build] do
   system *%W(rsync --delete-after -r #{BUILD_DIR} #{DEPLOY_LOCATION})
 end
 
-task :create_staging_bucket do
-  unless s3_create_bucket(STAGING_BUCKET)
-    raise "Could not create staging bucket #{STAGING_BUCKET}"
-  end
-end
-
-desc 'Creating staging bucket on S3'
-task :stage => [:no_changes, :build, :create_staging_bucket] do
-  unless s3_sync(BUILD_DIR, STAGING_BUCKET)
-    raise "Could not sync to #{STAGING_BUCKET}"
-  end
-end
-
 task :check_branch do
   unless `git rev-parse --abbrev-ref HEAD`.chomp == DEPLOY_BRANCH
     abort("Can only deploy from #{DEPLOY_BRANCH}")
