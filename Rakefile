@@ -11,7 +11,7 @@ desc "Build website in #{BUILD_DIR}"
 task :build => [:clean, :jekyll_build, :pdfs] 
 
 task :jekyll_build do
-  system 'jekyll', 'build'
+  abort("Jekyll build failed") unless system 'jekyll', 'build'
 end
 
 rule %r{^_site/terms/print/.*\.pdf} => [->(f) { f.pathmap('%X.html') }] do |pdf|
