@@ -41,4 +41,9 @@ task :no_changes do
   end
 end
 
+task :install do
+  warn('Installing nginx config to /etc/nginx/sites-available')
+  system('sudo', 'cp', '_support/nginx/www.gitlab.com', '/etc/nginx/sites-available')
+end
+
 task :default => :build
