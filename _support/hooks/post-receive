@@ -1,4 +1,13 @@
 #!/bin/bash
 set -e
-bundle install --path _bundle
+repo=$(pwd)
+echo "Building from bare repo in $repo"
+cd /tmp
+[[ -d www-gitlab-com ]] && rm -rf www-gitlab-com
+git clone $repo
+cd www-gitlab-com
+git --git-dir=.git checkout master
+git --git-dir=.git pull
+bundle install --path ~/bundle
 bundle exec rake
+rsync -r --delete-after _site/ ~/public/
