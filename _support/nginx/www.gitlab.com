@@ -1,3 +1,5 @@
+# Located in: /etc/nginx/sites-available/www.gitlab.com
+
 # You may add here your
 # server {
 #	...
@@ -17,16 +19,15 @@
 # Please see /usr/share/doc/nginx-doc/examples/ for more detailed examples.
 ##
 
+
 server {
 	listen   80; ## listen for ipv4; this line is default and implied
-	#listen   [::]:80 default ipv6only=on; ## listen for ipv6
-
 	root /home/deploy/public;
 	index index.html;
         add_header X-Frame-Options DENY;
-
-	# Make site accessible from http://localhost/
 	server_name localhost www.gitlab.com blue-moon.gitlap.com;
+    server_tokens off;
+    client_max_body_size 10M;
 
 	location / {
 		# First attempt to serve request as file, then
@@ -88,27 +89,27 @@ server {
 #	}
 #}
 
-
 # HTTPS server
 #
-#server {
-#	listen 443;
-#	server_name localhost;
-#
-#	root html;
-#	index index.html index.htm;
-#
-#	ssl on;
-#	ssl_certificate cert.pem;
-#	ssl_certificate_key cert.key;
-#
-#	ssl_session_timeout 5m;
-#
-#	ssl_protocols SSLv3 TLSv1;
-#	ssl_ciphers ALL:!ADH:!EXPORT56:RC4+RSA:+HIGH:+MEDIUM:+LOW:+SSLv3:+EXP;
-#	ssl_prefer_server_ciphers on;
-#
-#	location / {
-#		try_files $uri $uri/ /index.html;
-#	}
-#}
+server {
+	listen 443;
+	root /home/deploy/public;
+	index index.html;
+        add_header X-Frame-Options DENY;
+	server_name localhost www.gitlab.com blue-moon.gitlap.com;
+    server_tokens off;
+    client_max_body_size 10M;
+
+	ssl on;
+	ssl_certificate /etc/ssl/www.gitlab.com.pem;
+	ssl_certificate_key /etc/ssl/www.gitlab.com.key;
+
+	ssl_session_timeout 5m;
+
+	# ssl_protocols SSLv3 TLSv1;
+    ssl_ciphers RC4:HIGH:!aNULL:!MD5;
+	ssl_prefer_server_ciphers on;
+
+	location / {
+	}
+}
