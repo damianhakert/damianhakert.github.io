@@ -27,7 +27,6 @@ server {
         add_header X-Frame-Options DENY;
 	server_name localhost www.gitlab.com blue-moon.gitlap.com;
     server_tokens off;
-    client_max_body_size 10M;
 
 	location / {
 		# First attempt to serve request as file, then
@@ -98,7 +97,6 @@ server {
         add_header X-Frame-Options DENY;
 	server_name localhost www.gitlab.com blue-moon.gitlap.com;
     server_tokens off;
-    client_max_body_size 10M;
 
 	ssl on;
 	ssl_certificate /etc/ssl/www.gitlab.com.pem;
