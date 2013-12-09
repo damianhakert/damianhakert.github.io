@@ -11,7 +11,11 @@ title: GitLab High Availability and Disaster Recovery
             <div class="span12">
               <p>
                 <h3>What is High Availability?</h3>
-                This is my first sentence
+                High availability is a system design that ensures a prearranged level of operational performance throughout a specific time-period. The most common way to measure HA is through the notion of uptime, which measures how long a service is up and running. Conversely, downtime measures how long the service is unavailable. It's common to express uptime in terms of "nines". A service that is up 90% of the time has one “nine”, whereas a service that is up 99.9% has three “nines”. The more business-critical the service, the more nines one expects from the HA solution.
+              </p>
+              <p>
+                <h3>high Availability for you</h3>
+                GitLab provides an essential service to most organizations: it enables people to collaborate on code in a timely fashion. Downtime should be short and planned. Luckily, the distributed nature of Git makes it a very solid code versioning solution. In the event of an incident, developers can still be able to commit locally. However, some GitLab features such as the issue tracker and sharing code are not available when GitLab is down, which is where high availability setups come in.
               </p>
             </div>				
           </div>
