@@ -3,16 +3,17 @@
 Serve a local build on http://localhost:4000 using `bundle exec jekyll serve`.
 After each change you have to restart.
 
-# Deploying 
+# Deployment
+Set up a build server with a bare repository and the hook in `_support/hooks`.
+Install site and PDF build dependencies `sudo apt-get texlive-latex-recommended ruby1.9.1-dev ruby1.9.1`
 
-## s3cmd
-Install s3cmd (`brew install s3cmd` or `sudo apt-get install s3cmd`) and the AWS command
-line tools (`pip install awscli==0.14.1`).
-Configure s3cmd with credentials which have full access to s3://www.gitlab.com and put (or link)
-the `.s3cfg` file in the root of this repository. Then run `rake sync`.
+Unfortunately, the pandoc version that ships with Ubuntu 12.04 is too old, so we have to build from source.
 
-## pandoc
-`apt-get install pandoc`
+```
+sudo apt-get install haskell-platform
+sudo su - deploy # become the user who performs the build
+cabal update
+cabal install pandoc # takes a while
+```
 
-# Staging
-Run `rake stage` to create an S3 bucket for the current commit.
+Copy `_support/user/bash_profile` to `~deploy/.bash_profile` to make sure the build script picks up the pandoc executable.
