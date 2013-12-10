@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GitLab High Availability and Disaster Recovery
+title: GitLab High Availability
 ---
 <div id="content">
   <div class="container txt-lefty">			
@@ -11,13 +11,13 @@ title: GitLab High Availability and Disaster Recovery
             <div class="span12">
                 <h3>What is High Availability?</h3>
                 <p>                
-                    High availability is a system design that ensures a prearranged level of operational performance throughout a specific time-period. The most common way to measure HA is through the notion of uptime, which measures how long a service is up and running. Conversely, downtime measures how long the service is unavailable. It's common to express uptime in terms of "nines". A service that is up 90% of the time has one “nine”, whereas a service that is up 99.9% has three “nines”. The more business-critical the service, the more nines one expects from the HA solution.
+                    High availability is a system design that ensures a prearranged level of operational performance throughout a specific time-period. The most common way to measure HA is through the notion of uptime, which measures how long a service is up and running.
                 </p>
                 <p>
                     GitLab provides service that is usually essential to most organizations: it enables people to collaborate on code in a timely fashion. Any downtime should therefore be short and planned. Luckily, GitLab provides a solid setup with the even on a single server without special measures. And because of the distributed nature of git the developers can still commit code locally even when GitLab is not available. However, some GitLab features such as the issue tracker and Continuous Integration are not available when GitLab is down.
                 </p>
                 <p>
-                    It is important to keep in mind that all High Availability solutions come with a trade-off between cost/complexity and uptime. The more uptime you want, the more complex the solution. And the more complex the solution, the more work is involved in setting up and maintaining it. High availability is not free and every HA solution should balance the costs against the benefits.
+                    <b>Keep in mind that all High Availability solutions come with a trade-off between cost/complexity and uptime</b>. The more uptime you want, the more complex the solution. And the more complex the solution, the more work is involved in setting up and maintaining it. High availability is not free and every HA solution should balance the costs against the benefits.
                 </p>
                 <h3>High Availability for you</h3>
                 <p>                
@@ -26,20 +26,17 @@ title: GitLab High Availability and Disaster Recovery
                     <li>What are my specific needs for code availability?</li>
                     <li>What complexity level can my organization handle?</li>
                     </ol>
-                </p>
-                <p>
-                    Most organizations select a high availability solution for GitLab that is less complex than the solution they use for their primary customer facing infrastructure that directly generates revenue. It is important that you always choose something that you have experience with and will test regularly. A badly implemented HA solution causes more downtime than it solves. Also, it is more cost effective to go from a simple solution to a more complex one than the other way around.
-                </p>                
+                </p>               
                 <p>
                     HA solutions range from a cheap and simple back-up to highly complex and costly master-master configurations. When it comes to HA, there is unfortunately no way to split between an increase in complexity and an increase in cost.
                 </p>
                 <p>
-                    We recommend that you thoroughly analyze the benefits of an HA solution against its costs. Most organizations select a high availability solution for GitLab that is less complex than the one they use for their primary customer-facing infrastructure that directly generates revenue. It is important that you always choose something that you have experience with and will test regularly. A badly implemented HA solution causes more downtime than it solves. For example the <a href="http://www.drbd.org/users-guide/s-gfs-create-resource.html">DRBD user guide</a> states: "By configuring auto-recovery policies, you are effectively configuring automatic data-loss!". Also, it is more cost effective to go from a simple solution to a more complex one than the other way around. Therefore, we suggest you work your way up from the simplest solution and see what works best for you.
+                    We recommend that you thoroughly analyze the benefits of an HA solution against its costs. Most organizations select a High Availability solution for GitLab that is less complex than the one they use for their primary customer-facing infrastructure that directly generates revenue. <b>It is important that you always choose something that you have experience with and will test regularly</b>. A badly implemented HA solution causes more downtime than it solves. For example the <a href="http://www.drbd.org/users-guide/s-gfs-create-resource.html">DRBD user guide</a> states: "By configuring auto-recovery policies, you are effectively configuring automatic data-loss!". A badly implemented HA solution causes more downtime than it solves. Also, it is more cost effective to go from a simple solution to a more complex one than the other way around. Therefore, we suggest you work your way up from the simplest solution and see what works best for you.
                 </p>
                 <h3>Maturity levels</h3>
                 <h4>1. Backup of files and Database</h4>
                 <p>
-                    It is possible to automatically backup the GitLab repositories, configuration and the database. You can make a backup with the <a href="https://github.com/gitlabhq/gitlabhq/blob/master/lib/tasks/gitlab/backup.rake">GitLab backup tasks</a>: `rake gitlab:backup:create` and restore it with `rake gitlab:backup:restore`. In case the server becomes unavailable, then the backup can be used to restore the GitLab installation. a solution appropriate for teams that have a single metal server at their disposal.a solution appropriate for teams that have a single metal server at their disposal. We recommend you store the backup on an external location. Also we recommend automating the backup task and monitoring successful completion.
+                    It is possible to automatically backup the GitLab repositories, configuration and the database. You can make a backup with the <a href="https://github.com/gitlabhq/gitlabhq/blob/master/lib/tasks/gitlab/backup.rake">GitLab backup tasks</a>: `rake gitlab:backup:create` and restore it with `rake gitlab:backup:restore`. In case the server becomes unavailable, then the backup can be used to restore the GitLab installation. a solution appropriate for teams that have a single metal server at their disposal.a solution appropriate for teams that have a single metal server at their disposal. <b>We recommend you store the backup on an external location. Also we recommend automating the backup task and monitoring successful completion.</b>
                 </p>
                 <h4>2. Recovery from snapshot</h4>
                 <p>
@@ -58,7 +55,7 @@ title: GitLab High Availability and Disaster Recovery
                     The IP address mismatch issue can be resolved by using a floating IP, which is IP failover in a router, but as to be supported both by the router device and the network. If the new address is in a secondary geographical location, both locations need to be on the same network and have the same core router.
                 </p>
                 <p>
-                    Using recovery from snapshots is best suited for single virtual servers.    
+                    <b>Using recovery from snapshots is best suited for single virtual servers.</b>    
                 </p>
                 <h4>3. Multiple application servers</h4>
                 <p>
@@ -73,7 +70,7 @@ title: GitLab High Availability and Disaster Recovery
                 </p>
                 <h4>4. Single slave server</h4>
                 <p>
-                If you only want to use two machines for your HA solution, we recommend keeping one as a slave of the other. In this situation, each machine has the full GitLab repositories, configuration and the database. The slave server is a copy of the master. You can use Distributed Replicated Block Device (DRBD) to ensure that all data from the master is replicated to the slave in a timely manner.
+                    <b>If you only want to use two machines for your HA solution, we recommend keeping one as a slave of the other.</b> In this situation, each machine has the full GitLab repositories, configuration and the database. The slave server is a copy of the master. You can use Distributed Replicated Block Device (DRBD) to ensure that all data from the master is replicated to the slave in a timely manner.
                 </p>
                 <p>
                     Manual failover is done by mounting the file storage on the slave, which is turned into a master. At this point, the unavailable server should be turned off or taken off the network, to avoid it coming online with master status.
@@ -86,7 +83,7 @@ title: GitLab High Availability and Disaster Recovery
                 </p>
                 <h4>5. Filestore and DBMS slave servers</h4>
                 <p>
-                    It is not possible to combine the multiple application servers solution with a single slave server. In this situation you need to have a second site with multiple stateless application servers and a filestore and DBMS slave server.
+                    <b>It is not possible to combine the multiple application servers solution with a single slave server.</b> In this situation you need to have a second site with multiple stateless application servers and a filestore and DBMS slave server.
                 </p>
                 <p>
                     In this situation, users still connect via the load balanced application servers, but the filestore and the DBMS are copied to a slave server(s) in the same datacenter or in another location. Distributed Replicated Block Device (DRBD) can be used to pass data from the master filestore and DBMS servers to the slaves.
@@ -117,7 +114,7 @@ title: GitLab High Availability and Disaster Recovery
                     In the future GitLab might start using <a href="https://github.com/libgit2/libgit2-backends">libgit2-backends</a> to store the Git repositories in the database. In this case one clustered database can store all the state of the GitLab application. This would make a clustered system easier to set up. Unfortunately libgit2 and its ruby bindings <a href="https://github.com/libgit2/rugged">Rugged</a> do not contain all the functionality GitLab needs yet.
                 </p>
                 <p>
-                    While clustered or master/master configuration support is not part of the GitLab roadmap yet, there is good news. Different company HA needs can lead to alternative solutions that are simpler and cheaper. For example:
+                    While clustered or master/master configuration support is not part of the GitLab roadmap yet, there is good news. <b>Different company HA needs can lead to alternative solutions that are simpler and cheaper.</b> For example:
                     <ul>
                     <li>If you need write HA and fast recovery, any of the previous HA setups can be used.</li>
                     <li>If you need to locally clone large repo’s, then there is a third-party mirroring solution available for GitLab,            <a href="https://github.com/sag47/gitlab-mirrors">gitlab-mirrors</a></li>
@@ -125,7 +122,10 @@ title: GitLab High Availability and Disaster Recovery
                     <li>If what you need is a fast user experience for people working from different continents, using local git clients (command line, Tower, etc) can help.</li>
                     </ul>
                 </p>
-
+                <h4>Future steps</h4>
+                <p>
+                    High Availability is an on-going concern at GitLab. The information we provide here is just a rough guide designed to help you get a feel of the hardware, software and process implications of different HA setups. When it comes to specific situations, we prefer to assess them on a case-by-case basis. Therefore, we advise you to contact us for a technical call so we can discuss your needs at length. Whether you become a <a href="https://www.gitlab.com/subscription/">subscriber</a> or just want us to provide <a href="https://www.gitlab.com/consultancy/">consultancy</a>, we strongly suggest you solicit our support before engaging on the path of High Availability                    
+                </p>
             </div>				
           </div>
         </div>
