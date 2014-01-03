@@ -36,7 +36,7 @@ title: GitLab High Availability
                 <h3>Maturity levels</h3>
                 <h4>1. Backup of files and Database</h4>
                 <p>
-                    It is possible to automatically backup the GitLab repositories, configuration and the database. You can make a backup with the <a href="https://github.com/gitlabhq/gitlabhq/blob/master/lib/tasks/gitlab/backup.rake">GitLab backup tasks</a>: `rake gitlab:backup:create` and restore it with `rake gitlab:backup:restore`. In case the server becomes unavailable, then the backup can be used to restore the GitLab installation. a solution appropriate for teams that have a single metal server at their disposal.a solution appropriate for teams that have a single metal server at their disposal. <b>We recommend you store the backup on an external location. Also we recommend automating the backup task and monitoring successful completion.</b>
+                    It is possible to automatically backup the GitLab repositories, configuration and the database. You can make a backup with the <a href="https://github.com/gitlabhq/gitlabhq/blob/master/lib/tasks/gitlab/backup.rake">GitLab backup tasks</a>: `rake gitlab:backup:create` and restore it with `rake gitlab:backup:restore`. In case the server becomes unavailable, then the backup can be used to restore the GitLab installation. Solution appropriate for teams that have a single metal server at their disposal. <b>We recommend you store the backup on an external location. Also we recommend automating the backup task and monitoring successful completion.</b>
                 </p>
                 <h4>2. Recovery from snapshot</h4>
                 <p>
