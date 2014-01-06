@@ -5,7 +5,7 @@ git remote add deploy deploy@blue-moon.gitlap.com:~/www-gitlab-com.git
 git push deploy master
 ```
 
-#Development
+# Development
 
 Serve a local build on http://localhost:4000 using `bundle exec jekyll serve`.
 After each change you have to restart.
