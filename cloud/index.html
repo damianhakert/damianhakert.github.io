@@ -28,7 +28,15 @@ title: GitLab Cloud
               <h2>Availability</h2>
               <p>GitLab Cloud is monitored 24/7. You can see its current and historic performance on our <a title="status" href="http://status.gitlab.com/">status page.</a></p>
               <h2>Why is GitLab Cloud free</h2>
-              <p>We offer GitLab Cloud for free to widen the audience for GitLab. Many organizations that end up running GitLab on-premise started with GitLab Cloud. But many organizations never switch and keep using GitLab Cloud because it is a great service and this is fine with us. The income we generate with <a href='https://www.gitlab.com/subscription/'>subscriptions for on-premise installations</a> is sufficient to cover the costs of GitLab Cloud and our work on the GitLab Community Edition. In the future we might expand our Cloud offerings based on customer demand. We will likely add paid extra's for costly services such as phone support. But we plan to continue to offer the core service for free.</p>
+              <p>We offer GitLab Cloud for free to widen the audience for GitLab. The income we generate with <a href='https://www.gitlab.com/subscription/'>subscriptions for on-premise installations</a> is sufficient to cover the costs of GitLab Cloud and our work on the GitLab Community Edition. In the future we might expand our Cloud offerings based on customer demand. We will likely add paid extra's for costly services such as phone support. But we plan to continue to offer the core service for free.</p>
+              <h2>Limitations</h2>
+              <p>
+                GitLab Cloud does not allow you to easily export your repositories, wiki's and issues to your own GitLab instance.
+                Of couse you can git clone the repositories and import then with <a href='https://gitlab.com/gitlab-org/gitlab-ce/blob/master/lib/tasks/gitlab/import.rake'>a rake task</a>.
+                And since the wiki is backed by a git repo you can clone that as well.
+                But these are manual actions and for the issues there is no automation available except for <a href='http://api.gitlab.org/issues.html'>the issue API</a>.
+                So if you plan on using your own server eventually please consider doing so from the start.
+              </p>
             </div>				
           </div>
         </div>
