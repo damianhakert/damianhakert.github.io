@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GitLab Enterprise Edition license Change
+title: GitLab Enterprise Edition license change
 date: February 4, 2014
 author: Sytse Sijbrandij
 ---
