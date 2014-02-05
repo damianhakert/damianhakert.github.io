@@ -4,8 +4,8 @@ title: GitLab Enterprise Edition license Change
 date: February 4, 2014
 author: Sytse Sijbrandij
 ---
-On July 22, 2013 we [introduced GitLab Enterprise Edition](http://blog.gitlab.org/announcing-gitlab-enterprise-edition/).
-Since then both that and the Community Edition have grow and flourished.
+On July 22, 2013 we [introduced GitLab Enterprise Edition (EE)](http://blog.gitlab.org/announcing-gitlab-enterprise-edition/).
+Since then, both EE and the Community Edition have grown and flourished.
 There are now multiple Fortune 100 companies running the Enterprise Edition and the use of the Community Edition has doubled to 50.000 organizations.
 
 One thing that was confusing to potential subscribers is the license model for the Enterprise Edition.
@@ -14,7 +14,7 @@ Explaining the current open source license combined with a required subscription
 Therefore we are changing the license on the Enterprise Edition to one where the parts developed by GitLab.com are copyrighted by us.
 We always expected organizations to have a valid subscription when using Enterprise Edition and this change formalizes that.
 
-We hope you see this license change helps us to convince potential subscribers to choose for GitLab.
+We hope this licence change reduces confusion and increases the chance potential subscribers select GitLab as their primary code hosting tool.
 We feel that the past 6 months have shown that the development of the Community Edition is a priority for GitLab.com.
 With the help of the rest of the community we've done 5 releases with many new features and bug-fixes.
 The Community Edition will keep being a fully functional application that will not be restricted in any way.
