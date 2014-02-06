@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GitLab Enterprise Edition license change
-date: February 4, 2014
+date: February 11, 2014
 author: Sytse Sijbrandij
 ---
 On July 22, 2013 we [introduced GitLab Enterprise Edition (EE)](http://blog.gitlab.org/announcing-gitlab-enterprise-edition/).
