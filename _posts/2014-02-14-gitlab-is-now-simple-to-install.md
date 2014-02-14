@@ -30,7 +30,7 @@ Last but not least are the two GitLab Omnibus packages.
 A [deb package for Ubuntu 12.04 LTS](XXX) and a [RPM package for CentOS 6](XXX).
 These are packages of GitLab 6.6pre and should not be used on production machines.
 When GitLab 6.6 is stable we will update the packages and link them in the GitLab readme.
-Creating these package has been a dream for a long time.
+Creating these package has been a dream of us for a long time.
 GitLab has a lot of dependencies which means that native packages would require packaging hundreds of gems.
 To solve this we used [omnibus-ruby] that Chef Inc. uses to package Chef and Chef Server.
 Based on [omnibus-chef-server](https://github.com/opscode/omnibus-chef-server) we made [omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md) that you can use to create your own package.
