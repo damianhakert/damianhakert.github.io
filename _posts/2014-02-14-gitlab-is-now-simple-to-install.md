@@ -22,13 +22,14 @@ It supports MySQL and PostgreSQL databases, both in the same server as external 
 The cookbook is [well tested](https://gitlab.com/gitlab-org/cookbook-gitlab/tree/master/spec) with [ChefSpec](https://github.com/sethvargo/chefspec).
 For cloud fans there even is [a version that runs on AWS Opsworks](https://gitlab.com/gitlab-com/cookbook-gitlab-opsworks/blob/master/README.md).
 
-If you want to quickly spin up a production GitLab server you can also use or [GitLab virtual machine images](XXX).
-For now we have Ubuntu 12.04 and CentOS 6 images with GitLab preinstalled. These are made with [Packer](http://www.packer.io/) and [the source code to create your versions](https://gitlab.com/gitlab-org/gitlab-packer/blob/master/README.md) is available.
+If you want to quickly spin up a production GitLab server you can also use a virtual machine image with GitLab preinstalled.
+The [downloads page](https://www.gitlab.com/downloads/) already has an Ubuntu 12.04 image and CentOS 6.5 will come soon.
+These are made with [Packer](http://www.packer.io/) and [the source code to create your versions](https://gitlab.com/gitlab-org/gitlab-packer/blob/master/README.md) is available.
 Example configurations for Digital Ocean and AWS are included. These images are created with the official Chef cookbook mentioned earlier.
 
 Last but not least are the two GitLab Omnibus packages.
-A [deb package for Ubuntu 12.04 LTS](XXX) and a [RPM package for CentOS 6](XXX).
-These are packages of GitLab 6.6pre and should not be used on production machines.
+A deb package for Ubuntu 12.04 LTS and a RPM package for CentOS 6 can be found on the [downloads page](https://www.gitlab.com/downloads/).
+These are packages of the GitLab 6.6.0.pre and should not be used on production machines.
 When GitLab 6.6 is stable we will update the packages and link them in the GitLab readme.
 Even when stable these packages currently support a reduced selection of GitLab's normal features.
 It is not yet possible to create/restore application backups or to use HTTPS, for instance.
@@ -41,7 +42,7 @@ So now you can finally install GitLab with:
 
 ```
 apt-get install -y openssh-server postfix
-dpkg -i gitlab_6.6.0-pre.omnibus.d41e404e09c79394ff1938eee01b56345edc6ed9-1.ubuntu.12.04_amd64.deb
+dpkg -i gitlab_6.6.0-pre1.omnibus.2-1.ubuntu.12.04_amd64.deb
 gitlab-ctl reconfigure
 ```
 
