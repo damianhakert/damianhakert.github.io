@@ -30,7 +30,10 @@ Last but not least are the two GitLab Omnibus packages.
 A [deb package for Ubuntu 12.04 LTS](XXX) and a [RPM package for CentOS 6](XXX).
 These are packages of GitLab 6.6pre and should not be used on production machines.
 When GitLab 6.6 is stable we will update the packages and link them in the GitLab readme.
-Creating these package has been a dream of us for a long time.
+Even when stable these packages currently support a reduced selection of GitLab's normal features.
+It is not yet possible to create/restore application backups or to use HTTPS, for instance.
+But it is a start and we look forward to improving them together with the rest of the GitLab community.
+Creating these package has been our dream for a long time.
 GitLab has a lot of dependencies which means that native packages would require packaging hundreds of gems.
 To solve this we used [omnibus-ruby] that Chef Inc. uses to package Chef and Chef Server.
 Based on [omnibus-chef-server](https://github.com/opscode/omnibus-chef-server) we made [omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md) that you can use to create your own package.
@@ -44,5 +47,5 @@ gitlab-ctl reconfigure
 
 Like any active project there are still many way to improve the [GitLab Chef cookbook](https://gitlab.com/gitlab-org/cookbook-gitlab/issues), the [GitLab Packer virtual machines](https://gitlab.com/gitlab-org/gitlab-packer/issues) and [GitLab Omnibus packages](https://gitlab.com/gitlab-org/omnibus-gitlab/issues) so we welcome your help.
 We would like to thank the awesome GitLab community and the [GitLab subscribers](https://www.gitlab.com/subscription/) for their support.
-Of couse, all previous installation options will continue to be available.
+Of course, all previous installation options will continue to be available.
 Please join the celebration in the comments and let us know if you have any questions.
