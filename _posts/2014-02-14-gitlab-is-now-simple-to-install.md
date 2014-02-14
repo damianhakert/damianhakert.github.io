@@ -13,7 +13,7 @@ To grow even faster we needed to simplify the update and installations processes
 So in GitLab 6.4 we made sure that [upgrading is now only a single command](http://blog.gitlab.org/gitlab-ce-6-dot-4-released/).
 Today we can announce that installing GitLab is also greatly simplified.
 
-You now gave has three new options to install GitLab: an official GitLab Chef cookbook, GitLab Packer virtual machines and GitLab Omnibus packages.
+You now has three new options to install GitLab: an official GitLab Chef cookbook, GitLab Packer virtual machines and GitLab Omnibus packages.
 
 The [official GitLab Chef cookbook](https://gitlab.com/gitlab-org/cookbook-gitlab/blob/master/README.md) is the most flexible option.
 It supports both development and production environments and both Ubuntu and RHEL/CentOS operating systems.
