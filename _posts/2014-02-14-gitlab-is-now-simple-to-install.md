@@ -35,7 +35,7 @@ It is not yet possible to create/restore application backups or to use HTTPS, fo
 But it is a start and we look forward to improving them together with the rest of the GitLab community.
 Creating these package has been our dream for a long time.
 GitLab has a lot of dependencies which means that native packages would require packaging hundreds of gems.
-To solve this we used [omnibus-ruby] that Chef Inc. uses to package Chef and Chef Server.
+To solve this we used [omnibus-ruby](https://github.com/opscode/omnibus-ruby) that Chef Inc. uses to package Chef and Chef Server.
 Based on [omnibus-chef-server](https://github.com/opscode/omnibus-chef-server) we made [omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md) that you can use to create your own package.
 So now you can finally install GitLab with:
 
