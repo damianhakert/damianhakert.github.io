@@ -15,4 +15,4 @@ In addition to the [improvements in GitLab Community Edition 6.6](http://blog.gi
 Note that GitLab Enterprise Edition 6.6 is the first release under our [new license](/2014/02/11/gitlab-ee-license-change/).
 Our [subscribers](https://www.gitlab.com/subscription/) can download GitLab 6.6 Enterprise Edition from [GitLab Cloud](https://gitlab.com).
 
-_Updated 26 Febrary 2014: Refer to the license change._
+_Updated 27 Febrary 2014: Refer to the license change._
