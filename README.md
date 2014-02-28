@@ -7,7 +7,11 @@ git push deploy master
 
 # Development
 
-Serve a local build on http://localhost:4000 using `bundle exec rake preview`.
+Serve a local build on http://localhost:4000 using:
+
+```
+bundle exec rake preview
+```
 
 # Deployment setup
 Set up a build server with a bare repository and the hook in `_support/hooks`.
