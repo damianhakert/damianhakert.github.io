@@ -408,29 +408,29 @@ ul.plans {
 /* Footer
 -------------------------------------------------- */
 #footer {
-    padding: 20px 0;
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 #footer h3  {
-    margin-bottom: 5px;
-	text-transform: uppercase;
+  margin-bottom: 5px;
+  text-transform: uppercase;
 }
 #footer ul {
-    list-style: none outside none;
-    margin: 0;
+  list-style: none outside none;
+  margin: 0;
 }
 #footer li {
-    padding: 0 0 5px;
+  padding: 0 0 5px;
 }
 #footer a {
-    display: inline-block;
+  display: inline-block;
 }
 #footer a:hover {
-	-webkit-animation-name: slide;
-	-moz-animation-name: slide;
-	-o-animation-name: slide;
-	animation-name: slide;
-	text-decoration: underline;	
+  -webkit-animation-name: slide;
+  -moz-animation-name: slide;
+  -o-animation-name: slide;
+  animation-name: slide;
+  text-decoration: underline;
 }
 .footer_text {
     font-family: "Open Sans","Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
