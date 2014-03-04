@@ -5,7 +5,7 @@ date: March 04, 2014
 author: Marc Radulescu
 ---
 ### 360i decides to move away from SVN
-360i recently caught the spotlight for being the most innovative and one of the most successful digital media companies in the US. They focus on digitally centric programs for their customers, with campaigns for renowned brands such as Oreo’s, Toyota, Hanes and Ben & Jerry's. Their continuously innovative ideas are made possible, in part, by a software infrastructure maintained using GitLab.
+360i recently caught the spotlight for being the most innovative and one of the most successful digital media companies in the US. They focus on digitally centric programs for their customers, with campaigns for renowned brands such as Oreo, Toyota, Hanes and Ben & Jerry's. Their continuously innovative ideas are made possible, in part, by a software infrastructure maintained using GitLab.
  
 Initially, 360i was using SVN for their code revision control, but they recently decided to look for alternatives. At first, the developers’ main goal was to move away from the SVN legacy system because of its limited collaboration options and big storage demands. Once they began using GitLab, however, they found that not only is the underlying Git a better system, but GitLab’s collaboration tools and open-source code are bringing added value to the company.
 
