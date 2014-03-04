@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 360i transitions to GitLab
-date: February 26, 2014
+date: March 04, 2014
 author: Marc Radulescu
 ---
 ### 360i decides to move away from SVN
