@@ -396,6 +396,37 @@ ul.plans {
     margin-right: 5px;
 }
 
+.team {
+  margin:0px;
+}
+.team li {
+  list-style: none;
+  display:inline;
+}
+
+.linkedin{
+  background-image: url(/images/linkedin.png);
+  width: 40px;
+  height:40px;
+  float: left;
+}
+.twitter{
+  background-image: url(/images/twitter.png);
+  width: 40px;
+  height:40px;
+  float: left;
+  margin-left:15px;
+}
+.github{
+  background-image: url(/images/github.png);
+  width: 40px;
+  height:40px;
+  float: left;
+  margin-left:15px;
+}
+.no-margin {
+  margin-left: 0px;
+}
 /* Blog
 -------------------------------------------------- */
 .entry {
