@@ -402,3 +402,47 @@ task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
   puts "(type rake -T for more detail)\n\n"
 end
+
+BUILD_DIR = 'public/'
+DEPLOY_LOCATION = 'deploy@blue-moon.gitlap.com:public/'
+DEPLOY_BRANCH = 'master'
+PDFS = FileList['source/terms/print/*.html'].pathmap('%{^source,public}X.pdf')
+
+task :clean do
+  rm_rf BUILD_DIR
+end
+
+desc "Build website in #{BUILD_DIR}"
+task :build => [:clean, :generate, :pdfs]
+
+rule %r{^public/terms/print/.*\.pdf} => [->(f) { f.pathmap('%X.html') }] do |pdf|
+  options = %W(--template=_terms_template.tex --latex-engine=xelatex -V date=#{Time.now.to_s})
+  warn "Generating #{pdf.name}"
+  abort("Pandoc failed") unless system('pandoc', *options, '-o', pdf.name, pdf.source)
+end
+
+desc 'Generate PDFs'
+task :pdfs => PDFS
+
+desc "Deploy master to #{DEPLOY_LOCATION}"
+task :sync => [:no_changes, :check_branch, :build] do
+  warn "Deploying to #{DEPLOY_LOCATION}"
+  system *%W(rsync --delete-after -r #{BUILD_DIR} #{DEPLOY_LOCATION})
+end
+
+task :check_branch do
+  unless `git rev-parse --abbrev-ref HEAD`.chomp == DEPLOY_BRANCH
+    abort("Can only deploy from #{DEPLOY_BRANCH}")
+  end
+end
+
+task :no_changes do
+  unless system(*%w{git diff --quiet HEAD})
+    abort("Cannot deploy when there are uncomitted changes")
+  end
+end
+
+task :install do
+  warn('Installing nginx config to /etc/nginx/sites-available')
+  system('sudo', 'cp', '_support/nginx/www.gitlab.com', '/etc/nginx/sites-available')
+end
