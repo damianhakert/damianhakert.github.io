@@ -427,6 +427,17 @@ ul.plans {
 .no-margin {
   margin-left: 0px;
 }
+h2.title{
+  margin:25px 0;
+}
+h3.title {
+  margin: 18px 0;
+  font-weight: normal;
+  color: #444;
+}
+.padding {
+  margin: 25px 0;
+}
 /* Blog
 -------------------------------------------------- */
 .entry {
