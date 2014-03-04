@@ -8,5 +8,5 @@ cd /tmp
 git clone $repo
 cd $repo_name
 bundle install --path ~/bundle
-bundle exec rake generate
+bundle exec rake build
 rsync -r --delete-after public/ ~/public/
