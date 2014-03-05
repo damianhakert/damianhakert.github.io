@@ -6,7 +6,7 @@ author: Jacob Vosmaer
 ---
 Today we announce the release of GitLab Enterprise Edition 6.4. 
 GitLab is an open source code hosting and project managament application.
-In addition to the improvements found in [GitLab Community Edition 6.4](http://blog.gitlab.org/gitlab-ce-6-dot-4-released/) this release contains the following changes for GitLab Enterprise Edition.
+In addition to the improvements found in [GitLab Community Edition 6.4](/2013/12/21/gitlab-ce-6-dot-4-released/) this release contains the following changes for GitLab Enterprise Edition.
 
 ### Improvements
 - LDAP group synchronization now respects existing permissions;

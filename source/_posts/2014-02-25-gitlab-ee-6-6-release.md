@@ -6,7 +6,7 @@ author: Jacob Vosmaer
 ---
 Today we announce the release of GitLab Enterprise Edition 6.6.0. 
 GitLab is an open source code hosting and project managament application.
-In addition to the [improvements in GitLab Community Edition 6.6](http://blog.gitlab.org/gitlab-6-dot-6-released/), GitLab Enterprise Edition 6.6.0 contains the following improvements:
+In addition to the [improvements in GitLab Community Edition 6.6](/2014/02/21/gitlab-6-dot-6-released/), GitLab Enterprise Edition 6.6.0 contains the following improvements:
 
 - Feature: permission reset button for LDAP groups.
   For example, if you accidentally gave your entire organization Master access in a GitLab Group, you can now correct that by changing the default access level for the group and pressing the 'Reset access' button.
