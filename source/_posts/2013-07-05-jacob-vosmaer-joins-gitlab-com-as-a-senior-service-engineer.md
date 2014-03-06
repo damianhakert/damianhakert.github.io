@@ -12,6 +12,6 @@ meta:
   _wpas_skip_1532919: '1'
   _elasticsearch_indexed_on: '2013-07-05 15:04:03'
 ---
-![](/img/picture_jacob.png) As of this week Jacob Vosmaer joins GitLab.com as a senior service engineer. He will be providing support, installation/maintenance and development services for GitLab Cloud and our support and consultancy customers. In addition, he will support the GitLab.org open source community.
+![](/images/team/picture_jacob.png) As of this week Jacob Vosmaer joins GitLab.com as a senior service engineer. He will be providing support, installation/maintenance and development services for GitLab Cloud and our support and consultancy customers. In addition, he will support the GitLab.org open source community.
 
 After obtaining a PhD in mathematics and briefly pursuing an academic career, Jacob became a professional software developer in 2012. Motivated by his own experiences switching careers he has been helping others do the same, for instance by coaching at RailsGirls events. Today he is excited to be working on open source software and helping organisations around the world collaborate better using Git and GitLab.

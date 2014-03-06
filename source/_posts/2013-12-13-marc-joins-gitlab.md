@@ -12,4 +12,4 @@ Marc worked as pricing specialist for HP in Bucharest before moving to the Nethe
 
 On a personal note, Marc knows just enough about programming to talk for five minutes without people noticing he does not have a technical background. It's part of his new years' resolutions to ramp this up to ten minutes for the year 2014. When not helping out our customers, Marc is busy cooking, trying out cocktail recipes and watching Starcraft 2 streams.
 
-<img src="/img/picture_marc.png" alt="gitlab.com">
+<img src="/images/team/picture_marc.png" alt="gitlab.com">

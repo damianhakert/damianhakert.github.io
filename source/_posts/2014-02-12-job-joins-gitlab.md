@@ -3,7 +3,7 @@ layout: post
 title: Job van der Voort joins Gitlab as Junior Service Engineer
 date: February 11, 2014
 ---
-<img src="/img/picture_job.png" style="float: right; margin-left: 15px;">
+<img src="/images/team/picture_job.png" style="float: right; margin-left: 15px;">
 
 From this week on, Job joins Gitlab.com as junior service engineer. He will be providing support to our customers, support the Gitlab open source community and help grow Gitlab.
 
