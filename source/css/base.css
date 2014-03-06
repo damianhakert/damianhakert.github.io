@@ -592,3 +592,33 @@ h2.terms {
     display: none;
   }  
 }
+
+/* Embeding video */
+
+@media (min-width: 992px) {
+    .videoembed {
+        width: 960px;
+        height: 540px; /* 720px */
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .videoembed {
+        width: 640px;
+        height: 360px; /* 480px */
+    }
+}
+
+@media (min-width: 481px) and (max-width: 766px) {
+    .videoembed {
+        width: 480px;
+        height: 270px; /* 320px */
+    }
+}
+
+@media (max-width: 480px) {
+    .videoembed {
+        width: 300px;
+        height: 169px; /* 225px */
+    }
+}
