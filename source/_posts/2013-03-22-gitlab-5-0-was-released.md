@@ -11,5 +11,6 @@ meta:
   _wpas_done_1532919: '1'
   publicize_twitter_user: gitlabhq
   _elasticsearch_indexed_on: '2013-03-22 14:23:24'
+community: true
 ---
 Today GitLab 5.0 was released. The [release announcement ](http://blog.gitlab.org/gitlab-5-dot-0-has-been-released/) has all the details. A lot of the improvements in GitLab where needed for GitLab.com Cloud. These performance and concurrency improvements all made their way into GitLab 5.0. GitLab.com is already running GitLab 5.0 beta and will be upgraded to stable this Sunday.

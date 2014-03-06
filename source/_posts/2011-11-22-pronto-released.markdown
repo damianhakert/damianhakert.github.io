@@ -4,6 +4,7 @@ title: Pronto released
 wordpress_id: 69
 wordpress_url: http://blog.gitlabhq.com/?p=69
 date: 2011-11-22 20:28:54 +00:00
+comments: false
 ---
 Gitlab 'Pronto' v1.2 released!
 checkout <code>master</code> or <code>pronto</code> branches
