@@ -3,7 +3,8 @@ layout: post
 title: "Markdown newline behaviour"
 date: 2014-02-21 11:47
 comments: true
-categories: 
+categories:
+community: true
 ---
 
 Currently GitLab renders line-breaks in markdown files as line-breaks.

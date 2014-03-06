@@ -4,6 +4,7 @@ title: "GitLab CE 6.6 released"
 date: 2014-02-21 11:47
 comments: true
 categories: 
+community: true
 ---
 
 ### GitLab CE 6.6 released!
