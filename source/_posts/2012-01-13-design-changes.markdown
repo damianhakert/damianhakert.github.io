@@ -4,6 +4,7 @@ title: Design changes
 wordpress_id: 191
 wordpress_url: http://blog.gitlabhq.com/?p=191
 date: 2012-01-13 21:43:55 +00:00
+comments: false
 ---
 We made changes to design & layout of gitlab. 
 Goal of changes is to reach bigger working area & minimalistic UI. 

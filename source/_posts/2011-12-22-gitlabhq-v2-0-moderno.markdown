@@ -4,6 +4,7 @@ title: "Gitlabhq v2.0: Moderno"
 wordpress_id: 153
 wordpress_url: http://blog.gitlabhq.com/?p=153
 date: 2011-12-22 09:54:45 +00:00
+comments: false
 ---
 <h2>Giltab v2.0 'Moderno' released!</h2>
 <p>We finally moved from gitosis to gitolite. It'll allow us to make a lot of useful features in future.</p>

@@ -5,6 +5,7 @@ wordpress_id: 419
 wordpress_url: http://blog.gitlabhq.com/?p=419
 comments: true
 date: 2012-06-22 04:00:57 +00:00
+community: true
 ---
 <p>Meet the new GITLAB version  - 2.6</p>
 <p>This release contains almost 200 commits and have a lot of major & minor improvements</p>

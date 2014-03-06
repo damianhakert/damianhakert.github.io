@@ -4,6 +4,7 @@ title: "Gitlab 5.1 released"
 date: 2013-04-22 11:11
 comments: true
 categories:
+community: true
 ---
 
 ### GitLab 5.1 released

@@ -3,7 +3,8 @@ layout: post
 title: "Integrating GitLab CI with GitLab to enable distributed builds"
 date: 2013-06-20 09:27
 comments: true
-categories: 
+categories:
+community: true
 ---
 
 ### Integrating GitLab CI with GitLab to enable distributed builds

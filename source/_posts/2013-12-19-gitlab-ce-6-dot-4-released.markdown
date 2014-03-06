@@ -5,6 +5,7 @@ date: 2013-12-21 12:20
 author: Dmitriy Zaporozhets
 comments: true
 categories:
+community: true
 ---
 
 ### GitLab CE 6.4 released!

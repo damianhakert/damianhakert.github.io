@@ -4,6 +4,7 @@ title: "GitLab 5.0 release, standing on its own two feet"
 date: 2013-03-22 12:02
 comments: true
 categories:
+community: true
 ---
 
 ### GitLab 5.0 release, standing on its own two feet

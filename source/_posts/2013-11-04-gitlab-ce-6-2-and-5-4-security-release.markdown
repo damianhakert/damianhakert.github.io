@@ -5,6 +5,7 @@ date: 2013-11-04 19:00
 author: Jacob Vosmaer
 comments: true
 categories:
+community: true
 ---
 ### GitLab CE 6.2 and 5.4 security releases
 

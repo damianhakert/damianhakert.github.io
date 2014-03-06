@@ -5,6 +5,7 @@ date: 2014-01-07
 comments: true
 author: Sytse Sijbrandij
 categories:
+community: true
 ---
 
 ### Hosting GitLab on GitLab

@@ -5,6 +5,7 @@ date: 2013-05-28 11:17
 comments: true
 categories: gsoc
 author: Axilleas Pipinellis
+community: true
 ---
 
 Hi everyone!

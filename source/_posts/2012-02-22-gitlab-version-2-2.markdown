@@ -4,6 +4,7 @@ title: Gitlab Version 2.2
 wordpress_id: 214
 wordpress_url: http://blog.gitlabhq.com/?p=214
 date: 2012-02-22 10:32:45 +00:00
+comments: false
 ---
 <h2>Up to v2.2</h2>
 

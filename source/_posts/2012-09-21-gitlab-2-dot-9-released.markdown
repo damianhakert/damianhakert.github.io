@@ -3,7 +3,8 @@ layout: post
 title: "GitLab v2.9 is released"
 date: 2012-09-21 18:45
 comments: true
-categories: 
+categories:
+community: true
 ---
 
 ### GITLAB 2.9 released

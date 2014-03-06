@@ -3,7 +3,8 @@ layout: post
 title: "GITLAB 2.7"
 date: 2012-07-17 16:45
 comments: true
-categories: 
+categories:
+community: true
 ---
 
 ### Meet the new GITLAB version  - 2.7

@@ -5,6 +5,7 @@ date: 2013-12-19
 author: Sytse Sijbrandij
 comments: true
 categories:
+community: true
 ---
 
 ### GitLab CI with parallel builds and deployments

@@ -5,6 +5,7 @@ date: 2013-11-14 15:00
 author: Jacob Vosmaer
 comments: true
 categories:
+community: true
 ---
 ### Multiple critical vulnerabilities in GitLab
 New critical vulnerabilities recently discovered in GitLab enable unauthenticated API access, remote code execution, local file inclusion and unauthorized access to private repositories. All users should update GitLab and gitlab-shell immediately.

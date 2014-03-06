@@ -5,6 +5,7 @@ date: 2013-12-05
 author: Jacob Vosmaer
 comments: true
 categories:
+community: true
 ---
 ### GitLab 6.3.1 security release
 We have just released GitLab Community Edition 6.3.1 and GitLab Enterprise Edition 6.3.1 in response to this week's [Ruby on Rails security update 3.2.16](http://weblog.rubyonrails.org/2013/12/3/Rails_3_2_16_and_4_0_2_have_been_released/).

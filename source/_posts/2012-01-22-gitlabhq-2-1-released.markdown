@@ -4,6 +4,7 @@ title: Gitlabhq 2.1 released!
 wordpress_id: 202
 wordpress_url: http://blog.gitlabhq.com/?p=202
 date: 2012-01-22 19:11:57 +00:00
+comments: false
 ---
 <h2>New UI:</h2>
 <a href="http://blog.gitlabhq.com/wp-content/uploads/2012/01/code_browse.png"><img src="http://blog.gitlabhq.com/wp-content/uploads/2012/01/code_browse-300x177.png" alt="" title="code_browse" width="300" height="177" class="alignleft size-medium wp-image-203" /></a>

@@ -4,6 +4,7 @@ title: Some screens from 2.3pre
 wordpress_id: 246
 wordpress_url: http://blog.gitlabhq.com/?p=246
 date: 2012-03-07 12:26:43 +00:00
+comments: false
 ---
 We have 2 major backend changes in 2.3
 1. Resque <strong/>is required</strong> for application functionality

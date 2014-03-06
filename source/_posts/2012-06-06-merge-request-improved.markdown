@@ -5,6 +5,7 @@ wordpress_id: 407
 wordpress_url: http://blog.gitlabhq.com/?p=407
 comments: true
 date: 2012-06-06 08:28:18 +00:00
+community: true
 ---
 <p>We added some improvement to keep your repo cleaner. Now you can remove source branch with merge.
  Just check "Remove source-branch" before accept MR. And source branch will be removed after successful merge </p>

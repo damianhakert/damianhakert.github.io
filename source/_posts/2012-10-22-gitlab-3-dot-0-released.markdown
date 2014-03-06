@@ -3,7 +3,8 @@ layout: post
 title: "GitLab 3"
 date: 2012-10-22 18:00
 comments: true
-categories: 
+categories:
+community: true
 ---
 
 ### GitLab version 3.0 released

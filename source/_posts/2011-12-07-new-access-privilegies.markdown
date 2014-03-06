@@ -4,6 +4,7 @@ title: New access privilegies
 wordpress_id: 119
 wordpress_url: http://blog.gitlabhq.com/?p=119
 date: 2011-12-07 14:25:25 +00:00
+comments: false
 ---
 <a href="http://blog.gitlabhq.com/wp-content/uploads/2011/12/gitLab_access1.png"><img class="aligncenter size-full wp-image-120" title="gitLab_access" src="http://blog.gitlabhq.com/wp-content/uploads/2011/12/gitLab_access1.png" alt="" width="1162" height="782" /></a>
 

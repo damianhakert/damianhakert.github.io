@@ -5,6 +5,7 @@ date: 2013-12-20 13:22
 comments: true
 author: Dmitriy Zaporozhets
 categories:
+community: true
 ---
 
 ### GitLab CI version 4.1 released

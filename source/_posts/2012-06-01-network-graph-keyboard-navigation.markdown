@@ -5,6 +5,7 @@ wordpress_id: 401
 wordpress_url: http://blog.gitlabhq.com/?p=401
 comments: true
 date: 2012-06-01 18:04:23 +00:00
+community: true
 ---
 Now You can move around the graph by using arrow keys (left and right). 
 

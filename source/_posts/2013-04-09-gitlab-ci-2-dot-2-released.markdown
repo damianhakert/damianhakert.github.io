@@ -3,7 +3,8 @@ layout: post
 title: "GitLab CI 2.2 released"
 date: 2013-04-09 16:56
 comments: true
-categories: 
+categories:
+community: true
 ---
 
 ### GitLab CI version 2.2 released

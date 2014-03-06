@@ -3,7 +3,8 @@ layout: post
 title: "GitLab 4.0 released"
 date: 2012-12-23 14:20
 comments: true
-categories: 
+categories:
+community: true
 ---
 
 ### GITLAB 4.0 released

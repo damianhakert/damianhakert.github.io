@@ -3,7 +3,8 @@ layout: post
 title: "GITLAB 2.8 released"
 date: 2012-08-22 17:45
 comments: true
-categories: 
+categories:
+community: true
 ---
 
 ### GITLAB 2.8 released

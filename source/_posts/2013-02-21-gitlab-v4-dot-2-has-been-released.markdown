@@ -3,7 +3,8 @@ layout: post
 title: "GitLab v4.2 has been released"
 date: 2013-02-21 16:45
 comments: true
-categories: 
+categories:
+community: true
 ---
 
 ### GITLAB 4.2 has been released

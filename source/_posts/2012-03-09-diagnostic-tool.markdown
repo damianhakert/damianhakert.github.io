@@ -5,6 +5,7 @@ wordpress_id: 254
 wordpress_url: http://blog.gitlabhq.com/?p=254
 comments: true
 date: 2012-03-09 18:52:26 +00:00
+community: true
 ---
 We pushed to master new support util.
 If you have some troubles with gitlab installation - try diagnostic tool.

@@ -3,7 +3,8 @@ layout: post
 title: "Announcing GitLab CI 3.0"
 date: 2013-07-09 13:01
 comments: true
-categories: 
+categories:
+community: true
 ---
 
 ### Announcing GitLab CI 3.0

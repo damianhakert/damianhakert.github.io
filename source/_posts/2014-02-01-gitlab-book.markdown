@@ -3,7 +3,8 @@ layout: post
 title: "GitLab book"
 date: 2014-02-01 14:49
 comments: true
-categories: 
+categories:
+community: true
 ---
 
 ## GitLab Book

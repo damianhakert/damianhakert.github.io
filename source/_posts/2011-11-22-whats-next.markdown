@@ -4,6 +4,7 @@ title: What's next?
 wordpress_id: 84
 wordpress_url: http://blog.gitlabhq.com/?p=84
 date: 2011-11-22 23:05:13 +00:00
+comments: false
 ---
 'Pronto' released. We are on our way to version 2. The main goal is <strong>gitolite</strong> support. I think of some other features I find useful for project:
 <ul>
