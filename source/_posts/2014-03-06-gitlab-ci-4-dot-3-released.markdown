@@ -7,8 +7,6 @@ categories:
 author: Dmitriy Zaporozhets
 ---
 
-## GitLab CI 4.3 released
-
 Hi everyone!
 
 As you know GitLab CI is a continuous integration server.
