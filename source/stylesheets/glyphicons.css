@@ -5,10 +5,6 @@
  *  Twitter:  @jankovarik
  *
  */
-html,
-html .halflings {
-  -webkit-font-smoothing: antialiased !important;
-}
 @font-face {
   font-family: 'Glyphicons';
   src: url('../fonts/glyphicons-regular.eot');
