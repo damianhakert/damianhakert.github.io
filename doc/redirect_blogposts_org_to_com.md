@@ -10,6 +10,14 @@ rewrite ^/team/ https://www.gitlab.com/core-team/ permanent;
 rewrite ^/donate/ https://www.gitlab.com/contributing/ permanent;
 ```
 
+In sites-available:
+
+```
+  location / {
+    rewrite ^/$ https://www.gitlab.com/ redirect;
+  }
+```
+
 
 Redirect from blog.gitlab.org to www.gitlab.com/blog posts is done in `/etc/nginx/conf.d/blog_rewrite_rules.rule` and included in the main nginx conf on gitlab.org server.
 
