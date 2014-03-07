@@ -1,4 +1,18 @@
+Redirect from gitlab.org to www.gitlab.com/ is done in `/etc/nginx/conf.d/org_to_com_rewrite_rules.rules` and included in the main nginx conf on gitlab.org server.
+
+The redirect rules are:
+
+```
+rewrite ^/gitlab-ce/ https://www.gitlab.com/gitlab-ce/ permanent;
+rewrite ^/gitlab-ci/ https://www.gitlab.com/gitlab-ci/ permanent;
+rewrite ^/community/ https://www.gitlab.com/community/ permanent;
+rewrite ^/team/ https://www.gitlab.com/core-team/ permanent;
+rewrite ^/donate/ https://www.gitlab.com/contributing/ permanent;
+```
+
+
 Redirect from blog.gitlab.org to www.gitlab.com/blog posts is done in `/etc/nginx/conf.d/blog_rewrite_rules.rule` and included in the main nginx conf on gitlab.org server.
+
 The redirect code is:
 
 ```
