@@ -16,8 +16,8 @@ It integrates with your GitLab installation and runs tests for your projects.
 
 Today we release a new version of GitLab CI.
 
-Main purposes of this release is to improve UI/UX of application.
-Also it includes latest Rails version with security updates.
+The main purpose of this release is to improve the UI/UX of the application.
+It also includes the latest Rails version with security updates.
  
 
 [![screenshot](/images/ci_4_3/dash.png)](/images/ci_4_3/dash.png)
@@ -26,22 +26,22 @@ Also it includes latest Rails version with security updates.
 
 ## Improvements
 
-### Build page is improved
+### The build page is improved
 
-Page not going into redirect loop any more. Content is updated properly.
+The page is not going into a redirect loop any more, so content is now updated properly.
 
 [![screenshot](/images/ci_4_3/build.png)](/images/ci_4_3/build.png)
 
 ### Project settings page
 
-We restyled project settings page so it looks much cleaner now
+We restyled the project settings page to make it look much cleaner.
 
 [![screenshot](/images/ci_4_3/edit.png)](/images/ci_4_3/edit.png)
 [![screenshot](/images/ci_4_3/edit2.png)](/images/ci_4_3/edit2.png)
 
 ### Runner page
 
-Runner page UI was improved to be more userfriendly
+The runner page UI was improved to be more user friendly.
 
 [![screenshot](/images/ci_4_3/runner.png)](/images/ci_4_3/runner.png)
 
