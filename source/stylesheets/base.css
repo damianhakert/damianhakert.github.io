@@ -8,10 +8,10 @@
 /* General
 -------------------------------------------------- */
 body {
-    background: url("../images/noise.png") repeat scroll 0 0 #FFFFFF;
-	position: relative;
-    padding-top: 60px;
-    font-family: "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
+  background: url("../images/noise.png") repeat scroll 0 0 #FFFFFF;
+  position: relative;
+  padding-top: 60px;
+  font-family: "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
 }
 h1,
 h2,
@@ -20,7 +20,7 @@ h4,
 h5,
 button,
 a {
-    font-family: "Open Sans","Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
+    font-family: "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
     font-weight: 300;
 }
 .map {
@@ -475,8 +475,8 @@ h3.title {
   text-decoration: underline;
 }
 .footer_text {
-    font-family: "Open Sans","Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
-    font-weight: 300;
+  font-family: "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
+  font-weight: 300;
 }
 
 /* Copywrite
