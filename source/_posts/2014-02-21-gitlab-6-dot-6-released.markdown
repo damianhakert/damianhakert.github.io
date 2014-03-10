@@ -74,7 +74,7 @@ If you still want to do it manually - see the [Update Guide](https://gitlab.com/
 
 # Enterprise
 
-For LDAP group support and more have a look at the [feature list of GitLab Enterprise Edition](http://www.gitlab.com/features/).
+For LDAP group support and more have a look at the [feature list of GitLab Enterprise Edition](http://www.gitlab.com/gitlab-ee/).
 
 Access to GitLab Enterprise Edition is included with a [GitLab.com subscription](http://www.gitlab.com/subscription/).
 
