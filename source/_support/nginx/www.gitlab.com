@@ -44,7 +44,7 @@ server {
     ssl_ciphers RC4:HIGH:!aNULL:!MD5;
 	ssl_prefer_server_ciphers on;
 
-  rewrite ^/features/ ^/gitlab-ee/ permanent;
+  rewrite ^/features/ https://www.gitlab.com/gitlab-ee/ permanent;
 	location / {
 	}
 }
