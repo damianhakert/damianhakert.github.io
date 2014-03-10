@@ -37,7 +37,7 @@ server {
   server_tokens off;
 
   ssl on;
-  ssl_certificate /etc/ssl/www.gitlab.com.pem;
+  ssl_certificate /etc/ssl/www.gitlab.com.bundle;
   ssl_certificate_key /etc/ssl/www.gitlab.com.key;
   ssl_session_timeout 5m;
   # ssl_protocols SSLv3 TLSv1;
