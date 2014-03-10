@@ -442,7 +442,7 @@ task :no_changes do
   end
 end
 
-task :install do
+task :configure_nginx do
   warn('Installing nginx config to /etc/nginx/sites-available')
   system('sudo', 'cp', '_support/nginx/www.gitlab.com', '/etc/nginx/sites-available')
 end
