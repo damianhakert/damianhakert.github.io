@@ -52,6 +52,7 @@ server {
   gzip_buffers 16 8k; # Number and the size of the compression buffers
   gzip_disable "MSIE [1-6].(?!.*SV1)"; # Disables gzip compression for browsers not supporting it, < IE 6
 
+  rewrite ^/features/ https://www.gitlab.com/gitlab-ee/ permanent;
   location / {
   }
 }

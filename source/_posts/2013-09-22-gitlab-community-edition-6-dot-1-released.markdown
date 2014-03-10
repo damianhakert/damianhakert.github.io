@@ -77,7 +77,7 @@ If you are setting up a new GitLab installation follow the [Setup Guide](https:/
 
 __For update instructions see the [Update Guide](https://github.com/gitlabhq/gitlabhq/blob/master/doc/update/6.0-to-6.1.md).__
 
-For LDAP group support and more have a look at the [feature list of GitLab Enterprise Edition](http://www.gitlab.com/features/).
+For LDAP group support and more have a look at the [feature list of GitLab Enterprise Edition](http://www.gitlab.com/gitlab-ee/).
 Access to GitLab Enterprise Edition is included with a [GitLab.com subscription](http://www.gitlab.com/subscription/).
 No time to upgrade or maintain Gitlab yourself?
 GitLab.com also offers upgrade and installation services as part of a [GitLab.com subscription](http://www.gitlab.com/subscription/) or alternatively on a [consultancy basis](http://www.gitlab.com/consultancy/).
