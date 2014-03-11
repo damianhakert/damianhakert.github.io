@@ -18,14 +18,21 @@ configure do
   set :views, File.join(File.dirname(__FILE__), '../public/subscription/')
 end
 
-get '/basic' do
+get '/subscription/basic' do
   @subdomain = Recurly.subdomain
   @default_currency = Recurly.default_currency
   @signature = Recurly.js.sign :subscription => { :plan_code => 'gitlab-enterprise-yearly' }
   erb :basic
 end
 
-post '/success' do
+get '/subscription/standard' do
+  @subdomain = Recurly.subdomain
+  @default_currency = Recurly.default_currency
+  @signature = Recurly.js.sign :subscription => { :plan_code => 'gitlab-standard-yearly-100' }
+  erb :standard
+end
+
+post '/subscription/success' do
   result = Recurly.js.fetch params[:recurly_token]
-  #process the result here
+  redirect '/subscription/success.html'
 end
