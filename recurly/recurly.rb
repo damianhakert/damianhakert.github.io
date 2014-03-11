@@ -21,15 +21,17 @@ end
 get '/subscription/basic' do
   @subdomain = Recurly.subdomain
   @default_currency = Recurly.default_currency
-  @signature = Recurly.js.sign :subscription => { :plan_code => 'gitlab-enterprise-yearly' }
-  erb :basic
+  @plan_code = 'gitlab-enterprise-yearly'
+  @signature = Recurly.js.sign :subscription => { :plan_code => @plan_code }
+  erb :subscription_form
 end
 
 get '/subscription/standard' do
   @subdomain = Recurly.subdomain
   @default_currency = Recurly.default_currency
-  @signature = Recurly.js.sign :subscription => { :plan_code => 'gitlab-standard-yearly-100' }
-  erb :standard
+  @plan_code = 'gitlab-standard-yearly-100'
+  @signature = Recurly.js.sign :subscription => { :plan_code => @plan_code }
+  erb :subscription_form
 end
 
 post '/subscription/success' do

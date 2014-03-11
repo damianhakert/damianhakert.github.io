@@ -1,21 +1,23 @@
 ---
 layout: subscription
-title: Basic Subscription
 ---
 <script>
 $(function(){
   var subdomain = '<%= @subdomain %>';
   var currency = '<%= @default_currency %>'
   var signature = '<%= @signature %>'
+  var plan_code = '<%= @plan_code %>'
   Recurly.config({
     subdomain: subdomain,
     currency: currency
   });
   Recurly.buildSubscriptionForm({
     target: '#recurly-form',
-    planCode: 'gitlab-enterprise-yearly',
+    planCode: plan_code,
     successURL: '/subscription/success',
-    signature: signature
+    signature: signature,
+    termsOfServiceURL: 'http://www.gitlab.com/terms/#subscription',
+    privacyPolicyURL: 'http://www.gitlab.com/privacy/'
   });
 
 });

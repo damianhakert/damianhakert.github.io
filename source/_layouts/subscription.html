@@ -37,9 +37,9 @@
        })();
 
     </script>
-    {% include scripts.html %}
+    {% include external_scripts.html %}
     <script src="/javascripts/libs/recurly.min.js"></script>
-  </head>  
+  </head>
   <body>
 
     <div class="navbar navbar-fixed-top">
@@ -83,5 +83,6 @@
     {{ content }}
 
     {% include footer.html %}
+    {% include google_remarketing.html %}
   </body>
 </html>
