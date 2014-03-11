@@ -1,0 +1,32 @@
+---
+layout: subscription
+title: Basic Subscription
+---
+<script>
+$(function(){
+  var subdomain = '<%= @subdomain %>';
+  var currency = '<%= @default_currency %>'
+  var signature = '<%= @signature %>'
+  Recurly.config({
+    subdomain: subdomain,
+    currency: currency
+  });
+  Recurly.buildSubscriptionForm({
+    target: '#recurly-form',
+    planCode: 'gitlab-enterprise-yearly',
+    successURL: '/success',
+    signature: signature
+  });
+
+});
+</script>
+<div id="content">
+  <div class="container">
+    <div class="row">
+      <div class="span9">
+        <h1>Test Form</h1>
+        <div id="recurly-form"></div>
+      </div>
+    </div>
+  </div>
+</div>
