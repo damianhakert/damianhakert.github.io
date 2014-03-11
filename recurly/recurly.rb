@@ -35,6 +35,5 @@ get '/subscription/standard' do
 end
 
 post '/subscription/success' do
-  result = Recurly.js.fetch params[:recurly_token]
-  redirect '/subscription/success.html'
+  erb :success
 end

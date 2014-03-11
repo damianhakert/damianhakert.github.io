@@ -55,4 +55,8 @@ server {
   rewrite ^/features/ https://www.gitlab.com/gitlab-ee/ permanent;
   location / {
   }
+  location ~ ^/subscription/(basic|standard)$ {
+     proxy_pass http://localhost:4567;
+     proxy_set_header  X-Real-IP  $remote_addr;
+  }
 }
