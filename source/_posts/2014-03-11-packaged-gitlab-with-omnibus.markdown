@@ -13,4 +13,4 @@ It covers:
 - Provisioning your own package
 - Setting up LDAP on GitLab omnibus
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/XTmpKudd-Oo?rel=0" frameborder="0" allowfullscreen></iframe>)
+<iframe width="560" height="315" src="//www.youtube.com/embed/XTmpKudd-Oo?rel=0" frameborder="0" allowfullscreen></iframe>
