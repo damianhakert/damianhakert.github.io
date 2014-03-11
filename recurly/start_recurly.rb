@@ -1,8 +1,7 @@
 require 'rubygems'
 require 'daemons'
 
-pwd = Dir.pwd
-Daemons.run_proc('recurly.rb', {:dir_mode => :normal, :dir => "/opt/sinatra/pids"}) do
-  Dir.chdir(pwd)
+Daemons.run_proc('recurly.rb', {:dir_mode => :normal, :dir => "/opt/sinatra/pids", :monitor => true}) do
+  Dir.chdir("/home/deploy/recurly")
   exec "RACK_ENV=production ruby recurly.rb"
 end
