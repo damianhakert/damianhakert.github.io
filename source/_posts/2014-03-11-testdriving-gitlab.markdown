@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Testdriving GitLab
-date: March 12, 2014
+date: March 11, 2014
 author: Job van der Voort
 ---
 If you want to give Gitlab a quick testdrive, there are several options available for you. We show you the easiest ways in our latest screencast:
