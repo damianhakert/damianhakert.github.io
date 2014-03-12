@@ -417,6 +417,13 @@ ul.plans {
   float: left;
   margin-left:15px;
 }
+.gitlab{
+  background-image: url(/images/gitlab.png);
+  width: 40px;
+  height:40px;
+  float: left;
+  margin-left:15px;
+}
 .github{
   background-image: url(/images/github.png);
   width: 40px;
