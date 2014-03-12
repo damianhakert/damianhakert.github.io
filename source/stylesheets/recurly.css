@@ -25,6 +25,7 @@
   min-width: 200px;
   padding-left: 20px;
   padding-right: 40px;
+  line-height: normal;
 }
 .recurly .plan .quantity.field {
   clear: none;
