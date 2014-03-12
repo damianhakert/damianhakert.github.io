@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Installing a packaged GitLab with GitLab Omnibus screencast
-date: March 11, 2014
+date: March 12, 2014
 author: Job van der Voort
 ---
 Some time ago, we released a [packaged version of GitLab](https://www.gitlab.com/downloads) for super fast and easy installation using Omnibus. To show how easy it is to use GitLab Omnibus and to help you getting started with building your own GitLab packages, we created this screencast.
