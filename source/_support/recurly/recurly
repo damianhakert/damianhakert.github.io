@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo -u www-data ruby /home/deploy/recurly/start_recurly.rb $1
+RETVAL=$?
+exit $RETVAL

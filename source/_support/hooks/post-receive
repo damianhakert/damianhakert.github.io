@@ -10,3 +10,5 @@ cd $repo_name
 bundle install --path ~/bundle
 bundle exec rake build
 rsync -r --delete-after public/ ~/public/
+rsync -r recurly/ ~/recurly/
+chmod 755 ~/recurly/start_recurly.rb
