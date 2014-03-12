@@ -60,4 +60,7 @@ server {
      proxy_pass http://localhost:4567;
      proxy_set_header  X-Real-IP  $remote_addr;
   }
+  location ~*  \.(jpg|jpeg|png|gif|ico|css|js)$ {
+   expires 365d;
+  }
 }
