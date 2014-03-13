@@ -1,5 +1,10 @@
 # Deploying
 
+It is sufficient to merge or push to master and site will be automatically deployed.
+For more info see [documentation](doc/autodeploy.md)
+
+Manual:
+
 ```
 git remote add deploy deploy@blue-moon.gitlap.com:~/www-gitlab-com.git
 git push deploy master
