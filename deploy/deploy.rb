@@ -8,7 +8,7 @@ post '/webhook' do
     puts "Failed. Either the payload is empty or not master branch: #{json['repository']['ref']}."
   else
     # Make sure everything finishes before starting again in case hook fires again.
-    while true do 
+    while true do
       location = json['repository']['homepage']
       repo_name = "#{location}.git"
       puts "Preparing target location: "
