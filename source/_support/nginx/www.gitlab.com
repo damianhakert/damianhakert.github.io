@@ -63,4 +63,10 @@ server {
   location ~*  \.(jpg|jpeg|png|gif|ico|css|js)$ {
    expires 365d;
   }
+  location ~ ^/webhook$ {
+    proxy_pass http://localhost:5555;
+    proxy_set_header  X-Real-IP  $remote_addr;
+    allow   54.243.197.170;
+    deny    all;
+  }
 }
