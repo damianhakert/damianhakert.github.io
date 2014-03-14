@@ -221,14 +221,20 @@ hr.thick {
 -------------------------------------------------- */
 
 .testimonials {
-  padding-top: 50px;
+  padding: 50px 0 50px 0;
 }
 
 .videos {
-  padding: 30px 0px 60px 0;
-  background: #352A55;
+  padding: 50px 0px 80px 0;
+  background: #548;
   color: white;
   font-weight: 700;
+}
+
+.row.videos > div > h1 {
+font-weight: 700;
+font-family: "Open Sans Condensed";
+padding-bottom: 30px;
 }
 
 /* Page Header/Title
@@ -240,7 +246,7 @@ hr.thick {
 /* Main Content
 -------------------------------------------------- */
 #content {
-	padding: 30px 0 0 0;
+	padding: 30px 0 20px 0;
   box-shadow: 0px -3px 3px rgba(0,0,0,0.1);
   background: #eef1f2;
   color: #548;
@@ -431,20 +437,24 @@ h3.title {
 #footer {
   padding: 20px 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background: #463675;
 }
 #footer h3  {
   margin-bottom: 5px;
   text-transform: uppercase;
+  color: white;
+  font-weight: 700;
 }
 #footer ul {
   list-style: none outside none;
   margin: 0;
+  padding: 0;
 }
 #footer li {
-  padding: 0 0 5px;
 }
 #footer a {
   display: inline-block;
+  color: white;
 }
 #footer a:hover {
   -webkit-animation-name: slide;
