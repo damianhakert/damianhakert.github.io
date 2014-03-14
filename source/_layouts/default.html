@@ -7,10 +7,11 @@
     <meta name="description" content="">
 
     <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
-    <link href="/stylesheets/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="/stylesheets/glyphicons.css" rel="stylesheet">
     <link href="/stylesheets/base.css" rel="stylesheet">
-    <link href="/stylesheets/blue.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -40,21 +41,23 @@
   </head>  
   <body>
 
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-primary btn-dropnav" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>		
-          {% if page.blog_index %}
-            <a class="brand" href="/blog/">GitLab.com Blog</a>
-          {% else %}
-            <a class="brand" href="/">GitLab.com</a>
-          {% endif %}
-          <div class="nav-collapse collapse">
-            <ul class="nav pull-right animated">
+    <div class="navbar navbar-fixed-top navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+<!--             <a class="btn btn-primary btn-dropnav" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>    
+ -->            {% if page.blog_index %}
+              <a class="navbar-brand" href="/blog/">GitLab.com Blog</a>
+            {% else %}
+              <a class="navbar-brand" href="/">GitLab.com</a>
+            {% endif %}
+          </div>
+
+          <div class="collapse navbar-collapse">
+            <ul class="nav pull-right animated navbar-nav">
               <li><a href="/products">Products</a></li>
               <li><a href="/services">Services</a></li>
               <li><a href="/company">Company</a></li>
@@ -70,7 +73,7 @@
     <div id="header">
       <div class="container">  
         <div class="row">
-          <div class="span12">
+          <div class="col-sm-12 col-md-12">
             <h1>{{ page.title }}</h1>
           </div>
         </div>
