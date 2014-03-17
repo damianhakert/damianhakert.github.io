@@ -23,12 +23,18 @@ a {
     font-family: "Open Sans", "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
     font-weight: 300;
 }
+h2 {
+  font-weight: 600;
+}
 .map {
     height: 350px;
     width: 100%;
 }
 .user_logo {
     margin:0 28px 28px 0;
+}
+.light {
+  font-weight: 300;
 }
  
 /* Content Dividers
@@ -148,8 +154,8 @@ hr.thick {
 
 .navbar-default .navbar-brand {
   color: white;
-  font-family: "Open Sans Condensed";
-  font-weight: 700;
+  font-family: "Open Sans";
+  font-weight: 600;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -203,8 +209,13 @@ hr.thick {
   font-size: 18px;
 }
 
+.landing-button {
+  text-align: center;
+  padding-top: 20px;
+}
+
 #landing .main-screenshot {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 #landing .js-video iframe {
@@ -228,12 +239,11 @@ hr.thick {
   padding: 50px 0px 80px 0;
   background: #548;
   color: white;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .row.videos > div > h1 {
-font-weight: 700;
-font-family: "Open Sans Condensed";
+font-weight: 600;
 padding-bottom: 30px;
 }
 
@@ -247,7 +257,6 @@ padding-bottom: 30px;
 -------------------------------------------------- */
 #content {
 	padding: 30px 0 20px 0;
-  box-shadow: 0px -3px 3px rgba(0,0,0,0.1);
   background: #eef1f2;
   color: #548;
 }
@@ -610,4 +619,14 @@ h2.terms {
         width: 300px;
         height: 169px; /* 225px */
     }
+}
+
+.newsletter-form {
+  width: 206px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mc-field-group {
+  padding-bottom: 5px;
 }
