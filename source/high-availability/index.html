@@ -3,12 +3,12 @@ layout: default
 title: GitLab High Availability
 ---
 <div id="content">
-  <div class="container txt-lefty">			
-    <div class="row-fluid">
-      <div class="span9">	
+  <div class="container txt-lefty">         
+    <div class="row">
+      <div class="col-sm-9 col-md-9">   
         <div class="entry">
-          <div class="row-fluid">
-            <div class="span12">
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
                 <h3>What is High Availability?</h3>
                 <p>                
                     High availability is a system design that ensures a prearranged level of operational performance throughout a specific time-period. The most common way to measure HA is through the notion of uptime, which measures how long a service is up and running.
@@ -22,11 +22,11 @@ title: GitLab High Availability
                 <h3>High Availability for you</h3>
                 <p>                
                     The two questions that you need to ask yourself are:
-                    <ol>
+                    </p><ol>
                     <li>What are my specific needs for code availability?</li>
                     <li>What complexity level can my organization handle?</li>
                     </ol>
-                </p>               
+                <p></p>               
                 <p>
                     HA solutions range from a cheap and simple back-up to highly complex and costly master-master configurations. When it comes to HA, there is unfortunately no way to split between an increase in complexity and an increase in cost.
                 </p>
@@ -115,18 +115,18 @@ title: GitLab High Availability
                 </p>
                 <p>
                     While clustered or master/master configuration support is not part of the GitLab roadmap yet, there is good news. <b>Different company HA needs can lead to alternative solutions that are simpler and cheaper.</b> For example:
-                    <ul>
+                    </p><ul>
                     <li>If you need write HA and fast recovery, any of the previous HA setups can be used.</li>
                     <li>If you need to locally clone large repo’s, then there is a third-party mirroring solution available for GitLab,            <a href="https://github.com/sag47/gitlab-mirrors">gitlab-mirrors</a></li>
                     <li>If you just need to be able to push to multiple GitLab servers in different locations, you should consider using git remotes.</li>
                     <li>If what you need is a fast user experience for people working from different continents, using local git clients (command line, Tower, etc) can help.</li>
                     </ul>
-                </p>
+                <p></p>
                 <h4>Future steps</h4>
                 <p>
                     High Availability is an on-going concern at GitLab. The information we provide here is just a rough guide designed to help you get a feel of the hardware, software and process implications of different HA setups. When it comes to specific situations, we prefer to assess them on a case-by-case basis. Therefore, we advise you to contact us for a technical call so we can discuss your needs at length. Whether you become a <a href="https://www.gitlab.com/subscription/">subscriber</a> or just want us to provide <a href="https://www.gitlab.com/consultancy/">consultancy</a>, we strongly suggest you solicit our support before engaging on the path of High Availability                    
                 </p>
-            </div>				
+            </div>              
           </div>
         </div>
       </div>
