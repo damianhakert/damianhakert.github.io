@@ -653,7 +653,6 @@
   font-size: 16px;
   font-family: inherit;
   padding: 5px;
-  height: 22px;
 }
 .recurly input[type=text][disabled] {
   background: #eee;
