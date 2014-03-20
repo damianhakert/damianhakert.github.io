@@ -247,6 +247,11 @@ hr.thick {
 /* Testimonials
 -------------------------------------------------- */
 
+.row.testimonials,
+.row.videos {
+  margin: 0;
+}
+
 .testimonials {
   padding: 50px 0 50px 0;
 }
