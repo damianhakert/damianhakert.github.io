@@ -27,7 +27,7 @@ GitLab now renders newlines in Markdown text according to the specification, as 
 
 Relative links inside wiki pages stay inside the wiki, instead of pointing back to the accompanying repository.
 
-Due to licensing reasons, GitLab 6.7 uses a new set of emoji based on the [emoji gem](https://github.com/steveklabnik/emoji) and [PhantomOpenEmoji](https://github.com/Genshin/PhantomOpenEmoji).
+Due to [licensing reasons](http://words.steveklabnik.com/emoji-licensing), GitLab 6.7 uses a new set of emoji based on the [emoji gem](https://github.com/steveklabnik/emoji) and [PhantomOpenEmoji](https://github.com/Genshin/PhantomOpenEmoji).
 We thank Rei from [Emojidex](https://www.emojidex.com/) for creating freely licensed emoji's for GitLab.
 
 ## Repository imports
