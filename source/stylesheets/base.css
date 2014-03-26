@@ -36,8 +36,14 @@ h2 {
 .light {
   font-weight: 300;
 }
+.medium {
+  font-weight: 400;
+}
 img {
   max-width: 100%;
+}
+.inline {
+  display: inline;
 }
  
 /* Content Dividers
@@ -467,6 +473,25 @@ h3.title {
     margin: 0 0 30px;
     padding: 10px;	
 }
+
+#blog {
+  background: white;
+}
+
+.blog-entry h1 {
+  color: #444;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.blog-entry .date {
+  color: #666;
+  font-weight: 300;
+  font-size: 24px;
+  margin-left: 4px;
+}
+
+
 
 /* Footer
 -------------------------------------------------- */
