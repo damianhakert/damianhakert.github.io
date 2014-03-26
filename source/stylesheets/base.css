@@ -412,6 +412,12 @@ ul.plans {
   display:inline;
 }
 
+.website{
+  background-image: url(/images/website.png);
+  width: 40px;
+  height:40px;
+  float: left;
+}
 .linkedin{
   background-image: url(/images/linkedin.png);
   width: 40px;
