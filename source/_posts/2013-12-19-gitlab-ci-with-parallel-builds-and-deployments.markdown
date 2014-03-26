@@ -107,3 +107,5 @@ Even with the help of the rest of the community implementing the above will take
 1. Percentage result history graphs
 
 We think the above is a feasible way to integrate a lot of useful features in GitLab CI. We look forward to hear your questions, comments and suggestions.
+
+Update on 2014-03-26: As [commented below](https://www.gitlab.com/2013/12/19/gitlab-ci-with-parallel-builds-and-deployments/#comment-1228617249) we would like to also include the ability to assign a runner to a specific script. This would enable you to perform a performance test on a specific machine or to perform a build on multiple operating systems.
