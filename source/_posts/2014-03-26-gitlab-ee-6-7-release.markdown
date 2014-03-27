@@ -17,6 +17,8 @@ In GitLab EE 6.7 we have added the following rules:
 
 [![screenshot](/images/6_7_ee/git_hooks.png)](/images/6_7_ee/git_hooks.png)
 
+Please [contact us](https://www.gitlab.com/contact/) if you have a need for different hooks.
+
 ### LDAP Improvements
 
 - Add support for Active Directory nested LDAP groups:
