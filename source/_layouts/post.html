@@ -7,6 +7,7 @@
     <meta name="description" content="">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet' type='text/css'>
     <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
     <link href="/stylesheets/glyphicons.css" rel="stylesheet">
     <link href="/stylesheets/base.css" rel="stylesheet">
@@ -62,15 +63,13 @@
       <div class="container">     
         <div class="row">
           <div class="col-sm-12"> 
-            <div class="blog-entry">
               <div class="row">
-                <div class="col-sm-9">
-                  <h1>{{ page.title }}</h1>
+                <div class="col-sm-9 blog-entry">
+                  <h1 class="title">{{ page.title }}</h1>
                   <h4 class="date">{{ page.date | date: "%d %B %Y" }}</h4>
                   {{ content }}
                 </div>
               </div>
-            </div>
 
             <div id="disqus_thread"></div>
             <script type="text/javascript">
