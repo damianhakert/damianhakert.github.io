@@ -30,3 +30,5 @@ Please [contact us](https://www.gitlab.com/contact/) if you have a need for diff
 - Fix the save button in the admin group edit screen
 
 Our [subscribers](https://www.gitlab.com/subscription/) can download GitLab 6.7 Enterprise Edition from [GitLab Cloud](https://gitlab.com).
+
+_Update (28 March 2014):_ We have released GitLab Enterprise Edition 6.7.1 which fixes a bug for some LDAP platforms.
