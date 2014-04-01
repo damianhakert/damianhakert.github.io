@@ -36,8 +36,14 @@ h2 {
 .light {
   font-weight: 300;
 }
+.medium {
+  font-weight: 400;
+}
 img {
   max-width: 100%;
+}
+.inline {
+  display: inline;
 }
  
 /* Content Dividers
@@ -467,6 +473,56 @@ h3.title {
     margin: 0 0 30px;
     padding: 10px;	
 }
+
+#blog {
+  background: white;
+}
+
+.blog-entry {
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.blog-entry h1.title {
+  font-size: 50px;
+  padding-top: 30px;
+}
+
+.blog-entry h1,
+.blog-entry h2,
+.blog-entry h3,
+.blog-entry h4,
+.blog-entry h5 {
+  color: #444;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.blog-entry p {
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+  color: #444;
+  line-height: 2.9rem;
+  margin: 0 0 24px;
+}
+
+.blog-entry a {
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+  line-height: 2.9rem;
+}
+
+.blog-entry .date {
+  color: #666;
+  font-weight: 300;
+  font-size: 24px;
+  margin-left: 4px;
+  margin-top: 0px;
+  padding-bottom: 10px;
+}
+
+
 
 /* Footer
 -------------------------------------------------- */
