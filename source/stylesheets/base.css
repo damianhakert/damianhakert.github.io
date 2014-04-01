@@ -496,6 +496,7 @@ h3.title {
 .blog-entry h5 {
   color: #444;
   font-weight: 600;
+  margin-top: 40px;
 }
 
 .blog-entry p {
@@ -506,12 +507,19 @@ h3.title {
   margin: 0 0 24px;
 }
 
+.blog-entry a {
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+  line-height: 2.9rem;
+}
+
 .blog-entry .date {
   color: #666;
   font-weight: 300;
   font-size: 24px;
   margin-left: 4px;
-  padding-bottom: 30px;
+  margin-top: 0px;
+  padding-bottom: 10px;
 }
 
 
