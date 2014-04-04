@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "GitLab CE 6.7 released"
+title: "GitLab CE 6.7 released!"
 date: 2014-03-21
 comments: true
 categories: 
 community: true
 ---
-
-### GitLab CE 6.7 released!
 
 [![screenshot](/images/6_7/public_group_pages.png)](/images/6_7/public_group_pages.png)
 

@@ -475,6 +475,10 @@ h3.title {
     padding: 10px;	
 }
 
+article {
+  margin-bottom: 160px;
+}
+
 #blog {
   background: white;
 }
@@ -485,9 +489,25 @@ h3.title {
   margin-left: auto;
 }
 
+.blog-entry ul li {
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+  color: #444;
+  line-height: 2.9rem;
+  padding-bottom: 4px;
+}
+
 .blog-entry h1.title {
   font-size: 50px;
   padding-top: 30px;
+}
+
+.blog-entry h1 a {
+  font-size: 50px;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+  color: #444;
+  font-weight: 600;
+  line-height: 55px;
 }
 
 .blog-entry h1,
