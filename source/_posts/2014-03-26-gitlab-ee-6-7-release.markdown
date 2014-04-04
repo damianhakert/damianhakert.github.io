@@ -8,6 +8,8 @@ Today we announce the release of [GitLab Enterprise Edition](/gitlab-ee/) 6.7.0.
 GitLab is an open source code hosting and project managament application.
 In addition to the [improvements in GitLab Community Edition 6.7](/2014/03/21/gitlab-6-dot-7-released/), GitLab Enterprise Edition 6.7.0 contains the following improvements.
 
+<!--more-->
+
 ### Git hooks
 GitLab EE now lets you define project rules that can block commits from being pushed.
 In GitLab EE 6.7 we have added the following rules:
