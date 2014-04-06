@@ -1,3 +1,4 @@
-#!/usr/bin/env ruby
-bundle exec rake preview
+#!/bin/sh
+bundle exec rake preview &
+google-chrome http://localhost:4000/
 
