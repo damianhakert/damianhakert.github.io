@@ -68,10 +68,12 @@ This change does not apply to GitLab LDAP integration.
 Also see the [new OAuth documentation page](http://doc.gitlab.com/ce/integration/omniauth.html) compiled by Drew Blessing.
 
 ## GZipped assets
-Previously, GitLab was not equipped to serve assets with compression. This increased the load time since the browser had to download all assets.
+
+Previously, GitLab was not equipped to serve assets with compression.
+This increased the load time since the browser had to download all assets.
 We've added the option to the example Nginx config to serve the pre-gzipped version of the assets.
-Nginx has this module enabled by default in Ubuntu but if you are using the compiled version of Nginx, make sure that you have compiled it with --with-http_gzip_static_module flag.
-More information on GZip compression [can be found here](http://guides.rubyonrails.org/asset_pipeline.html#gzip-compression)
+Nginx has this module enabled by default in Ubuntu but if you are using the compiled version of Nginx, make sure that you have compiled it with `--with-http_gzip_static_module` flag.
+More information on GZip compression [can be found here](http://guides.rubyonrails.org/asset_pipeline.html#gzip-compression).
 
 
 ## Many, many other improvements
