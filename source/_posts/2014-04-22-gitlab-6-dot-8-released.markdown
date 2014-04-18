@@ -13,6 +13,7 @@ Hello everyone!
 Gitlab is open source software made for collaborative coding.
 Today we announce the release of a new version of GitLab Community Edition (CE), with new features, usability and performance improvements, and bug fixes.
 The main new feature of this release is protection against force pushes.
+Other changes include improvements to mentioning in comments, Merge Request UI improvements and new API features.
 
 This month's Most Valuable Person is Jeroen van Baarsen for contributing many small fixes and helping people on the issue trackers.
 Thanks Jeroen!
