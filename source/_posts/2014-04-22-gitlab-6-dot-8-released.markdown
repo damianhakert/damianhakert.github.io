@@ -75,6 +75,7 @@ We've added the option to the example Nginx config to serve the pre-gzipped vers
 Nginx has this module enabled by default in Ubuntu but if you are using the compiled version of Nginx, make sure that you have compiled it with `--with-http_gzip_static_module` flag.
 More information on GZip compression [can be found here](http://guides.rubyonrails.org/asset_pipeline.html#gzip-compression).
 
+To enable Nginx asset compression you need to [edit your configuration files](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/6.7-to-6.8.md#5-update-config-files).
 
 ## Many, many other improvements
 
