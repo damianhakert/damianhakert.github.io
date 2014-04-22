@@ -56,7 +56,7 @@ In addition, it is now also possible to remove a source branch after the merge i
 Thanks to sponsoring by O'Reilly Media it is now possible to create Git branches through the API.
 
 In addition you can also get more detailed information about merge requests and comments.
-You can read more about the GitLab API at [doc.gitlab.com/api](http://doc.gitlab.com/ce/api/README.html).
+You can read more about the GitLab API at [doc.gitlab.com/ce/api](http://doc.gitlab.com/ce/api/README.html).
 
 ## OAuth sign-in flow
 
