@@ -17,9 +17,13 @@ You can now customize the sign in page with custom text and a logo of your choic
 [![screenshot](/images/6_8/branded_login.png)](/images/6_8/branded_login.png)
 
 
-### Bug fixes
+### LDAP email synchronization
 
-- LDAP users emails get updated automatically on login
+Now, the email of LDAP users gets updated automatically on login.
 
-Our [subscribers](https://www.gitlab.com/subscription/) can download GitLab 6.8 Enterprise Edition from [GitLab Cloud](https://gitlab.com).
+### And much more!
+
+This release contains more than 600 commits, including many fixes and performance improvements.
+
+Our [subscribers](https://www.gitlab.com/subscription/) can download GitLab 6.8 Enterprise Edition from [GitLab.com](https://gitlab.com).
 
