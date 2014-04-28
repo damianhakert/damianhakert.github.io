@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GitLab Enterprise Edition 6.8 Release
-date: April 25, 2014
+date: April 28, 2014
 author: Job van der Voort
 ---
 Today we've released [GitLab Enterprise Edition](/gitlab-ee/) 6.8.0. 
