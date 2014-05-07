@@ -63,12 +63,12 @@ See screenshots below:
 
 ## Update process
 
-If you already use GitLab CI you need to follow our [Update guide]() for Coordinator and update all your Runners to version 5.
-You can find the Runner update guide. Also check the build scripts of your projects to make sure they are compatible with the new behavior.
+If you already use GitLab CI you need to follow our [Update guide](https://gitlab.com/gitlab-org/gitlab-ci/blob/master/doc/update/4.3-to-5.0.md) for Coordinator and update all your Runners to version 5.
+You can find the Runner update guide [here](https://gitlab.com/gitlab-org/gitlab-ci-runner/blob/master/doc/update-from-v4-to-v5.md). Also check the build scripts of your projects to make sure they are compatible with the new behavior.
 
 ## New setup
 
-You can setup new GitLab CI instance using [installation guide]()
+You can setup new GitLab CI instance using [installation guide](https://gitlab.com/gitlab-org/gitlab-ci/blob/master/doc/install/installation.md)
 
 ## Support
 
