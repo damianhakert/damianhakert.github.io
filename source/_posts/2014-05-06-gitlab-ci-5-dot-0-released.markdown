@@ -20,40 +20,40 @@ Today we release a new version of GitLab CI.
 
 ## Why version 5?
 
-You may know that GitLab CI contains 2 components: Coordinator(web application) and Runner.
-And we release major version of CI because of runner.
+You may know that GitLab CI contains 2 components: Coordinator (a web application) and Runner.
+We are releasing a new version of GitLab CI because of important changes to GitLab CI Runner.
 
-Runner actually run builds for you. And we changed the way how build is served.
-Before you have each line of build script executed in separate process. So if you do `cd` command or set ENV variable - it was unavailable in next line.
+Runner is the component that runs your builds. In this release we have changed the way a build is served.
+Before this release, each line in the build script was executed in a separate process. That meant that a command such as `cd` or an `ENV` variable was not available on the next line.
 
-With new runner all lines of the build script will be concatenated in one file and executed. 
-If you change the working directory or the environment in one line - it will affect the next lines too.
+With this release, Runner will concatenate all lines in the build script into one file and execute that.
+This means that if you change the working directory or environment in one line, it will affect the following lines as well.
 
 
 [![screenshot](/images/ci_5/edit.png)](/images/ci_5/edit.png)
 
-Old runner code had some other problems: 
+The former releases had some other problems as well:
 
-* aborting running tests from the gitlab-ci didn't work (it marked the job as failed, but didn't kill the build)
-* the runner didn't properly handle crashing build scripts (it considered the build is still running forever)
+* Aborting running tests from the gitlab-ci didn't work (it marked the job as failed, but didn't kill the build)
+* The runner didn't properly handle crashing build scripts (it considered the build seemed to continue running endlessly)
 
-With new code runner creates a single temporary bash script which contains all the commands the build needs. 
+With this release, Runner creates a single temporary bash script which contains all the commands the build needs. 
 The script itself is then exectued as a child process in its own session (process group) by the runner. 
-This way we can ensure that killing the script also kills all its childs.
+This way we can ensure that killing the script also kills all its child processes.
 
-__We want to thank Corin Langosch for contributing such improvements into runner code__
+__We would like to thank Corin Langosch for contributing these improvements.__
 
 ## Web hooks
 
-In order to build some services based on GitLab CI you may need hooks that send data when build finished.
-GitLab itself has such hooks but CI does not.
-In version 5 we added web hooks functionality. Thanks to Võ Anh Duy for help with this feature.
+In order to build some services based on GitLab CI you may need hooks that send data when the build finishes.
+GitLab already has such hooks, but up until now, GitLab CI did not.
+With GitLab CI version 5, we have added web hook functionality. We thank Võ Anh Duy for help with this feature.
 
 [![screenshot](/images/ci_5/hooks.png)](/images/ci_5/hooks.png)
 
 ## Screenshots
 
-We changed colors a bit for more fresh look. 
+We've also changed the colors a bit for a fresher look.
 See screenshots below:
 
 [![screenshot](/images/ci_5/project.png)](/images/ci_5/project.png)
@@ -63,8 +63,8 @@ See screenshots below:
 
 ## Update process
 
-If you already use GitLab CI you need to follow [Update guide]() for Coordinator and update all your Runners to version 5.
-You can find Runner update guide [here](). Also check your builds scripts for projects to make sure they are compatible with new behaviour.
+If you already use GitLab CI you need to follow our [Update guide]() for Coordinator and update all your Runners to version 5.
+You can find the Runner update guide. Also check the build scripts of your projects to make sure they are compatible with the new behavior.
 
 ## New setup
 
@@ -72,4 +72,4 @@ You can setup new GitLab CI instance using [installation guide]()
 
 ## Support
 
-If you look for paid support for GitLab CI instances - please contact us SUPPORT_EMAIL
+If you are looking for paid support for GitLab CI, please contact us at sales@gitlab.com.
