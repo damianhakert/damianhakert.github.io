@@ -46,6 +46,13 @@ img {
 .inline {
   display: inline;
 }
+
+.gitlab-logo {
+  float: left;
+  height: 40px;
+  padding-right: 8px;
+  padding-top: 7px;
+}
  
 /* Content Dividers
 -------------------------------------------------- */
