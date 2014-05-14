@@ -47,6 +47,10 @@ img {
 .inline {
   display: inline;
 }
+
+.nav-logo {
+  margin-top: -5px;
+}
  
 /* Content Dividers
 -------------------------------------------------- */
