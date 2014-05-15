@@ -26,6 +26,55 @@ server {
   return 301 https://www.gitlab.com$request_uri;
 }
 
+server {
+  listen 80;
+  server_name gitlab.org gitlabhq.com www.gitlabhq.com;
+  server_name_in_redirect off;
+
+  include /etc/nginx/conf.d/org_to_com_rewrite_rules.rules;
+
+  location / {
+    rewrite ^/$ https://www.gitlab.com/ permanent;
+  }
+
+  if ($http_host != "gitlab.org") {
+    rewrite ^ http://gitlab.org$request_uri permanent;
+  }
+}
+
+server {
+  listen 80;
+  server_name api.gitlab.org;
+  server_name_in_redirect off;
+
+  rewrite ^ http://doc.gitlab.com/ce/api$request_uri permanent;
+}
+
+server {
+  listen 80;
+  server_name blog.gitlabhq.com blog.gitlab.org;
+  server_name_in_redirect off;
+
+  if ($http_host != "blog.gitlab.org") {
+    rewrite ^ http://blog.gitlab.org$request_uri permanent;
+  }
+
+  include /etc/nginx/conf.d/blog_rewrite_rules.rules;
+
+  location / {
+    rewrite ^/$ https://www.gitlab.com/blog permanent;
+  }
+}
+
+server {
+  listen 80;
+  server_name status.gitlab.com;
+  root /home/deploy/status-gitlab-com/_site;
+  location / {
+    index index.html;
+  }
+}
+
 # HTTPS server
 #
 server {
