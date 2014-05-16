@@ -26,6 +26,55 @@ server {
   return 301 https://www.gitlab.com$request_uri;
 }
 
+server {
+  listen 80;
+  server_name gitlab.org gitlabhq.com www.gitlabhq.com;
+  server_name_in_redirect off;
+
+  include /etc/nginx/conf.d/org_to_com_rewrite_rules.rules;
+
+  location / {
+    rewrite ^/$ https://www.gitlab.com/ permanent;
+  }
+
+  if ($http_host != "gitlab.org") {
+    rewrite ^ http://gitlab.org$request_uri permanent;
+  }
+}
+
+server {
+  listen 80;
+  server_name api.gitlab.org;
+  server_name_in_redirect off;
+
+  rewrite ^ http://doc.gitlab.com/ce/api$request_uri permanent;
+}
+
+server {
+  listen 80;
+  server_name blog.gitlabhq.com blog.gitlab.org;
+  server_name_in_redirect off;
+
+  if ($http_host != "blog.gitlab.org") {
+    rewrite ^ http://blog.gitlab.org$request_uri permanent;
+  }
+
+  include /etc/nginx/conf.d/blog_rewrite_rules.rules;
+
+  location / {
+    rewrite ^/$ https://www.gitlab.com/blog permanent;
+  }
+}
+
+server {
+  listen 80;
+  server_name status.gitlab.com;
+  root /home/deploy/status-gitlab-com/_site;
+  location / {
+    index index.html;
+  }
+}
+
 # HTTPS server
 #
 server {
@@ -41,7 +90,7 @@ server {
   ssl_certificate_key /etc/ssl/www.gitlab.com.key;
   ssl_session_timeout 5m;
   # ssl_protocols SSLv3 TLSv1;
-  ssl_ciphers RC4:HIGH:!aNULL:!MD5;
+  ssl_ciphers 'ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-RSA-AES128-SHA256:DHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:DES-CBC3-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!CAMELLIA:!DES:!MD5:!PSK:!RC4';
   ssl_prefer_server_ciphers on;
 
   gzip on; # Enable gzip compression

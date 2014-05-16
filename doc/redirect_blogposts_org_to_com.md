@@ -8,6 +8,9 @@ rewrite ^/gitlab-ci/ https://www.gitlab.com/gitlab-ci/ permanent;
 rewrite ^/community/ https://www.gitlab.com/community/ permanent;
 rewrite ^/team/ https://www.gitlab.com/core-team/ permanent;
 rewrite ^/donate/ https://www.gitlab.com/contributing/ permanent;
+rewrite ^/alumni/ https://www.gitlab.com/alumni/ permanent;
+rewrite ^/screenshots/ https://www.gitlab.com/gitlab-ce/ permanent;
+rewrite ^/index.html https://www.gitlab.com/ permanent;
 ```
 
 In sites-available:
@@ -25,6 +28,7 @@ The redirect code is:
 
 ```
 rewrite ^/markdown-newline-behaviour/ https://www.gitlab.com/2014/02/21/markdown-newline-behaviour/ permanent;
+rewrite ^/moved-to-dot-com/ https://www.gitlab.com/2014/03/07/moved-to-dot-com/ permanent;
 rewrite ^/gitlab-6-dot-6-released/ https://www.gitlab.com/2014/02/21/gitlab-6-dot-6-released/ permanent;
 rewrite ^/gitlab-book/ https://www.gitlab.com/2014/02/01/gitlab-book/ permanent;
 rewrite ^/xss-vulnerability-in-gitlab/ https://www.gitlab.com/2014/01/30/xss-vulnerability-in-gitlab/ permanent;
