@@ -8,6 +8,9 @@ rewrite ^/gitlab-ci/ https://www.gitlab.com/gitlab-ci/ permanent;
 rewrite ^/community/ https://www.gitlab.com/community/ permanent;
 rewrite ^/team/ https://www.gitlab.com/core-team/ permanent;
 rewrite ^/donate/ https://www.gitlab.com/contributing/ permanent;
+rewrite ^/alumni/ https://www.gitlab.com/alumni/ permanent;
+rewrite ^/screenshots/ https://www.gitlab.com/gitlab-ce/ permanent;
+rewrite ^/index.html https://www.gitlab.com/ permanent;
 ```
 
 In sites-available:
