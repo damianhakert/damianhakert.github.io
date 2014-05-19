@@ -7,8 +7,6 @@ categories:
 author: Marc Radulescu
 ---
 
-Hello everyone,
-
 Until now, GitLab had been running a special discount for universities. We have decided to change the subscription model, so as to match the needs of educational institutions. 
 
 Starting today, students of educational institutions students are free when ordering user-packs for a subscription.
