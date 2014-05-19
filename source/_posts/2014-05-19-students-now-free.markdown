@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Subscriptions update: Students do not count as GitLab users anymore"
-date: May 13, 2014
+date: May 19, 2014
 comments: true
 categories: 
 author: Marc Radulescu
