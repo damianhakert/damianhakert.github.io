@@ -32,3 +32,9 @@ cabal install pandoc # takes a while
 ```
 
 Copy `_support/user/bash_profile` to `~deploy/.bash_profile` to make sure the build script picks up the pandoc executable.
+
+# Other documentation
+
+* [Autodeploy](doc/autodeploy.md)
+* [Recurly](doc/recurly.md)
+* [Redirects](doc/redirect_blogposts_org_to_com.md)
