@@ -41,6 +41,9 @@ h2 {
 .medium {
   font-weight: 400;
 }
+.heavy {
+  font-weight: 600;
+}
 img {
   max-width: 100%;
 }
@@ -758,4 +761,28 @@ body {
 @-webkit-keyframes fontfix {
   from { opacity: 1; }
   to   { opacity: 1; }
+}
+
+/* Installation instructions */
+.installation-instructions {
+  background-color: #fff;
+}
+
+.large-number {
+  font-size: 5em;
+  padding: 0px 30px;
+  margin-right: 20px;
+  float: left;
+  background: #00AC7E;
+  border-radius: 50px;
+  color: white;
+}
+
+.tab {
+  padding: 10px 0px;
+}
+
+.tab-step {
+  padding: 10px 0px;
+  min-height: 135px;
 }

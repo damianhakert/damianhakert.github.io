@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="col-sm-12 installation-instructions">
+
+    <h1 class="heavy">I want to install GitLab on
+
+      <!-- dropdown button -->
+      <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle btn-lg" data-toggle="dropdown">
+          Ubuntu 12.04 <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#ubuntu">Ubuntu 12.04</a></li>
+          <li><a href="#centos">CentOS 6.4</a></li>
+          <li><a href="#debian">Debian 7</a></li>
+        </ul>
+      </div>
+      <!-- / dropdown button -->
+    </h1>
+
+    <div id="tabs">
+      <div class="tab" id="ubuntu">
+        
+        <div class="tab-step">
+          <div class="large-number">1</div>
+          <p>Download the package and dependencies to your server</p>
+          <p>
+            <pre>
+  wget https://downloads-packages.s3.amazonaws.com/ubuntu-12.04/gitlab_6.8.2-omnibus-1_amd64.deb
+  sudo apt-get install openssh-server
+  sudo apt-get install postfix # sendmail or exim is also OK</pre>
+          </p>
+        </div>
+
+      <div class="tab-step">
+        <div class="large-number">2</div>
+        <p>Unpack the package</p>
+        <p>
+          <pre>
+sudo dpkg -i gitlab_x.y.z-omnibus-x.ubuntu.12.04_amd64.deb # this is the .deb you downloaded</pre>
+        </p>
+      </div>
+
+      <div class="tab-step">
+        <div class="large-number">3</div>
+        <p>Install and run GitLab!</p>
+        <p>
+          <pre>
+sudo gitlab-ctl reconfigure</pre>
+        </p>
+      </div>
+
+    </div>
+      <div class="tab" id="centos">tab2</div>
+      <div class="tab" id="debian">tab3</div>
+    </div>
+
+  </div>
+</div>
