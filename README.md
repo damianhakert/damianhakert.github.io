@@ -18,6 +18,12 @@ Serve a local build on http://localhost:4000 using:
 bundle exec rake preview
 ```
 
+or use the following to also launch Google Chrome
+
+```
+bin/view
+```
+
 # Deployment setup
 Set up a build server with a bare repository and the hook in `_support/hooks`.
 Install site and PDF build dependencies `sudo apt-get install texlive-latex-recommended ruby1.9.1-dev ruby1.9.1`
