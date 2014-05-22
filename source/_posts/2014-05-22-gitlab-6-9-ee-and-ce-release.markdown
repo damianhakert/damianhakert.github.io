@@ -48,6 +48,10 @@ Thanks to contribution by Drew Blessing we can add labels to merge request.
 
 [![screenshot](/images/6_9/mr_labels.png)](/images/6_9/mr_labels.png)
 
+## Email threading
+
+Thanks to contribution by Philip Blatter GitLab now supports email threading.
+
 ## New API features
 
 Thanks to sponsoring by O'Reilly Media it is now possible to accept [Merge Requests through the API](https://gitlab.com/gitlab-org/gitlab-ce/blob/6-9-stable/CHANGELOG#L18).
