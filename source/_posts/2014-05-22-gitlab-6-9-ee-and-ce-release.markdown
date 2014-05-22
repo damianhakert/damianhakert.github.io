@@ -47,7 +47,9 @@ We have reworked Merge Request creation process to make the workflow more natura
 In GitLab 6.9, when creating new merge request, after selecting the source and target branch and repositories an overview with differences between the two selected branch is first shown.
 By comparing the branches before creating the MR, "nothing to merge" situation is prevented. When there are differences between the two branches, MR title will be pre-filled with source branch name, you can enter a description of the MR and assign a user/milestone before submitting the MR.
 
-[![screenshot](/images/6_9/)]()
+[![screenshot](/images/6_9/mr1.png)](/images/6_9/mr1.png)
+
+[![screenshot](/images/6_9/mr2.png)](/images/6_9/mr2.png)
 
 ## Markdown preview or diff when using web editor
 
@@ -56,7 +58,15 @@ Thanks to contribution by Evgeniy Sokovikov, editing files via web editor is now
 When editing a file you can now view the diff before commiting the changes.
 If the file is a markdown file, you can preview the changes before commiting.
 
-[![screenshot](/images/6_9/)]()
+[![screenshot](/images/6_9/edit1.png)](/images/6_9/edit1.png)
+
+[![screenshot](/images/6_9/edit2.png)](/images/6_9/edit2.png)
+
+## Merge Request labels
+
+Thanks to contribution by Drew Blessing we can add labels to merge request.
+
+[![screenshot](/images/6_9/mr_labels.png)](/images/6_9/mr_labels.png)
 
 ## New API features
 
