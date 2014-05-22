@@ -9,13 +9,12 @@ author:
 
 GitLab is open source software to collaborate on code.
 Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
-The main new feature of CE release is ***MAIN_CE_FEATURE***.
+The biggest new feature in Community Edition is ***MAIN_CE_FEATURE***.
 In addition to the updates from Community Edition, GitLab Enterprise Edition ***MAIN_EE_FEATURE***.
 
 Other changes include ***FEATURES_FROM_CHANGELOG***.
 
-This month's Most Valuable Person is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-
+This month's Most Valuable Person (MVP) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
 
 <!--more-->
