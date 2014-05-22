@@ -28,7 +28,7 @@ GitLab 6.9 EE can be configured to interact with Jenkins CI.
 
 This integration includes triggering Jenkins builds after pushing to repository and showing of build status on Merge Request page.
 
-[![screenshot](/images/6_9/)]()
+[![screenshot](/images/6_9/jenkins.png)](/images/6_9/jenkins.png)
 
 ## Interacting with Jira(EE only feature)
 
@@ -37,6 +37,8 @@ Before GitLab 6.9, GitLab could be configured to use external issue trackers lik
 In GitLab 6.9 EE, GitLab goes one step further in integrating Jira by allowing issues to be closed by commit messages and Merge request mentions.
 
 For example, commit message "New feature. Fixes JIRA-123" would create a comment in issue JIRA-123 with a link to the commit and close the issue in Jira.
+
+[![screenshot](/images/6_9/jira.png)](/images/6_9/jira.png)
 
 ## Two step Merge Request process
 
