@@ -282,6 +282,7 @@ hr.thick {
   background: #548;
   color: white;
   font-weight: 600;
+  height: 1000px;
 }
 
 .row.videos > div > h1 {
@@ -599,6 +600,25 @@ article {
   font-family: "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
   font-weight: 300;
 }
+
+/* Sticky Footer */
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -200px; /* Neg margin is size of footer */
+}
+.footer, .push {
+  height: 200px;
+}
+
 
 /* Copywrite
 -------------------------------------------------- */
