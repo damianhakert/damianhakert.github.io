@@ -1,0 +1,8 @@
+/* Consultancy */
+
+html {
+  background: url(/images/bg/bg_consultancy.png) no-repeat center center fixed;
+  background-color: #548;
+  background-position-y: 100%;
+  height: 100%;
+}
