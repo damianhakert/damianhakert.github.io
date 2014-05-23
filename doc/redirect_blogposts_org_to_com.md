@@ -11,6 +11,7 @@ rewrite ^/donate/?$ https://www.gitlab.com/contributing/ permanent;
 rewrite ^/alumni/?$ https://www.gitlab.com/alumni/ permanent;
 rewrite ^/screenshots/?$ https://www.gitlab.com/gitlab-ce/ permanent;
 rewrite ^/index.html https://www.gitlab.com/ permanent;
+rewrite ^/demo.html http://demo.gitlab.com/ permanent;
 ```
 
 In sites-available:
