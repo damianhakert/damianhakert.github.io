@@ -1,0 +1,9 @@
+/* Installation */
+
+.method {
+  margin-bottom: 50px;
+}
+
+.method:last-child {
+  margin-bottom: 0px;
+}
