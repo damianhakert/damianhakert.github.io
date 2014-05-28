@@ -38,25 +38,6 @@
   border-top: 0 !important;
 }
 
-/* Sticky Footer */
-
-* {
-  margin: 0;
-}
-html, body {
-  height: 100%;
-}
-.wrapper {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -200px; /* Neg margin is size of footer */
-  background-color: #272120;
-}
-.footer, .push {
-  height: 200px;
-}
-
 #consultancy-form {
   background-color: #fff;
   min-height: 2200px;
@@ -66,4 +47,8 @@ html, body {
   text-align: center;
   margin-bottom: 10px;
   color: rgba(255,255,255,0.3);
+}
+
+.wrapper {
+  background-color: #272120;
 }
