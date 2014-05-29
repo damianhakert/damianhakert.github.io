@@ -1,23 +1,40 @@
 ---
 layout: default
-title: Products
+suppress_header: true
 ---
 
-<div id="content" class="txt-middle">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4 col-md-4">
-        <a href="/gitlab-ce/"><h2>Community Edition</h2></a>
-        <p>GitLab CE is open source software to collaborate on code</p>
-      </div>
-      <div class="col-sm-4 col-md-4">
-        <a href="/gitlab-ee/"><h2>Enterprise Edition</h2></a>
-        <p>GitLab EE is similar to CE but with additional features</p>
-      </div>
-      <div class="col-sm-4 col-md-4">
-        <a href="/gitlab-ci/"><h2>Continuous Integration</h2></a>
-        <p>GitLab CI runs tests for your GitLab projects</p>
-      </div>
+<div class="wrapper container-fluid">
+
+  <div class="products">
+
+    <div class="col-md-4 product">
+      <a href="/gitlab-ce/">
+        <img src="/images/products/product_ce.png" class="img-responsive" id="ce">
+        <h1>Community Edition</h1>
+        <p class="lead">GitLab CE is open source software to collaborate on code</p>
+      </a>
     </div>
+
+    <div class="col-md-4 product ee">
+      <a href="/gitlab-ee/">
+        <img src="/images/products/product_ee.png" class="img-responsive" id="ee">
+        <h1>Enterprise Edition</h1>
+        <p class="lead">GitLab EE is similar to CE but with additional features</p>
+      </a>
+    </div>
+
+    <div class="col-md-4 product ci">
+      <a href="/gitlab-ci/">
+        <img src="/images/products/product_ci.png" class="img-responsive" id="ci">
+        <h1>Continuous Integration</h1>
+        <p class="lead">GitLab CI runs tests for your GitLab projects</p>
+      </a>
+    </div>
+
   </div>
+
 </div>
+
+<link href="/stylesheets/sticky_footer.css" rel="stylesheet">
+<link href="/stylesheets/intermediate.css" rel="stylesheet">
+<link href="/stylesheets/animate.min.css" rel="stylesheet">
