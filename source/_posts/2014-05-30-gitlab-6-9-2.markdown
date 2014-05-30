@@ -10,8 +10,8 @@ address issues with the management of SSH keys in Omnibus packages and the
 LDAP user filter.
 
 We advise all omnibus-gitlab users to upgrade to the latest package and rebuild
-their `authorized_keys` file. In addition, users of the LDAP user filter
-feature should avoid GitLab 6.9.0 and GitLab 6.9.1.
+their `authorized_keys` file. Users of the LDAP user filter feature should
+avoid GitLab 6.9.0 and GitLab 6.9.1, and use GitLab 6.9.2 instead.
 
 # SSH keys in Omnibus packages
 
