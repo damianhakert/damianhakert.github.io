@@ -1,0 +1,36 @@
+body {
+  background: #548;
+  color: white;
+}
+
+.pack-fox {
+  float: left;
+}
+
+.graphic-menu {
+  margin-bottom: 70px;
+}
+
+.dl-links {
+  padding-top: 100px;
+}
+
+.dl-links small {
+  color: rgba(246, 191, 2, 1);
+}
+
+.dl-links h5 a {
+  color: rgba(255,255,255,0.8);
+}
+
+.btn-default {
+  background-color: rgba(0,0,0,0);
+  border-color: #fff;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.install-btn {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}

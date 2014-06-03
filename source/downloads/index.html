@@ -1,81 +1,166 @@
 ---
 layout: default
-title: GitLab Community Edition (CE) Downloads
 ---
-<div id="content">
-  <div class="container txt-lefty">     
-    <div class="row">
-      <div class="col-sm-12 col-md-12"> 
-        <div class="entry">
-          <div class="row">
-            <div class="col-sm-12 col-md-12">
-              <p>
-                <strong>Packages</strong>
-                <br>
-                These packages contain GitLab CE and all its dependencies (Ruby, PostgreSQL, Redis, Nginx, Unicorn and all gems with their native extensions already compiled).
-                These packages are made with <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#installation">omnibus-gitlab that also contains the installation instructions for the package</a>.
-              </p>
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th>Platform</th>
-                    <th>Download</th>
-                    <th>MD5</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><img src="/images/ubuntu.png"></td>
-                    <td>Ubuntu 12.04 LTS 64bit</td>
-                    <td><a href="https://downloads-packages.s3.amazonaws.com/ubuntu-12.04/gitlab_6.9.2-omnibus-1_amd64.deb">gitlab_6.9.2-omnibus-1_amd64.deb</a></td>
-                    <td>c57116a285a5dc01c1c2e91f6e654b17</td>
-                  </tr>
-                  <tr>
-                    <td><img src="/images/debian.png"></td>
-                    <td>Debian 7 (Wheezy) 64bit</td>
-                    <td><a href="https://downloads-packages.s3.amazonaws.com/debian-7.4/gitlab_6.9.2-omnibus-1_amd64.deb">gitlab_6.9.2-omnibus-1_amd64.deb</a></td>
-                    <td>0fc1a9764a8f67997d116876df051771</td>
-                  </tr>
-                  <tr>
-                    <td><img src="/images/centos.png"></td>
-                    <td>CentOS 6.5 64bit (compatible with all Enterprise Linux 6.x distributions)</td>
-                    <td><a href="https://downloads-packages.s3.amazonaws.com/centos-6.5/gitlab-6.9.2_omnibus-1.el6.x86_64.rpm">gitlab-6.9.2_omnibus-1.el6.x86_64.rpm</a></td>
-                    <td>8710d1abb066998c3f60e5e29c119276</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12 col-md-12">
-              <p>
-                <strong>GitLab Enterprise Edition (EE)</strong>
-                <br>
-                For the GitLab Enterprise Edition packages please see <a href="https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/install/packages.md">the documentation in the repository</a> (subscribers only).
-              </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12 col-md-12">
-              <p>
-                <strong>Other installation options</strong>
-                <br>
-                For other installation options please see <a href="/installation/">the installation page</a>.
-              </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12 col-md-12">
-              <p>
-                <strong>Download archives</strong>
-                <br>
-                For older downloads please see the <a href="archives/">Download Archives</a>.
-              </p>
-            </div>
-          </div>
+
+<div class="wrapper container">
+
+  <div class="row graphic-menu">
+
+    <div class="col-md-5">
+      <img src="/images/downloads/bg_omnibus_400.png" class="img-responsive pack-fox">
+    </div>
+
+    <div class="col-md-7 dl-links">
+      <h1>
+        GitLab comes packaged.
+        <br />
+        <small>All dependencies included and only three steps to install</small>
+      </h1>
+
+      <a href="#installation-instructions"><button class="btn btn-default btn-lg install-btn">Install GitLab</button></a>
+
+
+      <h5><a href="">Download Enterprise Edtion packages</a></h5>
+      <h5><a href="">Download an older package</a></h5>
+      <h5><a href="">Install GitLab using other methods</a></h5>
+      
+    </div>
+
+  </div>
+
+
+  <div class="row" id="installation-instructions">
+    <div class="col-sm-12 installation-instructions">
+
+      <h1 class="heavy">I want to install GitLab on
+
+        <!-- dropdown button -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle btn-lg" data-toggle="dropdown">
+            Ubuntu 12.04 <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#ubuntu">Ubuntu 12.04</a></li>
+            <li><a href="#centos">CentOS 6.4</a></li>
+            <li><a href="#debian">Debian 7</a></li>
+          </ul>
         </div>
+        <!-- / dropdown button -->
+      </h1>
+
+      <div id="tabs">
+        <div class="tab" id="ubuntu">
+          
+          <div class="tab-step">
+            <div class="large-number">1</div>
+            <p>Download and unpack the package and dependencies to your server</p>
+            <p>
+              <pre>
+wget https://downloads-packages.s3.amazonaws.com/ubuntu-12.04/gitlab_6.8.2-omnibus-1_amd64.deb
+sudo apt-get install openssh-server
+sudo apt-get install postfix # sendmail or exim is also OK
+sudo dpkg -i gitlab_6.8.2-omnibus-1_amd64.deb</pre>
+            </p>
+          </div>
+
+        <div class="tab-step">
+          <div class="large-number">2</div>
+          <p>Unpack the package</p>
+          <p>
+            <pre>
+  </pre>
+          </p>
+        </div>
+
+        <div class="tab-step">
+          <div class="large-number">3</div>
+          <p>Install and run GitLab!</p>
+          <p>
+            <pre>
+  sudo gitlab-ctl reconfigure</pre>
+          </p>
+        </div>
+
       </div>
+        <div class="tab" id="centos">tab2</div>
+        <div class="tab" id="debian">tab3</div>
+      </div>
+
     </div>
   </div>
 </div>
+
+<script type="text/javascript" src="/javascripts/downloads.js"></script>
+<link href="/stylesheets/sticky_footer.css" rel="stylesheet">
+<link href="/stylesheets/downloads.css" rel="stylesheet">
+
+
+
+
+
+<p>
+  <strong>Packages</strong>
+  <br>
+  These packages contain GitLab CE and all its dependencies (Ruby, PostgreSQL, Redis, Nginx, Unicorn and all gems with their native extensions already compiled).
+  These packages are made with <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#installation">omnibus-gitlab that also contains the installation instructions for the package</a>.
+</p>
+<table class="table">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Platform</th>
+      <th>Download</th>
+      <th>MD5</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/images/ubuntu.png"></td>
+      <td>Ubuntu 12.04 LTS 64bit</td>
+      <td><a href="https://downloads-packages.s3.amazonaws.com/ubuntu-12.04/gitlab_6.9.2-omnibus-1_amd64.deb">gitlab_6.9.2-omnibus-1_amd64.deb</a></td>
+      <td>c57116a285a5dc01c1c2e91f6e654b17</td>
+    </tr>
+    <tr>
+      <td><img src="/images/debian.png"></td>
+      <td>Debian 7 (Wheezy) 64bit</td>
+      <td><a href="https://downloads-packages.s3.amazonaws.com/debian-7.4/gitlab_6.9.2-omnibus-1_amd64.deb">gitlab_6.9.2-omnibus-1_amd64.deb</a></td>
+      <td>0fc1a9764a8f67997d116876df051771</td>
+    </tr>
+    <tr>
+      <td><img src="/images/centos.png"></td>
+      <td>CentOS 6.5 64bit (compatible with all Enterprise Linux 6.x distributions)</td>
+      <td><a href="https://downloads-packages.s3.amazonaws.com/centos-6.5/gitlab-6.9.2_omnibus-1.el6.x86_64.rpm">gitlab-6.9.2_omnibus-1.el6.x86_64.rpm</a></td>
+      <td>8710d1abb066998c3f60e5e29c119276</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12 col-md-12">
+<p>
+  <strong>GitLab Enterprise Edition (EE)</strong>
+  <br>
+  For the GitLab Enterprise Edition packages please see <a href="https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/install/packages.md">the documentation in the repository</a> (subscribers only).
+</p>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12 col-md-12">
+<p>
+  <strong>Other installation options</strong>
+  <br>
+  For other installation options please see <a href="/installation/">the installation page</a>.
+</p>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12 col-md-12">
+<p>
+  <strong>Download archives</strong>
+  <br>
+  For older downloads please see the <a href="archives/">Download Archives</a>.
+</p>
+</div>
+</div>
+
