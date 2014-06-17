@@ -28,6 +28,13 @@ server {
 
 server {
   listen 80;
+  server_name about.gitlab.com;
+  server_tokens off;
+  return 301 https://about.gitlab.com$request_uri;
+}
+
+server {
+  listen 80;
   server_name gitlab.org gitlabhq.com www.gitlabhq.com;
   server_name_in_redirect off;
 
