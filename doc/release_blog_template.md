@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab X.X CE and EE released"
+title: "GitLab X.X released with MAIN_CE_FEATURE and MAIN_CE_FEATURE"
 date: yyyy-mm-22
 comments: true
 categories:
@@ -57,11 +57,11 @@ Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_
 
 - - -
 
-# Install
+# Installation
 
-If you are setting up a new GitLab installation see the [installation section of the README](https://gitlab.com/gitlab-org/gitlab-ce/blob/X-X-stable/README.md#installation).
+If you are setting up a new GitLab installation please see the [installing GitLab page](https://www.gitlab.com/installation/).
 
-# Update
+# Updating
 
 Upgrade instructions for omnibus-gitlab packages can be found in [the omnibus-gitlab repository](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update.md).
 
@@ -74,9 +74,9 @@ If you still want to do it manually - see the [Update Guide](https://gitlab.com/
 
 For LDAP group support and more have a look at the [feature list of GitLab Enterprise Edition](http://www.gitlab.com/gitlab-ee/).
 
-Access to GitLab Enterprise Edition is included with a [GitLab.com subscription](http://www.gitlab.com/subscription/).
+Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/subscription/).
 
 No time to upgrade or maintain Gitlab yourself?
-GitLab.com also offers upgrade and installation services as part of a [GitLab.com subscription](http://www.gitlab.com/subscription/) or alternatively on a [consultancy basis](http://www.gitlab.com/consultancy/).
+GitLab B.V. also offers upgrade and installation services as part of a [subscription](http://www.gitlab.com/subscription/) or alternatively on a [consultancy basis](http://www.gitlab.com/consultancy/).
 
 - - -
