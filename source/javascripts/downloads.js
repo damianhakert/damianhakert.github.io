@@ -10,5 +10,11 @@ $(document).ready(function(){
     current = $(this).attr('href');
     $('#tabs .tab').hide();
     $(current).show();
+
+    // Close the dropdown
+    $(this).dropdown('toggle');
+
+    // Don't follow the link
+    return false;
   });
 });
