@@ -119,3 +119,44 @@ server {
     deny    all;
   }
 }
+
+server {
+  listen 443;
+  root /home/deploy/public;
+  index index.html;
+  add_header X-Frame-Options DENY;
+  server_name localhost about.gitlab.com;
+  server_tokens off;
+
+  ssl on;
+  ssl_certificate /etc/ssl/about.gitlab.com.bundle;
+  ssl_certificate_key /etc/ssl/about.gitlab.com.key;
+  ssl_session_timeout 5m;
+  # ssl_protocols SSLv3 TLSv1;
+  ssl_ciphers 'ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-RSA-AES128-SHA256:DHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:DES-CBC3-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!CAMELLIA:!DES:!MD5:!PSK:!RC4';
+  ssl_prefer_server_ciphers on;
+
+  gzip on; # Enable gzip compression
+  gzip_comp_level 6; # Compression level
+  gzip_vary on; # Proxies can store both compressed and uncompressed version of the content
+  gzip_proxied any; # Enable compression for all requests when request is coming from a proxy
+  gzip_types text/plain text/css application/json application/javascript application/x-javascript text/javascript text/xml application/xml application/rss+xml application/atom+xml application/rdf+xml;
+  gzip_buffers 16 8k; # Number and the size of the compression buffers
+  gzip_disable "MSIE [1-6].(?!.*SV1)"; # Disables gzip compression for browsers not supporting it, < IE 6
+
+  location / {
+  }
+  location ~ ^/subscription/(basic|standard|plus|success)$ {
+     proxy_pass http://localhost:4567;
+     proxy_set_header  X-Real-IP  $remote_addr;
+  }
+  location ~*  \.(jpg|jpeg|png|gif|ico|css|js)$ {
+   expires 365d;
+  }
+  location ~ ^/webhook$ {
+    proxy_pass http://localhost:5555;
+    proxy_set_header  X-Real-IP  $remote_addr;
+    allow   54.243.197.170;
+    deny    all;
+  }
+}
