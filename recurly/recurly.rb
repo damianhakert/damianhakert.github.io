@@ -34,6 +34,14 @@ get '/subscription/standard' do
   erb :subscription_form
 end
 
+get '/subscription/plus' do
+  @subdomain = Recurly.subdomain
+  @default_currency = Recurly.default_currency
+  @plan_code = 'gitlab-plus-yearly-100'
+  @signature = Recurly.js.sign :subscription => { :plan_code => @plan_code }
+  erb :subscription_form
+end
+
 post '/subscription/success' do
   erb :success
 end
