@@ -1,0 +1,30 @@
+body {
+  background: #548;
+  color: white;
+}
+
+.graphic-menu {
+  margin-bottom: 70px;
+}
+
+.btn-default {
+  background-color: rgba(0,0,0,0);
+  border-color: #fff;
+  color: #fff;
+}
+
+.other-downloads {
+  margin-top: 30px;
+}
+
+.other-downloads h1 {
+  font-weight: 700;
+}
+
+.other-downloads a {
+  color: rgba(255,255,255,0.8);
+}
+
+.other-downloads h3 a {
+  color: rgba(255,255,255,0.9);
+}
