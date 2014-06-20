@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitLab 7.0 released"
-date: 2014-06-19 16:18:54 +0300
+date: 2014-06-22 16:18:54 +0300
 comments: true
 categories: 
 author: Dmitriy Zaporozhets
@@ -10,14 +10,23 @@ author: Dmitriy Zaporozhets
 GitLab is open source software to collaborate on code.
 Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
 The biggest new feature in Community Edition is the ability to drag and drop an image with automatic upload in every markdown-area.
-In addition to the updates from Community Edition, GitLab Enterprise Edition received various bug fixes.
-
 Other changes include drag and drop between columns in milestones for issues and merge requests, use of identicons when user doesn't have an avatar set and various peformance and UI updates.
+In addition to the updates from Community Edition, GitLab Enterprise Edition received various bug fixes.
 
 This month's Most Valuable Persons (MVP) are Earle Randolph Bunao and Neil Francis Calabroso for implementing drag and drop upload of image in every markdown-area.
 Thanks Earle Randolph Bunao and Neil Francis Calabroso!
 
 <!--more-->
+
+GitLab has seen enormous progress since version 6.0 was released in August 2013.
+Throughout the past ten months GitLab became more stable, simpler to install and easier to upgrade.
+The most important factor in improving GitLab's stability was the launch of the Enterprise Edition in 6.0.
+Introducing a commercial product allowed us to finance the expansion of the GitLab B.V. team and focus on doing more testing and fixing.
+The Omnibus packages made GitLab easier to install than ever before. What used to be a 10-page manual of copy-paste is now a simple OS package installation.
+Both the Omnibus packages and the upgrader script for manual installations introduced in GitLab 6.4 made GitLab much easier to upgrade.
+Of course, most of the improvements in GitLab came not from the highlights above, but from all other contributions totaling 3554 commits from hundreds of contributors!
+This caused GitLab usage to grow by leaps and bounds during the 6.x time-frame. GitLab is now used in over 100.000 organizations, a fourfold increase from the 25.000 when 6.0 launched.
+We would like to thank everyone that contributed for helping to make GitLab the most installed software to collaborate on code.
 
 ## Attach images (JPG, PNG, GIF) by dragging & dropping or selecting them
 
@@ -67,6 +76,8 @@ We are also removing Wall from projects because we feel that the time needed for
 If you are setting up a new GitLab installation please see the [installing GitLab page](https://www.gitlab.com/installation/).
 
 # Updating
+
+Upgrading to this major release from 6.x should be relatively easy since there are no major changes in the architecture of GitLab.
 
 Upgrade instructions for omnibus-gitlab packages can be found in [the omnibus-gitlab repository](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update.md).
 
