@@ -9,13 +9,13 @@ author: Dmitriy Zaporozhets
 
 GitLab is open source software to collaborate on code.
 Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
-The biggest new feature in Community Edition is ***MAIN_CE_FEATURE***.
-In addition to the updates from Community Edition, GitLab Enterprise Edition ***MAIN_EE_FEATURE***.
+The biggest new feature in Community Edition is the ability to drag and drop an image with automatic upload in every markdown-area.
+In addition to the updates from Community Edition, GitLab Enterprise Edition received various bug fixes.
 
-Other changes include ***FEATURES_FROM_CHANGELOG***.
+Other changes include drag and drop between columns in milestones for issues and merge requests, use of identicons when user doesn't have an avatar set and various peformance and UI updates.
 
-This month's Most Valuable Person (MVP) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+This month's Most Valuable Persons (MVP) are Earle Randolph Bunao and Neil Francis Calabroso for implementing drag and drop upload of image in every markdown-area.
+Thanks Earle Randolph Bunao and Neil Francis Calabroso!
 
 <!--more-->
 
@@ -27,7 +27,7 @@ Now you can easily attach several images to issue description or comment using d
 
 ## Permissions changes
 
-Some new changes to permissions model:
+We indroduced some changes to permissions model:
 
 Developers: 
 
@@ -36,18 +36,29 @@ Developers:
 
 Masters: 
 
-* can not remove or force push to branch unless it is protected
+* can not remove or force push to branch if it is protected
 * can create projects in group (only if master is a group access level)
+
+## Drag & drop issues inside milestone
+
+Thanks to sponsoring by Codethink it is now possible to drag and drop issues and merge requests between the columns in milestones. This should make milestones even more user friendly and should make organizing milestones even easier. [Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob//CHANGELOG#L28).
+
+[![screenshot](/images/7_0/milestone.gif)](/images/7_0/milestone.gif)
 
 ## Improved performance
 
-Application is much faster now. Especially for large groups.
+Application is much faster now.
 
-## Drag & drop issues inside milestone 
+We have improved the performance of projects that have a large number of members.
 
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/X-X-stable/CHANGELOG#L18).
+When browsing files of a project that has large amount of files and directories, commit messages would take a lot of time to load and could potentially fail to load.
+With the improvements introduced in 7.0, commit messages are loaded only for visible part of the screen which increases the load speed dramatically.
 
-[![screenshot](/images/7_0/milestone.gif)](/images/7_0/milestone.gif)
+## Deprecations
+
+GitLab 7.0 is dropping support for ruby 1.9.3. Starting with version 7.0 we recommend using latest ruby which is now supported, ruby 2.1.
+
+We are also removing Wall from projects because we feel that the time needed for developing and keeping bug free is not justified if compared to the usefulness of the feature.
 
 - - -
 
