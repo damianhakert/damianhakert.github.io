@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab 7.0 released"
+title: "GitLab 7.0 released with drag and drop images and performance improvements"
 date: 2014-06-22 16:18:54 +0300
 comments: true
 categories: 
@@ -68,6 +68,11 @@ With the improvements introduced in 7.0, commit messages are loaded only for vis
 GitLab 7.0 is dropping support for ruby 1.9.3. Starting with version 7.0 we recommend using latest ruby which is now supported, ruby 2.1.
 
 We are also removing Wall from projects because we feel that the time needed for developing and keeping bug free is not justified if compared to the usefulness of the feature.
+
+## Other changes
+
+This release has many improvements, it includes more than 550 commits!
+Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7be80fd89954a248527ca9be4bb9d9c320390811/CHANGELOG) to see the 40 named changes.
 
 - - -
 
