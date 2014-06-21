@@ -55,6 +55,10 @@ Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_
 
 [![screenshot](/images/X_X/feature.png)](/images/X_X/feature.png) ***X_X is the version of GitLab being released***
 
+## Other changes
+
+This release has more improvements, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/X-X-stable/CHANGELOG) to see the all named changes.
+
 - - -
 
 # Installation
