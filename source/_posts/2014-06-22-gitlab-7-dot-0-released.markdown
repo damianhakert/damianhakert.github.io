@@ -86,9 +86,7 @@ Upgrading to this major release from 6.x should be relatively easy since there a
 
 Upgrade instructions for omnibus-gitlab packages can be found in [the omnibus-gitlab repository](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update.md).
 
-You can also use GitLab Upgrader script, see [GitLab Upgrader guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/upgrader.md)
-
-If you still want to do it manually - see the [Update Guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/6.9-to-7.0.md).
+You can't use the upgrader, you'll have to upgrade manually - see the [Update Guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/6.9-to-7.0.md).
 
 # Enterprise
 
