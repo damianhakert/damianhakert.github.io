@@ -1,6 +1,13 @@
 ---
 layout: default
 title: Downloads
+platforms:
+- name: ubuntu1204
+  long_name: Ubuntu 12.04
+- name: centos6
+  long_name: CentOS 6
+- name: debian7
+  long_name: Debian 7
 ---
 <div class="wrapper container">
 
@@ -21,16 +28,16 @@ title: Downloads
               Ubuntu 12.04 <span class="caret"></span>
             </button>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="#ubuntu">Ubuntu 12.04</a></li>
-              <li><a href="#centos">CentOS 6</a></li>
-              <li><a href="#debian">Debian 7</a></li>
+            {% for platform in page.platforms %}
+              <li><a href="#{{platform.name}}">{{platform.long_name}}</a></li>
+            {% endfor %}
             </ul>
           </div>
           <!-- / dropdown button -->
         </h1>
 
         <div id="tabs">
-          <div class="tab" id="ubuntu">
+          <div class="tab" id="ubuntu1204">
 
             <div class="tab-step">
               <p>Download and unpack the package and dependencies to your server</p>
@@ -58,7 +65,7 @@ password: 5iveL!fe</pre>
           </div>
 
         </div>
-          <div class="tab" id="debian">
+          <div class="tab" id="debian7">
             <div class="tab-step">
               <p>Download and unpack the package and dependencies to your server</p>
               <p>
@@ -84,7 +91,7 @@ password: 5iveL!fe</pre>
             </p>
           </div>
           </div>
-          <div class="tab" id="centos">
+          <div class="tab" id="centos6">
             <div class="tab-step">
               <p>Download and unpack the package and dependencies to your server</p>
               <p>
