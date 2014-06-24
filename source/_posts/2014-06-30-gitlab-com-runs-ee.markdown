@@ -16,7 +16,7 @@ You now get to use the most fully featured GitLab edition on GitLab.com.
 The reason for this is twofold. 
 First, we want to make it easy to allow you to experience all GitLab features.
 Second, we want to run EE at scale ourselves since it contains more features than CE.
-We want to be able to monitor all features on our own server for performance regressions or such things.
+We want to be able to monitor all features on our own server for things like performance regressions.
 Monitor problems on our own servers is much easier since we have access to all graphs and logs.
 This way we can solve problems before anybody notices them.
 
