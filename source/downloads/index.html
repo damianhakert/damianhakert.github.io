@@ -7,14 +7,14 @@ platforms:
   download_url: https://downloads-packages.s3.amazonaws.com/ubuntu-12.04/gitlab_7.0.0-omnibus-1_amd64.deb
   install_commands: |
                     sudo apt-get install openssh-server
-                    sudo apt-get install postfix # sendmail or exim is also OK
+                    sudo apt-get install postfix # Select 'Internet Site', using sendmail or exim is also OK
                     sudo dpkg -i gitlab_7.0.0-omnibus-1_amd64.deb
 - name: ubuntu1404
   long_name: Ubuntu 14.04
   download_url: https://downloads-packages.s3.amazonaws.com/ubuntu-14.04/gitlab_7.0.0-omnibus-1_amd64.deb
   install_commands: |
                     sudo apt-get install openssh-server
-                    sudo apt-get install postfix # sendmail or exim is also OK
+                    sudo apt-get install postfix # Select 'Internet Site', using sendmail or exim is also OK
                     sudo dpkg -i gitlab_7.0.0-omnibus-1_amd64.deb
 - name: debian7
   long_name: Debian 7
@@ -28,7 +28,7 @@ platforms:
   download_url: https://downloads-packages.s3.amazonaws.com/centos-6.5/gitlab-7.0.0_omnibus-1.el6.x86_64.rpm
   install_commands: |
                     sudo yum install openssh-server
-                    sudo yum install postfix # sendmail or exim is also OK
+                    sudo yum install postfix # Select 'Internet Site', using sendmail or exim is also OK
                     sudo rpm -i gitlab-7.0.0_omnibus-1.el6.x86_64.rpm
   post_reconfigure: sudo lokkit -s http -s ssh # open up the firewall for HTTP and SSH requests
 ---
@@ -64,10 +64,17 @@ platforms:
           <div class="tab" id="{{platform.name}}">
 
             <div class="tab-step">
-              <p>Download and unpack the package and dependencies to your server</p>
+              <p>Download the package and install everything</p>
               <p>
               <pre>wget {{platform.download_url}}
 {{platform.install_commands}}</pre>
+              </p>
+            </div>
+
+            <div class="tab-step">
+              <p>Edit the configuration file to add your hostname</p>
+              <p>
+                <pre>sudo edit /etc/gitlab/gitlab.rb</pre>
               </p>
             </div>
 
@@ -80,10 +87,12 @@ platforms:
             </div>
 
             <div class="tab-step">
-              <p>Login by browsing to the host where you installed GitLab</p>
               <p>
-                <pre>username: root
-password: 5iveL!fe</pre>
+                Browse to the hostname and login
+                <br />
+                Username: root
+                <br />
+                Password: 5iveL!fe
               </p>
             </div>
           </div>
