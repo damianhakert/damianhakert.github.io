@@ -17,10 +17,10 @@ The reason for this is twofold.
 First, we want to make it easy to allow you to experience all GitLab features.
 Second, we want to run EE at scale ourselves since it contains more features than CE.
 We want to be able to monitor all features on our own server for things like performance regressions.
-Monitor problems on our own servers is much easier since we have access to all graphs and logs.
+Monitoring our own servers is much easier since we have access to all graphs and logs.
 This way we can solve problems before anybody notices them.
 
 By the way, besides GitLab.com we also run another installation.
-This is a server accessible only to GitLab B.V. employees because problems here are more noticeable.
+This is a server accessible only to GitLab B.V. employees because problems here are more noticeable to end users.
 This server is updated daily to the master branch of GitLab Community Edition.
-This ensures we are immediately aware when someone merged a breaking change.
+This ensures we quickly discover situations where someone merged a breaking change.
