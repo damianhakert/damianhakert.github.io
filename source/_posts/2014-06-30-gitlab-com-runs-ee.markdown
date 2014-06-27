@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "GitLab.com now runs GitLab Enterprise Edition"
-date: 2014-06-30 16:18:54 +0300
+date: 2014-06-27
 comments: true
-categories: 
+categories:
 author: Sytse Sijbrandij
 ---
 
@@ -13,7 +13,7 @@ You now get to use the most fully featured GitLab edition on GitLab.com.
 
 <!--more-->
 
-The reason for this is twofold. 
+The reason for this is twofold.
 First, we want to make it easy to allow you to experience all GitLab features.
 Second, we want to run EE at scale ourselves since it contains more features than CE.
 We want to be able to monitor all features on our own server for things like performance regressions.
