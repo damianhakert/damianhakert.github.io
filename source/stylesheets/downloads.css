@@ -27,6 +27,10 @@ body {
   color: #fff;
 }
 
+.btn-group {
+  padding-bottom: 8px;
+}
+
 .dropdown-menu {
   background: #019875;
 }
@@ -36,7 +40,6 @@ body {
 .dropdown-menu li a:hover {
   background: #18BE97;
 }
-
 
 .other-downloads {
   margin-top: 30px;
