@@ -9,7 +9,7 @@ author: Job van der Voort
 
 GitLab is a fully remote company, meaning that all of us (currently six) work 100% of our time from home or any other place in the world. We're not the first to do this, [Wordpress](http://blogs.hbr.org/2013/03/how-wordpress-thrives-with-a-1/) does it on a much larger scale, but it might be nice for high-growth startups to see how we handle it. It doesn't require as much tools or effort as you might think.
 
-Currently we're based in Ukraine (1), Servia (1) and The Netherlands (4).
+Currently we're based in Ukraine (1), Serbia (1) and The Netherlands (4).
 
 
 ## Morning Meeting
