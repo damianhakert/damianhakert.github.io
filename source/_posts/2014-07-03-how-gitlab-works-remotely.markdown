@@ -18,6 +18,8 @@ Every morning at 8:00 CET (note: you have to know your timezones working remotel
 
 ![our morning meeting](/images/remotely/meeting.png)
 
+<!--more-->
+
 We keep an agenda in Google Docs, and limit it to 45 minutes. Anyone can add anything on the agenda. Every call starts with a round of 'What did you do yesterday?', where everyone tells what they did *after* work; almost always worth some laughs. Next we go over the points and note in the agenda what the follow-up is for each item.
 In depth discussions are moved to later or after the call with only the relevant participants, rather than having three people doze off while the rest talks about webserver worker optimization.
 
