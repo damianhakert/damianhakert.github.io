@@ -765,6 +765,12 @@ h2.terms {
   }
 }
 
+/* Subscription */
+
+.order-gl {
+  text-align: center;
+}
+
 /* Embeding video */
 
 @media (min-width: 992px) {
@@ -819,3 +825,4 @@ body {
   from { opacity: 1; }
   to   { opacity: 1; }
 }
+

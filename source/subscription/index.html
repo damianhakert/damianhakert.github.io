@@ -3,8 +3,8 @@ layout: default
 title: Subscription
 ---
 <div id="content">
-  <div class="container">     
-    <div class="row">           
+  <div class="container">
+    <div class="row">
       <div class="col-sm-12 col-md-12">
         <div class="product-plan">
           <ul class="plans list-unstyled">
@@ -99,21 +99,8 @@ title: Subscription
                   </tr>
                 </tbody>
             </table>
-            <div id="order_or_get_a_quote" class="action">
-              <p>
-              <a href="/subscription/basic" class="btn-action btn btn-primary">Basic</a>
-              <a href="/subscription/standard" class="btn-action btn btn-primary">Standard</a>
-              <a href="/subscription/plus" class="btn-action btn btn-primary">Plus</a>
-              </p>
 
-              <p>
-              Use the above buttons for creditcard orders.<br />
-              If you want to pay by <b>bank transfer</b> please first request a quotation below.<br />
-              &nbsp;<br />
-              <a href="form.html" class="btn-action btn btn-primary">Request a quotation</a>
-              &nbsp;<br />
-              </p>
-
+            <div class="order-gl">
               <p>
                 Students of <a href="https://en.wikipedia.org/wiki/Types_of_educational_institutions">educational institutions</a> do not count towards the user count. The staff, researchers and post-docs do count towards the user count.
               </p>
@@ -121,6 +108,26 @@ title: Subscription
               <p>
               If you have any questions please <a href="mailto:sales@gitlab.com">email us</a>.
               </p>
+              <div class="order-lvl">
+                <h2>Basic Subscription</h1>
+                <a href="/subscription/basic" class="btn-action btn btn-info">Creditcard</a>
+                <a href="/subscription/basic" class="btn-action btn btn-info">Bank</a>
+                <a href="/subscription/basic" class="btn-action btn btn-info">Quote</a>
+              </div>
+
+              <div class="order-lvl">
+                <h2>Standard Subscription</h1>
+                <a href="/subscription/standard" class="btn-action btn btn-primary">Creditcard</a>
+                <a href="/subscription/basic" class="btn-action btn btn-primary">Bank</a>
+                <a href="/subscription/basic" class="btn-action btn btn-primary">Quote</a>
+              </div>
+
+              <div class="order-lvl">
+                <h2>Plus Subscription</h1>
+                <a href="/subscription/plus" class="btn-action btn btn-success">Creditcard</a>
+                <a href="/subscription/basic" class="btn-action btn btn-success">Bank</a>
+                <a href="/subscription/basic" class="btn-action btn btn-success">Quote</a>
+              </div>
             </div>
           </ul>
         </div>
