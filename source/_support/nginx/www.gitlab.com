@@ -23,7 +23,14 @@ server {
   listen 80;
   server_name localhost www.gitlab.com blue-moon.gitlap.com;
   server_tokens off;
-  return 301 https://www.gitlab.com$request_uri;
+  return 301 https://about.gitlab.com$request_uri;
+}
+
+server {
+  listen 80;
+  server_name about.gitlab.com;
+  server_tokens off;
+  return 301 https://about.gitlab.com$request_uri;
 }
 
 server {
@@ -34,7 +41,7 @@ server {
   include /etc/nginx/conf.d/org_to_com_rewrite_rules.rules;
 
   location / {
-    rewrite ^/$ https://www.gitlab.com/ permanent;
+    rewrite ^/$ https://about.gitlab.com/ permanent;
   }
 
   if ($http_host != "gitlab.org") {
@@ -62,7 +69,7 @@ server {
   include /etc/nginx/conf.d/blog_rewrite_rules.rules;
 
   location / {
-    rewrite ^/$ https://www.gitlab.com/blog permanent;
+    rewrite ^/$ https://about.gitlab.com/blog permanent;
   }
 }
 
@@ -79,15 +86,27 @@ server {
 #
 server {
   listen 443;
-  root /home/deploy/public;
-  index index.html;
-  add_header X-Frame-Options DENY;
   server_name localhost www.gitlab.com blue-moon.gitlap.com;
-  server_tokens off;
+  server_name_in_redirect off;
 
   ssl on;
   ssl_certificate /etc/ssl/www.gitlab.com.bundle;
   ssl_certificate_key /etc/ssl/www.gitlab.com.key;
+
+  rewrite ^ https://about.gitlab.com$request_uri permanent;
+}
+
+server {
+  listen 443;
+  root /home/deploy/public;
+  index index.html;
+  add_header X-Frame-Options DENY;
+  server_name about.gitlab.com;
+  server_tokens off;
+
+  ssl on;
+  ssl_certificate /etc/ssl/about.gitlab.com.bundle;
+  ssl_certificate_key /etc/ssl/about.gitlab.com.key;
   ssl_session_timeout 5m;
   # ssl_protocols SSLv3 TLSv1;
   ssl_ciphers 'ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-RSA-AES128-SHA256:DHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:DES-CBC3-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!CAMELLIA:!DES:!MD5:!PSK:!RC4';
@@ -101,11 +120,9 @@ server {
   gzip_buffers 16 8k; # Number and the size of the compression buffers
   gzip_disable "MSIE [1-6].(?!.*SV1)"; # Disables gzip compression for browsers not supporting it, < IE 6
 
-  rewrite ^/features/ https://www.gitlab.com/gitlab-ee/ permanent;
-  rewrite ^/features https://www.gitlab.com/gitlab-ee/ permanent;
   location / {
   }
-  location ~ ^/subscription/(basic|standard|success)$ {
+  location ~ ^/subscription/(basic|standard|plus|success)$ {
      proxy_pass http://localhost:4567;
      proxy_set_header  X-Real-IP  $remote_addr;
   }

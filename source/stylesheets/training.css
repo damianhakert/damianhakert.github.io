@@ -1,0 +1,35 @@
+body {
+  background-color: rgba(85, 68, 136, 0.23);
+}
+
+.training-picture-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  background: url(/images/bg/bg_training.png) no-repeat center center;
+  background-size: cover;
+}
+
+.training-overlay {
+  background: rgba(85, 68, 136, 0.62);
+  height: 500px;
+}
+
+.training-content {
+  padding-top: 150px;
+  text-align: center;
+  color: white;
+}
+
+.training-content h1 {
+  color: white;
+  font-size: 6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.training-form {
+  color: white !important;
+  margin-top: 25px;
+}

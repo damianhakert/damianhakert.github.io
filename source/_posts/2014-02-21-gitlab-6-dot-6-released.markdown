@@ -3,8 +3,9 @@ layout: post
 title: "GitLab CE 6.6 released"
 date: 2014-02-21 11:47
 comments: true
-categories: 
+categories:
 community: true
+author: Marin Jankovski
 ---
 
 ### GitLab CE 6.6 released!
