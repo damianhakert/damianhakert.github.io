@@ -57,4 +57,7 @@ If this is the case, these users will not be affected by LDAP group synchronizat
 If you are using ActiveDirectory, it is possible to create nested LDAP groups: the 'Engineering' LDAP group may contain another LDAP group 'Software', with 'Software' containing LDAP users Alice and Bob.
 GitLab will recognize Alice and Bob as members of the 'Engineering' group.
 
+### LDAP documentation
+
+Find this and further LDAP documentation in our [integration documentation](http://doc.gitlab.com/ee/integration/ldap.html).
 
