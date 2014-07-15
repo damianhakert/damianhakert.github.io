@@ -40,19 +40,19 @@ title: GitLab High Availability
               </p>
               <h4>2. Recovery from snapshot</h4>
               <p>
-                  It is possible to create a snapshot of your working server. The snapshot is a copy of all the files on the server, and are taken periodically. In case of failure, the server is manually reverted to the latest available snapshot. If a secondary location is available, then it is possible to create an automatic revert to the snapshot, without the need for human intervention.
+                  It is possible to create a snapshot of your working server. The snapshot is a copy of all the files on the server, and is taken periodically. In case of failure, the server is manually reverted to the latest available snapshot. If a secondary location is available, then it is possible to automatically revert to the snapshot, without the need for human intervention.
               </p>
               <p>
-                  It is common to do this with virtual machines where VMware has functionality for taking snapshots. But it is also possible to use the XFS filesystem to take snapshots.
+                  It is common to do this with virtual machines; most providers have functionality for taking snapshots. However it is also possible to use the XFS filesystem to take snapshots.
               </p>
               <p>
-                  Recovering from a snapshot is faster than recovering from the backup as described above. In the latter case, you’d commonly need to re-install GitLab, manually restore any customization, and only then then run `rake gitlab:backup:restore`. Restoring from a snapshot skips these extra manual steps.
+                  Recovering from a snapshot is faster than recovering from a backup as described above. In the latter case, you’d commonly need to re-install GitLab, manually restore any customization, and only then then run `rake gitlab:backup:restore`. Restoring from a snapshot skips these extra manual steps.
               </p>
               <p>
-                  If you use the snapshot to restore the GitLab server to another server one should consider the IP address implications. To make sure everyone can quickly use the new server it is common to update the DNS entry. In this case either the new machine has to use a new IP address, or the snapshot should use the same OpenSSH server certificate as the server it is replacing. Otherwise users accessing GitLab using the Git client over SSH will see “WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED”, because the server certificate and the IP address of the GitLab server do not match.
+                  If you use the snapshot to restore the GitLab server to another machine one should consider the IP address implications. To make sure everyone can quickly use the new server it is common to update the DNS entry. In this case either the new machine has to use a new IP address, or the snapshot should use the same OpenSSH server certificate as the server it is replacing. Otherwise users accessing GitLab using the Git client over SSH will see “WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED”, because the server certificate and the IP address of the GitLab server do not match.
               </p>
               <p>
-                  The IP address mismatch issue can be resolved by using a floating IP, which is IP failover in a router, but as to be supported both by the router device and the network. If the new address is in a secondary geographical location, both locations need to be on the same network and have the same core router.
+                  The IP address mismatch issue can be resolved by using a floating IP, which is IP failover in a router, but has to be supported both by the router device and the network. If the new address is in a secondary geographical location, both locations need to be on the same network and have the same core router.
               </p>
               <p>
                   <b>Using recovery from snapshots is best suited for single virtual servers.</b>    
