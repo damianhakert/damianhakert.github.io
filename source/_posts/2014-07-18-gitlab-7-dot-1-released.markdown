@@ -40,21 +40,21 @@ In Enterprise Edition we changed sign in layout few version ago to implement cus
 
 [![screenshot](/images/7_1/login.png)](/images/7_1/login.png)
 
-## NEW_SPONSORED_FEATURE
+## Improved discussions
 
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/X-X-stable/CHANGELOG#L18).
+We put some efforts into improving discussions. Now outdated discussions hidden under cut but you can easily expand it.
 
-## ***MAIN_EE_FEATURE*** (EE only feature)
+[![screenshot](/images/7_1/discussion.png)](/images/7_1/discussion.png)
 
-***DESCRIPTION***
+## Contributors API
 
-[![screenshot](/images/7_1/feature.png)](/images/7_1/feature.png) ***7_1 is the version of GitLab being released***
+Thanks to sponsoring by Mobbr it is now possible to get repository contributors by single API call. [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-1-stable/CHANGELOG#L18).
 
-## ***EE_FEATURE*** (EE only feature)
+## Fetch SSH keys from LDAP account (EE only feature)
 
-***DESCRIPTION***
 
-[![screenshot](/images/7_1/feature.png)](/images/7_1/feature.png) ***7_1 is the version of GitLab being released***
+## Synchronize LDAP-enabled GitLab administrators with an LDAP group (EE only feature)
+
 
 - - -
 
