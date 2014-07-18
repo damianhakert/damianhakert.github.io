@@ -28,17 +28,17 @@ Milestone page shows you all issues from all projects that have same milestone n
 
 [![screenshot](/images/7_1/group_milestone_show.png)](/images/7_1/group_milestone_show.png) 
 
-## ***NEW_CE_FEATURE***
+## Show VERSION file in sidebar
 
-***DESCRIPTION***
+If your repository has VERSION file - it will be rendered on project sidebar. It saves time if you need to check library version.
 
-[![screenshot](/images/7_1/feature.png)](/images/7_1/feature.png) ***7_1 is the version of GitLab being released***
+[![screenshot](/images/7_1/version.png)](/images/7_1/version.png) 
 
-## ***NEW_CE_FEATURE***
+## New login page
 
-***DESCRIPTION***
+In Enterprise Edition we changed sign in layout few version ago to implement customization feature. In order to reduce difference between version we ported new loook to CE
 
-[![screenshot](/images/7_1/feature.png)](/images/7_1/feature.png) ***7_1 is the version of GitLab being released***
+[![screenshot](/images/7_1/login.png)](/images/7_1/login.png)
 
 ## NEW_SPONSORED_FEATURE
 
