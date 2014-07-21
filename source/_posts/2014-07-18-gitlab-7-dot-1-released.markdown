@@ -36,19 +36,23 @@ If your repository has VERSION file - it will be rendered on the project sidebar
 
 ## New login page
 
-In Enterprise Edition we changed sign in layout few version ago to implement customization feature. In order to reduce difference between version we ported new loook to CE
+In GitLab Enterprise Edition we've previously changed the sign in page to implement customization. 
+In order to reduce the difference between CE and EE we've ported the new look to CE.
 
 [![screenshot](/images/7_1/login.png)](/images/7_1/login.png)
 
 ## Improved discussions
 
-We put some efforts into improving discussions. Now outdated discussions hidden under cut but you can easily expand it.
+We've put some effort into improving discussion. 
+Now, outdated comments will be hidden under the cut. 
+If you still want to see these, you can easily expand the outdated comments.
 
 [![screenshot](/images/7_1/discussion.png)](/images/7_1/discussion.png)
 
 ## Contributors API
 
-Thanks to sponsoring by Mobbr it is now possible to get repository contributors by single API call. [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-1-stable/CHANGELOG#L18).
+Thanks to sponsoring by [Mobbr](https://mobbr.com), it is now possible to get all repository contributors with a single API call.
+[LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-1-stable/CHANGELOG#L18).
 
 ## Fetch SSH keys from LDAP account (EE only feature)
 
