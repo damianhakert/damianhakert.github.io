@@ -56,9 +56,11 @@ Thanks to sponsoring by [Mobbr](https://mobbr.com), it is now possible to get al
 
 ## Fetch SSH keys from LDAP account (EE only feature)
 
+You can now use SSH keys that are part of user profiles in the LDAP server to access GitLab.
 
 ## Synchronize LDAP-enabled GitLab administrators with an LDAP group (EE only feature)
 
+A group on the LDAP server can be given GitLab administrator access. Ensuring that the list of administrators in GitLab is always up to date.
 
 - - -
 
