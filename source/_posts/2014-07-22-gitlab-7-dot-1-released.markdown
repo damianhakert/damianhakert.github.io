@@ -57,12 +57,14 @@ Thanks to sponsoring by [Mobbr](https://mobbr.com), it is now possible to get al
 ## Fetch SSH keys from LDAP account (EE only feature)
 
 It is possible to configure GitLab Enterprise Edition so that users have their SSH public keys synchronised with an attribute that contains their key in their LDAP object.
-Existing SSH public keys that are manually manged in GitLab are not affected by this feature.
+Existing SSH public keys that are manually managed in GitLab are not affected by this feature.
+To enable LDAP SSH key synchronization you need to [tell GitLab which LDAP attribute holds the SSH keys](http://doc.gitlab.com/ee/integration/ldap.html#synchronising-user-ssh-keys-with-ldap).
 
 ## Synchronize LDAP-enabled GitLab administrators with an LDAP group (EE only feature)
 
 A group on the LDAP server can be given GitLab administrator access.
-Ensuring that the list of administrators in GitLab is always up to date.
+This ensures that the list of administrators in GitLab is always up to date.
+The LDAP Common Name of the group that holds your administrators needs to be [configured on your GitLab server](http://doc.gitlab.com/ee/integration/ldap.html#define-gitlab-admin-status-via-ldap).
 
 - - -
 
