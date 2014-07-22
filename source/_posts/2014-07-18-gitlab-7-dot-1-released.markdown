@@ -61,7 +61,8 @@ Existing SSH public keys that are manually manged in GitLab are not affected by 
 
 ## Synchronize LDAP-enabled GitLab administrators with an LDAP group (EE only feature)
 
-A group on the LDAP server can be given GitLab administrator access. Ensuring that the list of administrators in GitLab is always up to date.
+A group on the LDAP server can be given GitLab administrator access.
+Ensuring that the list of administrators in GitLab is always up to date.
 
 - - -
 
