@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab X.X released with MAIN_CE_FEATURE and MAIN_CE_FEATURE"
+title: "GitLab X.X released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 date: yyyy-mm-22
 comments: true
 categories:
@@ -74,13 +74,13 @@ You have to update GitLab Shell to ***X.X.X*** manually, see [point 3 of the upg
 
 If you still want to do it manually - see the [Update Guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/X.x-to-X.x.md).
 
-# Enterprise
+# Enterprise Edition
 
-For LDAP group support and more have a look at the [feature list of GitLab Enterprise Edition](http://www.gitlab.com/gitlab-ee/).
+The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
+For a complete overview please have a look at the [feature list of GitLab EE](http://www.gitlab.com/gitlab-ee/).
 
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/subscription/).
-
-No time to upgrade or maintain Gitlab yourself?
-GitLab B.V. also offers upgrade and installation services as part of a [subscription](http://www.gitlab.com/subscription/) or alternatively on a [consultancy basis](http://www.gitlab.com/consultancy/).
+No time to upgrade GitLab yourself?
+A subscription also entitles to our upgrade and installation services.
 
 - - -
