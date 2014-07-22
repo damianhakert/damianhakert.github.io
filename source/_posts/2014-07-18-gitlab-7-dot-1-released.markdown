@@ -52,7 +52,7 @@ If you still want to see these, you can easily expand the outdated comments.
 ## Contributors API
 
 Thanks to sponsoring by [Mobbr](https://mobbr.com), it is now possible to get all repository contributors with a single API call.
-[LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-1-stable/CHANGELOG#L18).
+[Changelog entry](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-1-stable/CHANGELOG#L18).
 
 ## Fetch SSH keys from LDAP account (EE only feature)
 
