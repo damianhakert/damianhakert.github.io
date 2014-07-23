@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "GitLab X.X released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
-date: yyyy-mm-22
+date: YYYY-MM-22
 comments: true
 categories:
-author:
+author: ADD_YOUR_FULL_NAME
 ---
 
 GitLab is open source software to collaborate on code.
