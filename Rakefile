@@ -447,8 +447,8 @@ task :configure_nginx do
   system('sudo', 'cp', '_support/nginx/www.gitlab.com', '/etc/nginx/sites-available/')
 end
 
-# usage rake new_post[my-new-post] or rake new_post['my new post'] or rake new_post (defaults to "new-post")
-desc "Begin a new release post in #{source_dir}/#{posts_dir}"
+# usage rake new_release_post["7.3"]
+desc "Begin a new release post in #{source_dir}/#{posts_dir} using template from docs"
 task :new_release_post, :version do |t, args|
   version = args.version
 
