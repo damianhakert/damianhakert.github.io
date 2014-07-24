@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: gitlab v1.1 vmware image
 wordpress_id: 8
