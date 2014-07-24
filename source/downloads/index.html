@@ -1,0 +1,123 @@
+---
+layout: default
+title: Downloads
+platforms:
+- name: ubuntu1204
+  long_name: Ubuntu 12.04
+  download_url: https://downloads-packages.s3.amazonaws.com/ubuntu-12.04/gitlab_7.1.0-omnibus-1_amd64.deb
+  install_commands: |
+                    sudo apt-get install openssh-server
+                    sudo apt-get install postfix # Select 'Internet Site', using sendmail or exim is also OK
+                    sudo dpkg -i gitlab_7.1.0-omnibus-1_amd64.deb
+- name: ubuntu1404
+  long_name: Ubuntu 14.04
+  download_url: https://downloads-packages.s3.amazonaws.com/ubuntu-14.04/gitlab_7.1.0-omnibus-1_amd64.deb
+  install_commands: |
+                    sudo apt-get install openssh-server
+                    sudo apt-get install postfix # Select 'Internet Site', using sendmail or exim is also OK
+                    sudo dpkg -i gitlab_7.1.0-omnibus-1_amd64.deb
+- name: debian7
+  long_name: Debian 7
+  download_url: https://downloads-packages.s3.amazonaws.com/debian-7.5/gitlab_7.1.0-omnibus-1_amd64.deb
+  install_commands: |
+                    sudo apt-get install openssh-server
+                    sudo apt-get install exim4-daemon-light
+                    sudo dpkg -i gitlab_7.1.0-omnibus-1_amd64.deb
+- name: centos6
+  long_name: CentOS 6
+  download_url: https://downloads-packages.s3.amazonaws.com/centos-6.5/gitlab-7.1.0_omnibus-1.el6.x86_64.rpm
+  install_commands: |
+                    sudo yum install openssh-server
+                    sudo yum install postfix # Select 'Internet Site', using sendmail or exim is also OK
+                    sudo rpm -i gitlab-7.1.0_omnibus-1.el6.x86_64.rpm
+  post_reconfigure: sudo lokkit -s http -s ssh # open up the firewall for HTTP and SSH requests
+---
+<div class="wrapper container">
+
+  <div class="row graphic-menu">
+
+    <div class="col-md-3 hidden-sm hidden-xs">
+      <img src="/images/downloads/bg_omnibus_400.png" class="img-responsive pack-fox">
+    </div>
+
+    <div class="col-md-9">
+      <div class="installation-instructions">
+
+        <h1 class="heavy">I want to install GitLab on</h1>
+
+        <!-- dropdown button -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle btn-lg" data-toggle="dropdown">
+            Choose an OS <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+          {% for platform in page.platforms %}
+            <li><a href="#{{platform.name}}">{{platform.long_name}}</a></li>
+          {% endfor %}
+          </ul>
+        </div>
+        <!-- / dropdown button -->
+
+        <div id="tabs">
+          {% for platform in page.platforms %}
+          <div class="tab" id="{{platform.name}}">
+
+            <div class="tab-step">
+              <p>Download the package and install everything</p>
+              <p>
+              <pre>wget {{platform.download_url}}
+{{platform.install_commands}}</pre>
+              </p>
+            </div>
+
+            <div class="tab-step">
+              <p>Edit the configuration file to add your hostname</p>
+              <p>
+                <pre>sudo -e /etc/gitlab/gitlab.rb</pre>
+              </p>
+            </div>
+
+            <div class="tab-step">
+              <p>Install and start GitLab</p>
+              <p>
+                <pre>sudo gitlab-ctl reconfigure
+{{platform.post_reconfigure}}</pre>
+              </p>
+            </div>
+
+            <div class="tab-step">
+              <p>
+                Browse to the hostname and login
+                <br />
+                Username: root
+                <br />
+                Password: 5iveL!fe
+              </p>
+            </div>
+            <div class="tab-step">
+              <p>Tweet about it!</p>
+              <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://about.gitlab.com" data-text="I just installed Gitlab: open source software to collaborate on code. Check it out!" data-via="gitlabhq" data-size="large">Tweet about it!</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </div>
+            <div class="tab-step">
+              <p>
+                For troubleshooting and configuration options please see the <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md">Omnibus GitLab readme</a>
+              </p>
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+      </div>
+
+      <div class="other-downloads">
+        <h3>Other options</h3>
+        <h5><a href="https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/install/packages.md">Download Enterprise Edtion packages (subscribers only)</a></h5>
+        <h5><a href="archives/">View all downloads</a></h5>
+        <h5><a href="/installation/">Install GitLab using other methods</a></h5>
+      </div>
+    </div>
+  </div>
+</div>
+
+<link href="/stylesheets/sticky_footer.css" rel="stylesheet">
+<link href="/stylesheets/downloads.css" rel="stylesheet">

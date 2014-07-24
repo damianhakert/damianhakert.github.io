@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GitLab | {{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="alternate" type="application/atom+xml" title="Blog" href="/atom.xml" />
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="/stylesheets/glyphicons.css" rel="stylesheet">
+    <link href="/stylesheets/base.css" rel="stylesheet">
+
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/ico/favicon.png">
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-37019925-1']);
+      _gaq.push(['_setDomainName', 'gitlab.com']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+
+    </script>
+
+  </head>
+  <body>
+
+    <div class="navbar navbar-fixed-top navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-gl-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            {% if page.url == '/index.html' %}
+              <a class="navbar-brand animated"><img src="/images/wordmark_inverted_small.png" class="nav-logo"></a>
+            {% else %}
+              <a class="navbar-brand animated" href="/"><img src="/images/wordmark_inverted_small.png" class="nav-logo"></a>
+            {% endif %}
+          </div>
+
+          <div class="collapse navbar-collapse" id="main-gl-nav">
+            <ul class="nav pull-right animated navbar-nav">
+              <li><a href="/products">Products</a></li>
+              <li><a href="/services">Services</a></li>
+              <li><a href="/company">Company</a></li>
+              <li><a href="/community">Community</a></li>
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="https://gitlab.com/users/sign_in">Sign in</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    {% unless page.suppress_header %}
+    <div id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12">
+            <h1>{{ page.title }}</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endunless %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    {% include scripts.html %}
+  </body>
+</html>

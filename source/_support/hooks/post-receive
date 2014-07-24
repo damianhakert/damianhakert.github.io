@@ -1,0 +1,14 @@
+#!/bin/bash -l
+set -e
+repo=$(pwd)
+repo_name=$(basename ${repo%.git})
+echo $repo_name
+cd /tmp
+[[ -d "$repo_name" ]] && rm -rf $repo_name
+git clone $repo
+cd $repo_name
+bundle install --path ~/bundle
+bundle exec rake build
+rsync -r --delete-after public/ ~/public/
+rsync -r recurly/ ~/recurly/
+chmod 755 ~/recurly/start_recurly.rb
