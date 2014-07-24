@@ -252,7 +252,7 @@ desc "deploy public directory to github pages"
 multitask :push do
   puts "## Deploying branch to Github Pages "
   puts "## Pulling any updates from Github Pages "
-  cd "#{deploy_dir}" do 
+  cd "#{deploy_dir}" do
     system "git pull"
   end
   (Dir["#{deploy_dir}/*"]).each { |f| rm_rf(f) }
@@ -445,4 +445,34 @@ end
 task :configure_nginx do
   warn('Installing nginx config to /etc/nginx/sites-available')
   system('sudo', 'cp', '_support/nginx/www.gitlab.com', '/etc/nginx/sites-available/')
+end
+
+# usage rake new_release_post["7.3"]
+desc "Begin a new release post in #{source_dir}/#{posts_dir} using template from docs"
+task :new_release_post, :version do |t, args|
+  version = args.version
+
+  unless version =~ /\A\d+\.\d+\z/
+    raise 'You need to specify version like 8.3'
+  end
+
+  mkdir_p "#{source_dir}/#{posts_dir}"
+
+  filename = "#{source_dir}/#{posts_dir}/#{Time.now.strftime('%Y-%m-22')}-gitlab-#{version.gsub('.', '-')}-released.#{new_post_ext}"
+
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+
+  puts "Creating new release post: #{filename}"
+
+  template_text = File.read('doc/release_blog_template.md')
+  template_text.gsub!('date: YYYY-MM-22', "date: #{Time.now.year}-#{Time.now.strftime("%m")}-22")
+  template_text.gsub!('X_X', version.gsub('.', '_'))
+  template_text.gsub!('X.X', version)
+  template_text.gsub!('X-X', version.gsub('.', '-'))
+
+  open(filename, 'w') do |post|
+    post.puts template_text
+  end
 end
