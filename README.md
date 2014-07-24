@@ -24,6 +24,15 @@ or use the following to also launch Google Chrome
 bin/view
 ```
 
+If you want the browser to automatically reload on every change, install the LiveReload browser extension and run from a separate terminal:
+
+```
+guard
+```
+
+Then just click the livereload icon and it should say in the terminal that the browser is connected. Expect reload times of around 7 seconds for every change.
+
+
 ## Create release blog post
 
 Begin a new release blog post using template from docs.
