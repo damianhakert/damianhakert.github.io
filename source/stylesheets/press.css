@@ -1,0 +1,54 @@
+/* Press */
+
+h1 {
+  font-family: Open Sans;
+  font-weight: 600;
+}
+
+h1 small {
+  font-weight: 300;
+}
+
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.list .item h2 {
+  font-weight: 300;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  color: #333;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.list .item h2 small {
+  font-weight: 300;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.list .item {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration: none !important;
+}
+
+.list a.item.link :hover {
+  background-color: #eee;
+}
+
+.btn {
+  min-width: 150px;
+}
+
+.listing .btn-group-vertical {
+  margin-top: 15px;
+}

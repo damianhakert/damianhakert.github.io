@@ -50,7 +50,7 @@ Masters:
 
 ## Drag & drop issues inside milestone
 
-Thanks to sponsoring by Codethink it is now possible to drag and drop issues and merge requests between the columns in milestones. This should make milestones even more user friendly and should make organizing milestones even easier. [Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob//CHANGELOG#L28).
+Thanks to sponsoring by Codethink it is now possible to drag and drop issues and merge requests between the columns in milestones. This should make milestones even more user friendly and should make organizing milestones even easier. [changelog entry](https://gitlab.com/gitlab-org/gitlab-ce/blob/7be80fd89954a248527ca9be4bb9d9c320390811/CHANGELOG#L28).
 
 [![screenshot](/images/7_0/milestone.gif)](/images/7_0/milestone.gif)
 
