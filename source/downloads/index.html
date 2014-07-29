@@ -4,32 +4,32 @@ title: Package downloads for GitLab CE
 platforms:
 - name: ubuntu1204
   long_name: Ubuntu 12.04
-  download_url: https://downloads-packages.s3.amazonaws.com/ubuntu-12.04/gitlab_7.1.0-omnibus-1_amd64.deb
+  download_url: https://downloads-packages.s3.amazonaws.com/ubuntu-12.04/gitlab_7.1.1-omnibus.1-1_amd64.deb
   install_commands: |
                     sudo apt-get install openssh-server
                     sudo apt-get install postfix # Select 'Internet Site', using sendmail or exim is also OK
-                    sudo dpkg -i gitlab_7.1.0-omnibus-1_amd64.deb
+                    sudo dpkg -i gitlab_7.1.1-omnibus.1-1_amd64.deb
 - name: ubuntu1404
   long_name: Ubuntu 14.04
-  download_url: https://downloads-packages.s3.amazonaws.com/ubuntu-14.04/gitlab_7.1.0-omnibus-1_amd64.deb
+  download_url: https://downloads-packages.s3.amazonaws.com/ubuntu-14.04/gitlab_7.1.1-omnibus-1_amd64.deb
   install_commands: |
                     sudo apt-get install openssh-server
                     sudo apt-get install postfix # Select 'Internet Site', using sendmail or exim is also OK
-                    sudo dpkg -i gitlab_7.1.0-omnibus-1_amd64.deb
+                    sudo dpkg -i gitlab_7.1.1-omnibus-1_amd64.deb
 - name: debian7
   long_name: Debian 7
-  download_url: https://downloads-packages.s3.amazonaws.com/debian-7.5/gitlab_7.1.0-omnibus-1_amd64.deb
+  download_url: https://downloads-packages.s3.amazonaws.com/debian-7.5/gitlab_7.1.1-omnibus-1_amd64.deb
   install_commands: |
                     sudo apt-get install openssh-server
                     sudo apt-get install exim4-daemon-light
-                    sudo dpkg -i gitlab_7.1.0-omnibus-1_amd64.deb
+                    sudo dpkg -i gitlab_7.1.1-omnibus-1_amd64.deb
 - name: centos6
   long_name: CentOS 6
-  download_url: https://downloads-packages.s3.amazonaws.com/centos-6.5/gitlab-7.1.0_omnibus-1.el6.x86_64.rpm
+  download_url: https://downloads-packages.s3.amazonaws.com/centos-6.5/gitlab-7.1.1_omnibus-1.el6.x86_64.rpm
   install_commands: |
                     sudo yum install openssh-server
                     sudo yum install postfix # Select 'Internet Site', using sendmail or exim is also OK
-                    sudo rpm -i gitlab-7.1.0_omnibus-1.el6.x86_64.rpm
+                    sudo rpm -i gitlab-7.1.1_omnibus-1.el6.x86_64.rpm
   post_reconfigure: sudo lokkit -s http -s ssh # open up the firewall for HTTP and SSH requests
 ---
 <div class="wrapper container">
