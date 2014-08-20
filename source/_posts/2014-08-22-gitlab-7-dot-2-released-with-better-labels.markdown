@@ -12,7 +12,7 @@ Today we announce the release of a new version of GitLab Community Edition (CE) 
 The biggest new feature in Community Edition is new and improved labels.
 In addition to the updates from Community Edition, GitLab Enterprise Edition allows administrator to send emails to users through the admin interface.
 
-Other changes include ability to star a project, explore page for public projects and groups, API for labels, improvements for diffs and various bug fixes.
+Other changes include the ability to star a project, an explore page for public projects and groups, an API for labels, improvements for diffs and various bug fixes.
 
 This month's Most Valuable Person (MVP) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
@@ -21,21 +21,21 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 ## Improved labels
 
-Labels can now be fully managed. This means that you can create a new label with custom color, rename the label and change color and also remove a label.
+You can now edit and delete labels and give them a (custom) color.
 
 [![screenshot](/images/7_2/labels1.png)](/images/7_2/labels1.png)
 [![screenshot](/images/7_2/labels2.png)](/images/7_2/labels2.png)
 
 ## Star project
 
-Thanks to contribution by Ciro Santilli, projects can now be starred.
+Thanks to the contribution by Ciro Santilli, projects can now be starred.
 
 [![screenshot](/images/7_2/star.png)](/images/7_2/star.png)
 
 
 ## Explore page
 
-Public page has been redesigned and it now allows you to check which projects have been popular recently. On the explore page you can also see all public groups and projects.
+The Public Projects page has been redesigned. Popular projects are featured and it's easier to view all public groups and projects.
 
 [![screenshot](/images/7_2/explore1.png)](/images/7_2/explore1.png)
 [![screenshot](/images/7_2/explore2.png)](/images/7_2/explore2.png)
@@ -43,13 +43,13 @@ Public page has been redesigned and it now allows you to check which projects ha
 
 ## Send administrator emails to users (EE only feature)
 
-Administrator can send emails to all GitLab users or specific groups. This is a useful adition for administrators since they can make announcements targeting specific sets of users
+Administrator can now send emails to all GitLab users or specific groups or projects. This is particularly convenient to quickly send a message to a group of people.
 
 [![screenshot](/images/7_2/admin_email.png)](/images/7_2/admin_email.png)
 
 ## Other changes
 
-This release has more improvements, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-2-stable/CHANGELOG) to see the all named changes.
+Check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-2-stable/CHANGELOG) to see these and additional changes.
 
 - - -
 
