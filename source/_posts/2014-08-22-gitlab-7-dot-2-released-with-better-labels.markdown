@@ -1,0 +1,78 @@
+---
+layout: post
+title: "GitLab 7.2 released with better labels"
+date: 2014-08-22 12:50:22 +0200
+comments: true
+categories:
+author: Marin Jankovski
+---
+
+GitLab is open source software to collaborate on code.
+Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
+The biggest new feature in Community Edition is new and improved labels.
+In addition to the updates from Community Edition, GitLab Enterprise Edition allows administrator to send emails to users through the admin interface.
+
+Other changes include ability to star a project, explore page for public projects and groups, API for labels, improvements for diffs and various bug fixes.
+
+This month's Most Valuable Person (MVP) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
+Thanks ***MVP_USER_FIRST_NAME***!
+
+<!--more-->
+
+## Improved labels
+
+Labels can now be fully managed. This means that you can create a new label with custom color, rename the label and change color and also remove a label.
+
+[![screenshot](/images/7_2/labels1.png)](/images/7_2/labels1.png)
+[![screenshot](/images/7_2/labels2.png)](/images/7_2/labels2.png)
+
+## Star project
+
+Thanks to contribution by Ciro Santilli, projects can now be starred.
+
+[![screenshot](/images/7_2/star.png)](/images/7_2/star.png)
+
+
+## Explore page
+
+Public page has been redesigned and it now allows you to check which projects have been popular recently. On the explore page you can also see all public groups and projects.
+
+[![screenshot](/images/7_2/explore1.png)](/images/7_2/explore1.png)
+[![screenshot](/images/7_2/explore2.png)](/images/7_2/explore2.png)
+
+
+## Send administrator emails to users (EE only feature)
+
+Administrator can send emails to all GitLab users or specific groups. This is a useful adition for administrators since they can make announcements targeting specific sets of users
+
+[![screenshot](/images/7_2/admin_email.png)](/images/7_2/admin_email.png)
+
+## Other changes
+
+This release has more improvements, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-2-stable/CHANGELOG) to see the all named changes.
+
+- - -
+
+# Installation
+
+If you are setting up a new GitLab installation please see the [installing GitLab page](https://www.gitlab.com/installation/).
+
+# Updating
+
+Upgrade instructions for omnibus-gitlab packages can be found in [the omnibus-gitlab repository](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update.md).
+
+If you installed GitLab from source and you have version 6.4.2 or higher you can use the [upgrade script](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/upgrader.md).
+You have to update GitLab Shell to 1.9.7 manually, see [point 3 of the upgrade guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/X.x-to-x.x.md#3-update-gitlab-shell-and-its-config).
+
+If you still want to do it manually - see the [Update Guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/7.1-to-7.2.md).
+
+# Enterprise Edition
+
+The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
+For a complete overview please have a look at the [feature list of GitLab EE](http://www.gitlab.com/gitlab-ee/).
+
+Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/subscription/).
+No time to upgrade GitLab yourself?
+A subscription also entitles to our upgrade and installation services.
+
+- - -
