@@ -49,6 +49,8 @@ Administrator can now send emails to all GitLab users or specific groups or proj
 
 ## Other changes
 
+If you are making use of Google Authentication you will need to enable Contacts API and Google+ API in the developer console of Google. This is because Google is deprecating some APIs September 1st.
+
 Check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-2-stable/CHANGELOG) to see these and additional changes.
 
 - - -
