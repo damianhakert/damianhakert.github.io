@@ -14,8 +14,8 @@ In addition to the updates from Community Edition, GitLab Enterprise Edition all
 
 Other changes include the ability to star a project, an explore page for public projects and groups, an API for labels, improvements for diffs and various bug fixes.
 
-This month's Most Valuable Person (MVP) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+This month's Most Valuable Person (MVP) is Robert Schilling for helping out on the issue tracker, with merge requests, writing code and fixing the website.
+Thanks Robert!
 
 <!--more-->
 
@@ -23,12 +23,14 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 You can now edit and delete labels and give them a (custom) color.
 
+The characters '?', '&' and ',' are no longer allowed however, so those will be removed from your tags during the database migrations for GitLab 7.2.
+
 [![screenshot](/images/7_2/labels1.png)](/images/7_2/labels1.png)
 [![screenshot](/images/7_2/labels2.png)](/images/7_2/labels2.png)
 
 ## Star project
 
-Thanks to the contribution by Ciro Santilli, projects can now be starred.
+Thanks to the contribution by Ciro Santilli, projects can now be starred. Most starred projects can be viewed on the [public page](https://gitlab.com/explore/projects/starred).
 
 [![screenshot](/images/7_2/star.png)](/images/7_2/star.png)
 
@@ -40,6 +42,10 @@ The Public Projects page has been redesigned. Popular projects are featured and 
 [![screenshot](/images/7_2/explore1.png)](/images/7_2/explore1.png)
 [![screenshot](/images/7_2/explore2.png)](/images/7_2/explore2.png)
 
+## Renewed Google Authentication
+
+If you are making use of Google Authentication you will need to enable Contacts API and Google+ API in the developer console of Google. This is because Google is deprecating some APIs September 1st.
+
 
 ## Send administrator emails to users (EE only feature)
 
@@ -48,8 +54,6 @@ Administrator can now send emails to all GitLab users or specific groups or proj
 [![screenshot](/images/7_2/admin_email.png)](/images/7_2/admin_email.png)
 
 ## Other changes
-
-If you are making use of Google Authentication you will need to enable Contacts API and Google+ API in the developer console of Google. This is because Google is deprecating some APIs September 1st.
 
 Check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-2-stable/CHANGELOG) to see these and additional changes.
 
