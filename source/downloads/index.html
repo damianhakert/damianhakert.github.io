@@ -31,7 +31,7 @@ platforms:
                     sudo yum install postfix
                     sudo service postfix start
                     sudo chkconfig postfix on
-                    sudo rpm -i gitlab-7.1.1_omnibus-1.el6.x86_64.rpm
+                    sudo rpm -i gitlab-7.2.0_omnibus-1.el6.x86_64.rpm
   post_reconfigure: sudo lokkit -s http -s ssh # open up the firewall for HTTP and SSH requests
 ---
 <div class="wrapper container">
