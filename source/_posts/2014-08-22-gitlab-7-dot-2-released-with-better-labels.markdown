@@ -42,6 +42,13 @@ The Public Projects page has been redesigned. Popular projects are featured and 
 [![screenshot](/images/7_2/explore1.png)](/images/7_2/explore1.png)
 [![screenshot](/images/7_2/explore2.png)](/images/7_2/explore2.png)
 
+## Unfold the diff
+
+You can now unfold hidden parts of the diff easily.
+
+[![screenshot](/images/7_2/unfold.gif)](/images/7_2/unfold.gif)
+
+
 ## Renewed Google Authentication
 
 If you are making use of Google Authentication you will need to enable Contacts API and Google+ API in the developer console of Google. This is because Google is deprecating some APIs September 1st.
