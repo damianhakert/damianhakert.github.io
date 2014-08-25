@@ -18,4 +18,4 @@ Here you can simply set a regular expression that requires your rule in a commit
 
 In addition, you can prevent users from deleting tags through pushes.
 
-We're very excited about Git Hooks and are looking to add more. If you are a customer of GitLab and require a Git Hook, [tell us](mailto: support@gitlab.com) and we can implement it for free.
+We're very excited about Git Hooks and are looking to add more. If you are a customer of GitLab and require a Git Hook, [tell us](mailto:support@gitlab.com) and we can implement it for free.
