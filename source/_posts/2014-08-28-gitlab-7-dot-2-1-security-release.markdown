@@ -9,8 +9,9 @@ author: Jacob Vosmaer
 
 Today we released GitLab Community Edition 7.2.1 and GitLab Enterprise Edition
 7.2.1. This is a security release which remedies an XSS vulnerability in
-GitLab. In addition to this 7.2.1 makes the tag-to-label migration for users
-upgrading from GitLab 7.1 and earlier more robust.
+GitLab. In addition to this 7.2.1 makes the [tag-to-label migration for users
+upgrading from GitLab 7.1 and earlier more
+robust](https://github.com/gitlabhq/gitlabhq/issues/7571).
 
 ## Affected versions
 
@@ -37,3 +38,5 @@ We would like to thank [Jakub Zoczek](http://zoczus.blogspot.com/) for his
 responsible disclosure of this issue to us.
 
 _Update 2014-08-28 18:02 CEST:_ Add affected version and acknowledgments.
+
+_Update 2014-08-28 18:07 CEST:_ Add link to GitHub issue for the label migration.
