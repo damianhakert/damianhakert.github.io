@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab 7.2.1 Security Release
+title: "GitLab 7.2.1 Security Release"
 date: 2014-08-28
 comments: true
 categories:
