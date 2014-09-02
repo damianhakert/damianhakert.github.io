@@ -13,6 +13,8 @@ By default, Enterprise Edition page shows GitLab logo and description
 
 ![default_login_page](/images/feature_branded_login/default_login_page.png)
 
+<!--more-->
+
 Navigate to the admin area and go to the Appearance page.
 
 ![admin area](/images/feature_branded_login/admin_area.png)
