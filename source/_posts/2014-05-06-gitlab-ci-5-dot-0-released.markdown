@@ -72,4 +72,4 @@ You can setup new GitLab CI instance using [installation guide](https://gitlab.c
 
 ## Support
 
-If you are looking for paid support for GitLab CI, please contact us at sales@gitlab.com.
+If you are looking for paid support for GitLab CI, please <a href="mailto:sales@gitlab.com">email us</a>.
