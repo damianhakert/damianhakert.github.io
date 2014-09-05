@@ -14,6 +14,7 @@ To improve collaboration within the enterprise some companies are starting to ta
 Tim O’Reilly [coined the term “inner-sourcing”](http://www.oreillynet.com/pub/a/oreilly/ask_tim/2000/opengl_1200.html) and defines it as the use of open source development techniques within the corporation.
 
 The 7 most important open source workflow practices for enterprises are:
+
 1. Visibility: all software projects are by default visible to all employees
 1. Forking: everyone who can see the code, can create a copy (fork) where they can make changes freely; these forks are visible for everyone.
 1. Pull/merge requests: even people outside the project are able to suggest changes and you can have a conversation about the code with line comments.
