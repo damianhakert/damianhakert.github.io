@@ -605,7 +605,14 @@ article {
   position: relative;
   float: right;
   right: 0px;
-  top: -50px;
+  top: 0px;
+}
+
+.blog-index a {
+  font-family: "Open Sans", "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
+  font-size: 14px;
+  line-height: auto;
+  font-weight: 600;
 }
 
 /* Footer
