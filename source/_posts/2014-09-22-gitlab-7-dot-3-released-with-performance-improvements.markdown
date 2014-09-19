@@ -21,9 +21,13 @@ Thanks Robert!
 
 ## Improved performance on large pushes
 
-Previously on a push that contained, for example, 1 thousand branches GitLab would create 1 thousand workers. That would take some time to process during which GitLab could slow down.
+Previously on a push that contained, for example, 1 thousand branches GitLab would create 1 thousand workers.
 
-With the changes introduced in GitLab 7.3, one push will create one worker that will handle 1 thousand branches. This allows other workers to be ready for new jobs and any long running workers can
+That would take some time to process during which GitLab could slow down.
+
+With the changes introduced in GitLab 7.3, one push will create one worker that will handle 1 thousand branches.
+
+This allows other workers to be ready for new jobs and any long running workers can
 easily be stopped if necessary.
 
 
@@ -76,6 +80,7 @@ Check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-3-stabl
 ## Upgrade barometer
 
 When upgrading to 7.3 expect downtime since there has been an important update to the GitLab structure.
+
 ** Users with large number of repositories(more than 1000) can expect prolonged downtime(up to 100minutes depending on number or reporitories) if upgrading from versions <= 7.2.1 . For that reason, we advise
 first upgrading to version 7.2.2, see [this blogpost for detailed information](LINK) **
 
