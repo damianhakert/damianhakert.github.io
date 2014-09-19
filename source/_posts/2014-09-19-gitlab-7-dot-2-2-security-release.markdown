@@ -43,6 +43,25 @@ build user on the server the omnibus package was built on, instead of the files
 being owned by 0/0 (root). This could (theoretically) be exploited by an
 attacker with the ability to write arbitrary files on your system.
 
+### Detection
+
+You can check whether your omnibus-gitlab installation is affected with the
+following command:
+
+```
+ls -lnd /opt/gitlab/embedded/service/gem/ruby/2.1.0/gems/rugged-0.21.0/ /opt/gitlab/embedded/bin/ruby
+```
+
+The output should look like:
+
+```
+-rwxr-xr-x 1 0 0 11991 Sep 18 15:02 /opt/gitlab/embedded/bin/ruby
+drwxrwxr-x 5 0 0  4096 Sep 18 16:04 /opt/gitlab/embedded/service/gem/ruby/2.1.0/gems/rugged-0.21.0/
+```
+
+If you see `1001 1001` (or another non-zero number) instead of `0 0`, your
+omnibus-gitlab installation is affected by this vulnerability.
+
 ### Mitigation
 
 All users who installed omnibus-gitlab 7.2.0 or omnibus-gitlab 7.2.1 __on
