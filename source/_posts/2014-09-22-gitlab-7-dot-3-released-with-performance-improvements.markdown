@@ -81,8 +81,8 @@ Check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-3-stabl
 
 When upgrading to 7.3 expect downtime since there has been an important update to the GitLab structure.
 
-** Users with large number of repositories(more than 1000) can expect prolonged downtime(up to 100minutes depending on number or reporitories) if upgrading from versions <= 7.2.1 . For that reason, we advise
-first upgrading to version 7.2.2, see [this blogpost for detailed information](LINK) **
+** NOTE ** Users with large number of repositories(more than 1000) can expect prolonged downtime(up to 100minutes depending on number or reporitories) if upgrading from versions <= 7.2.1 . For that reason, we advise
+first upgrading to version 7.2.2, see [this blogpost for detailed information](LINK)
 
 Users with smaller number of repositories(less than 1000) can safely upgrade directly to 7.3 expecting downtime similar to previous upgrades.
 
