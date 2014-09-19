@@ -13,6 +13,8 @@ Today we released GitLab 7.2.2. This release addresses a security issue in the
 long downtime during the upgrade to 7.3 for GitLab installations with many (>
 1000) repositories.
 
+<!--more-->
+
 ## Insecure file permissions in omnibus-gitlab 7.2.x .deb packages
 
 Due to a regression in omnibus-ruby, the omnibus-gitlab `.deb` packages for GitLab
