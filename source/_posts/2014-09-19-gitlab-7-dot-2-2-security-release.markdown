@@ -65,7 +65,7 @@ omnibus-gitlab installation is affected by this vulnerability.
 ### Mitigation
 
 All users who installed omnibus-gitlab 7.2.0 or omnibus-gitlab 7.2.1 __on
-Ubuntu or Debian__ should [upgrade to omnibus-gitlab 7.2.2](/downloads/) and
+Ubuntu or Debian__ should [upgrade to omnibus-gitlab 7.2.2](/downloads/) _and_
 run the following two commands.
 
 ```
