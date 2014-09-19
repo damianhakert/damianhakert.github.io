@@ -88,7 +88,7 @@ migration that will loop through all Git repositories managed by GitLab and
 update the `hooks` directory to become a symlink to gitlab-shell's `hooks`
 directory. On GitLab servers with many repositories this may take a long time.
 
-Because we wanted to avoid long downtime on gitlab.com, we came up with a
+To avoid long downtime on very large GitLab installations, we came up with a
 workaround to perform the hooks migration without downtime prior to upgrading
 to GitLab 7.3. This workaround is optional; if you skip it your hooks will get
 upgraded automatically when you upgrade to 7.3. _If your GitLab server has less
