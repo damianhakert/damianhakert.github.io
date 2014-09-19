@@ -76,7 +76,8 @@ sudo sh -c 'dpkg-query -L gitlab | while read f; do chown root:root "$f"; done'
 sudo gitlab-ctl reconfigure
 ```
 
-Users who cannot upgrade immediately should at least run the two commands above.
+The two commands above can also be used as a workaround for users who cannot
+upgrade immediately.
 
 <a name="hooks-migration-script"></a>
 ## Hooks migration script
