@@ -10,9 +10,9 @@ author: Marin Jankovski
 GitLab is open source software to collaborate on code.
 Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
 The biggest new feature in Community Edition is the improved performance with large pushes.
-In addition to the updates from Community Edition, GitLab Enterprise Edition allows assigning multiple LDAP groups to a single GitLab group.
-
 Other changes include the ability to edit a file in fullscreen (zen) mode, 'comment and close' button, wiki and snippets search and several API improvements.
+
+In addition to the updates from Community Edition, GitLab Enterprise Edition allows assigning multiple LDAP groups to a single GitLab group.
 
 This month's Most Valuable Person (MVP) is Robert Schilling for contributing zen mode, keyboard shortcuts and helping out on the issue tracker.
 Thanks Robert!
@@ -23,7 +23,7 @@ Thanks Robert!
 
 Previously on a push that contained 1 thousand branches GitLab would create 1 thousand workers.
 
-That would take some time to process during which GitLab could slow down.
+That would take some time to process during which other background tasks would be queued.
 
 With the changes introduced in GitLab 7.3, a single push will only create a single worker which will handle all branches.
 
@@ -86,10 +86,10 @@ Check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-3-stabl
 
 When upgrading to 7.3 expect downtime since there has been an important update to the GitLab structure.
 
-** NOTE ** Users with large number of repositories(more than 1000) can expect prolonged downtime(up to 100minutes depending on number or reporitories) if upgrading from versions <= 7.2.1 . For that reason, we advise
-first upgrading to version 7.2.2, see [this blogpost for detailed information](LINK)
+** NOTE ** Users with large number of repositories (more than 1000) can expect prolonged downtime(up to 100 minutes depending on number or reporitories) if upgrading from versions <= 7.2.1 . For that reason, we advise
+first upgrading to version 7.2.2, see [this blogpost for detailed information](https://about.gitlab.com/2014/09/19/gitlab-7-dot-2-2-security-release/#hooks-migration-script)
 
-Users with smaller number of repositories(less than 1000) can safely upgrade directly to 7.3 expecting downtime similar to previous upgrades.
+Users with smaller number of repositories (less than 1000) can safely upgrade directly to 7.3 expecting downtime similar to previous upgrades.
 
 - - -
 
