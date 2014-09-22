@@ -17,12 +17,14 @@ long downtime during the upgrade to 7.3 for GitLab installations with many (>
 
 ## Insecure file permissions in omnibus-gitlab 7.2.x .deb packages
 
-Due to a regression in omnibus-ruby, the omnibus-gitlab `.deb` packages for GitLab
-7.2.x Community Edition and Enterprise Edition install files with insecure
-permissions. We advise all users who installed omnibus-gitlab 7.2.x on Ubuntu
-12.04, Ubuntu 14.04 or Debian 7 to run the workaround commands below and
-upgrade to GitLab 7.2.2 as soon as possible. Centos 6 and Centos 7 are not
-affected by this security vulnerability.
+Due to a [regression in
+omnibus-ruby](https://www.getchef.com/blog/2014/09/19/security-releases-omnibus-2-0-2-and-3-2-2-insecure-file-ownership-in-omnibus-built-debian-and-ubuntu-packages/),
+the omnibus-gitlab `.deb` packages for GitLab 7.2.x Community Edition and
+Enterprise Edition install files with insecure permissions. We advise all users
+who installed omnibus-gitlab 7.2.x on Ubuntu 12.04, Ubuntu 14.04 or Debian 7 to
+run the workaround commands below and upgrade to GitLab 7.2.2 as soon as
+possible. Centos 6 and Centos 7 are not affected by this security
+vulnerability.
 
 ### Affected versions
 
@@ -117,3 +119,5 @@ available](https://about.gitlab.com/downloads/). To upgrade an installation
 from source please use the
 [upgrader](http://doc.gitlab.com/ce/update/upgrader.html) or the [patch update
 guide](http://doc.gitlab.com/ce/update/patch_versions.html).
+
+_Update 2014-09-22 13:57 CEST:_ added link to Chef blog post.
