@@ -84,7 +84,9 @@ Check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-3-stabl
 
 ## Upgrade barometer
 
-When upgrading to 7.3 expect downtime since there has been an important update to the GitLab structure.
+When upgrading to 7.3 there will be more time needed for migrations since there has been an important update to the GitLab structure, more specifically git hooks.
+
+In addition to the hooks update there is a migration for the serialization of project services which loops through a lot of data. On installation with more than 10000 projects this migration alone took about 3 minutes.
 
 ** NOTE ** Users with large number of repositories (more than 1000) can expect prolonged downtime(up to 100 minutes depending on number or reporitories) if upgrading from versions <= 7.2.1 . For that reason, we advise
 first upgrading to version 7.2.2, see [this blogpost for detailed information](https://about.gitlab.com/2014/09/19/gitlab-7-dot-2-2-security-release/#hooks-migration-script)
