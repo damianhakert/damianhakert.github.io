@@ -31,4 +31,4 @@ About GitLab B.V.:
 
 GitLab B.V. supports organizations and individuals using GitLab and offers services around GitLab such as subscriptions, consulting, development and training. GitLab is a community project with hundreds of contributors. GitLab B.V. is an active participant in this community, trying to serve its needs and lead by example.
 
-Contact:  Syste Sijbrandij, sytse@gitlab.com
+Contact:  Sytse Sijbrandij, sytse@gitlab.com
