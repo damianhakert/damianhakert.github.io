@@ -78,6 +78,38 @@ Check the [documentation](http://doc.gitlab.com/ee/integration/ldap.html#synchro
 
 [![screenshot](/images/7_3/multiple_ldap_groups.png)](/images/7_3/multiple_ldap_groups.png)
 
+## Security: connect to Redis via sockets
+
+Redis is an in-memory database used by GitLab for asynchronous inter-process communication, cache storage and session storage.
+A standard Redis installation trusts all local TCP connections.
+This means that who can create a TCP connection originating on the GitLab server could in theory modify or read user session data.
+As a security measure against this risk we are changing the default settings for GitLab to connect to Redis via Unix domain sockets.
+This allows system administrators to limit Redis access to the `git` user using file/directory permissions.
+
+What do you need to do to switch to Redis via sockets?
+
+- Omnibus-gitlab users switch to sockets automatically when they upgrade to 7.3.
+Tip: if you changed your Redis port in gitlab.rb with `redis['port'] = xxxx` to avoid port conflicts, you can remove that line now.
+- The required configuration changes for manual installations are [described in the 7.3 upgrade guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/7.2-to-7.3.md).
+- Instructions for cookbook-gitlab are still a [work in progress](https://gitlab.com/gitlab-org/cookbook-gitlab/issues/68).
+
+Unix domain sockets only work for connections between local processes.
+If your Redis instance is running on another machine consider adding the firewall rules below.
+Alternatively, you could create an encrypted connection between the GitLab server and the Redis server using [spiped](http://www.tarsnap.com/spiped.html).
+
+```
+# Iptables example for GitLab installations which cannot use sockets
+# We assume the Redis server is listening at 192.168.99.1:6379
+
+# Allow outgoing connections to 192.168.99.1:6379 for the git user.
+# Disallow outgoing connections to 192.168.99.1:6379 for everybody else.
+# Note: the order of these rules matters.
+iptables -A OUTPUT -m owner --uid-owner git -p tcp -d 192.168.99.1 --dport 6379 -j ACCEPT
+iptables -A OUTPUT -p tcp -d 192.168.99.1 --dport 6379 -j REJECT
+```
+
+We would like to thank Wyatt J. Brown for their responsible disclosure of this issue.
+
 ## Other changes
 
 Check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-3-stable/CHANGELOG) to see these and additional changes.
