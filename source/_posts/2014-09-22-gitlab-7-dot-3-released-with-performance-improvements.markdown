@@ -93,6 +93,9 @@ first upgrading to version 7.2.2, see [this blogpost for detailed information](h
 
 Users with smaller number of repositories (less than 1000) can safely upgrade directly to 7.3 expecting downtime similar to previous upgrades.
 
+## Other news
+We just [announced](https://about.gitlab.com/2014/09/22/wandisco-integrates-gitlab-enterprise-edition-in-their-git-multisite-offering/) that WANdisco will incorporate GitLab in their globally distributed git product.
+
 - - -
 
 # Installation
