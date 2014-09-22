@@ -82,7 +82,7 @@ Check the [documentation](http://doc.gitlab.com/ee/integration/ldap.html#synchro
 
 Redis is an in-memory database used by GitLab for asynchronous inter-process communication, cache storage and session storage.
 A standard Redis installation trusts all local TCP connections.
-This means that who can create a TCP connection originating on the GitLab server could in theory modify or read user session data.
+This means that an attacker who can create a TCP connection originating on the GitLab server could be able to modify or read user session data.
 As a security measure against this risk we are changing the default settings for GitLab to connect to Redis via Unix domain sockets.
 This allows system administrators to limit Redis access to the `git` user using file/directory permissions.
 
