@@ -19,6 +19,8 @@ Thanks Robert!
 
 <!--more-->
 
+_Updated 2014-09-23 10:00 CEST:_ Added a paragraph about omnibus-gitlab changes.
+
 ## Improved performance on large pushes
 
 Previously on a push that contained 1 thousand branches GitLab would create 1 thousand workers.
