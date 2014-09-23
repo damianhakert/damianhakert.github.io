@@ -19,7 +19,7 @@ Thanks Robert!
 
 <!--more-->
 
-_Updated 2014-09-22 10:00 CEST:_ Added a paragraph about omnibus-gitlab changes.
+_Updated 2014-09-23 10:00 CEST:_ Added a paragraph about omnibus-gitlab changes.
 
 ## Improved performance on large pushes
 
