@@ -110,6 +110,20 @@ iptables -A OUTPUT -p tcp -d 192.168.99.1 --dport 6379 -j REJECT
 
 We would like to thank Wyatt J. Brown for their responsible disclosure of this issue.
 
+## Omnibus-gitlab now supports non-bundled web servers
+
+The omnibus-gitlab packages provide a bundled NGINX web server which acts as a reverse proxy for GitLab, and which also serves static files such as Javascript, CSS files and user uploads.
+Prior to omnibus-gitlab 7.3 it was not supported to use a web server other than the bundled NGINX, because the omnibus-gitlab directory layout prevented access to user uploads in the interest of security.
+In omnibus-gitlab 7.3 we have changed the omnibus-gitlab directory layout and permissions to allow for non-bundled web servers.
+As a side benefit, we now have a stronger privilege separation between NGINX and the GitLab Rails application.
+
+To implement this change, omnibus-gitlab now creates a `gitlab-www` user which is intended to have read-only access to user uploads and read-write access to the Unicorn socket.
+For practical reasons, the socket used for communication between NGINX and Unicorn was moved from `/var/opt/gitlab/gitlab-rails/tmp/sockets` to `/var/opt/gitlab/gitlab-rails/sockets`.
+For more information about using a non-bundled web server with omnibus-gitlab, please see the [omnibus-gitlab README](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/7-3-stable/README.md#use-non-bundled-web-server).
+
+In addition to the changes above, we changed the NGINX directory layout to avoid directories like `/opt/gitlab/embedded/proxy_temp` being created by NGINX.
+These temporary directories now get created in `/var/opt/gitlab/nginx`.
+
 ## Other changes
 
 Check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-3-stable/CHANGELOG) to see these and additional changes.
