@@ -7,13 +7,28 @@ categories:
 author: Marin Jankovski
 ---
 
-We have released GitLab Community Edition 7.3.1 that fixes problems with pushing to protected branches, viewing diffs of files with changed permissions,
+We have released GitLab Community Edition 7.3.1 that fixes several issues:
+
+- pushing to protected branches
+- viewing diffs of files with changed permissions no longer gives a 500 error
+- comments with new commits in merge requests now only show the relevant commits
+- searching descriptions with relative links no longer causes 500 errors
+problems with pushing to protected branches, viewing diffs of files with changed permissions,
 multiple comments with commits being added to merge requests when source is a master branch and searching descriptions which contains relative links.
 
-GitLab Enterprise Edition 7.3.1 includes the above mentioned fixes.
+GitLab Enterprise Edition 7.3.1 also includes the above mentioned fixes.
 
 <!--more-->
 
 Packages for GitLab Community Edition 7.3.1 have been released for Ubuntu 12.04, Ubuntu 14.04, Debian 7, CentOS 6.5, CentOS 7.
 GitLab Enterprise Edition packages can be found in the subscribers repository.
+
+## Upgrading
+
+Omnibus-gitlab packages for GitLab 7.3.1 are [now
+available](https://about.gitlab.com/downloads/). To upgrade an installation
+from source please use the
+[upgrader](http://doc.gitlab.com/ce/update/upgrader.html) or the [patch update
+guide](http://doc.gitlab.com/ce/update/patch_versions.html).
+
 - - -
