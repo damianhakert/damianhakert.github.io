@@ -13,8 +13,6 @@ We have released GitLab Community Edition 7.3.1 that fixes several issues:
 - viewing diffs of files with changed permissions no longer gives a 500 error
 - comments with new commits in merge requests now only show the relevant commits
 - searching descriptions with relative links no longer causes 500 errors
-problems with pushing to protected branches, viewing diffs of files with changed permissions,
-multiple comments with commits being added to merge requests when source is a master branch and searching descriptions which contains relative links.
 
 GitLab Enterprise Edition 7.3.1 also includes the above mentioned fixes.
 
