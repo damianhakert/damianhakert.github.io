@@ -24,7 +24,10 @@ GitLab Enterprise Edition packages can be found in the subscribers repository.
 ## Upgrading
 
 Omnibus-gitlab packages for GitLab 7.3.1 are [now
-available](https://about.gitlab.com/downloads/). To upgrade an installation
+available](https://about.gitlab.com/downloads/).
+Be sure to do 'sudo gitlab-ctl stop nginx' before upgrading from 7.3.0.
+
+To upgrade an installation
 from source please use the
 [upgrader](http://doc.gitlab.com/ce/update/upgrader.html) or the [patch update
 guide](http://doc.gitlab.com/ce/update/patch_versions.html).
