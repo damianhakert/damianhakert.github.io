@@ -19,3 +19,12 @@
 .vacancies {
   max-width: 700px;
 }
+
+.vacancies .listed-vacancies {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.vacancies .listed-vacancies a {
+  font-size: 18px;
+}
