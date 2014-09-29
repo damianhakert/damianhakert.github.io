@@ -7,8 +7,8 @@
     <meta name="description" content="">
     <link rel="alternate" type="application/atom+xml" title="Blog" href="/atom.xml" />
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet" type="text/css">
     <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
     <link href="/stylesheets/glyphicons.css" rel="stylesheet">
     <link href="/stylesheets/base.css" rel="stylesheet">
@@ -37,45 +37,62 @@
        })();
 
     </script>
+  </head>
 
-  </head>  
   <body>
+    <div class="navbar navbar-fixed-top navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-gl-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand animated" href="/"><img src="/images/wordmark_inverted_small.png" class="nav-logo"></a>
+          </div>
 
-      <div class="navbar navbar-fixed-top navbar-default" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-gl-nav">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-              <a class="navbar-brand animated" href="/"><img src="/images/wordmark_inverted_small.png" class="nav-logo"></a>
-            </div>
-
-            <div class="collapse navbar-collapse" id="main-gl-nav">
-              <ul class="nav pull-right animated navbar-nav">
-                <li><a href="/products">Products</a></li>
-                <li><a href="/services">Services</a></li>
-                <li><a href="/company">Company</a></li>
-                <li><a href="/community">Community</a></li>
-                <li><a href="/blog">Blog</a></li>
-                <li><a href="https://gitlab.com/users/sign_in">Sign in</a></li>
-              </ul>
-            </div>
+          <div class="collapse navbar-collapse" id="main-gl-nav">
+            <ul class="nav pull-right animated navbar-nav">
+              <li><a href="/products">Products</a></li>
+              <li><a href="/services">Services</a></li>
+              <li><a href="/company">Company</a></li>
+              <li><a href="/community">Community</a></li>
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="https://gitlab.com/users/sign_in">Sign in</a></li>
+            </ul>
           </div>
         </div>
       </div>
 
     <div id="content blog">
-      <div class="container">     
+      <div class="container">
         <div class="row">
-          <div class="col-sm-12"> 
+          <div class="col-sm-12">
               <div class="row">
                 <div class="col-sm-9 blog-entry">
                   <h1 class="title">{{ page.title }}</h1>
                   <h4 class="date">{% include post/date.html %}{{ time }}</h4>
                   {{ content }}
+                  <div class="panel panel-default">
+                    <div class="panel-body newsletter">
+                      <span>Get the latest GitLab news in your mailbox.</span>
+                      <!-- Begin MailChimp Signup Form -->
+                      <div id="mc_embed_signup" class="newsletter-form">
+                        <form action="https://gitlab.us5.list-manage.com/subscribe/post?u=498dccd07cf3e9482bee33ba4&amp;id=98a9a4992c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                          <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                          </div>
+                          <div class="mc-field-group">
+                            <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Your email address">
+                          </div>
+                          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default form-control sbmc">
+                        </form>
+                      </div>
+                      <!--End mc_embed_signup-->
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -112,7 +129,6 @@
         </div>
       </div>
     </div>
-
 
     {% include footer.html %}
 
