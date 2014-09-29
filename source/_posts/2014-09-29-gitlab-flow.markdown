@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Git Flow"
+title: "GitLab Flow"
 date: 2014-09-29 15:12:47 +0200
 comments: true
 categories:
