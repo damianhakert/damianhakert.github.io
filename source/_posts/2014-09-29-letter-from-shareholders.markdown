@@ -26,7 +26,8 @@ Dmitriy tweeted that he wanted to work on GitLab fulltime, quite daring since he
 Sytse had just started GitLab.com and paid Dmitriy to work on it.
 In 2013 we co-founded GitLab B.V. as a commercial entity.
 We have adopted the 'open-core' business model where there are an open source and proprietary version.
-We mainly generate income by selling subscriptions to the propritary GitLab Enterprise Edition.
+We mainly generate income by selling subscriptions to the proprietary GitLab Enterprise Edition.
+We currently employ 7 people and over 100.000 organizations are using GitLab.
 
 We stongly believe in the benefit of open source as a better way to create software.
 We're both Rails developers and have been amazed at the open tools we could use.
@@ -36,6 +37,7 @@ And while git was open some of the tools around it have been closed.
 
 We feel that all the tools that you need to deliver software are better when they are open.
 You should be able to inspect your tools, modify them and share improvements with other users.
+Being aware that our code is open source also makes us hold ourselves to a higher standard when fixing issues or coding new features.
 [In the words of Nathan Sobo](http://blog.atom.io/2014/05/06/atom-is-now-open-source.html): "We think being open source will help us get there faster, and more importantly, source access will give you the transparency and control you've told us you expect from your tools."
 
 We want to ensure that GitLab has a long future and will always be maintained with great care.
