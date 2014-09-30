@@ -56,7 +56,7 @@ Having a propriety offering has allowed the rapid development of GitLab over the
 It also allowed us to offer GitLab.com for free to anyone who wants to store their source on open source.
 And it allowed Dmitriy to open an GitLab B.V. office in the Ukraine together with Valeriy Sizov (and running water :-).
 It also allows us to help people who earned some help, and we will donate 15.000 euro to [Mehackit](http://mehackit.org/).
-Mehack is run by Pia Henrietta Kekäläinen who tirelessly worked two years without pay at getting Railsgirls off the ground.
+Mehackit is run by Pia Henrietta Kekäläinen who tirelessly worked two years without pay at getting Railsgirls off the ground.
 
 In the coming years we hope to grow the GitLab community further.
 Every software delivery tools should show you the source.
