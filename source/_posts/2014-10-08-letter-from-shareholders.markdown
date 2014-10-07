@@ -58,8 +58,8 @@ And it allowed Dmitriy to open an GitLab B.V. office in the Ukraine together wit
 It also allows us to help people who earned some help, and we will donate 15.000 euro to [Mehackit](http://mehackit.org/).
 Mehackit is run by Pia Henrietta Kekäläinen who tirelessly worked two years without pay at getting Railsgirls off the ground.
 
-In the coming years we hope to grow the GitLab community further.
-Every software delivery tools should show you the source.
+In the coming years we hope to grow with the rest of the GitLab community.
+Our plan is to stay indepent and to serve the needs of the community
+We believe every software delivery tool should show you the source.
 If you believe that too please [contribute](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md) to GitLab.
 Making the world better off by creating tools that come with freedom.
-
