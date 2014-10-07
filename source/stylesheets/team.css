@@ -43,3 +43,18 @@ h1 small {
 .member p {
   text-align: justify;
 }
+
+.team-head {
+  text-align: center;
+  max-width: 500px;
+  margin: 80px auto;
+}
+
+.team-head h1 {
+  font-weight: 200;
+}
+
+.team-head p {
+  font-size: 17px;
+  color: #999;
+}
