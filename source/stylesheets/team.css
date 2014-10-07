@@ -1,0 +1,45 @@
+/* Team */
+
+h1 {
+  font-family: Open Sans;
+  font-weight: 600;
+}
+
+h1 small {
+  font-weight: 300;
+}
+
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.btn {
+  min-width: 150px;
+}
+
+.listing .btn-group-vertical {
+  margin-top: 15px;
+}
+
+.member h3 {
+  font-weight: 600;
+  color: #333;
+}
+
+.member {
+  text-align: center;
+}
+
+.member img {
+  border-radius: 150px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.member p {
+  text-align: justify;
+}
