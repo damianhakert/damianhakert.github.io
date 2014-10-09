@@ -21,6 +21,8 @@ And after creating GitLab Dmitriy started to work two jobs.
 During the day working for his consultancy and when he got home improving GitLab.
 The problem was that the second job didn't pay anything, but Dmitriy didn't care.
 
+<!--more-->
+
 In 2012 GitLab grew so fast that it became impossible to do anything else.
 Dmitriy tweeted that he wanted to work on GitLab fulltime, quite daring since he was still an employee.
 Sytse had just started GitLab.com and paid Dmitriy to work on it.
