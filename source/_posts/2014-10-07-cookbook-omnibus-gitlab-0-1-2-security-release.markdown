@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Cookbook-omnibus-gitlab 0.1.2 security release"
-date: 2014-10-07
+date: 2014-10-08
+permalink: /2014/10/07/cookbook-omnibus-gitlab-0-1-2-security-release/
 comments: true
 categories:
 author: Jacob Vosmaer
@@ -11,6 +12,8 @@ Today we released cookbook-omnibus-gitlab 0.1.2 to address an issue where
 encrypted secrets were stored in plaintext on the Chef Server.
 
 <!--more-->
+
+_Update 2014-10-09:_ fix incorrect post date.
 
 [Cookbook-omnibus-gitlab](https://gitlab.com/gitlab-org/cookbook-omnibus-gitlab)
 is a Chef cookbook to install GitLab using Omnibus packages.
