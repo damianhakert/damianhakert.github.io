@@ -1,0 +1,15 @@
+.title {
+  font-size: 49px;
+  color: #111;
+  line-height: 66px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.feature .title {
+  font-family: OpenSans-Light;
+  font-size: 29px;
+  color: #000000;
+  line-height: 39px;
+  text-transform: uppercase;
+}
