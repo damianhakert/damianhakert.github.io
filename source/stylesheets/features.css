@@ -11,7 +11,7 @@
 .feature {
   width: 750px;
   height: 400px;
-  margin: 50px auto;
+  margin: 70px auto;
   text-align: left;
 }
 
@@ -95,7 +95,8 @@
 
 .half-feature {
   width: 400px;
-  display: inline-block;
+  margin: auto;
+  margin-top: 50px;
 }
 
 .half-feature .name {
@@ -104,6 +105,7 @@
   color: #000000;
   line-height: 39px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .half-feature .img {
