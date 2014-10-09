@@ -19,10 +19,10 @@ Living in the Ukraine they had limited resources, to this day Dmitriy has no run
 But instead of leaving the Ukraine they want to build a future there.
 And after creating GitLab Dmitriy started to work two jobs.
 During the day working for his consultancy and when he got home improving GitLab.
-The problem was that the seconds job didn't pay anything, but Dmitriy didn't care.
+The problem was that the second job didn't pay anything, but Dmitriy didn't care.
 
 In 2012 GitLab grew so fast that it became impossible to do anything else.
-Dmitriy tweeted that he wanted to work on GitLab fulltime, quite daring since he was still and employee.
+Dmitriy tweeted that he wanted to work on GitLab fulltime, quite daring since he was still an employee.
 Sytse had just started GitLab.com and paid Dmitriy to work on it.
 In 2013 we co-founded GitLab B.V. as a commercial entity.
 We have adopted the 'open-core' business model where there are an open source and proprietary version.
