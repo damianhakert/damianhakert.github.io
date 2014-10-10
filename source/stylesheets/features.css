@@ -73,12 +73,19 @@
   border-bottom: 1px solid #595959;
   width: 100%;
   height: 300px;
+}
+
+.wide-feature.mr {
   background: url('/images/feature_page/code_review_1.png');
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 150%;
   background-color: #508A95;
+}
+
+.wide-feature.ee {
+  background: #412A55;
 }
 
 .wide-feature .name {
@@ -146,6 +153,7 @@
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   padding: 10px;
+  z-index: 100;
 }
 
 .quicknav ul {
