@@ -4,12 +4,12 @@
   line-height: 66px;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 200;
+  font-weight: 300;
   margin: 50px auto;
 }
 
 .header-text {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 18px;
   color: #000000;
   line-height: 24px;
@@ -30,18 +30,18 @@
 }
 
 .feature .name {
-  font-family: OpenSans-Light;
   font-size: 29px;
   color: #000000;
   line-height: 39px;
   text-transform: uppercase;
+  font-weight: 300;
 }
 
 .feature .description {
   font-size: 23px;
   color: #737373;
   line-height: 32px;
-  font-weight: 200;
+  font-weight: 300;
   margin-bottom: 5px;
 }
 
@@ -91,7 +91,7 @@
 .wide-feature .name {
   text-align: center;
   text-transform: uppercase;
-  font-weight: 200;
+  font-weight: 300;
   color: #fff;
   margin-top: 100px;
   font-size: 40px;
@@ -99,7 +99,7 @@
 
 .wide-feature .description {
   text-align: center;
-  font-weight: 200;
+  font-weight: 300;
   color: #fff;
   font-size: 23px;
 }
@@ -122,12 +122,12 @@
 }
 
 .half-feature .name {
-  font-family: OpenSans-Light;
   font-size: 29px;
   color: #000000;
   line-height: 39px;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 300;
 }
 
 .half-feature .img {
