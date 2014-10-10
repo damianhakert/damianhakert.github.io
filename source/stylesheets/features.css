@@ -8,6 +8,20 @@
   margin: 50px auto;
 }
 
+.header-text {
+  font-weight: 200;
+  font-size: 18px;
+  color: #000000;
+  line-height: 24px;
+  width: 600px;
+  margin: auto;
+  text-align: justify;
+}
+
+.header-text .actions {
+  margin-top: 25px;
+}
+
 .feature {
   width: 750px;
   height: 400px;
@@ -50,7 +64,7 @@
 .feature .link a {
   text-decoration: none;
   font-size: 15px;
-  color: #6238E2;
+  color: #A0A0A0;
   line-height: 20px;
 }
 
@@ -64,6 +78,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 150%;
+  background-color: #508A95;
 }
 
 .wide-feature .name {
@@ -89,7 +104,7 @@
 .wide-feature-link a {
   text-decoration: none;
   font-size: 15px;
-  color: #6238E2;
+  color: #A0A0A0;
   line-height: 20px;
 }
 
@@ -117,8 +132,36 @@
 
 .half-feature .link {
   text-align: right;
+  text-decoration: none;
+  color: #A0A0A0;
 }
 
 .half-feature .right {
   float: right;
+}
+
+.quicknav {
+  background: #fff;
+  background: rgba(255,255,255,0.9);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 10px;
+}
+
+.quicknav ul {
+  list-style: none;
+}
+
+.affix-top {
+  right: 0;
+  position: absolute;
+  padding-right: 20px;
+  top: 300px;
+}
+
+.affix {
+  position: fixed;
+  right: 0;
+  padding-right: 20px;
+  top: 50px;
 }
