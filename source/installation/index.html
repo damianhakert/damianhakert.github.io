@@ -12,12 +12,12 @@ suppress_header: true
       <h1>Installing GitLab</h1>
       <p>
         Below are all the options to create a GitLab installation.
-        If you're not sure which method to choose, please use the package installation method.
+        If you're not sure which method to choose, please use the Omnibus package installation method.
       </p>
     </div>
 
     <div class="method">
-      <h2 id="#omnibus">Omnibus Package installation (recommended)</h2>
+      <h2 id="#omnibus">Omnibus package installation (recommended)</h2>
       <p>
         We recommend installing GitLab in 2 minutes using our packages (deb/rpm).
         A package contains GitLab and all its depencies (Ruby, PostgreSQL, Redis, Nginx, Unicorn, etc.).
@@ -32,6 +32,7 @@ suppress_header: true
     <div class="method">
       <h2>Other official installation methods</h2>
       <ul>
+        <li><p><a href="https://gitlab.com/gitlab-org/gitlab-development-kit/blob/master/README.md">Gitlab Development Kit</a> lets you install GitLab for development purposes, it is isolated in a directory and runs with a single make command</p></li>
         <li><p>
           <a href="https://gitlab.com/gitlab-org/cookbook-omnibus-gitlab/blob/master/README.md">GitLab Omnibus Cookbook</a> can be used for production installations
         </p></li>
@@ -70,19 +71,6 @@ suppress_header: true
 
         <li><p><a href="https://github.com/tuminoid/gitlab-installer">Vagrant</a> option by Tuomo Tanskanen (also available for <a href="https://github.com/tuminoid/gitlabci-installer">GitLab CI</a>)</p></li>
       </ul>
-    </div>
-
-    <div class="method">
-      <h2>GitLab Development installation</h2>
-
-
-      <p>If you want to <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md">contribute</a> to GitLab we suggest you select the GitLab Development Kit to install the testing dependencies since it is much faster and more reliable than the cookbook options.
-
-      <ul>
-        <li><p><a href="https://gitlab.com/gitlab-org/gitlab-development-kit/blob/master/README.md">Gitlab Development Kit</a> (recommended) lets you install GitLab isolated in a directory with a single make command</p></li>
-        <li><p><a href="https://gitlab.com/gitlab-org/cookbook-gitlab/tree/master#development-installation">Development installation option in the GitLab Cookbook readme</a> uses the cookbook to install on the host machine or on a VM with Vagrant</p></p></li>
-      </ul>
-
     </div>
 
     <div class="method">
