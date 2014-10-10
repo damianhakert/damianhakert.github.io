@@ -1,0 +1,175 @@
+.title {
+  font-size: 49px;
+  color: #111;
+  line-height: 66px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 200;
+  margin: 50px auto;
+}
+
+.header-text {
+  font-weight: 200;
+  font-size: 18px;
+  color: #000000;
+  line-height: 24px;
+  width: 600px;
+  margin: auto;
+  text-align: justify;
+}
+
+.header-text .actions {
+  margin-top: 25px;
+}
+
+.feature {
+  width: 750px;
+  height: 400px;
+  margin: 70px auto;
+  text-align: left;
+}
+
+.feature .name {
+  font-family: OpenSans-Light;
+  font-size: 29px;
+  color: #000000;
+  line-height: 39px;
+  text-transform: uppercase;
+}
+
+.feature .description {
+  font-size: 23px;
+  color: #737373;
+  line-height: 32px;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+
+.feature img {
+  margin: auto;
+}
+
+.img {
+  height: 299px;
+  width: 749px;
+  overflow: hidden;
+  border: 1px solid #595959;
+}
+
+
+.feature .link {
+  text-align: right;
+}
+
+.feature .link a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #A0A0A0;
+  line-height: 20px;
+}
+
+.wide-feature {
+  border-top: 1px solid #595959;
+  border-bottom: 1px solid #595959;
+  width: 100%;
+  height: 300px;
+}
+
+.wide-feature.mr {
+  background: url('/images/feature_page/code_review_1.png');
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-color: #508A95;
+}
+
+.wide-feature.ee {
+  background: #412A55;
+}
+
+.wide-feature .name {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: #fff;
+  margin-top: 100px;
+  font-size: 40px;
+}
+
+.wide-feature .description {
+  text-align: center;
+  font-weight: 200;
+  color: #fff;
+  font-size: 23px;
+}
+
+.wide-feature-link {
+  text-align: right;
+}
+
+.wide-feature-link a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #A0A0A0;
+  line-height: 20px;
+}
+
+.half-feature {
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.half-feature .name {
+  font-family: OpenSans-Light;
+  font-size: 29px;
+  color: #000000;
+  line-height: 39px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.half-feature .img {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  border: 1px solid #595959;
+}
+
+.half-feature .link {
+  text-align: right;
+  text-decoration: none;
+  color: #A0A0A0;
+}
+
+.half-feature .right {
+  float: right;
+}
+
+.quicknav {
+  background: #fff;
+  background: rgba(255,255,255,0.9);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 10px;
+  z-index: 100;
+}
+
+.quicknav ul {
+  list-style: none;
+}
+
+.affix-top {
+  right: 0;
+  position: absolute;
+  padding-right: 20px;
+  top: 300px;
+}
+
+.affix {
+  position: fixed;
+  right: 0;
+  padding-right: 20px;
+  top: 50px;
+}
