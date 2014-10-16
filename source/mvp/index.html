@@ -1,0 +1,73 @@
+---
+layout: default
+title: MVP
+suppress_header: true
+mvps:
+- version: 7.3
+  name: Robert Schilling
+  date: Sept. 22nd, 2014
+- version: 7.2
+  name: Robert Schilling
+  date: Aug. 22nd, 2014
+- version: 7.1
+  name: Jeroen van Baarsen
+  date: July 22nd, 2014
+- version: 7.0
+  name: Earle Randolph Bunao & Neil Francis Calabroso
+  date: June 22nd, 2014
+
+
+---
+
+<div class="wrapper">
+  <div class="container">
+    <div class="title">
+      GitLab Hall of <b>Fame</b>
+    </div>
+
+    <div class="mvp-badge">
+      <img src="/images/mvp_badge.png" alt="" class="img-responsive"/>
+    </div>
+
+    <div class="description">
+      With every release a MVP is selected for their excellent contribution to this GitLab release.
+    </div>
+
+    <div class="mvp-list">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>
+              Version
+            </th>
+            <th>
+              Release date
+            </th>
+            <th>
+              MVP
+            </th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {% for mvp in page.mvps %}
+            <tr>
+              <td>
+                {{mvp.version}}
+              </td>
+              <td>
+                {{mvp.date}}
+              </td>
+              <td>
+                {{mvp.name}}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<link href="/stylesheets/sticky_footer.css" rel="stylesheet">
+<link href="/stylesheets/mvp.css" rel="stylesheet">
