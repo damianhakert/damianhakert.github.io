@@ -1,0 +1,47 @@
+/* MVP */
+
+body {
+  background: #548;
+}
+
+.title {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.mvp-badge {
+  margin: auto;
+  text-align: center;
+}
+
+.mvp-badge img {
+  display: inline-block;
+}
+
+.description {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+.mvp-list {
+  background: #403366;
+  width: 600px;
+  margin: auto;
+  color: #fff;
+  padding: 10px 15px;
+  margin-bottom: 60px;
+  box-shadow: 0px 5px 3px rgba(0,0,0, 0.1);
+}
+
+.table>thead>tr>th {
+  border-bottom: 1px solid #584985;
+  color: #9583C9;
+}
+
+.table>tbody>tr>td {
+  border-color: #584985;
+}
