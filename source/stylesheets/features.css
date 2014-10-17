@@ -53,7 +53,7 @@
   height: 299px;
   width: 749px;
   overflow: hidden;
-  border: 1px solid #595959;
+  border: 1px solid #DFDFDF;
 }
 
 .img img {
@@ -78,7 +78,7 @@
 .feature .link a {
   text-decoration: none;
   font-size: 15px;
-  color: #A0A0A0;
+  color: #414141;
   line-height: 20px;
 }
 
@@ -98,7 +98,17 @@
 .wide-feature.head .btn-default {
   background: none;
   color: white;
+  border-color: white;
+  transition: all 0.2s;
+  border-width: 2px;
 }
+
+.wide-feature.head .btn-default:hover {
+  background: white;
+  color: #8865A8;
+  border-color: white;
+}
+
 
 .wide-feature.mr {
   background: url('/images/feature_page/bg.png');
@@ -154,7 +164,7 @@
 .wide-feature-link a {
   text-decoration: none;
   font-size: 15px;
-  color: #A0A0A0;
+  color: #414141;
   line-height: 20px;
 }
 
@@ -177,7 +187,7 @@
   width: 400px;
   height: 300px;
   overflow: hidden;
-  border: 1px solid #595959;
+  border: 1px solid #DFDFDF;
 }
 
 .half-feature .link {
@@ -186,7 +196,7 @@
 
 .half-feature .link a {
   text-decoration: none;
-  color: #A0A0A0;
+  color: #414141;
 }
 
 .half-feature .link a:hover {
@@ -198,16 +208,23 @@
 }
 
 .quicknav {
-  background: #fff;
-  background: rgba(255,255,255,0.9);
+  background: #548;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   padding: 10px;
   z-index: 100;
+  position: fixed;
+  right: 0px;
+  top: 250px;
 }
 
-.quicknav ul {
-  list-style: none;
+.quicknav a {
+  color: white;
+}
+
+.quicknav a:hover {
+  color: #00F5FF;
+  text-decoration: none;
 }
 
 .affix-top {
