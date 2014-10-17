@@ -1,6 +1,6 @@
 .title {
   font-size: 49px;
-  color: #111;
+  color: #fff;
   line-height: 66px;
   text-transform: uppercase;
   text-align: center;
@@ -11,7 +11,7 @@
 .header-text {
   font-weight: 300;
   font-size: 18px;
-  color: #000000;
+  color: #fff;
   line-height: 24px;
   width: 600px;
   margin: auto;
@@ -88,6 +88,16 @@
 
 .wide-feature {
   width: 100%;
+}
+
+.wide-feature.head {
+  background: #8865A8;
+  padding: 50px 0px;
+}
+
+.wide-feature.head .btn-default {
+  background: none;
+  color: white;
 }
 
 .wide-feature.mr {
