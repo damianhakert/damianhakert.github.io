@@ -88,14 +88,11 @@
 
 .wide-feature {
   width: 100%;
-  height: 300px;
 }
 
 .wide-feature.mr {
+  background: url('/images/feature_page/bg.png');
   background-attachment: fixed;
-  background-position: right center;
-  background-repeat: no-repeat;
-  background-size: 50%;
 }
 
 .wide-feature.mr .wide-img {
@@ -104,6 +101,7 @@
 
 .wide-feature.ee {
   background: #412A55;
+  height: 300px;
 }
 
 .wide-feature .name {
@@ -134,8 +132,9 @@
   text-align: left;
   margin-left: 30px;
   font-size: 20px;
-  color: #747474;
+  color: #353535;
   line-height: 27px;
+  font-weight: 400;
 }
 
 .wide-feature-link {
