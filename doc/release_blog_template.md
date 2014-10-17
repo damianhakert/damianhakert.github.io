@@ -14,7 +14,7 @@ In addition to the updates from Community Edition, GitLab Enterprise Edition ***
 
 Other changes include ***FEATURES_FROM_CHANGELOG***.
 
-This month's Most Valuable Person (MVP) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
 
 <!--more-->
