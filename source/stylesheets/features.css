@@ -1,6 +1,6 @@
 .title {
   font-size: 49px;
-  color: #111;
+  color: #fff;
   line-height: 66px;
   text-transform: uppercase;
   text-align: center;
@@ -11,7 +11,7 @@
 .header-text {
   font-weight: 300;
   font-size: 18px;
-  color: #000000;
+  color: #fff;
   line-height: 24px;
   width: 600px;
   margin: auto;
@@ -56,6 +56,20 @@
   border: 1px solid #595959;
 }
 
+.img img {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.img:hover img {
+  -webkit-transform:scale(1.15); /* Safari and Chrome */
+  -moz-transform:scale(1.15); /* Firefox */
+  -ms-transform:scale(1.15); /* IE 9 */
+  -o-transform:scale(1.15); /* Opera */
+   transform:scale(1.15);
+}
 
 .feature .link {
   text-align: right;
@@ -68,24 +82,36 @@
   line-height: 20px;
 }
 
+.feature .link a:hover {
+  color: #0E74AD;
+}
+
 .wide-feature {
-  border-top: 1px solid #595959;
-  border-bottom: 1px solid #595959;
   width: 100%;
-  height: 300px;
+}
+
+.wide-feature.head {
+  background: #8865A8;
+  padding: 50px 0px;
+}
+
+.wide-feature.head .btn-default {
+  background: none;
+  color: white;
 }
 
 .wide-feature.mr {
-  background: url('/images/feature_page/code_review_1.png');
+  background: url('/images/feature_page/bg.png');
   background-attachment: fixed;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 150%;
-  background-color: #508A95;
+}
+
+.wide-feature.mr .wide-img {
+  float: right;
 }
 
 .wide-feature.ee {
   background: #412A55;
+  height: 300px;
 }
 
 .wide-feature .name {
@@ -93,8 +119,16 @@
   text-transform: uppercase;
   font-weight: 300;
   color: #fff;
-  margin-top: 100px;
+  padding-top: 100px;
   font-size: 40px;
+}
+
+.wide-feature.mr .name {
+  text-align: left;
+  font-size: 60px;
+  color: #454545;
+  line-height: 67px;
+  margin-left: 30px;
 }
 
 .wide-feature .description {
@@ -102,6 +136,15 @@
   font-weight: 300;
   color: #fff;
   font-size: 23px;
+}
+
+.wide-feature.mr .description {
+  text-align: left;
+  margin-left: 30px;
+  font-size: 20px;
+  color: #353535;
+  line-height: 27px;
+  font-weight: 400;
 }
 
 .wide-feature-link {
@@ -139,8 +182,15 @@
 
 .half-feature .link {
   text-align: right;
+}
+
+.half-feature .link a {
   text-decoration: none;
   color: #A0A0A0;
+}
+
+.half-feature .link a:hover {
+  color: #0E74AD;
 }
 
 .half-feature .right {
