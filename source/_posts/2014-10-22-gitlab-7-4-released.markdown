@@ -24,14 +24,14 @@ Thanks Vinnie!
 You can define task list directly at the issue page by using special syntax `- [ ] title`.
 This feature makes gitlab issue tracker more flexible.
 
-[![screenshot](/images/7_4/feature.png)](/images/7_4/feature.png) ***7_4 is the version of GitLab being released***
+[![screenshot](/images/7_4/task-list.png)](/images/7_4/task-list.png)
 
 
 ## README tab on project show page
 
 This tab allows you to see readme page directly at the project main page 
 
-[![screenshot](/images/7_4/feature.png)](/images/7_4/feature.png) ***7_4 is the version of GitLab being released***
+[![screenshot](/images/7_4/project-readme.png)](/images/7_4/project-readme.png)
 
 
 ## Snippet can be public, internal or private
@@ -39,14 +39,14 @@ This tab allows you to see readme page directly at the project main page
 Now that you can create snippet with various visibility level. Public level is defining that all user can see it, even those who are not authorized. Internal snippet will be visible to authorized users.
 Private snippet only for private using.
 
-[![screenshot](/images/7_4/feature.png)](/images/7_4/feature.png) **+7_4 is the version of GitLab being released***
+[![screenshot](/images/7_4/new-snippet.png)](/images/7_4/new-snippet.png) **+7_4 is the version of GitLab being released***
 
 
 ## Support for multiple LDAP servers (EE only feature)
 
 Integrate GitLab with more than one LDAP server
 
-[![screenshot](/images/7_4/feature.png)](/images/7_4/feature.png) ***7_4 is the version of GitLab being released***
+[![screenshot](/images/7_4/feature.png)](/images/7_4/feature.png)
 
 ## Other changes
 
