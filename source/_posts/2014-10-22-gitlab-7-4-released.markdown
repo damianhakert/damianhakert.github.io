@@ -12,39 +12,38 @@ Today we announce the release of a new version of GitLab Community Edition (CE) 
 The biggest new feature in Community Edition is task lists.
 In addition to the updates from Community Edition, GitLab Enterprise Edition from now has support for multiple LDAP servers.
 
-Other changes include reworked snippet access which from now can be public, internal or private, also added README to tab on project show page. Also added a lot of bug fixes.
+Other changes include reworked snippet access (now public, internal or private) and a README tab on the project home page for quick access. This version also includes a lot of bug fixes.
 
 This month's Most Valuable Person (MVP) is Vinnie Okada. He added cross-project references to the markdown parser, task lists to issue and merge request descriptions and improved event note display.
 Thanks Vinnie!
 
 <!--more-->
 
-## Task lists
+## Task lists.
 
 You can define task list directly at the issue page by using special syntax `- [ ] title`.
-This feature makes gitlab issue tracker more flexible.
+This feature makes the GitLab issue tracker more flexible.
 
 [![screenshot](/images/7_4/task-list.png)](/images/7_4/task-list.png)
 
 
-## README tab on project show page
+## The README tab on project show page.
 
 This tab allows you to see readme page directly at the project main page 
 
 [![screenshot](/images/7_4/project-readme.png)](/images/7_4/project-readme.png)
 
 
-## Snippet can be public, internal or private
+## Snippets can be public, internal or private.
 
-Now that you can create snippet with various visibility level. Public level is defining that all user can see it, even those who are not authorized. Internal snippet will be visible to authorized users.
-Private snippet only for private using.
+You can now create snippets with various visibility levels. A public snippet is visible for everyone, even people that are not signed into your GitLab instance. Internal snippets are only visible to authorized users and private snippets are only visible to those with explicit access.
 
 [![screenshot](/images/7_4/new-snippet.png)](/images/7_4/new-snippet.png) **+7_4 is the version of GitLab being released***
 
 
-## Support for multiple LDAP servers (EE only feature)
+## Support for multiple LDAP servers (EE only feature).
 
-Integrate GitLab with more than one LDAP server
+You can now hook up GitLab to multiple LDAP servers! When syncing LDAP groups, you can select the LDAP server. This way, a single GitLab instance can easily be used in very large enterprises.
 
 [![screenshot](/images/7_4/feature.png)](/images/7_4/feature.png)
 
@@ -64,6 +63,7 @@ Upgrade instructions for omnibus-gitlab packages can be found in [the omnibus-gi
 
 If you installed GitLab from source and you have version 6.4.2 or higher you can use the [upgrade script](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/upgrader.md).
 If you still want to do it manually - see the [Update Guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/7.3-to-7.4.md).
+Optional optimizations for GitLab setups with MySQL databases - [guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-4-stable/doc/update/7.3-to-7.4.md#9-optional-optimizations-for-gitlab-setups-with-mysql-databases)
 
 # Enterprise Edition
 
