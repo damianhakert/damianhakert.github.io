@@ -45,7 +45,7 @@ You can now create snippets with various visibility levels. A public snippet is 
 
 You can now hook up GitLab to multiple LDAP servers! When syncing LDAP groups, you can select the LDAP server. This way, a single GitLab instance can easily be used in very large enterprises.
 
-[![screenshot](/images/7_4/feature.png)](/images/7_4/feature.png)
+[![screenshot](/images/7_4/ldap.png)](/images/7_4/ldap.png)
 
 ## Other changes
 
