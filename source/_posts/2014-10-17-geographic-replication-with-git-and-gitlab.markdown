@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Performance benefits of switching to git"
+title: "Geographic replication with git and GitLab"
 date: 2014-10-17 14:08:56 +0200
 comments: true
 categories: 
@@ -17,9 +17,7 @@ This means that even in the case of a server downtime, development can still con
 **Server downtime is not as disruptive to the workflow as with a centralized tool.**
 
 After the first cloning of the origin repo, Git only registers the changes to the files, so the deltas between the origin and the clones are very small.
-
 That's less information that needs to travel through the wire.
-
 **Getting the clone in sync with the origin feels instantaneous in most of the cases.**
 
 Code searching is also considerably faster than with a centralized tool, because the search happens on the local clone of the repo.
