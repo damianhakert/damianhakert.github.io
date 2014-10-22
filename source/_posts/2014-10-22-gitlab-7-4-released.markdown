@@ -60,6 +60,21 @@ See [special GitLab references documentation](http://doc.gitlab.com/ce/markdown/
 
 This release has more improvements, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-4-stable/CHANGELOG) to see the all named changes.
 
+## Cookbook GitLab is being deprecated
+
+In the last few months the [Omnibus GitLab packages](https://about.gitlab.com/downloads/) have improved to the point where they have the same functionality as Cookbook GitLab. They allow much easier and faster installation than the cookbook.
+
+Since the packages are more popular, keeping them up to date is a priority and any bugs are quickly found and solved.
+
+For development environments we now recommend the [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit/blob/master/README.md).
+
+It is hard for us to justify updating the cookbook in addition to the packages.
+For that reason, version 0.7.4 will be the last version of Cookbook GitLab updated by GitLab B.V.
+
+We recognize that this will cause a difficult upgrade for the people currently using the cookbook but we think that it will be better in the long term.
+
+For Chef environments we now offer [cookbook-omnibus-gitlab](https://gitlab.com/gitlab-org/cookbook-omnibus-gitlab) which will install and manage omnibus-gitlab package with Chef. We welcome any improvements and contributions.
+
 - - -
 
 # Installation
