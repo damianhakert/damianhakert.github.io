@@ -293,6 +293,28 @@ hr {
   padding-bottom: 50px;
 }
 
+.compare .action {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.compare .btn-default {
+  color: #548;
+  border: 2px solid #548;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.compare .btn-default:hover {
+  color: #fff;
+  border: 2px solid #548;
+  background: #548;
+}
+
+.compare .btn-lg {
+  font-size: 25px;
+}
+
 .circle {
   background: #85F806;
   border-radius: 50%;
