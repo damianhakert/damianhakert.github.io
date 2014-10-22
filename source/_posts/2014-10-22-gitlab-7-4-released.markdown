@@ -10,7 +10,7 @@ author: Valery Sizov
 GitLab is open source software to collaborate on code.
 Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
 The biggest new feature in Community Edition is task lists.
-In addition to the updates from Community Edition, GitLab Enterprise Edition from now has support for multiple LDAP servers.
+In addition to all the new features from Community Edition, GitLab Enterprise Edition gained support for multiple LDAP servers.
 
 Other changes include reworked snippet access (now public, internal or private) and a README tab on the project home page for quick access. This version also includes a lot of bug fixes.
 
@@ -21,15 +21,14 @@ Thanks Vinnie!
 
 ## Task lists.
 
-You can define task list directly at the issue page by using special syntax `- [ ] title`.
-This feature makes the GitLab issue tracker more flexible.
+You can define task list directly at the issue page by using special syntax `- [ ] title`. Check the [markdown tasks documentation](http://doc.gitlab.com/ce/markdown/markdown.html#task-lists) for details. When description has markdown tasks, issue will list progress on the issues index for [quick overview](/images/7_4/quick_task_overview.png). This feature makes the GitLab issue tracker more flexible.
 
 [![screenshot](/images/7_4/task-list.png)](/images/7_4/task-list.png)
 
 
 ## The README tab on project show page.
 
-This tab allows you to see readme page directly at the project main page 
+This tab allows you to see readme page directly at the project main page. If a user selects the README tab, GitLab will remember this preference in the session. This means other projects will also directly show the README tab on the project main page.
 
 [![screenshot](/images/7_4/project-readme.png)](/images/7_4/project-readme.png)
 
@@ -38,7 +37,7 @@ This tab allows you to see readme page directly at the project main page
 
 You can now create snippets with various visibility levels. A public snippet is visible for everyone, even people that are not signed into your GitLab instance. Internal snippets are only visible to authorized users and private snippets are only visible to those with explicit access.
 
-[![screenshot](/images/7_4/new-snippet.png)](/images/7_4/new-snippet.png) **+7_4 is the version of GitLab being released***
+[![screenshot](/images/7_4/new-snippet.png)](/images/7_4/new-snippet.png)
 
 
 ## Support for multiple LDAP servers (EE only feature).
@@ -46,6 +45,16 @@ You can now create snippets with various visibility levels. A public snippet is 
 You can now hook up GitLab to multiple LDAP servers! When syncing LDAP groups, you can select the LDAP server. This way, a single GitLab instance can easily be used in very large enterprises.
 
 [![screenshot](/images/7_4/ldap.png)](/images/7_4/ldap.png)
+
+## Cross project references
+
+GitLab will enable linking to commits, merge requests and issues in other projects by prepending a namespaced project path to the reference. What this means is that you can mention an issue from another project by using the special syntax:
+
+* `namespace/project#123` : for issues
+* `namespace/project!123` : for merge requests
+* `namespace/project@1234567` : for commits
+
+See [special GitLab references documentation](http://doc.gitlab.com/ce/markdown/markdown.html#special-gitlab-references) for more details.
 
 ## Other changes
 
