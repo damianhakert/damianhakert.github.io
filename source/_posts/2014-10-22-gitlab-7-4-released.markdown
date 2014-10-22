@@ -14,7 +14,7 @@ In addition to all the new features from Community Edition, GitLab Enterprise Ed
 
 Other changes include reworked snippet access (now public, internal or private) and a README tab on the project home page for quick access. This version also includes a lot of bug fixes.
 
-This month's Most Valuable Person (MVP) is Vinnie Okada. He added cross-project references to the markdown parser, task lists to issue and merge request descriptions and improved event note display.
+This month's Most Valuable Person ([MVP](/mvp)) is Vinnie Okada. He added cross-project references to the markdown parser, task lists to issue and merge request descriptions and improved event note display.
 Thanks Vinnie!
 
 <!--more-->
