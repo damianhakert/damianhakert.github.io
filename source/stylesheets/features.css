@@ -276,8 +276,9 @@ hr {
 }
 
 .qnav {
-  background: #fff;
-  border-bottom: 1px solid #ddd;
+  background: #2F0D52;
+  position: absolute;
+  width: 100%;
 }
 
 .compare {
@@ -340,4 +341,23 @@ table.table td {
 
 .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
   border: none;
+}
+
+.qfix {
+  position: fixed;
+  z-index: 100;
+  top: 50px;
+  width: 100%;
+}
+
+.nav-justified>li>a {
+  color: #fff;
+}
+
+.nav-pills>li>a {
+  border-radius: 0px;
+}
+
+.nav-pills>li>a:hover {
+  background: #548;
 }
