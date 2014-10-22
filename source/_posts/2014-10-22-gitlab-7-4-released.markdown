@@ -87,7 +87,7 @@ Upgrade instructions for omnibus-gitlab packages can be found in [the omnibus-gi
 
 If you installed GitLab from source and you have version 6.4.2 or higher you can use the [upgrade script](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/upgrader.md).
 If you still want to do it manually - see the [Update Guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/7.3-to-7.4.md).
-Optional optimizations for GitLab setups with MySQL databases - [guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-4-stable/doc/update/7.3-to-7.4.md#9-optional-optimizations-for-gitlab-setups-with-mysql-databases)
+There is an optional guide with [optimizations for GitLab setups with MySQL databases](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-4-stable/doc/update/7.3-to-7.4.md#7-optional-optimizations-for-gitlab-setups-with-mysql-databases) to bring MySQL installations that have been around for a while up to the latest standards.
 
 # Enterprise Edition
 
