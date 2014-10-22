@@ -3,68 +3,87 @@ layout: default
 title: Features
 suppress_header: true
 ---
-<div class="quicknav hidden-xs hidden-sm">
-  <a href="#enterprise">Enterprise Features</a>
-  <br>
-  <a href="https://about.gitlab.com/downloads/">Downloads</a>
-  <br>
-  <a href="https://about.gitlab.com/gitlab-ce-features/">Complete list of features</a>
-  <br>
-  <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/README.md">Source + Readme</a>
-  <br>
-  <a href="https://about.gitlab.com/subscription/"><b>Get a subscription</b></a>
-</div>
-
 <div class="wrapper">
   <div class="wide-feature head">
-    <div class="title">GitLab <b>Features</b></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-8">
+          <div class="title">GitLab <b>Features</b></div>
+          <div class="header-text">
+            GitLab is an incredibly powerful <b>open source</b> code collaboration platform, git repository manager, issue tracker and code reviewer. It integrates with issue trackers, continuous integration services and our Enterprise Edition has phenomenal LDAP and Active Directory support.
+            <b>To install, just unpack.</b>
 
-    <div class="header-text">
-      GitLab is an incredibly powerful <b>open source</b> code collaboration platform, git repository manager, issue tracker and code reviewer. It integrates with issue trackers, continuous integration services and our Enterprise Edition has phenomenal LDAP and Active Directory support.
-      <b>To install, just unpack.</b>
+            <div class="actions">
+              <a href="#enterprise" class="btn btn-default btn-lg">Enterprise Features</a>
+              <a href="https://about.gitlab.com/downloads/" class="btn btn-default btn-lg">Download</a>
+              <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/README.md" class="btn btn-default btn-lg">Source + Readme</a>
+            </div>
+          </div>
+        </div>
 
-      <div class="actions">
-        <a href="#enterprise" class="btn btn-default btn-lg">Enterprise Features</a>
-        <a href="https://about.gitlab.com/downloads/" class="btn btn-default btn-lg">Download</a>
+        <div class="col-md-4 head-bg hidden-sm hidden-xs">
+        </div>
+
       </div>
+    </div>
+  </div>
+
+  <div class="qnav" id="el">
+    <div class="container">
+      <ul class="nav nav-pills nav-justified">
+        <li><a href="#enterprise">Enterprise Features</a></li>
+        <li><a href="https://about.gitlab.com/downloads/">Downloads</a></li>
+        <li><a href="#compare">Compare</a></li>
+        <li><a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/README.md">Source + Readme</a></li>
+        <li><a href="https://about.gitlab.com/subscription/"><b>Get a subscription</b></a></li>
+      </ul>
     </div>
   </div>
 
   <div class="container">
-    <div class="feature">
-      <div class="name">
-        Activity <b>Stream</b>
+    <div class="row feature-row">
+      <div class="col-md-4 small-feature">
+        <div class="name">
+          ACTIVITY <b>STREAM</b>
+        </div>
+        <a href="/images/feature_page/activity_stream_full.png" class="image-link"><img src="/images/feature_page/activity_stream_full.png" class="img-responsive" alt="" /></a>
+        <div class="link">
+          <a href="https://gitlab.com/gitlab-org/gitlab-ce">Have a look at an actual activity page</a>
+        </div>
       </div>
-      <div class="description">
-        Get a quick overview of the latest activity in your project.
+      <div class="col-md-4 small-feature">
+        <div class="name">
+          FILE <b>BROWSER</b>
+        </div>
+        <a href="/images/feature_page/file_browser_full.png" class="image-link"><img src="/images/feature_page/file_browser_full.png" class="img-responsive" alt="" /></a>
+        <div class="link">
+          <a href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master">Try navigating GitLab's code ></a>
+        </div>
       </div>
-      <div class="img">
-        <a href="/images/feature_page/activity_stream_full.png" class="image-link"><img src="/images/feature_page/activity_stream.png" alt="" /></a>
-      </div>
-
-      <div class="link">
-        <a href="https://gitlab.com/gitlab-org/gitlab-ce">Have a look at an actual activity page ></a>
+      <div class="col-md-4 small-feature">
+        <div class="name">
+          GIT POWERED <b>WIKI</b>
+        </div>
+        <a href="/images/feature_page/wiki_full.png" class="image-link"><img src="/images/feature_page/wiki_full.png" class="img-responsive" alt="" /></a>
       </div>
     </div>
   </div>
 
+
+
   <div class="wide-feature mr">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <div class="name">
-          powerful
-          <br>
-          <b>code review</b>
+          powerful <b>code review</b>
         </div>
 
         <div class="description">
           Merge requests with line-by-line comments, CI and issue tracker integrations and much more..
         </div>
       </div>
-      <div class="col-md-6">
-        <div class="wide-img">
-          <a href="/images/feature_page/mr.png" class="image-link"><img src="/images/feature_page/mr_sh.png" alt="" class="img-responsive"/></a>
-        </div>
+      <div class="wide-img">
+        <a href="/images/feature_page/mr.png" class="image-link"><img src="/images/feature_page/mr_sh.png" alt="" class="img-responsive"/></a>
       </div>
     </div>
   </div>
@@ -73,162 +92,191 @@ suppress_header: true
     <div class="wide-feature-link">
       <a href="https://gitlab.com/gitlab-org/gitlab-ce/merge_requests">See the power of merge requests on GitLab.com ></a>
     </div>
+  </div>
 
-    <div class="feature">
-      <div class="name">
-        Issue <b>management</b>
-      </div>
-
-      <div class="description">
-        Complete issue management system; automatic linking & closing, merge request integration..
-      </div>
-
-      <div class="img">
-        <a href="/images/feature_page/issues_full.png" class="image-link"><img src="/images/feature_page/issues.png" alt="" /></a>
-      </div>
-
-      <div class="link">
-        <a href="https://gitlab.com/gitlab-org/gitlab-ce/issues">See how we use issues to manage our open source project ></a>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-6">
-        <div class="half-feature">
-          <div class="name">
-            file <b>browser</b>
-          </div>
-
-          <div class="img">
-            <a href="/images/feature_page/file_browser_full.png" class="image-link"><img src="/images/feature_page/file_browser_full.png" alt="" /></a>
-          </div>
-
-          <div class="link">
-            <a href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master">Try navigating GitLab's code ></a>
-          </div>
+  <div class="container">
+    <div class="row feature-row">
+      <div class="col-md-4 small-feature">
+        <div class="name">
+          ISSUE <b>MANAGEMENT</b>
+        </div>
+        <a href="/images/feature_page/issues_full.png" class="image-link"><img src="/images/feature_page/activity_stream_full.png" class="img-responsive" alt="" /></a>
+        <div class="link">
+          <a href="https://gitlab.com/gitlab-org/gitlab-ce/issues">See how we use issues to manage our open source project ></a>
         </div>
       </div>
-
-      <div class="col-md-6">
-        <div class="half-feature">
-          <div class="name">
-            project <b>overview</b>
-          </div>
-
-          <div class="img">
-            <a href="/images/feature_page/activity_stream_full.png" class="image-link"><img src="/images/feature_page/activity_stream_full.png" alt="" /></a>
-          </div>
-
-          <div class="link">
-            <a href="https://gitlab.com/gitlab-org/gitlab-ce">See what's happening in GitLab ></a>
-          </div>
+      <div class="col-md-4 small-feature">
+        <div class="name">
+          CODE <b>SNIPPETS</b>
         </div>
+        <a href="/images/feature_page/snippets_full.png" class="image-link"><img src="/images/feature_page/snippets_full.png" class="img-responsive" alt="" /></a>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-6">
-        <div class="half-feature">
-          <div class="name">
-            git powered <b>wiki</b>
-          </div>
-
-          <div class="img">
-            <a href="/images/feature_page/wiki_full.png" class="image-link"><img src="/images/feature_page/wiki_full.png" alt="" /></a>
-          </div>
+      <div class="col-md-4 small-feature">
+        <div class="name">
+          WEB <b>HOOKS</b>
         </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="half-feature">
-          <div class="name">
-            code <b>snippets</b>
-          </div>
-
-          <div class="img">
-            <a href="/images/feature_page/snippets_full.png" class="image-link"><img src="/images/feature_page/snippets_full.png" alt="" /></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="feature">
-      <div class="name">
-        Web <b>hooks</b>
-      </div>
-
-      <div class="description">
-        Set webhooks on any Git event
-      </div>
-
-      <div class="img">
-        <a href="/images/feature_page/webhooks_full.png" class="image-link"><img src="/images/feature_page/webhooks.png" alt="" /></a>
+        <a href="/images/feature_page/webhooks_full.png" class="image-link"><img src="/images/feature_page/webhooks_full.png" class="img-responsive" alt="" /></a>
       </div>
     </div>
   </div>
 
-  <div class="wide-feature ee" id="enterprise">
-    <div class="name">
-      gitlab <b>enterprise edition</b>
-    </div>
+  <div class="wide-feature head" id="enterprise">
+    <div class="container">
+      <div class="name">
+        gitlab <b>enterprise edition</b>
+      </div>
 
-    <div class="description">
-      Git hooks, multiple LDAP groups, LDAP domains, JIRA, Jenkins integration and more..
+      <div class="description">
+        Git hooks, multiple LDAP groups, LDAP domains, JIRA, Jenkins integration and more..
+      </div>
+
+      <div class="actions ee">
+        <a href="/subscription" class="btn btn-default btn-lg">Get a subscription</a>
+      </div>
     </div>
   </div>
 
   <div class="container">
-
-    <div class="feature">
-      <div class="name">
-        Git <b>hooks</b>
+    <div class="row feature-row">
+      <div class="col-md-4 small-feature">
+        <div class="name">
+          GIT <b>HOOKS</b>
+        </div>
+        <a href="/images/feature_page/githooks_full.png" class="image-link"><img src="/images/feature_page/githooks_full.png" class="img-responsive" alt="" /></a>
       </div>
-
-      <div class="description">
-        Closer control on incoming commits
+      <div class="col-md-4 small-feature">
+        <div class="name">
+          LDAP <b> GROUP SYNC</b>
+        </div>
+        <a href="/images/feature_page/ldap_groups_full.png" class="image-link"><img src="/images/feature_page/ldap_groups_full.png" class="img-responsive" alt="" /></a>
       </div>
-
-      <div class="img">
-        <a href="/images/feature_page/githooks_full.png" class="image-link"><img src="/images/feature_page/githooks.png" alt="" /></a>
-      </div>
-    </div>
-
-    <div class="feature">
-      <div class="name">
-        Multiple <b>LDAP GROUP SYNC</b>
-      </div>
-
-      <div class="description">
-        Sync multiple LDAP/AD groups and set default permissions for each
-      </div>
-
-      <div class="img">
-        <a href="/images/feature_page/ldap_groups_full.png" class="image-link"><img src="/images/feature_page/ldap_groups.png" alt="" /></a>
+      <div class="col-md-4 small-feature">
+        <div class="name">
+          BRANDED <b>LOGIN PAGE</b>
+        </div>
+        <a href="/images/feature_page/branded_login_full.png" class="image-link"><img src="/images/feature_page/branded_login_full.png" class="img-responsive" alt="" /></a>
+        <div class="link">
+          <a href="https://gitlab.com/users/sign_in">See the login page from GitLab.com ></a>
+        </div>
       </div>
     </div>
 
-    <div class="feature">
-      <div class="name">
-        Branded <b>login page</b>
+    <hr>
+
+    <div class="compare" id="compare">
+      <div class="title">
+        COMPARE
       </div>
 
-      <div class="description">
-        Create a custom sign in page with your logo and text
-      </div>
-
-      <div class="img">
-        <a href="/images/feature_page/branded_login_full.png" class="image-link"><img src="/images/feature_page/branded_login.png" alt="" /></a>
-      </div>
-
-      <div class="link">
-        <a href="https://gitlab.com/users/sign_in">See the login page from GitLab.com ></a>
-      </div>
-
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Community Edition</th>
+            <th><b>Enterprise Edition</b></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href='/gitlab-ce-features/'>All the features of the Community Edition</a></td>
+            <td><div class="circle">
+            </div></td>
+            <td><div class="circle">
+            </div></td>
+          </tr>
+          <tr>
+            <td>Groups consisting of multiple people with a shared namespace for projects</td>
+            <td><div class="circle">
+            </div></td>
+            <td><div class="circle">
+            </div></td>
+          </tr>
+          <tr>
+            <td>Share a project with other groups</td>
+            <td></td>
+            <td><div class="circle">
+            </div></td>
+          </tr>
+          <tr>
+            <td><a href='http://doc.gitlab.com/ee/integration/ldap.html#gitlab-ldap-integration'>LDAP user authentication (also compatible with Active Directory)</a></td>
+            <td><div class="circle">
+            </div></td>
+            <td><div class="circle">
+            </div></td>
+          </tr>
+          <tr>
+            <td><a href='http://doc.gitlab.com/ee/integration/ldap.html#ldap-group-synchronization-gitlab-enterprise-edition'>LDAP group synchronization (also compatible with Active Directory)</a></td>
+            <td></td>
+            <td><div class="circle">
+            </div></td>
+          </tr>
+          <tr>
+            <td><a href='http://doc.gitlab.com/ee/integration/ldap.html#enabling-the-admin-group-feature'>Create and remove admins based on an LDAP group</a></td>
+            <td></td>
+            <td><div class="circle">
+            </div></td>
+          </tr>
+          <tr>
+            <td><a href='http://doc.gitlab.com/ee/git_hooks/git_hooks.html'>Git hooks (commit message must mention an issue, no tag deletion, etc.)</a></td>
+            <td></td>
+            <td><div class="circle">
+            </div></td>
+          </tr>
+          <tr>
+            <td><a href='http://doc.gitlab.com/ee/customization/branded_login_page.html'>Branded login page </a></td>
+            <td></td>
+            <td><div class="circle">
+            </div></td>
+          </tr>
+          <tr>
+            <td><a href='http://doc.gitlab.com/ee/integration/jira.html'>Mention JIRA ticket from GitLab</a></td>
+            <td><div class="circle">
+            </div></td>
+            <td><div class="circle">
+            </div></td>
+          </tr>
+          <tr>
+            <td><a href='http://doc.gitlab.com/ee/integration/jira.html'>Close JIRA issues with GitLab commits</a></td>
+            <td></td>
+            <td><div class="circle">
+            </div></td>
+          </tr>
+          <tr>
+            <td><a href='http://doc.gitlab.com/ee/integration/jenkins.html'>Display merge request status for builds on Jenkins CI</a></td>
+            <td></td>
+            <td><div class="circle">
+            </div></td>
+          </tr>
+          <tr>
+            <td><a href='https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-non-packaged-postgresql-database-management-server'>Omnibus package supports configuring an external PostgreSQL database</a></td>
+            <td><div class="circle">
+            </div></td>
+            <td><div class="circle">
+            </div></td>
+          </tr>
+          <tr>
+            <td><a href='https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-mysql-database-management-server-enterprise-edition-only'>Omnibus package supports configuring an external MySQL database</a></td>
+            <td></td>
+            <td><div class="circle">
+            </div></td>
+          </tr>
+          <tr>
+            <td><a href='https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#udp-log-shipping-gitlab-enterprise-edition-only'>Omnibus package supports log forwarding</a></td>
+            <td></td>
+            <td><div class="circle">
+            </div></td>
+          </tr>
+          <tr>
+            <td><a href='http://doc.gitlab.com/ee/tools/email.html'>An admin can email all users of a project, a group or the entire server</a></td>
+            <td></td>
+            <td><div class="circle">
+            </div></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-
   </div>
 </div>
-
 
 <link href="/stylesheets/sticky_footer.css" rel="stylesheet">
 <link href="/stylesheets/features.css" rel="stylesheet">
