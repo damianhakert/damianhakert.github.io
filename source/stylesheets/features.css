@@ -166,11 +166,11 @@ hr {
 }
 
 .wide-feature.head .btn-default {
-  background: none;
+  background: #5D4D93;
   color: white;
   border-color: white;
   transition: all 0.2s;
-  border-width: 2px;
+  border-width: 0px;
 }
 
 .wide-feature.head .btn-default:hover {
@@ -181,11 +181,13 @@ hr {
 
 
 .wide-feature.mr {
-  background: #E8E8E8;
+  background: #F1F1F1;
   background-attachment: fixed;
+  text-align: center;
 }
 .wide-feature.mr img.img-responsive {
   margin: auto;
+  display: inline;
 }
 
 .wide-feature.ee {
@@ -299,20 +301,21 @@ hr {
 }
 
 .compare .btn-default {
-  color: #548;
-  border: 2px solid #548;
+  color: #fff;
+  background: #548;
+  border-width: 0px;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
 
 .compare .btn-default:hover {
   color: #fff;
-  border: 2px solid #548;
-  background: #548;
+  background: #403366;
+  border-width: 0px;
 }
 
 .compare .btn-lg {
-  font-size: 25px;
+  font-size: 21px;
 }
 
 .circle {
