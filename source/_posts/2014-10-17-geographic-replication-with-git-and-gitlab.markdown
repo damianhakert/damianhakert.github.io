@@ -23,7 +23,7 @@ That's less information that needs to travel through the wire.
 
 Code searching is also considerably faster than with a centralized tool, because the search happens on the local clone of the repo.
 
-GitLab hosts the origin and adds functionalities to make it easier to work together between local clones, wherever those local clones reside.
+GitLab hosts the origin and functionalities to facilitate a workflow with local clones, wherever those local clones reside.
 These additional functionalities (such as the issue tracker, the merge requests, user management) are designed to only reside on one server.
 While replicating the GitLab server might seem appealing at first sight, we strongly encourage that companies keep only one active GitLab server at a time.
 Multiple active datastores in multiple geographic regions will need to coordinate on many requests, for example to ensure that no duplicate usernames are created and that issue numbers are incremental.
