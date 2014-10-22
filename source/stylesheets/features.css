@@ -11,6 +11,10 @@
   margin-right: 0px;
 }
 
+hr {
+  border-top: 1px solid #E4E4E4;
+}
+
 .title {
   font-size: 49px;
   color: #fff;
