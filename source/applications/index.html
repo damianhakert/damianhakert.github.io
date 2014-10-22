@@ -2,76 +2,219 @@
 layout: default
 title: Applications Supporting GitLab
 ---
-<div id="content">
-  <div class="container txt-lefty">
-    <div class="row">
-      <div class="col-sm-9 col-md-9"> 
-        <p>
-          Every applications that supports Git will work with GitLab.
-          Below are some of the applications we wanted to highlight.
-          File a <a href="https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests?assignee_id=&label_name=&milestone_id=&scope=all&sort=newest&state=all">merge request</a>
-          to add an application to the list.
-          The <a href="http://doc.gitlab.com/ce/api/README.html">GitLab API</a> can be used to add integration to an application.
-        </p>
-        <h2>Bug Reporting</h2>
-        <div class="entry">
-          <div class="row">
-            <div class="col-sm-12 col-md-4">
-              <h3>Usersnap</h3>
-              <p>
-               <a href="https://usersnap.com/gitlab"><img src="../images/applications/usersnap.png" alt="Usersnap" width="128" border=0/></a><br>
-              Add annotated screenshots to every issue in GitLab. A picture paints a thousand words, so reproducing the bug gets as simple as possible.
-              </p>
-              <p><a href="https://usersnap.com/gitlab">www.usersnap.com</a></p>
-            </div>
-          </div>
-        </div>
-        <h2>CMS Plugins</h2>
-        <div class="entry">
-          <div class="row">
-            <div class="col-sm-12 col-md-4">
-              <h3>Drupal</h3>
-              <p>
-            Connect your Drupal site to a GitLab instance using web services.<br><br>
-This is purely an API module. You should only enable it if another module requires it or if you want to build code against this API.
-              </p>
-              <p><a href="https://www.drupal.org/project/gitlab">www.drupal.org</a></p>
-            </div>
-            <div class="col-sm-12 col-md-4">
-              <h3>Dropfort</h3>
-              <p>
-              Dropfort helps you to organize your Drupal projects and manage your sites in one simple interface.
-              </p>
-              <p><a href="http://dropfort.com">www.dropfort.com</a></p>
-            </div>
-          </div>
-        </div>
-        <h2>Desktop clients</h2>
-        <div class="entry">
-          <div class="row">
-            <div class="col-sm-12 col-md-4">
-              <h3>All GUI Clients</h3>
-              <p>
-              All Git GUI Clients from all companies are compatible with GitLab.
-              </p>
-              <p><a href="http://git-scm.com/downloads/guis">http://git-scm.com/downloads/guis</a></p>
-            </div>
-            <div class="col-sm-12 col-md-4">
-              <h3>Git Tower</h3>
-              <p>
-              Easy version control in a beautiful, efficient, and powerful app for Mac OS X.
-              </p>
-              <p><a href="http://www.git-tower.com/">www.git-tower.com</a></p>
-            </div>
-            <div class="col-sm-12 col-md-4">
-              <h3>Eclipse</h3>
-              <p>
-              Eclipse has the Egit Team provider that also supports GitLab.
-              </p>
-              <p><a href="http://www.eclipse.org/egit/">http://www.eclipse.org/egit/</a></p>
-            </div>
-          </div>
-        </div>
+<link href="/stylesheets/sticky_footer.css" rel="stylesheet">
+<link href="/stylesheets/applications.css" rel="stylesheet">
+
+<div class="wrapper">
+  <div class="container">
+    <p>
+      Every applications that supports Git will work with GitLab.
+      Below are some of the applications we wanted to highlight.
+      File a <a href="https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests?assignee_id=&label_name=&milestone_id=&scope=all&sort=newest&state=all">merge request</a>
+      to add an application to the list.
+      The <a href="http://doc.gitlab.com/ce/api/README.html">GitLab API</a> can be used to add integration to an application.
+    </p>
+
+    <h2>Apps</h2>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>[iOS] GitLab Control</b></h4>
+          Third party iPhone app.
+        <br>
+        <a href="http://gitlabcontrol.com/">gitlabcontrol.com</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>[Android] GitLab</b></h4>
+          Third party Android app.
+        <br>
+        <a href="https://play.google.com/store/apps/details?id=com.bd.gitlab&hl=en">Play Store</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>[Chrome] GitLab Notifier</b></h4>
+          Notify Gitlab events (Commit, Issue, MergeRequest and Milestone)
+        <br>
+        <a href="https://chrome.google.com/webstore/detail/gitlab-notifier-for-googl/eageapgbnjicdjjihgclpclilenjbobi">Chrome App Store</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>Usersnap</b></h4>
+        Add annotated screenshots to every issue in GitLab. A picture paints a thousand words, so reproducing the bug gets as simple as possible.
+        <br>
+        <a href="https://usersnap.com/gitlab">www.usersnap.com</a>
+      </div>
+    </div>
+
+    <h2>API Clients</h2>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>GitLab Command Line Tool</b></h4>
+          Interact with your GitLab server via the command line to manage snippets, projects and more.
+        <br>
+        <a href="https://github.com/drewblessing/gitlab-cli">Repository on GitHub</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>Ruby wrapper & CLI</b></h4>
+          Ruby wrapper and CLI for GitLab REST API
+        <br>
+        <a href="https://github.com/NARKOZ/gitlab">Repository on GitHub</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>Python wrapper</b></h4>
+          Python wrapper for the GitLab API
+        <br>
+        <a href="https://github.com/gpocentek/python-gitlab">Repository on GitHub</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>PyAPI-GitLab</b></h4>
+          pyapi-gitlab is a python wrapper for the Gitlab API.
+        <br>
+        <a href="https://github.com/Itxaka/pyapi-gitlab">Repository on GitHub</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>Perl Client</b></h4>
+          Talk to a Gitlab installation via its API.
+        <br>
+        <a href="https://metacpan.org/release/AYOUNG/Net-Gitlab-0.05">Repository on matacpan.org</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>PHP-GitLab-API</b></h4>
+          GitLab API client for PHP
+        <br>
+        <a href="https://github.com/m4tthumphrey/php-gitlab-api">Repository on GitHub</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>Laravel API Wrapper</b></h4>
+          Laravel API Wrapper for GitLab CE
+        <br>
+        <a href="https://github.com/adamgoose/gitlab">Repository on GitHub</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>Node GitLab</b></h4>
+          GitLab API Node.js library.
+        <br>
+        <a href="https://github.com/moul/node-gitlab">Repository on GitHub</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>Java GitLab API</b></h4>
+          A wrapper for the Gitlab API written in Java
+        <br>
+        <a href="https://github.com/timols/java-gitlab-api">Repository on GitHub</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>NGitLab</b></h4>
+          .NET client for GitLab.
+        <br>
+        <a href="https://github.com/Scooletz/NGitLab">Repository on GitHub</a>
+      </div>
+    </div>
+
+    <h2>Continuous Integration</h2>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>Magnum CI</b></h4>
+          Hosted Continuous Integration and Delivery Platform
+        <br>
+        <a href="http://blog.magnum-ci.com/post/55149963415/integration-with-gitlab">Magnum CI Integration with GitLab</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>GitLab CI</b></h4>
+          GitLab Continuous Integration (CI) integrates with your GitLab installation to run tests for your projects.
+          Login with GitLab account, add a project with one click and enjoy running your tests.
+          GitLab CI is on-premises software that you can install and use on your server(s).
+        <br>
+        <a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a>
+      </div>
+    </div>
+
+
+    <h2>CMS Plugins</h2>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>Drupal Plugin</b></h4>
+        Connect your Drupal site to a GitLab instance using web services.
+        This is purely an API module. You should only enable it if another module requires it or if you want to build code against this API.
+        <br>
+        <a href="https://www.drupal.org/project/gitlab">www.drupal.org</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>Dropfort</b></h4>
+        Dropfort helps you to organize your Drupal projects and manage your sites in one simple interface.
+        <br>
+        <a href="http://dropfort.com">www.dropfort.com</a>
+      </div>
+    </div>
+
+    <h2>GUI Git Clients</h2>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>All GUI Clients</b></h4>
+        All Git GUI Clients from all companies are compatible with GitLab.
+        <br>
+        <a href="http://git-scm.com/downloads/guis">http://git-scm.com/downloads/guis</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>Git Tower</b></h4>
+        Easy version control in a beautiful, efficient, and powerful app for Mac OS X.
+        <br>
+        <a href="http://www.git-tower.com/">www.git-tower.com</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>Eclipse</b></h4>
+          Eclipse has the Egit Team provider that also supports GitLab.
+        <br>
+        <a href="http://www.git-tower.com/">www.git-tower.com</a>
       </div>
     </div>
   </div>
