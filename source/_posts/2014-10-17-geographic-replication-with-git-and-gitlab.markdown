@@ -21,16 +21,17 @@ After the first cloning of the origin repo, Git only registers the changes to th
 That's less information that needs to travel through the wire.
 **Getting the clone in sync with the origin does not take a lot of extra time if you are geographically further away.**
 
-Code searching is also considerably faster than with a centralized tool, because the search happens on the local clone of the repo.
+Code searching is also considerably faster with git than with a centralized tool, because the search happens on the local clone of the repo.
 
-GitLab hosts the origin and functionalities to facilitate a workflow with local clones, wherever those local clones reside.
-These additional functionalities (such as the issue tracker, the merge requests, user management) are designed to only reside on one server.
-While replicating the GitLab server might seem appealing at first sight, we strongly encourage that companies keep only one active GitLab server at a time.
-Multiple active datastores in multiple geographic regions will need to coordinate on many requests, for example to ensure that no duplicate usernames are created and that issue numbers are incremental.
+The functionalities of GitLab (such as the issue tracker, the merge requests, user management) are designed to only reside on one server.
+While replicating the GitLab database server might seem appealing at first sight, we strongly encourage that companies keep only one active GitLab database server at a time.
+Multiple active database servers in multiple geographic regions will need to coordinate on many requests, for example to ensure that no duplicate usernames are created and that issue numbers are incremental.
 This coordination slows down the process more than multiple geographic regions will speed it up.
 
 We also recommend keeping all developers in the company on one GitLab server, instead of splitting it into several smaller servers for different groups/departments.
-The rationale for this is that user management becomes more efficient as the GitLab instance is scaled up.
-If you are concerned with managing the codebase and fine-grained authorizations, you can consider either [forking](http://blogs.atlassian.com/2013/05/git-branching-and-forking-in-the-enterprise-why-fork/), or using [protected branches](http://doc.gitlab.com/ce/permissions/permissions.html)
+The rationale for this is that internal collaboration becomes easier when more of the users are on the same server.
+If you are concerned with managing the codebase and fine-grained authorizations, you can consider either [protected branches](http://doc.gitlab.com/ce/permissions/permissions.html) or using [forking](http://blogs.atlassian.com/2013/05/git-branching-and-forking-in-the-enterprise-why-fork/)
 
-In case you do want geographic replication for your git server our partner WANdisco offers this in their [GitLab and Git Multisite](http://blogs.wandisco.com/2014/10/20/gitlab-git-multisite-architecture/) product.
+In case you do want fast geographic replication for your git data our partner WANdisco offers this in their [GitLab and Git Multisite product](http://blogs.wandisco.com/2014/10/20/gitlab-git-multisite-architecture/).
+This products handles the git file store servers and database servers that [GitLab contains](http://doc.gitlab.com/ce/development/architecture.html) differently.
+The [GitLab and Git Multisite architecture](http://blogs.wandisco.com/2014/10/20/gitlab-git-multisite-architecture/) has multiple active git file store servers but uses one active master database that all the GitLab servers access.
