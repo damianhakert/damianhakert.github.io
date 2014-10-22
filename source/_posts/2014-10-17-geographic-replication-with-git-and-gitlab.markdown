@@ -28,6 +28,9 @@ While replicating the GitLab database server might seem appealing at first sight
 Multiple active database servers in multiple geographic regions will need to coordinate on many requests, for example to ensure that no duplicate usernames are created and that issue numbers are incremental.
 This coordination slows down the process more than multiple geographic regions will speed it up.
 
+Having a single active database server doesn't mean that you can't scale your GitLab installation.
+GitLab allows multiple active application servers and [highly available cluters in multiple datacenters](https://about.gitlab.com/high-availability/).
+
 We also recommend keeping all developers in the company on one GitLab server, instead of splitting it into several smaller servers for different groups/departments.
 The rationale for this is that internal collaboration becomes easier when more of the users are on the same server.
 If you are concerned with managing the codebase and fine-grained authorizations, you can consider either [protected branches](http://doc.gitlab.com/ce/permissions/permissions.html) or using [forking](http://blogs.atlassian.com/2013/05/git-branching-and-forking-in-the-enterprise-why-fork/)
