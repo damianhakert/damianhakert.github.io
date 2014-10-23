@@ -135,4 +135,10 @@ server {
     allow   54.243.197.170;
     deny    all;
   }
+  location = /gitlab-ce {
+    return 301 /features;
+  }
+  location = /gitlab-ee {
+    return 301 /features/#enterprise;
+  }
 }
