@@ -7,6 +7,10 @@ categories:
 author: Valery Sizov
 ---
 
+Update: Since 7.4.0 the title of newly created internal snippets is exposed to people who are not logged in.
+The contents of internal snippets is not exposed, and private snippets are not affected.
+We will fix this in 7.4.2 which will release today, October 24.
+
 Today we released GitLab Community Edition 7.4.1 and GitLab Enterprise Edition
 7.4.1. This is a patch release which fixes the following things:
 

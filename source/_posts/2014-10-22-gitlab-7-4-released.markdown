@@ -7,6 +7,10 @@ categories:
 author: Valery Sizov
 ---
 
+Update: Since 7.4.0 the title of newly created internal snippets is exposed to people who are not logged in.
+The contents of internal snippets is not exposed, and private snippets are not affected.
+We will fix this in 7.4.2 which will release today, October 24.
+
 GitLab is open source software to collaborate on code.
 Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
 The biggest new feature in Community Edition is task lists.
