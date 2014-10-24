@@ -32,9 +32,9 @@ You can now get an overall picture of the runners, which is useful if you have t
 
 With Coverage parsing, you will be able to track your test coverage. This feature enables you to determine which change led to a change in coverage, allowing you to take appropriate action.
 
-[![screenshot](/images/ci_5_1/builds_page.png)](/images/ci_5_1/coverage_index.png)
-[![screenshot](/images/ci_5_1/builds_page.png)](/images/ci_5_1/coverage_show.png)
-[![screenshot](/images/ci_5_1/builds_page.png)](/images/ci_5_1/setting_coverage_parsing.png)
+[![screenshot](/images/ci_5_1/coverage_index.png)](/images/ci_5_1/coverage_index.png)
+[![screenshot](/images/ci_5_1/coverage_show.png)](/images/ci_5_1/coverage_show.png)
+[![screenshot](/images/ci_5_1/setting_coverage_parsing.png)](/images/ci_5_1/setting_coverage_parsing.png)
 
 ## Update process
 
