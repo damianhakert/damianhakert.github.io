@@ -1,0 +1,26 @@
+body{
+	background: #548;
+}
+
+h1 {
+	color: #FFF;
+}
+
+a {
+    color: #FFF;
+}
+
+a:hover{
+    color: #A5ABFB;
+    text-decoration: none;
+}
+
+p {
+    margin: 0px 0px 30px;
+}
+
+#content {
+	padding: 0 0 20px 0;
+  	background: #548;
+  	color: #BBB4CF;
+}
