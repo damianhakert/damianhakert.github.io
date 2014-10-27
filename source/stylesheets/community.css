@@ -28,4 +28,11 @@ p {
   padding-top: 80px;
   background: #548;
   text-align: center;
+  animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+}
+
+.community img:before {
+  opacity: 0;
 }
