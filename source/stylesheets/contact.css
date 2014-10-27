@@ -2,37 +2,38 @@ body{
 	background: #548;
 }
 
-h1 {
+h2 {
 	color: #FFF;
 }
 
 a {
-    color: #FFF;
+  color: #FFF;
 }
 
 a:hover{
-    color: #A5ABFB;
-    text-decoration: none;
+  color: #A5ABFB;
+  text-decoration: none;
 }
 
 p {
-    margin: 0px 0px 30px;
+  margin: 0px 0px 30px;
 }
 
-#content {
-	padding: 0 0 20px 0;
-    background: #548;
-    color: #BBB4CF;
+.contact {
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 30px;
+  background: #548;
+  color: #BBB4CF;
 }
 
 .btn-primary {
-    color: #FFF;
-    background-color: #9FB460;
-    border-color: #B7C788;
+  color: #FFF;
+  background-color: #9FB460;
+  border: none;
 }
 
 .btn-primary:hover {
-    color: #FFF;
-    background-color: #87A239;
-    border-color: #9FB460;
+  color: #FFF;
+  background-color: #87A239;
 }
