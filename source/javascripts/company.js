@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('.company #blog').addClass('animated zoomIn');
+  $('.company #blog_page').addClass('animated zoomIn');
   $('.company #press').addClass('animated zoomIn');
   $('.company #about_us').addClass('animated zoomIn');
   $('.company #team').addClass('animated zoomIn');
