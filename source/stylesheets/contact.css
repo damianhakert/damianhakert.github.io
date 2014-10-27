@@ -1,9 +1,9 @@
 body{
-	background: #548;
+  background: #548;
 }
 
 h2 {
-	color: #FFF;
+  color: #FFF;
 }
 
 a {
@@ -20,9 +20,9 @@ p {
 }
 
 .contact {
-	text-align: center;
-	padding-top: 80px;
-	padding-bottom: 30px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 30px;
   background: #548;
   color: #BBB4CF;
 }

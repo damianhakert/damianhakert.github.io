@@ -1,18 +1,18 @@
 body{
-	background: #548;
+  background: #548;
 }
 
 h1 {
-	color: #FFF;
+  color: #FFF;
 }
 
 a {
   color: #FFF;
-	transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 a p {
-	color: #BBB4CF;
+  color: #BBB4CF;
 }
 
 a:hover{
@@ -25,7 +25,7 @@ p {
 }
 
 .community {
-	padding-top: 80px;
-	background: #548;
-	text-align: center;
+  padding-top: 80px;
+  background: #548;
+  text-align: center;
 }
