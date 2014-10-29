@@ -1,0 +1,106 @@
+/* subscription */
+
+body {
+  background: #F0F0F0;
+}
+
+.subscriptions {
+  text-align: center;
+  max-width: 970px;
+  margin: auto;
+}
+
+.subscription {
+  width: 300px;
+  font-weight: 200;
+  text-align: center;
+  transition: all 0.3s;
+  display: inline-block;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+  border-radius: 7px;
+}
+
+.subscription .header {
+  font-size: 40px;
+  color: #FFFFFE;
+  background: #444;
+  height: 110px;
+  line-height: 110px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.standard.subscription {
+}
+
+.standard.subscription .header {
+  background: #129BEE;
+}
+
+.subscription .price {
+  font-size: 50px;
+  color: #444;
+  padding: 8px;
+  background: #fff;
+}
+
+.subscription .subprice {
+  color: #868686;
+  font-size: 17px;
+  font-weight: 400;
+  font-variant: small-caps;
+}
+
+.subscription .details {
+  border-top: 1px solid #E7E7E7;
+  background: #F9F9F9;
+  padding: 30px;
+  text-align: left;
+}
+
+.subscription .detail {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.subscription .detail .body {
+  display: inline-block;
+  position: relative;
+  top: -5px;
+  padding-left: 10px;
+  font-weight: 400
+}
+
+.subscription .detail .glyphicon {
+  color: #129BEE;
+  font-size: 25px;
+}
+
+.subscription a.button {
+  padding: 15px;
+  background: #e7e7e7;
+  display: inline-block;
+  width: 100%;
+  font-size: 18px;
+  color: #333;
+  transition: all 0.2s;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.standard.subscription a.button {
+  background: #129BEE;
+  color: #fff;
+}
+
+.standard.subscription a.button:hover {
+  background: #6144B8;
+}
+
+.subscription a.button:hover {
+  text-decoration: none;
+  background: #3FACDB;
+  color: white;
+}
