@@ -16,6 +16,7 @@ In Git, The main repository (origin) lies on the server, and developer machines 
 Developers commit to their local machines, and they only need to connect to the server when pushing their work back to the main repo.
 This means that even in the case of server downtime, development can still continue on the developers' local clones.
 **Server downtime is not as disruptive to the workflow as with a centralized tool.**
+Obviously the downtime does affect code reviews, continuous integration, and deployments.
 
 After the first cloning of the origin repo, Git only registers the changes to the files, so the deltas between the origin and the clones are very small.
 That's less information that needs to travel through the wire.
