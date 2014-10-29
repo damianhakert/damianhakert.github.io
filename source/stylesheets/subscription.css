@@ -46,6 +46,17 @@ body {
   background: #fff;
 }
 
+.subscription .price .money {
+  display: inline;
+  margin: 0px;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 600;
+  top: -22px;
+  margin-left: -20px;
+  position: relative;
+}
+
 .subscription .subprice {
   color: #868686;
   font-size: 17px;
