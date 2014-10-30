@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitLab 7.4.3 Security Release"
-date: 2014-10-29
+date: 2014-10-30
 comments: true
 categories:
 author: Valery Sizov
@@ -25,4 +25,3 @@ available](https://about.gitlab.com/downloads/). To upgrade an installation
 from source please use the
 [upgrader](http://doc.gitlab.com/ce/update/upgrader.html) or the [patch update
 guide](http://doc.gitlab.com/ce/update/patch_versions.html).
-
