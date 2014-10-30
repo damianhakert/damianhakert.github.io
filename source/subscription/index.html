@@ -1,18 +1,32 @@
 ---
 layout: default
 title: Subscription
+suppress_header: true
 ---
 <link href="/stylesheets/sticky_footer.css" rel="stylesheet">
 <link href="/stylesheets/subscription.css" rel="stylesheet">
 
-<div class="wrapper container">
+<div class="wrapper container-fluid">
+  <div class="subs-header">
+    <div class="title">
+      Start scaling GitLab
+    </div>
+    <hr>
+    <div class="subtitle">
+      No hidden fees, monthly release and 45-day money back guarantee.
+    </div>
+  </div>
+
   <div class="subscriptions">
 
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <div class="basic subscription">
           <div class="header">
             Basic
+            <div class="sub-header">
+              GitLab for Small Enterprises
+            </div>
           </div>
           <div class="price">
             <div class="money">$</div>19,90
@@ -38,10 +52,13 @@ title: Subscription
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <div class="standard subscription">
           <div class="header">
             standard
+            <div class="sub-header">
+              Highly available, All the time
+            </div>
           </div>
           <div class="price">
             <div class="money">$</div>49
@@ -85,10 +102,13 @@ title: Subscription
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <div class="plus subscription">
           <div class="header">
             Plus
+            <div class="sub-header">
+              Set the path for GitLab
+            </div>
           </div>
           <div class="price">
             <div class="money">$</div>249
@@ -100,7 +120,7 @@ title: Subscription
             <div class="detail">
               <span class="glyphicon glyphicon-chevron-right"></span>
               <div class="body">
-                Everythign from Standard
+                Everything from Standard
               </div>
             </div>
             <div class="detail">
@@ -116,9 +136,19 @@ title: Subscription
               </div>
             </div>
           </div>
-          <a href="/subscription/basic" class="basic button" onclick="_gaq.push(['_trackEvent', 'Subscription', 'Subscription Select', 'Basic']);">Get a basic subscription</a>
+          <a href="/subscription/basic" class="basic button" onclick="_gaq.push(['_trackEvent', 'Subscription', 'Subscription Select', 'Basic']);">Get a plus subscription</a>
         </div>
       </div>
+    </div>
+
+    <div class="quote">
+      <div class="quote-head">
+        Questions or want a Quote?
+      </div>
+      <div class="quote-body">
+        If you have any questions, please feel free to <a href="mailto:sales@gitlab.com">contact us</a>.
+      </div>
+      <a href="/subscription/form.html" class="quotation-btn">Request a quotation</a>
     </div>
   </div>
 </div>
