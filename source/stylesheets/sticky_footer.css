@@ -11,6 +11,10 @@ html, body {
   margin: 0 auto -255px;
 }
 
-.footer, .push {
+.wrapper:after {
+  content: "";
+  display: block;
+}
+.footer, .wrapper:after {
   height: 255px;
 }
