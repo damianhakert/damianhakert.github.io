@@ -705,10 +705,6 @@ h2.terms {
 }
 
 @media (max-width: 979px) {
-  body {
-    padding-top: 0;
-	overflow-x: hidden;
-  }
   .navbar .btn-dropnav {
     display: block;
   }
@@ -892,4 +888,39 @@ h1.testimonial-head{
 .testimonial .author {
   text-align: right;
   float: none;
+}
+
+.simple-header {
+  text-align: center;
+  background: #7863B6;
+  color: white;
+  padding: 80px;
+}
+
+.simple-header h1 {
+  font-weight: 600;
+}
+
+.link-box {
+  color: #333;
+  border: 2px solid #7863B6;
+  padding: 17px;
+  text-align: justify;
+  border-radius: 3px;
+  background: white;
+  margin-top: 25px;
+  transition: all 0.2s;
+}
+
+.link-box:hover {
+  background: rgb(244, 240, 255);
+}
+
+.link-box h3, h4 {
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+a:hover > .link-box {
+  text-decoration: none;
 }
