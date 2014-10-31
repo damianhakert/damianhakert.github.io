@@ -705,10 +705,6 @@ h2.terms {
 }
 
 @media (max-width: 979px) {
-  body {
-    padding-top: 0;
-	overflow-x: hidden;
-  }
   .navbar .btn-dropnav {
     display: block;
   }
