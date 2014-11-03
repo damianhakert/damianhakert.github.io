@@ -11,6 +11,8 @@ Today we released GitLab Community Edition 7.4.3 and GitLab Enterprise Edition
 7.4.3. This is a security release which fixes a groups API vulnerability.
 Snippet raw view and buildbox integration are fixed with this release as well.
 
+_Update 2014-11-03 10:02 CEST:_ For groups API vulnerability has been assigned the CVE identifier CVE-2014-8540.
+
 ## Affected versions
 
 The groups API vulnerability affects GitLab 6.0 and up.
