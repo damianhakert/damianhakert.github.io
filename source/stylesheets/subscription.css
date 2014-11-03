@@ -71,9 +71,8 @@ body {
 
 .subscription .subprice {
   color: #868686;
-  font-size: 17px;
+  font-size: 12px;
   font-weight: 400;
-  font-variant: small-caps;
 }
 
 .subscription .details {
@@ -86,6 +85,12 @@ body {
 .subscription .detail {
   font-size: 15px;
   line-height: 25px;
+  padding: 5px 0px;
+  transition: all 0.2s;
+}
+
+.subscription .detail:hover {
+  background: #fff;
 }
 
 .subscription .detail .body {
@@ -93,12 +98,20 @@ body {
   position: relative;
   top: -5px;
   padding-left: 10px;
-  font-weight: 400
+  font-weight: 400;
+  width: 88%;
+}
+
+.subscription .detail .body.double {
+  top: 6px;
+  margin-bottom: 9px;
+  line-height: 1.3em;
 }
 
 .subscription .detail .glyphicon {
   color: #129BEE;
   font-size: 25px;
+  width: 10%;
 }
 
 .subscription a.button {
