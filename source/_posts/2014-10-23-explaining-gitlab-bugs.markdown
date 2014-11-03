@@ -23,7 +23,7 @@ The image below illustrates the big picture:
 
 Security bugs are system vulnerabilities that can be exploited to allow a user to gain unauthorized access to the GitLab server.
 We always treat them as top priority.
-We take action and give feedback within 1-2 days of notice.
+We give feedback within 1-2 days of notice.
 Depending on the severity of the vulnerability, we will either patch GitLab, or fix the issue in the next minor release.
 
 If you find a security bug in GitLab, please make sure to use [responsible disclosure](https://about.gitlab.com/disclosure/), and reach out to us at support@gitlab.com.
@@ -38,7 +38,7 @@ If you identify a regression bug, please let us know either via [Twitter](https:
 
 ## Feature requests
 
-GitLab Features don't cover all use cases and all corner cases, so you might come across a feature that behaves different from what you'd expect.
+GitLab features don't cover all use cases and all corner cases, so you might come across a feature that behaves different from what you'd expect.
 In this case, the unexpected behavior is neither a security bug, nor a regression, and we treat it as a feature request.
 Depending on the impact on GitLab's functionality, fixing this kind of bug might be considered a priority.
 Before announcing it to us, please make sure to double-check our comments on the feature on the feedback tracker, on the changelog and in the release blog post.
