@@ -8,6 +8,13 @@ html, body {
 }
 .wrapper {
   min-height: 100%;
-  height: auto !important;
-  height: 100%;
+  margin: 0 auto -255px;
+}
+
+.wrapper:after {
+  content: "";
+  display: block;
+}
+.footer, .wrapper:after {
+  height: 255px;
 }

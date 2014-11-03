@@ -1,28 +1,35 @@
 ---
 layout: default
 title: Contact
+suppress_header: true
 ---
 
-<div id="content" class="txt-middle">
+<div class="contact">
   <div class="container">
     <div class="row">
+
       <div class="col-sm-4 col-md-4">
+        <img src="/images/icons/contact.png" id="email">
         <h2>Email</h2>
         <a href="mailto:contact@gitlab.com"> contact@gitlab.com</a>
         <br />
-        If you are a subscriber please use the support email address you were given.
-        If you are a standard or plus subscriber and need emergency support please use the dedicated email address for this.
+        <p>If you are a subscriber please use the support email address you were given.
+        If you are a standard or plus subscriber and need emergency support please use the dedicated email address for this.</p>
       </div>
+
       <div class="col-sm-4 col-md-4">
+        <img src="/images/icons/twitter.png" id="twitter">
         <h2>Twitter</h2>
         <a href="https://twitter.com/gitlabhq">@gitlabhq</a>
         <br /><br />
         <a href="https://twitter.com/gitlabhq" class="twitter-follow-button" data-show-count="false">Follow @gitlabhq</a>
         <br />
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        Follow us on twitter for the most detailed and up to date information about GitLab.
+        <p>Follow us on twitter for the most detailed and up to date information about GitLab.</p>
       </div>
+
       <div class="col-sm-4 col-md-4">
+        <img src="/images/icons/news.png" id="newsletter">
         <h2>Newsletter</h2>
         <!-- Begin MailChimp Signup Form -->
         <div id="mc_embed_signup" class="newsletter-form">
@@ -32,25 +39,33 @@ title: Contact
             </div>
             <div id="mce-responses" class="clear">
               <div class="response" id="mce-error-response" style="display:none"></div>
-              <div class="response" id="mce-success-response" style="display:none"></div> 
+              <div class="response" id="mce-success-response" style="display:none"></div>
             </div>  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary form-control"></div>
           </form>
         </div>
         <!--End mc_embed_signup-->
         <p>If you subscribe, you will receive all blogposts per email, this includes all (security) release announcements.</p>
       </div>
+
       <div class="col-sm-4 col-md-4">
+        <img src="/images/icons/location.png" id="location">
         <h2>Address</h2>
-        GitLab B.V.<br>Ondiep 108<br>3552EK Utrecht<br>The Netherlands
+        <p>GitLab B.V.<br>Ondiep 108<br>3552EK Utrecht<br>The Netherlands</p>
       </div>
+
       <div class="col-sm-4 col-md-4">
+        <img src="/images/icons/security.png" id="security">
         <h2>Security</h2>
-        If you want to test the security of GitLab or if you think you have found a problem please see our <a href="/disclosure/">Responsible Disclosure Policy</a>.
+        <p>If you want to test the security of GitLab or if you think you have found a problem please see our <a href="/disclosure/">Responsible Disclosure Policy</a>.</p>
       </div>
+
       <div class="col-sm-4 col-md-4">
+        <img src="/images/icons/website.png" id="website">
         <h2>Website</h2>
-        This website is created from a public repository. If you see a potential improvement please <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING">contribute to this website</a>.
+        <p>This website is created from a public repository. If you see a potential improvement please <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING">contribute to this website</a>.</p>
       </div>
     </div>
   </div>
 </div>
+
+<link href="/stylesheets/contact.css" rel="stylesheet">

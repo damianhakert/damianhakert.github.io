@@ -1,0 +1,11 @@
+body {
+  background: #f9f9f9;
+}
+
+li {
+  margin-left: 15px;
+}
+
+a:hover {
+  text-decoration: none;
+}
