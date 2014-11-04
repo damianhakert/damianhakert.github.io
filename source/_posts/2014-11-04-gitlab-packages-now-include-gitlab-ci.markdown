@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Omnibus packages now include GitLab CI"
+title: "GitLab packages now include GitLab CI"
 date: 2014-11-04 14:12:18 +0100
 author: Jacob Vosmaer
 comments: true
