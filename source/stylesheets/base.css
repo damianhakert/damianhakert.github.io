@@ -579,11 +579,19 @@ article {
   margin: 0 0 24px;
 }
 
+.blog-entry ul {
+  margin-bottom: 25px;
+}
+
 .blog-entry li {
   font-family: 'Noto Serif', serif;
   font-size: 18px;
   color: #444;
-  margin: 0 0 24px;
+  /*margin: 0 0 24px;*/
+}
+
+.blog-entry figure.code {
+  margin: 25px;
 }
 
 .blog-entry a {
