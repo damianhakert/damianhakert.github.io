@@ -7,8 +7,11 @@ comments: true
 categories: 
 ---
 
-We are excited to announce that starting today, our Omnibus packages include
-the [GitLab CI](/gitlab-ci/) Coordinator.
+Back in February of this year, we radically simplified the installation process
+of GitLab with the [first release of our Omnibus
+packages for GitLab](/2014/02/14/gitlab-is-now-simple-to-install/). Today we are excited
+to announce that our Omnibus packages now include the [GitLab CI](/gitlab-ci/)
+Coordinator.
 
 To start using GitLab CI on your GitLab server you need to take the following steps:
 - download and install the latest Omnibus package for your platform;
