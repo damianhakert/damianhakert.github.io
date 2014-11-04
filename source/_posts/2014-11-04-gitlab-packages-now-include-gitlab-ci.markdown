@@ -15,7 +15,7 @@ Coordinator.
 
 To start using GitLab CI on your GitLab server you need to take the following steps:
 
-- download and install the latest Omnibus package for your platform;
+- [download and install](/downloads/) the latest Omnibus package for your platform;
 - create a DNS record for GitLab CI pointing to your GitLab server, e.g. `ci.example.com`;
 - add the following line to `/etc/gitlab/gitlab.rb`:
 
