@@ -24,6 +24,13 @@ your GitLab server, integrated with GitLab!
 
 <!-- more -->
 
+To start running your builds, set up one or more [GitLab CI
+Runners](https://gitlab.com/gitlab-org/gitlab-ci-runner/blob/master/README.md).
+
+The Omnibus-specific documentation for GitLab CI Coordinator can be found [in
+the Omnibus-GitLab
+repo](https://gitlab.com/gitlab-org/omnibus-gitlab/tree/master/doc/gitlab-ci).
+
 ## Under the hood
 
 Running GitLab CI in the standard configuration (2 Unicorn workers) will
