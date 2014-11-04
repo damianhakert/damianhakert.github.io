@@ -10,6 +10,19 @@ git remote add deploy deploy@blue-moon.gitlap.com:~/www-gitlab-com.git
 git push deploy master
 ```
 
+Make sure you have a right system locale otherwise you can get [error](https://gitlab.com/snippets/2327). Output of `locale` should be like:
+
+```
+LANG="en_US.UTF-8"
+LC_COLLATE="en_US.UTF-8"
+LC_CTYPE="en_US.UTF-8"
+LC_MESSAGES="en_US.UTF-8"
+LC_MONETARY="en_US.UTF-8"
+LC_NUMERIC="en_US.UTF-8"
+LC_TIME="en_US.UTF-8"
+LC_ALL="en_US.UTF-8"
+```
+
 # Development
 
 Serve a local build on http://localhost:4000 using:
