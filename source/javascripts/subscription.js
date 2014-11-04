@@ -1,3 +1,4 @@
 $(document).ready(function() {
-  $('tr').tooltip();
+  $('.detail').tooltip();
+  $('.subprice').tooltip();
 });
