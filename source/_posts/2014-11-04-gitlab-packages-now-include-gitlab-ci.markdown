@@ -20,6 +20,7 @@ To start using GitLab CI on your GitLab server you need to take the following st
 - add the following line to `/etc/gitlab/gitlab.rb`:
 
 ```
+# External URL to reach the GitLab CI Coordinator at
 ci_external_url 'http://ci.example.com'
 ```
 
