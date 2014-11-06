@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "GitLab Omnibus packages now include GitLab CI"
-date: 2014-11-04 14:12:18 +0100
+date: 2014-11-06 17:12 +0100
+permalink: /2014/11/04/gitlab-omnibus-packages-now-include-gitlab-ci/
 author: Jacob Vosmaer
 comments: true
 categories: 
@@ -50,3 +51,5 @@ reuse the bundled Ruby, Postgres, NGINX and Redis, as well as the `gitlab-ctl`
 utility. Because of all this reuse of available components, GitLab CI is adding
 only about 20MB of data to the package downloads. If you are not using GitLab
 CI you will not notice that it is there.
+
+_Update 2014-11-06 18:17 CET:_ Fixed the date attribute on the blog post.
