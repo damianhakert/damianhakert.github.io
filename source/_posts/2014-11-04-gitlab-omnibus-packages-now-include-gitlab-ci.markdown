@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab packages now include GitLab CI"
+title: "GitLab Omnibus packages now include GitLab CI"
 date: 2014-11-04 14:12:18 +0100
 author: Jacob Vosmaer
 comments: true
@@ -35,6 +35,10 @@ Runners](https://gitlab.com/gitlab-org/gitlab-ci-runner/blob/master/README.md).
 The Omnibus-specific documentation for GitLab CI Coordinator can be found [in
 the Omnibus-GitLab
 repo](https://gitlab.com/gitlab-org/omnibus-gitlab/tree/master/doc/gitlab-ci).
+
+If you want to run the GitLab CI Coordinator on a separate server from your
+GitLab server you can [disable the GitLab
+services bundled in the Omnibus packages](https://gitlab.com/gitlab-org/omnibus-gitlab/tree/master/doc/gitlab-ci/README.md#running-gitlab-ci-on-its-own-server).
 
 ## Under the hood
 
