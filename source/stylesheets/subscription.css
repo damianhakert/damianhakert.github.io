@@ -143,10 +143,11 @@ body {
 
 .quote {
   height: 67px;
-  margin: 30px 0px;
+  margin: 30px auto;
   background: #fff;
   text-align: left;
   border: 1px solid #DDD;
+  max-width: 780px;
 }
 
 .quote-head {
@@ -209,7 +210,7 @@ body {
   border-top: 1px solid #d4d4d4;
 }
 
-@media ( max-width: 991px ) and (min-width: 768px) {
+@media ( max-width: 900px ) and (min-width: 768px) {
   .subscription {
     width: 250px;
   }
