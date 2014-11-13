@@ -44,7 +44,10 @@ body {
   font-weight: 400;
 }
 
-.standard.subscription {
+.basic.subscription,
+.plus.subscription {
+  top: 64px;
+  position: relative;
 }
 
 .standard.subscription .header {
@@ -217,4 +220,52 @@ body {
   .subscription .detail {
     font-size: 12px;
   }
+  .basic.subscription,
+  .plus.subscription {
+    top: 0px;
+  }
+}
+
+hr.divider {
+  margin: auto;
+  margin-top: 80px;
+  width: 970px;
+  border-color: #D3D3D3;
+  border-width: 1px;
+}
+
+.spacer {
+  margin: 50px 0px;
+}
+
+.other-services {
+  text-align: center;
+}
+
+.other-services a {
+  margin: auto;
+  color: #555;
+}
+
+img.gs {
+  transition: all 0.2s;
+}
+
+.other-services a:hover {
+  text-decoration: none;
+}
+
+a.btn-default {
+  background: #f9f9f9;
+  border: 1px solid #129bee;
+  color: #129bee;
+  font-weight: 600;
+  padding: 6px 8px;
+  transition: all 0.15s;
+}
+
+a.btn-default:hover {
+  background: #129bee;
+  color: white;
+  border: 1px solid #129bee;
 }
