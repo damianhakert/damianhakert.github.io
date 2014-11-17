@@ -4,6 +4,21 @@ body {
   background: #f9f9f9;
 }
 
+.text-right,
+.text-left {
+  text-align: center;
+}
+
+@media (min-width: 692px) {
+  .text-right {
+    text-align: right;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+}
+
 .subscriptions {
   text-align: center;
   max-width: 970px;
@@ -287,6 +302,8 @@ a.btn-default:hover {
   text-align: left;
   display: inline-block;
   margin-top: 15px;
+  background: #EDEDED;
+  padding-bottom: 15px;
 }
 
 .com-sub .title {
