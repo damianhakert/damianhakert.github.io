@@ -31,6 +31,7 @@ platforms:
   install_commands: |
                     sudo yum install openssh-server
                     sudo yum install postfix
+                    sudo yum install cronie
                     sudo service postfix start
                     sudo chkconfig postfix on
                     sudo rpm -i gitlab-7.4.3_omnibus.5.1.0.ci-1.el6.x86_64.rpm
