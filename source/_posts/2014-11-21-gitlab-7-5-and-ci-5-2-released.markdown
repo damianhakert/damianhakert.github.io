@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab 7.5 and GitLab CI 5.2 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 7.5 and GitLab CI 5.2 released with custom git hooks and MAIN_EE_FEATURE"
 date: 2014-11-21
 comments: true
 categories:
@@ -10,50 +10,53 @@ author: ADD_YOUR_FULL_NAME
 GitLab is open source software to collaborate on code.
 Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
 In addition we are releasing GitLab CI 5.2.
-GitLab CI is ...
-The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
-In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+GitLab Community Edition 7.5 brings custom git hooks, various performance improvements, API extensions and better GitLab CI support.
+
+In addition to the updates from Community Edition, GitLab Enterprise Edition has gained automatic daily LDAP sync and git hooks to restrict commit authors.
+
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Martijn van Bemmel.
+Martijn is a very productive designer, having created the cool graphics for GitLab 7.0,
+the [MVP Badge](https://about.gitlab.com/mvp/) and the various graphics on our site.
+We really appreciate his enthusiastic contributions, Thanks Martijn!
 
 <!--more-->
 
-## ***MAIN_CE_FEATURE***
+## Custom Git Hooks
 
-***DESCRIPTION***
+GitLab now supports custom Git Hooks! This means that you can run anything you want
+on pre/post-receive and update actions. Please see [our documentation](http://doc.gitlab.com/ce/hooks/custom_hooks.html) for more information.
 
-[![screenshot](/images/7_5/feature.png)](/images/7_5/feature.png) ***7_5 is the version of GitLab being released***
+This has been a much requested feature and has been contributed by Drew Blessing and Jose Kahan.
 
-
-## ***NEW_CE_FEATURE***
-
-***DESCRIPTION***
-
-[![screenshot](/images/7_5/feature.png)](/images/7_5/feature.png) ***7_5 is the version of GitLab being released***
+Thanks Drew and Jose!
 
 
-## NEW_CE_FEATURE
+## API Improvements
 
-***DESCRIPTION***
+The API has been extended and improved in several points:
 
-[![screenshot](/images/7_5/feature.png)](/images/7_5/feature.png) **+7_5 is the version of GitLab being released***
+- Project events API will expose the username (sponsored by O'Reilly Media)
+- Deleting a branch will return valid JSON
+- Annotated tags API improved (contributed by Sean Edge)
 
-## NEW_SPONSORED_FEATURE
 
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-5-stable/CHANGELOG#L18).
+## Atlassian Bamboo CI Service
 
-## ***MAIN_EE_FEATURE*** (EE only feature)
+Thanks to the contribution of Drew Blessing, GitLab now integrates with Atlassian Bamboo CI.
 
-***DESCRIPTION***
+[![screenshot](/images/7_5/bamboo.png)](/images/7_5/bamboo.png)
 
-[![screenshot](/images/7_5/feature.png)](/images/7_5/feature.png) ***7_5 is the version of GitLab being released***
 
-## ***EE_FEATURE*** (EE only feature)
+## Git Hooks to check author and filename (EE only feature)
 
-***DESCRIPTION***
+We've added some cool new Git Hooks:
 
-[![screenshot](/images/7_5/feature.png)](/images/7_5/feature.png) ***7_5 is the version of GitLab being released***
+- Check whether the author of a commit is a member of the GitLab instance
+- Restrict commit authors to a given regular expression
+- Restrict commits by filenames to a given regular expression
+
+[![screenshot](/images/7_5/githooks.png)](/images/7_5/githooks.png) ***Our complete list of Git Hooks in GitLab EE 7.5***
 
 ## Other changes
 
@@ -61,8 +64,6 @@ This release has more improvements, please check out [the Changelog](https://git
 
 
 ## Upgrade barometer
-
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
 
 If you are using GitLab CI 5.1 or earlier then you need to upgrade your GitLab CI installation to 5.2 at the same time as you upgrade GitLab to 7.5.
 GitLab 7.5 is incompatible with GitLab CI 5.1 and earlier.
