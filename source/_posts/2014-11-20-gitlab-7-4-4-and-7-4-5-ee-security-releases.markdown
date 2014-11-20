@@ -33,6 +33,10 @@ None.
 The two XSS issues have been fixed in GitLab Community Edition 7.4.4 and GitLab
 Enterprise Edition 7.4.5.
 
+### Acknowledgments
+
+We would like to thank Hugh Davenport for their responsible disclosure of the XSS issues.
+
 ## LDAP group synchronization regression
 
 Due to an oversight a bug fix for a regression in GitLab 7.4 Enterprise Edition found right before the 7.4 release did not get shipped.
