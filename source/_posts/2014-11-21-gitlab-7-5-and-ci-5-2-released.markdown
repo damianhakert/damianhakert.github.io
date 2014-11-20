@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "GitLab 7.5 and GitLab CI 5.2 released with custom git hooks and MAIN_EE_FEATURE"
+title: "GitLab 7.5 and GitLab CI 5.2 released with new and custom git hooks and parellel builds"
 date: 2014-11-21
 comments: true
 categories:
-author: ADD_YOUR_FULL_NAME
+author: Job van der Voort
 ---
 
 GitLab is open source software to collaborate on code.
@@ -70,32 +70,38 @@ GitLab 7.5 is incompatible with GitLab CI 5.1 and earlier.
 
 # GitLab CI 5.2
 
-GitLab CI 5.2 require GitLab 7.5.
+We're proud to release GitLab CI 5.2 together with GitLab 7.5.
 
-## Feature X
+GitLab CI 5.2 requires GitLab 7.5.
 
-## Feature Y
+## Parellel builds
 
-- - -
+You can now run parellel builds on GitLab CI. For instance, if you have two or more test suites, you are able to run them at the same time. This can significantly reduce buildtime and therefore speed up your CI process.
+
+[![screenshot](/images/7_5/pa_build.png)](/images/7_5/pa_build.png)
 
 # Installation
 
 If you are setting up a new GitLab installation please see the [installing GitLab page](https://www.gitlab.com/installation/).
 
-*** CI Installation? ***
+GitLab CI is [now bundled with GitLab](https://about.gitlab.com/2014/11/04/gitlab-omnibus-packages-now-include-gitlab-ci/)!
+If you prefer to install GitLab CI manually, please see the [documentation](http://doc.gitlab.com/ci/install/installation.html).
+
+To run your tests, you need to setup one or more GitLab CI Runners.
+Runners are quick and easy to setup, please see the [runner repository](https://gitlab.com/gitlab-org/gitlab-ci-runner/blob/master/README.md).
 
 # Updating
 
 Upgrade instructions for omnibus-gitlab packages can be found in [the omnibus-gitlab repository](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update.md).
 
 If you installed GitLab from source and you have version 6.4.2 or higher you can use the [upgrade script](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/upgrader.md).
-You have to update GitLab Shell to ***7.5.X*** manually, see [point 3 of the upgrade guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/X.x-to-x.x.md#3-update-gitlab-shell-and-its-config).
+You have to update GitLab Shell to ***2.2.0*** manually, see [point 3 of the upgrade guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/X.x-to-x.x.md#3-update-gitlab-shell-and-its-config).
 
-If you still want to do it manually - see the [Update Guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/X.x-to-X.x.md).
+If you still want to do it manually - see the [Update Guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/7.4-to-7.5.md).
 
 # Updating GitLab CI
 
-*** use omnibus packages or the update guide ***
+Use the omnibus package which includes the latest GitLab CI version or see the [update guide](https://gitlab.com/gitlab-org/gitlab-ci/blob/master/doc/update/5.1-to-5.2.md).
 
 # Enterprise Edition
 
