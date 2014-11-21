@@ -144,7 +144,7 @@ server {
   location ^~ /services/ {
     return 301 /pricing/#services;
   }
-  location ^~ /subscription/ {
+  location = /subscription {
     return 301 /pricing;
   }
 }
