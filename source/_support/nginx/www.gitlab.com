@@ -141,4 +141,10 @@ server {
   location ^~ /gitlab-ee/ {
     return 301 /features/#enterprise;
   }
+  location ^~ /services/ {
+    return 301 /pricing/#services;
+  }
+  location ^~ /subscription/ {
+    return 301 /pricing;
+  }
 }
