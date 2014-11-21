@@ -16,8 +16,8 @@ GitLab Community Edition 7.5 brings custom git hooks, various performance improv
 In addition to the updates from Community Edition, GitLab Enterprise Edition has gained automatic daily LDAP sync and git hooks to restrict commit authors.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Martijn van Bemmel.
-Martijn is a very productive designer, having created the cool graphics for GitLab 7.0,
-the [MVP Badge](https://about.gitlab.com/mvp/) and the various graphics on our site.
+Martijn is a very productive designer, having created the [cool](https://gitlab.com/gitlab-com/gitlab-artwork/blob/master/flyer/flyer_biker.png) [graphics](https://gitlab.com/gitlab-com/gitlab-artwork/blob/master/flyer/flyer_super.png) for GitLab 7.0,
+the [MVP Badge](https://about.gitlab.com/mvp/), the [Golden Gear medal](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/318#note_296648) and the [various](https://about.gitlab.com/community/) [graphics](https://about.gitlab.com/features/) on our site.
 We really appreciate his enthusiastic contributions, Thanks Martijn!
 
 <!--more-->
