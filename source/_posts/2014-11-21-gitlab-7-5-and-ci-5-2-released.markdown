@@ -58,12 +58,21 @@ We've added some cool new Git Hooks:
 
 [![screenshot](/images/7_5/githooks.png)](/images/7_5/githooks.png) ***Our complete list of Git Hooks in GitLab EE 7.5***
 
+## Automatic Daily LDAP Sync
+
+GitLab will now automatically sync all LDAP members on a daily basis. You can configure the time that it happens.
+
+This will ensure that members that changed groups, left the LDAP group and other changes happen,
+without the user logging in.
+
 ## Other changes
 
 This release has more improvements, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-5-stable/CHANGELOG) to see the all named changes.
 
 
 ## Upgrade barometer
+
+Upgrading GitLab from 7.4 to 7.5 is an easy upgrade.
 
 If you are using GitLab CI 5.1 or earlier then you need to upgrade your GitLab CI installation to 5.2 at the same time as you upgrade GitLab to 7.5.
 GitLab 7.5 is incompatible with GitLab CI 5.1 and earlier.
