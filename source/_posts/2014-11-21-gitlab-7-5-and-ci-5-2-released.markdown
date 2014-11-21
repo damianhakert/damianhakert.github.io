@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab 7.5 and GitLab CI 5.2 released with new and custom git hooks and parellel builds"
+title: "GitLab 7.5 and GitLab CI 5.2 released with new and custom git hooks and parallel builds"
 date: 2014-11-21
 comments: true
 categories:
@@ -91,9 +91,9 @@ We're proud to release GitLab CI 5.2 together with GitLab 7.5.
 
 GitLab CI 5.2 requires GitLab 7.5.
 
-## Parellel builds
+## Parallel builds
 
-You can now run parellel builds on GitLab CI. For instance, if you have two or more test suites, you are able to run them at the same time. This can significantly reduce buildtime and therefore speed up your CI process.
+You can now run parallel builds on GitLab CI. For instance, if you have two or more test suites, you are able to run them at the same time. This can significantly reduce buildtime and therefore speed up your CI process.
 
 [![screenshot](/images/7_5/pa_build.png)](/images/7_5/pa_build.png)
 
