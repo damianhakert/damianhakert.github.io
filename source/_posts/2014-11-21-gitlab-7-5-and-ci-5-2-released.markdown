@@ -71,7 +71,7 @@ John Doe leaves the company and is removed from the LDAP server.
 At this point he can no longer log in to GitLab 7.4 EE.
 But because he is no longer active on the GitLab EE server (he cannot log in!), his LDAP group memberships in GitLab no longer get updated, and he stays listed as a group member on the GitLab server.
 
-> Now with GitLab 7.5 Enterprise Edition, within 24 hours of John being removed from the LDAP server, his user will also stop being listed as member of any GitLab groups.
+> Now with GitLab 7.5 Enterprise Edition, within 24 hours of John being removed from the LDAP server, his user will also stop being listed as a member of any GitLab groups.
 
 ## Other changes
 
