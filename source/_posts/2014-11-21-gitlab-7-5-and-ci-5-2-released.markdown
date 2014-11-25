@@ -58,7 +58,7 @@ We've added some cool new Git Hooks:
 
 [![screenshot](/images/7_5/githooks.png)](/images/7_5/githooks.png) ***Our complete list of Git Hooks in GitLab EE 7.5***
 
-## Automatic Daily LDAP Sync
+## Automatic Daily LDAP Sync (EE only feature)
 
 GitLab Enterprise Edition will now automatically sync all LDAP members on a daily basis. You can configure the time that it happens.
 
