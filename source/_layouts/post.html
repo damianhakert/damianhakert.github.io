@@ -1,3 +1,8 @@
+---
+extra_css:
+  - blog.css
+---
+
 {% include default_head.html %}
 
     <div id="content blog">
@@ -5,7 +10,7 @@
         <div class="row">
           <div class="col-sm-12">
               <div class="row">
-                <div class="col-sm-9 blog-entry">
+                <div class="col-sm-12 blog-entry">
                   <h1 class="title">{{ page.title }}</h1>
                   <h4 class="date">{% include post/date.html %}{{ time }}</h4>
                   {{ content }}
@@ -28,38 +33,38 @@
                       <!--End mc_embed_signup-->
                     </div>
                   </div>
+                  <div id="disqus_thread"></div>
+                  <script type="text/javascript">
+                  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                  {% if page.comments != false %}
+                    {% comment %} `page.comments` can be only be set to true on pages/posts, so we embed the comments here. {% endcomment %}
+                    {% if page.community == true %}
+                      var disqus_shortname = 'bloggitlabhqcom';
+                      //var disqus_developer = 1;
+                      var disqus_identifier = 'http://blog.gitlabhq.com/{{ page.url | remove_date_from_path }}/';
+                      var disqus_url = 'http://blog.gitlabhq.com/{{ page.url | remove_date_from_path }}/';
+                    {% else %}
+                      var disqus_shortname = 'gitlab'; // required: replace example with your forum shortname
+                      //var disqus_developer = 1;
+                      var disqus_identifier = '{{ site.url }}{{ page.url }}';
+                      var disqus_url = '{{ site.url }}{{ page.url }}';
+                    {% endif %}
+                    var disqus_script = 'embed.js';
+                  {% else %}
+                    {% comment %} As `page.comments` is empty, we must be on the index page. {% endcomment %}
+                    var disqus_script = 'count.js';
+                  {% endif %}
+                  /* * * DON'T EDIT BELOW THIS LINE * * */
+                  (function() {
+                   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                   dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                   })();
+                  </script>
+                  <noscript>Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;</noscript>
                 </div>
               </div>
 
-            <div id="disqus_thread"></div>
-            <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            {% if page.comments != false %}
-              {% comment %} `page.comments` can be only be set to true on pages/posts, so we embed the comments here. {% endcomment %}
-              {% if page.community == true %}
-                var disqus_shortname = 'bloggitlabhqcom';
-                //var disqus_developer = 1;
-                var disqus_identifier = 'http://blog.gitlabhq.com/{{ page.url | remove_date_from_path }}/';
-                var disqus_url = 'http://blog.gitlabhq.com/{{ page.url | remove_date_from_path }}/';
-              {% else %}
-                var disqus_shortname = 'gitlab'; // required: replace example with your forum shortname
-                //var disqus_developer = 1;
-                var disqus_identifier = '{{ site.url }}{{ page.url }}';
-                var disqus_url = '{{ site.url }}{{ page.url }}';
-              {% endif %}
-              var disqus_script = 'embed.js';
-            {% else %}
-              {% comment %} As `page.comments` is empty, we must be on the index page. {% endcomment %}
-              var disqus_script = 'count.js';
-            {% endif %}
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function() {
-             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-             dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-             })();
-            </script>
-            <noscript>Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;</noscript>
           </div>
         </div>
       </div>
