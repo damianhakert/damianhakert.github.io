@@ -7,8 +7,6 @@ categories:
 author: Job van der Voort
 ---
 
-# Keeping your code protected
-
 Git is very easy to use and abuse.
 A single `git push --force` command can easily ruin the day for a lot of people:
 
