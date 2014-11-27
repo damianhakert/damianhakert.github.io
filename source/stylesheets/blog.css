@@ -1,4 +1,151 @@
 .mc-field-group {
   margin: 2px 0 -13px 0;
-  padding-bottom: 0px;
+  padding-bottom: 0;
+}
+
+.entry {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0 0 30px;
+  padding: 10px;
+}
+
+article {
+  margin-bottom: 160px;
+}
+
+#blog {
+  background: white;
+}
+
+.blog-entry {
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 760px;
+}
+
+.blog-entry ul li {
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+  color: #444;
+  line-height: 2.9rem;
+  padding-bottom: 4px;
+}
+
+.blog-entry h1.title {
+  font-size: 30px;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+  color: #444;
+  font-weight: 600;
+  line-height: 55px;
+}
+
+.blog-entry h1 a {
+  font-size: 30px;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+  color: #444;
+  font-weight: 600;
+  line-height: 55px;
+}
+.blog-entry h1 {
+  margin-bottom: 0;
+}
+
+.blog-entry h1,
+.blog-entry h2,
+.blog-entry h3,
+.blog-entry h4,
+.blog-entry h5 {
+  color: #444;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.blog-entry h2 {
+  font-size: 25px;
+}
+
+
+.blog-entry p {
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+  color: #444;
+  line-height: 2.9rem;
+  margin: 0 0 24px;
+}
+
+.blog-entry ul {
+  margin-bottom: 25px;
+}
+
+.blog-entry li {
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+  color: #444;
+  /*margin: 0 0 24px;*/
+}
+
+.blog-entry figure.code {
+  margin: 25px;
+}
+
+.blog-entry a {
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+  line-height: 2.9rem;
+}
+
+.blog-entry .date {
+  color: #999;
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 4px;
+  margin-top: 0px;
+  padding-bottom: 10px;
+}
+
+.blog-entry .author {
+  display: inline;
+  font-weight: 600;
+}
+
+.rss-button {
+  position: relative;
+  float: right;
+  right: 0px;
+  top: 0px;
+}
+
+.blog-index .toplink {
+  font-family: "Open Sans", "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
+  font-size: 14px;
+  line-height: auto;
+  font-weight: 600;
+}
+
+.newsletter span {
+  float: left;
+  line-height: 38px;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.newsletter .mc-field-group {
+  display: inline-block;
+}
+
+.newsletter .newsletter-form {
+  width: auto;
+  float: right;
+}
+
+.newsletter .sbmc {
+  width: 100px;
+}
+
+.blog-title-divider {
+  border-width: 4px;
+  border-color: #128bee;
+  margin: -5px 0 10px 0;
 }
