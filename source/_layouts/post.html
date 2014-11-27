@@ -13,7 +13,9 @@ extra_css:
                 <div class="col-sm-12 blog-entry">
                   <h1 class="title">{{ page.title }}</h1>
                   <h4 class="date">{% include post/date.html %}{{ time }}</h4>
+                  <hr class="blog-title-divider">
                   {{ content }}
+
                   <div class="panel panel-default">
                     <div class="panel-body newsletter">
                       <span>Get the latest GitLab news in your mailbox.</span>
@@ -33,6 +35,7 @@ extra_css:
                       <!--End mc_embed_signup-->
                     </div>
                   </div>
+
                   <div id="disqus_thread"></div>
                   <script type="text/javascript">
                   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

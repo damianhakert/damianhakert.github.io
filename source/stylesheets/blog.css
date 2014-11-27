@@ -35,7 +35,10 @@ article {
 
 .blog-entry h1.title {
   font-size: 30px;
-  padding-top: 30px;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+  color: #444;
+  font-weight: 600;
+  line-height: 55px;
 }
 
 .blog-entry h1 a {
@@ -94,9 +97,9 @@ article {
 }
 
 .blog-entry .date {
-  color: #666;
+  color: #999;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
   margin-left: 4px;
   margin-top: 0px;
   padding-bottom: 10px;
@@ -104,6 +107,7 @@ article {
 
 .blog-entry .author {
   display: inline;
+  font-weight: 600;
 }
 
 .rss-button {
@@ -138,4 +142,10 @@ article {
 
 .newsletter .sbmc {
   width: 100px;
+}
+
+.blog-title-divider {
+  border-width: 4px;
+  border-color: #128bee;
+  margin: -5px 0 10px 0;
 }

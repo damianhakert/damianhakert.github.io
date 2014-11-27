@@ -1,21 +1,23 @@
 ---
-layout: post
+layout: default
 comments: false
 extra_css:
   - blog.css
 ---
 
-<div class="blog-index">
+<div class="blog-index blog-entry">
+
   <div class="panel panel-default">
     <div class="panel-body">
       You can find the most recent GitLab news on <strong><a class="toplink" href="https://twitter.com/gitlabhq">Twitter</a></strong>
       <a href="/atom.xml"><button class="btn btn-default rss-button">RSS</button></a>
     </div>
   </div>
+
   {% assign index = true %}
   {% for post in paginator.posts %}
   {% assign content = post.content %}
-    <article>
+    <article class="">
       {% include article.html %}
     </article>
   {% endfor %}
