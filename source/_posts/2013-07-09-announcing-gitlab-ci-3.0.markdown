@@ -9,7 +9,7 @@ community: true
 
 ### Announcing GitLab CI 3.0
 
-We are excited to announce the [release](https://twitter.com/gitlabhq/status/353214946978459648) of GitLab CI 3.0, the latest version of our Continuous Integration system that connects with GitLab.
+We are excited to announce the [release](https://twitter.com/gitlab/status/353214946978459648) of GitLab CI 3.0, the latest version of our Continuous Integration system that connects with GitLab.
 This is a major redesign, reflecting our recent [ideas of what a CI system should look like](/2013/06/20/integrating-gitlab-ci-with-gitlab): a flexible architecture for distributed, isolated builds.
 GitLab CI 3.0 consists of two components: the [coordinator](https://github.com/gitlabhq/gitlab-ci) and its [runners](https://github.com/gitlabhq/gitlab-ci-runner)
 

@@ -29,7 +29,7 @@ Anyway I'll continue my work on this project & hope you'll like it.
 
 <h4>Thanks for gitlab team for help.</h4> Cant imagine 1.2 released without their help. Special thanks to our designer <a href="https://github.com/ricardorauch">Ricardo</a> for new look of gitlabhq.
 <h4>Thank you for your support, feedback & pull requests.</h4>
-Follow us on twitter (@gitlabhq) and follow us on <a href="https://github.com/gitlabhq/gitlabhq">github</a>. 
+Follow us on twitter (@gitlab) and follow us on <a href="https://github.com/gitlabhq/gitlabhq">github</a>. 
 We really appreciate your support!
 
 sincerely yours, <a href="https://github.com/randx">Dmitriy</a>
