@@ -149,3 +149,7 @@ article {
   border-color: #128bee;
   margin: -5px 0 10px 0;
 }
+
+.blog-index.blog-entry {
+  margin-top: 80px;
+}
