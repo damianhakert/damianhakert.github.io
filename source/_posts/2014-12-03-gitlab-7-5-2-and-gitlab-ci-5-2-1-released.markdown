@@ -33,7 +33,7 @@ guide](http://doc.gitlab.com/ce/update/patch_versions.html).
 
 To upgrade a GitLab CI installation from source, please use the [upgrade guide](https://gitlab.com/gitlab-org/gitlab-ci/blob/master/doc/update/patch_versions.md).
 
-# Enterprise Edition
+## Enterprise Edition
 
 Omnibus packages for GitLab Enterprise Edition 7.5.2 and GitLab CI 5.2.1 are available for subscribers [here](https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/install/packages.md). For installations from source, use [this guide](https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/update/patch_versions.md).
 
