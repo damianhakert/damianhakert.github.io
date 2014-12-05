@@ -29,9 +29,14 @@ An example of what your syslog server will receive:
 
 ## About GitLab
 
-Interesting in trying GitLab's protected branches?
+Want to start to use UDP log shipping? Check out [GitLab Enterprise Edition](https://about.gitlab.com/features/#enterprise).
+A subscription also includes support, deep LDAP integration, git hooks, Jenkins integration and many more powerful enterprise features.
+
 You can try GitLab by [downloading](https://about.gitlab.com/downloads/) the Community Edition and installing it on your own server or by signing up to our free, umlimited GitLab instance [GitLab.com](https://gitlab.com/users/sign_up).
 
-For support, deep LDAP integration, git hooks, Jenkins integration and more enterprise features, check out [GitLab Enterprise Edition](https://about.gitlab.com/features/#enterprise).
+See our previous feature highlights:
 
-For more on Git workflows, read our article on [GitLab Flow](https://about.gitlab.com/2014/09/29/gitlab-flow/).
+- [Groups](https://about.gitlab.com/2014/06/30/feature-highlight-groups/)
+- [Git Hooks](https://about.gitlab.com/2014/08/25/feature-highlight-git-hooks/)
+- [Branded Login](https://about.gitlab.com/2014/09/02/feature-highlight-branded-login-gitlab-ee/)
+- [LDAP Integration](https://about.gitlab.com/2014/07/10/feature-highlight-ldap-sync/)
