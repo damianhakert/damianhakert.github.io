@@ -9,6 +9,8 @@ author: Job van der Voort
 
 A nice feature of GitLab Enterprise Edition (>= 7.1) is the ability to ship off your logs using UDP (Omnibus Packaged GitLab only). As opposed to TCP, UDP doesn't care about whether packets get received, it keeps sending them in a non-blocking, fire-and-forget manner. That makes UDP really fast and lightweight.
 
+<!-- more -->
+
 UDP log shipping is very easy to setup. You simply add the following lines to `/etc/gitlab/gitlab.rb`:
 
 ```
