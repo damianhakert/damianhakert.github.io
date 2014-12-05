@@ -10,9 +10,10 @@ author: Job van der Voort
 Today we release GitLab 7.5.3 CE and EE.
 
 GitLab 7.5.3 updates Rugged to 0.21.2 to solve [issues](https://github.com/libgit2/rugged/issues/431) with 'finding too many commits'.
+This issue could cause the PostReceive job triggered by a `git push` to take a very long time and consume a lot of memory.
 
-For GitLab Enterprise Edition, 7.5.3 additionally fixes Redis::InheritedError,
-which caused problems when creating new groups or projects.
+For GitLab Enterprise Edition, 7.5.3 additionally fixes 'Redis::InheritedError',
+which caused problems when creating new groups or projects in GitLab 7.5.0-7.5.2 Enterprise Edition.
 
 
 <!-- more -->
