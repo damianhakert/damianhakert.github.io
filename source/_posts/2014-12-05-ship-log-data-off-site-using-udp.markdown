@@ -1,15 +1,28 @@
 ---
 layout: post
-title: "Feature Highlight: Ship your GitLab EE Log Data Off-Site using UDP"
+title: "How you can send your logs ballistically using UDP"
 date: 2014-12-05
 comments: true
 categories:
 author: Job van der Voort
 ---
 
-A nice feature of GitLab Enterprise Edition (>= 7.1) is the ability to ship off your logs using UDP (Omnibus Packaged GitLab only). As opposed to TCP, UDP doesn't care about whether packets get received, it keeps sending them in a non-blocking, fire-and-forget manner. That makes UDP really fast and lightweight.
+The last thing you want to happen is having problems on your server due to your logs.
+You need them to debug problems, not cause them. With large GitLab instances, it's
+a great idea to ship your logs to a separate server. This way, they are easier to manage
+and you don't need to worry about space. But by using TCP to send the logs you risk
+a connection failure and subsequent problems with your instance.
+
+Therefore, with GitLab Enterprise Edition (7.1 and up) Omnibus packages,
+we introduced UDP log shipping.
+As opposed to TCP, UDP doesn't care about whether packets get received,
+it keeps sending them in a non-blocking, fire-and-forget manner.
+That makes UDP really fast, lightweight and if you log server crashes, it won't
+affect your GitLab instance. UDP doesn't care.
 
 <!-- more -->
+
+## Setting up UDP log shipping
 
 UDP log shipping is very easy to setup. You simply add the following lines to `/etc/gitlab/gitlab.rb`:
 
@@ -28,6 +41,22 @@ An example of what your syslog server will receive:
 <13>Jun 26 06:33:46 ubuntu1204-test production.log: Parameters: {"id"=>"root/my-project"}
 <13>Jun 26 06:33:46 ubuntu1204-test production.log: Completed 200 OK in 122ms (Views: 71.9ms | ActiveRecord: 12.2ms)
 ```
+
+## How it works
+
+The services of GitLab write log messages to logfiles (such as `production.log`)
+or to STDOUT. GitLab Omnibus packages use [svlogd](http://smarden.org/runit/svlogd.8.html)
+to log STDOUT to for instance `sidekiq/current`.
+
+svlogd is great, as it allows us to ship these logs using UDP and even rotate them.
+However, it can't work with `.log` files. So in addition to svlogd, we make
+use of [remote_syslog](https://github.com/papertrail/remote_syslog), which can work
+with `.log` files and allows us to ship the using UDP.
+
+By using a single configuration option in the Omnibus package, as shown above,
+we were able to make UDP log shipping simple to setup and flexible enough to work
+with both `.log` files and STDOUT logging.
+
 
 ## About GitLab
 
