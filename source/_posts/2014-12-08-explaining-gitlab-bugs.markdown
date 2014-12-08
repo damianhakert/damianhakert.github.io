@@ -15,6 +15,8 @@ The GitLab community differentiates between three different types of bugs:
  - Regression bugs
  - Feature bugs
 
+<!-- more -->
+
 The image below illustrates the big picture:
 
 [![screenshot](/images/gitlab_bugs/bugs_alt.png)](/images/gitlab_bugs/bugs_alt.png)
