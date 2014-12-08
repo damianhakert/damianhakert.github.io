@@ -63,7 +63,7 @@ with both `.log` files and STDOUT logging.
 Want to start to use UDP log shipping? Check out [GitLab Enterprise Edition](https://about.gitlab.com/features/#enterprise).
 A subscription also includes support, deep LDAP integration, git hooks, Jenkins integration and many more powerful enterprise features.
 
-You can try GitLab by [downloading](https://about.gitlab.com/downloads/) the Community Edition and installing it on your own server or by signing up to our free, umlimited GitLab instance [GitLab.com](https://gitlab.com/users/sign_up).
+You can try GitLab by [downloading](https://about.gitlab.com/downloads/) the Community Edition and installing it on your own server or by signing up to our free, unlimited GitLab instance [GitLab.com](https://gitlab.com/users/sign_up).
 
 See our previous feature highlights:
 
