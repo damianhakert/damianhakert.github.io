@@ -42,7 +42,7 @@ If you identify a regression bug, please share it to the GitLab community either
 ## Feature bugs
 
 GitLab's features don't cover all use and corner cases, so you might come across a feature that behaves different from what you'd expect.
-In this case, the unexpected behavior is neither a security bug, nor a regression, and is considered as a feature bug.
+If this is the case, and if the unexpected behavior is not a regression, it is considered a feature bug.
 Depending on the impact on GitLab's functionality, fixing this kind of bug might be considered a priority.
 Before announcing it the GitLab issue tracker, please make sure to double-check the community and our teams' comments on the feature on the feedback tracker, on the changelog and in the release blog post.
 
