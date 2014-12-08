@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Explaining GitLab bugs"
-date: 2014-12-8
+date: 2014-12-08
 comments: true
 categories: 
 author: Marc Radulescu
