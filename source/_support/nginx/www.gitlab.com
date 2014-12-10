@@ -90,7 +90,7 @@ server {
   server_name_in_redirect off;
 
   ssl on;
-  ssl_certificate /etc/ssl/www.gitlab.com.bundle;
+  ssl_certificate /etc/ssl/www.gitlab.com.crt;
   ssl_certificate_key /etc/ssl/www.gitlab.com.key;
 
   rewrite ^ https://about.gitlab.com$request_uri permanent;
@@ -105,7 +105,7 @@ server {
   server_tokens off;
 
   ssl on;
-  ssl_certificate /etc/ssl/about.gitlab.com.bundle;
+  ssl_certificate /etc/ssl/about.gitlab.com.crt;
   ssl_certificate_key /etc/ssl/about.gitlab.com.key;
   ssl_session_timeout 5m;
   # ssl_protocols SSLv3 TLSv1;
