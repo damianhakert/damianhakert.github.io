@@ -61,9 +61,9 @@ I needed it.
 
 ### The actual work
 
-During the first days as a Service Engineer Job helped me a lot. He guided me through the steps required to solve a ticket
-posted by a client and showed me the ins and outs of the work. But we are separated by 6 time zones, meaning we have a
-small time frame when we could actually work together. Because of this, we decided to set a time everyday to discuss all
+During the first days as a Service Engineer, Job helped me a lot. He guided me through the steps required to solve a ticket
+posted by a client and showed me the ins and outs of the work. Since we are separated by 6 time zones, meaning we have a
+small time frame when we could actually work together, we decided to set a time everyday to discuss all
 the important issues and to give each other feedback on the work I was delivering.
 
 After some guidance and pointers I started working by myself. It seemed like a daunting task at first, specially because
