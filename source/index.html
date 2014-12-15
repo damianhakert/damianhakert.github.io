@@ -2,6 +2,8 @@
 layout: default
 title: Open source software to collaborate on code
 suppress_header: true
+extra_css:
+  - landing.css
 ---
 <div id="landing">
   <div class="container">
@@ -12,9 +14,11 @@ suppress_header: true
 
         <div class="col-sm-12 col-md-12 text-left">
           <p class="text-center">
-            GitLab offers git repository management, code reviews, issue tracking, activity feeds, wikis.
-            It has LDAP/AD integration, handles 25,000 users on a single server but can also run on a highly available active/active cluster.
-            A subscription gives you access to our support team and to GitLab Enterprise Edition that contains extra features aimed at larger organizations.
+            <ul class="landing-feature-list">
+              <li>Git repository management, code reviews, issue tracking, activity feeds, wikis and continuous integration</li>
+              <li>25,000 users on one server or a highly available active/active cluster, LDAP/AD group sync and audit logging</li>
+              <li>Community driven, 700+ contributors, inspect and modify the source, easy to integrate into your infrastructure</li>
+            </ul>
           </p>
 
           <div class="landing-button">
