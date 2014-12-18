@@ -281,6 +281,12 @@ hr {
   background: #2F0D52;
   position: absolute;
   width: 100%;
+  border-radius: 0px;
+  min-height: 0;
+}
+
+.nav-pills>li>a {
+  font-weight: 600;
 }
 
 .compare {

@@ -32,19 +32,17 @@ extra_css:
     </div>
   </div>
 
-  <div class="qnav hidden-xs" id="qnav">
-    <div class="container">
+  <nav class="navbar navbar-default qnav hidden-xs" role="navigation" id="qnav">
+    <div class="container-fluid">
       <ul class="nav nav-pills nav-justified">
-        <li><a href="#enterprise" onClick="_gaq.push(['_trackEvent', 'Features', 'sticky nav', 'Enterprise Features']);">Enterprise Features</a></li>
-        <li><a href="https://about.gitlab.com/downloads/" onClick="_gaq.push(['_trackEvent', 'Features', 'sticky nav', 'Downloads']);">Downloads</a></li>
+        <li><a href="#community" onClick="_gaq.push(['_trackEvent', 'Features', 'sticky nav', 'Enterprise Features']);">Community Edition</a></li>
+        <li><a href="#enterprise" onClick="_gaq.push(['_trackEvent', 'Features', 'sticky nav', 'Enterprise Features']);">Enterprise Edition</a></li>
         <li><a href="#compare" onClick="_gaq.push(['_trackEvent', 'Features', 'sticky nav', 'Compare']);">Compare</a></li>
-        <li><a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/README.md" onClick="_gaq.push(['_trackEvent', 'Features', 'sticky nav', 'Source + Readme']);">Source + Readme</a></li>
-        <li><a href="https://about.gitlab.com/pricing/" onClick="_gaq.push(['_trackEvent', 'Features', 'sticky nav', 'Get a subscription']);"><b>Get a subscription</b></a></li>
       </ul>
     </div>
-  </div>
+  </nav>
 
-  <div class="container">
+  <div class="container" id="community">
     <div class="row feature-row">
       <div class="col-md-4 small-feature">
         <div class="name">
