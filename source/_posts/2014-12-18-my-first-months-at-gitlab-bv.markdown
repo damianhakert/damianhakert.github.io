@@ -55,8 +55,14 @@ this medium, like dogs showing up on camera (Job's and recently the little dog I
 porch of a house right before dawn while in Hawaii (we could even see the sunrise), or Sytse joining from a youth hostel
 while in California.
 
+<img src="/images/team/team_on_webcam.png" style="float: right; margin-left: 5px;">
+
 Despite the limitations of only meeting them through a webcam, every single member of the team has made me feel appreciated
 and welcomed and they have always helped me whenever I needed it.
+
+That is why I'm really looking forward to meeting them soon. We are going to spend a couple of months together working to
+improve the company and the GitLab project. This meeting is happening at the beginning of next year in San Francisco, where
+Haydn is located.
 
 
 ## The actual work
@@ -73,7 +79,7 @@ have the answer right away. I can always ask the incredible team I work with, an
 not knowing something.
 
 Before Haydn and I joined the team, a normal day of work would start with the Team Call, but since both of us are on the
-other side of the Atlantic, this meeting was moved towards the end of the for those in Europe, so the guys in the Americas
+other side of the Atlantic, this meeting was moved towards the end of the day for those in Europe, so the guys in the Americas
 could start the day with the Team Call. Here we discuss the most important topics of the day, like any outstanding issues,
 new features or comments from the community and our clients. This call is intended to inform everyone of what the
 others are doing and to ask questions to the whole team.
