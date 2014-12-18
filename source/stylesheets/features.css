@@ -27,12 +27,17 @@ hr {
 }
 
 .header-text {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
   color: #fff;
+  color: rgba(255,255,255,0.85);
   line-height: 24px;
   width: 600px;
   text-align: justify;
+}
+
+.header-text b {
+  color: #fff;
 }
 
 .head-bg {
@@ -162,7 +167,12 @@ hr {
 
 .wide-feature.head {
   background-color: #548;
-  padding: 150px 0px;
+  padding: 60px 0px;
+}
+
+.wide-feature.community {
+  background-color: #F1F1F1;
+  padding: 200px 0px;
 }
 
 .wide-feature.head .btn-default {
@@ -190,9 +200,9 @@ hr {
   display: inline;
 }
 
-.wide-feature.ee {
+.wide-feature.head.ee {
   background: #412A55;
-  height: 300px;
+  padding: 200px 0px;
 }
 
 .wide-feature .name {
@@ -200,6 +210,14 @@ hr {
   text-transform: uppercase;
   font-weight: 300;
   color: #fff;
+  font-size: 40px;
+}
+
+.wide-feature.community .name {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #333;
   font-size: 40px;
 }
 
@@ -214,6 +232,13 @@ hr {
   text-align: center;
   font-weight: 300;
   color: #fff;
+  font-size: 23px;
+}
+
+.wide-feature.community .description {
+  text-align: center;
+  font-weight: 300;
+  color: #333;
   font-size: 23px;
 }
 
