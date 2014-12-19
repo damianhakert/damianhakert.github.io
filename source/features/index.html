@@ -8,26 +8,9 @@ extra_css:
 ---
 
 <div class="wrapper">
-  <div class="wide-feature head">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-8">
-          <div class="title">GitLab <b>Features</b></div>
-          <div class="header-text">
-            GitLab is an incredibly powerful <b>open source</b> code collaboration platform, git repository manager, issue tracker and code reviewer. It integrates with issue trackers, continuous integration services and our Enterprise Edition has phenomenal LDAP and Active Directory support.
-            <b>To install, just unpack.</b>
-          </div>
-        </div>
-
-        <div class="col-md-4 head-bg hidden-sm hidden-xs">
-        </div>
-
-      </div>
-    </div>
-  </div>
 
   <nav class="navbar navbar-default qnav hidden-xs" role="navigation" id="qnav">
-    <div class="container-fluid">
+    <div class="container-fluid featurenav">
       <ul class="nav nav-pills nav-justified">
         <li><a href="#community" onClick="_gaq.push(['_trackEvent', 'Features', 'sticky nav', 'Community Edition']);">Community Edition</a></li>
         <li><a href="#enterprise" onClick="_gaq.push(['_trackEvent', 'Features', 'sticky nav', 'Enterprise Edition']);">Enterprise Edition</a></li>
@@ -36,19 +19,26 @@ extra_css:
     </div>
   </nav>
 
-  <div class="wide-feature community" id="community">
+  <div class="wide-feature head" id="community">
     <div class="container">
-      <div class="name">
-        gitlab <b>community edition</b>
-      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-8 head-non-bg">
+          <div class="title">GitLab <br> <b>Community edition</b></div>
+          <div class="header-text">
+            GitLab is an incredibly powerful <b>open source</b> code collaboration platform, git repository manager, issue tracker and code reviewer. It integrates with issue trackers, continuous integration services and our Enterprise Edition has phenomenal LDAP and Active Directory support.
+            <b>To install, just unpack.</b>
 
-      <div class="description">
-        Open source, self hosted git repository management.
-      </div>
+            <div class="actions">
+              <a href="/downloads" class="btn btn-default btn-lg" onClick="_gaq.push(['_trackEvent', 'Features', 'GitLab CE Header', 'Download']);">Download</a>
+              <a href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master" class="btn btn-default btn-lg" onClick="_gaq.push(['_trackEvent', 'Features', 'GitLab CE Header', 'Source + Readme']);">Source + Readme</a>
+            </div>
+          </div>
 
-      <div class="actions ee">
-        <a href="/downloads" class="btn btn-default btn-lg" onClick="_gaq.push(['_trackEvent', 'Features', 'GitLab CE Header', 'Download']);">Download</a>
-        <a href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master" class="btn btn-default btn-lg" onClick="_gaq.push(['_trackEvent', 'Features', 'GitLab CE Header', 'Source + Readme']);">Source + Readme</a>
+        </div>
+
+        <div class="col-md-4 head-bg hidden-sm hidden-xs">
+        </div>
+
       </div>
     </div>
   </div>
@@ -175,10 +165,13 @@ extra_css:
     </div>
   </div>
 
-  <div class="wide-feature community" id="compare">
+  <div class="wide-feature head community" id="compare">
     <div class="container">
       <div class="name">
-        <b>compare</b>
+        compare gitlab versions
+      </div>
+      <div class="actions ee">
+        <a href="/pricing" class="btn btn-default btn-lg" onClick="_gaq.push(['_trackEvent', 'Features', 'Compare', 'Pricing']);">Pricing</a>
       </div>
     </div>
   </div>

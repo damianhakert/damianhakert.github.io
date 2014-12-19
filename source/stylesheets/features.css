@@ -42,7 +42,11 @@ hr {
 
 .head-bg {
   background: url('/images/feature_page/lines.png') center right no-repeat;
-  min-height: 390px
+  min-height: 390px;
+}
+
+.head-non-bg {
+  min-height: 390px;
 }
 
 .header-text .actions {
@@ -167,12 +171,11 @@ hr {
 
 .wide-feature.head {
   background-color: #548;
-  padding: 60px 0px;
+  padding: 120px 0px;
 }
 
 .wide-feature.community {
-  background-color: #F1F1F1;
-  padding: 200px 0px;
+  background-color: #6652A3;
 }
 
 .wide-feature.head .btn-default {
@@ -201,12 +204,12 @@ hr {
 }
 
 .wide-feature.head.ee {
-  background: -moz-linear-gradient(top, rgba(85,68,136,1) 0%, rgba(47,13,82,1) 100%); /* FF3.6+ */
+  background: -moz-linear-gradient(top, rgba(102, 82, 163, 1) 19% , rgba(47,13,82,1) 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(85,68,136,1)), color-stop(100%,rgba(47,13,82,1))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, rgba(85,68,136,1) 0%,rgba(47,13,82,1) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, rgba(85,68,136,1) 0%,rgba(47,13,82,1) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, rgba(85,68,136,1) 0%,rgba(47,13,82,1) 100%); /* IE10+ */
-  background: linear-gradient(to bottom, rgba(85,68,136,1) 0%,rgba(47,13,82,1) 100%); /* W3C */
+  background: -webkit-linear-gradient(top, rgba(102, 82, 163, 1) 19% ,rgba(47,13,82,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(102, 82, 163, 1) 19% ,rgba(47,13,82,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(102, 82, 163, 1) 19% ,rgba(47,13,82,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(102, 82, 163, 1) 19% ,rgba(47,13,82,1) 100%); /* W3C */
   padding: 200px 0px;
 }
 
@@ -222,7 +225,7 @@ hr {
   text-align: center;
   text-transform: uppercase;
   font-weight: 300;
-  color: #333;
+  color: #fff;
   font-size: 40px;
 }
 
@@ -308,11 +311,20 @@ hr {
 }
 
 .qnav {
-  background: #2F0D52;
-  position: absolute;
+  background: #548;
+  position: fixed;
   width: 100%;
   border-radius: 0px;
   min-height: 0;
+  z-index: 100;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.qnav2 {
+  background: #6652A3;
 }
 
 .nav-pills>li>a {
@@ -421,4 +433,13 @@ table.table td {
 
 .nav-pills>li>a:hover {
   background: #548;
+}
+
+.featurenav {
+  width: 500px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  color: #fff;
+  background-color: #7860C2;
 }
