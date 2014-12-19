@@ -4,27 +4,30 @@ title: "GitLab 7.6 and GitLab CI 5.3 released with MAIN_CE_FEATURE and MAIN_EE_F
 date: 2014-12-22
 comments: true
 categories:
-author: Patricio Cano
+author: Patricio, Job
 ---
 
 GitLab is open source software to collaborate on code.
 Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
-The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
-In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
+
+GitLab Community Edition now supports multiple Omniauth providers for a single user,
+meaning you can link your accounts from Google, Twitter and others.
+
+In addition to the updates from Community Edition, GitLab Enterprise Edition has gained **Audit Events**, **Rebasing** before a merge request and **Kerberos support**.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
 
 <!--more-->
 
-## ***MAIN_CE_FEATURE***
+## Link your social accounts
 
 ***DESCRIPTION***
 
 [![screenshot](/images/7_6/feature.png)](/images/7_6/feature.png) ***7_6 is the version of GitLab being released***
 
 
-## ***NEW_CE_FEATURE***
+## Better Mobile UI
 
 ***DESCRIPTION***
 
@@ -41,13 +44,19 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-6-stable/CHANGELOG#L18).
 
-## ***MAIN_EE_FEATURE*** (EE only feature)
+## Rebase before Merge (EE only)
 
 ***DESCRIPTION***
 
 [![screenshot](/images/7_6/feature.png)](/images/7_6/feature.png) ***7_6 is the version of GitLab being released***
 
-## ***EE_FEATURE*** (EE only feature)
+## Audit events (EE only)
+
+***DESCRIPTION***
+
+[![screenshot](/images/7_6/feature.png)](/images/7_6/feature.png) ***7_6 is the version of GitLab being released***
+
+## Kerberos support (EE only)
 
 ***DESCRIPTION***
 
