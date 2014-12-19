@@ -27,17 +27,26 @@ hr {
 }
 
 .header-text {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
   color: #fff;
+  color: rgba(255,255,255,0.85);
   line-height: 24px;
   width: 600px;
   text-align: justify;
 }
 
+.header-text b {
+  color: #fff;
+}
+
 .head-bg {
   background: url('/images/feature_page/lines.png') center right no-repeat;
-  min-height: 390px
+  min-height: 390px;
+}
+
+.head-non-bg {
+  min-height: 390px;
 }
 
 .header-text .actions {
@@ -162,7 +171,11 @@ hr {
 
 .wide-feature.head {
   background-color: #548;
-  padding: 150px 0px;
+  padding: 120px 0px;
+}
+
+.wide-feature.community {
+  background-color: #6652A3;
 }
 
 .wide-feature.head .btn-default {
@@ -190,12 +203,25 @@ hr {
   display: inline;
 }
 
-.wide-feature.ee {
-  background: #412A55;
-  height: 300px;
+.wide-feature.head.ee {
+  background: -moz-linear-gradient(top, rgba(102, 82, 163, 1) 19% , rgba(47,13,82,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(85,68,136,1)), color-stop(100%,rgba(47,13,82,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(102, 82, 163, 1) 19% ,rgba(47,13,82,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(102, 82, 163, 1) 19% ,rgba(47,13,82,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(102, 82, 163, 1) 19% ,rgba(47,13,82,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(102, 82, 163, 1) 19% ,rgba(47,13,82,1) 100%); /* W3C */
+  padding: 200px 0px;
 }
 
 .wide-feature .name {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #fff;
+  font-size: 40px;
+}
+
+.wide-feature.community .name {
   text-align: center;
   text-transform: uppercase;
   font-weight: 300;
@@ -214,6 +240,13 @@ hr {
   text-align: center;
   font-weight: 300;
   color: #fff;
+  font-size: 23px;
+}
+
+.wide-feature.community .description {
+  text-align: center;
+  font-weight: 300;
+  color: #333;
   font-size: 23px;
 }
 
@@ -278,9 +311,24 @@ hr {
 }
 
 .qnav {
-  background: #2F0D52;
-  position: absolute;
+  background: #548;
+  position: fixed;
   width: 100%;
+  border-radius: 0px;
+  min-height: 0;
+  z-index: 100;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.qnav2 {
+  background: #6652A3;
+}
+
+.nav-pills>li>a {
+  font-weight: 600;
 }
 
 .compare {
@@ -385,4 +433,13 @@ table.table td {
 
 .nav-pills>li>a:hover {
   background: #548;
+}
+
+.featurenav {
+  width: 500px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  color: #fff;
+  background-color: #7860C2;
 }

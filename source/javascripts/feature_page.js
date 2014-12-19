@@ -8,10 +8,10 @@ $(document).ready(function() {
     $(window).scroll(function() {
       var scroll = nav.offset().top - $(window).scrollTop();
       if (scroll <= 50) {
-        nav.addClass("qfix");
+        nav.addClass("qnav2", 500);
       }
-      if ($(window).scrollTop() <= 690) {
-        nav.removeClass("qfix");
+      if ($(window).scrollTop() <= 500) {
+        nav.removeClass("qnav2");
       }
     });
   }
