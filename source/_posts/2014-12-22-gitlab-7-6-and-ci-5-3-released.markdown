@@ -4,7 +4,7 @@ title: "GitLab 7.6 and GitLab CI 5.3 released with MAIN_CE_FEATURE and MAIN_EE_F
 date: 2014-12-22
 comments: true
 categories:
-author: Patricio, Job
+author: Job van der Voort
 ---
 
 GitLab is open source software to collaborate on code.
@@ -22,45 +22,41 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 ## Link your social accounts
 
-***DESCRIPTION***
+GitLab now support multiple Omniauth providers for a single user. That means
+you can easily link your Google, Twitter and GitHub accounts and use them
+to log into your GitLab instance.
 
-[![screenshot](/images/7_6/feature.png)](/images/7_6/feature.png) ***7_6 is the version of GitLab being released***
-
+[![screenshot](/images/7_6/feature.png)](/images/7_6/omniauth.png)
 
 ## Better Mobile UI
 
-***DESCRIPTION***
+We improved GitLab for small screens, so it's easier to merge while
+on the road!
 
-[![screenshot](/images/7_6/feature.png)](/images/7_6/feature.png) ***7_6 is the version of GitLab being released***
-
-
-## NEW_CE_FEATURE
-
-***DESCRIPTION***
-
-[![screenshot](/images/7_6/feature.png)](/images/7_6/feature.png) **+7_6 is the version of GitLab being released***
-
-## NEW_SPONSORED_FEATURE
-
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-6-stable/CHANGELOG#L18).
+[![screenshot](/images/7_6/feature.png)](/images/7_6/small.png)
 
 ## Rebase before Merge (EE only)
 
-***DESCRIPTION***
+Do you want to rebase your branch before merging?
+GitLab can now do this for you!
 
-[![screenshot](/images/7_6/feature.png)](/images/7_6/feature.png) ***7_6 is the version of GitLab being released***
+Simply turn on the feature for the project that you want to use this for
+and check the box on merge.
 
-## Audit events (EE only)
+[![screenshot](/images/7_6/feature.png)](/images/7_6/rebase.png)
 
-***DESCRIPTION***
+## Audit log (EE only)
 
-[![screenshot](/images/7_6/feature.png)](/images/7_6/feature.png) ***7_6 is the version of GitLab being released***
+From 7.6 EE on, GitLab will automatically track member changes in the audit log for each project and group.
+
+[![screenshot](/images/7_6/feature.png)](/images/7_6/audit.png)
 
 ## Kerberos support (EE only)
 
-***DESCRIPTION***
+GitLab 7.6 introduces support for authentication with Kerberos, in addition
+to the various OAuth providers, LDAP and Active Directory authentication.
 
-[![screenshot](/images/7_6/feature.png)](/images/7_6/feature.png) ***7_6 is the version of GitLab being released***
+We hope this will help people introduce GitLab in all kinds of organisations.
 
 ## Other changes
 
