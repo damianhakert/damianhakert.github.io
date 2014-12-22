@@ -34,6 +34,10 @@ on the road!
 
 [![screenshot](/images/7_6/feature.png)](/images/7_6/small.png)
 
+## Fork to Group
+
+You can now fork a project to a group of your choosing.
+
 ## Rebase before Merge (EE only)
 
 Do you want to rebase your branch before merging?
@@ -89,5 +93,3 @@ For a complete overview please have a look at the [feature list of GitLab EE](ht
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing/).
 No time to upgrade GitLab yourself?
 A subscription also entitles to our upgrade and installation services.
-
-- - -
