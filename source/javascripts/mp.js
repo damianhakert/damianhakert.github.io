@@ -1,8 +1,11 @@
-// Track main navbar links
-mixpanel.track_links("#main-gl-nav a", "click nav link", {
+mixpanel.track_links("#order-plus", "Clicked Order Plus", {
   "referrer": document.referrer
 });
 
-mixpanel.track_links("#landing-cta a", "click landing page CTA link", {
+mixpanel.track_links("#order-standard", "Clicked Order Standard", {
+  "referrer": document.referrer
+});
+
+mixpanel.track_links("#order-basic", "Clicked Order Basic", {
   "referrer": document.referrer
 });
