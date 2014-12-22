@@ -5,11 +5,7 @@
 <script src="/javascripts/libs/jqBootstrapValidation.js"></script>
 <script src="/javascripts/libs/jquery.magnific-popup.min.js"></script>
 <script src="/javascripts/libs/bounce.js"></script>
-<script src="/javascripts/consultancy.js"></script>
-<script src="/javascripts/products.js"></script>
-<script src="/javascripts/downloads.js"></script>
-<script src="/javascripts/subscription.js"></script>
-<script src="/javascripts/feature_page.js"></script>
-<script src="/javascripts/community.js"></script>
-<script src="/javascripts/company.js"></script>
-<script src="/javascripts/services.js"></script>
+{% for js_name in page.extra_js %}
+  <script src="/javascripts/{{ js_name }}"></script>
+{% endfor %}
+<script src="/javascripts/mp.js"></script>
