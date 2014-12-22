@@ -73,6 +73,13 @@ extra_css:
       </div>
     </div>
 
+    <script type="text/javascript">
+      mixpanel.track(
+        "Read blog post",
+        { "Blog post": "{{ page.title }}" }
+      )
+    </script>
+
     {% include footer.html %}
 
     {% include scripts.html %}
