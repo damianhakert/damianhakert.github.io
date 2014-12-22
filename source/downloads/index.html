@@ -40,9 +40,7 @@ platforms:
   post_reconfigure: sudo lokkit -s http -s ssh # open up the firewall for HTTP and SSH requests
 - name: centos7
   long_name: CentOS 7 (and RedHat/Oracle/Scientific Linux)
-  download_command: |
-                    # NOTE: GitLab 7.6 for Centos 7 will be released later today
-                    curl -O https://downloads-packages.s3.amazonaws.com/centos-7.0.1406/gitlab-7.5.3_omnibus.5.2.1.ci-1.el7.x86_64.rpm
+  download_command: curl -O https://downloads-packages.s3.amazonaws.com/centos-7.0.1406/gitlab-7.6.0_omnibus.5.3.0.ci-1.el7.x86_64.rpm
   install_commands: |
                     sudo yum install openssh-server
                     sudo systemctl enable sshd
@@ -50,7 +48,7 @@ platforms:
                     sudo yum install postfix
                     sudo systemctl enable postfix
                     sudo systemctl start postfix
-                    sudo rpm -i gitlab-7.5.3_omnibus.5.2.1.ci-1.el7.x86_64.rpm
+                    sudo rpm -i gitlab-7.6.0_omnibus.5.3.0.ci-1.el7.x86_64.rpm
   post_reconfigure: |
                     sudo firewall-cmd --permanent --add-service=http # open up the firewall for HTTP and SSH requests
                     sudo systemctl reload firewalld
