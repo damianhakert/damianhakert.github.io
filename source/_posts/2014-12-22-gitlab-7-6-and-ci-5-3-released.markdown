@@ -38,6 +38,8 @@ on the road!
 
 You can now fork a project to a group of your choosing.
 
+[![screenshot](/images/7_6/feature.png)](/images/7_6/fork.png)
+
 ## Rebase before Merge (EE only)
 
 Do you want to rebase your branch before merging?
