@@ -42,6 +42,7 @@ You can now fork a project to a group of your choosing.
 
 Do you want to rebase your branch before merging?
 GitLab can now do this for you!
+This will ensure that you have a linear git history on master, making it easier to reason about it.
 
 Simply turn on the feature for the project that you want to use this for
 and check the box on merge.
@@ -58,8 +59,6 @@ From 7.6 EE on, GitLab will automatically track member changes in the audit log 
 
 GitLab 7.6 introduces support for authentication with Kerberos, in addition
 to the various OAuth providers, LDAP and Active Directory authentication.
-
-We hope this will help people introduce GitLab in all kinds of organisations.
 
 ## Other changes
 
