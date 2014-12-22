@@ -68,7 +68,7 @@ This release has more improvements, please check out [the Changelog](https://git
 
 ## Upgrade barometer
 
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
+This is a straightforward upgrade, coming from 7.5.
 
 - - -
 
