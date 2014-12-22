@@ -25,20 +25,20 @@ GitLab now support multiple Omniauth providers for a single user. That means
 you can easily link your Google, Twitter and GitHub accounts and use them
 to log into your GitLab instance.
 
-[![screenshot](/images/7_6/feature.png)](/images/7_6/omniauth.png)
+[![screenshot](/images/7_6/omniauth.png)](/images/7_6/omniauth.png)
 
 ## Better Mobile UI
 
 We improved GitLab for small screens, so it's easier to merge while
 on the road!
 
-[![screenshot](/images/7_6/feature.png)](/images/7_6/small.png)
+[![screenshot](/images/7_6/small.png)](/images/7_6/small.png)
 
 ## Fork to Group
 
 You can now fork a project to a group of your choosing.
 
-[![screenshot](/images/7_6/feature.png)](/images/7_6/fork.png)
+[![screenshot](/images/7_6/fork.png)](/images/7_6/fork.png)
 
 ## Rebase before Merge (EE only)
 
@@ -49,13 +49,13 @@ This will ensure that you have a linear git history on master, making it easier 
 Simply turn on the feature for the project that you want to use this for
 and check the box on merge.
 
-[![screenshot](/images/7_6/feature.png)](/images/7_6/rebase.png)
+[![screenshot](/images/7_6/rebase.png)](/images/7_6/rebase.png)
 
 ## Audit log (EE only)
 
 From 7.6 EE on, GitLab will automatically track member changes in the audit log for each project and group.
 
-[![screenshot](/images/7_6/feature.png)](/images/7_6/audit.png)
+[![screenshot](/images/7_6/audit.png)](/images/7_6/audit.png)
 
 ## Kerberos support (EE only)
 
