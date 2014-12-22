@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab 7.6 and GitLab CI 5.3 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 7.6 and GitLab CI 5.3 released with Audit log, Rebasing and more authentication options"
 date: 2014-12-22
 comments: true
 categories:
@@ -13,10 +13,9 @@ Today we announce the release of a new version of GitLab Community Edition (CE) 
 GitLab Community Edition now supports multiple Omniauth providers for a single user,
 meaning you can link your accounts from Google, Twitter and others.
 
-In addition to the updates from Community Edition, GitLab Enterprise Edition has gained **Audit Events**, **Rebasing** before a merge request and **Kerberos support**.
+In addition to the updates from Community Edition, GitLab Enterprise Edition has gained **Audit Log**, **Rebasing** before a merge request and **Kerberos support**.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Ben Bodenmiller. Ben sweats the small stuff, which adds much appreciated polish to GitLab. Thanks Ben!
 
 <!--more-->
 
