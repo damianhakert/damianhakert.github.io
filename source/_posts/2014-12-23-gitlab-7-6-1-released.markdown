@@ -14,6 +14,7 @@ If you've already upgraded to GitLab 7.6 without problems, there is no need
 to upgrade to 7.6.1 CE or 7.6.2 EE.
 
 If you've experienced a failed migration you can run this release to correct it.
+If it exists you will have to manually remove the `identities` database table before upgrading.
 
 <!-- more -->
 
