@@ -60,8 +60,9 @@ that included the new migration.
 
 ## Why it won't happen again
 
-So how did we miss such a simple mistake? GitLab has a pretty hefty test-suite that tests almost every line of code. On top of that, we do QA testing on every release.
+So how did we miss such a simple mistake? GitLab has a pretty hefty test-suite that tests almost every line of code. On top of that, we do [QA testing](http://doc.gitlab.com/ee/release/monthly.html#workdays-before-release---preparation) on every release.
 
 Turns out, we tested the migrations on an empty database: there were simply no duplicate indices to run into.
 
-For future releases, we make sure that upgrades are tested on a pre-seeded database, for both PostgreSQL and MySQL.
+For future releases, we make sure that upgrades are tested on a pre-seeded database, and recommend
+that migrations [do only one thing](https://gitlab.com/gitlab-org/gitlab-ce/commit/c5a1b808393d5b3769db0d65214df1645b69f6bf).
