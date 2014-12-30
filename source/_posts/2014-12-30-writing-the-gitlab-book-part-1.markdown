@@ -8,10 +8,9 @@ categories:
   - Guest post
 author: Jeroen van Baarsen
 ---
-# Introduction
 This is a series of blog articles about the process of me writing a book about
 GitLab. It will contain information about the process with the publisher, about
-the different state of minds I went true, and how it feels to actually finish
+the different state of minds I went through, and how it feels to actually finish
 this thing!
 
 # Part 1: The preparation
@@ -23,7 +22,7 @@ she realized I was serious she started to support me right away, and began to
 push to actually do this.
 
 After a week or so I decided to actually go ahead and start writing this book!
-In this blog post I want to explain the process I went true, and what help I got
+In this blog post I want to explain the process I went through, and what help I got
 from the publisher. From starting the chapter outline, to the day the book was
 released.
 
