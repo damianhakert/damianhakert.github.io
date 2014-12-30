@@ -58,7 +58,7 @@ We quickly released [a new GitLab version](https://about.gitlab.com/2014/12/23/g
 that included the new migration.
 
 
-## Why it won't happen again
+## Why we'll _probably_ not repeat this mistake
 
 So how did we miss such a simple mistake? GitLab has a pretty hefty test-suite that tests almost every line of code. On top of that, we do [QA testing](http://doc.gitlab.com/ee/release/monthly.html#workdays-before-release---preparation) on every release.
 
@@ -66,3 +66,5 @@ Turns out, we tested the migrations on an empty database: there were simply no d
 
 For future releases, we make sure that upgrades are tested on a pre-seeded database, and recommend
 that migrations [do only one thing](https://gitlab.com/gitlab-org/gitlab-ce/commit/c5a1b808393d5b3769db0d65214df1645b69f6bf).
+
+Simple mistake, simple fix. The trick is in trying to not repeat it.
