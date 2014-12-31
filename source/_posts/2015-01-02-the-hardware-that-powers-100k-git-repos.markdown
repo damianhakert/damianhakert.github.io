@@ -15,11 +15,18 @@ repositories.
 
 ## A single server
 
-Before, GitLab.com was hosted on Amazon's largest instance. But as the amount of users grew, so did our Amazon bill. On top of that, we were limited in options of vertical scaling and were CPU bound. We had to explore alternatives to AWS.
+Before, GitLab.com was hosted on Amazon's largest instance.
+But as the amount of users grew, so did our Amazon bill.
+On top of that, we were limited in options of vertical scaling and were CPU bound.
+We had to explore alternatives to AWS.
 
-A 100k repositories take up several terabytes, so storage capabilities are important. We want to be able to expand storage with ease. Furthermore, thousands of people pushing and pulling their code will put a strain on the CPU. Having many CPU cores available can make a big differences in times of high load.
+A 100k repositories take up several terabytes, so storage capabilities are important.
+We want to be able to expand storage with ease.
+Furthermore, thousands of people pushing and pulling their code will put a strain on the CPU.
+Having many CPU cores available can make a big differences in times of high load.
 
-It turns out that using our own servers was by far the cheapest option. As cheap Dutchmen (Sytse, Jacob, Job), this made the choice easy.
+It turns out that using our own servers was by far the cheapest option.
+As cheap Dutchmen (Sytse, Jacob, Job), this made the choice easy.
 
 And so,  we currently have two (one active) of these servers running GitLab.com:
 - server model: HP DL180 G6
@@ -31,12 +38,18 @@ We actually started with 16 cores, but replaced the CPUs to decrease CPU-bound l
 
 ## Falling and Failing over
 
-Moving away from Amazon meant that we no longer could use AWS' features. In case a server dies, we need to be able to failover.
+Moving away from Amazon meant that we no longer could use AWS' features.
+In case a server dies, we need to be able to failover.
 
-We used DRBD to create one primary and one slave server. One of the servers is active as application server at a time. If something goes wrong, we tell DRBD to promote the other server to primary.
+We used DRBD to create one primary and one slave server.
+One of the servers is active as application server at a time.
+If something goes wrong, we tell DRBD to promote the other server to primary.
 
 ## Scaling further
 
-GitLab.com runs well on its current hardware, but is growing ever faster. Expanding the current hardware would be expensive and parts are not easy to get by.
+GitLab.com runs well on its current hardware, but is growing ever faster.
+Expanding the current hardware would be expensive and parts are not easy to get by.
 
-In the future, GitLab.com will be hosted on Amazon AWS again. This will allow us to scale horizontally more easily. On top, Amazon recently introduced 10+TB instances, which will make migrating easy.
+In the future, GitLab.com will be hosted on Amazon AWS again.
+This will allow us to scale horizontally more easily.
+On top of this, Amazon recently introduced 10+TB instances, which will make migrating easy.
