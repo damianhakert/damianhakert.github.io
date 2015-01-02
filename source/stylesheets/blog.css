@@ -12,6 +12,14 @@
 
 article {
   margin-bottom: 160px;
+  background: white;
+  padding: 25px;
+  box-shadow: 0px 3px 3px #F0F0F0;
+}
+
+.image-title {
+  margin: -25px;
+  margin-bottom: 0px;
 }
 
 #blog {
@@ -82,7 +90,7 @@ article {
 .blog-entry h5 {
   color: #444;
   font-weight: 600;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .blog-entry h2 {
