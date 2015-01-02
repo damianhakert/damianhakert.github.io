@@ -11,7 +11,7 @@ image_title: '/images/stock/hardware.jpg'
 Want to host your public and private repositories somewhere for free?
 You can on GitLab.com, where we have been hosting a single instance of GitLab for a while now.
 Almost 20,000 people make active use of this to host their
-repositories. The 100,000+ repositories these people are served by a single server.
+repositories. The 100,000+ repositories that these people use are served by a single server.
 
 <!-- more -->
 
@@ -23,7 +23,7 @@ On top of that, we were limited in options of vertical scaling and were CPU boun
 We had to explore alternatives to AWS.
 
 100k repositories take up several terabytes, so storage capabilities are important.
-Since we use git, the storage needs to be a one disk volume filesystem,
+Since we use git, the storage needs to be a single filesystem,
 rather than object storage (such as S3).
 We want to be able to expand storage with ease.
 Furthermore, thousands of people pushing and pulling their code will put a strain on the CPU.
