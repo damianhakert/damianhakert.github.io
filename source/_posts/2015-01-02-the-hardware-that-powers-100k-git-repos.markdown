@@ -4,6 +4,8 @@ title: "The hardware that powers 100,000 git repositories"
 date: 2015-01-02
 comments: true
 author: Job van der Voort
+image_title: '/images/stock/hardware.jpg'
+
 ---
 
 Want to host your public and private repositories somewhere for free? You can on GitLab.com, where we have been hosting a single instance of GitLab for a while now. Almost 20,000 people make active use of this to host their
