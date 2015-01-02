@@ -2,7 +2,9 @@
   <header>
     {% if post.image_title != nil %}
       <div class="image-title" style="background: url({{ post.image_title }}); background-size: 100%;">
-        <h1><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
+        <div class="color-bg">
+          <h1><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
+        </div>
       </div>
 
       <h4 class="meta date">
