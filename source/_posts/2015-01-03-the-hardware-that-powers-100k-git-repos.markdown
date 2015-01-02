@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The hardware that powers 100,000 git repositories"
-date: 2015-01-02
+date: 2015-01-03
 comments: true
 author: Job van der Voort
 image_title: '/images/stock/hardware.jpg'
