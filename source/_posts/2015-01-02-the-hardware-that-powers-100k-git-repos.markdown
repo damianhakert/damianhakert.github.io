@@ -31,6 +31,7 @@ It turns out that using our own servers was by far the cheapest option.
 As cheap Dutchmen (Sytse, Jacob, Job), this made the choice easy.
 
 And so,  we currently have two (one active) of these servers running GitLab.com:
+
 - server model: HP DL180 G6
 - processors: 2x X5690 (24 cores in total)
 - 32GB RAM
