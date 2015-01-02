@@ -9,6 +9,7 @@
 -------------------------------------------------- */
 body {
   background: #fff;
+  background-color:#f9f9f9;
   position: relative;
   padding-top: 50px;
   font-family: "Open Sans", "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
@@ -898,7 +899,8 @@ h1.testimonial-head{
   text-align: center;
   background: #7863B6;
   color: white;
-  padding: 80px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .simple-header h1 {

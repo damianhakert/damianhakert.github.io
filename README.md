@@ -53,7 +53,6 @@ Create blank blog post based on title
 bundle exec rake new_post["Feature highlight: Groups"]
 ```
 
-
 # Deployment setup
 Set up a build server with a bare repository and the hook in `_support/hooks`.
 Install site and PDF build dependencies `sudo apt-get install texlive-latex-recommended ruby1.9.1-dev ruby1.9.1`
@@ -68,6 +67,16 @@ cabal install pandoc # takes a while
 ```
 
 Copy `_support/user/bash_profile` to `~deploy/.bash_profile` to make sure the build script picks up the pandoc executable.
+
+# In blog posts
+
+Use the following tag after the opening paragraph to make it an acceptable size for the index listing of all articles:
+
+    <!-- more -->
+
+Add the following to the top of a blog posts and it will format it as a full bleed image.
+
+    image_title: '/images/stock/hardware.jpg'
 
 # Other documentation
 
