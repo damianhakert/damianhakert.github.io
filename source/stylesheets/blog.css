@@ -33,12 +33,35 @@ article {
   padding-bottom: 4px;
 }
 
-.blog-entry h1.title {
+.image-title .color-bg {
+  text-align: center;
+  height: 500px;
+  background: rgba(57, 38, 113, 0.49);
+  background: linear-gradient(-225deg, rgba(100, 53, 132, 0.8) 0%, rgba(72, 135, 197, 0.92) 100%);
+}
+
+.image-title .color-bg h1 {
+  position: relative;
+  padding: 200px 40px;
+  margin-top: 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 55px;
+}
+
+
+.blog-entry .image-title h1 a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.blog-entry h1.image-title {
   font-size: 30px;
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
-  color: #444;
+  color: #fff;
   font-weight: 600;
-  line-height: 55px;
+  line-height: 40px;
 }
 
 .blog-entry h1 a {
@@ -101,7 +124,7 @@ article {
   font-weight: 300;
   font-size: 16px;
   margin-left: 4px;
-  margin-top: 0px;
+  margin-top: 10px;
   padding-bottom: 10px;
 }
 

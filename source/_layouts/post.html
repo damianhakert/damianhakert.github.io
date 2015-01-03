@@ -6,14 +6,26 @@ extra_css:
 {% include default_head.html %}
 
     <div id="content blog">
+      {% if page.image_title != nil %}
+        <div class="image-title" style="background: url({{ page.image_title }}); background-size: 100%; background-attachment: fixed;">
+          <div class="color-bg">
+            <h1>{{ page.title }}</h1>
+          </div>
+        </div>
+      {% endif %}
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
               <div class="row">
                 <div class="col-sm-12 blog-entry">
-                  <h1 class="title">{{ page.title }}</h1>
-                  <h4 class="date">{% include post/date.html %}{{ time }}</h4>
-                  <hr class="blog-title-divider">
+                  {% if page.image_title == nil %}
+                    <h1 class="title">{{ page.title }}</h1>
+                    <h4 class="date">{% include post/date.html %}{{ time }}</h4>
+                    <hr class="blog-title-divider">
+                  {% else %}
+                    <h4 class="date">{% include post/date.html %}{{ time }}</h4>
+                  {% endif %}
+
                   {{ content }}
 
                   <div class="panel panel-default">
