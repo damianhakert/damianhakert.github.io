@@ -335,6 +335,7 @@ padding-bottom: 30px;
 	padding: 30px 0 20px 0;
   background: #F8F8F8;
   color: #548;
+  margin: 20px -20px;
 }
 
 .icon_wrapper {
@@ -516,12 +517,12 @@ h3.title {
 }
 /* Blog
 -------------------------------------------------- */
-.entry {
+/*.entry {
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin: 0 0 30px;
     padding: 10px;
-}
+}*/
 
 article {
   margin-bottom: 160px;
@@ -759,9 +760,8 @@ h2.terms {
   #landingSlide,
   #header,
   #content {
-    margin-left: -20px;
-    margin-right: -20px;
-	padding: 30px 20px;
+    margin: 20px -20px;
+	  padding: 30px 20px;
   }
   .product-plan .feature .pull-right {
 	float: none;
@@ -900,7 +900,6 @@ h1.testimonial-head{
   background: #7863B6;
   color: white;
   padding: 20px;
-  margin-bottom: 20px;
 }
 
 .simple-header h1 {
