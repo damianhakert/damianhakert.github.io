@@ -17,7 +17,7 @@
 }
 
 article {
-  margin-bottom: 160px;
+  margin-bottom: 60px;
   background: white;
   padding: 25px;
   box-shadow: 0px 3px 3px #F0F0F0;
@@ -63,7 +63,6 @@ article {
   font-size: 55px;
 }
 
-
 .blog-entry .image-title h1 a {
   color: #fff;
   font-weight: 600;
@@ -102,7 +101,6 @@ article {
 .blog-entry h2 {
   font-size: 25px;
 }
-
 
 .blog-entry p {
   font-family: 'Noto Serif', serif;
@@ -189,4 +187,25 @@ article {
 
 .blog-index.blog-entry {
   margin-top: 80px;
+}
+
+ul.post-list {
+  font-size: 16px;
+  list-style: none;
+  margin: 0 0 20px 0;
+  padding: 0 20px;
+  clear: both;
+}
+ul.post-list > li {
+  border-bottom: 1px solid #ddd;
+  margin: 0 0 5px 0;
+  padding: 0 0 5px 0;
+}
+ul.post-list > li > time {
+  color: #999;
+  display: inline-block;
+  float: right;
+  font-family: Menlo, Monaco, 'Bitstream Vera Sans Mono', 'Courier New', monospace;
+  font-size: 12px;
+  white-space: nowrap;
 }
