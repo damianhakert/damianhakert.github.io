@@ -200,6 +200,7 @@ ul.post-list > li {
   border-bottom: 1px solid #ddd;
   margin: 0 0 5px 0;
   padding: 0 0 5px 0;
+  overflow: hidden;
 }
 ul.post-list > li > time {
   color: #999;
