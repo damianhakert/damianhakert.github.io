@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "Writing the GitLab book part 1"
-date: 2014-01-05 11:27:58 +0100
+date: 2015-01-05 11:27:58 +0100
 comments: true
 categories: 
   - Book
   - Guest post
 author: Jeroen van Baarsen
+image_title: '/images/stock/writing.jpg'
 ---
 This is a series of blog articles about the process of me writing a book about
 GitLab. It will contain information about the process with the publisher, about
@@ -14,9 +15,10 @@ the different state of minds I went through, and how it feels to actually finish
 this thing!
 
 ## Part 1: The preparation
-When I received an email from Vinay - an editor for PacktPub.com - with the
-question if I wanted to write a book about GitLab, I really thought he was
-crazy. I'm a developer, not a writer! Even though I believed the idea was nuts,
+When I received an email from Vinay - an editor for
+[PacktPub.com](http://www.packtpub.com) - with the question if I wanted to write 
+a book about GitLab, I really thought he was crazy. I'm a developer, not a writer! 
+Even though I believed the idea was nuts,
 I presented it to my girlfriend, at first she thought I was kidding, but after
 she realized I was serious she started to support me right away, and began to
 push to actually do this.
@@ -60,7 +62,7 @@ ever have legal documents to sign remotely, this is a great service to do so! I
 recommend it!
 
 In the next part I'll cover the preparations for the actual writing, and the
-writing itself. 
+writing itself.
 
 [Go ahead and buy the
 book!](https://www.packtpub.com/application-development/gitlab-cookbook)
