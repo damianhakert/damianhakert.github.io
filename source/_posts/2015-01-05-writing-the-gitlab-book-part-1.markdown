@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Writing the GitLab book part 1"
+title: "Writing the GitLab book: part 1"
 date: 2015-01-05 11:27:58 +0100
 comments: true
-categories: 
+categories:
   - Book
   - Guest post
 author: Jeroen van Baarsen
@@ -16,8 +16,8 @@ this thing!
 
 ## Part 1: The preparation
 When I received an email from Vinay - an editor for
-[PacktPub.com](http://www.packtpub.com) - with the question if I wanted to write 
-a book about GitLab, I really thought he was crazy. I'm a developer, not a writer! 
+[PacktPub.com](http://www.packtpub.com) - with the question if I wanted to write
+a book about GitLab, I really thought he was crazy. I'm a developer, not a writer!
 Even though I believed the idea was nuts,
 I presented it to my girlfriend, at first she thought I was kidding, but after
 she realized I was serious she started to support me right away, and began to
