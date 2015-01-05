@@ -29,3 +29,7 @@
 .vacancies .listed-vacancies a {
   font-size: 18px;
 }
+
+#content {
+  margin-bottom: -75px;
+}
