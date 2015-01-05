@@ -14,6 +14,8 @@ GitLab. It will contain information about the process with the publisher, about
 the different state of minds I went through, and how it feels to actually finish
 this thing!
 
+<!-- more -->
+
 ## Part 1: The preparation
 When I received an email from Vinay - an editor for
 [PacktPub.com](http://www.packtpub.com) - with the question if I wanted to write
