@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Writing the GitLab book part 1"
-date: 2014-12-30 11:27:58 +0100
+date: 2014-01-05 11:27:58 +0100
 comments: true
 categories: 
   - Book
