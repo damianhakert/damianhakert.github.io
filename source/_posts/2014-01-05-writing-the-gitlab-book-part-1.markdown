@@ -13,7 +13,7 @@ GitLab. It will contain information about the process with the publisher, about
 the different state of minds I went through, and how it feels to actually finish
 this thing!
 
-# Part 1: The preparation
+## Part 1: The preparation
 When I received an email from Vinay - an editor for PacktPub.com - with the
 question if I wanted to write a book about GitLab, I really thought he was
 crazy. I'm a developer, not a writer! Even though I believed the idea was nuts,
