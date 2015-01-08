@@ -17,9 +17,9 @@ These updated packages contain a fix for a problem that affected limited amount 
 The problem was caused by a wrongly linked Kerberos library which caused issues on GitLab installations with Kerberos authentication enabled.
 
 
-If you recently updated your Omnibus GitLab installation to 7.6.2 CE or 7.6.3 EE and encountered issues with Kerberos library, package will only update the library. Upgrade instructions for omnibus-gitlab packages can be found in [the omnibus-gitlab repository](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update.md).
+If you recently updated your Omnibus GitLab installation to 7.6.2 CE or 7.6.3 EE and encountered issues with Kerberos library, this package will only update the library. Upgrade instructions for omnibus-gitlab packages can be found in [the omnibus-gitlab repository](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update.md).
 
-If you haven't experienced any issues there is no need to update the packages.
+If you haven't experienced any issues or are not using Kerberos authentication there is no need to update the packages.
 
-This problem is not affecting manual installations.
+This problem is not affecting installations from source.
 
