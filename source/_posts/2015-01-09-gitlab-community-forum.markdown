@@ -22,7 +22,7 @@ ask and discuss everything related to GitLab!
 <!-- more -->
 
 The forum is run by community members whereas the hosting is gracefully donated
-by GitLab B.V.. Remember that this is _not_ the place to expect any proffesional
+by GitLab B.V.. Remember that this is _not_ the place to expect any professional
 help by GitLab developers, but to interact with the rest of the community.
 
 ## The platform
