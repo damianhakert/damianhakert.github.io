@@ -27,7 +27,7 @@ help by GitLab developers, but to interact with the rest of the community.
 
 ## The platform
 
-The platform the forum is built, is the well known open source project
+The platform that the forum is built, is the well known open source project
 [Discourse][], a Rails + Emberjs application. It is a powerful app that is
 used by many other communities, like Docker, Twitter, NewRelic and Mozilla.
 
