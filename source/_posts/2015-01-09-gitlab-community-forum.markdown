@@ -88,7 +88,7 @@ Happy posting!
 [stackoverflow]: http://stackoverflow.com/questions/tagged/gitlab "GitLab on stackoverflow"
 [irc]: http://webchat.freenode.net/?channels=gitlab "GitLab on freenode"
 [GitHub]: https://github.com/gitlabhq/gitlab-public-wiki/wiki/Trouble-Shooting-Guide "Deprecated Troubleshooting guide on GitHub"
-[discoursetr]: https://forum.gitlab.com/t/troubleshooting-public-wiki/31 "Troubleshooting Guide Wiki"
+[discoursetr]: https://forum.gitlab.com/t/troubleshooting-guide-wiki/31 "Troubleshooting Guide Wiki"
 [Mac OSX]: https://github.com/WebEntity/Installation-guide-for-GitLab-on-OS-X
 [FreeBSD]: https://github.com/chadliu23/Installation-guide-for-GitLab6-on-Freebsd
 [Windows]: https://forum.gitlab.com/t/how-to-install-gitlab-on-windows/32
