@@ -6,7 +6,7 @@ comments: true
 categories:
   - community
 author: Achilleas Pipinellis
-image_title: '/images/stock/community.jpg'
+image_title: '/images/forum/community.png'
 ---
 
 GitLab is growing fast. Day by day, more and more developers and users interact
@@ -31,8 +31,8 @@ The platform that the forum is built, is the well known open source project
 [Discourse][], a Rails + Emberjs application. It is a powerful app that is
 used by many other communities, like Docker, Twitter, NewRelic and Mozilla.
 
-You can sign up with a new account or use Mozilla persona to sign in. If there
-is need to add another provider, please leave a reply to this post.
+For the moment, you can sign up with a new account or use Mozilla persona to
+sign in.
 
 ### Features
 
@@ -79,6 +79,8 @@ where we bond as community.
 
 Happy posting!
 
+*Creative Commons image by [pixabay.com][img].*
+
 [communicate]: https://about.gitlab.com/getting-help/ "Getting help"
 [forum]: https://forum.gitlab.com "GitLab Community Forum"
 [Discourse]: https://www.discourse.org "Discourse home page"
@@ -94,3 +96,4 @@ Happy posting!
 [Windows]: https://forum.gitlab.com/t/how-to-install-gitlab-on-windows/32
 [armcat]: https://forum.gitlab.com/c/arm-devices "ARM devices category"
 [HowTo]: https://forum.gitlab.com/c/howto "HowTo category"
+[img]: http://pixabay.com/en/circle-hands-teamwork-community-312343/
