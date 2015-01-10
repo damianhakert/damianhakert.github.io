@@ -92,7 +92,7 @@ and let the forum be the place where we bond as community.
 
 Happy posting!
 
-*Creative Commons image by [pixabay.com][img].*
+<sub>*Creative Commons image by [pixabay.com][img].*</sub>
 
 [communicate]: https://about.gitlab.com/getting-help/ "Getting help"
 [forum]: https://forum.gitlab.com "GitLab Community Forum"
