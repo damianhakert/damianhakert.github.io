@@ -9,9 +9,9 @@ author: Achilleas Pipinellis
 image_title: '/images/forum/community.png'
 ---
 
-GitLab is growing fast. Day by day, more and more developers and users interact
-with it. Over the past two years, the community around GitLab has thrived and
-new contributors appear every day.
+GitLab is growing fast. Day by day, more and more people interact with it.
+Over the past two years, the community around GitLab has thrived and new
+contributors appear every day.
 
 Although there are a lot of ways to [communicate][] with each other, we lack a
 central place to discuss, without relying on third party applications.
@@ -27,7 +27,7 @@ help by GitLab developers, but to interact with the rest of the community.
 
 ## The platform
 
-The platform that the forum is built, is the well known open source project
+The platform that the forum is built on, is the well known open source project
 [Discourse][], a Rails + Emberjs application. It is a powerful app that is
 used by many other communities, like Docker, Twitter, NewRelic and Mozilla.
 
@@ -37,9 +37,9 @@ sign in.
 ### Features
 
 Discourse has this nice feature to use topics as wikis. As such, we migrated
-the troubleshooting public wiki from [GitHub][] to [this topic][discoursetr]
+the troubleshooting public wiki from [GitHub][] to [this topic][discoursetr].
 Any registered member can edit it and add new troubleshooting tips. Having this
-guide in the forum, gives us the power to leave replies under that topic and
+guide in the forum gives us the power to leave replies under that topic and
 discuss possible additions/deletions.
 
 The search function is also very powerful. Μake sure to use it any time you
@@ -52,7 +52,7 @@ there is a reference in the Troubleshooting wiki.
 ## Forum structure
 
 For better organization, we have added some [categories][] which you can choose
-from, when starting a topic. If you feel your post falls under a category that
+from when starting a topic. If you feel your post falls under a category that
 doesn't exist yet, you can report it [here][catreport].
 
 When posting, you can use either bbcode or the well known markdown to format
@@ -62,20 +62,33 @@ If you wrote a blog post about GitLab or found out an interesting tutorial that
 helped you and you think it might help others, do share it in the [HowTo][]
 category. Did you know that you can install GitLab on [Mac OSX][] or [FreeBSD][]
 or even [Windows][]?
+The HowTo section can also include little tips, like how to give admin access
+to a person via the Rails console.
 
-Little howtos, like how to give admin access to a person via the Rails console,
-can go to the FAQ section.
+The [Use Cases][] category sums up success stories of versatile setups.
+It is always interesting to read how GitLab is deployed and used in enterprise
+environments.
 
-If you have made a fan art about GitLab, share it in the Fan art category.
+Manually updating, deploying or even building GitLab can be a tedious task. For
+those who are passionate about configuration management setups,we have created
+the [Configuration Management][] section.
+
+If you just began learning Ruby on Rails or any other technologies that come
+with GitLab and want to get your hands dirty, head over the [Development][]
+section and open a topic. A good start is to search through the
+[feature request tracker][features], find something you would like to
+implement and work on that. The GitLab community has some prominent and
+experienced developers that can help you get started.
+
+If you have made a fan art about GitLab, share it in the [Fan art][] category.
 
 We also have an [ARM devices][armcat] category for any relevant information
 about GitLab running on small devices.
 
 ---
 
-At this time of writing, there isn't much content, so we expect you to start
-contributing to the discussions! Spread the word and let the forum be the place
-where we bond as community.
+We are hoping for many contributions in this early stage, so spread the word
+and let the forum be the place where we bond as community.
 
 Happy posting!
 
@@ -97,3 +110,8 @@ Happy posting!
 [armcat]: https://forum.gitlab.com/c/arm-devices "ARM devices category"
 [HowTo]: https://forum.gitlab.com/c/howto "HowTo category"
 [img]: http://pixabay.com/en/circle-hands-teamwork-community-312343/
+[features]: http://feedback.gitlab.com/forums/176466-general "Feature requests"
+[Use Cases]: https://forum.gitlab.com/c/use-cases "Use Cases category"
+[Configuration Management]: https://forum.gitlab.com/c/configuration-management "Configuration Management category"
+[Development]: https://forum.gitlab.com/c/development "Development category"
+[Fan art]: https://forum.gitlab.com/c/fan-art "Fan Art category"
