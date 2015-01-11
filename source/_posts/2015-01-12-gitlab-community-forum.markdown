@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitLab Community Forum"
-date: 2015-01-09 01:24:42 +0200
+date: 2015-01-12 01:24:42 +0200
 comments: true
 categories:
   - community
@@ -13,8 +13,8 @@ GitLab is growing fast. Day by day, more and more people interact with it.
 Over the past two years, the community around GitLab has thrived and new
 contributors appear every day.
 
-Although there are a lot of ways to [communicate][] with each other, we lack a
-central place to discuss, without relying on third party applications.
+Although there are a lot of ways to [communicate][help] with each other, we
+lack a central place to discuss, without relying on third party applications.
 
 Today we present you the [GitLab Community Forum][forum]. A new home to share,
 ask and discuss everything related to GitLab!
@@ -23,7 +23,7 @@ ask and discuss everything related to GitLab!
 
 The forum is run by community members whereas the hosting is gracefully donated
 by GitLab B.V.. Remember that this is _not_ the place to expect any professional
-help by GitLab developers, but to interact with the rest of the community.
+[help][] by GitLab developers, but to interact with the rest of the community.
 
 ## The platform
 
@@ -32,7 +32,7 @@ The platform that the forum is built on, is the well known open source project
 used by many other communities, like Docker, Twitter, NewRelic and Mozilla.
 
 For the moment, you can sign up with a new account or use Mozilla persona to
-sign in.
+sign in. In the future more oauth providers will be supported.
 
 ### Features
 
@@ -94,7 +94,6 @@ Happy posting!
 
 <sub>*Creative Commons image by [pixabay.com][img].*</sub>
 
-[communicate]: https://about.gitlab.com/getting-help/ "Getting help"
 [forum]: https://forum.gitlab.com "GitLab Community Forum"
 [Discourse]: https://www.discourse.org "Discourse home page"
 [categories]: https://forum.gitlab.com/categories "GitLab forum categories"
@@ -115,3 +114,4 @@ Happy posting!
 [Configuration Management]: https://forum.gitlab.com/c/configuration-management "Configuration Management category"
 [Development]: https://forum.gitlab.com/c/development "Development category"
 [Fan art]: https://forum.gitlab.com/c/fan-art "Fan Art category"
+[help]: /getting-help "Getting help for GitLab"
