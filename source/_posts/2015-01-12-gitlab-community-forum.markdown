@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitLab Community Forum"
-date: 2015-01-12 01:24:42 +0200
+date: 2015-01-12
 comments: true
 categories:
   - community
