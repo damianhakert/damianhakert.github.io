@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to turn screw-ups to your advantage"
-date: 2015-01-09 20:28:55 +0100
+date: 2015-01-12 20:28:55 +0100
 comments: true
 categories: 
 author: Marc Radulescu
@@ -20,10 +20,8 @@ In the end, I'll mention the process we've followed to address our mistakes.
 ##The brownout
 
 GitLab.com is our free SaaS service.
-It's purpose is to provide potential GitLab CE and EE users with a free sandbox environment to try out GitLab.
-Since GitLab.com is free, we do not commit either to a certain downtime threshold, nor to a clean-running GitLab version. 
-owever, we do strive to keep our community happy, and GitLab.com plays a big (if not the biggest) role in that.
-At close to 20k monthly active users, GitLab.com warrants it's own [twitter status account](https://twitter.com/gitlabstatus) and our full attention for keeping it running with minimal issues.
+At close to 20k monthly active users, GitLab.com is used by many of our users for production.
+We always notify the comunity of downtimes on its [twitter account](https://twitter.com/gitlabstatus) and offer [paid email support](https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20) for it.
 
 For years now, we'd been happy to report minimal unplanned downtime on GitLab.com, with planned downtime seldom exceeding one hour.
 On the 31st of July 2014 though, GitLab.com went offline for a full 8 hours, affecting the workflow of a serious number of users.
