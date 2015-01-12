@@ -31,8 +31,9 @@ The platform that the forum is built on, is the well known open source project
 [Discourse][], a Rails + Emberjs application. It is a powerful app that is
 used by many other communities, like Docker, Twitter, NewRelic and Mozilla.
 
-For the moment, you can sign up with a new account or use Mozilla persona to
-sign in. In the future more oauth providers will be supported.
+For the moment, you can sign up with a new account or use
+[Mozilla persona][persona] to sign in. In the future more OAuth providers will
+be supported, including gitlab.com which comes in GitLab 7.7.
 
 ### Features
 
@@ -115,3 +116,4 @@ Happy posting!
 [Development]: https://forum.gitlab.com/c/development "Development category"
 [Fan art]: https://forum.gitlab.com/c/fan-art "Fan Art category"
 [help]: /getting-help "Getting help for GitLab"
+[persona]: https://login.persona.org/about "Mozilla persona"
