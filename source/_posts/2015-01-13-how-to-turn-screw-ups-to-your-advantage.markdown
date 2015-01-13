@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to turn screw-ups to your advantage"
-date: 2015-01-12 20:28:55 +0100
+date: 2015-01-13 20:28:55 +0100
 comments: true
 categories: 
 author: Marc Radulescu
@@ -10,12 +10,12 @@ author: Marc Radulescu
 We at GitLab believe in providing a good service to all our users, be they customers, or non-paying users.
 In our attempt to support our users, we sometimes make mistakes.
 
-<!-- more -->
-
 In this post, I'll be discussing two instances where we at GitLab dropped the ball.
 I'll go through what went wrong and what we did to address our relationship with the affected party.
 Then I'll indicate how that affected our standing with that party.
 In the end, I'll mention the process we've followed to address our mistakes.
+
+<!-- more -->
 
 ##The brownout
 
@@ -30,7 +30,7 @@ The failure happened in the night between Sunday and Monday in Dutch time, so we
 Neither the cause nor the solution were evident though.
 So despite fervent investigative work, we found ourselves 30 minutes into the call (and 6 hours into the downtime) none the wiser about what had happened.
 
-What we decided to do was to openly admit that we did not know why GitLab.com was down, but to be transparent about our actions to figure it out.
+We decided to openly admit that we did not know why GitLab.com was down, but to be transparent about our actions to figure out what went wrong.
 GitLab's CEO, Sytse Sijbrandij, decided to make a [public postmortem](https://docs.google.com/a/gitlab.com/document/d/1ScqXAdb6BjhsDzCo3qdPYbt1uULzgZqPO8zHeHHarS0/edit#heading=h.p95p4f6o0twk) which we've posted on [Hacker News](https://news.ycombinator.com/item?id=8003601).
 Quite the number of anonymous users joined our public google doc to get a live feed of our exploration of GitLab, with some even giving feedback on possible actions.
 
@@ -69,4 +69,4 @@ In both cases we followed the same course of action:
  - inform the customer / user about the process improvements.
 
 What the above does not highlight though, is one other point we're abiding to: being disciplined about our process.
-We wouldn't want to go through all the trouble of finding a process issue and addressing it, if at any point we fail in abiding by it.
+After failure, make sure to review the faulty process and revise it. Iterate.
