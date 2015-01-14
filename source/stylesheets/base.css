@@ -231,7 +231,7 @@ hr.thick {
 #landing {
     padding: 30px 0;
     background: #548;
-    height: 450px;
+    min-height: 450px;
     overflow: hidden;
 }
 
@@ -758,7 +758,9 @@ h2.terms {
 	-o-animation-name: none;
 	animation-name: none;
   }
-  #landing,
+  #landing {
+    margin: 0;
+  }
   #landingSlide,
   #header,
   #content {
