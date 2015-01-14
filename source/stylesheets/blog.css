@@ -23,11 +23,6 @@ article {
   box-shadow: 0px 3px 3px #F0F0F0;
 }
 
-.image-title {
-  margin: -25px;
-  margin-bottom: 0px;
-}
-
 #blog {
   background: white;
 }
@@ -200,6 +195,7 @@ ul.post-list > li {
   border-bottom: 1px solid #ddd;
   margin: 0 0 5px 0;
   padding: 0 0 5px 0;
+  overflow: hidden;
 }
 ul.post-list > li > time {
   color: #999;
