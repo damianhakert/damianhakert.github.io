@@ -1,102 +1,105 @@
 ---
 layout: post
 title: "Pragmatic redesign for GitLab"
-date: 2015-01-09 14:39:32 -0800
+date: 2015-01-16 -0800
 comments: true
 categories:
-author: Dmitriy Zaporozhets
+author: Dmitriy, Job
 ---
 
-We (GitLab) have some big UI changes coming with the release of GitLab 7.7, on January 22nd.
+We have some big UI changes coming with the release of GitLab 7.7, on January 22nd.
 In this post, we'll show you _why_ we're changing the user interface, _how_ we did it and _what_ we ended up with.
 
 <!-- more -->
 
+## Redesign to Solve Problems
 
-## Redesign should solve problems
+Changes to the interface are always stressful. So you shouldn't even start to redesign without a list of issues you intent to solve. This way, your users get compensated for the changes with improved usability.
 
-As soon as you dont have a list of problems you are going to solve with redesign - you should not do it!
-Changes are always stressful. So it should be some compensation for your users in the form of improving usability.
+There are several problems with the current UI of GitLab and it was hard to fix them without making big changes.
+This is the list of issues we started with:
 
-We have several problems with current UI layout and it was hard to fix them without big changes.
-So we started from next list:
+- Limited space in project navigation. We can't fit all items with counters
+- Two stacked levels of navigation is expensive in screen real estate
+- All navigation is on top. It's annoying to have to scroll up to navigate
+- No space for icons. We love icons!
+- Settings pages add a third level of navigation, which is too complex.
 
-* Limited space in project navigation. We cant fit all project tabs with counters :(
-* For wide screens vertical space is more valuable so 2 levels of navigation is too much.
-* All navigation is on top - you need to scroll from bottom a lot.  
-* It was annoying to have 24" display but cant browse side-by-side in full size.
-* We really missed icons in navigation.
-* Another (3rd) level of navigation when browse project settings.
-
-__old version__
+__What it looked like:__
 
 ![old screenshot](/images/redesign/old.png)
 
 
-## The way to make it
+## Prototype
 
-The goal was to change less but improve more. We started with existing UI instead of blank page.
-My tool was web inspector in browser, not photoshop. I changed position of controls, elements, content.
-I tried different changes, made a screenshot, press F5 and started again from old UI.
-It reminds me of playing old school computer games when if you die you start from first level.
+We set a simple goal: Maximize improvements with minimal changes. To do this, we started with the existing UI, rather than a blank page.
 
-After a day I have a lot of screenshots with different UI layout and ideas.
-Next day I deleted most of them.
-I returned to the rest of screnshots after few days and choose a winner.
+Instead of Photoshop, we turned to the web inspector in the browser to prototype. Make some changes, screenshot, repeat. Dmitriy noted: "This reminds of playing old-school video games, where you have to start over with every death."
 
+After a day of prototyping, we piled up quite some screenshots. We immediately threw away a large part and let the rest sink in.
 
-__first concept__
+A few days later, the winner was obvious.
+
+__The winning prototype__
 
 ![concept screenshot](/images/redesign/winner.png)
 
 
-## Ask users
+## Get Feedback
 
-Changing UI is always uncomforable for end users. It requires time to adopt to new changes.
-Usually people will be mad about your redesign at first even if changes are really good.
-Thats why big companies usually give an option to try new design before switching everyone to it.
+Changing the UI is uncomfortable for the end-users.
+You need time to adapt to the changes.
 
-__So we started with tweet:__
+For this reason, people often get upset about a redesign.
+Even if your redesign is much better.
+
+We wanted to brace our community and ourselves for this,
+so we started with a tweet
 
 ![tweet with screenshot](/images/redesign/tweet.png)
 
-It gaves us good advices in replies and also confirmed right direction of redesign.
+We got lots of great advice and most people seemed to like our idea.
+The next steps were clear.
 
+We implemented, improved and polished the design.
+As we build with and on our community, we couldn't wait to share it.
+We set up a staging server with the new changes.
+This way, everyone could try the redesign even before it landed in master.
 
-Next step was improving and polishing. After certain point we have first version ready.
-We made a staging server with new changes and shared it with community.
-Everyone could try new changes even before we merged it to master.
+Working with an open source product allows us to work with our (awesome) community.
+Contributors started submitting merge requests with improvements to our redesign.
+This was a great sign.
 
-As and open source product we get advantages of such strategy
-in the form of merge requests from contributors with improvements to our new design.  
-That was good sign.  
-
-
-## Check of concept
+## Evaluate
 
 At start of this post we described problems we want to solve with redesign.
 And during work its important to remember the goal.
 So we just listed each problem was solved by new layout:
 
-* Limited space in project navigation we fixed with moving navigation to the left where we have plenty of space.
-* Moving navigation to the left saved us some vertical space for content.
-* Navigation is on the left and has fixed position now. Faster navigation and less scrolling.
-* Fluid layout gives you control on application UI with size of browser window.
-* Adding icons to navigation links improves usability a lot.
-* We get rid of 3rd level of navigation.
+We started with a list of issues we wanted to solve with the redesign. Focus is important, so we went back and made sure we checked all boxes:
 
-__new version__
+- Limited space in project navigation: fixed by moving it to the side.
+- This also gives us more vertical screen real estate
+-We fixed the navigation, so no more scrolling!
+- Better use of icons! We even introduced a responsive state, where on only the icons are shown.
+- We got rid of the third level of navigation
 
 ![desktop screenshot](/images/redesign/final3.png)
 
-## Final version
+## Finish up
 
-After we got positive feedback from users and developers we started improvements.
-Here is alignment and polishing comes. This stage was one of the hardest.
-Changes to layout made some pages hard to use and we were forced to redesign it too.
+With the support of the community, we started to build on top of the redesign.  
+We changed the layout of several pages to make use of the extra space
+and applied another layer of polish.
+With everything aligned and fixed, we were done.
 
-But we did it and now we are really excited about the progress and how efficient it was.
-In 2 weeks it will be released in stable version and we hope you like it
+We're really excited about the process of redesigning the navigation.
+The cooperation with the community and implementation of their feedback was invaluable.
+We hope you'll love it too.
+
+The new navigation will be released with GitLab 7.7 on January 22nd.
+If you want to give it a try now, head over to [GitLab.com](https://gitlab.com/users/sign_up),
+as the changes are already live there!
 
 ![desktop screenshot](/images/redesign/final1.png)
 
