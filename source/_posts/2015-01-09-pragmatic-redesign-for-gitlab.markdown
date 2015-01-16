@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Pragmatic redesign for GitLab"
+title: "Pragmatic Redesign for GitLab"
 date: 2015-01-16 -0800
 comments: true
 categories:
 author: Dmitriy, Job
+image_title: '/images/redesign/big.png'
 ---
 
 We have some big UI changes coming with the release of GitLab 7.7, on January 22nd.
