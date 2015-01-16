@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pragmatic Redesign for GitLab"
-date: 2015-01-16 -0800
+date: 2015-01-16
 comments: true
 categories:
 author: Dmitriy, Job
