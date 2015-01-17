@@ -5,3 +5,11 @@
   margin-right: auto;
   max-width: 980px;
 }
+
+.landing-header {
+  line-height: 58px;
+}
+
+.landing-sub {
+  font-weight: 200;
+}
