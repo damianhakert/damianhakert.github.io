@@ -70,3 +70,7 @@ pre {
 .green{
   color: #18BE97;
 }
+
+.simple-header {
+  margin-bottom: 40px !important;
+}
