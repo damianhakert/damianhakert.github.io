@@ -39,8 +39,6 @@ It can run on virtualized hardware but you can also run it directly on metal.
 If you need changes to GitLab the Enterprise Edition license enables this.
 But you'll find that we're very happy to accept contributions and merge your changes upstream if they make life better for everyone.
 
-Scale
-
 # More inclusive
 
 GitLab is an open source project with more than 700 contributors that share their improvements.
@@ -56,6 +54,6 @@ With the affordable pricing made possible by open source GitLab Enterprise Editi
 
 # Conclusion
 
-We hope the above gives a good overview of the advantages of GitLab Enterprise Edition to GitHub Enterprise.
+We hope the above gives a good overview of of we see GitHub Enteprise vs GitLab Enterprise Edition.
 If you have any comments, questions or additions feel free to leave them in the comments below or email me at sytse@gitlab.com
 
