@@ -19,6 +19,7 @@ GitLas was created as a tool for larger organizations from the start.
 We want to keep it as simple as possible but not simpler.
 You should be able to participate in issues without getting read access to the repository.
 Some branches are more important than feature branches and should be protected against force pushes.
+And if you want to rebase your branches on master just before merging this should be possible from the UI.
 
 Keeping the permissions up to date is a constant struggle in larger organizations.
 That is why GitLab allows you to synchronize groups with your LDAP server.
