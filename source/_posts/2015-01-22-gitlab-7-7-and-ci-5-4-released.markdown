@@ -7,11 +7,13 @@ categories:
 author: Dmitriy Zaporozhets
 ---
 
-GitLab is open source software to collaborate on code. Its like GitHub but Open Source.
-Today we announce the release of a new version of GitLab Community Edition (CE) 
-and GitLab Enterprise Edition (EE), and GitLab Continuous Integration (CI) with new features, usability and performance improvements, and bug fixes.
+GitLab is Version Control on your Server. Its like GitHub but Open Source.
 
-At same day we also launch new free service for Continuous Integration (CI) - [ci.gitlab.com](ci.gitlab.com).
+Today we announce the release of a new version of GitLab Community Edition (CE) 
+and GitLab Enterprise Edition (EE), and GitLab Continuous Integration (CI) 
+with new features, usability and performance improvements, and bug fixes.
+
+Also we are happy to announce our new free service for Continuous Integration (CI) - [ci.gitlab.com](ci.gitlab.com).
 
 <!--more-->
 
@@ -74,7 +76,34 @@ Now GitLab administrator can modify application settings on the fly without any 
 
 # GitLab CI 5.4 release
 
-***Tell about new CI features ***
+This release was quire big for CI. We shipped a lot of new features that makes testing of your software more flexible.
+
+## OAuth authorization
+
+Now you can logic to GitLab CI via GitLab account. 
+That means you dont need to type your password any more. 
+And you can use GitLab account that does not have password, for example if you signup via Twitter or GitHub..
+
+[![screenshot](/images/ci_5_4/login.png)](/images/ci_5_4/login.png)
+
+## Users can setup own runners for own projects
+
+
+***Just describe shortly that users can add runners to their projects***
+
+## Labels for Runners and jobs
+
+You can add labels to certain jobs to be sure only runners that has this labels will serve the builds. 
+This will allow you to setup different environments per job.
+
+Project jobs: 
+
+[![screenshot](/images/ci_5_4/ci-job-labels.png)](/images/ci_5_4/ci-job-labels.png)
+
+Project runners: 
+
+[![screenshot](/images/ci_5_4/ci-runner-labels.png)](/images/ci_5_4/ci-runner-labels.png)
+
 
 - - -
 
