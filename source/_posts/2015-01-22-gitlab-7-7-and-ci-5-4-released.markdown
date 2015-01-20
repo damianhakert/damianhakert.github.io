@@ -150,6 +150,28 @@ Don't have any instances? No problem:
 **To get you started with this we have credit coupons from XXXX (to be added later)**.
 - - -
 
+# Applications settings page
+
+An application settings page was added to the admin area under /admin/application_settings
+Here you can enable and disable settings that previously were managed in gitlab.yml.
+If you modify the applications settings these take preference above the gitlab.yml files.
+Over time we'll move even more settings here to make GitLab easier to configure (merge request to move settings are very welcome).
+
+# Open sign-up by default
+
+From this version on user self-signup is enabled by default.
+You can still disable this behaviour in the configuration file or the new applications settings page.
+
+# Other changes
+
+This release has more improvements, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
+
+# Upgrade barometer
+
+There are migrations in this update but they don't loop through anything.
+If you don't want users to sign up themselves and you have not setup this in gitlab.yml you must ensure this behaviour stays the same.
+You can do it by adding it to gitlab.rb (Omnibus package) or gitlab.yml (source installation) or the easiest way is to use the new application settings page to do this.
+
 # Installation
 
 If you are setting up a new GitLab installation please see the [installing GitLab page](https://www.gitlab.com/installation/).
