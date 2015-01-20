@@ -4,7 +4,7 @@ title: "GitHub Enterprise vs GitLab Enterprise Edition"
 image_title: '/images/stock/city_highway_at_night.jpg'
 date: 2015-01-20
 comments: true
-categories: 
+categories:
 ---
 
 We get asked a lot how GitLab compares to GitHub Enterprise Edition, the version of GitHub that you can run on your own servers.
@@ -15,7 +15,7 @@ The three main advantages are that GitLab focuses on enterprise needs, is easier
 
 # Focuses on enterprise needs
 
-GitLas was created as a tool for larger organizations from the start.
+GitLab was created as a tool for larger organizations from the start.
 We want to keep it as simple as possible but not simpler.
 You should be able to participate in issues without getting read access to the repository.
 Some branches are more important than feature branches and should be [protected against force pushes](https://about.gitlab.com/2014/11/26/keeping-your-code-protected/).
@@ -60,4 +60,3 @@ With the affordable pricing made possible by open source, GitLab Enterprise Edit
 
 We hope the above gives a good overview of of we see GitHub Enteprise vs GitLab Enterprise Edition.
 If you have any comments, questions or additions feel free to leave them in the comments below or email me at sytse@gitlab.com
-
