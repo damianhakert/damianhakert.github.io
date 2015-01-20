@@ -5,6 +5,7 @@ date: 2015-01-22
 comments: true
 categories:
 author: DZ, Job
+image_title: '/images/7_7/bg.jpeg'
 ---
 
 GitLab is Version Control on your Server. It's like GitHub but Open Source.
@@ -13,7 +14,7 @@ Today we announce the release of a new version of GitLab Community Edition (CE)
 and GitLab Enterprise Edition (EE), and GitLab Continuous Integration (CI)
 with new features, usability and performance improvements, and bug fixes.
 
-Also we are happy to announce our new **free Continuous Integration (CI) service: [ci.gitlab.com](ci.gitlab.com)**.
+Also we are happy to announce our new **free Continuous Integration (CI) service: [ci.gitlab.com](https://ci.gitlab.com)**.
 
 <!--more-->
 
