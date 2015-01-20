@@ -72,7 +72,9 @@ Now GitLab administrator can modify application settings on the fly without any 
 
 # GitLab.com
 
-***Tell you can use GitLab.com for free hosting if you dont want to setup own instance***
+If you don't want to manage your own GitLab instance you can always use GitLab.com.
+It is completely free and offers (private) repositories, issue tracking, wiki’s and continuous integration. 
+You don’t have to install anything, just [sign up for a free account](https://gitlab.com/users/sign_up).
 
 # GitLab CI 5.4 release
 
@@ -88,8 +90,8 @@ And you can use GitLab account that does not have password, for example if you s
 
 ## Users can setup own runners for own projects
 
-
-***Just describe shortly that users can add runners to their projects***
+Now you dont need admin account to add new runners to your projects. 
+Just install GitLab Runner package on any machine and use project token to register runner in system.
 
 ## Labels for Runners and jobs
 
@@ -109,7 +111,7 @@ Project runners:
 
 # Continuous Integration (CI) for free
 
-***Tell about ci.gitlab.com and runners. Tell about promo codes for free runners***
+***Tell about ci.gitlab.com and to setup of own runners. Tell about promo codes for free runners***
 
 - - -
 
@@ -122,7 +124,7 @@ If you are setting up a new GitLab installation please see the [installing GitLa
 Upgrade instructions for omnibus-gitlab packages can be found in [the omnibus-gitlab repository](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update.md).
 
 If you installed GitLab from source and you have version 6.4.2 or higher you can use the [upgrade script](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/upgrader.md).
-You have to update GitLab Shell to ***7.7.X*** manually, see [point 3 of the upgrade guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/X.x-to-x.x.md#3-update-gitlab-shell-and-its-config).
+You have to update GitLab Shell to 2.4.1 manually, see [point 3 of the upgrade guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/X.x-to-x.x.md#3-update-gitlab-shell-and-its-config).
 
 If you still want to do it manually - see the [Update Guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/X.x-to-X.x.md).
 
