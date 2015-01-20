@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "How to turn screw-ups to your advantage"
-date: 2015-01-13 20:28:55 +0100
+date: 2015-01-21
 comments: true
 categories: 
 author: Marc Radulescu
+image_title: '/images/stock/screwup.jpg'
 ---
 
 We at GitLab believe in providing a good service to all our users, be they customers, or non-paying users.
