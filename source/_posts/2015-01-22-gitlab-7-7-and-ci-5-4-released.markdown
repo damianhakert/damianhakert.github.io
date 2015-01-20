@@ -150,6 +150,11 @@ Don't have any instances? No problem:
 **To get you started with this we have credit coupons from XXXX (to be added later)**.
 - - -
 
+# Custom header logo (EE only)
+
+For GitLab Enterprise Edition Drew Blessing contributed customer header logo support.
+There also were fixes for the preview and performance improvements for selectboxes.
+
 # Applications settings page
 
 An application settings page was added to the admin area under /admin/application_settings
