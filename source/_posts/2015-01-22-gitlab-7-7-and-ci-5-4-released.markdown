@@ -1,108 +1,134 @@
 ---
 layout: post
-title: "GitLab 7.7 and GitLab CI 5.4 released with GitHub importer and OAuth authorization"
+title: "GitLab 7.7 and GitLab CI 5.4 with GitHub importer and OAuth authorization"
 date: 2015-01-22
 comments: true
 categories:
-author: Dmitriy Zaporozhets
+author: DZ, Job
 ---
 
-GitLab is Version Control on your Server. Its like GitHub but Open Source.
+GitLab is Version Control on your Server. It's like GitHub but Open Source.
 
-Today we announce the release of a new version of GitLab Community Edition (CE) 
-and GitLab Enterprise Edition (EE), and GitLab Continuous Integration (CI) 
+Today we announce the release of a new version of GitLab Community Edition (CE)
+and GitLab Enterprise Edition (EE), and GitLab Continuous Integration (CI)
 with new features, usability and performance improvements, and bug fixes.
 
-Also we are happy to announce our new free service for Continuous Integration (CI) - [ci.gitlab.com](ci.gitlab.com).
+Also we are happy to announce our new **free Continuous Integration (CI) service: [ci.gitlab.com](ci.gitlab.com)**.
 
 <!--more-->
 
 # GitLab 7.7
 
-The biggest new features in Community Edition are GitHub importer and OAuth support.
-In addition to the updates from Community Edition, GitLab Enterprise Edition has gained some performance improvements and ability to change header logo.
+The biggest new features in GitLab Community Edition are the **GitHub importer** and **OAuth support**.
+In addition to the updates from Community Edition,
+GitLab Enterprise Edition has gained some performance improvements and the ability to change the header logo.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Ciro Santilli for sending over 200 merge requests to improve GitLab code base.
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Ciro Santilli
+for sending over 200 merge requests to improve the GitLab code base.
 Thanks Ciro!
 
 
-## Redesign
+## Redesigned navigation
 
-In this release we made some pragmatic redesign to GitLab UI. 
+This had been on our minds for a while but we finally decided to
+redesign the GitLab navigation! We worked closely with our awesome community
+and hope you love it.
 
-[![screenshot](/images/7_7/design.png)](/images/7_7/design.png) 
+Check it out:
 
-You can read more about it [in our blog post](https://about.gitlab.com/2015/01/16/pragmatic-redesign-for-gitlab/)
+[![screenshot](/images/7_7/design.png)](/images/7_7/design.png)
 
-
+Have a look at the [article](https://about.gitlab.com/2015/01/16/pragmatic-redesign-for-gitlab/)
+we wrote about the redesign to get a better understanding of why we did it.
 
 ## GitHub importer
 
-Migrating projects from GitHub is easier than ever. 
-With a single click you can import project with issues to GitLab.
+You can now super quickly import your GitHub projects, issues and all!
+A single click is all it takes:
 
-[![screenshot](/images/7_7/import.png)](/images/7_7/import.png) 
-
-
-## Mention noitication level
-
-Get too much email? Selecting 'Mention' notification level you will only 
-receive emails when people mention your username in their comment.
+[![screenshot](/images/7_7/import.png)](/images/7_7/import.png)
 
 
-[![screenshot](/images/7_7/mention.png)](/images/7_7/mention.png) 
+## Mention notification level
+
+Getting too much email? Just select the 'Mention' notification level and you
+will only receive notification emails when people mention you.
+
+[![screenshot](/images/7_7/mention.png)](/images/7_7/mention.png)
 
 
-## OAuth applications
+## OAuth!
 
-Many services such as Facebook, Twitter, and Google have already deployed OAuth servers. 
-Now you have [OAuth](http://en.wikipedia.org/wiki/OAuth) server on your GitLab instance too. That means you can create 
-3rd party applications and use your GitLab to authorize it.
+Services like Facebook, Twitter, and Google allow you to sign in using
+their credentials in 3rd party applications, implemented through [OAuth](http://en.wikipedia.org/wiki/OAuth).
 
+From now on, GitLab is also an OAuth resource server. This means that you can
+create 3rd party applications and use your GitLab credentials for authentication!
+
+We can't wait to hear what you'll use it for.
 
 [![screenshot](/images/7_7/oauth.png)](/images/7_7/oauth.png)
 
-## Configure GitLab via UI on the fly
+## Configure GitLab on the fly through the UI
 
-Now GitLab administrator can modify application settings on the fly without any downtime.
+Finally GitLab admins can change the application settings on the fly
+without any downtime through our new settings page:
 
 [![screenshot](/images/7_7/settings.png)](/images/7_7/settings.png)
 
+In the future we'll add more settings to this page, making configuring
+GitLab even easier.
+
 - - -
 
-# GitLab.com
+# Don't want to run your own? Use GitLab.com!
 
-If you don't want to manage your own GitLab instance you can always use GitLab.com.
-It is completely free and offers (private) repositories, issue tracking, wiki’s and continuous integration. 
+You rather live in the cloud? Use GitLab.com! It's a completely free
+GitLab instance hosted and managed by us. It offers (private) repositories,
+issue tracking, wiki’s and continuous integration. Free!
+
 You don’t have to install anything, just [sign up for a free account](https://gitlab.com/users/sign_up).
 
-# GitLab CI 5.4 release
+# GitLab CI 5.4
 
-This release was quire big for CI. We shipped a lot of new features that makes testing of your software more flexible.
+On top of all the new feature for GitLab, we're releasing a bunch more for
+GitLab CI. These features will make testing your code more powerful and more
+flexible.
 
 ## OAuth authorization
 
-Now you can logic to GitLab CI via GitLab account. 
-That means you dont need to type your password any more. 
-And you can use GitLab account that does not have password, for example if you signup via Twitter or GitHub..
+With GitLab as OAuth resource server, you can now easily link GitLab CI to
+your GitLab instance, so you don't need to authenticate when switching to CI
+anymore. Of course, this also works if you've setup LDAP / AD with GitLab.
+
+You can even use this if you authenticated with GitLab through another OAuth
+provider, such as Twitter or GitHub. This means that it's now much faster
+and easier to use CI.
 
 [![screenshot](/images/ci_5_4/login.png)](/images/ci_5_4/login.png)
 
-## Users can setup own runners for own projects
+## Everyone their own Runner
 
-Now you dont need admin account to add new runners to your projects. 
-Just install GitLab Runner package on any machine and use project token to register runner in system.
+Want to add a Runner that runs your tests and scripts to a project?
+Now you don't need to be an admin to do this anymore. Just install
+the GitLab Runner package on any machine and use the project token
+to register the Runner in your instance.
+
+If only we'd be offering some credits to give this a try..(hint: Keep reading!)
 
 ## Labels for Runners and jobs
 
-You can add labels to certain jobs to be sure only runners that has this labels will serve the builds. 
-This will allow you to setup different environments per job.
+Now that you can easily add a group of Runners to your CI instance, we thought
+it would be very cool to be able to easily run different environments per job.
 
-Project jobs: 
+Now you can add labels to jobs. Only a Runner with that (those) label(s) will pick up
+up the matching jobs. This way you can run different environments per job, easily.
+
+Project jobs:
 
 [![screenshot](/images/ci_5_4/ci-job-labels.png)](/images/ci_5_4/ci-job-labels.png)
 
-Project runners: 
+Project runners:
 
 [![screenshot](/images/ci_5_4/ci-runner-labels.png)](/images/ci_5_4/ci-runner-labels.png)
 
