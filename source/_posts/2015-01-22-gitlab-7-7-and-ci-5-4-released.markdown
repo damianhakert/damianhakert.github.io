@@ -1,21 +1,38 @@
 ---
 layout: post
-title: "GitLab 7.7 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 7.7 and GitLab CI 5.4 released with GitHub importer and OAuth authorization"
 date: 2015-01-22
 comments: true
 categories:
 author: Dmitriy Zaporozhets
 ---
 
-GitLab is open source software to collaborate on code.
-Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
-The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
-In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
+GitLab is open source software to collaborate on code. Its like GitHub but Open Source.
+Today we announce the release of a new version of GitLab Community Edition (CE) 
+and GitLab Enterprise Edition (EE), and GitLab Continuous Integration (CI) with new features, usability and performance improvements, and bug fixes.
+
+At same day we also launch new free service for Continuous Integration (CI) - [ci.gitlab.com](ci.gitlab.com).
+
+<!--more-->
+
+# GitLab 7.7
+
+The biggest new features in Community Edition are GitHub importer and OAuth support.
+In addition to the updates from Community Edition, GitLab Enterprise Edition has gained some performance improvements and ability to change header logo.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Ciro Santilli for sending over 200 merge requests to improve GitLab code base.
 Thanks Ciro!
 
-<!--more-->
+
+## Redesign
+
+In this release we made some pragmatic redesign to GitLab UI. 
+
+[![screenshot](/images/7_7/design.png)](/images/7_7/design.png) 
+
+You can read more about it [in our blog post](https://about.gitlab.com/2015/01/16/pragmatic-redesign-for-gitlab/)
+
+
 
 ## GitHub importer
 
@@ -49,15 +66,21 @@ Now GitLab administrator can modify application settings on the fly without any 
 
 [![screenshot](/images/7_7/settings.png)](/images/7_7/settings.png)
 
+- - -
 
-## Other changes
+# GitLab.com
 
-This release has more improvements, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-7-stable/CHANGELOG) to see the all named changes.
+***Tell you can use GitLab.com for free hosting if you dont want to setup own instance***
 
+# GitLab CI 5.4 release
 
-## Upgrade barometer
+***Tell about new CI features ***
 
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
+- - -
+
+# Continuous Integration (CI) for free
+
+***Tell about ci.gitlab.com and runners. Tell about promo codes for free runners***
 
 - - -
 
