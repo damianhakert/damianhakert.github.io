@@ -4,7 +4,7 @@ title: "GitLab 7.7 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 date: 2015-01-22
 comments: true
 categories:
-author: ADD_YOUR_FULL_NAME
+author: Dmitriy Zaporozhets
 ---
 
 GitLab is open source software to collaborate on code.
@@ -12,46 +12,43 @@ Today we announce the release of a new version of GitLab Community Edition (CE) 
 The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
 In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Ciro Santilli for sending over 200 merge requests to improve GitLab code base.
+Thanks Ciro!
 
 <!--more-->
 
-## ***MAIN_CE_FEATURE***
+## GitHub importer
 
-***DESCRIPTION***
+Migrating projects from GitHub is easier than ever. 
+With a single click you can import project with issues to GitLab.
 
-[![screenshot](/images/7_7/feature.png)](/images/7_7/feature.png) ***7_7 is the version of GitLab being released***
-
-
-## ***NEW_CE_FEATURE***
-
-***DESCRIPTION***
-
-[![screenshot](/images/7_7/feature.png)](/images/7_7/feature.png) ***7_7 is the version of GitLab being released***
+[![screenshot](/images/7_7/import.png)](/images/7_7/import.png) 
 
 
-## NEW_CE_FEATURE
+## Mention noitication level
 
-***DESCRIPTION***
+Get too much email? Selecting 'Mention' notification level you will only 
+receive emails when people mention your username in their comment.
 
-[![screenshot](/images/7_7/feature.png)](/images/7_7/feature.png) **+7_7 is the version of GitLab being released***
 
-## NEW_SPONSORED_FEATURE
+[![screenshot](/images/7_7/mention.png)](/images/7_7/mention.png) 
 
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-7-stable/CHANGELOG#L18).
 
-## ***MAIN_EE_FEATURE*** (EE only feature)
+## OAuth applications
 
-***DESCRIPTION***
+Many services such as Facebook, Twitter, and Google have already deployed OAuth servers. 
+Now you have [OAuth](http://en.wikipedia.org/wiki/OAuth) server on your GitLab instance too. That means you can create 
+3rd party applications and use your GitLab to authorize it.
 
-[![screenshot](/images/7_7/feature.png)](/images/7_7/feature.png) ***7_7 is the version of GitLab being released***
 
-## ***EE_FEATURE*** (EE only feature)
+[![screenshot](/images/7_7/oauth.png)](/images/7_7/oauth.png)
 
-***DESCRIPTION***
+## Configure GitLab via UI on the fly
 
-[![screenshot](/images/7_7/feature.png)](/images/7_7/feature.png) ***7_7 is the version of GitLab being released***
+Now GitLab administrator can modify application settings on the fly without any downtime.
+
+[![screenshot](/images/7_7/settings.png)](/images/7_7/settings.png)
+
 
 ## Other changes
 
