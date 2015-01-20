@@ -138,8 +138,16 @@ Project runners:
 
 # Continuous Integration (CI) for free
 
-***Tell about ci.gitlab.com and to setup of own runners. Tell about promo codes for free runners***
+We are happy to offer free CI for private repositories if you bring your own Runner!
 
+Simple add you projects from GitLab.com on ci.gitlab.com and configure the builds script(s).
+You can use the parallel build feature of GitLab CI and
+we'll store the build logs and configuration for you.
+
+To run your tests you need to install GitLab Runner on one or more of your instances.
+Don't have any instances? No problem:
+
+**To get you started with this we have credit coupons from XXXX (to be added later)**.
 - - -
 
 # Installation
