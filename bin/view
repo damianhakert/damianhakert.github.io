@@ -1,4 +1,4 @@
 #!/bin/sh
 bundle exec rake preview &
-google-chrome http://localhost:4000/
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome http://localhost:4000/
 

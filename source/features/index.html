@@ -11,7 +11,7 @@ extra_js:
 
 <div class="wrapper">
 
-  <nav class="navbar navbar-default qnav hidden-xs" role="navigation" id="qnav">
+  <nav class="navbar navbar-default qnav hidden-xs qnav2" role="navigation" id="qnav">
     <div class="container-fluid featurenav">
       <ul class="nav nav-pills nav-justified">
         <li><a href="#community" onClick="_gaq.push(['_trackEvent', 'Features', 'sticky nav', 'Community Edition']);">Community Edition</a></li>
@@ -28,12 +28,15 @@ extra_js:
           <div class="title">GitLab <br> <b>Community edition</b></div>
           <div class="header-text">
             GitLab is an incredibly powerful <b>open source</b> code collaboration platform, git repository manager, issue tracker and code reviewer. It integrates with issue trackers, continuous integration services and our Enterprise Edition has phenomenal LDAP and Active Directory support.
-            <b>To install, just unpack.</b>
+            <b>To install it on your own server, click below to download.</b>
 
             <div class="actions">
               <a href="/downloads" class="btn btn-default btn-lg" onClick="_gaq.push(['_trackEvent', 'Features', 'GitLab CE Header', 'Download']);">Download</a>
               <a href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master" class="btn btn-default btn-lg" onClick="_gaq.push(['_trackEvent', 'Features', 'GitLab CE Header', 'Source + Readme']);">Source + Readme</a>
             </div>
+            <br>
+            If you want to use GitLab without installing it,
+            check out <a href="/gitlab-com">GitLab.com</a>
           </div>
 
         </div>
@@ -134,11 +137,7 @@ extra_js:
       <div class="description">
         GitLab Enterprise Edition builds on top of the Community Edition and includes extra features mainly aimed at organizations with more than 100 users.
         It includes deeper authentication and authorization integration, has fine-grained workflow management, has extra server management options and it integrates with your tool stack.
-        GitLab EE runs on your servers, for our SaaS offering please see GitLab.com
-      </div>
-
-      <div class="actions ee">
-        <a href="/pricing" class="btn btn-default btn-lg" onClick="_gaq.push(['_trackEvent', 'Features', 'GitLab EE Header', 'Pricing']);">Pricing</a>
+        GitLab EE runs on your servers, for our SaaS offering please see <a href="/gitlab-com">GitLab.com</a>
       </div>
     </div>
   </div>
@@ -173,9 +172,6 @@ extra_js:
     <div class="container">
       <div class="name">
         compare gitlab versions
-      </div>
-      <div class="actions ee">
-        <a href="/pricing" class="btn btn-default btn-lg" onClick="_gaq.push(['_trackEvent', 'Features', 'Compare', 'Pricing']);">Pricing</a>
       </div>
     </div>
   </div>
@@ -263,7 +259,7 @@ extra_js:
             </div></td>
           </tr>
           <tr>
-            <td><a href='http://doc.gitlab.com/ee/workflow/gitlab_flow.html'>Rebase merge requests before merge </a></td>
+            <td><a href='http://doc.gitlab.com/ee/workflow/gitlab_flow.html'>Rebase merge requests before merge</a></td>
             <td></td>
             <td><div class="circle">
             </div></td>

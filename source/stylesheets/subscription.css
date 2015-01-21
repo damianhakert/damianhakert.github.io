@@ -344,3 +344,9 @@ a.btn-default:hover {
 .top-body .list {
   margin: 15px;
 }
+
+.pricing-notes p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 26px;
+}
