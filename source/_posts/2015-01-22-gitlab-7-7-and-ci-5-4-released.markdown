@@ -179,12 +179,16 @@ You’re now building on the same infrastructure that powers Google.
 
 # Claim Digital Ocean credit
 
-Digital Ocean offers $40.- in credit for the first 500 users.
-This is only for new Digital Ocean users, not for existing accounts.
-The credit is valid for two weeks and you can claim one per person.
+DigitalOcean offers $40 in credit for the first 500 users.
+This is valid only for new DigitalOcean accounts, not for existing users.
+The offer is valid for two weeks and you can claim up to one promo per person.
 You need to setup a project on GitLab.com and add it to ci.gitlab.com before you can claim it.
 
 To claim it please fill out the following form with your name, project url and email or handle.
+Once submitted, the GitLab team will email you your unique promo code.
+If you have any questions about this promotion, please contact the GitLab support team at support@gitlab.com.
+
+XXXXX LINK TO FORM XXXXXX
 
 # Custom header logo (EE only)
 
