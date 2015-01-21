@@ -151,3 +151,17 @@ server {
 
   rewrite ^ https://about.gitlab.com$request_uri permanent;
 }
+
+server {
+  listen 443;
+  server_name gitlabhq.com www.gitlabhq.com;
+  server_name_in_redirect off;
+
+  ssl on;
+  ssl_certificate /etc/ssl/gitlabhq.com.crt;
+  ssl_certificate_key /etc/ssl/gitlabhq.com.key;
+  ssl_protocols  TLSv1 TLSv1.1 TLSv1.2;
+  ssl_ciphers 'ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-RSA-AES128-SHA256:DHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:DES-CBC3-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4';
+
+  rewrite ^ https://about.gitlab.com$request_uri permanent;
+}
