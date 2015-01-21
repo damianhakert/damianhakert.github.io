@@ -133,6 +133,15 @@ Project runners:
 
 [![screenshot](/images/ci_5_4/ci-runner-labels.png)](/images/ci_5_4/ci-runner-labels.png)
 
+## Omnibus packages for GitLab Runner
+
+We now [offer Omnibus
+packages](https://gitlab.com/gitlab-org/omnibus-gitlab-runner/tree/master/doc/install)
+for GitLab Runner. No need to download and compile Ruby anymore each time you
+set up a runner!
+
+The installation instructions for the Runner packages only cover Ubuntu 12.04
+and 14.04 at the moment. To be continued!
 
 - - -
 
