@@ -145,10 +145,37 @@ You can use the parallel build feature of GitLab CI and
 we'll store the build logs and configuration for you.
 
 To run your tests you need to install GitLab Runner on one or more of your instances.
-Don't have any instances? No problem:
+Don't have any instances yet? No problem:
 
-**To get you started with this we have credit coupons from XXXX (to be added later)**.
-- - -
+To get you started with this we will give aware more than $500,000,- in cloud hosting!
+This is collaboration with Google Compute Engine and Digital Ocean, we're very grateful for their offer.
+Did you know they both also offer one-click-installs of GitLab?
+To claim your credit please see the instructions below.
+
+The credit is a limited time offering but the free CI for private projects on ci.gitlab.com is permanent.
+
+# Claim Google Cloud Platform credit
+
+Google Cloud Platform offers $500 in credit for the first 1000 users.
+To get started, follow the three steps below:
+
+    Go to http://cloud.google.com/startercredit
+
+    Click Apply Now
+
+    Complete the form with code: gitlab
+
+With Cloud Platform you can access application, compute, storage and big data services.
+You’re now building on the same infrastructure that powers Google.
+
+# Claim Digital Ocean credit
+
+Digital Ocean offers $40.- in credit for the first 500 users.
+This is only for new Digital Ocean users, not for existing accounts.
+The credit is valid for two weeks and you can claim one per person.
+You need to setup a project on GitLab.com and add it to ci.gitlab.com before you can claim it.
+
+To claim it please fill out the following form with your name, project url and email or handle.
 
 # Custom header logo (EE only)
 
@@ -159,8 +186,9 @@ There also were fixes for the preview and performance improvements for selectbox
 
 An application settings page was added to the admin area under /admin/application_settings
 Here you can enable and disable settings that previously were managed in gitlab.yml.
-If you modify the applications settings these take preference above the gitlab.yml files.
-Over time we'll move even more settings here to make GitLab easier to configure (merge request to move settings are very welcome).
+When you start GitLab 7.7 the first time it will import your settings from gitlab.yml.
+After this initial import the settings in gitlab.yml are ignored.
+Over time we'll move even more settings to this page to make GitLab easier to configure (merge request to move settings are very welcome).
 
 # Open sign-up by default
 
@@ -176,6 +204,7 @@ This release has more improvements, please check out [the Changelog](https://git
 There are migrations in this update but they don't loop through anything.
 If you don't want users to sign up themselves and you have not setup this in gitlab.yml you must ensure this behaviour stays the same.
 You can do it by adding it to gitlab.rb (Omnibus package) or gitlab.yml (source installation) or the easiest way is to use the new application settings page to do this.
+After you upgraded and tested GitLab consider removing the settings that are now in the application settings page from gitlab.rb (Omnibus packages) or gitlab.yml (source installation) to prevent confusion.
 
 # Installation
 
