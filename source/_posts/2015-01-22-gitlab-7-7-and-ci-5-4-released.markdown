@@ -108,14 +108,14 @@ and easier to use CI.
 
 [![screenshot](/images/ci_5_4/login.png)](/images/ci_5_4/login.png)
 
-## Everyone their own Runner
+## Runners for everyone!
 
 Want to add a Runner that runs your tests and scripts to a project?
 Now you don't need to be an admin to do this anymore. Just install
 the GitLab Runner package on any machine and use the project token
 to register the Runner in your instance.
 
-If only we'd be offering some credits to give this a try..(hint: Keep reading!)
+If only we'd be offering some credits to give this a try...(hint: Keep reading!)
 
 ## Labels for Runners and jobs
 
@@ -197,7 +197,7 @@ There also were fixes for the preview and performance improvements for selectbox
 
 # Applications settings page
 
-An application settings page was added to the admin area under /admin/application_settings
+An application settings page was added to the admin area under /admin/application_settings.
 Here you can enable and disable settings that previously were managed in gitlab.yml.
 When you start GitLab 7.7 the first time it will import your settings from gitlab.yml.
 After this initial import the settings in gitlab.yml are ignored.
@@ -206,7 +206,7 @@ Over time we'll move even more settings to this page to make GitLab easier to co
 # Open sign-up by default
 
 From this version on user self-signup is enabled by default.
-You can still disable this behaviour in the configuration file or the new applications settings page.
+You can still disable this behaviour in the new applications settings page.
 
 # Other changes
 
@@ -214,9 +214,11 @@ This release has more improvements, please check out [the Changelog](https://git
 
 # Upgrade barometer
 
-There are migrations in this update but they don't loop through anything.
+There are migrations in this update but they do not take considerable time and should be quick.
+
 If you don't want users to sign up themselves and you have not setup this in gitlab.yml you must ensure this behaviour stays the same.
 You can do it by adding it to gitlab.rb (Omnibus package) or gitlab.yml (source installation) or the easiest way is to use the new application settings page to do this.
+
 After you upgraded and tested GitLab consider removing the settings that are now in the application settings page from gitlab.rb (Omnibus packages) or gitlab.yml (source installation) to prevent confusion.
 
 # Installation
