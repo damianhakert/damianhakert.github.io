@@ -172,11 +172,9 @@ The credit is a limited time offering but the free CI for private projects on ci
 Google Cloud Platform offers $500 in credit for the first 1000 users.
 To get started, follow the three steps below:
 
-    Go to http://cloud.google.com/startercredit
-
-    Click Apply Now
-
-    Complete the form with code: gitlab
+1. Go to [http://cloud.google.com/startercredit](http://cloud.google.com/startercredit)
+1. Click Apply Now
+1. Complete the form with code: gitlab
 
 With Cloud Platform you can access application, compute, storage and big data services.
 You’re now building on the same infrastructure that powers Google.
