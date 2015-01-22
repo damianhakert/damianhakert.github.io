@@ -49,6 +49,7 @@ A single click is all it takes:
 
 [![screenshot](/images/7_7/import.png)](/images/7_7/import.png)
 
+Find the importer when creating a new project.
 
 ## Mention notification level
 
@@ -77,6 +78,9 @@ without any downtime through our new settings page:
 
 [![screenshot](/images/7_7/settings.png)](/images/7_7/settings.png)
 
+When you start GitLab 7.7 the first time it will import your settings from gitlab.yml.
+After this initial import the settings in gitlab.yml are ignored.
+
 In the future we'll add more settings to this page, making configuring
 GitLab even easier.
 
@@ -84,7 +88,7 @@ GitLab even easier.
 
 # Don't want to run your own? Use GitLab.com!
 
-You rather live in the cloud? Use GitLab.com! It's a completely free
+You'd rather live in the cloud? Use GitLab.com! It's a completely free
 GitLab instance hosted and managed by us. It offers (private) repositories,
 issue tracking, wiki’s and continuous integration. Free!
 
@@ -149,7 +153,7 @@ and 14.04 at the moment. To be continued!
 
 We are happy to offer free CI for private repositories if you bring your own Runner!
 
-Simple add you projects from GitLab.com on ci.gitlab.com and configure the builds script(s).
+Simply add your projects from GitLab.com on ci.gitlab.com and configure the builds script(s).
 You can use the parallel build feature of GitLab CI and
 we'll store the build logs and configuration for you.
 
@@ -157,7 +161,7 @@ To run your tests you need to install GitLab Runner on one or more of your insta
 Don't have any instances yet? No problem:
 
 **In total, we're giving away up to $520,000.- in cloud hosting for people to host their Runner!**
-This is collaboration with Google Compute Engine and Digital Ocean, we're very grateful for their offer.
+This is a collaboration with Google Compute Engine and Digital Ocean, we're very grateful for their offer.
 Did you know they both also offer one-click-installs of GitLab?
 To claim your credit please see the instructions below.
 
@@ -193,14 +197,6 @@ If you have any questions about this promotion, please contact the GitLab suppor
 For GitLab Enterprise Edition Drew Blessing contributed customer header logo support.
 There also were fixes for the preview and performance improvements for selectboxes.
 
-# Applications settings page
-
-An application settings page was added to the admin area under /admin/application_settings.
-Here you can enable and disable settings that previously were managed in gitlab.yml.
-When you start GitLab 7.7 the first time it will import your settings from gitlab.yml.
-After this initial import the settings in gitlab.yml are ignored.
-Over time we'll move even more settings to this page to make GitLab easier to configure (merge request to move settings are very welcome).
-
 # Open sign-up by default
 
 From this version on user self-signup is enabled by default.
@@ -208,7 +204,7 @@ You can still disable this behaviour in the new applications settings page.
 
 # Other changes
 
-This release has more improvements, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
+This release has more improvements, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-7-stable/CHANGELOG) to see the all named changes.
 
 # Upgrade barometer
 
@@ -239,6 +235,6 @@ For a complete overview please have a look at the [feature list of GitLab EE](ht
 
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing/).
 No time to upgrade GitLab yourself?
-A subscription also entitles to our upgrade and installation services.
+A subscription also entitles you to our upgrade and installation services.
 
 - - -
