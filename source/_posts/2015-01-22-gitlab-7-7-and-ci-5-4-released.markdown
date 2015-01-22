@@ -184,11 +184,9 @@ This is valid only for new DigitalOcean accounts, not for existing users.
 The offer is valid for two weeks and you can claim up to one promo per person.
 You need to setup a project on GitLab.com and add it to ci.gitlab.com before you can claim it.
 
-To claim it please fill out the following form with your name, project url and email or handle.
+To claim it please fill out [this form](https://docs.google.com/a/gitlab.com/forms/d/1YXTRwDz2C8o4DqNrFCT78UQf_iHnN1Ekrt4p8yv6fd4/viewform) with your name, email or handle and project url.
 Once submitted, the GitLab team will email you your unique promo code.
 If you have any questions about this promotion, please contact the GitLab support team at support@gitlab.com.
-
-XXXXX LINK TO FORM XXXXXX
 
 # Custom header logo (EE only)
 
