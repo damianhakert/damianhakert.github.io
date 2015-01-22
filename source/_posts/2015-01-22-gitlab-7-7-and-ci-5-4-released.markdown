@@ -156,7 +156,7 @@ we'll store the build logs and configuration for you.
 To run your tests you need to install GitLab Runner on one or more of your instances.
 Don't have any instances yet? No problem:
 
-In total, we're giving away up to $520,000.- in cloud hosting for people to host their Runner!
+**In total, we're giving away up to $520,000.- in cloud hosting for people to host their Runner!**
 This is collaboration with Google Compute Engine and Digital Ocean, we're very grateful for their offer.
 Did you know they both also offer one-click-installs of GitLab?
 To claim your credit please see the instructions below.
