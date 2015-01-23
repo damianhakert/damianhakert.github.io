@@ -9,7 +9,7 @@ author: Dmitriy Zaporozhets
 
 Today we release GitLab 7.7.1 (both CE and EE) and GitLab CI 5.4.1.
 
-GitLab 7.7.1 brings two fixes:
+GitLab 7.7.1 brings three fixes:
 
 - Improve @mention autocomplete performance
 - Show setup instructions for GitHub import if it is disabled
