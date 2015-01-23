@@ -22,7 +22,7 @@ In the end, I'll mention the process we've followed to address our mistakes.
 
 GitLab.com is our free SaaS service.
 At close to 20k monthly active users, GitLab.com is used by many of our users for production.
-We always notify the comunity of downtimes on its [twitter account](https://twitter.com/gitlabstatus) and offer [paid email support](https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20) for it.
+We always notify the community of downtimes on its [twitter account](https://twitter.com/gitlabstatus) and offer [paid email support](https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20) for it.
 
 For years now, we'd been happy to report minimal unplanned downtime on GitLab.com, with planned downtime seldom exceeding one hour.
 On the 31st of July 2014 though, GitLab.com went offline for a full 8 hours, affecting the workflow of a serious number of users.
