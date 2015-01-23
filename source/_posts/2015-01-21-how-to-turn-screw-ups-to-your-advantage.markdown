@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "How to turn screw-ups to your advantage"
-date: 2015-01-21
+date: 2015-01-23
 comments: true
-categories: 
+categories:
 author: Marc Radulescu
 image_title: '/images/stock/screwup.jpg'
 ---
@@ -18,7 +18,7 @@ In the end, I'll mention the process we've followed to address our mistakes.
 
 <!-- more -->
 
-##The brownout
+## The brownout
 
 GitLab.com is our free SaaS service.
 At close to 20k monthly active users, GitLab.com is used by many of our users for production.
@@ -41,7 +41,7 @@ The Hacker News thread reached the top and kept GitLab in the spotlight for quit
 And feedback from the community was [overly positive](https://twitter.com/search?q=gitlab%20postmortem&src=typd) regarding our transparent approach.
 We believe GitLab has garnered a lot of trust in being both open about the mistake, and quick to take action.
 
-##Waking up at 5 AM for nothing
+## Waking up at 5 AM for nothing
 
 One of our lines of business is installing or upgrading GitLab for non-subscribers and basic subscribers.
 We do this via scheduled consultancy calls.
@@ -60,7 +60,7 @@ We wrote a follow-up to our customer detailing not only where the issue was in o
 
 Between the CEO apologizing and the detailed description of how we were going to improve our process, the customer - whose basic subscription renewal was due within the month - decided to offer their vote of confidence and upgrade to the standard subscription.
 
-##Why the good vibes?
+## Why the good vibes?
 
 In both cases we followed the same course of action:
  - be open about the mistake;
