@@ -11,15 +11,15 @@ Today we release GitLab 7.7.1 (both CE and EE) and GitLab CI 5.4.1.
 
 GitLab 7.7.1 brings two fixes:
 
-- Improve mention autocomplete performance
+- Improve @mention autocomplete performance
 - Show setup instructions for GitHub import if it is disabled
-- Allow use http for OAuth applications
+- Allow use of http for OAuth applications
 
 GitLab CI 5.4.1 fixes several bugs:
 
-- Fix 500 if on builds page if build has no job
+- Fix 500 on builds page if a build has no jobs
 - Truncate project token from build trace
-- Allow users with access to project see build trace
+- Allow users with access to a project see the build trace
 
 <!-- more -->
 
