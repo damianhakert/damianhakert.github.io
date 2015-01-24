@@ -181,7 +181,7 @@ article {
 }
 
 .blog-index.blog-entry {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 ul.post-list {
@@ -204,15 +204,4 @@ ul.post-list > li > time {
   font-family: Menlo, Monaco, 'Bitstream Vera Sans Mono', 'Courier New', monospace;
   font-size: 12px;
   white-space: nowrap;
-}
-
-.panel-heading a {
-  font-size: 14px;
-  font-family: 'Open Sans' sans-serif;
-  line-height: auto;
-  font-weight: 700;
-}
-
-.rss-btn {
-  float: right;
 }

@@ -9,37 +9,7 @@ extra_css:
 
 <div class="blog-index blog-entry">
 
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      For the latest and most detailed news follow <strong><a href="https://twitter.com/gitlab">@gitlab</a></strong>
-      on Twitter.
-
-      <a href="/atom.xml" class="rss-btn">
-        <button class="btn btn-sm btn-default">RSS</button>
-      </a>
-
-    </div>
-    <div class="panel-body newsletter">
-
-      <span>Get every GitLab blog post and stay up to date.</span>
-      <!-- Begin MailChimp Signup Form -->
-      <div id="mc_embed_signup" class="newsletter-form">
-        <form action="https://gitlab.us5.list-manage.com/subscribe/post?u=498dccd07cf3e9482bee33ba4&amp;id=98a9a4992c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-          <div id="mce-responses" class="clear">
-            <div class="response" id="mce-error-response" style="display:none"></div>
-            <div class="response" id="mce-success-response" style="display:none"></div>
-          </div>
-          <div class="mc-field-group">
-            <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Your email address">
-          </div>
-          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default form-control sbmc">
-        </form>
-      </div>
-      <!--End mc_embed_signup-->
-
-    </div>
-
-  </div>
+  {% include newsletter_signup.html %}
 
   {% assign index = true %}
   {% for post in paginator.posts %}
@@ -48,9 +18,9 @@ extra_css:
       {% include article.html %}
     </article>
   {% endfor %}
-  <p><h2>Latest blog posts</h2></p>
+  <p><h2>10 most recent posts</h2></p>
   <ul class="post-list">
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:10 %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
         <time>{{ post.date | date:"%d %b %Y" }}</time>
@@ -58,5 +28,6 @@ extra_css:
     {% endfor %}
   </ul>
   <p>&rarr; <a href="/blog/archives.html">Browse the archives</a></p>
+  {% include newsletter_signup.html %}
 </div>
 </br>

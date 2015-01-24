@@ -945,3 +945,14 @@ h1.testimonial-head{
 a:hover > .link-box {
   text-decoration: none;
 }
+
+.nl .panel-heading a {
+  font-size: 14px;
+  font-family: 'Open Sans' sans-serif;
+  line-height: auto;
+  font-weight: 700;
+}
+
+.nl .rss-btn {
+  float: right;
+}
