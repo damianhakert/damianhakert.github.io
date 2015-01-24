@@ -206,8 +206,13 @@ ul.post-list > li > time {
   white-space: nowrap;
 }
 
-.panel-footer a {
+.panel-heading a {
   font-size: 14px;
   font-family: 'Open Sans' sans-serif;
   line-height: auto;
+  font-weight: 700;
+}
+
+.rss-btn {
+  float: right;
 }

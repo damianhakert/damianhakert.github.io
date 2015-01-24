@@ -10,9 +10,18 @@ extra_css:
 <div class="blog-index blog-entry">
 
   <div class="panel panel-default">
+    <div class="panel-heading">
+      For the latest and most detailed news follow <strong><a href="https://twitter.com/gitlab">@gitlab</a></strong>
+      on Twitter.
+
+      <a href="/atom.xml" class="rss-btn">
+        <button class="btn btn-sm btn-default">RSS</button>
+      </a>
+
+    </div>
     <div class="panel-body newsletter">
 
-      <span>Get the latest GitLab news in your mailbox.</span>
+      <span>Get every GitLab blog post and stay up to date.</span>
       <!-- Begin MailChimp Signup Form -->
       <div id="mc_embed_signup" class="newsletter-form">
         <form action="https://gitlab.us5.list-manage.com/subscribe/post?u=498dccd07cf3e9482bee33ba4&amp;id=98a9a4992c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
@@ -29,11 +38,7 @@ extra_css:
       <!--End mc_embed_signup-->
 
     </div>
-    <div class="panel-footer">
-      Follow us on <strong><a href="https://twitter.com/gitlab">Twitter</a></strong>
-      and subscribe to our
-      <a href="/atom.xml">RSS feed.</a>
-    </div>
+
   </div>
 
   {% assign index = true %}
