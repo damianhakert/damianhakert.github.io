@@ -5,6 +5,7 @@ date: 2015-01-27
 comments: true
 categories:
 author: Job van der Voort
+image_title: '/images/git_personalities.jpeg'
 ---
 
 Working on an open source project, we're so lucky to receive many merge -and
@@ -103,9 +104,11 @@ keep your merge requests reasonable. We use git for a reason.
 
 ## 6. The Merger
 
+> ```
 > 00fd402 - Merge branch 'master' into 'feature_x'
 > 34jkdi9 - Merge branch 'master' into 'feature_x'
 > svc98u2 - Merge branch 'master' into 'feature_x'
+> ```
 
 As the Merger, you worked really hard on that new feature. At night or during
 lunch breaks: where everyone is being paid for this, you are not. That comes
