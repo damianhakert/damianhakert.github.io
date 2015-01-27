@@ -5,6 +5,47 @@
  * http://twitter.github.com/bootstrap
  */
 
+/* Fonts Korolev
+---------------------------------------------*/
+@font-face {
+    font-family: 'KorolevLight';
+    src: url('/fonts/korolevlight.eot');
+    src: url('/fonts/korolevlight.eot') format('embedded-opentype'),
+        url('/fonts/korolevlight.woff2') format('woff2'),
+        url('/fonts/korolevlight.woff') format('woff'),
+        url('/fonts/korolevlight.ttf') format('truetype'),
+        url('/fonts/korolevlight.svg#KorolevLight') format('svg');
+}
+
+@font-face {
+    font-family: 'KorolevLightItalic';
+    src: url('/fonts/korolevlightitalic.eot');
+    src: url('/fonts/korolevlightitalic.eot') format('embedded-opentype'),
+        url('/fonts/korolevlightitalic.woff2') format('woff2'),
+        url('/fonts/korolevlightitalic.woff') format('woff'),
+        url('/fonts/korolevlightitalic.ttf') format('truetype'),
+        url('/fonts/korolevlightitalic.svg#KorolevLightItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'KorolevMedium';
+    src: url('/fonts/korolevmedium.eot');
+    src: url('/fonts/korolevmedium.eot') format('embedded-opentype'),
+        url('/fonts/korolevmedium.woff2') format('woff2'),
+        url('/fonts/korolevmedium.woff') format('woff'),
+        url('/fonts/korolevmedium.ttf') format('truetype'),
+        url('/fonts/korolevmedium.svg#KorolevMedium') format('svg');
+}
+@font-face {
+    font-family: 'KorolevThin';
+    src: url('/fonts/korolevthin.eot');
+    src: url('/fonts/korolevthin.eot') format('embedded-opentype'),
+        url('/fonts/korolevthin.woff2') format('woff2'),
+        url('/fonts/korolevthin.woff') format('woff'),
+        url('/fonts/korolevthin.ttf') format('truetype'),
+        url('/fonts/korolevthin.svg#KorolevThin') format('svg');
+} 
+
 /* General
 -------------------------------------------------- */
 body {
@@ -269,43 +310,22 @@ hr.thick {
 /* Landing
 -------------------------------------------------- */
 .action-button {
-    background: transparent;
-    border: 1px solid #fff;
-    font-family: 'KorolevMedium';
-    font-size: 17px;
-    border-radius: 25px;
-    width: 150px;
-    text-transform: uppercase;
-    margin: 0 5px;
+  font-weight: 600;
 }
 
-.main-bg {
-    padding: 0;
-    background-image: url(/images/new_landing/main-bg.jpg);
-    background-size: cover;
-    background-position: center center;
-
-}
 #landing {
     padding: 30px 0;
-    /*background: #548;*/
+    background: #548;
     height: 700px;
     overflow: hidden;
 }
 
 #landing h1 {
-    font-size: 50px;
-    color: white;
-    font-family: 'KorolevThin';
-    padding-top: 50px;
-    text-transform: uppercase;
-}
-/*#landing h1 {
     font-size: 48px;
     color: white;
     font-family: "Open Sans", "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
     padding-top: 50px;
-}*/
+}
 
 #landing p {
     color: white;
@@ -318,13 +338,8 @@ hr.thick {
 }
 
 #landing .main-screenshot {
-    padding-top: 0;
-    display: inline-block;
-    margin-top: 50px;
-}
-/*#landing .main-screenshot {
     padding-top: 60px;
-}*/
+}
 
 #landing .js-video iframe {
     -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
@@ -335,18 +350,7 @@ hr.thick {
     height: 700px;
     padding: 30px 0;
 }
-.logos small {
-    color: #18191a;
-    font-family: 'KorolevLight';
-    font-size: 100%;
-    margin-top: 40px;
-}
-.logos h2 {
-    font-size: 36px;
-    text-transform: uppercase;
-    color: #18191a;
-    font-family: 'KorolevLight';
-}
+
 .logos span {
     font-family: 'KorolevMedium';
     color: #a0c720;
@@ -777,18 +781,6 @@ article {
 .copy p {
     margin-top: 35px;
 }
-
-/*#footer {
-    padding: 20px 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    background: #463675;
-}*/
-/*#footer h3  {
-    margin-bottom: 5px;
-    text-transform: uppercase;
-    color: white;
-    font-weight: 700;
-}*/
 #footer h3  {
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -811,10 +803,7 @@ article {
     font-size: 100%;
     opacity: 0.7;
 }
-/*#footer a {
-    display: inline-block;
-    color: white;
-}*/
+
 #footer a:hover {
     -webkit-animation-name: slide;
     -moz-animation-name: slide;

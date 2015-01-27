@@ -1,51 +1,9 @@
-@font-face {
-    font-family: 'KorolevLight';
-    src: url('/fonts/korolevlight.eot');
-    src: url('/fonts/korolevlight.eot') format('embedded-opentype'),
-        url('/fonts/korolevlight.woff2') format('woff2'),
-        url('/fonts/korolevlight.woff') format('woff'),
-        url('/fonts/korolevlight.ttf') format('truetype'),
-        url('/fonts/korolevlight.svg#KorolevLight') format('svg');
-}
-
-@font-face {
-    font-family: 'KorolevLightItalic';
-    src: url('/fonts/korolevlightitalic.eot');
-    src: url('/fonts/korolevlightitalic.eot') format('embedded-opentype'),
-        url('/fonts/korolevlightitalic.woff2') format('woff2'),
-        url('/fonts/korolevlightitalic.woff') format('woff'),
-        url('/fonts/korolevlightitalic.ttf') format('truetype'),
-        url('/fonts/korolevlightitalic.svg#KorolevLightItalic') format('svg');
-}
-
-@font-face {
-    font-family: 'KorolevMedium';
-    src: url('/fonts/korolevmedium.eot');
-    src: url('/fonts/korolevmedium.eot') format('embedded-opentype'),
-        url('/fonts/korolevmedium.woff2') format('woff2'),
-        url('/fonts/korolevmedium.woff') format('woff'),
-        url('/fonts/korolevmedium.ttf') format('truetype'),
-        url('/fonts/korolevmedium.svg#KorolevMedium') format('svg');
-}
-@font-face {
-    font-family: 'KorolevThin';
-    src: url('/fonts/korolevthin.eot');
-    src: url('/fonts/korolevthin.eot') format('embedded-opentype'),
-        url('/fonts/korolevthin.woff2') format('woff2'),
-        url('/fonts/korolevthin.woff') format('woff'),
-        url('/fonts/korolevthin.ttf') format('truetype'),
-        url('/fonts/korolevthin.svg#KorolevThin') format('svg');
-}
 body {
     background: #fff;
     position: relative;
     padding-top: 50px;
     font-family: "Open Sans", "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
     -webkit-font-smoothing: antialiased;
-}
-.user_logo {
-    /*margin:0 28px 28px 0;*/
-    /*max-height: 55px;*/
 }
 .logos-holder {
     text-align: center;
@@ -207,41 +165,7 @@ body {
 article {
     margin-bottom: 160px;
 }
-#footer {
-    padding: 20px 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    background: #09090f;
-    height: auto;
-}
-.footer .container {
-    padding-bottom: 40px;
-    border-bottom: 1px solid #47474c;
-}
-.copy p {
-    margin-top: 35px;
-}
-#footer h3  {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'KorolevMedium';
-    font-size: 128.57%;
-}
-#footer ul {
-    list-style: none outside none;
-    margin: 0;
-    padding: 0;
-}
-#footer li {
-    margin-bottom: 10px;
-}
-#footer a {
-    display: inline-block;
-    color: white;
-    font-family: 'KorolevLight';
-    font-size: 100%;
-    opacity: 0.7;
-}
+
 .slider-hold {
     width: 80%;
     position: relative;
