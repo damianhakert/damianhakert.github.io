@@ -10,7 +10,8 @@ image_title: '/images/git_personalities.jpeg'
 
 Working on an open source project, we're so lucky to receive many merge -and
 pull requests. Not unlike dating, we see a number of different _git personalities_.
-Do you recognize yourself in one of them? Let us know in the comments.
+Do you recognize yourself or one of your colleagues in one of them? Let us know in the comments
+or tweet about it with #gitlab.
 
 ## 1. The Build Breaker
 
@@ -25,7 +26,7 @@ team to clean up your mess.
 
 ### Fixing the breaker
 
-Test locally, always work with merge requests and only merge when the build
+Run relevant and fast tests locally, always work with merge requests and only merge when the build
 passes.
 
 ## 3. The Repeater
@@ -35,10 +36,9 @@ passes.
 > 98dfjek - cool new feature
 
 If git history was like actual history, the repeater's history books would only
-contain only a single sentence, repeated ad infinitum. The worst repeat offenders
-of being a Repeater repeat only a single repetition relentlessly: wip.
-
-These Repeaters probably have a nice shortcut in their terminal to quickly make a wip commit.
+contain only a single sentence, repeated ad infinitum. The repeater repeats a single
+sentence with every commit. To know what a Repeater did, the SHA tells you
+as much as the commit message.
 
 ### Fixing the broken record
 
@@ -77,7 +77,7 @@ with the magic of git, they took it one step further and commit every singly
 tiny change.
 
 Premature committers and rebasers are natural enemies and are known to
-annoy one another.
+annoy one another. Don't put them in the same team if you can prevent it.
 
 ### Squashing the premature committer
 
@@ -120,7 +120,8 @@ The Merger's merge request will merge, that's for sure, but it's not pretty.
 ### Cancelling the Merger
 
 Keep your merge requests small and only start on what you can actually finish.
-Consider only merging in at the moment before the merge request.
+Only merge when needed. Not even before the merge request.
+Just make sure it merges cleanly.
 
 ## 7. The Denier
 
