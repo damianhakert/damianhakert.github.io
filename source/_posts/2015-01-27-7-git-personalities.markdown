@@ -13,6 +13,8 @@ pull requests. Not unlike dating, we see a number of different _git personalitie
 Do you recognize yourself or one of your colleagues in one of them? Let us know in the comments
 or tweet about it with #gitlab.
 
+<!-- more -->
+
 ## 1. The Build Breaker
 
 > Oh this is a small change, I'll just push it to master..
