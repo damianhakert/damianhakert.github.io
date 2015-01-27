@@ -31,9 +31,11 @@ passes.
 
 ## 2. The Repeater
 
+> ```
 > bf30a5b - cool new feature
 > dfd934s - cool new feature
 > 98dfjek - cool new feature
+> ```
 
 If git history was like actual history, the repeater's history books would only
 contain only a single sentence, repeated ad infinitum. The repeater repeats a single
@@ -67,10 +69,12 @@ merge it and start with something new. Progress is many small steps.
 
 ## 4. The Premature committer
 
+> ```
 > bf30a5b - add capital
 > 9d5550a - add missing period
 > 179c001 - remove 'the'
 > 983hfk2 - remove trailing space
+> ```
 
 Young premature committers save their reports every sentence. Growing up
 with the magic of git, they took it one step further and commit every singly
