@@ -21,7 +21,7 @@ We all do it. A small change, preferably at the end of the week, it's not
 going to hurt anyone..
 
 How wrong you are. You just broke the build for everyone
-else. Either you'll have to fix this yourself quickly or your leaving your
+else. Either you'll have to fix this yourself quickly or you're leaving your
 team to clean up your mess.
 
 ### Fixing the breaker
@@ -29,7 +29,7 @@ team to clean up your mess.
 Run relevant and fast tests locally, always work with merge requests and only merge when the build
 passes.
 
-## 3. The Repeater
+## 2. The Repeater
 
 > bf30a5b - cool new feature
 > dfd934s - cool new feature
@@ -91,7 +91,7 @@ If that doesn't wake you up, you should know that the next remedy is rebasing..
 Adding a new import utility to an open source project? UI, tests, back-end
 all in place? Awesome! In one commit? Not awesome.
 
-You probably mean well, Rebaser. You write beatiful code and you know some
+You probably mean well, Rebaser. You write beautiful code and you know some
 git-fu. But remember that with great power comes great responsibility:
 If your feature breaks it'll be more likely to be stripped out in its entirety
 as a single commit, rather than having someone go through your history to see
