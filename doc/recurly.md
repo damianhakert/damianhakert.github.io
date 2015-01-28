@@ -10,5 +10,6 @@ In order to use the sinatra application for the first time, couple of things are
 1. Make sure that recurly/start_recurly.rb is accessible to user running nginx(chmod 755)
 1. Create directory that will hold pid files, /opt/recurly/pids and make the pids owned by the user that will run it(www-data)
 1. Start recurly process: `sudo /etc/init.d/recurly start`
+1. Configure the recurly process to start at boot: `sudo update-rc.d recurly start 20 2 3 4 5 .`
 
 [Daemonize gem](http://daemons.rubyforge.org/) will make sure that the sinatra app is always running because it starts the app if it is not running.
