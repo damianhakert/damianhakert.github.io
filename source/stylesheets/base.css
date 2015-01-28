@@ -956,3 +956,27 @@ a:hover > .link-box {
 .nl .rss-btn {
   float: right;
 }
+
+
+.panel-purple {
+  border-color: #548;
+}
+.panel-purple>.panel-heading {
+  color: #fff;
+  background-color: #548;
+  border-color: #548;
+}
+
+.btn-purple {
+  color: #548;
+  background-color: #fff;
+  border-color: #548;
+  transition: all 0.2s;
+  font-weight: 600;
+}
+
+.btn-purple:hover {
+  color: #fff;
+  background-color: #548;
+  border-color: #548;
+}
