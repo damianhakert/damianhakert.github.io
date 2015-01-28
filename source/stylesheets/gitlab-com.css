@@ -1,3 +1,4 @@
-body {
+.content ul,
+.content li, p {
   font-size: 16px;
 }
