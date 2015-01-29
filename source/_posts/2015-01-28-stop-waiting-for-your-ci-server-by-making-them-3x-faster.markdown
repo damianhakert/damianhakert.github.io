@@ -5,25 +5,29 @@ date: 2015-01-29
 author: "Sytse Sijbrandij"
 image_title: '/images/unsplash/milkyway.jpg'
 comments: true
-categories: 
+categories:
 ---
 
 Are you working on a serious software project?
 You probably have an extensive test suite that takes a while to run.
 Why not run only the directly related unit tests locally and have your CI server take care of the rest 3x faster than you could?
-This way you can start with the next feature while uour feature branch being tested.
+This way you can start with the next feature while your feature branch is being tested.
 
 Having the tests run 3x faster on the CI server requires adding multiple workers to execute the tests in parallel.
 So far this has been very expensive, but with GitLab CI it is affordable for everyone.
 
+<!-- more -->
+
 [![screenshot](/images/ci_5_4/parallel.png)](/images/ci_5_4/parallel.png)
+
 
 # Price comparison
 
 Right now it is expensive for people to test private repositories quickly.
 
 Most serious projects have a long test suite and you want to run tests in parallel.
-Also you want to be able to test multiple commits at the same time, so you can merge everything quickly at the end of the sprint.
+You want to be able to test multiple commits at the same time,
+so you can merge everything quickly at the end of the sprint.
 
 Suppose you want to have 5 tests in parallel on 2 different commits.
 For this you would need 10 runners/workers.
@@ -32,12 +36,16 @@ On [Travis](https://travis-ci.com/plans) the plan for 10 concurrent jobs is $489
 
 On [CircleCI](https://circleci.com/pricing) the cost for 1 free and 9 paid jobs is $450 per month.
 
-If you get 10 dedicated [Digital Ocean boxes](https://www.digitalocean.com/pricing/) with 2GB each you would pay 10 * $20 per month = $200 per month. You save more than 50% and most DO boxes are faster than those at other providers.
+As you can easily set up your own workers (Runners) with GitLab CI,
+this scale becomes much more affordable:
+
+If you get 10 dedicated [Digital Ocean boxes](https://www.digitalocean.com/pricing/) with 2GB each you would pay 10 * $20 per month = $200 per month.
+You save more than 50% and most DO boxes are faster than those at other providers.
 
 # Continuous Integration (CI) hosted for free
 
-At ci.gitlab.com you can run CI completely free except that you need to bring your own test runners.
-This is not a temporarely beta, we intent to continue to offer this for free, a world's first as far as we know.
+At ci.gitlab.com you can run CI completely free except that you need to bring your own test Runners.
+This is not a temporary beta, we intent to continue to offer this for free, a world's first as far as we know.
 
 Simply add your projects from GitLab.com to ci.gitlab.com and configure the builds script(s).
 You can use the parallel build feature of GitLab CI and we'll store the build logs and configuration for you.
