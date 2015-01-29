@@ -40,14 +40,14 @@ As you can easily set up your own workers (Runners) with GitLab CI,
 this scale becomes much more affordable:
 
 If you get 10 dedicated [Digital Ocean boxes](https://www.digitalocean.com/pricing/) with 2GB each you would pay 10 * $20 per month = $200 per month.
-You save more than 50% and most DO boxes are faster than those at other providers.
+You save more than 50% and most DO boxes are [faster](http://uncrunched.com/2013/08/07/digital-ocean-v-aws-10x-performance-for-13-cost/) than those at other providers.
 
 ## Continuous Integration (CI) hosted for free
 
 At ci.gitlab.com you can run CI completely free except that you need to bring your own test Runners.
-This is not a temporary beta, we intent to continue to offer this for free, a world's first as far as we know.
+This is not a temporary beta, we intend to continue to offer this for free, a world's first as far as we know.
 
-Simply add your projects from GitLab.com to ci.gitlab.com and configure the builds script(s).
+Simply add your projects from GitLab.com to ci.gitlab.com and configure the build script(s).
 You can use the parallel build feature of GitLab CI and we'll store the build logs and configuration for you.
 
 To run your tests you need to install GitLab Runner on one or more of your instances.
