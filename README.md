@@ -74,9 +74,9 @@ Use the following tag after the opening paragraph to make it an acceptable size 
 
     <!-- more -->
 
-Add the following to the top of a blog posts and it will format it as a full bleed image.
+Add the following to the top of a blog post (between the --- markers) and it will format it as a full bleed image.
 
-    image_title: '/images/stock/hardware.jpg'
+    image_title: '/images/unspash/hardware.jpg'
 
 # Other documentation
 
