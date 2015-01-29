@@ -21,7 +21,7 @@ So far this has been very expensive, but with GitLab CI it is affordable for eve
 [![screenshot](/images/ci_5_4/parallel.png)](/images/ci_5_4/parallel.png)
 
 
-# Price comparison
+## Price comparison
 
 Right now it is expensive for people to test private repositories quickly.
 
@@ -42,7 +42,7 @@ this scale becomes much more affordable:
 If you get 10 dedicated [Digital Ocean boxes](https://www.digitalocean.com/pricing/) with 2GB each you would pay 10 * $20 per month = $200 per month.
 You save more than 50% and most DO boxes are faster than those at other providers.
 
-# Continuous Integration (CI) hosted for free
+## Continuous Integration (CI) hosted for free
 
 At ci.gitlab.com you can run CI completely free except that you need to bring your own test Runners.
 This is not a temporary beta, we intent to continue to offer this for free, a world's first as far as we know.
@@ -53,7 +53,7 @@ You can use the parallel build feature of GitLab CI and we'll store the build lo
 To run your tests you need to install GitLab Runner on one or more of your instances.
 The CI status will show in merge requests on GitLab.com.
 
-# No instances available? No problem!
+## No instances available? No problem!
 
 Don't have any instances handy to install the runner on? We can help.
 
@@ -64,7 +64,7 @@ To claim your credit please see the instructions below.
 
 The credit is a limited time offering but the free CI for private projects on ci.gitlab.com is permanent.
 
-# Claim Google Cloud Platform credit
+## Claim Google Cloud Platform credit
 
 Google Cloud Platform offers $500 in credit for the first 1000 users.
 To get started, follow the three steps below:
@@ -76,7 +76,7 @@ To get started, follow the three steps below:
 With Cloud Platform you can access application, compute, storage and big data services.
 You’re now building on the same infrastructure that powers Google.
 
-# Claim Digital Ocean credit
+## Claim Digital Ocean credit
 
 DigitalOcean offers $40 in credit for the first 500 users.
 This is valid only for new DigitalOcean accounts, not for existing users.
@@ -87,12 +87,12 @@ To claim it please fill out [this form](https://docs.google.com/a/gitlab.com/for
 Once submitted, the GitLab team will email you your unique promo code.
 If you have any questions about this promotion, please contact the GitLab support team at support@gitlab.com.
 
-# On your server
+## On your server
 
 If you want to run CI on your own servers that is also possible.
 GitLab CI is included if the [GitLab Omnibus packages](https://about.gitlab.com/downloads/)
-To enable it just [change a single line](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/gitlab-ci/README.md#getting-started).
+To enable it just [change a single line](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/gitlab-ci/README.md##getting-started).
 
-# What do you think?
+## What do you think?
 
 How much time can you save with parallel tests on fast machines?
