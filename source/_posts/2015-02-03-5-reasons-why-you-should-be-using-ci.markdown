@@ -11,7 +11,7 @@ When developing software you are usually spoiled for choice. There are many lang
 test suites to try, countless frameworks you can use and a bunch of Continuous Integration offerings.
 
 You can always go with the language you like the most, the test suite you find most practical and choose not to use a
-framework, but you should always think about CI. Here are out top 7 reasons why we think you should be using CI and
+framework, but you should always think about CI. Here are out top 5 reasons why we think you should be using CI and
 why you should consider it from the beginning of your project.
 
 <!-- more -->
@@ -26,7 +26,7 @@ are wrong.
 ## 2. Check for code test coverage
 
 Think your tests cover most of your code? Well think again. If your CI server supports it, you can have it check your code
-for test coverage. This way every time you commit something new without any tests you will feel the shame that comes with
+for test coverage. This way every time you commit something new without any tests, you will feel the shame that comes with
 having your coverage percentage go down because of your changes.
 
 ## 3. Deploy your code to production
@@ -42,7 +42,7 @@ your deployment mechanism supports that.
 
 All your tests are green and the coverage is good, but you don't handle code that needs to be deployed? No worries! CI
 servers can also trigger build and compilation processes that will take care of your needs in no time. No more having to
-sit in front of your terminal waiting for the build to finish only to have it fail at the last second. The CI server will
+sit in front of your terminal waiting for the build to finish, only to have it fail at the last second. The CI server will
 run this for you within its scripts and notify you as soon as something goes wrong.
 
 ## 5. Check the status of a Merge Request before merging
