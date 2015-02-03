@@ -38,7 +38,7 @@ you will feel the shame that comes with having your coverage percentage go down 
 ## 3. Deploy your code to production
 
 You can have the CI server automatically deploy your code to production if all the test within a given branch are green.
-This is what is formally known as **Continuous Deployment**, or as **Oh my God, that was scary, I'm glad my code worked!**
+This is what is formally known as **Continuous Deployment**, or **Oh my God, that was scary, I'm glad my code worked!**
 in some circles.
 
 ## 4. Build stuff now
@@ -68,7 +68,7 @@ it takes to review a merge request.
 # GitLab CI
 
 Of course if you are in the market for a CI server, we kindly encourage you to use [GitLab CI](https://about.gitlab.com/gitlab-ci/),
-specially because it includes all the features we mentioned here and more!
+especially because it includes all features we mentioned here and more!
 
 Want to give it a try right now? Grab a [runner package](https://gitlab.com/gitlab-org/omnibus-gitlab-runner/blob/master/doc/install/README.md)
 install it on your server and you can have free CI for your private repositories on GitLab.com and [https://ci.gitlab.com/](https://ci.gitlab.com/)
