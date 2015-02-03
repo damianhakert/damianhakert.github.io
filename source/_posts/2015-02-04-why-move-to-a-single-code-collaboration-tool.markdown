@@ -5,6 +5,7 @@ date: 2015-02-4
 comments: true
 categories:
 author: Marc Radulescu
+image_title: '/images/stock/one_instance.jpeg'
 ---
 
 Say your department has five teams, and each team is running it's own code collaboration tool.
