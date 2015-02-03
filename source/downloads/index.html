@@ -13,7 +13,7 @@ platforms:
                     sudo dpkg -i gitlab_7.7.2-omnibus.5.4.2.ci-1_amd64.deb
   dependency_commands: |
                        sudo apt-get install openssh-server
-                       sudo apt-get install postfix # Select 'Internet Site' (or use sendmail, but exim is problematic)
+                       sudo apt-get install postfix
 - name: ubuntu1404
   long_name: Ubuntu 14.04
   download_command: wget https://downloads-packages.s3.amazonaws.com/ubuntu-14.04/gitlab_7.7.2-omnibus.5.4.2.ci-1_amd64.deb
@@ -21,7 +21,7 @@ platforms:
                     sudo dpkg -i gitlab_7.7.2-omnibus.5.4.2.ci-1_amd64.deb
   dependency_commands: |
                     sudo apt-get install openssh-server
-                    sudo apt-get install postfix # Select 'Internet Site' (or use sendmail, but exim is problematic)
+                    sudo apt-get install postfix
 
 - name: debian7
   long_name: Debian 7
@@ -30,9 +30,9 @@ platforms:
                     sudo dpkg -i gitlab_7.7.2-omnibus.5.4.2.ci-1_amd64.deb
   dependency_commands: |
                     sudo apt-get install openssh-server
-                    sudo apt-get install postfix # Select 'Internet Site' (or use sendmail, but exim is problematic)
+                    sudo apt-get install postfix
 - name: centos6
-  long_name: CentOS 6 (and RedHat/Oracle/Scientific Linux)
+  long_name: CentOS 6 (and RedHat/Oracle/Scientific Linux 6)
   download_command: curl -O https://downloads-packages.s3.amazonaws.com/centos-6.6/gitlab-7.7.2_omnibus.5.4.2.ci-1.el6.x86_64.rpm
   install_commands: |
                     sudo rpm -i gitlab-7.7.2_omnibus.5.4.2.ci-1.el6.x86_64.rpm
@@ -43,9 +43,9 @@ platforms:
                     sudo service postfix start
                     sudo chkconfig postfix on
 
-  post_reconfigure: sudo lokkit -s http -s ssh # open up the firewall for HTTP and SSH requests
+  firewall_open: sudo lokkit -s http -s ssh
 - name: centos7
-  long_name: CentOS 7 (and RedHat/Oracle/Scientific Linux)
+  long_name: CentOS 7 (and RedHat/Oracle/Scientific Linux 7)
   download_command: curl -O https://downloads-packages.s3.amazonaws.com/centos-7.0.1406/gitlab-7.7.2_omnibus.5.4.2.ci-1.el7.x86_64.rpm
   install_commands: |
                     sudo rpm -i gitlab-7.7.2_omnibus.5.4.2.ci-1.el7.x86_64.rpm
@@ -56,8 +56,8 @@ platforms:
                     sudo yum install postfix
                     sudo systemctl enable postfix
                     sudo systemctl start postfix
-  post_reconfigure: |
-                    sudo firewall-cmd --permanent --add-service=http # open up the firewall for HTTP and SSH requests
+  firewall_open: |
+                    sudo firewall-cmd --permanent --add-service=http
                     sudo systemctl reload firewalld
 ---
 <div class="wrapper container">
@@ -96,15 +96,18 @@ platforms:
               </p>
             </div>
             <div class="tab-step">
+              <h4>1. Install and configure the necessary dependencies</h4>
               <p>
-                Install the necessary dependencies
+                If you install Postfix to send email please select 'Internet Site' during setup.
+                Instead of using Postfix you can also use Sendmail or <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/settings/smtp.md">configure a custom SMTP server</a>.
+                Do not use Exim to send email from GitLab.
               </p>
               <p>
-                <pre>{{platform.dependency_commands}}</pre>
+                <pre>{{platform.dependency_commands}}{{platform.firewall_open}}</pre>
               </p>
             </div>
             <div class="tab-step">
-              <p>Download the Omnibus package and install everything</p>
+              <h4>2. Download the Omnibus package and install everything</h4>
               <p>
               <pre>{{platform.download_command}}
 {{platform.install_commands}}</pre>
@@ -112,17 +115,15 @@ platforms:
             </div>
 
             <div class="tab-step">
-              <p>Configure and start GitLab</p>
+              <h4>3. Configure and start GitLab</h4>
               <p>
-                <pre>sudo gitlab-ctl reconfigure
-{{platform.post_reconfigure}}</pre>
+                <pre>sudo gitlab-ctl reconfigure</pre>
               </p>
             </div>
 
             <div class="tab-step">
+              <h4>4. Browse to the hostname and login</h4>
               <p>
-                Browse to the hostname and login
-                <br />
                 Username: root
                 <br />
                 Password: 5iveL!fe
