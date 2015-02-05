@@ -17,6 +17,7 @@
         url('/fonts/korolevlight.svg#KorolevLight') format('svg');
 }
 
+
 @font-face {
     font-family: 'KorolevLightItalic';
     src: url('/fonts/korolevlightitalic.eot');
