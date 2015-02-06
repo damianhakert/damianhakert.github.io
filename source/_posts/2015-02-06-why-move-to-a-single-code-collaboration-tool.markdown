@@ -64,13 +64,13 @@ However, that solution is [scalable](https://about.gitlab.com/high-availability/
 
 You might think that one tool restricts you to just one workflow.
 However, Git allows for a number of different workflows for your teams to choose from.
-And if they are not comfortable with any, feel free to recommend them the [GitLab flow](http://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows).
+And if they are not comfortable with any, feel free to recommend them the [GitLab flow](https://about.gitlab.com/2014/09/29/gitlab-flow/).
 
 ## There are several next steps to consider.
 
 Start by taking a look at what GitLab has to offer.
 
-With a subscription, you will give you access to a [feature-rich]((https://about.gitlab.com/features/#compare) self-hosted solution capable of scaling to thousands of projects and users.
+With a subscription, you will give you access to a [feature-rich](https://about.gitlab.com/features/#compare) self-hosted solution capable of scaling to thousands of projects and users.
 
 We can help you migrate your projects from other tools such as [SVN](http://doc.gitlab.com/ce/workflow/migrating_from_svn.html) or [GitHub](http://doc.gitlab.com/ce/workflow/import_projects_from_github.html) with ur built-in GitHub importer.
 We will help you set a GitLab instance up.
