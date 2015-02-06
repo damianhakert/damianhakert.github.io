@@ -27,9 +27,11 @@ extra_js:
         <div class="col-sm-12 col-md-8 head-non-bg">
           <div class="title">GitLab <br> <b>Community edition</b></div>
           <div class="header-text">
-            GitLab is an incredibly powerful <b>open source</b> code collaboration platform, git repository manager, issue tracker and code reviewer. It integrates with issue trackers, continuous integration services and our Enterprise Edition has phenomenal LDAP and Active Directory support.
-            <b>To install it on your own server, click below to download.</b>
-
+            <uL>
+              <li><b>Feature rich</b>: Git repository management, code reviews, issue tracking, activity feeds, wikis and continuous integration</li>
+              <li><b>Open Source</b>: MIT licensed, community driven, 700+ contributors, inspect and modify the source, easy to integrate into your infrastructure</li>
+              <li><b>Scalable</b>: support 25,000 users on one server or a highly available active/active cluster</li>
+            </ul>
             <div class="actions">
               <a href="/downloads" class="btn btn-default btn-lg" onClick="_gaq.push(['_trackEvent', 'Features', 'GitLab CE Header', 'Download']);">Download</a>
               <a href="https://gitlab.com/gitlab-org/gitlab-ce/tree/master" class="btn btn-default btn-lg" onClick="_gaq.push(['_trackEvent', 'Features', 'GitLab CE Header', 'Source + Readme']);">Source + Readme</a>
@@ -136,6 +138,7 @@ extra_js:
 
       <div class="description">
         GitLab Enterprise Edition builds on top of the Community Edition and includes extra features mainly aimed at organizations with more than 100 users.
+        It has LDAP group sync, audit logs and multiple roles.
         It includes deeper authentication and authorization integration, has fine-grained workflow management, has extra server management options and it integrates with your tool stack.
         GitLab EE runs on your servers, for our SaaS offering please see <a href="/gitlab-com">GitLab.com</a>
       </div>
