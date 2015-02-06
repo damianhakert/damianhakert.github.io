@@ -23,7 +23,6 @@ But underneath all that happiness, trouble slowly brews.
 
 ## Is there anything actually wrong?
 
-Yes.
 The only reason why your teams are happy, is that someone is putting extra effort in keeping your setup together.
 
 First of all, the teams are having trouble collaborating.
@@ -44,7 +43,7 @@ If so, that's five agreements to maintain and bother with, and five vendors to m
 ## You can free up resources by consolidating to a single tool.
 
 This way, you're improving collaboration between teams.
-With GitLab EE for instance, all the project master needs to do is press two buttons, and their project is shared with another team.
+With GitLab Enterprise Edition for instance, all the project master needs to do is press two buttons, and their project is shared with another team.
 For a front-facing instance, just [switch](http://doc.gitlab.com/ce/public_access/public_access.html) to "internal" privacy and your project is now [innersourced](https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/)
 
 Keep security management high level.
