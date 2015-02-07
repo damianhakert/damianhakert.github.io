@@ -244,16 +244,8 @@ hr.thick {
 #landing {
     padding: 30px 0;
     background: #548;
-    min-height: 450px;
+    min-height: 480px;
     overflow: hidden;
-}
-
-#landing h1 {
-  font-size: 48px;
-  color: white;
-  font-family: "Open Sans", "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
-  padding-top: 50px;
-  font-weight: 600;
 }
 
 #landing p {

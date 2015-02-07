@@ -20,18 +20,17 @@ extra_css:
 
         <div class="col-sm-12 col-md-12 text-left">
           <p class="text-center">
-            <ul class="landing-feature-list">
-              <li><a href="https://about.gitlab.com/downloads/">Download the open source GitLab CE and install it on own server in two minutes</a></li>
-              <li><a href="https://about.gitlab.com/pricing/">A subscription provides you with official support and the additional enterprise features of GitLab EE</a></li>
-              <li><a href="https://about.gitlab.com/gitlab-com/">The free GitLab.com online service gives unlimited (private) repositories and collaborations</a></li>
-            </ul>
+            <div class="landing-ctas">
+              <a href="https://about.gitlab.com/downloads/" class="ce" onClick="_gaq.push(['_trackEvent', 'Landing page', 'call to action', 'Download']);">Download and install the open source GitLab CE in 2 minutes</a>
+              <br>
+              <a href="https://about.gitlab.com/pricing/" class="ee" onClick="_gaq.push(['_trackEvent', 'Landing page', 'call to action', 'Pricing']);">Pricing for support and the enterprise features of GitLab EE</a>
+              <br>
+              <a href="https://gitlab.com/users/sign_in" class="com" onClick="_gaq.push(['_trackEvent', 'Landing page', 'call to action', 'GitLab.com']);">
+                Sign up for GitLab.com with unlimited free (private) repositories and collaborators
+              </a>
+              <br>
+            </div>
           </p>
-
-          <div class="landing-button" id="landing-cta">
-            <a href="/downloads" class="btn btn-warning btn-lg action-button" onClick="_gaq.push(['_trackEvent', 'Landing page', 'call to action', 'Download']);">Download</a>
-            <a class="btn btn-info btn-lg action-button" href="/features/" onClick="_gaq.push(['_trackEvent', 'Landing page', 'call to action', 'Features']);"> Features</a>
-            <a href="/pricing" class="btn btn-success btn-lg action-button" onClick="_gaq.push(['_trackEvent', 'Landing page', 'call to action', 'Get a subscription']);">Pricing</a>
-          </div>
         </div>
       </div>
     </div>
