@@ -345,8 +345,22 @@ a.btn-default:hover {
   margin: 15px;
 }
 
+.pricing-notes {
+  max-width: 900px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 5px;
+  background: white;
+  margin: auto;
+}
+
 .pricing-notes p {
-  text-align: center;
+  text-align: left;
   font-size: 18px;
-  margin-bottom: 26px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  padding: 12px;
+}
+
+.pricing-notes p:last-child {
+  border-bottom: 0;
 }
