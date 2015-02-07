@@ -38,38 +38,9 @@
 }
 
 .landing-ctas a {
-  padding: 8px 0;
-}
-
-.landing-ctas a::after {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background: rgba(255,255,255,0.8);
-  content: '';
-  opacity: 0;
-  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-  -moz-transition: opacity 0.3s, -moz-transform 0.3s;
-  transition: opacity 0.3s, transform 0.3s;
-  -webkit-transform: translateY(10px);
-  -moz-transform: translateY(10px);
-  transform: translateY(10px);
-}
-
-.landing-ctas a:hover::after,
-.landing-ctas a:focus::after {
-  opacity: 1;
-  -webkit-transform: translateY(0px);
-  -moz-transform: translateY(0px);
-  transform: translateY(0px);
-}
-
-.landing-ctas a {
   position: relative;
   display: inline-block;
-  margin: 15px 25px;
+  margin: 25px 25px;
   outline: none;
   color: #fff;
   text-decoration: none;
@@ -79,7 +50,49 @@
   font-size: 1.35em;
 }
 
-.landing-ctas a:hover,
-.landing-ctas a:focus {
-  outline: none;
+.landing-ctas a {
+  padding: 7px 10px 5px;
+  color: white;
+  text-shadow: none;
+  font-weight: 700;
+}
+
+.landing-ctas a::before,
+.landing-ctas a::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: rgba(255,255,255,0.5);
+  content: '';
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+  -webkit-transform: scale(0.85);
+  -moz-transform: scale(0.85);
+  transform: scale(0.85);
+}
+
+.landing-ctas a::after {
+  opacity: 0;
+  -webkit-transition: top 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: top 0.3s, opacity 0.3s, -moz-transform 0.3s;
+  transition: top 0.3s, opacity 0.3s, transform 0.3s;
+}
+
+.landing-ctas a:hover::before,
+.landing-ctas a:hover::after,
+.landing-ctas a:focus::before,
+.landing-ctas a:focus::after {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  transform: scale(1);
+  background: rgba(255,255,255,1);
+}
+
+.landing-ctas a:hover::after,
+.landing-ctas a:focus::after {
+  top: 0%;
+  opacity: 1;
 }
