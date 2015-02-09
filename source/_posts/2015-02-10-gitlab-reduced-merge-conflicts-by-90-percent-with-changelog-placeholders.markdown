@@ -20,6 +20,8 @@ to add a line to this changelog. Unfortunately, the amount of merge requests lea
 
 ## Problem
 
+[![:(](/images/conflict.png)](/images/conflict.png)
+
 The order in which merge requests are accepted is not know in advance.
 Most merge request added a new line to the changelog the end of the upcoming version.
 This meant that upon merging a single merge request, all other unmerged MRs were immediately broken, since they modified the same line.
