@@ -8,45 +8,104 @@ extra_css:
 
 <div class="wrapper">
   <div class="image-title" style="background: url(/images/ci/fox.jpeg); background-size: 100%;">
-    <div class="color-bg">
-      <h1>GitLab Continuous Integration</h1>
-      <h3>Let GitLab test, build, deploy your code.</h3>
+    <div class="row">
+      <div class="col-xs-6 col-sm-3"></div>
+      <div class="col-xs-6 col-sm-6 color-bg">
+        <h1>GitLab Continuous Integration</h1>
+        <h3>Let GitLab test, build, deploy your code today!</h3>
+        <div class="row" style="padding:50px;">
+          <div class="col-md-12">
+            <a class="btn-lg btn-default" href="https://about.gitlab.com/2014/11/04/gitlab-omnibus-packages-now-include-gitlab-ci/" role="button" style="background: #5D4D93;color: white;border-color: white;transition: all 0.2s;border-width: 0px;">Download</a>
+            <a class="btn-lg btn-default" href="http://doc.gitlab.com/ci/" role="button" style="background: #5D4D93;color: white;border-color: white;transition: all 0.2s;border-width: 0px;">Documentation</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3"></div>
     </div>
   </div>
+</div>
 
   <div class="sub-wrapper">
-
-    <div class="centered-single-block">
-      <img src="/images/gitlab_ci/icon_gitlab_ci.png" alt="GitLab Continuous Integration" style="width: 35%; margin-bottom: 50px;" />
-
-      <h4>Fully integrated with GitLab</h4>
-      <p>
-        GitLab CI is fully integrated with GitLab.
-        No need for separate authentication and all your projects are immediately available.
-      </p>
-      <div class="spacer50">
-        <span class="glyphicon glyphicon-chevron-down"></span>
+    
+    <div class="row features">
+      <div class="col-xs-6 col-sm-1"></div>
+      <div class="col-xs-6 col-sm-4 gitlab-image"></div>
+      <div class="col-xs-6 col-sm-6">
+        <h1>What are the advantages?</h1>
+        <ul>
+          <li><b>Easy to set up</b> with included Omnibus packages of GitLab CE / GitLab EE.</li>
+          <li><b>Beautiful interface</b> with a clear menu structure.</li>
+          <li><b>Performant and stable</b>, as tests run distributed on separate machines.</li>
+          <li><b>Receive test results faster</b> with each commit running in parallel on multiple jobs.</li>
+          <li><b>Free to use and completely open source</b></li>
+        </ul>
       </div>
+      <div class="col-xs-6 col-sm-1"></div>
     </div>
 
-    <div class="row hor-cen">
-      <div class="col-sm-6">
-        <div class="half-block right">
-          <img src="/images/ci/main.png" alt="" />
-        </div>
-      </div>
 
-      <div class="col-sm-6">
-        <div class="half-block left hor-cen-block">
-          <h4>What's up? Now you know.</h4>
-          <p>
-            Add as many projects as you’d like to GitLab CI.
-            When opening CI, you immediately get a quick overview of all the projects available to you. Open a project and you see all the recent builds,
-            sorted neatly.
-          </p>
-        </div>
+    <div class="row more-features">
+      <div class="col-xs-6 col-sm-1"></div>
+      <div class="col-xs-6 col-sm-4 gitlab-ci"></div>
+      <div class="col-xs-6 col-sm-6">
+        <h1>What's up? Now you know.</h1>
+        <ul>
+          <li>Adding a project and setting up the hooks is accomplished in one click.</li>
+          <li>One click to see the real-time build log output.</li>
+          <li>You can see the test results inside the merge request of GitLab.</li>
+        </ul>        
       </div>
+      <div class="col-xs-6 col-sm-1"></div>
     </div>
 
+    <div class="row integration">
+      <div class="col-xs-6 col-sm-1"></div>
+      <div class="col-xs-6 col-sm-6">
+        <h1>Fully integrated with GitLab</h1>
+        <ul>
+          <li>GitLab CI is fully integrated with GitLab.</li>
+          <li>No need for separate authentication and all your projects are immediately available.</li>
+        </ul>
+      </div>
+      <div class="col-xs-6 col-sm-4 gitlab-wolf-image">
+        <img src="/images/ci/gitlab-wolf.png" alt="" />
+      </div>
+      <div class="col-xs-6 col-sm-1"></div>
+    </div>
+
+    <div class="row requirements">
+      <div class="col-xs-6 col-sm-1"></div>
+      <div class="col-xs-6 col-sm-4">
+        <i class="fa fa-apple fa-5x"></i>
+        <i class="fa fa-windows fa-5x"></i>
+        <i class="fa fa-linux fa-5x"></i>
+      </div>
+      <div class="col-xs-6 col-sm-6">
+        <h1>Requirements</h1>
+        <h4>GitLab CI is officially supported on these Linux distributions:</h4>
+        <ul>
+          <li>Ubuntu</li>  
+          <li>Debian/GNU</li>
+          <li>CentOS</li>
+          <li>Red Hat Enterprise Linux</li>
+          <li>Scientific Linux</li>
+          <li>Oracle Linux</li>
+        </ul>
+      </div>
+      <div class="col-xs-6 col-sm-1"></div>
+    </div>    
+
+    <div class="row documentation">
+      <div class="col-xs-6 col-sm-1"></div>
+      <div class="col-xs-6 col-sm-10">
+        <h1>More Links</h1>
+        <ul>
+          <li>To propose and discuss new features of CI, please visit our <a href="http://feedback.gitlab.com/forums/176466-general/category/64310-gitlab-ci">forums.</a></li>
+          <li>For further documentation, please visit our <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/gitlab-ci/README.md">README.</a></li>
+          <li>If you would like to download directly from source, you may visit <a href="http://feedback.gitlab.com/forums/176466-general/category/64310-gitlab-ci">here</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-6 col-sm-1"></div>
+    </div>
   </div>
 </div>
