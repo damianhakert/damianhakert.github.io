@@ -33,7 +33,6 @@ At GitLab we solved the above problem by adding a 100 lines with just a hyphen p
 People can insert their changelog line at a random location in the changelog.
 There is still a chance of conflict when two merge requests change the same line but it is greatly reduced.
 It looks a bit strange to have these empty lines on top so we added a [comment to explain their purpose on top](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG#L1).
-We removed the version from the top as well so that there is an even smaller chance of conflicts.
 
 [![What developer happiness looks like](/images/accept.png)](/images/accept.png)
 
