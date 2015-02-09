@@ -22,6 +22,8 @@ about ad nauseam and there's certainly good reasons why but let's take
 a moment to highlight some of the reasons why on-premise is not such a
 bad idea after all.
 
+<!-- more -->
+
 ## Containment
 Firewalls exist to protect private networks from unauthorized access.
 Containing your companies IP to within their own network puts the
