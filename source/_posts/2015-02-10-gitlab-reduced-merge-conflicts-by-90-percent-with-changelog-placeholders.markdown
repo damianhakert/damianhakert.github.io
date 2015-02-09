@@ -16,7 +16,7 @@ that details all significant new features, bugfixes and changes to behaviour.
 Every pull/merge request author is [encouraged](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#merge-request-guidelines)
 to add a line to this changelog. Unfortunately, the amount of merge requests lead to a time-consuming problem.
 
-<--! more -->
+<!-- more -->
 
 ## Problem
 
@@ -30,8 +30,10 @@ The authors of the merge requests had to solve the merge conflict with a commit 
 At GitLab we solved the above problem by adding a 100 lines with just a hyphen placeholder at the top of the changelog.
 People can insert their changelog line at a random location in the changelog.
 There is still a chance of conflict when two merge requests change the same line but it is greatly reduced.
-It looks a bit strange to have these empty lines on top so we added a [comment to explane their purpose on top](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG#L1).
-We removed the version from the top as well so that there is even less chance of
+It looks a bit strange to have these empty lines on top so we added a [comment to explain their purpose on top](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG#L1).
+We removed the version from the top as well so that there is even less chance of conflicts.
+
+[![What developer happiness looks like](/images/accept.png)](/images/accept.png)
 
 As [part of the monthly release process](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/release/monthly.md#prepare-changelog-for-next-release) all the empty lines are removed and new ones for the upcoming release are added.
 The placeholders ensure that lead GitLab developer Dmitriy can merge new contributions easily from his iPad.
