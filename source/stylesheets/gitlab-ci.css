@@ -88,82 +88,58 @@ li {
   background-position-y: -205px;
 }
 
+.features div:nth-child(2){
+  margin-top: 30px;
+}
+
 .more-features {
   margin: 50px 0 50px 0;
 }
+
+  .more-features div:nth-child(3) {
+    left: 5%;
+    margin-top: 60px;
+  }
 
 .requirements {
   margin: 50px 0 50px 0;
 }
 
-  .requirements div:nth-child(2) {
-    text-align: center;
-    top: 28px;
-    display: block;
+  .requirements i.fa-linux {
+    font-size: 12em;
+    border: 2px solid #548;
+    padding: 27px;
+    border-radius: 17px;
+    color: #548;
   }
 
-    .requirements div:nth-child(2) i:nth-child(2) {
-      display: block;
-    }
-
-/*
-.centered-single-block,
-.half-block {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 400px;
-}
-.centered-single-block {
-  text-align: center;
-}
-
-.centered-single-block h4,
-.half-block h4 {
-  font-family: Korolev-Medium;
-  font-size: 27px;
-  color: #050505;
-  line-height: 32px;
-  font-weight: 400;
+  .requirements div:nth-child(3) {
+    padding-left: 80px;
   }
 
-.centered-single-block p,
-.half-block p {
-  font-family: Korolev-Light;
-  font-size: 20px;
-  color: #050505;
-  line-height: 24px;
+.integration div:nth-child(2) {
+  margin-top: 25px;
 }
 
-.half-block img {
-  max-width: 450px;
-  margin: auto 0;
-  border-radius: 5px;
-  box-shadow: 0px 2px 3px 0px #ccc;
+.documentation i.fa-code {
+  font-size: 4em;
+  border: 2px solid #548;
+  padding: 27px;
+  border-radius: 17px;
+  color: #548;
+  margin-top: 33px;
 }
 
-.spacer50 {
-  margin: 50px 0;
-  font-size: 2rem;
-  color: rgba(206,206,206,0.93);
+.documentation div:nth-child(3) {
+  padding-left: 66px;
 }
 
-.half-block.right {
-  margin-right: 0;
-}
-
-.half-block.left {
-  margin-left: 0;
-}
-
-.hor-cen {
-  position: relative;
-}
-
-.hor-cen-block {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 30%;
-  width: 50%;
-  margin: -15% 0 0 -25%;
+.divider {
+  margin: auto;
+  margin-top: 80px;
+  width: 970px;
+  border-color: #D3D3D3;
+  border-width: 1px;
+  max-width: 100%;  
+  margin-bottom: 60px;
 }
