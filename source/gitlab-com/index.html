@@ -1,97 +1,119 @@
 ---
 layout: default
 title: GitLab.com
+suppress_header: true
 extra_css:
   - gitlab-com.css
 ---
-<div id="content">
-  <div class="container txt-lefty">
-    <div class="row">
-      <div class="col-sm-8 col-sm-offset-2">
-        <h2>GitLab.com is Gitlab as a Service</h2>
-        <p>
-          GitLab.com can host your software projects for free.
-          It offers (private) repositories, issue tracking, wiki's and continuous integration.
-          It runs <a href="/features/#enterprise">GitLab Enterprise Edition</a> and <a href="/gitlab-ci">GitLab CI</a>.
-          You don't have to install anything, just sign up below for a free account.
-        <div class="button-holder">
-          <a class="btn btn-success btn-lg" href="https://gitlab.com/users/sign_in" onClick="_gaq.push(['_trackEvent', 'GitLab-com', 'Try GitLab', 'Sign Up']);">Sign Up</a>
-        </div><!-- button-holder -->
-        <h2>Advantages over GitHub</h2>
-        <ul>
-          <li>Unlimited repositories</li>
-          <li>Unlimited private collaborators</li>
-          <li>Unlimited disk space *</li>
-          <li>Completely free, no credit card required</li>
-          <li>Free Continuous Integration (CI) on <a href="https://ci.gitlab.com">ci.gitlab.com</a></li>
-        </ul>
-        <p><em>* For performance reasons there is a soft limit of 1GB per repository</em></p>
-        <h2>Support package</h2>
 
-        <p>
-          Free subscribers can use the <a href="https://gitlab.com/gitlab-com/support-forum/issues">GitLab.com Support Forum</a> if they have questions.
-          If you purchase <a href="https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20">GitLab.com Bronze Support</a> you can email support directly for timely, personal and private answers.
-          This costs $9.99 per user per year for next-business-day response time and is available in packs of 20 users.
-        </p>
-
-        <br>
-
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h3 class="panel-title">Free</h3>
-              </div>
-              <div class="panel-body">
-                <b>Unlimited</b> private and public repositories
-                <br>
-                <b>Unlimited</b> private collaborators
-                <br>
-                Support via <a href="https://gitlab.com/gitlab-com/support-forum/issues">the forum</a>
-                <br>
-                <br>
-                <b>Completely free</b>
-                <br>
-                <br>
-                <a href="https://gitlab.com/users/sign_up" class="btn btn-md btn-default">Create an account</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-6">
-            <div class="panel panel-purple">
-              <div class="panel-heading">
-                <h3 class="panel-title">+ Support</h3>
-              </div>
-              <div class="panel-body">
-                <b>Unlimited</b> private and public repositories
-                <br>
-                <b>Unlimited</b> private collaborators
-                <br>
-                <b>Next-business day support</b>
-                <br>
-                <br>
-                <b>$9.90 per per user/year in multiples of 20 users</b>
-                <br>
-                <br>
-                <a href="https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20" class="btn btn-md btn-purple">Order support</a>
-              </div>
-            </div>
+<div class="wrapper">
+  <div class="image-title" style="background: url(/images/ci/fox.jpeg); background-size: 100%;">
+    <div class="row" id="heading">
+      <div class="col-xs-6 col-sm-3"></div>
+      <div class="col-xs-6 col-sm-6 color-bg">
+        <h1>GitLab.com as a Service</h1>
+        <h3>GitLab.com will host your software projects for free. It offers private repositories, issue-tracking, wikis and continuous integration. It runs GitLab Enterprise Edition and GitLab CI. No installation required, just sign up below for a free account!</h3>
+        <div class="row" style="padding:50px;">
+          <div class="col-md-12">
+            <a class="btn-lg btn-default" href="https://about.gitlab.com/2014/11/04/gitlab-omnibus-packages-now-include-gitlab-ci/" role="button" style="background: #5D4D93;color: white;border-color: white;transition: all 0.2s;border-width: 0px;">Join Our Community!</a>
           </div>
         </div>
+      </div>
+      <div class="col-xs-6 col-sm-3"></div>
+    </div>
+  </div>
+</div>
 
+<div class="sub-wrapper">
+  <div class="row">
+    <div class="col-xs-6 col-sm-1"></div>
+    <div class="col-xs-6 col-sm-6">
+      <h1>Advantages over GitHub</h1>
+      <ul>
+          <li>Unlimited repositories</li>
+          <li>Unlimited private collaborators</li>
+          <li>Unlimited disk space*</li>
+          <li>Completely free, no credit card required</li>
+          <li>Free Continuous Integration (CI) on <a href="https://ci.gitlab.com">ci.gitlab.com</a></li>
+          <p><em>* For performance reasons, there is a soft limit of 1GB per repository</em></p>
+      </ul>
+    </div>
+    <div class="col-xs-6 col-sm-4"></div>
+    <div class="col-xs-6 col-sm-1"></div>
+  </div>
 
+  <div class="row">
+    <div class="col-xs-6 col-sm-2"></div>
+    <div class="col-xs-6 col-sm-4 gitlab-ci"></div>
+    <div class="col-xs-6 col-sm-6" style="left:5%;">
+      <h1>Support package</h1>
+      <ul>
+        <li>Free subscribers can use the <a href="https://gitlab.com/gitlab-com/support-forum/issues">GitLab.com Support Forum</a> if they have questions.</li>
+          <li>If you purchase <a href="https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20">GitLab.com Bronze Support</a> you can email support directly for timely, personal and private answers. This costs $9.99 per user per year for next-business-day response time and is available in packs of 20 users.</li>
+      </ul>        
+    </div>
+  </div>
 
-        <h2>Availability</h2>
-        <p>
-          GitLab.com is monitored 24/7. For updates follow <a href="https://twitter.com/gitlabstatus">@gitlabstatus</a>
-          or see our <a title="status" href="http://status.gitlab.com/">status page</a>.
-        </p>
-        <h2>Security</h2>
-        <p>
-          The public key fingerprint of gitlab.com when you connect over ssh is:  f1:d0:fb:46:73:7a:70:92:5a:ab:5d:ef:43:e2:1c:35
-        </p>
+  <div class="row">
+    <div class="col-xs-6 col-sm-1"></div>
+    <div class="col-xs-6 col-sm-6">
+      <h1>Availability/Security</h1>
+      <ul>
+        <li>GitLab.com is monitored 24/7. For updates follow <a href="https://twitter.com/gitlabstatus">@gitlabstatus</a>
+          or see our <a title="status" href="http://status.gitlab.com/">status page</a>.</li>
+        <li>The public key fingerprint of gitlab.com when you connect over ssh is: f1:d0:fb:46:73:7a:70:92:5a:ab:5d:ef:43:e2:1c:35</li>
+      </ul>
+    </div>
+    <div class="col-xs-6 col-sm-4 gitlab-wolf-image">
+      <img src="/images/ci/gitlab-wolf.png" alt="" />
+    </div>
+    <div class="col-xs-6 col-sm-1"></div>
+  </div>
+
+  <div class="row">
+    <div class="panels">
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Free</h3>
+          </div>
+          <div class="panel-body">
+            <b>Unlimited</b> private and public repositories
+            <br>
+            <b>Unlimited</b> private collaborators
+            <br>
+            Support via <a href="https://gitlab.com/gitlab-com/support-forum/issues">the forum</a>
+            <br>
+            <br>
+            <b>Completely free</b>
+            <br>
+            <br>
+            <a href="https://gitlab.com/users/sign_up" class="btn btn-md btn-default">Create an account</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="panel panel-purple">
+          <div class="panel-heading">
+            <h3 class="panel-title">+ Support</h3>
+          </div>
+          <div class="panel-body">
+            <b>Unlimited</b> private and public repositories
+            <br>
+            <b>Unlimited</b> private collaborators
+            <br>
+            <b>Next-business day support</b>
+            <br>
+            <br>
+            <b>$9.90 per per user/year in multiples of 20 users</b>
+            <br>
+            <br>
+            <a href="https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20" class="btn btn-md btn-purple">Order support</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
