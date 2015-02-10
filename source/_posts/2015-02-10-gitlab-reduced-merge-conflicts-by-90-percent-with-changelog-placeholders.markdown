@@ -27,6 +27,14 @@ Most merge request added a new line to the changelog the end of the upcoming ver
 This meant that upon merging a single merge request, all other unmerged MRs were immediately broken, since they modified the same line.
 The authors of the merge requests had to solve the merge conflict with a commit or rebase before their code could be merged in the web UI.
 
+## Update
+
+ayufan suggested a much better solution in the comments of this article.
+If you add `CHANGELOG merge=union` to the .gitattributes file in the root of the repo you should not have any conflicts.
+Instead of leaving conflicts the [union merge option](http://git-scm.com/docs/git-merge-file) will resolve conflicts favouring both side of the lines.
+An example of such a setting change is in the [endgamesingularity repo](https://code.google.com/p/endgame-singularity/source/browse/.gitattributes).
+Thanks ayufan, we'll try this instead.
+
 ## Solution
 
 At GitLab we solved the above problem by adding a 100 lines with just a hyphen placeholder at the top of the changelog.
