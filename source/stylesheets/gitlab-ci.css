@@ -108,11 +108,11 @@ li {
   margin-top: 75px;
 }
 
-.documentation {
+.links {
   padding-bottom: 30px;
 }
 
-  .documentation i.fa-code {
+  .links i.fa-code {
     font-size: 4em;
     border: 2px solid #548;
     padding: 27px;
@@ -121,7 +121,7 @@ li {
     margin-top: 33px;
   }
 
-  .documentation div:nth-child(3) {
+  .links div:nth-child(3) {
     padding-left: 66px;
   }
 
