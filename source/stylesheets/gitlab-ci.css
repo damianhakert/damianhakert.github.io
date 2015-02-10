@@ -143,3 +143,24 @@ li {
   max-width: 100%;  
   margin-bottom: 60px;
 }
+
+/* buttons */
+
+#download {
+  animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+}
+
+#documentation {
+  animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;  
+}
+
+.download-btn-style {
+  background: #5D4D93;
+  color: white;
+  border-color: white;
+  border-width: 0px;
+}
