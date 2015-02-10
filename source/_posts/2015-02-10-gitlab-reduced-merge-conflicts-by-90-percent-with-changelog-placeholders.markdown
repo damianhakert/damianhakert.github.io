@@ -30,15 +30,15 @@ The authors of the merge requests had to solve the merge conflict with a commit 
 ## Solution
 
 At GitLab we solved the above problem by adding a 100 lines with just a hyphen placeholder at the top of the changelog.
-People can insert their changelog line at a random location in the changelog.
+People can insert their entry at a random location in the changelog.
 There is still a chance of conflict when two merge requests change the same line but it is greatly reduced.
-It looks a bit strange to have these empty lines on top so we added a [comment to explain their purpose on top](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG#L1).
+It looks a bit strange to have these empty lines on top so we added a [comment to explain their purpose.](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG#L1).
 
 [![What developer happiness looks like](/images/accept.png)](/images/accept.png)
 
 As [part of the monthly release process](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/release/monthly.md#prepare-changelog-for-next-release) all the empty lines are removed and new ones for the upcoming release are added.
 The placeholders ensure that lead GitLab developer Dmitriy can merge new contributions easily from his iPad.
-Which has lead to more late-night merging activity making everyone happy.
+Which has led to more late-night merging activity making everyone happy.
 
 ## What do you do?
 
