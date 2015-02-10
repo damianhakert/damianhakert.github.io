@@ -71,10 +71,10 @@ li {
   background-position-y: -76px;
 }
 
-.gitlab-raccoon-dog-image img {
-  width: 30%;
-  margin-top: 7%;
-  margin-left: 35%;
+.gitlab-raccoon-dog-image {
+  width: 59%;
+  margin-top: 32px;
+  margin-left: 23%;
 }
 
 .gitlab-ci {
@@ -92,33 +92,20 @@ li {
   margin-top: 30px;
 }
 
-.more-features {
-  margin: 50px 0 50px 0;
+.more-features div:nth-child(3) {
+  margin-top: 60px;
 }
 
-  .more-features div:nth-child(3) {
-    left: 5%;
-    margin-top: 60px;
-  }
-
-.requirements {
-  margin: 50px 0 50px 0;
+.requirements i.fa-linux {
+  font-size: 12em;
+  border: 2px solid #548;
+  padding: 27px;
+  border-radius: 17px;
+  color: #548;
 }
-
-  .requirements i.fa-linux {
-    font-size: 12em;
-    border: 2px solid #548;
-    padding: 27px;
-    border-radius: 17px;
-    color: #548;
-  }
-
-  .requirements div:nth-child(3) {
-    padding-left: 80px;
-  }
 
 .integration div:nth-child(2) {
-  margin-top: 25px;
+  margin-top: 75px;
 }
 
 .documentation i.fa-code {
