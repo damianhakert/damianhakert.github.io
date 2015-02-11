@@ -94,6 +94,7 @@ li {
   background-position-x: -415px;
   background-position-y: -205px;
 }
+
 .features div:first-child {
   margin-top: 3%;
 }
@@ -166,7 +167,7 @@ li {
   border-width: 0px;
 }
 
-.download-btn-style:hover {
-  text-decoration: none;
-}
+  .download-btn-style:hover {
+    text-decoration: none;
+  }
 
