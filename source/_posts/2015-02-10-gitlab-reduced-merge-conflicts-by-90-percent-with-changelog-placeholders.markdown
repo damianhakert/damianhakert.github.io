@@ -27,6 +27,8 @@ Most merge request added a new line to the changelog the end of the upcoming ver
 This meant that upon merging a single merge request, all other unmerged MRs were immediately broken, since they modified the same line.
 The authors of the merge requests had to solve the merge conflict with a commit or rebase before their code could be merged in the web UI.
 
+{% include downloads_partial.html %}
+
 ## Update
 
 ayufan suggested a much better solution in the comments of this article.
@@ -53,3 +55,5 @@ Which has led to more late-night merging activity making everyone happy.
 We hope this article inspires other open and closed source projects to reduce their merge conflicts.
 Or if you don't have a changelog yet to start maintaining one, it sure beats doing git diffs all the time.
 Please let us know if you are inspired or if you have any other tricks to share in the comments.
+
+{% include downloads_partial.html %}
