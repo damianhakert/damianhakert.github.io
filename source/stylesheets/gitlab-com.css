@@ -21,6 +21,75 @@ li {
   font-size: 14px;
 }
 
+.header {
+  margin: 2% 0 3% 0;
+}
+
+.header-feature-small ul {
+  list-style-image: url("/images/gitlab-com/raccoon-dog-icon.jpg");
+  color: white;
+  width: 90%;
+  margin: 7% 0 0 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.header-feature {
+  display:inline-block;
+}
+
+  .header-feature ul {
+    width: 107%;
+  }
+
+    .header-feature li:first-child {
+      margin-left: 0;
+      text-align: center;
+      width: 23%;
+      float: left;
+      border: 1px solid white;
+      border-radius: 14px;
+      padding: 2px;
+      height: 235px;
+      width: 200px;
+    }
+
+      .header-feature li:first-child p {
+        padding-top: 4%;
+      }
+
+    .header-feature li:nth-child(2) {
+      text-align: center;
+      width: 23%;
+      float: left;
+      margin-left: 3%;
+      border: 1px solid white;
+      border-radius: 14px;
+      padding: 5px;
+      height: 235px;
+      width: 185px
+    }
+
+      .header-feature li:nth-child(2) p {
+        padding-top: 16%;
+      }
+
+    .header-feature li:nth-child(3) {
+      text-align: center;
+      width: 23%;
+      float: left;
+      margin-left: 3%;
+      border: 1px solid white;
+      border-radius: 14px;
+      padding: 2px;
+      height: 236px;
+      width: 190px;
+    }
+
+      .header-feature li:nth-child(3) p {
+        padding-top: 15%;
+      }
+
 .image-title .color-bg {
   text-align: center;
   padding-bottom: 2%;
@@ -77,12 +146,36 @@ li {
     height: 0;
 }
 
-.panels {
-  padding: 30px 150px 0 150px;
-}
-
 .row {
   margin: 20px 0 20px 0;
+}
+
+.advantages div:nth-child(3) {
+  margin-top: 4%;
+}
+
+  .advantages div:nth-child(3) img {
+    width: 167px;
+  }
+
+  .advantages div:nth-child(3) .fa {
+    font-size: 12em;
+    float: right;
+    width: 43%;
+  }
+
+.support i {
+  font-size: 13em;
+  color: #548;
+  border: 4px solid #548;
+  border-radius: 40px;
+  padding: 22px;
+}
+
+.security .fa {
+  font-size: 14em;
+  color: darkblue;
+  margin-left: 10%;
 }
 
 .divider {
@@ -105,8 +198,7 @@ li {
 .join-btn-style {
   background: #5D4D93;
   color: white;
-  border-color: white;
-  border-width: 0px;
+  border: 1px solid white;
 }
 
   .join-btn-style:hover {
@@ -116,4 +208,9 @@ li {
 .content ul,
 .content li, p {
   font-size: 16px;
+}
+
+#footer {
+  padding: 0;
+  border-top: 0;
 }

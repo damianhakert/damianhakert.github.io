@@ -13,35 +13,48 @@ extra_js:
     <div class="color-bg">
       <div>
         <h1>GitLab as a Service</h1>
-        <h3>GitLab.com will host your software projects for free.</h3>
-        <div style="margin: 2% 0 3% 0;">
+        <h3>GitLab.com will host your software projects for free!</h3>
+        <div class="header">
          <a href="https://about.gitlab.com/2014/11/04/gitlab-omnibus-packages-now-include-gitlab-ci/" id="join-community">Join Our Community!</button></a>
-        </div>        
-        <div style="display:inline-block;">
-          <ul class="hidden-sm hidden-xs" style="width: 107%;">
-            <li style="margin-left: 0;text-align: center;width: 23%;float: left;border: 1px solid white;border-radius: 14px;padding: 2px;height: 235px;width: 200px;">
-              <i class="fa fa-arrow-down"></i>
-              <p>It offers private repositories, issue-tracking, wikis and continuous integration.</p>
+        </div>     
+        <div class="header-feature hidden-sm hidden-xs">
+          <ul>
+            <li>
+              <i class="fa fa-chevron-down"></i>
+              <p>Free private repositories, issue-tracking, wikis and continuous integration.</p>
             </li>
-            <li style="text-align: center;width: 23%;float: left;margin-left: 3%;border: 1px solid white;border-radius: 14px;padding: 5px;height: 235px;width: 185px">
-              <i class="fa fa-arrow-down"></i>
+            <li>
+              <i class="fa fa-chevron-down"></i>
               <p>It runs GitLab Enterprise Edition and GitLab CI.</p> 
             </li>       
-            <li style="text-align: center;width: 23%;float: left;margin-left: 3%;border: 1px solid white;border-radius: 14px;padding: 2px;height: 236px;width: 190px;">
-              <i class="fa fa-arrow-down"></i>
-              <p>No installation required, just sign up below for a free account!</p>
+            <li>
+              <i class="fa fa-chevron-down"></i>
+              <p>No installation required, just sign up above for a free account!</p>
             </li>
           </ul>
         </div>
+        <div class="header-feature-small hidden-md hidden-lg">
+          <ul>
+            <li>
+              <h4>Free private repositories, issue-tracking, wikis and continuous integration.</h4>
+            </li>
+            <li>
+              <h4>It runs GitLab Enterprise Edition and GitLab CI.</h4> 
+            </li>       
+            <li>
+              <h4>No installation required, just sign up above for a free account!</h4>
+            </li>
+          </ul>
+        </div>   
       </div>
     </div>
   </div>
 
   <div class="sub-wrapper">
     <div class="container">
-      <div class="row">
-        <div class="col-xs-6 col-md-1"></div>
-        <div class="col-xs-6 col-md-6">
+      <div class="row advantages">
+        <div class="col-xs-1 col-md-1"></div>
+        <div class="col-xs-12 col-md-6">
           <h1>Advantages over GitHub</h1>
           <ul>
               <li>Unlimited repositories</li>
@@ -52,29 +65,34 @@ extra_js:
               <p><em>* For performance reasons, there is a soft limit of 1GB per repository</em></p>
           </ul>
         </div>
-        <div class="col-xs-6 col-md-4"></div>
-        <div class="col-xs-6 col-md-1"></div>
-      </div>
-
-      <hr class="divider" />
-
-      <div class="row">
-        <div class="col-xs-6 col-md-2"></div>
-        <div class="col-xs-6 col-md-4 gitlab-ci"></div>
-        <div class="col-xs-6 col-md-6" style="left:5%;">
-          <h1>Support package</h1>
-          <ul>
-            <li>Free subscribers can use the <a href="https://gitlab.com/gitlab-com/support-forum/issues">GitLab.com Support Forum</a> if they have questions.</li>
-              <li>If you purchase <a href="https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20">GitLab.com Bronze Support</a> you can email support directly for timely, personal and private answers. This costs $9.99 per user per year for next-business-day response time and is available in packs of 20 users.</li>
-          </ul>        
+        <div class="col-md-4 hidden-sm hidden-xs">
+          <img src="/images/gitlab-com/raccoon-dog.jpg" alt="" />
+          <i class="fa fa-github"></i>
         </div>
+        <div class="col-xs-6 col-md-1"></div>
       </div>
 
       <hr class="divider" />
 
-      <div class="row">
+      <div class="row support">
         <div class="col-xs-6 col-md-1"></div>
-        <div class="col-xs-6 col-md-6">
+        <div class="col-xs-6 col-md-5">
+          <i class="fa fa-briefcase hidden-xs hidden-sm"></i>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <h1>Support Package</h1>
+            <ul>
+              <li>Free subscribers can use the <a href="https://gitlab.com/gitlab-com/support-forum/issues">GitLab.com Support Forum</a> if they have questions.</li>
+                <li>If you purchase <a href="https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20">GitLab.com Bronze Support</a> you can email support directly for timely, personal and private answers. This costs $9.99 per user per year for next-business-day response time and is available in packs of 20 users.</li>
+            </ul>   
+        </div>
+      </div>  
+
+      <hr class="divider" />
+
+      <div class="row security">
+        <div class="col-xs-1 col-md-1"></div>
+        <div class="col-xs-12 col-md-6">
           <h1>Availability/Security</h1>
           <ul>
             <li>GitLab.com is monitored 24/7. For updates follow <a href="https://twitter.com/gitlabstatus">@gitlabstatus</a>
@@ -82,10 +100,10 @@ extra_js:
             <li>The public key fingerprint of gitlab.com when you connect over ssh is: f1:d0:fb:46:73:7a:70:92:5a:ab:5d:ef:43:e2:1c:35</li>
           </ul>
         </div>
-        <div class="col-xs-6 col-md-4 gitlab-wolf-image">
-          <img src="/images/ci/gitlab-wolf.png" alt="" />
+        <div class="col-md-4 hidden-xs hidden-sm">
+          <i class="fa fa-terminal"></i>
         </div>
-        <div class="col-xs-6 col-md-1"></div>
+        <div class="col-xs-1 col-md-1"></div>
       </div>
 
       <hr class="divider" />
