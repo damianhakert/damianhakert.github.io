@@ -31,12 +31,9 @@ li {
 }
 
 .header-feature-small ul {
-  list-style-image: url("/images/gitlab-com/raccoon-dog-icon.jpg");
   color: white;
   width: 90%;
   margin: 7% 0 0 0;
-  padding: 0;
-  list-style-position: inside;
 }
 
 .header-feature {
@@ -46,6 +43,7 @@ li {
   .header-feature ul {
     width: 107%;
     padding: 0;
+    list-style-type: none;  
   }
 
     .header-feature li:hover {
@@ -137,10 +135,6 @@ li {
 
   .color-bg p {
     font-size: 21px;
-  }
-
-  .color-bg ul {
-    list-style-type: none;
   }
 
     .color-bg li {
