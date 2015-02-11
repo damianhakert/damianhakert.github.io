@@ -11,8 +11,13 @@ li {
   font-weight:200;
 }
 
-#heading {
-  margin: 0;
+.wrapper {
+  min-height: 0;
+  margin: 0 auto;
+}
+
+  .wrapper:after {
+    height: 0;
 }
 
 .navbar-nav li {
@@ -40,22 +45,27 @@ li {
 
   .header-feature ul {
     width: 107%;
+    padding: 0;
   }
 
+    .header-feature li:hover {
+      background: rgba(57, 38, 113, 0.49);
+    }
+
     .header-feature li:first-child {
-      margin-left: 0;
+      margin-left: -4%;
       text-align: center;
       width: 23%;
       float: left;
       border: 1px solid white;
       border-radius: 14px;
-      padding: 2px;
+      padding: 3px;
       height: 235px;
-      width: 200px;
+      width: 230px;
     }
 
       .header-feature li:first-child p {
-        padding-top: 4%;
+        padding-top: 13%;
       }
 
     .header-feature li:nth-child(2) {
@@ -89,6 +99,11 @@ li {
       .header-feature li:nth-child(3) p {
         padding-top: 15%;
       }
+
+.image-title {
+  background: url(/images/gitlab-com/animal.jpg);
+  background-size: 100%; 
+}
 
 .image-title .color-bg {
   text-align: center;
@@ -137,14 +152,7 @@ li {
   display: inline;
 }
 
-.wrapper {
-  min-height: 0;
-  margin: 0 auto;
-}
 
-  .wrapper:after {
-    height: 0;
-}
 
 .row {
   margin: 20px 0 20px 0;
