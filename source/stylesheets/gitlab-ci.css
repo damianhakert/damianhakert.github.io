@@ -19,9 +19,10 @@ li {
 
 .image-title .color-bg {
   text-align: center;
+  padding-bottom: 4%;
   height: 100%;
   width: 100%;
-  margin: -1px;
+  margin-top: -1px;
   background: rgba(57, 38, 113, 0.49);
   background-image: linear-gradient(-180deg, rgba(8,114,161,0.83) 0%, rgba(57, 38, 113, 0.49) 100%);
 }
@@ -40,6 +41,10 @@ li {
     color: #fff;
     line-height: 32px;
     padding-bottom: 30px;
+  }
+
+  .color-bg div:nth-child(2) {
+    padding-top: 8%;
   }
 
 .image-title .row:nth-child(2) {
@@ -61,6 +66,8 @@ li {
 }
 
 .gitlab-image {
+  margin-top: 2%;
+  padding-top: 2%;
   width: 270px;
   height: 270px;
   border-radius: 150px;
@@ -71,10 +78,10 @@ li {
   background-position-y: -76px;
 }
 
-.gitlab-wolf-image img {
-  width: 30%;
-  margin-top: 7%;
-  margin-left: 35%;
+.gitlab-raccoon-dog-image {
+  width: 59%;
+  margin-top: 32px;
+  margin-left: 23%;
 }
 
 .gitlab-ci {
@@ -88,82 +95,79 @@ li {
   background-position-y: -205px;
 }
 
-.more-features {
-  margin: 50px 0 50px 0;
+.features div:first-child {
+  margin-top: 3%;
 }
 
-.requirements {
-  margin: 50px 0 50px 0;
+.features div:nth-child(2){
+  margin-top: 30px;
 }
 
-  .requirements div:nth-child(2) {
-    text-align: center;
-    top: 28px;
-    display: block;
+.more-features div:nth-child(3) {
+  margin-top: 60px;
+}
+
+.requirements i.fa-linux {
+  font-size: 12em;
+  border: 2px solid #548;
+  padding: 27px;
+  border-radius: 17px;
+  color: #548;
+}
+
+.integration div:nth-child(2) {
+  margin-top: 75px;
+}
+
+.links {
+  padding-bottom: 30px;
+}
+
+  .links i.fa-code {
+    font-size: 4em;
+    border: 2px solid #548;
+    padding: 27px;
+    border-radius: 17px;
+    color: #548;
+    margin-top: 33px;
   }
 
-    .requirements div:nth-child(2) i:nth-child(2) {
-      display: block;
-    }
-
-/*
-.centered-single-block,
-.half-block {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 400px;
-}
-.centered-single-block {
-  text-align: center;
-}
-
-.centered-single-block h4,
-.half-block h4 {
-  font-family: Korolev-Medium;
-  font-size: 27px;
-  color: #050505;
-  line-height: 32px;
-  font-weight: 400;
+  .links div:nth-child(3) {
+    padding-left: 66px;
   }
 
-.centered-single-block p,
-.half-block p {
-  font-family: Korolev-Light;
-  font-size: 20px;
-  color: #050505;
-  line-height: 24px;
+.divider {
+  margin: auto;
+  margin-top: 80px;
+  width: 970px;
+  border-color: #D3D3D3;
+  border-width: 1px;
+  max-width: 100%;  
+  margin-bottom: 60px;
 }
 
-.half-block img {
-  max-width: 450px;
-  margin: auto 0;
-  border-radius: 5px;
-  box-shadow: 0px 2px 3px 0px #ccc;
+/* buttons */
+
+#download {
+  animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
 }
 
-.spacer50 {
-  margin: 50px 0;
-  font-size: 2rem;
-  color: rgba(206,206,206,0.93);
+#documentation {
+  animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;  
 }
 
-.half-block.right {
-  margin-right: 0;
+.download-btn-style {
+  background: #5D4D93;
+  color: white;
+  border-color: white;
+  border-width: 0px;
 }
 
-.half-block.left {
-  margin-left: 0;
-}
+  .download-btn-style:hover {
+    text-decoration: none;
+  }
 
-.hor-cen {
-  position: relative;
-}
-
-.hor-cen-block {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 30%;
-  width: 50%;
-  margin: -15% 0 0 -25%;
-}
