@@ -192,16 +192,9 @@ a {
   }
 
     .advantages div:nth-child(3) img {
-      width: 151px;
+      width: 430px;
       position: absolute;
-    }
-
-    .advantages div:nth-child(3) p {
-      font-family: "Korolev-Compressed";
-      font-size: 6em;
-      font-weight: 100;
-      float: right;
-      margin-top: 20px;
+      left: 46px;
     }
 
 .support i {
