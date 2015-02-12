@@ -147,6 +147,51 @@ hr.thick {
     text-align: right;
 }
 
+@font-face {
+    font-family: 'Korolev-Light';
+    src: url('/fonts/korolev/Korolev-Light.otf');
+}
+
+@font-face {
+    font-family: 'Korolev-LightItalic';
+    src: url('/fonts/korolev/Korolev-Light-Italic.otf');
+}
+
+@font-face {
+    font-family: 'Korolev-Medium';
+    src: url('/fonts/korolev/Korolev-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Korolev-Thin';
+    src: url('/fonts/korolev/Korolev-Thin.otf');
+}
+
+@font-face {
+    font-family: 'Korolev-Bold-Italic';
+    src: url('/fonts/korolev/Korolev-Bold-Italic.otf');
+}
+
+@font-face {
+    font-family: 'Korolev-Heavy';
+    src: url('/fonts/korolev/Korolev-Heavy.otf');
+}
+
+@font-face {
+    font-family: 'Korolev-Thin-Italic';
+    src: url('/fonts/korolev/Korolev-Thin-Italic.otf');
+}
+
+@font-face {
+    font-family: 'Korolev-Heavy-Italic';
+    src: url('/fonts/korolev/Korolev-Heavy-Italic.otf');
+}
+
+@font-face {
+    font-family: 'Korolev-Medium-Italic';
+    src: url('/fonts/korolev/Korolev-Medium-Italic.otf');
+}
+
 /* Buttons
 -------------------------------------------------- */
 .btn-action {
