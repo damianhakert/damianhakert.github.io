@@ -163,8 +163,7 @@ li {
 .download-btn-style {
   background: #5D4D93;
   color: white;
-  border-color: white;
-  border-width: 0px;
+  border: 1px solid white;
 }
 
   .download-btn-style:hover {
