@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why deploy on-premises in the SaaS era?"
-date: 2015-02-10
+date: 2015-02-12
 comments: true
 categories:
 author: Haydn Mackay
@@ -9,13 +9,13 @@ image_title: '/images/stock/on_premises.jpeg'
 ---
 
 When I started in the software industry 10 years ago the idea of
-putting your companies crown jewels (source code) on someone else
+putting your company's crown jewels (source code) on someone else's
 infrastructure was preposterous. It was typically the domain of
 open-source projects or hobby programmers looking to avoid server
-management, taking backups, etc., and although some services have been
-around since the late 90's it wasn't until the second half of the last
-decade that 3rd party code hosting became more acceptable, especially
-among SME's. There's been a proliferation of providers in the space since.
+management, taking backups, etc. Although some services have been
+around since the late 90's it wasn't until the [second half of the last
+decade](http://en.wikipedia.org/wiki/Comparison_of_source_code_software_hosting_facilities) that 3rd party code hosting became more acceptable, especially
+among SME's. There's been a [proliferation of providers](http://blog.profitbricks.com/top-source-code-repository-hosts/) in the space since.
 
 The advantages of SaaS over on-premise deployments has been written
 about ad nauseam and there's certainly good reasons why but let's take
@@ -28,9 +28,9 @@ bad idea after all.
 Firewalls exist to protect private networks from unauthorized access.
 Containing your companies IP to within their own network puts the
 security onus squarely on them and they can lock it down like Fort Knox
-should they wish. Let's not forget what happened to poor old Code
-Space. Lots of lessons learned after the attack but with a hosting
-provider you're still putting the kids in someone else's car and your
+should they wish. Let's not forget what [happened to poor old Code
+Space](http://www.infoworld.com/article/2608076/data-center/murder-in-the-amazon-cloud.html). Lots of lessons learned after the attack but with a hosting
+provider you're still putting the kids in someone else's car and you're
 not driving.
 
 ## Integrations – LDAP / AD and others
@@ -38,7 +38,7 @@ Managing permissions and access controls to code repositories is an
 important responsibility. Having the ability to authenticate users
 against an LDAP or Active Directory server makes this task less
 daunting because they contain the single source of truth about an
-employees status. Furthermore, synchronizing LDAP and AD groups to your
+employee's status. Furthermore, synchronizing LDAP and AD groups to your
 development project groups automates access controls by ensuring up to
 date visibility levels. Using a multi tenant hosting provider makes
 authentication against LDAP and AD servers impossible.
@@ -82,6 +82,6 @@ Getting your IP back from cloud vendors that store data in proprietary formats c
 
 ## Conclusion
 Although there's plenty of good reasons for using a hosted solution,
-the advantages of on-premise deployments should not be over looked.
+the advantages of on-premise deployments should not be overlooked.
 GitLab is the most adopted on-premise solution for developer
 collaboration, deployed at over 100,000 organizations worldwide.
