@@ -379,8 +379,6 @@ hr.thick {
     overflow: hidden;
 }
 
-<<<<<<< HEAD
-=======
 #landing h1 {
     font-size: 48px;
     color: white;
@@ -388,7 +386,6 @@ hr.thick {
     padding-top: 50px;
 }
 
->>>>>>> hi/new_landing_page
 #landing p {
     color: white;
     font-size: 18px;
@@ -928,75 +925,6 @@ h2.terms {
     }
 }
 @media (max-width: 979px) {
-<<<<<<< HEAD
-  .navbar .btn-dropnav {
-    display: block;
-  }
-  .navbar .nav-collapse .nav > li > a,
-  .nav-collapse .dropdown-menu a  {
-    display: inline-block;
-  }
-  .nav-collapse .dropdown-menu a {
-    color: #D6DFE5;
-    font-weight: normal;
-  }
-  .nav-collapse .nav > li > a:hover,
-  .nav-collapse .dropdown-menu a:hover {
-    background-color: #308CCF;
-  }
-  .dropdown-menu li > a:hover,
-  .dropdown-menu li > a:focus,
-  .dropdown-submenu:hover > a {
-    background-image: none;
-  }
-  .navbar .nav-collapse.nav .active > a {
-    margin-left: 5px;
-  }
-  .navbar .nav-collapse .nav > li.active > a,
-  .navbar .nav-collapse .nav > li.active:hover > a,
-  .navbar .nav-collapse .nav .active > a,
-  .navbar .nav-collapse .nav .active > a:hover,
-  .navbar .nav-collapse .nav .active > a:focus {
-	border-bottom: medium none;
-	padding: 9px 15px;
-  }
-  .navbar .nav-collapse .nav > li > a:hover {
-	-webkit-animation-name: slide;
-	-moz-animation-name: slide;
-	-o-animation-name: slide;
-	animation-name: slide;
-  }
-  .navbar .nav li.dropdown.open > .dropdown-toggle,
-  .navbar .nav li.dropdown.active > .dropdown-toggle,
-  .navbar .nav li.dropdown.open.active > .dropdown-toggle {
-	-webkit-animation-name: none;
-	-moz-animation-name: none;
-	-o-animation-name: none;
-	animation-name: none;
-  }
-  #landing {
-    margin: 0;
-  }
-  #landingSlide,
-  #header,
-  #content {
-    margin: 20px -20px;
-	  padding: 30px 20px;
-  }
-  .product-plan .feature .pull-right {
-	float: none;
-  }
-  #headline {
-    margin-left: -20px;
-    margin-right: -20px;
-    padding: 20px;
-  }
-  #copywrite {
-    margin-left: -20px;
-    margin-right: -20px;
-    padding: 0 20px;
-  }
-=======
     .navbar .btn-dropnav {
         display: block;
     }
@@ -1078,7 +1006,6 @@ h2.terms {
     #landing {
         height: auto;
     }
->>>>>>> hi/new_landing_page
 }
 
 /* Tablets to Phones
