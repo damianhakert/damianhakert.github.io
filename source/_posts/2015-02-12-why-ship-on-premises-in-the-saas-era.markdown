@@ -33,6 +33,8 @@ Space](http://www.infoworld.com/article/2608076/data-center/murder-in-the-amazon
 provider you're still putting the kids in someone else's car and you're
 not driving.
 
+{% include downloads_partial.html %}
+
 ## Integrations – LDAP / AD and others
 Managing permissions and access controls to code repositories is an
 important responsibility. Having the ability to authenticate users
