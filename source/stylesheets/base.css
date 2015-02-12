@@ -147,6 +147,46 @@ hr.thick {
     text-align: right;
 }
 
+@font-face {
+    font-family: 'Korolev-Light';
+    src: url('/fonts/korolevlight.eot');
+    src: url('/fonts/korolevlight.eot') format('embedded-opentype'),
+        url('/fonts/korolevlight.woff2') format('woff2'),
+        url('/fonts/korolevlight.woff') format('woff'),
+        url('/fonts/korolevlight.ttf') format('truetype'),
+        url('/fonts/korolevlight.svg#KorolevLight') format('svg');
+}
+
+@font-face {
+    font-family: 'Korolev-LightItalic';
+    src: url('/fonts/korolevlightitalic.eot');
+    src: url('/fonts/korolevlightitalic.eot') format('embedded-opentype'),
+        url('/fonts/korolevlightitalic.woff2') format('woff2'),
+        url('/fonts/korolevlightitalic.woff') format('woff'),
+        url('/fonts/korolevlightitalic.ttf') format('truetype'),
+        url('/fonts/korolevlightitalic.svg#KorolevLightItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'Korolev-Medium';
+    src: url('/fonts/korolevmedium.eot');
+    src: url('/fonts/korolevmedium.eot') format('embedded-opentype'),
+        url('/fonts/korolevmedium.woff2') format('woff2'),
+       url('/fonts/korolevmedium.woff') format('woff'),
+        url('/fonts/korolevmedium.ttf') format('truetype'),
+        url('/fonts/korolevmedium.svg#KorolevMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'Korolev-Thin';
+    src: url('/fonts/korolevthin.eot');
+    src: url('/fonts/korolevthin.eot') format('embedded-opentype'),
+        url('/fonts/korolevthin.woff2') format('woff2'),
+        url('/fonts/korolevthin.woff') format('woff'),
+        url('/fonts/korolevthin.ttf') format('truetype'),
+        url('/fonts/korolevthin.svg#KorolevThin') format('svg');
+}
+
 /* Buttons
 -------------------------------------------------- */
 .btn-action {
