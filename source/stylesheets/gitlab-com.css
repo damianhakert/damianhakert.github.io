@@ -165,7 +165,6 @@ a {
 
   .panels h1:first-child {
     text-align: center;
-    text-decoration: underline;
     margin-bottom: 3%;
   }
 
@@ -182,18 +181,27 @@ a {
   margin-top: 5%;
 }
 
+  .advantages ul p {
+    font-weight: 100;
+    font-size: 12px;
+  }
+
   .advantages div:nth-child(3) {
     margin-top: 4%;
+    width: 476px;
   }
 
     .advantages div:nth-child(3) img {
       width: 167px;
+      position: absolute;
     }
 
-    .advantages div:nth-child(3) .fa {
-      font-size: 12em;
+    .advantages div:nth-child(3) p {
+      font-family: 'Lobster', cursive;
+      font-size: 6em;
+      font-weight: 100;
       float: right;
-      width: 43%;
+      margin-top: 20px;
     }
 
 .support i {
