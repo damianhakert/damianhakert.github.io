@@ -1,10 +1,10 @@
 #landing {
-    padding: 0;
-    height: 530px;
-    overflow: hidden;
-    background-image: url(/images/ci/fox.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100%
+  padding: 0;
+  height: 630px;
+  overflow: hidden;
+  background-image: url(/images/ci/fox.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%
 }
 
 #landing,
