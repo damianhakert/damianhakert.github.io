@@ -282,10 +282,6 @@ hr.thick {
 
 /* Landing
 -------------------------------------------------- */
-.action-button {
-  font-weight: 600;
-}
-
 #landing {
     padding: 30px 0;
     background: #548;
@@ -296,11 +292,6 @@ hr.thick {
 #landing p {
   color: white;
   font-size: 18px;
-}
-
-.landing-button {
-  text-align: center;
-  padding-top: 20px;
 }
 
 #landing .main-screenshot {
@@ -325,10 +316,6 @@ hr.thick {
   #landing p {
     font-size: 1.6rem;
   }
-  .action-button {
-    width: 100%;
-    margin-bottom: 1.2rem;
-  }
   #landing .main-screenshot {
     padding-top: 2rem;
   }
@@ -341,9 +328,6 @@ hr.thick {
   }
   #landing p {
     font-size: 1.6rem;
-  }
-  .action-button {
-    margin-bottom: 1.2rem;
   }
   #landing .main-screenshot {
     padding-top: 2rem;

@@ -1,18 +1,65 @@
-#landing h1 {
-  font-size: 32px;
-  color: rgba(255, 255, 255, 1);
-  font-family: "Open Sans", "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
-  padding-top: 50px;
-  line-height: 41px;
-  font-weight: 600;
+#landing {
+    padding: 30px 0;
+    height: 700px;
+    overflow: hidden;
 }
 
+#landing,
+#landingSlide,
+#header,
+#content {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 30px 20px;
+}
+
+#landing .main-screenshot {
+    padding-top: 0;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#landing {
+    min-height: 750px;
+}
+
+@media (max-width: 530px) {
+    #landing {
+        min-height: 800px;
+    }
+}
+@media (max-width: 470px) {
+    #landing {
+        height: auto;
+    }
+}
+
+#landing h1 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Korolev-Medium';
+    padding-top: 50px;
+}
+
+#landing h3 {
+    font-size: 36px;
+    color: white;
+    font-family: 'Korolev-Light';
+}
+
+.landing-header {
+  line-height: 58px;
+  text-shadow: 0 0 1px rgba(255,255,255,0.3);
+}
+
+
 .landing-feature-list {
-  color: white;
-  font-size: 18px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 980px;
+    color: white;
+    font-size: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+    font-family: 'Korolev-Light';
 }
 
 .landing-header {
