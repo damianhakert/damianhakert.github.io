@@ -1,7 +1,10 @@
 #landing {
-    padding: 30px 0;
-    height: 700px;
+    padding: 0;
+    height: 530px;
     overflow: hidden;
+    background-image: url(/images/ci/fox.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%
 }
 
 #landing,
@@ -10,17 +13,30 @@
 #content {
     margin-left: -20px;
     margin-right: -20px;
-    padding: 30px 20px;
 }
 
 #landing .main-screenshot {
     padding-top: 0;
     display: inline-block;
     margin-top: 50px;
+    background: -moz-linear-gradient(top, rgba(85,68,136,0.85) 0%, rgba(85,68,136,0.85) 99%, rgba(85,68,136,0.85) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(85,68,136,0.85)), color-stop(99%,rgba(85,68,136,0.85)), color-stop(100%,rgba(85,68,136,0.85))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(85,68,136,0.85) 0%,rgba(85,68,136,0.85) 99%,rgba(85,68,136,0.85) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(85,68,136,0.85) 0%,rgba(85,68,136,0.85) 99%,rgba(85,68,136,0.85) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(85,68,136,0.85) 0%,rgba(85,68,136,0.85) 99%,rgba(85,68,136,0.85) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(85,68,136,0.85) 0%,rgba(85,68,136,0.85) 99%,rgba(85,68,136,0.85) 100%); /* W3C */
 }
 
-#landing {
-    min-height: 750px;
+#landing .container {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background: -moz-linear-gradient(top, rgba(85,68,136,0.85) 0%, rgba(85,68,136,0.85) 99%, rgba(85,68,136,0.85) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(85,68,136,0.85)), color-stop(99%,rgba(85,68,136,0.85)), color-stop(100%,rgba(85,68,136,0.85))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(85,68,136,0.85) 0%,rgba(85,68,136,0.85) 99%,rgba(85,68,136,0.85) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(85,68,136,0.85) 0%,rgba(85,68,136,0.85) 99%,rgba(85,68,136,0.85) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(85,68,136,0.85) 0%,rgba(85,68,136,0.85) 99%,rgba(85,68,136,0.85) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(85,68,136,0.85) 0%,rgba(85,68,136,0.85) 99%,rgba(85,68,136,0.85) 100%); /* W3C */
 }
 
 @media (max-width: 530px) {
@@ -52,16 +68,6 @@
   text-shadow: 0 0 1px rgba(255,255,255,0.3);
 }
 
-
-.landing-feature-list {
-    color: white;
-    font-size: 19px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 980px;
-    font-family: 'Korolev-Light';
-}
-
 .landing-header {
   line-height: 58px;
   text-shadow: 0 0 1px rgba(255,255,255,0.3);
@@ -80,8 +86,8 @@
 }
 
 .landing-ctas {
+  margin-top: 45px;
   text-align: center;
-  margin-top: 20px;
 }
 
 .landing-ctas a {
@@ -89,19 +95,13 @@
   display: inline-block;
   margin: 25px 25px;
   outline: none;
-  color: #fff;
+  color: white;
   text-decoration: none;
   letter-spacing: 1px;
-  font-weight: 400;
-  text-shadow: 0 0 1px rgba(255,255,255,0.3);
-  font-size: 1.35em;
-}
-
-.landing-ctas a {
+  font-size: 21px;
   padding: 7px 10px 5px;
-  color: white;
   text-shadow: none;
-  font-weight: 700;
+  font-family: "Korolev-Medium";
 }
 
 .landing-ctas a::before,
@@ -147,7 +147,7 @@
 .content {
   background-color: white;
   margin: 0;
-  padding: 80px;
+  padding: 30px;
 }
 
 .logos-holder {
@@ -221,5 +221,6 @@
   font-family: 'Korolev-Medium';
 }
 
-/* TESTIMONIALS */
-
+.videos h1 {
+  font-family: 'Korolev-Medium';
+}
