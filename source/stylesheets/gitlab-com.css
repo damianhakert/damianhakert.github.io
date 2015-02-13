@@ -106,7 +106,7 @@ a {
       }
 
 .image-title {
-  background: url(/images/gitlab-com/animal.jpg);
+background: url(/images/gitlab-com/animal.jpg);
   background-size: 100%; 
 }
 
@@ -187,7 +187,7 @@ a {
 
   .advantages div:nth-child(3) {
     margin-top: 4%;
-    width: 496px;
+    width: 446px;
   }
 
     .advantages div:nth-child(3) img {
@@ -196,7 +196,7 @@ a {
     }
 
     .advantages div:nth-child(3) p {
-      font-family: "Korolev-Compressed";
+      font-family: "Korolev-Medium";
       font-size: 6em;
       font-weight: 100;
       float: right;
