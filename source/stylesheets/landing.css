@@ -127,6 +127,31 @@
     max-height: 70px;
 }
 
+  .logos div:nth-child(1) .logos-inner {
+    padding-top: 38px;
+  }
+
+  .logos div:nth-child(8) .logos-inner {
+    padding-top: 24px;
+  }
+
+  .logos div:nth-child(11) .logos-inner {
+    padding-top: 25px;
+  }
+
+  .logos div:nth-child(11) img {
+    max-height: 107px;
+  }
+
+  .logos div:nth-child(17) .logos-inner {
+    padding-top: 38px;
+  }
+
+  .logos div:nth-child(18) .logos-inner {
+    padding-top: 40px;
+  }
+
+
 .logos small {
     color: #18191a;
     font-family: 'Korolev-Light';
