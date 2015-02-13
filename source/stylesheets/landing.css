@@ -7,14 +7,6 @@
     background-size: 100%
 }
 
-#landing,
-#landingSlide,
-#header,
-#content {
-    margin-left: -20px;
-    margin-right: -20px;
-}
-
 #landing .main-screenshot {
     padding-top: 0;
     display: inline-block;
