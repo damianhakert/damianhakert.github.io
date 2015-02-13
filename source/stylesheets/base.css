@@ -516,7 +516,7 @@ ul.plans {
   margin-left:15px;
 }
 
-  
+
 
 .gitlab{
   background-image: url(/images/gitlab.png);
@@ -895,7 +895,7 @@ h1.testimonial-head{
 }
 
 .testimonial {
-  background: #f8f8f8;
+  background: #fff;
   padding: 20px;
   box-shadow: 0px 2px 1px #DFDFDF;
   border: 1px solid #EFEFEF;
