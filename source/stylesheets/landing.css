@@ -144,7 +144,7 @@
   opacity: 1;
 }
 
-#content {
+.content {
   background-color: white;
   margin: 0;
   padding: 80px;
@@ -215,4 +215,8 @@
 .logos span {
     font-family: 'Korolev-Medium';
     color: #a0c720;
+}
+
+.twitter-head h2 {
+  font-family: 'Korolev-Medium';
 }
