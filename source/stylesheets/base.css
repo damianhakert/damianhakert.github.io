@@ -204,8 +204,7 @@ hr.thick {
 
 .navbar-default .navbar-brand {
   color: white;
-  ffont-family: "Open Sans", "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
-  font-weight: 600;
+  font-family: "Korolev-Medium";
 }
 
 .navbar-default .navbar-brand:hover {
@@ -214,8 +213,8 @@ hr.thick {
 
 .navbar-default .navbar-nav>li>a {
   color: white;
-  font-family: "Open Sans", "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
-  font-weight: 600;
+  font-family: "Korolev-Light";
+  font-size: 16px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -262,10 +261,6 @@ hr.thick {
 
 /* Landing
 -------------------------------------------------- */
-.action-button {
-  font-weight: 600;
-}
-
 #landing {
     padding: 30px 0;
     background: #548;
@@ -276,11 +271,6 @@ hr.thick {
 #landing p {
   color: white;
   font-size: 18px;
-}
-
-.landing-button {
-  text-align: center;
-  padding-top: 20px;
 }
 
 #landing .main-screenshot {
@@ -305,10 +295,6 @@ hr.thick {
   #landing p {
     font-size: 1.6rem;
   }
-  .action-button {
-    width: 100%;
-    margin-bottom: 1.2rem;
-  }
   #landing .main-screenshot {
     padding-top: 2rem;
   }
@@ -321,9 +307,6 @@ hr.thick {
   }
   #landing p {
     font-size: 1.6rem;
-  }
-  .action-button {
-    margin-bottom: 1.2rem;
   }
   #landing .main-screenshot {
     padding-top: 2rem;
@@ -339,7 +322,7 @@ hr.thick {
 }
 
 .testimonials {
-  padding: 50px 0 50px 0;
+  padding: 30px;
 }
 
 .videos {
@@ -512,6 +495,9 @@ ul.plans {
   float: left;
   margin-left:15px;
 }
+
+
+
 .gitlab{
   background-image: url(/images/gitlab.png);
   width: 40px;
@@ -882,13 +868,14 @@ body {
 }
 
 h1.testimonial-head{
+  font-family: "Korolev-Medium";
   text-align: center;
   margin-bottom: 35px;
   font-weight: 600;
 }
 
 .testimonial {
-  background: #f8f8f8;
+  background: #fff;
   padding: 20px;
   box-shadow: 0px 2px 1px #DFDFDF;
   border: 1px solid #EFEFEF;
@@ -908,6 +895,7 @@ h1.testimonial-head{
 }
 
 .testimonial .quote {
+  font-family: "Korolev-Medium";
   font-weight: 300;
   font-size: 1.7rem;
   text-align: justify;
@@ -917,6 +905,7 @@ h1.testimonial-head{
 }
 
 .testimonial .author {
+  font-family: "Korolev-Medium";
   text-align: right;
   float: none;
 }

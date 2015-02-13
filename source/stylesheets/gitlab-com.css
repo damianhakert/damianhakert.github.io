@@ -50,7 +50,7 @@ a {
   .header-feature ul {
     width: 107%;
     padding: 0;
-    list-style-type: none;  
+    list-style-type: none;
   }
 
     .header-feature li:hover {
@@ -106,8 +106,8 @@ a {
       }
 
 .image-title {
-  background: url(/images/gitlab-com/animal.jpg);
-  background-size: 100%; 
+background: url(/images/gitlab-com/animal.jpg);
+  background-size: 100%;
 }
 
 .image-title .color-bg {
@@ -120,8 +120,7 @@ a {
   background-image: linear-gradient(-180deg, rgba(8,114,161,0.83) 0%, rgba(57, 38, 113, 0.49) 100%);
 }
   .color-bg h1 {
-    font-family: "Korolev-Heavy";
-    font-weight: 600;
+    font-family: "Korolev-Medium";
     position: relative;
     padding: 64px 0 3px 0;
     margin-top: 0;
@@ -181,21 +180,28 @@ a {
   margin-top: 5%;
 }
 
-  .advantages ul p {
-    font-weight: 100;
-    font-size: 12px;
-  }
+.advantages ul p {
+  font-weight: 100;
+  font-size: 12px;
+}
 
-  .advantages div:nth-child(3) {
-    margin-top: 4%;
-    width: 496px;
-  }
+.advantages div:nth-child(3) {
+  margin-top: 4%;
+  width: 446px;
+}
 
-    .advantages div:nth-child(3) img {
-      width: 430px;
-      position: absolute;
-      left: 46px;
-    }
+.advantages div:nth-child(3) img {
+  width: 430px;
+  position: absolute;
+}
+
+.advantages div:nth-child(3) p {
+  font-family: "Korolev-Medium";
+  font-size: 6em;
+  font-weight: 100;
+  float: right;
+  margin-top: 20px;
+}
 
 .support i {
   font-size: 13em;
@@ -221,7 +227,7 @@ a {
   width: 970px;
   border-color: #D3D3D3;
   border-width: 1px;
-  max-width: 100%;  
+  max-width: 100%;
   margin-bottom: 60px;
 }
 
