@@ -27,10 +27,13 @@ extra_css:
                   {% endif %}
 
                   {{ content }}
+                  {% include downloads_partial.html %}
+                  
                   <hr>
                   <p>&rarr; <a href="/blog/archives.html">Browse all posts</a></p>
 
                   {% include newsletter_signup.html %}
+
 
                   <div id="disqus_thread"></div>
                   <script type="text/javascript">
