@@ -53,6 +53,10 @@ img {
   margin-top: -5px;
 }
 
+.active-state {
+  background: #6652A3;
+}
+
 iframe[name='google_conversion_frame'] {
   height: 0 !important;
   width: 0 !important;
