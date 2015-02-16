@@ -476,3 +476,20 @@ task :new_release_post, :version do |t, args|
     post.puts template_text
   end
 end
+
+###########
+# Testing #
+###########
+
+require 'html/proofer'
+
+htmlproof_options = {
+  checks_to_ignore: ['ImageCheck'],
+  href_ignore: ['http://localhost:4000'],
+  verbose: true
+}
+
+desc "Build and test website"
+task :test => [:clean, :generate] do
+  HTML::Proofer.new("./public", htmlproof_options ).run
+end
