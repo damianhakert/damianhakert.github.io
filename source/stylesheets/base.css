@@ -346,6 +346,11 @@ font-weight: 600;
 padding-bottom: 30px;
 }
 
+.videos .gitlab-video {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /* Page Header/Title
 -------------------------------------------------- */
 #header {
