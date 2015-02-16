@@ -47,9 +47,8 @@ GitLab annex ensures you can only acces files of projects you work on (developer
 
 As far as we know GitLab is the first git repository management solution that integrates git-annex.
 This is possible because both git-annex and GitLab stay very close to the unix paradigms.
-Internally GitLab uses GitLab Shell to handle ssh access and this was a great integration point for git-annex.
-TODO EXAMPLE
-We'll a setting to GitLab Shell so you can disable GitLab Annex for future versions.
+Internally GitLab uses [GitLab Shell](https://gitlab.com/gitlab-org/gitlab-shell) to handle ssh access and this was a great integration point for git-annex.
+We've added a setting to GitLab Shell so you can disable GitLab Annex support if you don't want it.
 
 Of course we are very thankful for the awesome git-annex software that makes all of this possible.
 It was mainly written by Joey Hess who's work is sponsered by [community fundraisers](https://campaign.joeyh.name/).
