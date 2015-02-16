@@ -1,7 +1,3 @@
-* {
-    font-family: "Korolev-Medium";
-    font-weight: 600;
-}
 
 h1 {
   color: #548;
@@ -13,8 +9,7 @@ li {
 }
 
 a {
-    font-family: "Korolev-Medium";
-    font-weight: 600;
+    font-family: "Korolev-Light";
 }
 
 .wrapper {
@@ -24,12 +19,6 @@ a {
 
   .wrapper:after {
     height: 0;
-}
-
-.navbar-nav li {
-  font-family: "Korolev-Medium";
-  font-weight: 600;
-  font-size: 14px;
 }
 
 .header {
