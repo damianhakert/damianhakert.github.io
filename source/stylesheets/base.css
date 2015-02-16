@@ -53,7 +53,7 @@ img {
   margin-top: -5px;
 }
 
-.active-state {
+.active-state a {
   background: #6652A3;
 }
 
@@ -206,14 +206,6 @@ hr.thick {
   border: 0;
 }
 
-.navbar-default .navbar-brand {
-  color: white;
-  font-family: "Korolev-Medium";
-}
-
-.navbar-default .navbar-brand:hover {
-  color: #A5ABFB;
-}
 
 .navbar-default .navbar-nav>li>a {
   color: white;
@@ -222,7 +214,8 @@ hr.thick {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #A5ABFB;
+  background: #6652A3;
+  color: white;
 }
 
 @media (min-width: 768px) {
