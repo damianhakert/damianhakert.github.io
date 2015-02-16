@@ -40,26 +40,6 @@ extra_js:
       <div class="col-md-4 gitlab-image hidden-xs hidden-sm"></div>
     </div>
 
-
-    <hr class="divider" />
-
-    <div class="row features">
-      <div class="col-xs-1 col-md-1"></div>
-      <div class="col-xs-10 col-md-11">
-        <h1>Additional Features</h1>
-        <ul>
-          <li><b>Single sign on</b>: Use the same login and password as on your GitLab instance.</li>
-          <li><b>Quick project setup</b>: Add your project in a single click, all setup automatic via the GitLab API.</li>
-          <li><b>Elegant and flexible</b>: Build scripts are written in base, test projects in any programming language.</li>
-          <li><b>Merge request integration</b>: See the status of the feature branch build within the Merge Request.</li>
-          <li><b>Distributed by default</b>: GitLab CI and build runners can run on separate machines providing more stability.</li>
-          <li><b>Realtime logging</b>: The current build log scrolls and updates every few seconds.</li>
-          <li><b>Parallel builds</b>: Split a build over multiple runners so it executes quickly.</li>
-        </ul>
-      <div class="col-xs-1 col-md-1"></div>
-      </div>
-    </div>
-
     <hr class="divider" />
 
     <div class="row more-features">
@@ -68,11 +48,15 @@ extra_js:
         <div class="gitlab-ci"></div>
       </div>
       <div class="col-xs-10 col-md-5">
-        <h1>What's up? Now you know.</h1>
+        <h1>Features</h1>
         <ul>
-          <li>Adding a project and setting up the hooks is accomplished in one click.</li>
-          <li>One click to see the real-time build log output.</li>
-          <li>You can see the test results inside the merge request of GitLab.</li>
+          <li><b>Single sign on</b>: Use the same login and password as on your GitLab instance.</li>
+          <li><b>Quick project setup</b>: Add your project in a single click, all hooks arr setup automatically via the GitLab API.</li>
+          <li><b>Elegant and flexible</b>: Build scripts are written in base, test projects in any programming language.</li>
+          <li><b>Merge request integration</b>: See the status of the test within the Merge Requestin GitLab.</li>
+          <li><b>Distributed by default</b>: GitLab CI and build runners can run on separate machines providing more stability.</li>
+          <li><b>Realtime logging</b>: A link in the merge requests takes you to the current build log that updates dynamically.</li>
+          <li><b>Parallel builds</b>: Split a build over multiple runners so it executes quickly.</li>
         </ul>        
       </div>
       <div class="col-xs-1 col-md-1"></div>
@@ -95,47 +79,13 @@ extra_js:
       <div class="col-xs-1 col-md-1"></div>
     </div>
 
-    <hr class="divider" />    
-
-    <div class="row requirements">
-      <div class="col-xs-1 col-md-1"></div>
-      <div class="col-md-3 hidden-xs hidden-sm">
-        <i class="fa fa-linux"></i>
-      </div>
-      <div class="col-xs-10 col-md-7">
-        <h1>Requirements</h1>
-        <h4>GitLab CI officially supports (recent versions of) these Linux distributions:</h4>
-        <ul>
-          <li>Ubuntu</li>  
-          <li>Debian/GNU</li>
-          <li>CentOS</li>
-          <li>Red Hat Enterprise Linux</li>
-          <li>Scientific Linux</li>
-          <li>Oracle Linux</li>
-        </ul>
-        <h4>Additionally, GitLab CI requires:</h4>
-        <ul>
-          <li>GitLab 7.7+ (to host the repositories you test)</li>
-          <li>Ruby 2.1.5</li>
-          <li>MySQL or PostgreSQL</li>
-        </ul>
-        <h4>Hardware Requirements</h4>
-        <ul>
-          <li>1GB of memory or more is recommended, 512MB works</li>
-          <li>2 CPU cores or more are recommended, 1 CPU core works</li>
-          <li>Little disk space, 100MB or less</li>
-        </ul>
-      </div>
-      <div class="col-xs-6 col-md-1"></div>
-    </div>
-
     <hr class="divider" />
 
     <div class="row gitlab-runner">
       <div class="col-xs-1 col-md-1"></div>
       <div class="col-xs-10 col-md-10">
         <h1>GitLab Runner</h1>
-        <h4>To perform the actual build, you need to install GitLab Runner. The next selection about Architecture explains what a runner does.</h4>
+        <p>To perform the actual build, you need to install GitLab Runner. The Architecture section explains what a runner does.</p>
         <ul>
           <li><a href="https://gitlab.com/gitlab-org/omnibus-gitlab-runner/blob/master/doc/install/README.md">GitLab Runner Omnibus package for Linux</a>: This is the recommended way to install GitLab Runner</li>
           <li><a href="https://gitlab.com/gitlab-org/gitlab-ci-runner">GitLab Runner source code for Linux</a></li>
@@ -147,7 +97,36 @@ extra_js:
       </div>
     </div>
 
-   <hr class="divider" />
+    <hr class="divider" />    
+
+    <div class="row requirements">
+      <div class="col-xs-1 col-md-1"></div>
+      <div class="col-md-3 hidden-xs hidden-sm">
+        <i class="fa fa-linux"></i>
+      </div>
+      <div class="col-xs-10 col-md-7">
+        <h1>Requirements</h1>
+        <h4>GitLab CI tests can be run on many platforms, see GitLab Runner below</h4>
+        <h4>GitLab CI the application runs on:</h4>
+        <ul>
+          <li>Ubuntu</li>  
+          <li>Debian</li>
+          <li>CentOS</li>
+          <li>Red Hat Enterprise Linux</li>
+          <li>Scientific Linux</li>
+          <li>Oracle Linux</li>
+        </ul>
+        <h4>Hardware Requirements</h4>
+        <ul>
+          <li>1GB of memory or more is recommended, 512MB works</li>
+          <li>2 CPU cores or more are recommended, 1 CPU core works</li>
+          <li>100MB of disk space</li>
+        </ul>
+      </div>
+      <div class="col-xs-6 col-md-1"></div>
+    </div>
+
+    <hr class="divider" />
 
     <div class="row architecture">
       <div class="col-xs-1 col-md-1"></div>
@@ -179,10 +158,10 @@ extra_js:
       <div class="col-xs-10 col-md-7">
         <h1>Installation</h1>
         <ul>
-          <li><a href="https://about.gitlab.com/downloads/">Omnibus packages</a> (recommended) now include the CI coordinator, see the <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/gitlab-ci/README.md">configuration instructions</a></li>
+          <li><a href="https://about.gitlab.com/downloads/"><b>Omnibus packages</b></a> (recommended way to install) include the CI coordinator, see the <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/gitlab-ci/README.md">configuration instructions</a></li>
           <li><a href="https://gitlab.com/gitlab-org/gitlab-ci/blob/master/doc/install/installation.md">Manual installation guide</a></li>
           <li><a href="https://github.com/sameersbn/docker-gitlab-ci">Unofficial Docker Image by Sameer Naik</a></li>
-          <li><a href="https://registry.hub.docker.com/u/anapsix/gitlab-ci/">Unofficial Docker Image by Anastas Dancha</a> is available via <code>docker pull anapsix/gitlab-ci</code></li>
+          <li><a href="https://registry.hub.docker.com/u/anapsix/gitlab-ci/">Unofficial Docker Image by Anastas Dancha</a>
           <li><a href="https://gitlab.com/gitlab-org/gitlab-development-kit">GitLab Development Kit</a> is recommended for development work</li>
         </ul>
       </div>
@@ -194,26 +173,16 @@ extra_js:
     <div class="row links">
       <div class="col-xs-1 col-md-1"></div>
       <div class="col-xs-11 col-md-6">
-        <h1>More Links and Help</h1>
+        <h1>Help and more information</h1>
         <ul>
-          <li>To propose and discuss new features of CI, please visit our <a href="http://feedback.gitlab.com/forums/176466-general/category/64310-gitlab-ci">forums.</a></li>
-          <li>For further documentation, please visit our <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/gitlab-ci/README.md">README.</a></li>
-          <li>If you would like to download directly from source, you may visit <a href="http://feedback.gitlab.com/forums/176466-general/category/64310-gitlab-ci">here</a></li>
-          <li>Please see <a href="https://about.gitlab.com/getting-help/">Getting help for GitLab</a> on our website to receive extra help.</li>
+          <li>Please see <a href="https://about.gitlab.com/getting-help/">Getting help for GitLab</a> if you have questions</li>
+          <li>To propose and discuss new features of CI are in the <a href="http://feedback.gitlab.com/forums/176466-general/category/64310-gitlab-ci">feature request forum.</a></li>
+          <li>For further documentation and the source are in the <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/gitlab-ci/README.md">README.</a></li>
+          <li>After GitLab CI 5.4 we released 7.8 so the the versions of GitLab and GitLab C are in sync.</li>
         </ul>
       </div>
       <div class="col-xs-6 col-md-4">
         <i class="fa fa-code 5x hidden-xs hidden-sm"></i>
-      </div>
-    </div>
-
-    <hr class="divider" />
-
-    <div class="row versioning">
-      <div class="col-xs-1 col-md-1"></div>
-      <div class="col-xs-11 col-md-9">
-        <h1>Versioning</h1>
-        <p>After GitLab CI 5.4, we changed project versioning in favor of GitLab versions, meaning we release GitLab and GitLab CI with the same versions.</p>
       </div>
     </div>
   </div>
