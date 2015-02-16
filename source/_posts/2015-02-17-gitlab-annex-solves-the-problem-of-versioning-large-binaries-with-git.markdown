@@ -21,23 +21,30 @@ Git-annex allows managing large binaries with git, without checking the contents
 You check in only a symlink that contains the sha1 of the large binary.
 If you need the large binary you can sync it from the GitLab server over rsync, a very fast file copying tool.
 
-Example of a user uploading a large file to GitLab:
+Example of a user uploading a large file:
 
 ```bash
 git clone git@gitlab.example.com:group/project.git
 git annex init 'My Laptop'            # initialize the annex project
-cp debian.iso ./                      # copy a large file
-git annex add .                       # add it to git annex
-git commit -am"Added Debian"          # commit the file meta data
+cp ~/tmp/debian.iso ./                # copy a large file into the current directory
+git annex add .                       # add the large file to git annex
+git commit -am"Added Debian iso"      # commit the file meta data
 git annex sync --content              # sync the git repo and large file to the gitlab server
 ```
 
-Example of a user downloading a large file from GitLab:
+Example of a user downloading a single large file:
 
 ```bash
 git clone git@gitlab.example.com:group/project.git
-git annex sync                        # find the whereabouts of the large file
-git annex get .                       # download the large file
+git annex sync                        # sync git branches but not the large file
+git annex get debian.iso              # download the large file
+```
+
+Example of a user downloading all the large files:
+
+```bash
+git clone git@gitlab.example.com:group/project.git
+git annex sync --content              # sync git branches and download all the large files
 ```
 
 By integrating git-annex into GitLab it becomes much easier and safer to use.
