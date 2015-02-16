@@ -11,7 +11,7 @@ The biggest limitation of git compared to some older centralized version control
 The general recommendation is to not have git repositories larger than 1GB to preserve performance.
 Although GitLab has no limit (some repositories in GitLab are over 50GB!) we subscribe to the advise to keep repositories as small as you can.
 
-Not being able to version control large binaries is a big problem for many organizations.
+Not being able to version control large binaries is a big problem for many larger organizations.
 Video, photo's, audio, compiled binaries and many other types of files are too large.
 People work around the problem by keeping working in progress artwork in a Dropbox folder and only checking in the final result.
 This results in using outdated files, not having a complete history and the risk of losing work.
