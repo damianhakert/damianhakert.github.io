@@ -1,7 +1,15 @@
 /* subscription */
 
+* {
+  font-family: "Korolev-Medium";
+}
+
 body {
   background: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, button, a {
+  font-family: "Korolev-Medium";
 }
 
 .text-right,
@@ -19,10 +27,51 @@ body {
   }
 }
 
+@media (max-width: 692px) {
+.pricing-container {
+  height: 500px !important;
+  background: url(/images/pricing.jpg) no-repeat center center;
+  margin-bottom: 35px;
+  }
+}
+
+.pricing-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background: url(/images/pricing.jpg) no-repeat center center;
+  background-size: cover;
+  margin-bottom: 35px;
+}
+
+.pricing-overlay {
+  background: rgba(85, 68, 136, 0.62);
+  height: 500px;
+}
+
+.pricing-content {
+  padding-top: 76px;
+  text-align: center;
+  color: white;
+  width: 72%;
+  text-align: center;
+  margin-left: 13%;
+}
+
+.pricing-content h1 {
+  font-size: 50px;
+}
+
 .subscriptions {
   text-align: center;
   max-width: 970px;
   margin: auto;
+}
+
+.subscriptions .row{
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .subscription {
