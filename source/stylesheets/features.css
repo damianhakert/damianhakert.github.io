@@ -15,6 +15,14 @@ hr {
   border-top: 1px solid #E4E4E4;
 }
 
+h1, h2, h3, h4, h5, button, a, p, li {
+  font-family: "Korolev-Medium";
+}
+
+.container {
+  font-family: "Korolev-Medium";
+}
+
 .title {
   font-size: 49px;
   color: #fff;
@@ -161,6 +169,7 @@ hr {
 }
 
 .wide-feature {
+  font-family: "Korolev-Medium";
   width: 100%;
 }
 
@@ -181,9 +190,8 @@ hr {
 .wide-feature.head .btn-default {
   background: #5D4D93;
   color: white;
-  border-color: white;
   transition: all 0.2s;
-  border-width: 0px;
+  border: 1px solid white;
 }
 
 .wide-feature.head .btn-default:hover {
@@ -263,8 +271,25 @@ hr {
   padding-top: 5px;
 }
 
+.wrapper div:nth-child(5) {
+  padding: 95px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background: #548;
+  background-attachment: fixed;
+  text-align: center;
+  width: 100%;
+}
+
 .wide-feature-link a {
-  font-size: 23px;
+  background: #5D4D93;
+  color: white;
+  border: 1px solid white;
+  transition: all 0.2s;
+  padding: 13px;
+  font-size: 25px;
+  border-radius: 13px;
+  text-decoration: none;
 }
 
 .half-feature {
