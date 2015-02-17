@@ -249,14 +249,14 @@
   border-top-right-radius: 8px;
 }
 
-.what-image i {
-  font-size: 6em;
-  color: white;
-  margin-top: 17px;
-}
-
   .what-image:hover {
     background: rgba(57, 38, 113, 0.49);
+  }
+
+  .what-image i {
+    font-size: 6em;
+    color: white;
+    margin-top: 17px;
   }
 
 .what-content {
@@ -265,28 +265,27 @@
   box-shadow: none;
 }
 
-.what-container div:nth-child(2) .what-content {
-  padding-bottom: 62px;
-}
+  .what-container div:nth-child(2) .what-content {
+    padding-bottom: 62px;
+  }
 
-.what-container div:nth-child(3) .what-content {
-  padding-bottom: 76px;
-}
+  .what-container div:nth-child(3) .what-content {
+    padding-bottom: 76px;
+  }
 
 .what-is div:nth-child(2) {
   text-align: center;
   margin-bottom: 2%;
 }
 
-.landing-page-download h1 {
-  font-family: "Korolev-Light";
+.landing-page-download {
+  margin: 0;
+  padding-bottom: 5%;
 }
 
-#download-landing:hover {
-  background: rgba(57, 38, 113, 0.49);
-  border-color: white;
-}
-
+  .landing-page-download h1 {
+    font-family: "Korolev-Light";
+  }
 
 #download-landing {
   font-family: "Korolev-Medium";
@@ -299,6 +298,11 @@
   border-radius: 13px;
   text-decoration: none;
 }
+
+  #download-landing:hover {
+    background: rgba(57, 38, 113, 0.49);
+    border-color: white;
+  }
 
 @media (max-width: 780px) {
   .what-column {
