@@ -315,6 +315,36 @@ hr.thick {
   }
 }
 
+.promo-container {
+  width: 85%;
+  max-width: 1400px;
+}
+
+.x-column {
+  position: relative;
+  float: left;
+  margin-right: 4%;
+}
+
+.x-promo {
+  margin-left: 0 !important;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-right: 0 !important;
+  overflow: hidden;
+  margin-bottom: 1.313em;
+  border: 1px solid #ddd;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 4px;
+  box-shadow: 0 0.125em 0.275em 0 rgba(0,0,0,0.125);
+}
+
+.x-promo-content {
+  padding: 1.5em;
+  background-color: #fff;
+  box-shadow: none;
+}
+
 /* Testimonials
 -------------------------------------------------- */
 
@@ -325,6 +355,9 @@ hr.thick {
 
 .testimonials {
   padding: 30px;
+  background: #f5f5f5;
+  border-top: 1px solid rgba(0,0,0,0.075);
+  border-bottom: 1px solid rgba(0,0,0,0.075);
 }
 
 .videos {
