@@ -4,7 +4,8 @@ title: "GitLab Annex solves the problem of versioning large binaries with git"
 date: 2015-02-17
 comments: true
 author: "Sytse Sijbrandij"
-categories: 
+categories:
+image_title: '/images/stock/annex.jpg'
 ---
 
 The biggest limitation of git compared to some older centralized version control systems has been the maximum size of the repositories.
@@ -13,15 +14,21 @@ Although GitLab has no limit (some repositories in GitLab are over 50GB!) we sub
 
 Not being able to version control large binaries is a big problem for many larger organizations.
 Video, photo's, audio, compiled binaries and many other types of files are too large.
-People work around the problem by keeping working in progress artwork in a Dropbox folder and only checking in the final result.
+As a workaround, people keep artwork-in-progress in a Dropbox folder and only check in the final result.
 This results in using outdated files, not having a complete history and the risk of losing work.
 
 In GitLab 7.8 Enterprise Edition this problem is solved by integrating the awesome [git-annex](https://git-annex.branchable.com/).
 Git-annex allows managing large binaries with git, without checking the contents into git.
-You check in only a symlink that contains the sha1 of the large binary.
+You check in only a symlink that contains the SHA-1 of the large binary.
 If you need the large binary you can sync it from the GitLab server over rsync, a very fast file copying tool.
 
-Example of a user uploading a large file:
+{% include downloads_partial.html %}
+
+<!-- more -->
+
+## Using GitLab Annex
+
+For example, if you want to upload a very large file and check it into your Git repository:
 
 ```bash
 git clone git@gitlab.example.com:group/project.git
@@ -29,10 +36,10 @@ git annex init 'My Laptop'            # initialize the annex project
 cp ~/tmp/debian.iso ./                # copy a large file into the current directory
 git annex add .                       # add the large file to git annex
 git commit -am"Added Debian iso"      # commit the file meta data
-git annex sync --content              # sync the git repo and large file to the gitlab server
+git annex sync --content              # sync the git repo and large file to the GitLab server
 ```
 
-Example of a user downloading a single large file:
+Downloading a single large file is also very simple:
 
 ```bash
 git clone git@gitlab.example.com:group/project.git
@@ -40,7 +47,7 @@ git annex sync                        # sync git branches but not the large file
 git annex get debian.iso              # download the large file
 ```
 
-Example of a user downloading all the large files:
+To download all files:
 
 ```bash
 git clone git@gitlab.example.com:group/project.git
@@ -51,6 +58,8 @@ By integrating git-annex into GitLab it becomes much easier and safer to use.
 You don't have to setup git-annex on a separate server or add annex remotes to the repository.
 Git-annex without GitLab gives everyone that can access the server access to the files of all projects.
 GitLab annex ensures you can only acces files of projects you work on (developer, master or owner role).
+
+## How it works
 
 As far as we know GitLab is the first git repository management solution that integrates git-annex.
 This is possible because both git-annex and GitLab stay very close to the unix paradigms.
@@ -65,4 +74,4 @@ To use GitLab annex you have to use GitLab Enterprise Edition 7.8 (which will re
 Obviously you'll have to use ssh style links for to git remote to your GitLab server instead of https style links.
 We look forward to feedback and enhancements from the rest of the community.
 For example, it would be nice if the GitLab UI shows the file size of the large file instead of the symlink.
-But lets first celerate this milestone, being able to easily version control your large files! 
+But lets first celebrate this milestone, being able to easily version control your large files!
