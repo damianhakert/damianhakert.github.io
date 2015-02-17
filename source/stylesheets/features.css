@@ -19,6 +19,22 @@ h1, h2, h3, h4, h5, button, a, p, li {
   font-family: "Korolev-Medium";
 }
 
+
+@media (max-width: 600px) {
+  .wrapper div:nth-child(5) {
+    padding: 0 !important;
+  }
+
+  .wide-feature-link {
+    padding: 18px !important;
+  }
+
+  .wide-feature-link a {
+    padding: 8px !important;
+    font-size: 16px !important;
+  }
+}
+
 .container {
   font-family: "Korolev-Medium";
 }
@@ -40,7 +56,6 @@ h1, h2, h3, h4, h5, button, a, p, li {
   color: #fff;
   color: rgba(255,255,255,0.85);
   line-height: 24px;
-  width: 600px;
   text-align: justify;
 }
 
