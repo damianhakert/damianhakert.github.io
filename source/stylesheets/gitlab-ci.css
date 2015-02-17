@@ -155,6 +155,10 @@ p {
   font-size: 13em;
 }
 
+.gitlab-arch {
+  margin-top: 9%;
+}
+
 /* buttons */
 
 #download {
