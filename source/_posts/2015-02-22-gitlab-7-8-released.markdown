@@ -17,13 +17,6 @@ Thanks ***Hannes Rosenögger***!
 
 <!--more-->
 
-## ***MAIN_CE_FEATURE***
-
-***DESCRIPTION***
-
-[![screenshot](/images/7_8/feature.png)](/images/7_8/feature.png) ***7_8 is the version of GitLab being released***
-
-
 ## ***GitLab.com integration: login with GitLab.com account and import projects from GitLab.com***
 
 ***DESCRIPTION***
@@ -55,7 +48,19 @@ Thanks ***Hannes Rosenögger***!
 
 [![screenshot](/images/7_8/feature.png)](/images/7_8/feature.png) **+7_8 is the version of GitLab being released***
 
-## NEW_SPONSORED_FEATURE
+## ***Group mentions**
+
+***Mention group with @gitlab***
+
+[![screenshot](/images/7_8/feature.png)](/images/7_8/feature.png) **+7_8 is the version of GitLab being released***
+
+## ***Select email for notifications**
+
+***Use primary or secondary email for sending notifications***
+
+[![screenshot](/images/7_8/feature.png)](/images/7_8/feature.png) **+7_8 is the version of GitLab being released***
+
+## NEW_SPONSORED_FEATURE ? No sponsored feature?
 
 Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-8-stable/CHANGELOG#L18).
 
