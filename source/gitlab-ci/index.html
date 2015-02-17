@@ -191,6 +191,35 @@ extra_js:
 
     <hr class="divider" />
 
+    <div class="row add-new-project">
+      <div class="col-xs-1 col-md-1"></div>
+      <div class="col-xs-11 col-md-10">
+        <h1>How to add a new project to GitLab CI</h1>
+        <ol>
+          <li>Log in the GitLab CI web interface</li>
+          <li>Press the 'Sync now' button</li>
+          <li>Select your project with the 'Add' button</li>
+          <li>Go to the settings page of the project and add a build script (example given below)</li>
+          <li>A new build should become visible on the project page of the GitLab CI</li>
+          <li>If the build fails, then adjust the build script and press the 'Retry' button on the build page</li>
+          <li>If the build is green, you are done. All new commits will be tested and you will see the state of the Merge Requests build within GitLab</li>
+        </ol>
+        <h4>Build Script</h4>
+        <p>For your information, the runner runs the line below before it runs the commands in your build script:</p>
+        <p><b>cd /gitlab-ci-runner/tmp/builds && git clone git@gitlab_server_fqdn:group/project.git project-1 && cd project-1 && git checkout master</b></p><br />
+        <p>Build script example:</p>
+        <code>bundle install</code><br/>
+        <code>bundle exec rake db:create RAILS_ENV=test</code><br/>
+        <code>bundle exec rake db:migrate RAILS_ENV=test</code><br/>
+        <code>script/run_all_tests</code><br/>
+        <p>The build command is run from <a href="https://gitlab.com/gitlab-org/gitlab-ci-runner/blob/master/lib/build.rb#L96">GitlabCi::Build#command</a> and contains the following environmental variables:<br/>
+        <p><b>CI_SERVER, CI_SERVER_NAME, CI_SERVER_VERSION, CI_SERVER_REVISION, CI_BUILD_REF, CI_BUILD_BEFORE_SHA, CI_BUILD_REF_NAME (branch), CI_BUILD_ID</b></p>
+      </div>
+    </div>
+    
+    <hr class="divider" />
+
+
     <div class="row links">
       <div class="col-xs-1 col-md-1"></div>
       <div class="col-xs-11 col-md-6">
