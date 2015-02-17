@@ -87,16 +87,12 @@ extra_js:
         <h1>Architecture</h1>
         <div class="architecture-text">
           <p><b>GitLab CI</b> is a web application with an API that stores its state in a database. It manages projects/builds and provides a nice user interface. It uses the GitLab application API to authenticate its users.</p>
-          <p><a href="https://github.com/gitlabhq/gitlab-ci-runner">GitLab Runner</a> is a pure Ruby application which processes builds. It can be deployed separately and works with GitLab CI through an API.</p>
-          <p>In order to run tests, you need at least 1 <b>GitLab CI</b> instance and 1 <b>GitLab Runner</b>. However, for running several builds at the same time, you may want to set up more than one <b>GitLab Runner</b>.</p>
+          <p>GitLab Runner is an application which processes builds. It can be deployed separately and works with GitLab CI through an API.</p>
+          <p>In order to run tests, you need at least 1 <b>GitLab CI</b> instance and 1 <b>GitLab Runner</b>. However, for running several builds at the same time, you may want to set up more than one <b>GitLab Runner</b>.
+          Multiple runners will also allow you to run the tests for one commit in parallel so it finishies sooner.
+          Runners can be installed on the same machine as GitLab CI or on other machines, we recommend to install them on other machines.
+          </p>
         </div>
-        <h4>Possible cases:</h4>
-        <ul>
-          <li>1 <b>GitLab CI</b> and N <b>GitLab CI Runner</b> instances on the same machine</li>
-          <li>1 <b>GitLab CI</b> and N <b>GitLab CI Runner</b> instances on different machines</li>
-          <li>1 <b>GitLab CI</b> and N <b>GitLab CI Runner</b> instances on local machines</li>
-        </ul>
-        <p>For more information, see: <a href="https://about.gitlab.com/2013/06/20/integrating-gitlab-ci-with-gitlab/">Integrating GitLab CI With GitLab to Enable Distributed Builds</a></p>
       </div>
       <div class="col-xs-1 hidden-md "></div>
     </div>
