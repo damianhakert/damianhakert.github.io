@@ -43,12 +43,23 @@
         background-size: cover;        
     }
 
+    #landing h1 {
+      font-size: 22px !important;
+    }
+
+    #landing h3 {
+      font-size: 19px !important;
+    }
+
     .landing-ctas {
       margin-top: 0 !important;
     }
 
     #landing .landing-ctas a {
-      font-size: 16px !important;
+      font-size: 15px;
+      margin: 10px 0 10px 0;
+      padding: 0;
+
     }
 }
 
