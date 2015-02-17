@@ -224,6 +224,7 @@
   }
 
 .what-column {
+  font-family: "Korolev-Medium";
   position: relative;
   float: left;
   margin-right: 3%;
@@ -243,7 +244,7 @@
   position: relative;
   overflow: hidden;
   background-size: cover;
-  height: 134px;
+  height: 170px;
   background: linear-gradient(to bottom, rgba(85,68,136,0.85) 0%,rgba(85,68,136,0.85) 99%,rgba(85,68,136,0.85) 100%);
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -259,10 +260,21 @@
     margin-top: 17px;
   }
 
+  .what-image h3 {
+    font-family: "Korolev-Medium";
+    color: white;
+    font-size: 28px;
+  }
+
 .what-content {
   padding: 1.5em;
   background-color: #fff;
   box-shadow: none;
+}
+
+.what-content p {
+  font-family: "Korolev-Medium";
+  font-size: 20px;
 }
 
   .what-container div:nth-child(2) .what-content {
