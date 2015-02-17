@@ -18,6 +18,10 @@ group :development do
   gem 'reverse_markdown'
 end
 
+group :test do
+  gem 'html-proofer'
+end
+
 gem 'sinatra', '~> 1.4.2'
 gem "sinatra-contrib", "~> 1.4.2"
 gem 'redcarpet'

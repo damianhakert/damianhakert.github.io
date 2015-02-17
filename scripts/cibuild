@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+bundle install -j4
+bundle exec rake test
