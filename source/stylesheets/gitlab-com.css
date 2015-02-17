@@ -1,4 +1,3 @@
-
 h1 {
   color: #548;
 }
@@ -10,6 +9,10 @@ li {
 
 a {
     font-family: "Korolev-Light";
+}
+
+h1, h2, h3, h4, h5, button, a, p, li {
+  font-family: "Korolev-Medium";
 }
 
 .wrapper {
@@ -163,6 +166,7 @@ background: url(/images/gitlab-com/animal.jpg);
   .panels .panel-body {
     font-size: 19px;
     font-weight: 100;
+    font-family: "Korolev-Medium";
   }
 
 .advantages {
