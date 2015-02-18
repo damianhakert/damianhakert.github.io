@@ -65,11 +65,6 @@ As far as we know GitLab is the first git repository management solution that in
 This is possible because both git-annex and GitLab stay very close to the unix paradigms.
 Internally GitLab uses [GitLab Shell](https://gitlab.com/gitlab-org/gitlab-shell) to handle ssh access and this was a great integration point for git-annex.
 We've added a setting to GitLab Shell so you can disable GitLab Annex support if you don't want it.
-We made a video of Dmitriy explaining how the integration works:
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=6PhmANuSVGE
-" target="_blank"><img src="http://img.youtube.com/vi/6PhmANuSVGE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="160" border="0" /></a>
 
 Of course we are very thankful for the awesome git-annex software that makes all of this possible.
 It was mainly written by Joey Hess whose work is sponsored by [community fundraisers](https://campaign.joeyh.name/).
@@ -80,3 +75,11 @@ You'll have to use the Git over SSH protocol to connect to your GitLab server in
 We look forward to feedback and enhancements from the rest of the community.
 For example, it would be nice if the GitLab UI shows the file size of the large file instead of the symlink.
 But let's first celebrate this milestone, being able to easily version control your large files!
+
+##Update
+
+We made a video of Dmitriy, CTO of GitLab, explaining how git-annex integrates with GitLab Enterprise Edition. The video is raw and unedited.
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=6PhmANuSVGE
+" target="_blank"><img src="http://img.youtube.com/vi/6PhmANuSVGE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="160" border="0" /></a>
