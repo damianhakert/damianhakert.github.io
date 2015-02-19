@@ -475,12 +475,15 @@ table.table td {
 }
 
 table.table tbody tr i {
-  margin-left: 20px;
+  float: right;
+  margin-right: 20px;
+  font-size: 22px;
 }
 
 table.table tbody.header tr:first-child td {
-  text-align: center !important;
+  text-align: left !important;
   font-size: 15px;
+  font-weight: 400;
 }
 
 table.table tbody.header tr:first-child {
