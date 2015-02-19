@@ -58,3 +58,17 @@ h1 small {
   font-size: 17px;
   color: #999;
 }
+
+.social {
+  margin-bottom: 15px;
+}
+
+.social a {
+  background: #548;
+  border: 1px solid #548;
+  border-radius: 4px;
+  color: white;
+  padding: 4px;
+  text-decoration: none;
+
+}
