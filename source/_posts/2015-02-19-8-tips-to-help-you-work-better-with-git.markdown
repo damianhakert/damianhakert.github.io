@@ -9,8 +9,8 @@ author: Patricio Cano
 ---
 
 Git is a very powerful version control system. It can be a little bit daunting to try to learn everything around it, so
-most people just use the basic commands. We want to give you here some help with some tips you may or may no have heard.
-Either way, this tips can make your workflow a little easier.
+most people just use the basic commands. We want to give you here some help with some tips you may or may not have heard.
+Either way, these tips can make your workflow a little easier.
 
 
 ## Git aliases
@@ -54,7 +54,7 @@ branch to make our important updates, without having to commit a meaningless sna
 
 ## Compare commits from the command line
 
-An easy and quick way to compare the differences between commits, or versions of the same file is to to use the command
+An easy and quick way to compare the differences between commits, or versions of the same file is to use the command
 line. For this you can use the `git diff` command.
 
 If you want to compare the same file between different commits, you do the following:
@@ -67,6 +67,23 @@ Anf if you want to compare the changes between two commits:
 
 ```
 $ git diff $start_commit..$end_commit
+```
+
+These commands will open the diff view inside the terminal, but if you prefer to use a more visual tool to compare your
+diffs, you can use `git difftool`. A really great diff viewer/editor is Meld.
+
+To configure Meld:
+
+```
+$ git config --global diff.tool git-meld
+```
+
+Now to start viewing the diffs:
+
+```
+$ git difftool $start_commit..$end_commit -- path/to/file
+# or
+$ git difftool $start_commit..$end_commit
 ```
 
 
@@ -83,6 +100,12 @@ Or if you want to reset a single file:
 
 ```
 $ git reset --hard HEAD path/to/file
+```
+
+Now, if you already committed your changes, but still want to revert back, you can use:
+
+```
+$ git reset --soft HEAD~1
 ```
 
 
