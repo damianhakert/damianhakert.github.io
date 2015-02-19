@@ -12,6 +12,7 @@ Git is a very powerful version control system. It can be a little bit daunting t
 most people just use the basic commands. We want to give you here some help with some tips you may or may not have heard.
 Either way, these tips can make your workflow a little easier.
 
+<!-- more -->
 
 ## Git aliases
 
@@ -63,7 +64,6 @@ with:
 ```
 $ git stash drop
 ```
-
 
 ## Compare commits from the command line
 
@@ -121,7 +121,6 @@ Now, if you already committed your changes, but still want to revert back, you c
 $ git reset --soft HEAD~1
 ```
 
-
 ## Use Git blame more efficiently
 
 Git blame is a great tool for finding out who changed a line in a file, but there are ways you can use it more efficiently.
@@ -160,5 +159,3 @@ your colleagues. Work on your changes until you are ready to push.
 A nice sign that your changes are ready to push is when they have been tested and the tests are green. This usually also
 means that this part of your feature is done and you can concentrate on the next part. Push your changes once this has been
 done and let the CI server test them again.
-
-
