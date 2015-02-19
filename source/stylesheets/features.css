@@ -480,6 +480,7 @@ table.table tbody tr i {
 
 table.table tbody.header tr:first-child td {
   text-align: center !important;
+  font-size: 15px;
 }
 
 table.table tbody.header tr:first-child {
