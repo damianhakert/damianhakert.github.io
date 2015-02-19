@@ -416,6 +416,10 @@ h1, h2, h3, h4, h5, button, a, p, li {
   margin: auto;
 }
 
+table.table {
+  width: 75%;
+}
+
 table.table th {
   text-align: center;
   font-weight: 300;
@@ -438,10 +442,15 @@ table.table td {
   font-size: 14px;
   color: #313131;
   line-height: 27px !important;
+  text-align: left;
 }
 
 .table>thead>tr>th {
   border-bottom: none;
+}
+
+.table>thead>tr>th:first-child {
+  width: 50%;
 }
 
 .table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
@@ -451,6 +460,37 @@ table.table td {
 
 .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
   border: none;
+}
+
+.table>tbody>tr>td:nth-child(3) {
+  background: #548;
+  color: white;
+  font-size: 27px;
+  text-align: center;
+}
+
+.table>tbody>tr>td:nth-child(2) {
+  font-size: 27px;
+  text-align: center;
+}
+
+table.table tbody tr i {
+  margin-left: 20px;
+}
+
+table.table tbody.header tr:first-child td {
+  text-align: center !important;
+  font-size: 15px;
+}
+
+table.table tbody.header tr:first-child {
+  border: 2px solid #ddd;
+}
+
+table.table tbody.header tr:first-child td:hover {
+  background: #548;
+  color: white;
+  cursor: pointer;
 }
 
 .qfix {
