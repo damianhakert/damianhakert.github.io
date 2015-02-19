@@ -51,6 +51,19 @@ $ git stash
 The git stash command hides these changes, giving us a clean working directory. We’re now able to switch to a new
 branch to make our important updates, without having to commit a meaningless snapshot just to save our current state.
 
+Once you are done working on the fix and want to show your previous changes again, all you need to is run:
+
+```
+$ git stash pop
+```
+
+And your changes will be recovered. If you no longer need those changes and want to clear the stash stack you can do so
+with:
+
+```
+$ git stash drop
+```
+
 
 ## Compare commits from the command line
 
@@ -89,7 +102,7 @@ $ git difftool $start_commit..$end_commit
 
 ## Resetting files
 
-Sometime when you start modifying something you realize that the changes you did are not that good and would like to reset
+Sometimes when you start modifying your code, you realize that the changes you did are not that good and would like to reset
 your changes. Instead of clicking undo on everything you edited, you can reset your files to the HEAD of the branch:
 
 ```
