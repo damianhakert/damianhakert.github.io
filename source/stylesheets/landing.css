@@ -1,6 +1,6 @@
 #landing {
   padding: 0;
-  height: 630px;
+  height: 575px;
   overflow: hidden;
   background-image: url(/images/ci/fox.jpeg);
   background-repeat: no-repeat;
@@ -209,7 +209,7 @@
 
 .what-container {
   margin-left: 3%;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .what-column {
@@ -278,6 +278,17 @@
   .landing-page-download h1 {
     font-family: "Korolev-Light";
   }
+
+.see-further {
+  text-align: center;
+}
+
+.see-further i {
+color: white;
+font-size: 33px;
+margin-top: 14px;
+
+}
 
 #download-landing {
   font-family: "Korolev-Medium";
