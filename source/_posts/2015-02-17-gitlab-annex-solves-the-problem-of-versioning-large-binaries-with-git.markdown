@@ -81,5 +81,5 @@ But let's first celebrate this milestone, being able to easily version control y
 We made a video of Dmitriy, CTO of GitLab, explaining how git-annex integrates with GitLab Enterprise Edition. The video is raw and unedited.
 
 <a href="https://www.youtube.com/watch?feature=player_embedded&v=6PhmANuSVGE
-" target="_blank"><img src="http://img.youtube.com/vi/6PhmANuSVGE/0.jpg"
+" target="_blank"><img src="https://img.youtube.com/vi/6PhmANuSVGE/0.jpg"
 alt="git-annex with gitlab-shell" width="240" height="160" border="0" /></a>
