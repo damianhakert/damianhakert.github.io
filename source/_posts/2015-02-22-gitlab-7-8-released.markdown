@@ -7,17 +7,17 @@ categories:
 author: Job van der Voort
 ---
 
-M M MONSTER RELEASE
+This is an exciting day. Today we release GitLab 7.8, the biggest release of GitLab ever. This release alone logged 70 lines (CE+EE) in our [changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG)!
+We're very proud to show you the new features and improvements of GitLab Community Edition (CE) and GitLab Enterprise Edition.
 
-GitLab is open source software to collaborate on code.
-Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
-The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
-In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
+GitLab Community edition brings among others, a GitLab.com importer,
+new files in an empty repository, never-lost comments and group mentions.
+GitLab Enterprise Edition adds to this the GitLab Annex feature to manage your large files with GitLab, improved JIRA integration and a GitHub Enterprise integration.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Hannes Rosenögger.
 Hannes took merge requests, fixed them up and contributed them to GitLab.
 This is a great way to contribute and we're excited for him to join the core team.
-Thanks Hannes Rosenögger!
+Thanks Hannes!
 
 <!--more-->
 
@@ -27,35 +27,30 @@ Moving from GitLab.com to your own GitLab instance? It just became a lot easier!
 
 You can login with your GitLab.com account to your instance and quickly import projects from GitLab.com.
 
-[![screenshot](/images/7_8/feature.png)](/images/7_8/feature.png) ***7_8 is the version of GitLab being released***
-
-
 ## New file in Empty Repository
 
 Don't like to switch to your commandline just to bootstrap a new GitLab project?
 It's no longer necessary! You can now create a file in an empty repository without leaving GitLab:
 
-[![screenshot](/images/7_8/feature.png)](/images/7_8/feature.png) **+7_8 is the version of GitLab being released***
+[![screenshot](/images/7_8/new_file.png)](/images/7_8/new_file.png)
 
 ## Commit calendar
 
 See when you made the most commits in a single glance with the commit calendar.
 Try to fill an entire year of beautiful commits!
 
-[![screenshot](/images/7_8/feature.png)](/images/7_8/feature.png) **+7_8 is the version of GitLab being released***
+[![screenshot](/images/7_8/commit_calendar.png)](/images/7_8/commit_calendar.png)
 
 ## Never lose unsaved comments!
 
 You're going to love this one. From now on, unsaved comments are automatically restored when you reload the page.
 It's like magic and prevents you from ever losing comments again.
 
-[![screenshot](/images/7_8/feature.png)](/images/7_8/feature.png) **+7_8 is the version of GitLab being released***
-
 ## Project avatars
 
 Give your project a face with its own avatar:
 
-[![screenshot](/images/7_8/feature.png)](/images/7_8/feature.png) **+7_8 is the version of GitLab being released***
+[![screenshot](/images/7_8/project_avatar.png)](/images/7_8/project_avatar.png)
 
 ## Mention groups
 
@@ -63,14 +58,14 @@ Another killer feature: you can now mention entire groups at once.
 Have something awesome to share with your group `awesome-people`? Just mention them in the comment,
 issue or merge request with `@awesome-people` and everyone will get notified.
 
-[![screenshot](/images/7_8/feature.png)](/images/7_8/feature.png) **+7_8 is the version of GitLab being released***
+[![screenshot](/images/7_8/mention_groups.png)](/images/7_8/mention_groups.png)
 
 ## Select email for notifications
 
 For years you've been able to add multiple email addresses to GitLab.
 Now you can actually select which address you want to receive notifications on.
 
-[![screenshot](/images/7_8/feature.png)](/images/7_8/feature.png) **+7_8 is the version of GitLab being released***
+[![screenshot](/images/7_8/set_notification_mail.png)](/images/7_8/set_notification_mail.png)
 
 ## Manage large files in Git with GitLab Annex (EE only feature)
 
@@ -84,17 +79,19 @@ repository, managed just as any other commit in GitLab.
 We already [blogged](https://about.gitlab.com/2015/02/17/gitlab-annex-solves-the-problem-of-versioning-large-binaries-with-git/)
 about GitLab Annex, as we're very excited about it.
 
-[![screenshot](/images/7_8/feature.png)](/images/7_8/feature.png) ***7_8 is the version of GitLab being released***
+[![screenshot](/images/7_8/git_annex.png)](/images/7_8/git_annex.png)
 
 ## Improved JIRA integration (EE only feature)
 
 We improved our JIRA in a big way! Closing a JIRA ticket with a commit is now reported
 back to JIRA with a nice description and link.
 
+[![screenshot](/images/7_8/jira_service_close_issue.png)](/images/7_8/jira_service_close_issue.png)
+
 On top of that you can now mention your JIRA tickets anywhere in GitLab and
 we'll put a comment on the issue in JIRA, so everything is linked together neatly!
 
-[![screenshot](/images/7_8/feature.png)](/images/7_8/feature.png) ***7_8 is the version of GitLab being released***
+[![screenshot](/images/7_8/jira_issue_reference.png)](/images/7_8/jira_issue_reference.png)
 
 ## GitHub Enterprise Importer (EE only feature)
 
@@ -102,7 +99,7 @@ Moving from GitHub Enterprise to GitLab Enterprise Edition? Easy!
 You can quickly migrate entire repositories and issues in a single click
 with the new GitHub Enterprise importer.
 
-[![screenshot](/images/7_8/feature.png)](/images/7_8/feature.png) ***7_8 is the version of GitLab being released***
+[![screenshot](/images/7_8/gh_import.png)](/images/7_8/gh_import.png)
 
 ## Other changes
 
