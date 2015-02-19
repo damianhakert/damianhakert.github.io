@@ -8,10 +8,13 @@ extra_css:
 <div class="wrapper">
   <div class="container">
     <p>
+     &nbsp;
+    </p>
+    <p>
       Every application that supports Git will work with GitLab.
       Below are some of the applications we wanted to highlight.
-      The <a href="http://doc.gitlab.com/ce/api/README.html">GitLab API</a> can be used to add integration to an application.
-      File a <a href="https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests?assignee_id=&label_name=&milestone_id=&scope=all&sort=newest&state=all">merge request</a>
+      You can use the <a href="http://doc.gitlab.com/ce/api/">GitLab API</a> add support for GitLab.
+      Please file a <a href="https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests?assignee_id=&label_name=&milestone_id=&scope=all&sort=newest&state=all">merge request</a>
       to add a new application to the list.
     </p>
 
@@ -19,7 +22,7 @@ extra_css:
 
     <div class="media">
       <div class="media-body">
-        <h4 class="media-heading"><b>[iOS] GitLab Control</b></h4>
+        <h4 class="media-heading"><b>iOS GitLab Control</b></h4>
           Third party iPhone app.
         <br>
         <a href="http://gitlabcontrol.com/">gitlabcontrol.com</a>
@@ -28,8 +31,8 @@ extra_css:
 
     <div class="media">
       <div class="media-body">
-        <h4 class="media-heading"><b>[Android] GitLab</b></h4>
-          Third party Android app.
+        <h4 class="media-heading"><b>Android GitLab</b></h4>
+          Third party Android app by Benjamin Dengler, <a href="https://github.com/ekx/GitLabAndroid">source code</a> available
         <br>
         <a href="https://play.google.com/store/apps/details?id=com.bd.gitlab&hl=en">Play Store</a>
       </div>
@@ -37,8 +40,8 @@ extra_css:
 
     <div class="media">
       <div class="media-body">
-        <h4 class="media-heading"><b>[Chrome] GitLab Notifier</b></h4>
-          Notify Gitlab events (Commit, Issue, MergeRequest and Milestone).
+        <h4 class="media-heading"><b>Chrome GitLab Notifier</b></h4>
+          Third party notifier for Gitlab events (Commit, Issue, MergeRequest and Milestone).
         <br>
         <a href="https://chrome.google.com/webstore/detail/gitlab-notifier-for-googl/eageapgbnjicdjjihgclpclilenjbobi">Chrome App Store</a>
       </div>
@@ -166,9 +169,18 @@ extra_css:
     <div class="media">
       <div class="media-body">
         <h4 class="media-heading"><b>GitLabKit</b></h4>
-          API client library for GitLab API, wrriten in Swift.
+          API client library for GitLab API, written in Swift.
         <br>
         <a href="https://github.com/orih/GitLabKit">Repository on GitHub</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>Backbone for GitLab</b></h4>
+          Backbone client library for the GitLab API
+        <br>
+        <a href="https://github.com/oreillymedia/backbone-gitlab/">Repository on GitHub</a>
       </div>
     </div>
 
@@ -291,8 +303,83 @@ extra_css:
         <h4 class="media-heading"><b>Eclipse</b></h4>
           Eclipse has the Egit Team provider that also supports GitLab.
         <br>
-        <a href="http://www.git-tower.com/">www.git-tower.com</a>
+        <a href="https://projects.eclipse.org/projects/technology.egit">Eclipse Git Team Provider</a>
       </div>
     </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>PhpStorm</b></h4>
+          This IDE for the PHP programming language has a GitLab plugin.
+        <br>
+        <a href="https://plugins.jetbrains.com/plugin/7319?pr=phpStorm">Plugin on the Jetbrains site</a>
+      </div>
+    </div>
+
+    <h2>Performance measurement</h2>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>AppSignal</b></h4>
+          AppSignal <a href="http://blog.appsignal.com/blog/2015/01/20/gitlab-integration.html">support GitLab</a> and can monitor both Rails and Sidekiq.
+        <br>
+        <a href="https://appsignal.com/">appsignal.com</a>
+      </div>
+    </div>
+
+    <h2>Login with your GitLab.com account</h2>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>GitLab CI</b></h4>
+          Login to ci.gitlab.com with your GitLab.com account.
+        <br>
+        <a href="https://ci.gitlab.com/">ci.gitlab.com</a>
+      </div>
+    </div>
+
+    <h2>Build with GitLab</h2>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>Leanpub Enterprise</b></h4>
+          The backend of the technical publisher Leanpub is build with a fork of GitLab.
+        <br>
+        <a href="https://enterprise.leanpub.com/users/sign_in">enterprise.leanpub.com</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>O'Reilly Atlas</b></h4>
+          Technical publisher O'Reilly Media has build their own frontend on top of a GitLab backend.
+          The published a <a href="https://www.youtube.com/watch?v=IHEbYsaKW9Y&feature=youtu.be">video of the app</a>.
+          They open sourced the <a href="https://github.com/oreillymedia/backbone-gitlab/">Backbone for GitLab API library</a> they developed for this.
+        <br>
+        <a href="https://atlas.oreilly.com/">atlas.oreilly.com</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>Penflip</b></h4>
+          This authoring site for writing books is <a href="https://twitter.com/madebyloren/status/468917323588698112">build with a fork of GitLab.
+        <br>
+        <a href="https://www.penflip.com/">penflip.com</a>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><b>La fabrique de la loi</b></h4>
+          This site <a href="http://www.lafabriquedelaloi.fr/a-propos.html">uses GitLab</a> to store French laws in git and make the lawmaking process visual.
+        <br>
+        <a href="http://www.lafabriquedelaloi.fr/articles.html?loi=pjl12-689">lafabriquedelaloi.fr</a>
+      </div>
+    </div>
+
+    <p>
+     &nbsp;
+    </p>
   </div>
 </div>
