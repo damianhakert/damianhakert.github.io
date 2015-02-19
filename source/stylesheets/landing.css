@@ -378,6 +378,20 @@
   font-family: 'Korolev-Medium';
 }
 
+.read-more-tweets {
+  text-align: center;
+}
+
+.read-more-tweets a{
+  background: #548;
+  color: white;
+  padding: 9px;
+  border: 1px solid white;
+  border-radius: 9px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .videos h1 {
   font-family: 'Korolev-Medium';
 }
