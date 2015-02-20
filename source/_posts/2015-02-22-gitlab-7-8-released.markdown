@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "GitLab 7.8 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 7.8 released with GitLab.com integration, never-lost comments and GitLab Annex for managing large files"
 date: 2015-02-22
 comments: true
 categories:
 author: Job van der Voort
 ---
 
-This is an exciting day. Today we release GitLab 7.8, the biggest release of GitLab ever. This release alone logged 70 lines (CE+EE) in our [changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG)!
+This is an exciting day. Today we release GitLab 7.8, the biggest release of GitLab ever. This release alone logged 70 lines (CE+EE) in our [changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-8-stable/CHANGELOG)!
 We're very proud to show you the new features and improvements of GitLab Community Edition (CE) and GitLab Enterprise Edition.
 
 GitLab Community edition brings among others, a GitLab.com importer,
@@ -15,7 +15,7 @@ new files in an empty repository, never-lost comments and group mentions.
 GitLab Enterprise Edition adds to this the GitLab Annex feature to manage your large files with GitLab, improved JIRA integration and a GitHub Enterprise integration.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Hannes Rosenögger.
-Hannes took merge requests, fixed them up and contributed them to GitLab.
+Hannes took stale or old merge requests, fixed them up and contributed them to GitLab.
 This is a great way to contribute and we're excited for him to join the core team.
 Thanks Hannes!
 
@@ -103,7 +103,7 @@ with the new GitHub Enterprise importer.
 
 ## Other changes
 
-This release has more improvements, including security fixes, please check out [the (MASSIVE) Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
+This release has more improvements, including security fixes, please check out [the (MASSIVE) Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-8-stable/CHANGELOG) to see the all named changes.
 
 
 ## Upgrade barometer
