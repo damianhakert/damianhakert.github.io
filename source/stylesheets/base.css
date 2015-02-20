@@ -28,6 +28,14 @@ a {
 h2 {
   font-weight: 600;
 }
+
+.simple-header {
+  height: 150px;
+  background: #548;
+  color: white;
+  text-align: center;
+}
+
 .map {
     height: 350px;
     width: 100%;
