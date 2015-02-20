@@ -12,7 +12,7 @@ body {
   background-color:#f9f9f9;
   position: relative;
   padding-top: 50px;
-  font-family: "Open Sans", "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
+  font-family: "Korolev-Medium";
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -22,12 +22,19 @@ h4,
 h5,
 button,
 a {
-    font-family: "Open Sans", "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
+    font-family: "Korolev-Medium";
     font-weight: 400;
 }
 h2 {
   font-weight: 600;
 }
+
+.simple-header {
+  background: #6652A3;
+  color: white;
+  text-align: center;
+}
+
 .map {
     height: 350px;
     width: 100%;
@@ -604,7 +611,7 @@ article {
 
 .blog-entry h1 a {
   font-size: 40px;
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+  font-family: "Korolev-Medium";
   color: #444;
   font-weight: 600;
   line-height: 55px;
@@ -666,7 +673,7 @@ article {
 }
 
 .blog-index .toplink {
-  font-family: "Open Sans", "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
+  font-family: "Korolev-Medium";
   font-size: 14px;
   line-height: auto;
   font-weight: 600;
@@ -950,16 +957,6 @@ h1.testimonial-head{
   float: none;
 }
 
-.simple-header {
-  text-align: center;
-  background: #7863B6;
-  color: white;
-  padding: 20px;
-}
-
-.simple-header h1 {
-  font-weight: 600;
-}
 
 .link-box {
   color: #333;
@@ -987,7 +984,7 @@ a:hover > .link-box {
 
 .nl .panel-heading a {
   font-size: 14px;
-  font-family: 'Open Sans' sans-serif;
+  font-family: 'Korolev-Medium';
   line-height: auto;
   font-weight: 700;
 }

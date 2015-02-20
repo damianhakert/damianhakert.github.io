@@ -72,7 +72,7 @@ article {
 
 .blog-entry h1.image-title {
   font-size: 30px;
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+  font-family: "Korolev-Medium";
   color: #fff;
   font-weight: 600;
   line-height: 40px;
@@ -80,7 +80,7 @@ article {
 
 .blog-entry h1 a {
   font-size: 30px;
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+  font-family: "Korolev-Medium";
   color: #444;
   font-weight: 600;
   line-height: 41px;
@@ -154,7 +154,7 @@ article {
 }
 
 .blog-index .toplink {
-  font-family: "Open Sans", "Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;
+  font-family: "Korolev-Medium";
   font-size: 14px;
   line-height: auto;
   font-weight: 600;
