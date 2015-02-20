@@ -111,6 +111,9 @@ This release has more improvements, including security fixes, please check out [
 This is a regular upgrade. It contains several migrations,
 none of which particularly scary.
 
+For installations from source, you will have to update your NGINX configuration. We've added a route change for /uploads/.
+See the new config for /uploads/ [here for http](https://gitlab.com/gitlab-org/gitlab-ce/blob/8ae3112b3f303c897c70952dd162589b1c394221/lib/support/nginx/gitlab#L60) and [here for https](https://gitlab.com/gitlab-org/gitlab-ce/blob/8ae3112b3f303c897c70952dd162589b1c394221/lib/support/nginx/gitlab-ssl#L105).
+
 - - -
 
 # Installation
