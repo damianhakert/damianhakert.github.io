@@ -1,3 +1,7 @@
+pre code {
+  word-wrap: normal;
+}
+
 span.line {
   white-space: pre;
   overflow: scroll;
@@ -262,4 +266,13 @@ ul.post-list > li > time {
   color: #548;
   background: white;
   border: 2px solid #548;
+}
+
+.code pre {
+  overflow-x: auto;
+  width: 676px;
+}
+
+.gutter .line-numbers {
+  width: 100% !important;
 }
