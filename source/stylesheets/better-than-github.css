@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, button, a {
   }
 
   ol li a {
-    padding: 3px !important;    
+    padding: 3px !important;
   }
 }
 
@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, button, a {
 
 
 .download-button {
-  margin-top: 75%;
+  margin-top: 44%;
 }
 
   .download-button a {
@@ -141,6 +141,7 @@ ol li p:nth-child(4) {
     border: 1px solid;
     background: #7052CC;
     color: white;
+    text-decoration: none;
   }
 
 ol li {
