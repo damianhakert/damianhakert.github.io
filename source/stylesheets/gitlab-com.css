@@ -116,12 +116,12 @@ background: url(/images/gitlab-com/animal.jpg);
   }
 
   .color-bg h3 {
-    font-family: "Korolev-Medium";
-    font-weight: 100;
+    font-family: "Korolev";
     font-size: 32px;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.62);
     line-height: 32px;
     padding-bottom: 30px;
+    font-weight: 200;
   }
 
   .color-bg i {
@@ -142,7 +142,7 @@ background: url(/images/gitlab-com/animal.jpg);
 }
 
 .sub-wrapper {
-    background: #f5f5f5; 
+    background: #f5f5f5;
 }
 
 .sub-wrapper {
