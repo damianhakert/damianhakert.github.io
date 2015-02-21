@@ -6,69 +6,73 @@ extra_css:
   - better-than-github.css
 ---
 
-<div class="wrapper">
-  <div class="heading">
-    <h1>Why is GitLab better than GitHub, you ask?</h1>
-    <div class="title-container">
-      <div class="hr-title"></div>
-      <h3 class="title">Better than GitHub.com</h3>
-      <div class="hr-title"></div>
+<div class="row">
+  <div class="hidden-xs hidden-sm col-md-3">
+    <div class="navigation-wrapper">
+      <div class="navigation-reasons">
+      <h1>Navigation</h1>
+        <ul>
+          <li><a href="#gitlab-site">GitLab vs. GitHub</a></li>
+          <li><a href="#gitlab-enterprise">GitLab Enterprise vs. GitHub Enterprise</a></li>
+          <li><a href="#gitlab-com">GitLab.com vs. GitHub.com</a></li>
+        </ul>
+      </div>
+      <div class="download-button">
+        <a href="/downloads/">Download GitLab</a>
+      </div>
     </div>
   </div>
-  <div class="list-of-reasons-container github-com">
+<div class="col-xs-12 col-sm-12 col-md-9">
+  <div class="wrapper">
+    <div class="heading">
+      <h1>Why is GitLab better than GitHub, you ask?</h1>
+      <div class="title-container" id="gitlab-site">
+      <div class="hr-title"></div>
+      <h3 class="title">GitLab vs. GitHub</h3>
+      <div class="hr-title"></div>
+    </div> 
+  </div>
+  <div class="list-of-reasons-container">
     <ol>
       <li>
         <p>Protected branches</p>
-        <p>You allow only senior developers to merge to the master branch and prevent accidental force pushes to master</p>
+        <p>Guard your code by protecting branches against force pushes and let only people with higher permissions merge code into important branches.</p>
         <p> 
-          <a href="http://doc.gitlab.com/ce/workflow/protected_branches.html">More information on protected branches</a></p>
+          <a href="http://doc.gitlab.com/ce/workflow/protected_branches.html">Read about protected branches</a></p>
       </li>
       <li>
         <p>Multiple authentication Levels</p> 
-        <p>You can add people to the issue tracker without sharing the source code with them</p>
+        <p>Set permissions according to people's role, rather than either read or write access to a repository. Don't share the source code with people that only need access to the issue tracker.</p>
         <p>
-          <a href="http://doc.gitlab.com/ce/permissions/permissions.html">More information on permissions</a><p>
+          <a href="http://doc.gitlab.com/ce/permissions/permissions.html">See the various authentication levels</a><p>
       </li>
       <li>
         <p>Group level milestones</p>
-        <p>View all the issues for the milestone you’re currently working on across different repositories</p>
+        <p>View all the issues for the milestone you’re currently working on across different projects.</p>
       </li>
       <li>
-        <p>Inner-Sourcing</p>
-        <p>You can share projects within the company to do inner-sourcing</p>
-        <p><a href="https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/ ">More information on collaboration</a></p>
-        <p><a href="http://doc.gitlab.com/ce/public_access/public_access.html ">More information on public access</a>
-        </p>
-      </li>
-      <li>
-        <p>Git Annex supported</p>
-        <p>Support for Git Annex so you can version control large files with your git repository</p>
+        <p>Innersourcing</p>
+        <p>Internal projects in GitLab allow you to promote innersourcing of your internal repositories.</p>
+        <p><a href="https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/">Find out more about innersourcing</a></p>
       </li>
     </ol>
   </div>
 
   <div class="title-container">
     <div class="hr-title"></div>
-    <h3 class="title">Better than GitHub Enterprise</h3>
-    <div class="hr-title"></div>
+    <h3 class="title">GitLab Enterprise vs. GitHub Enterprise</h3>
+    <div class="hr-title" id="gitlab-enterprise"></div>
   </div>
-
-  <div class="list-of-reasons-container github-enterprise">
+  <div class="list-of-reasons-container">
     <ol>
       <li>
-        <p>Everything above + unlimited free private repositories</p>
-        <p>GitHub Enterprise includes everything listed under GitHub.com and you can make as many free private repositories as you'd like. </p>
-        <p><a href="https://about.gitlab.com/gitlab-com/">More information on unlimited private repositories</a></p>
-      </li>
-      <li>
-        <p>An advanced logging system</p>
+        <p>Access your logs easily</p>
         <p>Everything is logging, so you can analyze your instance using various system log files</p>
-        <p><a href="http://doc.gitlab.com/ce/logs/logs.html">More information on GitLab logging</a></p>
+        <p><a href="http://doc.gitlab.com/ce/logs/logs.html">Learn more about logging</a></p>
       </li>
       <li>
-        <p>Run on metal</p>
-        <p></p>
-        <p><a href=""></a></p>
+        <p>Runs on metal</p>
+        <p>You can run GitLab fully on metal. No need for pre-supplied VMs. Run GitLab on your infrastructure, however you like.</p>
       </li>
       <li>
         <p>Run more users on a single server</p>
@@ -76,30 +80,30 @@ extra_css:
       </li>
       <li>
         <p>Multiple active servers and other HA setups</p>
-        <p>Now you can continue committing code, even when there is server downtime.</p>
-        <p><a href="https://about.gitlab.com/high-availability/">More information about High-Availability</a></p>
+        <p>Run GitLab on a single instance or distribute it over a cluster. GitLab offers multiple HA solutions, making it possible to scale however you like.</p>
+        <p><a href="https://about.gitlab.com/high-availability/">More information about active servers</a></p>
       </li>
       <li>
-        <p>Intrusion Detection</p>
-        <p>You can integrate software on the server with higher security and intrusion detection</p>
+        <p>Run your own software on your instance</p>
+        <p>You are free to run your own software on the instance that GitLab is running on. Have your own intrustion detection system? No problem.</p>
       </li>
       <li>
-        <p>Configurable management software</p>
-        <p>Setting up GitLab with multiple easy-to-understand configurations</p>
-        <p><a href="https://about.gitlab.com/installation/">More information about installation configurations</a></p>
+        <p>Use your configuration management software</p>
+        <p>Use configuration management software of your choice to manage GitLab. Puppet, Chef, Ansible, it all works.</p>
+        <p><a href="https://about.gitlab.com/installation/">Read about configuration management here</a></p>
       </li>
       <li>
-        <p>Maintenance and Monitoring</p>
-        <p>Standard unix tools can be used for maintenance and monitoring</p>
+        <p>Use standard unix tools for maintenance and monitoring</p>
+        <p>Use your own or standard Unix tools for monitoring and maintenance. GitLab doesn't restrict you.</p>
       </li>
       <li>
         <p>Built-in Continuous Integration tool</p>
-        <p>Easy-to-set up, performant, stable and elegant continuous integration provided</p>
-        <p><a href="http://doc.gitlab.com/ci/">More information about GitLab CI</a></p>
+        <p>Easy-to-set up, performant, stable and elegant continuous integration with every GitLab installation.</p>
+        <p><a href="http://doc.gitlab.com/ci/">Learn about the benefits of our CI tool</a></p>
       </li>
       <li>
         <p>Powerful AD / LDAP integration</p>
-        <p>Integrate AD / LDAP, complete with administrators, groups, and ssh-keys</p>
+        <p>Sync groups, manage SSH-keys, manage permissions, authentication and more. You can manage an entire GitLab instance through the LDAP / AD integration.</p>
         <p><a href="http://doc.gitlab.com/ee/integration/ldap.html">More information about AD / LDAP integration</a></p>
       </li>
       <li>
@@ -110,9 +114,34 @@ extra_css:
       </li>
       <li>
         <p>Rebase before merge in the web UI to prevent merge commits</p>
-        <p><a href="https://about.gitlab.com/2014/12/22/gitlab-7-6-and-ci-5-3-released/"></a></p>
+        <p></p>
+        <p><a href="https://about.gitlab.com/2014/12/22/gitlab-7-6-and-ci-5-3-released/">See how to prevent merge commits</a></p>
       </li>
+      <li>
+        <p>Git Annex</p>
+        <p>With GitLab Annex you can manage large files in your git repositories without the performance issues.</p>
+      </li> 
+    </ol>   
+  </div>  
+
+  <div class="title-container">
+    <div class="hr-title"></div>
+    <h3 id="gitlab-com" class="title">GitLab.com vs. GitHub.com</h3>
+    <div class="hr-title"></div>
+  </div>
+    <div class="list-of-reasons-container">
+    <ol>
+      <li>
+        <p>Everything above + unlimited public and private repositories for free</p>
+        <p>GitLab.com runs GitLab Enterprise Edition and has all the features listed above. On top of that, you get unlimited public and private repositories and unlimited collaborators for free.</p>
+        <p><a href="https://about.gitlab.com/gitlab-com/">Check it out!</a></p>
+      </li>
+      
     </ol>
   </div>
+</div>
+
 
 </div>
+</div>
+

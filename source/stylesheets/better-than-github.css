@@ -7,8 +7,72 @@ h1, h2, h3, h4, h5, button, a {
   font-family: "Korolev-Medium";
 }
 
+@media (min-width: 1400px) {
+  .wrapper {
+    width: 700px !important;
+  }
+}
+
+@media (max-width: 790px) {
+  .wrapper {
+    width: 100% !important;
+  }
+
+  ol li p:nth-child(3) {
+    text-align: left !important;
+  }
+
+  ol li a {
+    padding: 3px !important;    
+  }
+}
+
+.navigation-wrapper {
+  position: fixed;
+  top: 17%;
+}
+
+  .navigation-wrapper h1 {
+    margin-left: 10%;
+    font-family: "Korolev-Light";
+  }
+
+    .navigation-wrapper ul {
+       list-style-type: none;
+    }
+
+      .navigation-wrapper li {
+        margin-bottom: 11px;
+      }
+
+      .navigation-wrapper li a {
+        color: #D9CCFF;
+        font-size: 18px;
+        padding: 4px;
+      }
+
+
+.download-button {
+  margin-top: 75%;
+}
+
+  .download-button a {
+    font-size: 24px;
+    color: white;
+    border: 1px solid #D9CCFF;
+    padding: 9px;
+    border-radius: 5px;
+    margin-left: 15%;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+    .download-button a:hover {
+      background: #7052CC;
+    }
+
 .wrapper {
-  width: 50%;
+  width: 72%;
   margin-top: 5%;
 }
 
@@ -16,7 +80,7 @@ h1, h2, h3, h4, h5, button, a {
   width: 100%;
   position: relative;
   margin: 0 auto;
-  margin-bottom: 12%;
+  margin-bottom: 15%;
 }
 
 .wrapper .title {
@@ -40,7 +104,6 @@ h1, h2, h3, h4, h5, button, a {
 .wrapper .heading {
   text-align: center;
   font-size: 40px;
-  margin-bottom: 85px;
 }
 
 .wrapper .heading h1 {
@@ -72,13 +135,12 @@ ol li p:nth-child(4) {
     font-size: 18px;
     border: 1px solid;
     padding: 9px;
+    transition: all 0.2s;
 }
   ol li a:hover {
     border: 1px solid;
-    padding: 9px;
     background: #7052CC;
     color: white;
-    text-decoration: none;
   }
 
 ol li {
@@ -86,4 +148,5 @@ ol li {
   font-family: "Korolev-Medium";
   font-weight: 200;
   padding-bottom: 30px;
+  float: left;
 }

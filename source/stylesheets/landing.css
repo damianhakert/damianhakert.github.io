@@ -104,6 +104,7 @@
     color: white;
     font-family: 'Korolev-Medium';
     padding-top: 50px;
+    padding-bottom: 12px;
 }
 
 #landing h3 {
@@ -287,11 +288,27 @@
 }
 
 .see-further i {
-color: white;
-font-size: 33px;
-margin-top: 14px;
-
+  color: white;
+  font-size: 33px;
+  margin-top: 14px;
 }
+
+.comparison {
+  background: #548;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid white;
+  border-radius: 9px;
+  text-decoration: none;
+  transition: all 0.2s
+}
+
+  .comparison:hover {
+    background-color: #D9CCFF;
+    color: white;
+    text-decoration: none;
+  }
 
 #download-landing {
   font-family: "Korolev-Medium";

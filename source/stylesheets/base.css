@@ -213,7 +213,6 @@ hr.thick {
   border: 0;
 }
 
-
 .navbar-default .navbar-nav>li>a {
   color: white;
   font-family: "Korolev-Medium";
@@ -223,6 +222,12 @@ hr.thick {
 .navbar-default .navbar-nav>li>a:hover {
   background: #6652A3;
   color: white;
+}
+
+@media (max-width: 990px) {
+  .navbar-default .navbar-nav>li>a {
+    font-size: 12px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -239,11 +244,6 @@ hr.thick {
   }
 }
 
-@media (max-width: 993px) {
-  .navbar-default .navbar-nav>li>a {
-    font-size: 12px;
-  }
-}
 /* Login/Register Forms
 -------------------------------------------------- */
 .well-form {
