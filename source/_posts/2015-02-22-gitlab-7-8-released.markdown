@@ -7,7 +7,7 @@ categories:
 author: Job van der Voort
 ---
 
-This is an exciting day. Today we release GitLab 7.8, the biggest release of GitLab ever. This release alone contains over 60 entries in the [GitLab CE changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-8-stable/CHANGELOG)!
+This is an exciting day. Today we release GitLab 7.8, the biggest release of GitLab ever. This release alone contains over 60 entries in the [GitLab CE changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG)!
 We're very proud to show you the new features and improvements of GitLab Community Edition (CE) and GitLab Enterprise Edition.
 
 GitLab Community edition brings among others, a GitLab.com importer,
