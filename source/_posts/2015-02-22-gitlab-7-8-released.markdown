@@ -105,6 +105,12 @@ with the new GitHub Enterprise importer.
 
 This release has more improvements, including security fixes, please check out [the (MASSIVE) Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-8-stable/CHANGELOG) to see the all named changes.
 
+## GitLab CI versioning
+
+From version 7.8 we have decided to change the versioning of GitLab CI and had its version bumped from 5.4.x to 7.8. The reason for this change is to make releasing as quick and easy as possible. Previously, GitLab CI was not packaged with the omnibus-gitlab package and GitLab CI version was a separate entity not related to GitLab. However, since GitLab CI got packaged having different versions made our release process cumbersome.
+It also caused various misunderstandings in which CI goes with which version of GitLab.
+
+By having the same version for GitLab and GitLab CI, this problem is resolved.
 
 ## Upgrade barometer
 
