@@ -7,7 +7,7 @@ categories:
 author: Job van der Voort
 ---
 
-This is an exciting day. Today we release GitLab 7.8, the biggest release of GitLab ever. This release alone logged 70 lines (CE+EE) in our [changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-8-stable/CHANGELOG)!
+This is an exciting day. Today we release GitLab 7.8, the biggest release of GitLab ever. This release alone contains over 60 entries in the [GitLab CE changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-8-stable/CHANGELOG)!
 We're very proud to show you the new features and improvements of GitLab Community Edition (CE) and GitLab Enterprise Edition.
 
 GitLab Community edition brings among others, a GitLab.com importer,
@@ -62,7 +62,7 @@ issue or merge request with `@awesome-people` and everyone will get notified.
 
 ## Select email for notifications
 
-For years you've been able to add multiple email addresses to GitLab.
+For some time you've been able to add multiple email addresses to GitLab.
 Now you can actually select which address you want to receive notifications on.
 
 [![screenshot](/images/7_8/set_notification_mail.png)](/images/7_8/set_notification_mail.png)
