@@ -1,5 +1,9 @@
 /* Installation */
 
+body {
+  font-size: 16px;
+}
+
 .method {
   margin-bottom: 50px;
 }
@@ -9,4 +13,8 @@
 }
 .method:last-child {
   margin-bottom: 0px;
+}
+
+.simple-header {
+  padding: 60px;
 }
