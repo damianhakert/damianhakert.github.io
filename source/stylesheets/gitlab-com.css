@@ -40,12 +40,8 @@ h1, h2, h3, h4, h5, button, a, p, li {
     list-style-type: none;
   }
 
-    .header-feature li:hover {
-      background: rgba(57, 38, 113, 0.49);
-    }
-
-    .header-feature li:first-child {
-      margin-left: -4%;
+    .header-feature li {
+      margin-left: 3%;
       text-align: center;
       width: 23%;
       float: left;
@@ -54,6 +50,13 @@ h1, h2, h3, h4, h5, button, a, p, li {
       padding: 3px;
       height: 235px;
       width: 193px;
+      background: rgba(57, 38, 113, 0.49)      
+    }
+
+    .header-feature li:first-child {
+      margin-left: -4%;
+      padding: 3px;
+      width: 193px;
     }
 
       .header-feature li:first-child p {
@@ -61,14 +64,7 @@ h1, h2, h3, h4, h5, button, a, p, li {
       }
 
     .header-feature li:nth-child(2) {
-      text-align: center;
-      width: 23%;
-      float: left;
-      margin-left: 3%;
-      border: 1px solid white;
-      border-radius: 14px;
       padding: 5px;
-      height: 235px;
       width: 185px
     }
 
@@ -77,14 +73,7 @@ h1, h2, h3, h4, h5, button, a, p, li {
       }
 
     .header-feature li:nth-child(3) {
-      text-align: center;
-      width: 23%;
-      float: left;
-      margin-left: 3%;
-      border: 1px solid white;
-      border-radius: 14px;
       padding: 2px;
-      height: 236px;
       width: 190px;
     }
 
@@ -116,7 +105,7 @@ background: url(/images/gitlab-com/animal.jpg);
   }
 
   .color-bg h3 {
-    font-family: "Korolev";
+    font-family: "Korolev-Light";
     font-size: 32px;
     color: rgba(255, 255, 255, 0.62);
     line-height: 32px;
