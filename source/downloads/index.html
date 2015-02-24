@@ -146,15 +146,7 @@ platforms:
         {% endfor %}
         </div>
       </div>
-
-      <div class="other-downloads">
-        <h3>Omnibus Packages</h3>
-        <h5><a href="archives/">All versions of the GitLab Community Edition</a></h5>
-        <h5><a href="https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/install/packages.md">GitLab Enterprise Edition Omnibus packages (subscribers only)</a></h5>
-        <h5><a class="green" href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update.md">Upgrade instructions</a></h5>
-        <h5><a class="green" href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md">Troubleshooting and configuration options</a></h5>
-        <h5><a href="/installation/">Alternative installation methods</a></h5>
-      </div>
+      {% include other_download_links.html %}
     </div>
   </div>
 </div>

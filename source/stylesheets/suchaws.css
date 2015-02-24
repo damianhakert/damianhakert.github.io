@@ -1,0 +1,14 @@
+body, a, h1, h2, h3, p {
+  font-family: ComicSansMS !important;
+}
+
+.aws-header {
+  background: url(/images/doge.png) no-repeat;
+  -webkit-animation: animatedBackground 40s linear infinite;
+  background-position-x: 0%;
+}
+
+@-webkit-keyframes animatedBackground {
+	from { background-position-x: 0%; }
+	to { background-position-x: 100%; }
+}
