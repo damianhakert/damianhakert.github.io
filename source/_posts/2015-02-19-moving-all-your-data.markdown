@@ -6,8 +6,6 @@ comments: true
 author: Jacob Vosmaer
 categories: 
 ---
-# Moving gitlab.com data without you noticing (much)
-
 At GitLab B.V. we are working on an infrastructure upgrade to give more CPU
 power and storage space to GitLab.com. (We are currently still running on a
 [single server](/2015/01/03/the-hardware-that-powers-100k-git-repos/).) As a
