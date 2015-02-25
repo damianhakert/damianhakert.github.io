@@ -272,6 +272,10 @@
       width: 204px;
     }
 
+      .header-feature ul li:first-child p span {
+        display: block;
+      }
+
       .header-feature li i { 
         color: white;
         font-size: 4em;
