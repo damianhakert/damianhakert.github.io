@@ -107,15 +107,25 @@ h1, h2, h3, h4, h5, button, a, p, li {
 
 .small-feature .link {
   text-align: center;
-  margin-top: 6px;
+  margin-top: 21px;
 }
 
 .small-feature .link a {
-  text-align: center;
-  font-weight: 200;
+  font-family: "Korolev-Medium";
+  background: #548;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
   font-size: 13px;
-  color: #747474;
-  line-height: 18px;
+  padding: 7px;
+  transition: 1s ease;
+  text-decoration: none;
+}
+
+.small-feature .link a:hover {
+  background: #f9f9f9;
+  color: #548;
+  text-decoration: none;
 }
 
 .feature {
