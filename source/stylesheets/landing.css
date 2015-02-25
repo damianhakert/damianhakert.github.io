@@ -251,7 +251,7 @@
         padding-top: 16%;
       }
 
-  .header-feature ul li a {
+  .header-feature .header-btn a {
     display: inline-block;
     padding: 6px 20px;
     cursor: pointer;
@@ -263,18 +263,54 @@
     color: #fff;
   }
 
-    .header-feature ul li a:hover {
-      background: #fff;
-      color: #548;
-      text-decoration: none;
+    .header-feature li:first-child .header-btn {
+      margin-left: 45px;
     }
 
-  .header-btn {
+    .header-feature li:nth-child(2) .header-btn {
+      margin-left: 55px;
+    }
+
+    .header-feature li:nth-child(3) .header-btn {
+      margin-left: 57px;
+    }
+
+    .header-feature li .clickable .select-area {    
+      position: absolute;
+      width: 18%;
+      height: 37%;
+      top: 0;
+      left: 24%;
+      text-decoration: none;
+      z-index: 10;
+      background-color: white;
+      opacity: 0;
+    }
+
+    .header-feature li:first-child .clickable .select-area {
+      left: 24%;
+    }
+
+    .header-feature li:nth-child(2) .clickable .select-area {
+      left: 41%;
+    }
+
+    .header-feature li:nth-child(3) .clickable .select-area {
+      left: 59%;
+    }
+
+  .header-feature .header-btn {
     position: absolute;
     bottom: 0;
     margin-left: 48px;
     margin-bottom: 1%;
   }
+
+    .header-feature .header-btn a:hover {
+      background: #fff;
+      color: #548;
+      text-decoration: none;
+    }
 
 .content {
   background-color: white;
