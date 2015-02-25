@@ -285,18 +285,6 @@
         padding-top: 16%;
       }
 
-  .header-feature .header-btn a {
-    display: inline-block;
-    padding: 6px 20px;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    font-family: "Korolev-Light";
-    border-radius: 4px;
-    text-transform: uppercase;
-    border: 2px solid #fff;
-    color: #fff;
-  }
-
     .header-feature li:first-child .header-btn {
       margin-left: 45px;
     }
@@ -453,7 +441,7 @@
   .comparison {
     background: #548;
     color: white;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
     font-size: 18px;
     border: 1px solid white;
     border-radius: 3px;
