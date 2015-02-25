@@ -10,7 +10,7 @@ At GitLab B.V. we are working on an infrastructure upgrade to give more CPU
 power and storage space to GitLab.com. (We are currently still running on a
 [single server](/2015/01/03/the-hardware-that-powers-100k-git-repos/).) As a
 part of this upgrade we wanted to move gitlab.com to a different data center.
-In this blog post we will tell you how we did that and what challenges we had
+In this blog post I will tell you how I did that and what challenges I had
 to overcome.
 
 ## What do we have to move?
@@ -32,7 +32,7 @@ prepare, take the server offline, and then do a quick Rsync just to catch up?
 That would still take hours. No good.
 
 We have faced and solved this same problem in the past when the amount of data
-was 10 times smaller. (Rsync was not an option even then.) What we did then was
+was 5 times smaller. (Rsync was not an option even then.) What we did then was
 to use DRBD to move not just the files themselves, but the whole filesystem
 they sit on. It is not the fastest solution to move a lot of data, but what is
 great about it is that you can keep using the filesystem while the data is
@@ -61,7 +61,7 @@ drive.
 
 ## Using DRBD for a data migration
 
-We felt confident using DRBD for the migration because had done it before for a
+I felt confident using DRBD for the migration because I had done it before for a
 migration between data centers. At that time we were moving across the Atlantic
 Ocean; this time we would only be moving from the Netherlands to Germany.
 However, the last time we used DRBD only as a one-off tool. In our
@@ -206,5 +206,153 @@ addresses](http://engineering.silk.co/post/31923247961/multiple-ip-addresses-on-
 that was not obvious from the AWS documentation: if you want to have two public
 IP addresses on an AWS VPC node, you need to put two corresponding private IP
 addresses on one 'Elastic Network Interface', instead of creating two network
-interfaces with one IP each.
+interfaces with one private IP each.
+
+## Configuring three-way DRBD replication
+
+With the basic networking figured out the next thing I had to do was to adapt
+our production failover script so that we maintain redundancy while migrating
+the data. My goal was to make sure that if one of our production servers
+failed, any teammate of mine on pager duty would be able to restore the
+gitlab.com service using our normal failover procedure.
+
+I certainly got a little more familiar with tcpdump (`tcpdump -n -i
+INTERFACE`), having multiple layers of firewalls
+([UFW](http://en.wikipedia.org/wiki/Uncomplicated_Firewall) and AWS [Security
+Groups](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-network-security.html)),
+and how to get any useful log messages from DRBD:
+
+```
+# Monitor DRBD log messages
+sudo tail -f /var/log/messages | grep -e drbd -e d-con
+```
+
+I later learned that I actually deployed a new version of the failover script
+with a bug in it that would have caused significant extra downtime (but no data
+loss) if one my teammates would have tried to use it. Luckily we never actually
+needed the failover procedure during the time the new script was in production.
+
+But, even though I was introducing new complexity and hence bugs into our
+failover tooling, I did manage to learn and try out enough things to bring this
+project to a succesful conclusion.
+
+## Enabling the DRBD replication
+
+This part was relatively easy. We just had to grow the DRBD block device
+'drbd0' so that it could accomodate the new stacked (inner) block device
+'drbd10' without having to shrink our production filesystem. Because drbd0 was
+backed by LVM and we had some space left this was a matter of invoking
+`lvextend` and `drbdadm resize` on both our production nodes.
+
+The step after this was the first one where we had to take gitlab.com offline.
+In order to 'activate' drbd10 and start the synchronization, we had to unmount
+`/dev/drbd0` from `/var/opt/gitlab` and mount `/dev/drbd10` in its place. This
+took less than 5 minutes. After this the actual migration was under way!
+
+## Too slow
+
+At this point I was briefly excited to be able to share some good news with the
+rest of the team. While staring about the DRBD progress bar for the
+synchronization I started to realize however that the progress bar was telling
+me that the synchronization would take about 50-60 days at 2MB/s.
+
+This prognosis was an improvement over what we would expect based on our
+previous experience moving 1.8TB from North Virginia (US) to Delft (NL) in
+about two weeks. If one would extrapolate that rate you would expect moving 9TB
+to take 70 days. We were disappointed nonetheless because we were hoping that
+we would gain more throughput by moving over a shorter distance this time
+around (from Delft to Frankfurt).
+
+The first thing I started looking into at this point was whether we could
+somehow make better use of the network bandwidth at our disposal. Sending
+zeroes over the (encrypted) IPIP tunnel (`dd if=/dev/zero | nc remote_ip 1234`)
+we could get about 17 MB/s. By disabling IPsec we could increase that number to
+40 MB/s.
+
+The only conclusion I could come to was that we were not reaching our maximum
+bandwidth potential, but that I had no clue how to coax more speed out of the
+DRBD sync. Luckily DRBD had another trick up its sleeve.
+
+## Bring out the truck
+
+The solution suggested by the DRBD documentation for situations like ours is
+called ['truck based
+replication](https://drbd.linbit.com/users-guide/s-using-truck-based-replication.html).
+Instead of synchronizing 9TB of data, we would be telling DRBD to mark a point
+in time, take a full disk snapshot, move the snapshot to the new location (as a
+box full of hard drives in a truck if needed), and then tell DRBD to get the
+data at the new location up to date. During that 'catching-up' sync, DRBD would
+only be resending those parts of the disk that actually changed since we marked
+the point in time earlier. Because our users would not have written 9TB of new
+data while the 'disks' were being shipped, we would have to sync much less than
+9TB.
+
+![Full replication versus 'truck' replication](/images/drbd/drbd-truck-sync.png)
+
+In our case we would not have to use an actual truck; while testing the network
+throughput between our old and new server I found that I could stream zeroes
+through SSH at about 35MB/s.
+
+```
+dd if=/dev/zero bs=1M count=100 | ssh theo.gitlab.com dd of=/dev/null
+```
+
+After doing some testing with the leftover two-node staging setup I built
+earlier to figure out the networking I felt I could make this work. I followed
+the steps in the DRBD documentation, made an LVM snapshot on the active origin
+server, and started sending the snapshot to the new server with the following
+script.
+
+```
+#!/bin/sh
+block_count=100
+block_size='8M'
+remote='54.93.71.23'
+
+send_blocks() {
+  for skip in $(seq $1 ${block_count} $2) ; do
+    echo "${skip}   $(date)"
+    sudo dd if=/dev/gitlab_vg/truck bs=${block_size} count=${block_count} skip=${skip} status=noxfer iflag=fullblock \
+    | ssh -T ${remote} sudo dd of=/dev/gitlab_vg/gitlab_com bs=${block_size} count=${block_count} seek=${skip} status=none iflag=fullblock
+  done
+}
+
+check_blocks() {
+  for skip in $(seq $2 ${block_count} $3) ; do
+    printf "${skip}   "
+    sudo dd if=$1 bs=${block_size} count=${block_count} skip=${skip} iflag=fullblock | md5sum
+  done
+}
+
+case $1 in
+  send)
+    send_blocks $2 $3
+    ;;
+  check)
+    check_blocks $2 $3 $4
+    ;;
+  *)
+    echo "Usage: $0 (send START END) | (check BLOCK_DEVICE START END)"
+    exit 127
+esac
+```
+
+By running this script in a [screen](http://www.gnu.org/software/screen/)
+session I was able to copy the LVM snapshot `/dev/gitlab_vg/truck` from the old
+server to the new server in about 3.5 days, 800 MB at a time. The 800MB number
+was a bit of a coincidence, stemming from the recommendation from our Dutch
+hosters [NetCompany](http://www.netcompany.nl/) to use 8MB `dd`-blocks. Also
+coincidentally, the total disk size was divisible by 8MB. If you have an eye
+for system security you might notice that the script needed both root
+privileges on the source server, and via short-lived unattended SSH sessions
+into the remote server (`| ssh sudo ...`). This is not a normal thing for us to
+do, and my colleagues got spammed by warning messages about it while this
+migration was in progress.
+
+Because I am a little paranoid, I was running a second instance of this script
+in parallel with the sync, where I was calculating MD5 checksums of all the
+blocks that were being sent across the network. By calculating the same
+checksums on the migration target I could gain sufficient confidence that all
+data made across without errors. If there would have been any, the script would
+have made it easy to re-send an individual 800MB block.
 
