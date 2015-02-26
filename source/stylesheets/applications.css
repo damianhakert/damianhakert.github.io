@@ -47,3 +47,7 @@ hr {
 .container-text {
   padding: 2%;
 }
+
+.row {
+  padding-top:15px;
+}
