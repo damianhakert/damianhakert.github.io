@@ -1,10 +1,10 @@
 #landing {
   padding: 0;
-  height: 575px;
+  height: 645px;
   overflow: hidden;
-  background-image: url(/images/ci/fox.jpeg);
   background-repeat: no-repeat;
-  background-size: 100%
+  background-size: 100%;
+  background-image: url(/images/ci/fox.jpeg);
 }
 
 #landing .main-screenshot {
@@ -23,12 +23,15 @@
   height: 100%;
   width: 100%;
   text-align: center;
-  background: -moz-linear-gradient(top, rgba(85,68,136,0.85) 0%, rgba(85,68,136,0.85) 99%, rgba(85,68,136,0.85) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(85,68,136,0.85)), color-stop(99%,rgba(85,68,136,0.85)), color-stop(100%,rgba(85,68,136,0.85))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, rgba(85,68,136,0.85) 0%,rgba(85,68,136,0.85) 99%,rgba(85,68,136,0.85) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, rgba(85,68,136,0.85) 0%,rgba(85,68,136,0.85) 99%,rgba(85,68,136,0.85) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, rgba(85,68,136,0.85) 0%,rgba(85,68,136,0.85) 99%,rgba(85,68,136,0.85) 100%); /* IE10+ */
-  background: linear-gradient(to bottom, rgba(85,68,136,0.85) 0%,rgba(85,68,136,0.85) 99%,rgba(85,68,136,0.85) 100%); /* W3C */
+  background: -moz-linear-gradient(to bottom, rgba(85,68,136,1.0) 0%,rgba(85,68,136,0.95) 99%,rgba(85,68,136,0.99) 100%); /* FF3.6+ */
+  background: -webkit-linear-gradient(to bottom, rgba(85,68,136,1.0) 0%,rgba(85,68,136,0.95) 99%,rgba(85,68,136,0.99) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(to bottom, rgba(85,68,136,1.0) 0%,rgba(85,68,136,0.95) 99%,rgba(85,68,136,0.99) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(to bottom, rgba(85,68,136,1.0) 0%,rgba(85,68,136,0.95) 99%,rgba(85,68,136,0.99) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(85,68,136,1.0) 0%,rgba(85,68,136,0.95) 99%,rgba(85,68,136,0.99) 100%);
+}
+
+#landing .container .row .features-panel {
+  margin-top: 72px;
 }
 
 @media (max-width: 960px) {
@@ -36,7 +39,8 @@
         background-size: cover;
     }
 }
-@media (max-width: 688px) {
+
+@media (max-width: 767px) {
     #landing {
         min-height: 0;
         height: 82%;
@@ -44,6 +48,7 @@
     }
 
     #landing h1 {
+      padding-top: 0 !important;
       font-size: 22px !important;
     }
 
@@ -61,6 +66,18 @@
       padding: 0;
     }
 
+    .gitlab-comparison {
+      margin-top: 24px !important;
+    }
+
+    .features-panel {
+      margin-top: 36px !important;
+    }
+
+    .see-further {
+      margin-top: 8px !important;
+    }
+
 }
 
 @media (max-width: 388px) {
@@ -73,6 +90,7 @@
     #landing h1 {
       font-size: 18px !important;
       padding-top: 0 !important;
+      padding-bottom: 0 !important;
     }
 
     #landing h3 {
@@ -81,7 +99,7 @@
     }
 
     #landing .container .row div .text-left {
-      padding: 0 0 0 0;
+      padding: 0 0 0 0 !important;
     }
 
     .landing-ctas {
@@ -90,12 +108,24 @@
 
     #landing .landing-ctas a {
       font-size: 15px;
-      margin: 10px 0 10px 0;
+      margin: 0px 0 12px 0;
       padding: 0;
+    }
+
+    .gitlab-comparison {
+      margin-top: 0px !important;
+    }
+
+    .features-panel {
+      margin-top: 24px !important;
     }
 
     .read-more-tweets a {
       padding: 2px !important;
+    }
+
+    .see-further {
+      margin-top: 0 !important;
     }
 }
 
@@ -194,6 +224,116 @@
   opacity: 1;
 }
 
+/* ANIMATIONS */
+
+
+
+.header-feature {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from { opacity:0; }
+    to { opacity:1; }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from { opacity:0; }
+    to { opacity:1; }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from { opacity:0; }
+    to { opacity:1; }
+}
+@-o-keyframes fadein { /* Opera */
+    from { opacity:0; }
+    to { opacity: 1; }
+}
+
+/* END ANIMATIONS */
+
+
+.header-feature {
+  display: inline-block;
+  width: 750px;
+  height: 240px;
+}
+
+  .header-feature ul {
+    list-style-type: none;
+  }
+
+    .header-feature li {
+      margin-right: 4%;
+      text-align: center;
+      float: left;
+      height: 239px;
+      width: 204px;
+    }
+
+      .header-feature ul li:first-child p span {
+        display: block;
+      }
+
+      .header-feature li i { 
+        color: white;
+        font-size: 4em;
+      }
+
+      .header-feature li p {
+        padding-top: 16%;
+      }
+
+    .header-feature li:first-child .header-btn {
+      margin-left: 45px;
+    }
+
+    .header-feature li:nth-child(2) .header-btn {
+      margin-left: 55px;
+    }
+
+    .header-feature li:nth-child(3) .header-btn {
+      margin-left: 57px;
+    }
+
+    .header-feature li .clickable .select-area {    
+      position: absolute;
+      width: 18%;
+      height: 37%;
+      top: 0;
+      left: 24%;
+      text-decoration: none;
+      z-index: 10;
+      background-color: white;
+      opacity: 0;
+    }
+
+    .header-feature li:first-child .clickable .select-area {
+      left: 24%;
+    }
+
+    .header-feature li:nth-child(2) .clickable .select-area {
+      left: 41%;
+    }
+
+    .header-feature li:nth-child(3) .clickable .select-area {
+      left: 59%;
+    }
+
+  .header-feature .header-btn {
+    position: absolute;
+    bottom: 0;
+    margin-left: 48px;
+    margin-bottom: 1%;
+  }
+
+    .header-feature .header-btn a:hover {
+      background: #fff;
+      color: #548;
+      text-decoration: none;
+    }
+
 .content {
   background-color: white;
   margin: 0;
@@ -285,28 +425,33 @@
 
 .see-further {
   text-align: center;
+  margin-top: 50px;
+
 }
 
-.see-further i {
-  color: white;
-  font-size: 33px;
-  margin-top: 14px;
-}
+  .see-further i {
+    color: white;
+    font-size: 33px;
+  }
 
-.comparison {
-  background: #548;
-  color: white;
-  padding: 10px;
-  font-size: 18px;
-  border: 1px solid white;
-  border-radius: 9px;
-  text-decoration: none;
-  transition: all 0.2s
+.gitlab-comparison {
+  margin-top: 34px;
+
 }
+  .comparison {
+    background: #548;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: all 0.2s
+  }
 
   .comparison:hover {
-    background-color: #D9CCFF;
-    color: white;
+    background-color: #fff;
+    color: #548;
     text-decoration: none;
   }
 
