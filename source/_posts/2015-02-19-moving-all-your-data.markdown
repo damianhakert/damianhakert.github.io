@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Moving all your data"
-date: 2015-02-19 13:53:45 +0100
+title: "Moving all your data, 9TB edition"
+date: 2015-02-26
 comments: true
 author: Jacob Vosmaer
 categories: 
@@ -13,12 +13,12 @@ part of this upgrade we wanted to move gitlab.com to a different data center.
 In this blog post I will tell you how I did that and what challenges I had
 to overcome.
 
-## What do we have to move?
+## What did I have to move?
 
 In our current setup we run a stock GitLab Enterprise Edition omnibus package,
 with a single big filesystem mounted at `/var/opt/gitlab`. This
 filesystem holds all the user data hosted on gitlab.com: Postgres and Redis
-database files, user uploads, and a lot of Git repositories. All we have to do
+database files, user uploads, and a lot of Git repositories. All I had to do
 to move this data to the new data center is to move the files on this
 filesystem.
 
@@ -32,12 +32,13 @@ prepare, take the server offline, and then do a quick Rsync just to catch up?
 That would still take hours. No good.
 
 We have faced and solved this same problem in the past when the amount of data
-was 5 times smaller. (Rsync was not an option even then.) What we did then was
-to use DRBD to move not just the files themselves, but the whole filesystem
-they sit on. It is not the fastest solution to move a lot of data, but what is
-great about it is that you can keep using the filesystem while the data is
-being moved, and changes will get synchronized continuously. No downtime for
-our users! (Except maybe 5 minutes at the start to set up the sync.)
+was 5 times smaller. (Rsync was not an option even then.) What I did at that
+time was to use DRBD to move not just the files themselves, but the whole
+filesystem they sit on. It is not the fastest solution to move a lot of data,
+but what is great about it is that you can keep using the filesystem while the
+data is being moved, and changes will get synchronized continuously. No
+downtime for our users! (Except maybe 5 minutes at the start to set up the
+sync.)
 
 ## What is DRBD?
 
@@ -51,24 +52,24 @@ your first computer crashes, you can 'plug in' the virtual hard drive on the
 second computer in a matter of seconds, and all your data will still be there
 because DRBD kept the 'real' hard drives in sync for you. You can even have the
 two computers that are linked by DRBD sit in different buildings, or on
-different continents. Up until a day ago, we were using DRBD to protect against
-hardware failure on the server that runs gitlab.com: if such a failure would
-happen, we could just plug in the virtual hard drive with the user data into
-our stand-by server. In our new data center, the hosting provider (Amazon Web
-Services) has their own solution for plugging virtual hard drives in and out
-called Elastic Block Storage, so we are no longer using DRBD as a virtual hard
-drive.
+different continents. Up until our move to AWS, we were using DRBD to protect
+against hardware failure on the server that runs gitlab.com: if such a failure
+would happen, we could just plug in the virtual hard drive with the user data
+into our stand-by server. In our new data center, the hosting provider (Amazon
+Web Services) has their own solution for plugging virtual hard drives in and
+out called Elastic Block Storage, so we are no longer using DRBD as a virtual
+hard drive.
 
 ## Using DRBD for a data migration
 
-I felt confident using DRBD for the migration because I had done it before for a
-migration between data centers. At that time we were moving across the Atlantic
-Ocean; this time we would only be moving from the Netherlands to Germany.
-However, the last time we used DRBD only as a one-off tool. In our
-pre-migration setup, we were already using DRBD to replicate the filesystem
-between two servers in the same rack. DRBD only lets you share a virtual hard
-drive between two computers, so how do we now send the data to a _third_
-computer in the new data center?
+Although DRBD is not really made for this purpose, I felt confident using DRBD
+for the migration because I had done it before for a migration between data
+centers. At that time we were moving across the Atlantic Ocean; this time we
+would only be moving from the Netherlands to Germany.  However, the last time
+we used DRBD only as a one-off tool. In our pre-migration setup, we were
+already using DRBD to replicate the filesystem between two servers in the same
+rack. DRBD only lets you share a virtual hard drive between two computers, so
+how do we now send the data to a _third_ computer in the new data center?
 
 Luckily, DRBD actually has a trick up its sleeve to deal with this, called
 'stacked resources'. This means that our old servers ('linus' and 'monty')
@@ -85,15 +86,15 @@ theo) would also be able to continue, even after a failover to monty.
 
 ## Networking
 
-We liked the picture above, so all we had to do was set it up. That took some
-time, just to set up a test environment, and to figure out how to create a
-network tunnel for the green traffic. The network tunnel needed to have a
-movable endpoint depending on whether linus or monty was primary. We also
-needed the tunnel because DRBD is not compatible with the [Network Address
-Translation](http://en.wikipedia.org/wiki/Network_address_translation)
-used by AWS. DRBD assumes that whenever a node listens on an IP address, it is
-also reachable for partner nodes at that IP address. On AWS on the other hand,
-a node will have one or more internal IP addresses, which are distinct from its
+I liked the picture above, so 'all' I had to do was set it up. That ended up
+taking a few days, just to set up a test environment, and to figure out how to
+create a network tunnel for the green traffic. The network tunnel needed to
+have a movable endpoint depending on whether linus or monty was primary. We
+also needed the tunnel because DRBD is not compatible with the [Network Address
+Translation](http://en.wikipedia.org/wiki/Network_address_translation) used by
+AWS. DRBD assumes that whenever a node listens on an IP address, it is also
+reachable for its partner node at that IP address. On AWS on the other hand, a
+node will have one or more internal IP addresses, which are distinct from its
 _public_ IP address.
 
 We chose to work around this with an [IPIP
@@ -101,7 +102,7 @@ tunnel](http://en.wikipedia.org/wiki/IP_in_IP) and manually keyed IPsec
 encryption. Previous experiments indicated that this gave us the best network
 throughput compared to OpenVPN and GRE tunnels.
 
-To set up the tunnel we used a shell script that was kept in sync on all three
+To set up the tunnel I used a shell script that was kept in sync on all three
 servers involved in the migration by Chef.
 
 ```
@@ -163,7 +164,8 @@ Frankfurt (theo), and two AWS test nodes that were part of a staging setup. We
 chose the AWS Frankfurt (Germany) data center because of its geographic
 proximity to Delft (The Netherlands).
 
-We configured IPsec with `/etc/ipsec-tools.conf`. An example for the 'origin' configuration would be:
+We configured IPsec with `/etc/ipsec-tools.conf`. An example for the 'origin'
+configuration would be:
 
 ```
 #!/usr/sbin/setkey -f
@@ -197,10 +199,10 @@ spdadd 172.16.228.2 172.16.228.1 any -P in ipsec esp/transport//require ah/trans
 
 Getting the networking to this point took quite some work. For starters, we did
 not have a staging environment similar enough to our production environment, so
-we had to create one for this occasion.
+I had to create one for this occasion.
 
-On top of that, to model our production setup, we had to use an AWS 'Virtual
-Private Cloud', which was new technology for us. It took a while before we
+On top of that, to model our production setup, I had to use an AWS 'Virtual
+Private Cloud', which was new technology for us. It took a while before I
 found some [vital information about using multiple IP
 addresses](http://engineering.silk.co/post/31923247961/multiple-ip-addresses-on-amazon-ec2)
 that was not obvious from the AWS documentation: if you want to have two public
@@ -212,9 +214,12 @@ interfaces with one private IP each.
 
 With the basic networking figured out the next thing I had to do was to adapt
 our production failover script so that we maintain redundancy while migrating
-the data. My goal was to make sure that if one of our production servers
-failed, any teammate of mine on pager duty would be able to restore the
-gitlab.com service using our normal failover procedure.
+the data. 'Failover' is a procedure where you move a service (gitlab.com) ove
+to a different computer after a failure. Our failover procedure is managed by a
+script. My goal was to make sure that if one of our production servers failed,
+any teammate of mine on pager duty would be able to restore the gitlab.com
+service using our normal failover procedure. That meant I had to update the
+script to use the new three-way DRBD configuration.
 
 I certainly got a little more familiar with tcpdump (`tcpdump -n -i
 INTERFACE`), having multiple layers of firewalls
@@ -228,9 +233,9 @@ sudo tail -f /var/log/messages | grep -e drbd -e d-con
 ```
 
 I later learned that I actually deployed a new version of the failover script
-with a bug in it that would have caused significant extra downtime (but no data
-loss) if one my teammates would have tried to use it. Luckily we never actually
-needed the failover procedure during the time the new script was in production.
+with a bug in it that potentially could have confused the hell out of my
+teammates had they had to use it under duress. Luckily we never actually needed
+the failover procedure during the time the new script was in production.
 
 But, even though I was introducing new complexity and hence bugs into our
 failover tooling, I did manage to learn and try out enough things to bring this
@@ -238,14 +243,14 @@ project to a succesful conclusion.
 
 ## Enabling the DRBD replication
 
-This part was relatively easy. We just had to grow the DRBD block device
+This part was relatively easy. I just had to grow the DRBD block device
 'drbd0' so that it could accomodate the new stacked (inner) block device
 'drbd10' without having to shrink our production filesystem. Because drbd0 was
 backed by LVM and we had some space left this was a matter of invoking
 `lvextend` and `drbdadm resize` on both our production nodes.
 
-The step after this was the first one where we had to take gitlab.com offline.
-In order to 'activate' drbd10 and start the synchronization, we had to unmount
+The step after this was the first one where I had to take gitlab.com offline.
+In order to 'activate' drbd10 and start the synchronization, I had to unmount
 `/dev/drbd0` from `/var/opt/gitlab` and mount `/dev/drbd10` in its place. This
 took less than 5 minutes. After this the actual migration was under way!
 
@@ -266,12 +271,12 @@ around (from Delft to Frankfurt).
 The first thing I started looking into at this point was whether we could
 somehow make better use of the network bandwidth at our disposal. Sending
 zeroes over the (encrypted) IPIP tunnel (`dd if=/dev/zero | nc remote_ip 1234`)
-we could get about 17 MB/s. By disabling IPsec we could increase that number to
-40 MB/s.
+we could get about 17 MB/s. By disabling IPsec (not really an option as far as
+I am concerned) we could increase that number to 40 MB/s.
 
 The only conclusion I could come to was that we were not reaching our maximum
 bandwidth potential, but that I had no clue how to coax more speed out of the
-DRBD sync. Luckily DRBD had another trick up its sleeve.
+DRBD sync. Luckily I recalled reading about another magical DRBD feature.
 
 ## Bring out the truck
 
@@ -289,7 +294,7 @@ data while the 'disks' were being shipped, we would have to sync much less than
 
 ![Full replication versus 'truck' replication](/images/drbd/drbd-truck-sync.png)
 
-In our case we would not have to use an actual truck; while testing the network
+In our case I would not have to use an actual truck; while testing the network
 throughput between our old and new server I found that I could stream zeroes
 through SSH at about 35MB/s.
 
@@ -356,3 +361,110 @@ checksums on the migration target I could gain sufficient confidence that all
 data made across without errors. If there would have been any, the script would
 have made it easy to re-send an individual 800MB block.
 
+At this point my spirits were lifting again and I told my teammates we would
+probably need one extra day after the 'truck' stage before we could start usign
+the new server. I did not know yet that 'one day' would become 'one week'.
+
+## Shipping too much data
+
+After moving the big snapshot across the network with
+[dd](http://en.wikipedia.org/wiki/Dd_%28Unix%29) and SSH, the next step would
+be to 'just turn DRBD on and let it catch up'. But that did not work all of a
+sudden! It took me a while to realize that the problem was that while trucking,
+I had sent _too much_ data to the new server (theo). If you recall the picture
+I drew earlier of the three-way DRBD replication then you can see that the goal
+was to replicate the 'green box' from the old servers to the new server, while
+letting the old servers keep sharing the 'blue box' for redundancy.
+
+![Blue box on the left, green box on the
+right](/images/drbd/drbd-too-much-data.png)
+
+But I had just sent a snapshot of the _blue_ box to theo (the server on the
+right), not just the green box. DRBD was refusing to turn back on on theo,
+because it was expecting the green box, not the blue box (containing the green
+box). More precisely, my disk on the new server contained metadata for drbd0 as
+well as drbd10. DRBD finds its metadata by starting at the end of the disk and
+walking backwards. Because of that, it was not seeing the drbd10 (green)
+metadata on theo.
+
+![Two metadata block](/images/drbd/drbd-two-metadata-blocks.png)
+
+The first thing I tried was to shrink the disk (with
+[LVM](http://en.wikipedia.org/wiki/Logical_Volume_Manager_%28Linux%29)) so that
+the blue block at the end would fall off. Unfortunately, you can only grow and
+shrink LVM disks in fixed steps (4MB steps in our case), and those steps did
+not align with where the drbd10 metadata (green box) ended on disk.
+
+The next thing I tried was to erase the blue block. That would leave DRBD
+unable to find any metadata, because DRBD metadata must sit at the end of the
+disk. To cope with that I tried and trick DRBD into thinking it was in the
+middle of a disk resize operation. By manually creating a doctored
+`/var/lib/drbd/drbd-minor-10.lkbd` file used by DRBD when it does a
+(legitimate) disk resize, I was pointing it to where I thought it could find
+the green block of drbd10 metadata. To be honest this required more disk sector
+arithmetic than I was comfortable with. Comfortable or not, I never got this
+procedure to work without a few screens full of scary DRBD error messages so I
+decided to call our first truck expedition a bust.
+
+## One last try
+
+We had just spent four days waiting for a 9TB chunk of data to be transported
+to our new server only to find out that it was getting rejected by DRBD. The
+only option that seemed left to us was to sit back and wait 50-60 days for a
+regular DRBD sync to happen. There was just this one last thing I wanted to try
+before giving up. The stumbling block at this point was getting DRBD on theo to
+find the metadata for the drbd10 disk. From reading the documentation, I knew
+that DRBD has metadata export and import commands. What if we would take a new
+LVM snapshot in Delft, take the disk offline and export its metadata, and then
+on the other hand do a metadata import with the proper DRBD import command
+(instead of me writing zeroes to the disk and lying to DRBD about being in the
+middle of a resize). This would require us to redo the truck dance and wait
+four days, but four days was still better than 50 days.
+
+Using the staging setup I built at the start of this process (a good time
+investment!) I created a setup that allowed me to test three-way replication
+and truck-based replication at the same time. Without having to do any
+arithmetic I came up with an intimidating but reliable sequence of commands to
+(1) initiate truck based replication and (2) export the DRBD metadata.
+
+```
+sudo lvremove -f gitlab_vg/truck
+## clear the bitmap to mark the sync point in time
+sudo drbdadm disconnect --stacked gitlab_data-stacked
+sudo drbdadm new-current-uuid --clear-bitmap --stacked gitlab_data-stacked/0
+## create a metadata dump
+echo Yes | sudo gitlab-drbd slave
+sudo drbdadm primary gitlab_data
+sudo drbdadm apply-al --stacked gitlab_data-stacked
+sudo drbdadm dump-md --stacked gitlab_data-stacked > stacked-md-$(date +%s).txt
+## Create a block device snapshot
+sudo lvcreate -n truck -s --extents 50%FREE gitlab_vg/drbd
+## Turn gitlab back on
+echo Yes |sudo gitlab-drbd slave
+echo Yes |sudo gitlab-drbd master
+## Make sure the current node will 'win' as primary later on
+sudo drbdadm new-current-uuid --stacked gitlab_data-stacked/0
+```
+
+This time I needed to take gitlab.com offline for a few minutes to be able to
+do the metadata export. After that, a second waiting period of 4 days of
+streaming the disk snapshot with `dd` and `ssh` commenced. And then came the
+big moment of turning DRBD back on on theo. It worked! Now I just had to wait
+for the changes on disk of the last four days to be replicated (which took
+about a day) and we were ready to flip the big switch, update the DNS and start
+serving gitlab.com from AWS. That final transition took another 10 minutes of
+downtime, and then we were done.
+
+## Looking back
+
+Counting from the moment I was tasked to work on this data migration, we were
+able to move a 9TB filesystem to a different data center and hosting provider
+in three weeks, requiring 20 minutes of total downtime (spread over three
+maintenance windows). We took an operational risk of prolonged downtime due to
+operator confusion in case of incidents, by deploying a new configuration that
+while tested to some degree was understood by only one member of the operations
+team (myself). We were lucky that there was no incident during those three
+weeks that made this lack of shared knowledge a problem.
+
+Now if you will excuse me I have to go and explain to my colleagues how our
+new gitlab.com infrastructure on AWS is set up. :)
