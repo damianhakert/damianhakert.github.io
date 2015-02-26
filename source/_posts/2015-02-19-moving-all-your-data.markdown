@@ -269,10 +269,10 @@ we would gain more throughput by moving over a shorter distance this time
 around (from Delft to Frankfurt).
 
 The first thing I started looking into at this point was whether we could
-somehow make better use of the network bandwidth at our disposal. Sending
-zeroes over the (encrypted) IPIP tunnel (`dd if=/dev/zero | nc remote_ip 1234`)
-we could get about 17 MB/s. By disabling IPsec (not really an option as far as
-I am concerned) we could increase that number to 40 MB/s.
+somehow make better use of the network bandwidth at our disposal. Sending fake
+data (zeroes) over the (encrypted) IPIP tunnel (`dd if=/dev/zero | nc remote_ip
+1234`) we could get about 17 MB/s. By disabling IPsec (not really an option as
+far as I am concerned) we could increase that number to 40 MB/s.
 
 The only conclusion I could come to was that we were not reaching our maximum
 bandwidth potential, but that I had no clue how to coax more speed out of the
