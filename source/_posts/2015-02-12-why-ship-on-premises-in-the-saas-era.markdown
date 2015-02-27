@@ -6,6 +6,7 @@ comments: true
 categories:
 author: Haydn Mackay
 image_title: '/images/stock/on_premises.jpeg'
+author_twitter: haydnmackay
 ---
 
 When I started in the software industry 10 years ago the idea of

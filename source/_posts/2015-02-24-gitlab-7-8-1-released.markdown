@@ -5,6 +5,7 @@ date: 2015-02-24
 comments: true
 categories:
 author: Marin Jankovski
+author_twitter: maxlazio
 ---
 
 Today we release GitLab 7.8.1 CE, EE and GitLab CI 7.8.1.

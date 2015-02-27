@@ -5,6 +5,7 @@ date: 2015-02-26
 comments: true
 categories:
 author: Job van der Voort
+author_twitter: Jobvo
 ---
 
 ![Git and GitLab Workshop](/images/platzi.jpg)

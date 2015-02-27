@@ -6,6 +6,7 @@ comments: true
 author: "Sytse Sijbrandij"
 categories:
 image_title: '/images/stock/annex.jpg'
+author_twitter: sytses
 ---
 
 The biggest limitation of git compared to some older centralized version control systems has been the maximum size of the repositories.
