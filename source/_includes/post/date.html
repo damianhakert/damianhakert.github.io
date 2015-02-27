@@ -13,4 +13,11 @@
 {% if was_updated != '0' %}
   {% capture updated %}<time datetime="{{ updated | datetime | date_to_xmlschema }}" class="updated">Updated {{ updated_formatted }}</time>{% endcapture %}
 {% else %}{% assign updated = false %}{% endif %}
-<div class="author">{{ post.author }}{{ page.author }}</div>
+
+{% if page.author_twitter != nil %}
+  <div class="author"><a href="https://www.twitter.com/{{ post.author_twitter }}{{ page.author_twitter }}">{{ post.author }}{{ page.author }}</a></div>
+{% elsif post.author_twitter != nil %}
+  <div class="author"><a href="https://www.twitter.com/{{ post.author_twitter }}{{ page.author_twitter }}">{{ post.author }}{{ page.author }}</a></div>
+{% else %}
+  <div class="author">{{ post.author }}{{ page.author }}</div>
+{% endif %}

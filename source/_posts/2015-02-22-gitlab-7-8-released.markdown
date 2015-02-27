@@ -5,6 +5,7 @@ date: 2015-02-22
 comments: true
 categories:
 author: Job van der Voort
+author_twitter: Jobvo
 ---
 
 This is an exciting day. Today we release GitLab 7.8, the biggest release of GitLab ever. This release alone contains over 60 entries in the [GitLab CE changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG)!

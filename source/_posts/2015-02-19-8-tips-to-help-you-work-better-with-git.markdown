@@ -6,6 +6,7 @@ comments: true
 image_title: '/images/unsplash/leaves.jpeg'
 categories:
 author: Patricio Cano
+author_twitter: suprnova32
 ---
 
 Git is a very powerful version control system. It can be a little bit daunting to try to learn everything around it, so

@@ -276,3 +276,10 @@ ul.post-list > li > time {
 .gutter .line-numbers {
   width: 100% !important;
 }
+
+.blog-entry .author a {
+  font-family: "Korolev-Medium";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: normal;
+}

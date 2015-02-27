@@ -6,6 +6,7 @@ comments: true
 categories:
 author: Sytse Sijbrandij
 image_title: '/images/stock/changelog.jpeg'
+author_twitter: sytses
 ---
 
 GitLab has a very active development cycle with many features being added to its monthly release by

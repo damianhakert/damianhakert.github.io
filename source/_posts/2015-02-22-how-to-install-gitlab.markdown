@@ -6,6 +6,7 @@ comments: true
 categories:
 author: Job van der Voort
 image_title: '/images/stock/installing.jpeg'
+author_twitter: Jobvo
 ---
 
 Want to get your first own GitLab instance running?
