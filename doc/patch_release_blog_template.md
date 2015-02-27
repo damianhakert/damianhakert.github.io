@@ -27,6 +27,12 @@ GitLab X.X.X CI fixes:
 
 <!-- more -->
 
+## Upgrade barometer
+
+*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN DEPLOY HAPPEN WITHOUT DOWNTIME? ***
+*** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
+*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
+
 ## Upgrading
 
 Omnibus-gitlab packages for GitLab X.X.X are [now available](https://about.gitlab.com/downloads/).
