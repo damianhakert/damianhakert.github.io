@@ -483,72 +483,57 @@
   }
 }
 
-.logos-holder {
-    text-align: center;
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
-    padding: 10px;
+.logos > div {
+  height: 203px;
+  border: 1px solid #e5e5e5;
 }
 
-.logos-inner {
-    border: 1px solid #e5e5e5;
-    height: 180px;
-    vertical-align: middle;
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
-    padding-top: 54px;
+.sprite-info {
+  background-image: url(/images/organizations/sprite.png);
+  width: 188px;
+  height: 183px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 25px;
+  z-index: 1000;
+  top:75px;
 }
 
-.logos img {
-    width: auto;
-    display: inline-block;
-    max-height: 70px;
-}
+.cern { background-position:  -1px -1px; height: 130px; width: 135px; top: 36px; }
+.expedia { background-position:  -137px -1px; height: 130px; width: 156px; top: 26px; }
+.stack_exchange { background-position:  -137px -132px; height: 120px; width: 153px; top: 37px; }
+.nasa { background-position:  -137px -253px; height: 118px; width: 139px; top: 41px; left: 35px; }
+.bell { background-position:  -137px -370px; height: 85px; width: 150px; top: 62px; left: 22px; }
+.at_t { background-position:  -134px -456px; height: 67px; width: 153px; top: 63px;}
+.alibaba { background-position:  -137px -526px; height: 66px; width: 150px; top: 60px;}
+.spacex { background-position:  -137px -593px; height: 19px; width: 150px; top: 90px;}
+.redhat { background-position:  -292px 2px; height: 48px; width: 152px; top: 77px;}
+.qualcomm { background-position:  -294px -50px; height: 34px; width: 150px; top: 88px;}
+.archives { background-position:  -294px -85px; height: 25px; width: 150px; top: 88px; }
+.nasdaq { background-position:  -443px 4px; height: 23px; width: 160px; top: 91px; }
+.interpol { background-position:  -1px -132px; height: 55px; width: 60px; top: 68px; left: 66px;}
+.ibm { background-position:  -1px -188px; height: 55px; width: 104px; left: 48px;}
+.publicis { background-position:  -1px -244px; height: 38px; width: 120px; top: 83px; left: 35px; }
+.oreilly { background-position:  -284px -108px; height: 31px; width: 147px; top: 86px;}
+.avg { background-position:  -1px -283px; height: 55px; width: 132px; top: 73px;}
+.ucla { background-position:  -291px -136px; height: 42px; width: 142px; top: 80px;}
 
-  .logos div:nth-child(1) .logos-inner {
-    padding-top: 38px;
-  }
-
-  .logos div:nth-child(8) .logos-inner {
-    padding-top: 24px;
-  }
-
-  .logos div:nth-child(11) .logos-inner {
-    padding-top: 25px;
-  }
-
-  .logos div:nth-child(11) img {
-    max-height: 107px;
-  }
-
-  .logos div:nth-child(17) .logos-inner {
-    padding-top: 38px;
-  }
-
-  .logos div:nth-child(18) .logos-inner {
-    padding-top: 40px;
-  }
-
-
-.logos small {
-    color: #18191a;
+  .logo-disclaimer {
     font-family: 'Korolev-Light';
-    font-size: 100%;
     margin-top: 40px;
-}
+    text-align: center;
+  }
 
-.logos h2 {
-    font-size: 36px;
-    color: #18191a;
-    font-family: 'Korolev-Light';
-}
+  .logos h2 {
+      font-size: 36px;
+      color: #18191a;
+      font-family: 'Korolev-Light';
+  }
 
-.logos span {
-    font-family: 'Korolev-Medium';
-    color: #a0c720;
-}
+  .logos span {
+      font-family: 'Korolev-Medium';
+      color: #a0c720;
+  }
 
 .twitter-head h2 {
   font-family: 'Korolev-Medium';
