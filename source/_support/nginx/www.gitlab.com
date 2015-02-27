@@ -2,7 +2,7 @@
 
 # You may add here your
 # server {
-#	...
+# ...
 # }
 # statements for each of your virtual hosts to this file
 
@@ -59,7 +59,7 @@ server {
 
 server {
   listen 80;
-  server_name blog.gitlabhq.com blog.gitlab.org;
+  server_name blog.gitlabhq.com blog.gitlab.org blog.gitlab.com;
   server_name_in_redirect off;
 
   if ($http_host != "blog.gitlab.org") {
