@@ -9,9 +9,11 @@ categories:
 At GitLab B.V. we are working on an infrastructure upgrade to give more CPU
 power and storage space to GitLab.com. (We are currently still running on a
 [single server](/2015/01/03/the-hardware-that-powers-100k-git-repos/).) As a
-part of this upgrade we wanted to move gitlab.com to a different data center.
-In this blog post I will tell you how I did that and what challenges I had
-to overcome.
+part of this upgrade we wanted to move gitlab.com from our own dedicated
+hardware servers to an AWS data center 400 kilometers away.  In this blog post
+I will tell you how I did that and what challenges I had to overcome. An epic
+adventure of hand-rolled network tunnels, advanced DRBD features and streaming
+9TB of data through SSH pipes!
 
 ## What did I have to move?
 
@@ -19,8 +21,8 @@ In our current setup we run a stock GitLab Enterprise Edition omnibus package,
 with a single big filesystem mounted at `/var/opt/gitlab`. This
 filesystem holds all the user data hosted on gitlab.com: Postgres and Redis
 database files, user uploads, and a lot of Git repositories. All I had to do
-to move this data to the new data center is to move the files on this
-filesystem.
+to move this data to AWS is to move the files on this filesystem. Sounds simple
+enough, does it not?
 
 So do we move the files, or the filesystem itself? This is an easy question to
 answer. Moving the files using something like Rsync is not an option because it
@@ -29,16 +31,17 @@ device snapshot, mount the snapshot and send it across with Rsync. That
 currently takes over 24 hours, and 24 hours of downtime while we move
 gitlab.com is not a nice idea. Now you might ask: what if you Rsync once to
 prepare, take the server offline, and then do a quick Rsync just to catch up?
-That would still take hours. No good.
+That would still take hours just for Rsync to walk through all the files and
+directories on disk. No good.
 
 We have faced and solved this same problem in the past when the amount of data
 was 5 times smaller. (Rsync was not an option even then.) What I did at that
 time was to use DRBD to move not just the files themselves, but the whole
-filesystem they sit on. It is not the fastest solution to move a lot of data,
-but what is great about it is that you can keep using the filesystem while the
-data is being moved, and changes will get synchronized continuously. No
-downtime for our users! (Except maybe 5 minutes at the start to set up the
-sync.)
+filesystem they sit on. This time around DRBD again seemed like the best
+solution for us. It is not the fastest solution to move a lot of data, but what
+is great about it is that you can keep using the filesystem while the data is
+being moved, and changes will get synchronized continuously. No downtime for
+our users! (Except maybe 5 minutes at the start to set up the sync.)
 
 ## What is DRBD?
 
@@ -58,7 +61,9 @@ would happen, we could just plug in the virtual hard drive with the user data
 into our stand-by server. In our new data center, the hosting provider (Amazon
 Web Services) has their own solution for plugging virtual hard drives in and
 out called Elastic Block Storage, so we are no longer using DRBD as a virtual
-hard drive.
+hard drive. From an availability standpoint this is not better or worse, but
+using EBS drives does make it a lot easier for us to make backups because now
+we can just store snapshots (no more Rsync).
 
 ## Using DRBD for a data migration
 
@@ -263,10 +268,11 @@ me that the synchronization would take about 50-60 days at 2MB/s.
 
 This prognosis was an improvement over what we would expect based on our
 previous experience moving 1.8TB from North Virginia (US) to Delft (NL) in
-about two weeks. If one would extrapolate that rate you would expect moving 9TB
-to take 70 days. We were disappointed nonetheless because we were hoping that
-we would gain more throughput by moving over a shorter distance this time
-around (from Delft to Frankfurt).
+about two weeks (across the Atlantic Ocean!). If one would extrapolate that
+rate you would expect moving 9TB to take 70 days. We were disappointed
+nonetheless because we were hoping that we would gain more throughput by moving
+over a shorter distance this time around (Delft and Frankfurt are about 400km
+apart).
 
 The first thing I started looking into at this point was whether we could
 somehow make better use of the network bandwidth at our disposal. Sending fake
@@ -456,6 +462,12 @@ serving gitlab.com from AWS. That final transition took another 10 minutes of
 downtime, and then we were done.
 
 ## Looking back
+
+As soon as we flipped the switch and started operating out of AWS/Frankfurt,
+gitlab.com became noticeably more responsive. This is in spite of the fact that
+we are _still_ running on a single server (an [AWS
+c3.8xlarge](http://aws.amazon.com/ec2/instance-types/#c3) instance at the
+moment).
 
 Counting from the moment I was tasked to work on this data migration, we were
 able to move a 9TB filesystem to a different data center and hosting provider
