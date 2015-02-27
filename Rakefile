@@ -418,8 +418,7 @@ task :clean do
 end
 
 desc "Build website in #{BUILD_DIR}"
-task :build => [:clean, :generate, :minify_css, :minify_js, :pdfs]
-
+task :build => [:clean, :generate, :pdfs]
 
 rule %r{^public/terms/print/.*\.pdf} => [->(f) { f.pathmap('%X.html') }] do |pdf|
   options = %W(--template=_terms_template.tex --latex-engine=xelatex -V date=#{Time.now.to_s})

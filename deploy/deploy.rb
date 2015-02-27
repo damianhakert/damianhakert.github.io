@@ -45,6 +45,20 @@ post '/webhook' do
         abort "Failed to copy the public directory"
       end
 
+      puts "Minifying JS files: "
+      if system("bundle exec rake minify_js")
+        puts "Done."
+      else
+        abort "Could not minify JS files"
+      end
+
+      puts "Minifying CSS files: "
+      if system("bundle exec rake minify_css")
+        puts "Done."
+      else
+        abort "Could not minify CSS files"
+      end
+
       puts "Copying recurly directory: "
       if system("rsync -r /tmp/site/recurly/ /home/deploy/recurly/")
         puts "Done."
