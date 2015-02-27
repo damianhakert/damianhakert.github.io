@@ -60,7 +60,6 @@ task :generate do
   puts "## Generating Site with Jekyll"
   system "compass compile --css-dir #{source_dir}/stylesheets"
   system "jekyll"
-
 end
 
 desc "Watch the site and regenerate when it changes"
@@ -420,7 +419,6 @@ end
 
 desc "Build website in #{BUILD_DIR}"
 task :build => [:clean, :generate, :pdfs]
-
 
 rule %r{^public/terms/print/.*\.pdf} => [->(f) { f.pathmap('%X.html') }] do |pdf|
   options = %W(--template=_terms_template.tex --latex-engine=xelatex -V date=#{Time.now.to_s})
