@@ -227,7 +227,6 @@ task :deploy do
 
   Rake::Task[:minify_css].execute
   Rake::Task[:minify_js].execute
-  Rake::Task[:minify_html].execute
 
   Rake::Task[:copydot].invoke(source_dir, public_dir)
   Rake::Task["#{deploy_default}"].execute
@@ -530,15 +529,3 @@ task :minify_js do
   end
 end
 
-desc "Minify HTML"
-task :minify_html do
-  puts "## Minifying HTML"
-  compressor = HtmlCompressor::HtmlCompressor.new
-  Dir.glob("#{public_dir}/**/*.html").each do |name|
-    puts "Minifying #{name}"
-    input = File.read(name)
-    output = File.open("#{name}", "w")
-    output << compressor.compress(input)
-    output.close
-  end
-end
