@@ -290,6 +290,10 @@ h1, h2, h3, h4, h5, button, a, p, li {
   margin-bottom: 30px;
 }
 
+.wide-feature-link {
+  margin-bottom: 50px;
+}
+
 .wide-feature-link a {
   background: #5D4D93;
   color: white;
@@ -298,6 +302,7 @@ h1, h2, h3, h4, h5, button, a, p, li {
   font-size: 17px;
   border-radius: 5px;
   text-decoration: none;
+  margin-bottom: 53px;
 }
 
   .wide-feature-link a:hover {
