@@ -1,3 +1,5 @@
+require "yui/compressor"
+require "html_compressor"
 require "rubygems"
 require "bundler/setup"
 require "stringex"
@@ -222,6 +224,9 @@ task :deploy do
     File.delete(".preview-mode")
     Rake::Task[:generate].execute
   end
+
+  Rake::Task[:minify_css].execute
+  Rake::Task[:minify_js].execute
 
   Rake::Task[:copydot].invoke(source_dir, public_dir)
   Rake::Task["#{deploy_default}"].execute
@@ -493,3 +498,34 @@ desc "Build and test website"
 task :test => [:clean, :generate] do
   HTML::Proofer.new("./public", htmlproof_options ).run
 end
+
+##########
+# Minify #
+##########
+
+desc "Minify CSS"
+task :minify_css do
+  puts "## Minifying CSS"
+  compressor = YUI::CssCompressor.new
+  Dir.glob("#{public_dir}/**/*.css").each do |name|
+    puts "Minifying #{name}"
+    input = File.read(name)
+    output = File.open("#{name}", "w")
+    output << compressor.compress(input)
+    output.close
+  end
+end
+
+desc "Minify JS"
+task :minify_js do
+  puts "## Minifying JS"
+  compressor = YUI::JavaScriptCompressor.new
+  Dir.glob("#{public_dir}/**/*.js").each do |name|
+    puts "Minifying #{name}"
+    input = File.read(name)
+    output = File.open("#{name}", "w")
+    output << compressor.compress(input)
+    output.close
+  end
+end
+
