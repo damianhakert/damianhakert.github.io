@@ -490,9 +490,13 @@ table.table tbody tr i {
   font-size: 22px;
 }
 
+table.table tbody tr i.fa-check {
+  float: center !important;
+}
+
 table.table tbody.header tr:first-child td {
   text-align: left !important;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
 }
 

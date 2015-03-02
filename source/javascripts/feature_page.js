@@ -1,10 +1,4 @@
 $(document).ready(function() {
-  // Hide all rows but not row headings
-  $('table.table tbody tr:not(:first-child)').addClass('hide');
-  
-  // Display first row heading and its rows
-  $('.first').children().removeClass('hide');
-
   $('.image-link').magnificPopup({
     type:'image'
   });
