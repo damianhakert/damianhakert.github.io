@@ -482,57 +482,51 @@
     width: 100%;
   }
 }
-
-.logos > div {
-  height: 203px;
-  border: 1px solid #e5e5e5;
+.logos {
+  margin-top: 18px;
 }
+  .logos > div {
+    height: 203px;
+  }
 
-.sprite-info {
-  background-image: url(/images/organizations/sprite.png);
-  width: 188px;
-  height: 183px;
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 25px;
-  z-index: 1000;
-  top:75px;
-}
+  .logos img {
+    max-width: none;
+  }
 
-.cern { background-position:  -1px -1px; height: 130px; width: 135px; top: 36px; }
-.expedia { background-position:  -137px -1px; height: 130px; width: 156px; top: 26px; }
-.stack_exchange { background-position:  -137px -132px; height: 120px; width: 153px; top: 37px; }
-.nasa { background-position:  -137px -253px; height: 118px; width: 139px; top: 41px; left: 35px; }
-.bell { background-position:  -137px -370px; height: 85px; width: 150px; top: 62px; left: 22px; }
-.at_t { background-position:  -134px -456px; height: 67px; width: 153px; top: 63px;}
-.alibaba { background-position:  -137px -526px; height: 66px; width: 150px; top: 60px;}
-.spacex { background-position:  -137px -593px; height: 19px; width: 150px; top: 90px;}
-.redhat { background-position:  -292px 2px; height: 48px; width: 152px; top: 77px;}
-.qualcomm { background-position:  -294px -50px; height: 34px; width: 150px; top: 88px;}
-.archives { background-position:  -294px -85px; height: 25px; width: 150px; top: 88px; }
-.nasdaq { background-position:  -443px 4px; height: 23px; width: 160px; top: 91px; }
-.interpol { background-position:  -1px -132px; height: 55px; width: 60px; top: 68px; left: 66px;}
-.ibm { background-position:  -1px -188px; height: 55px; width: 104px; left: 48px;}
-.publicis { background-position:  -1px -244px; height: 38px; width: 120px; top: 83px; left: 35px; }
-.oreilly { background-position:  -284px -108px; height: 31px; width: 147px; top: 86px;}
-.avg { background-position:  -1px -283px; height: 55px; width: 132px; top: 73px;}
-.ucla { background-position:  -291px -136px; height: 42px; width: 142px; top: 80px;}
+  .logos h2 {
+    font-size: 36px;
+    color: #18191a;
+    font-family: 'Korolev-Light';
+  }
+
+  .logos span {
+    font-family: 'Korolev-Medium';
+    color: #a0c720;
+  }
+
+.cern img {opacity: 0.5;}
+.stack_exchange img { width: 177px; margin-top: -24px; opacity: 0.5; }
+.expedia img { width: 118px; opacity: 0.5; }
+.nasa img { width: 95px; margin-top: 12px; margin-left: 23px; opacity: 0.5; }
+.bell img { width: 100px; margin-top: 25px; opacity: 0.5; }
+.at_t img { margin-top: 23px; opacity: 0.5; }
+.alibaba img { margin-top: 4px; width: 145px; opacity: 0.5; }
+.spacex img { width: 170px; margin-top: 45px; opacity: 0.5; }
+.redhat img { width: 139px; margin-top: 37px; opacity: 0.5; }
+.qualcomm img { margin-top: 44px; opacity: 0.5; }
+.archives img { margin-top: 45px; width: 161px; opacity: 0.5; }
+.nasdaq img { margin-top: 47px; width: 166px; opacity: 0.5; }
+.interpol img { width: 89px; opacity: 0.5; }
+.ibm img { margin-top: 36px; opacity: 0.5; }
+.publicis img { width: 155px; margin-top: 38px; opacity: 0.5; }
+.oreilly img { width: 185px; margin-left: -26px; opacity: 0.5; }
+.avg img { margin-top: 35px; opacity: 0.5; }
+.ucla img { margin-top: 42px; opacity: 0.5; }
 
   .logo-disclaimer {
     font-family: 'Korolev-Light';
     margin-top: 40px;
     text-align: center;
-  }
-
-  .logos h2 {
-      font-size: 36px;
-      color: #18191a;
-      font-family: 'Korolev-Light';
-  }
-
-  .logos span {
-      font-family: 'Korolev-Medium';
-      color: #a0c720;
   }
 
 .twitter-head h2 {
