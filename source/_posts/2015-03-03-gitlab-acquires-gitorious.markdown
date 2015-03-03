@@ -13,7 +13,7 @@ Since 2008, Gitorious has been one of the leading providers for open source host
 
 <!-- more -->
 
-“GitLab is a simple upgrade path for existing Gitorious users. GitLab offers Git repository management, code reviews, issue tracking, activity feeds, wikis and continuous integration.
+GitLab is a simple upgrade path for existing Gitorious users. GitLab offers Git repository management, code reviews, issue tracking, activity feeds, wikis and continuous integration.
 
 Rolf Bjaanes, Gitorious CEO, gives some background on the reasons for the acquisition: “At Gitorious we saw more and more organizations adopting GitLab. Due to decreased income from on-premises customers, running the free Gitorious.org was no longer sustainable. GitLab was solving the same problem that we were, but was solving it better.”
 
