@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab acquires Gitorious to bolster its on premise code collaboration platform"
+title: "GitLab acquires Gitorious to bolster its on premises code collaboration platform"
 date: 2015-03-03
 comments: true
 author: Sytse Sijbrandij
