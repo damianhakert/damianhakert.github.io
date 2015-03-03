@@ -5,7 +5,7 @@ date: 2015-03-03
 comments: true
 author: "Sytse Sijbrandij"
 
-GitLab and Gitorious announce today they are joining forces in an effort to strengthen development of GitLab’s open source Git management application and provide Gitorious customers with an enhanced user experience.
+As [reported by the Next Web](http://thenextweb.com/insider/2015/03/03/gitlab-acquires-rival-gitorious-will-shut-june-1/) GitLab and Gitorious announce today they are joining forces in an effort to strengthen development of GitLab’s open source Git management application and provide Gitorious customers with an enhanced user experience.
 
 Since 2008, Gitorious has been one of the leading providers for open source hosting and on-premise enterprise Git management around the globe. Gitorious was the first widely used open source Git management application.
 
