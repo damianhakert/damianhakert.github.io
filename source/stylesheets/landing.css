@@ -504,24 +504,24 @@
     color: #a0c720;
   }
 
-.cern img {opacity: 0.5;}
-.stack_exchange img { width: 177px; margin-top: -24px; opacity: 0.5; }
-.expedia img { width: 118px; opacity: 0.5; }
-.nasa img { width: 95px; margin-top: 12px; margin-left: 23px; opacity: 0.5; }
-.bell img { width: 100px; margin-top: 25px; opacity: 0.5; }
-.at_t img { margin-top: 23px; opacity: 0.5; }
-.alibaba img { margin-top: 4px; width: 145px; opacity: 0.5; }
-.spacex img { width: 170px; margin-top: 45px; opacity: 0.5; }
-.redhat img { width: 139px; margin-top: 37px; opacity: 0.5; }
-.qualcomm img { margin-top: 44px; opacity: 0.5; }
-.archives img { margin-top: 45px; width: 161px; opacity: 0.5; }
-.nasdaq img { margin-top: 47px; width: 166px; opacity: 0.5; }
-.interpol img { width: 89px; opacity: 0.5; }
-.ibm img { margin-top: 20px; opacity: 0.5; width: 125px; }
-.publicis img { width: 155px; margin-top: 38px; opacity: 0.5; }
-.oreilly img { width: 185px; margin-left: -26px; opacity: 0.5; }
-.avg img { margin-top: 35px; opacity: 0.5; }
-.ucla img { margin-top: 42px; opacity: 0.5; }
+.logo_1a img { margin-top: 14px; opacity: 0.5; width: 171px; margin-left: -12px; }
+.logo_2a img { width: 118px; opacity: 0.5; margin-left: 10px; }
+.logo_3a img { width: 206px; margin-top: -24px; opacity: 0.5; margin-left: -21px }
+.logo_4a img { width: 115px; margin-top: 12px; margin-left: 37px; opacity: 0.5; }
+.logo_5a img { width: 100px; margin-top: 25px; opacity: 0.5; }
+.logo_6a img { margin-top: 23px; opacity: 0.5; }
+.logo_1b img { margin-top: 4px; width: 145px; opacity: 0.5; }
+.logo_2b img { width: 170px; margin-top: 45px; opacity: 0.5; }
+.logo_3b img { width: 139px; margin-top: 37px; opacity: 0.5; }
+.logo_4b img { margin-top: 44px; opacity: 0.5; }
+.logo_5b img { margin-top: 45px; width: 161px; opacity: 0.5; }
+.logo_7b img { margin-top: 47px; width: 166px; opacity: 0.5; }
+.logo_1c img { width: 89px; opacity: 0.5; }
+.logo_2c img {opacity: 0.5;}
+.logo_3c img { width: 155px; margin-top: 38px; opacity: 0.5; }
+.logo_4c img { width: 185px; margin-left: -26px; opacity: 0.5; }
+.logo_5c img { margin-top: 35px; opacity: 0.5; }
+.logo_7c img { margin-top: 42px; opacity: 0.5; }
 
   .logo-disclaimer {
     font-family: 'Korolev-Light';
