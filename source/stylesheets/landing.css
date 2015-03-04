@@ -595,20 +595,15 @@
       content: " ";
     }
 
-  .testimonial-container .row{
-    width: 1170px;
+  .testimonial-container .row {
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
   }
 
-    .testimonial-container .row .column {
-      padding: 0px 121px;
-    }
-
       .testimonial-container .row .column .message-container {
-        margin-bottom: 35px;
+        margin-bottom: 60px;
       }
 
         .testimonial-container .row .column .message-container .message {
@@ -627,6 +622,7 @@
           font-weight: 100;
           line-height: 30px;
           border: 1px solid black;
+          text-align: left;
         }
 
           .testimonial-container .column .message-container .message:after {
@@ -645,6 +641,7 @@
           min-height: 50px;
           position: relative;
           padding-left: 70px;
+          text-align: left;
         }
 
           .testimonial-container .column .message-container .author img {
