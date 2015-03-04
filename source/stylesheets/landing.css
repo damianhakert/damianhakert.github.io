@@ -538,9 +538,14 @@
   margin-right: 0;
 }
 
-.twitter-head h2 {
-  font-family: 'Korolev-Medium';
-}
+  .twitter-head h2 {
+    font-family: 'Korolev-Light';
+    font-size: 36px;
+  }
+
+  .twitter-head span {
+    color: #55ACEE;
+  }
 
 .read-more-tweets {
   text-align: center;
@@ -557,8 +562,173 @@
 }
 
 .videos h1 {
-  font-family: 'Korolev-Medium';
+  font-family: 'Korolev-Light';
+  font-size: 36px;
 }
+
+/* TESTIMONIALS SECTION */
+
+.testimonial-container {
+  background: whitesmoke;
+  padding: 58px 0;
+  border-top: 1px solid rgba(0,0,0,0.075);
+  border-bottom: 1px solid rgba(0,0,0,0.075);
+}
+
+  .testimonial-container .text-center {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+    .testimonial-container .text-center h2 {
+      font-family: "Korolev-Light";
+      font-size: 36px;
+      margin-bottom: 60px;
+    }
+
+    .testimonial-container .columns:after {
+      display: block;
+      height: 0px;
+      width: 100%;
+      clear: both;
+      content: " ";
+    }
+
+  .testimonial-container .row{
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+    .testimonial-container .row .column {
+      padding: 0px 121px;
+    }
+
+      .testimonial-container .row .column .message-container {
+        margin-bottom: 35px;
+      }
+
+        .testimonial-container .row .column .message-container .message {
+          background-color: #548;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px;
+          border-radius: 32px;
+          position: relative;
+          padding: 18px 27px 16px;
+          color: white;
+          font-size: 17px;
+          margin-bottom: 20px;
+          font-family: "Korolev-Light";
+          font-weight: 100;
+          line-height: 30px;
+          border: 1px solid black;
+        }
+
+          .testimonial-container .column .message-container .message:after {
+            width: 0;
+            height: 0;
+            border-top: 20px solid transparent;
+            border-bottom: 22px solid transparent;
+            border-left: 26px solid #548;
+            content: " ";
+            position: absolute;
+            left: 47px;
+            bottom: -23px;
+          }
+
+        .testimonial-container .column .message-container .author {
+          min-height: 50px;
+          position: relative;
+          padding-left: 70px;
+        }
+
+          .testimonial-container .column .message-container .author img {
+            width: 51px;
+            height: 51px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px;
+            border-radius: 25px;
+          }
+
+          .testimonial-container .column .message-container .author .name {
+            font-size: 21px;
+            font-weight: 400;
+            color: #FFB440;
+            display: block;
+          }
+
+          .testimonial-container .column .message-container .author .info {
+            font-size: 17px;
+            font-weight: 400;
+            color: black;
+            margin-bottom: 7px;
+            display: block;
+          }
+
+            .testimonial-container .column .message-container .author .info a {
+              text-decoration: none;
+              color: #548;
+              font-weight: 600;
+              font-family: "Korolev-Light";
+            }
+
+.testimonial-container hr {
+    margin: 0em auto;   
+    border: solid;   
+    border-width: 1px 0 0 0;
+    color: rgba(0,0,0,0.095);
+    width: 77%;
+}
+
+.testimonial-news-container {
+  background: #f5f5f5;
+  padding: 40px;
+}
+
+  .testimonial-news {
+    width: 85.66%;
+    margin-left: 5.66%;
+    text-align: center;   
+  }
+
+    .testimonial-news h2 {
+      font-size: 28px;   
+      line-height: 1.4;   
+      margin-bottom: 0.8em;
+      font-family: "Korolev-Light";
+    }
+
+    .testimonial-news img {
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%);
+      filter: url(grayscale.svg); /* Firefox 4+ */
+      filter: gray; /* IE 6-9 */;
+      transition: 0.2s ease;
+    }
+
+    .testimonial-news img:hover {
+      -webkit-filter: none;
+      -moz-filter: none;
+      -ms-filter: none;
+      -o-filter: none;
+      filter: none;
+      filter: none; /* Firefox 4+ */
+      filter: none; /* IE 6-9 */;
+      
+    }
 
 /* animations! */
 .come-in {
