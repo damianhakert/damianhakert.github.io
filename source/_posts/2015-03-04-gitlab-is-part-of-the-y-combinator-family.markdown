@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitLab is part of the Y Combinator family"
-date: 2015-03-04 18:00:26 -0800
+date: 2015-03-04
 comments: true
 author: Sytse Sijbrandij
 author_twitter: sytses
