@@ -5,7 +5,7 @@ date: 2015-03-04
 comments: true
 author: Sytse Sijbrandij
 author_twitter: sytses
-image_title: '/images/unspash/yc.jpg'
+image_title: '/images/unsplash/yc.jpg'
 ---
 
 As [reported by Techcrunch](http://techcrunch.com/2015/03/03/the-great-git-debate/) we’re part of Y Combinator’s winter 2015 batch!
