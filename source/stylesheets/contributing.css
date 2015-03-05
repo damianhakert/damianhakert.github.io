@@ -50,3 +50,7 @@ h1, h2, h3, h4, h5, button, a {
 .container-contributing {
   padding: 7%;
 }
+
+.single {
+  padding-bottom: 37px;
+}

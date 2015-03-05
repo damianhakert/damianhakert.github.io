@@ -80,6 +80,11 @@ Add the following to the top of a blog post (between the --- markers) and it wil
 
 # Image Guidelines
 When adding images to the site, please avoid using largely sized images, as they drastically decrease load on the server and make the experience poor for the user. Also make sure to compress the images as much as possible (use online resource, Photoshop, however you'd like)
+Photos can be found at unsplash.com, and compressed using sites like tinypng.com
+
+You can link to the authors twitter account with:
+
+    author_twitter: sytses
 
 # Other documentation
 
