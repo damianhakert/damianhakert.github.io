@@ -1,54 +1,78 @@
 /* Press */
 
 h1 {
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Light";
   font-weight: 600;
+  margin-bottom: 40px;
 }
 
-h1 small {
-  font-weight: 300;
-}
-
-.title {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  margin-top: 80px;
-}
-
-.list .item h2 {
-  font-weight: 300;
-  padding-top: 15px;
-  padding-bottom: 20px;
-  color: #333;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.list .item h2 small {
-  font-weight: 300;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.list .item {
+.press-container {
+  position: relative;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  height: 250px;
+  overflow: hidden;
+  background: #548;
+}
+
+.press-content {
+  padding-top: 76px;
   text-align: center;
-  text-decoration: none !important;
+  color: white;
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
 }
 
-.list a.item.link :hover {
-  background-color: #eee;
+.container {
+  text-align: center;
 }
 
-.btn {
-  min-width: 150px;
+.press-image {
+  display: inline-block;
+  width: 30%;
+  padding-right: 40px;
+  font-family: "Korolev-Light";
 }
 
-.listing .btn-group-vertical {
-  margin-top: 15px;
+  .press-image img {
+    -webkit-filter: grayscale(85%);
+    -moz-filter: grayscale(85%);
+    -ms-filter: grayscale(85%);
+    -o-filter: grayscale(85%);
+    filter: grayscale(85%);
+    filter: filter: grayscale(85%);
+    filter: gray;
+    transition: 0.2s ease;
+  }
+
+    .press-image img:hover {
+      -webkit-filter: none;
+      -moz-filter: none;
+      -ms-filter: none;
+      -o-filter: none;
+      filter: none;
+      filter: none; /* Firefox 4+ */
+      filter: none; /* IE 6-9 */
+    }  
+
+.press-text {
+  text-align: left;
+  margin: 0 0 18px 0;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.article-title {
+  color: black;
+  font-size: 18px;
+}
+
+.item {
+  margin-bottom: 8px;
+}
+
+
+.podcast-item {
+  margin-bottom: 15px;
 }
