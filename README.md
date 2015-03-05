@@ -78,6 +78,10 @@ Add the following to the top of a blog post (between the --- markers) and it wil
 
     image_title: '/images/unspash/hardware.jpg'
 
+You can link to the authors twitter account with:
+
+    author_twitter: sytses
+
 # Other documentation
 
 * [Autodeploy](doc/autodeploy.md)
