@@ -23,8 +23,91 @@ h1 {
   margin-left: 25%;
 }
 
+  .press-content h2 {
+    font-size: 45px;
+  }
+
+.press-company {
+  text-decoration: none;
+  color: gray;
+  float: right;
+}
+
 .container {
   text-align: center;
+}
+
+.sub-wrapper {
+  margin-top: 45px;
+}
+
+.image-container {
+  width: 25%;
+  float: left;
+  transition: 0.5 ease;
+}
+
+.images-column div:hover {
+  opacity: 0.5;
+}
+
+.founders {
+  background-image: url(/images/press/founders.jpg);
+  padding: 70px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.fox {
+  background-image: url(/images/press/logo/fox.png);
+  padding: 70px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.diff {
+  background-image: url(/images/press/screenshots/diff.png);
+  padding: 70px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.file {
+  background-image: url(/images/press/screenshots/file_view.png);
+  padding: 70px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 100%;  
+}
+
+.images-container {
+  width: 246px;
+  float: left;
+  margin-left: 43px;
+}
+
+.image-container .text {
+  bottom: 0;
+  left: 115px;
+}
+
+    .image-container .text p {
+      font-size: 17px;
+      height: 9px;
+    }
+
+.recent-blog a {
+  background: #548;
+  color: white;
+  transition: 0.2s ease;
+}
+
+.recent-blog a:hover {
+  background: #549;
+  color: white
 }
 
 .press-image {
@@ -72,7 +155,14 @@ h1 {
   margin-bottom: 8px;
 }
 
+.recent-podcasts {
+  margin-bottom: 45px;
+}
 
 .podcast-item {
   margin-bottom: 15px;
+}
+
+.footer, .wrapper:after {
+  height: auto;
 }
