@@ -18,13 +18,13 @@ h1 {
 .press-container {
   position: relative;
   width: 100%;
-  height: 230px;
+  height: 270px;
   overflow: hidden;
   background: #548;
 }
 
 .press-content {
-  padding-top: 76px;
+  padding-top: 51px;
   text-align: center;
   color: white;
   width: 50%;
