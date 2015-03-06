@@ -6,10 +6,19 @@ h1 {
   margin-bottom: 40px;
 }
 
+.press-content span {
+  font-size: 17px;
+  font-family: "Korolev-Light";
+}
+
+.row {
+  padding: 48px 0;
+}
+
 .press-container {
   position: relative;
   width: 100%;
-  height: 250px;
+  height: 230px;
   overflow: hidden;
   background: #548;
 }
@@ -27,6 +36,11 @@ h1 {
     font-size: 45px;
   }
 
+  .press-content span {
+    font-size: 17px;
+    font-family: "Korolev-Light";
+  }
+
 .press-company {
   text-decoration: none;
   color: gray;
@@ -42,62 +56,60 @@ h1 {
 }
 
 .image-container {
-  width: 25%;
   float: left;
-  transition: 0.5 ease;
+  transition: 0.5s ease;
+}
+
+.images-column {
+  margin-bottom: 50px;
 }
 
 .images-column div:hover {
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .founders {
   background-image: url(/images/press/founders.jpg);
-  padding: 70px;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-position-y: -18px;
 }
 
 .fox {
   background-image: url(/images/press/logo/fox.png);
-  padding: 70px;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-position-y: -17px;
 }
 
 .diff {
   background-image: url(/images/press/screenshots/diff.png);
-  padding: 70px;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-position-y: 6px;
 }
 
 .file {
   background-image: url(/images/press/screenshots/file_view.png);
-  padding: 70px;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: 100%;  
+  background-position-y: 6px;
 }
 
-.images-container {
-  width: 246px;
+
+.image {
+  padding: 70px 70px 90px 70px;
+  margin: 8px 0 0 30px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 243px;
   float: left;
-  margin-left: 43px;
+  border: 2px solid #548;
+  border-radius: 4px;
 }
 
 .image-container .text {
-  bottom: 0;
-  left: 115px;
+  margin: 186px 0 0 30px;
 }
 
-    .image-container .text p {
-      font-size: 17px;
-      height: 9px;
-    }
+.image-container .text span {
+  font-size: 17px;
+  font-weight: 600;
+}
 
 .recent-blog a {
   background: #548;
@@ -107,7 +119,7 @@ h1 {
 
 .recent-blog a:hover {
   background: #549;
-  color: white
+  color: white;
 }
 
 .press-image {
@@ -148,6 +160,7 @@ h1 {
 
 .article-title {
   color: black;
+  font-family: "Korolev-Light";
   font-size: 18px;
 }
 
