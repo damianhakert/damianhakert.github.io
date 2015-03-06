@@ -118,8 +118,9 @@ task :new_post, :title do |t, args|
     post.puts "comments: true"
     post.puts "author: FIRST LAST"
     post.puts "author_twitter: HANDLE_WITHOUT_@"
-    post.puts "---"
     post.puts "image_title: '/images/unspash/FILENAME.jpg'"
+    post.puts "---"
+    post.puts "<!-- more -->"
   end
 end
 
