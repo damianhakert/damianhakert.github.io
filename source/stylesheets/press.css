@@ -36,9 +36,14 @@ h1 {
     font-size: 45px;
   }
 
-  .press-content span {
+  .press-content h3 {
     font-size: 17px;
     font-family: "Korolev-Light";
+  }
+
+  .press-content span {
+    font-size: 17px;
+    font-family: "Korolev-Medium";
   }
 
 .press-company {
@@ -51,20 +56,25 @@ h1 {
   text-align: center;
 }
 
+.wrapper {
+  margin: 0 auto !important;
+}
+
 .sub-wrapper {
-  margin-top: 45px;
+  margin: 45px 0;
 }
 
 .image-container {
   float: left;
   transition: 0.5s ease;
+  margin: 19px;
 }
 
 .images-column {
   margin-bottom: 50px;
 }
 
-.images-column div:hover {
+.images-column .image-container div:nth-child(2):hover {
   opacity: 0.5;
   cursor: pointer;
 }
@@ -89,26 +99,26 @@ h1 {
   background-position-y: 6px;
 }
 
+.network-graph {
+   background-image: url(/images/press/screenshots/network_graph.png);
+  background-position-y: 6px; 
+}
+
+.wordmark {
+  background-image: url(/images/press/wordmark/wordmark.png);
+  background-position-y: 6px;
+}
 
 .image {
-  padding: 70px 70px 90px 70px;
-  margin: 8px 0 0 30px;
+  padding: 40px;
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: 100%;
-  width: 243px;
+  width: 170px;
   float: left;
-  border: 2px solid #548;
+  border: 1px solid #548;
   border-radius: 4px;
-}
-
-.image-container .text {
-  margin: 186px 0 0 30px;
-}
-
-.image-container .text span {
-  font-size: 17px;
-  font-weight: 600;
+  margin: 10px 36px 17px 36px;
 }
 
 .recent-blog a {
@@ -164,6 +174,19 @@ h1 {
   font-size: 18px;
 }
 
+.text span {
+  font-size: 19px;
+}
+
+.download a {
+  border: 1px solid #548;
+  border-radius: 4px;
+  color: white;
+  background: #548;
+  padding: 7px;
+  font-size: 12px;
+}
+
 .item {
   margin-bottom: 8px;
 }
@@ -174,6 +197,10 @@ h1 {
 
 .podcast-item {
   margin-bottom: 15px;
+}
+
+.investors .press-image img {
+  width: 281px;
 }
 
 .footer, .wrapper:after {
