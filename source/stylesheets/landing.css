@@ -723,8 +723,7 @@
       -o-filter: none;
       filter: none;
       filter: none; /* Firefox 4+ */
-      filter: none; /* IE 6-9 */;
-      
+      filter: none; /* IE 6-9 */
     }
 
 /* animations! */
