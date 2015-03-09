@@ -5,7 +5,7 @@ date: 2015-03-09
 comments: true
 author: Jacob Vosmaer
 categories:
-image_title: 'images/stock/van.jpg'
+image_title: '/images/stock/van.jpg'
 ---
 
 At GitLab B.V. we are working on an infrastructure upgrade to give more CPU
@@ -218,6 +218,8 @@ that was not obvious from the AWS documentation: if you want to have two public
 IP addresses on an AWS VPC node, you need to put two corresponding private IP
 addresses on one 'Elastic Network Interface', instead of creating two network
 interfaces with one private IP each.
+
+{% include downloads_partial.html %}
 
 ## Configuring three-way DRBD replication
 
