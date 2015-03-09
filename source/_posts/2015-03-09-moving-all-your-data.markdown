@@ -4,6 +4,7 @@ title: "Moving all your data, 9TB edition"
 date: 2015-03-09
 comments: true
 author: Jacob Vosmaer
+author_twitter: jacobvosmaer
 categories:
 image_title: '/images/stock/van.jpg'
 ---
