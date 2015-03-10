@@ -1,0 +1,28 @@
+body {
+  background: #548;
+}
+
+.graphic-menu {
+  margin-bottom: 70px;
+}
+
+.heavy {
+  font-size: 30px;
+  color: #FFB440;
+  padding: 33px;
+  text-align: center;
+  margin-top: 27px;
+}
+
+.heavy-middle {
+  font-size: 30px;
+  color: #FFB440;
+  border-left: 2px solid #6652A3;
+  border-right: 2px solid #6652A3;
+  padding: 35px;
+  text-align: center;
+}
+
+.view-docs {
+  font-size: 20px;color: white;text-decoration: underline;
+}
