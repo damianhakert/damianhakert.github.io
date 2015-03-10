@@ -335,7 +335,7 @@
 .content {
   background-color: white;
   margin: 0;
-  padding: 30px;
+  padding: 50px 0px 80px 0;
 }
 
 .what-is {
@@ -480,9 +480,13 @@
     width: 100%;
   }
 }
+
 .logos {
+  margin-left: 0;
+  margin-right: 0;
   margin-top: 18px;
 }
+
   .logos > div {
     height: 203px;
   }
@@ -502,24 +506,24 @@
     color: #a0c720;
   }
 
-.cern img {opacity: 0.5;}
-.stack_exchange img { width: 177px; margin-top: -24px; opacity: 0.5; }
-.expedia img { width: 118px; opacity: 0.5; }
-.nasa img { width: 95px; margin-top: 12px; margin-left: 23px; opacity: 0.5; }
-.bell img { width: 100px; margin-top: 25px; opacity: 0.5; }
-.at_t img { margin-top: 23px; opacity: 0.5; }
-.alibaba img { margin-top: 4px; width: 145px; opacity: 0.5; }
-.spacex img { width: 170px; margin-top: 45px; opacity: 0.5; }
-.redhat img { width: 139px; margin-top: 37px; opacity: 0.5; }
-.qualcomm img { margin-top: 44px; opacity: 0.5; }
-.archives img { margin-top: 45px; width: 161px; opacity: 0.5; }
-.nasdaq img { margin-top: 47px; width: 166px; opacity: 0.5; }
-.interpol img { width: 89px; opacity: 0.5; }
-.ibm img { margin-top: 20px; opacity: 0.5; width: 125px; }
-.publicis img { width: 155px; margin-top: 38px; opacity: 0.5; }
-.oreilly img { width: 185px; margin-left: -26px; opacity: 0.5; }
-.avg img { margin-top: 35px; opacity: 0.5; }
-.ucla img { margin-top: 42px; opacity: 0.5; }
+.logo_1a img { margin-top: 14px; opacity: 0.5; width: 171px; margin-left: -12px; }
+.logo_2a img { width: 118px; opacity: 0.5; margin-left: 10px; }
+.logo_3a img { width: 206px; margin-top: -24px; opacity: 0.5; margin-left: -21px }
+.logo_4a img { width: 115px; margin-top: 12px; margin-left: 37px; opacity: 0.5; }
+.logo_5a img { width: 100px; margin-top: 25px; opacity: 0.5; }
+.logo_6a img { margin-top: 23px; opacity: 0.5; }
+.logo_1b img { margin-top: 4px; width: 145px; opacity: 0.5; }
+.logo_2b img { width: 170px; margin-top: 45px; opacity: 0.5; }
+.logo_3b img { width: 139px; margin-top: 37px; opacity: 0.5; }
+.logo_4b img { margin-top: 44px; opacity: 0.5; }
+.logo_5b img { margin-top: 45px; width: 146px; opacity: 0.5; }
+.logo_7b img { margin-top: 47px; width: 166px; opacity: 0.5; }
+.logo_1c img { width: 89px; opacity: 0.5; }
+.logo_2c img {opacity: 0.5;}
+.logo_3c img { width: 138px; margin-top: 38px; opacity: 0.5; }
+.logo_4c img { width: 185px; margin-left: -26px; opacity: 0.5; }
+.logo_5c img { margin-top: 35px; opacity: 0.5; }
+.logo_7c img { margin-top: 42px; opacity: 0.5; }
 
   .logo-disclaimer {
     font-family: 'Korolev-Light';
@@ -527,9 +531,19 @@
     text-align: center;
   }
 
-.twitter-head h2 {
-  font-family: 'Korolev-Medium';
+.twitter-head {
+  margin-left: 0;
+  margin-right: 0;
 }
+
+  .twitter-head h2 {
+    font-family: 'Korolev-Light';
+    font-size: 36px;
+  }
+
+  .twitter-head span {
+    color: #55ACEE;
+  }
 
 .read-more-tweets {
   text-align: center;
@@ -546,5 +560,178 @@
 }
 
 .videos h1 {
-  font-family: 'Korolev-Medium';
+  font-family: 'Korolev-Light';
+  font-size: 36px;
 }
+
+/* TESTIMONIALS SECTION */
+
+.testimonial-container {
+  background: whitesmoke;
+  padding: 58px 0;
+  border-top: 1px solid rgba(0,0,0,0.075);
+  border-bottom: 1px solid rgba(0,0,0,0.075);
+}
+
+  .testimonial-container .text-center {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+    .testimonial-container .text-center h2 {
+      font-family: "Korolev-Light";
+      font-size: 36px;
+      margin-bottom: 60px;
+    }
+
+    .testimonial-container .columns:after {
+      display: block;
+      height: 0px;
+      width: 100%;
+      clear: both;
+      content: " ";
+    }
+
+  .testimonial-container .row {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+      .testimonial-container .row .column .message-container {
+        margin-bottom: 60px;
+      }
+
+        .testimonial-container .row .column .message-container .message {
+          background-color: #548;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px;
+          border-radius: 32px;
+          position: relative;
+          padding: 18px 27px 16px;
+          color: white;
+          font-size: 17px;
+          margin-bottom: 20px;
+          font-family: "Korolev-Light";
+          font-weight: 100;
+          line-height: 30px;
+          border: 1px solid black;
+          text-align: left;
+        }
+
+          .testimonial-container .column .message-container .message:after {
+            width: 0;
+            height: 0;
+            border-top: 20px solid transparent;
+            border-bottom: 22px solid transparent;
+            border-left: 26px solid #548;
+            content: " ";
+            position: absolute;
+            left: 47px;
+            bottom: -23px;
+          }
+
+        .testimonial-container .column .message-container .author {
+          min-height: 50px;
+          position: relative;
+          padding-left: 70px;
+          text-align: left;
+        }
+
+          .testimonial-container .column .message-container .author img {
+            width: 51px;
+            height: 51px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px;
+            border-radius: 25px;
+          }
+
+          .testimonial-container .column .message-container .author .name {
+            font-size: 21px;
+            font-weight: 400;
+            color: #FFB440;
+            display: block;
+          }
+
+          .testimonial-container .column .message-container .author .info {
+            font-size: 17px;
+            font-weight: 400;
+            color: black;
+            margin-bottom: 7px;
+            display: block;
+          }
+
+            .testimonial-container .column .message-container .author .info a {
+              text-decoration: none;
+              color: #548;
+              font-weight: 600;
+              font-family: "Korolev-Light";
+            }
+
+.testimonial-container hr {
+    margin: 0em auto;   
+    border: solid;   
+    border-width: 1px 0 0 0;
+    color: rgba(0,0,0,0.095);
+    width: 77%;
+}
+
+.testimonial-news-container {
+  background: #f5f5f5;
+  padding: 40px;
+}
+
+  .testimonial-news {
+    width: 85.66%;
+    margin-left: 5.66%;
+    text-align: center;   
+  }
+
+    .testimonial-news h2 {
+      font-size: 28px;   
+      line-height: 1.4;   
+      margin-bottom: 0.8em;
+      font-family: "Korolev-Light";
+    }
+
+    .testimonial-news img {
+      -webkit-filter: grayscale(85%);
+      -moz-filter: grayscale(85%);
+      -ms-filter: grayscale(85%);
+      -o-filter: grayscale(85%);
+      filter: grayscale(85%);
+      filter: filter: grayscale(85%); /* Firefox 4+ */
+      filter: gray; /* IE 6-9 */;
+      transition: 0.2s ease;
+    }
+
+    .testimonial-news img:hover {
+      -webkit-filter: none;
+      -moz-filter: none;
+      -ms-filter: none;
+      -o-filter: none;
+      filter: none;
+      filter: none; /* Firefox 4+ */
+      filter: none; /* IE 6-9 */
+    }
+
+.see-more-tuts {
+  font-size: 30px;
+  margin-top: 16px;
+  font-family: "Korolev-Light";
+}
+
+  .see-more-tuts a {
+    color: whitesmoke;
+    text-decoration: underline;
+  }
+
