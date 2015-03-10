@@ -723,8 +723,19 @@
       -o-filter: none;
       filter: none;
       filter: none; /* Firefox 4+ */
-      filter: none; /* IE 6-9 */
+      filter: none; /* IE 6-9 */;
     }
+
+.see-more-tuts {
+  font-size: 30px;
+  margin-top: 16px;
+  font-family: "Korolev-Light";
+}
+
+  .see-more-tuts a {
+    color: whitesmoke;
+    text-decoration: underline;
+  }
 
 /* animations! */
 .come-in {
