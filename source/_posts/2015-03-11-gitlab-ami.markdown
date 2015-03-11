@@ -8,14 +8,14 @@ author_twitter: Jobvo
 image_title: '/images/stock/mac.jpg'
 ---
 
-We're happy to announce that GitLab now has [Amazon Web Services Machines Images]('https://about.gitlab.com/aws')
+We're happy to announce that GitLab now has [Amazon Web Services Machines Images](https://about.gitlab.com/aws/)
 (AMIs) available for GitLab CE. These are simple AMIs, that only require a
 single command to bootstrap your GitLab instance on AWS.
 
 <!-- more -->
 
 To use the GitLab machine image, simply create an instance from the AMI
-that you find [here]('https://about.gitlab.com/aws') and run:
+that you find [here](https://about.gitlab.com/aws/) and run:
 
 ```
 sudo gitlab-ctl reconfigure
