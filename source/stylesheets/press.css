@@ -120,6 +120,10 @@ overflow: hidden;
   border-radius: 2px;
 }
 
+.fa span {
+  font-family: "Korolev-Medium";
+}
+
 .blog_twitter_row {
   margin: 55px 0;
 }
