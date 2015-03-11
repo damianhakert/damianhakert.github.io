@@ -9,7 +9,7 @@ author: Marin Jankovski
 
 Today we release GitLab 7.8.4 CE, EE and GitLab CI 7.8.4.
 
-You might have noticed that 7.8.3 was not announced. It contained a fix for annotated tags without message which was required for Gitorious import on GitLab.com.
+You might have noticed that 7.8.3 was not announced. It contained a fix for annotated tags without message which was required for the Gitorious import on GitLab.com.
 
 GitLab 7.8.4 CE contains:
 
@@ -23,7 +23,7 @@ Enterprise Edition 7.8.4 contains the fixes from 7.8.4 CE.
 
 ## Upgrade barometer
 
-This upgrade contains migrations that remove an update records in the database so downtime is required.
+This upgrade contains a migration that removes an updates records in the database so downtime is required.
 
 *We strongly advise creating a backup before upgrading to 7.8.4.*
 
