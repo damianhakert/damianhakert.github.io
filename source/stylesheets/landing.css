@@ -543,23 +543,30 @@
     font-size: 36px;
   }
 
-  .twitter-head span {
+  .twitter-head i {
     color: #55ACEE;
+    font-size: 36px;
   }
 
 .read-more-tweets {
   text-align: center;
 }
 
-.read-more-tweets a{
+.read-more-tweets a {
   background: #548;
   color: white;
-  padding: 9px;
+  padding: 13px;
   border: 1px solid white;
-  border-radius: 9px;
+  border-radius: 4px;
   cursor: pointer;
   text-decoration: none;
+  transition: 0.4s ease;
+  font-size: 18px;
 }
+
+  .read-more-tweets a:hover {
+    background: #547;
+  }
 
 .videos h1 {
   font-family: 'Korolev-Light';
@@ -569,7 +576,7 @@
 /* TESTIMONIALS SECTION */
 
 .testimonial-container {
-  background: whitesmoke;
+  background: white;
   padding: 58px 0;
   border-top: 1px solid rgba(0,0,0,0.075);
   border-bottom: 1px solid rgba(0,0,0,0.075);
@@ -725,6 +732,12 @@
       filter: none; /* Firefox 4+ */
       filter: none; /* IE 6-9 */;
     }
+
+.twitter-container {
+  background: whitesmoke;
+  margin: 0;
+  padding: 50px 0px 80px 0;
+}
 
 .see-more-tuts {
   font-size: 30px;
