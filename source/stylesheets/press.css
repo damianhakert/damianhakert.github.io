@@ -67,6 +67,7 @@ ul {
 .image-container {
   transition: 0.5s ease;
   margin-top: 35px;
+  padding-left: 100px;
 }
 
 .all-items {
@@ -113,7 +114,6 @@ overflow: hidden;
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 40px;
-  margin: 0px 36px 3px 99px;
   width: 170px;
   float: left;
   border: 1px solid #548;
@@ -192,7 +192,7 @@ overflow: hidden;
 }
 
 .image-container .text {
-  margin-bottom: 9px;
+  width: 170px;
 }
 
 .image-container .text span {
@@ -208,42 +208,28 @@ overflow: hidden;
 }
 
 .individual .btn {
-  padding: 6px 58px;
-  margin-left: 6px;
+  width: 100%;
   border-color: #aaa;
+  margin-top: 1px;
 }
 
 .individual .btn a {
   color: black;
 }
 
-.transparent {
-  margin-left: 10px !important;
-  padding: 6px 16px !important;
+.list {
+  width: 169px;
 }
 
 .multi-button a {
   color: black;
 }
 
-  .multi-button .btn {
-    border-color: #aaa;
-  }
-
-  .multi-button div:first-child {
-    margin: 0px 100px;
-    padding: 6px 57px;
-  }
-
-  .multi-button div:nth-child(2) {
-    margin: 6px 100px;
-    padding: 6px 58px;
-  }
-
-  .multi-button div:nth-child(3) {
-    margin-left: 10px;
-    padding: 6px 36px;
-  }
+.multi-button .btn {
+  border-color: #aaa;
+  width: 100%;
+  margin: 2px 0px;
+}
 
 .images-column .btn-group>.btn:first-child {
   border: 1px solid #548;
