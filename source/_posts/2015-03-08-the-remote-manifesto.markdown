@@ -14,16 +14,63 @@ But remote working and continuous delivery need something more.
 
 <!-- more -->
 
-At GitLab we love to work remoto and 
+At GitLab we love to work remote and try to communicate as effectively as possible.
 
-We prosose the following 7 priciples for modern teams:
+We propose the following 7 principles for modern teams:
 
-1. Everyone should have the freedom to work from where they want (be there for people, see more places, be happier without a commute, have less distractions)
-1. Everyone should use asynchronous communication tools (use issue mentions and Slack, reduce task switching, end email overload, keep people in the loop, it is important that people working from the same location who can easily talk should not skimp on writing down, Business people should interact with the developers using the same tools
-1. We recognize that nobody can look into the future (don't try to meet a commitment for the sake of it when information changed, features can be removed from a spring at any time, featues should ship when done, not when the sprint is done)
-1. Face to face meetings can happen online (use a video chat (Hangouts, Skype) when you have something emotional to discuss)
-1. Daily standups are for bonding, blockers and the future, not for reviewing the past (don't talk about what you did yesterday, this is not a reporting moment where everyone tries to look busy)
-1. Do estimates on a need to know basis (if there is no estimate needed you shouldn't spend time on it, can be t-shirt sizes to determine if it is worth it)
-1. Hanging out together in real life is worth it (spend time together, make sure to do more than just work, do a martial arts workshop together, visits the parents of an employee, go to a national festival together)
+## 1. Work from where you want
 
-Insprired by https://www.pandastrike.com/posts/20150304-agile
+Working remote allows you to be there for you loved ones,
+and be more available. It allows you to see more places, without ever having
+to commute. On top of that, working remote removes (almost) all distractions.
+
+## 2. Communicate Asynchronously
+
+Don't try to mimic an office. Communicate using issue mentions and chat tools
+(such as Slack). Reduce task switching and end email overload by using the
+right channel according to the immediate necessity of someone's attention. Can
+it wait a few minutes? Don't take someone from their work.
+
+If people _are_ working from the same location, it is important that they do
+not skimp on writing down things.
+
+Everyone should use the same tools to communicate.
+
+## 3. Recognize that the future is unknown
+
+Ship stuff when it's done, not when the sprint (planning) is complete.
+
+## 4. Have face-to-face meetings online
+
+You should have as many face-to-face meetings as you would normally have.
+The technology is readily available for any group of people and easy to use.
+Some times it can be very helpful to talk, even if only a minute, when all
+other communication is written.
+
+### 5. Daily stand-up meetings are for bonding, blockers and the future
+
+Don't talk about what you did yesterday,
+this is not a reporting moment where everyone tries to look busy.
+Rather, kickstart the day with some bonding,
+solve anything blocking and share future plans so people can plan and act
+and ultimately save time.
+
+## 6. Estimate workload on a need-to-know basis
+
+Don't try to estimate workload too much. This is mostly a waste of time
+and usually inaccurate. If it's to get a general idea, use T-shirt sizes
+for measure.
+
+## 7. Bond in real life
+
+Hanging out together in real life is awesome and totally worth it.
+Spend time together and make sure to do more than just work.
+Do a martial arts workshop together, visit the parents of an employee,
+go to a festival together: have fun.
+
+## 8. Give credits where due and say thanks
+
+At GitLab we have a Slack channel `#thanks` for this purpose.
+It always feels good to give and receive a thanks.
+
+Inspired by https://www.pandastrike.com/posts/20150304-agile
