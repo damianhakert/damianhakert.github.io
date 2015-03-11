@@ -730,7 +730,7 @@
       -o-filter: none;
       filter: none;
       filter: none; /* Firefox 4+ */
-      filter: none; /* IE 6-9 */
+      filter: none; /* IE 6-9 */;
     }
 
 .twitter-container {
@@ -738,6 +738,17 @@
   margin: 0;
   padding: 50px 0px 80px 0;
 }
+
+.see-more-tuts {
+  font-size: 30px;
+  margin-top: 16px;
+  font-family: "Korolev-Light";
+}
+
+  .see-more-tuts a {
+    color: whitesmoke;
+    text-decoration: underline;
+  }
 
 /* animations! */
 .come-in {
