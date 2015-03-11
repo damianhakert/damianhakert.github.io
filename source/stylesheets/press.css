@@ -6,6 +6,10 @@ h1 {
   margin-bottom: 40px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .press-content span {
   font-size: 17px;
   font-family: "Korolev-Light";
@@ -109,12 +113,10 @@ overflow: hidden;
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 40px;
-  margin: 0 36px 3px 95px;
+  margin: 0px 36px 3px 99px;
   width: 170px;
   float: left;
-  border-right: 1px solid #548;
-  border-left: 1px solid #548;
-  border-top: 1px solid #548;
+  border: 1px solid #548;
   border-radius: 2px;
 }
 
@@ -122,23 +124,30 @@ overflow: hidden;
   margin: 55px 0;
 }
 
-.recent-blog a:first-child {
-  background: #548;
-  color: white;
-  transition: 0.2s ease;
-  font-size: 17px;
+.recent-blog p {
+  font-size: 20px;
+  font-family: "Korolev-Light";
 }
 
-.recent-blog a:first-child:hover {
-  background: #549;
-  color: white;
+.recent-blog a:first-child {
+  color: #548;
+  transition: 0.2s ease;
+  text-decoration: underline;
 }
+
+  .recent-blog a:first-child:hover {
+    text-decoration: none;
+  }
 
 .recent-blog a:nth-child(2) {
-  background: #55ACEE;
-  font-size: 17px;
-  color: white;
+  color: #55ACEE;
+  text-decoration: underline;
+  transition: 0.2s ease;
 }
+
+  .recent-blog a:nth-child(2):hover { 
+    text-decoration: none;
+  }
 
 .press-image {
   display: inline-block;
@@ -198,56 +207,42 @@ overflow: hidden;
   margin-bottom: 7px;;
 }
 
-.download a {
-  background: white;
-  border: 1px solid #548;
-  padding: 9px 24px;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
+.individual .btn {
+  padding: 6px 58px;
+  margin-left: 6px;
+  border-color: #aaa;
+}
+
+.individual .btn a {
   color: black;
-  transition: 0.3s ease;
+}
+
+.transparent {
+  margin-left: 10px !important;
+  padding: 6px 16px !important;
 }
 
 .multi-button a {
   color: black;
 }
 
-.multi-button .btn {
-  transition: 0.3s ease;
-  margin: -4px 9px 8px 0px;
-}
-
-  .multi-button .btn:hover {
-    background: #f5f5f5;
-    color: white;
+  .multi-button .btn {
+    border-color: #aaa;
   }
 
-    .multi-button div:first-child {
-      margin-left: 9px;
-      border: 1px solid #548;
-      border-top-left-radius: 0;
-    }
-
-    .multi-button div:nth-child(2) {
-      border-left: 1px solid #548;
-      border-top-right-radius: 0;
-      border: 1px solid #548;
-    }
-
-    .multi-button div:nth-child(3) {
-      display: block;
-      margin: -3px 95px;
-      border: 1px solid #548;
-     }
-
-  .images-column .btn-group>.btn:first-child:hover {
-    background: #548;
-    color: white;    
+  .multi-button div:first-child {
+    margin: 0px 100px;
+    padding: 6px 57px;
   }
 
-  .download a:hover {
-    background: #548;
-    color: white;
+  .multi-button div:nth-child(2) {
+    margin: 6px 100px;
+    padding: 6px 58px;
+  }
+
+  .multi-button div:nth-child(3) {
+    margin-left: 10px;
+    padding: 6px 36px;
   }
 
 .images-column .btn-group>.btn:first-child {
@@ -262,18 +257,6 @@ overflow: hidden;
 .dropdown-menu > li > a {
   text-align: left;
 }
-
-.press-see-more {
-  margin-bottom: 46px;
-}
-
-  .press-see-more a {
-    font-family: "Korolev-Light";
-    font-weight: 600;
-    color: black;
-    text-decoration: underline;
-    font-size: 20px;
-  }
 
 .recent-podcasts {
   margin-bottom: 45px;
