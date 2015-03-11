@@ -109,6 +109,11 @@ ul {
   background-position-y: 6px;
 }
 
+.biker {
+  background-image: url(/images/press/motorcycle/biker.png);
+  background-position-y: -4px;
+}
+
 .image {
 overflow: hidden;
   background-repeat: no-repeat;
