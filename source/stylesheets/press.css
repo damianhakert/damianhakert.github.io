@@ -6,13 +6,13 @@ h1 {
   margin-bottom: 40px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .press-content span {
   font-size: 17px;
   font-family: "Korolev-Light";
-}
-
-.row {
-  padding: 48px 0;
 }
 
 .press-container {
@@ -65,12 +65,12 @@ h1 {
 }
 
 .image-container {
-  float: left;
   transition: 0.5s ease;
-  margin: 19px;
+  margin-top: 35px;
+  padding-left: 100px;
 }
 
-.images-column {
+.all-items {
   margin-bottom: 50px;
 }
 
@@ -80,28 +80,28 @@ h1 {
 }
 
 .founders {
-  background-image: url(/images/press/founders.jpg);
+  background-image: url(/images/press/founders.png);
   background-position-y: -18px;
 }
 
 .fox {
-  background-image: url(/images/press/logo/fox.png);
+  background-image: url(/images/press/logo/small-fox.png);
   background-position-y: -17px;
 }
 
 .diff {
-  background-image: url(/images/press/screenshots/diff.png);
-  background-position-y: 6px;
+  background-image: url(/images/press/screenshots/diff_view_small.png);
+  background-position-y: -4px;
 }
 
 .file {
-  background-image: url(/images/press/screenshots/file_view.png);
-  background-position-y: 6px;
+  background-image: url(/images/press/screenshots/file_view_small.png);
+  background-position-y: -4px;
 }
 
 .network-graph {
-   background-image: url(/images/press/screenshots/network_graph.png);
-  background-position-y: 6px; 
+   background-image: url(/images/press/screenshots/network_graph_small.png);
+  background-position-y: -4px; 
 }
 
 .wordmark {
@@ -110,29 +110,48 @@ h1 {
 }
 
 .image {
-  overflow: hidden;
+overflow: hidden;
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 40px;
-  margin: 0 36px 3px 36px;
   width: 170px;
   float: left;
-  border-right: 1px solid #548;
-  border-left: 1px solid #548;
-  border-top: 1px solid #548;
+  border: 1px solid #548;
   border-radius: 2px;
 }
 
-.recent-blog a {
-  background: #548;
-  color: white;
+.fa span {
+  font-family: "Korolev-Medium";
+}
+
+.blog_twitter_row {
+  margin: 55px 0;
+}
+
+.recent-blog p {
+  font-size: 20px;
+  font-family: "Korolev-Light";
+}
+
+.recent-blog a:first-child {
+  color: #548;
+  transition: 0.2s ease;
+  text-decoration: underline;
+}
+
+  .recent-blog a:first-child:hover {
+    text-decoration: none;
+  }
+
+.recent-blog a:nth-child(2) {
+  color: #55ACEE;
+  text-decoration: underline;
   transition: 0.2s ease;
 }
 
-.recent-blog a:hover {
-  background: #549;
-  color: white;
-}
+  .recent-blog a:nth-child(2):hover { 
+    text-decoration: none;
+  }
 
 .press-image {
   display: inline-block;
@@ -176,6 +195,10 @@ h1 {
   font-size: 18px;
 }
 
+.image-container .text {
+  width: 170px;
+}
+
 .image-container .text span {
   font-size: 19px;
   font-family: "Korolev-Light";
@@ -188,25 +211,41 @@ h1 {
   margin-bottom: 7px;;
 }
 
-.download a {
+.individual .btn {
+  width: 100%;
+  border-color: #aaa;
+  margin-top: 1px;
+}
+
+.individual .btn a {
+  color: black;
+}
+
+.list {
+  width: 169px;
+}
+
+.multi-button a {
+  color: black;
+}
+
+.multi-button .btn {
+  border-color: #aaa;
+  width: 100%;
+  margin: 2px 0px;
+}
+
+.images-column .btn-group>.btn:first-child {
   border: 1px solid #548;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-  color: white;
-  background: #548;
-  padding: 7px 49px;
-  font-size: 12px;
-  transition: 0.5s ease;
+  margin-top: -5px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  padding: 6px 49px;
+  margin-left: 1px;
 }
 
-.download a:hover {
-  background: white;
-  color: #548;
-  text-decoration: none;
-}
-
-.item {
-  margin-bottom: 8px;
+.dropdown-menu > li > a {
+  text-align: left;
 }
 
 .recent-podcasts {
