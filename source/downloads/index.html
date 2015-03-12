@@ -8,34 +8,34 @@ extra_js:
 platforms:
 - name: ubuntu1204
   long_name: Ubuntu 12.04
-  download_command: wget https://downloads-packages.s3.amazonaws.com/ubuntu-12.04/gitlab_7.8.2-omnibus.1-1_amd64.deb
+  download_command: wget https://downloads-packages.s3.amazonaws.com/ubuntu-12.04/gitlab_7.8.4-omnibus-1_amd64.deb
   install_commands: |
-                    sudo dpkg -i gitlab_7.8.2-omnibus.1-1_amd64.deb
+                    sudo dpkg -i gitlab_7.8.4-omnibus-1_amd64.deb
   dependency_commands: |
                        sudo apt-get install openssh-server
                        sudo apt-get install postfix
 - name: ubuntu1404
   long_name: Ubuntu 14.04
-  download_command: wget https://downloads-packages.s3.amazonaws.com/ubuntu-14.04/gitlab_7.8.2-omnibus.1-1_amd64.deb
+  download_command: wget https://downloads-packages.s3.amazonaws.com/ubuntu-14.04/gitlab_7.8.4-omnibus-1_amd64.deb
   install_commands: |
-                    sudo dpkg -i gitlab_7.8.2-omnibus.1-1_amd64.deb
+                    sudo dpkg -i gitlab_7.8.4-omnibus-1_amd64.deb
   dependency_commands: |
                     sudo apt-get install openssh-server
                     sudo apt-get install postfix
 
 - name: debian7
   long_name: Debian 7
-  download_command: wget https://downloads-packages.s3.amazonaws.com/debian-7.8/gitlab_7.8.2-omnibus.1-1_amd64.deb
+  download_command: wget https://downloads-packages.s3.amazonaws.com/debian-7.8/gitlab_7.8.4-omnibus-1_amd64.deb
   install_commands: |
-                    sudo dpkg -i gitlab_7.8.2-omnibus.1-1_amd64.deb
+                    sudo dpkg -i gitlab_7.8.4-omnibus-1_amd64.deb
   dependency_commands: |
                     sudo apt-get install openssh-server
                     sudo apt-get install postfix
 - name: centos6
   long_name: CentOS 6 (and RedHat/Oracle/Scientific Linux 6)
-  download_command: curl -O https://downloads-packages.s3.amazonaws.com/centos-6.6/gitlab-7.8.2_omnibus.1-1.el6.x86_64.rpm
+  download_command: curl -O https://downloads-packages.s3.amazonaws.com/centos-6.6/gitlab-7.8.4_omnibus-1.el6.x86_64.rpm
   install_commands: |
-                    sudo rpm -i gitlab-7.8.2_omnibus.1-1.el6.x86_64.rpm
+                    sudo rpm -i gitlab-7.8.4_omnibus-1.el6.x86_64.rpm
   dependency_commands: |
                     sudo yum install openssh-server
                     sudo yum install postfix
@@ -46,9 +46,9 @@ platforms:
   firewall_open: sudo lokkit -s http -s ssh
 - name: centos7
   long_name: CentOS 7 (and RedHat/Oracle/Scientific Linux 7)
-  download_command: curl -O https://downloads-packages.s3.amazonaws.com/centos-7.0.1406/gitlab-7.8.2_omnibus.1-1.el7.x86_64.rpm
+  download_command: curl -O https://downloads-packages.s3.amazonaws.com/centos-7.0.1406/gitlab-7.8.4_omnibus-1.el7.x86_64.rpm
   install_commands: |
-                    sudo rpm -i gitlab-7.8.2_omnibus.1-1.el7.x86_64.rpm
+                    sudo rpm -i gitlab-7.8.4_omnibus-1.el7.x86_64.rpm
   dependency_commands: |
                     sudo yum install openssh-server
                     sudo systemctl enable sshd
