@@ -10,29 +10,31 @@ image_title: '/images/unspash/FILENAME.jpg'
 
 We all have been greatly helped by Scrum and the [Agile manifesto]().
 It freed us from waterfall planning and excessive process.
-But remote working and continuous delivery need something more.
+But working remotely and continuous delivery need something more.
 
 <!-- more -->
 
-At GitLab we love to work remote and try to communicate as effectively as possible.
+At GitLab we love to work remotely, but that means we need to communicate as 
+effectively as possible.
 
-We propose the following 7 principles for modern teams:
+The following are GitLab's seven principles for modern teams working remotely:
 
-## 1. Work from where you want
+## 1. Work from anywhere you want
 
-Working remote allows you to be there for you loved ones,
-and be more available. It allows you to see more places, without ever having
-to commute. On top of that, working remote removes (almost) all distractions.
+Working remotely allows you to be there for the ones you love, and be more 
+available for them. It allows you to see more places, without ever having
+to commute. On top of that, working remotely removes almost every distraction.
 
 ## 2. Communicate Asynchronously
 
-Don't try to mimic an office. Communicate using issue mentions and chat tools
-(such as Slack). Reduce task switching and end email overload by using the
-right channel according to the immediate necessity of someone's attention. Can
-it wait a few minutes? Don't take someone from their work.
+Don't try to mimic an office. Communicate using issue mentions and chat tools. 
+Reduce task switching and put an end to email overload. Choose the right channel
+of communication according to the necessity of the task you're working on. Can 
+it wait a few minutes, a few hours, even a few days? Don't take someone from 
+their work if you don't have to.
 
 If people _are_ working from the same location, it is important that they do
-not skimp on writing down things.
+not skimp on writing things down.
 
 Everyone should use the same tools to communicate.
 
@@ -42,9 +44,9 @@ Ship stuff when it's done, not when the sprint (planning) is complete.
 
 ## 4. Have face-to-face meetings online
 
-You should have as many face-to-face meetings as you would normally have.
-The technology is readily available for any group of people and easy to use.
-Some times it can be very helpful to talk, even if only a minute, when all
+There is no need to cut back on face-to-face meetings. The technology is readily 
+available and it's easier to use than ever. We're human, we like to converse.
+Some times it can be critical to talk, even if only for a minute, when all
 other communication is written.
 
 ### 5. Daily stand-up meetings are for bonding, blockers and the future
@@ -57,18 +59,19 @@ and ultimately save time.
 
 ## 6. Estimate workload on a need-to-know basis
 
-Don't try to estimate workload too much. This is mostly a waste of time
-and usually inaccurate. If it's to get a general idea, use T-shirt sizes
-for measure.
+Don't get fixated on trying to estimate workloads. This is mostly a waste of 
+time and usually inaccurate. If it's to get a general idea, use T-shirt sizes
+for a measure. S, M, or L. If you get to XL then you can guarantee it's 
+inaccurate.
 
 ## 7. Bond in real life
 
-Hanging out together in real life is awesome and totally worth it.
-Spend time together and make sure to do more than just work.
-Do a martial arts workshop together, visit the parents of an employee,
+Hanging out together in real life is awesome and totally worth it. These are the 
+best days of our lives. Spend time together and make sure to do more than just 
+work. Do a martial arts workshop together, visit the parents of an employee,
 go to a festival together: have fun.
 
-## 8. Give credits where due and say thanks
+## 8. Give credit where it's due and remmber to say thank you
 
 At GitLab we have a Slack channel `#thanks` for this purpose.
 It always feels good to give and receive a thanks.
