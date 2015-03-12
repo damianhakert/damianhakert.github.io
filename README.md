@@ -37,22 +37,6 @@ or use the following to also launch Google Chrome
 bin/view
 ```
 
-## Create release blog post
-
-Begin a new release blog post using template from docs.
-
-```
-bundle exec rake new_release_post["7.3"]
-```
-
-## Create blog post
-
-Create blank blog post based on title
-
-```
-bundle exec rake new_post["Feature highlight: Groups"]
-```
-
 # Deployment setup
 Set up a build server with a bare repository and the hook in `_support/hooks`.
 Install site and PDF build dependencies `sudo apt-get install texlive-latex-recommended ruby1.9.1-dev ruby1.9.1`
@@ -93,3 +77,19 @@ You can link to the authors twitter account with:
 * [Autodeploy](doc/autodeploy.md)
 * [Recurly](doc/recurly.md)
 * [Redirects](doc/redirect_blogposts_org_to_com.md)
+
+## Create release blog post
+
+Begin a new release blog post using template from docs.
+
+```
+bundle exec rake new_release_post["7.3"]
+```
+
+## Create blog post
+
+Create blank blog post based on title
+
+```
+bundle exec rake new_post["Feature highlight: Groups"]
+```
