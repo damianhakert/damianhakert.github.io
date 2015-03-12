@@ -81,20 +81,20 @@ h1, h2, h3, h4, h5, button, a, p, li {
         padding-top: 15%;
       }
 
-.image-title {
+.gitlab-com-header {
   background: url(/images/gitlab-com/animal.jpg);
   background-size: 100%;
 }
 
-.image-title .color-bg {
+.gitlab-com-header .content-header {
   text-align: center;
-  padding-bottom: 2%;
+  padding-bottom: 5%;
   height: 100%;
   width: 100%;
   margin-top: -1px;
   background-image: linear-gradient(to bottom, rgba(85,68,136,1.0) 0%,rgba(85,68,136,0.95) 99%,rgba(85,68,136,0.99) 100%)
 }
-  .color-bg h1 {
+  .content-header h1 {
     font-family: "Korolev-Medium";
     position: relative;
     padding: 64px 0 3px 0;
@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, button, a, p, li {
     font-size: 55px;
   }
 
-  .color-bg h3 {
+  .content-header h3 {
     font-family: "Korolev-Light";
     font-size: 32px;
     color: rgba(255, 255, 255, 0.62);
@@ -112,20 +112,20 @@ h1, h2, h3, h4, h5, button, a, p, li {
     font-weight: 200;
   }
 
-  .color-bg i {
+  .content-header i {
     font-size: 3em;
   }
 
-  .color-bg p {
+  .content-header p {
     font-size: 21px;
   }
 
-    .color-bg li {
+    .content-header li {
       color: white;
       font-size: 22px;
     }
 
-.image-title .row:nth-child(2) {
+.gitlab-com-header .row:nth-child(2) {
   display: inline;
 }
 
@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, button, a, p, li {
 }
 
   .security .fa {
-    font-size: 14em;
+    font-size: 10em;
     color: darkblue;
     margin-left: 10%;
   }
@@ -232,6 +232,17 @@ h1, h2, h3, h4, h5, button, a, p, li {
 .content ul,
 .content li, p {
   font-size: 16px;
+}
+
+.import {
+  margin-bottom: 9%;
+}
+
+.import-image {
+  background: url(/images/gitlab-com/import_options.png);
+  padding: 91px;
+  background-size: 79%;
+  background-repeat: no-repeat;
 }
 
 #footer {
