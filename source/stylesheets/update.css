@@ -35,7 +35,7 @@ a:hover {
 
 .title {
   font-size: 24px;
-  font-family: "Korolev-Light";
+  font-family: "Korolev-Light", sans-serif;
   color: #D9CCFF;
 }
 

@@ -1,7 +1,7 @@
 /* subscription */
 
 * {
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, button, a {
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
 }
 
 .text-right,
