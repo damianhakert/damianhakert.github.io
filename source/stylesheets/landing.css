@@ -316,9 +316,16 @@
     }
 
     .header-feature .text-area p:first-child {
-      padding: 14px;
+      padding: 14px 14px 0 14px;
       font-size: 29px !important;
       margin: 0;
+    }
+
+    .header-feature .text-area p:nth-child(2) {
+      margin: 0;
+      font-size: 19px !important;
+      padding-bottom: 10px;
+      color: #FFB440 !important;
     }
 
 .content {
