@@ -23,7 +23,7 @@ Enterprise Edition 7.8.4 contains the fixes from 7.8.4 CE.
 
 ## Upgrade barometer
 
-This upgrade contains a migration that removes an updates records in the database so downtime is required.
+This upgrade contains a migration that removes and updates records in the database so downtime is required.
 
 *We strongly advise creating a backup before upgrading to 7.8.4.*
 
