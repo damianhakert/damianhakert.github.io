@@ -1,6 +1,6 @@
 #landing {
   padding: 0;
-  height: 645px;
+  height: 677px;
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -268,7 +268,7 @@
       margin-right: 4%;
       text-align: center;
       float: left;
-      height: 239px;
+      height: 265px;
       width: 204px;
     }
 
@@ -280,22 +280,6 @@
         color: white;
         font-size: 4em;
       }
-
-      .header-feature li p {
-        padding-top: 16%;
-      }
-
-    .header-feature li:first-child .header-btn {
-      margin-left: 45px;
-    }
-
-    .header-feature li:nth-child(2) .header-btn {
-      margin-left: 55px;
-    }
-
-    .header-feature li:nth-child(3) .header-btn {
-      margin-left: 57px;
-    }
 
     .header-feature li .clickable .select-area {    
       position: absolute;
@@ -321,17 +305,20 @@
       left: 59%;
     }
 
-  .header-feature .header-btn {
-    position: absolute;
-    bottom: 0;
-    margin-left: 48px;
-    margin-bottom: 1%;
-  }
+    .header-feature .header-btn {
+        margin-top: 25px;
+    }
 
     .header-feature .header-btn a:hover {
       background: #fff;
       color: #548;
       text-decoration: none;
+    }
+
+    .header-feature .text-area p:first-child {
+      padding: 14px;
+      font-size: 29px !important;
+      margin: 0;
     }
 
 .content {
@@ -425,7 +412,7 @@
 
 .see-further {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 79px;
 
 }
 
