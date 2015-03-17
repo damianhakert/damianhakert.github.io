@@ -17,39 +17,46 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 <!--more-->
 
-## ***MAIN_CE_FEATURE***
+## Dashboard
 
-***DESCRIPTION***
-
-[![screenshot](/images/7.9/feature.png)](/images/7.9/feature.png) ***7.9 is the version of GitLab being released***
-
-
-## ***NEW_CE_FEATURE***
-
-***DESCRIPTION***
+Including starred projects page, groups page, milestones page
 
 [![screenshot](/images/7.9/feature.png)](/images/7.9/feature.png) ***7.9 is the version of GitLab being released***
 
 
-## NEW_CE_FEATURE
+## Add Bitbucket importer
 
-***DESCRIPTION***
+Now you can import projects and issues from bitbucket
 
-[![screenshot](/images/7.9/feature.png)](/images/7.9/feature.png) **+7.9 is the version of GitLab being released***
+
+## Save web edit in new branch
+
+When editing file online you can save it to new branch to easy create a merge request after.
+
+[![screenshot](/images/7.9/feature.png)](/images/7.9/feature.png) ***7.9 is the version of GitLab being released***
+
+
+## Drag and drop any file in markdown 
+
+Drag and drop pdf file or zip archive to issue description or comment
+
+[![screenshot](/images/7.9/feature.png)](/images/7.9/feature.png) **+7.9 is the version of GitLab being released**
+
+## Use Emoji One
+
+Nice emoji
+
+## Subscribe/Unsubscribe from issue or merge request 
+
+Dont want to get notifications in certain issue. Just unsubscribe. 
 
 ## NEW_SPONSORED_FEATURE
 
 Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/X-X-stable/CHANGELOG#L18).
 
-## ***MAIN_EE_FEATURE*** (EE only feature)
+## Group level webhooks (EE only feature)
 
-***DESCRIPTION***
-
-[![screenshot](/images/7.9/feature.png)](/images/7.9/feature.png) ***7.9 is the version of GitLab being released***
-
-## ***EE_FEATURE*** (EE only feature)
-
-***DESCRIPTION***
+Share the same web hooks between multiple projects - just setup it once in group.
 
 [![screenshot](/images/7.9/feature.png)](/images/7.9/feature.png) ***7.9 is the version of GitLab being released***
 
