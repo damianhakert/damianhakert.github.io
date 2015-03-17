@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Security advisory for smtp settings
-date: 2015-03-16
+date: 2015-03-17
 author: Marin Jankovski
 ---
 
