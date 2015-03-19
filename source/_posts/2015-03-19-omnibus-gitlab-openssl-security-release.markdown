@@ -16,6 +16,9 @@ omnibus-gitlab packages contain their own copy of OpenSSL 1.0.1. Today we are
 releasing new omnibus packages for GitLab 7.8.4 CE and GitLab 7.8.4 EE which
 contain OpenSSL 1.0.1m.
 
+For installations from source we advise you to upgrade your openssl version using the OS package manager.
+If openssl was compiled from source we advise you to compile the new version.
+
 <!-- more -->
 
 Versions affected: omnibus-gitlab 7.8.4.omnibus and older, omnibus-gitlab
