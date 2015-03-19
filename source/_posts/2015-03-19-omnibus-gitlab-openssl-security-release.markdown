@@ -39,6 +39,10 @@ grep openssl /opt/gitlab/version-manifest.txt
 If the OpenSSL version is 1.0.1j or lower you need to update omnibus-gitlab to
 the latest version.
 
+After the update is done, make sure that you restart GitLab so all processes can get the new version of openssl.
+
+You can initiate the restart with `sudo gitlab-ctl restart`.
+
 # Downloads
 
 Updated omnibus-gitlab packages for [GitLab Community
