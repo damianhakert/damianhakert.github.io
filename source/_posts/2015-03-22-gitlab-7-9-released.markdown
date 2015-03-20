@@ -53,6 +53,15 @@ With GitLab 7.9 we change the emoji library to Emoji One. What we like about Emo
 Did you ever get mentioned in an issue just to be informed and then wanted to get away from the discussion? Every issue and merge request got
 a subscribe/unsubscribe button so you can follow conversations that you find most important.
 
+## Backup with git-annex files
+
+With GitLab 7.8 we had the possibility to manipulate large binaries with git-annex. Backups did not include files uploaded with git-annex but with 7.9 files will be included in backup. Of course, if you used snapshots of your GitLab server everything was backuped anyway!
+
+## Blocking users is non-destructive
+
+Blocking user will not remove users from their projects and groups. GitLab 7.9 will disable their access so if you change your mind and unblock the user, they can get up and running quickly.
+
+
 ## Group level webhooks (EE only feature)
 
 In earlier versions of GitLab you were able to add a web hook for a project.
