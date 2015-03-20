@@ -1,77 +1,79 @@
 ---
 layout: post
-title: "GitLab 7.9 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 7.9 released with drag and drop for all files and group hooks"
 date: 2015-03-22
 comments: true
 categories:
-author:
+author: Marin Jankovski
 ---
 
 GitLab is open source software to collaborate on code.
 Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
-The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
-In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
+The biggest new features in Community Edition are Bitbucket importer, updated Dashboard, new emojis.
+In addition to the updates from Community Edition, GitLab Enterprise Edition has gained group level webhooks.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Stan Hu for contributing number of features and fixes in GitLab Community Edition and omnibus-gitlab project.
+Thanks Stan!
 
 <!--more-->
 
 ## Dashboard
 
-Including starred projects page, groups page, milestones page
+Dashboard received a facelift so you can see your starred projects, groups and milestones in one menu.
 
-[![screenshot](/images/7.9/feature.png)](/images/7.9/feature.png) ***7.9 is the version of GitLab being released***
+[![screenshot](/images/7_9/dashboard.png)](/images/7_9/dashboard.png)
 
 
-## Add Bitbucket importer
+## Bitbucket importer
 
-Now you can import projects and issues from bitbucket
+With 7.9 comes a new way of importing your projects. Bitbucket importer is added so you can now import all your projects.
 
 
 ## Save web edit in new branch
 
-When editing file online you can save it to new branch to easy create a merge request after.
+When editing file in web editor UI you can save it to a new branch. This can speed up your workflow considerably as you can now easily create a merge request after.
 
-[![screenshot](/images/7.9/feature.png)](/images/7.9/feature.png) ***7.9 is the version of GitLab being released***
+[![screenshot](/images/7_9/new-branch.png)](/images/7_9/new-branch.png)
 
 
-## Drag and drop any file in markdown 
+## Drag and drop any file in markdown
 
-Drag and drop pdf file or zip archive to issue description or comment
+In previous versions it was easy to add a screenshot to a discussion. Now it is also possible to drag and drop pdf file or a zip archive in an issue description or comment!
 
-[![screenshot](/images/7.9/feature.png)](/images/7.9/feature.png) **+7.9 is the version of GitLab being released**
+[![screenshot](/images/7_9/drag-and-drop.png)](/images/7_9/drag-and-drop.png)
 
-## Use Emoji One
+## Emoji One
 
-Nice emoji
+With GitLab 7.9 we change the emoji library to Emoji One. What we like about Emoji One, apart from the gorgeous emojis, is that the software license matches our MIT license.
 
-## Subscribe/Unsubscribe from issue or merge request 
+[![screenshot](/images/7_9/emoji.png)](/images/7_9/emoji.png)
 
-Dont want to get notifications in certain issue. Just unsubscribe. 
+## Subscribe/Unsubscribe from issue or merge request
 
-## NEW_SPONSORED_FEATURE
-
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/X-X-stable/CHANGELOG#L18).
+Did you ever get mentioned in an issue just to be informed and then wanted to get away from the discussion? Every issue and merge request got
+a subscribe/unsubscribe button so you can follow conversations that you find most important.
 
 ## Group level webhooks (EE only feature)
 
+In earlier versions of GitLab you were able to add a web hook for a project.
 Share the same web hooks between multiple projects - just setup it once in group.
 
-[![screenshot](/images/7.9/feature.png)](/images/7.9/feature.png) ***7.9 is the version of GitLab being released***
+[![screenshot](/images/7_9/group-hooks.png)](/images/7_9/group-hooks.png)
 
 ## Other changes
 
-This release has more improvements, including security fixes, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
+This release has more improvements, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
 
 ## Upgrade barometer
 
-New dependency is added. For installations from source `nodejs` is required. For Debian/Ubuntu it should be as easy as `sudo apt-get install nodejs`. For CentOS `yum install nodejs`. Omnibus packages are shipped with nodejs already compiled so no action is needed if you are installing using a package.
+New dependency is added. For installations from source `nodejs` is required. For Debian/Ubuntu it should be as easy as `sudo apt-get install nodejs`. For CentOS `yum install nodejs`.
 
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
-*** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
+Omnibus packages are shipped with nodejs already compiled so no action is needed if you are installing using a package.
+
+When upgrading from 7.8.4 no downtime is required as database migrations are only adding new columns.
+
+When upgrading from versions prior to 7.8.4 downtime is required due to database changes.
 
 - - -
 
@@ -84,7 +86,7 @@ If you are setting up a new GitLab installation please see the [installing GitLa
 Upgrade instructions for omnibus-gitlab packages can be found in [the omnibus-gitlab repository](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update.md).
 
 If you installed GitLab from source and you have version 6.4.2 or higher you can use the [upgrade script](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/upgrader.md).
-You have to update GitLab Shell to ***X.X.X*** manually, see [point 3 of the upgrade guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/X.x-to-x.x.md#3-update-gitlab-shell-and-its-config).
+You have to update GitLab Shell to v2.6.0 manually, see [point 3 of the upgrade guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/X.x-to-x.x.md#3-update-gitlab-shell-and-its-config).
 
 If you still want to do it manually - see the [Update Guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/X.x-to-X.x.md).
 
