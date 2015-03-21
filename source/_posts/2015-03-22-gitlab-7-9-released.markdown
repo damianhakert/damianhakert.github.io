@@ -9,7 +9,7 @@ author: Marin Jankovski
 
 GitLab is open source software to collaborate on code.
 Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
-The biggest new features in Community Edition are Bitbucket importer, updated Dashboard, new emojis.
+The biggest new features in Community Edition are Bitbucket importer, unsubscribe button and the possibility to drag-and-drop any file-type in issues and merge requests markdown.
 In addition to the updates from Community Edition, GitLab Enterprise Edition has gained group level webhooks.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Stan Hu for contributing number of features and fixes in GitLab Community Edition and omnibus-gitlab project.
@@ -55,7 +55,7 @@ a subscribe/unsubscribe button so you can follow conversations that you find mos
 
 ## Backup with git-annex files
 
-With GitLab 7.8 we had the possibility to manipulate large binaries with git-annex. Backups did not include files uploaded with git-annex but with 7.9 files will be included in backup. Of course, if you used snapshots of your GitLab server everything was backuped anyway!
+With GitLab 7.8 we had the possibility to manipulate large binaries with git-annex. Backups did not include files uploaded with git-annex but with 7.9 all files will be archived (using tar) and included in the backup. Of course, if you used snapshots of your GitLab server everything was backed up anyway!
 
 ## Blocking users is non-destructive
 
@@ -76,7 +76,7 @@ This release has more improvements, please check out [the Changelog](https://git
 
 ## Upgrade barometer
 
-New dependency is added. For installations from source `nodejs` is required. For Debian/Ubuntu it should be as easy as `sudo apt-get install nodejs`. For CentOS `yum install nodejs`.
+A new dependency is added, for installations from source `nodejs` is required. For Debian/Ubuntu it should be as easy as `sudo apt-get install nodejs`. For CentOS `yum install nodejs`.
 
 Omnibus packages are shipped with nodejs already compiled so no action is needed if you are installing using a package.
 
