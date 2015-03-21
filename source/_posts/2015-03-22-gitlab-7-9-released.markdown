@@ -9,6 +9,7 @@ author: Marin Jankovski
 
 GitLab is open source software to collaborate on code.
 Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
+This is the biggest release of GitLab ever. This release alone contains over 70 entries in the [GitLab CE changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) and more than 800 commits!
 The biggest new features in Community Edition are Bitbucket importer, unsubscribe button and the possibility to drag-and-drop any file-type in issues and merge requests markdown.
 In addition to the updates from Community Edition, GitLab Enterprise Edition has gained group level webhooks.
 
