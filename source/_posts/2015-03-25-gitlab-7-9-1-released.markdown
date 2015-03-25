@@ -32,7 +32,8 @@ This is a security concern so we strongly advise upgrading to 7.9.1.
 
 ## Upgrade barometer
 
-Upgrading GitLab CI from 7.9.0 to 7.9.1 requires downtime as this release contains
+Upgrading GitLab CI from 7.9.0 to 7.9.1 requires downtime as this release contains database migrations which are changing existing records.
+
 Upgrading from GitLab 7.9.0 requires no downtime as this release contains no migrations.
 
 ## Upgrading
