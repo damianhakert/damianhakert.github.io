@@ -19,7 +19,7 @@ GitLab 7.9.1 CE fixes:
   - Fix for LDAP with commas in DN
   - Fix missing events and in admin Slack service template settings form
   - Don't show commit comment button when user is not signed in.
-  - Downgrade gemnasium-gitlab-service gem to retain ruby 2.1.x compatibility
+  - Downgrade gemnasium-gitlab-service gem to retain Ruby 2.0.x compatibility
 
 Enterprise Edition 7.9.1 contains the fixes from Community Edition.
 
