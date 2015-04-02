@@ -11,19 +11,20 @@ Today we release GitLab CE, GitLab EE and GitLab CI 7.9.2.
 
 This release only affects GitLab CI. If you do not use GitLab CI, you do not need to upgrade to GitLab 7.9.2.
 
+Versions affected: GitLab CI 7.9.1
+
+Versions fixed: GitLab CI 7.9.2
+
 In 7.9.1 (previous release) we added a project setting option "Allow shared runners".
 
 After upgrading to this version all existing CI projects have this option enabled, so that all projects can be served by shared runners (runners which added by admin).
 
-This introduced an issue: shared runners do not remove projects from the temporary directory because of performance reason. This means that by creating a special job script it is possible to steal the repository of any project which has been ran on any given runner.
+This introduced an issue: shared runners do not remove projects from the temporary directory because of performance reason. This means that by creating a special job script it is possible to get access to the repository of any project which has been ran on the shared runner.
 
 This fix disables the option "Allow shared runners" in project settings for those projects that have at least one specific runner.
 
 For installations from source we advise you to upgrade GitLab CI using traditional method.
 
-Versions affected: GitLab CI 7.9.1
-
-Versions fixed: GitLab CI 7.9.2
 
 <!-- more -->
 
