@@ -4,20 +4,26 @@ title: "GitLab 7.9.2 Released"
 date: 2015-04-02
 comments: true
 categories:
-author: Marin Jankovski
+author: Marin Jankovski, Valery Sizov
 ---
 
 Today we release GitLab CE, GitLab EE and GitLab CI 7.9.2.
 
-This release is a security release and it contains only fixes for GitLab CI.
+This release only affects GitLab CI. If you do not use GitLab CI, you do not need to upgrade to GitLab 7.9.2.
 
+In 7.9.1 (previous release) we added a project setting option "Allow shared runners".
 
-GitLab CI 7.9.2 disables builds on shared runners if a project has assigned runners.
+After upgrading to this version all existing CI projects have this option enabled, so that all projects can be served by shared runners (runners which added by admin).
 
-What this means is that the user will have to enable `Allow shared runners
-` option explicitly if they want the project build to run on a shared runner.
+This introduced an issue: shared runners do not remove projects from the temporary directory because of performance reason. This means that by creating a special job script it is possible to steal the repository of any project which has been ran on any given runner.
 
-Be advised that serving builds on a shared runner means that trust is required in all users using the CI. Private projects that have CI builds enabled with shared runner setting on will be accesible to all users with access to CI.
+This fix disables the option "Allow shared runners" in project settings for those projects that have at least one specific runner.
+
+For installations from source we advise you to upgrade GitLab CI using traditional method.
+
+Versions affected: GitLab CI 7.9.1
+
+Versions fixed: GitLab CI 7.9.2
 
 <!-- more -->
 
