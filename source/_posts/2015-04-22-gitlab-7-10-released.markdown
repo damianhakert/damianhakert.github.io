@@ -64,6 +64,17 @@ This release has more improvements, including security fixes, please check out [
 *** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
 *** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
 
+- Usernames and group and project paths are no longer allowed to end in a
+  period (`.`). 
+  As part of the upgrade, these values will automatically be converted to lose
+  the period, e.g. `johnsmith.` will become `johnsmith`. 
+  If this period-less username or path already exists, a counter will be added
+  to the end of the value, e.g. `johnsmith1` or even `johnsmith2`. 
+  If your username used to end in a period, you will now need to log in using
+  the new version. 
+  If you used to pull from a project whose path ended in a period, you will
+  need to change your git remote to use the new version.
+
 - - -
 
 # Installation
