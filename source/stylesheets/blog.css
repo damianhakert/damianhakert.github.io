@@ -44,7 +44,7 @@ article {
 }
 
 .blog-entry ul li {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Korolev-Light', sans-serif;
   font-size: 18px;
   color: #444;
   line-height: 2.9rem;
@@ -91,7 +91,7 @@ article {
 
 .blog-entry h1.image-title {
   font-size: 30px;
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
   color: #fff;
   font-weight: 600;
   line-height: 40px;
@@ -99,7 +99,7 @@ article {
 
 .blog-entry h1 a {
   font-size: 30px;
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
   color: #444;
   font-weight: 600;
   line-height: 41px;
@@ -123,7 +123,7 @@ article {
 }
 
 .blog-entry p {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Korolev-Light', sans-serif;
   font-size: 18px;
   color: #444;
   line-height: 2.9rem;
@@ -135,7 +135,7 @@ article {
 }
 
 .blog-entry li {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Korolev-Light', sans-serif;
   font-size: 18px;
   color: #444;
   /*margin: 0 0 24px;*/
@@ -146,7 +146,7 @@ article {
 }
 
 .blog-entry a {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Korolev-Light', sans-serif;
   font-size: 18px;
   line-height: 2.9rem;
 }
@@ -173,7 +173,7 @@ article {
 }
 
 .blog-index .toplink {
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Light", sans-serif;
   font-size: 14px;
   line-height: auto;
   font-weight: 600;
@@ -238,7 +238,7 @@ ul.post-list > li > time {
   padding-top: 23px;
   background: #548;
   color: #fff;
-  font-family: 'Korolev', sans-serif;
+  font-family: 'Korolev-Light', sans-serif;
   font-size: 24px;
   margin: 30px 0px;
 }
@@ -246,7 +246,7 @@ ul.post-list > li > time {
 .download-partial a {
   padding: 5px 22px;
   padding-top: 9px;
-  font-family: 'Korolev', sans-serif;
+  font-family: 'Korolev-Light', sans-serif;
   color: #fff;
   position: relative;
   transition: all 0.2s;
@@ -267,7 +267,7 @@ ul.post-list > li > time {
 }
 
 .btn-purple {
-  font-family: "Korolev", sans-serif !important;
+  font-family: "Korolev-Light", sans-serif !important;
   border: 2px solid #548;
   font-size: 24px !important;
   color: white;
@@ -293,7 +293,7 @@ ul.post-list > li > time {
 }
 
 .blog-entry .author a {
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: normal;

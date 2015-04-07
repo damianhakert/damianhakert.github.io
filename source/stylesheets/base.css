@@ -12,7 +12,7 @@ body {
   background-color:#f9f9f9;
   position: relative;
   padding-top: 50px;
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -22,7 +22,7 @@ h4,
 h5,
 button,
 a {
-    font-family: "Korolev-Medium";
+    font-family: "Korolev-Medium", sans-serif;
     font-weight: 400;
 }
 h2 {
@@ -615,7 +615,7 @@ article {
 
 .blog-entry h1 a {
   font-size: 40px;
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
   color: #444;
   font-weight: 600;
   line-height: 55px;
@@ -632,7 +632,7 @@ article {
 }
 
 .blog-entry p {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Korolev-Light', sans-serif;
   font-size: 18px;
   color: #444;
   line-height: 2.9rem;
@@ -644,7 +644,7 @@ article {
 }
 
 .blog-entry li {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Korolev-Light', sans-serif;
   font-size: 18px;
   color: #444;
   /*margin: 0 0 24px;*/
@@ -655,7 +655,7 @@ article {
 }
 
 .blog-entry a {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Korolev-Light', sans-serif;
   font-size: 18px;
   line-height: 2.9rem;
 }
@@ -677,7 +677,7 @@ article {
 }
 
 .blog-index .toplink {
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
   font-size: 14px;
   line-height: auto;
   font-weight: 600;
@@ -944,7 +944,7 @@ a:hover > .link-box {
 
 .nl .panel-heading a {
   font-size: 14px;
-  font-family: 'Korolev-Medium';
+  font-family: 'Korolev-Medium', sans-serif;
   line-height: auto;
   font-weight: 700;
 }

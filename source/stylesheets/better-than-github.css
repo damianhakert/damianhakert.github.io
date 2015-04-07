@@ -4,7 +4,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, button, a {
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
 }
 
 @media (min-width: 1400px) {
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, button, a {
 
   .navigation-wrapper h1 {
     margin-left: 10%;
-    font-family: "Korolev-Light";
+    font-family: "Korolev-Light", sans-serif;
   }
 
     .navigation-wrapper ul {
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, button, a {
 }
 
 .wrapper .title {
-  font-family: "Korolev-Light";
+  font-family: "Korolev-Light", sans-serif;
   text-align: center;
   font-size: 29px;
   width: 70%;
@@ -150,7 +150,7 @@ ol li p:nth-child(4) {
 
 ol li {
   font-size: 25px;
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
   font-weight: 200;
   padding-bottom: 30px;
   float: left;
