@@ -1,16 +1,21 @@
 body {
   background-color: rgba(85, 68, 136, 0.23);
-  font-family: "Korolev-Medium", sans-serif;  
+  font-family: "Korolev-Medium", sans-serif;
 }
 
 .wrapper {
-  min-height: 75%;
+  min-height: 55%;
+}
+
+.title {
+  text-align: center;
+
 }
 
 .jobs-container {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 100px;
   overflow: hidden;
   background: #548;
   background-size: cover;
@@ -22,7 +27,7 @@ body {
 }
 
 .jobs-content {
-  padding-top: 76px;
+  padding-top: 14px;
   text-align: center;
   color: white;
   width: 50%;
@@ -53,6 +58,10 @@ body {
   box-shadow: 0px 3px 3px #F0F0F0;
 }
 
+.vacancy:nth-last-child(2) {
+  margin-bottom: 50px;
+}
+
 .vacancies {
   max-width: 700px;
 }
@@ -67,5 +76,5 @@ body {
 }
 
 #content {
-  margin-bottom: -75px;
+  margin-bottom: 40px;
 }

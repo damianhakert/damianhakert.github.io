@@ -51,7 +51,17 @@ article {
   padding-bottom: 4px;
 }
 
+
+
 .image-title .color-bg {
+  position: relative;
+  display:block;
+  padding: 200px 40px;
+  margin-top: 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 55px;
+  font-family: "Korolev", sans-serif;
   text-align: center;
   height: 500px;
   background: rgba(57, 38, 113, 0.49);
@@ -59,13 +69,18 @@ article {
 }
 
 .image-title .color-bg h1 {
-  position: relative;
-  padding: 200px 40px;
-  margin-top: 0;
   color: #fff;
   font-weight: 600;
   font-size: 55px;
-  font-family: "Korolev-Medium", sans-serif;
+}
+
+.image-title .color-bg h3 {
+  font-size: 40px;
+  color: white;
+}
+
+.image-title a:hover {
+  text-decoration: none;
 }
 
 .blog-entry .image-title h1 a {
