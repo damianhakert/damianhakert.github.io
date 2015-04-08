@@ -6,33 +6,34 @@ extra_css:
   - aws.css
 extra_js:
   - downloads.js
+current_version: GL 7.9.2 CE
 regions:
 - name: US West (Oregon)
-  image: ami-6ba2805b
+  image: ami-679eb657
   id: uw2
 - name: US East (N. Virginia)
-  image: ami-de2701b6
+  image: ami-08714d60
   id: ue
 - name: US West (N. California)
-  image: ami-9d16f1d9
+  image: ami-f500e3b1
   id: uw1
 - name: EU (Ireland)
-  image: ami-a7910cd0
+  image: ami-456d0a32
   id: eui
 - name: EU (Frankfurt)
-  image: ami-9a6f5287
+  image: ami-a23c00bf
   id: euf
 - name: Asia Pacific (Singapore)
-  image: ami-3ea0966c
+  image: ami-1e62504c
   id: aps
 - name: Asia Pacific (Tokyo)
-  image: ami-fdab41fd
+  image: ami-3afe073a
   id: apt
 - name: Asia Pacifc (Sydney)
-  image: ami-013d4d3b
+  image: ami-5db6c467
   id: apsy
 - name: South America (São Paulo)
-  image: ami-ffcd75e2
+  image: ami-3b58e226
   id: sa
 ---
 
@@ -60,7 +61,7 @@ regions:
         <div class="aws-install">
 
           <div class="aws-install-step">
-            <p>Search for this AMI under Community AMIs</p>
+            <p>Search for this AMI ({{ page.current_version }}) under Community AMIs</p>
             <p>{{ region.image }}</p>
           </div>
 
