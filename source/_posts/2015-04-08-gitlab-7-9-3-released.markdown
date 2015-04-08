@@ -12,7 +12,8 @@ Today we release GitLab 7.9.3 CE, EE and GitLab CI 7.9.3.
 
 GitLab 7.9.3 EE fixes:
 
-  - Fix LDAP group links page by using new group members route.
+  - Fixes a link in LDAP groups page that linked to the group's member page and the redirect URL after clearing
+  the LDAP permission cache.
 
 Community Edition 7.9.3 and GitLab CI 7.9.3 contain no changes.
 
