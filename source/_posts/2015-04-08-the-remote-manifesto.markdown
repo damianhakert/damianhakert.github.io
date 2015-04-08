@@ -76,4 +76,6 @@ go to a festival together: have fun.
 At GitLab we have a Slack channel `#thanks` for this purpose.
 It always feels good to give and receive a thanks.
 
-Inspired by https://www.pandastrike.com/posts/20150304-agile
+![Thanks Slack channel](/images/thanks.png)
+
+Inspired by [this post on pandastrike.com.](https://www.pandastrike.com/posts/20150304-agile)
