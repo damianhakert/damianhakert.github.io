@@ -632,6 +632,7 @@ article {
 }
 
 .blog-entry p {
+  font-family: 'Noto Serif', serif;
   font-size: 18px;
   color: #444;
   line-height: 2.9rem;
@@ -643,6 +644,7 @@ article {
 }
 
 .blog-entry li {
+  font-family: 'Noto Serif', serif;
   font-size: 18px;
   color: #444;
   /*margin: 0 0 24px;*/
@@ -653,6 +655,7 @@ article {
 }
 
 .blog-entry a {
+  font-family: 'Noto Serif', serif;
   font-size: 18px;
   line-height: 2.9rem;
 }
