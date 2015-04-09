@@ -15,7 +15,7 @@ We think that a solution for storing large files will benefit the entire git eco
 GitLab.com and GitLab Enterprise Edition include support for the open source git-annex [since February](https://about.gitlab.com/2015/02/17/gitlab-annex-solves-the-problem-of-versioning-large-binaries-with-git/).
 GitHub has based their solution on git-media but choose to make it a new format.
 
-We would love to see one standard emerge over time and we're glad to see the git-lts is open source and that they [didn't call it assman](https://github.com/github/git-lfs/commit/10a8eceefdb081edf6114eda6f68c1f4db204a96).
+We would love to see one standard emerge over time and we're glad to see the git-lfs is open source and that they [didn't call it assman](https://github.com/github/git-lfs/commit/10a8eceefdb081edf6114eda6f68c1f4db204a96).
 We hope that from today development happens in the open so that the different large file solutions can grow to a unified solution.
 
 To celibrate todays good news we've permanently raised our storage limit per repo on GitLab.com from 5GB to 10GB (there is no transfer limit).
