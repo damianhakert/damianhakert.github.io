@@ -132,7 +132,7 @@
 #landing h1 {
     font-size: 50px;
     color: white;
-    font-family: 'Korolev-Medium';
+    font-family: 'Korolev-Medium', sans-serif;
     padding-top: 50px;
     padding-bottom: 12px;
 }
@@ -140,7 +140,7 @@
 #landing h3 {
     font-size: 36px;
     color: white;
-    font-family: 'Korolev-Light';
+    font-family: 'Korolev-Light', sans-serif;
 }
 
 .landing-header {
@@ -181,7 +181,7 @@
   font-size: 21px;
   padding: 7px 10px 5px;
   text-shadow: none;
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
 }
 
 .landing-ctas a::before,
@@ -351,7 +351,7 @@
 }
 
 .what-column {
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
   float: left;
   margin-right: 3%;
   width: 30%;
@@ -379,7 +379,7 @@
   }
 
   .what-image h3 {
-    font-family: "Korolev-Medium";
+    font-family: "Korolev-Medium", sans-serif;
     color: #548;
     font-size: 28px;
   }
@@ -390,7 +390,7 @@
 }
 
 .what-content p {
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
   font-size: 18px;
   text-align: left;
 }
@@ -414,7 +414,7 @@
 }
 
   .landing-page-download h1 {
-    font-family: "Korolev-Light";
+    font-family: "Korolev-Light", sans-serif;
   }
 
 .see-further {
@@ -451,7 +451,7 @@
   }
 
 #download-landing {
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
   background: #5D4D93;
   color: white;
   border: 1px solid white;
@@ -495,11 +495,11 @@
   .logos h2 {
     font-size: 36px;
     color: #18191a;
-    font-family: 'Korolev-Light';
+    font-family: 'Korolev-Light', sans-serif;
   }
 
   .logos span {
-    font-family: 'Korolev-Medium';
+    font-family: 'Korolev-Medium', sans-serif;
     color: #a0c720;
   }
 
@@ -523,7 +523,7 @@
 .logo_7c img { margin-top: 42px; opacity: 0.5; }
 
   .logo-disclaimer {
-    font-family: 'Korolev-Light';
+    font-family: 'Korolev-Light', sans-serif;
     margin-top: 40px;
     text-align: center;
   }
@@ -534,7 +534,7 @@
 }
 
   .twitter-head h2 {
-    font-family: 'Korolev-Light';
+    font-family: 'Korolev-Light', sans-serif;
     font-size: 36px;
   }
 
@@ -564,7 +564,7 @@
   }
 
 .videos h1 {
-  font-family: 'Korolev-Light';
+  font-family: 'Korolev-Light', sans-serif;
   font-size: 36px;
 }
 
@@ -584,7 +584,7 @@
   }
 
     .testimonial-container .text-center h2 {
-      font-family: "Korolev-Light";
+      font-family: "Korolev-Light", sans-serif;
       font-size: 36px;
       margin-bottom: 60px;
     }
@@ -620,7 +620,7 @@
           color: white;
           font-size: 17px;
           margin-bottom: 20px;
-          font-family: "Korolev-Light";
+          font-family: "Korolev-Light", sans-serif;
           font-weight: 100;
           line-height: 30px;
           border: 1px solid black;
@@ -678,7 +678,7 @@
               text-decoration: none;
               color: #548;
               font-weight: 600;
-              font-family: "Korolev-Light";
+              font-family: "Korolev-Light", sans-serif;
             }
 
 .testimonial-container hr {
@@ -704,7 +704,7 @@
       font-size: 28px;   
       line-height: 1.4;   
       margin-bottom: 0.8em;
-      font-family: "Korolev-Light";
+      font-family: "Korolev-Light", sans-serif;
     }
 
     .testimonial-news img {
@@ -737,7 +737,7 @@
 .see-more-tuts {
   font-size: 30px;
   margin-top: 16px;
-  font-family: "Korolev-Light";
+  font-family: "Korolev-Light", sans-serif;
 }
 
   .see-more-tuts a {
