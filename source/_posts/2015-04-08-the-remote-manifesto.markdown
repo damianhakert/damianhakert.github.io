@@ -17,7 +17,7 @@ But working remotely and continuous delivery need something more.
 At GitLab we love to work remotely, but that means we need to communicate as
 effectively as possible.
 
-The following are GitLab's seven principles for modern teams working remotely:
+The following are GitLab's eight principles for modern teams working remotely:
 
 ## 1. Work from anywhere you want
 
