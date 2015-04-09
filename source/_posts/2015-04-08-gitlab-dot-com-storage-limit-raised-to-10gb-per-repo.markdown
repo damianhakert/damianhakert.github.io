@@ -8,7 +8,7 @@ author_twitter: sytses
 image_title: '/images/unsplash/milkyway.jpg'
 ---
 
-We want to congratulate GitHub on launching git-lts today, their method for storing large files.
+We want to congratulate GitHub on [launching git-lts today](https://github.com/blog/1986-announcing-git-large-file-storage-lfs), their method for storing large files.
 Their command line client looks easy to use since you can use existing git commands, a very nice innovation.
 
 We think that a solution for storing large files will benefit the entire git ecosystem.
