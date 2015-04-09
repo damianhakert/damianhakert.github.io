@@ -18,7 +18,7 @@ GitHub has based their solution on git-media but choose to make it a new format.
 We would love to see one standard emerge over time and we're glad to see the git-lts is open source and that they [didn't call it assman](https://github.com/github/git-lfs/commit/10a8eceefdb081edf6114eda6f68c1f4db204a96).
 We hope that from today development happens in the open so that the different large file solutions can grow to a unified solution.
 
-To celibrate todays good news we've permanently raised our storage limit per repo on GitLab.com from 5GB to 10GB.
+To celibrate todays good news we've permanently raised our storage limit per repo on GitLab.com from 5GB to 10GB (there is no transfer limit).
 As before, on GitLab.com public and private repositories are unlimited and include as many collaborators as you want.
 
 
