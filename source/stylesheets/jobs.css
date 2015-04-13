@@ -39,9 +39,10 @@ body {
   font-size: 35px;
 }
 
-.vacancy h1 {
+.vacancy h2 {
   font-weight: 600;
   margin-top: 0;
+  font-size: 36px;
 }
 
 .vacancy h1 small {
@@ -52,7 +53,8 @@ body {
 .vacancy {
   color: #555;
   font-size: 1.7rem;
-  margin-bottom: 100px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   background: white;
   padding: 25px;
   box-shadow: 0px 3px 3px #F0F0F0;
