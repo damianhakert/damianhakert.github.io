@@ -2,8 +2,13 @@
     font-family: "Korolev-Medium", sans-serif;
 }
 
-h1 {
+h1, h2 {
   color: #548;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 400;
 }
 
 p {
@@ -23,7 +28,7 @@ h1, h2, h3, h4, h5, button, a {
 }
 
 .image-title {
-  background: url(/images/stock/ci.jpg); 
+  background: url(/images/stock/ci.jpg);
   background-size: 100%;
 }
 
