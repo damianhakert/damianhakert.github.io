@@ -17,48 +17,48 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 <!--more-->
 
-## ***MAIN_CE_FEATURE***
+### ***MAIN_CE_FEATURE***
 
 ***DESCRIPTION***
 
 [![screenshot](/images/X_X/feature.png)](/images/X_X/feature.png) ***X_X is the version of GitLab being released***
 
 
-## ***NEW_CE_FEATURE***
+### ***NEW_CE_FEATURE***
 
 ***DESCRIPTION***
 
 [![screenshot](/images/X_X/feature.png)](/images/X_X/feature.png) ***X_X is the version of GitLab being released***
 
 
-## NEW_CE_FEATURE
+### NEW_CE_FEATURE
 
 ***DESCRIPTION***
 
 [![screenshot](/images/X_X/feature.png)](/images/X_X/feature.png) **+X_X is the version of GitLab being released***
 
-## NEW_SPONSORED_FEATURE
+### NEW_SPONSORED_FEATURE
 
 Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/X-X-stable/CHANGELOG#L18).
 
-## ***MAIN_EE_FEATURE*** (EE only feature)
+### ***MAIN_EE_FEATURE*** (EE only feature)
 
 ***DESCRIPTION***
 
 [![screenshot](/images/X_X/feature.png)](/images/X_X/feature.png) ***X_X is the version of GitLab being released***
 
-## ***EE_FEATURE*** (EE only feature)
+### ***EE_FEATURE*** (EE only feature)
 
 ***DESCRIPTION***
 
 [![screenshot](/images/X_X/feature.png)](/images/X_X/feature.png) ***X_X is the version of GitLab being released***
 
-## Other changes
+### Other changes
 
 This release has more improvements, including security fixes, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
 
-## Upgrade barometer
+### Upgrade barometer
 
 *** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
 *** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
@@ -66,11 +66,11 @@ This release has more improvements, including security fixes, please check out [
 
 - - -
 
-# Installation
+## Installation
 
 If you are setting up a new GitLab installation please see the [installing GitLab page](https://www.gitlab.com/installation/).
 
-# Updating
+## Updating
 
 Upgrade instructions for omnibus-gitlab packages can be found in [the omnibus-gitlab repository](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update.md).
 
@@ -79,7 +79,7 @@ You have to update GitLab Shell to ***X.X.X*** manually, see [point 3 of the upg
 
 If you still want to do it manually - see the [Update Guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/X.x-to-X.x.md).
 
-# Enterprise Edition
+## Enterprise Edition
 
 The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
 For a complete overview please have a look at the [feature list of GitLab EE](http://www.gitlab.com/gitlab-ee/).
