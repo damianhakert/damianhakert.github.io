@@ -1,9 +1,16 @@
 /* Press */
 
 h1 {
+  font-family: "Korolev", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+h2 {
   font-family: "Korolev-Light", sans-serif;
   font-weight: 600;
   margin-bottom: 40px;
+  font-size: 36px;
 }
 
 ul {
@@ -101,7 +108,7 @@ ul {
 
 .network-graph {
    background-image: url(/images/press/screenshots/network_graph_small.png);
-  background-position-y: -4px; 
+  background-position-y: -4px;
 }
 
 .wordmark {
@@ -154,7 +161,7 @@ overflow: hidden;
   transition: 0.2s ease;
 }
 
-  .recent-blog a:nth-child(2):hover { 
+  .recent-blog a:nth-child(2):hover {
     text-decoration: none;
   }
 
@@ -184,7 +191,7 @@ overflow: hidden;
       filter: none;
       filter: none; /* Firefox 4+ */
       filter: none; /* IE 6-9 */
-    }  
+    }
 
 .press-text {
   text-align: left;
