@@ -119,7 +119,12 @@ article {
 }
 
 .blog-entry h2 {
-  font-size: 25px;
+  font-size: 35px;
+}
+
+.blog-entry h3 {
+  font-size: 30px;
+  color: #565656;
 }
 
 .blog-entry p {
