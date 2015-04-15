@@ -6,6 +6,7 @@ comments: true
 categories:
 author: Job van der Voort
 author_twitter: Jobvo
+image_title: '/images/stock/bb.jpg'
 ---
 
 The best thing of an open source project, GitLab in particular, is the community.
@@ -40,21 +41,21 @@ you're definitely not missing out.
 
 Just look at it:
 
-![Nice design of GitLab](design.png)
+![Nice design of GitLab](/images/bb/design.png)
 
 ## Contributor Statistics
 
 The top requested Bitbucket features? We've had it for years:
 
-![Contributor graphs](graphs.png)
-![Commit graphs](graphs2.png)
+![Contributor graphs](/images/bb/graphs.png)
+![Commit graphs](/images/bb/graphs2.png)
 
 ## Group your Repositories
 
 Groups allow you to easily manage multiple repositories between people
 and set permissions, access rights and integrations:
 
-![groups](groups.png)
+![groups](/images/bb/groups.png)
 
 ## Source code Search
 
@@ -63,7 +64,7 @@ Enter anything in the top bar of any project and GitLab will search
 through all the contents of the repository, issues and anything that belongs
 to the project.
 
-![search](search.png)
+![search](/images/bb/search.png)
 
 ## Fine grained permission management
 
@@ -92,11 +93,11 @@ GitLab CI! It integrates fully with GitLab, so you can easily see the
 build status of any branch, commit or merge request and run your
 deployments automatically after!
 
-![GitLab CI integration](ci.png)
+![GitLab CI integration](/images/bb/ci.png)
 
 ## Import from Bitbucket, GitHub, anywhere
 
 Want to start using GitLab? You can easily import your repositories from
 Bitbucket, GitHub, Gitorious or anywhere else, all in batch!
 
-![Import from anywhere](import.png)
+![Import from anywhere](/images/bb/import.png)
