@@ -8,17 +8,16 @@ author_twitter: sytses
 image_title: '/images/unsplash/FILENAME.jpg'
 ---
 
-From January until March 2015 GitLab participated in the winter 2015 batch of Y Combinator.
-We had an awesome time and want to thank the people at Y Combinator, the YC alumni and our fellow batchmates.
-I'll try to explain why YC works so well, I think it is peer pressure.
+From January until March 2015 GitLab participated in the winter 2015 batch of Y Combinator. We had an awesome time and want to thank the people at Y Combinator, the YC alumni and our fellow batch-mates.
+
+This got me thinking about why it works so well. I think it's peer pressure.
 
 <!-- more -->
 
 Many people have posted about what makes YC work. ADD LINKS
 
-Dinners, partners and workshops are great.
-
-But peer pressure makes yc work.
+The dinners, the partners and the workshops at YC are great,
+but what makes companies thrive in YC is peer pressure.
 
 Good founders do things better, you try to pull yourself up to their level.
 
