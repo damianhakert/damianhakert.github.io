@@ -10,7 +10,7 @@ image_title: '/images/stock/bb.jpg'
 ---
 
 The best thing of an open source project, GitLab in particular, is the community.
-Not only does the community provide us with much needed [feedback](feedback.gitlab.com),
+Not only does the community provide us with much needed [feedback](http://feedback.gitlab.com),
 but in our case, they often send us awesome new features themselves that are
 in high demand.
 
