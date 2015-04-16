@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab vs. Bitbucket"
+title: "BitBucket vs. GitLab.com"
 date: 2015-04-15
 comments: true
 categories:
@@ -17,7 +17,7 @@ in high demand.
 This gives us an edge versus Bitbucket, which has a long list of requested
 features, but doesn't seem to be responsive to their users.
 
-To convince some of you to move from Bitbucket to GitLab, we've compiled
+To convince some of you to move from Bitbucket to [GitLab.com](https://about.gitlab.com/gitlab-com/), we've compiled
 a list of our advantages versus them. We'd love to hear what you think in
 the comments.
 
@@ -33,11 +33,12 @@ You want to run your own server with 1000 employees, restricted to your
 environment? Free.
 
 We believe that source code hosting is a commodity and should be available
-to anyone at no cost. If you want support or extra features for larger
-organizations, you can look at our [subscriptions](/pricing). But without those,
-you're definitely not missing out.
+to anyone at no cost.
+Normal support happens via a forum, like Gmail and Facebook.
+If you want email support you can look at our [subscriptions](https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20). But without this,
+you're definitely not missing out since GitLab.com has all the features of [GitLab Enterprise Edition](/features/#enterprise).
 
-## GitLab is well designed
+## GitLab is beautifully designed
 
 Just look at it:
 
@@ -77,19 +78,15 @@ but write access to one in particular? You can!
 Want to have a discussion about what kind of animal the GitLab logo is?
 Now you can!
 
-## Custom Git Hooks
-
-GitLab makes it easy to set up custom git hooks. By adding your hooks to
-the special directory, you're making sure they do not get modified, moved
-or changed between migrations.
+## Git Hooks
 
 In GitLab Enterprise Edition, there is a list of pre-built Git Hooks available
 that you can use by simply selecting them.
 
 ## Comes with a CI!
 
-With every GitLab installation, you get our continous integration tool
-GitLab CI! It integrates fully with GitLab, so you can easily see the
+With every GitLab installation, you get our continuous integration tool
+GitLab CI! GitLab.com users can use it for free on [ci.gitlab.com](https://ci.gitlab.com/). It integrates fully with GitLab, so you can easily see the
 build status of any branch, commit or merge request and run your
 deployments automatically after!
 
