@@ -10,7 +10,7 @@ author_twitter: Jobvo
 
 Did you know GitLab has a [YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg)?
 
-We've just put up some demos that we made earlier for the [webinar](https://about.gitlab.com/2015/04/03/gitlab-wandisco-webinar/) together
+We've just put up some videos that we made earlier for the [webinar](https://about.gitlab.com/2015/04/03/gitlab-wandisco-webinar/) together
 with WANdisco.
 
 In the videos, we cover LDAP management, workflows, permissions and
