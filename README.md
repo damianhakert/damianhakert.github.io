@@ -1,7 +1,6 @@
 # Deploying
 
 It is sufficient to merge or push to master and site will be automatically deployed.
-For more info see [documentation](doc/autodeploy.md)
 
 Manual:
 
@@ -63,7 +62,7 @@ Add the following to the top of a blog post (between the --- markers) and it wil
     image_title: '/images/unspash/hardware.jpg'
 
 # Image Guidelines
-When adding images to the site, please avoid using largely sized images, as they drastically decrease load on the server and make the experience poor for the user. 
+When adding images to the site, please avoid using largely sized images, as they drastically decrease load on the server and make the experience poor for the user.
 Also make sure to compress the images as much as possible (use online resource, Photoshop, however you'd like)
 
 You can find images at unsplash.com and then compress them at tinypng.com.
