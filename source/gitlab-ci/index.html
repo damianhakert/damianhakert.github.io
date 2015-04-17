@@ -89,7 +89,9 @@ extra_js:
           <p>GitLab Runner is an application which processes builds. It can be deployed separately and works with GitLab CI through an API.</p>
           <p>In order to run tests, you need at least 1 <b>GitLab CI</b> instance and 1 <b>GitLab Runner</b>. However, for running several builds at the same time, you may want to set up more than one <b>GitLab Runner</b>.
           Multiple runners will also allow you to run the tests for one commit in parallel so it finishes sooner.
-          Runners can be installed on the same machine as GitLab CI or on other machines; we recommend to install them on other machines.
+          We recommend to not install runners the same instance as GitLab CI so that running rogue code and jobs can't affect the security of GitLab CI itself.
+          GitLab CI can be run on the same instance as GitLab or on a separate instance.
+          GitLab CI it is included in the GitLab Omnibus package but you have to give it its own FQDN (ci.example.com) in order to <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/gitlab-ci/README.md#getting-started">activate it</a>.
           </p>
         </div>
       </div>
