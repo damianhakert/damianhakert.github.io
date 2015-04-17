@@ -54,9 +54,21 @@ The top requested Bitbucket features? We've had it for years:
 ## Group your Repositories
 
 Groups allow you to easily manage multiple repositories between people
-and set permissions, access rights and integrations:
+and set permissions, access rights and integrations.
+
+We noticed that groups (teams) in Bitbucket are not as flexible as
+GitLab in allowing you to organize repositories and strictly limited
+to the amount of collaborators you have on them, making them more a
+way to sell subscriptions than actually used for grouping
+repositories.
 
 ![groups](/images/bb/groups.png)
+
+The nice thing is that now you can also Starred projects in GitLab,
+giving you another way to organize repositories easily, if you have
+many but only want to focus on a handful.
+
+_updated with information from [comments](https://about.gitlab.com/2015/04/15/bitbucket-vs-gitlab-com/#comment-1972206300)_
 
 ## Source code Search
 
