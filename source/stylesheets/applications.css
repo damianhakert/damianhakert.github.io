@@ -18,7 +18,8 @@ h2 {
 }
 
 hr {
-  border-top: 1px solid darkgray;
+  border-top: 1px solid #eee;
+  margin: 50px 0;
 }
 
 .application-container {
