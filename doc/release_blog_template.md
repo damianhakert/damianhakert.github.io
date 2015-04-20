@@ -53,6 +53,31 @@ Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_
 
 [![screenshot](/images/X_X/feature.png)](/images/X_X/feature.png) ***X_X is the version of GitLab being released***
 
+
+## ***MAIN_CI_FEATURE***
+
+***DESCRIPTION***
+
+[![screenshot](/images/X_X/feature.png)](/images/X_X/feature.png) ***X_X is the version of GitLab CI being released***
+
+
+## ***NEW_CI_FEATURE***
+
+***DESCRIPTION***
+
+[![screenshot](/images/X_X/feature.png)](/images/X_X/feature.png) ***X_X is the version of GitLab CI being released***
+
+
+## NEW_CI_FEATURE
+
+***DESCRIPTION***
+
+[![screenshot](/images/X_X/feature.png)](/images/X_X/feature.png) **+X_X is the version of GitLab CI being released***
+
+## NEW_SPONSORED_FEATURE
+
+Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/X-X-stable/CHANGELOG#L18).
+
 ### Other changes
 
 This release has more improvements, including security fixes, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
