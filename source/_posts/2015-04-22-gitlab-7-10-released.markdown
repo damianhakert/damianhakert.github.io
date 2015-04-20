@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "GitLab 7.10 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 7.10 released with Google Code Import and Default Git Hooks"
 date: 2015-04-22
 comments: true
 categories:
-author: ADD_YOUR_FULL_NAME
+author: Job van der Voort
+author_twitter: Jobvo
 ---
 
 GitLab is open source software to collaborate on code.
@@ -17,37 +18,36 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 <!--more-->
 
-## ***MAIN_CE_FEATURE***
+## Google Code Import
 
 ***DESCRIPTION***
 
 [![screenshot](/images/7_10/feature.png)](/images/7_10/feature.png) ***7_10 is the version of GitLab being released***
 
 
-## ***NEW_CE_FEATURE***
-
-***DESCRIPTION***
-
-[![screenshot](/images/7_10/feature.png)](/images/7_10/feature.png) ***7_10 is the version of GitLab being released***
-
-
-## NEW_CE_FEATURE
+## Fork projects with CI
 
 ***DESCRIPTION***
 
 [![screenshot](/images/7_10/feature.png)](/images/7_10/feature.png) **+7_10 is the version of GitLab being released***
 
-## NEW_SPONSORED_FEATURE
+## Invite new people into project by email
 
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-10-stable/CHANGELOG#L18).
+## Configure Reply-to address
 
-## ***MAIN_EE_FEATURE*** (EE only feature)
+Both for Emails On Push and other things.
+
+## Configure Max attachment size
+
+## Quick view Changelog, license and contribution guide links to project tab bar.
+
+## Default Git Hooks (EE only feature)
 
 ***DESCRIPTION***
 
 [![screenshot](/images/7_10/feature.png)](/images/7_10/feature.png) ***7_10 is the version of GitLab being released***
 
-## ***EE_FEATURE*** (EE only feature)
+## UI Improvements (EE only feature)
 
 ***DESCRIPTION***
 
@@ -65,23 +65,23 @@ This release has more improvements, including security fixes, please check out [
 *** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
 
 - Usernames and group and project paths are no longer allowed to end in a
-  period (`.`). 
+  period (`.`).
   As part of the upgrade, these values will automatically be converted to lose
-  the period, e.g. `johnsmith.` will become `johnsmith`. 
+  the period, e.g. `johnsmith.` will become `johnsmith`.
   If this period-less username or path already exists, a counter will be added
-  to the end of the value, e.g. `johnsmith1` or even `johnsmith2`. 
+  to the end of the value, e.g. `johnsmith1` or even `johnsmith2`.
   If your username used to end in a period, you will now need to log in using
-  the new version. 
+  the new version.
   If you used to pull from a project whose path ended in a period, you will
   need to change your git remote to use the new version.
 
 - - -
 
-# Installation
+## Installation
 
 If you are setting up a new GitLab installation please see the [installing GitLab page](https://www.gitlab.com/installation/).
 
-# Updating
+## Updating
 
 Upgrade instructions for omnibus-gitlab packages can be found in [the omnibus-gitlab repository](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update.md).
 
@@ -90,7 +90,7 @@ You have to update GitLab Shell to ***7.10.X*** manually, see [point 3 of the up
 
 If you still want to do it manually - see the [Update Guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/X.x-to-X.x.md).
 
-# Enterprise Edition
+## Enterprise Edition
 
 The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
 For a complete overview please have a look at the [feature list of GitLab EE](http://www.gitlab.com/gitlab-ee/).
@@ -98,5 +98,3 @@ For a complete overview please have a look at the [feature list of GitLab EE](ht
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing/).
 No time to upgrade GitLab yourself?
 A subscription also entitles to our upgrade and installation services.
-
-- - -
