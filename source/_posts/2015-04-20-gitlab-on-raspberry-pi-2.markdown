@@ -5,6 +5,7 @@ date: 2015-04-22
 comments: true
 author: Job van der Voort
 author_twitter: Jobvo
+image_title: '/images/stock/rbp.jpg'
 ---
 
 Want to run GitLab on your Raspberry Pi 2?
