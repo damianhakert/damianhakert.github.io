@@ -13,45 +13,86 @@ Today we announce the release of a new version of GitLab Community Edition (CE) 
 The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
 In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is, again, Stan Hu!
+Stan Hu did a large amount of quality of contributions and it would be unfair
+to reward anyone else but him for his awesome work.
+Thanks Stan Hu!
 
 <!--more-->
 
+## Apt-get install GitLab!
+
+We're very excited to start using our new package server with the release of
+GitLab 7.10. This means that from now on, you can install GitLab with the
+magically simply command `sudo apt-get install gitlab-ce`!
+
+The package server is currently in beta, meaning you can use it, but there
+might still be some things to iron out. For this reason it is currently
+only available for GitLab CE.
+
+To install GitLab using our package server, all you need is the following
+commands (depending on your OS):
+
+```
+curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb | sudo bash
+sudo apt-get install gitlab-ce
+```
+
+```
+curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm | sudo bash
+sudo yum install gitlab-ce
+```
+
+You can view the packages [here](https://packages.gitlab.com/gitlab/gitlab-ce/install).
+
 ## Google Code Import
 
-***DESCRIPTION***
+Quickly import your Google Code projects? It's easy now with our
+new Google Code Import tool:
 
-[![screenshot](/images/7_10/feature.png)](/images/7_10/feature.png) ***7_10 is the version of GitLab being released***
-
+[![Google Code Import](/images/7_10/google_code.png)](/images/7_10/google_code.png)
 
 ## Fork projects with CI
 
-***DESCRIPTION***
+If you fork a project in GitLab that has GitLab CI setup,
+you forked project will now also be served by CI with the same settings!
 
-[![screenshot](/images/7_10/feature.png)](/images/7_10/feature.png) **+7_10 is the version of GitLab being released***
+That makes working with CI much easier and convenient for those of you that
+work with forks.
+
+Of course, we made sure this won't be possible if it infringes on permissions
+you've set, so make sure to check the [documenation](http://doc.gitlab.com/ci/).
 
 ## Invite new people into project by email
 
-## Configure Reply-to address
+Starting an amazing new project, but your co-conspirors don't have an account
+on your GitLab instance yet? No problem! You can now simply invite people
+by email, whether they have an account on the instance or not:
 
-Both for Emails On Push and other things.
+[![Invite new people by Email](/images/7_10/invite_by_email.png)](/images/7_10/invite_by_email.png)
 
-## Configure Max attachment size
+## Quick view Changelog, License and Contribution guide
 
-## Quick view Changelog, license and contribution guide links to project tab bar.
+Besides the Activity view, GitLab now also automatically generates quick-links
+to the Changelog, License and Contribution guide of a repository.
+
+[![Quick Links](/images/7_10/quick_links.png)](/images/7_10/quick_links.png)
 
 ## Default Git Hooks (EE only feature)
 
-***DESCRIPTION***
+If you regularly use the same Git Hooks, you can now pre-define them for all
+projects, as an admin.
 
-[![screenshot](/images/7_10/feature.png)](/images/7_10/feature.png) ***7_10 is the version of GitLab being released***
+[![Default Git hooks](/images/7_10/default_git_hooks.png)](/images/7_10/default_git_hooks.png)
 
-## UI Improvements (EE only feature)
+For instance, banish any commit containing nothing but `wip`!
 
-***DESCRIPTION***
+## Audit log for Deploy keys (EE only feature)
 
-[![screenshot](/images/7_10/feature.png)](/images/7_10/feature.png) ***7_10 is the version of GitLab being released***
+A nice addition to our audit logging: Any changes to deploy keys are now also
+logged in the audit log. Make sure you know who can read your code.
+
+[![Audit log Deploy keys](/images/7_10/deploy_key_log.png)](/images/7_10/deploy_key_log.png)
 
 ## Other changes
 
