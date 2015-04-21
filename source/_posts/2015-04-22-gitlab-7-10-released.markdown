@@ -8,14 +8,22 @@ author: Job van der Voort
 author_twitter: Jobvo
 ---
 
-GitLab is open source software to collaborate on code.
-Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
-The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
-In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
+Everyone has been working really hard to bring GitLab 7.10 to you today!
+This is the first release since GitLab graduated from [Y Combinator](https://about.gitlab.com/2015/03/04/gitlab-is-part-of-the-y-combinator-family/).
+With new-found energy and our ever productive community this is most definitely
+the best release of GitLab Community Edition and Enterprise Edition so far.
+
+Besides bug fixes and performance improvements, you can now import your code
+from Google Code, quickly invite your colleagues and friends to GitLab
+and set default Git Hooks for everyone.
+
+On top of that, this release marks the start of our package server! This means
+you can install GitLab _right now_ with `apt-get` and `yum`. More about that,
+below.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is, again, Stan Hu!
-Stan Hu did a large amount of quality of contributions and it would be unfair
-to reward anyone else but him for his awesome work.
+Stan Hu did a big deal of quality of contributions and we're happy to
+award him once again.
 Thanks Stan Hu!
 
 <!--more-->
