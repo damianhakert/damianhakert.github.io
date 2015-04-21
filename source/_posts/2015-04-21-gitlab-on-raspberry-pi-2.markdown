@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitLab on Raspberry Pi 2!"
-date: 2015-04-22
+date: 2015-04-21
 comments: true
 author: Job van der Voort
 author_twitter: Jobvo
