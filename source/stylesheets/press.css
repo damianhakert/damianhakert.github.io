@@ -1,9 +1,16 @@
 /* Press */
 
 h1 {
-  font-family: "Korolev-Light";
+  font-family: "Korolev", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: "Korolev-Light", sans-serif;
   font-weight: 600;
   margin-bottom: 40px;
+  font-size: 36px;
 }
 
 ul {
@@ -12,7 +19,7 @@ ul {
 
 .press-content span {
   font-size: 17px;
-  font-family: "Korolev-Light";
+  font-family: "Korolev-Light", sans-serif;
 }
 
 .press-container {
@@ -38,12 +45,12 @@ ul {
 
   .press-content h3 {
     font-size: 17px;
-    font-family: "Korolev-Light";
+    font-family: "Korolev-Light", sans-serif;
   }
 
   .press-content span {
     font-size: 17px;
-    font-family: "Korolev-Medium";
+    font-family: "Korolev-Medium", sans-serif;
   }
 
 .press-company {
@@ -101,7 +108,7 @@ ul {
 
 .network-graph {
    background-image: url(/images/press/screenshots/network_graph_small.png);
-  background-position-y: -4px; 
+  background-position-y: -4px;
 }
 
 .wordmark {
@@ -126,7 +133,7 @@ overflow: hidden;
 }
 
 .fa span {
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
 }
 
 .blog_twitter_row {
@@ -135,7 +142,7 @@ overflow: hidden;
 
 .recent-blog p {
   font-size: 20px;
-  font-family: "Korolev-Light";
+  font-family: "Korolev-Light", sans-serif;
 }
 
 .recent-blog a:first-child {
@@ -154,7 +161,7 @@ overflow: hidden;
   transition: 0.2s ease;
 }
 
-  .recent-blog a:nth-child(2):hover { 
+  .recent-blog a:nth-child(2):hover {
     text-decoration: none;
   }
 
@@ -162,7 +169,7 @@ overflow: hidden;
   display: inline-block;
   width: 30%;
   padding-right: 40px;
-  font-family: "Korolev-Light";
+  font-family: "Korolev-Light", sans-serif;
 }
 
   .press-image img {
@@ -184,7 +191,7 @@ overflow: hidden;
       filter: none;
       filter: none; /* Firefox 4+ */
       filter: none; /* IE 6-9 */
-    }  
+    }
 
 .press-text {
   text-align: left;
@@ -196,7 +203,7 @@ overflow: hidden;
 
 .article-title {
   color: black;
-  font-family: "Korolev-Light";
+  font-family: "Korolev-Light", sans-serif;
   font-size: 18px;
 }
 
@@ -206,7 +213,7 @@ overflow: hidden;
 
 .image-container .text span {
   font-size: 19px;
-  font-family: "Korolev-Light";
+  font-family: "Korolev-Light", sans-serif;
 }
 
 .image-container .text p {

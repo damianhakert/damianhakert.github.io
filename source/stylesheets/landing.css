@@ -44,7 +44,7 @@
     #landing {
         min-height: 0;
         height: 82%;
-        background-size: cover;        
+        background-size: cover;
     }
 
     #landing h1 {
@@ -84,7 +84,7 @@
     #landing {
         min-height: 0;
         height: 82%;
-        background-size: cover;        
+        background-size: cover;
     }
 
     #landing h1 {
@@ -132,7 +132,7 @@
 #landing h1 {
     font-size: 50px;
     color: white;
-    font-family: 'Korolev-Medium';
+    font-family: 'Korolev-Medium', sans-serif;
     padding-top: 50px;
     padding-bottom: 12px;
 }
@@ -140,7 +140,7 @@
 #landing h3 {
     font-size: 36px;
     color: white;
-    font-family: 'Korolev-Light';
+    font-family: 'Korolev-Light', sans-serif;
 }
 
 .landing-header {
@@ -181,7 +181,7 @@
   font-size: 21px;
   padding: 7px 10px 5px;
   text-shadow: none;
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
 }
 
 .landing-ctas a::before,
@@ -276,12 +276,12 @@
         display: block;
       }
 
-      .header-feature li i { 
+      .header-feature li i {
         color: white;
         font-size: 4em;
       }
 
-    .header-feature li .clickable .select-area {    
+    .header-feature li .clickable .select-area {
       position: absolute;
       width: 18%;
       height: 37%;
@@ -351,7 +351,7 @@
 }
 
 .what-column {
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
   float: left;
   margin-right: 3%;
   width: 30%;
@@ -379,7 +379,7 @@
   }
 
   .what-image h3 {
-    font-family: "Korolev-Medium";
+    font-family: "Korolev-Medium", sans-serif;
     color: #548;
     font-size: 28px;
   }
@@ -390,7 +390,7 @@
 }
 
 .what-content p {
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
   font-size: 18px;
   text-align: left;
 }
@@ -414,7 +414,7 @@
 }
 
   .landing-page-download h1 {
-    font-family: "Korolev-Light";
+    font-family: "Korolev-Light", sans-serif;
   }
 
 .see-further {
@@ -431,6 +431,8 @@
 
 .gitlab-comparison {
   margin-top: 34px;
+  border: none !important;
+
 
 }
   .comparison {
@@ -451,7 +453,7 @@
   }
 
 #download-landing {
-  font-family: "Korolev-Medium";
+  font-family: "Korolev-Medium", sans-serif;
   background: #5D4D93;
   color: white;
   border: 1px solid white;
@@ -495,11 +497,11 @@
   .logos h2 {
     font-size: 36px;
     color: #18191a;
-    font-family: 'Korolev-Light';
+    font-family: 'Korolev-Light', sans-serif;
   }
 
   .logos span {
-    font-family: 'Korolev-Medium';
+    font-family: 'Korolev-Medium', sans-serif;
     color: #a0c720;
   }
 
@@ -523,7 +525,7 @@
 .logo_7c img { margin-top: 42px; opacity: 0.5; }
 
   .logo-disclaimer {
-    font-family: 'Korolev-Light';
+    font-family: 'Korolev-Light', sans-serif;
     margin-top: 40px;
     text-align: center;
   }
@@ -534,7 +536,7 @@
 }
 
   .twitter-head h2 {
-    font-family: 'Korolev-Light';
+    font-family: 'Korolev-Light', sans-serif;
     font-size: 36px;
   }
 
@@ -564,7 +566,7 @@
   }
 
 .videos h1 {
-  font-family: 'Korolev-Light';
+  font-family: 'Korolev-Light', sans-serif;
   font-size: 36px;
 }
 
@@ -584,7 +586,7 @@
   }
 
     .testimonial-container .text-center h2 {
-      font-family: "Korolev-Light";
+      font-family: "Korolev-Light", sans-serif;
       font-size: 36px;
       margin-bottom: 60px;
     }
@@ -620,7 +622,7 @@
           color: white;
           font-size: 17px;
           margin-bottom: 20px;
-          font-family: "Korolev-Light";
+          font-family: "Korolev-Light", sans-serif;
           font-weight: 100;
           line-height: 30px;
           border: 1px solid black;
@@ -678,12 +680,12 @@
               text-decoration: none;
               color: #548;
               font-weight: 600;
-              font-family: "Korolev-Light";
+              font-family: "Korolev-Light", sans-serif;
             }
 
 .testimonial-container hr {
-    margin: 0em auto;   
-    border: solid;   
+    margin: 0em auto;
+    border: solid;
     border-width: 1px 0 0 0;
     color: rgba(0,0,0,0.095);
     width: 77%;
@@ -697,14 +699,14 @@
   .testimonial-news {
     width: 85.66%;
     margin-left: 5.66%;
-    text-align: center;   
+    text-align: center;
   }
 
     .testimonial-news h2 {
-      font-size: 28px;   
-      line-height: 1.4;   
+      font-size: 28px;
+      line-height: 1.4;
       margin-bottom: 0.8em;
-      font-family: "Korolev-Light";
+      font-family: "Korolev-Light", sans-serif;
     }
 
     .testimonial-news img {
@@ -737,13 +739,17 @@
 .see-more-tuts {
   font-size: 30px;
   margin-top: 16px;
-  font-family: "Korolev-Light";
+  font-family: "Korolev-Light", sans-serif;
 }
 
   .see-more-tuts a {
     color: whitesmoke;
     text-decoration: underline;
   }
+
+a.col-link:hover {
+  text-decoration: none;
+}
 
 /* animations! */
 .come-in {
@@ -764,10 +770,10 @@
 }
 
 @-webkit-keyframes come-in {
-  to {  -webkit-transform: translateY(0);    
+  to {  -webkit-transform: translateY(0);
   }
 }
 @-moz-keyframes come-in {
-  to {  -moz-transform: translateY(0);    
+  to {  -moz-transform: translateY(0);
   }
 }

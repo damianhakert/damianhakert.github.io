@@ -23,20 +23,20 @@ GitLab 7.9.1 CE fixes:
 
 Enterprise Edition 7.9.1 contains the fixes from Community Edition.
 
-# 7.9.1 GitLab CI security release
+## 7.9.1 GitLab CI security release
 
 In GitLab CI versions pre 7.9.1 it was possible, in certain cases, for specific runner to start behaving like a shared runner.
 This is a security concern so we strongly advise upgrading to 7.9.1.
 
 <!-- more -->
 
-## Upgrade barometer
+### Upgrade barometer
 
 Upgrading GitLab CI from 7.9.0 to 7.9.1 requires downtime as this release contains database migrations which are changing existing records.
 
 Upgrading from GitLab 7.9.0 requires no downtime as this release contains no migrations.
 
-## Upgrading
+### Upgrading
 
 Omnibus-gitlab packages for GitLab 7.9.1 are [now available](https://about.gitlab.com/downloads/).
 
@@ -46,7 +46,7 @@ guide](http://doc.gitlab.com/ce/update/patch_versions.html).
 
 To upgrade a GitLab CI installation from source, please use the [upgrade guide](https://gitlab.com/gitlab-org/gitlab-ci/blob/master/doc/update/patch_versions.md).
 
-## Enterprise Edition
+### Enterprise Edition
 
 Omnibus packages for GitLab Enterprise Edition 7.9.1 are available for subscribers [here](https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/install/packages.md). For installations from source, use [this guide](https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/update/patch_versions.md).
 

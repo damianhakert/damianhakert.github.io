@@ -35,7 +35,7 @@ a:hover {
 
 .title {
   font-size: 24px;
-  font-family: "Korolev-Light";
+  font-family: "Korolev-Light", sans-serif;
   color: #D9CCFF;
 }
 
@@ -53,6 +53,10 @@ a:hover {
   color: white;
   text-decoration: underline;
   padding-top: 4px;
+}
+
+p.answer {
+  text-decoration: none;
 }
 
 .row div:nth-child(2) h5:nth-child(5){
