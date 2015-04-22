@@ -60,6 +60,26 @@ You can view the packages [here](https://packages.gitlab.com/gitlab/gitlab-ce/in
 
 If you have any problems with the package server, please report them [here](https://gitlab.com/gitlab-org/gitlab-ce/issues/1475).
 
+<h3 id="rc-package-info">Update on package server issue</h3>
+
+Due to a problem with the package server, the release candidate was seen
+as newer than the 7.10 stable release and got installed on some machines instead.
+
+If your instance is running the release candidate, rather than the stable version,
+you will need to bypass the version check and explicitly install the new GitLab
+version. Use the commands below:
+
+```
+sudo apt-get install gitlab-ce=7.10.0~omnibus-1
+```
+
+or
+
+```
+sudo yum install gitlab-ce-7.10.0~omnibus-1.x86_64
+```
+
+
 ## Google Code Import
 
 Quickly import your Google Code projects? It's easy now with our
