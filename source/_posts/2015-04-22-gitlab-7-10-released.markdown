@@ -60,6 +60,27 @@ You can view the packages [here](https://packages.gitlab.com/gitlab/gitlab-ce/in
 
 If you have any problems with the package server, please report them [here](https://gitlab.com/gitlab-org/gitlab-ce/issues/1475).
 
+<h3 id="rc-package-info"> Release Candidate caveat </h3>
+
+We are aware that some people in the community already started using the package server to install the 7.10 release candidates.
+Due to the complexity of version strings containing the `rc` nomenclature, APT and YUM see the release candidate packages as being newer
+than the stable release package. In order to avoid people downloading the `rc` packages instead of the stable packages,
+we have yanked all release candidate packages from the package server.
+ 
+If you already installed one of the 7.10 release candidates, using `apt-get upgrade` or `yum upgrade` will still think that
+the `rc` package is newer. In order to bypass this, you need to upgrade using the following commands:
+
+```
+sudo apt-get install gitlab-ce=7.10.0~omnibus-1
+```
+
+or
+
+```
+sudo yum install gitlab-ce-7.10.0~omnibus-1.x86_64
+```
+
+
 ## Google Code Import
 
 Quickly import your Google Code projects? It's easy now with our
