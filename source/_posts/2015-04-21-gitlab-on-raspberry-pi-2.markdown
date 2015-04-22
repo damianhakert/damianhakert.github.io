@@ -9,9 +9,11 @@ image_title: '/images/stock/rbp.jpg'
 ---
 
 Want to run GitLab on your Raspberry Pi 2?
-Now you can!
+Now you can do so much easier!
 
-We have released the [official Raspberry Pi 2 Omnibus package](/installation/#other-methods)
+Previously you had to install GitLab from source yourself.
+
+But we have just released the [official Raspberry Pi 2 Omnibus package](/installation/#other-methods)
 that you can use to install GitLab quickly on your new small-but-powerful
 repository server!
 
