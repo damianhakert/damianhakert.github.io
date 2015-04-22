@@ -117,6 +117,7 @@ This release has more improvements, including security fixes, please check out [
 ## Upgrade barometer
 
 Coming from GitLab 7.9.4, the migrations run very fast.
+The migrations include SQL 'UPDATE' statements so you should take your GitLab service offline during the upgrade.
 As always, make sure to backup your instance before running upgrades.
 - - -
 
