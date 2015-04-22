@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab 7.10 released with Google Code Import and Default Git Hooks"
+title: "GitLab 7.10 released with Google Code Import, Default Git Hooks and a package server!"
 date: 2015-04-22
 comments: true
 categories:
@@ -11,7 +11,8 @@ author_twitter: Jobvo
 Everyone has been working really hard to bring GitLab 7.10 to you today!
 This is the first release since GitLab graduated from [Y Combinator](https://about.gitlab.com/2015/03/04/gitlab-is-part-of-the-y-combinator-family/).
 With new-found energy and our ever productive community this is most definitely
-the best release of GitLab Community Edition and Enterprise Edition so far.
+the best release of GitLab Community Edition and Enterprise Edition so far
+(over 90 changelog entries vs. slightly over 80 with GitLab 7.9)!
 
 Besides bug fixes and performance improvements, you can now import your code
 from Google Code, quickly invite your colleagues and friends to GitLab
@@ -21,37 +22,42 @@ On top of that, this release marks the start of our package server! This means
 you can install GitLab _right now_ with `apt-get` and `yum`. More about that,
 below.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is, again, Stan Hu!
-Stan Hu did a big deal of quality of contributions and we're happy to
-award him once again.
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is,
+just like last month, Stan Hu!
+Stan Hu squashed a number of bugs in the wiki, cross references and more, and
+added new configuration options. We're happy to award him MVP for that again
+this month.
 Thanks Stan Hu!
 
 <!--more-->
 
-## Apt-get install GitLab!
+## Apt-get install GitLab
 
 We're very excited to start using our new package server with the release of
-GitLab 7.10. This means that from now on, you can install GitLab with the
-magically simply command `sudo apt-get install gitlab-ce`!
+GitLab 7.10, powered by the awesome [packagecloud.io](https://packagecloud.io) software.
+This means that from now on, you can install GitLab with the
+magically simple command `sudo apt-get install gitlab-ce`!
 
-The package server is currently in beta, meaning you can use it, but there
-might still be some things to iron out. For this reason it is currently
-only available for GitLab CE.
+The package server is currently only available for GitLab CE.
 
 To install GitLab using our package server, all you need is the following
 commands (depending on your OS):
 
+Ubuntu / Debian:
 ```
 curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb | sudo bash
 sudo apt-get install gitlab-ce
 ```
 
+CentOS:
 ```
 curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm | sudo bash
 sudo yum install gitlab-ce
 ```
 
 You can view the packages [here](https://packages.gitlab.com/gitlab/gitlab-ce/install).
+
+If you have any problems with the package server, please report them [here](https://gitlab.com/gitlab-org/gitlab-ce/issues/1475).
 
 ## Google Code Import
 
@@ -109,10 +115,8 @@ This release has more improvements, including security fixes, please check out [
 
 ## Upgrade barometer
 
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
-*** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
-
+Coming from GitLab 7.9.4, the migrations run very fast.
+As always, make sure to backup your instance before running upgrades.
 - - -
 
 ## Installation
@@ -124,9 +128,9 @@ If you are setting up a new GitLab installation please see the [installing GitLa
 Upgrade instructions for omnibus-gitlab packages can be found in [the omnibus-gitlab repository](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update.md).
 
 If you installed GitLab from source and you have version 6.4.2 or higher you can use the [upgrade script](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/upgrader.md).
-You have to update GitLab Shell to ***7.10.X*** manually, see [point 3 of the upgrade guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/X.x-to-x.x.md#3-update-gitlab-shell-and-its-config).
+You have to update GitLab Shell to ***2.6.2*** manually, see [point 3 of the upgrade guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/7.9-to-7.10.md#3-update-gitlab-shell-and-its-config).
 
-If you still want to do it manually - see the [Update Guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/X.x-to-X.x.md).
+If you still want to do it manually - see the [Update Guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/7.9-to-7.10.md).
 
 ## Enterprise Edition
 
