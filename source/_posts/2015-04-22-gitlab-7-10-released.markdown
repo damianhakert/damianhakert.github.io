@@ -60,15 +60,14 @@ You can view the packages [here](https://packages.gitlab.com/gitlab/gitlab-ce/in
 
 If you have any problems with the package server, please report them [here](https://gitlab.com/gitlab-org/gitlab-ce/issues/1475).
 
-<h3 id="rc-package-info"> Release Candidate caveat </h3>
+<h3 id="rc-package-info">Update on package server issue</h3>
 
-We are aware that some people in the community already started using the package server to install the 7.10 release candidates.
-Due to the complexity of version strings containing the `rc` nomenclature, APT and YUM see the release candidate packages as being newer
-than the stable release package. In order to avoid people downloading the `rc` packages instead of the stable packages,
-we have yanked all release candidate packages from the package server.
- 
-If you already installed one of the 7.10 release candidates, using `apt-get upgrade` or `yum upgrade` will still think that
-the `rc` package is newer. In order to bypass this, you need to upgrade using the following commands:
+Due to a problem with the package server, the release candidate was seen
+as newer than the 7.10 stable release and got installed on some machines instead.
+
+If your instance is running the release candidate, rather than the stable version,
+you will need to bypass the version check and explicitly install the new GitLab
+version. Use the commands below:
 
 ```
 sudo apt-get install gitlab-ce=7.10.0~omnibus-1
@@ -153,7 +152,7 @@ Upgrade instructions for omnibus-gitlab packages can be found in [the omnibus-gi
 If you installed GitLab from source and you have version 6.4.2 or higher you can use the [upgrade script](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/upgrader.md).
 You have to update GitLab Shell to ***2.6.2*** manually, see [point 3 of the upgrade guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/7.9-to-7.10.md#3-update-gitlab-shell-and-its-config).
 
-If you still want to do it manually - see the [Update Guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/7.9-to-7.10.md).
+If you still want to do it manually - see the [Update Guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/6.x-or-7.x-to-7.10.md).
 
 ## Enterprise Edition
 
