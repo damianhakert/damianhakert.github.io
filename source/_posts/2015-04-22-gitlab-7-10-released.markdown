@@ -6,6 +6,7 @@ comments: true
 categories:
 author: Job van der Voort
 author_twitter: Jobvo
+image_title: /images/7_10/sf.jpeg
 ---
 
 Everyone has been working really hard to bring GitLab 7.10 to you today!
