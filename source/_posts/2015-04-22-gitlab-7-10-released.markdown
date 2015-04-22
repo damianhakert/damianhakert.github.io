@@ -62,6 +62,8 @@ If you have any problems with the package server, please report them [here](http
 
 <h3 id="rc-package-info">Update on package server issue</h3>
 
+The problem below only occurred with apt-get installations before 7pm UTC on April 22, 2015.
+
 Due to a problem with the package server, the release candidate was seen
 as newer than the 7.10 stable release and got installed on some machines instead.
 
