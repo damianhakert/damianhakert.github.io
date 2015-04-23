@@ -65,6 +65,8 @@ sudo yum install gitlab-ce
 
 You can view the packages [here](https://packages.gitlab.com/gitlab/gitlab-ce/install).
 
+The package server install scripts sends back the hostname of your server, this is default packagecloud.io behaviour.
+
 If you have any problems with the package server, please report them [here](https://gitlab.com/gitlab-org/gitlab-ce/issues/1475).
 
 <h3 id="rc-package-info">Update on package server issue</h3>
