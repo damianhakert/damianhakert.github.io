@@ -40,7 +40,8 @@ a:hover {
 }
 
 .view-docs {
-  font-size: 20px;color: white;text-decoration: underline;
+  color: white;
+  text-decoration: underline;
 }
 
 .question {
