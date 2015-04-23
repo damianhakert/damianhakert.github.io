@@ -56,12 +56,12 @@ curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rp
 sudo yum install gitlab-ce
 ```
 
-<div id="package-name">
+<p id="package-name">
   Starting with GitLab 7.10, the packages are called `gitlab-ce` (GitLab Community Edition)
   and `gitlab-ee` (GitLab Enterprise Edition).
   Either of these packages will automatically replace the `gitlab` package
   used for GitLab 7.9 and earlier.
-</div>
+</p>
 
 You can view the packages [here](https://packages.gitlab.com/gitlab/gitlab-ce/install).
 
