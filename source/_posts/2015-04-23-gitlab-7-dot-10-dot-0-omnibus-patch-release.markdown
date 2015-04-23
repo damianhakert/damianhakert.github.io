@@ -34,7 +34,7 @@ sudo chmod 644 /opt/gitlab/embedded/ssl/certs/cacert.pem
 sudo gitlab-ctl restart
 ```
 
-## RPM upgrade issues
+## <a id="rpm-upgrade-issues"></a> RPM upgrade issues
 
 Motivated by our move to distributing GitLab Omnibus packages via
 [packages.gitlab.com/gitlab](https://packages.gitlab.com/gitlab) we have
