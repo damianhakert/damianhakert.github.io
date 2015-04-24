@@ -777,3 +777,12 @@ a.col-link:hover {
   to {  -moz-transform: translateY(0);
   }
 }
+
+a.underlined {
+  text-decoration: underline !important;
+  transition: all 0.2s;
+}
+
+a.underlined:hover {
+  color: rgb(255, 201, 30) !important;
+}
