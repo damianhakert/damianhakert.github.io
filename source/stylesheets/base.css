@@ -976,3 +976,21 @@ a:hover > .link-box {
   background-color: #548;
   border-color: #548;
 }
+
+.source-link {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  background: #60508E;
+  padding: 8px 0;
+}
+
+.source-link a {
+  color: rgb(147, 190, 255);
+  text-decoration: underline;
+  transition: all 0.2s;
+}
+
+.source-link a:hover {
+  color: rgb(255, 201, 30);
+}
