@@ -52,6 +52,9 @@ sudo apt-get install gitlab-ce
 ```
 
 CentOS:
+
+If you already have an existing Omnibus package installed please see our [instructions for restoring the bin links](https://about.gitlab.com/2015/04/23/gitlab-7-dot-10-dot-0-omnibus-patch-release/#rpm-upgrade-issues) after running the command below.
+
 ```
 curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm | sudo bash
 sudo yum install gitlab-ce
