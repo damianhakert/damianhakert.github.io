@@ -20,7 +20,7 @@ GitLab CE and EE.
 ## Upgrade barometer
 
 There is a small migration in the patch that'll only take a few milliseconds to run.
-This patch can be performed online.
+This patch can be performed online if you're coming from 7.10.
 
 ## Upgrading
 
