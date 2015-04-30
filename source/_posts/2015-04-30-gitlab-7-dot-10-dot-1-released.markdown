@@ -24,11 +24,11 @@ This patch can be performed online.
 
 ## Upgrading
 
-See our [upgrade page](https://about.gitlab.com/update/)
+See our [upgrade page](https://about.gitlab.com/update/).
 
 ## Enterprise Edition
 
-Omnibus packages for GitLab Enterprise Edition X.X.X are available for subscribers [here](https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/install/packages.md). For installations from source, use [this guide](https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/update/patch_versions.md).
+Omnibus packages for GitLab Enterprise Edition 7.10.1 are available for subscribers [here](https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/install/packages.md). For installations from source, use [this guide](https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/update/patch_versions.md).
 
 Interested in GitLab Enterprise Edition?
 For an overview of feature exclusive to GitLab Enterprise Edition please have a look at the [features exclusive to GitLab EE](http://about.gitlab.com/features/#enterprise).
