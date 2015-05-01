@@ -31,6 +31,14 @@ platforms:
   dependency_commands: |
                     sudo apt-get install openssh-server
                     sudo apt-get install postfix
+- name: debian8
+  long_name: Debian 8
+  download_command: wget https://downloads-packages.s3.amazonaws.com/debian-8.0/gitlab-ce_7.10.1~omnibus.1-1_amd64.deb
+  install_commands: |
+                    sudo dpkg -i gitlab-ce_7.10.1~omnibus.1-1_amd64.deb
+  dependency_commands: |
+                      sudo apt-get install openssh-server
+                      sudo apt-get install postfix
 - name: centos6
   long_name: CentOS 6 (and RedHat/Oracle/Scientific Linux 6)
   download_command: curl -O https://downloads-packages.s3.amazonaws.com/centos-6.6/gitlab-ce-7.10.1~omnibus-1.x86_64.rpm
