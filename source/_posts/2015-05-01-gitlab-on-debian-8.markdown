@@ -18,6 +18,6 @@ And don't forget that we're running our package server in beta with the help
 of [Packagecloud.io](https://www.packagecloud.io). You can install GitLab Community Edition with:
 
 ```
-curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm | sudo bash
+curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb | sudo bash
 sudo yum install gitlab-ce
 ```
