@@ -19,5 +19,5 @@ of [Packagecloud.io](https://www.packagecloud.io). You can install GitLab Commun
 
 ```
 curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb | sudo bash
-sudo yum install gitlab-ce
+sudo apt-get install gitlab-ce
 ```
