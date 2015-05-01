@@ -30,12 +30,9 @@ If you cannot upgrade right away and you experienced duplicated settings in conf
 this problem:
 
 ```bash
-  sudo mv /opt/gitlab/embedded/nodes/HOSTNAME.json /opt/gitlab/embedded/nodes/HOSTNAME.json.bak
+  sudo rm -rf /opt/gitlab/embedded/nodes
   sudo gitlab-ctl reconfigure
 ```
-
-where `HOSTNAME` is the hostname of the server where GitLab is hosted.
-
 
 ## Updates
 
