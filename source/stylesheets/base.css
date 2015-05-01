@@ -706,7 +706,6 @@ article {
 /* Footer
 -------------------------------------------------- */
 #footer {
-  padding: 20px 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   background: #463675;
 }
@@ -993,4 +992,18 @@ a:hover > .link-box {
 
 .source-link a:hover {
   color: rgb(255, 201, 30);
+}
+
+.social-media-buttons-footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.social-media-buttons-footer a {
+  margin: 0 11px;
+}
+
+.social-media-buttons-footer i.fa:hover {
+  color: #FFB440;
 }
