@@ -1,0 +1,36 @@
+---
+layout: default
+title: Security
+---
+<div id="content">
+  <div class="container txt-lefty">
+    <div class="row">
+      <div class="col-sm-8 col-md-8 col-sm-offset-2 col-md-offset-2">
+        <h3>Upgrading from a source installation to Omnibus</h3>
+            <p>
+                If you are using an old source installation of GitLab CE, you can follow this migration path to bring your installation up-to-date:
+
+                <ol type="1">
+                    <li> Upgrade your source installation up to at least version 6.6.
+                        Please consider reaching out to us for <a href ="https://about.gitlab.com/consultancy/#consultancy-form"> assistance</a>;</li>
+                    <li> On a fresh server, install the Omnibus package with the same version (including the minor and patch version) of your now-upgraded source installation;
+                    <li> Backup the source installation using the <a href="http://doc.gitlab.com/ce/raketasks/backup_restore.html"> backup/restore raketask </a>; </li>
+                    <li> Restore the backup on the new Omnibus installation;</li>
+                    <li> If needed, upgrade the Omnibus installation to the latest version. </li>
+                </ol>
+            </p>
+
+        <h3>Migrating from SVN to GitLab</h3>
+            <p>
+                Migrating from SVN to GitLab also involves moving to another workflow, the git flow.
+                    <ol type="1">
+                        <li> Free resources for learning the new workflow include the <a href="https://about.gitlab.com/2014/09/29/gitlab-flow/">GitLab flow</a> and the <a href = "https://courses.platzi.com/courses/git-gitlab/">Platzi online tutorial</a>;</li>
+                        <li> Install and setup GitLab using the Omnibus package;</li>
+                        <li> Follow the instructions for migrating repositories from <a href ="http://doc.gitlab.com/ce/workflow/migrating_from_svn.html">SVN to GitLab </a>.</li> 
+                    </ol>
+                </p>
+
+      </div>
+    </div>
+  </div>
+</div>
