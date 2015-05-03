@@ -7,7 +7,7 @@ author: Kamil Trzciński
 author_twitter: ayufanpl
 ---
 
-[GitLab CI Multi-purpose Runner](https://github.com/ayufan/gitlab-ci-multi-runner) is yet another CI runner, but this time written in Go with a vast number of features that leverage all the latest technologies. It's an unofficial project made by me, Kamil Trzciński, with love for GitLab CI to help aid some problems with current runner and make the use of CI really simple and secure.
+[GitLab CI Multi-purpose Runner](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner) is yet another CI runner, but this time written in Go with a vast number of features that leverage all the latest technologies. It's an unofficial project made by me, Kamil Trzciński, with love for GitLab CI to help aid some problems with current runner and make the use of CI really simple and secure.
 
 <!-- more -->
 
@@ -29,16 +29,16 @@ The Gitlab-CI Multi-purpose Runner is one binary that you can put on your machin
 
 It's really simple. There's a multiple ways to install GitLab-CI Multi-purpose Runner:
 
-* [Install using Debian/Ubuntu/CentOS/RedHat package](https://github.com/ayufan/gitlab-ci-multi-runner/blob/master/docs/install-on-linux.md)
-* [Install on OSX](https://github.com/ayufan/gitlab-ci-multi-runner/blob/master/docs/install-on-osx.md)
-* [Install on Windows](https://github.com/ayufan/gitlab-ci-multi-runner/blob/master/docs/install-on-windows.md)
-* [Install as Docker Service](https://github.com/ayufan/gitlab-ci-multi-runner/blob/master/docs/install-on-docker.md)
+* [Install using Debian/Ubuntu/CentOS/RedHat package](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/linux-repository.md)
+* [Install on OSX](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/osx.md)
+* [Install on Windows](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/windows.md)
+* [Install as Docker Service](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/docker.md)
 
 ## How to use it?
 
 ```bash
 $ cd ~gitlab_ci_multi_runner
-$ gitlab-ci-multi-runner-linux setup
+$ gitlab-ci-multi-runner register
 ```
 
 You will be asked about how it should be configured. Once you do it you are pretty much ready to build projects.
@@ -49,7 +49,7 @@ You can also use Docker to create runner with specific dependencies. What is imp
 
 ```bash
 $ cd ~gitlab_ci_multi_runner
-$ gitlab-ci-multi-runner setup \
+$ gitlab-ci-multi-runner register \
   --non-interactive \
   --url "https://ci.gitlab.com/" \
   --registration-token "REGISTRATION_TOKEN" \
@@ -57,7 +57,7 @@ $ gitlab-ci-multi-runner setup \
   --executor "docker" \
   --docker-image ruby:2.1 --docker-mysql latest
 
-$ gitlab-ci-multi-runner setup \
+$ gitlab-ci-multi-runner register \
   --non-interactive \
   --url "https://ci.gitlab.com/" \
   --registration-token "REGISTRATION_TOKEN" \
@@ -68,8 +68,8 @@ $ gitlab-ci-multi-runner setup \
 
 The exemplary integrations for GitLab CE and GitLab CI can be found here:
 
-* [Integrate GitLab CE](https://github.com/ayufan/gitlab-ci-multi-runner/blob/master/docs/example-integration-gitlab.md)
-* [Integrate GitLab CI](https://github.com/ayufan/gitlab-ci-multi-runner/blob/master/docs/example-integration-gitlab-ci.md)
+* [Integrate GitLab CE](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/examples/gitlab.md)
+* [Integrate GitLab CI](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/examples/gitlab-ci.md)
 
 ## Why Go?
 
