@@ -11,8 +11,7 @@ filename: 2015-04-30-gitlab-7-dot-10-dot-1-released.markdown
 
 We've just released GitLab 7.10.1 (CE, EE and CI).
 
-This patch release fixes a bug with adding new group members from the admin area and
-removes `GroupMembers` that have `nil` as group from the database, for both
+This patch release removes `GroupMembers` that have `nil` as group from the database, for both
 GitLab CE and EE.
 
 <!-- more -->
