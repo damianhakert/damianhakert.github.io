@@ -57,7 +57,7 @@ However, this only works if the project and fork have the same owner and able
 to use the same runners.
 
 With the script in the repository this makes this process a lot more transparent.
-On top of that, a fork can easily add dependencies to its `gitlab-ci.yml` file.
+On top of that, a fork can easily add dependencies to its `.gitlab-ci.yml` file.
 
 #### 4. Different builds for different branches
 
