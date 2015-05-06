@@ -79,13 +79,19 @@ making it much more inviting to improve and review the build scripts.
 
 #### 6. Build matrices
 
-Right now, you can split up your build in multiple parts for GitLab CI, making it possible to run various parts of your build in parallel. This makes it fast to test, but restricts you to a single build on a single push.
+Currently you can define multiple jobs, but you have to define each one yourself.
 
-With `.gitlab-ci.yml` you will be able to run build matrices, where you can have your entire build run (in parallel) in different environments. You could test your project against multiple database, with different ruby versions or something else.
+If you have multiple versions of the programming language, multiple environments and
+multiple lists of dependencies, you end up making a job for each.
+
+With `.gitlab-ci.yml` you will be able to run _build matrices_, where these jobs are
+generated for you. If you define each of the dimensions, the combinations
+will be generated. This makes it easier to set up complex
+test suites that require this.
 
 ### Current jobs
 
-Your current jobs can be ran by putting your
+Your current job can be run by putting your
 `job.sh` in the root of the repo and referencing that in your
 .gitlab-ci.yml: `script:./job.sh`.
 
@@ -107,11 +113,15 @@ We'll be using some of the great [Travis CI projects](https://github.com/travis-
 ## Ships with GitLab 8.0
 
 This change will deprecate the existing jobs, as we want to keep
-GitLab CI simple to use and develop for; multiple ways of doing things is
+GitLab CI simple to use and develop for.
+Multiple ways of doing things is
 confusing for new users, it makes documentation much harder and complicates
 development and debugging.
+
 That means it is also a breaking change for anyone using
 GitLab CI. For this reason we will only introduce this
 change with GitLab 8.0.
 
 We're not sure yet after which minor version we'll release GitLab 8.0 (7.11, 7.12 or later).
+
+Follow the progress in the [GitLab CI repository](https://gitlab.com/gitlab-org/gitlab-ci).
