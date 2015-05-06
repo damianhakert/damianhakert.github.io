@@ -50,8 +50,7 @@ any other (such as Jenkins).
 
 As usual, our amazing community was already fully aware of this
 and we’ve seen demand for this on our [feedback page](http://feedback.gitlab.com/forums/176466-general/suggestions/5591851-store-build-configuration-in-the-repo-like-travi)
-and even received [merge requests](https://github.com/claudyus/ci-yml)
-to implement this.
+and even [implementations](https://github.com/claudyus/ci-yml) for this!
 
 ## Ships with GitLab 8.0
 
