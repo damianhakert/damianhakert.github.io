@@ -19,7 +19,7 @@ Up until now, to set up the build / deploy commands you had to
 go into GitLab CI and edit the scripts in a form. This made
 it very low-threshold to setup, but it felt lacking.
 
-We're glad to tell you we'll get a better solution built on the principles and libraries of [Travis CI](https//www.travis-ci.org):
+We're glad to tell you we'll get a better solution built on the principles and libraries of [Travis CI](https://www.travis-ci.org):
 `.gitlab-ci.yml`.
 
 <!--more-->
@@ -32,7 +32,7 @@ builds:
 
 #### 1. Version controlled
 
-Current, the script is just a single field in a form:
+Currently, the script is just a single field in a form:
 ![current setup of scripts](/images/ci-yml/jobs_old.png)
 
 This means you get none of the advantages of git: no version control.
