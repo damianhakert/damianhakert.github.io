@@ -52,3 +52,10 @@ version check services makes it a good trade-off.
 There will always be an option to turn this behavior off.
 
 Please let us know what you think about the above plan in the comments.
+
+## Update
+
+We decided against sending the hostname in the url of the picture request.
+But the https picture request itself will have a HTTP referer header.
+We can use that to see where and how GitLab is used.
+We will still not store the ip-address of the requests.
