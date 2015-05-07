@@ -34,9 +34,9 @@ GitLab X.X.X CI fixes:
 *** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
 *** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
 
-## Upgrading
+## Updating
 
-To upgrade, check out our [upgrade page](https://about.gitlab.com/upgrade).
+To update, check out our [update page](https://about.gitlab.com/update).
 
 ## Enterprise Edition
 

@@ -28,9 +28,9 @@ There is a migration that loops through all tags.
 This can take a while for larger installations.
 We recommend scheduling downtime for this upgrade.
 
-## Upgrading
+## Updating
 
-To upgrade, check out our [upgrade page](https://about.gitlab.com/upgrade).
+To update, check out our [update page](https://about.gitlab.com/update).
 
 ## Enterprise Edition
 
