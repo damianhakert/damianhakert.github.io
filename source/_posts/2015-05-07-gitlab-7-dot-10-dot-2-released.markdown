@@ -24,8 +24,9 @@ in the compare view
 
 ## Upgrade barometer
 
-This patch contains several migrations to fix the issue with the tags.
-It can be performed online if you're coming from 7.10.
+There is a migration that loops through all tags.
+This can take a while for larger installations.
+We recommend scheduling downtime for this upgrade.
 
 ## Upgrading
 
