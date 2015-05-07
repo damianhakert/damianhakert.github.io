@@ -985,13 +985,13 @@ a:hover > .link-box {
 }
 
 .source-link a {
-  color: rgb(147, 190, 255);
+  color: rgb(147, 190, 255) !important;
   text-decoration: underline;
   transition: all 0.2s;
 }
 
 .source-link a:hover {
-  color: rgb(255, 201, 30);
+  color: rgb(255, 201, 30) !important;
 }
 
 .social-media-buttons-footer {
