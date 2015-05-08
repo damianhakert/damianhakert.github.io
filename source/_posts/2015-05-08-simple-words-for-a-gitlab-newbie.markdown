@@ -9,19 +9,24 @@ image_title: 'c'
 ---
 For most of us, when we work with a new tool, there's a process of learning the right vocabulary (for me, Git was a new language!) and the best steps to make things happen; this while we try to keep the best attitude. Not very long ago I learned how to use Git and GitLab and it was a little bit painful. I read a lot about it, but it was mostly vocabulary that didn't make any sense to me. If you've been there or if you are there now, you'll know what I'm talking about (some people may have it naturally). 
 So, to make this learning process easier for others, I took many of the basic Git vocabulary and wrote easy definitions for each word. I hope they are useful for you and please share them with your Git and Gitlab newbie friends!
+
 <!--more-->
 
 ## Cloud Based Services
+
 What is a cloud based service? It’s a service or resource that is opposed to services that are hosted on the servers inside a company, which is the traditional way of doing it. It helps people and companies lower their costs and be more efficient while helping with different functions such as trannings, storage, etc.
 For now, GitLab.com is a cloud based service because it can both be hosted in house and in the cloud. 
 -
 ## Source control or revision control software
+
 What is source control? It’s a system that records and manages changes to projects, files and documents. It helps you recall specific versions later. It also makes it easier to collaborate, because it shows who has changed what and helps you combine contributions.
 -
 ## Continuous Integration
+
 What is continuous integration? It’s the system of continuously incorporating the work advances with a shared mainline in a project. Git and GitLab together make continuous integration happen.
 -
 ## Continuous deployment
+
 What is continuous deployment? It means that whenever there is a change to the code, it is deployed or made live immediately. This is in contrast to continous integration, where code is continuously being merged in the mainline and is always ready to be deployed, rather than actually deployed.
 When people talk about CI and CD what they usually mean to say is that they are constantly and automatically are testing their code against their tests using a tool such as GitLab CI and upon passing do a certain actions. That action can be merging the code into a branch (master, production, etc), deploying it to a server or building a package / piece of software out of it.
 Non-continuous integration would be everyone working on something and only integrating all the work as the very last step. Obviously that results in many conflicts and issues, which is why CI is adopted widely nowadays.
