@@ -10,14 +10,14 @@ platforms:
   long_name: Ubuntu 12.04
   download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
   install_commands: |
-                    sudo apt-get install gitlab-ce=7.10.4~omnibus-1
+                    sudo apt-get install gitlab-ce
   dependency_commands: |
                      sudo apt-get install openssh-server ca-certificates postfix
 - name: ubuntu1404
   long_name: Ubuntu 14.04
   download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
   install_commands: |
-                    sudo apt-get install gitlab-ce=7.10.4~omnibus-1
+                    sudo apt-get install gitlab-ce
   dependency_commands: |
                     sudo apt-get install openssh-server ca-certificates postfix
 
@@ -25,21 +25,21 @@ platforms:
   long_name: Debian 7
   download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
   install_commands: |
-                    sudo apt-get install gitlab-ce=7.10.4~omnibus-1
+                    sudo apt-get install gitlab-ce
   dependency_commands: |
                     sudo apt-get install openssh-server ca-certificates postfix
 - name: debian8
   long_name: Debian 8
   download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
   install_commands: |
-                    sudo apt-get install gitlab-ce=7.10.4~omnibus-1
+                    sudo apt-get install gitlab-ce
   dependency_commands: |
                     sudo apt-get install openssh-server ca-certificates postfix
 - name: centos6
   long_name: CentOS 6 (and RedHat/Oracle/Scientific Linux 6)
   download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
   install_commands: |
-                    sudo yum install gitlab-ce-7.10.4~omnibus-1.x86_64
+                    sudo yum install gitlab-ce
   dependency_commands: |
                     sudo yum install openssh-server postfix cronie
                     sudo service postfix start
@@ -50,7 +50,7 @@ platforms:
   long_name: CentOS 7 (and RedHat/Oracle/Scientific Linux 7)
   download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
   install_commands: |
-                    sudo yum install gitlab-ce-7.10.4~omnibus-1.x86_64
+                    sudo yum install gitlab-ce
   dependency_commands: |
                     sudo yum install openssh-server
                     sudo systemctl enable sshd
