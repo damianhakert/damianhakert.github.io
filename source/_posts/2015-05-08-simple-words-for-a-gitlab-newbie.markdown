@@ -13,8 +13,8 @@ So, to make this learning process easier for others, I took many of the basic Gi
 <!--more-->
 -
 Cloud Based Services
-What is a cloud based service? It’s a service or resource that is opposed to services that are hosted on the servers inside a company, which is the traditional way of doing it. It helps people and companies lower their costs and be more efficient while helping with different functions such as trannings, storage, etc.
-For now, GitLab.com is a cloud based service because it can both be hosted in house and in the cloud. 
+What is a cloud based service? It’s a service or resource that is opposed to services that are hosted on the servers inside a company, which is the traditional way of doing it. It helps people and companies lower their costs and be more efficient while helping with different functions such as trannings, storage, etc. 
+For now, GitLab.com is a cloud based service because it can both be hosted in house and in the cloud.
 -
 Source control or revision control software
 What is source control? It’s a system that records and manages changes to projects, files and documents. It helps you recall specific versions later. It also makes it easier to collaborate, because it shows who has changed what and helps you combine contributions.
