@@ -8,7 +8,9 @@ author_twitter: Jobvo
 ---
 
 Last week we had to pull our 7.10.2 release as in a small number of installations
-the migrations would fail because of a uniqueness constraint on tags.
+the migrations would fail because of a uniqueness constraint on tags. We
+did not release GitLab 7.10.3, as we improved a migration after creating
+the 7.10.3 version tag and wanted to include that in our patch release.
 
 Today we release GitLab 7.10.4 which solves the issues with the migrations
 and contains all fixes also present in 7.10.2. If you've already successfully
