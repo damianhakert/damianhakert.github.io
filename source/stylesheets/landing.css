@@ -31,7 +31,7 @@
 }
 
 #landing .container .row .features-panel {
-  margin-top: 72px;
+  margin-top: 20px;
 }
 
 @media (max-width: 960px) {
@@ -420,7 +420,7 @@
 .see-further {
   display: block;
   text-align: center;
-  margin-top: 79px;
+  margin-top: 50px;
 
 }
 
@@ -430,10 +430,20 @@
   }
 
 .gitlab-comparison {
-  margin-top: 34px;
+  margin-top: 108px;
   border: none !important;
+}
 
-
+a.comparison.gh {
+  border: none;
+  border-bottom: 2px solid;
+  border-radius: 0;
+  padding: 4px 0;
+}
+a.comparison.gh:hover {
+  background: 0;
+  color: #FFB440;
+  border-color: #FFB440;
 }
   .comparison {
     background: #548;
