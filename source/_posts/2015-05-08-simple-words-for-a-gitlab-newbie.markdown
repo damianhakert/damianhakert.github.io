@@ -11,23 +11,23 @@ For most of us, when we work with a new tool, there's a process of learning the 
 So, to make this learning process easier for others, I took many of the basic Git vocabulary and wrote easy definitions for each word. I hope they are useful for you and please share them with your Git and Gitlab newbie friends!
 
 <!--more-->
-
-## Cloud Based Services
+-
+Cloud Based Services
 What is a cloud based service? It’s a service or resource that is opposed to services that are hosted on the servers inside a company, which is the traditional way of doing it. It helps people and companies lower their costs and be more efficient while helping with different functions such as trannings, storage, etc.
 For now, GitLab.com is a cloud based service because it can both be hosted in house and in the cloud. 
 -
-## Source control or revision control software
+Source control or revision control software
 What is source control? It’s a system that records and manages changes to projects, files and documents. It helps you recall specific versions later. It also makes it easier to collaborate, because it shows who has changed what and helps you combine contributions.
 -
-## Continuous Integration
+Continuous Integration
 What is continuous integration? It’s the system of continuously incorporating the work advances with a shared mainline in a project. Git and GitLab together make continuous integration happen.
 -
-## Continuous deployment
+Continuous deployment
 What is continuous deployment? It means that whenever there is a change to the code, it is deployed or made live immediately. This is in contrast to continous integration, where code is continuously being merged in the mainline and is always ready to be deployed, rather than actually deployed.
 When people talk about CI and CD what they usually mean to say is that they are constantly and automatically are testing their code against their tests using a tool such as GitLab CI and upon passing do a certain actions. That action can be merging the code into a branch (master, production, etc), deploying it to a server or building a package / piece of software out of it.
 Non-continuous integration would be everyone working on something and only integrating all the work as the very last step. Obviously that results in many conflicts and issues, which is why CI is adopted widely nowadays.
 -
-## Git
+Git
 What is Git? Git is a system where you can create projects of different sizes with speed and efficiency. It helps you manage code, communicate and collaborate on different software projects.
 Git will allow you to go back to a previous status on a project or to see its entire evolution since the project was created. 
 You could think of it as a time machine which will allow you to go back in time to whenever you’d like in your project. 
@@ -36,46 +36,46 @@ With Git, 3 basic issues were solved when working on projects:
 2. It helps you avoid overwriting the team’s advances and work.
 3. With git, you just pull the entire code and history to your machine, so you can calmly work in your own little space without interference or boundaries. It's much simpler and much more light-weight.
 -
-## Repository
+Repository
 What is a repository? The place where the history of your work is stored.
 -
-## Remote repository
+Remote repository
 What is a remote repository? It's a repository that is not-on-your-machine, so it's anything that is not your computer. Usually that is online, GitLab.com for instance. The main remote repository is usually called “Origin”.
 -
-## Commit
+Commit
 What is a commit? It’s the way you call the latest changes of source code that you made on a repository. When changes are tracked, commits mark the changes on a document.
 -
-## Master
+Master
 What is a master? It’s how you call the main and definitive branch (the independent line of development of a project).
 -
-## Branch
+Branch
 What is a branch? It’s an independent line of development. They are a brand new working directory, staging area, and project history. New commits are recorded in the history for the current branch, which results in taking the source from someone's repository (the place where the history of your work is stored) at certain point in time, and apply your own changes to it in the history of the project.
 -
-## Fork
+Fork
 What is a fork? It’s a copy of an original repository (the place where the history of your work is stored) that you can put somewhere else or where you can experiment and apply changes that you can later decide if publishing or not, without affecting your original project.
 -
-## Git Clone
+Git Clone
 What is a clone? It’s to get a copy of a git project to look at or to use the code.
 -
-## Git Merge
+Git Merge
 What is to merge? It’s integrating separate changes that you made to a project, on different branches. 
 -
-## md: markdown
+md: markdown
 What is markdown? It’s a plain text format that will make any document easy-to-write and easy-to-read.
 -
-## Push a repository 
+Push a repository 
 What is to push a repository? It’s to incorporate a local branch (the independent line of development of a project) to a remote repository (online version of your project).
 -
-## README.md
+README.md
 What is a README.md? I’t a file in a simple format which summarizes a repository. If there’s also a README (without the .md), the README.md will have priority.
 -
-## SSH (secure shell protocol)
+SSH (secure shell protocol)
 What is SSH? It’s how you call the commands that help communicate through a network and that are encrypted and secure. It’s used for remote logins and it helps users connect to a server in a secure way.
 -
-## Stage Files
+Stage Files
 What is to stage a file? It’s how you call the act of preparing a file for a commit (the latest changes of source code in a repository).
 -
-## GitLab
+GitLab
 What is GitLab? GitLab is an online Git repository manager with a wiki, issue tracking, CI and CD. It is a great way to manage git repositories on a centralized server. GitLab gives you complete control over your repositories or projects and allows you to decide whether they are public or private for free. 
 -
 GitLab Services: 
