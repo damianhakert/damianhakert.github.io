@@ -8,38 +8,38 @@ extra_js:
 platforms:
 - name: ubuntu1204
   long_name: Ubuntu 12.04
-  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+  download_command: wget https://downloads-packages.s3.amazonaws.com/ubuntu-12.04/gitlab-ce_7.10.4~omnibus-1_amd64.deb
   install_commands: |
-                    sudo apt-get install gitlab-ce=7.10.4~omnibus-1
+                    sudo dpkg -i gitlab-ce_7.10.4~omnibus-1_amd64.deb
   dependency_commands: |
                        sudo apt-get install openssh-server ca-certificates postfix
 - name: ubuntu1404
   long_name: Ubuntu 14.04
-  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+  download_command: wget https://downloads-packages.s3.amazonaws.com/ubuntu-14.04/gitlab-ce_7.10.4~omnibus-1_amd64.deb
   install_commands: |
-                    sudo apt-get install gitlab-ce=7.10.4~omnibus-1
+                    sudo dpkg -i gitlab-ce_7.10.4~omnibus-1_amd64.deb
   dependency_commands: |
                     sudo apt-get install openssh-server ca-certificates postfix
 
 - name: debian7
   long_name: Debian 7
-  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+  download_command: wget https://downloads-packages.s3.amazonaws.com/debian-7.8/gitlab-ce_7.10.4~omnibus-1_amd64.deb
   install_commands: |
-                    sudo apt-get install gitlab-ce=7.10.4~omnibus-1
+                    sudo dpkg -i gitlab-ce_7.10.4~omnibus-1_amd64.deb
   dependency_commands: |
                     sudo apt-get install openssh-server ca-certificates postfix
 - name: debian8
   long_name: Debian 8
-  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+  download_command: wget https://downloads-packages.s3.amazonaws.com/debian-8.0/gitlab-ce_7.10.4~omnibus-1_amd64.deb
   install_commands: |
-                    sudo apt-get install gitlab-ce=7.10.4~omnibus-1
+                    sudo dpkg -i gitlab-ce_7.10.4~omnibus-1_amd64.deb
   dependency_commands: |
                     sudo apt-get install openssh-server ca-certificates postfix
 - name: centos6
   long_name: CentOS 6 (and RedHat/Oracle/Scientific Linux 6)
-  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
+  download_command: curl -O https://downloads-packages.s3.amazonaws.com/centos-6.6/gitlab-ce-7.10.4~omnibus-1.x86_64.rpm
   install_commands: |
-                    sudo yum install gitlab-ce-7.10.4~omnibus-1.x86_64
+                    sudo rpm -i gitlab-ce-7.10.4~omnibus-1.x86_64.rpm
   dependency_commands: |
                     sudo yum install openssh-server postfix cronie
                     sudo service postfix start
@@ -48,9 +48,9 @@ platforms:
   firewall_open: sudo lokkit -s http -s ssh
 - name: centos7
   long_name: CentOS 7 (and RedHat/Oracle/Scientific Linux 7)
-  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
+  download_command: curl -O https://downloads-packages.s3.amazonaws.com/centos-7.1.1503/gitlab-ce-7.10.4~omnibus-1.x86_64.rpm
   install_commands: |
-                    sudo yum install gitlab-ce-7.10.4~omnibus-1.x86_64
+                    sudo rpm -i gitlab-ce-7.10.4~omnibus-1.x86_64.rpm
   dependency_commands: |
                     sudo yum install openssh-server
                     sudo systemctl enable sshd
@@ -112,7 +112,7 @@ platforms:
               </p>
             </div>
             <div class="tab-step">
-              <h4>2. Install the package server (only once) and install everything</h4>
+              <h4>2. Download the Omnibus package and install everything</h4>
               <p>
               <pre>{{platform.download_command}}
 {{platform.install_commands}}</pre>
