@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "GitLab 7.10.3 released"
-date: 2015-05-08
+title: "GitLab 7.10.4 released"
+date: 2015-05-11
 comments: true
 author: Job van der Voort
 author_twitter: Jobvo
 ---
 
-Yesterday we had to pull our 7.10.2 release as in a small number of installations
+Last week we had to pull our 7.10.2 release as in a small number of installations
 the migrations would fail because of a uniqueness constraint on tags.
 
-Today we release GitLab 7.10.3 which solves the issues with the migrations
+Today we release GitLab 7.10.4 which solves the issues with the migrations
 and contains all fixes also present in 7.10.2. If you've already successfully
 upgraded to 7.10.2, you do not need to update at this time.
 
@@ -52,7 +52,7 @@ To update, check out our [update page](https://about.gitlab.com/update).
 
 ## Enterprise Edition
 
-Omnibus packages for GitLab Enterprise Edition 7.10.3 are available for subscribers [here](https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/install/packages.md). For installations from source, use [this guide](https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/update/patch_versions.md).
+Omnibus packages for GitLab Enterprise Edition 7.10.4 are available for subscribers [here](https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/install/packages.md). For installations from source, use [this guide](https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/update/patch_versions.md).
 
 Interested in GitLab Enterprise Edition?
 For an overview of feature exclusive to GitLab Enterprise Edition please have a look at the [features exclusive to GitLab EE](http://about.gitlab.com/features/#enterprise).
