@@ -5,9 +5,9 @@ date: 2015-05-08
 comments: true
 author: Karen Carias
 author_twitter: myvineste
-image_title: 'c'
+image_title: 
 ---
-For most of us, when we work with a new tool, there's a process of learning the right vocabulary (for me, Git was a new language!) and the best steps to make things happen; this while we try to keep the best attitude. Not very long ago I learned how to use Git and GitLab and it was a little bit painful. I read a lot about it, but it was mostly vocabulary that didn't make any sense to me. If you've been there or if you are there now, you'll know what I'm talking about (some people may have it naturally). 
+For most of us, when we work with a new tool, there's a process of learning the right vocabulary and the best steps to make things happen; this while we try to keep the best attitude. Not very long ago I learned how to use Git and GitLab and it was a little bit painful. I read a lot about it, but it was mostly vocabulary that didn't make any sense to me. If you've been there or if you are there now, you'll know what I'm talking about (some people may have it naturally). 
 So, to make this learning process easier for others, I took many of the basic Git vocabulary and wrote easy definitions for each word. I hope they are useful for you and please share them with your Git and Gitlab newbie friends!
 
 <!--more-->
