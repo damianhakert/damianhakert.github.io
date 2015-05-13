@@ -130,12 +130,8 @@ server {
   location ^~ /gitlab-ee/ {
     return 301 /features/#enterprise;
   }
-  location = /upgrade {
-    return 301 /update
-  }
-  location = /team-handbook {
-    return 301 /handbook
-  }
+  rewrite ^/upgrade/?$ /update/ permanent;
+  rewrite ^/team-handbook/?$ /handbook/ permanent;
   location ^~ /services/ {
     return 301 /pricing/#services;
   }
