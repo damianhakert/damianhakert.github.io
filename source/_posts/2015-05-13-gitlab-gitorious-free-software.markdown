@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gitlab, Gitorious, and Free Software"
+title: "GitLab, Gitorious, and Free Software"
 date: 2015-05-10
 comments: true
 author: Mike Gerwitz
@@ -12,9 +12,9 @@ license: CC-BY-SA 3.0
  activist, and author of [GNU ease.js][24].*
 
 In early March of this year, it was announced that
-[Gitlab would acquire Gitorious][0] and shut down `gitorious.org` by 1
+[GitLab would acquire Gitorious][0] and shut down `gitorious.org` by 1
 June, 2015.  [Reactions from the community][1] were mixed, and
-understandably so: while Gitlab itself is a formidable alternative to wholly
+understandably so: while GitLab itself is a formidable alternative to wholly
 proprietary services, its acquisition of Gitorious strikes a chord with the
 free software community that gathered around Gitorious in the name of
 [software freedom][2].
@@ -23,8 +23,8 @@ free software community that gathered around Gitorious in the name of
 
 After hearing that announcement,
 [as a free software hacker and activist myself][11], I was naturally
-uneasy.  Discussions of alternatives to Gitorious and Gitlab ensued on the
-[`libreplanet-discuss`][12] mailing list.  Sytse Sijbrandij (Gitlab
+uneasy.  Discussions of alternatives to Gitorious and GitLab ensued on the
+[`libreplanet-discuss`][12] mailing list.  Sytse Sijbrandij (GitLab
 B.V. CEO) happened to be present on that list;
 [I approached him very sternly][13] with a number of concerns, just as I
 would with anyone that I feel does not understand certain aspects of the
@@ -32,9 +32,9 @@ would with anyone that I feel does not understand certain aspects of the
 all.
 
 Sytse has spent a lot of time accepting and considering community input for
-both the Gitorious acquisition and Gitlab itself.  He has also worked with
+both the Gitorious acquisition and GitLab itself.  He has also worked with
 me to address some of the issues that I had raised.  And while these issues
-won't address everyone's concerns, they do strengthen Gitlab's commitment to
+won't address everyone's concerns, they do strengthen GitLab's commitment to
 [software freedom][2], and are commendable.
 
 I wish to share some of these details here; but to do so, I first have to
@@ -74,29 +74,29 @@ to incorporate, study, or share them.  The AGPLv3 is an ideal license for
 Gitorious, since most of its users will only ever interact with it over a
 network.
 
-Gitlab is also free software: its [Expat license][10] (commonly referred to
+GitLab is also free software: its [Expat license][10] (commonly referred to
 ambiguously as the "MIT license") permits all of the same freedoms that
 are granted under the the GNU GPL.  But it does so in a way that is highly
 permissive: it permits relicensing under *any* terms, free or not.  In other
-words, one can fork Gitlab and derive a proprietary version from it, making
+words, one can fork GitLab and derive a proprietary version from it, making
 changes that deny users [their freedoms][2] and cannot be incorporated back
 into the original work.
 
 This is the issue that the free software community surrounding Gitorious has
-a problem with: any changes contributed to Gitlab could in turn benefit a
-proprietary derivative.  This situation isn't unique to Gitlab: it applies
+a problem with: any changes contributed to GitLab could in turn benefit a
+proprietary derivative.  This situation isn't unique to GitLab: it applies
 to all non-copyleft ("permissive") [free software licenses][26].  And this
-issue is realized by Gitlab itself in the form of its Gitlab Enterprise
-Edition (Gitlab EE): a proprietary derivative that adds additional
-features atop of Gitlab's free Community Edition (CE).  For this reason,
-many free software advocates are uncomfortable contributing to Gitlab, and
+issue is realized by GitLab itself in the form of its GitLab Enterprise
+Edition (GitLab EE): a proprietary derivative that adds additional
+features atop of GitLab's free Community Edition (CE).  For this reason,
+many free software advocates are uncomfortable contributing to GitLab, and
 feel that they should instead support other projects; this, in turn, means
-not supporting Gitlab by using and drawing attention to their hosting
+not supporting GitLab by using and drawing attention to their hosting
 services.
 
 The copyleft vs. permissive licensing debate is one of the "holy wars" of
 the free software movement.  I do not wish to get into such a war
-here.  One thing is clear: Gitlab Community Edition (Gitlab CE) is free
+here.  One thing is clear: GitLab Community Edition (GitLab CE) is free
 software.  Richard Stallman (RMS)
 [responded directly to the thread on `libreplanet-discuss`][20], stating
 plainly:
@@ -105,14 +105,14 @@ plainly:
 >  version is free software, so it is ethical.  The nonfree version is
 >  nonfree software, so it is not ethical.
 
-Does Gitlab CE deserve attention from the free software community?  I
+Does GitLab CE deserve attention from the free software community?  I
 believe so.  Importantly, there is another strong consideration: displacing
 proprietary services like GitHub and Bitbucket, which host a large number of
-projects and users.  Gitlab has a strong foothold, which is an excellent
+projects and users.  GitLab has a strong foothold, which is an excellent
 place for a free software project to be in.
 
-If we are to work together as a community, we need to respect Gitlab's
-free licensing choices just as we expect Gitlab to respect ours.  Providing
+If we are to work together as a community, we need to respect GitLab's
+free licensing choices just as we expect GitLab to respect ours.  Providing
 respect does not mean that you are conceding: I will never personally use a
 non-copyleft license for my software; I'm firmly rooted in my dedication to
 the [free software philosophy][2], and I'm sure that many other readers are
@@ -138,35 +138,35 @@ affect *any user that visits* the website.  That would be a problem, since
 hosting your project there would be inviting users to run proprietary
 JavaScript.
 
-As I was considering migrating my projects to Gitlab, this was the
+As I was considering migrating my projects to GitLab, this was the
 [first concern I brought up to Sytse][14].  This problem arises because
-`gitlab.com` uses a Gitlab EE instance: if it had used only its Community
-Edition (Gitlab CE)---which is free software---then all served JavaScript
-would have been free.  But any scripts served by Gitlab EE that are not
-identical to those served by Gitlab CE are proprietary, and therefore
+`gitlab.com` uses a GitLab EE instance: if it had used only its Community
+Edition (GitLab CE)---which is free software---then all served JavaScript
+would have been free.  But any scripts served by GitLab EE that are not
+identical to those served by GitLab CE are proprietary, and therefore
 unethical.  This same concern applies to GitHub, Bitbucket, and other
 proprietary hosts that serve JavaScript.
 
 Sytse surprised me by stating that he would be willing to
-[freely license all JavaScript in Gitlab EE][17], and by offering to give
-anyone access to the Gitlab EE source code who wants to help out.  I took
+[freely license all JavaScript in GitLab EE][17], and by offering to give
+anyone access to the GitLab EE source code who wants to help out.  I took
 him up on that offer.  Initially, I had submitted a patch to merge all
-Gitlab EE JavaScript into Gitlab CE, but Sytse came up with another,
+GitLab EE JavaScript into GitLab CE, but Sytse came up with another,
 superior suggestion, that ultimately provided even greater reach.
 
 **I'm pleased to announce that Sytse and I were able to agree on a license
 change (with absolutely no friction or hesitation on his part) that
-liberates all JavaScript served to the client from Gitlab EE instances.**
+liberates all JavaScript served to the client from GitLab EE instances.**
 There are two concerns that I had wanted to address: JavaScript code
 directly written for the client, and any code that produced JavaScript as
 output.  In the former case, this includes JavaScript derived from other
-sources: for example, Gitlab uses CoffeeScript, which compiles *into*
+sources: for example, GitLab uses CoffeeScript, which compiles *into*
 JavaScript.  The latter case is important: if there is any code that
 generates fragments of JavaScript---e.g. dynamically at runtime---then that
 code must also be free, or users would not be able to modify and share the
 resulting JavaScript that is actually being run on the client.  Sytse
 accepted my change verbatim, while adding his own sentence after mine to
-disambiguate.  At the time of writing this post, Gitlab EE's source code
+disambiguate.  At the time of writing this post, GitLab EE's source code
 isn't yet publicly visible, so here is the relevant snippet from its
 `LICENSE` file:
 
@@ -184,18 +184,18 @@ have not been able to be addressed before my writing of this post that would
 do well to demonstrate commitment toward [software freedom][2].
 
 The license change liberating client-side JavaScript was an excellent
-move.  To expand upon it, I wish to submit a patch that would make Gitlab
+move.  To expand upon it, I wish to submit a patch that would make GitLab
 [LibreJS compliant][21]; this provides even greater guarantees, since it
 would allow for users to continue to block other non-free JavaScript that
-may be served by the Gitlab instance, but not produced by it.  For example:
-a website/host that uses Gitlab may embed proprietary JavaScript, or modify
+may be served by the GitLab instance, but not produced by it.  For example:
+a website/host that uses GitLab may embed proprietary JavaScript, or modify
 it without releasing the source code.  Another common issue is the user of
 analytics software; `gitlab.com` uses Google Analytics.
 
 If you would like to help with LibreJS compliance, please [contact me][11].
 
 I was brought into another discussion between Sytse and RMS that is
-unrelated to the Gitlab software itself, but still a positive demonstration
+unrelated to the GitLab software itself, but still a positive demonstration
 of a commitment to [software freedom][2]---the replacement of Disqus on the
 `gitlab.com` blog with a free alternative.  Sytse ended up making a
 suggestion, saying he'd be "happy to switch to" [Juvia][22] if I'd help with
@@ -209,20 +209,20 @@ unless I take the time to freely read and reply without running Disqus'
 proprietary JavaScript.)
 
 Considering the genuine interest and concern expressed by Sytse in working
-with myself and the free software community, I can only expect that Gitlab
+with myself and the free software community, I can only expect that GitLab
 will continue to accept and apply community input.
 
 
 ## Actions Speak Louder Than Words
 It is not possible to address the copyleft issue without a change in
-license, which Gitlab is not interested in doing.  So the best way to
+license, which GitLab is not interested in doing.  So the best way to
 re-assure the community is through action.  [To quote Sytse][18]:
 
 > I think the only way to prove we're serious about open source is in our
 > actions, licenses or statements don't help.
 
 There are fundamental disagreements that will not be able to be
-resolved between Gitlab and the free software community---like their
+resolved between GitLab and the free software community---like their
 ["open core" business model][19].  But after working with Sytse and seeing
 his interactions with myself, RMS, and many others in the free software
 community, I find his actions to be very encouraging.
