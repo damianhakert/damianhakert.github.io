@@ -45,7 +45,7 @@ important.
 ## Free Software Ideology
 [Gitorious][3] was (and still is) one of the most popular Git repository
 hosts, and largely dominated until the introduction of GitHub.  But even as
-users flocked to GitHub's proprietary services, users who value freedom
+users flocked to [GitHub's proprietary services][28], users who value freedom
 continued to support Gitorious, both on `gitorious.org` and by installing
 their own instances on their own servers.  Since Gitorious is
 [free software][2], users are free to study, modify, and share it with
@@ -263,3 +263,4 @@ community, I find his actions to be very encouraging.
 [25]: http://creativecommons.org/licenses/by-sa/3.0/
 [26]: https://www.gnu.org/licenses/license-list.html
 [27]: https://fsf.org/campaigns/freejs
+[28]: http://mikegerwitz.com/about/githubbub
