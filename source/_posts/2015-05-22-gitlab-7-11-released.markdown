@@ -4,86 +4,74 @@ title: "GitLab 7.11 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 date: 2015-05-22
 comments: true
 categories:
-author: ADD_YOUR_FULL_NAME
-filename: FILENAME.MARKDOWN
-image_title: /images/7_X/PICTURE.PNG
+author: Job van der Voort
+filename: 2015-05-22-gitlab-7-11-released.markdown
+image_title: /images/7_11/ny.jpg
 ---
 
-GitLab is open source software to collaborate on code.
-Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
-The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
-In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
+It's the 22nd of the month, so we have a new GitLab release ready!
+GitLab 7.11 brings more improvements to the look and feel of GitLab,
+two-factor authentication, a version check and more!
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+GitLab CI features
 
-<!--more-->
+MVP
 
-### ***MAIN_CE_FEATURE***
+## Better looking sidebar
 
-***DESCRIPTION***
+We changed the look of the sidebar to reflect its function better and make it look
+more pretty:
 
-[![screenshot](/images/7_11/feature.png)](/images/7_11/feature.png) ***7_11 is the version of GitLab being released***
+![screen](screensht)
 
+## Clean project dashboard
 
-### ***NEW_CE_FEATURE***
+The project dashboard was a good example of design by commission, one GitLab
+contributed noted. We broomed through it and cleaned it up:
 
-***DESCRIPTION***
+![scree](ss)
 
-[![screenshot](/images/7_11/feature.png)](/images/7_11/feature.png) ***7_11 is the version of GitLab being released***
+## Two-factor authentication
 
+Keep your code secure and start using two-factor authentication (2FA)!
+GitLab has built-in 2FA in both CE and EE now and makes use of the convenient
+Google Authenticator.
 
-### NEW_CE_FEATURE
+All you have to do is go to your profile/account and scan the QR code using
+Google's app.
 
-***DESCRIPTION***
+![ss](ss)
 
-[![screenshot](/images/7_11/feature.png)](/images/7_11/feature.png) **+7_11 is the version of GitLab being released***
+From now on, on login you'll be required to provide the code the app gives you
+for GitLab.
 
-### NEW_SPONSORED_FEATURE
+## User roles in comments
 
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-11-stable/CHANGELOG#L18).
+Now you know who's who's in your favorite project. On comments you will see
+the role of the person in that project:
 
-### ***MAIN_EE_FEATURE*** (EE only feature)
+![ss](ss)
 
-***DESCRIPTION***
+## Task lists everywhere
 
-[![screenshot](/images/7_11/feature.png)](/images/7_11/feature.png) ***7_11 is the version of GitLab being released***
+Want a task list in the comments? Now you can!
 
-### ***EE_FEATURE*** (EE only feature)
+![ss](ss)
 
-***DESCRIPTION***
+## Version Check
 
-[![screenshot](/images/7_11/feature.png)](/images/7_11/feature.png) ***7_11 is the version of GitLab being released***
+## License keys for Enterprise Edition
 
+## Two-Factor Authentication for LDAP / Active Directory
 
-## ***MAIN_CI_FEATURE***
+## Other awesome changes
 
-***DESCRIPTION***
-
-[![screenshot](/images/7_11/feature.png)](/images/7_11/feature.png) ***7_11 is the version of GitLab CI being released***
-
-
-## ***NEW_CI_FEATURE***
-
-***DESCRIPTION***
-
-[![screenshot](/images/7_11/feature.png)](/images/7_11/feature.png) ***7_11 is the version of GitLab CI being released***
-
-
-## NEW_CI_FEATURE
-
-***DESCRIPTION***
-
-[![screenshot](/images/7_11/feature.png)](/images/7_11/feature.png) **+7_11 is the version of GitLab CI being released***
-
-## NEW_SPONSORED_FEATURE
-
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-11-stable/CHANGELOG#L18).
-
-### Other changes
+- reply quoting selected text
+- atom feed project activity
+- Add default project and snippet visibility settings to the admin web UI.
+- improved UI for mobile
 
 This release has more improvements, including security fixes, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
-
 
 ### Upgrade barometer
 
