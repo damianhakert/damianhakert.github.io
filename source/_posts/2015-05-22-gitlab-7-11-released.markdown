@@ -13,7 +13,8 @@ It's the 22nd of the month, so we have a new GitLab release ready!
 GitLab 7.11 brings more improvements to the look and feel of GitLab,
 two-factor authentication, a version check and more!
 
-GitLab CI features
+Of course we're also releasing GitLab CI 7.11, with a new backup and restore
+utility, improvements in the UI and some other new features.
 
 MVP
 
@@ -62,7 +63,15 @@ Want a task list in the comments? Now you can!
 
 ## License keys for Enterprise Edition
 
-## Two-Factor Authentication for LDAP / Active Directory
+## Two-Factor Authentication for LDAP / Active Directory (EE only)
+
+## New GitLab CI Features
+
+With the release of GitLab 7.11, we also updated GitLab CI to 7.11.
+Some changes worth mentioning are an improved runners page,
+public accessible build and commit pages for public projects
+,a new backup/restore utility that will backup your CI database and
+HipChat notifications!
 
 ## Other awesome changes
 
