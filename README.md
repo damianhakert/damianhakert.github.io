@@ -57,6 +57,8 @@ Use the following tag after the opening paragraph to make it an acceptable size 
 
     <!-- more -->
 
+Add your post's image to the 'images' file in this project. You'll need to do it through your local repository. 
+
 Add the following to the top of a blog post (between the --- markers) and it will format it as a full bleed image.
 
     image_title: '/images/unspash/hardware.jpg'
