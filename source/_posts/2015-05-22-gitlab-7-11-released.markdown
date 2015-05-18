@@ -111,6 +111,9 @@ to the admin web interface.
 
 **Improved UI for mobile** GitLab is now better viewable on mobile!
 
+**WIP your MRs!** If you add `WIP` to the title of a merge request,
+it will be protected from merging now.
+
 This release has more improvements, including security fixes, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
 ### Upgrade barometer
