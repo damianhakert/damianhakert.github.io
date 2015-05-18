@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Let's choose a new GitLab Logo"
-date: 2015-05-14
+title: "A new GitLab Logo"
+date: 2015-05-18
 comments: true
 author: Job van der Voort
 author_twitter: Jobvo
@@ -17,13 +17,19 @@ We have a scary, angry looking raccoon dog logo.
 <blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p lang="en" dir="ltr">this creepy human/racoon hybrid that is the <a href="https://twitter.com/gitlab">@gitlab</a> logo is starting to really freak me out <a href="http://t.co/HJarlbRNOo">pic.twitter.com/HJarlbRNOo</a></p>&mdash; hatewell (@hatwell) <a href="https://twitter.com/hatwell/status/556028082709348352">January 16, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+We figured we could use a better representation of GitLab.
 
-For a very happy, friendly company (see our [handbook!](http://localhost:4000/team-handbook)),
-an open source [product](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/README.md),
-and an amazing community, an angry and scary animal might not be the best representation.
-
-So let's choose a new logo!
+We had some designs made and want to share them with you. If you like any
+or have a better suggestion, we'd love to hear it.
 
 <!-- more -->
 
-A logo should be clean, recognizable and unique.
+![new GitLab Logo option A](/images/new_logo/A.jpg)
+![new GitLab Logo option B](/images/new_logo/B.jpg)
+![new GitLab Logo option C](/images/new_logo/C.jpg)
+![new GitLab Logo option D](/images/new_logo/D.jpg)
+
+If you have a better suggestion than one of the ones above, a certain preference
+or opinion, we'd love to hear it.
+
+The final choice of our new logo rests with [Dmitriy](https://twitter.com/dzaporozhets).
