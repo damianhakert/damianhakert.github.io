@@ -72,6 +72,19 @@ You can turn off the version check under Admin > Settings.
 
 ## License keys for Enterprise Edition
 
+GitLab Enterprise Edition lives in a private repository, which was fine up
+until now. However, with the addition of our package server, we want
+to make it easier to start using GitLab Enterprise Edition.
+
+Rather than locking up our package repository of GitLab EE, we decided to
+open up all the code and packages and start using license keys.
+
+This has several advantages. Installation of GitLab EE becomes as easy as
+installing GitLab CE. You no longer needs access to specific repositories,
+rather you can download it using the same methods.
+In addition, the code for Enterprise Edition is now becoming open to inspect
+for everyone.
+
 ## Two-Factor Authentication for LDAP / Active Directory (EE only)
 
 ## New GitLab CI Features
