@@ -27,17 +27,17 @@ more pretty:
 ## Clean project dashboard
 
 The project dashboard was a good example of design by commission, one GitLab
-contributed noted. We broomed through it and cleaned it up:
+contributor noted. We broomed through it and cleaned it up:
 
 ![scree](ss)
 
 ## Two-factor authentication
 
-Keep your code secure and start using two-factor authentication (2FA)!
+Keep your code more secure and start using two-factor authentication (2FA)!
 GitLab has built-in 2FA in both CE and EE now and makes use of the convenient
 Google Authenticator.
 
-All you have to do is go to your profile/account and scan the QR code using
+All you have to do is go to your Profile > Account and scan the QR code using
 Google's app.
 
 ![ss](ss)
@@ -47,7 +47,7 @@ for GitLab.
 
 ## User roles in comments
 
-Now you know who's who's in your favorite project. On comments you will see
+Now you know who's who in your favorite project. On comments you will see
 the role of the person in that project:
 
 ![ss](ss)
