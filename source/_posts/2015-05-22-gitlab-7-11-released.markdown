@@ -51,15 +51,24 @@ for GitLab.
 Now you know who's who in your favorite project. On comments you will see
 the role of the person in that project:
 
-![ss](ss)
+![not an actual conversation](/images/7_11/roles.png)
 
 ## Task lists everywhere
 
 Want a task list in the comments? Now you can!
 
-![ss](ss)
+![Task list in comments](/images/7_11/task.png)
 
 ## Version Check
+
+GitLab releases a new version _every single month on the 22nd_, so we understand
+it that people sometimes miss a new release. We wanted to give you some help with
+this, so from now on you can quickly see which version of GitLab you have running
+by visiting the Help or Admin page.
+
+Read more about the version check in our [blog post about it.](https://about.gitlab.com/2015/05/07/version-check/)
+
+You can turn off the version check under Admin > Settings.
 
 ## License keys for Enterprise Edition
 
