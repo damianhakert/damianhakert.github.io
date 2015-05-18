@@ -84,10 +84,19 @@ HipChat notifications!
 
 ## Other awesome changes
 
-- reply quoting selected text
-- atom feed project activity
-- Add default project and snippet visibility settings to the admin web UI.
-- improved UI for mobile
+We can never cover all the new stuff in each GitLab release, but these
+are worth to have a quick look at as well:
+
+**Quick quote-reply** You can now reply with a quotation by simply selecting text in an issue
+or merge request and pressing `r`. It will set the focus to the editing window
+and have the quoted text already in it!
+
+**Atom feeds for all!** There is now an atom feed for each project!
+
+**Settings in admin UI** We moved default project and snippet visibility settings
+to the admin web interface.
+
+**Improved UI for mobile** GitLab is now better viewable on mobile!
 
 This release has more improvements, including security fixes, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
