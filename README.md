@@ -78,6 +78,7 @@ You can link to the authors twitter account with:
 * [Autodeploy](doc/autodeploy.md)
 * [Recurly](doc/recurly.md)
 * [Redirects](doc/redirect_blogposts_org_to_com.md)
+* [Add a team member to GitLab's website's step by step](add_member_to_team_page.md)
 
 ## Create release blog post
 
