@@ -1,19 +1,21 @@
 ---
 layout: post
 title: "Simple words for a GitLab Newbie"
-date: 2015-05-08
+date: 2015-05-18
 comments: true
 author: Karen Carias
 author_twitter: myvineste
-image_title: 'images/unsplash/nqr33LlRR66jA3Ez9mX7_fox-in-the-forest-by-jose-inesta.jpg'
+image_title: '/images/unsplash/water.jpg'
 ---
-For most of us, when we work with a new tool, there's a process of learning the right vocabulary and the best steps to make things happen; this while we try to keep the best attitude. Not very long ago, I learned how to use Git and GitLab and it was a little bit painful. I read a lot about it, but it was mostly vocabulary that didn't make any sense to me. If you've been there or if you are there now, you'll know what I'm talking about (some people may have it naturally). 
+
+For most of us, when we work with a new tool, there's a process of learning the right vocabulary and the best steps to make things happen; this while we try to keep the best attitude. Not very long ago, I learned how to use Git and GitLab and it was a little bit painful. I read a lot about it, but it was mostly vocabulary that didn't make any sense to me. If you've been there or if you are there now, you'll know what I'm talking about (some people may have it naturally).
+
 So, to make this learning process easier for others, I took many of the basic Git vocabulary and wrote easy definitions for each word. I hope they are useful for you and please share them with your Git and Gitlab newbie friends!
 
 <!--more-->
 
 ## Cloud Based Services
-What is a cloud based service? It’s a service or resource that is opposed to services that are hosted on the servers inside a company, which is the traditional way of doing it. It helps people and companies lower their costs and be more efficient while helping with different functions such as trannings, storage, etc. 
+What is a cloud based service? It’s a service or resource that is opposed to services that are hosted on the servers inside a company, which is the traditional way of doing it. It helps people and companies lower their costs and be more efficient while helping with different functions such as trannings, storage, etc.
 GitLab.com is a cloud based service because it can be hosted both in house and in the cloud.
 
 ## Source control or revision control software
@@ -29,8 +31,8 @@ Non-continuous integration would be everyone working on something and only integ
 
 ## Git
 What is Git? Git is a system where you can create projects of different sizes with speed and efficiency. It helps you manage code, communicate and collaborate on different software projects.
-Git will allow you to go back to a previous status on a project or to see its entire evolution since the project was created. 
-You could think of it as a time machine which will allow you to go back in time to whenever you’d like in your project. 
+Git will allow you to go back to a previous status on a project or to see its entire evolution since the project was created.
+You could think of it as a time machine which will allow you to go back in time to whenever you’d like in your project.
 With Git, 3 basic issues were solved when working on projects:
 1. It became easier to manage large projects.
 2. It helps you avoid overwriting the team’s advances and work.
@@ -58,12 +60,12 @@ What is a fork? It’s a copy of an original repository (the place where the his
 What is a clone? It’s to get a copy of a git project to look at or to use the code.
 
 ## Git Merge
-What is to merge? It’s integrating separate changes that you made to a project, on different branches. 
+What is to merge? It’s integrating separate changes that you made to a project, on different branches.
 
 ## md: markdown
 What is markdown? It’s a plain text format that will make any document easy-to-write and easy-to-read.
 
-## Push a repository 
+## Push a repository
 What is to push a repository? It’s to incorporate a local branch (the independent line of development of a project) to a remote repository (online version of your project).
 
 ## README.md
@@ -76,9 +78,8 @@ What is SSH? It’s how you call the commands that help communicate through a ne
 What is to stage a file? It’s how you call the act of preparing a file for a commit (the latest changes of source code in a repository).
 
 ## GitLab
-What is GitLab? GitLab is an online Git repository manager with a wiki, issue tracking, CI and CD. It is a great way to manage git repositories on a centralized server. GitLab gives you complete control over your repositories or projects and allows you to decide whether they are public or private for free. 
+What is GitLab? GitLab is an online Git repository manager with a wiki, issue tracking, CI and CD. It is a great way to manage git repositories on a centralized server. GitLab gives you complete control over your repositories or projects and allows you to decide whether they are public or private for free.
 
-GitLab Services: 
 ### GitLab.com
 * GitLab.com hosts your (private) software projects for free.
 * It offers free public and private repositories, issue-tracking and wikis.
@@ -97,9 +98,9 @@ Support Package:
 
 ### GitLab Enterprise Edition (EE)
 * Self hosted application that comes with additional support.
-* Builds on top of the Community Edition and includes extra features mainly aimed at organizations with more than 100 users. 
-* It has LDAP group sync, audit logs and multiple roles. 
-* It includes deeper authentication and authorization integration, has fine-grained workflow management, has extra server management options and it integrates with your tool stack. 
+* Builds on top of the Community Edition and includes extra features mainly aimed at organizations with more than 100 users.
+* It has LDAP group sync, audit logs and multiple roles.
+* It includes deeper authentication and authorization integration, has fine-grained workflow management, has extra server management options and it integrates with your tool stack.
 * GitLab EE runs on your servers.
 
 ### GitLab Continuous Integration (CI)
