@@ -1,9 +1,11 @@
 # How to add a team member to GitLab’s website step by step
 
 ## Add your picture
+Note: in some of these steps, your terminal will require you to add your gitlab.com username and password. Also, make sure that you already created your SSH keys for gitlab.com.
+
 1. Find the picture that you’d like to add.
 
-2. Go to your terminal and add a copy of the www-gitlab-com repository (you can find the HTTPS on the project in gitlab.com)
+2. Go to your terminal and add a copy of the www-gitlab-com repository (you can find the HTTPS on the project in gitlab.com). Make sure that your gitlab repository is not duplicated. If it is and you're having trouble, delete all of the www-gitlab-com files in your computer and copy the repository again.
 ```
 git clone `PASTE HERE THE HTTPS FROM THE WWW-GITLAB-COM REPO`
 ```
@@ -23,7 +25,9 @@ cd www-gitlab-com
 cd source
 cd images
 cd team
-Create a new branch
+```
+    Create a new branch
+```
 git checkout -b `NAME OF YOUR BRANCH`
 ```
 	Check if your picture was correctly added to the “team” file
@@ -36,7 +40,7 @@ git status
 ```
     Add your changes to the branch
 ```
-add `NAME OF YOUR PICTURE`
+git add `NAME OF YOUR PICTURE`
 ```
 	Check the status and you should see your picture’s name in green
 ```		
@@ -105,4 +109,4 @@ If you need to start a new line to add your description on the website's page:
 
 5. Add your commit comments and click on “Commit Changes”.
 
-6. Add a merge request and assign it to someone to review and approve it. 
+6. Add a merge request and assign it to someone to review and approve it.
