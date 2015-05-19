@@ -16,7 +16,12 @@ two-factor authentication, a version check and more!
 Of course we're also releasing GitLab CI 7.11, with a new backup and restore
 utility, improvements in the UI and some other new features.
 
-MVP
+This months MVP is [James Newton](http://jamesnewton.com/)!
+James is very active on our `#gitlab` IRC channel, often helping people out
+with issues or helping people getting started with GitLab. We're very
+happy to have James supporting the community and believe that is deserving
+of a MVP award!
+Thanks James!
 
 ## Better looking sidebar
 
@@ -44,7 +49,7 @@ Google's app.
 ![ss](ss)
 
 From now on, on login you'll be required to provide the code the app gives you
-for GitLab.
+for GitLab. Two-factor authentication only works with the web-UI for now.
 
 ## User roles in comments
 
