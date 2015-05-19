@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab 7.11 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 7.11 released with Two-factor Authentication and a publicly viewable Enterprise Edition"
 date: 2015-05-22
 comments: true
 categories:
@@ -27,7 +27,7 @@ more pretty:
 
 ## Clean project dashboard
 
-The project dashboard was a good example of design by commission, one GitLab
+The project dashboard was a good example of design by committee, one GitLab
 contributor noted. We broomed through it and cleaned it up:
 
 ![scree](ss)
@@ -62,7 +62,7 @@ Want a task list in the comments? Now you can!
 ## Version Check
 
 GitLab releases a new version _every single month on the 22nd_, so we understand
-it that people sometimes miss a new release. We wanted to give you some help with
+that people sometimes miss a new release. We wanted to give you some help with
 this, so from now on you can quickly see which version of GitLab you have running
 by visiting the Help or Admin page.
 
@@ -111,17 +111,26 @@ to the admin web interface.
 
 **Improved UI for mobile** GitLab is now better viewable on mobile!
 
-**WIP your MRs!** If you add `WIP` to the title of a merge request,
+**WIP your MRs!** If you add `WIP` or `[WIP]` to the start of the title of a merge request,
 it will be protected from merging now.
 
 This release has more improvements, including security fixes, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
 ### Upgrade barometer
 
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
-*** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
+Coming from 7.10, the migrations in 7.11 are pretty fast (under 1 minute), but one of them is tricky:
+we rename any existing users with names ending in a period ('.').
+This migration updates both the database and the filesystem and previous versions
+of this migration have proven to be fragile.
 
+If you have no user namespaces with paths ending in '.' in your database and if you trust your users not to
+create any until after you upgrade to GitLab 7.11 you can perform this upgrade online.
+If not, we recommend to take downtime (this is what we did for gitlab.com).
+You can find the current number of affected database records with the following command:
+
+```
+ sudo gitlab-rails runner "puts Namespace.where(type: nil).where(%q{path LIKE '%.'}).count"
+```
 - - -
 
 ## Installation
@@ -132,6 +141,9 @@ If you are setting up a new GitLab installation please see the [installing GitLa
 
 Check out our [update page](https://about.gitlab.com/update/).
 
+Please note that cookbook-omnibus-gitlab, our Chef cookbook that installs/manages GitLab omnibus packages,
+does not yet support packages.gitlab.com. See [this issue](https://gitlab.com/gitlab-org/cookbook-omnibus-gitlab/issues/8).
+
 ## Enterprise Edition
 
 The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
@@ -139,6 +151,6 @@ For a complete overview please have a look at the [feature list of GitLab EE](ht
 
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing/).
 No time to upgrade GitLab yourself?
-A subscription also entitles to our upgrade and installation services.
+A subscription also entitles you to our upgrade and installation services.
 
 - - -

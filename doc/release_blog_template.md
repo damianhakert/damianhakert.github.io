@@ -108,6 +108,6 @@ For a complete overview please have a look at the [feature list of GitLab EE](ht
 
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing/).
 No time to upgrade GitLab yourself?
-A subscription also entitles to our upgrade and installation services.
+A subscription also entitles you to our upgrade and installation services.
 
 - - -
