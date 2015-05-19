@@ -16,7 +16,7 @@ two-factor authentication, a version check and more!
 Of course we're also releasing GitLab CI 7.11, with a new backup and restore
 utility, improvements in the UI and some other new features.
 
-This months MVP is [James Newton](http://jamesnewton.com/)!
+This months MVP is [James Newton](http://jamesnewton.com/) (newton on IRC)!
 James is very active on our `#gitlab` IRC channel, often helping people out
 with issues or helping people getting started with GitLab. We're very
 happy to have James supporting the community and believe that is deserving
@@ -28,14 +28,14 @@ Thanks James!
 We changed the look of the sidebar to reflect its function better and make it look
 more pretty:
 
-![screen](screensht)
+![The new sidebar in GitLab 7.11](/images/7_11/sidebar.png)
 
 ## Clean project dashboard
 
 The project dashboard was a good example of design by committee, one GitLab
 contributor noted. We broomed through it and cleaned it up:
 
-![scree](ss)
+![Project Dashboard in GitLab 7.11](/images/7_11/project.png)
 
 ## Two-factor authentication
 
@@ -46,7 +46,7 @@ Google Authenticator.
 All you have to do is go to your Profile > Account and scan the QR code using
 Google's app.
 
-![ss](ss)
+![two-factor authentication](/images/7_11/2fa.png)
 
 From now on, on login you'll be required to provide the code the app gives you
 for GitLab. Two-factor authentication only works with the web-UI for now.
@@ -118,6 +118,8 @@ to the admin web interface.
 
 **WIP your MRs!** If you add `WIP` or `[WIP]` to the start of the title of a merge request,
 it will be protected from merging now.
+
+![WIP blocking the merge request of this blog post!](/images/7_11/wip.png)
 
 This release has more improvements, including security fixes, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
