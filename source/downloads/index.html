@@ -12,14 +12,14 @@ platforms:
   install_commands: |
                     sudo apt-get install gitlab-ce
   dependency_commands: |
-                     sudo apt-get install openssh-server ca-certificates postfix
+                     sudo apt-get install curl openssh-server ca-certificates postfix
 - name: ubuntu1404
   long_name: Ubuntu 14.04
   download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
   install_commands: |
                     sudo apt-get install gitlab-ce
   dependency_commands: |
-                    sudo apt-get install openssh-server ca-certificates postfix
+                    sudo apt-get install curl openssh-server ca-certificates postfix
 
 - name: debian7
   long_name: Debian 7
@@ -27,21 +27,21 @@ platforms:
   install_commands: |
                     sudo apt-get install gitlab-ce
   dependency_commands: |
-                    sudo apt-get install openssh-server ca-certificates postfix
+                    sudo apt-get install curl openssh-server ca-certificates postfix
 - name: debian8
   long_name: Debian 8
   download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
   install_commands: |
                     sudo apt-get install gitlab-ce
   dependency_commands: |
-                    sudo apt-get install openssh-server ca-certificates postfix
+                    sudo apt-get install curl openssh-server ca-certificates postfix
 - name: centos6
   long_name: CentOS 6 (and RedHat/Oracle/Scientific Linux 6)
   download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
   install_commands: |
                     sudo yum install gitlab-ce
   dependency_commands: |
-                    sudo yum install openssh-server postfix cronie
+                    sudo yum install curl openssh-server postfix cronie
                     sudo service postfix start
                     sudo chkconfig postfix on
 
@@ -52,7 +52,7 @@ platforms:
   install_commands: |
                     sudo yum install gitlab-ce
   dependency_commands: |
-                    sudo yum install openssh-server
+                    sudo yum install curl openssh-server
                     sudo systemctl enable sshd
                     sudo systemctl start sshd
                     sudo yum install postfix
