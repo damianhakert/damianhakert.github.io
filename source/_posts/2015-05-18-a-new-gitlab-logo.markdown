@@ -19,12 +19,28 @@ We have a scary, angry looking raccoon dog logo.
 
 We figured we could use a better representation of GitLab.
 
-We had some designs made and want to share them with you. If you like any
-or have a better suggestion, we'd love to hear it.
-
 <!-- more -->
 
+**Update May 20th:**
+
+After careful consideration we have decided that this is our new logo:
+
 ![new GitLab Logo option A](/images/new_logo/A.jpg)
+
+We like the way it looks in GitLab:
+
+![The new logo in GitLab](/images/new_logo/l2.png)
+![The new logo in GitLab, different color scheme](/images/new_logo/l3.png)
+
+And compared to the old logo:
+
+![New vs. old GitLab logo](/images/new_logo/l1.png)
+
+
+---
+
+The options we didn't pick:
+
 ![new GitLab Logo option B](/images/new_logo/B.jpg)
 ![new GitLab Logo option C](/images/new_logo/C.jpg)
 ![new GitLab Logo option D](/images/new_logo/D.jpg)
