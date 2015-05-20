@@ -116,7 +116,7 @@ server {
      proxy_set_header  X-Real-IP  $remote_addr;
   }
   location ~*  \.(jpg|jpeg|png|gif|ico|css|js)$ {
-   expires 365d;
+   expires 60m;
   }
   location ~ ^/webhook$ {
     proxy_pass http://localhost:5555;
