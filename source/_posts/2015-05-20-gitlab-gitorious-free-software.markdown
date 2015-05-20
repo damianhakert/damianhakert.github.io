@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitLab, Gitorious, and Free Software"
-date: 2015-05-15
+date: 2015-05-20
 comments: true
 author: Mike Gerwitz
 license: CC-BY-SA 3.0
@@ -258,7 +258,7 @@ community, I find his actions to be very encouraging.
 [20]: https://lists.gnu.org/archive/html/libreplanet-discuss/2015-03/msg00095.html
 [21]: https://www.gnu.org/software/librejs/free-your-javascript.html
 [22]: https://github.com/phusion/juvia
-[23]: https://www.fsf.org/blogs/rms/selling-exceptions 
+[23]: https://www.fsf.org/blogs/rms/selling-exceptions
 [24]: https://gnu.org/software/easejs
 [25]: http://creativecommons.org/licenses/by-sa/3.0/
 [26]: https://www.gnu.org/licenses/license-list.html
