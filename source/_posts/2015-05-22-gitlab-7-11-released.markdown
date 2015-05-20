@@ -82,13 +82,24 @@ until now. However, with the addition of our package server, we want
 to make it easier to start using GitLab Enterprise Edition.
 
 Rather than locking up our package repository of GitLab EE, we decided to
-open up all the code and packages and start using license keys.
+open up all the code and packages and start using license keys. The code
+is still proprietary, but now publicly viewable.
 
 This has several advantages. Installation of GitLab EE becomes as easy as
 installing GitLab CE. You no longer needs access to specific repositories,
 rather you can download it using the same methods.
+
 In addition, the code for Enterprise Edition is now becoming open to inspect
-for everyone.
+for everyone. This will make it easier to send enhancements and makes it easier
+to do a trial of Enterprise Edition.
+
+### How to get the license key
+
+If you are currently a GitLab customer, you will receive your license
+key at the email you registered with your payment. You can also email
+`sales at gitlab dot com` to request it at any time.
+
+New subscribers will receive their license key automatically.
 
 ## Two-Factor Authentication for LDAP / Active Directory (EE only)
 
