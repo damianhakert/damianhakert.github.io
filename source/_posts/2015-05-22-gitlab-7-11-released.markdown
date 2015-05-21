@@ -18,7 +18,7 @@ utility, improvements in the UI and other new features.
 
 <!-- more -->
 
-This months MVP is [James Newton](http://jamesnewton.com/) (newton on IRC)!
+This month's MVP is [James Newton](http://jamesnewton.com/) (newton on IRC)!
 James is very active on our `#gitlab` IRC channel, often helping people out
 with issues or helping people getting started with GitLab. We're very
 happy to have James supporting the community and believe that is deserving
