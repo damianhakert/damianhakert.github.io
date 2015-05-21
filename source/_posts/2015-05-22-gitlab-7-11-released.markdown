@@ -69,9 +69,10 @@ Want a task list in the comments? Now you can!
 ## Version Check
 
 GitLab releases a new version _every single month on the 22nd_, so we understand
-that people sometimes miss a new release. We wanted to give you some help with
+that people are not always up to date. We wanted to give you some help with
 this, so from now on you can quickly see which version of GitLab you have running
-by visiting the Help or Admin page.
+by visiting the Help or Admin page. It will show if you are up to date and
+if there is a security release you should have installed.
 
 Read more about the version check in our [blog post about it.](https://about.gitlab.com/2015/05/07/version-check/)
 
@@ -79,21 +80,41 @@ You can turn off the version check under Admin > Settings.
 
 ## License keys for Enterprise Edition
 
-GitLab Enterprise Edition lives in a private repository, which was fine up
+GitLab Enterprise Edition used to live in a private repository, which was fine up
 until now. However, with the addition of our package server, we want
 to make it easier to start using GitLab Enterprise Edition.
 
-Rather than locking up our package repository of GitLab EE, we decided to
-open up all the code and packages and start using license keys. The code
-is still proprietary, but now publicly viewable.
+Rather than locking up the package repository of GitLab EE, we decided to
+open up all the code and [packages](https://packages.gitlab.com/gitlab/gitlab-ee) and start using license keys. The code
+is still proprietary, but now is [publicly viewable](https://gitlab.com/gitlab-org/gitlab-ee/).
 
-This has several advantages. Installation of GitLab EE becomes as easy as
+This has several advantages. The installation of GitLab EE becomes as easy as
 installing GitLab CE. You no longer needs access to specific repositories,
-rather you can download it using the same methods.
+rather you can download it using the same methods as CE (including AWS/Azure templates, Docker images, etc).
 
 In addition, the code for Enterprise Edition is now becoming open to inspect
 for everyone. This will make it easier to send enhancements and makes it easier
 to do a trial of Enterprise Edition.
+
+Getting organizations to purchase a subscripton after their trial expires or at renewal time sometimes took a substancial effort from us.
+We don't want to raise prices for customers that renew without prompting because we need to invest more time in unresponsive customers.
+Therefor we decided to introduce license keys that prompt customers automatically.
+We regret the inconvenience that license keys introduce but we think it is the best solution to keep prices low.
+
+## True-up model for subscriptions
+
+The worst thing about license keys is that they can be very inflexible.
+Most GitLab installations quickly grow in popularity within the organization.
+Having to purchase a new license key every time this happens is very inefficient.
+The majority of our customers did not have a complient subscription because already outgrew it.
+
+Therefore we support a true-up model that allows you to grow now and pay later.
+When you get a new license you should get it for your current number of active users.
+For users that are added during the year you pay half price when you renew.
+
+So if you have 100 active users today you get a 100 user subscription.
+Suppose that when you renew a year from now you have 300 active users.
+You pay for a 300 user subscription and pay half a year for the 200 users that you added during the year.
 
 ### Getting the license key
 
