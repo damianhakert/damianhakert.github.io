@@ -106,7 +106,7 @@ We regret the inconvenience that license keys introduce but we think it is the b
 The worst thing about license keys is that they can be very inflexible.
 Most GitLab installations quickly grow in popularity within the organization.
 Having to purchase a new license key every time this happens is very inefficient.
-The majority of our customers did not have a complient subscription because already outgrew it.
+The majority of our customers did not have a compliant subscription because already outgrew it.
 
 Therefore we support a true-up model that allows you to grow now and pay later.
 When you get a new license you should get it for your current number of active users.
