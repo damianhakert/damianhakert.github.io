@@ -45,3 +45,7 @@ so we can keep them up to date. For this we either need to cross-compile them (c
 or build them on ARM servers (hard to find).
 
 We welcome suggestions on this subject.
+
+### Update
+
+If you are using GitLab in your Raspberry Pi, it works exactly the same way as it does regularly. You can use GitLab's user documentation as a guide. 
