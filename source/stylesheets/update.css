@@ -1,5 +1,6 @@
 body {
   background: #548;
+  font-size: 15px;
 }
 
 a:hover {
@@ -54,6 +55,8 @@ a:hover {
   color: white;
   text-decoration: underline;
   padding-top: 4px;
+  padding-bottom: 29px;
+
 }
 
 p.answer {
@@ -62,4 +65,10 @@ p.answer {
 
 .row div:nth-child(2) h5:nth-child(5){
   margin: 30px 0;
+}
+
+.content-wrap {
+  max-width: 700px;
+  padding-top: 28px;
+  margin: 0 auto;
 }
