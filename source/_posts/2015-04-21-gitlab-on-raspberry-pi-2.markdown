@@ -48,4 +48,4 @@ We welcome suggestions on this subject.
 
 ### Update
 
-If you are using GitLab in your Raspberry Pi, it works exactly the same way as it does regularly. You can use GitLab's user documentation as a guide. 
+If you are using GitLab in your Raspberry Pi, it works exactly the same way as it does regularly. You can use GitLab's official user documentation as a guide.
