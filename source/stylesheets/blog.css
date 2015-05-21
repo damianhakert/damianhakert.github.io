@@ -120,11 +120,14 @@ article {
 
 .blog-entry h2 {
   font-size: 35px;
+  font-weight: 200;
+  margin-top: 45px;
 }
 
 .blog-entry h3 {
   font-size: 30px;
-  color: #565656;
+  color: #7C7C7C;
+  font-weight: 200;
 }
 
 .blog-entry p {
@@ -302,4 +305,8 @@ ul.post-list > li > time {
   font-weight: 600;
   font-size: 16px;
   line-height: normal;
+}
+
+.full-post {
+  background: white;
 }

@@ -14,7 +14,9 @@ GitLab 7.11 brings more improvements to the look and feel of GitLab,
 two-factor authentication, a version check and more!
 
 Of course we're also releasing GitLab CI 7.11, with a new backup and restore
-utility, improvements in the UI and some other new features.
+utility, improvements in the UI and other new features.
+
+<!-- more -->
 
 This months MVP is [James Newton](http://jamesnewton.com/) (newton on IRC)!
 James is very active on our `#gitlab` IRC channel, often helping people out
@@ -93,22 +95,35 @@ In addition, the code for Enterprise Edition is now becoming open to inspect
 for everyone. This will make it easier to send enhancements and makes it easier
 to do a trial of Enterprise Edition.
 
-### How to get the license key
+### Getting the license key
 
-If you are currently a GitLab customer, you will receive your license
-key at the email you registered with your payment. You can also email
+If you are currently a GitLab customer, you should have received your license
+key already at the email you registered with your payment. You can also email
 `sales at gitlab dot com` to request it at any time.
 
 New subscribers will receive their license key automatically.
 
-## Two-Factor Authentication for LDAP / Active Directory (EE only)
+### Installing the license key
+
+To install the license, vist `/admin/license` in your GitLab instance as an
+admin. Here you can upload your `.gitlab-license` file, which will instantly
+unlock GitLab Enterprise Edition.
+
+![Installing your license](/images/7_11/license.png)
+
+You can also download and review your current license here.
+
+## Two-Factor Authentication for LDAP / Active Directory (EE-only)
+
+Want to use two-factor authentication together with your LDAP or Active Directory
+integration? With GitLab Enterprise Edition you can.
 
 ## New GitLab CI Features
 
 With the release of GitLab 7.11, we also updated GitLab CI to 7.11.
 Some changes worth mentioning are an improved runners page,
 public accessible build and commit pages for public projects
-,a new backup/restore utility that will backup your CI database and
+, a new backup/restore utility that will backup your CI database and
 HipChat notifications!
 
 ## Other awesome changes
@@ -164,7 +179,7 @@ does not yet support packages.gitlab.com. See [this issue](https://gitlab.com/gi
 
 ## Enterprise Edition
 
-The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
+The mentioned EE-only features and things like LDAP group support can be found in GitLab Enterprise Edition.
 For a complete overview please have a look at the [feature list of GitLab EE](http://www.gitlab.com/gitlab-ee/).
 
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing/).
