@@ -98,7 +98,7 @@ to do a trial of Enterprise Edition.
 
 Getting organizations to purchase a subscripton after their trial expires or at renewal time sometimes took a substantial effort from us.
 We don't want to raise prices for customers that renew without prompting because we need to invest more time in unresponsive customers.
-Therefor we decided to introduce license keys that prompt customers automatically.
+Therefore we decided to introduce license keys that prompt customers automatically.
 We regret the inconvenience that license keys introduce but we think it is the best solution to keep prices low.
 
 ## True-up model for subscriptions
@@ -106,9 +106,9 @@ We regret the inconvenience that license keys introduce but we think it is the b
 The worst thing about license keys is that they can be very inflexible.
 Most GitLab installations quickly grow in popularity within the organization.
 Having to purchase a new license key every time this happens is very inefficient.
-The majority of our customers did not have a compliant subscription because already outgrew it.
+Also, we noticed that the majority of our customers didn't have a compliant subscription, for us this indicates that having to renew the subscription multiple times a year is very inconvenient.
 
-Therefore we support a true-up model that allows you to grow now and pay later.
+Therefore we will switch to a true-up model that allows you to grow now and pay later.
 When you get a new license you should get it for your current number of active users.
 For users that are added during the year you pay half price when you renew.
 
