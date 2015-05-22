@@ -177,7 +177,7 @@ it will be protected from merging now.
 
 This release has more improvements, including security fixes, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
-### Upgrade barometer
+## Upgrade barometer
 
 Coming from 7.10, the migrations in 7.11 are pretty fast (under 1 minute), but one of them is tricky:
 we rename any existing users with names ending in a period ('.').
