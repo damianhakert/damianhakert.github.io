@@ -5,6 +5,7 @@ date: 2015-05-22
 comments: true
 categories:
 author: Job van der Voort
+author_twitter: Jobvo
 filename: 2015-05-22-gitlab-7-11-released.markdown
 image_title: /images/7_11/ny.jpg
 ---
