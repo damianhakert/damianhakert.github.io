@@ -94,12 +94,11 @@ feel that they should instead support other projects; this, in turn, means
 not supporting GitLab by using and drawing attention to their hosting
 services.
 
-The copyleft vs. permissive licensing debate is one of the "holy wars" of
-the free software movement.  I do not wish to get into such a war
-here.  One thing is clear: GitLab Community Edition (GitLab CE) is free
-software.  Richard Stallman (RMS)
-[responded directly to the thread on `libreplanet-discuss`][20], stating
-plainly:
+The copyleft vs. permissive licensing debate is one of the free software
+movement's most heated.  I do not wish to get into such a debate here.  One
+thing is clear: GitLab Community Edition (GitLab CE) is free
+software.  Richard Stallman (RMS) [responded directly to the thread on
+`libreplanet-discuss`][20], stating plainly:
 
 >  We have a simple way of looking at these two versions.  The free
 >  version is free software, so it is ethical.  The nonfree version is
@@ -173,10 +172,9 @@ isn't yet publicly visible, so here is the relevant snippet from its
 > The above copyright notices applies only to the part of this Software that
 > is not distributed as part of GitLab Community Edition (CE), and that is
 > not a file that produces client-side JavaScript, in whole or in part. Any
-> part of this Software distributed as part of GitLab CE or that is not a
-> file that produces client-side JavaScript, in whole or in part, is
-> copyrighted under the MIT Expat license.
-
+> part of this Software distributed as part of GitLab CE or that is a file
+> that produces client-side JavaScript, in whole or in part, is copyrighted
+> under the MIT Expat license.
 
 ## Further Discussion
 My discussions with Sytse did not end there: there are other topics that
