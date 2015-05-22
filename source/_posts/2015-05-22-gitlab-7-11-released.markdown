@@ -137,6 +137,10 @@ unlock GitLab Enterprise Edition.
 
 You can also download and review your current license here.
 
+_Please note that we will release GitLab 7.10.5 soon, that will allow you to
+upload the license key to your GitLab instance before upgrading, to avoid
+unnecessary downtime._
+
 ## Two-Factor Authentication for LDAP / Active Directory (EE-only)
 
 Want to use two-factor authentication together with your LDAP or Active Directory
