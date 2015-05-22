@@ -96,10 +96,13 @@ In addition, the code for Enterprise Edition is now becoming open to inspect
 for everyone. This will make it easier to send enhancements and makes it easier
 to do a trial of Enterprise Edition.
 
-Getting organizations to purchase a subscripton after their trial expires or at renewal time sometimes took a substantial effort from us.
-We don't want to raise prices for customers that renew without prompting because we need to invest more time in unresponsive customers.
+Getting organizations to purchase a subscription after their trial expires or
+at renewal time sometimes took a substantial effort from us.
+We don't want to raise prices for customers that renew without prompting because
+we need to invest more time in unresponsive customers.
 Therefore we decided to introduce license keys that prompt customers automatically.
-We regret the inconvenience that license keys introduce but we think it is the best solution to keep prices low.
+We regret the inconvenience that license keys introduce
+but we think it is the best solution to keep prices low.
 
 ## True-up model for subscriptions
 
