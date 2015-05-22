@@ -172,10 +172,9 @@ isn't yet publicly visible, so here is the relevant snippet from its
 > The above copyright notices applies only to the part of this Software that
 > is not distributed as part of GitLab Community Edition (CE), and that is
 > not a file that produces client-side JavaScript, in whole or in part. Any
-> part of this Software distributed as part of GitLab CE or that is not a
-> file that produces client-side JavaScript, in whole or in part, is
-> copyrighted under the MIT Expat license.
-
+> part of this Software distributed as part of GitLab CE or that is a file
+> that produces client-side JavaScript, in whole or in part, is copyrighted
+> under the MIT Expat license.
 
 ## Further Discussion
 My discussions with Sytse did not end there: there are other topics that
