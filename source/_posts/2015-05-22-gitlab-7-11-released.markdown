@@ -170,7 +170,7 @@ to the admin web interface.
 
 **Improved UI for mobile** GitLab is now better viewable on mobile!
 
-**WIP your MRs!** If you add `WIP` or `[WIP]` to the start of the title of a merge request,
+**WIP your MRs!** If you add `WIP` or `[WIP]` (work in progress) to the start of the title of a merge request,
 it will be protected from merging now.
 
 ![WIP blocking the merge request of this blog post!](/images/7_11/wip.png)
