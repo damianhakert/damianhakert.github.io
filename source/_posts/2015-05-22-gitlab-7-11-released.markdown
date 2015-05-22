@@ -160,7 +160,7 @@ public accessible build and commit pages for public projects
 , a new backup/restore utility that will backup your CI database and
 HipChat notifications!
 
-## Other awesome changes
+## Other awesome changes in GitLab CE
 
 We can never cover all the new stuff in each GitLab release, but these
 are worth to have a quick look at as well:
@@ -210,6 +210,8 @@ Check out our [update page](https://about.gitlab.com/update/).
 
 Please note that cookbook-omnibus-gitlab, our Chef cookbook that installs/manages GitLab omnibus packages,
 does not yet support packages.gitlab.com. See [this issue](https://gitlab.com/gitlab-org/cookbook-omnibus-gitlab/issues/8).
+
+If you’re coming from Omnibus, use [this guide](https://about.gitlab.com/upgrade-to-package-repository/) to upgrade.
 
 ## Enterprise Edition
 
