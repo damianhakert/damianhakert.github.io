@@ -162,7 +162,7 @@ public accessible build and commit pages for public projects
 , a new backup/restore utility that will backup your CI database and
 HipChat notifications!
 
-## Other awesome changes
+## Other awesome changes in GitLab CE
 
 We can never cover all the new stuff in each GitLab release, but these
 are worth to have a quick look at as well:
