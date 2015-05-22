@@ -17,6 +17,13 @@ two-factor authentication, a version check and more!
 Of course we're also releasing GitLab CI 7.11, with a new backup and restore
 utility, improvements in the UI and other new features.
 
+## Enterprise Edition broken
+
+### Important Notice
+
+There is a bug with the license management part of GitLab Enterprise Edition 7.11.1. It will fail when uploading a
+license file. We are currently working on a fix and will release 7.11.2-ee as soon as possible.
+
 <!-- more -->
 
 This month's MVP is [James Newton](http://jamesnewton.com/) (newton on IRC)!
@@ -80,11 +87,6 @@ Read more about the version check in our [blog post about it.](https://about.git
 You can turn off the version check under Admin > Settings.
 
 ## License keys for Enterprise Edition
-
-### Important Notice
-
-There is a bug with the license management part of GitLab Enterprise Edition 7.11.1. We are currently working on a fix
-and will release 7.11.2-ee as soon as possible.
 
 GitLab Enterprise Edition used to live in a private repository, which was fine up
 until now. However, with the addition of our package server, we want
