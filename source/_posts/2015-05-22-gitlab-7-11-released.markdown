@@ -81,6 +81,11 @@ You can turn off the version check under Admin > Settings.
 
 ## License keys for Enterprise Edition
 
+### Important Notice
+
+There is a bug with the license management part of GitLab EE 7.11.1. We are currently working on a fix
+and will release 7.11.2-ee as soon as possible.
+
 GitLab Enterprise Edition used to live in a private repository, which was fine up
 until now. However, with the addition of our package server, we want
 to make it easier to start using GitLab Enterprise Edition.
