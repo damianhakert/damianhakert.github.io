@@ -24,13 +24,6 @@ happy to have James supporting the community and believe that is deserving
 of a MVP award!
 Thanks James!
 
-## Enterprise Edition broken
-
-### Important Notice
-
-There is a bug with the license management part of GitLab Enterprise Edition 7.11.1. It will fail when uploading a
-license file. We are currently working on a fix and will release 7.11.2-ee as soon as possible.
-
 <!-- more -->
 
 ## Better looking sidebar
