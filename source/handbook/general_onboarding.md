@@ -8,10 +8,10 @@ We use [Slack](https://slack.com), [Google Docs](https://www.google.com/docs/abo
 1. Add yourself to the GitLab Employee Phone List on the team's Google sheets
 1. Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://slack.com) and [Google Drive](https://www.google.com/drive/)
 1. Have your manager provide access to our [Internal GitLab Server](https://dev.gitlab.org) and familiarize yourself with:
-* The dashboard
-* The projects
-* The issue tracker
-* The README.md’s for these projects:
+- The dashboard
+- The projects
+- The issue tracker
+- The README.md’s for these projects:
 ** [GitLab Enterprise Edition](https://dev.gitlab.org/gitlab/gitlab-ee)
 ** [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq)
 ** [GitLab www-gitlab-com](https://dev.gitlab.org/gitlab/www-gitlab-com)
