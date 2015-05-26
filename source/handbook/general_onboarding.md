@@ -7,7 +7,7 @@ We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https:
 
 * Read our [Team Handbook](https://about.gitlab.com/handbook/)
 
-* Add yourself to our Employee Phone List on the team's Google Sheets
+* Add yourself to our [Employee Phone List](https://docs.google.com/spreadsheets/d/1kMPW_eGEOz9HOIHbD8uPCzDWljsDHovS4H5XY8Q12wo/edit#gid=0)
 
 * Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/)
 
@@ -29,7 +29,7 @@ We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https:
 
 * Create an account on our external / public [GitLab Server](https://gitlab.com) and have your manager grant access to the GitLab Enterprise Edition Project, Standard Subscribers Group and other projects / groups relevant to your role
 
-* Review our Team Agenda on the team's Google Docs for daily call
+* Review our [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) for daily call
 
 * Become familiar with [GitLab's Website](https://about.gitlab.com) and the following links:
 
