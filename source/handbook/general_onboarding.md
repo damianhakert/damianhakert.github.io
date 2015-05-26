@@ -60,7 +60,7 @@ We use GitLab Issues to raise awareness, discuss and propose solutions for vario
 
 1. [GitLab www-gitlab-com](https://dev.gitlab.org/gitlab/www-gitlab-com) - Issues related to our website
 
-## Working with Git and GitLab:
+## Working with Git and GitLab
 
 ### Install your SSH Key:
 
