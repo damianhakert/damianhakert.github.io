@@ -1,20 +1,20 @@
-# Onboarding
+# GitLab onboarding
 
 ## General
 We use [Slack](https://slack.com), [Google Docs](https://www.google.com/docs/about/) and [dev.gitab.com](https://dev.gitlab.org) instead of intranet.
 
-1. Follow the git and GitLab course on Platzi https://courses.platzi.com/courses/git-gitlab/ 
-1. Read the Team Handbook
-1. Add yourself to GitLab Employee Phone list
-1. Set-up and familiarize yourself with our apps: gmail, Google Calendar, Slack, drive, 
-1.. Have your manager provide access to our Internal GitLab server and familiarize yourself with:
-* The Dashboard
-* The various projects
-* The Issue Tracker
-* The ReadMe.md’s for these projects:
-** GitLab Enterprise Edition
-** GitLab HQ
-** GitLab www-gitlab-com
+1. Follow the git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/) 
+1. Read the [Team Handbook](https://about.gitlab.com/handbook/)
+1. Add yourself to the GitLab Employee Phone List on the team Google sheets
+1. Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://slack.com) and [Google Drive](https://www.google.com/drive/)
+1. Have your manager provide access to our [Internal GitLab Server](https://dev.gitlab.org) and familiarize yourself with:
+* The dashboard
+* The projects
+* The issue tracker
+* The README.md’s for these projects:
+** [GitLab Enterprise Edition](https://dev.gitlab.org/gitlab/gitlab-ee)
+** [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq)
+** [GitLab www-gitlab-com](https://dev.gitlab.org/gitlab/www-gitlab-com)
 1. Create an account on external/public GitLab server  and have your manager grant access to the GitLab Enterprise Edition Project, Standard Subscribers Group and other projects/groups relevant to your role.
 1. Review Team Agenda for daily call
 1. Become familiar with our website such as:
