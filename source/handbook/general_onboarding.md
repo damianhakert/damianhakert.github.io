@@ -106,7 +106,7 @@ We use GitLab Issues to raise awareness, discuss and propose solutions for vario
 
 1. Write and quit = :wq
 
-### Need to install Ruby Manager and Ruby to create a blog post
+### Install Ruby Manager and Ruby to create a blog post
 
 * Install Ruby Manager
 
