@@ -1,7 +1,7 @@
 # GitLab onboarding
 
 ## General
-We use [Slack](https://slack.com), [Google Docs](https://www.google.com/docs/about/) and [dev.gitab.org](https://dev.gitlab.org) to communicate.
+We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https://www.google.com/docs/about/) and [dev.gitab.org](https://dev.gitlab.org) to communicate.
 
 * Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/) 
 
@@ -9,7 +9,7 @@ We use [Slack](https://slack.com), [Google Docs](https://www.google.com/docs/abo
 
 * Add yourself to our Employee Phone List on the team's Google Sheets
 
-* Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://slack.com) and [Google Drive](https://www.google.com/drive/)
+* Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/)
 
 * Have your manager provide access to our [Internal GitLab Server](https://dev.gitlab.org) and familiarize yourself with:
 
@@ -68,7 +68,7 @@ We use GitLab Issues to raise awareness, discuss and propose solutions for vario
 
 1. Type: cat ~/.ssh/id_rsa.pub
 
-1. Copy SSH Key and paste into [dev.gitlab.org](https://dev.gitlab.org) and [GitLab.com](https://gitlab.com) profile 
+1. Copy SSH Key and paste into [dev.gitlab.org](https://dev.gitlab.org) and [gitlab.com](https://gitlab.com) profile 
 
 1. Click on avatar
 
@@ -112,7 +112,7 @@ We use GitLab Issues to raise awareness, discuss and propose solutions for vario
 
 1. Go to: [https://rvm.io/](https://rvm.io)
 
-1. Paste: \curl -sSL https://get.rvm.io | bash -s stable
+1. Type: \curl -sSL https: //get.rvm.io | bash -s stable
 
 1. Close Terminal
 
@@ -134,6 +134,6 @@ We use GitLab Issues to raise awareness, discuss and propose solutions for vario
 
 1. Type: bundle exec rake preview
 
-1. http://localhost:4000
+1. Type: http: //localhost:4000
 
 To edit an HTML you need to install [text editor](http://www.sublimetext.com/2)
