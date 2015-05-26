@@ -74,3 +74,14 @@ pre {
 .simple-header {
   margin-bottom: 40px !important;
 }
+
+.tab-step {
+  margin: 20px 0px;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.05);
+}
+
+.tab-step a {
+  color: #FFB800;
+}
