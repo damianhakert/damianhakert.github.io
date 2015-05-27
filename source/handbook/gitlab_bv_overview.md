@@ -9,9 +9,9 @@ GitLab B.V has 4 offerings, 3 of which are free:
 1. [GitLab Continuous Integration (CI)](https://about.gitlab.com/gitlab-ci/) - free, self hosted application that integrates with GitLab CE/EE. Also availble as SaaS at [ci.gitlab.com](https://ci.gitlab.com) 
 
 GitLab B.V also offers:
-* [Git and GitLab Training](https://about.gitlab.com/training/) 
-* [Consulting](https://about.gitlab.com/consultancy/) 
-* [Custom Development work](https://about.gitlab.com/development/)
+1. [Git and GitLab Training](https://about.gitlab.com/training/) 
+1. [Consulting](https://about.gitlab.com/consultancy/) 
+1. [Custom Development work](https://about.gitlab.com/development/)
 
 GitLab B.V has two reseller partners in the US:
 * [ReleaseTEAM](http://www.releaseteam.com) 
