@@ -36,7 +36,7 @@ To update, check out our [update page](https://about.gitlab.com/update).
 
 As Enterprise Edition user, if you want to update to 7.10.5 rather than straight to 7.11,
 download and install the Omnibus package
-[here](https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/install/packages.md).
+[at the old download location, here.](https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/install/packages.md).
 For installations from source, use [this guide](https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/update/patch_versions.md).
 
 ## Enterprise Edition
