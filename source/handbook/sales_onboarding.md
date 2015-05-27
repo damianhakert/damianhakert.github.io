@@ -1,4 +1,4 @@
-# Sales onboarding
+# Sales Onboarding
 
 * Have your manager grant access to the [Sales Folder](https://drive.google.com/drive/u/0/#shared-with-me) in our Google Docs. In this folder, familiarize yourself with:
 
