@@ -47,6 +47,8 @@ We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https:
 
 1. [YouTube](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg)
 
+* Add yourself to the team page. Follow this doc with information about how to do it. 
+
 * Learn how to use our Internal Issue Trackers:
 
 We use GitLab Issues to raise awareness, discuss and propose solutions for various issues related to any aspect of our business. The most common Issues are created in the following projects:
