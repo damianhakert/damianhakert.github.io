@@ -47,7 +47,7 @@ We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https:
 
 1. [YouTube](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg)
 
-* Add yourself to the team page. Here's [how to add a team member to the team page](/www-gitlab-com/add_member_to_team_page.md). 
+* Add yourself to the team page. Here's [how to add a team member to the team page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md). 
 
 * Learn how to use our Internal Issue Trackers:
 
