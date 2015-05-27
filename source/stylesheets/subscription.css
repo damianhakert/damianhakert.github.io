@@ -80,9 +80,10 @@ h1, h2, h3, h4, h5, button, a {
   text-align: center;
   transition: all 0.3s;
   display: inline-block;
-  border: 1px solid rgba(0,0,0,0.2);
+  box-shadow: 0 3px 3px rgba(0,0,0,0.1);
   border-radius: 4px;
   margin-top: 10px;
+  background: white;
 }
 
 
@@ -110,7 +111,6 @@ h1, h2, h3, h4, h5, button, a {
 
 .basic.subscription,
 .plus.subscription {
-  top: 64px;
   position: relative;
 }
 
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, button, a {
 .subscription .price {
   font-size: 50px;
   color: #444;
-  padding: 8px;
+  padding: 33px 0px 20px;
   background: #fff;
 }
 
@@ -137,15 +137,14 @@ h1, h2, h3, h4, h5, button, a {
 }
 
 .subscription .subprice {
-  color: #868686;
-  font-size: 18px;
+  color: #A9A9A9;
+  font-size: 15px;
   font-weight: 400;
 }
 
 .subscription .details {
-  border-top: 1px solid #E7E7E7;
-  background: #F9F9F9;
-  padding: 30px;
+  background: #FFFFFF;
+  padding: 11px 30px 20px;
   text-align: left;
 }
 
@@ -185,11 +184,12 @@ h1, h2, h3, h4, h5, button, a {
   padding: 15px;
   background: #e7e7e7;
   display: inline-block;
-  width: 100%;
-  font-size: 16px;
+  width: 95%;
+  margin-bottom: 8px;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: all 0.1s;
   color: #333;
-  transition: all 0.2s;
-  margin-bottom: 4px;
 }
 
 .standard.subscription a.button {
@@ -285,7 +285,10 @@ h1, h2, h3, h4, h5, button, a {
     width: 250px;
   }
   .subscription .detail {
-    font-size: 12px;
+    font-size: 14px;
+  }
+  .subscription .detail .glyphicon {
+    font-size: 19px;
   }
   .basic.subscription,
   .plus.subscription {
@@ -411,4 +414,10 @@ a.btn-default:hover {
 
 .pricing-notes p:last-child {
   border-bottom: 0;
+}
+
+.cc-only {
+  margin: 5px 0 10px;
+  font-style: italic;
+  color: #666;
 }
