@@ -44,7 +44,10 @@ We are looking for ways to automate building the Raspberry Omnibus packages,
 so we can keep them up to date. For this we either need to cross-compile them (complex),
 or build them on ARM servers (hard to find).
 
-We welcome suggestions on this subject.
+~~We welcome suggestions on this subject.~~
+
+*UPDATE* Thank you for all your suggestions. Currently we are using Scaleway.com to build packages for Raspberry Pi 2 on Raspbian OS.
+
 
 ### Update
 
