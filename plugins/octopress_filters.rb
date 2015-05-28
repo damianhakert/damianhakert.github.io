@@ -1,5 +1,6 @@
 #custom filters for Octopress
 require './plugins/backtick_code_block'
+<<<<<<< HEAD
 require './plugins/post_filters'
 require './plugins/raw'
 require './plugins/date'
@@ -32,13 +33,55 @@ module Jekyll
       if post.ext.match('html|textile|markdown|md|haml|slim|xml')
         post.content = post_filter(post.content)
       end
+=======
+require 'octopress-hooks'
+require 'jekyll-sitemap'
+require 'octopress-date-format'
+require './plugins/raw'
+
+module OctopressFilters
+  def self.pre_filter(page)
+    if page.ext.match('html|textile|markdown|md|haml|slim|xml')
+      input = BacktickCodeBlock::render_code_block(page.content)
+      page.content = input.gsub /(<figure.+?>.+?<\/figure>)/m do
+        TemplateWrapper::safe_wrap($1)
+      end
+    end
+  end
+  def self.post_filter(page)
+    if page.ext.match('html|textile|markdown|md|haml|slim|xml')
+      page.output = TemplateWrapper::unwrap(page.output)
+    end
+  end
+
+  class PageFilters < Octopress::Hooks::Page
+    def pre_render(page)
+      OctopressFilters::pre_filter(page)
+    end
+
+    def post_render(page)
+      OctopressFilters::post_filter(page)
+    end
+  end
+
+  class PostFilters < Octopress::Hooks::Post
+    def pre_render(post)
+      OctopressFilters::pre_filter(post)
+    end
+
+    def post_render(post)
+      OctopressFilters::post_filter(post)
+>>>>>>> job/master
     end
   end
 end
 
 
 module OctopressLiquidFilters
+<<<<<<< HEAD
   include Octopress::Date
+=======
+>>>>>>> job/master
 
   # Used on the blog index to split posts on the <!--more--> marker
   def excerpt(input)
@@ -78,7 +121,11 @@ module OctopressLiquidFilters
   # Replaces relative urls with full urls
   def expand_urls(input, url='')
     url ||= '/'
+<<<<<<< HEAD
     input.gsub /(\s+(href|src)\s*=\s*["|']{1})(\/[^\"'>]*)/ do
+=======
+    input.gsub /(\s+(href|src|poster)\s*=\s*["|']{1})(\/[^\/>]{1}[^\"'>]*)/ do
+>>>>>>> job/master
       $1+url+$3
     end
   end

@@ -3,11 +3,19 @@
 # Purpose: This is useful for preventing Markdown and Textile from being too aggressive and incorrectly parsing in-line HTML.
 module TemplateWrapper
   # Wrap input with a <div>
+<<<<<<< HEAD
   def safe_wrap(input)
     "<div class='bogus-wrapper'><notextile>#{input}</notextile></div>"
   end
   # This must be applied after the
   def unwrap(input)
+=======
+  def self.safe_wrap(input)
+    "<div class='bogus-wrapper'><notextile>#{input}</notextile></div>"
+  end
+  # This must be applied after the
+  def self.unwrap(input)
+>>>>>>> job/master
     input.gsub /<div class='bogus-wrapper'><notextile>(.+?)<\/notextile><\/div>/m do
       $1
     end

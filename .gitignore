@@ -3,8 +3,11 @@
 .sass-cache
 .gist-cache
 .pygments-cache
+<<<<<<< HEAD
 .preview-mode
 recurly/config.yml
+=======
+>>>>>>> job/master
 _deploy
 public
 sass.old
@@ -13,5 +16,9 @@ source/_stash
 source/stylesheets/screen.css
 vendor
 node_modules
+<<<<<<< HEAD
 .idea
 *~
+=======
+Gemfile.lock
+>>>>>>> job/master
