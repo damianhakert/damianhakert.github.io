@@ -64,7 +64,7 @@ repositories.
 
 ![groups](/images/bb/groups.png)
 
-The nice thing is that now you can also Starred projects in GitLab,
+The nice thing is that now you can also have Starred projects in GitLab,
 giving you another way to organize repositories easily, if you have
 many but only want to focus on a handful.
 
