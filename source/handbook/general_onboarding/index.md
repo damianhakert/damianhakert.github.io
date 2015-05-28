@@ -1,9 +1,11 @@
-# GitLab Onboarding
-
+---
+layout: markdown_page
+title: "GitLab Onboarding"
+---
 ## General
 We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https://www.google.com/docs/about/) and [dev.gitab.org](https://dev.gitlab.org) to communicate.
 
-* Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/) 
+* Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
 
 * Read our [Team Handbook](https://about.gitlab.com/handbook/)
 
@@ -47,7 +49,7 @@ We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https:
 
 1. [YouTube](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg)
 
-* Add yourself to the team page. Here's [how to add a team member to the team page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md). 
+* Add yourself to the team page. Here's [how to add a team member to the team page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md).
 
 * Learn how to use our Internal Issue Trackers:
 
@@ -74,7 +76,7 @@ We use GitLab Issues to raise awareness, discuss and propose solutions for vario
 
 1. Type: cat ~/.ssh/id_rsa.pub
 
-1. Copy SSH Key and paste into [dev.gitlab.org](https://dev.gitlab.org) and [gitlab.com](https://gitlab.com) profile 
+1. Copy SSH Key and paste into [dev.gitlab.org](https://dev.gitlab.org) and [gitlab.com](https://gitlab.com) profile
 
 1. Click on avatar
 
@@ -82,7 +84,7 @@ We use GitLab Issues to raise awareness, discuss and propose solutions for vario
 
 1. Click on SSH Key (the key icon)
 
-### Install Git 
+### Install Git
 1. Check Git version type:  git --version
 
 1. If Git is not installed, you will get prompted to install
@@ -90,7 +92,7 @@ We use GitLab Issues to raise awareness, discuss and propose solutions for vario
 ### Basic Git commands
 1. Create new branch: git checkout -b test_changes
 
-1. Show what has changed: git status 
+1. Show what has changed: git status
 
 1. Commit change with message: git commit -am “text"
 
@@ -131,7 +133,7 @@ We use GitLab Issues to raise awareness, discuss and propose solutions for vario
 
 1. gem install bundler
 
-### Preview website changes locally 
+### Preview website changes locally
 1. Type: bundle exec rake preview
 
 1. Type: http: //localhost:4000
