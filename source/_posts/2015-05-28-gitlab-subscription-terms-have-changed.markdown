@@ -5,7 +5,7 @@ date: 2015-05-28
 author: Marc Radulescu
 ---
 
-In an effort to reduce red tape when subscribing to GitLab Enterprise Edition, we’ve made some changes to our Terms that make them more digestible to potential customers.
+In an effort to reduce red tape when subscribing to GitLab Enterprise Edition, we’ve made some changes to [our subscription Terms](https://about.gitlab.com/terms/#subscription) that make them more digestible to potential customers.
 
 <!-- more -->
 
