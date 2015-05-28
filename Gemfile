@@ -26,3 +26,4 @@ gem "sinatra-contrib", "~> 1.4.2"
 gem 'redcarpet'
 gem 'recurly', '~> 2.2.1'
 gem "daemons", "~> 1.1.9"
+gem 'therubyracer'
