@@ -153,20 +153,7 @@ ERR
     # Returns string
     #
     def category_links(categories)
-<<<<<<< HEAD
-      categories = categories.sort!.map { |c| category_link c }
-
-      case categories.length
-      when 0
-        ""
-      when 1
-        categories[0].to_s
-      else
-        "#{categories[0...-1].join(', ')}, #{categories[-1]}"
-      end
-=======
       categories.sort.map { |c| category_link c }.join(', ')
->>>>>>> job/master
     end
 
     # Outputs a single category as an <a> link.
@@ -187,13 +174,8 @@ ERR
     # Returns string
     def date_to_html_string(date)
       result = '<span class="month">' + date.strftime('%b').upcase + '</span> '
-<<<<<<< HEAD
-      result += date.strftime('<span class="day">%d</span> ')
-      result += date.strftime('<span class="year">%Y</span> ')
-=======
       result << date.strftime('<span class="day">%d</span> ')
       result << date.strftime('<span class="year">%Y</span> ')
->>>>>>> job/master
       result
     end
 

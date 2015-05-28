@@ -2,11 +2,7 @@ source "https://rubygems.org"
 
 group :development do
   gem 'rake', '~> 10.0'
-<<<<<<< HEAD
   gem 'jekyll', '2.4'
-=======
-  gem 'jekyll', '~> 2.0'
->>>>>>> job/master
   gem 'octopress-hooks', '~> 2.2'
   gem 'octopress-date-format', '~> 2.0'
   gem 'jekyll-sitemap'
