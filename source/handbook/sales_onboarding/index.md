@@ -27,4 +27,4 @@ title: "Sales Onboarding"
 
 * Have your manager grant access to our accounting / finance apps [Recurly](https://app.recurly.com/login) and [Twinfield](https://login.twinfield.com/authentication/identity/login?ReturnUrl=%2fauthentication%2fissue%2fwsfed%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252flogin.twinfield.com%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252f%26wct%3d2015-04-17T21%253a56%253a53Z&wa=wsignin1.0&wtrealm=https%3a%2f%2flogin.twinfield.com&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f&wct=2015-04-17T21%3a56%3a53Z). Ask a colleague if they can do a screenshare the next time they process an order.
 
-* [Support and development process](handbook/support_and_development_process/index.md)
+* [Support and development process](handbook/support_and_development_process.md)
