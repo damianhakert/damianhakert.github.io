@@ -84,7 +84,6 @@ We are part of a community that works together to create the best open source co
 Our <a href="https://en.wikipedia.org/wiki/Raccoon_dog">racoon dog</a> logo symbolizes this with a smart animal that works in a group to achieve a common goal.
 We would like to thank <a href="https://twitter.com/gravityonmars">Ricardo Rauch</a> for contributing the logo.
 
-
 ## Values
 We care about giving back to the rest of the GitLab community, that is why we give most code back to the <a href="https://gitlab.com/gitlab-org/gitlab-ce/">Community Edition</a>.
 We try to be open, that is why this website is maintained in <a href="https://gitlab.com/gitlab-com/www-gitlab-com/">a public repository</a>.
@@ -92,23 +91,19 @@ We realize that GitLab is more than this organization, this is shown by having p
 We think good code can be written by anyone, we encourage diversity by contributing to <a href="http://railsgirls.nl/">RailsGirls NL</a>.
 We try to correct the mistakes we make, please give us a chance by <a href="mailto:contact@gitlab.com">emailing us</a>.
 
-## Team Handbook
-If you're interested, our <a href="/team-handbook">team handbook is public.</a>
+## Handbook
+If you're interested, most of our internal procedures can be found in <a href="/handbook">publicly viewable handbooks</a>.
 
 ## Donations
 Some people contact us because they would like to donate to GitLab.
 If you have time to give please help spread the word about GitLab by mentioning us and/or <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md">contribute by reviewing issues and merge requests</a>.
 If you would like to give money please <a href="http://railsgirlssummerofcode.org/campaign/">donate to Rails Girls Summer of Code</a> in our name.
 
-
 ## Location
 GitLab is a community project with people participating from all over the world.
-GitLab B.V. is a remote company with people on three continents to serve our customers better.
+GitLab B.V. has people on three continents to serve our customers better.
 Most of our customers are in the United States and we have a fully owned subsidiary GitLab Inc. there.
-But GitLab B.V. is a Dutch company and we're proud to be
-<a href="http://foundedinholland.com/">
-  <img src='/images/foundedinholland.png' />
-</a>
+Most of our team is distrubuted, we're proud to be [working remote](https://about.gitlab.com/2015/04/08/the-remote-manifesto/) using GitLab issues to coordinate.
 
 [This commit]: https://gitlab.com/gitlab-org/gitlab-ce/commit/0f43e98ef8c2da8908b1107f75b67cda2572c2c4
 [first version of GitLab CI]: https://gitlab.com/gitlab-org/gitlab-ci/commit/52cd500ee64a4a82b9ff6752ee85028cd419fcbe
