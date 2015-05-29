@@ -2,13 +2,12 @@
 layout: markdown_page
 title: "Support and Development Process"
 ---
-## Support and Development Process
 
-### Problem
+## Problem
 
 * Slow response time because support waits for Dmitriy's decision. Dmitriy will try to reply quicker. Please try to keep in mind the following things to make the process more efficient.
 
-### Types of issues
+## Types of issues
 
 * Bug
 
@@ -16,7 +15,7 @@ title: "Support and Development Process"
 
 * Paid feature request
 
-### Bug process
+## Bug process
 
 * Make sure it looks like bug - otherwise ping one of developers (Valery, Marin) to confirm
 
@@ -26,7 +25,7 @@ title: "Support and Development Process"
 
 * Report back to customer
 
-### Unpaid feature request process
+## Unpaid feature request process
 
 * Provide maximum information and use case from customer in the issue, mention any alternatives, how badly the customer wants it
 
@@ -34,7 +33,7 @@ title: "Support and Development Process"
 
 * Assign to milestone after next milestone (current 1.0 then assign 1.2)
 
-### Paid feature request process
+## Paid feature request process
 
 * Points 1 and 2 of the Unpaid feature request process
 
