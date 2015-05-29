@@ -34,7 +34,7 @@ title: "Support and Development Process"
 
 * Assign to milestone after next milestone (current 1.0 then assign 1.2)
 
-## Paid feature request process
+### Paid feature request process
 
 * Points 1 and 2 of the Unpaid feature request process
 
