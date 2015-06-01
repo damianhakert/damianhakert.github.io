@@ -3,6 +3,7 @@ layout: markdown_page
 title: "GitLab Onboarding"
 ---
 ## General
+
 We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https://www.google.com/docs/about/) and [dev.gitab.org](https://dev.gitlab.org) to communicate.
 
 * Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
@@ -14,6 +15,7 @@ We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https:
 * Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/)
 
 * Have your manager provide access to our [Internal GitLab Server](https://dev.gitlab.org) and familiarize yourself with:
+
 1. The Dashboard
 
 1. The Projects
@@ -21,6 +23,7 @@ We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https:
 1. The Issue Tracker
 
 * Become familiar with the README.md’s for these projects:
+
 1. [GitLab Enterprise Edition](https://dev.gitlab.org/gitlab/gitlab-ee)
 
 1. [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq)
@@ -32,6 +35,7 @@ We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https:
 * Review our [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) for daily call
 
 * Become familiar with [GitLab's Website](https://about.gitlab.com) and the following links:
+
 1. [Documentation](https://about.gitlab.com/documentation/)
 
 1. [EE Pricing](https://about.gitlab.com/pricing/)
@@ -41,6 +45,7 @@ We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https:
 1. [About Us](https://about.gitlab.com/about/)
 
 * Connect with GitLab's social media sites:
+
 1. [LinkedIn](https://www.linkedin.com/company/gitlab-com)
 
 1. [Twitter](https://twitter.com/gitlab)
@@ -53,14 +58,19 @@ We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https:
 
 * Learn how to use our Internal Issue Trackers:
 
-We use GitLab Issues to raise awareness, discuss and propose solutions for various issues related to any aspect of our business. The most common Issues are created in the following projects:
+We use GitLab Issues to raise awareness, discuss and propose solutions for various issues related to any aspect of our business. 
+
+The most common Issues are created in the following projects:
+
 1. [GitLab Enterprise Edition](https://dev.gitlab.org/gitlab/gitlab-ee) - Issues related to GitLab Enterprise Edition
 
 1. [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq) - customer requests
 
 1. [GitLab www-gitlab-com](https://dev.gitlab.org/gitlab/www-gitlab-com) - Issues related to our website
 
-* Add issues in the correct Issue Tracker:
+
+Add issues in the correct Issue Tracker:
+
 1. Public issues related to GitLab website: use [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com)
 
 1. Internal issues related to documentation and gitlab.com usage: Use [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq)
@@ -72,6 +82,7 @@ We use GitLab Issues to raise awareness, discuss and propose solutions for vario
 ## Working with Git and GitLab
 
 ### Install your SSH Key:
+
 1. Open Terminal window (command + space bar; search for Terminal)
 
 1. Type: cat ~/.ssh/id_rsa.pub
@@ -85,11 +96,13 @@ We use GitLab Issues to raise awareness, discuss and propose solutions for vario
 1. Click on SSH Key (the key icon)
 
 ### Install Git
+
 1. Check Git version type:  git --version
 
 1. If Git is not installed, you will get prompted to install
 
 ### Basic Git commands
+
 1. Create new branch: git checkout -b test_changes
 
 1. Show what has changed: git status
@@ -101,6 +114,7 @@ We use GitLab Issues to raise awareness, discuss and propose solutions for vario
 1. Clone a project: git clone <project URL>
 
 ### Basic Shell Commands
+
 1. ls = tells you what's inside the folder where you are
 
 1. cd = change directory
@@ -114,6 +128,7 @@ We use GitLab Issues to raise awareness, discuss and propose solutions for vario
 ### Install Ruby Manager and Ruby to create a blog post
 
 * Install Ruby Manager
+
 1. Go to: [https://rvm.io/](https://rvm.io)
 
 1. Type: \curl -sSL https: //get.rvm.io | bash -s stable
@@ -123,6 +138,7 @@ We use GitLab Issues to raise awareness, discuss and propose solutions for vario
 1. Open new Terminal to load new environment
 
 * Install Ruby
+
 1. Type into Terminal: rvm install 2.2.1
 
 1. Prompt to enter password for your machine
@@ -134,6 +150,7 @@ We use GitLab Issues to raise awareness, discuss and propose solutions for vario
 1. gem install bundler
 
 ### Preview website changes locally
+
 1. Type: bundle exec rake preview
 
 1. Type: http: //localhost:4000
