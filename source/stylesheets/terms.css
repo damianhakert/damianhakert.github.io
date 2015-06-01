@@ -1,6 +1,6 @@
 body {
-  background-color: rgba(85, 68, 136, 0.23);
-  font-family: "Korolev-Medium", sans-serif;  
+  background-color: white;
+  font-family: "Korolev-Medium", sans-serif;
 }
 
 p {
@@ -12,17 +12,6 @@ p {
 h1, h2, h3, h4, h5, button, a {
   font-family: "Korolev-Medium", sans-serif;
 }
-
-.simple-header {
-  background: #548;
-  color: white;
-  text-align: center;
-  height: 125px;
-}
-
 .nav-list {
   position: fixed;
-  border-bottom: 1px solid #548;
-  border-radius: 6px;
-  border-top: 1px solid #548;
 }
