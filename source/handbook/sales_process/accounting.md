@@ -178,9 +178,7 @@ Bank: Rabobank, Croeselaan 18, 3500HG Utrecht, Utrecht, The Netherlands, +313021
 
 VAT: IMPORTANT TO CHECK THAT CATEGORY MATCHES THE COUNTRY IN THE INVOICE!
 
-IMAGE
-
-
+![VAT](images_sales_process/vat1_sales_process.png) 
 
 1. VAT category: Always diensten / services and date is date of invoice
 
