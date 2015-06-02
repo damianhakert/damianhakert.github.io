@@ -82,7 +82,7 @@ Everything about [lincenses and EE access](licenses.md).
 
 ### Invoice in Twinfield for clients paying by bank (non-Recurly)
 
-* This is part of the 'won deal procedure', you should have done a VIES check already if EU client
+* This is part of the [won subscription deal procedure](deal_management_process.md), you should have done a VIES check already if EU client
 
 * [Login Twinfield](https://login.twinfield.com/) (SUPER, het wachtwoord, COMCOASTER, Nederlands)
 
