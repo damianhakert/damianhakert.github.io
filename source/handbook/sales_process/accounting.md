@@ -97,6 +97,7 @@ Bank: Rabobank, Croeselaan 18, 3500HG Utrecht, Utrecht, The Netherlands, +313021
 1. Dutch clients: leave blank
 
 * Add the following information to the terms and conditions:
+
 Payment via check is not possible
 Please pay this invoice by bank transfer:
 Bank: Rabobank, Croeselaan 18, 3500HG Utrecht, Utrecht, The Netherlands, +31302160000 SWIFT / BIC code: RABONL2U, Bank account number: 153952644, IBAN: NL48RABO0153952644
@@ -123,7 +124,7 @@ Bank: Rabobank, Croeselaan 18, 3500HG Utrecht, Utrecht, The Netherlands, +313021
 
 ## Draft sale in Twinfield for clients paying by with Recurly
 
-1. This is part of the "won deal procedure", you should have done a VIES check already
+1. This is part of the [won subscription deal procedure](deal_management_process.md), you should have done a VIES check already
 
 1. These are linked to Recurly transactions one-on-one, so in case of an upgrade do create a new one, do not amend the original one
 
