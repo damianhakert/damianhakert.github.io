@@ -52,7 +52,7 @@ title: "Sales Process"
 
 ## Generating leads
 
-[Types of leads](/handbook/sales_process/generating_leads.md)
+[Types of leads](generating_leads.md).
 
 ## Creating deals
 
