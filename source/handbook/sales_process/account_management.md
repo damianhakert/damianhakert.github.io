@@ -19,43 +19,43 @@ title: "Account Management"
 
 Do NOT invoice before feature/work is completed.
 
-1. Feature is requested by customer
+* Feature is requested by customer
 
-1. Sales creates issue in issue tracker that links to the email (tags: company name, feature, estimate) and, if needed, mentions in agenda. Issue is assigned to sales milestone 
+* Sales creates issue in issue tracker that links to the email (tags: company name, feature, estimate) and, if needed, mentions in agenda. Issue is assigned to sales milestone 
 
-1. Dev makes estimate/gives feedback
+* Dev makes estimate/gives feedback
 
-* Estimate: between x and y hours (if it takes much time to do an estimate and we doubt if the customer will order)
+1. Estimate: between x and y hours (if it takes much time to do an estimate and we doubt if the customer will order)
 
-* Quote: x number of hours (in all other cases)
+1. Quote: x number of hours (in all other cases)
 
-1. Sales communicates estimate to customer
+* Sales communicates estimate to customer
 
-1. Repeat 3 and 4 in case of a range estimate
+* Repeat 3 and 4 in case of a range estimate
 
-1. If customer agrees with estimate and feedback, then:
+* If customer agrees with estimate and feedback, then:
 
-* Add estimate and order to the hourly tab of the Sales sheet
+1. Add estimate and order to the hourly tab of the Sales sheet
 
-* Sales removes estimate label and adds promised label
+1. Sales removes estimate label and adds promised label
 
-* Sales adds comment on milestone and context of developer agreeing on the milestone, changes milestone in the issue
+1. Sales adds comment on milestone and context of developer agreeing on the milestone, changes milestone in the issue
 
-* Adds the issue name and link to the feature in the deal
+1. Adds the issue name and link to the feature in the deal
 
-1. If customer does not commit in a reasonable time, issue is marked as closed and sales follows up through the deal
+* If customer does not commit in a reasonable time, issue is marked as closed and sales follows up through the deal
 
-1. If feature will not be done, sales marks issue as closed
+* If feature will not be done, sales marks issue as closed
 
-1. Once feature is delivered, adds number of hours spent in the deal, sales announces customer, closes feature with link to email
+* Once feature is delivered, adds number of hours spent in the deal, sales announces customer, closes feature with link to email
 
-1. Sales adds the real number of hours spent to the sales sheet
+* Sales adds the real number of hours spent to the sales sheet
 
-1. Sales invoices customer ([credit card](accounting.md) or bank) for the quoted number of hours
+* Sales invoices customer ([credit card](accounting.md) or bank) for the quoted number of hours
 
-1. Deal is marked won
+* Deal is marked won
 
-1. Implicit handover between sales and finance is sending the invoice (Sytse)
+* Implicit handover between sales and finance is sending the invoice (Sytse)
 
 ## Consultancy work management
 
