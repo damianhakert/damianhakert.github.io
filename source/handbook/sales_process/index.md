@@ -809,160 +809,260 @@ It is preferred to avoid both the above cases (extra work for us).
 
 1. Twinfield: create three draft sales, one for each invoice (original one but with line item price changed so that VAT checks out, credit one but with line item price changed so that VAT checks out, correct one)
 
-Crediting an old Recurly transaction (more than 1 Q old)
-Assuming new invoicing dashboard
-New invoice
-Identify old Recurly invoice
-Date is date of original invoice
-Top text: in-depth explanation on the reason behind the credit invoice
-items just like in original invoice, but with negative amounts
-Fill out the ICL details if needed (Services, date of new invoice)
-Send PDF
-Send the credit invoice to the customer (this is legally required)
-Crediting a transaction made in Recurly from about.gitlab.com
-https://docs.recurly.com/invoices#invoice_refunds 
-Create a draft sale in twinfield with negative amount from invoice
-Customer accidentally created a new subscription instead of updating the new one, both in the same account
-Customer account -> find new subscription -> More;
-“Cancel Subscription”, full refund;
-find original subscription -> More;
-change to correct number of user packs;
-press “Update subscription;
-inform customer of the changes;
-Draft sale in Twinfield
-Using Recurly to invoice hourly clients (or special order) by credit card
-For an existing client you can skip the first two steps.
-We create an account for the customer on Recurly.
-We email them a link to their hosted account management page to enter billing information.
-We open the customer’s account and click the Add Charge button in the Charges and Credits section;
-Enter the unit amount and any other relevant details, then click the Add Charge button (it’s a good rule of thumb to include a description with the charge. The description will display with the line item on the customer’s invoice);
-Keep the “Collect Sales Tax” button checked; Type: Digital Product
-This will create an uninvoiced charge on the customer’s account. By default, this charge will be automatically rolled into the customer’s next subscription renewal invoice. If you’d like to collect this charge immediately, click the Generate Invoice button on the customer’s main account page.
-Customer notes:
-for non-EU clients:
-No VAT according to article 44 and 59 of the European VAT Directive.
-for EU clients:
-VAT shifted to recipient according to article 44 and 196 of the European VAT Directive.
-Dutch clients: leave blank
-Review the invoice details and click the Post Invoice button.
-Draft sale in Twinfield
-Once the invoice is posted, Recurly will automatically collect on the invoice during our next automatic bill run (typically at the top of every hour). You will see the account’s balance go back to $0.00 when this charge is successfully processed.
-Customer wants to update their Recurly account or billing information
+### Crediting an old Recurly transaction (more than 1 Q old)
+
+1. Assuming new invoicing dashboard
+
+1. New invoice
+
+1. Identify old Recurly invoice
+
+1. Date is date of original invoice
+
+1. Top text: in-depth explanation on the reason behind the credit invoice
+
+1. Items just like in original invoice, but with negative amounts
+
+1. Fill out the ICL details if needed (Services, date of new invoice)
+
+1. Send PDF
+
+1. Send the credit invoice to the customer (this is legally required)
+
+### Crediting a transaction made in Recurly from about.gitlab.com
+
+1. [Invoice refunds](https://docs.recurly.com/invoices#invoice_refunds)
+
+1. Create a "draft sale" in twinfield with negative amount from invoice
+
+### Customer accidentally created a new subscription instead of updating the new one, both in the same account
+
+1. Customer account -> find new subscription -> More;
+
+1. “Cancel Subscription”, full refund;
+
+1. Find original subscription -> More;
+
+1. Change to correct number of user packs;
+
+1. Press “Update subscription;
+
+1. Inform customer of the changes;
+
+1. Draft sale in Twinfield
+
+### Using Recurly to invoice hourly clients (or special order) by credit card
+
+1. For an existing client you can skip the first two steps.
+
+1. We create an account for the customer on Recurly.
+
+1. We email them a link to their hosted account management page to enter billing information.
+
+1. We open the customer’s account and click the Add Charge button in the Charges and Credits section;
+
+1. Enter the unit amount and any other relevant details, then click the Add Charge button (it’s a good rule of thumb to include a description with the charge. The description will display with the line item on the customer’s invoice);
+
+1. Keep the “Collect Sales Tax” button checked; Type: Digital Product
+
+1.This will create an uninvoiced charge on the customer’s account. By default, this charge will be automatically rolled into the customer’s next subscription renewal invoice. If you’d like to collect this charge immediately, click the Generate Invoice button on the customer’s main account page.
+
+1. Customer notes:
+
+* Non-EU clients: No VAT according to article 44 and 59 of the European VAT Directive.
+
+* For EU clients: VAT shifted to recipient according to article 44 and 196 of the European VAT Directive.
+
+* Dutch clients: leave blank
+
+1. Review the invoice details and click the Post Invoice button.
+
+1. Draft sale in Twinfield
+
+1. Once the invoice is posted, Recurly will automatically collect on the invoice during our next automatic bill run (typically at the top of every hour). You will see the account’s balance go back to $0.00 when this charge is successfully processed.
+
+### Customer wants to update their Recurly account or billing information
+
 Each Recurly account has a hosted account page where they can manage their information. The link is in Recurly -> accounts -> account name -> Hosted pages information.
 Use the Hosted Account Management URL to go directly to the page without logging in.
-Additional documentation on this: https://docs.recurly.com/hosted-account-management 
-Email templates customization
+Additional documentation [here](https://docs.recurly.com/hosted-account-management)
+
+### Email templates customization
 In the Recurly email templates for "New Subscription", "Payment Confirmation" and "Payment Declined" we added the following:
-This subscription is subject to the GitLab Subscription Terms: http://www.gitlab.com/terms/#subscription
+This subscription is subject to the [GitLab Subscription Terms](http://www.gitlab.com/terms/#subscription)
 
 For companies outside the EU: No VAT according to article 44 and 59 of the European VAT Directive. For companies within the EU where no VAT is invoiced: VAT shifted to recipient according to article 44 and 196 of the European VAT Directive.
-Coupon code for special pricing
-Go to https://gitlab.recurly.com/coupons/new
-Coupon name: organization name (e.g. Penn State)
-Coupon code: half-random, recognizable as custom (e.g. pennstate123abc)
-Discount: percentage
-Lifespan: Forever (default)
-Limit to specific plans: yes
-Max Redemptions: 1
-Redeem by Date: in 60 days
-Include the coupon code in the quote
-Licenses
-How does a license get created?
 
-ref https://dev.gitlab.org/gitlab/license-app/merge_requests/6
+### Coupon code for special pricing
 
-License-app
-Sales pulls subscription id from Recurly and presses awesome green button https://license.gitlab.com/subscriptions 
-If customer did not receive email, https://license.gitlab.com/licenses, choose customer, and re-send email
-EE access
-All access to the Enterprise Edition is offered only along with the terms https://about.gitlab.com/terms/ , either with a subscription, or an evaluation.
-Evaluation/Trial access rules
+1. Go to [new coupons](https://gitlab.recurly.com/coupons/new)
 
-Small opportunity (small organization and less than 1 standard pack/10 basic packs): Trial is not available. Send template email.
-Large opportunity (large organization or more than 1 standard pack/10 basic packs): 45 day trials are available and can be extended if needed. Prospect should sign the Evaluation Agreement. Print Google Doc as PDF and send to prospect. Signed copies should be saved in Drive with file name as exampleco_eval_agreement_signed032615. End of trial is listed in “Renewal date” of the sales sheet. Sales follows-up until a firm response (yes/no). If answer is no, then access is removed, and customer is informed to remove GitLab Enterprise Edition from their server.
-For users that already have access: sales follows-up until firm response
-Who gets access to ee
-access is granted if user requests it
-support handles access
-if recurly - user told about access through automatic e-mail
-if bank - sales sends the following template text via e-mail: https://docs.google.com/document/d/1F0vXw58ctLfk9LKrh35kOSjYvdah4skGGUt46l1-4GM/edit#heading=h.yijkiyyclmzs
-Giving access to EE
-Recurly subscribers receive automatic message telling them to contact support for access to EE
-If customer was not informed already, send email about information to get access: https://docs.google.com/document/d/1xholewfn3PrzdRIFrxCE-0hQdQdryXuBnlUYGmm76iA/edit#heading=h.95yak5j1r9m2 
-go to gitlab.com > Subscribers / GitLab Enterprise Edition > Settings > Members> New Project member and add respective username
-give access “Developer”
-add user to the sales sheet, so we can see which company they belong to
-send e-mail to inform the user
-Giving access to the standard subscribers documentation
-gitlab.com > groups > Standard > Members > Add members
-give access “Developer”
-send email to inform the user
-Removing access from EE
-find username in GitLab sales sheet - EE access
-go to gitlab.com, Subscribers/Enterprise Edition, Settings, Members, remove the member
-add text “removed” in EE status column in sales sheet
-make note in highrise deal
-Support-sales flow
-Support receives sales email
-Support forwards email (Zendesk ticket) to sales
-Support informs user that sales will get in touch (implicit handover to sales)
-Support closes ticket (Solved)
+1. Coupon name: organization name (e.g. Penn State)
 
-Deprecated
-Invoice in Twinfield for clients paying by bank (non-Recurly)
+1. Coupon code: half-random, recognizable as custom (e.g. pennstate123abc)
 
-This is part of the 'won deal procedure', you should have done a VIES check already if EU client
-https://login.twinfield.com/ (SUPER, het wachtwoord, COMCOASTER, Nederlands)
-"Browser not supported" click on “Ga door naar Twinfield”
-Select GitLab B.V.
-Make sure you have an invoice address and for EU countries a VAT number
-If payment will be made in USD, then google for "1 EUR in USD"
-General => Company => Currencies => USD => Exchange rates => +Line
-Credit management > Sales Invoice Dashboard > Sales > New invoice
-First, select a customer. If customer does not exist, press + New customer
-Name: Company name
-Billing email: leave blank
-Fill in address, no need to fill in bank information
-Make sure to insert VAT number if EU customer
-Press “create”
-Reference: PO number if PO exists
-Invoice date: today (always effective date of today)
-Due date: 30 days from invoice date
-Quantity: Number of packs for subscription, number of hours for consultancy
-Description: Options self explanatory. If item does not exist, create it together with Sytse
-Price: change to $, add correct price
-VAT:
+1. Discount: percentage
 
-Category
-GitLab.com
-GitLab B.V.
-Outside EU
-Verkopen buiten EU
-VN - Sale of services outside EU
-within EU but outside NL
-VBIEU
-ICL - Sale inside EU
-within NL or within EU but outside NL with no VAT number
-21%
-VH - Sale inside NL
+1. Lifespan: Forever (default)
 
-If ICL was chosen, press services
-Add closing text: 
-for non-EU clients:
-No VAT according to article 44 and 59 of the European VAT Directive.
-for EU clients:
-VAT shifted to recipient according to article 44 and 196 of the European VAT Directive.
-Dutch clients: leave blank
-Press “create” to create a provisional invoice;
-Press “send by email as PDF” to finalize, in popup email write own email address.
+1. Limit to specific plans: yes
 
-Crediting an invoice made in Twinfield (DEPRECATED)
-If you are correcting a mistake,keep the credit invoice in draft for review.
-Assuming the new invoicing dashboard
-Open the old invoice
-Press the credit button
-Set invoice date to today if the customer cancelled, if you are undoing a mistake put in the same date as the incorrect invoice
-Fill out the ICL details if needed (Services, date of new invoice)
+1. Max Redemptions: 1
+
+1. Redeem by Date: in 60 days
+
+1. Include the coupon code in the quote
+
+## Licenses
+
+### How does a license get created?
+
+[Reference](https://dev.gitlab.org/gitlab/license-app/merge_requests/6)
+
+1. License-app
+
+1. Sales pulls [subscription id](https://license.gitlab.com/subscriptions) from Recurly and presses awesome green button 
+
+1. If customer did not receive [license email](https://license.gitlab.com/licenses), choose customer, and re-send email
+
+## EE access
+
+All access to the Enterprise Edition is offered only along with the [terms](https://about.gitlab.com/terms/), either with a subscription, or an evaluation.
+
+### Evaluation/Trial access rules
+
+1. Small opportunity (small organization and less than 1 standard pack/10 basic packs): Trial is not available. [Send template email](https://docs.google.com/document/d/1xholewfn3PrzdRIFrxCE-0hQdQdryXuBnlUYGmm76iA/edit#heading=h.t1uw2df6jz6e).
+
+1. Large opportunity (large organization or more than 1 standard pack/10 basic packs): 45 day trials are available and can be extended if needed. Prospect should sign the [Evaluation Agreement](https://docs.google.com/document/d/1YvYWlou1OUsQTEhwYZzj8WXPv9bwPhlcVnLI2euA7EQ/edit?usp=sharing). Print Google Doc as PDF and send to prospect. Signed copies should be saved in Drive with file name as exampleco_eval_agreement_signed032615. End of trial is listed in “Renewal date” of the sales sheet. Sales follows-up until a firm response (yes/no). If answer is no, then access is removed, and customer is informed to remove GitLab Enterprise Edition from their server.
+
+1. For users that already have access: sales follows-up until firm response
+
+### Who gets access to ee?
+
+1. Access is granted if user requests it
+
+1. Support handles access
+
+1. If recurly - user told about access through automatic e-mail
+
+1. If bank - sales sends the following [template text](https://docs.google.com/document/d/1F0vXw58ctLfk9LKrh35kOSjYvdah4skGGUt46l1-4GM/edit#heading=h.yijkiyyclmzs) via e-mail
+
+### Giving access to EE
+
+1. Recurly subscribers receive automatic message telling them to contact support for access to EE
+
+1. If customer was not informed already, send email about [information to get access](https://docs.google.com/document/d/1xholewfn3PrzdRIFrxCE-0hQdQdryXuBnlUYGmm76iA/edit#heading=h.95yak5j1r9m2)
+
+1. Go to gitlab.com > Subscribers / GitLab Enterprise Edition > Settings > Members> New Project member and add respective username
+
+1. Give access “Developer”
+
+1. Add user to the sales sheet, so we can see which company they belong to
+
+1. Send e-mail to inform the user
+
+### Giving access to the standard subscribers documentation
+
+1. Gitlab.com > groups > Standard > Members > Add members
+
+1. Give access “Developer”
+
+1. Send email to inform the user
+
+### Removing access from EE
+
+1. Find username in GitLab sales sheet - EE access
+
+1. Go to gitlab.com, Subscribers/Enterprise Edition, Settings, Members, remove the member
+
+1. Add text “removed” in EE status column in sales sheet
+
+1. Make note in highrise deal
+
+## Support-sales flow
+
+1. Support receives sales email
+
+1. Support forwards email (Zendesk ticket) to sales
+
+1. Support informs user that sales will get in touch (implicit handover to sales)
+
+1. Support closes ticket (Solved)
+
+## Deprecated
+
+### Invoice in Twinfield for clients paying by bank (non-Recurly)
+
+1. This is part of the 'won deal procedure', you should have done a VIES check already if EU client
+
+1. [Login Twinfield](https://login.twinfield.com/) (SUPER, het wachtwoord, COMCOASTER, Nederlands)
+
+1. "Browser not supported" click on “Ga door naar Twinfield”
+
+1. Select GitLab B.V.
+
+1. Make sure you have an invoice address and for EU countries a VAT number
+
+1. If payment will be made in USD, then google for "1 EUR in USD"
+
+1. General => Company => Currencies => USD => Exchange rates => +Line
+
+1. Credit management > Sales Invoice Dashboard > Sales > New invoice
+
+1. First, select a customer. If customer does not exist, press + New customer
+
+1. Name: Company name
+
+1. Billing email: leave blank
+
+1. Fill in address, no need to fill in bank information
+
+1. Make sure to insert VAT number if EU customer
+
+1. Press “create”
+
+1. Reference: PO number if PO exists
+
+1. Invoice date: today (always effective date of today)
+
+1. Due date: 30 days from invoice date
+
+1. Quantity: Number of packs for subscription, number of hours for consultancy
+
+1. Description: Options self explanatory. If item does not exist, create it together with Sytse
+
+1. Price: change to $, add correct price
+
+1. VAT:
+
+IMAGE
+
+1. If ICL was chosen, press services
+
+1. Add closing text: 
+
+* For non-EU clients: No VAT according to article 44 and 59 of the European VAT Directive.
+
+* For EU clients: VAT shifted to recipient according to article 44 and 196 of the European VAT Directive.
+
+* Dutch clients: leave blank
+
+1. Press “create” to create a provisional invoice;
+
+1. Press “send by email as PDF” to finalize, in popup email write own email address.
+
+### Crediting an invoice made in Twinfield (DEPRECATED)
+
+1. If you are correcting a mistake,keep the credit invoice in draft for review.
+
+1. Assuming the new invoicing dashboard
+
+1. Open the old invoice
+
+1. Press the credit button
+
+1. Set invoice date to today if the customer cancelled, if you are undoing a mistake put in the same date as the incorrect invoice
+
+1. Fill out the ICL details if needed (Services, date of new invoice)
 Send PDF
 Send the credit invoice to the customer (this is legally required)
-
