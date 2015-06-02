@@ -5,102 +5,103 @@ title: "Accounting"
 
 ## Manual invoicing in Recurly for subscribers paying by bank transfer
 
-1. [New account](https://gitlab.recurly.com/accounts/new)
+* [New account](https://gitlab.recurly.com/accounts/new)
 
-* Account code: customer contact email address
+1. Account code: customer contact email address
 
-* Username: can be blank
+1. Username: can be blank
 
-* Fill in First name and Last name of our contact;
+1. Fill in First name and Last name of our contact;
 
-* Fill in company
+1. Fill in company
 
-* Fill in VAT field (if needed)
+1. Fill in VAT field (if needed)
 
-* Tax exempt? - leave unchecked
+1. Tax exempt? - leave unchecked
 
-* Fill in the rest of the company information, and add company billing address to address information area
+1. Fill in the rest of the company information, and add company billing address to address information area
 
-* Press Create account
+1. Press Create account
 
-1. Press “Add subscription”
+* Press “Add subscription”
 
-1. Select Plan Details and Quantity
+* Select Plan Details and Quantity
 
-1. BIlling Details -> +Edit
+* Billing Details -> +Edit
 
-1. Collection method: Manual
+* Collection method: Manual
 
-1. Add PO number
+* Add PO number
 
-1. Terms: Net 30 (or 60 for exceptions)
+* Terms: Net 30 (or 60 for exceptions)
 
-1. Terms and conditions copy and paste one of the following:
+* Terms and conditions copy and paste one of the following:
 
-* For non-EU clients: No VAT according to article 44 and 59 of the European VAT Directive
+1. For non-EU clients: No VAT according to article 44 and 59 of the European VAT Directive
 
-* For EU clients: VAT shifted to recipient according to article 44 and 196 of the European VAT Directive
+1. For EU clients: VAT shifted to recipient according to article 44 and 196 of the European VAT Directive
 
-* Dutch clients: leave blank
+1. Dutch clients: leave blank
 
-Add the following information to the terms and conditions:
+* Add the following information to the terms and conditions:
+
 This order is subject to the GitLab Terms: http://about.gitlab.com/terms/
 Payment via check is not possible
 Please pay this invoice by bank transfer:
 Bank: Rabobank, Croeselaan 18, 3500HG Utrecht, Utrecht, The Netherlands, +31302160000 SWIFT / BIC code: RABONL2U, Bank account number: 153952644, IBAN: NL48RABO0153952644
 
-1. Press Add subscription button
+* Press Add subscription button
 
 ## Manual invoicing in Recurly for consultancy / development / training customers
 
-1. [New account](https://gitlab.recurly.com/accounts/new)
+* [New account](https://gitlab.recurly.com/accounts/new)
 
-* Account code: customer contact email address
+1. Account code: customer contact email address
 
-* Username: can be blank
+1. Username: can be blank
 
-* Fill in First name and Last name of our contact
+1. Fill in First name and Last name of our contact
 
-* Fill in company
+1. Fill in company
 
-* Fill in VAT field (if needed)
+1. Fill in VAT field (if needed)
 
-* Tax exempt? - leave unchecked
+1. Tax exempt? - leave unchecked
 
-* Fill in the rest of the company information, and add company billing address to address information area
+1. Fill in the rest of the company information, and add company billing address to address information area
 
-* Press Create account
+1. Press Create account
 
-1. Press “add charge” button
+* Press “add charge” button
 
-1. Enter the unit amount and any other relevant details, then click the Add Charge button (it’s a good rule of thumb to include a description with the charge. The description will display with the line item on the customer’s invoice)
+* Enter the unit amount and any other relevant details, then click the Add Charge button (it’s a good rule of thumb to include a description with the charge. The description will display with the line item on the customer’s invoice)
 
-1. “Digital product”
+* “Digital product”
 
-1. “Collect Sales tax” checked
+* “Collect Sales tax” checked
 
-1. Press “Create invoice”
+* Press “Create invoice”
 
-1. Back to the account, press “Generate invoice”
+* Back to the account, press “Generate invoice”
 
-1. Collection method: Manual
+* Collection method: Manual
 
-1. Terms: Net 30 (or 60)
+* Terms: Net 30 (or 60)
 
-1. Terms and conditions:
+* Terms and conditions:
 
-* For non-EU clients: No VAT according to article 44 and 59 of the European VAT Directive
+1. For non-EU clients: No VAT according to article 44 and 59 of the European VAT Directive
 
-* For EU clients: VAT shifted to recipient according to article 44 and 196 of the European VAT Directive
+1. For EU clients: VAT shifted to recipient according to article 44 and 196 of the European VAT Directive
 
-* Dutch clients: leave blank
+1. Dutch clients: leave blank
 
-Add the following information to the terms and conditions:
+* Add the following information to the terms and conditions:
 Payment via check is not possible
 Please pay this invoice by bank transfer:
 Bank: Rabobank, Croeselaan 18, 3500HG Utrecht, Utrecht, The Netherlands, +31302160000 SWIFT / BIC code: RABONL2U, Bank account number: 153952644, IBAN: NL48RABO0153952644
 
-1. Create draft sale in Twinfield
+* Create draft sale in Twinfield
 
 ## Change customer from credit card payment to bank transfer payment
 
@@ -284,33 +285,33 @@ It is preferred to avoid both the above cases (extra work for us)
 
 ## Using Recurly to invoice hourly clients (or special order) by credit card
 
-1. For an existing client you can skip the first two steps
+* For an existing client you can skip the first two steps
 
-1. We create an account for the customer on Recurly
+* We create an account for the customer on Recurly
 
-1. We email them a link to their hosted account management page to enter billing information
+* We email them a link to their hosted account management page to enter billing information
 
-1. We open the customer’s account and click the Add Charge button in the Charges and Credits section
+* We open the customer’s account and click the Add Charge button in the Charges and Credits section
 
-1. Enter the unit amount and any other relevant details, then click the Add Charge button (it’s a good rule of thumb to include a description with the charge. The description will display with the line item on the customer’s invoice)
+* Enter the unit amount and any other relevant details, then click the Add Charge button (it’s a good rule of thumb to include a description with the charge. The description will display with the line item on the customer’s invoice)
 
-1. Keep the “Collect Sales Tax” button checked; Type: Digital Product
+* Keep the “Collect Sales Tax” button checked; Type: Digital Product
 
-1.This will create an uninvoiced charge on the customer’s account. By default, this charge will be automatically rolled into the customer’s next subscription renewal invoice. If you’d like to collect this charge immediately, click the Generate Invoice button on the customer’s main account page
+* This will create an uninvoiced charge on the customer’s account. By default, this charge will be automatically rolled into the customer’s next subscription renewal invoice. If you’d like to collect this charge immediately, click the Generate Invoice button on the customer’s main account page
 
-1. Customer notes:
+* Customer notes:
 
-* Non-EU clients: No VAT according to article 44 and 59 of the European VAT Directive
+1. Non-EU clients: No VAT according to article 44 and 59 of the European VAT Directive
 
-* For EU clients: VAT shifted to recipient according to article 44 and 196 of the European VAT Directive
+1. For EU clients: VAT shifted to recipient according to article 44 and 196 of the European VAT Directive
 
-* Dutch clients: leave blank
+1. Dutch clients: leave blank
 
-1. Review the invoice details and click the Post Invoice button
+* Review the invoice details and click the Post Invoice button
 
-1. Draft sale in Twinfield
+* Draft sale in Twinfield
 
-1. Once the invoice is posted, Recurly will automatically collect on the invoice during our next automatic bill run (typically at the top of every hour). You will see the account’s balance go back to $0.00 when this charge is successfully processed
+* Once the invoice is posted, Recurly will automatically collect on the invoice during our next automatic bill run (typically at the top of every hour). You will see the account’s balance go back to $0.00 when this charge is successfully processed
 
 ## Customer wants to update their Recurly account or billing information
 
@@ -318,7 +319,7 @@ It is preferred to avoid both the above cases (extra work for us)
 
 1. Use the Hosted Account Management URL to go directly to the page without logging in.
 
-Additional documentation [here](https://docs.recurly.com/hosted-account-management)
+You can find additional documentation [here](https://docs.recurly.com/hosted-account-management).
 
 ## Email templates customization
 In the Recurly email templates for "New Subscription", "Payment Confirmation" and "Payment Declined" we added the following:
