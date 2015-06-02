@@ -64,7 +64,7 @@ Find out [how to manage deals](deal_management_process.md) with potential custom
 
 ## Account management
 
-Aspects to consider when [managing an account](account_management.md)
+Aspects to consider when [managing an account](account_management.md).
 
 ## Emailing
 
@@ -82,63 +82,63 @@ Everything about [lincenses and EE access](licenses.md).
 
 ### Invoice in Twinfield for clients paying by bank (non-Recurly)
 
-1. This is part of the 'won deal procedure', you should have done a VIES check already if EU client
+* This is part of the 'won deal procedure', you should have done a VIES check already if EU client
 
-1. [Login Twinfield](https://login.twinfield.com/) (SUPER, het wachtwoord, COMCOASTER, Nederlands)
+* [Login Twinfield](https://login.twinfield.com/) (SUPER, het wachtwoord, COMCOASTER, Nederlands)
 
-1. "Browser not supported" click on “Ga door naar Twinfield”
+* "Browser not supported" click on “Ga door naar Twinfield”
 
-1. Select GitLab B.V.
+* Select GitLab B.V.
 
-1. Make sure you have an invoice address and for EU countries a VAT number
+* Make sure you have an invoice address and for EU countries a VAT number
 
-1. If payment will be made in USD, then google for "1 EUR in USD"
+* If payment will be made in USD, then google for "1 EUR in USD"
 
-1. General => Company => Currencies => USD => Exchange rates => +Line
+* General => Company => Currencies => USD => Exchange rates => +Line
 
-1. Credit management > Sales Invoice Dashboard > Sales > New invoice
+* Credit management > Sales Invoice Dashboard > Sales > New invoice
 
-1. First, select a customer. If customer does not exist, press + New customer
+* First, select a customer. If customer does not exist, press + New customer
 
-1. Name: Company name
+* Name: Company name
 
-1. Billing email: leave blank
+* Billing email: leave blank
 
-1. Fill in address, no need to fill in bank information
+* Fill in address, no need to fill in bank information
 
-1. Make sure to insert VAT number if EU customer
+* Make sure to insert VAT number if EU customer
 
-1. Press “create”
+* Press “create”
 
-1. Reference: PO number if PO exists
+* Reference: PO number if PO exists
 
-1. Invoice date: today (always effective date of today)
+* Invoice date: today (always effective date of today)
 
-1. Due date: 30 days from invoice date
+* Due date: 30 days from invoice date
 
-1. Quantity: Number of packs for subscription, number of hours for consultancy
+* Quantity: Number of packs for subscription, number of hours for consultancy
 
-1. Description: Options self explanatory. If item does not exist, create it together with Sytse
+* Description: Options self explanatory. If item does not exist, create it together with Sytse
 
-1. Price: change to $, add correct price
+* Price: change to $, add correct price
 
-1. VAT:
+* VAT:
 
-IMAGE
+![VAT](images_sales_process/vat2_sales_process.png) 
 
-1. If ICL was chosen, press services
+* If ICL was chosen, press services
 
-1. Add closing text: 
+* Add closing text: 
 
-* For non-EU clients: No VAT according to article 44 and 59 of the European VAT Directive.
+1. For non-EU clients: No VAT according to article 44 and 59 of the European VAT Directive.
 
-* For EU clients: VAT shifted to recipient according to article 44 and 196 of the European VAT Directive.
+1. For EU clients: VAT shifted to recipient according to article 44 and 196 of the European VAT Directive.
 
-* Dutch clients: leave blank
+1. Dutch clients: leave blank
 
-1. Press “create” to create a provisional invoice;
+* Press “create” to create a provisional invoice;
 
-1. Press “send by email as PDF” to finalize, in popup email write own email address.
+* Press “send by email as PDF” to finalize, in popup email write own email address.
 
 ### Crediting an invoice made in Twinfield (DEPRECATED)
 
