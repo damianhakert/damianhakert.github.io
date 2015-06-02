@@ -124,7 +124,7 @@ Bank: Rabobank, Croeselaan 18, 3500HG Utrecht, Utrecht, The Netherlands, +313021
 
 ## Draft sale in Twinfield for clients paying by with Recurly
 
-1. This is part of the [won subscription deal procedure](deal_management_process.md), you should have done a VIES check already
+1. This is part of the [won subscription deal procedure](deal_management_process.md#won-subscription-deal-procedure-invoicing), you should have done a VIES check already
 
 1. These are linked to Recurly transactions one-on-one, so in case of an upgrade do create a new one, do not amend the original one
 
