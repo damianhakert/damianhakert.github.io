@@ -36,7 +36,7 @@ GitLab is so affordable because we make very good use of our HR. Therefore, we t
 
 ## Custom agreements
 
-The [GitLab Terms](https://about.gitlab.com/terms/ are the standard). In cases where sales considers it’s warranted, we can accept custom agreements. All custom agreements should contain the text: "If there is a conflict between the terms of this Agreement and any text on the GitLab quote or the GitLab invoice, the terms of this Agreement prevail over those in either the quote or the invoice."
+[The GitLab Terms](https://about.gitlab.com/terms/ are the standard). In cases where sales considers it’s warranted, we can accept custom agreements. All custom agreements should contain the text: "If there is a conflict between the terms of this Agreement and any text on the GitLab quote or the GitLab invoice, the terms of this Agreement prevail over those in either the quote or the invoice."
 
 ## Pricing and discounts
 
@@ -100,9 +100,9 @@ This model is an alternative to the yearly payment model
 
 * Make sure you are certain whether the user wants to pay by credit card (Recurly orders) or by bank transfer (Bank transfer)
 
-* For consultancy deals, go to "Development work management"
+* For consultancy deals, go to [Development work management](account_management.md)
 
-* For consolidated invoices, go to "Consolidated invoices"
+* For consolidated invoices, go to [Consolidated invoices](accounting.md)
 
 ### Recurly orders
 
@@ -112,17 +112,17 @@ This model is an alternative to the yearly payment model
 
 1. Add customer to [Mailchimp GitLab Newsletter list](https://login.mailchimp.com/?referrer=%2Flists%2Fmembers%2Fadd%3Fid%3D107301&wcookie=6a4656f83b552f2e94f0) (Customer automatically subscribed to Mailchimp Subscribers List)
 
-1. For EU clients do a EU VAT VIES check (no need if Dutch client). If not, skip to step 6
+1. For EU clients do a [VAT check](accounting.md) (no need if Dutch client). If not, skip to step 6
 
 1. If no VAT number list but client is from EU but outside NL (if it is a Recurly order it will have automatically added VAT), send email to double-check if they don’t want VAT number listed
 
-1. Create a draft sale (not invoice) in Twinfield 
+1. [Create a draft sale](accounting.md) (not invoice) in Twinfield 
 
 1. If standard subscriber, add to [subscribers group](https://gitlab.com/groups/standard/members) and for standard subscriber send [onboarding email](https://docs.google.com/document/d/1xholewfn3PrzdRIFrxCE-0hQdQdryXuBnlUYGmm76iA/edit#heading=h.hlqhlshslrxi). If basic subscriber, do not add
 
 1. Forward Recurly invoice to customer as safeguard against going to spam. Also reinterate to sign up on GitLab.com and send user name
 
-1. Generate license keys
+1. [Generate license keys](licenses.md)
 
 1. Mark deal as PO (deal won) in Streak (the above steps must be completed, make a deal if none exist)
 
@@ -132,7 +132,7 @@ This model is an alternative to the yearly payment model
 
 ### Bank Transfer
 
-1. Sales receives an order
+1. Sales receives an [order](account_management.md)
 
 1. If order is signed quote or written agreement, ask if there is a PO pending and get the PO number
 
@@ -140,21 +140,21 @@ This model is an alternative to the yearly payment model
 
 1. Add customer to [Mailchimp GitLab Newsletter list](https://us5.admin.mailchimp.com/lists/members/add?id=107301)
 
-1. For EU clients do a VAT check
+1. For EU clients do a [VAT check](accounting.md)
 
 1. If no VAT but client is from EU outside NL, send email to double-check if they don’t want VAT number listed
 
-1. Send "invoice" to customer with one of the two [onboarding emails](https://docs.google.com/document/d/12X6Cvjwe_jvFi41gvXMLlq91lDgh5oSrRFdQEuEwhl8/edit)
+1. [Send invoice](accounting.md) to customer with one of the two [onboarding emails](https://docs.google.com/document/d/12X6Cvjwe_jvFi41gvXMLlq91lDgh5oSrRFdQEuEwhl8/edit)
 
 1. Forward Recurly invoice to customer as safeguard against going to spam. Also reinterate to sign up on GitLab.com and send user name
 
-1. Create "draft sale" in Twinfield
+1. [Create draft sale](accounting.md) in Twinfield
 
 1. Add customer to [sales sheet](https://docs.google.com/spreadsheets/d/1755SblMccalWXSahspOrfzBwjGp4F8TkwlB8dOXCGlU/edit#gid=11) (include invoice date and nr.)
 
 1. If standard subscriber, add to [subscribers group](https://gitlab.com/standard/standard-subscriber-information/project_members)
 
-1. Generate "license keys"
+1. [Generate license keys](licenses.md)
 
 1. Mark opportunity as PO (deal won) in Streak (the above steps must be completed, make an opportunity if none exist)
 
@@ -182,7 +182,7 @@ Trigger: customer with a valid subscription requests a cancellation either via s
 
 1. Twinfield: if twinfield entry final, then create a draft sale with negative amount. write Recurly and number of original invoice in Description field
 
-1. Remove username from EE repo
+1. [Remove username from EE repo](licenses.md)
 
 1. Sales sheet: mark deal as lost
 
