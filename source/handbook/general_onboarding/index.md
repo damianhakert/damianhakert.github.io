@@ -6,6 +6,8 @@ title: "GitLab Onboarding"
 
 We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https://www.google.com/docs/about/) and [dev.gitab.org](https://dev.gitlab.org) to communicate.
 
+* Check out our [about page](https://about.gitlab.com/about/)
+
 * Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
 
 * Read our [Team Handbook](https://about.gitlab.com/handbook/)
@@ -58,7 +60,7 @@ We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https:
 
 * Learn how to use our Internal Issue Trackers:
 
-We use GitLab Issues to raise awareness, discuss and propose solutions for various issues related to any aspect of our business. 
+We use GitLab Issues to raise awareness, discuss and propose solutions for various issues related to any aspect of our business.
 
 The most common Issues are created in the following projects:
 
