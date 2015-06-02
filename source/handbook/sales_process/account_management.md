@@ -51,7 +51,7 @@ Do NOT invoice before feature/work is completed.
 
 1. Sales adds the real number of hours spent to the sales sheet
 
-1. Sales invoices customer (credit card or bank) for the quoted number of hours
+1. Sales invoices customer ([credit card](accounting.md) or bank) for the quoted number of hours
 
 1. Deal is marked won
 
