@@ -31,7 +31,7 @@ title: "Sales Onboarding"
 
 1. If Marc is overloaded and can't reply in 24 hours he will inform Sytse by email
 
-1. In case any other team member receives a sales/commercial e-mail that is not addressed to the sales@gitlab.com address, they should forward it to Highrise and create a Highrise task assigned to Marc
+1. In case any other team member receives a sales/commercial e-mail that is not addressed to the sales@ gitlab.com address, they should forward it to Highrise and create a Highrise task assigned to Marc
 
 ## Follow-up on customers
 
