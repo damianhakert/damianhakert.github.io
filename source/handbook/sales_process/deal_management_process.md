@@ -148,7 +148,7 @@ This model is an alternative to the yearly payment model
 
 1. Forward Recurly invoice to customer as safeguard against going to spam. Also reinterate to sign up on GitLab.com and send user name
 
-1. [Create draft sale](accounting.md) in Twinfield
+1. [Create draft sale](accounting.md#draft-sale-in-twinfield-for-clients-paying-by-with-recurly) in Twinfield
 
 1. Add customer to [sales sheet](https://docs.google.com/spreadsheets/d/1755SblMccalWXSahspOrfzBwjGp4F8TkwlB8dOXCGlU/edit#gid=11) (include invoice date and nr.)
 
