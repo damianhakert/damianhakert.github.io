@@ -17,7 +17,7 @@ however the text in the license view in the admin page in GitLab will show:
 
 ![Wrong text](/images/7_10_5/wrong.png)
 
-However, it should look like this:
+While it should look like this:
 
 ![Correct text](/images/7_10_5/correct.png)
 
