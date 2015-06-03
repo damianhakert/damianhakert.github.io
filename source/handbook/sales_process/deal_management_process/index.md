@@ -7,7 +7,7 @@ title: "Deal Management Process"
 
 1. Support call is offered in a sales call
 
-1. Sales either bcc’s support@gitlab.com or send separate email to support@gitlab.com to inform on the future support call
+1. Sales either bcc’s support@ gitlab.com or send separate email to support@ gitlab.com to inform on the future support call
 
 ## User count
 
@@ -100,9 +100,9 @@ This model is an alternative to the yearly payment model
 
 * Make sure you are certain whether the user wants to pay by credit card (Recurly orders) or by bank transfer (Bank transfer)
 
-* For consultancy deals, go to [Development work management](account_management.md#development-work-management)
+* For consultancy deals, go to [Development work management](source/handbook/sales_process/account_management#development-work-management)
 
-* For consolidated invoices, go to [Consolidated invoices](accounting.md#consolidated-invoices)
+* For consolidated invoices, go to [Consolidated invoices](source/handbook/sales_process/accounting#consolidated-invoices)
 
 ### Recurly orders
 
@@ -122,7 +122,7 @@ This model is an alternative to the yearly payment model
 
 1. Forward Recurly invoice to customer as safeguard against going to spam. Also reinterate to sign up on GitLab.com and send user name
 
-1. [Generate license keys](licenses.md)
+1. [Generate license keys](source/handbook/sales_process/licenses)
 
 1. Mark deal as PO (deal won) in Streak (the above steps must be completed, make a deal if none exist)
 
@@ -132,7 +132,7 @@ This model is an alternative to the yearly payment model
 
 ### Bank Transfer
 
-1. Sales receives an [order](account_management.md)
+1. Sales receives an [order](source/handbook/sales_process/account_management)
 
 1. If order is signed quote or written agreement, ask if there is a PO pending and get the PO number
 
@@ -140,21 +140,21 @@ This model is an alternative to the yearly payment model
 
 1. Add customer to [Mailchimp GitLab Newsletter list](https://us5.admin.mailchimp.com/lists/members/add?id=107301)
 
-1. For EU clients do a [VAT check](accounting.md)
+1. For EU clients do a [VAT check](source/handbook/sales_process/accounting)
 
 1. If no VAT but client is from EU outside NL, send email to double-check if they don’t want VAT number listed
 
-1. [Send invoice](accounting.md) to customer with one of the two [onboarding emails](https://docs.google.com/document/d/12X6Cvjwe_jvFi41gvXMLlq91lDgh5oSrRFdQEuEwhl8/edit)
+1. [Send invoice](source/handbook/sales_process/accounting) to customer with one of the two [onboarding emails](https://docs.google.com/document/d/12X6Cvjwe_jvFi41gvXMLlq91lDgh5oSrRFdQEuEwhl8/edit)
 
 1. Forward Recurly invoice to customer as safeguard against going to spam. Also reinterate to sign up on GitLab.com and send user name
 
-1. [Create draft sale](accounting.md#draft-sale-in-twinfield-for-clients-paying-by-with-recurly) in Twinfield
+1. [Create draft sale](source/handbook/sales_process/accounting#draft-sale-in-twinfield-for-clients-paying-by-with-recurly) in Twinfield
 
 1. Add customer to [sales sheet](https://docs.google.com/spreadsheets/d/1755SblMccalWXSahspOrfzBwjGp4F8TkwlB8dOXCGlU/edit#gid=11) (include invoice date and nr.)
 
 1. If standard subscriber, add to [subscribers group](https://gitlab.com/standard/standard-subscriber-information/project_members)
 
-1. [Generate license keys](licenses.md)
+1. [Generate license keys](source/handbook/sales_process/licenses)
 
 1. Mark opportunity as PO (deal won) in Streak (the above steps must be completed, make an opportunity if none exist)
 
@@ -182,7 +182,7 @@ Trigger: customer with a valid subscription requests a cancellation either via s
 
 1. Twinfield: if twinfield entry final, then create a draft sale with negative amount. write Recurly and number of original invoice in Description field
 
-1. [Remove username from EE repo](licenses.md#removing-access-from-ee)
+1. [Remove username from EE repo](sorce/handbook/sales_process/licenses#removing-access-from-ee)
 
 1. Sales sheet: mark deal as lost
 
