@@ -182,7 +182,7 @@ Trigger: customer with a valid subscription requests a cancellation either via s
 
 1. Twinfield: if twinfield entry final, then create a draft sale with negative amount. write Recurly and number of original invoice in Description field
 
-1. [Remove username from EE repo](sorce/handbook/sales_process/licenses#removing-access-from-ee)
+1. [Remove username from EE repo](source/handbook/sales_process/licenses#removing-access-from-ee)
 
 1. Sales sheet: mark deal as lost
 
