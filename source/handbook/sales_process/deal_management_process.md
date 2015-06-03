@@ -36,7 +36,7 @@ GitLab is so affordable because we make very good use of our HR. Therefore, we t
 
 ## Custom agreements
 
-[The GitLab Terms](https://about.gitlab.com/terms/ are the standard). In cases where sales considers it’s warranted, we can accept custom agreements. All custom agreements should contain the text: "If there is a conflict between the terms of this Agreement and any text on the GitLab quote or the GitLab invoice, the terms of this Agreement prevail over those in either the quote or the invoice."
+[The GitLab Terms](https://about.gitlab.com/terms/) are the standard. In cases where sales considers it’s warranted, we can accept custom agreements. All custom agreements should contain the text: "If there is a conflict between the terms of this Agreement and any text on the GitLab quote or the GitLab invoice, the terms of this Agreement prevail over those in either the quote or the invoice."
 
 ## Pricing and discounts
 
