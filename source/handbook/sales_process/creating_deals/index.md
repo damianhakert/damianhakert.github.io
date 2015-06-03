@@ -29,7 +29,7 @@ Every Recurly subscriber needs to have a corresponding deal set to won.
 
 1. Deal is created 
 
-1. Follow [won subscription deal procedure](deal_management_process.md#won-subscription-deal-procedure-invoicing)
+1. Follow [won subscription deal procedure](source/handbook/sales_process/deal_management_process#won-subscription-deal-procedure-invoicing)
 
 1. Automatic email to sales@gitlab.com is assigned to the deal
 
@@ -76,7 +76,7 @@ example: a customer that subscribed 1 year ago for 20 users and is currently ask
 
 1. 90 days before the renewal, sales creates renewal deal
 
-1. 90 days before renewal, sales gets in touch to verify contact information and the subscription information (type and number of packages)’
+1. 90 days before renewal, sales gets in touch to verify contact information and the subscription information (type and number of packages)
 
 1. Renewal quote if needed for bank customers
 
