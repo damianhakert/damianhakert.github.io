@@ -39,7 +39,7 @@ All access to the Enterprise Edition is offered only along with the [terms](http
 
 1. Recurly subscribers receive automatic message telling them to contact support for access to EE
 
-1. If customer was not informed already, send email about [information to get access](https://docs.google.com/document/d/1xholewfn3PrzdRIFrxCE-0hQdQdryXuBnlUYGmm76iA/edit#heading=h.95yak5j1r9m2)
+1. If customer was not informed already, send email about [information to get access](https://docs.google.com/document/d/12X6Cvjwe_jvFi41gvXMLlq91lDgh5oSrRFdQEuEwhl8/edit)
 
 1. Go to gitlab.com > Subscribers / GitLab Enterprise Edition > Settings > Members> New Project member and add respective username
 
