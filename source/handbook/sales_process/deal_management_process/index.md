@@ -22,7 +22,7 @@ The above is a good estimate, because it lists only users that are not blocked, 
 ## Managing potential customer technical questions
 
 GitLab is so affordable because we make very good use of our HR. Therefore, we try our best to address customer questions via channels other than on-site meetings.
-[The GitLab remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)
+[The GitLab Remote Manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)
 
 1. Sales gets a list of technical questions from the potential customer (either via email, or via a call)
 
@@ -112,13 +112,13 @@ This model is an alternative to the yearly payment model
 
 1. Add customer to [Mailchimp GitLab Newsletter list](https://login.mailchimp.com/?referrer=%2Flists%2Fmembers%2Fadd%3Fid%3D107301&wcookie=6a4656f83b552f2e94f0) (Customer automatically subscribed to Mailchimp Subscribers List)
 
-1. For EU clients do a [VAT check](accounting.md) (no need if Dutch client). If not, skip to step 6
+1. For EU clients do a [VAT check](source/handbook/sales_process/accounting) (no need if Dutch client). If not, skip to step 6
 
 1. If no VAT number list but client is from EU but outside NL (if it is a Recurly order it will have automatically added VAT), send email to double-check if they don’t want VAT number listed
 
-1. [Create a draft sale](accounting.md#draft-sale-in-twinfield-for-clients-paying-by-with-recurly) (not invoice) in Twinfield 
+1. [Create a draft sale](source/handbook/sales_process/accounting#draft-sale-in-twinfield-for-clients-paying-by-with-recurly) (not invoice) in Twinfield 
 
-1. If standard subscriber, add to [subscribers group](https://gitlab.com/groups/standard/members) and for standard subscriber send [onboarding email](https://docs.google.com/document/d/1xholewfn3PrzdRIFrxCE-0hQdQdryXuBnlUYGmm76iA/edit#heading=h.hlqhlshslrxi). If basic subscriber, do not add
+1. If standard subscriber, add to [subscribers group](https://gitlab.com/groups/standard/members) and for standard subscriber send [onboarding email](https://docs.google.com/document/d/12X6Cvjwe_jvFi41gvXMLlq91lDgh5oSrRFdQEuEwhl8/edit). If basic subscriber, do not add
 
 1. Forward Recurly invoice to customer as safeguard against going to spam. Also reinterate to sign up on GitLab.com and send user name
 
