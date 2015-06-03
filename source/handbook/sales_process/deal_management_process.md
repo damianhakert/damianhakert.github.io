@@ -44,9 +44,9 @@ GitLab is so affordable because we make very good use of our HR. Therefore, we t
 
 1. We do not offer tiered pricing (i.e. discount per larger volumes)
 
-1. Current prices are listed in the [sales sheet](https://docs.google.com/spreadsheets/d/1rwYhbIYkd09CtIyp1LXdoW-cW-zZ_HVhLzF9AIcrNVI/edit#gid=2); if the prices change, they need to be amended there as well
+1. Current prices are listed in the [sales sheet](https://docs.google.com/spreadsheets/d/1755SblMccalWXSahspOrfzBwjGp4F8TkwlB8dOXCGlU/edit#gid=11); if the prices change, they need to be amended there as well
 
-Case study and prepayment discounts are detailed in the [sales sheet](https://docs.google.com/spreadsheets/d/1rwYhbIYkd09CtIyp1LXdoW-cW-zZ_HVhLzF9AIcrNVI/edit#gid=2)
+Case study and prepayment discounts are detailed in the [sales sheet](https://docs.google.com/spreadsheets/d/1755SblMccalWXSahspOrfzBwjGp4F8TkwlB8dOXCGlU/edit#gid=11)
 
 ### Volume discounts
 
@@ -100,9 +100,9 @@ This model is an alternative to the yearly payment model
 
 * Make sure you are certain whether the user wants to pay by credit card (Recurly orders) or by bank transfer (Bank transfer)
 
-* For consultancy deals, go to [Development work management](account_management.md)
+* For consultancy deals, go to [Development work management](account_management.md#development-work-management)
 
-* For consolidated invoices, go to [Consolidated invoices](accounting.md)
+* For consolidated invoices, go to [Consolidated invoices](accounting.md#consolidated-invoices)
 
 ### Recurly orders
 
@@ -116,7 +116,7 @@ This model is an alternative to the yearly payment model
 
 1. If no VAT number list but client is from EU but outside NL (if it is a Recurly order it will have automatically added VAT), send email to double-check if they don’t want VAT number listed
 
-1. [Create a draft sale](accounting.md) (not invoice) in Twinfield 
+1. [Create a draft sale](accounting.md#draft-sale-in-twinfield-for-clients-paying-by-with-recurly) (not invoice) in Twinfield 
 
 1. If standard subscriber, add to [subscribers group](https://gitlab.com/groups/standard/members) and for standard subscriber send [onboarding email](https://docs.google.com/document/d/1xholewfn3PrzdRIFrxCE-0hQdQdryXuBnlUYGmm76iA/edit#heading=h.hlqhlshslrxi). If basic subscriber, do not add
 
@@ -182,7 +182,7 @@ Trigger: customer with a valid subscription requests a cancellation either via s
 
 1. Twinfield: if twinfield entry final, then create a draft sale with negative amount. write Recurly and number of original invoice in Description field
 
-1. [Remove username from EE repo](licenses.md)
+1. [Remove username from EE repo](licenses.md#removing-access-from-ee)
 
 1. Sales sheet: mark deal as lost
 
