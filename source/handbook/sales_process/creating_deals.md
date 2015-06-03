@@ -39,7 +39,7 @@ Every Recurly subscriber needs to have a corresponding deal set to won.
 
 1. When a renewal is due, sales inquires about the CURRENT number of users.
 
-1. If current number of users exceeds the number of users in the current subscription, sales [notifies](https://docs.google.com/document/d/1xholewfn3PrzdRIFrxCE-0hQdQdryXuBnlUYGmm76iA/edit#heading=h.cnwgo73omhuz) the customer that they will be charged back on the difference.
+1. If current number of users exceeds the number of users in the current subscription, sales [notifies](https://docs.google.com/document/d/12X6Cvjwe_jvFi41gvXMLlq91lDgh5oSrRFdQEuEwhl8/edit) the customer that they will be charged back on the difference.
 
 ### Sales invoices on the difference:
 
