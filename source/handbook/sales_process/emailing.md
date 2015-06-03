@@ -55,4 +55,4 @@ title: "Sales Onboarding"
 
 1. Lead is big if: important name or many users
 
-## [Email templates](https://docs.google.com/document/d/1xholewfn3PrzdRIFrxCE-0hQdQdryXuBnlUYGmm76iA/edit)
+## [Email templates](https://docs.google.com/document/d/12X6Cvjwe_jvFi41gvXMLlq91lDgh5oSrRFdQEuEwhl8/edit )
