@@ -196,7 +196,7 @@ VAT: IMPORTANT TO CHECK THAT CATEGORY MATCHES THE COUNTRY IN THE INVOICE!
 
 1. Message saying that a provisional sale was created appears on the screen
 
-1. For hourly invoices add the invoice nr. to the [GitLab Sales Sheet](https://docs.google.com/spreadsheets/d/1rwYhbIYkd09CtIyp1LXdoW-cW-zZ_HVhLzF9AIcrNVI/edit#gid=1)
+1. For hourly invoices add the invoice nr. to the [GitLab Sales Sheet](https://docs.google.com/spreadsheets/d/1755SblMccalWXSahspOrfzBwjGp4F8TkwlB8dOXCGlU/edit#gid=11)
 
 ## EU VAT VIES check
 
