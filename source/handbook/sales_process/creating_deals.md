@@ -104,7 +104,7 @@ Every time a customer asks for an upgrade (additional subscription packs, or sub
 
 1. Customer asks for additional subscription packs
 
-1. Sales calculates the prorated amount for the subscription packs [here](https://docs.google.com/spreadsheet/ccc?key=0Am5WZPWXUTUAdFctUkhoM0lUVjlCWl9kYmZzTHpKemc&usp=drive_web#gid=2)
+1. Sales calculates the prorated amount for the subscription packs [here](https://docs.google.com/spreadsheets/d/1755SblMccalWXSahspOrfzBwjGp4F8TkwlB8dOXCGlU/edit#gid=11)
 
 1. Sales creates invoice
 
