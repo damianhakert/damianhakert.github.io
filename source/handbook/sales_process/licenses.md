@@ -19,7 +19,7 @@ All access to the Enterprise Edition is offered only along with the [terms](http
 
 ## Evaluation/Trial access rules
 
-1. Small opportunity (small organization and less than 1 standard pack/10 basic packs): Trial is not available. [Send template email](https://docs.google.com/document/d/1xholewfn3PrzdRIFrxCE-0hQdQdryXuBnlUYGmm76iA/edit#heading=h.t1uw2df6jz6e)
+1. Small opportunity (small organization and less than 1 standard pack/10 basic packs): Trial is not available. [Send template email](https://docs.google.com/document/d/12X6Cvjwe_jvFi41gvXMLlq91lDgh5oSrRFdQEuEwhl8/edit)
 
 1. Large opportunity (large organization or more than 1 standard pack/10 basic packs): 45 day trials are available and can be extended if needed. Prospect should sign the [Evaluation Agreement](https://docs.google.com/document/d/1YvYWlou1OUsQTEhwYZzj8WXPv9bwPhlcVnLI2euA7EQ/edit?usp=sharing). Print Google Doc as PDF and send to prospect. Signed copies should be saved in Drive with file name as exampleco_eval_agreement_signed032615. End of trial is listed in “Renewal date” of the sales sheet. Sales follows-up until a firm response (yes/no). If answer is no, then access is removed, and customer is informed to remove GitLab Enterprise Edition from their server
 
@@ -33,7 +33,7 @@ All access to the Enterprise Edition is offered only along with the [terms](http
 
 1. If recurly - user told about access through automatic e-mail
 
-1. If bank - sales sends the following [template text](https://docs.google.com/document/d/1F0vXw58ctLfk9LKrh35kOSjYvdah4skGGUt46l1-4GM/edit#heading=h.yijkiyyclmzs) via e-mail
+1. If bank - sales sends the following [template text](https://docs.google.com/document/d/12X6Cvjwe_jvFi41gvXMLlq91lDgh5oSrRFdQEuEwhl8/edit) via e-mail
 
 ## Giving access to EE
 
