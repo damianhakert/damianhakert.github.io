@@ -7,16 +7,16 @@ author: Jacob Vosmaer
 author_twitter: jacobvosmaer
 ---
 
-Our hosted GitLab service at gitlab.com suffered an outage from  2015-05-29 01:00 to 2015-05-29 02:34 (times in UTC).
-In this blog post we will discuss what happened, why it took so long to recover the service, what we are doing to reduce the likelihood and impact of such incidents.
+GitLab.com suffered an outage from  2015-05-29 01:00 to 2015-05-29 02:34 (times in UTC).
+In this blog post we will discuss what happened, why it took so long to recover the service, and what we are doing to reduce the likelihood and impact of such incidents.
 
 <!-- more -->
 
 # Background
 
 The GitLab service at gitlab.com is provided and maintained by the team of GitLab B.V., the company behind GitLab.
-On 2015-05-02 we performed a major infrastructure upgrade, moving gitlab.com from a single server to a small cluster of servers, consisting of a load balancer (running HAproxy), three workers (NGINX/Unicorn/Sidekiq/gitlab-shell) and a backend server (PostgreSQL/Redis/NFS).
-This new infrastructure configuration improved the responsiveness of gitlab.com, at the expense of having more moving parts.
+On 2015-05-02 we performed a major infrastructure upgrade, moving GitLab.com from a single server to a small cluster of servers, consisting of a load balancer (running HAproxy), three workers (NGINX/Unicorn/Sidekiq/gitlab-shell) and a backend server (PostgreSQL/Redis/NFS).
+This new infrastructure configuration improved the responsiveness of GitLab.com, at the expense of having more moving parts.
 
 GitLab.com is backed up using Amazon EBS snapshots.
 To protect against inconsistent snapshots our backup script 'freezes' the filesystem on the backend server with `fsfreeze` prior to making EBS snapshots, and 'unfreezes' the filesystem immediately after.
@@ -25,7 +25,7 @@ To protect against inconsistent snapshots our backup script 'freezes' the filesy
 
 Italic comments below are written with the knowledge of hindsight
 
-- 1:00 The gitlab.com backup script is activated by Cron on the backend server.
+- 1:00 The GitLab.com backup script is activated by Cron on the backend server.
   _For unknown reasons, the backup script hangs/crashes before or during the 'unfreeze' of the filesystem holding all user data._
 - 1:07 Our on-call engineer is paged by [Pingdom](http://status.gitlab.com).
   The on-call engineer tries to diagnose the issue on the worker servers but is unable to diagnose the problem.
@@ -37,13 +37,13 @@ Italic comments below are written with the knowledge of hindsight
   It becomes apparent that the workers cannot mount the NFS share which holds all Git repository data.
 - 1:51 One of the engineers notices that the load on the backend server is more than 150. _A normal value would be less than 5._
 - 2:10 The engineers give up on running commands on the workers to bring the NFS share back, and start investigating the backend server.
-  The engineers discuss whether they should reboot the backend server but they are unsure if it is safe.
+  The engineers discuss whether they should reboot the backend server but they are unsure if it is safe given that this setup is fairly new.
 - 2:21 The engineers reboot the backend server.
   The reboot is taking a long time.
   _The AWS 'reboot' command first tries a soft reboot, and only does a hard reboot after a 4-minute timeout.
   The soft reboot probably hung when it tried to shut down services that were trying to write to the 'frozen' disk._
 - 2:30 The backend server has rebooted and the engineers regain SSH access to it.
-  The worker servers are able to mount the NFS share now but gitlab.com is still not functioning because the Postgres database server is not responding.
+  The worker servers are able to mount the NFS share now but GitLab.com is still not functioning because the Postgres database server is not responding.
   One of the engineers restarts Postgres on the backend server.
   _It may have been that Postgres was still busy performing crash recovery._
 - 2:34 Gitlab.com is available again.
@@ -58,7 +58,7 @@ The length of the outage was caused by insufficient training and documentation f
 
 We have removed the freeze/unfreeze steps from our backup script.
 Because this (theoretically) increases the risk of occasional corrupt backups we have added a second backup strategy for our SQL data.
-In the future we would like to have automatically validation of our gitlab.com backups.
+In the future we would like to have automatical validation of our GitLab.com backups.
 
-Ironically, we discussed the lack of training that ended up prolonging this outage in a meeting the day before.
+The day before this incident we decided the training was our most important priority.
 We have started to do regular operations drills in one-on-one sessions with all of our on-call engineers.
