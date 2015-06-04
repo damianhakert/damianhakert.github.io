@@ -14,7 +14,7 @@ In this blog post we will discuss what happened, why it took so long to recover 
 
 # Background
 
-The GitLab service at gitlab.com is provided and maintained by the team of GitLab B.V., the company behind GitLab.
+GitLab.com is provided and maintained by the team of GitLab B.V., the company behind GitLab.
 On 2015-05-02 we performed a major infrastructure upgrade, moving GitLab.com from a single server to a small cluster of servers, consisting of a load balancer (running HAproxy), three workers (NGINX/Unicorn/Sidekiq/gitlab-shell) and a backend server (PostgreSQL/Redis/NFS).
 This new infrastructure configuration improved the responsiveness of GitLab.com, at the expense of having more moving parts.
 
