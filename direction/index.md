@@ -19,7 +19,7 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * [Make sidekiq threadsafe](https://twitter.com/asshurtACKFlags/status/490082576426491905)
 
-* [Allow cross server merge requests](http://feedback.gitlab.com/forums/176466-general/suggestions/5097708-implement-cross-server-federated-merge-requests)(paste url when making a new MR) 
+* [Allow cross server merge requests](http://feedback.gitlab.com/forums/176466-general/suggestions/5097708-implement-cross-server-federated-merge-requests) (paste url when making a new MR) 
 
 * [Code search in groups](https://dev.gitlab.org/gitlab/gitlabhq/issues/841)
 
@@ -84,7 +84,7 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * [Chain builds / delivery pipeline](http://feedback.gitlab.com/forums/176466-general/suggestions/7233770-chain-builds)
 
-* Staging environment per branch, easy deploy (similar to [Teatro](https://teatro.io/) [Tutum](https://support.tutum.co/support/solutions/articles/5000620449-deploy-to-tutum-button) & [Heroku Review Apps](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta))
+* Staging environment per branch, easy deploy (similar to [Teatro](https://teatro.io/), [Tutum](https://support.tutum.co/support/solutions/articles/5000620449-deploy-to-tutum-button) & [Heroku Review Apps](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta))
 
 * [Pages and A/B testing of branches](https://dev.gitlab.org/gitlab/gitlabhq/issues/2290)
 
