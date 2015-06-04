@@ -52,37 +52,37 @@ title: "Sales Process"
 
 ## Generating leads
 
-[Types of leads](source/handbook/sales_process/generating_leads).
+[Types of leads](handbook/sales_process/generating_leads).
 
 ## Creating deals
 
-Every time a deal is created, a task is also created. The task succinctly describes [next action](source/handbook/sales_process/creating_deals).
+Every time a deal is created, a task is also created. The task succinctly describes [next action](handbook/sales_process/creating_deals).
 
 ## Deal management process
 
-Find out [how to manage deals](source/handbook/sales_process/deal_management_process) with potential customers.
+Find out [how to manage deals](handbook/sales_process/deal_management_process) with potential customers.
 
 ## Account management
 
-Aspects to consider when [managing an account](source/handbook/sales_process/account_management).
+Aspects to consider when [managing an account](handbook/sales_process/account_management).
 
 ## Emailing
 
-[Customer emailing guidelines](source/handbook/sales_process/emailing).
+[Customer emailing guidelines](handbook/sales_process/emailing).
 
 ## Accounting
 
-[Accounting procedures](source/handbook/sales_process/accounting).
+[Accounting procedures](handbook/sales_process/accounting).
 
 ## Licenses
 
-Everything about [lincenses and EE access](source/handbook/sales_process/licenses).
+Everything about [lincenses and EE access](handbook/sales_process/licenses).
 
 ## Deprecated
 
 ### Invoice in Twinfield for clients paying by bank (non-Recurly)
 
-* This is part of the [won subscription deal procedure](source/handbook/sales_process/deal_management_process#won-subscription-deal-procedure-invoicing), you should have done a VIES check already if EU client
+* This is part of the [won subscription deal procedure](handbook/sales_process/deal_management_process#won-subscription-deal-procedure-invoicing), you should have done a VIES check already if EU client
 
 * [Login Twinfield](https://login.twinfield.com/) (SUPER, het wachtwoord, COMCOASTER, Nederlands)
 
@@ -124,11 +124,11 @@ Everything about [lincenses and EE access](source/handbook/sales_process/license
 
 * VAT:
 
-![VAT](source/handbook/sales_process/images_sales_process/vat2_sales_process.png) 
+![VAT](handbook/sales_process/images_sales_process/vat2_sales_process.png) 
 
 * If ICL was chosen, press services
 
-* Add closing text: 
+* Add closing text:
 
 1. For non-EU clients: No VAT according to article 44 and 59 of the European VAT Directive.
 
