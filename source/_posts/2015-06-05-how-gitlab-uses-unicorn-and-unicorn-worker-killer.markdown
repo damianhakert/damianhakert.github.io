@@ -8,11 +8,13 @@ author_twitter: jacobvosmaer
 ---
 
 We just wrote some new documentation on how Gitlab uses Unicorn and
-unicorn-worker-killer, available on [doc.gitlab.com](http://doc.gitlab.com) but
+unicorn-worker-killer, available on [doc.gitlab.com](http://doc.gitlab.com/ce/operations/unicorn.html) but
 also included below. We would love to hear from the community if you have other
 questions so we can improve this documentation resource!
 
 <!-- more -->
+
+Update 19:29 CEST: made link to doc.gitlab.com more specific.
 
 # Understanding Unicorn and unicorn-worker-killer
 
