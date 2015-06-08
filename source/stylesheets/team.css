@@ -5,6 +5,10 @@ h1 {
   font-weight: 600;
 }
 
+h2, h3, h4 {
+  font-weight: 400;
+}
+
 h1 small {
   font-weight: 300;
 }
@@ -31,6 +35,13 @@ h1 small {
 
 .member {
   text-align: center;
+  margin: 3pt;
+  padding: 13pt;
+  background-color: white;
+  box-shadow: 0 3px 3px #ccc;
+  min-height: 620px;
+  border-radius: 6px;
+  margin-bottom: 47px;
 }
 
 .member img {
@@ -70,5 +81,8 @@ h1 small {
   color: white;
   padding: 4px;
   text-decoration: none;
+}
 
+.member ul {
+  text-align: left;
 }
