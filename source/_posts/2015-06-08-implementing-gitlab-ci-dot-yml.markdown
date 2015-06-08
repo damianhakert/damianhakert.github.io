@@ -35,14 +35,14 @@ support, not to mention confusing. So we're not just deprecating the old style
 of defining jobs, we're removing it entirely and will migrate existing jobs.
 
 Upon upgrading your existing jobs defined in the GitLab CI Coordinator will be
-converted into a YAML file with the new syntax and stored in a project field
-`deprecated_script`.
+converted into a YAML file with the new syntax. You can download this file at any
+time from the project settings.
 
 When the GitLab webhook triggers and doesn't transmit the content from `.gitlab-ci.yml`,
-the coordinator will use the `deprecated_script` instead.
+the coordinator will use the converted YAML file instead.
 
 This makes migrating to the new style very easy. You can start by simply copy-pasting
-the contents of `deprecated_script` to the root of your repository. Existing projects
+the contents of the converted YAML file to the root of your repository. Existing projects
 will continue to build successfully, yet new projects do not have the option to
 use anything else.
 
@@ -92,11 +92,8 @@ on_success:
 ## Contribute
 
 GitLab is nothing without its community.
-Contribute or follow the development in the [GitLab CI repository] and
-[GitLab CE repository].
-
+Contribute or follow the development in the [GitLab CI repository].
 
 [wrote]: https://about.gitlab.com/2015/05/06/why-were-replacing-gitlab-ci-jobs-with-gitlab-ci-dot-yml/
 [previous article]: https://about.gitlab.com/2015/05/06/why-were-replacing-gitlab-ci-jobs-with-gitlab-ci-dot-yml/
-[GitLab CI repository]: https://gitlab.com/gitlab-org/gitlab-ci
-[GitLab CE repository]: https://gitlab.com/gitlab-org/gitlab-ce
+[GitLab CI repository]: https://gitlab.com/gitlab-org/gitlab-ci/commit/c2c9236cde807e98ff9571f8d23ac4def75eb9ba
