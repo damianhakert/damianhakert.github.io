@@ -25,8 +25,6 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * Reduce exceptions (so that exception notifications become usable)
 
-* [Make sidekiq threadsafe](https://twitter.com/asshurtACKFlags/status/490082576426491905)
-
 * [Allow cross server merge requests](http://feedback.gitlab.com/forums/176466-general/suggestions/5097708-implement-cross-server-federated-merge-requests) (paste url when making a new MR) 
 
 * [Code search in groups](https://dev.gitlab.org/gitlab/gitlabhq/issues/841)
