@@ -3,7 +3,15 @@ layout: markdown_page
 title: "GitLab Direction"
 ---
 
-This is a list of things the GitLab company team would really like to see in GitLab. Unlike a roadmap, the list is not prioritized and there are not expected dates. What goes into our monthly releases is flexible because we need to quickly respond to user and customer feedback. Our internal milestones have a plan for the next few releases. For a complete list of all the things that we would like to see in GitLab, please see the 'accepting merge requests lists' in our [Feature Request Forum](http://feedback.gitlab.com/forums/176466-general/status/796455)
+This is a list of things the GitLab company team would really like to see in GitLab.
+Unlike a roadmap, the list is not prioritized and there are not expected dates.
+What goes into our monthly releases is more flexible that the list below.
+This because we need to quickly respond to user and customer feedback.
+Our internal milestones have a plan for the next few releases.
+These have some flexibility and we want to be free to moving items between them.
+But we take care to ship features promised to customers on time.
+
+For a longer list of the things that we can accept in GitLab, please see the 'accepting merge requests lists' in our [Feature Request Forum](http://feedback.gitlab.com/forums/176466-general/status/796455)
 
 Merge requests that implement the functionality below are very welcome.
 
