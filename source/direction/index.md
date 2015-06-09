@@ -96,6 +96,6 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * Paas: CloudFoundry, OpenStack, Openshift, Kubernetes, Mesos/DCOS, Docker
 
-* Scrum boards: Huboard support in addition to https://about.gitlab.com/applications/ 
+* Scrum boards: Huboard support in addition to https://about.gitlab.com/applications/#scrum-boards
 
 * Chat: Adopt https://github.com/kandanapp/kandan or partner with new entrants
