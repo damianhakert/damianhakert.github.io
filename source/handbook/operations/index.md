@@ -13,11 +13,11 @@ On Monday at 10:10 UTC we do automatic OS updates every week.
 
 ## Emergency checklist
 
-For [emergency checklist](https://dev.gitlab.org/cookbooks/gitlab-drbd/blob/master/doc/emergency_checklist.md)
+For [emergency checklist](https://dev.gitlab.org/cookbooks/gitlab-drbd/blob/master/doc/emergency_checklist.md).
 
 ## How does gitlab-drbd work and how do I failover?
 
-See [failover procedure](https://dev.gitlab.org/cookbooks/gitlab-drbd/blob/master/doc/control_script.md#failover-procedure)
+See [failover procedure](https://dev.gitlab.org/cookbooks/gitlab-drbd/blob/master/doc/control_script.md#failover-procedure).
 
 ### Contact NetCompany
 
@@ -25,7 +25,7 @@ Our production servers (linus, monty) and backup server (stallman) are hosted by
 
 ### Email support
 
-Not for really urgent matters: support@hostingu2.nl 
+Not for really urgent matters: support@hostingu2.nl. 
 
 ### 24/7 Emergency phone support
 
@@ -45,17 +45,17 @@ Backups for dev.gitlab.org are stored on S3 in the ‘backup-dev-gitlab-org’ b
 
 ## GitLab Operations Archive
 
-You can find the operations archive [here](https://docs.google.com/document/d/19yzyIHY9F_m5p0B0e6STSZyhzfo-vLIRVQ1zRRevWRM/edit#heading=h.lz1c6r6c9ejd)
+You can find the operations archive [here](https://docs.google.com/document/d/19yzyIHY9F_m5p0B0e6STSZyhzfo-vLIRVQ1zRRevWRM/edit#heading=h.lz1c6r6c9ejd).
 
 ## Network
 
-See network spreadsheet [here](https://docs.google.com/spreadsheet/ccc?key=0Am5WZPWXUTUAdGgtVFlYZXFWbk5WdWU2Vko4b2NxdWc#gid=0)
+See network spreadsheet [here](https://docs.google.com/spreadsheet/ccc?key=0Am5WZPWXUTUAdGgtVFlYZXFWbk5WdWU2Vko4b2NxdWc#gid=0).
 
 ## HP server
 
-[Documentation](https://drive.google.com/?tab=oo&authuser=0#folders/0B25WZPWXUTUAbnp4UU1lZjBtaU0)
+[Documentation](https://drive.google.com/?tab=oo&authuser=0#folders/0B25WZPWXUTUAbnp4UU1lZjBtaU0).
 
-[Hpacucli (RAID CLI) cheat sheet](http://www.datadisk.co.uk/html_docs/redhat/hpacucli.htm) 
+[Hpacucli (RAID CLI) cheat sheet](http://www.datadisk.co.uk/html_docs/redhat/hpacucli.htm).
 
 ## WWW deploy
 
@@ -75,13 +75,13 @@ git push deploy master
 
 ## DRBD reports local disk state is ‘Diskless’
 
-* Try deactivating/activating the DRBD resource: sudo drbdadm detach gitlab_data ; sudo drbdadm attach gitlab_data
+* Try deactivating/activating the DRBD resource: sudo drbdadm detach gitlab_data ; sudo drbdadm attach gitlab_data.
 
 * Check if any lvm commands are still running ps ax | grep lvm . If so, wait for them to finish (may take 15 minutes).
 
-* Remove any unnecessary LVM snapshots sudo /opt/gitlab-backup/bin/gitlab-rotate-backup purge
+* Remove any unnecessary LVM snapshots sudo /opt/gitlab-backup/bin/gitlab-rotate-backup purge.
 
-* Try the drbdadm detach/attach again
+* Try the drbdadm detach/attach again.
 
 ## HTTPS certificate
 
@@ -138,7 +138,7 @@ server {
 
 ## GitLab update on GitLab.com
 
-Documented in [deploy a new gitlab rails](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/administration.md#deploy-a-new-gitlab-rails)
+Documented in [deploy a new gitlab rails](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/administration.md#deploy-a-new-gitlab-rails).
 
 ## GitLab Cloud upgrade procedure improvements
 
@@ -198,13 +198,13 @@ Run `sudo service monit restart` after creating/editing the file.
 
 Setting up Chef server access on your local machine: 
 
-The attributes are in [GitLab cluster](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/roles/gitlab-cluster.json) and [default](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/data_bags/omnibus-gitlab/_default.json)
+The attributes are in [GitLab cluster](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/roles/gitlab-cluster.json) and [default](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/data_bags/omnibus-gitlab/_default.json).
 
 ## Update grub
 
 Sometimes when you run ‘apt-get upgrade’, GRUB wants to reinstall itself. During this process you get asked what disks GRUB should be installed to. Use lsblk to look for disks that contain a partition mounted at ‘/’ (there should be two). Install GRUB to those two disks (e.g. sda and sdj).
 
-Example snippet of lsblk output below. Note the ‘/’.
+Example snippet of lsblk output below. Note the ‘/’
 sdj                         8:144  0   2.7T  0 disk   
 ├─sdj1                      8:145  0     1M  0 part   
 ├─sdj2                      8:146  0 931.3G  0 part   
