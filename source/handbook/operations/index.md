@@ -3,6 +3,12 @@ layout: markdown_page
 title: "Operations"
 ---
 
+## Operations documentation and reference
+
+Most of the operations documentation and reference can be found in
+[in the Chef Repo](https://dev.gitlab.org/cookbooks/chef-repo).
+Make sure to check that if you're looking for anything in particular.
+
 ## Always log into the operations room
 
 Before you start fixing stuff, log into the [operations room](https://gitlab.slack.com/messages/operations/) and leave a message. Other people might be working at the same time, especially if there was a pagerduty alert. If you don't immediately know what happened, create a postmortem doc with a sequential timeline.
@@ -25,7 +31,7 @@ Our production servers (linus, monty) and backup server (stallman) are hosted by
 
 ### Email support
 
-Not for really urgent matters: support@hostingu2.nl. 
+Not for really urgent matters: support@hostingu2.nl.
 
 ### 24/7 Emergency phone support
 
@@ -91,7 +97,7 @@ git push deploy master
 
 * Cd /root
 
-* Follow the steps to [request new certificate](https://dev.gitlab.org/gitlab/gitlab-certificate-toolkit/blob/master/doc/request-new-certificate.md) 
+* Follow the steps to [request new certificate](https://dev.gitlab.org/gitlab/gitlab-certificate-toolkit/blob/master/doc/request-new-certificate.md)
 
 * Request [EssentialSSL Domain Validation](https://rcp.openprovider.eu/ssl/product-overview.php)
 
@@ -107,9 +113,9 @@ git push deploy master
 
 * Do not use empty lines at the end so combining the keys goes cleanly
 
-* Prepare the [new certificate](https://dev.gitlab.org/gitlab/gitlab-certificate-toolkit/blob/master/doc/prepare-new-certificate.md) 
+* Prepare the [new certificate](https://dev.gitlab.org/gitlab/gitlab-certificate-toolkit/blob/master/doc/prepare-new-certificate.md)
 
-* Install the [new certificate](https://dev.gitlab.org/gitlab/gitlab-certificate-toolkit/blob/master/doc/install-new-certificate.md) 
+* Install the [new certificate](https://dev.gitlab.org/gitlab/gitlab-certificate-toolkit/blob/master/doc/install-new-certificate.md)
 
 ### Random tips:
 
@@ -120,7 +126,7 @@ ssl_certificate         /etc/ssl/$DOMAIN.crt;
 ssl_certificate_key     /etc/ssl/$DOMAIN.key;
 
 * Test Nginx config
-sudo nginx -t 
+sudo nginx -t
 
 * Restart Nginx
 sudo service nginx restart
@@ -188,7 +194,7 @@ rm -rf gitlab_cloud_staging_us/
 ## Monit check for disk space on root filesystem
 
 ubuntu@ip-10-182-143-34:~$ cat /etc/monit/conf.d/disk_usage.monitrc
-check filesystem rootfs with path /dev/xvda1       
+check filesystem rootfs with path /dev/xvda1
   alert everyone@gitlab.com
   if space usage > 70% then alert
 
@@ -196,7 +202,7 @@ Run `sudo service monit restart` after creating/editing the file.
 
 ## Changing configuration on GitLab.com using Chef
 
-Setting up Chef server access on your local machine: 
+Setting up Chef server access on your local machine:
 
 The attributes are in [GitLab cluster](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/roles/gitlab-cluster.json) and [default](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/data_bags/omnibus-gitlab/_default.json).
 
@@ -205,8 +211,8 @@ The attributes are in [GitLab cluster](https://dev.gitlab.org/cookbooks/chef-rep
 Sometimes when you run ‘apt-get upgrade’, GRUB wants to reinstall itself. During this process you get asked what disks GRUB should be installed to. Use lsblk to look for disks that contain a partition mounted at ‘/’ (there should be two). Install GRUB to those two disks (e.g. sda and sdj).
 
 Example snippet of lsblk output below. Note the ‘/’
-sdj                         8:144  0   2.7T  0 disk   
-├─sdj1                      8:145  0     1M  0 part   
-├─sdj2                      8:146  0 931.3G  0 part   
+sdj                         8:144  0   2.7T  0 disk
+├─sdj1                      8:145  0     1M  0 part
+├─sdj2                      8:146  0 931.3G  0 part
 │ └─md0                     9:0    0 931.2G  0 raid1  /
 └─sdj3                      8:147  0  93.1G  0 part   [SWAP]
