@@ -89,6 +89,53 @@ on_success:
   - “cap deploy staging”
 ```
 
+## UPDATE
+
+Dmitriy and Sytse spend some time thinking about file syntax. 
+Scripting should be simple and memorable. Thats why we come with better proposal:
+
+```
+before_script: 
+  - gem install bundler
+  - bundle install 
+  - bundle exec rake db:create
+
+rspec: 
+  test: "rake spec"
+  tags: 
+    - ruby
+    - postgres
+  only:
+    - branches
+
+spinach:
+  test: "rake spinach"
+  tags: 
+    - ruby
+    - mysql
+  except:
+    - tags
+
+staging: 
+  deploy: "cap deploy stating"
+  tags: 
+    - capistrano
+    - debian
+  except:
+    - stable
+
+production:
+  deploy: 
+    - cap deploy production
+    - cap notify
+  tags: 
+    - capistrano
+    - debian
+  only:
+    - master
+    - /^deploy-.*$/
+```
+
 ## Contribute
 
 GitLab is nothing without its community.
