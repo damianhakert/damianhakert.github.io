@@ -94,6 +94,10 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * [Pages and A/B testing of branches](https://dev.gitlab.org/gitlab/gitlabhq/issues/2290)
 
+* Automatically give code quality metrics in the merge request
+
+* Show code coverage in diffs with colored horizontal bar
+
 ## We would love to partner with
 
 * IDE: Integrate with Koding, Nitrous.io, Cloud9, CodeAnywhere, Codio and CodeEnvy
