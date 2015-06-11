@@ -426,7 +426,7 @@ desc "Build website in #{BUILD_DIR}"
 task :build => [:clean, :generate, :pdfs]
 
 rule %r{^public/terms/print/.*\.pdf} => [->(f) { f.pathmap('%X.html') }] do |pdf|
-  options = %W(--template=_terms_template.tex --latex-engine=pdflatex -V date=#{Time.now.to_s})
+  options = %W(--template=_terms_template.tex --latex-engine=xelatex -V date=#{Time.now.to_s})
   warn "Generating #{pdf.name}"
   abort("Pandoc failed") unless system('pandoc', *options, '-o', pdf.name, pdf.source)
 end
