@@ -13,6 +13,7 @@ Steps:
 1. Put into Profiles in Lastpass
 1. Create Google account, firstname@gitlab.com or initial(s)@gitlab.com
 1. Add to Slack
+1. Add to Lastpass
 1. Add to Recurly
 1. Add to QuickBooks (finance only)
 1. Add to Comerica (finance only, viewer only)
