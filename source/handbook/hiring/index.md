@@ -7,6 +7,7 @@ title: "Hiring"
 
 Steps:
 
+1. Create issue for new hire in organizatoon with following checklist:
 1. Signed PIAA in Dropbox
 1. Signed contract in Dropbox
 1. Scan of photo id in Dropbox
@@ -15,6 +16,8 @@ Steps:
 1. Add to Slack
 1. Add to Lastpass
 1. Add to Recurly
+1. Add to GitLab Dropbox
+1. Add to BV and Inc Dropbox (fianance only)
 1. Add to QuickBooks (finance only)
 1. Add to Comerica (finance only, viewer only)
 1. Gitlab.com account invited to gitlab.com group
