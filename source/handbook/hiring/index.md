@@ -14,7 +14,7 @@ Steps:
 1. Put into Profiles in Lastpass
 1. Create Google account, firstname@gitlab.com or initial(s)@gitlab.com
 1. Add to Slack
-1. Add to Lastpass
+1. [Add to Lastpass](https://lastpass.com/enterprise_create.php)
 1. Add to Recurly
 1. Add to GitLab Dropbox
 1. Add to BV and Inc Dropbox (fianance only)
