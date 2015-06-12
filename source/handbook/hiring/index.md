@@ -18,6 +18,7 @@ Steps:
 1. Add to Recurly
 1. Add to GitLab Dropbox
 1. Add to BV and Inc Dropbox (fianance only)
+1. [Add to Mailchimp](https://us5.admin.mailchimp.com/account/users/) (if sales or finance)
 1. Add to [QuickBooks users](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/hiring/index.md) (finance only)
 1. Add to Comerica (finance only, viewer only)
 1. Gitlab.com account invited to gitlab.com group
