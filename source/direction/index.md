@@ -102,9 +102,9 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * IDE: Integrate with Koding, Nitrous.io, Cloud9, CodeAnywhere, Codio and CodeEnvy
 
-* Configuration management: Chef, Puppet, Ansible, Salt (upload cookbooks, etc.)
+* Configuration management: Chef, Puppet, Ansible, Salt, Docker (upload cookbooks, build containers, etc.)
 
-* Paas: CloudFoundry, OpenStack, Openshift, Kubernetes, Mesos/DCOS, Docker
+* Paas: CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Flynn
 
 * Scrum boards: Huboard support in addition to https://about.gitlab.com/applications/#scrum-boards
 
