@@ -22,6 +22,7 @@ Steps:
 1. Add to Comerica (finance only, viewer only)
 1. Gitlab.com account invited to gitlab.com group
 1. GitLab.org account created and invited to gitlab group
+1. /cc in the gitlab issue in the organization
 1. Invite to team meeting
 1. Invite to sales meeting
 1. Let them set gravatar on @gitlab.com email address
