@@ -21,4 +21,5 @@ Steps:
 1. GitLab.org account created and invited to gitlab group
 1. Invite to team meeting
 1. Invite to sales meeting
+1. Let them set gravatar on @gitlab.com email address
 1. TODO Add more
