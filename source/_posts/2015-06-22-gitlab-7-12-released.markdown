@@ -56,12 +56,35 @@ Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_
 [![screenshot](/images/7_12/feature.png)](/images/7_12/feature.png) ***7_12 is the version of GitLab being released***
 
 
-## ***MAIN_CI_FEATURE***
+## .gitlab-ci.yml file replaces jobs
 
-***DESCRIPTION***
+As [announced on May 6](https://about.gitlab.com/2015/05/06/why-were-replacing-gitlab-ci-jobs-with-gitlab-ci-dot-yml/) we're replacing GitLab CI jobs with a .gitlab-ci.yml stored in the code repository. The advantages are listed in the announcement but the main ones are:
+
+1. Since build script is version controlled more people can see it and to propose changes
+1. Older and newer branches build correctly since they can contain a different build file
+1. Forks automatically get a proper build script that gets updated when they merge upstream in
+
+HOW IT WORKS AND THE SYNTAX
+
+IMPORTING OLD JOBS AND TEMPORARY YML FILE
+
+The new format is inspired by the work of Travis CI and Circle CI who are already using yml files.
+We considered using the open source modules of Travis CI to build our functionality.
+After starting like that we ended up writing our own because we wanted to offer the following:
+
+1. Deploy jobs should be customizable
+1. Jobs should be able to run on metal, vm's and docker images
+1. Jobs should be able to run on same machine each time (for example for performance testing)
+1. Jobs should be able to run on special architectures (for example a Raspberry Pi 2)
+1. Jobs should be able to run on machines in a special place or with certain credentials
+1. The yml file should have a simple and shallow syntax
+1. Each job should be named so you can recognize it everywhere
+
+Because of the above requirements the 'one image per architecture and thats it' approach was not an option.
+Being able to tag runners and jobs allows for a lot of freedom on assigning a job to a certain runner.
+We hope the new format that combines the freedom of Jenkins the userfriendliness of Travis CI.
 
 [![screenshot](/images/7_12/feature.png)](/images/7_12/feature.png) ***7_12 is the version of GitLab CI being released***
-
 
 ## ***NEW_CI_FEATURE***
 
