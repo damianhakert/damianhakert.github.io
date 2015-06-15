@@ -89,20 +89,20 @@ on_success:
   - “cap deploy staging”
 ```
 
-## UPDATE
+## UPDATE[](#update)
 
-Dmitriy and Sytse spend some time thinking about file syntax. 
+Dmitriy and Sytse spend some time thinking about file syntax.
 Scripting should be simple and memorable. Thats why we come with better proposal:
 
 ```
-before_script: 
+before_script:
   - gem install bundler
-  - bundle install 
+  - bundle install
   - bundle exec rake db:create
 
-rspec: 
+rspec:
   test: "rake spec"
-  tags: 
+  tags:
     - ruby
     - postgres
   only:
@@ -110,25 +110,25 @@ rspec:
 
 spinach:
   test: "rake spinach"
-  tags: 
+  tags:
     - ruby
     - mysql
   except:
     - tags
 
-staging: 
+staging:
   deploy: "cap deploy stating"
-  tags: 
+  tags:
     - capistrano
     - debian
   except:
     - stable
 
 production:
-  deploy: 
+  deploy:
     - cap deploy production
     - cap notify
-  tags: 
+  tags:
     - capistrano
     - debian
   only:
