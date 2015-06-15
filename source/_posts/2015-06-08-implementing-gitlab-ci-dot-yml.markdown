@@ -89,7 +89,9 @@ on_success:
   - “cap deploy staging”
 ```
 
-## UPDATE[](#update)
+<a id="update"></a>
+
+## UPDATE
 
 Dmitriy and Sytse spend some time thinking about file syntax.
 Scripting should be simple and memorable. Thats why we come with better proposal:
