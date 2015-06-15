@@ -26,5 +26,4 @@ Steps:
 1. /cc in the gitlab issue in the organization
 1. Invite to team meeting
 1. Invite to sales meeting
-1. Let them set gravatar on @gitlab.com email address
 1. TODO Add more
