@@ -108,6 +108,11 @@ Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_
 This release has more improvements, including security fixes, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
 
+#### Updated recommended SSL cipher suites
+
+Following the [Logjam vulnerability](https://about.gitlab.com/2015/05/21/security-advisory-for-logjam-vulnerability/) we changed the recommended SSL cipher suites in omnibus-packages and installations from source. More details can be found in [this blogpost](https://about.gitlab.com/2015/06/16/gitlab-com-and-logjam/).
+
+
 ### Upgrade barometer
 
 *** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
