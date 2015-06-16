@@ -107,6 +107,15 @@ Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_
 
 This release has more improvements, including security fixes, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
+#### Change in omnibus-gitlab default behaviour for secrets
+
+When you install the omnibus-gitlab package for the first time, secret hashes get created for GitLab, gitlab-shell and GitLab CI.
+
+Prior to this version, speciying secret setting in gitlab.rb would be ignored until file `/etc/gitlab/gitlab-secrets.json` was removed.
+
+This was an unexpected behaviour as it was expected that specifying a setting in gitlab.rb always takes presedence.
+
+From this release onwards, if you have a setting in gitlab.rb for `secret_token` for either gitlab-rails, gitlab-shell or gitlab-ci the change will be applied and all cookies signed with the old secret_token will become invalid.
 
 #### Updated recommended SSL cipher suites
 
