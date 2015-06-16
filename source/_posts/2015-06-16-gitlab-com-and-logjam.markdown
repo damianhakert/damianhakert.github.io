@@ -1,4 +1,4 @@
-f---
+---
 layout: post
 title: GitLab.com and Logjam
 date: 2015-06-16
@@ -7,6 +7,9 @@ author_twitter: maxlazio
 ---
 
 We've previously announced [security advisory for Logjam vulnerability](https://about.gitlab.com/2015/05/21/security-advisory-for-logjam-vulnerability/). In that announcement we've mentioned that GitLab.com is using 1028-bit DH groups to retain compatibility with older Java-based clients.
+
+We've updated recommended SSL ciphers for all GitLab installations and implemented new ciphers on GitLab.com.
+
 <!--more-->
 
 After some reasearch and testing we've decided to change the SSL cipher suite served by the web server/load balancer.
@@ -33,7 +36,7 @@ We then turned to investigating how others are handling this issue and we found 
 
 With this in mind we've tried removing the DHE suites and the result was as follows:
 
-* All major browsers and clients retain the forward secrecy
+* All major browsers and clients retain forward secrecy using ECDHE
 * SSL labs score went from B to A
 * There is no forward secrecy for Android 2.3.7, Java 6 and OpenSSL 0.9.8
 
