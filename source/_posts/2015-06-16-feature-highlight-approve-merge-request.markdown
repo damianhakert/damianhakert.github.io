@@ -8,7 +8,7 @@ author_twitter: dzaporozhets
 ---
 
 With less than a week until GitLab 7.12, we've got a nice preview for you today:
-Merge request approvers.
+Merge Request Approvals.
 
 Usually you accept a merge request the moment it is ready and reviewed.
 But in some cases you want to amke sure that every merge request is reviewed
