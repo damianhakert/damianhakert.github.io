@@ -6,9 +6,9 @@ author: Marin Jankovski
 author_twitter: maxlazio
 ---
 
-We've previously announced [security advisory for Logjam vulnerability](https://about.gitlab.com/2015/05/21/security-advisory-for-logjam-vulnerability/). In that announcement we've mentioned that GitLab.com is using 1028-bit DH groups to retain compatibility with older Java-based clients.
+We've previously announced [security advisory for Logjam vulnerability](https://about.gitlab.com/2015/05/21/security-advisory-for-logjam-vulnerability/). In that announcement we've mentioned that GitLab.com is using 1024-bit DH groups to retain compatibility with older Java-based clients.
 
-We've updated recommended SSL ciphers for all GitLab installations and implemented new ciphers on GitLab.com.
+We've updated the default/recommended SSL ciphers for all GitLab installations and implemented new ciphers on GitLab.com.
 
 <!--more-->
 
