@@ -1,30 +1,31 @@
 ---
 layout: post
-title: "GitLab 7.12 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 7.12 released with SAML support, Merge Request Approvers and .gitlab-ci.yml!"
 date: 2015-06-22
 comments: true
 categories:
-author: ADD_YOUR_FULL_NAME
+author: Job van der Voort
 filename: FILENAME.MARKDOWN
 image_title: /images/7_X/PICTURE.PNG
 ---
 
-GitLab is open source software to collaborate on code.
-Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
-The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
-In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
+A new season is in, and so is GitLab 7.12! This month's release brings some big
+additions and changes to CE, EE and CI. Starting with CE, GitLab now supports
+SAML! This was requested by many and very happy that one of our community contributors
+was so kind to build this. In GitLab Enterprise Edition you can now require multiple
+people to approve a merge request before it can be merged. In GitLab CI, we're
+introducing the `.gitlab-ci.yml` file, making job scripts much easier to manage.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+This month's MVP was an easy choise. X from CERN contributed the SAML code he
+wrote for their own usage. We're very happy with this contribution and are sure
+many of you will make use of this.
+Thanks X!!
 
 <!--more-->
 
-### ***MAIN_CE_FEATURE***
+### SAML Support
 
-***DESCRIPTION***
-
-[![screenshot](/images/7_12/feature.png)](/images/7_12/feature.png) ***7_12 is the version of GitLab being released***
-
+blabla
 
 ### ***NEW_CE_FEATURE***
 
