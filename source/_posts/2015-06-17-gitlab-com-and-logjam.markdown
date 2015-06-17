@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GitLab.com and Logjam
-date: 2015-06-16
+date: 2015-06-17
 author: Marin Jankovski
 author_twitter: maxlazio
 ---
