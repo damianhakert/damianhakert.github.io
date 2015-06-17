@@ -11,7 +11,7 @@ With less than a week until GitLab 7.12, we've got a nice preview for you today:
 Merge Request Approvals.
 
 Usually you accept a merge request the moment it is ready and reviewed.
-But in some cases you want to amke sure that every merge request is reviewed
+But in some cases you want to make sure that every merge request is reviewed
 and signed off by several people before merging it.
 With GitLab Enterprise Edition 7.12, you can enforce such a workflow
 that requires multiple reviewers with the new Merge Request Approval feature.
