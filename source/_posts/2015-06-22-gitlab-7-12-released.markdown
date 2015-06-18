@@ -25,7 +25,11 @@ Thanks Alexandre!!
 
 ### SAML Support
 
-blabla
+With the contribution of Alexandre, GitLab can now be configured to act as
+a SAML 2.0 Service Provider. This allows GitLab to consume assertions from a SAML 2.0
+Identity Provider (IdP) such as Microsoft ADFS to authenticate users.
+
+See our [documentation on how to setup SAML integration](http://doc.gitlab.com/ce/integration/saml.html).
 
 ### Merge Request Approvers (EE only)
 
@@ -53,7 +57,7 @@ We've made several improvements to LDAP Group sync in GitLab EE.
 It now checks for several more attributes when syncing and
 prevents the sync from removing the last owner in a group.
 
-## .gitlab-ci.yml file replaces jobs
+## .gitlab-ci.yml file replaces jobs (CI)
 
 As [announced on May 6](https://about.gitlab.com/2015/05/06/why-were-replacing-gitlab-ci-jobs-with-gitlab-ci-dot-yml/)
 we're replacing GitLab CI jobs with a .gitlab-ci.yml stored in the code repository.
@@ -85,9 +89,25 @@ assigning a job to a certain runner.
 We hope the new format combines the freedom of Jenkins
 with the user friendliness of Travis CI.
 
+## Secret Variables for runner (CI)
+
+We've added a new function to GitLab CI that allows you to set secret variables
+for runners. Secret variables will be set to the environment by the runner
+and will be hidden from the build log.
+Use them for passwords, secret keys or anything else.
+Note that these secrets will be stored encrypted in the database.
+
+![Secret Variables](/images/7_12/secrets.png)
+
 ### Other changes
 
 This release has more improvements, including security fixes, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
+
+
+
+### Upgrade barometer
+
+
 
 #### Changed behavior for 'secret_token' settings when using Omnibus packages
 
@@ -108,13 +128,6 @@ From this release onwards, if you have a setting in gitlab.rb for `secret_token`
 
 Following the [Logjam vulnerability](https://about.gitlab.com/2015/05/21/security-advisory-for-logjam-vulnerability/) we changed the recommended SSL cipher suites in omnibus-packages and installations from source. More details can be found in [this blogpost](https://about.gitlab.com/2015/06/16/gitlab-com-and-logjam/).
 
-
-### Upgrade barometer
-
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
-*** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
-
 - - -
 
 ## Installation
@@ -133,5 +146,3 @@ For a complete overview please have a look at the [feature list of GitLab EE](ht
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing/).
 No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
-
-- - -
