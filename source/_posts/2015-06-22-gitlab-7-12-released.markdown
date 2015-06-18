@@ -27,39 +27,15 @@ Thanks X!!
 
 blabla
 
-### ***NEW_CE_FEATURE***
+### Merge Request Approvers (EE only)
 
-***DESCRIPTION***
-
-[![screenshot](/images/7_12/feature.png)](/images/7_12/feature.png) ***7_12 is the version of GitLab being released***
-
-
-### NEW_CE_FEATURE
-
-***DESCRIPTION***
-
-[![screenshot](/images/7_12/feature.png)](/images/7_12/feature.png) **+7_12 is the version of GitLab being released***
-
-### NEW_SPONSORED_FEATURE
-
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-12-stable/CHANGELOG#L18).
-
-### ***MAIN_EE_FEATURE*** (EE only feature)
-
-***DESCRIPTION***
-
-[![screenshot](/images/7_12/feature.png)](/images/7_12/feature.png) ***7_12 is the version of GitLab being released***
-
-### ***EE_FEATURE*** (EE only feature)
-
-***DESCRIPTION***
-
-[![screenshot](/images/7_12/feature.png)](/images/7_12/feature.png) ***7_12 is the version of GitLab being released***
-
+blabla
 
 ## .gitlab-ci.yml file replaces jobs
 
-As [announced on May 6](https://about.gitlab.com/2015/05/06/why-were-replacing-gitlab-ci-jobs-with-gitlab-ci-dot-yml/) we're replacing GitLab CI jobs with a .gitlab-ci.yml stored in the code repository. The advantages are listed in the announcement but the main ones are:
+As [announced on May 6](https://about.gitlab.com/2015/05/06/why-were-replacing-gitlab-ci-jobs-with-gitlab-ci-dot-yml/)
+we're replacing GitLab CI jobs with a .gitlab-ci.yml stored in the code repository.
+The advantages are listed in the announcement but the main ones are:
 
 1. Since build script is version controlled more people can see it and to propose changes
 1. Older and newer branches build correctly since they can contain a different build file
@@ -69,40 +45,23 @@ HOW IT WORKS AND THE SYNTAX
 
 IMPORTING OLD JOBS AND TEMPORARY YML FILE
 
-The new format is inspired by the work of Travis CI and Circle CI who are already using yml files.
-We considered using the open source modules of Travis CI to build our functionality.
-After starting like that we ended up writing our own because we wanted to offer the following:
+The new format is inspired by the work of Travis CI and Circle CI who are already using YAML files.
+Initially we considered using the open source modules of Travis CI,
+but we ended up writing our own so we could offer:
 
-1. Deploy jobs should be customizable
-1. Jobs should be able to run on metal, vm's and docker images
-1. Jobs should be able to run on same machine each time (for example for performance testing)
-1. Jobs should be able to run on special architectures (for example a Raspberry Pi 2)
-1. Jobs should be able to run on machines in a special place or with certain credentials
-1. The yml file should have a simple and shallow syntax
-1. Each job should be named so you can recognize it everywhere
+1. Customizable deploy jobs
+1. Ability to run jobs on metal, vm's and docker images
+1. Ability to run on the same machine each time (for example for performance testing)
+1. Ability to run on special architectures (for example a Raspberry Pi 2)
+1. Ability to run on machines in a special place or with certain credentials
+1. A simple and shallow syntax for the YAML file
+1. Named jobs, so they are easily recognizable
 
-Because of the above requirements the 'one image per architecture and thats it' approach was not an option.
-Being able to tag runners and jobs allows for a lot of freedom on assigning a job to a certain runner.
-We hope the new format that combines the freedom of Jenkins the userfriendliness of Travis CI.
-
-[![screenshot](/images/7_12/feature.png)](/images/7_12/feature.png) ***7_12 is the version of GitLab CI being released***
-
-## ***NEW_CI_FEATURE***
-
-***DESCRIPTION***
-
-[![screenshot](/images/7_12/feature.png)](/images/7_12/feature.png) ***7_12 is the version of GitLab CI being released***
-
-
-## NEW_CI_FEATURE
-
-***DESCRIPTION***
-
-[![screenshot](/images/7_12/feature.png)](/images/7_12/feature.png) **+7_12 is the version of GitLab CI being released***
-
-## NEW_SPONSORED_FEATURE
-
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-12-stable/CHANGELOG#L18).
+Because of this, the "one image per architecture and that's it" -approach was not an option.
+As you are able to tag runners and jobs, this gives you a lot of freedom in
+assigning a job to a certain runner.
+We hope the new format combines the freedom of Jenkins
+with the user friendliness of Travis CI.
 
 ### Other changes
 
