@@ -102,12 +102,13 @@ Note that these secrets will be stored encrypted in the database.
 
 ![Secret Variables](/images/7_12/secrets.png)
 
-### Other changes
+## Other changes
 
 This release has more improvements, including security fixes, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
+- - -
 
-### Upgrade barometer
+## Upgrade barometer
 
 #### Changed behavior for 'secret_token' settings when using Omnibus packages
 
