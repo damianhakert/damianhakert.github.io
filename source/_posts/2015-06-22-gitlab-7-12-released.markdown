@@ -66,11 +66,71 @@ The advantages are listed in the announcement but the main ones are:
 1. Since build script is version controlled more people can see it and to propose changes
 1. Older and newer branches build correctly since they can contain a different build file
 1. Forks automatically get a proper build script that gets updated when they merge upstream in
+1. You can experiment with CI build settings in your branch not breaking the rest of branches.
+   It's not possible for Jenkins-like settings.
 
 
-We include a Lint tool to check your syntax.
+
+We include a Lint tool to check your syntax. It is available in every GitLab CI instance by short url `/lint`.
+
+If something goes wrong with your .gitlab-ci.yml after push your code you will be able to see errors in the commit page.
+
 
 HOW IT WORKS AND THE SYNTAX
+
+GitLab sends the web-hook and the `.gitlab-ci.yml` contents
+to the CI Coordinator, which creates builds based on the yml file. In turn,
+these builds are executed by the Runners as it was before.
+
+Here is example of yaml file:
+
+```
+before_script:
+  - gem install bundler
+  - bundle install
+  - bundle exec rake db:create
+
+rspec:
+  script: "rake spec"
+  tags:
+    - ruby
+    - postgres
+  only:
+    - branches
+
+spinach:
+  script: "rake spinach"
+  tags:
+    - ruby
+    - mysql
+  except:
+    - tags
+
+staging:
+  script: "cap deploy staging"
+  type: deploy
+  tags:
+    - capistrano
+    - debian
+  except:
+    - stable
+
+production:
+  script:
+    - cap deploy production
+    - cap notify
+  type: deploy
+  tags:
+    - capistrano
+    - debian
+  only:
+    - master
+    - /^deploy-.*$/
+```
+
+`before_script` section will be performed before each job. Deploy jobs differ from regular job by adding `type: deploy`.
+Every job contains such parameters as `script` (shell script), `tags` (only runner with this tag/tags can pick this build) and `only` or `except` parameter that defines branch names allowed to run build on. The `only` section takes precedence over the "except".
+You can read more information about new syntax in the [Configuraton of your builds with .gitlab-ci.yml](http://doc.gitlab.com/ci/builds_configuration/README.html)
 
 IMPORTING OLD JOBS AND TEMPORARY YML FILE
 
@@ -98,7 +158,7 @@ We've added a new function to GitLab CI that allows you to set secret variables
 for runners. Secret variables will be set to the environment by the runner
 and will be hidden from the build log.
 Use them for passwords, secret keys or anything else.
-Note that these secrets will be stored encrypted in the database.
+Make sure you have runner version 4 or greater.
 
 ![Secret Variables](/images/7_12/secrets.png)
 
