@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "GitLab 7.12 released with SAML support, Merge Request Approvers and .gitlab-ci.yml!"
+title: "GitLab 7.12 released with SAML support, Merge Request Approvers and .gitlab-ci.yml"
 date: 2015-06-22
 comments: true
 categories:
 author: Job van der Voort
 filename: FILENAME.MARKDOWN
-image_title: /images/7_X/PICTURE.PNG
+image_title: /images/7_12/sf.jpg
 ---
 
 A new season is in, and so is GitLab 7.12! This month's release brings some big
@@ -23,7 +23,7 @@ Thanks Alexandre!!
 
 <!--more-->
 
-### SAML Support
+## SAML Support
 
 With the contribution of Alexandre, GitLab can now be configured to act as
 a SAML 2.0 Service Provider. This allows GitLab to consume assertions from a SAML 2.0
@@ -31,7 +31,7 @@ Identity Provider (IdP) such as Microsoft ADFS to authenticate users.
 
 See our [documentation on how to setup SAML integration](http://doc.gitlab.com/ce/integration/saml.html).
 
-### Merge Request Approvers (EE only)
+## Merge Request Approvers (EE only)
 
 If you want to make absolutely sure that a merge request is checked by multiple
 people, you can now set merge request approvers for each merge request in a
@@ -45,13 +45,13 @@ SCREENSHOTS
 
 We'd love to hear how you are using this feature in your organization.
 
-### Git hook to check Maximum File Size (EE only)
+## Git hook to check Maximum File Size (EE only)
 
 We've added a new Git Hook that allows you to restrict the incoming commits
 with large files. You can simply set the threshold and GitLab will take care
 of the rest.
 
-### LDAP Group Sync improvements (EE only)
+## LDAP Group Sync improvements (EE only)
 
 We've made several improvements to LDAP Group sync in GitLab EE.
 It now checks for several more attributes when syncing and
@@ -66,6 +66,9 @@ The advantages are listed in the announcement but the main ones are:
 1. Since build script is version controlled more people can see it and to propose changes
 1. Older and newer branches build correctly since they can contain a different build file
 1. Forks automatically get a proper build script that gets updated when they merge upstream in
+
+
+We include a Lint tool to check your syntax.
 
 HOW IT WORKS AND THE SYNTAX
 
@@ -104,10 +107,7 @@ Note that these secrets will be stored encrypted in the database.
 This release has more improvements, including security fixes, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
 
-
 ### Upgrade barometer
-
-
 
 #### Changed behavior for 'secret_token' settings when using Omnibus packages
 
