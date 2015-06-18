@@ -8,7 +8,7 @@ image_title: '/images/unsplash/highlights.jpeg'
 author_twitter: myvineste
 ---
 
-Some time ago, GitLab's CEO wrote [The Remote Manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/). It inspired me to write about it from the employee's perspective.
+Some time ago, GitLab's CEO Sytse wrote [The Remote Manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/). It inspired me to write about it from the employee's perspective.
 
 I started working with GitLab 2 months ago and it has been quite an interesting experience to work remotely with a team that's spread out in the world.
 
