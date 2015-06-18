@@ -31,6 +31,18 @@ Identity Provider (IdP) such as Microsoft ADFS to authenticate users.
 
 See our [documentation on how to setup SAML integration](http://doc.gitlab.com/ce/integration/saml.html).
 
+## Web Hook for Comments
+
+There is a new web hook available that will trigger on all comments.
+Make good use of it!
+
+## Better performance for the Web Editor
+
+Every new release of GitLab is faster than its previous, but in this release
+we did something special. We replaced the satellites that were used for editing
+in the web interface. This has significantly improved the performance of the
+web editor.
+
 ## Merge Request Approvers (EE only)
 
 If you want to make absolutely sure that a merge request is checked by multiple
