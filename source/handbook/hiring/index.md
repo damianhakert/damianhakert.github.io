@@ -11,7 +11,7 @@ Steps:
 1. Signed PIAA in Dropbox
 1. Signed contract in Dropbox
 1. Scan of photo id in Dropbox
-1. Put into Profiles in Lastpass
+1. [Put into Profiles in Lastpass](confidential-information.md)
 1. Create Google account, firstname@gitlab.com or initial(s)@gitlab.com
 1. Add to Slack
 1. [Add to Lastpass](https://lastpass.com/enterprise_create.php)
