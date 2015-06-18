@@ -16,10 +16,10 @@ was so kind to build this. In GitLab Enterprise Edition you can now require mult
 people to approve a merge request before it can be merged. In GitLab CI, we're
 introducing the `.gitlab-ci.yml` file, making job scripts much easier to manage.
 
-This month's MVP was an easy choise. X from CERN contributed the SAML code he
+This month's MVP was an easy choice. Alexandre Lossent from CERN contributed the SAML code they
 wrote for their own usage. We're very happy with this contribution and are sure
 many of you will make use of this.
-Thanks X!!
+Thanks Alexandre!!
 
 <!--more-->
 
@@ -29,7 +29,29 @@ blabla
 
 ### Merge Request Approvers (EE only)
 
-blabla
+If you want to make absolutely sure that a merge request is checked by multiple
+people, you can now set merge request approvers for each merge request in a
+project.
+
+You simply set the amount of approvals that a merge request needs before allowing
+it to be merged and GitLab will restrict anyone from merging until the set amount
+of approvals has been met.
+
+SCREENSHOTS
+
+We'd love to hear how you are using this feature in your organization.
+
+### Git hook to check Maximum File Size (EE only)
+
+We've added a new Git Hook that allows you to restrict the incoming commits
+with large files. You can simply set the threshold and GitLab will take care
+of the rest.
+
+### LDAP Group Sync improvements (EE only)
+
+We've made several improvements to LDAP Group sync in GitLab EE.
+It now checks for several more attributes when syncing and
+prevents the sync from removing the last owner in a group.
 
 ## .gitlab-ci.yml file replaces jobs
 
