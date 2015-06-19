@@ -69,20 +69,13 @@ The advantages are listed in the announcement but the main ones are:
 1. You can experiment with CI build settings in your branch not breaking the rest of branches.
    It's not possible for Jenkins-like settings.
 
-
-
-We include a Lint tool to check your syntax. It is available in every GitLab CI instance by short url `/lint`.
-
-If something goes wrong with your .gitlab-ci.yml after push your code you will be able to see errors in the commit page.
-
-
-HOW IT WORKS AND THE SYNTAX
+### How it works
 
 GitLab sends the web-hook and the `.gitlab-ci.yml` contents
-to the CI Coordinator, which creates builds based on the yml file. In turn,
+to the CI Coordinator, which creates builds based on the YAML file. In turn,
 these builds are executed by the Runners as it was before.
 
-Here is example of yaml file:
+Here is an example of YAML file:
 
 ```
 before_script:
@@ -128,11 +121,17 @@ production:
     - /^deploy-.*$/
 ```
 
-`before_script` section will be performed before each job. Deploy jobs differ from regular job by adding `type: deploy`.
-Every job contains such parameters as `script` (shell script), `tags` (only runner with this tag/tags can pick this build) and `only` or `except` parameter that defines branch names allowed to run build on. The `only` section takes precedence over the "except".
-You can read more information about new syntax in the [Configuraton of your builds with .gitlab-ci.yml](http://doc.gitlab.com/ci/builds_configuration/README.html)
+We include a Lint tool to check your syntax. It is available in every GitLab CI instance by the short url `/lint`.
+If something goes wrong with your .gitlab-ci.yml after push your code you will be able to see errors in the commit page.
 
-IMPORTING OLD JOBS AND TEMPORARY YML FILE
+The `before_script` section will be performed before each job.
+You can define a deploy job by adding `type: deploy`.
+Every job contains parameters sycg as `script` (shell script), `tags`
+(only runner with this tag/tags can pick this build) and `only` or `except` parameter
+that defines branch names allowed to run build on.
+The `only` section takes precedence over the "except".
+You can read more information about new syntax in the
+[Configuration of your builds with .gitlab-ci.yml](http://doc.gitlab.com/ci/builds_configuration/README.html)
 
 The new format is inspired by the work of Travis CI and Circle CI who are already using YAML files.
 Initially we considered using the open source modules of Travis CI,
@@ -151,6 +150,21 @@ As you are able to tag runners and jobs, this gives you a lot of freedom in
 assigning a job to a certain runner.
 We hope the new format combines the freedom of Jenkins
 with the user friendliness of Travis CI.
+
+### Migrating
+
+Upon upgrading to GitLab 7.12, your CI job scripts will be converted automatically
+into an example `.gitlab-ci.yml` file, which you can view and download in the
+project page in GitLab CI.
+
+On a push that triggers a build, GitLab sends a long the `.gitlab-ci.yml` file
+from the root of the repository. If this is not present, GitLab CI will make use
+of the generated example script. This means your projects that are not updated
+should work fine. However, we do recommend that you add the `.gitlab-ci.yml`
+file to the root of your repository as soon as possible.
+
+Note that you must also do this for long-running branches, in case you want to
+make any specific changes to those.
 
 ## Secret Variables for runner (CI)
 
