@@ -223,6 +223,18 @@ This was an unexpected behaviour as it was expected that specifying a setting in
 
 From this release onwards, if you have a setting in gitlab.rb for `secret_token` for either gitlab-rails, gitlab-shell or gitlab-ci the change will be applied and all cookies signed with the old secret_token will become invalid.
 
+#### Changed detection of the operating system init
+
+When running `gitlab-ctl reconfigure` omnibus-gitlab needs to decide if system is using SysV init, Upstart or Systemd so it can install `gitlab-runsvdir` service.
+
+Prior to this version, this decision was being done by looking at the platform and version of the OS and what the default init for that system was.
+
+This was unreliable and with omnibus-gitlab being installable on more OS' code that handles this became complicated and error prone.
+
+From this release onwards, this has been replaced and detection is done by querying the OS init system. Based on this response `gitlab-runsvdir` service is installed.
+
+If you encounter an issue as described in [omnibus-gitlab README](https://gitlab.com/gitlab-org/omnibus-gitlab/tree/master#reconfigure-freezes-at-ruby_blocksupervise_redis_sleep-action-run) try applying the workaround and raise an issue on the omnibus-gitlab issue tracker.
+
 #### Updated recommended SSL cipher suites
 
 Following the [Logjam vulnerability](https://about.gitlab.com/2015/05/21/security-advisory-for-logjam-vulnerability/) we changed the recommended SSL cipher suites in omnibus-packages and installations from source. More details can be found in [this blogpost](https://about.gitlab.com/2015/06/16/gitlab-com-and-logjam/).
