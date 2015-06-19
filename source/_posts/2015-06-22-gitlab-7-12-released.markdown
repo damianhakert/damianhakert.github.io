@@ -217,7 +217,7 @@ When you install the omnibus-gitlab package for the first time, secret tokens ge
 Auto-generated tokens are stored in `/etc/gitlab/gitlab-secrets.json`.
 These tokens are used for CSRF protection, API call authentication from gitlab-shell to GitLab, and to encrypt OTP secrets stored in the GitLab database.
 
-Prior to this version, speciying secret setting in gitlab.rb would be ignored until file `/etc/gitlab/gitlab-secrets.json` was removed.
+Prior to this version, specifying secret setting in gitlab.rb would be ignored until file `/etc/gitlab/gitlab-secrets.json` was removed.
 
 This was an unexpected behaviour as it was expected that specifying a setting in gitlab.rb always takes precedence.
 
