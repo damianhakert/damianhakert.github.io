@@ -7,19 +7,19 @@ image_title: '/images/unsplash/rm.jpeg'
 author_twitter: maxlazio
 ---
 
-Sometimes real heroes are unknown and we can see their accomplishments, but we usually don't see them. In GitLab, we have one unknown hero every month, when we have our monthly release. Since GitLab started, we've never failed to release a new version on the 22nd of every month. 
+Real heroes are sometimes unknown and we can only see their accomplishments. In GitLab we have one invisible hero every month, when we have our monthly release. As you may know, we've never failed to release a new GitLab version on the 22nd of every month. 
  
-As GitLab is growing, the release process is becoming more complex and challenging and becoming a release manager is a more difficult but necessary job.
+As GitLab is growing, the release process is becoming more complex and becoming a release manager is a more difficult, but necessary job.
 
 Eight work days before the next release, and we start the countdown. A new volunteer "hero" is elected by the team.
 
-But, why is it such a challenging job?
+## But, why is it such a challenging job?
 
 <!--more-->
 
-A release manager is the person who makes sure that everything is ready for the monthly release. He follows up on every single detail and makes sure the new version is working perfectly, including all the intended improvements and features. He also needs to delegate some tasks and make sure that the procedure is being followed. 
+A release manager is the person who makes sure that everything is ready for the monthly release. He follows up on every single detail and makes sure that the new version is working perfectly, including all the improvements and features. He also needs to delegate some tasks and make sure that the procedure is being followed. 
 
-Consider that right now, GitLab is huge. Our community dishes out around 900 commits a month on GitLab alone. Add Enterprise Edition, GitLab CI and runners and omnibus-gitlab packages and you get several thousand changes done by hundreds of developers across projects which need to come together (and work) in one day. This is a lot of responsability for one person.
+Consider that right now, GitLab is huge. Our community dishes out around 900 commits a month on GitLab alone. Add Enterprise Edition, GitLab CI and runners and Omnibus-GitLab packages and you get several thousand changes done by hundreds of developers across projects which need to come together (and work) in one day. This is a lot of responsability for one person.
  
 ## So, how do we manage to make it all into a single release every month?
 
@@ -58,8 +58,10 @@ I have some ideas about what we could do:
 
 * Material reward: a gift might be OK for some people, but others have no need for things. In this case we could publicly thank them and acknowledge their work. 
 * Spiritual reward: We do say "thank you" to the RM a lot, but this gets spent. Tweeting the name of the release manager might work as a recongnition for some, but I am afraid that it won't work for introverts in our team. Being more public might also yield more work for him.
-* Buying a beer or cocktail: This feels like something that would be appreciated, but it would only work for a few employees, since we are a *very* remote company.
+* Buying a beer or cocktail: This feels like something that would be appreciated, but it would only work for a few employees, since we are a *very* remote company. Maybe a beer voucher could be sent.
+
+Do you have any ideas?
 
 With that I was out of ideas. This blog post is an attempt to say a thank you to all release managers. You know who you are and you are a true invisible hero for accomplishing the tasks to make everything go out on schedule.
 
-Release manager - my hero.
+### Release manager - my hero.
