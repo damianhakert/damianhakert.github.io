@@ -43,6 +43,16 @@ we did something special. We replaced the satellites that were used for editing
 in the web interface. This has significantly improved the performance of the
 web editor.
 
+## UI Update
+
+Every month we experiment and tune our UI to be better, prettier and more intuitive
+and this month is no different.
+
+We've moved your profile link to the bottom left and updated the looks of
+various parts of the UI.
+
+![Profile bottom left](/images/7_12/profile.png)
+
 ## Merge Request Approvers (EE only)
 
 If you want to make absolutely sure that a merge request is checked by multiple
