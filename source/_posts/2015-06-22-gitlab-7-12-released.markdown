@@ -210,18 +210,16 @@ This release has more improvements, including security fixes, please check out [
 
 #### Changed behavior for 'secret_token' settings when using Omnibus packages
 
-If you set a custom value for `gitlab_rails['secret_token']`, `gitlab_shell['secret_token']` or `gitlab_ci['secret_token']` in `/etc/gitlab/gitlab.rb` please make a **backup copy** of `/etc/gitlab/gitlab-secrets.json` before upgrading to GitLab 7.12.
-If you have custom setting for none of these three 'secret_token' values in `gitlab.rb` then this section does not apply to you.
+If you set a custom value for `gitlab_rails['secret_token']`, `gitlab_shell['secret_token']` or `gitlab_ci['secret_token']` in `/etc/gitlab/gitlab.rb` then please double-check that the value in `gitlab.rb` matches the value in `/etc/gitlab/gitlab-secrets.json`.
+If some of the values do not match, copy the values from `gitlab-secrets.json` to `gitlab.rb` prior to upgrading to GitLab 7.12.
 
-When you install the omnibus-gitlab package for the first time, secret tokens get created for GitLab, gitlab-shell and GitLab CI.
-Auto-generated tokens are stored in `/etc/gitlab/gitlab-secrets.json`.
-These tokens are used for CSRF protection, API call authentication from gitlab-shell to GitLab, and to encrypt OTP secrets stored in the GitLab database.
-
-Prior to this version, specifying secret setting in gitlab.rb would be ignored until file `/etc/gitlab/gitlab-secrets.json` was removed.
-
+Prior to 7.12, any `secret_token` values you had in `gitlab.rb` were actually being ignored in favor of whatever is in `gitlab-secrets.json`.
 This was an unexpected behaviour as it was expected that specifying a setting in gitlab.rb always takes precedence.
 
-From this release onwards, if you have a setting in gitlab.rb for `secret_token` for either gitlab-rails, gitlab-shell or gitlab-ci the change will be applied and all cookies signed with the old secret_token will become invalid.
+On most GitLab omnibus installations the 'secret_token' values are set only in `gitlab-secrets.json`, and no action is required.
+
+This change only applies to GitLab omnibus packages.
+Installations from source are not affected.
 
 #### Changed detection of the operating system init
 
