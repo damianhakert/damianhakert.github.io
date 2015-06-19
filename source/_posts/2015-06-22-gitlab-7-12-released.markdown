@@ -64,7 +64,8 @@ You simply set the amount of approvals that a merge request needs before allowin
 it to be merged and GitLab will restrict anyone from merging until the set amount
 of approvals has been met.
 
-SCREENSHOTS
+![Setting up merge request approvers](/images/7_12/approvals_settings.png)
+![Using merge request approvers](/images/7_12/approvals_mr.png)
 
 We'd love to hear how you are using this feature in your organization.
 
@@ -149,7 +150,7 @@ If something goes wrong with your .gitlab-ci.yml after push your code you will b
 
 The `before_script` section will be performed before each job.
 You can define a deploy job by adding `type: deploy`.
-Every job contains parameters sycg as `script` (shell script), `tags`
+Every job contains parameters such as `script` (shell script), `tags`
 (only runner with this tag/tags can pick this build) and `only` or `except` parameter
 that defines branch names allowed to run build on.
 The `only` section takes precedence over the "except".
