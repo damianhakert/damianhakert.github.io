@@ -253,6 +253,7 @@ hr.thick {
   }
   .nav>li>a {
     padding: 5px 8px;
+  }
 }
 
 @media (min-width: 768px) {
