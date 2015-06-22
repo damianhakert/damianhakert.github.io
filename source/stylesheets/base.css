@@ -1,3 +1,21 @@
+/* New things */
+
+/* New Logo */
+.nav-logo {
+  max-height: 44px;
+  position: relative;
+  top: -7px;
+}
+.logo-svg-shape {
+  transition: all 0.8s;
+}
+.logo-svg-shape:hover {
+  fill: #fff;
+  transition: all 0.1s;
+}
+
+
+
 /*!
  * Bounce Template v2.1
  *

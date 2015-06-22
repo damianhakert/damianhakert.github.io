@@ -70,9 +70,9 @@
           <span class="icon-bar"></span>
         </button>
         {% if page.url == '/index.html' %}
-        <a class="navbar-brand animated"><img src="/images/wordmark_inverted_small.png" class="nav-logo"></a>
+        <a class="navbar-brand animated">{% include wm_no_bg_white.svg %}</a>
         {% else %}
-        <a class="navbar-brand animated" href="/"><img src="/images/wordmark_inverted_small.png" class="nav-logo"></a>
+        <a class="navbar-brand animated" href="/">{% include wm_no_bg_white.svg %}</a>
         {% endif %}
       </div>
 
