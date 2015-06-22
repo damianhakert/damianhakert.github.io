@@ -252,7 +252,7 @@ If you encounter an issue as described in [omnibus-gitlab README](https://gitlab
 
 #### Updated recommended SSL cipher suites
 
-Following the [Logjam vulnerability](https://about.gitlab.com/2015/05/21/security-advisory-for-logjam-vulnerability/) we changed the recommended SSL cipher suites in omnibus-packages and installations from source. More details can be found in [this blogpost](https://about.gitlab.com/2015/06/16/gitlab-com-and-logjam/).
+Following the [Logjam vulnerability](/2015/05/21/security-advisory-for-logjam-vulnerability/) we changed the recommended SSL cipher suites in omnibus-packages and installations from source. More details can be found in [this blogpost](/2015/06/17/gitlab-com-and-logjam/).
 
 - - -
 
