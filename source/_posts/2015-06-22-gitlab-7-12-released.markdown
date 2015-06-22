@@ -95,7 +95,8 @@ The advantages are listed in the announcement but the main ones are:
 1. Older and newer branches build correctly since they can contain a different build file
 1. Forks automatically get a proper build script that gets updated when they merge upstream in
 1. You can experiment with CI build settings in your branch without breaking other branches.
-   This is not possible for Jenkins-like settings.
+
+The above things are not possible with Jenkins-like scripts that are the same for the whole project.
 
 ### How it works
 
@@ -216,6 +217,9 @@ This release has more improvements, including security fixes, please check out [
 - - -
 
 ## Upgrade barometer
+
+This release only adds minor migrations.
+If you are on GitLab 7.11 CE or EE you can upgrade online 7.12.
 
 #### Changed behavior for 'secret_token' settings when using Omnibus packages
 
