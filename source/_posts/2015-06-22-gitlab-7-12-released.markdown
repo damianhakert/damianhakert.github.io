@@ -12,8 +12,8 @@ image_title: /images/7_12/sf.jpg
 
 A new season is in, and so is GitLab 7.12! This month's release brings some big
 additions and changes to Community Edition (CE), Enterprise Edition (EE) and Continuous Integration (CI).
-Starting with CE, GitLab now supports
-SAML! This was requested by many and very happy that CERN
+In both CE and EE, GitLab now supports authentication using
+SAML! This was requested by many and we're very happy that CERN
 was so kind to contribute this. In GitLab Enterprise Edition you can now require multiple
 people to approve a merge request before it can be merged. In GitLab CI, we're
 introducing the `.gitlab-ci.yml` file, making job scripts much easier to manage.
@@ -22,7 +22,7 @@ This month's MVP was an easy choice. Alexandre Lossent from [CERN](http://home.w
 (where the web was born) contributed the SAML code they
 wrote for their own usage. We're very happy with this contribution and are sure
 many of you will make use of this.
-Thanks Alexandre!!
+Thanks Alexandre!
 
 <!--more-->
 
@@ -39,15 +39,17 @@ See our [documentation on how to setup SAML integration](http://doc.gitlab.com/c
 There is a new web hook available that will trigger on all comments.
 You could use this to add additional automations and integrations to GitLab.
 For instance when someone comments on a merge request, you can have it
-trigger an internal systems or depending on the comment contents
+trigger internal systems or, depending on the comment contents,
 run a certain build.
 
 ## Better performance for the Web Editor
 
-Every new release of GitLab is faster than the previous, but in this release
-we did something special. We replaced the satellites that were used for editing
-in the web interface. This has significantly improved the performance of the
-web editor.
+Every new release of GitLab is faster than the last, but in this release
+we did something special. Instead of performing code changes via the web 
+interface by cloning the bare repository to a temporary location, committing 
+there, and then pushing the changes back to the bare repository, we now commit 
+your changes directly into the bare repository. This has significantly 
+improved the performance of the web editor.
 
 ## UI Update
 
@@ -61,8 +63,8 @@ various parts of the UI.
 
 ## Merge Request Approvers (EE only)
 
-If you want to make sure that merge requests on your favorite project are approved by more than one
-person you can now configure a minimum number of Merge Request approvals for it.
+If you want to make sure that merge requests on your favorite project are 
+reviewed by more than one person before they are merged, you can now configure a minimum number of Merge Request approvals for it.
 
 You simply set the amount of approvals that a merge request needs before allowing
 it to be merged and GitLab will restrict anyone from merging until the set amount
@@ -78,6 +80,7 @@ We'd love to hear how you are using this feature in your organization.
 We've added a new Git Hook that allows you to restrict the incoming commits
 with large files. You can simply set the threshold
 and GitLab will block all future Git pushes containing files that are too big.
+This can be used to prevent people from committing build artifacts, or to motivate them to use git-annex or some other form of large file storage when that's more appropriate.
 
 ## LDAP Group Sync improvements (EE only)
 
@@ -85,16 +88,16 @@ We've made several improvements to LDAP Group sync in GitLab EE.
 It now checks for several more attributes when syncing and
 prevents the sync from removing the last owner in a group.
 
-## .gitlab-ci.yml file replaces jobs (CI)
+## `.gitlab-ci.yml` file replaces jobs (CI)
 
 As [announced on May 6](https://about.gitlab.com/2015/05/06/why-were-replacing-gitlab-ci-jobs-with-gitlab-ci-dot-yml/)
-we're replacing GitLab CI jobs with a .gitlab-ci.yml stored in the code repository.
+we're replacing GitLab CI jobs with a `.gitlab-ci.yml` file stored in the code repository.
 The advantages are listed in the announcement but the main ones are:
 
-1. Since build script is version controlled more people can see it and propose changes
+1. Since the build script is version controlled, more people can see it and propose changes
 1. Older and newer branches build correctly since they can contain a different build file
 1. Forks automatically get a proper build script that gets updated when they merge upstream in
-1. You can experiment with CI build settings in your branch without breaking other branches.
+1. You can experiment with CI build settings in your branch without breaking other branches
 
 The above things are not possible with Jenkins-like scripts that are the same for the whole project.
 
@@ -151,7 +154,7 @@ production:
 ```
 
 We include a Lint tool to check your syntax. It is available in every GitLab CI instance by the short url `/lint`.
-If something goes wrong with your .gitlab-ci.yml after push your code you will be able to see errors in the commit page.
+If something goes wrong with your `.gitlab-ci.yml` after push your code you will be able to see errors in the commit page.
 
 The `before_script` section will be performed before each job.
 You can define a deploy job by adding `type: deploy`.
@@ -186,13 +189,13 @@ Upon upgrading to GitLab 7.12, your CI job scripts will be converted automatical
 into an example `.gitlab-ci.yml` file, which you can view and download in the
 project page in GitLab CI.
 
-On a push that triggers a build, GitLab sends a long the `.gitlab-ci.yml` file
+On a push that triggers a build, GitLab sends along the `.gitlab-ci.yml` file
 from the root of the repository. If this is not present, GitLab CI will make use
 of the generated example script. This means your projects that are not updated
 should work fine. However, we do recommend that you add the `.gitlab-ci.yml`
 file to the root of your repository as soon as possible.
 
-You should add .gitlab-ci.yml files to all branches in your projects that receive
+You should add `.gitlab-ci.yml` files to all branches in your projects that receive
 ongoing Git pushes.
 
 ## BETA: Secret Variables for runner (CI)
@@ -219,7 +222,7 @@ This release has more improvements, including security fixes, please check out [
 ## Upgrade barometer
 
 This release only adds minor migrations.
-If you are on GitLab 7.11 CE or EE you can upgrade online 7.12.
+If you are on GitLab 7.11 CE or EE you can upgrade to 7.12 while staying online.
 
 #### Changed behavior for 'secret_token' settings when using Omnibus packages
 
