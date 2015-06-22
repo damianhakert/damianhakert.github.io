@@ -11,13 +11,15 @@ image_title: /images/7_12/sf.jpg
 ---
 
 A new season is in, and so is GitLab 7.12! This month's release brings some big
-additions and changes to CE, EE and CI. Starting with CE, GitLab now supports
-SAML! This was requested by many and very happy that one of our community contributors
-was so kind to build this. In GitLab Enterprise Edition you can now require multiple
+additions and changes to Community Edition (CE), Enterprise Edition (EE) and Continuous Integration (CI).
+Starting with CE, GitLab now supports
+SAML! This was requested by many and very happy that CERN
+was so kind to contribute this. In GitLab Enterprise Edition you can now require multiple
 people to approve a merge request before it can be merged. In GitLab CI, we're
 introducing the `.gitlab-ci.yml` file, making job scripts much easier to manage.
 
-This month's MVP was an easy choice. Alexandre Lossent from CERN contributed the SAML code they
+This month's MVP was an easy choice. Alexandre Lossent from [CERN](http://home.web.cern.ch/)
+(where the web was born) contributed the SAML code they
 wrote for their own usage. We're very happy with this contribution and are sure
 many of you will make use of this.
 Thanks Alexandre!!
@@ -26,20 +28,23 @@ Thanks Alexandre!!
 
 ## SAML Support
 
-With the contribution of Alexandre, GitLab can now be configured to act as
+With Alexandre's contribution, GitLab can now be configured to act as
 a SAML 2.0 Service Provider. This allows GitLab to consume assertions from a SAML 2.0
-Identity Provider (IdP) such as Microsoft ADFS to authenticate users.
+Identity Provider (IdP) such as Microsoft Active Directory Federation Services to authenticate users.
 
 See our [documentation on how to setup SAML integration](http://doc.gitlab.com/ce/integration/saml.html).
 
 ## Web Hook for Comments
 
 There is a new web hook available that will trigger on all comments.
-Make good use of it!
+You could use this to add additional automations and integrations to GitLab.
+For instance when someone comments on a merge request, you can have it
+trigger an internal systems or depending on the comment contents
+run a certain build.
 
 ## Better performance for the Web Editor
 
-Every new release of GitLab is faster than its previous, but in this release
+Every new release of GitLab is faster than the previous, but in this release
 we did something special. We replaced the satellites that were used for editing
 in the web interface. This has significantly improved the performance of the
 web editor.
@@ -56,9 +61,8 @@ various parts of the UI.
 
 ## Merge Request Approvers (EE only)
 
-If you want to make absolutely sure that a merge request is checked by multiple
-people, you can now set merge request approvers for each merge request in a
-project.
+If you want to make sure that merge requests on your favorite project are approved by more than one
+person you can now configure a minimum number of Merge Request approvals for it.
 
 You simply set the amount of approvals that a merge request needs before allowing
 it to be merged and GitLab will restrict anyone from merging until the set amount
@@ -72,8 +76,8 @@ We'd love to hear how you are using this feature in your organization.
 ## Git hook to check Maximum File Size (EE only)
 
 We've added a new Git Hook that allows you to restrict the incoming commits
-with large files. You can simply set the threshold and GitLab will take care
-of the rest.
+with large files. You can simply set the threshold
+and GitLab will block all future Git pushes containing files that are too big.
 
 ## LDAP Group Sync improvements (EE only)
 
@@ -87,11 +91,11 @@ As [announced on May 6](https://about.gitlab.com/2015/05/06/why-were-replacing-g
 we're replacing GitLab CI jobs with a .gitlab-ci.yml stored in the code repository.
 The advantages are listed in the announcement but the main ones are:
 
-1. Since build script is version controlled more people can see it and to propose changes
+1. Since build script is version controlled more people can see it and propose changes
 1. Older and newer branches build correctly since they can contain a different build file
 1. Forks automatically get a proper build script that gets updated when they merge upstream in
-1. You can experiment with CI build settings in your branch not breaking the rest of branches.
-   It's not possible for Jenkins-like settings.
+1. You can experiment with CI build settings in your branch without breaking other branches.
+   This is not possible for Jenkins-like settings.
 
 ### How it works
 
@@ -162,7 +166,7 @@ Initially we considered using the open source modules of Travis CI,
 but we ended up writing our own so we could offer:
 
 1. Customizable deploy jobs
-1. Ability to run jobs on metal, vm's and docker images
+1. Ability to run jobs on metal, VM's and docker images
 1. Ability to run on the same machine each time (for example for performance testing)
 1. Ability to run on special architectures (for example a Raspberry Pi 2)
 1. Ability to run on machines in a special place or with certain credentials
@@ -187,16 +191,21 @@ of the generated example script. This means your projects that are not updated
 should work fine. However, we do recommend that you add the `.gitlab-ci.yml`
 file to the root of your repository as soon as possible.
 
-Note that you must also do this for long-running branches, in case you want to
-make any specific changes to those.
+You should add .gitlab-ci.yml files to all branches in your projects that receive
+ongoing Git pushes.
 
-## Secret Variables for runner (CI)
+## BETA: Secret Variables for runner (CI)
 
 We've added a new function to GitLab CI that allows you to set secret variables
 for runners. Secret variables will be set to the environment by the runner
 and will be hidden from the build log.
 Use them for passwords, secret keys or anything else.
-Make sure you have runner version 4 or greater.
+Make sure you have runner version 0.4 or greater (released today).
+
+This feature is currently in beta.
+Secrets added to GitLab CI 7.12 will be stored in its SQL database WITHOUT encryption.
+We will add encryption in 7.13.
+
 
 ![Secret Variables](/images/7_12/secrets.png)
 
@@ -223,7 +232,8 @@ Installations from source are not affected.
 
 #### Changed detection of the operating system init
 
-When running `gitlab-ctl reconfigure` omnibus-gitlab needs to decide if system is using SysV init, Upstart or Systemd so it can install `gitlab-runsvdir` service.
+When running `gitlab-ctl reconfigure` omnibus-gitlab needs to decide if the system
+is using SysV init, Upstart or Systemd so it can install the `gitlab-runsvdir` service.
 
 Prior to this version, this decision was being done by looking at the platform and version of the OS and what the default init for that system was.
 
@@ -241,7 +251,8 @@ Following the [Logjam vulnerability](https://about.gitlab.com/2015/05/21/securit
 
 ## Installation
 
-If you are setting up a new GitLab installation please see the [installing GitLab page](https://www.gitlab.com/installation/).
+If you are setting up a new GitLab installation please see the
+[download GitLab page](https://www.gitlab.com/downloads/).
 
 ## Updating
 

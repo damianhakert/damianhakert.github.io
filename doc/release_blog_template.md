@@ -95,7 +95,8 @@ This release has more improvements, including security fixes, please check out [
 
 ## Installation
 
-If you are setting up a new GitLab installation please see the [installing GitLab page](https://www.gitlab.com/installation/).
+If you are setting up a new GitLab installation please see the
+[download GitLab page](https://www.gitlab.com/installation/).
 
 ## Updating
 
