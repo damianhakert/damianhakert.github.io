@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, button, a, p, li {
   color: white;
   width: 90%;
   margin: 7% 0 0 0;
+  list-style-type: none;
 }
 
 .header-feature {

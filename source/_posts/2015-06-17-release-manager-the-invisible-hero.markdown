@@ -40,6 +40,34 @@ Release manager tasks can be broken down into:
 
 A release manager volunteers to work late (or early) to get the packages out or deploy the new version to one of our services. No one is forcing you to do so, but if you don't, it will complicate the following day. This is a weakness in our process, so we need to work on improving this situation.
 
+## History
+
+I don't know the exact date when the release manager duty was thought off but it was [around version 6.4](https://gitlab.com/gitlab-org/gitlab-ce/commit/223070b3fe9cb302d3d47ba5a616d90bab8910fd)
+
+At that time, we had a couple of other things that were a release manager task: Notify everyone of the code-freeze (nothing was merged to master during this time), enforce it and build the packages *manually*. Yes, manually. This meant connecting to all machines separately and doing few commands to initiate package building. GitLab.com had a separate repository with some custom code, so the deploy needed to be done manually too. I still have nightmares as a result of these 2 things.
+
+As you can imagine, this made a Release manager task very undesirable and limited to few people. Even with all the improvements that followed, this job is still not popular.
+
+## Improvements
+
+Since the painful beginings of the release manager tasks, we've done number of improvements. We did a massive change to the process and made it even more continuous integration oriented than it was before. There are risks to it, but also massive gains:
+
+1. Code freeze is removed so there is no need to watch over anyone's shoulders
+
+1. How we keep X git repos in sync. Syncing repositories is now a one-line script where the argument is the version that is being released
+
+1. Automizing our release process. Omnibus-gitlab packages infrastructure got built, so only supplying the shas of the release version is enough to kick off the automatic builds on all platforms and machines
+
+1. Infrastructure for deploying GitLab.com and ci.gitlab.com got created and they are being updated by using a few lines of commands and packages
+
+1. The release documentation has been updated so many times that room for error is minimal (if you follow the steps closely)
+
+You would expect that all these improvements will make the Release manager job more appealing, afterall you get to:
+
+* Boss around over *all* your colleagues. This includes the project lead and the CEO. It is especially sweet when you can say NO to an unreasonable request. After all, all requests are unreasonable but your own and now you get to push that through.
+* You decide at your leasure when something will be included and pushed
+* You are *the* boss of everything (for a period of time) because everyone says: "Hey, you are the release manager, your call."
+
 ## With all the hard work, how do we choose a volunteer release manager?
 
 Choosing the release manager is probably one of the hardest tasks.
@@ -57,7 +85,9 @@ At some point I've asked what kind of reward we could put forward to make people
 I have some ideas about what we could do:
 
 * Material reward: a gift might be OK for some people, but others have no need for things. In this case we could publicly thank them and acknowledge their work. 
+
 * Spiritual reward: We do say "thank you" to the RM a lot, but this gets spent. Tweeting the name of the release manager might work as a recongnition for some, but I am afraid that it won't work for introverts in our team. Being more public might also yield more work for him.
+
 * Buying a beer or cocktail: This feels like something that would be appreciated, but it would only work for a few employees, since we are a *very* remote company. Maybe a beer voucher could be sent.
 
 Do you have any ideas?
