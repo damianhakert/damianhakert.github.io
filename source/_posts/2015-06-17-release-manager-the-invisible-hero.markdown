@@ -52,9 +52,9 @@ As you can imagine, this made a Release manager task very undesirable and limite
 
 Since the painful beginings of the release manager tasks, we've done number of improvements. We did a massive change to the process and made it even more continuous integration oriented than it was before. There are risks to it, but also massive gains:
 
-1. Code freeze is removed so there is no need to watch over anyone's shoulders
+1. Code freeze was removed so there is no need to watch over anyone's shoulders
 
-1. How we keep X git repos in sync. Syncing repositories is now a one-line script where the argument is the version that is being released
+1. Keeping X git repos in sync. Syncing repositories is now a one-line script where the argument is the version that is being released
 
 1. Automizing our release process. Omnibus-gitlab packages infrastructure got built, so only supplying the shas of the release version is enough to kick off the automatic builds on all platforms and machines
 
@@ -62,9 +62,9 @@ Since the painful beginings of the release manager tasks, we've done number of i
 
 1. The release documentation has been updated so many times that room for error is minimal (if you follow the steps closely)
 
-You would expect that all these improvements will make the Release manager job more appealing, afterall you get to:
+You would expect that all these improvements would make the Release manager job more appealing, afterall you get to:
 
-* Boss around over *all* your colleagues. This includes the project lead and the CEO. It is especially sweet when you can say NO to an unreasonable request. After all, all requests are unreasonable but your own and now you get to push that through.
+* Boss around over *all* of your colleagues. This includes the project lead and the CEO. It is especially sweet when you can say NO to an unreasonable request. After all, all requests are unreasonable but your own and now you get to push that through.
 * You decide at your leasure when something will be included and pushed
 * You are *the* boss of everything (for a period of time) because everyone says: "Hey, you are the release manager, your call."
 
