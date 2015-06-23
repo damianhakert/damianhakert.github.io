@@ -69,6 +69,8 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * Handle incoming emails with support questions in issues, needs spam filter
 
+* [Award emoji](https://dev.gitlab.org/gitlab/gitlabhq/issues/2388) (so you can use GitLab as a feature request tracker)
+
 ## EE
 * In PROGRESS [Multiple approvers](https://dev.gitlab.org/gitlab/gitlabhq/issues/2258)
 

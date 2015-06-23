@@ -63,6 +63,8 @@ Add the following to the top of a blog post (between the --- markers) and it wil
 
     image_title: '/images/unspash/hardware.jpg'
 
+When you add information about features or changes in GitLab CE, EE or CI, make it clear on which one users will be able to find these features or changes.
+
 # Image Guidelines
 When adding images to the site, please avoid using largely sized images, as they drastically increase load on the server and make the experience poor for the user.
 Also make sure to compress the images as much as possible (use online resource, Photoshop, however you'd like)
