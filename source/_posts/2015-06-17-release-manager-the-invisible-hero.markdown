@@ -9,17 +9,17 @@ author_twitter: maxlazio
 
 Real heroes are sometimes unknown and we can only see their accomplishments. In GitLab we have one invisible hero every month, when we have our monthly release. As you may know, we've never failed to release a new GitLab version on the 22nd of every month. 
  
-As GitLab is growing, the release process is becoming more complex and becoming a release manager is a more difficult, but necessary job.
+As GitLab grows, the release process becomes more complex and becoming a release manager is a more difficult, but a necessary job.
 
-Eight work days before the next release, and we start the countdown. A new volunteer "hero" is elected by the team.
-
-## But, why is it such a challenging job?
+Eight working days before the next release, and we start the countdown. A new volunteer "hero" is elected by the team.
 
 <!--more-->
 
+## But, why is it such a challenging job?
+
 A release manager is the person who makes sure that everything is ready for the monthly release. He follows up on every single detail and makes sure that the new version is working perfectly, including all the improvements and features. He also needs to delegate some tasks and make sure that the procedure is being followed. 
 
-Consider that right now, GitLab is huge. Our community dishes out around 900 commits a month on GitLab alone. Add Enterprise Edition, GitLab CI and runners and Omnibus-GitLab packages and you get several thousand changes done by hundreds of developers across projects which need to come together (and work) in one day. This is a lot of responsability for one person.
+Consider that right now, GitLab is huge. Our community dishes out around 900 commits a month on GitLab alone. Add Enterprise Edition, GitLab CI and runners, Omnibus-GitLab packages and you get several thousand changes done by hundreds of developers across projects which need to come together (and work) in one day. This is a lot of responsability for one person.
  
 ## So, how do we manage to make it all into a single release every month?
 
@@ -27,13 +27,13 @@ In GitLab we have a [release directory](https://gitlab.com/gitlab-org/gitlab-ce/
 
 Release manager tasks can be broken down into:
 
-1. Make sure that GitLab CE, EE and GitLab CI repositories have updated installation and upgrade guides
-1. Make sure that omnibus-gitlab package will be ready for the release
-1. Release RC version, do QA, deploy on GitLab.com and ci.gitlab.com
+1. Make sure that GitLab CE, EE and GitLab CI repositories have an updated installation and upgraded guides
+1. Make sure that the Omnibus-GitLab package will be ready for the release
+1. Release the RC version, do QA, deploy on GitLab.com and ci.GitLab.com
 1. Follow reported regressions and make sure that developers are aware/working on a fix
 1. Decide which fixes can go into the release
-1. Coordinate package building
-1. Make sure that blog post contains all the necessary information
+1. Coordinate the package building
+1. Make sure that the blog post contains all the necessary information
 1. Do the final release
 1. Decide if there needs to be a patch release
 1. Coordinate patch release
@@ -42,11 +42,11 @@ A release manager volunteers to work late (or early) to get the packages out or 
 
 ## History
 
-I don't know the exact date when the release manager duty was thought off but it was [around version 6.4](https://gitlab.com/gitlab-org/gitlab-ce/commit/223070b3fe9cb302d3d47ba5a616d90bab8910fd)
+I don't know the exact date when the release manager duty was thought off but it was [around version 6.4](https://gitlab.com/gitlab-org/gitlab-ce/commit/223070b3fe9cb302d3d47ba5a616d90bab8910fd).
 
-At that time, we had a couple of other things that were a release manager task: Notify everyone of the code-freeze (nothing was merged to master during this time), enforce it and build the packages *manually*. Yes, manually. This meant connecting to all machines separately and doing few commands to initiate package building. GitLab.com had a separate repository with some custom code, so the deploy needed to be done manually too. I still have nightmares as a result of these 2 things.
+At that time, we had a couple of other things that were the release manager tasks: Notify everyone of the code-freeze (nothing was merged to master during this time), enforce it and build the packages *manually*. Yes, manually. This meant connecting to all machines separately and doing few commands to initiate package building. GitLab.com had a separate repository with some custom code, so the deploy needed to be done manually too. I still have nightmares as a result of these 2 things.
 
-As you can imagine, this made a Release manager task very undesirable and limited to few people. Even with all the improvements that followed, this job is still not popular.
+As you can imagine, this made the release manager tasks very undesirable and limited to a few people. Even with all the improvements that followed, this job is still not popular.
 
 ## Improvements
 
@@ -64,15 +64,15 @@ Since the painful beginings of the release manager tasks, we've done number of i
 
 You would expect that all these improvements would make the Release manager job more appealing, afterall you get to:
 
-* Boss around over *all* of your colleagues. This includes the project lead and the CEO. It is especially sweet when you can say NO to an unreasonable request. After all, all requests are unreasonable but your own and now you get to push that through.
+* Boss around over *all* of your colleagues. This includes the project lead and the CEO. It is especially sweet when you can say NO to an unreasonable request. After all, all requests are unreasonable but your own and now you get to push that through
 * You decide at your leasure when something will be included and pushed
-* You are *the* boss of everything (for a period of time) because everyone says: "Hey, you are the release manager, your call."
+* You are *the* boss of everything (for a period of time) because everyone says: "Hey, you are the release manager, your call"
 
 ## With all the hard work, how do we choose a volunteer release manager?
 
 Choosing the release manager is probably one of the hardest tasks.
 
-During our team call, release manager for the previous release mentions the subject of the need of a new release manager.
+During our team call, the release manager for the previous release mentions the subject of the need of a new release manager.
 
 At that exact moment, there's silence and cameras start breaking down, people start forgetting the whole English language, mics stop working, there is always someone at the door so you need to open it and lots of faces are just looking around the room.
 
@@ -92,6 +92,6 @@ I have some ideas about what we could do:
 
 Do you have any ideas?
 
-With that I was out of ideas. This blog post is an attempt to say a thank you to all release managers. You know who you are and you are a true invisible hero for accomplishing the tasks to make everything go out on schedule.
+With that I was out of ideas. This blog post is an attempt to say a thank you to all the release managers. You know who you are and you are a true invisible hero for accomplishing the tasks to make everything go out on schedule.
 
 ### Release manager - my hero.
