@@ -9,16 +9,11 @@ title: "Product Manager Responsibilities and Tasks"
 - Manage customer requests: take load of support for handling this and making sure we deliver
 - Create direction in development efforts: Making sure that our long term goals are closer with each release
 - Make sure other products (license, version) are not snowed under with the release
-
-## Bridge development - sales - marketing
-
 - Handle feature requests from sales
-- Answer feature questions on social media (twitter, stack overflow, mailinglist)
 
 ## Public information
 
 - Guard the quality of any public materials, such as documentation and tweets
-mailinglist)
 - keep the feature request tracker up to date
 - Make sure developers write good docs for every function
 - Make sure the CE/EE comparison, GitHub comparison and battlecards
@@ -39,3 +34,4 @@ are up to date
 - Make sure the release announcements are well written and cover everything
 - Do regular feature highlights
 - Ensure sales has proper marketing materials for our features
+- Answer feature questions on social media (twitter, stack overflow, mailinglist)
