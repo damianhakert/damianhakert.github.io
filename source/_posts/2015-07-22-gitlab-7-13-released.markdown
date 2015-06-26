@@ -91,6 +91,25 @@ This release has more improvements, including security fixes, please check out [
 *** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
 *** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
 
+#### Changed default location of database socket for Omnibus packages
+
+By default, PostgreSQL places the unix socket file inside of the `/tmp` directory.
+Prior to 7.13, GitLab installed using omnibus-gitlab packages would use PostgreSQL default socket location to connect to the database.
+This has caused issues when installing GitLab using omnibus-gitlab packages if there is an existing PostgreSQL database.
+
+Given the goal of omnibus-gitlab package to be self contained and not influenced by existing sofware we've moved the socket location to `/var/opt/gitlab/postgresql`.
+
+If you had previously set `db_host` setting in `/etc/gitlab/gitlab.rb` explicity for `gitlab_rails` or `gitlab_ci`, be aware that this will possibly require a change. For example, if you had
+
+```ruby
+gitlab_rails['db_host'] = '/tmp'
+```
+
+this will need to change to
+
+```ruby
+gitlab_rails['db_host'] = '/var/opt/gitlab/postgresql'
+```
 - - -
 
 ## Installation
