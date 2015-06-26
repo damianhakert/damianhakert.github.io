@@ -112,4 +112,4 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * Scrum boards: Huboard support in addition to https://about.gitlab.com/applications/#scrum-boards
 
-* Chat: Integrate [Kandan](https://github.com/kandanapp/kandan), [Mattermost](http://www.mattermost.org/), [Rocket.Chat](http://rocket.chat/), [Let's Chat](https://sdelements.github.io/lets-chat/) or something else
+* Chat: Integrate with [Kandan](https://github.com/kandanapp/kandan), [Mattermost](http://www.mattermost.org/), [Rocket.Chat](http://rocket.chat/), [Let's Chat](https://sdelements.github.io/lets-chat/) when they support being an OAuth client
