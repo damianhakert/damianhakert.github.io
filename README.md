@@ -1,3 +1,7 @@
+# Contributing
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md)
+
 # Deploying
 
 It is sufficient to merge or push to master and site will be automatically deployed.
