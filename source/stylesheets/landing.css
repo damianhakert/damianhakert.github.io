@@ -132,7 +132,7 @@
 #landing h1 {
     font-size: 50px;
     color: white;
-    font-family: 'Korolev-Medium', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-top: 50px;
     padding-bottom: 12px;
 }
@@ -140,7 +140,7 @@
 #landing h3 {
     font-size: 36px;
     color: white;
-    font-family: 'Korolev-Light', sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
 }
 
 .landing-header {
@@ -181,7 +181,7 @@
   font-size: 21px;
   padding: 7px 10px 5px;
   text-shadow: none;
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .landing-ctas a::before,
@@ -351,7 +351,7 @@
 }
 
 .what-column {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto", sans-serif;
   float: left;
   margin-right: 3%;
   width: 30%;
@@ -379,7 +379,7 @@
   }
 
   .what-image h3 {
-    font-family: "Korolev-Medium", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #548;
     font-size: 28px;
   }
@@ -390,7 +390,7 @@
 }
 
 .what-content p {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   text-align: left;
 }
@@ -414,7 +414,7 @@
 }
 
   .landing-page-download h1 {
-    font-family: "Korolev-Light", sans-serif;
+    font-family: "Roboto-Light", sans-serif;
   }
 
 .see-further {
@@ -463,7 +463,7 @@ a.comparison.gh:hover {
   }
 
 #download-landing {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto", sans-serif;
   background: #5D4D93;
   color: white;
   border: 1px solid white;
@@ -507,11 +507,11 @@ a.comparison.gh:hover {
   .logos h2 {
     font-size: 36px;
     color: #18191a;
-    font-family: 'Korolev-Light', sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
   }
 
   .logos span {
-    font-family: 'Korolev-Medium', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #a0c720;
   }
 
@@ -535,7 +535,7 @@ a.comparison.gh:hover {
 .logo_7c img { margin-top: 42px; opacity: 0.5; }
 
   .logo-disclaimer {
-    font-family: 'Korolev-Light', sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
     margin-top: 40px;
     text-align: center;
   }
@@ -546,7 +546,7 @@ a.comparison.gh:hover {
 }
 
   .twitter-head h2 {
-    font-family: 'Korolev-Light', sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
     font-size: 36px;
   }
 
@@ -576,7 +576,7 @@ a.comparison.gh:hover {
   }
 
 .videos h1 {
-  font-family: 'Korolev-Light', sans-serif;
+  font-family: 'Roboto-Light', sans-serif;
   font-size: 36px;
 }
 
@@ -596,7 +596,7 @@ a.comparison.gh:hover {
   }
 
     .testimonial-container .text-center h2 {
-      font-family: "Korolev-Light", sans-serif;
+      font-family: "Roboto-Light", sans-serif;
       font-size: 36px;
       margin-bottom: 60px;
     }
@@ -632,7 +632,7 @@ a.comparison.gh:hover {
           color: white;
           font-size: 17px;
           margin-bottom: 20px;
-          font-family: "Korolev-Light", sans-serif;
+          font-family: "Roboto-Light", sans-serif;
           font-weight: 100;
           line-height: 30px;
           border: 1px solid black;
@@ -690,7 +690,7 @@ a.comparison.gh:hover {
               text-decoration: none;
               color: #548;
               font-weight: 600;
-              font-family: "Korolev-Light", sans-serif;
+              font-family: "Roboto-Light", sans-serif;
             }
 
 .testimonial-container hr {
@@ -716,7 +716,7 @@ a.comparison.gh:hover {
       font-size: 28px;
       line-height: 1.4;
       margin-bottom: 0.8em;
-      font-family: "Korolev-Light", sans-serif;
+      font-family: "Roboto-Light", sans-serif;
     }
 
     .testimonial-news img {
@@ -749,7 +749,7 @@ a.comparison.gh:hover {
 .see-more-tuts {
   font-size: 30px;
   margin-top: 16px;
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto-Light", sans-serif;
 }
 
   .see-more-tuts a {

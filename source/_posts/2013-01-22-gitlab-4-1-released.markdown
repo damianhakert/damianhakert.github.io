@@ -87,7 +87,7 @@ Also they will be listed on the public access directory
   - Reduce amount of gitolite calls
   - Ability to add user in all group projects
   - Remove deprecated configs
-  - Replaced Korolev font with open font
+  - Replaced Roboto font with open font
   - Restyled admin/dashboard page
   - Restyled admin/projects page
 

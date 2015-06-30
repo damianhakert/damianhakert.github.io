@@ -1,13 +1,13 @@
 /* Press */
 
 h1 {
-  font-family: "Korolev", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 50px;
 }
 
 h2 {
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto-Light", sans-serif;
   font-weight: 600;
   margin-bottom: 40px;
   font-size: 36px;
@@ -19,7 +19,7 @@ ul {
 
 .press-content span {
   font-size: 17px;
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto-Light", sans-serif;
 }
 
 .press-container {
@@ -45,12 +45,12 @@ ul {
 
   .press-content h3 {
     font-size: 17px;
-    font-family: "Korolev-Light", sans-serif;
+    font-family: "Roboto-Light", sans-serif;
   }
 
   .press-content span {
     font-size: 17px;
-    font-family: "Korolev-Medium", sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 
 .press-company {
@@ -133,7 +133,7 @@ overflow: hidden;
 }
 
 .fa span {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .blog_twitter_row {
@@ -142,7 +142,7 @@ overflow: hidden;
 
 .recent-blog p {
   font-size: 20px;
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto-Light", sans-serif;
 }
 
 .recent-blog a:first-child {
@@ -169,7 +169,7 @@ overflow: hidden;
   display: inline-block;
   width: 30%;
   padding-right: 40px;
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto-Light", sans-serif;
 }
 
   .press-image img {
@@ -203,7 +203,7 @@ overflow: hidden;
 
 .article-title {
   color: black;
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto-Light", sans-serif;
   font-size: 18px;
 }
 
@@ -213,7 +213,7 @@ overflow: hidden;
 
 .image-container .text span {
   font-size: 19px;
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto-Light", sans-serif;
 }
 
 .image-container .text p {

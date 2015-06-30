@@ -1,6 +1,6 @@
 body {
   background-color: rgba(85, 68, 136, 0.23);
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .wrapper {
@@ -28,7 +28,7 @@ body {
   text-align: center;
   font-size: 23px;
   margin-top: 38px;
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto-Light", sans-serif;
 }
 
 .action {

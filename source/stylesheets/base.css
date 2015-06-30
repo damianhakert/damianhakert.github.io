@@ -12,7 +12,7 @@ body {
   background-color:#f9f9f9;
   position: relative;
   padding-top: 50px;
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -22,7 +22,7 @@ h4,
 h5,
 button,
 a {
-    font-family: "Korolev-Medium", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
 h2 {
@@ -163,28 +163,28 @@ hr.thick {
 }
 
 @font-face {
-    font-family: 'Korolev-Light';
-    src: url('/fonts/korolev/Korolev-Light.otf');
+    font-family: 'Roboto-Light';
+    src: url('/fonts/Roboto/Roboto-Light.otf');
 }
 
 @font-face {
-    font-family: 'Korolev-Light-Italic';
-    src: url('/fonts/korolev/Korolev-Light-Italic.otf');
+    font-family: 'Roboto-Light-Italic';
+    src: url('/fonts/Roboto/Roboto-Light-Italic.otf');
 }
 
 @font-face {
-    font-family: 'Korolev-Medium';
-    src: url('/fonts/korolev/Korolev-Medium.otf');
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto/Roboto.otf');
 }
 
 @font-face {
-    font-family: 'Korolev-Thin';
-    src: url('/fonts/korolev/Korolev-Thin.otf');
+    font-family: 'Roboto-Thin';
+    src: url('/fonts/Roboto/Roboto-Thin.otf');
 }
 
 @font-face {
-    font-family: 'Korolev-Heavy';
-    src: url('/fonts/korolev/Korolev-Heavy.otf');
+    font-family: 'Roboto-Heavy';
+    src: url('/fonts/Roboto/Roboto-Heavy.otf');
 }
 
 /* Buttons
@@ -219,7 +219,7 @@ hr.thick {
 
 .navbar-default .navbar-nav>li>a {
   color: white;
-  font-family: "Korolev-Medium";
+  font-family: "Roboto";
   font-size: 16px;
 }
 
@@ -601,7 +601,7 @@ article {
 }
 
 .blog-entry ul li {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #444;
   line-height: 2.9rem;
@@ -615,7 +615,7 @@ article {
 
 .blog-entry h1 a {
   font-size: 40px;
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #444;
   font-weight: 600;
   line-height: 55px;
@@ -632,7 +632,7 @@ article {
 }
 
 .blog-entry p {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #444;
   line-height: 2.9rem;
@@ -644,7 +644,7 @@ article {
 }
 
 .blog-entry li {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #444;
   /*margin: 0 0 24px;*/
@@ -655,7 +655,7 @@ article {
 }
 
 .blog-entry a {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 2.9rem;
 }
@@ -677,7 +677,7 @@ article {
 }
 
 .blog-index .toplink {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: auto;
   font-weight: 600;
@@ -943,7 +943,7 @@ a:hover > .link-box {
 
 .nl .panel-heading a {
   font-size: 14px;
-  font-family: 'Korolev-Medium', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: auto;
   font-weight: 700;
 }
