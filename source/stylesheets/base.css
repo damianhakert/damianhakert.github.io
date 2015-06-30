@@ -161,32 +161,6 @@ hr.thick {
 .txt-righty {
     text-align: right;
 }
-
-@font-face {
-    font-family: 'Roboto-Light';
-    src: url('/fonts/Roboto/Roboto-Light.otf');
-}
-
-@font-face {
-    font-family: 'Roboto-Light-Italic';
-    src: url('/fonts/Roboto/Roboto-Light-Italic.otf');
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: url('/fonts/Roboto/Roboto.otf');
-}
-
-@font-face {
-    font-family: 'Roboto-Thin';
-    src: url('/fonts/Roboto/Roboto-Thin.otf');
-}
-
-@font-face {
-    font-family: 'Roboto-Heavy';
-    src: url('/fonts/Roboto/Roboto-Heavy.otf');
-}
-
 /* Buttons
 -------------------------------------------------- */
 .btn-action {
