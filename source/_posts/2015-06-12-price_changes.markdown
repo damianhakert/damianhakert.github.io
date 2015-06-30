@@ -47,7 +47,7 @@ please contact our sales team at sales@gitlab.com.
 
 Originally we had planned to extend a 25% discount off the new pricing toward existing Basic Subscibers next renewal. However, after careful consideration we decided to keep the old prcing ($398 for a pack of 20 users) in effect for existing Basic Subscribers through June 12, 2016. This also includes any additional subscription packs ordered between now and June 12, 2016.
 
-The price of the Basic GitLab subscription for our existing customers is therefore still at $19.9 per user, cheaper than the $29.25 per user that we originally proposed above.
+The price of the Basic GitLab subscription for our existing customers is therefore still at $19.90 per user, cheaper than the $29.25 per user that we originally proposed above.
 
 As of June 12, 2016 the new pricing of a Basic Subscription ($390 for a pack of 10 users) will apply to both new and existing subscribers.
 
