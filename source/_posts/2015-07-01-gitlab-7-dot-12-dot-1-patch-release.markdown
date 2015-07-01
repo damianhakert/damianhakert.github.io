@@ -30,4 +30,7 @@ For more details on the changes please see the
 [Omnibus](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/CHANGELOG.md)
 CHANGELOGs.
 
-Please see our [Update page](/update/) for update instructions.
+Please see our [Update page](/update/) for update instructions. Coming from
+7.12.0 updating to 7.12.1 does not require downtime.
+
+Edit: added comment about downtime.
