@@ -7,7 +7,7 @@ author: Haydn Mackay
 author_twitter: haydnmackay
 ---
 
-As an organization, GitLab is fully distributecd where employees are free 
+As an organization, GitLab is fully distributed where employees are free 
 to work from wherever they feel most productive. Likewise, our customers hail 
 from all corners of the globe but mostly North America. So today we will begin
 operating as GitLab, Inc.
