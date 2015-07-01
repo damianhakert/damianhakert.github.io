@@ -22,9 +22,7 @@ GitLab B.V also offers:
 1. [Consulting](https://about.gitlab.com/consultancy/)
 1. [Custom Development work](https://about.gitlab.com/development/)
 
-GitLab B.V has two reseller partners in the US:
-
-* [ReleaseTEAM](http://www.releaseteam.com)
+[ReleaseTEAM](http://www.releaseteam.com) is a reseller partner of GitLab in the US.
 
 GitLab B.V. supports organizations and individuals using GitLab.
 To do this we offer services around GitLab such as subscriptions, consulting, development and training.
