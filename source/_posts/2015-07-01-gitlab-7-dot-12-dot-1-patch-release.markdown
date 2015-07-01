@@ -19,9 +19,15 @@ SAML user activation.
 In GitLab Continuous Integration (CI) we fixed several bugs related to the new
 `.gitlab-ci.yml` job specification format.
 
+In the omnibus packages we fixed the remote_syslog feature (EE only), added
+support for special SAML settings in gitlab.yml, and we fixed a bug in the
+automatic GitLab / GitLab CI integration.
+
 For more details on the changes please see the
 [CE](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG),
-[EE](https://gitlab.com/gitlab-org/gitlab-ee/blob/master/CHANGELOG) and
-[CI](https://gitlab.com/gitlab-org/gitlab-ci/blob/master/CHANGELOG) CHANGELOGs.
+[EE](https://gitlab.com/gitlab-org/gitlab-ee/blob/master/CHANGELOG),
+[CI](https://gitlab.com/gitlab-org/gitlab-ci/blob/master/CHANGELOG), and
+[Omnibus](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/CHANGELOG.md)
+CHANGELOGs.
 
 Please see our [Update page](/update/) for update instructions.
