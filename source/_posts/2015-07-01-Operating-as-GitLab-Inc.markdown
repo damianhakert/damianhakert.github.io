@@ -16,14 +16,14 @@ operating as GitLab, Inc.
 
 GitLab was started in the Ukraine by Dmitriy Zaporozhets, who serves as the
 company's CTO. Together with Sytse Sijbrandij (CEO) they founded a Dutch 
-company (GitLab B.V.) to maintain the open souce project and provide related 
+company (GitLab B.V.) to maintain the open source project and provide related 
 goods and services.
 
 As the company grew, it made sense to have a presence close to Silicon Valley so
 the company opened an office in San Francisco where employees can work from if 
 they choose.
 
-However, operating as a Dutch corpoariton posed some obstacles for certain 
+However, operating as a Dutch corporation posed some obstacles for certain 
 customers and since the majority of them are headquatered in North America 
 it was decided to incorporate in the US and begin trading as GitLab, Inc.
 
