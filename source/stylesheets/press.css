@@ -92,7 +92,7 @@ ul {
 }
 
 .fox {
-  background-image: url(/images/press/logo/small-fox.png);
+  background-image: url(/images/press/logo/logo.png);
   background-position-y: -17px;
 }
 
@@ -116,8 +116,8 @@ ul {
   background-position-y: 6px;
 }
 
-.biker {
-  background-image: url(/images/press/motorcycle/biker.png);
+.wordmark {
+  background-image: url(/images/press/logo/wm.png);
   background-position-y: -4px;
 }
 

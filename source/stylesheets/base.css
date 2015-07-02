@@ -1,3 +1,21 @@
+/* New things */
+
+/* New Logo */
+.nav-logo {
+  max-height: 44px;
+  position: relative;
+  top: -7px;
+}
+.logo-svg-shape {
+  transition: all 0.8s;
+}
+.logo-svg-shape:hover {
+  fill: #fff;
+  transition: all 0.1s;
+}
+
+
+
 /*!
  * Bounce Template v2.1
  *
@@ -196,6 +214,7 @@ hr.thick {
   color: white;
   font-family: "Roboto Condensed";
   font-size: 16px;
+  padding-top: 18px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -205,13 +224,16 @@ hr.thick {
 
 @media (max-width: 990px) {
   .navbar-default .navbar-nav>li>a {
-    font-size: 12px;
+    font-size: 14px;
+  }
+  .nav>li>a {
+    padding: 5px 8px;
   }
 }
 
 @media (min-width: 768px) {
   .sign-in-up-btn {
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 5px;
     padding: 7px 18px !important;
     margin-left: 10px;
