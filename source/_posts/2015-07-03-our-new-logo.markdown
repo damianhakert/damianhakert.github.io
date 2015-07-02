@@ -22,6 +22,8 @@ And without background:
 We used to have an angry looking raccoon dog, now it's an abstract
 raccoon dog - or better sounding: a GitLab [Tanuki](https://en.wikipedia.org/wiki/Raccoon_dog).
 
+The logo and type was created by [designer Ty Wilkins](http://www.tywilkins.com/).
+
 We were very excited with all the cool fanart we've received with our last logo,
 we hope to receive even more with this one!
 You can find the original SVGs [on our press page](https://about.gitlab.com/press/).
