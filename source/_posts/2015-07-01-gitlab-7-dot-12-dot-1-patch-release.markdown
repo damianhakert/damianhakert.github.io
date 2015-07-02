@@ -19,9 +19,13 @@ SAML user activation.
 In GitLab Continuous Integration (CI) we fixed several bugs related to the new
 `.gitlab-ci.yml` job specification format.
 
-In the omnibus packages we fixed the remote_syslog feature (EE only), added
+In the Omnibus packages we fixed the remote_syslog feature (EE only), added
 support for special SAML settings in gitlab.yml, and we fixed a bug in the
 automatic GitLab / GitLab CI integration.
+
+<a name="omnibus-fix-web-tags"/></a>_Update 2015-07-02_: we have just pushed
+new Omnibus packages (7.12.1.omnibus.1) which fix a regression preventing users
+from creating annotated Git tags in the web interface.
 
 For more details on the changes please see the
 [CE](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG),
