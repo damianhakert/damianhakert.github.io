@@ -1,7 +1,7 @@
 /* subscription */
 
 * {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, button, a {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .text-right,
@@ -123,6 +123,7 @@ h1, h2, h3, h4, h5, button, a {
   color: #444;
   padding: 33px 0px 20px;
   background: #fff;
+  font-weight: 600;
 }
 
 .subscription .price .money {
@@ -137,7 +138,7 @@ h1, h2, h3, h4, h5, button, a {
 }
 
 .subscription .subprice {
-  color: #A9A9A9;
+  color: #333;
   font-size: 15px;
   font-weight: 400;
 }

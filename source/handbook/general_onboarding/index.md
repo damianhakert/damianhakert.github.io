@@ -16,7 +16,7 @@ We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https:
 
 * Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/)
 
-* Add a [gravatar](https://en.gravatar.com/) for you GitLab email address.
+* Link your GitLab email address to a photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar or stock photo).
 
 * Have your manager provide access to our [Internal GitLab Server](https://dev.gitlab.org) and familiarize yourself with:
 

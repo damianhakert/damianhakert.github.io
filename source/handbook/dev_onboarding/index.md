@@ -14,11 +14,13 @@ We have two GitLab instances that we use primarily:
 
 ### dev.gitlab.org
 
-This is the instance we use for all development behind-doors.
-We try to open source everything, but things that regard customers
-are usually handled here.
+This server is only accessible to people from GitLab the company.
+
+This is the instance we use for customers development.
 
 In addition, all our internal (company) issues are found here as well.
+
+This server is updated from master every night, so we quickly see if we broke something.
 
 Often referred to as `dev`.
 

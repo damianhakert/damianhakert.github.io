@@ -1,3 +1,7 @@
+# Contributing
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md)
+
 # Deploying
 
 It is sufficient to merge or push to master and site will be automatically deployed.
@@ -62,6 +66,8 @@ Add your post's image to the 'images' file in this project. You'll need to do it
 Add the following to the top of a blog post (between the --- markers) and it will format it as a full bleed image.
 
     image_title: '/images/unspash/hardware.jpg'
+
+When you add information about features or changes in GitLab CE, EE or CI, make it clear on which one users will be able to find these features or changes.
 
 # Image Guidelines
 When adding images to the site, please avoid using largely sized images, as they drastically increase load on the server and make the experience poor for the user.

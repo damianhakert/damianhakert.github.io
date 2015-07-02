@@ -61,13 +61,15 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * Mentioned feed on the dashboard, activity feed on separate tab
 
-* Issue/MR description field works like google docs, real time collaboration & autosave
+* Issue/MR description field works like google docs, real time collaboration & autosave, maybe with [ShareJS](http://sharejs.org/)
 
 * [Git large file support](http://feedback.gitlab.com/forums/176466-general/suggestions/7502608-git-large-file-storage-lfs-support)
 
 * Draw and drop issues to prioritize them
 
 * Handle incoming emails with support questions in issues, needs spam filter
+
+* [Award emoji](https://dev.gitlab.org/gitlab/gitlabhq/issues/2388) (so you can use GitLab as a feature request tracker)
 
 ## EE
 * In PROGRESS [Multiple approvers](https://dev.gitlab.org/gitlab/gitlabhq/issues/2258)
@@ -77,6 +79,8 @@ Most links point to a private server of GitLab company and can't be accessed pub
 * Push to another repo
 
 * [Management dashboard](https://dev.gitlab.org/gitlab/gitlab-ee/issues/287)
+
+* Distributed file system store [blobs](http://blog.justinsb.com/blog/2013/12/14/cloudata-day-8/), large files (Git Annex or Git LFS) and uploads in [Ceph](http://ceph.com/), [XtreemFS](http://www.xtreemfs.org/) or something else.
 
 ## CI
 
@@ -104,8 +108,8 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * Configuration management: Chef, Puppet, Ansible, Salt, Docker (upload cookbooks, build containers, etc.)
 
-* Paas: CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Flynn (deploy apps)
+* Paas: CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas, Flynn (deploy apps)
 
 * Scrum boards: Huboard support in addition to https://about.gitlab.com/applications/#scrum-boards
 
-* Chat: Adopt https://github.com/kandanapp/kandan or partner with new entrants
+* Chat: Integrate with [Kandan](https://github.com/kandanapp/kandan), [Mattermost](http://www.mattermost.org/), [Rocket.Chat](http://rocket.chat/), [Let's Chat](https://sdelements.github.io/lets-chat/) when they support being an OAuth client
