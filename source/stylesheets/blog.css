@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
 pre code {
   word-wrap: normal;
 }
@@ -132,7 +134,7 @@ article {
 }
 
 .blog-entry p {
-  font-family: 'Roboto Condensed', serif;
+  font-family: 'Roboto', serif;
   font-size: 18px;
   color: #444;
   line-height: 2.9rem;
