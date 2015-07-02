@@ -61,7 +61,7 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * Mentioned feed on the dashboard, activity feed on separate tab
 
-* Issue/MR description field works like google docs, real time collaboration & autosave
+* Issue/MR description field works like google docs, real time collaboration & autosave, maybe with [ShareJS](http://sharejs.org/)
 
 * [Git large file support](http://feedback.gitlab.com/forums/176466-general/suggestions/7502608-git-large-file-storage-lfs-support)
 
