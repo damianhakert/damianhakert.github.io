@@ -78,8 +78,7 @@ This allows people to cooperate effectively and to achieve better results, faste
 
 ## Mission and logo
 We are part of a community that works together to create the best open source collaboration tools.
-Our <a href="https://en.wikipedia.org/wiki/Raccoon_dog">Tanuki</a> logo symbolizes this with a smart animal that works in a group to achieve a common goal.
-We would like to thank <a href="https://twitter.com/gravityonmars">Ricardo Rauch</a> for contributing the logo.
+Our <a href="https://en.wikipedia.org/wiki/Japanese_raccoon_dog">Tanuki</a> logo symbolizes this with a smart animal that works in a group to achieve a common goal.
 
 ## Values
 We care about giving back to the rest of the GitLab community, that is why we give most code back to the <a href="https://gitlab.com/gitlab-org/gitlab-ce/">Community Edition</a>.
