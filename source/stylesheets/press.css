@@ -97,17 +97,17 @@ ul {
 }
 
 .diff {
-  background-image: url(/images/press/screenshots/diff_view_small.png);
+  background-image: url(/images/press/screenshots/diff.png);
   background-position-y: -4px;
 }
 
 .file {
-  background-image: url(/images/press/screenshots/file_view_small.png);
+  background-image: url(/images/press/screenshots/file_view.png);
   background-position-y: -4px;
 }
 
 .network-graph {
-   background-image: url(/images/press/screenshots/network_graph_small.png);
+   background-image: url(/images/press/screenshots/network_graph.png);
   background-position-y: -4px;
 }
 
