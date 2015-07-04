@@ -101,6 +101,12 @@ ul {
   background-position-y: -4px;
 }
 
+.mr {
+  background-image: url(/images/press/screenshots/mr.png);
+  background-position-y: -4px;
+}
+
+
 .file {
   background-image: url(/images/press/screenshots/file_view.png);
   background-position-y: -4px;
