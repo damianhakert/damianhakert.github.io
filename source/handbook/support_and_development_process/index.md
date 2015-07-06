@@ -17,7 +17,7 @@ title: "Support and Development Process"
 
 ## Bug process
 
-* Make sure it looks like bug - otherwise ping one of developers (Valery, Marin) to confirm
+* Make sure it looks like bug - otherwise ping one of the developers to confirm.
 
 * Reproduce bug
 
@@ -27,11 +27,13 @@ title: "Support and Development Process"
 
 ## Unpaid feature request process
 
-* Provide maximum information and use case from customer in the issue, mention any alternatives, how badly the customer wants it
+* Provide maximum information and use case from customer in the issue,
+mention any alternatives, how badly the customer wants it
 
-* Ask Dmitriy for opinion (do we want this feature in GitLab: yes/no. Dmitriy might ask more questions before answer) 
+* Ask Dmitriy for opinion (do we want this feature in GitLab: yes/no.
+Dmitriy might ask more questions before answer)
 
-* Assign to milestone after next milestone (current 1.0 then assign 1.2)
+* Ask Job when to schedule it.
 
 ## Paid feature request process
 
@@ -39,4 +41,4 @@ title: "Support and Development Process"
 
 * Ask for an estimate
 
-* Assign to next milestone (current 1.0 then assign 1.1)
+* Ask Job when to schedule it.
