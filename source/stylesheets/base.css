@@ -704,7 +704,6 @@ article {
 /* Footer
 -------------------------------------------------- */
 #footer {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
   background: #463675;
 }
 #footer h3  {
