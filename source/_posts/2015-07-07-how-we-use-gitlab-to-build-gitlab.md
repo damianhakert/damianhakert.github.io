@@ -17,7 +17,7 @@ That allows us to test our product and have more confidence in it.
 
 <!--more-->
 
-## Using [GitLab.com](https://gitlab.com)
+## Using GitLab.com
 We use [GitLab.com](https://gitlab.com) for any work that can be done in the open.
 That includes our [GitLab website](https://gitlab.com/gitlab-com/www-gitlab-com), [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce), and more.
 We add Issues and Merge Requests for anything related to this.
@@ -39,8 +39,8 @@ Our new logo was tested there before it was released. We all agreed that it look
 
 ![dev.gitlab.org](/images/dev-gitlab.png)
 
-## Our employee [Handbook](https://about.gitlab.com/handbook/)
-Our onboarding is very simple and [accessible for anyone](https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/handbook).
+## Our employee Handbook
+Our onboarding is very simple and [accessible for anyone](https://about.gitlab.com/handbook/).
 Since we are open source, it is public and once you become part of the team, you should read it and if you have any questions, you may use Slack to ask.
 It’s very simple and easy to use. If it’s written, I guess there’s no confusion.
 
