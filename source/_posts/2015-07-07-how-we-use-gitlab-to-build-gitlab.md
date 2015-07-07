@@ -23,7 +23,7 @@ That includes our [GitLab website](https://gitlab.com/gitlab-com/www-gitlab-com)
 We add Issues and Merge Requests for anything related to this.
 It is a [public repository](https://gitlab.com), so everybody can contribute to it (not only employees).
 
-![GitLab.com](source/images/gitlab-com.png)
+![GitLab.com](/images/gitlab-com.png)
 
 ## dev.GitLab.org
 We have a different platform for GitLab development.
@@ -37,14 +37,14 @@ I personally decided to customize each site with a different color so that it wo
 We can use our beta site for tests and all of our version release actions. It is updated daily with the latest version, so that we are constantly testing it.
 Our new logo was tested there before it was released. We all agreed that it looked very nice.
 
-![dev.gitlab.org](source/images/dev-gitlab.png)
+![dev.gitlab.org](/images/dev-gitlab.png)
 
 ## Our employee [Handbook](https://about.gitlab.com/handbook/)
 Our onboarding is very simple and [accessible for anyone](https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/handbook).
 Since we are open source, it is public and once you become part of the team, you should read it and if you have any questions, you may use Slack to ask.
 It’s very simple and easy to use. If it’s written, I guess there’s no confusion.
 
-![Handbook](source/images/handbook.png)
+![Handbook](/images/handbook.png)
 
 ## Communication
 We use Slack for general information, emails for non-urgent information, and Issues for things that need to be improved or solved.
@@ -61,6 +61,6 @@ It's a great opportunity to integrate the team and to get to know each other in 
 This year, we are all going to [OSCON](http://www.oscon.com/open-source-eu-2015) in The Netherlands.
 It will be a great opportunity to interact and share some quality time with the team.
 
-![OSCON](source/images/oscon.png)
+![OSCON](/images/oscon.png)
 
 So, how do you use the product at the company where you work at?
