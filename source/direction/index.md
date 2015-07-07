@@ -84,7 +84,7 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * [Management dashboard](https://dev.gitlab.org/gitlab/gitlab-ee/issues/287)
 
-* Distributed file system store [blobs](http://blog.justinsb.com/blog/2013/12/14/cloudata-day-8/), large files (Git Annex or Git LFS) and uploads in [Ceph](http://ceph.com/), [XtreemFS](http://www.xtreemfs.org/) or something else.
+* Distributed file system store [blobs](http://blog.justinsb.com/blog/2013/12/14/cloudata-day-8/), large files (Git Annex or Git LFS) and uploads in [Ceph](http://ceph.com/), [XtreemFS](http://www.xtreemfs.org/) or something else. Or not blobs because [performance might suffer](https://news.ycombinator.com/item?id=9839581)?
 
 ## CI
 
