@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How we use GitLab to build GitLab
-date: 2015-07-06
+date: 2015-07-07
 author: Karen Carias
 image_title: '/images/unsplash/dog-food.jpeg'
 author_twitter: myvineste
@@ -13,7 +13,7 @@ This actually has a name and it's called [dogfooding](https://en.wikipedia.org/w
 Some months ago I went to an event in Facebook Headquarters and it called my attention that they use Facebook for everything, including registering guests and getting feedback.
 Most companies have certain technical departments that will work on making everything more “user friendly” or less technical for the rest of the company.
 In GitLab, we all try to learn how to use our platform and do everything that’s technical ourselves.
-That allows us to test our product and have more confidence on it.  
+That allows us to test our product and have more confidence in it.  
 
 <!--more-->
 
@@ -58,9 +58,9 @@ The improvements are added through Merge Requests and we link the issue where th
 
 To help improve our communication and to work on our team building, every year, there's an event that the entire team will attend.
 It's a great opportunity to integrate the team and to get to know each other in person.
-This year, we are all going to [Oscon](http://www.oscon.com/open-source-eu-2015) in The Netherlands.
+This year, we are all going to [OSCON](http://www.oscon.com/open-source-eu-2015) in The Netherlands.
 It will be a great opportunity to interact and share some quality time with the team.
 
-![Oscon](source/images/oscon.png)
+![OSCON](source/images/oscon.png)
 
 So, how do you use the product at the company where you work at?
