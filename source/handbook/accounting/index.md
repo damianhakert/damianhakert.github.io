@@ -9,7 +9,11 @@ NOTE: Vendor invoices are to be sent to accountspayable@gitlab.com
 
 Steps to process an invoice to pay a consultant/vendor:
 
-1. Upon receipt of vendor invoices, file a .pdf copy of the invoice to dropbox\For Approval.  Notify manager of new invoices to be approved by forwarding the email from the vendor.  Invoices are to be approved based on signed agreements, contract terms, and or purchase orders.  After review, manager to reply to email with “Approved”.  An audit trail is required and this email will serve this purpose.
+1. Upon receipt of vendor invoices:
+    * File a .pdf copy of the invoice to dropbox\For Approval.
+    * Notify manager of new invoices to be approved by forwarding the email from the vendor.
+    * Invoices are to be approved based on signed agreements, contract terms, and or purchase orders.
+    * After review, manager to reply to email with “Approved”. An audit trail is required and this email will serve this purpose.
 
 1. On approval, move the invoice from dropbox\For Approval to dropbox\Inbox
 
