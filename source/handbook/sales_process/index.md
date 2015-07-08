@@ -78,82 +78,56 @@ Aspects to consider when [managing an account](/handbook/sales_process/account_m
 
 Everything about [lincenses and EE access](/handbook/sales_process/licenses).
 
-## Deprecated
+## Sales Ordering Process
 
-### Invoice in Twinfield for clients paying by bank (non-Recurly)
+### Recurly orders
 
-* This is part of the [won subscription deal procedure](/handbook/sales_process/deal_management_process#won-subscription-deal-procedure-invoicing), you should have done a VIES check already if EU client
+1. Order comes in via email from recurly and will always have an invoice # on it.
+1. Customer subscribes via Recurly (this happens automatically via the online credit card order form)
+1. Check to see if Streak Box exists (or not) by clicking on the orange box in the Gmail horizontal toolbar and searching for the company as shown on the Recurly invoice. If one already exists, then scroll to the company and click ‘Add to existing box’. If one does not https://us5.admin.mailchimp.com/lists/members/add?id=107301exist, create a new box for the name on the invoice and click ‘Create new Box named’.
+1. Add customer to sales sheet (include Recurly invoice date and invoice #). Hand enter every cell.
+1. Add customer to Mailchimp GitLab Newsletter list (Customer automatically subscribed to Mailchimp Subscribers List) Need to use login/pw which is found in LP. Need customer first and last name, company name and email when you go there.
+1. If standard subscriber: (note - you must have their gitlab.com user name to add them to the subscribers group. You must ask the customer for their user name)
+    * Add to subscribers group (to add subscribers, you need access)
+      1. Click the green button to the right “Add members”
+      1. Copy and paste the customers GitLab.com user name into the field next to People.
+      1. The customers login info will appear as a drop down which you select by clicking
+      1. Then go down to the next field next to Group Access where the default access level is Guest. Click on the field and select Developer from the options
+      1. Then click the green button immediately below “Add users to group”
+    * Send onboarding email. If basic subscriber, do not add.
+1. Generate license keys
+    * Go to https://license.gitlab.com
+    * Select the sign in with gitlab green button
+    * Select the New License green button
+    * Enter the Recurly subscription ID - follow these steps:
+      1. Go to Recurly login and log in
+      1. Select the Accounts tab at the top of the menu on the left
+      1. Type in the name of the account in the search bar on the right
+      1. Account will show up and select the account
+      1. In the Subscriptions pane, select the More button
+      1. Copy the portion of the URL after subscriptions/ (do not include the /). This portion is the Subscription ID
+      1. Return to https://license.gitlab.com
+      1. Paste the subscription ID (what you just copied from the URL) into the Recurly Subscription ID field (box)
+      1. Select the Make license from Recurly subscription button
+1. Mark deal as PO (deal won) in Streak (the above steps must be completed, make a deal if none exist)
+1. Make a task for the follow up (if needed)
+1. Inform team during team call if any of the new orders are notable customers
 
-* [Login Twinfield](https://login.twinfield.com/) (SUPER, het wachtwoord, COMCOASTER, Nederlands)
+### Bank Transfer
 
-* "Browser not supported" click on “Ga door naar Twinfield”
+1. Sales receives an order (one of the three options):
+    * a Purchase Order (PO) issued by the company
+    * a signed quote (the quote that we sent).
+    * an e-mail agreement (“we accept the quote/subscription/etc”) or any other written statement. If order is a signed quote or written agreement, email and ask if there is a PO pending and get the PO number
+1. Add customer to Mailchimp Subscribers list
+    * NOTE: if customer signed up through Recurly, they are automatically added to the Subscribers list)
+    * Or, if customer is a renewal, you can skip this step and the next which is to add them to the newsletter)
+1. Add customer to Mailchimp GitLab Newsletter list
+1. Send invoice to customer with one of the two onboarding emails or a renewal email Forward Recurly invoice to customer as safeguard against going to spam. Also reinterate to sign up on GitLab.com and send user name.
+1. Add customer to sales sheet (include invoice date and nr.)
+1. If standard subscriber, add to subscribers group
+1. Generate license keys
+1. Mark opportunity as PO (deal won) in Streak (the above steps must be completed, make an opportunity if none exist)
+1. Make a task for the follow up (if needed)
+1. Inform team during team call if any of the new orders are notable customers
 
-* Select GitLab B.V.
-
-* Make sure you have an invoice address and for EU countries a VAT number
-
-* If payment will be made in USD, then google for "1 EUR in USD"
-
-* General => Company => Currencies => USD => Exchange rates => +Line
-
-* Credit management > Sales Invoice Dashboard > Sales > New invoice
-
-* First, select a customer. If customer does not exist, press + New customer
-
-* Name: Company name
-
-* Billing email: leave blank
-
-* Fill in address, no need to fill in bank information
-
-* Make sure to insert VAT number if EU customer
-
-* Press “create”
-
-* Reference: PO number if PO exists
-
-* Invoice date: today (always effective date of today)
-
-* Due date: 30 days from invoice date
-
-* Quantity: Number of packs for subscription, number of hours for consultancy
-
-* Description: Options self explanatory. If item does not exist, create it together with Sytse
-
-* Price: change to $, add correct price
-
-* VAT:
-
-![VAT](/handbook/sales_process/images_sales_process/vat2_sales_process.png) 
-
-* If ICL was chosen, press services
-
-* Add closing text:
-
-1. For non-EU clients: No VAT according to article 44 and 59 of the European VAT Directive.
-
-1. For EU clients: VAT shifted to recipient according to article 44 and 196 of the European VAT Directive.
-
-1. Dutch clients: leave blank
-
-* Press “create” to create a provisional invoice;
-
-* Press “send by email as PDF” to finalize, in popup email write own email address.
-
-### Crediting an invoice made in Twinfield (DEPRECATED)
-
-1. If you are correcting a mistake,keep the credit invoice in draft for review.
-
-1. Assuming the new invoicing dashboard
-
-1. Open the old invoice
-
-1. Press the credit button
-
-1. Set invoice date to today if the customer cancelled, if you are undoing a mistake put in the same date as the incorrect invoice
-
-1. Fill out the ICL details if needed (Services, date of new invoice)
-
-1. Send PDF
-
-1. Send the credit invoice to the customer (this is legally required)
