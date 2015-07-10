@@ -21,5 +21,5 @@ Incoming HTTPS requests are not affected (unless you use client side SSL certifi
 If you installed GitLab from source you need to check whether the OpenSSL version provided by your operating system is affected.
 Omnibus users should upgrade to the 7.12.2-omnibus.1 packages and run `sudo gitlab-ctl restart` to make sure the latest version of OpenSSL is used.
 
-Please see our Update page for update instructions.
+Please see our [Update page](https://about.gitlab.com/update) for update instructions.
 Coming from 7.12.x this upgrade requires short downtime because of `gitlab-ctl restart`.
