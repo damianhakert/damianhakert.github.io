@@ -4,7 +4,7 @@ title: "Omnibus packages with OpenSSL 1.0.1p"
 date: 2015-07-10
 comments: true
 author: Jacob Vosmaer
-author_twitter: jacobvosmaerses
+author_twitter: jacobvosmaer
 ---
 We have just released new Omnibus packages for GitLab Community Edition, GitLab Enterprise Edition and GitLab Continuous Integration.
 These new packages contain an OpenSSL security update.
