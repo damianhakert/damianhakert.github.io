@@ -20,7 +20,10 @@ repository server!
 *We recommend adding at least 1GB of swap*, read about the reasons at the [hardware requirements page.](http://doc.gitlab.com/ce/install/requirements.html#memory)
 
 Install the required packages like shown on the [installation instructions](/downloads) page.
-Download the Omnibus package for Raspberry Pi 2 and install it:
+
+*UPDATE* Raspberry Pi 2 packages are now uploaded to its own package repository so it's now even easier to keep your GitLab up-to-date! Just go to the [installation instructions page](/downloads) and select `Raspberry Pi 2 for Raspbian` from the `Select Operating System` dropdown for directions on how to add the repository and install GitLab.
+
+~~Download the Omnibus package for Raspberry Pi 2 and install it:~~
 
 ```
 wget https://s3-eu-west-1.amazonaws.com/downloads-packages/raspberry-pi/gitlab_7.9.0-omnibus.pi-1_armhf.deb
