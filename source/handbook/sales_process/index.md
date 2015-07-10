@@ -109,7 +109,8 @@ Everything about [lincenses and EE access](/handbook/sales_process/licenses).
       1. Return to https://license.gitlab.com
       1. Paste the subscription ID (what you just copied from the URL) into the Recurly Subscription ID field (box)
       1. Select the Make license from Recurly subscription button
-1. Mark deal as PO (deal won) in Streak (the above steps must be completed, make a deal if none exist)
+1. Mark deal as PO (deal won) in Streak **(the above steps must be completed, make a deal if none exist)** 
+1. If end of month, OK to add deal value of unprocessed deals with PO received to the top of agenda for reporting purposes
 1. Make a task for the follow up (if needed)
 1. Inform team during team call if any of the new orders are notable customers
 
@@ -127,7 +128,7 @@ Everything about [lincenses and EE access](/handbook/sales_process/licenses).
 1. Add customer to sales sheet (include invoice date and nr.)
 1. If standard subscriber, add to subscribers group
 1. Generate license keys
-1. Mark opportunity as PO (deal won) in Streak (the above steps must be completed, make an opportunity if none exist)
+1. Mark opportunity as PO (deal won) in Streak **(the above steps must be completed, make an opportunity if none exist)**
+1. If end of month, OK to add deal value of unprocessed deals with PO received to the top of agenda for reporting purposes
 1. Make a task for the follow up (if needed)
 1. Inform team during team call if any of the new orders are notable customers
-
