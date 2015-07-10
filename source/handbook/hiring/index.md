@@ -26,4 +26,5 @@ Steps:
 1. /cc in the gitlab issue in the organization
 1. Invite to team meeting
 1. Invite to sales meeting
+1. Invite to autoconnect on Beamy
 1. TODO Add more
