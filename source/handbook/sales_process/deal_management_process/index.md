@@ -187,3 +187,19 @@ Trigger: customer with a valid subscription requests a cancellation either via s
 1. Sales sheet: mark deal as lost
 
 1. Streak: change  deal from won to  lost
+
+### Release invoice before subscription renews
+
+1. Account manager sends renewal quote to Bank subscribers 30 days in advance
+
+1. Customer sends PO before support expiry date
+
+1. Account manager creates one time payment and ‘Posts’ invoice (which sends it to customer)
+
+1. Account manager then manually changes renewal date of subscription 1 year hence
+
+1. Account manager Updates and resends license key to match
+
+1. When payment arrives for invoice, controller uses ‘Record Offline Payment’ to record the payment
+
+
