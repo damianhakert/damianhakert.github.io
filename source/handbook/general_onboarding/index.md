@@ -6,11 +6,11 @@ title: "GitLab Onboarding"
 
 We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https://www.google.com/docs/about/) and [dev.gitab.org](https://dev.gitlab.org) to communicate.
 
-* Check out our [about page](https://about.gitlab.com/about/)
+* Check out our [about page](https://about.gitlab.com/about/), [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/) and [Life as a non technical employee at GitLab](https://about.gitlab.com/2015/06/30/life-as-a-non-technical-employee-at-gitlab/) 
 
 * Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
 
-* Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html) 
+* Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
 
 * Read our [Team Handbook](https://about.gitlab.com/handbook/)
 
