@@ -24,11 +24,10 @@ Create issue for new hire in organization with following checklist:
 - [ ] Add to Comerica (for finance only, as a viewer only)
 - [ ] Gitlab.com account invited to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 - [ ] create dev.GitLab.org account and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
+- [ ] /cc the new user in the organization issue that was created for them.
 - [ ] Invite to team meeting
 - [ ] Invite to sales meeting
 - [ ] Invite to autoconnect on Beamy
 ```
-
-/cc the new user in the organization issue that was created for them.
 
 Please update this list as more steps arise.
