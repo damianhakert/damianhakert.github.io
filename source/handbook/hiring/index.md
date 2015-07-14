@@ -5,10 +5,9 @@ title: "Hiring"
 
 ## New hires
 
-Steps:
+Create issue for new hire in organizatoon with following checklist:
 
 ```
-1. Create issue for new hire in organizatoon with following checklist:
 1. Signed PIAA in Dropbox
 1. Signed contract in Dropbox
 1. Scan of photo id in Dropbox
@@ -28,5 +27,6 @@ Steps:
 1. Invite to team meeting
 1. Invite to sales meeting
 1. Invite to autoconnect on Beamy
-1. TODO Add more
 ```
+
+Please update this list as more steps arise.
