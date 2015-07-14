@@ -8,20 +8,22 @@ title: "Hiring"
 Create issue for new hire in organization with following checklist:
 
 ```
-- [ ] Send an email to personal email: 'Please read https://about.gitlab.com/handbook/ and relevant files linked from there and let me know if you have any questions.'
 - [ ] Signed PIAA in Dropbox
 - [ ] Signed contract in Dropbox
 - [ ] Scan of photo id in Dropbox
-- [ ] Put into Profiles in Lastpass
-- [ ] Create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to prive email address, [turn off 2fa](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and enforce for tomorrow, comment with new email below this issue
+- [ ] Send People Information sheet and instruct to return answers via email or slack (https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0)
+- [ ] Create folder for new hire in Lastpass
+- [ ] Put People Information into Profiles in Lastpass
+- [ ] Create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to prive email address, comment with email below this issue
 - [ ] Add to Slack
+- [ ] Send an email: 'Please read https://about.gitlab.com/handbook/ and relevant files linked from there and let me know if you have any questions.'
 - [ ] [Add to Lastpass](https://lastpass.com/enterprise_create.php)
-- [ ] Add to Recurly
+- [ ] Add to Recurly (https://app.recurly.com/login)
 - [ ] Add to GitLab Dropbox
-- [ ] Add to BV and Inc Dropbox (finance only)
+- [ ] Add to BV and/or Inc Dropbox (where/when approrpriate)
 - [ ] [Add to Mailchimp](https://us5.admin.mailchimp.com/account/users/) (if sales or finance)
 - [ ] Add to [QuickBooks users](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/hiring/index.md) (finance only)
-- [ ] Add to Comerica (for finance only, as a viewer only)
+- [ ] Add to Comerica (as user or viewer only if in Finance)
 - [ ] Gitlab.com account invited to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 - [ ] create dev.GitLab.org account and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 - [ ] /cc the new user in the organization issue that was created for them.
