@@ -12,7 +12,7 @@ Create issue for new hire in organization with following checklist:
 - [ ] Signed contract in Dropbox
 - [ ] Scan of photo id in Dropbox
 - [ ] Put into Profiles in Lastpass
-- [ ] Create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to prive email address, comment with email below this issue
+- [ ] Create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to prive email address, [turn off 2fa](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and enforce for tomorrow, comment with new email below this issue
 - [ ] Add to Slack
 - [ ] Send an email: 'Please read https://about.gitlab.com/handbook/ and relevant files linked from there and let me know if you have any questions.'
 - [ ] [Add to Lastpass](https://lastpass.com/enterprise_create.php)
