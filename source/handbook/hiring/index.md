@@ -7,6 +7,7 @@ title: "Hiring"
 
 Steps:
 
+```
 1. Create issue for new hire in organizatoon with following checklist:
 1. Signed PIAA in Dropbox
 1. Signed contract in Dropbox
@@ -28,3 +29,4 @@ Steps:
 1. Invite to sales meeting
 1. Invite to autoconnect on Beamy
 1. TODO Add more
+```
