@@ -84,7 +84,7 @@ This release has more improvements, including security fixes, please check out [
 
 ### Upgrade barometer
 
-Postgres and Redis will be upgraded in omnibus. Postgres socket willbe changed too. So this release upgrade will require some downtime. 
+This release upgrade will require downtime. 
 
 #### Changed default location of database socket for Omnibus packages
 
