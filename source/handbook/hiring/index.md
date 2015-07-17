@@ -20,6 +20,7 @@ Create issue for new hire in organization with following checklist:
 - [ ] Send an email: 'Please read https://about.gitlab.com/handbook/ and relevant files linked from there and let me know if you have any questions.'
 - [ ] [Add to Lastpass](https://lastpass.com/enterprise_create.php)
 - [ ] Add to Recurly (https://app.recurly.com/login)
+- [ ] Add Webex account (if necessary)
 - [ ] Add to GitLab Dropbox
 - [ ] Add to BV and/or Inc Dropbox (where/when approrpriate)
 - [ ] [Add to Mailchimp](https://us5.admin.mailchimp.com/account/users/) (if sales or finance)
