@@ -15,7 +15,7 @@ Create issue for new hire in organization with following checklist:
 - [ ] Send People Information sheet and instruct to return answers via email or slack (https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0)
 - [ ] Create folder for new hire in Lastpass
 - [ ] Put People Information into Profiles in Lastpass
-- [ ] Create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to prive email address, comment with email below this issue
+- [ ] Create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it 
 - [ ] Add to Slack
 - [ ] Send an email: 'Please read https://about.gitlab.com/handbook/ and relevant files linked from there and let me know if you have any questions.'
 - [ ] [Add to Lastpass](https://lastpass.com/enterprise_create.php)
