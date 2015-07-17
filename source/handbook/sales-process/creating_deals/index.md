@@ -29,7 +29,7 @@ Every Recurly subscriber needs to have a corresponding deal set to won.
 
 1. Deal is created 
 
-1. Follow [won subscription deal procedure](source/handbook/sales_process/deal_management_process#won-subscription-deal-procedure-invoicing)
+1. Follow [won subscription deal procedure](source/handbook/sales-process/deal_management_process#won-subscription-deal-procedure-invoicing)
 
 1. Automatic email to sales@gitlab.com is assigned to the deal
 
