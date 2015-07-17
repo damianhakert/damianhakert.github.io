@@ -52,31 +52,31 @@ title: "Sales Process"
 
 ## Generating leads
 
-[Types of leads](/handbook/sales_process/generating_leads).
+[Types of leads](/handbook/sales-process/generating_leads).
 
 ## Creating deals
 
-Every time a deal is created, a task is also created. The task succinctly describes [next action](/handbook/sales_process/creating_deals).
+Every time a deal is created, a task is also created. The task succinctly describes [next action](/handbook/sales-process/creating_deals).
 
 ## Deal management process
 
-Find out [how to manage deals](/handbook/sales_process/deal_management_process) with potential customers.
+Find out [how to manage deals](/handbook/sales-process/deal_management_process) with potential customers.
 
 ## Account management
 
-Aspects to consider when [managing an account](/handbook/sales_process/account_management).
+Aspects to consider when [managing an account](/handbook/sales-process/account_management).
 
 ## Emailing
 
-[Customer emailing guidelines](/handbook/sales_process/emailing).
+[Customer emailing guidelines](/handbook/sales-process/emailing).
 
 ## Accounting
 
-[Accounting procedures](/handbook/sales_process/accounting).
+[Accounting procedures](/handbook/sales-process/accounting).
 
 ## Licenses
 
-Everything about [lincenses and EE access](/handbook/sales_process/licenses).
+Everything about [lincenses and EE access](/handbook/sales-process/licenses).
 
 ## Sales Ordering Process
 
@@ -109,7 +109,7 @@ Everything about [lincenses and EE access](/handbook/sales_process/licenses).
       1. Return to https://license.gitlab.com
       1. Paste the subscription ID (what you just copied from the URL) into the Recurly Subscription ID field (box)
       1. Select the Make license from Recurly subscription button
-1. Mark deal as PO (deal won) in Streak **(the above steps must be completed, make a deal if none exist)** 
+1. Mark deal as PO (deal won) in Streak **(the above steps must be completed, make a deal if none exist)**
 1. If end of month, OK to add deal value of unprocessed deals with PO received to the top of agenda for reporting purposes
 1. Make a task for the follow up (if needed)
 1. Inform team during team call if any of the new orders are notable customers

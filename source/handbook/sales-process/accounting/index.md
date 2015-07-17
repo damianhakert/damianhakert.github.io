@@ -124,7 +124,7 @@ Bank: Rabobank, Croeselaan 18, 3500HG Utrecht, Utrecht, The Netherlands, +313021
 
 ## Draft sale in Twinfield for clients paying by with Recurly
 
-1. This is part of the [won subscription deal procedure](source/handbook/sales_process/deal_management_process#won-subscription-deal-procedure-invoicing), you should have done a VIES check already
+1. This is part of the [won subscription deal procedure](source/handbook/sales-process/deal_management_process#won-subscription-deal-procedure-invoicing), you should have done a VIES check already
 
 1. These are linked to Recurly transactions one-on-one, so in case of an upgrade do create a new one, do not amend the original one
 
@@ -180,7 +180,7 @@ Bank: Rabobank, Croeselaan 18, 3500HG Utrecht, Utrecht, The Netherlands, +313021
 
 VAT: IMPORTANT TO CHECK THAT CATEGORY MATCHES THE COUNTRY IN THE INVOICE!
 
-![VAT](source/handbook/sales_process/images_sales_process/vat1_sales_process.png) 
+![VAT](source/handbook/sales-process/images_sales-process/vat1_sales-process.png) 
 
 1. VAT category: Always diensten / services and date is date of invoice
 
