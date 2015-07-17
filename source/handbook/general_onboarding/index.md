@@ -12,6 +12,8 @@ We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https:
 
 * Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
 
+* Add yourself to our [Email, Phone and Emerhency Contact Sheet](https://docs.google.com/spreadsheets/d/1kMPW_eGEOz9HOIHbD8uPCzDWljsDHovS4H5XY8Q12wo/edit#gid=0)
+
 * Read our [Team Handbook](https://about.gitlab.com/handbook/)
 
 * Add yourself to our [Employee Phone List](https://docs.google.com/spreadsheets/d/1kMPW_eGEOz9HOIHbD8uPCzDWljsDHovS4H5XY8Q12wo/edit#gid=0)
