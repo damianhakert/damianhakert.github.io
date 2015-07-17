@@ -17,7 +17,7 @@ Create issue for new hire in organization with following checklist:
 - [ ] Put People Information into Profiles in Lastpass
 - [ ] Create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it 
 - [ ] Add to Slack
-- [ ] Send an email to company address: 'Please read https://about.gitlab.com/handbook/ and relevant files linked from there and let me know if you have any questions.'
+- [ ] Send an email to company address: 'Please read https://about.gitlab.com/handbook/ andthe relevant onboardings that are linked from there and let me know if you have any questions.'
 - [ ] [Add to Lastpass](https://lastpass.com/enterprise_create.php)
 - [ ] Add to Recurly (https://app.recurly.com/login)
 - [ ] Add Webex account (if necessary)
