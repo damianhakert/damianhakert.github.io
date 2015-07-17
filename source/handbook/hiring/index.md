@@ -27,7 +27,7 @@ Create issue for new hire in organization with following checklist:
 - [ ] Add to [QuickBooks users](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/hiring/index.md) (finance only)
 - [ ] Add to Comerica (as user or viewer only if in Finance)
 - [ ] Gitlab.com account invited to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
-- [ ] create dev.GitLab.org account and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
+- [ ] create [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 - [ ] /cc the new user in the organization issue that was created for them.
 - [ ] Invite to team meeting
 - [ ] Invite to sales meeting
