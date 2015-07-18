@@ -53,7 +53,8 @@ Create issue for new hire in organization with following checklist:
 - [ ] Signed PIAA in Dropbox
 - [ ] Signed contract in Dropbox
 - [ ] Scan of photo id in Dropbox
-- [ ] Complete TriNet steps (https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl)
+- [ ] Complete TriNet steps/Enroll (https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl)
+- [ ] set up new hire training with TriNet
 - [ ] Send People Information sheet and instruct to return answers via email or slack (https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0)
 - [ ] Create folder for new hire in Lastpass
 - [ ] Put People Information into Profiles in Lastpass
