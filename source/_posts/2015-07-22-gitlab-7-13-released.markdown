@@ -123,24 +123,45 @@ TODO: add link to documentation
 
 GitLab CI builds and runners can be tagged. This allows you to do things like running different builds on different platforms: some on Linux, some on Windows. GitLab CI 7.12 and earlier would send tagged builds to runners without tags. Now, runners without tags will pick only builds that don't have tags assigned. This is breaking change to 7.12. If some of your builds stop running after upgrade to 7.13, make sure that runners have tags assigned as well as builds.
 
-### Other changes
+## Other changes
 
 This release has more improvements, including security fixes, please check out [the CE Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG), [the EE Changelog](https://gitlab.com/gitlab-org/gitlab-ee/blob/master/CHANGELOG-EE) or [the CI Changelog](https://gitlab.com/gitlab-org/gitlab-ci/blob/master/CHANGELOG) to see the all named changes.
 
 
-### Upgrade barometer
+## Upgrade barometer
 
 This release upgrade will require downtime.
 
-#### Changed default location of database socket for Omnibus packages
+Coming from 7.12 the database migrations in GitLab and GitLab CI will be fast but they cannot be performed online.
+
+### Important notice for GitLab CI installations
+
+- GitLab CI now uses symmetric encryption to share 'secure variables'
+ (provided by your users) in the SQL database
+- this encryption needs a secret key. gitlab ci will generate a key for you
+ when you install 7.13, it is called 'db_key_base' and can be found in
+  /etc/gitlab/gitlab-secrets.json (omnibus) or config/secrets.yml
+   (installations from source)
+- if you lose this secret key during a backup restore or a server migration,
+ your users will lose their 'secure variables'
+- don't store the secret key in the same place as your database backups. if
+ you do, somebody who steals your backup also gets your users' secure
+  variables.
+- if you use configuration management (chef, puppet etc.) you will probably
+ want to (securely) store the secret key in your configuration management
+  system so that your CI server uses the correct DB secret key after a server
+   rebuild
+
+
+### Changed default location of database socket for Omnibus packages
 
 By default, PostgreSQL places the unix socket file inside of the `/tmp` directory.
 Prior to 7.13, GitLab installed using omnibus-gitlab packages would use PostgreSQL default socket location to connect to the database.
 This has caused issues when installing GitLab using omnibus-gitlab packages if there is an existing PostgreSQL database.
 
-Given the goal of omnibus-gitlab package to be self contained and not influenced by existing sofware we've moved the socket location to `/var/opt/gitlab/postgresql`.
+Given the goal of omnibus-gitlab package to be self contained and not influenced by existing software we've moved the socket location to `/var/opt/gitlab/postgresql`.
 
-If you had previously set `db_host` setting in `/etc/gitlab/gitlab.rb` explicity for `gitlab_rails` or `gitlab_ci`, be aware that this will possibly require a change. For example, if you had
+If you had previously set `db_host` setting in `/etc/gitlab/gitlab.rb` explicitly for `gitlab_rails` or `gitlab_ci`, be aware that this will possibly require a change. For example, if you had
 
 ```ruby
 gitlab_rails['db_host'] = '/tmp'
@@ -161,6 +182,7 @@ If you are setting up a new GitLab installation please see the
 ## Updating
 
 Check out our [update page](https://about.gitlab.com/update/).
+
 
 ## Enterprise Edition
 
