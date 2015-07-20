@@ -25,26 +25,6 @@ For [emergency checklist](https://dev.gitlab.org/cookbooks/gitlab-drbd/blob/mast
 
 See [failover procedure](https://dev.gitlab.org/cookbooks/gitlab-drbd/blob/master/doc/control_script.md#failover-procedure).
 
-### Contact NetCompany
-
-Our production servers (linus, monty) and backup server (stallman) are hosted by [NetCompany](http://www.netcompany.nl/) . Our main contact is Kasper Schoonman kasper@netcompany.nl (kaspernl on skype).
-
-### Email support
-
-Not for really urgent matters: support@hostingu2.nl.
-
-### 24/7 Emergency phone support
-
- +31 70 7620762
-
-### Backup phone numbers
-
-In case the 24/7 phone number is not working / routing correctly, we can try the following private mobile phone numbers.
-
-+316-30780711 (Kasper)
-+316-55130930 (Ruud)
-+316 55 32 87 53 (Nick)
-
 ## Dev.gitlab.org backups
 
 Backups for dev.gitlab.org are stored on S3 in the ‘backup-dev-gitlab-org’ bucket. The backups are protected against deletion using S3 versioning, and move to Glacier storage (slow retrieval) after 7 days.
