@@ -1,48 +1,63 @@
 ---
 layout: post
-title: "GitLab 7.13 released with improved project home page"
+title: "GitLab 7.13 released with a Customizable Project Dashboard and even better Approvals"
 date: 2015-07-22
 comments: true
 categories:
-author: Valery Sizov
+author: GitLab
+author_twitter: gitlab
 filename: 2015-07-22-gitlab-7-13-released.markdown
 image_title: /images/7_X/PICTURE.PNG
 ---
 
-Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
-The biggest new features in Community Edition are improved page home page, now it looks nicer.
-In addition to the updates from Community Edition, we fixed some issue in GitLab Enterprise Edition as well.
+It's July and time for GitLab 7.13!
+For most of us a warm month, but luckily that hasn't slowed us down.
+First, [we raised a seed round](https://about.gitlab.com/2015/07/09/1.5M-raised-in-seed-funding-for-gitlab-to-accelerate-growth-and-expand-operations/) and now we bring you
+a customizable Project Dashboard, better merge request approvals, a number
+of GitLab CI improvements (Docker support!) and more!
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Stan Hu, he contributed support for commenting on side-by-side diffs.
-Thanks Stan!
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Stan Hu. He contributed support for commenting on side-by-side diffs.
+This is the third time this year that Stan Hu is MVP, a GitLab hat-trick.
+Thanks Stan, we're happy to see you score more great features!
 
 <!--more-->
 
-## Redesigned project home page(CE)
+## Customizable Project Dashboard
 
-Now that we have a nicer and more introdactory project home page.
+We've gotten a lot of requests to make the README the default page of
+projects in GitLab. At the same time, many of our contributors hated
+this idea. They just wanted to see what is happening, not the same README.
 
-[![screenshot](/images/7_13/feature.png)](/images/7_13/feature.png) ***7_13 is the version of GitLab being released***
+We kept redesigning it, looking for a great middle ground.
+We gave up. The choice is yours now.
 
+Want to see the README first? You can!
 
-## Support commenting on diffs in side-by-side mode(CE)
+![]()
 
-Now you can use powerful GitLab's code review abilities in side-by-side mode.
+Rather see the activity in a project? Go ahead!
 
-[![screenshot](/images/7_13/feature.png)](/images/7_13/feature.png) ***7_13 is the version of GitLab being released***
+![]()
 
+Change it in the settings, alongside the choice for either seeing the starred
+projects or all projects on the home page.
+
+![]()
+
+## Comment on Side-by-Side diffs
+
+You can now place comments on side-by-side diffs.
+
+![]()
 
 ## Image and services names in yml that can be used with docker (GitLab CI)
 
-It makes GitLab CI extremely flexible and powerfull. 
+It makes GitLab CI extremely flexible and powerfull.
 
 The image is the name of any repository that is present in local Docker Engine or any repository that can be found at [Docker Hub](https://registry.hub.docker.com/).
 For more information about the image and Docker Hub please read the [Docker Fundamentals](https://docs.docker.com/introduction/understanding-docker/).
 
-
-Service is just another image that is run for time of your build and is linked to your build. This allows you to access the service image during the build.
-The service image can run any application, but most common use case is to run some database container, ie.: mysql.
-It's easier and faster to use existing image, run it as additional container than install mysql every time project is built. Here is an example of how to use image and services options in .gitlab-ci.yml file:
+Service is just another image that is run for time of your build and is linked to your build. This allows you to access the service container during the build. The service image can run any application, but most common use case is to run some database container, ie.: postgres. It's easier and faster to use existing image, run it as additional container than install postgres every time your project is built. Here is an example of how to use image and services options in .gitlab-ci.yml file:
 
 ```
 image: ruby:2.2
@@ -50,7 +65,7 @@ services:
   - postgres:9.3
 before_install:
   - bundle install
-  
+
 test:
   script:
   - bundle exec rake spec
@@ -77,6 +92,37 @@ each build separately.
 
 [![screenshot](/images/7_13/feature.png)](/images/7_13/feature.png) ***7_13 is the version of GitLab being released***
 
+## runner
+
+there are mostly security related features, renaming gitlab-ci-multi-runner to gitlab-runner, colorised build log (the screenshot is on #development and the effect you can see on any CI build), the new docker features requires 0.5.0
+
+## Flexible build types (GitLab CI)
+
+From now on you can define multiple build types in `.gitlab-ci.yml`. That allows to define behaviour and ordering of builds execution:
+
+```
+types:
+  - build
+  - test
+  - deploy
+
+rspec:
+  type: test
+  script: bundle exec rspec
+```
+
+This will execute first all jobs with type `build`, then `test` and at the end `deploy`.
+The next builds are executed only if all previous succeeds.
+To speed-up building all jobs for one type will be run in parallel.
+
+This is the first step to have flexible and powerful build pipeline in CI with support for multiple different stages.
+
+TODO: add link to documentation
+
+## Runners without tags (GitLab CI)
+
+GitLab CI builds and runners can be tagged. This allows you to do things like running different builds on different platforms: some on Linux, some on Windows. GitLab CI 7.12 and earlier would send tagged builds to runners without tags. Now, runners without tags will pick only builds that don't have tags assigned. This is breaking change to 7.12. If some of your builds stop running after upgrade to 7.13, make sure that runners have tags assigned as well as builds.
+
 ### Other changes
 
 This release has more improvements, including security fixes, please check out [the CE Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG), [the EE Changelog](https://gitlab.com/gitlab-org/gitlab-ee/blob/master/CHANGELOG-EE) or [the CI Changelog](https://gitlab.com/gitlab-org/gitlab-ci/blob/master/CHANGELOG) to see the all named changes.
@@ -84,7 +130,7 @@ This release has more improvements, including security fixes, please check out [
 
 ### Upgrade barometer
 
-This release upgrade will require downtime. 
+This release upgrade will require downtime.
 
 #### Changed default location of database socket for Omnibus packages
 
