@@ -7,7 +7,7 @@ categories:
 author: GitLab
 author_twitter: gitlab
 filename: 2015-07-22-gitlab-7-13-released.markdown
-image_title: /images/7_X/PICTURE.PNG
+image_title: /images/7_13/ny.jpg
 ---
 
 It's July and time for GitLab 7.13!
@@ -33,23 +33,23 @@ We gave up. The choice is yours now.
 
 Want to see the README first? You can!
 
-![]()
+![Readme on Project Dashboard](/images/7_13/dash_readme.png)
 
 Rather see the activity in a project? Go ahead!
 
-![]()
+![Activity on Project Dashboard](/images/7_13/dash_activity.png)
 
 Change it in the settings, alongside the choice for either seeing the starred
 projects or all projects on the home page.
 
-![]()
+![Project Dashboard configuration](/images/7_13/dash_settings.png)
 
 
 ## Comment on Side-by-Side diffs
 
 You can now place comments on side-by-side diffs.
 
-![]()
+![Comments on side-by-side diff](/images/7_13/side_comment.png)
 
 ## Improved Merge Request Approvals (GitLab EE)
 
@@ -61,7 +61,11 @@ specific people that will have to approve a merge request. We've made it
 flexible enough that you can have any combination of specific approvers and
 unspecific approvers (Mindy and any one else, for instance).
 
-![]()
+![Approvers in a Merge Request](/images/7_13/approvers_mr.png)
+
+If you want, you can set the default approvers for a project:
+
+![Setting default suggested approvers for a project](/images/7_13/approvers_settings.png)
 
 ## Docker support for GitLab CI
 
@@ -118,7 +122,8 @@ If a single commit starts many jobs in your GitLab CI project and you want
 to cancel it, previously you'd have to cancel all builds by hand.
 Now there is a single button that cancels all builds immediately.
 
-[![screenshot](/images/7_13/feature.png)](/images/7_13/feature.png) ***7_13 is the version of GitLab being released***
+![Quickly cancel all builds](/images/7_13/ci_cancel.png)
+
 
 ## Flexible Build Types (GitLab CI)
 
