@@ -50,14 +50,15 @@ You can now place comments on side-by-side diffs.
 
 ![]()
 
-## Image and services names in yml that can be used with docker (GitLab CI)
 
-It makes GitLab CI extremely flexible and powerfull.
+## Docker support for GitLab CI
 
-The image is the name of any repository that is present in local Docker Engine or any repository that can be found at [Docker Hub](https://registry.hub.docker.com/).
-For more information about the image and Docker Hub please read the [Docker Fundamentals](https://docs.docker.com/introduction/understanding-docker/).
+This is a really cool new feature.
+When configuring your project for GitLab CI, using the new
+`.gitlab-ci.yml` file, you can now make use of Docker Images and Services.
 
-Service is just another image that is run for time of your build and is linked to your build. This allows you to access the service container during the build. The service image can run any application, but most common use case is to run some database container, ie.: postgres. It's easier and faster to use existing image, run it as additional container than install postgres every time your project is built. Here is an example of how to use image and services options in .gitlab-ci.yml file:
+This means that all you need to run ruby test suite is the following
+`.gitlab-ci.yml` file:
 
 ```
 image: ruby:2.2
@@ -71,12 +72,27 @@ test:
   - bundle exec rake spec
 ```
 
+The Image is the name of any repository present in a local Docker Engine or
+any repository that can be found at [Docker Hub](https://registry.hub.docker.com/).
+
+A Service is just another image that is run and linked to your build.
+This image can run any application, but the most common use case is to
+run a database container such as PostgreSQL.
+This means that with every build, instead of having to install PostgreSQL,
+you can simply reuse your existing Services image, making your build less
+complex and much faster.
+
+For more information about the image and Docker Hub please read the [Docker Fundamentals](https://docs.docker.com/introduction/understanding-docker/).
+
 You can read more information in [Docker integration](http://doc.gitlab.com/ci/builds_configuration/docker.html).
 
+## allow_failure option for jobs (GitLab CI)
 
-## allow_failure option for job (GitLab CI)
+If you want to ignore the status of a specific job when computing the status
+of the build for a certain commit, you can now specify this with the
+`allow_failure` option in the build script.
 
-It allows to ignore status of specific build when computing status for commit. Example .gitlab-ci.yml file:
+It's easy to use in your `.gitlab-ci.yml` file:
 
 ```
 rspec:
@@ -84,21 +100,22 @@ rspec:
   allow_failure: true
 ```
 
+## Cancel all Builds (GitLab CI)
 
-## Cancel all builds in commit at once (GitLab CI)
-
-If you have a lot of builds in commit it is very convenient to have ability to cancel all builds at once. Earlier you had to cancel
-each build separately.
+If a single commit starts many jobs in your GitLab CI project and you want
+to cancel it, previously you'd have to cancel all builds by hand.
+Now there is a single button that cancels all builds immediately.
 
 [![screenshot](/images/7_13/feature.png)](/images/7_13/feature.png) ***7_13 is the version of GitLab being released***
 
-## runner
+## Flexible Build Types (GitLab CI)
 
-there are mostly security related features, renaming gitlab-ci-multi-runner to gitlab-runner, colorised build log (the screenshot is on #development and the effect you can see on any CI build), the new docker features requires 0.5.0
+We wanted to add flexibility to the configuration of build scripts.
+Rather than having predefined build types, you can now group your builds
+however you'd like it, with flexible build types.
 
-## Flexible build types (GitLab CI)
-
-From now on you can define multiple build types in `.gitlab-ci.yml`. That allows to define behaviour and ordering of builds execution:
+This allows you to accurately define the behavior and order of builds in
+`.gitlab-ci.yml`:
 
 ```
 types:
@@ -111,17 +128,28 @@ rspec:
   script: bundle exec rspec
 ```
 
-This will execute first all jobs with type `build`, then `test` and at the end `deploy`.
+The script above, for instance, will execute all jobs with the type `build` first, followed by `test` and lastly `deploy`.
 The next builds are executed only if all previous succeeds.
-To speed-up building all jobs for one type will be run in parallel.
+And, to speed-up building, all jobs for one type will be run in parallel
+automatically.
 
-This is the first step to have flexible and powerful build pipeline in CI with support for multiple different stages.
+This is the first step towards flexible and powerful build pipelines in
+GitLab CI with support for multiple stages.
 
 TODO: add link to documentation
 
-## Runners without tags (GitLab CI)
+## Runners without Tags (GitLab CI)
 
-GitLab CI builds and runners can be tagged. This allows you to do things like running different builds on different platforms: some on Linux, some on Windows. GitLab CI 7.12 and earlier would send tagged builds to runners without tags. Now, runners without tags will pick only builds that don't have tags assigned. This is breaking change to 7.12. If some of your builds stop running after upgrade to 7.13, make sure that runners have tags assigned as well as builds.
+GitLab CI builds and runners can be tagged.
+This allows you to do things like running different builds on different platforms. At GitLab we use this to build our packages.
+
+GitLab CI 7.12 and earlier would send tagged builds to runners without tags.
+Now, runners without tags will only pick up builds that don't have tags
+assigned.
+
+This is a breaking change coming from GitLab CI 7.12. If some of your builds
+stop running after you upgrade to 7.13, make sure that your runners have tags
+and builds assigned.
 
 ## Other changes
 
