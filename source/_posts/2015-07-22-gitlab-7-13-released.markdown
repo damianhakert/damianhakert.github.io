@@ -194,21 +194,22 @@ Coming from 7.12 the database migrations in GitLab and GitLab CI will be fast bu
 
 ### Important notice for GitLab CI installations
 
-- GitLab CI now uses symmetric encryption to share 'secure variables'
- (provided by your users) in the SQL database
-- this encryption needs a secret key. gitlab ci will generate a key for you
- when you install 7.13, it is called 'db_key_base' and can be found in
-  /etc/gitlab/gitlab-secrets.json (Omnibus packages) or config/secrets.yml
-   (installations from source)
-- if you lose this secret key during a backup restore or a server migration,
- your users will lose their 'secure variables'
-- don't store the secret key in the same place as your database backups. if
- you do, somebody who steals your backup also gets your users' secure
-  variables.
-- if you use configuration management (chef, puppet etc.) you will probably
- want to (securely) store the secret key in your configuration management
-  system so that your CI server uses the correct DB secret key after a server
-   rebuild
+GitLab CI now uses symmetric encryption to share 'secure variables'
+(provided by your users) in the SQL database.
+Symmetric encryption needs a secret key, which GitLab CI will generate for you
+when you install / upgrade to 7.13.
+
+The key is called `db_key_base` and can be found in /etc/gitlab/gitlab-secrets.json
+(in Omnibus packages) or config/secrets.yml (in installations from source).
+If you lose this secret key during a backup restore
+or a server migration, your users will lose their 'secure variables'.
+
+Don't store the secret key in the same place as your database backups.
+If you do, somebody who steals your backup also gets your users' secure variables.
+
+If you use configuration management (Chef, Puppet etc.) you should
+store the secret key securely in your configuration management system.
+This way, your CI server uses the correct DB secret key after a server rebuild.
 
 
 ### Changed default location of database socket for Omnibus packages
