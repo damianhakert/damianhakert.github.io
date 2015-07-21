@@ -29,11 +29,11 @@ extra_js:
       <div class="col-xs-10 col-md-10">
         <h2>What Are The Advantages?</h2>
         <ul>
-          <li><b>Easy to set up</b> since it is included in Omnibus packages of GitLab or use it for free on <a href="https://ci.gitlab.com/">ci.gitlab.com</a></li>
-          <li><b>Beautiful interface</b> with a clear menu structure</li>
-          <li><b>Performant and stable</b>, as tests run distributed on separate machines</li>
-          <li><b>Receive test results faster</b> with each commit running in parallel on multiple jobs</li>
-          <li><b>Free to use and completely open source</b> all CI code is MIT licensed</li>
+          <li><b>Easy to install</b> since it's included in [GitLab Omnibus packages](https://about.gitlab.com/downloads/) or use it for free on <a href="https://ci.gitlab.com/">ci.gitlab.com</a></li>
+          <li><b>Beautiful</b> interface with a clear menu structure</li>
+          <li><b>Scalable</b> as tests run distributed on separate machines of which you can add as many as you want</li>
+          <li><b>Faster results</b> because each build can be split in multiple jobs that run in parallel on multiple machines</li>
+          <li><b>Free and open source</b> as all CI code is MIT Expat licensed</li>
         </ul>
       </div>
       <div class="col-xs-1 col-md-1"></div>
@@ -49,13 +49,12 @@ extra_js:
       <div class="col-xs-10 col-md-5">
         <h2>Features</h2>
         <ul>
-          <li><b>Single sign-on</b>: Use the same login and password as on your GitLab instance.</li>
-          <li><b>Quick project setup</b>: Add your project in a single click, all hooks are setup automatically via the GitLab API.</li>
-          <li><b>Elegant and flexible</b>: Build scripts are written in bash, test projects in any programming language.</li>
-          <li><b>Merge request integration</b>: See the status of the test within the Merge Request in GitLab.</li>
-          <li><b>Distributed by default</b>: GitLab CI and build runners can run on separate machines providing more stability.</li>
-          <li><b>Realtime logging</b>: A link in the merge request takes you to the current build log that updates dynamically.</li>
-          <li><b>Parallel builds</b>: Split a build over multiple runners so it executes quickly.</li>
+          <li><b>Multi-platform</b> since you can executes builds on Unix, Windows and OSX.
+          <li><b>Multi-language</b> because builds scripts are command line driven and work with Java, PHP, Ruby, C and any other language.
+          <li><b>Stable</b> because the GitLab CI is on a different machine that the ones that perform builds.</li>
+          <li><b>Parallel builds</b> by splitting a build over multiple machines so it executes quickly.</li>
+          <li><b>Realtime logging</b> a link in the merge request takes you to the current build log that updates dynamically.</li>
+          <li><b>Continuous Delivery (CD)</b> and deployment are easy with multiple types of jobs, environmental variables and the <a href="http://doc.gitlab.com/ci/deployment/README.html">dpl gem</a>.
         </ul>
       </div>
       <div class="col-xs-1 col-md-1"></div>
@@ -68,12 +67,14 @@ extra_js:
       <div class="col-xs-10 col-md-6">
         <h2>Fully integrated with GitLab</h2>
         <ul>
-          <li>GitLab CI is fully integrated with GitLab.</li>
-          <li>No need for separate authentication and all your projects are immediately available.</li>
+          <li><b>Fully integrated</b> with GitLab.</li>
+          <li><b>Single sign-on</b> you can use the same login and password as on your GitLab instance.</li>
+          <li><b>Quick project setup</b> since you can add them with a single click, all hooks are setup automatically via the GitLab API.</li>
+          <li><b>Merge request integration</b> see the status of each build within the Merge Request in GitLab.</li>
         </ul>
       </div>
       <div class="hidden-xs hidden-sm col-md-4">
-        <img src="/images/ci/gitlab-raccoon-dog.png" class="gitlab-raccoon-dog-image hidden-xs" alt="" />
+        <img src="/images/logo.png" class="gitlab-raccoon-dog-image hidden-xs" alt="" />
       </div>
       <div class="col-xs-1 col-md-1"></div>
     </div>
@@ -95,7 +96,6 @@ extra_js:
           Runners and jobs can be labeled so that jobs run on runners that can process them (the right machine, OS and configuration).
           We recommend to not install runners the same instance as GitLab CI so that running rogue code and jobs can't affect the security of GitLab CI itself.
           GitLab CI can be run on the same instance as GitLab or on a separate instance.
-          GitLab CI it is included in the GitLab Omnibus package but you have to give it its own FQDN (ci.example.com) in order to <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/gitlab-ci/README.md#getting-started">activate it</a>.
           </p>
         </div>
       </div>
@@ -109,7 +109,7 @@ extra_js:
     <div class="row gitlab-runner">
       <div class="col-xs-1 col-md-1"></div>
       <div class="col-xs-10 col-md-10">
-        <h2>GitLab Runner</h2>
+        <h2 id=gitlab-runner>GitLab Runner</h2>
         <p>To perform the actual build, you need to install GitLab Runner.</p>
         <ul>
           <li><a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner"><b>Official GitLab Runner in Go with Docker support for Linux, OSX and Windows</b></a> (recommended)</li>
@@ -146,7 +146,7 @@ extra_js:
           <li>Scientific Linux</li>
           <li>Oracle Linux</li>
         </ul>
-        <h4>Hardware Requirements</h4>
+        <h4>GitLab CI hardware requirements</h4>
         <ul>
           <li>1GB of memory or more is recommended, 512MB works</li>
           <li>2 CPU cores or more are recommended, 1 CPU core works</li>
@@ -166,7 +166,11 @@ extra_js:
       <div class="col-xs-10 col-md-7">
         <h2>Installation</h2>
         <ul>
-          <li><a href="https://about.gitlab.com/downloads/"><b>Omnibus packages</b></a> (recommended way to install) include the CI coordinator, see the <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/gitlab-ci/README.md">configuration instructions</a></li>
+          <li>
+            <a href="https://about.gitlab.com/downloads/"><b>Omnibus packages (recommended)</b></a> inlude GitLab as well as GitLab CI,
+            you have to give GitLab CI its own FQDN (ci.example.com) in order to activate it,
+            for this and more please see the <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/gitlab-ci/README.md#getting-started">configuration instructions</a>
+          </li>
           <li><a href="https://gitlab.com/gitlab-org/gitlab-ci/blob/master/doc/install/installation.md">Manual installation guide</a></li>
           <li><a href="https://github.com/sameersbn/docker-gitlab-ci">Unofficial Docker Image by Sameer Naik</a></li>
           <li><a href="https://registry.hub.docker.com/u/anapsix/gitlab-ci/">Unofficial Docker Image by Anastas Dancha</a>
@@ -185,9 +189,9 @@ extra_js:
         <h2>Help and More Information</h2>
         <ul>
           <li>Please see <a href="https://about.gitlab.com/getting-help/">Getting help for GitLab</a> if you have questions.</li>
-          <li>Propose and discuss new features of CI in the <a href="http://feedback.gitlab.com/forums/176466-general/category/64310-gitlab-ci">feature request forum.</a></li>
+          <li>Propose and discuss new features of CI in the <a href="http://feedback.gitlab.com/forums/176466-general/category/64310-gitlab-ci">feature request forum</a>.</li>
           <li>The <a href="http://doc.gitlab.com/ci/">documentation</a> can be found on the doc site.</li>
-          <li>After GitLab CI 5.4 we released 7.8 so that the versions of GitLab and GitLab CI are in sync.</li>
+          <li>Since version 7.8 GitLab CE/EE and GitLab CI are released in sync with the same version number.</li>
         </ul>
       </div>
       <div class="col-xs-6 col-md-4">

@@ -61,13 +61,24 @@ platforms:
   firewall_open: |
                     sudo firewall-cmd --permanent --add-service=http
                     sudo systemctl reload firewalld
+- name: raspberrypi2
+  long_name: Raspberry PI 2 on Raspbian
+  download_command: |
+                    sudo curl -o /etc/apt/sources.list.d/gitlab_ce.list "https://packages.gitlab.com/install/repositories/gitlab/raspberry-pi2/config_file.list?os=debian&dist=wheezy" && sudo apt-get update
+  install_commands: |
+                    sudo apt-get install gitlab-ce
+  dependency_commands: |
+                    sudo apt-get install curl openssh-server ca-certificates postfix apt-transport-https
+                    curl https://packages.gitlab.com/gpg.key | apt-key add -
+
+
 ---
 <div class="wrapper container">
 
   <div class="row graphic-menu">
 
     <div class="col-md-3 hidden-sm hidden-xs">
-      <img src="/images/downloads/omnibus.gif" class="img-responsive pack-fox">
+      <img src="/images/downloads/logo.svg" class="img-responsive pack-fox">
     </div>
 
     <div class="col-md-9">

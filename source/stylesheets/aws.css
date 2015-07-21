@@ -17,7 +17,7 @@ body {
 }
 
 .aws-install-step p:nth-child(1) {
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto Condensed-Light", sans-serif;
   font-weight: 200;
   font-size: 25px;
   color: rgba(255,255,255,0.74);
@@ -26,7 +26,7 @@ body {
 
 .aws-install-step p:nth-child(2) {
   /* ami-1b46672b: */
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: 600;
   font-size: 30px;
   color: #FFFFFF;
@@ -34,7 +34,7 @@ body {
 }
 
 h1 {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 38px;
   color: #FFFFFF;
   line-height: 47px;
@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto Condensed-Light", sans-serif;
   font-weight: 200;
   font-size: 26px;
   color: #FFFFFF;

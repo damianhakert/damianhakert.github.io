@@ -61,7 +61,7 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * Mentioned feed on the dashboard, activity feed on separate tab
 
-* Issue/MR description field works like google docs, real time collaboration & autosave
+* Issue/MR description field works like google docs, real time collaboration & autosave, maybe with [ShareJS](http://sharejs.org/)
 
 * [Git large file support](http://feedback.gitlab.com/forums/176466-general/suggestions/7502608-git-large-file-storage-lfs-support)
 
@@ -71,6 +71,10 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * [Award emoji](https://dev.gitlab.org/gitlab/gitlabhq/issues/2388) (so you can use GitLab as a feature request tracker)
 
+* Commit Status API [request](http://feedback.gitlab.com/forums/176466-general/suggestions/3923065-status-api-for-continuous-integration) [private issue](https://dev.gitlab.org/gitlab/gitlabhq/issues/2467)
+
+* [Handle errors before they give a 500](https://dev.gitlab.org/gitlab/gitlabhq/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=gitlab.com+errors)
+
 ## EE
 * In PROGRESS [Multiple approvers](https://dev.gitlab.org/gitlab/gitlabhq/issues/2258)
 
@@ -79,6 +83,10 @@ Most links point to a private server of GitLab company and can't be accessed pub
 * Push to another repo
 
 * [Management dashboard](https://dev.gitlab.org/gitlab/gitlab-ee/issues/287)
+
+* Distributed file system store [blobs](http://blog.justinsb.com/blog/2013/12/14/cloudata-day-8/), large files (Git Annex or Git LFS) and uploads in [Ceph](http://ceph.com/), [XtreemFS](http://www.xtreemfs.org/) or something else. Or not blobs because [performance might suffer](https://news.ycombinator.com/item?id=9839581)?
+
+* [Geographic slave servers](https://dev.gitlab.org/gitlab/gitlabhq/issues/2359) maybe plus edition only
 
 ## CI
 
@@ -90,7 +98,7 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * Option to test the merge of the feature branch with master instead of the feature branch itself (you will have to retest all MR's every time master is updated)
 
-* [Chain builds / delivery pipeline](http://feedback.gitlab.com/forums/176466-general/suggestions/7233770-chain-builds)
+* Build pipeline / Chain builds / delivery pipeline [Feedback](http://feedback.gitlab.com/forums/176466-general/suggestions/7233770-chain-builds) and [internal issue](https://dev.gitlab.org/gitlab/gitlab-ci/issues/282)
 
 * Staging environment per branch, easy deploy (similar to [Teatro](https://teatro.io/), [Tutum](https://support.tutum.co/support/solutions/articles/5000620449-deploy-to-tutum-button) & [Heroku Review Apps](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta))
 
@@ -102,12 +110,12 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 ## We would love to partner with
 
-* IDE: Koding, Nitrous.io, Cloud9, CodeAnywhere, Codio and CodeEnvy (ship GitLab with them and button to open from GitLab)
+* Browser IDE: Koding, Nitrous.io, Cloud9, CodeAnywhere, Codio and CodeEnvy (ship GitLab with them and button to open from GitLab)
 
 * Configuration management: Chef, Puppet, Ansible, Salt, Docker (upload cookbooks, build containers, etc.)
 
-* Paas: CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Flynn (deploy apps)
+* Paas: CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas, Flynn (deploy apps)
 
 * Scrum boards: Huboard support in addition to https://about.gitlab.com/applications/#scrum-boards
 
-* Chat: Integrate [Kandan](https://github.com/kandanapp/kandan), [Mattermost](http://www.mattermost.org/), [Rocket.Chat](http://rocket.chat/), [Let's Chat](https://sdelements.github.io/lets-chat/) or something else
+* Chat: Integrate with [Kandan](https://github.com/kandanapp/kandan), [Mattermost](http://www.mattermost.org/), [Rocket.Chat](http://rocket.chat/), [Let's Chat](https://sdelements.github.io/lets-chat/) when they support being an OAuth client

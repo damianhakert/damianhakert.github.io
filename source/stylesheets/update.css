@@ -4,7 +4,7 @@ body {
 }
 
 a:hover {
-  color: white;
+  color: #FFB440;
 }
 
 .simple-header {
@@ -36,7 +36,7 @@ a:hover {
 
 .title {
   font-size: 24px;
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto Condensed-Light", sans-serif;
   color: #D9CCFF;
 }
 
