@@ -29,3 +29,18 @@ Steps to process an invoice to pay a consultant/vendor:
 
 1. Post the payment through the accounting system.
 
+## Commission Payment Process
+
+1. Each sales person will receive their own calculation template.
+
+1. Salesperson is to complete their monthly template four days (payroll will send reminder) prior to first payroll of the month. Upon completion, salesperson will ping a manager for review and approval.
+
+1. Approving manager will ping accounting upon approval.
+
+1. Accounting will review and reconcile paid vs unpaid invoices.
+
+1. Accounting will note in calculation template the amounts to be paid in commision.
+
+1. Accounting will ping payroll that commission calculation is complete.
+
+1. Payroll will enter commission into TriNet.
