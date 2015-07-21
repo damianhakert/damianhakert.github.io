@@ -11,13 +11,16 @@ image_title: /images/7_13/ny.jpg
 ---
 
 It's July and time for GitLab 7.13!
-For most of us a warm month, but luckily that hasn't slowed us down.
-First, [we raised a seed round](https://about.gitlab.com/2015/07/09/1.5M-raised-in-seed-funding-for-gitlab-to-accelerate-growth-and-expand-operations/) and now we bring you
-a customizable Project Dashboard, better merge request approvals, a number
-of GitLab CI improvements (Docker support!) and more!
+It's been a warm month for most of us but it hasn't slowed us down luckily.
+[We raised a seed round](https://about.gitlab.com/2015/07/09/1.5M-raised-in-seed-funding-for-gitlab-to-accelerate-growth-and-expand-operations/) and we [introduced a new logo](https://about.gitlab.com/2015/07/03/our-new-logo/)!
+
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">The new <a href="https://twitter.com/gitlab">@gitlab</a> logo looks pretty awesome :)</p>&mdash; Lev Lazinskiy (@levlaz) <a href="https://twitter.com/levlaz/status/623117535618199552">July 20, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Today, we're happy to bring you a customizable Project Dashboard, better merge request approvals, a number of GitLab CI improvements (Docker support!) and more in this month's GitLab release.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Stan Hu. He contributed support for commenting on side-by-side diffs.
-This is the third time this year that Stan Hu is MVP, a GitLab hat-trick.
+This is the third time this year that Stan Hu is MVP, a GitLab hat-trick (three times MVP in the same major release!).
 Thanks Stan, we're happy to see you score more great features!
 
 <!--more-->
@@ -25,11 +28,11 @@ Thanks Stan, we're happy to see you score more great features!
 ## Customizable Project Dashboard
 
 We've gotten a lot of requests to make the README the default page of
-projects in GitLab. At the same time, many of our contributors hated
+projects in GitLab. At the same time, many of our contributors didn't like
 this idea. They just wanted to see what is happening, not the same README.
 
 We kept redesigning it, looking for a great middle ground.
-We gave up. The choice is yours now.
+This time, we made it look good and are giving you the choice of what to see.
 
 Want to see the README first? You can!
 
@@ -94,8 +97,8 @@ any repository that can be found at [Docker Hub](https://registry.hub.docker.com
 A Service is just another image that is run and linked to your build.
 This image can run any application, but the most common use case is to
 run a database container such as PostgreSQL.
-This means that with every build, instead of having to install PostgreSQL,
-you can simply reuse your existing Services image, making your build less
+So instead of having to install PostgreSQl with every build, you can simply
+reuse your existing Services image, making your build less
 complex and much faster.
 
 For more information about the image and Docker Hub please read the [Docker Fundamentals](https://docs.docker.com/introduction/understanding-docker/).
@@ -168,6 +171,16 @@ This is a breaking change coming from GitLab CI 7.12. If some of your builds
 stop running after you upgrade to 7.13, make sure that your runners have tags
 and builds assigned.
 
+## Better Omnibus Documentation
+
+We spend a lot of time writing documentation. Some projects that started small,
+like [Omnibus-GitLab](https://gitlab.com/gitlab-org/omnibus-gitlab), end up
+becoming major projects with very large documentation. In this specific case,
+it could use some restructuring and indexing.
+
+All [Omnibus package documentation](http://doc.gitlab.com/omnibus) can now be
+found on our documentation site, [doc.GitLab.com](http://doc.gitlab.com/).
+
 ## Other changes
 
 This release has more improvements, including security fixes, please check out [the CE Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG), [the EE Changelog](https://gitlab.com/gitlab-org/gitlab-ee/blob/master/CHANGELOG-EE) or [the CI Changelog](https://gitlab.com/gitlab-org/gitlab-ci/blob/master/CHANGELOG) to see the all named changes.
@@ -185,7 +198,7 @@ Coming from 7.12 the database migrations in GitLab and GitLab CI will be fast bu
  (provided by your users) in the SQL database
 - this encryption needs a secret key. gitlab ci will generate a key for you
  when you install 7.13, it is called 'db_key_base' and can be found in
-  /etc/gitlab/gitlab-secrets.json (omnibus) or config/secrets.yml
+  /etc/gitlab/gitlab-secrets.json (Omnibus packages) or config/secrets.yml
    (installations from source)
 - if you lose this secret key during a backup restore or a server migration,
  your users will lose their 'secure variables'
@@ -217,6 +230,8 @@ this will need to change to
 ```ruby
 gitlab_rails['db_host'] = '/var/opt/gitlab/postgresql'
 ```
+
+If you didn't change the db_host setting the migration will be completely automatic.
 - - -
 
 ## Installation
