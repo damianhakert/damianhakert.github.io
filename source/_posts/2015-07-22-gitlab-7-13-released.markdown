@@ -44,12 +44,24 @@ projects or all projects on the home page.
 
 ![]()
 
+
 ## Comment on Side-by-Side diffs
 
 You can now place comments on side-by-side diffs.
 
 ![]()
 
+## Improved Merge Request Approvals (GitLab EE)
+
+With GitLab 7.12, we introduce Merge Request Approvals, allowing you to
+set a number of required approvals before a Merge Request can be merged.
+
+This month, we're expanding the Approvals with the ability to set the
+specific people that will have to approve a merge request. We've made it
+flexible enough that you can have any combination of specific approvers and
+unspecific approvers (Mindy and any one else, for instance).
+
+![]()
 
 ## Docker support for GitLab CI
 
