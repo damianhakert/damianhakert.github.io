@@ -103,7 +103,8 @@ complex and much faster.
 
 For more information about the image and Docker Hub please read the [Docker Fundamentals](https://docs.docker.com/introduction/understanding-docker/).
 
-You can read more information in [Docker integration](http://doc.gitlab.com/ci/builds_configuration/docker.html).
+Read more about this at [Using Docker Images](http://doc.gitlab.com/ci/docker/using_docker_images.html).
+See [Using Docker Build](http://doc.gitlab.com/ci/docker/using_docker_build.html) for more information on Docker features.
 
 ## allow_failure option for jobs (GitLab CI)
 
@@ -156,7 +157,7 @@ automatically.
 This is the first step towards flexible and powerful build pipelines in
 GitLab CI with support for multiple stages.
 
-TODO: add link to documentation
+You can read more information about this feature in [the .gitlab-ci.yml documentation](http://doc.gitlab.com/ci/yaml/README.html).
 
 ## Runners without Tags (GitLab CI)
 
