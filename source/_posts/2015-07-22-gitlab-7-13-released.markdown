@@ -150,7 +150,7 @@ rspec:
 
 The script above, for instance, will execute all jobs with the type `build` first, followed by `test` and lastly `deploy`.
 The next builds are executed only if all previous succeeds.
-And, to speed-up building, all jobs for one type will be run in parallel
+And, to speed-up building, all jobs for one type will run in parallel
 automatically.
 
 This is the first step towards flexible and powerful build pipelines in
@@ -183,7 +183,7 @@ found on our documentation site, [doc.GitLab.com](http://doc.gitlab.com/).
 
 ## Other changes
 
-This release has more improvements, including security fixes, please check out [the CE Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG), [the EE Changelog](https://gitlab.com/gitlab-org/gitlab-ee/blob/master/CHANGELOG-EE) or [the CI Changelog](https://gitlab.com/gitlab-org/gitlab-ci/blob/master/CHANGELOG) to see the all named changes.
+This release has more improvements, including security fixes. Please check out [the CE Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG), [the EE Changelog](https://gitlab.com/gitlab-org/gitlab-ee/blob/master/CHANGELOG-EE) or [the CI Changelog](https://gitlab.com/gitlab-org/gitlab-ci/blob/master/CHANGELOG) to see the all named changes.
 
 
 ## Upgrade barometer
