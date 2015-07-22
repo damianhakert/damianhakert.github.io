@@ -44,3 +44,8 @@ Steps to process an invoice to pay a consultant/vendor:
 1. Accounting will ping payroll that commission calculation is complete.
 
 1. Payroll will enter commission into TriNet.
+
+## Expense Reimbursement
+
+* Submit a copy of the receipt to purchasing@gitlab.com. Expenses will be repaid in the next scheduled payroll.
+    Note- Expensify process will be coming soon. Please stay tuned for detailed directions.
