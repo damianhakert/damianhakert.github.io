@@ -82,7 +82,7 @@ Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_
 
 ### Other changes
 
-This release has more improvements, including security fixes, please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
+This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
 
 ### Upgrade barometer
