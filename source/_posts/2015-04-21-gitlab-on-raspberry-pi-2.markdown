@@ -59,8 +59,5 @@ or build them on ARM servers (hard to find).
 If you are using GitLab on your Raspberry Pi 2, it works exactly the same way as it does
 regularly. You can use GitLab's official user documentation as a guide.
 
-If you define git hooks like "post-receive" in GitLab CE, it would trigger project and
-system webhooks.
-
 Raspberry Pi 2 does not have enough resources to run both GitLab and CI at the same time.
 It would be very slow.
