@@ -118,13 +118,12 @@ ul {
 }
 
 .wordmark {
-  background-image: url(/images/press/wordmark/wordmark.png);
-  background-position-y: 6px;
+  background-image: url(https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm.png);
 }
 
-.wordmark {
-  background-image: url(/images/press/logo/wm.png);
-  background-position-y: -4px;
+.wordmark-no-bg {
+  background-image: url(https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm_no_bg.png);
+  background-position-y: 8px;
 }
 
 .image {
