@@ -1,21 +1,78 @@
 /* Search Bar */
 
 .search-bar {
-
   width: 25%;
+  display: inline-block;
+}
 
+.gsc-input-box {
+  border-radius: 3px;
+}
 
-  /* Search button----ignore these, they aren't changing anything :( */
-  .input.gsc-search-button-v2 {
-    height: 25px;
-    padding: 6px 27px;
-    min-width: 13px;
-    margin-top: 2px;
-  }
+input.gsc-input {
+}
 
-  .gcsc-branding {
-      display: none;
-  }
+input.gsc-search-button.gsc-search-button-v2 {
+  border-radius: 3px;
+}
+
+input.gsc-search-button-v2 {
+  height: 25px !important;
+  margin-top: 2px;
+  padding: 6px 27px;
+  width: auto !important;
+}
+
+.gsib_a {
+  background: hidden !important;
+}
+
+.gcsc-branding {
+  display: none;
+}
+
+input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+  border-color: white !important;
+}
+
+td.gsc-input input
+{
+    background-image:none!important;
+    margin-top:0px!important;
+}
+
+div.gsc-tabsArea,
+table.gsc-resultsHeader,
+table.gsc-resultsHeader div,
+div.gsc-adBlockInvisible,
+div.gs-visibleUrl,
+div.gs-visibleURL-short,
+div.gs-visibleURL-long,
+div.gs-watermark,
+div.gsc-trailing-more-results
+{
+    display:none!important;
+    height:0!important;
+    background-color:Transparent!important;
+    border:none!important;
+    padding:none!important;
+    margin:none!important;
+    border-collapse:collapse!important;
+    background-image:none!important;
+}
+/*Displayed Search Results Areas*/
+div.gsc-wrapper,
+.gsc-wrapper div
+{
+    background-color:Transparent!important;
+    border:none!important;
+}
+.gs-snippet b
+{
+    font-weight:bold!important;
+}
+.gs-bidi-start-align {
+  margin-left: 7px;
 }
 
 

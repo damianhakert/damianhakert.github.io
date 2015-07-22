@@ -75,38 +75,40 @@
         <a class="navbar-brand animated" href="/">{% include wm_web.svg %}</a>
         {% endif %}
       </div>
-      <div class="search-bar">
-        <script>
-          (function() {
-            var cx = '015344474082960216333:bj31yu2wpom';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-                '//cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-          })();
-        </script>
-        <gcse:search></gcse:search>
-        <style type='text/css'>
-          .search-bar {
-            width: 25%;
-            display: inline-block;
-          }
-          .cse .gsc-search-button input.gsc-search-button-v2,
-          input.gsc-search-button-v2 {
-            height: 25px;
-            padding: 6px 27px;
-            min-width: 13px;
-            margin-top: 2px;
-          }
-          .gsib_a {
-            background: hidden;
-          }
-        </style>
-      </div>
+
       <div class="collapse navbar-collapse" id="main-gl-nav">
+        <div class="search-bar">
+          <script>
+            (function() {
+              var cx = '015344474082960216333:bj31yu2wpom';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                  '//cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+            })();
+          </script>
+          <gcse:search></gcse:search>
+          <style type='text/css'>
+            .search-bar {
+              width: 25%;
+              display: inline-block;
+            }
+            .cse .gsc-search-button input.gsc-search-button-v2,
+            input.gsc-search-button-v2 {
+              height: 25px;
+              padding: 6px 27px;
+              min-width: 13px;
+              margin-top: 2px;
+              width: 67px;
+            }
+            .gsib_a {
+              background: hidden;
+            }
+          </style>
+        </div>
         <ul class="nav pull-right animated navbar-nav">
           <li><a href="/downloads/" onClick="_gaq.push(['_trackEvent', 'Top navigation', 'Download']);">Download</a></li>
           <li><a href="/features/" onClick="_gaq.push(['_trackEvent', 'Top navigation', 'Features']);">Features</a></li>
