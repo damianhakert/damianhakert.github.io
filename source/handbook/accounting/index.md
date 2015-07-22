@@ -47,5 +47,5 @@ Steps to process an invoice to pay a consultant/vendor:
 
 ## Expense Reimbursement
 
-* Submit a copy of the receipt to purchasing@gitlab.com. Expenses will be repaid in the next scheduled payroll.
+* Submit a copy of the receipt to purchasing@gitlab.com. US team members will be reimbursed via their next payroll. BV team members will have the funds wired to their bank account.
     Note- Expensify process will be coming soon. Please stay tuned for detailed directions.
