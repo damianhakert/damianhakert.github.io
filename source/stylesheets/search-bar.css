@@ -71,7 +71,7 @@ div.gsc-trailing-more-results
 {
     display:none!important;
     height:0!important;
-    background-color:Transparent!important;
+    background-color: transparent!important;
     border:none!important;
     padding:none!important;
     margin:none!important;
@@ -83,7 +83,7 @@ div.gsc-trailing-more-results
 div.gsc-wrapper,
 .gsc-wrapper div
 {
-    background-color:Transparent!important;
+    background-color: transparent!important;
     border:none!important;
 }
 .gs-snippet b
