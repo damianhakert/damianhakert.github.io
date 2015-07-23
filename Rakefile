@@ -417,6 +417,7 @@ BUILD_DIR = 'public/'
 DEPLOY_LOCATION = 'deploy@blue-moon.gitlap.com:public/'
 DEPLOY_BRANCH = 'master'
 PDFS = FileList['source/terms/print/*.html'].pathmap('%{^source,public}X.pdf')
+PDFS << 'public/high-availability/gitlab-ha.pdf'
 
 task :clean do
   rm_rf BUILD_DIR
@@ -425,7 +426,16 @@ end
 desc "Build website in #{BUILD_DIR}"
 task :build => [:clean, :generate, :pdfs]
 
-rule %r{^public/terms/print/.*\.pdf} => [->(f) { f.pathmap('%X.html') }] do |pdf|
+rule %r{^public/.*\.pdf} => [->(f) { f.pathmap('%X.html') }] do |pdf|
+  # Rewrite the generated HTML a bit, fix relative image links for pandoc
+  IO.popen(%W(ed -s #{pdf.source}), 'w') do |ed|
+    ed.puts <<-'EOS'
+H
+g/\.\.\/images\//\
+s/\.\.\/images/public\/images/
+wq
+EOS
+  end
   options = %W(--template=_terms_template.tex --latex-engine=xelatex -V date=#{Time.now.to_s})
   warn "Generating #{pdf.name}"
   abort("Pandoc failed") unless system('pandoc', *options, '-o', pdf.name, pdf.source)
