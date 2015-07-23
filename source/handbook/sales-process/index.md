@@ -84,7 +84,8 @@ Everything about [lincenses and EE access](/handbook/sales-process/licenses).
 
 1. Order comes in via email from recurly and will always have an invoice # on it.
 1. Customer subscribes via Recurly (this happens automatically via the online credit card order form)
-1. Check to see if Streak Box exists (or not) by clicking on the orange box in the Gmail horizontal toolbar and searching for the company as shown on the Recurly invoice. If one already exists, then scroll to the company and click ‘Add to existing box’. If one does not exist, create a new box for the name on the invoice and click ‘Create new Box named’.1. Add customer to sales sheet (include Recurly invoice date and invoice #). Hand enter every cell.
+1. Check to see if Streak Box exists (or not) by clicking on the orange box in the Gmail horizontal toolbar and searching for the company as shown on the Recurly invoice. If one already exists, then scroll to the company and click ‘Add to existing box’. If one does not exist, create a new box for the name on the invoice and click ‘Create new Box named’.
+1. Add customer to sales sheet (include Recurly invoice date and invoice #). Hand enter every cell.
 1. Add customer to [Mailchimp GitLab Newsletter list](https://us5.admin.mailchimp.com/lists/members/add?id=107301) (Customer automatically subscribed to Mailchimp Subscribers List) Need to use login/pw which is found in LP. Need customer first and last name, company name and email when you go there.
 1. If standard subscriber: (note - you must have their gitlab.com user name to add them to the subscribers group. You must ask the customer for their user name)
     * Add to subscribers group (to add subscribers, you need access)
