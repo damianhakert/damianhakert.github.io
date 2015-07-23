@@ -21,11 +21,13 @@ It includes the following fixes for CE:
   - Fix bug causing "Remove source-branch" option not to work for merge requests from the same project.
 
 fixes for EE:
+
   - Merge community edition changes for version 7.13.1
   - Fix: "Rebase before merge" doesn't work when source branch is in the same project
 
 and CI:
-  - Fix: User could steal specific runner
+
+  - Security Fix: If user was assigned to project as non-Master he could assign specific runners from that projects in their's own.
   - Fix: Don't send notifications for jobs with allow_failure set
   - Fix invalid link to doc.gitlab.com
 
@@ -33,7 +35,7 @@ and CI:
 
 ## Upgrade barometer
 
-This release upgrade will require downtime.
+No downtime is necessary.
 
 ## Updating
 
