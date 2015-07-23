@@ -27,7 +27,7 @@ fixes for EE:
 
 and CI:
 
-  - Security Fix: If user was assigned to project as non-Master he could assign specific runners from that projects in their's own.
+  - Security Fix: If user was assigned to project as non-master he could assign specific runners from that project to their own project.
   - Fix: Don't send notifications for jobs with allow_failure set
   - Fix invalid link to doc.gitlab.com
 
