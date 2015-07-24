@@ -63,7 +63,7 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * Issue/MR description field works like google docs, real time collaboration & autosave, maybe with [ShareJS](http://sharejs.org/)
 
-* [Git large file support](http://feedback.gitlab.com/forums/176466-general/suggestions/7502608-git-large-file-storage-lfs-support)
+* Git large file support (LFS) [Feedback](http://feedback.gitlab.com/forums/176466-general/suggestions/7502608-git-large-file-storage-lfs-support) [CE](https://dev.gitlab.org/gitlab/gitlabhq/issues/2295) [EE](https://dev.gitlab.org/gitlab/gitlab-ee/issues/318)
 
 * Draw and drop issues to prioritize them
 
