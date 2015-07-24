@@ -45,10 +45,10 @@ run a certain build.
 ## Better performance for the Web Editor
 
 Every new release of GitLab is faster than the last, but in this release
-we did something special. Instead of performing code changes via the web 
-interface by cloning the bare repository to a temporary location, committing 
-there, and then pushing the changes back to the bare repository, we now commit 
-your changes directly into the bare repository. This has significantly 
+we did something special. Instead of performing code changes via the web
+interface by cloning the bare repository to a temporary location, committing
+there, and then pushing the changes back to the bare repository, we now commit
+your changes directly into the bare repository. This has significantly
 improved the performance of the web editor.
 
 ## UI Update
@@ -63,7 +63,7 @@ various parts of the UI.
 
 ## Merge Request Approvers (EE only)
 
-If you want to make sure that merge requests on your favorite project are 
+If you want to make sure that merge requests on your favorite project are
 reviewed by more than one person before they are merged, you can now configure a minimum number of Merge Request approvals for it.
 
 You simply set the amount of approvals that a merge request needs before allowing
@@ -163,7 +163,7 @@ Every job contains parameters such as `script` (shell script), `tags`
 that defines branch names allowed to run build on.
 The `only` section takes precedence over the "except".
 You can read more information about new syntax in the
-[Configuration of your builds with .gitlab-ci.yml](http://doc.gitlab.com/ci/builds_configuration/README.html)
+[Configuration of your builds with .gitlab-ci.yml](http://doc.gitlab.com/ci/yaml/README.html)
 
 The new format is inspired by the work of Travis CI and Circle CI who are already using YAML files.
 Initially we considered using the open source modules of Travis CI,
