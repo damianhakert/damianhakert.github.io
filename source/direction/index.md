@@ -90,15 +90,13 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 ## CI
 
-* [Use .gitlab-ci.yml to define jobs](https://dev.gitlab.org/gitlab/gitlab-ci/issues/221)
-
-* [Deploys jobs using travis dpl](https://gitlab.com/gitlab-org/gitlab-ci/issues/140)
+* [Zero config CI](https://dev.gitlab.org/gitlab/gitlabhq/issues/2528)
 
 * [Upload build artifacts](https://dev.gitlab.org/gitlab/gitlab-ci/issues/56)
 
 * Option to test the merge of the feature branch with master instead of the feature branch itself (you will have to retest all MR's every time master is updated)
 
-* Build pipeline / Chain builds / delivery pipeline [Feedback](http://feedback.gitlab.com/forums/176466-general/suggestions/7233770-chain-builds) and [internal issue](https://dev.gitlab.org/gitlab/gitlab-ci/issues/282)
+* Dependent builds [Feedback](http://feedback.gitlab.com/forums/176466-general/suggestions/7233770-chain-builds) and [internal issue](https://dev.gitlab.org/gitlab/gitlab-ci/issues/328)
 
 * Staging environment per branch, easy deploy (similar to [Teatro](https://teatro.io/), [Tutum](https://support.tutum.co/support/solutions/articles/5000620449-deploy-to-tutum-button) & [Heroku Review Apps](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta))
 
