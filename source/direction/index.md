@@ -112,7 +112,7 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * Configuration management: Chef, Puppet, Ansible, Salt, Docker (upload cookbooks, build containers, etc.)
 
-* Paas: CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas, Flynn (deploy apps)
+* Paas: CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, Flynn (deploy apps)
 
 * Scrum boards: [Huboard](https://huboard.com/), [Waffle.io](https://waffle.io/) and [Zenhub.io](https://www.zenhub.io/) support in addition to https://about.gitlab.com/applications/#scrum-boards
 
