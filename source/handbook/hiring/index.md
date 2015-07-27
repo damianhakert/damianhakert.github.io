@@ -47,7 +47,9 @@ title: "Hiring"
 
 ## Checklist for New Hires
 
-Create issue for new hire in organization with following checklist:
+Create issue for new hire in organization with following checklist.
+This list looks strange in this handbook but this is to ensure you can copy paste it.
+When you paste it in an issue it will have checkboxes that you can click to complete.
 
 ```
 * [ ] Signed PIAA in Dropbox
