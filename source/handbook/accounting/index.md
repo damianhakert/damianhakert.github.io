@@ -44,3 +44,13 @@ Steps to process an invoice to pay a consultant/vendor:
 1. Accounting will ping payroll that commission calculation is complete.
 
 1. Payroll will enter commission into TriNet.
+
+## Company Credit Cards
+
+1. All team members that regularly make company purchases may request a company credit card. 
+
+1. You are personally responsible to make sure that the charges on the card are for GitLab business only.
+
+1. Please file your expense report on time. 
+
+1. Those who need a company credit card will be provided with additional directions for card management and reporting.
