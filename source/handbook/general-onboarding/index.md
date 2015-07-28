@@ -123,7 +123,7 @@ Step-by-step guides on the [basics of working with Git and GitLab.](http://doc.g
 
 1. Clone a project: git clone <project URL>
 
-1. [Create a directory](/handbook/create-directory/)
+1. [Create a directory](/handbook/create-directory/index.md)
 
 ### Basic Shell Commands
 
