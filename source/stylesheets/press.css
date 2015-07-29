@@ -126,6 +126,11 @@ ul {
   background-position-y: 8px;
 }
 
+.wordmark-grayscale {
+  background-image: url(https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm_grayscale.png);
+  background-position-y: 8px;
+}
+
 .image {
 overflow: hidden;
   background-repeat: no-repeat;
