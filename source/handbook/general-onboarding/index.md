@@ -6,7 +6,7 @@ title: "GitLab Onboarding"
 
 We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https://www.google.com/docs/about/) and [dev.gitab.org](https://dev.gitlab.org) to communicate.
 
-* Check out our [about page](https://about.gitlab.com/about/), [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/) and [Life as a non technical employee at GitLab](https://about.gitlab.com/2015/06/30/life-as-a-non-technical-employee-at-gitlab/) 
+* Check out our [about page](https://about.gitlab.com/about/), [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/) and [Life as a non technical employee at GitLab](https://about.gitlab.com/2015/06/30/life-as-a-non-technical-employee-at-gitlab/)
 
 * Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
 
@@ -89,6 +89,8 @@ Add issues in the correct Issue Tracker:
 
 ## Working with Git and GitLab
 
+Step-by-step guides on the [basics of working with Git and GitLab.](http://doc.gitlab.com/ce/gitlab-basics/README.html)
+
 ### Install your SSH Key:
 
 1. Open Terminal window (command + space bar; search for Terminal)
@@ -120,6 +122,8 @@ Add issues in the correct Issue Tracker:
 1. Push branch to origin: git push origin <branch name>
 
 1. Clone a project: git clone <project URL>
+
+1. [Create a directory](/handbook/create-directory)
 
 ### Basic Shell Commands
 
