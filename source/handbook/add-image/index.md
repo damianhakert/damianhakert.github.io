@@ -3,15 +3,19 @@ layout: markdown_page
 title: "How to add an image"
 ---
 
-The following are the steps to add images to your repository in [GitLab.com](https://gitlab.com):
+The following are the steps to add images to your repository in
+[GitLab.com](https://gitlab.com):
 
 Find the image that you’d like to add.
 
-In your computer files, find the GitLab.com project to which you'd like to add the image (you'll find it as a regular file). Click on every file until you find exactly where you'd like to add the image. There, paste the image.
+In your computer files, find the GitLab.com project to which you'd like to add the image
+(you'll find it as a regular file). Click on every file until you find exactly where you'd
+like to add the image. There, paste the image.
 
 Go to your shell or Terminal, and add the following commands:
 
-* To find the correct file, add this command for every file that you'd like to open until you reach the file where you added your image:
+* To find the correct file, add this command for every file that you'd like to open until
+you reach the file where you added your image:
 ```
 cd NAME-OF-FILE-YOU'D-LIKE-TO-OPEN
 ```
@@ -58,4 +62,4 @@ git commit -m “DESCRIBE COMMIT IN A FEW WORDS”
 git push origin NAME-OF-BRANCH
 ```
 
-Your image should've been added to your repository in GitLab.com.
+Your image should've been added to your repository in [GitLab.com](https://gitlab.com).

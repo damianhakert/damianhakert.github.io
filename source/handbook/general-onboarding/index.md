@@ -125,7 +125,7 @@ Step-by-step guides on the [basics of working with Git and GitLab.](http://doc.g
 
 1. [Create a directory](/handbook/create-directory)
 
-1. [Create a directory](/handbook/add-image)
+1. [Add an image](/handbook/add-image)
 
 ### Basic Shell Commands
 
