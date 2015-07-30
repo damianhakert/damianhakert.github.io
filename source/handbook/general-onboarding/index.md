@@ -90,33 +90,42 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 Create issue for new hire in organization with following checklist.
 This list looks strange in this handbook but this is to ensure you can copy paste it into an issue.
 When you paste it in an issue it will have checkboxes that you can click to complete.
+The topics are ordered by priority in which they need to be tackled, and the main person responsible is called out at the beginning of each task.
 
 ```
-* [ ] Signed PIAA in Dropbox
-* [ ] Signed contract in Dropbox
-* [ ] Scan of photo id in Dropbox
-* [ ] Complete TriNet steps/Enroll (https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl)
-* [ ] Set up new hire training with TriNet
-* [ ] Send [People Information sheet](https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0) and instruct to return answers via email or slack
-* [ ] Create folder for new hire in Lastpass
-* [ ] Put People Information into Profiles in Lastpass
-* [ ] Create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
-* [ ] Add to Slack
-* [ ] Send an email to company address: 'Please read https://about.gitlab.com/handbook/ and the relevant onboarding pages that are linked from there and let me know if you have any questions.'
-* [ ] [Add to Lastpass](https://lastpass.com/enterprise_create.php)
-* [ ] Add to Recurly (https://app.recurly.com/login)
-* [ ] Add Webex account (if necessary)
-* [ ] Add to GitLab Dropbox
-* [ ] Add to BV and/or Inc Dropbox (where/when approrpriate)
-* [ ] [Add to Mailchimp](https://us5.admin.mailchimp.com/account/users/) (if sales or finance)
-* [ ] Add to [QuickBooks users](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/hiring/index.md) (finance only)
-* [ ] Add to Comerica (as user or viewer only if in Finance)
-* [ ] Gitlab.com account invited to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
-* [ ] Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
-* [ ] /cc the new user in the organization issue that was created for them.
-* [ ] Invite to team meeting
-* [ ] Invite to sales meeting
-* [ ] Invite to autoconnect on Beamy
+BEFORE STARTING AT GITLAB
+* [ ] Hiring manager: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
+* [ ] Hiring manager: send an email to company address 'Please read https://about.gitlab.com/handbook/ and the relevant onboarding pages that are linked from there and let me know if you have any questions.'
+* [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), and become comfortable with Git and the GitLab workflow.
+* [ ] New team member: provide signed contract, scan of photo ID, and PIAA to hiring manager.
+* [ ] Hiring manager: place signed PIAA, contract, and photo ID in Dropbox.
+WITHIN TWO DAYS OF STARTING
+* [ ] Hiring manager: direct new employees of "Inc" to follow the [New "Inc" Hire](https://about.gitlab.com/handbook/new-hire-day-one-us-employees-only/index.md) steps to submit paperwork and start payroll.
+* [ ] Hiring manager: For GitLab BV employees: (?)
+* [ ] Hiring manager: For GitLab Inc and BV contractors: (which paperwork, where?)
+* [ ] Office manager: Complete TriNet steps/Enroll (https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl)
+* [ ] Office manager: Set up new hire training with TriNet
+WITHIN FIRST WEEK OF STARTING
+* [ ] Office manager: Send [People Information sheet](https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0) and instruct to return answers via email or slack
+* [ ] Hiring manager: /cc the new user in the organization issue with this checklist that was created for them.
+* [ ] Office manager: [Add to Lastpass](https://lastpass.com/enterprise_create.php) and create folder for new hire in Lastpass
+* [ ] Office manager: Put People Information into Profiles in Lastpass
+* [ ] New team member: Login to Lastpass and set up secure passwords per the handbook.
+* [ ] Hiring manager: Add to Slack
+* [ ] Office manager: Add Webex account (if necessary)
+* [ ] Office manager: Add to GitLab Dropbox
+* [ ] Office manager: Add to BV and/or Inc Dropbox (where/when appropriate)
+* [ ] Office manager: Add to [QuickBooks users](https://about.gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/hiring/index.md) (finance only (suspect link is broken))
+* [ ] Office manager: Add to Comerica (as user or viewer only if in Finance)
+* [ ] New team member: Create GitLab.com account.
+* [ ] Hiring manager: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
+* [ ] Hiring manager: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
+* [ ] Hiring manager: Invite to team meeting
+* [ ] Office manager: Invite to autoconnect on Beamy
+FOR SALES AND FINANCE ONLY
+* [ ] Hiring manager: Add to Recurly (https://app.recurly.com/login)
+* [ ] Office manager: [Add to Mailchimp](https://us5.admin.mailchimp.com/account/users/) (if sales or finance)
+* [ ] Hiring manager: Invite to sales meeting
 ```
 
 Please update this list as more steps arise.
