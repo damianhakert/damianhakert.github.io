@@ -125,6 +125,8 @@ Step-by-step guides on the [basics of working with Git and GitLab.](http://doc.g
 
 1. [Create a directory](/handbook/create-directory)
 
+1. [Create a directory](/handbook/add-image)
+
 ### Basic Shell Commands
 
 1. ls = tells you what's inside the folder where you are
