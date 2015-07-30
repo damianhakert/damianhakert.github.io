@@ -3,6 +3,15 @@
 .search-bar {
   width: 25%;
   display: inline-block;
+  height: 53px;
+}
+
+.gsc-control-cse {
+  height: 50px;
+}
+
+.container {
+  height: 53px
 }
 
 /* Search Box */
@@ -18,12 +27,21 @@ input#gsc-i-id1.gsc-input {
   color:  #544488;
 }
 
-.gsst_a:hover .gscb_a {
-  color: #544488 !important;
+div#gsc-iw-id1.gsc-input-box {
+  background-color: #B4A9D3 !important;
 }
 
-.gsst_a .gscb_a {
-  color: #aca1cd !important;
+input#gsc-i-id1.gsc-input {
+  background-color: #B4A9D3 !important;
+}
+
+.gsib_b {
+  display: none;
+}
+
+.gsib_a {
+  background: hidden !important;
+  padding: 1px 6px 0px !important;
 }
 
 
@@ -41,9 +59,6 @@ input.gsc-search-button-v2 {
 
 
 /* Search Results */
-.gsib_a {
-  background: hidden !important;
-}
 
 .gcsc-branding {
   display: none;
