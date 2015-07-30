@@ -17,10 +17,14 @@ This short quiz is about general aspects related to GitLab. They are open questi
 
 1. In your own words, explain what a SaaS software is:
 
-1. Why does dev.gitlab.org exist and what is the difference between it and gitlab.com?
+1. Why does dev.GitLab.org exist and what is the difference between it and GitLab.com?
 
 1. What is a repository?
 
 1. What is Git?
 
 1. What is Continuous integration?
+
+1. What is the difference between a GitLab user and a GitLab customer?
+
+1. Why should we refer to 'the rest of the GitLab community' instead of 'the GitLab community'?
