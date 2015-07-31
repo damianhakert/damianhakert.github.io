@@ -3,87 +3,12 @@ layout: markdown_page
 title: "GitLab Onboarding"
 ---
 ## Onboarding Topics
-* [Do This First](#firstthings)
 * [Master Checklist for Onboarding of New Hires](#checklist)
 * [Onboarding Topics That Apply to Everyone](#everyone)
 * [Onboarding Topics for Sales and Finance](#sales-and-finance)
 * [Onboarding Topics for Developers](#developers)
 * [Getting Our New Team Members Through Onboarding](#confirm-onboarding)
-
-
-## Do This First<a name="firstthings"></a>
-Insert info here on registering on TriNet, or BV equivalent. (In process of adding more content)
-* <a href="/handbook/new-hire-day-one-us-employees-only">New Hire First Day One US Employees Only</a>
-(Likely merge the following into the separate TriNet based handbook linked to above.  
-
-### Entering New Hires into TriNet
-
-Employer enters the employee data in the HR Passport with the information below
-
-1. Under the My Staff tab- select new hire/rehire and a drop down menu will appear.
-
-1. HR enters all of the necessary information:
-
-    * Company name autopopulates
-    * SS
-    * Form of address for hire (Mr. Ms, etc.)
-    * First name
-    * Last name
-    * Middle name or initial
-    * Country
-    * Address
-    * Home phone
-    * Home email
-    * Gener
-    * Ethnicity (you must select something - guess if employee declines to state)
-    * Military status
-
-At the bottom of the screen, select next
-
-    * TriNet’s start date
-    * Reason - drop down menu with options
-    * Employment type - Full time or PT options
-    * Select reg/temp bubble 
-    * Employee Class - drop down between regular and commission
-    * Estimated annual wages (does not include anything besides base salary)
-    * Benefit class
-    * Future benefits class - 
-    * Standard Hours/week - Part time or Full time
-    * Business Title - see org chart
-    * Job Code - no need to enter anything here
-    * FLSA status- drop down options are exempt, non-exempt, computer prof-non-exempt, computer prof- exempt
-    * Supervisor - drop down menu of names 
-    * Compensation Basis
-    * Compensation Rate
-    * Departments 
-    * Work Location - drop down menu
-    * Pay Group - only one option
-    * Employee ID - not necessary
-    * Work email 
-    * Grouping A/level - not necessary
-    * Grouping B/sponsor- not necessary
-
-Select next or save (if you select save, it will hold your information)
-
-    * Vacation/PTO - drop down menu only provides one option- select this
-    * Sick- drop down menu only provides one option- select this
-    * Personal Time - leave blank
-    * Floating Holidays - leave blank
-    * Birthdate - mm/dd/yyyy
-    * Workers compensation- select unknown and it will default to our principle class code for our industry
-Window: Describe employees job duties - simple description
-
-After submission -  you will receive a prompt for final submission, select and submit.
-
-Note: if you save the information to finish at a later date, go to the Work Inbox and select New Hires Not Submitted to continue. 
-
-1. The employee receives a welcome email the night before their start date. 
-
-1. The employee is prompted to log on, complete tax withholding (W4 data), direct deposit information, section 1 of the I-9, and benefits election (if eligible). 
-
-1. The employer logs in to HR Passport and is prompted by way of work inbox item, to complete section 2 of the I-9.
-
-
+* [How To...](#how-to-onboarding)
 
 ## Master Checklist for Onboarding of New Hires <a name="checklist"></a>
 
@@ -93,22 +18,41 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 The topics are ordered by priority in which they need to be tackled, and the main person responsible is called out at the beginning of each task.
 
 ```
-BEFORE STARTING AT GITLAB
-* [ ] Hiring manager: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
+### BEFORE STARTING AT GITLAB
+* [ ] Hiring manager: Create issue for new hire in organization with relevant lines of the master checklist. (\cc new team member once they have a GitLab account)
+* [ ] HR: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
+* [ ] HR: inform Hiring manager that Google account has been created.
 * [ ] Hiring manager: send an email to company address 'Please read https://about.gitlab.com/handbook/ and the relevant onboarding pages that are linked from there and let me know if you have any questions.'
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), and become comfortable with Git and the GitLab workflow.
-* [ ] New team member: provide signed contract, scan of photo ID, and PIAA to hiring manager.
-* [ ] Hiring manager: place signed PIAA, contract, and photo ID in Dropbox.
-WITHIN TWO DAYS OF STARTING
-* [ ] Hiring manager: direct new employees of "Inc" to follow the [New "Inc" Hire](https://about.gitlab.com/handbook/new-hire-day-one-us-employees-only/index.md) steps to submit paperwork and start payroll.
-* [ ] Hiring manager: For GitLab BV employees: (?)
-* [ ] Hiring manager: For GitLab Inc and BV contractors: (which paperwork, where?)
-* [ ] Office manager: Complete TriNet steps/Enroll (https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl)
-* [ ] Office manager: Set up new hire training with TriNet
-WITHIN FIRST WEEK OF STARTING
+* [ ] New team member: provide signed contract to HR.
+* [ ] New team member: provide scan of photo ID to HR.
+* [ ] New team member: provide signed PIAA to HR. 
+* [ ] HR: file signed PIAA, contract, and photo ID in Dropbox and confirm receipt.
+
+### WITHIN TWO DAYS OF STARTING
+
+#### For GitLab Inc employees only
+* [ ] HR: complete and submit an online Add New Hire Form (TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the welcome email to the employee at their work email on their first date of hire.
+* [ ] New employee: complete New Hire TriNet Passport 7 Steps Guide (need a link). The I-9 portion of this must be completed with the first two days of hire. Note- this is critical so you must contact HR@gitlab.com if you have difficulty with this form.
+* [ ] New employee: submit a completed New Employee Personal Information Form (need a link) to HR@gitlab.com 
+* [ ] HR: send a welcome letter which includes a link to the TriNet Employee Handbook  (need link) and a reminder link to the GitLab Handbook 'https://about.gitlab.com/handbook'.
+* [ ] New employee: read through the New Hire Benefits Guidebook (need link). This will go over medical, dental, vision and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
+* [ ] HR: Set up new hire training with TriNet
+
+#### For GitLab BV employees only
+* [ ] Hiring manager: For GitLab BV employees: (Loonbureau; need to add more content)
+
+#### For GitLab contractors (Inc and/or BV)
+* [ ] Hiring manager: For GitLab Inc and BV contractors: (?)
+
+#### For All New Team Members
+* [ ] HR: Add new employee to [payroll](https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl).
+* [ ] Operations: reach out to the new team member to identify and order any necessary supplies/equipment
+
+### WITHIN FIRST WEEK OF STARTING
 * [ ] Office manager: Send [People Information sheet](https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0) and instruct to return answers via email or slack
 * [ ] Hiring manager: /cc the new user in the organization issue with this checklist that was created for them.
-* [ ] Office manager: [Add to Lastpass](https://lastpass.com/enterprise_create.php) and create folder for new hire in Lastpass
+* [ ] HR: [Add to Lastpass](https://lastpass.com/enterprise_create.php) and create folder for new hire in Lastpass
 * [ ] Office manager: Put People Information into Profiles in Lastpass
 * [ ] New team member: Login to Lastpass and set up secure passwords per the handbook.
 * [ ] Hiring manager: Add to Slack
@@ -122,7 +66,8 @@ WITHIN FIRST WEEK OF STARTING
 * [ ] Hiring manager: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] Hiring manager: Invite to team meeting
 * [ ] Office manager: Invite to autoconnect on Beamy
-FOR SALES AND FINANCE ONLY
+
+### FOR SALES AND FINANCE ONLY
 * [ ] Hiring manager: Add to Recurly (https://app.recurly.com/login)
 * [ ] Office manager: [Add to Mailchimp](https://us5.admin.mailchimp.com/account/users/) (if sales or finance)
 * [ ] Hiring manager: Invite to sales meeting
@@ -296,3 +241,72 @@ Have your manager grant access to the [Sales Folder](https://drive.google.com/dr
 
 ## Getting Our New Team Members Through Onboarding <a name="confirm-onboarding"></a>
 (To be created: system of checks to make sure that both the hiring manager and the employee are getting through the onboarding properly, i.e. all administrative issues taken care of, new hire up to speed on using GitLab, etc.)
+
+## How To...<a name="how-to-onboarding"></a> 
+
+### Entering New Hires into TriNet<a name="new-hires-trinet"></a>
+
+Employer enters the employee data in the HR Passport with the information below
+
+1. Under the My Staff tab- select new hire/rehire and a drop down menu will appear.
+
+1. HR enters all of the necessary information:
+
+    * Company name autopopulates
+    * SS
+    * Form of address for hire (Mr. Ms, etc.)
+    * First name
+    * Last name
+    * Middle name or initial
+    * Country
+    * Address
+    * Home phone
+    * Home email
+    * Gener
+    * Ethnicity (you must select something - guess if employee declines to state)
+    * Military status
+
+At the bottom of the screen, select next
+
+    * TriNet’s start date
+    * Reason - drop down menu with options
+    * Employment type - Full time or PT options
+    * Select reg/temp bubble 
+    * Employee Class - drop down between regular and commission
+    * Estimated annual wages (does not include anything besides base salary)
+    * Benefit class
+    * Future benefits class - 
+    * Standard Hours/week - Part time or Full time
+    * Business Title - see org chart
+    * Job Code - no need to enter anything here
+    * FLSA status- drop down options are exempt, non-exempt, computer prof-non-exempt, computer prof- exempt
+    * Supervisor - drop down menu of names 
+    * Compensation Basis
+    * Compensation Rate
+    * Departments 
+    * Work Location - drop down menu
+    * Pay Group - only one option
+    * Employee ID - not necessary
+    * Work email 
+    * Grouping A/level - not necessary
+    * Grouping B/sponsor- not necessary
+
+Select next or save (if you select save, it will hold your information)
+
+    * Vacation/PTO - drop down menu only provides one option- select this
+    * Sick- drop down menu only provides one option- select this
+    * Personal Time - leave blank
+    * Floating Holidays - leave blank
+    * Birthdate - mm/dd/yyyy
+    * Workers compensation- select unknown and it will default to our principle class code for our industry
+Window: Describe employees job duties - simple description
+
+After submission -  you will receive a prompt for final submission, select and submit.
+
+Note: if you save the information to finish at a later date, go to the Work Inbox and select New Hires Not Submitted to continue. 
+
+1. The employee receives a welcome email the night before their start date. 
+
+1. The employee is prompted to log on, complete tax withholding (W4 data), direct deposit information, section 1 of the I-9, and benefits election (if eligible). 
+
+1. The employer logs in to HR Passport and is prompted by way of work inbox item, to complete section 2 of the I-9.
