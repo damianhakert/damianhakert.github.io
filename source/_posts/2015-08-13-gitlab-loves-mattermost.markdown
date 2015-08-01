@@ -8,8 +8,8 @@ author_twitter: sytses
 image_title: '/images/unsplash/FILENAME.jpg'
 ---
 
-The Omnibus packages for GitLab 7.14 will ship with GitLab Mattermost, open source on-premises Slack alternative.
-We think GitLab Mattermost is essential to any 100% on-premises customer that needs effective collaboration.
+The Omnibus packages for GitLab 7.14 will ship with GitLab Mattermost, an open source on-premises Slack alternative.
+We think GitLab Mattermost will be a great addition for GitLab users that need all software on-premises.
 
 <!-- more -->
 
@@ -43,6 +43,6 @@ Releasing it now in alpha state will allow more eyes on the project that [report
 We hope that with GitLab 8.0 (planned for September 22, following 7.14) we can ship that GitLab Mattermost in beta state.
 
 We have not taken the decition to include an extra component in the Omnibus packages lightly.
-We think GitLab Mattermost is essential to any 100% on-premises customer that needs effective collaboration.
+We think GitLab Mattermost will be a great addition for GitLab users that need all software on-premises.
 We hope that the rest of the community is as exited about this as we are.
 Of course we realize there will also be concens and look forward to discussing these in the comments below.
