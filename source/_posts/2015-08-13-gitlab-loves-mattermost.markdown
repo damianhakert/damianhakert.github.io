@@ -17,9 +17,9 @@ Like many companies in the last year we've switched to using Slack to improve in
 We are a [remote company](https://about.gitlab.com/2014/07/03/how-gitlab-works-remotely/) and great realtime asynchronous communication is very important.
 Obivously we GitLab issues and merge requests extensively, but for some things a chat room can't be beaten.
 
-That is why GitLab used to include a socalled wall for each project you had.
-Is was a [loved feature in 2012](https://twitter.com/gitlab/status/274128115318550531), but in 2014 people [didn't use it](https://twitter.com/gitlab/status/478990520505888769).
-The code had deteriorated and we removed it when we [released GitLab 7.0](https://about.gitlab.com/2014/06/22/gitlab-7-dot-0-released/).
+That is why GitLab used to include a chat feature called the 'wall' for each project.
+The wall was a [loved feature in 2012](https://twitter.com/gitlab/status/274128115318550531), but in 2014 people [didn't use it](https://twitter.com/gitlab/status/478990520505888769).
+The code had deteriorated and we removed the wall when we [released GitLab 7.0](https://about.gitlab.com/2014/06/22/gitlab-7-dot-0-released/).
 
 GitLab the company uses a hybrid of on-premises services and SaaS services.
 But for many GitLab users SaaS is not an option.
