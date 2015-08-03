@@ -57,7 +57,8 @@ GitLab Inc employees can still handle customer interactions as normal.
 We do not intend to release any private information, so logs and other sensitive
 information will be sanitized or kept out of the public issue. Rather,
 we will include the content relevant for the issue, feature request or symptoms
-of the reported bug.
+of the reported bug. Having this content out in the open will lead to less duplication,
+better features and faster bug fixes.
 
 Sensitive issues, such as security issues with GitLab, will still be handled
 internally. We'll create tracking issues for these on the public issue trackers
