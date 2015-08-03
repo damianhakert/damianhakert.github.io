@@ -22,10 +22,10 @@ title: "Hiring"
       * Person(s) to make final decision to make offer.
       * Person(s) actually making the offer, including terms of offer.
       * Person(s) to handle communications with applicants along the way.
-1. Define hiring timeline.
+1. Define a hiring timeline.
     * Choose from specific deadlines (e.g. all applicants will be reviewed on date X, hear back by date Y), or
-    * Choose rolling application process, wherein the review and interview process  happen as applications come in.
-    * More typical: some combination of both. E.g. wait for X amount of time to gather enough applications, then review in bulk, set up first interviews, and repeat this process until a suitable applicant is found.
+    * Choose rolling application process, wherein the review and interview process  happen as applications come in, or
+    * Some combination of the above. So for example, wait for X amount of time to gather enough applications, then review in bulk, set up first interviews, and repeat this process until a suitable applicant is found.
 1. Publish the job description.
     * This is done on the GitLab jobs site, but only after the CEO (or person authorized by CEO) has signed off on the description, hiring team, and timeline.
 1. Optional: advertise the job description.
@@ -35,10 +35,14 @@ title: "Hiring"
     * Hiring team to determine which questions need to be asked, and by whom in the team.
     * Homework assignments may be required for some positions.
 1. Communication with Applicants
-    * Applicants should receive confirmation of their application, thanking them for submitting their information. This may be an automated message.
-    * If information is missing and the applicant seems sufficiently promising (or not enough information to be able to make that determination), the appropriate person from the hiring team should follow up requesting additional information.
-    * Interviews should be set up in accordance with the defined hiring timeline; and applicants should be notified of this process as much as possible.
-    * At time of interview, applicant should be told what the timeline is for a decision, and what the next steps are (if any).
+    * Upon receiving the application and reviewing it for the first time:
+      * Applicants should receive confirmation of their application, thanking them for submitting their information. This may be an automated message.
+      * If information is missing and the applicant seems sufficiently promising (or not enough information to be able to make that determination), the appropriate person from the hiring team should follow up requesting additional information.
+    * Timing
+      * Interviews should be set up in accordance with the hiring timeline that was defined previously; and applicants should be notified of this process as much as possible.
+      * At time of interview, applicant should be told what the timeline is for a decision, and what the next steps are (if any). An example message would be "We are reviewing applications through the end of next week, and will let you know by the end of two weeks from today whether you've been selected for the next round or not. Please feel free to ping us if you haven't heard anything from us by then."
+    * Feedback
+      * Currently, the CEO needs to review feedback to candidates who have not been selected.
 1. Make a decision, make an offer.
     * The CEO needs to authorize offers.
     * Sign up successful applicant and move to onboarding.
@@ -147,4 +151,3 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. The employee is prompted to log on, complete tax withholding (W4 data), direct deposit information, section 1 of the I-9, and benefits election (if eligible).
 
 1. The employer logs in to HR Passport and is prompted by way of work inbox item, to complete section 2 of the I-9.
-
