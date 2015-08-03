@@ -2,7 +2,74 @@
 layout: markdown_page
 title: "GitLab Onboarding"
 ---
-## General
+## Onboarding Topics
+* [Master Checklist for Onboarding of New Hires](#checklist)
+* [Onboarding Topics That Apply to Everyone](#everyone)
+
+## Master Checklist for Onboarding of New Hires <a name="checklist"></a>
+
+Create issue for new hire in organization with following checklist.
+This list looks strange in this handbook but this is to ensure you can copy paste it into an issue.
+When you paste it in an issue it will have checkboxes that you can click to complete.
+The topics are ordered by priority in which they need to be tackled, and the main person responsible is called out at the beginning of each task.
+
+```
+### BEFORE STARTING AT GITLAB
+* [ ] Hiring manager: Create issue for new hire in organization with relevant lines of the master checklist. (\cc new team member once they have a GitLab account)
+* [ ] HR: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
+* [ ] HR: inform Hiring manager that Google account has been created.
+* [ ] Hiring manager: send an email to company address 'Please read https://about.gitlab.com/handbook/ and the relevant onboarding pages that are linked from there and let me know if you have any questions.'
+* [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), and become comfortable with Git and the GitLab workflow.
+* [ ] New team member: provide signed contract to HR.
+* [ ] New team member: provide scan of photo ID to HR.
+* [ ] New team member: provide signed PIAA (proprietary information and assignment agreement) to HR. 
+* [ ] HR: file signed PIAA, contract, and photo ID in Dropbox and confirm receipt.
+
+### WITHIN TWO DAYS OF STARTING
+
+#### For GitLab Inc employees only
+* [ ] HR: complete and submit an online Add New Hire Form (TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the welcome email to the employee at their work email on their first date of hire.
+* [ ] New employee: complete New Hire TriNet Passport 7 Steps Guide (need a link). The I-9 portion of this must be completed with the first two days of hire. Note- this is critical so you must contact HR@gitlab.com if you have difficulty with this form.
+* [ ] New employee: submit a completed New Employee Personal Information Form (need a link) to HR@gitlab.com 
+* [ ] HR: send a welcome letter which includes a link to the TriNet Employee Handbook  (need link) and a reminder link to the GitLab Handbook 'https://about.gitlab.com/handbook'.
+* [ ] New employee: read through the New Hire Benefits Guidebook (need link). This will go over medical, dental, vision and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
+* [ ] HR: Set up new hire training with TriNet.
+
+#### For GitLab BV employees only
+* [ ] New employee: provide HR with your BSN (burger service nummer) as well as the usual information (name, address, date of birth).
+
+#### For All New Team Members
+* [ ] HR: Add new employees (Inc and/or BV) to [payroll](https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl).
+* [ ] Operations: reach out to the new team member to identify and order any necessary supplies/equipment
+
+### WITHIN FIRST WEEK OF STARTING
+* [ ] New team member: Create GitLab.com account.
+* [ ] Hiring manager: /cc the new user in the organization issue with this checklist that was created for them.
+* [ ] Hiring manager: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
+* [ ] Hiring manager: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
+* [ ] Hiring manager: Invite to team meeting
+* [ ] Hiring manager: Add to Slack
+* [ ] HR: Send [People Information sheet](https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0) and instruct to return answers via email or slack
+* [ ] HR: [Add to Lastpass](https://lastpass.com/enterprise_create.php) and create folder for new hire in Lastpass
+* [ ] HR: Put People Information into Profiles in Lastpass
+* [ ] New team member: Login to Lastpass and set up secure passwords per the handbook.
+* [ ] Office manager: Add Webex account (if necessary)
+* [ ] Office manager: Add to GitLab Dropbox
+* [ ] Office manager: Add to BV and/or Inc Dropbox (where/when appropriate)
+* [ ] Office manager: Invite to autoconnect on Beamy
+
+### FOR SALES AND FINANCE ONLY
+* [ ] Office manager: Add to Comerica (as user or viewer only if in Finance)
+* [ ] Office manager: Add to [QuickBooks users](https://about.gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/hiring/index.md) (finance only (suspect link is broken))
+* [ ] Office manager: [Add to Mailchimp](https://us5.admin.mailchimp.com/account/users/) (if sales or finance)
+* [ ] Hiring manager: Add to Recurly (https://app.recurly.com/login)
+* [ ] Hiring manager: Invite to sales meeting
+```
+
+Please update this list as more steps arise.
+
+
+## General<a name="everyone"></a>
 
 We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https://www.google.com/docs/about/) and [dev.gitab.org](https://dev.gitlab.org) to communicate.
 
