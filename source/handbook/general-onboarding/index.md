@@ -53,14 +53,14 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] HR: [Add to Lastpass](https://lastpass.com/enterprise_create.php) and create folder for new hire in Lastpass
 * [ ] HR: Put People Information into Profiles in Lastpass
 * [ ] New team member: Login to Lastpass and set up secure passwords per the handbook.
-* [ ] Office manager: Add Webex account (if necessary)
+* [ ] Business Office manager: Add Webex account (if necessary)
 * [ ] Office manager: Add to GitLab Dropbox
 * [ ] Office manager: Add to BV and/or Inc Dropbox (where/when appropriate)
-* [ ] Office manager: Invite to autoconnect on Beamy
+* [ ] Business Office manager: Invite to autoconnect on Beamy
 
 ### FOR SALES AND FINANCE ONLY
-* [ ] Office manager: Add to Comerica (as user or viewer only if in Finance)
-* [ ] Office manager: Add to [QuickBooks users](https://about.gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/hiring/index.md) (finance only (suspect link is broken))
+* [ ] Finance: Add to Comerica (as user or viewer only if in Finance)
+* [ ] Finance: Add to [QuickBooks users](https://about.gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/hiring/index.md) (finance only (suspect link is broken))
 * [ ] Office manager: [Add to Mailchimp](https://us5.admin.mailchimp.com/account/users/) (if sales or finance)
 * [ ] Hiring manager: Add to Recurly (https://app.recurly.com/login)
 * [ ] Hiring manager: Invite to sales meeting
