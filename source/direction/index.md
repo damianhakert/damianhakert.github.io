@@ -104,11 +104,13 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * Show code coverage in diffs with colored horizontal bar
 
+* [Static hosting (Pages/Sites)](https://dev.gitlab.org/gitlab/gitlabhq/issues/2290)
+
+* A/B testing of branches
+
 ## Other software in the Omnibus packages
 
 * Chat: [Mattermost](http://www.mattermost.org/) and not [Rocket.Chat](http://rocket.chat/), [Kandan](https://github.com/kandanapp/kandan) or [Let's Chat](https://sdelements.github.io/lets-chat/).
-
-* [Pages and A/B testing of branches](https://dev.gitlab.org/gitlab/gitlabhq/issues/2290)
 
 * Consider shipping a Scrum board with Omnibus
 
