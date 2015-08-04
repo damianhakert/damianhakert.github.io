@@ -116,4 +116,6 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * Scrum boards: [Huboard](https://huboard.com/), [Waffle.io](https://waffle.io/) and [Zenhub.io](https://www.zenhub.io/) support in addition to https://about.gitlab.com/applications/#scrum-boards
 
-* Chat: Integrate with [Kandan](https://github.com/kandanapp/kandan), [Mattermost](http://www.mattermost.org/), [Rocket.Chat](http://rocket.chat/), [Let's Chat](https://sdelements.github.io/lets-chat/) when they support being an OAuth client
+## Other Omnibus packages
+
+* Chat: Add [Mattermost](http://www.mattermost.org/) instead of [Kandan](https://github.com/kandanapp/kandan), [Rocket.Chat](http://rocket.chat/) or [Let's Chat](https://sdelements.github.io/lets-chat/).
