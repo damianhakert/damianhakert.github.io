@@ -134,7 +134,7 @@ You should be invited to a few shared folders.
 If you're missing an appropriate folder ask the CEO to create a new shared folder.
 Refer to the items with 'NAME OF SITE' in 'LASTPASS FOLDER'.
 Do not use the share function in Lastpass itself, use shared folders and email others to altert them if needed.
-No not store credentials in a shared folder if everyone has their own user account for the service.
+Do not store credentials in a shared folder if everyone has their own user account for the service.
 </p>
 </li>
 <li>Do not let your password manager store the <b>master password</b> (it is ok to store the login).</li>
