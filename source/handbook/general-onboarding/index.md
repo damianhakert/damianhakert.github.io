@@ -67,6 +67,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 
 * [ ] Finance: Add to Comerica (as user or viewer only if in Finance)
 * [ ] Finance: Add to [QuickBooks users](https://about.gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/hiring/index.md) (finance only (suspect link is broken))
+* [ ] Finance: Order company credit card (for all sales team members who are employees)
 * [ ] Office manager: [Add to Mailchimp](https://us5.admin.mailchimp.com/account/users/) (if sales or finance)
 * [ ] Hiring manager: Add to Recurly (https://app.recurly.com/login)
 * [ ] Hiring manager: Invite to sales meeting
