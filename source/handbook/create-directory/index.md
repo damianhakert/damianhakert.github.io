@@ -46,12 +46,11 @@ nano README.md
 - ADD YOUR INFORMATION
 
 #### Note:
-If you created an index.md, remember to add the following information at the top of your file (README.md doesn't require this information):
-
----
+If you created an index.md, remember to add the following information at the top of your file. You should also add 3 dashes at the top and 3 dashes at the bottom of these 2 lines:
+```
 layout: markdown_page
 title: "ADD YOUR DOCUMENT'S TITLE"
----
+```
 
 - Press: control + X
 - Type: Y
