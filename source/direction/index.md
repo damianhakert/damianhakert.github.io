@@ -100,11 +100,17 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * Staging environment per branch, easy deploy (similar to [Teatro](https://teatro.io/), [Tutum](https://support.tutum.co/support/solutions/articles/5000620449-deploy-to-tutum-button) & [Heroku Review Apps](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta))
 
-* [Pages and A/B testing of branches](https://dev.gitlab.org/gitlab/gitlabhq/issues/2290)
-
 * Automatically give code quality metrics in the merge request
 
 * Show code coverage in diffs with colored horizontal bar
+
+## Other software in the Omnibus packages
+
+* Chat: [Mattermost](http://www.mattermost.org/) and not [Rocket.Chat](http://rocket.chat/), [Kandan](https://github.com/kandanapp/kandan) or [Let's Chat](https://sdelements.github.io/lets-chat/).
+
+* [Pages and A/B testing of branches](https://dev.gitlab.org/gitlab/gitlabhq/issues/2290)
+
+* Consider shipping a Scrum board with Omnibus
 
 ## We would love to partner with
 
@@ -115,7 +121,3 @@ Most links point to a private server of GitLab company and can't be accessed pub
 * Paas: CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, Flynn (deploy apps)
 
 * Scrum boards: [Huboard](https://huboard.com/), [Waffle.io](https://waffle.io/) and [Zenhub.io](https://www.zenhub.io/) support in addition to https://about.gitlab.com/applications/#scrum-boards
-
-## Other Omnibus packages
-
-* Chat: Add [Mattermost](http://www.mattermost.org/) instead of [Kandan](https://github.com/kandanapp/kandan), [Rocket.Chat](http://rocket.chat/) or [Let's Chat](https://sdelements.github.io/lets-chat/).
