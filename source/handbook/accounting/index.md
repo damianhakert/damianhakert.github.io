@@ -112,3 +112,5 @@ Steps to process an invoice to pay a consultant/vendor:
 1. Please file your expense report on time. 
 
 1. Those who need a company credit card will be provided with additional directions for card management and reporting.
+
+1. If you request a company credit card for yourself or a direct report, please make sure that you are added to Expensify for monthly reporting by sending an email to finance@gitlab.com
