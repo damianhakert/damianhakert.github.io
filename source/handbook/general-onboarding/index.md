@@ -15,6 +15,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 
 ```
 ### BEFORE STARTING AT GITLAB
+
 * [ ] Hiring manager: Create issue for new hire in organization with relevant lines of the master checklist. (\cc new team member once they have a GitLab account)
 * [ ] HR: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
 * [ ] HR: inform Hiring manager that Google account has been created.
@@ -28,6 +29,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 ### WITHIN TWO DAYS OF STARTING
 
 #### For GitLab Inc employees only
+
 * [ ] HR: complete and submit an online Add New Hire Form (TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the welcome email to the employee at their work email on their first date of hire.
 * [ ] New employee: complete New Hire TriNet Passport 7 Steps Guide (need a link). The I-9 portion of this must be completed with the first two days of hire. Note- this is critical so you must contact HR@gitlab.com if you have difficulty with this form.
 * [ ] New employee: submit a completed New Employee Personal Information Form (need a link) to HR@gitlab.com
@@ -36,13 +38,16 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] HR: Set up new hire training with TriNet.
 
 #### For GitLab BV employees only
+
 * [ ] New employee: provide HR with your BSN (burger service nummer) as well as the usual information (name, address, date of birth).
 
 #### For All New Team Members
+
 * [ ] HR: Add new employees (Inc and/or BV) to [payroll](https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl).
 * [ ] Operations: reach out to the new team member to identify and order any necessary supplies/equipment
 
 ### WITHIN FIRST WEEK OF STARTING
+
 * [ ] New team member: Create GitLab.com account.
 * [ ] Hiring manager: /cc the new user in the organization issue with this checklist that was created for them.
 * [ ] Hiring manager: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
@@ -59,6 +64,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] Business Office manager: Invite to autoconnect on Beamy
 
 ### FOR SALES AND FINANCE ONLY
+
 * [ ] Finance: Add to Comerica (as user or viewer only if in Finance)
 * [ ] Finance: Add to [QuickBooks users](https://about.gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/hiring/index.md) (finance only (suspect link is broken))
 * [ ] Office manager: [Add to Mailchimp](https://us5.admin.mailchimp.com/account/users/) (if sales or finance)
