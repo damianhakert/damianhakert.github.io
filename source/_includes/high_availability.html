@@ -97,9 +97,6 @@
             Filestore HA can be achieved either through multiple <a href="http://en.wikipedia.org/wiki/Clustered_file_system">clustered file systems</a>, such as    <a href="http://en.wikipedia.org/wiki/GFS2">GFS2</a>, <a href="http://en.wikipedia.org/wiki/VMware_VMFS">VMFS</a> and <a href="http://ceph.com/">Ceph</a>. Alternatively you can use a horizontally scaling appliance, for example a scale-out NAS from    <a href="http://www-03.ibm.com/systems/storage/network/sonas/">IBM</a> or <a href="http://www.emc.com/storage/isilon/isilon.htm">EMC Isilon</a>. For the DBMS there are also multiple options: Oracle’s <a href="http://www.mysql.com/products/cluster/">MySQL Cluster</a> and    <a href="http://wiki.postgresql.org/wiki/Replication,_Clustering,_and_Connection_Pooling">PostgreSQL's clustering solutions</a>.
         </p>
         <p>
-            In the future GitLab might start using <a href="https://github.com/libgit2/libgit2-backends">libgit2-backends</a> to store the Git repositories in the database. In this case one clustered database can store all the state of the GitLab application. This would make a clustered system easier to set up. Unfortunately libgit2 and its ruby bindings <a href="https://github.com/libgit2/rugged">Rugged</a> do not contain all the functionality GitLab needs yet.
-        </p>
-        <p>
             While clustered or master/master configuration support is not part of the GitLab roadmap yet, there is good news. <b>Different company HA needs can lead to alternative solutions that are simpler and cheaper.</b> For example:
             </p><ul>
             <li>If you need write HA and fast recovery, any of the previous HA setups can be used.</li>
