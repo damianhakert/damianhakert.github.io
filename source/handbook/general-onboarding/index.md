@@ -7,6 +7,7 @@ title: "GitLab Onboarding"
 * [Onboarding Topics That Apply to Everyone](#everyone)
   * [General](#general)
   * [Set yourself up securely](#security)
+* [Git Quiz!](#quiz)
 
 ## Master Checklist for Onboarding of New Hires <a name="checklist"></a>
 
@@ -148,85 +149,5 @@ Do not store credentials in a shared folder if everyone has their own user accou
 <li>Do not click on links in emails you did not request yourself (requested password reset is OK, anything else is suspect), we use <a href="https://cuttlephish.com/">CuttleFish</a> to test our behaviour on this. Clicking itself is a problem even when you don't enter a password, because a visit can already be used to execute a zero day.</li>
 </ol>
 
-
-## Working with Git and GitLab
-
-Step-by-step guides on the [basics of working with Git and GitLab.](http://doc.gitlab.com/ce/gitlab-basics/README.html)
-
-### Install your SSH Key:
-
-1. Open Terminal window (command + space bar; search for Terminal)
-
-1. Type: cat ~/.ssh/id_rsa.pub
-
-1. Copy SSH Key and paste into [dev.gitlab.org](https://dev.gitlab.org) and [gitlab.com](https://gitlab.com) profile
-
-1. Click on avatar
-
-1. Edit profile settings
-
-1. Click on SSH Key (the key icon)
-
-### Install Git
-
-1. Check Git version type:  git --version
-
-1. If Git is not installed, you will get prompted to install
-
-### Basic Git commands
-
-1. Create new branch: git checkout -b test_changes
-
-1. Show what has changed: git status
-
-1. Commit change with message: git commit -am “text"
-
-1. Push branch to origin: git push origin <branch name>
-
-1. Clone a project: git clone <project URL>
-
-1. [Create a directory](/handbook/create-directory)
-
-### Basic Shell Commands
-
-1. ls = tells you what's inside the folder where you are
-
-1. cd = change directory
-
-1. pwd  = tell where you are
-
-1. Command T = open new terminal window
-
-1. Write and quit = :wq
-
-### Install Ruby Manager and Ruby to create a blog post
-
-* Install Ruby Manager
-
-1. Go to: [https://rvm.io/](https://rvm.io)
-
-1. Type: \curl -sSL https: //get.rvm.io | bash -s stable
-
-1. Close Terminal
-
-1. Open new Terminal to load new environment
-
-* Install Ruby
-
-1. Type into Terminal: rvm install 2.2.1
-
-1. Prompt to enter password for your machine
-
-1. ruby --version
-
-1. bundle install
-
-1. gem install bundler
-
-### Preview website changes locally
-
-1. Type: bundle exec rake preview
-
-1. Type: http: //localhost:4000
-
-To edit an HTML you need to install [text editor](http://www.sublimetext.com/2)
+## Quiz<a name=#quiz></a>
+Employees should answer GitLab quiz questions in the first 2 weeks of working in the company. If the answers are not accurate, you may retest once: <a href="/handbook/questions">GitLab Quiz.</a> Please schedule a call with your hiring manager.</li>
