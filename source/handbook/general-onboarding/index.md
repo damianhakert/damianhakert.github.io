@@ -22,7 +22,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), and become comfortable with Git and the GitLab workflow.
 * [ ] New team member: provide signed contract to HR.
 * [ ] New team member: provide scan of photo ID to HR.
-* [ ] New team member: provide signed PIAA (proprietary information and assignment agreement) to HR. 
+* [ ] New team member: provide signed PIAA (proprietary information and assignment agreement) to HR.
 * [ ] HR: file signed PIAA, contract, and photo ID in Dropbox and confirm receipt.
 
 ### WITHIN TWO DAYS OF STARTING
@@ -30,7 +30,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 #### For GitLab Inc employees only
 * [ ] HR: complete and submit an online Add New Hire Form (TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the welcome email to the employee at their work email on their first date of hire.
 * [ ] New employee: complete New Hire TriNet Passport 7 Steps Guide (need a link). The I-9 portion of this must be completed with the first two days of hire. Note- this is critical so you must contact HR@gitlab.com if you have difficulty with this form.
-* [ ] New employee: submit a completed New Employee Personal Information Form (need a link) to HR@gitlab.com 
+* [ ] New employee: submit a completed New Employee Personal Information Form (need a link) to HR@gitlab.com
 * [ ] HR: send a welcome letter which includes a link to the TriNet Employee Handbook  (need link) and a reminder link to the GitLab Handbook 'https://about.gitlab.com/handbook'.
 * [ ] New employee: read through the New Hire Benefits Guidebook (need link). This will go over medical, dental, vision and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
 * [ ] HR: Set up new hire training with TriNet.
@@ -73,23 +73,31 @@ Please update this list as more steps arise.
 
 We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https://www.google.com/docs/about/) and [dev.gitab.org](https://dev.gitlab.org) to communicate.
 
-* Check out our [about page](https://about.gitlab.com/about/), [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/) and [Life as a non technical employee at GitLab](https://about.gitlab.com/2015/06/30/life-as-a-non-technical-employee-at-gitlab/)
+Check out our [about page](https://about.gitlab.com/about/), [Simple words for a GitLab
+newbie](https://about.gitlab.com/2015/05/18/simple-words-for-a-gitlab-newbie/), [How we
+use GitLab to build
+GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/) and [Life
+as a non technical employee at
+GitLab](https://about.gitlab.com/2015/06/30/life-as-a-non-technical-employee-at-gitlab/).
 
-* Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
+Follow the Git and GitLab course on
+[Platzi](https://courses.platzi.com/courses/git-gitlab/).
 
-* Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
+Become familiar with how GitLab works by learning our [GitLab
+Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html).
 
-* Add yourself to our [Email, Phone and Emergency Contact Sheet](https://docs.google.com/spreadsheets/d/1kMPW_eGEOz9HOIHbD8uPCzDWljsDHovS4H5XY8Q12wo/edit#gid=0)
+Add yourself to our [Email, Phone and Emergency Contact
+Sheet](https://docs.google.com/spreadsheets/d/1kMPW_eGEOz9HOIHbD8uPCzDWljsDHovS4H5XY8Q12o/edit#gid=0).
 
-* Read our [Team Handbook](https://about.gitlab.com/handbook/)
+Read our [Team Handbook](https://about.gitlab.com/handbook/).
 
-* Add yourself to our [Employee Phone List](https://docs.google.com/spreadsheets/d/1kMPW_eGEOz9HOIHbD8uPCzDWljsDHovS4H5XY8Q12wo/edit#gid=0)
+Add yourself to our [Employee Phone List](https://docs.google.com/spreadsheets/d/1kMPW_eGEOz9HOIHbD8uPCzDWljsDHovS4H5XY8Q12wo/edit#gid=0)
 
-* Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/)
+Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/)
 
-* Link your GitLab email address to a photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar or stock photo).
+Link your GitLab email address to a photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar or stock photo).
 
-* Have your manager provide access to our [Internal GitLab Server](https://dev.gitlab.org) and familiarize yourself with:
+Have your manager provide access to our [Internal GitLab Server](https://dev.gitlab.org) and familiarize yourself with:
 
 1. The Dashboard
 
@@ -97,7 +105,7 @@ We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https:
 
 1. The Issue Tracker
 
-* Become familiar with the README.md’s for these projects:
+Become familiar with the README.md’s for these projects:
 
 1. [GitLab Enterprise Edition](https://dev.gitlab.org/gitlab/gitlab-ee)
 
@@ -105,11 +113,17 @@ We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https:
 
 1. [GitLab www-gitlab-com](https://dev.gitlab.org/gitlab/www-gitlab-com)
 
-* Create an account on our external / public [GitLab Server](https://gitlab.com) and have your manager grant access to the GitLab Enterprise Edition Project, Standard Subscribers Group and other projects / groups relevant to your role
+Create an account on our external / public [GitLab Server](https://gitlab.com) and have
+your manager grant access to the GitLab Enterprise Edition Project, Standard Subscribers
+Group and other projects / groups relevant to your role.
 
-* Review our [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) for daily call
+Dev.gitlab.com is a different platform for GitLab development. The idea is for our developers and team to work there with things that are sensitive because customers or security issues are involved. Please ask your manager to grant you access.
 
-* Become familiar with [GitLab's Website](https://about.gitlab.com) and the following links:
+You can customize your GitLab site in "profile settings".
+
+Review our [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) for daily call
+
+Become familiar with [GitLab's Website](https://about.gitlab.com) and the following links:
 
 1. [Documentation](https://about.gitlab.com/documentation/)
 
@@ -119,7 +133,7 @@ We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https:
 
 1. [About Us](https://about.gitlab.com/about/)
 
-* Connect with GitLab's social media sites:
+Connect with GitLab's social media sites:
 
 1. [LinkedIn](https://www.linkedin.com/company/gitlab-com)
 
@@ -129,11 +143,10 @@ We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https:
 
 1. [YouTube](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg)
 
-* Add yourself to the team page. Here's [how to add a team member to the team page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md).
+Add yourself to the team page. Here's [how to add a team member to the team page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md).
 
-* Learn how to use our Internal Issue Trackers:
-
-We use GitLab Issues to raise awareness, discuss and propose solutions for various issues related to any aspect of our business.
+We use GitLab Issues to raise awareness, discuss and propose solutions for various issues
+related to any aspect of our business. Learn how to use our Internal Issue Trackers.
 
 The most common Issues are created in the following projects:
 
@@ -141,8 +154,8 @@ The most common Issues are created in the following projects:
 
 1. [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq) - customer requests
 
-1. [GitLab www-gitlab-com](https://dev.gitlab.org/gitlab/www-gitlab-com) - Issues related to our website
-
+1. [GitLab www-gitlab-com](https://dev.gitlab.org/gitlab/www-gitlab-com) - Issues related
+to our website
 
 Add issues in the correct Issue Tracker:
 
