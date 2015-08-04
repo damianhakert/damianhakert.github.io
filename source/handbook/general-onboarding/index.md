@@ -5,6 +5,8 @@ title: "GitLab Onboarding"
 ## Onboarding Topics
 * [Master Checklist for Onboarding of New Hires](#checklist)
 * [Onboarding Topics That Apply to Everyone](#everyone)
+  * [General](#general)
+  * [Set yourself up securely](#security)
 
 ## Master Checklist for Onboarding of New Hires <a name="checklist"></a>
 
@@ -15,7 +17,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 
 ```
 ### BEFORE STARTING AT GITLAB
-* [ ] Hiring manager: Create issue for new hire in organization with relevant lines of the master checklist. (\cc new team member once they have a GitLab account)
+* [ ] Hiring manager: Create issue for new hire in organization with relevant lines of the master checklist. (cc new team member once they have a GitLab account)
 * [ ] HR: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
 * [ ] HR: inform Hiring manager that Google account has been created.
 * [ ] Hiring manager: send an email to company address 'Please read https://about.gitlab.com/handbook/ and the relevant onboarding pages that are linked from there and let me know if you have any questions.'
@@ -68,91 +70,84 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 
 Please update this list as more steps arise.
 
+## Onboarding topics that apply to everyone<a name="everyone"></a>
+### General<a name="general"></a>
 
-## General<a name="everyone"></a>
-
-We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https://www.google.com/docs/about/) and [dev.gitab.org](https://dev.gitlab.org) to communicate.
-
+* We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https://www.google.com/docs/about/) and [dev.gitab.org](https://dev.gitlab.org) to communicate.
 * Check out our [about page](https://about.gitlab.com/about/), [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/) and [Life as a non technical employee at GitLab](https://about.gitlab.com/2015/06/30/life-as-a-non-technical-employee-at-gitlab/)
-
 * Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
-
 * Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
-
 * Add yourself to our [Email, Phone and Emergency Contact Sheet](https://docs.google.com/spreadsheets/d/1kMPW_eGEOz9HOIHbD8uPCzDWljsDHovS4H5XY8Q12wo/edit#gid=0)
-
 * Read our [Team Handbook](https://about.gitlab.com/handbook/)
-
 * Add yourself to our [Employee Phone List](https://docs.google.com/spreadsheets/d/1kMPW_eGEOz9HOIHbD8uPCzDWljsDHovS4H5XY8Q12wo/edit#gid=0)
-
 * Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/)
-
 * Link your GitLab email address to a photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar or stock photo).
-
 * Have your manager provide access to our [Internal GitLab Server](https://dev.gitlab.org) and familiarize yourself with:
-
-1. The Dashboard
-
-1. The Projects
-
-1. The Issue Tracker
-
+  1. The Dashboard
+  1. The Projects
+  1. The Issue Tracker
 * Become familiar with the README.md’s for these projects:
-
-1. [GitLab Enterprise Edition](https://dev.gitlab.org/gitlab/gitlab-ee)
-
-1. [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq)
-
-1. [GitLab www-gitlab-com](https://dev.gitlab.org/gitlab/www-gitlab-com)
-
+  1. [GitLab Enterprise Edition](https://dev.gitlab.org/gitlab/gitlab-ee)
+  1. [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq)
+  1. [GitLab www-gitlab-com](https://dev.gitlab.org/gitlab/www-gitlab-com)
 * Create an account on our external / public [GitLab Server](https://gitlab.com) and have your manager grant access to the GitLab Enterprise Edition Project, Standard Subscribers Group and other projects / groups relevant to your role
-
 * Review our [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) for daily call
-
 * Become familiar with [GitLab's Website](https://about.gitlab.com) and the following links:
-
-1. [Documentation](https://about.gitlab.com/documentation/)
-
-1. [EE Pricing](https://about.gitlab.com/pricing/)
-
-1. [Blog](https://about.gitlab.com/blog/)
-
-1. [About Us](https://about.gitlab.com/about/)
-
+  1. [Documentation](https://about.gitlab.com/documentation/)
+  1. [EE Pricing](https://about.gitlab.com/pricing/)
+  1. [Blog](https://about.gitlab.com/blog/)
+  1. [About Us](https://about.gitlab.com/about/)
 * Connect with GitLab's social media sites:
-
-1. [LinkedIn](https://www.linkedin.com/company/gitlab-com)
-
-1. [Twitter](https://twitter.com/gitlab)
-
-1. [Facebook](https://www.facebook.com/gitlab)
-
-1. [YouTube](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg)
-
+  1. [LinkedIn](https://www.linkedin.com/company/gitlab-com)
+  1. [Twitter](https://twitter.com/gitlab)
+  1. [Facebook](https://www.facebook.com/gitlab)
+  1. [YouTube](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg)
 * Add yourself to the team page. Here's [how to add a team member to the team page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md).
-
 * Learn how to use our Internal Issue Trackers:
-
 We use GitLab Issues to raise awareness, discuss and propose solutions for various issues related to any aspect of our business.
-
 The most common Issues are created in the following projects:
+  1. [GitLab Enterprise Edition](https://dev.gitlab.org/gitlab/gitlab-ee) - Issues related to GitLab Enterprise Edition
+  1. [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq) - customer requests
+  1. [GitLab www-gitlab-com](https://dev.gitlab.org/gitlab/www-gitlab-com) - Issues related to our website
+* Add issues in the correct Issue Tracker:
+  1. Public issues related to GitLab website: use [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com)
+  1. Internal issues related to documentation and gitlab.com usage: Use [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq)
+  1. Internal issues related to the organization: Use [GitLab Organization](https://dev.gitlab.org/gitlab/organization)
+  1. Internal issues relate to Enterprise Edition: Use [GitLab EE](https://dev.gitlab.org/gitlab/gitlab-ee)
 
-1. [GitLab Enterprise Edition](https://dev.gitlab.org/gitlab/gitlab-ee) - Issues related to GitLab Enterprise Edition
+### Set Yourself Up Securely<a name="security"></a>
+<ol>
+ <li><b>Never reuse</b> a password you use on a company account (not for another GitLab service or for a personal account).</li>
+<li>Set up <a href="https://lastpass.com/">LastPass</a> as your password manager.</li>
+<li>Use Lastpass to <a href="https://helpdesk.lastpass.com/generating-a-password/">generate <b>strong passwords</b></a> for any new company accounts.</li>
+<li>
+<p>
+When signing up for a new service ask yourself which team members you need to <b>share access</b> with.
+If the service has a built-in way of creating other user accounts, use that.
+If not, then store your credentials in an appropriate shared folder on our company LastPass account so that your colleagues can sign in using your credentials.
+</p>
+<p>
+Do not share credentials via email, issue comments, chat etc.
+This includes email addresses to login and API keys.
+Use LastPass shared folders for this.
+You should be invited to a few shared folders.
+If you're missing an appropriate folder ask the CEO to create a new shared folder.
+Refer to the items with 'NAME OF SITE' in 'LASTPASS FOLDER'.
+Do not use the share function in Lastpass itself, use shared folders and email others to altert them if needed.
+No not store credentials in a shared folder if everyone has their own user account for the service.
+</p>
+</li>
+<li>Do not let your password manager store the <b>master password</b> (it is ok to store the login).</li>
+<li>Enable 2 factor authentication (2FA) with <a href="https://support.google.com/accounts/answer/1066447?hl=en">Google Authenticator</a> (not SMS) for your Lastpass account, Google, Slack and GitLab accounts.</li>
+<li><b>Encrypt</b> your home folder (easy on Ubuntu/Debian, on OS X use FileVault2 full disk encryption).</li>
+<li>Set up a screen saver with password <b>lock</b> on your notebook. The timeout can depend on how you use your laptop.</li>
+<li><b>Report</b> suspect situations to an officer of the company.</li>
+<li>If you have security <b>suggestions</b> put them on the <a href="https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit">agenda</a>.</li>
+<li>Never <b>dismiss</b> a security report as invalid. Keep asking questions until the researcher comes to the same conclusion or stops responding.</li>
+<li>Do not <b>forward</b> company emails (@gitlab.com) to a non-company email address.</li>
+<li>Do not click on links in emails you did not request yourself (requested password reset is OK, anything else is suspect), we use <a href="https://cuttlephish.com/">CuttleFish</a> to test our behaviour on this. Clicking itself is a problem even when you don't enter a password, because a visit can already be used to execute a zero day.</li>
+</ol>
 
-1. [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq) - customer requests
-
-1. [GitLab www-gitlab-com](https://dev.gitlab.org/gitlab/www-gitlab-com) - Issues related to our website
-
-
-Add issues in the correct Issue Tracker:
-
-1. Public issues related to GitLab website: use [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com)
-
-1. Internal issues related to documentation and gitlab.com usage: Use [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq)
-
-1. Internal issues related to the organization: Use [GitLab Organization](https://dev.gitlab.org/gitlab/organization)
-
-1. Internal issues relate to Enterprise Edition: Use [GitLab EE](https://dev.gitlab.org/gitlab/gitlab-ee)
 
 ## Working with Git and GitLab
 
