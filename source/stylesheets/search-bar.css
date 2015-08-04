@@ -6,13 +6,29 @@
   height: 53px;
 }
 
+/*@media (min-width: 768px) {
+  .container {
+    height: 53px;
+  }
+}*/
+
 .gsc-control-cse {
   height: 50px;
 }
 
-.container {
-  height: 53px
+/* Hide the search bar when the nav is collapsed or collapsing */
+.navbar-collapse.in .search-bar,
+.navbar-collapse.collapsing .search-bar {
+  display: none;
 }
+
+/* Fix the navbar height on large screens */
+@media (min-width: 992px) {
+  .navbar > .container {
+    height: 53px;
+  }
+}
+
 
 /* Search Box */
 .gsc-input-box {
@@ -48,6 +64,7 @@ input#gsc-i-id1.gsc-input {
 /* Search Button */
 input.gsc-search-button.gsc-search-button-v2 {
   border-radius: 3px;
+  width: 5%;
 }
 
 input.gsc-search-button-v2 {
