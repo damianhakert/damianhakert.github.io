@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "6 reasons why pre is better than post production code review"
-date: 2015-07-31
+date: 2015-08-05
 comments: true
 author: Job van der Voort
 author_twitter: Jobvo
@@ -12,25 +12,28 @@ Code review is very important. You don't want to run the risk of [technical debt
 Actually doing code review is another matter. Besides the variety of tools and tricks
 for the act of code review, the timing is vital.
 
-Quora [published a great article] on the post-commit code review that they do.
-We think there are a number of reasons for doing code review earlier.
-Here, we give you six good reasons why you should review code before it's being
-deployed / released / merged, rather than doing code review on code that is
-in use already.
+[Quora published a great article] about maintaining velocity in projects.
+The article is really great but we think that their post production code review
+is timed wrong.
 
 <!-- more -->
 
 ## Requirements for Early Review
 
-The reasons for early code review must be placed within the right context:
+The Quora article mentions two things that can go wrong if you do a pre production
+code review:
 If you do early code review it has to be fast or it'd undo some of the advantages
 and slow down your release cycle. An easy fix for this is to not wait for particular
 people, rather just have a number of required reviewers (you can do this with
 [merge request approvals] or just agree on something internally).
 
-Second, the big picture has to be visible for you and your reviewers. It's possible
+Second, the big picture has to be in scope for you and your reviewers. It's possible
 that a larger piece of code needs refactoring. If this is the case,
 do it within the merge request or schedule the refactoring as a separate issue.
+
+Here, we give you six good reasons why you should review code before it's being
+deployed / released / merged, rather than doing code review on code that is
+in use already.
 
 ## 1. It's still fresh
 
@@ -96,4 +99,4 @@ Let us know in the comments below.
 [technical debt]: https://en.wikipedia.org/wiki/Technical_debt
 [merge request approvals]: https://about.gitlab.com/2015/07/29/feature-highlight-merge-request-approvals/
 [GitLab's Merge Request Approvals]: https://about.gitlab.com/2015/07/29/feature-highlight-merge-request-approvals/
-[great article by Quora]: http://engineering.quora.com/Moving-Fast-With-High-Code-Quality?share=1
+[Quora published a great article]: http://engineering.quora.com/Moving-Fast-With-High-Code-Quality?share=1
