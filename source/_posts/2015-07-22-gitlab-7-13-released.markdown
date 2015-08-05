@@ -193,6 +193,11 @@ This release upgrade will require downtime.
 
 Coming from 7.12 the database migrations in GitLab and GitLab CI will be fast but they cannot be performed online.
 
+### Update: Ruby (MRI) 2.0.x no longer supported
+
+As of this release, we have dropped support for the 2.0.x versions of Ruby (MRI).
+We support Ruby (MRI) 2.1.x and recommend using 2.1.6.
+
 ### Important notice for GitLab CI installations
 
 GitLab CI now uses symmetric encryption to share 'secure variables'

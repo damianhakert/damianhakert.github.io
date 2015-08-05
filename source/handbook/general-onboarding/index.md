@@ -18,34 +18,38 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 
 ```
 ### BEFORE STARTING AT GITLAB
-* [ ] Hiring manager: Create issue for new hire in organization with relevant lines of the master checklist. (cc new team member once they have a GitLab account)
-* [ ] HR: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
-* [ ] HR: inform Hiring manager that Google account has been created.
+
+* [ ] Hiring manager: Create issue for new hire in organization with relevant lines of the master checklist. (\cc new team member once they have a GitLab account)
+* [ ] CEO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
+* [ ] CEO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 * [ ] Hiring manager: send an email to company address 'Please read https://about.gitlab.com/handbook/ and the relevant onboarding pages that are linked from there and let me know if you have any questions.'
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), and become comfortable with Git and the GitLab workflow.
 * [ ] New team member: provide signed contract to HR.
 * [ ] New team member: provide scan of photo ID to HR.
-* [ ] New team member: provide signed PIAA (proprietary information and assignment agreement) to HR. 
-* [ ] HR: file signed PIAA, contract, and photo ID in Dropbox and confirm receipt.
+* [ ] New team member: provide signed PIAA (proprietary information and assignment agreement) to HR.(US employees have a PIAA included in their contract)
+* [ ] HR: file signed PIAA, contract, and photo ID in Dropbox and confirm receipt by commenting in the issue.
 
 ### WITHIN TWO DAYS OF STARTING
 
 #### For GitLab Inc employees only
+
 * [ ] HR: complete and submit an online Add New Hire Form (TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the welcome email to the employee at their work email on their first date of hire.
-* [ ] New employee: complete New Hire TriNet Passport 7 Steps Guide (need a link). The I-9 portion of this must be completed with the first two days of hire. Note- this is critical so you must contact HR@gitlab.com if you have difficulty with this form.
-* [ ] New employee: submit a completed New Employee Personal Information Form (need a link) to HR@gitlab.com 
-* [ ] HR: send a welcome letter which includes a link to the TriNet Employee Handbook  (need link) and a reminder link to the GitLab Handbook 'https://about.gitlab.com/handbook'.
-* [ ] New employee: read through the New Hire Benefits Guidebook (need link). This will go over medical, dental, vision and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
-* [ ] HR: Set up new hire training with TriNet.
+* [ ] New employee: complete [New Hire TriNet Passport 7 Steps Guide](https://docs.google.com/a/gitlab.com/document/d/1CFIyByd1Kgmz5353_aASVI1D8QTyJ2Uy60ziQHEPTUI/edit?usp=sharing). The I-9 portion of this must be completed with the first two days of hire. Note- this is critical so you must contact HR@gitlab.com if you have difficulty with this form.
+* [ ] New employee: submit a completed [New Employee Personal Information Form](https://docs.google.com/a/gitlab.com/document/d/1oK_-me8inC6pyODjITxMHiq5C5NC88xQw6cwUBU5g1g/edit?usp=sharing) to HR@gitlab.com
+* [ ] New employee: read through the [New Hire Benefits Guide](https://drive.google.com/a/gitlab.com/file/d/0B0dixQ9qzgilNlN0MnNFS29xWnB2SjNWVUk3dUV2aWlhejVR/view?usp=sharing). This will go over medical, dental, vision and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
+* [ ] HR: Set up new hire training with TriNet (If necessary).
 
 #### For GitLab BV employees only
+
 * [ ] New employee: provide HR with your BSN (burger service nummer) as well as the usual information (name, address, date of birth).
 
 #### For All New Team Members
+
 * [ ] HR: Add new employees (Inc and/or BV) to [payroll](https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl).
 * [ ] Operations: reach out to the new team member to identify and order any necessary supplies/equipment
 
 ### WITHIN FIRST WEEK OF STARTING
+
 * [ ] New team member: Create GitLab.com account.
 * [ ] Hiring manager: /cc the new user in the organization issue with this checklist that was created for them.
 * [ ] Hiring manager: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
@@ -53,20 +57,26 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] Hiring manager: Invite to team meeting
 * [ ] Hiring manager: Add to Slack
 * [ ] HR: Send [People Information sheet](https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0) and instruct to return answers via email or slack
-* [ ] HR: [Add to Lastpass](https://lastpass.com/enterprise_create.php) and create folder for new hire in Lastpass
+* [ ] CEO: [Add to Lastpass](https://lastpass.com/enterprise_create.php) and create folder for new hire in Lastpass
 * [ ] HR: Put People Information into Profiles in Lastpass
-* [ ] New team member: Login to Lastpass and set up secure passwords per the handbook.
+* [ ] HR: Set up meeting with new team member on day 3 or 4 to any questions that remain. New team member should have gone through handbook and guide meeting with specific questions after having reviewed onboarding process.
+* [ ] New team member: Login to Lastpass and set up secure passwords per the handbook (insert link to security section on how to use LP).
 * [ ] Business Office manager: Add Webex account (if necessary)
-* [ ] Office manager: Add to GitLab Dropbox
-* [ ] Office manager: Add to BV and/or Inc Dropbox (where/when appropriate)
+* [ ] Business Office manager: Add to GitLab Dropbox
+* [ ] Business Office manager: Add to BV and/or Inc Dropbox (if in Finance, if in another dept ask CEO if appropriate)
 * [ ] Business Office manager: Invite to autoconnect on Beamy
 
 ### FOR SALES AND FINANCE ONLY
+
 * [ ] Finance: Add to Comerica (as user or viewer only if in Finance)
 * [ ] Finance: Add to [QuickBooks users](https://about.gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/hiring/index.md) (finance only (suspect link is broken))
-* [ ] Office manager: [Add to Mailchimp](https://us5.admin.mailchimp.com/account/users/) (if sales or finance)
+* [ ] Finance: Order company credit card (for all sales team members who are employees)
+* [ ] Sales Manager: [Add to Mailchimp](https://us5.admin.mailchimp.com/account/users/) (if sales or finance)
 * [ ] Hiring manager: Add to Recurly (https://app.recurly.com/login)
 * [ ] Hiring manager: Invite to sales meeting
+* [ ] CEO: Invite to Streak (if on Sales team)
+* [ ] CEO: Add to sales@gitlab.com (if on sales team) [Gitlab Email Forwarding](https://docs.google.com/a/gitlab.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit?usp=sharing).
+
 ```
 
 Please update this list as more steps arise.
@@ -151,3 +161,85 @@ Do not store credentials in a shared folder if everyone has their own user accou
 
 ## Quiz<a name=#quiz></a>
 Employees should answer GitLab quiz questions in the first 2 weeks of working in the company. If the answers are not accurate, you may retest once: <a href="/handbook/questions">GitLab Quiz.</a> Please schedule a call with your hiring manager.</li>
+
+## Working with Git and GitLab
+
+Step-by-step guides on the [basics of working with Git and GitLab.](http://doc.gitlab.com/ce/gitlab-basics/README.html)
+
+### Install your SSH Key:
+
+1. Open Terminal window (command + space bar; search for Terminal)
+
+1. Type: cat ~/.ssh/id_rsa.pub
+
+1. Copy SSH Key and paste into [dev.gitlab.org](https://dev.gitlab.org) and [gitlab.com](https://gitlab.com) profile
+
+1. Click on avatar
+
+1. Edit profile settings
+
+1. Click on SSH Key (the key icon)
+
+### Install Git
+
+1. Check Git version type:  git --version
+
+1. If Git is not installed, you will get prompted to install
+
+### Basic Git commands
+
+1. Create new branch: git checkout -b test_changes
+
+1. Show what has changed: git status
+
+1. Commit change with message: git commit -am “text"
+
+1. Push branch to origin: git push origin <branch name>
+
+1. Clone a project: git clone <project URL>
+
+1. [Create a directory](/handbook/create-directory)
+
+### Basic Shell Commands
+
+1. ls = tells you what's inside the folder where you are
+
+1. cd = change directory
+
+1. pwd  = tell where you are
+
+1. Command T = open new terminal window
+
+1. Write and quit = :wq
+
+### Install Ruby Manager and Ruby to create a blog post
+
+* Install Ruby Manager
+
+1. Go to: [https://rvm.io/](https://rvm.io)
+
+1. Type: \curl -sSL https: //get.rvm.io | bash -s stable
+
+1. Close Terminal
+
+1. Open new Terminal to load new environment
+
+* Install Ruby
+
+1. Type into Terminal: rvm install 2.2.1
+
+1. Prompt to enter password for your machine
+
+1. ruby --version
+
+1. bundle install
+
+1. gem install bundler
+
+### Preview website changes locally
+
+1. Type: bundle exec rake preview
+
+1. Type: http: //localhost:4000
+
+To edit an HTML you need to install [text editor](http://www.sublimetext.com/2)

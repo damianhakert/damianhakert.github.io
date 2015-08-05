@@ -11,6 +11,7 @@ platforms:
   download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
   install_commands: |
                     sudo apt-get install gitlab-ce
+  install_commands_manual: dpkg -i gitlab-ce-XXX.deb
   dependency_commands: |
                      sudo apt-get install curl openssh-server ca-certificates postfix
 - name: ubuntu1404
@@ -18,6 +19,7 @@ platforms:
   download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
   install_commands: |
                     sudo apt-get install gitlab-ce
+  install_commands_manual: dpkg -i gitlab-ce-XXX.deb
   dependency_commands: |
                     sudo apt-get install curl openssh-server ca-certificates postfix
 
@@ -26,6 +28,7 @@ platforms:
   download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
   install_commands: |
                     sudo apt-get install gitlab-ce
+  install_commands_manual: dpkg -i gitlab-ce-XXX.deb
   dependency_commands: |
                     sudo apt-get install curl openssh-server ca-certificates postfix
 - name: debian8
@@ -33,6 +36,7 @@ platforms:
   download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
   install_commands: |
                     sudo apt-get install gitlab-ce
+  install_commands_manual: dpkg -i gitlab-ce-XXX.deb
   dependency_commands: |
                     sudo apt-get install curl openssh-server ca-certificates postfix
 - name: centos6
@@ -40,6 +44,7 @@ platforms:
   download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
   install_commands: |
                     sudo yum install gitlab-ce
+  install_commands_manual: rpm -i gitlab-ce-XXX.rpm
   dependency_commands: |
                     sudo yum install curl openssh-server postfix cronie
                     sudo service postfix start
@@ -51,6 +56,7 @@ platforms:
   download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
   install_commands: |
                     sudo yum install gitlab-ce
+  install_commands_manual: rpm -i gitlab-ce-XXX.rpm
   dependency_commands: |
                     sudo yum install curl openssh-server
                     sudo systemctl enable sshd
@@ -67,6 +73,7 @@ platforms:
                     sudo curl -o /etc/apt/sources.list.d/gitlab_ce.list "https://packages.gitlab.com/install/repositories/gitlab/raspberry-pi2/config_file.list?os=debian&dist=wheezy" && sudo apt-get update
   install_commands: |
                     sudo apt-get install gitlab-ce
+  install_commands_manual: dpkg -i gitlab-ce-XXX.deb
   dependency_commands: |
                     sudo apt-get install curl openssh-server ca-certificates postfix apt-transport-https
                     curl https://packages.gitlab.com/gpg.key | apt-key add -
@@ -130,6 +137,8 @@ platforms:
               If you are not comfortable installing the repository through a
               piped script, you can find the <a href="https://packages.gitlab.com/gitlab/gitlab-ce/install">entire script here</a>.
               </p>
+              Alternatively you can <a href="https://packages.gitlab.com/gitlab/gitlab-ce">select and download the package manually</a> and install using
+              <pre>{{platform.install_commands_manual}}</pre>
             </div>
 
             <div class="tab-step">
@@ -149,7 +158,7 @@ platforms:
             </div>
             <div class="tab-step">
               <p>
-                <i class="glyphicons-circle_info green"></i> For troubleshooting and configuration options please see the <a class="green" href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md">Omnibus GitLab readme</a>
+                <i class="glyphicons-circle_info green"></i> For configuration and troubleshooting options please see the <a class="green" href="http://doc.gitlab.com/omnibus/">Omnibus GitLab documentation</a>
               </p>
             </div>
             <div class="tab-step">

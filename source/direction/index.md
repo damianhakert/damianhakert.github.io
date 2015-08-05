@@ -39,7 +39,7 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * IN PROGRESS [Oneclick email open](https://gitlab.com/gitlab-org/gitlab-ce/issues/1517)
 
-* [Complete GitHub import](https://dev.gitlab.org/gitlab/gitlabhq/issues/2248)
+* [Improve GitHub import](https://dev.gitlab.org/gitlab/gitlabhq/issues/2248)
 
 * [Automatically push changed files](https://dev.gitlab.org/gitlab/gitlabhq/issues/2265)
 
@@ -71,7 +71,7 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * [Award emoji](https://dev.gitlab.org/gitlab/gitlabhq/issues/2388) (so you can use GitLab as a feature request tracker)
 
-* Commit Status API [request](http://feedback.gitlab.com/forums/176466-general/suggestions/3923065-status-api-for-continuous-integration) [private issue](https://dev.gitlab.org/gitlab/gitlabhq/issues/2467)
+* Commit Status API [request](http://feedback.gitlab.com/forums/176466-general/suggestions/3923065-status-api-for-continuous-integration) [private issue](https://dev.gitlab.org/gitlab/gitlabhq/issues/2467) or [merge CI into CE](https://gitlab.com/gitlab-org/gitlab-ce/issues/2164)
 
 * [Handle errors before they give a 500](https://dev.gitlab.org/gitlab/gitlabhq/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=gitlab.com+errors)
 
@@ -84,9 +84,9 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * [Management dashboard](https://dev.gitlab.org/gitlab/gitlab-ee/issues/287)
 
-* Distributed file system store [blobs](http://blog.justinsb.com/blog/2013/12/14/cloudata-day-8/), large files (Git Annex or Git LFS) and uploads in [Ceph](http://ceph.com/), [XtreemFS](http://www.xtreemfs.org/) or something else. Or not blobs because [performance might suffer](https://news.ycombinator.com/item?id=9839581)?
+* Distributed file system store for large files (Git Annex or Git LFS) and uploads. Can do in in [Ceph](http://ceph.com/), [XtreemFS](http://www.xtreemfs.org/), [LizardFS](http://lizardfs.com/) or something else. Or not [blobs](http://blog.justinsb.com/blog/2013/12/14/cloudata-day-8/) because [performance might suffer](https://news.ycombinator.com/item?id=9839581) as also indicated [by a libgit2 developer](https://about.gitlab.com/handbook/general-onboarding/).
 
-* [Geographic slave servers](https://dev.gitlab.org/gitlab/gitlabhq/issues/2359) maybe plus edition only
+* [Geographic slave servers with GitLab RE](https://dev.gitlab.org/gitlab/gitlabhq/issues/2359) for plus subscriptions only
 
 ## CI
 
@@ -100,11 +100,19 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * Staging environment per branch, easy deploy (similar to [Teatro](https://teatro.io/), [Tutum](https://support.tutum.co/support/solutions/articles/5000620449-deploy-to-tutum-button) & [Heroku Review Apps](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta))
 
-* [Pages and A/B testing of branches](https://dev.gitlab.org/gitlab/gitlabhq/issues/2290)
-
 * Automatically give code quality metrics in the merge request
 
 * Show code coverage in diffs with colored horizontal bar
+
+* [Static hosting (Pages/Sites)](https://dev.gitlab.org/gitlab/gitlabhq/issues/2290)
+
+* A/B testing of branches
+
+## Other software in the Omnibus packages
+
+* Chat: [Mattermost](http://www.mattermost.org/) and not [Rocket.Chat](http://rocket.chat/), [Kandan](https://github.com/kandanapp/kandan) or [Let's Chat](https://sdelements.github.io/lets-chat/)
+
+* Consider shipping a Scrum board with Omnibus
 
 ## We would love to partner with
 
@@ -115,5 +123,3 @@ Most links point to a private server of GitLab company and can't be accessed pub
 * Paas: CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, Flynn (deploy apps)
 
 * Scrum boards: [Huboard](https://huboard.com/), [Waffle.io](https://waffle.io/) and [Zenhub.io](https://www.zenhub.io/) support in addition to https://about.gitlab.com/applications/#scrum-boards
-
-* Chat: Integrate with [Kandan](https://github.com/kandanapp/kandan), [Mattermost](http://www.mattermost.org/), [Rocket.Chat](http://rocket.chat/), [Let's Chat](https://sdelements.github.io/lets-chat/) when they support being an OAuth client
