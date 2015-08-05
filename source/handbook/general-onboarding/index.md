@@ -72,6 +72,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] Hiring manager: Add to Recurly (https://app.recurly.com/login)
 * [ ] Hiring manager: Invite to sales meeting
 * [ ] CEO: Invite to Streak (if on Sales team)
+* [ ] CEO: Add to sales@gitlab.com (if on sales team) [Gitlab Email Forwarding](https://docs.google.com/a/gitlab.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit?usp=sharing).
 
 ```
 
