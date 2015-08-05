@@ -110,7 +110,7 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 ## Other software in the Omnibus packages
 
-* Chat: [Mattermost](http://www.mattermost.org/) and not [Rocket.Chat](http://rocket.chat/), [Kandan](https://github.com/kandanapp/kandan) or [Let's Chat](https://sdelements.github.io/lets-chat/).
+* Chat: [Mattermost](http://www.mattermost.org/) and not [Rocket.Chat](http://rocket.chat/), [Kandan](https://github.com/kandanapp/kandan) or [Let's Chat](https://sdelements.github.io/lets-chat/)
 
 * Consider shipping a Scrum board with Omnibus
 
