@@ -97,13 +97,14 @@ extra_css:
                     <h3 id="communication">Communication</h3>
                         <h4 id="internal-communication">Internal Communication</h4>
                             <ol>
+                                <li>All written communication happens in English, even when sent one on one, because sometimes you need to forward an email or chat.</li>
                                 <li>Use <b>asynchronous communication</b> when possible (issues and email instead of chat), issues are preferred over email, email is preferred over Slack.</li>
                                 <li>If you have to use email please send one email per subject as multiple items in one email will cause delays (have to respond to everything) or misses (forgot one of the items).</li>
                                 <li>Always reply to emails, even when no action is needed. This lets the other person know that you received it. A thread is done when there is a single word reply, such as OK, thanks, or done.</li>
                                 <li>If you forward an email without other comments please add FYI (for your information) or FYA (for your action).</li>
-                                <li>Emails send to one person (no cc:) and  likely not include other people later on don't need a subject line (make the first line descriptive since Gmail uses that).</li>
+                                <li>Emails sent to one person (no cc:) and  likely not include other people later on don't need a subject line (make the first line descriptive since Gmail uses that).</li>
                                 <li>If you use Slack, please use a public channel whenever possible, mention the person you want to reach if it is urgent. This ensures it is easy for other people to chime in, and easy to involve other people, if needed.</li>
-                                <li>All company data should be <b>sharable</b> by default. Don't use a local text file but leave comments on an issue. Create Google docs with your company Google Apps account.</li>
+                                <li>All company data should be <b>shareable</b> by default. Don't use a local text file but leave comments on an issue. Create Google docs with your company Google Apps account.</li>
                                 <li>All our procedures and templates are stored in (mostly public) git repositories instead of Google/Word documents. This makes them easier to find and suggest changes to with the organization and shows our commitment to open collaboration outside the organization.</li>
                                 <li>Use FYI and /cc if you want to inform people but it does not require an action, use FYA (for your action) if an action of the recipient is required.</li>
                                 <li>If there are materials relevant for a calandar meeting (for example a Google Doc) please add the url to the meeting invite description.</li>
@@ -143,7 +144,7 @@ extra_css:
                                 <li>Always refer to 'the rest of the community', not 'the community' when referencing people outside the company since we're all in this together as one community.</li>
                                 <li>Always write GitLab with a capitalized G and L, even when writing GitLab.com.</li>
                                 <li>When stating monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9</li>
-                                <li>If an email needs a response but the ask at the top of it.</li>
+                                <li>If an email needs a response write the ask at the top of it.</li>
                                 <li>Our homepage is https://about.gitlab.com/ (with the about. and with https).</li>
                                 <li>If you use headers properly format them (## in markdown, 'Heading 2' in Google docs), start at the second header level because header level 1 is for titles, do not end headers with a colon.</li>
                                 <li>Read our <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc_styleguide.md">Documentation Styleguide</a> for more information when writing documentation.</li>
@@ -198,7 +199,7 @@ extra_css:
 
                     <h3 id="paid-time-off">Paid Time Off</h3>
                       <ol>
-                        <li>Don't frown on people taking time off, encourage that people take care of themselves and other.</li>
+                        <li>Don't frown on people taking time off, but rather encourage that people take care of themselves and others.</li>
                         <li>Working hours are flexible, you are invited for the team call if you are available, it is every workday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).</li>
                         <li>You don't need to take a day off to go to the gym, go grocery shopping, doing household chores, help someone, take care of a loved one, etc. If something comes up or takes longer than expected and you have urgent tasks and you're able to communicate, just ensure the rest of the team <b>knows</b> and someone can pick up any urgent tasks.</li>
                         <li>You do not need to ask for permission to take days off. You do need to ensure that not more than <b>half</b> of the people that can help with availability emergencies (24/7), regular support, sales or development are gone at any moment. You can check for this on the availability calendar, so be sure to add appointments early.</li>
@@ -228,7 +229,6 @@ extra_css:
                 <h2 id="working-with-gitlab">Working with GitLab: the software and workflow</h2>
                     <h3 id="gitlab-workflow">GitLab Workflow</h3>
                       <ol>
-                        <li>All written communication happens in English, even when sent one on one, sometimes you need to forward an email or chat.</li>
                         <li>Always <b>create</b> an issue for things you work on. If it is worth spending time on it is worth creating an issue for it since that enables other people to learn and help. You can always edit the description or close it when the problem is something different or disappears.</li>
                         <li><b>'Double check'</b> issues to prevent internal confusion and us failing to report back to the reporters. For example, open an issue with link to ZenDesk and close the issue with copy of the response. Or add 'Report: ' lines to the description with links to relevant issues and feature requests and ensure they are closed and note this with a comment. If you are not responsible for reporting back please do not close an issue, instead reassign it.</li>
                         <li>If issues are related <b>crosslink</b> them (a link from each issue to the other one). Put the links at the top of the issues' description with a short mention of the relationship (Report, etc.). If there are more than 2 issues use one issue as the central one and crosslink all issues to this one. Please, also crosslink between Zendesk and GitLab issues.</li>
@@ -259,9 +259,61 @@ extra_css:
                       </ol>
 
                     <h3 id="starting-with-git">Getting Started with Git and GitLab (to be populated)</h3>
-                    <ol>
-                      <li>Employees should answer GitLab quiz questions in the first 2 weeks of working in the company. If the answers are not accurate, you may retest once: <a href="/handbook/questions">GitLab Quiz.</a> Please schedule a call with your hiring manager.</li>
-                    </ol>
+                    <h3>Working with Git and GitLab</h3>
+                    Step-by-step guides on the [basics of working with Git and GitLab.](http://doc.gitlab.com/ce/gitlab-basics/README.html)
+                        <h4>Install your SSH Key:</h4>
+                        <ol>
+                        	<li>Open Terminal window (command + space bar; search for Terminal)</li>
+                        	<li>Type: cat ~/.ssh/id_rsa.pub</li>
+                            <li> Copy SSH Key and paste into [dev.gitlab.org](https://dev.gitlab.org) and [gitlab.com](https://gitlab.com) profile</li>
+                            <li> Click on avatar</li>
+                            <li> Edit profile settings</li>
+                            <li> Click on SSH Key (the key icon)</li>
+                        </ol>
+                        <h4>Install Git</h4>
+                        <ol>
+                            <li>Check Git version type:  git --version </li>
+                            <li>If Git is not installed, you will get prompted to install </li>
+                        </ol>
+                        <h4>Basic Git commands</h4>
+                        <ol>
+                            <li>Create new branch: git checkout -b test_changes</li>
+                            <li>Show what has changed: git status</li>
+                            <li>Commit change with message: git commit -am “text"</li>
+                            <li>Push branch to origin: git push origin <branch name></li>
+                            <li>Clone a project: git clone <project URL></li>
+                            <li>[Create a directory](/handbook/create-directory)</li>
+                        </ol>
+                        <h4>Basic Shell Commands</h4>
+                        <ol>
+                            <li> ls = tells you what's inside the folder where you are</li>
+                            <li> cd = change directory</li>
+                            <li> pwd  = tell where you are</li>
+                            <li> Command T = open new terminal window</li>
+                            <li> Write and quit = :wq</li>
+                        </ol>
+                        <h4>Install Ruby Manager and Ruby to create a blog post</h4>
+                        <h5>Install Ruby Manager</h5>
+                        <ol>
+                            <li>Go to: [https://rvm.io/](https://rvm.io)</li>
+                            <li>Type: \curl -sSL https: //get.rvm.io | bash -s stable</li>
+                            <li>Close Terminal</li>
+                            <li>Open new Terminal to load new environment</li>
+                        <h5>Install Ruby</h5>
+                        <ol>
+                            <li> Type into Terminal: rvm install 2.2.1</li>
+                            <li> Prompt to enter password for your machine</li>
+                            <li> ruby --version</li>
+                            <li> bundle install</li>
+                            <li> gem install bundler(/li>
+                        </ol>
+                        <h4>Preview website changes locally</h4>
+                        <ol>
+                            <li> Type: bundle exec rake preview</li>
+                            <li> Type: http: //localhost:4000</li>
+                        </ol>
+
+                    To edit an HTML you need to install [text editor](http://www.sublimetext.com/2)
 
 
               </div>
