@@ -125,6 +125,12 @@ Everything about [lincenses and EE access](/handbook/sales-process/licenses).
     * Or, if customer is a renewal, you can skip this step and the next which is to add them to the newsletter)
 1. Add customer to Mailchimp GitLab Newsletter list
 1. Send invoice to customer with one of the two onboarding emails or a renewal email Forward Recurly invoice to customer as safeguard against going to spam. Also reinterate to sign up on GitLab.com and send user name.
+1. PROCESS for bank transfer renewals with PO received before renewal date:
+  1. Create a one-off invoice in Recurly and send to customer:
+    1. Customer account;
+    1. Charges and credits area -> add charge;
+    1. In the description, write the exact name of the subscription plan;
+  1. Update subscription to start one year from current renewal time
 1. Add customer to sales sheet (include invoice date and nr.)
 1. If standard subscriber, add to subscribers group
 1. Generate license keys
