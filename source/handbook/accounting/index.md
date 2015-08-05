@@ -60,6 +60,26 @@ ALWAYS confirm each saved page is only 1 employee - or you will send employees o
 
 Send each employee their salary slip via email with the subject line: Salary slip
 
+### Additional Begin/End Payment (for adding payment to payroll)
+
+1. In HR Passport click Find 
+
+1. Select find by Name 
+
+1. Click on Add’l Begin/End Payment 
+
+1. Select Action Type 
+
+1. Select Begin & End date (End date is optional.  Note: The Begin date needs to be the start of a pay period,  it cannot be in the middle or end of a pay period) 
+
+1. Enter Goal Amount (if applicable) 
+
+1. Enter the Earn Type 
+
+1. Enter the amount per pay period
+
+1. Enter pay frequency
+
 
 ## Accounts payable
 
