@@ -39,7 +39,7 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * IN PROGRESS [Oneclick email open](https://gitlab.com/gitlab-org/gitlab-ce/issues/1517)
 
-* [Complete GitHub import](https://dev.gitlab.org/gitlab/gitlabhq/issues/2248)
+* [Improve GitHub import](https://dev.gitlab.org/gitlab/gitlabhq/issues/2248)
 
 * [Automatically push changed files](https://dev.gitlab.org/gitlab/gitlabhq/issues/2265)
 
