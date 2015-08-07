@@ -7,7 +7,8 @@ title: "GitLab Onboarding"
 * [Onboarding Topics That Apply to Everyone](#everyone)
   * [General](#general)
   * [Security](#security)
-* [Git Quiz!](#quiz)
+  * [Git Quiz!](#quiz)
+* [Onboarding Topics for Developers](#developers)
 
 ## Master Checklist for Onboarding of New Hires <a name="checklist"></a>
 
@@ -19,7 +20,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 ```
 ### BEFORE STARTING AT GITLAB
 
-* [ ] Hiring manager: Create issue for new hire in organization with relevant lines of the master checklist. (\cc new team member once they have a GitLab account)
+* [ ] Hiring manager: Create issue for new hire in organization with relevant lines of the master checklist. (cc new team member once they have a GitLab account)
 * [ ] CEO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
 * [ ] CEO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 * [ ] Hiring manager: send an email to company address 'Please read https://about.gitlab.com/handbook/ and the relevant onboarding pages that are linked from there and let me know if you have any questions.'
@@ -69,13 +70,29 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 ### FOR SALES AND FINANCE ONLY
 
 * [ ] Finance: Add to Comerica (as user or viewer only if in Finance)
-* [ ] Finance: Add to [QuickBooks users](https://about.gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/hiring/index.md) (finance only (suspect link is broken))
+* [ ] Finance: Add to [QuickBooks users](https://about.gitlab.com/handbook/hiring/) (finance only)
 * [ ] Finance: Order company credit card (for all sales team members who are employees)
 * [ ] Sales Manager: [Add to Mailchimp](https://us5.admin.mailchimp.com/account/users/) (if sales or finance)
-* [ ] Hiring manager: Add to Recurly (https://app.recurly.com/login)
-* [ ] Hiring manager: Invite to sales meeting
+* [ ] Hiring Manager: Add to [Recurly](https://app.recurly.com/login)
+* [ ] Hiring Manager: Add to  [Twinfield](https://login.twinfield.com/authentication/identity/login?ReturnUrl=%2fauthentication%2fissue%2fwsfed%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252flogin.twinfield.com%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252f%26wct%3d2015-04-17T21%253a56%253a53Z&wa=wsignin1.0&wtrealm=https%3a%2f%2flogin.twinfield.com&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f&wct=2015-04-17T21%3a56%3a53Z). 
+* [ ] New team member: Ask a colleague if they can do a screenshare the next time they process an order using Recurly and Twinfield.
+* [ ] Hiring Manager: Invite to sales meeting.
 * [ ] CEO: Invite to Streak (if on Sales team)
 * [ ] CEO: Add to sales@gitlab.com (if on sales team) [Gitlab Email Forwarding](https://docs.google.com/a/gitlab.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit?usp=sharing).
+* [ ] Sales Manager: Grant access to the [Sales Folder](https://drive.google.com/drive/u/0/#shared-with-me) in our Google Docs. In this folder, familiarize yourself with:
+* [ ] New team member: In the [Sales Folder](https://drive.google.com/drive/u/0/#shared-with-me), familiarize yourself with
+  1. [Our Sales Process](https://docs.google.com/document/d/1F0vXw58ctLfk9LKrh35kOSjYvdah4skGGUt46l1-4GM/edit)
+  1. [Our Sales Agenda](https://docs.google.com/document/d/1l1ecVjKAJY67Zk28CYFiepHAFzvMNu9yDUYVSQmlTmU/edit)
+  1. [The Sales Sheet](https://docs.google.com/spreadsheets/d/1755SblMccalWXSahspOrfzBwjGp4F8TkwlB8dOXCGlU/edit#gid=11) - add any targets to the Target tab
+  1. [Our Email Templates](https://docs.google.com/document/d/12X6Cvjwe_jvFi41gvXMLlq91lDgh5oSrRFdQEuEwhl8/edit#heading=h.ulpke0bgadag)
+  1. [Battlecards](https://docs.google.com/document/d/1zRIvk4CaF3FtfLfSK2iNWsG-znlh64GNeeMwrTmia_g/edit)
+  1. Our [Basic](https://docs.google.com/a/gitlab.com/document/d/19sjaBytIQeyIiyjXvFpM6QXTDdZNUTO_tQLowlIT_c4/edit), [Standard](https://docs.google.com/document/d/10Ur4nkiyr-qSdgDEVhFkLsoz5RPven8T-1eFmWY26bQ/edit) and Plus Subscription quotes
+  1. [Our Sales Communication Guide](https://docs.google.com/document/d/1IMDzTj3hZrnsA417z9Ye7WBa8yLkWxGzaLZNJ3O_nVA/edit#heading=h.3nffcmsbeqo7)
+* [ ] New team member: Setup [Streak](https://www.streak.com) with Gmail - Streak is our CRM and Pipeline management tool:
+  1. Create a custom view for the current month
+  1. Create a view for all your deals
+* [ ] New team member: familiarize yourself with the [Support and Development Process](https://about.gitlab.com/handbook/support-and-development-process)
+* [ ] New team member: familiarize yourself with [giving a GitLab demo](https://about.gitlab.com/handbook/demo/)
 
 ```
 
@@ -159,6 +176,100 @@ Do not store credentials in a shared folder if everyone has their own user accou
 <li>Do not click on links in emails you did not request yourself (requested password reset is OK, anything else is suspect), we use <a href="https://cuttlephish.com/">CuttleFish</a> to test our behaviour on this. Clicking itself is a problem even when you don't enter a password, because a visit can already be used to execute a zero day.</li>
 </ol>
 
-## Quiz<a name=#quiz></a>
+### Quiz<a name=#quiz></a>
 Employees should answer GitLab quiz questions in the first 2 weeks of working in the company. If the answers are not accurate, you may retest once: <a href="https://about.gitlab.com/handbook/questions/">GitLab Quiz.</a> Please schedule a call with your hiring manager.</li>
 
+##Onboarding Topics for Developers<a name=#developers></a>
+Awesome! You're about to become a GitLab developer!
+Make sure you've checked out our [handbook](https://about.gitlab.com/handbook) beforehand, so you get a feeling of how we work at GitLab. Below you'll find everything you need to start developing.
+If something is missing, add it (as goes with everything at GitLab)!
+
+### GitLab instances
+
+We have two GitLab instances that we use primarily:
+
+#### dev.gitlab.org
+
+This server is only accessible to people from GitLab the company.
+This is the instance we use for customers development.
+In addition, all our internal (company) issues are found here as well.
+This server is updated from master every night, so we quickly see if we broke something.
+
+Often referred to as `dev`.
+
+#### GitLab.com
+
+This is the SaaS of GitLab. Everyone can host their repository for free here and this is where the majority of open source contributions come in.
+If you can, do you development and create your merge requests here.
+
+#### Other instances
+
+Many developers set up their own private GitLab instance somewhere, for instance to test and work with LDAP or Active Directory, give demos and other reasons.
+
+### Getting started with GitLab development
+
+To start development, simply follow the instructions at the [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit).
+
+### GitLab Repositories
+
+Almost all repos are available on both GitLab.com as well as dev.
+For the most popular projects, you can also find them on GitHub.com, this makes it easier for people to contribute.
+
+#### GitLab Community Edition (CE)
+
+This is the community edition of GitLab. Most of the development happens here, then gets merged into GitLab EE once in a while. If you do something general, that doesn't restricts itself to EE, do it in GitLab CE.
+
+- [dev.gitlab.org/gitlab/gitlabhq]
+- [gitlab.com/gitlab-org/gitlab-ce]
+- [https://github.com/gitlabhq/gitlabhq](https://github.com/gitlabhq/gitlabhq)
+
+#### GitLab Enterprise Edition (EE)
+
+This is _not_ an open source project, but we made the source code available for viewing and contributions. It requires a license key to be used (since GitLab 7.11 EE).
+
+It exists in three places. The subscribers repository is deprecated and used to be
+used as a private repository for customers:
+
+- [dev.gitlab.org/gitlab/gitlab-ee] Most development in EE happens here.
+- [gitlab.com/gitlab-org/gitlab-ee] Public repo of EE.
+- [gitlab.com/subscribers/gitlab-ee] Deprecated private and no longer update repo.
+
+#### GitLab Continuous Integration (CI)
+
+GitLab CI is the CI tool that runs the tests in your repositories, does deploys and anything you program it to do. It comes bundled with every GitLab package.
+
+Available on both instances:
+
+- [https://dev.gitlab.org/gitlab/gitlab-ci](https://dev.gitlab.org/gitlab/gitlab-ci)
+- [https://gitlab.com/gitlab-org/gitlab-ci](https://gitlab.com/gitlab-org/gitlab-ci)
+- [https://github.com/gitlabhq/gitlab-ci](https://github.com/gitlabhq/gitlab-ci)
+
+#### GitLab Shell
+
+GitLab Shell handles git commands for GitLab. It's an essential part of GitLab.
+
+- [https://dev.gitlab.org/gitlab/gitlab-shell](https://dev.gitlab.org/gitlab/gitlab-shell)
+- [https://gitlab.com/gitlab-org/gitlab-shell](https://gitlab.com/gitlab-org/gitlab-shell)
+
+#### Omnibus GitLab
+
+Omnibus GitLab creates the packages for GitLab.
+
+- [https://gitlab.com/gitlab-org/omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab)
+- [https://dev.gitlab.org/gitlab/omnibus-gitlab](https://dev.gitlab.org/gitlab/omnibus-gitlab)
+- [https://github.com/gitlabhq/omnibus-gitlab](https://github.com/gitlabhq/omnibus-gitlab)
+
+### Cloud infrastructure
+
+GitLab.com runs on Amazon Web Services (AWS). Many people in GitLab also have instances on DigitalOcean. If you need a VPS for any reason, it's probably easiest to set one up at DigitalOcean. Ask another developer for access.
+
+### Operations
+
+For everything related to operations, check out the [Operations handbook](https://about.gitlab.com/handbook/operations).
+
+[handbook]: https://about.gitlab.com/handbook
+[dev.gitlab.org/gitlab/gitlabhq]: https://dev.gitlab.org/gitlab/gitlabhq
+[gitlab.com/gitlab-org/gitlab-ce]: https://gitlab.com/gitlab-org/gitlab-ce
+[dev.gitlab.org/gitlab/gitlab-ee]: https://dev.gitlab.org/gitlab/gitlab-ee
+[gitlab.com/gitlab-org/gitlab-ee]: https://gitlab.com/gitlab-org/gitlab-ee
+[gitlab.com/subscribers/gitlab-ee]: https://gitlab.com/subscribers/gitlab-ee
