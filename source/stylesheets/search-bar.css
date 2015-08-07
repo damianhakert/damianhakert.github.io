@@ -6,12 +6,6 @@
   height: 53px;
 }
 
-/*@media (min-width: 768px) {
-  .container {
-    height: 53px;
-  }
-}*/
-
 .gsc-control-cse {
   height: 50px;
 }
@@ -29,6 +23,11 @@
   }
 }
 
+@media only screen and (max-width: 991px) {
+    .search-bar {
+        display: none;
+    }
+}
 
 /* Search Box */
 .gsc-input-box {
