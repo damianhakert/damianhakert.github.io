@@ -160,7 +160,7 @@ Do not store credentials in a shared folder if everyone has their own user accou
 </ol>
 
 ## Quiz<a name=#quiz></a>
-Employees should answer GitLab quiz questions in the first 2 weeks of working in the company. If the answers are not accurate, you may retest once: <a href="/handbook/questions">GitLab Quiz.</a> Please schedule a call with your hiring manager.</li>
+Employees should answer GitLab quiz questions in the first 2 weeks of working in the company. If the answers are not accurate, you may retest once: <a href="https://about.gitlab.com/handbook/questions/">GitLab Quiz.</a> Please schedule a call with your hiring manager.</li>
 
 ## Working with Git and GitLab
 
