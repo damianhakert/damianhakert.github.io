@@ -1,4 +1,4 @@
-# How to add a team member to GitLab’s website
+# How to add a team member to GitLab’s team page
 
 
 ## Add your picture
@@ -10,7 +10,7 @@ keys](http://doc.gitlab.com/ce/gitlab-basics/create-your-ssh-keys.html) for
 GitLab.com.
 
 The first thing you should do is find the picture that you’d like to add to
-our [Team Page](https://about.gitlab.com/team/) and then follow the "[how
+our [team page](https://about.gitlab.com/team/) and then follow the "[how
 to add an image](http://doc.gitlab.com/ce/gitlab-basics/add-image.html)"
 steps.
 
@@ -30,7 +30,7 @@ steps.
 
 1. Your information should be added in HTML, after the last person on the team page. You need to copy and paste one of the following 2 examples into the correct space. Where it is in capital letters, you need to fill in your own information:
 
-#### Example 1: if you should be placed next to somebody else on the [team page](https://about.gitlab.com/team/) :
+#### Example 1: if you should be added next to somebody else on the [team page](https://about.gitlab.com/team/) :
 ```
      <div class="col-md-4 member">
         <img src="../images/team/`NAME OF YOUR PICTURE.JPG or NAME OF YOUR PICTURE.PNG`" alt="`YOUR NAME`" width="200" height="200" />
@@ -44,7 +44,7 @@ steps.
         </p>
       </div>
 ```
-#### If you need to start a new line to add yourself on the [team page](https://about.gitlab.com/team/):
+#### Example 2: if you need to start a new line to add yourself on the [team page](https://about.gitlab.com/team/):
 ```
  </div>
 
@@ -63,6 +63,6 @@ steps.
       </div>
 ```
 
-1. After you added your information, add a comment to your commit and click on “Commit Changes”.
+* After you added your information, add a comment to your commit and click on “Commit Changes”.
 
-1. Create a [Merge Request](http://doc.gitlab.com/ce/gitlab-basics/add-merge-request.html) and assign it to your manager for review.
+* Create a [Merge Request](http://doc.gitlab.com/ce/gitlab-basics/add-merge-request.html) and assign it to your manager for review.
