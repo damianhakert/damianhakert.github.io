@@ -6,7 +6,7 @@ title: "GitLab Onboarding"
 * [Master Checklist for Onboarding of New Hires](#checklist)
 * [Onboarding Topics That Apply to Everyone](#everyone)
   * [General](#general)
-  * [Set yourself up securely](#security)
+  * [Security](#security)
 * [Git Quiz!](#quiz)
 
 ## Master Checklist for Onboarding of New Hires <a name="checklist"></a>
@@ -126,7 +126,7 @@ The most common Issues are created in the following projects:
   1. Internal issues related to the organization: Use [GitLab Organization](https://dev.gitlab.org/gitlab/organization)
   1. Internal issues relate to Enterprise Edition: Use [GitLab EE](https://dev.gitlab.org/gitlab/gitlab-ee)
 
-### Set Yourself Up Securely<a name="security"></a>
+### Security<a name="security"></a>
 <ol>
  <li><b>Never reuse</b> a password you use on a company account (not for another GitLab service or for a personal account).</li>
 <li>Set up <a href="https://lastpass.com/">LastPass</a> as your password manager.</li>
