@@ -1,80 +1,36 @@
-# How to add a team member to GitLab’s website step by step
+# How to add a team member to GitLab’s website
+
 
 ## Add your picture
-Note: in some of these steps, your terminal will require you to add your gitlab.com username and password. Also, make sure that you already created your SSH keys for gitlab.com.
+Note: in some of these steps, your
+[shell](http://doc.gitlab.com/ce/gitlab-basics/start-using-git.html) will
+require you to add your gitlab.com username and password. Also, make sure
+that you've already [created your SSH
+keys](http://doc.gitlab.com/ce/gitlab-basics/create-your-ssh-keys.html) for
+GitLab.com.
 
-1. Find the picture that you’d like to add.
+The first thing you should do is find the picture that you’d like to add to
+our [Team Page](https://about.gitlab.com/team/) and then follow the "[how
+to add an image](http://doc.gitlab.com/ce/gitlab-basics/add-image.html)"
+steps.
 
-2. Go to your terminal and add a copy of the www-gitlab-com repository (you can find the HTTPS on the project in gitlab.com). Make sure that your gitlab repository is not duplicated. If it is and you're having trouble, delete all of the www-gitlab-com files in your computer and copy the repository again.
-```
-git clone `PASTE HERE THE HTTPS FROM THE WWW-GITLAB-COM REPO`
-```
-This will make a copy of the GitLab repository and it will be stored in your computer automatically.
+## Add yourself to the Team page
 
-3. On your computer, find where the repository’s folder is stored (as a regular file) and click on the following files:
-	www-gitlab-com
-	source
-	images
-	team
-	THEN, PASTE THE PICTURE THAT YOU’D LIKE TO USE
-	
-4. Go back to the terminal, and add the following commands:
-	To find the correct file
-```
-cd www-gitlab-com
-cd source
-cd images
-cd team
-```
-    Create a new branch
-```
-git checkout -b `NAME OF YOUR BRANCH`
-```
-	Check if your picture was correctly added to the “team” file
-```
-ls
-```
-	Check the status and you should see your picture’s name in red 
-```
-git status
-```
-    Add your changes to the branch
-```
-git add `NAME OF YOUR PICTURE`
-```
-	Check the status and you should see your picture’s name in green
-```		
-git status
-```
-	Go back to the main file
-```
-~/www-gitlab-com
-```
-	Add the commit
-```
-git commit -m “ADD HERE THE COMMENT FOR YOUR COMMIT”
-```
-	Send your changes to gitlab.com
-```
-git push origin NAME OF YOUR BRANCH
-git remote -v
-```
-Your picture should've been added to gitlab.com. 
+1. Log in to [GitLab.com](https://gitlab.com).
 
-## Add yourself to the team’s page
-1. In gitlab.com, go to the branch that you created in your terminal
-	click on the project www-gitlab-com
-	click on “commits” on the left side menu
-	find your branch in the dropdown menu at the top
-    click on your branch 
-    
-2. Find the file where the team’s page is located,  clicking on each of the following: www-gitlab-com/ source/ team/ index.html
+1. On the right side of your screen, click on the project "GitLab.com/ www-gitlab-com".
 
-3. When you are in “index.html”, click on “edit” on the top right side of the page
+1. On the left side of your screen, click on "Files".
 
-4. To edit, add your information in the following way:
+1. Find the dropdown menu at the top of your screen and find the branch that you previously created to add your picture (they are in alphabetical order). Click on it.
 
-#### If your description should be placed next to somebody else’s on the website's page:
+1. Find the file where the Team page is located, by clicking on each of the following files: source/ team/ index.html.
+
+1. When you are in “index.html”, click on “edit” on the top right side of your screen.
+
+1. Your information should be added in HTML, after the last person on the team page. You need to copy and paste one of the following 2 examples into the correct space. Where it is in capital letters, you need to fill in your own information:
+
+#### Example 1: if you should be placed next to somebody else on the [team page](https://about.gitlab.com/team/) :
 ```
      <div class="col-md-4 member">
         <img src="../images/team/`NAME OF YOUR PICTURE.JPG or NAME OF YOUR PICTURE.PNG`" alt="`YOUR NAME`" width="200" height="200" />
@@ -88,7 +44,7 @@ Your picture should've been added to gitlab.com.
         </p>
       </div>
 ```
-If you need to start a new line to add your description on the website's page:
+#### If you need to start a new line to add yourself on the [team page](https://about.gitlab.com/team/):
 ```
  </div>
 
@@ -107,6 +63,6 @@ If you need to start a new line to add your description on the website's page:
       </div>
 ```
 
-5. Add your commit comments and click on “Commit Changes”.
+1. After you added your information, add a comment to your commit and click on “Commit Changes”.
 
-6. Add a merge request and assign it to someone to review and approve it.
+1. Create a [Merge Request](http://doc.gitlab.com/ce/gitlab-basics/add-merge-request.html) and assign it to your manager for review.
