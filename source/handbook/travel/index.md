@@ -27,3 +27,13 @@ title: "Travel"
 1. Review your itinerary within the first 24 hours for accuracy. If any changes are necessary, notify travel@gitlab.com.
 
 1. If you have any special requirements, please note them in your original request.
+
+### Expenses While Travelling
+
+1. Always bring a credit card with you when travelling for company business.
+
+1. Hotels will expect you to have a physical credit card to present upon check-in. This credit card will be kept on file for the duration of your stay.
+
+1. If you incur any work-travel related expenses (on your personal card or a GitLab company card), please make sure to save the original receipt. 
+
+1. When your trip is complete, please file an expense report via Expensify. Expensify steps can be found in Accounting (insert link).
