@@ -75,6 +75,8 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * [Handle errors before they give a 500](https://dev.gitlab.org/gitlab/gitlabhq/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=gitlab.com+errors)
 
+* [Improve navigating to your projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/2225)
+
 ## EE
 * In PROGRESS [Multiple approvers](https://dev.gitlab.org/gitlab/gitlabhq/issues/2258)
 
