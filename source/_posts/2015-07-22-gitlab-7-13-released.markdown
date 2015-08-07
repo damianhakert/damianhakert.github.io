@@ -193,6 +193,16 @@ This release upgrade will require downtime.
 
 Coming from 7.12 the database migrations in GitLab and GitLab CI will be fast but they cannot be performed online.
 
+### Update: Custom git hooks no longer trigger for web edits
+
+Due to changes in GitLab, custom git hooks no longer trigger for
+commits made through the web UI. They do trigger as normal with pushes
+to GitLab.
+
+We're looking into a workaround for the problem and are planning to release
+a patch for 7.13 that resolves this issue. Follow [this issue on GitLab.com](https://gitlab.com/gitlab-org/gitlab-ce/issues/1974#note_1845415)
+for updates.
+
 ### Update: Ruby (MRI) 2.0.x no longer supported
 
 As of this release, we have dropped support for the 2.0.x versions of Ruby (MRI).
