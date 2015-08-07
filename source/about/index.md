@@ -43,7 +43,7 @@ So together with Valery, he started to build GitLab as a solution for this.
 ### _2012: GitLab.com_
 
 Sytse began a SaaS of GitLab, which until then was only an open source project
-that could be ran on your own servers. GitLab offered free and paid hosting
+that could be ran on your own servers. GitLab.com offered free and paid hosting
 of git projects to anyone.
 
 In November 2012, Dmitriy also made the [first version of GitLab CI].
