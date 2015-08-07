@@ -3,20 +3,20 @@ layout: markdown_page
 title: About Us
 ---
 
-## GitLab B.V.
+## GitLab Inc.
 
-GitLab B.V is the company behind the [GitLab open-source project](https://gitlab.com/gitlab-org/gitlab-ce/)
+GitLab Inc. is the company behind the [GitLab open-source project](https://gitlab.com/gitlab-org/gitlab-ce/)
 which is hosted on [GitLab.com](https://gitlab.com) (our free hosted service).
 GitLab is a Rails application providing Git repository management with fine grained
 access controls, code reviews, issue tracking, activity feeds, wikis and continuous integration.
-GitLab B.V has 4 offerings, 3 of which are free:
+GitLab Inc. has 4 offerings, 3 of which are free:
 
 1. [GitLab.com](https://about.gitlab.com/gitlab-com/) - free SaaS for public and private repositories, support can be purchased
 1. [GitLab Community Edition (CE)](https://about.gitlab.com/features/#community) - free, self hosted application, support from [Community](https://about.gitlab.com/getting-help/)
 1. [GitLab Enterprise Edition (EE)](https://about.gitlab.com/pricing/) - paid, self hosted application, comes with additional features and support
-1. [GitLab Continuous Integration (CI)](https://about.gitlab.com/gitlab-ci/) - free, self hosted application that integrates with GitLab CE/EE. Also availble as SaaS at [ci.gitlab.com](https://ci.gitlab.com)
+1. [GitLab Continuous Integration (CI)](https://about.gitlab.com/gitlab-ci/) - free, self hosted application that integrates with GitLab CE/EE. Also available as SaaS at [ci.gitlab.com](https://ci.gitlab.com)
 
-GitLab B.V also offers:
+GitLab Inc. also offers:
 
 1. [Git and GitLab Training](https://about.gitlab.com/training/)
 1. [Consulting](https://about.gitlab.com/consultancy/)
@@ -24,11 +24,11 @@ GitLab B.V also offers:
 
 [ReleaseTEAM](http://www.releaseteam.com) is a reseller partner of GitLab in the US.
 
-GitLab B.V. supports organizations and individuals using GitLab.
+GitLab Inc. supports organizations and individuals using GitLab.
 To do this we offer services around GitLab such as subscriptions, consulting, development and training.
 
 Above all, GitLab is a community project, over 800 people worldwide have [contributed to GitLab]!
-GitLab B.V. is an active participant in this community, trying to serve its needs and lead by example.
+GitLab Inc. is an active participant in this community, trying to serve its needs and lead by example.
 
 
 ## A brief history of GitLab
@@ -57,7 +57,7 @@ In the same year, we introduced [GitLab Enterprise Edition].
 
 ### _2014: GitLab Incorporated_
 
-In 2014 GitLab was officially incorporated in the Netherlands as GitLab B.V..
+In 2014 GitLab was officially incorporated in the Netherlands as GitLab Inc..
 
 GitLab released a new version every month in 2014, just as every year before it.
 The first release of the year at January 22nd: GitLab 6.5. At the end of 2014, December 2014, GitLab
@@ -65,7 +65,7 @@ The first release of the year at January 22nd: GitLab 6.5. At the end of 2014, D
 
 ### _2015: Y Combinator_
 
-In the very start of 2015, almost the entire GitLab B.V. team flew over to Silicon
+In the very start of 2015, almost the entire GitLab Inc. team flew over to Silicon
 Valley to [participate in Y Combinator].
 
 At this point, over 800 people worldwide have [contributed to GitLab] and more
@@ -97,9 +97,9 @@ If you would like to give money please <a href="http://railsgirlssummerofcode.or
 
 ## Location
 GitLab is a community project with people participating from all over the world.
-GitLab B.V. has people on three continents to serve our customers better.
+GitLab Inc. has people in three continents to serve our customers better.
 Most of our customers are in the United States and we have a fully owned subsidiary GitLab Inc. there.
-Most of our team is distrubuted, we're proud to be [working remote](https://about.gitlab.com/2015/04/08/the-remote-manifesto/) using GitLab issues to coordinate.
+Most of our team is distrubuted, we're proud to be [working remotely](https://about.gitlab.com/2015/04/08/the-remote-manifesto/) using GitLab issues to coordinate.
 
 [This commit]: https://gitlab.com/gitlab-org/gitlab-ce/commit/0f43e98ef8c2da8908b1107f75b67cda2572c2c4
 [first version of GitLab CI]: https://gitlab.com/gitlab-org/gitlab-ci/commit/52cd500ee64a4a82b9ff6752ee85028cd419fcbe
