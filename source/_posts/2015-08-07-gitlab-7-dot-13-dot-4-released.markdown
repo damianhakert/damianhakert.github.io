@@ -9,7 +9,7 @@ author_twitter: gitlab
 
 We've released GitLab 7.13.4 for GitLab CE and CI.
 
-It includes the ability to send abuse reports by users (CE) and fix broken yaml error saving(CI).
+It includes the ability to send abuse reports by users (CE) and a fix broken yaml error saving (CI).
 
 
 <!-- more -->
