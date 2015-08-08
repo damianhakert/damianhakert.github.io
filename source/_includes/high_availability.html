@@ -83,26 +83,19 @@
         <p>
             In this situation you can also opt to synchronize the database via a database specific protocol instead of DRBD, in the documentation for each database you can find out more about the <a href="http://dev.mysql.com/doc/mysql-ha-scalability/en/ha-overview.html">options for MySQL</a> and the <a href="http://www.postgresql.org/docs/9.2/static/high-availability.html">options PostgreSQL</a>.
         </p>
-        <h4>6. Clustered/master-master filestore and DBMS</h4>
+        <h4>6. GitLab RE (unreleased)</h4>
         <p>
-            Clustered solutions are also known as distributed solutions. For the purpose of GitLab a master/master solution falls in the same category. Clustered solutions are harder to setup and maintain than master-slave solutions. But they can offer more resilience to failures and allow you to grow beyond the capacity of a single filestore or dbms server.
-        </p>
-        <p>
-            Clustered solutions are available in two modes, synchronous and asynchronous. A synchronous clustered configuration needs to propagate each change to every server, a time-consuming process. This is a fundamental drawback of synchronous solutions, it is only practical when the servers are geographically close. Otherwise the system becomes very slow to the end user.
-        </p>
-        <p>
-            The speed of the process can be improved on condition that communication happens asynchronously. But in this case there can be incompatible changes on both servers, for example two accounts with the same username can be created. GitLab is not designed to resolve these situations and asynchronous communication is unfortunately not an option for GitLab.
-        </p>
-        <p>
-            Filestore HA can be achieved either through multiple <a href="http://en.wikipedia.org/wiki/Clustered_file_system">clustered file systems</a>, such as    <a href="http://en.wikipedia.org/wiki/GFS2">GFS2</a>, <a href="http://en.wikipedia.org/wiki/VMware_VMFS">VMFS</a> and <a href="http://ceph.com/">Ceph</a>. Alternatively you can use a horizontally scaling appliance, for example a scale-out NAS from    <a href="http://www-03.ibm.com/systems/storage/network/sonas/">IBM</a> or <a href="http://www.emc.com/storage/isilon/isilon.htm">EMC Isilon</a>. For the DBMS there are also multiple options: Oracle’s <a href="http://www.mysql.com/products/cluster/">MySQL Cluster</a> and    <a href="http://wiki.postgresql.org/wiki/Replication,_Clustering,_and_Connection_Pooling">PostgreSQL's clustering solutions</a>.
-        </p>
-        <p>
-            While clustered or master/master configuration support is not part of the GitLab roadmap yet, there is good news. <b>Different company HA needs can lead to alternative solutions that are simpler and cheaper.</b> For example:
-            </p><ul>
-            <li>If you need write HA and fast recovery, any of the previous HA setups can be used.</li>
-            <li>If you need to locally clone large repo’s, then there is a third-party mirroring solution available for GitLab,            <a href="https://github.com/sag47/gitlab-mirrors">gitlab-mirrors</a></li>
-            <li>If you just need to be able to push to multiple GitLab servers in different locations, you should consider using git remotes.</li>
-            <li>If what you need is a fast user experience for people working from different continents, using local git clients (command line, Tower, etc) can help.</li>
+            We're in the planning stage of making GitLab RE for a geographically distributed GitLab.
+            This will consist of a master server that runs GitLab EE.
+            You can add slave servers with GitLab RE where you can only read git repo's.
+            This is for example useful when you have a large number of people or CI tools cloning repo's and your wide area network (WAN) doesn't have the capacity or availability for this.
+            This product is not available yet.
+            It will likely require a plus subscription to use.
+            Please contact our sales people for more information.
+            For now please consider the following workarounds:
+            <ul>
+              <li>If you just need to be able to push to multiple GitLab servers in different locations, you should consider using git remotes.</li>
+              <li>Use the community made <a href="https://github.com/samrocketman/gitlab-mirrors">GitLab mirror</a> to mirror repo's.</li>
             </ul>
         <p></p>
         <h4>Please get in touch</h4>
