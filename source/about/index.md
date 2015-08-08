@@ -98,9 +98,9 @@ If you would like to give money please <a href="http://railsgirlssummerofcode.or
 ## Location
 GitLab is a community project with people participating from all over the world.
 GitLab Inc. has people in three continents to serve our customers better.
-Most of our customers are in the United States and we have a fully owned subsidiary GitLab Inc. there.
+Most of our customers are in the United States.
 
-Most of our team is distributed. We're proud to be [working remotely](https://about.gitlab.com/2014/07/03/how-gitlab-works-remotely/), using GitLab Issues to coordinate. We have a [Remote Manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/), our team members have shared their [experiences](https://about.gitlab.com/2015/06/17/highlights-to-my-first-remote-job/) in our blog and we are now part of [Remote.co](https://remote.co/company/gitlab/).
+Most of our team is distributed. We're proud to be [working remotely](https://about.gitlab.com/2014/07/03/how-gitlab-works-remotely/), using GitLab Issues to coordinate. We have a [Remote Manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/), our team members have shared their [experiences](https://about.gitlab.com/2015/06/17/highlights-to-my-first-remote-job/) in our blog and did a Q&A for [Remote.co](https://remote.co/company/gitlab/).
 
 
 [This commit]: https://gitlab.com/gitlab-org/gitlab-ce/commit/0f43e98ef8c2da8908b1107f75b67cda2572c2c4
