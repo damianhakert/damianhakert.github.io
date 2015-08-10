@@ -87,9 +87,16 @@ This release has more improvements, including security fixes. Please check out [
 
 ### Upgrade barometer
 
+
 *** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
 *** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
 *** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
+
+Please be aware that by default the Omnibus packages will stop, run
+migrations, and start again, no matter how 'big' or 'small' the
+upgrade is. The behaviour can be changed by adding a
+[/etc/gitlab/skip-auto-migrations
+file](http://doc.gitlab.com/omnibus/update/README.html).
 
 - - -
 
