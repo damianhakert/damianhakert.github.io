@@ -2,7 +2,10 @@
 layout: markdown_page
 title: "Hiring"
 ---
-## Hiring Process
+* [Hiring Process](#hiring-process)
+* [Entering New Hires into TriNet](#trinet-process)
+
+## Hiring Process<a name="hiring-process"></a>
 
 1. Create job description.
     * The CEO needs to authorize any new job positions/searches, and agree on the proposed hiring team.
@@ -27,10 +30,12 @@ title: "Hiring"
     * Choose rolling application process, wherein the review and interview process  happen as applications come in, or
     * Some combination of the above. So for example, wait for X amount of time to gather enough applications, then review in bulk, set up first interviews, and repeat this process until a suitable applicant is found.
 1. Publish the job description.
-    * This is done on the GitLab jobs site, but only after the CEO (or person authorized by CEO) has signed off on the description, hiring team, and timeline.
+    * Confirm that the CEO (or person authorized by CEO) has signed off on the description, hiring team, and timeline.
+    * Create the job posting within the [Workable](https://gitlab.workable.com/backend) tool. The job will then automatically appear on the [GitLab Jobs](https://about.gitlab.com/jobs) site.
 1. Optional: advertise the job description.
     * This can be through “soft” referral, e.g. all GitLab staff post link to jobs site on their LinkedIn profiles.
     * And/Or it can be through job boards.
+    * Use the [Workable Clipper](http://resources.workable.com/the-workable-clipper) to help source candidates directly from LinkedIn, and  familiarize yourself with the Workable environment, work flow, features, and support desk.
 1. Interview Questions.
     * Hiring team to determine which questions need to be asked, and by whom in the team.
     * Homework assignments may be required for some positions.
@@ -49,7 +54,7 @@ title: "Hiring"
     * Inform other applicants that we selected someone else this time. Applicants remain in the database and may be contacted in the future for other roles.
 
 
-## Entering New Hires into TriNet
+## Entering New Hires into TriNet<a name="trinet-process"></a>
 
 Employer enters the employee data in the HR Passport with the information below
 
