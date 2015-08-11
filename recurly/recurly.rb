@@ -18,30 +18,30 @@ configure do
   set :views, File.join(File.dirname(__FILE__), '../public/subscription/')
 end
 
-get '/subscription/basic' do
-  @subdomain = Recurly.subdomain
-  @default_currency = Recurly.default_currency
-  @plan_code = 'gitlab-basic-enterprise-yearly-10'
-  @signature = Recurly.js.sign :subscription => { :plan_code => @plan_code }
-  erb :subscription_form
-end
-
-get '/subscription/standard' do
-  @subdomain = Recurly.subdomain
-  @default_currency = Recurly.default_currency
-  @plan_code = 'gitlab-standard-yearly-100'
-  @signature = Recurly.js.sign :subscription => { :plan_code => @plan_code }
-  erb :subscription_form
-end
-
-get '/subscription/plus' do
-  @subdomain = Recurly.subdomain
-  @default_currency = Recurly.default_currency
-  @plan_code = 'gitlab-plus-yearly-100'
-  @signature = Recurly.js.sign :subscription => { :plan_code => @plan_code }
-  erb :subscription_form
-end
-
-post '/subscription/success' do
-  erb :success
-end
+# get '/subscription/basic' do
+#   @subdomain = Recurly.subdomain
+#   @default_currency = Recurly.default_currency
+#   @plan_code = 'gitlab-basic-enterprise-yearly-10'
+#   @signature = Recurly.js.sign :subscription => { :plan_code => @plan_code }
+#   erb :subscription_form
+# end
+#
+# get '/subscription/standard' do
+#   @subdomain = Recurly.subdomain
+#   @default_currency = Recurly.default_currency
+#   @plan_code = 'gitlab-standard-yearly-100'
+#   @signature = Recurly.js.sign :subscription => { :plan_code => @plan_code }
+#   erb :subscription_form
+# end
+#
+# get '/subscription/plus' do
+#   @subdomain = Recurly.subdomain
+#   @default_currency = Recurly.default_currency
+#   @plan_code = 'gitlab-plus-yearly-100'
+#   @signature = Recurly.js.sign :subscription => { :plan_code => @plan_code }
+#   erb :subscription_form
+# end
+#
+# post '/subscription/success' do
+#   erb :success
+# end
