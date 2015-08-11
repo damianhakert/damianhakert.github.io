@@ -1,3 +1,5 @@
+[![build status](https://ci.gitlab.com/projects/1873/status.png?ref=master)](https://ci.gitlab.com/projects/1873?ref=master)
+
 # Contributing
 
 Please see [CONTRIBUTING.md](CONTRIBUTING.md)
