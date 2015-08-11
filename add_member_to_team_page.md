@@ -18,11 +18,14 @@ steps.
 
 1. Log in to [GitLab.com](https://gitlab.com).
 
-1. On the right side of your screen, click on the project "GitLab.com/ www-gitlab-com".
+1. Go to the project
+[www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com). If you
+don't have access to this project yet, please ask your manager to grant you
+access.
 
 1. On the left side of your screen, click on "Files".
 
-1. Find the dropdown menu at the top of your screen and find the branch that you previously created to add your picture (they are in alphabetical order). Click on it.
+1. Find the dropdown menu at the top of your screen and find the branch that you previously created to add your picture (they are in alphabetical order). If you don't have a branch yet, follow the steps to [create a new branch](http://doc.gitlab.com/ce/gitlab-basics/create-branch.html).
 
 1. Find the file where the Team page is located, by clicking on each of the following files: source/ team/ index.html.
 
