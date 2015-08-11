@@ -19,7 +19,6 @@ deploy:
     - bundle install --path ~/bundle
     - bundle exec rake build
     - rsync -r --delete-after public/ ~/public/
-    - rsync -r recurly/ ~/recurly/
   type: deploy
   tags:
   only:
