@@ -38,4 +38,4 @@ Of course our fork will be open source and in addition we plan to add Git LFS su
 The work on this has already started with https://github.com/gitlabhq/gitlab-shell/pull/230#issuecomment-116735181 that was contributed by Artem Navrotskiy.
 Probably Git LFS support will be optional and/or in beta for some time while the bugs get squashed.
 We look forward to more merge requests from the rest of the community and the people at GitLab the company will do their best to contribute too.
-Although please be aware that right now now we're also pretty busy with removing the satellites from GitLab for the 8.0 release.
+Although please be aware that right now we're also pretty busy with removing the satellites from GitLab for the 8.0 release.
