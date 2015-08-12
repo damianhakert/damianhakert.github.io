@@ -31,6 +31,9 @@ Obviously we would like to support it properly and wondered [if the test server 
 We did not get a response to the above tweet nor to an email we sent.
 Of course nobody owns us a response and organizations are free to do as they please with their code.
 
+Interestingly a day later the twitter account [gitlabceohere](https://twitter.com/gitlabceohere) is also [in the market for something production-ready](https://twitter.com/gitlabceohere/status/623521722424295425).
+We don't know who is behind the account (which has been pretty funny so far), we only know that the first 6 [followers of the account](https://twitter.com/gitlabceohere/followers) are all current or former GitHub employees.
+
 We think that the best course of action is to use the Git LFS reference implementation and make it work for GitLab.
 We'll have to fork the project since we have to remove the [user management that is included in the project](https://github.com/github/lfs-test-server#running).
 Of course our fork will be open source and in addition we plan to add Git LFS support to both GitLab CE and EE.
