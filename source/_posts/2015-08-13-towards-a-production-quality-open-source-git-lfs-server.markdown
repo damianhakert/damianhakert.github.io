@@ -8,7 +8,7 @@ author_twitter: sytses
 image_title: '/images/unsplash/FILENAME.jpg'
 ---
 
-At GitLab we would love to add support for Git Large File Support (LFS).
+At GitLab we would love to be compatible with Git Large File Support (LFS).
 We plan to base our implementation on a reference implementation that is currently not in a production ready state.
 But we hope that over time we can get to production level support.
 
