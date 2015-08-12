@@ -29,6 +29,7 @@ The client implementation is really well done and many people request support fo
 
 Obviously we would like to support it properly and wondered [if the test server code is something we can use in production](https://twitter.com/gitlab/status/623089117983821824).
 We did not get a response to the above tweet nor to an email we sent.
+Of course nobody owns us a response and organizations are free to do as they please with their code.
 
 Interestingly a day later the twitter account [gitlabceohere](https://twitter.com/gitlabceohere) is also [in the market for something production-ready](https://twitter.com/gitlabceohere/status/623521722424295425).
 We don't know who is behind the account (which has been pretty funny so far), we only know that the first 6 [followers of the account](https://twitter.com/gitlabceohere/followers) are all current or former GitHub employees.
