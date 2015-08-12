@@ -11,7 +11,7 @@ image_title: '/images/unsplash/FILENAME.jpg'
 At GitLab we would love to be compatible with Git Large File Support (LFS).
 We plan to base our implementation on a reference implementation that is currently not in a production ready state.
 But we hope that over time we can get to production level support.
-What follows is some background how why we are taking this path instead of reusing an existing solution.
+What follows is some background how and why we are taking this path instead of reusing an existing solution.
 
 <!-- more -->
 
@@ -20,8 +20,8 @@ The most extensive open source project to do this is Git Annex, which [started i
 There were many other projects similar to this such as [Git Media](https://github.com/alebedev/git-media).
 GitHub chose to start a new project in private called Git LFS [in September 2013 based on Git Media](https://github.com/github/git-lfs/commit/d8f780329b64e789553bc8ccccfb993ebc430325).
 
-In February of 2015 we [released support for Git Annex](https://about.gitlab.com/2015/02/17/gitlab-annex-solves-the-problem-of-versioning-large-binaries-with-git/) in our propietary GitLab Enterprise Edition.
-Almost all of the code to support this was included in the open source [GitLab Shell](https://github.com/gitlabhq/gitlab-shell).
+In February of 2015 we [released support for Git Annex](https://about.gitlab.com/2015/02/17/gitlab-annex-solves-the-problem-of-versioning-large-binaries-with-git/) in our proprietary GitLab Enterprise Edition.
+Almost all of the code to support this was included in the open source [GitLab Shell](https://gitlab.com/gitlab-org/gitlab-shell).
 
 In April of 2015 GitHub [announced Git LFS](https://github.com/blog/1986-announcing-git-large-file-storage-lfs) and open sourced [the client](https://github.com/github/git-lfs) and a [reference implementation for the server](https://github.com/github/lfs-test-server).
 The reference implementation is called 'lfs-test-server' and the [first section of the readme](https://github.com/github/lfs-test-server#lfs-test-server) mentions that "It is intended to be used for testing the Git LFS client and is not in a production ready state."
