@@ -66,9 +66,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] Business Office manager: Add to GitLab Dropbox
 * [ ] Business Office manager: Add to BV and/or Inc Dropbox (if in Finance, if in another dept ask CEO if appropriate)
 * [ ] Business Office manager: Invite to autoconnect on Beamy
-* [ ] New team member: Add yourself to the [team page](https://about.gitlab.com/team/).
-Here's [how to add a team member to the team
-page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md).
+* [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/)
 
 ### FOR SALES AND FINANCE ONLY
 
