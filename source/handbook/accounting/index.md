@@ -6,7 +6,7 @@ title: "Accounting"
 ## Payroll
 
 ### Gitlab, Inc. Payroll Procedures
-1. You will received a reminder from Trinet the week before payroll closes for each pay period. 
+1. You will received a reminder from Trinet the week before payroll closes for each pay period.
 
 1. If you are handling payroll changes- you the email will let you know by what date you must submit those changes.
 
@@ -36,7 +36,7 @@ title: "Accounting"
 
 1. Following the path above, use the salary document to generate each employees salary slip. The dutch file for salaries is called -Salarisstroken.pdf
 
-1. Each page is a different employees salary slip all on one document. Do NOT send anyone a salary slip that is not their own! Follow the next steps carefully. 
+1. Each page is a different employees salary slip all on one document. Do NOT send anyone a salary slip that is not their own! Follow the next steps carefully.
 
 1. Work on each page one at a time by
 
@@ -44,7 +44,7 @@ title: "Accounting"
 
 1. Select file/print from the drop down menu
 
-1. Select the pages you want to print (this is where it is important to do ea page one at a time - ex. 1-1,2-2. 
+1. Select the pages you want to print (this is where it is important to do ea page one at a time - ex. 1-1,2-2.
 
 1. Select save as PDF from the bottom left hand side of the page (you must do this step after the previous step or it will SAVE all pages).
 
@@ -62,19 +62,19 @@ Send each employee their salary slip via email with the subject line: Salary sli
 
 ### Additional Begin/End Payment (for adding payment to payroll)
 
-1. In HR Passport click Find 
+1. In HR Passport click Find
 
-1. Select find by Name 
+1. Select find by Name
 
-1. Click on Add’l Begin/End Payment 
+1. Click on Add’l Begin/End Payment
 
-1. Select Action Type 
+1. Select Action Type
 
-1. Select Begin & End date (End date is optional.  Note: The Begin date needs to be the start of a pay period,  it cannot be in the middle or end of a pay period) 
+1. Select Begin & End date (End date is optional.  Note: The Begin date needs to be the start of a pay period,  it cannot be in the middle or end of a pay period)
 
-1. Enter Goal Amount (if applicable) 
+1. Enter Goal Amount (if applicable)
 
-1. Enter the Earn Type 
+1. Enter the Earn Type
 
 1. Enter the amount per pay period
 
@@ -107,6 +107,45 @@ Steps to process an invoice to pay a consultant/vendor:
 
 1. Post the payment through the accounting system.
 
+### QuickBooks
+
+Invoices will arrive by email to accountspayable@gitlab.com.
+
+1. Forward email to Sytse for approval.
+
+1. Create a .pdf copy of Syte's approval response.
+
+1. File the invoice and approval in dropbox\GitLab Inc\inbox.
+
+1. Enter invoice in Quickbooks
+
+#### Entering a Bill (invoice) in Quickbooks
+
+1. Click on "+" on the Home screen
+
+1. Click on "Bill" under  Vendors
+
+1. Enter the vendor name.  If new, enter Company name, address, terms, and Tax Id (from w9).  Enter bank info in the "Notes" field.
+
+1. Enter terms if not auto filled based on customer setup.
+
+1. Enter Bill date.  The due date will auto fill.
+
+1. Enter Bill no.
+
+1. Enter Account
+
+1. Enter description
+
+1. Enter amount
+
+1. Enter Class (Department) -  Must be entered if the account you  entered in step 7 is an expense account.
+
+1. Add attachments: Copy of invoice and email approval
+
+1. Save and close
+
+
 ## Commission Payment Process
 
 1. Each sales person will receive their own calculation template.
@@ -125,11 +164,11 @@ Steps to process an invoice to pay a consultant/vendor:
 
 ## Company Credit Cards
 
-1. All team members that regularly make company purchases may request a company credit card. 
+1. All team members that regularly make company purchases may request a company credit card.
 
 1. You are personally responsible to make sure that the charges on the card are for GitLab business only.
 
-1. Please file your expense report on time. 
+1. Please file your expense report on time.
 
 1. Those who need a company credit card will be provided with additional directions for card management and reporting.
 
