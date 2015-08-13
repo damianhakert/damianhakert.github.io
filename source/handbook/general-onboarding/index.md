@@ -66,7 +66,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] Business Office manager: Add to GitLab Dropbox
 * [ ] Business Office manager: Add to BV and/or Inc Dropbox (if in Finance, if in another dept ask CEO if appropriate)
 * [ ] Business Office manager: Invite to autoconnect on Beamy
-* [ ] New team member: Add yourself to the [team page](https://about.gitlab.com/team/)
+* [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/)
 
 ### FOR SALES AND FINANCE ONLY
 
@@ -75,7 +75,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] Finance: Order company credit card (for all sales team members who are employees)
 * [ ] Sales Manager: [Add to Mailchimp](https://us5.admin.mailchimp.com/account/users/) (if sales or finance)
 * [ ] Hiring Manager: Add to [Recurly](https://app.recurly.com/login)
-* [ ] Hiring Manager: Add to  [Twinfield](https://login.twinfield.com/authentication/identity/login?ReturnUrl=%2fauthentication%2fissue%2fwsfed%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252flogin.twinfield.com%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252f%26wct%3d2015-04-17T21%253a56%253a53Z&wa=wsignin1.0&wtrealm=https%3a%2f%2flogin.twinfield.com&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f&wct=2015-04-17T21%3a56%3a53Z). 
+* [ ] Hiring Manager: Add to  [Twinfield](https://login.twinfield.com/authentication/identity/login?ReturnUrl=%2fauthentication%2fissue%2fwsfed%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252flogin.twinfield.com%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252f%26wct%3d2015-04-17T21%253a56%253a53Z&wa=wsignin1.0&wtrealm=https%3a%2f%2flogin.twinfield.com&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f&wct=2015-04-17T21%3a56%3a53Z).
 * [ ] New team member: Ask a colleague if they can do a screenshare the next time they process an order using Recurly and Twinfield.
 * [ ] Hiring Manager: Invite to sales meeting.
 * [ ] CEO: Invite to Streak (if on Sales team)
