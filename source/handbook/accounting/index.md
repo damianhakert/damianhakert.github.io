@@ -173,3 +173,143 @@ Invoices will arrive by email to accountspayable@gitlab.com.
 1. Those who need a company credit card will be provided with additional directions for card management and reporting.
 
 1. If you request a company credit card for yourself or a direct report, please make sure that you are added to Expensify for monthly reporting by sending an email to finance@gitlab.com
+
+## Accounts Receivable
+
+### Invoicing
+
+1. In Recurly, export the "Invoices All" Report. For time period, set the end date to the day prior to the current date. Download the .CSV File.
+
+1. Open the "Revenue-Inc" Excel file found in Dropbox\GitLab Inc\Revenue. This workbook contains all the orders already invoiced in Quickbooks to date. In the workbook go to worksheet named “Amortization”
+
+1. Go back to the "Invoices All" report you just downloaded from Recurly. This is a month to date report so it will contain orders which have already been invoiced in Quickbooks. Column "L" indicates the date the Recurly invoice was created. We want to select the orders which have not been invoiced in Quickbooks, which would be any orders after the last Quickbooks invoice batch. Copy the rows for the uninvoiced orders and "insert copied cells" to the next row after the last transaction of the "Revenue -Inc" report.
+
+1. Open Quickbooks. Click on the "+" sign at the top middle of the screen. Under "Customers" click on "Invoice"
+
+1. In the "Revenue-Inc" workbook, locate the first invoice # to be invoiced (Column D).
+
+1. Open the invoice in Recurly.
+
+1.  Quickbooks
+
+    * Refer to the Recurly invoice you opened in step 6.
+
+      * Choose the customer. If new, add new customer.
+
+      * Choose the Terms -- Credit Card = Due on Receipt.
+
+      * Choose the Invoice Date - Use the same invoice date as the  Recurly invoice.
+
+      * The Due date will auto-fill depending on the terms you selected.
+
+      * Input the invoice number to match the Recurly invoice number.
+
+      * Choose the Product/Service from the dropdown menu.  If you need to add a product, click add new.  If adding a new license product be sure the Income Account you select is "Deferred License Revenue".
+
+      * Enter the description if necessary.  This field auto populates, however it may not match the description of the Recurly invoice and this is what we want.  Cut and paste the description from the Recurly invoice if necessary.
+
+      * Additionally,  add the subscription period after the description.   The period is found under the Date field on the Recurly invoice.
+
+      * Enter the QTY from the Recurly invoice.
+
+      * Enter the RATE from the Recurly invoice.
+
+      * The Amount will auto-populate but ensure that it matches with Recurly.
+
+      * CLASS field can be left blank.
+
+      * If applicable, enter the PO number  to field “Message displayed on invoice”.
+
+    * If this is a credit card order, the Amount Due on the Recurly invoice will show $0.00. The Quickbooks invoice will show a Balance Due. This is correct as it will not show as paid until a payment is posted in the cash receipts process.
+
+      * Save and close the invoice. You may get a warning about a missing Class field.  Click yes to proceed.
+
+      * Proceed to invoice the remainder of new orders.  Do not invoice transactions marked “Failed”
+
+1.  In Quickbooks, export an invoice report for the batch you just invoiced.
+      * Under the transactions tab on the left,  select  Sales
+      * Click on Filter
+      * Type = Invoices
+      * Status = All statuses
+      * Delivery Methond = Any
+      * Date = Custom
+      * From To = The date range for the invoice batch.
+      * Customer = All
+      * Click Apply
+      * Export the report to excel.
+      * Sum up column "G" and compare to the sum of column "Q" of the Recurly "invoices all" report.  If the totals match, the invoicing cycle is complete.  If the totals do not match, reconcile between the two reports and find the variance.  You may have missed an invoice or made a data entry error.
+
+At this point the invoicing process is complete. Now, continue on to the Cash Receipt posting process for those invoices that were paid by credit card.
+
+## Cash Receipt
+
+### Credit card customer
+
+Follow this procedure if the customer paid by credit card.
+
+You may recall from the invoicing process that there was still a balance due when saving the invoice.  The following steps will record the payment and remove the balance due.
+
+1. Login to Stripe dashboard and click on Payments under Transactions (left hand side). You will see a listing of the latest Stripe transactions listed by amount, Recurly transaction, name, date and time. There is also an option to filter the report by clicking on XXX at the top left. Click on XXX to export to excel. This will give you a workbook area and also a breakdown of the fees which we will work on later.
+
+1. In Quickbooks, click on the "Transactions" tab on the left.
+    * Click on the orange "OPEN INVOICES " tab. This will bring up all open invoices listed by date, invoice #, customer, etc.
+
+1. Match invoice #s  between the Stripe dashboard and Quickbooks. If you click on a transaction in the Stripe dashboard, it will take you to a screen that shows more detail, including the invoice # being paid. You can work your way from the bottom up.
+
+1. In Quickbooks, click "Receive Payment" on the matched payment and invoice.
+
+1.  Receiving the payment
+    * Enter the payment date, which is the payment date from Stripe dashboard.
+    * Payment method = Credit Card.
+    * Reference no. = "Recurly Transaction ID:" found under Metadata in Stripe dashboard.
+    * Deposit to = Stripe.
+    * Quickbooks will auto-fill the payment amount with the entire balance due. No need to change this unless the payment amount from Stripe is different.
+    * Click on "Save and Close".
+    * Repeat the above for all the remaining invoices that were paid by credit card.
+
+1. Post a journal entry to record Stripe Fees.
+    * In Quickbooks, click on the "+" sign. Under "Other", select "Journal Entry".
+    * It is okay to leave the journal date as long as it is within the month the fees were incurred. If not, change it to the last day of the month.
+    * Quickbooks will auto fill the journal number. Do not change.
+    * Account #1 Entry
+      * Fill the "Account #1" entry with "Credit Card Transaction fees".
+      * Fill the "Debits" entry with the value from the Stripe report that was exported. The value will be the sum of "Column I" in the Stripe report, which is the fee amount. Be sure to only sum the rows which you just posted payments for.
+      * Leave the "Credits" entry empty.
+      * Fill the "Description" entry with "To record credit card transaction fees for period (enter the date range for the transactions posted)".
+      * Leave the "Name" entry empty.
+      * Fill the "Class" entry with "Sales".
+    * Account #2 Entry
+      * Fill the "Account #2" entry with "Stripe".
+      * Leave the "Debits" entry empty.
+      * The "Credits" entry will autofill. This should be the same amount as the "Debits" entry for Account #1.
+      * The "Description" entry will autofill. This should be the same as the "Description" entry for Account #1.
+      * Leave the "Name" entry blank.
+      * Leave the "Class" entry blank.
+      * Click "Save".
+
+  This transaction transfers the payment obligation from the customer to Stripe.  The payment obligation from Stripe is removed when Stripe transfers  the funds to GitLab's bank account.
+
+### Posting a payment from Stripe when a transfer is received from Stripe.
+
+Post a journal entry:
+
+* Fill the "Journal Date" with the date that payment was received in the bank.
+* Fill the "Credit Account" with Stripe.
+* Fill the "Debit Account" with "Comerica Checking - Gitlab Inc."
+* Leave "Name" blank.
+* Leave "Class" blank.
+* Fill the "Description" with "To record Stripe transfer (date of transfer)".
+* Click "Save".
+
+
+### Posting a payment from a “bank customer”
+
+In Quickbooks:
+
+* Click on the “+” sign.
+* Click on “Receive Payment” under Customers.
+* Fill the "Payment Date" with the date payment was received.
+* Fill the "Payment Method" choose from the dropdown menu.
+* Fill the "Reference No." with the check # or bank reference # from incoming wire.
+* Fill the "Deposit to" with "Comerica Checking".
+* Fill the "Amount Received" with the amount received from the incoming wire.
