@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitLab Mattermost, an open source on-premises Slack alternative"
-date: 2015-08-13
+date: 2015-08-18
 comments: true
 author: Sytse Sijbrandij
 author_twitter: sytses
@@ -16,7 +16,7 @@ We think GitLab Mattermost will be a great addition for GitLab users that need a
 
 Like many companies in the last year we've switched to using Slack to improve internal communication.
 We are a [remote company](https://about.gitlab.com/2014/07/03/how-gitlab-works-remotely/) and great realtime asynchronous communication is very important.
-Obviously we GitLab issues and merge requests extensively, but for some things a chat room can't be beaten.
+Obviously we use GitLab issues and merge requests extensively, but for some things a chat room can't be beaten.
 
 That is why GitLab used to include a chat feature called the 'wall' for each project.
 The wall was a [loved feature in 2012](https://twitter.com/gitlab/status/274128115318550531), but in 2014 people [didn't use it](https://twitter.com/gitlab/status/478990520505888769).
@@ -44,4 +44,4 @@ We hope that with GitLab 8.0 (planned for September 22, following 7.14) we can s
 We have not taken the decision to include an extra component in the Omnibus packages lightly.
 We think GitLab Mattermost will be a great addition for GitLab users that need all software on-premises.
 We hope that the rest of the community is as exited about this as we are.
-Of course we realize there will also be concens and look forward to discussing these in the comments below.
+We look forward to discussing your ideas and concerns in the comments.
