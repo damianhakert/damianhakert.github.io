@@ -77,6 +77,8 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * [Improve navigating to your projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/2225)
 
+* In-picture-comments like in [zeplin.io](zeplin.io] or Phabricator
+
 ## EE
 * In PROGRESS [Multiple approvers](https://dev.gitlab.org/gitlab/gitlabhq/issues/2258)
 
