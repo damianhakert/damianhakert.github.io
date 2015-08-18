@@ -5,7 +5,7 @@ date: 2015-08-18
 comments: true
 author: Sytse Sijbrandij
 author_twitter: sytses
-image_title: '/images/unsplash/FILENAME.jpg'
+image_title: '/images/unsplash/love-the-sun.jpg'
 ---
 
 We're very excited to announce that we'll ship GitLab Mattermost, an open source, on-premises messaging app (like Slack) along with GitLab.
