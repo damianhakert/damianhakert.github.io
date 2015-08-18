@@ -20,9 +20,10 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 ```
 ### BEFORE STARTING AT GITLAB
 
-* [ ] Hiring manager: Create issue for new hire in organization with relevant lines of the master checklist. (cc new team member once they have a GitLab account)
-* [ ] CEO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
-* [ ] CEO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
+* [ ] Hiring manager: Create issue for new hire in organization with relevant lines of the master checklist and /cc Jacob and CEO.
+* [ ] Hiring manager: cc new team member on the issue once they have a dev.GitLab.org account.
+* [ ] Jacob/CEO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
+* [ ] Jacob/CEO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 * [ ] Hiring manager: send an email to company address 'Please read https://about.gitlab.com/handbook/ and the relevant onboarding pages that are linked from there and let me know if you have any questions.'
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), and become comfortable with Git and the GitLab workflow.
 * [ ] New team member: provide signed contract to HR.
@@ -56,9 +57,9 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] CEO: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] CEO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] Hiring manager: Invite to team meeting
-* [ ] CEO: Add to Slack
+* [ ] Jacob/CEO: Add to Slack
 * [ ] HR: Send [People Information sheet](https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0) and instruct to return answers via email or slack
-* [ ] CEO: [Add to Lastpass](https://lastpass.com/enterprise_create.php) and create folder for new hire in Lastpass
+* [ ] Jacob/CEO: [Add to Lastpass](https://lastpass.com/enterprise_create.php) and create folder for new hire in Lastpass
 * [ ] HR: Put People Information into Profiles in Lastpass
 * [ ] HR: Set up meeting with new team member on day 3 or 4 to any questions that remain. New team member should have gone through handbook and guide meeting with specific questions after having reviewed onboarding process.
 * [ ] New team member: Login to Lastpass and set up secure passwords per the handbook (insert link to security section on how to use LP).
