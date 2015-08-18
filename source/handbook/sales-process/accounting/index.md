@@ -262,11 +262,11 @@ It is preferred to avoid both the above cases (extra work for us)
 
 1. Send the credit invoice to the customer (this is legally required)
 
-## Crediting a transaction made in Recurly from about.gitlab.com
+## Crediting a transaction made in Recurly
 
 1. [Invoice refunds](https://docs.recurly.com/invoices#invoice_refunds)
 
-1. Create a "draft sale" in twinfield with negative amount from invoice
+1. All refunds, credits and subscription cancellations should have a note made in the Account Notes section starting with ISO 8601 date format (yyyy/mm/dd). 
 
 ## Customer accidentally created a new subscription instead of updating the new one, both in the same account
 
