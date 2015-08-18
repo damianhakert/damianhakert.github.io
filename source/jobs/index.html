@@ -34,9 +34,8 @@ extra_css:
         <br>
         <br>
         If you see yourself as a good fit with our company’s goal and team, then please review the current job openings on this page, and submit your resume and cover letter to be considered!
-        <h3> Available Openings</h3>
-        <div class="toc">
-        table of contents here
+        <h3> Available Openings:</h3>
+        <div class="toc" id="whr_embed_toc">
         </div>
       </div>
     </div>
@@ -45,7 +44,8 @@ extra_css:
         <script src='https://www.workable.com/assets/embed.js' type='text/javascript'></script>
         <script type='text/javascript' charset='utf-8'>
         whr(document).ready(function(){
-        whr_embed(34611, {detail: 'descriptions', base: 'jobs', zoom: 'country', grouping: 'none'});
+          whr_embed(34611, {detail: 'descriptions', base: 'jobs', zoom: 'country', grouping: 'none', target: '#whr_embed_hook'});
+          whr_embed(34611, {detail: 'descriptions', base: 'jobs', zoom: 'country', grouping: 'none', target: '#whr_embed_toc'});
         });
         </script>
         <div id="whr_embed_hook"></div>
