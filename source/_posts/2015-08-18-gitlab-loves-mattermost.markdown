@@ -26,6 +26,8 @@ Many larger organisations run all software on-premises, often because of securit
 Since Slack doesn't offer an on-prem version, we searched for other options.
 We found Mattermost to be the leading open source Slack-alternative and suggested a collaboration to the Mattermost team.
 
+![Mattermost screenshot](/images/mattermost/mattermost.png)
+
 It turns out that [after the succesful launch of MatterMost on Hacker News](https://news.ycombinator.com/item?id=9770322) there where a lot of requests for an easier way to install Mattermost and to add LDAP features to it.
 With Omnibus GitLab we have a great way to install software in 2 minutes on many platforms and GitLab CE and EE contain many LDAP features.
 We decided to collaborate and the Mattermost team quickly added PostgreSQL support and OAuth login to Mattermost so it could connect to the [GitLab OAuth provider](http://doc.gitlab.com/ce/integration/OAuth_provider.html).
