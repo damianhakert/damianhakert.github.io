@@ -34,14 +34,15 @@ We decided to collaborate and the Mattermost team quickly added PostgreSQL suppo
 
 In version 7.14 GitLab Mattermost will be part of the Omnibus package, just like GitLab CI.
 Just like GitLab CI it will be disabled by default so it doesn't use any CPU or memory and doesn't enlarge the attack surface.
-And just like GitLab CI it takes a one line configuration change to enable it. TODO_ADD_LINK
+And just like GitLab CI it takes a one line configuration change to enable it.
 Right now Mattermost 0.6 is in alpha state, its security has yet to be externally reviewed, and data migration to future versions might not always work
 But GitLab the company will pay for an external security audit and the Mattermost team is getting closer to a beta version.
 
 Adding the GitLab Mattermost code to the Omnibus packages makes them just TODO_ADD_PERCENTAGE% larger and offers a much easier setup because we can configure the OAuth integration automatically like we do for GitLab CI.
 In gitlab.rb you'll configure the FQDN (mattermost.example.com) and the Omnibus package will take care of setting up OAuth credentials, in the future we'll also make it easier to post from GitLab and GitLab CI to GitLab Mattermost.
-Releasing it now in alpha state will allow more eyes on the project in order to [report Mattermost bugs on GitLab.com](https://gitlab.com/gitlab-org/gitlab-mattermost), [responsibly disclose Mattermost security vulnerabilities](http://www.mattermost.org/responsible-disclosure-policy/) and [report Omnibus package bugs](https://gitlab.com/gitlab-org/omnibus-gitlab/issues).
+Releasing it with 7.14 in alpha state will allow more eyes on the project in order to [report Mattermost bugs on GitLab.com](https://gitlab.com/gitlab-org/gitlab-mattermost), [responsibly disclose Mattermost security vulnerabilities](http://www.mattermost.org/responsible-disclosure-policy/) and [report Omnibus package bugs](https://gitlab.com/gitlab-org/omnibus-gitlab/issues).
 We hope that with GitLab 8.0 (planned for September 22, following 7.14) we can ship GitLab Mattermost in beta state.
+The progess of the work is discussed in [an issue for Omnibus GitLab](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/654).
 
 We have not taken the decision to include an extra component in the Omnibus packages lightly.
 We think GitLab Mattermost will be a great addition for GitLab users that need all software on-premises.
