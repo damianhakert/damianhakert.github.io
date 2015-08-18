@@ -7,6 +7,28 @@ body {
   font-size: 17px;
 }
 
+.preamble {
+  border-radius: 4px;
+}
+
+.toc .whr-info {
+  display: none !important;
+}
+
+.toc .whr-description {
+  display:none !important;
+}
+
+.preamble .alert {
+  background-color: white !important;
+  border-color: white !important;
+  padding-top: 0px;
+}
+
+.preamble h3 {
+  font-weight: 600;
+}
+
 .wrapper {
   min-height: 55%;
 }
@@ -56,6 +78,7 @@ body {
 .whr-title a{
   font-weight: 700 !important;
   font-size: 36px !important;
+  color: #31708f !important;
 }
 
 
