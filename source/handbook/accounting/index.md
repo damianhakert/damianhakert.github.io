@@ -80,6 +80,30 @@ Send each employee their salary slip via email with the subject line: Salary sli
 
 1. Enter pay frequency
 
+## Rate Changes (salary changes) for GitLab, Inc. employees
+
+1. In HR Passport, click Find
+
+1. Find person by name
+
+1. Type name and search
+
+1. Click name
+
+1. Select Employment Data (on left)
+
+1. Employee Pay Change
+
+1. Enter effective date and select next
+
+1. Enter pay rate change reason (drop down list)
+
+1. Enter new rate
+
+1. Review
+
+1. Update
+
 
 ## Accounts payable
 
