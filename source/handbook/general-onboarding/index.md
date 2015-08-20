@@ -30,6 +30,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] New team member: provide scan of photo ID to HR.
 * [ ] New team member: provide signed PIAA (proprietary information and assignment agreement) to HR.(US employees have a PIAA included in their contract)
 * [ ] HR: file signed PIAA, contract, and photo ID in Dropbox and confirm receipt by commenting in the issue.
+* [ ] HR: Send email to new hire and buddy introducing them "We expect you to be resourceful but your buddy is here to help you get up to speed quickly.". Buddy is a junior that performs a similar job.
 
 ### WITHIN TWO DAYS OF STARTING
 
