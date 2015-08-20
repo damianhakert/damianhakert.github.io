@@ -40,10 +40,6 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 [![screenshot](/images/7_14/feature.png)](/images/7_14/feature.png) **+7_14 is the version of GitLab being released***
 
-### NEW_SPONSORED_FEATURE
-
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-14-stable/CHANGELOG#L18).
-
 ### ***MAIN_EE_FEATURE*** (EE only feature)
 
 ***DESCRIPTION***
@@ -77,17 +73,12 @@ Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_
 
 [![screenshot](/images/7_14/feature.png)](/images/7_14/feature.png) **+7_14 is the version of GitLab CI being released***
 
-## NEW_SPONSORED_FEATURE
-
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/7-14-stable/CHANGELOG#L18).
-
 ### Other changes
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
 
 ### Upgrade barometer
-
 
 *** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
 *** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
