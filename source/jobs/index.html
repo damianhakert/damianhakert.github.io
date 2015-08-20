@@ -17,20 +17,29 @@ extra_css:
 
   <div class="container vacancies">
     <br>
-    <div class="alert alert-info" role="alert">
-      <strong>Want to work for GitLab as a developer?</strong>
-      <br>
-      Best way to get hired is to start contributing.
-      Anyone in the top 50 contributors of CE and top 10 of CI gets a guaranteed interview.
+
+    <div class="preamble">
+      <div class="alert alert-info" role="alert">
+        <h3> About GitLab</h3>
+        GitLab is quickly becoming the standard for source code version management for any company, large or small. At GitLab, we help large enterprises move to git and build better software.
+
+        <h3> Why work for GitLab? </h3>
+        GitLab is growing fast. Working for GitLab means joining a very productive, ambitious team, where independence and flexibility are both valued and required. Your work will directly have a large impact on the present and future of GitLab. We work all over the world and like to spend time on things that matter. You can work from anywhere and are welcome in our San Francisco office.
+        <br>
+        <br>
+        If you see yourself as a good fit with our company’s goals and team, then please review the current job openings on this page, and submit your resume and cover letter to be considered!
+        <h3> Available Openings:</h3>
+        <div class="toc" id="whr_embed_toc">
+        </div>
+      </div>
     </div>
 
     <div class="all-jobs">
-
-
         <script src='https://www.workable.com/assets/embed.js' type='text/javascript'></script>
         <script type='text/javascript' charset='utf-8'>
         whr(document).ready(function(){
-        whr_embed(34611, {detail: 'descriptions', base: 'jobs', zoom: 'country', grouping: 'none'});
+          whr_embed(34611, {detail: 'descriptions', base: 'jobs', zoom: 'country', grouping: 'none', target: '#whr_embed_hook'});
+          whr_embed(34611, {detail: 'descriptions', base: 'jobs', zoom: 'country', grouping: 'none', target: '#whr_embed_toc'});
         });
         </script>
         <div id="whr_embed_hook"></div>
