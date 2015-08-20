@@ -27,44 +27,21 @@ access.
 
 1. Find the dropdown menu at the top of your screen and find the branch that you previously created to add your picture (they are in alphabetical order). If you don't have a branch yet, follow the steps to [create a new branch](http://doc.gitlab.com/ce/gitlab-basics/create-branch.html).
 
-1. Find the file where the Team page is located, by clicking on each of the following files: source/ team/ index.html.
+1. Find the file where the [Team page](https://about.gitlab.com/team/) is located, by clicking on each of the following files: source/ team/ index.html.
 
 1. When you are in “index.html”, click on “edit” on the top right side of your screen.
 
-1. Your information should be added in HTML, after the last person on the team page. You need to copy and paste one of the following 2 examples into the correct space. Where it is in capital letters, you need to fill in your own information:
+1. Your information should be added after the last person on the team page. You need to copy and paste the following format and fill in your own information:
 
-#### Example 1: if you should be added next to somebody else on the [team page](https://about.gitlab.com/team/) :
 ```
-     <div class="col-md-4 member">
-        <img src="../images/team/`NAME OF YOUR PICTURE.JPG or NAME OF YOUR PICTURE.PNG`" alt="`YOUR NAME`" width="200" height="200" />
-        <h3>`YOUR NAME`</h3><h4>`YOUR JOB POSITION`</h4>
-        <div class="social">
-          <a href="https://twitter.com/`YOUR TWITTER ACCOUNT`">Twitter</a>
-          <a href="https://gitlab.com/u/`YOUR GITLAB USER NAME`">GitLab</a>
-        </div>
-        <p>
-          `ADD YOUR DESCRIPTION HERE`
-        </p>
-      </div>
+- name:
+  role:
+  picture:
+  twitter:
+  gitlab:
+  story:  |
 ```
-#### Example 2: if you need to start a new line to add yourself on the [team page](https://about.gitlab.com/team/):
-```
- </div>
-
-    <div class="row">
-
-<div class="col-md-4 member">
-        <img src="../images/team/`NAME OF YOUR PICTURE.JPG or NAME OF YOUR PICTURE.PNG`" alt="`YOUR NAME`" width="200" height="200" />
-        <h3>`YOUR NAME`</h3><h4>`YOUR JOB POSITION`</h4>
-        <div class="social">
-          <a href="https://twitter.com/`YOUR TWITTER ACCOUNT`">Twitter</a>
-          <a href="https://gitlab.com/u/`YOUR GITLAB USER NAME`">GitLab</a>
-        </div>
-        <p>
-          `ADD YOUR DESCRIPTION HERE`
-        </p>
-      </div>
-```
+Don't forget to use other team members' information as a reference and to respect the spaces between lines.
 
 * After you added your information, add a comment to your commit and click on “Commit Changes”.
 
