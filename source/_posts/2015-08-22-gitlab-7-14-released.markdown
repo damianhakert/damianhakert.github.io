@@ -90,6 +90,11 @@ upgrade is. The behaviour can be changed by adding a
 [/etc/gitlab/skip-auto-migrations
 file](http://doc.gitlab.com/omnibus/update/README.html).
 
+### Reminder: Ruby (MRI) 2.0.x no longer supported
+
+As of the previous release (7.13), we have dropped support for the 2.0.x
+versions of Ruby (MRI). We support Ruby (MRI) 2.1.x and recommend using 2.1.6.
+
 - - -
 
 ## Installation
