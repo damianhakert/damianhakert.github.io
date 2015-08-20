@@ -35,3 +35,6 @@ title: "Getting Help for GitLab"
 
 ## Reproducible Bugs
 * [The issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) lists errors and bugs people are experiencing. Please read the [contributing guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#issue-tracker) before posting on the issue tracker.
+
+## Security
+* Our [responsible disclosure page](https://about.gitlab.com/disclosure/) describes how to contact GitLab to report security vulnerabilities and other security information.
