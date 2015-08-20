@@ -4,8 +4,9 @@ title: "GitLab 7.14 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 date: 2015-08-22
 comments: true
 categories:
-author: ADD_YOUR_FULL_NAME
-filename: FILENAME.MARKDOWN
+author: GitLab
+author_twitter: gitlab
+filename: 2015-08-22-gitlab-7-14-released.markdown
 image_title: /images/7_X/PICTURE.PNG
 ---
 
