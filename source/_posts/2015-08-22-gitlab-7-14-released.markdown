@@ -81,8 +81,27 @@ interface.
 ## YAML Variables (GitLab CI)
 
 Now you can define variables in your `.gitlab-ci.yml` file that will be passed
-to your CI builds. See [the documentation](http://doc.gitlab.com/ci/variables/README.html)
-for more information.
+to your CI builds, allowing you to fine-tune linked services by, for example,
+supplying a custom database name.
+
+See [the Docker documentation] for configuring services and
+[the CI documentation] for more information about variables.
+
+[the Docker documentation]: http://doc.gitlab.com/ci/docker/using_docker_images.html#configuring-services
+[the CI documentation]: http://doc.gitlab.com/ci/variables/README.html
+
+## Build Triggers API (GitLab CI)
+
+As part of our ongoing effort to improve suport for dependent builds, we've
+introduced Build Triggers that can be used to force a rebuild of a specific
+branch or tag via API calls. To use Build Triggers, go to your project's
+**Triggers** page where you'll find a custom link that can be called from other
+services.
+
+Build Triggers can also accept custom variables that can be used to customize
+the behavior of the build scripts.
+
+[![Build Triggers](/images/7_14/ci_triggers.png)](/images/7_14/ci_triggers.png)
 
 ## Application Settings interface (GitLab CI)
 
