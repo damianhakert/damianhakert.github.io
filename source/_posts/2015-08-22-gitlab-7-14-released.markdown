@@ -96,7 +96,7 @@ See [the Docker documentation] for configuring services and
 
 As part of our ongoing effort to improve support for dependent builds, we've
 introduced Build Triggers that can be used to force a rebuild of a specific
-branch or tag via API calls. To use Build Triggers, go to your project's
+branch or tag via API call. To use Build Triggers, go to your project's
 **Triggers** page where you'll find a custom link that can be called from other
 services.
 
