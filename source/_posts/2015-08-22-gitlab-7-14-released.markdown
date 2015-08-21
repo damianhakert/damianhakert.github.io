@@ -40,6 +40,43 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 [![screenshot](/images/7_14/feature.png)](/images/7_14/feature.png) **+7_14 is the version of GitLab being released***
 
+### Beta: support for long git push/pull over HTTPS
+
+GitLab supports two protocols for pushing and fetching Git data from Git clients
+such as the `git` command and [GUI clients](https://git-scm.com/downloads/guis):
+SSH and HTTPS. Traditionally, the SSH protocol has been the best and sometimes
+only way to do long-running (i.e., slow or large) push/pull operations from Git
+on your computer to a GitLab server. One of the reasons for this is that
+[Unicorn](http://unicorn.bogomips.org/), the Ruby web application server used by
+GitLab, is not designed to handle many concurrent long-running requests. With
+Unicorn, long git pushes/pull will often fail (due to a timeout) after hogging
+precious resources (Unicorn workers) for a long time.
+
+To address this problem, we created
+[gitlab-git-http-server](https://gitlab.com/gitlab-org/gitlab-git-http-server),
+a stand-alone web server written in [Go](https://golang.org/) to take over (most
+of) the job of serving Git HTTP requests. We use NGINX to route HTTP requests
+either to Unicorn (normal requests) or gitlab-git-http-server (Git clients).
+
+In the GitLab 7.14 omnibus packages, gitlab-git-http-server is included but
+disabled by default. In GitLab 8.0 we will deprecate the old Git HTTP server in
+GitLab ([grack](https://gitlab.com/gitlab-org/gitlab-grack)).
+
+If you want to start using gitlab-git-http-server ahead of the 8.0 release, as
+we will on [gitlab.com](https://gitlab.com), you can add the following settings
+to `/etc/gitlab/gitlab.rb`:
+
+```
+gitlab_rails['env'] = {
+  'GITLAB_GRACK_AUTH_ONLY' => '1'
+}
+
+gitlab_git_http_server['enable'] = true
+```
+
+Run `gitlab-ctl reconfigure` and `gitlab-ctl restart unicorn` after updating
+your `gitlab.rb` file.
+
 ### ***MAIN_EE_FEATURE*** (EE only feature)
 
 ***DESCRIPTION***
