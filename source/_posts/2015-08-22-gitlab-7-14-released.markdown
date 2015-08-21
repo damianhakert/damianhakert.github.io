@@ -94,7 +94,7 @@ See [the Docker documentation] for configuring services and
 
 ## Build Triggers API (GitLab CI)
 
-As part of our ongoing effort to improve suport for dependent builds, we've
+As part of our ongoing effort to improve support for dependent builds, we've
 introduced Build Triggers that can be used to force a rebuild of a specific
 branch or tag via API calls. To use Build Triggers, go to your project's
 **Triggers** page where you'll find a custom link that can be called from other
