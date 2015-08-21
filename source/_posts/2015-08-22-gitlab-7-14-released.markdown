@@ -120,19 +120,22 @@ support for builds skipped via the `[ci skip]` commit message tag.
 
 [![CI Skipped](/images/7_14/ci_skipped.png)](/images/7_14/ci_skipped.png)
 
-## Bundling of Mattermost now and maybe Rocket Chat in the future
+## Bundling of Mattermost now, possibly RocketChat in the future
 
-In this release we bundle Mattermost, an open source on-premises Slack alternative.
-More context can be found in [the announcement](https://about.gitlab.com/2015/08/18/gitlab-loves-mattermost/).
-The current release is in alpha state, we can't guaranty it will be upgradable and recommend to not expose it to the public internet.
+In this release we've bundled Mattermost, an open source on-premises Slack alternative.
+More information can be found in [the announcement](https://about.gitlab.com/2015/08/18/gitlab-loves-mattermost/).
+The current release is in alpha state, so we can't guarantee it will be upgradable and recommend against exposing it to the public Internet.
 
-After we announced the Mattermost integration we [saw that Rocket Chat is also interested in shipping in the GitLab Omnibus packages](https://news.ycombinator.com/item?id=10081963).
-We didn't consider Rocket Chat since they run on top of MongoDB and we prefer PostgreSQL but it seems that [elephants don't fly, most of the time](https://github.com/meteor/postgres-packages).
-Rocket Chat is committed to [make it compatible with the Omnibus packages](https://github.com/RocketChat/Rocket.Chat/milestones/GitLab%200.8).
-We think we might ship it the Omnibus packages GitLab 8.1 although earlier, later and not at all are also options.
-Having two different Slack alternatives in the GitLab packages is not ideal.
-But both projects are moving quickly and we find it hard to pick a winner now.
-Consider the alpha state a warning that we don't guaranty that both will ship with GitLab forever.
+After we announced the Mattermost integration we [saw that RocketChat is also interested in shipping with the GitLab Omnibus packages](https://news.ycombinator.com/item?id=10081963).
+We didn't consider RocketChat since they run on top of MongoDB while we prefer PostgreSQL, but it
+seems that [elephants don't fly, most of the time](https://github.com/meteor/postgres-packages).
+RocketChat is committed to [becoming compatible with the Omnibus packages](https://github.com/RocketChat/Rocket.Chat/milestones/GitLab%200.8).
+
+We're thinking of shipping RocketChat with the Omnibus packages of GitLab 8.1 (although earlier,
+later, and not at all are also options). Having two different Slack alternatives
+in the GitLab packages is not ideal. But both projects are moving quickly and
+we find it hard to pick a winner now. Consider the alpha state a warning that
+we don't guarantee that both will ship with GitLab forever.
 
 ## Other changes
 
