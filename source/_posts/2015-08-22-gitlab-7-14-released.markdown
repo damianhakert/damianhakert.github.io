@@ -90,7 +90,7 @@ We're now surfacing application settings in the web interface of GitLab CI,
 furthering our goal of making all of the GitLab applications as easy to
 configure as possible.
 
-[![Applicatoin Settings](/images/7_14/ci_settings.png)](/images/7_14/ci_settings.png)
+[![Application Settings](/images/7_14/ci_settings.png)](/images/7_14/ci_settings.png)
 
 ## Better support for skipped builds
 
