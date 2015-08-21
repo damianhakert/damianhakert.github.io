@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab 7.14 released with improved syntax highlighting and CI improvements"
+title: "GitLab 7.14 released with improved syntax highlighting and Variables in CI"
 date: 2015-08-22
 comments: true
 categories:
@@ -18,6 +18,8 @@ features, our focus for 7.14 has been on fixing bugs and improving performance
 and usability. Many of these bug fixes were contributed by this month's
 [MVP](https://about.gitlab.com/mvp/) Stan Hu, bringing his total number of
 awards to four. Thank you and congratulations, Stan!
+To celibrate Stan his hat-trick + 1 (4 MVP titles in the 7.x major release)
+GitLab will send him and his partner to Amsterdam for a weekend.
 
 <!--more-->
 
@@ -98,6 +100,20 @@ GitLab CI and its integration with GitLab CE and EE now have improved
 support for builds skipped via the `[ci skip]` commit message tag.
 
 [![CI Skipped](/images/7_14/ci_skipped.png)](/images/7_14/ci_skipped.png)
+
+## Bundling of Mattermost now and maybe Rocket Chat in the future
+
+In this release we bundle Mattermost, an open source on-premises Slack alternative.
+More context can be found in [the announcement](https://about.gitlab.com/2015/08/18/gitlab-loves-mattermost/).
+The current release is in alpha state, we can't guaranty it will be upgradable and recommend to not expose it to the public internet.
+
+After we announced the Mattermost integration we [saw that Rocket Chat is also interested in shipping in the GitLab Omnibus packages](https://news.ycombinator.com/item?id=10081963).
+We didn't consider Rocket Chat since they run on top of MongoDB and we prefer PostgreSQL but it seems that [elephants don't fly, most of the time](https://github.com/meteor/postgres-packages).
+Rocket Chat is committed to [make it compatible with the Omnibus packages](https://github.com/RocketChat/Rocket.Chat/milestones/GitLab%200.8).
+We think we might ship it the Omnibus packages GitLab 8.1 although earlier, later and not at all are also options.
+Having two different Slack alternatives in the GitLab packages is not ideal.
+But both projects are moving quickly and we find it hard to pick a winner now.
+Consider the alpha state a warning that we don't guaranty that both will ship with GitLab forever.
 
 ## Other changes
 
