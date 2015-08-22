@@ -37,7 +37,7 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 ***DESCRIPTION***
 
-[![screenshot](/images/X_X/feature.png)](/images/X_X/feature.png) **+X_X is the version of GitLab being released***
+[![screenshot](/images/X_X/feature.png)](/images/X_X/feature.png) ***X_X is the version of GitLab being released***
 
 ### NEW_SPONSORED_FEATURE
 
@@ -74,7 +74,7 @@ Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_
 
 ***DESCRIPTION***
 
-[![screenshot](/images/X_X/feature.png)](/images/X_X/feature.png) **+X_X is the version of GitLab CI being released***
+[![screenshot](/images/X_X/feature.png)](/images/X_X/feature.png) ***X_X is the version of GitLab CI being released***
 
 ## NEW_SPONSORED_FEATURE
 
