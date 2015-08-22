@@ -103,7 +103,7 @@ file](http://doc.gitlab.com/omnibus/update/README.html).
 ## Installation
 
 If you are setting up a new GitLab installation please see the
-[download GitLab page](https://www.gitlab.com/installation/).
+[download GitLab page](https://about.gitlab.com/installation/).
 
 ## Updating
 
