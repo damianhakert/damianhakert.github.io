@@ -152,6 +152,9 @@ This release has more improvements, including security fixes. Please view
 This release's migrations are minor. If you are on GitLab 7.13 CE or EE you can
 upgrade to 7.14 while staying online.
 
+The GitLab CI upgrade will require downtime.
+Coming from 7.13 the database migrations in GitLab CI will be fast but they cannot be performed online.
+
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how "big" or "small" the upgrade is. The behaviour
 can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
