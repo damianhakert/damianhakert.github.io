@@ -18,8 +18,10 @@ features, our focus for 7.14 has been on fixing bugs and improving performance
 and usability. Many of these bug fixes were contributed by this month's
 [MVP](https://about.gitlab.com/mvp/) Stan Hu, bringing his total number of
 awards to four. Thank you and congratulations, Stan!
-To celibrate Stan his hat-trick + 1 (4 MVP titles in the 7.x major release)
-GitLab will send him and his partner to Amsterdam for a weekend.
+
+To celebrate Stan's hat-trick + 1 (4 MVP titles in the 7.x major release)
+GitLab is giving him an extra weekend in Amsterdam after he joins us with the
+rest of the core team for our summit during OSCON.
 
 <!--more-->
 
