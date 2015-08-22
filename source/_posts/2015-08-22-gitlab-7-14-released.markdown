@@ -167,7 +167,7 @@ versions of Ruby (MRI). We support Ruby (MRI) 2.1.x and recommend using 2.1.6.
 ## Installation
 
 If you are setting up a new GitLab installation please see the
-[download GitLab page](https://www.gitlab.com/installation/).
+[download GitLab page](https://about.gitlab.com/installation/).
 
 ## Updating
 
