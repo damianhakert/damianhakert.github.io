@@ -126,6 +126,7 @@ support for builds skipped via the `[ci skip]` commit message tag.
 In this release we've bundled Mattermost, an open source on-premises Slack alternative.
 More information can be found in [the announcement](https://about.gitlab.com/2015/08/18/gitlab-loves-mattermost/).
 The current release is in alpha state, so we can't guarantee it will be upgradable and recommend against exposing it to the public Internet.
+Activation instructions can be found in the [Omnibus documentation for GitLab Mattermost](http://doc.gitlab.com/omnibus/gitlab-mattermost/).
 
 After we announced the Mattermost integration we [saw that RocketChat is also interested in shipping with the GitLab Omnibus packages](https://news.ycombinator.com/item?id=10081963).
 We didn't consider RocketChat since they run on top of MongoDB while we prefer PostgreSQL, but it
