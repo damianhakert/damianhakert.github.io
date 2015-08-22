@@ -7,7 +7,6 @@ categories:
 author: GitLab
 author_twitter: gitlab
 filename: 2015-08-22-gitlab-7-14-released.markdown
-image_title: /images/7_14/background.jpg
 ---
 
 Today we're pleased to announce version 7.14 of GitLab Community Edition (CE),
