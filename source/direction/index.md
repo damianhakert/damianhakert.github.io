@@ -122,8 +122,8 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * Browser IDE: Koding, Nitrous.io, Cloud9, CodeAnywhere, Codio and CodeEnvy (ship GitLab with them and button to open from GitLab)
 
-* Configuration management: Chef, Puppet, Ansible, Salt, Docker (upload cookbooks, build containers, etc.)
+* Configuration management: Chef, Puppet, Ansible, Salt, Docker (upload cookbooks, build containers from GitLab CI, etc.)
 
-* Paas: CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, Flynn (deploy apps)
+* Paas: CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/) (deploy apps to them with GitLab CI)
 
 * Scrum boards: [Huboard](https://huboard.com/), [Waffle.io](https://waffle.io/) and [Zenhub.io](https://www.zenhub.io/) support in addition to https://about.gitlab.com/applications/#scrum-boards
