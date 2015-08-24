@@ -539,6 +539,11 @@ a.comparison.gh:hover {
     text-align: center;
   }
 
+
+.twitter-timeline {
+  display: inline-block !important;
+}
+
 .twitter-head {
   margin-left: 0;
   margin-right: 0;
