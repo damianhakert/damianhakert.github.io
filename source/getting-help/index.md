@@ -2,14 +2,13 @@
 layout: markdown_page
 title: "Getting Help for GitLab"
 ---
-Our product is open source and free for everyone. Unfortunately, it is not possible for us to look into all requests for help from everyone without a subscription. As part of our community, you are welcome to visit our help channels and collaborate with other users.
 
 ## Updating
 * [GitLab update page](https://about.gitlab.com/update/): resources and information to help you update your GitLab instance.
 * [Maintenance policy](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/MAINTENANCE.md): specifies what versions are supported.
 
 ## Discussing
-* [GitLab Community Forum](https://forum.gitlab.com/): the place to share, ask and discuss anything related to GitLab.
+* [GitLab Community Forum](https://forum.gitlab.com/): this is the best place to have a discussion.
 
 ## Technical Support
 * [Troubleshooting guide](https://github.com/gitlabhq/gitlab-public-wiki/wiki/Trouble-Shooting-Guide): contains solutions to common problems.
