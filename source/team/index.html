@@ -198,6 +198,13 @@ team_members:
           contributing <a href="http://contributors.gitlab.com/contributors/robert-speicher/commits">changes both big and small</a>
           to the open source project. His passion is using code to improve
           peoples' lives in any way.
+
+- name: You?
+  role: employee
+  picture: logo-extra-whitespace.png
+  twitter: gitlab
+  story:  |
+          Want to see your name and picture here? Checkout our latest <a href="http://about.gitlab.com/jobs/">job openings!</a>
 ---
 
 <div class="wrapper">
@@ -218,8 +225,12 @@ team_members:
             <h3>{{member.name}}</h3>
             <h4>{{member.role}}</h4>
             <div class="social">
-              <a href="https://twitter.com/{{member.twitter}}">Twitter</a>
-              <a href="https://gitlab.com/u/{{member.gitlab}}">GitLab</a>
+              {% if member.twitter %}
+                <a href="https://twitter.com/{{member.twitter}}">Twitter</a>
+              {% endif %}
+              {% if member.gitlab %}
+                <a href="https://gitlab.com/u/{{member.gitlab}}">GitLab</a>
+              {% endif %}
             </div>
             <ul>
               {{member.maintains}}
