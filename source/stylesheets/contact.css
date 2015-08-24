@@ -29,11 +29,24 @@ p {
 
 .btn-primary {
   color: #FFF;
-  background-color: #9FB460;
+  background-color: #887AB6;
   border: none;
+}
+
+.clear {
+  padding-bottom: 4px;
 }
 
 .btn-primary:hover {
   color: #FFF;
-  background-color: #87A239;
+  background-color: #6654A1;
+}
+
+.btn-o {
+  padding-top: 5px;
+}
+
+.twitter-follow-button {
+  height: 25px !important;
+  padding-top: 5px !important;
 }
