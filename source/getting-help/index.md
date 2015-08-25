@@ -29,8 +29,8 @@ title: "Getting Help for GitLab"
 ## Reference
 * [GitLab documentation](http://doc.gitlab.com/ce/): information about the functionality in GitLab for users, administrators and developers.
 * [The GitLab Cookbook](https://www.packtpub.com/application-development/gitlab-cookbook): written by core team member Jeroen van Baarsen, it is the most comprehensive book about GitLab.
-    * Version two of the [Pro Git book](http://git-scm.com/book/en/v2) has a [section about GitLab.](http://git-scm.com/book/en/v2/Git-on-the-Server-GitLab)
-    * O'Reilly Media is working on a [book](http://shop.oreilly.com/product/0636920034520.do), as well as [videos](http://shop.oreilly.com/product/0636920034872.do?code=WKGTVD) about Git and GitLab. They also provide a [free video about creating a GitLab account](http://player.oreilly.com/videos/9781491912003?toc_id=194077).
+* Version two of the [Pro Git book](http://git-scm.com/book/en/v2) has a [section about GitLab.](http://git-scm.com/book/en/v2/Git-on-the-Server-GitLab)
+* O'Reilly Media 'Git for teams' [book](http://shop.oreilly.com/product/0636920034520.do) has a chapter on GitLab, there are also [videos](http://shop.oreilly.com/product/0636920034872.do?code=WKGTVD) about Git and GitLab. They also provide a [free video about creating a GitLab account](http://player.oreilly.com/videos/9781491912003?toc_id=194077).
 * [GitLab Youtube Channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg): the place where you can see video's of features and installation options.
 
 ## Reproducible Bugs
