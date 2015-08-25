@@ -27,7 +27,8 @@ title: "Getting Help for GitLab"
 * [GitLab Community Forum](https://forum.gitlab.com/): this is the best place to have a discussion.
 
 ## Reference
-* [GitLab documentation](http://doc.gitlab.com/ce/): information about the functionality in GitLab for users, administrators and developers.
+* [GitLab CE documentation](http://doc.gitlab.com/ce/): information about the functionality in GitLab for users, administrators and developers.
+* [GitLab application documentation](https://about.gitlab.com/documentation/): Documentation for all GitLab applications
 * [The GitLab Cookbook](https://www.packtpub.com/application-development/gitlab-cookbook): written by core team member Jeroen van Baarsen, it is the most comprehensive book about GitLab.
 * Version two of the [Pro Git book](http://git-scm.com/book/en/v2) has a [section about GitLab.](http://git-scm.com/book/en/v2/Git-on-the-Server-GitLab)
 * O'Reilly Media 'Git for teams' [book](http://shop.oreilly.com/product/0636920034520.do) has a chapter on GitLab, there are also [videos](http://shop.oreilly.com/product/0636920034872.do?code=WKGTVD) about Git and GitLab. They also provide a [free video about creating a GitLab account](http://player.oreilly.com/videos/9781491912003?toc_id=194077).
