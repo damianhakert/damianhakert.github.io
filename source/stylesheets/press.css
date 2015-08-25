@@ -279,8 +279,12 @@ overflow: hidden;
   margin-bottom: 15px;
 }
 
-.investors .press-image img {
-  width: 281px;
+.investors {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo-row {
 }
 
 .footer, .wrapper:after {
