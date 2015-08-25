@@ -9,9 +9,10 @@ title: "Getting Help for GitLab"
 
 ## Technical Support
 * [Troubleshooting guide](https://github.com/gitlabhq/gitlab-public-wiki/wiki/Trouble-Shooting-Guide): contains solutions to common problems.
-* [Mailing list](https://groups.google.com/forum/#!forum/gitlabhq) and [Stack Overflow](http://stackoverflow.com/questions/tagged/gitlab): the best places to ask questions. Please search for similar issues before posting your own, there's a good chance somebody else had the same issue you have now and has resolved it. If your particular issue turns out to be a bug, it will soon find its way towards a fix.
 * [Subscription](https://about.gitlab.com/subscription/): allows you to contact our GitLab service engineers to solve your problem.
 * [Consultancy](https://about.gitlab.com/consultancy/): personalized attention from the GitLab experts for installations, upgrades and customizations.
+* [Mailing list](https://groups.google.com/forum/#!forum/gitlabhq): Please search for similar issues before posting your own, there's a good chance somebody else had the same issue you have now and has resolved it.
+* [Stack Overflow](http://stackoverflow.com/questions/tagged/gitlab): Please search for similar issues before posting your own, there's a good chance somebody else had the same issue you have now and has resolved it.
 
 ## Feature Requests
 * [Feature Request Forum](http://feedback.gitlab.com): the place to propose and discuss new features for GitLab. Please search for similar requests before posting your own.
