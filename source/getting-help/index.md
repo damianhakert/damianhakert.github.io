@@ -7,16 +7,13 @@ title: "Getting Help for GitLab"
 * [GitLab update page](https://about.gitlab.com/update/): resources and information to help you update your GitLab instance.
 * [Maintenance policy](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/MAINTENANCE.md): specifies what versions are supported.
 
-## Discussing
-* [GitLab Community Forum](https://forum.gitlab.com/): this is the best place to have a discussion.
-
 ## Technical Support
 * [Troubleshooting guide](https://github.com/gitlabhq/gitlab-public-wiki/wiki/Trouble-Shooting-Guide): contains solutions to common problems.
 * [Mailing list](https://groups.google.com/forum/#!forum/gitlabhq) and [Stack Overflow](http://stackoverflow.com/questions/tagged/gitlab): the best places to ask questions. Please search for similar issues before posting your own, there's a good chance somebody else had the same issue you have now and has resolved it. If your particular issue turns out to be a bug, it will soon find its way towards a fix.
 * [Subscription](https://about.gitlab.com/subscription/): allows you to contact our GitLab service engineers to solve your problem.
 * [Consultancy](https://about.gitlab.com/consultancy/): personalized attention from the GitLab experts for installations, upgrades and customizations.
 
-## Feature Request
+## Feature Requests
 * [Feature Request Forum](http://feedback.gitlab.com): the place to propose and discuss new features for GitLab. Please search for similar requests before posting your own.
 
 ## Contributing
@@ -26,6 +23,7 @@ title: "Getting Help for GitLab"
 * [#gitlab IRC channel](https://webchat.freenode.net/?channels=gitlab): a Freenode channel to get in touch with other GitLab users and get help. It is managed by James Newton (newton), Drew Blessing (dblessing), and Sam Gleske (sag47).
 * [Gitter chat room](https://gitter.im/gitlabhq/gitlabhq#): here you can ask questions when you need help.
 * [GitLab.com](https://about.gitlab.com/gitlab-com/) users can use the [GitLab.com Support Forum](https://gitlab.com/gitlab-com/support-forum/issues) to report issues  and bugs if they do not have a [GitLab.com Bronze Support package](https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20).
+* [GitLab Community Forum](https://forum.gitlab.com/): this is the best place to have a discussion.
 
 ## Reference
 * [GitLab documentation](http://doc.gitlab.com/ce/): information about the functionality in GitLab for users, administrators and developers.
@@ -39,6 +37,3 @@ title: "Getting Help for GitLab"
 
 ## Security
 * Our [responsible disclosure page](https://about.gitlab.com/disclosure/) describes how to contact GitLab to report security vulnerabilities and other security information.
-
-### Note
-If you'd like to receive personalized attention and special features on your server, please consider our Enterprise Edition plans https://about.gitlab.com/pricing/.
