@@ -175,6 +175,30 @@ h1, h2, h3, h4, h5, button, a, p, li {
   margin-top: 20px;
 }
 
+.users span {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #a0c720;
+}
+
+.logos{
+  width: 100%;
+}
+
+.logo {
+  display: inline-block;
+  width: 15%;
+  margin: auto;
+  opacity: 0.5;
+}
+
+
+.logo_ibm img { }
+.logo_samsung img { }
+.logo_spacex img { }
+.logo_microsoft img { }
+.logo_shopify img { }
+.logo_toyota img { }
+
 .support i {
   font-size: 13em;
   color: #548;
