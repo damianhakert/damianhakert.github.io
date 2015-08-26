@@ -182,6 +182,7 @@ h1, h2, h3, h4, h5, button, a, p, li {
 
 .logos{
   width: 100%;
+  text-align: center;
 }
 
 .logo {
@@ -189,6 +190,7 @@ h1, h2, h3, h4, h5, button, a, p, li {
   width: 15%;
   margin: auto;
   opacity: 0.5;
+  padding: 10px;
 }
 
 
