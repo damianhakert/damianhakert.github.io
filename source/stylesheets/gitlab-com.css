@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, button, a, p, li {
     color: #a0c720;
 }
 
-.logos{
+.logos {
   width: 100%;
   text-align: center;
 }
@@ -190,16 +190,15 @@ h1, h2, h3, h4, h5, button, a, p, li {
   width: 15%;
   margin: auto;
   opacity: 0.5;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
-.logo_ibm img { }
-.logo_samsung img { }
-.logo_spacex img { }
-.logo_microsoft img { }
-.logo_shopify img { }
-.logo_toyota img { }
+.disclaimer {
+  font-size: .75em;
+  text-align: center;
+}
 
 .support i {
   font-size: 13em;
