@@ -44,11 +44,11 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 
 #### For GitLab BV employees only
 
-* [ ] New employee: provide HR with your BSN (burger service nummer) as well as the usual information (name, address, date of birth).
+* [ ] New employee: provide HR with your BSN (burger service nummer) and bank account information (IBAN code) as well as the usual information (name, address, date of birth).
 
 #### For All New Team Members
 
-* [ ] HR: Add new employees (Inc and/or BV) to [payroll](https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl).
+* [ ] HR: Add new employees to [Inc payroll](https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl) or [BV payroll](https://docs.google.com/document/d/1g6nZ7w1RqkSvD6VbyuRPauDTUuyTp4mDaHrUY2UVY-A/edit).
 * [ ] Operations: reach out to the new team member to identify and order any necessary supplies/equipment
 
 ### WITHIN FIRST WEEK OF STARTING
