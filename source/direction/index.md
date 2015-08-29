@@ -77,9 +77,11 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * [Improve navigating to your projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/2225)
 
-* In-picture-comments like in [zeplin.io](zeplin.io] or Phabricator
+* In-picture-comments like in [zeplin.io](zeplin.io) or Phabricator
 
 * [Get rid of the large SSH key file](https://gitlab.com/gitlab-org/gitlab-git-http-server/issues/2#note_1983654)
+
+* [Run the development kit in a Docker image](https://gitlab.com/gitlab-org/gitlab-development-kit/issues/47)
 
 ## EE
 * In PROGRESS [Multiple approvers](https://dev.gitlab.org/gitlab/gitlabhq/issues/2258)
