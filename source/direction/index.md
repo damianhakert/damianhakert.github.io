@@ -79,6 +79,8 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * In-picture-comments like in [zeplin.io](zeplin.io] or Phabricator
 
+* [Get rid of the large SSH key file](https://gitlab.com/gitlab-org/gitlab-git-http-server/issues/2#note_1983654)
+
 ## EE
 * In PROGRESS [Multiple approvers](https://dev.gitlab.org/gitlab/gitlabhq/issues/2258)
 
