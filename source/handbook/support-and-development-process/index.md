@@ -33,12 +33,8 @@ mention any alternatives, how badly the customer wants it
 * Ask Dmitriy for opinion (do we want this feature in GitLab: yes/no.
 Dmitriy might ask more questions before answer)
 
-* Ask Job when to schedule it.
-
 ## Paid feature request process
 
 * Points 1 and 2 of the Unpaid feature request process
 
 * Ask for an estimate
-
-* Ask Job when to schedule it.
