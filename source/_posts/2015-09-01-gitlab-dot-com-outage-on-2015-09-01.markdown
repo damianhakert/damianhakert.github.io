@@ -129,5 +129,5 @@ As an operations team we still struggle with giving enough status
 updates during a crisis. All people who were on this problem were
 focused on the GitLab.com servers, and nobody was talking to the
 GitLab.com users, leading to an hour of radio silence from
-`@gitlabstatus` during the incident. I want us to improve on this,
+`@gitlabstatus` during the incident. We need to improve on this,
 but like debugging NFS server meltdowns, it is a hard problem.
