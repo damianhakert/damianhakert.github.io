@@ -120,8 +120,8 @@ Last week, on 2015-08-27, we had a similar meltdown on gitlab.com,
 which we responded to by doubling the number of servers that handle
 user traffic. This does not seem to have helped with this problem.
 
-All we can do here for now is to keep looking for potential causes
-and keep monitoring the situation.
+We will keep looking for potential causes and keep monitoring the
+situation.
 
 # Lessons
 
