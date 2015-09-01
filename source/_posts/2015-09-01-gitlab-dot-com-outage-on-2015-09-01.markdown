@@ -98,7 +98,7 @@ UTC](https://twitter.com/gitlabstatus/status/638635500274909184).
 After seeing more 502 errors than usual for a few minutes, GitLab.com
 was operating normally again.
 
-# Next steps
+## Next steps
 
 We are in the process of moving all GitLab.com data off of the ext4
 filesystem that scared us with its two errors. This is because three
@@ -123,7 +123,7 @@ user traffic. This does not seem to have helped with this problem.
 We will keep looking for potential causes and keep monitoring the
 situation.
 
-# Lessons
+## Lessons
 
 As an operations team we still struggle with giving enough status
 updates during a crisis. All people who were on this problem were
