@@ -9,9 +9,11 @@ image_title: '/images/unsplash/osf-integration.jpeg'
 ---
 
 As GitLab community keeps growing, we believe it's vital to integrate with other services and support the open source
-movement. We would like to facilitate researchers' efforts by integrating GitLab with [Open Science Framework (OSF)](https://osf.io/). We sponsored a USD 5,000 grant through the [Center for Open Science (COS)](http://centerforopenscience.org/) for the developer who helps us integrate with OSF.
+movement. We would like to facilitate researchers' efforts by integrating GitLab with [Open Science Framework (OSF)](https://osf.io/). We will jointly sponsor a USD 8,000 - 10,000 grant through the [Center for Open Science (COS)](http://centerforopenscience.org/) for the developer who helps us integrate with OSF.
 
 <!-- more -->
+
+## What is OSF?
 
 Open Science Framework (OSF) is a free open source cloud based platform which connects services across the entire
 research lifecycle to promote research efficiency and reproducibility. OSF facilitates open collaboration in science
@@ -19,8 +21,10 @@ research. Today, they are integrated with storage providers Box.com, Dropbox, Am
 Drive, and Dataverse, and citation management tools Zotero and Mendeley. We believe that GitLab is a useful storage
 option that researchers should also have.
 
-The Center for Open Science supports and maintains the OSF and has grants available to connect OSF with the tools and
-services that researchers use. There is a USD 5,000 grant to help GitLab and OSF integration. Would you like to help us?
+The Center for Open Science supports and maintains the OSF and has [grants available](http://centerforopenscience.org/integrationgrants/) to connect OSF with many tools and
+services that researchers use. There is a USD 8,000 - 10,000 grant to help GitLab and OSF integration. Would you like to help us?
+
+## What should the proposals include?
 
 Proposals should include the following information:
 
