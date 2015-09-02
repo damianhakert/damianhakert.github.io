@@ -9,7 +9,7 @@ image_title: '/images/unsplash/osf-integration.jpeg'
 ---
 
 As GitLab community keeps growing, we believe it's vital to integrate with other services and support the open source
-movement. We would like to facilitate researchers' efforts by integrating GitLab with [Open Science Framework (OSF)](https://osf.io/). We sponsored a $5,000 grant through the [Center for Open Science (COS)](http://centerforopenscience.org/) for the developer who helps us integrate with OSF.
+movement. We would like to facilitate researchers' efforts by integrating GitLab with [Open Science Framework (OSF)](https://osf.io/). We sponsored a USD 5,000 grant through the [Center for Open Science (COS)](http://centerforopenscience.org/) for the developer who helps us integrate with OSF.
 
 <!-- more -->
 
@@ -20,7 +20,7 @@ Drive, and Dataverse, and citation management tools Zotero and Mendeley. We beli
 option that researchers should also have.
 
 The Center for Open Science supports and maintains the OSF and has grants available to connect OSF with the tools and
-services that researchers use. There is a $5,000 grant to help GitLab and OSF integration. Would you like to help us?
+services that researchers use. There is a USD 5,000 grant to help GitLab and OSF integration. Would you like to help us?
 
 Proposals should include the following information:
 
