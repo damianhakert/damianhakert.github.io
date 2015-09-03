@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A grant to help us integrate GitLab with open source OSF"
-date: 2015-09-02
+date: 2015-09-03
 comments: true
 author: GitLab Team
 author_twitter: gitlab
