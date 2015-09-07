@@ -104,9 +104,7 @@ We are in the process of moving all GitLab.com data off of the ext4
 filesystem that scared us with its two errors. This is because three
 years after we created it, we are outgrowing its built-in maximum
 size of 16 TB. We will run `git fsck` (Git's built-in consistency
-check) on each repository once we are on the new filesystem. Tip:
-if you want to know right now  if your repositories on GitLab.com
-are healthy, just clone them to a local machine.
+check) on each repository once we are on the new filesystem.
 
 We are still in the dark about the cause of the NFS slowdowns. We
 see no spikes of any kind of web requests around the slowdowns. The
