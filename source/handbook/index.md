@@ -68,6 +68,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <li>Be <b>kind</b> in your written communication, especially externally. Be constructive instead of argumentative or condescending.</li>
     <li>Everyone at the company cares about your <b>output</b>. Being away from the keyboard during the workday, doing private browsing or making personal phone calls is fine and encouraged.</li>
     <li>We're a <b>distributed</b> company where people work remote without missing out, prefer communication in public issues and chat channels and ensure conclusions of offline conversations are written down.</li>
+    <li>All guidelines in this handbook are meant to help, don't be afraid to do something because you can't oversee all guidelines, be gentle when reminding people about these guidlines, for example say: "It is not a problem, but next time please consider the following guideline from the handbook".</li>
   </ol>
 
 <h2 id="communication">Communication</h2>
@@ -76,7 +77,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 <ol>
     <li>All written communication happens in English, even when sent one on one, because sometimes you need to forward an email or chat.</li>
     <li>Use <b>asynchronous communication</b> when possible (issues and email instead of chat), issues are preferred over email, email is preferred over chat.</li>
-    <li>It is very OK to ask as many questions a you have, but ask them so many people can answer them and many people see the answer (so issues or public chat channels) and make sure you try to document it.</li>
+    <li>It is very OK to ask as many questions as you have, but ask them so many people can answer them and many people see the answer (so use issues or public chat channels instead of private messages or one-on-one emails) and make sure you try to document the answers.</li>
     <li>If you have to use email please send one email per subject as multiple items in one email will cause delays (have to respond to everything) or misses (forgot one of the items).</li>
     <li>Always reply to emails, even when no action is needed. This lets the other person know that you received it. A thread is done when there is a single word reply, such as OK, thanks, or done.</li>
     <li>If you forward an email without other comments please add FYI (for your information) or FYA (for your action).</li>
