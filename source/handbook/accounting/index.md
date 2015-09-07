@@ -337,3 +337,7 @@ In Quickbooks:
 * Fill the "Reference No." with the check # or bank reference # from incoming wire.
 * Fill the "Deposit to" with "Comerica Checking".
 * Fill the "Amount Received" with the amount received from the incoming wire.
+
+#### Note
+
+GitLab's Export Control Classification Number (ECCN) is EAR99.
