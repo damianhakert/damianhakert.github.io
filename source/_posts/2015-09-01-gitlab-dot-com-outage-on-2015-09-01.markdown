@@ -116,9 +116,9 @@ The NFS clients show kernel messages about processes hanging during
 filesystem operations, which really only tells us that here is an
 NFS problem.
 
-Last week, on 2015-08-27, we had a similar meltdown on gitlab.com,
+Last week, on 2015-08-27, we had a similar problem on GitLab.com,
 which we responded to by doubling the number of servers that handle
-user traffic. This does not seem to have helped with this problem.
+user traffic. That helped that time but it does not seem to have helped with this problem.
 
 We will keep looking for potential causes and keep monitoring the
 situation.
