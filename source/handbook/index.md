@@ -66,8 +66,8 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <li>If you fix something for GitLab.com or one of our users make sure to make that the default (preferred) and radiate the information in the docs, we should run GitLab.com with the default settings and setup our users would also have.</li>
     <li>Be <b>specific</b> in your written communication, especially externally. Do not reply with a generalization when you can give an example.</li>
     <li>Be <b>kind</b> in your written communication, especially externally. Be constructive instead of argumentative or condescending.</li>
-    <li>Everyone at the company cares about your output. Being away from the keyboard during the workday, doing private browsing or making personal phone calls is fine and encouraged.</li>
-    <li>We're a distributed company where people work remote without missing out, prefer communication in public issues and chat channels and ensure conclusions of offline conversations are written down.</li>
+    <li>Everyone at the company cares about your <b>output</b>. Being away from the keyboard during the workday, doing private browsing or making personal phone calls is fine and encouraged.</li>
+    <li>We're a <b>distributed</b> company where people work remote without missing out, prefer communication in public issues and chat channels and ensure conclusions of offline conversations are written down.</li>
   </ol>
 
 <h2 id="communication">Communication</h2>
