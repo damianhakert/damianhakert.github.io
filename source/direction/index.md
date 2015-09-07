@@ -83,6 +83,8 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * [Run the development kit in a Docker image](https://gitlab.com/gitlab-org/gitlab-development-kit/issues/47)
 
+* [Deprecate the authorized keys file](https://gitlab.com/gitlab-org/gitlab-git-http-server/issues/2#note_2064375)
+
 ## EE
 * In PROGRESS [Multiple approvers](https://dev.gitlab.org/gitlab/gitlabhq/issues/2258)
 
