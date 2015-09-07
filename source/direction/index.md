@@ -110,11 +110,15 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * Automatically give code quality metrics in the merge request
 
+* [Automatic Docker image cleanup](https://gitlab.com/ayufan/gitlab-runner-docker-cleanup/issues/1)
+
 * Show code coverage in diffs with colored horizontal bar
 
 * [Static hosting (Pages/Sites)](https://dev.gitlab.org/gitlab/gitlabhq/issues/2290)
 
 * A/B testing of branches
+
+* [Shared runners](https://dev.gitlab.org/gitlab/gitlab-ci/issues/322#note_56433) automanaged [by Kubernetes](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/30)
 
 ## Other software in the Omnibus packages
 
