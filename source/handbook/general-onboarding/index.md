@@ -44,7 +44,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 
 #### For GitLab BV employees only
 
-* [ ] New employee: provide HR with your BSN (burger service nummer) and bank account information (IBAN code) as well as the usual information (name, address, date of birth).
+* [ ] New employee: provide HR with your BSN (burger service nummer), bank account information (IBAN code), the basics (name, address, date of birth), and if you are based in the Netherlands, please indicate whether you want "loonheffingskorting" to be applied or not.
 
 #### For All New Team Members
 
