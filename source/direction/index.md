@@ -19,7 +19,7 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 ## UI
 
-* File upload button on pages like https://gitlab.com/gitlab-com/www-gitlab-com/new/master/source/handbook
+* [File upload button in webeditor](https://gitlab.com/gitlab-com/www-gitlab-com/issues/410)
 
 * After editing a comment, comment and close should work correctly
 
