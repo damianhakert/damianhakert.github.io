@@ -104,7 +104,7 @@ Most links point to a private server of GitLab company and can't be accessed pub
 
 * [Upload build artifacts](https://dev.gitlab.org/gitlab/gitlab-ci/issues/56)
 
-* Option to test the merge of the feature branch with master instead of the feature branch itself (you will have to retest all MR's every time master is updated)
+* Option to test the [merge of the feature branch with master](http://homu.io/) instead of the feature branch itself (you will have to retest all MR's every time master is updated)
 
 * Dependent builds [Feedback](http://feedback.gitlab.com/forums/176466-general/suggestions/7233770-chain-builds) and [internal issue](https://dev.gitlab.org/gitlab/gitlab-ci/issues/328)
 
