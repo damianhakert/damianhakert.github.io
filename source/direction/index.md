@@ -17,6 +17,23 @@ Merge requests that implement the functionality below are very welcome.
 
 Most links point to a private server of GitLab company and can't be accessed publicly.
 
+## UI
+
+* File upload button on pages like https://gitlab.com/gitlab-com/www-gitlab-com/new/master/source/handbook
+
+* After editing a comment, comment and close should work correctly
+
+* Below a list there is too little whitespace in markdown files
+
+* [Change notification setting](https://dev.gitlab.org/gitlab/gitlabhq/issues/2395)
+
+* When I link to edit but I don't have editing rights it should redirect to view
+
+* [Edit on protected branch should create a new branch](https://dev.gitlab.org/gitlab/gitlabhq/issues/2242)
+
+* [Filter by more than one label](https://gitlab.com/gitlab-org/gitlab-ce/issues/989)
+
+
 ## CE
 
 * IN PROGRESS: Settings from config/gitlab.yml to application settings in ui
