@@ -15,7 +15,7 @@ It includes the following fixes:
 
 - **CE:** Fix `git blame` errors with ISO-encoded files
 - **CE:** Handle broken symlinks in create-hooks
-- **CE:** ***Security Fix*** Escape user-provided content in preserved HAML
+- **CE:** ***Security Fix*** Escape user-provided content in preserved Haml
   sections
 - **EE:** Fix rebase before merge.
 - **CI**: Fix commits ordering when using PostgreSQL
