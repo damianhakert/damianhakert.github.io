@@ -44,7 +44,7 @@ Access to GitLab Enterprise Edition is included with a [subscription](http://www
 No time to upgrade GitLab yourself?
 Subscribers receive upgrade and installation services.
 
-[yesterday's release]: https://about.gitlab.com/2015/09/09/gitlab-7-dot-14-dot-2-released/
+[yesterday's release]: /2015/09/09/gitlab-7-dot-14-dot-2-released/
 [update guide]: https://gitlab.com/gitlab-org/gitlab-ce/blob/7-14-stable/doc/update/7.13-to-7.14.md
 [Update gitlab-shell]: https://gitlab.com/gitlab-org/gitlab-ce/blob/7-14-stable/doc/update/7.13-to-7.14.md#4-update-gitlab-shell
 [Install libs, migrations, etc.]: https://gitlab.com/gitlab-org/gitlab-ce/blob/7-14-stable/doc/update/7.13-to-7.14.md#5-install-libs-migrations-etc
