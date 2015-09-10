@@ -12,7 +12,8 @@ GitLab.com.
 The first thing you should do is find the picture that you’d like to add to
 our [team page](https://about.gitlab.com/team/) and then follow the "[how
 to add an image](http://doc.gitlab.com/ce/gitlab-basics/add-image.html)"
-steps. Any photo that you provide will be made black-and-white automatically after you add it.
+steps. Any photo that you provide will be made black-and-white
+automatically after you add it.
 
 ## Add yourself to the Team page
 
@@ -25,13 +26,21 @@ access.
 
 1. On the left side of your screen, click on "Files".
 
-1. Find the dropdown menu at the top of your screen and find the branch that you previously created to add your picture (they are in alphabetical order). If you don't have a branch yet, follow the steps to [create a new branch](http://doc.gitlab.com/ce/gitlab-basics/create-branch.html).
+1. Find the dropdown menu at the top of your screen and find the branch
+that you previously created to add your picture (they are in alphabetical
+order). If you don't have a branch yet, follow the steps to [create a new
+branch](http://doc.gitlab.com/ce/gitlab-basics/create-branch.html).
 
-1. Find the file where the [Team page](https://about.gitlab.com/team/) is located, by clicking on each of the following files: source/ team/ index.html.
+1. Find the file where the [Team page](https://about.gitlab.com/team/) is
+located, by clicking on each of the following files: source/ team/
+index.html.
 
-1. When you are in “index.html”, click on “edit” on the top right side of your screen.
+1. When you are in “index.html”, click on “edit” on the top right side of
+your screen.
 
-1. Your information should be added after the last person on the team page. You need to copy and paste the following format and fill in your own information:
+1. Your information should be added after the last person on the team page.
+You need to copy and paste the following format and fill in your own
+information:
 
 ```
 - name: Linus Torvalds
@@ -40,10 +49,19 @@ access.
   twitter: Linus_Torvalds
   gitlab: linustorvalds
   story:  |
-          Linus was the principal force behind the development of the Linux kernel that became the most popular kernel for operating systems. He later became the chief architect of the Linux kernel and now acts as the project's coordinator. He also created the distributed revision control system git. He joined when it was created.
+          Linus was the principal force behind the development of the Linux
+          kernel that became the most popular kernel for operating systems.
+          He later became the chief architect of the Linux kernel and now
+          acts as the project's coordinator. He also created the
+          distributed revision control system git. He joined when it was
+          created.
 ```
-Don't forget to use other team members' information as a reference and to respect the spaces between lines.
+Don't forget to use other team members' information as a reference and to
+respect the spaces between lines.
 
-* After you added your information, add a comment to your commit and click on “Commit Changes”.
+* After you added your information, add a comment to your commit and click
+on “Commit Changes”.
 
-* Create a [Merge Request](http://doc.gitlab.com/ce/gitlab-basics/add-merge-request.html) and assign it to your manager for review.
+* Create a [Merge
+Request](http://doc.gitlab.com/ce/gitlab-basics/add-merge-request.html) and
+assign it to your manager for review.
