@@ -34,12 +34,13 @@ access.
 1. Your information should be added after the last person on the team page. You need to copy and paste the following format and fill in your own information:
 
 ```
-- name:
-  role:
-  picture:
-  twitter:
-  gitlab:
+- name: Linus Torvalds
+  role: developer
+  picture: picture_linus.jpg
+  twitter: Linus_Torvalds
+  gitlab: linustorvalds
   story:  |
+          Linus was the principal force behind the development of the Linux kernel that became the most popular kernel for operating systems. He later became the chief architect of the Linux kernel and now acts as the project's coordinator. He also created the distributed revision control system git. He joined when it was created.
 ```
 Don't forget to use other team members' information as a reference and to respect the spaces between lines.
 
