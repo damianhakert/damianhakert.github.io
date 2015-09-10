@@ -18,7 +18,11 @@ It includes the following fixes:
 - **CE:** ***Security Fix*** Escape user-provided content in preserved Haml
   sections
 - **EE:** Fix rebase before merge.
-- **CI**: Fix commits ordering when using PostgreSQL
+- **CI**: ~~Fix commits ordering when using PostgreSQL~~
+
+***Update*** *(2015-09-10 20:30 UTC)*: The CI fix mentioned above was mistakenly
+omitted and a [new version has been released](/2015/09/10/gitlab-7-dot-14-dot-3-released/)
+to include it.
 
 <!-- more -->
 
