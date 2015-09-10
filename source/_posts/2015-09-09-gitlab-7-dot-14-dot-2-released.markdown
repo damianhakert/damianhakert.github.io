@@ -22,6 +22,11 @@ It includes the following fixes:
 
 <!-- more -->
 
+***Update:*** *2015-09-10 08:00 UTC* - Due to a mistake during the release
+process, packages were created that omitted the CI change noted above. Affected
+packages are the `.0` versions (e.g., `7.14.2-ce.0`, `7.14.2-ee.0`), and
+corrected packages have been released.
+
 ## Upgrade barometer
 
 This version does not include any new migrations, and should not require any
