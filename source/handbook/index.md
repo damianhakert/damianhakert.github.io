@@ -89,6 +89,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <li>If there are materials relevant for a calandar meeting (for example a Google Doc) please add the url to the meeting invite description.</li>
     <li>If you want to ask people if they are available for an event please send a calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.</li>
     <li>If you want to schedule time with a teammember for an outside meeting, create a calendar appointment and invite the teammember only, after they respond yes then invite outside people.</li>
+    <li>If you want to move a meeting just move the calendar appointment instead of reaching out via other channels, note the change at the top of the description.</li>
     <li>
       Thank people that did a great job in our 'Thanks' chat channel.
       If someone is an employee just "@" mention them.
