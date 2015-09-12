@@ -99,7 +99,7 @@ We welcome contributions that implement any of these things.
 - IN PROGRESS [Mirroring](https://dev.gitlab.org/gitlab/gitlab-ee/issues/279)
 - Push to another repo
 - [Management dashboard](https://dev.gitlab.org/gitlab/gitlab-ee/issues/287)
-- Distributed file system store for large files (Git Annex or Git LFS) and uploads. Can do in in [Ceph](http://ceph.com/), [XtreemFS](http://www.xtreemfs.org/), [LizardFS](http://lizardfs.com/) or something else. Or not [blobs](http://blog.justinsb.com/blog/2013/12/14/cloudata-day-8/) because [performance might suffer](https://news.ycombinator.com/item?id=9839581) as also indicated [by a libgit2 developer](https://about.gitlab.com/handbook/general-onboarding/).
+- Distributed file system store for large files (Git Annex or Git LFS) and uploads. Can do in in [Ceph](http://ceph.com/), [XtreemFS](http://www.xtreemfs.org/), [LizardFS](http://lizardfs.com/) or something else. Or not [blobs](http://blog.justinsb.com/blog/2013/12/14/cloudata-day-8/) because [performance might suffer](https://news.ycombinator.com/item?id=9839581), this was as also indicated by a libgit2 developer in an issue, please add the link for that if you have it.
 - [Geographic slave servers with GitLab RE](https://dev.gitlab.org/gitlab/gitlabhq/issues/2359) for plus subscriptions only
 
 ### CI
