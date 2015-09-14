@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Remote Agile at GitLab"
-date: 2015-09-10
+date: 2015-09-14
 comments: true
 author: Job van der Voort
 author_twitter: Jobvo
@@ -10,12 +10,12 @@ filename: 2015-09-10-remote-agile-at-gitlab.markdown
 ---
 
 Every month on the 22nd a new version of GitLab is released. It always
-includes major changes, including features, bug fixes and performance improvements.
+includes major changes, with features, bug fixes and performance improvements.
 We haven't missed a single month since our inception.
 
 We are completely remote, save for the office in San Francisco that not a single
 developer frequents (a 10,000km commute is a bit much for most). We do not have
-predefined teams and almost everyone works independently (i.e. lacks someone telling
+predefined teams and almost everyone works independently (i.e. someone telling
 them what to do).
 
 We do not practice any specific agile methodology, but meet the principles
@@ -32,9 +32,9 @@ lightweight and self organizing. It might or might not scale.
 A large part of everything we build in terms of features is based on feedback from the
 community and customers.
 
-When a request comes in through support or sales from a
-customer, the person receiving this request creates an issue to discuss the request.
-They are also responsible for mentioning relevant parties. For most features that
+When a request comes in from a customer (through support or sales usually),
+the person receiving this request creates an issue to discuss it.
+They are responsible for mentioning relevant parties. For most features that
 is the product manager, CTO, and any developers or other people that might be
 interested in this feature.
 
@@ -105,8 +105,9 @@ This often results in dropping the issue as it's no longer relevant or moving it
 up to a future release and pinging a developer to take ownership of it.
 
 Managing overflow issues is a very hard balance between capacity and process.
-Mostly we blame a lack of developer capacity with overflow issues. With every
-release, we try to reflect on what could have been done better.
+Mostly we blame a lack of developer capacity with overflow issues
+([we're hiring!](https://about.gitlab.com/jobs/)).
+With every release, we try to reflect on what could have been done better.
 
 For example, most recently Douwe and I proposed a different model to schedule
 issues to prevent too many promised issues. Most developers had strong opinions
@@ -116,11 +117,11 @@ the status quo.
 
 ## Openness, Independence and Responsibility
 
-As a developer you're required to operate independent and make decisions.
+As a developer you're required to operate independently and make decisions.
 By making your own decisions, it reduces process overhead and unnecessary
 communication.
 
-It's your responsibility to report those decision in the issue that you're working
+It's your responsibility to report those decisions in the issue that you're working
 from. This is the core of our workflow. People that were previously active in the
 same issue, will receive your updates and thoughts without disturbing one another.
 If there is an issue, they will respond in the issue. The whole process is asynchronous
