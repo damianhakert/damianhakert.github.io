@@ -21,7 +21,7 @@ them what to do).
 We do not practice any specific agile methodology, but meet the principles
 of the [agile manifesto](http://www.agilemanifesto.org/iso/en/principles.html) quite well.
 
-This is a first step at formalizing the workflow that we've established over
+This is a start in describing the workflow that we've established over
 the past year at GitLab, as it seems to work for us and might for you. It's
 lightweight and self organizing. It might or might not scale.
 
