@@ -38,7 +38,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   <li><a href="#paid-time-off">Paid Time Off</a></li>
   <li><a href="#signing-legal-documents">Signing Legal Documents</a></li>
   <li><a href="#general-guidelines">GitLab workflow guidlines</a></li>
-  <li><a href="#starting-with-git">Getting Started with Git and GitLab</a></li>
+  <li><a href="#starting-with-git">Using Git to update this website</a></li>
 </ul>
 
 <h2 id="general-guidelines">General Guidelines</h2>
@@ -258,30 +258,26 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <li>Do not close an issue until code has been merged, it has been <b>reported</b> back to all parties, all issue trackers are updated and any documentation is written and merged.</li>
   </ol>
 
-<h2 id="starting-with-git">Getting Started with Git and GitLab</h2>
+<h2 id="starting-with-git">Using Git to update this website</h2>
 
-<p>
-Step-by-step guides on the <a href="http://doc.gitlab.com/ce/gitlab-basics/README.html">basics of working with Git and GitLab.</a>
-</p>
-
-<h3>Create your SSH Keys</h3>
-
+<h3>Start using GitLab</h3>
 <ol>
-	<li>Before you start working with GitLab, you will need to <a href="http://doc.gitlab.com/ce/gitlab-basics/create-your-ssh-keys.html">create your SSH Keys</a></li>
+   <li> Follow the step-by-step guides on the <a href="http://doc.gitlab.com/ce/gitlab-basics/README.html">basics of working with Git and GitLab.</a></li>
+	<li>You will need to <a href="http://doc.gitlab.com/ce/gitlab-basics/create-your-ssh-keys.html">create your SSH Keys</a></li>
 </ol>
 <h3>Install Git</h3>
 <ol>
-    <li>Check Git version type:  git --version </li>
-    <li>If Git is not installed, you will get prompted to install </li>
+    <li>Check Git version type: git --version </li>
+    <li>If Git is not installed, you should get prompted to install it.</li>
 </ol>
-<h3>Install Ruby Manager and Ruby to create a blog post</h3>
-<h5>Install Ruby Manager</h5>
+<h3>Install RVM</h5>
 <ol>
     <li>Go to: <a href="https://rvm.io/">https://rvm.io</a></li>
     <li>Type: \curl -sSL https: //get.rvm.io | bash -s stable</li>
     <li>Close Terminal</li>
     <li>Open new Terminal to load new environment</li>
-<h5>Install Ruby</h5>
+</ol>
+<h3>Install Ruby</h5>
 <ol>
     <li> Type into Terminal: rvm install 2.2.1</li>
     <li> Prompt to enter password for your machine</li>
@@ -293,7 +289,5 @@ Step-by-step guides on the <a href="http://doc.gitlab.com/ce/gitlab-basics/READM
 <ol>
     <li> Type: bundle exec rake preview</li>
     <li> Type: http: //localhost:4000</li>
+    <li> To edit the HTML locally you need to install a text editior, we recommend <a href="http://www.sublimetext.com/2">Sublime.</a></li>
 </ol>
-<p>
-To edit an HTML you need to install <a href="http://www.sublimetext.com/2">text editor.</a>
-</p>
