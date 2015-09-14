@@ -13,7 +13,7 @@ The first thing you should do is find the picture that you’d like to add to
 our [team page](https://about.gitlab.com/team/) and then follow the "[how
 to add an image](http://doc.gitlab.com/ce/gitlab-basics/add-image.html)"
 steps. Any photo that you provide will be made black-and-white
-automatically after you add it.
+automatically after you add it, but it must be square.
 
 ## Add yourself to the Team page
 
@@ -30,6 +30,7 @@ access.
 that you previously created to add your picture (they are in alphabetical
 order). If you don't have a branch yet, follow the steps to [create a new
 branch](http://doc.gitlab.com/ce/gitlab-basics/create-branch.html).
+![dropdown menu](source/images/dropdown-branch-teampage.jpg)
 
 1. Find the file where the [Team page](https://about.gitlab.com/team/) is
 located, by clicking on each of the following files: source/ team/
@@ -57,7 +58,7 @@ information:
           created.
 ```
 Don't forget to use other team members' information as a reference and to
-respect the spaces between lines.
+respect the spaces between lines. Please don't use "tab" because it will brake the page format.
 
 * After you added your information, add a comment to your commit and click
 on “Commit Changes”.
