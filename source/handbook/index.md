@@ -270,14 +270,14 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <li>Check Git version type: git --version </li>
     <li>If Git is not installed, you should get prompted to install it.</li>
 </ol>
-<h3>Install RVM</h5>
+<h3>Install RVM</h3>
 <ol>
     <li>Go to: <a href="https://rvm.io/">https://rvm.io</a></li>
     <li>Type: \curl -sSL https: //get.rvm.io | bash -s stable</li>
     <li>Close Terminal</li>
     <li>Open new Terminal to load new environment</li>
 </ol>
-<h3>Install Ruby</h5>
+<h3>Install Ruby</h3>
 <ol>
     <li> Type into Terminal: rvm install 2.2.1</li>
     <li> Prompt to enter password for your machine</li>
