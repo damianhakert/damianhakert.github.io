@@ -172,7 +172,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <ul>
       <li>Laptop</li>
       <li>Laptop carrying bag</li>
-      <li>External <a href="http://www.amazon.com/gp/product/B009C3M7H0?psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s00">monitor</a>>, keyboard, mouse, webcam and ethernet connector</li>
+      <li>External <a href="http://www.amazon.com/gp/product/B009C3M7H0?psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s00">monitor</a>>, [monitor-cable](http://www.amazon.com/Monoprice-32AWG-Mini-DisplayPort-Cable/dp/B0034X6SCY/ref=sr_1_1?ie=UTF8&qid=1442231319&sr=8-1&keywords=Monoprice+6ft+32AWG+Mini+DisplayPort+to+DisplayPort+Cable+-+White), keyboard, mouse, webcam and ethernet connector</li>
       <li>Headset</li>
       <li>(Height adjustable) desk</li>
       <li>Ergonomic chair</li>
