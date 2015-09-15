@@ -10,8 +10,11 @@ filename: 2015-09-22-gitlab-8-0-released.markdown
 image_title: /images/8_0/PICTURE.PNG
 ---
 
-GitLab is open source software to collaborate on code.
-Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
+After more than a year, GitLab's next major version is here. And it's the
+best GitLab so far.
+We're very excited that with GitLab 8.0 we're paving the path for the future.
+It's faster, more beautiful and does more than any version that came before it.
+
 The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
 In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
 
