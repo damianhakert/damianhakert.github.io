@@ -111,8 +111,8 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <li>Discuss the subjects that are on the agenda for today and <b>mention the subject of the next item when you hand over to the next person</b>.</li>
     <li>Finish by asking everyone what their working plans are for today/tomorrow.</li>
     <li>First person in the call order that is present (normally Dmitriy) wishes everyone a good day.</li>
-    <li>On OS X you can reduce CPU usage by using Safari instead of Chrome.</li>
-    <li>You can preserve bandwidth by clicking the antenna icon on top and setting it to low.</li>
+    <li>On OS X you can reduce CPU usage of Hangouts by using Safari instead of Chrome.</li>
+    <li>You can preserve bandwidth of Hangouts by clicking the antenna icon on top and setting it to low.</li>
 </ol>
 
 <h3 id="user-communication-guidelines">User Communication Guidelines</h3>
@@ -229,7 +229,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <li><b>'Double link'</b> issues to prevent internal confusion and us failing to report back to the reporters. For example, open an issue with link to ZenDesk and close the issue with copy of the response. Or add 'Report: ' lines to the description with links to relevant issues and feature requests and ensure they are closed and note this with a comment. If you are not responsible for reporting back please do not close an issue, instead reassign it.</li>
     <li>If issues are related <b>crosslink</b> them (a link from each issue to the other one). Put the links at the top of the issues' description with a short mention of the relationship (Report, etc.). If there are more than 2 issues use one issue as the central one and crosslink all issues to this one. Please, also crosslink between Zendesk and GitLab issues.</li>
     <li>Give the community the <b>chance to help</b>. For example: place issues on the feedback tracker, leave comments in rake check tests about what you can run manually and ask 'can you send a merge request to fix this?'.</li>
-    <li>Submit the smallest item of work that makes sense. For example if you're new to GitLab and are writing documentation or instructions submit your first merge request for at most 20 lines.</li>
+    <li>Submit the <b>smallest</b> item of work that makes sense. For example if you're new to GitLab and are writing documentation or instructions submit your first merge request for at most 20 lines.</li>
     <li>Do not leave issues open for a long time, issues should be <b>actionable</b> and realistic. If you are assigned but don't have time mention it to someone. If nobody is assigned and it is not a priority please ensure the community can help and close it.</li>
     <li>Make a conscious effort to <b>prioritize</b> your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc. What follows is a general guideline from urgent to less urgent:
     <ol>
