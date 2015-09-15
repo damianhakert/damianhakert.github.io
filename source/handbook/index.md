@@ -102,6 +102,41 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     </li>
 </ol>
 
+<h3 id="gitlab-workflow">GitLab Workflow</h3>
+<ol>
+    <li>Always <b>create</b> an issue for things you work on. If it is worth spending time on it is worth creating an issue for it since that enables other people to learn and help. You can always edit the description or close it when the problem is something different or disappears.</li>
+    <li><b>'Double link'</b> issues to prevent internal confusion and us failing to report back to the reporters. For example, open an issue with link to ZenDesk and close the issue with copy of the response. Or add 'Report: ' lines to the description with links to relevant issues and feature requests and ensure they are closed and note this with a comment. If you are not responsible for reporting back please do not close an issue, instead reassign it.</li>
+    <li>If issues are related <b>crosslink</b> them (a link from each issue to the other one). Put the links at the top of the issues' description with a short mention of the relationship (Report, etc.). If there are more than 2 issues use one issue as the central one and crosslink all issues to this one. Please, also crosslink between Zendesk and GitLab issues.</li>
+    <li>Give the community the <b>chance to help</b>. For example: place issues on the feedback tracker, leave comments in rake check tests about what you can run manually and ask 'can you send a merge request to fix this?'.</li>
+    <li>Submit the <b>smallest</b> item of work that makes sense. For example if you're new to GitLab and are writing documentation or instructions submit your first merge request for at most 20 lines.</li>
+    <li>Do not leave issues open for a long time, issues should be <b>actionable</b> and realistic. If you are assigned but don't have time mention it to someone. If nobody is assigned and it is not a priority please ensure the community can help and close it.</li>
+    <li>Make a conscious effort to <b>prioritize</b> your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc. What follows is a general guideline from urgent to less urgent:
+    <ol>
+        <li><b>Emergency</b> issues from standard or plus subscribers.</li>
+        <li><b>Security</b> issues.</li>
+        <li><b>Data integrity</b> (not losing data).</li>
+        <li><b>Availability</b> of GitLab.com.</li>
+        <li><b>Subscriber</b> questions.</li>
+        <li><b>Regression</b> issues.</li>
+        <li><b>Consultancy</b> work.</li>
+        <li><b>Promised</b> features.</li>
+        <li><b>Growth</b> efforts.</li>
+        <li><b>Other</b> work.</li>
+    </ol>
+    </li>
+    <li>Use the public issue trackers on GitLab.com for anything related to our software since <a href="https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/">we work out in the open</a>.
+    <li>Our internal dev.gitlab.org server is used for <a href="https://dev.gitlab.org/gitlab/gitlabhq/issues">security issues</a> (but do create a double linked tracking issue on GitLab.com), for <a href="https://dev.gitlab.org/cookbooks/chef-repo/issues">operations</a> and for <a href="https://dev.gitlab.org/gitlab/organization/issues">organizational</a> issues.
+    <li>Pick issues from the current <a href="https://gitlab.com/groups/gitlab-org/milestones">milestone</a>.</li>
+    <li>We try not to assign issues to people but to have people <b>pick issues</b> in a milestone themselves.</li>
+    <li>Assign an issue to yourself as soon as you start to work on it, but not before that time.</li>
+    <li>We keep our <b>promises</b> and do not make external promises without internal agreement.</li>
+    <li>Even when something is not done, share it internally so people can comment early and prevent rework. Mark it <a href="http://doc.gitlab.com/ce/workflow/wip_merge_requests.html">WIP</a> so it is not merged by accident.</li>
+    <li>If you are assigned to merge a Merge Request and there is a merge conflict, consider trying to resolve it <b>yourself</b> instead of asking the MR creator to resolve the conflict. If it is easy to resolve you avoid a round trip between you and the creator, and the MR gets merged sooner. This is a suggestion, not an obligation.</li>
+    <li>When you create a merge request, please <b>mention</b> the issue that it solves in the description but avoid auto closing it by saying Fixes #1 or Solves #1. Since we frequently have to report back to customers or the rest of the community, issues are not done when the code is merged.</li>
+    <li>If you ask a question to a specific person, always start the comment by mentioning them; this will ensure they see it if their notification level is mentioned and other people will understand they don't have to respond.</li>
+    <li>Do not close an issue until code has been merged, it has been <b>reported</b> back to all parties, all issue trackers are updated and any documentation is written and merged.</li>
+</ol>
+
 <h3 id="team-call">Team Call</h3>
 <ol>
     <li>Please join the meeting with your x@gitlab.com account, not your private google one.</li>
@@ -222,41 +257,6 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
         <li> Deadline by which you need the document to be signed, dated and submitted.</li>
   </ol>
   The document will be managed through Hellosign, a cloud-based electronic signature tool.
-
-<h2 id="gitlab-workflow">GitLab Workflow</h2>
-  <ol>
-    <li>Always <b>create</b> an issue for things you work on. If it is worth spending time on it is worth creating an issue for it since that enables other people to learn and help. You can always edit the description or close it when the problem is something different or disappears.</li>
-    <li><b>'Double link'</b> issues to prevent internal confusion and us failing to report back to the reporters. For example, open an issue with link to ZenDesk and close the issue with copy of the response. Or add 'Report: ' lines to the description with links to relevant issues and feature requests and ensure they are closed and note this with a comment. If you are not responsible for reporting back please do not close an issue, instead reassign it.</li>
-    <li>If issues are related <b>crosslink</b> them (a link from each issue to the other one). Put the links at the top of the issues' description with a short mention of the relationship (Report, etc.). If there are more than 2 issues use one issue as the central one and crosslink all issues to this one. Please, also crosslink between Zendesk and GitLab issues.</li>
-    <li>Give the community the <b>chance to help</b>. For example: place issues on the feedback tracker, leave comments in rake check tests about what you can run manually and ask 'can you send a merge request to fix this?'.</li>
-    <li>Submit the <b>smallest</b> item of work that makes sense. For example if you're new to GitLab and are writing documentation or instructions submit your first merge request for at most 20 lines.</li>
-    <li>Do not leave issues open for a long time, issues should be <b>actionable</b> and realistic. If you are assigned but don't have time mention it to someone. If nobody is assigned and it is not a priority please ensure the community can help and close it.</li>
-    <li>Make a conscious effort to <b>prioritize</b> your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc. What follows is a general guideline from urgent to less urgent:
-    <ol>
-        <li><b>Emergency</b> issues from standard or plus subscribers.</li>
-        <li><b>Security</b> issues.</li>
-        <li><b>Data integrity</b> (not losing data).</li>
-        <li><b>Availability</b> of GitLab.com.</li>
-        <li><b>Subscriber</b> questions.</li>
-        <li><b>Regression</b> issues.</li>
-        <li><b>Consultancy</b> work.</li>
-        <li><b>Promised</b> features.</li>
-        <li><b>Growth</b> efforts.</li>
-        <li><b>Other</b> work.</li>
-    </ol>
-    </li>
-    <li>Use the public issue trackers on GitLab.com for anything related to our software since <a href="https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/">we work out in the open</a>.
-    <li>Our internal dev.gitlab.org server is used for <a href="https://dev.gitlab.org/gitlab/gitlabhq/issues">security issues</a> (but do create a double linked tracking issue on GitLab.com), for <a href="https://dev.gitlab.org/cookbooks/chef-repo/issues">operations</a> and for <a href="https://dev.gitlab.org/gitlab/organization/issues">organizational</a> issues.
-    <li>Pick issues from the current <a href="https://gitlab.com/groups/gitlab-org/milestones">milestone</a>.</li>
-    <li>We try not to assign issues to people but to have people <b>pick issues</b> in a milestone themselves.</li>
-    <li>Assign an issue to yourself as soon as you start to work on it, but not before that time.</li>
-    <li>We keep our <b>promises</b> and do not make external promises without internal agreement.</li>
-    <li>Even when something is not done, share it internally so people can comment early and prevent rework. Mark it <a href="http://doc.gitlab.com/ce/workflow/wip_merge_requests.html">WIP</a> so it is not merged by accident.</li>
-    <li>If you are assigned to merge a Merge Request and there is a merge conflict, consider trying to resolve it <b>yourself</b> instead of asking the MR creator to resolve the conflict. If it is easy to resolve you avoid a round trip between you and the creator, and the MR gets merged sooner. This is a suggestion, not an obligation.</li>
-    <li>When you create a merge request, please <b>mention</b> the issue that it solves in the description but avoid auto closing it by saying Fixes #1 or Solves #1. Since we frequently have to report back to customers or the rest of the community, issues are not done when the code is merged.</li>
-    <li>If you ask a question to a specific person, always start the comment by mentioning them; this will ensure they see it if their notification level is mentioned and other people will understand they don't have to respond.</li>
-    <li>Do not close an issue until code has been merged, it has been <b>reported</b> back to all parties, all issue trackers are updated and any documentation is written and merged.</li>
-  </ol>
 
 <h2 id="starting-with-git">Using Git to update this website</h2>
 
