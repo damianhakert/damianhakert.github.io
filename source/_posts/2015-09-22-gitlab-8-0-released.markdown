@@ -10,9 +10,18 @@ filename: 2015-09-22-gitlab-8-0-released.markdown
 image_title: /images/8_0/PICTURE.PNG
 ---
 
-After more than a year, GitLab's next major version is here. And it's the
-best GitLab so far.
-We're very excited that with GitLab 8.0 we're paving the path for the future.
+Fifteen months ago we [released](https://about.gitlab.com/2014/06/22/gitlab-7-dot-0-released/)
+GitLab 7.0. Since then we've vastly improved performance of GitLab,
+made GitLab work in any Enterprise through deep LDAP integration and
+made it possible to [work with large files in Git](http://doc.gitlab.com/ee/workflow/git_annex.html).
+On top of that, the UI has been reworked and improved with every release,
+GitLab CI has become a very powerful tool and we've made [hundreds of other improvements](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG).
+
+We built this all as a community and by being [more](https://about.gitlab.com/2015/05/22/gitlab-7-11-released/)
+[and more](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/) open.
+
+Today, GitLab's next major version is here. And it's the best GitLab so far.
+We're very excited that with GitLab 8.0 we're paving the way for the future.
 It's faster, more beautiful and does more than any version that came before it.
 
 The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
