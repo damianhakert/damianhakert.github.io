@@ -7,12 +7,12 @@ image_title: '/images/unsplash/gitlab-funded.jpeg'
 author_twitter: gitlab
 ---
 
-Earlier this summer we announced our seed round with funding from Khosla Ventures, 500 Startups, Crunchfund, Sound Ventures, Liquid 2 Ventures, FundersClub, Y Combinator, Michael Dell and other angel investors.
+Earlier this summer we announced our seed round with funding from Khosla Ventures, 500 Startups, Crunchfund, Sound Ventures, Liquid 2 Ventures, FundersClub, Y Combinator, Michael Dell, and other angel investors.
 
 Today we are proud to announce our $4 million Series A funding led by Khosla Ventures.
 
 GitLab will leverage the new funding to accelerate growth and scale its global
-operations including development, marketing and sales. Additionally, GitLab announced
+operations including development, marketing, and sales. Additionally, GitLab announced
 the upcoming release of GitLab 8.0, which is scheduled for release on September 22.
 GitLab 8.0 will include 50 percent less disk usage, faster merging, Continuous Integration
 (CI) with GitLab itself, improved interface and navigation, and 'Reply by email'
@@ -21,8 +21,8 @@ functionality that allows users to quickly comment on an issue from their mobile
 ![Activity View](/images/screenshots_8.0/activity_view.png)
 
 More than 100K companies and organizations currently use GitLab on premises including NASA, CERN, Alibaba,
-SpaceX, O’Reilly, IBM and Expedia. These organizations and many individual contributors hack on,
-contribute to and help GitLab become better every single day.
+SpaceX, O’Reilly, IBM, and Expedia. These organizations and many individual contributors hack on,
+contribute to, and help GitLab become better every single day.
 
 It is our goal to become the default solution for anyone building software and
 working together. The excitement and passion of our community has convinced us
@@ -37,7 +37,7 @@ Our three product offerings — a free, open source Community Edition, a free Sa
 and our Enterprise version – provide accessibility, full transparency, faster features, and stand as a
 serious challenger to other Git platforms. GitLab features include:
 
-  - Zero touch installation and upgrades;
+  - Zero touch installation and upgrades
   - GitHub, Bitbucket, Google Code, Gitorious importers
   - Two factor authentication
   - SAML and Kerberos authentication
@@ -49,8 +49,8 @@ serious challenger to other Git platforms. GitLab features include:
 With this new round of funding, we hope to provide more features, support, and expand to more companies and
 organizations as the most popular and most trusted open source code collaboration platform.
 
-After our Y Combinator experience and succesful seed round funding, we knew we wanted to go above and beyond what we
-had done so farand make GitLab bigger and better for everyone, which is why we are working
+After our Y Combinator experience and successful seed round funding, we knew we wanted to go above and beyond what we
+had done so far and make GitLab bigger and better for everyone, which is why we are working
 with some amazing investors.
 
 Vinod Khosla, founder and partner of Khosla Ventures said this about us:
@@ -80,12 +80,12 @@ Sytse "Sid" Sijbrandij, our CEO said:
 
 We'd like to thank our amazing community that has contributed major features,
 bug fixes, documentation updates and more than we can ever return. We owe
-GitLab's existence to your enthusiasm, drive and hard work. Without our contributors
+GitLab's existence to your enthusiasm, drive, and hard work. Without our contributors
 belief in open source software, GitLab would be nowhere near where it is today.
 
 Thank you to our team, that has been working hard every single day and feels
 more like a highly distributed, international family than a company.
-We especially like to thank the [core team](https://about.gitlab.com/core-team)
+We especially thank the [core team](https://about.gitlab.com/core-team)
 members that are not with GitLab Inc: Nihad Abbasov, Robert Schilling,
 Hannes Rosenögger, Achilleas Pipinellis, Stan Hu, and Jeroen van Baarsen.
 
