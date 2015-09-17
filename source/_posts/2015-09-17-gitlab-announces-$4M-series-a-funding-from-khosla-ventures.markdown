@@ -2,14 +2,13 @@
 layout: post
 title: GitLab announces $4M series A funding from Khosla Ventures
 date: 2015-09-17
-author: GitLab
+author: Sytse 'Sid' Sijbrandij
 image_title: '/images/unsplash/gitlab-funded.jpeg'
-author_twitter: gitlab
+author_twitter: sytses
 ---
 
-Earlier this summer we announced our seed round with funding from Khosla Ventures, 500 Startups, Crunchfund, Sound Ventures, Liquid 2 Ventures, FundersClub, Y Combinator, Michael Dell, and other angel investors.
-
-Today we are proud to announce our $4 million Series A funding led by Khosla Ventures.
+Today we are proud to announce our $4 million Series A funding from Khosla Ventures.
+This follows our [seed round in July](https://about.gitlab.com/2015/07/09/1.5M-raised-in-seed-funding-for-gitlab-to-accelerate-growth-and-expand-operations/).
 
 GitLab will leverage the new funding to accelerate growth and scale its global
 operations including development, marketing, and sales. Additionally, GitLab announced
@@ -86,19 +85,7 @@ belief in open source software, GitLab would be nowhere near where it is today.
 Thank you to our team, that has been working hard every single day and feels
 more like a highly distributed, international family than a company.
 We especially thank the [core team](https://about.gitlab.com/core-team)
-members that are not with GitLab Inc: Nihad Abbasov, Robert Schilling,
-Hannes Rosenögger, Achilleas Pipinellis, Stan Hu, and Jeroen van Baarsen.
-
-And thank you to our investors for giving us trust and support in achieving our
-goals and vision.
-
-It has been an amazing year of growth for us here at GitLab. It seems like just yesterday we
-were dreaming of becoming a funded company, but it has been more than a year, and look
-how far we're come. We're extremely excited and hopeful for the future of GitLab
-as an amazing tool to build products, as a community, and as a company.
+members that are paid by GitLab Inc: Robert Schilling,
+Hannes Rosenögger, Achilleas Pipinellis, Stan Hu, James Newton and Jeroen van Baarsen.
 
 _Want to help GitLab grow? [We're looking for people to work with us!](https://about.gitlab.com/jobs)_
-
----
-
-[Download the press release PDF](/images/press/press/GitLab_Series_A_Funding_Press_Announcement.pdf)
