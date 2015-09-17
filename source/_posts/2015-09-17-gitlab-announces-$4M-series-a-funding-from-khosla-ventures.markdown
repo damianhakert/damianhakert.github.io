@@ -2,9 +2,9 @@
 layout: post
 title: GitLab announces $4M series A funding from Khosla Ventures
 date: 2015-09-17
-author: Sytse 'Sid' Sijbrandij
+author: GitLab
 image_title: '/images/unsplash/gitlab-funded.jpeg'
-author_twitter: sytses
+author_twitter: gitlab
 ---
 
 Today we are proud to announce our $4 million Series A funding from Khosla Ventures.
