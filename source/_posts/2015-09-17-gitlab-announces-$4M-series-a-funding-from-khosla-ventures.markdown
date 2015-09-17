@@ -11,17 +11,19 @@ Today we are proud to announce our $4 million Series A funding from Khosla Ventu
 This follows our [seed round in July](https://about.gitlab.com/2015/07/09/1.5M-raised-in-seed-funding-for-gitlab-to-accelerate-growth-and-expand-operations/).
 
 GitLab will leverage the new funding to accelerate growth and scale its global
-operations including development, marketing, and sales. Additionally, GitLab announced
-the upcoming release of GitLab 8.0, which is scheduled for release on September 22.
-GitLab 8.0 will include 50 percent less disk usage, faster merging, Continuous Integration
-(CI) with GitLab itself, improved interface and navigation, and 'Reply by email'
-functionality that allows users to quickly comment on an issue from their mobile devices.
+operations including development, marketing, and sales. Additionally, GitLab
+announced the upcoming release of GitLab 8.0, which is scheduled for release on
+September 22.  GitLab 8.0 will include 50 percent less disk usage, faster
+merging, Continuous Integration (CI) built into GitLab itself, improved
+interface and navigation, and "Reply by email" functionality that allows users
+to quickly comment on an issue or merge request from their mobile devices.
 
 ![Activity View](/images/screenshots_8.0/activity_view.png)
 
-More than 100K companies and organizations currently use GitLab on premises including NASA, CERN, Alibaba,
-SpaceX, O’Reilly, IBM, and Expedia. These organizations and many individual contributors hack on,
-contribute to, and help GitLab become better every single day.
+More than 100,000 companies and organizations currently use GitLab on-premises
+including NASA, CERN, Alibaba, SpaceX, O’Reilly, IBM, and Expedia. These
+organizations and many individual contributors hack on, contribute to, and help
+GitLab become better every single day.
 
 It is our goal to become the default solution for anyone building software and
 working together. The excitement and passion of our community has convinced us
@@ -32,13 +34,14 @@ operations so we can reach more people and build an even better GitLab.
 
 ## GitLab, an Open-Source Company
 
-Our three product offerings — a free, open source Community Edition, a free SaaS GitLab.com version,
-and our Enterprise version – provide accessibility, full transparency, faster features, and stand as a
-serious challenger to other Git platforms. GitLab features include:
+Our three product offerings — a free, open source Community Edition, a free SaaS
+GitLab.com version, and our Enterprise version – provide accessibility, full
+transparency, and stand as a serious challenger to other Git platforms. GitLab
+features include:
 
-  - Zero touch installation and upgrades
+  - Zero-touch installation and upgrades
   - GitHub, Bitbucket, Google Code, Gitorious importers
-  - Two factor authentication
+  - Two-factor authentication
   - SAML and Kerberos authentication
   - Merge request approvers
   - Audit logging
@@ -69,9 +72,16 @@ we're [still remote](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!
 
 Sytse "Sid" Sijbrandij, our CEO said:
 
-> “GitLab differentiates itself from other collaborative Git platforms because we are open source - [and always have been.](https://about.gitlab.com/2014/10/08/letter-from-shareholders/) Open source helps users to reach their goals faster with the transparency and control they expect from their tools.”
+> “GitLab differentiates itself from other collaborative Git platforms because
+> we are open source - [and always have been](https://about.gitlab.com/2014/10/08/letter-from-shareholders/).
+> Open source helps users to reach their goals faster with the transparency and
+> control they expect from their tools.”
 
-> “Our users choose GitLab because they can run it on their own servers, the source code is open and adaptable, and organizations can build on top of GitLab. We also have a loyal, vocal community of more than 800 contributors whose constant contributions help us roll out new features faster than anyone else on the market.”
+> “Our users choose GitLab because they can run it on their own servers, the
+> source code is open and adaptable, and organizations can build on top of
+> GitLab. We also have a loyal, vocal community of more than 800 contributors
+> whose constant improvements help us roll out new features faster than anyone
+> else on the market.”
 
 ![Project](/images/screenshots_8.0/project.png)
 
@@ -79,13 +89,13 @@ Sytse "Sid" Sijbrandij, our CEO said:
 
 We'd like to thank our amazing community that has contributed major features,
 bug fixes, documentation updates and more than we can ever return. We owe
-GitLab's existence to your enthusiasm, drive, and hard work. Without our contributors
+GitLab's existence to your enthusiasm, drive, and hard work. Without our contributors'
 belief in open source software, GitLab would be nowhere near where it is today.
 
-Thank you to our team, that has been working hard every single day and feels
-more like a highly distributed, international family than a company.
-We especially thank the [core team](https://about.gitlab.com/core-team)
-members that are paid by GitLab Inc: Robert Schilling,
-Hannes Rosenögger, Achilleas Pipinellis, Stan Hu, James Newton and Jeroen van Baarsen.
+Thank you to our team that has been working hard every single day and feels more
+like a highly distributed, international family than a company.  We especially
+thank the [core team](https://about.gitlab.com/core-team) members that are paid
+by GitLab Inc: Robert Schilling, Hannes Rosenögger, Achilleas Pipinellis, Stan
+Hu, James Newton and Jeroen van Baarsen.
 
 _Want to help GitLab grow? [We're looking for people to work with us!](https://about.gitlab.com/jobs)_
