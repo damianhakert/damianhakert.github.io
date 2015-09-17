@@ -52,23 +52,20 @@ We welcome contributions that implement any of these things.
 
 ### UI
 
-- [File upload button in webeditor](https://gitlab.com/gitlab-com/www-gitlab-com/issues/410)
+- 8.1 [Integrate CI into CE interface wise](https://gitlab.com/gitlab-org/gitlab-ce/issues/2164#note_1928716)
 - [Change notification setting](https://dev.gitlab.org/gitlab/gitlabhq/issues/2395)
 - [Edit on protected branch should create a new branch](https://dev.gitlab.org/gitlab/gitlabhq/issues/2242)
 - [Filter by more than one label](https://gitlab.com/gitlab-org/gitlab-ce/issues/989)
 
 ### CE
 
-- IN PROGRESS: Settings from config/gitlab.yml to application settings in ui
+- IN PROGRESS Move most settings from config/gitlab.yml to application settings in ui
 - Move issues between projects
 - Reduce exceptions (so that exception notifications become usable)
 - [Allow cross server merge requests](http://feedback.gitlab.com/forums/176466-general/suggestions/5097708-implement-cross-server-federated-merge-requests) (paste url when making a new MR)
 - [Code search in groups](https://dev.gitlab.org/gitlab/gitlabhq/issues/841)
 - [Time tracking](https://dev.gitlab.org/gitlab/gitlabhq/issues/2192)
 - IMPORTANT Make it easier to add labels to an issue
-- Move new merge request from activity feed to flash message
-- IN PROGRESS [Reply by email](https://gitlab.com/gitlab-org/gitlab-ce/issues/1360)
-- IN PROGRESS [Oneclick email open](https://gitlab.com/gitlab-org/gitlab-ce/issues/1517)
 - [Improve GitHub import](https://dev.gitlab.org/gitlab/gitlabhq/issues/2248)
 - [Automatically push changed files](https://dev.gitlab.org/gitlab/gitlabhq/issues/2265)
 - [Mentioned activity level](https://dev.gitlab.org/gitlab/gitlabhq/issues/2288)
@@ -81,11 +78,11 @@ We welcome contributions that implement any of these things.
 - Show commits behind/ahead on branch overview page
 - Mentioned feed on the dashboard, activity feed on separate tab
 - Issue/MR description field works like google docs, real time collaboration & autosave, maybe with [ShareJS](http://sharejs.org/)
-- Git large file support (LFS) [Feedback](http://feedback.gitlab.com/forums/176466-general/suggestions/7502608-git-large-file-storage-lfs-support) [CE](https://dev.gitlab.org/gitlab/gitlabhq/issues/2295) [EE](https://dev.gitlab.org/gitlab/gitlab-ee/issues/318)
+- 8.1 Git large file support (LFS) [Feedback](http://feedback.gitlab.com/forums/176466-general/suggestions/7502608-git-large-file-storage-lfs-support) [CE](https://dev.gitlab.org/gitlab/gitlabhq/issues/2295) [EE](https://dev.gitlab.org/gitlab/gitlab-ee/issues/318)
 - Draw and drop issues to prioritize them
 - Handle incoming emails with support questions in issues, needs spam filter
 - [Award emoji](https://dev.gitlab.org/gitlab/gitlabhq/issues/2388) (so you can use GitLab as a feature request tracker)
-- Commit Status API [request](http://feedback.gitlab.com/forums/176466-general/suggestions/3923065-status-api-for-continuous-integration) [private issue](https://dev.gitlab.org/gitlab/gitlabhq/issues/2467) and [merge CI into CE](https://gitlab.com/gitlab-org/gitlab-ce/issues/2164)
+- 8.1 Commit Status API [request](http://feedback.gitlab.com/forums/176466-general/suggestions/3923065-status-api-for-continuous-integration) [private issue](https://dev.gitlab.org/gitlab/gitlabhq/issues/2467) 
 - [Handle errors before they give a 500](https://dev.gitlab.org/gitlab/gitlabhq/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=gitlab.com+errors)
 - [Improve navigating to your projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/2225)
 - In-picture-comments like in [zeplin.io](zeplin.io) or Phabricator
@@ -116,15 +113,12 @@ We welcome contributions that implement any of these things.
 
 ### Other software in the Omnibus packages
 
-- Chat: [Mattermost](http://www.mattermost.org/) and not [Rocket.Chat](http://rocket.chat/), [Kandan](https://github.com/kandanapp/kandan) or [Let's Chat](https://sdelements.github.io/lets-chat/)
+- 8.1 Add [Rocket.Chat](http://rocket.chat/)
 - Consider shipping a Scrum board with Omnibus
 
 ## We would love to partner with
 
 - Browser IDE: Koding, Nitrous.io, Cloud9, CodeAnywhere, Codio and CodeEnvy (ship GitLab with them and button to open from GitLab)
-
 - Configuration management: Chef, Puppet, Ansible, Salt, Docker (upload cookbooks, build containers from GitLab CI, etc.)
-
 - Paas: CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/) (deploy apps to them with GitLab CI)
-
 - Scrum boards: [Huboard](https://huboard.com/), [Waffle.io](https://waffle.io/) and [Zenhub.io](https://www.zenhub.io/) support in addition to https://about.gitlab.com/applications/#scrum-boards
