@@ -94,7 +94,7 @@ belief in open source software, GitLab would be nowhere near where it is today.
 
 Thank you to our team that has been working hard every single day and feels more
 like a highly distributed, international family than a company.  We especially
-thank the [core team](https://about.gitlab.com/core-team) members that are paid
+thank the [core team](https://about.gitlab.com/core-team) members that are not paid
 by GitLab Inc: Robert Schilling, Hannes Rosenögger, Achilleas Pipinellis, Stan
 Hu, James Newton and Jeroen van Baarsen.
 
