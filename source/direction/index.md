@@ -45,9 +45,7 @@ view which kind of contributions will be accepted (if they meet our requirements
 Below you will find several things we'd really like to see in GitLab.
 It is not a roadmap, nor is the list prioritized.
 
-Some links point to internal issues. We're working on making everything open.
-Note that we're slowly deprecating this list, turning it into a more high-level
-document.
+Some links point to internal issues. We're working on making [all issues public](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
 
 We welcome contributions that implement any of these things.
 

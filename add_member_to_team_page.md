@@ -13,7 +13,9 @@ The first thing you should do is find the picture that you’d like to add to
 our [team page](https://about.gitlab.com/team/) and then follow the "[how
 to add an image](http://doc.gitlab.com/ce/gitlab-basics/add-image.html)"
 steps. Any photo that you provide will be made black-and-white
-automatically after you add it, but it must be square.
+automatically after you add it, but it must be square. Note that your team
+page photo should be added to
+www-gitlab-com/source/images/team/NAME-OF-PERSON-IN-LOWERCASE.jpg.
 
 ## Add yourself to the Team page
 

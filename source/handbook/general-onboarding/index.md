@@ -20,7 +20,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 ```
 ### BEFORE STARTING AT GITLAB
 
-* [ ] Hiring manager: Create issue for new hire in organization with relevant lines of the master checklist and /cc Jacob and CEO.
+* [ ] HR: Create issue for new hire in organization with relevant lines of the master checklist and /cc Jacob and CEO.
 * [ ] Hiring manager: cc new team member on the issue once they have a dev.GitLab.org account.
 * [ ] Jacob/CEO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
 * [ ] Jacob/CEO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
@@ -30,6 +30,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] New team member: provide scan of photo ID to HR.
 * [ ] New team member: provide signed PIAA (proprietary information and assignment agreement) to HR.(US employees have a PIAA included in their contract)
 * [ ] HR: file signed PIAA, contract, and photo ID in Dropbox and confirm receipt by commenting in the issue.
+* [ ] Jacob/CEO: Add to Slack
 * [ ] HR: Send email to new hire and buddy introducing them "We expect you to be resourceful but your buddy is here to help you get up to speed quickly.". Buddy is a junior that performs a similar job.
 
 ### WITHIN TWO DAYS OF STARTING
@@ -58,9 +59,8 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] CEO: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] CEO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] Hiring manager: Invite to team meeting
-* [ ] Jacob/CEO: Add to Slack
 * [ ] HR: Send [People Information sheet](https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0) and instruct to return answers via email or slack
-* [ ] Jacob/CEO: [Add to Lastpass](https://lastpass.com/enterprise_create.php) and create folder for new hire in Lastpass
+* [ ] HR: [Add to Lastpass](https://lastpass.com/enterprise_create.php) and create folder for new hire in Lastpass
 * [ ] HR: Put People Information into Profiles in Lastpass
 * [ ] HR: Set up meeting with new team member on day 3 or 4 to any questions that remain. New team member should have gone through handbook and guide meeting with specific questions after having reviewed onboarding process.
 * [ ] New team member: Login to Lastpass and set up secure passwords per the handbook (insert link to security section on how to use LP).
@@ -69,12 +69,13 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] Business Office manager: Add to BV and/or Inc Dropbox (if in Finance, if in another dept ask CEO if appropriate)
 * [ ] Business Office manager: Invite to autoconnect on Beamy
 * [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/)
-
+* [ ] CEO: Add team member to the GitLab availability calendar 
 ### FOR SALES AND FINANCE ONLY
 
 * [ ] Finance: Add to Comerica (as user or viewer only if in Finance)
 * [ ] Finance: Add to [QuickBooks users](https://about.gitlab.com/handbook/hiring/) (finance only)
-* [ ] Finance: Order company credit card (for all sales team members who are employees)
+* [ ] HR: Order company credit card (for all sales team members who are employees)
+* [ ] HR: If credit card holder, add to expense report calendar reminder
 * [ ] Sales Manager: [Add to Mailchimp](https://us5.admin.mailchimp.com/account/users/) (if sales or finance)
 * [ ] Hiring Manager: Add to [Recurly](https://app.recurly.com/login)
 * [ ] Hiring Manager: Add to  [Twinfield](https://login.twinfield.com/authentication/identity/login?ReturnUrl=%2fauthentication%2fissue%2fwsfed%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252flogin.twinfield.com%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252f%26wct%3d2015-04-17T21%253a56%253a53Z&wa=wsignin1.0&wtrealm=https%3a%2f%2flogin.twinfield.com&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f&wct=2015-04-17T21%3a56%3a53Z).
