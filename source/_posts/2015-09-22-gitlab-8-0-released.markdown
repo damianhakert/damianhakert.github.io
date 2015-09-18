@@ -37,12 +37,12 @@ Thanks ***MVP_USER_FIRST_NAME***!
 Code lives in GitLab: It's made, merged, reviewed in GitLab.
 Now it gets tested, deployed and packaged in GitLab as well.
 
-With GitLab 8.0, we integrate GitLab CI in GitLab itself. This means that you
-no longer have to visit a separate application to see the status of your projects.
-You can see all your tests, deployments, packaging that you would used to see
-in your CI, right in GitLab. For our community using GitLab CI alongside
-previous versions of GitLab, please take a look at our [tutorial](addlink) to migrate to GitlLab
-8.0. 
+With GitLab 8.0, we've integrated GitLab CI directly into GitLab itself. This
+means that you no longer have to visit a separate application to see the status
+of your projects. You can see all of your tests, deployments, and packaging that
+you would normally see in your CI, right in GitLab. For our community using
+GitLab CI alongside previous versions of GitLab, please take a look at our
+[tutorial](addlink) to migrate to GitLab 8.0.
 
 Simply visit 'Continuous Integration' from the Dashboard:
 
