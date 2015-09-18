@@ -13,7 +13,7 @@ title: "Contracts"
 ## Disclaimer <a name="disclaimer"></a>
 The sample agreements that are shown on this page are nothing more than that: samples.
 
-##PROPRIETARY INFORMATION AND ASSIGNMENT AGREEMENT (Employee)<a name="PIAA-employee"></a>
+## PROPRIETARY INFORMATION AND ASSIGNMENT AGREEMENT (Employee)<a name="PIAA-employee"></a>
 
 This **Proprietary Information and Assigment Agreement** (“Agreement”) is made between **GitLab Inc.**, a Delaware corporation in the United States (the “Company”) and **[First name, Last Name]** (“Employee”), and effective as of **[Date]**.  
 WHEREAS, the Company desires to employ or continue to employ Employee to render services to the Company and Employee desires to render such services;  
@@ -110,7 +110,7 @@ Employee acknowledges that this Section is reasonable and necessary for the prot
 
 [Leave Remainder of Page Blank Intentionally, Signature Page is Next.] 
 
-###Signature Page###
+### Signature Page
 IN WITNESS WHEREOF, the parties have caused this Agreement to be duly executed on the day and date first written above. 
 GitLab Inc.   
 Signature:     
@@ -123,7 +123,7 @@ Name:
 Date:  
 
 
-###Exhibit A###
+### Exhibit A
 The following is a complete list of all Works which have been made or conceived or first reduced to practice by me alone or jointly with others prior to my employment with the Company:  
        ______     No Works  
        ______     See below 
