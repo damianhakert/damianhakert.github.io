@@ -136,6 +136,11 @@ In GitLab 8.0 all users and groups will have a publicly visible profile page.
 This ensures that people are no longer confused when they can't claim a name (which already allowed you to find out what names existed).
 Private and internal projects will not be shown on these profile pages unless you're allowed to see them.
 
+### Upload files in the web UI
+
+You can now upload files though the web interface, previously you has to do this in your local repository.
+Thanks Stan Hu for helping to land this change, [its conversation had 250 comments](https://github.com/gitlabhq/gitlabhq/pull/9138).
+
 ### Other changes
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
