@@ -26,16 +26,16 @@ Often referred to as `dev`.
 
 ### GitLab.com
 
-This is the SaaS of GitLab. Everyone can host their repository for free here
-and this is where the majority of open source contributions come in.
-Unless there's a good reason not to (sensitive customer information,
-not-yet-disclosed security issues), do your development here [in the
-open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
+This is the SaaS of GitLab. Everyone can host their repository for free here and
+this is where the majority of open source contributions come in. Unless there's
+a good reason not to (customer information disclosure, undisclosed security
+issues, etc.), do your development and submit your merge requests here [in the open].
 
 ### Other instances
 
 Many developers set up their own private GitLab instance somewhere, for instance
-to test and work with LDAP or Active Directory, to give demos, or other reasons.
+to test and work with LDAP or Active Directory, to give demos, or for various
+other reasons.
 
 ## Getting started with GitLab development
 
@@ -106,3 +106,4 @@ For everything related to operations, check out the
 
 
 [handbook]: https://about.gitlab.com/handbook
+[in the open]: https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/
