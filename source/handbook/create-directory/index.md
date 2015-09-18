@@ -32,6 +32,11 @@ Create a directory:
 mkdir NAME-OF-YOUR-NEW-DIRECTORY
 ```
 
+Then go into the new directory:
+```
+cd NAME-OF-YOUR-NEW-DIRECTORY
+```
+
 Create a README.md or index.md in directory:
 ```
 touch README.md
