@@ -287,9 +287,9 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 
 ```
 * [ ] Manager of former team member: organize smooth hand over of any work or tasks from former team member.
-* [ ] CEO: remove Google account, firstname@gitlab.com or initial(s)@gitlab.com
-* [ ] CEO: inform former team member that Google account has been removed by emailing to their personal email address.
-* [ ] CEO: remove from Slack
+* [ ] Jacob/CEO: remove Google account, firstname@gitlab.com or initial(s)@gitlab.com
+* [ ] Manager/CEO: inform former team member that Google account has been removed by emailing to their personal email address.
+* [ ] Jacob/CEO: remove from Slack
 * [ ] HR: remove former team member from TriNet and payroll.
 * [ ] Operations: reach out to former team member to identify and retrieve any company supplies/equipment.
 * [ ] CEO: Remove former team members' Gitlab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
