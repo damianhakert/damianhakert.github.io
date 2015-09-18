@@ -11,7 +11,7 @@ image_title: /images/8_0/sf.jpeg
 ---
 
 Fifteen months ago we [released](https://about.gitlab.com/2014/06/22/gitlab-7-dot-0-released/)
-GitLab 7.0. Since then we've vastly improved performance of GitLab,
+GitLab 7.0. Since then we've vastly improved the performance of GitLab,
 made GitLab work in any Enterprise through deep LDAP integration and
 made it possible to [work with large files in Git](http://doc.gitlab.com/ee/workflow/git_annex.html).
 On top of that, the UI has been reworked and improved with every release,
@@ -20,13 +20,12 @@ GitLab CI has become a very powerful tool and we've made [hundreds of other impr
 We built this all as a community and by being [more](https://about.gitlab.com/2015/05/22/gitlab-7-11-released/)
 [and more](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/) open.
 
-Today, GitLab's next major version is here. And it's the best GitLab so far.
-We're very excited that with GitLab 8.0 we're paving the way for the future.
-It's faster, more beautiful and does more than any version that came before it.
+Today, GitLab's next major version is here. We're very excited that GitLab 8.0 allows for a faster, 
+more beautiful way for people to create, review and deploy code together
 
-GitLab now comes with continuous integration (GitLab CI) fully integrated.
-On top of that almost every single element in the interface has been reworked
-and GitLab will take up to 50% less disk space!
+GitLab now comes with continuous integration ([GitLab CI](https://about.gitlab.com/gitlab-ci/)) fully integrated.
+But that's not all! Almost every element in the interface has been reworked
+and GitLab will take up to 50% less disk space.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
@@ -41,7 +40,9 @@ Now it gets tested, deployed and packaged in GitLab as well.
 With GitLab 8.0, we integrate GitLab CI in GitLab itself. This means that you
 no longer have to visit a separate application to see the status of your projects.
 You can see all your tests, deployments, packaging that you would used to see
-in your CI, right in GitLab.
+in your CI, right in GitLab. For our community using GitLab CI alongside
+previous versions of GitLab, please take a look at our [tutorial](addlink) to migrate to GitlLab
+8.0. 
 
 Simply visit 'Continuous Integration' from the Dashboard:
 
@@ -51,39 +52,37 @@ Or through one of your projects:
 
 TODO IMAGE
 
-### Fresh Looks
+### Fresh Design
 
-GitLab 8.0 comes with completely new looks.
+GitLab 8.0 comes with a completely new look and feel.
 This is not just a small iteration, but a major revision of almost every
 UI element in GitLab.
 
-We fixed the width of certain views to make it easier to read text. Which
-by itself looks better now, as all text is now in a pretty new typeface.
-In addition, contrast is reduced for elements that are less important,
-some sweet, soft lines were added and contrast was increased for all important elements.
+We fixed the width of certain views to make it easier to view text. We also improved 
+that text with a pretty new typeface. In addition, contrast is reduced for elements that are less important, 
+increased for elements that are more important and some soft lines were added for clarity.
 
-You better have a look yourself:
+Take a look for yourself at our clean, new design:
 
 TODO: ADD IMAGES
 
-### Turbo Merges!
+### Turbo Merges (Vroom Vroom)
 
 Merging a merge request is now faster!
 Rather than working in local copies of repositories (satellites),
-we now work directly in them. This makes many git operations and mainly
-merges much faster and more reliable.
+we now work directly in them. This makes many git operations, like
+merges, much faster and more reliable.
 
 ### 50% less space used
 
-By removing satellites in GitLab, we free up the space that they were using.
-This means that we half the size projects require in GitLab, reducing disk
-usage up to 50%.
+By removing satellites in GitLab, we free up the space left behind.
+Project size in GitLab is cut in half reducing disk usage up to 50%.
 
 ### Reply by Email
 
 Want to quickly reply to your colleagues in GitLab while on the go or when
 going through your email? Now you can.
-You can now quickly reply to any notification email to comment in the issue
+You can now simply reply to any notification email to comment in the issue
 or merge request. This brings GitLab to any app that can use email;
 we're already looking forward to comments from your smart watches!
 
@@ -102,7 +101,7 @@ TODO IMAGES
 
 We've replaced Grack in GitLab to handle HTTP clones and pushes and are now using our
 own hip Go daemon, [gitlab-git-http-server](https://gitlab.com/gitlab-org/gitlab-git-http-server).
-This means big clones and pushes over HTTP are now less likely to time out!
+This means large clones and pushes over HTTP are now less likely to time out!
 
 ### Mattermost Improvements
 
@@ -112,7 +111,7 @@ with GitLab 8.0!
 You can now make use of GitLab Single Sign On to authenticate with Mattermost,
 making the shared experience much more fluid.
 
-On top of that, the Mattermost team as added File and Image sharing, a way
+On top of that, the Mattermost team has added File and Image sharing, a way
 to import Slack data and a host of other improvements and fixes!
 
 ### SSL Verification for Webhooks
