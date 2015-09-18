@@ -138,8 +138,10 @@ Private and internal projects will not be shown on these profile pages unless yo
 
 ### Upload files in the web UI
 
-You can now upload files though the web interface, previously you has to do this in your local repository.
-Thanks Stan Hu for helping to land this change, [its conversation had 250 comments](https://github.com/gitlabhq/gitlabhq/pull/9138).
+You can now upload new files or replace existing ones directly from the web
+interface. Both Yakun Li and Stan Hu deserve special recognition for being
+patient and persistent while adding this feature, which had a [pull request with
+250 comments](https://github.com/gitlabhq/gitlabhq/pull/9138).
 
 ### Other changes
 
