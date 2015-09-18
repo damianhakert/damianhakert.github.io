@@ -136,13 +136,6 @@ In GitLab 8.0 all users and groups will have a publicly visible profile page.
 This ensures that people are no longer confused when they can't claim a name (which already allowed you to find out what names existed).
 Private and internal projects will not be shown on these profile pages unless you're allowed to see them.
 
-### One click email open
-
-Gmail users can now go to an issue or merge request on GitLab without opening the email itself.
-This is enabled for GitLab.com, for on-premises installations please follow [the request guide](TODOADDLINK)
-
-TODO ADD SCREENSHOT
-
 ### Other changes
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
