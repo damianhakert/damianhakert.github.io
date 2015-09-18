@@ -39,8 +39,7 @@ to test and work with LDAP or Active Directory, give demos and other reasons.
 
 ## Getting started with GitLab development
 
-To start development, simply follow the instructions at the
-[GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit).
+To start development, follow the instructions for the [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit).
 
 ## GitLab Repositories
 
