@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "GitLab 8.0 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 8.0 released with new looks and integrated CI!"
 date: 2015-09-22
 comments: true
 categories:
-author: GitLab
-author_twitter: gitlab
+author: Job van der Voort
+author_twitter: jobvo
 filename: 2015-09-22-gitlab-8-0-released.markdown
-image_title: /images/8_0/PICTURE.PNG
+image_title: /images/8_0/sf.jpeg
 ---
 
 Fifteen months ago we [released](https://about.gitlab.com/2014/06/22/gitlab-7-dot-0-released/)
@@ -24,74 +24,65 @@ Today, GitLab's next major version is here. And it's the best GitLab so far.
 We're very excited that with GitLab 8.0 we're paving the way for the future.
 It's faster, more beautiful and does more than any version that came before it.
 
-The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
-In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
+GitLab now comes with continuous integration (GitLab CI) fully integrated.
+On top of that almost every single element in the interface has been reworked
+and GitLab will take up to 50% less disk space!
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
 
 <!--more-->
 
-### ***MAIN_CE_FEATURE***
+### Continuous Integration in GitLab
 
-***DESCRIPTION***
+Code lives in GitLab: It's made, merged, reviewed in GitLab.
+Now it gets tested, deployed and packaged in GitLab as well.
 
-[![screenshot](/images/8_0/feature.png)](/images/8_0/feature.png) ***8_0 is the version of GitLab being released***
+With GitLab 8.0, we integrate GitLab CI in GitLab itself. This means that you
+no longer have to visit a separate application to see the status of your projects.
+You can see all your tests, deployments, packaging that you would used to see
+in your CI, right in GitLab.
 
+Simply visit 'Continuous Integration' from the Dashboard:
 
-### ***NEW_CE_FEATURE***
+TODO IMAGE
 
-***DESCRIPTION***
+Or through one of your projects:
 
-[![screenshot](/images/8_0/feature.png)](/images/8_0/feature.png) ***8_0 is the version of GitLab being released***
+TODO IMAGE
 
+### Fresh Looks
 
-### NEW_CE_FEATURE
+GitLab 8.0 comes with completely new looks.
+This is not just a small iteration, but a major revision of almost every
+UI element in GitLab.
 
-***DESCRIPTION***
+We fixed the width of certain views to make it easier to read text. Which
+by itself looks better now, as all text is now in a pretty new typeface.
+In addition, contrast is reduced for elements that are less important,
+some sweet, soft lines were added and contrast was increased for all important elements.
 
-[![screenshot](/images/8_0/feature.png)](/images/8_0/feature.png) ***8_0 is the version of GitLab being released***
+You better have a look yourself:
 
-### NEW_SPONSORED_FEATURE
+TODO: ADD IMAGES
 
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/8-0-stable/CHANGELOG#L18).
+### Turbo Merges!
 
-### ***MAIN_EE_FEATURE*** (EE only feature)
+Merging a merge request is now faster!
+Rather than working in local copies of repositories (satellites),
+we now work directly in them. This makes many git operations and mainly
+merges much faster and more reliable.
 
-***DESCRIPTION***
+### 50% less space used
 
-[![screenshot](/images/8_0/feature.png)](/images/8_0/feature.png) ***8_0 is the version of GitLab being released***
+### Reply by Email
 
-### ***EE_FEATURE*** (EE only feature)
+### Open in Email
 
-***DESCRIPTION***
+### Grack out, Better clones
 
-[![screenshot](/images/8_0/feature.png)](/images/8_0/feature.png) ***8_0 is the version of GitLab being released***
+### Mattermost Improvements
 
-
-## ***MAIN_CI_FEATURE***
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_0/feature.png)](/images/8_0/feature.png) ***8_0 is the version of GitLab CI being released***
-
-
-## ***NEW_CI_FEATURE***
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_0/feature.png)](/images/8_0/feature.png) ***8_0 is the version of GitLab CI being released***
-
-
-## NEW_CI_FEATURE
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_0/feature.png)](/images/8_0/feature.png) ***8_0 is the version of GitLab CI being released***
-
-## NEW_SPONSORED_FEATURE
-
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/8-0-stable/CHANGELOG#L18).
 
 ### Other changes
 
@@ -100,6 +91,18 @@ This release has more improvements, including security fixes. Please check out [
 
 ### Upgrade barometer
 
+4 possible cases:
+
+1. new user: gets both by default
+1. gitlab users: update omnibus, get ci by default
+1. gitlab 7.14, ci 7.14 on same server: update to 8.0, semi-automatic migration necessary.
+1. separate CI: upgrade Ci to 8.0 (final version), backup, transfer backup, semi-automatic migration
+
+disable-ci page for time of migraitons.
+
+Downtime only for Ci, not GitLabs while migrating CI.
+
+WAITING FOR NEW DOCS WITH MIGRATION PROCEDURE
 
 *** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
 *** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
