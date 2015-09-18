@@ -28,7 +28,9 @@ Often referred to as `dev`.
 
 This is the SaaS of GitLab. Everyone can host their repository for free here
 and this is where the majority of open source contributions come in.
-If you can, do you development and create your merge requests here.
+Unless there's a good reason not to (sensitive customer information,
+not-yet-disclosed security issues), do your development here [in the
+open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
 
 ### Other instances
 
@@ -42,15 +44,15 @@ To start development, simply follow the instructions at the
 
 ## GitLab Repositories
 
-Almost all repos are available on both GitLab.com as well as dev.
-For the most popular projects, you can also find them on GitHub.com,
-this makes it easier for people to contribute.
+Almost all repositories are available on both gitlab.com and dev.gitlab.org. We
+also mirror our biggest projects to [GitHub](https://github.com/gitlabhq),
+making them more widely available for people to contribute.
 
 ### GitLab Community Edition (CE)
 
 This is the community edition of GitLab. Most of the development happens here,
-then gets merged into GitLab EE once in a while. If you do something general,
-that doesn't restricts itself to EE, do it in GitLab CE.
+then gets merged into GitLab EE periodically. Unless you're making a change
+specific to GitLab EE, add it to CE.
 
 - [dev.gitlab.org/gitlab/gitlabhq]
 - [gitlab.com/gitlab-org/gitlab-ce]
@@ -59,7 +61,8 @@ that doesn't restricts itself to EE, do it in GitLab CE.
 ### GitLab Enterprise Edition (EE)
 
 This is _not_ an open source project, but we made the source code available for
-viewing and contributions. It requires a license key to be used (since GitLab 7.11 EE).
+viewing and contributions. As of version 7.11, it requires a license key to be
+used.
 
 It exists in three places. The subscribers repository is deprecated and used to be
 used as a private repository for customers:
