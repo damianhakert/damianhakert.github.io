@@ -75,13 +75,47 @@ merges much faster and more reliable.
 
 ### 50% less space used
 
+By removing satellites in GitLab, we free up the space that they were using.
+This means that we half the size projects require in GitLab, reducing disk
+usage up to 50%.
+
 ### Reply by Email
 
-### Open in Email
+Want to quickly reply to your colleagues in GitLab while on the go or when
+going through your email? Now you can.
+You can now quickly reply to any notification email to comment in the issue
+or merge request. This brings GitLab to any app that can use email;
+we're already looking forward to comments from your smart watches!
 
-### Grack out, Better clones
+TODO IMAGE
+
+### Quick open in Gmail
+
+Still want to get the full view of the issue or merge request while in Gmail?
+Use the new quick links. In Gmail and in Inbox you will see a direct link
+to the referenced issue of a notification you got from your GitLab instance.
+If you use Google Inbox on your phone, you'll see the links there as well!
+
+TODO IMAGES
+
+### Better HTTP Support
+
+We've replaced Grack in GitLab to handle HTTP clones and pushes and are now using our
+own hip Go daemon, [gitlab-git-http-server](https://gitlab.com/gitlab-org/gitlab-git-http-server).
+This means big clones and pushes over HTTP are now less likely to time out!
 
 ### Mattermost Improvements
+
+We're shipping [Mattermost Beta1](http://www.mattermost.org/mattermost-beta1-now-available/)
+with GitLab 8.0!
+
+You can now make use of GitLab Single Sign On to authenticate with Mattermost,
+making the shared experience much more fluid.
+
+On top of that, the Mattermost team as added File and Image sharing, a way
+to import Slack data and a host of other improvements and fixes!
+
+### SSL Verification for Webhooks
 
 
 ### Other changes
@@ -113,6 +147,10 @@ migrations, and start again, no matter how 'big' or 'small' the
 upgrade is. The behaviour can be changed by adding a
 [/etc/gitlab/skip-auto-migrations
 file](http://doc.gitlab.com/omnibus/update/README.html).
+
+MySQL => PG is possible
+
+other way around is not possible right now with CI
 
 - - -
 
