@@ -15,7 +15,7 @@ We haven't missed a single month since our inception.
 
 We are completely remote, save for the office in San Francisco that not a single
 developer frequents (a 10,000km commute is a bit much for most). We do not have
-predefined teams and almost everyone works independently (i.e. someone telling
+predefined teams and almost everyone works independently (i.e. without someone telling
 them what to do).
 
 We do not practice any specific agile methodology, but meet the principles
