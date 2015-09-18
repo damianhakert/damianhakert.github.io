@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Human Resources"
+title: "Human Retention"
 ---
 ## Entering New Hires into TriNet<a name="trinet-process"></a>
 
