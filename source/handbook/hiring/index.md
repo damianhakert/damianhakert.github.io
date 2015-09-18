@@ -3,7 +3,6 @@ layout: markdown_page
 title: "Hiring"
 ---
 * [Hiring Process](#hiring-process)
-* [Entering New Hires into TriNet](#trinet-process)
 
 ## Hiring Process<a name="hiring-process"></a>
 
@@ -53,70 +52,3 @@ title: "Hiring"
     * Sign up successful applicant and move to onboarding.
     * Inform other applicants that we selected someone else this time. Applicants remain in the database and may be contacted in the future for other roles.
 
-
-## Entering New Hires into TriNet<a name="trinet-process"></a>
-
-Employer enters the employee data in the HR Passport with the information below
-
-1. Under the My Staff tab- select new hire/rehire and a drop down menu will appear.
-
-1. HR enters all of the necessary information:
-
-    * Company name autopopulates
-    * SS
-    * Form of address for hire (Mr. Ms, etc.)
-    * First name
-    * Last name
-    * Middle name or initial
-    * Country
-    * Address
-    * Home phone
-    * Home email
-    * Gener
-    * Ethnicity (you must select something - guess if employee declines to state)
-    * Military status
-
-At the bottom of the screen, select next
-
-    * TriNet’s start date
-    * Reason - drop down menu with options
-    * Employment type - Full time or PT options
-    * Select reg/temp bubble
-    * Employee Class - drop down between regular and commission
-    * Estimated annual wages (does not include anything besides base salary)
-    * Benefit class
-    * Future benefits class -
-    * Standard Hours/week - Part time or Full time
-    * Business Title - see org chart
-    * Job Code - no need to enter anything here
-    * FLSA status- drop down options are exempt, non-exempt, computer prof-non-exempt, computer prof- exempt
-    * Supervisor - drop down menu of names
-    * Compensation Basis
-    * Compensation Rate
-    * Departments
-    * Work Location - drop down menu
-    * Pay Group - only one option
-    * Employee ID - not necessary
-    * Work email
-    * Grouping A/level - not necessary
-    * Grouping B/sponsor- not necessary
-
-Select next or save (if you select save, it will hold your information)
-
-    * Vacation/PTO - drop down menu only provides one option- select this
-    * Sick- drop down menu only provides one option- select this
-    * Personal Time - leave blank
-    * Floating Holidays - leave blank
-    * Birthdate - mm/dd/yyyy
-    * Workers compensation- select unknown and it will default to our principle class code for our industry
-Window: Describe employees job duties - simple description
-
-After submission -  you will receive a prompt for final submission, select and submit.
-
-Note: if you save the information to finish at a later date, go to the Work Inbox and select New Hires Not Submitted to continue.
-
-1. The employee receives a welcome email the night before their start date.
-
-1. The employee is prompted to log on, complete tax withholding (W4 data), direct deposit information, section 1 of the I-9, and benefits election (if eligible).
-
-1. The employer logs in to HR Passport and is prompted by way of work inbox item, to complete section 2 of the I-9.
