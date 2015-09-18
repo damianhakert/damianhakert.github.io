@@ -35,7 +35,7 @@ open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
 ### Other instances
 
 Many developers set up their own private GitLab instance somewhere, for instance
-to test and work with LDAP or Active Directory, give demos and other reasons.
+to test and work with LDAP or Active Directory, to give demos, or other reasons.
 
 ## Getting started with GitLab development
 
@@ -53,8 +53,8 @@ This is the community edition of GitLab. Most of the development happens here,
 then gets merged into GitLab EE periodically. Unless you're making a change
 specific to GitLab EE, add it to CE.
 
-- [dev.gitlab.org/gitlab/gitlabhq]
-- [gitlab.com/gitlab-org/gitlab-ce]
+- [https://dev.gitlab.org/gitlab/gitlabhq](https://dev.gitlab.org/gitlab/gitlabhq)
+- [https://gitlab.com/gitlab-org/gitlab-ce](https://gitlab.com/gitlab-org/gitlab-ce)
 - [https://github.com/gitlabhq/gitlabhq](https://github.com/gitlabhq/gitlabhq)
 
 ### GitLab Enterprise Edition (EE)
@@ -63,12 +63,8 @@ This is _not_ an open source project, but we made the source code available for
 viewing and contributions. As of version 7.11, it requires a license key to be
 used.
 
-It exists in three places. The subscribers repository is deprecated and used to be
-used as a private repository for customers:
-
-- [dev.gitlab.org/gitlab/gitlab-ee] Most development in EE happens here.
-- [gitlab.com/gitlab-org/gitlab-ee] Public repo of EE.
-- [gitlab.com/subscribers/gitlab-ee] Deprecated private and no longer update repo.
+- [https://dev.gitlab.org/gitlab/gitlab-ee](https://dev.gitlab.org/gitlab/gitlab-ee) - Most development happens here.
+- [https://gitlab.com/gitlab-org/gitlab-ee](https://gitlab.com/gitlab-org/gitlab-ee) - Public repository.
 
 ### GitLab Continuous Integration (CI)
 
@@ -87,13 +83,14 @@ GitLab Shell handles git commands for GitLab. It's an essential part of GitLab.
 
 - [https://dev.gitlab.org/gitlab/gitlab-shell](https://dev.gitlab.org/gitlab/gitlab-shell)
 - [https://gitlab.com/gitlab-org/gitlab-shell](https://gitlab.com/gitlab-org/gitlab-shell)
+- [https://github.com/gitlabhq/gitlab-shell](https://github.com/gitlabhq/gitlab-shell)
 
 ### Omnibus GitLab
 
 Omnibus GitLab creates the packages for GitLab.
 
-- [https://gitlab.com/gitlab-org/omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab)
 - [https://dev.gitlab.org/gitlab/omnibus-gitlab](https://dev.gitlab.org/gitlab/omnibus-gitlab)
+- [https://gitlab.com/gitlab-org/omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab)
 - [https://github.com/gitlabhq/omnibus-gitlab](https://github.com/gitlabhq/omnibus-gitlab)
 
 ## Cloud infrastructure
@@ -109,8 +106,3 @@ For everything related to operations, check out the
 
 
 [handbook]: https://about.gitlab.com/handbook
-[dev.gitlab.org/gitlab/gitlabhq]: https://dev.gitlab.org/gitlab/gitlabhq
-[gitlab.com/gitlab-org/gitlab-ce]: https://gitlab.com/gitlab-org/gitlab-ce
-[dev.gitlab.org/gitlab/gitlab-ee]: https://dev.gitlab.org/gitlab/gitlab-ee
-[gitlab.com/gitlab-org/gitlab-ee]: https://gitlab.com/gitlab-org/gitlab-ee
-[gitlab.com/subscribers/gitlab-ee]: https://gitlab.com/subscribers/gitlab-ee
