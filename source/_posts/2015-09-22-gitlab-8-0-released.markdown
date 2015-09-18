@@ -88,15 +88,6 @@ we're already looking forward to comments from your smart watches!
 
 TODO IMAGE
 
-### Quick open in Gmail
-
-Still want to get the full view of the issue or merge request while in Gmail?
-Use the new quick links. In Gmail and in Inbox you will see a direct link
-to the referenced issue of a notification you got from your GitLab instance.
-If you use Google Inbox on your phone, you'll see the links there as well!
-
-TODO IMAGES
-
 ### Better HTTP Support
 
 We've replaced Grack in GitLab to handle HTTP clones and pushes and are now using our
