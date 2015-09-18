@@ -34,8 +34,8 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 ### Continuous Integration in GitLab
 
-Code lives in GitLab: It's made, merged, reviewed in GitLab.
-Now it gets tested, deployed and packaged in GitLab as well.
+Code lives in GitLab: It's made, reviewed, and merged in GitLab. Now it gets
+tested, packaged, and deployed in GitLab as well.
 
 With GitLab 8.0, we've integrated GitLab CI directly into GitLab itself. This
 means that you no longer have to visit a separate application to see the status
