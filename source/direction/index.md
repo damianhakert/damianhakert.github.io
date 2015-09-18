@@ -68,7 +68,6 @@ We welcome contributions that implement any of these things.
 - [Improve GitHub import](https://dev.gitlab.org/gitlab/gitlabhq/issues/2248)
 - [Automatically push changed files](https://dev.gitlab.org/gitlab/gitlabhq/issues/2265)
 - [Mentioned activity level](https://dev.gitlab.org/gitlab/gitlabhq/issues/2288)
-- [Search code in group](https://dev.gitlab.org/gitlab/gitlabhq/issues/841)
 - [Revert button for merges](https://dev.gitlab.org/gitlab/gitlabhq/issues/2299)
 - [Remove satellites](https://dev.gitlab.org/gitlab/gitlabhq/issues/2300)
 - [Translations](http://feedback.gitlab.com/forums/176466-general/suggestions/3337748-internationalization-add-translations) with the help of the community and Perforce
