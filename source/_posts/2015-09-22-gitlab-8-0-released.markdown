@@ -53,7 +53,7 @@ Or through one of your projects:
 TODO IMAGE
 
 There are [advantages and disadvantages](https://gitlab.com/gitlab-org/gitlab-ce/issues/2164#note_1902301) to this integration.
-We feel confident that the benefits outweight the drawbacks.
+We feel confident that the benefits outweigh the drawbacks.
 The impact of this integration will become more visible in versions following 8.0.
 We needed to do the integration first and we have a policy of iterative improvements.
 In 8.1 we look forward to [integrating CI into the menu structure](https://gitlab.com/gitlab-org/gitlab-ce/issues/2594) and a [commit status API](https://gitlab.com/gitlab-org/gitlab-ce/issues/2595) that will make it easier for third party CI services to integrate with GitLab.
