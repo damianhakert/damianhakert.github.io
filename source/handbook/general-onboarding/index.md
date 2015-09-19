@@ -9,6 +9,7 @@ title: "GitLab Onboarding"
   * [Security](#security)
   * [Git Quiz!](#quiz)
 * [Onboarding Topics for Developers](#developers)
+* [Offboarding](#offboarding)
 
 ## Master Checklist for Onboarding of New Hires <a name="checklist"></a>
 
@@ -277,3 +278,24 @@ For everything related to operations, check out the [Operations handbook](https:
 [dev.gitlab.org/gitlab/gitlab-ee]: https://dev.gitlab.org/gitlab/gitlab-ee
 [gitlab.com/gitlab-org/gitlab-ee]: https://gitlab.com/gitlab-org/gitlab-ee
 [gitlab.com/subscribers/gitlab-ee]: https://gitlab.com/subscribers/gitlab-ee
+
+
+##Offboarding<a name=#offboarding></a>
+Create issue for former team member on the dev server in the organization project and add the following checklist.
+This list looks strange in this handbook but this is to ensure you can copy paste it into an issue.
+When you paste it in an issue it will have checkboxes that you can click to complete.
+
+```
+* [ ] Manager of former team member: organize smooth hand over of any work or tasks from former team member.
+* [ ] Jacob/CEO: remove Google account, firstname@gitlab.com or initial(s)@gitlab.com
+* [ ] Manager/CEO: inform former team member that Google account has been removed by emailing to their personal email address.
+* [ ] Jacob/CEO: remove from Slack
+* [ ] HR: remove former team member from TriNet and payroll.
+* [ ] Operations: reach out to former team member to identify and retrieve any company supplies/equipment.
+* [ ] CEO: Remove former team members' Gitlab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
+* [ ] CEO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
+* [ ] HR: Anything to be done in LastPass? 
+* [ ] Business Office manager: remove from Beamy
+* [ ] CEO: Remove team member from the GitLab availability calendar and team call invitation.
+* [ ] COO: Note final date of employment / contract in the [Organizational Chart and Hiring](https://docs.google.com/spreadsheets/u/1/d/1Ru1hUAlF2Z2D2ILDzzqdmOGFbzov6eDSqSwHdM6buzQ/edit?usp=sheets_home) sheet.
+```
