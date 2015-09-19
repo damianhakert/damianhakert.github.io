@@ -245,7 +245,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <li>In case it can be useful add your panned time off as a <b>FYI</b> on the next agenda of the team call.</li>
     <li>We suggest to take the <b>official</b> days off in the country you are currently in. The total of your paid time off should be 32 days per year, <a href="http://www.iamexpat.nl/expat-page/survival-kit/dutch-holidays">Dutch holidays</a> are 9 fixed (23 flexible, total 32), <a href="http://www.officeholidays.com/countries/usa/index.php">USA holidays</a> are 12 fixed  (20 flexible, total 32).  If you want, you can also do a mix of, for example, the Ecuador and US holidays.</li>
     <li>We will <b>help</b> clients during official days off, unless they are official days off in both the Netherlands and the U.S. We try to have people working who are in a country that don't have an official day off. If you need to work during an official day off in your country, you get a day off allowance in return.</li>
-    <li>Accumulated time off will not be <b>paid</b> out, but it does not expire, either.</li>
+    <li>Accumulated time off will be paid out in accordance with local laws. Where applicable, it does not expire and can be carried forward from year to year.  For GitLab, Inc. employees accrued paid time off is capped at 30 days.</li>
   </ol>
 
 <h2 id="signing-legal-documents">Signing Legal Documents</h2>
@@ -274,7 +274,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 <h3>Install RVM</h3>
 <ol>
     <li>Go to: <a href="https://rvm.io/">https://rvm.io</a></li>
-    <li>Type: \curl -sSL https: //get.rvm.io | bash -s stable</li>
+    <li>Type: \curl -sSL https://get.rvm.io | bash -s stable</li>
     <li>Close Terminal</li>
     <li>Open new Terminal to load new environment</li>
 </ol>
