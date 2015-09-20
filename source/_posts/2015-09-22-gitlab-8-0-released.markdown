@@ -93,7 +93,8 @@ You can now simply reply to any notification email to comment in the issue
 or merge request. This brings GitLab to any app that can use email;
 we're already looking forward to comments from your smart watches!
 
-TODO link to documentation to activate
+* See [the documentation on reply by email](http://doc.gitlab.com/ce/reply_by_email/README.html)
+to set it up
 
 TODO IMAGE
 
@@ -103,6 +104,11 @@ Still want to get the full view of the issue or merge request while in Gmail?
 Use the new quick links. In Gmail and in Inbox you will see a direct link
 to the referenced issue of a notification you got from your GitLab instance.
 If you use Google Inbox on your phone, you'll see the links there as well!
+
+**Note that you need to go through an involved approval process of Google to enable this.
+We already did this for GitLab.com.**
+
+* Find the [documentation on Gmail action buttons](http://doc.gitlab.com/ce/integration/gmail_action_buttons_for_gitlab.html)
 
 TODO IMAGES
 
@@ -163,12 +169,13 @@ If you're currently not using GitLab CI or do not care about persisting data
 and registered runners, you do not have to do anything in regards to GitLab CI.
 
 If you have an active GitLab CI instance, you will need to follow our
-[CI migration guide]() to persist your data and registered runners.
+[CI migration guide](https://gitlab.com/gitlab-org/gitlab-ce/tree/master/doc/migrate_ci_to_ce)
+to persist your data and registered runners.
 This is an involved migration, especially if GitLab CI is running on a separate
 server. It can be performed while GitLab is online, but GitLab CI will have
 downtime.
 
-#### Default upgrade behaviour
+#### Default upgrade behavior
 
 Please be aware that by default the Omnibus packages will stop, run
 migrations, and start again, no matter how 'big' or 'small' the
