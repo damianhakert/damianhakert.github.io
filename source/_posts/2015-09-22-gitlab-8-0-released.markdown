@@ -23,7 +23,8 @@ and [more](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-op
 Today, GitLab's next major version is here. We're very excited that GitLab 8.0 allows for a faster,
 more beautiful way for people to create, review and deploy code together.
 
-GitLab now comes with continuous integration ([GitLab CI](https://about.gitlab.com/gitlab-ci/)) fully integrated.
+GitLab now comes with continuous integration ([GitLab CI](https://about.gitlab.com/gitlab-ci/))
+fully integrated.
 But that's not all! Almost every element in the interface has been reworked
 and GitLab will take up to 50% less disk space.
 
@@ -149,32 +150,31 @@ This release has more improvements, including security fixes. Please check out [
 
 ### Upgrade barometer
 
-4 possible cases:
+GitLab 8.0 can be upgraded online. Do note that if you are using GitLab CI,
+you will have to perform a manual migration, see below.
 
-1. new user: gets both by default
-1. GitLab users: update omnibus, get ci by default
-1. GitLab 7.14, ci 7.14 on same server: update to 8.0, semi-automatic migration necessary.
-1. separate CI: upgrade Ci to 8.0 (final version), backup, transfer backup, semi-automatic migration
+#### GitLab CI Migration
 
-disable-ci page for time of migraitons.
+GitLab 8.0 integrates GitLab CI in GitLab. Depending on your current usage of
+GitLab CI, this could mean you have to perform a migration that merges your
+GitLab CI data into GitLab.
 
-Downtime only for CI, not GitLabs while migrating CI.
+If you're currently not using GitLab CI or do not care about persisting data
+and registered runners, you do not have to do anything in regards to GitLab CI.
 
-WAITING FOR NEW DOCS WITH MIGRATION PROCEDURE
+If you have an active GitLab CI instance, you will need to follow our
+[CI migration guide]() to persist your data and registered runners.
+This is an involved migration, especially if GitLab CI is running on a separate
+server. It can be performed while GitLab is online, but GitLab CI will have
+downtime.
 
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
-*** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
+#### Default upgrade behaviour
 
 Please be aware that by default the Omnibus packages will stop, run
 migrations, and start again, no matter how 'big' or 'small' the
 upgrade is. The behaviour can be changed by adding a
 [/etc/gitlab/skip-auto-migrations
 file](http://doc.gitlab.com/omnibus/update/README.html).
-
-MySQL => PG is possible
-
-other way around is not possible right now with CI
 
 - - -
 
