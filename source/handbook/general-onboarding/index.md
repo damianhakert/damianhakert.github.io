@@ -57,8 +57,8 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 
 * [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle
 * [ ] Hiring manager: /cc the new user in the organization issue with this checklist that was created for them.
-* [ ] CEO: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
-* [ ] CEO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
+* [ ] Jacob/CEO: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
+* [ ] Jacob/CEO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] Hiring manager: Invite to team meeting
 * [ ] HR: Send [People Information sheet](https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0) and instruct to return answers via email or slack
 * [ ] HR: [Add to Lastpass](https://lastpass.com/enterprise_create.php) and create folder for new hire in Lastpass
