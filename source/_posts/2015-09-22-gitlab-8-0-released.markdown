@@ -190,7 +190,7 @@ You can change your level of participation and immediately see the current level
 
 This release has more improvements, including security fixes.
 Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG)
-to see the all named changes.
+to see all of the named changes.
 
 ## Upgrade barometer
 
