@@ -120,6 +120,17 @@ We already did this for GitLab.com.**
 
 ![Gmail Action Buttons](/images/8_0/gmail.png)
 
+### Easily Upload files in GitLab
+
+To make it much easier to upload files to your repository, you can now do this
+directly through GitLab's interface!
+
+![Quick Upload into your repository](upload.png)
+
+Yakun Li and Stan Hu deserve special recognition for being
+patient and persistent while adding this feature, which had a [pull request with
+250 comments](https://github.com/gitlabhq/gitlabhq/pull/9138)! Awesome work!
+
 ### Better HTTP Support
 
 We've replaced Grack in GitLab to handle HTTP clones and pushes and are now using our
@@ -147,18 +158,13 @@ Solving these will determine if GitLab 8.1 will ship with Rocket Chat or if it w
 
 TODO mention that web hooks are now enabled by default but you can change it
 
-### Public user profile and group pages
+### Public User Profile and Group Pages
 
 In GitLab 8.0 all users and groups will have a publicly visible profile page.
-This ensures that people are no longer confused when they can't claim a name (which already allowed you to find out what names existed).
-Private and internal projects will not be shown on these profile pages unless you're allowed to see them.
-
-### Upload files in the web UI
-
-You can now upload new files or replace existing ones directly from the web
-interface. Both Yakun Li and Stan Hu deserve special recognition for being
-patient and persistent while adding this feature, which had a [pull request with
-250 comments](https://github.com/gitlabhq/gitlabhq/pull/9138).
+This removes some complexity and makes it clear why you can't claim a name
+(which previously allowed you to find out what names existed).
+Private and internal projects will not be shown on these profile pages unless
+you're allowed to see them.
 
 ### Other changes
 
