@@ -152,7 +152,7 @@ making the shared experience much more fluid.
 On top of that, the Mattermost team has added File and Image sharing, a way
 to import Slack data and a host of other improvements and fixes!
 
-![Mattermost Beta1!](mattermost.png)
+![Mattermost Beta1!](/images/8_0/mattermost.png)
 
 The team at Rocket Chat encountered a
 [few temporary road blocks](https://github.com/RocketChat/Rocket.Chat/issues/533#issuecomment-140627021)
