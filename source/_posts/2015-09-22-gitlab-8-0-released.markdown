@@ -77,7 +77,9 @@ increased for elements that are more important and some soft lines were added fo
 
 Take a look for yourself at our clean, new design:
 
-TODO: ADD IMAGES
+![GitLab 8.0 Dashboard](dashboard.png)
+![GitLab 8.0 project](project.png)
+![GitLab 8.0 Merge Request](mr.png)
 
 ### Turbo Merges (Vroom Vroom)
 
