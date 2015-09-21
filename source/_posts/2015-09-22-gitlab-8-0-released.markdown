@@ -77,9 +77,9 @@ increased for elements that are more important and some soft lines were added fo
 
 Take a look for yourself at our clean, new design:
 
-![GitLab 8.0 Dashboard](dashboard.png)
-![GitLab 8.0 project](project.png)
-![GitLab 8.0 Merge Request](mr.png)
+![GitLab 8.0 Dashboard](/images/8_0/dashboard.png)
+![GitLab 8.0 project](/images/8_0/project.png)
+![GitLab 8.0 Merge Request](/images/8_0/mr.png)
 
 ### Turbo Merges (Vroom Vroom)
 
@@ -104,7 +104,7 @@ we're already looking forward to comments from your smart watches!
 * See [the documentation on reply by email](http://doc.gitlab.com/ce/reply_by_email/README.html)
 to set it up
 
-TODO IMAGE
+![Reply by Email!](/images/8_0/rbe.png)
 
 ### Quick open in Gmail
 
@@ -118,7 +118,7 @@ We already did this for GitLab.com.**
 
 * Find the [documentation on Gmail action buttons](http://doc.gitlab.com/ce/integration/gmail_action_buttons_for_gitlab.html)
 
-TODO IMAGES
+![Gmail Action Buttons](/images/8_0/gmail.png)
 
 ### Better HTTP Support
 
@@ -138,7 +138,9 @@ making the shared experience much more fluid.
 On top of that, the Mattermost team has added File and Image sharing, a way
 to import Slack data and a host of other improvements and fixes!
 
-The team at Rocket Chat encountered a [few temporary road blocks](https://github.com/RocketChat/Rocket.Chat/issues/533#issuecomment-140627021) in adding PostgreSQL compatibility.
+The team at Rocket Chat encountered a
+[few temporary road blocks](https://github.com/RocketChat/Rocket.Chat/issues/533#issuecomment-140627021)
+in adding PostgreSQL compatibility.
 Solving these will determine if GitLab 8.1 will ship with Rocket Chat or if it will be delayed.
 
 ### SSL Verification for Webhooks
