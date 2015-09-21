@@ -28,8 +28,9 @@ fully integrated.
 But that's not all! Almost every element in the interface has been reworked
 and GitLab will take up to 50% less disk space.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
+Kirill Zaitsev for the awesome Drone CI integration and work on the service API.
+Thanks Kirill!
 
 <!--more-->
 
