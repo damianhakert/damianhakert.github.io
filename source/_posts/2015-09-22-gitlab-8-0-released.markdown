@@ -41,10 +41,12 @@ tested, packaged, and deployed in GitLab as well.
 
 With GitLab 8.0, we've integrated GitLab CI directly into GitLab itself. This
 means that you no longer have to visit a separate application to see the status
-of your projects. You can see all of your tests, deployments, and packaging that
-you would normally see in your CI, right in GitLab. For our community using
-GitLab CI alongside previous versions of GitLab, please take a look at our
-[tutorial](TODOaddlink) to migrate to GitLab 8.0.
+of your projects.
+You can see all of your tests, deployments, and packaging that
+you would normally see in your CI, right in GitLab.
+
+If you were using GitLab CI before, please see the notes on migrating at the
+end of this post.
 
 Simply visit 'Continuous Integration' from the Dashboard:
 
@@ -117,7 +119,7 @@ If you use Google Inbox on your phone, you'll see the links there as well!
 _Note that you need to go through an involved approval process of Google to enable this.
 We already did this for GitLab.com._
 
-* Find the [documentation on Gmail action buttons](http://doc.gitlab.com/ce/integration/gmail_action_buttons_for_gitlab.html)
+* For the approval process steps please see the [documentation on Gmail action buttons](http://doc.gitlab.com/ce/integration/gmail_action_buttons_for_gitlab.html)
 
 ![Gmail Action Buttons](/images/8_0/gmail.png)
 
@@ -155,7 +157,8 @@ to import Slack data and a host of other improvements and fixes!
 The team at Rocket Chat encountered a
 [few temporary road blocks](https://github.com/RocketChat/Rocket.Chat/issues/533#issuecomment-140627021)
 in adding PostgreSQL compatibility.
-Solving these will determine if GitLab 8.1 will ship with Rocket Chat or if it will be delayed.
+How quickly these are solved will determine if GitLab 8.1 will ship
+with Rocket Chat or whether it will be delayed.
 
 ## SSL Verification for Web Hooks
 
