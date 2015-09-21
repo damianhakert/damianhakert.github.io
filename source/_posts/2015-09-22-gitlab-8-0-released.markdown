@@ -175,6 +175,15 @@ This removes some complexity and makes it clear why you can't claim a name
 Private and internal projects will not be shown on these profile pages unless
 you're allowed to see them.
 
+## Notification Settings within the Project's main page
+
+With GitLab 8.0 you will be able to set your project's notifications setting right from the project's
+main view. There is no longer the need to dig through your entire profile to find the notifications settings.
+
+You can change your level of participation and immediately see the current level that is set for a particular project.
+
+![Project Notifications](/images/8_0/notifications.png)
+
 ## Other changes
 
 This release has more improvements, including security fixes.
