@@ -29,7 +29,7 @@ But that's not all! Almost every element in the interface has been reworked
 and GitLab will take up to 50% less disk space.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
-Kirill Zaitsev for the awesome Drone CI integration and work on the service API.
+**Kirill Zaitsev** for the awesome Drone CI integration and work on the service API.
 Thanks Kirill!
 
 <!--more-->
@@ -177,7 +177,9 @@ you're allowed to see them.
 
 ## Other changes
 
-This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
+This release has more improvements, including security fixes.
+Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG)
+to see the all named changes.
 
 ## Upgrade barometer
 
