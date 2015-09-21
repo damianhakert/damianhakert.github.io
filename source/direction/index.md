@@ -57,6 +57,7 @@ We welcome contributions that implement any of these things.
 - [Edit on protected branch should create a new branch](https://dev.gitlab.org/gitlab/gitlabhq/issues/2242)
 - [Filter by more than one label](https://gitlab.com/gitlab-org/gitlab-ce/issues/989)
 - [See all forked projects of one project](https://gitlab.com/gitlab-org/gitlab-ce/issues/2406)
+- [Merge if green button if tests are still running](https://gitlab.com/gitlab-org/gitlab-ce/issues/2640)
 
 ### CE
 
