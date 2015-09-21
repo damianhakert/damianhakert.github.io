@@ -163,7 +163,19 @@ This release has more improvements, including security fixes. Please check out [
 ### Upgrade barometer
 
 GitLab 8.0 can be upgraded online. Do note that if you are using GitLab CI,
-you will have to perform a manual migration, see below.
+you will have to perform a manual migration, see below. In addition,
+there is a small change of behavior in GitLab CI, described directly below.
+
+#### .gitlab-ci.yml usage in GitLab CI
+
+In the migration from storing build scripts in the database (with GitLab 7.12),
+to using `.gitlab-ci.yml` files in the repository of your project we would
+support both methods of running builds.
+
+With GitLab 8.0, CI will not pick up any builds from projects / branches without
+a `.gitlab-ci.yml` file present. Configuring a `.gitlab-ci.yml` is not difficult.
+
+* [Documentation on configuring a `.gitlab-ci.yml` file](http://doc.gitlab.com/ci/yaml/README.html)
 
 #### GitLab CI Migration
 
