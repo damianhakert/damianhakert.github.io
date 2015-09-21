@@ -44,6 +44,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 <h2 id="general-guidelines">General Guidelines</h2>
   <ol>
     <li>We value results, transparency, sharing, freedom, efficiency, collaboration, directness, kindness, diversity, quirkiness, boring solutions, and interesting people.</li>
+    <li>We try to channel our inner Ben Horowitz by being [both straightforward and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b).
     <li>Working at GitLab Inc. is cooperating with the most talented people you've ever worked with, being the <b>most productive</b> you'll ever be, creating software that is helping the most people you've ever reached.</li>
     <li>We recognize that inspiration is perishable, if you’re <b>enthusiastic</b> about something that generates great results in relatively little time feel free to work on that.</li>
     <li>Do what is right for our <b>customers</b> and the rest of the GitLab community, do what is best over the long term, don't be evil.</li>
