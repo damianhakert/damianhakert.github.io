@@ -116,8 +116,6 @@ This model is an alternative to the yearly payment model
 
 1. If no VAT number list but client is from EU but outside NL (if it is a Recurly order it will have automatically added VAT), send email to double-check if they don’t want VAT number listed
 
-1. [Create a draft sale](source/handbook/sales-process/accounting#draft-sale-in-twinfield-for-clients-paying-by-with-recurly) (not invoice) in Twinfield 
-
 1. If standard subscriber, add to [subscribers group](https://gitlab.com/groups/standard/members) and for standard subscriber send [onboarding email](https://docs.google.com/document/d/12X6Cvjwe_jvFi41gvXMLlq91lDgh5oSrRFdQEuEwhl8/edit). If basic subscriber, do not add
 
 1. Forward Recurly invoice to customer as safeguard against going to spam. Also reinterate to sign up on GitLab.com and send user name
@@ -148,8 +146,6 @@ This model is an alternative to the yearly payment model
 
 1. Forward Recurly invoice to customer as safeguard against going to spam. Also reinterate to sign up on GitLab.com and send user name
 
-1. [Create draft sale](source/handbook/sales-process/accounting#draft-sale-in-twinfield-for-clients-paying-by-with-recurly) in Twinfield
-
 1. Add customer to [sales sheet](https://docs.google.com/spreadsheets/d/1755SblMccalWXSahspOrfzBwjGp4F8TkwlB8dOXCGlU/edit#gid=11) (include invoice date and nr.)
 
 1. If standard subscriber, add to [subscribers group](https://gitlab.com/standard/standard-subscriber-information/project_members)
@@ -178,10 +174,6 @@ Trigger: customer with a valid subscription requests a cancellation either via s
 
 1. Press “Terminate subscription” or “cancel at renewal”, depending on situation
 
-1. Twinfield: if twinfield entry still in draft (cancellation happens same quarter as the subscription) identify draft sale and amend amount to “0”
-
-1. Twinfield: if twinfield entry final, then create a draft sale with negative amount. write Recurly and number of original invoice in Description field
-
 1. [Remove username from EE repo](source/handbook/sales-process/licenses#removing-access-from-ee)
 
 1. Sales sheet: mark deal as lost
@@ -201,5 +193,3 @@ Trigger: customer with a valid subscription requests a cancellation either via s
 1. Account manager Updates and resends license key to match
 
 1. When payment arrives for invoice, controller uses ‘Record Offline Payment’ to record the payment
-
-
