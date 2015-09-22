@@ -95,8 +95,8 @@ merges, much faster and more reliable.
 
 By removing satellites in GitLab, we free up the space left behind.
 Project size in GitLab is cut in half reducing disk usage up to 50%.
-When you upgrade to GitLab 8.1 next month the satellites will autmatically be removed.
-If you need to remove them before that time you can do so manually.
+When you upgrade to GitLab 8.1 next month the satellites will automatically be
+removed. If you need to remove them before that time you can do so manually.
 
 ## Reply by Email
 
