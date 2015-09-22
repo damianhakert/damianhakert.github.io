@@ -167,6 +167,10 @@ with Rocket Chat or whether it will be delayed.
 We've now enabled SSL verification for web hooks by default.
 This makes web hooks safer to use and helps mitigate man-in-the-middle attacks.
 
+You can turn this off in the web hook settings of a project.
+
+![Configure SSL verification of Web Hooks](webhooks.png)
+
 * [View the documentation for Web Hooks](http://doc.gitlab.com/ce/web_hooks/web_hooks.html)
 
 ## Public User Profile and Group Pages
@@ -179,10 +183,9 @@ you're allowed to see them.
 
 ## Notification Settings within the Project's main page
 
-With GitLab 8.0 you will be able to set your project's notifications setting right from the project's
-main view. There is no longer the need to dig through your entire profile to find the notifications settings.
-
-You can change your level of participation and immediately see the current level that is set for a particular project.
+With GitLab 8.0 you will be able to set the project notifications setting
+right from the project's dashboard. You can now quickly control how much
+information you'll get from each project.
 
 ![Project Notifications](/images/8_0/notifications.png)
 
@@ -200,9 +203,9 @@ there is a small change of behavior in GitLab CI, described directly below.
 
 ### .gitlab-ci.yml usage in GitLab CI
 
-In the migration from storing build scripts in the database (with GitLab 7.12),
-to using `.gitlab-ci.yml` files in the repository of your project we would
-support both methods of running builds.
+In GitLab 7.12 .gitlab-ci.yml files were introduced to specify build configurations.
+If there was no file yet CI would fall back to the legacy build script,
+which was stored in the database.
 
 With GitLab 8.0, CI will not pick up any builds from projects / branches without
 a `.gitlab-ci.yml` file present. Configuring a `.gitlab-ci.yml` is not difficult.
