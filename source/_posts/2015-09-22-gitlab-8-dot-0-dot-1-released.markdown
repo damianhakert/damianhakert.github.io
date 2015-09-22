@@ -21,6 +21,10 @@ It includes the following fixes:
 
 <!-- more -->
 
+***Update*** *(2015-09-22 20:45 UTC)*: Omnibus packages for this release have
+been updated to fix an upgrade issue. Fixed packages have a `.1` Omnibus patch
+version (e.g., `8.0.1-ee.1` and `8.0.1-ce.1`).
+
 ## Upgrade barometer
 
 This version does not include any new migrations, and should not require any
