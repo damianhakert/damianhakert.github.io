@@ -218,8 +218,8 @@ GitLab 8.0 integrates GitLab CI in GitLab. Depending on your current usage of
 GitLab CI, this could mean you have to perform a migration that merges your
 GitLab CI data into GitLab.
 
-If you're currently not using GitLab CI or do not care about persisting data
-and registered runners, you do not have to do anything in regards to GitLab CI.
+If you're currently not using GitLab CI
+you do not have to do anything in regards to GitLab CI.
 
 If you have an active GitLab CI instance, you will need to follow our
 [CI migration guide](http://doc.gitlab.com/ce/migrate_ci_to_ce/README.html)
@@ -227,6 +227,10 @@ to persist your data and registered runners.
 This is an involved migration, especially if GitLab CI is running on a separate
 server. It can be performed while GitLab is online, but GitLab CI will have
 downtime.
+
+Note that even if you do not care about persisting your CI data through the
+migration, there is a chance that you have to perform some cleanup.
+Please read [the migration document](http://doc.gitlab.com/ce/migrate_ci_to_ce/README.html).
 
 ### Default upgrade behavior
 
