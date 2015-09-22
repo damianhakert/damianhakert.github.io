@@ -106,7 +106,7 @@ You can now simply reply to any notification email to comment in the issue
 or merge request. This brings GitLab to any app that can use email;
 we're already looking forward to comments from your smart watches!
 
-* See [the documentation on reply by email](http://doc.gitlab.com/ce/reply_by_email/README.html)
+* See [the documentation on reply by email](http://doc.gitlab.com/ce/incoming_email/README.html)
 to set it up
 
 ![Reply by Email!](/images/8_0/rbe.png)
