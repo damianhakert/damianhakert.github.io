@@ -169,7 +169,7 @@ This makes web hooks safer to use and helps mitigate man-in-the-middle attacks.
 
 You can turn this off in the web hook settings of a project.
 
-![Configure SSL verification of Web Hooks](webhooks.png)
+![Configure SSL verification of Web Hooks](/images/8_0/webhooks.png)
 
 * [View the documentation for Web Hooks](http://doc.gitlab.com/ce/web_hooks/web_hooks.html)
 
