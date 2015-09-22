@@ -21,9 +21,12 @@ It includes the following fixes:
 
 <!-- more -->
 
-***Update*** *(2015-09-22 20:45 UTC)*: Omnibus packages for this release have
-been updated to fix an upgrade issue. Fixed packages have a `.1` Omnibus patch
-version (e.g., `8.0.1-ee.1` and `8.0.1-ce.1`).
+***Update*** *(2015-09-22 22:00 UTC)*: Omnibus packages for this release have
+been updated to resolve the [No resource, method, or local variable named
+`ci_service`](https://gitlab.com/gitlab-org/gitlab-ce/issues/2670) error some of
+our users saw during the upgrade process. Fixed packages have a `.1` Omnibus
+patch version (e.g., `8.0.1-ee.1` and `8.0.1-ce.1`). If you've already upgraded
+to GitLab 8.0.1 without issue, you can safely ignore this update.
 
 ## Upgrade barometer
 
