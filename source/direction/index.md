@@ -109,7 +109,7 @@ We welcome contributions that implement any of these things.
 
 ### Other software in the Omnibus packages
 
-- 8.1 Add [Rocket.Chat](http://rocket.chat/)
+- 8.1 Add [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
 - Consider shipping a Scrum board with Omnibus
 
 ## We would love to partner with
