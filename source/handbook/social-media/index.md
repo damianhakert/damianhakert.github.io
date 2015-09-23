@@ -25,3 +25,7 @@ tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues).
 1. When responding to tweets, be polite and brief.
 
 1. It's OK to invite CE or GitLab.com users to collaborate.
+
+1. Zendesk is a good place to reply to tweets, but always check for the tweet history on Tweetdeck.
+
+1. Use Tweetdeck to find GitLab mentions without the # or @.
