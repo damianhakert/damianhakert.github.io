@@ -21,7 +21,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 ```
 ### BEFORE STARTING AT GITLAB
 
-* [ ] HR: Create issue for new hire in organization with relevant lines of the master checklist and /cc Jacob and CEO.
+* [ ] HR: Create issue called 'Onboard Jane Doe starting March 26' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master checklist and /cc Jacob, Patricio and CEO.
 * [ ] Hiring manager: cc new team member on the issue once they have a dev.GitLab.org account.
 * [ ] Jacob/CEO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
 * [ ] Jacob/CEO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
