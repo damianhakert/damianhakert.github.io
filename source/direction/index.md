@@ -59,6 +59,7 @@ We welcome contributions that implement any of these things.
 - [See all forked projects of one project](https://gitlab.com/gitlab-org/gitlab-ce/issues/2406)
 - [Merge if green button if tests are still running](https://gitlab.com/gitlab-org/gitlab-ce/issues/2640)
 - [In-picture-comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
+- [Add more default views](https://gitlab.com/gitlab-com/www-gitlab-com/edit/master/source/direction/index.md)
 
 ### CE
 
