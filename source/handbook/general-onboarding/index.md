@@ -52,6 +52,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 
 * [ ] HR: Add new employees to [Inc payroll](https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl) or [BV payroll](https://docs.google.com/document/d/1g6nZ7w1RqkSvD6VbyuRPauDTUuyTp4mDaHrUY2UVY-A/edit).
 * [ ] Operations: reach out to the new team member to identify and order any necessary supplies/equipment
+* [ ] Patricio/Jacob/CEO: Add to tweetdeck
 
 ### WITHIN FIRST WEEK OF STARTING
 
@@ -297,5 +298,6 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 * [ ] HR: Anything to be done in LastPass? 
 * [ ] Business Office manager: remove from Beamy
 * [ ] CEO: Remove team member from the GitLab availability calendar and team call invitation.
+* [ ] Patricio/Jacob/CEO: Remove from tweetdeck
 * [ ] COO: Note final date of employment / contract in the [Organizational Chart and Hiring](https://docs.google.com/spreadsheets/u/1/d/1Ru1hUAlF2Z2D2ILDzzqdmOGFbzov6eDSqSwHdM6buzQ/edit?usp=sheets_home) sheet.
 ```
