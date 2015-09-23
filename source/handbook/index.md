@@ -26,6 +26,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   <li><a href="/handbook/operations">Operations</a></li>
   <li><a href="/handbook/hiring">Hiring Process</a></li>
   <li><a href="/handbook/accounting">Accounting</a></li>
+  <li><a href="/handbook/social-media">Social Media</a></li>
 </ul>
 
 ## Contents of this page
