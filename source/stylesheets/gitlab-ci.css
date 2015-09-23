@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, button, a {
 .image-title .color-bg {
   text-align: center;
   padding-bottom: 4%;
-  height: 100%;
+  height: 500px;
   width: 100%;
   margin-top: -1px;
   background-image: linear-gradient(to bottom, rgba(85,68,136,1.0) 0%,rgba(85,68,136,0.85) 99%,rgba(85,68,136,0.79) 100%)
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, button, a {
   .color-bg h1 {
     font-family: "Roboto Condensed", sans-serif;
     position: relative;
-    padding: 64px 0 3px 0;
+    padding: 119px 0 3px 0;
     margin-top: 0;
     color: #fff;
     font-size: 55px;
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, button, a {
 .gitlab-ci {
   margin-top: 16%;
   width: 300px;
-  height: 300px;
+  height: 500px;
   border-radius: 150px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
@@ -172,28 +172,3 @@ h1, h2, h3, h4, h5, button, a {
 .gitlab-arch {
   margin-top: 9%;
 }
-
-/* buttons */
-
-#download {
-  animation-delay: 0.5s;
-  -moz-animation-delay: 0.5s;
-  -webkit-animation-delay: 0.5s;
-}
-
-#signin {
-  animation-delay: 0.5s;
-  -moz-animation-delay: 0.5s;
-  -webkit-animation-delay: 0.5s;
-}
-
-.download-btn-style {
-  background: #5D4D93;
-  font-family: "Roboto Condensed", sans-serif;
-  color: white;
-  border: 2px solid white;
-}
-
-  .download-btn-style:hover {
-    text-decoration: none;
-  }
