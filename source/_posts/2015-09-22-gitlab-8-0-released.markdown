@@ -253,7 +253,7 @@ Check out our [update page](https://about.gitlab.com/update/).
 
 ## Enterprise Edition
 
-The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
+GitLab Enterprise Edition offers additional features for organisations.
 For a complete overview please have a look at the [feature list of GitLab EE](http://www.gitlab.com/gitlab-ee/).
 
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing/).
