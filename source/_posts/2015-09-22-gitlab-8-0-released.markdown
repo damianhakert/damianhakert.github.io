@@ -251,7 +251,7 @@ can stop reading this section.
 
 If you have an installation from source, or if you use the Omnibus
 packages with your own reverse proxy (be it NGINX or Apache) then
-you must upgrade your reverser proxy settings to direct Git HTTP
+you must upgrade your reverse proxy settings to direct Git HTTP
 requests to gitlab-git-http-server instead of Unicorn. If you do
 not do this, all Git push/pull requests to your GitLab 8.0 server
 will either fail or return empty repositories.
@@ -259,7 +259,6 @@ will either fail or return empty repositories.
 If you use an installtion from source you also need to update your
 GitLab init script so that it will start/stop gitlab-git-http-server
 along with other GitLab services.
-s/.$
 
 Please see the [7.14 to 8.0 update
 guide](http://doc.gitlab.com/ce/update/7.14-to-8.0.html) for more
