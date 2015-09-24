@@ -201,6 +201,10 @@ GitLab 8.0 can be upgraded online. Do note that if you are using GitLab CI,
 you will have to perform a manual migration, see below. In addition,
 there is a small change of behavior in GitLab CI, described directly below.
 
+If you installed GitLab from source, or if you disabled the built-in
+NGINX in the Omnibus packages, then you need to manually update
+your web server configuration to make it use gitlab-git-http-server.
+
 ### .gitlab-ci.yml usage in GitLab CI
 
 In GitLab 7.12 .gitlab-ci.yml files were introduced to specify build configurations.
@@ -232,6 +236,33 @@ Note that even if you do not care about persisting your CI data through the
 migration, there is a chance that you have to perform some cleanup.
 Please read [the migration document](http://doc.gitlab.com/ce/migrate_ci_to_ce/README.html).
 
+### Non-omnibus web servers and gitlab-git-http-server
+
+All GitLab installations use a reverse proxy server to shield the
+main Ruby application server (Unicorn) from handling requests it
+is not 'good at'. The recommended reverse proxy for GitLab is NGINX,
+but some people also use Apache. Because GitLab 8.0 uses
+gitlab-git-http-server upgrading to 8.0 requires changes in the
+reverse proxy configuration. If you are using Omnibus packages with
+the built-in NGINX server (which is the default) then these reverse
+proxy changes happen automatically when you upgrade to 8.0 and you
+can stop reading this section.
+
+If you have an installation from source, or if you use the Omnibus
+packages with your own reverse proxy (be it NGINX or Apache) then
+you must upgrade your reverser proxy settings to direct Git HTTP
+requests to gitlab-git-http-server instead of Unicorn. If you do
+not do this, all Git push/pull requests to your GitLab 8.0 server
+will either fail or return empty repositories.
+
+If you use an installtion from source you also need to update your
+GitLab init script so that it will start/stop gitlab-git-http-server
+along with other GitLab services.
+s/.$
+
+Please see the [7.14 to 8.0 update
+guide](http://doc.gitlab.com/ce/update/7.14-to-8.0.html) for more
+information on the new reverse proxy settings.
 ### Default upgrade behavior
 
 Please be aware that by default the Omnibus packages will stop, run
