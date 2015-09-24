@@ -151,6 +151,7 @@ The most common Issues are created in the following projects:
 
 ### Security<a name="security"></a>
 <ol>
+<li>When you are offboarded the Lastpass account is deleted, if you want to store your non-work passwords please create a personal lastpass account and [link it to your work account](https://enterprise.lastpass.com/getting-started/link-personal-account/).</li>
  <li><b>Never reuse</b> a password you use on a company account (not for another GitLab service or for a personal account).</li>
 <li>Set up <a href="https://lastpass.com/">LastPass</a> as your password manager.</li>
 <li>Use Lastpass to <a href="https://helpdesk.lastpass.com/generating-a-password/">generate <b>strong passwords</b></a> for any new company accounts.</li>
@@ -165,6 +166,8 @@ Do not share credentials via email, issue comments, chat etc.
 This includes email addresses to login and API keys.
 Use LastPass shared folders for this.
 You should be invited to a few shared folders.
+</p>
+<p>
 If you're missing an appropriate folder ask the CEO to create a new shared folder.
 Refer to the items with 'NAME OF SITE' in 'LASTPASS FOLDER'.
 Do not use the share function in Lastpass itself, use shared folders and email others to altert them if needed.
@@ -180,6 +183,7 @@ Do not store credentials in a shared folder if everyone has their own user accou
 <li>Never <b>dismiss</b> a security report as invalid. Keep asking questions until the researcher comes to the same conclusion or stops responding.</li>
 <li>Do not <b>forward</b> company emails (@gitlab.com) to a non-company email address.</li>
 <li>Do not click on links in emails you did not request yourself (requested password reset is OK, anything else is suspect), we use <a href="https://cuttlephish.com/">CuttleFish</a> to test our behaviour on this. Clicking itself is a problem even when you don't enter a password, because a visit can already be used to execute a zero day.</li>
+<li>All access is noted in [a Google Sheet](https://docs.google.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit#gid=0) use this to request access, ping the relevant administrator after you updated the sheet</li>
 </ol>
 
 ### Quiz<a name=#quiz></a>
