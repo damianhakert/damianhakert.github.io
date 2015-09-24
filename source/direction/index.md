@@ -57,6 +57,10 @@ We welcome contributions that implement any of these things.
 - [Edit on protected branch should create a new branch](https://dev.gitlab.org/gitlab/gitlabhq/issues/2242)
 - [Filter by more than one label](https://gitlab.com/gitlab-org/gitlab-ce/issues/989)
 - [See all forked projects of one project](https://gitlab.com/gitlab-org/gitlab-ce/issues/2406)
+- [Merge if green button if tests are still running](https://gitlab.com/gitlab-org/gitlab-ce/issues/2640)
+- [In-picture-comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
+- [Add more default views](https://gitlab.com/gitlab-com/www-gitlab-com/edit/master/source/direction/index.md)
+- [Filter by more than one label](https://gitlab.com/gitlab-org/gitlab-ce/issues/989)
 
 ### CE
 
@@ -81,9 +85,7 @@ We welcome contributions that implement any of these things.
 - [Award emoji](https://dev.gitlab.org/gitlab/gitlabhq/issues/2388) (so you can use GitLab as a feature request tracker)
 - 8.1 [Commit Status API](https://gitlab.com/gitlab-org/gitlab-ce/issues/2595) 
 - [Handle errors before they give a 500](https://dev.gitlab.org/gitlab/gitlabhq/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=gitlab.com+errors)
-- In-picture-comments like in [zeplin.io](zeplin.io) or Phabricator
 - [Get rid of the large SSH key file](https://gitlab.com/gitlab-org/gitlab-git-http-server/issues/2#note_1983654)
-- [Run the development kit in a Docker image](https://gitlab.com/gitlab-org/gitlab-development-kit/issues/47)
 - [Deprecate the authorized keys file](https://gitlab.com/gitlab-org/gitlab-git-http-server/issues/2#note_2064375)
 
 ### EE
@@ -109,12 +111,12 @@ We welcome contributions that implement any of these things.
 
 ### Other software in the Omnibus packages
 
-- 8.1 Add [Rocket.Chat](http://rocket.chat/)
+- 8.1 Add [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
 - Consider shipping a Scrum board with Omnibus
 
 ## We would love to partner with
 
 - Browser IDE: Koding, Nitrous.io, Cloud9, CodeAnywhere, Codio and CodeEnvy (ship GitLab with them and button to open from GitLab)
 - Configuration management: Chef, Puppet, Ansible, Salt, Docker (upload cookbooks, build containers from GitLab CI, etc.)
-- Paas: CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/) (deploy apps to them with GitLab CI)
+- Paas: CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/) [Tutum](https://www.tutum.co/) [GiantSwarm](https://giantswarm.io/) (deploy apps to them with GitLab CI)
 - Scrum boards: [Huboard](https://huboard.com/), [Waffle.io](https://waffle.io/) and [Zenhub.io](https://www.zenhub.io/) support in addition to https://about.gitlab.com/applications/#scrum-boards

@@ -26,6 +26,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   <li><a href="/handbook/operations">Operations</a></li>
   <li><a href="/handbook/hiring">Hiring Process</a></li>
   <li><a href="/handbook/accounting">Accounting</a></li>
+  <li><a href="/handbook/social-media">Social Media</a></li>
 </ul>
 
 ## Contents of this page
@@ -44,6 +45,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 <h2 id="general-guidelines">General Guidelines</h2>
   <ol>
     <li>We value results, transparency, sharing, freedom, efficiency, collaboration, directness, kindness, diversity, quirkiness, boring solutions, and interesting people.</li>
+    <li>We try to channel our inner Ben Horowitz by being [both straightforward and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b).
     <li>Working at GitLab Inc. is cooperating with the most talented people you've ever worked with, being the <b>most productive</b> you'll ever be, creating software that is helping the most people you've ever reached.</li>
     <li>We recognize that inspiration is perishable, if you’re <b>enthusiastic</b> about something that generates great results in relatively little time feel free to work on that.</li>
     <li>Do what is right for our <b>customers</b> and the rest of the GitLab community, do what is best over the long term, don't be evil.</li>
@@ -140,15 +142,14 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 
 <h3 id="team-call">Team Call</h3>
 <ol>
+    <li>We use BlueJeans for the call since Hangouts is capped at 15 people, link is in the calandar invite.</li>
     <li>Please join the meeting with your x@gitlab.com account, not your private google one.</li>
     <li>We wait for people to join the first two minutes of the meeting until :32.</li>
+    <li>We start by discussing the subjects that are on the agenda for today.</li>
+    <li>When done with a point mention the subject of the next item and hand over to the next person.</li>
     <li>Sequence of asking people is in order of joining the company, same as on the [team page](https://about.gitlab.com/team/). If there are non-team page people in the call we end with those.</li>
-    <li>We start with asking how people are doing (what they did after work (in the evening) the day(s) before). Last person introduces the first agenda point.</li>
-    <li>Discuss the subjects that are on the agenda for today and <b>mention the subject of the next item when you hand over to the next person</b>.</li>
-    <li>Finish by asking everyone what their working plans are for today/tomorrow.</li>
-    <li>First person in the call order that is present (normally Dmitriy) wishes everyone a good day.</li>
-    <li>On OS X you can reduce CPU usage of Hangouts by using Safari instead of Chrome.</li>
-    <li>You can preserve bandwidth of Hangouts by clicking the antenna icon on top and setting it to low.</li>
+    <li>We end with asking what they did after work the day(s) before and their work plans are for today/tomorrow.</li>
+    <li>Last person hands over to the first person in the call order that is present (normally Dmitriy) who wishes everyone a good day.</li>
 </ol>
 
 <h3 id="user-communication-guidelines">User Communication Guidelines</h3>

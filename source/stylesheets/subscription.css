@@ -27,9 +27,9 @@ h1, h2, h3, h4, h5, button, a {
   }
 }
 
-@media (max-width: 692px) {
+@media (max-width: 767px) {
 .pricing-container {
-  height: 500px !important;
+  min-height: 500px !important;
   background: url(/images/pricing.jpg) no-repeat center center;
   margin-bottom: 35px;
   }
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, button, a {
 .pricing-container {
   position: relative;
   width: 100%;
-  height: 300px;
+  min-height: 300px;
   overflow: hidden;
   background: url(/images/pricing.jpg) no-repeat center center;
   background-size: cover;
@@ -47,11 +47,12 @@ h1, h2, h3, h4, h5, button, a {
 
 .pricing-overlay {
   background: rgba(85, 68, 136, 0.62);
+  background: linear-gradient(-225deg, rgba(100, 53, 132, 0.8) 0%, rgba(72, 135, 197, 0.92) 100%);
   height: 500px;
 }
 
 .pricing-content {
-  padding-top: 76px;
+  padding-top: 130px;
   text-align: center;
   color: white;
   width: 72%;
@@ -61,28 +62,33 @@ h1, h2, h3, h4, h5, button, a {
 
 .pricing-content h1 {
   font-size: 50px;
+  font-weight: 700;
 }
 
 .header-btn {
-  margin-top: 25px;
+  margin-top: 50px;
   text-align: center;
 }
 
+.header-btn p {
+    color: white;
+    margin-top: 10px;
+}
+
 .header-btn a:hover {
-  background: #fff;
-  color: #548;
+  background: #6144B8;
+  color: #fff;
   text-decoration: none;
 }
 
 .free-trial {
-    background: #548;
-    color: white;
-    padding: 10px 20px 10px 20px;
-    font-size: 24px;
-    border: 1px solid white;
-    border-radius: 3px;
-    text-decoration: none;
-    transition: all 0.2s;
+  background: #129BEE;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  font-size: 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.2s;
 }
 
 .subscriptions {

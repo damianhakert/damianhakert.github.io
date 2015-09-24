@@ -28,7 +28,7 @@ We found Mattermost to be the leading open source Slack-alternative and suggeste
 
 ![Mattermost screenshot](/images/mattermost/mattermost.png)
 
-It turns out that [after the succesful launch of MatterMost on Hacker News](https://news.ycombinator.com/item?id=9770322) there where a lot of requests for an easier way to install Mattermost and to add LDAP features to it.
+It turns out that [after the succesful launch of MatterMost on Hacker News](https://news.ycombinator.com/item?id=9770322) there were a lot of requests for an easier way to install Mattermost and to add LDAP features to it.
 With Omnibus GitLab we have a great way to install software in 2 minutes on many platforms and GitLab CE and EE contain many LDAP features.
 We decided to collaborate and the Mattermost team quickly added PostgreSQL support and OAuth login to Mattermost so it could connect to the [GitLab OAuth provider](http://doc.gitlab.com/ce/integration/oauth_provider.html).
 

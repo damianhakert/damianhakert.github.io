@@ -16,7 +16,7 @@ The product manager reports to the CEO and is an individual contributor.
 - Ensure that the current and next milestone is contain the most relevant items and will be realized
 - Ensure that there is a bigger vision for the product, like the [direction page](https://about.gitlab.com/direction/)
 -  Ensure that GitLab has the functionality to run GitLab.com (e.g. spam fighting)
-- The CTO has a final say on all features, the CEO will also be involved in many decisions.
+- The CTO has a final say on all features, the [CEO will also be involved in many decisions](http://www.bhorowitz.com/why_founders_fail_the_product_ceo_paradox).
 
 ## Public information
 

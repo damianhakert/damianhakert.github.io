@@ -44,6 +44,10 @@ h1 small {
   margin-bottom: 47px;
 }
 
+.pet {
+  min-height: 380px !important;
+}
+
 .member img {
   border-radius: 150px;
   -webkit-filter: grayscale(100%);

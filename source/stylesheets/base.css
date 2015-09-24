@@ -14,6 +14,23 @@
   transition: all 0.1s;
 }
 
+/* Standard Buttons */
+
+.gs-button {
+  background: #129BEE;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  font-size: 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.gs-button:hover {
+  background: #6144B8;
+  color: #fff;
+  text-decoration: none;
+}
 
 
 /*!

@@ -21,7 +21,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 ```
 ### BEFORE STARTING AT GITLAB
 
-* [ ] HR: Create issue for new hire in organization with relevant lines of the master checklist and /cc Jacob and CEO.
+* [ ] HR: Create issue called 'Onboard Jane Doe starting March 26' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master checklist and /cc Jacob, Patricio and CEO.
 * [ ] Hiring manager: cc new team member on the issue once they have a dev.GitLab.org account.
 * [ ] Jacob/CEO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
 * [ ] Jacob/CEO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
@@ -52,13 +52,14 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 
 * [ ] HR: Add new employees to [Inc payroll](https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl) or [BV payroll](https://docs.google.com/document/d/1g6nZ7w1RqkSvD6VbyuRPauDTUuyTp4mDaHrUY2UVY-A/edit).
 * [ ] Operations: reach out to the new team member to identify and order any necessary supplies/equipment
+* [ ] Patricio/Jacob/CEO: Add to tweetdeck
 
 ### WITHIN FIRST WEEK OF STARTING
 
 * [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle
 * [ ] Hiring manager: /cc the new user in the organization issue with this checklist that was created for them.
-* [ ] CEO: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
-* [ ] CEO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
+* [ ] Jacob/CEO: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
+* [ ] Jacob/CEO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] Hiring manager: Invite to team meeting
 * [ ] HR: Send [People Information sheet](https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0) and instruct to return answers via email or slack
 * [ ] HR: [Add to Lastpass](https://lastpass.com/enterprise_create.php) and create folder for new hire in Lastpass
@@ -150,6 +151,7 @@ The most common Issues are created in the following projects:
 
 ### Security<a name="security"></a>
 <ol>
+<li>When you are offboarded the Lastpass account is deleted, if you want to store your non-work passwords please create a personal lastpass account and [link it to your work account](https://enterprise.lastpass.com/getting-started/link-personal-account/).</li>
  <li><b>Never reuse</b> a password you use on a company account (not for another GitLab service or for a personal account).</li>
 <li>Set up <a href="https://lastpass.com/">LastPass</a> as your password manager.</li>
 <li>Use Lastpass to <a href="https://helpdesk.lastpass.com/generating-a-password/">generate <b>strong passwords</b></a> for any new company accounts.</li>
@@ -164,6 +166,8 @@ Do not share credentials via email, issue comments, chat etc.
 This includes email addresses to login and API keys.
 Use LastPass shared folders for this.
 You should be invited to a few shared folders.
+</p>
+<p>
 If you're missing an appropriate folder ask the CEO to create a new shared folder.
 Refer to the items with 'NAME OF SITE' in 'LASTPASS FOLDER'.
 Do not use the share function in Lastpass itself, use shared folders and email others to altert them if needed.
@@ -179,6 +183,7 @@ Do not store credentials in a shared folder if everyone has their own user accou
 <li>Never <b>dismiss</b> a security report as invalid. Keep asking questions until the researcher comes to the same conclusion or stops responding.</li>
 <li>Do not <b>forward</b> company emails (@gitlab.com) to a non-company email address.</li>
 <li>Do not click on links in emails you did not request yourself (requested password reset is OK, anything else is suspect), we use <a href="https://cuttlephish.com/">CuttleFish</a> to test our behaviour on this. Clicking itself is a problem even when you don't enter a password, because a visit can already be used to execute a zero day.</li>
+<li>All access is noted in [a Google Sheet](https://docs.google.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit#gid=0) use this to request access, ping the relevant administrator after you updated the sheet</li>
 </ol>
 
 ### Quiz<a name=#quiz></a>
@@ -297,5 +302,6 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 * [ ] HR: Anything to be done in LastPass? 
 * [ ] Business Office manager: remove from Beamy
 * [ ] CEO: Remove team member from the GitLab availability calendar and team call invitation.
+* [ ] Patricio/Jacob/CEO: Remove from tweetdeck
 * [ ] COO: Note final date of employment / contract in the [Organizational Chart and Hiring](https://docs.google.com/spreadsheets/u/1/d/1Ru1hUAlF2Z2D2ILDzzqdmOGFbzov6eDSqSwHdM6buzQ/edit?usp=sheets_home) sheet.
 ```

@@ -1,0 +1,71 @@
+---
+layout: default
+title: Team Pets
+suppress_header: true
+extra_css:
+  - team.css
+team_members:
+- name: Maçã
+  picture: pets/maca.jpg
+  story:  |
+          Maca loves to play with plastic bottles and sleep on any surface
+          near her owners.
+- name: Kirei
+  picture: pets/kirei.jpg
+  story: |
+          Batman?
+- name: Lola
+  picture: pets/lola.jpg
+  story: |
+          Super hip and fashionable. Lola likes snacks, naps and snacks. 
+- name: Ramona
+  picture: pets/ramona.jpg
+  story: |
+          Loves the beach.
+- name: Sadie
+  picture: pets/sadie.jpg
+  story: |
+          So cute.
+- name: Asti
+  picture: pets/asti.jpg
+  story: |
+          Woof! And smile
+- name: You?
+  picture: logo-extra-whitespace.png
+  story:  |
+          Want to see your name and picture here? Ask your owner to check out our latest <a href="http://about.gitlab.com/jobs/">job openings!</a>
+---
+
+<div class="wrapper">
+  <div class="container">
+    <div class="team-head">
+      <h1>MEET OUR <b>PETS</b></h1>
+    </div>
+
+    <div class="row">
+      {% for member in page.team_members %}
+        <div class="col-sm-4 ">
+          <div class="member pet">
+            <img src="../images/team/{{member.picture}}" alt="gitlab.com" width="200" height="200">
+            <h3>{{member.name}}</h3>
+            <h4>{{member.role}}</h4>
+            <div class="social">
+              {% if member.twitter %}
+                <a href="https://twitter.com/{{member.twitter}}">Twitter</a>
+              {% endif %}
+              {% if member.gitlab %}
+                <a href="https://gitlab.com/u/{{member.gitlab}}">GitLab</a>
+              {% endif %}
+            </div>
+            <ul>
+              {{member.maintains}}
+            </ul>
+            <p>
+              {{member.story}}
+            </p>
+          </div>
+        </div>
+        {% endfor %}
+    </div>
+  </div>
+</div>

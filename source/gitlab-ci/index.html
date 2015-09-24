@@ -13,11 +13,10 @@ extra_js:
     <div class="color-bg">
       <div>
         <h1>GitLab Continuous Integration</h1>
-        <h3 id="ci-subt">Let GitLab CI test, build, deploy your code</h3>
+        <h3 id="ci-subt">Integrated CI to test, build and deploy your code</h3>
       </div>
       <div>
-        <a href="https://about.gitlab.com/downloads/" id="download">Download GitLab</a>
-        <a href="https://ci.gitlab.com/user_sessions/new" id="signin">Sign in to ci.gitlab.com</a>
+        <a href="https://about.gitlab.com/downloads/" id="download" class="gs-button">Download GitLab</a>
       </div>
     </div>
   </div>
@@ -29,12 +28,12 @@ extra_js:
       <div class="col-xs-10 col-md-10">
         <h2>What Are The Advantages?</h2>
         <ul>
-          <li><b>Easy to install:</b> GitLab CI is included in the <a href="https://about.gitlab.com/downloads/">GitLab Omnibus packages</a> or can be used for free on <a href="https://ci.gitlab.com/">ci.gitlab.com</a></li>
+          <li><b>Integrated:</b> GitLab CI is part of GitLab. You can use it for free on <a href="https://gitlab.com/">GitLab.com</a></li>
           <li><b>Easy to learn:</b> See our <a href="http://doc.gitlab.com/ci/quick_start/README.html">Quick Start</a> guide</li>
-          <li><b>Beautiful:</b> A great interface with a clear menu structure</li>
+          <li><b>Beautiful:</b> Fully included in GitLab, GitLab CI offers the same great experience as GitLab. Familiar, easy to use and beautiful.</li>
           <li><b>Scalable:</b> Tests run distributed on separate machines of which you can add as many as you want</li>
           <li><b>Faster results:</b> Each build can be split in multiple jobs that run in parallel on multiple machines</li>
-          <li><b>Free and open source:</b> All CI code is MIT Expat licensed</li>
+          <li><b>Open source:</b> CI is included with both the open source GitLab Community Edition and the proprietary GitLab Enterprise Edition</li>
         </ul>
       </div>
       <div class="col-xs-1 col-md-1"></div>
@@ -52,7 +51,7 @@ extra_js:
         <ul>
           <li><b>Multi-platform:</b> You can execute builds on Unix, Windows and OSX.
           <li><b>Multi-language:</b> Build scripts are command line driven and work with Java, PHP, Ruby, C and any other language.
-          <li><b>Stable:</b> GitLab CI runs on a different machine than your builds.</li>
+          <li><b>Stable:</b> Your builds run on a different machine than GitLab.</li>
           <li><b>Parallel builds:</b> GitLab CI splits builds over multiple machines, for fast execution.</li>
           <li><b>Realtime logging:</b> A link in the merge request takes you to the current build log that updates dynamically.</li>
           <li><b>Continuous Delivery (CD):</b> Continuous delivery and deployment are easy with multiple types of jobs, environmental variables and the <a href="http://doc.gitlab.com/ci/deployment/README.html">dpl gem</a>.
@@ -69,7 +68,6 @@ extra_js:
         <h2>Fully integrated with GitLab</h2>
         <ul>
           <li><b>Fully integrated</b> with GitLab.</li>
-          <li><b>Single sign-on:</b> You can use the same login and password as on your GitLab instance.</li>
           <li><b>Quick project setup:</b> Add projects with a single click, all hooks are setup automatically via the GitLab API.</li>
           <li><b>Merge request integration:</b> See the status of each build within the Merge Request in GitLab.</li>
         </ul>
@@ -87,16 +85,20 @@ extra_js:
       <div class="col-xs-10 col-md-5">
         <h2>Architecture</h2>
         <div class="architecture-text">
-          <p><b>GitLab CI</b> is a web application with an API that stores its state in a database. It manages projects/builds and provides a nice user interface. It uses the GitLab application API to authenticate its users.</p>
+          <p><b>GitLab CI</b> is a part of GitLab, a web application with an API
+            that stores its state in a database.
+            It manages projects/builds and provides a nice user interface,
+            besides all the features of GitLab.
+          </p>
           <p>GitLab Runner is an application which processes builds. It can be deployed separately and works with GitLab CI through an API.</p>
-          <p>In order to run tests, you need at least 1 <b>GitLab CI</b> instance and 1 <b>GitLab Runner</b>.
+          <p>In order to run tests, you need at least 1 <b>GitLab</b> instance and 1 <b>GitLab Runner</b>.
           One runner can run one or more jobs at the same time.
           Each project in GitLab CI can have one or multiple jobs.
           All the jobs for one commit run in parallel so your tests results are available sooner.
           These jobs can run in parallel on the same runner and/or on different runners.
           Runners and jobs can be labeled so that jobs run on runners that can process them (the right machine, OS and configuration).
-          We recommend to not install runners the same instance as GitLab CI so that running rogue code and jobs can't affect the security of GitLab CI itself.
-          GitLab CI can be run on the same instance as GitLab or on a separate instance.
+          We recommend to not install runners the same instance as GitLab so that running rogue code and jobs can't affect the security of GitLab itself.
+          GitLab CI is a part of GitLab.
           </p>
         </div>
       </div>
@@ -165,15 +167,13 @@ extra_js:
         <h2>Installation</h2>
         <ul>
           <li>
-            <a href="https://about.gitlab.com/downloads/"><b>Omnibus packages (recommended)</b></a> includes GitLab as well as GitLab CI,
-            you have to give GitLab CI its own FQDN (ci.example.com) in order to activate it,
-            for this and more please see the <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/gitlab-ci/README.md#getting-started">configuration instructions</a>
+            <a href="https://about.gitlab.com/downloads/"><b>Omnibus packages (recommended)</b></a> include GitLab, of which GitLab CI is a part of.
           </li>
           <li><a href="https://gitlab.com/gitlab-org/gitlab-ci/tree/master/doc/install">Manual installation guide</a></li>
           <li><a href="https://github.com/sameersbn/docker-gitlab-ci">Unofficial Docker Image by Sameer Naik</a></li>
           <li><a href="https://registry.hub.docker.com/u/anapsix/gitlab-ci/">Unofficial Docker Image by Anastas Dancha</a>
           <li><a href="https://gitlab.com/gitlab-org/gitlab-development-kit">GitLab Development Kit</a> is recommended for development work</li>
-          <li>Use it for free on <a href="https://ci.gitlab.com/">ci.gitlab.com</a> if you have a GitLab.com account (you do need to bring your own runner)</li>
+          <li>Use it for free on <a href="https://gitlab.com/">GitLab.com</a>. You will need to bring your own runner.</li>
         </ul>
       </div>
       <div class="col-xs-1 col-md-1"></div>
@@ -189,7 +189,7 @@ extra_js:
           <li>Please see <a href="https://about.gitlab.com/getting-help/">Getting help for GitLab</a> if you have questions.</li>
           <li>Propose and discuss new features of CI in the <a href="http://feedback.gitlab.com/forums/176466-general/category/64310-gitlab-ci">feature request forum</a>.</li>
           <li>The <a href="http://doc.gitlab.com/ci/">documentation</a> can be found on the doc site.</li>
-          <li>Since version 7.8 GitLab CE/EE and GitLab CI are released in sync with the same version number.</li>
+          <li>Since version 8.0, GitLab and GitLab CI are a single product.</li>
         </ul>
       </div>
       <div class="col-xs-6 col-md-4">
