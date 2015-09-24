@@ -236,6 +236,7 @@ Note that even if you do not care about persisting your CI data through the
 migration, there is a chance that you have to perform some cleanup.
 Please read [the migration document](http://doc.gitlab.com/ce/migrate_ci_to_ce/README.html).
 
+<span id="reverse-proxy-settings"></span>
 ### Non-omnibus web servers and gitlab-git-http-server
 
 All GitLab installations use a reverse proxy server to shield the
