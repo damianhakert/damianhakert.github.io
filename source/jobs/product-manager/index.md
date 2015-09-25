@@ -54,3 +54,25 @@ conferences, webinars, etc.) together with the VP of Marketing
 - Ensure that salespeople are trained in and tested on our product
 - Ensure issue and bugs don't fall through the cracks
 - Ensure the release process is well documented
+
+## Things I'm doing that I shouldn't be doing
+
+I do like to do these things, but it's probably best if someone takes over.
+
+- Maintain about.gitlab.com (content, code, design, deploy)
+- Maintain version.gitlab.com
+- Maintain doc.gitlab.com (code/deploy. Content I should be bothered with)
+- Maintain Gitlab artwork
+- Post + Reply to things on twitter
+- Reply to Disqus comments
+- Maintain the AWS and (theoretical) Azure images
+- Be on call for GitLab.com and Support emergencies
+- Be support back up / handle European calls
+- Maintain Google Analytics, Mixpanel
+- Ownership of Google Ads (to move to Ashley)
+- Ownership of Twitter Ads (to move to Ashley)
+- Interview candidates for Interaction Engineer + Designer positions (I like this as well, but time sink)
+- Maintain CF Tile (this is upcoming)
+- Maintain the mailinglists + automation
+- Give trainings to customers
+- Maintain automations (Slack, Notifiers, Zendesk)
