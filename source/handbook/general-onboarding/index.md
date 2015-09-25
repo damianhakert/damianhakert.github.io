@@ -72,6 +72,8 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] Business Office manager: Invite to autoconnect on Beamy
 * [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/)
 * [ ] CEO: Add team member to the GitLab availability calendar 
+* [ ] New team member: The home folder of my harddrive is encrypted
+
 ### FOR SALES AND FINANCE ONLY
 
 * [ ] Finance: Add to Comerica (as user or viewer only if in Finance)
