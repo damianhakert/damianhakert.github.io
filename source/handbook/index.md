@@ -89,7 +89,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <li>All company data should be <b>shareable</b> by default. Don't use a local text file but leave comments on an issue. Create Google docs with your company Google Apps account.</li>
     <li>All our procedures and templates are stored in (mostly public) git repositories instead of Google/Word documents. This makes them easier to find and suggest changes to with the organization and shows our commitment to open collaboration outside the organization.</li>
     <li>Use FYI and /cc if you want to inform people but it does not require an action, use FYA (for your action) if an action of the recipient is required.</li>
-    <li>If there are materials relevant for a calandar meeting (for example a Google Doc) please add the url to the meeting invite description.</li>
+    <li>If there are materials relevant for a calendar meeting (for example a Google Doc) please add the url to the meeting invite description.</li>
     <li>If you want to ask people if they are available for an event please send a calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.</li>
     <li>If you want to schedule time with a teammember for an outside meeting, create a calendar appointment and invite the teammember only, after they respond yes then invite outside people.</li>
     <li>If you want to move a meeting just move the calendar appointment instead of reaching out via other channels, note the change at the top of the description.</li>
@@ -112,7 +112,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <li>If issues are related <b>crosslink</b> them (a link from each issue to the other one). Put the links at the top of the issues' description with a short mention of the relationship (Report, etc.). If there are more than 2 issues use one issue as the central one and crosslink all issues to this one. Please, also crosslink between Zendesk and GitLab issues.</li>
     <li>Give the community the <b>chance to help</b>. For example: place issues on the feedback tracker, leave comments in rake check tests about what you can run manually and ask 'can you send a merge request to fix this?'.</li>
     <li>Submit the <b>smallest</b> item of work that makes sense. For example if you're new to GitLab and are writing documentation or instructions submit your first merge request for at most 20 lines.</li>
-    <li>Do not leave issues open for a long time, issues should be <b>actionable</b> and realistic. If you are assigned but don't have time mention it to someone. If nobody is assigned and it is not a priority please ensure the community can help and close it.</li>
+    <li>Do not leave issues open for a long time, issues should be <b>actionable</b> and realistic. If you are assigned but don't have time, assign it to someone else. If nobody is assigned and it is not a priority please ensure the community can help and close it.</li>
     <li>Make a conscious effort to <b>prioritize</b> your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc. What follows is a general guideline from urgent to less urgent:
     <ol>
         <li><b>Emergency</b> issues from standard or plus subscribers.</li>
@@ -142,7 +142,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 
 <h3 id="team-call">Team Call</h3>
 <ol>
-    <li>We use BlueJeans for the call since Hangouts is capped at 15 people, link is in the calandar invite.</li>
+    <li>We use BlueJeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.</li>
     <li>Please join the meeting with your x@gitlab.com account, not your private google one.</li>
     <li>We wait for people to join the first two minutes of the meeting until :32.</li>
     <li>We start by discussing the subjects that are on the agenda for today.</li>
@@ -171,7 +171,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 <ol>
     <li>Do not use rich text, it makes it hard to copy/paste, use markdown instead.</li>
     <li>Do not create links like "here" or "click here". All links should have relevant anchor text that describes what they link to, such as: "GitLab CI source installation documentation".</li>
-    <li>Always use <a href="http://xkcd.com/1179/">ISO dates</a> in all writing and legal documents, yyyy-mm-dd, e.g., 2015-04-13, and never 04-13-2015 or l3-04-2015</li>
+    <li>Always use <a href="http://xkcd.com/1179/">ISO dates</a> in all writing and legal documents, yyyy-mm-dd, e.g., 2015-04-13, and never 04-13-2015 or 13-04-2015</li>
     <li>If you have multiple points in a comment or email, please number them to make replies easier.</li>
     <li>When you reference an issue, merge request, comment, commit, page, doc, etc. and you have the url available please paste that in.</li>
     <li>In urls, always prefer hyphens to underscores.</li>
