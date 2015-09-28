@@ -65,7 +65,7 @@ I do like to do these things, but it's probably best if someone takes over.
 - Maintain Gitlab artwork
 - Post + Reply to things on twitter
 - Reply to Disqus comments
-- Maintain the AWS and (theoretical) Azure images
+- Maintain the [AWS](https://dev.gitlab.org/gitlab/AMI) and (theoretical) [Azure](https://dev.gitlab.org/gitlab/organization/issues/204) images
 - Be on call for GitLab.com and Support emergencies
 - Be support back up / handle European calls
 - Maintain Google Analytics, Mixpanel
