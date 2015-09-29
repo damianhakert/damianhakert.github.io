@@ -76,7 +76,7 @@ platforms:
   install_commands_manual: dpkg -i gitlab-ce-XXX.deb
   dependency_commands: |
                     sudo apt-get install curl openssh-server ca-certificates postfix apt-transport-https
-                    curl https://packages.gitlab.com/gpg.key | apt-key add -
+                    curl https://packages.gitlab.com/gpg.key | sudo apt-key add -
 
 
 ---
