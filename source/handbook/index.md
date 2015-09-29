@@ -219,12 +219,13 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
       <li>Skype calling credit, we can autofill your account</li>
       <li>Google Hangouts calling credit</li>
       <li>Office space (if working from home is not practical)</li>
-      <li>Business travel upgrades:</li>
+      <li>Business travel upgrades:
         <ul>
             <li> Up to the first <a href="https://www.google.com/search?q=300+eur+in+usd">EUR 300</a> for an upgrade to Business Class on flights longer than 8 hours.</li>
             <li> Upgrade to Economy Plus if you’re taller than 1.95m / 6’5” for flights longer than 2 hours.</li>
-            <li> Up to the first <a href="https://www.google.com/search?q=300+eur+in+usd">EUR 100</a> for an upgrade to Economy  Plus (no height restriction) on flights longer than 8 hours</li>
+            <li> Up to the first <a href="https://www.google.com/search?q=100+eur+in+usd">EUR 100</a> for an upgrade to Economy Plus (no height restriction) on flights longer than 8 hours.</li>
         </ul>
+      </li>
       <li>Anything else you need? Please ask!</li>
       <li>To order please send a screenshot of what you need to purchasing@gitlab.com</li>
     </ul></li>
