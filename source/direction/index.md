@@ -69,7 +69,7 @@ We welcome contributions that implement any of these things.
 - [Allow cross server merge requests](http://feedback.gitlab.com/forums/176466-general/suggestions/5097708-implement-cross-server-federated-merge-requests) (paste url when making a new MR)
 - [Code search in groups](https://dev.gitlab.org/gitlab/gitlabhq/issues/841)
 - [Time tracking](https://dev.gitlab.org/gitlab/gitlabhq/issues/2192)
-- [Improve GitHub import](https://dev.gitlab.org/gitlab/gitlabhq/issues/2248)
+- Improve GitHub import of [PR's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2833) and [wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
 - [Automatically push changed files](https://dev.gitlab.org/gitlab/gitlabhq/issues/2265)
 - [Mentioned activity level](https://dev.gitlab.org/gitlab/gitlabhq/issues/2288)
 - [Revert button for merges](https://dev.gitlab.org/gitlab/gitlabhq/issues/2299)
