@@ -30,25 +30,17 @@ title: "Sales Process"
 
 1. [Free GitLab workshop on Platzi (Job as trainer)](https://courses.platzi.com/courses/git-gitlab/)
 
-## Migrating from Highrise to Streak
+## Salesforce.com workflow
 
-1. All new emails go to Streak
+1. All marketing leads added to salesforce.com as a lead object.  These are called marketing qualified leads.
 
-1. Highrise pending deal: make box when a pending deal task is addressed
+1. Leads convert to opportunities once salesperson validates problem and we can solve and interest from buyer.  These are called sales qualified leads.
 
-1. Highrise completed deal: make box when renewal is due (3 months in)
+1. Upon lead conversion, salesperson checks to ensure the lead does not exist as an Account already.  If no, convert lead and an Account is created automatically.  If yes, salesperson selects "add to existing account".  An opportunity will be created under the existing account.  These are now part of the sales pipeline.
 
-## Streak workflow
+1. Opportunities are created for renewals and upsells.
 
-1. All leads get boxes
-
-1. Leads transform to opportunities and are included in the forecast when they become Sales Qualified Leads
-
-1. An organization is created in the organization pipeline when one company gets more than one opportunity
-
-1. Opportunities are created for renewal and updates
-
-1. Follow-up tasks are made just for opportunities
+1. A follow-up tasks shall be made for every lead the salesperson is pursuing and for every open opportunity
 
 ## Generating leads
 
@@ -56,7 +48,7 @@ title: "Sales Process"
 
 ## Creating deals
 
-Every time a deal is created, a task is also created. The task succinctly describes [next action](/handbook/sales-process/creating_deals).
+Every time an opportunity is created, a task is also created. The task succinctly describes [next action](/handbook/sales-process/creating_deals).
 
 ## Deal management process
 
