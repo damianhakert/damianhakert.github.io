@@ -19,13 +19,15 @@ title: "Sales Onboarding"
 
 1. [Our Sales Communication Guide](https://docs.google.com/document/d/1IMDzTj3hZrnsA417z9Ye7WBa8yLkWxGzaLZNJ3O_nVA/edit#heading=h.3nffcmsbeqo7)
 
-* Setup [Streak](https://www.streak.com) with Gmail - Streak is our CRM and Pipeline management tool:
+* Login to [Salesforce.com], you should receive an email askign you to change your password:
 
-1. Create a custom view for the current month
+1. Familiarize yourself with your custom view (https://na34.salesforce.com/00O61000001uYbM) of open opportunities for the month 
 
-1. Create a view for all your deals
+1. Familiarize yourself with your custome view (https://na34.salesforce.com/00O61000001uYbR) of all open opportunities assigned to you.
 
-* Have your manager grant access to our accounting / finance apps [Recurly](https://app.recurly.com/login) and [Twinfield](https://login.twinfield.com/authentication/identity/login?ReturnUrl=%2fauthentication%2fissue%2fwsfed%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252flogin.twinfield.com%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252f%26wct%3d2015-04-17T21%253a56%253a53Z&wa=wsignin1.0&wtrealm=https%3a%2f%2flogin.twinfield.com&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f&wct=2015-04-17T21%3a56%3a53Z). Ask a colleague if they can do a screenshare the next time they process an order.
+1. Familiarize yourself with your custome view (https://na34.salesforce.com/00Q?fcf=00B610000027qT9&rolodexIndex=-1&page=1) of all your open leads.
+
+* Have your manager grant access to our accounting / finance apps [Recurly](https://app.recurly.com/login). Ask your buddy if they can do a screenshare the next time they process an order.
 
 * [Support and development process](/handbook/support-and-development-process)
 
