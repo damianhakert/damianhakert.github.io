@@ -61,10 +61,10 @@ I do like to do these things, but it's probably best if someone takes over.
 
 - Maintain about.gitlab.com (content, code, design, deploy)
 - Maintain version.gitlab.com
-- Maintain doc.gitlab.com (code/deploy. Content I should be bothered with)
-- Maintain Gitlab artwork
+- Maintain doc.gitlab.com (code/deploy)
+- ~~Maintain Gitlab Artwork~~ => Andriy
 - Post + Reply to things on twitter
-- Reply to Disqus comments
+- ~~Reply to Disqus comments~~ => Forwarded to service engineers
 - Maintain the [AWS](https://dev.gitlab.org/gitlab/AMI) and (theoretical) [Azure](https://dev.gitlab.org/gitlab/organization/issues/204) images
 - Be on call for GitLab.com and Support emergencies
 - Be support back up / handle European calls
