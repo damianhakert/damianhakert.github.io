@@ -61,7 +61,7 @@ I do like to do these things, but it's probably best if someone takes over.
 
 - Maintain about.gitlab.com (content, code, design, deploy)
 - Maintain version.gitlab.com
-- Maintain doc.gitlab.com (code/deploy)
+- ~~Maintain doc.gitlab.com (code/deploy)~~ => Drew
 - ~~Maintain Gitlab Artwork~~ => Andriy
 - Post + Reply to things on twitter
 - ~~Reply to Disqus comments~~ => Forwarded to service engineers
