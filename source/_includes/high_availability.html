@@ -1,4 +1,4 @@
-        <h3>What is High Availability?</h3>
+<h3>What is High Availability?</h3>
         <p>
             High availability is a system design that ensures a prearranged level of operational performance throughout a specific time-period. The most common way to measure HA is through the notion of uptime, which measures how long a service is up and running.
         </p>
@@ -21,6 +21,9 @@
         </p>
         <p>
             We recommend that you thoroughly analyze the benefits of an HA solution against its costs. Most organizations select a High Availability solution for GitLab that is less complex than the one they use for their primary customer-facing infrastructure that directly generates revenue. <b>It is important that you always choose something that you have experience with and will test regularly</b>. A badly implemented HA solution causes more downtime than it solves. For example the <a href="http://www.drbd.org/users-guide/s-gfs-create-resource.html">DRBD user guide</a> states: "By configuring auto-recovery policies, you are effectively configuring automatic data-loss!". It is more cost effective to go from a simple solution to a more complex one than the other way around. Therefore, we suggest you work your way up from the simplest solution and see what works best for you.
+        </p>
+        <p>
+            <b>Zero downtime upgrades (including 'rolling' upgrades on a cluster)</b> can be achieved with any of the following configurations if there are no database schema changes that require the node(s) to be shut downn. If there are database changes that are not backwards compatible then a live or rolling upgrade is not possible. Database changes are noted in the Upgrade Barometer of each release blog post.
         </p>
         <h3>Maturity levels</h3>
         <h4>1. Backup of files and Database</h4>
