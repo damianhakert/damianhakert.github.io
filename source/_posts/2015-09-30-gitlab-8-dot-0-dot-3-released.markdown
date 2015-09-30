@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "GitLab 8.0.3 Released"
-date: 2015-09-29
+date: 2015-09-30
 comments: true
 author: GitLab
 author_twitter: gitlab
-filename: 2015-09-29-gitlab-8-dot-0-dot-3-released.markdown
+filename: 2015-09-30-gitlab-8-dot-0-dot-3-released.markdown
 ---
 
 Today we are releasing version 8.0.3 for Community Edition (CE) and Enterprise
