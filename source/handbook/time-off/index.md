@@ -5,13 +5,14 @@ title: "Time Off Policy In Greater Detail"
 * [Policy for Exempt Employees of GitLab Inc.](#pto-exempt)
 * [Policy for Non-Exempt Employees of GitLab Inc.](#pto-nonexempt)
 
-At GitLab, we believe that taking time off for vacation and other personal needs is essential to the health and productivity of every employee.   
-As always, GitLab wants to ensure that its employees enjoy a reasonable amount of time off, and toward that end, employees covered by this Policy 
-are encouraged to work with their supervisors to ensure that they take sufficient time off each year to relax, "recharge", and maintain good health.
+At GitLab, we believe that taking time off for vacation and other personal needs is essential to the health and productivity of every employee. 
+GitLab wants to ensure that its employees enjoy a reasonable amount of time off, and toward that end, employees covered by this Policy 
+are encouraged to work with their supervisors to ensure that they take sufficient time off each year to relax, "recharge", and maintain good health. 
+GitLab also recognizes that employees may have different needs, depending on their individual circumstances.
 
 ## Policy for Exempt Employees of GitLab Inc. <a name="pto-exempt"></a>
  
-This policy document outlines GitLab ’s policy on time off for exempt employees. The Sick Time Off program applies to all regular exempt U.S. employees
+This policy document outlines GitLab ’s policy on time off for exempt U.S. employees. The Sick Time Off program applies to all regular exempt U.S. employees
 working at GitLab Inc. including those working fewer than 20 hours per week.  The other Time Off Program provisions detailed in this document apply to 
 exempt U.S. employees who are regularly scheduled to work at least 20 hours per week.
 
@@ -85,4 +86,97 @@ GitLab  reserves the right to modify this Policy at any time and for any reason 
 Notwithstanding anything contained in this policy document, employees whose attendance or work performance is unsatisfactory in anyway will be 
 subject to appropriate disciplinary action up to and including termination of their employment with GitLab.
 
+
+
 ## Policy for Non-Exempt Employees of GitLab Inc. <a name="pto-nonexempt"></a>
+
+This policy document outlines GitLab’s policy on time off for U.S. non-exempt employees. It applies to all regular non-exempt U.S. employees working 
+at GitLab, Inc.
+ 
+### Personal Time Off
+ 
+GitLab’s Personal Time Off (PTO) Program allows you to take time away from work for a variety of reasons. You can use PTO to take a vacation, take 
+time off when you are sick, attend to a personal matter, care for a sick family member, recover from an illness, celebrate a holiday not otherwise 
+observed by the Company… it’s up to you!
+ 
+### How PTO Works
+ 
+You will earn a certain number of hours of PTO each month according to the number of hours you are regularly scheduled to work per week (up to a 
+maximum of 40 hours).  The maximum amount of PTO you can accrue at any time is 240 hours (30 days). Subject to the approval of your manager, you 
+generally choose how and when you want to use your PTO. At certain times, the Company may require you to use PTO. PTO is paid out at the employee’s 
+base pay rate, and does not include commissions, overtime pay, bonuses, or other base pay supplements.
+ 
+You can use PTO for any of the following purposes:
+ 
+* For vacation.
+* When you are sick, injured or receiving medical care or treatment
+* To attend to preventive care or care of an existing health condition for yourself.
+* To care for a sick, injured child, spouse, domestic partner, parent, in-law, or grandparent, grandchild, or sibling, or when such an individual is
+receiving medical care or treatment.
+* To attend to preventive care or care of an existing health condition of your child, spouse, domestic partner, parent, in-law, or grandparent, 
+grandchild, sibling.
+* For an extended bereavement time off.
+* To take care of personal business.
+* To take care of practical, legal, or safety needs related to domestic violence, sexual assault, or stalking.
+* To celebrate a holiday GitLab does not officially observe.
+* To take time for a child’s school-related activities, including parent-teacher conferences.
+* For needs related to the closure of your place of business or your child’s school if either has been closed to limit exposure to hazardous materials.
+ 
+### Accruing PTO
+ 
+You begin to accrue PTO with your first full pay period of active work at GitLab. The amount of PTO you earn per month is 8 hours per pay period 
+based on a standard 40-hour week.
+ 
+If you are a regular, part-time employee scheduled to work less than 40 hours per week, you will accrue PTO based on a pro-rated basis using the 
+percentage of time you work per week (as measured against a 40-hour workweek). Your use of PTO will also be on a pro-rated basis.
+ 
+For example:
+ 
+* If you work 32 hours per week, you would accrue PTO at 80% of 8 hours or 6.4 hours (32 ÷ 40 = 0.80 x 8 = 6.4)
+* If you use a week of PTO, you will be paid your normal weekly part-time pay (32 hours of PTO)
+ 
+### Scheduling PTO
+ 
+When scheduling PTO, particularly for vacation purposes, please give your manager as much notice as possible. GitLab will make every reasonable 
+effort to accommodate your request, but all planned PTO is subject to manager approval. This means your requested time off may be postponed if your 
+manager deems it necessary due to the needs of the business.
+ 
+When you are sick, you must call your manager no later than the time you are regularly scheduled to start work each day. Employees who are absent 
+for more than three consecutive days will, upon GitLab's request, need to provide the Company with a doctor's certificate confirming their need for 
+sick time off for themselves or for the care of another or other appropriate documentation of the need for time off for safely related purposes as 
+listed above. As a non-exempt employee, you must report PTO hours to payroll with a copy to your manager. You may take PTO in hourly increments.
+ 
+### Taking PTO When You Are Ill
+ 
+If you become ill and are under a doctor’s care and need to take more than five consecutive days of sick time off, you must apply for a medical 
+leave of absence. You will use available PTO for your first five consecutive business days off from work for each occurrence and thereafter receive 
+pay pursuant to the Company’s Short Term Disability policy.
+ 
+### PTO Carryover and Maximum Accrual
+ 
+GitLab believes that rest and time away from your job are important. In order to encourage employees to use the PTO program for that purpose, the 
+program includes a cap on the amount of PTO that you can accrue. While you may carry over accrued PTO from one year to the next, the maximum amount 
+of PTO you can accrue at any time is 240 hours (30 days). Once you reach that maximum, you will not accrue any additional PTO until you reduce your 
+PTO balance below the maximum.
+ 
+### Leaving GitLab
+ 
+If your employment with GitLab ends for any reason, you will be paid for all accrued but unused PTO. Similarly, if you have a negative PTO balance 
+(you used more PTO than you accrued), you must repay the negative balance upon your termination (to the extent allowed by local law, GitLab may elect 
+to deduct that amount from your final paycheck). You cannot extend your last day at GitLab by the amount of PTO you have remaining.
+ 
+### Holidays
+ 
+In addition to PTO, all non-exempt U.S. employees working at least 24 hours per week will be paid their regular daily base pay on all Company holidays. 
+GitLab typically has 12 holidays per year. The holiday schedule can be found in the Employee Handbook.
+ 
+If you are a non-exempt employee who has to work on a Company-designated holiday, you will receive time and- a-half pay for the hours actually worked
+on the holiday, in addition to your regular pay for the holiday. For example, if you are a full-time, non-exempt employee and you work eight hours on 
+a holiday, you will receive 2.5 times your normal daily rate of pay (regular pay plus 1.5 times holiday pay).
+ 
+### Modifications
+ 
+GitLab reserves the right to modify this Time Off Program for non-exempt U.S. employees at any time and for any reason as determined by GitLab 
+management in its sole discretion. Notwithstanding anything contained in this policy document, employees whose attendance or work performance is 
+unsatisfactory in any way will be subject to appropriate disciplinary action up to and including termination of their employment with GitLab.
+
