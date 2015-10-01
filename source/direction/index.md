@@ -49,7 +49,7 @@ Some links point to internal issues. We're working on making [all issues public]
 
 We welcome contributions that implement any of these things.
 
-### UI
+### Interaction
 
 - [Make it easier to add labels to an issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/2574)
 - 8.1 [Integrate CI into CE interface wise](https://gitlab.com/gitlab-org/gitlab-ce/issues/2594)
@@ -61,6 +61,8 @@ We welcome contributions that implement any of these things.
 - [In-picture-comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
 - [Add more default views](https://gitlab.com/gitlab-com/www-gitlab-com/edit/master/source/direction/index.md)
 - [Filter by more than one label](https://gitlab.com/gitlab-org/gitlab-ce/issues/989)
+- [Interaction milestone on GitLab.com](https://gitlab.com/dashboard/milestones/interaction?title=Interaction)
+- [Interaction milestone on dev.gitlab.org](https://dev.gitlab.org/groups/gitlab/milestones/interaction?title=Interaction)
 
 ### CE
 
