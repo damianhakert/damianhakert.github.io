@@ -5,27 +5,29 @@ title: "Time Off Policy In Greater Detail"
 * [Policy for Exempt Employees of GitLab Inc.](#pto-exempt)
 * [Policy for Non-Exempt Employees of GitLab Inc.](#pto-nonexempt)
 
-## Policy for Exempt Employees of GitLab Inc. <a name="pto-exempt"></a>
 At GitLab, we believe that taking time off for vacation and other personal needs is essential to the health and productivity of every employee.   
 As always, GitLab wants to ensure that its employees enjoy a reasonable amount of time off, and toward that end, employees covered by this Policy 
-are encouraged to work with their supervisors to ensure that they take sufficient time off each year to relax, "recharge", and maintain good health. 
-However, exempt U.S. employees are not entitled to any prescribed amount of time off, and they will not be paid for any unused time off upon termination.
+are encouraged to work with their supervisors to ensure that they take sufficient time off each year to relax, "recharge", and maintain good health.
 
-
+## Policy for Exempt Employees of GitLab Inc. <a name="pto-exempt"></a>
+ 
 This policy document outlines GitLab ’s policy on time off for exempt employees. The Sick Time Off program applies to all regular exempt U.S. employees
 working at GitLab Inc. including those working fewer than 20 hours per week.  The other Time Off Program provisions detailed in this document apply to 
 exempt U.S. employees who are regularly scheduled to work at least 20 hours per week.
 
-
+### No Prescribed Amount of Time Off
 GitLab  does not have prescribed vacation days for its U.S. exempt employees.   What does this mean for exempt U.S. employees working at least 20 hours 
-per week in terms of taking time off from work? If you wish to take time off from work for purposes of vacation or other personal reasons, you may do so 
+per week in terms of taking time off from work? 
+
+If you wish to take time off from work for purposes of vacation or other personal reasons, you may do so 
 with the prior approval of your supervisor, and you will continue to be paid your base salary during the approved time off period. Simply put, exempt 
 U.S. employees will be paid their regular base salary at all times while they are actively employed by GitLab  (including while on GitLab  holidays); 
 the only time they will not receive their base salary will be during periods when they are on a leave of absence or are taking Sick Time Off, at which 
 time they will be subject to the compensation and benefits provisions of the applicable GitLab  leave of absence policy or the Sick Time Off provision 
-below.
+below. No prescribed time off also means that exempt U.S. employees are not *entitled* to any prescribed amount of time off, and they will not be paid 
+for any unused time off upon termination.
 
-
+### Approval for Time Off
 Approval of an employee’s request for time off will be based on his/her supervisor's review of appropriate business considerations including, without 
 limitation, the needs of the employee’s business unit, the employee’s work performance and workload, the employee’s ability to meet his/her work 
 commitments and duties, and the amount of time off previously taken by the employee. An employee’s request may be denied or postponed by his/her 
@@ -46,7 +48,7 @@ If you are a regular, part-time employee scheduled to work less than 40 hours pe
 pro-rated basis using the percentage of time you work per week (as measured against a 40-hour workweek). Your use of Sick Time will also be on a 
 pro-rated basis.
 
-For example:
+For example:  
 
 *  If you work 32 hours per week, you would accrue Sick Time at 80% of the rates in the above table (32/40 = 0.80)
 *  If you use a week of Sick Time, you will be paid your normal weekly part-time pay (32 hours of Sick Time Off)
@@ -78,6 +80,7 @@ If you become ill and are under a doctor’s care and need to take more than fiv
 of absence. You will use available Sick Time for your first five consecutive business days off from work for each occurrence and thereafter you may be
 eligible for short-term disability pay. 
 
+### Modifications
 GitLab  reserves the right to modify this Policy at any time and for any reason as determined by GitLab  management in its sole discretion. 
 Notwithstanding anything contained in this policy document, employees whose attendance or work performance is unsatisfactory in anyway will be 
 subject to appropriate disciplinary action up to and including termination of their employment with GitLab.
