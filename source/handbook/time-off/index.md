@@ -4,6 +4,7 @@ title: "Time Off Policy In Greater Detail"
 ---
 * [Policy for Exempt Employees of GitLab Inc.](#pto-exempt)
 * [Policy for Non-Exempt Employees of GitLab Inc.](#pto-nonexempt)
+* [Policy for Employees of GitLab BV (Netherlands)](#pto-NL)
 
 At GitLab, we believe that taking time off for vacation and other personal needs is essential to the health and productivity of every employee. 
 GitLab wants to ensure that its employees enjoy a reasonable amount of time off, and toward that end, employees covered by this Policy 
@@ -179,4 +180,8 @@ a holiday, you will receive 2.5 times your normal daily rate of pay (regular pay
 GitLab reserves the right to modify this Time Off Program for non-exempt U.S. employees at any time and for any reason as determined by GitLab 
 management in its sole discretion. Notwithstanding anything contained in this policy document, employees whose attendance or work performance is 
 unsatisfactory in any way will be subject to appropriate disciplinary action up to and including termination of their employment with GitLab.
+
+## Policy for Employees of GitLab BV (Netherlands) <a name="pto-NL"></a>
+As mentioned in the main handbook, employees of GitLab BV receive a total of 32 days of paid time off, through 23 flexible days and 9 official holidays.
+For further information on the applicable laws in the Netherlands, see [this link](https://www.rijksoverheid.nl/onderwerpen/verlof-en-vakantie/inhoud/vakantiedagen-en-vakantiegeld).
 
