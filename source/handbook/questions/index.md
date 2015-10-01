@@ -15,7 +15,7 @@ This short quiz is about general aspects related to GitLab. They are open questi
 
 1. Which are the services that GitLab offers?
 
-1. In your own words, explain what a SaaS software is:
+1. Can explain what a SaaS software is in your own words?
 
 1. Why does dev.GitLab.org exist and what is the difference between it and GitLab.com?
 
