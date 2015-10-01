@@ -11,7 +11,10 @@ title: "Contracts"
 * [GitLab BV contractor agreement](#bv-contractor)
 
 ## Disclaimer <a name="disclaimer"></a>
-The sample agreements that are shown on this page are nothing more than that: samples.
+These agreements are examples of the agreements that we currently use at GitLab. However, the terms and conditions of  an employee or 
+contractor’s agreement will vary based on each employee or contractor’s specific circumstances. GitLab reserves the right to amend or 
+change the sample agreements, as well as each employee or contractor’s actual agreement. The samples below are samples only — they are not 
+valid as such and do not replace personalized signed agreements.
 
 ## PROPRIETARY INFORMATION AND ASSIGNMENT AGREEMENT (Employee)<a name="PIAA-employee"></a>
 
