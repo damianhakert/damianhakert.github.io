@@ -18,13 +18,15 @@ Tasks in order of priority:
 1. Fix problems, add features, improve documentation, and polish the website
 1. IRC questions
 
-Social questions piped into ZenDesk [internal issue](https://dev.gitlab.org/gitlab/organization/issues/306):
+Social questions in prder priority:
 
 1. Disqus responses on blog articles
-1. Twitter mentions (already done)
-1. GitLab mailinglist (sign up with a zendesk address)
+1. Twitter mentions
 1. GitLab.com support forum
-1. StackOverflow tagged questions http://stackoverflow.com/questions/tagged/gitlab
 1. Feature request forum http://feedback.gitlab.com/forums/176466-general
-1. GitLab Forum https://forum.gitlab.com/
 1. GitLab CE/EE/Omnibus issue tracker
+1. GitLab Forum https://forum.gitlab.com/
+1. GitLab mailinglist
+1. StackOverflow tagged questions http://stackoverflow.com/questions/tagged/gitlab
+
+[internal issue to pip the social questions into ZenDesk](https://dev.gitlab.org/gitlab/organization/issues/306):
