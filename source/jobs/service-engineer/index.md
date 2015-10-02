@@ -15,7 +15,7 @@ Tasks in order of priority:
 1. Emergency tickets/GitLab.com downtime
 1. Scheduled calls/maintenance
 1. Normal tickets and GitLab.com maintenance
-1. Social questions piped into Zendesk (see below)
+1. Social questions piped into Zendesk (see the list below)
 1. Engage with the rest of the GitLab and core team to improve GitLab
 1. Fix problems, add features, improve documentation, and polish the website
 1. IRC questions
@@ -25,10 +25,10 @@ Social questions piped into ZenDesk in order priority:
 1. Disqus responses on blog articles
 1. Twitter mentions
 1. GitLab.com support forum
-1. Feature request forum http://feedback.gitlab.com/forums/176466-general
+1. [Feature request forum](http://feedback.gitlab.com/forums/176466-general)
 1. GitLab CE/EE/Omnibus issue trackers
 1. GitLab mailinglist
-1. GitLab Forum https://forum.gitlab.com/
-1. StackOverflow tagged questions http://stackoverflow.com/questions/tagged/gitlab
+1. [GitLab Forum](https://forum.gitlab.com/)
+1. [StackOverflow tagged questions](http://stackoverflow.com/questions/tagged/gitlab)
 
-[internal issue to pip the social questions into ZenDesk](https://dev.gitlab.org/gitlab/organization/issues/306):
+[Internal issue to pipe the social questions into ZenDesk](https://dev.gitlab.org/gitlab/organization/issues/306)
