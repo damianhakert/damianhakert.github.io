@@ -7,12 +7,14 @@ title: "Service Engineer Responsibilities and Tasks"
 
 * Engage with our customers—anything from a small advertising firm or a university, to Fortune 100 clients
 * Communicate via email and video conferencing with potential and current clients
+* Maintain GitLab.com and our other services
+* Ensure that everything we learn from running GitLab.com is set as default or communicated to our users.
 
 Tasks in order of priority:
 
-1. Emergency tickets
-1. Scheduled calls
-1. Normal tickets from customers
+1. Emergency tickets/GitLab.com downtime
+1. Scheduled calls/maintenance
+1. Normal tickets and GitLab.com maintenance
 1. Social questions piped into Zendesk (see below)
 1. Engage with the rest of the GitLab and core team to improve GitLab
 1. Fix problems, add features, improve documentation, and polish the website
