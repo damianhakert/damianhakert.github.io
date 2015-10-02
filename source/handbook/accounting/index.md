@@ -52,13 +52,15 @@ title: "Accounting"
 
 1. Save the document to someplace convenient for sharing with them individually - ex. July BV payroll in a private folder (this is only for sharing with individuals, it is not the copy of record).
 
-1.In the Title section: salary slip and past the name/month/year again
+1. In the Title section: salary slip and past the name/month/year again
 
 1. Save
 
 ALWAYS confirm each saved page is only 1 employee - or you will send employees other people's salary slip.
 
 Send each employee their salary slip via email with the subject line: Salary slip
+
+Additionally, send the pdf with Factuur in the title to Accounts Payable.
 
 ### Additional Begin/End Payment (for adding payment to payroll)
 
