@@ -264,6 +264,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
         <li> Deadline by which you need the document to be signed, dated and submitted.</li>
   </ol>
   The document will be managed through Hellosign, a cloud-based electronic signature tool.
+  Only C level executives can sign legal documents, the only exception are NDA's covering a physical visit of another organizations.
 
 <h2 id="starting-with-git">Using Git to update this website</h2>
 
