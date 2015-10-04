@@ -184,7 +184,7 @@ Do not store credentials in a shared folder if everyone has their own user accou
 <li>If you have security <b>suggestions</b> put them on the <a href="https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit">agenda</a>.</li>
 <li>Never <b>dismiss</b> a security report as invalid. Keep asking questions until the researcher comes to the same conclusion or stops responding.</li>
 <li>Do not <b>forward</b> company emails (@gitlab.com) to a non-company email address.</li>
-<li>Do not click on links in emails you did not request yourself (requested password reset is OK, anything else is suspect), we use something like <a href="http://www.phishingbox.com/">PhishingBox</a> to test our behaviour on this. Clicking itself is a problem even when you don't enter a password, because a visit can already be used to execute a zero day.</li>
+<li>Do not click on links in emails you did not request yourself (requested password reset is OK, anything else is suspect). Clicking itself is a problem even when you don't enter a password, because a visit can already be used to execute a zero day.</li>
 <li>All access is noted in [a Google Sheet](https://docs.google.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit#gid=0) use this to request access, ping the relevant administrator after you updated the sheet</li>
 </ol>
 
