@@ -13,7 +13,12 @@ Edition (EE).
 
 It includes the following fixes:
 
-- **CE/EE**: TODO
+- **CE/EE**: Fix Message-ID header to be RFC 2111-compliant to prevent e-mails being dropped
+- **CE/EE**: Fix referrals for :back and relative URL installs
+- **CE/EE**: Fix anchors to comments in diffs
+- **CE/EE**: Remove CI token from build traces
+- **CE/EE**: Fix "Assign All" button on Runner admin page
+- **EE**: Fix multi-project setup for Jenkins
 
 <!-- more -->
 
