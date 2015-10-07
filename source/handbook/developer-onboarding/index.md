@@ -104,6 +104,23 @@ to set one up at DigitalOcean. Ask another developer for access.
 For everything related to operations, check out the
 [Operations handbook](https://about.gitlab.com/handbook/operations).
 
+## Basics of GitLab development
+
+### Quality
+
+One of strong side of GitLab is high quality of software. To achieve it we introduced
+some requirements to all source code that is contributed. All of them are mentioned in 
+[Contribution guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md). 
+Make sure you read and follow it.
+
+### Dependencies
+
+GitLab can be installed from omnibus package or from source on different Linux distributions and OS X.
+In order to maintain such portability we need to avoid adding extra dependencies or use of exotic database extenstions.
+So every time you choose between changes in application code and adding new dependencies
+you should give priority to first one because it is easier to maintain and setup. 
+If you still need to bring new dependncy to GitLab software - ask other developer or CTO for advice.
+
 
 [handbook]: https://about.gitlab.com/handbook
 [in the open]: https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/
