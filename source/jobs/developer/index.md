@@ -3,12 +3,21 @@ layout: markdown_page
 title: "Developer Responsibilities and Tasks"
 ---
 
-## Responsibilities
+At GitLab, developers are highly independent and self-organized individual 
+contributors who work together as a tight team in a [remote and agile](https://about.gitlab.com/2015/09/14/remote-agile-at-gitlab/) way.
+Developers report to the COO.
 
-* Bring a new feature from vague request to polished end result
-* Support our service engineers in getting to the bottom of user-reported issues and come up with robust solutions
-* Engage with the rest of the core team and the open source community and collaborate on improving GitLab
-* Review code contributed by the community and work with them to get it ready for production
-* Write documentation around features and configuration to save our users time
-* Take initiative in improving the software in small or large ways to address pain points in your own experience as a developer
-* Keep code easy to maintain and understand to keep the barrier for contribution low
+
+## General Developer Responsibilities
+
+* Bring a new feature from vague request to polished end result.
+* Support our service engineers in getting to the bottom of user-reported issues and come up with robust solutions.
+* Engage with the rest of the core team and the open source community and collaborate on improving GitLab.
+* Review code contributed by the community and work with them to get it ready for production.
+* Write documentation around features and configuration to save our users time.
+* Take initiative in improving the software in small or large ways to address pain points in your own experience as a developer.
+* Keep code easy to maintain and understand to keep the barrier for contribution low.
+
+## DevOps and Packaging Responsibilities
+
+
