@@ -17,10 +17,21 @@ valid as such and do not replace personalized signed agreements.
 
 ## PROPRIETARY INFORMATION AND ASSIGNMENT AGREEMENT<a name="PIAA"></a>
 
-This **Proprietary Information and Assigment Agreement** (“Agreement”) is made between [**GitLab Inc.**, a Delaware corporation in the United States **OR** **GitLab B.V.**, a corporation in the Netherlands] (the “Company”) and **[First name, Last Name]** (“Contributor”), and effective as of **[Date]**.  
-WHEREAS, the Company desires to employ or contract, or continue to employ or contract with Contributor to render services to the Company and Contributor desires to render such services;  
-WHEREAS, as a material condition of and inducement for the Company sharing proprietary and confidential business relationships and information with Contributor, and providing training and other resources to Contributor, the Company requires Contributor to execute, deliver, and comply with this Agreement; and  
-WHEREAS, for other good and valuable consideration provided at this time and during Contributor’s tenure, the adequacy and receipt of which is hereby acknowledged by Contributor, Contributor and the Company agree: 
+This **Proprietary Information and Assigment Agreement** (“Agreement”) is made 
+between {**GitLab Inc.**, a Delaware corporation in the United States **OR** 
+**GitLab B.V.**, a corporation in the Netherlands} (the “Company”) and 
+{**First name, Last Name**} (“Contributor”), and effective as of {**Date**}.  
+WHEREAS, the Company desires to employ or contract, or continue to employ or 
+contract with Contributor to render services to the Company and Contributor 
+desires to render such services;  
+WHEREAS, as a material condition of and inducement for the Company sharing 
+proprietary and confidential business relationships and information with 
+Contributor, and providing training and other resources to Contributor, the 
+Company requires Contributor to execute, deliver, and comply with this 
+Agreement; and  
+WHEREAS, for other good and valuable consideration provided at this time and 
+during Contributor’s tenure, the adequacy and receipt of which is hereby 
+acknowledged by Contributor, Contributor and the Company agree: 
 
 **1\. CONFIDENTIAL INFORMATION.** 
 
@@ -99,9 +110,7 @@ Contributor acknowledges that this Section is reasonable and necessary for the p
 
 **7\. ASSIGNMENT**. This Agreement, including all rights and assignments granted by Contributor under this Agreement, is assignable by the Company including, without limitation, to any affiliate of the Company or any entity with which, or into which, the Company may be merged or which may succeed to its assets or business, and all covenants and agreements hereunder shall inure to the benefit of and be enforceable by such successors or assigns without the necessity that this Agreement be re-signed at the time of such assignment.  Contributor shall not assign or delegate any rights or obligations under this Agreement to any other person or entity, including without limitation by operation of law, merger, sale of all or substantially all of Contributor's assets or otherwise. 
 
-**8\. AT-WILL  EMPLOYMENT**. This Agreement does not constitute, and may not be construed as, a commitment to employment for any specific duration. The duration and terms and conditions of Contributor's employment relationship with the Company will be at-will, which means that the Company may change the terms and conditions of the employment relationship, and that Employee may leave the Company, or the Company may require Employee to leave its employ, for any reason or no reason, at any time.
-
-**9\. GENERAL**.  
+**8\. GENERAL**.  
 **A.     Injunctive Relief**.  Contributor's obligations under this Agreement are of a unique character that gives them particular value; Contributor's breach of any of such obligations will result in irreparable and continuing damage to Company for which there will be no adequate remedy at law; and, in the event of such breach, Company will be entitled to injunctive relief and/or a decree for specific performance, and such other and further relief as may be proper (including monetary damages if appropriate).  
 **B.     Compliance**.  Contributor will comply and do all things necessary for the Company to comply with all applicable laws and regulations and with the provisions of all Contributors entered into by the Company that relate to Works or to the safeguarding of Confidential Information.   
 **C.     Severability**.  If any provision of this Agreement, or the application thereof, shall for any reason and to any extent be found by the applicable judicial authority of competent jurisdiction to be invalid or unenforceable because it extends for too long a period of time, or over too great a range of activities, or over too broad a geographic area, or for any other reason, then such provision shall be modified to the extent necessary to be enforceable to the maximum extent permitted by law and to extend over a maximum period of time, range of activities or geographic area as to which it may be enforceable, and the entire Agreement shall not fail on account thereof, but otherwise shall remain in full force and effect.  
@@ -110,15 +119,15 @@ Contributor acknowledges that this Section is reasonable and necessary for the p
 **F.     Attorneys’ Fees**.  In any legal action or other proceeding brought to enforce or interpret the terms of this Agreement, the prevailing party shall be entitled to recover reasonable attorneys’ fees and costs.  
 **G.    Entire Agreement**.  This Agreement sets forth the entire agreement and understanding between the Parties relating to the subject matter herein and merges all prior discussions between the Parties.  No modification of or amendment to this Agreement, nor any waiver of any rights under this Agreement, will be effective unless in writing signed by the party to be charged.  Any subsequent change or changes in Contributor's services or compensation will not affect the validity or scope of this Agreement.  If, in one or more instances, either party fails to insist upon performance of any of the terms of this Agreement, and the obligations of both parties shall continue in full force and effect.
 
-[Leave Remainder of Page Blank Intentionally, Signature Page is Next.] 
+{Leave Remainder of Page Blank Intentionally, Signature Page is Next.} 
 
 ### Signature Page
 IN WITNESS WHEREOF, the parties have caused this Agreement to be duly executed on the day and date first written above. 
-[GitLab Inc. *OR* GitLab B.V.]   
+{GitLab Inc. *OR* GitLab B.V.}   
 Signature:     
-Name:  [Authorized Signer]  
-Title:  [Title]  
-Date:  [Date]
+Name:  {Authorized Signatory}  
+Title:  {Title]} 
+Date:  {Date}
 
 Contributor Signature:  
 Name:   
