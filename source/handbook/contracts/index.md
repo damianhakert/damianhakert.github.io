@@ -17,7 +17,7 @@ valid as such and do not replace personalized signed agreements.
 
 ## PROPRIETARY INFORMATION AND ASSIGNMENT AGREEMENT<a name="PIAA"></a>
 
-This **Proprietary Information and Assigment Agreement** (“Agreement”) is made 
+This **Proprietary Information and Assignment Agreement** (“Agreement”) is made 
 between {**GitLab Inc.**, a Delaware corporation in the United States **OR** 
 **GitLab B.V.**, a corporation in the Netherlands} (the “Company”) and 
 {**First name, Last Name**} (“Contributor”), and effective as of {**Date**}.  
