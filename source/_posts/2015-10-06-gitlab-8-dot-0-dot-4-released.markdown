@@ -22,6 +22,10 @@ It includes the following fixes:
 
 <!-- more -->
 
+**Omnibus-gitlab packages note:** Before announcing this release, inital set of packages that was built contained an error.
+We've noticed this and yanked the packages(version 8.0.4-ce.0). Sadly, the packages were publicly available before this blogpost was live so if you installed/upgraded your GitLab in the timeframe(approx 12:00PM-12:45PM CET on Oct. 06, 2015.) where the broken packages were available, you will run into a `SyntaxError` during installation.
+Run `sudo apt-get update` to get the correct version of the package (8.0.4-ce.1) and install the package again with `sudo apt-get install gitlab-ce` (or `gitlab-ee`).
+
 ## Upgrade barometer
 
 This version does not include any new migrations, and should not require any
