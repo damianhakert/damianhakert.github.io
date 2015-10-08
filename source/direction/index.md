@@ -116,6 +116,7 @@ We welcome contributions that implement any of these things.
 - 8.1 Add [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
 - Scrum board
 - [CodeClimate](http://blog.codeclimate.com/blog/2015/06/19/code-climate-platform/)
+- [Lita](https://www.lita.io/) or other chat-ops bot
 
 ## We would love to partner with
 
