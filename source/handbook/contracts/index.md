@@ -147,7 +147,7 @@ Enter the GitLab Inc employee offer letter here, indicating optional clauses on 
 ## GitLab BV employee offer letter<a name="bv-employee"></a>
 Enter the GitLab BV employee offer letter here (in Dutch?). How does this deal with stock options?
 
-##INDEPENDENT CONTRACTOR SERVICES AGREEMENT <a name="inc-contractor"></a>
+## INDEPENDENT CONTRACTOR SERVICES AGREEMENT <a name="inc-contractor"></a>
 This **Independent Contractor Services Agreement** (“**Agreement**”) is between **GitLab, Inc.** (“**GitLab**”), and **{First Name, Last Name}** having a place of business or residence as set forth below (“**Contributor**”).  This Agreement is effective as of the last date under the signatures below (the “**Effective Date**”).  
 
 WHEREAS GitLab and Contributor desire to create an independent contractor relationship in connection with certain services to be provided by Contributor to GitLab, as described below, the parties agree as follows:
@@ -216,7 +216,7 @@ Attachments:
    * Exhibit D - Form of Subsequent Statement of Work  
    
    
-###EXHIBIT A
+### EXHIBIT A
 
 STATEMENT OF WORK and PROJECT SCHEDULE
 
@@ -265,7 +265,7 @@ Phone: {PHONE}
 E-Mail: {EMAIL} 
 
 
-###EXHIBIT B
+### EXHIBIT B
 
 COMPENSATION AMOUNT AND PAYMENT SCHEDULE
 
@@ -276,7 +276,7 @@ If the Agreement is terminated prior to the completion of the Project, the amoun
 
 Contributor shall submit invoices no more frequently than every two weeks.
 
-###EXHIBIT C
+### EXHIBIT C
 
 CONTRIBUTOR TERMINATION CERTIFICATION
 
@@ -289,7 +289,7 @@ Contributor Signature:
 Print Name:  
 Date:  
 
-###EXHIBIT D
+### EXHIBIT D
 
 SUBSEQUENT STATEMENT OF WORK No.{NUMBER}
 
