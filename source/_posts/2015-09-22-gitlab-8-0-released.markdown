@@ -275,9 +275,9 @@ file](http://doc.gitlab.com/omnibus/update/README.html).
 
 One of the biggest improvements of GitLab 8.0 is integrated GitLab CI.
 Doing that required large amount of changes, including rebuild of the GitLab CI Service in GitLab.
-With all these changes we accidentially broke community made [Jenkins plugin](https://github.com/jenkinsci/gitlab-plugin) that allowed Jenkins to act as an external GitLab CI in front of GitLab.
+With all these changes we removed the GitLabCiService that broke the Jenkins [gitlab-plugin](https://github.com/jenkinsci/gitlab-plugin) that allowed Jenkins to act as an external GitLab CI in front of GitLab.
 
-You can still use [mentioned plugin](https://github.com/jenkinsci/gitlab-plugin) with GitLab. For all Web Hooks that you added you need to enable not only *Merge Request Events*, but also *Push and Tag Events*. By doing that GitLab will properly notify Jenkins when you do **git push**. This doesn't resolve missing build status for Jenkins builds in GitLab interface. We are working hard to bring Commit Status API that will allow any external service to post the build status back to GitLab. When this gets implemented by the maintainer of this plugin it will make the integration much better then it was in versions prior to 8.0.
+You can still use [mentioned plugin](https://github.com/jenkinsci/gitlab-plugin) with GitLab. For all Web Hooks that you added you need to enable not only *Merge Request Events*, but also *Push and Tag Events*. By doing that GitLab will properly notify Jenkins when you do **git push**. This doesn't resolve missing build status for Jenkins builds in GitLab interface. We are working hard to bring the Commit Status API that will allow any external service to post the build status back to GitLab. When this gets implemented by the maintainer of this plugin it will make the integration much better then it was in versions prior to 8.0.
 
 - - -
 
