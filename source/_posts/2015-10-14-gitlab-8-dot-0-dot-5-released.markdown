@@ -14,7 +14,6 @@ Edition (EE).
 It includes the following fixes:
 
 - **CE/EE**: Correct lookup-by-email for LDAP logins
-- **CE/EE**: Fix loading spinner sometimes not being hidden on Merge Request tab switches
 - **EE**: "Multi-project" and "Treat unstable builds as passing" parameters for
   the Jenkins CI service are now correctly persisted.
 - **EE**: Correct the build URL when "Multi-project" is enabled for the Jenkins
