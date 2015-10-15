@@ -32,6 +32,26 @@ any community contributions.
 - [Milestones for GitLab CI](https://gitlab.com/gitlab-org/gitlab-ee/milestones)
 - [Milestones for Omnibus GitLab](https://gitlab.com/gitlab-org/omnibus-gitlab/milestones)
 
+## Tentative Tentpole Features
+
+### 8.1
+
+- Integration CI into CE
+- Build artifacts
+- Commit status API
+- Shared Runners for every configuration on GitLab.com
+
+### 8.2
+
+- Git LFS support
+- Repository mirroring
+
+### 8.3
+
+### 8.4
+
+- Project import / export. [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
+
 ### Accepting Merge Requests
 
 In [our feedback forum](http://feedback.gitlab.com/forums/176466-general),
