@@ -63,6 +63,7 @@ any community contributions.
 
 - Project import / export. [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
 - Further GitHub import features (wiki)
+- GitLab Pages [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/3085)
 
 ### Accepting Merge Requests
 
