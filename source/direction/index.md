@@ -54,7 +54,7 @@ any community contributions.
 
 - Revert merges. ([dev issue](https://dev.gitlab.org/gitlab/gitlabhq/issues/2299))
 - Copy to clipboard
-- Cross Project Search ([dev issue](https://dev.gitlab.org/gitlab/gitlabhq/issues/841))
+- Group code search ([dev issue](https://dev.gitlab.org/gitlab/gitlabhq/issues/841))
 
 ### 8.4
 
