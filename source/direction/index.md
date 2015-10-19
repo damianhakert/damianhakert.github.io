@@ -37,7 +37,6 @@ any community contributions.
 ### 8.1
 
 - Integration CI into CE
-- Build artifacts
 - Commit status API
 - Shared Runners for every configuration on GitLab.com
 
