@@ -49,6 +49,9 @@ any community contributions.
 - Create MR from editor ([dev issue](https://dev.gitlab.org/gitlab/gitlabhq/issues/2518))
 - Global Milestones ([dev issue](https://dev.gitlab.org/gitlab/gitlabhq/issues/2474))
 - Award Emoji [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/2223)
+- CI gets rid of the ci_projects table
+- CI build artifacts
+- CI runner caching (not doing a clean on a fetch)
 
 ### 8.3
 
