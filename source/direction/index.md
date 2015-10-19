@@ -62,7 +62,7 @@ any community contributions.
 ### 8.4
 
 - Project import / export. [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
-- Further GitHub import features (wiki)
+- Further GitHub import features (merge requests and wiki)
 - GitLab Pages [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/3085)
 
 ### Accepting Merge Requests
