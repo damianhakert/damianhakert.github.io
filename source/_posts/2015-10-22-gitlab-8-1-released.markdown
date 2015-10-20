@@ -9,17 +9,17 @@ filename: FILENAME.MARKDOWN
 image_title: /images/7_X/PICTURE.PNG
 ---
 
-GitLab is open source software to collaborate on code.
-Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
-The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
-In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
+With GitLab 8.0, we did our best to change everything for the better.
+Today we bring you GitLab 8.1, which brings you more of everything.
+
+The looks, feels, CI and features have all had updates major and minor.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
 
 <!--more-->
 
-### GitLab = GL + CI
+## GitLab = GL + CI
 
 In GitLab 8.0 we integrated GitLab CI into GitLab, making it a single application
 where you can collaborate on, test and deploy your code.
@@ -31,20 +31,16 @@ builds page for quick access to your project's builds.
 
 TODO: screenshots
 
-### ***NEW_CE_FEATURE***
+## Colors and Looks
 
-***DESCRIPTION***
-
-[![screenshot](/images/8_1/feature.png)](/images/8_1/feature.png) ***8_1 is the version of GitLab being released***
+TODO: further design improvements
 
 
-### NEW_CE_FEATURE
+## Check out Merge Request
 
-***DESCRIPTION***
+TODO
 
-[![screenshot](/images/8_1/feature.png)](/images/8_1/feature.png) ***8_1 is the version of GitLab being released***
-
-### NEW_SPONSORED_FEATURE
+## NEW_SPONSORED_FEATURE
 
 Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/8-1-stable/CHANGELOG#L18).
 
