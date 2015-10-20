@@ -40,22 +40,18 @@ TODO: further design improvements
 
 TODO
 
-## NEW_SPONSORED_FEATURE
+## Commit Status API
 
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/8-1-stable/CHANGELOG#L18).
+TODO
 
-### ***MAIN_EE_FEATURE*** (EE only feature)
+### Further improvements
 
-***DESCRIPTION***
-
-[![screenshot](/images/8_1/feature.png)](/images/8_1/feature.png) ***8_1 is the version of GitLab being released***
-
-### ***EE_FEATURE*** (EE only feature)
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_1/feature.png)](/images/8_1/feature.png) ***8_1 is the version of GitLab being released***
-
+- auto turn on
+- speed of pages faster (issues is 1.5x faster, searching users, trending, )
+- create directories from UI
+- see activity page as default
+- sign in as for admin
+- quick submit with cmd+enter
 
 ## ***MAIN_CI_FEATURE***
 
