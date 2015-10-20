@@ -19,12 +19,17 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 <!--more-->
 
-### ***MAIN_CE_FEATURE***
+### GitLab = GL + CI
 
-***DESCRIPTION***
+In GitLab 8.0 we integrated GitLab CI into GitLab, making it a single application
+where you can collaborate on, test and deploy your code.
 
-[![screenshot](/images/8_1/feature.png)](/images/8_1/feature.png) ***8_1 is the version of GitLab being released***
+With GitLab 8.1, CI is everywhere.
+You will find build status in the commit list view, in commits and on the front page
+of your projects. You'll also find graphs of CI in the graphs view and a new
+builds page for quick access to your project's builds.
 
+TODO: screenshots
 
 ### ***NEW_CE_FEATURE***
 
