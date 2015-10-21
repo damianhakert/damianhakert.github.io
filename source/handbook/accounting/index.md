@@ -12,6 +12,7 @@ title: "Accounting"
 * [Company Credit Cards](#company-cc)
 * [Accounts Receivable](#ar)
 * [Cash Receipt](#cash-receipt)
+* [Export Control](#export-control)
 
 ## Processing Payroll  <a name="payroll"></a>
 
@@ -243,6 +244,7 @@ In Quickbooks:
 * Fill the "Deposit to" with "Comerica Checking".
 * Fill the "Amount Received" with the amount received from the incoming wire.
 
-### Note
+## Export Control <a name="export-control"></a>
 
-GitLab's Export Control Classification Number (ECCN) is EAR99.
+GitLab's Export Control Classification is 5D002.c.1., and can be exported and re-exported 
+under the authority of license exception TSU of section 740.13(E) of the export administration regulations (EAR).
