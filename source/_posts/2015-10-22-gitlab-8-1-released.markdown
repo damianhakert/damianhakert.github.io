@@ -16,6 +16,11 @@ Today we bring you GitLab 8.1, which brings you more of everything, straight
 The design, CI integration and many features have been improved, speed up
 and had their design, color and functionality tweaked.
 
+GitLab now consists of [20,000 commits](https://gitlab.com/gitlab-org/gitlab-ce/commits/master)!
+This is a great milestone. With every release of GitLab, new people from
+this great community contribute code and time. GitLab truly is a product from
+a community and we're honored to be part of it.
+
 TODO Zeger-Jan
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
