@@ -6,7 +6,7 @@ comments: true
 categories:
 author: Job van der Voort
 filename: 2015-10-22-gitlab-8-1-released.markdown
-image_title: /images/7_X/PICTURE.PNG
+image_title: /images/8_1/team.jpg
 ---
 
 With GitLab 8.0, we did our best to change everything for the better.
@@ -14,7 +14,7 @@ Today we bring you GitLab 8.1, which brings you more of everything, straight
 [from Amsterdam](https://about.gitlab.com/2015/10/14/gitlab-oscon-challenge-2015/).
 
 The design, CI integration and many features have been improved, speed up
-and had their design, color and functionality tweaked.
+and had their design, colors and functionality tweaked.
 
 GitLab now consists of [20,000 commits](https://gitlab.com/gitlab-org/gitlab-ce/commits/master)!
 This is a great milestone. With every release of GitLab, new people from
@@ -127,6 +127,19 @@ source project. You can now destroy the relationship, so there is no more refere
 to the original source.
 
 TODO: screenshot
+
+## GitLab Mattermost Update
+
+Omnibus-GitLab packages are bundled with the latest version of [Mattermost](http://www.mattermost.org/).
+Mattermost version 1.1.1 comes with a large number of improvements and
+is even more integrated with GitLab.
+Realtime notifications from GitLab can now be received by Mattermost,
+using incoming webhooks.
+The latest version of Mattermost also includes a large number of config changes.
+If you have any custom configuration **make sure you read the
+[Upgrade from v0.7 to v1.1 notes](https://github.com/mattermost/platform/blob/master/doc/install/Upgrade-Guide.md)
+and make sure you check the
+[latest config options available for GitLab Mattermost](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/files/gitlab-config-template/gitlab.rb.template#L665-790)**.
 
 ## Other changes
 
