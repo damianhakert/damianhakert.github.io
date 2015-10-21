@@ -246,5 +246,5 @@ In Quickbooks:
 
 ## Export Control <a name="export-control"></a>
 
-GitLab's Export Control Classification is 5D002.c.1., and can be exported and re-exported 
+GitLab's Export Control Classification is 5D002.c.1. GitLab source code can be exported and re-exported 
 under the authority of license exception TSU of section 740.13(E) of the export administration regulations (EAR).
