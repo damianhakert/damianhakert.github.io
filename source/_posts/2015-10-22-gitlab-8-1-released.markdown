@@ -1,18 +1,19 @@
 ---
 layout: post
-title: "GitLab 8.1 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 8.1 released: Evolution"
 date: 2015-10-22
 comments: true
 categories:
-author: ADD_YOUR_FULL_NAME
-filename: FILENAME.MARKDOWN
+author: Job van der Voort
+filename: 2015-10-22-gitlab-8-1-released.markdown
 image_title: /images/7_X/PICTURE.PNG
 ---
 
 With GitLab 8.0, we did our best to change everything for the better.
 Today we bring you GitLab 8.1, which brings you more of everything.
 
-The looks, feels, CI and features have all had updates major and minor.
+The design, CI integration and many features have been improved, speed up
+and had their design, color and functionality tweaked.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
@@ -33,16 +34,46 @@ TODO: screenshots
 
 ## Colors and Looks
 
+In our ongoing effort to improve the look and feel of GitLab, we have
+made many changes big and small this release.
+
+We now have a new color scheme for major interface elements:
+
 TODO: further design improvements
 
 
 ## Check out Merge Request
 
-TODO
+Previously, checking out a merge request from someone was only possible if the
+branch was in a repository you can read. Right now, you can check out any merge
+request made to your repository, even if it's from fork.
+
+TODO: screenshot
 
 ## Commit Status API
 
-TODO
+With the integration of GitLab CI in GitLab, we want to make it easier for
+everyone to use CI. You can now get the status of any commit through the API.
+
+```
+GET /projects/:id/repository/commits/:sha/statuses
+```
+
+- [See the documentation on getting commit status through the API](http://doc.gitlab.com/ce/api/commits.html#get-the-status-of-a-commit)
+
+In addition to this, you can even **set the commit status**. With this, you
+can easily use any existing CI in combination with GitLab and still see the
+commit status reflected in GitLab's interface!
+
+```
+POST /projects/:id/statuses/:sha
+```
+
+- [Docs on setting the commit status](http://doc.gitlab.com/ce/api/commits.html#post-the-status-to-commit)
+
+These additions should make it easier to integrate your own tools with GitLab's
+growing CI tools. We're looking forward to see what you'll use it for.
+
 
 ### Further improvements
 
@@ -52,30 +83,8 @@ TODO
 - see activity page as default
 - sign in as for admin
 - quick submit with cmd+enter
+- destroy fork relationship
 
-## ***MAIN_CI_FEATURE***
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_1/feature.png)](/images/8_1/feature.png) ***8_1 is the version of GitLab CI being released***
-
-
-## ***NEW_CI_FEATURE***
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_1/feature.png)](/images/8_1/feature.png) ***8_1 is the version of GitLab CI being released***
-
-
-## NEW_CI_FEATURE
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_1/feature.png)](/images/8_1/feature.png) ***8_1 is the version of GitLab CI being released***
-
-## NEW_SPONSORED_FEATURE
-
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/8-1-stable/CHANGELOG#L18).
 
 ### Other changes
 
