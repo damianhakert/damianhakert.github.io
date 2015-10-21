@@ -166,8 +166,8 @@ If your users _are_ using CI you need to stop GitLab before performing
 the upgrade.
 
 To see if your users are using GitLab CI go to
-`gitlab.example.com/ci/admin/runners` and look if there are any
-runners. No runners means no CI.
+`gitlab.example.com/ci/admin/projects` and look if there are any
+projects. No projects means no CI.
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
