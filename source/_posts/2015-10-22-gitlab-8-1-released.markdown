@@ -7,6 +7,7 @@ categories:
 author: Job van der Voort
 filename: 2015-10-22-gitlab-8-1-released.markdown
 image_title: /images/8_1/team.jpg
+author_twitter: Jobvo
 ---
 
 With GitLab 8.0, we did our best to change everything for the better.
@@ -195,3 +196,5 @@ No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 
 - - -
+
+Thanks to [Cyndi](https://cyndicaviedes.com/) for the picture of the GitLab Inc team.
