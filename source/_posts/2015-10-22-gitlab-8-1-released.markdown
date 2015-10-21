@@ -38,7 +38,9 @@ You will find build status in the commit list view, in commits and on the front 
 of your projects. You'll also find graphs of CI in the graphs view and a new
 builds page for quick access to your project's builds.
 
-TODO: screenshots
+![GitLab CI Build status in the commit view](ci1.png)
+
+![GitLab CI build graphs under graphs](ci2.png)
 
 ## Colors and Looks
 
@@ -47,8 +49,7 @@ made many changes big and small this release.
 
 We now have a new color scheme for major interface elements:
 
-TODO: further design improvements
-
+![Further improved looks](design.png)
 
 ## Check out Merge Request
 
@@ -56,7 +57,9 @@ Previously, checking out a merge request from someone was only possible if the
 branch was in a repository you can read. Right now, you can check out any merge
 request made to your repository, even if it's from fork.
 
-TODO: screenshot
+![Checkout any merge request](co_mr1.png)
+
+![Follow the instructions to check out a merge request locally](co_mr2.png)
 
 ## Commit Status API
 
@@ -102,34 +105,26 @@ the trending page, signing in and more will now load much faster.
 
 You can now create directories straight from the interface!
 
-TODO: screenshot
+![Create a directory from the GitLab interface](create_dir.png)
 
 ### Activity on Dashboard
 
 If you prefer to see activity on the Dashboard by default, you can now
 easily set this in your profile:
 
-TODO: screenshot
+![See relevant activity on your GitLab dashboard](activity_dashboard.png)
 
 ### Sign in as other user
 
 GitLab Administrators now have a simple, useful tool: you can sign in as
 any other user.
 
-TODO: screenshot
+![Log in as other user as GitLab Admin](loginas.png)
 
 ### Quick Submit
 
 Simply use `CMD+ENTER` on Mac or `CTRL+ENTER` on Win / Linux to quickly
 submit an issue or comment.
-
-### Destroy Fork Relationship
-
-When you fork a project, a relationship is established between it and the
-source project. You can now destroy the relationship, so there is no more reference
-to the original source.
-
-TODO: screenshot
 
 ### Faster and more reliable 'git archive' downloads
 
