@@ -78,8 +78,8 @@ POST /projects/:id/statuses/:sha
 
 - [Docs on setting the commit status](http://doc.gitlab.com/ce/api/commits.html#post-the-status-to-commit)
 
-These additions should make it easier to integrate your own tools with GitLab's
-growing CI tools. We're looking forward to see what you'll use it for.
+The commit status API makes it easier to integrate your existing CI tools with GitLab.
+We're looking forward to see what you'll use it for.
 
 
 ## Further improvements
@@ -90,10 +90,12 @@ GitLab will now automatically turn on CI for a project when you push
 a `.gitlab-ci.yml` file. If you have some shared runner setup, this should
 make it easier for your team to start using CI.
 
+Of course, you can turn off CI if you don't want to use it.
+
 ### Fast, Faster!
 
 We've been working hard to improve page speed. Issues, searching for users,
-the trending page and more will now load up to 1.5 times faster.
+the trending page, signing in and more will now load much faster.
 
 ### Create Directories from the Web Editor
 
@@ -127,6 +129,20 @@ source project. You can now destroy the relationship, so there is no more refere
 to the original source.
 
 TODO: screenshot
+
+### Faster and more reliable 'git archive' downloads
+
+Each project in GitLab has a 'download' button that lets you grab
+a ZIP file with the contents of the repository at the revision you
+are viewing. In GitLab 8.1 we have reduced the delay before the
+download starts and optimized the way the ZIP file is generated and
+sent to the user by shifting some of the work from the main GitLab
+Rails application to
+[gitlab-git-http-server](https://gitlab.com/gitlab-org/gitlab-git-http-server).
+
+Note: if you are not using the Omnibus packages and their built-in
+NGINX settings this means that you will have to update your
+NGINX/Apache settings when upgrading to 8.1.
 
 ## GitLab Mattermost Update
 
