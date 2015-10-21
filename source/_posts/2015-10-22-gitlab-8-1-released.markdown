@@ -15,6 +15,7 @@ Today we bring you GitLab 8.1, which brings you more of everything.
 The design, CI integration and many features have been improved, speed up
 and had their design, color and functionality tweaked.
 
+TODO Zeger-Jan
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
 
@@ -75,23 +76,58 @@ These additions should make it easier to integrate your own tools with GitLab's
 growing CI tools. We're looking forward to see what you'll use it for.
 
 
-### Further improvements
+## Further improvements
 
-- auto turn on
-- speed of pages faster (issues is 1.5x faster, searching users, trending, )
-- create directories from UI
-- see activity page as default
-- sign in as for admin
-- quick submit with cmd+enter
-- destroy fork relationship
+### Auto-engage CI
 
+GitLab will now automatically turn on CI for a project when you push
+a `.gitlab-ci.yml` file. If you have some shared runner setup, this should
+make it easier for your team to start using CI.
 
-### Other changes
+### Fast, Faster!
+
+We've been working hard to improve page speed. Issues, searching for users,
+the trending page and more will now load up to 1.5 times faster.
+
+### Create Directories from the Web Editor
+
+You can now create directories straight from the interface!
+
+TODO: screenshot
+
+### Activity on Dashboard
+
+If you prefer to see activity on the Dashboard by default, you can now
+easily set this in your profile:
+
+TODO: screenshot
+
+### Sign in as other user
+
+GitLab Administrators now have a simple, useful tool: you can sign in as
+any other user.
+
+TODO: screenshot
+
+### Quick Submit
+
+Simply use `CMD+ENTER` on Mac or `CTRL+ENTER` on Win / Linux to quickly
+submit an issue or comment.
+
+### Destroy Fork Relationship
+
+When you fork a project, a relationship is established between it and the
+source project. You can now destroy the relationship, so there is no more reference
+to the original source.
+
+TODO: screenshot
+
+## Other changes
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
 
-### Upgrade barometer
+## Upgrade barometer
 
 
 *** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
