@@ -160,10 +160,14 @@ This release has more improvements, including security fixes. Please check out [
 
 ## Upgrade barometer
 
+If you are upgrading from GitLab 8.0 and none of your users is using
+GitLab CI then you can perform the upgrade to 8.1 without downtime.
+If your users _are_ using CI you need to stop GitLab before performin
+the upgrade.
 
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
-*** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
+To see if your users are using GitLab CI go to
+`gitlab.example.com/ci/admin/runners` and look if there are any
+runners. No runners means no CI.
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
