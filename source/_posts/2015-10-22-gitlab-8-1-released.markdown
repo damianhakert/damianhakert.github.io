@@ -10,7 +10,8 @@ image_title: /images/7_X/PICTURE.PNG
 ---
 
 With GitLab 8.0, we did our best to change everything for the better.
-Today we bring you GitLab 8.1, which brings you more of everything.
+Today we bring you GitLab 8.1, which brings you more of everything, straight
+[from Amsterdam](https://about.gitlab.com/2015/10/14/gitlab-oscon-challenge-2015/).
 
 The design, CI integration and many features have been improved, speed up
 and had their design, color and functionality tweaked.
