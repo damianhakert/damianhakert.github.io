@@ -38,9 +38,9 @@ You will find build status in the commit list view, in commits and on the front 
 of your projects. You'll also find graphs of CI in the graphs view and a new
 builds page for quick access to your project's builds.
 
-![GitLab CI Build status in the commit view](ci1.png)
+![GitLab CI Build status in the commit view](/images/8_1/ci1.png)
 
-![GitLab CI build graphs under graphs](ci2.png)
+![GitLab CI build graphs under graphs](/images/8_1/ci2.png)
 
 ## Colors and Looks
 
@@ -49,7 +49,7 @@ made many changes big and small this release.
 
 We now have a new color scheme for major interface elements:
 
-![Further improved looks](design.png)
+![Further improved looks](/images/8_1/design.png)
 
 ## Check out Merge Request
 
@@ -57,9 +57,9 @@ Previously, checking out a merge request from someone was only possible if the
 branch was in a repository you can read. Right now, you can check out any merge
 request made to your repository, even if it's from fork.
 
-![Checkout any merge request](co_mr1.png)
+![Checkout any merge request](/images/8_1/co_mr1.png)
 
-![Follow the instructions to check out a merge request locally](co_mr2.png)
+![Follow the instructions to check out a merge request locally](/images/8_1/co_mr2.png)
 
 ## Commit Status API
 
@@ -105,21 +105,21 @@ the trending page, signing in and more will now load much faster.
 
 You can now create directories straight from the interface!
 
-![Create a directory from the GitLab interface](create_dir.png)
+![Create a directory from the GitLab interface](/images/8_1/create_dir.png)
 
 ### Activity on Dashboard
 
 If you prefer to see activity on the Dashboard by default, you can now
 easily set this in your profile:
 
-![See relevant activity on your GitLab dashboard](activity_dashboard.png)
+![See relevant activity on your GitLab dashboard](/images/8_1/activity_dashboard.png)
 
 ### Sign in as other user
 
 GitLab Administrators now have a simple, useful tool: you can sign in as
 any other user.
 
-![Log in as other user as GitLab Admin](loginas.png)
+![Log in as other user as GitLab Admin](/images/8_1/loginas.png)
 
 ### Quick Submit
 
@@ -162,7 +162,7 @@ This release has more improvements, including security fixes. Please check out [
 
 If you are upgrading from GitLab 8.0 and none of your users is using
 GitLab CI then you can perform the upgrade to 8.1 without downtime.
-If your users _are_ using CI you need to stop GitLab before performin
+If your users _are_ using CI you need to stop GitLab before performing
 the upgrade.
 
 To see if your users are using GitLab CI go to
