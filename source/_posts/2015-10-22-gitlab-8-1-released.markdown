@@ -22,6 +22,8 @@ world so this is a special update for us to be releasing GitLab 8.1 together fro
 Next week the team will be attending [OSCON](https://about.gitlab.com/2015/10/14/gitlab-oscon-challenge-2015/)
 so please let us know if you'll be there. We'd love to chat!
 
+![The GitLab Inc Team](/images/8_1/team_sm.jpg)
+
 GitLab now consists of [20,000 commits](https://gitlab.com/gitlab-org/gitlab-ce/commits/master)!
 This is a great milestone for our community. With every release of GitLab, new people from
 this great community contribute code and time. GitLab truly is a product built by the community
