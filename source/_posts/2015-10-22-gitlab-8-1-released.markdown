@@ -64,7 +64,8 @@ request made to your repository, even if it's from fork.
 
 ![Checkout any merge request](/images/8_1/co_mr1.png)
 
-![Follow the instructions to check out a merge request locally](/images/8_1/co_mr2.png)
+You could do this previously, but now we make the remote branch available
+locally, making it much faster.
 
 ## Commit Status API
 
