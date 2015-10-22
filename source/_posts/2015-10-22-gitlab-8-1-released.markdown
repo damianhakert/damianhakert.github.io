@@ -195,6 +195,8 @@ and start again, no matter how “big” or “small” the upgrade is. This beh
 can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
 file](http://doc.gitlab.com/omnibus/update/README.html).
 
+*Note* If you've encountered `/etc/init.d/ci-{SERVICE} does not exist!` error during the reconfigure run, use the package 8.1.0-ce.1 or newer.
+
 - - -
 
 ## Installation
