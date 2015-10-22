@@ -14,15 +14,17 @@ With last month's release of 8.0, we made a lot of improvements to GitLab.
 Today we bring you GitLab 8.1, which brings you a deeper CI integration, the ability to check out
 any merge request, design updates, and more.
 
-We as a team are really excited about this release not only for the increased performance and 
-great new features but also because we are all together in Amsterdam for our team summit. Our team is [fully 
-remote](https://about.gitlab.com/2015/04/08/the-remote-manifesto/) from around the world so this is a special update for us to be releasing GitLab 8.1 together from Amsterdam. 
-Next week the team will be attending [OSCON](https://about.gitlab.com/2015/10/14/gitlab-oscon-challenge-2015/) so please let us know if
-you'll be there. We'd love to chat!
+We as a team are really excited about this release not only for the increased performance and
+great new features but also because we are all together in Amsterdam for our team summit.
+Our team is [fully
+remote](https://about.gitlab.com/2015/04/08/the-remote-manifesto/) from around the
+world so this is a special update for us to be releasing GitLab 8.1 together from Amsterdam.
+Next week the team will be attending [OSCON](https://about.gitlab.com/2015/10/14/gitlab-oscon-challenge-2015/)
+so please let us know if you'll be there. We'd love to chat!
 
 GitLab now consists of [20,000 commits](https://gitlab.com/gitlab-org/gitlab-ce/commits/master)!
 This is a great milestone for our community. With every release of GitLab, new people from
-this great community contribute code and time. GitLab truly is a product built by the community 
+this great community contribute code and time. GitLab truly is a product built by the community
 and we're honored to be part of it.
 
 Zeger-Jan van de Weg did several nice contributions this release and we're happy
@@ -124,6 +126,8 @@ any other user.
 
 ![Log in as other user as GitLab Admin](/images/8_1/loginas.png)
 
+Visit a user through the admin panel to find the button above.
+
 ### Quick Submit
 
 Simply use `CMD+ENTER` on Mac or `CTRL+ENTER` on Win / Linux to quickly
@@ -152,11 +156,14 @@ Mattermost version 1.1.1 comes with a large number of improvements and
 is even more integrated with GitLab.
 Realtime notifications from GitLab can now be received by Mattermost,
 using incoming webhooks.
+
 The latest version of Mattermost also includes a large number of config changes.
 If you have any custom configuration **make sure you read the
 [Upgrade from v0.7 to v1.1 notes](https://github.com/mattermost/platform/blob/master/doc/install/Upgrade-Guide.md)
 and make sure you check the
 [latest config options available for GitLab Mattermost](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/files/gitlab-config-template/gitlab.rb.template#L665-790)**.
+
+![Mattermost is looking great with its latest release](/images/8_1/mattermost.png)
 
 ## Other changes
 
