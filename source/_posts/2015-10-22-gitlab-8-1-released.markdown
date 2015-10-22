@@ -195,6 +195,8 @@ and start again, no matter how “big” or “small” the upgrade is. This beh
 can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
 file](http://doc.gitlab.com/omnibus/update/README.html).
 
+*Note* If you've encountered an `/etc/init.d/ci-{SERVICE} does not exist!` error during the reconfigure run, use the package 8.1.0-ce.1 or newer.
+
 - - -
 
 ## Installation
@@ -208,8 +210,8 @@ Check out our [update page](https://about.gitlab.com/update/).
 
 ## Enterprise Edition
 
-The mentioned GitLab EE-only features and things like LDAP group support can be found in GitLab Enterprise Edition.
-For a complete overview please have a look at the [feature list of GitLab EE](http://www.gitlab.com/gitlab-ee/).
+GitLab EE-only features like LDAP group support can be found in GitLab Enterprise Edition.
+For a complete overview of EE please have a look at the [feature list of GitLab EE](http://www.gitlab.com/gitlab-ee/).
 
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing/).
 No time to upgrade GitLab yourself?
