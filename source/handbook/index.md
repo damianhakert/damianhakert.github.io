@@ -54,6 +54,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <li>Use <b>inclusive</b> language. For example, prefer 'Hi everybody' or 'Hi people' to 'Hi guys'.</li>
     <li>Share problems you run into, ask for help, be forthcoming with information and <b>speak up</b>.</li>
     <li>Work out in the <b>open</b>, try to use public issue trackers and repositories when possible.</li>
+    <li>Most things are public unless there is a reason not to, not public by default are: financial information, job applications/compensation/feedback and partnerships with other companies.</li>
     <li>Share solutions you find and answers you receive with the <b>whole community</b>.</li>
     <li>If you make a mistake, don't worry, correct it and <b>proactively</b> let the affected party, your team, and the CEO know what happened, how you corrected it and how, if needed, you changed the process to prevent future mistakes.</li>
     <li>You can always <b>refuse</b> to deal with people that treat you badly and get out of situations that make you feel uncomfortable.</li>
