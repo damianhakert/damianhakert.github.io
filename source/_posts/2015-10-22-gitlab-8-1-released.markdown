@@ -38,10 +38,10 @@ Thanks Zeger-Jan!
 ## GitLab = GL + CI
 
 In GitLab 8.0 we integrated GitLab CI into GitLab, making it a single application
-where you can collaborate on, test and deploy your code.
+where you can collaborate on, test, and deploy your code.
 
 With GitLab 8.1, CI is everywhere.
-You will find build status in the commit list view, in commits and on the front page
+You will find build status in the commit list view, in commits, and on the front page
 of your projects. You'll also find graphs of CI in the graphs view and a new
 builds page for quick access to your project's builds.
 
@@ -202,7 +202,7 @@ Check out our [update page](https://about.gitlab.com/update/).
 
 ## Enterprise Edition
 
-The mentioned GitLab EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
+The mentioned GitLab EE-only features and things like LDAP group support can be found in GitLab Enterprise Edition.
 For a complete overview please have a look at the [feature list of GitLab EE](http://www.gitlab.com/gitlab-ee/).
 
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing/).
