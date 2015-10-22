@@ -138,8 +138,10 @@ Rails application to
 [gitlab-git-http-server](https://gitlab.com/gitlab-org/gitlab-git-http-server).
 
 Note: if you are not using the Omnibus packages and their built-in
-NGINX settings this means that you will have to update your
-NGINX/Apache settings when upgrading to 8.1.
+NGINX settings this means that you will have to
+[update your
+NGINX/Apache settings](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/lib/support/nginx/gitlab#L116-132)
+when upgrading to 8.1.
 
 ## GitLab Mattermost Update
 
