@@ -19,37 +19,37 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 <!--more-->
 
-### ***MAIN_CE_FEATURE***
+## ***MAIN_CE_FEATURE***
 
 ***DESCRIPTION***
 
 [![screenshot](/images/X_X/feature.png)](/images/X_X/feature.png) ***X_X is the version of GitLab being released***
 
 
-### ***NEW_CE_FEATURE***
+## ***NEW_CE_FEATURE***
 
 ***DESCRIPTION***
 
 [![screenshot](/images/X_X/feature.png)](/images/X_X/feature.png) ***X_X is the version of GitLab being released***
 
 
-### NEW_CE_FEATURE
+## NEW_CE_FEATURE
 
 ***DESCRIPTION***
 
 [![screenshot](/images/X_X/feature.png)](/images/X_X/feature.png) ***X_X is the version of GitLab being released***
 
-### NEW_SPONSORED_FEATURE
+## NEW_SPONSORED_FEATURE
 
 Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/X-X-stable/CHANGELOG#L18).
 
-### ***MAIN_EE_FEATURE*** (EE only feature)
+## ***MAIN_EE_FEATURE*** (EE only feature)
 
 ***DESCRIPTION***
 
 [![screenshot](/images/X_X/feature.png)](/images/X_X/feature.png) ***X_X is the version of GitLab being released***
 
-### ***EE_FEATURE*** (EE only feature)
+## ***EE_FEATURE*** (EE only feature)
 
 ***DESCRIPTION***
 
@@ -80,17 +80,19 @@ Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_
 
 Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/X-X-stable/CHANGELOG#L18).
 
-### Other changes
+## Other changes
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
 
-### Upgrade barometer
+## Upgrade barometer
 
 
 *** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
 *** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
 *** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
+
+*Note* If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
