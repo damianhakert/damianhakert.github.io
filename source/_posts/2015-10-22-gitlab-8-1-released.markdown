@@ -10,17 +10,18 @@ image_title: /images/8_1/team.jpg
 author_twitter: Jobvo
 ---
 
-With GitLab 8.0, we did our best to change everything for the better.
-Today we bring you GitLab 8.1, which brings you more of everything, straight
+With last month's release of 8.0, we made a lot of improvements to GitLab.
+Today we bring you GitLab 8.1, which brings you even more of everything, straight
 [from Amsterdam](https://about.gitlab.com/2015/10/14/gitlab-oscon-challenge-2015/).
 
-The design, CI integration and many features have been improved, speed up
-and had their design, colors and functionality tweaked.
+We've updated the design, CI integration, and many more features of GitLab which 
+have noticeably sped up performance.
+
 
 GitLab now consists of [20,000 commits](https://gitlab.com/gitlab-org/gitlab-ce/commits/master)!
-This is a great milestone. With every release of GitLab, new people from
-this great community contribute code and time. GitLab truly is a product from
-a community and we're honored to be part of it.
+This is a great milestone for our community. With every release of GitLab, new people from
+this great community contribute code and time. GitLab truly is a product built by the community 
+and we're honored to be part of it.
 
 Zeger-Jan van de Weg did several nice contributions this release and we're happy
 to elect him as this month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/))!
@@ -42,7 +43,7 @@ builds page for quick access to your project's builds.
 
 ![GitLab CI build graphs under graphs](/images/8_1/ci2.png)
 
-## Colors and Looks
+## Design Updates
 
 In our ongoing effort to improve the look and feel of GitLab, we have
 made many changes big and small this release.
@@ -99,7 +100,7 @@ Of course, you can turn off CI if you don't want to use it.
 ### Fast, Faster!
 
 We've been working hard to improve page speed. Issues, searching for users,
-the trending page, signing in and more will now load much faster.
+the trending page, signing in, and more will now load much faster.
 
 ### Create Directories from the Web Editor
 
@@ -153,8 +154,6 @@ If you have any custom configuration **make sure you read the
 and make sure you check the
 [latest config options available for GitLab Mattermost](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/files/gitlab-config-template/gitlab.rb.template#L665-790)**.
 
-![Mattermost's latest version is looking even better than the last](/images/8_1/mattermost.png)
-
 ## Other changes
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
@@ -162,7 +161,7 @@ This release has more improvements, including security fixes. Please check out [
 
 ## Upgrade barometer
 
-If you are upgrading from GitLab 8.0 and none of your users is using
+If you are upgrading from GitLab 8.0 and none of your users are using
 GitLab CI then you can perform the upgrade to 8.1 without downtime.
 If your users _are_ using CI you need to stop GitLab before performing
 the upgrade.
@@ -189,7 +188,7 @@ Check out our [update page](https://about.gitlab.com/update/).
 
 ## Enterprise Edition
 
-The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
+The mentioned GitLab EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
 For a complete overview please have a look at the [feature list of GitLab EE](http://www.gitlab.com/gitlab-ee/).
 
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing/).
