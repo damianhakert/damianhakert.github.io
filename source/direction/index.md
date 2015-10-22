@@ -64,6 +64,10 @@ any community contributions.
 - Further GitHub import features (merge requests and wiki)
 - GitLab Pages [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/3085)
 
+### 8.5
+
+- Elasticsearch
+
 ### Accepting Merge Requests
 
 In [our feedback forum](http://feedback.gitlab.com/forums/176466-general),
