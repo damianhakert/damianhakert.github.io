@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab 8.1 released: Evolution"
+title: "GitLab 8.1 with deeper CI integration, MR improvements, and more. Released from our team summit in Amsterdam!"
 date: 2015-10-22
 comments: true
 categories:
@@ -11,12 +11,14 @@ author_twitter: Jobvo
 ---
 
 With last month's release of 8.0, we made a lot of improvements to GitLab.
-Today we bring you GitLab 8.1, which brings you even more of everything, straight
-[from Amsterdam](https://about.gitlab.com/2015/10/14/gitlab-oscon-challenge-2015/).
+Today we bring you GitLab 8.1, which brings you a deeper CI integration, the ability to check out
+any merge request, design updates, and more.
 
-We've updated the design, CI integration, and many more features of GitLab which 
-have noticeably sped up performance.
-
+We as a team are really excited about this release not only for the increased performance and 
+great new features but also because we are all together in Amsterdam for our team summit. Our team is [fully 
+remote](https://about.gitlab.com/2015/04/08/the-remote-manifesto/) from around the world so this is a special update for us to be releasing GitLab 8.1 together from Amsterdam. 
+Next week the team will be attending [OSCON](https://about.gitlab.com/2015/10/14/gitlab-oscon-challenge-2015/) so please let us know if
+you'll be there. We'd love to chat!
 
 GitLab now consists of [20,000 commits](https://gitlab.com/gitlab-org/gitlab-ce/commits/master)!
 This is a great milestone for our community. With every release of GitLab, new people from
