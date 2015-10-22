@@ -146,7 +146,7 @@ sent to the user by shifting some of the work from the main GitLab
 Rails application to
 [gitlab-git-http-server](https://gitlab.com/gitlab-org/gitlab-git-http-server).
 
-Note: if you are not using the Omnibus packages and their built-in
+***Note:*** if you are not using the Omnibus packages and their built-in
 NGINX settings this means that you will have to
 [update your
 NGINX/Apache settings](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/lib/support/nginx/gitlab#L116-132)
@@ -184,7 +184,7 @@ GitLab CI then you can perform the upgrade to 8.1 without downtime.
 If your users _are_ using CI you need to stop GitLab before performing
 the upgrade.
 
-*Note* If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
+***Note:*** If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
 
 To see if your users are using GitLab CI go to
 `gitlab.example.com/ci/admin/projects` and look if there are any
@@ -194,6 +194,8 @@ Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
 can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
 file](http://doc.gitlab.com/omnibus/update/README.html).
+
+***Note:*** If you've encountered an `/etc/init.d/ci-{SERVICE} does not exist!` error during the reconfigure run, use the package 8.1.0-ce.1 or newer.
 
 - - -
 
@@ -208,8 +210,8 @@ Check out our [update page](https://about.gitlab.com/update/).
 
 ## Enterprise Edition
 
-The mentioned GitLab EE-only features and things like LDAP group support can be found in GitLab Enterprise Edition.
-For a complete overview please have a look at the [feature list of GitLab EE](http://www.gitlab.com/gitlab-ee/).
+GitLab EE-only features like LDAP group support can be found in GitLab Enterprise Edition.
+For a complete overview of EE please have a look at the [feature list of GitLab EE](http://www.gitlab.com/gitlab-ee/).
 
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing/).
 No time to upgrade GitLab yourself?
