@@ -95,7 +95,7 @@ GitLab will now automatically turn on CI for a project when you push
 a `.gitlab-ci.yml` file. If you have some shared runner setup, this should
 make it easier for your team to start using CI.
 
-Of course, you can turn off CI if you don't want to use it.
+Of course, you can disable CI for projects you don't want to use it for.
 
 ### Fast, Faster!
 
