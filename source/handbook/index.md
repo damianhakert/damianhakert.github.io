@@ -139,6 +139,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <li>When you create a merge request, please <b>mention</b> the issue that it solves in the description but avoid auto closing it by saying Fixes #1 or Solves #1. Since we frequently have to report back to customers or the rest of the community, issues are not done when the code is merged.</li>
     <li>If you ask a question to a specific person, always start the comment by mentioning them; this will ensure they see it if their notification level is mentioned and other people will understand they don't have to respond.</li>
     <li>Do not close an issue until code has been merged, it has been <b>reported</b> back to all parties, all issue trackers are updated and any documentation is written and merged.</li>
+    <li>When <b>closing</b> an issue leave a comment explaining why you are closing the issue.</li>
 </ol>
 
 <h3 id="team-call">Team Call</h3>
