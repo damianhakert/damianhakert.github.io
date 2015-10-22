@@ -168,7 +168,7 @@ and make sure you check the
 
 ![Mattermost is looking great with its latest release](/images/8_1/mattermost.png)
 
-Rocket Chat is still working on 
+Rocket Chat is still working on
 [adding PostgreSQL compatibility](https://github.com/RocketChat/Rocket.Chat/issues/533)
 and there is no estimated time when it will ship.
 
@@ -183,6 +183,8 @@ If you are upgrading from GitLab 8.0 and none of your users are using
 GitLab CI then you can perform the upgrade to 8.1 without downtime.
 If your users _are_ using CI you need to stop GitLab before performing
 the upgrade.
+
+*Note* If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
 
 To see if your users are using GitLab CI go to
 `gitlab.example.com/ci/admin/projects` and look if there are any
