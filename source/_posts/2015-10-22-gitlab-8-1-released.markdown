@@ -168,6 +168,10 @@ and make sure you check the
 
 ![Mattermost is looking great with its latest release](/images/8_1/mattermost.png)
 
+Rocket Chat is still working on 
+[adding PostgreSQL compatibility](https://github.com/RocketChat/Rocket.Chat/issues/533)
+and there is no estimated time when it will ship.
+
 ## Other changes
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
