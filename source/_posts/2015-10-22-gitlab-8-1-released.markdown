@@ -153,6 +153,8 @@ If you have any custom configuration **make sure you read the
 and make sure you check the
 [latest config options available for GitLab Mattermost](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/files/gitlab-config-template/gitlab.rb.template#L665-790)**.
 
+![Mattermost's latest version is looking even better than the last](/images/8_1/mattermost.png)
+
 ## Other changes
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
