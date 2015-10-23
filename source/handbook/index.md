@@ -298,6 +298,6 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 <h3>Preview website changes locally</h3>
 <ol>
     <li> Type: bundle exec rake preview</li>
-    <li> Type: http: //localhost:4000</li>
+    <li> Type: http://localhost:4000</li>
     <li> To edit the HTML locally you need to install a text editior, we recommend <a href="http://www.sublimetext.com/2">Sublime.</a></li>
 </ol>
