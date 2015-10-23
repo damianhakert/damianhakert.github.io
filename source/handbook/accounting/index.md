@@ -54,9 +54,9 @@ title: "Accounting"
 1. Update
 
 ### GitLab BV Pay Slip Distribution Process <a name="payroll-bv"></a>
-1. Save the attachments that arrive from Loonbureau each month to a folder in DropBox that you label like this: Dropbox=> GitLab BV=>year=>month (the entire attachment goes into this folder).
-1. On or before the 25th of each month, send each employee their salary slip (see steps below) and a note to the CEO to make sure that he processes the necessar paperwork.
-1. Following the path above, use the salary document to generate each employees salary slip. The dutch file for salaries is called -Salarisstroken.pdf
+1. Business Officer Manager: Save the attachments that arrive from Loonbureau each month to a folder in Dropbox that you label like this: Dropbox=> GitLab BV=>year=>month (the entire attachment goes into this folder).
+1. Business Officer Manager: On or before the 25th of each month, send each employee their salary slip (see steps below) and a note to the CEO to make sure that he processes the necessar paperwork.
+1. Controller / CEO: Following the path above, use the salary document to generate each employees salary slip. The dutch file for salaries is called -Salarisstroken.pdf
 1. Each page is a different employees salary slip all on one document. Do NOT send anyone a salary slip that is not their own! Follow the next steps carefully.
    1. Work on each page one at a time by
    1. Select, highlight and right click to copy the name of the employee
@@ -68,8 +68,8 @@ title: "Accounting"
    1. In the Title section: salary slip and past the name/month/year again
    1. Save
    1. ALWAYS confirm each saved page is only 1 employee - or you will send employees other people's salary slip.
-1. Send each employee their salary slip via email with the subject line: Salary slip
-1. Additionally, send the pdf with Factuur in the title to Accounts Payable.
+1. Business Officer Manager: Send each employee their salary slip via email with the subject line: Salary slip
+1. Business Officer Manager: Additionally, send the pdf with Factuur in the title to Accounts Payable.
 
 
 ## Accounts Payable <a name="ap"></a>
