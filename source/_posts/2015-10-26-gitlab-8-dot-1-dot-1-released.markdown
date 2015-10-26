@@ -24,6 +24,7 @@ It includes the following changes:
 - **CE/EE:** Fix Redis version check on Debian
 - **CE/EE:** Add migration to automatically remove the satellites directory
 - **EE:** Prevent a 500 error related to the JIRA external issue tracker service
+- **Omnibus**: Fix sysctl code in `gitlab-ctl reconfigure`
 
 <!-- more -->
 
