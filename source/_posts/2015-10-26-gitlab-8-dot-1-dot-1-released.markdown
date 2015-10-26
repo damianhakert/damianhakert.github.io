@@ -11,9 +11,19 @@ filename: 2015-10-26-gitlab-8-dot-1-dot-1-released.markdown
 Today we are releasing version 8.1.1 for Community Edition (CE) and Enterprise
 Edition (EE).
 
-It includes the following fixes:
+It includes the following changes:
 
-***TODO:*** Fixes
+- **CE/EE:** Require CI jobs to be named
+- **CE/EE:** Prevent a 500 error when editing CI services
+- **CE/EE:** Correct styling for runner status badge
+- **CE/EE:** Fix "Edit Readme" link on project home page
+- **CE/EE:** Fix cloning wiki repositories over HTTP
+- **CE/EE:** Fix `.gitlab-ci.yml` lint rendering
+- **CE/EE:** Allow users in the "Developer" role to manage builds
+- **CE/EE:** Fix link to specific runner on the CI build page
+- **CE/EE:** Fix Redis version check on Debian
+- **CE/EE:** Add migration to automatically remove the satellites directory
+- **EE:** Prevent a 500 error related to the JIRA external issue tracker service
 
 <!-- more -->
 
