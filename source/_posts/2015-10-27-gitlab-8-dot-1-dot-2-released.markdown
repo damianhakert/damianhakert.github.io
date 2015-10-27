@@ -34,6 +34,10 @@ database index that briefly brought down GitLab.com after we deployed the
 release. We're releasing 8.1.2, which includes all of the changes intended for
 8.1.1, and adds the missing database index.
 
+This release also addresses a minor security issue introduced in 8.0 that
+disclosed the names of CI runners that the user may not have had permission to
+view.
+
 ## Upgrade barometer
 
 When we [released GitLab 8.0 last month], we promised to automatically remove
