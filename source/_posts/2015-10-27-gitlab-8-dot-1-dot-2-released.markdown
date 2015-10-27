@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "GitLab 8.1.1 Released"
-date: 2015-10-26
+title: "GitLab 8.1.2 Released"
+date: 2015-10-27
 comments: true
 author: GitLab
 author_twitter: gitlab
-filename: 2015-10-26-gitlab-8-dot-1-dot-1-released.markdown
+filename: 2015-10-27-gitlab-8-dot-1-dot-2-released.markdown
 ---
 
-Today we are releasing version 8.1.1 for Community Edition (CE) and Enterprise
+Today we are releasing version 8.1.2 for Community Edition (CE) and Enterprise
 Edition (EE).
 
 It includes the following changes:
@@ -23,10 +23,16 @@ It includes the following changes:
 - **CE/EE:** Fix link to specific runner on the CI build page
 - **CE/EE:** Fix Redis version check on Debian
 - **CE/EE:** Add migration to automatically remove the satellites directory
+- **CE/EE:** Add missing database index for project paths
 - **EE:** Prevent a 500 error related to the JIRA external issue tracker service
 - **Omnibus**: Fix sysctl code in `gitlab-ctl reconfigure`
 
 <!-- more -->
+
+***Note:*** We planned to release 8.1.1 yesterday but discovered a missing
+database index that briefly brought down GitLab.com after we deployed the
+release. We're releasing 8.1.2, which includes all of the changes intended for
+8.1.1, and adds the missing database index.
 
 ## Upgrade barometer
 
@@ -35,7 +41,7 @@ the satellites directory in 8.1. This seems to have slipped our minds, but we're
 now including a migration to automatically perform the promised cleanup in this
 patch release.
 
-Due to this migration, an upgrade to GitLab 8.1.1 may cause your GitLab service
+Due to this migration, an upgrade to GitLab 8.1.2 may cause your GitLab service
 to be offline for longer than a standard patch upgrade. The amount of time
 depends on the size of the installation and, by extension, the number of
 remaining satellite directories.
