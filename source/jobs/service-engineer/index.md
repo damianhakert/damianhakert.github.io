@@ -5,9 +5,10 @@ title: "Service Engineer Responsibilities and Tasks"
 
 ## Responsibilities
 
-* Engage with our customers—anything from a small advertising firm or a university, to Fortune 100 clients
-* Communicate via email and video conferencing with potential and current clients
-* Maintain GitLab.com and our other services
+* Engage with our customers—anything from a small advertising firm or a university, to Fortune 100 clients.
+* Communicate via email and video conferencing with potential and current clients.
+* Maintain GitLab.com and our other services.
+* Participate in the rotating "on-call" list to provide 24/7 emergency response availability .
 * Ensure that everything we learn from running GitLab.com is set as default or communicated to our users.
 
 Tasks in order of priority:
