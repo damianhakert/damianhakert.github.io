@@ -6,10 +6,7 @@ $(document).ready(function() {
   $('.biolink').click(function() {
     $('.card').removeClass('flipped');
 
-    current = $(this).attr('href');
-    window.location.replace(window.location.origin + window.location.pathname + current);
-
-    $(current).addClass('flipped');
+    $(this).parent().parent().addClass('flipped');
 
     return false;
   });
