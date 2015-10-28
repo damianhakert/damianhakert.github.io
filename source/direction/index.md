@@ -11,7 +11,7 @@ control. GitLab will be the product make this possible and accessible.
 GitLab will make it possible for teams of any size to work on
 digital products of any nature, effortlessly, distributed and asynchronously.
 
-To make this possible, GitLab has to be easy to use, fast and reliable.
+To make this possible, GitLab has to be easy to use, fully featured, fast and reliable.
 It has to make communication and working with many people easier.
 
 GitLab is build by a large community of contributors. It has to be build in a way
@@ -33,12 +33,6 @@ any community contributions.
 - [Milestones for Omnibus GitLab](https://gitlab.com/gitlab-org/omnibus-gitlab/milestones)
 
 ## Tentative Tentpole Features
-
-### 8.1
-
-- Integration CI into CE
-- Commit status API
-- Shared Runners for every configuration on GitLab.com
 
 ### 8.2
 
@@ -146,9 +140,9 @@ We welcome contributions that implement any of these things.
 - A/B testing of branches
 - [Shared runners](https://dev.gitlab.org/gitlab/gitlab-ci/issues/322#note_56433) automanaged [by Kubernetes](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/30)
 
-### Other software in the Omnibus packages
+## Software to ship in the Omnibus packages
 
-- 8.1 Add [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
+- Add [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
 - Scrum board
 - [CodeClimate](http://blog.codeclimate.com/blog/2015/06/19/code-climate-platform/)
 - [Lita](https://www.lita.io/) or other chat-ops bot
