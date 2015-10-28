@@ -319,12 +319,6 @@ team_members:
   story: |
          Liza comes from a maths background, bringing her passion for order and consistency to the design world. With more than seven years of experience in both corporate environments and the startup world she is really excited about delivering meaningful and useful experiences to people in need. Through open source software and a vegan lifestyle she hopes to change this world for the better.
 
-- name: You?
-  role: Employee
-  picture: logo-extra-whitespace.png
-  twitter: gitlab
-  story:  |
-          Want to see your name and picture here? Check out our latest <a href="http://about.gitlab.com/jobs/">job openings!</a>
 ---
 
 <div class="wrapper">
@@ -381,6 +375,27 @@ team_members:
           </div>
         </div>
         {% endfor %}
+
+        <div class="col-sm-4 ">
+          <div class="member">
+
+            <div class="card">
+              <figure class="front">
+                <img src="../images/team/logo-extra-whitespace.png" alt="gitlab.com" width="200" height="200">
+                <h3>You?</h3>
+                <h4>Employee</h4>
+                <br>
+                <p style="text-align: center; padding: 0 25px;">
+                  Want to see your name and picture here? Check out our latest <a href="http://about.gitlab.com/jobs/">job openings!</a>
+                </p>
+                <div class="social">
+                  <a href="https://twitter.com/gitlab"><i class="fa fa-twitter"></i></a>
+                  <a href="https://gitlab.com">{% include logo_sq.svg %}</a>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
     </div>
   </div>
 </div>
