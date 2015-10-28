@@ -4,9 +4,12 @@ title: Team
 suppress_header: true
 extra_css:
   - team.css
+extra_js:
+  - team.js
 team_members:
 - name: Dmitriy Zaporozhets
   role: Co-founder, CTO
+  reports_to: CEO
   twitter: dzaporozhets
   gitlab: dzaporozhets
   picture: picture_dmitriy.png
@@ -199,6 +202,7 @@ team_members:
 
 - name: Ernst van Nierop
   role: <a href="https://about.gitlab.com/jobs/chief-operating-officer/">Chief Operating Officer</a>
+  reports_to: CEO
   picture: ernst.jpg
   twitter: ernstvannierop
   gitlab: ernstvn
@@ -337,23 +341,43 @@ team_members:
       {% for member in page.team_members %}
         <div class="col-sm-4 ">
           <div class="member">
-            <img src="../images/team/{{member.picture}}" alt="gitlab.com" width="200" height="200">
-            <h3>{{member.name}}</h3>
-            <h4>{{member.role}}</h4>
-            <div class="social">
-              {% if member.twitter %}
-                <a href="https://twitter.com/{{member.twitter}}">Twitter</a>
-              {% endif %}
-              {% if member.gitlab %}
-                <a href="https://gitlab.com/u/{{member.gitlab}}">GitLab</a>
-              {% endif %}
+
+            <div class="card" id={{member.twitter}}>
+              <figure class="front">
+                <img src="../images/team/{{member.picture}}" alt="gitlab.com" width="200" height="200">
+                <h3>{{member.name}}</h3>
+                <h4>{{member.role}}</h4>
+                {% if member.reports_to %}
+                  <h5>Reports to: {{member.reports_to}}</h5>
+                {% endif %}
+                <ul>
+                  {{member.maintains}}
+                </ul>
+                <div class="social">
+                  {% if member.twitter %}
+                    <a href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a>
+                  {% endif %}
+                  {% if member.gitlab %}
+                    <a href="https://gitlab.com/u/{{member.gitlab}}">{% include logo_sq.svg %}</a>
+                  {% endif %}
+                </div>
+
+                <a class="biolink" href="javascript:;">
+                  bio
+                </a>
+              </figure>
+
+              <figure class="back">
+                <p>
+                  {{member.story}}
+                </p>
+
+                <a class="flipback" href="#">
+                  {{member.name}}
+                </a>
+              </figure>
             </div>
-            <ul>
-              {{member.maintains}}
-            </ul>
-            <p>
-              {{member.story}}
-            </p>
+
           </div>
         </div>
         {% endfor %}
