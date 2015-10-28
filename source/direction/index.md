@@ -25,7 +25,7 @@ GitLab releases a new version every single month on the 22nd.
 You can view what is planned for each release on our milestone view for each
 product. Note that we often move things around, do things that are not listed,
 do not always get to do everything that is planned and that this not include
-any community contributions.
+any contributions from outside GitLab the company.
 
 - [Milestones for GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones)
 - [Milestones for GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones)
@@ -105,7 +105,7 @@ We welcome contributions that implement any of these things.
 - [Automatically push changed files](https://dev.gitlab.org/gitlab/gitlabhq/issues/2265)
 - [Mentioned activity level](https://dev.gitlab.org/gitlab/gitlabhq/issues/2288)
 - [Revert button for merges](https://dev.gitlab.org/gitlab/gitlabhq/issues/2299)
-- [Translations](http://feedback.gitlab.com/forums/176466-general/suggestions/3337748-internationalization-add-translations) with the help of the community and Perforce
+- [Translations](http://feedback.gitlab.com/forums/176466-general/suggestions/3337748-internationalization-add-translations) with the help of the rest of the community and Perforce
 - [Subgroups](http://feedback.gitlab.com/forums/176466-general/suggestions/3867903-allow-project-groups-to-be-organized-in-a-hierarch) (Dmitriy investigated this)
 - Show commits behind/ahead on branch overview page
 - Mentioned feed on the dashboard, activity feed on separate tab
