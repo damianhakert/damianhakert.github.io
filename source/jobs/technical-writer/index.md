@@ -22,4 +22,4 @@ title: "Technical Writer Responsibilities and Tasks"
 * Coordinate to ensure features coverage and avoid overlap where possible
 * Make sure the gitlab recipes repository is up to date with the latest GitLab release
 * Assist other teams with documentation and non-documentation tasks
-  * Not a responsibility is writing all documentation, all merge requests should include compehensive documentation in the first place
+  * Not a responsibility is writing all documentation, all merge requests should include comprehensive documentation in the first place
