@@ -2,23 +2,6 @@
 layout: markdown_page
 title: "GitLab Direction"
 ---
-
-## Product Vision
-
-In the future, every digital product will be managed in distributed version
-control. GitLab will be the product make this possible and accessible.
-
-GitLab will make it possible for teams of any size to work on
-digital products of any nature, effortlessly, distributed and asynchronously.
-
-To make this possible, GitLab has to be easy to use, fully featured, fast and reliable.
-It has to make communication and working with many people easier.
-
-GitLab is build by a large community of contributors. It has to be build in a way
-that promotes contributions. By writing great documentation, amazing test suites
-and making good use of (our own) continuous integration services, everyone can
-quickly start developing and get instant feedback.
-
 ## Development Direction
 
 GitLab releases a new version every single month on the 22nd.
@@ -36,14 +19,14 @@ any contributions from outside GitLab the company.
 
 ### 8.2
 
-- Git LFS support
-- Repository mirroring
-- Releases
+- Git LFS support - [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/2955)
+- Repository mirroring (EE) - [dev issue](https://dev.gitlab.org/gitlab/gitlab-ee/issues/279)
+- Releases - [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/2701)
 - Create MR from editor ([dev issue](https://dev.gitlab.org/gitlab/gitlabhq/issues/2518))
 - Global Milestones ([dev issue](https://dev.gitlab.org/gitlab/gitlabhq/issues/2474))
 - Award Emoji [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/2223)
 - CI gets rid of the ci_projects table
-- CI build artifacts
+- CI build artifacts - [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/3028)
 - CI runner caching (not doing a clean on a fetch)
 
 ### 8.3
@@ -140,16 +123,32 @@ We welcome contributions that implement any of these things.
 - A/B testing of branches
 - [Shared runners](https://dev.gitlab.org/gitlab/gitlab-ci/issues/322#note_56433) automanaged [by Kubernetes](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/30)
 
-## Software to ship in the Omnibus packages
+### Software to ship in the Omnibus packages
 
 - Add [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
 - Scrum board
 - [CodeClimate](http://blog.codeclimate.com/blog/2015/06/19/code-climate-platform/)
 - [Lita](https://www.lita.io/) or other chat-ops bot
 
-## We would love to partner with
+### We would love to partner with
 
 - Browser IDE: Koding, Nitrous.io, Cloud9, CodeAnywhere, Codio and CodeEnvy (ship GitLab with them and button to open from GitLab)
 - Configuration management: Chef, Puppet, Ansible, Salt, Docker (upload cookbooks, build containers from GitLab CI, etc.)
 - Paas: CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Nomad](https://nomadproject.io/), [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/) [Tutum](https://www.tutum.co/) [GiantSwarm](https://giantswarm.io/) (deploy apps to them with GitLab CI)
 - Scrum boards: [Huboard](https://huboard.com/), [Waffle.io](https://waffle.io/) and [Zenhub.io](https://www.zenhub.io/) support in addition to https://about.gitlab.com/applications/#scrum-boards
+
+## Product Vision
+
+In the future, every digital product will be managed in distributed version
+control. GitLab will be the product make this possible and accessible.
+
+GitLab will make it possible for teams of any size to work on
+digital products of any nature, effortlessly, distributed and asynchronously.
+
+To make this possible, GitLab has to be easy to use, fully featured, fast and reliable.
+It has to make communication and working with many people easier.
+
+GitLab is build by a large community of contributors. It has to be build in a way
+that promotes contributions. By writing great documentation, amazing test suites
+and making good use of (our own) continuous integration services, everyone can
+quickly start developing and get instant feedback.
