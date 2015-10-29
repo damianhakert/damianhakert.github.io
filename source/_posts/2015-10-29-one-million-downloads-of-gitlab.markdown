@@ -30,4 +30,4 @@ Today we announced that we have over one million downloads between [Gitlab CE](h
 
 **October 2015:** We hit 1 million downloads of GitLab CE and GitLab EE. More than 100,000 organizations currently use GitLab on premises including CERN, Alibaba, SpaceX, O’Reilly, IBM and Expedia. GitLab's Enterprise Edition is now being used by a large percentage of the Fortune 500.
 
-We’d like to say thank you to everyone that has helped along the way. We have such a loyal, vocal community of more than 800 contributors that have helped us roll out new features and countless people helping others to get started with GitLab.
+We’d like to say thank you to everyone that has helped along the way. We have such a loyal, vocal community of more than 800 contributors that have helped us roll out new features and countless people helping others to get started with GitLab. We look forward to the next million! 
