@@ -2,7 +2,22 @@
 layout: markdown_page
 title: "GitLab Direction"
 ---
-## Development Direction
+
+This page list the direction or roadmap of GitLab.
+It is organized from the short to the long term.
+
+### What you contribute
+
+GitLab's direction is determined by the code that is send by our [contributors](http://contributors.gitlab.com/).
+In [our feedback forum](http://feedback.gitlab.com/forums/176466-general),
+many requests are made for features and changes to GitLab.
+The ones with the
+[status accepting merge requests](http://feedback.gitlab.com/forums/176466-general/status/796455)
+are preapproved.
+Of course before any code is merged it still has to meet the
+[contribution acceptance criteria](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#contribution-acceptance-criteria).
+
+## Next releases
 
 GitLab releases a new version every single month on the 22nd.
 You can view what is planned for each release on our milestone view for each
@@ -15,7 +30,7 @@ any contributions from outside GitLab the company.
 - [Milestones for GitLab CI](https://gitlab.com/gitlab-org/gitlab-ee/milestones)
 - [Milestones for Omnibus GitLab](https://gitlab.com/gitlab-org/omnibus-gitlab/milestones)
 
-## Tentative Tentpole Features
+## Tentpole features
 
 ### 8.2
 
@@ -45,22 +60,14 @@ any contributions from outside GitLab the company.
 
 - Elasticsearch
 
-### Accepting Merge Requests
-
-In [our feedback forum](http://feedback.gitlab.com/forums/176466-general),
-many requests are made for features and changes to GitLab. Here you can also
-view which kind of contributions will be accepted (if they meet our requirements):
-
-- [Accepting Merge Requests on Feedback Forum](http://feedback.gitlab.com/forums/176466-general/status/796455)
-
 ## Wishlist
 
 Below you will find several things we'd really like to see in GitLab.
-It is not a roadmap, nor is the list prioritized.
+This list is not prioritized.
 
 Some links point to internal issues. We're working on making [all issues public](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
 
-We welcome contributions that implement any of these things.
+We very much welcome contributions that implement any of these things.
 
 ### Interaction
 
