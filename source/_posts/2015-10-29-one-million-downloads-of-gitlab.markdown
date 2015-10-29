@@ -26,8 +26,8 @@ Today we announced that we have over one million downloads between [Gitlab CE](h
 
 **August 2015:** [GitLab Raises $4M Series A Round From Khosla Ventures](http://techcrunch.com/2015/09/17/gitlab-raises-4m-series-a-round-from-khosla-ventures-for-its-open-source-collaboration-platform/) with Vinod Khosla commenting at the time, "there is a very large market demand for a more open solution that enables engineers to create, review, collaborate, and accelerate the iterative process by deploying code that brings products to market faster.”
 
-**September 2015:** Since 2012, we’ve been releasing new updates to GitLab on the 22nd of every month. September’s launch of [GitLab 8.0](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/) was our largest release yet with product improvements and an all new design.
+**September 2015:** Since 2011, we’ve been releasing new updates to GitLab on the 22nd of every month. September’s launch of [GitLab 8.0](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/) was our largest release yet with product improvements, integrating GitLab CI into the core product, and an all new design.
 
 **October 2015:** We hit 1 million downloads of GitLab CE and GitLab EE. More than 100,000 organizations currently use GitLab on premises including CERN, Alibaba, SpaceX, O’Reilly, IBM and Expedia. GitLab's Enterprise Edition is now being used by a large percentage of the Fortune 500.
 
-We’d like to say thank you to everyone that has helped along the way. We have such a loyal, vocal community of more than 800 contributors that have helped us roll out new features at such a rapid pace.
+We’d like to say thank you to everyone that has helped along the way. We have such a loyal, vocal community of more than 800 contributors that have helped us roll out new features and countless people helping others getting started with GitLab.
