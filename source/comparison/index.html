@@ -1,18 +1,24 @@
 ---
 layout: default
-title: Better Than GitHub
+title: Feature Comparison
 suppress_header: true
 extra_css:
-  - better-than-github.css
+  - comparison.css
 ---
 <div class="row">
   <div class="hidden-xs hidden-sm col-md-3">
     <div class="navigation-wrapper">
       <div class="navigation-reasons">
         <ul>
-          <li><a href="#gitlab-site">GitLab vs. GitHub</a></li>
-          <li><a href="#gitlab-enterprise">GitLab Enterprise vs. GitHub Enterprise</a></li>
-          <li><a href="#gitlab-com">GitLab.com vs. GitHub.com</a></li>
+          <li><a href="#gitlab-ce-vs-ee">GitLab CE vs. GitLab EE</a></li>
+          <li><a href="#gitlab-ee-vs-github-enterprise">GitLab EE vs. GitHub Enterprise</a></li>
+
+          <li><a href="#gitlab-vs-bitbucket-server">GitLab vs. Bitbucket Server</a></li>
+          <li><a href="#gitlab-vs-cvcs">GitLab vs. CVCS</a></li>
+          <li><a href="#gitlab-vs-github">GitLab vs. GitHub</a></li>
+
+          <li><a href="#gitlab-com-vs-bitbucket-com">GitLab.com vs. Bitbucket.com</a></li>
+          <li><a href="#gitlab-com-vs-github-com">GitLab.com vs. GitHub.com</a></li>
         </ul>
       </div>
       <div class="download-button">
@@ -20,62 +26,33 @@ extra_css:
       </div>
     </div>
   </div>
+
   <div class="col-xs-12 col-sm-12 col-md-9">
     <div class="wrapper">
       <div class="heading">
-        <h1>Why is GitLab better than GitHub, you ask?</h1>
-        <div class="title-container" id="gitlab-site">
-          <div class="hr-title"></div>
-          <h3 class="title">GitLab vs. GitHub</h3>
-          <div class="hr-title"></div>
-        </div>
+        <h1>GitLab Feature Comparison</h1>
       </div>
+
+      <div class="title-container">
+        <div class="hr-title"></div>
+        <h3 class="title" id="gitlab-ce-vs-ee">GitLab CE vs. GitLab EE</h3>
+        <div class="hr-title"></div>
+      </div>
+
       <div class="list-of-reasons-container">
         <ol>
-          <li id="protected-branches">
-            <p>Protected branches</p>
-            <p>Guard your code by protecting branches against force pushes and let only people with higher permissions merge code into important branches.</p>
-            <p>
-              <a href="http://doc.gitlab.com/ce/workflow/protected_branches.html">Read about protected branches</a></p>
-          </li>
-          <li id="multiple-authentication-levels">
-            <p>Multiple authentication Levels</p>
-            <p>Set permissions according to people's role, rather than either read or write access to a repository. Don't share the source code with people that only need access to the issue tracker.</p>
-            <p>
-              <a href="http://doc.gitlab.com/ce/permissions/permissions.html">See the various authentication levels</a><p>
-          </li>
-          <li id="group-level-milestones">
-            <p>Group level milestones</p>
-            <p>View all the issues for the milestone you’re currently working on across multiple projects.</p>
-          </li>
-          <li id="attachments-in-issues">
-            <p>Attachments in issues</p>
-            <p>In GitLab you can attach any file to any issue or comment.</p>
-            <p><a href="https://github.com/gnachman/iTerm2/blob/master/README.md">iTerm2 notes this in their README</a></p>
-          </li>
-          <li id="innersourcing">
-            <p>Innersourcing</p>
-            <p>Internal projects in GitLab allow you to promote innersourcing of your internal repositories.</p>
-            <p><a href="https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/">Find out more about innersourcing</a></p>
-          </li>
-          <li id="wip-protection">
-            <p>Work-in-Progress Protection</p>
-            <p>Simply add 'WIP' to the title of a merge request to prevent anyone from merging
-              it. This gives you all the code review power of merge requests,
-              while protecting unfinished work.</p>
-            <p><a href="http://doc.gitlab.com/ce/workflow/wip_merge_requests.html">WIP Merge documentation</a></p>
-          </li>
+          <li>Stuff</li>
         </ol>
       </div>
 
       <div class="title-container">
         <div class="hr-title"></div>
-        <h3 class="title">GitLab Enterprise vs. GitHub Enterprise</h3>
-        <div class="hr-title" id="gitlab-enterprise"></div>
+        <h3 class="title" id="gitlab-ee-vs-github-enterprise">GitLab EE vs. GitHub Enterprise</h3>
+        <div class="hr-title"></div>
       </div>
+
       <div class="list-of-reasons-container">
         <ol>
-
           <li id="gitlab-handles-huge-repositories-well">
             <p>GitLab handles huge repositories well</p>
             <p>
@@ -158,9 +135,91 @@ extra_css:
 
       <div class="title-container">
         <div class="hr-title"></div>
-        <h3 id="gitlab-com" class="title">GitLab.com vs. GitHub.com</h3>
+        <h3 class="title" id="gitlab-vs-bitbucket-server">GitLab vs. Bitbucket Server</h3>
         <div class="hr-title"></div>
       </div>
+
+      <div class="list-of-reasons-container">
+        <ol>
+          <li>Stuff</li>
+        </ol>
+      </div>
+
+      <div class="title-container">
+        <div class="hr-title"></div>
+        <h3 class="title" id="gitlab-vs-cvcs">GitLab vs. CVCS</h3>
+        <div class="hr-title"></div>
+      </div>
+
+      <div class="list-of-reasons-container">
+        <ol>
+          <li>Stuff</li>
+        </ol>
+      </div>
+
+      <div class="title-container">
+        <div class="hr-title"></div>
+        <h3 class="title" id="gitlab-vs-github">GitLab vs. GitHub</h3>
+        <div class="hr-title"></div>
+      </div>
+
+      <div class="list-of-reasons-container">
+        <ol>
+          <li id="protected-branches">
+            <p>Protected branches</p>
+            <p>Guard your code by protecting branches against force pushes and let only people with higher permissions merge code into important branches.</p>
+            <p>
+              <a href="http://doc.gitlab.com/ce/workflow/protected_branches.html">Read about protected branches</a></p>
+          </li>
+          <li id="multiple-authentication-levels">
+            <p>Multiple authentication Levels</p>
+            <p>Set permissions according to people's role, rather than either read or write access to a repository. Don't share the source code with people that only need access to the issue tracker.</p>
+            <p>
+              <a href="http://doc.gitlab.com/ce/permissions/permissions.html">See the various authentication levels</a>
+            </p>
+          </li>
+          <li id="group-level-milestones">
+            <p>Group level milestones</p>
+            <p>View all the issues for the milestone you’re currently working on across multiple projects.</p>
+          </li>
+          <li id="attachments-in-issues">
+            <p>Attachments in issues</p>
+            <p>In GitLab you can attach any file to any issue or comment.</p>
+            <p><a href="https://github.com/gnachman/iTerm2/blob/master/README.md">iTerm2 notes this in their README</a></p>
+          </li>
+          <li id="innersourcing">
+            <p>Innersourcing</p>
+            <p>Internal projects in GitLab allow you to promote innersourcing of your internal repositories.</p>
+            <p><a href="https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/">Find out more about innersourcing</a></p>
+          </li>
+          <li id="wip-protection">
+            <p>Work-in-Progress Protection</p>
+            <p>Simply add 'WIP' to the title of a merge request to prevent anyone from merging
+              it. This gives you all the code review power of merge requests,
+              while protecting unfinished work.</p>
+            <p><a href="http://doc.gitlab.com/ce/workflow/wip_merge_requests.html">WIP Merge documentation</a></p>
+          </li>
+        </ol>
+      </div>
+
+      <div class="title-container">
+        <div class="hr-title"></div>
+        <h3 class="title" id="gitlab-com-vs-bitbucket-com">GitLab.com vs. Bitbucket.com</h3>
+        <div class="hr-title"></div>
+      </div>
+
+      <div class="list-of-reasons-container">
+        <ol>
+          <li>Stuff</li>
+        </ol>
+      </div>
+
+      <div class="title-container">
+        <div class="hr-title"></div>
+        <h3 class="title" id="gitlab-com-vs-github-com">GitLab.com vs. GitHub.com</h3>
+        <div class="hr-title"></div>
+      </div>
+
       <div class="list-of-reasons-container">
         <ol>
           <li id="unlimited-public-and-private-repositories-for-free">
