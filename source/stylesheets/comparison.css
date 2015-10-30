@@ -7,6 +7,16 @@ h1, h2, h3, h4, h5, button, a {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+h4 a {
+  color: white;
+  font-weight: inherit;
+  text-decoration: underline;
+}
+
+h4 a:hover {
+  color: #FFB440;
+}
+
 @media (min-width: 1400px) {
   .wrapper {
     width: 700px !important;
