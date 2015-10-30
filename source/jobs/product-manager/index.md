@@ -63,16 +63,16 @@ I do like to do these things, but it's probably best if someone takes over.
 - Maintain version.gitlab.com
 - ~~Maintain doc.gitlab.com (code/deploy)~~ => Drew
 - ~~Maintain Gitlab Artwork~~ => Andriy
-- Post + Reply to things on twitter
+- ~~Post + Reply to things on twitter~~ => Forwarded to service engineers
 - ~~Reply to Disqus comments~~ => Forwarded to service engineers
 - Maintain the [AWS](https://dev.gitlab.org/gitlab/AMI) and (theoretical) [Azure](https://dev.gitlab.org/gitlab/organization/issues/204) images
 - Be on call for GitLab.com and Support emergencies
 - Be support back up / handle European calls
-- Maintain Google Analytics, Mixpanel
-- Ownership of Google Ads (to move to Ashley)
-- Ownership of Twitter Ads (to move to Ashley)
-- Interview candidates for Interaction Engineer + Designer positions (I like this as well, but time sink)
-- Maintain CF Tile (this is upcoming)
+- ~~Maintain Google Analytics, Mixpanel~~ => Ashley
+- ~~Ownership of Google Ads~~ => Ashley
+- ~~Ownership of Twitter Ads~~ => Ashley
+- Interview candidates for Interaction Engineer + Designer positions
+- Maintain CF Tile
 - Maintain the mailinglists + automation
 - Give trainings to customers
 - Maintain automations (Slack, Notifiers, Zendesk)

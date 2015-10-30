@@ -48,7 +48,6 @@ any contributions from outside GitLab the company.
 
 - Revert merges. ([dev issue](https://dev.gitlab.org/gitlab/gitlabhq/issues/2299))
 - Copy to clipboard
-- Group code search ([dev issue](https://dev.gitlab.org/gitlab/gitlabhq/issues/841))
 
 ### 8.4
 
@@ -58,7 +57,7 @@ any contributions from outside GitLab the company.
 
 ### 8.5
 
-- Elasticsearch
+- Elasticsearch (EE) [issue](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
 
 ## Wishlist
 
