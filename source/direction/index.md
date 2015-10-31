@@ -36,14 +36,14 @@ any contributions from outside GitLab the company.
 
 ### 8.2
 
-- Git LFS support - [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/2955)
-- Repository mirroring (EE) - [dev issue](https://dev.gitlab.org/gitlab/gitlab-ee/issues/279)
-- Releases - [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/2701)
-- Create MR from editor ([dev issue](https://dev.gitlab.org/gitlab/gitlabhq/issues/2518))
-- Global Milestones ([dev issue](https://dev.gitlab.org/gitlab/gitlabhq/issues/2474))
-- Award Emoji [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/2223)
+- [Git LFS support](https://gitlab.com/gitlab-org/gitlab-ce/issues/2955)
+- [Repository mirroring (EE)](https://dev.gitlab.org/gitlab/gitlab-ee/issues/279) (not publicly visible)
+- [Releases](https://gitlab.com/gitlab-org/gitlab-ce/issues/2701)
+- [Create MR from editor](https://dev.gitlab.org/gitlab/gitlabhq/issues/2518) (not publicly visible)
+- [Global Milestones](https://dev.gitlab.org/gitlab/gitlabhq/issues/2474) (not publicly visible)
+- [Award Emoji](https://gitlab.com/gitlab-org/gitlab-ce/issues/2223)
 - CI gets rid of the ci_projects table
-- CI build artifacts - [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/3028)
+- [CI build artifacts](https://gitlab.com/gitlab-org/gitlab-ce/issues/3028)
 - CI runner caching (not doing a clean on a fetch)
 
 ### 8.3
