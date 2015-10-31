@@ -87,7 +87,6 @@ We very much welcome contributions that implement any of these things.
 - [Allow cross server merge requests](http://feedback.gitlab.com/forums/176466-general/suggestions/5097708-implement-cross-server-federated-merge-requests) (paste url when making a new MR)
 - [Code search in groups](https://dev.gitlab.org/gitlab/gitlabhq/issues/841)
 - [Time tracking](https://dev.gitlab.org/gitlab/gitlabhq/issues/2192)
-- Improve GitHub import of [PR's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2833) and [wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
 - [Automatically push changed files](https://dev.gitlab.org/gitlab/gitlabhq/issues/2265)
 - [Mentioned activity level](https://dev.gitlab.org/gitlab/gitlabhq/issues/2288)
 - [Revert button for merges](https://dev.gitlab.org/gitlab/gitlabhq/issues/2299)
@@ -102,6 +101,7 @@ We very much welcome contributions that implement any of these things.
 - [Handle errors before they give a 500](https://dev.gitlab.org/gitlab/gitlabhq/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=gitlab.com+errors)
 - [Get rid of the large SSH key file](https://gitlab.com/gitlab-org/gitlab-git-http-server/issues/2#note_1983654)
 - [Deprecate the authorized keys file](https://gitlab.com/gitlab-org/gitlab-git-http-server/issues/2#note_2064375)
+- [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 
 ### EE
 - Push to another repo
@@ -114,7 +114,7 @@ We very much welcome contributions that implement any of these things.
 - [Zero config CI](https://dev.gitlab.org/gitlab/gitlabhq/issues/2528)
 - Option to test the [merge of the feature branch with master](http://homu.io/) instead of the feature branch itself (you will have to retest all MR's every time master is updated)
 - Dependent builds [Feedback](http://feedback.gitlab.com/forums/176466-general/suggestions/7233770-chain-builds) and [internal issue](https://dev.gitlab.org/gitlab/gitlab-ci/issues/328)
-- Staging environment per branch, easy deploy (similar to [Teatro](https://teatro.io/), [Tutum](https://support.tutum.co/support/solutions/articles/5000620449-deploy-to-tutum-button) & [Heroku Review Apps](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta))
+- [Staging environment per branch with GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286), similar to [Teatro](https://teatro.io/), [Tutum](https://support.tutum.co/support/solutions/articles/5000620449-deploy-to-tutum-button) & [Heroku Review Apps](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta))
 - Automatically give code quality metrics in the merge request
 - [Automatic Docker image cleanup](https://gitlab.com/ayufan/gitlab-runner-docker-cleanup/issues/1)
 - Show code coverage in diffs with colored horizontal bar
@@ -131,8 +131,8 @@ We very much welcome contributions that implement any of these things.
 ### We would love to partner with
 
 - Browser IDE: Koding, Nitrous.io, Cloud9, CodeAnywhere, Codio and CodeEnvy (ship GitLab with them and button to open from GitLab)
-- Configuration management: Chef, Puppet, Ansible, Salt, Docker (upload cookbooks, build containers from GitLab CI, etc.)
-- Paas: CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Nomad](https://nomadproject.io/), [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/) [Tutum](https://www.tutum.co/) [GiantSwarm](https://giantswarm.io/) (deploy apps to them with GitLab CI)
+- Configuration management: Upload cookbooks, manifests, playbooks, and modules for respectively Chef, Puppet, Ansible, and Salt.
+- Paas: Use [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) to deploy to CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Nomad](https://nomadproject.io/), [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/) [Tutum](https://www.tutum.co/) [GiantSwarm](https://giantswarm.io/)
 - Scrum boards: [Huboard](https://huboard.com/), [Waffle.io](https://waffle.io/) and [Zenhub.io](https://www.zenhub.io/) support in addition to https://about.gitlab.com/applications/#scrum-boards
 
 ## Product Vision
