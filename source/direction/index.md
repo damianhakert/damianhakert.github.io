@@ -22,23 +22,16 @@ Of course before any code is merged it still has to meet the
 ## Next releases
 
 GitLab releases a new version every single month on the 22nd.
-You can view what is planned for each release on our milestone view for each
-product. Note that we often move things around, do things that are not listed,
+Note that we often move things around, do things that are not listed,
 do not always get to do everything that is planned and that this not include
 any contributions from outside GitLab the company.
 
-- [Milestones for GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones)
-- [Milestones for GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones)
-- [Milestones for GitLab CI](https://gitlab.com/gitlab-org/gitlab-ee/milestones)
-- [Milestones for Omnibus GitLab](https://gitlab.com/gitlab-org/omnibus-gitlab/milestones)
-
-## Tentpole features
-
-Tentpole features are the most improtant features of upcoming releases.
+The version numbers below link to the public issues for that version accross all products.
+The bullets list the tentpole features; the most improtant features of upcoming releases.
 Some links still point to internal issues that are not publicly visible.
 We're working on making [all issues public](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
 
-### 8.2
+### [8.2](https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2)
 
 - [Git LFS support](https://gitlab.com/gitlab-org/gitlab-ce/issues/2955)
 - [Repository mirroring (EE)](https://dev.gitlab.org/gitlab/gitlab-ee/issues/279) (not publicly visible)
@@ -50,18 +43,18 @@ We're working on making [all issues public](https://about.gitlab.com/2015/08/03/
 - [CI build artifacts](https://gitlab.com/gitlab-org/gitlab-ce/issues/3028)
 - CI runner caching (not doing a clean on a fetch)
 
-### 8.3
+### [8.3](https://gitlab.com/groups/gitlab-org/milestones/8-3?title=8.3)
 
 - [Revert merges](https://dev.gitlab.org/gitlab/gitlabhq/issues/2299) (not publicly visible)
 
-### 8.4
+### [8.4](https://gitlab.com/groups/gitlab-org/milestones/8-4?title=8.4)
 
 - [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
 - [Import GitHub PR's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2833)
 - [Import GitHub wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
 - [GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ce/issues/3085)
 
-### 8.5
+### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5)
 
 - [Elasticsearch (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
 
