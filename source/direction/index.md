@@ -58,7 +58,7 @@ We're working on making [all issues public](https://about.gitlab.com/2015/08/03/
 
 - [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
 - Further GitHub import features (merge requests and wiki)
-- [GitLab Pages / Site](https://gitlab.com/gitlab-org/gitlab-ce/issues/3085)
+- [GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ce/issues/3085)
 
 ### 8.5
 
@@ -76,7 +76,6 @@ We very much welcome contributions that implement any of these things.
 ### Interaction
 
 - [Make it easier to add labels to an issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/2574)
-- 8.1 [Integrate CI into CE interface wise](https://gitlab.com/gitlab-org/gitlab-ce/issues/2594)
 - [Change notification setting](https://dev.gitlab.org/gitlab/gitlabhq/issues/2395)
 - [Edit on protected branch should create a new branch](https://dev.gitlab.org/gitlab/gitlabhq/issues/2242)
 - [Filter by more than one label](https://gitlab.com/gitlab-org/gitlab-ce/issues/989)
@@ -126,7 +125,6 @@ We very much welcome contributions that implement any of these things.
 - Automatically give code quality metrics in the merge request
 - [Automatic Docker image cleanup](https://gitlab.com/ayufan/gitlab-runner-docker-cleanup/issues/1)
 - Show code coverage in diffs with colored horizontal bar
-- [Static hosting (Pages/Sites)](https://dev.gitlab.org/gitlab/gitlabhq/issues/2290)
 - A/B testing of branches
 - [Shared runners](https://dev.gitlab.org/gitlab/gitlab-ci/issues/322#note_56433) automanaged [by Kubernetes](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/30)
 
