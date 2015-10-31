@@ -6,7 +6,7 @@ title: "GitLab Direction"
 This page list the direction or roadmap of GitLab.
 It is organized from the short to the long term.
 
-### What you contribute
+## What you contribute
 
 GitLab's direction is determined by the code that is send by our [contributors](http://contributors.gitlab.com/).
 In [our feedback forum](http://feedback.gitlab.com/forums/176466-general),
