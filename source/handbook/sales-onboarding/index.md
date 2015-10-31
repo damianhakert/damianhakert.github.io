@@ -19,7 +19,7 @@ title: "Sales Onboarding"
 
 1. [Our Sales Communication Guide](https://docs.google.com/document/d/1IMDzTj3hZrnsA417z9Ye7WBa8yLkWxGzaLZNJ3O_nVA/edit#heading=h.3nffcmsbeqo7)
 
-* Login to [Salesforce.com], you should receive an email asking you to change your password:
+* Login to [Salesforce.com](http://www.salesforce.com/), you should receive an email asking you to change your password:
 
 1. Familiarize yourself with your custom view (https://na34.salesforce.com/00O61000001uYbM) of open opportunities for the month 
 
