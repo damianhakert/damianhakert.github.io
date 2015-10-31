@@ -22,9 +22,8 @@ Of course before any code is merged it still has to meet the
 ## Next releases
 
 GitLab releases a new version every single month on the 22nd.
-Note that we often move things around, do things that are not listed,
-do not always get to do everything that is planned and that this not include
-any contributions from outside GitLab the company.
+Note that we often move things around, do things that are not listed and we don't always get to do everything that is planned.
+Also the list below not include any contributions from outside GitLab the company.
 
 The version numbers below link to the public issues for that version accross all products.
 The bullets list the tentpole features; the most improtant features of upcoming releases.
