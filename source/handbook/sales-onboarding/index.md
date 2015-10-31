@@ -32,3 +32,5 @@ title: "Sales Onboarding"
 * [Support and development process](/handbook/support-and-development-process)
 
 * [Giving a GitLab demo](https://about.gitlab.com/handbook/demo/)
+
+* Learn how to use git by completing a [course](https://www.codeschool.com/courses/try-git)
