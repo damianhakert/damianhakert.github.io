@@ -57,7 +57,8 @@ We're working on making [all issues public](https://about.gitlab.com/2015/08/03/
 ### 8.4
 
 - [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
-- Further GitHub import features (merge requests and wiki)
+- [Import GitHub PR's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2833)
+- [Import GitHub wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
 - [GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ce/issues/3085)
 
 ### 8.5
