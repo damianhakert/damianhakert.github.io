@@ -34,6 +34,10 @@ any contributions from outside GitLab the company.
 
 ## Tentpole features
 
+Tentpole features are the most improtant features of upcoming releases.
+Some links still point to internal issues that are not publicly visible.
+We're working on making [all issues public](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
+
 ### 8.2
 
 - [Git LFS support](https://gitlab.com/gitlab-org/gitlab-ce/issues/2955)
@@ -48,18 +52,17 @@ any contributions from outside GitLab the company.
 
 ### 8.3
 
-- Revert merges. ([dev issue](https://dev.gitlab.org/gitlab/gitlabhq/issues/2299))
-- Copy to clipboard
+- [Revert merges](https://dev.gitlab.org/gitlab/gitlabhq/issues/2299) (not publicly visible)
 
 ### 8.4
 
-- Project import / export. [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
+- [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
 - Further GitHub import features (merge requests and wiki)
-- GitLab Pages [issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/3085)
+- [GitLab Pages / Site](https://gitlab.com/gitlab-org/gitlab-ce/issues/3085)
 
 ### 8.5
 
-- Elasticsearch (EE) [issue](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
+- [Elasticsearch (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
 
 ## Wishlist
 
