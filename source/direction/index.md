@@ -104,17 +104,14 @@ We very much welcome contributions that implement any of these things.
 - Show commits behind/ahead on branch overview page
 - Mentioned feed on the dashboard, activity feed on separate tab
 - Issue/MR description field works like google docs, real time collaboration & autosave, maybe with [ShareJS](http://sharejs.org/)
-- 8.1 Git large file support (LFS) [Feedback](http://feedback.gitlab.com/forums/176466-general/suggestions/7502608-git-large-file-storage-lfs-support) [CE](https://dev.gitlab.org/gitlab/gitlabhq/issues/2295) [EE](https://dev.gitlab.org/gitlab/gitlab-ee/issues/318)
 - Draw and drop issues to prioritize them
 - Handle incoming emails with support questions in issues, needs spam filter
 - [Award emoji](https://dev.gitlab.org/gitlab/gitlabhq/issues/2388) (so you can use GitLab as a feature request tracker)
-- 8.1 [Commit Status API](https://gitlab.com/gitlab-org/gitlab-ce/issues/2595)
 - [Handle errors before they give a 500](https://dev.gitlab.org/gitlab/gitlabhq/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=gitlab.com+errors)
 - [Get rid of the large SSH key file](https://gitlab.com/gitlab-org/gitlab-git-http-server/issues/2#note_1983654)
 - [Deprecate the authorized keys file](https://gitlab.com/gitlab-org/gitlab-git-http-server/issues/2#note_2064375)
 
 ### EE
-- 8.1 [Mirroring](https://dev.gitlab.org/gitlab/gitlab-ee/issues/279)
 - Push to another repo
 - [Management dashboard](https://dev.gitlab.org/gitlab/gitlab-ee/issues/287)
 - Distributed file system store for large files (Git Annex or Git LFS) and uploads. Can do in in [Ceph](http://ceph.com/), [XtreemFS](http://www.xtreemfs.org/), [LizardFS](http://lizardfs.com/) or something else. But not a pluggable backend for [blobs](http://blog.justinsb.com/blog/2013/12/14/cloudata-day-8/) because [performance will suffer](https://news.ycombinator.com/item?id=9839581), this was as also [indicated by a libgit2 developer](https://github.com/libgit2/libgit2-backends/pull/4#issuecomment-36115322).
@@ -123,7 +120,6 @@ We very much welcome contributions that implement any of these things.
 ### CI
 
 - [Zero config CI](https://dev.gitlab.org/gitlab/gitlabhq/issues/2528)
-- 8.1 stretch goal [Upload build artifacts](https://dev.gitlab.org/gitlab/gitlab-ci/issues/56)
 - Option to test the [merge of the feature branch with master](http://homu.io/) instead of the feature branch itself (you will have to retest all MR's every time master is updated)
 - Dependent builds [Feedback](http://feedback.gitlab.com/forums/176466-general/suggestions/7233770-chain-builds) and [internal issue](https://dev.gitlab.org/gitlab/gitlab-ci/issues/328)
 - Staging environment per branch, easy deploy (similar to [Teatro](https://teatro.io/), [Tutum](https://support.tutum.co/support/solutions/articles/5000620449-deploy-to-tutum-button) & [Heroku Review Apps](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta))
