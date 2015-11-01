@@ -13,10 +13,7 @@ extra_js:
     <div class="color-bg">
       <div>
         <h1>GitLab Continuous Integration</h1>
-        <h3 id="ci-subt">Integrated CI to test, build and deploy your code</h3>
-      </div>
-      <div>
-        <a href="https://about.gitlab.com/downloads/" id="download" class="gs-button">Download GitLab</a>
+        <h3 id="ci-subt">GitLab has integrated CI to test, build and deploy your code</h3>
       </div>
     </div>
   </div>
@@ -111,9 +108,13 @@ extra_js:
 
     <div class="row gitlab-runner">
       <div class="col-xs-1 col-md-1"></div>
+      <div class="col-md-3 hidden-xs hidden-sm">
+        <i class="fa fa-download 5x"></i>
+      </div>
       <div class="col-xs-10 col-md-10">
         <h2 id=gitlab-runner>GitLab Runner</h2>
         <p>To perform the actual build, you need to install GitLab Runner.</p>
+        <p>It can run on any platform for which you can build Go binaries, including Linux, OSX, Windows, FreeBSD and Docker.</p>
         <ul>
           <li><a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner"><b>Official GitLab Runner in Go with Docker support for Linux, OSX and Windows</b></a> (recommended)</li>
           <li><a href="https://github.com/nafg/gitlab-ci-runner-scala">Unofficial GitLab Runner for Scala/Java</a> (may miss features)</li>
@@ -121,62 +122,6 @@ extra_js:
         </ul>
       <div class="col-xs-1 col-md-2"></div>
       </div>
-    </div>
-
-    <hr class="divider" />
-
-    <div class="row requirements">
-      <div class="col-xs-1 col-md-1"></div>
-      <div class="col-md-3 hidden-xs hidden-sm">
-        <i class="fa fa-linux"></i>
-      </div>
-      <div class="col-xs-10 col-md-7">
-        <h2>Requirements</h2>
-        <h4>Tests can be run on many different platforms</h4>
-        <p>
-          Tests can be run on Unix, Windows, OSX, the JVM and more.
-          The tests are performed with GitLab Runner, see that section for all the options.
-        </p>
-        <h4>GitLab CI itself is officially supported on</h4>
-        <ul>
-          <li>Ubuntu</li>
-          <li>Debian</li>
-          <li>CentOS</li>
-          <li>Red Hat Enterprise Linux</li>
-          <li>Scientific Linux</li>
-          <li>Oracle Linux</li>
-        </ul>
-        <h4>GitLab CI hardware requirements</h4>
-        <ul>
-          <li>1GB of memory or more is recommended, 512MB works</li>
-          <li>2 CPU cores or more are recommended, 1 CPU core works</li>
-          <li>100MB of disk space</li>
-        </ul>
-      </div>
-      <div class="col-xs-6 col-md-1"></div>
-    </div>
-
-    <hr class="divider" />
-
-    <div class="row installation">
-      <div class="col-xs-1 col-md-1"></div>
-      <div class="col-md-3 hidden-xs hidden-sm">
-        <i class="fa fa-download 5x"></i>
-      </div>
-      <div class="col-xs-10 col-md-7">
-        <h2>Installation</h2>
-        <ul>
-          <li>
-            <a href="https://about.gitlab.com/downloads/"><b>Omnibus packages (recommended)</b></a> include GitLab, of which GitLab CI is a part of.
-          </li>
-          <li><a href="https://gitlab.com/gitlab-org/gitlab-ci/tree/master/doc/install">Manual installation guide</a></li>
-          <li><a href="https://github.com/sameersbn/docker-gitlab-ci">Unofficial Docker Image by Sameer Naik</a></li>
-          <li><a href="https://registry.hub.docker.com/u/anapsix/gitlab-ci/">Unofficial Docker Image by Anastas Dancha</a>
-          <li><a href="https://gitlab.com/gitlab-org/gitlab-development-kit">GitLab Development Kit</a> is recommended for development work</li>
-          <li>Use it for free on <a href="https://gitlab.com/">GitLab.com</a>. You will need to bring your own runner.</li>
-        </ul>
-      </div>
-      <div class="col-xs-1 col-md-1"></div>
     </div>
 
     <hr class="divider" />
