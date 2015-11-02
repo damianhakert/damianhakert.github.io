@@ -192,12 +192,17 @@ Do not store credentials in a shared folder if everyone has their own user accou
 <li>All access is noted in [a Google Sheet](https://docs.google.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit#gid=0) use this to request access, ping the relevant administrator after you updated the sheet</li>
 </ol>
 
-### Quiz<a name=#quiz></a>
-Employees should answer GitLab quiz questions in the first 2 weeks of working in the company. If the answers are not accurate, you may retest once: <a href="https://about.gitlab.com/handbook/questions/">GitLab Quiz.</a> Please schedule a call with your hiring manager.</li>
+### Quiz<a name="quiz"></a>
+Employees should answer GitLab quiz questions in the first 2 weeks of working in 
+the company. If the answers are not accurate, you may retest once: 
+<a href="https://about.gitlab.com/handbook/questions/">GitLab Quiz.</a> 
+Please schedule a call with your hiring manager.</li>
 
 ##Onboarding Topics for Developers<a name=#developers></a>
 Awesome! You're about to become a GitLab developer!
-Make sure you've checked out our [handbook](https://about.gitlab.com/handbook) beforehand, so you get a feeling of how we work at GitLab. Below you'll find everything you need to start developing.
+Make sure you've checked out our [handbook](https://about.gitlab.com/handbook) 
+beforehand, so you get a feeling of how we work at GitLab. Below you'll find 
+everything you need to start developing.
 If something is missing, add it (as goes with everything at GitLab)!
 
 ### GitLab instances
@@ -291,7 +296,7 @@ For everything related to operations, check out the [Operations handbook](https:
 [gitlab.com/subscribers/gitlab-ee]: https://gitlab.com/subscribers/gitlab-ee
 
 
-##Offboarding<a name=#offboarding></a>
+##Offboarding<a name="offboarding"></a>
 Create issue for former team member on the dev server in the organization project and add the following checklist.
 This list looks strange in this handbook but this is to ensure you can copy paste it into an issue.
 When you paste it in an issue it will have checkboxes that you can click to complete.
