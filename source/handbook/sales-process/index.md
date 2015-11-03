@@ -45,7 +45,7 @@ title: "Sales Process"
     * For each attempt, salesperson will change lead status field within lead to correspond to which attempt they have completed
     * On the 4th attempt and 10th business day, salesperson will send last email and move lead status to nurture.  In this stage marketing will continue to nurture lead back to a sales ready lead.
     * If lead is a Free Trial, Salesperson will convert lead to an opportunity immediately and pursue the opportunity.  Opportunity close date for Free Trails will be the expiration of their free trial.  Salesperson shall add Free Trial within the lead source field of the opportunity object.
-    * For Free Trial leads, Salesperson will follow nee lead outreach cadence and then weekly until trial expires.
+    * For Free Trial leads, Salesperson will follow the lead outreach cadence and then weekly outreach, until trial expires.
 
 1. Leads convert to opportunities once salesperson validates problem, we can solve and interest from buyer to pursue a solution.  These are called sales qualified leads.
 
