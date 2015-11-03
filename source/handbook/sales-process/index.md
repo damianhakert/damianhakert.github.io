@@ -30,17 +30,30 @@ title: "Sales Process"
 
 1. [Free GitLab workshop on Platzi (Job as trainer)](https://courses.platzi.com/courses/git-gitlab/)
 
-## Salesforce.com workflow
+## Marketing Lead Process
 
 1. All marketing leads added to salesforce.com as a lead object.  These are called marketing qualified leads.
 
-1. Leads convert to opportunities once salesperson validates problem and we can solve and interest from buyer.  These are called sales qualified leads.
+1. Leads will be assigned round-robin in both the US and International Regions, with the exception being large Enterprise leads (Fortune 500) assigned to Sr. Enterprise Account Managers.
+
+1. To ensure data integrity and a excellent customer experience, salesperson will conduct a quick search within Salesforce.com search field.  Salesperson will type in a portion of the account name and lead name.  Less is more when searching in Salesforce.com.
+    * If the lead already exists in Salesforce.com by either the same contact name or an account with the same business entity name, the salesperson will change ownership to the existing salesperson and add commentary to the chatter field within the lead object.
+
+1. If lead is unique, Salesperson will check https://version.gitlab.com before reaching out to prospect
+
+1.  Salesperson will attempt to contact lead 4 times with 10 business days. Attempt 1 - within 1 business day. Attempt 2 - 3rd business day. Attempt 3- 6th business day. Attempt 4 - 10th business day.
+    * For each attempt, salesperson will change lead status field within lead to correspond to which attempt they have completed
+    * On the 4th attempt and 10th business day, salesperson will send last email and move lead status to nurture.  In this stage marketing will continue to nurture lead back to a sales ready lead.
+    * If lead is a Free Trial, Salesperson will convert lead to an opportunity immediately and pursue the opportunity.  Opportunity close date for Free Trails will be the expiration of their free trial.  Salesperson shall add Free Trial within the lead source field of the opportunity object.
+    * For Free Trial leads, Salesperson will follow nee lead outreach cadence and then weekly until trial expires.
+
+1. Leads convert to opportunities once salesperson validates problem, we can solve and interest from buyer to pursue a solution.  These are called sales qualified leads.
 
 1. Upon lead conversion, salesperson checks to ensure the lead does not exist as an Account already.  If no, convert lead and an Account is created automatically.  If yes, salesperson selects "add to existing account".  An opportunity will be created under the existing account.  These are now part of the sales pipeline.
 
-1. Opportunities are created for renewals and upsells.
+1. Salesperson shall have a follow-up tasks for every open lead
 
-1. A follow-up tasks shall be made for every lead the salesperson is pursuing and for every open opportunity
+1. All leads should be in a lead status of nurture, disqualified or converted to an opportuity within 20 days of the lead being created.  
 
 ## Generating leads
 
