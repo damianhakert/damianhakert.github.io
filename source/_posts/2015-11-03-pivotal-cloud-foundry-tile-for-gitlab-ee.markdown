@@ -10,7 +10,7 @@ image_title: '/images/unsplash/FILENAME.jpg'
 
 Today we're excited to announce the Pivotal Cloud Foundry tile for Gitlab Enterprise Edition.
 With this partnership, developers will be able to easily deploy GitLab as a pre-configured
-appliance using Ops Manager (BOSH) FOR Pivotal Cloud Foundry.
+appliance using Ops Manager (BOSH) for Pivotal Cloud Foundry.
 
 <!-- more -->
 
