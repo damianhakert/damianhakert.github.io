@@ -4,9 +4,9 @@ title: "Contracts"
 ---
 * [Disclaimer](#disclaimer)
 * [Proprietary Information and Assignment Agreement](#PIAA)
-* [GitLab Inc employee offer letter](#inc-employee)
+* [GitLab Inc Employee Offer Letter](#inc-employee)
 * [GitLab BV employee offer letter](#bv-employee)
-* [GitLab Inc contractor agreement](#contractor)
+* [Independent Contractor Services Agreement](#contractor)
 
 ## Disclaimer <a name="disclaimer"></a>
 These agreements are examples of the agreements that we currently use at GitLab. However, the terms and conditions of  an employee or 
@@ -153,8 +153,69 @@ ___ See Below
 
        
        
-## GitLab Inc employee offer letter<a name="inc-employee"></a>
-Enter the GitLab Inc employee offer letter here, indicating optional clauses on stock options, double triggers, and commission.
+## GitLab Inc Employee Offer Letter<a name="inc-employee"></a>
+
+From: GitLab, Inc.  
+
+[Month Day, Year]  
+
+[Employee Name]  
+[Employee Address]  
+
+
+Dear [Employee Name],  
+
+GitLab Inc. (the “Company”) is pleased to offer you employment on the following terms:  
+
+**1\.Position**. You will serve in a [full-time/part-time] capacity as [Title]. Your start date will be [Month Day, Year]. You will report directly to [Manager Name], [Title]. By signing this letter agreement, you represent and warrant to the Company that you are under no contractual commitments inconsistent with your obligations to the Company. You will be responsible for [insert short job description here].  
+
+**2\.Salary**. You will be paid an annual base salary of $[Base salary] payable in semi-monthly installments in accordance with the Company’s standard payroll practices for salaried employees. This salary will be subject to adjustment pursuant to the Company’s employee compensation policies in effect from time to time. [OPTIONAL: In addition to your base salary you will be eligible to participate in additional incentive arrangements as set forth in the paragraphs below.]   
+
+**3\. [OPTIONAL COMMISSION (usually for Sales roles)] Commission**. You will be paid commission on a monthly basis based on the following criteria; payable on cash collection from the client. Initially you will be compensated at a rate of [x]% of cash received from the customer less any taxes, shipping, returns, refunds, chargebacks, third party commissions, etc. All terms, definitions, payments and obligations related to Commission shall be governed by the [2015 GitLab Sales Compensation Plan].  
+
+**4\. [OPTIONAL: STOCK]Stock Option Grant**. Subject to Board Approval you shall be granted an “incentive stock option” within the meaning of Section 422 of the Internal Revenue Code of 1986, as amended, to purchase [Number of Shares] shares of the Company’s common stock (the “Stock Option”), at an exercise price equal to the fair market value of the common stock on the date of grant pursuant to the terms and conditions of the Company’s 2015 Stock Plan (the “Stock Plan”), and the stock option agreement that is entered into hereunder evidencing the grant. Twenty-five percent (25%) of the Stock Option grant shall vest and become exercisable 12 months after the Effective date of this agreement and the remainder of the Stock Option grant shall vest and become exercisable in 36 consecutive, equal, monthly installments such that the Stock Option shall be fully vested and exercisable as of the fourth anniversary of the date of grant, provided Employee remains a service provider to the Company continuously through such date.  
+
+**5\. Benefits**. During your employment, you will be entitled to participate in and to receive benefits from all present medical, vision, dental and 401(k) benefits made available to employees. The amount and extent of these benefits, including employee-paid premiums, co-payments and deductibles, shall be governed by the specific benefit plan, as it may be amended from time to time. You will be eligible for health benefits beginning on the first day of the next month of employment with the Company. You will be eligible to participate in the Company’s 401(k) plan; the Company does not currently offer 401(k) matching.  
+
+**6\. Proprietary Information and Inventions Agreement**. Like all Company employees, you will be required, as a condition to your employment with the Company, to sign the Company’s standard Proprietary Information and Assignment Agreement, a copy of which is attached hereto.  
+
+**7\. Period of Employment**. Your employment with the Company will be “at will,” meaning that either you or the Company will be entitled to terminate your employment at any time and for any reason, with or without cause. Any contrary representations which may have been made to you are superseded by this offer. This is the full and complete agreement between you and the Company on this term. Although your job duties, title, compensation and benefits, as well as the Company’s personnel policies and procedures, may change from time to time, the “at will” nature of your employment may only be changed in an express written agreement signed by you and the Chief Executive Officer of the Company.  
+
+**8\. Outside Activities**. While you render services to the Company, you will not engage in any other gainful employment, business or activity without the written consent of the Company. While you render services to the Company, you also will not assist any person or organization in competing with the Company, in preparing to compete with the Company or in hiring any employees of the Company.  
+
+**9\. Withholding Taxes**. All forms of compensation referred to in this letter are subject to reduction to reflect applicable withholding and payroll taxes.  
+
+**10\. Entire Agreement**. This letter and the Exhibit attached hereto contain all of the terms of your employment with the Company and supersede any prior understandings or agreements, whether oral or written, between you and the Company.  
+
+**11\. Amendment and Governing Law**. This letter agreement may not be amended or modified except by an express written agreement signed by you and a duly authorized officer of the Company. The terms of this letter agreement and the resolution of any disputes will be governed by California law.  
+
+We hope that you find the foregoing terms acceptable. You may indicate your agreement with these terms and accept this offer by signing and dating this letter as well as the enclosed Proprietary Information and Assignment Agreement and returning them to me.  
+
+As required by law, your employment with the Company is also contingent upon your providing legal proof of your identity and authorization to work in the United States. This offer, if not accepted, will expire at the close of business on [Month, Day, Year].  
+
+We look forward to having you join us.  
+
+**I have read and accept this employment offer:**
+
+Signature:  
+
+Dated:   
+
+Name:  
+
+
+**On behalf of GitLab:**  
+
+Signature:  
+
+Dated:   
+
+Signature of:[GitLab Authorized Signatory] 
+
+
+**Attached**  
+Proprietary Information and Assignment Agreement
+
 
 ## GitLab BV employee offer letter<a name="bv-employee"></a>
 Enter the GitLab BV employee offer letter here (in Dutch?). How does this deal with stock options?
@@ -385,5 +446,4 @@ Signature:
 Name:   
 Title:   
 Date:   
-Address for Notices:  
-
+Address for Notices:
