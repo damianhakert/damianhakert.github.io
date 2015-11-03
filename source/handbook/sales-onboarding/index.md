@@ -13,7 +13,7 @@ title: "Sales Onboarding"
 
 1. [Our Email Templates](https://docs.google.com/document/d/12X6Cvjwe_jvFi41gvXMLlq91lDgh5oSrRFdQEuEwhl8/edit#heading=h.ulpke0bgadag)
 
-1. [Battlecards](https://docs.google.com/document/d/1zRIvk4CaF3FtfLfSK2iNWsG-znlh64GNeeMwrTmia_g/edit)
+1. [Comparison page on our website](https://about.gitlab.com/comparison/)
 
 1. Our [Basic](https://docs.google.com/a/gitlab.com/document/d/19sjaBytIQeyIiyjXvFpM6QXTDdZNUTO_tQLowlIT_c4/edit), [Standard](https://docs.google.com/document/d/10Ur4nkiyr-qSdgDEVhFkLsoz5RPven8T-1eFmWY26bQ/edit) and Plus Subscription quotes
 
