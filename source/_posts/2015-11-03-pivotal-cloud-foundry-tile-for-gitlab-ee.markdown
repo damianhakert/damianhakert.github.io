@@ -5,7 +5,7 @@ date: 2015-11-03
 comments: true
 author: GitLab
 author_twitter: gitlab
-image_title: '/images/unsplash/FILENAME.jpg'
+image_title: '/images/unsplash/fall.jpg'
 ---
 
 Today we're excited to announce the [Pivotal Cloud Foundry](https://pivotal.io/platform/press-release/go-from-idea-to-production-in-less-than-a-day) tile for Gitlab Enterprise Edition.
@@ -34,4 +34,4 @@ Foundry environment.
 ![Configure GitLab's Redis in Pivotal Cloud Foundry](/images/pcf/configure3.png)
 
 As enterprise developers seek more control of their development toolkit, this partnership 
-will allow their development to be more customizable, more integrated, and more secure. 
+will allow their development to be more customizable, more integrated, and more secure.
