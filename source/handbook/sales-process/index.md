@@ -85,13 +85,11 @@ Everything about [lincenses and EE access](/handbook/sales-process/licenses).
 
 ## Sales Ordering Process
 
-### Recurly orders
+### Web Direct orders via Recurly
 
 1. Order comes in via email from recurly and will always have an invoice # on it.
 1. Customer subscribes via Recurly (this happens automatically via the online credit card order form)
-1. Check to see if Streak Box exists (or not) by clicking on the orange box in the Gmail horizontal toolbar and searching for the company as shown on the Recurly invoice. If one already exists, then scroll to the company and click ‘Add to existing box’. If one does not exist, create a new box for the name on the invoice and click ‘Create new Box named’.
-1. Add customer to sales sheet (include Recurly invoice date and invoice #). Hand enter every cell.
-1. Add customer to [Mailchimp GitLab Newsletter list](https://us5.admin.mailchimp.com/lists/members/add?id=107301) (Customer automatically subscribed to Mailchimp Subscribers List) Need to use login/pw which is found in LP. Need customer first and last name, company name and email when you go there.
+1. Sales Admin to check to see if Salesforce.com record already exists (or not) by searching for the company as shown on the Recurly invoice within the search field of Salesforce.com. If an account already exists, then add an opportunity to the account. If one does not exist, create a new account, contact and opportunity for the name on the invoice.
 1. If standard subscriber: (note - you must have their gitlab.com user name to add them to the subscribers group. You must ask the customer for their user name)
     * Add to subscribers group (to add subscribers, you need access)
       1. Click the green button to the right “Add members”
@@ -100,7 +98,7 @@ Everything about [lincenses and EE access](/handbook/sales-process/licenses).
       1. Then go down to the next field next to Group Access where the default access level is Guest. Click on the field and select Developer from the options
       1. Then click the green button immediately below “Add users to group”
     * Send onboarding email. If basic subscriber, do not add.
-1. Generate license keys
+1. Generate license keys - the license key should be auto-generated.  If not, follow these steps:
     * Go to https://license.gitlab.com
     * Select the sign in with gitlab green button
     * Select the New License green button
@@ -114,21 +112,14 @@ Everything about [lincenses and EE access](/handbook/sales-process/licenses).
       1. Return to https://license.gitlab.com
       1. Paste the subscription ID (what you just copied from the URL) into the Recurly Subscription ID field (box)
       1. Select the Make license from Recurly subscription button
-1. Mark deal as PO (deal won) in Streak **(the above steps must be completed, make a deal if none exist)**
-1. If end of month, OK to add deal value of unprocessed deals with PO received to the top of agenda for reporting purposes
-1. Make a task for the follow up (if needed)
-1. Inform team during team call if any of the new orders are notable customers
+1. Task created for Account Owner to reach out to new client, thanking them for their business and asking for time to learn more about their initiatives for account development opportunities and to ensure their experience is great.
 
-### Bank Transfer
+### Invoiced Clients - Bank Transfer
 
 1. Sales receives an order (one of the three options):
     * a Purchase Order (PO) issued by the company
     * a signed quote (the quote that we sent).
     * an e-mail agreement (“we accept the quote/subscription/etc”) or any other written statement. If order is a signed quote or written agreement, email and ask if there is a PO pending and get the PO number
-1. Add customer to Mailchimp Subscribers list
-    * NOTE: if customer signed up through Recurly, they are automatically added to the Subscribers list)
-    * Or, if customer is a renewal, you can skip this step and the next which is to add them to the newsletter)
-1. Add customer to Mailchimp GitLab Newsletter list
 1. Send invoice to customer with one of the two onboarding emails or a renewal email Forward Recurly invoice to customer as safeguard against going to spam. Also reinterate to sign up on GitLab.com and send user name.
 1. PROCESS for bank transfer renewals with PO received before renewal date:
   1. Create a one-off invoice in Recurly and send to customer:
@@ -136,10 +127,7 @@ Everything about [lincenses and EE access](/handbook/sales-process/licenses).
     1. Charges and credits area -> add charge;
     1. In the description, write the exact name of the subscription plan;
   1. Update subscription to start one year from current renewal time
-1. Add customer to sales sheet (include invoice date and nr.)
 1. If standard subscriber, add to subscribers group
-1. Generate license keys
-1. Mark opportunity as PO (deal won) in Streak **(the above steps must be completed, make an opportunity if none exist)**
-1. If end of month, OK to add deal value of unprocessed deals with PO received to the top of agenda for reporting purposes
-1. Make a task for the follow up (if needed)
-1. Inform team during team call if any of the new orders are notable customers
+1. License keys auto-generated
+1. Sales Admin to check to see if Salesforce.com record already exists (or not) by searching for the company as shown on the Recurly invoice within the search field of Salesforce.com. If an account already exists, then add an opportunity to the account. If one does not exist, create a new account, contact and opportunity for the name on the invoice.
+1. Task created for Account Owner to reach out to new client, thanking them for their business and asking for time to learn more about their initiatives for account development opportunities and to ensure their experience is great.
