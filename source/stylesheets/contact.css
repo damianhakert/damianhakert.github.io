@@ -50,3 +50,49 @@ p {
   height: 25px !important;
   padding-top: 5px !important;
 }
+
+.newsletter-afterword {
+  margin-top: 12px;
+}
+
+/* Override some Marketo form styles */
+.mktoAsterix, .mktoLabel {
+  display: none !important;
+}
+
+.mktoForm {
+  margin: 0 auto;
+  width: 220px;
+}
+
+.mktoFormCol {
+  margin-bottom: 0 !important;
+}
+
+.mktoFieldWrap {
+  float: none !important;
+}
+
+.mktoButtonWrap {
+  margin: 0 !important;
+}
+
+.mktoGutter, .mktoOffset {
+  width: 0 !important;
+}
+
+.mktoField, .mktoButton {
+  width: 220px !important;
+}
+
+.mktoButton {
+  background-color: #887AB6 !important;
+  background-image: none !important;
+  border: none !important;
+  color: #FFF !important;
+}
+
+.mktoButton:hover {
+  background-color: #6654A1 !important;
+  color: #FFF !important;
+}
