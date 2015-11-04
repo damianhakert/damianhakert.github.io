@@ -8,7 +8,7 @@ author_twitter: gitlab
 image_title: '/images/unsplash/fall.jpg'
 ---
 
-Today we're excited to announce the [Pivotal Cloud Foundry](https://pivotal.io/platform/press-release/go-from-idea-to-production-in-less-than-a-day) tile for Gitlab Enterprise Edition.
+Today we're excited to announce the [Pivotal Cloud Foundry](https://pivotal.io/platform/press-release/go-from-idea-to-production-in-less-than-a-day) tile for GitLab Enterprise Edition.
 With this partnership, developers will be able to easily deploy GitLab as a pre-configured
 appliance using Ops Manager (BOSH) for Pivotal Cloud Foundry.
 
@@ -33,5 +33,5 @@ Foundry environment.
 
 ![Configure GitLab's Redis in Pivotal Cloud Foundry](/images/pcf/configure3.png)
 
-As enterprise developers seek more control of their development toolkit, this partnership 
+As enterprise developers seek more control of their development toolkit, this partnership
 will allow their development to be more customizable, more integrated, and more secure.
