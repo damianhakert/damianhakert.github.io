@@ -26,3 +26,4 @@ title: "Sales Onboarding"
 
 1. [Giving a GitLab demo](https://about.gitlab.com/handbook/demo/)
 
+1. [Frequently Asked Sales Questions](https://about.gitlab.com/handbook/sales-faq)
