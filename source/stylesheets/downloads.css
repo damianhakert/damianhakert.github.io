@@ -7,6 +7,10 @@ body {
   margin-bottom: 70px;
 }
 
+.pack-fox {
+  margin: 0 auto;
+}
+
 .btn-default {
   background-color: #7769A0;
   border-color: #7769A0;
@@ -84,4 +88,30 @@ pre {
 
 .tab-step a {
   color: #FFB800;
+}
+
+.newsletter-preamble {
+  margin: 20px 5px;
+}
+
+/* Override some Marketo form styles */
+.mktoAsterix {
+  display: none !important;
+}
+
+.mktoFieldDescriptor {
+  margin-bottom: 0 !important;
+}
+
+.mktoForm,
+.mktoFormCol,
+.mktoFieldWrap,
+.mktoField,
+.mktoButtonRow,
+.mktoButton {
+  width: 100% !important;
+}
+
+.mktoOffset, .mktoGutter {
+  width: 0 !important;
 }
