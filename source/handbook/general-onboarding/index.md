@@ -21,37 +21,37 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 ```
 ### BEFORE STARTING AT GITLAB
 
-* [ ] HR: Create issue called 'Onboard Jane Doe starting March 26' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master checklist, paste the private email address of the hire in there and /cc Jacob, Patricio and CEO.
+* [ ] People Ops: Create issue called 'Onboard Jane Doe starting March 26' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master checklist, paste the private email address of the hire in there and /cc Jacob, Patricio and CEO.
 * [ ] Hiring manager: cc new team member on the issue once they have a dev.GitLab.org account.
 * [ ] Jacob/CEO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
 * [ ] Jacob/CEO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 * [ ] Hiring manager: send an email to company address 'Please read https://about.gitlab.com/handbook/ and the relevant onboarding pages that are linked from there and let me know if you have any questions.'
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), and become comfortable with Git and the GitLab workflow.
-* [ ] New team member: provide signed contract to HR.
-* [ ] New team member: provide scan of photo ID to HR.
-* [ ] New team member: provide signed PIAA (proprietary information and assignment agreement) to HR.(US employees have a PIAA included in their contract)
-* [ ] HR: file signed PIAA, contract, and photo ID in Dropbox and confirm receipt by commenting in the issue.
+* [ ] New team member: provide signed contract to People Ops.
+* [ ] New team member: provide scan of photo ID to People Ops.
+* [ ] New team member: provide signed PIAA (proprietary information and assignment agreement) to People Ops.(US employees have a PIAA included in their contract)
+* [ ] People Ops: file signed PIAA, contract, and photo ID in Dropbox and confirm receipt by commenting in the issue.
 * [ ] Jacob/CEO: Add to Slack
-* [ ] HR: Send email to new hire and buddy introducing them "We expect you to be resourceful but your buddy is here to help you get up to speed quickly.". Buddy is a junior that performs a similar job.
+* [ ] People Ops: Send email to new hire and buddy introducing them "We expect you to be resourceful but your buddy is here to help you get up to speed quickly.". Buddy is a junior that performs a similar job.
 
 ### WITHIN TWO DAYS OF STARTING
 
 #### For GitLab Inc employees only
 
-* [ ] HR: complete and submit an online Add New Hire Form (TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the welcome email to the employee at their work email on their first date of hire.
+* [ ] People Ops: complete and submit an online Add New Hire Form (TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the welcome email to the employee at their work email on their first date of hire.
 * [ ] New employee: complete [New Hire TriNet Passport 7 Steps Guide](https://docs.google.com/a/gitlab.com/document/d/1CFIyByd1Kgmz5353_aASVI1D8QTyJ2Uy60ziQHEPTUI/edit?usp=sharing). The I-9 portion of this must be completed with the first two days of hire. Note- this is critical so you must contact HR@gitlab.com if you have difficulty with this form.
 * [ ] New employee: submit a completed [New Employee Personal Information Form](https://docs.google.com/a/gitlab.com/document/d/1oK_-me8inC6pyODjITxMHiq5C5NC88xQw6cwUBU5g1g/edit?usp=sharing) to HR@gitlab.com
 * [ ] New employee: read through the [New Hire Benefits Guide](https://drive.google.com/a/gitlab.com/file/d/0B0dixQ9qzgilNlN0MnNFS29xWnB2SjNWVUk3dUV2aWlhejVR/view?usp=sharing). This will go over medical, dental, vision and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
-* [ ] HR: Set up new hire training with TriNet (If necessary).
+* [ ] People Ops: Set up new hire training with TriNet (If necessary).
 
 #### For GitLab BV employees only
 
-* [ ] New employee: provide HR with your BSN (burger service nummer), bank account information (IBAN code), the basics (name, address, date of birth), and if you are based in the Netherlands, please indicate whether you want "loonheffingskorting" to be applied or not.
+* [ ] New employee: provide People Ops with your BSN (burger service nummer), bank account information (IBAN code), the basics (name, address, date of birth), and if you are based in the Netherlands, please indicate whether you want "loonheffingskorting" to be applied or not.
 
 #### For All New Team Members
 
-* [ ] HR: Add new employees to [Inc payroll](https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl) or [BV payroll](https://docs.google.com/document/d/1g6nZ7w1RqkSvD6VbyuRPauDTUuyTp4mDaHrUY2UVY-A/edit).
-* [ ] Operations: reach out to the new team member to identify and order any necessary supplies/equipment
+* [ ] People Ops: Add new employees to [Inc payroll](https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl) or [BV payroll](https://docs.google.com/document/d/1g6nZ7w1RqkSvD6VbyuRPauDTUuyTp4mDaHrUY2UVY-A/edit).
+* [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment
 * [ ] Patricio/Jacob/CEO: Add to tweetdeck
 * [ ] Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar or stock photo).
 
@@ -62,10 +62,10 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] Jacob/CEO: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] Jacob/CEO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] Hiring manager: Invite to team meeting
-* [ ] HR: Send [People Information sheet](https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0) and instruct to return answers via email or slack
-* [ ] HR: [Add to Lastpass](https://lastpass.com/enterprise_create.php) and create folder for new hire in Lastpass
-* [ ] HR: Put People Information into Profiles in Lastpass
-* [ ] HR: Set up meeting with new team member on day 3 or 4 to any questions that remain. New team member should have gone through handbook and guide meeting with specific questions after having reviewed onboarding process.
+* [ ] People Ops: Send [People Information sheet](https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0) and instruct to return answers via email or slack
+* [ ] People Ops: [Add to Lastpass](https://lastpass.com/enterprise_create.php) and create folder for new hire in Lastpass
+* [ ] People Ops: Put People Information into Profiles in Lastpass
+* [ ] People Ops: Set up meeting with new team member on day 3 or 4 to any questions that remain. New team member should have gone through handbook and guide meeting with specific questions after having reviewed onboarding process.
 * [ ] New team member: Login to Lastpass and set up secure passwords per the handbook (insert link to security section on how to use LP).
 * [ ] Business Office manager: Add Bluejeans account (if necessary)
 * [ ] Business Office manager: Add to GitLab Dropbox
@@ -79,8 +79,8 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 
 * [ ] Finance: Add to Comerica (as user or viewer only if in Finance)
 * [ ] Finance: Add to [QuickBooks users](https://about.gitlab.com/handbook/hiring/) (finance only)
-* [ ] HR: Order company credit card (for all sales team members who are employees)
-* [ ] HR: If credit card holder, add to expense report calendar reminder
+* [ ] People Ops: Order company credit card (for all sales team members who are employees)
+* [ ] People Ops: If credit card holder, add to expense report calendar reminder
 * [ ] Hiring Manager: Add to [Recurly](https://app.recurly.com/login)
 * [ ] Hiring Manager: Add to  [Salesforce]
 * [ ] New team member: Ask a colleague if they can do a screenshare the next time they process an order using Recurly and Salesforce.
@@ -288,7 +288,7 @@ For everything related to operations, check out the [Operations handbook](https:
 
 
 ##Offboarding<a name="offboarding"></a>
-Create issue for former team member on the dev server in the organization project and add the following checklist.
+Create issue for former team member on the dev server in the organization project and add the following checklist (edit it for applicability to the individual).
 This list looks strange in this handbook but this is to ensure you can copy paste it into an issue.
 When you paste it in an issue it will have checkboxes that you can click to complete.
 
@@ -297,14 +297,20 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 * [ ] Jacob/CEO: delete Google account, firstname@gitlab.com or initial(s)@gitlab.com
 * [ ] Manager/CEO: inform former team member that Google account has been removed by emailing to their personal email address.
 * [ ] Jacob/CEO: delete from Slack
-* [ ] HR: remove former team member from TriNet and payroll.
+* [ ] People Ops: remove former team member from TriNet and payroll if applicable.
 * [ ] Operations: reach out to former team member to identify and retrieve any company supplies/equipment.
 * [ ] Jacob/CEO: Remove former team members' Gitlab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] Jacob/CEO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
-* [ ] HR: Anything to be done in LastPass? 
+* [ ] People Ops: Remove team member access to LastPass.
+* [ ] People Ops: Remove team member access to Dropbox.
+* [ ] Manager/CEO: Remove access to SalesForce.
+* [ ] Manager/CEO: Remove access to Recurly.
+* [ ] Manager/CEO: Remove access to Quickbooks.
+* [ ] Business Office manager: Remove access to company credit card if applicable.
 * [ ] Business Office manager: remove from Beamy
-* [ ] CEO: Remove team member from the GitLab availability calendar and team call invitation.
+* [ ] CEO: Remove team member from the GitLab availability calendar.
+* [ ] CEO: remove team member from team call invitation.
 * [ ] Patricio/Jacob/CEO: Remove from tweetdeck
 * [ ] COO: Note final date of employment / contract in the [Organizational Chart and Hiring](https://docs.google.com/spreadsheets/u/1/d/1Ru1hUAlF2Z2D2ILDzzqdmOGFbzov6eDSqSwHdM6buzQ/edit?usp=sheets_home) sheet.
-* [ ] HR: Remove team member from [team page](https://about.gitlab.com/team)
+* [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team)
 ```
