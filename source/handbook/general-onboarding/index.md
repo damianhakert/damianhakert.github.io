@@ -287,7 +287,7 @@ For everything related to operations, check out the [Operations handbook](https:
 [gitlab.com/subscribers/gitlab-ee]: https://gitlab.com/subscribers/gitlab-ee
 
 
-##Offboarding<a name="offboarding"></a>
+## Offboarding<a name="offboarding"></a>
 Create issue for former team member on the dev server in the organization project and add the following checklist (edit it for applicability to the individual).
 This list looks strange in this handbook but this is to ensure you can copy paste it into an issue.
 When you paste it in an issue it will have checkboxes that you can click to complete.
