@@ -176,6 +176,13 @@ and there is no estimated time when it will ship.
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
+***Update (2015-10-27):*** When we [released GitLab 8.0 last month], we promised
+to automatically remove the satellites directory in 8.1. This seems to have
+slipped our minds for the official 8.1 release, but we included it in the 8.1.2
+patch release. See [the release post] for more information.
+
+[released GitLab 8.0 last month]: https://about.gitlab.com/2015/09/22/gitlab-8-0-released/
+[the release post]: https://about.gitlab.com/2015/10/27/gitlab-8-dot-1-dot-2-released/
 
 ## Upgrade barometer
 
