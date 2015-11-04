@@ -71,8 +71,7 @@ I do like to do these things, but it's probably best if someone takes over.
 - ~~Maintain Google Analytics, Mixpanel~~ => Ashley
 - ~~Ownership of Google Ads~~ => Ashley
 - ~~Ownership of Twitter Ads~~ => Ashley
-- Interview candidates for Interaction Engineer + Designer positions
 - Maintain CF Tile
-- Maintain the mailinglists + automation
-- Give trainings to customers
+- ~~Maintain the mailinglists + automation~~ => Ashley / Marketing Automation eng.
+- Give trainings to customers in EMEA
 - Maintain automations (Slack, Notifiers, Zendesk)
