@@ -39,10 +39,18 @@
 }
 
 #consultancy-form {
-  background-color: #fff;
-  min-height: 2200px;
+  background-color: #272120;
 }
 
 .wrapper {
   background-color: #272120;
+}
+
+.centered-form {
+  margin: 2em auto;
+  width: 500px;
+}
+
+.mktoLabel {
+  color: #fff;
 }
