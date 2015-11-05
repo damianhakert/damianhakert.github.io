@@ -188,6 +188,10 @@ h1, h2, h3, h4, h5, button, a {
   background: #fff;
 }
 
+.subscription .detail-spacer {
+  height: 86px;
+}
+
 .subscription .detail .body {
   display: inline-block;
   position: relative;
