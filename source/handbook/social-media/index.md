@@ -7,7 +7,7 @@ title: "Social Media"
 1. Favorite tweets which include positive comments about GitLab or articles
 mentioning GitLab in a positive way.
 
-1. Thank users' feedback and comments.
+1. Thank users for feedback and comments with @mentions like: 'Thank you', 'Glad to hear that', 'You're welcome'.
 
 1. Tweets about feature requests: ask the user to add them to GitLab's
 [Feature Request Forum](http://feedback.gitlab.com/forums/176466-general)
