@@ -85,6 +85,6 @@ in the 'Project view' dropdown.
 ## Documentation
 
 We hope these new user preferences allow users to customize GitLab in a way that
-best fits their daily use. See the [GitLab 8.1 release post](../../../2015/10/22/gitlab-8-1-released/)
+best fits their daily use. See the [GitLab 8.1 release post](https://about.gitlab.com/2015/10/22/gitlab-8-1-released/)
 for information on upgrading so you can take advantage of these features today.
 Users on GitLab.com can take advantage of these features immediately.
