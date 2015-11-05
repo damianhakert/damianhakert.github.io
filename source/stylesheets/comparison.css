@@ -166,3 +166,9 @@ ol li {
   float: left;
   width: 100%;
 }
+
+.note-on-content {
+  font-size: 14px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.51);
+}
