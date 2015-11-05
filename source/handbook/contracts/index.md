@@ -265,7 +265,7 @@ Contributor’s relationship with GitLab will be that of an independent contract
 
 **11.8 Attorney's Fees**. If an action is brought to interpret or enforce the terms of this Agreement, the prevailing party will be entitled to recover from the non-prevailing party, in addition to all other remedies at law and equity, all costs and expenses incurred by the prevailing party with respect to such action, including but not limited to attorneys’ fees, costs and disbursements.  
 
-###Signature Page  
+### Signature Page  
 
 IN WITNESS WHEREOF, the parties hereto have caused this Independent Contractor 
 Services Agreement to be duly executed as of the first date written above.  
@@ -302,7 +302,7 @@ Attachments:
 * Proprietary Information and Assignment Agreement  
   
   
-###EXHIBIT A
+### EXHIBIT A
 **STATEMENT OF WORK and PROJECT SCHEDULE**  
 
 1\. Title of Project: {Title of project}  
@@ -371,7 +371,7 @@ E-Mail:
 
 
 
-###EXHIBIT B
+### EXHIBIT B
 **COMPENSATION AMOUNT AND PAYMENT SCHEDULE**  
 
 **Cash compensation**:  
@@ -403,7 +403,7 @@ exercisable as of the fourth anniversary of the date of grant, provided Contribu
 remains a service provider to the Company continuously through such date.  
 
 
-###EXHIBIT C
+### EXHIBIT C
 **CONTRIBUTOR TERMINATION CERTIFICATION**   
 
 This is to certify that Contributor does not have in its possession or control, 
@@ -428,7 +428,7 @@ Print Name:  {Name of Contributor}
 Date:  
 
 
-###EXHIBIT D
+### EXHIBIT D
 **SUBSEQUENT STATEMENT OF WORK No.{NUMBER}**  
 
 This Subsequent Statement of Work is incorporated by reference in the Independent Contractor Services Agreement between GitLab and {Name of Contributor} (“Contributor”) having an Effective Date of {DATE OF ORIGINAL AGREEMENT} (the “Agreement”). It sets forth work tasks, deliverable work product, dates for completion of work and delivery of work product, and payment schedule and terms. This Subsequent Statement of Work is subject to the provisions of the Agreement, including, without limitation, the ownership by GitLab of all rights, title, and interest in intellectual property arising in performance of this Subsequent Statement of Work. Any capitalized terms used but not defined in this Exhibit D, retain the same meaning given them in the Agreement.  
@@ -458,7 +458,7 @@ Date:
 Address for Notices:
 
 
-##PROPRIETARY INFORMATION AND ASSIGNMENT AGREEMENT  <a name="PIAA"></a>
+## PROPRIETARY INFORMATION AND ASSIGNMENT AGREEMENT  <a name="PIAA"></a>
 
 
 This **Proprietary Information and Assignment Agreement** (“Agreement”) is made 
@@ -570,7 +570,7 @@ This Agreement, including all rights and assignments granted by Contributor unde
   
 
 
-###Signature Page
+### Signature Page
 
 IN WITNESS WHEREOF, the parties have caused this Agreement to be duly executed on the day and date first written above.  
 
