@@ -698,26 +698,6 @@ article {
   font-weight: 600;
 }
 
-.newsletter span {
-  float: left;
-  line-height: 38px;
-  font-size: 1.7rem;
-  font-weight: 600;
-}
-
-.newsletter .mc-field-group {
-  display: inline-block;
-}
-
-.newsletter .newsletter-form {
-  width: auto;
-  float: right;
-}
-
-.newsletter .sbmc {
-  width: 100px;
-}
-
 /* Footer
 -------------------------------------------------- */
 #footer {
