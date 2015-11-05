@@ -83,8 +83,8 @@ We very much welcome contributions that implement any of these things.
 
 ### CE
 
-- Move issues between projects
-- Reduce exceptions (so that exception notifications become usable)
+- [Move issues between projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/3024)
+- Reduce hte number of exceptions (mostly catching background jobs errors before they trigger a 500)
 - [Allow cross server merge requests](http://feedback.gitlab.com/forums/176466-general/suggestions/5097708-implement-cross-server-federated-merge-requests) (paste url when making a new MR)
 - [Code search in groups](https://dev.gitlab.org/gitlab/gitlabhq/issues/841)
 - [Time tracking](https://dev.gitlab.org/gitlab/gitlabhq/issues/2192)
