@@ -17,49 +17,119 @@ valid as such and do not replace personalized signed agreements.
 
 ## How to use this page to prepare a contract <a name="how-to-use"></a>
 Assuming that the [hiring process](https://about.gitlab.com/handbook/hiring/) went smoothly, now it is time to prepare the applicable contracts. 
-The following set of steps should suffice
-copy the relevant contracts to a Word or Google Doc (Word does a better job of retaining formatting). 
-Remember that regardless of the status of the new team member, i.e. contractor or employee for either GitLab Inc., or GitLab BV 
+The following set of steps should suffice:
+
+1. Copy the relevant contracts to a single Word or Google Doc (Word does a better job of retaining formatting). 
+  * NOTE: Remember that regardless of the status of the new team member, i.e. contractor or employee for either GitLab Inc., or GitLab BV, 
+  a PIAA must be included with the contract.
+  * Further formatting tips once it is in Word:
+     * select all, and decrease font size a few times until everything looks more reasonable. 
+     * Insert page breaks for Signature pages and Exhibits, and between contract and PIAA.
+1. Find all fields with curly brackets (` { } `), and edit as appropriate. It is often efficient 
+to do a find + replace on fields that appear multiple times such as names, email 
+addresses, etc. (fields are named the same in the contracts / PIAA to make this easier).
+1. When removing optional clauses, take care that the paragraph / section numbering still makes sense (especially for the GitLab Inc offer letter).
+1. Save newly created contract + PIAA (or offer letter + PIAA), and process via HelloSign (also see [how to get legal documents signed](https://about.gitlab.com/handbook/#signing-legal-documents) ).
+
+   
        
 ## GitLab Inc Employee Offer Letter<a name="inc-employee"></a>
 
 From: GitLab, Inc.  
 
-[Month Day, Year]  
+{Today's Date}  
 
-[Employee Name]  
-[Employee Address]  
+{Name of Contributor}  
+{Address of Contributor}  
 
 
-Dear [Employee Name],  
+Dear {Name of Contributor},  
 
 GitLab Inc. (the “Company”) is pleased to offer you employment on the following terms:  
 
-**1\.Position**. You will serve in a [full-time/part-time] capacity as [Title]. Your start date will be [Month Day, Year]. You will report directly to [Manager Name], [Title]. By signing this letter agreement, you represent and warrant to the Company that you are under no contractual commitments inconsistent with your obligations to the Company. You will be responsible for [insert short job description here].  
+**1\.Position**. You will serve in a {full-time/part-time} capacity as {Title of 
+Contributor}. Your start date will be {Start Date}. You will report directly to 
+{GitLab Manager Name}, {GitLab Manager Title}. By signing this letter agreement, you represent and 
+warrant to the Company that you are under no contractual commitments inconsistent 
+with your obligations to the Company. You will be responsible for {Short task description link to job description webpage whenever possible}.  
 
-**2\.Salary**. You will be paid an annual base salary of $[Base salary] payable in semi-monthly installments in accordance with the Company’s standard payroll practices for salaried employees. This salary will be subject to adjustment pursuant to the Company’s employee compensation policies in effect from time to time. [OPTIONAL: In addition to your base salary you will be eligible to participate in additional incentive arrangements as set forth in the paragraphs below.]   
+**2\.Salary**. You will be paid an annual base salary of ${Base Comp} payable in 
+semi-monthly installments in accordance with the Company’s standard payroll practices 
+for salaried employees. This salary will be subject to adjustment pursuant to the 
+Company’s employee compensation policies in effect from time to time. 
+{OPTIONAL: In addition to your base salary you will be eligible to participate in 
+additional incentive arrangements as set forth in the paragraphs below.}   
 
-**3\. [OPTIONAL COMMISSION (usually for Sales roles)] Commission**. You will be paid commission on a monthly basis based on the following criteria; payable on cash collection from the client. Initially you will be compensated at a rate of [x]% of cash received from the customer less any taxes, shipping, returns, refunds, chargebacks, third party commissions, etc. All terms, definitions, payments and obligations related to Commission shall be governed by the [2015 GitLab Sales Compensation Plan].  
+**3\. {OPTIONAL COMMISSION (usually for Sales roles)} Commission**. You will be 
+paid commission on a monthly basis based on the following criteria; payable on 
+cash collection from the client. Initially you will be compensated at a rate of 
+[x]% of cash received from the customer less any taxes, shipping, returns, refunds, 
+chargebacks, third party commissions, etc. All terms, definitions, payments and 
+obligations related to Commission shall be governed by the 2015 GitLab Sales Compensation Plan.  
 
-**4\. [OPTIONAL: STOCK]Stock Option Grant**. Subject to Board Approval you shall be granted an “incentive stock option” within the meaning of Section 422 of the Internal Revenue Code of 1986, as amended, to purchase [Number of Shares] shares of the Company’s common stock (the “Stock Option”), at an exercise price equal to the fair market value of the common stock on the date of grant pursuant to the terms and conditions of the Company’s 2015 Stock Plan (the “Stock Plan”), and the stock option agreement that is entered into hereunder evidencing the grant. Twenty-five percent (25%) of the Stock Option grant shall vest and become exercisable 12 months after the Effective date of this agreement and the remainder of the Stock Option grant shall vest and become exercisable in 36 consecutive, equal, monthly installments such that the Stock Option shall be fully vested and exercisable as of the fourth anniversary of the date of grant, provided Employee remains a service provider to the Company continuously through such date.  
+**4\. {OPTIONAL: STOCK}Stock Option Grant**. Subject to Board Approval you shall 
+be granted an “incentive stock option” within the meaning of Section 422 of the 
+Internal Revenue Code of 1986, as amended, to purchase {Number of Shares} shares 
+of the Company’s common stock (the “Stock Option”), at an exercise price equal to 
+the fair market value of the common stock on the date of grant pursuant to the 
+terms and conditions of the Company’s 2015 Stock Plan (the “Stock Plan”), and the 
+stock option agreement that is entered into hereunder evidencing the grant. 
+Twenty-five percent (25%) of the Stock Option grant shall vest and become exercisable 
+12 months after the Effective date of this agreement and the remainder of the Stock 
+Option grant shall vest and become exercisable in 36 consecutive, equal, monthly 
+installments such that the Stock Option shall be fully vested and exercisable as 
+of the fourth anniversary of the date of grant, provided Employee remains a service 
+provider to the Company continuously through such date.  
 
-**5\. Benefits**. During your employment, you will be entitled to participate in and to receive benefits from all present medical, vision, dental and 401(k) benefits made available to employees. The amount and extent of these benefits, including employee-paid premiums, co-payments and deductibles, shall be governed by the specific benefit plan, as it may be amended from time to time. You will be eligible for health benefits beginning on the first day of the next month of employment with the Company. You will be eligible to participate in the Company’s 401(k) plan; the Company does not currently offer 401(k) matching.  
+**5\. Benefits**. During your employment, you will be entitled to participate in 
+and to receive benefits from all present medical, vision, dental and 401(k) benefits 
+made available to employees. The amount and extent of these benefits, including 
+employee-paid premiums, co-payments and deductibles, shall be governed by the specific 
+benefit plan, as it may be amended from time to time. You will be eligible for health
+benefits beginning on the first day of the next month of employment with the Company. 
+You will be eligible to participate in the Company’s 401(k) plan; the Company does 
+not currently offer 401(k) matching.  
 
-**6\. Proprietary Information and Inventions Agreement**. Like all Company employees, you will be required, as a condition to your employment with the Company, to sign the Company’s standard Proprietary Information and Assignment Agreement, a copy of which is attached hereto.  
+**6\. Proprietary Information and Inventions Agreement**. Like all Company employees, 
+you will be required, as a condition to your employment with the Company, to sign the 
+Company’s standard Proprietary Information and Assignment Agreement, a copy of which 
+is attached hereto.  
 
-**7\. Period of Employment**. Your employment with the Company will be “at will,” meaning that either you or the Company will be entitled to terminate your employment at any time and for any reason, with or without cause. Any contrary representations which may have been made to you are superseded by this offer. This is the full and complete agreement between you and the Company on this term. Although your job duties, title, compensation and benefits, as well as the Company’s personnel policies and procedures, may change from time to time, the “at will” nature of your employment may only be changed in an express written agreement signed by you and the Chief Executive Officer of the Company.  
+**7\. Period of Employment**. Your employment with the Company will be “at will,” 
+meaning that either you or the Company will be entitled to terminate your employment 
+at any time and for any reason, with or without cause. Any contrary representations 
+which may have been made to you are superseded by this offer. This is the full and 
+complete agreement between you and the Company on this term. Although your job duties, 
+title, compensation and benefits, as well as the Company’s personnel policies and procedures, 
+may change from time to time, the “at will” nature of your employment may only be changed 
+in an express written agreement signed by you and the Chief Executive Officer of the Company.  
 
-**8\. Outside Activities**. While you render services to the Company, you will not engage in any other gainful employment, business or activity without the written consent of the Company. While you render services to the Company, you also will not assist any person or organization in competing with the Company, in preparing to compete with the Company or in hiring any employees of the Company.  
+**8\. Outside Activities**. While you render services to the Company, you will not 
+engage in any other gainful employment, business or activity without the written 
+consent of the Company. While you render services to the Company, you also will not 
+assist any person or organization in competing with the Company, in preparing to compete 
+with the Company or in hiring any employees of the Company.  
 
-**9\. Withholding Taxes**. All forms of compensation referred to in this letter are subject to reduction to reflect applicable withholding and payroll taxes.  
+**9\. Withholding Taxes**. All forms of compensation referred to in this letter are 
+subject to reduction to reflect applicable withholding and payroll taxes.  
 
-**10\. Entire Agreement**. This letter and the Exhibit attached hereto contain all of the terms of your employment with the Company and supersede any prior understandings or agreements, whether oral or written, between you and the Company.  
+**10\. Entire Agreement**. This letter and the Exhibit attached hereto contain all 
+of the terms of your employment with the Company and supersede any prior understandings 
+or agreements, whether oral or written, between you and the Company.  
 
-**11\. Amendment and Governing Law**. This letter agreement may not be amended or modified except by an express written agreement signed by you and a duly authorized officer of the Company. The terms of this letter agreement and the resolution of any disputes will be governed by California law.  
+**11\. Amendment and Governing Law**. This letter agreement may not be amended or 
+modified except by an express written agreement signed by you and a duly authorized 
+officer of the Company. The terms of this letter agreement and the resolution of any 
+disputes will be governed by California law.  
 
-We hope that you find the foregoing terms acceptable. You may indicate your agreement with these terms and accept this offer by signing and dating this letter as well as the enclosed Proprietary Information and Assignment Agreement and returning them to me.  
+We hope that you find the foregoing terms acceptable. You may indicate your agreement 
+with these terms and accept this offer by signing and dating this letter as well 
+as the enclosed Proprietary Information and Assignment Agreement and returning them 
+to me.  
 
-As required by law, your employment with the Company is also contingent upon your providing legal proof of your identity and authorization to work in the United States. This offer, if not accepted, will expire at the close of business on [Month, Day, Year].  
+As required by law, your employment with the Company is also contingent upon your 
+providing legal proof of your identity and authorization to work in the United States. 
+This offer, if not accepted, will expire at the close of business on {Month, Day, Year}.  
 
 We look forward to having you join us.  
 
@@ -69,7 +139,7 @@ Signature:
 
 Dated:   
 
-Name:  
+Name:  {Name of Contributor}
 
 
 **On behalf of GitLab:**  
@@ -78,7 +148,7 @@ Signature:
 
 Dated:   
 
-Signature of:[GitLab Authorized Signatory] 
+Signature of:{GitLab Authorized Signatory} 
 
 
 **Attached**  
@@ -86,7 +156,7 @@ Proprietary Information and Assignment Agreement
 
 
 ## GitLab BV employee offer letter<a name="bv-employee"></a>
-Enter the GitLab BV employee offer letter here (in Dutch?). How does this deal with stock options?
+Enter the GitLab BV employee offer letter here.
 
 
 
@@ -94,22 +164,53 @@ Enter the GitLab BV employee offer letter here (in Dutch?). How does this deal w
 
 ##INDEPENDENT CONTRACTOR SERVICES AGREEMENT<a name="contractor"></a>
 
-This **Independent Contractor Services Agreement** (“**Agreement**”) is between **{GitLab Inc.** OR **GitLab BV}** (“**GitLab**”), and **{Name of Contributor}** having a place of business or residence as set forth below (“**Contributor**”). This Agreement is effective as of the last date under the signatures below (the “**Effective Date**”).  
+This **Independent Contractor Services Agreement** (“**Agreement**”) is between 
+**{GitLab Inc.** OR **GitLab BV}** (“**GitLab**”), and **{Name of Contributor}** 
+having a place of business or residence as set forth below (“**Contributor**”). 
+This Agreement is effective as of the last date under the signatures below (the “**Effective Date**”).  
 
-WHEREAS GitLab and Contributor desire to create an independent contractor relationship in connection with certain services to be provided by Contributor to GitLab, as described below, the parties agree as follows:  
+WHEREAS GitLab and Contributor desire to create an independent contractor relationship 
+in connection with certain services to be provided by Contributor to GitLab, as described 
+below, the parties agree as follows:  
 
 **1\. WORK AND COMPENSATION**.  
-Contributor agrees to perform the work set forth in **Exhibit A** (“**Statement of Work**”) and to provide any work product resulting therefrom to GitLab. Contributor will be paid compensation in the amount and at the times set forth in **Exhibit B**, subject to timely submission of any deliverables in accordance with the schedule in the applicable Statement of Work. Unless other terms are set forth in **Exhibit B**, GitLab will pay Contributor for services within thirty (30) days of the date of receipt of Contributor’s detailed invoice. Contributor will provide GitLab with reasonable documentation and work description in connection with Contributor’s invoices, as requested by GitLab.  
+Contributor agrees to perform the work set forth in **Exhibit A** (“**Statement of 
+Work**”) and to provide any work product resulting therefrom to GitLab. Contributor 
+will be paid compensation in the amount and at the times set forth in **Exhibit B**, 
+subject to timely submission of any deliverables in accordance with the schedule in 
+the applicable Statement of Work. Unless other terms are set forth in **Exhibit B**, 
+GitLab will pay Contributor for services within thirty (30) days of the date of receipt 
+of Contributor’s detailed invoice. Contributor will provide GitLab with reasonable
+documentation and work description in connection with Contributor’s invoices, as 
+requested by GitLab.  
 
 
 **2\. TERM**.  
-**2.1 Completion of Services**. This Agreement will become effective on the Effective Date and will continue in effect until completion of the Statement of Work as set forth in **Exhibit A** or any subsequent Statements of Work as set forth in Section 2.2, unless terminated earlier as set forth in Section 8.  
+**2.1 Completion of Services**. This Agreement will become effective on the Effective 
+Date and will continue in effect until completion of the Statement of Work as set 
+forth in **Exhibit A** or any subsequent Statements of Work as set forth in Section 
+2.2, unless terminated earlier as set forth in Section 8.  
 
-**2.2 Subsequent Statements of Work**. Contributor and GitLab may from time to time execute subsequent Statements of Work in the form of **Exhibit D**, each of which will be deemed to be part of this Agreement upon the earlier of (a) the date of mutual execution of the subsequent Statement of Work or (b) the date when Contributor commences any work described on a subsequent Statement of Work that has been duly executed by GitLab. To the extent any terms set forth on any subsequent Statement of Work conflict with the terms of this Agreement, the terms on the Statement of Work will prevail, but only with respect to the subject work described therein.  
+**2.2 Subsequent Statements of Work**. Contributor and GitLab may from time to time 
+execute subsequent Statements of Work in the form of **Exhibit D**, each of which 
+will be deemed to be part of this Agreement upon the earlier of (a) the date of mutual 
+execution of the subsequent Statement of Work or (b) the date when Contributor commences 
+any work described on a subsequent Statement of Work that has been duly executed by GitLab. 
+To the extent any terms set forth on any subsequent Statement of Work conflict with 
+the terms of this Agreement, the terms on the Statement of Work will prevail, but 
+only with respect to the subject work described therein.  
 
 
 **3\. RESPONSIBILITIES**  
-Contributor will perform and promptly complete the Statement of Work set forth in **Exhibit A** in a professional and timely manner consistent with industry standards at a location, place and time that Contributor deems appropriate. Contributor, in its sole discretion, will determine the manner, method, details and means of performing work under a Statement of Work, but may not subcontract or otherwise delegate its obligations under this Agreement, nor employ any agents or employees to perform such obligations without the prior written consent of GitLab. Contributor is expected to provide its own equipment, tools, and other materials at its own expense in performing work under the Statement of Work.  
+Contributor will perform and promptly complete the Statement of Work set forth in 
+**Exhibit A** in a professional and timely manner consistent with industry standards 
+at a location, place and time that Contributor deems appropriate. Contributor, in 
+its sole discretion, will determine the manner, method, details and means of performing 
+work under a Statement of Work, but may not subcontract or otherwise delegate its 
+obligations under this Agreement, nor employ any agents or employees to perform such 
+obligations without the prior written consent of GitLab. Contributor is expected to 
+provide its own equipment, tools, and other materials at its own expense in performing 
+work under the Statement of Work.  
 
 **3.1 Acceptance or Rejection of Work**. Upon Contributor’s submission of the work product, GitLab will, in its sole discretion, accept or reject all or part of the work product or return it to Contributor with suggested changes. Contributor acknowledges that if the unaccepted portion of the work product contains any Confidential Information or GitLab Materials, then GitLab will retain sole and exclusive ownership of such property, and Contributor will either return the unaccepted work product to GitLab or provide GitLab with satisfactory evidence that the unaccepted work product has been destroyed.  
 
@@ -166,7 +267,8 @@ Contributor’s relationship with GitLab will be that of an independent contract
 
 ###Signature Page  
 
-IN WITNESS WHEREOF, the parties hereto have caused this Independent Contractor Services Agreement to be duly executed as of the first date written above.  
+IN WITNESS WHEREOF, the parties hereto have caused this Independent Contractor 
+Services Agreement to be duly executed as of the first date written above.  
 
 
 **{GitLab BV OR GitLab Inc.}**  
@@ -205,22 +307,37 @@ Attachments:
 
 1\. Title of Project: {Title of project}  
 2\. Project Dates:  
-   * Project commencement date:  {Contract / Project Start Date}.  
-   * Project termination date:  {Contract / Project End Date}.  
+   * Project commencement date:  {Start Date}.  
+   * Project termination date:  {End Date}.  
 3\. Deliverables and Due Dates:  
 Company has engaged contractor to perform the following:  
-   * {Describe main deliverable. If closely aligned with an existing job, e.g. Developer, point to website: https://about.gitlab.com/jobs/___}  
+   * {Short task description link to job description webpage whenever possible}  
 
-All Deliverables must be completed in the time frame specified above in order to maintain the herein mutually agreed upon schedule and budget. Any delay in submitting a Deliverable may result in all subsequent dates shifting by the same number of days as the delay. The Parties will make all reasonable business efforts to adhere to all scheduled dates regardless of delays.  
+All Deliverables must be completed in the time frame specified above in order to 
+maintain the herein mutually agreed upon schedule and budget. Any delay in submitting 
+a Deliverable may result in all subsequent dates shifting by the same number of days 
+as the delay. The Parties will make all reasonable business efforts to adhere to all scheduled dates regardless of delays.  
 
 **{REMOVE FOR ONGOING PROJECTS, LEAVE IN FOR ONE-OFF PROJECTS}**  
 4\. Approvals & Feedback:  
-All Contributor Deliverables associated with the Project will be subject to approval and acceptance by GitLab (“Approvals”). Approvals are based on GitLab’s standards and subject to GitLab’s sole discretion. In the event that GitLab denies an Approval, GitLab will submit to Contributor a detailed written description of why an Approval was withheld and recommend a course of action and required fixes (“Feedback”), all of which Contributor will be responsible for implementing as a prerequisite for receiving Approvals. Deliverables that do not receive Approvals will be modified by Contributor to comply with Feedback and resubmitted to GitLab for Approvals. This process will repeat itself until all Deliverables comply with Feedback. Project shall not be deemed complete until Contributor receives all the scheduled GitLab Approvals. Due Dates for GitLab Approval or Feedback specified in the table above assume that Contributor’s Deliverables:  
+All Contributor Deliverables associated with the Project will be subject to approval 
+and acceptance by GitLab (“Approvals”). Approvals are based on GitLab’s standards 
+and subject to GitLab’s sole discretion. In the event that GitLab denies an Approval, 
+GitLab will submit to Contributor a detailed written description of why an Approval 
+was withheld and recommend a course of action and required fixes (“Feedback”), all 
+of which Contributor will be responsible for implementing as a prerequisite for receiving 
+Approvals. Deliverables that do not receive Approvals will be modified by Contributor 
+to comply with Feedback and resubmitted to GitLab for Approvals. This process will 
+repeat itself until all Deliverables comply with Feedback. Project shall not be deemed 
+complete until Contributor receives all the scheduled GitLab Approvals. Due Dates for 
+GitLab Approval or Feedback specified in the table above assume that Contributor’s Deliverables:  
    * Are submitted to GitLab on schedule  
    * Meet GitLab’s implementation technical standards  
 
 5\. Points of Contact:  
-Each Party will provide a single point of contact that will have the authority to communicate all final decisions, which will be deemed final and official (“Primary Contact”). For the purpose of this Statement of Work, Primary Contacts for each party will be:  
+Each Party will provide a single point of contact that will have the authority to 
+communicate all final decisions, which will be deemed final and official (“Primary Contact”). 
+For the purpose of this Statement of Work, Primary Contacts for each party will be:  
 
 
 **GitLab Primary Contact**:  
@@ -261,23 +378,47 @@ E-Mail:
 GitLab shall pay Contributor a rate of {indicate currency, rate, and period}.  
 
 **{REMOVE FOR ONGOING PROJECTS, LEAVE IN FOR ONE-OFF PROJECTS}**  
-GitLab reserves the right to withhold payment until Contributor reaches the payment’s associated milestone and the related Deliverables are approved and accepted by GitLab.  
+GitLab reserves the right to withhold payment until Contributor reaches the 
+payment’s associated milestone and the related Deliverables are approved and 
+accepted by GitLab.  
 
-If the Agreement is terminated prior to the completion of the Project, the amount of payment to be paid to Contributor will be payment for work performed up to the date of termination.  
+If the Agreement is terminated prior to the completion of the Project, the amount 
+of payment to be paid to Contributor will be payment for work performed up to the 
+date of termination.  
 
 Contributor shall submit invoices no more frequently than every two weeks.  
 
 **{OPTIONAL, REMOVE IF NOT APPLICABLE:}**   
 **Stock Option Grant**:  
-Subject to Board approval, Contributor shall be granted a stock option, to purchase {Number of shares} shares of the Company’s common stock (the “Stock Option”), at an exercise price equal to the fair market value of the common stock on the date of grant pursuant to the terms and conditions of the Company’s 2015 Equity Incentive Plan (the “Stock Plan”), and the stock option agreement that is entered into hereunder evidencing the grant. Vesting: twenty-five percent (25%) of the Stock Option grant shall vest and become exercisable 12 months after the Effective date of this agreement and the remainder of the Stock Option grant shall vest and become exercisable in 36 consecutive, equal, monthly installments such that the Stock Option shall be fully vested and exercisable as of the fourth anniversary of the date of grant, provided Contributor remains a service provider to the Company continuously through such date.  
+Subject to Board approval, Contributor shall be granted a stock option, to purchase 
+{Number of shares} shares of the Company’s common stock (the “Stock Option”), at 
+an exercise price equal to the fair market value of the common stock on the date 
+of grant pursuant to the terms and conditions of the Company’s 2015 Equity Incentive 
+Plan (the “Stock Plan”), and the stock option agreement that is entered into hereunder 
+evidencing the grant. Vesting: twenty-five percent (25%) of the Stock Option grant shall 
+vest and become exercisable 12 months after the Effective date of this agreement and 
+the remainder of the Stock Option grant shall vest and become exercisable in 36 consecutive, 
+equal, monthly installments such that the Stock Option shall be fully vested and 
+exercisable as of the fourth anniversary of the date of grant, provided Contributor 
+remains a service provider to the Company continuously through such date.  
 
 
 ###EXHIBIT C
 **CONTRIBUTOR TERMINATION CERTIFICATION**   
 
-This is to certify that Contributor does not have in its possession or control, nor has it failed to return, any devices, software, materials, records, data, notes, reports, proposals, lists, correspondence, specification, drawings, blueprints, sketches, equipment, other documents or property, or reproductions of any aforementioned items (in whole or in part) belonging to GitLab, its subsidiaries, affiliates, successors or assigns.  
+This is to certify that Contributor does not have in its possession or control, 
+nor has it failed to return, any devices, software, materials, records, data, notes, 
+reports, proposals, lists, correspondence, specification, drawings, blueprints, 
+sketches, equipment, other documents or property, or reproductions of any aforementioned 
+items (in whole or in part) belonging to GitLab, its subsidiaries, affiliates, 
+successors or assigns.  
 
-Contributor further agrees that it will preserve as confidential all trade secrets, confidential knowledge, data or other proprietary information relating to products, processes, know-how, designs, formulas, development or experimental work, computer programs, data bases, other original works of authorship, customer lists, business plans, financial information or other subject matter pertaining to any business of GitLab or any of its clients, Contributors or licensees.  
+Contributor further agrees that it will preserve as confidential all trade secrets, 
+confidential knowledge, data or other proprietary information relating to products, 
+processes, know-how, designs, formulas, development or experimental work, computer 
+programs, data bases, other original works of authorship, customer lists, business 
+plans, financial information or other subject matter pertaining to any business of 
+GitLab or any of its clients, Contributors or licensees.  
 
 
 Contributor Signature:  
@@ -320,7 +461,10 @@ Address for Notices:
 ##PROPRIETARY INFORMATION AND ASSIGNMENT AGREEMENT  <a name="PIAA"></a>
 
 
-This **Proprietary Information and Assignment Agreement** (“Agreement”) is made between {**GitLab Inc**., a Delaware corporation in the United States OR **GitLab BV**, a corporation in the Netherlands} (the “Company”) and **{Name of Contributor}** (“Contributor”), and is effective as of the last date under the signatures below (the “**Effective Date**”).
+This **Proprietary Information and Assignment Agreement** (“Agreement”) is made 
+between {**GitLab Inc**., a Delaware corporation in the United States OR **GitLab BV**, 
+a corporation in the Netherlands} (the “Company”) and **{Name of Contributor}** 
+(“Contributor”), and is effective as of the last date under the signatures below (the “**Effective Date**”).
 
 WHEREAS, the Company desires to employ or contract, or continue to employ or contract with Contributor to render services to the Company and Contributor desires to render such services;  
 WHEREAS, as a material condition of and inducement for the Company sharing proprietary and confidential business relationships and information with Contributor, and providing training and other resources to Contributor, the Company requires Contributor to execute, deliver, and comply with this Agreement; and  
@@ -452,6 +596,3 @@ The following is a complete list of all Works which have been made or conceived 
 
 No Works:  Yes/No  
 If Yes, please see further details below.
-
-
-       
