@@ -2,6 +2,10 @@
 layout: markdown_page
 title: "Hiring"
 ---
+## On this page:
+* [Hiring Process](#hiring-process)
+* [Getting Contracts Ready](#prep-contracts)
+
 
 ## Hiring Process<a name="hiring-process"></a>
 
@@ -57,5 +61,13 @@ title: "Hiring"
       * Do not hesitate to involve the CEO in reviewing feedback to candidates who have not been selected.
 1. Make a decision, make an offer.
     * The CEO needs to authorize offers.
-    * Sign up successful applicant and move to onboarding.
+    * Sign up successful applicant and move to [onboarding](https://about.gitlab.com/handbook/general-onboarding).
     * Inform other applicants that we selected someone else this time. Applicants remain in the database and may be contacted in the future for other roles.
+    
+    
+## Getting Contracts Ready<a name="prep-contracts"></a>
+Once a new team member is to be added in an employee or contractor capacity, 
+fill out the [New Contract form](https://docs.google.com/a/gitlab.com/forms/d/1Cthnkdj_23ev_u7LT01wv5dZYAZKm20vp5JmzT3ECqE/viewform) 
+with pertinent details, and ping the Business Office Manager to initiate the creation of the contracts.  
+
+Our template contracts are posted on the [Contracts page](https://about.gitlab.com/handbook/contracts).
