@@ -162,7 +162,7 @@ Enter the GitLab BV employee offer letter here.
 
 
 
-##INDEPENDENT CONTRACTOR SERVICES AGREEMENT<a name="contractor"></a>
+## INDEPENDENT CONTRACTOR SERVICES AGREEMENT<a name="contractor"></a>
 
 This **Independent Contractor Services Agreement** (“**Agreement**”) is between 
 **{GitLab Inc.** OR **GitLab BV}** (“**GitLab**”), and **{Name of Contributor}** 
