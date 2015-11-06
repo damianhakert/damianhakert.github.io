@@ -1,8 +1,8 @@
 ---
 layout: markdown_page
-title: "Sales FAQ"
+title: "GitLab Positioning FAQ"
 ---
-1.  GitLab Positioning and FAQ's
+1.  GitLab Positioning FAQ
     * What is GitLab?
         1. GitLab is an open source tool used by developers to create and manage code bases collaboratively. Built on Git, which is a very popular and efficient distributed version control system, GitLab gives you all the tools needed for Git repository management from code reviews to issue tracking and more. 
         1. We have a few different versions of GitLab. 
