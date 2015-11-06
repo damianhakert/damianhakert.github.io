@@ -294,7 +294,8 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 
 ```
 * [ ] Manager of former team member: organize smooth hand over of any work or tasks from former team member.
-* [ ] Jacob/CEO: delete Google account, firstname@gitlab.com or initial(s)@gitlab.com
+* [ ] Jacob/CEO: block Google account, firstname@gitlab.com or initial(s)@gitlab.com
+* [ ] Jacob/CEO: 2 weeks after blocking the Google account, delete it.
 * [ ] Manager/CEO: inform former team member that Google account has been removed by emailing to their personal email address.
 * [ ] Jacob/CEO: delete from Slack
 * [ ] People Ops: remove former team member from TriNet and payroll if applicable.
