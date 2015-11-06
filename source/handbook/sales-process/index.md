@@ -2,7 +2,8 @@
 layout: markdown_page
 title: "Sales Process"
 ---
-1. [Sales Qualification Questions](https://about.gitlab.com/handbook/sales-qualification-questions/)
+## Sales Qualification Questions
+[Sales Qualification Questions](https://about.gitlab.com/handbook/sales-qualification-questions/)
 
 ## Marketing Lead Process
 
