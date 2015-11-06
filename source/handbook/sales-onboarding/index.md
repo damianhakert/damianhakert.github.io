@@ -7,7 +7,7 @@ title: "Sales Onboarding"
     * [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
     * [GitLab Introduction to Terminology](https://about.gitlab.com/2015/05/18/simple-words-for-a-gitlab-newbie/)
     * [Intro to Git](https://www.codeschool.com/account/courses/try-git)
-    * [GitLab Flow](https://about.gitlab.com/2014/09/29/gitlab-flow/)
+    * [Create a GitLab Account](https://courses.platzi.com/classes/git-gitlab/concepto/first-steps/create-an-account-on-gitlab/material/)
     * [Gitlab Workshop Part 1: Basics of Git and Gitlab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-1/material/)
     * [GitLab Workshop Part 2: Basics of Git and Gitlab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-23370/material/)
     * [Gitlab Workshop Part 3: Basics of Git and Gitlab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-3/material/)
@@ -22,6 +22,7 @@ title: "Sales Onboarding"
     * [GitLab Flow](https://about.gitlab.com/2014/09/29/gitlab-flow/)
     * [GitLab Flow vs. Forking in GitLab](https://www.youtube.com/watch?v=UGotqAUACZA)
     * [Managing LDAP, Active Directory introduction with GitLab](https://www.youtube.com/watch?v=HPMjM-14qa8)
+
 
 1. [Positioning FAQ](https://about.gitlab.com/handbook/positioning-faq)
 
@@ -39,6 +40,7 @@ title: "Sales Onboarding"
     * Familiarize yourself with your custom view (https://na34.salesforce.com/00O61000001uYbM) of open opportunities for the month
     * Familiarize yourself with your custom view (https://na34.salesforce.com/00O61000001uYbR) of all open opportunities assigned to you.
     * Familiarize yourself with your custom view (https://na34.salesforce.com/00Q?fcf=00B610000027qT9&rolodexIndex=-1&page=1) of all your open leads.
+
 
 1. [Our Sales Communication Guide](https://docs.google.com/document/d/1IMDzTj3hZrnsA417z9Ye7WBa8yLkWxGzaLZNJ3O_nVA/edit#heading=h.3nffcmsbeqo7)
 
