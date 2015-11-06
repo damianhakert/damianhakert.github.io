@@ -246,12 +246,13 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <li>Don't frown on people taking time off, but rather encourage that people take care of themselves and others.</li>
     <li>Working hours are flexible, you are invited for the team call if you are available, it is every 
     workday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).</li>
-    <li> We have an "unlimited" time off policy. This means that:
-        <ul>
-        <li>You don't need to worry about taking time off to go to the gym, go grocery shopping, doing household chores, 
+    <li>You don't need to worry about taking time off to go to the gym, go grocery shopping, doing household chores, 
         helping someone, taking care of a loved one, etc. If something comes up or takes longer than expected and 
         you have urgent tasks and you're able to communicate, just ensure the rest of the team <b>knows</b> and someone can pick up any urgent tasks.</li>
-        <li> You do not need to ask permission to take time off unless you want to take more than 2 weeks consecutively, or if your total time off for the calendar year is more than 25 days.</li>
+    <li> We have an "unlimited" time off policy. This means that:
+        <ul>
+        <li> You do not need to ask permission to take time off unless you want to 
+        take more than 25 consecutive calendar days.</li>
         <li> Always make sure that your job responsibilities are covered while you are away.</li>
         <li> We strongly recommended to take at least a minimum of 2 weeks of vacation per year, 
         if you take less your manager might follow up to discuss your work load.</li>
