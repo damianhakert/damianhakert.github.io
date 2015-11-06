@@ -14,7 +14,7 @@ title: "Sales Onboarding"
 1. [Our Sales Communication Guide](https://docs.google.com/document/d/1IMDzTj3hZrnsA417z9Ye7WBa8yLkWxGzaLZNJ3O_nVA/edit#heading=h.3nffcmsbeqo7)
 
 1. Login to [Salesforce.com](http://www.salesforce.com/), you should receive an email asking you to change your password:
-    * Familiarize yourself with your custom view (https://na34.salesforce.com/00O61000001uYbM) of open opportunities for the month 
+    * Familiarize yourself with your custom view (https://na34.salesforce.com/00O61000001uYbM) of open opportunities for the month
     * Familiarize yourself with your custom view (https://na34.salesforce.com/00O61000001uYbR) of all open opportunities assigned to you.
     * Familiarize yourself with your custom view (https://na34.salesforce.com/00Q?fcf=00B610000027qT9&rolodexIndex=-1&page=1) of all your open leads.
 
@@ -26,4 +26,4 @@ title: "Sales Onboarding"
 
 1. [Giving a GitLab demo](https://about.gitlab.com/handbook/demo/)
 
-1. [Frequently Asked Sales Questions](https://about.gitlab.com/handbook/sales-faq)
+1. [Positioning FAQ](https://about.gitlab.com/handbook/positioning-faq)
