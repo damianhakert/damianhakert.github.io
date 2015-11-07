@@ -87,7 +87,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <li>If you forward an email without other comments please add FYI (for your information) or FYA (for your action).</li>
     <li>Emails sent to one person (no cc:) and  likely not include other people later on don't need a subject line (make the first line descriptive since Gmail uses that).</li>
     <li>If you use Slack, please use a public channel whenever possible, mention the person you want to reach if it is urgent. This ensures it is easy for other people to chime in, and easy to involve other people, if needed.</li>
-    <li>All company data should be <b>shareable</b> by default. Don't use a local text file but leave comments on an issue. Create Google docs with your company Google Apps account.</li>
+    <li>All company data should be <b>shareable</b> by default. Don't use a local text file but leave comments on an issue. Create Google docs with your company Google Apps account. By default share Google docs with the whole company 'anyone at GitLab can find and access' with edit (preferred) or comment access for everyone.</li>
     <li>All our procedures and templates are stored in (mostly public) git repositories instead of Google/Word documents. This makes them easier to find and suggest changes to with the organization and shows our commitment to open collaboration outside the organization.</li>
     <li>Use FYI and /cc if you want to inform people but it does not require an action, use FYA (for your action) if an action of the recipient is required.</li>
     <li>If there are materials relevant for a calendar meeting (for example a Google Doc) please add the url to the meeting invite description.</li>
