@@ -22,7 +22,7 @@ title: "Sales Onboarding"
     * [GitLab Flow](https://about.gitlab.com/2014/09/29/gitlab-flow/)
     * [GitLab Flow vs. Forking in GitLab](https://www.youtube.com/watch?v=UGotqAUACZA)
     * [Managing LDAP, Active Directory introduction with GitLab](https://www.youtube.com/watch?v=HPMjM-14qa8)
-
+    * [GitLab University](https://about.gitlab.com/university/)
 
 1. [Positioning FAQ](https://about.gitlab.com/handbook/positioning-faq)
 
