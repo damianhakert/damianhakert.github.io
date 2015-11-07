@@ -21,6 +21,10 @@ Of course before any code is merged it still has to meet the
 
 ## What our customers want
 
+At GitLab the company we try to make what our users and we need (many of us are or used to be developers).
+But if a customer of us requests a feature that carries extra weight.
+Due to our short release cycle we can ship simple feature requests (for example an api extension) within one to two months.
+
 ## Next releases
 
 GitLab releases a new version every single month on the 22nd.
