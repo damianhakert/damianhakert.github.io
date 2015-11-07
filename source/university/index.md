@@ -42,3 +42,5 @@ Link to test results here.
 - [Platzi training course](https://courses.platzi.com/courses/git-gitlab/)
 - [GitLab flow](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
 - [Sales Onboarding materials](https://about.gitlab.com/handbook/sales-onboarding/)
+- [GitLab Direction](https://about.gitlab.com/direction/)
+- [GitLab compared to other tools](https://about.gitlab.com/comparison/)
