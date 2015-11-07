@@ -37,4 +37,8 @@ Link to test results here.
 
 ## Resources
 
-List of resources here.
+- [GitLab documentation](http://doc.gitlab.com/)
+- [Innersourcing article](https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/)
+- [Platzi training course](https://courses.platzi.com/courses/git-gitlab/)
+- [GitLab flow](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
+- [Sales Onboarding materials](https://about.gitlab.com/handbook/sales-onboarding/)
