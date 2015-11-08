@@ -1,9 +1,9 @@
 ---
 layout: markdown_page
-title: "Product Manager Responsibilities and Tasks"
+title: "Vice President of Product Responsibilities and Tasks"
 ---
 
-The product manager reports to the CEO and is an individual contributor.
+The VP of Product reports to the CEO and is an individual contributor.
 
 ## Development direction
 
