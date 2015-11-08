@@ -73,52 +73,75 @@ Some links point to internal issues. We're working on making [all issues public]
 
 We very much welcome contributions that implement any of these things.
 
-### Interaction
+### Code Review
+
+You should be able to review any code within GitLab quickly, easily and
+in a way that all relevant parties get notified.
+
+- [pre-post comment code](#) - Ability to see what the current state of the code is where in a previous commit a comment was placed.
+- [Merge if green button if tests are still running](https://gitlab.com/gitlab-org/gitlab-ce/issues/2640)
+- [Allow cross server merge requests](http://feedback.gitlab.com/forums/176466-general/suggestions/5097708-implement-cross-server-federated-merge-requests) (paste url when making a new MR)
+- [Revert button for merges](https://dev.gitlab.org/gitlab/gitlabhq/issues/2299)
+- [Ability to checkout the result of MR available before merging](https://gitlab.com/gitlab-org/gitlab-ce/issues/2765)
+- [Syntax highlighting for diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/3292)
+
+### Project Management
 
 - [Make it easier to add labels to an issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/2574)
+- [Filter by more than one label](https://gitlab.com/gitlab-org/gitlab-ce/issues/989)
+- [Move issues between projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/3024)
+- [Set Issue weight](https://gitlab.com/gitlab-org/gitlab-ce/issues/3397)
+- [Time tracking](https://dev.gitlab.org/gitlab/gitlabhq/issues/2192)
+- Draw and drop issues to prioritize them
+- Handle incoming emails with support questions in issues, needs spam filter
+- [Labels should be visible in Milestone view](https://gitlab.com/gitlab-org/gitlab-ce/issues/3276)
+
+### Productivity
+
+- [Mentioned activity feed (overlap with notification center)](https://dev.gitlab.org/gitlab/gitlabhq/issues/2288)
+- Issue/MR description field works like google docs, real time collaboration & autosave, maybe with [ShareJS](http://sharejs.org/)
+
+### Integrations
+
+
+### Version Control for Everything
+
+- [In-picture-comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
+- [Automatically push changed files from a local folder](https://dev.gitlab.org/gitlab/gitlabhq/issues/2265)
+
+### Interaction
+
 - [Change notification setting](https://dev.gitlab.org/gitlab/gitlabhq/issues/2395)
 - [Edit on protected branch should create a new branch](https://dev.gitlab.org/gitlab/gitlabhq/issues/2242)
-- [Filter by more than one label](https://gitlab.com/gitlab-org/gitlab-ce/issues/989)
 - [See all forked projects of one project](https://gitlab.com/gitlab-org/gitlab-ce/issues/2406)
-- [Merge if green button if tests are still running](https://gitlab.com/gitlab-org/gitlab-ce/issues/2640)
-- [In-picture-comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
 - [Add more default views](https://gitlab.com/gitlab-com/www-gitlab-com/edit/master/source/direction/index.md)
-- [Filter by more than one label](https://gitlab.com/gitlab-org/gitlab-ce/issues/989)
-- [Interaction milestone on GitLab.com](https://gitlab.com/dashboard/milestones/interaction?title=Interaction)
-- [Interaction milestone on dev.gitlab.org](https://dev.gitlab.org/groups/gitlab/milestones/interaction?title=Interaction)
+
+### Operations
+
+- [Handle errors before they give a 500](https://dev.gitlab.org/gitlab/gitlabhq/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=gitlab.com+errors)
+- [Get rid of the large authorized keys (SSH) file](https://gitlab.com/gitlab-org/gitlab-git-http-server/issues/2#note_1983654)
+- [Upgrade to Sidekiq 4](https://gitlab.com/gitlab-org/gitlab-ce/issues/3065) - Faster.
+
+### Small Wins
+
+- Show commits behind/ahead on branch overview page
 
 ### CE
 
-- [Move issues between projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/3024)
-- Reduce hte number of exceptions (mostly catching background jobs errors before they trigger a 500)
-- [Allow cross server merge requests](http://feedback.gitlab.com/forums/176466-general/suggestions/5097708-implement-cross-server-federated-merge-requests) (paste url when making a new MR)
-- [Code search in groups](https://dev.gitlab.org/gitlab/gitlabhq/issues/841)
-- [Time tracking](https://dev.gitlab.org/gitlab/gitlabhq/issues/2192)
-- [Automatically push changed files](https://dev.gitlab.org/gitlab/gitlabhq/issues/2265)
-- [Mentioned activity level](https://dev.gitlab.org/gitlab/gitlabhq/issues/2288)
-- [Revert button for merges](https://dev.gitlab.org/gitlab/gitlabhq/issues/2299)
 - [Translations](http://feedback.gitlab.com/forums/176466-general/suggestions/3337748-internationalization-add-translations) with the help of the rest of the community and Perforce
 - [Subgroups](http://feedback.gitlab.com/forums/176466-general/suggestions/3867903-allow-project-groups-to-be-organized-in-a-hierarch) (Dmitriy investigated this)
-- Show commits behind/ahead on branch overview page
-- Mentioned feed on the dashboard, activity feed on separate tab
-- Issue/MR description field works like google docs, real time collaboration & autosave, maybe with [ShareJS](http://sharejs.org/)
-- Draw and drop issues to prioritize them
-- Handle incoming emails with support questions in issues, needs spam filter
-- [Award emoji](https://dev.gitlab.org/gitlab/gitlabhq/issues/2388) (so you can use GitLab as a feature request tracker)
-- [Handle errors before they give a 500](https://dev.gitlab.org/gitlab/gitlabhq/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=gitlab.com+errors)
-- [Get rid of the large authorized keys (SSH) file](https://gitlab.com/gitlab-org/gitlab-git-http-server/issues/2#note_1983654)
 - [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 
 ### EE
+
 - Push to another repo
 - [Management dashboard](https://dev.gitlab.org/gitlab/gitlab-ee/issues/287)
-- Distributed file system store for large files (Git Annex or Git LFS) and uploads. Can do in in [Ceph](http://ceph.com/), [XtreemFS](http://www.xtreemfs.org/), [LizardFS](http://lizardfs.com/) or something else. But not a pluggable backend for [blobs](http://blog.justinsb.com/blog/2013/12/14/cloudata-day-8/) because [performance will suffer](https://news.ycombinator.com/item?id=9839581), this was as also [indicated by a libgit2 developer](https://github.com/libgit2/libgit2-backends/pull/4#issuecomment-36115322).
 - [Geographic slave servers with GitLab RE](https://dev.gitlab.org/gitlab/gitlabhq/issues/2359) for plus subscriptions only
 
 ### CI
 
 - [Zero config CI](https://dev.gitlab.org/gitlab/gitlabhq/issues/2528)
-- Option to test the [merge of the feature branch with master](http://homu.io/) instead of the feature branch itself (you will have to retest all MR's every time master is updated)
+- Option to test the result of the merge
 - Dependent builds [Feedback](http://feedback.gitlab.com/forums/176466-general/suggestions/7233770-chain-builds) and [internal issue](https://dev.gitlab.org/gitlab/gitlab-ci/issues/328)
 - [Staging environment per branch with GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286), similar to [Teatro](https://teatro.io/), [Tutum](https://support.tutum.co/support/solutions/articles/5000620449-deploy-to-tutum-button) & [Heroku Review Apps](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta))
 - Automatically give code quality metrics in the merge request
