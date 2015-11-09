@@ -57,12 +57,13 @@ We're working on making [all issues public](https://about.gitlab.com/2015/08/03/
 - [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
 - [Import GitHub PR's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2833)
 - [Import GitHub wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
-- [GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ce/issues/3085)
 - [Notification System](https://gitlab.com/gitlab-org/gitlab-ce/issues/2425)
+- [Elasticsearch (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
 
 ### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5)
 
-- [Elasticsearch (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
+- [GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ce/issues/3085)
+
 
 ## Wishlist
 
