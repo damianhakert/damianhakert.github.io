@@ -48,8 +48,8 @@ The following questions can be used to help develop the opportunity and advance 
     * Are you looking to bring one division of your company on to EE?
         - If only a group, what is preventing you from bringing on the entire company at this time?
 
-1. Opportunity Development Questions (Goal: develop their implicit and explicit needs.  They why they must make a decision)
-    * How important Is increased security/authentication for you and your company? For example, Two factor LDAP authentication
+1. Opportunity Development Questions (Goal: develop their implicit and explicit needs.  Why they must make a decision)
+    * How important is increased security/authentication for you and your company? For example, Two factor LDAP authentication
     * How important would it be to assign different user levels for team members to only be able to access certain areas of the source code?
     * Do you need to work with large binary files?
     * How important is code quality and reviewing merge requests?
@@ -67,7 +67,7 @@ The following questions can be used to help develop the opportunity and advance 
     * How is the adoption of GitLab going?
     * What are you liking about GitLab EE?
     * What are you not liking or have questions about?
-    * How has Gitlab helped your group?  What are their us cases?
+    * How has Gitlab helped your group?  What are their use cases?
         - improve code quality?
         - speed up code releases?
     * How many projects do they have?
@@ -79,5 +79,3 @@ The following questions can be used to help develop the opportunity and advance 
         - If low adoption, Is there anything I can do to help you?
         - If high adoption of licences, Ask what their growth plans are and when they feel they will need to increase their seats?
     * Would you be willing to talk to our marketing team and go deeper into telling us your story and how you use GitLab?
-
-
