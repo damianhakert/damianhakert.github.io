@@ -3,8 +3,7 @@ layout: post
 title: "SumIt All Up"
 date: 2015-11-04
 comments: true
-author: GitLab
-author_twitter: gitlab
+author: "Emily Kyle, Sylvia Kahn"
 ---
 
 What began as an estimated 20 person trip for bonding between our remote
@@ -33,7 +32,7 @@ making, fries, a visit to Apenheul (primate park), fries, walking tour of
 Amsterdam, fries, a tongue-in-cheek awards dinner, fries, two days as sponsors
 at OSCON (Open Source Conference), and did we mention fries?!
 
-![Happiest chocolate lover ever!](https://slack-files.com/T02592416-F0DQAPFF0-8154c8dacc)
+![Happiest chocolate lover ever!](/images/summitams2015/dmitriyhugshaydnwithchocolate.jpg)
 
 Of course, there was ample time to work – we have to keep the company going. Our
 home base, referred to as "The Lab", was an amazing home on the Singel where our
