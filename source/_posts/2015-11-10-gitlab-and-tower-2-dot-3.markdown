@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitLab + Tower = A Most Efficient Setup"
-date: 2015-09-30
+date: 2015-11-10
 comments: true
 author: Tobias Günther
 author_twitter: gittower
@@ -9,7 +9,7 @@ author_twitter: gittower
 
 GitLab and [Tower](http://www.git-tower.com), the popular Git client, have more in common than just "Git". They share the same goal: to make working with code easier. And just recently, with the release of Tower 2.3, they work together more seamlessly than ever.  
 
-You would think that cloning a remote repository is a simple process. And yet it can be quite a drag: You have to find the repository you want to clone, get hold of its URL, remember your authentication credentials (and method!), and fumble them onto the keyboard.  
+You would think that cloning a remote repository was a simple process. And yet it can be quite a drag: You have to find the repository you want to clone, get hold of its URL, remember your authentication credentials (and method!) and fumble them onto the keyboard...  
 
 Solving such minor and major annoyances around Git has always been our motivation for creating Tower - a GUI client for Git that's now used by over 50,000 customers like Apple, Google, and Twitter.  
 
@@ -41,7 +41,7 @@ I can clearly see which files clashed, how exactly they looked, who worked on th
 
 ## Optimizing Your Workflows
 
-A graphical user interface has to provide some real advantages. Just a handful of pretty colors won't cut it.  
+In my opinion, a graphical user interface has to provide some real advantages. Just a handful of pretty colors won't cut it.  
 
 A Git example is that I don't want to check for new changes manually all the time. That's why Tower automatically and regularly performs a "Fetch" operation in the background for me. Thereby, __I know when something new is available__ on my GitLab remote repo.  
 
