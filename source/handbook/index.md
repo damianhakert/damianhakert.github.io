@@ -72,7 +72,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <li>Everyone at the company cares about your <b>output</b>. Being away from the keyboard during the workday, doing private browsing or making personal phone calls is fine and encouraged.</li>
     <li>We're a <b>distributed</b> company where people work remote without missing out, prefer communication in public issues and chat channels and ensure conclusions of offline conversations are written down.</li>
     <li>Everything is always in draft and subject to change, including this handbook. So do not delay documenting things and do not include draft in the titles of documents. Ensure everyone can read the current state, nothing will ever be finished.</li>
-    <li>If you copy content please remove it at the origin place and replace it with a link to the new content. Duplucate content leads to updating it in the wrong place, keep it [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).</li>
+    <li>If you copy content please remove it at the origin place and replace it with a link to the new content. Duplicate content leads to updating it in the wrong place, keep it [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).</li>
     <li>All guidelines in this handbook are meant to help, don't be afraid to do something because you can't oversee all guidelines, be gentle when reminding people about these guidlines, for example say: "It is not a problem, but next time please consider the following guideline from the handbook".</li>
   </ol>
 
