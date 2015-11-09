@@ -50,7 +50,7 @@ We're working on making [all issues public](https://about.gitlab.com/2015/08/03/
 
 ### [8.3](https://gitlab.com/groups/gitlab-org/milestones/8-3?title=8.3)
 
-- [Revert merges](https://dev.gitlab.org/gitlab/gitlabhq/issues/2299) (not publicly visible)
+- [Revert merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 
 ### [8.4](https://gitlab.com/groups/gitlab-org/milestones/8-4?title=8.4)
 
@@ -85,6 +85,7 @@ in a way that all relevant parties get notified.
 - [Ability to checkout the result of MR available before merging](https://gitlab.com/gitlab-org/gitlab-ce/issues/2765)
 - [Syntax highlighting for diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/3292)
 - [Transactional MR comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3364) - Prevent notification overload by grouping comments
+- [Revert button for MRs](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 
 ### Project Management
 
