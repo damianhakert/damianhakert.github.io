@@ -9,11 +9,11 @@ author_twitter: gittower
 
 GitLab and [Tower](http://www.git-tower.com), the popular Git client, have more in common than just "Git". They share the same goal: to make working with code easier. And just recently, with the release of Tower 2.3, they work together more seamlessly than ever.  
 
-You would think that cloning a remote repository was a simple process. And yet it can be quite a drag: You have to find the repository you want to clone, get hold of its URL, remember your authentication credentials (and method!) and fumble them onto the keyboard...  
+You would think that cloning a remote repository is a simple process. And yet it can be quite a drag: You have to find the repository you want to clone, get hold of its URL, remember your authentication credentials (and method!), and fumble them onto the keyboard.  
 
 Solving such minor and major annoyances around Git has always been our motivation for creating Tower - a GUI client for Git that's now used by over 50,000 customers like Apple, Google, and Twitter.  
 
-Recently, we released version 2.3 of Tower, making working with GitLab a bit easier: you can now connect your GitLab account in Tower (no matter if it's on GitLab.com or your very own Community or Enterprise installation). From that point on, accessing your repositories right from within Tower is a breeze. And __cloning takes just a single click__:  
+Since our recent update to version 2.3, Tower makes working with GitLab even easier. You can access your repositories right from within Tower and __clone them with just a single click__:  
 
 ![One-Click Cloning](/images/tower_2_3/clone-repositories.jpg)  
 
@@ -41,7 +41,7 @@ I can clearly see which files clashed, how exactly they looked, who worked on th
 
 ## Optimizing Your Workflows
 
-In my opinion, a graphical user interface has to provide some real advantages. Just a handful of pretty colors won't cut it.  
+A graphical user interface has to provide some real advantages. Just a handful of pretty colors won't cut it.  
 
 A Git example is that I don't want to check for new changes manually all the time. That's why Tower automatically and regularly performs a "Fetch" operation in the background for me. Thereby, __I know when something new is available__ on my GitLab remote repo.  
 
