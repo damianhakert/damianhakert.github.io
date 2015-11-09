@@ -84,6 +84,7 @@ in a way that all relevant parties get notified.
 - [Revert button for merges](https://dev.gitlab.org/gitlab/gitlabhq/issues/2299)
 - [Ability to checkout the result of MR available before merging](https://gitlab.com/gitlab-org/gitlab-ce/issues/2765)
 - [Syntax highlighting for diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/3292)
+- [Transactional MR comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3364) - Prevent notification overload by grouping comments
 
 ### Project Management
 
