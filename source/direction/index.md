@@ -100,21 +100,13 @@ in a way that all relevant parties get notified.
 
 - [Mentioned activity feed (overlap with notification center)](https://dev.gitlab.org/gitlab/gitlabhq/issues/2288)
 - Issue/MR description field works like google docs, real time collaboration & autosave, maybe with [ShareJS](http://sharejs.org/)
-
-### Integrations
-
+- [Change notification setting](https://dev.gitlab.org/gitlab/gitlabhq/issues/2395)
+- [Add more default views](https://gitlab.com/gitlab-com/www-gitlab-com/edit/master/source/direction/index.md)
 
 ### Version Control for Everything
 
 - [In-picture-comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
 - [Automatically push changed files from a local folder](https://dev.gitlab.org/gitlab/gitlabhq/issues/2265)
-
-### Interaction
-
-- [Change notification setting](https://dev.gitlab.org/gitlab/gitlabhq/issues/2395)
-- [Edit on protected branch should create a new branch](https://dev.gitlab.org/gitlab/gitlabhq/issues/2242)
-- [See all forked projects of one project](https://gitlab.com/gitlab-org/gitlab-ce/issues/2406)
-- [Add more default views](https://gitlab.com/gitlab-com/www-gitlab-com/edit/master/source/direction/index.md)
 
 ### Operations
 
@@ -124,13 +116,14 @@ in a way that all relevant parties get notified.
 
 ### Small Wins
 
-- Show commits behind/ahead on branch overview page
+- [Show commits behind/ahead on branch overview page](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1716)
+- [See all forked projects of one project](https://gitlab.com/gitlab-org/gitlab-ce/issues/2406)
+- [Edit on protected branch should create a new branch](https://dev.gitlab.org/gitlab/gitlabhq/issues/2242)
 
-### CE
+### Major Wins
 
 - [Translations](http://feedback.gitlab.com/forums/176466-general/suggestions/3337748-internationalization-add-translations) with the help of the rest of the community and Perforce
-- [Subgroups](http://feedback.gitlab.com/forums/176466-general/suggestions/3867903-allow-project-groups-to-be-organized-in-a-hierarch) (Dmitriy investigated this)
-- [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
+- [Subgroups / Directories](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772) - Current proposal is to have Directories
 
 ### EE
 
@@ -140,8 +133,9 @@ in a way that all relevant parties get notified.
 
 ### CI
 
+- [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 - [Zero config CI](https://dev.gitlab.org/gitlab/gitlabhq/issues/2528)
-- Option to test the result of the merge
+- [Option to test the result of the merge](http://homu.io/) instead of the feature branch itself (you will have to retest all MR's every time master / target branch is updated)
 - Dependent builds [Feedback](http://feedback.gitlab.com/forums/176466-general/suggestions/7233770-chain-builds) and [internal issue](https://dev.gitlab.org/gitlab/gitlab-ci/issues/328)
 - [Staging environment per branch with GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286), similar to [Teatro](https://teatro.io/), [Tutum](https://support.tutum.co/support/solutions/articles/5000620449-deploy-to-tutum-button) & [Heroku Review Apps](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta))
 - Automatically give code quality metrics in the merge request
