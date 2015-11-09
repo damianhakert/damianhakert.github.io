@@ -2,10 +2,7 @@
 layout: markdown_page
 title: "Sales Process"
 ---
-## Sales Qualification Questions
-[Sales Qualification Questions](https://about.gitlab.com/handbook/sales-qualification-questions/)
-
-## Marketing Lead Process
+## Lead Process
 
 1. All marketing leads added to salesforce.com as a lead object.  These are called marketing qualified leads.
 
@@ -30,61 +27,34 @@ title: "Sales Process"
 
 1. All leads should be in a lead status of nurture, disqualified or converted to an opportuity within 20 days of the lead being created.  
 
-## Helpful links for prospects and customers
+## Sales Qualification Questions
 
-1. [GitLab subscription page](https://about.gitlab.com/subscription/)
+[Sales Qualification Questions](https://about.gitlab.com/handbook/sales-qualification-questions/)
 
-1. [GitLab HA page](https://about.gitlab.com/high-availability/)
+## Opportunity Stages
+1. Discovery - research, fact finding, identify contacts, current situation, 
+1. Developing - isolate the opportunities, assess needs, qualify the opportunities, build rapport, access decision makers, understand decision process and criteria, Collaborate on solutions, define the business case, assess competition
+1. Present Solution - Tailor the presentation, coordinate the team, present recommendations, present pricing, isolate value proposition, gain feedback
+1. Negotiating - negotiate business terms resolve objections, set close plan (sequence of events), gain commitment
+1. Verbal Commitment - how a company approves s business teams desire to purchase, how the company vets purchases from a legal, info security, risk, compliance and vendor management perspective
+1. Won - Deal won and booked
+1. Lost - Opportunity not won at this time
 
-1. [EE repo members](https://gitlab.com/subscribers/gitlab-ee/team)
+## Opportunity Types
+1. New Business - This type should be used for any new account (business) who signs up
+1. Web Direct -  This type should be used for any new business who pays directly online
+1. Add-on - This type should be used for any incremental/upsell business sold into an existing account and division
+1. Exisiting Account (new divsion) - This type should be used for new business sold into an existing account but a new division, a new puchasing group.
+1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased or stay the same.  We capture growth/loss as a field in Salesforce.com
 
-1. [Standard subscribers list](https://gitlab.com/groups/standard/members)
+## Opportunity Naming Convention
+Opportunities will follow the following rules:
 
-1. [GitLab CE issues list](https://gitlab.com/gitlab-org/gitlab-ce/issues)
+Subscription: [name of company] [type of subscription] [number of packs]. Example: MicahTek, Inc.-Standard-1
 
-1. [GitLab.com support forum](https://gitlab.com/gitlab-com/support-forum/issues)
+Training: [name of company] [type of training: User Training/Git Workshop/GitLab Flow/GitLab Admin]. Example: First Community Credit Union User-Training
 
-1. [GitLab feedback tracker](http://feedback.gitlab.com/forums/176466-general)
-
-1. [GitLab documentation](http://doc.gitlab.com/)
-
-1. [Offer for university students](https://about.gitlab.com/2014/05/19/students-now-free/)
-
-1. [YouTube page](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg)
-
-1. [GitLab architecture for noobs (office analogy)](https://dev.gitlab.org/gitlab/gitlabhq/blob/master/doc/development/architecture.md)
-
-1. [GitLab flow](https://about.gitlab.com/2014/09/29/gitlab-flow/)
-
-1. [Free GitLab workshop on Platzi (Job as trainer)](https://courses.platzi.com/courses/git-gitlab/)
-
-## Generating leads
-
-[Types of leads](/handbook/sales-process/generating_leads).
-
-## Creating deals
-
-Every time an opportunity is created, a task is also created. The task succinctly describes [next action](/handbook/sales-process/creating_deals).
-
-## Deal management process
-
-Find out [how to manage deals](/handbook/sales-process/deal_management_process) with potential customers.
-
-## Account management
-
-Aspects to consider when [managing an account](/handbook/sales-process/account_management).
-
-## Emailing
-
-[Customer emailing guidelines](/handbook/sales-process/emailing).
-
-## Accounting
-
-[Accounting procedures](/handbook/sales-process/accounting).
-
-## Licenses
-
-Everything about [lincenses and EE access](/handbook/sales-process/licenses).
+Any deal coming from Gitorious has “(from Gitorious)” added.  Example MicahTek, Inc.-Gitorious-Standard-1
 
 ## Sales Ordering Process
 
@@ -134,3 +104,47 @@ Everything about [lincenses and EE access](/handbook/sales-process/licenses).
 1. License keys auto-generated
 1. Sales Admin to check to see if Salesforce.com record already exists (or not) by searching for the company as shown on the Recurly invoice within the search field of Salesforce.com. If an account already exists, then add an opportunity to the account. If one does not exist, create a new account, contact and opportunity for the name on the invoice.
 1. Task created for Account Owner to reach out to new client, thanking them for their business and asking for time to learn more about their initiatives for account development opportunities and to ensure their experience is great.
+
+## Deal management process
+
+Find out [how to manage deals](/handbook/sales-process/deal_management_process) with potential customers.
+
+## Account management
+
+Aspects to consider when [managing an account](/handbook/sales-process/account_management).
+
+## Accounting
+
+[Accounting procedures](/handbook/sales-process/accounting).
+
+## Licenses
+
+Everything about [lincenses and EE access](/handbook/sales-process/licenses).
+
+## Helpful links for prospects and customers
+
+1. [GitLab subscription page](https://about.gitlab.com/subscription/)
+
+1. [GitLab HA page](https://about.gitlab.com/high-availability/)
+
+1. [EE repo members](https://gitlab.com/subscribers/gitlab-ee/team)
+
+1. [Standard subscribers list](https://gitlab.com/groups/standard/members)
+
+1. [GitLab CE issues list](https://gitlab.com/gitlab-org/gitlab-ce/issues)
+
+1. [GitLab.com support forum](https://gitlab.com/gitlab-com/support-forum/issues)
+
+1. [GitLab feedback tracker](http://feedback.gitlab.com/forums/176466-general)
+
+1. [GitLab documentation](http://doc.gitlab.com/)
+
+1. [Offer for university students](https://about.gitlab.com/2014/05/19/students-now-free/)
+
+1. [YouTube page](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg)
+
+1. [GitLab architecture for noobs (office analogy)](https://dev.gitlab.org/gitlab/gitlabhq/blob/master/doc/development/architecture.md)
+
+1. [GitLab flow](https://about.gitlab.com/2014/09/29/gitlab-flow/)
+
+1. [Free GitLab workshop on Platzi (Job as trainer)](https://courses.platzi.com/courses/git-gitlab/)
