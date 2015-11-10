@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SumIt All Up"
-date: 2015-11-04
+date: 2015-11-10
 comments: true
 author: "Emily Kyle, Sylvia Kahn"
 image_title: /images/summitams2015/amscanalnightview.jpg
