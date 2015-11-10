@@ -132,6 +132,16 @@ ol li p:first-child {
   color: #FFB440;
 }
 
+  ol li p:first-child a {
+    color: rgb(147, 190, 255);
+    text-decoration: underline;
+  }
+
+  ol li p:first-child a:hover {
+    color: #FFB440;
+    text-decoration: underline;
+  }
+
 ol li p:nth-child(2) {
   font-size: 20px;
 }
@@ -140,23 +150,23 @@ ol li p:nth-child(3) {
   text-align: right;
 }
 
-ol li p:nth-child(4) {
-  text-align: right;
-}
-
-  ol li a {
+  ol li p:nth-child(3) a {
     color: #D9CCFF;
     font-size: 18px;
     border: 1px solid;
     padding: 9px;
     transition: all 0.2s;
-}
-  ol li a:hover {
+  }
+  ol li p:nth-child(3) a:hover {
     border: 1px solid;
     background: #7052CC;
     color: white;
     text-decoration: none;
   }
+
+ol li p:nth-child(4) {
+  text-align: right;
+}
 
 ol li {
   font-size: 25px;
@@ -171,4 +181,14 @@ ol li {
   font-size: 14px;
   text-align: left;
   color: rgba(255, 255, 255, 0.51);
+}
+
+.note-on-content a {
+  color: rgb(147, 190, 255);
+  text-decoration: underline;
+}
+
+.note-on-content a:hover {
+  color: #FFB440;
+  text-decoration: underline;
 }
