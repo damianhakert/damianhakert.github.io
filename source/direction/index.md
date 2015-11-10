@@ -48,16 +48,17 @@ We're working on making [all issues public](https://about.gitlab.com/2015/08/03/
 - [CI build artifacts](https://gitlab.com/gitlab-org/gitlab-ce/issues/3028)
 - CI runner caching (not doing a clean on a fetch)
 
+
 ### [8.3](https://gitlab.com/groups/gitlab-org/milestones/8-3?title=8.3)
 
 - [Revert merges](https://dev.gitlab.org/gitlab/gitlabhq/issues/2299) (not publicly visible)
+- [GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1748)
 
 ### [8.4](https://gitlab.com/groups/gitlab-org/milestones/8-4?title=8.4)
 
 - [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
 - [Import GitHub PR's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2833)
 - [Import GitHub wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
-- [GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ce/issues/3085)
 - [Notification System](https://gitlab.com/gitlab-org/gitlab-ce/issues/2425)
 
 ### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5)
