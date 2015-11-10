@@ -72,7 +72,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] Business Office manager: Add to BV and/or Inc Dropbox (if in Finance, if in another dept ask CEO if appropriate)
 * [ ] Business Office manager: Invite to autoconnect on Beamy
 * [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/)
-* [ ] CEO: Add team member to the GitLab availability calendar 
+* [ ] CEO: Add team member to the GitLab availability calendar
 * [ ] New team member: The home folder of my harddrive is encrypted
 
 ### FOR SALES AND FINANCE ONLY
@@ -100,8 +100,10 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 Please update this list as more steps arise.
 
 ## Onboarding topics that apply to everyone<a name="everyone"></a>
+
 ### General<a name="general"></a>
 
+* The first month at remove first company is hard, espacially if you have not worked remote before and/or if you're unfamiliar with the tools used (mainly GitLab, chat, and video calling). If you feel lonely feel free to schedule 1 on 1 video calls to get to know people. If you need help with the tools ask people for help. If you don't know who to ask for help use the #questions chat channel. If you're not happy please let your manager know so we can take action.
 * We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https://www.google.com/docs/about/) and [dev.gitab.org](https://dev.gitlab.org) to communicate.
 * Check out our [about page](https://about.gitlab.com/about/), [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/) and [Life as a non technical employee at GitLab](https://about.gitlab.com/2015/06/30/life-as-a-non-technical-employee-at-gitlab/)
 * Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
@@ -184,15 +186,15 @@ Do not store credentials in a shared folder if everyone has their own user accou
 </ol>
 
 ### Quiz<a name="quiz"></a>
-Employees should answer GitLab quiz questions in the first 2 weeks of working in 
-the company. If the answers are not accurate, you may retest once: 
-<a href="https://about.gitlab.com/handbook/questions/">GitLab Quiz.</a> 
+Employees should answer GitLab quiz questions in the first 2 weeks of working in
+the company. If the answers are not accurate, you may retest once:
+<a href="https://about.gitlab.com/handbook/questions/">GitLab Quiz.</a>
 Please schedule a call with your hiring manager.</li>
 
 ##Onboarding Topics for Developers<a name=#developers></a>
 Awesome! You're about to become a GitLab developer!
-Make sure you've checked out our [handbook](https://about.gitlab.com/handbook) 
-beforehand, so you get a feeling of how we work at GitLab. Below you'll find 
+Make sure you've checked out our [handbook](https://about.gitlab.com/handbook)
+beforehand, so you get a feeling of how we work at GitLab. Below you'll find
 everything you need to start developing.
 If something is missing, add it (as goes with everything at GitLab)!
 
