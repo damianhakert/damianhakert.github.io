@@ -6,6 +6,7 @@ comments: true
 author: Tobias Günther
 author_twitter: gittower
 ---
+*This is a guest post by Tobias Günther, founder at Tower.*
 
 GitLab and [Tower](http://www.git-tower.com), the popular Git client, have more in common than just "Git". They share the same goal: to make working with code easier. And just recently, with the release of Tower 2.3, they work together more seamlessly than ever.  
 
@@ -57,4 +58,4 @@ Lastly, Tower's "Auto Stash" feature is a perfect example of the app's philosoph
 
 Feel free to [give Tower a try](http://www.git-tower.com) and see how it works with your GitLab account. You can download and test it 30 days for free.  
 
-P.S.: I'm curious to know what _you_ are struggling with in Git and version control. Let me know in the comments!  
+P.S.: I'm curious to know what _you_ are struggling with in Git and version control. Let me know in the comments!
