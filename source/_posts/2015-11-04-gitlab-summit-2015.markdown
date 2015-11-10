@@ -4,6 +4,7 @@ title: "SumIt All Up"
 date: 2015-11-04
 comments: true
 author: "Emily Kyle, Sylvia Kahn"
+image_title: /images/summitams2015/amscanalnightview.jpg
 ---
 
 What began as an estimated 20 person trip for bonding between our remote
@@ -12,7 +13,7 @@ person Airbnb, 42 people, all the beer in the Netherlands and an infinite
 amount of mayonnaise-covered fries… and a partridge in a pear tree.  Welcome to
 the GitLab 2015 Summit in Amsterdam.
 
-![GitLab team](https://drive.google.com/folderview?id=0B2XjRnQuGsqvaXI2c3p2YzQ0TEU&usp=sharing)
+![GitLab team](/images/summitams2015/amsteampic.jpg)
 
 With our goal of bonding, day one of 14 began with introductions, swag, hugs, and
 an amazing scavenger hunt around Amsterdam. With most people having only met over
@@ -39,7 +40,7 @@ home base, referred to as "The Lab", was an amazing home on the Singel where our
 Airbnb host became a GitLab groupie and supported us in our remote style of
 getting things done and enjoying our lives.
 
-![GitLab Groupie aka David our Airbnb host](https://slack-files.com/T02592416-F0DQAPFF0-8154c8dacc)
+![GitLab Groupie aka David our Airbnb host](/images/summitams2015/davidatlab.jpeg)
 
 Biggest “ahas” of the trip? Dmitriy might love chocolate more than coding,
 Amsterdam is a truly spectacular city where simply walking around is amazing and
