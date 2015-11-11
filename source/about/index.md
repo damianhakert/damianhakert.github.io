@@ -87,6 +87,40 @@ We realize that GitLab is more than this organization, this is shown by having p
 We think good code can be written by anyone, we encourage diversity by contributing to <a href="http://railsgirls.nl/">RailsGirls NL</a>.
 We try to correct the mistakes we make, please give us a chance by <a href="mailto:contact@gitlab.com">emailing us</a>.
 
+## Our stewardship of GitLab CE
+
+GitLab Inc. is a for profit company that balances the need to improve
+GitLab Community Edition (CE) with the need to add features to GitLab
+Enterprise Edition (EE) exclusively in order to generate more income.
+
+We promise that we:
+
+1. Don't remove features from CE (unless it is part of a code/ui reorganization)
+1. Don't introduce features into CE with a delay, if a feature is planned to land in both it will be released simultanious in both
+1. CE will have all the features that are essential to running a large 'forge' with public and private repositories
+1. CE will not contain any artificial limits (repo's, users, size, etc)
+1. The majority of new features made by GitLab the company will be for both CE and EE
+
+Apart from making new features GitLab Inc. does a lot of work that benefits both CE and EE:
+
+1. [Responsible disclosure](https://about.gitlab.com/disclosure/) process and security fixes
+1. [Release management](http://doc.gitlab.com/ce/release/README.html)
+1. Packaging GitLab in our [Omnibus packages]()
+1. Running a [packages server](https://packages.gitlab.com/gitlab/)
+1. Dependency upgrades (Rails, gems, etc.)
+1. Performance improvements
+
+When someone contributes a feature to CE that is already in EE we have a hard decision to make.
+We hope that people focus on contributing features that are neither in CE and EE so everyone benefits and we don't have to make that decision.
+When we do have to make it we weight a couple of factors in that decision:
+
+1. What is the quality of the code?
+1. Is it complete and does it meet the criterial of the [definition of done](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#definition-of-done)?
+1. What is the use case for this, is it needed for organizations with less than 100 people?
+1. Is it an original work or based on EE (someone once send a merge request with our exact EE code)?
+
+In case we're not sure we'll consult with the [core team](https://about.gitlab.com/core-team/) to reach a conclusion.
+
 ## Handbook
 If you're interested, most of our internal procedures can be found in <a href="/handbook">publicly viewable handbooks</a>.
 
@@ -100,7 +134,7 @@ GitLab is a community project with people participating from all over the world.
 GitLab Inc. has people in three continents to serve our customers better.
 Most of our customers are in the United States.
 
-Most of our team is distributed. We're proud to be [working remotely](https://about.gitlab.com/2014/07/03/how-gitlab-works-remotely/), using GitLab Issues to coordinate. We have a [Remote Manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/), our team members have shared their [experiences](https://about.gitlab.com/2015/06/17/highlights-to-my-first-remote-job/) in our blog and did a Q&A for [Remote.co](https://remote.co/company/gitlab/).
+Our team is distributed. We're proud to be [remote first company](https://about.gitlab.com/2014/07/03/how-gitlab-works-remotely/), using GitLab Issues to coordinate. We have a [Remote Manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/), our team members have shared their [experiences](https://about.gitlab.com/2015/06/17/highlights-to-my-first-remote-job/) in our blog and did a Q&A for [Remote.co](https://remote.co/company/gitlab/).
 
 
 [This commit]: https://gitlab.com/gitlab-org/gitlab-ce/commit/0f43e98ef8c2da8908b1107f75b67cda2572c2c4
