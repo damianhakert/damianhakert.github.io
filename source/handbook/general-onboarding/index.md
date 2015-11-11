@@ -147,8 +147,8 @@ The most common Issues are created in the following projects:
 ### Security<a name="security"></a>
 <ol>
 <li>When you are offboarded the Lastpass account is deleted, if you want to store your non-work passwords please create a personal lastpass account and [link it to your work account](https://enterprise.lastpass.com/getting-started/link-personal-account/).</li>
- <li><b>Never reuse</b> a password you use on a company account (not for another GitLab service or for a personal account).</li>
-<li>Set up <a href="https://lastpass.com/">LastPass</a> as your password manager.</li>
+ <li><b>Never reuse</b> a password you use on a company account, not for another GitLab service nor for a personal account.</li>
+<li>Set up <a href="https://lastpass.com/">LastPass</a> as your password manager and set a strong and unique master password.</li>
 <li>Use Lastpass to <a href="https://helpdesk.lastpass.com/generating-a-password/">generate <b>strong passwords</b></a> for any new company accounts.</li>
 <li>
 <p>
