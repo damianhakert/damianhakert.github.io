@@ -17,7 +17,7 @@ platforms:
   dependency_commands: |
                      sudo apt-get install curl openssh-server ca-certificates postfix
 - name: ubuntu1404
-  long_name: Ubuntu 14.04
+  long_name: Ubuntu 14.04 (currrently also works on 15.04 but 14.04 is recommended)
   download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
   install_commands: |
                     sudo apt-get install gitlab-ce
