@@ -440,7 +440,7 @@ Date:
 
 This Subsequent Statement of Work is incorporated by reference in the Independent 
 Contractor Services Agreement between GitLab and {Name of Contributor} (“Contributor”) 
-having an Effective Date of [DATE OF ORIGINAL AGREEMENT] (the “Agreement”). It sets 
+having an Effective Date of \[DATE OF ORIGINAL AGREEMENT\] (the “Agreement”). It sets 
 forth work tasks, deliverable work product, dates for completion of work and delivery 
 of work product, and payment schedule and terms. This Subsequent Statement of Work 
 is subject to the provisions of the Agreement, including, without limitation, the
