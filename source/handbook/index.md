@@ -222,6 +222,9 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
       <li>Skype calling credit, we can autofill your account</li>
       <li>Google Hangouts calling credit</li>
       <li>Office space (if working from home is not practical)</li>
+      <li>Work related online courses</li>
+      <li>Work related books</li>
+      <li>Work related conferences (please get persmission in advance if total costs are more than $500)</li>
       <li>Business travel upgrades:
         <ul>
             <li> Up to the first <a href="https://www.google.com/search?q=300+eur+in+usd">EUR 300</a> for an upgrade to Business Class on flights longer than 8 hours.</li>
