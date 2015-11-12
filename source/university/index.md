@@ -29,7 +29,7 @@ participate or help in any way, please contact Job or submit a merge request.
 
 ### Recordings
 
-Link to recordings here.
+[Internal Recordings](https://drive.google.com/drive/u/0/folders/0B41DBToSSIG_NlNFLUEwQ2JHSVk) link accessible to GitLab employees only
 
 ### Test results
 

@@ -48,9 +48,12 @@ We're working on making [all issues public](https://about.gitlab.com/2015/08/03/
 - [CI build artifacts](https://gitlab.com/gitlab-org/gitlab-ce/issues/3028)
 - CI runner caching (not doing a clean on a fetch)
 
+
 ### [8.3](https://gitlab.com/groups/gitlab-org/milestones/8-3?title=8.3)
 
 - [Revert merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
+- [GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1748)
+- [Issue Weight (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/70)
 
 ### [8.4](https://gitlab.com/groups/gitlab-org/milestones/8-4?title=8.4)
 
@@ -62,8 +65,7 @@ We're working on making [all issues public](https://about.gitlab.com/2015/08/03/
 
 ### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5)
 
-- [GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ce/issues/3085)
-
+### 9.0
 
 ## Wishlist
 
