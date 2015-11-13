@@ -64,7 +64,7 @@ We're working on making [all issues public](https://about.gitlab.com/2015/08/03/
 
 ### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5)
 
-- [GitLab RE for readonly secundary servers](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
+- [GitLab RE for readonly secundary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
 
 ### 9.0
 
