@@ -99,7 +99,7 @@ in a way that all relevant parties get notified.
 - [Filter by more than one label](https://gitlab.com/gitlab-org/gitlab-ce/issues/989)
 - [Move issues between projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/3024)
 - [Set Issue weight](https://gitlab.com/gitlab-org/gitlab-ce/issues/3397)
-- [Time tracking](https://dev.gitlab.org/gitlab/gitlabhq/issues/2192)
+- [Time tracking](https://gitlab.com/gitlab-org/gitlab-ee/issues/78)
 - Draw and drop issues to prioritize them
 - Handle incoming emails with support questions in issues, needs spam filter
 - [Labels should be visible in Milestone view](https://gitlab.com/gitlab-org/gitlab-ce/issues/3276)
