@@ -7,7 +7,7 @@ title: "About Stock Options"
 At GitLab we strongly believe in employee ownership in our Company.  We are in business 
 to create value for our shareholders and we want our employees to benefit from that shared success.
 
-*In this [document](add hyperlink once approved) (only accessible to GitLab team members), 
+*In this [document](https://docs.google.com/document/d/1tS-HBzy9kYH1tIGPV3ivilyrmWAGPeqowV45m1zkxuQ/edit) (only accessible to GitLab team members), 
 you can find some more details on the number of shares outstanding and the most recent valuations.*
 
 This guide is meant to help you understand the piece of GitLab that you’re going to own! 
@@ -97,8 +97,8 @@ you should consult your tax advisor before making such decision.
 Also, while the company has the right to repurchase the unvested shares upon your 
 termination of services, the company is not obligated to do so.  Accordingly you could 
 lose some or all of the investment you made.  Because we are a young company there are 
-lots of risks so be aware and informed of the risks.  Here is a link to the type of 
-article you may find informative: https://www.quora.com/What-is-the-truth-behind-9-out-of-10-startups-fail 
+lots of risks so be aware and informed of the risks.  [Here is a link to the type of 
+article you may find informative.](https://www.quora.com/What-is-the-truth-behind-9-out-of-10-startups-fail) 
 
 
 ### Option Expiration
@@ -148,10 +148,7 @@ only the difference between the exercise price and the fair market value is cons
 you exercise early there is no difference between the two and therefore no taxable gain.
 Again, the decision to exercise early should be done in consultation with your tax advisor.
 
-Anyone is always welcome to ask Paul (CFO) any questions they have about their options, 
+Anyone is always welcome to ask our CFO any questions they have about their options, 
  GitLab’s fundraising, or anything else related to equity at GitLab. However, everyone should
  also consult a lawyer before making important financial decisions, especially regarding 
  their equity because there are complex legal and tax requirements that may apply.
-
-
-
