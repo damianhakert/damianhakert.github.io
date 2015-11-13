@@ -27,9 +27,11 @@ In the future we want to have multiple classes:
 If you're interested in any of these, would like to teach in one of them or
 participate or help in any way, please contact Job or submit a merge request.
 
-### Recordings
+### Recordings & Slides
 
-[Internal Recordings](https://drive.google.com/drive/u/0/folders/0B41DBToSSIG_NlNFLUEwQ2JHSVk) link accessible to GitLab employees only
+- [Internal Recordings](https://drive.google.com/drive/u/0/folders/0B41DBToSSIG_NlNFLUEwQ2JHSVk) link accessible to GitLab employees only.
+- [The GLU Repository](https://gitlab.com/gitlab-org/University) contains the slides and
+documents of the classes.
 
 ### Test results
 
