@@ -44,7 +44,6 @@ We're working on making [all issues public](https://about.gitlab.com/2015/08/03/
 - [Create MR from editor](https://dev.gitlab.org/gitlab/gitlabhq/issues/2518) (not publicly visible)
 - [Global Milestones](https://dev.gitlab.org/gitlab/gitlabhq/issues/2474) (not publicly visible)
 - [Award Emoji](https://gitlab.com/gitlab-org/gitlab-ce/issues/2223)
-- CI gets rid of the ci_projects table
 - [CI build artifacts](https://gitlab.com/gitlab-org/gitlab-ce/issues/3028)
 - [CI runner caching (not doing a clean on a fetch)](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1786)
 
@@ -53,6 +52,7 @@ We're working on making [all issues public](https://about.gitlab.com/2015/08/03/
 - [Revert merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 - [GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1748)
 - [Issue Weight (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/70)
+- [CI gets rid of the ci_projects table](https://gitlab.com/gitlab-org/gitlab-ce/issues/3474)
 
 ### [8.4](https://gitlab.com/groups/gitlab-org/milestones/8-4?title=8.4)
 
