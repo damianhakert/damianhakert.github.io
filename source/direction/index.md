@@ -46,7 +46,7 @@ We're working on making [all issues public](https://about.gitlab.com/2015/08/03/
 - [Award Emoji](https://gitlab.com/gitlab-org/gitlab-ce/issues/2223)
 - CI gets rid of the ci_projects table
 - [CI build artifacts](https://gitlab.com/gitlab-org/gitlab-ce/issues/3028)
-- CI runner caching (not doing a clean on a fetch)
+- [CI runner caching (not doing a clean on a fetch)](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1786)
 
 ### [8.3](https://gitlab.com/groups/gitlab-org/milestones/8-3?title=8.3)
 
