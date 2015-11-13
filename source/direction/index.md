@@ -48,7 +48,6 @@ We're working on making [all issues public](https://about.gitlab.com/2015/08/03/
 - [CI build artifacts](https://gitlab.com/gitlab-org/gitlab-ce/issues/3028)
 - CI runner caching (not doing a clean on a fetch)
 
-
 ### [8.3](https://gitlab.com/groups/gitlab-org/milestones/8-3?title=8.3)
 
 - [Revert merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
@@ -135,6 +134,7 @@ in a way that all relevant parties get notified.
 - Push to another repo
 - [Management dashboard](https://dev.gitlab.org/gitlab/gitlab-ee/issues/287)
 - [Geographic slave servers with GitLab RE](https://dev.gitlab.org/gitlab/gitlabhq/issues/2359) for plus subscriptions only
+- [Highly Available (HA) Omnibus Packages](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
 
 ### CI
 
