@@ -66,6 +66,8 @@ We're working on making [all issues public](https://about.gitlab.com/2015/08/03/
 
 ### 9.0
 
+- [Nested groups](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772)
+
 ## Wishlist
 
 Below you will find several things we'd really like to see in GitLab.
