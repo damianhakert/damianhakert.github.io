@@ -30,19 +30,16 @@ Due to our short release cycle we can ship simple feature requests (for example 
 GitLab releases a new version every single month on the 22nd.
 Note that we often move things around, do things that are not listed and we don't always get to do everything that is planned.
 Also the list below not include any contributions from outside GitLab the company.
-
-The version numbers below link to the public issues for that version accross all products.
+The version numbers below link to the issues for that version accross all products.
 The bullets list the tentpole features; the most improtant features of upcoming releases.
-Some links still point to internal issues that are not publicly visible.
-We're working on making [all issues public](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
 
 ### [8.2](https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2)
 
 - [Git LFS support](https://gitlab.com/gitlab-org/gitlab-ce/issues/2955)
-- [Repository mirroring (EE)](https://dev.gitlab.org/gitlab/gitlab-ee/issues/279) (not publicly visible)
+- [Repository mirroring (EE)](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/51)
 - [Releases](https://gitlab.com/gitlab-org/gitlab-ce/issues/2701)
-- [Create MR from editor](https://dev.gitlab.org/gitlab/gitlabhq/issues/2518) (not publicly visible)
-- [Global Milestones](https://dev.gitlab.org/gitlab/gitlabhq/issues/2474) (not publicly visible)
+- [Create MR from editor](https://gitlab.com/gitlab-org/gitlab-ce/issues/3059)
+- [Global Milestones](https://gitlab.com/gitlab-org/gitlab-ce/issues/3488)
 - [Award Emoji](https://gitlab.com/gitlab-org/gitlab-ce/issues/2223)
 - [CI build artifacts](https://gitlab.com/gitlab-org/gitlab-ce/issues/3028)
 - [CI runner caching (not doing a clean on a fetch)](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1786)
