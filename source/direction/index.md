@@ -52,7 +52,7 @@ We're working on making [all issues public](https://about.gitlab.com/2015/08/03/
 - [Revert merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 - [GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1748)
 - [Issue Weight (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/70)
-- [CI gets rid of the ci_projects table](https://gitlab.com/gitlab-org/gitlab-ce/issues/3474)
+- [Migrate all Ci::Project data to Project](https://gitlab.com/gitlab-org/gitlab-ce/issues/3474)
 
 ### [8.4](https://gitlab.com/groups/gitlab-org/milestones/8-4?title=8.4)
 
