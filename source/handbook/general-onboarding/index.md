@@ -63,10 +63,10 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] Jacob/CEO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] Hiring manager: Invite to team meeting
 * [ ] People Ops: Send [People Information sheet](https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0) and instruct to return answers via email or slack
-* [ ] People Ops: [Add to Lastpass](https://lastpass.com/enterprise_create.php) and create folder for new hire in Lastpass
-* [ ] People Ops: Put People Information into Profiles in Lastpass
+* [ ] People Ops: [Add to 1password](https://gitlab.1password.com/admin/people/members) and create an item for new hire in profiles vault
+* [ ] People Ops: Put People Information into Profiles in 1password
 * [ ] People Ops: Set up meeting with new team member on day 3 or 4 to any questions that remain. New team member should have gone through handbook and guide meeting with specific questions after having reviewed onboarding process.
-* [ ] New team member: Login to Lastpass and set up secure passwords per the handbook (insert link to security section on how to use LP).
+* [ ] New team member: Login to 1password and set up secure passwords per the handbook (insert link to security section on how to use LP).
 * [ ] Business Office manager: Add Bluejeans account (if necessary)
 * [ ] Business Office manager: Add to GitLab Dropbox
 * [ ] Business Office manager: Add to BV and/or Inc Dropbox (if in Finance, if in another dept ask CEO if appropriate)
@@ -146,35 +146,34 @@ The most common Issues are created in the following projects:
 
 ### Security<a name="security"></a>
 <ol>
-<li>When you are offboarded the Lastpass account is deleted, if you want to store your non-work passwords please create a personal lastpass account and [link it to your work account](https://enterprise.lastpass.com/getting-started/link-personal-account/).</li>
+<li>When you are offboarded the 1password account is deleted, if you want to store your non-work passwords please store them in your 'Primary' vault, not the vault named 'Your Vault'.</li>
  <li><b>Never reuse</b> a password you use on a company account, not for another GitLab service nor for a personal account.</li>
-<li>Set up <a href="https://lastpass.com/">LastPass</a> as your password manager and set a strong and unique master password.</li>
-<li>Use Lastpass to <a href="https://helpdesk.lastpass.com/generating-a-password/">generate <b>strong passwords</b></a> for any new company accounts.</li>
+<li>Set up <a href="https://agilebits.com/onepassword">1password</a> as your password manager and set a strong and unique master password.</li>
+<li>Use 1password to <a href="https://support.1password.com/guides/mac/generate-a-strong-password.html">generate <b>strong passwords</b></a> for any new company accounts.</li>
 <li>
 <p>
 When signing up for a new service ask yourself which team members you need to <b>share access</b> with.
 If the service has a built-in way of creating other user accounts, use that.
-If not, then store your credentials in an appropriate shared folder on our company LastPass account so that your colleagues can sign in using your credentials.
+If not, then store your credentials in an appropriate company 1password vault so that your colleagues can sign in using your credentials.
 </p>
 <p>
 Do not share credentials via email, issue comments, chat etc.
 This includes email addresses to login and API keys.
-Use LastPass shared folders for this.
-You should be invited to a few shared folders.
+Use 1password vaults for this.
+You should be invited to a few vaults after joining the company.
 </p>
 <p>
-If you're missing an appropriate folder ask the CEO to create a new shared folder.
-Refer to the items with 'NAME OF SITE' in 'LASTPASS FOLDER'.
-Do not use the share function in Lastpass itself, use shared folders and email others to altert them if needed.
-Do not store credentials in a shared folder if everyone has their own user account for the service.
+If you're missing an appropriate vault ask the CEO to create a new vault.
+Refer to the items with NAME_OF_SITE credentials in VAULT_NAME. For example: "for access please see the AOL credentials in the Luddite vault".
+Do not store credentials in a vault if everyone has their own user account for the service.
 </p>
 </li>
 <li>Do not let your password manager store the <b>master password</b> (it is ok to store the login).</li>
-<li>Enable 2 factor authentication (2FA) with <a href="https://support.google.com/accounts/answer/1066447?hl=en">Google Authenticator</a> (not SMS) for your Lastpass account, Google, Slack and GitLab accounts.</li>
+<li>Enable 2 factor authentication (2FA) with <a href="https://support.google.com/accounts/answer/1066447?hl=en">Google Authenticator</a> (not SMS) for your Google, Slack and GitLab accounts. These can be added to 1password via 'Add new one-time password'.</li>
 <li><b>Encrypt</b> your home folder (easy on Ubuntu/Debian, on OS X use FileVault2 full disk encryption).</li>
 <li>Set up a screen saver with password <b>lock</b> on your notebook. The timeout can depend on how you use your laptop.</li>
 <li><b>Report</b> suspect situations to an officer of the company.</li>
-<li>If you have security <b>suggestions</b> put them on the <a href="https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit">agenda</a>.</li>
+<li>If you have security <b>suggestions</b> put them on the <a href="https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit">team call agenda</a>.</li>
 <li>Never <b>dismiss</b> a security report as invalid. Keep asking questions until the researcher comes to the same conclusion or stops responding.</li>
 <li>Do not <b>forward</b> company emails (@gitlab.com) to a non-company email address.</li>
 <li>
@@ -182,7 +181,7 @@ Do not store credentials in a shared folder if everyone has their own user accou
   Clicking itself is a problem even when you don't enter a password, because a visit can already be used to execute a zero day.
   We simulate phishing attacks by having an external service send emails to our company email addresses to ensure everyone is aware of the threat.
 </li>
-<li>All access is noted in [a Google Sheet](https://docs.google.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit#gid=0) use this to request access, ping the relevant administrator after you updated the sheet</li>
+<li>All access to vaults is noted in [a Google Sheet](https://docs.google.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit#gid=0) use this to request access, ping the relevant administrator after you updated the sheet</li>
 </ol>
 
 ### Quiz<a name="quiz"></a>
@@ -304,7 +303,7 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 * [ ] Operations: reach out to former team member to identify and retrieve any company supplies/equipment.
 * [ ] Jacob/CEO: Remove former team members' Gitlab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] Jacob/CEO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
-* [ ] People Ops: Remove team member access to LastPass.
+* [ ] People Ops: Remove team member access to 1password.
 * [ ] People Ops: Remove team member access to Dropbox.
 * [ ] Manager/CEO: Remove access to SalesForce.
 * [ ] Manager/CEO: Remove access to Recurly.
