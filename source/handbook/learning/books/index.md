@@ -5,8 +5,14 @@ title: "Books"
 
 ## Books
 
-List of books, that may be worth reading.
+List of books and resources, that may be worth reading.
 
+
+### Papers
+
+1.  **The Humble Programmer** ([paper](http://dl.acm.org/citation.cfm?id=361591))
+
+    Edsger W. Dijkstra, 1972
 
 ### Programming
 
