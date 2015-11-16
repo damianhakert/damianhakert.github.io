@@ -62,6 +62,7 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 ### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5)
 
 - [GitLab RE for readonly secundary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
+- [Focus Dashboard](https://gitlab.com/gitlab-org/gitlab-ce/issues/3467)
 
 ### [9.0](https://gitlab.com/groups/gitlab-org/milestones/9-0?title=9.0)
 
