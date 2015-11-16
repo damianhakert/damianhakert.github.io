@@ -29,8 +29,11 @@ participate or help in any way, please contact Job or submit a merge request.
 
 ### Class of Nov 12, 2015
 
-- [Upcoming in EE](classes/upcoming_in_ee.md)
-- [Big files in Git (Git LFS, Annex)](classes/git_lfs_and_annex.md)
+Note that these are in markdown. PDFs are coming with the release of GitLab LFS.
+View them using [Deckset](http://www.decksetapp.com/).
+
+- [Upcoming in EE](https://gitlab.com/gitlab-org/University/blob/master/classes/upcoming_in_ee.md)
+- [Big files in Git (Git LFS, Annex)](https://gitlab.com/gitlab-org/University/blob/master/classes/git_lfs_and_annex.md)
 
 ### Recordings & Slides
 
