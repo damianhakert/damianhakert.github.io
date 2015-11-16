@@ -27,6 +27,11 @@ In the future we want to have multiple classes:
 If you're interested in any of these, would like to teach in one of them or
 participate or help in any way, please contact Job or submit a merge request.
 
+### Class of Nov 12, 2015
+
+- [Upcoming in EE](classes/upcoming_in_ee.md)
+- [Big files in Git (Git LFS, Annex)](classes/git_lfs_and_annex.md)
+
 ### Recordings & Slides
 
 - [Internal Recordings](https://drive.google.com/drive/u/0/folders/0B41DBToSSIG_NlNFLUEwQ2JHSVk) link accessible to GitLab employees only.
