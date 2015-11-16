@@ -11,17 +11,14 @@ filename: 2015-11-09-gitlab-dot-com-migration-to-azure.markdown
 On **Friday 08.10.15** at **12.00 UTC** we begun a migration of GitLab.com from AWS to Azure.
 
 **1. Why did we decide to migrate from AWS to Azure?**
-
 We have $500,000 of free Azure hosting credit from Microsoft that was offered to each YCombinator startup from the winter 2015 batch onwards. You can read more about this on the [YCombinator blog post](http://blog.ycombinator.com/$500k-of-azure-credit-for-yc-startups). This enables us to save on our hosting bill and direct this money into improving GitLab in other means e.g. hiring developers.
 
 We decided to migrate to Azure US East for two reasons one was the overall latency for majority of our users. The second reason is that Azure has more features available at US East like optimized storage performance compared to their other locations.
 
 **2. Are there any plans to distribute the servers across more regions?**
-
 Not at this time, cross-region file access to Git repositories is too slow but we do have plans for GitLab primary/secondary server setups and/or sharding but this will take a lot of development work.
 
 **3. What have we achieved thus far?**
-
 GitLab.com currently runs on Azure. We're still working closely with Microsoft through some performance issues many of you have noticed for GitLab.com. Please stay tuned as we continue to improve uptime performance. For real-time updates, follow us on https://twitter.com/gitlabstatus
 
 **4. What are some of the challenges we experienced?**
@@ -39,7 +36,6 @@ GitLab.com currently runs on Azure. We're still working closely with Microsoft t
   A short term fix is to move the Postgres and Redis disks out of the storage account used by the NFS server but we do not think this will buy us a lot of time.
 
 **5. Has the move been the major cause of our increased recent downtimes?**
-
 Some recent downtime was due to (ongoing) growing pains. Some was due to actually moving to Azure. Azure and AWS are similar but not identical hence we are facing different bottlenecks.
 
 AWS uses Xen and Azure uses Hyper-V. It currently seems that linux runs far more smoother on Xen than on Hyper-V especially during vm migrations. So when Azure migrates our virtual machines due to updates on their Hyper-V servers sometimes they got stuck or network is not responding anymore.
@@ -59,3 +55,14 @@ AWS uses Xen and Azure uses Hyper-V. It currently seems that linux runs far more
 
 - We are [hiring](https://about.gitlab.com/jobs/) DevOps engineers, service engineers, and developers to help us build GitLab and improve the performance of GitLab.com 
 - We have also moved issue discussions involving GitLab operations to our [public operations issue tracker](https://gitlab.com/gitlab-com/operations/issues/) for the community to pitch in.
+
+**9. Conclusion **
+Despite Azure not being as reliable as our previous AWS setup, **we own our own availability**. The following are some of the mistakes we made prior to the migration that acted as a precursor of our troubles:
+
+- We didn't allow enough time to study the documentation
+- We didn't interview other companies about their experiences
+- We didn't have our setup reviewed by Azure experts
+- We didn't set up the support account before moving
+- We didn't run a staging environment
+
+We are however dedicated to ensuring that GitLab.com is fast and stable and are apologetic for the recent troubles our users have had to go through.
