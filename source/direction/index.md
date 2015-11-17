@@ -169,15 +169,15 @@ in a way that all relevant parties get notified.
 
 Every knowledge worker needs to collaborate on digital content.
 These should be open to suggestions by a wide number of potential contributors.
-This can be achived by using a mergable file format and distributed version control.
+This can be achieved by using a mergeable file format and distributed version control.
 We want to ensure GitLab is used to collaborate on all digital content.
 
-Idea's go flow though many stages before they are realized: chat => issue => sprint => IDE => commit => CI => review => acceptance => deployment.
-Stiching all these stages together can be done in many different ways.
-GitHub stitches it together with a marketplace of propietary apps from different suppliers.
+Idea's go flow though many stages before they are realized: chat, issue, sprint, IDE, commit, CI, review, acceptance, deployment.
+Stitching all these stages together can be done in many different ways.
+GitHub stitches it together with a marketplace of proprietary apps from different suppliers.
 Atlassian stitches it together with a suite of products that are developed in isolation.
 We believe that an integrated and opinionated set of tools offers a superior user experience.
-The open source nature of GitLab ensures everyone can contribute to achive a [complete feature set](https://about.gitlab.com/comparison/).
+The open source nature of GitLab ensures everyone can contribute to achieve a [complete feature set](https://about.gitlab.com/comparison/).
 Because of the open source code the enhancements become part of the codebase instead of being external.
 This means the tests for all functionality are continually tested, ensuring that plugins always work.
 And that GitLab can continue to evolve with it's plugins instead of being bound to a plugin API that is hard to change.
