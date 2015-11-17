@@ -12,12 +12,12 @@ Some content from Heather McNamee her presentation [Developer Marketing Brainsto
 * The content doesn't have to be about GitLab, it can also be other content aimed at developers, Hacker News or team leads.
 * You need to have high quality and high volume
 * What worked for Apigee was the 'collaboration in the 21st century' theme
-* Video's with good screencasts, great subtitles, and narratives are expensive but popular, and hard to copy (what does happens to written content), Realm.io does a lot of good video's, for example [about Swift](https://realm.io/news/top-5-swift-videos-of-2014/)
+* Videos with good screencasts, great subtitles, and narratives are expensive but popular, and hard to copy (what does happens to written content), Realm.io does a lot of good videos, for example [about Swift](https://realm.io/news/top-5-swift-videos-of-2014/)
 * A reading club such as [a NoSQL summer](http://nosqlsummer.org/)
 * Content should communicate that GitLab is ahead of other tools (CI, etc.), it is the cool new thing, a better product with a better community
-* Milk [GitLab Flow](http://doc.gitlab.com/ee/workflow/gitlab_flow.html) for more blog posts and video's
+* Milk [GitLab Flow](http://doc.gitlab.com/ee/workflow/gitlab_flow.html) for more blog posts and videos
 * CI for mobile is painful (Gradle files for Android, loads of assets such as Xcode binaries) and the best current option is customizing Jenkins, mobile is a small circle that moves fast, collaborate with leading projects such as [CocoaPods](https://cocoapods.org/) for iOS (Sid can contract [Eloy Durán](https://twitter.com/alloy) and [Gradle](https://gradle.org/) for Android to create a great CI experience and blog about it
-* Can accellerate the above with free CI runners
+* Can accelerate the above with free CI runners
 * Offer $100 per blog post and use a public issue tracker to gather idea's and tag them as acceptable.
 * Encourage guest posts on our blog
 
@@ -41,16 +41,16 @@ There seems to be [demand for this](https://www.theknowledgeacademy.com/sc/cours
 
 ## Events
 
-* People and espacially the CEO should go shaking hands, even at small events.
+* People and especially the CEO should go shaking hands, even at small events.
 * If you go talk at small events you'll see that over time you get into bigger ones.
 * People that you meet in person are more likely to become evangelists for you.
-* Attend conferences, espacially OSCON
+* Attend conferences, especially OSCON
 
 ## Club
 
 Start a GitLab Club for people that evangelize GitLab, make them a superhero:
 
-1. Find them on Twitter, Stack Overflow, our issue tracker, our commits, our irc channel, etc.
+1. Find them on Twitter, Stack Overflow, our issue tracker, our commits, our IRC channel, etc.
 1. These people can get access to swag (coupons for webstore)
 1. Access to the company and eachother (via a chat channel)
 1. Access to our service engineers (support tokens?)
@@ -75,7 +75,7 @@ Start a GitLab Club for people that evangelize GitLab, make them a superhero:
 1. Organizers become part of the GitLab Club
 
 The first meetups should be run by ourselves.
-If someone managers to have 3 to 4 successive meetups it will live on.
+If someone manages to have 3 to 4 successive meetups it will live on.
 Dead meetup cities will be much harder to start up again than new ones.
 So do everthing to keep it going.
 
@@ -84,6 +84,7 @@ So do everthing to keep it going.
 * Should do it in a way that doesn't cost us a lot of time to execute => self serve => web shop
 * With a webshop you can just give people credit, they can pick what they want and provide shipping info
 * Have lots of mugs, mugs are a conversational item in the office
+* Special edition stickers for contributors, GitLab Club members. 
 
 ## Partners
 
