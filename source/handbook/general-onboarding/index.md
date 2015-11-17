@@ -21,18 +21,22 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 ```
 ### BEFORE STARTING AT GITLAB
 
-* [ ] People Ops: Create issue called 'Onboard Jane Doe starting March 26' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master checklist, paste the private email address of the hire in there and /cc Jacob, Patricio and CEO.
+* [ ] People Ops: Create issue called 'Onboard Jane Doe starting March 26' in 
+[organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant 
+lines of the master checklist, paste the private email address of the hire in 
+there and /cc @jacobvosmaer, @patricio and @sytse.
+* [ ] Hiring manager is (FILL IN), buddy is (FILL IN), and People Ops is tackled by (FILL IN).
 * [ ] Hiring manager: cc new team member on the issue once they have a dev.GitLab.org account.
 * [ ] Jacob/CEO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
 * [ ] Jacob/CEO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 * [ ] Hiring manager: send an email to company address 'Please read https://about.gitlab.com/handbook/ and the relevant onboarding pages that are linked from there and let me know if you have any questions.'
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), and become comfortable with Git and the GitLab workflow.
-* [ ] New team member: provide signed contract to People Ops.
+* [ ] New team member: provide signed contract (including signed proprietary information and assignment agreement (PIAA)) to People Ops. 
 * [ ] New team member: provide scan of photo ID to People Ops.
-* [ ] New team member: provide signed PIAA (proprietary information and assignment agreement) to People Ops.(US employees have a PIAA included in their contract)
-* [ ] People Ops: file signed PIAA, contract, and photo ID in Dropbox and confirm receipt by commenting in the issue.
+* [ ] People Ops: file signed contract, PIAA, and photo ID in Dropbox and confirm receipt by commenting in the issue.
 * [ ] Jacob/CEO: Add to Slack
-* [ ] People Ops: Send email to new hire and buddy introducing them "We expect you to be resourceful but your buddy is here to help you get up to speed quickly.". Buddy is a junior that performs a similar job.
+* [ ] People Ops: Send email to new hire and buddy introducing them "We expect 
+you to be resourceful but your buddy is here to help you get up to speed quickly.".
 
 ### WITHIN TWO DAYS OF STARTING
 
@@ -43,20 +47,20 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] New employee: submit a completed [New Employee Personal Information Form](https://docs.google.com/a/gitlab.com/document/d/1oK_-me8inC6pyODjITxMHiq5C5NC88xQw6cwUBU5g1g/edit?usp=sharing) to HR@gitlab.com
 * [ ] New employee: read through the [New Hire Benefits Guide](https://drive.google.com/a/gitlab.com/file/d/0B0dixQ9qzgilNlN0MnNFS29xWnB2SjNWVUk3dUV2aWlhejVR/view?usp=sharing). This will go over medical, dental, vision and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
 * [ ] People Ops: Set up new hire training with TriNet (If necessary).
+* [ ] People Ops: Add new employees to [Inc payroll](https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl).
+
 
 #### For GitLab BV employees only
 
 * [ ] New employee: provide People Ops with your BSN (burger service nummer), bank account information (IBAN code), the basics (name, address, date of birth), and if you are based in the Netherlands, please indicate whether you want "loonheffingskorting" to be applied or not.
+* [ ] People Ops: Add new employees to [BV payroll](https://docs.google.com/document/d/1g6nZ7w1RqkSvD6VbyuRPauDTUuyTp4mDaHrUY2UVY-A/edit).
 
-#### For All New Team Members
-
-* [ ] People Ops: Add new employees to [Inc payroll](https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl) or [BV payroll](https://docs.google.com/document/d/1g6nZ7w1RqkSvD6VbyuRPauDTUuyTp4mDaHrUY2UVY-A/edit).
-* [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment
-* [ ] Patricio/Jacob/CEO: Add to tweetdeck
-* [ ] Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar or stock photo).
 
 ### WITHIN FIRST WEEK OF STARTING
 
+* [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment.
+* [ ] Patricio/Jacob/CEO: Add to tweetdeck
+* [ ] Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar or stock photo).
 * [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle
 * [ ] Hiring manager: /cc the new user in the organization issue with this checklist that was created for them.
 * [ ] Jacob/CEO: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
@@ -66,14 +70,14 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] People Ops: [Add to 1password](https://gitlab.1password.com/admin/people/members) and create an item for new hire in profiles vault
 * [ ] People Ops: Put People Information into Profiles in 1password
 * [ ] People Ops: Set up meeting with new team member on day 3 or 4 to any questions that remain. New team member should have gone through handbook and guide meeting with specific questions after having reviewed onboarding process.
-* [ ] New team member: Login to 1password and set up secure passwords per the handbook (insert link to security section on how to use LP).
+* [ ] New team member: Login to 1password and [set up secure passwords per the handbook.](https://about.gitlab.com/handbook/general-onboarding/#security)
 * [ ] Business Office manager: Add Bluejeans account (if necessary)
-* [ ] Business Office manager: Add to GitLab Dropbox
+* [ ] Business Office manager: Add to GitLab Dropbox (if necessary)
 * [ ] Business Office manager: Add to BV and/or Inc Dropbox (if in Finance, if in another dept ask CEO if appropriate)
 * [ ] Business Office manager: Invite to autoconnect on Beamy
 * [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/)
 * [ ] CEO: Add team member to the GitLab availability calendar
-* [ ] New team member: The home folder of my harddrive is encrypted
+* [ ] New team member: I verify that the home folder of my harddrive is encrypted.
 
 ### FOR SALES AND FINANCE ONLY
 
