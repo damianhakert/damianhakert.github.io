@@ -167,7 +167,7 @@ in a way that all relevant parties get notified.
 
 ## Product Vision
 
-Everyone needs to collaborate on digital content.
+Everyone, including all knowledge workers, needs to collaborate on digital content.
 This content should be open to suggestions by a wide number of potential contributors.
 This can be achieved by using a mergeable file format and distributed version control.
 GitLab allows everyone to collaborate on all digital content.
@@ -180,5 +180,5 @@ We believe that an integrated and opinionated set of tools offers a superior use
 
 The open source nature of GitLab ensures everyone can contribute to achieve a [complete feature set](https://about.gitlab.com/comparison/).
 Because GitLab is open source the enhancements can become part of the codebase instead of being external.
-This means the tests for all functionality are continually tested, ensuring that plugins always work.
+This ensures the automated tests for all functionality are continually run, ensuring that plugins always work.
 And that GitLab can continue to evolve with it's plugins instead of being bound to a plugin API that is hard to change.
