@@ -167,16 +167,17 @@ in a way that all relevant parties get notified.
 
 ## Product Vision
 
-In the future, every digital product will be managed in distributed version
-control. GitLab will be the product make this possible and accessible.
+Every knowledge worker needs to collaborate on digital content.
+These should be open to suggestions by a wide number of potential contributors.
+This can be achived by using a mergable file format and distributed version control.
+We want to ensure GitLab is used to collaborate on all digital content.
 
-GitLab will make it possible for teams of any size to work on
-digital products of any nature, effortlessly, distributed and asynchronously.
-
-To make this possible, GitLab has to be easy to use, fully featured, fast and reliable.
-It has to make communication and working with many people easier.
-
-GitLab is build by a large community of contributors. It has to be build in a way
-that promotes contributions. By writing great documentation, amazing test suites
-and making good use of (our own) continuous integration services, everyone can
-quickly start developing and get instant feedback.
+Idea's go flow though many stages before they are realized: chat => issue => sprint => IDE => commit => CI => review => acceptance => deployment.
+Stiching all these stages together can be done in many different ways.
+GitHub stitches it together with a marketplace of propietary apps from different suppliers.
+Atlassian stitches it together with a suite of products that are developed in isolation.
+We believe that an integrated and opinionated set of tools offers a superior user experience.
+The open source nature of GitLab ensures everyone can contribute to achive a [complete feature set](https://about.gitlab.com/comparison/).
+Because of the open source code the enhancements become part of the codebase instead of being external.
+This means the tests for all functionality are continually tested, ensuring that plugins always work.
+And that GitLab can continue to evolve with it's plugins instead of being bound to a plugin API that is hard to change.
