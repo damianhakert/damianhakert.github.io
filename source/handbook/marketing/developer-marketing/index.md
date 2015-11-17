@@ -5,7 +5,7 @@ title: "Developer Marketing"
 
 Some of this was based on a conversation with Tim Anglade of Realm.io, great insights are his, mistakes are ours. Thanks to Tim for helping us!
 
-Some content from Heather McNamee her presentation [Developer Marketing Brainstorm](https://docs.google.com/document/d/1gCOSWFysoEfYbnAQcqteWjQYQzzphW0Gd0XRcTXYHVw/edit#)
+Some content from Heather McNamee her presentation [Developer Marketing Brainstorm](https://docs.google.com/document/d/1gCOSWFysoEfYbnAQcqteWjQYQzzphW0Gd0XRcTXYHVw/edit#) (invite only).
 
 ## Content
 
