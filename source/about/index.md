@@ -87,7 +87,7 @@ We realize that GitLab is more than this organization, this is shown by having p
 We think good code can be written by anyone, we encourage diversity by contributing to <a href="http://railsgirls.nl/">RailsGirls NL</a>.
 We try to correct the mistakes we make, please give us a chance by <a href="mailto:contact@gitlab.com">emailing us</a>.
 
-## Our stewardship of GitLab CE
+## Our stewardship of GitLab CE<a name="stewardship"></a><a name="our-stewardship-of-gitlab-ce"></a>
 
 GitLab Inc. is a for profit company that balances the need to improve
 GitLab Community Edition (CE) with the need to add features to GitLab
