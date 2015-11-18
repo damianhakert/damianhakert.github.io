@@ -28,7 +28,7 @@ title: "Sales Onboarding"
 
 1. [Comparison page on our website](https://about.gitlab.com/comparison/)
 
-1. [Our Sales Process](https://about.gitlab.com/handbook/sales_process/)
+1. [Our Sales Process](https://about.gitlab.com/handbook/sales-process/)
 
 1. [Our Sales Agenda](https://docs.google.com/document/d/1l1ecVjKAJY67Zk28CYFiepHAFzvMNu9yDUYVSQmlTmU/edit)
 
@@ -43,8 +43,6 @@ title: "Sales Onboarding"
 
 
 1. [Our Sales Communication Guide](https://docs.google.com/document/d/1IMDzTj3hZrnsA417z9Ye7WBa8yLkWxGzaLZNJ3O_nVA/edit#heading=h.3nffcmsbeqo7)
-
-1. [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 
 1. [Giving a GitLab demo](https://about.gitlab.com/handbook/demo/)
 
