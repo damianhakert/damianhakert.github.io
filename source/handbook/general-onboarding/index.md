@@ -36,8 +36,10 @@ there and /cc @jacobvosmaer, @patricio and @sytse.
 * [ ] New team member: provide scan of photo ID to People Ops.
 * [ ] People Ops: file signed contract, PIAA, and photo ID in Dropbox and confirm receipt by commenting in the issue.
 * [ ] Jacob/CEO: Add to Slack
-* [ ] People Ops: Send email to new hire and buddy introducing them "We expect 
-you to be resourceful but your buddy is here to help you get up to speed quickly.".
+* [ ] People Ops: Assign buddy and explain to buddy what that means: "What it 
+means is that if she/he has questions she/he can come to you. But your main job 
+as a buddy will be to direct her/him to the right parts of the handbook, and/or 
+encourage her/him to ask her/his questions of the wider group on Slack, etc."
 
 ### WITHIN TWO DAYS OF STARTING
 
