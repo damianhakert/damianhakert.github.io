@@ -16,6 +16,7 @@ title: "Sales Onboarding"
     * [Creating a new project in GitLab](https://www.youtube.com/watch?v=7p0hrpNaJ14)
     * [Issue and Merge Request](https://www.youtube.com/watch?v=raXvuwet78M)
     * [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
+    * [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/cmp3000/webcomponents/jsp/docshow/closewindow.jsp)
     * [What is GitLab OmniBus?](https://www.youtube.com/watch?v=XTmpKudd-Oo)
     * [How to install GitLab with Omnibus](https://www.youtube.com/watch?v=Q69YaOjqNhg)
     * [Managing permissions within EE](https://www.youtube.com/watch?v=DjUoIrkiNuM)
