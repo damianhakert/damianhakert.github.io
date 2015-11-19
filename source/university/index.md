@@ -27,6 +27,17 @@ In the future we want to have multiple classes:
 If you're interested in any of these, would like to teach in one of them or
 participate or help in any way, please contact Job or submit a merge request.
 
+### Class of Nov 19, 2015
+
+Note that these are in markdown. PDFs are coming with the release of GitLab LFS.
+View them using [Deckset](http://www.decksetapp.com/).
+
+- [GitLab 8.2](https://gitlab.com/gitlab-org/University/blob/master/classes/8.2.md)
+
+#### Test
+
+- [Make the test](http://goo.gl/forms/9PnmhiNzEa)
+
 ### Class of Nov 12, 2015
 
 Note that these are in markdown. PDFs are coming with the release of GitLab LFS.
