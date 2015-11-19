@@ -19,66 +19,57 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 <!--more-->
 
-## ***MAIN_CE_FEATURE***
+## Award Emoji
 
-***DESCRIPTION***
+As a remote worker, you get much less opportunities for high-fives, thumbs-ups
+and fist bumps. In order to make virtual celebrations easier, you can now
+vote on issues and merge requests using emoji!
 
-[![screenshot](/images/8_2/feature.png)](/images/8_2/feature.png) ***8_2 is the version of GitLab being released***
+![]()
 
+This makes it much easier to give and receive feedback, without a long comment thread.
+For example, we will start using issues as a replacement for our
+[feedback forum](https://feedback.gitlab.com).
 
-## ***NEW_CE_FEATURE***
+## Releases
 
-***DESCRIPTION***
+When creating versioned software, git tags are ideal. It is not rare that you
+want to include some extra files and release notes, which is not natively
+supported by Git.
 
-[![screenshot](/images/8_2/feature.png)](/images/8_2/feature.png) ***8_2 is the version of GitLab being released***
+With releases you can now add a markdown formatted message to any git tag
+and attach any amount of files to it.
 
+Simply press the edit button next to tags.
 
-## NEW_CE_FEATURE
+## Global Milestones
 
-***DESCRIPTION***
+In GitLab you were already able to create milestones that cover multiple
+projects. By giving a milestone the same name across projects, you can view the
+grouped issues and merge requests on the dashboard and in groups.
 
-[![screenshot](/images/8_2/feature.png)](/images/8_2/feature.png) ***8_2 is the version of GitLab being released***
+With Global Milestones in GitLab 8.2, we made it possible to immediately create
+milestones in multiple projects. This makes it easier to track activity and
+progress across groups and projects.
 
-## NEW_SPONSORED_FEATURE
+## Repository Mirroring (EE only)
 
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/8-2-stable/CHANGELOG#L18).
+If you want to maintain a mirror of a repository in a GitLab instance,
+you can now let GitLab handle the mirroring for you automatically in GitLab
+Enterprise Edition.
 
-## ***MAIN_EE_FEATURE*** (EE only feature)
+There are several use cases for this. If you are globally distributed and want
+to have a repository available for quick cloning, you can use repository mirroring
+to always have an up-to-date, fast mirror of a remote repository.
 
-***DESCRIPTION***
+Alternatively, if you want to have a public mirror of your project, for instance
+on GitLab.com, you can now do so effortlessly.
 
-[![screenshot](/images/8_2/feature.png)](/images/8_2/feature.png) ***8_2 is the version of GitLab being released***
+## Build artifacts
 
-## ***EE_FEATURE*** (EE only feature)
+## CI Runner Caching
 
-***DESCRIPTION***
-
-[![screenshot](/images/8_2/feature.png)](/images/8_2/feature.png) ***8_2 is the version of GitLab being released***
-
-
-## ***MAIN_CI_FEATURE***
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_2/feature.png)](/images/8_2/feature.png) ***8_2 is the version of GitLab CI being released***
-
-
-## ***NEW_CI_FEATURE***
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_2/feature.png)](/images/8_2/feature.png) ***8_2 is the version of GitLab CI being released***
-
-
-## NEW_CI_FEATURE
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_2/feature.png)](/images/8_2/feature.png) ***8_2 is the version of GitLab CI being released***
-
-## NEW_SPONSORED_FEATURE
-
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/8-2-stable/CHANGELOG#L18).
+## + a little surprise
 
 ## Other changes
 
