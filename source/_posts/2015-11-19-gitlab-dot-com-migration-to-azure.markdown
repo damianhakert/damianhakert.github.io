@@ -59,7 +59,7 @@ AWS uses Xen and Azure uses Hyper-V. It currently seems that linux runs more smo
 - We have also moved issue discussions involving GitLab operations to our [public operations issue tracker](https://gitlab.com/gitlab-com/operations/issues/) for the community to pitch in.
 
 **9. Conclusion **
-Despite Azure not being as reliable as our previous AWS setup, **we own our own availability**. The following are some of the mistakes we made prior to the migration that acted as a precursor of our troubles:
+Despite Azure not being as reliable as our previous AWS setup, **we own our availability**. The following are some of the mistakes we made prior to the migration that acted as a precursor of our troubles:
 
 - We didn't allow enough time to study the documentation
 - We didn't interview other companies about their experiences
