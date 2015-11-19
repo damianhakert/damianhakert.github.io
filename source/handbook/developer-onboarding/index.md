@@ -121,6 +121,15 @@ Every time you choose between changes in the application code or adding new depe
 you should give priority to the first because this is easier to maintain and setup. 
 If you still need to bring new dependencies to GitLab - ask another developer or the CTO for advice.
 
+### Submit your code
+
+In GitLab all code should go through a review process before it can be merged. 
+Make sure you submit a merge request for any changes you've made. 
+When the merge request is ready it should be assigned to someone else on the team.
+This person is then responsible for reviewing your code and merging it.
+Optionally you can request another developer to help or review by writing a comment.
+If a merge request is not assigned it will probably ignored and create unnecessary
+delays.
 
 [handbook]: https://about.gitlab.com/handbook
 [in the open]: https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/
