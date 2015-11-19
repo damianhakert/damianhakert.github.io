@@ -27,13 +27,37 @@ In the future we want to have multiple classes:
 If you're interested in any of these, would like to teach in one of them or
 participate or help in any way, please contact Job or submit a merge request.
 
-### Recordings
+### Class of Nov 19, 2015
 
-[Internal Recordings](https://drive.google.com/drive/u/0/folders/0B41DBToSSIG_NlNFLUEwQ2JHSVk) link accessible to GitLab employees only
+Note that these are in markdown. PDFs are coming with the release of GitLab LFS.
+View them using [Deckset](http://www.decksetapp.com/).
 
-### Test results
+- [GitLab 8.2](https://gitlab.com/gitlab-org/University/blob/master/classes/8.2.md)
 
-Link to test results here.
+#### Test
+
+- [Make the test](http://goo.gl/forms/9PnmhiNzEa)
+
+### Class of Nov 12, 2015
+
+Note that these are in markdown. PDFs are coming with the release of GitLab LFS.
+View them using [Deckset](http://www.decksetapp.com/).
+
+- [Upcoming in EE](https://gitlab.com/gitlab-org/University/blob/master/classes/upcoming_in_ee.md)
+- [Big files in Git (Git LFS, Annex)](https://gitlab.com/gitlab-org/University/blob/master/classes/git_lfs_and_annex.md)
+
+#### Test
+
+If you make the test more than a week later than the class,
+notify someone (Job) to check your answers.
+
+- [Make the test](http://goo.gl/forms/RFsNK9fKuj)
+
+### Recordings & Slides
+
+- [Internal Recordings](https://drive.google.com/drive/u/0/folders/0B41DBToSSIG_NlNFLUEwQ2JHSVk) link accessible to GitLab employees only.
+- [The GLU Repository](https://gitlab.com/gitlab-org/University) contains the slides and
+documents of the classes.
 
 ## Resources
 

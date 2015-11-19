@@ -30,29 +30,26 @@ Due to our short release cycle we can ship simple feature requests (for example 
 GitLab releases a new version every single month on the 22nd.
 Note that we often move things around, do things that are not listed and we don't always get to do everything that is planned.
 Also the list below not include any contributions from outside GitLab the company.
-
-The version numbers below link to the public issues for that version accross all products.
+The version numbers below link to the issues for that version accross all products.
 The bullets list the tentpole features; the most improtant features of upcoming releases.
-Some links still point to internal issues that are not publicly visible.
-We're working on making [all issues public](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
 
 ### [8.2](https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2)
 
 - [Git LFS support](https://gitlab.com/gitlab-org/gitlab-ce/issues/2955)
-- [Repository mirroring (EE)](https://dev.gitlab.org/gitlab/gitlab-ee/issues/279) (not publicly visible)
+- [Repository mirroring (EE)](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/51)
 - [Releases](https://gitlab.com/gitlab-org/gitlab-ce/issues/2701)
-- [Create MR from editor](https://dev.gitlab.org/gitlab/gitlabhq/issues/2518) (not publicly visible)
-- [Global Milestones](https://dev.gitlab.org/gitlab/gitlabhq/issues/2474) (not publicly visible)
+- [Create MR from editor](https://gitlab.com/gitlab-org/gitlab-ce/issues/3059)
+- [Global Milestones](https://gitlab.com/gitlab-org/gitlab-ce/issues/3488)
 - [Award Emoji](https://gitlab.com/gitlab-org/gitlab-ce/issues/2223)
-- CI gets rid of the ci_projects table
 - [CI build artifacts](https://gitlab.com/gitlab-org/gitlab-ce/issues/3028)
-- CI runner caching (not doing a clean on a fetch)
+- [CI runner caching (not doing a clean on a fetch)](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1786)
 
 ### [8.3](https://gitlab.com/groups/gitlab-org/milestones/8-3?title=8.3)
 
 - [Revert merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 - [GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1748)
 - [Issue Weight (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/70)
+- [Migrate all Ci::Project data to Project](https://gitlab.com/gitlab-org/gitlab-ce/issues/3474)
 
 ### [8.4](https://gitlab.com/groups/gitlab-org/milestones/8-4?title=8.4)
 
@@ -64,7 +61,12 @@ We're working on making [all issues public](https://about.gitlab.com/2015/08/03/
 
 ### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5)
 
-### 9.0
+- [GitLab RE for readonly secundary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
+- [Focus Dashboard](https://gitlab.com/gitlab-org/gitlab-ce/issues/3467)
+
+### [9.0](https://gitlab.com/groups/gitlab-org/milestones/9-0?title=9.0)
+
+- [Nested groups](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772)
 
 ## Wishlist
 
@@ -80,7 +82,7 @@ We very much welcome contributions that implement any of these things.
 You should be able to review any code within GitLab quickly, easily and
 in a way that all relevant parties get notified.
 
-- [pre-post comment code](#) - Ability to see what the current state of the code is where in a previous commit a comment was placed.
+- [Pre-post comment code](https://gitlab.com/gitlab-org/gitlab-ce/issues/3502) - Ability to see what the current state of the code is where in a previous commit a comment was placed.
 - [Merge if green button if tests are still running](https://gitlab.com/gitlab-org/gitlab-ce/issues/2640)
 - [Allow cross server merge requests](http://feedback.gitlab.com/forums/176466-general/suggestions/5097708-implement-cross-server-federated-merge-requests) (paste url when making a new MR)
 - [Revert button for merges](https://dev.gitlab.org/gitlab/gitlabhq/issues/2299)
@@ -95,7 +97,7 @@ in a way that all relevant parties get notified.
 - [Filter by more than one label](https://gitlab.com/gitlab-org/gitlab-ce/issues/989)
 - [Move issues between projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/3024)
 - [Set Issue weight](https://gitlab.com/gitlab-org/gitlab-ce/issues/3397)
-- [Time tracking](https://dev.gitlab.org/gitlab/gitlabhq/issues/2192)
+- [Time tracking](https://gitlab.com/gitlab-org/gitlab-ee/issues/78)
 - Draw and drop issues to prioritize them
 - Handle incoming emails with support questions in issues, needs spam filter
 - [Labels should be visible in Milestone view](https://gitlab.com/gitlab-org/gitlab-ce/issues/3276)
@@ -116,7 +118,7 @@ in a way that all relevant parties get notified.
 
 - [Handle errors before they give a 500](https://dev.gitlab.org/gitlab/gitlabhq/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=gitlab.com+errors)
 - [Get rid of the large authorized keys (SSH) file](https://gitlab.com/gitlab-org/gitlab-git-http-server/issues/2#note_1983654)
-- [Upgrade to Sidekiq 4](https://gitlab.com/gitlab-org/gitlab-ce/issues/3065) - Faster.
+- [Upgrade to Sidekiq 4 because it is faster](https://gitlab.com/gitlab-org/gitlab-ce/issues/3065)
 
 ### Small Wins
 
@@ -128,6 +130,8 @@ in a way that all relevant parties get notified.
 
 - [Translations](http://feedback.gitlab.com/forums/176466-general/suggestions/3337748-internationalization-add-translations) with the help of the rest of the community and Perforce
 - [Subgroups / Directories](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772) - Current proposal is to have Directories
+- [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
+- [Resolve merge conflicts in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/3567)
 
 ### EE
 
@@ -138,10 +142,9 @@ in a way that all relevant parties get notified.
 
 ### CI
 
-- [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 - [Zero config CI](https://dev.gitlab.org/gitlab/gitlabhq/issues/2528)
 - [Option to test the result of the merge](http://homu.io/) instead of the feature branch itself (you will have to retest all MR's every time master / target branch is updated)
-- Dependent builds [Feedback](http://feedback.gitlab.com/forums/176466-general/suggestions/7233770-chain-builds) and [internal issue](https://dev.gitlab.org/gitlab/gitlab-ci/issues/328)
+- [Document dependent builds / pipeline trigges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3432)
 - [Staging environment per branch with GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286), similar to [Teatro](https://teatro.io/), [Tutum](https://support.tutum.co/support/solutions/articles/5000620449-deploy-to-tutum-button) & [Heroku Review Apps](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta))
 - Automatically give code quality metrics in the merge request
 - [Automatic Docker image cleanup](https://gitlab.com/ayufan/gitlab-runner-docker-cleanup/issues/1)
@@ -154,7 +157,7 @@ in a way that all relevant parties get notified.
 - Add [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
 - Scrum board
 - [CodeClimate](http://blog.codeclimate.com/blog/2015/06/19/code-climate-platform/)
-- [Lita](https://www.lita.io/) or other chat-ops bot
+- [Lita](https://www.lita.io/) or antoher chat-ops bot
 
 ### We would love to partner with
 
