@@ -145,12 +145,29 @@ This release has more improvements, including security fixes. Please check out [
 
 ## Upgrade barometer
 
+### Custom NGINX? Update needed!
 
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
-*** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
+If you are not using the Omnibus packages and their built-in NGINX settings,
+you will have to update your NGINX/Apache settings when upgrading to 8.2.
 
-*Note* If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
+### Slow-ish migrations
+
+This version contains a (potentially) slow migration that loops through all
+records in the 'services' table (project services) to update JIRA settings to a new format.
+This took about 5 minutes or our largest server.
+
+### Shared file storage
+
+There is a new config setting for 'shared file storage' in `gitlab.yml` / `gitlab.rb`.
+If you run GitLab with NFS or something similar,
+you need to make sure this directory is on an NFS share.
+
+### Upgrading from 7.x or before?
+
+*Note* If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled,
+you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
+
+### Default upgrade behavior
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
@@ -170,7 +187,7 @@ Check out our [update page](https://about.gitlab.com/update/).
 
 ## Enterprise Edition
 
-The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
+The mentioned EE only features and things like Repository Mirroring can be found in GitLab Enterprise Edition.
 For a complete overview please have a look at the [feature list of GitLab EE](http://www.gitlab.com/gitlab-ee/).
 
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing/).
