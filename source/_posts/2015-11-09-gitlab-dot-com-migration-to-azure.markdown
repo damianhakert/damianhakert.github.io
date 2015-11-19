@@ -44,6 +44,7 @@ AWS uses Xen and Azure uses Hyper-V. It currently seems that linux runs far more
 
 - We migrated our redis installation to a separate VM and are currently looking on Redis HA options for GitLab.com. You can view the discussion here: https://gitlab.com/gitlab-com/operations/issues/5.
 - We are working on removing SPOFs in our environment so as to make GitLab.com completely HA.
+- We have migrated our redis and postgres installations to Azure Premium Storage. The benefit of using the azure premium storage account is that you have **5000** IOPS per disk instead of **500** per disk. However, the total request rate limit for the storage account is the same namely **20000**, which we were already hitting. To solve this, we resorted to using multiple storage accounts. Therefore, every cluster role now has their own storage account with redis and postgres being on separate premium storage accounts.
 
 **7. Long Term Path**
 
@@ -65,4 +66,4 @@ Despite Azure not being as reliable as our previous AWS setup, **we own our own 
 - We didn't set up the support account before moving
 - We didn't run a staging environment
 
-We are however dedicated to ensuring that GitLab.com is fast and stable and are apologetic for the recent troubles our users have had to go through.
+We are however dedicated to ensuring that GitLab.com is fast and stable and are apologetic for the uptime troubles our users have had to endure since our migration.
