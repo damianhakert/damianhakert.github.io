@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "GitLab 8.2 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 8.2 released with Award Emoji and Repository Mirroring"
 date: 2015-11-22
 comments: true
 categories:
-author: ADD_YOUR_FULL_NAME
+author: Job van der Voort
+author_twitter: Jobvo
 filename: FILENAME.MARKDOWN
 image_title: /images/7_X/PICTURE.PNG
 ---
