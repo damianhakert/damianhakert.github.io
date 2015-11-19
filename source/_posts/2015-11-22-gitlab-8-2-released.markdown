@@ -65,9 +65,76 @@ to always have an up-to-date, fast mirror of a remote repository.
 Alternatively, if you want to have a public mirror of your project, for instance
 on GitLab.com, you can now do so effortlessly.
 
-## Build artifacts
+## Build Artifacts
+
+You were always able to work with an output from your CI builds,
+as long as you up/downloaded it somewhere. That's a bit of a hassle, why not
+put it on GitLab's server?
+
+With Build Artifacts in GitLab 8.2 you can do this now. By defining `artifacts`
+in your `.gitlab-ci.yml`, you can specify which files will get uploaded and
+attached to the build on success.
+
+```
+artifacts:
+  paths:
+  - binaries/
+  - .config
+```
+
+Do you simply want to have all files that are not tracked by git? You can
+with one single setting:
+
+```
+artifacts:
+  untracked: true
+```
+
+This will upload anything from Runner that is not tracked by Git! Then simply
+download them from the build:
+
+![]()
+
+To use build artifacts, make sure to upgrade your Runners to 0.7 or higher.
+Have a look at
+[the artifact documentation for more information](http://doc.gitlab.com/ce/ci/yaml/README.html#artifacts).
+
+In future releases, we aim to introduce artifact expiration, passing artifacts between
+builds and the ability to quickly get an overview of your artifacts.
 
 ## CI Runner Caching
+
+When doing CI builds, many builds make use of the same dependencies. Because
+Runners start fresh with every run, this makes that they spend a lot of time
+installing the same things over and over.
+
+With caching now available for builds, this is no longer necessary. You can
+specify a list of files and directories that will be cached between builds
+
+For instance, to cache all files in `binaries` and `.config`:
+
+```
+rspec:
+  script: test
+  cache:
+    paths:
+    - binaries/
+    - .config
+```
+
+As with Build Artifacts, you can also cache all files that are not tracked by
+git:
+
+```
+rspec:
+  script: test
+  cache:
+    untracked: true
+```
+
+We hope this will give you Runners their much needed time off.
+
+For more options, view [the documentation on build caching](http://doc.gitlab.com/ce/ci/yaml/README.html#cache).
 
 ## + a little surprise
 
