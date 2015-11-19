@@ -57,7 +57,7 @@ In the same year in August, we introduced [GitLab Enterprise Edition].
 
 ### _2014: GitLab was incorporated_
 
-In 2014 GitLab was officially incorporated in the Netherlands as GitLab BV.
+In 2014 GitLab was officially incorporated in the Netherlands.
 
 GitLab released a new version every month in 2014, just as every year before it.
 The first release of the year at January 22nd: GitLab 6.5. At the end of 2014, December 2014, GitLab
