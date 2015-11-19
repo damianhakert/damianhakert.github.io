@@ -9,4 +9,3 @@ title: "GitLab Culture"
 ## Feedback from GitLab team members
 
 * Presentation about ["Stuff the GitLab team likes and does not like"](https://docs.google.com/a/gitlab.com/presentation/d/1h9P8Vf_6fzPbLCCahvwtIF5j_cH54zsv9iRSseVZzl0/edit?usp=sharing)
-* Forthcoming: results of the Friday Feedback Forms
