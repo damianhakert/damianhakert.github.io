@@ -35,15 +35,18 @@ View them using [Deckset](http://www.decksetapp.com/).
 - [Upcoming in EE](https://gitlab.com/gitlab-org/University/blob/master/classes/upcoming_in_ee.md)
 - [Big files in Git (Git LFS, Annex)](https://gitlab.com/gitlab-org/University/blob/master/classes/git_lfs_and_annex.md)
 
+#### Test
+
+If you make the test more than a week later than the class,
+notify someone (Job) to check your answers.
+
+- [Make the test](http://goo.gl/forms/RFsNK9fKuj)
+
 ### Recordings & Slides
 
 - [Internal Recordings](https://drive.google.com/drive/u/0/folders/0B41DBToSSIG_NlNFLUEwQ2JHSVk) link accessible to GitLab employees only.
 - [The GLU Repository](https://gitlab.com/gitlab-org/University) contains the slides and
 documents of the classes.
-
-### Test results
-
-Link to test results here.
 
 ## Resources
 
