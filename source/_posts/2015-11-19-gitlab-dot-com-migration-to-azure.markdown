@@ -15,7 +15,7 @@ Microsoft offered $500,000 of free Azure hosting credit to each YCombinator star
 
 We decided to migrate to Azure U.S. East for two reasons:
 (1) The overall latency for the majority of our users.
-(2) Azure has more features available at the U.S. East location than their other locations. For examples, optimized storage performance.
+(2) Azure has more features available at the U.S. East location than their other locations. For example, optimized storage performance.
 
 **2. Are there any plans to distribute the servers across more regions?**
 Not at this time. Cross-region file access to Git repositories is too slow but we do have plans for GitLab primary/secondary server setups and/or sharding but this will take a lot of development work.
@@ -67,4 +67,4 @@ Despite Azure not being as reliable as our previous AWS setup, **we own our own 
 - We didn't set up the support account before moving
 - We didn't run a staging environment
 
-We are dedicated to ensuring that GitLab.com is fast and stable and we apologize for the uptime issues lately. The Azure team has been helpful and responsive while we try to solve these issues so we'd like to say thank you to the Azure engineering team. Thanks to the GitLab community for helping out as we complete this migration. 
+We are dedicated to ensuring that GitLab.com is fast and stable and we apologize for the uptime issues lately. The Azure team has been helpful and responsive while we try to solve these issues so we'd like to say thank you to the Azure engineering team. Thanks to the GitLab community for helping out as we complete this migration.
