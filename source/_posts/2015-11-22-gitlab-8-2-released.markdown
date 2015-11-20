@@ -30,9 +30,9 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 ## Award Emoji
 
-As a remote worker, you get much less opportunities for high-fives, thumbs-ups
-and fist bumps. In order to make virtual celebrations easier, you can now
-vote on issues and merge requests using emoji!
+As a remote worker, you get fewer opportunities for high-fives, thumbs-ups, and
+fist bumps. In order to make virtual celebrations easier, you can now vote on
+issues and merge requests using emoji!
 
 ![]()
 
@@ -42,12 +42,12 @@ For example, we will start using issues as a replacement for our
 
 ## Releases
 
-When creating versioned software, Git tags are ideal. It is not rare that you
-want to include some extra files and release notes, which is not natively
+When creating versioned software, Git tags are ideal. It is not uncommon that you
+want to include some extra files and release notes, which are not natively
 supported by Git.
 
-With releases you can now add a markdown formatted message to any Git tag
-and attach any amount of files to it.
+With releases you can now add a Markdown-formatted message to any Git tag
+and attach any number of files to it.
 
 Simply press the edit button next to tags.
 
@@ -76,7 +76,7 @@ on GitLab.com, you can now do so effortlessly.
 
 ## Build Artifacts
 
-You were always able to work with an output from your CI builds,
+You were always able to work with the output from your CI builds,
 as long as you up/downloaded it somewhere. That's a bit of a hassle, why not
 put it on GitLab's server?
 
@@ -109,12 +109,12 @@ Have a look at
 [the artifact documentation for more information](http://doc.gitlab.com/ce/ci/yaml/README.html#artifacts).
 
 In future releases, we aim to introduce artifact expiration, passing artifacts between
-builds and the ability to quickly get an overview of your artifacts.
+builds, and the ability to quickly get an overview of your artifacts.
 
 ## CI Runner Caching
 
 When doing CI builds, many builds make use of the same dependencies. Because
-Runners start fresh with every run, this makes that they spend a lot of time
+Runners start fresh with every run, this means that they spend a lot of time
 installing the same things over and over.
 
 With caching now available for builds, this is no longer necessary. You can
@@ -141,7 +141,7 @@ rspec:
     untracked: true
 ```
 
-We hope this will give you Runners their much needed time off.
+We hope this will give your Runners some much-needed time off.
 
 For more options, view [the documentation on build caching](http://doc.gitlab.com/ce/ci/yaml/README.html#cache).
 
@@ -172,15 +172,16 @@ available for everyone to use.
 
 ## Other changes
 
-This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
-
+This release has more improvements, including security fixes. Please check out
+[the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG)
+to see the all named changes.
 
 ## Upgrade barometer
 
-### Custom NGINX? Update needed!
+### Custom Nginx? Update needed!
 
-If you are not using the Omnibus packages and their built-in NGINX settings,
-you will have to update your NGINX/Apache settings when upgrading to 8.2.
+If you are not using the Omnibus packages and their built-in Nginx settings,
+you will have to update your Nginx/Apache settings when upgrading to 8.2.
 
 ### Slow-ish migrations
 
@@ -219,7 +220,7 @@ Check out our [update page](https://about.gitlab.com/update/).
 
 ## Enterprise Edition
 
-The mentioned EE only features and things like Repository Mirroring can be found in GitLab Enterprise Edition.
+The mentioned EE-only features and things like Repository Mirroring can be found in GitLab Enterprise Edition.
 For a complete overview please have a look at the [feature list of GitLab EE](http://www.gitlab.com/gitlab-ee/).
 
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing/).
