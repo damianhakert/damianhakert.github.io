@@ -83,6 +83,7 @@ We very much welcome contributions that implement any of these things.
 - [Subgroups / Directories](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772) - Current proposal is to have Directories
 - [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 - [Resolve merge conflicts in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/3567)
+- [Multithreaded application server](https://gitlab.com/gitlab-org/gitlab-ce/issues/3592)
 
 ### Small Wins
 
