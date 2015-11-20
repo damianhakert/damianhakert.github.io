@@ -3,17 +3,25 @@ layout: post
 title: "GitLab 8.2 released with Award Emoji and Repository Mirroring"
 date: 2015-11-22
 comments: true
-categories:
 author: Job van der Voort
 author_twitter: Jobvo
-filename: FILENAME.MARKDOWN
-image_title: /images/7_X/PICTURE.PNG
+filename: 2015-11-22-gitlab-8-2-released.markdown
+image_title: /images/8_2/header2.jpg
 ---
 
-GitLab is open source software to collaborate on code.
-Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
-The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
-In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
+Back home from our Summit in Amsterdam, we're at full force again and have a
+whole lot of awesome new features for GitLab 8.2!
+
+This time we added more emoji power to GitLab and made it much easier to release
+versioned software with Releases and Global Milestones. On top of that,
+the CI train is rolling full steam ahead with artifacts and caching available
+right now!
+If you're using GitLab Enterprise, you also get Repository Mirroring, a great
+feature if you want to make your intensively-used repositories more easily
+reachable all over the planet.
+
+On top of these features, stay tuned to the GitLab blog tomorrow for a special
+update we’ve been working hard to launch.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
