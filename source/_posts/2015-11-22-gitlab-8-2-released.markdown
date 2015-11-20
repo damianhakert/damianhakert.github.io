@@ -145,6 +145,20 @@ We hope this will give you Runners their much needed time off.
 
 For more options, view [the documentation on build caching](http://doc.gitlab.com/ce/ci/yaml/README.html#cache).
 
+## Copy to Clipboard buttons
+
+Want to get a commit SHA or the cross-project reference for an issue or
+merge request? Simply click the copy-to-clipboard button to have it ready
+for pasting!
+
+![Copy to clipboard with GitLab 8.2](/images/8_2/copy.jpg)
+
+## Search through Commit Messages
+
+When you search, GitLab now also searches through commit messages for you!
+
+![Search through commits with GitLab 8.2](/images/8_2/commit_search.jpg)
+
 ## CI & Shared Runners now on by default
 
 We want everyone to be able to use CI with zero effort or configuration.
