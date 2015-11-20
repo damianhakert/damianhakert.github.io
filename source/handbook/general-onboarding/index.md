@@ -35,7 +35,7 @@ there and /cc @jacobvosmaer, @patricio and @sytse.
 * [ ] New team member: provide signed contract (including signed proprietary information and assignment agreement (PIAA)) to People Ops. 
 * [ ] New team member: provide scan of photo ID to People Ops.
 * [ ] People Ops: file signed contract, PIAA, and photo ID in Dropbox and confirm receipt by commenting in the issue.
-* [ ] Jacob/CEO: Add to Slack
+* [ ] Jacob/CEO: Add to [Slack](https://gitlab.slack.com/admin)
 * [ ] People Ops: Assign buddy and explain to buddy what that means: "What it 
 means is that if she/he has questions she/he can come to you. But your main job 
 as a buddy will be to direct her/him to the right parts of the handbook, and/or 
