@@ -92,3 +92,9 @@ Do NOT invoice before feature/work is completed.
 1. Sales hears about a bug / issue the potential customer is having and decides that GitLab B.V. should try to solve it in the interest of winning the deal
 
 1. Sales asks the customer to email support regarding their issue
+
+## Creating an Issue for feature requests
+
+1. Create an issue on the [public issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) and mention someone (Dimitriy, Sytse, Job).
+
+1. Do not mention customer name but confirm if large, medium or small and include URL to Saleforce account.
