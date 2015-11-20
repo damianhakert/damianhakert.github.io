@@ -145,7 +145,16 @@ We hope this will give you Runners their much needed time off.
 
 For more options, view [the documentation on build caching](http://doc.gitlab.com/ce/ci/yaml/README.html#cache).
 
-## + a little surprise
+## CI & Shared Runners now on by default
+
+We want everyone to be able to use CI with zero effort or configuration.
+That's why we've enabled CI and shared runners by default for all new projects.
+
+This means that all you need to do to start using CI is push your `.gitlab-ci.yml`
+and your current shared runners will start working on it!
+
+This is also the case for Gitlab.com, where we have a number of shared runners
+available for everyone to use.
 
 ## Other changes
 
@@ -163,7 +172,7 @@ you will have to update your NGINX/Apache settings when upgrading to 8.2.
 
 This version contains a (potentially) slow migration that loops through all
 records in the 'services' table (project services) to update JIRA settings to a new format.
-This took about 5 minutes or our largest server.
+This took about 5 minutes on our largest server.
 
 ### Shared file storage
 
