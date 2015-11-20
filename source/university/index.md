@@ -11,53 +11,23 @@ future. Today it's still pretty hard to master.
 GitLab University has as a goal to teach Git, GitLab and everything that relates
 to that to anyone willing to listen and participate.
 
-## Classes
+## [Classes](/university/classes)
 
 Right now, there is a GitLab University class every Thursday at 5PM UTC.
 To sign up, send Job a message.
 
-In the future we want to have multiple classes:
-
-- Lectures on new and exciting things
-- Git 101
-- GitLab 101
-- Advanced GitLab
-- Infrastructures and Enterprise
-
 If you're interested in any of these, would like to teach in one of them or
 participate or help in any way, please contact Job or submit a merge request.
 
-### Class of Nov 19, 2015
+- [View all classes](/university/classes)
 
-Note that these are in markdown. PDFs are coming with the release of GitLab LFS.
-View them using [Deckset](http://www.decksetapp.com/).
+## Upcoming Topics
 
-- [GitLab 8.2](https://gitlab.com/gitlab-org/University/blob/master/classes/8.2.md)
+Please submit a merge request for suggestions.
 
-#### Test
-
-- [Make the test](http://goo.gl/forms/9PnmhiNzEa)
-
-### Class of Nov 12, 2015
-
-Note that these are in markdown. PDFs are coming with the release of GitLab LFS.
-View them using [Deckset](http://www.decksetapp.com/).
-
-- [Upcoming in EE](https://gitlab.com/gitlab-org/University/blob/master/classes/upcoming_in_ee.md)
-- [Big files in Git (Git LFS, Annex)](https://gitlab.com/gitlab-org/University/blob/master/classes/git_lfs_and_annex.md)
-
-#### Test
-
-If you make the test more than a week later than the class,
-notify someone (Job) to check your answers.
-
-- [Make the test](http://goo.gl/forms/RFsNK9fKuj)
-
-### Recordings & Slides
-
-- [Internal Recordings](https://drive.google.com/drive/u/0/folders/0B41DBToSSIG_NlNFLUEwQ2JHSVk) link accessible to GitLab employees only.
-- [The GLU Repository](https://gitlab.com/gitlab-org/University) contains the slides and
-documents of the classes.
+- HA vs. Scalability
+- Groups, Projects, Repositories
+- JIRA and Jenkins integrations in GitLab
 
 ## Resources
 
