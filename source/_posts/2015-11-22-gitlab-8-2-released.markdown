@@ -42,11 +42,11 @@ For example, we will start using issues as a replacement for our
 
 ## Releases
 
-When creating versioned software, git tags are ideal. It is not rare that you
+When creating versioned software, Git tags are ideal. It is not rare that you
 want to include some extra files and release notes, which is not natively
 supported by Git.
 
-With releases you can now add a markdown formatted message to any git tag
+With releases you can now add a markdown formatted message to any Git tag
 and attach any amount of files to it.
 
 Simply press the edit button next to tags.
@@ -91,7 +91,7 @@ artifacts:
   - .config
 ```
 
-Do you simply want to have all files that are not tracked by git? You can
+Do you simply want to have all files that are not tracked by Git? You can
 with one single setting:
 
 ```
@@ -132,7 +132,7 @@ rspec:
 ```
 
 As with Build Artifacts, you can also cache all files that are not tracked by
-git:
+Git:
 
 ```
 rspec:
