@@ -98,6 +98,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <li>If you want to ask people if they are available for an event please send a new calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.</li>
     <li>If you want to schedule time with a teammember for an outside meeting, create a calendar appointment and invite the teammember only, after they respond yes then invite outside people.</li>
     <li>If you want to move a meeting just move the calendar appointment instead of reaching out via other channels, note the change at the top of the description.</li>
+    <li>Email forwarding rules are specified in [a Google Doc accessible to people in the company](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit), if you want to change a rule [make a suggestion](https://support.google.com/docs/answer/6033474?hl=en) in the document.</li>
     <li>
       Thank people that did a great job in our 'Thanks' chat channel.
       If someone is an employee just "@" mention them.
