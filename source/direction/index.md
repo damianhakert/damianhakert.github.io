@@ -77,6 +77,19 @@ Some links point to internal issues. We're working on making [all issues public]
 
 We very much welcome contributions that implement any of these things.
 
+### Major Wins
+
+- [Translations](http://feedback.gitlab.com/forums/176466-general/suggestions/3337748-internationalization-add-translations) with the help of the rest of the community and Perforce
+- [Subgroups / Directories](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772) - Current proposal is to have Directories
+- [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
+- [Resolve merge conflicts in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/3567)
+
+### Small Wins
+
+- [Show commits behind/ahead on branch overview page](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1716)
+- [See all forked projects of one project](https://gitlab.com/gitlab-org/gitlab-ce/issues/2406)
+- [Edit on protected branch should create a new branch](https://dev.gitlab.org/gitlab/gitlabhq/issues/2242)
+
 ### Code Review
 
 You should be able to review any code within GitLab quickly, easily and
@@ -120,26 +133,6 @@ in a way that all relevant parties get notified.
 - [Get rid of the large authorized keys (SSH) file](https://gitlab.com/gitlab-org/gitlab-git-http-server/issues/2#note_1983654)
 - [Upgrade to Sidekiq 4 because it is faster](https://gitlab.com/gitlab-org/gitlab-ce/issues/3065)
 
-### Small Wins
-
-- [Show commits behind/ahead on branch overview page](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1716)
-- [See all forked projects of one project](https://gitlab.com/gitlab-org/gitlab-ce/issues/2406)
-- [Edit on protected branch should create a new branch](https://dev.gitlab.org/gitlab/gitlabhq/issues/2242)
-
-### Major Wins
-
-- [Translations](http://feedback.gitlab.com/forums/176466-general/suggestions/3337748-internationalization-add-translations) with the help of the rest of the community and Perforce
-- [Subgroups / Directories](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772) - Current proposal is to have Directories
-- [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
-- [Resolve merge conflicts in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/3567)
-
-### EE
-
-- Push to another repo
-- [Management dashboard](https://dev.gitlab.org/gitlab/gitlab-ee/issues/287)
-- [Geographic slave servers with GitLab RE](https://dev.gitlab.org/gitlab/gitlabhq/issues/2359) for plus subscriptions only
-- [Highly Available (HA) Omnibus Packages](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
-
 ### CI
 
 - [Zero config CI](https://dev.gitlab.org/gitlab/gitlabhq/issues/2528)
@@ -151,6 +144,12 @@ in a way that all relevant parties get notified.
 - Show code coverage in diffs with colored horizontal bar
 - A/B testing of branches
 - [Shared runners](https://dev.gitlab.org/gitlab/gitlab-ci/issues/322#note_56433) automanaged [by Kubernetes](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/30)
+
+### EE
+
+- Push to another repo
+- [Management dashboard](https://dev.gitlab.org/gitlab/gitlab-ee/issues/287)
+- [Highly Available (HA) Omnibus Packages](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
 
 ### Software to ship in the Omnibus packages
 
