@@ -57,7 +57,7 @@ In the same year in August, we introduced [GitLab Enterprise Edition].
 
 ### _2014: GitLab was incorporated_
 
-In 2014 GitLab was officially incorporated.
+In 2014 GitLab was officially incorporated in the Netherlands.
 
 GitLab released a new version every month in 2014, just as every year before it.
 The first release of the year at January 22nd: GitLab 6.5. At the end of 2014, December 2014, GitLab
@@ -65,7 +65,7 @@ The first release of the year at January 22nd: GitLab 6.5. At the end of 2014, D
 
 ### _2015: Y Combinator_
 
-In the very start of 2015, almost the entire GitLab Inc. team flew over to Silicon
+In the very start of 2015, almost the entire GitLab team flew over to Silicon
 Valley to [participate in Y Combinator].
 
 At this point, over 800 people worldwide have [contributed to GitLab] and more
@@ -78,12 +78,15 @@ This allows people to cooperate effectively and to achieve better results, faste
 
 ## Mission and logo
 We are part of a community that works together to create the best open source collaboration tools.
-Our <a href="https://en.wikipedia.org/wiki/Japanese_raccoon_dog">Tanuki</a> logo symbolizes this with a smart animal that works in a group to achieve a common goal.
+Our <a href="https://en.wikipedia.org/wiki/Japanese_raccoon_dog">Tanuki</a> logo 
+symbolizes this with a smart animal that works in a group to achieve a common goal.
 
 ## Values
-We care about giving back to the rest of the GitLab community, that is why we give most code back to the <a href="https://gitlab.com/gitlab-org/gitlab-ce/">Community Edition</a>.
+We care about giving back to the rest of the GitLab community, that is why we 
+give most code back to the <a href="https://gitlab.com/gitlab-org/gitlab-ce/">Community Edition</a>.
 We try to be open, that is why this website is maintained in <a href="https://gitlab.com/gitlab-com/www-gitlab-com/">a public repository</a>.
-We realize that GitLab is more than this organization, this is shown by having people from outside this company in the <a href="https://www.gitlab.com/core-team/">core team</a>.
+We realize that GitLab is more than this organization, this is shown by having 
+people from outside this company in the <a href="https://www.gitlab.com/core-team/">core team</a>.
 We think good code can be written by anyone, we encourage diversity by contributing to <a href="http://railsgirls.nl/">RailsGirls NL</a>.
 We try to correct the mistakes we make, please give us a chance by <a href="mailto:contact@gitlab.com">emailing us</a>.
 
@@ -134,7 +137,11 @@ GitLab is a community project with people participating from all over the world.
 GitLab Inc. has people in three continents to serve our customers better.
 Most of our customers are in the United States.
 
-Our team is distributed. We're proud to be a [remote first company](https://about.gitlab.com/2014/07/03/how-gitlab-works-remotely/), using GitLab Issues to coordinate. We have a [Remote Manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/), our team members have shared their [experiences](https://about.gitlab.com/2015/06/17/highlights-to-my-first-remote-job/) in our blog and did a Q&A for [Remote.co](https://remote.co/company/gitlab/).
+Most of our team is distributed. We're proud to be [working remotely](https://about.gitlab.com/2014/07/03/how-gitlab-works-remotely/), 
+using GitLab Issues to coordinate. We have a [Remote Manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/), 
+our team members have shared their [experiences](https://about.gitlab.com/2015/06/17/highlights-to-my-first-remote-job/) 
+in our blog and did a Q&A for [Remote.co](https://remote.co/company/gitlab/). You can taste a bit of the GitLab team culture by visiting 
+our <a href="https://about.gitlab.com/culture/">culture page</a>.
 
 
 [This commit]: https://gitlab.com/gitlab-org/gitlab-ce/commit/0f43e98ef8c2da8908b1107f75b67cda2572c2c4
