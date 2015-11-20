@@ -1,13 +1,13 @@
 ---
 layout: markdown_page
-title: "Human Retention"
+title: "People Operations"
 ---
 ## Entering New Hires into TriNet<a name="trinet-process"></a>
 
 Employer enters the employee data in the HR Passport with the information below
 
 1. Under the My Staff tab- select new hire/rehire and a drop down menu will appear.
-1. HR enters all of the necessary information:
+1. Enter all of the necessary information:
     * Company name autopopulates
     * SS
     * Form of address for hire (Mr. Ms, etc.)
@@ -87,3 +87,6 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Select Employee Transfer.
 1. Change location and fill in necessary information.
 1. Select Update.
+
+## Setting up new hiring contracts
+New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/)page, including instructions on how to set up new contracts.
