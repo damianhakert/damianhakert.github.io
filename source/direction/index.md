@@ -154,10 +154,10 @@ in a way that all relevant parties get notified.
 
 ### Software to ship in the Omnibus packages
 
-- Add [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
-- Scrum board
+- [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
+- [A scrum board](https://about.gitlab.com/applications/#scrum-boards)
 - [CodeClimate](http://blog.codeclimate.com/blog/2015/06/19/code-climate-platform/)
-- [Lita](https://www.lita.io/) or antoher chat-ops bot
+- [Lita](https://www.lita.io/) or another chat-ops bot
 
 ### We would love to partner with
 
