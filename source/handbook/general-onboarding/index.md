@@ -83,6 +83,10 @@ encourage her/him to ask her/his questions of the wider group on Slack, etc."
 * [ ] CEO: Add team member to the GitLab availability calendar
 * [ ] New team member: I verify that the home folder of my harddrive is encrypted.
 
+### FOR ENGINEERING ONLY (Devs, DevOps, SEs)
+
+* [ ] Patricio/Jacob: Add new team member to the [gitlab-org](https://gitlab.com/groups/gitlab-org/group_members) group on GitLab.com as a `Developer`.
+
 ### FOR SALES AND FINANCE ONLY
 
 * [ ] Finance: Add to Comerica (as user or viewer only if in Finance)
