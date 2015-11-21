@@ -227,7 +227,19 @@ you do not have to do anything in regards to GitLab CI.
 
 If you have an active GitLab CI instance, you will need to follow our
 [CI migration guide](http://doc.gitlab.com/ce/migrate_ci_to_ce/README.html)
-to persist your data and registered runners.
+to persist your data and registered runners. It is *necessary* to go to 8.0 first,
+or you will lose all your build history. Once 8.1 and above have been released,
+you can force the installation of 8.0 with the following commands, depending on
+your operating system:
+
+```
+sudo apt-get install gitlab-ee=8.0.5-ee.0
+
+sudo yum install gitlab-ee-8.0.5-ee.0.el6.x86_64
+
+sudo yum install gitlab-ee-8.0.5-ee.0.el7.x86_64
+```
+
 This is an involved migration, especially if GitLab CI is running on a separate
 server. It can be performed while GitLab is online, but GitLab CI will have
 downtime.
@@ -235,6 +247,7 @@ downtime.
 Note that even if you do not care about persisting your CI data through the
 migration, there is a chance that you have to perform some cleanup.
 Please read [the migration document](http://doc.gitlab.com/ce/migrate_ci_to_ce/README.html).
+
 
 <span id="reverse-proxy-settings"></span>
 ### Non-omnibus web servers and gitlab-git-http-server

@@ -27,6 +27,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   <li><a href="/handbook/hiring">Hiring Process</a></li>
   <li><a href="/handbook/accounting">Accounting</a></li>
   <li><a href="/handbook/social-media">Social Media</a></li>
+  <li><a href="/handbook/stock-options">Stock Options</a></li>
 </ul>
 
 ## Contents of this page
@@ -91,8 +92,10 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <li>All company data should be <b>shareable</b> by default. Don't use a local text file but leave comments on an issue. Create Google docs with your company Google Apps account. By default share Google docs with the whole company 'anyone at GitLab can find and access' with edit (preferred) or comment access for everyone. An easy way to do this, is to create your Google docs in a Shared Folder in Google Drive.</li>
     <li>All our procedures and templates are stored in (mostly public) git repositories instead of Google/Word documents. This makes them easier to find and suggest changes to with the organization and shows our commitment to open collaboration outside the organization.</li>
     <li>Use FYI and /cc if you want to inform people but it does not require an action, use FYA (for your action) if an action of the recipient is required.</li>
+    <li>Use video calls if you find yourself going back and forth in an issue/via email or over chat.</li>
+    <li>Having pets, children, significant others, friends and family visible during video chats is encouraged, if human ask them to wave at your remote team member to say hi.</li>
     <li>If there are materials relevant for a calendar meeting (for example a Google Doc) please add the url to the meeting invite description.</li>
-    <li>If you want to ask people if they are available for an event please send a calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.</li>
+    <li>If you want to ask people if they are available for an event please send a new calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.</li>
     <li>If you want to schedule time with a teammember for an outside meeting, create a calendar appointment and invite the teammember only, after they respond yes then invite outside people.</li>
     <li>If you want to move a meeting just move the calendar appointment instead of reaching out via other channels, note the change at the top of the description.</li>
     <li>
@@ -145,13 +148,15 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 
 <h3 id="team-call">Team Call</h3>
 <ol>
+
+    <li>The team call is every workday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).</li>
     <li>We use BlueJeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.</li>
-    <li>Please join the meeting with your x@gitlab.com account, not your private google one.</li>
+    <li>Please join the meeting with your x@gitlab.com account, not your private Google account.</li>
     <li>We wait for people to join the first two minutes of the meeting until :32.</li>
     <li>We start by discussing the subjects that are on the agenda for today.</li>
     <li>When done with a point mention the subject of the next item and hand over to the next person.</li>
+    <li>We ask everyone what they did outside of work the day(s) before.</li>
     <li>Sequence of asking people is in order of joining the company, same as on the [team page](https://about.gitlab.com/team/). If there are non-team page people in the call we end with those.</li>
-    <li>We end with asking what they did after work the day(s) before and their work plans are for today/tomorrow.</li>
     <li>Last person hands over to the first person in the call order that is present (normally Dmitriy) who wishes everyone a good day.</li>
 </ol>
 
@@ -222,6 +227,9 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
       <li>Skype calling credit, we can autofill your account</li>
       <li>Google Hangouts calling credit</li>
       <li>Office space (if working from home is not practical)</li>
+      <li>Work related online courses</li>
+      <li>Work related books</li>
+      <li>Work related conferences (please get persmission in advance if total costs are more than $500)</li>
       <li>Business travel upgrades:
         <ul>
             <li> Up to the first <a href="https://www.google.com/search?q=300+eur+in+usd">EUR 300</a> for an upgrade to Business Class on flights longer than 8 hours.</li>
@@ -245,16 +253,26 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 <h2 id="paid-time-off">Paid Time Off</h2>
   <ol>
     <li>Don't frown on people taking time off, but rather encourage that people take care of themselves and others.</li>
-    <li>Working hours are flexible, you are invited for the team call if you are available, it is every workday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).</li>
-    <li>You don't need to take a day off to go to the gym, go grocery shopping, doing household chores, help someone, take care of a loved one, etc. If something comes up or takes longer than expected and you have urgent tasks and you're able to communicate, just ensure the rest of the team <b>knows</b> and someone can pick up any urgent tasks.</li>
-    <li>You do not need to ask for permission to take days off. You do need to ensure that not more than <b>half</b> of the people that can help with availability emergencies (24/7), regular support, sales or development are gone at any moment. You can check for this on the availability calendar, so be sure to add appointments early.</li>
+    <li>Working hours are flexible, you are invited to the team call (see separe section) if you are available, and we encourage you to post to the #working-on chat channel when you start your day so others can offer suggestions.</li>
+    <li>You don't need to worry about taking time off to go to the gym, go grocery shopping, doing household chores,
+        helping someone, taking care of a loved one, etc. If something comes up or takes longer than expected and
+        you have urgent tasks and you're able to communicate, just ensure the rest of the team <b>knows</b> and someone can pick up any urgent tasks.</li>
+    <li> We have an "unlimited" time off policy. This means that:
+        <ul>
+        <li> You do not need to ask permission to take time off unless you want to
+        take more than 25 consecutive calendar days.</li>
+        <li> Always make sure that your job responsibilities are covered while you are away.</li>
+        <li> We strongly recommended to take at least a minimum of 2 weeks of vacation per year,
+        if you take less your manager might follow up to discuss your work load.</li>
+        </ul>
+    </li>
+    <li>You do need to ensure that not more than <b>half</b> of the people that can help with availability emergencies (24/7),
+    regular support, sales or development are gone at any moment. You can check for this on the
+    availability calendar, so be sure to add appointments early.</li>
     <li>If someone from the 24/7 team leaves, set up a <b>call</b> two weeks before that so the other people can divide the on-call days.</li>
-    <li>Note the days off in your employee <b>doc</b> before you create a calendar appointment. We register time off so that nobody has to feel bad for taking time off. If you want more time off than you have saved (creating a negative allowance) we can discuss this.
-    <li>Add an <b>appointment</b> to the GitLab B.V. availability calendar as you know your plans, you can always change it later.</li>
-    <li>In case it can be useful add your panned time off as a <b>FYI</b> on the next agenda of the team call.</li>
-    <li>We suggest to take the <b>official</b> days off in the country you are currently in. The total of your paid time off should be 32 days per year, <a href="http://www.iamexpat.nl/expat-page/survival-kit/dutch-holidays">Dutch holidays</a> are 9 fixed (23 flexible, total 32), <a href="http://www.officeholidays.com/countries/usa/index.php">USA holidays</a> are 12 fixed  (20 flexible, total 32).  If you want, you can also do a mix of, for example, the Ecuador and US holidays.</li>
-    <li>We will <b>help</b> clients during official days off, unless they are official days off in both the Netherlands and the U.S. We try to have people working who are in a country that don't have an official day off. If you need to work during an official day off in your country, you get a day off allowance in return.</li>
-    <li>Accumulated time off will be paid out in accordance with local laws. Where applicable, it does not expire and can be carried forward from year to year.  For GitLab, Inc. employees accrued paid time off is capped at 30 days.</li>
+    <li>Add an <b>appointment</b> to the GitLab availability calendar as you know your plans, you can always change it later.</li>
+    <li>In case it can be useful add your planned time off as a <b>FYI</b> on the next agenda of the team call.</li>
+    <li>We will <b>help</b> clients during official days off, unless they are official days off in both the Netherlands and the U.S. We try to have people working who are in a country that don't have an official day off. If you need to work during an official day off in your country, you should take a day off in return.</li>
   </ol>
 
 <h2 id="signing-legal-documents">Signing Legal Documents</h2>

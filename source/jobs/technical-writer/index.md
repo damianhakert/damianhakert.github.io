@@ -21,5 +21,7 @@ title: "Technical Writer Responsibilities and Tasks"
 * Update and test the monthly source update guides
 * Coordinate to ensure features coverage and avoid overlap where possible
 * Make sure the gitlab recipes repository is up to date with the latest GitLab release
+* Whenever possible write documentation and extract that into a blog post, this doubles the usefulness, it is OK to have a blog post tone in the documentation
+* Write the [GitLab Monthly](https://pad.hackerspace.gr/p/gitlab-weekly) blog post
 * Assist other teams with documentation and non-documentation tasks
   * Not a responsibility is writing all documentation, all merge requests should include comprehensive documentation in the first place

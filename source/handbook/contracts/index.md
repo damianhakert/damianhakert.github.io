@@ -23,7 +23,10 @@ The following set of steps should suffice:
   * NOTE: Remember that regardless of the status of the new team member, i.e. contractor or employee for either GitLab Inc., or GitLab BV, 
   a PIAA must be included with the contract.
   * Further formatting tips once it is in Word:
-     * select all, and decrease font size a few times until everything looks more reasonable. 
+     * select all, and 
+        * decrease font size a few times until everything looks more reasonable. The main headers need to be adjusted further to fit on a single line.
+        * set line spacing to 1.0
+        * add space after paragraphs
      * Insert page breaks for Signature pages and Exhibits, and between contract and PIAA.
 1. Find all fields with curly brackets (` { } `), and edit as appropriate. It is often efficient 
 to do a find + replace on fields that appear multiple times such as names, email 
@@ -263,7 +266,10 @@ Contributor’s relationship with GitLab will be that of an independent contract
 
 **11.7 Counterparts**. This Agreement may be executed in counterparts, each of which will be deemed to be an original.  
 
-**11.8 Attorney's Fees**. If an action is brought to interpret or enforce the terms of this Agreement, the prevailing party will be entitled to recover from the non-prevailing party, in addition to all other remedies at law and equity, all costs and expenses incurred by the prevailing party with respect to such action, including but not limited to attorneys’ fees, costs and disbursements.  
+**11.8 Attorney's Fees**. If an action is brought to interpret or enforce the terms 
+of this Agreement, the prevailing party will be entitled to recover from the non-prevailing 
+party, in addition to all other remedies at law and equity, all costs and expenses 
+incurred by the prevailing party with respect to such action, including but not limited to attorneys’ fees, costs and disbursements.  
 
 ### Signature Page  
 
@@ -295,6 +301,7 @@ Address for Notices:  {Address of Contributor}
 
 
 Attachments:  
+
 * Exhibit A - Statement of Work and Project Schedule  
 * Exhibit B - Payment Schedule  
 * Exhibit C - Contributor Termination Certification  
@@ -307,6 +314,7 @@ Attachments:
 
 1\. Title of Project: {Title of project}  
 2\. Project Dates:  
+
    * Project commencement date:  {Start Date}.  
    * Project termination date:  {End Date}.  
 3\. Deliverables and Due Dates:  
@@ -377,16 +385,15 @@ E-Mail:
 **Cash compensation**:  
 GitLab shall pay Contributor a rate of {indicate currency, rate, and period}.  
 
+Contributor shall submit invoices no more frequently than every two weeks.  
+
 **{REMOVE FOR ONGOING PROJECTS, LEAVE IN FOR ONE-OFF PROJECTS}**  
 GitLab reserves the right to withhold payment until Contributor reaches the 
 payment’s associated milestone and the related Deliverables are approved and 
-accepted by GitLab.  
-
-If the Agreement is terminated prior to the completion of the Project, the amount 
+accepted by GitLab. If the Agreement is terminated prior to the completion of the Project, the amount 
 of payment to be paid to Contributor will be payment for work performed up to the 
 date of termination.  
 
-Contributor shall submit invoices no more frequently than every two weeks.  
 
 **{OPTIONAL, REMOVE IF NOT APPLICABLE:}**   
 **Stock Option Grant**:  
@@ -429,15 +436,23 @@ Date:
 
 
 ### EXHIBIT D
-**SUBSEQUENT STATEMENT OF WORK No.{NUMBER}**  
+**SUBSEQUENT STATEMENT OF WORK No.[NUMBER]**  
 
-This Subsequent Statement of Work is incorporated by reference in the Independent Contractor Services Agreement between GitLab and {Name of Contributor} (“Contributor”) having an Effective Date of {DATE OF ORIGINAL AGREEMENT} (the “Agreement”). It sets forth work tasks, deliverable work product, dates for completion of work and delivery of work product, and payment schedule and terms. This Subsequent Statement of Work is subject to the provisions of the Agreement, including, without limitation, the ownership by GitLab of all rights, title, and interest in intellectual property arising in performance of this Subsequent Statement of Work. Any capitalized terms used but not defined in this Exhibit D, retain the same meaning given them in the Agreement.  
+This Subsequent Statement of Work is incorporated by reference in the Independent 
+Contractor Services Agreement between GitLab and {Name of Contributor} (“Contributor”) 
+having an Effective Date of \[DATE OF ORIGINAL AGREEMENT\] (the “Agreement”). It sets 
+forth work tasks, deliverable work product, dates for completion of work and delivery 
+of work product, and payment schedule and terms. This Subsequent Statement of Work 
+is subject to the provisions of the Agreement, including, without limitation, the
+ownership by GitLab of all rights, title, and interest in intellectual property arising 
+in performance of this Subsequent Statement of Work. Any capitalized terms used but not 
+defined in this Exhibit D, retain the same meaning given them in the Agreement.  
 
-Title of Effort: {TITLE}  
-Starting Date: {START DATE}  
-List of Tasks and Due Date: {LIST TASKS WITH DUE DATE}  
-Payment Schedule and Terms: {PAYMENT SCHEDULE AND TERMS}  
-Address where payment should be mailed (if different from initial Statement of Work): {ADDRESS}  
+Title of Effort: [TITLE]  
+Starting Date: [START DATE]  
+List of Tasks and Due Date: [LIST TASKS WITH DUE DATE]  
+Payment Schedule and Terms: [PAYMENT SCHEDULE AND TERMS]  
+Address where payment should be mailed (if different from initial Statement of Work): [ADDRESS]  
 
 **{GitLab BV OR GitLab Inc}**  
 
@@ -566,7 +581,7 @@ This Agreement, including all rights and assignments granted by Contributor unde
 **G. Entire Agreement**. This Agreement sets forth the entire agreement and understanding between the Parties relating to the subject matter herein and merges all prior discussions between the Parties. No modification of or amendment to this Agreement, nor any waiver of any rights under this Agreement, will be effective unless in writing signed by the party to be charged. Any subsequent change or changes in Contributor's services or compensation will not affect the validity or scope of this Agreement. If, in one or more instances, either party fails to insist upon performance of any of the terms of this Agreement, and the obligations of both parties shall continue in full force and effect.  
 
 
-{Remainder of Page Blank Intentionally, Signature Page is Next.}  
+[Remainder of Page Blank Intentionally, Signature Page is Next.]  
   
 
 
@@ -594,5 +609,5 @@ Date:
 
 The following is a complete list of all Works which have been made or conceived or first reduced to practice by me alone or jointly with others prior to my tenure with Company:  
 
-No Works:  Yes/No  
-If Yes, please see further details below.
+No Works (please write "yes" or "no"):  
+If Yes, please write further details below.
