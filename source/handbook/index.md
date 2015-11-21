@@ -216,8 +216,8 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
     <li><b>Mileage</b> is reimbursed according to local law: <a href="http://www.irs.gov/Tax-Professionals/Standard-Mileage-Rates">US rate per mile</a>, or <a href="http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/auto_en_vervoer/auto_van_de_onderneming/autokosten/u_rijdt_in_uw_eigen_auto">rate per km</a> in the Netherlands.</li>
     <li>The company will pay for the following <b>items</b> if you need it for work or use it mainly for business, and local law allows us to pay for it without incurring payroll taxes:
     <ul>
-      <li>Laptop</li>
-      <li>Laptop carrying bag</li>
+      <li>Notebook (we recommend getting a MacBook Pro since running Unix makes it easier to work with git from the command line)</li>
+      <li>Notebook carrying bag</li>
       <li>External <a href="http://www.amazon.com/gp/product/B009C3M7H0?psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s00">monitor</a>, <a href="http://www.amazon.com/Monoprice-32AWG-Mini-DisplayPort-Cable/dp/B0034X6SCY/ref=sr_1_1?ie=UTF8&qid=1442231319&sr=8-1&keywords=Monoprice+6ft+32AWG+Mini+DisplayPort+to+DisplayPort+Cable+-+White">monitor-cable</a>, keyboard, mouse, webcam and ethernet connector</li>
       <li>Headset</li>
       <li>(Height adjustable) desk</li>
