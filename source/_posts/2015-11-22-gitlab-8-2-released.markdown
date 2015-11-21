@@ -34,7 +34,7 @@ As a remote worker, you get fewer opportunities for high-fives, thumbs-ups, and
 fist bumps. In order to make virtual celebrations easier, you can now vote on
 issues and merge requests using emoji!
 
-![]()
+![Add award emoji to issues and merge requests in GitLab 8.2](/images/8_2/emoji.png)
 
 This makes it much easier to give and receive feedback, without a long comment thread.
 For example, we will start using issues as a replacement for our
@@ -49,6 +49,8 @@ supported by Git.
 With releases you can now add a Markdown-formatted message to any Git tag
 and attach any number of files to it.
 
+![Add notes and attachments to a git tag to create a release](/images/8_2/release.png)
+
 Simply press the edit button next to tags.
 
 ## Global Milestones
@@ -58,8 +60,10 @@ projects. By giving a milestone the same name across projects, you can view the
 grouped issues and merge requests on the dashboard and in groups.
 
 With Global Milestones in GitLab 8.2, we made it possible to immediately create
-milestones in multiple projects. This makes it easier to track activity and
+milestones in multiple projects in a group. This makes it easier to track activity and
 progress across groups and projects.
+
+![With Global Milestones, quickly add a milestone to all projects in a group](/images/8_2/global_milestones.png)
 
 ## Repository Mirroring (EE only)
 
@@ -67,9 +71,13 @@ If you want to maintain a mirror of a repository in a GitLab instance,
 you can now let GitLab handle the mirroring for you automatically in GitLab
 Enterprise Edition.
 
+![Mirror any repository automatically in GitLab 8.2 EE](/images/8_2/mirroring.png)
+
 There are several use cases for this. If you are globally distributed and want
 to have a repository available for quick cloning, you can use repository mirroring
 to always have an up-to-date, fast mirror of a remote repository.
+
+![Mirror any repository automatically in GitLab 8.2 EE](/images/8_2/mirroring2.png)
 
 Alternatively, if you want to have a public mirror of your project, for instance
 on GitLab.com, you can now do so effortlessly.
@@ -102,7 +110,7 @@ artifacts:
 This will upload anything from Runner that is not tracked by Git! Then simply
 download them from the build:
 
-![]()
+![Download the build artifact in GitLab 8.2 straight from your builds](/images/8_2/artifacts.png)
 
 To use build artifacts, make sure to upgrade your Runners to 0.7 or higher.
 Have a look at
