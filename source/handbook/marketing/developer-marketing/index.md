@@ -58,6 +58,7 @@ Start a GitLab Club for people that evangelize GitLab, make them a superhero:
 1. Scholarships (money to sponsor and attend events)
 1. Ask them to speak on our behalf and pay for their expenses
 1. Use a light CRM system like Salesforce IQ to manage it
+1. Special occasion [stickers](https://twitter.com/arturcygan/status/667729015155879937), [badges](http://www.nerdmeritbadges.com/) or [buttons](http://www.computerhistory.org/collections/catalog/102635438)
 
 ## Meetups
 
@@ -91,4 +92,3 @@ So do everthing to keep it going.
 1. Have other tools add support for GitLab
 1. Have other tools contribute for their tool to GitLab and have them add themselves on the [application page](https://about.gitlab.com/applications/)
 1. Companies using GitLab as part of their application such as O'Reilly and Perforce
-
