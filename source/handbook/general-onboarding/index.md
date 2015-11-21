@@ -24,18 +24,18 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] People Ops: Create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in 
 [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant 
 lines of the master checklist, paste the private email address of the hire in 
-there and /cc @rspeicher, @patricio and @sytse.
+there and /cc @rspeicher, @jacob, @patricio, and @sytse.
 * [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
 * [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @ HANDLE), and People Ops is tackled by (FILL IN WITH @ HANDLE).
 * [ ] Hiring manager: cc new team member on the issue once they have a dev.GitLab.org account.
-* [ ] Robert / CEO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
-* [ ] Robert / CEO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
+* [ ] Robert/Jacob/CEO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
+* [ ] Robert/Jacob/CEO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 * [ ] Hiring manager: send an email to company address 'Please read https://about.gitlab.com/handbook/ and the relevant onboarding pages that are linked from there and let me know if you have any questions.'
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), and become comfortable with Git and the GitLab workflow.
 * [ ] New team member: provide signed contract (including signed proprietary information and assignment agreement (PIAA)) to People Ops. 
 * [ ] New team member: provide scan of photo ID to People Ops.
 * [ ] People Ops: file signed contract, PIAA, and photo ID in Dropbox and confirm receipt by commenting in the issue.
-* [ ] Robert / CEO: Add to [Slack](https://gitlab.slack.com/admin)
+* [ ] Robert/Jacob/CEO: Add to [Slack](https://gitlab.slack.com/admin)
 * [ ] People Ops: Assign buddy and explain to buddy what that means: "What it 
 means is that if she/he has questions she/he can come to you. But your main job 
 as a buddy will be to direct her/him to the right parts of the handbook, and/or 
@@ -68,8 +68,8 @@ welcome email to the employee at their work email on their first date of hire.
 * [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar or stock photo).
 * [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle
 * [ ] Hiring manager: /cc the new user in the organization issue with this checklist that was created for them.
-* [ ] Robert/CEO: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
-* [ ] Robert/CEO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
+* [ ] Robert/Jacob/CEO: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
+* [ ] Robert/Jacob/CEO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] People Ops: Invite to team meeting
 * [ ] People Ops: Send [People Information sheet](https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0) and instruct to return answers via email or slack
 * [ ] People Ops: [Add to 1password](https://gitlab.1password.com/admin/people/members) and create an item for new hire in profiles vault
@@ -86,7 +86,7 @@ and then ping @rspeicher to give you access to the "Everyone" folder.
 
 ### FOR ENGINEERING ONLY (Devs, DevOps, SEs)
 
-* [ ] Patricio/Jacob: Add new team member to the [gitlab-org](https://gitlab.com/groups/gitlab-org/group_members) group on GitLab.com as a `Developer`.
+* [ ] Patricio/Robert/Jacob: Add new team member to the [gitlab-org](https://gitlab.com/groups/gitlab-org/group_members) group on GitLab.com as a `Developer`.
 
 ### FOR SALES AND FINANCE ONLY
 
