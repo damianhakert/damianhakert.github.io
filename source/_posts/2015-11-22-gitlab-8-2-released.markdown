@@ -159,6 +159,18 @@ When you search, GitLab now also searches through commit messages for you!
 
 ![Search through commits with GitLab 8.2](/images/8_2/commit_search.jpg)
 
+## CI Runner improvements
+
+With the release of GitLab 8.2, we're also releasing the new Runner, version 0.7.
+
+The biggest improvement in GitLab Runner 0.7.0 is that the Docker executor now
+separate containers uses for: git clone, running builds (as specified in .gitlab-ci.yml)
+and a separate container for uploading artifacts.
+This means you can use images without git installed
+(alimitation of previous releases).
+
+Runners now also come with built-in support for TLS self-signed certificates.
+
 ## CI & Shared Runners now on by default
 
 We want everyone to be able to use CI with zero effort or configuration.
@@ -167,7 +179,7 @@ That's why we've enabled CI and shared runners by default for all new projects.
 This means that all you need to do to start using CI is push your `.gitlab-ci.yml`
 and your current shared runners will start working on it!
 
-This is also the case for Gitlab.com, where we have a number of shared runners
+This is also the case for GitLab.com, where we have a number of shared runners
 available for everyone to use.
 
 ## Other changes
