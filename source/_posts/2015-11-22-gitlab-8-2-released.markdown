@@ -24,7 +24,7 @@ On top of these features, stay tuned to the GitLab blog tomorrow for a special
 update we’ve been working hard to launch.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Cristian Bica for
-allowing users to select the siles view as default project view.
+allowing users to select the files view as default project view.
 Thanks Cristian!
 
 <!--more-->
