@@ -30,8 +30,7 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 ## Award Emoji
 
-As a remote worker, you get fewer opportunities for high-fives, thumbs-ups, and
-fist bumps. In order to make virtual celebrations easier, you can now vote on
+As a remote worker, you get fewer opportunities for high-fives and thumbs-ups. In order to make virtual celebrations easier, you can now vote on
 issues and merge requests using emoji!
 
 ![Add award emoji to issues and merge requests in GitLab 8.2](/images/8_2/emoji.png)
@@ -68,12 +67,12 @@ progress across groups and projects.
 ## Repository Mirroring (EE only)
 
 If you want to maintain a mirror of a repository in a GitLab instance,
-you can now let GitLab handle the mirroring for you automatically in GitLab
-Enterprise Edition.
+you can now let GitLab handle the mirroring for you automatically in [GitLab
+Enterprise Edition](https://about.gitlab.com/pricing/).
 
 ![Mirror any repository automatically in GitLab 8.2 EE](/images/8_2/mirroring.png)
 
-There are several use cases for this. If you are globally distributed and want
+There are several use cases for repository mirroring. If you are globally distributed and want
 to have a repository available for quick cloning, you can use repository mirroring
 to always have an up-to-date, fast mirror of a remote repository.
 
