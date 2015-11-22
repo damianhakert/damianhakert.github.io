@@ -49,7 +49,7 @@ supported by Git.
 With releases you can now add a Markdown-formatted message to any Git tag
 and attach any number of files to it.
 
-![Add notes and attachments to a git tag to create a release](/images/8_2/release.png)
+![Add notes and attachments to a git tag to create a release](/images/8_2/releases.png)
 
 Simply press the edit button next to tags.
 
