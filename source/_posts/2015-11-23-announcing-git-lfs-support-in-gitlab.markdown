@@ -23,6 +23,6 @@ This allows for Git users to bypass the size restrictions previously given for r
 
 ## How do I get started using Git LFS?
 
-Git LFS is already running on GitLab.com. To update your on-premise version of GitLab EE or CE, simply update your [installation to 8.2](https://about.gitlab.com/downloads/). To learn more about Git LFS, take a look at our [documentation](https://gitlab.com/gitlab-org/gitlab-ce/blob/required_version_and_docs_update/doc/workflow/lfs/manage_large_binaries_with_git_lfs.md).
+Git LFS is already running on GitLab.com. To update your on-premise version of GitLab EE or CE, simply update your [installation to 8.2](https://about.gitlab.com/downloads/). To learn more about Git LFS, take a look at our [documentation](http://doc.gitlab.com/ce/workflow/lfs/manage_large_binaries_with_git_lfs.html).
 
 Don’t miss the other great features from [yesterday’s release](https://about.gitlab.com/2015/11/22/gitlab-8-2-released/) like repository mirroring, award emoji, and more. As always, thanks everyone in the community, both inside the company and out, for helping with this release. If you have any comments or questions, please feel free to comment directly on this post.
