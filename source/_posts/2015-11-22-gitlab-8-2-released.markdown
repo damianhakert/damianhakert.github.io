@@ -171,11 +171,11 @@ When you search, GitLab now also searches through commit messages for you!
 
 With the release of GitLab 8.2, we're also releasing the new Runner, version 0.7.
 
-The biggest improvement in GitLab Runner 0.7.0 is that the Docker executor now
-separate containers uses for: git clone, running builds (as specified in .gitlab-ci.yml)
+The biggest improvement in GitLab Runner 0.7.0 is that the Docker executor now uses
+separate containers uses for: git clone, running builds (as specified in .gitlab-ci.yml),
 and a separate container for uploading artifacts.
 This means you can use images without git installed
-(alimitation of previous releases).
+(a limitation of previous releases).
 
 Runners now also come with built-in support for TLS self-signed certificates.
 
