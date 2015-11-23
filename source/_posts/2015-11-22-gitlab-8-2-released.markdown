@@ -39,7 +39,7 @@ issues and merge requests using emoji!
 
 This makes it much easier to give and receive feedback, without a long comment thread.
 For example, we will start using issues as a replacement for our
-[feedback forum](https://feedback.gitlab.com).
+[feedback forum](http://feedback.gitlab.com).
 
 ## Releases
 
