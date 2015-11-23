@@ -5,7 +5,6 @@ date: 2015-11-23
 comments: true
 author: GitLab
 author_twitter: GitLab
-image_title: '/images/unsplash/FILENAME.jpg'
 ---
 
 As the use of Git and GitLab becomes increasingly popular in the development world, we’re seeing people in other industries use GitLab as well. Versioning video files, images, and even microchip designs, teams need to be able to work collaboratively to version any type of large file efficiently and reliably.
@@ -13,6 +12,7 @@ As the use of Git and GitLab becomes increasingly popular in the development wor
 In order to better serve our community with a need to version large files, support for Git Large File Storage (LFS) is now included in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition. Now game developers, graphic designers, mobile app developers, and anyone else building software requiring large files can use GitLab to version all of their assets.
 
 Companies using [GitLab EE](https://about.gitlab.com/features/#enterprise) still have the option to use [git-annex](https://about.gitlab.com/2015/02/17/gitlab-annex-solves-the-problem-of-versioning-large-binaries-with-git/), released in February 2015, to version large files or to switch to Git LFS.
+
 <!-- more -->
 
 ## What is Git LFS?
@@ -23,6 +23,6 @@ This allows for Git users to bypass the size restrictions previously given for r
 
 ## How do I get started using Git LFS?
 
-Git LFS is already running on GitLab.com. To update your on-premise version of GitLab EE or CE, simply update your [installation to 8.2](https://about.gitlab.com/downloads/). To learn more about Git LFS, take a look at our [documentation](link).
+Git LFS is already running on GitLab.com. To update your on-premise version of GitLab EE or CE, simply update your [installation to 8.2](https://about.gitlab.com/downloads/). To learn more about Git LFS, take a look at our [documentation](https://gitlab.com/gitlab-org/gitlab-ce/blob/required_version_and_docs_update/doc/workflow/lfs/manage_large_binaries_with_git_lfs.md).
 
 Don’t miss the other great features from [yesterday’s release](https://about.gitlab.com/2015/11/22/gitlab-8-2-released/) like repository mirroring, award emoji, and more. As always, thanks everyone in the community, both inside the company and out, for helping with this release. If you have any comments or questions, please feel free to comment directly on this post.
