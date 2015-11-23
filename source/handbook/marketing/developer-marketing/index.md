@@ -48,7 +48,7 @@ There seems to be [demand for this](https://www.theknowledgeacademy.com/sc/cours
 
 ## Club
 
-Start a GitLab Club for people that evangelize GitLab, make them a superhero:
+Start a GitLab Chemists Club for people that evangelize GitLab, make them a superhero:
 
 1. Find them on Twitter, Stack Overflow, our issue tracker, our commits, our irc channel, etc.
 1. These people can get access to swag (coupons for webstore)
@@ -85,6 +85,7 @@ So do everthing to keep it going.
 * Should do it in a way that doesn't cost us a lot of time to execute => self serve => web shop
 * With a webshop you can just give people credit, they can pick what they want and provide shipping info
 * Have lots of mugs, mugs are a conversational item in the office
+* Of course we need [stickers](http://opensource.com/business/15/11/open-source-stickers)
 
 ## Partners
 
