@@ -369,7 +369,8 @@ team_members:
 <iframe width="100%" height="500" scrolling="no" src="https://sundial.teleport.org/public/map/Y3IahPR5vYjBpMyU2kZj" frameborder="0"></iframe>
 
 <div class="wrapper">
-  <div class="container">
+  <div class="team-container">
+
     <div class="team-head">
       <h1>MEET OUR <b>TEAM</b></h1>
       <p>
@@ -383,7 +384,7 @@ team_members:
     <br>
     <div class="row">
       {% for member in page.team_members %}
-        <div class="col-md-4 ">
+        <div class="col-lg-3 col-md-4">
           <div class="member">
 
             <div class="card" id={{member.twitter}}>
@@ -426,7 +427,7 @@ team_members:
         </div>
         {% endfor %}
 
-        <div class="col-md-4 ">
+        <div class="col-lg-3 col-md-4 ">
           <div class="member">
 
             <div class="card">
