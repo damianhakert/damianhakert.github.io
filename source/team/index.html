@@ -366,20 +366,25 @@ team_members:
           Rubén is a Rails developer based in Lima, Perú. Before joining GitLab, he was working remotely for other US based startups. Today, he is very happy at GitLab given that one of his dreams was to collaborate full time with open source projects. When he is away from the keyboard, he is usually taking a walk with his dogs.
 ---
 
+<iframe width="100%" height="500" scrolling="no" src="https://sundial.teleport.org/public/map/Y3IahPR5vYjBpMyU2kZj" frameborder="0"></iframe>
+
 <div class="wrapper">
-  <div class="container">
+  <div class="team-container">
+
     <div class="team-head">
       <h1>MEET OUR <b>TEAM</b></h1>
       <p>
         To offer the best possible services, our team has a deep expertise in GitLab in all of its aspects.
-        The GitLab Inc. team consists of <a href="/team-pets/">pets</a> and the following individuals. 
+        The GitLab Inc. team consists of <a href="/team-pets/">pets</a> and the following individuals.
         You can get a sense of the team culture by visiting our <a href="https://about.gitlab.com/culture/">culture page</a>.
       </p>
     </div>
 
+    <br>
+    <br>
     <div class="row">
       {% for member in page.team_members %}
-        <div class="col-md-4 ">
+        <div class="col-lg-3 col-md-4">
           <div class="member">
 
             <div class="card" id={{member.twitter}}>
@@ -422,7 +427,7 @@ team_members:
         </div>
         {% endfor %}
 
-        <div class="col-md-4 ">
+        <div class="col-lg-3 col-md-4 ">
           <div class="member">
 
             <div class="card">

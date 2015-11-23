@@ -11,9 +11,9 @@ As the use of Git and GitLab becomes increasingly popular in the development wor
 
 In order to better serve our community with a need to version large files, support for Git Large File Storage (LFS) is now included in GitLab.com, GitLab Community Edition, and GitLab Enterprise Edition. Now game developers, graphic designers, mobile app developers, and anyone else building software requiring large files can use GitLab to version all of their assets.
 
-Companies using [GitLab EE](https://about.gitlab.com/features/#enterprise) still have the option to use [git-annex](https://about.gitlab.com/2015/02/17/gitlab-annex-solves-the-problem-of-versioning-large-binaries-with-git/), released in February 2015, to version large files or to switch to Git LFS.
-
 <!-- more -->
+
+Companies using [GitLab EE](https://about.gitlab.com/features/#enterprise) still have the option to use [git-annex](https://about.gitlab.com/2015/02/17/gitlab-annex-solves-the-problem-of-versioning-large-binaries-with-git/), released in February 2015, to version large files or to switch to Git LFS.
 
 ## What is Git LFS?
 

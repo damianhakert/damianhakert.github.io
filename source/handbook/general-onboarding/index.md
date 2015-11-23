@@ -24,7 +24,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] People Ops: Create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in 
 [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant 
 lines of the master checklist, paste the private email address of the hire in 
-there and /cc @rspeicher, @jacob, @patricio, and @sytse.
+there and /cc @rspeicher, @jacobvosmaer, @patricio, and @sytse.
 * [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
 * [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @ HANDLE), and People Ops is tackled by (FILL IN WITH @ HANDLE).
 * [ ] Hiring manager: cc new team member on the issue once they have a dev.GitLab.org account.
