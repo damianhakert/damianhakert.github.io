@@ -93,6 +93,7 @@ Any deal coming from Gitorious has “(from Gitorious)” added.  Example MicahT
     * a Purchase Order (PO) issued by the company
     * a signed quote (the quote that we sent).
     * an e-mail agreement (“we accept the quote/subscription/etc”) or any other written statement. If order is a signed quote or written agreement, email and ask if there is a PO pending and get the PO number
+1. If no Subscription Agreement accompanies PO, only send 30 day temp license and request signed Agreement be returned in that time
 1. Send invoice to customer with one of the two onboarding emails or a renewal email Forward Recurly invoice to customer as safeguard against going to spam. Also reinterate to sign up on GitLab.com and send user name.
 1. PROCESS for bank transfer renewals with PO received before renewal date:
   1. Create a one-off invoice in Recurly and send to customer:
