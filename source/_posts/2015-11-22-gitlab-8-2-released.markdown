@@ -20,14 +20,15 @@ If you're using GitLab Enterprise, you also get Repository Mirroring, a great
 feature if you want to make your intensively-used repositories more easily
 reachable all over the planet.
 
-On top of these features, stay tuned to the GitLab blog tomorrow for a special
-update we’ve been working hard to launch.
-
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Cristian Bica for
 allowing users to select the files view as default project view.
 Thanks Cristian!
 
 <!--more-->
+
+## Git LFS
+
+We’re excited to announce we’ve added support for Git LFS in GitLab.com, GitLab CE, and GitLab EE. To learn more about this new feature, take a look at our [highlight blog post](https://about.gitlab.com/2015/11/23/announcing-git-lfs-support-in-gitlab/).
 
 ## Award Emoji
 
