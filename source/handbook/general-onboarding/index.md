@@ -72,10 +72,10 @@ welcome email to the employee at their work email on their first date of hire.
 * [ ] Robert/Jacob/CEO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] People Ops: Invite to team meeting
 * [ ] People Ops: Send [People Information sheet](https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0) and instruct to return answers via email or slack
-* [ ] People Ops: [Add to 1password](https://gitlab.1password.com/admin/people/members) and create an item for new hire in profiles vault
-* [ ] People Ops: Put People Information into Profiles in 1password
-* [ ] New team member: Register on 1password by clicking [this link](https://gitlab.1password.com/teamjoin/invitation/J2KWH3CJDRFA7KTFDVVXXDSCMY)
-and then ping @rspeicher to give you access to the "Everyone" folder.
+* [ ] People Ops: [Add to 1Password](https://gitlab.1password.com/admin/people/members) and create an item for new hire in profiles vault
+* [ ] People Ops: Put People Information into Profiles in 1Password
+* [ ] New team member: Register on 1Password by clicking [this link](https://gitlab.1password.com/teamjoin/invitation/J2KWH3CJDRFA7KTFDVVXXDSCMY)
+and then ping @rspeicher to confirm your account.
 * [ ] New team member: Set up [secure passwords per the handbook.](https://about.gitlab.com/handbook/general-onboarding/#security)
 * [ ] People Ops: Add to Dropbox folders (if necessary)
 * [ ] People Ops: Invite to autoconnect on Beamy
@@ -159,20 +159,20 @@ The most common Issues are created in the following projects:
 
 ### Security<a name="security"></a>
 <ol>
-<li>When you are offboarded the 1password account is deleted, if you want to store your non-work passwords please store them in your 'Primary' vault, not the vault named 'Your Vault'.</li>
+<li>When you are offboarded the 1Password account is deleted, if you want to store your non-work passwords please store them in your 'Primary' vault, not the vault named 'Your Vault'.</li>
  <li><b>Never reuse</b> a password you use on a company account, not for another GitLab service nor for a personal account.</li>
-<li>Set up <a href="https://agilebits.com/onepassword">1password</a> as your password manager and set a strong and unique master password.</li>
-<li>Use 1password to <a href="https://support.1password.com/guides/mac/generate-a-strong-password.html">generate <b>strong passwords</b></a> for any new company accounts.</li>
+<li>Set up <a href="https://agilebits.com/onepassword">1Password</a> as your password manager and set a strong and unique master password.</li>
+<li>Use 1Password to <a href="https://support.1password.com/guides/mac/generate-a-strong-password.html">generate <b>strong passwords</b></a> for any new company accounts.</li>
 <li>
 <p>
 When signing up for a new service ask yourself which team members you need to <b>share access</b> with.
 If the service has a built-in way of creating other user accounts, use that.
-If not, then store your credentials in an appropriate company 1password vault so that your colleagues can sign in using your credentials.
+If not, then store your credentials in an appropriate company 1Password vault so that your colleagues can sign in using your credentials.
 </p>
 <p>
 Do not share credentials via email, issue comments, chat etc.
 This includes email addresses to login and API keys.
-Use 1password vaults for this.
+Use 1Password vaults for this.
 You should be invited to a few vaults after joining the company.
 </p>
 <p>
@@ -182,7 +182,7 @@ Do not store credentials in a vault if everyone has their own user account for t
 </p>
 </li>
 <li>Do not let your password manager store the <b>master password</b> (it is ok to store the login).</li>
-<li>Enable 2 factor authentication (2FA) with <a href="https://support.google.com/accounts/answer/1066447?hl=en">Google Authenticator</a> (not SMS) for your Google, Slack and GitLab accounts. These can be added to 1password via 'Add new one-time password'.</li>
+<li>Enable 2 factor authentication (2FA) with <a href="https://support.google.com/accounts/answer/1066447?hl=en">Google Authenticator</a> (not SMS) for your Google, Slack and GitLab accounts. These can be added to 1Password via 'Add new one-time password'.</li>
 <li><b>Encrypt</b> your home folder (easy on Ubuntu/Debian, on OS X use FileVault2 full disk encryption).</li>
 <li>Set up a screen saver with password <b>lock</b> on your notebook. The timeout can depend on how you use your laptop.</li>
 <li><b>Report</b> suspect situations to an officer of the company.</li>
@@ -316,7 +316,7 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 * [ ] Operations: Reach out to former team member to identify and retrieve any company supplies/equipment.
 * [ ] Jacob/CEO: Remove former team members' Gitlab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] Jacob/CEO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
-* [ ] People Ops: Remove team member access to 1password.
+* [ ] People Ops: Remove team member access to 1Password.
 * [ ] People Ops: Remove team member access to Dropbox.
 * [ ] Manager/CEO: Remove access to SalesForce.
 * [ ] Manager/CEO: Remove access to Recurly.
