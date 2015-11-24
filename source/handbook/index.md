@@ -165,8 +165,9 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 1. Always write GitLab with a capitalized G and L, even when writing GitLab.com.
 1. When stating monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9
 1. If an email needs a response write the ask at the top of it.
-1. Our homepage is https://about.gitlab.com/ (with the about. and with https).
-1. If you use headers properly format them (## in Markdown, 'Heading 2' in Google docs), start at the second header level because header level 1 is for titles, do not end headers with a colon.
+1. Our homepage is https://about.gitlab.com/ (with the `about.` and with `https`).
+1. If you use headers properly format them (`##` in Markdown, "Heading 2" in Google docs), start at the second header level because header level 1 is for titles, do not end headers with a colon.
+1. Always use an [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma) in lists of three or more terms.
 1. Read our [Documentation Styleguide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc_styleguide.md) for more information when writing documentation.
 
 <h2 id="intellectual-property">Intellectual Property</h2>
@@ -215,7 +216,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 <h2 id="paid-time-off">Paid Time Off</h2>
 
 1. Don't frown on people taking time off, but rather encourage that people take care of themselves and others.
-1. Working hours are flexible, you are invited to the team call (see separe section) if you are available, and we encourage you to post to the #working-on chat channel when you start your day so others can offer suggestions.
+1. Working hours are flexible, you are invited to the [team call](#team-call) if you are available, and we encourage you to post to the #working-on chat channel when you start your day so others can offer suggestions.
 1. You don't need to worry about taking time off to go to the gym, go grocery shopping, doing household chores, helping someone, taking care of a loved one, etc. If something comes up or takes longer than expected and you have urgent tasks and you're able to communicate, just ensure the rest of the team **knows** and someone can pick up any urgent tasks.
 1. We have an "unlimited" time off policy. This means that:
     * You do not need to ask permission to take time off unless you want to take more than 25 consecutive calendar days.
