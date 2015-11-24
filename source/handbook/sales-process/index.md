@@ -56,7 +56,11 @@ Training: [name of company] [type of training: User Training/Git Workshop/GitLab
 
 Any deal coming from Gitorious has “(from Gitorious)” added.  Example MicahTek, Inc.-Gitorious-Standard-1
 
-## Sales Ordering Process
+## Submitting Quotes via Salesforce
+1.
+
+
+## Processing Orders
 
 ### Web Direct orders via Recurly
 
@@ -105,6 +109,8 @@ Any deal coming from Gitorious has “(from Gitorious)” added.  Example MicahT
 1. License keys auto-generated
 1. Sales Admin to check to see if Salesforce.com record already exists (or not) by searching for the company as shown on the Recurly invoice within the search field of Salesforce.com. If an account already exists, then add an opportunity to the account. If one does not exist, create a new account, contact and opportunity for the name on the invoice.
 1. Task created for Account Owner to reach out to new client, thanking them for their business and asking for time to learn more about their initiatives for account development opportunities and to ensure their experience is great.
+
+## Deal Strategy
 
 ## Deal management process
 
