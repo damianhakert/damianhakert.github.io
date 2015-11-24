@@ -114,9 +114,9 @@ Find out [how to manage deals](/handbook/sales-process/deal_management_process) 
 
 Aspects to consider when [managing an account](/handbook/sales-process/account_management).
 
-## Accounting
+## Billing 
 
-[Accounting procedures](/handbook/sales-process/accounting).
+[Accounting procedures](/handbook/sales-process/accounting). Step-by-step guide on how to bill through recurly based on situations.
 
 ## Licenses
 
