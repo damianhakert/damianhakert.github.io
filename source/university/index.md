@@ -58,3 +58,4 @@ Please submit a merge request for suggestions.
 - [GitLab Flow](https://about.gitlab.com/2014/09/29/gitlab-flow/)
 - [GitLab Flow vs. Forking in GitLab](https://www.youtube.com/watch?v=UGotqAUACZA)
 - [Managing LDAP, Active Directory introduction with GitLab](https://www.youtube.com/watch?v=HPMjM-14qa8)
+- [Amazon's transition to Continuous Delivery](https://www.youtube.com/watch?v=esEFaY0FDKc)
