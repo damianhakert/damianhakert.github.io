@@ -246,31 +246,33 @@ exception of NDAs covering a physical visit of another organization.
 
 ### Start using GitLab
 
-1. Follow the step-by-step guides on the [basics of working with Git and GitLab.](http://doc.gitlab.com/ce/gitlab-basics/README.html)
-1. You will need to [create your SSH Keys](http://doc.gitlab.com/ce/gitlab-basics/create-your-ssh-keys.html)
+1. Follow the step-by-step guides on the [basics of working with Git and GitLab.](http://doc.gitlab.com/ce/gitlab-basics/README.html).
+1. You will need to [create your SSH Keys](http://doc.gitlab.com/ce/gitlab-basics/create-your-ssh-keys.html).
 
 ### Install Git
 
-1. Check Git version type: `git --version`
+1. Open a terminal.
+1. Check your Git version by executing: `git --version`
 1. If Git is not installed, you should be prompted to install it.
 
 ### Install RVM
 
-1. Go to [https://rvm.io](https://rvm.io/)
-1. In a terminal, execute: `curl -sSL https://get.rvm.io | bash -s stable`
-1. Close Terminal
-1. Open new Terminal to load new environment
+1. Visit [https://rvm.io](https://rvm.io/)
+1. In a terminal, execute: `\curl -sSL https://get.rvm.io | bash -s stable`
+1. Close terminal
+1. Open a new terminal to load the new environment
 
-### Install Ruby
+### Install Ruby and Bundler
 
 1. In a terminal, execute: `rvm install 2.2.1`
-1. Prompt to enter password for your machine
-1. ruby --version
-1. bundle install
-1. gem install bundler
+1. Enter your system password if prompted.
+1. Execute: `ruby --version`
+1. Execute: `bundle install`
+1. Execute: `gem install bundler`
 
 ### Preview website changes locally
 
 1. In a terminal, execute: `bundle exec rake preview`
-1. Visit [http://localhost:4000]
-1. To edit the HTML locally you need to install a text editior, we recommend [Sublime](http://www.sublimetext.com/2).
+1. Visit http://localhost:4000 in your browser
+1. To edit the site locally you'll need to install a text editor. We recommend
+   [Sublime](http://www.sublimetext.com/2).
