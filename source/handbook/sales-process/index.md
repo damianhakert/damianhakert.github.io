@@ -115,6 +115,7 @@ Any deal coming from Gitorious has “(from Gitorious)” added.  Example MicahT
 #### Renewals
 
 PO order for additional seats when past due:
+
 1. Get GitLab quote signed and upload to salesforce account
 1. Get PO from customer with their internal PO number included
 1. In Recurly, click “Add Charge” add quantity, it 2 or 3 years, then add 2 or 3 in quantity then use number that includes any discounts from upfront payments
@@ -124,17 +125,20 @@ PO order for additional seats when past due:
 1. Go to License Key and update for one year
 
 Renewal in Advance- before renew date:
+
 1. Add charge for renewal amount and process
 1. Click Subscription- Manually change renewal date 
 1. Double check license key is sent
        
 Renewal in Advance- plus add users:
+
 1. Go into account and click add charge- add total number (existing plus added seats) include details in description field. 
 1. Click Subscription and manually change renewal date
 1. Click Edit Subscription, add pack with zero charge
 1. Confirm license key matches subscription 
 
 Adding users to current subscription as a separate department:
+
 1. Need to make sure it’s a different division as you will need to issue a second license key 
 1. Click Add Subscription on main account page
 1. Process order 
