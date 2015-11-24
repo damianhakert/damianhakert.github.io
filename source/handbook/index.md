@@ -174,7 +174,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 1. Take proper care of any **confidential** information you get from our customers.
 1. If you copy code always **check** the license and attribute when needed or appropriate.
 1. Check community **contributions** and do not merge it when there can be doubt about the ownership.
-1. Only the CEO of the company **signs** legal documents such as NDAs. Sales people and the business office manager can upload them via Hellosign.
+1. Only the CEO of the company **signs** legal documents such as NDAs. Sales people and the business office manager can upload them via HelloSign.
 
 <h2 id="spending-company-money">Spending Company Money</h2>
 
@@ -238,7 +238,7 @@ send a copy of the document to legal@gitlab.com with the following information:
 4. Deadline by which you need the document prepared.
 5. Deadline by which you need the document to be signed, dated and submitted.
 
-The document will be managed through Hellosign, a cloud-based electronic
+The document will be managed through HelloSign, a cloud-based electronic
 signature tool. Only C-level executives can sign legal documents, with the
 exception of NDAs covering a physical visit of another organization.
 
