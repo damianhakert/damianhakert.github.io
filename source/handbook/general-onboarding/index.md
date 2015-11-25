@@ -21,7 +21,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 ```
 ### BEFORE STARTING AT GITLAB
 
-* [ ] People Ops: Create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in 
+* [ ] People Ops: Once the contract is signed, as soon as possible, create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in 
 [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant 
 lines of the master checklist, paste the private email address of the hire in 
 there and /cc @rspeicher, @jacobvosmaer, @patricio, and @sytse.
