@@ -313,7 +313,8 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 * [ ] Manager/CEO: Inform former team member that Google account has been removed by emailing to their personal email address.
 * [ ] Jacob/CEO: Delete from Slack
 * [ ] People Ops: Remove former team member from TriNet and payroll if applicable.
-* [ ] Operations: Reach out to former team member to identify and retrieve any company supplies/equipment.
+* [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment.
+* [ ] People Ops: Inform Controller / Accounting if any items in former team members possession will not be returning, so that they can be removed from asset tracking.
 * [ ] Jacob/CEO: Remove former team members' Gitlab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] Jacob/CEO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] People Ops: Remove team member access to 1Password.
