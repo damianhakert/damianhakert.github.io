@@ -12,6 +12,9 @@ We have found a remote code execution vulnerability in gitlab-shell
 GitLab Enterprise Edition 8.2.0. GitLab 8.1.4 and earlier versions
 are not affected by this vulnerability.
 
+This release also contains a number of other fixes, please see 
+below for details.
+
 <!-- more -->
 
 GitLab allows users to push and pull Git data over SSH. To prevent
@@ -36,7 +39,12 @@ immediately](https://about.gitlab.com/update/).
 
 ## Other changes in 8.2.1
 
-GitLab 8.2.1 also contains some non-security bugfixes. Please see
-the
+- Fix saving GitLabCiService as Admin Template 
+- Fix the artifacts storage path
+- Update required version of LFS client and separate the docs for users and admins
+- Omnibus: create directories for artifacts and lfs-objects
+- Omnibus: Make deploy page show on all pages when up
+
+See the
 [CHANGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG)
 for more information.
