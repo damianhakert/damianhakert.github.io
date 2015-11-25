@@ -22,7 +22,7 @@ to send and receive Git data. Due to a change in gitlab-shell
 can bypass the sanitization in gitlab-shell and run arbitrary
 commands on the GitLab server.
 
-The only version of GitLab that includes a vulnerable version of
+The only versions of GitLab that include a vulnerable version of
 gitlab-shell  are GitLab Community Edition 8.2.0 and GitLab Enterprise
 Edition 8.2.0. If you are still running GitLab 8.1 or earlier then
 you are not affected by this vulnerability.  As an administrator
