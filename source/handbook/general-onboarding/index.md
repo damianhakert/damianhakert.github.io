@@ -21,7 +21,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 ```
 ### BEFORE STARTING AT GITLAB
 
-* [ ] People Ops: Create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in 
+* [ ] People Ops: Once the contract is signed, as soon as possible, create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in 
 [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant 
 lines of the master checklist, paste the private email address of the hire in 
 there and /cc @rspeicher, @jacobvosmaer, @patricio, and @sytse.
@@ -195,6 +195,7 @@ Do not store credentials in a vault if everyone has their own user account for t
   We simulate phishing attacks by having an external service send emails to our company email addresses to ensure everyone is aware of the threat.
 </li>
 <li>All access to vaults is noted in [a Google Sheet](https://docs.google.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit#gid=0) use this to request access, ping the relevant administrator after you updated the sheet</li>
+<li>The CEO will not send you a [email to wire cash](http://blog.centrify.com/ceo-fraud-business-email-compromise/), feel free to verify any strange request with a video call.</li>
 </ol>
 
 ### Quiz<a name="quiz"></a>
@@ -313,7 +314,8 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 * [ ] Manager/CEO: Inform former team member that Google account has been removed by emailing to their personal email address.
 * [ ] Jacob/CEO: Delete from Slack
 * [ ] People Ops: Remove former team member from TriNet and payroll if applicable.
-* [ ] Operations: Reach out to former team member to identify and retrieve any company supplies/equipment.
+* [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment.
+* [ ] People Ops: Inform Controller / Accounting if any items in former team members possession will not be returning, so that they can be removed from asset tracking.
 * [ ] Jacob/CEO: Remove former team members' Gitlab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] Jacob/CEO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] People Ops: Remove team member access to 1Password.
