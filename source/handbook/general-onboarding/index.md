@@ -195,6 +195,7 @@ Do not store credentials in a vault if everyone has their own user account for t
   We simulate phishing attacks by having an external service send emails to our company email addresses to ensure everyone is aware of the threat.
 </li>
 <li>All access to vaults is noted in [a Google Sheet](https://docs.google.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit#gid=0) use this to request access, ping the relevant administrator after you updated the sheet</li>
+<li>The CEO will not send you a [email to wire cash](http://blog.centrify.com/ceo-fraud-business-email-compromise/), feel free to verify any strange request with a video call.</li>
 </ol>
 
 ### Quiz<a name="quiz"></a>
