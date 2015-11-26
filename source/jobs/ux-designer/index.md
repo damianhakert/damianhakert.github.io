@@ -27,7 +27,7 @@ The priority starting from urgent is:
 2. Issues assigned to future milestones
 3. Issues not assigned to a milestone
 
-When done with an ux issue remove the ux label and add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) which is probable the frontend label.
+When done with an ux issue remove the ux label and add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) which is probably the frontend label.
 
 ## Success Criteria
 
