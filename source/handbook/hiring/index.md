@@ -12,7 +12,7 @@ title: "Hiring"
 
 1. Create job description.
     * The CEO needs to authorize any new job positions/searches, and agree on the proposed hiring team.
-    * The description is made through [Workable](https://gitlab.workable.com/backend) 
+    * The description is made through [Workable](https://gitlab.workable.com/backend)
     which also populates the [Jobs page](https://about.gitlab.com/jobs). The description consists of:
       * Job title
       * Preferred timezone where candidate should reside
@@ -31,8 +31,8 @@ title: "Hiring"
 1. Hiring team agrees on a hiring timeline. Typical options:
     * Choose from specific deadlines (e.g. all applicants will be reviewed on date X, hear back by date Y), or
     * Choose rolling application process, wherein the review and interview process  happen as applications come in, or
-    * Some combination of the above. So for example, wait for X amount of time 
-    to gather enough applications, then review in bulk, set up first interviews, 
+    * Some combination of the above. So for example, wait for X amount of time
+    to gather enough applications, then review in bulk, set up first interviews,
     and repeat this process until a suitable applicant is found.
 1. Publish the job description through the [Workable](https://gitlab.workable.com/backend) interface.
     * Confirm that the CEO (or person authorized by CEO) has signed off on the description, and hiring team.
@@ -46,17 +46,17 @@ title: "Hiring"
     * Homework assignments may be required for some positions.
 1. Communication with Applicants
     * Upon receiving the application and reviewing it for the first time:
-      * Applicants should receive confirmation of their application, thanking 
+      * Applicants should receive confirmation of their application, thanking
       them for submitting their information. This may be an automated message.
-      * If information is missing and the applicant seems sufficiently promising 
+      * If information is missing and the applicant seems sufficiently promising
       (or not enough information to be able to make that determination), the appropriate person from the hiring team should follow up requesting additional information.
     * Timing
-      * Interviews should be set up in accordance with the hiring timeline that 
+      * Interviews should be set up in accordance with the hiring timeline that
       was defined previously; and applicants should be notified of this process as much as possible.
-      * At time of interview, applicant should be told what the timeline is for 
-      a decision, and what the next steps are (if any). An example message would 
-      be "We are reviewing applications through the end of next week, and will let 
-      you know by the end of two weeks from today whether you've been selected for 
+      * At time of interview, applicant should be told what the timeline is for
+      a decision, and what the next steps are (if any). An example message would
+      be "We are reviewing applications through the end of next week, and will let
+      you know by the end of two weeks from today whether you've been selected for
       the next round or not. Please feel free to ping us if you haven't heard anything from us by then."
     * Feedback
       * Do not hesitate to involve the CEO in reviewing feedback to candidates who have not been selected.
@@ -64,16 +64,17 @@ title: "Hiring"
     * The CEO needs to authorize offers.
     * Sign up successful applicant and move to [onboarding](https://about.gitlab.com/handbook/general-onboarding).
     * Inform other applicants that we selected someone else this time. Applicants remain in the database and may be contacted in the future for other roles.
-    
-    
+
+
+
 ## Getting Contracts Ready<a name="prep-contracts"></a>
-Once a new team member is to be added in an employee or contractor capacity, 
-fill out the [New Contract form](https://docs.google.com/a/gitlab.com/forms/d/1Cthnkdj_23ev_u7LT01wv5dZYAZKm20vp5JmzT3ECqE/viewform) 
-with pertinent details, and ping the Business Office Manager to initiate the creation of the contracts.  
+Once a new team member is to be added in an employee or contractor capacity,
+fill out the [New Contract form](https://docs.google.com/a/gitlab.com/forms/d/1Cthnkdj_23ev_u7LT01wv5dZYAZKm20vp5JmzT3ECqE/viewform)
+with pertinent details, and ping the Business Office Manager to initiate the creation of the contracts.
 
 Our template contracts are posted on the [Contracts page](https://about.gitlab.com/handbook/contracts).
 
 ## Contract Signed: Now What?<a name="move-to-onboarding"></a>
-Once the contract has been signed, create an onboarding issue as detailed on the 
+Once the contract has been signed, create an onboarding issue as detailed on the
 [General Onboarding](https://about.gitlab.com/handbook/general-onboarding/) page. Important: create the related
 onboarding issue as soon as possible.
