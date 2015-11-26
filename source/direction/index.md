@@ -165,20 +165,25 @@ in a way that all relevant parties get notified.
 - Paas: Use [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) to deploy to CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Nomad](https://nomadproject.io/), [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/) [Tutum](https://www.tutum.co/) [GiantSwarm](https://giantswarm.io/)
 - Scrum boards: [Huboard](https://huboard.com/), [Waffle.io](https://waffle.io/) and [Zenhub.io](https://www.zenhub.io/) support in addition to https://about.gitlab.com/applications/#scrum-boards
 
-## Product Vision
+## Vision <a name="vision"></a>
 
 Everyone, including all knowledge workers, needs to collaborate on digital content.
 This content should be open to suggestions by a wide number of potential contributors.
 This can be achieved by using a mergeable file format and distributed version control.
-GitLab allows everyone to collaborate on all digital content.
+The vision of GitLab is to <b>allow everyone to collaborate on all digital content</b>.
+This allows people to cooperate effectively and to achieve better results, faster.
 
 Idea's go flow though many stages before they are realized: chat, issue, sprint, IDE, commit, CI, review, acceptance, deployment.
 Stitching all stages together can be done in many different ways.
-GitHub stitches it together with a marketplace of proprietary apps from different suppliers.
-Atlassian stitches it together with a suite of products that are developed in isolation.
-We believe that an integrated and opinionated set of tools offers a superior user experience.
+You can have a marketplace of proprietary apps from different suppliers.
+Or stich it together with a suite of products that are developed in isolation.
+We believe that an <b>integrated and opinionated set of tools</b> offers a superior user experience.
+That doesn't mean we'll never do a marketplace or offer a suite of products.
+But we admire other integrated and opinionated tools like [Ruby on Rails](http://rubyonrails.org/), [Ember](http://emberjs.com/) and [Heroku](https://www.heroku.com/) and we're working on a smooth experience from chat to deployment.
 
-The open source nature of GitLab ensures everyone can contribute to achieve a [complete feature set](https://about.gitlab.com/comparison/).
+The open source nature of GitLab ensures that we're well suited to offer an integrated experience.
+Everyone can contribute to achieve the [complete feature set](https://about.gitlab.com/comparison/) that is needed for an integrated experience.
 Because GitLab is open source the enhancements can become part of the codebase instead of being external.
 This ensures the automated tests for all functionality are continually run, ensuring that plugins always work.
-And that GitLab can continue to evolve with it's plugins instead of being bound to a plugin API that is hard to change.
+It also ensures GitLab can continue to evolve with it's plugins instead of being bound to a plugin API that is hard to change and that resists refactoring.
+This ensures we have many years of quality code and great monthly releases ahead of us.

@@ -30,7 +30,6 @@ To do this we offer services around GitLab such as subscriptions, consulting, de
 Above all, GitLab is a community project, over 800 people worldwide have [contributed to GitLab]!
 GitLab Inc. is an active participant in this community, trying to serve its needs and lead by example.
 
-
 ## A brief history of GitLab
 
 ### _2011: Start of GitLab_
@@ -72,9 +71,10 @@ At this point, over 800 people worldwide have [contributed to GitLab] and more
 than 100,000 organizations are using GitLab.
 
 ## Vision
-Our vision is that every digital product that is created by more than one person
-should be managed in distributed version control.
-This allows people to cooperate effectively and to achieve better results, faster.
+
+At GitLab we have one vision.
+To allow everyone to collaborate on all digital content.
+For more background and to see how we plan to achieve it please see our [direction page](https://about.gitlab.com/direction/).
 
 ## Mission and logo
 We are part of a community that works together to create the best open source collaboration tools.
@@ -85,7 +85,7 @@ We care about giving back to the rest of the GitLab community, that is why we gi
 We try to be open, that is why this website is maintained in <a href="https://gitlab.com/gitlab-com/www-gitlab-com/">a public repository</a>.
 We realize that GitLab is more than this organization, this is shown by having people from outside this company in the <a href="https://www.gitlab.com/core-team/">core team</a>.
 We think good code can be written by anyone, we encourage diversity by contributing to <a href="http://railsgirls.nl/">RailsGirls NL</a>.
-We try to correct the mistakes we make, please give us a chance by <a href="mailto:contact@gitlab.com">emailing us</a>.
+We try to correct the mistakes we make, please give us a chance by <a href="mailto:community@gitlab.com">emailing us</a>.
 
 ## Handbook
 If you're interested, most of our internal procedures can be found in <a href="/handbook">publicly viewable handbooks</a>.
