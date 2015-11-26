@@ -21,59 +21,72 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 ```
 ### BEFORE STARTING AT GITLAB
 
-* [ ] People Ops: Create issue called 'Onboard Jane Doe starting March 26' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master checklist, paste the private email address of the hire in there and /cc Jacob, Patricio and CEO.
+* [ ] People Ops: Once the contract is signed, as soon as possible, create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in 
+[organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant 
+lines of the master checklist, paste the private email address of the hire in 
+there and /cc @rspeicher, @jacobvosmaer, @patricio, and @sytse.
+* [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
+* [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @ HANDLE), and People Ops is tackled by (FILL IN WITH @ HANDLE).
 * [ ] Hiring manager: cc new team member on the issue once they have a dev.GitLab.org account.
-* [ ] Jacob/CEO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
-* [ ] Jacob/CEO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
+* [ ] Robert/Jacob/CEO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
+* [ ] Robert/Jacob/CEO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 * [ ] Hiring manager: send an email to company address 'Please read https://about.gitlab.com/handbook/ and the relevant onboarding pages that are linked from there and let me know if you have any questions.'
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), and become comfortable with Git and the GitLab workflow.
-* [ ] New team member: provide signed contract to People Ops.
+* [ ] New team member: provide signed contract (including signed proprietary information and assignment agreement (PIAA)) to People Ops. 
 * [ ] New team member: provide scan of photo ID to People Ops.
-* [ ] New team member: provide signed PIAA (proprietary information and assignment agreement) to People Ops.(US employees have a PIAA included in their contract)
-* [ ] People Ops: file signed PIAA, contract, and photo ID in Dropbox and confirm receipt by commenting in the issue.
-* [ ] Jacob/CEO: Add to Slack
-* [ ] People Ops: Send email to new hire and buddy introducing them "We expect you to be resourceful but your buddy is here to help you get up to speed quickly.". Buddy is a junior that performs a similar job.
+* [ ] People Ops: file signed contract, PIAA, and photo ID in Dropbox and confirm receipt by commenting in the issue.
+* [ ] Robert/Jacob/CEO: Add to [Slack](https://gitlab.slack.com/admin)
+* [ ] People Ops: Assign buddy and explain to buddy what that means: "What it 
+means is that if she/he has questions she/he can come to you. But your main job 
+as a buddy will be to direct her/him to the right parts of the handbook, and/or 
+encourage her/him to ask her/his questions of the wider group on Slack, etc."
 
 ### WITHIN TWO DAYS OF STARTING
 
 #### For GitLab Inc employees only
 
-* [ ] People Ops: complete and submit an online Add New Hire Form (TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the welcome email to the employee at their work email on their first date of hire.
+* [ ] People Ops: complete and submit an online Add New Hire Form 
+(TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the 
+welcome email to the employee at their work email on their first date of hire.
 * [ ] New employee: complete [New Hire TriNet Passport 7 Steps Guide](https://docs.google.com/a/gitlab.com/document/d/1CFIyByd1Kgmz5353_aASVI1D8QTyJ2Uy60ziQHEPTUI/edit?usp=sharing). The I-9 portion of this must be completed with the first two days of hire. Note- this is critical so you must contact HR@gitlab.com if you have difficulty with this form.
 * [ ] New employee: submit a completed [New Employee Personal Information Form](https://docs.google.com/a/gitlab.com/document/d/1oK_-me8inC6pyODjITxMHiq5C5NC88xQw6cwUBU5g1g/edit?usp=sharing) to HR@gitlab.com
 * [ ] New employee: read through the [New Hire Benefits Guide](https://drive.google.com/a/gitlab.com/file/d/0B0dixQ9qzgilNlN0MnNFS29xWnB2SjNWVUk3dUV2aWlhejVR/view?usp=sharing). This will go over medical, dental, vision and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
 * [ ] People Ops: Set up new hire training with TriNet (If necessary).
+* [ ] People Ops: Add new employees to [Inc payroll](https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl).
+
 
 #### For GitLab BV employees only
 
 * [ ] New employee: provide People Ops with your BSN (burger service nummer), bank account information (IBAN code), the basics (name, address, date of birth), and if you are based in the Netherlands, please indicate whether you want "loonheffingskorting" to be applied or not.
+* [ ] People Ops: Add new employees to [BV payroll](https://docs.google.com/document/d/1g6nZ7w1RqkSvD6VbyuRPauDTUuyTp4mDaHrUY2UVY-A/edit).
 
-#### For All New Team Members
-
-* [ ] People Ops: Add new employees to [Inc payroll](https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl) or [BV payroll](https://docs.google.com/document/d/1g6nZ7w1RqkSvD6VbyuRPauDTUuyTp4mDaHrUY2UVY-A/edit).
-* [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment
-* [ ] Patricio/Jacob/CEO: Add to tweetdeck
-* [ ] Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar or stock photo).
 
 ### WITHIN FIRST WEEK OF STARTING
 
+* [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment.
+* [ ] Patricio/CEO: Add to tweetdeck
+* [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar or stock photo).
 * [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle
 * [ ] Hiring manager: /cc the new user in the organization issue with this checklist that was created for them.
-* [ ] Jacob/CEO: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
-* [ ] Jacob/CEO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
-* [ ] Hiring manager: Invite to team meeting
+* [ ] Robert/Jacob/CEO: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
+* [ ] Robert/Jacob/CEO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
+* [ ] People Ops: Invite to team meeting
 * [ ] People Ops: Send [People Information sheet](https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0) and instruct to return answers via email or slack
-* [ ] People Ops: [Add to Lastpass](https://lastpass.com/enterprise_create.php) and create folder for new hire in Lastpass
-* [ ] People Ops: Put People Information into Profiles in Lastpass
-* [ ] People Ops: Set up meeting with new team member on day 3 or 4 to any questions that remain. New team member should have gone through handbook and guide meeting with specific questions after having reviewed onboarding process.
-* [ ] New team member: Login to Lastpass and set up secure passwords per the handbook (insert link to security section on how to use LP).
-* [ ] Business Office manager: Add Bluejeans account (if necessary)
-* [ ] Business Office manager: Add to GitLab Dropbox
-* [ ] Business Office manager: Add to BV and/or Inc Dropbox (if in Finance, if in another dept ask CEO if appropriate)
-* [ ] Business Office manager: Invite to autoconnect on Beamy
+* [ ] People Ops: [Add to 1Password](https://gitlab.1password.com/admin/people/members) and create an item for new hire in profiles vault
+* [ ] People Ops: Put People Information into Profiles in 1Password
+* [ ] New team member: Register on 1Password by clicking [this link](https://gitlab.1password.com/teamjoin/invitation/J2KWH3CJDRFA7KTFDVVXXDSCMY)
+and then ping @rspeicher to confirm your account.
+* [ ] New team member: Set up [secure passwords per the handbook.](https://about.gitlab.com/handbook/general-onboarding/#security)
+* [ ] People Ops: Add to Dropbox folders (if necessary)
+* [ ] People Ops: Invite to autoconnect on Beamy
+* [ ] People Ops: Order business cards for new team member.
 * [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/)
 * [ ] CEO: Add team member to the GitLab availability calendar
-* [ ] New team member: The home folder of my harddrive is encrypted
+* [ ] New team member: I verify that the home folder of my harddrive is encrypted.
+
+### FOR ENGINEERING ONLY (Devs, DevOps, SEs)
+
+* [ ] Patricio/Robert/Jacob: Add new team member to the [gitlab-org](https://gitlab.com/groups/gitlab-org/group_members) group on GitLab.com as a `Developer`.
 
 ### FOR SALES AND FINANCE ONLY
 
@@ -146,35 +159,34 @@ The most common Issues are created in the following projects:
 
 ### Security<a name="security"></a>
 <ol>
-<li>When you are offboarded the Lastpass account is deleted, if you want to store your non-work passwords please create a personal lastpass account and [link it to your work account](https://enterprise.lastpass.com/getting-started/link-personal-account/).</li>
+<li>When you are offboarded the 1Password account is deleted, if you want to store your non-work passwords please store them in your 'Primary' vault, not the vault named 'Your Vault'.</li>
  <li><b>Never reuse</b> a password you use on a company account, not for another GitLab service nor for a personal account.</li>
-<li>Set up <a href="https://lastpass.com/">LastPass</a> as your password manager and set a strong and unique master password.</li>
-<li>Use Lastpass to <a href="https://helpdesk.lastpass.com/generating-a-password/">generate <b>strong passwords</b></a> for any new company accounts.</li>
+<li>Set up <a href="https://agilebits.com/onepassword">1Password</a> as your password manager and set a strong and unique master password.</li>
+<li>Use 1Password to <a href="https://support.1password.com/guides/mac/generate-a-strong-password.html">generate <b>strong passwords</b></a> for any new company accounts.</li>
 <li>
 <p>
 When signing up for a new service ask yourself which team members you need to <b>share access</b> with.
 If the service has a built-in way of creating other user accounts, use that.
-If not, then store your credentials in an appropriate shared folder on our company LastPass account so that your colleagues can sign in using your credentials.
+If not, then store your credentials in an appropriate company 1Password vault so that your colleagues can sign in using your credentials.
 </p>
 <p>
 Do not share credentials via email, issue comments, chat etc.
 This includes email addresses to login and API keys.
-Use LastPass shared folders for this.
-You should be invited to a few shared folders.
+Use 1Password vaults for this.
+You should be invited to a few vaults after joining the company.
 </p>
 <p>
-If you're missing an appropriate folder ask the CEO to create a new shared folder.
-Refer to the items with 'NAME OF SITE' in 'LASTPASS FOLDER'.
-Do not use the share function in Lastpass itself, use shared folders and email others to altert them if needed.
-Do not store credentials in a shared folder if everyone has their own user account for the service.
+If you're missing an appropriate vault ask the CEO to create a new vault.
+Refer to the items with NAME_OF_SITE credentials in VAULT_NAME. For example: "for access please see the AOL credentials in the Luddite vault".
+Do not store credentials in a vault if everyone has their own user account for the service.
 </p>
 </li>
 <li>Do not let your password manager store the <b>master password</b> (it is ok to store the login).</li>
-<li>Enable 2 factor authentication (2FA) with <a href="https://support.google.com/accounts/answer/1066447?hl=en">Google Authenticator</a> (not SMS) for your Lastpass account, Google, Slack and GitLab accounts.</li>
+<li>Enable 2 factor authentication (2FA) with <a href="https://support.google.com/accounts/answer/1066447?hl=en">Google Authenticator</a> (not SMS) for your Google, Slack and GitLab accounts. These can be added to 1Password via 'Add new one-time password'.</li>
 <li><b>Encrypt</b> your home folder (easy on Ubuntu/Debian, on OS X use FileVault2 full disk encryption).</li>
 <li>Set up a screen saver with password <b>lock</b> on your notebook. The timeout can depend on how you use your laptop.</li>
 <li><b>Report</b> suspect situations to an officer of the company.</li>
-<li>If you have security <b>suggestions</b> put them on the <a href="https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit">agenda</a>.</li>
+<li>If you have security <b>suggestions</b> put them on the <a href="https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit">team call agenda</a>.</li>
 <li>Never <b>dismiss</b> a security report as invalid. Keep asking questions until the researcher comes to the same conclusion or stops responding.</li>
 <li>Do not <b>forward</b> company emails (@gitlab.com) to a non-company email address.</li>
 <li>
@@ -182,7 +194,8 @@ Do not store credentials in a shared folder if everyone has their own user accou
   Clicking itself is a problem even when you don't enter a password, because a visit can already be used to execute a zero day.
   We simulate phishing attacks by having an external service send emails to our company email addresses to ensure everyone is aware of the threat.
 </li>
-<li>All access is noted in [a Google Sheet](https://docs.google.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit#gid=0) use this to request access, ping the relevant administrator after you updated the sheet</li>
+<li>All access to vaults is noted in [a Google Sheet](https://docs.google.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit#gid=0) use this to request access, ping the relevant administrator after you updated the sheet</li>
+<li>The CEO will not send you a [email to wire cash](http://blog.centrify.com/ceo-fraud-business-email-compromise/), feel free to verify any strange request with a video call.</li>
 </ol>
 
 ### Quiz<a name="quiz"></a>
@@ -295,22 +308,23 @@ This list looks strange in this handbook but this is to ensure you can copy past
 When you paste it in an issue it will have checkboxes that you can click to complete.
 
 ```
-* [ ] Manager of former team member: organize smooth hand over of any work or tasks from former team member.
-* [ ] Jacob/CEO: block Google account, firstname@gitlab.com or initial(s)@gitlab.com
+* [ ] Manager of former team member: Organize smooth hand over of any work or tasks from former team member.
+* [ ] Jacob/CEO: Block Google account, firstname@gitlab.com or initial(s)@gitlab.com
 * [ ] Jacob/CEO: 2 weeks after blocking the Google account, delete it.
-* [ ] Manager/CEO: inform former team member that Google account has been removed by emailing to their personal email address.
-* [ ] Jacob/CEO: delete from Slack
-* [ ] People Ops: remove former team member from TriNet and payroll if applicable.
-* [ ] Operations: reach out to former team member to identify and retrieve any company supplies/equipment.
+* [ ] Manager/CEO: Inform former team member that Google account has been removed by emailing to their personal email address.
+* [ ] Jacob/CEO: Delete from Slack
+* [ ] People Ops: Remove former team member from TriNet and payroll if applicable.
+* [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment.
+* [ ] People Ops: Inform Controller / Accounting if any items in former team members possession will not be returning, so that they can be removed from asset tracking.
 * [ ] Jacob/CEO: Remove former team members' Gitlab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] Jacob/CEO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
-* [ ] People Ops: Remove team member access to LastPass.
+* [ ] People Ops: Remove team member access to 1Password.
 * [ ] People Ops: Remove team member access to Dropbox.
 * [ ] Manager/CEO: Remove access to SalesForce.
 * [ ] Manager/CEO: Remove access to Recurly.
 * [ ] Manager/CEO: Remove access to Quickbooks.
-* [ ] Business Office manager: Remove access to company credit card if applicable.
-* [ ] Business Office manager: remove from Beamy
+* [ ] People Ops: Remove access to company credit card if applicable.
+* [ ] People Ops: Remove from Beamy
 * [ ] CEO: Remove team member from the GitLab availability calendar.
 * [ ] CEO: remove team member from team call invitation.
 * [ ] Patricio/Jacob/CEO: Remove from tweetdeck

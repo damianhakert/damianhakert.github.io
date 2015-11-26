@@ -48,7 +48,7 @@ There seems to be [demand for this](https://www.theknowledgeacademy.com/sc/cours
 
 ## Club
 
-Start a GitLab Club for people that evangelize GitLab, make them a superhero:
+Start a GitLab Chemists Club for people that evangelize GitLab, make them a superhero:
 
 1. Find them on Twitter, Stack Overflow, our issue tracker, our commits, our IRC channel, etc.
 1. These people can get access to swag (coupons for webstore)
@@ -58,6 +58,7 @@ Start a GitLab Club for people that evangelize GitLab, make them a superhero:
 1. Scholarships (money to sponsor and attend events)
 1. Ask them to speak on our behalf and pay for their expenses
 1. Use a light CRM system like Salesforce IQ to manage it
+1. Special occasion [stickers](https://twitter.com/arturcygan/status/667729015155879937), [badges](http://www.nerdmeritbadges.com/) or [buttons](http://www.computerhistory.org/collections/catalog/102635438)
 
 ## Meetups
 
@@ -77,14 +78,15 @@ Start a GitLab Club for people that evangelize GitLab, make them a superhero:
 The first meetups should be run by ourselves.
 If someone manages to have 3 to 4 successive meetups it will live on.
 Dead meetup cities will be much harder to start up again than new ones.
-So do everthing to keep it going.
+So do everything to keep it going.
 
 ## Swag
 
 * Should do it in a way that doesn't cost us a lot of time to execute => self serve => web shop
 * With a webshop you can just give people credit, they can pick what they want and provide shipping info
 * Have lots of mugs, mugs are a conversational item in the office
-* Special edition stickers for contributors, GitLab Club members. 
+* Special edition stickers for contributors, GitLab Club members.
+* Of course we need [stickers](http://opensource.com/business/15/11/open-source-stickers)
 
 ## Partners
 
@@ -92,4 +94,3 @@ So do everthing to keep it going.
 1. Have other tools add support for GitLab
 1. Have other tools contribute for their tool to GitLab and have them add themselves on the [application page](https://about.gitlab.com/applications/)
 1. Companies using GitLab as part of their application such as O'Reilly and Perforce
-

@@ -5,6 +5,7 @@ title: "Hiring"
 ## On this page:
 * [Hiring Process](#hiring-process)
 * [Getting Contracts Ready](#prep-contracts)
+* [Contract signed: now what?](#move-to-onboarding)
 
 
 ## Hiring Process<a name="hiring-process"></a>
@@ -71,3 +72,8 @@ fill out the [New Contract form](https://docs.google.com/a/gitlab.com/forms/d/1C
 with pertinent details, and ping the Business Office Manager to initiate the creation of the contracts.  
 
 Our template contracts are posted on the [Contracts page](https://about.gitlab.com/handbook/contracts).
+
+## Contract Signed: Now What?<a name="move-to-onboarding"></a>
+Once the contract has been signed, create an onboarding issue as detailed on the 
+[General Onboarding](https://about.gitlab.com/handbook/general-onboarding/) page. Important: create the related
+onboarding issue as soon as possible.

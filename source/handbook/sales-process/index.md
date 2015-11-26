@@ -56,7 +56,11 @@ Training: [name of company] [type of training: User Training/Git Workshop/GitLab
 
 Any deal coming from Gitorious has “(from Gitorious)” added.  Example MicahTek, Inc.-Gitorious-Standard-1
 
-## Sales Ordering Process
+## Submitting Quotes via Salesforce
+1.
+
+
+## Processing Orders
 
 ### Web Direct orders via Recurly
 
@@ -87,12 +91,15 @@ Any deal coming from Gitorious has “(from Gitorious)” added.  Example MicahT
       1. Select the Make license from Recurly subscription button
 1. Task created for Account Owner to reach out to new client, thanking them for their business and asking for time to learn more about their initiatives for account development opportunities and to ensure their experience is great.
 
-### Invoiced Clients - Bank Transfer
+### Invoiced Clients -
+
+#### New Business Order-
 
 1. Sales receives an order (one of the three options):
     * a Purchase Order (PO) issued by the company
     * a signed quote (the quote that we sent).
     * an e-mail agreement (“we accept the quote/subscription/etc”) or any other written statement. If order is a signed quote or written agreement, email and ask if there is a PO pending and get the PO number
+1. If no Subscription Agreement accompanies PO, only send 30 day temp license and request signed Agreement be returned in that time
 1. Send invoice to customer with one of the two onboarding emails or a renewal email Forward Recurly invoice to customer as safeguard against going to spam. Also reinterate to sign up on GitLab.com and send user name.
 1. PROCESS for bank transfer renewals with PO received before renewal date:
   1. Create a one-off invoice in Recurly and send to customer:
@@ -104,6 +111,42 @@ Any deal coming from Gitorious has “(from Gitorious)” added.  Example MicahT
 1. License keys auto-generated
 1. Sales Admin to check to see if Salesforce.com record already exists (or not) by searching for the company as shown on the Recurly invoice within the search field of Salesforce.com. If an account already exists, then add an opportunity to the account. If one does not exist, create a new account, contact and opportunity for the name on the invoice.
 1. Task created for Account Owner to reach out to new client, thanking them for their business and asking for time to learn more about their initiatives for account development opportunities and to ensure their experience is great.
+	
+#### Renewals
+
+PO order for additional seats when past due:
+
+1. Get GitLab quote signed and upload to salesforce account
+1. Get PO from customer with their internal PO number included
+1. In Recurly, click “Add Charge” add quantity, it 2 or 3 years, then add 2 or 3 in quantity then use number that includes any discounts from upfront payments
+1. Click submit, then click manual billing
+1. Add the customers PO number under “PO Number” field, and make sure the number is updated on preview to the right
+1. Click submit, then PO will go to client for them to pay in net30. If they do not, then rep will need to follow up to get payment (will see list in Aging report)
+1. Go to License Key and update for one year
+
+Renewal in Advance- before renew date:
+
+1. Add charge for renewal amount and process
+1. Click Subscription- Manually change renewal date 
+1. Double check license key is sent
+       
+Renewal in Advance- plus add users:
+
+1. Go into account and click add charge- add total number (existing plus added seats) include details in description field. 
+1. Click Subscription and manually change renewal date
+1. Click Edit Subscription, add pack with zero charge
+1. Confirm license key matches subscription 
+
+Adding users to current subscription as a separate department:
+
+1. Need to make sure it’s a different division as you will need to issue a second license key 
+1. Click Add Subscription on main account page
+1. Process order 
+1. Makes sure you see two separate subscriptions on the main page in Recurly
+1. Make sure a second license key is sent to the contact
+	
+
+## Deal Strategy
 
 ## Deal management process
 
@@ -113,9 +156,9 @@ Find out [how to manage deals](/handbook/sales-process/deal_management_process) 
 
 Aspects to consider when [managing an account](/handbook/sales-process/account_management).
 
-## Accounting
+## Billing 
 
-[Accounting procedures](/handbook/sales-process/accounting).
+[Accounting procedures](/handbook/sales-process/accounting). Step-by-step guide on how to bill through recurly based on situations.
 
 ## Licenses
 
