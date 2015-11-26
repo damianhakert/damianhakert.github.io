@@ -18,7 +18,7 @@ UI/UX latest technics, prototyping with a tools or HTML/CSS, user testing, user 
 
 ## Priorities
 
-You work on items tagged with [UX](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=ux) and/or [UI](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=ui)
+You work on items tagged with [UX](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=ux)
 
 The priority starting from urgent is:
 
@@ -26,6 +26,8 @@ The priority starting from urgent is:
 1. Issues assigned to the upcoming milestone
 2. Issues assigned to future milestones
 3. Issues not assigned to a milestone
+
+When done with an ux issue remove the ux label and add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) which is probably the frontend label.
 
 ## Success Criteria
 
