@@ -12,7 +12,7 @@ Back in May of this year, we ensured that our [Enterprise Edition JavaScript was
 
 But GitLab.com still loaded the Google Analytics JavaScript code, which is not free software.
 
-Recently we switched to using the on-premises open source Piwik software.
+Recently we switched to using the on-premises open source [Piwik software](http://piwik.org/).
 Ensuring that you only download free software to the client when using GitLab.com.
 
 We want to thank Mike Gerwitz, a [Free Software](https://www.gnu.org/philosophy/free-sw.html) hacker and activist,
