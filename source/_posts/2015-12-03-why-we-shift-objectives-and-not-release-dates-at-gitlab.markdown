@@ -10,7 +10,7 @@ image_title: '/images/unsplash/goal.jpg'
 
 # Why we shift objectives and not release dates at GitLab
 
-I’ve just started working at GitLab this week, and I’m bowled over completely by the kindness and talent of the people I’m meeting. On my second day, I met with Dmitriy Zaporozhets, founder of the software project GitLab and co-founder of my company, GitLab, Inc. We spoke about the release date: it’s same day, each month, always. What is this madness? I wasn’t used to things being release ON TIME and deadlines not shifting. I discovered this is at the heart of working at GitLab. 
+I’ve just started working at GitLab, and I’m bowled over completely by the kindness and talent of the people I’m meeting. On my second day, I met with Dmitriy Zaporozhets, founder of the software project GitLab and co-founder of my company, GitLab, Inc. We spoke about the release date: it’s same day, each month, always. What is this madness? I wasn’t used to things being released ON TIME and deadlines not shifting. I discovered this monthly release date is at the heart of working at GitLab. 
 
 “At GitLab we believe you shouldn’t wait for something to be perfect: Release what you have and do it on a schedule,” said Dmitriy. 
 
