@@ -84,7 +84,7 @@ So do everything to keep it going.
 
 * Should do it in a way that doesn't cost us a lot of time to execute => self serve => web shop
 * With a webshop you can just give people credit, they can pick what they want and provide shipping info
-* Have lots of mugs, mugs are a conversational item in the office
+* Have lots of mugs, [mugs are a conversational item in the office](http://dealwhisperers.blogspot.co.il/2015/07/a-million-dollar-coffee-cup.html)
 * Special edition stickers for contributors, GitLab Club members.
 * Of course we need [stickers](http://opensource.com/business/15/11/open-source-stickers)
 
