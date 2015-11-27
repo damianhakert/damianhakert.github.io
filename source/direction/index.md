@@ -33,25 +33,14 @@ Also the list below not include any contributions from outside GitLab the compan
 The version numbers below link to the issues for that version accross all products.
 The bullets list the tentpole features; the most improtant features of upcoming releases.
 
-### [8.2](https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2)
-
-- [Git LFS support](https://gitlab.com/gitlab-org/gitlab-ce/issues/2955)
-- [Repository mirroring (EE)](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/51)
-- [Releases](https://gitlab.com/gitlab-org/gitlab-ce/issues/2701)
-- [Create MR from editor](https://gitlab.com/gitlab-org/gitlab-ce/issues/3059)
-- [Global Milestones](https://gitlab.com/gitlab-org/gitlab-ce/issues/3488)
-- [Award Emoji](https://gitlab.com/gitlab-org/gitlab-ce/issues/2223)
-- [CI build artifacts](https://gitlab.com/gitlab-org/gitlab-ce/issues/3028)
-- [CI runner caching (not doing a clean on a fetch)](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1786)
-
-### [8.3](https://gitlab.com/groups/gitlab-org/milestones/8-3?title=8.3)
+### [8.3](https://gitlab.com/groups/gitlab-org/milestones/8-3?title=8.3) - December 22nd
 
 - [Revert merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 - [GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1748)
 - [Issue Weight (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/70)
 - [Migrate all Ci::Project data to Project](https://gitlab.com/gitlab-org/gitlab-ce/issues/3474)
 
-### [8.4](https://gitlab.com/groups/gitlab-org/milestones/8-4?title=8.4)
+### [8.4](https://gitlab.com/groups/gitlab-org/milestones/8-4?title=8.4) - January 22nd
 
 - [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
 - [Import GitHub PR's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2833)
@@ -59,12 +48,12 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 - [Notification System](https://gitlab.com/gitlab-org/gitlab-ce/issues/2425)
 - [Elasticsearch (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
 
-### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5)
+### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5) - February 22nd
 
 - [GitLab RE for readonly secundary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
 - [Focus Dashboard](https://gitlab.com/gitlab-org/gitlab-ce/issues/3467)
 
-### [9.0](https://gitlab.com/groups/gitlab-org/milestones/9-0?title=9.0)
+### [9.0](https://gitlab.com/groups/gitlab-org/milestones/9-0?title=9.0) - ?
 
 - [Nested groups](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772)
 
