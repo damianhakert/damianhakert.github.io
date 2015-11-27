@@ -46,7 +46,7 @@ getting things done and enjoying our lives.
 
 Biggest “ahas” of the trip? Dmitriy might love chocolate more than coding,
 Amsterdam is a truly spectacular city where simply walking around is amazing and
-most importantly, as the wise Marin Jankovski said, “2 week @gitlab summit
+most importantly, as the wise Marin Jankovski said, “2 week @GitLab summit
 ended today. Main thing I learned: my colleagues are not only 100% professionals
 but also 500% great people.”
 
@@ -54,3 +54,5 @@ So, what’s next? We have already begun brainstorming our next summit – locat
 and dates TBD. You can be sure that we will rise to the bar that has been set
 and provide yet another memorable experience that supports the idea that those
 who work remotely are able to have their stroopwafel and eat it too!
+
+Would you like to join our next GitLab Summit? Well then, you'll have to join our team. Please check out our current [job openings](https://about.gitlab.com/jobs/). Maybe there is a role for you. :)
