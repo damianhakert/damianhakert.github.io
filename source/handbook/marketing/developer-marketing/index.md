@@ -87,6 +87,7 @@ So do everything to keep it going.
 * Have lots of mugs, [mugs are a conversational item in the office](http://dealwhisperers.blogspot.co.il/2015/07/a-million-dollar-coffee-cup.html)
 * Special edition stickers for contributors, GitLab Club members.
 * Of course we need [stickers](http://opensource.com/business/15/11/open-source-stickers)
+* Maybe we can also do [hologram stickers](http://www.integraf.com/custom/hologram-stickers-labels/) since these will look cool on laptops and people are more likely to give them a prominent place.
 
 ## Partners
 
