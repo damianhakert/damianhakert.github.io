@@ -34,6 +34,13 @@ There are many advantages.
 * It gives open source projects a leading edge which increases adoption and participation. Predictable, frequent releases are crucial for open source projects: People don’t want to help and contribute on a project which is dead or stalled.
 * There are also advantages for the core developers. It promotes working with passion in periods of intense activity then celebration and relaxation. 
 
+Recently, Michael Walsh of Enovate Design posted [a review of GitLab](https://www.enovate.co.uk/web-design-blog/2015/11/25/gitlab-review/). He mentioned the release date as a benefit, and I asked him how it affects his own work. he said it wasn't so much that it affected his own work... 
+
+> "I like the regularity of monthly releases (the 22nd is a date I look forward to!) and it's a routine now to check the release blog post. The monthly releases certainly focusses my attention on GitLab more compared with other services that have no/little consistency to the timing of their releases." [see comment in context](https://www.enovate.co.uk/web-design-blog/2015/11/25/gitlab-review/#comment-2379718375)
+
+He knows when it's coming out, and it's nice to think that it's a day he looks forward to.
+
+
 ## How does a time-based release promote quality?
 
 Time-based release cycles promote discipline, emphasize quality and increase motivation. 
