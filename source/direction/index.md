@@ -46,7 +46,8 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 - [Import GitHub PR's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2833)
 - [Import GitHub wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
 - [Notification System](https://gitlab.com/gitlab-org/gitlab-ce/issues/2425)
-- [Elasticsearch (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
+- [Elasticsearch or Hound (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
+- [HA Omnibus packages (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
 
 ### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5) - February 22nd
 
