@@ -34,7 +34,7 @@ There are many advantages.
 * It gives open source projects a leading edge which increases adoption and participation. Predictable, frequent releases are crucial for open source projects: People don’t want to help and contribute on a project which is dead or stalled.
 * There are also advantages for the core developers. It promotes working with passion in periods of intense activity then celebration and relaxation. 
 
-Recently, Michael Walsh of Enovate Design posted [a review of GitLab](https://www.enovate.co.uk/web-design-blog/2015/11/25/gitlab-review/). He mentioned the release date as a benefit, and I asked him how it affects his own work. he said it wasn't so much that it affected his own work... 
+Recently, Michael Walsh of Enovate Design posted [a review of GitLab](https://www.enovate.co.uk/web-design-blog/2015/11/25/gitlab-review/). He mentioned the release date as a benefit, and I asked him how it affects his own work. He said it wasn't so much that it affected his own work... 
 
 > "I like the regularity of monthly releases (the 22nd is a date I look forward to!) and it's a routine now to check the release blog post. The monthly releases certainly focusses my attention on GitLab more compared with other services that have no/little consistency to the timing of their releases." [see comment in context](https://www.enovate.co.uk/web-design-blog/2015/11/25/gitlab-review/#comment-2379718375)
 
@@ -75,7 +75,7 @@ Is a time-based release cycle the best option for open source projects?
 
 ## The debate is on
 
-I imagined if a feature-driven release cycle held a debate about Quality with a time-based release cycle, that the feature-driven cycle could lead the argument by saying “We’re holding out for perfection!” In rebuttal, the time-based cycle could argue that a their approach leads to a more vibrant, active, development community and ultimately a higher quality product. And besides that, it SHIPS. 
+I imagined if a feature-driven release cycle held a debate about Quality with a time-based release cycle, that the feature-driven cycle could lead the argument by saying “We’re holding out for perfection!” In rebuttal, the time-based cycle could argue that their approach leads to a more vibrant, active, development community and ultimately a higher quality product. And besides that, it SHIPS. 
 
 I’m curious what the GitLab users think about time-based or feature-driven releases. I’d love to hear if you have experience of both, and how it affects your motivation and the quality of work.
 
