@@ -107,7 +107,7 @@ We promise that:
 Apart from making new features GitLab Inc. does a lot of work that benefits both CE and EE:
 
 1. [Responsible disclosure](https://about.gitlab.com/disclosure/) process and security fixes
-1. [Release management](http://doc.gitlab.com/ce/release/README.html) including a montly release of both CE and EE
+1. [Release management](http://doc.gitlab.com/ce/release/README.html) including a monthly release of both CE and EE
 1. Packaging GitLab in our [Omnibus packages](https://gitlab.com/gitlab-org/omnibus-gitlab)
 1. Running a [packages server](https://packages.gitlab.com/gitlab/)
 1. Dependency upgrades (Rails, gems, etc.)
