@@ -143,6 +143,7 @@ in a way that all relevant parties get notified.
 - Push to another repo
 - [Management dashboard](https://dev.gitlab.org/gitlab/gitlab-ee/issues/287)
 - [Highly Available (HA) Omnibus Packages](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
+- [Oracle support](https://gitlab.com/gitlab-org/gitlab-ee/issues/96)
 
 ### Software to ship in the Omnibus packages
 
