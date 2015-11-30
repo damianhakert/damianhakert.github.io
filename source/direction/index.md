@@ -72,6 +72,8 @@ We very much welcome contributions that implement any of these things.
 - [Translations](http://feedback.gitlab.com/forums/176466-general/suggestions/3337748-internationalization-add-translations) with the help of the rest of the community and Perforce
 - [Subgroups / Directories](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772) - Current proposal is to have Directories
 - [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
+- [GitLab Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
+- [GitLab Autoscale](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/318)
 - [Resolve merge conflicts in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/3567)
 - [Multithreaded application server](https://gitlab.com/gitlab-org/gitlab-ce/issues/3592)
 
