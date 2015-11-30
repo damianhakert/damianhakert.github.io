@@ -207,12 +207,22 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
         * Up to the first [EUR 100](https://www.google.com/search?q=100+eur+in+usd) for an upgrade to Economy Plus (no height restriction) on flights longer than 8 hours.
     * Anything else you need? Please ask!
     * To order please send a screenshot of what you need to purchasing@gitlab.com
-1. **Expense Reimbursement** GitLab uses Expensify to facilitate the reimbursement of your expenses. You will receive an invitation by email to join GitLab's account. Please set up your account by following the instructions in the invitation.
+1. **Expense Reimbursement** 
+    *  If you are a contractor, please submit an invoice with receipts attached to ap@gitlab.com.
+    *  If you are an employee, GitLab uses Expensify to facilitate the reimbursement of your expenses. 
+    You will receive an invitation by email to join GitLab's account. Please set up your account 
+    by following the instructions in the invitation.
+    *  If you are new to Expensify and would like a brief review, please see [Getting Started](http://help.expensify.com/getting-started/)
+    *  For step by step instructions on creating, submitting and closing a report 
+    please see [Create, Submit, Close](http://help.expensify.com/reports-create/)
+    *  If you are an employee with a company credit card, your company 
+    credit card charges will automatically be fed to a new Expensify report each month. 
+    Please attach receipts for these expenses (per the Expense Policy, see below) within 5 business days after the end of the month. 
+    These amounts will not be reimbursed to you but Expensify provides a platform for documenting your charges correctly.
 1. **Expense Policy**
     * Max Expense Amount - 5,000 USD or 5,000 EUR
     * Receipt Required Amount - 25 USD or 25 EUR
-    * If you are new to Expensify and would like a brief review, please see [Getting Started](http://help.expensify.com/getting-started/)
-
+    
 <h2 id="paid-time-off">Paid Time Off</h2>
 
 1. Don't frown on people taking time off, but rather encourage that people take care of themselves and others.
