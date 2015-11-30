@@ -19,6 +19,10 @@ valid as such and do not replace personalized signed agreements.
 Assuming that the [hiring process](https://about.gitlab.com/handbook/hiring/) went smoothly, now it is time to prepare the applicable contracts. 
 The following set of steps should suffice:
 
+1. Select the relevant contracts to copy them into Word or a Google Doc (see next step for details). Employees / Contractors should always be employed by the GitLab entity where they are 
+located (e.g. GitLab BV should not contract with contractors / employees in the US and vice versa). 
+If the employee is in the US, GitLab Inc. should be the hiring/contracting entity.  
+In all other regions GitLab BV should be the hiring / contracting entity. 
 1. Copy the relevant contracts to a single Word or Google Doc (Word does a better job of retaining formatting). 
   * NOTE: Remember that regardless of the status of the new team member, i.e. contractor or employee for either GitLab Inc., or GitLab BV, 
   a PIAA must be included with the contract.
