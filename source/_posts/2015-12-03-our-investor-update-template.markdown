@@ -34,7 +34,7 @@ The general advice about investor update emails seems to focus on three main poi
 
 We've opted to keep our template brief and this forces us to get laser focused in our updates. 
 
-# What should you include?
+## What should you include?
 
 What you include in your investor email and your own template is up for debate. Some templates look fairly long with up to 10 points. Some are shorter, like ours with main information chunked. 
 
