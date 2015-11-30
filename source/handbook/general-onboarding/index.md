@@ -81,7 +81,7 @@ and then ping @rspeicher to give you access to the "Everyone" folder.
 * [ ] People Ops: Invite to autoconnect on Beamy
 * [ ] People Ops: Order business cards for new team member.
 * [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/)
-* [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via (FILL IN WITH PRIVATE SUNDIAL URL)
+* [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing)
 * [ ] CEO: Add team member to the GitLab availability calendar
 * [ ] New team member: I verify that the home folder of my harddrive is encrypted.
 
