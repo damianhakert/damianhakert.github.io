@@ -21,7 +21,8 @@ participate or help in any way, please contact Job or submit a merge request.
 
 - [View all classes](/university/classes)
 
-## Courses
+## Training Courses 
+The following courses have been created to help you become better educated about Git and GitLab.  We recommend completing each course in order.  If you have suggestions for additonal courses you would like to see, please email Chad Malchow.
 
 #### Version Control Systems
 - [About Version Control](https://docs.google.com/presentation/d/16sX7hUrCZyOFbpvnrAFrg6tVO5_yT98IgdAqOmXwBho/edit#slide=id.g72f2e4906_2_29)
