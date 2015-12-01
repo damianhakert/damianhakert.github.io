@@ -135,6 +135,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 1. Please join the meeting with your x@gitlab.com account, not your private Google account.
 1. We wait for people to join the first two minutes of the meeting until :32.
 1. We start by discussing the subjects that are on the agenda for today.
+1. Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
 1. When done with a point mention the subject of the next item and hand over to the next person.
 1. We ask everyone what they did outside of work the day(s) before.
 1. Sequence of asking people is in order of joining the company, same as on the [team page](https://about.gitlab.com/team/). If there are non-team page people in the call we end with those.
