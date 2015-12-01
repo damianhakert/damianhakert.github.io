@@ -29,3 +29,9 @@ contributors who work together as a tight team in a [remote and agile](https://a
    * doc.gitlab.com
    * dev.gitlab.org
 * Feature development for GitLab CE, EE, and CI.
+
+## Senior Developers
+Senior Developers are experienced developers who:
+* know a domain really well and radiate that knowledge
+* train new people
+* are the go-to person when people on the team have development questions
