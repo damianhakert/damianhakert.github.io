@@ -63,4 +63,4 @@ Please submit a merge request for suggestions.
 - [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/cmp3000/webcomponents/jsp/docshow/closewindow.jsp)
 - [Amazon's transition to Continuous Delivery](https://www.youtube.com/watch?v=esEFaY0FDKc)
 - [3rd party tool comparision](http://technologyconversations.com/2015/10/16/github-vs-gitlabs-vs-bitbucket-server-formerly-stash/)
-- [State of Dev Ops 2015 Report by Puppet Labs](https://puppetlabs.com/sites/default/files/2015-state-of-devops-report.pdf)
+- [State of Dev Ops 2015 Report by Puppet Labs](https://puppetlabs.com/sites/default/files/2015-state-of-devops-report.pdf) Insightful Chapters to understand the Impact of Continuous Delivery on Performance (Chapter 4), the Application Architecture (Chapter 5) and How IT Managers can help their teams win (Chapter 6).
