@@ -32,6 +32,6 @@ contributors who work together as a tight team in a [remote and agile](https://a
 
 ## Senior Developers
 Senior Developers are experienced developers who:
-* have specific domain expertise
+* know a domain really well and radiate that knowledge
 * train new people
-* are a go-to person for the rest of the team
+* are the go-to person when people on the team have development questions
