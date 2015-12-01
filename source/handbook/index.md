@@ -138,6 +138,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 1. When done with a point mention the subject of the next item and hand over to the next person.
 1. We ask everyone what they did outside of work the day(s) before.
 1. Sequence of asking people is in order of joining the company, same as on the [team page](https://about.gitlab.com/team/). If there are non-team page people in the call we end with those.
+1. Please look if the person you hand over to is present in the participant list so you don't hand over to someone who is not present.
 1. Last person hands over to the first person in the call order that is present (normally Dmitriy) who wishes everyone a good day.
 
 <h3 id="user-communication-guidelines">User Communication Guidelines</h3>
@@ -207,22 +208,22 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
         * Up to the first [EUR 100](https://www.google.com/search?q=100+eur+in+usd) for an upgrade to Economy Plus (no height restriction) on flights longer than 8 hours.
     * Anything else you need? Please ask!
     * To order please send a screenshot of what you need to purchasing@gitlab.com
-1. **Expense Reimbursement** 
+1. **Expense Reimbursement**
     *  If you are a contractor, please submit an invoice with receipts attached to ap@gitlab.com.
-    *  If you are an employee, GitLab uses Expensify to facilitate the reimbursement of your expenses. 
-    You will receive an invitation by email to join GitLab's account. Please set up your account 
+    *  If you are an employee, GitLab uses Expensify to facilitate the reimbursement of your expenses.
+    You will receive an invitation by email to join GitLab's account. Please set up your account
     by following the instructions in the invitation.
     *  If you are new to Expensify and would like a brief review, please see [Getting Started](http://help.expensify.com/getting-started/)
-    *  For step by step instructions on creating, submitting and closing a report 
+    *  For step by step instructions on creating, submitting and closing a report
     please see [Create, Submit, Close](http://help.expensify.com/reports-create/)
-    *  If you are an employee with a company credit card, your company 
-    credit card charges will automatically be fed to a new Expensify report each month. 
-    Please attach receipts for these expenses (per the Expense Policy, see below) within 5 business days after the end of the month. 
+    *  If you are an employee with a company credit card, your company
+    credit card charges will automatically be fed to a new Expensify report each month.
+    Please attach receipts for these expenses (per the Expense Policy, see below) within 5 business days after the end of the month.
     These amounts will not be reimbursed to you but Expensify provides a platform for documenting your charges correctly.
 1. **Expense Policy**
     * Max Expense Amount - 5,000 USD or 5,000 EUR
     * Receipt Required Amount - 25 USD or 25 EUR
-    
+
 <h2 id="paid-time-off">Paid Time Off</h2>
 
 1. Don't frown on people taking time off, but rather encourage that people take care of themselves and others.
