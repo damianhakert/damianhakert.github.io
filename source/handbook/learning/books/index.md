@@ -7,6 +7,8 @@ title: "Books"
 
 List of books and resources, that may be worth reading.
 
+GitLab staff can join in our casual [book club](club.html)
+
 
 ### Papers
 

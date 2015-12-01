@@ -7,7 +7,7 @@ title: "Book Club"
 
 The Book Club is a casual meet-up to read and discuss books we like. We'll find a time that suits most, if not all. 
 
-See the [parent page](/) for some recommended books
+See the [book list](/handbook/learning/books/) for additional recommendations.
 
 ## Currently reading
 
@@ -15,4 +15,4 @@ See the [parent page](/) for some recommended books
 
     David Heinemeier Hansson and Jason Fried, 2013 ([amazon](http://www.amazon.co.uk/Remote-Required-David-Heinemeier-Hansson/dp/0091954673))
 
-Any other books you'd like to suggest? Add them to the queue. 
+Any other books you'd like to suggest? Edit this page and add them to the queue. 
