@@ -57,8 +57,20 @@ Training: [name of company] [type of training: User Training/Git Workshop/GitLab
 Any deal coming from Gitorious has “(from Gitorious)” added.  Example MicahTek, Inc.-Gitorious-Standard-1
 
 ## Submitting Quotes via Salesforce
-1.
+ Creating a Quote 
 
+Within the opportunity
+
+1. Click New Quote
+1. Name the Quote Suggested format “ Gitlab/Company name/Type of Subscription. Customers will see the name of the quote.
+1. Enter expiration date if required - It can be left blank.
+1. In "Prepared for” search for the contact name and ensure email address is correct.
+1. Check correct mailing address this will be pulled from account details. If there is no address in the account this will be blank
+1. Save  Quote
+1. Now in the quote "Create PDF” and choose the type of subscription template; Basic,Standard or Plus.
+1. Either "save quote" this allows you to send pdf from your mail client or "save and email quote" this will send from with sfdc mail client.
+
+ Creating new quote template
 
 ## Processing Orders
 
