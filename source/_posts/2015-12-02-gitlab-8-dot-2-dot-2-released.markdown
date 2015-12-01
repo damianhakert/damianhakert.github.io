@@ -34,8 +34,6 @@ It includes the following fixes:
 
 ## Upgrade barometer
 
-TODO (rspeicher): Note about gitlab-shell v2.6.8 - https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1932
-
 This version does not include any new migrations, and should not require any
 downtime.
 
@@ -43,6 +41,18 @@ Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
 can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
 file](http://doc.gitlab.com/omnibus/update/README.html).
+
+***Note for installations from source:*** The installation and update guides for
+versions 8.2 and 8.2.1 mistakenly included instructions that would leave
+installations with an outdated version of `gitlab-shell`. Please ensure that you
+have the correct required version (`2.6.8`) by performing the following
+commands:
+
+```sh
+cd /home/git/gitlab-shell
+sudo -u git -H git fetch
+sudo -u git -H git checkout v2.6.8
+```
 
 ## Updating
 
