@@ -413,11 +413,11 @@ team_members:
     <br>
     <div class="row">
       {% for member in page.team_members %}
-        <div class="col-lg-3 col-md-4">
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="member">
 
             <div class="card" id={{member.twitter}}>
-              <figure class="front">
+              <div class="front">
                 <img src="../images/team/{{member.picture}}" alt="gitlab.com" width="200" height="200">
                 <h3>{{member.name}}</h3>
                 <h4>{{member.role}}</h4>
@@ -436,27 +436,17 @@ team_members:
                   {% endif %}
                 </div>
 
-                <a class="biolink" href="#">
-                  bio
-                </a>
-              </figure>
-
-              <figure class="back">
-                <p>
-                  {{member.story}}
-                </p>
-
-                <a class="flipback" href="#">
-                  {{member.name}}
-                </a>
-              </figure>
+                <div class="bio">
+                  <p>{{member.story}}</p>
+                </div>
+              </div>
             </div>
 
           </div>
         </div>
         {% endfor %}
 
-        <div class="col-lg-3 col-md-4 ">
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="member">
 
             <div class="card">
