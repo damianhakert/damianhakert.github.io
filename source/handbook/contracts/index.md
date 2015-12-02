@@ -760,7 +760,10 @@ This Agreement, including all rights and assignments granted by Contributor unde
 
 **D. Successors and Assigns**. This Agreement will be binding upon Contributor's heirs, executors, administrators and other legal representatives and will be for the benefit of the Company, its successors, and its assigns.  
 
-**E. Term of Agreement; Effect of Termination**. This Agreement shall continue in full force and effect for the duration of Contributor's tenure with Company and thereafter until terminated in a written agreement signed by both parties. If any provision of this Agreement is terminated by operation of law for any reason, all other parties shall survive.  
+**E. Term of Agreement; Effect of Termination**. This Agreement shall continue in 
+full force and effect for the duration of Contributor's tenure with Company and thereafter 
+until terminated in a written agreement signed by both parties. If any provision of this 
+Agreement is terminated by operation of law for any reason, all other provisions shall survive.  
 
 **F. Attorneys’ Fees**. In any legal action or other proceeding brought to enforce or interpret the terms of this Agreement, the prevailing party shall be entitled to recover reasonable attorneys’ fees and costs.  
 
