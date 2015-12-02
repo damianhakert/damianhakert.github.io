@@ -21,22 +21,37 @@ participate or help in any way, please contact Job or submit a merge request.
 
 - [View all classes](/university/classes)
 
-## Previous Classes
+## Training Courses 
+The following courses have been created to help you become better educated about Git and GitLab.  We recommend completing each course in order.  If you have suggestions for additonal courses you would like to see, please email Chad Malchow.
 
-- [GitLab Ecosystem](https://docs.google.com/presentation/d/1vCU-NbZWz8NTNK8Vu3y4zGMAHb5DpC8PE5mHtw1PWfI/edit)
-- [Intro to Git](https://www.codeschool.com/account/courses/try-git)
-- [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
-- [GitLab Introduction to Terminology](https://about.gitlab.com/2015/05/18/simple-words-for-a-gitlab-newbie/)
-- [Create a GitLab Account](https://courses.platzi.com/classes/git-gitlab/concepto/first-steps/create-an-account-on-gitlab/material/)
-- [Create and Add your SHH key to GitLab](https://www.youtube.com/watch?v=54mxyLo3Mqk)
-- [Creating a new project in GitLab](https://www.youtube.com/watch?v=7p0hrpNaJ14)
-- [Issue and Merge Request](https://www.youtube.com/watch?v=raXvuwet78M)
-- [What is GitLab OmniBus?](https://www.youtube.com/watch?v=XTmpKudd-Oo)
-- [How to install GitLab with Omnibus](https://www.youtube.com/watch?v=Q69YaOjqNhg)
-- [Managing permissions within EE](https://www.youtube.com/watch?v=DjUoIrkiNuM)
-- [GitLab Flow](https://about.gitlab.com/2014/09/29/gitlab-flow/)
-- [GitLab Flow vs. Forking in GitLab](https://www.youtube.com/watch?v=UGotqAUACZA)
-- [Managing LDAP, Active Directory introduction with GitLab](https://www.youtube.com/watch?v=HPMjM-14qa8)
+#### Version Control Systems
+- [About Version Control](https://docs.google.com/presentation/d/16sX7hUrCZyOFbpvnrAFrg6tVO5_yT98IgdAqOmXwBho/edit#slide=id.g72f2e4906_2_29)
+- [Take the Test](http://goo.gl/forms/8H8SNcH70T)
+
+#### Intro to Git 
+- [Intro to Git](https://www.codeschool.com/account/courses/try-git) 
+- [Take the Test](http://goo.gl/forms/GgWF1T5Ceg)
+- Supporting Documents
+    * [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
+
+#### Intro to Git and Gitlab
+- [Intro to Git and GitLab](https://drive.google.com/a/gitlab.com/file/d/0B41DBToSSIG_ZWlYa3AxeDBtYVk/view?usp=sharing)
+- Recorded date: 2015-9-17
+- [Take the test](http://goo.gl/forms/9PnmhiNzEa)
+- Supporting Documents
+    * [A Short History of Git](http://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
+
+#### Operating Systems and How Git Works
+- [Operating Systems and How Git Works](https://drive.google.com/a/gitlab.com/file/d/0B41DBToSSIG_OVYxVFJDOGI3Vzg/view?usp=sharing)
+- Recorded date: 2015-10-1
+- Take the test
+
+#### Ecosystem
+- [GitLab Ecosystem slides](https://docs.google.com/presentation/d/1vCU-NbZWz8NTNK8Vu3y4zGMAHb5DpC8PE5mHtw1PWfI/edit)
+- [Gitlab Ecosystem Recording](https://drive.google.com/a/gitlab.com/file/d/0B41DBToSSIG_N0gzbEFMOVNkLWc/view?usp=sharing)
+- Recorded date: 2015-11-5
+- [Take the Test](http://goo.gl/forms/5Vrf3CE0iC)
+
 
 ## Upcoming Topics
 
@@ -48,6 +63,17 @@ Please submit a merge request for suggestions.
 
 ## Resources
 
+- [GitLab Introduction to Terminology](https://about.gitlab.com/2015/05/18/simple-words-for-a-gitlab-newbie/)
+- [Create a GitLab Account](https://courses.platzi.com/classes/git-gitlab/concepto/first-steps/create-an-account-on-gitlab/material/)
+- [Create and Add your SHH key to GitLab](https://www.youtube.com/watch?v=54mxyLo3Mqk)
+- [Creating a new project in GitLab](https://www.youtube.com/watch?v=7p0hrpNaJ14)
+- [Issue and Merge Request](https://www.youtube.com/watch?v=raXvuwet78M)
+- [What is GitLab OmniBus?](https://www.youtube.com/watch?v=XTmpKudd-Oo)
+- [How to install GitLab with Omnibus](https://www.youtube.com/watch?v=Q69YaOjqNhg)
+- [Managing permissions within EE](https://www.youtube.com/watch?v=DjUoIrkiNuM)
+- [GitLab Flow](https://about.gitlab.com/2014/09/29/gitlab-flow/)
+- [GitLab Flow vs. Forking in GitLab](https://www.youtube.com/watch?v=UGotqAUACZA)
+- [Managing LDAP, Active Directory introduction with GitLab](https://www.youtube.com/watch?v=HPMjM-14qa8)
 - [GitLab documentation](http://doc.gitlab.com/)
 - [Innersourcing article](https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/)
 - [Platzi training course](https://courses.platzi.com/courses/git-gitlab/)
