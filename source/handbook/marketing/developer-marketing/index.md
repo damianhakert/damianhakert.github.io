@@ -20,6 +20,7 @@ Some content from Heather McNamee her presentation [Developer Marketing Brainsto
 * Can accelerate the above with free CI runners
 * Offer $100 per blog post and use a public issue tracker to gather idea's and tag them as acceptable.
 * Encourage guest posts on our blog
+* [Blog posts ideas](https://dev.gitlab.org/gitlab/blog-posts/issues) (internal)
 
 ## Stories
 
@@ -29,6 +30,11 @@ Some content from Heather McNamee her presentation [Developer Marketing Brainsto
 * Boss stories 'how GitLab enabled innersourcing'
 * Inception stories 'how GitLab uses GitLab'
 * Adoption stories 'how we switched from SVN to GitLab'
+
+## Respond
+
+* Our service engineers will respond to [questions from any user, at any place, irrespective of them being a paying customer](https://about.gitlab.com/jobs/service-engineer/)
+* Every one on our team, espacially the CEO should engage with the rest of the community. We should treat it like it's your first day on the job and you've got to earn every single one of those users yourself. Here's the best part: this practice of being responsive, human + helpful gets MORE valuable as you become more successful.
 
 ## Training
 
@@ -91,7 +97,8 @@ So do everything to keep it going.
 
 ## Partners
 
-1. Have marque projects move to GitLab by engaging with them, offering support and free licenses
-1. Have other tools add support for GitLab
-1. Have other tools contribute for their tool to GitLab and have them add themselves on the [application page](https://about.gitlab.com/applications/)
-1. Companies using GitLab as part of their application such as O'Reilly and Perforce
+1. Have marque projects move to GitLab by engaging with them, offering support and free licenses.
+1. Have other tools add support for GitLab.
+1. Have other tools contribute for their tool to GitLab and have them add themselves on the [application page](https://about.gitlab.com/applications/).
+1. Companies using GitLab as part of their application such as O'Reilly and Perforce.
+1. [Strategic Partner listing](https://docs.google.com/document/d/1-oAf0tMlTrAaPAsG_8NLXrI3DEZqI5ZA0gW0lKxFjA4/edit) (internal)
