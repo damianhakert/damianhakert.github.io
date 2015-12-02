@@ -27,6 +27,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Accounting](/handbook/accounting)
 * [Social Media](/handbook/social-media)
 * [Stock Options](/handbook/stock-options)
+* [GitLab University](https://about.gitlab.com/university/)
 
 ## Contents of this page
 
