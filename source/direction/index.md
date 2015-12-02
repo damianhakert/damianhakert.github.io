@@ -159,18 +159,28 @@ in a way that all relevant parties get notified.
 - Paas: Use [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) to deploy to CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Nomad](https://nomadproject.io/), [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/) [Tutum](https://www.tutum.co/) [GiantSwarm](https://giantswarm.io/)
 - Scrum boards: [Huboard](https://huboard.com/), [Waffle.io](https://waffle.io/) and [Zenhub.io](https://www.zenhub.io/) support in addition to https://about.gitlab.com/applications/#scrum-boards
 
-## Product Vision
+## Vision <a name="vision"></a>
 
-In the future, every digital product will be managed in distributed version
-control. GitLab will be the product make this possible and accessible.
+Everyone, including all knowledge workers, needs to collaborate on digital content.
+This content should be open to suggestions by a wide number of potential contributors.
+This can be achieved by using a mergeable file format and distributed version control.
+The vision of GitLab is to <b>allow everyone to collaborate on all digital content</b>.
+This allows people to cooperate effectively and to achieve better results, faster.
 
-GitLab will make it possible for teams of any size to work on
-digital products of any nature, effortlessly, distributed and asynchronously.
+Idea's go flow though many stages before they are realized: chat, issue, sprint, IDE, commit, CI, review, acceptance, deployment.
+Stitching all stages together can be done in many different ways.
+You can have a marketplace of proprietary apps from different suppliers.
+Or stich it together with a suite of products that are developed in isolation.
+We believe that an <b>integrated set of tools based on convention over configuration</b> offers a superior user experience.
+The advantage can be quoted from the [Wikipedia page for convention over configuration](https://en.wikipedia.org/wiki/Convention_over_configuration): "decrease the number of decisions that developers need to make, gaining simplicity, and not necessarily losing flexibility.".
+In GitLab you only have to specify unconventional aspects of your workflow, the rest will be a smooth experience.
+And that smooth experience should go all the way from informal chat, to creating an issue, coding it in an IDE, committhing the code, running CI tests, doing a code review, to deployment in different environments.
+That doesn't mean we'll never do a marketplace, in fact this is the way [GitLab.com will be free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever).
+But we admire other convention over configuration tools like [Ruby on Rails](http://rubyonrails.org/), [Ember](http://emberjs.com/) and [Heroku](https://www.heroku.com/) and strive to offer the same advantages for a continuous delivery of software.
 
-To make this possible, GitLab has to be easy to use, fully featured, fast and reliable.
-It has to make communication and working with many people easier.
-
-GitLab is build by a large community of contributors. It has to be build in a way
-that promotes contributions. By writing great documentation, amazing test suites
-and making good use of (our own) continuous integration services, everyone can
-quickly start developing and get instant feedback.
+The open source nature of GitLab ensures that we're well suited to offer an integrated experience.
+Everyone can contribute to achieve the [complete feature set](https://about.gitlab.com/comparison/) that is needed for an integrated experience.
+Because GitLab is open source the enhancements can become part of the codebase instead of being external.
+This ensures the automated tests for all functionality are continually run, ensuring that plugins always work.
+It also ensures GitLab can continue to evolve with it's plugins instead of being bound to a plugin API that is hard to change and that resists refactoring.
+This ensures we have many years of quality code and great monthly releases ahead of us.
