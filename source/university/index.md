@@ -21,35 +21,31 @@ participate or help in any way, please contact Job or submit a merge request.
 
 - [View all classes](/university/classes)
 
-## Training Courses 
+## Training Courses
 The following courses have been created to help you become better educated about Git and GitLab.  We recommend completing each course in order.  If you have suggestions for additonal courses you would like to see, please email Chad Malchow.
 
 #### Version Control Systems
 - [About Version Control](https://docs.google.com/presentation/d/16sX7hUrCZyOFbpvnrAFrg6tVO5_yT98IgdAqOmXwBho/edit#slide=id.g72f2e4906_2_29)
 - [Take the Test](http://goo.gl/forms/8H8SNcH70T)
 
-#### Intro to Git 
-- [Intro to Git](https://www.codeschool.com/account/courses/try-git) 
+#### Intro to Git
+- [Intro to Git](https://www.codeschool.com/account/courses/try-git)
 - [Take the Test](http://goo.gl/forms/GgWF1T5Ceg)
 - Supporting Documents
     * [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
 
 #### Intro to Git and Gitlab
-- [Intro to Git and GitLab](https://drive.google.com/a/gitlab.com/file/d/0B41DBToSSIG_ZWlYa3AxeDBtYVk/view?usp=sharing)
-- Recorded date: 2015-9-17
+- [Intro to Git and GitLab](https://drive.google.com/a/gitlab.com/file/d/0B41DBToSSIG_ZWlYa3AxeDBtYVk/view?usp=sharing) recorded date: 2015-9-17
 - [Take the test](http://goo.gl/forms/9PnmhiNzEa)
 - Supporting Documents
     * [A Short History of Git](http://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
 
 #### Operating Systems and How Git Works
-- [Operating Systems and How Git Works](https://drive.google.com/a/gitlab.com/file/d/0B41DBToSSIG_OVYxVFJDOGI3Vzg/view?usp=sharing)
-- Recorded date: 2015-10-1
-- Take the test
+- [Operating Systems and How Git Works](https://drive.google.com/a/gitlab.com/file/d/0B41DBToSSIG_OVYxVFJDOGI3Vzg/view?usp=sharing) recorded date: 2015-10-01
 
 #### Ecosystem
 - [GitLab Ecosystem slides](https://docs.google.com/presentation/d/1vCU-NbZWz8NTNK8Vu3y4zGMAHb5DpC8PE5mHtw1PWfI/edit)
-- [Gitlab Ecosystem Recording](https://drive.google.com/a/gitlab.com/file/d/0B41DBToSSIG_N0gzbEFMOVNkLWc/view?usp=sharing)
-- Recorded date: 2015-11-5
+- [Gitlab Ecosystem Recording](https://drive.google.com/a/gitlab.com/file/d/0B41DBToSSIG_N0gzbEFMOVNkLWc/view?usp=sharing) recorded date: 2015-11-05
 - [Take the Test](http://goo.gl/forms/5Vrf3CE0iC)
 
 
