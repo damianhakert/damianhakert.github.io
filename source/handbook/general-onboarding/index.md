@@ -78,7 +78,7 @@ welcome email to the employee at their work email on their first date of hire.
 and then ping @rspeicher to confirm your account.
 * [ ] New team member: Set up [secure passwords per the handbook.](https://about.gitlab.com/handbook/general-onboarding/#security)
 * [ ] People Ops: Add to Dropbox folders (if necessary)
-* [ ] People Ops: Invite to autoconnect on Beamy
+* [ ] People Ops: Invite to autoconnect on Beamy (https://docs.google.com/a/gitlab.com/document/d/1pR-pMrfrt4ERAjP_AjP49Lj0SI28vR1kHMfN4iInHCA/edit?usp=sharing)
 * [ ] People Ops: Order business cards for new team member.
 * [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/)
 * [ ] CEO: Add team member to the GitLab availability calendar
