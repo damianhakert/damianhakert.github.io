@@ -5,7 +5,8 @@ title: "Contracts"
 * [Disclaimer](#disclaimer)
 * [How to use this page to prepare a contract](#how-to-use)
 * [GitLab Inc At-Will Employee Offer Letter](#inc-employee)
-* [GitLab BV Temporary Employment Contract](#bv-employee)
+* [GitLab BV Temporary Employment Contract](#bv-temp-employee)
+* [GitLab BV Indefinite Employment Contract](#bv-indef-employee)
 * [Independent Contractor Services Agreement](#contractor)
 * [Proprietary Information and Assignment Agreement](#PIAA)
 
@@ -162,7 +163,7 @@ Signature of:{GitLab Authorized Signatory}
 Proprietary Information and Assignment Agreement
 
 
-## GitLab BV Temporary Employment Contract<a name="bv-employee"></a>
+## GitLab BV Temporary Employment Contract<a name="bv-temp-employee"></a>
 *Fields to fill out:*
 
 * {GitLab BV Address}  
@@ -347,11 +348,211 @@ Name: {Name of Contributor}
 
 Date:   
 
+## GitLab BV Indefinite Employment Contract<a name="bv-indef-employee"></a>
+*Fields to fill out:*
+
+* {GitLab BV Address}  
+* {GitLab Authorized Signatory}  
+* {Name of Contributor}  
+* {Contributor BSN}  
+* {Contributor DOB}  
+* {Contributor Address}  
+* {Start Date}
+* {Duration}
+* {End Date}
+* {Contributor Title}
+* {13 Months Salary}
+* {Monthly Salary}
+* {GitLab Signatory Title}
+
+## INDEFINITE EMPLOYMENT CONTRACT  	
+The private company **GitLab B.V.**, having its statutory seat at {GitLab BV Address} 
+represented for these purposes by {GitLab Authorized Signatory}, hereinafter referred to as 'the Employer';
+
+and
+
+**{Name of Contributor}**, (BSN:{Contributor BSN}), born on {Contributor DOB}, currently residing at {Contributor Address}, hereinafter referred to as 'the Employee';
+
+Both parties are hereinafter jointly referred to as ‘the Parties’.
+
+**Have agreed as follows:**  
+
+
+**1\. Position and starting date**  
+
+1. The Employee will commence employment by the Employer with effect from {Start Date}.
+1. The Employee will be employed as {Contributor Title}.  
+1. The Employee will be prepared to perform other duties from time to time, if and 
+insofar as the Employer can reasonably require the Employee to perform these duties. The Employee is aware of the job description. 
+1. Employer and Employee will not apply a probationary period. 
+1. The Employee’s normal place of work will be her/his home address. 
 
 
 
+**2\. Duration and termination of the Employment Contract**
 
-## INDEPENDENT CONTRACTOR SERVICES AGREEMENT<a name="contractor"></a>
+The Employment Contract is entered into for an indefinite period.
+
+**3\. Notice period**
+
+Each of the Parties may terminate the Employment Contract prematurely by giving written notice of 
+termination with effect from the last day of a calendar month and with due observance of the statutory notice period. 
+
+**4\. Applicability of the company handbook**
+
+The Employer’s company handbook will apply to this Employment Contract. The contents of the company handbook 
+form an integral part of this Employment Contract. For the latest version of the handbook please see https://about.gitlab.com/handbook/ .
+
+**5\. Working hours and working week**
+
+1. Employee will work 40 hours per week, five days per week, Monday to Friday.  
+All terms and conditions of employment will be applied on a pro rata basis if the Employee works part-time. 
+A full-time working week is 40 hours per week.
+1. If the employee is set to work with a client, the working hours of the client is leading, unless agreed differently.
+1. On request of Employer the Employee is obliged to follow courses and training outside or during 
+office hours, for which the costs will be for the Employer. If the Employee leaves the company within a certain period a restitution settlement will be agreed. 
+
+**6\. Salary**
+
+As at the effective date of the Employment Contract, the Employee's gross salary amounts to {13 Months Salary} per year 
+including holiday allowance, based on a 40-hour working week. The monthly salary of {Monthly Salary} excluding holiday allowance, 
+less statutory deductions, is paid at the end of the calendar month and transferred to a bank account designated by the Employee. 
+The Employee receives a monthly payslip.
+
+**7\. Overtime**
+
+A reasonable degree of overtime is considered to be inherent to the job position. Overtime is therefore 
+to be worked if the Employer takes the view that it is necessary in the company's interests and in the 
+context of the proper completion of the agreed work.
+
+**8\. Travelling expenses**
+
+If the Employee incurs travelling expenses for business trips authorized by the employer, 
+those expenses are payable in accordance with the most recent tax rules in that regard.
+
+**9\. Holiday allowance**
+
+On top of her/his salary the Employee is entitled to a holiday allowance of 8% of the gross 
+monthly salary. The holiday allowance will be paid to Employee in May. The holiday allowance 
+will be paid pro rata in the event of interim commencement of employment, premature termination 
+of the Employment Contract and part-time employment.
+
+**10\. Vacation**
+
+1. The Employee is entitled to a legal minimum of 160 hours of vacation on full pay per calendar year based on a 40-hour working week (Article 7:634 Dutch Civil code). 
+1. Employee is entitled to unlimited paid time off on top of the first 160 hours according to the staff handbook. Please see: https://about.gitlab.com/handbook/#paid-time-off/
+
+
+**11\. Illness**
+
+1. If Employee is unable due to illness to perform her/his duties, she/he shall be entitled, during a period of 6 weeks to be calculated from the first day of illness but not extending beyond the end of the Employment Contract, to 100 % of the salary that applied in the period immediately preceding the inability to work. In the remaining 98 weeks of illness, Employer shall pay at maximum 70 % of Employee’s salary.(Article 7:629 clause 1 Dutch Civil code).
+1. The above applies, however, only if and to the extent that pursuant to the requirements of article 7:629 of the Netherlands Civil Code, Employer is under the obligation to pay in accordance with article 7:629 of the Netherlands Civil Code. Any obligation of the Employer to pay salary to the Employee will cease if and when the incapacity or illness of the Employee exceeds 104 weeks or if and when the Employment Contract is terminated, whichever comes first.
+1. If the Employee is prevented from performing the agreed work due to illness, the Employee shall comply with any reasonable instructions - including but not limited to absenteeism protocol - given by or on behalf of the Employer.
+1. In case of any violation of the obligations of the Employee, the Employer is entitled to suspend the continued payment of the Employee's salary.
+1. In the event of illness, the Employee shall notify absences to their immediate supervisor.
+1. If the event of illness within 4 weeks after ending the Employment Contract, the Employee is obligatory to inform the Employer immediately.
+1. If the Employer wishes, the Employee must provide proper documentation of their illness. 
+1. In case of any violation of the obligations of the Employee, the Employer is entitled to suspend the continued payment of the Employee's salary.
+
+**12\. Pension**
+
+The Employer does not provide a pension scheme.
+
+**13\. Duty of confidentiality**
+
+1. The Employee undertakes both during and after the term of the Employment Contract not to disclose to third parties in any way whatsoever any particulars relating to:- 
+   1. the business of the Employer or any company economically or organisationally affiliated with the Employer which he knows or may suspect could harm the interests of the Employer and/or those affiliated companies; or 
+   1. matters in respect of which the Employer has imposed secrecy. 
+These obligations also apply to any matters concerning the Employer or relations or clients of the Employer or the Employer’s affiliates.
+1. The Employee will sign a non-disclosure agreement with clients, if requested by this client. 
+1. The Employee is not permitted to express a negative opinion about the Employer and/or client either during or following termination of the Employment Contract. 
+
+
+**14\. Additional jobs**
+
+Other than with the prior written permission of the Employer, the Employee is prohibited during the term of the Employment Contract to carry out work – either paid or not – of any nature whatsoever, either for himself and/or for third-parties.
+
+**15\. Non-competition clause**
+
+1. Without the prior written permission of the Employer, the Employee is prohibited during employment and for a period of 24 months following termination of the Employment Contract to establish, run, have run or jointly run a business identical, similar or related to that of the Employer, either directly or indirectly, or to work in any capacity in such a business, either on a paid or unpaid basis, or to have a share in it of any nature whatsoever. 
+1. The business of the Employer is offering source code management software and services.
+1. Employer is a start-up company. If Employee leaves Employer and transfers knowledge, clients or other key information for the start-up company, this could directly damage the financial stability and existence of the Employer. For that reason Employer applies a non-competition clause to this contract.
+
+**16\. Business relations clause**
+
+1. Without the prior written permission of the Employer, the Employee is forbidden for a period of 24 months following termination of the Employment Contract to offer services to or to work for a client or contact of the Employer, other than the Client, or to be directly or indirectly involved in a company that supplies goods or services to clients or contacts of the Employer. Furthermore, the Employee undertakes to refrain in any way from inducing, directly or indirectly, a client or contact of the Employer to switch to a company that competes with that of the Employer.
+1. Clients and contacts are defined in this context as all natural or legal persons and their Employees, with which the Employer have entered into one or more contracts in a period of 24 months prior to termination of the Employment Contract.
+1. Following termination of the Employment Contract the Employee is further forbidden to attempt, directly or indirectly, to induce personnel of the Employer– or one of its affiliated companies – to enter the employment of (a company of) the Employee or another Employer.
+1. Employer is a start-up company. If Employee leaves Employer and extracts any relations from Employer, this could directly damage the financial stability and existence of the Employer. For that reason Employer applies a Business relation clause to this contract.
+
+**17\. Employer’s property**
+
+1. All items of property that the Employer has made available to the Employee are and remain the Employer’s property. The Employee shall not use these items for private purposes without the Employer’s explicit consent.
+1. All items the Employer has made available to the Employee must be immediately returned to the Employer without the Employer having to request the same after termination of the Employment Contract or earlier if circumstances deem this necessary, for example in the event of the Employee being suspended or for any other reason resulting in the items no longer being used for business purposes.
+1. The Employee shall not be permitted to retain any property belonging to the Employer to offset any alleged claim against the Employer. The Employee waives any right of retention of property.
+
+
+**18\. Usages of computer equipment and storage media**  
+The employee commits himself, in case he works with employers computer system or the computer system from a client, to use the equipment in a correct way, whereby:
+ 
+1. Employee will not (illegally) copy any information, source codes or applications from the computer system to (portable) storage media or any other way, except with explicit permission of the Employer.
+1. Employee will only install software that is licenced for free commercial use, or for which a valid licence is acquired.
+1. Employee can be held responsible by Employer for any damages occurred by Employer or clients of Employer, due to breaching articles and b.
+
+**19\. Penalty clause**
+  
+1. For each infringement of the provisions of article 13 (Duty of confidentiality), article 14 (Additional jobs), article 15 (Non-competition clause), article 16 (Business relations clause), article 17 (Employer’s property), article 18 (Usage of computer equipment and storage media), the Employee will forfeit to the Employer – contrary to the provisions of article 7:650 of the Netherlands Civil Code – an immediately payable penalty of EUR 10,000.- with the addition of EUR 500 for each day (or part of a day) on which the violation continues, without prejudice to the Employer’s right to claim compliance and compensation of damages.
+1. The payment of the penalty will not affect the entitlement of the Employer to terminate the Employment Contract with the Employee in response to her/his unacceptable conduct, including instant dismissal.
+
+**20\. Unilateral amendment, choice of law and final provisions**
+
+1. The Employer, acting reasonably and fairly, will be entitled to vary unilaterally any term of this Employment Contract if the reasons for so doing outweigh any harm that might be done to the Employee's interests in making the amendment.
+1. Any addition to and/or variance from this contract shall only be valid if set out in writing, dated and signed by both parties.
+1. The provisions of this contract and any annexes hereto shall be deemed to constitute one entire agreement. No rights may be asserted on the basis of this contract until the Employer has received a copy of this contract, and any annexes, signed by the Employee.
+1. The laws of the Netherlands govern this contract.
+
+
+**Thus agreed upon:**  
+
+
+**The Employer**  
+
+Signature:  
+
+Name: {GitLab Authorized Signatory}  
+Title: {GitLab Signatory Title}  
+
+Date: 
+
+
+**The Employee**  
+
+Signature:  
+
+Name: {Name of Contributor}  
+
+Date:   
+
+## Independent Contractor Services Agreement<a name="contractor"></a>
+*Fields to fill out:*
+
+* {Name of Contributor}
+* {Title of Contributor}  
+* {Email of Contributor}  
+* {GitLab Authorized Signatory}  
+* {GitLab Signatory Title}  
+* {GitLab Signatory Email}
+* {GitLab Signatory Phone}
+* {GitLab Address}  
+* {Address of Contributor}
+* {Title of project}  
+* {Start Date}  
+* {End Date}
+* {Short task description link to job description webpage whenever possible}
+* Search for additional fields relating to compensation, and defining the contracting entity.
+
+
+## INDEPENDENT CONTRACTOR SERVICES AGREEMENT
 
 This **Independent Contractor Services Agreement** (“**Agreement**”) is between 
 **{GitLab Inc.** OR **GitLab BV}** (“**GitLab**”), and **{Name of Contributor}** 
@@ -401,54 +602,163 @@ obligations without the prior written consent of GitLab. Contributor is expected
 provide its own equipment, tools, and other materials at its own expense in performing 
 work under the Statement of Work.  
 
-**3.1 Acceptance or Rejection of Work**. Upon Contributor’s submission of the work product, GitLab will, in its sole discretion, accept or reject all or part of the work product or return it to Contributor with suggested changes. Contributor acknowledges that if the unaccepted portion of the work product contains any Confidential Information or GitLab Materials, then GitLab will retain sole and exclusive ownership of such property, and Contributor will either return the unaccepted work product to GitLab or provide GitLab with satisfactory evidence that the unaccepted work product has been destroyed.  
+**3.1 Acceptance or Rejection of Work**. Upon Contributor’s submission of the work 
+product, GitLab will, in its sole discretion, accept or reject all or part of the work 
+product or return it to Contributor with suggested changes. Contributor acknowledges 
+that if the unaccepted portion of the work product contains any Confidential Information 
+or GitLab Materials, then GitLab will retain sole and exclusive ownership of such 
+property, and Contributor will either return the unaccepted work product to GitLab 
+or provide GitLab with satisfactory evidence that the unaccepted work product has been destroyed.  
 
-**3.2 Modification of Work Product**. If GitLab requires a change to the work product, it will notify Contributor of the requested change and the due date for resubmitting the revised work product. GitLab may accept or reject all or part of the corrected work product at its sole discretion. GitLab will have no obligation to return any accepted work product to Contributor. GitLab has the right to edit or adapt any work product in any manner, including, without limitation, with respect to its form, medium, format, delivery mechanism or content as GitLab deems appropriate. Contributor agrees to provide GitLab with the information and know-how necessary for GitLab to edit or adapt the work product, at no additional cost to GitLab, and will cooperate with GitLab in any such editing or adaptation. If the work product is an article or other written piece, Contributor agrees to provide to GitLab with the work product, a written bibliography and list of sources contacted in the process of researching and preparing such work product and include captions and pull quotes where appropriate.  
+**3.2 Modification of Work Product**. If GitLab requires a change to the work product, 
+it will notify Contributor of the requested change and the due date for resubmitting 
+the revised work product. GitLab may accept or reject all or part of the corrected 
+work product at its sole discretion. GitLab will have no obligation to return any 
+accepted work product to Contributor. GitLab has the right to edit or adapt any work 
+product in any manner, including, without limitation, with respect to its form, medium, 
+format, delivery mechanism or content as GitLab deems appropriate. Contributor agrees 
+to provide GitLab with the information and know-how necessary for GitLab to edit or 
+adapt the work product, at no additional cost to GitLab, and will cooperate with GitLab 
+in any such editing or adaptation. If the work product is an article or other written 
+piece, Contributor agrees to provide to GitLab with the work product, a written bibliography 
+and list of sources contacted in the process of researching and preparing such work product 
+and include captions and pull quotes where appropriate.  
 
 
 **4\. CONFIDENTIAL INFORMATION, OWNERSHIP OF PROPERTY, NON-SOLICITATION**  
-Contributor and GitLab agree to bound by the separate **Proprietary Information and Assignment Agreement** entered into by Contributor and GitLab, describing the agreements between Contributor and GitLab with respect to Confidential Information, Ownership of Property, and Non-Solicitation.  
+Contributor and GitLab agree to bound by the separate **Proprietary Information and 
+Assignment Agreement** entered into by Contributor and GitLab, describing the agreements 
+between Contributor and GitLab with respect to Confidential Information, Ownership of 
+Property, and Non-Solicitation.  
 
 
 **5\. ADDITIONAL ACTIVITIES AND CONFLICTS OF INTEREST**  
-Contributor agrees that during the term of this Agreement, Contributor will not, without GitLab’s express written consent, engage in any employment or business activity that is competitive with, or would otherwise create a conflict of interest with Contributor’s obligations to GitLab.  
+Contributor agrees that during the term of this Agreement, Contributor will not, 
+without GitLab’s express written consent, engage in any employment or business activity 
+that is competitive with, or would otherwise create a conflict of interest with Contributor’s obligations to GitLab.  
 
 
 **6\. INDEMNIFICATION**  
-Contributor will indemnify and hold harmless GitLab, its parents, stockholders, officers, directors, employees, sub-licensees, customers and agents (collectively the “**Indemnified Parties**”) from any and all claims, losses, liabilities, damages, expenses and costs (including attorneys’ fees and court costs) that result from a breach or alleged breach of any representation or warranty of Contributor (a “**Claim**”), except to the extent that such Claim is directly and entirely attributable to material that GitLab provided to the Contributor for performance of a Statement of Work.  
+Contributor will indemnify and hold harmless GitLab, its parents, stockholders, 
+officers, directors, employees, sub-licensees, customers and agents (collectively the
+“**Indemnified Parties**”) from any and all claims, losses, liabilities, damages, 
+expenses and costs (including attorneys’ fees and court costs) that result from a 
+breach or alleged breach of any representation or warranty of Contributor (a “**Claim**”), 
+except to the extent that such Claim is directly and entirely attributable to material 
+that GitLab provided to the Contributor for performance of a Statement of Work.  
 
 
 **7\. NONDISPARAGEMENT**.  
-Contributor will not, during and after the term of this Agreement, disparage or defame GitLab to anyone, including, without limitation, its other Contributors, GitLab employees, officers, directors, services, business, or manner of doing business.  
+Contributor will not, during and after the term of this Agreement, disparage or defame 
+GitLab to anyone, including, without limitation, its other Contributors, GitLab employees, 
+officers, directors, services, business, or manner of doing business.  
 
 
 **8\. TERMINATION**.  
-**8.1 Termination**. This Agreement may be terminated by either GitLab or Contributor for any reason on fifteen (15) days’ written notice to the other Party or such longer period as may be specified in the attached exhibits. In the event that Contributor gives notice of termination during the performance of the Statement of Work, the terms of the Agreement will govern completion, acceptance and payment by GitLab for any work product.  
+**8.1 Termination**. This Agreement may be terminated by either GitLab or Contributor 
+for any reason on fifteen (15) days’ written notice to the other Party or such longer 
+period as may be specified in the attached exhibits. In the event that Contributor gives 
+notice of termination during the performance of the Statement of Work, the terms of the 
+Agreement will govern completion, acceptance and payment by GitLab for any work product.  
 
-**8.2 Return of Materials**. Following any notice of termination of this Agreement given pursuant to Section 8.1 or upon expiration of the term of this Agreement, Contributor will fully cooperate with GitLab in all matters relating to the winding up of Contributor’s pending work on behalf of GitLab and the orderly transfer of any work or documents to GitLab. Contributor agrees that, at the time of terminating Contributor’s engagement with GitLab and at any other time GitLab requests, Contributor will deliver to GitLab any and all devices, materials, software, records, data, notes, reports, proposals, lists, correspondence, specifications, drawings, blueprints, sketches, equipment, other documents or property, or reproductions of any aforementioned items (in whole or in part) belonging to GitLab, its successors, or assigns, or embodying GitLab’s Confidential Information or work product developed under this Agreement (collectively “**GitLab Materials**”). Contributor may not retain any GitLab Materials without the written authorization of an authorized GitLab officer.  
+**8.2 Return of Materials**. Following any notice of termination of this Agreement given 
+pursuant to Section 8.1 or upon expiration of the term of this Agreement, Contributor will 
+fully cooperate with GitLab in all matters relating to the winding up of Contributor’s 
+pending work on behalf of GitLab and the orderly transfer of any work or documents to GitLab. 
+Contributor agrees that, at the time of terminating Contributor’s engagement with GitLab 
+and at any other time GitLab requests, Contributor will deliver to GitLab any and all devices, 
+materials, software, records, data, notes, reports, proposals, lists, correspondence, 
+specifications, drawings, blueprints, sketches, equipment, other documents or property, 
+or reproductions of any aforementioned items (in whole or in part) belonging to GitLab,
+its successors, or assigns, or embodying GitLab’s Confidential Information or work product 
+developed under this Agreement (collectively “**GitLab Materials**”). Contributor may not 
+retain any GitLab Materials without the written authorization of an authorized GitLab officer.  
 
-**8.3 GitLab Materials**. Contributor agrees it will not use GitLab Materials for any purpose other than in performance of the Statement of Work. Upon termination, Contributor agrees to sign and deliver the “Termination Certification” attached hereto as **Exhibit C**. Contributor will not, during or after Contributor’s engagement with GitLab, deliver or transfer to any person, or use, without written authorization by an authorized GitLab officer any GitLab Materials or other property owned by GitLab.  
+**8.3 GitLab Materials**. Contributor agrees it will not use GitLab Materials for any purpose 
+other than in performance of the Statement of Work. Upon termination, Contributor agrees to 
+sign and deliver the “Termination Certification” attached hereto as **Exhibit C**. Contributor 
+will not, during or after Contributor’s engagement with GitLab, deliver or transfer to any 
+person, or use, without written authorization by an authorized GitLab officer any GitLab Materials or other property owned by GitLab.  
 
 
-**9\. ASSIGNMENT**. The rights and obligations of Contributor are personal in nature and may not be assigned without GitLab’s prior written consent. The rights and obligations of GitLab under this Agreement will inure to the benefit of and will be binding upon the successors and assignees of GitLab.  
+**9\. ASSIGNMENT**. The rights and obligations of Contributor are personal in nature and
+may not be assigned without GitLab’s prior written consent. The rights and obligations of 
+GitLab under this Agreement will inure to the benefit of and will be binding upon the successors and assignees of GitLab.  
 
 
 **10\. INDEPENDENT CONTRACTOR RELATIONSHIP**.  
-Contributor’s relationship with GitLab will be that of an independent contractor and nothing in this Agreement should be construed to create a partnership, joint venture, or employer-employee relationship. Contributor is not the agent of GitLab and is not authorized to make any representation, contract, or commitment on behalf of GitLab. Contributor will not be entitled to any of the benefits which GitLab may make available to its employees, including, but not limited to, group insurance, stock option plans, profit-sharing or retirement benefits. For US-based contractors, GitLab will regularly report amounts paid to Contributor by filing Form 1099-MISC with the Internal Revenue Service, as required by law. Because Contributor is an independent contractor, GitLab will not withhold or make payments for social security, make unemployment insurance or disability insurance contributions, or obtain worker’s compensation insurance on Contributor’s behalf. Contributor will be solely responsible for, and agrees to accept exclusive liability for, complying with all applicable foreign, federal and state laws governing self-employed individuals, including obligations such as payment of taxes, social security, disability and other contributions based on fees paid to Contributor or its agents under this Agreement. Contributor hereby agrees to indemnify and hold harmless the Indemnified Parties against any and all such taxes or contributions, including penalties and interest.  
+Contributor’s relationship with GitLab will be that of an independent contractor and 
+nothing in this Agreement should be construed to create a partnership, joint venture, 
+or employer-employee relationship. Contributor is not the agent of GitLab and is not 
+authorized to make any representation, contract, or commitment on behalf of GitLab. 
+Contributor will not be entitled to any of the benefits which GitLab may make available 
+to its employees, including, but not limited to, group insurance, stock option plans,
+profit-sharing or retirement benefits. For US-based contractors, GitLab will regularly 
+report amounts paid to Contributor by filing Form 1099-MISC with the Internal Revenue 
+Service, as required by law. Because Contributor is an independent contractor, GitLab
+will not withhold or make payments for social security, make unemployment insurance or 
+disability insurance contributions, or obtain worker’s compensation insurance on Contributor’s 
+behalf. Contributor will be solely responsible for, and agrees to accept exclusive liability 
+for, complying with all applicable foreign, federal and state laws governing self-employed 
+individuals, including obligations such as payment of taxes, social security, disability 
+and other contributions based on fees paid to Contributor or its agents under this Agreement. 
+Contributor hereby agrees to indemnify and hold harmless the Indemnified Parties against 
+any and all such taxes or contributions, including penalties and interest.  
 
 
 **11\. GENERAL**  
-**11.1 Governing Law**. This Agreement will be governed and construed in accordance with the laws of the State of California as applied to transactions taking place wholly within California between California residents. In the event of a dispute, the parties agree to mediate in good faith before a neutral third party agreeable to both parties prior to instituting any legal action other than injunctive relief, such mediation to take place in the County of San Francisco, California. Contributor hereby expressly consents to the exclusive personal and subject-matter jurisdiction of the state and federal courts located in the County of San Francisco, California, for any dispute arising from or related to this Agreement.  
+**11.1 Governing Law**. This Agreement will be governed and construed in accordance 
+with the laws of the State of California as applied to transactions taking place wholly 
+within California between California residents. In the event of a dispute, the parties
+agree to mediate in good faith before a neutral third party agreeable to both parties 
+prior to instituting any legal action other than injunctive relief, such mediation to 
+take place in the County of San Francisco, California. Contributor hereby expressly 
+consents to the exclusive personal and subject-matter jurisdiction of the state and 
+federal courts located in the County of San Francisco, California, for any dispute 
+arising from or related to this Agreement.  
 
-**11.2 Survival**. Any respective obligations of Contributor or GitLab hereunder which by their nature would continue beyond the termination, cancellation or expiration of this Agreement will survive such termination, cancellation or expiration.  
+**11.2 Survival**. Any respective obligations of Contributor or GitLab hereunder which 
+by their nature would continue beyond the termination, cancellation or expiration of this 
+Agreement will survive such termination, cancellation or expiration.  
 
-**11.3 Entire agreement; Amendment**. This Agreement together with any subsequent Statements of Work hereunder constitutes the entire agreement between the parties regarding the services rendered by Contributor to GitLab, and this Agreement supersedes all prior or contemporaneous agreements, commitments, representations, writings, and discussions between GitLab and Contributor, whether oral or written. This Agreement may be amended only by a writing executed by Contributor and an authorized officer of GitLab. Contributor expressly acknowledges that Contributor has read the terms of this Agreement, has had the opportunity to discuss those terms with her/his or her own legal counsel, and understands that this is a legally binding contract.  
+**11.3 Entire agreement; Amendment**. This Agreement together with any subsequent 
+Statements of Work hereunder constitutes the entire agreement between the parties 
+regarding the services rendered by Contributor to GitLab, and this Agreement supersedes 
+all prior or contemporaneous agreements, commitments, representations, writings, and 
+discussions between GitLab and Contributor, whether oral or written. This Agreement may 
+be amended only by a writing executed by Contributor and an authorized officer of GitLab. 
+Contributor expressly acknowledges that Contributor has read the terms of this Agreement, 
+has had the opportunity to discuss those terms with her/his or her own legal counsel, and 
+understands that this is a legally binding contract.  
 
-**11.4 Notices**. Any notice, request, demand or other communication hereunder will be in writing and will be deemed to be duly given (a) upon actual receipt when personally delivered to an officer of GitLab or to Contributor, as the case may be, (b) three days after deposit in the U.S. Mail by certified or registered mail, return receipt requested with postage prepaid, or (c) upon actual receipt or two days after being sent by reputable international overnight courier, delivery fees prepaid; in each case addressed to the addresses set forth on the signature page of this Agreement or to such other address as either party may specify by notice to the other as provided in this section.  
+**11.4 Notices**. Any notice, request, demand or other communication hereunder will be 
+in writing and will be deemed to be duly given (a) upon actual receipt when personally 
+delivered to an officer of GitLab or to Contributor, as the case may be, (b) three days
+after deposit in the U.S. Mail by certified or registered mail, return receipt requested 
+with postage prepaid, or (c) upon actual receipt or two days after being sent by reputable 
+international overnight courier, delivery fees prepaid; in each case addressed to the addresses
+set forth on the signature page of this Agreement or to such other address as either party 
+may specify by notice to the other as provided in this section.  
 
-**11.5 Injunctive Relief**. Contributor acknowledges that, because Contributor’s services are personal and unique and because Contributor will have access to the Confidential Information of GitLab, any breach of this Agreement by Contributor would cause irreparable injury to GitLab for which monetary damages would not be an adequate remedy and, therefore, will entitle GitLab to injunctive relief (including specific performance). The rights and remedies provided to each party in this Agreement are cumulative and in addition to any other rights and remedies available to such party at law or in equity.  
+**11.5 Injunctive Relief**. Contributor acknowledges that, because Contributor’s 
+services are personal and unique and because Contributor will have access to the 
+Confidential Information of GitLab, any breach of this Agreement by Contributor would
+cause irreparable injury to GitLab for which monetary damages would not be an adequate 
+remedy and, therefore, will entitle GitLab to injunctive relief (including specific performance). 
+The rights and remedies provided to each party in this Agreement are cumulative and
+in addition to any other rights and remedies available to such party at law or in equity.  
 
-**11.6 Interpretation; Severability**. Section and other headings contained in this Agreement are for reference only and will not affect the meaning or interpretation of this Agreement. If any provision of this Agreement is considered unclear or ambiguous, it will not be construed against the party that drafted the provision, but instead will be construed to effectuate the intent of both parties as expressed in this Agreement. Should any valid federal or state law or final determination of any administrative agency or court of competent jurisdiction invalidate or otherwise affect any provision of this Agreement, any provision so affected will be conformed automatically and to the extent possible to the law or determination in question and enforced insofar as possible consistent with the intent of the parties, and in all events the remaining provisions of this Agreement will continue in full force and effect.  
+**11.6 Interpretation; Severability**. Section and other headings contained in this 
+Agreement are for reference only and will not affect the meaning or interpretation of 
+this Agreement. If any provision of this Agreement is considered unclear or ambiguous, 
+it will not be construed against the party that drafted the provision, but instead will 
+be construed to effectuate the intent of both parties as expressed in this Agreement. 
+Should any valid federal or state law or final determination of any administrative 
+agency or court of competent jurisdiction invalidate or otherwise affect any provision 
+of this Agreement, any provision so affected will be conformed automatically and to 
+the extent possible to the law or determination in question and enforced insofar as 
+possible consistent with the intent of the parties, and in all events the remaining 
+provisions of this Agreement will continue in full force and effect.  
 
 **11.7 Counterparts**. This Agreement may be executed in counterparts, each of which will be deemed to be an original.  
 
