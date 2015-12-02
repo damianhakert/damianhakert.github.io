@@ -332,21 +332,88 @@ team_members:
   gitlab: zachlong
   story:  |
           Zach has worked in Business Development and Enterprise software sales for over eight years. He enjoys the challenge of helping fast moving startups improve collaboration through Agile and Lean collaboration practices.  Zach enjoys mountain biking, playing guitar, travel photography as well as video editing. Before working in the tech start up world, he excelled as a graphic designer while occasionaly moonlighting in a jam band.
+
+- name: Gabriel Mazetto
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: COO
+  picture: gabriel.jpg
+  twitter: brodock
+  gitlab: brodock
+  story:  |
+          Gabriel is the first Brazillian in the team, before joining Gitlab,
+          he was fighting the scalability and performance battle on a
+          daily basis for fast growing startups and projects.
+          He loves metrics and proudly works from a data-driven perspective.
+          He also loves to grind his own coffee and help build online
+          communities in his spare time.
+
+- name: Henry "Hank" Taylor
+  role: Senior Manager, Demand Generation
+  reports_to: CMO
+  picture: hank.jpg
+  twitter: HenryJTaylor
+  gitlab: hanktaylor
+  story:  |
+          Hank has been at four OS software companies now. His goal is always to connect users to the most helpful resources via marketing and sales systems. When not on a CRM, marketing platform, or spreadsheet, Hank enjoys spending time with his wife and son or playing games, firmly believing that if you're not willing lose all your friends over a board game, you're doing it wrong.
+
+- name: Rubén Dávila
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: COO
+  picture: ruben.jpg
+  twitter: rdavila
+  gitlab: rdavila
+  story:  |
+          Rubén is a Rails developer based in Lima, Perú. Before joining GitLab, he was working remotely for other US based startups. Today, he is very happy at GitLab given that one of his dreams was to collaborate full time with open source projects. When he is away from the keyboard, he is usually taking a walk with his dogs.
+
+- name: José Torres
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
+  reports_to: COO
+  picture: josetorres.jpg
+  twitter: random_primate
+  gitlab: balameb
+  story:  |
+          Having worked with the Guatemalan Government and as an IT Manager at a Bio Lab for too long he launched a
+          local startup to introduce tech labs into traditional businesses. Jose has worked with remote teams in Canada
+          and the U.S. on Rails and Python applications for the last four years. He also enjoys playing with his kids
+          and building hardware stuff.
+
+- name: Heather McNamee
+  role: <a href="https://about.gitlab.com/jobs/developer-marketing-manager/">Developer Marketing Manager</a>
+  reports_to: CMO
+  picture: heather.jpg
+  twitter: nearlythere
+  gitlab: nearlythere
+  story:  |
+          Heather has worked within an opensource community, Drupal, for over 14 years. She started using opensource because it was "free as in beer", but she stayed with opensource because of the community and collaboration. She loves bringing people together to learn, share and get better at what they do. Her background is in learning + technology. She believes with opensource, you don't just use the software, it becomes part of who you are and your identity. Swag matters! She knits and spins wool; which is also a way to learn about history of agriculture, technology and economics.
+- name: Douglas Alexandre
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: COO
+  picture: douglas.png
+  twitter: dbalexandre
+  gitlab: dbalexandre
+  story:  |
+          Douglas is a software developer that fell in love with Ruby since 2007 and the open-source community surrounding it and has been working with Ruby on Rails for the past 3 years. Before joining GitLab, he was working remotely for nonprofit organization based in Brazil. He enjoys to improve people's lives with the product he is working on, so GitLab was a perfect match to him. In his free time, he loves to drink a good beer and, spend time with his friends.
 ---
 
+<iframe width="100%" height="500" scrolling="no" src="https://sundial.teleport.org/public/map/Y3IahPR5vYjBpMyU2kZj" frameborder="0"></iframe>
+
 <div class="wrapper">
-  <div class="container">
+  <div class="team-container">
+
     <div class="team-head">
       <h1>MEET OUR <b>TEAM</b></h1>
       <p>
         To offer the best possible services, our team has a deep expertise in GitLab in all of its aspects.
         The GitLab Inc. team consists of <a href="/team-pets/">pets</a> and the following individuals.
+        You can get a sense of the team culture by visiting our <a href="https://about.gitlab.com/culture/">culture page</a>.
       </p>
     </div>
 
+    <br>
+    <br>
     <div class="row">
       {% for member in page.team_members %}
-        <div class="col-md-4 ">
+        <div class="col-lg-3 col-md-4">
           <div class="member">
 
             <div class="card" id={{member.twitter}}>
@@ -389,7 +456,7 @@ team_members:
         </div>
         {% endfor %}
 
-        <div class="col-md-4 ">
+        <div class="col-lg-3 col-md-4 ">
           <div class="member">
 
             <div class="card">

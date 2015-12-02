@@ -13,5 +13,6 @@ title: "Front-End Engineer"
 
 * Know how to use CSS effectively
 * Know how to use javascript effectively
-* collaborate effectively with UX Designers, Developers and Graphic Designers
+* Collaborate effectively with UX Designers, Developers and Graphic Designers
 * Be able to work with the rest of the community
+* Needs to have extensive knowledge of Rails

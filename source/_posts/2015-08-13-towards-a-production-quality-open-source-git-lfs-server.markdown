@@ -8,6 +8,12 @@ author_twitter: sytses
 image_title: '/images/unsplash/FILENAME.jpg'
 ---
 
+## Update
+
+Since GitLab 8.2 we [supports Git LFS](https://about.gitlab.com/2015/11/23/announcing-git-lfs-support-in-gitlab/) in GitLab CE and EE.
+
+## Original article
+
 At GitLab we would love to be compatible with Git Large File Support (LFS).
 We plan to base our implementation on a reference implementation that is currently not in a production ready state.
 But we hope that over time we can get to production level support.

@@ -54,22 +54,18 @@ title: "Accounting"
 1. Update
 
 ### GitLab BV Pay Slip Distribution Process <a name="payroll-bv"></a>
-1. Business Officer Manager: Save the attachments that arrive from Loonbureau each month to a folder in Dropbox that you label like this: Dropbox=> GitLab BV=>year=>month (the entire attachment goes into this folder).
-1. Business Officer Manager: On or before the 25th of each month, send each employee their salary slip (see steps below) and a note to the CEO to make sure that he processes the necessar paperwork.
-1. Controller / CEO: Following the path above, use the salary document to generate each employees salary slip. The dutch file for salaries is called -Salarisstroken.pdf
-1. Each page is a different employees salary slip all on one document. Do NOT send anyone a salary slip that is not their own! Follow the next steps carefully.
-   1. Work on each page one at a time by
-   1. Select, highlight and right click to copy the name of the employee
-   1. Select file/print from the drop down menu
-   1. Select the pages you want to print (this is where it is important to do ea page one at a time - ex. 1-1,2-2.
-   1. Select save as PDF from the bottom left hand side of the page (you must do this step after the previous step or it will SAVE all pages).
-   1. When the save as screen appears, paste the name from above and add month/year into the save as window.
-   1. Save the document to someplace convenient for sharing with them individually - ex. July BV payroll in a private folder (this is only for sharing with individuals, it is not the copy of record).
-   1. In the Title section: salary slip and past the name/month/year again
-   1. Save
-   1. ALWAYS confirm each saved page is only 1 employee - or you will send employees other people's salary slip.
-1. Business Officer Manager: Send each employee their salary slip via email with the subject line: Salary slip
-1. Business Officer Manager: Additionally, send the pdf with Factuur in the title to Accounts Payable.
+1. People Ops: Save the attachments that arrive from Loonbureau each month to a folder in Dropbox that you label like this: Dropbox=> GitLab BV=>year=>month (all pdf attachments go into this folder).
+1. People Ops: On or before the 25th of each month, send each employee their salary slip (see steps below) and a note to the Controller to process the necessary paperwork (Betaallijst.pdf is most useful).
+1. Controller / CEO: Use the Betaallijst.pdf document to stage each employee's salary transfer.
+1. People Ops: Steps to separate the salary slips, starting from Salarisstroken.pdf:
+   1. Split the pdf into individual pages. This can be done by 'printing to pdf', or using a tool such as [PDFsam](http://www.pdfsam.org/)
+   1. Rename the separate pages with the format YYYY-MM-lastname
+   1. CHECK after renaming that the renamed documents are in fact for the person 
+   listed in the title and do not accidentaly include someone else's salary information.
+   1. CHECK AGAIN
+1. People Ops: Send each employee their salary slip via email with the subject line: Salary slip
+1. People Ops: Send the pdf with Factuur in the title to Accounts Payable.
+1. People Ops: Save the individual pay slips in the same Dropbox folder as the original attachments from Loonbureau.
 
 
 ## Accounts Payable <a name="ap"></a>

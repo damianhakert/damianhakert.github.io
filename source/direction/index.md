@@ -33,38 +33,28 @@ Also the list below not include any contributions from outside GitLab the compan
 The version numbers below link to the issues for that version accross all products.
 The bullets list the tentpole features; the most improtant features of upcoming releases.
 
-### [8.2](https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2)
-
-- [Git LFS support](https://gitlab.com/gitlab-org/gitlab-ce/issues/2955)
-- [Repository mirroring (EE)](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/51)
-- [Releases](https://gitlab.com/gitlab-org/gitlab-ce/issues/2701)
-- [Create MR from editor](https://gitlab.com/gitlab-org/gitlab-ce/issues/3059)
-- [Global Milestones](https://gitlab.com/gitlab-org/gitlab-ce/issues/3488)
-- [Award Emoji](https://gitlab.com/gitlab-org/gitlab-ce/issues/2223)
-- [CI build artifacts](https://gitlab.com/gitlab-org/gitlab-ce/issues/3028)
-- [CI runner caching (not doing a clean on a fetch)](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1786)
-
-### [8.3](https://gitlab.com/groups/gitlab-org/milestones/8-3?title=8.3)
+### [8.3](https://gitlab.com/groups/gitlab-org/milestones/8-3?title=8.3) - December 22nd
 
 - [Revert merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 - [GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1748)
 - [Issue Weight (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/70)
 - [Migrate all Ci::Project data to Project](https://gitlab.com/gitlab-org/gitlab-ce/issues/3474)
 
-### [8.4](https://gitlab.com/groups/gitlab-org/milestones/8-4?title=8.4)
+### [8.4](https://gitlab.com/groups/gitlab-org/milestones/8-4?title=8.4) - January 22nd
 
 - [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
 - [Import GitHub PR's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2833)
 - [Import GitHub wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
 - [Notification System](https://gitlab.com/gitlab-org/gitlab-ce/issues/2425)
-- [Elasticsearch (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
+- [Elasticsearch or Hound (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
+- [HA Omnibus packages (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
 
-### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5)
+### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5) - February 22nd
 
 - [GitLab RE for readonly secundary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
 - [Focus Dashboard](https://gitlab.com/gitlab-org/gitlab-ce/issues/3467)
 
-### [9.0](https://gitlab.com/groups/gitlab-org/milestones/9-0?title=9.0)
+### [9.0](https://gitlab.com/groups/gitlab-org/milestones/9-0?title=9.0) - ?
 
 - [Nested groups](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772)
 
@@ -76,6 +66,22 @@ This list is not prioritized.
 Some links point to internal issues. We're working on making [all issues public](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
 
 We very much welcome contributions that implement any of these things.
+
+### Major Wins
+
+- [Translations](http://feedback.gitlab.com/forums/176466-general/suggestions/3337748-internationalization-add-translations) with the help of the rest of the community and Perforce
+- [Subgroups / Directories](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772) - Current proposal is to have Directories
+- [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
+- [GitLab Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
+- [GitLab Autoscale](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/318)
+- [Resolve merge conflicts in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/3567)
+- [Multithreaded application server](https://gitlab.com/gitlab-org/gitlab-ce/issues/3592)
+
+### Small Wins
+
+- [Show commits behind/ahead on branch overview page](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1716)
+- [See all forked projects of one project](https://gitlab.com/gitlab-org/gitlab-ce/issues/2406)
+- [Edit on protected branch should create a new branch](https://dev.gitlab.org/gitlab/gitlabhq/issues/2242)
 
 ### Code Review
 
@@ -120,30 +126,11 @@ in a way that all relevant parties get notified.
 - [Get rid of the large authorized keys (SSH) file](https://gitlab.com/gitlab-org/gitlab-git-http-server/issues/2#note_1983654)
 - [Upgrade to Sidekiq 4 because it is faster](https://gitlab.com/gitlab-org/gitlab-ce/issues/3065)
 
-### Small Wins
-
-- [Show commits behind/ahead on branch overview page](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1716)
-- [See all forked projects of one project](https://gitlab.com/gitlab-org/gitlab-ce/issues/2406)
-- [Edit on protected branch should create a new branch](https://dev.gitlab.org/gitlab/gitlabhq/issues/2242)
-
-### Major Wins
-
-- [Translations](http://feedback.gitlab.com/forums/176466-general/suggestions/3337748-internationalization-add-translations) with the help of the rest of the community and Perforce
-- [Subgroups / Directories](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772) - Current proposal is to have Directories
-- [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
-
-### EE
-
-- Push to another repo
-- [Management dashboard](https://dev.gitlab.org/gitlab/gitlab-ee/issues/287)
-- [Geographic slave servers with GitLab RE](https://dev.gitlab.org/gitlab/gitlabhq/issues/2359) for plus subscriptions only
-- [Highly Available (HA) Omnibus Packages](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
-
 ### CI
 
 - [Zero config CI](https://dev.gitlab.org/gitlab/gitlabhq/issues/2528)
 - [Option to test the result of the merge](http://homu.io/) instead of the feature branch itself (you will have to retest all MR's every time master / target branch is updated)
-- [Document dependent builds / pipeline trigges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3432)
+- [Document dependent builds / pipeline triggers](https://gitlab.com/gitlab-org/gitlab-ce/issues/3432)
 - [Staging environment per branch with GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286), similar to [Teatro](https://teatro.io/), [Tutum](https://support.tutum.co/support/solutions/articles/5000620449-deploy-to-tutum-button) & [Heroku Review Apps](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta))
 - Automatically give code quality metrics in the merge request
 - [Automatic Docker image cleanup](https://gitlab.com/ayufan/gitlab-runner-docker-cleanup/issues/1)
@@ -151,12 +138,19 @@ in a way that all relevant parties get notified.
 - A/B testing of branches
 - [Shared runners](https://dev.gitlab.org/gitlab/gitlab-ci/issues/322#note_56433) automanaged [by Kubernetes](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/30)
 
+### EE
+
+- Push to another repo
+- [Management dashboard](https://dev.gitlab.org/gitlab/gitlab-ee/issues/287)
+- [Highly Available (HA) Omnibus Packages](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
+- [Oracle support](https://gitlab.com/gitlab-org/gitlab-ee/issues/96)
+
 ### Software to ship in the Omnibus packages
 
-- Add [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
-- Scrum board
+- [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
+- [A scrum board](https://about.gitlab.com/applications/#scrum-boards)
 - [CodeClimate](http://blog.codeclimate.com/blog/2015/06/19/code-climate-platform/)
-- [Lita](https://www.lita.io/) or antoher chat-ops bot
+- [Lita](https://www.lita.io/) or another chat-ops bot
 
 ### We would love to partner with
 
