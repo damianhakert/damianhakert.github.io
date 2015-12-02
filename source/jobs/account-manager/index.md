@@ -27,4 +27,8 @@ Senior Account Managers carry the additional responsibilities of
 * Some experience with B2B sales
 * Relevant background
 * Interest in GitLab, and open source software
-* Work remotely or from our office in San Francisco
+* Work remotely or from our office in San Francisco  
+For Senior Account Managers, additional requirements apply:  
+* Substantial experience with B2B sales
+* Experience closing large deals
+* Bonus: experience selling open source software
