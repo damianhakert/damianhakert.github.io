@@ -177,9 +177,12 @@ Idea's go flow though many stages before they are realized: chat, issue, sprint,
 Stitching all stages together can be done in many different ways.
 You can have a marketplace of proprietary apps from different suppliers.
 Or stich it together with a suite of products that are developed in isolation.
-We believe that an <b>integrated and opinionated set of tools</b> offers a superior user experience.
-That doesn't mean we'll never do a marketplace or offer a suite of products.
-But we admire other integrated and opinionated tools like [Ruby on Rails](http://rubyonrails.org/), [Ember](http://emberjs.com/) and [Heroku](https://www.heroku.com/) and we're working on a smooth experience from chat to deployment.
+We believe that an <b>integrated set of tools based on convention over configuration</b> offers a superior user experience.
+The advantage can be quoted from the [Wikipedia page for convention over configuration](https://en.wikipedia.org/wiki/Convention_over_configuration): "decrease the number of decisions that developers need to make, gaining simplicity, and not necessarily losing flexibility.".
+In GitLab you only have to specify unconventional aspects of your workflow, the rest will be a smooth experience.
+And that smooth experience should go all the way from informal chat, to creating an issue, coding it in an IDE, committhing the code, running CI tests, doing a code review, to deployment in different environments.
+That doesn't mean we'll never do a marketplace, in fact this is the way [GitLab.com will be free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever).
+But we admire other convention over configuration tools like [Ruby on Rails](http://rubyonrails.org/), [Ember](http://emberjs.com/) and [Heroku](https://www.heroku.com/) and strive to offer the same advantages for a continuous delivery of software.
 
 The open source nature of GitLab ensures that we're well suited to offer an integrated experience.
 Everyone can contribute to achieve the [complete feature set](https://about.gitlab.com/comparison/) that is needed for an integrated experience.
