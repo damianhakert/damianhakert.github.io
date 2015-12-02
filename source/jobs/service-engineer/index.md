@@ -33,3 +33,14 @@ Social questions piped into ZenDesk in order priority:
 1. [StackOverflow tagged questions](http://stackoverflow.com/questions/tagged/gitlab)
 
 [Internal issue to pipe the social questions into ZenDesk](https://dev.gitlab.org/gitlab/organization/issues/306)
+
+
+## Requirements for Applicants
+(Check our [Jobs](https://about.gitlab.com/jobs/) page to see current openings).
+
+* B.Sc. in Computer Science or equivalent experience
+* Above average knowledge of Unix and Unix based Operating Systems
+* Vast experience with Ruby on Rails Applications
+* Good people skills
+* Excellent spoken and written English
+* Work remotely from anywhere in the world (Curious to see what that looks like? Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!)
