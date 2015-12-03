@@ -13,3 +13,4 @@ title: "Developer Marketing Manager Responsibilities and Tasks"
 * Communicate technical features and benefits with non-technical users, decision makers and our own sales team.
 * Analyse and evaluate promotion and programs to make recommendations and improvements.
 * Our current idea's are detailed on our [developer marketing page](https://about.gitlab.com/handbook/marketing/developer-marketing/).
+

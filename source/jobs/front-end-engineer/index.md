@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Front-End Engineer"
+title: "Frontend Engineer Responsibilities and Requirements"
 ---
 
 ## Responsibilities
@@ -9,10 +9,13 @@ title: "Front-End Engineer"
 * Improve the [static website of GitLab](https://about.gitlab.com/) based on the suggestions of the Graphic Designer and CMO
 * Continually improve the quality of GitLab
 
-## Requirements
+## Requirements for Applicants
+(Check our [Jobs](https://about.gitlab.com/jobs/) page to see current openings).
 
 * Know how to use CSS effectively
 * Know how to use javascript effectively
 * Collaborate effectively with UX Designers, Developers and Graphic Designers
 * Be able to work with the rest of the community
 * Needs to have extensive knowledge of Rails
+* Work remotely from anywhere in the world (Curious to see what that looks like? 
+Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!)
