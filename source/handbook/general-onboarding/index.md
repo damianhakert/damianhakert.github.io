@@ -81,6 +81,7 @@ and then ping @rspeicher to confirm your account.
 * [ ] People Ops: Invite to autoconnect on Beamy (https://docs.google.com/a/gitlab.com/document/d/1pR-pMrfrt4ERAjP_AjP49Lj0SI28vR1kHMfN4iInHCA/edit?usp=sharing)
 * [ ] People Ops: Order business cards for new team member.
 * [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/)
+* [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing)
 * [ ] CEO: Add team member to the GitLab availability calendar
 * [ ] New team member: I verify that the home folder of my harddrive is encrypted.
 
@@ -117,7 +118,7 @@ Please update this list as more steps arise.
 ### General<a name="general"></a>
 
 * The first month at a remote first company is hard, especially if you have not worked remote before and/or if you're unfamiliar with the tools used (mainly GitLab, chat, and video calling). If you feel lonely feel free to schedule 1 on 1 video calls to get to know people. If you need help with the tools ask people for help. If you don't know who to ask for help use the #questions chat channel. If you're not happy please let your manager know so we can take action.
-* We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https://www.google.com/docs/about/) and [dev.gitab.org](https://dev.gitlab.org) to communicate.
+* We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https://www.google.com/docs/about/) and [dev.gitlab.org](https://dev.gitlab.org) to communicate.
 * Check out our [about page](https://about.gitlab.com/about/), [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/) and [Life as a non technical employee at GitLab](https://about.gitlab.com/2015/06/30/life-as-a-non-technical-employee-at-gitlab/)
 * Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
 * Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
