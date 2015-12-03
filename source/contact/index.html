@@ -2,6 +2,8 @@
 layout: default
 title: Contact
 suppress_header: true
+extra_css:
+  - contact.css
 ---
 
 <div class="contact">
@@ -70,6 +72,19 @@ suppress_header: true
     <div class="row">
 
       <div class="col-sm-4 col-md-4">
+        <img src="/images/icons/security_newsletter.png" alt="Security Newsletter" id="security-newsletter">
+        <h2>Security Notices</h2>
+
+        <form id="mktoForm_1102"></form>
+        <script>MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1102);</script>
+
+        <p class="newsletter-afterword">
+          If you subscribe, you will receive immediate notifications about
+          security updates.
+        </p>
+      </div>
+
+      <div class="col-sm-4 col-md-4">
         <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md"><img src="/images/icons/website.png" id="website">
         <h2>Website</h2></a>
         <p>This website is created from a public repository. If you see a potential improvement please <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md">contribute to this website</a>.</p>
@@ -77,5 +92,3 @@ suppress_header: true
     </div>
   </div>
 </div>
-
-<link href="/stylesheets/contact.css" rel="stylesheet">
