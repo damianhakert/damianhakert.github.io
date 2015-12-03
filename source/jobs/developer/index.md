@@ -18,7 +18,7 @@ contributors who work together as a tight team in a [remote and agile](https://a
 * Keep code easy to maintain and keep it easy for others to contribute code to GitLab.
 * Qualify developers for hiring.
 
-## Responsibilities Split Between Various Developers
+### Responsibilities Split Between Various Developers
 * Omnibus packaging
 * Chef cookbooks
 * DevOps: ensuring that deployments are smooth and scalable
@@ -30,8 +30,19 @@ contributors who work together as a tight team in a [remote and agile](https://a
    * dev.gitlab.org
 * Feature development for GitLab CE, EE, and CI.
 
-## Senior Developers
+### Senior Developers
 Senior Developers are experienced developers who:
 * know a domain really well and radiate that knowledge
 * train new people
 * are the go-to person when people on the team have development questions
+
+
+## Requirements for Applicants
+(Check our [Jobs](https://about.gitlab.com/jobs/) page to see current openings).
+
+* You can reason about software, algorithms and performance from a high level
+* You are passionate about open source
+* You have worked on a production-level Rails application
+* You know how to write your own Ruby gem using TDD techniques
+* Work remotely from anywhere in the world (Curious to see what that looks like?
+Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!)
