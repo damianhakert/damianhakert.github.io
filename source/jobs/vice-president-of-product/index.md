@@ -21,15 +21,14 @@ The VP of Product reports to the CEO and is an individual contributor.
 ## Public information
 
 - Guard the quality of any public materials, such as documentation and tweets
-- keep the feature request tracker up to date
+- Keep the feature request tracker up to date
 - Make sure developers write good docs for every function
 - Make sure the CE/EE comparison, GitHub comparison and battlecards
 are up to date
 - Ensure that answers to internal questions end up being documented publicly
 - Ensure that everyone inside and outside company knows what GitLab can do and what we're working on
-- Move most of the issues from dev to .com (so our internal roadmap is public)
 - Ensure all our knowledge is radiated to users (prevent us from running different code than the default)
-- Make [/direction](/direction) a high level roadmap (can link to issues on .com)
+- Keep [/direction](/direction) up to date as our high level roadmap
 
 ## Customer relations
 
@@ -37,6 +36,7 @@ are up to date
 - Join partner visits if they can lead to new features
 - Make sure the demo scripts are up to date and train people
 - Move feature forum to GitLab issues (once [award emoji](https://dev.gitlab.org/gitlab/gitlabhq/issues/2388) is out)
+- Give trainings to customers in EMEA
 
 ## Marketing
 
@@ -51,27 +51,5 @@ conferences, webinars, etc.) together with the VP of Marketing
 
 ## Internal
 
-- Ensure that salespeople are trained in and tested on our product
+- Help with (sales)people training materials and tests
 - Ensure issue and bugs don't fall through the cracks
-- Ensure the release process is well documented
-
-## Things I'm doing that I shouldn't be doing
-
-I do like to do these things, but it's probably best if someone takes over.
-
-- Maintain about.gitlab.com (content, code, design, deploy)
-- Maintain version.gitlab.com
-- ~~Maintain doc.gitlab.com (code/deploy)~~ => Drew
-- ~~Maintain Gitlab Artwork~~ => Andriy
-- ~~Post + Reply to things on twitter~~ => Forwarded to service engineers
-- ~~Reply to Disqus comments~~ => Forwarded to service engineers
-- Maintain the [AWS](https://dev.gitlab.org/gitlab/AMI) and (theoretical) [Azure](https://dev.gitlab.org/gitlab/organization/issues/204) images
-- Be on call for GitLab.com and Support emergencies
-- Be support back up / handle European calls
-- ~~Maintain Google Analytics, Mixpanel~~ => Ashley
-- ~~Ownership of Google Ads~~ => Ashley
-- ~~Ownership of Twitter Ads~~ => Ashley
-- Maintain CF Tile
-- ~~Maintain the mailinglists + automation~~ => Ashley / Marketing Automation eng.
-- Give trainings to customers in EMEA
-- Maintain automations (Slack, Notifiers, Zendesk)
