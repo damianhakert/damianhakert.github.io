@@ -21,9 +21,9 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 ```
 ### BEFORE STARTING AT GITLAB
 
-* [ ] People Ops: Once the contract is signed, as soon as possible, create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in 
-[organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant 
-lines of the master checklist, paste the private email address of the hire in 
+* [ ] People Ops: Once the contract is signed, as soon as possible, create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in
+[organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant
+lines of the master checklist, paste the private email address of the hire in
 there and /cc @rspeicher, @jacobvosmaer, @patricio, and @sytse.
 * [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
 * [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @ HANDLE), and People Ops is tackled by (FILL IN WITH @ HANDLE).
@@ -32,21 +32,21 @@ there and /cc @rspeicher, @jacobvosmaer, @patricio, and @sytse.
 * [ ] Robert/Jacob/CEO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 * [ ] Hiring manager: send an email to company address 'Please read https://about.gitlab.com/handbook/ and the relevant onboarding pages that are linked from there and let me know if you have any questions.'
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), and become comfortable with Git and the GitLab workflow.
-* [ ] New team member: provide signed contract (including signed proprietary information and assignment agreement (PIAA)) to People Ops. 
+* [ ] New team member: provide signed contract (including signed proprietary information and assignment agreement (PIAA)) to People Ops.
 * [ ] New team member: provide scan of photo ID to People Ops.
 * [ ] People Ops: file signed contract, PIAA, and photo ID in Dropbox and confirm receipt by commenting in the issue.
 * [ ] Robert/Jacob/CEO: Add to [Slack](https://gitlab.slack.com/admin)
-* [ ] People Ops: Assign buddy and explain to buddy what that means: "What it 
-means is that if she/he has questions she/he can come to you. But your main job 
-as a buddy will be to direct her/him to the right parts of the handbook, and/or 
+* [ ] People Ops: Assign buddy and explain to buddy what that means: "What it
+means is that if she/he has questions she/he can come to you. But your main job
+as a buddy will be to direct her/him to the right parts of the handbook, and/or
 encourage her/him to ask her/his questions of the wider group on Slack, etc."
 
 ### WITHIN TWO DAYS OF STARTING
 
 #### For GitLab Inc employees only
 
-* [ ] People Ops: complete and submit an online Add New Hire Form 
-(TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the 
+* [ ] People Ops: complete and submit an online Add New Hire Form
+(TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the
 welcome email to the employee at their work email on their first date of hire.
 * [ ] New employee: complete [New Hire TriNet Passport 7 Steps Guide](https://docs.google.com/a/gitlab.com/document/d/1CFIyByd1Kgmz5353_aASVI1D8QTyJ2Uy60ziQHEPTUI/edit?usp=sharing). The I-9 portion of this must be completed with the first two days of hire. Note- this is critical so you must contact HR@gitlab.com if you have difficulty with this form.
 * [ ] New employee: submit a completed [New Employee Personal Information Form](https://docs.google.com/a/gitlab.com/document/d/1oK_-me8inC6pyODjITxMHiq5C5NC88xQw6cwUBU5g1g/edit?usp=sharing) to HR@gitlab.com
@@ -65,7 +65,7 @@ welcome email to the employee at their work email on their first date of hire.
 
 * [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment.
 * [ ] Patricio/CEO: Add to tweetdeck
-* [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar or stock photo).
+* [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar, stock photo or something with sunglasses).
 * [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle
 * [ ] Hiring manager: /cc the new user in the organization issue with this checklist that was created for them.
 * [ ] Robert/Jacob/CEO: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
@@ -80,8 +80,8 @@ and then ping @rspeicher to confirm your account.
 * [ ] People Ops: Add to Dropbox folders (if necessary)
 * [ ] People Ops: Invite to autoconnect on Beamy
 * [ ] People Ops: Order business cards for new team member.
-* [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/)
-* [ ] CEO: Add team member to the GitLab availability calendar
+* [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo.
+* [ ] CEO: Add team member to the GitLab availability calendar.
 * [ ] New team member: I verify that the home folder of my harddrive is encrypted.
 
 ### FOR ENGINEERING ONLY (Devs, DevOps, SEs)
