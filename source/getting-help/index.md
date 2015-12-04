@@ -21,7 +21,7 @@ title: "Getting Help for GitLab"
 * [Contributing guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md): describes how to submit Merge Requests and issues. Pull Requests and Issues not in line with the guidelines in this document will be closed.
 
 ## Discussion
-* [#gitlab IRC channel](https://webchat.freenode.net/?channels=gitlab): a Freenode channel to get in touch with other GitLab users and get help. It is managed by James Newton (newton), Drew Blessing (dblessing), and Sam Gleske (sag47).
+* [#gitlab IRC channel](https://webchat.freenode.net/?channels=gitlab): a Freenode channel to get in touch with other GitLab users and get help. It is managed by James Newton (newton) and Drew Blessing (dblessing).
 * [Gitter chat room](https://gitter.im/gitlabhq/gitlabhq#): here you can ask questions when you need help.
 * [GitLab.com](https://about.gitlab.com/gitlab-com/) users can use the [GitLab.com Support Forum](https://gitlab.com/gitlab-com/support-forum/issues) to report issues  and bugs if they do not have a [GitLab.com Bronze Support package](https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20).
 * [GitLab Community Forum](https://forum.gitlab.com/): this is the best place to have a discussion.
