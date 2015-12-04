@@ -36,7 +36,7 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 ### [8.3](https://gitlab.com/groups/gitlab-org/milestones/8-3?title=8.3) - December 22nd
 
 - [Revert merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
-- [GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1748)
+- [GitLab Pages (EE)](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1748)
 - [Issue Weight (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/70)
 - [Migrate all Ci::Project data to Project](https://gitlab.com/gitlab-org/gitlab-ce/issues/3474)
 
