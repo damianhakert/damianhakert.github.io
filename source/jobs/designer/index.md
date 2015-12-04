@@ -19,7 +19,7 @@ title: "Designer"
 ## Requirements for Applicants
 (Check our [Jobs](https://about.gitlab.com/jobs/) page to see current openings).
 
-* Experience with web design 
+* Experience with web design
 * Able to create anything from quick mockups to pixel-perfect work
 * Be able to create exciting marketing materials
 * Experience with web design and its limitations and possibilities
