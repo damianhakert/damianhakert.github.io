@@ -37,7 +37,7 @@ You know you are doing a good job as an Interaction Engineer when:
 * you communicate well with the developers
 * you are contributing ideas and solutions beyond existing issues
 * users are overwhelmingly happy about your contributions
-* collaborate effectively with Front-End Engineers, Developers and Graphic Designers
+* collaborate effectively with Front-End Engineers, Developers, and Designers
 
 ## Roles in practice
 
