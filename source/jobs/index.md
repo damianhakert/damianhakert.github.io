@@ -19,9 +19,9 @@ For more background please see our [about page](https://about.gitlab.com/about/)
 
 If you see yourself as a good fit with our company’s goals and team, then please review the current job openings on this page, and submit your resume and cover letter to be considered!
 
-Note: we do not accept solicitation by recruiters, recruiting agencies and outsourcing organizations.
-
 ## Available Openings
+
+*Note: we do not accept solicitation by recruiters, recruiting agencies and outsourcing organizations.* <a id="note"></a>
 
 ### Designer
 
@@ -36,7 +36,7 @@ Note: we do not accept solicitation by recruiters, recruiting agencies and outso
 ### Service Engineer
 
 * [Description](https://about.gitlab.com/jobs/service-engineer/)
-* [Apply](https://gitlab.workable.com/jobs/87722/candidates/new)
+* [Apply](https://gitlab.workable.com/jobs/88120/candidates/new)
 
 ### Account Manager
 
