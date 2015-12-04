@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "VP of Marketing Responsibilities and Tasks"
+title: "Chief Marketing Officer Responsibilities and Tasks"
 ---
 
 ## Responsibilities
@@ -14,4 +14,3 @@ title: "VP of Marketing Responsibilities and Tasks"
 * Implement Marketo or alternative for our website
 * Work with the press, analysts and partners for announcements
 * Manage ad spending, targeting, SEO, SEM
-
