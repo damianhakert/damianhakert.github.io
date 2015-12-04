@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Being a good open source steward"
-date: 2015-12-04
+title: "Open Source Stewardship"
+date: 2015-12-07
 comments: true
 author: Sytse Sijbrandij
 author_twitter: sytses
-image_title: '/images/unsplash/FILENAME.jpg'
+image_title: '/images/unsplash/sailing-5.jpg'
 ---
-
 We've recently detailed our policy and commitment to open source. We need to think in the interests of the project, while tending to the realities of running a business to support it. I wanted to share some of our thoughts around the decisions behind the policy.  
 
 <!-- more -->
