@@ -10,7 +10,7 @@ image_title: /images/7_X/PICTURE.PNG
 ---
 
 GitLab is open source software to collaborate on code.
-Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
+Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability, and performance improvements, and bug fixes.
 The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
 In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
 

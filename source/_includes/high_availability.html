@@ -28,7 +28,7 @@
         <h3>Maturity levels</h3>
         <h4>1. Backup of files and Database</h4>
         <p>
-            It is possible to automatically backup the GitLab repositories, configuration and the database. You can manage backups with the <a href="https://github.com/gitlabhq/gitlabhq/blob/master/lib/tasks/gitlab/backup.rake">GitLab backup tasks</a>: create a backup with `rake gitlab:backup:create` and restore it with `rake gitlab:backup:restore`. In case the server becomes unavailable, then the backup can be used to restore the GitLab installation. This solution is appropriate for teams that have a single metal server at their disposal. <b>We recommend you store the backup at an external location. Also we recommend automating the backup task and monitoring successful completion.</b>
+            It is possible to automatically backup the GitLab repositories, configuration, and the database. You can manage backups with the <a href="https://github.com/gitlabhq/gitlabhq/blob/master/lib/tasks/gitlab/backup.rake">GitLab backup tasks</a>: create a backup with `rake gitlab:backup:create` and restore it with `rake gitlab:backup:restore`. In case the server becomes unavailable, then the backup can be used to restore the GitLab installation. This solution is appropriate for teams that have a single metal server at their disposal. <b>We recommend you store the backup at an external location. Also we recommend automating the backup task and monitoring successful completion.</b>
         </p>
         <h4>2. Recovery from snapshot</h4>
         <p>
@@ -62,7 +62,7 @@
         </p>
         <h4>4. Single slave server</h4>
         <p>
-            <b>If you only want to use two machines for your HA solution, we recommend keeping one as a slave of the other.</b> In this situation, each machine has the full GitLab repositories, configuration and the database. The slave server is a copy of the master. You can use Distributed Replicated Block Device (DRBD) to ensure that all data from the master is replicated to the slave in a timely manner.
+            <b>If you only want to use two machines for your HA solution, we recommend keeping one as a slave of the other.</b> In this situation, each machine has the full GitLab repositories, configuration, and the database. The slave server is a copy of the master. You can use Distributed Replicated Block Device (DRBD) to ensure that all data from the master is replicated to the slave in a timely manner.
         </p>
         <p>
             Manual failover is done by mounting the file storage on the slave, which is turned into a master. At this point, the unavailable server should be turned off or taken off the network, to avoid it coming online with master status.

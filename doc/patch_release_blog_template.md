@@ -8,7 +8,7 @@ author: ADD_YOUR_FULL_NAME
 filename: FILENAME.MARKDOWN
 ---
 
-Today we release GitLab X.X.X CE, EE and GitLab CI X.X.X.
+Today we release GitLab X.X.X CE, EE, and GitLab CI X.X.X.
 
 
 GitLab X.X.X CE fixes:
