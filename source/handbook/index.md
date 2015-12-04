@@ -29,7 +29,8 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Stock Options](/handbook/stock-options)
 * [GitLab University](https://about.gitlab.com/university/)
 * [Marketing](/handbook/marketing)
-* [Security](/handbook/security)  
+* [Security](/handbook/security)
+* [Support workflow](/handbook/support)
 
 ## Contents of this page
 
