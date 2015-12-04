@@ -136,6 +136,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 1. We use BlueJeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
 1. Please join the meeting with your x@gitlab.com account, not your private Google account.
 1. We wait for people to join the first two minutes of the meeting until :32.
+1. If you are unable to attend just add your name to the agenda as Not attending
 1. We start by discussing the subjects that are on the agenda for today.
 1. Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
 1. When done with a point mention the subject of the next item and hand over to the next person.
