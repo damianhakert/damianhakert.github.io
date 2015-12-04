@@ -56,7 +56,7 @@ platforms:
                     curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/el/6/gitlab-ce-XXX.rpm/download
                     rpm -i gitlab-ce-XXX.rpm
   dependency_commands: |
-                    sudo yum install curl openssh-server postfix cronie
+                    sudo yum install curl policycoreutils openssh-server openssh-clients postfix cronie
                     sudo service postfix start
                     sudo chkconfig postfix on
 
@@ -70,7 +70,7 @@ platforms:
                     curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/el/7/gitlab-ce-XXX.rpm/download
                     rpm -i gitlab-ce-XXX.rpm
   dependency_commands: |
-                    sudo yum install curl openssh-server
+                    sudo yum install curl policycoreutils openssh-server openssh-clients
                     sudo systemctl enable sshd
                     sudo systemctl start sshd
                     sudo yum install postfix
