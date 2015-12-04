@@ -154,7 +154,7 @@ in a way that all relevant parties get notified.
 
 ### We would love to partner with
 
-- Browser IDE: Koding, Nitrous.io, Cloud9, CodeAnywhere, Codio and CodeEnvy (ship GitLab with them and button to open from GitLab)
+- Browser IDE: Koding, Nitrous.io, [Cloud9](https://c9.io/blog/cloud9-template-days/), CodeAnywhere, Codio and CodeEnvy (ship GitLab with them and button to open from GitLab)
 - Configuration management: Upload cookbooks, manifests, playbooks, and modules for respectively Chef, Puppet, Ansible, and Salt.
 - Paas: Use [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) to deploy to CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Nomad](https://nomadproject.io/), [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/) [Tutum](https://www.tutum.co/) [GiantSwarm](https://giantswarm.io/)
 - Scrum boards: [Huboard](https://huboard.com/), [Waffle.io](https://waffle.io/) and [Zenhub.io](https://www.zenhub.io/) support in addition to https://about.gitlab.com/applications/#scrum-boards
