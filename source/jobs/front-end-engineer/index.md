@@ -6,7 +6,7 @@ title: "Frontend Engineer Responsibilities and Requirements"
 ## Responsibilities
 
 * Implement the interfaces in GitLab proposed by UX Engineers and contributors
-* Improve the [static website of GitLab](https://about.gitlab.com/) based on the suggestions of the Graphic Designer and CMO
+* Improve the [static website of GitLab](https://about.gitlab.com/) based on the suggestions of the Designer and CMO
 * Continually improve the quality of GitLab
 
 ## Requirements for Applicants
