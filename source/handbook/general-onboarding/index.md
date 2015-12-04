@@ -159,45 +159,8 @@ The most common Issues are created in the following projects:
   1. Internal issues relate to Enterprise Edition: Use [GitLab EE](https://dev.gitlab.org/gitlab/gitlab-ee)
 
 ### Security<a name="security"></a>
-<ol>
-<li>When you are offboarded the 1Password account is deleted, if you want to store your non-work passwords please store them in your 'Primary' vault, not the vault named 'Your Vault'.</li>
- <li><b>Never reuse</b> a password you use on a company account, not for another GitLab service nor for a personal account.</li>
-<li>Set up <a href="https://agilebits.com/onepassword">1Password</a> as your password manager and set a strong and unique master password.</li>
-<li>Use 1Password to <a href="https://support.1password.com/guides/mac/generate-a-strong-password.html">generate <b>strong passwords</b></a> for any new company accounts.</li>
-<li>
-<p>
-When signing up for a new service ask yourself which team members you need to <b>share access</b> with.
-If the service has a built-in way of creating other user accounts, use that.
-If not, then store your credentials in an appropriate company 1Password vault so that your colleagues can sign in using your credentials.
-</p>
-<p>
-Do not share credentials via email, issue comments, chat etc.
-This includes email addresses to login and API keys.
-Use 1Password vaults for this.
-You should be invited to a few vaults after joining the company.
-</p>
-<p>
-If you're missing an appropriate vault ask the CEO to create a new vault.
-Refer to the items with NAME_OF_SITE credentials in VAULT_NAME. For example: "for access please see the AOL credentials in the Luddite vault".
-Do not store credentials in a vault if everyone has their own user account for the service.
-</p>
-</li>
-<li>Do not let your password manager store the <b>master password</b> (it is ok to store the login).</li>
-<li>Enable 2 factor authentication (2FA) with <a href="https://support.google.com/accounts/answer/1066447?hl=en">Google Authenticator</a> (not SMS) for your Google, Slack and GitLab accounts. These can be added to 1Password via 'Add new one-time password'.</li>
-<li><b>Encrypt</b> your home folder (easy on Ubuntu/Debian, on OS X use FileVault2 full disk encryption).</li>
-<li>Set up a screen saver with password <b>lock</b> on your notebook. The timeout can depend on how you use your laptop.</li>
-<li><b>Report</b> suspect situations to an officer of the company.</li>
-<li>If you have security <b>suggestions</b> put them on the <a href="https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit">team call agenda</a>.</li>
-<li>Never <b>dismiss</b> a security report as invalid. Keep asking questions until the researcher comes to the same conclusion or stops responding.</li>
-<li>Do not <b>forward</b> company emails (@gitlab.com) to a non-company email address.</li>
-<li>
-  Do not click on links in emails you did not request yourself (requested password reset is OK, anything else is suspect).
-  Clicking itself is a problem even when you don't enter a password, because a visit can already be used to execute a zero day.
-  We simulate phishing attacks by having an external service send emails to our company email addresses to ensure everyone is aware of the threat.
-</li>
-<li>All access to vaults is noted in [a Google Sheet](https://docs.google.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit#gid=0) use this to request access, ping the relevant administrator after you updated the sheet</li>
-<li>The CEO will not send you a [email to wire cash](http://blog.centrify.com/ceo-fraud-business-email-compromise/), feel free to verify any strange request with a video call.</li>
-</ol>
+
+See the [security handbook](/handbook/security).
 
 ### Quiz<a name="quiz"></a>
 Employees should answer GitLab quiz questions in the first 2 weeks of working in
