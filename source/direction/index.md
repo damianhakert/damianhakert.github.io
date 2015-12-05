@@ -88,13 +88,13 @@ We very much welcome contributions that implement any of these things.
 You should be able to review any code within GitLab quickly, easily and
 in a way that all relevant parties get notified.
 
-- [Pre-post comment code](https://gitlab.com/gitlab-org/gitlab-ce/issues/3502) - Ability to see what the current state of the code is where in a previous commit a comment was placed.
+- [Pre-post comment code](https://gitlab.com/gitlab-org/gitlab-ce/issues/3502) see what the current state of the code is where in a previous commit a comment was placed
 - [Merge if green button if tests are still running](https://gitlab.com/gitlab-org/gitlab-ce/issues/2640)
 - [Allow cross server merge requests](http://feedback.gitlab.com/forums/176466-general/suggestions/5097708-implement-cross-server-federated-merge-requests) (paste url when making a new MR)
 - [Revert button for merges](https://dev.gitlab.org/gitlab/gitlabhq/issues/2299)
 - [Ability to checkout the result of MR available before merging](https://gitlab.com/gitlab-org/gitlab-ce/issues/2765)
 - [Syntax highlighting for diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/3292)
-- [Transactional MR comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3364) - Prevent notification overload by grouping comments
+- [Transactional MR comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3364) prevent notification overload by grouping comments
 - [Revert button for MRs](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 
 ### Project Management
@@ -132,7 +132,7 @@ in a way that all relevant parties get notified.
 - [Zero config CI](https://dev.gitlab.org/gitlab/gitlabhq/issues/2528)
 - [Option to test the result of the merge](http://homu.io/) instead of the feature branch itself (you will have to retest all MR's every time master / target branch is updated)
 - [Document dependent builds / pipeline triggers](https://gitlab.com/gitlab-org/gitlab-ce/issues/3432)
-- [Staging environment per branch with GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286), similar to [Teatro](https://teatro.io/), [Tutum](https://support.tutum.co/support/solutions/articles/5000620449-deploy-to-tutum-button) & [Heroku Review Apps](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta))
+- [Staging environment per branch with GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) similar to [Teatro](https://teatro.io/), [Tutum](https://support.tutum.co/support/solutions/articles/5000620449-deploy-to-tutum-button) & [Heroku Review Apps](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta))
 - Automatically give code quality metrics in the merge request
 - [Automatic Docker image cleanup](https://gitlab.com/ayufan/gitlab-runner-docker-cleanup/issues/1)
 - Show code coverage in diffs with colored horizontal bar
