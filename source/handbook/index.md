@@ -13,7 +13,7 @@ Please make headers linkable, for an example see the feedback header below.
 Please make a <a href="https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests">merge request</a> to suggest improvements or add clarifications.
 Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues</a> to ask questions.
 
-## Subjects discussed on other pages of the handbook
+## Other pages of the team handbook
 
 * [General onboarding](/handbook/general-onboarding)
 * [Sales onboarding](/handbook/sales-onboarding)
@@ -31,7 +31,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Support](/handbook/support)
 * [GitLab University](https://about.gitlab.com/university/)
 
-## Contents of this page
+## This page
 
 * [General Guidelines](#general-guidelines)
 * [Communication](#communication)
