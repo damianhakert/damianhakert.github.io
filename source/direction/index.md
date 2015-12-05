@@ -35,7 +35,6 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 
 ### [8.3](https://gitlab.com/groups/gitlab-org/milestones/8-3?title=8.3) - December 22nd
 
-- [Revert merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 - [GitLab Pages (EE)](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1748)
 - [Issue Weight (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/70)
 - [Migrate all Ci::Project data to Project](https://gitlab.com/gitlab-org/gitlab-ce/issues/3474)
@@ -45,13 +44,14 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 - [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
 - [Import GitHub PR's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2833)
 - [Import GitHub wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
-- [Notification System](https://gitlab.com/gitlab-org/gitlab-ce/issues/2425)
 - [Elasticsearch or Hound (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
-- [HA Omnibus packages (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
+- [GitLab RE for readonly secundary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
 
 ### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5) - February 22nd
 
-- [GitLab RE for readonly secundary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
+- [Notification System](https://gitlab.com/gitlab-org/gitlab-ce/issues/2425)
+- [HA Omnibus packages (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
+- [Revert merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 - [Focus Dashboard](https://gitlab.com/gitlab-org/gitlab-ce/issues/3467)
 
 ### [9.0](https://gitlab.com/groups/gitlab-org/milestones/9-0?title=9.0) - ?
