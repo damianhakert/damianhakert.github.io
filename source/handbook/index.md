@@ -18,19 +18,18 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [General onboarding](/handbook/general-onboarding)
 * [Sales onboarding](/handbook/sales-onboarding)
 * [Developer onboarding](/handbook/developer-onboarding)
-* [New hire day one (US employees only)](/handbook/new-hire-day-one-us-employees-only)
 * [People Operations](/handbook/people-operations)
 * [Travel](/handbook/travel)
 * [Sales process](/handbook/sales-process)
 * [Operations](/handbook/operations)
-* [Hiring Process](/handbook/hiring)
+* [Hiring](/handbook/hiring)
 * [Accounting](/handbook/accounting)
 * [Social Media](/handbook/social-media)
 * [Stock Options](/handbook/stock-options)
-* [GitLab University](https://about.gitlab.com/university/)
 * [Marketing](/handbook/marketing)
 * [Security](/handbook/security)
-* [Support workflow](/handbook/support)
+* [Support](/handbook/support)
+* [GitLab University](https://about.gitlab.com/university/)
 
 ## Contents of this page
 
@@ -40,7 +39,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Spending Company Money](#spending-company-money)
 * [Paid Time Off](#paid-time-off)
 * [Signing Legal Documents](#signing-legal-documents)
-* [GitLab workflow guidelines](#gitlab-workflow)
+* [GitLab workflow](#gitlab-workflow)
 * [Using Git to update this website](#starting-with-git)
 
 <h2 id="general-guidelines">General Guidelines</h2>
