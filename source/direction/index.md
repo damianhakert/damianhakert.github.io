@@ -107,6 +107,7 @@ in a way that all relevant parties get notified.
 - Draw and drop issues to prioritize them
 - Handle incoming emails with support questions in issues, needs spam filter
 - [Labels should be visible in Milestone view](https://gitlab.com/gitlab-org/gitlab-ce/issues/3276)
+- [Management dashboard for continuous delivery](https://dev.gitlab.org/gitlab/gitlab-ee/issues/287)
 
 ### Productivity
 
