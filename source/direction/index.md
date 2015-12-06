@@ -145,6 +145,7 @@ in a way that all relevant parties get notified.
 - [Management dashboard](https://dev.gitlab.org/gitlab/gitlab-ee/issues/287)
 - [Highly Available (HA) Omnibus Packages](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
 - [Oracle support](https://gitlab.com/gitlab-org/gitlab-ee/issues/96)
+- [Group member activity](https://gitlab.com/gitlab-org/gitlab-ce/issues/3824)
 
 ### Software to ship in the Omnibus packages
 
@@ -157,7 +158,7 @@ in a way that all relevant parties get notified.
 
 - Browser IDE: Koding, Nitrous.io, [Cloud9](https://c9.io/blog/cloud9-template-days/), CodeAnywhere, Codio and CodeEnvy (ship GitLab with them and button to open from GitLab)
 - Configuration management: Upload cookbooks, manifests, playbooks, and modules for respectively Chef, Puppet, Ansible, and Salt.
-- Paas: Use [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) to deploy to CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Nomad](https://nomadproject.io/), [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/) [Tutum](https://www.tutum.co/) [GiantSwarm](https://giantswarm.io/)
+- Paas: Use [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) to deploy to CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Nomad](https://nomadproject.io/), [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/), [Tutum](https://www.tutum.co/), [GiantSwarm](https://giantswarm.io/), [Rancher](https://github.com/rancher/rancher/blob/master/README.md)
 - Scrum boards: [Huboard](https://huboard.com/), [Waffle.io](https://waffle.io/) and [Zenhub.io](https://www.zenhub.io/) support in addition to https://about.gitlab.com/applications/#scrum-boards
 
 ## Vision <a name="vision"></a>
