@@ -145,6 +145,7 @@ in a way that all relevant parties get notified.
 - [Management dashboard](https://dev.gitlab.org/gitlab/gitlab-ee/issues/287)
 - [Highly Available (HA) Omnibus Packages](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
 - [Oracle support](https://gitlab.com/gitlab-org/gitlab-ee/issues/96)
+- [Group member activity](https://gitlab.com/gitlab-org/gitlab-ce/issues/3824)
 
 ### Software to ship in the Omnibus packages
 
