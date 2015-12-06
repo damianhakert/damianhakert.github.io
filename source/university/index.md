@@ -28,6 +28,9 @@ The following courses have been created to help you become better educated about
 - [About Version Control](https://docs.google.com/presentation/d/16sX7hUrCZyOFbpvnrAFrg6tVO5_yT98IgdAqOmXwBho/edit#slide=id.g72f2e4906_2_29)
 - [Take the Test](http://goo.gl/forms/8H8SNcH70T)
 
+#### Intro to Terminology
+- [GitLab Introduction to Terminology](https://about.gitlab.com/2015/05/18/simple-words-for-a-gitlab-newbie/)
+
 #### Intro to Git
 - [Intro to Git](https://www.codeschool.com/account/courses/try-git)
 - [Take the Test](http://goo.gl/forms/GgWF1T5Ceg)
@@ -48,6 +51,72 @@ The following courses have been created to help you become better educated about
 - [Gitlab Ecosystem Recording](https://drive.google.com/a/gitlab.com/file/d/0B41DBToSSIG_N0gzbEFMOVNkLWc/view?usp=sharing) recorded date: 2015-11-05
 - [Take the Test](http://goo.gl/forms/5Vrf3CE0iC)
 
+#### Creating a GitLab Account
+- [Create a GitLab Account](https://courses.platzi.com/classes/git-gitlab/concepto/first-steps/create-an-account-on-gitlab/material/)
+- Supporting Document
+    * [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
+
+#### Add SHH Key to GitLab
+- [Create and Add your SHH key to GitLab](https://www.youtube.com/watch?v=54mxyLo3Mqk)
+
+#### Creating a Project in GitLab
+- [Creating a new project in GitLab](https://www.youtube.com/watch?v=7p0hrpNaJ14)
+- Supporting Document
+    * [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
+
+#### Issues and Merge Requests
+- [Issue and Merge Request](https://www.youtube.com/watch?v=raXvuwet78M)
+- Supporting Document
+    * [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
+    
+#### GitLab Wiki
+
+#### GitLab Activity Log
+
+#### Branching and Forking
+
+#### GitLab Omnibus
+- [What is GitLab OmniBus?](https://www.youtube.com/watch?v=XTmpKudd-Oo)
+- [How to install GitLab with Omnibus](https://www.youtube.com/watch?v=Q69YaOjqNhg)
+- Suport Documents
+    * [Configuring an external PostgreSQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-non-packaged-postgresql-database-management-server)
+    * [Configuring an external MySQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-mysql-database-management-server-enterprise-edition-only)
+
+#### GitLab Flow
+- [GitLab Flow](https://about.gitlab.com/2014/09/29/gitlab-flow/)
+- [GitLab Flow vs. Forking in GitLab](https://www.youtube.com/watch?v=UGotqAUACZA)
+
+#### Managing LDAP, Active Directory
+- [Managing LDAP, Active Directory introduction with GitLab](https://www.youtube.com/watch?v=HPMjM-14qa8)
+
+#### Managing Permission
+- [Managing permissions within EE](https://www.youtube.com/watch?v=DjUoIrkiNuM)
+
+#### Continuous Integration and Runners
+- [GitLab CI](https://about.gitlab.com/gitlab-ci/)
+- CI Tools we Integrate with
+    * [Jenkins](http://doc.gitlab.com/ee/integration/jenkins.html)
+    * [Bamboo](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
+
+#### GitLab LFS 
+
+#### GitLab Mirroring
+
+#### GitLab Integrations
+- [Jira](http://doc.gitlab.com/ee/integration/jira.html)
+- Atlassian Crowd
+- [Jenkins](http://doc.gitlab.com/ee/integration/jenkins.html)
+- [Bamboo](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
+- [Slack](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/integration/slack.md)
+
+#### Migrating to GitLab
+- From SVN
+- From GitHub Enterprise
+- From BitBuket
+- From Perforce
+
+#### GitLab Markdowns
+- [Markdowns](http://doc.gitlab.com/ce/markdown/markdown.html)
 
 ## Upcoming Topics
 
@@ -57,23 +126,11 @@ Please submit a merge request for suggestions.
 - Groups, Projects, Repositories
 - JIRA and Jenkins integrations in GitLab
 
-## Resources
+## Learning Resources
 
-- [GitLab Introduction to Terminology](https://about.gitlab.com/2015/05/18/simple-words-for-a-gitlab-newbie/)
-- [Create a GitLab Account](https://courses.platzi.com/classes/git-gitlab/concepto/first-steps/create-an-account-on-gitlab/material/)
-- [Create and Add your SHH key to GitLab](https://www.youtube.com/watch?v=54mxyLo3Mqk)
-- [Creating a new project in GitLab](https://www.youtube.com/watch?v=7p0hrpNaJ14)
-- [Issue and Merge Request](https://www.youtube.com/watch?v=raXvuwet78M)
-- [What is GitLab OmniBus?](https://www.youtube.com/watch?v=XTmpKudd-Oo)
-- [How to install GitLab with Omnibus](https://www.youtube.com/watch?v=Q69YaOjqNhg)
-- [Managing permissions within EE](https://www.youtube.com/watch?v=DjUoIrkiNuM)
-- [GitLab Flow](https://about.gitlab.com/2014/09/29/gitlab-flow/)
-- [GitLab Flow vs. Forking in GitLab](https://www.youtube.com/watch?v=UGotqAUACZA)
-- [Managing LDAP, Active Directory introduction with GitLab](https://www.youtube.com/watch?v=HPMjM-14qa8)
 - [GitLab documentation](http://doc.gitlab.com/)
 - [Innersourcing article](https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/)
 - [Platzi training course](https://courses.platzi.com/courses/git-gitlab/)
-- [GitLab flow](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
 - [Sales Onboarding materials](https://about.gitlab.com/handbook/sales-onboarding/)
 - [GitLab Direction](https://about.gitlab.com/direction/)
 - [GitLab compared to other tools](https://about.gitlab.com/comparison/)
