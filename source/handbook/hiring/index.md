@@ -80,9 +80,7 @@ title: "Hiring"
 1. What do you expect to achieve in your first month at GitLab?
 1. Where do you want to be in three years from now?
 1. Have you worked remote before and how do you feel about it?
-1. What are your idea's about compensation for this job?
-1. Are you afraid of flying?
-1. Do you smoke?
+1. What salary range would you feel comfortable with?
 1. If you get hired when can you start?
 1. Are you interviewing anywhere else?
 1. Do you have any questions for me?
