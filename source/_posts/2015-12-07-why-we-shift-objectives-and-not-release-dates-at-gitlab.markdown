@@ -83,7 +83,7 @@ I’m curious what the GitLab users think about time-based or feature-driven rel
 
 ## Next: How we manage releases for GitLab
 
-Next week, in a follow-up to this post, Dmitriy will share specifics about how the GitLab team manage our releases, along with some tools and examples to coordinate work among a team. Subscribe to our newsletter which will include Part 2.
+Next week, in a follow-up to this post, Dmitriy will share specifics about how the GitLab team manage our releases, along with some tools and examples to coordinate work among a team. Subscribe to our newsletter which includes links to our latest blog posts.
 
 <script src="//app-ab13.marketo.com/js/forms2/js/forms2.min.js"></script>
 <form id="mktoForm_1073"></form>
