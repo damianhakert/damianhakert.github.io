@@ -79,6 +79,8 @@ Is a time-based release cycle the best option for all open source projects?
 
 I imagined if a feature-driven release cycle held a debate about Quality with a time-based release cycle, that the feature-driven cycle could lead the argument by saying “We’re holding out for perfection!” In rebuttal, the time-based cycle could argue that their approach leads to a more vibrant, active, development community and ultimately a higher quality product. And besides that, it SHIPS. 
 
+While a feature-drive release cycle can allow SaaS services to get to market with new features really fast, it can stall and stymie distributed software and especially open source projects. From the release of the long-awaited Drupal 8.0 the open source CMS is moving to a [predictable release schedule](https://www.drupal.org/core/release-cycle-overview), with predictable dates. Scheduled minor releases (8.1.0, 8.2.0) will be released every six months. The challenge for that project will be to resist shifting deadlines and instead, shift objectives. 
+
 I’m curious what the GitLab users think about time-based or feature-driven releases, specifically for open source projects. I’d love to hear if you have experience of both, how it affects your motivation and the quality of work.
 
 ## Next: How we manage releases for GitLab
