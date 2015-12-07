@@ -386,3 +386,27 @@ ul.post-list > li > time {
 .mktoFormRow {
   clear: none !important;
 }
+
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 766px) {
+
+}
+
+@media (max-width: 480px) {
+  .image-title .color-bg {
+    padding: 40px 40px;
+    height: 250px;
+  }
+  .image-title .color-bg h1 {
+    font-size: 30px;
+    line-height: normal;
+  }
+}
