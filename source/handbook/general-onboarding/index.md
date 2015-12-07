@@ -76,7 +76,7 @@ welcome email to the employee at their work email on their first date of hire.
 * [ ] People Ops: Put People Information into Profiles in 1Password
 * [ ] New team member: Register on 1Password by clicking [this link](https://gitlab.1password.com/teamjoin/invitation/J2KWH3CJDRFA7KTFDVVXXDSCMY)
 and then ping @rspeicher to confirm your account.
-* [ ] New team member: Set up [secure passwords per the handbook.](https://about.gitlab.com/handbook/general-onboarding/#security)
+* [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
 * [ ] People Ops: Add to Dropbox folders (if necessary)
 * [ ] People Ops: Invite to autoconnect on Beamy (https://docs.google.com/a/gitlab.com/document/d/1pR-pMrfrt4ERAjP_AjP49Lj0SI28vR1kHMfN4iInHCA/edit?usp=sharing)
 * [ ] People Ops: Order business cards for new team member.
