@@ -42,6 +42,8 @@ He knows when it's coming out, and it's nice to think that it's a day he looks f
 
 ## How does a time-based release promote quality?
 
+A feature drive release process works well for SaaS services. When a feature is ready you don't need to wait for a specific date to release a certain feature. On the other hand, if you're working on distributed software, users need to be prepared for a release. Having personally experienced long and delayed open source releases as both a user and community member, I'm convinced of this. Time based releases, with strict deadlines, could work best for open source projects especially. 
+
 Time-based release cycles promote discipline, emphasize quality, and increase motivation. 
 
 Dmitriy had a good metaphor, he compared it to going to the gym. It’s better to get to the gym for part of your training plan, instead of skipping it because you don’t have time to do the entire thing. It promotes discipline.
@@ -70,11 +72,10 @@ I laughed when he said this. “Is this how GitLab started?” I asked.
 
 He wanted GitLab to be a place where he could focus on quality. Like many others who are inspired to build open source, he wanted to attract others to participate. He wanted his software to get released, he wanted it to be used. For him, the choice was obvious. A time-based release cycle and a monthly cadence of releases was the only way to fulfill this. It would be the way he could ensure that the people he attracted to the project were inspired, motivated, and delighted. 
 
-Is a time-based release cycle the best option for all open source projects? 
 
 ## The debate is on.
 
-A feature drive release process works well for SaaS services. When a feature is ready you don't need to wait for a specific date to release a certain feature. On the other hand, if you're working on distributed software, users need to be prepared for a release. Having personally experienced long and delayed open source releases as both a user and community member, I'm convinced of this. Time based releases, with strict deadlines, could work best for open source projects especially. 
+Is a time-based release cycle the best option for all open source projects? 
 
 I imagined if a feature-driven release cycle held a debate about Quality with a time-based release cycle, that the feature-driven cycle could lead the argument by saying “We’re holding out for perfection!” In rebuttal, the time-based cycle could argue that their approach leads to a more vibrant, active, development community and ultimately a higher quality product. And besides that, it SHIPS. 
 
