@@ -81,9 +81,9 @@ I imagined if a feature-driven release cycle held a debate about Quality with a 
 
 I’m curious what the GitLab users think about time-based or feature-driven releases, specifically for open source projects. I’d love to hear if you have experience of both, how it affects your motivation and the quality of work.
 
-## In Part 2: How we manage releases for GitLab
+## Next: How we manage releases for GitLab
 
-Next week, in a follow-up to this post, Dmitriy will share specifics about how the GitLab team manage our releases, along with some tools and examples to coordinate work among a team. Subscribe to our newsletter to get notified when Part 2 is published.
+Next week, in a follow-up to this post, Dmitriy will share specifics about how the GitLab team manage our releases, along with some tools and examples to coordinate work among a team. Subscribe to our newsletter which will include Part 2.
 
 <script src="//app-ab13.marketo.com/js/forms2/js/forms2.min.js"></script>
 <form id="mktoForm_1073"></form>
