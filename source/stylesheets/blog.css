@@ -397,12 +397,19 @@ ul.post-list > li > time {
 }
 
 @media (min-width: 481px) and (max-width: 766px) {
-
+  .image-title .color-bg {
+    padding: 50px 40px;
+    height: 250px;
+  }
+  .image-title .color-bg h1 {
+    font-size: 30px;
+    line-height: normal;
+  }
 }
 
 @media (max-width: 480px) {
   .image-title .color-bg {
-    padding: 40px 40px;
+    padding: 50px 40px;
     height: 250px;
   }
   .image-title .color-bg h1 {
