@@ -56,7 +56,7 @@ platforms:
                     curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/el/6/gitlab-ce-XXX.rpm/download
                     rpm -i gitlab-ce-XXX.rpm
   dependency_commands: |
-                    sudo yum install curl policycoreutils openssh-server openssh-clients postfix cronie
+                    sudo yum install curl openssh-server openssh-clients postfix cronie
                     sudo service postfix start
                     sudo chkconfig postfix on
 
