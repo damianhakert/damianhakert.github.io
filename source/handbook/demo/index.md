@@ -12,7 +12,7 @@ understand how the things you demo work, otherwise ask a colleague.
 You should know the following things before you give the demo:
 
 - Who will be listening in? Developers or managers makes a big difference
-- Where are they coming from? Other git software or something old? Mecurial?
+- Where are they coming from? Other git software or something old? Mercurial?
 A competitor?
 - Why are they considering GitLab?
 - Is there a particular feature they're interested in?
