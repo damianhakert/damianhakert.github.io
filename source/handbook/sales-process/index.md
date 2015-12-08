@@ -19,7 +19,8 @@ title: "Sales Process"
 * [Helpful Links](#helpful)
 
 
-Lead Qualification Process <a name="leadqual"></a>
+### Lead Qualification Process <a name="leadqual"></a>
+
 1. All marketing leads added to salesforce.com as a lead object.  These are called marketing qualified leads.
 
 1. Leads will be assigned round-robin in both the US and International Regions, with the exception being large Enterprise leads (Fortune 500) assigned to Sr. Enterprise Account Managers.
@@ -43,33 +44,40 @@ Lead Qualification Process <a name="leadqual"></a>
 
 1. All leads should be in a lead status of nurture, disqualified or converted to an opportuity within 20 days of the lead being created.  
 
-Sales Qualification Questions <a name="salesqual"></a>
+### Sales Qualification Questions <a name="salesqual"></a>
+
 [Sales Qualification Questions](https://about.gitlab.com/handbook/sales-qualification-questions/)
 
-Client Use Cases <a name="client"></a>
+### Client Use Cases <a name="client"></a>
+
 [Client Use Cases](https://about.gitlab.com/handbook/use-cases/)
 
-Parent and Child Accounts <a name="parent"></a>
+### Parent and Child Accounts <a name="parent"></a>
+
 * A Parent account is the business/organization which owns another business/organization.  Example: Disney is the parent account of ESPN and ABC.
 * A Child Account is the organization you may have an opportunity with but is owned by the Parent Account.
 * You may have a opportuity with the Parent account and a Child Account.  Example: Disney and ESPN may both be customers and have opportunities.
 * When selling into a new division (which has their own budget, different mailing address, and decision process) create a new account.  This is the Child Account.  For every child account, you must select the parent account by using the parent account field on the account page.
 * We want to do this as we can keep each opportunity with each child account separate and easily find all accounts and opportunities tied to a parent account.
 
-Opportunity Naming Convention <a name="naming"></a>
+### Opportunity Naming Convention <a name="naming"></a>
+
 Opportunities will follow the following rules:
+
 * Subscription: [name of company] [type of subscription] [number of packs]. Example: MicahTek, Inc.-Standard-1
 * Training: [name of company] [type of training: User Training/Git Workshop/GitLab Flow/GitLab Admin]. Example: First Community Credit Union User-Training
 * Any deal coming from Gitorious has “(from Gitorious)” added.  Example MicahTek, Inc.-Gitorious-Standard-1
 
-Opportunity Types <a name="types"></a>
+### Opportunity Types <a name="types"></a>
+
 1. New Business - This type should be used for any new account (business) who signs up
 1. Web Direct -  This type should be used for any new business who pays directly online
 1. Add-on - This type should be used for any incremental/upsell business sold into an existing account and division mid term, meaning not at renewal.
 1. Exisiting Account (new divsion) - This type should be used for new business sold into an existing account but a new division, a new puchasing group.
 1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased or stay the same.  We capture growth/loss as a field in Salesforce.com
 
-Adding Products to an Opportunity <a name="products"></a>
+### Adding Products to an Opportunity <a name="products"></a>
+
 1. When creating an opportunity, you will be required to add in a product for the opportunity.
 1. Select the product the prospect is interested in.  The product you choose should match the plan you added in the Opportunity Name.
     * If selling a 24 or 36 month deal, please select the correct product.  Each plan has a 12, 24 and 36 month product.  
@@ -78,7 +86,8 @@ Adding Products to an Opportunity <a name="products"></a>
 1. Once you select a product you can edit the quantity and the sales price. 
 1. If you want to change the product, you must first delete the product you have currently in the opportunity, then add in the new product.
 
-Opportunity Stages <a name="stages"></a>
+### Opportunity Stages <a name="stages"></a>
+
 1. Discovery - research, fact finding, identify contacts, current situation, 
 1. Developing - isolate the opportunities, assess needs, qualify the opportunities, build rapport, access decision makers, understand decision process and criteria, Collaborate on solutions, define the business case, assess competition
 1. Present Solution - Tailor the presentation, coordinate the team, present recommendations, present pricing, isolate value proposition, gain feedback
@@ -87,8 +96,10 @@ Opportunity Stages <a name="stages"></a>
 1. Won - Deal won and booked
 1. Lost - Opportunity not won at this time
 
-Submitting Quotes in Salesforce.com <a name="quotes"></a>
+### Submitting Quotes in Salesforce.com <a name="quotes"></a>
+
 To create a quote, you must be in the opportunity object
+
 1. Click New Quote
 1. Name the Quote Suggested format “ Gitlab/Company name/Type of Subscription. Customers will see the name of the quote.
 1. Enter expiration date if required - It can be left blank.
@@ -98,13 +109,16 @@ To create a quote, you must be in the opportunity object
 1. Now in the quote "Create PDF” and choose the type of subscription template; Basic,Standard or Plus.
 1. Either "save quote" this allows you to send pdf from your mail client or "save and email quote" this will send from with sfdc mail client.
 
-Closing a Won Deal <a name="closing"></a>
+### Closing a Won Deal <a name="closing"></a>
+
 In order to close a deal in Salesforce.com, one of the following must happen:
+
 1. Cient paid via Credit Card
 1. PO has been received
 1. Prospect has returned a signed quote (attach to the opportunity). 
 
 Once the above has happened, please make sure the following actions are done:
+
 1. Process order in Recurly
 1. Add Invoice Number in the Invoice Number field within the opportunity
 1. Make sure opportunity close date matches invoice date in Recurly
@@ -118,8 +132,9 @@ Once the above has happened, please make sure the following actions are done:
 1. Check to make sure the Type field on the Account page now says Customer.  If not, please manually change it.
 1. Update the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
 
-Processing Orders in Recurly <a name="processing"></a>
-### Credit Card orders via Recurly
+### Processing Orders in Recurly <a name="processing"></a>
+
+#### Credit Card orders via Recurly
 1. Order comes in via email from recurly and will always have an invoice # on it.
 1. Customer subscribes via Recurly (this happens automatically via the online credit card order form)
 1. Sales Admin to check to see if Salesforce.com record already exists (or not) by searching for the company as shown on the Recurly invoice within the search field of Salesforce.com. If an account already exists, then add an opportunity to the account. If one does not exist, create a new account, contact and opportunity for the name on the invoice.
@@ -157,18 +172,20 @@ Processing Orders in Recurly <a name="processing"></a>
 1. If no Subscription Agreement accompanies PO, only send 30 day temp license and request signed Agreement be returned in that time
 1. Send invoice to customer with one of the two onboarding emails or a renewal email Forward Recurly invoice to customer as safeguard against going to spam. Also reinterate to sign up on GitLab.com and send user name.
 1. PROCESS for bank transfer renewals with PO received before renewal date:
-  1. Create a one-off invoice in Recurly and send to customer:
-    1. Customer account;
-    1. Charges and credits area -> add charge;
-    1. In the description, write the exact name of the subscription plan;
-  1. Update subscription to start one year from current renewal time
+    * Create a one-off invoice in Recurly and send to customer:
+    * Customer account;
+    * Charges and credits area -> add charge;
+    * In the description, write the exact name of the subscription plan;
+    * Update subscription to start one year from current renewal time
 1. If standard subscriber, add to subscribers group
 1. License keys auto-generated
 1. Sales Admin to check to see if Salesforce.com record already exists (or not) by searching for the company as shown on the Recurly invoice within the search field of Salesforce.com. If an account already exists, then add an opportunity to the account. If one does not exist, create a new account, contact and opportunity for the name on the invoice.
 1. Task created for Account Owner to reach out to new client, thanking them for their business and asking for time to learn more about their initiatives for account development opportunities and to ensure their experience is great.
 	
 #### Renewals
+
 PO order for additional seats when past due:
+
 1. Get GitLab quote signed and upload to salesforce account
 1. Get PO from customer with their internal PO number included
 1. In Recurly, click “Add Charge” add quantity, it 2 or 3 years, then add 2 or 3 in quantity then use number that includes any discounts from upfront payments
@@ -178,17 +195,20 @@ PO order for additional seats when past due:
 1. Go to License Key and update for one year
 
 Renewal in Advance- before renew date:
+
 1. Add charge for renewal amount and process
 1. Click Subscription- Manually change renewal date 
 1. Double check license key is sent
        
 Renewal in Advance- plus add users:
+
 1. Go into account and click add charge- add total number (existing plus added seats) include details in description field. 
 1. Click Subscription and manually change renewal date
 1. Click Edit Subscription, add pack with zero charge
 1. Confirm license key matches subscription 
 
 Adding users to current subscription as a separate department:
+
 1. Need to make sure it’s a different division as you will need to issue a second license key 
 1. Click Add Subscription on main account page
 1. Process order 
@@ -197,16 +217,19 @@ Adding users to current subscription as a separate department:
 	
 Additional billing situations [Accounting procedures](/handbook/sales-process/accounting)
 
-Expanding Deals <a name="expanding"></a>
+### Expanding Deals <a name="expanding"></a>
+
 Find out [how to manage deals](/handbook/sales-process/deal_management_process) with potential customers.
 
-Managing an Account <a name="managing"></a>
+### Managing an Account <a name="managing"></a>
+
 Aspects to consider when [managing an account](/handbook/sales-process/account_management).
 
-Licences <a name="license"></a>
+### Licences <a name="license"></a>
+
 Everything about [lincenses and EE access](/handbook/sales-process/licenses).
 
-Helpful Links <a name="helpful"></a>
+### Helpful Links <a name="helpful"></a>
 1. [GitLab subscription page](https://about.gitlab.com/subscription/)
 
 1. [GitLab HA page](https://about.gitlab.com/high-availability/)
