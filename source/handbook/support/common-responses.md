@@ -11,6 +11,7 @@ title: Common Responses
 * [Upgraged](/handbook/support/common-responses.html#upgrades)  
 * [LDAP](/handbook/support/common-responses.html#ldap)
 * [Email](/handbook/support/common-responses.html#email)
+* [OAuth](/handbook/support/common-responses.html#oauth)
 
 
 ### <a name="required-information"></a> Required Information
@@ -44,15 +45,19 @@ Migrate with ```sudo gitlab-rake db:migrate```
 If its still complicated then upgrade to 7.10 before upgrading to 8.2.    
 * Reference:  
 [Updating GitLab via omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update/README.md#upgrading-from-a-non-omnibus-installation-to-an-omnibus-installation)
- 
- 
-
 
 ***
 
 ### <a name="email"></a> Email
 
-#### Email Confirmation Not Sent
-* Problem Description: Upgrades 
-* Expected Behavior:  
-* Solution:  
+#### Email Confirmation Not Sent from gitlab.com
+* Problem Description: Email confirmations not sent from gitlab.com  
+* Expected Behavior: After registering on the hosted version the user doesn’t receive any confirmation email to 
+proceed to activation.  
+* Solution: Sign in into gitlab.com with administration privileges and check if the user has been registered, modify 
+and report back. If the account does not exist the user could be trying to log in to an on premise instance.  
+
+***
+
+
+### <a name="oauth"></a> OAuth
