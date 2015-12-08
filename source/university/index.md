@@ -146,3 +146,4 @@ Please submit a merge request for suggestions.
 - [Customer review of GitLab with talking points on why they prefer GitLab](https://www.enovate.co.uk/web-design-blog/2015/11/25/gitlab-review/)
 - [2011 WSJ article by Mark Andreeson - Software is Eating the World](http://www.wsj.com/articles/SB10001424053111903480904576512250915629460)
 - [2015 Venture Beat article - Actually, Open Source is Eating the World](http://venturebeat.com/2015/12/06/its-actually-open-source-software-thats-eating-the-world/)
+- [Customer Use-Cases](https://about.gitlab.com/handbook/use-cases/)
