@@ -19,8 +19,11 @@ Support requests that don’t have enough information to process require asking 
 information that is usually needed is the GitLab version, Operating System and production logs found 
 at ```/var/log/gitlab/gitlab-rails/production.log```. 
 
+***
 
 ### <a name="https"></a> HTTPS 
+
+***
 
 ### <a name="ldap"></a> LDAP
   
@@ -29,9 +32,21 @@ at ```/var/log/gitlab/gitlab-rails/production.log```.
 ### <a name="upgrades"></a> Upgrades
   
 #### Upgrades from old versions
-* Problem Description: Upgrades 
+* Problem Description:  
+Upgrades from GitLab ~6.6 encounter migration errors when trying to update to the latest 
+version ~8.2. 
 * Expected Behavior:  
+When following the guides ate the [omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update/README.md#upgrading-from-a-non-omnibus-installation-to-an-omnibus-installation) 
+project installation should run smoothly.
 * Solution:  
+Some migrations are executed out of order and are required to be ran specifically.  
+Migrate with ```sudo gitlab-rake db:migrate```
+If its still complicated then upgrade to 7.10 before upgrading to 8.2.    
+* Reference:  
+[Updating GitLab via omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update/README.md#upgrading-from-a-non-omnibus-installation-to-an-omnibus-installation)
+ 
+ 
+
 
 ***
 
