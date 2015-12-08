@@ -7,6 +7,7 @@ title: "Sales Process"
 * [Client Use Cases](/handbook/use-cases/)
 * [Opportunity Stages](/handbook/sales-process/opportunity-stages)
 * [Opportunity Types](/handbook/sales-process/opportunity-types)
+* [Parent and Child Accounts](/handbook/sales-process/parent-and-child-accounts)
 * [Opportunity Naming Convention](/handbook/sales-process/opportunity-naming-convention)
 * [Submittig Quotes in Salesforce.com](/handbook/sales-process/submitting-quotes)
 * [Processing Orders in Recurly](/handbook/sales-process/processing-orders)
@@ -61,6 +62,13 @@ title: "Sales Process"
 1. Add-on - This type should be used for any incremental/upsell business sold into an existing account and division mid term, meaning not at renewal.
 1. Exisiting Account (new divsion) - This type should be used for new business sold into an existing account but a new division, a new puchasing group.
 1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased or stay the same.  We capture growth/loss as a field in Salesforce.com
+
+<h2 id="parent-and-child-accounts">Parent and Child Accounts</h2>
+* A Parent account is the business/organization which owns another business/organization.  Example: Disney is the parent account of ESPN and ABC.
+* A Child Account is the organization you may have an opportunity with but is owned by the Parent Account.
+* You may have a opportuity with the Parent account and a Child Account.  Example: Disney and ESPN may both be customers and have opportunities.
+* When selling into a new division (which has their own budget, different mailing address, and decision process) create a new account.  This is the Child Account.  For every child account, you must select the parent account by using the parent account field on the account page.
+* We want to do this as we can keep each opportunity with each child account separate and easily find all accounts and opportunities tied to a parent account.
 
 <h2 id="opportunity-naming-convention">Opportunity Naming Convention</h2>
 Opportunities will follow the following rules:
