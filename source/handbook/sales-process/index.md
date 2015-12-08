@@ -5,11 +5,13 @@ title: "Sales Process"
 * [Lead Qualification Process](/handbook/sales-process/lead-qualification-process)
 * [Sales Qualification Questions](/handbook/sales-process/sales-qualification-questions)
 * [Client Use Cases](/handbook/use-cases/)
-* [Opportunity Stages](/handbook/sales-process/opportunity-stages)
-* [Opportunity Types](/handbook/sales-process/opportunity-types)
 * [Parent and Child Accounts](/handbook/sales-process/parent-and-child-accounts)
 * [Opportunity Naming Convention](/handbook/sales-process/opportunity-naming-convention)
-* [Submittig Quotes in Salesforce.com](/handbook/sales-process/submitting-quotes)
+* [Opportunity Types](/handbook/sales-process/opportunity-types)
+* [Adding Products to an Opportunity](/handbook/sales-process/opportunity-products)
+* [Opportunity Stages](/handbook/sales-process/opportunity-stages)
+* [Submitting Quotes in Salesforce.com](/handbook/sales-process/submitting-quotes)
+* [Closing A Won Deal](/handbook/sales-process/closing-a-won-deal)
 * [Processing Orders in Recurly](/handbook/sales-process/processing-orders)
 * [Expanding Deals](/handbook/sales-process/expanding-deals)
 * [Managing an Account](/handbook/sales-process/account-management)
@@ -47,22 +49,6 @@ title: "Sales Process"
 <h2 id="use-cases">Client Use Cases</h2>
 [Client Use Cases](https://about.gitlab.com/handbook/use-cases/)
 
-<h2 id="opportunity-stages">Opportunity Stages</h2>
-1. Discovery - research, fact finding, identify contacts, current situation, 
-1. Developing - isolate the opportunities, assess needs, qualify the opportunities, build rapport, access decision makers, understand decision process and criteria, Collaborate on solutions, define the business case, assess competition
-1. Present Solution - Tailor the presentation, coordinate the team, present recommendations, present pricing, isolate value proposition, gain feedback
-1. Negotiating - negotiate business terms resolve objections, set close plan (sequence of events), gain commitment
-1. Verbal Commitment - how a company approves s business teams desire to purchase, how the company vets purchases from a legal, info security, risk, compliance and vendor management perspective
-1. Won - Deal won and booked
-1. Lost - Opportunity not won at this time
-
-<h2 id="opportunity-types">Opportunity Types</h2>
-1. New Business - This type should be used for any new account (business) who signs up
-1. Web Direct -  This type should be used for any new business who pays directly online
-1. Add-on - This type should be used for any incremental/upsell business sold into an existing account and division mid term, meaning not at renewal.
-1. Exisiting Account (new divsion) - This type should be used for new business sold into an existing account but a new division, a new puchasing group.
-1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased or stay the same.  We capture growth/loss as a field in Salesforce.com
-
 <h2 id="parent-and-child-accounts">Parent and Child Accounts</h2>
 * A Parent account is the business/organization which owns another business/organization.  Example: Disney is the parent account of ESPN and ABC.
 * A Child Account is the organization you may have an opportunity with but is owned by the Parent Account.
@@ -72,12 +58,34 @@ title: "Sales Process"
 
 <h2 id="opportunity-naming-convention">Opportunity Naming Convention</h2>
 Opportunities will follow the following rules:
+* Subscription: [name of company] [type of subscription] [number of packs]. Example: MicahTek, Inc.-Standard-1
+* Training: [name of company] [type of training: User Training/Git Workshop/GitLab Flow/GitLab Admin]. Example: First Community Credit Union User-Training
+* Any deal coming from Gitorious has “(from Gitorious)” added.  Example MicahTek, Inc.-Gitorious-Standard-1
 
-Subscription: [name of company] [type of subscription] [number of packs]. Example: MicahTek, Inc.-Standard-1
+<h2 id="opportunity-types">Opportunity Types</h2>
+1. New Business - This type should be used for any new account (business) who signs up
+1. Web Direct -  This type should be used for any new business who pays directly online
+1. Add-on - This type should be used for any incremental/upsell business sold into an existing account and division mid term, meaning not at renewal.
+1. Exisiting Account (new divsion) - This type should be used for new business sold into an existing account but a new division, a new puchasing group.
+1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased or stay the same.  We capture growth/loss as a field in Salesforce.com
 
-Training: [name of company] [type of training: User Training/Git Workshop/GitLab Flow/GitLab Admin]. Example: First Community Credit Union User-Training
+<h2 id="opportunity-products">Adding Products to an Opportunity</h2>
+1. When creating an opportunity, you will be required to add in a product for the opportunity.
+1. Select the product the prospect is interested in.  The product you choose should match the plan you added in the Opportunity Name.
+    * If selling a 24 or 36 month deal, please select the correct product.  Each plan has a 12, 24 and 36 month product.  
+    * Please note that the discount (10% for 24 month pre-paid and 15% for 36 month pre-paid) has already been applied to the product amount when you select it. You may change the sales price of the pack if you are giving a further discount or if no discount at all.
+1. If selling more than one pack, please note the number of packs you are selling in the quantity field.  
+1. Once you select a product you can edit the quantity and the sales price. 
+1. If you want to change the product, you must first delete the product you have currently in the opportunity, then add in the new product.
 
-Any deal coming from Gitorious has “(from Gitorious)” added.  Example MicahTek, Inc.-Gitorious-Standard-1
+<h2 id="opportunity-stages">Opportunity Stages</h2>
+1. Discovery - research, fact finding, identify contacts, current situation, 
+1. Developing - isolate the opportunities, assess needs, qualify the opportunities, build rapport, access decision makers, understand decision process and criteria, Collaborate on solutions, define the business case, assess competition
+1. Present Solution - Tailor the presentation, coordinate the team, present recommendations, present pricing, isolate value proposition, gain feedback
+1. Negotiating - negotiate business terms resolve objections, set close plan (sequence of events), gain commitment
+1. Verbal Commitment - how a company approves s business teams desire to purchase, how the company vets purchases from a legal, info security, risk, compliance and vendor management perspective
+1. Won - Deal won and booked
+1. Lost - Opportunity not won at this time
 
 <h2 id="submitting-quotes">Submitting Quotes in Salesforce.com</h2>
 To create a quote, you must be in the opportunity object
@@ -89,6 +97,21 @@ To create a quote, you must be in the opportunity object
 1. Save  Quote
 1. Now in the quote "Create PDF” and choose the type of subscription template; Basic,Standard or Plus.
 1. Either "save quote" this allows you to send pdf from your mail client or "save and email quote" this will send from with sfdc mail client.
+
+<h2 id="closing-a-won-deal">Closing a Won Deal</h2>
+In order to close a deal in Salesforce.com, please make sure the following actions are done:
+1. Process order in Recurly
+1. Add Invoice Number in the Invoice Number field within the opportunity
+1. Make sure opportunity close date matches invoice date in Recurly
+1. Make sure opportunity product matches subscription plan in Recurly
+1. Make sure opportunity amount matches amount in Recurly
+1. Add in the competition we were up against in the opportunity.  This can be the legacy SCM solution they had and/or who they were evaluating along side of us.
+1. Create a renewal opportunity opportunity by cloning the current opportunity and changing the close date to be 12, 24 or 36 months out.
+1. Create an add-on or Existing Account (new division) opportunity if there has been one identified by you at this time.
+1. Create a task 30 days later, to check in with Account to make sure they are happy, address any questions they have and to explore any growth opportunity in the account.  Example: new divisions, more users on the exisiting team.
+    * If an add-on or existing account (new division) opportunity has been identified and recorded in Salesforce, create a task for the day you and the client will meet to explore the growth opportunity.
+1. Check to make sure the Type field on the Account page now says Customer.  If not, please manually change it.
+1. Update the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
 
 <h2 id="processing-orders">Processing Orders in Recurly</h2>
 ### Credit Card orders via Recurly
