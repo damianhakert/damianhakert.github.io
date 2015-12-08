@@ -99,7 +99,12 @@ To create a quote, you must be in the opportunity object
 1. Either "save quote" this allows you to send pdf from your mail client or "save and email quote" this will send from with sfdc mail client.
 
 <h2 id="closing-a-won-deal">Closing a Won Deal</h2>
-In order to close a deal in Salesforce.com, please make sure the following actions are done:
+In order to close a deal in Salesforce.com, one of the following must happen:
+1. Cient paid via Credit Card
+1. PO has been received
+1. Prospect has returned a signed quote (attach to the opportunity). 
+
+Once the above has happened, please make sure the following actions are done:
 1. Process order in Recurly
 1. Add Invoice Number in the Invoice Number field within the opportunity
 1. Make sure opportunity close date matches invoice date in Recurly
