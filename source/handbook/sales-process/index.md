@@ -2,8 +2,21 @@
 layout: markdown_page
 title: "Sales Process"
 ---
-## Lead Process
+* [Lead Qualification Process](/handbook/sales-process/lead-qualification-process)
+* [Sales Qualification Questions](/handbook/sales-process/sales-qualification-questions)
+* [Client Use Cases](/handbook/use-cases/)
+* [Opportunity Stages](/handbook/sales-process/opportunity-stages)
+* [Opportunity Types](/handbook/sales-process/opportunity-types)
+* [Opportunity Naming Convention](/handbook/sales-process/opportunity-naming-convention)
+* [Submittig Quotes in Salesforce.com](/handbook/sales-process/submitting-quotes)
+* [Processing Orders in Recurly](/handbook/sales-process/processing-orders)
+* [Expanding Deals](/handbook/sales-process/expanding-deals)
+* [Managing an Account](/handbook/sales-process/account-management)
+* [Licences](/handbook/sales-process/licences)
+* [Helpful Links](/handbook/sales-process/helpful-links)
 
+
+<h2 id="lead-qualification-process">Lead Qualification Process</h2>
 1. All marketing leads added to salesforce.com as a lead object.  These are called marketing qualified leads.
 
 1. Leads will be assigned round-robin in both the US and International Regions, with the exception being large Enterprise leads (Fortune 500) assigned to Sr. Enterprise Account Managers.
@@ -27,11 +40,13 @@ title: "Sales Process"
 
 1. All leads should be in a lead status of nurture, disqualified or converted to an opportuity within 20 days of the lead being created.  
 
-## Sales Qualification Questions
-
+<h2 id="sales-qualification-questions">Sales Qualification Questions</h2>
 [Sales Qualification Questions](https://about.gitlab.com/handbook/sales-qualification-questions/)
 
-## Opportunity Stages
+<h2 id="use-cases">Client Use Cases</h2>
+[Client Use Cases](https://about.gitlab.com/handbook/use-cases/)
+
+<h2 id="opportunity-stages">Opportunity Stages</h2>
 1. Discovery - research, fact finding, identify contacts, current situation, 
 1. Developing - isolate the opportunities, assess needs, qualify the opportunities, build rapport, access decision makers, understand decision process and criteria, Collaborate on solutions, define the business case, assess competition
 1. Present Solution - Tailor the presentation, coordinate the team, present recommendations, present pricing, isolate value proposition, gain feedback
@@ -40,14 +55,14 @@ title: "Sales Process"
 1. Won - Deal won and booked
 1. Lost - Opportunity not won at this time
 
-## Opportunity Types
+<h2 id="opportunity-types">Opportunity Types</h2>
 1. New Business - This type should be used for any new account (business) who signs up
 1. Web Direct -  This type should be used for any new business who pays directly online
 1. Add-on - This type should be used for any incremental/upsell business sold into an existing account and division mid term, meaning not at renewal.
 1. Exisiting Account (new divsion) - This type should be used for new business sold into an existing account but a new division, a new puchasing group.
 1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased or stay the same.  We capture growth/loss as a field in Salesforce.com
 
-## Opportunity Naming Convention
+<h2 id="opportunity-naming-convention">Opportunity Naming Convention</h2>
 Opportunities will follow the following rules:
 
 Subscription: [name of company] [type of subscription] [number of packs]. Example: MicahTek, Inc.-Standard-1
@@ -56,26 +71,19 @@ Training: [name of company] [type of training: User Training/Git Workshop/GitLab
 
 Any deal coming from Gitorious has “(from Gitorious)” added.  Example MicahTek, Inc.-Gitorious-Standard-1
 
-## Submitting Quotes via Salesforce
- Creating a Quote 
-
-Within the opportunity
-
+<h2 id="submitting-quotes">Submitting Quotes in Salesforce.com</h2>
+To create a quote, you must be in the opportunity object
 1. Click New Quote
 1. Name the Quote Suggested format “ Gitlab/Company name/Type of Subscription. Customers will see the name of the quote.
 1. Enter expiration date if required - It can be left blank.
 1. In "Prepared for” search for the contact name and ensure email address is correct.
-1. Check correct mailing address this will be pulled from account details. If there is no address in the account this will be blank
+1. Check correct mailing address this will be pulled from account page. If there is no address, add on to the account page
 1. Save  Quote
 1. Now in the quote "Create PDF” and choose the type of subscription template; Basic,Standard or Plus.
 1. Either "save quote" this allows you to send pdf from your mail client or "save and email quote" this will send from with sfdc mail client.
 
- Creating new quote template
-
-## Processing Orders
-
-### Web Direct orders via Recurly
-
+<h2 id="processing-orders">Processing Orders in Recurly</h2>
+### Credit Card orders via Recurly
 1. Order comes in via email from recurly and will always have an invoice # on it.
 1. Customer subscribes via Recurly (this happens automatically via the online credit card order form)
 1. Sales Admin to check to see if Salesforce.com record already exists (or not) by searching for the company as shown on the Recurly invoice within the search field of Salesforce.com. If an account already exists, then add an opportunity to the account. If one does not exist, create a new account, contact and opportunity for the name on the invoice.
@@ -103,10 +111,9 @@ Within the opportunity
       1. Select the Make license from Recurly subscription button
 1. Task created for Account Owner to reach out to new client, thanking them for their business and asking for time to learn more about their initiatives for account development opportunities and to ensure their experience is great.
 
-### Invoiced Clients -
+### Invoiced Clients 
 
-#### New Business Order-
-
+#### New Business Order
 1. Sales receives an order (one of the three options):
     * a Purchase Order (PO) issued by the company
     * a signed quote (the quote that we sent).
@@ -125,9 +132,7 @@ Within the opportunity
 1. Task created for Account Owner to reach out to new client, thanking them for their business and asking for time to learn more about their initiatives for account development opportunities and to ensure their experience is great.
 	
 #### Renewals
-
 PO order for additional seats when past due:
-
 1. Get GitLab quote signed and upload to salesforce account
 1. Get PO from customer with their internal PO number included
 1. In Recurly, click “Add Charge” add quantity, it 2 or 3 years, then add 2 or 3 in quantity then use number that includes any discounts from upfront payments
@@ -137,47 +142,35 @@ PO order for additional seats when past due:
 1. Go to License Key and update for one year
 
 Renewal in Advance- before renew date:
-
 1. Add charge for renewal amount and process
 1. Click Subscription- Manually change renewal date 
 1. Double check license key is sent
        
 Renewal in Advance- plus add users:
-
 1. Go into account and click add charge- add total number (existing plus added seats) include details in description field. 
 1. Click Subscription and manually change renewal date
 1. Click Edit Subscription, add pack with zero charge
 1. Confirm license key matches subscription 
 
 Adding users to current subscription as a separate department:
-
 1. Need to make sure it’s a different division as you will need to issue a second license key 
 1. Click Add Subscription on main account page
 1. Process order 
 1. Makes sure you see two separate subscriptions on the main page in Recurly
 1. Make sure a second license key is sent to the contact
 	
+Additional billing situations [Accounting procedures](/handbook/sales-process/accounting)
 
-## Deal Strategy
-
-## Deal management process
-
+<h2 id="expanding-deals">Expanding Deals</h2>
 Find out [how to manage deals](/handbook/sales-process/deal_management_process) with potential customers.
 
-## Account management
-
+<h2 id="account-management">Managing an Account</h2>
 Aspects to consider when [managing an account](/handbook/sales-process/account_management).
 
-## Billing 
-
-[Accounting procedures](/handbook/sales-process/accounting). Step-by-step guide on how to bill through recurly based on situations.
-
-## Licenses
-
+<h2 id="licences">Licences</h2>
 Everything about [lincenses and EE access](/handbook/sales-process/licenses).
 
-## Helpful links for prospects and customers
-
+<h2 id="helpful-links">Helpful Links</h2>
 1. [GitLab subscription page](https://about.gitlab.com/subscription/)
 
 1. [GitLab HA page](https://about.gitlab.com/high-availability/)
