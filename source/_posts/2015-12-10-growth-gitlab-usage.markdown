@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab is growing"
+title: "GitLab downloads up 63% month on month"
 date: 2015-12-10
 comments: true
 author: Ashley Smith
