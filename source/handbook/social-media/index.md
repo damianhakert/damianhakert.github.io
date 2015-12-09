@@ -1,31 +1,73 @@
 ---
 layout: markdown_page
-title: "Social Media"
+title: "GitLab Social Media Accounts"
 ---
+
+
+This document is a guide for GitLab staff who manage social media accounts. 
+
+You are personally responsible for the tweets, likes and replies you post on social media while representing GitLab. Everything you publish is publicly viewable and will be available for a long time even if redacted. Be careful and thoughtful when using the company accounts. 
+
 ## Twitter
 
-1. Favorite tweets which include positive comments about GitLab or articles
-mentioning GitLab in a positive way.
+There are three GitLab Twitter accounts
 
-1. Thank users for feedback and comments with @mentions like: 'Thank you', 'Glad to hear that', 'You're welcome'.
+-   [@GitLab](https://twitter.com/gitlab) -  This is the main account for the project and company, which is managed by staff at GitLab, Inc.
 
-1. Tweets about feature requests: ask the user to add them to GitLab's
-[Feature Request Forum](http://feedback.gitlab.com/forums/176466-general)
-or share the link from a similar request that was previously added to the
-Forum, so the user can vote for it.
+-   [@GitLabSupport](https://twitter.com/gitlabsupport) - This account is for managing support questions about the use of GitLab services. This is managed by the GitLab service engineer team.
 
-1. Tweets about Issues related to GitLab.com: ask the user to add the Issue to
-our [GitLab.com Support
-Forum](https://gitlab.com/gitlab-com/support-forum/issues).
+-   [@GitLabStatus](https://twitter.com/gitlabstatus) - This account tweets about the status of GitLab.com services and is managed by the GitLab operations team.
 
-1. Tweets about Issues related to GitLab CE or CI: ask the user to add the
-Issue to our [CE Issue
-tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues).  
+### Representing GitLab on Twitter
 
-1. When responding to tweets, be polite and brief.
+Express gratitude
 
-1. It's OK to invite CE or GitLab.com users to collaborate.
+-   Favorite tweets which include positive comments about GitLab or articles mentioning GitLab in a positive way.
 
-1. Zendesk is a good place to reply to tweets, but always check for the tweet history on Tweetdeck.
+-   Thank users for feedback and comments with @mentions like: ‘Thank you’, ‘Glad to hear that’, ‘You’re welcome’.
 
-1. Use Tweetdeck to find GitLab mentions without the # or @.
+Be friendly
+
+-   When responding to tweets, be polite and brief.
+
+-   It’s OK to invite CE or GitLab.com users to collaborate.
+
+About using the tools
+
+-   Zendesk is a good place to reply to tweets, but always check for the tweet history on Tweetdeck.
+
+-   Use Tweetdeck to find GitLab mentions without the # or @.
+
+ 
+
+### Replies to commonly asked questions on Twitter
+
+-   Feature requests: It would be really cool if GitLab could… 
+
+    -   If this is a first time feature request: Ask them to submit a feature request. 
+
+    -   If there’s an existing feature request, ask the user to vote on the request. 
+
+    -   If we’re accepting merge requests, tell them. 
+
+-   Bug reports: I think I’ve discovered a bug. 
+
+    -   Bug reports are welcome. <https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md>
+
+-   Product specific questions: I need some help with X. 
+
+    -   Check if there is existing documentation and reply with a link if there is. 
+
+    -   GitLab.com - Ask the user to add the Issue to our GitLab.com Support Forum.
+
+    -   GitLab CE or CI: ask the user to add the Issue to our CE Issue tracker.
+
+-   Support or help: I think I ran into a problem.
+
+    -   Respond with a quote and CC [@GitLabSupport](http://twitter.com/gitlabsupport). Using a quote means pasting the full URL to the author’s original tweet into your reply. Check to make sure you are also replying directly to their account and not yourself. 
+
+-   GitLab is down!
+
+    -   If there is a known issue, invite them to follow [@GitLabStatus](https://twitter.com/gitlabstatus)
+
+    -   If this is not known, alert the operations team, and thank the reporter. 
