@@ -52,7 +52,7 @@ About using the tools
 
 -   Bug reports: I think I’ve discovered a bug. 
 
-    -   Bug reports are welcome. Direct them to this guide on reporting a big. <https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md> 
+    -   Bug reports are welcome. Direct them to this guide on reporting a bug. <https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md> 
 
 -   Product specific questions: I need some help with X. 
 
@@ -68,6 +68,6 @@ About using the tools
 
 -   GitLab is down!
 
-    -   If there is a known issue, invite them to follow [@GitLabStatus](https://twitter.com/gitlabstatus)
+    -   If there is a known issue, apologize and invite them to follow [@GitLabStatus](https://twitter.com/gitlabstatus)
 
     -   If this is not known, alert the operations team, and thank the reporter. 
