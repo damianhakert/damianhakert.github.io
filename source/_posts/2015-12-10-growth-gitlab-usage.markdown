@@ -11,7 +11,7 @@ image_title: '/images/unsplash/growing.jpg'
 
 GitLab growth and adoption has shifted into hypergrowth, leading with a November 63% increase in month over month downloads. 
 
-<img "/images/blogimages/gitlab-downloads-2015.jpg" alt="GitLab growth showing an increase 63% month on month" />
+![GitLab growth showing an increase 63% month on month](/images/blogimages/gitlab-downloads-2015.jpg "GitLab downloads in 2015")
 
 <!--more-->
 
