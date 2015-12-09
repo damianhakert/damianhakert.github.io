@@ -3,7 +3,6 @@ layout: markdown_page
 title: "GitLab Social Media Accounts"
 ---
 
-
 This document is a guide for GitLab staff who manage social media accounts. 
 
 You are personally responsible for the tweets, likes and replies you post on social media while representing GitLab. Everything you publish is publicly viewable and will be available for a long time even if redacted. Be careful and thoughtful when using the company accounts. 
@@ -12,7 +11,7 @@ You are personally responsible for the tweets, likes and replies you post on soc
 
 There are three GitLab Twitter accounts
 
--   [@GitLab](https://twitter.com/gitlab) -  This is the main account for the project and company, which is managed by staff at GitLab, Inc.
+-   [@GitLab](https://twitter.com/gitlab) -  This is the main account for the project and company, which is managed by staff at GitLab, Inc. Everything tweeted, RTd, or liked from @GitLab also gets promoted to http://about.gitlab.com
 
 -   [@GitLabSupport](https://twitter.com/gitlabsupport) - This account is for managing support questions about the use of GitLab services. This is managed by the GitLab service engineer team.
 
