@@ -44,23 +44,23 @@ About using the tools
 
 -   Feature requests: It would be really cool if GitLab could… 
 
-    -   If this is a first time feature request: Ask them to submit a feature request. 
+    -   If this is a first time feature request: Ask them to submit a feature request at http://feedback.gitlab.com/
 
-    -   If there’s an existing feature request, ask the user to vote on the request. 
+    -   If there’s an existing feature request, ask the user to vote on the request with a link to the feature request. 
 
-    -   If we’re accepting merge requests, tell them. 
+    -   If we’re accepting merge requests, tell them. Often the feature request thread will indicate that as well. 
 
 -   Bug reports: I think I’ve discovered a bug. 
 
-    -   Bug reports are welcome. <https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md>
+    -   Bug reports are welcome. Direct them to this guide on reporting a big. <https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md> 
 
 -   Product specific questions: I need some help with X. 
 
     -   Check if there is existing documentation and reply with a link if there is. 
 
-    -   GitLab.com - Ask the user to add the Issue to our GitLab.com Support Forum.
+    -   GitLab.com - Ask the user to add the Issue to our GitLab.com Support Forum. https://gitlab.com/gitlab-com/support-forum/issues
 
-    -   GitLab CE or CI: ask the user to add the Issue to our CE Issue tracker.
+    -   GitLab CE or CI: ask the user to add the Issue to our CE Issue tracker. https://gitlab.com/gitlab-org/gitlab-ce/issues
 
 -   Support or help: I think I ran into a problem.
 
