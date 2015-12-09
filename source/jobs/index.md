@@ -36,7 +36,7 @@ If you see yourself as a good fit with our company’s goals and team, then plea
 ### Service Engineer
 
 * [Description](https://about.gitlab.com/jobs/service-engineer/)
-* [Apply](https://gitlab.workable.com/jobs/88120/candidates/new)
+* [Apply](https://gitlab.workable.com/jobs/87722/candidates/new)
 
 ### Account Manager
 
