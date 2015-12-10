@@ -25,6 +25,8 @@ It includes the following fixes:
   submodule ([#1989]).
 - **CE/EE:** Enable "paranoid mode" for Devise logins to prevent user
   enumeration ([#2044]).
+- **CE/EE:** Prevent a possible remote code execution (RCE) in `.gitlab-ci.yml`
+  parsing (see below for more details).
 
 [#1936]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1936
 [#1952]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1952
@@ -35,6 +37,24 @@ It includes the following fixes:
 [#2044]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2044
 
 <!-- more -->
+
+## Remote code execution prevention
+
+We found a vulnerability in GitLab where arbitrary Ruby objects could be
+instantiated with arbitrary data, because of an unsafe YAML load. This is the
+same problem that was found in Rails almost three years ago and was heavily
+publicized at that time.
+
+The vulnerability can be turned into remote code execution when an object can be
+instantiated that evaluates one of its data attributes as Ruby code. At the time
+when the issue was found in Rails, Rails contained a number of classes that
+could be abused in this way, making it a RCE vulnerability.
+
+In the version of Rails used in GitLab, these classes no longer meet the
+criteria, and we have been unable to find any other classes that do, which is
+why we currently consider this low-risk. However, someone with enough
+perseverance could likely find another class that can be abused in this way, so
+we recommend everyone to upgrade as soon as possible.
 
 ## Upgrade barometer
 
