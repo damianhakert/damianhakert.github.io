@@ -16,6 +16,7 @@ title: "Sales Process"
 * [Expanding Deals](#expanding)
 * [Managing an Account](managing)
 * [Licences](#licences)
+* [Countries We Do Not Do Business In](#countries)
 * [Helpful Links](#helpful)
 
 
@@ -228,6 +229,9 @@ Aspects to consider when [managing an account](/handbook/sales-process/account_m
 ### Licences <a name="license"></a>
 
 Everything about [lincenses and EE access](/handbook/sales-process/licenses).
+
+### Countries We Do Not Do Business In <a name="countries"></a>
+Iran, Sudan (excluding South Sudan), Syria, North Korea and Cuba
 
 ### Helpful Links <a name="helpful"></a>
 1. [GitLab subscription page](https://about.gitlab.com/subscription/)
