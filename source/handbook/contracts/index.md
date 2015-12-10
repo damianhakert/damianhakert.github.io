@@ -1071,3 +1071,131 @@ Date:
 
 ## GitLab BV NDA and IP Agreements<a name="bv-nda-ip"></a>
 
+## Appendix 1: CONFIDENTIALITY AGREEMENT
+
+The private company **GitLab B.V.**, having its statutory seat at {GitLab BV Address} represented for these purposes by {GitLab Authorized Signatory}, hereinafter referred to as ‘GitLab’;
+and
+
+{EMPLOYEES:**{Name of Contributor}**, (BSN:{Contributor BSN}), born on {Contributor DOB}, currently residing at {Contributor Address}, hereinafter referred to as ‘Contributor’; OR CONTRACTORS: **{Name of Contributor}** acting as an independent contractor located at {Contributor Address}, hereinafter referred to as ‘Contributor’;}  
+
+**Whereas** 
+ 
+* The parties wish to explore the possibility of entering into a mutually beneficial collaborative agreement (“the Purpose”) and for the Purpose, need to disclose confidential information to one another.
+* The parties are willing to disclose the said information on the basis that it is protected as provided in this Agreement.
+
+In consideration of the mutual premises and covenants contained in this Agreement the Disclosing Party and the Receiving Party **have agreed as follows:**  
+
+ 
+1\. This agreement is an indissoluble part of the {Employment or Contractor} Agreement.  
+
+2\. In this Agreement the term “the Disclosing Party” applies to either party as appropriate where it discloses Confidential Information to the other party and the term “the Receiving Party” applies to either party as appropriate where it receives Confidential Information from the other party.  
+
+3\. In this Agreement “Confidential Information” shall mean all information disclosed (whether orally, in writing or by any other means, including without limitation obtained as a result of any demonstration or being allowed access to any premises where the Disclosing Party may carry on business) by the Disclosing Party to the Receiving Party whether prior to the expiration of this contract, or for a period of 24 months after the expiration date of this Agreement, including but not limited to information relating to that party’s operations, processes, plans or intentions, production information, know-how, copyrights, design rights, trade secrets, market opportunities and business affairs, but shall not include any part of such information which:
+  
+   1. is in or comes into the public domain in any way without breach of this Agreement by the Receiving Party or any person to whom it makes disclosure; or  
+   1. the Receiving Party can show:
+      1. was in their possession or known to it by being in its use or being recorded in its files prior to receipt from the Disclosing Party and was not acquired by the Receiving Party from the Disclosing Party under an obligation of confidence; or
+      1. to have been independently developed by the Receiving Party without recourse to the Confidential Information; or  
+   1. the Receiving Party obtains or has available from a source other than the Disclosing Party without breach by the Receiving Party or such source of any obligation of confidentiality or non-use; or  
+   1. it is hereafter furnished by the Disclosing Party to a third party without restriction on disclosure or use; or  
+   1. is disclosed by the Receiving Party with the prior written approval of the Disclosing Party.  
+
+4\. Each of the parties shall be responsible for and primarily liable for any acts or omissions of its associate companies and associates (as defined the Dutch Income and Corporation Taxes Act) and all officers, employees, servants, agents or professional advisers of such person which would have been a breach of this Agreement were it done or omitted to be done by the Receiving Party.  
+
+5\. In relation to Confidential Information received from the other party or from a third party on behalf of the other party, the Disclosing Party and the Receiving Party also agree as follows:
+  
+   1. to treat the Confidential Information in confidence and to use it only for the Purpose;  
+   1. not to copy or write down any part of the Confidential Information except as is reasonably necessary for the Purpose;  
+   1. to disclose the Confidential Information only to such of their directors, employees or third parties as may need to know the Confidential Information for the Purpose;  
+   1. to treat the Confidential Information with the same degree of care and with sufficient protection from unauthorised disclosure as the Receiving Party uses to maintain its own confidential or proprietary information.  
+
+6\. If no business relationship between the Disclosing Party and the Receiving Party shall be established or at the request of the Disclosing Party the Receiving Party shall:
+  
+   1. promptly return all documents, materials and records and all copies of the Confidential Information to the Disclosing Party and permanently delete any such Confidential Information from any electronic storage media or memory;  
+   1. remain bound by clause 4 above for an indefinite period of time from the date of disclosure of the Confidential Information.  
+
+7\. If a party doesn’t enforce a right available to it under this Agreement in any particular instance, then that won’t prevent it from enforcing that right in future or in any other instance.  
+
+8\. Neither party shall assign or transfer any of its rights or obligations under this agreement without the prior written consent of the other party.  
+
+9\. This agreement does not grant any right or licence under either party’s intellectual property rights.  
+
+10\. This Agreement constitutes the entire understanding between the Parties related to the protection of Confidential Information disclosed under it.  
+
+11\. The interpretation construction and effect of this Agreement shall be construed in all respects in accordance with Dutch Law and the parties hereby submit to the exclusive jurisdiction of the Dutch courts.  
+ 
+**Thus agreed upon:**  
+
+**GitLab**  
+
+Signature:  
+
+Name: {GitLab Authorized Signatory}  
+
+Title: {GitLab Signatory Title}  
+
+Date:  
+
+**The Contributor**  
+
+Signature:  
+
+Name: {Name of Contributor}  
+
+Date:  
+
+
+
+
+## APPENDIX 2: INTELLECTUAL PROPERTY AGREEMENT
+ 
+The private company **GitLab B.V.**, having its statutory seat at {GitLab BV Address} represented for these purposes by {GitLab Authorized Signatory}, hereinafter referred to as ‘GitLab’;
+and
+
+{EMPLOYEES:**{Name of Contributor}**, (BSN:{Contributor BSN}), born on {Contributor DOB}, currently residing at {Contributor Address}, hereinafter referred to as ‘Contributor’; OR CONTRACTORS: **{Name of Contributor}** acting as an independent contractor located at {Contributor Address}, hereinafter referred to as ‘Contributor’;}  
+ 
+Both parties are hereinafter jointly referred to as ‘the Parties’.
+ 
+WHEREAS, in consideration of the mutual covenants and promises herein contained, and intending to be legally bound hereby, the Parties agree as follows:  
+ 
+1\. This agreement is an indissoluble part of the {Employment or Contractor} Agreement.  
+
+2\. Contributor represents and warrants that any work performed by Contributor pursuant to their {Employment or Contractor} relationship with GitLab will be their original work and does not invade the copyrights or other proprietary rights of any party, that there are no contractual or other arrangements which could interfere with performing their work, and that Contributor has the full power and authority to grant the rights hereunder. The Parties agree that Contributor’s work has been specially ordered and commissioned by GitLab as a work for hire. Should, under Dutch and/or foreign law, any activities and/or work the Contributor performs and/or creates within the scope of Contributor’s {Employment or Contractor} relationship with GitLab be protected by any intellectual property right(s) (for example, but not limited to, copyrights, (industrial) design rights, patent rights, (semi-conductor) topography rights, plant variety rights, accompanying rights, trade name rights, trade mark rights, database rights:  
+
+   1. GitLab shall be the sole author of Contributor’s work and any work embodying Contributor’s work according to the Intellectual Property Act (Auteurswet) and no rights thereto shall accrue in any manner to Contributor. To the extent that Contributor’s work is not properly characterized as a work made for hire, Contributor grants to GitLab all right, title and interest in Contributor’s work, including all copyright rights, in perpetuity and throughout the world.  
+   1. GitLab shall be the sole owner of all patents, copyrights, trade secrets and other intellectual property rights related to Contributor’s work. Contractor also agrees to waive any and all moral rights relating to the work product, including but not limited to, any and all rights of identification of authorship and any and all rights of approval, restriction or limitation on use, and subsequent modifications.  
+   1. Contributor shall not register him/herself as patent holder, design right holder, trade mark holder and/or holder of any other intellectual property right in respect thereof.  
+   1. Contributor warrants that the intellectual property rights are unencumbered (onbezwaard) and not protected by any third party (intellectual property) rights.  
+
+3\. GitLab is entitled to file / register for intellectual property protection in GitLab's name or the name of its company / undertaking as patent, (industrial) design, trade mark or any other intellectual property right;  
+
+4\. Contributor shall help prepare any papers GitLab considers necessary to secure any patents, copyrights, trademarks or other intellectual property rights and will do all things necessary to enable GitLab to enforce its rights in any such work product, at no charge to GitLab.  
+
+5\. The compensation agreed upon in the {Employment OR Contractor} Agreement sufficiently compensates the Contributor and amounts to a 'fair price' for the transfer of any intellectual property rights.  
+
+6\. Unilateral amendment, choice of law and final provisions
+  
+   1. Any addition to and/or variance from this contract shall only be valid if set out in writing, dated and signed by both parties.  
+   1. The provisions of this contract and any annexes hereto shall be deemed to constitute one entire agreement. No rights may be asserted on the basis of this contract until the GitLab has received a copy of this contract, and any annexes, signed by the Contributor.  
+   1. The interpretation construction and effect of this Agreement shall be construed in all respects in accordance with Dutch Law and the parties hereby submit to the exclusive jurisdiction of the Dutch courts.  
+ 
+
+**Thus agreed upon:**  
+
+**GitLab**  
+
+Signature:  
+
+Name: {GitLab Authorized Signatory}  
+
+Title: {GitLab Signatory Title}  
+
+Date:  
+
+**The Contributor**  
+
+Signature:  
+
+Name: {Name of Contributor}  
+
+Date:  
