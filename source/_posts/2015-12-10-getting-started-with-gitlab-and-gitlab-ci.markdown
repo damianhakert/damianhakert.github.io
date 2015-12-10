@@ -21,12 +21,9 @@ Let's dive in!
 
 ## What is this CI thing?
 
-CI stands for [Continuous Integration][ci-wiki] and has gain a big popularity
-the last years. Together with its sibling [Continuous Delivery][cd-wiki],
-conform the spine of agile software development.
+CI stands for [Continuous Integration][ci-wiki] and has gained in popularity the last few years. Together with its sibling [Continuous Delivery][cd-wiki], they form the spine of agile software development.
 
-With Continuous Integration developers are expected to integrate their work
-frequently (usually daily) in a shared repository.
+With Continuous Integration developers are expected to integrate their work frequently (usually daily) in a shared repository.
 
 - testing
 - building
@@ -38,12 +35,12 @@ read the [article written by Martin Fowler][ci-fowler] almost a decade ago.
 
 What started as a side project [three years ago][ci-first-post], has now
 become one of GitLab's key features. Back then, it was a separate application
-that was talking to GitLab via web hooks. Now, starting from GitLab 8.0,
+that talked to GitLab via web hooks. Now, starting from GitLab 8.0,
 GitLab CI has been [fully integrated with GitLab itself][8-post]. No more need
 to setup and maintain another application, which means less work for your Ops
 team.
 
-The statuses for each build are exposed in GitLab all over the place. You can
+The statuses for each build are exposed in the GitLab UI. You can
 see whether a build succeeded, failed, canceled or skipped within a single
 Merge Request or commit, or at the Merge Requests and commits pages.
 
