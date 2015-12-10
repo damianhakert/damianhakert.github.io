@@ -6,8 +6,8 @@ title: "Contracts"
 * [How to use this page to prepare a contract](#how-to-use)
 * Employees and Contractors to GitLab Inc.
    * [GitLab Inc At-Will Employee Offer Letter](#inc-employee)
-   * [Independent Contractor Services Agreement](#inc-contractor)
-   * [Proprietary Information and Assignment Agreement](#inc-PIAA)
+   * [GitLab Inc Independent Contractor Services Agreement](#inc-contractor)
+   * [GitLab Inc Proprietary Information and Assignment Agreement](#inc-PIAA)
 * Employees and Contractors to GitLab BV
    * [GitLab BV Employment Contract (temporary or indefinite)](#bv-employee)
    * [GitLab BV Contractor Agreement](#bv-contractor)
@@ -168,7 +168,7 @@ Signature of:{GitLab Authorized Signatory}
 Proprietary Information and Assignment Agreement
 
 
-## Independent Contractor Services Agreement<a name="inc-contractor"></a>
+## GitLab Inc Independent Contractor Services Agreement<a name="inc-contractor"></a>
 *Fields to fill out:*
 
 * {Name of Contributor}
@@ -956,9 +956,9 @@ Date:
 * {Remove for Contractors not based in NL: 10.6 Contributor will provide GitLab 
 with a copy of Contributor's valid Declaration of Independent Contractor Status 
 with respect to income tax (*VAR WUO-verklaring*) and will provide a new declaration after its expiration.  }
-* {EMPLOYEES:{Name of Contributor}, (BSN:{Contributor BSN}), born on {Contributor 
+* {EMPLOYEES:**{Name of Contributor}**, (BSN:{Contributor BSN}), born on {Contributor 
 DOB}, currently residing at {Contributor Address}, hereinafter referred to as 
-‘Contributor’; OR CONTRACTORS: {Name of Contributor} acting as an independent 
+‘Contributor’; OR CONTRACTORS: **{Name of Contributor}** acting as an independent 
 contractor located at {Contributor Address}, hereinafter referred to as ‘Contributor’;}
 * {GitLab BV Address}
 * {GitLab Authorized Signatory}
@@ -1198,4 +1198,4 @@ Signature:
 
 Name: {Name of Contributor}  
 
-Date:  
+Date:
