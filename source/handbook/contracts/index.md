@@ -1100,8 +1100,8 @@ to that party’s operations, processes, plans or intentions, production informa
 know-how, copyrights, design rights, trade secrets, market opportunities and business 
 affairs, but shall not include any part of such information which:  
 &nbsp;&nbsp;&nbsp;a. is in or comes into the public domain in any way without breach of this Agreement by the Receiving Party or any person to whom it makes disclosure; or  
-&nbsp;&nbsp;&nbsp;b. the Receiving Party can show:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. was in their possession or known to it by being in its use or being recorded in its files prior to receipt from the Disclosing Party and was not acquired by the Receiving Party from the Disclosing Party under an obligation of confidence; or
+&nbsp;&nbsp;&nbsp;b. the Receiving Party can show:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. was in their possession or known to it by being in its use or being recorded in its files prior to receipt from the Disclosing Party and was not acquired by the Receiving Party from the Disclosing Party under an obligation of confidence; or  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. to have been independently developed by the Receiving Party without recourse to the Confidential Information; or  
 &nbsp;&nbsp;&nbsp;c. the Receiving Party obtains or has available from a source other than the Disclosing Party without breach by the Receiving Party or such source of any obligation of confidentiality or non-use; or  
 &nbsp;&nbsp;&nbsp;d. it is hereafter furnished by the Disclosing Party to a third party without restriction on disclosure or use; or  
