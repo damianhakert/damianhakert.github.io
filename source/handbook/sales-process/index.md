@@ -16,7 +16,7 @@ title: "Sales Process"
 * [Expanding Deals](#expanding)
 * [Managing an Account](managing)
 * [Licences](#licences)
-* [Countries We Do Not Do Business In](#countries)
+* [Export Control Classification, and Countries We Do Not Do Business In](#export-control)
 * [Helpful Links](#helpful)
 
 
@@ -230,8 +230,17 @@ Aspects to consider when [managing an account](/handbook/sales-process/account_m
 
 Everything about [lincenses and EE access](/handbook/sales-process/licenses).
 
-### Countries We Do Not Do Business In <a name="countries"></a>
-Iran, Sudan (excluding South Sudan), Syria, North Korea and Cuba
+### Export Control Classification, and Countries We Do Not Do Business In <a name="export-control"></a>
+
+GitLab's Export Control Classification (or ECCN) is 5D002.c.1.  
+This means that GitLab source code can be exported and re-exported under the 
+authority of license exception TSU of section [740.13(e)](https://www.bis.doc.gov/index.php/forms-documents/doc_view/986-740) of the export administration regulations (EAR).  
+
+Per [740.13(e)(2)(ii)](https://www.bis.doc.gov/index.php/forms-documents/doc_view/986-740) of the EAR, there are restrictions on "Any knowing export or reexport 
+to a country listed in [Country Group E:1 in Supplement No. 1 to part 740 of the EAR](https://www.bis.doc.gov/index.php/forms-documents/doc_download/944-740-supp-1)".  
+
+As a consequence of this classification, we currently do not do business in:  
+Iran, Sudan (excluding South Sudan), Syria, North Korea, and Cuba.
 
 ### Helpful Links <a name="helpful"></a>
 1. [GitLab subscription page](https://about.gitlab.com/subscription/)
