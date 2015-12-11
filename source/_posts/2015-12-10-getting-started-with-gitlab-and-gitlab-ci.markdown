@@ -11,9 +11,9 @@ image_title: '/images/unsplash/FILENAME.jpg'
 This is the start of a series of posts to get you started with GitLab and
 GitLab CI.
 
-In this first post we will explain what CI is, why and how to use it
-effectively with GitLab and we will briefly explore a higher overview of the
-components that make GitLab and GitLab CI work together.
+In this first post we will explain what CI is, why use it and we will briefly
+explore a higher overview of the components that make GitLab and GitLab CI work
+together.
 
 Let's dive in!
 
@@ -21,15 +21,30 @@ Let's dive in!
 
 ## What is this CI thing?
 
-CI stands for [Continuous Integration][ci-wiki] and has gained in popularity the last few years. Together with its sibling [Continuous Delivery][cd-wiki], they form the spine of agile software development.
+CI stands for [Continuous Integration][ci-wiki] and has gained in popularity
+the last few years. Together with [Continuous Delivery][cd-wiki], they form the
+spine of modern agile software development.
 
-With Continuous Integration developers are expected to integrate their work frequently (usually daily) in a shared repository.
+Martin Fowler described this approach in [his article][ci-fowler] as:
 
-- testing
-- building
+> Continuous Integration is a software development practice where members of a
+> team integrate their work frequently, usually each person integrates at least
+> daily - leading to multiple integrations per day. Each integration is
+> verified by an automated build (including test) to detect integration errors
+> as quickly as possible.
 
-To grasp a better understanding on Continuous Integration we encourage you to
-read the [article written by Martin Fowler][ci-fowler] almost a decade ago.
+The benefits of Continuous Integration are huge when automation plays an
+integral part of your workflow.
+
+They are many applications in the field which try to tackle this practice. The
+majority of them are either closed source making you rely on external sources
+(meaning a single point of failure), or need a lot of configuration just to set
+up, let alone the millions of plugins you have to install in order to bring it
+to your needs.
+
+Would you rather have a CI service tightly integrated with your favorite code
+management tool with next to zero configuration? If so, you will love GitLab
+CI!
 
 ## Meet GitLab CI
 
@@ -37,36 +52,43 @@ What started as a side project [three years ago][ci-first-post], has now
 become one of GitLab's key features. Back then, it was a separate application
 that talked to GitLab via web hooks. Now, starting from GitLab 8.0,
 GitLab CI has been [fully integrated with GitLab itself][8-post]. No more need
-to setup and maintain another application, which means less work for your Ops
-team.
+to setup and maintain another application, which means less work for you or
+your Ops team.
 
-The statuses for each build are exposed in the GitLab UI. You can
-see whether a build succeeded, failed, canceled or skipped within a single
+GitLab CI is enabled by default on new projects, so you can start using its
+features right away. All you need is a file called `.gitlab-ci.yml` (where you
+describe how the build should run) placed in the root directory of your git
+project, and a configured Runner to perform the actual build.
+
+The statuses for each build are exposed in the GitLab UI and you can see
+whether a build succeeded, failed, canceled or skipped within a single
 Merge Request or commit, or at the Merge Requests and commits pages.
 
-Read more about GitLab CI at its [official webpage][ci-page].
+Each project comes with a Builds page where you can follow the output of each
+build, see the commit that introduced it and other relevant information.
+
+There is one last component without which, most of the features above wouldn't
+have been possible. It does all the heavy work by performing the actual builds.
+
+Enter GitLab Runner.
 
 ## GitLab Runner
 
-- multi-platform
+GitLab Runner is the missing piece that leverages the power of GitLab CI. A
+Runner is responsible for the actual build and can be attached to one or many
+projects. It talks to the GitLab CI API, reads `.gitlab-ci.yml` and follows the
+steps defined in that file.
+
+GitLab Runner is:
+
+- open source
+- multi-platform (Linux, OSX, Windows, *BSD, Docker)
 - easy to install
 - no other dependencies
-- can use docker
+- can use Docker or your Shell as the build environment
 
-Roadmap
-
-## How GitLab CI works
-
-Three key components:
-
-- GitLab
-- GitLab Ci
-- GitLab Runner
-
-Explore:
-
-- .gitlab-ci.yml
-- jobs vs builds
+If your tests rely on several components, you can split them up
+to multiple jobs that run in parallel, minimizing the time a build is run.
 
 ## What the future holds
 
@@ -77,14 +99,18 @@ Some notable features to be added are listed in the issues below:
 - [GitLab Pipeline][issue-3743]
 - [GitLab Deploy][issue-3286]
 
+As always, you can visit our [direction page](/direction) and take a taste of
+the forthcoming features.
+
 ## Conclusion
 
-By now you should have an overview of GitLab CI's architecture, its
-components and how all these work together.
+By now you should have an overview of what GitLab CI is and why you should
+start using it.
 
 If you are eager to give it a go be sure to visit our [quick start guide][].
 
-In the next post we will explore [TODO].
+In the following posts we will explore how to use GitLab CI to test your
+projects in specific languages such as PHP.
 
 [ci-wiki]: https://en.wikipedia.org/wiki/Continuous_integration
 [cd-wiki]: https://en.wikipedia.org/wiki/Continuous_delivery
