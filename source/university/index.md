@@ -139,7 +139,7 @@ Please submit a merge request for suggestions.
 - [Gitlab Workshop Part 3: Basics of Git and Gitlab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-3/material/)
 - [Gitlab Workshop Part 4: Basics of Git and Gitlab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-4/material/)
 - [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
-- [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/cmp3000/webcomponents/jsp/docshow/closewindow.jsp)
+- [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=ae7b72c61347030e8aa75328ed4b8660)
 - [Amazon's transition to Continuous Delivery](https://www.youtube.com/watch?v=esEFaY0FDKc)
 - [3rd party tool comparision](http://technologyconversations.com/2015/10/16/github-vs-gitlabs-vs-bitbucket-server-formerly-stash/)
 - [State of Dev Ops 2015 Report by Puppet Labs](https://puppetlabs.com/sites/default/files/2015-state-of-devops-report.pdf) Insightful Chapters to understand the Impact of Continuous Delivery on Performance (Chapter 4), the Application Architecture (Chapter 5) and How IT Managers can help their teams win (Chapter 6).
@@ -148,3 +148,4 @@ Please submit a merge request for suggestions.
 - [2015 Venture Beat article - Actually, Open Source is Eating the World](http://venturebeat.com/2015/12/06/its-actually-open-source-software-thats-eating-the-world/)
 - [Customer Use-Cases](https://about.gitlab.com/handbook/use-cases/)
 - [Why Git and GitLab slide deck] (https://docs.google.com/a/gitlab.com/presentation/d/1RcZhFmn5VPvoFu6UMxhMOy7lAsToeBZRjLRn0LIdaNc/edit?usp=drive_web)
+- [Jira Integration Demo] (https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=44b548147a67ab4d8a62274047146415)
