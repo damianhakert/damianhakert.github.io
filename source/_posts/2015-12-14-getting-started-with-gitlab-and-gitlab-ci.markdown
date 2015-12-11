@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Getting started with GitLab and GitLab CI"
-date: 2015-12-10
+date: 2015-12-14
 comments: true
 author: Achilleas Pipinellis
 author_twitter: _axil
-image_title: '/images/unsplash/FILENAME.jpg'
+image_title: '/images/unsplash/stairwaycompressed.jpg'
 ---
 
 This is the start of a series of posts to get you started with GitLab and
@@ -122,7 +122,7 @@ issues below:
 - [GitLab Pipeline][issue-3743]
 - [GitLab Deploy][issue-3286]
 
-As always, you can visit our [direction page](/direction) and take a taste of
+As always, you can visit our [direction page](/direction) and get a taste of
 the forthcoming features.
 
 ## Conclusion
