@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "DevOps Engineer Responsibilities and Tasks"
+title: "DevOps Engineer"
 ---
 
 ## Responsibilities
