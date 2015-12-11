@@ -125,7 +125,7 @@ issues below:
 As always, you can visit our [direction page](/direction) and get a taste of
 the forthcoming features.
 
-## Conclusion
+## What's next? 
 
 By now you should have an overview of what GitLab CI is and why you should
 start using it.
