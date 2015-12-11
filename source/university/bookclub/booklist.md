@@ -7,9 +7,6 @@ title: "Books"
 
 List of books and resources, that may be worth reading.
 
-GitLab staff can join in our casual [book club](club.html)
-
-
 ### Papers
 
 1.  **The Humble Programmer**
