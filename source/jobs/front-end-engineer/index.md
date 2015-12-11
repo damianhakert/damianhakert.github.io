@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Frontend Engineer Responsibilities and Requirements"
+title: "Frontend Engineer"
 ---
 
 ## Responsibilities
