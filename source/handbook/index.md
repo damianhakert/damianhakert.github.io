@@ -311,3 +311,18 @@ exception of NDAs covering a physical visit of another organization.
 1. Visit http://localhost:4000 in your browser
 1. To edit the site locally you'll need to install a text editor. We recommend
    [Sublime](http://www.sublimetext.com/2).
+
+### Test if all URL links in a page are valid
+
+Until this is automated in CI, a quick way to see if there are any invalid
+links inside a page is the following.
+
+1. Install the [check-my-links][] extension in Chrome (no other browsers
+   support unfortunately)
+1. Open the page you wish to preview (see previous step)
+1. Click the newly installed extension in the upper right corner of Chrome
+
+A pop-up window will open and tell you how many links, if any, are invalid.
+Fix any invalid links and ideally any warnings, commit, push back, test again.
+
+[check-my-links]: https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf/
