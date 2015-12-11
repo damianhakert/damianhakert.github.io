@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Developer Responsibilities and Tasks"
+title: "Developer"
 ---
 
 At GitLab, developers are highly independent and self-organized individual 
