@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Account Manager Responsibilities and Tasks"
+title: "Account Manager"
 ---
 
 

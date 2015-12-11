@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Chief Operating Officer Responsibilities and Tasks"
+title: "Chief Operating Officer"
 ---
 
 The COO reports to the CEO.

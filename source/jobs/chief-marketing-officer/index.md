@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Chief Marketing Officer Responsibilities and Tasks"
+title: "Chief Marketing Officer"
 ---
 
 ## Responsibilities
