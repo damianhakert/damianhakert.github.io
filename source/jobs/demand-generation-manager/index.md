@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Demand Generation Manager Responsibilities and Tasks"
+title: "Demand Generation Manager"
 ---
 
 ## Responsibilities
