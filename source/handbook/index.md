@@ -183,16 +183,17 @@ Its main purpose is to allow those outside of the office a view into the space a
 When you call in to the beam your face will appear on the screen (so make sure your webcam 
 works) and you can drive the robot around the office. It simulates being in the space without 
 physically being there. It is really cool and everyone should try it and have fun with it.
- 
-* Beamy times: 8am until 6pm Pacific time and during all company events, for other times 
-please @mention sytse in the #valley channel to see if it is OK. It is on auto connect 
+
+* You need an invite email to connect and to download a desktop client, please @mention Emily in the #general channel if you don't have the invite yet.
+* Beamy times: 8am until 6pm Pacific time on workdays and during all company events, for other times 
+please @mention Sytse in the #valley channel to see if it is OK. It is on auto connect 
 so you'll beam right in.
 * Once you are sent an invite you can beam in at any time and drive around our beam. 
 Don’t forget to park it back on the charger when you are done. You can do so by driving 
 up to the charger, when you see a green outline press AND HOLD 'p' until it's parked. 
 Make sure it is charging, otherwise try again.
 * More info can be found at https://www.suitabletech.com/
-* Please report any questions or issues you have about the beam by @mentioning emily in the #general channel.
+* Please report any questions or issues you have about the beam by @mentioning Emily in the #general channel.
 
 <h2 id="intellectual-property">Intellectual Property</h2>
 
