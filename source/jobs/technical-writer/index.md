@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Technical Writer Responsibilities and Tasks"
+title: "Technical Writer"
 ---
 
 ## Responsibilities
