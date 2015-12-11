@@ -47,6 +47,7 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 - [Elasticsearch or Hound (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
 - [GitLab RE for readonly secundary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
 - [GitLab Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
+- [Group contribution statistics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/109)
 
 ### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5) - February 22nd
 
@@ -55,6 +56,8 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 - [Revert merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 - [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 - [Focus Dashboard](https://gitlab.com/gitlab-org/gitlab-ce/issues/3467)
+- [Management dashboard for CD (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
+- [Management reporting (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
 
 ## Wishlist
 
