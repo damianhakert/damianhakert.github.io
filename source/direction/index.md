@@ -59,6 +59,10 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 - [Management dashboard for CD (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
 - [Management reporting (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
 
+### [8.6](https://gitlab.com/groups/gitlab-org/milestones/8-6?title=8.6) - March 22nd
+
+- [External users](https://gitlab.com/gitlab-org/gitlab-ce/issues/4009)
+
 ## Wishlist
 
 Below you will find several things we'd really like to see in GitLab.
