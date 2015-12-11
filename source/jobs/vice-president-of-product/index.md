@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Vice President of Product Responsibilities and Tasks"
+title: "Vice President of Product"
 ---
 
 The VP of Product reports to the CEO and is an individual contributor.
