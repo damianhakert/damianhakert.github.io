@@ -37,7 +37,7 @@ The benefits of Continuous Integration are huge when automation plays an
 integral part of your workflow.
 
 They are many applications in the field which try to tackle this practice. The
-majority of them are either closed source making you rely on external sources
+majority of them are either closed source, making you rely on external sources
 (meaning a single point of failure), or need a lot of configuration just to set
 up, let alone the millions of plugins you have to install in order to bring it
 to your needs.
@@ -56,7 +56,8 @@ to setup and maintain another application, which means less work for you or
 your Ops team.
 
 GitLab CI is enabled by default on new projects, so you can start using its
-features right away. All you need is a file called `.gitlab-ci.yml` (where you
+features right away. All you need is a file called
+[.gitlab-ci.yml](/2015/06/08/implementing-gitlab-ci-dot-yml/) (where you
 describe how the build should run) placed in the root directory of your git
 project, and a configured Runner to perform the actual build.
 
@@ -75,24 +76,46 @@ Enter GitLab Runner.
 ## GitLab Runner
 
 GitLab Runner is the missing piece that leverages the power of GitLab CI. A
-Runner is responsible for the actual build and can be attached to one or many
-projects. It talks to the GitLab CI API, reads `.gitlab-ci.yml` and follows the
-steps defined in that file.
+Runner is responsible for the actual build and can be configured to be used
+with one or many projects. It talks to the GitLab CI API, reads `.gitlab-ci.yml`,
+follows the steps defined in that file and sends the results to GitLab CI.
 
-GitLab Runner is:
+Some of the key features of GitLab Runner are:
 
-- open source
-- multi-platform (Linux, OSX, Windows, *BSD, Docker)
-- easy to install
-- no other dependencies
-- can use Docker or your Shell as the build environment
+* [Is open source][runner-repo]
+* Is written in Go and distributed as a single binary without any other
+	requirements
+* Works on Linux, OS X, *BSD and Windows (and anywhere you can run Docker)
+* Easy installation as a service for Linux, OSX and Windows
+* [Linux users can install it using deb or rpm packages][runner-linux-repo]
+* Easy to use setup with support for Docker, Docker with SSH, Parallels or
+  plain SSH running environments
+* Allows to run:
+  - multiple jobs concurrently
+  - use multiple tokens with multiple servers (even per-project)
+  - limit number of concurrent jobs per-token
+* Jobs can be run:
+  - locally using your shell
+  - using Docker containers
+  - using Docker containers and executing jobs over SSH
+  - by connecting to a remote SSH server
+* Supports Bash, Windows Batch and Windows PowerShell
+* Allows to customize the running environment per job
+* Automatic configuration reload without restart
+* Enables caching of Docker containers
+* List of files and directories can be attached to build after success
+  (the so-called `artifacts` feature)
 
-If your tests rely on several components, you can split them up
-to multiple jobs that run in parallel, minimizing the time a build is run.
+As you can see, there is much flexibility on installing and configuring
+a GitLab Runner.
 
 ## What the future holds
 
-Some notable features to be added are listed in the issues below:
+We will keep pushing forward in making GitLab CI a breeze to use and extend it
+to adapt to present and future technologies of the CI field.
+
+Some notable features that we would like to see happening are listed in the
+issues below:
 
 - [Pass CI build artifacts between stages][issue-3423]
 - [GitLab container registry][issue-3299]
@@ -123,3 +146,5 @@ projects in specific languages such as PHP.
 [issue-3743]: https://gitlab.com/gitlab-org/gitlab-ce/issues/3743
 [issue-3286]: https://gitlab.com/gitlab-org/gitlab-ce/issues/3286
 [quick start guide]: http://doc.gitlab.com/ce/ci/quick_start/
+[runner-repo]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner
+[runner-linux-repo]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/linux-repository.md
