@@ -7,7 +7,6 @@ title: "Books"
 
 List of books and resources, that may be worth reading.
 
-
 ### Papers
 
 1.  **The Humble Programmer**
