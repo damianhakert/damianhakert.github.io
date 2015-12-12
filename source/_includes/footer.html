@@ -1,17 +1,17 @@
 <div id="footer" class="footer">
   {% if page.layout != "default" and page.layout != "markdown_page" %}
     <div class="source-link">
-      This page is generated from <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/_posts/{{ page.filename }}">a public file on GitLab.com</a> – merge requests with improvement are very welcome.
+      This page is generated from <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/_posts/{{ page.filename }}">a public file on GitLab.com</a> – merge requests with improvement are <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md">very welcome</a>.
       {% include cc_license.html %}
     </div>
   {% elsif page.layout != "default" %}
   <div class="source-link">
-    This page is generated from <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/{{ page.path }}">a public file on GitLab.com</a> – merge requests with improvements are very welcome.
+    This page is generated from <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/{{ page.path }}">a public file on GitLab.com</a> – merge requests with improvements are <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md">very welcome</a>.
     {% include cc_license.html %}
   </div>
   {% else %}
     <div class="source-link">
-      This page is generated from <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source{{ page.url }}">a public file on GitLab.com</a> – merge requests with improvements are very welcome.
+      This page is generated from <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source{{ page.url }}">a public file on GitLab.com</a> – merge requests with improvements are <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md">very welcome</a>.
       {% include cc_license.html %}
     </div>
   {% endif %}
