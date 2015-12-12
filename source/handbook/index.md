@@ -44,7 +44,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 
 <h2 id="general-guidelines">General Guidelines</h2>
 
-1. We value results, transparency, sharing, freedom, efficiency, collaboration, directness, kindness, diversity, quirkiness, boring solutions, and interesting people.
+1. We value results, transparency, sharing, freedom, efficiency, frugality, collaboration, directness, kindness, diversity, quirkiness, boring solutions, and interesting people.
 1. We try to channel our inner Ben Horowitz by being [both straightforward and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b).
 1. Working at GitLab Inc. is cooperating with the most talented people you've ever worked with, being the **most productive** you'll ever be, creating software that is helping the most people you've ever reached.
 1. We recognize that inspiration is perishable, if you’re **enthusiastic** about something that generates great results in relatively little time feel free to work on that.
@@ -178,19 +178,19 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 1. Read our [Documentation Styleguide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc_styleguide.md) for more information when writing documentation.
 
 <h3 id="beamy-guidelines">Beamy Guidelines</h3>
-Beamy is our company conference call robot. It lives in the San Francisco Howard St. office. 
-Its main purpose is to allow those outside of the office a view into the space and people. 
-When you call in to the beam your face will appear on the screen (so make sure your webcam 
-works) and you can drive the robot around the office. It simulates being in the space without 
+Beamy is our company conference call robot. It lives in the San Francisco Howard St. office.
+Its main purpose is to allow those outside of the office a view into the space and people.
+When you call in to the beam your face will appear on the screen (so make sure your webcam
+works) and you can drive the robot around the office. It simulates being in the space without
 physically being there. It is really cool and everyone should try it and have fun with it.
 
 * You need an invite email to connect and to download a desktop client, please @mention Emily in the #general channel if you don't have the invite yet.
-* Beamy times: 8am until 6pm Pacific time on workdays and during all company events, for other times 
-please @mention Sytse in the #valley channel to see if it is OK. It is on auto connect 
+* Beamy times: 8am until 6pm Pacific time on workdays and during all company events, for other times
+please @mention Sytse in the #valley channel to see if it is OK. It is on auto connect
 so you'll beam right in.
-* Once you are sent an invite you can beam in at any time and drive around our beam. 
-Don’t forget to park it back on the charger when you are done. You can do so by driving 
-up to the charger, when you see a green outline press AND HOLD 'p' until it's parked. 
+* Once you are sent an invite you can beam in at any time and drive around our beam.
+Don’t forget to park it back on the charger when you are done. You can do so by driving
+up to the charger, when you see a green outline press AND HOLD 'p' until it's parked.
 Make sure it is charging, otherwise try again.
 * More info can be found at https://www.suitabletech.com/
 * Please report any questions or issues you have about the beam by @mentioning Emily in the #general channel.
