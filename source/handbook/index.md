@@ -192,6 +192,7 @@ so you'll beam right in.
 Don’t forget to park it back on the charger when you are done. You can do so by driving 
 up to the charger, when you see a green outline press AND HOLD 'p' until it's parked. 
 Make sure it is charging, otherwise try again.
+* If you don't use headphones be careful about your volume and microphone placement, it might start singing, if so immediately mute your microphone and switch to headphones.
 * More info can be found at https://www.suitabletech.com/
 * Please report any questions or issues you have about the beam by @mentioning Emily in the #general channel.
 
