@@ -46,17 +46,22 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 - [Import GitHub wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
 - [Elasticsearch or Hound (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
 - [GitLab RE for readonly secundary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
+- [GitLab Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
+- [Group contribution statistics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/109)
 
 ### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5) - February 22nd
 
 - [Notification System](https://gitlab.com/gitlab-org/gitlab-ce/issues/2425)
 - [HA Omnibus packages (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
 - [Revert merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
+- [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 - [Focus Dashboard](https://gitlab.com/gitlab-org/gitlab-ce/issues/3467)
+- [Management dashboard for CD (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
+- [Management reporting (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
 
-### [9.0](https://gitlab.com/groups/gitlab-org/milestones/9-0?title=9.0) - ?
+### [8.6](https://gitlab.com/groups/gitlab-org/milestones/8-6?title=8.6) - March 22nd
 
-- [Nested groups](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772)
+- [External users](https://gitlab.com/gitlab-org/gitlab-ce/issues/4009)
 
 ## Wishlist
 
@@ -70,7 +75,7 @@ We very much welcome contributions that implement any of these things.
 ### Major Wins
 
 - [Translations](http://feedback.gitlab.com/forums/176466-general/suggestions/3337748-internationalization-add-translations) with the help of the rest of the community and Perforce
-- [Subgroups / Directories](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772) - Current proposal is to have Directories
+- [Nested Groups](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772)
 - [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 - [GitLab Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
 - [GitLab Autoscale](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/318)

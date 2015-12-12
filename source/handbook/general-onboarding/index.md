@@ -2,13 +2,12 @@
 layout: markdown_page
 title: "GitLab Onboarding"
 ---
-## Onboarding Topics
+## General Onboarding Topics
 * [Master Checklist for Onboarding of New Hires](#checklist)
 * [Onboarding Topics That Apply to Everyone](#everyone)
   * [General](#general)
   * [Security](#security)
   * [Git Quiz!](#quiz)
-* [Onboarding Topics for Developers](#developers)
 * [Offboarding](#offboarding)
 
 ## Master Checklist for Onboarding of New Hires <a name="checklist"></a>
@@ -27,7 +26,6 @@ lines of the master checklist, paste the private email address of the hire in
 there and /cc @rspeicher, @jacobvosmaer, @patricio, and @sytse.
 * [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
 * [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @ HANDLE), and People Ops is tackled by (FILL IN WITH @ HANDLE).
-* [ ] Hiring manager: cc new team member on the issue once they have a dev.GitLab.org account.
 * [ ] Robert/Jacob/CEO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
 * [ ] Robert/Jacob/CEO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 * [ ] Hiring manager: send an email to company address 'Please read https://about.gitlab.com/handbook/ and the relevant onboarding pages that are linked from there and let me know if you have any questions.'
@@ -52,8 +50,6 @@ welcome email to the employee at their work email on their first date of hire.
 * [ ] New employee: submit a completed [New Employee Personal Information Form](https://docs.google.com/document/d/1T1c2dU1l44mu1Feg6fQHxF1NPB1i8e_8C-GZAq9FlD8/edit) to HR@gitlab.com
 * [ ] New employee: read through the [New Hire Benefits Guide](https://drive.google.com/a/gitlab.com/file/d/0B0dixQ9qzgilNlN0MnNFS29xWnB2SjNWVUk3dUV2aWlhejVR/view?usp=sharing). This will go over medical, dental, vision and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
 * [ ] People Ops: Set up new hire training with TriNet (If necessary).
-* [ ] People Ops: Add new employees to [Inc payroll](https://docs.google.com/document/d/1osAcaVUKU6v3GbuenygxSMqlFBuX7IxF5dI4AaxdeQc/edit#heading=h.8vrvk3l6lfzl).
-
 
 #### For GitLab BV employees only
 
@@ -70,15 +66,16 @@ welcome email to the employee at their work email on their first date of hire.
 * [ ] Hiring manager: /cc the new user in the organization issue with this checklist that was created for them.
 * [ ] Robert/Jacob/CEO: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] Robert/Jacob/CEO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
+* [ ] Robert/Jacob/CEO: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
 * [ ] People Ops: Invite to team meeting
 * [ ] People Ops: Send [People Information sheet](https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0) and instruct to return answers via email or slack
 * [ ] People Ops: [Add to 1Password](https://gitlab.1password.com/admin/people/members) and create an item for new hire in profiles vault
 * [ ] People Ops: Put People Information into Profiles in 1Password
 * [ ] New team member: Register on 1Password by clicking [this link](https://gitlab.1password.com/teamjoin/invitation/J2KWH3CJDRFA7KTFDVVXXDSCMY)
 and then ping @rspeicher to confirm your account.
-* [ ] New team member: Set up [secure passwords per the handbook.](https://about.gitlab.com/handbook/general-onboarding/#security)
+* [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
 * [ ] People Ops: Add to Dropbox folders (if necessary)
-* [ ] People Ops: Invite to autoconnect on Beamy (https://docs.google.com/a/gitlab.com/document/d/1pR-pMrfrt4ERAjP_AjP49Lj0SI28vR1kHMfN4iInHCA/edit?usp=sharing)
+* [ ] People Ops: Invite to autoconnect on [Beamy](https://about.gitlab.com/handbook#beamy-guidelines).
 * [ ] People Ops: Order business cards for new team member.
 * [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo.
 * [ ] CEO: Add team member to the GitLab availability calendar.
@@ -160,110 +157,13 @@ The most common Issues are created in the following projects:
 
 ### Security<a name="security"></a>
 
-See the [security handbook](/handbook/security).
+See the [security handbook](https://about.gitlab.com/handbook/security).
 
 ### Quiz<a name="quiz"></a>
 Employees should answer GitLab quiz questions in the first 2 weeks of working in
 the company. If the answers are not accurate, you may retest once:
 <a href="https://about.gitlab.com/handbook/questions/">GitLab Quiz.</a>
 Please schedule a call with your hiring manager.</li>
-
-## Onboarding Topics for Developers<a name=#developers></a>
-Awesome! You're about to become a GitLab developer!
-Make sure you've checked out our [handbook](https://about.gitlab.com/handbook)
-beforehand, so you get a feeling of how we work at GitLab. Below you'll find
-everything you need to start developing.
-If something is missing, add it (as goes with everything at GitLab)!
-
-### GitLab instances
-
-We have two GitLab instances that we use primarily:
-
-#### dev.gitlab.org
-
-This server is only accessible to people from GitLab the company.
-This is the instance we use for customers development.
-In addition, all our internal (company) issues are found here as well.
-This server is updated from master every night, so we quickly see if we broke something.
-
-Often referred to as `dev`.
-
-#### GitLab.com
-
-This is the SaaS of GitLab. Everyone can host their repository for free here and this is where the majority of open source contributions come in.
-If you can, do you development and create your merge requests here.
-
-#### Other instances
-
-Many developers set up their own private GitLab instance somewhere, for instance to test and work with LDAP or Active Directory, give demos and other reasons.
-
-### Getting started with GitLab development
-
-To start development, simply follow the instructions at the [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit).
-
-### GitLab Repositories
-
-Almost all repos are available on both GitLab.com as well as dev.
-For the most popular projects, you can also find them on GitHub.com, this makes it easier for people to contribute.
-
-#### GitLab Community Edition (CE)
-
-This is the community edition of GitLab. Most of the development happens here, then gets merged into GitLab EE once in a while. If you do something general, that doesn't restricts itself to EE, do it in GitLab CE.
-
-- [dev.gitlab.org/gitlab/gitlabhq]
-- [gitlab.com/gitlab-org/gitlab-ce]
-- [https://github.com/gitlabhq/gitlabhq](https://github.com/gitlabhq/gitlabhq)
-
-#### GitLab Enterprise Edition (EE)
-
-This is _not_ an open source project, but we made the source code available for viewing and contributions. It requires a license key to be used (since GitLab 7.11 EE).
-
-It exists in three places. The subscribers repository is deprecated and used to be
-used as a private repository for customers:
-
-- [dev.gitlab.org/gitlab/gitlab-ee] Most development in EE happens here.
-- [gitlab.com/gitlab-org/gitlab-ee] Public repo of EE.
-- [gitlab.com/subscribers/gitlab-ee] Deprecated private and no longer update repo.
-
-#### GitLab Continuous Integration (CI)
-
-GitLab CI is the CI tool that runs the tests in your repositories, does deploys and anything you program it to do. It comes bundled with every GitLab package.
-
-Available on both instances:
-
-- [https://dev.gitlab.org/gitlab/gitlab-ci](https://dev.gitlab.org/gitlab/gitlab-ci)
-- [https://gitlab.com/gitlab-org/gitlab-ci](https://gitlab.com/gitlab-org/gitlab-ci)
-- [https://github.com/gitlabhq/gitlab-ci](https://github.com/gitlabhq/gitlab-ci)
-
-#### GitLab Shell
-
-GitLab Shell handles git commands for GitLab. It's an essential part of GitLab.
-
-- [https://dev.gitlab.org/gitlab/gitlab-shell](https://dev.gitlab.org/gitlab/gitlab-shell)
-- [https://gitlab.com/gitlab-org/gitlab-shell](https://gitlab.com/gitlab-org/gitlab-shell)
-
-#### Omnibus GitLab
-
-Omnibus GitLab creates the packages for GitLab.
-
-- [https://gitlab.com/gitlab-org/omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab)
-- [https://dev.gitlab.org/gitlab/omnibus-gitlab](https://dev.gitlab.org/gitlab/omnibus-gitlab)
-- [https://github.com/gitlabhq/omnibus-gitlab](https://github.com/gitlabhq/omnibus-gitlab)
-
-### Cloud infrastructure
-
-GitLab.com runs on Amazon Web Services (AWS). Many people in GitLab also have instances on DigitalOcean. If you need a VPS for any reason, it's probably easiest to set one up at DigitalOcean. Ask another developer for access.
-
-### Operations
-
-For everything related to operations, check out the [Operations handbook](https://about.gitlab.com/handbook/operations).
-
-[handbook]: https://about.gitlab.com/handbook
-[dev.gitlab.org/gitlab/gitlabhq]: https://dev.gitlab.org/gitlab/gitlabhq
-[gitlab.com/gitlab-org/gitlab-ce]: https://gitlab.com/gitlab-org/gitlab-ce
-[dev.gitlab.org/gitlab/gitlab-ee]: https://dev.gitlab.org/gitlab/gitlab-ee
-[gitlab.com/gitlab-org/gitlab-ee]: https://gitlab.com/gitlab-org/gitlab-ee
-[gitlab.com/subscribers/gitlab-ee]: https://gitlab.com/subscribers/gitlab-ee
 
 
 ## Offboarding<a name="offboarding"></a>

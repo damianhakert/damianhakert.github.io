@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Chief Revenue Officer Responsibilities and Tasks"
+title: "Chief Revenue Officer"
 ---
 
 ## Responsibilities

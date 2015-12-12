@@ -177,6 +177,24 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 1. Always use an [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma) in lists of three or more terms.
 1. Read our [Documentation Styleguide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc_styleguide.md) for more information when writing documentation.
 
+<h3 id="beamy-guidelines">Beamy Guidelines</h3>
+Beamy is our company conference call robot. It lives in the San Francisco Howard St. office. 
+Its main purpose is to allow those outside of the office a view into the space and people. 
+When you call in to the beam your face will appear on the screen (so make sure your webcam 
+works) and you can drive the robot around the office. It simulates being in the space without 
+physically being there. It is really cool and everyone should try it and have fun with it.
+
+* You need an invite email to connect and to download a desktop client, please @mention Emily in the #general channel if you don't have the invite yet.
+* Beamy times: 8am until 6pm Pacific time on workdays and during all company events, for other times 
+please @mention Sytse in the #valley channel to see if it is OK. It is on auto connect 
+so you'll beam right in.
+* Once you are sent an invite you can beam in at any time and drive around our beam. 
+Don’t forget to park it back on the charger when you are done. You can do so by driving 
+up to the charger, when you see a green outline press AND HOLD 'p' until it's parked. 
+Make sure it is charging, otherwise try again.
+* More info can be found at https://www.suitabletech.com/
+* Please report any questions or issues you have about the beam by @mentioning Emily in the #general channel.
+
 <h2 id="intellectual-property">Intellectual Property</h2>
 
 1. Take proper care of any **confidential** information you get from our customers.
@@ -294,3 +312,18 @@ exception of NDAs covering a physical visit of another organization.
 1. Visit http://localhost:4000 in your browser
 1. To edit the site locally you'll need to install a text editor. We recommend
    [Sublime](http://www.sublimetext.com/2).
+
+### Test if all URL links in a page are valid
+
+Until this is automated in CI, a quick way to see if there are any invalid
+links inside a page is the following.
+
+1. Install the [check-my-links][] extension in Chrome (no other browsers
+   support unfortunately)
+1. Open the page you wish to preview (see previous step)
+1. Click the newly installed extension in the upper right corner of Chrome
+
+A pop-up window will open and tell you how many links, if any, are invalid.
+Fix any invalid links and ideally any warnings, commit, push back, test again.
+
+[check-my-links]: https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf/

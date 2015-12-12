@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Chief Executive Officer Responsibilities and Tasks"
+title: "Chief Executive Officer"
 ---
 
 The CEO reports to the board of directors of GitLab, Inc.

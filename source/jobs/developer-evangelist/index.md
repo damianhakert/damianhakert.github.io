@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Developer Evangelist Responsibilities and Tasks"
+title: "Developer Evangelist"
 ---
 
 As our official Developer Evangelist, your goal is to yell from the rooftops 

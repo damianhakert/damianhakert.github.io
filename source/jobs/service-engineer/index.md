@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Service Engineer Responsibilities and Tasks"
+title: "Service Engineer"
 ---
 The rising popularity of GitLab means that our professional services are in high demand. 
 If you have the skills to help our clients we would love to talk to you.

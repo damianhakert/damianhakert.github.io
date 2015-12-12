@@ -4,10 +4,14 @@ title: "Contracts"
 ---
 * [Disclaimer](#disclaimer)
 * [How to use this page to prepare a contract](#how-to-use)
-* [GitLab Inc At-Will Employee Offer Letter](#inc-employee)
-* [GitLab BV Employment Contract (temporary or indefinite)](#bv-employee)
-* [Independent Contractor Services Agreement](#contractor)
-* [Proprietary Information and Assignment Agreement](#PIAA)
+* Employees and Contractors to GitLab Inc.
+   * [GitLab Inc At-Will Employee Offer Letter](#inc-employee)
+   * [GitLab Inc Independent Contractor Services Agreement](#inc-contractor)
+   * [GitLab Inc Proprietary Information and Assignment Agreement](#inc-PIAA)
+* Employees and Contractors to GitLab BV
+   * [GitLab BV Employment Contract (temporary or indefinite)](#bv-employee)
+   * [GitLab BV Contractor Agreement](#bv-contractor)
+   * [GitLab BV NDA and IP Agreements](#bv-nda-ip)   
 
 ## Disclaimer <a name="disclaimer"></a>
 These agreements are examples of the agreements that we currently use at GitLab. However, the terms and conditions of  an employee or 
@@ -19,13 +23,15 @@ valid as such and do not replace personalized signed agreements.
 Assuming that the [hiring process](https://about.gitlab.com/handbook/hiring/) went smoothly, now it is time to prepare the applicable contracts. 
 The following set of steps should suffice:
 
-1. Select the relevant contracts to copy them into Word or a Google Doc (see next step for details). Employees / Contractors should always be employed by the GitLab entity where they are 
-located (e.g. GitLab BV should not contract with contractors / employees in the US and vice versa). 
+1. Select the relevant contracts to copy them into Word or a Google Doc (see next 
+step for details). Employees / Contractors should always be employed by the GitLab 
+entity where they are located (e.g. GitLab BV should not contract with contractors 
+/ employees in the US and vice versa). 
 If the employee is in the US, GitLab Inc. should be the hiring/contracting entity.  
 In all other regions GitLab BV should be the hiring / contracting entity. 
 1. Copy the relevant contracts to a single Word or Google Doc (Word does a better job of retaining formatting). 
   * NOTE: Remember that regardless of the status of the new team member, i.e. contractor or employee for either GitLab Inc., or GitLab BV, 
-  a PIAA must be included with the contract.
+  an NDA and IP Agreement (called a PIAA for the Inc. entity) must be included with the contract.
   * Further formatting tips once it is in Word:
      * select all, and 
         * decrease font size a few times until everything looks more reasonable. The main headers need to be adjusted further to fit on a single line.
@@ -162,200 +168,7 @@ Signature of:{GitLab Authorized Signatory}
 Proprietary Information and Assignment Agreement
 
 
-## GitLab BV Employment Contract (temporary or indefinite)<a name="bv-employee"></a>
-*Fields to fill out:*
-
-* {INDEFINITE or TEMPORARY}
-* {FOR TEMPORARY: a fixed period of time for {Duration} months and will end 
-by operation of law on {End Date}, without any further notice being required.
-OR FOR INDEFINITE: an indefinite period}
-* {GitLab BV Address}  
-* {GitLab Authorized Signatory}  
-* {Name of Contributor}  
-* {Contributor BSN}  
-* {Contributor DOB}  
-* {Contributor Address}  
-* {Start Date}
-* {Duration}
-* {End Date}
-* {Contributor Title}
-* {13 Months Salary}
-* {Monthly Salary}
-* {GitLab Signatory Title}
-
-## {INDEFINITE or TEMPORARY} EMPLOYMENT CONTRACT  	
-The private company **GitLab B.V.**, having its statutory seat at {GitLab BV Address} 
-represented for these purposes by {GitLab Authorized Signatory}, hereinafter referred to as 'the Employer';
-
-and
-
-**{Name of Contributor}**, (BSN:{Contributor BSN}), born on {Contributor DOB}, currently residing at {Contributor Address}, hereinafter referred to as 'the Employee';
-
-Both parties are hereinafter jointly referred to as ‘the Parties’.
-
-**Have agreed as follows:**  
-
-
-**1\. Position and starting date**  
-
-1. The Employee will commence employment by the Employer with effect from {Start Date}.
-1. The Employee will be employed as {Contributor Title}.  
-1. The Employee will be prepared to perform other duties from time to time, if and 
-insofar as the Employer can reasonably require the Employee to perform these duties. The Employee is aware of the job description. 
-1. Employer and Employee will not apply a probationary period. 
-1. The Employee’s normal place of work will be her/his home address. 
-
-
-
-**2\. Duration and termination of the Employment Contract**
-
-The Employment Contract is entered into for 
-{FOR TEMPORARY: a fixed period of time for {Duration} months and will end 
-by operation of law on {End Date}, without any further notice being required.
-OR FOR INDEFINITE: an indefinite period}.
-
-**3\. Notice period**
-
-Each of the Parties may terminate the Employment Contract prematurely by giving written notice of 
-termination with effect from the last day of a calendar month and with due observance of the statutory notice period. 
-
-**4\. Applicability of the company handbook**
-
-The Employer’s company handbook will apply to this Employment Contract. The contents of the company handbook 
-form an integral part of this Employment Contract. For the latest version of the handbook please see https://about.gitlab.com/handbook/ .
-
-**5\. Working hours and working week**
-
-1. Employee will work 40 hours per week, five days per week, Monday to Friday.  
-All terms and conditions of employment will be applied on a pro rata basis if the Employee works part-time. 
-A full-time working week is 40 hours per week.
-1. If the employee is set to work with a client, the working hours of the client is leading, unless agreed differently.
-1. On request of Employer the Employee is obliged to follow courses and training outside or during 
-office hours, for which the costs will be for the Employer. If the Employee leaves the company within a certain period a restitution settlement will be agreed. 
-
-**6\. Salary**
-
-As at the effective date of the Employment Contract, the Employee's gross salary amounts to {13 Months Salary} per year 
-including holiday allowance, based on a 40-hour working week. The monthly salary of {Monthly Salary} excluding holiday allowance, 
-less statutory deductions, is paid at the end of the calendar month and transferred to a bank account designated by the Employee. 
-The Employee receives a monthly payslip.
-
-**7\. Overtime**
-
-A reasonable degree of overtime is considered to be inherent to the job position. Overtime is therefore 
-to be worked if the Employer takes the view that it is necessary in the company's interests and in the 
-context of the proper completion of the agreed work.
-
-**8\. Travelling expenses**
-
-If the Employee incurs travelling expenses for business trips authorized by the employer, 
-those expenses are payable in accordance with the most recent tax rules in that regard.
-
-**9\. Holiday allowance**
-
-On top of her/his salary the Employee is entitled to a holiday allowance of 8% of the gross 
-monthly salary. The holiday allowance will be paid to Employee in May. The holiday allowance 
-will be paid pro rata in the event of interim commencement of employment, premature termination 
-of the Employment Contract and part-time employment.
-
-**10\. Vacation**
-
-1. The Employee is entitled to a legal minimum of 160 hours of vacation on full pay per calendar year based on a 40-hour working week (Article 7:634 Dutch Civil code). 
-1. Employee is entitled to unlimited paid time off on top of the first 160 hours according to the staff handbook. Please see: https://about.gitlab.com/handbook/#paid-time-off/
-
-
-**11\. Illness**
-
-1. If Employee is unable due to illness to perform her/his duties, she/he shall be entitled, during a period of 6 weeks to be calculated from the first day of illness but not extending beyond the end of the Employment Contract, to 100 % of the salary that applied in the period immediately preceding the inability to work. In the remaining 98 weeks of illness, Employer shall pay at maximum 70 % of Employee’s salary.(Article 7:629 clause 1 Dutch Civil code).
-1. The above applies, however, only if and to the extent that pursuant to the requirements of article 7:629 of the Netherlands Civil Code, Employer is under the obligation to pay in accordance with article 7:629 of the Netherlands Civil Code. Any obligation of the Employer to pay salary to the Employee will cease if and when the incapacity or illness of the Employee exceeds 104 weeks or if and when the Employment Contract is terminated, whichever comes first.
-1. If the Employee is prevented from performing the agreed work due to illness, the Employee shall comply with any reasonable instructions - including but not limited to absenteeism protocol - given by or on behalf of the Employer.
-1. In case of any violation of the obligations of the Employee, the Employer is entitled to suspend the continued payment of the Employee's salary.
-1. In the event of illness, the Employee shall notify absences to their immediate supervisor.
-1. If the event of illness within 4 weeks after ending the Employment Contract, the Employee is obligatory to inform the Employer immediately.
-1. If the Employer wishes, the Employee must provide proper documentation of their illness. 
-1. In case of any violation of the obligations of the Employee, the Employer is entitled to suspend the continued payment of the Employee's salary.
-
-**12\. Pension**
-
-The Employer does not provide a pension scheme.
-
-**13\. Duty of confidentiality**
-
-1. The Employee undertakes both during and after the term of the Employment Contract not to disclose to third parties in any way whatsoever any particulars relating to:- 
-   1. the business of the Employer or any company economically or organisationally affiliated with the Employer which he knows or may suspect could harm the interests of the Employer and/or those affiliated companies; or 
-   1. matters in respect of which the Employer has imposed secrecy. 
-These obligations also apply to any matters concerning the Employer or relations or clients of the Employer or the Employer’s affiliates.
-1. The Employee will sign a non-disclosure agreement with clients, if requested by this client. 
-1. The Employee is not permitted to express a negative opinion about the Employer and/or client either during or following termination of the Employment Contract. 
-
-
-**14\. Additional jobs**
-
-Other than with the prior written permission of the Employer, the Employee is prohibited during the term of the Employment Contract to carry out work – either paid or not – of any nature whatsoever, either for himself and/or for third-parties.
-
-**15\. Non-competition clause**
-
-1. Without the prior written permission of the Employer, the Employee is prohibited during employment and for a period of 24 months following termination of the Employment Contract to establish, run, have run or jointly run a business identical, similar or related to that of the Employer, either directly or indirectly, or to work in any capacity in such a business, either on a paid or unpaid basis, or to have a share in it of any nature whatsoever. 
-1. The business of the Employer is offering source code management software and services.
-1. Employer is a start-up company. If Employee leaves Employer and transfers knowledge, clients or other key information for the start-up company, this could directly damage the financial stability and existence of the Employer. For that reason Employer applies a non-competition clause to this contract.
-
-**16\. Business relations clause**
-
-1. Without the prior written permission of the Employer, the Employee is forbidden for a period of 24 months following termination of the Employment Contract to offer services to or to work for a client or contact of the Employer, other than the Client, or to be directly or indirectly involved in a company that supplies goods or services to clients or contacts of the Employer. Furthermore, the Employee undertakes to refrain in any way from inducing, directly or indirectly, a client or contact of the Employer to switch to a company that competes with that of the Employer.
-1. Clients and contacts are defined in this context as all natural or legal persons and their Employees, with which the Employer have entered into one or more contracts in a period of 24 months prior to termination of the Employment Contract.
-1. Following termination of the Employment Contract the Employee is further forbidden to attempt, directly or indirectly, to induce personnel of the Employer– or one of its affiliated companies – to enter the employment of (a company of) the Employee or another Employer.
-1. Employer is a start-up company. If Employee leaves Employer and extracts any relations from Employer, this could directly damage the financial stability and existence of the Employer. For that reason Employer applies a Business relation clause to this contract.
-
-**17\. Employer’s property**
-
-1. All items of property that the Employer has made available to the Employee are and remain the Employer’s property. The Employee shall not use these items for private purposes without the Employer’s explicit consent.
-1. All items the Employer has made available to the Employee must be immediately returned to the Employer without the Employer having to request the same after termination of the Employment Contract or earlier if circumstances deem this necessary, for example in the event of the Employee being suspended or for any other reason resulting in the items no longer being used for business purposes.
-1. The Employee shall not be permitted to retain any property belonging to the Employer to offset any alleged claim against the Employer. The Employee waives any right of retention of property.
-
-
-**18\. Usages of computer equipment and storage media**  
-The employee commits himself, in case he works with employers computer system or the computer system from a client, to use the equipment in a correct way, whereby:
- 
-1. Employee will not (illegally) copy any information, source codes or applications from the computer system to (portable) storage media or any other way, except with explicit permission of the Employer.
-1. Employee will only install software that is licenced for free commercial use, or for which a valid licence is acquired.
-1. Employee can be held responsible by Employer for any damages occurred by Employer or clients of Employer, due to breaching articles and b.
-
-**19\. Penalty clause**
-  
-1. For each infringement of the provisions of article 13 (Duty of confidentiality), article 14 (Additional jobs), article 15 (Non-competition clause), article 16 (Business relations clause), article 17 (Employer’s property), article 18 (Usage of computer equipment and storage media), the Employee will forfeit to the Employer – contrary to the provisions of article 7:650 of the Netherlands Civil Code – an immediately payable penalty of EUR 10,000.- with the addition of EUR 500 for each day (or part of a day) on which the violation continues, without prejudice to the Employer’s right to claim compliance and compensation of damages.
-1. The payment of the penalty will not affect the entitlement of the Employer to terminate the Employment Contract with the Employee in response to her/his unacceptable conduct, including instant dismissal.
-
-**20\. Unilateral amendment, choice of law and final provisions**
-
-1. The Employer, acting reasonably and fairly, will be entitled to vary unilaterally any term of this Employment Contract if the reasons for so doing outweigh any harm that might be done to the Employee's interests in making the amendment.
-1. Any addition to and/or variance from this contract shall only be valid if set out in writing, dated and signed by both parties.
-1. The provisions of this contract and any annexes hereto shall be deemed to constitute one entire agreement. No rights may be asserted on the basis of this contract until the Employer has received a copy of this contract, and any annexes, signed by the Employee.
-1. The laws of the Netherlands govern this contract.
-
-
-**Thus agreed upon:**  
-
-
-**The Employer**  
-
-Signature:  
-
-Name: {GitLab Authorized Signatory}  
-Title: {GitLab Signatory Title}  
-
-Date: 
-
-
-**The Employee**  
-
-Signature:  
-
-Name: {Name of Contributor}  
-
-Date:   
-
-
-## Independent Contractor Services Agreement<a name="contractor"></a>
+## GitLab Inc Independent Contractor Services Agreement<a name="inc-contractor"></a>
 *Fields to fill out:*
 
 * {Name of Contributor}
@@ -377,7 +190,7 @@ Date:
 ## INDEPENDENT CONTRACTOR SERVICES AGREEMENT
 
 This **Independent Contractor Services Agreement** (“**Agreement**”) is between 
-**{GitLab Inc.** OR **GitLab BV}** (“**GitLab**”), and **{Name of Contributor}** 
+**GitLab Inc.** (“**GitLab**”), and **{Name of Contributor}** 
 having a place of business or residence as set forth below (“**Contributor**”). 
 This Agreement is effective as of the last date under the signatures below (the “**Effective Date**”).  
 
@@ -595,7 +408,7 @@ IN WITNESS WHEREOF, the parties hereto have caused this Independent Contractor
 Services Agreement to be duly executed as of the first date written above.  
 
 
-**{GitLab BV OR GitLab Inc.}**  
+**GitLab Inc.**  
   
 Signature:  
   
@@ -772,7 +585,7 @@ List of Tasks and Due Date: [LIST TASKS WITH DUE DATE]
 Payment Schedule and Terms: [PAYMENT SCHEDULE AND TERMS]  
 Address where payment should be mailed (if different from initial Statement of Work): [ADDRESS]  
 
-**{GitLab BV OR GitLab Inc}**  
+**GitLab Inc.**  
 
 Signature:  
 
@@ -791,12 +604,11 @@ Date:
 Address for Notices:
 
 
-## PROPRIETARY INFORMATION AND ASSIGNMENT AGREEMENT  <a name="PIAA"></a>
+## PROPRIETARY INFORMATION AND ASSIGNMENT AGREEMENT  <a name="inc-PIAA"></a>
 
 
 This **Proprietary Information and Assignment Agreement** (“Agreement”) is made 
-between {**GitLab Inc**., a Delaware corporation in the United States OR **GitLab BV**, 
-a corporation in the Netherlands} (the “Company”) and **{Name of Contributor}** 
+between **GitLab Inc**., a Delaware corporation in the United States (the “Company”) and **{Name of Contributor}** 
 (“Contributor”), and is effective as of the last date under the signatures below (the “**Effective Date**”).
 
 WHEREAS, the Company desires to employ or contract, or continue to employ or contract with Contributor to render services to the Company and Contributor desires to render such services;  
@@ -888,7 +700,15 @@ This Agreement, including all rights and assignments granted by Contributor unde
 
 **B. Compliance**. Contributor will comply and do all things necessary for the Company to comply with all applicable laws and regulations and with the provisions of all Contributors entered into by the Company that relate to Works or to the safeguarding of Confidential Information.  
 
-**C. Severability**. If any provision of this Agreement, or the application thereof, shall for any reason and to any extent be found by the applicable judicial authority of competent jurisdiction to be invalid or unenforceable because it extends for too long a period of time, or over too great a range of activities, or over too broad a geographic area, or for any other reason, then such provision shall be modified to the extent necessary to be enforceable to the maximum extent permitted by law and to extend over a maximum period of time, range of activities or geographic area as to which it may be enforceable, and the entire Agreement shall not fail on account thereof, but otherwise shall remain in full force and effect.  
+**C. Severability**. If any provision of this Agreement, or the application thereof, 
+shall for any reason and to any extent be found by the applicable judicial authority of 
+competent jurisdiction to be invalid or unenforceable because it extends for too 
+long a period of time, or over too great a range of activities, or over too broad a 
+geographic area, or for any other reason, then such provision shall be modified to 
+the extent necessary to be enforceable to the maximum extent permitted by law and to 
+extend over a maximum period of time, range of activities or geographic area as to which 
+it may be enforceable, and the entire Agreement shall not fail on account thereof, 
+but otherwise shall remain in full force and effect.  
 
 **D. Successors and Assigns**. This Agreement will be binding upon Contributor's heirs, executors, administrators and other legal representatives and will be for the benefit of the Company, its successors, and its assigns.  
 
@@ -910,7 +730,7 @@ Agreement is terminated by operation of law for any reason, all other provisions
 
 IN WITNESS WHEREOF, the parties have caused this Agreement to be duly executed on the day and date first written above.  
 
-**{GitLab BV OR GitLab Inc}**  
+**GitLab Inc.**  
 
 Signature:  
 
@@ -932,3 +752,453 @@ The following is a complete list of all Works which have been made or conceived 
 
 No Works (please write "yes" or "no"):  
 If Yes, please write further details below.
+
+
+
+
+## GitLab BV Employment Contract (temporary or indefinite)<a name="bv-employee"></a>
+*Fields to fill out:*
+
+* {INDEFINITE or TEMPORARY}
+* {FOR TEMPORARY: a fixed period of time for {Duration} months and will end 
+by operation of law on {End Date}, without any further notice being required.
+OR FOR INDEFINITE: an indefinite period}
+* {GitLab BV Address}  
+* {GitLab Authorized Signatory}  
+* {Name of Contributor}  
+* {Contributor BSN}  
+* {Contributor DOB}  
+* {Contributor Address}  
+* {Start Date}
+* {Duration}
+* {End Date}
+* {Contributor Title}
+* {13 Months Salary}
+* {Monthly Salary}
+* {GitLab Signatory Title}
+
+## {INDEFINITE or TEMPORARY} EMPLOYMENT CONTRACT  	
+The private company **GitLab B.V.**, having its statutory seat at {GitLab BV Address} 
+represented for these purposes by {GitLab Authorized Signatory}, hereinafter referred to as 'the Employer';
+
+and
+
+**{Name of Contributor}**, (BSN:{Contributor BSN}), born on {Contributor DOB}, currently residing at {Contributor Address}, hereinafter referred to as 'the Employee';
+
+Both parties are hereinafter jointly referred to as ‘the Parties’.
+
+**Have agreed as follows:**  
+
+
+**1\. Position and starting date**  
+
+1. The Employee will commence employment by the Employer with effect from {Start Date}.
+1. The Employee will be employed as {Contributor Title}.  
+1. The Employee will be prepared to perform other duties from time to time, if and 
+insofar as the Employer can reasonably require the Employee to perform these duties. The Employee is aware of the job description. 
+1. Employer and Employee will not apply a probationary period. 
+1. The Employee’s normal place of work will be her/his home address. 
+
+
+
+**2\. Duration and termination of the Employment Contract**
+
+The Employment Contract is entered into for 
+{FOR TEMPORARY: a fixed period of time for {Duration} months and will end 
+by operation of law on {End Date}, without any further notice being required.
+OR FOR INDEFINITE: an indefinite period}.
+
+**3\. Notice period**
+
+Each of the Parties may terminate the Employment Contract prematurely by giving written notice of 
+termination with effect from the last day of a calendar month and with due observance of the statutory notice period. 
+
+**4\. Applicability of the company handbook**
+
+The Employer’s company handbook will apply to this Employment Contract. The contents of the company handbook 
+form an integral part of this Employment Contract. For the latest version of the handbook please see https://about.gitlab.com/handbook/ .
+
+**5\. Working hours and working week**
+
+1. Employee will work 40 hours per week, five days per week, Monday to Friday.  
+All terms and conditions of employment will be applied on a pro rata basis if the Employee works part-time. 
+A full-time working week is 40 hours per week.
+1. If the employee is set to work with a client, the working hours of the client is leading, unless agreed differently.
+1. On request of Employer the Employee is obliged to follow courses and training outside or during 
+office hours, for which the costs will be for the Employer. If the Employee leaves the company within a certain period a restitution settlement will be agreed. 
+
+**6\. Salary**
+
+As at the effective date of the Employment Contract, the Employee's gross salary amounts to {13 Months Salary} per year 
+including holiday allowance, based on a 40-hour working week. The monthly salary of {Monthly Salary} excluding holiday allowance, 
+less statutory deductions, is paid at the end of the calendar month and transferred to a bank account designated by the Employee. 
+The Employee receives a monthly payslip.
+
+**7\. Overtime**
+
+A reasonable degree of overtime is considered to be inherent to the job position. Overtime is therefore 
+to be worked if the Employer takes the view that it is necessary in the company's interests and in the 
+context of the proper completion of the agreed work.
+
+**8\. Travelling expenses**
+
+If the Employee incurs travelling expenses for business trips authorized by the employer, 
+those expenses are payable in accordance with the most recent tax rules in that regard.
+
+**9\. Holiday allowance**
+
+On top of her/his salary the Employee is entitled to a holiday allowance of 8% of the gross 
+monthly salary. The holiday allowance will be paid to Employee in May. The holiday allowance 
+will be paid pro rata in the event of interim commencement of employment, premature termination 
+of the Employment Contract and part-time employment.
+
+**10\. Vacation**
+
+1. The Employee is entitled to a legal minimum of 160 hours of vacation on full pay per calendar year based on a 40-hour working week (Article 7:634 Dutch Civil code). 
+1. Employee is entitled to unlimited paid time off on top of the first 160 hours according to the staff handbook. Please see: https://about.gitlab.com/handbook/#paid-time-off/
+
+
+**11\. Illness**
+
+1. If Employee is unable due to illness to perform her/his duties, she/he shall be entitled, during a period of 6 weeks to be calculated from the first day of illness but not extending beyond the end of the Employment Contract, to 100 % of the salary that applied in the period immediately preceding the inability to work. In the remaining 98 weeks of illness, Employer shall pay at maximum 70 % of Employee’s salary.(Article 7:629 clause 1 Dutch Civil code).
+1. The above applies, however, only if and to the extent that pursuant to the requirements of article 7:629 of the Netherlands Civil Code, Employer is under the obligation to pay in accordance with article 7:629 of the Netherlands Civil Code. Any obligation of the Employer to pay salary to the Employee will cease if and when the incapacity or illness of the Employee exceeds 104 weeks or if and when the Employment Contract is terminated, whichever comes first.
+1. If the Employee is prevented from performing the agreed work due to illness, the Employee shall comply with any reasonable instructions - including but not limited to absenteeism protocol - given by or on behalf of the Employer.
+1. In case of any violation of the obligations of the Employee, the Employer is entitled to suspend the continued payment of the Employee's salary.
+1. In the event of illness, the Employee shall notify absences to their immediate supervisor.
+1. If the event of illness within 4 weeks after ending the Employment Contract, the Employee is obligatory to inform the Employer immediately.
+1. If the Employer wishes, the Employee must provide proper documentation of their illness. 
+1. In case of any violation of the obligations of the Employee, the Employer is entitled to suspend the continued payment of the Employee's salary.
+
+**12\. Pension**
+
+The Employer does not provide a pension scheme.
+
+**13\. Duty of confidentiality**
+
+1. The Employee undertakes both during and after the term of the Employment Contract not to disclose to third parties in any way whatsoever any particulars relating to:- 
+   1. the business of the Employer or any company economically or organisationally affiliated with the Employer which he knows or may suspect could harm the interests of the Employer and/or those affiliated companies; or 
+   1. matters in respect of which the Employer has imposed secrecy. 
+These obligations also apply to any matters concerning the Employer or relations or clients of the Employer or the Employer’s affiliates.
+1. The Employee will sign a non-disclosure agreement with clients, if requested by this client. 
+1. The Employee is not permitted to express a negative opinion about the Employer and/or client either during or following termination of the Employment Contract. 
+
+
+**14\. Additional jobs**
+
+Other than with the prior written permission of the Employer, the Employee is prohibited during the term of the Employment Contract to carry out work – either paid or not – of any nature whatsoever, either for himself and/or for third-parties.
+
+**15\. Non-competition clause**
+
+1. Without the prior written permission of the Employer, the Employee is prohibited during employment and for a period of 24 months following termination of the Employment Contract to establish, run, have run or jointly run a business identical, similar or related to that of the Employer, either directly or indirectly, or to work in any capacity in such a business, either on a paid or unpaid basis, or to have a share in it of any nature whatsoever. 
+1. The business of the Employer is offering source code management software and services.
+1. Employer is a start-up company. If Employee leaves Employer and transfers knowledge, clients or other key information for the start-up company, this could directly damage the financial stability and existence of the Employer. For that reason Employer applies a non-competition clause to this contract.
+
+**16\. Business relations clause**
+
+1. Without the prior written permission of the Employer, the Employee is forbidden for a period of 24 months following termination of the Employment Contract to offer services to or to work for a client or contact of the Employer, other than the Client, or to be directly or indirectly involved in a company that supplies goods or services to clients or contacts of the Employer. Furthermore, the Employee undertakes to refrain in any way from inducing, directly or indirectly, a client or contact of the Employer to switch to a company that competes with that of the Employer.
+1. Clients and contacts are defined in this context as all natural or legal persons and their Employees, with which the Employer have entered into one or more contracts in a period of 24 months prior to termination of the Employment Contract.
+1. Following termination of the Employment Contract the Employee is further forbidden to attempt, directly or indirectly, to induce personnel of the Employer– or one of its affiliated companies – to enter the employment of (a company of) the Employee or another Employer.
+1. Employer is a start-up company. If Employee leaves Employer and extracts any relations from Employer, this could directly damage the financial stability and existence of the Employer. For that reason Employer applies a Business relation clause to this contract.
+
+**17\. Employer’s property**
+
+1. All items of property that the Employer has made available to the Employee are and remain the Employer’s property. The Employee shall not use these items for private purposes without the Employer’s explicit consent.
+1. All items the Employer has made available to the Employee must be immediately returned to the Employer without the Employer having to request the same after termination of the Employment Contract or earlier if circumstances deem this necessary, for example in the event of the Employee being suspended or for any other reason resulting in the items no longer being used for business purposes.
+1. The Employee shall not be permitted to retain any property belonging to the Employer to offset any alleged claim against the Employer. The Employee waives any right of retention of property.
+
+
+**18\. Usages of computer equipment and storage media**  
+The employee commits himself, in case he works with employers computer system or the computer system from a client, to use the equipment in a correct way, whereby:
+ 
+1. Employee will not (illegally) copy any information, source codes or applications from the computer system to (portable) storage media or any other way, except with explicit permission of the Employer.
+1. Employee will only install software that is licenced for free commercial use, or for which a valid licence is acquired.
+1. Employee can be held responsible by Employer for any damages occurred by Employer or clients of Employer, due to breaching articles and b.
+
+**19\. Penalty clause**
+  
+1. For each infringement of the provisions of article 13 (Duty of confidentiality), article 14 (Additional jobs), article 15 (Non-competition clause), article 16 (Business relations clause), article 17 (Employer’s property), article 18 (Usage of computer equipment and storage media), the Employee will forfeit to the Employer – contrary to the provisions of article 7:650 of the Netherlands Civil Code – an immediately payable penalty of EUR 10,000.- with the addition of EUR 500 for each day (or part of a day) on which the violation continues, without prejudice to the Employer’s right to claim compliance and compensation of damages.
+1. The payment of the penalty will not affect the entitlement of the Employer to terminate the Employment Contract with the Employee in response to her/his unacceptable conduct, including instant dismissal.
+
+**20\. Unilateral amendment, choice of law and final provisions**
+
+1. The Employer, acting reasonably and fairly, will be entitled to vary unilaterally any term of this Employment Contract if the reasons for so doing outweigh any harm that might be done to the Employee's interests in making the amendment.
+1. Any addition to and/or variance from this contract shall only be valid if set out in writing, dated and signed by both parties.
+1. The provisions of this contract and any annexes hereto shall be deemed to constitute one entire agreement. No rights may be asserted on the basis of this contract until the Employer has received a copy of this contract, and any annexes, signed by the Employee.
+1. The laws of the Netherlands govern this contract.
+
+
+**Thus agreed upon:**  
+
+
+**The Employer**  
+
+Signature:  
+
+Name: {GitLab Authorized Signatory}  
+Title: {GitLab Signatory Title}  
+
+Date: 
+
+
+**The Employee**  
+
+Signature:  
+
+Name: {Name of Contributor}  
+
+Date:   
+
+
+
+
+## GitLab BV Contractor Agreement<a name="bv-contractor"></a>
+*Fields to be filled:*
+* {Remove for Contractors not based in NL: 10.6 Contributor will provide GitLab 
+with a copy of Contributor's valid Declaration of Independent Contractor Status 
+with respect to income tax (*VAR WUO-verklaring*) and will provide a new declaration after its expiration.  }
+* {EMPLOYEES:**{Name of Contributor}**, (BSN:{Contributor BSN}), born on {Contributor 
+DOB}, currently residing at {Contributor Address}, hereinafter referred to as 
+‘Contributor’; OR CONTRACTORS: **{Name of Contributor}** acting as an independent 
+contractor located at {Contributor Address}, hereinafter referred to as ‘Contributor’;}
+* {GitLab BV Address}
+* {GitLab Authorized Signatory}
+* {GitLab Signatory Title}
+* {Name of Contributor}
+* {Contributor Address}
+* {Start Date}
+* {indefinite term OR temporary for the period of {Duration}}
+* {Contributor Title}
+* {Single or two word service/project description}
+* {Monthly Payment}
+* {Employment or Contractor}
+
+## CONTRACTOR AGREEMENT
+ 
+**The undersigned** 
+ 
+GitLab B.V., a private company with limited liability duly incorporated under the 
+laws of the Netherlands, having its statutory seat at {GitLab BV Address} represented 
+for these purposes by {GitLab Authorized Signatory}, hereinafter referred to as ‘GitLab’; 
+ 
+**and**
+ 
+{Name of Contributor} acting as an independent contractor located at {Contributor Address}, 
+hereinafter referred to as ‘Contributor’; 
+
+GitLab and Contributor are hereinafter collectively referred to as the “Parties”. 
+ 
+**Whereas**:
+ 
+* GitLab, a company which operates in the IT development business, wants to engage a professional partner who can perform {Single or two word service/project description} for GitLab;
+* Contributor is an independent entrepreneur which bears its own company risk and offered assistance to GitLab if required by GitLab from time to time;
+* Parties came to an agreement about the terms and conditions of their partnership and wish to put this down in writing in this Contractor Agreement (hereafter referred to as: “Agreement”);
+* Parties explicitly do **not** have the intention to agree upon an employment agreement (*arbeidsovereenkomst / dienstverband*).
+ 
+**Have agreed as follows:** 
+ 
+**1\. Term**  
+1.1 This Agreement is effective from {Start Date} for an {indefinite term OR temporary for the period of {Duration}}  
+1.2 Each Party may terminate this Agreement with immediate effect for whatever reason, without the obligation to pay any indemnification or compensation to the other Party.  
+ 
+**2\.	Duties and activities**   
+2.1 GitLab requests Contributor to assume the role of {Contributor Title}.  
+2.2 After GitLab’s request for {Single or two word service/project description} on its behalf, Contributor will inform GitLab as soon as possible whether Contributor wants to accept the role of {Contributor Title} or not.  
+2.3	If Contributor agrees to fulfil the service, Contributor will perform the service to Contributor's best ability and in accordance with (1) the requirements as determined in the service description (2) the terms and conditions which are applicable between GitLab and its client (where applicable) and (3) the instructions given by GitLab.  
+2.4	Contributor will inform GitLab on a regular basis about the progress made in fulfilling the service.  
+2.5	Contributor is free to decide when and where Contributor wants to perform Contributor's activities in order to fulfil the service. Contributor is obligated to use GitLab’s workflow as described in the handbook and is free to use the offices of GitLab in consultation with GitLab.  
+2.6	Contributor is free to engage other persons to assist Contributor with the service, in consultation with GitLab, and as long as Contributor bears the costs concerned.  
+ 
+**3\.	Fee**   
+3.1	For the fulfilment of the service by Contributor on behalf of GitLab, GitLab shall pay Contributor a fee of € {Monthly Payment} per calendar month (exclusive of VAT) for the duration of the project. GitLab will receive detailed time sheets from Contributor with specific activities and the times under which they were completed specifically pertaining to fulfilment of the service concerned.  
+3.2	In consultation with GitLab, Contributor is entitled to paid time off in accordance with the handbook (https://about.gitlab.com/handbook/#paid-time-off) . However, GitLab has the right to revoke or change the days off at all times if the company’s interest is harmed or damaged.  
+3.3	GitLab will pay Contributor’s invoice within 30 days.  
+3.4	Contributor’s fee includes a full compensation for any expenses related to the performance of Contributor's activities for GitLab and a full compensation for any damages Contributor may suffer in the performance of Contributor's activities for GitLab.  
+ 
+**4\.	Replacement**   
+4.1	In the event GitLab is obliged to re-do any of the {Single or two word service/project description} due to dissatisfaction, Contributor shall perform the required work/activities. Contributor is not entitled to an additional fee for these activities. Compensation for the unsatisfactory work is included in the fee as stipulated in article 3.   
+ 
+**5\.	Confidentiality and property**   
+5.1	Parties will agree on Confidentiality a separate agreement appended to this Contractor Agreement. The Confidentiality Agreement is an indissoluble part of this Contractor Agreement.  
+5.2. In case of termination of this agreement for whatever reason, Contributor is obliged to immediately return all documentation and other property belonging to GitLab which Contributor has in Contributor’s possession together with Contributor's own notes and photocopies.  
+5.3	Contributor shall not be permitted to retain any property belonging to GitLab to offset any alleged claim against GitLab. Contributor waives any right of retention of property.  
+ 
+**6\.	Non-competition**  
+6.1	During the term of this Agreement, Contributor shall not without the prior written consent of GitLab directly or indirectly perform any activities which are competing with the activities of GitLab or violate GitLab’s interests in any other way.
+ 
+**7\.	Business relations**   
+7.1	During the term of this Agreement Contributor shall not, without GitLab’s prior written consent, either directly or indirectly, work for or be involved with any customers and/or business relations of GitLab, unless on behalf of GitLab.  
+7.2	Contributor shall not, for a period of two years after the end of this Agreement, without GitLab’s prior written consent, either directly or indirectly, work for or be involved with any customers and/or business relations of GitLab. This obligation applies irrespective of whether or not Contributor initiated any such contact.  
+7.3	Contributor shall not encourage customers and/or business contacts of GitLab to sever their relationship with GitLab.
+ 
+ 
+**8\.	Penalty**   
+8.1	For each infringement of the provisions of article 5, 6 and/or 7, Contributor forfeits to GitLab, without further summons or notice of default being required, an immediately eligible penalty of EUR 25.000,-, plus an amount of EUR 1.000,- for each day that the infringement continues, without prejudice of GitLab’s right to claim compliance and damages.  
+ 
+**9\.	Intellectual property**   
+9.1	Parties will agree on Intellectual Property in a separate agreement appended to this Contractor Agreement. The Intellectual Property Agreement is an indissoluble part of this Contractor Agreement.
+ 
+**10\.	Character of the Agreement and liability**   
+10.1	Parties explicitly agree that the legal relationship between GitLab and Contributor is a Contractor Agreement (*opdrachtovereenkomst art. 7:400 BW*) and cannot be regarded as an employment agreement (*arbeidsovereenkomst art. 7:610 BW*).  
+10.2	GitLab excludes any responsibility or liability for any direct or consequential damages or losses of Contributor ensuing from their working relationship or for any other damage.  
+10.3	In any event GitLab’s liability is and will be limited to an amount equal to the fee to be paid to Contributor for the service the damage relate to.  
+10.4	Contributor will indemnify and hold GitLab harmless against claims of third parties arising from or in connection with Contributor's acts or omissions.  
+10.5	In case the Tax Authorities and/or the Social Security Authorities regard the working relationship between the Parties as a (fictive) employment agreement, Contributor shall indemnify GitLab against all tax and social security claims from the aforementioned authorities.  
+{Remove for Contractors not based in NL: 10.6 Contributor will provide GitLab with a copy of Contributor's valid Declaration of Independent Contractor Status with respect to income tax (*VAR WUO-verklaring*) and will provide a new declaration after its expiration.  }
+ 
+**11\. 	Governing Law**    
+11.1	This Agreement shall be subject to Dutch law only.  
+11.2	Any dispute in regard to this Agreement and to the implementation thereof shall be settled before a competent court in The Netherlands.  
+
+**Thus agreed upon:**   
+
+**GitLab**   
+
+Signature:  
+
+Name: {GitLab Authorized Signatory}  
+
+Title: {GitLab Signatory Title}  
+
+Date:  
+
+**The Contributor**   
+
+Signature:  
+
+Name: {Name of Contributor}  
+
+Date:  
+
+## GitLab BV NDA and IP Agreements<a name="bv-nda-ip"></a>
+
+## Appendix 1: CONFIDENTIALITY AGREEMENT
+
+The private company **GitLab B.V.**, having its statutory seat at {GitLab BV Address} represented for these purposes by {GitLab Authorized Signatory}, hereinafter referred to as ‘GitLab’;
+and
+
+{EMPLOYEES:**{Name of Contributor}**, (BSN:{Contributor BSN}), born on {Contributor DOB}, currently residing at {Contributor Address}, hereinafter referred to as ‘Contributor’; OR CONTRACTORS: **{Name of Contributor}** acting as an independent contractor located at {Contributor Address}, hereinafter referred to as ‘Contributor’;}  
+
+**Whereas** 
+ 
+* The parties wish to explore the possibility of entering into a mutually beneficial collaborative agreement (“the Purpose”) and for the Purpose, need to disclose confidential information to one another.
+* The parties are willing to disclose the said information on the basis that it is protected as provided in this Agreement.
+
+In consideration of the mutual premises and covenants contained in this Agreement the Disclosing Party and the Receiving Party **have agreed as follows:**  
+
+ 
+1\. This agreement is an indissoluble part of the {Employment or Contractor} Agreement.  
+
+2\. In this Agreement the term “the Disclosing Party” applies to either party as appropriate where it discloses Confidential Information to the other party and the term “the Receiving Party” applies to either party as appropriate where it receives Confidential Information from the other party.  
+
+3\. In this Agreement “Confidential Information” shall mean all information disclosed 
+(whether orally, in writing or by any other means, including without limitation obtained 
+as a result of any demonstration or being allowed access to any premises where the 
+Disclosing Party may carry on business) by the Disclosing Party to the Receiving Party 
+whether prior to the expiration of this contract, or for a period of 24 months after 
+the expiration date of this Agreement, including but not limited to information relating 
+to that party’s operations, processes, plans or intentions, production information, 
+know-how, copyrights, design rights, trade secrets, market opportunities and business 
+affairs, but shall not include any part of such information which:  
+&nbsp;&nbsp;&nbsp;a. is in or comes into the public domain in any way without breach of this Agreement by the Receiving Party or any person to whom it makes disclosure; or  
+&nbsp;&nbsp;&nbsp;b. the Receiving Party can show:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. was in their possession or known to it by being in its use or being recorded in its files prior to receipt from the Disclosing Party and was not acquired by the Receiving Party from the Disclosing Party under an obligation of confidence; or  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. to have been independently developed by the Receiving Party without recourse to the Confidential Information; or  
+&nbsp;&nbsp;&nbsp;c. the Receiving Party obtains or has available from a source other than the Disclosing Party without breach by the Receiving Party or such source of any obligation of confidentiality or non-use; or  
+&nbsp;&nbsp;&nbsp;d. it is hereafter furnished by the Disclosing Party to a third party without restriction on disclosure or use; or  
+&nbsp;&nbsp;&nbsp;e. is disclosed by the Receiving Party with the prior written approval of the Disclosing Party.  
+
+4\. Each of the parties shall be responsible for and primarily liable for any acts or omissions of its associate companies and associates (as defined the Dutch Income and Corporation Taxes Act) and all officers, employees, servants, agents or professional advisers of such person which would have been a breach of this Agreement were it done or omitted to be done by the Receiving Party.  
+
+5\. In relation to Confidential Information received from the other party or from a third party on behalf of the other party, the Disclosing Party and the Receiving Party also agree as follows:
+&nbsp;&nbsp;&nbsp;a. to treat the Confidential Information in confidence and to use it only for the Purpose;  
+&nbsp;&nbsp;&nbsp;b. not to copy or write down any part of the Confidential Information except as is reasonably necessary for the Purpose;  
+&nbsp;&nbsp;&nbsp;c. to disclose the Confidential Information only to such of their directors, employees or third parties as may need to know the Confidential Information for the Purpose;  
+&nbsp;&nbsp;&nbsp;d. to treat the Confidential Information with the same degree of care and with sufficient protection from unauthorised disclosure as the Receiving Party uses to maintain its own confidential or proprietary information.  
+
+6\. If no business relationship between the Disclosing Party and the Receiving Party shall be established or at the request of the Disclosing Party the Receiving Party shall:
+&nbsp;&nbsp;&nbsp;a. promptly return all documents, materials and records and all copies of the Confidential Information to the Disclosing Party and permanently delete any such Confidential Information from any electronic storage media or memory;  
+&nbsp;&nbsp;&nbsp;b. remain bound by clause 4 above for an indefinite period of time from the date of disclosure of the Confidential Information.  
+
+7\. If a party doesn’t enforce a right available to it under this Agreement in any particular instance, then that won’t prevent it from enforcing that right in future or in any other instance.  
+
+8\. Neither party shall assign or transfer any of its rights or obligations under this agreement without the prior written consent of the other party.  
+
+9\. This agreement does not grant any right or licence under either party’s intellectual property rights.  
+
+10\. This Agreement constitutes the entire understanding between the Parties related to the protection of Confidential Information disclosed under it.  
+
+11\. The interpretation construction and effect of this Agreement shall be construed in all respects in accordance with Dutch Law and the parties hereby submit to the exclusive jurisdiction of the Dutch courts.  
+ 
+**Thus agreed upon:**  
+
+**GitLab**  
+
+Signature:  
+
+Name: {GitLab Authorized Signatory}  
+
+Title: {GitLab Signatory Title}  
+
+Date:  
+
+**The Contributor**  
+
+Signature:  
+
+Name: {Name of Contributor}  
+
+Date:  
+
+
+
+
+## APPENDIX 2: INTELLECTUAL PROPERTY AGREEMENT
+ 
+The private company **GitLab B.V.**, having its statutory seat at {GitLab BV Address} represented for these purposes by {GitLab Authorized Signatory}, hereinafter referred to as ‘GitLab’;
+and
+
+{EMPLOYEES:**{Name of Contributor}**, (BSN:{Contributor BSN}), born on {Contributor DOB}, currently residing at {Contributor Address}, hereinafter referred to as ‘Contributor’; OR CONTRACTORS: **{Name of Contributor}** acting as an independent contractor located at {Contributor Address}, hereinafter referred to as ‘Contributor’;}  
+ 
+Both parties are hereinafter jointly referred to as ‘the Parties’.
+ 
+WHEREAS, in consideration of the mutual covenants and promises herein contained, and intending to be legally bound hereby, the Parties agree as follows:  
+ 
+1\. This agreement is an indissoluble part of the {Employment or Contractor} Agreement.  
+
+2\. Contributor represents and warrants that any work performed by Contributor pursuant to their {Employment or Contractor} relationship with GitLab will be their original work and does not invade the copyrights or other proprietary rights of any party, that there are no contractual or other arrangements which could interfere with performing their work, and that Contributor has the full power and authority to grant the rights hereunder. The Parties agree that Contributor’s work has been specially ordered and commissioned by GitLab as a work for hire. Should, under Dutch and/or foreign law, any activities and/or work the Contributor performs and/or creates within the scope of Contributor’s {Employment or Contractor} relationship with GitLab be protected by any intellectual property right(s) (for example, but not limited to, copyrights, (industrial) design rights, patent rights, (semi-conductor) topography rights, plant variety rights, accompanying rights, trade name rights, trade mark rights, database rights:  
+&nbsp;&nbsp;&nbsp;a. GitLab shall be the sole author of Contributor’s work and any work embodying Contributor’s work according to the Intellectual Property Act (Auteurswet) and no rights thereto shall accrue in any manner to Contributor. To the extent that Contributor’s work is not properly characterized as a work made for hire, Contributor grants to GitLab all right, title and interest in Contributor’s work, including all copyright rights, in perpetuity and throughout the world.  
+&nbsp;&nbsp;&nbsp;b. GitLab shall be the sole owner of all patents, copyrights, trade secrets and other intellectual property rights related to Contributor’s work. Contractor also agrees to waive any and all moral rights relating to the work product, including but not limited to, any and all rights of identification of authorship and any and all rights of approval, restriction or limitation on use, and subsequent modifications.  
+&nbsp;&nbsp;&nbsp;c. Contributor shall not register him/herself as patent holder, design right holder, trade mark holder and/or holder of any other intellectual property right in respect thereof.  
+&nbsp;&nbsp;&nbsp;d. Contributor warrants that the intellectual property rights are unencumbered (onbezwaard) and not protected by any third party (intellectual property) rights.  
+
+3\. GitLab is entitled to file / register for intellectual property protection in GitLab's name or the name of its company / undertaking as patent, (industrial) design, trade mark or any other intellectual property right;  
+
+4\. Contributor shall help prepare any papers GitLab considers necessary to secure any patents, copyrights, trademarks or other intellectual property rights and will do all things necessary to enable GitLab to enforce its rights in any such work product, at no charge to GitLab.  
+
+5\. The compensation agreed upon in the {Employment OR Contractor} Agreement sufficiently compensates the Contributor and amounts to a 'fair price' for the transfer of any intellectual property rights.  
+
+6\. Unilateral amendment, choice of law and final provisions
+&nbsp;&nbsp;&nbsp;a. Any addition to and/or variance from this contract shall only be valid if set out in writing, dated and signed by both parties.  
+&nbsp;&nbsp;&nbsp;b. The provisions of this contract and any annexes hereto shall be deemed to constitute one entire agreement. No rights may be asserted on the basis of this contract until the GitLab has received a copy of this contract, and any annexes, signed by the Contributor.  
+&nbsp;&nbsp;&nbsp;c. The interpretation construction and effect of this Agreement shall be construed in all respects in accordance with Dutch Law and the parties hereby submit to the exclusive jurisdiction of the Dutch courts.  
+ 
+
+**Thus agreed upon:**  
+
+**GitLab**  
+
+Signature:  
+
+Name: {GitLab Authorized Signatory}  
+
+Title: {GitLab Signatory Title}  
+
+Date:  
+
+**The Contributor**  
+
+Signature:  
+
+Name: {Name of Contributor}  
+
+Date:

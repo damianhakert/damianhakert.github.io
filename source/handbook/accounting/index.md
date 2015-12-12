@@ -12,7 +12,6 @@ title: "Accounting"
 * [Company Credit Cards](#company-cc)
 * [Accounts Receivable](#ar)
 * [Cash Receipt](#cash-receipt)
-* [Export Control](#export-control)
 
 ## Processing Payroll  <a name="payroll"></a>
 
@@ -74,6 +73,7 @@ NOTE: Vendor and contractor invoices are to be sent to ap@gitlab.com
 ### A note on VAT for transactions between GitLab BV and EU-based vendors
 In many cases, VAT will not be payable on transactions between GitLab BV and EU-based
 vendors/contractors, thanks to "Shifted VAT". To make use of this shifted VAT:
+
 * The vendor/contractor writes the phrase "VAT shifted to recipient according to 
 article 44 and 196 of the European VAT Directive" on the invoice along with the 
 VAT-number of Gitlab BV. 
@@ -221,26 +221,21 @@ This transaction transfers the payment obligation from the customer to Stripe.  
 
 ### Posting a payment from Stripe when a transfer is received from Stripe.
 Post a journal entry:
-* Fill the "Journal Date" with the date that payment was received in the bank.
-* Fill the "Credit Account" with Stripe.
-* Fill the "Debit Account" with "Comerica Checking - Gitlab Inc."
-* Leave "Name" blank.
-* Leave "Class" blank.
-* Fill the "Description" with "To record Stripe transfer (date of transfer)".
-* Click "Save".
+1. Fill the "Journal Date" with the date that payment was received in the bank.
+1. Fill the "Credit Account" with Stripe.
+1. Fill the "Debit Account" with "Comerica Checking - Gitlab Inc."
+1. Leave "Name" blank.
+1. Leave "Class" blank.
+1. Fill the "Description" with "To record Stripe transfer (date of transfer)".
+1. Click "Save".
 
 
 ### Posting a payment from a “bank customer”
 In Quickbooks:
-* Click on the “+” sign.
-* Click on “Receive Payment” under Customers.
-* Fill the "Payment Date" with the date payment was received.
-* Fill the "Payment Method" choose from the dropdown menu.
-* Fill the "Reference No." with the check # or bank reference # from incoming wire.
-* Fill the "Deposit to" with "Comerica Checking".
-* Fill the "Amount Received" with the amount received from the incoming wire.
-
-## Export Control <a name="export-control"></a>
-
-GitLab's Export Control Classification is 5D002.c.1. GitLab source code can be exported and re-exported 
-under the authority of license exception TSU of section 740.13(E) of the export administration regulations (EAR).
+1. Click on the “+” sign.
+1. Click on “Receive Payment” under Customers.
+1. Fill the "Payment Date" with the date payment was received.
+1. Fill the "Payment Method" choose from the dropdown menu.
+1. Fill the "Reference No." with the check # or bank reference # from incoming wire.
+1. Fill the "Deposit to" with "Comerica Checking".
+1. Fill the "Amount Received" with the amount received from the incoming wire.

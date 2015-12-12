@@ -88,15 +88,19 @@ extra_js:
             It manages projects/builds and provides a nice user interface,
             besides all the features of GitLab.
           </p>
-          <p>GitLab Runner is an application which processes builds. It can be deployed separately and works with GitLab CI through an API.</p>
-          <p>In order to run tests, you need at least 1 <b>GitLab</b> instance and 1 <b>GitLab Runner</b>.
-          One runner can run one or more jobs at the same time.
-          Each project in GitLab CI can have one or multiple jobs.
-          All the jobs for one commit run in parallel so your tests results are available sooner.
-          These jobs can run in parallel on the same runner and/or on different runners.
-          Runners and jobs can be labeled so that jobs run on runners that can process them (the right machine, OS and configuration).
-          We recommend to not install runners the same instance as GitLab so that running rogue code and jobs can't affect the security of GitLab itself.
-          GitLab CI is a part of GitLab.
+          <p><b>GitLab Runner</b> is an application which processes builds. It
+            can be deployed separately and works with GitLab CI through an API.
+          </p>
+          <p>In order to run tests, you need at least one <b>GitLab</b> instance
+            and one <b>GitLab Runner</b>.
+            One Runner can run one or more jobs at the same time.
+            Each project in GitLab CI can have one or multiple jobs.
+            All the jobs for one commit run in parallel so your tests results are available sooner.
+            These jobs can run in parallel on the same runner and/or on different runners.
+            Runners and jobs can be labeled so that jobs run on Runners that can
+            process them (the right machine, OS and configuration).
+            We recommend to not install Runners the same instance as GitLab so
+            that running rogue code and jobs can't affect the security of GitLab itself.
           </p>
         </div>
       </div>
@@ -115,12 +119,10 @@ extra_js:
       <div class="col-xs-10 col-md-7">
         <h2 id=gitlab-runner>GitLab Runner</h2>
         <p>To perform the actual build, you need to install GitLab Runner.</p>
-        <p>It can run on any platform for which you can build Go binaries, including Linux, OSX, Windows, FreeBSD and Docker.</p>
-        <ul>
-          <li><a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner"><b>Official GitLab Runner in Go with Docker support for Linux, OSX and Windows</b></a> (recommended)</li>
-          <li><a href="https://github.com/nafg/gitlab-ci-runner-scala">Unofficial GitLab Runner for Scala/Java</a> (has less features)</li>
-          <li><a href="https://www.npmjs.com/package/gcr">Unofficial GitLab Runner for Node</a> (has less features)</li>
-        </ul>
+        <p>It can run on any platform for which you can build Go binaries,
+          including Linux, OSX, Windows, FreeBSD and Docker.
+        </p>
+        <p><a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner"><b>Official GitLab Runner in Go with Docker support for Linux, OSX and Windows</b></a></p>
       <div class="col-xs-1 col-md-1"></div>
       </div>
     </div>
