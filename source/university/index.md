@@ -89,62 +89,55 @@ The following courses have been created to help you become better educated about
 - Supporting Document
     * [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 
-#### GitLab Wiki
+## Upcoming Courses
 
-#### GitLab Activity Log
+Below are courses we are in need of training material and documentation.  If you can help with creating content, please submit a merge request to add your name next to the course you would like to help us with and an expected date of completion. If you have any questions or would like clarification, please add a comment with your merge request and assign to Chad Malchow. For each section we would like the following materials provided:
+1. A 5 - 10 minute video explaining:
+    * What the topic is?
+    * What problem(s) this solves?  The value proposition.
+    * What it looks like within GitLab
+    * How to set it up and use it
+    * How to use it
+1. Video needs to be added to GitLab YouTube Channel.  Link to video with date recorded Year-Month-Day format
+1. Links to Documentation at doc.gitlab.com 
+1. Link to any supporting documents
+1. Test Questions and Answers submitted to chad@gitlab.com for a Google Form to be created
 
-#### Branching and Forking
-
-#### GitLab Omnibus
-- [What is GitLab OmniBus?](https://www.youtube.com/watch?v=XTmpKudd-Oo)
-- [How to install GitLab with Omnibus](https://www.youtube.com/watch?v=Q69YaOjqNhg)
-- Suport Documents
-    * [Configuring an external PostgreSQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-non-packaged-postgresql-database-management-server)
-    * [Configuring an external MySQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-mysql-database-management-server-enterprise-edition-only)
-
-#### GitLab Flow
-- [GitLab Flow](https://about.gitlab.com/2014/09/29/gitlab-flow/)
-- [GitLab Flow vs. Forking in GitLab](https://www.youtube.com/watch?v=UGotqAUACZA)
-
-#### Managing LDAP, Active Directory
-- [Managing LDAP, Active Directory introduction with GitLab](https://www.youtube.com/watch?v=HPMjM-14qa8)
-
-#### Managing Permission
-- [Managing permissions within EE](https://www.youtube.com/watch?v=DjUoIrkiNuM)
-
-#### Continuous Integration and Runners
-- [GitLab CI](https://about.gitlab.com/gitlab-ci/)
-- CI Tools we Integrate with
+### Courses
+- High Availability vs. Scalability
+- Groups, Projects, Repositories
+- Application Lifecycle Tools we integrate with
+    * [Jira](http://doc.gitlab.com/ee/integration/jira.html)
+    * Atlassian Crowd
     * [Jenkins](http://doc.gitlab.com/ee/integration/jenkins.html)
     * [Bamboo](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
-
-#### GitLab LFS
-
-#### GitLab Mirroring
-
-#### GitLab Integrations
-- [Jira](http://doc.gitlab.com/ee/integration/jira.html)
-- Atlassian Crowd
-- [Jenkins](http://doc.gitlab.com/ee/integration/jenkins.html)
-- [Bamboo](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
-- [Slack](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/integration/slack.md)
-
-#### Migrating to GitLab
-- From SVN
-- From GitHub Enterprise
-- From BitBuket
-- From Perforce
-
-#### GitLab Markdowns
-- [Markdowns](http://doc.gitlab.com/ce/markdown/markdown.html)
-
-## Upcoming Topics
-
-Please submit a merge request for suggestions.
-
-- HA vs. Scalability
-- Groups, Projects, Repositories
+    * [Slack](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/integration/slack.md)
+- Migrating to GitLab - Why Should I migrate? What are the main differences my Development Team will experience?
+    * From SVN
+    * From GitHub Enterprise
+    * From BitBuket
+    * From Perforce
+- Continuous Integration and Runners
+    * [GitLab CI](https://about.gitlab.com/gitlab-ci/)
+    * CI Tools we Integrate with
+        * [Jenkins](http://doc.gitlab.com/ee/integration/jenkins.html)
+        * [Bamboo](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
 - JIRA and Jenkins integrations in GitLab
+- LDAP, Active Directory
+- Managing Permissions
+- GitLab LFS
+- GitLab Mirroring
+- GitLab EE versus CE 
+- Branching and Forking
+- GitLab OmniBus
+- GitLab Wiki
+- GitLab Acitivity Log
+- GitLab Innersourcing
+- GitLab Markdowns
+    * [Markdowns](http://doc.gitlab.com/ce/markdown/markdown.html)
+- GitLab Flow
+    * [GitLab Flow](https://about.gitlab.com/2014/09/29/gitlab-flow/)
+    * GitLab Flow vs. Forking in GitLab](https://www.youtube.com/watch?v=UGotqAUACZA)
 
 ## Learning Resources
 
@@ -167,4 +160,4 @@ Please submit a merge request for suggestions.
 - [2011 WSJ article by Mark Andreeson - Software is Eating the World](http://www.wsj.com/articles/SB10001424053111903480904576512250915629460)
 - [2015 Venture Beat article - Actually, Open Source is Eating the World](http://venturebeat.com/2015/12/06/its-actually-open-source-software-thats-eating-the-world/)
 - [Customer Use-Cases](https://about.gitlab.com/handbook/use-cases/)
-- [Why Git and GitLab slide deck] (https://docs.google.com/a/gitlab.com/presentation/d/1RcZhFmn5VPvoFu6UMxhMOy7lAsToeBZRjLRn0LIdaNc/edit?usp=drive_web)
+- [Why Git and GitLab slide deck](https://docs.google.com/a/gitlab.com/presentation/d/1RcZhFmn5VPvoFu6UMxhMOy7lAsToeBZRjLRn0LIdaNc/edit?usp=drive_web)
