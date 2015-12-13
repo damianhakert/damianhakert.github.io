@@ -11,7 +11,7 @@ future. Today it's still pretty hard to master.
 GitLab University has as a goal to teach Git, GitLab and everything that relates
 to that to anyone willing to listen and participate.
 
-## [Classes](/university/classes)
+## Classes
 
 Right now, there is a GitLab University class every Thursday at 5PM UTC.
 To sign up, send Job a message.
@@ -19,7 +19,27 @@ To sign up, send Job a message.
 If you're interested in any of these, would like to teach in one of them or
 participate or help in any way, please contact Job or submit a merge request.
 
-- [View all classes](/university/classes)
+*[YouTube playlist with all classes](https://www.youtube.com/playlist?list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e)*
+
+### Dec 10, 2015 - Repositories, Projects and Groups
+
+*[See the class on Youtube](https://www.youtube.com/watch?v=4TWfh1aKHHw&index=1&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e)*
+
+### Dec 3, 2015 - Scalability Availability
+
+*[See the class on Youtube](https://www.youtube.com/watch?v=cXRMJJb6sp4&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=2)*
+
+### Nov 19, 2015
+
+- [GitLab 8.2](https://gitlab.com/gitlab-org/University/blob/master/classes/8.2.md)
+- [Make the test](http://goo.gl/forms/9PnmhiNzEa)
+
+### Nov 12, 2015
+
+- [Upcoming in EE](https://gitlab.com/gitlab-org/University/blob/master/classes/upcoming_in_ee.md)
+- [Big files in Git (Git LFS, Annex)](https://gitlab.com/gitlab-org/University/blob/master/classes/git_lfs_and_annex.md)
+- [Make the test](http://goo.gl/forms/RFsNK9fKuj)
+
 
 ## Training Courses
 The following courses have been created to help you become better educated about Git and GitLab.  We recommend completing each course in order.  If you have suggestions for additonal courses you would like to see, please email Chad Malchow.
@@ -68,7 +88,7 @@ The following courses have been created to help you become better educated about
 - [Issue and Merge Request](https://www.youtube.com/watch?v=raXvuwet78M)
 - Supporting Document
     * [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
-    
+
 #### GitLab Wiki
 
 #### GitLab Activity Log
@@ -98,7 +118,7 @@ The following courses have been created to help you become better educated about
     * [Jenkins](http://doc.gitlab.com/ee/integration/jenkins.html)
     * [Bamboo](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
 
-#### GitLab LFS 
+#### GitLab LFS
 
 #### GitLab Mirroring
 
