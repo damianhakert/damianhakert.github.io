@@ -7,7 +7,7 @@ title: "Book Club"
 
 The Book Club is a casual meet-up to read and discuss books we like. We'll find a time that suits most, if not all. 
 
-See the [book list](/university/bookclub/booklist.md) for additional recommendations.
+See the [book list](/university/bookclub/booklist.html) for additional recommendations.
 
 ## Currently reading : Books about remote work
 
@@ -19,4 +19,4 @@ See the [book list](/university/bookclub/booklist.md) for additional recommendat
 
     Scott Berkun, 2013 ([ScottBerkun.com](http://scottberkun.com/yearwithoutpants/))
 
-Any other books you'd like to suggest? Edit this page and add them to the queue. 
+Any other books you'd like to suggest? Edit this page and add them to the queue.
