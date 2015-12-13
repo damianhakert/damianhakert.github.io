@@ -61,12 +61,16 @@ features right away. All you need is a file called
 describe how the build should run) placed in the root directory of your git
 project, and a configured Runner to perform the actual build.
 
+Each project comes with a Builds page where you can follow the output of each
+build, see the commit that introduced it and other useful information such as
+the time the build started, how long it lasted and the commiter's name.
+
 The statuses for each build are exposed in the GitLab UI and you can see
-whether a build succeeded, failed, canceled or skipped within a single
+whether a build succeeded, failed, got canceled or skipped within a single
 Merge Request or commit, or at the Merge Requests and commits pages.
 
-Each project comes with a Builds page where you can follow the output of each
-build, see the commit that introduced it and other relevant information.
+Another win having GitLab CI integrated with GitLab is that people can see
+other users' CI/CD approaches and learn from them.
 
 There is one last component without which, most of the features above wouldn't
 have been possible. It does all the heavy work by performing the actual builds.
