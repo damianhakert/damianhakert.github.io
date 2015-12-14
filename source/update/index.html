@@ -20,22 +20,44 @@ extra_css:
   <div class="row graphic-menu">
     <div class="col-md-12">
       <div class="row">
-        <div class="heavy col-md-4">Omnibus package?
-          <h5>
-            <a class="view-docs" href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update.md#updating-from-gitlab-6-6-x-and-higher-to-the-latest-version">View documentation here</a>
-          </h5>
+        <div class="heavy col-md-4">Have an Omnibus package?
+
+          <h5 class="title">Used our package server on Ubuntu / Debian?</h5>
+          <p class="answer">
+            sudo apt-get update
+            <br>
+            sudo apt-get install gitlab-ce
+          </p>
+
+
+          <h5 class="title">Used our package server on CentOS?</h5>
+          <p class="answer">
+            sudo yum install gitlab-ce
+          </p>
+
+
+          <h5 class="title">Want to upgrade from a manually downloaded Omnibus package to package server?</h5>
+          <p class="answer">
+            <a class="view-docs" href="/upgrade-to-package-repository">View our documentation on upgrading to the package repository</a>
+          </p>
+
+          <h5 class="title">Want to keep using manually downloaded Omnibus packages?</h5>
+          <p class="answer">
+            <a class="view-docs" href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update/README.md#updating-from-gitlab-66-and-higher-to-the-latest-version">View documentation here</a>
+          </p>
+
+
         </div>
+
+
+
         <div class="heavy-middle col-md-4">Installation from source?
           <h5 class="title">Want to use an Omnibus package?
           </h5>
-          <h5>
-            <a class="view-docs" href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update.md#upgrading-from-a-non-omnibus-installation-to-an-omnibus-installation">View documentation here</a>
-          </h5>
+          <p class="answer">
+            <a class="view-docs" href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update/README.md#upgrading-from-a-non-omnibus-installation-to-an-omnibus-installation">View documentation here</a>
+          </p>
           <h5 class="title">Want to stay on source?</h5>
-          <h5>
-            <p class="question">Can use the upgrade script?</p>
-            <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/upgrader.md" class="answer">Universal script for all versions</a>
-          </h5>
           <h5>
             <p class="question">Patch update?</p>
             <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/patch_versions.md" class="answer">Universal update guide for patch versions</a>
@@ -61,23 +83,27 @@ extra_css:
         Already using an Omnibus package?
       </h5>
 
-      <p class="answer">Upgrade using the Omnibus package <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update.md#updating-from-gitlab-6-6-x-and-higher-to-the-latest-version" class="answer">upgrade documentation</a>, with an <a href="https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/install/packages.md" class="answer">Enterprise Edition package</a></p>
+      <p class="answer">Upgrade using the Omnibus package <a href="http://doc.gitlab.com/omnibus/#updating" class="answer">upgrade documentation</a>, with an <a href="https://packages.gitlab.com/gitlab/gitlab-ee" class="answer">Enterprise Edition package</a></p>
 
-      <br>
 
       <h5 class="title" style="margin-bottom: 0;">
         Upgrade your source installation to Enterprise Edition?
       </h5>
 
-      <a href="https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/update/7.8-ce-to-ee.md" class="answer">See the CE to EE upgrade documentation</a>
+      <a href="https://gitlab.com/gitlab-org/gitlab-ee/blob/master/doc/update/7.8-ce-to-ee.md" class="answer">See the CE to EE upgrade documentation</a>
 
-      <br><br>
 
       <h5 class="title" style="margin-bottom: 0;">
         Set up your new integrations with Jira and Jenkins
       </h5>
 
       <p class="answer"><a href="http://doc.gitlab.com/ee/integration/jira.html" class="answer">Jira integration documentation</a> and <a href="http://doc.gitlab.com/ee/integration/jenkins.html" class="answer">Jenkins integration documentation</a></p>
+
+      <h5 class="title" style="margin-bottom: 0;" id="ee-downgrade">
+        Need to downgrade to the Community Edition?
+      </h5>
+
+      <p class="answer"><a href="http://doc.gitlab.com/ee/downgrade_ee_to_ce/README.html" class="answer">Downgrading from EE to CE documentation</a></p>
     </div>
   </div>
 </div>

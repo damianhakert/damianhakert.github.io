@@ -1,0 +1,24 @@
+{% include default_head.html %}
+
+    {% unless page.suppress_header %}
+    <div class="simple-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12">
+            <h1>{{ page.title }}</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endunless %}
+    <div class="wrapper">
+      <div class="container md-page">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% include scripts.html %}
+  </body>
+</html>

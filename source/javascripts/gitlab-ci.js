@@ -1,8 +1,4 @@
 $(document).ready(function() {
-    $('#signin').addClass('animated bounceIn').addClass('btn-lg btn-default download-btn-style');
-    $('#download').addClass('animated bounceIn').addClass('btn-lg btn-default download-btn-style');
-
-
   if (getUrlParameter('s') == 'ph') {
     $('#ci-subt').append('<br><br>Hello, Product Hunters!<br><br> Get 75% off a GitLab.com bronze subscription forever! <br> Use the code: producthunt75');
   }

@@ -20,7 +20,7 @@ Versions affected: omnibus-gitlab 6.9.2.omnibus and older, omnibus-gitlab
 Versions fixed: omnibus-gitlab 6.9.2.omnibus.1, omnibus-gitlab
 6.9.3-ee.omnibus.1.
 
-# Checking your omnibus-gitlab OpenSSL version
+## Checking your omnibus-gitlab OpenSSL version
 
 You can check the version of OpenSSL in your omnibus-gitlab installation by
 running the following command.
@@ -32,7 +32,7 @@ grep openssl /opt/gitlab/version-manifest.txt
 If the OpenSSL version is 1.0.1g or lower you need to update omnibus-gitlab to
 the latest version.
 
-# Downloads
+## Downloads
 
 Updated omnibus-gitlab packages for [GitLab Community
 Edition](https://www.gitlab.com/downloads) and [GitLab Enterprise

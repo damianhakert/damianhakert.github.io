@@ -1,13 +1,13 @@
 /* Press */
 
 h1 {
-  font-family: "Korolev", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: 600;
   font-size: 50px;
 }
 
 h2 {
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto Condensed-Light", sans-serif;
   font-weight: 600;
   margin-bottom: 40px;
   font-size: 36px;
@@ -19,7 +19,7 @@ ul {
 
 .press-content span {
   font-size: 17px;
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto Condensed-Light", sans-serif;
 }
 
 .press-container {
@@ -45,12 +45,12 @@ ul {
 
   .press-content h3 {
     font-size: 17px;
-    font-family: "Korolev-Light", sans-serif;
+    font-family: "Roboto Condensed-Light", sans-serif;
   }
 
   .press-content span {
     font-size: 17px;
-    font-family: "Korolev-Medium", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
   }
 
 .press-company {
@@ -92,33 +92,43 @@ ul {
 }
 
 .fox {
-  background-image: url(/images/press/logo/small-fox.png);
+  background-image: url(/images/press/logo/logo.png);
   background-position-y: -17px;
 }
 
 .diff {
-  background-image: url(/images/press/screenshots/diff_view_small.png);
+  background-image: url(/images/press/screenshots/diff.png);
   background-position-y: -4px;
 }
 
+.mr {
+  background-image: url(/images/press/screenshots/mr.png);
+  background-position-y: -4px;
+}
+
+
 .file {
-  background-image: url(/images/press/screenshots/file_view_small.png);
+  background-image: url(/images/press/screenshots/file_view.png);
   background-position-y: -4px;
 }
 
 .network-graph {
-   background-image: url(/images/press/screenshots/network_graph_small.png);
+   background-image: url(/images/press/screenshots/network_graph.png);
   background-position-y: -4px;
 }
 
 .wordmark {
-  background-image: url(/images/press/wordmark/wordmark.png);
-  background-position-y: 6px;
+  background-image: url(https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm.png);
 }
 
-.biker {
-  background-image: url(/images/press/motorcycle/biker.png);
-  background-position-y: -4px;
+.wordmark-no-bg {
+  background-image: url(https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm_no_bg.png);
+  background-position-y: 8px;
+}
+
+.wordmark-grayscale {
+  background-image: url(https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm_grayscale.png);
+  background-position-y: 8px;
 }
 
 .image {
@@ -130,10 +140,11 @@ overflow: hidden;
   float: left;
   border: 1px solid #548;
   border-radius: 2px;
+  pointer-events: none;
 }
 
 .fa span {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .blog_twitter_row {
@@ -142,7 +153,7 @@ overflow: hidden;
 
 .recent-blog p {
   font-size: 20px;
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto Condensed-Light", sans-serif;
 }
 
 .recent-blog a:first-child {
@@ -169,7 +180,7 @@ overflow: hidden;
   display: inline-block;
   width: 30%;
   padding-right: 40px;
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto Condensed-Light", sans-serif;
 }
 
   .press-image img {
@@ -203,7 +214,7 @@ overflow: hidden;
 
 .article-title {
   color: black;
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto Condensed-Light", sans-serif;
   font-size: 18px;
 }
 
@@ -213,7 +224,7 @@ overflow: hidden;
 
 .image-container .text span {
   font-size: 19px;
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto Condensed-Light", sans-serif;
 }
 
 .image-container .text p {
@@ -268,8 +279,12 @@ overflow: hidden;
   margin-bottom: 15px;
 }
 
-.investors .press-image img {
-  width: 281px;
+.investors {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo-row {
 }
 
 .footer, .wrapper:after {

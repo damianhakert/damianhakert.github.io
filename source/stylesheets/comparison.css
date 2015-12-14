@@ -1,0 +1,194 @@
+body {
+  background: #548;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, button, a {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h4 a {
+  color: white;
+  font-weight: inherit;
+  text-decoration: underline;
+}
+
+h4 a:hover {
+  color: #FFB440;
+}
+
+@media (min-width: 1400px) {
+  .wrapper {
+    width: 700px !important;
+  }
+}
+
+@media (max-width: 790px) {
+  .wrapper {
+    width: 100% !important;
+  }
+
+  ol li p:nth-child(3) {
+    text-align: left !important;
+  }
+
+  ol li a {
+    padding: 3px !important;
+  }
+}
+
+.row {
+  margin: 0;
+}
+
+.navigation-wrapper {
+  position: fixed;
+  top: 17%;
+}
+
+  .navigation-wrapper h1 {
+    margin-left: 10%;
+    font-family: "Roboto Condensed-Light", sans-serif;
+  }
+
+    .navigation-wrapper ul {
+       list-style-type: none;
+    }
+
+      .navigation-wrapper li {
+        margin-bottom: 11px;
+      }
+
+      .navigation-wrapper li a {
+        color: #D9CCFF;
+        font-size: 18px;
+        padding: 4px;
+      }
+
+
+.download-button {
+  margin-top: 44%;
+}
+
+  .download-button a {
+    font-size: 24px;
+    color: white;
+    border: 1px solid #D9CCFF;
+    padding: 9px;
+    border-radius: 5px;
+    margin-left: 15%;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+    .download-button a:hover {
+      background: #7052CC;
+    }
+
+.wrapper {
+  width: 72%;
+  margin-top: 5%;
+}
+
+.wrapper .title-container {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 15%;
+}
+
+.wrapper .title {
+  font-family: "Roboto Condensed-Light", sans-serif;
+  text-align: center;
+  font-size: 29px;
+  width: 70%;
+  float: left;
+  padding: 0 2%;
+  color: white;
+}
+
+.wrapper .hr-title {
+  background: #fff;
+  height: 2px;
+  width: 14%;
+  margin-top: 33px;
+  float: left;
+}
+
+.wrapper .heading {
+  text-align: center;
+  font-size: 40px;
+}
+
+.wrapper .heading h1 {
+  padding-bottom: 10px;
+}
+
+.list-of-reasons-container {
+  text-align: left;
+}
+
+ol li p:first-child {
+  color: #FFB440;
+}
+
+  ol li p:first-child a {
+    color: rgb(147, 190, 255);
+    text-decoration: underline;
+  }
+
+  ol li p:first-child a:hover {
+    color: #FFB440;
+    text-decoration: underline;
+  }
+
+ol li p:nth-child(2) {
+  font-size: 20px;
+}
+
+ol li p:nth-child(3) {
+  text-align: right;
+}
+
+  ol li p:nth-child(3) a {
+    color: #D9CCFF;
+    font-size: 18px;
+    border: 1px solid;
+    padding: 9px;
+    transition: all 0.2s;
+  }
+  ol li p:nth-child(3) a:hover {
+    border: 1px solid;
+    background: #7052CC;
+    color: white;
+    text-decoration: none;
+  }
+
+ol li p:nth-child(4) {
+  text-align: right;
+}
+
+ol li {
+  font-size: 25px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 200;
+  padding-bottom: 30px;
+  float: left;
+  width: 100%;
+}
+
+.note-on-content {
+  font-size: 14px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.51);
+}
+
+.note-on-content a {
+  color: rgb(147, 190, 255);
+  text-decoration: underline;
+}
+
+.note-on-content a:hover {
+  color: #FFB440;
+  text-decoration: underline;
+}

@@ -1,7 +1,12 @@
+[![build status](https://ci.gitlab.com/projects/1873/status.png?ref=master)](https://ci.gitlab.com/projects/1873?ref=master)
+
+# Contributing
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md)
+
 # Deploying
 
 It is sufficient to merge or push to master and site will be automatically deployed.
-For more info see [documentation](doc/autodeploy.md)
 
 Manual:
 
@@ -58,12 +63,16 @@ Use the following tag after the opening paragraph to make it an acceptable size 
 
     <!-- more -->
 
+Add your post's image to the 'images' file in this project. You'll need to do it through your local repository.
+
 Add the following to the top of a blog post (between the --- markers) and it will format it as a full bleed image.
 
     image_title: '/images/unspash/hardware.jpg'
 
+When you add information about features or changes in GitLab CE, EE or CI, make it clear on which one users will be able to find these features or changes.
+
 # Image Guidelines
-When adding images to the site, please avoid using largely sized images, as they drastically decrease load on the server and make the experience poor for the user. 
+When adding images to the site, please avoid using largely sized images, as they drastically increase load on the server and make the experience poor for the user.
 Also make sure to compress the images as much as possible (use online resource, Photoshop, however you'd like)
 
 You can find images at unsplash.com and then compress them at tinypng.com.
@@ -77,6 +86,8 @@ You can link to the authors twitter account with:
 * [Autodeploy](doc/autodeploy.md)
 * [Recurly](doc/recurly.md)
 * [Redirects](doc/redirect_blogposts_org_to_com.md)
+* [Add a team member to GitLab's website's step by step](add_member_to_team_page.md)
+* [Create a new markdown page](md_page.md)
 
 ## Create release blog post
 

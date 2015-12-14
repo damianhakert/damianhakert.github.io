@@ -1,0 +1,167 @@
+---
+layout: default
+title: Download GitLab Enterprise Edition (EE)
+extra_css:
+  - downloads.css
+extra_js:
+  - downloads.js
+platforms:
+- name: ubuntu1204
+  long_name: Ubuntu 12.04
+  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ee
+  install_commands_manual: dpkg -i gitlab-ee-XXX.deb
+  dependency_commands: |
+                     sudo apt-get install curl openssh-server ca-certificates postfix
+- name: ubuntu1404
+  long_name: Ubuntu 14.04 (recommended, for 15.04 select and download the package manually)
+  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ee
+  install_commands_manual: dpkg -i gitlab-ee-XXX.deb
+  dependency_commands: |
+                    sudo apt-get install curl openssh-server ca-certificates postfix
+
+- name: debian7
+  long_name: Debian 7
+  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ee
+  install_commands_manual: dpkg -i gitlab-ee-XXX.deb
+  dependency_commands: |
+                    sudo apt-get install curl openssh-server ca-certificates postfix
+- name: debian8
+  long_name: Debian 8
+  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ee
+  install_commands_manual: dpkg -i gitlab-ee-XXX.deb
+  dependency_commands: |
+                    sudo apt-get install curl openssh-server ca-certificates postfix
+- name: centos6
+  long_name: CentOS 6 (and RedHat/Oracle/Scientific Linux 6)
+  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
+  install_commands: |
+                    sudo yum install gitlab-ee
+  install_commands_manual: rpm -i gitlab-ee-XXX.rpm
+  dependency_commands: |
+                    sudo yum install curl openssh-server postfix cronie
+                    sudo service postfix start
+                    sudo chkconfig postfix on
+
+  firewall_open: sudo lokkit -s http -s ssh
+- name: centos7
+  long_name: CentOS 7 (and RedHat/Oracle/Scientific Linux 7)
+  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
+  install_commands: |
+                    sudo yum install gitlab-ee
+  install_commands_manual: rpm -i gitlab-ee-XXX.rpm
+  dependency_commands: |
+                    sudo yum install curl openssh-server
+                    sudo systemctl enable sshd
+                    sudo systemctl start sshd
+                    sudo yum install postfix
+                    sudo systemctl enable postfix
+                    sudo systemctl start postfix
+  firewall_open: |
+                    sudo firewall-cmd --permanent --add-service=http
+                    sudo systemctl reload firewalld
+---
+<div class="wrapper container">
+
+  <div class="row graphic-menu">
+
+    <div class="col-md-3 hidden-sm hidden-xs">
+      <img src="/images/downloads/logo.svg" class="img-responsive pack-fox">
+    </div>
+
+    <div class="col-md-9">
+      <div class="installation-instructions">
+
+        <h2 class="heavy">Install a GitLab EE Omnibus package on</h2>
+
+        <!-- dropdown button -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle btn-lg" data-toggle="dropdown" onClick="_gaq.push(['_trackEvent', 'Downloads', 'OS Select', 'Dropdown Open']);">
+            Select Operating System <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+          {% for platform in page.platforms %}
+            <li><a href="#{{platform.name}}" onClick="_gaq.push(['_trackEvent', 'Downloads', 'OS Select', '#{{platform.name}}']);">{{platform.long_name}}</a></li>
+          {% endfor %}
+          </ul>
+        </div>
+
+        <!-- / dropdown button -->
+        <div id="tabs">
+          {% for platform in page.platforms %}
+          <div class="tab" id="{{platform.name}}">
+
+            <div class="tab-step">
+              <p>
+                <i class="glyphicons-circle_info green"></i> Check if your server meets <a class="green" href="http://doc.gitlab.com/ce/install/requirements.html">the hardware requirements</a>
+              </p>
+            </div>
+            <div class="tab-step">
+              <h4>1. Install and configure the necessary dependencies</h4>
+              <p>
+                If you install Postfix to send email please select 'Internet Site' during setup.
+                Instead of using Postfix you can also use Sendmail or <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/settings/smtp.md">configure a custom SMTP server</a>.
+                If you wish to use Exim, please <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/settings/smtp.md#smtp-on-localhost">configure it as an SMTP server.</a>
+              </p>
+              <p>
+              On Centos 6 and 7, the commands below will also open HTTP and SSH access in the system firewall.
+              </p>
+              <p>
+                <pre>{{platform.dependency_commands}}{{platform.firewall_open}}</pre>
+              </p>
+            </div>
+            <div class="tab-step">
+              <h4>2. Add the GitLab package server and install the package.</h4>
+              <p>
+              <pre>{{platform.download_command}}
+{{platform.install_commands}}</pre>
+              If you are not comfortable installing the repository through a
+              piped script, you can find the <a href="https://packages.gitlab.com/gitlab/gitlab-ee/install">entire script here</a>.
+              </p>
+              Alternatively you can <a href="https://packages.gitlab.com/gitlab/gitlab-ee">select and download the package manually</a> and install using
+              <pre>{{platform.install_commands_manual}}</pre>
+            </div>
+
+            <div class="tab-step">
+              <h4>3. Configure and start GitLab</h4>
+              <p>
+                <pre>sudo gitlab-ctl reconfigure</pre>
+              </p>
+            </div>
+
+            <div class="tab-step">
+              <h4>4. Browse to the hostname and login</h4>
+              <p>
+                Username: root
+                <br />
+                Password: 5iveL!fe
+              </p>
+            </div>
+
+            <div class="tab-step">
+              <h4>5. Upload your license</h4>
+              Go to <code>Admin > License</code> and upload your <code>.gitlab-license</code> file.
+              <br>
+              Don't have a license yet? <a href="/pricing" class="green">Get a subscription.</a>
+            </div>
+
+            <div class="tab-step">
+              <p>
+                <i class="glyphicons-circle_info green"></i> For configuration and troubleshooting options please see the <a class="green" href="http://doc.gitlab.com/omnibus/">Omnibus GitLab documentation</a>
+              </p>
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+      </div>
+      {% include other_download_links_ee.html %}
+    </div>
+  </div>
+</div>

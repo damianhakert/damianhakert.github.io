@@ -1,0 +1,278 @@
+---
+layout: default
+title: GitLab compared to other tools
+suppress_header: true
+extra_css:
+  - comparison.css
+---
+<div class="row">
+  <div class="hidden-xs hidden-sm col-md-3">
+    <div class="navigation-wrapper">
+      <div class="navigation-reasons">
+        <ul>
+          <li><a href="#gitlab-ce-vs-ee">GitLab CE vs. GitLab EE</a></li>
+          <li><a href="#gitlab-vs-github">GitLab vs. GitHub</a></li>
+          <li><a href="#gitlab-ee-vs-github-enterprise">GitLab EE vs. GitHub Enterprise</a></li>
+          <li><a href="#gitlab-com-vs-github-com">GitLab.com vs. GitHub.com</a></li>
+          <li><a href="#gitlab-vs-bitbucket-server">GitLab CE/EE vs. Bitbucket Server</a></li>
+          <li><a href="#gitlab-vs-saas">GitLab CE/EE vs. SaaS</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-sm-12 col-md-9">
+    <div class="wrapper">
+      <div class="heading">
+        <h1>GitLab compared to other tools</h1>
+        <p class="note-on-content">
+          Since GitLab people wrote them the comparisons here might be biased.
+          Nonetheless we try hard to ensure the comparisons are fair and factual.
+          If you find something that is invalid, biased or out of date in the comparisons,
+          please open a
+          <a href="https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests">merge request for this website</a>
+           to correct it.
+          As on all the pages on this website you can find a link to this page in the repository in the footer.
+        </p>
+      </div>
+
+      <div class="title-container">
+        <div class="hr-title"></div>
+        <h3 class="title" id="gitlab-ce-vs-ee">GitLab CE vs. GitLab EE</h3>
+        <div class="hr-title"></div>
+      </div>
+
+      <div class="list-of-reasons-container">
+        <ol>
+          <h4>To learn more about how GitLab Community Edition compares to GitLab Enterprise Edition, take a look at <a href="https://about.gitlab.com/features/#compare">the comparison table on our features page</a>.</h4>
+        </ol>
+      </div>
+
+      <div class="title-container">
+        <div class="hr-title"></div>
+        <h3 class="title" id="gitlab-vs-github">GitLab vs. GitHub</h3>
+        <div class="hr-title"></div>
+      </div>
+
+      <div class="list-of-reasons-container">
+        <ol>
+          <li id="multiple-authentication-levels">
+            <p>Multiple authentication Levels</p>
+            <p>Set permissions according to people's role, rather than either read or write access to a repository. Don't share the source code with people that only need access to the issue tracker.</p>
+            <p>
+              <a href="http://doc.gitlab.com/ce/permissions/permissions.html">See the various authentication levels</a>
+            </p>
+          </li>
+          <li id="group-level-milestones">
+            <p>Group level milestones</p>
+            <p>View all the issues for the milestone you’re currently working on across multiple projects.</p>
+            <p><a href="https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2">Example milestone for GitLab 8.2 with 4 projects</a></p>
+          </li>
+          <li id="attachments-in-issues">
+            <p>Attachments in issues</p>
+            <p>In GitLab you can attach any file to any issue or comment.</p>
+          </li>
+          <li id="innersourcing">
+            <p>Innersourcing</p>
+            <p>Internal projects in GitLab allow you to promote innersourcing of your internal repositories.</p>
+            <p><a href="https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/">Find out more about innersourcing</a></p>
+          </li>
+          <li id="wip-protection">
+            <p>Work-in-Progress Protection</p>
+            <p>Simply add 'WIP' to the title of a merge request to prevent anyone from merging
+              it. This gives you all the code review power of merge requests,
+              while protecting unfinished work.</p>
+            <p><a href="http://doc.gitlab.com/ce/workflow/wip_merge_requests.html">WIP Merge documentation</a></p>
+          </li>
+        </ol>
+      </div>
+
+      <div class="title-container">
+        <div class="hr-title"></div>
+        <h3 class="title" id="gitlab-ee-vs-github-enterprise">GitLab EE vs. GitHub Enterprise</h3>
+        <div class="hr-title"></div>
+      </div>
+
+      <div class="list-of-reasons-container">
+        <ol>
+          <li>
+            <p>Everything mentioned in GitLab versus GitHub</p>
+          </li>
+
+          <li id="gitlab-handles-huge-repositories-well">
+            <p>GitLab handles huge repositories well</p>
+            <p>
+              Big repository? No problem. GitLab is built to handle very large repositories. Huge (binary) files? Keep reading for GitLab Annex!
+            </p>
+          </li>
+
+          <li id="rebase-before-merge-in-the-web-ui-to-prevent-merge-commits">
+            <p>Rebase before merge in the web UI to prevent merge commits</p>
+            <p>Before merging one branch in the other, GitLab can rebase it automatically.</p>
+            <p><a href="https://about.gitlab.com/2014/12/22/gitlab-7-6-and-ci-5-3-released/">See how to prevent merge commits</a></p>
+          </li>
+
+          <li id="access-to-the-server">
+            <p>Access to the server</p>
+            <p>You have complete control of the server/instance, so you can install additional software (intrusion detection, performance monitoring, etc.) and view log files on the server itself.</p>
+            <p><a href="http://doc.gitlab.com/ce/logs/logs.html">Learn more about logging</a></p>
+          </li>
+
+          <li id="runs-on-metal">
+            <p>Runs on metal</p>
+            <p>You can run GitLab fully on metal. No need for pre-supplied VMs. Run GitLab on your infrastructure, however you like.</p>
+          </li>
+
+          <li  id="more-users-on-a-single-server">
+            <p>Run more users on a single server</p>
+            <p>A single machine server handles thousands of users and repositories</p>
+          </li>
+
+          <li id="multiple-active-servers-and-other-ha-setups">
+            <p>Multiple active servers and other HA setups</p>
+            <p>Run GitLab on a single instance or distribute it over a cluster. GitLab offers multiple HA solutions, making it possible to scale however you like.</p>
+            <p><a href="https://about.gitlab.com/high-availability/">More information about active servers</a></p>
+          </li>
+
+          <li id="run-your-own-software-on-your-instance">
+            <p>Run your own software on your instance</p>
+            <p>You are free to run your own software on the instance that GitLab is running on. Have your own intrusion detection system? No problem.</p>
+          </li>
+
+          <li id="use-your-configuration-management-software">
+            <p>Use your configuration management software</p>
+            <p>Use configuration management software of your choice to manage GitLab. Puppet, Chef, Ansible, it all works.</p>
+            <p><a href="https://about.gitlab.com/installation/">Read about configuration management here</a></p>
+          </li>
+
+          <li id="use-standard-unix-tools-for-maintenance-and-monitoring">
+            <p>Use standard unix tools for maintenance and monitoring</p>
+            <p>Use your own or standard Unix tools for monitoring and maintenance. GitLab doesn't restrict you.</p>
+          </li>
+
+          <li id="built-in-continuous-integration-tool">
+            <p>Built-in Continuous Integration tool</p>
+            <p>Easy-to-set up, performant, stable and elegant continuous integration with every GitLab installation.</p>
+            <p><a href="http://doc.gitlab.com/ci/">Learn about the benefits of our CI tool</a></p>
+          </li>
+
+          <li id="powerful-ad-ldap-integration">
+            <p>Powerful AD / LDAP integration</p>
+            <p>Sync groups, manage SSH-keys, manage permissions, authentication and more. You can manage an entire GitLab instance through the LDAP / AD integration.</p>
+            <p><a href="http://doc.gitlab.com/ee/integration/ldap.html">More information about AD / LDAP integration</a></p>
+          </li>
+
+          <li id="approve-merge-requests">
+            <p>Approvals in code review</p>
+            <p>To ensure strict code review, you can require a specific number of approvals
+              on a merge request by different users before being able to merge it.</p>
+            <p><a href="http://doc.gitlab.com/ee/workflow/merge_request_approvals.html">Approvals Documentation</a></p>
+          </li>
+
+          <li id="most-installed-on-premises-git-solutions">
+            <p>Most installed on-premises Git solution</p>
+            <p>
+              GitLab is used by over 100,000 organizations worldwide,
+              on their own servers.
+            </p>
+          </li>
+        </ol>
+      </div>
+
+      <div class="title-container">
+        <div class="hr-title"></div>
+        <h3 class="title" id="gitlab-com-vs-github-com">GitLab.com vs. GitHub.com</h3>
+        <div class="hr-title"></div>
+      </div>
+
+      <div class="list-of-reasons-container">
+        <ol>
+          <li>
+            <p>Everything mentioned in GitLab versus GitHub</p>
+          </li>
+          <li id="unlimited-public-and-private-repositories-for-free">
+            <p>Unlimited public & private repositories and unlimited collaborators for free.</p>
+          </li>
+          <li id="gitlab-ee-features-on-com">
+            <p>GitLab.com runs GitLab Enterprise Edition with all it's features.</p>
+          </li>
+          <li id="free-ci">
+            <p>GitLab.com has free <a href="/gitlab-ci">GitLab CI</a> if you bring you own runner or use the shared ones.</p>
+          </li>
+        </ol>
+      </div>
+
+      <div class="title-container">
+        <div class="hr-title"></div>
+        <h3 class="title" id="gitlab-vs-bitbucket-server">GitLab vs. Bitbucket Server</h3>
+        <div class="hr-title"></div>
+      </div>
+
+      <div class="list-of-reasons-container">
+        <ol>
+
+          <li id="built-in-continuous-integration-tool">
+            <p>Built-in Continuous Integration tool</p>
+            <p>Easy-to-set up, performant, stable and elegant continuous integration with every GitLab installation.</p>
+            <p><a href="http://doc.gitlab.com/ci/">Learn about the benefits of our CI tool</a></p>
+          </li>
+
+          <li id="all-in-one">
+            <p>Everything you need in one solution</p>
+            <p>To replace GitLab, you'd need a combination of Bitbucket server, JIRA, Confluence, and Bamboo.</p>
+          </li>
+
+          <li id="integrated-issue-tracking">
+            <p>Intregrated issue tracking</p>
+            <p>GitLab has integrated issue tracking which you can link to any merge request.</p>
+            <p><a href="https://gitlab.com/gitlab-org/gitlab-ce/issues">Issue Tracker</a></p>
+          </li>
+
+          <li id="no-activity-feed">
+            <p>Better activity feed and visualization</p>
+            <p>Collaborative activity feed to help everyone understand what is happening in a project and graphical view of the commit history.</p>
+            <p><a href="https://gitlab.com/gitlab-org/gitlab-ce/activity">See Our Activity Feed</a></p>
+          </li>
+        </ol>
+      </div>
+
+      <div class="title-container">
+        <div class="hr-title"></div>
+        <h3 class="title" id="gitlab-vs-saas">GitLab CE/EE vs. SaaS</h3>
+        <div class="hr-title"></div>
+      </div>
+
+      <div class="list-of-reasons-container">
+        <ol>
+         <li id="containment">
+            <p>Containment</p>
+            <p>Containing your company's IP behind the company's firewall gives you protection from unauthorized access. Learn from the lessons of Code Space:</p>
+            <p><a href="http://www.infoworld.com/article/2608076/data-center/murder-in-the-amazon-cloud.html">Lessons from Code Space</a></p>
+          </li>
+
+          <li id="integrations">
+            <p>Integrations</p>
+            <p>Integrating with Authentication and Authorization (LDAP / AD), issue tracking, CI, deployment and other tools such as ALM, PLM, Agile and Automation tools.</p>
+          </li>
+
+          <li id="control">
+            <p>Control</p>
+            <p>Take control of maintenance downtime, don't be at the mercy of your hosting provider. Control how and where your code is backed up and stored.</p>
+          </li>
+          <li id="choice-and-flexibility">
+            <p>Choice and Flexibility</p>
+            <p>GitLab CE/EE can be installed on physical servers, virtualized servers (dedicated or shared), purpose-built appliances and virtualized appliances. These aren’t available with hosted solutions. Likewise, most on-premise servers can be deployed on a variety of operating systems and there’s more choice of on-premise solutions in general.</p>
+          </li>
+          <li id="retrieval">
+            <p>Retrieval</p>
+            <p>Getting your IP back from cloud vendors that store data in proprietary formats can be a costly and lengthy process. No such trouble with GitLab CE/EE.</p>
+          </li>
+          <li id="in-good-company">
+            <p>In good company</p>
+            <p>GitLab is the most adopted on-premise solution for developer collaboration, deployed at over 100,000 organizations worldwide.</p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>

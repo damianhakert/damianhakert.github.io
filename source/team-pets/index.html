@@ -1,0 +1,89 @@
+---
+layout: default
+title: Team Pets
+suppress_header: true
+extra_css:
+  - team.css
+team_members:
+- name: Maçã
+  picture: pets/maca.jpg
+  story:  |
+          Maca loves to play with plastic bottles and sleep on any surface
+          near her owners.
+- name: Kirei
+  picture: pets/kirei.jpg
+  story: |
+          Batman?
+- name: Lola
+  picture: pets/lola.jpg
+  story: |
+          Super hip and fashionable. Lola likes snacks, naps and snacks.
+- name: Ramona
+  picture: pets/ramona.jpg
+  story: |
+          Loves the beach.
+- name: Sadie
+  picture: pets/sadie.jpg
+  story: |
+          Lick Bull Terrier. So cute. Keeps <a href="http://everybodylovessadie.blogspot.com/">her own blog</a>.
+- name: Asti
+  picture: pets/asti.jpg
+  story: |
+          Woof! And smile
+- name: Winston and Benny
+  picture: pets/winston_benny.jpg
+  story: |
+         A three-legged Pit Bull and a Cocker Spaniel. Odd but loveable brothers.
+- name: Mouse
+  picture: pets/mouse.jpg
+  story: |
+         Laser pointer enthusiast, loves clean sheets. Sits where he fits,
+         preferably on top of his human.
+- name: Humpf
+  picture: pets/Humpf.jpeg
+  story: |
+         Well-trained black lab with a love for carrots and naps. 
+- name: You?
+  picture: logo-extra-whitespace.png
+  story:  |
+          Want to see your name and picture here? Ask your owner/servant to check out our latest <a href="http://about.gitlab.com/jobs/">job openings!</a>
+---
+
+<div class="wrapper">
+  <div class="container">
+    <div class="team-head">
+      <h1>MEET OUR <b>PETS</b></h1>
+    </div>
+
+    <div class="row">
+      {% for member in page.team_members %}
+        <div class="col-sm-4 ">
+          <div class="member pet">
+
+            <div class="card">
+              <figure class="front">
+                <img src="../images/team/{{member.picture}}" alt="gitlab.com" width="200" height="200">
+                <h3>{{member.name}}</h3>
+                <h4>{{member.role}}</h4>
+                <div class="social">
+                  {% if member.twitter %}
+                    <a href="https://twitter.com/{{member.twitter}}">Twitter</a>
+                  {% endif %}
+                  {% if member.gitlab %}
+                    <a href="https://gitlab.com/u/{{member.gitlab}}">GitLab</a>
+                  {% endif %}
+                </div>
+                <ul>
+                  {{member.maintains}}
+                </ul>
+                <p style="padding: 25px;">
+                  {{member.story}}
+                </p>
+              </figure>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+    </div>
+  </div>
+</div>

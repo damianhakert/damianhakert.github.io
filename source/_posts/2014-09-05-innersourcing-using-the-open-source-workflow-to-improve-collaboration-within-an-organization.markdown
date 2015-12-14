@@ -7,7 +7,7 @@ author: Sytse Sijbrandij
 categories: 
 ---
 
-Open source development has shown that volunteers can produce amazing software such a the Linux kernel that runs both on smartphones and supercomputers.
+Open source development has shown that volunteers can produce amazing software such as the Linux kernel that runs both on smartphones and supercomputers.
 The workflow used by open source projects helps to explain why these worldwide communities of volunteers are able to cooperate so effectively.
 Similarly, in large organizations software developers are spread out across many departments and they do not frequently meet in person nor do they report to the same boss.
 To improve collaboration within the enterprise some companies are starting to take advantage of the same workflow used by open source projects.

@@ -20,10 +20,10 @@ extra_css:
                 <div class="col-sm-12 blog-entry">
                   {% if page.image_title == nil %}
                     <h1 class="title">{{ page.title }}</h1>
-                    <h4 class="date">{% include post/date.html %}{{ time }}</h4>
+                    <h4 class="date">{% include post/date.html %}{{ date | date: "%b %e, %Y"}}</h4>
                     <hr class="blog-title-divider">
                   {% else %}
-                    <h4 class="date">{% include post/date.html %}{{ time }}</h4>
+                    <h4 class="date">{% include post/date.html %}{{ date | date: "%b %e, %Y"}}</h4>
                   {% endif %}
 
                   {{ content }}
@@ -33,7 +33,6 @@ extra_css:
                   <p>&rarr; <a href="/blog/archives.html">Browse all posts</a></p>
 
                   {% include newsletter_signup.html %}
-
 
                   <div id="disqus_thread"></div>
                   <script type="text/javascript">

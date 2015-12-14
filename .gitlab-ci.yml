@@ -1,0 +1,27 @@
+test:
+  script:
+    - pwd
+    - git rev-parse HEAD
+    - export LC_ALL=en_US.UTF-8
+    - ''
+    - bundle install --path ~/bundle
+    - ''
+    - "# build without deploying, so that we know if a MR is horribly broken"
+    - bundle exec rake build
+  tags:
+  except:
+  - tags
+deploy:
+  script:
+    - pwd
+    - export LC_ALL=en_US.UTF-8
+    - ''
+    - bundle install --path ~/bundle
+    - bundle exec rake build
+    - rsync -r --delete-after public/ ~/public/
+  type: deploy
+  tags:
+  only:
+    - master
+  except:
+  - tags

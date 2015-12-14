@@ -1,0 +1,121 @@
+---
+layout: default
+title: Upgrade to the package repository
+suppress_header: true
+extra_css:
+  - update.css
+---
+
+<div class="simple-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12">
+        <h1>Upgrading to the package repository</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="wrapper container">
+  <div class="content-wrap">
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h2 class="panel-title">
+          About the package repository
+        </h2>
+      </div>
+      <div class="panel-body">
+        With GitLab 7.10 we have introduced the package repositories for GitLab,
+        that allow you to install GitLab with a simple 'apt-get' command.
+        <br><br>
+        If you are coming from a manually downloaded Omnibus package,
+        you can quickly and easily upgrade. Find the instructions for <a href="#debian">Debian /
+        Ubuntu here</a> and the instructions for <a href="#centos">CentOS here</a>.
+      </div>
+    </div>
+
+    <div class="panel panel-success" id="debian">
+      <div class="panel-heading">
+        <h2 class="panel-title">
+          Ubuntu / Debian: Upgrading from manually downloaded Omnibus package
+        </h2>
+      </div>
+      <div class="panel-body">
+        To upgrade you will need to add the package repository to your
+        system first.
+        <br><br>
+        Call the following script for easy installation:
+        <br>
+        <pre>curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+</pre>
+        If you are not comfortable installing the repository through a
+        piped script, you can find the <a href="https://packages.gitlab.com/gitlab/gitlab-ce/install">entire script here</a>.
+        <br>
+
+        Now you will be able to install / upgrade GitLab to the latest version
+        using the package repository. When running the command below,
+        GitLab will detect a conflict and remove <code>gitlab</code> in favor
+        of <code>gitlab-ce</code>. This will leave your data intact.
+        <br>
+        <br>
+
+        To upgrade, run:
+        <pre>sudo apt-get install gitlab-ce</pre>
+        <br>
+
+        You are now ready to use GitLab again!
+      </div>
+    </div>
+
+    <div class="panel panel-warning" id="centos">
+      <div class="panel-heading">
+        <h2 class="panel-title">
+          CentOS: Upgrading from manually downloaded Omnibus package
+        </h2>
+      </div>
+      <div class="panel-body">
+        To upgrade you will need to add the package repository to your
+        system first.
+        <br><br>
+        Use the following:
+        <pre>curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash</pre>
+        If you are not comfortable installing the repository through a
+        piped script, you can find the <a href="https://packages.gitlab.com/gitlab/gitlab-ce/install">entire script here</a>.
+        <br><br>
+
+        Now you will be able to install / upgrade GitLab to the latest version
+        using the package repository. When running the command below,
+        GitLab will detect a conflict and remove <code>gitlab</code> in favor
+        of <code>gitlab-ce</code>. This will leave your data intact.
+        <br>
+        <br>
+
+        To upgrade, run:
+        <pre>sudo yum install gitlab-ce</pre>
+        <br>
+
+        Due to the order in which RPM post-removal and post-installations scripts run,
+        the change from <code>gitlab</code> to <code>gitlab-ce</code> removes
+        <code>/user/bin/gitlab-ctl</code> and related commands. This does not affect
+        Debian-based systems (Debian, Ubuntu).
+        <br><br>
+         As a workaround on RPM-based systems, please run the following command
+         <i>after</i> upgrading to the package repository, the first time:
+         <br>
+         <pre>sudo ln -sf                       \
+  /opt/gitlab/bin/gitlab-ctl      \
+  /opt/gitlab/bin/gitlab-rake     \
+  /opt/gitlab/bin/gitlab-rails    \
+  /opt/gitlab/bin/gitlab-ci-rake  \
+  /opt/gitlab/bin/gitlab-ci-rails \
+  /usr/bin/</pre>
+        Note that the post-install message of the package will also tell you to make this change.
+
+        <br><br>
+        Now you're ready to use GitLab again!
+      </div>
+    </div>
+
+  </div>
+</div>

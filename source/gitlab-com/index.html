@@ -4,8 +4,6 @@ title: GitLab.com
 suppress_header: true
 extra_css:
   - gitlab-com.css
-extra_js:
-  - gitlab-com.js
 ---
 
 <div class="wrapper">
@@ -15,21 +13,21 @@ extra_js:
         <h1>GitLab.com</h1>
         <h3>GitLab.com hosts your (private) software projects for free</h3>
         <div class="header">
-         <a href="https://gitlab.com/users/sign_in" id="join-community">Sign Up</button></a>
+         <a href="https://gitlab.com/users/sign_in" id="join-community" class="gs-button">Sign Up</button></a>
         </div>
         <div class="header-feature hidden-sm hidden-xs">
           <ul>
             <li>
-              <i class="fa fa-chevron-down"></i>
-              <p>Free public and private repositories, issue-tracking and wikis.</p>
+              <i class="fa fa-check"></i>
+              <p>Free public and private repositories, issue tracking and wikis.</p>
             </li>
             <li>
-              <i class="fa fa-chevron-down"></i>
-              <p>It runs GitLab <b>Enterprise</b> Edition and GitLab CI.</p>
+              <i class="fa fa-check"></i>
+              <p>Runs GitLab <b>Enterprise</b> Edition</p>
             </li>
             <li>
-              <i class="fa fa-chevron-down"></i>
-              <p>No installation required, just sign up above for a free account!</p>
+              <i class="fa fa-check"></i>
+              <p>No installation required, sign up above for a free account!</p>
             </li>
           </ul>
         </div>
@@ -39,7 +37,7 @@ extra_js:
               <h4>Free private repositories, issue-tracking, wikis and continuous integration.</h4>
             </li>
             <li>
-              <h4>It runs GitLab Enterprise Edition and GitLab CI.</h4>
+              <h4>Runs GitLab Enterprise Edition.</h4>
             </li>
             <li>
               <h4>No installation required, just sign up above for a free account!</h4>
@@ -55,15 +53,15 @@ extra_js:
       <div class="row advantages">
         <div class="col-xs-1 col-md-1"></div>
         <div class="col-xs-12 col-md-5">
-          <h2>Advantages over GitHub</h2>
+          <h2>Advantages</h2>
           <ul>
               <li>Unlimited repositories</li>
               <li>Unlimited private collaborators</li>
-              <li>Unlimited disk space*</li>
+              <li>10GB disk space per project (including Git LFS)</li>
+              <li>Unlimited total disk space</li>
               <li>Completely free, no credit card required</li>
-              <li>Free Continuous Integration (CI) on <a href="https://ci.gitlab.com">ci.gitlab.com</a></li>
-              <p>* In the future we might charge for projects over 10GB</p>
           </ul>
+          <p><a href="https://gitlab.com/explore">Explore the public projects on GitLab.com</a> (no account needed)</p>
         </div>
         <div class="col-md-4 hidden-sm hidden-xs">
           <img src="/images/wordmark.png" alt="" />
@@ -73,11 +71,59 @@ extra_js:
 
       <hr class="divider" />
 
+      <div class="row users">
+        <div class="text-center users">
+          <h2>GitLab.com is used by more than 100,000 people,
+          <br>
+          including these organizations: </h2>
+          <br />
+        </div>
+        <div class="logos">
+          <div class="logo">
+            <div class="logo_ibm">
+              <img alt="image" src="/images/gitlab-com/ibm.png">
+            </div>
+          </div>
+          <div class="logo">
+            <div class="logo_samsung">
+              <img alt="image" src="/images/gitlab-com/samsung.png">
+            </div>
+          </div>
+          <div class="logo">
+            <div class="logo_spacex">
+              <img alt="image" src="/images/gitlab-com/spacex.png">
+            </div>
+          </div>
+          <div class="logo">
+            <div class="logo_microsoft">
+              <img alt="image" src="/images/gitlab-com/microsoft.png">
+            </div>
+          </div>
+          <div class="logo">
+            <div class="logo_shopify">
+              <img alt="image" src="/images/gitlab-com/shopify.png">
+            </div>
+          </div>
+          <div class="logo">
+            <div class="logo_ibm">
+              <img alt="image" src="/images/gitlab-com/toyota.png">
+            </div>
+          </div>
+        </div>
+        <br/>
+        <div class="disclaimer">
+          <small>All logos and trademarks are the property of their respective owners.</small>
+        </div>
+      </div>
+
+      <hr class="divider" />
+
       <div class="row support">
         <div class="col-xs-6 col-md-1"></div>
-        <div class="col-xs-6 col-md-5">
+        <div class="col-xs-6 col-md-4 txt-middle">
           <i class="fa fa-briefcase hidden-xs hidden-sm"></i>
         </div>
+        <div class="col-md-1 hidden-sm hidden-xs"></div>
         <div class="col-xs-12 col-md-6">
           <h2>Support Package</h2>
             <ul>
@@ -104,7 +150,7 @@ extra_js:
               <b>Completely free</b>
               <br>
               <br>
-              <a href="https://gitlab.com/users/sign_up" class="btn btn-lg btn-default">Create an account</a>
+              <a href="https://gitlab.com/users/sign_up" class="btn btn-lg btn-default">Sign up</a>
             </div>
           </div>
         </div>
@@ -122,7 +168,7 @@ extra_js:
               <b>Next-business day support</b>
               <br>
               <br>
-              <b>$9.90 per per user/year in multiples of 20 users</b>
+              <b>$9.99 per user, per year in multiples of 20 users</b>
               <br>
               <br>
               <a href="https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20" class="btn btn-lg btn-purple">Order support</a>
@@ -136,11 +182,30 @@ extra_js:
       <div class="row security">
         <div class="col-xs-1 col-md-1"></div>
         <div class="col-xs-12 col-md-6">
-          <h2>Availability/Security</h2>
+          <h2>Availability and Security</h2>
           <ul>
             <li>GitLab.com is monitored 24/7. For updates follow <a href="https://twitter.com/gitlabstatus">@gitlabstatus</a>
-              or see our <a title="status" href="http://status.gitlab.com/">status page</a>.</li>
-            <li>The public key fingerprint of gitlab.com when you connect over ssh is: f1:d0:fb:46:73:7a:70:92:5a:ab:5d:ef:43:e2:1c:35</li>
+              or see our <a title="status" href="https://status.gitlab.com/">status page</a>.</li>
+            <li>These are the fingerprints for GitLab.com's SSH host keys:
+              <ul>
+                <li>
+                  DSA<ul><li> MD5:7a:47:81:3a:ee:89:89:64:33:ca:44:52:3d:30:d4:87</li><li> SHA256:p8vZBUOR0XQz6sYiaWSMLmh0t9i8srqYKool/Xfdfqw</li></ul>
+                </li>
+                <li>
+                  ECDSA<ul><li> MD5:f1:d0:fb:46:73:7a:70:92:5a:ab:5d:ef:43:e2:1c:35</li><li> SHA256:HbW3g8zUjNSksFbqTiUWPWg2Bq1x8xdGUrliXFzSnUw</li></ul>
+                </li>
+                <li>
+                  ED25519<ul><li> MD5:2e:65:6a:c8:cf:bf:b2:8b:9a:bd:6d:9f:11:5c:12:16</li><li> SHA256:eUXGGm1YGsMAS7vkcx6JOJdOGHPem5gQp4taiCfCLB8</li></ul>
+                </li>
+                <li>
+                  RSA<ul><li> MD5:b6:03:0e:39:97:9e:d0:e7:24:ce:a3:77:3e:01:42:09</li><li> SHA256:ROQFvPThGrW4RuWLoL9tq9I9zJ42fK4XywyRtbOz/EQ</li></ul>
+                </li>
+              </ul>
+            </li>
+            <li>Our servers are hosted on Amazon Web Services (AWS) and Azure, we use configuration management, and we patch our servers at least once a week.</li>
+            <li>GitLab offers <a href="https://about.gitlab.com/2015/05/22/gitlab-7-11-released/">Two-Factor Authentication</a> (2FA) and our passwords are one-way encrypted.</li>
+            <li>GitLab.com sends emails from the <code>mg.gitlab.com</code> domain via Mailgun and has its own dedicated IP address for this: <code>198.61.254.240</code></li>
+            <li>GitLab.com can't be integrated with your LDAP server, if you need this please use <a href="https://about.gitlab.com/features/">GitLab CE or EE</a>.</li>
           </ul>
         </div>
         <div class="hidden-xs hidden-sm col-md-4">
@@ -156,13 +221,27 @@ extra_js:
         <div class="col-xs-12 col-md-6">
           <h2>Plenty of import options</h2>
           <ul>
-            <li>You can easily import all of your projects and repositories from GitHub, Bitbucket, and Gitorious with a single click.</li>
+            <li>You can easily import all of your projects, repositories and issues from GitHub with a single click.</li>
           </ul>
         </div>
         <div class="hidden-xs hidden-sm col-md-4">
           <div class="import-image"></div>
         </div>
         <div class="col-xs-1 col-md-1"></div>
+      </div>
+
+      <hr class="divider" />
+
+      <div class="row import">
+        <div class="col-xs-1 col-md-1"></div>
+        <div class="col-xs-12 col-md-6">
+          <h2 id="why-gitlab-com-will-be-free-forever">Why GitLab.com will be free forever</h2>
+              We want GitLab.com to become the most popular service for hosting projects.
+              To achieve this goal, GitLab.com is completely free, both for public and private projects. Unlike other companies in this space, there is no limit to the number of collaborators.
+              We think that in the future most repository hosting will be free in the same way email hosting is free today. So we thought, why wait? Let's make it free for everyone now.
+              Currently our subscriptions for GitLab on-premises bring in more than enough revenue to pay for hosting.
+              In the future we'll introduce a marketplace on GitLab.com where you can subscribe to additional services but we plan to keep the features you have now free.
+        </div>
       </div>
 
     </div>

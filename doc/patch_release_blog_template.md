@@ -5,9 +5,10 @@ date: YYYY-MM-DD
 comments: true
 categories:
 author: ADD_YOUR_FULL_NAME
+filename: FILENAME.MARKDOWN
 ---
 
-Today we release GitLab X.X.X CE, EE and GitLab CI X.X.X.
+Today we release GitLab X.X.X CE, EE, and GitLab CI X.X.X.
 
 
 GitLab X.X.X CE fixes:
@@ -33,15 +34,14 @@ GitLab X.X.X CI fixes:
 *** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
 *** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
 
-## Upgrading
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
+file](http://doc.gitlab.com/omnibus/update/README.html).
 
-Omnibus-gitlab packages for GitLab X.X.X are [now available](https://about.gitlab.com/downloads/).
+## Updating
 
-To upgrade a GitLab installation from source please use the
-[upgrader](http://doc.gitlab.com/ce/update/upgrader.html) or the [patch update
-guide](http://doc.gitlab.com/ce/update/patch_versions.html).
-
-To upgrade a GitLab CI installation from source, please use the [upgrade guide](https://gitlab.com/gitlab-org/gitlab-ci/blob/master/doc/update/patch_versions.md).
+To update, check out our [update page](https://about.gitlab.com/update).
 
 ## Enterprise Edition
 

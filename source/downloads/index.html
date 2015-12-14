@@ -8,49 +8,69 @@ extra_js:
 platforms:
 - name: ubuntu1204
   long_name: Ubuntu 12.04
-  download_command: wget https://downloads-packages.s3.amazonaws.com/ubuntu-12.04/gitlab_7.9.2-omnibus-1_amd64.deb
+  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
   install_commands: |
-                    sudo dpkg -i gitlab_7.9.2-omnibus-1_amd64.deb
+                    sudo apt-get install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/precise/gitlab-ce-XXX.deb/download
+                    dpkg -i gitlab-ce-XXX.deb
   dependency_commands: |
-                       sudo apt-get install openssh-server
-                       sudo apt-get install postfix
+                     sudo apt-get install curl openssh-server ca-certificates postfix
 - name: ubuntu1404
-  long_name: Ubuntu 14.04
-  download_command: wget https://downloads-packages.s3.amazonaws.com/ubuntu-14.04/gitlab_7.9.2-omnibus-1_amd64.deb
+  long_name: Ubuntu 14.04 (recommended, for 15.04 select and download the package manually)
+  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
   install_commands: |
-                    sudo dpkg -i gitlab_7.9.2-omnibus-1_amd64.deb
+                    sudo apt-get install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/trusty/gitlab-ce-XXX.deb/download
+                    dpkg -i gitlab-ce-XXX.deb
   dependency_commands: |
-                    sudo apt-get install openssh-server
-                    sudo apt-get install postfix
+                    sudo apt-get install curl openssh-server ca-certificates postfix
 
 - name: debian7
   long_name: Debian 7
-  download_command: wget https://downloads-packages.s3.amazonaws.com/debian-7.8/gitlab_7.9.2-omnibus-1_amd64.deb
+  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
   install_commands: |
-                    sudo dpkg -i gitlab_7.9.2-omnibus-1_amd64.deb
+                    sudo apt-get install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/debian/wheezy/gitlab-ce-XXX.deb/download
+                    dpkg -i gitlab-ce-XXX.deb
   dependency_commands: |
-                    sudo apt-get install openssh-server
-                    sudo apt-get install postfix
+                    sudo apt-get install curl openssh-server ca-certificates postfix
+- name: debian8
+  long_name: Debian 8
+  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/debian/jessie/gitlab-ce-XXX.deb/download
+                    dpkg -i gitlab-ce-XXX.deb
+  dependency_commands: |
+                    sudo apt-get install curl openssh-server ca-certificates postfix
 - name: centos6
   long_name: CentOS 6 (and RedHat/Oracle/Scientific Linux 6)
-  download_command: curl -O https://downloads-packages.s3.amazonaws.com/centos-6.6/gitlab-7.9.2_omnibus-1.el6.x86_64.rpm
+  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
   install_commands: |
-                    sudo rpm -i gitlab-7.9.2_omnibus-1.el6.x86_64.rpm
+                    sudo yum install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/el/6/gitlab-ce-XXX.rpm/download
+                    rpm -i gitlab-ce-XXX.rpm
   dependency_commands: |
-                    sudo yum install openssh-server
-                    sudo yum install postfix
-                    sudo yum install cronie
+                    sudo yum install curl openssh-server postfix cronie
                     sudo service postfix start
                     sudo chkconfig postfix on
 
   firewall_open: sudo lokkit -s http -s ssh
 - name: centos7
   long_name: CentOS 7 (and RedHat/Oracle/Scientific Linux 7)
-  download_command: curl -O https://downloads-packages.s3.amazonaws.com/centos-7.0.1406/gitlab-7.9.2_omnibus-1.el7.x86_64.rpm
+  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
   install_commands: |
-                    sudo rpm -i gitlab-7.9.2_omnibus-1.el7.x86_64.rpm
+                    sudo yum install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/el/7/gitlab-ce-XXX.rpm/download
+                    rpm -i gitlab-ce-XXX.rpm
   dependency_commands: |
-                    sudo yum install openssh-server
+                    sudo yum install curl openssh-server
                     sudo systemctl enable sshd
                     sudo systemctl start sshd
                     sudo yum install postfix
@@ -59,13 +79,36 @@ platforms:
   firewall_open: |
                     sudo firewall-cmd --permanent --add-service=http
                     sudo systemctl reload firewalld
+- name: raspberrypi2
+  long_name: Raspberry PI 2 on Raspbian
+  download_command: |
+                    sudo curl -o /etc/apt/sources.list.d/gitlab_ce.list "https://packages.gitlab.com/install/repositories/gitlab/raspberry-pi2/config_file.list?os=debian&dist=wheezy" && sudo apt-get update
+  install_commands: |
+                    sudo apt-get install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/raspberry-pi2/packages/debian/wheezy/gitlab-ce-XXX.deb/download
+                    dpkg -i gitlab-ce-XXX.deb
+  dependency_commands: |
+                    sudo apt-get install curl openssh-server ca-certificates postfix apt-transport-https
+                    curl https://packages.gitlab.com/gpg.key | sudo apt-key add -
+
+
 ---
 <div class="wrapper container">
 
   <div class="row graphic-menu">
 
     <div class="col-md-3 hidden-sm hidden-xs">
-      <img src="/images/downloads/omnibus.gif" class="img-responsive pack-fox">
+      <img src="/images/downloads/logo.svg" class="img-responsive pack-fox">
+
+      <p class="newsletter-preamble">
+        Sign up for our monthly newsletter to stay up-to-date with new features, security updates
+        and product releases.
+      </p>
+
+      <script src="//app-ab13.marketo.com/js/forms2/js/forms2.min.js"></script>
+      <form id="mktoForm_1070"></form>
+      <script>MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1070);</script>
     </div>
 
     <div class="col-md-9">
@@ -92,7 +135,7 @@ platforms:
 
             <div class="tab-step">
               <p>
-                <i class="glyphicons-circle_info green"></i> Check if your server meets <a class="green" href="http://doc.gitlab.com/ce/install/requirements.html">the hardware requirements</a>
+                <i class="glyphicons-circle_info green"></i> Check if your server meets <a class="green" href="http://doc.gitlab.com/ce/install/requirements.html">the hardware requirements.</a> GitLab packages are built for 64bit systems. For 32bit OS, consider <a class="green" href="https://about.gitlab.com/installation/">alternative installation methods.</a>
               </p>
             </div>
             <div class="tab-step">
@@ -100,7 +143,7 @@ platforms:
               <p>
                 If you install Postfix to send email please select 'Internet Site' during setup.
                 Instead of using Postfix you can also use Sendmail or <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/settings/smtp.md">configure a custom SMTP server</a>.
-                Do not use Exim to send email from GitLab.
+                If you wish to use Exim, please <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/settings/smtp.md#smtp-on-localhost">configure it as an SMTP server.</a>
               </p>
               <p>
               On Centos 6 and 7, the commands below will also open HTTP and SSH access in the system firewall.
@@ -110,11 +153,15 @@ platforms:
               </p>
             </div>
             <div class="tab-step">
-              <h4>2. Download the Omnibus package and install everything</h4>
+              <h4>2. Add the GitLab package server and install the package</h4>
               <p>
               <pre>{{platform.download_command}}
 {{platform.install_commands}}</pre>
+              If you are not comfortable installing the repository through a
+              piped script, you can find the <a href="https://packages.gitlab.com/gitlab/gitlab-ce/install">entire script here</a>.
               </p>
+              Alternatively you can <a href="https://packages.gitlab.com/gitlab/gitlab-ce">select and download the package manually</a> and install using
+              <pre>{{platform.install_commands_manual}}</pre>
             </div>
 
             <div class="tab-step">
@@ -127,14 +174,14 @@ platforms:
             <div class="tab-step">
               <h4>4. Browse to the hostname and login</h4>
               <p>
-                Username: root
+                Username: <code>root</code>
                 <br />
-                Password: 5iveL!fe
+                Password: <code>5iveL!fe</code>
               </p>
             </div>
             <div class="tab-step">
               <p>
-                <i class="glyphicons-circle_info green"></i> For troubleshooting and configuration options please see the <a class="green" href="https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md">Omnibus GitLab readme</a>
+                <i class="glyphicons-circle_info green"></i> For configuration and troubleshooting options please see the <a class="green" href="http://doc.gitlab.com/omnibus/">Omnibus GitLab documentation</a>
               </p>
             </div>
             <div class="tab-step">

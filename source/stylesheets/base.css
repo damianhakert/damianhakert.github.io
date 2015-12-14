@@ -1,3 +1,38 @@
+/* New things */
+
+/* New Logo */
+.nav-logo {
+  max-height: 44px;
+  position: relative;
+  top: -7px;
+}
+.logo-svg-shape {
+  transition: all 0.8s;
+}
+.logo-svg-shape:hover {
+  fill: #fff;
+  transition: all 0.1s;
+}
+
+/* Standard Buttons */
+
+.gs-button {
+  background: #129BEE;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  font-size: 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.gs-button:hover {
+  background: #6144B8;
+  color: #fff;
+  text-decoration: none;
+}
+
+
 /*!
  * Bounce Template v2.1
  *
@@ -12,7 +47,7 @@ body {
   background-color:#f9f9f9;
   position: relative;
   padding-top: 50px;
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -22,7 +57,7 @@ h4,
 h5,
 button,
 a {
-    font-family: "Korolev-Medium", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 400;
 }
 h2 {
@@ -162,31 +197,6 @@ hr.thick {
     text-align: right;
 }
 
-@font-face {
-    font-family: 'Korolev-Light';
-    src: url('/fonts/korolev/Korolev-Light.otf');
-}
-
-@font-face {
-    font-family: 'Korolev-Light-Italic';
-    src: url('/fonts/korolev/Korolev-Light-Italic.otf');
-}
-
-@font-face {
-    font-family: 'Korolev-Medium';
-    src: url('/fonts/korolev/Korolev-Medium.otf');
-}
-
-@font-face {
-    font-family: 'Korolev-Thin';
-    src: url('/fonts/korolev/Korolev-Thin.otf');
-}
-
-@font-face {
-    font-family: 'Korolev-Heavy';
-    src: url('/fonts/korolev/Korolev-Heavy.otf');
-}
-
 /* Buttons
 -------------------------------------------------- */
 .btn-action {
@@ -219,8 +229,9 @@ hr.thick {
 
 .navbar-default .navbar-nav>li>a {
   color: white;
-  font-family: "Korolev-Medium";
+  font-family: "Roboto Condensed";
   font-size: 16px;
+  padding-top: 18px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -230,15 +241,19 @@ hr.thick {
 
 @media (max-width: 990px) {
   .navbar-default .navbar-nav>li>a {
-    font-size: 12px;
+    font-size: 14px;
+  }
+  .nav>li>a {
+    padding: 5px 8px;
   }
 }
 
 @media (min-width: 768px) {
   .sign-in-up-btn {
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 5px;
     padding: 7px 18px !important;
+    margin-left: 10px;
     margin-top: 7px;
     transition: all 0.2s;
   }
@@ -601,7 +616,7 @@ article {
 }
 
 .blog-entry ul li {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Roboto Condensed', serif;
   font-size: 18px;
   color: #444;
   line-height: 2.9rem;
@@ -615,7 +630,7 @@ article {
 
 .blog-entry h1 a {
   font-size: 40px;
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #444;
   font-weight: 600;
   line-height: 55px;
@@ -632,7 +647,7 @@ article {
 }
 
 .blog-entry p {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Roboto Condensed', serif;
   font-size: 18px;
   color: #444;
   line-height: 2.9rem;
@@ -644,7 +659,7 @@ article {
 }
 
 .blog-entry li {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Roboto Condensed', serif;
   font-size: 18px;
   color: #444;
   /*margin: 0 0 24px;*/
@@ -655,7 +670,7 @@ article {
 }
 
 .blog-entry a {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Roboto Condensed', serif;
   font-size: 18px;
   line-height: 2.9rem;
 }
@@ -677,37 +692,15 @@ article {
 }
 
 .blog-index .toplink {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 14px;
   line-height: auto;
   font-weight: 600;
 }
 
-.newsletter span {
-  float: left;
-  line-height: 38px;
-  font-size: 1.7rem;
-  font-weight: 600;
-}
-
-.newsletter .mc-field-group {
-  display: inline-block;
-}
-
-.newsletter .newsletter-form {
-  width: auto;
-  float: right;
-}
-
-.newsletter .sbmc {
-  width: 100px;
-}
-
 /* Footer
 -------------------------------------------------- */
 #footer {
-  padding: 20px 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
   background: #463675;
 }
 #footer h3  {
@@ -752,7 +745,7 @@ article {
 /* Terms
 -------------------------------------------------- */
 h2.terms {
-  padding-top: 60px;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 
@@ -944,7 +937,7 @@ a:hover > .link-box {
 
 .nl .panel-heading a {
   font-size: 14px;
-  font-family: 'Korolev-Medium', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   line-height: auto;
   font-weight: 700;
 }
@@ -975,4 +968,84 @@ a:hover > .link-box {
   color: #fff;
   background-color: #548;
   border-color: #548;
+}
+
+.source-link {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  background: #60508E;
+  padding: 8px 0;
+}
+
+.source-link a {
+  color: rgb(147, 190, 255) !important;
+  text-decoration: underline;
+  transition: all 0.2s;
+}
+
+.source-link a:hover {
+  color: rgb(255, 201, 30) !important;
+}
+
+.social-media-buttons-footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.social-media-buttons-footer a {
+  margin: 0 11px;
+}
+
+.social-media-buttons-footer i.fa:hover {
+  color: #FFB440;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+.md-page {
+  background: white;
+  font-size: 1.7rem;
+  padding: 25px;
+  margin-top: 33px;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+  max-width: 900px;
+}
+
+.signature-block {
+  width: 49%;
+  display: inline-block;
+  padding: 15px;
 }

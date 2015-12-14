@@ -1,7 +1,7 @@
 # Title: Simple Image tag for Jekyll
 # Authors: Brandon Mathis http://brandonmathis.com
 #          Felix Schäfer, Frederic Hemberger
-# Description: Easily output images with optional class names, width, height, title and alt attributes
+# Description: Easily output images with optional class names, width, height, title, and alt attributes
 #
 # Syntax {% img [class name(s)] [http[s]:/]/path/to/image [width [height]] [title text | "title text" ["alt text"]] %}
 #

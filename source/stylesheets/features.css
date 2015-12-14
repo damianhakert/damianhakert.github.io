@@ -16,7 +16,7 @@ hr {
 }
 
 h1, h2, h3, h4, h5, button, a, p, li {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 
@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, button, a, p, li {
 }
 
 .container {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .title {
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, button, a, p, li {
 }
 
 .small-feature .link a {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   background: #548;
   color: white;
   border: 1px solid white;
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, button, a, p, li {
 }
 
 .wide-feature {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   width: 100%;
 }
 
@@ -415,94 +415,6 @@ h1, h2, h3, h4, h5, button, a, p, li {
   margin: auto;
 }
 
-.table {
-  width: auto;
-  margin: auto;
-}
-
-table.table {
-  width: 75%;
-}
-
-table.table th {
-  text-align: center;
-  font-weight: 300;
-  font-size: 20px;
-  color: #505050;
-  line-height: 27px;
-  border: 0px;
-}
-
-table.table tr {
-  border: none;
-  font-weight: 600;
-}
-
-table.table tr a {
-  font-weight: 300;
-  font-size: 16px;
-}
-
-table.table td {
-  font-size: 14px;
-  color: #313131;
-  line-height: 27px !important;
-  text-align: left;
-}
-
-.table>thead>tr>th {
-  border-bottom: none;
-}
-
-.table>thead>tr>th:first-child {
-  width: 50%;
-}
-
-.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
-  background-color: #FFFFFF;
-  border: none;
-}
-
-.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
-  border: none;
-}
-
-.table>tbody>tr>td:nth-child(3) {
-  font-size: 27px;
-  text-align: center;
-}
-
-.table>tbody>tr>td:nth-child(2) {
-  font-size: 27px;
-  text-align: center;
-}
-
-table.table tbody tr i {
-  float: right;
-  margin-right: 20px;
-  font-size: 22px;
-}
-
-table.table tbody tr:not(:first-child) td {
-  padding-left: 20px;
-}
-
-table.table tbody tr i.fa-check {
-  float: center !important;
-}
-
-table.table tbody.header tr:first-child td {
-  text-align: left;
-  font-size: 19px;
-  font-weight: 600;
-  border-bottom: 1px solid darkgray !important;
-  background: none;
-}
-
-.table>tbody+tbody {
-  border-top: none;
-}
-
 .qfix {
   position: fixed;
   z-index: 100;
@@ -537,4 +449,22 @@ table.table tbody.header tr:first-child td {
 
 #compare {
   padding: 60px 0px !important;
+}
+
+.compare-table {
+  border: 1px solid #E9E9E9;
+  background-color: white;
+}
+
+h2.panel-title {
+  font-size: 20px;
+}
+
+.table a {
+  font-size: 17px;
+  color: #476DA7;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  font-size: 17px;
 }

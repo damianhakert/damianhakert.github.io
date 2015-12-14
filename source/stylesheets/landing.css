@@ -4,7 +4,6 @@
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-image: url(/images/ci/fox.jpg);
 }
 
 #landing .main-screenshot {
@@ -31,7 +30,7 @@
 }
 
 #landing .container .row .features-panel {
-  margin-top: 72px;
+  margin-top: 20px;
 }
 
 @media (max-width: 960px) {
@@ -132,7 +131,7 @@
 #landing h1 {
     font-size: 50px;
     color: white;
-    font-family: 'Korolev-Medium', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     padding-top: 50px;
     padding-bottom: 12px;
 }
@@ -140,7 +139,7 @@
 #landing h3 {
     font-size: 36px;
     color: white;
-    font-family: 'Korolev-Light', sans-serif;
+    font-family: 'Roboto Condensed-Light', sans-serif;
 }
 
 .landing-header {
@@ -181,7 +180,7 @@
   font-size: 21px;
   padding: 7px 10px 5px;
   text-shadow: none;
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .landing-ctas a::before,
@@ -351,7 +350,7 @@
 }
 
 .what-column {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   float: left;
   margin-right: 3%;
   width: 30%;
@@ -379,7 +378,7 @@
   }
 
   .what-image h3 {
-    font-family: "Korolev-Medium", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     color: #548;
     font-size: 28px;
   }
@@ -390,7 +389,7 @@
 }
 
 .what-content p {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 18px;
   text-align: left;
 }
@@ -414,13 +413,13 @@
 }
 
   .landing-page-download h1 {
-    font-family: "Korolev-Light", sans-serif;
+    font-family: "Roboto Condensed-Light", sans-serif;
   }
 
 .see-further {
   display: block;
   text-align: center;
-  margin-top: 79px;
+  margin-top: 50px;
 
 }
 
@@ -430,10 +429,20 @@
   }
 
 .gitlab-comparison {
-  margin-top: 34px;
+  margin-top: 108px;
   border: none !important;
+}
 
-
+a.comparison.gh {
+  border: none;
+  border-bottom: 2px solid;
+  border-radius: 0;
+  padding: 4px 0;
+}
+a.comparison.gh:hover {
+  background: 0;
+  color: #FFB440;
+  border-color: #FFB440;
 }
   .comparison {
     background: #548;
@@ -453,7 +462,7 @@
   }
 
 #download-landing {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   background: #5D4D93;
   color: white;
   border: 1px solid white;
@@ -497,11 +506,11 @@
   .logos h2 {
     font-size: 36px;
     color: #18191a;
-    font-family: 'Korolev-Light', sans-serif;
+    font-family: 'Roboto Condensed-Light', sans-serif;
   }
 
   .logos span {
-    font-family: 'Korolev-Medium', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #a0c720;
   }
 
@@ -525,10 +534,15 @@
 .logo_7c img { margin-top: 42px; opacity: 0.5; }
 
   .logo-disclaimer {
-    font-family: 'Korolev-Light', sans-serif;
+    font-family: 'Roboto Condensed-Light', sans-serif;
     margin-top: 40px;
     text-align: center;
   }
+
+
+.twitter-timeline {
+  display: inline-block !important;
+}
 
 .twitter-head {
   margin-left: 0;
@@ -536,7 +550,7 @@
 }
 
   .twitter-head h2 {
-    font-family: 'Korolev-Light', sans-serif;
+    font-family: 'Roboto Condensed-Light', sans-serif;
     font-size: 36px;
   }
 
@@ -566,7 +580,7 @@
   }
 
 .videos h1 {
-  font-family: 'Korolev-Light', sans-serif;
+  font-family: 'Roboto Condensed-Light', sans-serif;
   font-size: 36px;
 }
 
@@ -586,7 +600,7 @@
   }
 
     .testimonial-container .text-center h2 {
-      font-family: "Korolev-Light", sans-serif;
+      font-family: "Roboto Condensed-Light", sans-serif;
       font-size: 36px;
       margin-bottom: 60px;
     }
@@ -622,7 +636,7 @@
           color: white;
           font-size: 17px;
           margin-bottom: 20px;
-          font-family: "Korolev-Light", sans-serif;
+          font-family: "Roboto Condensed-Light", sans-serif;
           font-weight: 100;
           line-height: 30px;
           border: 1px solid black;
@@ -680,7 +694,7 @@
               text-decoration: none;
               color: #548;
               font-weight: 600;
-              font-family: "Korolev-Light", sans-serif;
+              font-family: "Roboto Condensed-Light", sans-serif;
             }
 
 .testimonial-container hr {
@@ -706,7 +720,7 @@
       font-size: 28px;
       line-height: 1.4;
       margin-bottom: 0.8em;
-      font-family: "Korolev-Light", sans-serif;
+      font-family: "Roboto Condensed-Light", sans-serif;
     }
 
     .testimonial-news img {
@@ -739,7 +753,7 @@
 .see-more-tuts {
   font-size: 30px;
   margin-top: 16px;
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto Condensed-Light", sans-serif;
 }
 
   .see-more-tuts a {
@@ -776,4 +790,13 @@ a.col-link:hover {
 @-moz-keyframes come-in {
   to {  -moz-transform: translateY(0);
   }
+}
+
+a.underlined {
+  text-decoration: underline !important;
+  transition: all 0.2s;
+}
+
+a.underlined:hover {
+  color: rgb(255, 201, 30) !important;
 }

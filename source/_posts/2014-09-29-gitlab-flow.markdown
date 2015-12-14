@@ -7,6 +7,8 @@ categories:
 author: Sytse Sijbrandij
 ---
 
+The most up to date version of the content of this blog post can be found [in our documentation](http://doc.gitlab.com/ee/workflow/gitlab_flow.html).
+
 Version management with git makes branching and merging much easier than older versioning systems such as SVN.
 This allows a wide variety of branching strategies and workflows.
 Almost all of these are an improvement over the methods used before git.

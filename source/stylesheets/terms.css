@@ -1,28 +1,17 @@
 body {
-  background-color: rgba(85, 68, 136, 0.23);
-  font-family: "Korolev-Medium", sans-serif;  
+  background-color: white;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 p {
   font-size: 15px;
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: 200;
 }
 
 h1, h2, h3, h4, h5, button, a {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
-
-.simple-header {
-  background: #548;
-  color: white;
-  text-align: center;
-  height: 125px;
-}
-
 .nav-list {
   position: fixed;
-  border-bottom: 1px solid #548;
-  border-radius: 6px;
-  border-top: 1px solid #548;
 }

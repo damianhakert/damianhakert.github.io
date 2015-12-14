@@ -1,7 +1,7 @@
 /* subscription */
 
 * {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, button, a {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .text-right,
@@ -27,9 +27,9 @@ h1, h2, h3, h4, h5, button, a {
   }
 }
 
-@media (max-width: 692px) {
+@media (max-width: 767px) {
 .pricing-container {
-  height: 500px !important;
+  min-height: 500px !important;
   background: url(/images/pricing.jpg) no-repeat center center;
   margin-bottom: 35px;
   }
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, button, a {
 .pricing-container {
   position: relative;
   width: 100%;
-  height: 300px;
+  min-height: 300px;
   overflow: hidden;
   background: url(/images/pricing.jpg) no-repeat center center;
   background-size: cover;
@@ -47,11 +47,12 @@ h1, h2, h3, h4, h5, button, a {
 
 .pricing-overlay {
   background: rgba(85, 68, 136, 0.62);
-  height: 500px;
+  background: linear-gradient(-225deg, rgba(100, 53, 132, 0.8) 0%, rgba(72, 135, 197, 0.92) 100%);
+  height: 300px;
 }
 
 .pricing-content {
-  padding-top: 76px;
+  padding-top: 68px;
   text-align: center;
   color: white;
   width: 72%;
@@ -61,6 +62,33 @@ h1, h2, h3, h4, h5, button, a {
 
 .pricing-content h1 {
   font-size: 50px;
+  font-weight: 700;
+}
+
+.header-btn {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.header-btn p {
+    color: white;
+    margin-top: 10px;
+}
+
+.header-btn a:hover {
+  background: #6144B8;
+  color: #fff;
+  text-decoration: none;
+}
+
+.free-trial {
+  background: #129BEE;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  font-size: 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.2s;
 }
 
 .subscriptions {
@@ -80,9 +108,10 @@ h1, h2, h3, h4, h5, button, a {
   text-align: center;
   transition: all 0.3s;
   display: inline-block;
-  border: 1px solid rgba(0,0,0,0.2);
+  box-shadow: 0 3px 3px rgba(0,0,0,0.1);
   border-radius: 4px;
   margin-top: 10px;
+  background: white;
 }
 
 
@@ -110,7 +139,6 @@ h1, h2, h3, h4, h5, button, a {
 
 .basic.subscription,
 .plus.subscription {
-  top: 64px;
   position: relative;
 }
 
@@ -121,8 +149,9 @@ h1, h2, h3, h4, h5, button, a {
 .subscription .price {
   font-size: 50px;
   color: #444;
-  padding: 8px;
+  padding: 33px 0px 20px;
   background: #fff;
+  font-weight: 600;
 }
 
 .subscription .price .money {
@@ -137,15 +166,14 @@ h1, h2, h3, h4, h5, button, a {
 }
 
 .subscription .subprice {
-  color: #868686;
-  font-size: 18px;
+  color: #333;
+  font-size: 15px;
   font-weight: 400;
 }
 
 .subscription .details {
-  border-top: 1px solid #E7E7E7;
-  background: #F9F9F9;
-  padding: 30px;
+  background: #FFFFFF;
+  padding: 11px 30px 20px;
   text-align: left;
 }
 
@@ -158,6 +186,10 @@ h1, h2, h3, h4, h5, button, a {
 
 .subscription .detail:hover {
   background: #fff;
+}
+
+.subscription .detail-spacer {
+  height: 86px;
 }
 
 .subscription .detail .body {
@@ -185,12 +217,12 @@ h1, h2, h3, h4, h5, button, a {
   padding: 15px;
   background: #e7e7e7;
   display: inline-block;
-  width: 100%;
-  font-size: 18px;
+  width: 95%;
+  margin-bottom: 8px;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: all 0.1s;
   color: #333;
-  transition: all 0.2s;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
 }
 
 .standard.subscription a.button {
@@ -204,7 +236,7 @@ h1, h2, h3, h4, h5, button, a {
 
 .subscription a.button:hover {
   text-decoration: none;
-  background: #3FACDB;
+  background: #6144B8;
   color: white;
 }
 
@@ -286,7 +318,10 @@ h1, h2, h3, h4, h5, button, a {
     width: 250px;
   }
   .subscription .detail {
-    font-size: 12px;
+    font-size: 14px;
+  }
+  .subscription .detail .glyphicon {
+    font-size: 19px;
   }
   .basic.subscription,
   .plus.subscription {
@@ -325,10 +360,10 @@ img.gs {
 }
 
 a.btn-default {
-  background: #f9f9f9;
+  background: #fff;
   border: 1px solid #129bee;
   color: #129bee;
-  font-weight: 600;
+  font-weight: 400;
   padding: 6px 8px;
   transition: all 0.15s;
 }
@@ -396,7 +431,7 @@ a.btn-default:hover {
 
 .pricing-notes {
   max-width: 900px;
-  border: 1px solid rgba(0,0,0,0.2);
+  box-shadow: 0 3px 3px rgba(0,0,0,0.1);
   border-radius: 5px;
   background: white;
   margin: auto;
@@ -412,4 +447,19 @@ a.btn-default:hover {
 
 .pricing-notes p:last-child {
   border-bottom: 0;
+}
+
+.cc-only {
+  margin: 5px 0 10px;
+  font-style: italic;
+  color: #666;
+}
+
+.box {
+  box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+  background: #fff;
+  padding: 23px;
+  border-radius: 5px;
+  max-width: 271px;
+  margin: 10px auto;
 }

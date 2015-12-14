@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
 pre code {
   word-wrap: normal;
 }
@@ -13,7 +15,7 @@ span.line {
 }
 
 .panel {
-  box-shadow: 0px 3px 3px #F0F0F0;
+  box-shadow: 0px 3px 3px rgba(0,0,0,0.1);
   border: 0;
   border-radius: 0;
 }
@@ -29,7 +31,7 @@ article {
   margin-bottom: 60px;
   background: white;
   padding: 25px;
-  box-shadow: 0px 3px 3px #F0F0F0;
+  box-shadow: 0px 3px 3px rgba(0,0,0,0.1);
 }
 
 #blog {
@@ -44,14 +46,12 @@ article {
 }
 
 .blog-entry ul li {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Roboto Condensed', serif;
   font-size: 18px;
   color: #444;
   line-height: 2.9rem;
   padding-bottom: 4px;
 }
-
-
 
 .image-title .color-bg {
   position: relative;
@@ -61,7 +61,7 @@ article {
   color: #fff;
   font-weight: 600;
   font-size: 55px;
-  font-family: "Korolev", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   text-align: center;
   height: 500px;
   background: rgba(57, 38, 113, 0.49);
@@ -70,8 +70,8 @@ article {
 
 .image-title .color-bg h1 {
   color: #fff;
-  font-weight: 600;
   font-size: 55px;
+  line-height: 80px;
 }
 
 .image-title .color-bg h3 {
@@ -91,7 +91,7 @@ article {
 
 .blog-entry h1.image-title {
   font-size: 30px;
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #fff;
   font-weight: 600;
   line-height: 40px;
@@ -99,7 +99,7 @@ article {
 
 .blog-entry h1 a {
   font-size: 30px;
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #444;
   font-weight: 600;
   line-height: 41px;
@@ -119,11 +119,19 @@ article {
 }
 
 .blog-entry h2 {
-  font-size: 25px;
+  font-size: 35px;
+  font-weight: 200;
+  margin-top: 45px;
+}
+
+.blog-entry h3 {
+  font-size: 30px;
+  color: #7C7C7C;
+  font-weight: 200;
 }
 
 .blog-entry p {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Roboto', serif;
   font-size: 18px;
   color: #444;
   line-height: 2.9rem;
@@ -135,7 +143,7 @@ article {
 }
 
 .blog-entry li {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Roboto Condensed', serif;
   font-size: 18px;
   color: #444;
   /*margin: 0 0 24px;*/
@@ -146,7 +154,7 @@ article {
 }
 
 .blog-entry a {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 2.9rem;
 }
@@ -173,20 +181,20 @@ article {
 }
 
 .blog-index .toplink {
-  font-family: "Korolev-Light", sans-serif;
+  font-family: "Roboto Condensed-Light", sans-serif;
   font-size: 14px;
   line-height: auto;
   font-weight: 600;
 }
 
-.newsletter span {
+.newsletter .newsletter-preamble {
   float: left;
   line-height: 38px;
   font-size: 1.7rem;
   font-weight: 600;
 }
 
-.newsletter .mc-field-group {
+.newsletter .mktoForm {
   display: inline-block;
 }
 
@@ -238,7 +246,7 @@ ul.post-list > li > time {
   padding-top: 23px;
   background: #548;
   color: #fff;
-  font-family: 'Korolev-Light', sans-serif;
+  font-family: 'Roboto Condensed-Light', sans-serif;
   font-size: 24px;
   margin: 30px 0px;
 }
@@ -246,7 +254,7 @@ ul.post-list > li > time {
 .download-partial a {
   padding: 5px 22px;
   padding-top: 9px;
-  font-family: 'Korolev-Light', sans-serif;
+  font-family: 'Roboto Condensed-Light', sans-serif;
   color: #fff;
   position: relative;
   transition: all 0.2s;
@@ -267,7 +275,7 @@ ul.post-list > li > time {
 }
 
 .btn-purple {
-  font-family: "Korolev-Light", sans-serif !important;
+  font-family: "Roboto Condensed-Light", sans-serif !important;
   border: 2px solid #548;
   font-size: 24px !important;
   color: white;
@@ -293,8 +301,119 @@ ul.post-list > li > time {
 }
 
 .blog-entry .author a {
-  font-family: "Korolev-Medium", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: normal;
+}
+
+.full-post {
+  background: white;
+}
+
+/* Override some Marketo form styles */
+.newsletter-form div {
+  display: inline;
+}
+
+.mktoForm {
+  width: auto !important;
+}
+
+.mktoFieldWrap {
+  float: none !important;
+  margin-right: 5px !important;
+}
+
+.mktoField {
+  background-color: #fff;
+  background-image: none;
+  border-radius: 4px !important;
+  border: 1px solid #ccc !important;
+  box-shadow: none !important;
+  color: #555;
+  display: block;
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-size: 14px;
+  height: 34px;
+  line-height: 1.42857143;
+  padding: 6px 12px !important;
+  width: 100%;
+}
+
+.mktoButtonWrap {
+  margin: 0 !important;
+}
+
+.mktoButton {
+  background-color: #fff;
+  background-image: none;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  margin-bottom: 0;
+  padding: 7px 12px 6px 12px !important;
+  text-align: center;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.mktoButton:hover {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+  color: #333;
+}
+
+.mktoAsterix,
+.mktoGutter,
+.mktoLabel,
+.mktoOffset {
+  display: none !important;
+  width: 0 !important;
+}
+
+.mktoFormCol {
+  margin: 0 !important;
+}
+
+.mktoClear,
+.mktoFormRow {
+  clear: none !important;
+}
+
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 766px) {
+  .image-title .color-bg {
+    padding: 50px 40px;
+    height: 250px;
+  }
+  .image-title .color-bg h1 {
+    font-size: 30px;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-title .color-bg {
+    padding: 50px 40px;
+    height: 250px;
+  }
+  .image-title .color-bg h1 {
+    font-size: 30px;
+    line-height: normal;
+  }
 }
