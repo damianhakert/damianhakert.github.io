@@ -24,7 +24,6 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Operations](/handbook/operations)
 * [Hiring](/handbook/hiring)
 * [Accounting](/handbook/accounting)
-* [Social Media](/handbook/social-media)
 * [Stock Options](/handbook/stock-options)
 * [Marketing](/handbook/marketing)
 * [Security](/handbook/security)
