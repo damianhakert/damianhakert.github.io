@@ -82,7 +82,7 @@ We very much welcome contributions that implement any of these things.
 - [Resolve merge conflicts in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/3567)
 - [Multithreaded application server](https://gitlab.com/gitlab-org/gitlab-ce/issues/3592)
 
-### Small Wins
+### Usability
 
 - [Show commits behind/ahead on branch overview page](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1716)
 - [See all forked projects of one project](https://gitlab.com/gitlab-org/gitlab-ce/issues/2406)
