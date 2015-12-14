@@ -14,8 +14,12 @@ title: "Getting Help for GitLab"
 * [Mailing list](https://groups.google.com/forum/#!forum/gitlabhq): Please search for similar issues before posting your own, there's a good chance somebody else had the same issue you have now and has resolved it.
 * [Stack Overflow](http://stackoverflow.com/questions/tagged/gitlab): Please search for similar issues before posting your own, there's a good chance somebody else had the same issue you have now and has resolved it.
 
-## Feature Requests
-* [Feature Request Forum](http://feedback.gitlab.com): the place to propose and discuss new features for GitLab. Please search for similar requests before posting your own.
+## Feature Proposals
+* Submit feature proposals on the issue tracker for
+[GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues) or
+[GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues) and
+add the label `feature proposal`.
+Please search for similar proposals before posting your own.
 
 ## Contributing
 * [Contributing guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md): describes how to submit Merge Requests and issues. Pull Requests and Issues not in line with the guidelines in this document will be closed.
