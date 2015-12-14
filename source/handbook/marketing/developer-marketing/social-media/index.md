@@ -41,9 +41,9 @@ About using the tools
 
 ### Replies to commonly asked questions on Twitter
 
--   Feature requests: It would be really cool if GitLab could… 
+-   Feature proposals: It would be really cool if GitLab could… 
 
-    -   If this is a first time feature request: Ask them to submit a feature request at http://feedback.gitlab.com/
+    -   If this is a first time feature request: Ask them to submit a feature request on the issue tracker for [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues) or [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues) and add the label <code>feature proposal</code>
 
     -   If there’s an existing feature request, ask the user to vote on the request with a link to the feature request. 
 
@@ -70,3 +70,7 @@ About using the tools
     -   If there is a known issue, apologize and invite them to follow [@GitLabStatus](https://twitter.com/gitlabstatus)
 
     -   If this is not known, alert the operations team, and thank the reporter. 
+
+-   Request for consulting or development.
+
+    - If a GitLab user would like to engage the GitLab team for custom consulting, for example to sponsor a feature, they can contact via this form: [Development](https://about.gitlab.com/development/)
