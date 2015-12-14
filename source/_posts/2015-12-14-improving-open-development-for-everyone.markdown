@@ -12,8 +12,8 @@ We want to make it super easy for anyone to contribute to GitLab.
 
 That's why we've changed two things:
 
-1. Feature proposals are now handled in the GitLab projects on GitLab.com
-1. We've added the `up-for-grabs` label to relatively simple issues, for anyone to work on
+1. Feature proposals are now handled in the GitLab projects on GitLab.com.
+1. We've added the `up-for-grabs` label to relatively simple issues, for anyone to work on.
 
 <!-- more -->
 
@@ -32,7 +32,7 @@ This means that if you want to propose a feature for GitLab CE or EE,
 you can now simply create an issue in their respective projects and add the
 label `feature proposal`. This will allow anyone to vote, comment and discuss this.
 
-More interestingly, anyone that has shown interested will be automatically updated
+This system is even more useful because anyone that has shown interest in the issue will be automatically updated
 with the status of the issue once we start working on it. In time this will also
 reveal areas where we might want to improve GitLab's issue tracker.
 
@@ -41,7 +41,7 @@ reveal areas where we might want to improve GitLab's issue tracker.
 
 ## Up For Grabs
 
-The `up-for-grabs` label is created so that anyone can help making GitLab better
+The `up-for-grabs` label was created so that anyone can help make GitLab better
 for everyone.
 
 We will label issues that are not too hard or too big to work on.
@@ -51,11 +51,11 @@ for a big bug fix of feature, these are issues that you should be able to work o
 
 Have a look at the [up-for-grabs issues on GitLab.com](https://gitlab.com/gitlab-org/gitlab-ce/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=up-for-grabs)
 right now. We will add more over time.
-Of course, we do expect people to follow [the contribution guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md).
+
+Please follow our [the contribution guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md) to help you get started.
 
 ## How can we make it easier?
 
-We want to give everyone that loves GitLab the opportunity to help shape its
-and the power to do this effortlessly.
+We want to give everyone that loves GitLab the opportunity to help shape its progress and be empowered to do this effortlessly.
 
 How can we make this easier for you? We'd love to hear it in the comments.
