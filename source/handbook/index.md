@@ -145,7 +145,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 1. We ask everyone what they did outside of work the day(s) before.
 1. Sequence of asking people is in order of joining the company, same as on the [team page](https://about.gitlab.com/team/). If there are non-team page people in the call we end with those.
 1. Please look if the person you hand over to is present in the participant list so you don't hand over to someone who is not present.
-1. Last person hands over to the first person in the call order that is present (normally Dmitriy) who wishes everyone a good day.
+1. Last person hands over to the first person in the call order that is present (normally Dmitriy) who wishes everyone a good day or whishes everyone a great day her or him self.
 
 <h3 id="user-communication-guidelines">User Communication Guidelines</h3>
 
@@ -178,19 +178,19 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 1. Read our [Documentation Styleguide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc_styleguide.md) for more information when writing documentation.
 
 <h3 id="beamy-guidelines">Beamy Guidelines</h3>
-Beamy is our company conference call robot. It lives in the San Francisco Howard St. office. 
-Its main purpose is to allow those outside of the office a view into the space and people. 
-When you call in to the beam your face will appear on the screen (so make sure your webcam 
-works) and you can drive the robot around the office. It simulates being in the space without 
+Beamy is our company conference call robot. It lives in the San Francisco Howard St. office.
+Its main purpose is to allow those outside of the office a view into the space and people.
+When you call in to the beam your face will appear on the screen (so make sure your webcam
+works) and you can drive the robot around the office. It simulates being in the space without
 physically being there. It is really cool and everyone should try it and have fun with it.
 
 * You need an invite email to connect and to download a desktop client, please @mention Emily in the #general channel if you don't have the invite yet.
-* Beamy times: 8am until 6pm Pacific time on workdays and during all company events, for other times 
-please @mention Sytse in the #valley channel to see if it is OK. It is on auto connect 
+* Beamy times: 8am until 6pm Pacific time on workdays and during all company events, for other times
+please @mention Sytse in the #valley channel to see if it is OK. It is on auto connect
 so you'll beam right in.
-* Once you are sent an invite you can beam in at any time and drive around our beam. 
-Don’t forget to park it back on the charger when you are done. You can do so by driving 
-up to the charger, when you see a green outline press AND HOLD 'p' until it's parked. 
+* Once you are sent an invite you can beam in at any time and drive around our beam.
+Don’t forget to park it back on the charger when you are done. You can do so by driving
+up to the charger, when you see a green outline press AND HOLD 'p' until it's parked.
 Make sure it is charging, otherwise try again.
 * If you don't use headphones be careful about your volume and microphone placement, it might start singing, if so immediately mute your microphone and switch to headphones.
 * More info can be found at https://www.suitabletech.com/
