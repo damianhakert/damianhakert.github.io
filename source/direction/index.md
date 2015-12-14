@@ -156,7 +156,7 @@ in a way that all relevant parties get notified.
 
 - [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
 - [A scrum board](https://about.gitlab.com/applications/#scrum-boards)
-- [CodeClimate](http://blog.codeclimate.com/blog/2015/06/19/code-climate-platform/)
+- [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
 - [Lita](https://www.lita.io/) or another chat-ops bot
 
 ### We would love to partner with
