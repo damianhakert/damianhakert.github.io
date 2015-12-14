@@ -125,6 +125,7 @@ in a way that all relevant parties get notified.
 
 - [In-picture-comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
 - [Automatically push changed files from a local folder](https://gitlab.com/gitlab-org/gitlab-ce/issues/4015)
+- [Distributed code-reviews and issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/4084)
 
 ### Operations
 
@@ -145,7 +146,7 @@ in a way that all relevant parties get notified.
 
 ### EE
 
-- Push to another repo
+- [Push to a remote repo](https://gitlab.com/gitlab-org/gitlab-ee/issues/116)
 - [Management dashboard](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
 - [Highly Available (HA) Omnibus Packages](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
 - [Oracle support](https://gitlab.com/gitlab-org/gitlab-ee/issues/96)
