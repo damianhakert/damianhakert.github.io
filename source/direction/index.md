@@ -74,7 +74,7 @@ We very much welcome contributions that implement any of these things.
 
 ### Major Wins
 
-- [Translations](http://feedback.gitlab.com/forums/176466-general/suggestions/3337748-internationalization-add-translations) with the help of the rest of the community and Perforce
+- [Translations](https://gitlab.com/gitlab-org/gitlab-ce/issues/4012) with the help of the rest of the community and Perforce
 - [Nested Groups](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772)
 - [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 - [GitLab Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
@@ -86,7 +86,7 @@ We very much welcome contributions that implement any of these things.
 
 - [Show commits behind/ahead on branch overview page](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1716)
 - [See all forked projects of one project](https://gitlab.com/gitlab-org/gitlab-ce/issues/2406)
-- [Edit on protected branch should create a new branch](https://dev.gitlab.org/gitlab/gitlabhq/issues/2242)
+- [Edit on protected branch should create a new branch](https://gitlab.com/gitlab-org/gitlab-ce/issues/3441)
 
 ### Code Review
 
@@ -95,8 +95,8 @@ in a way that all relevant parties get notified.
 
 - [Pre-post comment code](https://gitlab.com/gitlab-org/gitlab-ce/issues/3502) see what the current state of the code is where in a previous commit a comment was placed
 - [Merge if green button if tests are still running](https://gitlab.com/gitlab-org/gitlab-ce/issues/2640)
-- [Allow cross server merge requests](http://feedback.gitlab.com/forums/176466-general/suggestions/5097708-implement-cross-server-federated-merge-requests) (paste url when making a new MR)
-- [Revert button for merges](https://dev.gitlab.org/gitlab/gitlabhq/issues/2299)
+- [Allow cross server merge requests](https://gitlab.com/gitlab-org/gitlab-ce/issues/4013) (paste url when making a new MR)
+- [Revert button for merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 - [Ability to checkout the result of MR available before merging](https://gitlab.com/gitlab-org/gitlab-ce/issues/2765)
 - [Syntax highlighting for diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/3292)
 - [Transactional MR comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3364) prevent notification overload by grouping comments
@@ -112,11 +112,11 @@ in a way that all relevant parties get notified.
 - Draw and drop issues to prioritize them
 - Handle incoming emails with support questions in issues, needs spam filter
 - [Labels should be visible in Milestone view](https://gitlab.com/gitlab-org/gitlab-ce/issues/3276)
-- [Management dashboard for continuous delivery](https://dev.gitlab.org/gitlab/gitlab-ee/issues/287)
+- [Management dashboard for continuous delivery](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
 
 ### Productivity
 
-- [Mentioned activity feed (overlap with notification center)](https://dev.gitlab.org/gitlab/gitlabhq/issues/2288)
+- [Mentioned activity feed (overlap with notification center)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4014)
 - Issue/MR description field works like google docs, real time collaboration & autosave, maybe with [ShareJS](http://sharejs.org/)
 - [Change notification setting](https://dev.gitlab.org/gitlab/gitlabhq/issues/2395)
 - [Add more default views](https://gitlab.com/gitlab-com/www-gitlab-com/edit/master/source/direction/index.md)
@@ -124,17 +124,17 @@ in a way that all relevant parties get notified.
 ### Version Control for Everything
 
 - [In-picture-comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
-- [Automatically push changed files from a local folder](https://dev.gitlab.org/gitlab/gitlabhq/issues/2265)
+- [Automatically push changed files from a local folder](https://gitlab.com/gitlab-org/gitlab-ce/issues/4015)
 
 ### Operations
 
-- [Handle errors before they give a 500](https://dev.gitlab.org/gitlab/gitlabhq/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=gitlab.com+errors)
+- [Handle errors before they give a 500](https://gitlab.com/gitlab-org/gitlab-ce/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=gitlab.com+errors)
 - [Get rid of the large authorized keys (SSH) file](https://gitlab.com/gitlab-org/gitlab-git-http-server/issues/2#note_1983654)
 - [Upgrade to Sidekiq 4 because it is faster](https://gitlab.com/gitlab-org/gitlab-ce/issues/3065)
 
 ### CI
 
-- [Zero config CI](https://dev.gitlab.org/gitlab/gitlabhq/issues/2528)
+- [Zero config CI](https://gitlab.com/gitlab-org/gitlab-ce/issues/3989)
 - [Option to test the result of the merge](http://homu.io/) instead of the feature branch itself (you will have to retest all MR's every time master / target branch is updated)
 - [Document dependent builds / pipeline triggers](https://gitlab.com/gitlab-org/gitlab-ce/issues/3432)
 - [Staging environment per branch with GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) similar to [Teatro](https://teatro.io/), [Tutum](https://support.tutum.co/support/solutions/articles/5000620449-deploy-to-tutum-button) & [Heroku Review Apps](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta))
@@ -142,12 +142,12 @@ in a way that all relevant parties get notified.
 - [Automatic Docker image cleanup](https://gitlab.com/ayufan/gitlab-runner-docker-cleanup/issues/1)
 - Show code coverage in diffs with colored horizontal bar
 - A/B testing of branches
-- [Shared runners](https://dev.gitlab.org/gitlab/gitlab-ci/issues/322#note_56433) automanaged [by Kubernetes](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/30)
+- [Shared runners](https://gitlab.com/gitlab-org/gitlab-ce/issues/4056) automanaged [by Kubernetes](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/30)
 
 ### EE
 
 - Push to another repo
-- [Management dashboard](https://dev.gitlab.org/gitlab/gitlab-ee/issues/287)
+- [Management dashboard](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
 - [Highly Available (HA) Omnibus Packages](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
 - [Oracle support](https://gitlab.com/gitlab-org/gitlab-ee/issues/96)
 - [Group member activity](https://gitlab.com/gitlab-org/gitlab-ce/issues/3824)
@@ -156,7 +156,7 @@ in a way that all relevant parties get notified.
 
 - [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
 - [A scrum board](https://about.gitlab.com/applications/#scrum-boards)
-- [CodeClimate](http://blog.codeclimate.com/blog/2015/06/19/code-climate-platform/)
+- [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
 - [Lita](https://www.lita.io/) or another chat-ops bot
 
 ### We would love to partner with
