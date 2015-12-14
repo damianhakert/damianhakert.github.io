@@ -3,7 +3,7 @@ layout: markdown_page
 title: "GitLab Social Media Accounts"
 ---
 
-This document is a guide for GitLab staff who manage social media accounts. 
+This document is a guide for GitLab team members who manage social media accounts. 
 
 You are personally responsible for the tweets, likes and replies you post on social media while representing GitLab. Everything you publish is publicly viewable and will be available for a long time even if redacted. Be careful and thoughtful when using the company accounts. 
 
@@ -11,7 +11,7 @@ You are personally responsible for the tweets, likes and replies you post on soc
 
 There are three GitLab Twitter accounts
 
--   [@GitLab](https://twitter.com/gitlab) -  This is the main account for the project and company, which is managed by staff at GitLab, Inc. Everything tweeted, RTd, or liked from @GitLab also gets promoted to http://about.gitlab.com
+-   [@GitLab](https://twitter.com/gitlab) -  This is the main account for the project and company, which is managed by team members at GitLab, Inc. Everything tweeted, RTd, or liked from @GitLab also gets promoted to http://about.gitlab.com
 
 -   [@GitLabSupport](https://twitter.com/gitlabsupport) - This account is for managing support questions about the use of GitLab services. This is managed by the GitLab service engineer team.
 
@@ -23,13 +23,13 @@ Express gratitude
 
 -   Favorite tweets which include positive comments about GitLab or articles mentioning GitLab in a positive way.
 
--   Thank users for feedback and comments with @mentions like: ‘Thank you’, ‘Glad to hear that’, ‘You’re welcome’.
+-   Thank users for feedback and comments with @mentions like: ‘Thank you’, ‘Glad to hear that’, ‘You’re welcome’, do this even when you already favored something.
 
 Be friendly
 
 -   When responding to tweets, be polite and brief.
 
--   It’s OK to invite CE or GitLab.com users to collaborate.
+-   It’s OK to invite CE or GitLab.com users to collaborate, the easiest way is to direct a user to the relevant issue tracker.
 
 About using the tools
 
@@ -45,25 +45,25 @@ About using the tools
 
     -   If this is a first time feature request: Ask them to submit a feature request on the issue tracker for [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues) or [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues) and add the label <code>feature proposal</code>
 
-    -   If there’s an existing feature request, ask the user to vote on the request with a link to the feature request. 
+    -   If there’s an existing feature request, ask the user to vote on the request with a link to the feature request.
 
-    -   If we’re accepting merge requests, tell them. Often the feature request thread will indicate that as well. 
+    -   If we’re accepting merge requests, tell them with a link to the feature request. Often the feature request thread will indicate that as well.
 
 -   Bug reports: I think I’ve discovered a bug. 
 
-    -   Bug reports are welcome. Direct them to this guide on reporting a bug. <https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md> 
+    -   Bug reports are welcome. Direct them to this guide on reporting a bug. <https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md>
 
--   Product specific questions: I need some help with X. 
+-   Product specific questions: I need some help with X.
 
-    -   Check if there is existing documentation and reply with a link if there is. 
+    -   Check if there is existing documentation and reply with a link if there is.
 
-    -   GitLab.com - Ask the user to add the Issue to our GitLab.com Support Forum. https://gitlab.com/gitlab-com/support-forum/issues
+    -   GitLab.com specific: Ask the user to add the Issue to our GitLab.com Support Forum. https://gitlab.com/gitlab-com/support-forum/issues
 
     -   GitLab CE or CI: ask the user to add the Issue to our CE Issue tracker. https://gitlab.com/gitlab-org/gitlab-ce/issues
 
 -   Support or help: I think I ran into a problem.
 
-    -   Respond with a quote and CC [@GitLabSupport](http://twitter.com/gitlabsupport). Using a quote means pasting the full URL to the author’s original tweet into your reply. Check to make sure you are also replying directly to their account and not yourself. 
+    -   Respond with a quote and CC [@GitLabSupport](http://twitter.com/gitlabsupport). Using a quote means pasting the full URL to the author’s original tweet into your reply. Check to make sure you are also replying directly to their account and not yourself.
 
 -   GitLab is down!
 
@@ -73,4 +73,28 @@ About using the tools
 
 -   Request for consulting or development.
 
-    - If a GitLab user would like to engage the GitLab team for custom consulting, for example to sponsor a feature, they can contact via this form: [Development](https://about.gitlab.com/development/)
+    - If a GitLab user would like to engage the GitLab team for custom consulting, for example to sponsor a feature, they can contact via this form: [Development](https://about.gitlab.com/development/).
+
+## Facebook
+
+We post blog articles there if we think they are good and relevant.
+
+## Google Plus
+
+Not actively posting right now, maybe we should remove it from our homepage.
+
+## YouTube
+
+We're not very active except for uploading a video from time to time.
+
+## LinkedIn
+
+Sometimes we post there.
+
+## Other channels
+
+See the ones listed on our [getting help page](https://about.gitlab.com/getting-help/).
+
+
+
+
