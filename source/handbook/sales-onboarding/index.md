@@ -3,11 +3,13 @@ layout: markdown_page
 title: "Sales Onboarding"
 ---
 
-1. First, complete all courses and tests on [GitLab University](https://about.gitlab.com/university/)
+1. First and foremost, complete all courses and tests on [GitLab University](https://about.gitlab.com/university/)
+
+1. [Compare GitLab versions](https://about.gitlab.com/features/#compare)
+
+1. [GitLab compared to other tools](https://about.gitlab.com/comparison/)
 
 1. [Positioning FAQ](https://about.gitlab.com/handbook/positioning-faq)
-
-1. [Comparison page on our website](https://about.gitlab.com/comparison/)
 
 1. [Our Sales Process](https://about.gitlab.com/handbook/sales-process/)
 
