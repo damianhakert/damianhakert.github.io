@@ -29,8 +29,8 @@ for sorting, filtering based on these, we feel now is the time to start migratin
 the feature proposals to GitLab.com.
 
 This means that if you want to propose a feature for GitLab CE or EE,
-you can now simply create an issue in their respective projects and add the
-label `feature proposal`. This will allow anyone to vote, comment and discuss this.
+you can now simply create an issue in their respective projects`.
+This will allow anyone to vote, comment and discuss this.
 
 This system is even more useful because anyone that has shown interest in the issue will be automatically updated
 with the status of the issue once we start working on it. In time this will also
