@@ -36,9 +36,13 @@ We started in the program at the beginning of 2015 with 9 founding members of Gi
 
 Y Combinator require that the entire founding team including the CEO, [must live in the Bay Area during the program](https://www.ycombinator.com/faq/#p3). Y Combinator doesn’t assist with accommodation, so each company finds its own solution. This gives each company a way to forge their own approach and identity. We all moved over to live in the same house for three months. We found one small apartment with a living room smaller than my own home. We pushed all of our desks together and worked in that room for three months. 
 
+![Our YC livingroom](/images/yc-livingroom.png)
+
 It’s clear that the experience wouldn’t be the same without being there in person. It was as much about the access to the local network as it was about building relationships among our team. It was in that house that we started to develop our culture. We worked hard and built a strong camaraderie. We had a big car called “The Boat” to get around together. 
 
 Towards the end of the program, I had to get ready to return back to the Netherlands for my wedding. At the last minute, we had a sudden opportunity to go see a major investor in LA, and we all bundled into The Boat to make our way there. After a little while I realized we weren’t going to LA afterall. We were on our way to Las Vegas for a few nights as a final send off before I was leaving to get married. It was a lot of fun, and one I’ll remember for a long time. 
+
+![All piled into The Boat](/images/yc-the-boat.png)
 
 Since Y Combinator we have kept up the same level of drive and focus. As we’ve built our team, we’re working on extending our culture with a concrete focus on next actions; and a focus on clear goals. We also established the [GitLab Summit](https://about.gitlab.com/2015/11/30/gitlab-summit-2015/) so we can have everyone under the same roof working together in person.  
 
