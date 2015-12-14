@@ -5,7 +5,7 @@ date: 2015-12-14
 comments: true
 author: Job van der Voort
 author_twitter: jobvo
-image_title: '/images/unsplash/FILENAME.jpg'
+image_title: '/images/unsplash/stars.jpg'
 ---
 
 At the start of this year, from January until March 2015, GitLab participated in the winter 2015 batch of Y Combinator. We had an awesome time and want to thank the people at Y Combinator, the YC alumni and our fellow batch-mates.
