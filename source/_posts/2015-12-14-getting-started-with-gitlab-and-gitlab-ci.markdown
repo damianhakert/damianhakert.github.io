@@ -141,15 +141,6 @@ projects in specific languages such as PHP.
 
 Subscribe to our newsletter which includes links to our latest blog posts.
 
-<script src="//app-ab13.marketo.com/js/forms2/js/forms2.min.js"></script>
-<form id="mktoForm_1073"></form>
-<script>MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1073);</script>
-
-<p class="newsletter-afterword">
-  If you subscribe, you will receive our twice monthly newsletter.
-</p>
-
-
 [ci-wiki]: https://en.wikipedia.org/wiki/Continuous_integration
 [cd-wiki]: https://en.wikipedia.org/wiki/Continuous_delivery
 [ci-fowler]: http://www.martinfowler.com/articles/continuousIntegration.html
