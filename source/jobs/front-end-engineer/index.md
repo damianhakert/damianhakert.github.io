@@ -21,7 +21,7 @@ title: "Frontend Engineer"
 
 ## Priorities
 
-You work on items tagged with 'Frontend' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=frontend) and [EE](https://gitlab.com/gitlab-org/gitlab-ee/issues?label_name=frontend).
+You work on items tagged with 'Frontend' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=Frontend) and [EE](https://gitlab.com/gitlab-org/gitlab-ee/issues?label_name=Frontend).
 
 The priority starting from urgent is:
 
