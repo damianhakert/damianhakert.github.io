@@ -770,6 +770,8 @@ OR FOR INDEFINITE: an indefinite period}
 * {Contributor DOB}  
 * {Contributor Address}  
 * {Start Date}
+* {FOR TEMPORARY:prematurely}
+* {Employment or Contractor}
 * {Duration}
 * {End Date}
 * {Contributor Title}
@@ -810,13 +812,13 @@ OR FOR INDEFINITE: an indefinite period}.
 
 **3\. Notice period**
 
-Each of the Parties may terminate the Employment Contract prematurely by giving written notice of 
+Each of the Parties may terminate the Employment Contract {FOR TEMPORARY:prematurely} by giving written notice of 
 termination with effect from the last day of a calendar month and with due observance of the statutory notice period. 
 
 **4\. Applicability of the company handbook**
 
 The Employer’s company handbook will apply to this Employment Contract. The contents of the company handbook 
-form an integral part of this Employment Contract. For the latest version of the handbook please see https://about.gitlab.com/handbook/ .
+form an integral part of this Employment Contract. For the latest version of the handbook please see  https://about.gitlab.com/handbook/ .
 
 **5\. Working hours and working week**
 
@@ -855,12 +857,12 @@ of the Employment Contract and part-time employment.
 **10\. Vacation**
 
 1. The Employee is entitled to a legal minimum of 160 hours of vacation on full pay per calendar year based on a 40-hour working week (Article 7:634 Dutch Civil code). 
-1. Employee is entitled to unlimited paid time off on top of the first 160 hours according to the staff handbook. Please see: https://about.gitlab.com/handbook/#paid-time-off/
+1. Employee is entitled to unlimited paid time off on top of the first 160 hours according to the staff handbook. Please see:  https://about.gitlab.com/handbook/#paid-time-off/
 
 
 **11\. Illness**
 
-1. If Employee is unable due to illness to perform her/his duties, she/he shall be entitled, during a period of 6 weeks to be calculated from the first day of illness but not extending beyond the end of the Employment Contract, to 100 % of the salary that applied in the period immediately preceding the inability to work. In the remaining 98 weeks of illness, Employer shall pay at maximum 70 % of Employee’s salary.(Article 7:629 clause 1 Dutch Civil code).
+1. If Employee is unable due to illness to perform her/his duties, she/he shall be entitled, during a period of 6 weeks to be calculated from the first day of illness but not extending beyond the end of the Employment Contract, to 100% of the salary that applied in the period immediately preceding the inability to work. In the remaining 98 weeks of illness, Employer shall pay at maximum 70% of Employee’s salary.(Article 7:629 clause 1 Dutch Civil code).
 1. The above applies, however, only if and to the extent that pursuant to the requirements of article 7:629 of the Netherlands Civil Code, Employer is under the obligation to pay in accordance with article 7:629 of the Netherlands Civil Code. Any obligation of the Employer to pay salary to the Employee will cease if and when the incapacity or illness of the Employee exceeds 104 weeks or if and when the Employment Contract is terminated, whichever comes first.
 1. If the Employee is prevented from performing the agreed work due to illness, the Employee shall comply with any reasonable instructions - including but not limited to absenteeism protocol - given by or on behalf of the Employer.
 1. In case of any violation of the obligations of the Employee, the Employer is entitled to suspend the continued payment of the Employee's salary.
@@ -911,7 +913,7 @@ Other than with the prior written permission of the Employer, the Employee is pr
 The employee commits himself, in case he works with employers computer system or the computer system from a client, to use the equipment in a correct way, whereby:
  
 1. Employee will not (illegally) copy any information, source codes or applications from the computer system to (portable) storage media or any other way, except with explicit permission of the Employer.
-1. Employee will only install software that is licenced for free commercial use, or for which a valid licence is acquired.
+1. Employee will only install software that is licensed for free commercial use, or for which a valid license is acquired.
 1. Employee can be held responsible by Employer for any damages occurred by Employer or clients of Employer, due to breaching articles and b.
 
 **19\. Penalty clause**
@@ -953,6 +955,7 @@ Date:
 
 ## GitLab BV Contractor Agreement<a name="bv-contractor"></a>
 *Fields to be filled:*
+
 * {Remove for Contractors not based in NL: 10.6 Contributor will provide GitLab 
 with a copy of Contributor's valid Declaration of Independent Contractor Status 
 with respect to income tax (*VAR WUO-verklaring*) and will provide a new declaration after its expiration.  }
@@ -1123,7 +1126,7 @@ affairs, but shall not include any part of such information which:
 
 8\. Neither party shall assign or transfer any of its rights or obligations under this agreement without the prior written consent of the other party.  
 
-9\. This agreement does not grant any right or licence under either party’s intellectual property rights.  
+9\. This agreement does not grant any right or license under either party’s intellectual property rights.  
 
 10\. This Agreement constitutes the entire understanding between the Parties related to the protection of Confidential Information disclosed under it.  
 
