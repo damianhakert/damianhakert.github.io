@@ -12,7 +12,7 @@ body {
   width: 500px;
 }
 
-.sales-picture-container {
+.free-trial-picture-container {
   position: relative;
   width: 100%;
   height: 100px;
@@ -20,7 +20,7 @@ body {
   background: #548;
 }
 
-.sales-content {
+.free-trial-content {
   padding-top: 9px;
   text-align: center;
   color: white;
@@ -40,7 +40,7 @@ body {
   margin: 3% 15% -12% 15%;
 }
 
-.contact-intro {
+.free-trial-intro {
   margin-bottom: 2em;
   font-size: 1.1em;
 }

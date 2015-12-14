@@ -236,12 +236,7 @@ h1, h2, h3, h4, h5, button, a, p, li {
 }
 
 .wide-feature.head.ee {
-  background: -moz-linear-gradient(top, rgba(102, 82, 163, 1) 19% , rgba(47,13,82,1) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(85,68,136,1)), color-stop(100%,rgba(47,13,82,1))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, rgba(102, 82, 163, 1) 19% ,rgba(47,13,82,1) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, rgba(102, 82, 163, 1) 19% ,rgba(47,13,82,1) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, rgba(102, 82, 163, 1) 19% ,rgba(47,13,82,1) 100%); /* IE10+ */
-  background: linear-gradient(to bottom, rgba(102, 82, 163, 1) 19% ,rgba(47,13,82,1) 100%); /* W3C */
+  background: #548;
   padding: 50px 0px;
 }
 
@@ -270,9 +265,10 @@ h1, h2, h3, h4, h5, button, a, p, li {
 
 .wide-feature .description {
   text-align: center;
-  font-weight: 300;
   color: #fff;
-  font-size: 23px;
+  margin: 0 auto;
+  max-width: 700px;
+  font-size: 18px;
 }
 
 .wide-feature.community .description {
@@ -467,4 +463,9 @@ h2.panel-title {
 
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
   font-size: 17px;
+}
+
+.wide-img {
+  max-width: 1000px;
+  margin: 0 auto;
 }

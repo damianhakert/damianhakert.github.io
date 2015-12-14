@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, button, a {
   text-decoration: none;
 }
 
-.free-trial {
+.free-trial, .contact-us {
   background: #129BEE;
   color: white;
   padding: 10px 20px 10px 20px;
