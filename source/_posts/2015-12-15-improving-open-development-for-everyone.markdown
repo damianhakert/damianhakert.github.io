@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Improving Open Development for Everyone"
-date: 2015-12-14
+date: 2015-12-15
 comments: true
 categories:
 author: Job van der Voort
