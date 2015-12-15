@@ -76,9 +76,6 @@ We very much welcome contributions that implement any of these things.
 
 - [Translations](https://gitlab.com/gitlab-org/gitlab-ce/issues/4012) with the help of the rest of the community and Perforce
 - [Nested Groups](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772)
-- [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
-- [GitLab Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
-- [GitLab Autoscale](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/318)
 - [Resolve merge conflicts in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/3567)
 - [Multithreaded application server](https://gitlab.com/gitlab-org/gitlab-ce/issues/3592)
 
@@ -132,6 +129,7 @@ We very much welcome contributions that implement any of these things.
 
 ### CI
 
+- [Runner Autoscale](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/318)
 - [Option to test the result of the merge](http://homu.io/) instead of the feature branch itself (you will have to retest all MR's every time master / target branch is updated)
 - [Document dependent builds / pipeline triggers](https://gitlab.com/gitlab-org/gitlab-ce/issues/3432)
 - [Staging environment per branch with GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) similar to [Teatro](https://teatro.io/), [Tutum](https://support.tutum.co/support/solutions/articles/5000620449-deploy-to-tutum-button) & [Heroku Review Apps](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta))
@@ -139,7 +137,6 @@ We very much welcome contributions that implement any of these things.
 - [Automatic Docker image cleanup](https://gitlab.com/ayufan/gitlab-runner-docker-cleanup/issues/1)
 - [Show code coverage in diffs with colored horizontal bar](https://gitlab.com/gitlab-org/gitlab-ce/issues/4073)
 - [A/B testing of branches with GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
-- [Shared runners](https://gitlab.com/gitlab-org/gitlab-ce/issues/4056) automanaged [by Kubernetes](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/30) or with [Runner Autoscale](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/318)
 
 ### EE
 
