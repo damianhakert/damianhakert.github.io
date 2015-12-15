@@ -15,13 +15,14 @@ to that to anyone willing to listen and participate.
 
 If you would like to teach in one of them or participate or help in any way, please contact Job or submit a merge request.
 
-If you have suggestions for additonal courses you would like to see, please submit a merge request to add an upcoming class, assign to Chad and /cc Job.
+If you have suggestions for additional courses you would like to see,
+please submit a merge request to add an upcoming class, assign to Chad and /cc Job.
 
 To view or modify the slides of the classes use [Deckset](http://www.decksetapp.com/).
 
 There is a [YouTube playlist with all recordings](https://www.youtube.com/playlist?list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e).
 
-For GitLab team members only the is a university class every Thursday at 5PM UTC, send Job a message to sign up.
+For GitLab team members only there is a university class every Thursday at 5PM UTC, send Job a message to sign up.
 
 ### Repositories, Projects and Groups
 
@@ -29,10 +30,11 @@ For GitLab team members only the is a university class every Thursday at 5PM UTC
 
 ### Scalability Availability
 
-* [Recording](https://www.youtube.com/watch?v=cXRMJJb6sp4&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=2) recorded date: 2015-12-03
+* [Recording 2015-12-03](https://www.youtube.com/watch?v=cXRMJJb6sp4&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=2)
 
 ### GitLab 8.2
 
+- [Recording 2015-11-19](https://www.youtube.com/watch?v=09RLHyMFfpA&index=3&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e)
 - [Slides](https://gitlab.com/gitlab-org/University/blob/master/classes/8.2.md) 2015-11-19
 - [Make the test](http://goo.gl/forms/9PnmhiNzEa)
 
@@ -59,7 +61,7 @@ For GitLab team members only the is a university class every Thursday at 5PM UTC
 
 ### Intro to Git and Gitlab
 
-- [Intro to Git and GitLab](https://drive.google.com/a/gitlab.com/file/d/0B41DBToSSIG_ZWlYa3AxeDBtYVk/view?usp=sharing) recorded date: 2015-9-17
+- [Intro to Git and GitLab](https://www.youtube.com/watch?v=03wb9FvO4Ak&index=5&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e) recorded date: 2015-9-17
 - [Take the test](http://goo.gl/forms/9PnmhiNzEa)
 - Supporting: [A Short History of Git](http://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
 
@@ -69,8 +71,8 @@ For GitLab team members only the is a university class every Thursday at 5PM UTC
 
 ### Ecosystem
 
+- [Recording 2015-11-05](https://www.youtube.com/watch?v=sXlhgPK1NTY&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=6)
 - [GitLab Ecosystem slides](https://docs.google.com/presentation/d/1vCU-NbZWz8NTNK8Vu3y4zGMAHb5DpC8PE5mHtw1PWfI/edit)
-- [Gitlab Ecosystem Recording](https://drive.google.com/a/gitlab.com/file/d/0B41DBToSSIG_N0gzbEFMOVNkLWc/view?usp=sharing) recorded date: 2015-11-05
 - [Take the Test](http://goo.gl/forms/5Vrf3CE0iC)
 
 ### Creating a GitLab Account
