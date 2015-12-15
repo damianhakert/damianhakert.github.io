@@ -142,6 +142,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 1. Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
 1. When done with a point mention the subject of the next item and hand over to the next person.
 1. We ask everyone what they did outside of work the day(s) before.
+1. There is need to excuse yourself with 'I didn't nothing interesting', 'I just watched television' or 'that's all', it is not a competition. Instead share the most interesting detail, for example what television show you watched or what recipe you cooked.
 1. Sequence of asking people is in order of joining the company, same as on the [team page](https://about.gitlab.com/team/). If there are non-team page people in the call we end with those.
 1. Please look if the person you hand over to is present in the participant list so you don't hand over to someone who is not present.
 1. Last person hands over to the first person in the call order that is present (normally Dmitriy) who wishes everyone a good day or whishes everyone a great day her or him self.
