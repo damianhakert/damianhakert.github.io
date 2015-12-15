@@ -90,9 +90,6 @@ We very much welcome contributions that implement any of these things.
 
 ### Code Review
 
-You should be able to review any code within GitLab quickly, easily and
-in a way that all relevant parties get notified.
-
 - [Pre-post comment code](https://gitlab.com/gitlab-org/gitlab-ce/issues/3502) see what the current state of the code is where in a previous commit a comment was placed
 - [Merge if green button if tests are still running](https://gitlab.com/gitlab-org/gitlab-ce/issues/2640)
 - [Allow cross server merge requests](https://gitlab.com/gitlab-org/gitlab-ce/issues/4013) (paste url when making a new MR)
@@ -141,8 +138,8 @@ in a way that all relevant parties get notified.
 - Automatically give code quality metrics in the merge request
 - [Automatic Docker image cleanup](https://gitlab.com/ayufan/gitlab-runner-docker-cleanup/issues/1)
 - [Show code coverage in diffs with colored horizontal bar](https://gitlab.com/gitlab-org/gitlab-ce/issues/4073)
-- A/B testing of branches
-- [Shared runners](https://gitlab.com/gitlab-org/gitlab-ce/issues/4056) automanaged [by Kubernetes](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/30)
+- [A/B testing of branches with GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
+- [Shared runners](https://gitlab.com/gitlab-org/gitlab-ce/issues/4056) automanaged [by Kubernetes](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/30) or with [Runner Autoscale](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/318)
 
 ### EE
 
