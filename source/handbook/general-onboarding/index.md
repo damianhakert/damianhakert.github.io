@@ -62,11 +62,10 @@ welcome email to the employee at their work email on their first date of hire.
 * [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment.
 * [ ] Patricio/CEO: Add to tweetdeck
 * [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar, stock photo or something with sunglasses).
-* [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle
-* [ ] Hiring manager: /cc the new user in the organization issue with this checklist that was created for them.
 * [ ] Robert/Jacob/CEO: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] Robert/Jacob/CEO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] Robert/Jacob/CEO: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
+* [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle
 * [ ] People Ops: Invite to team meeting
 * [ ] People Ops: Send [People Information sheet](https://docs.google.com/spreadsheets/d/1vpFL7pPD6DYg9bgnW9JOFUKTg1XkTs10yOOyB7KqWxM/edit#gid=0) and instruct to return answers via email or slack
 * [ ] People Ops: [Add to 1Password](https://gitlab.1password.com/admin/people/members) and create an item for new hire in profiles vault
