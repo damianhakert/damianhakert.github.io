@@ -84,6 +84,28 @@ Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
+### Decoupling GitLab from NGINX
+
+In GitLab 8.3 we are making a major behind the scenes change in how
+GitLab works: all HTTP requests are now proxied through
+gitlab-workhorse. This change will make it easier for GitLab
+developers to add features and improve GitLab usign gitlab-workhorse
+while also making it simpler to deploy GitLab from source, and simpler
+to use GitLab with Apache or HAproxy when so desired.
+
+We are still recommending to run GitLab with NGINX because it offers
+request/response buffering (not yet implemented in gitlab-workhorse)
+and SSL termination (not planned for gitlab-workhorse).
+
+If you are using our Omnibus packages and their built-in NGINX service
+then no action is needed when upgrading. If you installed GitLab from
+source or if you are using your own reverse proxy then you will have
+to check your init script (gitlab-workhorse got some new settings) and
+reverse proxy configuration.
+
+Those of you who run GitLab at a 'relative URL' (example.com/gitlab)
+will be pleased to hear that gitlab-workhorse now supports relative
+URL's.
 
 ## Upgrade barometer
 
