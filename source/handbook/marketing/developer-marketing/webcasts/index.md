@@ -27,17 +27,18 @@ This program is in development. For the first month, January, we'll start with o
     -   Community welcome mat: How to meet other GitLab users what events we’ll be at, how about you?
 -   Aimed at developers or decision makers who have signed up in the last 30 days, inviting them into the community.
 
-### Release Party - 30 mins
+### Release Party - 30 - 40 mins
 
 -   Monthly on the 23rd or the next nearest Tuesday/Wednesday/Thursday.
 -   Present highlights from the new features. 
 -   Refer to any resources, docs, screencasts, etc. 
 -   Guest speakers from the dev team about the new features. 
--   Highlight contributors. External contributors welcome.
+-   Highlight contributors and the MVP for that month. 
+-   New contributors welcomed.
 -   Q+A from audience. 
 
 
-### GitLab - Expert to expert - 1 hour
+### GitLab - Expert to expert - 40 mins - 1 hour
 
 -   Live presentation, demo or discussion on monthly in-depth learning theme. 
 -   Preceded by 3 weeks of blog posts, screencasts, tutorial and an invitation which leads to the online event. 

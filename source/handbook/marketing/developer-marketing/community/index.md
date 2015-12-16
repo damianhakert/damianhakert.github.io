@@ -11,11 +11,11 @@ User groups can...
 
 * Connect GitLab users together to share insights on using GitLab and extending and integrating GitLab. 
 * Help new users get set up with GitLab by using Meet-up in a box resources
-* Exclusive content and remote-meetings with GitLab contributors or guest speakers through the user group network. 
+* Access exclusive content and remote-meetings with GitLab contributors or guest speakers through the user group network. 
 
 These are some early-stage ideas: 
 
-### Meet-up in a box
+### Coming soon: Meet-up in a box
 
 Community leaders who join the program will be given local meet-up support. 
 

@@ -3,7 +3,7 @@ layout: markdown_page
 title: "Developer Marketing - Blogging"
 ---
 
-The blog is our main publishing outlet. We publish content multiple times a week. These posts include
+The [blog](/blog) is our main publishing outlet. We publish content multiple times a week. These posts include
 
 - Short form articles
 - Long form articles
@@ -15,12 +15,12 @@ The blog is our main publishing outlet. We publish content multiple times a week
 
 ## The topics we write about
 
-### Product specific
+### Product-specific topics
 
 - Tutorials on using GitLab, GitLab CI, etc. 
 - Feature highlights bring attention to specific features at GitLab. 
 
-### Stories
+### User Stories
 
 * Customer stories 'why we choose GitLab'
 * Contributor stories 'why I contribute to GitLab'
@@ -31,5 +31,5 @@ The blog is our main publishing outlet. We publish content multiple times a week
 
 ## Community contributions
 
-We are developing a program to invite paid contribution by GitLab community members. 
+We are developing a program to invite paid contribution by GitLab community members. Coming soon!
 
