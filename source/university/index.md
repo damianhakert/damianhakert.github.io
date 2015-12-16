@@ -132,8 +132,8 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 
 - Upcoming
 - [GitLab CI](https://about.gitlab.com/gitlab-ci/)
-- Supporting: [Jenkins integration](http://doc.gitlab.com/ee/integration/jenkins.html)
-- Supporting: [Bamboo integation](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
+- Supporting: [Documentation on Integrating Jenkins with GitLab](http://doc.gitlab.com/ee/integration/jenkins.html)
+- Supporting: [Documentation on Integrating Bamboo with GitLab](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
 
 ### GitLab Mirroring
 
@@ -141,21 +141,23 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 
 ### JIRA and Jenkins integrations in GitLab
 - [Demo of Jira integration within GitLab](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=44b548147a67ab4d8a62274047146415)
-- Jenkins Upcoming
+- [Documentation on Integrating Jenkins with GitLab](http://doc.gitlab.com/ee/integration/jenkins.html) and Video Tutorial upcoming
 
 ### GitLab Integrations
 
 - Upcoming
-- Supporting: [Documentation on Integrating Jira with GitLab](http://doc.gitlab.com/ee/integration/jira.html) [Demo of Jira integration within GitLab](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=44b548147a67ab4d8a62274047146415)
-    * Download [WebEx](https://www.webex.com/play-webex-recording.html) to view this video
+- Supporting: [Documentation on Integrating Jira with GitLab](http://doc.gitlab.com/ee/integration/jira.html) and [Demo of Jira integration within GitLab](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=44b548147a67ab4d8a62274047146415).  Download [WebEx](https://www.webex.com/play-webex-recording.html) to view this video
 - Supporting: [Atlassian Crowd feature request](http://feedback.gitlab.com/forums/176466-general/suggestions/4324384-integration-with-crowd)
-- Supporting: [Jenkins](http://doc.gitlab.com/ee/integration/jenkins.html)
-- Supporting: [Bamboo](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
-- Supporting: [Slack](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/integration/slack.md)
+- Supporting: [Documentation on Integrating Jenkins with GitLab](http://doc.gitlab.com/ee/integration/jenkins.html)
+- Supporting: [Documentation on Integrating Bamboo with GitLab](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
+- Supporting: [Documentation on Integrating Slack with GitLab](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/integration/slack.md)
 
 ### Migrating to GitLab from SVN/GitHub Enterprise/BitBucket/Perforce
 
-- Upcoming
+- Supporting: [Migrating from BitBucket/Stash](http://doc.gitlab.com/ee/workflow/importing/import_projects_from_bitbucket.html)
+- Supporting: [Migrating from GitHub](http://doc.gitlab.com/ee/workflow/importing/import_projects_from_github.html)
+- Supporting: [Migrating from SVN](http://doc.gitlab.com/ee/workflow/importing/migrating_from_svn.html)
+- Supporting: [Migrating from Fogbugs](http://doc.gitlab.com/ee/workflow/importing/import_projects_from_fogbugz.html)
 
 ### GitLab Markdown
 
@@ -175,7 +177,7 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 - [Gitlab Workshop Part 3: Basics of Git and Gitlab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-3/material/)
 - [Gitlab Workshop Part 4: Basics of Git and Gitlab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-4/material/)
 - [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
-- [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=ae7b72c61347030e8aa75328ed4b8660)
+- [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=ae7b72c61347030e8aa75328ed4b8660).  Download [WebEx](https://www.webex.com/play-webex-recording.html) to view this video
 - [Amazon's transition to Continuous Delivery](https://www.youtube.com/watch?v=esEFaY0FDKc)
 - [3rd party tool comparision](http://technologyconversations.com/2015/10/16/github-vs-gitlabs-vs-bitbucket-server-formerly-stash/)
 - [State of Dev Ops 2015 Report by Puppet Labs](https://puppetlabs.com/sites/default/files/2015-state-of-devops-report.pdf) Insightful Chapters to understand the Impact of Continuous Delivery on Performance (Chapter 4), the Application Architecture (Chapter 5) and How IT Managers can help their teams win (Chapter 6).
@@ -183,7 +185,7 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 - [2011 WSJ article by Mark Andreeson - Software is Eating the World](http://www.wsj.com/articles/SB10001424053111903480904576512250915629460)
 - [2015 Venture Beat article - Actually, Open Source is Eating the World](http://venturebeat.com/2015/12/06/its-actually-open-source-software-thats-eating-the-world/)
 - [Customer Use-Cases](https://about.gitlab.com/handbook/use-cases/)
-- [Why Git and GitLab slide deck] (https://docs.google.com/a/gitlab.com/presentation/d/1RcZhFmn5VPvoFu6UMxhMOy7lAsToeBZRjLRn0LIdaNc/edit?usp=drive_web)
+- [Why Git and GitLab slide deck](https://docs.google.com/a/gitlab.com/presentation/d/1RcZhFmn5VPvoFu6UMxhMOy7lAsToeBZRjLRn0LIdaNc/edit?usp=drive_web)
 - [Client comparison document GitLab vs. another VCS](https://docs.google.com/spreadsheets/d/18cRF9Y5I6I7Z_ab6qhBEW55YpEMyU4PitZYjomVHM-M/edit#gid=1194295239) INTERNAL ACCESS ONLY
 - [Conducting a test of GitLab to other VCS Template](https://docs.google.com/spreadsheets/d/1ZgMNm4qZSsKPDKljjDYvN5qVZMjBKsjTMFLX9cB85Q0/edit?usp=sharing)
 - [Template to test GitLab to other VCS](https://docs.google.com/spreadsheets/d/1ZgMNm4qZSsKPDKljjDYvN5qVZMjBKsjTMFLX9cB85Q0/edit?usp=sharing)
