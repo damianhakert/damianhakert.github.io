@@ -28,7 +28,7 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 
 * [Recording](https://www.youtube.com/watch?v=4TWfh1aKHHw&index=1&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e) recorded date: 2015-12-10
 
-### Scalability Availability
+### Scalability and High Availability
 
 * [Recording 2015-12-03](https://www.youtube.com/watch?v=cXRMJJb6sp4&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=2)
 
@@ -139,22 +139,15 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 
 - Upcoming
 
-### HA vs. Scalability
-
-- Upcoming
-
-### Groups, Projects, Repositories
-
-- Upcoming
-
 ### JIRA and Jenkins integrations in GitLab
-
-- Upcoming
+- [Demo of Jira integration within GitLab](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=44b548147a67ab4d8a62274047146415)
+- Jenkins Upcoming
 
 ### GitLab Integrations
 
 - Upcoming
-- Supporting: [Jira](http://doc.gitlab.com/ee/integration/jira.html)
+- Supporting: [Documentation on Integrating Jira with GitLab](http://doc.gitlab.com/ee/integration/jira.html) [Demo of Jira integration within GitLab](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=44b548147a67ab4d8a62274047146415)
+    * Download [WebEx](https://www.webex.com/play-webex-recording.html) to view this video
 - Supporting: [Atlassian Crowd feature request](http://feedback.gitlab.com/forums/176466-general/suggestions/4324384-integration-with-crowd)
 - Supporting: [Jenkins](http://doc.gitlab.com/ee/integration/jenkins.html)
 - Supporting: [Bamboo](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
@@ -194,4 +187,3 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 - [Client comparison document GitLab vs. another VCS](https://docs.google.com/spreadsheets/d/18cRF9Y5I6I7Z_ab6qhBEW55YpEMyU4PitZYjomVHM-M/edit#gid=1194295239) INTERNAL ACCESS ONLY
 - [Conducting a test of GitLab to other VCS Template](https://docs.google.com/spreadsheets/d/1ZgMNm4qZSsKPDKljjDYvN5qVZMjBKsjTMFLX9cB85Q0/edit?usp=sharing)
 - [Template to test GitLab to other VCS](https://docs.google.com/spreadsheets/d/1ZgMNm4qZSsKPDKljjDYvN5qVZMjBKsjTMFLX9cB85Q0/edit?usp=sharing)
-- [Jira Integration Demo] (https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=44b548147a67ab4d8a62274047146415)
