@@ -59,4 +59,11 @@ title: "Customer Use-Cases"
 1. Migrating from SVN to Git
     * Placeholder to add story
     * Placeholder to add another story
-
+1. Protected Branches
+    * The customer had been using BitBucket and was not able to limit developer 
+      permissions to specific branches and repositories.  They had an ongoing 
+      problem with developers accidently pushing branches to the wrong project 
+      or without proper code review. They decided to switch to GitLab because 
+      we offer protected branches with more of a fine grained level of 
+      permissions at the Master level. 
+    * Placeholder to add another story 
