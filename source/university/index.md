@@ -169,6 +169,10 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 - Upcoming
 - Supporting: [Markdown](http://doc.gitlab.com/ce/markdown/markdown.html)
 
+### MIT License (what is it and what does it mean?)
+
+-upcoming
+
 ## Learning Resources
 
 - [GitLab documentation](http://doc.gitlab.com/)
