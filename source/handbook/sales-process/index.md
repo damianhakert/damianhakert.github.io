@@ -17,6 +17,7 @@ title: "Sales Process"
 * [Managing an Account](managing)
 * [Licences](#licences)
 * [Export Control Classification, and Countries We Do Not Do Business In](#export-control)
+* [Sales Automation Flow](#salesautomation)
 * [Helpful Links](#helpful)
 
 
@@ -241,6 +242,23 @@ to a country listed in [Country Group E:1 in Supplement No. 1 to part 740 of the
 
 As a consequence of this classification, we currently do not do business in:  
 Iran, Sudan (excluding South Sudan), Syria, North Korea, and Cuba.
+
+### Sales Automation Flow (Lead to Customer) <a name="salesautomation"></a>
+
+* Free Trial
+
+Free Trial form (Marketo) -> License Sent via App -> Lead added to Salesforce.com -> Opportunity Created -> Opportunity Closed Won -> Account invoiced or Credit Card added
+
+* Web Direct Purchase
+
+Order placed (Recurly) -> Account billed via Credit Card -> License Sent via App -> Sales Admin creates Account and opportunity in SF
+
+* Contact Us Form
+
+Contact Us Form (Marketo) -> Lead added to Salesforce.com - Opportunity Created if qualifed -> Opportunity Closed Won -> Account invoiced or Credit Card added.
+
+
+
 
 ### Helpful Links <a name="helpful"></a>
 1. [GitLab subscription page](https://about.gitlab.com/subscription/)
