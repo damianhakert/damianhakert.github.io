@@ -9,13 +9,24 @@ We want to meet each developer where they are now, and help them be the most eff
 
 We also want to address the whole organization, whether they are technical or non-technical; at the coal-face of development or in decision making roles. GitLab is not only used for code development and review. Those same tools are used by team members to track progress, create documentation and collaborate on projects. 
 
-- A [Social media](social-media) presence which is friendly and responsive.
+- A [Social media](social-media/) presence which is friendly and responsive.
+- An active [blog](blog/) with useful content relevant to GitLab users.
 - [Monthly themes](monthly/) exploring content from muliple perspectives
 - [Webcasts](webcasts/) which welcome newcomers, celebrate with existing users, and provide access to expertise. 
 - [Community](community/) support for events to connect people. 
+- A twice-monthly newsletter.
 
 
 ## Our direction
 
 You can get a peek at our to-do list for [content and engagement](content/).
+
+2016 plans
+
+- Webcast program
+- A reliable publishing schedule on the blog
+- Community meet-ups
+- Get GitLab team members out to meet people in the community
+- More active participation in all channels
+
 
