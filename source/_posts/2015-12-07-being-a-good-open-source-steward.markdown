@@ -29,11 +29,11 @@ Every time you have a company in control of an open source project, people will 
 
 ## For us, open source is an ethos not just a license
 
-Open Source arose from the Free Software movement. In the late 90s [when the term ‘open source’ was devised](https://en.wikipedia.org/wiki/Open_source#The_emergence_of_the_.22open_source.22_term), it helped to emphasize the fact that the code was view-able or modifiable. The term open source also downplayed the idea that the software was “free as in beer” which denoted poor-quality. At the same time the term laid the groundwork for commercial ventures to support these kinds of projects. Since 1998 open source has become a defacto standard, a mark of quality, and an assurance against vendor-lock-in. 
+Open Source arose from the Free Software movement. In the late 90s [when the term ‘open source’ was devised](https://en.wikipedia.org/wiki/Open_source#The_emergence_of_the_.22open_source.22_term), it helped to emphasize the fact that the code was view-able or modifiable. The term open source also downplayed the idea that the software was “free as in beer” which denoted poor-quality. At the same time the term laid the groundwork for commercial ventures to support these kinds of projects. Since 1998 open source has become a de-facto standard, a mark of quality, and an assurance against vendor-lock-in. 
 
 However, the term open source has somewhat muted the activist origins of the Free Software movement: “free as in freedom.” At the heart of open source is collaboration, which requires trust and safety. When commercial companies supporting open source projects disregard these ethical issues it will serve to erode trust, which is essential for open source to work. 
 
-Any companies who "open source" code to gain competitive advantage must  address the ethical issues involved. Open Source is more than just a license, it’s also an ethos and commitment. Now, we have encoded our commitment, detailed in our policy on being a good steward for the open source project. 
+Any companies who "open source" code to gain competitive advantage must  address the ethical issues involved. Open Source is more than just a license, it’s also an ethos and commitment. Now, we have encoded our commitment by detailing in our policy on being a good steward for the open source project. 
 
 ## What does it mean to be a good open source steward?
 
@@ -52,24 +52,24 @@ We also looked at what it takes to sell a product and service. Our experienced s
 
 Open source is not a freemium model we can just turn off after 30 days. We can’t say “The first one is free!” It’s all free. Forever. 
 
-We can’t just tend to the needs of the open source project without tending to the commercial requirements. Afterall, we know that to sustain the project, we need to make it commercially viable. 
+We can’t just tend to the needs of the open source project without tending to the commercial requirements. After all, we know that to sustain the project, we need to make it commercially viable. 
 
 We’re not the only ones dealing with these issues. “We’ve played with various mixes of what features go in to which offering, with how to balance our need to thrive as a commercial business with our core belief that Open Source is the future of infrastructure,” [wrote Adam Jacob of Chef](https://www.chef.io/blog/2014/09/08/there-is-one-chef-server-and-it-is-open-source/) That was one year ago, and now Chef has a clear governance policy and board of governance. 
 
-Each single vendor open source project needs to negotiate these issues. 
+Nathan Harvey, now VP of Community Development said "The intersection of open source and commercial interests raises questions about authority, authenticity, and culture" in [an article on open governance](http://www.informationweek.com/strategic-cio/it-strategy/three-pillars-of-open-source-governance/a/d-id/1318585). Will commercial interests trump what is best for the project? This is a very important question which each single-vendor open source project needs to consider. Nathan's first principle that "Transparency is key" is one we take very seriously.
 
 ## What is our policy?
 
 Our beliefs about open source are not only enshrined in our policy, but also in every aspect of how we work. We don't feel any competitive advantage is gained by working in a closed manner. Instead we aim to keep the levels of communication and collaboration with the community of users very high.
 
-- *[Development in the open.](https://about.gitlab.com/2015/12/16/improving-open-development-for-everyone/)* You can submit issues in a public issue tracker. This is not a real-only interface. Users can submit contributions. 
+- *[Development in the open.](https://about.gitlab.com/2015/12/16/improving-open-development-for-everyone/)* You can submit issues in a public issue tracker. This is not a real-only interface.  
 - *[Business in the open.](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/)* Our company handbook and policies are in the open.  
-- *[Clear Direction.](/direction/)* Our Direction document clarifies our current priorities and what is possible in the upcoming releases. 
+- *[Clear Direction.](/direction/)* Our Direction document clarifies the current project priorities and what is possible in the upcoming releases. 
 
 This level of transparency is unheard of in proprietary software, rare even in single vendor open source software, and unusual even among other repository management platforms (open source or not.) In fact, the history of source code management and communities is rife with obfuscation and abuses of trust. For this reason, we feel that having GitLab as home for safe, open, collaborative development requires being an open source platform itself. 
 
 In our policy, we focused on all of the things we have promised we won’t do. We've addressed the relationship of our CE (Community Edition) and EE (Enterprise Edition), and accounted for the requirements of the community by detailing our responsibilities. 
 
-We invite members of the communnity to read the policy. With this policy published, they will be able to hold us accountable. 
+We invite members of the community to read the policy. With this policy published, they will be able to hold us accountable. 
 
 Please read [“Our stewardship of GitLab CE”](/about/#stewardship)
