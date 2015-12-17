@@ -140,7 +140,7 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 - Upcoming
 
 ### JIRA and Jenkins integrations in GitLab
-- [Demo of Jira integration within GitLab](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=44b548147a67ab4d8a62274047146415)
+- [Demo of Jira integration within GitLab](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=44b548147a67ab4d8a62274047146415). Download [WebEx](https://www.webex.com/play-webex-recording.html) to view this video
 - [Documentation on Integrating Jenkins with GitLab](http://doc.gitlab.com/ee/integration/jenkins.html) and Video Tutorial upcoming
 
 ### GitLab Integrations
