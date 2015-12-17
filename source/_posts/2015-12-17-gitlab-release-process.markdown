@@ -10,7 +10,7 @@ image_title: '/images/unsplash/leavesonbranch.png'
 
 Since October 2011 we’ve released GitLab each month, without fail, without exceptions. On December 22nd that will be 49 monthly releases, not including patch releases or security releases. In this article I’ll give you an overview of how we release our product and how it helps our team improve process and documentation.
 
-Your release strategy affects how you plan, develop, test, and publish your software. At GitLab we follow a monthly release cycle which works really well for our project. If you’re running an open source distributed software project, you might consider if a predictable time-based release can help your project. You can even get started by using our release cycle document as your template.
+Your release strategy affects how you plan, develop, test, and publish your software. At GitLab we follow a monthly release cycle which works really well for our project. If you’re running an open source distributed software project, you might consider if a predictable time-based release can help your project. You can even get started by using our release cycle documentation as your template.
 
 <!-- more -->
 
@@ -56,7 +56,7 @@ The release process is a good experience for any member of the team. It gives yo
 
 Each month the Release Manager is appointed to follow the release process which begins 7 business days prior to the release date. That person stays the Release Manager until the end of their cycle and the next Release Manager initiates the next release. The monthly release process is outlined in [our documentation](http://doc.gitlab.com/ce/release/monthly.html)
 
-It’s up to the Release Manager to delegate and coordinate activity among the team members, and to ensure everyone is up-to-date. They create an issue in the GitLab CE project, and use the `monthly.md` file as a template ([see an example](https://gitlab.com/gitlab-org/gitlab-ce/blob/v8.2.3/doc/release/monthly.md)). This generates a checklist which the Release Manager updates as the release progresses. Finally, the Release Manager also appoints the next Release Manager who will initiate the next cycle.
+It’s up to the Release Manager to delegate and coordinate activity among the team members, and to ensure everyone is up-to-date. They create an issue in the GitLab CE project, and use the `monthly.md` file as a template. This generates a checklist which the Release Manager updates as the release progresses. Finally, the Release Manager also appoints the next Release Manager who will initiate the next cycle.
 
 ## What are the steps towards release?
 
