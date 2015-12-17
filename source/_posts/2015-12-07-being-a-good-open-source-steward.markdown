@@ -29,7 +29,7 @@ Every time you have a company in control of an open source project, people will 
 
 ## For us, open source is an ethos not just a license
 
-Open Source arose from the Free Software movement. In the late 90s [when the term ‘open source’ was devised](https://en.wikipedia.org/wiki/Open_source#The_emergence_of_the_.22open_source.22_term), it helped to emphasize the fact that the code was view-able or modifiable. The term open source also downplayed the idea that the software was “free as in beer” which denoted poor-quality. At the same time the term laid the groundwork for commercial ventures to support these kinds of projects. Since 1998 open source has become a de-facto standard, a mark of quality, and an assurance against vendor-lock-in. 
+Open Source arose from the Free Software movement. In the late 90s [when the term ‘open source’ was devised](https://en.wikipedia.org/wiki/Open_source#The_emergence_of_the_.22open_source.22_term), it helped to emphasize the fact that the code was view-able or modifiable. The term open source also downplayed the idea that the software was “free as in beer” which denoted poor-quality. At the same time the term laid the groundwork for commercial ventures to support these kinds of projects. Since 1998 open source has become a de-facto standard, a mark of quality, and an assurance against vendor lock-in. 
 
 However, the term open source has somewhat muted the activist origins of the Free Software movement: “free as in freedom.” At the heart of open source is collaboration, which requires trust and safety. When commercial companies supporting open source projects disregard these ethical issues it will serve to erode trust, which is essential for open source to work. 
 
