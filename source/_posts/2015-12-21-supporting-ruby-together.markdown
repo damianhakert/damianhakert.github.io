@@ -16,7 +16,7 @@ Companies and developers who use Ruby depend on a lot of infrastructure to get t
 
 Members also have the opportunity to connect with one another and with the Ruby Together team via a members-only Slack group chat. As membership increases,  we plan to fund additional projects that benefit the entire Ruby community, including work to turn [RubyBench.org](https://rubybench.org/) into a fully-fledged community performance benchmarking resource and creating new projects to solve other problems that Ruby developers struggle with today.
 
-GitLab has joined Ruby Together as an Emerald member, helping to ensure that everyone who uses Ruby will be able to depend on Bundler, RubyGems.org, and other Ruby infrastructure. Become a member alongside GitLab, Basecamp, Stripe, Airbnb, and others, improving things for everyone who uses Ruby. The community that has grown up around Ruby is amazing, and provides many fantastic (and fantastically useful) tools that any developer can use. 
+GitLab has joined Ruby Together as an Emerald member, helping to ensure that everyone who uses Ruby will be able to depend on Bundler, [RubyGems.org](http://RubyGems.org), and other Ruby infrastructure. Become a member alongside GitLab, Basecamp, Stripe, Airbnb, and others, improving things for everyone who uses Ruby. The community that has grown up around Ruby is amazing, and provides many fantastic (and fantastically useful) tools that any developer can use. 
 
 Let's work together to make sure those tools (and the community) are the best that they can be, for everyone. Membership dues directly fund work that benefits everyone using Ruby, and are usually tax-deductible. Both individual and corporate memberships are available. [Join us today!](https://rubytogether.org).
 
