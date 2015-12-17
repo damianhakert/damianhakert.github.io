@@ -62,12 +62,12 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 1. We want to have a great company so if you meet people that are **better** than yourself try to recruit them to join the company.
 1. It is easier to bond with people that have the same constraints, compensate for this and recognize that sales is hard because you are dependent on another organization and development is hard because you have to preserve the ability to quickly improve the product in the future.
 1. Our strategy is detailed in the [GitLab Strategy document](https://docs.google.com/a/gitlab.com/document/d/1tco4-arhiA3V-XUJAkTtJ6zrfvT0OrUHtID2S1qVsXE/edit), please read it and contribute.
-1. Explicitly note what **next action** you propose or expect and from whom.
 1. There is no need for **consensus**, make sure that you give people that might have good insights a chance to respond (by /cc'ing them) but make a call yourself, [consensus doesn't scale](https://twitter.com/sama/status/585950222703992833).
 1. If you need to discuss with a team member for help please realize that probably the majority of the community also doesn't know, be sure to **document** the answer to radiate this information to the whole community. After the question is answered discuss where it should be documented and who will do it. You can remind other people of this by asking 'who will document this'?
 1. If you fix something for GitLab.com or one of our users make sure to make that the default (preferred) and radiate the information in the docs, we should run GitLab.com with the default settings and setup our users would also have.
 1. Be **specific** in your written communication, especially externally. Do not reply with a generalization when you can give an example.
-1. Be **kind** in your written communication, especially externally. Be constructive instead of argumentative or condescending.
+1. Be **kind** in your written communication, especially externally. Be constructive instead of argumentative, sarcastic or condescending. We're not all programmers but try to be inspired by the friendliness in the Ruby community of which the common maxim is the [MINASWAN motto](https://en.wikipedia.org/wiki/MINASWAN).
+1. Explicitly note what **next action** you propose or expect and from whom.
 1. Everyone at the company cares about your **output**. Being away from the keyboard during the workday, doing private browsing or making personal phone calls is fine and encouraged.
 1. We're a **distributed** company where people work remote without missing out, prefer communication in public issues and chat channels and ensure conclusions of offline conversations are written down.
 1. Everything is always in draft and subject to change, including this handbook. So do not delay documenting things and do not include draft in the titles of documents. Ensure everyone can read the current state, nothing will ever be finished.
