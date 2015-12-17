@@ -1,0 +1,361 @@
+---
+layout: default
+title: Glossary and Terminology
+---
+<div id="content">
+  <div class="container txt-lefty">
+    <div class="row">
+      <div class="col-sm-8 col-md-8 col-sm-offset-2 col-md-offset-2">
+        <h3>Artifacts</h3>
+            <p>
+               Needs Definition here
+            </p>
+
+        <h3>Docker</h3>
+            <p>
+              Needs Definition here
+            </p>
+        
+        <h3>Atlassian</h3>
+            <p>
+              Company providing a suite of products including Jira, Bitbucket, Confluence and Hipchat
+            </p>
+        <h3>Branch</h3>
+            <p>
+              A Branch is a parallel version of a repository. Allows you to work on the repository without you affecting the "master" branch.
+              Allows you to make changes without affecting the current "live" version.
+              When you have made all your changes to your branch you can then merge to the master and to make the changes fo "live".
+            </p>
+        <h3>Commit</h3>
+            <p>
+              A commit is any individual change to a file or repository just like saving a file.
+              Commits have the added benefit that each commit creates a unique ID "SHA" that will give a full audit trail of when and by who the commits was done.
+            </p>
+        <h3>Confluence</h3>
+            <p>
+              An Atlassian product for document collaboration **Needs further Definition here**
+            </p>
+        <h3>Hipchat</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Kerberos</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Bitbucket</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Contributor</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Collaborator</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Pull</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Push</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Fork</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Markdown</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Issue</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>GitHib</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>SVN</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Perforce</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Merge</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Open Source</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Linux</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Repository</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>SSH Key</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>User</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>SCM</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>LFS</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Git Annex</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>LDAP</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Git Hooks</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Rebase</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Revision</h3>
+            <p>
+              Synonum for commitDefinition here
+            </p>
+        <h3>Tag</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Milestones</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Labels</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Groups</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Master</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Jenkins</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Bamboo</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Stash</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Jira</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Audit Reports</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Continous Integration</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Continuos Deployment</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>GitLab.com</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Githost.io</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>On premise</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>hosted</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>SAAS</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Community</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Readme</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Wiki</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Protected Branches</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Mirror Repository</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Web Hooks</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Groups</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Projects</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Deploy Keys</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>GitLab Community Edition</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>GitLab Enterprise Edition</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Basic Subscription</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Standard Subscription</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Plus Subscription</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Code Review</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>MIT License</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Issue Tracking</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Active Cluster</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Runners</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Source</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Wiki</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Code Snippets</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>LDAP Group Sync</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Bitbucket</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>2FA</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Atlassian Crowd</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Branded Login Page</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Omnibus Packages</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Tool Stack</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>My SQL</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>PostgreSQl</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Piwik Analytics</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Kerberos</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Kerberos</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Kerberos</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Kerberos</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Kerberos</h3>
+            <p>
+              Needs Definition here
+            </p>
+        <h3>Kerberos</h3>
+            <p>
+              Needs Definition here
+            </p>
