@@ -188,4 +188,3 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 - [Why Git and GitLab slide deck](https://docs.google.com/a/gitlab.com/presentation/d/1RcZhFmn5VPvoFu6UMxhMOy7lAsToeBZRjLRn0LIdaNc/edit?usp=drive_web)
 - [Client comparison document GitLab vs. another VCS](https://docs.google.com/spreadsheets/d/18cRF9Y5I6I7Z_ab6qhBEW55YpEMyU4PitZYjomVHM-M/edit#gid=1194295239) INTERNAL ACCESS ONLY
 - [Conducting a test of GitLab to other VCS Template](https://docs.google.com/spreadsheets/d/1ZgMNm4qZSsKPDKljjDYvN5qVZMjBKsjTMFLX9cB85Q0/edit?usp=sharing)
-- [Template to test GitLab to other VCS](https://docs.google.com/spreadsheets/d/1ZgMNm4qZSsKPDKljjDYvN5qVZMjBKsjTMFLX9cB85Q0/edit?usp=sharing)
