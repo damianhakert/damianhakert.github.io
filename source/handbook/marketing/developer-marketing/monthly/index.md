@@ -1,3 +1,8 @@
+---
+layout: markdown_page
+title: "Developer Marketing - Monthly"
+---
+
 Monthly themes
 ==============
 
