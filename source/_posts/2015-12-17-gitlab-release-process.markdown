@@ -54,7 +54,7 @@ The release process is a good experience for any member of the team. It gives yo
 
 ## What does the Release Manager do?
 
-Each month the Release Manager is appointed to follow the release process which begins 7 business days prior to the release date. That person stays the Release Manager until the end of their cycle and the next Release Manager initiates the next release. The monthly release process is outlined in [our documentation](http://doc.gitlab.com/ce/release/monthly.html)
+Each month the Release Manager is appointed to follow the release process which begins 7 business days prior to the release date. That person stays the Release Manager until the end of their cycle and the next Release Manager initiates the next release. The monthly release process is outlined in [our documentation](http://doc.gitlab.com/ce/release/monthly.html).
 
 It’s up to the Release Manager to delegate and coordinate activity among the team members, and to ensure everyone is up-to-date. They create an issue in the GitLab CE project, and use the `monthly.md` file as a template. This generates a checklist which the Release Manager updates as the release progresses. Finally, the Release Manager also appoints the next Release Manager who will initiate the next cycle.
 
