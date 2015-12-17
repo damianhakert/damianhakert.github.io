@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "Open Source Stewardship"
-date: 2015-12-07
+date: 2015-12-22
 comments: true
 author: Sytse Sijbrandij
 author_twitter: sytses
 image_title: '/images/unsplash/sailing-5.jpg'
 ---
+
 We've recently detailed our policy and commitment to open source. We need to think in the interests of the project, while tending to the realities of running a business to support it. I wanted to share some of our thoughts around the decisions behind the policy.  
 
 <!-- more -->
@@ -14,6 +15,7 @@ We've recently detailed our policy and commitment to open source. We need to thi
 ## The challenge of being an open source steward 
 
 On Opensource.com, Matthias Stürmer identified [Four types of open source communities](http://opensource.com/business/13/6/four-types-organizational-structures-within-open-source-communities)
+
 - single vendor open source projects
 - development communities
 - user communities
@@ -29,23 +31,24 @@ Every time you have a company in control of an open source project, people will 
 
 Open Source arose from the Free Software movement. In the late 90s [when the term ‘open source’ was devised](https://en.wikipedia.org/wiki/Open_source#The_emergence_of_the_.22open_source.22_term), it helped to emphasize the fact that the code was view-able or modifiable. The term open source also downplayed the idea that the software was “free as in beer” which denoted poor-quality. At the same time the term laid the groundwork for commercial ventures to support these kinds of projects. Since 1998 open source has become a defacto standard, a mark of quality, and an assurance against vendor-lock-in. 
 
-However, the term open source has somewhat muted the activist origins of the free software movement: “free as in freedom.” When commercial companies supporting open source projects disregard these ethical issues it will serve to erode trust, which is essential for open source to work. Open Source is more than just a license, it’s also an ethos and commitment. Now, we have encoded our commitment. We have detailed our policy on being a good steward for the open source project. 
+However, the term open source has somewhat muted the activist origins of the Free Software movement: “free as in freedom.” At the heart of open source is collaboration, which requires trust and safety. When commercial companies supporting open source projects disregard these ethical issues it will serve to erode trust, which is essential for open source to work. 
+
+Any companies who "open source" code to gain competitive advantage must  address the ethical issues involved. Open Source is more than just a license, it’s also an ethos and commitment. Now, we have encoded our commitment, detailed in our policy on being a good steward for the open source project. 
 
 ## What does it mean to be a good open source steward?
 
 I was hesitant to create a policy until we were sure about the circumstances and context for our project and company. Now that we have a few years of experience - we know better what is required. 
 
-We need to think in the interests of the project, while tending to the realities of running a business to support it. 
+We need to think in the interests of the project, while tending to the realities of running a business to support it. We’ve outlined our commitment by looking at other communities and projects which have struggled with these issues. Typical criticisms of open source companies include: 
 
-We’ve outlined our commitment by looking at other communities and projects which have struggled with these issues. Typical criticisms of open source companies include: 
-- The governance of projects
-- Transparent decision making about the direction of the project
-- Company involvement in or support of open communication channels 
+- The governance of projects.
+- Transparent decision making about the direction of the project.
+- Company involvement in or support of open communication channels. 
 - Putting the company’s interests before the project. 
 
-We had to think in terms of what was in the interests of the open source project. 
+Each of those aspects must be addressed in our policy to ensure the project, code and community of users are supported. 
 
-We also looked at what it takes to sell a product and service. Our experienced sales team have helped us understand their struggles. They ask “Why do I have users who are running with over 10,000 developers who are not paying us a dime?” Artificial limits possible with proprietary services give salespeople leverage. They have asked “Can’t we have some limit, if you have over 1000 dev that you need the enterprise edition?” This does make sense from a sales point of view, but it doesn’t make sense in the open source context. 
+We also looked at what it takes to sell a product and service. Our experienced sales team have helped us understand their struggles. Why should the software be completely free no matter who is using it? They ask “Why do I have users who are running with over 10,000 developers who are not paying us a dime?” Artificial limits which are possible with proprietary services give salespeople leverage. They've asked “Can’t we have some limit, such as if you have over 1000 dev that you need the enterprise edition?” This does make sense from a sales point of view, but it doesn’t make sense in the open source context. 
 
 Open source is not a freemium model we can just turn off after 30 days. We can’t say “The first one is free!” It’s all free. Forever. 
 
@@ -57,8 +60,16 @@ Each single vendor open source project needs to negotiate these issues.
 
 ## What is our policy?
 
-We’ve focused on all of the things we have promised we won’t do. With this policy published, people will be able to hold us accountable. 
+Our beliefs about open source are not only enshrined in our policy, but also in every aspect of how we work. We don't feel any competitive advantage is gained by working in a closed manner. Instead we aim to keep the levels of communication and collaboration with the community of users very high.
 
-Please read “Our stewardship of GitLab CE” 
+- *[Development in the open.](https://about.gitlab.com/2015/12/16/improving-open-development-for-everyone/)* You can submit issues in a public issue tracker. This is not a real-only interface. Users can submit contributions. 
+- *[Business in the open.](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/)* Our company handbook and policies are in the open.  
+- *[Clear Direction.](/direction/)* Our Direction document clarifies our current priorities and what is possible in the upcoming releases. 
 
-(needs summary of policy)
+This level of transparency is unheard of in proprietary software, rare even in single vendor open source software, and unusual even among other repository management platforms (open source or not.) In fact, the history of source code management and communities is rife with obfuscation and abuses of trust. For this reason, we feel that having GitLab as home for safe, open, collaborative development requires being an open source platform itself. 
+
+In our policy, we focused on all of the things we have promised we won’t do. We've addressed the relationship of our CE (Community Edition) and EE (Enterprise Edition), and accounted for the requirements of the community by detailing our responsibilities. 
+
+We invite members of the communnity to read the policy. With this policy published, they will be able to hold us accountable. 
+
+Please read [“Our stewardship of GitLab CE”](/about/#stewardship)
