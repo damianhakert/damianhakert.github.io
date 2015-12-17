@@ -3,9 +3,9 @@ layout: post
 title: "How we managed 49 monthly releases"
 date: 2015-12-17
 comments: true
-author: Dmitriy 
+author: Dmitriy Zaporozhets
 author_twitter: dzaporozhets
-image_title: '/images/unsplash/goal.jpg'
+image_title: '/images/unsplash/leavesonbranch.png'
 ---
 
 Since Oct 2011 we’ve released GitLab each month, without fail, without exceptions. On December 22nd that will be 49 monthly releases, not including patch releases or security releases. In this article I’ll give you an overview of how we release our product and how it helps our team improve process and documentation.
@@ -86,3 +86,4 @@ People can trust open source projects which have a stable release schedule. It�
 
 In January we’re going to have our 50th monthly release of our project. We’re looking forward to celebrating!
 
+If you'd like to read more about our release philosophy, you can learn more in our previous post [Why we shift objectives and not release dates at GitLab](/2015/12/07/why-we-shift-objectives-and-not-release-dates-at-gitlab/)
