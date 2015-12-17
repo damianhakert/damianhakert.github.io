@@ -45,7 +45,7 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 - [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
 - [Import GitHub wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
 - [Elasticsearch or Hound (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
-- [GitLab RE for readonly secundary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
+- [GitLab RE for readonly secondary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
 - [GitLab Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
 - [Group contribution statistics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/109)
 
