@@ -58,6 +58,8 @@ Each month the Release Manager is appointed to follow the release process which 
 
 It’s up to the Release Manager to delegate and coordinate activity among the team members, and to ensure everyone is up-to-date. They create an issue in the GitLab CE project, and use the `monthly.md` file as a template. This generates a checklist which the Release Manager updates as the release progresses. Finally, the Release Manager also appoints the next Release Manager who will initiate the next cycle.
 
+![Example monthly release checklist GitLab 8.3](/images/blogimages/monthly-release-checklist.jpg)
+
 ## What are the steps towards release?
 
 Six business days before the 22nd, the first release candidates are created for CE and EE. After that, the team is testing and doing QA on the release. Four days before the release, we deploy to GitLab.com and test further. In the final days before the release we are working on building packages and preparing the blog post, which includes selecting a contributor MVP for the [GitLab Hall of Fame](https://about.gitlab.com/mvp/index.html).
