@@ -13,8 +13,9 @@ image_title: /images/7_X/PICTURE.PNG
 We're closing this fantastic year for GitLab with its 49th release, GitLab 8.3.
 
 This time around, we've again received amazing contributions from the community.
-You can now merge automatically after a build has passed; we're introducing
-GitLab Pages for Enterprise Edition and issues have new powers in both CE and  EE!
+You can now merge automatically after a build has passed, we're introducing
+GitLab Pages for Enterprise Edition, and issues have new powers in both CE and
+EE!
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
 Greg Smethells. Greg made the proposal and [subsequently implemented](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1991)
@@ -62,7 +63,7 @@ Now you can easily:
 
 ![]()
 
-We intend to add further improve reporting tools such as this in the future
+We intend to add further improved reporting tools such as this in the future
 release of GitLab. We're curious to hear your thoughts and feature proposals.
 
 ## References in Issues and Merge Requests
@@ -74,13 +75,13 @@ https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1991
 
 When you have a lot of issues, it can be hard to get an overview.
 By adding a weight to each issue, you can get a better idea of how much time,
-value or complexity a given issue has or will cost.
+value, or complexity a given issue has or will cost.
 
 To set the weight of issue, simply change the value in the dropdown menu.
 You can set it to a numeric value from 1 to 9.
 
-This value will appear on issues, in the list of issues and you can see the
-total sum of all issues on the milestone page.
+This value will appear in the issues list and on issues themselves, and you can
+see the total sum of all issues on the milestone page.
 
 ## Quickly create a new MR from the web editor
 
@@ -89,12 +90,12 @@ https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2021
 ## Builds in Merge Requests
 
 As your merge requests trigger builds to run in CI, you now have quick
-access to them in the builds tab.
+access to them in the **Builds** tab.
 
 ![]()
 
-This makes it much easier to see what is failing, making it even more
-easy to work with CI in code review.
+This makes it much easier to see what is failing, making it even easier to work
+with CI in code review.
 
 As this is another step into integrating CI in GitLab, we're
 working hard on bringing more of these improvements. Have any ideas?
@@ -108,8 +109,8 @@ You might know that you can reference anything from anywhere in GitLab,
 using the simple syntax of `group/projectREF`, for instance to reference
 issue 1 in the GitLab CE repo you can do `gitlab-org/gitlab#1`.
 
-From now on, we automatically generate those references for you when posting
-an URL from within your GitLab instance. So:
+We now automatically generate those references for you when posting a URL from
+within your GitLab instance. So:
 `https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1991` becomes
 `gitlab-org/gitlab-ce!1991`. This makes reading issues much cleaner.
 
@@ -175,7 +176,7 @@ Check out our [update page](https://about.gitlab.com/update/).
 
 ## Enterprise Edition
 
-The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
+The mentioned EE-only features and things like LDAP group support can be found in GitLab Enterprise Edition.
 For a complete overview please have a look at the [feature list of GitLab EE](http://www.gitlab.com/gitlab-ee/).
 
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing/).
