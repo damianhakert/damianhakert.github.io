@@ -1,84 +1,46 @@
 ---
 layout: post
-title: "GitLab 8.3 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 8.3 released with auto-merge and GitLab Pages
 date: 2015-12-22
 comments: true
 categories:
-author: ADD_YOUR_FULL_NAME
+author: Job van der Voort
+author_twitter: jobvo
 filename: FILENAME.MARKDOWN
 image_title: /images/7_X/PICTURE.PNG
 ---
 
-GitLab is open source software to collaborate on code.
-Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability and performance improvements, and bug fixes.
-The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
-In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
+We're closing this fantastic year for GitLab with its 49th release, GitLab 8.3.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+This time around, we've again received amazing contributions from the community.
+You can now merge automatically after a build has passed; we're introducing
+GitLab Pages for Enterprise Edition and issues have new powers in both CE and  EE!
+
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
+Greg Smethells. Greg made the proposal and [subsequently implemented](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1991)
+the new references in issues and merge requests.
+He communicated his every move and worked together closely with many other
+people from the community.
+
+Thanks Greg!
 
 <!--more-->
 
-## ***MAIN_CE_FEATURE***
+## GitLab Pages (EE only)
 
-***DESCRIPTION***
+## Auto-merge on Build Success
 
-[![screenshot](/images/8_3/feature.png)](/images/8_3/feature.png) ***8_3 is the version of GitLab being released***
+## Statistics (EE only)
 
+## References in Issues and Merge Requests
 
-## ***NEW_CE_FEATURE***
+## Issue Weight (EE only)
 
-***DESCRIPTION***
+## Quickly create a new MR from the web editor
 
-[![screenshot](/images/8_3/feature.png)](/images/8_3/feature.png) ***8_3 is the version of GitLab being released***
+## Builds in Merge Requests
 
-
-## NEW_CE_FEATURE
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_3/feature.png)](/images/8_3/feature.png) ***8_3 is the version of GitLab being released***
-
-## NEW_SPONSORED_FEATURE
-
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/8-3-stable/CHANGELOG#L18).
-
-## ***MAIN_EE_FEATURE*** (EE only feature)
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_3/feature.png)](/images/8_3/feature.png) ***8_3 is the version of GitLab being released***
-
-## ***EE_FEATURE*** (EE only feature)
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_3/feature.png)](/images/8_3/feature.png) ***8_3 is the version of GitLab being released***
-
-
-## ***MAIN_CI_FEATURE***
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_3/feature.png)](/images/8_3/feature.png) ***8_3 is the version of GitLab CI being released***
-
-
-## ***NEW_CI_FEATURE***
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_3/feature.png)](/images/8_3/feature.png) ***8_3 is the version of GitLab CI being released***
-
-
-## NEW_CI_FEATURE
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_3/feature.png)](/images/8_3/feature.png) ***8_3 is the version of GitLab CI being released***
-
-## NEW_SPONSORED_FEATURE
-
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/8-3-stable/CHANGELOG#L18).
+## Automatic References
 
 ## Other changes
 
