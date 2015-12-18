@@ -11,7 +11,7 @@ image_title: '/images/unsplash/trees-xmas.png'
 
 Some GitLab users who could be celebrating a festive season might have the post-Christmas blues. Because maybe you didn’t get everything you wanted for Christmas. We feel partly responsible for that. We want to make it up to you.
 
-We’re working hard to get a swag shop set up. If you want to be the absolute first to know about it, fill out our survey below. This will help us learn more about you and the swag you love. Bonus: You’ll be entered into a prize draw for a gift. Good luck!!  
+We’re working hard to get a swag shop set up. If you want to be the absolute first to know about it, fill out our survey below. This will help us learn more about you and the swag you love. Bonus: You’ll be entered into a prize draw for a gift. Good luck!!
 
 <!-- more -->
 
@@ -36,7 +36,7 @@ I’m really curious about the great swag you’ve seen. Please share a pic of y
 
 ## Let’s talk swag
 
-It’s pretty clear we need to have some nice stickers, with designs for events and as rewards. But we want to develop some other ideas. What we want to avoid is “bad swag”. Bag swag might be poor quality and wasteful swag. Realex Payments’ [“Bad Swag” campaign](https://www.realexpayments.com/bad-swag) made a point in saying that some companies consider “developer relations” to be just about making swag, forgetting what support developers need. 
+It’s pretty clear we need to have some nice stickers, with designs for events and as rewards. But we want to develop some other ideas. What we want to avoid is “bad swag”. Bad swag might be poor quality and wasteful swag. Realex Payments’ [“Bad Swag” campaign](https://www.realexpayments.com/bad-swag) made a point in saying that some companies consider “developer relations” to be just about making swag, forgetting what support developers need. 
 
 I think at GitLab, we’ve been focusing so much on building the tools for developers that we forgot to support the community and help them connect. 
 
@@ -62,7 +62,7 @@ When you fill out this survey you'll be put on our "Swag Alert" list. As soon as
 
 We'll keep this survey open while we work on our plans. 
 
-By completing this form you’ll be entered to a random draw to win a prize.  
+By completing this form you’ll be entered to a random draw to win a prize.
 
 Your name
 
