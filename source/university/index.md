@@ -116,17 +116,17 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 
 ### GitLab Flow
 
-- [Recoding](https://www.youtube.com/watch?v=UGotqAUACZA)
+- [Recording of what it is](https://www.youtube.com/watch?v=UGotqAUACZA)
 - [GitLab Flow blog post](https://about.gitlab.com/2014/09/29/gitlab-flow/)
 - [GitLab Flow documentation](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
 
 ### Managing LDAP, Active Directory
 
-- [Recording](https://www.youtube.com/watch?v=HPMjM-14qa8)
+- [Recording of what it is and how to set it up](https://www.youtube.com/watch?v=HPMjM-14qa8)
 
 ### Managing Permissions within EE
 
-- [Recording](https://www.youtube.com/watch?v=DjUoIrkiNuM)
+- [Recording of what it is and how to set it up](https://www.youtube.com/watch?v=DjUoIrkiNuM)
 
 ### Continuous Integration and Runners
 
@@ -186,5 +186,4 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 - [2015 Venture Beat article - Actually, Open Source is Eating the World](http://venturebeat.com/2015/12/06/its-actually-open-source-software-thats-eating-the-world/)
 - [Customer Use-Cases](https://about.gitlab.com/handbook/use-cases/)
 - [Why Git and GitLab slide deck](https://docs.google.com/a/gitlab.com/presentation/d/1RcZhFmn5VPvoFu6UMxhMOy7lAsToeBZRjLRn0LIdaNc/edit?usp=drive_web)
-- [Client comparison document GitLab vs. another VCS](https://docs.google.com/spreadsheets/d/18cRF9Y5I6I7Z_ab6qhBEW55YpEMyU4PitZYjomVHM-M/edit#gid=1194295239) INTERNAL ACCESS ONLY
-- [Conducting a test of GitLab to other VCS Template](https://docs.google.com/spreadsheets/d/1ZgMNm4qZSsKPDKljjDYvN5qVZMjBKsjTMFLX9cB85Q0/edit?usp=sharing)
+- [GitLab vs. GitHub - Client Performance Test Results](https://docs.google.com/spreadsheets/d/1ZgMNm4qZSsKPDKljjDYvN5qVZMjBKsjTMFLX9cB85Q0/edit?usp=sharing)
