@@ -28,19 +28,68 @@ Thanks Greg!
 
 ## GitLab Pages (EE only)
 
+GitLab Pages allows you to host a static website on your GitLab instance,
+that is automatically deployed and updated, all from a normal GitLab project.
+
+With [the last release of GitLab]() we shipped Build Artifacts for CI.
+This means that your builds can have some sort of output.
+We leveraged this to build GitLab Pages.
+
+So if you have an open source project that you want to give a proper website,
+you can now do it straight from your repository.
+
+Have documentation that you want to feature nicely? Use pages to create a
+clean experience for your users.
+
+As GitLab.com runs GitLab Enterprise Edition, you can now use that for your
+static sites for free. Your projects will be served on `project_name.gitlab.io`.
+
 ## Auto-merge on Build Success
+
+If you've reviewed a merge request, but the CI builds are still running,
+it can be annoying to have to wait for them to finish.
+
+By default, we will now show you a button that will merge the MR when
+the build succeeds. Less waiting, more reviewing!
+
+Thanks to [Zeger-Jan van de Weg](https://twitter.com/zjvandeweg) for
+[his contribution](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1729)!
 
 ## Statistics (EE only)
 
+Want to see how active people are in a group?
+Now you can easily:
+
+![]()
+
+We intend to add further improve reporting tools such as this in the future
+release of GitLab. We're curious to hear your thoughts and feature proposals.
+
 ## References in Issues and Merge Requests
+
+
+https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1991
 
 ## Issue Weight (EE only)
 
 ## Quickly create a new MR from the web editor
 
+https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2021
+
 ## Builds in Merge Requests
 
+https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2016
+
 ## Automatic References
+
+You might now that you can reference anything from anywhere in GitLab,
+using the simple syntax of `group/projectREF`, for instance to reference
+issue 1 in the GitLab CE repo you can do `gitlab-org/gitlab#1`.
+
+From now on, we automatically generate those references for you when posting
+an URL from within your GitLab instance. So:
+`https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1991` becomes
+`gitlab-org/gitlab-ce!1991`. This makes reading issues much cleaner.
 
 ## Other changes
 
