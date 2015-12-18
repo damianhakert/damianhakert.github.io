@@ -42,7 +42,7 @@ Have documentation that you want to feature nicely? Use pages to create a
 clean experience for your users.
 
 As GitLab.com runs GitLab Enterprise Edition, you can now use that for your
-static sites for free. Your projects will be served on `project_name.gitlab.io`.
+static sites for free. Your projects will be served on `namespace.gitlab.io/project_name`.
 
 ## Auto-merge on Build Success
 
@@ -78,11 +78,23 @@ https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2021
 
 ## Builds in Merge Requests
 
+As your merge requests trigger builds to run in CI, you now have quick
+access to them in the builds tab.
+
+![]()
+
+This makes it much easier to see what is failing, making it even more
+easy to work with CI in code review.
+
+As this is another step into integrating CI in GitLab, we're
+working hard on bringing more of these improvements. Have any ideas?
+Share them by submitting a feature proposal or a merge request!
+
 https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2016
 
 ## Automatic References
 
-You might now that you can reference anything from anywhere in GitLab,
+You might know that you can reference anything from anywhere in GitLab,
 using the simple syntax of `group/projectREF`, for instance to reference
 issue 1 in the GitLab CE repo you can do `gitlab-org/gitlab#1`.
 
