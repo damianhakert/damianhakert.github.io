@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Swag matters - share your swag and wishlist"
+title: "Swag matters - share your swag ideas"
 date: 2015-12-28
 comments: true
 categories: marketing
