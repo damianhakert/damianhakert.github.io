@@ -47,7 +47,7 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 - [Elasticsearch or Hound (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
 - [GitLab RE for readonly secondary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
 - [GitLab Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
-- [Group contribution statistics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/109)
+- [Contribution analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/109)
 
 ### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5) - February 22nd
 
@@ -55,9 +55,8 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 - [HA Omnibus packages (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
 - [Revert merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 - [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
-- [Focus Dashboard](https://gitlab.com/gitlab-org/gitlab-ce/issues/3467)
-- [Delivery dashboard (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
-- [Management reporting (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
+- [Delivery analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
+- [Code management analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
 
 ### [8.6](https://gitlab.com/groups/gitlab-org/milestones/8-6?title=8.6) - March 22nd
 
