@@ -99,7 +99,6 @@ We very much welcome contributions that implement any of these things.
 
 ### Project Management
 
-- [Make it easier to add labels to an issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/2574)
 - [Filter by more than one label](https://gitlab.com/gitlab-org/gitlab-ce/issues/989)
 - [Move issues between projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/3024)
 - [Time tracking](https://gitlab.com/gitlab-org/gitlab-ee/issues/78)
