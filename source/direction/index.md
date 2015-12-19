@@ -61,6 +61,7 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 ### [8.6](https://gitlab.com/groups/gitlab-org/milestones/8-6?title=8.6) - March 22nd
 
 - [External users](https://gitlab.com/gitlab-org/gitlab-ce/issues/4009)
+- [Push to a remote repo (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/116)
 
 ## Wishlist
 
@@ -77,6 +78,7 @@ We very much welcome contributions that implement any of these things.
 - [Nested Groups](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772)
 - [Resolve merge conflicts in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/3567)
 - [Multithreaded application server](https://gitlab.com/gitlab-org/gitlab-ce/issues/3592)
+- [Realtime editing of the issue/MR description field](https://gitlab.com/gitlab-org/gitlab-ce/issues/4199)
 
 ### Usability
 
@@ -100,17 +102,13 @@ We very much welcome contributions that implement any of these things.
 - [Make it easier to add labels to an issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/2574)
 - [Filter by more than one label](https://gitlab.com/gitlab-org/gitlab-ce/issues/989)
 - [Move issues between projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/3024)
-- [Set Issue weight](https://gitlab.com/gitlab-org/gitlab-ce/issues/3397)
 - [Time tracking](https://gitlab.com/gitlab-org/gitlab-ee/issues/78)
+- [Labels should be visible in Milestone view](https://gitlab.com/gitlab-org/gitlab-ce/issues/3276)
 - Draw and drop issues to prioritize them
 - Handle incoming emails with support questions in issues, needs spam filter
-- [Labels should be visible in Milestone view](https://gitlab.com/gitlab-org/gitlab-ce/issues/3276)
-- [Management dashboard for continuous delivery](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
 
 ### Productivity
 
-- [Mentioned activity feed (overlap with notification center)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4014)
-- Issue/MR description field works like google docs, real time collaboration & autosave, maybe with [ShareJS](http://sharejs.org/)
 - [Change notification setting](https://dev.gitlab.org/gitlab/gitlabhq/issues/2395)
 - [Add more default views](https://gitlab.com/gitlab-com/www-gitlab-com/edit/master/source/direction/index.md)
 
@@ -131,19 +129,15 @@ We very much welcome contributions that implement any of these things.
 - [Runner Autoscale](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/318)
 - [Option to test the result of the merge](http://homu.io/) instead of the feature branch itself (you will have to retest all MR's every time master / target branch is updated)
 - [Document dependent builds / pipeline triggers](https://gitlab.com/gitlab-org/gitlab-ce/issues/3432)
-- [Staging environment per branch with GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) similar to [Teatro](https://teatro.io/), [Tutum](https://support.tutum.co/support/solutions/articles/5000620449-deploy-to-tutum-button) & [Heroku Review Apps](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta))
-- Automatically give code quality metrics in the merge request
+- [Deploy your branch button](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
+- [Automatically give code quality metrics in the merge request](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
 - [Automatic Docker image cleanup](https://gitlab.com/ayufan/gitlab-runner-docker-cleanup/issues/1)
 - [Show code coverage in diffs with colored horizontal bar](https://gitlab.com/gitlab-org/gitlab-ce/issues/4073)
 - [A/B testing of branches with GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
 
 ### EE
 
-- [Push to a remote repo](https://gitlab.com/gitlab-org/gitlab-ee/issues/116)
-- [Management dashboard](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
-- [Highly Available (HA) Omnibus Packages](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
 - [Oracle support](https://gitlab.com/gitlab-org/gitlab-ee/issues/96)
-- [Group member activity](https://gitlab.com/gitlab-org/gitlab-ce/issues/3824)
 
 ### Software to ship in the Omnibus packages
 
