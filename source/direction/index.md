@@ -46,8 +46,9 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 - [Import GitHub wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
 - [Elasticsearch or Hound (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
 - [GitLab RE for readonly secondary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
-- [GitLab Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
 - [Contribution analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/109)
+- [GitLab Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
+- [GitLab Pages cname and SSL support](https://gitlab.com/gitlab-org/gitlab-ee/issues/134)
 
 ### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5) - February 22nd
 
