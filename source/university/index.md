@@ -186,4 +186,4 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 - [2015 Venture Beat article - Actually, Open Source is Eating the World](http://venturebeat.com/2015/12/06/its-actually-open-source-software-thats-eating-the-world/)
 - [Customer Use-Cases](https://about.gitlab.com/handbook/use-cases/)
 - [Why Git and GitLab slide deck](https://docs.google.com/a/gitlab.com/presentation/d/1RcZhFmn5VPvoFu6UMxhMOy7lAsToeBZRjLRn0LIdaNc/edit?usp=drive_web)
-- [GitLab vs. GitHub - Client Performance Test Results](https://docs.google.com/spreadsheets/d/1ZgMNm4qZSsKPDKljjDYvN5qVZMjBKsjTMFLX9cB85Q0/edit?usp=sharing)
+- [Git Workshop](https://docs.google.com/presentation/d/1JzTYD8ij9slejV2-TO-NzjCvlvj6mVn9BORePXNJoMI/edit?usp=drive_web)
