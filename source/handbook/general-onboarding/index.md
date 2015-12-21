@@ -172,16 +172,16 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 
 ```
 * [ ] Manager of former team member: Organize smooth hand over of any work or tasks from former team member.
-* [ ] Jacob/CEO: Block Google account, firstname@gitlab.com or initial(s)@gitlab.com
-* [ ] Jacob/CEO: 2 weeks after blocking the Google account, delete it.
-* [ ] Manager/CEO: Inform former team member that Google account has been removed by emailing to their personal email address.
-* [ ] Jacob/CEO: Delete from Slack
+* [ ] Jacob/CEO: Suspend Google account
+* [ ] Jacob/CEO: When the manager has time change the telephone number and send a password reset to their manager.
+* [ ] Jacob/CEO: 2 weeks after blocking the Google account, consider deleting it.
+* [ ] Jacob/CEO: Disable in Slack
 * [ ] People Ops: Remove former team member from TriNet and payroll if applicable.
 * [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment.
 * [ ] People Ops: Inform Controller / Accounting if any items in former team members possession will not be returning, so that they can be removed from asset tracking.
 * [ ] Jacob/CEO: Remove former team members' Gitlab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] Jacob/CEO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
-* [ ] People Ops: Remove team member access to 1Password.
+* [ ] People Ops: Suspect access to 1Password.
 * [ ] People Ops: Remove team member access to Dropbox.
 * [ ] Manager/CEO: Remove access to SalesForce.
 * [ ] Manager/CEO: Remove access to Recurly.
