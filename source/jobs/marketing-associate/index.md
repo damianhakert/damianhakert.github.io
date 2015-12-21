@@ -25,4 +25,4 @@ You are an entry-level technical marketer with an urge to learn everything there
 * Is your college degree in french foreign politics with a minor in interpretive dance but you’ve been hacking together websites since you were 12? Perfect. We understand that your college degree isn’t the only thing that prepares you as a potential job candidate.
 * You are obsessed with metrics, optimization, and graphs that point up and to the right. Are you consistently seeing that a type of content isn’t getting many views? As long as you know to change it up or replace that type of content, this is your role.
 * Be ready to learn how to use GitLab and Git as you’ll be able to edit the website directly from terminal.
-* Work remotely from anywhere in the world (Curious to see what that looks like? Check out our remote manifesto!)
+* Work remotely from anywhere in the world (Curious to see what that looks like? Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!)
