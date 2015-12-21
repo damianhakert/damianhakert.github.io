@@ -48,10 +48,14 @@ static sites for free. Your projects will be served on `namespace.gitlab.io/proj
 We plan to add CNAME and SSL support
 [in GitLab 8.4](https://gitlab.com/gitlab-org/gitlab-ee/issues/134).
 
+- [See the documentation for GitLab Pages](http://doc.gitlab.com/ee/pages/README.html)
+
 ## Auto-merge on Build Success
 
 If you've reviewed a merge request, but the CI builds are still running,
 it can be annoying to have to wait for them to finish.
+
+![Merge on Build Success in GitLab 8.3](/images/8_3/merge_on_pass.jpg)
 
 By default, we will now show you a button that will merge the MR when
 the build succeeds. Less waiting, more reviewing!
@@ -62,17 +66,24 @@ Thanks to [Zeger-Jan van de Weg](https://twitter.com/zjvandeweg) for
 ## Statistics (EE only)
 
 Want to see how active people are in a group?
-Now you can easily:
+Now you can easily see this:
 
 ![]()
 
 We intend to add further improved reporting tools such as this in the future
 release of GitLab. We're curious to hear your thoughts and feature proposals.
 
-## References in Issues and Merge Requests
+## Merge Request References in Issues
 
+An issue is often followed by one or multiple merge requests.
+Thanks to the great contribution of Greg, you are now able to quickly
+see all referenced merge requests with their status (Open / Closed / Merged)
+and even their build status (Success / Running / Failed) in an issue.
 
-https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1991
+![See referenced merge requests in issues in GitLab 8.3](/images/8_3/references.jpg)
+
+This makes it much easier to see the current status of an issue and find all related
+code, reviews and commits.
 
 ## Issue Weight (EE only)
 
