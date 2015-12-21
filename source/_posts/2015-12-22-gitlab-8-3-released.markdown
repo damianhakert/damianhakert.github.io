@@ -48,6 +48,8 @@ static sites for free. Your projects will be served on `namespace.gitlab.io/proj
 
 We plan to add CNAME and SSL support
 [in GitLab 8.4](https://gitlab.com/gitlab-org/gitlab-ee/issues/134).
+Right now, if you want to use SSL, you need a wildcard certificate for your
+domain.
 
 - [See the documentation for GitLab Pages](http://doc.gitlab.com/ee/pages/README.html)
 
@@ -206,6 +208,28 @@ URL's.
 
 ## Upgrade barometer
 
+If you are upgrading from GitLab 8.2 and none of your users are using GitLab CI
+then you can perform the upgrade to 8.3 without downtime.
+
+Be advised that if you are not using the Omnibus packages and their built-in NGINX
+settings, you will have to update your Nginx/Apache settings when upgrading to 8.3.
+
+Please be aware that by default the Omnibus packages will stop, run migrations,
+and start again, no matter how “big” or “small” the upgrade is. This behavior
+can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
+file](http://doc.gitlab.com/omnibus/update/README.html).
+
+### If you are using CI
+
+If you are using CI, there are migrations that will have to be performed offline.
+
+As noted above, we're migrating almost all database models of CI.
+The migration of the CI services are somewhat lossy:
+Slack and HipChat notifications will only migrate if they are **enabled**
+before the migration.
+
+These migrations took 280 seconds on GitLab.com on PostgreSQL (~500k projects).
+We expect this to be a little longer for MySQL databases.
 
 ### Jenkins Integration Changes
 
@@ -217,12 +241,9 @@ This plugin enables closer integration between Jenkins and GitLab, including the
 The deprecated integration has been renamed to 'Jenkins CI (Deprecated)' and will continue to work for existing users. We may remove this in a future release and recommend
 using the new 'Jenkins CI' project service instead. See [GitLab Jenkins documentation](http://docs.gitlab.com/ee/integration/jenkins.html) for more details.
 
-*Note* If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
+### Notes on upgrading from before 8.0
 
-Please be aware that by default the Omnibus packages will stop, run migrations,
-and start again, no matter how “big” or “small” the upgrade is. This behavior
-can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
-file](http://doc.gitlab.com/omnibus/update/README.html).
+*Note* If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
 
 - - -
 
