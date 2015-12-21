@@ -32,7 +32,8 @@ Thanks Greg!
 GitLab Pages allows you to host a static website on your GitLab instance,
 that is automatically deployed and updated, all from a normal GitLab project.
 
-With [the last release of GitLab]() we shipped Build Artifacts for CI.
+With [the last release of GitLab](https://about.gitlab.com/2015/11/22/gitlab-8-2-released/)
+we shipped Build Artifacts for CI.
 This means that your builds can have some sort of output.
 We leveraged this to build GitLab Pages.
 
@@ -99,14 +100,22 @@ see the total sum of all issues on the milestone page.
 
 ## Quickly create a new MR from the web editor
 
-https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2021
+You know you should create a merge request, but it's so appealing to quickly
+fix something in GitLab's editor and push it to the master branch.
+
+To prevent you from being naughty these holidays and onward, we've added
+a quick option to create a merge request from your changes in the editor.
+
+![Quickly create a new MR from the web editor in GitLab 8.3](new_mr.jpg)
+
+Get your commit reviewed and let your CI run before you push to master!
 
 ## Builds in Merge Requests
 
 As your merge requests trigger builds to run in CI, you now have quick
 access to them in the **Builds** tab.
 
-![]()
+![See your CI Builds in MRs in GitLab 8.3](builds.jpg)
 
 This makes it much easier to see what is failing, making it even easier to work
 with CI in code review.
