@@ -18,7 +18,7 @@ GitLab Pages for Enterprise Edition, and issues have new powers in both CE and
 EE!
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
-Greg Smethells. Greg made the proposal and [subsequently implemented](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1991)
+Greg Smethells. Greg made the proposal for and [subsequently implemented](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1991)
 the new references in issues and merge requests.
 He communicated his every move and worked together closely with many other
 people from the community.
@@ -44,6 +44,9 @@ clean experience for your users.
 
 As GitLab.com runs GitLab Enterprise Edition, you can now use that for your
 static sites for free. Your projects will be served on `namespace.gitlab.io/project_name`.
+
+We plan to add CNAME and SSL support
+[in GitLab 8.4](https://gitlab.com/gitlab-org/gitlab-ee/issues/134).
 
 ## Auto-merge on Build Success
 
@@ -114,6 +117,40 @@ within your GitLab instance. So:
 `https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1991` becomes
 `gitlab-org/gitlab-ce!1991`. This makes reading issues much cleaner.
 
+## JIRA support in GitLab CE
+
+Full JIRA integration was previously exclusive to GitLab Enterprise Edition.
+With GitLab 8.3 forward, everyone has access to advanced JIRA integration in GitLab.
+
+You can now connect GitLab with JIRA, making it possible to close JIRA tickets
+with commit messages and reference JIRA tickets from within GitLab.
+
+Our JIRA integration automatically provides context and links back to
+GitLab issues, merge requests, users and commits whenever you reference
+a JIRA ticket.
+
+If you're currently using JIRA, we're curious to hear how we can improve
+further integration.
+
+Configure the new settings for JIRA support in your projects under
+**Settings -> Services -> JIRA**.
+
+## CI Improvements
+
+With merging GitLab CI into GitLab [with GitLab 8.0](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/)
+we set out on a path of integrating two separate codebases.
+
+With GitLab 8.3, we conclude this path, as all CI code has been fully integrated
+in GitLab and refactored and cleaned where necessary.
+
+This should make it easier to contribute to the development of GitLab CI and
+makes way for further integration those crucial CI tools in GitLab.
+
+## Faster!
+
+By improving the caching of comments on issues, diffs and merge requests
+rendering of busy pages should be faster!
+
 ## Other changes
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
@@ -152,9 +189,15 @@ URL's.
 ## Upgrade barometer
 
 
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
-*** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
+### Jenkins Integration Changes
+
+Jenkins integration using the
+[GitLab Hook Plugin](https://wiki.jenkins-ci.org/display/JENKINS/GitLab+Hook+Plugin)
+was deprecated in favor of the
+[GitLab Plugin](https://wiki.jenkins-ci.org/display/JENKINS/GitLab+Plugin).
+This plugin enables closer integration between Jenkins and GitLab, including the display of build status on each commit and on the project home page. Previously, build status was only available in a merge request.
+The deprecated integration has been renamed to 'Jenkins CI (Deprecated)' and will continue to work for existing users. We may remove this in a future release and recommend
+using the new 'Jenkins CI' project service instead. See [GitLab Jenkins documentation](http://docs.gitlab.com/ee/integration/jenkins.html) for more details.
 
 *Note* If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
 
