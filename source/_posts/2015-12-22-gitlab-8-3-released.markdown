@@ -106,7 +106,7 @@ fix something in GitLab's editor and push it to the master branch.
 To prevent you from being naughty these holidays and onward, we've added
 a quick option to create a merge request from your changes in the editor.
 
-![Quickly create a new MR from the web editor in GitLab 8.3](new_mr.jpg)
+![Quickly create a new MR from the web editor in GitLab 8.3](/images/8_3/new_mr.jpg)
 
 Get your commit reviewed and let your CI run before you push to master!
 
@@ -115,7 +115,7 @@ Get your commit reviewed and let your CI run before you push to master!
 As your merge requests trigger builds to run in CI, you now have quick
 access to them in the **Builds** tab.
 
-![See your CI Builds in MRs in GitLab 8.3](builds.jpg)
+![See your CI Builds in MRs in GitLab 8.3](/images/8_3/builds.jpg)
 
 This makes it much easier to see what is failing, making it even easier to work
 with CI in code review.
@@ -123,8 +123,6 @@ with CI in code review.
 As this is another step into integrating CI in GitLab, we're
 working hard on bringing more of these improvements. Have any ideas?
 Share them by submitting a feature proposal or a merge request!
-
-https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2016
 
 ## Automatic References
 
