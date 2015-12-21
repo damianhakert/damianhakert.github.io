@@ -45,7 +45,7 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 - [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
 - [Import GitHub wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
 - [Elasticsearch or Hound (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
-- [GitLab RE for readonly secondary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
+- [GitLab RO for readonly secondary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
 - [Contribution analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/109)
 - [GitLab Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
 - [GitLab Pages gets CNAME and SSL support](https://gitlab.com/gitlab-org/gitlab-ee/issues/134)
