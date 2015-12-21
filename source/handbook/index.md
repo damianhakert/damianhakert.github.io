@@ -89,7 +89,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 1. If you use Slack, please use a public channel whenever possible, mention the person you want to reach if it is urgent. This ensures it is easy for other people to chime in, and easy to involve other people, if needed.
 1. All company data should be **shareable** by default. Don't use a local text file but leave comments on an issue. Create Google docs with your company Google Apps account. By default share Google docs with the whole company 'anyone at GitLab can find and access' with edit (preferred) or comment access for everyone. An easy way to do this, is to create your Google docs in a Shared Folder in Google Drive.
 1. All our procedures and templates are stored in (mostly public) git repositories instead of Google/Word documents. This makes them easier to find and suggest changes to with the organization and shows our commitment to open collaboration outside the organization.
-1. Use FYI and /cc if you want to inform people but it does not require an action, use FYA (for your action) if an action of the recipient is required.
+1. Use FYI (for your information) and /cc if you want to inform people but it does not require an action, use FYA (for your action) if an action of the recipient is required.
 1. Use video calls if you find yourself going back and forth in an issue/via email or over chat.
 1. Having pets, children, significant others, friends and family visible during video chats is encouraged, if human ask them to wave at your remote team member to say hi.
 1. If there are materials relevant for a calendar meeting (for example a Google Doc) please add the url to the meeting invite description.
@@ -105,7 +105,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 1. **'Double link'** issues to prevent internal confusion and us failing to report back to the reporters. For example, open an issue with link to ZenDesk and close the issue with copy of the response. Or add 'Report: ' lines to the description with links to relevant issues and feature requests and ensure they are closed and note this with a comment. If you are not responsible for reporting back please do not close an issue, instead reassign it.
 1. If issues are related **crosslink** them (a link from each issue to the other one). Put the links at the top of the issues' description with a short mention of the relationship (Report, etc.). If there are more than 2 issues use one issue as the central one and crosslink all issues to this one. Please, also crosslink between Zendesk and GitLab issues.
 1. Give the community the **chance to help**. For example: place issues on the feedback tracker, leave comments in rake check tests about what you can run manually and ask 'can you send a merge request to fix this?'.
-1. Submit the **smallest** item of work that makes sense. For example if you're new to GitLab and are writing documentation or instructions submit your first merge request for at most 20 lines.
+1. Submit the **smallest** item of work that makes sense. When creating an issue describe the smallest fix possible, put suggestions for enhancements in separate issues and link them. If you're new to GitLab and are writing documentation or instructions submit your first merge request for at most 20 lines.
 1. Do not leave issues open for a long time, issues should be **actionable** and realistic. If you are assigned but don't have time, assign it to someone else. If nobody is assigned and it is not a priority please ensure the community can help and close it.
 1. Make a conscious effort to **prioritize** your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc. What follows is a general guideline from urgent to less urgent:
     1. **Emergency** issues from standard or plus subscribers.
@@ -178,6 +178,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 1. Read our [Documentation Styleguide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc_styleguide.md) for more information when writing documentation.
 
 <h3 id="beamy-guidelines">Beamy Guidelines</h3>
+
 Beamy is our company conference call robot. It lives in the San Francisco Howard St. office.
 Its main purpose is to allow those outside of the office a view into the space and people.
 When you call in to the beam your face will appear on the screen (so make sure your webcam
