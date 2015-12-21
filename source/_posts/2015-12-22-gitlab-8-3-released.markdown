@@ -10,20 +10,20 @@ filename: 2015-12-22-gitlab-8-3-released.markdown
 image_title: /images/7_X/PICTURE.PNG
 ---
 
-We're closing this fantastic year for GitLab with its 49th release, GitLab 8.3.
+We're closing this fantastic year for GitLab with its 49th consecutive monthly
+release, GitLab 8.3.
 
-This time around, we've again received amazing contributions from the community.
 You can now merge automatically after a build has passed, we're introducing
 GitLab Pages for Enterprise Edition, and issues have new powers in both CE and
 EE!
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
-Greg Smethells. Greg made the proposal for and [subsequently implemented](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1991)
-the new references in issues and merge requests.
-He communicated his every move and worked together closely with many other
-people from the community.
+Once again we've received some amazing contributions from our volunteers. This
+month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Greg
+Smethells. Greg made the proposal for and [subsequently implemented](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1991)
+the new references in issues and merge requests. He communicated his every move
+and worked together closely with many other people from the community.
 
-Thanks Greg!
+Thanks, Greg!
 
 <!--more-->
 
@@ -146,7 +146,7 @@ You can now connect GitLab with JIRA, making it possible to close JIRA tickets
 with commit messages and reference JIRA tickets from within GitLab.
 
 Our JIRA integration automatically provides context and links back to
-GitLab issues, merge requests, users and commits whenever you reference
+GitLab issues, merge requests, users, and commits whenever you reference
 a JIRA ticket.
 
 If you're currently using JIRA, we're curious to hear how we can improve
@@ -168,7 +168,7 @@ makes way for further integration those crucial CI tools in GitLab.
 
 ## Faster!
 
-By improving the caching of comments on issues, diffs and merge requests
+By improving the caching of comments on issues, diffs, and merge requests,
 rendering of busy pages should be faster!
 
 ## Other changes
@@ -180,11 +180,11 @@ This release has more improvements, including security fixes. Please check out [
 In GitLab 8.3 we are making a major behind the scenes change in how
 GitLab works: all HTTP requests are now proxied through
 gitlab-workhorse. We have moved most if not all GitLab-specific
-configuration from the NGINX configuration files into gitlab-workhose.
+configuration from the NGINX configuration files into gitlab-workhorse.
 
 This change will make it easier for GitLab developers to add features
 and improve GitLab using gitlab-workhorse because they no longer have
-to work in three places: the Rails application, gitlab-workhorse and
+to work in three places: the Rails application, gitlab-workhorse, and
 NGINX. This change is also making it simpler to deploy GitLab from
 source, and simpler to use GitLab with Apache or HAproxy when so
 desired, because the contact surface between GitLab and its reverse
@@ -194,7 +194,7 @@ We are still recommending to run GitLab with NGINX because it offers
 request/response buffering (not yet implemented in gitlab-workhorse)
 and SSL termination (not planned for gitlab-workhorse).
 
-If you are using our Omnibus packages and their built-in NGINX service
+If you are using our Omnibus packages and its built-in NGINX service
 then no action is needed when upgrading. If you installed GitLab from
 source or if you are using your own reverse proxy then you will have
 to check your init script (gitlab-workhorse got some new settings) and
@@ -202,16 +202,16 @@ reverse proxy configuration. The [8.3 update
 guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/8.2-to-8.3.md)
 has more details.
 
-Those of you who run GitLab at a 'relative URL' (example.com/gitlab)
+Those of you who run GitLab at a "relative URL" (example.com/gitlab)
 will be pleased to hear that gitlab-workhorse now supports relative
-URL's.
+URLs.
 
 ## Upgrade barometer
 
 If you are upgrading from GitLab 8.2 and none of your users are using GitLab CI
 then you can perform the upgrade to 8.3 without downtime.
 
-Be advised that if you are not using the Omnibus packages and their built-in NGINX
+Be advised that if you are not using the Omnibus packages and its built-in NGINX
 settings, you will have to update your Nginx/Apache settings when upgrading to 8.3.
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
