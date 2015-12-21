@@ -48,7 +48,7 @@ for everyone.
 We will label issues that are not too hard or too big to work on.
 Whether you're a first-time contributor, someone that wants to improve their
 Ruby / Javascript / Go or someone that wants to contribute, but doesn't have time
-for a big bug fix of feature, these are issues that you should be able to work on.
+for a big bug fix or feature, these are issues that you should be able to work on.
 If you're already good at the languages GitLab uses, but you are new
 to the project, these issues are perfect for you as well.
 
