@@ -43,6 +43,11 @@ If you see yourself as a good fit with our company’s goals and team, then plea
 * [Description](https://about.gitlab.com/jobs/account-manager/)
 * [Apply](https://gitlab.workable.com/jobs/88120/candidates/new)
 
+### Marketing Associate
+
+* [Description](https://about.gitlab.com/jobs/marketing-associate/)
+* [Apply](https://gitlab.workable.com/jobs/124211/candidates/new)
+
 ### Senior Account Manager
 
 * [Description](https://about.gitlab.com/jobs/account-manager/)
