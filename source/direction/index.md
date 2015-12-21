@@ -91,7 +91,6 @@ We very much welcome contributions that implement any of these things.
 ### Code Review
 
 - [Pre-post comment code](https://gitlab.com/gitlab-org/gitlab-ce/issues/3502) see what the current state of the code is where in a previous commit a comment was placed
-- [Merge if green button if tests are still running](https://gitlab.com/gitlab-org/gitlab-ce/issues/2640)
 - [Allow cross server merge requests](https://gitlab.com/gitlab-org/gitlab-ce/issues/4013) (paste url when making a new MR)
 - [Revert button for merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 - [Ability to checkout the result of MR available before merging](https://gitlab.com/gitlab-org/gitlab-ce/issues/2765)
