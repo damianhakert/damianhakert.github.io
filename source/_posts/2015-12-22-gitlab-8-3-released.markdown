@@ -209,6 +209,12 @@ Those of you who run GitLab at a "relative URL" (example.com/gitlab)
 will be pleased to hear that gitlab-workhorse now supports relative
 URLs.
 
+### Mattermost 1.3
+
+We're shipping Mattermost 1.3 with GitLab 8.3.
+See the [release post for Mattermost 1.3](http://www.mattermost.org/mattermost-a-top-10-open-source-project-of-2015/)
+for details.
+
 ## Upgrade barometer
 
 If you are upgrading from GitLab 8.2 and none of your users are using GitLab CI
