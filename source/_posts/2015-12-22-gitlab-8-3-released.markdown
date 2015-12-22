@@ -1,18 +1,19 @@
 ---
 layout: post
-title: "GitLab 8.3 released with auto-merge and GitLab Pages"
+title: "GitLab 8.3 released with Auto-merge and GitLab Pages"
 date: 2015-12-22
 comments: true
 categories:
 author: Job van der Voort
 author_twitter: jobvo
 filename: 2015-12-22-gitlab-8-3-released.markdown
-image_title: /images/7_X/PICTURE.PNG
+image_title: /images/unsplash/building.jpg
 ---
 
 We're closing this fantastic year for GitLab with its 49th consecutive monthly
 release, GitLab 8.3.
 
+We're very grateful for all the people that have contributed to this release.
 You can now merge automatically after a build has passed, we're introducing
 GitLab Pages for Enterprise Edition, and issues have new powers in both CE and
 EE!
@@ -47,7 +48,7 @@ As GitLab.com runs GitLab Enterprise Edition, you can now use that for your
 static sites for free. Your projects will be served on `namespace.gitlab.io/project_name`.
 
 We plan to add CNAME and SSL support
-[in GitLab 8.4](https://gitlab.com/gitlab-org/gitlab-ee/issues/134).
+[in an upcoming GitLab release](https://gitlab.com/gitlab-org/gitlab-ee/issues/134).
 Right now, if you want to use SSL, you need a wildcard certificate for your
 domain.
 
@@ -66,22 +67,27 @@ the build succeeds. Less waiting, more reviewing!
 Thanks to [Zeger-Jan van de Weg](https://twitter.com/zjvandeweg) for
 [his contribution](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1729)!
 
-## Statistics (EE only)
+- [See the documentation on Auto-merge](http://doc.gitlab.com/ce/workflow/merge_when_build_succeeds.html)
 
-Want to see how active people are in a group?
-Now you can easily see this:
+## Contribution Analytics (EE only)
 
-![]()
+In order to make it easy to see how and where are active in your projects,
+we're building contribution analytics for Enterprise Edition.
 
-We intend to add further improved reporting tools such as this in the future
-release of GitLab. We're curious to hear your thoughts and feature proposals.
+In GitLab 8.3, you can now quickly get an overview of activity of a group
+by going to **Group -> Stats**.
+
+![Get contribution analytics in GitLab 8.3 EE](/images/8_3/stats.jpg)
+
+We intend to expand contribution analytics in future
+releases of GitLab. We're curious to hear your thoughts and feature proposals.
 
 ## Merge Request References in Issues
 
 An issue is often followed by one or multiple merge requests.
 Thanks to the great contribution of Greg, you are now able to quickly
 see all referenced merge requests with their status (Open / Closed / Merged)
-and even their build status (Success / Running / Failed) in an issue.
+and even their build status (Success / Running / Failed) in an issue!
 
 ![See referenced merge requests in issues in GitLab 8.3](/images/8_3/references.jpg)
 
@@ -96,6 +102,8 @@ value, or complexity a given issue has or will cost.
 
 To set the weight of issue, simply change the value in the dropdown menu.
 You can set it to a numeric value from 1 to 9.
+
+![Issue Weights in GitLab EE 8.3](/images/8_3/weights1.jpg)
 
 This value will appear in the issues list and on issues themselves, and you can
 see the total sum of all issues on the milestone page.
@@ -166,11 +174,6 @@ in GitLab and refactored and cleaned where necessary.
 This should make it easier to contribute to the development of GitLab CI and
 makes way for further integration those crucial CI tools in GitLab.
 
-## Faster!
-
-By improving the caching of comments on issues, diffs, and merge requests,
-rendering of busy pages should be faster!
-
 ## Other changes
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
@@ -231,7 +234,7 @@ before the migration.
 These migrations took 280 seconds on GitLab.com on PostgreSQL (~500k projects).
 We expect this to be a little longer for MySQL databases.
 
-### Jenkins Integration Changes
+### Jenkins Integration Changes (EE only)
 
 Jenkins integration using the
 [GitLab Hook Plugin](https://wiki.jenkins-ci.org/display/JENKINS/GitLab+Hook+Plugin)
