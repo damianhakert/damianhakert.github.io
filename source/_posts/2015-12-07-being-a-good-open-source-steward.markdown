@@ -48,7 +48,7 @@ We need to think in the interests of the project, while tending to the realities
 
 Each of those aspects must be addressed in our policy to ensure the project, code, and community of users are supported.
 
-We also looked at what it takes to sell a product and service. Our experienced sales team have helped us understand their struggles. Why should the software be completely free no matter who is using it? They ask “Why do I have users who are running with over 10,000 developers who are not paying us a dime?” Artificial limits which are possible with proprietary services give salespeople leverage. They've asked “Can’t we have some limit, such as if you have over 1000 dev that you need the enterprise edition?” This does make sense from a sales point of view, but it doesn’t make sense in the open source context.
+We also looked at what it takes to sell a product and service. Our experienced sales team have helped us understand their struggles. Why should the software be completely free no matter who is using it? They ask “Why do I have users who are running with over 10,000 developers who are not paying us a dime?” Artificial limits which are possible with proprietary services give salespeople leverage. They've asked “Can’t we have some limit, such as if you have over 1000 developers that you need the enterprise edition?” This does make sense from a sales point of view, but it doesn’t make sense in the open source context.
 
 Open source is not a freemium model we can just turn off after 30 days. We can’t say “The first one is free!” It’s all free. Forever.
 
