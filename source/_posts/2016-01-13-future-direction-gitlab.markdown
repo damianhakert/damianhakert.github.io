@@ -7,10 +7,12 @@ categories:
 author: Heather McNamee
 author_twitter: nearlythere
 filename: 2015-12-22-gitlab-8-3-released.markdown
-image_title: /images/unsplash/building.jpg
+image_title: /images/unsplash/road.png
 ---
 
-Happy new year, it's a fresh start! Are you making any resolutions? Any plans? Wouldn't it be great if you could see into the future? With GitLab, you can! Well, ok you can see into the future of development at GitLab, if not anything else. The plans and progress of feature proposals are developed in the open at GitLab. In this post we'll look at how you can find out about the direction of the project. 
+In January, I like to make resolutions and plan. Though I didn’t reach all my resolutions last year, I did better than the year before. If I could have predicted the future, I could have done much better I think. 
+
+With GitLab, you can actually see into the future... at least of development at GitLab, if not anything else. The plans and progress of feature proposals is developed in the open.
 
 <!-- more -->
 
@@ -32,15 +34,11 @@ Dmitriy Zaporozhets, founder of the GitLab project, [gave a detailed overview of
 
 What’s so radical about this? 
 
-Most product companies do their feature development in secret, tucking their treasures away until they are polished and ready for release. We're not used to this level of transparency in a software product. 
-
-In closed-source projects, new changes might come in and blind-side users. Even in the case of open source projects, suspicions can be raised as to the motivations behind certain features. Was this for a client? Was it right for the project? Meanwhile, the company managing the project, whether developing an open source product or not, is working hard to gain technical competitive advantage by keeping their development roadmaps a secret. 
+Many product companies do their feature development in secret, tucking their treasures away until they are polished and ready for release. In closed-source projects, new changes might come in and blind-side users. Even in the case of open source projects, suspicions can be raised as to the motivations behind certain features. Was this for a client? Was it right for the project? Meanwhile, the company managing the project, whether developing an open source product or not, is working hard to gain technical competitive advantage by keeping their development plans a secret. 
 
 We hold no such store house of secret plans. It’s all right out there on the [Directions page](https://about.gitlab.com/direction/).
 
-For users this has a huge positive effect of allowing them to know what is planned and when they can expect it. For contributors it’s easy for them to see where to spend their effort for maximum effect. 
-
-Here are some tips on finding out what is coming next at GitLab.
+For users it has a huge positive effect of allowing them to know what is planned and when they can expect it. For contributors it’s easy for them to see where to spend their effort for maximum effect. 
 
 ## How to find out what's coming future features
 
@@ -55,6 +53,7 @@ Some upcoming highlights for upcoming releases include:
 Highlighted issues are grouped by the release. If you click the release numbers, 8.5, 8.6, this will take you to that milestone so you can see all issues related to that release. 
 
 That is a great place to start to see into the future.  
+
 
 ## What is the status of a particular issue?
 
@@ -91,3 +90,5 @@ Overall this means it's easier to find out where issues arose from, and later on
 ## Conclusion
 
 Hopefully you've got a better idea of what is coming up in future releases at GitLab and how you can find out what is coming next. OK, so it’s not a crystal ball, but we think it's pretty fantastic. 
+
+
