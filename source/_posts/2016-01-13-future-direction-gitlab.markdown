@@ -7,7 +7,7 @@ categories:
 author: Heather McNamee
 author_twitter: nearlythere
 filename: 2015-12-22-gitlab-8-3-released.markdown
-image_title: /images/unsplash/road.jpg
+image_title: /images/unsplash/road.png
 ---
 
 Happy new year, it's a fresh start! Are you making any resolutions? Any plans? Wouldn't it be great if you could see into the future? With GitLab, you can! Well, ok you can see into the future of development at GitLab, if not anything else. The plans and progress of feature proposals are developed in the open at GitLab. In this post we'll look at how you can find out about the direction of the project.
