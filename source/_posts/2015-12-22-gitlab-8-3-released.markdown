@@ -52,7 +52,10 @@ We plan to add CNAME and SSL support
 Right now, if you want to use SSL, you need a wildcard certificate for your
 domain.
 
-- [See the documentation for GitLab Pages](http://doc.gitlab.com/ee/pages/README.html)
+[See the documentation for GitLab Pages](http://doc.gitlab.com/ee/pages/README.html)
+
+If you encounter any problems or have any feature proposals, please open an
+issue in the [EE issue tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues).
 
 ## Auto-merge on Build Success
 
