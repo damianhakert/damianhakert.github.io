@@ -28,7 +28,7 @@ People admire the transparency.
 
 GitLab’s Direction page is managed by the project leads who define the milestones and objectives which are a priority in each release. The developers on the team focus on these priority tasks, after they have addressed any urgent and important tasks such as security.
 
-Dmitriy Zaporozhets, founder of the GitLab project, [gave a detailed overview of the release process](https://about.gitlab.com/2015/12/17/gitlab-release-process/), which explains where the objectives fit in. On the Directions page, you see the actual objectives as used by the developers.
+Dmitriy [gave a detailed overview of the release process](https://about.gitlab.com/2015/12/17/gitlab-release-process/), which explains where the objectives fit in. On the Directions page, you see and overview of the current plans; and in the [repository itself](https://gitlab.com/gitlab-org/gitlab-ce/issues), you can see the actual objectives being worked on by the developers.
 
 What’s so radical about this? 
 
@@ -36,7 +36,7 @@ Most product companies do their feature development in secret, tucking their tre
 
 Meanwhile, the company managing the project, whether developing an open source product or not, is working hard to gain technical competitive advantage by keeping their development roadmaps a secret. 
 
-We hold no such store house of secret plans. It’s all right out there on the [Directions page](https://about.gitlab.com/direction/).
+We hold no such store house of secret plans. It’s all right out there on the [Directions page](https://about.gitlab.com/direction/) and [the repository itself](https://gitlab.com/gitlab-org/gitlab-ce/issues).
 
 For users this has a huge positive effect of allowing them to know what is planned and when they can expect it. For contributors it’s easy for them to see where to spend their effort for maximum effect. 
 
@@ -49,8 +49,8 @@ If you want to know what is coming up in future releases, check the [Directions 
 Some upcoming highlights for upcoming releases include:
 
 - More options for importing, exporting and migrating. 
-- Elasticsearch
-- Improvements to the notification system
+- The capability to search through all repositories on the instance
+- A notification center
 
 Highlighted issues are grouped by the release. If you click the release numbers, 8.5, 8.6, this will take you to that milestone so you can see all issues related to that release. 
 
@@ -68,9 +68,7 @@ Issues that are planned for a specific release are assigned to a milestone, such
 
 If you want to see what has been happening during the development of the next release, look at the CHANGELOG for a particular project, such as [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG).
 
-The CHANGELOG gets updated throughout the month as new merge requests get merged and new features become available in that release. When you see the changes lists in the log, it’s means it’s already included.
-
-From around 7 days before the release date, you'll have a more clear idea of what the next release will include.
+The CHANGELOG gets updated throughout the month as new merge requests get merged and new features become available in that release. From a few days before the 22nd, you'll have a more clear idea of what the next release will include.
 
 ## Transparency
 
