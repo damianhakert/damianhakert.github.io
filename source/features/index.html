@@ -9,6 +9,18 @@ extra_js:
   - feature_page.js
 feature_blocks:
 
+- title: Reporting and Publishing
+  features:
+    - description: Host static pages straight from GitLab using GitLab Pages
+      link: http://doc.gitlab.com/ee/pages/README.html
+    - description: Contribution Analytics: see detailed statistics of contributors
+      link: #
+    - description: Edit files, directories and create merge requests straight from the web interface
+      link: http://doc.gitlab.com/ce/workflow/web_editor.html
+      in_ce: true
+    - description: Audit log and events
+      link: http://doc.gitlab.com/ee/administration/audit_events.html
+
 - title: Extended authentication and authorization integration
   features:
   - description: LDAP user authentication (also compatible with Active Directory)
@@ -23,8 +35,6 @@ feature_blocks:
     link: http://doc.gitlab.com/ee/integration/ldap.html#enabling-the-admin-group-feature
   - description: Kerberos user authentication
     link: http://doc.gitlab.com/ee/integration/kerberos.html
-  - description: Audit log and events
-    link: http://doc.gitlab.com/ee/administration/audit_events.html
   - description: Two-factor Authentication
     link: http://doc.gitlab.com/ce/profile/two_factor_authentication.html
     in_ce: true
@@ -54,6 +64,11 @@ feature_blocks:
     link: http://doc.gitlab.com/ee/workflow/merge_request_approvals.html
   - description: Mirror External Repositories
     link: http://doc.gitlab.com/ee/workflow/repository_mirroring.html
+  - description: Automatically Merge on Build Success
+    link: http://doc.gitlab.com/ce/workflow/merge_when_build_succeeds.html
+    in_ce: true
+  - description: Set weight of issues
+    link: http://doc.gitlab.com/ee/workflow/issue_weight.html
 
 - title: Additional server management options
   features:
@@ -78,8 +93,10 @@ feature_blocks:
     in_ce: true
   - description: Reference JIRA issues with GitLab commits, merge requests and issues
     link: http://doc.gitlab.com/ee/integration/jira.html
+    in_ce: true
   - description: Close JIRA issues with GitLab commits
     link: http://doc.gitlab.com/ee/integration/jira.html
+    in_ce: true
   - description: Display merge request status for builds on Jenkins CI
     link: http://doc.gitlab.com/ee/integration/jenkins.html
   - description: Omnibus package supports configuring an external PostgreSQL database
