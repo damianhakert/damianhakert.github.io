@@ -73,6 +73,7 @@ We very much welcome contributions that implement any of these things.
 - [Resolve merge conflicts in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/3567)
 - [Multithreaded application server](https://gitlab.com/gitlab-org/gitlab-ce/issues/3592)
 - [Realtime editing of the issue/MR description field](https://gitlab.com/gitlab-org/gitlab-ce/issues/4199)
+- [Mailinglist functionality](https://gitlab.com/gitlab-org/gitlab-ce/issues/4272)
 
 ### Usability
 
