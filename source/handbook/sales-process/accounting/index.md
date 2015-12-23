@@ -122,82 +122,6 @@ Bank: Rabobank, Croeselaan 18, 3500HG Utrecht, Utrecht, The Netherlands, +313021
 
 1. Invoice will be created on the date of the renewal
 
-## Draft sale in Twinfield for clients paying by with Recurly
-
-1. This is part of the [won subscription deal procedure](source/handbook/sales-process/deal_management_process#won-subscription-deal-procedure-invoicing), you should have done a VIES check already
-
-1. These are linked to Recurly transactions one-on-one, so in case of an upgrade do create a new one, do not amend the original one
-
-1. [Twinfield](https://login.twinfield.com/) (Login: SUPER, password, Organization: COMCOASTER, Nederlands)
-
-1. "Browser not supported" click on “Ga door naar Twinfield”
-
-1. Select GitLab.com / GitLab B.V.
-
-1. Google for "1 EUR in USD"
-
-1. General => Company => Currencies => USD => Exchange rates => +Line => Save
-
-1. Start with Accounting > Data entry > Verkoopfactuur
-
-1. First, select a customer. If customer doesn’t exist, press asterisk button and then press “First free code”
-
-1. Name: first their legal company name and then their filled out name in brackets 
-
-1. Create a billing address on the basis of their recurly order (add the state to the zipcode)
-
-1. Fill in the t.a.v. with name of contact person
-
-1. Don't fill in the email address
-
-1. BTW nummer (VAT number): to be filled for EU clients
-
-1. No need to add KVK number
-
-1. Click save
-
-1. Currency: USD (or EUR in rare cases)
-
-1. Amount (incl VAT): Total amount from Recurly invoice (incl VAT if invoiced)
-
-1. Factuurdatum/Invoice date: date from Recurly
-
-1. Factuurperdiode: equal to the month of the Recurly order
-
-1. Due date: can leave blank 
-
-1. Not in collection run: leave blank (default)
-
-1. Credit verkoopfactuur: leave blank (default)
-
-1. Invoice nr.: enter the invoice number from Recurly
-
-1. General ledger account for GitLab B.V.
-
-* Subscriptions -> 80000 Omzet Abonnementen
-
-* Hourly -> 80100 Omzet consultancy and development
-
-VAT: IMPORTANT TO CHECK THAT CATEGORY MATCHES THE COUNTRY IN THE INVOICE!
-
-![VAT](source/handbook/sales-process/images_sales-process/vat1_sales-process.png) 
-
-1. VAT category: Always diensten / services and date is date of invoice
-
-1. If VAT Country and VAT number are not auto-populated under VAT category, just refresh
-
-1. Line Amount(excl. VAT): amount from Recurly
-
-1. Delete the second line
-
-1. As a description (in both fields) use: Recurly xxxx (invoice #)
-
-1. Provisional (no need to make final)
-
-1. Message saying that a provisional sale was created appears on the screen
-
-1. For hourly invoices add the invoice nr. to the [GitLab Sales Sheet](https://docs.google.com/spreadsheets/d/1755SblMccalWXSahspOrfzBwjGp4F8TkwlB8dOXCGlU/edit#gid=11)
-
 ## EU VAT VIES check
 
 Do the VIES check before sending an invoice to a EU client (not needed for Dutch clients) [VAT request](http://ec.europa.eu/taxation_customs/vies/vatRequest.html) print to PDF, email the resulting page to Sytse with the invoice.
@@ -268,7 +192,7 @@ It is preferred to avoid both the above cases (extra work for us)
 
 1. All refunds, credits and subscription cancellations should have a note made in the Account Notes section starting with ISO 8601 date format (yyyy/mm/dd). 
 
-## Customer accidentally created a new subscription instead of updating the new one, both in the same account
+## Customer accidentally created a new subscription instead of updating the old one, both in the same account
 
 1. Customer account -> find new subscription -> More
 
@@ -278,11 +202,9 @@ It is preferred to avoid both the above cases (extra work for us)
 
 1. Change to correct number of user packs
 
-1. Press “Update subscription
+1. Press “Update subscription"
 
 1. Inform customer of the changes
-
-1. Draft sale in Twinfield
 
 ## Using Recurly to invoice hourly clients (or special order) by credit card
 
@@ -309,8 +231,6 @@ It is preferred to avoid both the above cases (extra work for us)
 1. Dutch clients: leave blank
 
 * Review the invoice details and click the Post Invoice button
-
-* Draft sale in Twinfield
 
 * Once the invoice is posted, Recurly will automatically collect on the invoice during our next automatic bill run (typically at the top of every hour). You will see the account’s balance go back to $0.00 when this charge is successfully processed
 

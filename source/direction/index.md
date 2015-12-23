@@ -11,11 +11,12 @@ It is organized from the short to the long term.
 GitLab's direction is determined by the code that is sent by our [contributors](http://contributors.gitlab.com/).
 We continually merge code to be released in the next version.
 Contributing is the best way to get a feature you want included.
-In [our feedback forum](http://feedback.gitlab.com/forums/176466-general),
+On [our issue tracker for CE](https://gitlab.com/gitlab-org/gitlab-ce/issues)
+and [EE](https://gitlab.com/gitlab-org/gitlab-ee/issues),
 many requests are made for features and changes to GitLab.
 The ones with the
-[status accepting merge requests](http://feedback.gitlab.com/forums/176466-general/status/796455)
-are preapproved.
+[status accepting merge requests](https://gitlab.com/gitlab-org/gitlab-ce/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=Accepting+Merge+Requests&weight=)
+are pre-approved.
 Of course before any code is merged it still has to meet the
 [contribution acceptance criteria](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#contribution-acceptance-criteria).
 
@@ -30,25 +31,17 @@ Due to our short release cycle we can ship simple feature requests (for example 
 GitLab releases a new version every single month on the 22nd.
 Note that we often move things around, do things that are not listed and we don't always get to do everything that is planned.
 Also the list below not include any contributions from outside GitLab the company.
-The version numbers below link to the issues for that version accross all products.
-The bullets list the tentpole features; the most improtant features of upcoming releases.
-
-### [8.3](https://gitlab.com/groups/gitlab-org/milestones/8-3?title=8.3) - December 22nd
-
-- [GitLab Pages (EE)](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1748)
-- [Issue Weight (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/70)
-- [Migrate all Ci::Project data to Project](https://gitlab.com/gitlab-org/gitlab-ce/issues/3474)
-- [Import GitHub PR's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2833)
+The version numbers below link to the issues for that version accros all products.
+The bullets list the tentpole features; the most important features of upcoming releases.
 
 ### [8.4](https://gitlab.com/groups/gitlab-org/milestones/8-4?title=8.4) - January 22nd
 
-- [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
-- [Import GitHub wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
 - [Elasticsearch or Hound (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
 - [GitLab RO for readonly secondary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
-- [Contribution analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/109)
-- [GitLab Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
+- [Key CI features](https://gitlab.com/gitlab-org/gitlab-ce/issues/4263)
 - [GitLab Pages gets CNAME and SSL support](https://gitlab.com/gitlab-org/gitlab-ee/issues/134)
+- [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
+- [Import GitHub wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
 
 ### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5) - February 22nd
 
@@ -63,14 +56,13 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 
 - [External users](https://gitlab.com/gitlab-org/gitlab-ce/issues/4009)
 - [Push to a remote repo (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/116)
-- [Confidential issues (EE?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3678)
+- [Confidential issues (EE)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3678)
+- [Performance monitoring (EE)](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1008)
 
 ## Wishlist
 
 Below you will find several things we'd really like to see in GitLab.
 This list is not prioritized.
-
-Some links point to internal issues. We're working on making [all issues public](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
 
 We very much welcome contributions that implement any of these things.
 
@@ -81,12 +73,15 @@ We very much welcome contributions that implement any of these things.
 - [Resolve merge conflicts in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/3567)
 - [Multithreaded application server](https://gitlab.com/gitlab-org/gitlab-ce/issues/3592)
 - [Realtime editing of the issue/MR description field](https://gitlab.com/gitlab-org/gitlab-ce/issues/4199)
+- [Mailinglist functionality](https://gitlab.com/gitlab-org/gitlab-ce/issues/4272)
 
 ### Usability
 
 - [Show commits behind/ahead on branch overview page](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1716)
 - [See all forked projects of one project](https://gitlab.com/gitlab-org/gitlab-ce/issues/2406)
 - [Edit on protected branch should create a new branch](https://gitlab.com/gitlab-org/gitlab-ce/issues/3441)
+- [Email actions](https://gitlab.com/gitlab-org/gitlab-ce/issues/4273)
+- [Improved emails on push](https://gitlab.com/gitlab-org/gitlab-ee/issues/146)
 
 ### Code Review
 
@@ -109,7 +104,7 @@ We very much welcome contributions that implement any of these things.
 
 ### Productivity
 
-- [Change notification setting](https://dev.gitlab.org/gitlab/gitlabhq/issues/2395)
+- [Change notification setting](https://gitlab.com/gitlab-org/gitlab-ce/issues/3778)
 - [Add more default views](https://gitlab.com/gitlab-com/www-gitlab-com/edit/master/source/direction/index.md)
 
 ### Version Control for Everything
@@ -135,16 +130,13 @@ We very much welcome contributions that implement any of these things.
 - [Show code coverage in diffs with colored horizontal bar](https://gitlab.com/gitlab-org/gitlab-ce/issues/4073)
 - [A/B testing of branches with GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
 
-### EE
-
-- [Oracle support](https://gitlab.com/gitlab-org/gitlab-ee/issues/96)
-
 ### Software to ship in the Omnibus packages
 
 - [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
 - [A scrum board](https://about.gitlab.com/applications/#scrum-boards)
 - [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
 - [Lita](https://www.lita.io/) or another chat-ops bot
+- [Oracle database support (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/96)
 
 ### We would love to partner with
 
