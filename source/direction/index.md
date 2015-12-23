@@ -55,7 +55,7 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 
 - [External users](https://gitlab.com/gitlab-org/gitlab-ce/issues/4009)
 - [Push to a remote repo (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/116)
-- [Confidential issues (EE?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3678)
+- [Confidential issues (EE)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3678)
 - [Performance monitoring (EE)](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1008)
 
 ## Wishlist
