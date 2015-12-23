@@ -16,16 +16,11 @@ UI/UX latest technics, prototyping with a tools or HTML/CSS, user testing, user 
 * UI/UX: Adobe CC, Sketch, Antetype, Web typography, assets
 * Prototyping: Framer, Origami by Facebook, Principal for mac, HTML/CSS/JS prototyping only.
 
-## Priorities
+## Workflow
 
 You work on items tagged with 'UX' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=ux) and [EE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=ux).
 
-The priority starting from urgent is:
-
-0. @mentions from team members and the rest of the community
-1. Issues assigned to the upcoming milestone
-2. Issues assigned to future milestones
-3. Issues not assigned to a milestone
+The priority of the issues tagged with this label can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/#prioritize).
 
 When done with an ux issue remove the ux label and add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) which is probably the 'Frontend' label.
 

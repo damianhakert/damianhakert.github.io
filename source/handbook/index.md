@@ -107,17 +107,22 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 1. Give the community the **chance to help**. For example: place issues on the feedback tracker, leave comments in rake check tests about what you can run manually and ask 'can you send a merge request to fix this?'.
 1. Submit the **smallest** item of work that makes sense. When creating an issue describe the smallest fix possible, put suggestions for enhancements in separate issues and link them. If you're new to GitLab and are writing documentation or instructions submit your first merge request for at most 20 lines.
 1. Do not leave issues open for a long time, issues should be **actionable** and realistic. If you are assigned but don't have time, assign it to someone else. If nobody is assigned and it is not a priority please ensure the community can help and close it.
-1. Make a conscious effort to **prioritize** your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc. What follows is a general guideline from urgent to less urgent:
-    1. **Emergency** issues from standard or plus subscribers.
-    1. **Security** issues.
-    1. **Data integrity** (not losing data).
-    1. **Availability** of GitLab.com.
-    1. **Subscriber** questions.
-    1. **Regression** issues.
-    1. **Consultancy** work.
-    1. **Promised** features.
-    1. **Growth** efforts.
-    1. **Other** work.
+1. Make a conscious effort to **prioritize**<a href="prioritize"></a> your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc.
+The
+The priority starting from urgent is:
+    1. @mentions from team members and the rest of the community
+    1. Issues assigned to the upcoming milestone
+    1. Issues assigned to future milestones
+    1. Issues not assigned to a milestone
+In the same milestone the priority starting from urgent is:
+    1. **Emergency** issues (a service engineer will probably contact you via chat)
+    1. **Security** issues
+    1. **Data integrity** issues (preventing data loss)
+    1. **Regression** issues (used to work in a previous release)
+    1. **Promised** issues (promised to a customer)
+    1. **Direction** issues (listed on [the direction page](https://about.gitlab.com/direction/))
+    1. **Bug** issues (things)
+    1. Issues without a label listed above.
 1. Use the public issue trackers on GitLab.com for anything related to our software since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
 1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [operations](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues.
 1. Pick issues from the current [milestone](https://gitlab.com/groups/gitlab-org/milestones).
