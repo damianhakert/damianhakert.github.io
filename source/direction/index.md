@@ -64,8 +64,6 @@ The bullets list the tentpole features; the most important features of upcoming 
 Below you will find several things we'd really like to see in GitLab.
 This list is not prioritized.
 
-Some links point to internal issues. We're working on making [all issues public](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
-
 We very much welcome contributions that implement any of these things.
 
 ### Major Wins
@@ -103,7 +101,7 @@ We very much welcome contributions that implement any of these things.
 
 ### Productivity
 
-- [Change notification setting](https://dev.gitlab.org/gitlab/gitlabhq/issues/2395)
+- [Change notification setting](https://gitlab.com/gitlab-org/gitlab-ce/issues/3778)
 - [Add more default views](https://gitlab.com/gitlab-com/www-gitlab-com/edit/master/source/direction/index.md)
 
 ### Version Control for Everything
