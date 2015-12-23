@@ -157,7 +157,7 @@ Idea's go flow though many stages before they are realized: chat, issue, sprint,
 Stitching all stages together can be done in many different ways.
 You can have a marketplace of proprietary apps from different suppliers.
 Or stich it together with a suite of products that are developed in isolation.
-We believe that an <b>integrated set of tools based on convention over configuration</b> offers a superior user experience.
+We believe that an <b>opinionated and integrated set of tools based on convention over configuration</b> offers a superior user experience.
 The advantage can be quoted from the [Wikipedia page for convention over configuration](https://en.wikipedia.org/wiki/Convention_over_configuration): "decrease the number of decisions that developers need to make, gaining simplicity, and not necessarily losing flexibility.".
 In GitLab you only have to specify unconventional aspects of your workflow, the rest will be a smooth experience.
 And that smooth experience should go all the way from informal chat, to creating an issue, coding it in an IDE, committing the code, running CI tests, doing a code review, to deployment in different environments.
