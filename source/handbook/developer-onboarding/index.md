@@ -131,5 +131,11 @@ Optionally you can request another developer to help or review by writing a comm
 If a merge request is not assigned it will probably ignored and create unnecessary
 delays.
 
+Don't work on one task for too long before submitting a merge request. 
+Even the biggest task can be splitted in smaller tasks. 
+Try to submit a merge request for each complete part of functionality. 
+In theory this means that we expect a merge request from you more than once a week.
+Small merge requests are more likely to get reasonable feedback and pass review earlier. 
+
 [handbook]: https://about.gitlab.com/handbook
 [in the open]: https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/
