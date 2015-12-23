@@ -21,7 +21,7 @@ title: "Frontend Engineer"
 
 ## Workflow
 
-You work on items tagged with 'Frontend' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=Frontend) and [EE](https://gitlab.com/gitlab-org/gitlab-ee/issues?label_name=Frontend).
+You work on issues tagged with 'Frontend' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=Frontend) and [EE](https://gitlab.com/gitlab-org/gitlab-ee/issues?label_name=Frontend).
 
 The priority of the issues tagged with this label can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/#prioritize).
 
