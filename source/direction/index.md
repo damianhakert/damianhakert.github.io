@@ -30,8 +30,8 @@ Due to our short release cycle we can ship simple feature requests (for example 
 GitLab releases a new version every single month on the 22nd.
 Note that we often move things around, do things that are not listed and we don't always get to do everything that is planned.
 Also the list below not include any contributions from outside GitLab the company.
-The version numbers below link to the issues for that version accross all products.
-The bullets list the tentpole features; the most improtant features of upcoming releases.
+The version numbers below link to the issues for that version accros all products.
+The bullets list the tentpole features; the most important features of upcoming releases.
 
 ### [8.4](https://gitlab.com/groups/gitlab-org/milestones/8-4?title=8.4) - January 22nd
 
