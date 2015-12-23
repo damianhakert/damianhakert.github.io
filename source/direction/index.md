@@ -35,12 +35,12 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 
 ### [8.4](https://gitlab.com/groups/gitlab-org/milestones/8-4?title=8.4) - January 22nd
 
-- [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
-- [Import GitHub wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
 - [Elasticsearch or Hound (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
 - [GitLab RO for readonly secondary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
-- [GitLab Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
+- [Key CI features](https://gitlab.com/gitlab-org/gitlab-ce/issues/4263)
 - [GitLab Pages gets CNAME and SSL support](https://gitlab.com/gitlab-org/gitlab-ee/issues/134)
+- [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
+- [Import GitHub wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
 
 ### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5) - February 22nd
 
@@ -56,6 +56,7 @@ The bullets list the tentpole features; the most improtant features of upcoming 
 - [External users](https://gitlab.com/gitlab-org/gitlab-ce/issues/4009)
 - [Push to a remote repo (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/116)
 - [Confidential issues (EE?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3678)
+- [Performance monitoring (EE)](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1008)
 
 ## Wishlist
 
@@ -127,16 +128,13 @@ We very much welcome contributions that implement any of these things.
 - [Show code coverage in diffs with colored horizontal bar](https://gitlab.com/gitlab-org/gitlab-ce/issues/4073)
 - [A/B testing of branches with GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
 
-### EE
-
-- [Oracle support](https://gitlab.com/gitlab-org/gitlab-ee/issues/96)
-
 ### Software to ship in the Omnibus packages
 
 - [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
 - [A scrum board](https://about.gitlab.com/applications/#scrum-boards)
 - [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
 - [Lita](https://www.lita.io/) or another chat-ops bot
+- [Oracle database support (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/96)
 
 ### We would love to partner with
 
