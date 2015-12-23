@@ -11,11 +11,12 @@ It is organized from the short to the long term.
 GitLab's direction is determined by the code that is sent by our [contributors](http://contributors.gitlab.com/).
 We continually merge code to be released in the next version.
 Contributing is the best way to get a feature you want included.
-In [our feedback forum](http://feedback.gitlab.com/forums/176466-general),
+On [our issue tracker for CE](https://gitlab.com/gitlab-org/gitlab-ce/issues)
+and [EE](https://gitlab.com/gitlab-org/gitlab-ee/issues),
 many requests are made for features and changes to GitLab.
 The ones with the
-[status accepting merge requests](http://feedback.gitlab.com/forums/176466-general/status/796455)
-are preapproved.
+[status accepting merge requests](https://gitlab.com/gitlab-org/gitlab-ce/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=Accepting+Merge+Requests&weight=)
+are pre-approved.
 Of course before any code is merged it still has to meet the
 [contribution acceptance criteria](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#contribution-acceptance-criteria).
 
