@@ -80,6 +80,8 @@ We very much welcome contributions that implement any of these things.
 - [Show commits behind/ahead on branch overview page](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1716)
 - [See all forked projects of one project](https://gitlab.com/gitlab-org/gitlab-ce/issues/2406)
 - [Edit on protected branch should create a new branch](https://gitlab.com/gitlab-org/gitlab-ce/issues/3441)
+- [Email actions](https://gitlab.com/gitlab-org/gitlab-ce/issues/4273)
+- [Improved emails on push](https://gitlab.com/gitlab-org/gitlab-ee/issues/146)
 
 ### Code Review
 
