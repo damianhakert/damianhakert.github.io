@@ -187,3 +187,4 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 - [Customer Use-Cases](https://about.gitlab.com/handbook/use-cases/)
 - [Why Git and GitLab slide deck](https://docs.google.com/a/gitlab.com/presentation/d/1RcZhFmn5VPvoFu6UMxhMOy7lAsToeBZRjLRn0LIdaNc/edit?usp=drive_web)
 - [Git Workshop](https://docs.google.com/presentation/d/1JzTYD8ij9slejV2-TO-NzjCvlvj6mVn9BORePXNJoMI/edit?usp=drive_web)
+- [Client Assessment of GitLab versus GitHub](https://docs.google.com/a/gitlab.com/spreadsheets/d/18cRF9Y5I6I7Z_ab6qhBEW55YpEMyU4PitZYjomVHM-M/edit?usp=sharing) INTERNAL ACCESS ONLY
