@@ -68,7 +68,7 @@ We very much welcome contributions that implement any of these things.
 
 ### Major Wins
 
-- [Translations](https://gitlab.com/gitlab-org/gitlab-ce/issues/4012) with the help of the rest of the community and Perforce
+- [Translations](https://gitlab.com/gitlab-org/gitlab-ce/issues/4012)
 - [Nested Groups](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772)
 - [Resolve merge conflicts in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/3567)
 - [Multithreaded application server](https://gitlab.com/gitlab-org/gitlab-ce/issues/3592)
