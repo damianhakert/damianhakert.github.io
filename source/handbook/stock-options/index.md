@@ -115,7 +115,7 @@ will not be able to purchase any shares under such option.  In addition, if not 
 expired through termination of your employment, your stock options expire 10 years after
 they were issued.
 
-### Exercise Prices and 409A Valuations
+## Exercise Prices and 409A Valuations
 Generally, the exercise price for options granted under the 2015 Equity Plan will be
 at the fair market value of such common stock at the date of grant.  In short, “fair
 market value” is the price that a reasonable person could be expected to pay for the
