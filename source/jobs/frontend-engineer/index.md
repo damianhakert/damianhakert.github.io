@@ -19,15 +19,10 @@ title: "Frontend Engineer"
 * Needs to have extensive knowledge of Rails
 * Work remotely from anywhere in the world (Curious to see what that looks like?
 
-## Priorities
+## Workflow
 
-You work on items tagged with 'Frontend' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=Frontend) and [EE](https://gitlab.com/gitlab-org/gitlab-ee/issues?label_name=Frontend).
+You work on issues tagged with 'Frontend' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=Frontend) and [EE](https://gitlab.com/gitlab-org/gitlab-ee/issues?label_name=Frontend).
 
-The priority starting from urgent is:
-
-0. @mentions from team members and the rest of the community
-1. Issues assigned to the upcoming milestone
-2. Issues assigned to future milestones
-3. Issues not assigned to a milestone
+The priority of the issues tagged with this label can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/#prioritize).
 
 When done with a frontend issue remove the 'Frontend' label and add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) which is probably the 'Developer' label.
