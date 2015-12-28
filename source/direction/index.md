@@ -31,8 +31,8 @@ Due to our short release cycle we can ship simple feature requests (for example 
 GitLab releases a new version every single month on the 22nd.
 Note that we often move things around, do things that are not listed and we don't always get to do everything that is planned.
 Also the list below not include any contributions from outside GitLab the company.
-The CE and EE to the right of the version number link to the issues for that version.
 The bullets list the tentpole features; the most important features of upcoming releases.
+The CE and EE to the right of the version number link to all planned issues for that version.
 
 ### 8.4 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/19) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/6) - January 22nd
 
