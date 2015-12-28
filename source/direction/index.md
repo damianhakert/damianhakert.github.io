@@ -66,9 +66,8 @@ The CE and EE to the right of the version number link to all planned issues for 
 
 ## Wishlist
 
-Below you will find several things we'd really like to see in GitLab.
+Below are features we'd really like to see in GitLab.
 This list is not prioritized.
-
 We very much welcome contributions that implement any of these things.
 
 ### Major Wins
@@ -90,12 +89,12 @@ We very much welcome contributions that implement any of these things.
 
 ### Code Review
 
-- [Pre-post comment code](https://gitlab.com/gitlab-org/gitlab-ce/issues/3502) see what the current state of the code is where in a previous commit a comment was placed
-- [Allow cross server merge requests](https://gitlab.com/gitlab-org/gitlab-ce/issues/4013) (paste url when making a new MR)
+- [See current HEAD in outdated discussion](https://gitlab.com/gitlab-org/gitlab-ce/issues/3502)
+- [Allow cross server merge requests](https://gitlab.com/gitlab-org/gitlab-ce/issues/4013)
 - [Revert button for merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 - [Ability to checkout the result of MR available before merging](https://gitlab.com/gitlab-org/gitlab-ce/issues/2765)
 - [Syntax highlighting for diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/3292)
-- [Transactional MR comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3364) prevent notification overload by grouping comments
+- [Transactional MR comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3364)
 - [Revert button for MRs](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 
 ### Project Management
@@ -125,7 +124,7 @@ We very much welcome contributions that implement any of these things.
 ### CI
 
 - [Runner Autoscale](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/318)
-- [Option to test the result of the merge](http://homu.io/) instead of the feature branch itself (you will have to retest all MR's every time master / target branch is updated)
+- [Test the result of the merge](https://gitlab.com/gitlab-org/gitlab-ce/issues/4710)
 - [Document dependent builds / pipeline triggers](https://gitlab.com/gitlab-org/gitlab-ce/issues/3432)
 - [Deploy your branch button](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 - [Automatically give code quality metrics in the merge request](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
@@ -138,7 +137,7 @@ We very much welcome contributions that implement any of these things.
 - [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
 - [A scrum board](https://about.gitlab.com/applications/#scrum-boards)
 - [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
-- [Lita](https://www.lita.io/) or another chat-ops bot
+- [Hubot Merge Request](https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/564) or [Lita](https://www.lita.io/)
 - [Oracle database support (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/96)
 
 ### We would love to partner with
