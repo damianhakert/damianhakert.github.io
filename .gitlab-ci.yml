@@ -5,6 +5,8 @@ test:
     - export LC_ALL=en_US.UTF-8
     - ''
     - bundle install --path ~/bundle
+    - gem install oga
+    - gem install httparty
     - ruby generate_release_list.rb
     - ''
     - "# build without deploying, so that we know if a MR is horribly broken"
