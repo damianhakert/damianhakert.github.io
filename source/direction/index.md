@@ -60,6 +60,10 @@ The bullets list the tentpole features; the most important features of upcoming 
 - [Confidential issues (EE)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3678)
 - [Performance monitoring (EE)](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1008)
 
+### [8.7]https://gitlab.com/groups/gitlab-org/milestones/8-7?title=8.7
+
+- [Squash commits upon Merging (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/150)
+
 ## Wishlist
 
 Below you will find several things we'd really like to see in GitLab.
@@ -69,7 +73,7 @@ We very much welcome contributions that implement any of these things.
 
 ### Major Wins
 
-- [Translations](https://gitlab.com/gitlab-org/gitlab-ce/issues/4012) with the help of the rest of the community and Perforce
+- [Translations](https://gitlab.com/gitlab-org/gitlab-ce/issues/4012)
 - [Nested Groups](https://gitlab.com/gitlab-org/gitlab-ce/issues/2772)
 - [Resolve merge conflicts in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/3567)
 - [Multithreaded application server](https://gitlab.com/gitlab-org/gitlab-ce/issues/3592)
