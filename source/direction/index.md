@@ -42,6 +42,7 @@ The bullets list the tentpole features; the most important features of upcoming 
 - [GitLab Pages gets CNAME and SSL support](https://gitlab.com/gitlab-org/gitlab-ee/issues/134)
 - [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
 - [Import GitHub wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
+- Caching of partials and participants
 
 ### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5) - February 22nd
 
@@ -74,12 +75,12 @@ We very much welcome contributions that implement any of these things.
 - [Multithreaded application server](https://gitlab.com/gitlab-org/gitlab-ce/issues/3592)
 - [Realtime editing of the issue/MR description field](https://gitlab.com/gitlab-org/gitlab-ce/issues/4199)
 - [Mailinglist functionality](https://gitlab.com/gitlab-org/gitlab-ce/issues/4272)
+- [Handle incoming emails with support questions in issues](https://gitlab.com/gitlab-org/gitlab-ee/issues/149)
 
 ### Usability
 
 - [Show commits behind/ahead on branch overview page](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1716)
 - [See all forked projects of one project](https://gitlab.com/gitlab-org/gitlab-ce/issues/2406)
-- [Edit on protected branch should create a new branch](https://gitlab.com/gitlab-org/gitlab-ce/issues/3441)
 - [Email actions](https://gitlab.com/gitlab-org/gitlab-ce/issues/4273)
 - [Improved emails on push](https://gitlab.com/gitlab-org/gitlab-ee/issues/146)
 
@@ -99,8 +100,6 @@ We very much welcome contributions that implement any of these things.
 - [Move issues between projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/3024)
 - [Time tracking](https://gitlab.com/gitlab-org/gitlab-ee/issues/78)
 - [Labels should be visible in Milestone view](https://gitlab.com/gitlab-org/gitlab-ce/issues/3276)
-- Draw and drop issues to prioritize them
-- Handle incoming emails with support questions in issues, needs spam filter
 
 ### Productivity
 
@@ -113,11 +112,11 @@ We very much welcome contributions that implement any of these things.
 - [Automatically push changed files from a local folder](https://gitlab.com/gitlab-org/gitlab-ce/issues/4015)
 - [Distributed code-reviews and issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/4084)
 
-### Operations
+### Performance
 
-- [Handle errors before they give a 500](https://gitlab.com/gitlab-org/gitlab-ce/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=&author_id=&milestone_title=&label_name=gitlab.com+errors)
+- [Handle errors before they give a 500](https://gitlab.com/gitlab-org/gitlab-ce/issues/4665)
 - [Get rid of the large authorized keys (SSH) file](https://gitlab.com/gitlab-org/gitlab-git-http-server/issues/2#note_1983654)
-- [Upgrade to Sidekiq 4 because it is faster](https://gitlab.com/gitlab-org/gitlab-ce/issues/3065)
+- [Participants table](https://gitlab.com/gitlab-org/gitlab-ce/issues/3965)
 
 ### CI
 
