@@ -1,0 +1,4 @@
+---
+layout: markdown_page
+title: List of all GitLab releases
+---
