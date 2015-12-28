@@ -137,7 +137,7 @@ We very much welcome contributions that implement any of these things.
 - [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
 - [A scrum board](https://about.gitlab.com/applications/#scrum-boards)
 - [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
-- [Hubot Merge Request](https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/564) or [Lita](https://www.lita.io/)
+- [Hubot](https://hubot.github.com/) which has a [Merge Request](https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/564) or [Lita](https://www.lita.io/)
 - [Oracle database support (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/96)
 
 ### We would love to partner with
