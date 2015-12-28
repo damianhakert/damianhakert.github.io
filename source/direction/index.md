@@ -59,6 +59,10 @@ The bullets list the tentpole features; the most important features of upcoming 
 - [Confidential issues (EE)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3678)
 - [Performance monitoring (EE)](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1008)
 
+### [8.7]https://gitlab.com/groups/gitlab-org/milestones/8-7?title=8.7
+
+- [Squash commits upon Merging (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/150)
+
 ## Wishlist
 
 Below you will find several things we'd really like to see in GitLab.
