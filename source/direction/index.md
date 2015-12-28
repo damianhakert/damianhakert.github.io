@@ -31,10 +31,10 @@ Due to our short release cycle we can ship simple feature requests (for example 
 GitLab releases a new version every single month on the 22nd.
 Note that we often move things around, do things that are not listed and we don't always get to do everything that is planned.
 Also the list below not include any contributions from outside GitLab the company.
-The version numbers below link to the issues for that version accros all products.
+The CE and EE to the right of the version number link to the issues for that version.
 The bullets list the tentpole features; the most important features of upcoming releases.
 
-### [8.4](https://gitlab.com/groups/gitlab-org/milestones/8-4?title=8.4) - January 22nd
+### 8.4 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/19) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/6) - January 22nd
 
 - [Elasticsearch or Hound (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
 - [GitLab RO for readonly secondary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
@@ -44,7 +44,7 @@ The bullets list the tentpole features; the most important features of upcoming 
 - [Import GitHub wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
 - Caching of partials and participants
 
-### [8.5](https://gitlab.com/groups/gitlab-org/milestones/8-5?title=8.5) - February 22nd
+### 8.5 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/20) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/7) - February 22nd
 
 - [Notification System](https://gitlab.com/gitlab-org/gitlab-ce/issues/2425)
 - [HA Omnibus packages (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
@@ -53,14 +53,14 @@ The bullets list the tentpole features; the most important features of upcoming 
 - [Delivery analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
 - [Code management analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
 
-### [8.6](https://gitlab.com/groups/gitlab-org/milestones/8-6?title=8.6) - March 22nd
+### [8.6 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/22) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/8) - March 22nd
 
 - [External users](https://gitlab.com/gitlab-org/gitlab-ce/issues/4009)
 - [Push to a remote repo (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/116)
 - [Confidential issues (EE)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3678)
 - [Performance monitoring (EE)](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1008)
 
-### [8.7]https://gitlab.com/groups/gitlab-org/milestones/8-7?title=8.7
+### 8.7 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/23) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/9) - May 22nd
 
 - [Squash commits upon Merging (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/150)
 
