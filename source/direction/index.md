@@ -64,6 +64,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 ### 8.7 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/23) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/9) May 22nd
 
 - [Squash commits upon Merging (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/150)
+- [Run build on merged code before merging (EE?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4176)
 
 ## Wishlist
 
@@ -125,7 +126,6 @@ We very much welcome contributions that implement any of these things.
 ### CI
 
 - [Runner Autoscale](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/318)
-- [Test the result of the merge (EE?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4176)
 - [Document dependent builds / pipeline triggers](https://gitlab.com/gitlab-org/gitlab-ce/issues/3432)
 - [Deploy your branch button](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 - [Automatically give code quality metrics in the merge request](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
