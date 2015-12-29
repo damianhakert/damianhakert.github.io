@@ -45,7 +45,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 
 1. We value results, transparency, sharing, freedom, efficiency, frugality, collaboration, directness, kindness, diversity, quirkiness, boring solutions, and interesting people.
     1. Frugality: [Amazon states it best](http://www.amazon.jobs/principles) with: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention. There are no extra points for growing headcount, budget size or fixed expense.".
-    1. Boring solutions: Use the most simple and boring solution for a problem. You can always make it more complex later if that is needed. The speed of innovation for our organization and product is determined by the total complexity we added, so every little reduction in complexity helps.
+    1. Boring solutions: Use the most simple and boring solution for a problem. You can always make it more complex later if that is needed. The speed of innovation for our organization and product is constrained by the total complexity we added so far, so every little reduction in complexity helps.
 1. We try to channel our inner Ben Horowitz by being [both straightforward and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b).
 1. Working at GitLab Inc. is cooperating with the most talented people you've ever worked with, being the **most productive** you'll ever be, creating software that is helping the most people you've ever reached.
 1. We recognize that inspiration is perishable, if you’re **enthusiastic** about something that generates great results in relatively little time feel free to work on that.
