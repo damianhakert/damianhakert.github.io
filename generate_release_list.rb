@@ -47,7 +47,7 @@ task :release_list do
     url = "#{base_url}/#{year}/#{zero}#{month}/22/gitlab-#{major_version}-#{minor_version}-released"
 
 
-    output << "#{dec} GitLab #{major_version}.#{minor_version}\n\n"
+    output << "#{dec} [GitLab #{major_version}.#{minor_version}](#{url}) \n\n"
 
     page = Oga.parse_xml(HTTParty.get(url))
     page.css('h2').each do |heading|
