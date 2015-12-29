@@ -137,5 +137,18 @@ Try to submit a merge request for each part of the functionality.
 This means that we expect multiple a merge request per week from you.
 Smaller merge requests are more likely to receive good feedback and will get merged sooner.
 
+### Ruby Gems
+
+When building and publishing Gems for GitLab make sure multiple developers have
+access to said Gem on RubyGems.org. This ensures a Gem doesn't end up being
+orphaned because the original author left, lost their credentials, passed away,
+etc. When publishing a Gem you can add the following people as co-owners:
+
+* Dmitriy Zaporozhets
+* Douwe Maan
+* Robert Speicher
+
+You're of course free to add other developers as well.
+
 [handbook]: https://about.gitlab.com/handbook
 [in the open]: https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/
