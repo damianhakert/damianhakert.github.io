@@ -42,7 +42,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [GitLab Pages gets CNAME and SSL support](https://gitlab.com/gitlab-org/gitlab-ee/issues/134)
 - [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
 - [Import GitHub wiki's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2834)
-- Caching of partials and participants
+- [Caching of partials and participants](https://gitlab.com/gitlab-org/gitlab-ce/issues/4130)
 
 ### 8.5 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/20) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/7) February 22nd
 
