@@ -31,38 +31,42 @@ month = 12
 major_version = 8
 minor_version = 3
 
-print 'Retrieving GitLab releases..'
 
-VERSIONS.each do |version|
-  print '.'
-  $stdout.flush
-  major_version = version.split('.').first
-  minor_version = version.split('.').last
+desc 'Generate Release List Markdown Page'
+task :release_list do
+  print 'Retrieving GitLab releases..'
 
-  month.to_s.length < 2 ? zero = '0' : zero = ''
+  VERSIONS.each do |version|
+    print '.'
+    $stdout.flush
+    major_version = version.split('.').first
+    minor_version = version.split('.').last
 
-  url = "#{base_url}/#{year}/#{zero}#{month}/22/gitlab-#{major_version}-#{minor_version}-released"
+    month.to_s.length < 2 ? zero = '0' : zero = ''
+
+    url = "#{base_url}/#{year}/#{zero}#{month}/22/gitlab-#{major_version}-#{minor_version}-released"
 
 
-  output << "#{dec} GitLab #{major_version}.#{minor_version}\n\n"
+    output << "#{dec} GitLab #{major_version}.#{minor_version}\n\n"
 
-  page = Oga.parse_xml(HTTParty.get(url))
-  page.css('h2').each do |heading|
-    text = heading.children.first.text
-    unless do_not_list(text)
-      output << "- #{heading.children.first.text}"
-      output << "\n"
+    page = Oga.parse_xml(HTTParty.get(url))
+    page.css('h2').each do |heading|
+      text = heading.children.first.text
+      unless do_not_list(text)
+        output << "- #{heading.children.first.text}"
+        output << "\n"
+      end
     end
+
+    output << "\n"
+
+    month == 1 ? month = 12 && year = year - 1 : month = month - 1
   end
 
-  output << "\n"
+  puts ''
+  puts 'Generating release list..'
 
-  month == 1 ? month = 12 && year = year - 1 : month = month - 1
+  out_file = File.new("source/release-list/index.md", "w")
+  out_file << output
+  out_file.close
 end
-
-puts ''
-puts 'Generating release list..'
-
-out_file = File.new("source/release_list/index.md", "w")
-out_file << output
-out_file.close
