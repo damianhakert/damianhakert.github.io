@@ -4,6 +4,8 @@ require "rubygems"
 require "bundler/setup"
 require "stringex"
 
+import 'generate_release_list.rb'
+
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 ssh_user       = "user@domain.com"
@@ -424,7 +426,7 @@ task :clean do
 end
 
 desc "Build website in #{BUILD_DIR}"
-task :build => [:clean, :generate, :pdfs]
+task :build => [:clean, :release_list, :generate, :pdfs]
 
 rule %r{^public/.*\.pdf} => [->(f) { f.pathmap('%X.html') }] do |pdf|
   # Rewrite the generated HTML a bit, fix relative image links for pandoc
