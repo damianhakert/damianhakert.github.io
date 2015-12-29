@@ -78,7 +78,7 @@ In order to make it easy to see how and where are active in your projects,
 we're building contribution analytics for Enterprise Edition.
 
 In GitLab 8.3, you can now quickly get an overview of activity of a group
-by going to **Group -> Stats**.
+by going to **Group -> Contribution Analytics** at `groups/groupname/analytics`.
 
 ![Get contribution analytics in GitLab 8.3 EE](/images/8_3/stats.jpg)
 
