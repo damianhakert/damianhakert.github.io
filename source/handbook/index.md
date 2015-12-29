@@ -174,7 +174,7 @@ In the same milestone the priority starting from urgent is:
 1. If you have multiple points in a comment or email, please number them to make replies easier.
 1. When you reference an issue, merge request, comment, commit, page, doc, etc. and you have the URL available please paste that in.
 1. In URLs, always prefer hyphens to underscores.
-1. Always refer to "the rest of the community", not "the community" when referencing people outside the company since we're all in this together as one community.
+1. The community include users, contributors, core team members, customers, people working for GitLab Inc., and friends of GitLab. If you want to refer to 'people not working for GitLab Inc.' just say that and don't use the word community. If you want to refer to people working for GitLab Inc. you can also use 'the GitLab Inc. team' but don't use the 'GitLab Inc. employees'.
 1. All people working for GitLab the company are the [GitLab team](https://about.gitlab.com/team/), we also have the [Core team](https://about.gitlab.com/team/) that is part GitLab team, part volunteers.
 1. Always write GitLab with a capitalized G and L, even when writing GitLab.com.
 1. When stating monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9
