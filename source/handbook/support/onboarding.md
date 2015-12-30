@@ -1,11 +1,9 @@
 ---
 layout: markdown_page
-title: Support Team
+title: Service Engineer Onboarding
 ---
 
-# Interactions within the Support Team
-
-## Expectations of the support team
+# Expectations of the support team
 
 As members of the support team we are the first to interact with someone when they have a problem or question.
 As such it is up to us to represent the company and make sure we present ourselves properly. Therefore we are
@@ -16,13 +14,13 @@ expected to:
 - It is OK if you don't know something. You can always ask someone else
 - It is OK to say no to a customer, but try to suggest a workaround and escalate to a Senior if necessary
 
-## Support Level Agreements
+# Support Level Agreements
 
 - Emergency tickets should be answered within 30 minutes.
 - Tickets from customers should be answered within 1 business day, preferably sooner.
 - Tickets from social channels don't have a set SLA, ideally they should be answered within 48 hours
 
-## First steps when you join the team
+# First steps when you join the team
 
 When you first join the team everything will be new to you. In order to get you started with GitLab quickly
 you should take some time to go through our [documentation](http://doc.gitlab.com).
@@ -44,9 +42,9 @@ GitLab using our different installation methods:
 It is also encouraged to go over your colleagues responses to previously submitted tickets, to see how they
 craft their replies, and to get more insight and knowledge into topics with which you are unfamiliar.
 
-## Specific actions within ZenDesk
+# Specific actions within ZenDesk
 
-### Assigning a ticket to you
+## Assigning a ticket to you
 
 Assign a ticket to yourself the moment you decide you are going to work on it. If the nature of the problem
 requires you to investigate further, let the customer know that you need further time to investigate, assign
@@ -54,7 +52,7 @@ the ticket to you, and submit the reply. By assigning the ticket to yourself you
 know that you will work with this customer and by replying to the customer, even if you need further time to
 craft a proper answer, you are acknowledging their request.
 
-### Responding to tickets
+## Responding to tickets
 
 For responses to regularly asked question see the [common responses](/handbook/support/common-responses.html)
 section.
@@ -105,9 +103,9 @@ email will be sent to you and the ZenDesk manager to notify you of the fact. Whe
 let a Senior know about the problem and follow up with the customer to see if something you did can
 be improved.
 
-## Team member is unavailable
+# Team member is unavailable
 
-### Vacation
+## Vacation
 
 You are encouraged to take as many vacations days as you need, as per our [handbook](/handbook). There
 are, however, some things to consider when a member of the support team takes a vacation.
@@ -131,7 +129,7 @@ Try to solve as many of the tickets that are assigned to you as you can and try 
 difficult tickets right before you leave. If there are still tickets assigned to you that you will not
 be able to handle, talk to your colleagues to see who can take over them.
 
-### Illness
+## Illness
 
 You should always take care of yourself and make sure you are healthy. If you need to take a sick day, let
 your team members know. If there is an important ticket pending, aks one of your colleagues to help you if
@@ -139,7 +137,7 @@ you foresee you will be unavailable for more than 1 day.
 
 If you are on call for the 24/7 support, ask one of your colleagues to cover for you.
 
-### Unforeseen events
+## Unforeseen events
 
 If you need to take care of something urgent, there is no need to ask for permission. Just notify the team
 via the #support channel in Slack. If you are on call for the 24/7 support, ask one of your colleagues to
