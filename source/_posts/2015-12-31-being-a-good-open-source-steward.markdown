@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Open Source Stewardship"
-date: 2015-12-22
+date: 2015-12-31
 comments: true
 author: Sytse Sijbrandij
 author_twitter: sytses
@@ -54,7 +54,7 @@ Open source is not a freemium model we can just turn off after 30 days. We can�
 
 We can’t just tend to the needs of the open source project without tending to the commercial requirements. After all, we know that to sustain the project, we need to make it commercially viable.
 
-We’re not the only ones dealing with these issues. “We’ve played with various mixes of what features go in to which offering, with how to balance our need to thrive as a commercial business with our core belief that Open Source is the future of infrastructure,” [wrote Adam Jacob of Chef](https://www.chef.io/blog/2014/09/08/there-is-one-chef-server-and-it-is-open-source/) That was one year ago, and now Chef has a clear governance policy and board of governance.
+We’re not the only ones dealing with these issues. “We’ve played with various mixes of what features go in to which offering, with how to balance our need to thrive as a commercial business with our core belief that Open Source is the future of infrastructure,” [wrote Adam Jacob of Chef](https://www.chef.io/blog/2014/09/08/there-is-one-chef-server-and-it-is-open-source/) That was one year ago, and now Chef has come a long way in the stweardship of that project. 
 
 Nathen Harvey, now VP of Community Development at Chef said "The intersection of open source and commercial interests raises questions about authority, authenticity, and culture" in [an article on open governance](http://www.informationweek.com/strategic-cio/it-strategy/three-pillars-of-open-source-governance/a/d-id/1318585). Will commercial interests trump what is best for the project? This is a very important question which each single-vendor open source project needs to consider. Nathen's first principle that "Transparency is key" is one we take very seriously.
 
