@@ -93,6 +93,7 @@ We very much welcome contributions that implement any of these things.
 - [See all forked projects of one project](https://gitlab.com/gitlab-org/gitlab-ce/issues/2406)
 - [Email actions](https://gitlab.com/gitlab-org/gitlab-ce/issues/4273)
 - [Improved emails on push](https://gitlab.com/gitlab-org/gitlab-ee/issues/146)
+- [Autocomplete all users](https://gitlab.com/gitlab-org/gitlab-ce/issues/3872)
 
 ### Code Review
 
