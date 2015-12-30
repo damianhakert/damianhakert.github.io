@@ -3,7 +3,7 @@ layout: post
 title: "Big changes coming to GitHost"
 date: 2015-12-30
 comments: true
-author: Patricio Cano & Chad Malchow
+author: Patricio Cano
 author_twitter: suprnova32
 image_title: '/images/unsplash/fireworks.jpeg'
 ---
@@ -29,10 +29,9 @@ We also still have the Startup plan (60GB SSD) which offers a suitable mid-range
 
 ![Plans](/images/githost/plans.png)
 
-In short, now both small startups and big organizations have more choices.
-
-Our goal is to keep GitHost the most cost-effective hosted GitLab provider available. These changes should not have any
-significant effect on our ability to achieve that.
+We wanted to increase the choices available, and to raise the price compared to our older plans in order to make GitHost
+sustainable. We plan on offering this service for a long time to come, and the old prices did not cover our cost to
+keep the platform running.
 
 **What does this mean if you’re an existing subscriber?**
 
