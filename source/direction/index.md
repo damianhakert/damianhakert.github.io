@@ -60,6 +60,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [Push to a remote repo (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/116)
 - [Confidential issues (EE)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3678)
 - [Performance monitoring (EE)](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1008)
+- [Merge even if master is updated](https://gitlab.com/gitlab-org/gitlab-ce/issues/3873)
 
 ### 8.7 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/23) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/9) May 22nd
 
