@@ -139,6 +139,8 @@ Give examples and keep asking questions until you understand the problem or the 
 If someone invested time to help us offer to mention them on our [Security Researcher Acknowledgments page](https://about.gitlab.com/vulnerability-acknowledgements/) even if there was no actual vulnerability.
 If you say that we'll get back to them always mention that they can email us at any time for an update.
 This is really important to prevent a 0 day disclosure because we forgot to respond.
+If you need help from developers to diagnose the issue please open an issue on dev.gitlab.org so we can work in private.
+If someone opens a public issue please leave a message: "Thank you for helping to make GitLab more secure! We removed the contents of your vulnerability disclosure to keep it private. We opend an interal issue to look at your disclosure. Can you please use our [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/) to send us an email that references this url so we can communicate in private?"
 
 ## Other channels
 
