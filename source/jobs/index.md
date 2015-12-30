@@ -23,10 +23,6 @@ If you see yourself as a good fit with our company’s goals and team, then plea
 
 *Note: we do not accept solicitation by recruiters, recruiting agencies and outsourcing organizations.* <a id="note"></a>
 
-### Designer
-
-* [Description](https://about.gitlab.com/jobs/designer/)
-* [Apply](https://gitlab.workable.com/jobs/124211/candidates/new)
 
 ### Developer Evangelist
 
@@ -46,7 +42,7 @@ If you see yourself as a good fit with our company’s goals and team, then plea
 ### Marketing Associate
 
 * [Description](https://about.gitlab.com/jobs/marketing-associate/)
-* [Apply](https://gitlab.workable.com/jobs/124211/candidates/new)
+* [Apply](https://gitlab.workable.com/jobs/176839/candidates/new)
 
 ### Senior Account Manager
 
