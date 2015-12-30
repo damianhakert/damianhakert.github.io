@@ -11,7 +11,7 @@ image_title: '/images/unsplash/trees-xmas.png'
 
 Some GitLab users who should be celebrating the festive season might be suffering from post-Christmas blues. Maybe you didn’t get everything you wanted for Christmas. We feel partly responsible for that, and we want to make it up to you. 
 
-We’re so happy when people contact us to ask for some swag: a sticker, a t-shirt, anything! Then we feel sad because we don’t have a swag shop and no way to get people something to show their appreciation. This is a great problem to have: too much love. 
+We’re so happy when people contact us to ask for some swag: a sticker, a t-shirt, anything! Then we feel sad because we don’t have a swag shop and we have no way to get people something to show their appreciation. This is a great problem to have: too much love. 
 
 So now we’re hard at work to get a swag shop set up. If you want to be the absolute first to know about it, sign up below. Bonus: You’ll be entered into a prize draw for a gift. Good luck! 
 
