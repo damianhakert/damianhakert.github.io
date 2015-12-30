@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Swag matters - share your swag ideas"
-date: 2015-12-28
+title: "Swag matters - share your #swagportrait"
+date: 2015-12-30
 comments: true
 categories: marketing
 author: Heather McNamee
@@ -13,13 +13,15 @@ Some GitLab users who should be celebrating the festive season might be sufferin
 
 We’re so happy when people contact us to ask for some swag: a sticker, a t-shirt, anything! Then we feel sad because we don’t have a swag shop and no way to get people something to show their appreciation. This is a great problem to have: too much love. 
 
-So now we’re hard at work to get a swag shop set up. If you want to be the absolute first to know about it, fill out our survey below. This will help us learn more about you and the swag you love. Bonus: You’ll be entered into a prize draw for a gift. Good luck!
+So now we’re hard at work to get a swag shop set up. If you want to be the absolute first to know about it, sign up below. Bonus: You’ll be entered into a prize draw for a gift. Good luck! 
+
+There's another way to win too.
 
 <!-- more -->
 
 ## Please share pics tagged #swagportrait
 
-The truth is, swag does matter. Even something as humble as a sticker can communicate so much about identity and interest. On OpenSource.com Rikki Endlsey wrote about [Open source sticker culture](https://opensource.com/business/15/11/open-source-stickers#culture). Rikki details how people share their support for and help promote projects and people by using stickers, including more exclusive “earned” stickers showing achievements or events attended.
+The truth is, swag does matter. Even the humble as a sticker can communicate so much about identity and interest. On OpenSource.com Rikki Endlsey wrote about [Open source sticker culture](https://opensource.com/business/15/11/open-source-stickers#culture). Rikki details how people share their support for and help promote projects and people by using stickers, including more exclusive “earned” stickers showing achievements or events attended.
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">It&#39;s harder for me to choose stickers for my laptop than <a href="https://twitter.com/hashtag/JavaScript?src=hash">#JavaScript</a> framework. <a href="https://twitter.com/hashtag/DevProblems?src=hash">#DevProblems</a> 😂😂😂 <a href="https://t.co/fnN02tHpk0">pic.twitter.com/fnN02tHpk0</a></p>&mdash; Pablo Villoslada (@Puigcerber) <a href="https://twitter.com/Puigcerber/status/677815759297511424">December 18, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -34,7 +36,7 @@ I’m really curious about the great swag you’ve seen. Please share a pic of y
 
 ## Let’s talk swag
 
-I think it’s pretty clear we need to have some nice stickers, with designs for events and as rewards. But we want to develop some other ideas. What we want to avoid is “bad swag”. Bag swag might be poor quality and wasteful swag. 
+I think it’s pretty clear we need to have some nice stickers, with designs for events and as rewards. But we want to develop some other ideas. What we want to avoid is “bad swag”. Bad swag might be poor quality and wasteful swag. 
 
 We can promise that we will never make a comedy unibrow mug.
 
@@ -43,49 +45,28 @@ We can promise that we will never make a comedy unibrow mug.
 
 Realex Payments’ [“Bad Swag” campaign](https://www.realexpayments.com/bad-swag) made a point in saying that some companies consider “developer relations” to be about making swag, forgetting that swag is just a symbol of a relationship with developers, not the relationship itself. 
 
-At GitLab, we don’t want to focus so only on building tools for developers that we forget to support the community and help them connect.  So let’s talk about good swag. 
+At GitLab, we don’t want to focus only on building tools for developers that we forget to support the community and help them connect.  So let’s talk about **good swag**. What is some good swag you've seen? 
 
 Among [other great swag ideas](http://blog.hubspot.com/blog/tabid/6307/bid/33361/Event-Swag-Your-Attendees-Will-Love-and-Loathe.aspx), Hubspot lists “Unique Food Items” as great swag. We did stroopwafels for OSCON in Amsterdam. Everyone loves a good stroopwafel! 
-
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">I&#39;m a winner and so is <a href="https://twitter.com/gitlab">@gitlab</a> - thanks folks! <a href="https://twitter.com/hashtag/OSCON?src=hash">#OSCON</a> <a href="https://t.co/B40tPfOMax">pic.twitter.com/B40tPfOMax</a></p>&mdash; Duane O&#39;Brien (@DuaneOBrien) <a href="https://twitter.com/DuaneOBrien/status/659022203279798272">October 27, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-We’re also thinking of ways to use alternative materials, create locally, and support makers. A while back, I asked a talented craftsperson I know, [A Million Paper Stars](https://www.facebook.com/amillionpaperstars), to make a bag for me to carry my various computer charger, mouse, etc. I wanted to get creative and try something different. Would you be interested in handmade swag?
+We’re also thinking of ways to use alternative materials, create locally, and support makers. I love the [Resketch notebooks](http://resketchbook.com/) by Shawn Smith which use reclaimed materials to make fun notebooks. I like that this kind of product reduces waste. Have you seen other cool products like that?
+
+A while back, I asked a talented craftsperson I know, [A Million Paper Stars](https://www.facebook.com/amillionpaperstars), to make a bag for me to carry my various computer charger, mouse, etc. I wanted to get creative and try something different. Would you be interested in handmade swag?
+
+![GitLab bag by A Million Paper Stars](/images/blogimages/gitlab-bag-amillionpaperstars.png)
 
 I’m really curious about the great swag you’ve seen. Creative ideas welcome! Please let us know about your favourite swag, from stickers to surprises, and don’t forget to share your #swagportrait if you’d like to be in with a chance to win some of GitLab’s first swag shop offerings. 
 
-## GitLab Swag Survey 
+## GitLab Swag Alert
 
-When you fill out this survey you'll be put on our "Swag Alert" list. As soon as the swag shop is open, you'll be the first to know. As soon as we have a new product, we'll tell ya. 
+When you add your name to this list you'll be put on our "Swag Alert" list. We'll contact you to find out more about your swag ideas. And as soon as the swag shop is open, you'll be the first to know. Then whenever we have a new product, we'll tell ya.
 
-We'll keep this survey open while we work on our plans. 
+<script src="//app-ab13.marketo.com/js/forms2/js/forms2.min.js"></script>
+<form id="mktoForm_1125"></form>
+<script>MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1125);</script>
 
-By completing this form you’ll be entered to a random draw to win a prize.
+Thanks, and looking forward to hearing from you and seeing your #swagportraits
 
-Your name
-
-Email
-
-Do you host projects on GitLab.com or GitHost?
-
-Do you contribute to open source projects on GitLab?
-
-[ ] I would purchase swag from GitLab
-
-T-Shirts?
-[Yeah!]
-[Not for me.]
-
-Handmade products?
-[Yeah!]
-[Not for me.]
-
-Baby stuff? 
-[Yeah!]
-[Not for me.]
-
-My swag idea:
-(paragraph text field)
-
- 
