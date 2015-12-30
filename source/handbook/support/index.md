@@ -6,7 +6,7 @@ title: Support
 ## Other support pages
 
 - [Common responses to problems](/handbook/support/common-responses.html)
-- [Interaction with the team](/handbook/support/team.html)
+- [Service Engineer Onboarding](/handbook/support/onboarding.html)
 - [Support and Development Process](https://about.gitlab.com/handbook/support-and-development-process)
 
 When handling the tasks relevant to support and [service engineering](/jobs/service-engineer) the following
