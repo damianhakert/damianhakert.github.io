@@ -26,6 +26,10 @@ At GitLab the company we try to make what our users and we need (many of us are 
 But if a customer of us requests a feature that carries extra weight.
 Due to our short release cycle we can ship simple feature requests (for example an api extension) within one to two months.
 
+## Previous releases
+
+On our [release list page](https://about.gitlab.com/release-list/) you can find an overview of the most important features of recent releases and a links to the release blog posts.
+
 ## Next releases
 
 GitLab releases a new version every single month on the 22nd.
