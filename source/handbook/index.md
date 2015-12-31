@@ -13,22 +13,20 @@ Please make headers linkable, for an example see the feedback header below.
 Please make a <a href="https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests">merge request</a> to suggest improvements or add clarifications.
 Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues</a> to ask questions.
 
-## Other pages of the team handbook
+## Other main pages in the team handbook
 
-* [General onboarding](/handbook/general-onboarding)
-* [Sales onboarding](/handbook/sales-onboarding)
-* [Developer onboarding](/handbook/developer-onboarding)
+* [Onboarding](/handbook/general-onboarding)
 * [People Operations](/handbook/people-operations)
+* [Hiring](/handbook/hiring)
 * [Travel](/handbook/travel)
 * [Sales process](/handbook/sales-process)
 * [Operations](/handbook/operations)
-* [Hiring](/handbook/hiring)
 * [Accounting](/handbook/accounting)
 * [Stock Options](/handbook/stock-options)
 * [Marketing](/handbook/marketing)
 * [Security](/handbook/security)
 * [Support](/handbook/support)
-* [GitLab University](https://about.gitlab.com/university/)
+* [GitLab University](/university/)
 
 ## This page
 
