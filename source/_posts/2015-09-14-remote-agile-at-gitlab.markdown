@@ -6,7 +6,6 @@ comments: true
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: '/images/unsplash/agile.jpeg'
-filename: 2015-09-10-remote-agile-at-gitlab.markdown
 ---
 
 Every month on the 22nd a new version of GitLab is released. It always

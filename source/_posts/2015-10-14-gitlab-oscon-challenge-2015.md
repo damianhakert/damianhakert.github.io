@@ -6,7 +6,6 @@ comments: true
 author: GitLab Team
 author_twitter: gitlab
 image_title: '/images/unsplash/oscon.png'
-filename: 2015-10-14-gitlab-oscon-challenge-2015.md
 ---
 
 Once considered a radical upstart, open source has moved from disruption to default. Its methods and culture

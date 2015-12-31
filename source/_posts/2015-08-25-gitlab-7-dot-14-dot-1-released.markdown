@@ -5,7 +5,6 @@ date: 2015-08-25
 comments: true
 author: GitLab
 author_twitter: gitlab
-filename: 2015-08-25-gitlab-7-dot-14-dot-1-released.markdown
 ---
 
 Today we are releasing version 7.14.1 for GitLab Community Edition (CE),

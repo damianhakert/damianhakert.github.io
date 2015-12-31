@@ -5,7 +5,6 @@ date: 2015-09-22
 comments: true
 author: GitLab
 author_twitter: gitlab
-filename: 2015-09-22-gitlab-8-dot-0-dot-1-released.markdown
 ---
 
 Hot on the heels of today's [big 8.0 release](/2015/09/22/gitlab-8-0-released/),
