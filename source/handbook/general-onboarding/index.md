@@ -2,7 +2,15 @@
 layout: markdown_page
 title: "GitLab Onboarding"
 ---
-## General Onboarding Topics
+
+## Job specific onboarding pages
+
+* [Sales onboarding](/handbook/sales-onboarding)
+* [Developer onboarding](/handbook/developer-onboarding)
+* [Service engineer onboarding](/handbook/support/onboarding.html)
+
+## General Onboarding Topics on this page
+
 * [Master Checklist for Onboarding of New Hires](#checklist)
 * [Onboarding Topics That Apply to Everyone](#everyone)
   * [General](#general)

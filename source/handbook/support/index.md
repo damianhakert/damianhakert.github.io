@@ -11,7 +11,7 @@ title: Support
 
 ## Introduction
 
-A [service engineering](/jobs/service-engineer) handles the following channels.
+A [service engineer](/jobs/service-engineer) handles the following channels.
 They are sorted in order of priority.
 
 ## Emergency Tickets
@@ -44,7 +44,7 @@ situation should take place before you are put on rotation. If this has not happ
 
 ## Scheduled calls
 
-We also offer instake, upgrade and installation support for our customers. When these requests come in, you will schedule
+We also offer intake, upgrade and installation support for our customers. When these requests come in, you will schedule
 a call/screen sharing session with them and either guide them through the upgrade process or take control of the
 server yourself. You should make sure that the customer has a backup before you start the call, as they can take
 a lot of time to complete and you don't want to do them while in the call. You should also make sure you know as
@@ -57,7 +57,7 @@ much as possible about the customer's instance as you can.
 1. Version you're upgrading to (it isn't always the latest)
 1. Use of GitLab CI (need to upgrade to 8.0 first, then 8.+)
 
-TODO We collect this information in ZenDesk and link it to the organization but I can't find this on the [team interaction page](https://about.gitlab.com/handbook/support/team.html).
+We collect this information in ZenDesk and link it to the organization, see the [responding to tickets section in onboarding](https://about.gitlab.com/handbook/support/onboarding.html).
 
 ## Unscheduled calls
 
@@ -125,12 +125,9 @@ are having with their on-premise installation. In that case, you should refer th
 [CE issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) or to our
 [Getting Help](https://about.gitlab.com/getting-help/) page, depending on the issue they are having.
 
-## Feature request forum
+## Facebook
 
-We also have a [Feature request forum](http://feedback.gitlab.com/forums/176466-general) where people can propose
-new features and vote for features they find interesting. You should check this forum every now and then for
-request that are popular so that we can investigate if it makes sense to either implement them ourselves
-or say that we are accepting merge request for it.
+Messegages send to our [Facebook page](https://www.facebook.com/gitlab/).
 
 ## GitLab CE/EE/Omnibus issue trackers
 
