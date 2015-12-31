@@ -127,7 +127,7 @@ are having with their on-premise installation. In that case, you should refer th
 
 ## Facebook
 
-Messegages send to our [Facebook page](https://www.facebook.com/gitlab/).
+Messegages sent to our [Facebook page](https://www.facebook.com/gitlab/).
 
 ## GitLab CE/EE/Omnibus issue trackers
 
