@@ -6,7 +6,6 @@ comments: true
 categories:
 author: Job van der Voort
 author_twitter: jobvo
-filename: 2015-09-22-gitlab-8-0-released.markdown
 image_title: /images/8_0/sf.jpeg
 ---
 

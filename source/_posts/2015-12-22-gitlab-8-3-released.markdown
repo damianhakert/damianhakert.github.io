@@ -6,7 +6,6 @@ comments: true
 categories:
 author: Job van der Voort
 author_twitter: jobvo
-filename: 2015-12-22-gitlab-8-3-released.markdown
 image_title: /images/unsplash/building.jpg
 ---
 

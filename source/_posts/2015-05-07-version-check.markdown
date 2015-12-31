@@ -5,7 +5,6 @@ date: 2015-05-07
 comments: true
 author: Sytse Sijbrandij
 author_twitter: sytses
-filename: 2015-05-07-version-check.markdown
 ---
 
 We're working on a version check function for GitLab to reduce the problem of outdated servers.

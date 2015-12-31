@@ -6,7 +6,6 @@ comments: true
 categories:
 author: GitLab
 author_twitter: gitlab
-filename: 2015-07-22-gitlab-7-13-released.markdown
 image_title: /images/7_13/ny.jpg
 ---
 

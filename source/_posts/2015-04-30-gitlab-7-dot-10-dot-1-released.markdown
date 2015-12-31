@@ -6,7 +6,6 @@ comments: true
 categories:
 author: Job van der Voort
 author_twitter: Jobvo
-filename: 2015-04-30-gitlab-7-dot-10-dot-1-released.markdown
 ---
 
 We've just released GitLab 7.10.1 (CE, EE and CI).
