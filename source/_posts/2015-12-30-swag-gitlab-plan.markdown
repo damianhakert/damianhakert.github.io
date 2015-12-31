@@ -21,7 +21,7 @@ There's another way to win too.
 
 ## Please share pics tagged #swagportrait
 
-The truth is, swag does matter. Even the humble as a sticker can communicate so much about identity and interest. On OpenSource.com Rikki Endlsey wrote about [Open source sticker culture](https://opensource.com/business/15/11/open-source-stickers#culture). Rikki details how people share their support for and help promote projects and people by using stickers, including more exclusive “earned” stickers showing achievements or events attended.
+The truth is, swag does matter. Even the humble sticker can communicate so much about identity and interest. On OpenSource.com Rikki Endlsey wrote about [Open source sticker culture](https://opensource.com/business/15/11/open-source-stickers#culture). Rikki details how people share their support for and help promote projects and people by using stickers, including more exclusive “earned” stickers showing achievements or events attended.
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">It&#39;s harder for me to choose stickers for my laptop than <a href="https://twitter.com/hashtag/JavaScript?src=hash">#JavaScript</a> framework. <a href="https://twitter.com/hashtag/DevProblems?src=hash">#DevProblems</a> 😂😂😂 <a href="https://t.co/fnN02tHpk0">pic.twitter.com/fnN02tHpk0</a></p>&mdash; Pablo Villoslada (@Puigcerber) <a href="https://twitter.com/Puigcerber/status/677815759297511424">December 18, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
