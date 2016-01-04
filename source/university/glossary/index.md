@@ -37,7 +37,7 @@ Atlassian's CI tool similar to Gitlab CI and Jenkins
 
 Entry level subscription for GitLab EE currently available in packs of 10 [Basic subscription](https://about.gitlab.com/pricing/)
 
-###Bitbucket 
+### Bitbucket 
 
 Atlassian's web hosting service for Git and Mercurial Projects i.e. GitLab.com competitor
 
@@ -45,15 +45,15 @@ Atlassian's web hosting service for Git and Mercurial Projects i.e. GitLab.com c
 
 A branch is a parallel vesrion of a repository. Allows you to work on the repository without you affrecting the "master" branch. Alllows you to make changes without affecting the current "live"version. Whne you have made all your changes to your branch you can then merge to the master and to make the changes fo "live".
 
-###Branded Login
+### Branded Login
 
 Having your own logo on your GitLab instance login page instead of the GitLab logo
 
-###Code Review
+### Code Review
 
 Examination of a progam's code. The main aim is to maintain high standards quality of code that is being shipped.
 
-###Community
+### Community
 
 Everyone who is using GitLab
 
@@ -61,11 +61,11 @@ Everyone who is using GitLab
 
 A process that involves adding new code commits to source code with the combined code being run on an automated test to ensure that the changes do not break the software
 
-###Contributor
+### Contributor
 
 Term used to a person contributingto an Open Source Project
 
-###Deploy Keys
+### Deploy Keys
 
 A SSH key stored on the your server that grants access to a single GitLab repository. This is used by a GitLab runner to clone the code so that tests can be run against the checked out code.
 
@@ -73,33 +73,33 @@ A SSH key stored on the your server that grants access to a single GitLab reposi
 
 For us(GitLab) this means a software developer, i.e. someone who makes software. Also one of the levels of access in our multi level approval system.
 
-###Gitorious
+### Gitorious
 
 A web based hosting service for projects using Git. It was acquired by GitLab and we discontinued the service. [Gitorious Acquisistion Blog Post](https://about.gitlab.com/2015/03/03/gitlab-acquires-gitorious/)
 
-###HA
+### HA
 
 High Availability
 
-###Jenkins
+### Jenkins
 
 An Open Source CI tool written using the Java programming language. Does the same job as GitLab CI, Bamboo, Travis CI. It is extremely popular. see [Jenkins](https://jenkins-ci.org/)
 
-###Jira
+### Jira
 
 Atlassian's project management software. i.e. a complex issue tracker. See[Jira}(https://www.atlassian.com/software/jira?_mid=e029d32d357bc9d6cb860e525096da9a&gclid=CJTz2Mj4kMoCFQHkwgodO0wI-Q)
 
-###LDAP
+### LDAP
 
 Lightweight Directory Access Protocol - basically its a directory(electronic address book) with user information e.g. name, phone_number etc
 
 
-###LDAP User Authentication
+### LDAP User Authentication
 
 Allowing GitLab to sign in people from an LDAP server(i.e. Allow people whose names are on the electronic user directory server) to be able to use their LDAP accounts to login.
 
 
-###Git LFS
+### Git LFS
 
 
 
