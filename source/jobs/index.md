@@ -19,7 +19,9 @@ For more background please see our [about page](https://about.gitlab.com/about/)
 
 If you see yourself as a good fit with our company’s goals and team, then please review the current job openings on this page, and submit your resume and cover letter to be considered!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UTyXGx965Os" frameborder="0" allowfullscreen></iframe>
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/UTyXGx965Os" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Available Openings
 
