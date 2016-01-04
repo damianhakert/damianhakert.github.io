@@ -41,7 +41,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 ### 8.4 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/19) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/6) January 22nd
 
 - [Elasticsearch or Hound (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/61)
-- [GitLab RO for readonly secondary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
+- [GitLab Geo for readonly secondary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
 - [Key CI features](https://gitlab.com/gitlab-org/gitlab-ce/issues/4263)
 - [GitLab Pages gets CNAME and SSL support](https://gitlab.com/gitlab-org/gitlab-ee/issues/134)
 - [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
