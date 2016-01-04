@@ -57,7 +57,7 @@ Examination of a progam's code. The main aim is to maintain high standards quali
 
 Everyone who is using GitLab
 
-###Continuous Integration
+### Continuous Integration
 
 A process that involves adding new code commits to source code with the combined code being run on an automated test to ensure that the changes do not break the software
 
@@ -69,7 +69,7 @@ Term used to a person contributingto an Open Source Project
 
 A SSH key stored on the your server that grants access to a single GitLab repository. This is used by a GitLab runner to clone the code so that tests can be run against the checked out code.
 
-###Developer 
+### Developer 
 
 For us(GitLab) this means a software developer, i.e. someone who makes software. Also one of the levels of access in our multi level approval system.
 
