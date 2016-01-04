@@ -102,8 +102,7 @@ you should consult your tax advisor before making such decision.
 Also, while the company has the right to repurchase the unvested shares upon your
 termination of services, the company is not obligated to do so.  Accordingly you could
 lose some or all of the investment you made.  Because we are a young company there are
-lots of risks so be aware and informed of the risks.  [Here is a link to the type of
-article you may find informative.](https://www.quora.com/What-is-the-truth-behind-9-out-of-10-startups-fail)
+lots of risks so be aware and informed of the risks. Please read this [quora thread about most startups failing](https://www.quora.com/What-is-the-truth-behind-9-out-of-10-startups-fail) and this story of [people paying more in tax for their stock than they get back](http://www.nytimes.com/2015/12/27/technology/when-a-unicorn-start-up-stumbles-its-employees-get-hurt.html).
 
 
 ## Option Expiration
@@ -116,7 +115,7 @@ will not be able to purchase any shares under such option.  In addition, if not 
 expired through termination of your employment, your stock options expire 10 years after
 they were issued.
 
-### Exercise Prices and 409A Valuations
+## Exercise Prices and 409A Valuations
 Generally, the exercise price for options granted under the 2015 Equity Plan will be
 at the fair market value of such common stock at the date of grant.  In short, “fair
 market value” is the price that a reasonable person could be expected to pay for the
