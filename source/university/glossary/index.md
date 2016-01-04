@@ -75,7 +75,7 @@ For us(GitLab) this means a software developer, i.e. someone who makes software.
 
 ### Gitorious
 
-A web based hosting service for projects using Git. It was acquired by GitLab and we discontinued the service. [Gitorious Acquisistion Blog Post](https://about.gitlab.com/2015/03/03/gitlab-acquires-gitorious/)
+A web based hosting service for projects using Git. It was acquired by GitLab and we discontinued the service. [Gitorious Acquisition Blog Post](https://about.gitlab.com/2015/03/03/gitlab-acquires-gitorious/)
 
 ### HA
 
@@ -87,7 +87,7 @@ An Open Source CI tool written using the Java programming language. Does the sam
 
 ### Jira
 
-Atlassian's project management software. i.e. a complex issue tracker. See[Jira}(https://www.atlassian.com/software/jira?_mid=e029d32d357bc9d6cb860e525096da9a&gclid=CJTz2Mj4kMoCFQHkwgodO0wI-Q)
+Atlassian's project management software. i.e. a complex issue tracker. See[Jira}(https://www.atlassian.com/software/jira)
 
 ### LDAP
 
