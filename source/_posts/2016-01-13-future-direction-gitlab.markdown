@@ -1,16 +1,15 @@
 ---
 layout: post
 title: "How to see into the future at GitLab"
-date: 2016-01-13
+date: 2016-01-05
 comments: true
 categories: 
 author: Heather McNamee
 author_twitter: nearlythere
-filename: 2015-12-22-gitlab-8-3-released.markdown
 image_title: /images/unsplash/road.png
 ---
 
-Happy new year, it's a fresh start! Are you making any resolutions? Any plans? Wouldn't it be great if you could see into the future? With GitLab, you can! Well, ok you can see into the future of development at GitLab, if not anything else. The plans and progress of feature proposals are developed in the open at GitLab. In this post we'll look at how you can find out about the direction of the project.
+Happy new year, it's a fresh start! Are you making any resolutions? Any plans? Wouldn't it be great if you could see into the future? With GitLab, you can. Well, ok you can see into the future of development at GitLab, if not anything else. The plans and progress of feature proposals are developed in the open at GitLab. In this post we'll look at how you can find out about the direction of the project.
 
 <!-- more -->
 
@@ -52,7 +51,7 @@ Some upcoming highlights for upcoming releases include:
 - The capability to search through all repositories on the instance
 - A notification center
 
-Highlighted issues are grouped by the release. If you click the release numbers, 8.5, 8.6, this will take you to that milestone so you can see all issues related to that release. 
+Highlighted issues are grouped by the release. Links to CE and EE next to the release numbers (example: 8.4 <a href="https://gitlab.com/gitlab-org/gitlab-ce/milestones/19">CE</a> <a href="https://gitlab.com/gitlab-org/gitlab-ee/milestones/6">EE</a>) will take you to the related milestone so you can see all issues related to that release. 
 
 That is a great place to start to see into the future.  
 
@@ -82,9 +81,12 @@ Since we've moved in [feature proposals into the GitLab issue queue itself](http
 
 For open source projects, suspicions might be raised about the direction of the project being too swayed by customers. It's a delicate balance we're trying to reach.
 
-Especially as we navigate making GitLab into a viable, self-sustaining project, it means we do have requests coming from customers using our software. In the GitLab project you will come across issues marked "[customer](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=customer)" to indicate requests by customers. Sometimes, the identity of the customer is obscured.
+Especially as we navigate making GitLab into a viable, self-sustaining project, it means we do have requests coming from customers using our software. In the GitLab project you will come across issues marked "[customer](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=customer)" to indicate requests by customers. The identity of the customer is always obscured.
 
-Overall this means it's easier to find out where issues arose from, and later on it is also easier for us to follow up with customers who originated the request.
+Overall this means it's easier to find out where issues arose from, and later on it is also easier for us to follow up with customers who originated the request. 
+People are free to comment in the issues to help shape the issue. 
+People are very welcome to contribute features to ensure everyone has them faster. 
+We believe this level of transparency is helpful for users, and also for encouraging contribution and collaboration.
 
 ## Conclusion
 
