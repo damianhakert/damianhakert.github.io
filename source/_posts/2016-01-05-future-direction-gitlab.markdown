@@ -26,7 +26,7 @@ People admire the transparency.
 
 GitLab’s Direction page is managed by the project leads who define the milestones and objectives which are a priority in each release. The developers on the team focus on these priority tasks, after they have addressed any urgent and important tasks such as security vulnerabilities.
 
-Dmitriy [gave a detailed overview of the release process](https://about.gitlab.com/2015/12/17/gitlab-release-process/), which explains where the objectives fit in. On the Directions page, you see and overview of the current plans; and in the [repository itself](https://gitlab.com/gitlab-org/gitlab-ce/issues), you can see the actual objectives being worked on by the developers.
+Dmitriy [gave a detailed overview of the release process](https://about.gitlab.com/2015/12/17/gitlab-release-process/), which explains where the objectives fit in. On the Directions page, you see an overview of the current plans; and in the [repository itself](https://gitlab.com/gitlab-org/gitlab-ce/issues), you can see the actual objectives being worked on by the developers.
 
 What’s so radical about this?
 
@@ -70,9 +70,9 @@ The CHANGELOG gets updated throughout the month as new merge requests get merged
 
 ## Transparency
 
-Some software projects must be private for many legitimate reasons. Of course that is why many of our customers choose GitLab, so they can have full control of their on-permises installations.
+Some software projects must be private for many legitimate reasons. Of course that is why many of our customers choose GitLab, so they can have full control of their on-premises installations.
 
-For our project, there is no such requirement. In fact it's more important that GitLab demonstrate transparency in all we do. We do this by improving access to our development and continuing to work in a spirit of openness.
+For our project, there is no such requirement. In fact it's more important that GitLab demonstrates transparency in all we do. We do this by improving access to our development and continuing to work in a spirit of openness.
 
 I know I've personally had the experience of sending in feature requests to other projects or services, and I'm left feeling like they are going into a black hole. I want something more than an automated reply.
 
