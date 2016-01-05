@@ -82,11 +82,12 @@ title: FAQ about subscriptions and licensing
                 Once you deploy the key, then GitLab EE will start functioning again.
             </p>
 
-        <h3>How do I know when my subscription is about to expire?</h3>
-            <p>
-                During the last 30 days of the subscription GitLab will display a renew countdown in the admin panel.
-                During the next 14 days after the expiration date GitLab will display a renew countdown to all users.
-            </p>
+        <h3>What happens when my subscription is about to expire or has expired?</h3>
+            <ul>
+                <li>Starting 30 days before the subscription end date, GitLab will display a notice to all admin users informing them of the impending expiration.
+                <li>One the day the subscription expires, nothing changes.
+                <li>14 days after the subscription has ended, GitLab will display a notice to renew to all regular users informing them of the expiration, and pushing code and creation of issues and merge requests will be disabled.
+            </ul>
 
         <h3>Do I need an additional license if I run more than one server (eg: for backup, high availability, failover, testing, and staging)?</h3>
             <p>
