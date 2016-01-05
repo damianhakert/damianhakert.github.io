@@ -91,7 +91,7 @@ Everyone who is using GitLab
 
 ### Confluence
 
-*** Needs definition here
+*** Attlassian product for collaboration of documents and projects
 
 ### Continuous Deployment
 
@@ -151,11 +151,11 @@ Our own Continuos Integration feature that is shipped with each instance
 
 ### GitLab EE
 
-Our premium on premise solution that currently has Basic, Standard and Plus subscription packages
+Our premium on premise solution that currently has Basic, Standard and Plus subscription packages with additional features and support.
 
 ### Gitlab.com
 
-Our free SaaS Solution
+Our free SaaS for public and private repositories.
 
 ### Gitolite
 
@@ -215,11 +215,11 @@ Allowing GitLab to sign in people from an LDAP server(i.e. Allow people whose na
 
 ### Linux
 
-*** Needs definition here
+An operating system like Windows or OS X. It is mostly used by software developers and on servers. 
 
 ### Maria DB
 
-*** Needs definition here
+A community developed fork/variation of MySQL. MySQL is owned by Oracle.
 
 ### Master
 
@@ -227,7 +227,7 @@ Allowing GitLab to sign in people from an LDAP server(i.e. Allow people whose na
 
 ### Mercurial
 
-*** Needs definition here
+A free distributed version control system like Git. Think of it as a competitor to Git.
 
 ### Merge
 
@@ -235,7 +235,7 @@ Allowing GitLab to sign in people from an LDAP server(i.e. Allow people whose na
 
 ### Meteor
 
-*** Needs definition here
+A hip platform for building javascript apps.[Meteor] (https://www.meteor.com)
 
 ### Milestones
 
@@ -247,7 +247,7 @@ Allowing GitLab to sign in people from an LDAP server(i.e. Allow people whose na
 
 ### MIT License
 
-*** Needs definition here
+A type of software license.It lets people do anything with your code with proper attribution and without warranty. It is the most common license for open source applications written in Ruby on Rails. GitLab CE is issued under this license. Which means, you can download the code, modify it as you want even build a new commercial product using the underlying code and its not illegal. The only condition is that there is no form of waranty provided by GitLab so whatever happens if you use the code is your own problem.
 
 ### Mondo
 
@@ -259,7 +259,7 @@ Allowing GitLab to sign in people from an LDAP server(i.e. Allow people whose na
 
 ### My SQL
 
-*** Needs definition here
+A relational database. Currently only supported if you are using EE. It is owned by Oracle.
 
 ### Namespace
 
@@ -277,11 +277,17 @@ Allowing GitLab to sign in people from an LDAP server(i.e. Allow people whose na
 
 *** Needs definition here
 
+### On Premise
+
+On your own server. In GitLab, this refers to the ability to download GitLab EE/GitLab CE and host it on your own server rather than using GitLab.com
+
 ### Opensource
+
+Software for which the original source code is freely available and may be reditributed and modified.
 
 ### Owner
 
-*** Needs definition here
+This is the most powerful person on a GitLab project. He has the permissions of all the other users plus the additional permission of being able to destroy i.e. delete the project
 
 ### Perforce
 
@@ -293,15 +299,15 @@ Allowing GitLab to sign in people from an LDAP server(i.e. Allow people whose na
 
 ### Piwik Analytics
 
-*** Needs definition here
+An open source analytics software to help you analyze web traffic. It is similar to google analytics only that google analytics is not open source and information is stored by google while in Piwik the information is stored in your own server hence fully private.
 
 ### Plus Subscription
 
-*** Needs definition here
+GitLAb Premium EE subscription that includes training and dedicated Account Management and Service Engineer and complete support package [Plus subscription](https://about.gitlab.com/pricing/)
 
 ### PostgreSQL
 
-*** Needs definition here
+A relational database. Taunted as the most advanced open source database.
 
 ### Protected Branches
 
@@ -337,15 +343,15 @@ Allowing GitLab to sign in people from an LDAP server(i.e. Allow people whose na
 
 ### RocketChat
 
-*** Needs definition here
+An open source chat application for teams. Very similar to Slack only that is is open-source.
 
 ### Runners
 
-*** Needs definition here
+Actual build machines/containers that run/execute tests you have specified to be run on GitLab CI
 
 ### SaaS
 
-*** Needs definition here
+Software as a service. Software is hosted centrally and accessed on-demand i.e. when you want to. This refers to GitLab.com in our scenario
 
 ### SCM
 
@@ -353,33 +359,33 @@ Allowing GitLab to sign in people from an LDAP server(i.e. Allow people whose na
 
 ### Slack
 
-*** Needs definition here
+Real time messaging app for teams. Used internally by  GitLab
 
 *** Needs definition here
 
 ### Slave Servers
 
-*** Needs definition here
+Also known as secondary servers. They help to spread the load over multiple machines, they also provide backups when the master/primary server crashes.
 
 ### Source Code
 
-*** Needs definition here
+Program code as typed by a computer programmer. i.e. it has not yet been executed and translated by the computer to machine language.
 
 ### SSH Key
 
-*** Needs definition here
+A unique identifier of a computer. It is used to identify computers without the need for a password. e.g. On GitLab I have added the ssh key of my laptop hence the GitLab instance knows that it can accept code pushes and pulls from only trusted machines whose 
 
 ### SSO
 
-*** Needs definition here
+Single Sign On. An authentication process that allows you enter one username and password to access multiple applications.
 
 ### Standard Subscription
 
-*** Needs definition here
+Our mid range EE subscription that includes 24/7 support, support for High Availability [Standard Subscription](https://about.gitlab.com/pricing/)
 
 ### Stash
 
-*** Needs definition here
+Atlassian's Git On-Premises solution. Think of it as Atlassian's GitLab EE. It is now known as BitBucket Server.
 
 ### Subversion
 
@@ -387,11 +393,13 @@ Allowing GitLab to sign in people from an LDAP server(i.e. Allow people whose na
 
 ### Sudo
 
+A program that allows you to perform superuser/administrator actions on Unix Operating Systems e.g. Linux, OS X.It actually stands for 'superuser do'
+
 *** Needs definition here
 
 ### SVN
 
-*** Needs definition here
+Abbreviation for Subversion.
 
 ### Tag
 
@@ -403,27 +411,27 @@ Allowing GitLab to sign in people from an LDAP server(i.e. Allow people whose na
 
 ### Trac
 
-*** Needs definition here
+An Open Source project management and bug tracking web application.
 
 ### User
 
-*** Needs definition here
+Anyone interacting with the software. 
 
 ### VCS
 
-*** Needs definition here
+Version Control Software
 
 ### Waterfall
 
-*** Needs definition here
+A model of building software that involves collecting all requirements from the customer, then building and refining all the requirements and finally delivering the COMPLETE software to the customer that meets all the requirements specified by the customer
 
 ### Web Hooks
 
-*** Needs definition here
+A way for for an app to provide other applications with real-time information. e.g. send a message to a slack channel when a commit is pushed
 
 ### Wiki
 
-*** Needs definition here
+A website/system that allows for collaborative editing of its content by the users. In programming, they usually contain documentation of how to use the software
 
 
 
