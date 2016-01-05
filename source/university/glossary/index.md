@@ -35,7 +35,7 @@ Building and delivering software in phases/parts rather than trying to build eve
 
 ### Atlassian
 
-A group of companies that develops software products for developers and project managers including Bitbucket, Jira, Hipchat, Confluence, Bamboo. See [Atlassian.com] (https://www.atlassian.com/?_mid=b71f1d4df254a1db11bad3705efa8a46&gclid=COe044adkMoCFQbnwgodgOIB6A)
+A group of companies that develops software products for developers and project managers including Bitbucket, Jira, Hipchat, Confluence, Bamboo. See [Atlassian] (https://www.atlassian.com)
 
 ### Audit Log
 
@@ -51,7 +51,7 @@ Atlassian's CI tool similar to Gitlab CI and Jenkins
 
 ### Basic Subscription
 
-Entry level subscription for GitLab EE currently available in packs of 10 [Basic subscription](https://about.gitlab.com/pricing/)
+Entry level subscription for GitLab EE currently available in packs of 10 see [Basic subscription](https://about.gitlab.com/pricing/)
 
 ### Bitbucket 
 
@@ -65,7 +65,7 @@ A branch is a parallel vesrion of a repository. Allows you to work on the reposi
 
 Having your own logo on your GitLab instance login page instead of the GitLab logo
 
-#### CEPH
+### CEPH
 
 *** Needs definition here
 
@@ -73,7 +73,7 @@ Having your own logo on your GitLab instance login page instead of the GitLab lo
 
 Examination of a progam's code. The main aim is to maintain high standards quality of code that is being shipped.
 
-#### Code Snippet
+### Code Snippet
 
 *** Needs definition here
 
@@ -133,11 +133,11 @@ For us(GitLab) this means a software developer, i.e. someone who makes software.
 
 *** Needs definition here
 
-### ©itHost.io
+### GitHost.io
 
 *** Needs definition here
 
-###GitHub
+### GitHub
 
 *** Needs definition here
 
@@ -187,7 +187,7 @@ An Open Source CI tool written using the Java programming language. Does the sam
 
 ### Jira
 
-Atlassian's project management software. i.e. a complex issue tracker. See[Jira}(https://www.atlassian.com/software/jira)
+Atlassian's project management software. i.e. a complex issue tracker. See[Jira](https://www.atlassian.com/software/jira)
 
 ### Kerberos
 
@@ -199,7 +199,7 @@ Atlassian's project management software. i.e. a complex issue tracker. See[Jira}
 
 ### LDAP
 
-Lightweight Directory Access Protocol - basically its a directory(electronic address book) with user information e.g. name, phone_number etc
+Lightweight Directory Access Protocol - basically its a directory (electronic address book) with user information e.g. name, phone_number etc
 
 ### LDAP User Authentication
 
@@ -210,6 +210,218 @@ Allowing GitLab to sign in people from an LDAP server(i.e. Allow people whose na
 *** Needs definition here
 
 ### Git LFS
+
+*** Needs definition here
+
+### Linux
+
+*** Needs definition here
+
+### Maria DB
+
+*** Needs definition here
+
+### Master
+
+*** Needs definition here
+
+### Mercurial
+
+*** Needs definition here
+
+### Merge
+
+*** Needs definition here
+
+### Meteor
+
+*** Needs definition here
+
+### Milestones
+
+*** Needs definition here
+
+### Mirror Repositories
+
+*** Needs definition here
+
+### MIT License
+
+*** Needs definition here
+
+### Mondo
+
+*** Needs definition here
+
+### Multi LDAP Server
+
+*** Needs definition here
+
+### My SQL
+
+*** Needs definition here
+
+### Namespace
+
+*** Needs definition here
+
+### Nginx
+
+*** Needs definition here
+
+### oAuth
+
+*** Needs definition here
+
+### Omnibus Packages
+
+*** Needs definition here
+
+### Opensource
+
+### Owner
+
+*** Needs definition here
+
+### Perforce
+
+*** Needs definition here
+
+### Phabricator
+
+*** Needs definition here
+
+### Piwik Analytics
+
+*** Needs definition here
+
+### Plus Subscription
+
+*** Needs definition here
+
+### PostgreSQL
+
+*** Needs definition here
+
+### Protected Branches
+
+*** Needs definition here
+
+### Pull
+
+*** Needs definition here
+
+### Puppet
+
+*** Needs definition here
+
+### Push
+
+*** Needs definition here
+
+### RE Read Only
+
+*** Needs definition here
+
+### Rebase
+
+*** Needs definition here
+
+### Git Repository
+
+*** Needs definition here
+
+### Revision
+
+*** Needs definition here
+
+### RocketChat
+
+*** Needs definition here
+
+### Runners
+
+*** Needs definition here
+
+### SaaS
+
+*** Needs definition here
+
+### SCM
+
+*** Needs definition here
+
+### Slack
+
+*** Needs definition here
+
+*** Needs definition here
+
+### Slave Servers
+
+*** Needs definition here
+
+### Source Code
+
+*** Needs definition here
+
+### SSH Key
+
+*** Needs definition here
+
+### SSO
+
+*** Needs definition here
+
+### Standard Subscription
+
+*** Needs definition here
+
+### Stash
+
+*** Needs definition here
+
+### Subversion
+
+*** Needs definition here
+
+### Sudo
+
+*** Needs definition here
+
+### SVN
+
+*** Needs definition here
+
+### Tag
+
+*** Needs definition here
+
+### Tool Stack
+
+*** Needs definition here
+
+### Trac
+
+*** Needs definition here
+
+### User
+
+*** Needs definition here
+
+### VCS
+
+*** Needs definition here
+
+### Waterfall
+
+*** Needs definition here
+
+### Web Hooks
+
+*** Needs definition here
+
+### Wiki
 
 *** Needs definition here
 
