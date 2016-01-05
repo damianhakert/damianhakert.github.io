@@ -49,7 +49,7 @@ available and it's easier to use than ever. We're human, we like to converse.
 Some times it can be critical to talk, even if only for a minute, when all
 other communication is written.
 
-### 5. Daily stand-up meetings are for bonding, blockers and the future
+## 5. Daily stand-up meetings are for bonding, blockers and the future
 
 Don't talk about what you did yesterday,
 this is not a reporting moment where everyone tries to look busy.
