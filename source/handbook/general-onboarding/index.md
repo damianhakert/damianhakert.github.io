@@ -179,26 +179,29 @@ This list looks strange in this handbook but this is to ensure you can copy past
 When you paste it in an issue it will have checkboxes that you can click to complete.
 
 ```
+* [ ] For this offboarding, Manager is (@ mention), People Ops is handled by (@ mention). cc @sytse, @rspeicher, @jacobvosmaer, @patricio.
 * [ ] Manager of former team member: Organize smooth hand over of any work or tasks from former team member.
-* [ ] Jacob/CEO: Suspend Google account
-* [ ] Jacob/CEO: When the manager has time change the telephone number and send a password reset to their manager.
-* [ ] Jacob/CEO: 2 weeks after blocking the Google account, consider deleting it.
-* [ ] Jacob/CEO: Disable in Slack
+* [ ] Robert/Jacob/CEO: Suspend Google account
+* [ ] Robert/Jacob/CEO: When the manager has time change the telephone number and send a password reset to their manager.
+* [ ] Robert/Jacob/CEO: 2 weeks after blocking the Google account, consider deleting it.
+* [ ] Robert/Jacob/CEO: Disable team member in Slack.
 * [ ] People Ops: Remove former team member from TriNet and payroll if applicable.
 * [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment.
 * [ ] People Ops: Inform Controller / Accounting if any items in former team members possession will not be returning, so that they can be removed from asset tracking.
-* [ ] Jacob/CEO: Remove former team members' Gitlab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
-* [ ] Jacob/CEO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
+* [ ] Robert/Jacob/CEO: Remove former team members' Gitlab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
+* [ ] Robert/Jacob/CEO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] People Ops: Suspect access to 1Password.
 * [ ] People Ops: Remove team member access to Dropbox.
 * [ ] Manager/CEO: Remove access to SalesForce.
 * [ ] Manager/CEO: Remove access to Recurly.
 * [ ] Manager/CEO: Remove access to Quickbooks.
-* [ ] People Ops: Remove access to company credit card if applicable.
+* [ ] People Ops: Remove access to company credit card.
 * [ ] People Ops: Remove from Beamy
 * [ ] CEO: Remove team member from the GitLab availability calendar.
-* [ ] CEO: remove team member from team call invitation.
+* [ ] CEO: Remove team member from team call invitation.
+* [ ] COO: Remove team member from HelloSign.
 * [ ] Patricio/Jacob/CEO: Remove from tweetdeck
+* [ ] Manager: Notify eShares administrator (CFO) of offboarding.
 * [ ] COO: Note final date of employment / contract in the [Organizational Chart and Hiring](https://docs.google.com/spreadsheets/u/1/d/1Ru1hUAlF2Z2D2ILDzzqdmOGFbzov6eDSqSwHdM6buzQ/edit?usp=sheets_home) sheet.
 * [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team)
 ```
