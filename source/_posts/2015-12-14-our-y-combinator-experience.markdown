@@ -77,7 +77,7 @@ a visit. We jumped in the car started our road trip in the direction of LA.
 After many hours of driving, Job started to realize we weren't driving in
 the correct direction after all..
 
-youtube video here
+<iframe width="640" height="360" src="https://www.youtube.com/embed/4TnKmrpiSgQ" frameborder="0" allowfullscreen></iframe>
 
 ![All piled into The Boat](/images/yc-the-boat.png)
 
