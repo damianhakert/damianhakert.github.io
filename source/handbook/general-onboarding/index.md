@@ -199,6 +199,7 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 * [ ] CEO: Remove team member from the GitLab availability calendar.
 * [ ] CEO: remove team member from team call invitation.
 * [ ] Patricio/Jacob/CEO: Remove from tweetdeck
+* [ ] Notify CFO for purposes of tracking equity.
 * [ ] COO: Note final date of employment / contract in the [Organizational Chart and Hiring](https://docs.google.com/spreadsheets/u/1/d/1Ru1hUAlF2Z2D2ILDzzqdmOGFbzov6eDSqSwHdM6buzQ/edit?usp=sheets_home) sheet.
 * [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team)
 ```
