@@ -49,9 +49,10 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 - [Presentation](https://docs.google.com/presentation/d/16sX7hUrCZyOFbpvnrAFrg6tVO5_yT98IgdAqOmXwBho/edit#slide=id.g72f2e4906_2_29)
 - [Take the Test](http://goo.gl/forms/8H8SNcH70T)
 
-### Intro to Terminology
+### Glossary and Terminology
 
-- [GitLab Introduction to Terminology](https://about.gitlab.com/2015/05/18/simple-words-for-a-gitlab-newbie/)
+- [GitLab Glossary](https://about.gitlab.com/university/glossary/)
+- [Introduction to Terminology Blog](https://about.gitlab.com/2015/05/18/simple-words-for-a-gitlab-newbie/)
 
 ### Intro to Git
 
