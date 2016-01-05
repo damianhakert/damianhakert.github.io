@@ -2,6 +2,7 @@
 layout: markdown_page
 title: "Frontend Engineer"
 ---
+Currently we are looking for JS veterans to join us for Frontend Engineering. Is that you? Please apply through the link on the [Jobs page](https://about.gitlab.com/jobs/).  
 
 ## Responsibilities
 
