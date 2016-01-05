@@ -30,7 +30,7 @@ Dmitriy [gave a detailed overview of the release process](https://about.gitlab.c
 
 What’s so radical about this?
 
-Most product companies do their feature development in secret, tucking their treasures away until they are polished and ready for release. Most people are not used to this level of transparency in a software product. In closed-source projects, new changes might come in and blindside users. Even in the case of open source projects, suspicions can be raised as to the motivations behind certain features. Was this for a client? Was it right for the project?
+Most product companies do their feature development in secret, carefully protecting their plans. People are not used to this level of transparency in a software product. In closed-source projects, new changes might come in and blindside users. Even in the case of open source projects, suspicions can be raised as to the motivations behind certain features. Was this for a client? Was it right for the project?
 
 Meanwhile, the company managing the project, whether developing an open source product or not, is working hard to gain technical competitive advantage by keeping their development roadmaps a secret.
 
