@@ -324,11 +324,19 @@ exception of NDAs covering a physical visit of another organization.
 
 ### Install Ruby and Bundler
 
-1. In a terminal, execute: `rvm install 2.2.1`
-1. Enter your system password if prompted.
-1. Execute: `ruby --version`
-1. Execute: `bundle install`
-1. Execute: `gem install bundler`
+1. In a terminal, execute: `rvm install 2.2.1` to install Ruby
+   (enter your system password if prompted)
+1. Execute: `rvm use 2.2.1 --default` to set your default Ruby to `2.2.1`
+1. Execute: `ruby --version` to verify Ruby is installed. You should see:
+   `ruby 2.2.1p85 (2015-02-26 revision 49769)`
+1. Execute: `gem install bundler` to install [Bundler](http://bundler.io/)
+
+### Clone the source of the website and install its dependencies
+
+1. In a terminal execute: `git clone https://gitlab.com/gitlab-com/www-gitlab-com.git`
+   to clone the website
+1. Execute: `cd www-gitlab-com` to change to the `www-gitlab-com` directory
+1. Execute: `bundle install` to install all gem dependencies
 
 ### Preview website changes locally
 
