@@ -329,7 +329,7 @@ exception of NDAs covering a physical visit of another organization.
 1. Execute: `rvm use 2.2.1 --default` to set your default Ruby to `2.2.1`
 1. Execute: `ruby --version` to verify Ruby is installed. You should see:
    `ruby 2.2.1p85 (2015-02-26 revision 49769)`
-1. Execute: `gem install bundler` to install `bundler`
+1. Execute: `gem install bundler` to install [Bundler](http://bundler.io/)
 
 ### Clone the source of the website and install its dependencies
 
