@@ -36,6 +36,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Intellectual Property](#intellectual-property)
 * [Spending Company Money](#spending-company-money)
 * [Paid Time Off](#paid-time-off)
+* [Discretionary Bonuses](#discretionary-bonuses)
 * [Signing Legal Documents](#signing-legal-documents)
 * [GitLab workflow](#gitlab-workflow)
 * [Using Git to update this website](#starting-with-git)
@@ -44,15 +45,15 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 
 We value results, transparency, sharing, freedom, efficiency, frugality, collaboration, directness, kindness, diversity, quirkiness, boring solutions, and interesting people:
 
-1. Results: We care about what you achieve; the code you shipped, the user you made happy and the team member you helped. Do not compete by proclaiming how many hours you worked yesterday because we don't want someone who took the afternoon off to feel like they did something wrong. Instead celebrate the archievements of yourself and your teammates.
+1. Results: We care about what you achieve; the code you shipped, the user you made happy and the team member you helped. Do not compete by proclaiming how many hours you worked yesterday because we don't want someone who took the afternoon off to feel like they did something wrong. Instead celebrate the achievements of yourself and your teammates.
 1. Transparency: Be open about as many things as possible. By making information public we can reduce the threshold to contribution and make collaboration easier.
 1. Sharing: We care about giving great software, documentation, examples, lessons and process to the world.
 1. Freedom: You should have clear objectives and the freedom to work on them as you see fit. Any instructions are open to discussion. You don't have to defend how you spend your day.
-1. Efficiency: We care about working on the right things, not doing more than needed and not duplicating work. This enables us to achieve more progress with less people and makes our work more fullfilling.
+1. Efficiency: We care about working on the right things, not doing more than needed and not duplicating work. This enables us to achieve more progress with less people and makes our work more fulfilling.
 1. Frugality: [Amazon states it best](http://www.amazon.jobs/principles) with: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention. There are no extra points for growing headcount, budget size or fixed expense.".
 1. Collaboration: Helping others is a priority. You are expected to ask others for help and advise. Anyone can chime in on any subject. You don't have to comply with all feedback but you should always take it seriously.
 1. Directness: We try to channel our inner Ben Horowitz by being [both straightforward and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b).
-1. Kindness: Some companies say [Evaluate People Accurately, Not "Kindly"](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf). We're all for accurate assesment but we think it can be done in a kind way. Give negative feedback in the smallest setting possible, one-on-one video calls are preferred. Clearly make negative feedback about the work, not the person and provide at least one clear and recent example.
+1. Kindness: Some companies say [Evaluate People Accurately, Not "Kindly"](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf). We're all for accurate assessment but we think it can be done in a kind way. Give negative feedback in the smallest setting possible, one-on-one video calls are preferred. Clearly make negative feedback about the work, not the person and provide at least one clear and recent example.
 1. Diversity: The community consists of people from all over the world, with different backgrounds and opinions. Make everyone feel welcome. Work to increase the participation of underrepresented minorities and nationalities in our community and company.
 1. Quirkiness: Unexpected and unconventional things are make life more interesting. Celebrate and encourage quirky gifts, habits, behavior and points of view.
 1. Boring solutions: Use the most simple and boring solution for a problem. You can always make it more complex later if that is needed. The speed of innovation for our organization and product is constrained by the total complexity we added so far, so every little reduction in complexity helps.
@@ -286,6 +287,14 @@ Make sure it is charging, otherwise try again.
 1. Add an **appointment** to the GitLab availability calendar as you know your plans, you can always change it later.
 1. In case it can be useful add your planned time off as a **FYI** on the next agenda of the team call.
 1. We will **help** clients during official days off, unless they are official days off in both the Netherlands and the U.S. We try to have people working who are in a country that don't have an official day off. If you need to work during an official day off in your country, you should take a day off in return.
+
+<h2 id="discretionary-bonuses">Discretionary Bonuses</h2>
+1. Every now and then, individual team members really shine as they go above and beyond their regular responsibilities and tasks.  
+   * We recognize this through the #thanks channel, and sometimes also through a discretionary bonus.
+   * Managers can recommend their team members for a bonus (who, why, what form of bonus).
+   * On team call, the manager announces the “who” and “why” of the bonus.
+1. If you think you are meeting the requirements for another title, want to change jobs within the company, or think your growth should be reflected in your compensation please feel free to discuss with your manager.
+
 
 <h2 id="signing-legal-documents">Signing Legal Documents</h2>
 
