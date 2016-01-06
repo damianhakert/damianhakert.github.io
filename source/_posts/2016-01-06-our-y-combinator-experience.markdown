@@ -26,7 +26,7 @@ When you join Y Combinator, you’re put into a batch with a few other startups.
 These discussions are very concrete and not theoretical or philosophical. It’s all about what you are doing to get you towards your goal.
 They have clear targets throughout the program, which will vary from startup to startup,
 since they are all at different stages when they begin the program.
-Commmon metrics are the number of customers, revenue or downloads.
+Common metrics are the number of customers, revenue or downloads.
 Each founder or team has a clear aim to focus on one metric.
 
 Everything for the next couple of months is building towards a pitch at the final [Demo Day](https://www.ycombinator.com/demoday/).
