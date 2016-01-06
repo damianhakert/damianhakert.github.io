@@ -5,7 +5,7 @@ date: 2016-01-06
 comments: true
 author: GitLab
 author_twitter: jobvo
-image_title: '/images/unsplash/stars.jpg'
+image_title: '/images/unsplash/stars.png'
 ---
 
 This time last year, from January until March 2015, GitLab participated in the winter 2015 batch of Y Combinator. We had an awesome time and want to thank the people at Y Combinator, our mentors Qasar and Kevin,
