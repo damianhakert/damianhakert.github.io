@@ -5,8 +5,8 @@ title: Glossary and Terminology
 
 ## What is the Glossary
 
-This contains a simplified list and definitions of some of the terms that you will encounter in your day to day activities when working at GitLab.
-Please add any terms that you discover that you think would be useful for others
+This contains a simplified list and definitions of some of the terms that you will encounter in your day to day activities when working with GitLab.
+Please add any terms that you discover that you think would be useful for others.
 
 ### 2FA
 
@@ -59,11 +59,11 @@ Atlassian's web hosting service for Git and Mercurial Projects i.e. GitLab.com c
 
 ### Branch
 
-A branch is a parallel vesrion of a repository. Allows you to work on the repository without you affrecting the "master" branch. Alllows you to make changes without affecting the current "live"version. Whne you have made all your changes to your branch you can then merge to the master and to make the changes fo "live".
+A branch is a parallel version of a repository. Allows you to work on the repository without you affecting the "master" branch. Allows you to make changes without affecting the current "live" version. When you have made all your changes to your branch you can then merge to the master and to make the changes fo "live".
 
 ### Branded Login
 
-Having your own logo on your GitLab instance login page instead of the GitLab logo
+Having your own logo on your GitLab instance login page instead of the GitLab logo.
 
 ### CEPH
 
@@ -91,7 +91,7 @@ Everyone who is using GitLab
 
 ### Confluence
 
-*** Attlassian product for collaboration of documents and projects
+Atlassian's product for collaboration of documents and projects.
 
 ### Continuous Deployment
 
@@ -99,19 +99,19 @@ Everyone who is using GitLab
 
 ### Continuous Integration
 
-A process that involves adding new code commits to source code with the combined code being run on an automated test to ensure that the changes do not break the software
+A process that involves adding new code commits to source code with the combined code being run on an automated test to ensure that the changes do not break the software.
 
 ### Contributor
 
-Term used to a person contributingto an Open Source Project
+Term used to a person contributing to an Open Source Project.
 
 ### Deploy Keys
 
-A SSH key stored on the your server that grants access to a single GitLab repository. This is used by a GitLab runner to clone the code so that tests can be run against the checked out code.
+An SSH key stored on the your server that grants access to a single GitLab repository. This is used by a GitLab runner to clone a project's code so that tests can be run against the checked out code.
 
 ### Developer 
 
-For us(GitLab) this means a software developer, i.e. someone who makes software. Also one of the levels of access in our multi level approval system.
+For us(GitLab) this means a software developer, i.e. someone who makes software. It is also one of the levels of access in our multi level approval system.
 
 ### Docker
 
@@ -203,7 +203,7 @@ Lightweight Directory Access Protocol - basically its a directory (electronic ad
 
 ### LDAP User Authentication
 
-Allowing GitLab to sign in people from an LDAP server(i.e. Allow people whose names are on the electronic user directory server) to be able to use their LDAP accounts to login.
+Allowing GitLab to sign in people from an LDAP server i.e. Allow people whose names are on the electronic user directory server) to be able to use their LDAP accounts to login.
 
 ### LDAP Group Sync
 
@@ -247,7 +247,8 @@ A hip platform for building javascript apps.[Meteor] (https://www.meteor.com)
 
 ### MIT License
 
-A type of software license.It lets people do anything with your code with proper attribution and without warranty. It is the most common license for open source applications written in Ruby on Rails. GitLab CE is issued under this license. Which means, you can download the code, modify it as you want even build a new commercial product using the underlying code and its not illegal. The only condition is that there is no form of waranty provided by GitLab so whatever happens if you use the code is your own problem.
+A type of software license. It lets people do anything with your code with proper attribution and without warranty. It is the most common license for open source applications written in Ruby on Rails. GitLab CE is issued under this license. 
+This means, you can download the code, modify it as you want even build a new commercial product using the underlying code and its not illegal. The only condition is that there is no form of waranty provided by GitLab so whatever happens if you use the code is your own problem.
 
 ### Mondo
 
@@ -279,9 +280,9 @@ A relational database. Currently only supported if you are using EE. It is owned
 
 ### On Premise
 
-On your own server. In GitLab, this refers to the ability to download GitLab EE/GitLab CE and host it on your own server rather than using GitLab.com
+On your own server. In GitLab, this refers to the ability to download GitLab EE/GitLab CE and host it on your own server rather than using GitLab.com which is hosted by GitLab Inc's servers.
 
-### Opensource
+### Open Source Software
 
 Software for which the original source code is freely available and may be reditributed and modified.
 
@@ -303,7 +304,7 @@ An open source analytics software to help you analyze web traffic. It is similar
 
 ### Plus Subscription
 
-GitLAb Premium EE subscription that includes training and dedicated Account Management and Service Engineer and complete support package [Plus subscription](https://about.gitlab.com/pricing/)
+GitLab Premium EE subscription that includes training and dedicated Account Management and Service Engineer and complete support package [Plus subscription](https://about.gitlab.com/pricing/)
 
 ### PostgreSQL
 
@@ -369,11 +370,11 @@ Also known as secondary servers. They help to spread the load over multiple mach
 
 ### Source Code
 
-Program code as typed by a computer programmer. i.e. it has not yet been executed and translated by the computer to machine language.
+Program code as typed by a computer programmer. i.e. it has not yet been compiled/translated by the computer to machine language.
 
 ### SSH Key
 
-A unique identifier of a computer. It is used to identify computers without the need for a password. e.g. On GitLab I have added the ssh key of my laptop hence the GitLab instance knows that it can accept code pushes and pulls from only trusted machines whose 
+A unique identifier of a computer. It is used to identify computers without the need for a password. e.g. On GitLab I have added the ssh key of all my work machines so that the GitLab instance knows that it can accept code pushes and pulls from this trusted machines whose keys are I have added.
 
 ### SSO
 
@@ -393,7 +394,7 @@ Atlassian's Git On-Premises solution. Think of it as Atlassian's GitLab EE. It i
 
 ### Sudo
 
-A program that allows you to perform superuser/administrator actions on Unix Operating Systems e.g. Linux, OS X.It actually stands for 'superuser do'
+A program that allows you to perform superuser/administrator actions on Unix Operating Systems e.g. Linux, OS X. It actually stands for 'superuser do'
 
 *** Needs definition here
 
