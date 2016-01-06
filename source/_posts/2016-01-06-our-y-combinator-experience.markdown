@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Our Y Combinator experience"
-date: 2015-12-14
+date: 2016-01-06
 comments: true
 author: GitLab
 author_twitter: jobvo
