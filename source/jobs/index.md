@@ -38,6 +38,11 @@ If you see yourself as a good fit with our company’s goals and team, then plea
 * [Description](https://about.gitlab.com/jobs/service-engineer/)
 * [Apply](https://gitlab.workable.com/jobs/87722/candidates/new)
 
+### Frontend Engineer
+
+* [Description](https://about.gitlab.com/jobs/frontend-engineer/)
+* [Apply](https://gitlab.workable.com/jobs/181461/candidates/new)
+
 ### Account Manager
 
 * [Description](https://about.gitlab.com/jobs/account-manager/)
