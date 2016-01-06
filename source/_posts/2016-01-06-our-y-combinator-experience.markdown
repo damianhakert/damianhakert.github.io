@@ -57,7 +57,7 @@ Y Combinator doesn’t assist with accommodation, so each company finds its own 
 This gives each company a way to forge their own approach and identity.
 In our case, we brought over our entire team.
 We all moved over to live in the same house for three months.
-We found one small apartment with a living room smaller than my own home.
+We found one small apartment with a very small living room. 
 We pushed all of our desks together and worked in that room for three months.
 
 ![Our YC livingroom](/images/yc-livingroom.png)
@@ -67,7 +67,7 @@ It was as much about the access to the local network as it was about building
 relationships among our team. It was in that house that we started to develop
 our culture. We worked hard and built a strong camaraderie.
 To get around, we used "The Boat", a huge car that would fit the whole team
-and we decorated with the original GitLab logo (the angry raccoon dog!).
+and we decorated with the original GitLab logo (the angry raccoon dog!)
 
 ![The boat](/images/team/boat.jpg)
 
@@ -75,7 +75,7 @@ Towards the end of the program, Job had to return to the Netherlands for his
 wedding. A big customer in LA requested us a week before he left to come for
 a visit. We jumped in the car started our road trip in the direction of LA.
 After many hours of driving, Job started to realize we weren't driving in
-the correct direction after all..
+the correct direction after all...
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/4TnKmrpiSgQ" frameborder="0" allowfullscreen></iframe>
 
@@ -84,14 +84,13 @@ the correct direction after all..
 Since Y Combinator we have kept up the same level of drive and focus.
 As we’ve built our team, we’re working on extending our culture with a concrete focus on next actions; and a focus on clear goals.
 We also established the [GitLab Summit](https://about.gitlab.com/2015/11/30/gitlab-summit-2015/)
-so we can have everyone under the same roof working together in person.  
+so we can have everyone under the same roof working together in person.
 
 ## The network effect
 
 There’s no question that this environment offers the participants huge
 advantages. You have a sense that everyone in the program is personally
-invested in your success. Considering YC take on 7% ownership, they are quite
-committed to your success. Beyond the direct mentorship, biggest benefit of
+invested in your success. Beyond the direct mentorship, biggest benefit of
 having participated in Y Combinator is access to the network.
 
 There’s a lot of experience available to you as a member of Y Combinator. They are very selective, choosing only what they feel are the most high-potential startups. Other founding teams in your batch are working on things that seem hard or impossible, it’s amazing to see what they are developing. They are also a diverse group with different backgrounds and skills. Other founders offer their direct help, without you having to ask for it. For example, they might make referrals and recommendations for key contacts.
