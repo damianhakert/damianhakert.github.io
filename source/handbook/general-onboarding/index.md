@@ -89,6 +89,7 @@ and then ping @rspeicher to confirm your account.
 ### FOR ENGINEERING ONLY (Devs, DevOps, SEs)
 
 * [ ] Patricio/Robert/Jacob: Add new team member to the [gitlab-org](https://gitlab.com/groups/gitlab-org/group_members) group on GitLab.com as a `Developer`.
+* [ ] For DevOps team members: Hiring manager: add the [sysadmin onboarding checklist](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/onboard-new-sysadmin.md)
 
 ### FOR SALES AND FINANCE ONLY
 
