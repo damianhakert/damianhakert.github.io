@@ -225,6 +225,8 @@ Make sure it is charging, otherwise try again.
 1. If you copy code always **check** the license and attribute when needed or appropriate.
 1. Check community **contributions** and do not merge it when there can be doubt about the ownership.
 1. Only the CEO of the company **signs** legal documents such as NDAs. Sales people and the business office manager can upload them via HelloSign.
+1. View our[ DMCA policy](https://about.gitlab.com/dmca) in regards to copyright / 
+intellectual property violations
 
 <h2 id="spending-company-money">Spending Company Money</h2>
 
