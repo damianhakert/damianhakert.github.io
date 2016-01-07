@@ -8,6 +8,7 @@ title: "Sales Training"
 * [3 Seemingly Scary Words Reps Shouldn’t Be Afraid to Use](#scary)
 * [6 Questions Sales Reps Should (But Don’t) Ask Themselves Before Sending an Email](#questions)
 * [4 Ways to Ruin a Sales Presentation](#presentation)
+* [Persistent or Just Plain Pushy? 7 Sales Behaviors Decoded](#behaviors)
 
 
 ### 5 Signs You're Talking At (Not Talking To) Your Prospects <a name="signs"></a>
@@ -293,5 +294,63 @@ Dodging questions after a sales presentation is a bad idea because it doesn’t 
 
 While reps might have a fear of answering questions after a presentation, it’s important to open the floor to the audience. Reps who take the extra time to answer tough questions can showcase what it’s like to work with them on an ongoing basis and the commitment they have to their prospects and customers. And remember, if you’re truly unsure, there’s nothing wrong with saying “I don’t understand” and moving forward.
 
-
 A sales presentation can be tricky to master. Reps can give 1,000 of them but still have an off day every once in awhile. By focusing on reversing some bad habits, reps can ensure their prospects enjoy their presentations and find it valuable.
+
+### Persistent or Just Plain Pushy? 7 Sales Behaviors Decoded <a name="behaviors"></a>
+
+When was the last time you called a prospect and they said, “I’m so glad you called! I love salespeople!”?
+
+Probably never.
+
+#### Salespeople: Are You Being Persistent or Pushy?
+
+Salespeople face a unique dimemma.  On one hand, tenacity is key to getting business -- 80% of sales requires five follow-ups to close.
+
+On the other, coming off as annoying is a real concern.  Salespeople have a negative perception to overcome, and many buyers assume the worst.
+
+In sales, the line between pushiness and persistence can be hard to walk.  Here is a list of pushy behaviors to avoid -- and what to do instead.
+
+##### PROSPECTING
+
+* Pushy: Cold calling witout doing research and delivering a cookie-cutter pitch
+
+* Persistent: Following up on an inbound lead with an introduction customized to the prospect's activity and context.
+
+##### CONNECTING
+
+* Pushy: Pitching immediately without providing context on who you are and why you're calling
+    
+* Persistent: Providing a reason for your call (ideally the prospect's previous activity or a referral) and offerign to help.
+    
+##### NURTURING
+
+* Pushy: Sending "just checking in" emails without providing new value
+    
+* Persistent: Providing your prospect witha  a strategically sequenced progression of new, helpful resources and insights
+    
+##### DISCOVERY
+
+* Pushy: Rushing through a long list of discovery questions so you can "cover all your bases."
+    
+* Persistent: Diving deep into areas yur  prospect is interested in, letting conversation flow naturally toward their priorities, and following up with more discovery calles if necessary.
+    
+##### DEMONSTRATION
+
+* Pushy: Attempting to cover every feature of your product at once.
+    
+* Persistent: Focusing your presentation only on features and benefits relevant to your prospect's needs.
+    
+##### OBJECTION HANDLING
+
+* Pushy: Glossing over your prospect's concerns and not taking them seriously.
+    
+* Persistent: Creating a plan that accomodates your prospect's objections, and actively addresses their hesitations.
+    
+##### CLOSING
+
+* Pushy: Trying to "slam a deal" through on your timeline and your terms.
+    
+* Persistent: Making sure your prospect's on track to achieve their goals and is ready to implement your product upon purchase.
+    
+
+Recognize that there’s a fine line between being annoying and tenacious. The same sales activities can be executed in very different ways -- some good, some bad.
