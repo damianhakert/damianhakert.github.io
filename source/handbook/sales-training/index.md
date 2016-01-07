@@ -7,6 +7,7 @@ title: "Sales Training"
 * [6 Ways to Make Your Sales Email Insanely Valuable to Prospects](#insanely)
 * [3 Seemingly Scary Words Reps Shouldn’t Be Afraid to Use](#scary)
 * [6 Questions Sales Reps Should (But Don’t) Ask Themselves Before Sending an Email](#questions)
+* [4 Ways to Ruin a Sales Presentation](#presentation)
 
 
 ### 5 Signs You're Talking At (Not Talking To) Your Prospects <a name="signs"></a>
@@ -264,3 +265,33 @@ Here are some examples of calls-to-action reps can include in their sales emails
 
 The introductory email sets the tone for the relationship. Before you reach out, ask yourself these six questions to determine whether or not you’re fully prepared to send that email. If you can’t answer all of these questions, hit the reset button and get back to the drawing board.
 
+### 4 Ways to Ruin a Sales Presentation <a name="presentation"></a>
+
+A perfect sales presentation paints the product, the company, and the rep in an ideal light, while captivating the audience and turning a target company into a customer on the spot.
+
+However, while a great meeting with a prospect can set you apart from your competitors, a bad presentation can do the same thing. Sales reps can often fall into the traps of a bad presentation without even realizing it. Everything is going smoothly in the rep’s mind ... until they realize the CEO has fallen asleep.
+
+So how does a rep avoid this scenario? Below are four avoidable sales presentation mistakes to keep in mind for your next meeting.
+
+#### 1. Being overly general.
+Not personalizing the presentation is a mistake because every buyer is different. Each buyer has a unique pain point, and is in need of a unique solution. By failing to customize the presentation, the buyer can’t see themselves using your product. All the buyer knows is that the product works in general, or a different business used it and had success.
+
+When we tell stories, the people listening feel as if what’s happening to the protagonist is happening to them too, according to studies. By personalizing the message, a sales rep can put the potential buyer into the shoes of another customer who has experienced success using the product, and help them visualize how the offering could help their company as well.
+
+#### 2. Listing too many benefits.
+Speaking about too many benefits can turn a prospect off because our brains can only process so much information at once. In fact, recent studies have found that consuming too much information can distract a person, resulting in a negative impact on personal well-being and decision making, among other things.
+
+Instead of bragging about everything your product can do, sales reps should focus on three to four benefits that will solve a very specific pain point for the prospect. Studies have found that humans retain information best when they find it useful. By highlighting a few key, relevant benefits in your presentation, the prospect is more likely to retain the information, which will be critical when they make a decision.
+
+#### 3. Slipping into autopilot.
+Beginning a presentation with a monotone voice, bad body language, or an obviously scripted intro can kill your momentum in a hurry. According to Sherrie Bourg Carter, emotions are contagious. So if a sales rep lacks energy and enthusiasm during their presentation, this lackluster mood will likely wear off on the stakeholders in attendance.
+
+There are a multitude of ways to avoid autopilot. By giving the presentation beforehand to coworkers, reps can discover where they need to improve and where the information could be strengthened. Another trick is to have a cup of coffee or work out the morning before the presentation to raise your energy. If you’re full of energy and enthusiastic about your product, these feelings can spread to your audience.
+
+#### 4. Dodging questions.
+Dodging questions after a sales presentation is a bad idea because it doesn’t allow the audience to clarify information, and according to 24Slides, can weaken your credibility. When prospects aren’t able to have specific questions answered, they can’t learn about what matters most to them. Instead of leaving the presentation feeling great about the product, the prospect is likely to leave with more questions than answers, which defeats the whole purpose of the presentation.
+
+While reps might have a fear of answering questions after a presentation, it’s important to open the floor to the audience. Reps who take the extra time to answer tough questions can showcase what it’s like to work with them on an ongoing basis and the commitment they have to their prospects and customers. And remember, if you’re truly unsure, there’s nothing wrong with saying “I don’t understand” and moving forward.
+
+
+A sales presentation can be tricky to master. Reps can give 1,000 of them but still have an off day every once in awhile. By focusing on reversing some bad habits, reps can ensure their prospects enjoy their presentations and find it valuable.
