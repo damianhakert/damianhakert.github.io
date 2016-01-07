@@ -19,6 +19,7 @@ Currently we are looking for JS veterans to join us for Frontend Engineering. Is
 * Be able to work with the rest of the community
 * Needs to have extensive knowledge of Rails
 * Work remotely from anywhere in the world (Curious to see what that looks like?
+Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!)
 
 ## Workflow
 
