@@ -13,6 +13,8 @@ title: "Sales Onboarding"
 
 1. [Our Sales Process](https://about.gitlab.com/handbook/sales-process/)
 
+1. [Sales Best Practices Training](https://about.gitlab.com/handbook/sales-training/)
+
 1. [Our Sales Agenda](https://docs.google.com/document/d/1l1ecVjKAJY67Zk28CYFiepHAFzvMNu9yDUYVSQmlTmU/edit)
 
 1. Have your manager grant access to the [Sales Folder](https://drive.google.com/drive/u/0/#shared-with-me) in our Google Docs. Here we host:
