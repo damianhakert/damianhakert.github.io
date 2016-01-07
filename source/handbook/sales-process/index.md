@@ -16,6 +16,7 @@ title: "Sales Process"
 * [Expanding Deals](#expanding)
 * [Managing an Account](managing)
 * [Licences](#licences)
+* [Sales Best Practice Training](https://about.gitlab.com/handbook/sales-training/)
 * [Export Control Classification, and Countries We Do Not Do Business In](#export-control)
 * [Sales Automation Flow](#salesautomation)
 * [Helpful Links](#helpful)
