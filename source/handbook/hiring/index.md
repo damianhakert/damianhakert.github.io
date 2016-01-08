@@ -4,6 +4,7 @@ title: "Hiring"
 ---
 ## On this page:
 * [Hiring Process](#hiring-process)
+* [Interview Questions](#interview-questions)
 * [Getting Contracts Ready](#prep-contracts)
 * [Contract signed: now what?](#move-to-onboarding)
 
@@ -63,9 +64,13 @@ title: "Hiring"
 1. Make a decision, make an offer.
     * The CEO needs to authorize offers.
     * Sign up successful applicant and move to [onboarding](https://about.gitlab.com/handbook/general-onboarding).
+    * As soon as the contract is signed, make the onboarding issue!
     * Inform other applicants that we selected someone else this time. Applicants remain in the database and may be contacted in the future for other roles.
 
-## Interview questions
+## Interview Questions<a name="interview-questions"></a>
+So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
+[this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw) 
+and then also consider using the following questions:  
 
 1. Do you have any questions about the job or GitLab?
 1. Why apply to GitLab?
