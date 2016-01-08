@@ -4,14 +4,24 @@ title: "DevOps Engineer"
 ---
 
 ## Responsibilities
-* As an DevOps (or OpsDev) engineer you will be on a pager duty rotation to respond
-to GitLab.com availability incidents and customer incidents.
-* Improve GitLab.com availability and performance
-* Incident response for customers and for GitLab.com
-* Making GitLab easier to maintain for sysadmins all over the world
-* Manage our infrastructure with Chef (and a little Ansible)
-* Improve monitoring systems
-* Improve deployment processes
+* Improve GitLab.com availability and performance.
+* Make GitLab easier to maintain for sysadmins all over the world.
+* Manage our infrastructure with Chef (and a little Ansible).
+* Improve monitoring systems.
+* Improve deployment processes.
+* Participate in pager duty rotation to respond to GitLab.com availability incidents and customer incidents.
+
+## Success Criteria
+You know you are doing a good job as a DevOps Engineer when:
+
+* GitLab.com's availability is consistently high.
+* GitLab.com performs better than the main competitor equivalent services.
+* You communicate and collaborate well with the Developers and Service Engineers to 
+enable 'devops-minded' development and customer-focused solutions.
+* Your documentation is very complete and a delight to the eyes, but also properly organized so as not to reveal
+security-sensitive information beyond the intended audience.
+* SysAdmins across the globe are jubilant about the elegance of GitLab deployments.
+
 
 ## Requirements for Applicants
 (Check our [Jobs](https://about.gitlab.com/jobs/) page to see current openings).
