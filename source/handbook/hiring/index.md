@@ -63,6 +63,7 @@ title: "Hiring"
 1. Make a decision, make an offer.
     * The CEO needs to authorize offers.
     * Sign up successful applicant and move to [onboarding](https://about.gitlab.com/handbook/general-onboarding).
+    * As soon as the contract is signed, make the onboarding issue!
     * Inform other applicants that we selected someone else this time. Applicants remain in the database and may be contacted in the future for other roles.
 
 ## Interview questions
