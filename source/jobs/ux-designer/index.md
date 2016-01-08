@@ -22,7 +22,7 @@ You work on issues tagged with 'UX' on [CE](https://gitlab.com/gitlab-org/gitlab
 
 The priority of the issues tagged with this label can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/#prioritize).
 
-When done with a UX issue remove the ux label and add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) which is probably the 'Frontend' label.
+When done with a UX issue remove the UX label and add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) which is probably the 'Frontend' label.
 
 ## Success Criteria
 
