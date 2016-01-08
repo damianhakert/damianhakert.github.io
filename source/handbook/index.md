@@ -236,9 +236,17 @@ Make sure it is charging, otherwise try again.
 intellectual property violations
 
 <h2 id="spending-company-money">Spending Company Money</h2>
+**Regular Compensation**
+1. Employees of our Dutch entity (GitLab B.V.) will get their **salary** wired on the 25th of every month and will receive their salary slip by email on or before that date.
+1. Employees of our US entity (GitLab Inc.) have payroll processed through TriNet, and they can access their pay slips through the [TriNet portal](https://www.hrpassport.com).
+1. Contractors to GitLab (either entity) should send their invoices for services rendered to ap@gitlab.com 
+   * For 'fixed fee' contracts, it is OK to send the invoice before the time period 
+   that it covers is over. For example, an invoice covering the period of March 1-31 can be sent on March 25. 
+   * All invoices are internally reviewed, approved, and then payment is processed. 
+   This is usually a fast process, but be aware that it can incur delays around vacations.
 
-1. Dutch employees will get their **salary** wired on the 25th of every month and will receive their salary slip by email on or before that date.
-1. Spend company money like it is your **own** money before taxes (since company expenses are not taxed you can spend it a bit more liberal than your own).
+**Other Business Related Expenses**
+1. Spend company money like it is your **own** money before taxes.
 1. You don't have to ask permission before making purchases in the interest of the company. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
 1. **File** your expense report 7 days after the end of the calendar quarter.
 1. Any non-company expenses paid with a company credit card will have to be reported to your manager as soon as possible and **refunded** in full within 14 days.
@@ -250,7 +258,7 @@ intellectual property violations
     *  Headset
     *  (Height adjustable) desk
     *  Ergonomic chair
-    *  Internet connection, for Dutch employees see [Regeling Internet Thuis](https://docs.google.com/a/gitlab.com/document/d/1J70geARMCjRt_SfxIY6spdfpTbv_1v_KDeJtGRQ6JmM/edit#heading=h.5x5ssjstqpkq)
+    *  Internet connection, for employees in the Netherlands see [Regeling Internet Thuis](https://docs.google.com/a/gitlab.com/document/d/1J70geARMCjRt_SfxIY6spdfpTbv_1v_KDeJtGRQ6JmM/edit#heading=h.5x5ssjstqpkq)
     *  Mobile phone and subscription
     *  Telephone land line
     *  Skype calling credit, we can autofill your account
@@ -277,9 +285,9 @@ intellectual property violations
     credit card charges will automatically be fed to a new Expensify report each month.
     Please attach receipts for these expenses (per the Expense Policy, see below) within 5 business days after the end of the month.
     These amounts will not be reimbursed to you but Expensify provides a platform for documenting your charges correctly.
-1. **Expense Policy**
-    * Max Expense Amount - 5,000 USD or 5,000 EUR
-    * Receipt Required Amount - 25 USD or 25 EUR
+   * **Expense Policy**
+      * Max Expense Amount - 5,000 USD or 5,000 EUR
+      * Receipt Required Amount - 25 USD or 25 EUR
 
 <h2 id="paid-time-off">Paid Time Off</h2>
 
