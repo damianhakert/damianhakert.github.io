@@ -9,7 +9,7 @@ title: "UX Designer"
 * Improve the interface of GitLab
 * Work with developers to improve flows
 * Conduct user testing
-UI/UX latest technics, prototyping with a tools or HTML/CSS, user testing, user flow.
+UI/UX latest techniques, prototyping with tools or HTML/CSS, user testing, user flow.
 
 ## Tools
 
@@ -22,17 +22,17 @@ You work on issues tagged with 'UX' on [CE](https://gitlab.com/gitlab-org/gitlab
 
 The priority of the issues tagged with this label can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/#prioritize).
 
-When done with an ux issue remove the ux label and add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) which is probably the 'Frontend' label.
+When done with an UX issue remove the UX label and add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) which is probably the 'Frontend' label.
 
 ## Success Criteria
 
-You know you are doing a good job as an Interaction Engineer when:
+You know you are doing a good job as a UX Designer when:
 
-* you are resolving UX / UI issues assigned to milestones well before the milestone comes up
-* you communicate well with the developers
-* you are contributing ideas and solutions beyond existing issues
-* users are overwhelmingly happy about your contributions
-* collaborate effectively with Front-End Engineers, Developers, and Designers
+* You are resolving UX / UI issues assigned to milestones well before the milestone comes up.
+* You communicate well with the developers.
+* You are contributing ideas and solutions beyond existing issues.
+* Users are overwhelmingly happy about your contributions.
+* You collaborate effectively with Frontend Engineers, Developers, and Designers.
 
 ## Roles in practice
 
