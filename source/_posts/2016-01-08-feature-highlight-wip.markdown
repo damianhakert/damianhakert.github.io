@@ -26,8 +26,8 @@ very first commit and give it a title starting with either `WIP` or `[WIP]`.
 ![WIP merge request in GitLab 8.3](/images/8_3/wip.png)
 
 Mention your colleague for a first review, while you keep on working.
-You have all the power of a merge request, including a CI that check your code
-while you work, and no risk of accidental merge.
+You have all the power of a merge request, including GitLab CI that checks your code
+while you work, and no risk of an accidental merge.
 
 ## WIP mentality
 
@@ -39,7 +39,7 @@ but even a glance can catch potential mistakes. Having a second set of eyes
 thinking about the problems you're solving always pays off.
 
 I encourage you to extend this mentality to your other work,
-projects and pushes. Push something out early* to receive feedback and
+projects and pushes. Push something out *early* to receive feedback and
 to be steered in the right direction early on.
 
 ## At GitLab Inc
