@@ -51,16 +51,16 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 We value results, transparency, sharing, freedom, efficiency, frugality, collaboration, directness, kindness, diversity, quirkiness, boring solutions, and interesting people:
 
 1. Results: We care about what you achieve; the code you shipped, the user you made happy and the team member you helped. Do not compete by proclaiming how many hours you worked yesterday because we don't want someone who took the afternoon off to feel like they did something wrong. Instead celebrate the archievements of yourself and your teammates.
-1. Transparency: Be open about as many things as possible. By making information public we can reduce the threshold to contribution and make collaboration easier.
-1. Sharing: We care about giving great software, documentation, examples, lessons and process to the world.
+1. Transparency: Be open about as many things as possible. By making information public we can reduce the threshold to contribution and make collaboration easier. An example is the [public repository of this website](https://gitlab.com/gitlab-com/www-gitlab-com/) that also contains our [company handbook](https://about.gitlab.com/handbook/).
+1. Sharing: We care about giving great software, documentation, examples, lessons and process to the world. An example is the MIT licensed [GitLab CE](https://about.gitlab.com/features/).
 1. Freedom: You should have clear objectives and the freedom to work on them as you see fit. Any instructions are open to discussion. You don't have to defend how you spend your day.
 1. Efficiency: We care about working on the right things, not doing more than needed and not duplicating work. This enables us to achieve more progress with less people and makes our work more fullfilling.
 1. Frugality: [Amazon states it best](http://www.amazon.jobs/principles) with: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention. There are no extra points for growing headcount, budget size or fixed expense.".
-1. Collaboration: Helping others is a priority. You are expected to ask others for help and advise. Anyone can chime in on any subject. You don't have to comply with all feedback but you should always take it seriously.
-1. Directness: We try to channel our inner Ben Horowitz by being [both straightforward and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b).
-1. Kindness: Some companies say [Evaluate People Accurately, Not "Kindly"](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf). We're all for accurate assesment but we think it can be done in a kind way. Give negative feedback in the smallest setting possible, one-on-one video calls are preferred. Clearly make negative feedback about the work, not the person and provide at least one clear and recent example.
-1. Diversity: The community consists of people from all over the world, with different backgrounds and opinions. Make everyone feel welcome. Work to increase the participation of underrepresented minorities and nationalities in our community and company.
-1. Quirkiness: Unexpected and unconventional things are make life more interesting. Celebrate and encourage quirky gifts, habits, behavior and points of view.
+1. Collaboration: Helping others is a priority. You are expected to ask others for help and advise. Anyone can chime in on any subject. You don't have to comply with all feedback but you should always take it seriously. An example is the inclusion of people from ouside GitLab Inc. in the [core team](https://www.gitlab.com/core-team/).
+1. Directness: We try to channel our inner Ben Horowitz by being [both straightforward and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). If you find something that
+1. Kindness: Some companies say [Evaluate People Accurately, Not "Kindly"](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf). We're all for accurate assesment but we think it must be done in a kind way. Give as much positive feedback as you can and do it in a public way. Give negative feedback in the smallest setting possible, one-on-one video calls are preferred. Clearly make negative feedback about the work itself, not the person. When giving feedback always provide at least one clear and recent example. When a person is going to a hard time in their personal life take that into account. An example of giving positive feedback is our [thanks chat channel](https://about.gitlab.com/handbook/#internal-communication).
+1. Diversity: The community consists of people from all over the world, with different backgrounds and opinions. Make everyone feel welcome. Work to increase the participation of underrepresented minorities and nationalities in our community and company. An example is our sponsorship of [RailsGirls NL](http://railsgirls.nl/) and Poland. It seems harder to get sponsors for coding diversity events in Europe than in the US so if you organize one please email commuity@gitlab.com to give us a chance to sponsor them.
+1. Quirkiness: Unexpected and unconventional things are make life more interesting. Celebrate and encourage quirky gifts, habits, behavior and points of view. An example is our [team call](https://about.gitlab.com/handbook/#team-call) where we spend most of our time taking about what we did in our private lives, from fire throwing to knitting.
 1. Boring solutions: Use the most simple and boring solution for a problem. You can always make it more complex later if that is needed. The speed of innovation for our organization and product is constrained by the total complexity we added so far, so every little reduction in complexity helps.
 1. Interesting people: Open source is a great way to interact with interesting people. We try to hire people who think work is a great way to express themselves.
 
@@ -232,17 +232,17 @@ Make sure it is charging, otherwise try again.
 1. If you copy code always **check** the license and attribute when needed or appropriate.
 1. Check community **contributions** and do not merge it when there can be doubt about the ownership.
 1. Only the CEO of the company **signs** legal documents such as NDAs. Sales people and the business office manager can upload them via HelloSign.
-1. View our[ DMCA policy](https://about.gitlab.com/dmca) in regards to copyright / 
+1. View our [DMCA policy](https://about.gitlab.com/dmca) in regards to copyright /
 intellectual property violations
 
 <h2 id="spending-company-money">Spending Company Money</h2>
 **Regular Compensation**
 1. Employees of our Dutch entity (GitLab B.V.) will get their **salary** wired on the 25th of every month and will receive their salary slip by email on or before that date.
 1. Employees of our US entity (GitLab Inc.) have payroll processed through TriNet, and they can access their pay slips through the [TriNet portal](https://www.hrpassport.com).
-1. Contractors to GitLab (either entity) should send their invoices for services rendered to ap@gitlab.com 
-   * For 'fixed fee' contracts, it is OK to send the invoice before the time period 
-   that it covers is over. For example, an invoice covering the period of March 1-31 can be sent on March 25. 
-   * All invoices are internally reviewed, approved, and then payment is processed. 
+1. Contractors to GitLab (either entity) should send their invoices for services rendered to ap@gitlab.com
+   * For 'fixed fee' contracts, it is OK to send the invoice before the time period
+   that it covers is over. For example, an invoice covering the period of March 1-31 can be sent on March 25.
+   * All invoices are internally reviewed, approved, and then payment is processed.
    This is usually a fast process, but be aware that it can incur delays around vacations.
 
 **Other Business Related Expenses**

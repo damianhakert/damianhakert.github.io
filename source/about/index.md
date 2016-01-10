@@ -27,7 +27,7 @@ GitLab Inc. also offers:
 GitLab Inc. supports organizations and individuals using GitLab.
 To do this we offer services around GitLab such as subscriptions, consulting, development and training.
 
-Above all, GitLab is a community project, over 800 people worldwide have [contributed to GitLab]!
+Above all, GitLab is a community project, over 1000 people worldwide have [contributed to GitLab]!
 GitLab Inc. is an active participant in this community, trying to serve its needs and lead by example.
 
 ## A brief history of GitLab
@@ -76,19 +76,14 @@ At GitLab we have one vision.
 To allow everyone to collaborate on all digital content.
 For more background and to see how we plan to achieve it please see our [direction page](https://about.gitlab.com/direction/).
 
-## Mission and logo
-We are part of a community that works together to create the best open source collaboration tools.
-Our <a href="https://en.wikipedia.org/wiki/Japanese_raccoon_dog">Tanuki</a> logo 
+## Logo
+Our <a href="https://en.wikipedia.org/wiki/Japanese_raccoon_dog">Tanuki</a> logo
 symbolizes this with a smart animal that works in a group to achieve a common goal.
+Please see our [press page](https://about.gitlab.com/press/) to download the logo.
 
 ## Values
-We care about giving back to the rest of the GitLab community, that is why we 
-give most code back to the <a href="https://gitlab.com/gitlab-org/gitlab-ce/">Community Edition</a>.
-We try to be open, that is why this website is maintained in <a href="https://gitlab.com/gitlab-com/www-gitlab-com/">a public repository</a>.
-We realize that GitLab is more than this organization, this is shown by having 
-people from outside this company in the <a href="https://www.gitlab.com/core-team/">core team</a>.
-We think good code can be written by anyone, we encourage diversity by contributing to <a href="http://railsgirls.nl/">RailsGirls NL</a>.
-We try to correct the mistakes we make, please give us a chance by <a href="mailto:community@gitlab.com">emailing us</a>.
+
+Please see the [values section in our handbook](https://about.gitlab.com/handbook/#values).
 
 ## Our stewardship of GitLab CE<a name="stewardship"></a><a name="our-stewardship-of-gitlab-ce"></a>
 
@@ -114,13 +109,15 @@ Apart from making new features GitLab Inc. does a lot of work that benefits both
 1. Performance improvements
 
 When someone contributes a feature to CE that is already in EE we have a hard decision to make.
-We hope that people focus on contributing features that are neither in CE nor EE so everyone benefits and we don't have to make that decision.
-When we do have to make it we weigh a couple of factors in that decision:
+We hope that people focus on contributing features that are neither in CE nor EE.
+This way both edits benefit from a new featurew and GitLab Inc. don't have to make a hard decision.
+The features we plan to build for EE are shared on our [direction page](https://about.gitlab.com/direction/) and we welcome people to contribute features to CE that are planned for future EE releases, if you pick one from the upcoming release please as in the issue if someone is already working on it.
+When someone does contribute a feature to CE that is already in EE we weigh a couple of factors in that decision:
 
 1. What is the quality of the code?
 1. Is it complete and does it meet the criterial of the [definition of done](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#definition-of-done)?
 1. What is the use case for this, is it needed for organizations with less than 100 people?
-1. Is it an original work or based on EE (someone once sent a merge request with our exact EE code)?
+1. Is it an original work or clearly based on the EE code?
 
 In case we're not sure we'll consult with the [core team](https://about.gitlab.com/core-team/) to reach a conclusion.
 
@@ -137,10 +134,10 @@ GitLab is a community project with people participating from all over the world.
 GitLab Inc. has people in three continents to serve our customers better.
 Most of our customers are in the United States.
 
-Most of our team is distributed. We're proud to be [working remotely](https://about.gitlab.com/2014/07/03/how-gitlab-works-remotely/), 
-using GitLab Issues to coordinate. We have a [Remote Manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/), 
-our team members have shared their [experiences](https://about.gitlab.com/2015/06/17/highlights-to-my-first-remote-job/) 
-in our blog and did a Q&A for [Remote.co](https://remote.co/company/gitlab/). You can taste a bit of the GitLab team culture by visiting 
+Most of our team is distributed. We're proud to be [working remotely](https://about.gitlab.com/2014/07/03/how-gitlab-works-remotely/),
+using GitLab Issues to coordinate. We have a [Remote Manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/),
+our team members have shared their [experiences](https://about.gitlab.com/2015/06/17/highlights-to-my-first-remote-job/)
+in our blog and did a Q&A for [Remote.co](https://remote.co/company/gitlab/). You can taste a bit of the GitLab team culture by visiting
 our <a href="https://about.gitlab.com/culture/">culture page</a>.
 
 
