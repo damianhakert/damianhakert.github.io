@@ -89,7 +89,7 @@ platforms:
                     curl -LJO https://packages.gitlab.com/gitlab/raspberry-pi2/packages/debian/wheezy/gitlab-ce-XXX.deb/download
                     dpkg -i gitlab-ce-XXX.deb
   dependency_commands: |
-                    sudo apt-get install curl openssh-server ca-certificates postfix apt-transport-https
+                    sudo apt-get install curl openssh-server ca-certificates postfix apt-transport-https git
                     curl https://packages.gitlab.com/gpg.key | sudo apt-key add -
 
 
