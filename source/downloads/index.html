@@ -80,7 +80,7 @@ platforms:
                     sudo firewall-cmd --permanent --add-service=http
                     sudo systemctl reload firewalld
 - name: raspberrypi2
-  long_name: Raspberry PI 2 on Raspbian
+  long_name: Raspberry PI 2 on Raspbian Wheezy 
   download_command: |
                     sudo curl -o /etc/apt/sources.list.d/gitlab_ce.list "https://packages.gitlab.com/install/repositories/gitlab/raspberry-pi2/config_file.list?os=debian&dist=wheezy" && sudo apt-get update
   install_commands: |
