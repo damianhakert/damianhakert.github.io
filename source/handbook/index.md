@@ -151,7 +151,7 @@ We value results, transparency, sharing, freedom, efficiency, frugality, collabo
 1. We try not to assign issues to people but to have people **pick issues** in a milestone themselves.
 1. Assign an issue to yourself as soon as you start to work on it, but not before that time.
 1. We keep our **promises** and do not make external promises without internal agreement.
-1. Even when something is not done, share it internally so people can comment early and prevent rework. Mark it [WIP](http://doc.gitlab.com/ce/workflow/wip_merge_requests.html) so it is not merged by accident.
+1. Even when something is not done, share it internally so people can comment early and prevent rework. Mark it [WIP](https://about.gitlab.com/2016/01/08/feature-highlight-wip/) so it is not merged by accident.
 1. If you are assigned to merge a Merge Request and there is a merge conflict, consider trying to resolve it **yourself** instead of asking the MR creator to resolve the conflict. If it is easy to resolve you avoid a round trip between you and the creator, and the MR gets merged sooner. This is a suggestion, not an obligation.
 1. When you create a merge request, please **mention** the issue that it solves in the description but avoid auto closing it by saying Fixes #1 or Solves #1\. Since we frequently have to report back to customers or the rest of the community, issues are not done when the code is merged.
 1. If you ask a question to a specific person, always start the comment by mentioning them; this will ensure they see it if their notification level is mentioned and other people will understand they don't have to respond.
@@ -165,7 +165,7 @@ We value results, transparency, sharing, freedom, efficiency, frugality, collabo
 1. Please join the meeting with your x@gitlab.com account, not your private Google account.
 1. If you have previously logged on to Bluejeans with different credentials, make sure to log out before joining the call as yourself.
 1. We wait for people to join the first two minutes of the meeting until :32.
-1. If you are unable to attend just add your name to the agenda as Not attending
+1. If you are unable to attend just add your name to the [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) as 'Not attending'.
 1. We start by discussing the subjects that are on the agenda for today.
 1. Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
 1. When done with a point mention the subject of the next item and hand over to the next person.
@@ -183,13 +183,12 @@ We value results, transparency, sharing, freedom, efficiency, frugality, collabo
 1. Answer questions, thank people even if it’s just a few words. Make it a two way conversation.
 1. Appreciate suggestions and feedback.
 1. Don't make promises that you can't keep.
-1. Guide users who ask for help and share links. [Types of requests](https://about.gitlab.com/2014/12/08/explaining-gitlab-bugs/).
-1. If someone gives a suggestion, guide them to the [Feature Request Forum](http://feedback.gitlab.com/forums/176466-general).
+1. Guide users who ask for help or give a suggestion and share links. [Improving Open Development for Everyone](https://about.gitlab.com/2015/12/16/improving-open-development-for-everyone/), [Types of requests](https://about.gitlab.com/2014/12/08/explaining-gitlab-bugs/).
 1. When facing negative comment, respond patiently and treat every user as an individual, people with the strongest opinions can turn into [the strongest supporters](https://about.gitlab.com/2015/05/20/gitlab-gitorious-free-software/).
 
 ### Writing Style Guidelines<a name="writing-style-guidelines"></a>
 
-1. Do not use rich text, it makes it hard to copy/paste. Use Markdown instead.
+1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](http://doc.gitlab.com/ce/markdown/markdown.html) instead.
 1. Do not create links like "here" or "click here". All links should have relevant anchor text that describes what they link to, such as: "GitLab CI source installation documentation".
 1. Always use [ISO dates](http://xkcd.com/1179/) in all writing and legal documents, yyyy-mm-dd, e.g., 2015-04-13, and never 04-13-2015 or 13-04-2015
 1. If you have multiple points in a comment or email, please number them to make replies easier.
