@@ -9,7 +9,7 @@ of how we work at GitLab. Below you'll find everything you need to start develop
 If something is missing, add it (as goes with everything at GitLab)!
 
 ## GitLab Instances
-We have two main GitLab instances, as explained in the [general onboarding](https://about.gitlab.com/handbook/general-onboarding#gitlab-instances)
+We have two main GitLab instances, as explained in the [general onboarding](https://about.gitlab.com/handbook/general-onboarding#gitlab-instances).
 
 ## Getting started with GitLab development
 
