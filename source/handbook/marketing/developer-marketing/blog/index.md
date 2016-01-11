@@ -12,6 +12,7 @@ The [blog](/blog) is our main publishing outlet. We publish content multiple tim
 - Tutorials
 - Inside GitLab
 
+We ensure there is a weekly blog post. We also want to bring in voices from all throughout the company, as well as from GitLab users and our clients.
 
 ## The topics we write about
 
