@@ -29,7 +29,7 @@ Often referred to as `dev`.
 This is the SaaS of GitLab. Everyone can host their repository for free here and
 this is where the majority of open source contributions come in. Unless there's
 a good reason not to (customer information disclosure, undisclosed security
-issues, etc.), do your development and submit your merge requests here [in the open].
+issues, etc.), do your development and submit your merge requests here [in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
 
 ### Other instances
 
