@@ -69,7 +69,7 @@ welcome email to the employee at their work email on their first date of hire.
 
 * [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment.
 * [ ] Patricio/CEO: Add to tweetdeck
-* [ ] Robert/Jacob/CEO: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
+* [ ] Robert/Jacob/CEO: Invite team members' GitLab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] Robert/Jacob/CEO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] Robert/Jacob/CEO: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
 * [ ] People Ops: Give team member access to the GitLab availability calendar.
@@ -184,7 +184,7 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 * [ ] People Ops: Remove former team member from TriNet and payroll if applicable.
 * [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment.
 * [ ] People Ops: Inform Controller / Accounting if any items in former team members possession will not be returning, so that they can be removed from asset tracking.
-* [ ] Robert/Jacob/CEO: Remove former team members' Gitlab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
+* [ ] Robert/Jacob/CEO: Remove former team members' GitLab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] Robert/Jacob/CEO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] People Ops: Suspect access to 1Password.
 * [ ] People Ops: Remove team member access to Dropbox.

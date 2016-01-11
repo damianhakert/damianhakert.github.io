@@ -104,7 +104,7 @@ Opportunities will follow the following rules:
 To create a quote, you must be in the opportunity object
 
 1. Click New Quote
-1. Name the Quote Suggested format “ Gitlab/Company name/Type of Subscription. Customers will see the name of the quote.
+1. Name the Quote Suggested format “ GitLab/Company name/Type of Subscription. Customers will see the name of the quote.
 1. Enter expiration date if required - It can be left blank.
 1. In "Prepared for” search for the contact name and ensure email address is correct.
 1. Check correct mailing address this will be pulled from account page. If there is no address, add on to the account page

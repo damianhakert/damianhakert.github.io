@@ -32,7 +32,7 @@ The following questions can be used to help develop the opportunity and advance 
     * What is your role and what do you do?
         - Ideal Roles: Infrastructure/Cloud/Enterprise Architects, Dev Ops, System Admin/Engineer, IT Managers/Directors, Release Engineer , VP Engineering
     * How would you describe what your group does?
-    * How large is your group? (Goal is to find out who will use Gitlab and how large the opportunity could be)
+    * How large is your group? (Goal is to find out who will use GitLab and how large the opportunity could be)
     * Are other groups using Git?
         - If no, why not? and what Version Control Systems are they using?
         - If yes, who are they using?
@@ -67,7 +67,7 @@ The following questions can be used to help develop the opportunity and advance 
     * How is the adoption of GitLab going?
     * What are you liking about GitLab EE?
     * What are you not liking or have questions about?
-    * How has Gitlab helped your group?  What are their use cases?
+    * How has GitLab helped your group?  What are their use cases?
         - improve code quality?
         - speed up code releases?
     * How many projects do they have?

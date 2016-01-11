@@ -60,7 +60,7 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 - [Take the Test](http://goo.gl/forms/GgWF1T5Ceg)
 - Supporting: [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
 
-### Intro to Git and Gitlab
+### Intro to Git and GitLab
 
 - [Intro to Git and GitLab](https://www.youtube.com/watch?v=03wb9FvO4Ak&index=5&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e) recorded date: 2015-9-17
 - [Take the test](http://goo.gl/forms/9PnmhiNzEa)
@@ -178,10 +178,10 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 - [Sales Onboarding materials](https://about.gitlab.com/handbook/sales-onboarding/)
 - [GitLab Direction](https://about.gitlab.com/direction/)
 - [GitLab compared to other tools](https://about.gitlab.com/comparison/)
-- [Gitlab Workshop Part 1: Basics of Git and Gitlab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-1/material/)
-- [GitLab Workshop Part 2: Basics of Git and Gitlab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-23370/material/)
-- [Gitlab Workshop Part 3: Basics of Git and Gitlab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-3/material/)
-- [Gitlab Workshop Part 4: Basics of Git and Gitlab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-4/material/)
+- [GitLab Workshop Part 1: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-1/material/)
+- [GitLab Workshop Part 2: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-23370/material/)
+- [GitLab Workshop Part 3: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-3/material/)
+- [GitLab Workshop Part 4: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-4/material/)
 - [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 - [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=ae7b72c61347030e8aa75328ed4b8660).  Download [WebEx](https://www.webex.com/play-webex-recording.html) to view this video
 - [Amazon's transition to Continuous Delivery](https://www.youtube.com/watch?v=esEFaY0FDKc)
