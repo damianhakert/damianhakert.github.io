@@ -13,8 +13,7 @@ contributors who work together as a tight team in a [remote and agile](https://a
 * Engage with the rest of the core team and the open source community and collaborate on improving GitLab.
 * Review code contributed by the rest of the community and work with them to get it ready for production.
 * Write documentation around features and configuration to save our users time.
-* Take initiative in improving the software in small or large ways to address pain
-points in your own experience as a developer.
+* Take initiative in improving the software in small or large ways to address pain points in your own experience as a developer.
 * Keep code easy to maintain and keep it easy for others to contribute code to GitLab.
 * Qualify developers for hiring.
 
@@ -41,8 +40,8 @@ You know you are doing a good job as a Developer when:
 * You are solving issues and contributing code assigned to milestones well before
 the milestone comes up.
 * Your contributions adhere tightly to the [Contribution Guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md).
-* Service Engineers are delighted with your responsiveness and solutions.
-* Your documentation is crystal clear.
+* You are helping Service Engineers resolve customer issues in a timely manner.
+* Your documentation is considered complete and clear.
 * Your interaction with the rest of the GitLab community is constructive and positive.
 * You show initiative in pro-actively improving code and processes to make the life of all developers easier.
 
