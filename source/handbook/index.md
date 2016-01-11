@@ -253,7 +253,7 @@ intellectual property violations
 1. Any non-company expenses paid with a company credit card will have to be reported to your manager as soon as possible and **refunded** in full within 14 days.
 1. **Mileage** is reimbursed according to local law: [US rate per mile](http://www.irs.gov/Tax-Professionals/Standard-Mileage-Rates), or [rate per km](http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/auto_en_vervoer/auto_van_de_onderneming/autokosten/u_rijdt_in_uw_eigen_auto) in the Netherlands.
 1. The company will pay for the following **items** if you need it for work or use it mainly for business, and local law allows us to pay for it without incurring payroll taxes:
-    *  Notebook (we recommend getting a MacBook Pro since running Unix makes it easier to work with git from the command line)
+    *  Notebook: we recommend getting a MacBook since running Unix makes it easier to work with git from the command line. 'Light' users should get an Air, while 'heavier' users should get a Pro. If you have strong reasons to want to deviate from this guideline (e.g. you have to work with Linux), talk to your manager.
     *  Notebook carrying bag
     *  External [monitor](http://www.amazon.com/gp/product/B009C3M7H0?psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s00), [monitor-cable](http://www.amazon.com/Monoprice-32AWG-Mini-DisplayPort-Cable/dp/B0034X6SCY/ref=sr_1_1?ie=UTF8&qid=1442231319&sr=8-1&keywords=Monoprice+6ft+32AWG+Mini+DisplayPort+to+DisplayPort+Cable+-+White), keyboard, mouse, webcam and ethernet connector
     *  Headset
