@@ -77,7 +77,7 @@ If someone invested time to help us offer to mention them on our [Security Resea
 If you say that we'll get back to them always mention that they can email us at any time for an update.
 This is really important to prevent a 0 day disclosure because we forgot to respond.
 If you need help from developers to diagnose the issue please open an issue on dev.gitlab.org so we can work in private.
-If someone opens a public issue please leave a message: "Thank you for helping to make GitLab more secure! We removed the contents of your vulnerability disclosure to keep it private. We opend an interal issue to look at your disclosure. Can you please use our [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/) to send us an email that references this url so we can communicate in private?"
+If someone opens a public issue please leave a message: "Thank you for helping to make GitLab more secure! We removed the contents of your vulnerability disclosure to keep it private. We opened an internal issue to look at your disclosure. Can you please use our [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/) to send us an email that references this url so we can communicate in private?"
 
 ## Regular ZenDesk tickets
 
@@ -127,7 +127,7 @@ are having with their on-premise installation. In that case, you should refer th
 
 ## Facebook
 
-Messegages sent to our [Facebook page](https://www.facebook.com/gitlab/).
+Messages sent to our [Facebook page](https://www.facebook.com/gitlab/).
 
 ## GitLab CE/EE/Omnibus issue trackers
 
@@ -135,12 +135,12 @@ It is always encouraged to take a look at all our issue trackers and respond to 
 requests:
 
 - [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues) some customers create issues here instead of
-emailing us. When a new issue is created here, a ticket is created in Zendesk, so we always know when this is
+emailing us. When a new issue is created here, a ticket is created in ZenDesk, so we always know when this is
 the case.
 - [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues)
 - [Omnibus](https://gitlab.com/gitlab-org/omnibus-gitlab/issues)
 
-## Mailinglist
+## Mailing list
 
 Respond to questions on the [GitLab Mailing List](https://groups.google.com/forum/#!forum/gitlabhq).
 
