@@ -26,7 +26,7 @@ It includes the following changes:
 - **CE/EE:** Enable "Add key" button when user fills in a proper key ([#2208])
 - **CE/EE:** Better support for referencing and closing issues in Asana service
   ([#2111])
-- **CE/EE:** Fix error in processing reply-by-email messages
+- **CE/EE:** Fix error in processing reply-by-email messages ([#2288])
 - **CE/EE:** Fix Error 500 when visiting build page of project with nil
   `runners_token` ([#2294])
 - **CE/EE:** Use WOFF versions of SourceSansPro fonts ([#2357])
@@ -43,6 +43,7 @@ It includes the following changes:
 [#2235]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2235
 [#2267]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2267
 [#2283]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2283
+[#2288]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2288
 [#2294]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2294
 [#2304]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2304
 [#2341]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2341
