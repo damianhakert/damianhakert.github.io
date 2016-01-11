@@ -234,16 +234,19 @@ Make sure it is charging, otherwise try again.
 intellectual property violations
 
 ## Spending Company Money<a name="spending-company-money"></a>
+
 **Regular Compensation**
+
 1. Employees of our Dutch entity (GitLab B.V.) will get their **salary** wired on the 25th of every month and will receive their salary slip by email on or before that date.
 1. Employees of our US entity (GitLab Inc.) have payroll processed through TriNet, and they can access their pay slips through the [TriNet portal](https://www.hrpassport.com).
-1. Contractors to GitLab (either entity) should send their invoices for services rendered to ap@gitlab.com 
-   * For 'fixed fee' contracts, it is OK to send the invoice before the time period 
-   that it covers is over. For example, an invoice covering the period of March 1-31 can be sent on March 25. 
-   * All invoices are internally reviewed, approved, and then payment is processed. 
+1. Contractors to GitLab (either entity) should send their invoices for services rendered to ap@gitlab.com
+   * For 'fixed fee' contracts, it is OK to send the invoice before the time period
+   that it covers is over. For example, an invoice covering the period of March 1-31 can be sent on March 25.
+   * All invoices are internally reviewed, approved, and then payment is processed.
    This is usually a fast process, but be aware that it can incur delays around vacations.
 
 **Other Business Related Expenses**
+
 1. Spend company money like it is your **own** money before taxes.
 1. You don't have to ask permission before making purchases in the interest of the company. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
 1. **File** your expense report 7 days after the end of the calendar quarter.
