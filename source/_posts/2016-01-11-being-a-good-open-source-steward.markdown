@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Open Source Stewardship"
-date: 2015-12-31
+date: 2016-01-11
 comments: true
 author: Sytse Sijbrandij
 author_twitter: sytses
@@ -49,11 +49,11 @@ Each of those aspects must be addressed to ensure the project, code, and communi
 
 We can’t just tend to the needs of the open source project without tending to the commercial requirements. After all, we know that to sustain the project, we need to make it commercially viable.
 
-Our experienced sales team have helped us understand their struggles. Why should the software be completely free no matter who is using it? They ask “Why do I have users who are running with over 10,000 developers and not paying us a dime?” When selling proprietary services salespeople can set artificial limits which give them leverage. They've asked “Can’t we have some limit, such as if you have over 1000 developers that you need the enterprise edition?” This does make sense from a sales point of view, but it doesn’t make sense in the open source context. 
+Our experienced sales team have helped us understand their struggles. Why should the software be completely free no matter who is using it? They ask “Why do I have users who are running with over 10,000 developers and not paying us a dime?” When selling proprietary services salespeople can set artificial limits which give them leverage. They've asked “Can’t we have some limit, such as if you have over 1000 developers that you need the enterprise edition?” This does make sense from a sales point of view, but it doesn’t make sense in the open source context.
 
 Open source is not a freemium model we can just turn off after 30 days. We can’t say “The first one is free!” It’s all free. Forever.
 
-We’re not the only ones dealing with these issues. “We’ve played with various mixes of what features go in to which offering, with how to balance our need to thrive as a commercial business with our core belief that Open Source is the future of infrastructure,” [wrote Adam Jacob of Chef](https://www.chef.io/blog/2014/09/08/there-is-one-chef-server-and-it-is-open-source/). That was one year ago, and now Chef has come a long way in the stewardship of that project. 
+We’re not the only ones dealing with these issues. “We’ve played with various mixes of what features go in to which offering, with how to balance our need to thrive as a commercial business with our core belief that Open Source is the future of infrastructure,” [wrote Adam Jacob of Chef](https://www.chef.io/blog/2014/09/08/there-is-one-chef-server-and-it-is-open-source/). That was one year ago, and now Chef has come a long way in the stewardship of that project.
 
 Nathen Harvey, now VP of Community Development at Chef said "The intersection of open source and commercial interests raises questions about authority, authenticity, and culture" in [an article on open governance](http://www.informationweek.com/strategic-cio/it-strategy/three-pillars-of-open-source-governance/a/d-id/1318585). Will commercial interests trump what is best for the project? This is a very important question which each single-vendor open source project needs to consider. Nathen's first principle that "Transparency is key" is one we take very seriously.
 
