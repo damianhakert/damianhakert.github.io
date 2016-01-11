@@ -122,7 +122,7 @@ When we do have to make it we weigh a couple of factors in that decision:
 1. What is the use case for this, is it needed for organizations with less than 100 people?
 1. Is it an original work or based on EE (someone once sent a merge request with our exact EE code)?
 
-In case we're not sure we'll consult with the [core team](https://about.gitlab.com/core-team/) to reach a conclusion.
+In case we're not sure, we'll consult with the [core team](https://about.gitlab.com/core-team/) to reach a conclusion.
 
 ## Handbook
 If you're interested, most of our internal procedures can be found in <a href="/handbook">publicly viewable handbooks</a>.
