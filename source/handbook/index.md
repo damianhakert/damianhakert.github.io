@@ -43,10 +43,9 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Spending Company Money](#spending-company-money)
 * [Paid Time Off](#paid-time-off)
 * [Signing Legal Documents](#signing-legal-documents)
-* [GitLab workflow](#gitlab-workflow)
 * [Using Git to update this website](#starting-with-git)
 
-<h2 id="values">Values</h2>
+## Values<a name="values"></a>
 
 We value results, transparency, sharing, freedom, efficiency, frugality, collaboration, directness, kindness, diversity, quirkiness, boring solutions, and interesting people:
 
@@ -64,7 +63,7 @@ We value results, transparency, sharing, freedom, efficiency, frugality, collabo
 1. Boring solutions: Use the most simple and boring solution for a problem. You can always make it more complex later if that is needed. The speed of innovation for our organization and product is constrained by the total complexity we added so far, so every little reduction in complexity helps.
 1. Interesting people: Open source is a great way to interact with interesting people. We try to hire people who think work is a great way to express themselves.
 
-<h2 id="general-guidelines">General Guidelines</h2>
+## General Guidelines<a name="general-guidelines"></a>
 
 1. Working at GitLab Inc. is cooperating with the most talented people you've ever worked with, being the **most productive** you'll ever be, creating software that is helping the most people you've ever reached.
 1. We recognize that inspiration is perishable, if you’re **enthusiastic** about something that generates great results in relatively little time feel free to work on that.
@@ -95,9 +94,10 @@ We value results, transparency, sharing, freedom, efficiency, frugality, collabo
 1. If you copy content please remove it at the origin place and replace it with a link to the new content. Duplicate content leads to updating it in the wrong place, keep it [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 1. All guidelines in this handbook are meant to help, don't be afraid to do something because you can't oversee all guidelines, be gentle when reminding people about these guidelines, for example say: "It is not a problem, but next time please consider the following guideline from the handbook".
 
-<h2 id="communication">Communication</h2>
+## Communication<a name="communication"></a>
 
-<h3 id="internal-communication">Internal Communication</h3>
+
+### Internal Communication<a name="internal-communication"></a>
 
 1. All written communication happens in English, even when sent one on one, because sometimes you need to forward an email or chat.
 1. Use **asynchronous communication** when possible (issues and email instead of chat), issues are preferred over email, email is preferred over chat.
@@ -122,7 +122,7 @@ We value results, transparency, sharing, freedom, efficiency, frugality, collabo
 1. If an email is or has become urgent feel free to ping people via chat referencing the subject of the email.
 1. Thank people that did a great job in our 'Thanks' chat channel. If someone is an employee just "@" mention them. If multiple people were working on something try mentioning each person by "@" name. 'Thanks everyone' does not say much. If someone is not an employee mention our office manager, their name, a quirky gift and link to their work. For example: _"@sylvia Joe deserves a lawnmower for LINK"_. The office manager will approach the people for their address saying we want to send some swag. We'll ship it in gift wrap with "Thanks for your great work on LINK, love from @gitlab". Don't thank the CEO or other executives for something that the company paid for, thank GitLab instead.
 
-<h3 id="gitlab-workflow">GitLab Workflow</h3>
+### GitLab Workflow<a name="gitlab-workflow"></a>
 
 1. Always **create** an issue for things you work on. If it is worth spending time on, it is worth creating an issue for it since that enables other people to learn and help. You can always edit the description or close it when the problem is something different or disappears.
 1. **'Double link'** issues to prevent internal confusion and us failing to report back to the reporters. For example, open an issue with link to ZenDesk and close the issue with copy of the response. Or add 'Report: ' lines to the description with links to relevant issues and feature requests and ensure they are closed and note this with a comment. If you are not responsible for reporting back please do not close an issue, instead reassign it.
@@ -158,7 +158,7 @@ We value results, transparency, sharing, freedom, efficiency, frugality, collabo
 1. Do not close an issue until code has been merged, it has been **reported** back to all parties, all issue trackers are updated and any documentation is written and merged.
 1. When **closing** an issue leave a comment explaining why you are closing the issue.
 
-<h3 id="team-call">Team Call</h3>
+### Team Call<a name="team-call"></a>
 
 1. The team call is every workday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
 1. We use BlueJeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
@@ -175,7 +175,7 @@ We value results, transparency, sharing, freedom, efficiency, frugality, collabo
 1. Please look if the person you hand over to is present in the participant list so you don't hand over to someone who is not present.
 1. Last person hands over to the first person in the call order that is present (normally Dmitriy) who wishes everyone a good day or wishes everyone a great day her or him self.
 
-<h3 id="user-communication-guidelines">User Communication Guidelines</h3>
+### User Communication Guidelines<a name="user-communication"></a>
 
 1. Keep conversations positive, friendly, real and productive while adding value.
 1. If you make a mistake, admit it. Be upfront and be quick with your correction. If you're posting to a blog, you may choose to modify an earlier post, just make it clear that you have done so.
@@ -187,7 +187,7 @@ We value results, transparency, sharing, freedom, efficiency, frugality, collabo
 1. If someone gives a suggestion, guide them to the [Feature Request Forum](http://feedback.gitlab.com/forums/176466-general).
 1. When facing negative comment, respond patiently and treat every user as an individual, people with the strongest opinions can turn into [the strongest supporters](https://about.gitlab.com/2015/05/20/gitlab-gitorious-free-software/).
 
-<h3 id="writing-style-guidelines">Writing Style Guidelines</h3>
+### Writing Style Guidelines<a name="writing-style-guidelines"></a>
 
 1. Do not use rich text, it makes it hard to copy/paste. Use Markdown instead.
 1. Do not create links like "here" or "click here". All links should have relevant anchor text that describes what they link to, such as: "GitLab CI source installation documentation".
@@ -205,7 +205,7 @@ We value results, transparency, sharing, freedom, efficiency, frugality, collabo
 1. Always use an [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma) in lists of three or more terms.
 1. Read our [Documentation Styleguide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc_styleguide.md) for more information when writing documentation.
 
-<h3 id="beamy-guidelines">Beamy Guidelines</h3>
+### Beamy Guidelines<a name="beamy-guidelines"></a>
 
 Beamy is our company conference call robot. It lives in the San Francisco Howard St. office.
 Its main purpose is to allow those outside of the office a view into the space and people.
@@ -225,7 +225,7 @@ Make sure it is charging, otherwise try again.
 * More info can be found at https://www.suitabletech.com/
 * Please report any questions or issues you have about the beam by @mentioning Emily in the #general channel.
 
-<h2 id="intellectual-property">Intellectual Property</h2>
+## Intellectual Property<a name="intellectual-property"></a>
 
 1. Take proper care of any **confidential** information you get from our customers.
 1. If you copy code always **check** the license and attribute when needed or appropriate.
@@ -234,7 +234,7 @@ Make sure it is charging, otherwise try again.
 1. View our [DMCA policy](https://about.gitlab.com/dmca) in regards to copyright /
 intellectual property violations
 
-<h2 id="spending-company-money">Spending Company Money</h2>
+## Spending Company Money<a name="spending-company-money"></a>
 **Regular Compensation**
 1. Employees of our Dutch entity (GitLab B.V.) will get their **salary** wired on the 25th of every month and will receive their salary slip by email on or before that date.
 1. Employees of our US entity (GitLab Inc.) have payroll processed through TriNet, and they can access their pay slips through the [TriNet portal](https://www.hrpassport.com).
@@ -288,7 +288,7 @@ intellectual property violations
       * Max Expense Amount - 5,000 USD or 5,000 EUR
       * Receipt Required Amount - 25 USD or 25 EUR
 
-<h2 id="paid-time-off">Paid Time Off</h2>
+## Paid Time Off<a name="paid-time-off"></a>
 
 1. Don't frown on people taking time off, but rather encourage that people take care of themselves and others.
 1. Working hours are flexible, you are invited to the [team call](#team-call) if you are available, and we encourage you to post to the #working-on chat channel when you start your day so others can offer suggestions.
@@ -303,7 +303,7 @@ intellectual property violations
 1. In case it can be useful add your planned time off as a **FYI** on the next agenda of the team call.
 1. We will **help** clients during official days off, unless they are official days off in both the Netherlands and the U.S. We try to have people working who are in a country that don't have an official day off. If you need to work during an official day off in your country, you should take a day off in return.
 
-<h2 id="signing-legal-documents">Signing Legal Documents</h2>
+## Signing Legal Documents<a name="signing-legal-documents"></a>
 
 If you need to sign, fill out, send or retrieve documents electronically, please
 send a copy of the document to legal@gitlab.com with the following information:
@@ -318,48 +318,48 @@ The document will be managed through HelloSign, a cloud-based electronic
 signature tool. Only C-level executives can sign legal documents, with the
 exception of NDAs covering a physical visit of another organization.
 
-<h2 id="starting-with-git">Using Git to update this website</h2>
+## Using Git to update this website<a name="starting-with-git"></a>
 
 ### Start using GitLab
 
-1. Follow the step-by-step guides on the [basics of working with Git and GitLab.](http://doc.gitlab.com/ce/gitlab-basics/README.html).
+1. Follow the step-by-step guides on the [basics of working with Git and GitLab](http://doc.gitlab.com/ce/gitlab-basics/README.html).
 1. You will need to [create your SSH Keys](http://doc.gitlab.com/ce/gitlab-basics/create-your-ssh-keys.html).
 
 ### Install Git
 
 1. Open a terminal.
-1. Check your Git version by executing: `git --version`
+1. Check your Git version by executing: `git --version`.
 1. If Git is not installed, you should be prompted to install it.
 
 ### Install RVM
 
-1. Visit [https://rvm.io](https://rvm.io/)
-1. In a terminal, execute: `\curl -sSL https://get.rvm.io | bash -s stable`
-1. Close terminal
-1. Open a new terminal to load the new environment
+1. Visit [https://rvm.io](https://rvm.io/).
+1. In a terminal, execute: `curl -sSL https://get.rvm.io | bash -s stable`.
+1. Close terminal.
+1. Open a new terminal to load the new environment.
 
 ### Install Ruby and Bundler
 
 1. In a terminal, execute: `rvm install 2.2.1` to install Ruby
-   (enter your system password if prompted)
-1. Execute: `rvm use 2.2.1 --default` to set your default Ruby to `2.2.1`
+   (enter your system password if prompted).
+1. Execute: `rvm use 2.2.1 --default` to set your default Ruby to `2.2.1`.
 1. Execute: `ruby --version` to verify Ruby is installed. You should see:
-   `ruby 2.2.1p85 (2015-02-26 revision 49769)`
-1. Execute: `gem install bundler` to install [Bundler](http://bundler.io/)
+   `ruby 2.2.1p85 (2015-02-26 revision 49769)`.
+1. Execute: `gem install bundler` to install [Bundler](http://bundler.io/).
 
 ### Clone the source of the website and install its dependencies
 
 1. In a terminal execute: `git clone https://gitlab.com/gitlab-com/www-gitlab-com.git`
-   to clone the website
-1. Execute: `cd www-gitlab-com` to change to the `www-gitlab-com` directory
-1. Execute: `bundle install` to install all gem dependencies
+   to clone the website.
+1. Execute: `cd www-gitlab-com` to change to the `www-gitlab-com` directory.
+1. Execute: `bundle install` to install all gem dependencies.
 
 ### Preview website changes locally
 
-1. In a terminal, execute: `bundle exec rake preview`
-1. Visit http://localhost:4000 in your browser
+1. In a terminal, execute: `bundle exec rake preview`.
+1. Visit http://localhost:4000 in your browser.
 1. To edit the site locally you'll need to install a text editor. We recommend
-   [Sublime](http://www.sublimetext.com/2).
+   [Sublime Text 2](http://www.sublimetext.com/2).
 
 ### Test if all URL links in a page are valid
 
@@ -367,9 +367,9 @@ Until this is automated in CI, a quick way to see if there are any invalid
 links inside a page is the following.
 
 1. Install the [check-my-links][] extension in Chrome (no other browsers
-   support unfortunately)
-1. Open the page you wish to preview (see previous step)
-1. Click the newly installed extension in the upper right corner of Chrome
+   support unfortunately).
+1. Open the page you wish to preview (see previous step).
+1. Click the newly installed extension in the upper right corner of Chrome.
 
 A pop-up window will open and tell you how many links, if any, are invalid.
 Fix any invalid links and ideally any warnings, commit, push back, test again.
