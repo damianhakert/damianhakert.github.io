@@ -14,6 +14,7 @@ title: "GitLab Onboarding"
 * [Master Checklist for Onboarding of New Hires](#checklist)
 * [Onboarding Topics That Apply to Everyone](#everyone)
   * [General](#general)
+  * [GitLab Instances](#gitlab-instances)
   * [Security](#security)
   * [Git Quiz!](#quiz)
 * [Offboarding](#offboarding)
@@ -127,7 +128,7 @@ Please update this list as more steps arise.
 * Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
 * Read our [Team Handbook](https://about.gitlab.com/handbook/)
 * Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/)
-* Have your manager provide access to our [Internal GitLab Server](https://dev.gitlab.org) and familiarize yourself with:
+* You should have been provided access to our [Internal GitLab Server](https://dev.gitlab.org). Take a moment to familiarize yourself with:
   1. The Dashboard
   1. The Projects
   1. The Issue Tracker
@@ -158,6 +159,27 @@ The most common Issues are created in the following projects:
   1. Internal issues related to documentation and gitlab.com usage: Use [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq)
   1. Internal issues related to the organization: Use [GitLab Organization](https://dev.gitlab.org/gitlab/organization)
   1. Internal issues relate to Enterprise Edition: Use [GitLab EE](https://dev.gitlab.org/gitlab/gitlab-ee)
+
+### GitLab Instances<a name="gitlab-instances"></a>
+We have two GitLab instances that we use primarily, namely the 'dev' server and the free SaaS of GitLab at GitLab.com.
+
+#### dev.gitlab.org
+* This server is only accessible to people from GitLab the company.  
+* This is the instance we use for customers development.  
+* In addition, all our internal (company) issues are found here as well.  
+* This server is updated from master every night, so we quickly see if we broke something.
+* Often referred to as `dev`.
+
+#### GitLab.com
+* This is the SaaS of GitLab. Everyone can host their repository for free here and 
+this is where the majority of open source contributions come in. Unless there's
+a good reason not to (customer information disclosure, undisclosed security
+issues, etc.), do your development and submit your merge requests here [in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
+
+#### Other instances
+Many developers set up their own private GitLab instance somewhere, for instance
+to test and work with LDAP or Active Directory, to give demos, or for various
+other reasons.
 
 ### Security<a name="security"></a>
 
