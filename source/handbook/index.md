@@ -50,17 +50,17 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 
 We value results, transparency, sharing, freedom, efficiency, frugality, collaboration, directness, kindness, diversity, quirkiness, boring solutions, and interesting people:
 
-1. Results: We care about what you achieve; the code you shipped, the user you made happy and the team member you helped. Do not compete by proclaiming how many hours you worked yesterday because we don't want someone who took the afternoon off to feel like they did something wrong. Instead celebrate the archievements of yourself and your teammates.
+1. Results: We care about what you achieve; the code you shipped, the user you made happy and the team member you helped. Do not compete by proclaiming how many hours you worked yesterday because we don't want someone who took the afternoon off to feel like they did something wrong. Instead celebrate the achievements of yourself and your teammates.
 1. Transparency: Be open about as many things as possible. By making information public we can reduce the threshold to contribution and make collaboration easier.
 1. Sharing: We care about giving great software, documentation, examples, lessons and process to the world.
 1. Freedom: You should have clear objectives and the freedom to work on them as you see fit. Any instructions are open to discussion. You don't have to defend how you spend your day.
-1. Efficiency: We care about working on the right things, not doing more than needed and not duplicating work. This enables us to achieve more progress with less people and makes our work more fullfilling.
+1. Efficiency: We care about working on the right things, not doing more than needed and not duplicating work. This enables us to achieve more progress with less people and makes our work more fulfilling.
 1. Frugality: [Amazon states it best](http://www.amazon.jobs/principles) with: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention. There are no extra points for growing headcount, budget size or fixed expense.".
 1. Collaboration: Helping others is a priority. You are expected to ask others for help and advise. Anyone can chime in on any subject. You don't have to comply with all feedback but you should always take it seriously.
 1. Directness: We try to channel our inner Ben Horowitz by being [both straightforward and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b).
-1. Kindness: Some companies say [Evaluate People Accurately, Not "Kindly"](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf). We're all for accurate assesment but we think it can be done in a kind way. Give negative feedback in the smallest setting possible, one-on-one video calls are preferred. Clearly make negative feedback about the work, not the person and provide at least one clear and recent example.
+1. Kindness: Some companies say [Evaluate People Accurately, Not "Kindly"](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf). We're all for accurate assessment but we think it can be done in a kind way. Give negative feedback in the smallest setting possible, one-on-one video calls are preferred. Clearly make negative feedback about the work, not the person and provide at least one clear and recent example.
 1. Diversity: The community consists of people from all over the world, with different backgrounds and opinions. Make everyone feel welcome. Work to increase the participation of underrepresented minorities and nationalities in our community and company.
-1. Quirkiness: Unexpected and unconventional things are make life more interesting. Celebrate and encourage quirky gifts, habits, behavior and points of view.
+1. Quirkiness: Unexpected and unconventional things make life more interesting. Celebrate and encourage quirky gifts, habits, behavior and points of view.
 1. Boring solutions: Use the most simple and boring solution for a problem. You can always make it more complex later if that is needed. The speed of innovation for our organization and product is constrained by the total complexity we added so far, so every little reduction in complexity helps.
 1. Interesting people: Open source is a great way to interact with interesting people. We try to hire people who think work is a great way to express themselves.
 
@@ -79,7 +79,7 @@ We value results, transparency, sharing, freedom, efficiency, frugality, collabo
 1. If you make a mistake, don't worry, correct it and **proactively** let the affected party, your team, and the CEO know what happened, how you corrected it and how, if needed, you changed the process to prevent future mistakes.
 1. You can always **refuse** to deal with people that treat you badly and get out of situations that make you feel uncomfortable.
 1. Everyone can **remind** anyone in the company about the above points. If there is a disagreement about the interpretations, the discussion can be escalated to more people within the company without repercussions.
-1. If you are unhappy with anything (your duties, your colleague, your boss, your salary, your location, your computer) please let your boss,or the CEO, know as soon as you realize it. We want to solve problems while they are **small**.
+1. If you are unhappy with anything (your duties, your colleague, your boss, your salary, your location, your computer) please let your boss, or the CEO, know as soon as you realize it. We want to solve problems while they are **small**.
 1. We want to have a great company so if you meet people that are **better** than yourself try to recruit them to join the company.
 1. It is easier to bond with people that have the same constraints, compensate for this and recognize that sales is hard because you are dependent on another organization and development is hard because you have to preserve the ability to quickly improve the product in the future.
 1. Our strategy is detailed in the [GitLab Strategy document](https://docs.google.com/a/gitlab.com/document/d/1tco4-arhiA3V-XUJAkTtJ6zrfvT0OrUHtID2S1qVsXE/edit), please read it and contribute.
@@ -112,32 +112,31 @@ We value results, transparency, sharing, freedom, efficiency, frugality, collabo
 1. All our procedures and templates are stored in (mostly public) git repositories instead of Google/Word documents. This makes them easier to find and suggest changes to with the organization and shows our commitment to open collaboration outside the organization.
 1. Use FYI (for your information) and /cc if you want to inform people but it does not require an action, use FYA (for your action) if an action of the recipient is required.
 1. Use video calls if you find yourself going back and forth in an issue/via email or over chat.
-1. Having pets, children, significant others, friends and family visible during video chats is encouraged, if human ask them to wave at your remote team member to say hi.
+1. Having pets, children, significant others, friends and family visible during video chats is encouraged. If they are humans, ask them to wave at your remote team member to say 'Hi'.
 1. If there are materials relevant for a calendar meeting (for example a Google Doc) please add the url to the meeting invite description.
 1. If you want to ask people if they are available for an event please send a new calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.
 1. If you want to schedule time with a team member for an outside meeting, create a calendar appointment and invite the team member only, after they respond yes then invite outside people.
 1. If you want to move a meeting just move the calendar appointment instead of reaching out via other channels, note the change at the top of the description.
 1. Email forwarding rules are specified in [a Google Doc accessible to people in the company](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit), if you want to change a rule [make a suggestion](https://support.google.com/docs/answer/6033474?hl=en) in the document.
 1. Emails are asynchronous, for example if your manager emails you on a weekend it is fine to reply during the workweek.
-1. If an something is or has become urgent feel free to ping people via chat referencing the subject of the email.
+1. If an email is or has become urgent feel free to ping people via chat referencing the subject of the email.
 1. Thank people that did a great job in our 'Thanks' chat channel. If someone is an employee just "@" mention them. If multiple people were working on something try mentioning each person by "@" name. 'Thanks everyone' does not say much. If someone is not an employee mention our office manager, their name, a quirky gift and link to their work. For example: _"@sylvia Joe deserves a lawnmower for LINK"_. The office manager will approach the people for their address saying we want to send some swag. We'll ship it in gift wrap with "Thanks for your great work on LINK, love from @gitlab". Don't thank the CEO or other executives for something that the company paid for, thank GitLab instead.
 
 <h3 id="gitlab-workflow">GitLab Workflow</h3>
 
-1. Always **create** an issue for things you work on. If it is worth spending time on it is worth creating an issue for it since that enables other people to learn and help. You can always edit the description or close it when the problem is something different or disappears.
+1. Always **create** an issue for things you work on. If it is worth spending time on, it is worth creating an issue for it since that enables other people to learn and help. You can always edit the description or close it when the problem is something different or disappears.
 1. **'Double link'** issues to prevent internal confusion and us failing to report back to the reporters. For example, open an issue with link to ZenDesk and close the issue with copy of the response. Or add 'Report: ' lines to the description with links to relevant issues and feature requests and ensure they are closed and note this with a comment. If you are not responsible for reporting back please do not close an issue, instead reassign it.
-1. If issues are related **crosslink** them (a link from each issue to the other one). Put the links at the top of the issues' description with a short mention of the relationship (Report, etc.). If there are more than 2 issues use one issue as the central one and crosslink all issues to this one. Please, also crosslink between Zendesk and GitLab issues.
-1. Give the community the **chance to help**. For example: place issues on the feedback tracker, leave comments in rake check tests about what you can run manually and ask 'can you send a merge request to fix this?'.
+1. If issues are related, **crosslink** them (a link from each issue to the other one). Put the links at the top of the issues' description with a short mention of the relationship (Report, etc.). If there are more than 2 issues, use one issue as the central one and crosslink all issues to this one. Please, also crosslink between ZenDesk and GitLab issues.
+1. Give the community the **chance to help**. For example: place issues on the feedback tracker, leave comments in rake check tests about what you can run manually and ask 'Can you send a merge request to fix this?'.
 1. Submit the **smallest** item of work that makes sense. When creating an issue describe the smallest fix possible, put suggestions for enhancements in separate issues and link them. If you're new to GitLab and are writing documentation or instructions submit your first merge request for at most 20 lines.
-1. Do not leave issues open for a long time, issues should be **actionable** and realistic. If you are assigned but don't have time, assign it to someone else. If nobody is assigned and it is not a priority please ensure the community can help and close it.
+1. Do not leave issues open for a long time, issues should be **actionable** and realistic. If you are assigned but don't have time, assign it to someone else. If nobody is assigned and it is not a priority, please ensure the community can help and close it.
 1. Make a conscious effort to **prioritize**<a href="prioritize"></a> your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc.
-The
-The priority starting from urgent is:
+    The priority starting from urgent is:
     1. @mentions from team members and the rest of the community
     1. Issues assigned to the upcoming milestone
     1. Issues assigned to future milestones
     1. Issues not assigned to a milestone
-In the same milestone the priority starting from urgent is:
+    In the same milestone the priority starting from urgent is:
     1. **Emergency** issues (a service engineer will probably contact you via chat)
     1. **Security** issues
     1. **Data integrity** issues (preventing data loss)
@@ -171,10 +170,10 @@ In the same milestone the priority starting from urgent is:
 1. Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
 1. When done with a point mention the subject of the next item and hand over to the next person.
 1. We ask everyone what they did outside of work the day(s) before.
-1. There is no need to excuse yourself with "I didn't do anything interesting", "I just watched television" or "that's all", it is not a competition. Instead share the most interesting detail, for example what television show you watched, book you are reading, videogame you played or what recipe you cooked.
+1. There is no need to excuse yourself with "I didn't do anything interesting", "I just watched television" or "that's all", it is not a competition. Instead share the most interesting detail, for example what television show you watched, book you are reading, video game you played or what recipe you cooked.
 1. Sequence of asking people is in order of joining the company, same as on the [team page](https://about.gitlab.com/team/). If there are non-team page people in the call we end with those.
 1. Please look if the person you hand over to is present in the participant list so you don't hand over to someone who is not present.
-1. Last person hands over to the first person in the call order that is present (normally Dmitriy) who wishes everyone a good day or whishes everyone a great day her or him self.
+1. Last person hands over to the first person in the call order that is present (normally Dmitriy) who wishes everyone a good day or wishes everyone a great day her or him self.
 
 <h3 id="user-communication-guidelines">User Communication Guidelines</h3>
 
@@ -186,7 +185,7 @@ In the same milestone the priority starting from urgent is:
 1. Don't make promises that you can't keep.
 1. Guide users who ask for help and share links. [Types of requests](https://about.gitlab.com/2014/12/08/explaining-gitlab-bugs/).
 1. If someone gives a suggestion, guide them to the [Feature Request Forum](http://feedback.gitlab.com/forums/176466-general).
-1. When facing negative comment respond patiently and treat every user as an individual, people with the strongest opinions can turn into [the strongest supporters](https://about.gitlab.com/2015/05/20/gitlab-gitorious-free-software/).
+1. When facing negative comment, respond patiently and treat every user as an individual, people with the strongest opinions can turn into [the strongest supporters](https://about.gitlab.com/2015/05/20/gitlab-gitorious-free-software/).
 
 <h3 id="writing-style-guidelines">Writing Style Guidelines</h3>
 
@@ -199,7 +198,7 @@ In the same milestone the priority starting from urgent is:
 1. The community include users, contributors, core team members, customers, people working for GitLab Inc., and friends of GitLab. If you want to refer to 'people not working for GitLab Inc.' just say that and don't use the word community. If you want to refer to people working for GitLab Inc. you can also use 'the GitLab Inc. team' but don't use the 'GitLab Inc. employees'.
 1. All people working for GitLab the company are the [GitLab team](https://about.gitlab.com/team/), we also have the [Core team](https://about.gitlab.com/team/) that is part GitLab team, part volunteers.
 1. Always write GitLab with a capitalized G and L, even when writing GitLab.com.
-1. When stating monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9
+1. Monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9
 1. If an email needs a response write the ask at the top of it.
 1. Our homepage is https://about.gitlab.com/ (with the `about.` and with `https`).
 1. If you use headers properly format them (`##` in Markdown, "Heading 2" in Google docs), start at the second header level because header level 1 is for titles, do not end headers with a colon.
@@ -232,7 +231,7 @@ Make sure it is charging, otherwise try again.
 1. If you copy code always **check** the license and attribute when needed or appropriate.
 1. Check community **contributions** and do not merge it when there can be doubt about the ownership.
 1. Only the CEO of the company **signs** legal documents such as NDAs. Sales people and the business office manager can upload them via HelloSign.
-1. View our[ DMCA policy](https://about.gitlab.com/dmca) in regards to copyright / 
+1. View our [DMCA policy](https://about.gitlab.com/dmca) in regards to copyright /
 intellectual property violations
 
 <h2 id="spending-company-money">Spending Company Money</h2>
