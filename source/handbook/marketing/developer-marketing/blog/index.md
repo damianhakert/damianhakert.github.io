@@ -34,3 +34,10 @@ We ensure there is a weekly blog post. We also want to bring in voices from all 
 
 We are developing a program to invite paid contribution by GitLab community members. Coming soon!
 
+## Blog post backlog
+
+- Anything not assigned to a person is the [backlog](https://dev.gitlab.org/gitlab/blog-posts/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&author_id=&assignee_id=0&milestone_title=&label_name=)
+- Anything that is assigned to a person in 'in progress'
+- Anything that has a non-WIP MR is ready for review
+
+
