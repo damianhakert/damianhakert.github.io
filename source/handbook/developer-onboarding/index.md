@@ -8,34 +8,8 @@ Make sure you've checked out our [handbook] beforehand, so you get a feeling
 of how we work at GitLab. Below you'll find everything you need to start developing.
 If something is missing, add it (as goes with everything at GitLab)!
 
-## GitLab instances
-
-We have two GitLab instances that we use primarily:
-
-### dev.gitlab.org
-
-This server is only accessible to people from GitLab the company.
-
-This is the instance we use for customers development.
-
-In addition, all our internal (company) issues are found here as well.
-
-This server is updated from master every night, so we quickly see if we broke something.
-
-Often referred to as `dev`.
-
-### GitLab.com
-
-This is the SaaS of GitLab. Everyone can host their repository for free here and
-this is where the majority of open source contributions come in. Unless there's
-a good reason not to (customer information disclosure, undisclosed security
-issues, etc.), do your development and submit your merge requests here [in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
-
-### Other instances
-
-Many developers set up their own private GitLab instance somewhere, for instance
-to test and work with LDAP or Active Directory, to give demos, or for various
-other reasons.
+## GitLab Instances
+We have two main GitLab instances, as explained in the [general onboarding](https://about.gitlab.com/handbook/general-onboarding#gitlab-instances)
 
 ## Getting started with GitLab development
 
