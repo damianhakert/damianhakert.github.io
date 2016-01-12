@@ -27,7 +27,7 @@ Building and delivering software in phases/parts rather than trying to build eve
 
 ### Artifactory
 
-*** Needs definition here
+Version control for binaries.
 
 ### Artifacts
 
@@ -69,6 +69,10 @@ Having your own logo on your GitLab instance login page instead of the GitLab lo
 
 *** Needs definition here
 
+### Clone
+
+A copy of a repository stored on your machine that allows you to use your own editor without being online, but still tracks the changes made remotely.
+
 ### Code Review
 
 Examination of a progam's code. The main aim is to maintain high standards quality of code that is being shipped.
@@ -79,11 +83,11 @@ Examination of a progam's code. The main aim is to maintain high standards quali
 
 ### Collaborator
 
-*** Needs definition here
+Person with read and write access to a repository who has been invited by repository owner.
 
 ### Commit
 
-*** Needs definition here
+Is a change (revision) to a file, and also creates an ID that allows you to see revision history and who made the changes.
 
 ### Community
 
@@ -123,15 +127,15 @@ For us(GitLab) this means a software developer, i.e. someone who makes software.
 
 ### Fork
 
-*** Needs definition here
+Your own copy of a repository that allows you to make changes to the repository without affecting the original. 
 
 ### Gerrit
 
-*** Needs definition here
+A code review tool built on top of Git.
 
 ### Git Hooks
 
-*** Needs definition here
+Are scripts you can use to trigger actions at certain points.
 
 ### GitHost.io
 
@@ -191,7 +195,7 @@ Atlassian's project management software. i.e. a complex issue tracker. See[Jira]
 
 ### Kerberos
 
-*** Needs definition here
+A network authentication protocol that uses secret-key cryptography for security.
 
 ### Labels
 
@@ -207,7 +211,7 @@ Allowing GitLab to sign in people from an LDAP server i.e. Allow people whose na
 
 ### LDAP Group Sync
 
-*** Needs definition here
+Allows you to synchronize the members of a GitLab group with one or more LDAP groups.
 
 ### Git LFS
 
@@ -231,7 +235,7 @@ A free distributed version control system like Git. Think of it as a competitor 
 
 ### Merge
 
-*** Needs definition here
+Takes changes from one branch, and applies them to into another. 
 
 ### Meteor
 
