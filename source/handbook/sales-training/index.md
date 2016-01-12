@@ -9,6 +9,7 @@ title: "Sales Training"
 * [6 Questions Sales Reps Should (But Don’t) Ask Themselves Before Sending an Email](#questions)
 * [4 Ways to Ruin a Sales Presentation](#presentation)
 * [Persistent or Just Plain Pushy? 7 Sales Behaviors Decoded](#behaviors)
+* [A Two-Step Formula for Handling Pricing Objections](#objections)
 
 
 ### 5 Signs You're Talking At (Not Talking To) Your Prospects <a name="signs"></a>
@@ -354,3 +355,76 @@ In sales, the line between pushiness and persistence can be hard to walk.  Here 
     
 
 Recognize that there’s a fine line between being annoying and tenacious. The same sales activities can be executed in very different ways -- some good, some bad.
+
+
+### A Two-Step Formula for Handling Pricing Objections <a name="objections"></a>
+
+Below is a proven two-step formula that can help you handle any pricing (or any other) objection, for those times when your ounce of prevention may not be 100% foolproof….
+
+#### Step 1: Count to three!
+
+Whenever you’re faced with a difficult question or objection, the first thing you need to do is take a deep breath, make eye contact with your prospect and silently count to three.
+
+It is amazing how many clients will answer their own objections, or at least give you some much-needed information, when you simply say nothing. Don’t be afraid of silence. Practice it until the three-second pause becomes one of the most effective tools in your arsenal.
+
+A couple of years ago, I was buying a new pair of glasses and having lenses put in an old pair. The optician was clearly afraid to talk about price, and even went so far as to write the estimate down on a piece of paper and pass it to me instead of saying the price out loud.
+
+To my surprise, the number actually struck me as very reasonable. I had left my purse at home, so I turned to my husband to get his wallet. The optician took my silence as an objection and immediately dropped the price 15%.
+
+This seemingly minor transaction was a great demonstration of the power of silence, and the lengths most people will go to in order to fill it. In sales, you can use silence to effectively handle almost any objection, particularly those related to price.
+
+Whenever a client tells you your price is too high, just breathe and be quiet. You will find that around 40% of all prospects will fill that silence with information you can use to move the sale forward.
+
+#### Step 2: Ask questions.
+
+Step 2 is to ask questions. You can ask up to three questions before you have to answer an objection – provided you ask the right questions in the right way.
+
+The key is to acknowledge what the customer is saying and then offer them a compliment before asking your question. For example, try saying something like “I appreciate you asking that,” “that’s a really great question,” “I understand how you feel” or “good point, I never thought about that!”
+
+Including a nice warm statement in front of your question will encourage your customer to answer it, because they will feel like you are giving them something first. The compliment is a gift. It makes them feel that they are special, that you are paying attention to them and that you truly care about them, and they will be more likely to respond in kind.
+
+Which questions to ask?
+
+Once you’ve paid the client a compliment, ask them a question that is both direct and phrased to elicit more information. The following are some responses you can use to answer a few of the more common objections.
+
+##### OBJECTION: “Your price is too high!”
+
+##### RESPONSES:
+
+* Thanks for sharing that. How much too high are we?
+* I appreciate your telling me that. Have you found a less expensive product?
+* You are right, we are more expensive than some of our competitors. How much were you hoping to pay?
+* You’re right, we are not the cheapest. Is price the only consideration? • Thanks for being honest. Is the price higher than you expected, or is it because we combined the services and training in one proposal?
+* I’m not surprised to hear you say that. Are we only too high overall or is our per-unit cost too high as well?
+* Thanks for sharing that. Is our price a showstopper?
+* I appreciate your honesty. Does our current price mean we will never be able to do business together?
+* Too high? Really?
+* What do you suggest we do?
+* Thanks for letting me know. I’m curious, how much were you expecting to invest?
+
+##### OBJECTION: We don’t have any budget.
+
+##### RESPONSES:
+
+* Budget?
+* Oh! I appreciate that makes it difficult to buy. When does your budget come up for renewal or review?
+* Thanks for letting me know. Is your budget renewed annually or quarterly?
+* Does not having a budget mean we will never get a chance to do business together this year?
+
+##### OBJECTION: I need a discount!
+
+##### RESPONSES:
+
+* Discount?
+* It’s good of you to be looking for the best deal. How much of a discount do you need? Why that much?
+* Making sure you’re getting the best deal for your company is a good idea. If we can’t budge on the price, does that mean it’s over between us?
+
+#### Echo! Echo!
+
+Another option for asking questions is to use the ECHO technique.
+
+The echo technique is simply the art of taking the last word (or last important word) in a client’s sentence and turning it into a question.
+
+Whenever a client says “I need a discount,” look them squarely in the eye and say “discount?” Ninety-nine times out of a hundred, the customer either tells the rep exactly what they need to do from a price and terms point of view to move the deal forward, or offers alternatives to the pricing model that will make both parties happy.
+
+What could be simpler than that!
