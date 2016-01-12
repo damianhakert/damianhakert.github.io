@@ -92,7 +92,7 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Click Find Location.
 1. When search field appears, leave blank and click Search.
 1. Click on Add location.
-1. Complete location information. For a remote location, enter the location (ex. WA remote) in all fields excpet city,state and zip.
+1. Complete location information. For a remote location, enter the location (ex. WA remote) in all fields except city, state and zip.
 1. Click Add.
 
 ### Transfer Employee to Different Location
@@ -107,4 +107,4 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Select Update.
 
 ## Setting up new hiring contracts
-New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/)page, including instructions on how to set up new contracts.
+New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/) page, including instructions on how to set up new contracts.

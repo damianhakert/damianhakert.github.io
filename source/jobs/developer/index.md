@@ -6,7 +6,6 @@ title: "Developer"
 At GitLab, developers are highly independent and self-organized individual
 contributors who work together as a tight team in a [remote and agile](https://about.gitlab.com/2015/09/14/remote-agile-at-gitlab/) way.
 
-
 ## General Developer Responsibilities
 
 * Develop features from request to polished end result.
@@ -19,6 +18,7 @@ contributors who work together as a tight team in a [remote and agile](https://a
 * Qualify developers for hiring.
 
 ### Responsibilities Split Between Various Developers
+
 * Omnibus packaging
 * Chef cookbooks
 * DevOps: ensuring that deployments are smooth and scalable
@@ -31,12 +31,15 @@ contributors who work together as a tight team in a [remote and agile](https://a
 * Feature development for GitLab CE, EE, and CI.
 
 ### Senior Developers
+
 Senior Developers are experienced developers who:
+
 * know a domain really well and radiate that knowledge
 * train new people
 * are the go-to person when people on the team have development questions
 
 ## Requirements for Applicants
+
 (Check our [Jobs](https://about.gitlab.com/jobs/) page to see current openings).
 
 * You can reason about software, algorithms and performance from a high level

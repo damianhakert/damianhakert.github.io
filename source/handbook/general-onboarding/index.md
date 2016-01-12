@@ -76,6 +76,7 @@ welcome email to the employee at their work email on their first date of hire.
 * [ ] People Ops: Invite to team meeting.
 * [ ] People Ops: Invite to autoconnect on [Beamy](https://about.gitlab.com/handbook#beamy-guidelines).
 * [ ] People Ops: Order business cards for new team member.
+* [ ] People Ops: Add team member to Expensify (if employee).
 * [ ] New team member: Add yourself to our [Email, Phone and Emergency Contact Sheet](https://docs.google.com/spreadsheets/d/1kMPW_eGEOz9HOIHbD8uPCzDWljsDHovS4H5XY8Q12wo/edit#gid=0).
 * [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle.
 * [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar, stock photo or something with sunglasses).
