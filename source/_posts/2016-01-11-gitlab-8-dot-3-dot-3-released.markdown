@@ -10,7 +10,8 @@ filename: 2016-01-11-gitlab-8-dot-3-dot-3-released.markdown
 
 _**Warning** (2016-01-12 13:25 UTC)_: Do not upgrade to GitLab 8.3.3 at this time.
 GitLab 8.3.3 ships with gitlab-workhorse 0.5.3, which contains an [API routing bug](https://gitlab.com/gitlab-org/gitlab-workhorse/issues/14).
-We will release version 8.3.4 with a fix soon.
+GitLab 8.3.4 [has been released](https://about.gitlab.com/2016/01/12/gitlab-8-dot-3-4-released/)
+to correct the issue.
 
 ---
 
