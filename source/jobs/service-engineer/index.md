@@ -5,7 +5,7 @@ title: "Service Engineer"
 The rising popularity of GitLab means that our professional services are in high demand.
 If you have the skills to help our clients we would love to talk to you.
 
-Currently we are looking for skilled people located between UTC -2 and UTC +4, specifically.
+Currently we are looking for skilled people located in Europe (UTC -2 to +4) specifically.
 If you would love to work from home and help GitLab grow, this is the right spot for you.
 
 ## Responsibilities
