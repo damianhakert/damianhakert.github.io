@@ -10,7 +10,7 @@ author_twitter: jacobvosmaer
 [GitLab 8.3.3](/2016/01/11/gitlab-8-dot-3-dot-3-released/) depends on
 gitlab-workhorse 0.5.3 which has an [API routing
 bug](https://gitlab.com/gitlab-org/gitlab-workhorse/issues/14). We have
-just release GitLab 8.3.4 and gitlab-workhorse 0.5.4 to fix the routing
+just released GitLab 8.3.4 and gitlab-workhorse 0.5.4 to fix the routing
 bug.
 
 <!-- more -->
