@@ -10,7 +10,7 @@ title: "Sales Training"
 * [4 Ways to Ruin a Sales Presentation](#presentation)
 * [Persistent or Just Plain Pushy? 7 Sales Behaviors Decoded](#behaviors)
 * [A Two-Step Formula for Handling Pricing Objections](#objections)
-* [Price Objections - The Script that Always Closes] (#script)
+* [Price Objections - The Script that Always Closes](#script)
 
 
 ### 5 Signs You're Talking At (Not Talking To) Your Prospects <a name="signs"></a>
