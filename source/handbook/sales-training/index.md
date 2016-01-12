@@ -10,6 +10,7 @@ title: "Sales Training"
 * [4 Ways to Ruin a Sales Presentation](#presentation)
 * [Persistent or Just Plain Pushy? 7 Sales Behaviors Decoded](#behaviors)
 * [A Two-Step Formula for Handling Pricing Objections](#objections)
+* [Price Objections - The Script that Always Closes] (#script)
 
 
 ### 5 Signs You're Talking At (Not Talking To) Your Prospects <a name="signs"></a>
@@ -428,3 +429,21 @@ The echo technique is simply the art of taking the last word (or last important 
 Whenever a client says “I need a discount,” look them squarely in the eye and say “discount?” Ninety-nine times out of a hundred, the customer either tells the rep exactly what they need to do from a price and terms point of view to move the deal forward, or offers alternatives to the pricing model that will make both parties happy.
 
 What could be simpler than that!
+
+### Price Objections - The Script that Always Closes <a name="script"></a>
+
+You hear it all the time – if your price is higher than your competition you’re told to “build value." You’re instructed to stress the quality, the warranty, the features, etc. But your prospects have heard all that before, haven’t they? Want a better way?
+
+Let’s face it – prospects will often buy from people they like, know or trust. Your enthusiasm for your product or service is also a big factor in getting your prospects to place an order with you as well. Knowing this, I’ve often used the following script to not only build value in my product or service, but also to build value in myself. Here’s what to say:
+
+If your prospects says, “I can get cheaper," or “Well the XYZ company has something similar or for less money," or anything like that, say:
+
+“You know _________ I’m aware of all the other options for this Git Repository Management and quite frankly if I thought any of them were better for my clients, I’d be working there and selling them.
+
+“When I got into this industry I did my own research, and I looked for the best company that not only offered the best product but also delivered the best customer service and follow-up. I chose GitLab because they give my clients the best overall value and the best experience and that means they continue to do business with me and refer new business to me as well.
+
+“If there was a better product or company for you to be doing business with I’d be there and we’d be talking about that. But there isn’t.
+
+“Bottom line – if you want the best overall value, results and experience, then do what I do did – choose GitLab – You’ll always be glad you did. Now, do you want to start with the X size order or would the Y size order be better?"
+
+This technique builds value in the most important part of any sales transaction — you and your belief in your product or service. Use it each time you get the price/competition objection and watch your sales and confidence growth.
