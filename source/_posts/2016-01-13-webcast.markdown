@@ -15,7 +15,8 @@ On January 22nd we'll release our 50th monthly release. We want to take this tim
 
 ## A walk-through tour
 
-Job van der Voort, our VP of Product, will give us a guided tour of the features of GitLab 8.4. These features include enhanced search capabilities and the ability to locate your repositories globally with GitLab Geo.
+Job van der Voort, our VP of Product, will give us a guided tour of the features of GitLab 8.4. These features include enhanced search capabilities and
+improved importing from GitHub and GitLab.
 
 There are also upgrades coming for popular features, such as GitLab CI and others. There are  improvements to artifact support, and the ability to add computing power with runner auto-queue. We're also working on CNAME support
 for GitLab Pages, a feature in GitLab EE and available on GitLab.com.
