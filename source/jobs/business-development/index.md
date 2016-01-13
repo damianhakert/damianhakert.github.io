@@ -24,4 +24,4 @@ You love talking about GitLab to people and no question or challenge is too big 
 * You are obsessed with making customers happy. You know that the slightest trouble in getting started with a product can ruin customer happiness.
 * Be ready to learn how to use GitLab and Git as you’ll be able to edit the website directly from terminal.
 * Excellent spoken and written English
-* Work remotely from anywhere in the world (Curious to see what that looks like? Check out our remote manifesto!)
+* Work remotely from anywhere in the world (Curious to see what that looks like? Check out our <a href="https://about.gitlab.com/2015/04/08/the-remote-manifesto/" target="_blank">remote manifesto</a>!)
