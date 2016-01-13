@@ -7,7 +7,7 @@ You love talking about GitLab to people and no question or challenge is too big 
 
 ## Responsibilities
 
-* Work with our demand generation manager to develop the proper qualifying questions for all type of customers. Using BANT or something similar, be able to identify where a customer is in the sale and marketing funnel and take the appropriate action.
+* Work with our demand generation manager to develop the proper qualifying questions for all type of customers. Be able to identify where a customer is in the sale and marketing funnel and take the appropriate action.
 * Work with our demand generation manager to follow the process from which leads pass onto sales, support, etc.
 * Work with our demand generation manager to document all processes in the handbook and update as needed.
 * Work closely with support to build a process where we can identify customers that would be interesting for EE and pass those onto sales.
