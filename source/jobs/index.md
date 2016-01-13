@@ -43,6 +43,11 @@ If you see yourself as a good fit with our company’s goals and team, then plea
 * [Description](https://about.gitlab.com/jobs/frontend-engineer/)
 * [Apply](https://gitlab.workable.com/jobs/181461/candidates/new)
 
+### Strategic Relations Manager
+
+* [Description](https://about.gitlab.com/jobs/strategic-relations-manager)
+* [Apply](https://gitlab.workable.com/jobs/186837/candidates/new)
+
 ### Account Manager
 
 * [Description](https://about.gitlab.com/jobs/account-manager/)
