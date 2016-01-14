@@ -42,6 +42,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Intellectual Property](#intellectual-property)
 * [Spending Company Money](#spending-company-money)
 * [Paid Time Off](#paid-time-off)
+* [Discretionary Bonuses](#discretionary-bonuses)
 * [Signing Legal Documents](#signing-legal-documents)
 * [Using Git to update this website](#starting-with-git)
 
@@ -306,6 +307,16 @@ intellectual property violations
 1. Add an **appointment** to the GitLab availability calendar as you know your plans, you can always change it later.
 1. In case it can be useful add your planned time off as a **FYI** on the next agenda of the team call.
 1. We will **help** clients during official days off, unless they are official days off in both the Netherlands and the U.S. We try to have people working who are in a country that don't have an official day off. If you need to work during an official day off in your country, you should take a day off in return.
+
+
+## Discretionary Bonuses<a name="discretionary-bonuses"></a>
+1. Every now and then, individual team members really shine as they go above and beyond their regular responsibilities and tasks.  
+   * We recognize this through the #thanks channel, and sometimes also through a discretionary bonus.
+   * Managers can recommend their team members to the CEO for a $1,000 bonus.
+   * On team call, the manager announces the “who” and “why” of the bonus; and the "why"
+   should be tied to our [values](#values).
+1. If you think you are meeting the requirements for another title, want to change jobs within the company, or think your growth should be reflected in your compensation please feel free to discuss with your manager.
+
 
 ## Signing Legal Documents<a name="signing-legal-documents"></a>
 
