@@ -11,6 +11,7 @@ title: "Sales Training"
 * [Persistent or Just Plain Pushy? 7 Sales Behaviors Decoded](#behaviors)
 * [A Two-Step Formula for Handling Pricing Objections](#objections)
 * [Price Objections - The Script that Always Closes](#script)
+* [5 B2B Sales Call Techniques That Get More Meetings](#techniques)
 
 
 ### 5 Signs You're Talking At (Not Talking To) Your Prospects <a name="signs"></a>
@@ -447,3 +448,37 @@ If your prospects says, “I can get cheaper," or “Well the XYZ company has so
 “Bottom line – if you want the best overall value, results and experience, then do what I do did – choose GitLab – You’ll always be glad you did. Now, do you want to start with the X size order or would the Y size order be better?"
 
 This technique builds value in the most important part of any sales transaction — you and your belief in your product or service. Use it each time you get the price/competition objection and watch your sales and confidence growth.
+
+### 5 B2B Sales Call Techniques That Get More Meetings <a name="techniques"></a>
+
+If there’s anything I’ve learned from listening to thousands of sales calls, it’s this: despite all the tools intended to help sales reps engage with prospects -- email, lead and account scoring, content, social media alerts, and many more -- calls are still where relationships are forged or lost forever.
+
+To put it simply, every other sales activity is leading up to one thing: a phone call. Not surprisingly, reps that have the best phone skills are almost always the most successful. In my experience, here are the five sales call techniques that the best reps put into practice with every prospect.  
+
+#### 1. Show Maximum Respect
+
+Many of your calls are no doubt scheduled in advance, but some aren’t. Near the beginning of unscheduled calls, ask this one simple question: “Have I caught you at a bad time?” You’ll be surprised how few people say yes. That’s because by simply asking the question, you’re conveying that you’re a thoughtful and respectful human being.
+
+#### 2. Justify the Call
+
+Before even dialing, imagine your prospect asking you, “Why are you calling me?” (with the emphasis on the word "me"). If you can answer that question eloquently and convincingly, then you’re bound to add value during the call.
+
+For example, “I’m calling because we’re in the same beekeeping LinkedIn group, and I noticed you asked whether any group members could recommend a good supplier.” Or, with a repeat customer, “You’ve ordered four cedar hives from us in the past, so I thought you’d want to know that we released a brilliant new model.”
+
+#### 3. Verify the Role
+
+One of the keys to B2B sales is reaching out directly to the person whose job/career/life your product will improve. As a sales rep, you’ll do research to ensure that you’re calling the right person. But because people change roles all the time, you should verify this up front as well, even if you’ve talked to the person in the past.
+
+For example, “Just to make sure, you’re still involved in managing beekeeping operations -- do I have that right?” You’ll be surprised how often people will respond with something like, “Actually, I changed roles, but I’d be happy to intro you to the person who’s doing it now.”
+
+#### 4. Personalize
+
+For best results, use public information to find common ground that helps you to connect as a person. For example, “I noticed that we’re both connected to Jack White. Great guy, and an incredible guitarist. How’d you meet?”
+
+Alternatively, you can reference prior engagement. For example, “I saw that you downloaded our bee relocation cheat sheet, and I wondered if our mobile cedar hives might be a good investment for you.”
+
+#### 5. Verify Compatibility
+
+As is often the case in B2B sales, you may have a technology, size, or geography requirement. You’re obviously going to research compatibility ahead of the call, but you also need to verify it before you waste anyone’s time. For example, “Just so you know, our new hive frames are only compatible with WBC hives. Would that be an issue for you?”
+
+If there’s one common thread in all these tips, it’s that the most successful sales reps put their customers’ needs first. Add value, be honest and respectful, and offer information -- not a sales pitch. If you can put all of these sales call techniques into use, you’ll be crushing your meeting quota in no time.
