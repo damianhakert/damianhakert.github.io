@@ -291,8 +291,9 @@ Make sure it is charging, otherwise try again.
 <h2 id="discretionary-bonuses">Discretionary Bonuses</h2>
 1. Every now and then, individual team members really shine as they go above and beyond their regular responsibilities and tasks.  
    * We recognize this through the #thanks channel, and sometimes also through a discretionary bonus.
-   * Managers can recommend their team members for a bonus (who, why, what form of bonus).
-   * On team call, the manager announces the “who” and “why” of the bonus.
+   * Managers can recommend their team members to the CEO for a $1,000 bonus.
+   * On team call, the manager announces the “who” and “why” of the bonus; and the "why"
+   should be tied to our [values](#values).
 1. If you think you are meeting the requirements for another title, want to change jobs within the company, or think your growth should be reflected in your compensation please feel free to discuss with your manager.
 
 
