@@ -15,8 +15,8 @@ but we're thinking a lot about the issues that were mentioned in it.
 We see many of these things happening and have been working on them for a long time,
 not in the least because we do our development in the open ourselves.
 
-Here we would like to share our thinking about these issues and what
-we're planning to do to make things better with GitLab.
+Here we would like to share our thoughts about these issues and
+what we’re planning to do to make things better with GitLab.
 
 <!-- more -->
 
