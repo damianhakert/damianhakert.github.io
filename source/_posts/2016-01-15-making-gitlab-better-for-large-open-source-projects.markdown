@@ -27,8 +27,7 @@ what we’re planning to do to make things better with GitLab.
 > We’d like issues to gain custom fields, along with a mechanism (such as a mandatory issue template,
 > perhaps powered by a newissue.md in root as a likely-simple solution) for ensuring they are filled out in every issue.
 
-In GitLab you can set a template for an issue and for a merge request
-([documentation](https://gitlab.com/gitlab-org/gitlab-ee/blob/master/doc%2Fcustomization%2Fissue_and_merge_request_template.md)).
+In GitLab you can [set a template for an issue and for a merge request](https://gitlab.com/gitlab-org/gitlab-ee/blob/master/doc/customization/issue_and_merge_request_template.md).
 
 We're also planning to add [multiple templates](https://gitlab.com/gitlab-org/gitlab-ee/issues/101),
 that you can use depending on the reason for making an issue.
@@ -75,21 +74,21 @@ To see our response to every single point, please view
 [this issue on GitLab.com](https://gitlab.com/gitlab-org/gitlab-ce/issues/8938).
 
 One issue that was raised several times was the ability to not create
-merge commits. In GitLab you can, as alternative to the merge commits,
+merge commits. In GitLab you can, as an alternative to the merge commits,
 [use fast-forward merges](http://doc.gitlab.com/ee/workflow/ff_merge.html)
 or have [merge requests be automatically rebased](http://doc.gitlab.com/ee/workflow/rebase_before_merge.html).
 
 ## How we all build GitLab
 
-GitLab is built in the open. Our decisions, doubts and arguments about
-changes to GitLab, new features and everything else can all be found in our
+GitLab is built in the open. Our decisions, doubts, and arguments about
+changes to GitLab, new features, and everything else can all be found in our
 repositories (mainly [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues)
 and [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues)).
 
-Everyone is free to comment, create new issues, vote and
+Everyone is free to comment, create new issues, vote on, and
 [contribute to the development](http://contributors.gitlab.com/)
-of GitLab. We have short and long term goals, all of which are visible on the
-issues of the repositories, but also on the [direction page on the website](https://about.gitlab.com/direction/).
+of GitLab. We have short- and long-term goals, all of which are visible on the
+issues of the repositories and on the [direction page on the website](https://about.gitlab.com/direction/).
 
 If you want to change something, create an issue or submit a merge request.
 You can choose to implement something yourself, or ask someone else to do it.
