@@ -137,6 +137,12 @@ Try to submit a merge request for each part of the functionality.
 This means that we expect multiple a merge request per week from you.
 Smaller merge requests are more likely to receive good feedback and will get merged sooner.
 
+### Review 
+
+Merge request that fixes `Frontend` issue should have `Frontend` label and should be assigned to Frontend Engineer for review. 
+All other merge requests should be assigned for review to one of merge request endbosses. 
+You can find them on [team page](https://about.gitlab.com/team/). 
+
 ### Ruby Gems
 
 When building and publishing Gems for GitLab make sure multiple developers have
