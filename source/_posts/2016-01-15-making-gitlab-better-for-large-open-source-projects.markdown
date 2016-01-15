@@ -8,7 +8,7 @@ author_twitter: Jobvo
 ---
 
 We want GitLab to be the best place for any software project,
-independent of it being open source, big or small.
+whether open source or not, whether big or small.
 
 We are not addressed by [the letter of GitHub's open source community](https://github.com/dear-github/dear-github),
 but we're thinking a lot about the issues that were mentioned in it.
@@ -80,7 +80,7 @@ or have [merge requests be automatically rebased](http://doc.gitlab.com/ee/workf
 
 ## How we all build GitLab
 
-GitLab is build in the open. Our decisions, doubts and arguments about
+GitLab is built in the open. Our decisions, doubts and arguments about
 changes to GitLab, new features and everything else can all be found in our
 repositories (mainly [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues)
 and [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues)).
