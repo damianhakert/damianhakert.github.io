@@ -179,8 +179,10 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 * [ ] For this offboarding, Manager is (@ mention), People Ops is handled by (@ mention). cc @sytse, @rspeicher, @jacobvosmaer, @patricio.
 * [ ] Manager of former team member: Organize smooth hand over of any work or tasks from former team member.
 * [ ] Robert/Jacob/CEO: Suspend Google account
-* [ ] Robert/Jacob/CEO: When the manager has time change the telephone number and send a password reset to their manager.
-* [ ] Robert/Jacob/CEO: 2 weeks after blocking the Google account, consider deleting it.
+   * [ ] Robert/Jacob/CEO: When the manager has time, change the telephone number associated with the account and send a password reset to the manager.
+   * [ ] Manager: log on to Google account and have new messages forward to yourself.
+   * [ ] Robert/Jacob/CEO: when manager requests (typically 4 weeks after blocking the Google account), transfer owned documents from Google Drive to 
+   manager, and delete the Google account.
 * [ ] Robert/Jacob/CEO: Disable team member in Slack.
 * [ ] People Ops: Remove former team member from TriNet and payroll if applicable.
 * [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment.
