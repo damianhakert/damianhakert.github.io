@@ -297,7 +297,8 @@ Here are some open-ended, high-value questions that reps can ask their prospects
 * If we were to work together on this, what are the top two or three outcomes you’d like to see?
 * How will you be measuring our success related to these outcomes?
 * What’s the biggest risk for you to not make progress on this situation?
-* How to Turn Any Question into an Open-Ended Question
+
+#### How to Turn Any Question into an Open-Ended Question
 
 So here’s your action step for the next few days. Start to pay attention to the questions you are asking your prospects, clients, and everyone else you encounter. Did you just ask a closed-ended question when an open-ended question would have yielded more information for both parties? Where appropriate, start to turn some of your closed-ended questions into open-ended questions.
 
