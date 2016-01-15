@@ -270,22 +270,16 @@ Here are some examples of calls-to-action reps can include in their sales emails
 
 The introductory email sets the tone for the relationship. Before you reach out, ask yourself these six questions to determine whether or not you’re fully prepared to send that email. If you can’t answer all of these questions, hit the reset button and get back to the drawing board.
 
-### The Art of Asking Open-Ended Questions <a name="art"></a>
+### Bill Cates from Hubspot wrote [a great article about "The Art of Asking Open-Ended Questions.”](http://blog.hubspot.com/sales/the-art-of-asking-open-ended-questions) <a name="art"></a>  Here are some highlights.
 
-You bring value to your prospects, clients, and yourself through the questions you ask -- but only if they're good questions. Allow me to introduce you to a concept I call "high-value questions."
+High-value questions bring value to the conversation and creates a learning experience for you and your prospect/client.  
 
-Simply stated, a high-value question is one that creates a learning experience for either the questioner (you), the person being questioned (your prospect or client), or both. Naturally, the best high-value questions provide insight for all parties concerned.
+High-value questions are open-ended instead of closed-ended. 
 
-One characteristic of most high-value questions is that they are open-ended instead of closed-ended. I suspect you’ve heard this distinction before, and perhaps you’re applying it already. Let’s make sure you’re using open-ended questions to their full value.
+If your question can be answered with a simple "yes" or "no", that is a closed-ended question.   Questions that begin with "Did", "Are", "Would" and "Is" are closed-ended.  
 
-#### How to Ask Open-Ended Questions
-If at the end of the meeting, I ask a prospect or client, “Did you find this meeting helpful?” that’s a closed-ended question since they can only answer "yes" or "no." And while it’s good to know that they found the meeting helpful, unless they volunteer some elaboration to their answer, you don’t know in what ways they experienced value. Maybe they’re just being polite.
+To turn a closed-ended question to an open-ended question, start with "How", "If", "What", "Why", "Who".  The result of an open-ended question is you gather more insight from the prospect/client and they become more involved in the process as well.  
 
-On the other hand, I could ask, “We’ve been through a bit of a process to get to this point, have we not? Can you tell me the value you feel you’ve received by going through this entire process?”
-
-Now what happens? Your prospect or client clearly articulates their perception of the process, which helps you to get even clearer on your value. In addition, asking your prospects and clients about value actually helps them reinforce it in their own minds. The net result is you become more referable and earn the right to ask for referrals.
-
-#### Examples of Open-Ended Questions
 Here are some open-ended, high-value questions that reps can ask their prospects:
 
 * What are the top priorities in your business at the moment?
@@ -297,12 +291,6 @@ Here are some open-ended, high-value questions that reps can ask their prospects
 * If we were to work together on this, what are the top two or three outcomes you’d like to see?
 * How will you be measuring our success related to these outcomes?
 * What’s the biggest risk for you to not make progress on this situation?
-
-#### How to Turn Any Question into an Open-Ended Question
-
-So here’s your action step for the next few days. Start to pay attention to the questions you are asking your prospects, clients, and everyone else you encounter. Did you just ask a closed-ended question when an open-ended question would have yielded more information for both parties? Where appropriate, start to turn some of your closed-ended questions into open-ended questions.
-
-Here’s a quick little trick I discovered that might help. If you find yourself asking a closed-ended question, you can always open it up at the end. For example, if you start by asking “Did you find value in this process?" you can follow it up with, "If so, please tell me in what ways.”
 
 ### 4 Ways to Ruin a Sales Presentation <a name="presentation"></a>
 
