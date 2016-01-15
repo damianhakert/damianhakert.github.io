@@ -10,7 +10,8 @@ author_twitter: Jobvo
 We want GitLab to be the best place for any software project,
 whether open source or not, whether big or small.
 
-We are not addressed by [the letter of GitHub's open source community](https://github.com/dear-github/dear-github/tree/2f45c3255a55c3ac111817840537151d96e1649e),
+[The letter of GitHub's open source community](https://github.com/dear-github/dear-github/tree/2f45c3255a55c3ac111817840537151d96e1649e)
+is clearly not addressed to us,
 but we're thinking a lot about the issues that were mentioned in it.
 We see many of these things happening and have been working on them for a long time,
 not in the least because we do our development in the open ourselves.
@@ -92,5 +93,3 @@ issues of the repositories, but also on the [direction page on the website](http
 If you want to change something, create an issue or submit a merge request.
 You can choose to implement something yourself, or ask someone else to do it.
 Great ideas will always get the attention they need.
-
-It's our hope that as a community, we can build something great together.
