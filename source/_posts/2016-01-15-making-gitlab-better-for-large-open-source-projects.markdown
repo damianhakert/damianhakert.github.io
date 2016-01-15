@@ -14,7 +14,7 @@ whether open source or not, whether big or small.
 is clearly not addressed to us,
 but we're thinking a lot about the issues that were mentioned in it.
 We see many of these things happening and have been working on them for a long time,
-not in the least because we do our development in the open ourselves.
+not in the least because we develop on a [busy public issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) ourselves.
 
 Here we would like to share our thoughts about these issues and
 what we’re planning to do to make things better with GitLab.
