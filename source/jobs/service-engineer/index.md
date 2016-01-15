@@ -18,6 +18,14 @@ If you would love to work from home and help GitLab grow, this is the right spot
 
 More information can be found on the [support page in the handbook](https://about.gitlab.com/handbook/support/).
 
+### Senior Service Engineer
+Senior Service Engineers are experienced Service Engineers who 
+
+* train new Service Engineers
+* are a go-to person for the other Service Engineers when they face tough challenges
+
+
+
 ## Requirements for Applicants
 (Check our [Jobs](https://about.gitlab.com/jobs/) page to see current openings).
 
