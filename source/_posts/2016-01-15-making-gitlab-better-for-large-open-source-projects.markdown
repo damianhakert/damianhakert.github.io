@@ -10,13 +10,13 @@ author_twitter: Jobvo
 We want GitLab to be the best place for any software project,
 whether open source or not, whether big or small.
 
-We are not addressed by [the letter of GitHub's open source community](https://github.com/dear-github/dear-github),
+We are not addressed by [the letter of GitHub's open source community](https://github.com/dear-github/dear-github/tree/2f45c3255a55c3ac111817840537151d96e1649e),
 but we're thinking a lot about the issues that were mentioned in it.
+We see many of these things happening and have been working on them for a long time,
+not in the least because we do our development in the open ourselves.
 
 Here we would like to share our thinking about these issues and what
 we're planning to do to make things better with GitLab.
-
-_This is in response to [this version](https://github.com/dear-github/dear-github/tree/2f45c3255a55c3ac111817840537151d96e1649e) of the 'Dear GitHub' post_
 
 <!-- more -->
 
