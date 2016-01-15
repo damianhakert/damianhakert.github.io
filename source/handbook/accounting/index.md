@@ -76,9 +76,10 @@ vendors/contractors, thanks to "Shifted VAT". To make use of this shifted VAT:
 
 * The vendor/contractor writes the phrase "VAT shifted to recipient according to 
 article 44 and 196 of the European VAT Directive" on the invoice along with the 
-VAT-number of Gitlab BV. 
+VAT-number of GitLab BV (NL853740343B01). 
 * On the vendor's VAT return the revenue from GitLab BV goes to the rubric "Revenue within the EU". It goes without saying that vendors are responsible for their own correct and timely filings. 
 * GitLab BV files the VAT on the VAT return, and is generally able to deduct this VAT all as part of the same return.
+
 
 ### Processing payment for invoices
 1. Upon receipt of vendor invoices:
@@ -223,7 +224,7 @@ This transaction transfers the payment obligation from the customer to Stripe.  
 Post a journal entry:
 1. Fill the "Journal Date" with the date that payment was received in the bank.
 1. Fill the "Credit Account" with Stripe.
-1. Fill the "Debit Account" with "Comerica Checking - Gitlab Inc."
+1. Fill the "Debit Account" with "Comerica Checking - GitLab Inc."
 1. Leave "Name" blank.
 1. Leave "Class" blank.
 1. Fill the "Description" with "To record Stripe transfer (date of transfer)".

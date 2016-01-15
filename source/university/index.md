@@ -112,8 +112,8 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 
 - [Recording of what it is](https://www.youtube.com/watch?v=XTmpKudd-Oo)
 - [Recording of how to install](https://www.youtube.com/watch?v=Q69YaOjqNhg)
-- Suporting: [Configuring an external PostgreSQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-non-packaged-postgresql-database-management-server)
-- Suppporting: [Configuring an external MySQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-mysql-database-management-server-enterprise-edition-only)
+- Supporting: [Configuring an external PostgreSQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-non-packaged-postgresql-database-management-server)
+- Supporting: [Configuring an external MySQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-mysql-database-management-server-enterprise-edition-only)
 
 ### GitLab Flow
 
@@ -185,7 +185,7 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 - [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 - [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=ae7b72c61347030e8aa75328ed4b8660).  Download [WebEx](https://www.webex.com/play-webex-recording.html) to view this video
 - [Amazon's transition to Continuous Delivery](https://www.youtube.com/watch?v=esEFaY0FDKc)
-- [3rd party tool comparision](http://technologyconversations.com/2015/10/16/github-vs-gitlabs-vs-bitbucket-server-formerly-stash/)
+- [3rd party tool comparison](http://technologyconversations.com/2015/10/16/github-vs-gitlabs-vs-bitbucket-server-formerly-stash/)
 - [State of Dev Ops 2015 Report by Puppet Labs](https://puppetlabs.com/sites/default/files/2015-state-of-devops-report.pdf) Insightful Chapters to understand the Impact of Continuous Delivery on Performance (Chapter 4), the Application Architecture (Chapter 5) and How IT Managers can help their teams win (Chapter 6).
 - [Customer review of GitLab with talking points on why they prefer GitLab](https://www.enovate.co.uk/web-design-blog/2015/11/25/gitlab-review/)
 - [2011 WSJ article by Mark Andreeson - Software is Eating the World](http://www.wsj.com/articles/SB10001424053111903480904576512250915629460)
