@@ -22,7 +22,7 @@ title: "Travel"
 
 1. This will send your request to travel@gitlab.com.
 
-1. Once accommodations have been booked, you will receive a confirmation from either the accommodation or Gitlab Travel depending on the vendor. 
+1. Once accommodations have been booked, you will receive a confirmation from either the accommodation or GitLab Travel depending on the vendor. 
 
 1. Review your itinerary within the first 24 hours for accuracy. If any changes are necessary, notify travel@gitlab.com.
 

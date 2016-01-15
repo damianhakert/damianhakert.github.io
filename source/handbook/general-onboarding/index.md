@@ -74,7 +74,7 @@ welcome email to the employee at their work email on their first date of hire.
 
 * [ ] Patricio/CEO: Add to tweetdeck
 * [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle.
-* [ ] Robert/Jacob/CEO: Invite team members' Gitlab.com account to the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
+* [ ] Robert/Jacob/CEO: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] People Ops: Invite to autoconnect on [Beamy](https://about.gitlab.com/handbook#beamy-guidelines).
 * [ ] People Ops: Order business cards for new team member.
 * [ ] People Ops: Add team member to Expensify (if employee).
@@ -181,13 +181,13 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 * [ ] Robert/Jacob/CEO: Suspend Google account
    * [ ] Robert/Jacob/CEO: When the manager has time, change the telephone number associated with the account and send a password reset to the manager.
    * [ ] Manager: log on to Google account and have new messages forward to yourself.
-   * [ ] Robert/Jacob/CEO: when manager requests (typically 4 weeks after blocking the Google account), transfer owned documents from Google Drive to 
+   * [ ] Robert/Jacob/CEO: when manager requests (typically 4 weeks after blocking the Google account), transfer owned documents from Google Drive to
    manager, and delete the Google account.
 * [ ] Robert/Jacob/CEO: Disable team member in Slack.
 * [ ] People Ops: Remove former team member from TriNet and payroll if applicable.
 * [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment.
 * [ ] People Ops: Inform Controller / Accounting if any items in former team members possession will not be returning, so that they can be removed from asset tracking.
-* [ ] Robert/Jacob/CEO: Remove former team members' Gitlab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
+* [ ] Robert/Jacob/CEO: Remove former team members' GitLab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] Robert/Jacob/CEO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] People Ops: Suspect access to 1Password.
 * [ ] People Ops: Remove team member access to Dropbox.

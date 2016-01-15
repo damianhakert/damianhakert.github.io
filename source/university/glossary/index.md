@@ -47,7 +47,7 @@ A group of companies that develops software products for developers and project 
 
 ### Bamboo
 
-Atlassian's CI tool similar to Gitlab CI and Jenkins
+Atlassian's CI tool similar to GitLab CI and Jenkins
 
 ### Basic Subscription
 
@@ -157,7 +157,7 @@ Our own Continuos Integration feature that is shipped with each instance
 
 Our premium on premise solution that currently has Basic, Standard and Plus subscription packages with additional features and support.
 
-### Gitlab.com
+### GitLab.com
 
 Our free SaaS for public and private repositories.
 
