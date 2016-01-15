@@ -86,7 +86,8 @@ changes to GitLab, new features and everything else can all be found in our
 repositories (mainly [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues)
 and [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues)).
 
-Everyone is free to comment, create new issues, vote and contribute to the development
+Everyone is free to comment, create new issues, vote and
+[contribute to the development](http://contributors.gitlab.com/)
 of GitLab. We have short and long term goals, all of which are visible on the
 issues of the repositories, but also on the [direction page on the website](https://about.gitlab.com/direction/).
 
