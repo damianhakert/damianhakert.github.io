@@ -96,7 +96,7 @@ We promise that:
 1. We won't remove features from CE to make the same feature exclusive in EE
 1. We won't introduce features into CE with a delay, if a feature is planned to land in both it will be released simultaneously in both
 1. CE will have all the features that are essential to running a large 'forge' with public and private repositories
-1. CE will not contain any artificial limits (repo's, users, size, etc)
+1. CE will not contain any artificial limits (repositories, users, size, etc.)
 1. The majority of new features made by GitLab Inc. will be for both CE and EE
 
 Apart from making new features GitLab Inc. does a lot of work that benefits both CE and EE:
@@ -110,12 +110,12 @@ Apart from making new features GitLab Inc. does a lot of work that benefits both
 
 When someone contributes a feature to CE that is already in EE we have a hard decision to make.
 We hope that people focus on contributing features that are neither in CE nor EE.
-This way both edits benefit from a new featurew and GitLab Inc. don't have to make a hard decision.
+This way both edits benefit from a new feature and GitLab Inc. don't have to make a hard decision.
 The features we plan to build for EE are shared on our [direction page](https://about.gitlab.com/direction/) and we welcome people to contribute features to CE that are planned for future EE releases, if you pick one from the upcoming release please as in the issue if someone is already working on it.
 When someone does contribute a feature to CE that is already in EE we weigh a couple of factors in that decision:
 
 1. What is the quality of the code?
-1. Is it complete and does it meet the criterial of the [definition of done](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#definition-of-done)?
+1. Is it complete and does it meet the criteria of the [definition of done](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#definition-of-done)?
 1. What is the use case for this, is it needed for organizations with less than 100 people?
 1. Is it an original work or clearly based on the EE code?
 
