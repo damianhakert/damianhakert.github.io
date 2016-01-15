@@ -62,10 +62,10 @@ and welcome more.
 > content there and / or link to other pages as appropriate.
 
 Currently, we provide links to `CONTRIBUTING.md` whenever you create an
-issue or merge request. At the moment you could also leverage the issue
-template for this.
+issue or merge request. At the moment you can also leverage the issue
+template to point people to specific rules.
 
-We're [interested in doing this](https://gitlab.com/gitlab-org/gitlab-ce/issues/9083) for GitLab.
+We're [interested in adding a custom contributing file on top of issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/9083) in GitLab.
 
 ## Responses to specific suggestions
 
