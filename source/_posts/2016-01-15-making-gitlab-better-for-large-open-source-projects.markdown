@@ -7,6 +7,8 @@ author: Job van der Voort
 author_twitter: Jobvo
 ---
 
+Dear open source maintainers,
+
 We want GitLab to be the best place for any software project,
 whether open source or not, whether big or small.
 
