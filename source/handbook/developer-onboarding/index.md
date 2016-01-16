@@ -66,17 +66,6 @@ used.
 - [https://dev.gitlab.org/gitlab/gitlab-ee](https://dev.gitlab.org/gitlab/gitlab-ee) - Most development happens here.
 - [https://gitlab.com/gitlab-org/gitlab-ee](https://gitlab.com/gitlab-org/gitlab-ee) - Public repository.
 
-### GitLab Continuous Integration (CI)
-
-GitLab CI is the CI tool that runs the tests in your repositories, does deploys
-and anything you program it to do. It comes bundled with every GitLab package.
-
-Available on both instances:
-
-- [https://dev.gitlab.org/gitlab/gitlab-ci](https://dev.gitlab.org/gitlab/gitlab-ci)
-- [https://gitlab.com/gitlab-org/gitlab-ci](https://gitlab.com/gitlab-org/gitlab-ci)
-- [https://github.com/gitlabhq/gitlab-ci](https://github.com/gitlabhq/gitlab-ci)
-
 ### GitLab Shell
 
 GitLab Shell handles git commands for GitLab. It's an essential part of GitLab.
