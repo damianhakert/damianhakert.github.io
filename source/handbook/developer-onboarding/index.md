@@ -53,8 +53,8 @@ This is the community edition of GitLab. Most of the development happens here,
 then gets merged into GitLab EE periodically. Unless you're making a change
 specific to GitLab EE, add it to CE.
 
-- [https://dev.gitlab.org/gitlab/gitlabhq](https://dev.gitlab.org/gitlab/gitlabhq)
 - [https://gitlab.com/gitlab-org/gitlab-ce](https://gitlab.com/gitlab-org/gitlab-ce)
+- [https://dev.gitlab.org/gitlab/gitlabhq](https://dev.gitlab.org/gitlab/gitlabhq)
 - [https://github.com/gitlabhq/gitlabhq](https://github.com/gitlabhq/gitlabhq)
 
 ### GitLab Enterprise Edition (EE)
@@ -63,15 +63,15 @@ This is _not_ an open source project, but we made the source code available for
 viewing and contributions. As of version 7.11, it requires a license key to be
 used.
 
-- [https://dev.gitlab.org/gitlab/gitlab-ee](https://dev.gitlab.org/gitlab/gitlab-ee) - Most development happens here.
-- [https://gitlab.com/gitlab-org/gitlab-ee](https://gitlab.com/gitlab-org/gitlab-ee) - Public repository.
+- [https://gitlab.com/gitlab-org/gitlab-ee](https://gitlab.com/gitlab-org/gitlab-ee)
+- [https://dev.gitlab.org/gitlab/gitlab-ee](https://dev.gitlab.org/gitlab/gitlab-ee)
 
 ### GitLab Shell
 
 GitLab Shell handles git commands for GitLab. It's an essential part of GitLab.
 
-- [https://dev.gitlab.org/gitlab/gitlab-shell](https://dev.gitlab.org/gitlab/gitlab-shell)
 - [https://gitlab.com/gitlab-org/gitlab-shell](https://gitlab.com/gitlab-org/gitlab-shell)
+- [https://dev.gitlab.org/gitlab/gitlab-shell](https://dev.gitlab.org/gitlab/gitlab-shell)
 - [https://github.com/gitlabhq/gitlab-shell](https://github.com/gitlabhq/gitlab-shell)
 
 ### GitLab Workhorse
@@ -86,8 +86,8 @@ downloads.
 
 Omnibus GitLab creates the packages for GitLab.
 
-- [https://dev.gitlab.org/gitlab/omnibus-gitlab](https://dev.gitlab.org/gitlab/omnibus-gitlab)
 - [https://gitlab.com/gitlab-org/omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab)
+- [https://dev.gitlab.org/gitlab/omnibus-gitlab](https://dev.gitlab.org/gitlab/omnibus-gitlab)
 - [https://github.com/gitlabhq/omnibus-gitlab](https://github.com/gitlabhq/omnibus-gitlab)
 
 ## Cloud infrastructure
