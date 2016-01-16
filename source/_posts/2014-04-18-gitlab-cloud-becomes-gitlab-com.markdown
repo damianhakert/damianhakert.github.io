@@ -11,4 +11,4 @@ Today we rename our Software as a Service (SaaS) offering from GitLab Cloud to G
 
 To refer to this company we'll start using the new official name: GitLab B.V. (which is Dutch for GitLab Inc.). Our website will stay here at [https://www.gitlab.com/](https://www.gitlab.com/) while the GitLab.com service can be reached at the domain apex [https://gitlab.com/](https://gitlab.com/).
 
-The url's of all your repo's will stay the same, there is no need to make any changes.
+The url's of all your repos will stay the same, there is no need to make any changes.

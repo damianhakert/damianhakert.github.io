@@ -10,7 +10,7 @@ community: true
 
 ### GitLab CI with parallel builds and deployments
 
-This is a proposal to extend GitLab CI with parallel builds, pushing successful builds to external repo's, branch specific builds and support for build metrics.
+This is a proposal to extend GitLab CI with parallel builds, pushing successful builds to external repos, branch specific builds and support for build metrics.
 
 <!--more-->
 
