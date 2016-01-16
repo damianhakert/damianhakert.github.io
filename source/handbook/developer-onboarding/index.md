@@ -74,6 +74,14 @@ GitLab Shell handles git commands for GitLab. It's an essential part of GitLab.
 - [https://gitlab.com/gitlab-org/gitlab-shell](https://gitlab.com/gitlab-org/gitlab-shell)
 - [https://github.com/gitlabhq/gitlab-shell](https://github.com/gitlabhq/gitlab-shell)
 
+### GitLab Workhorse
+
+Gitlab-workhorse is a smart reverse proxy for GitLab. It handles "large" HTTP
+requests such as file downloads, file uploads, Git push/pull and Git archive
+downloads.
+
+- [https://gitlab.com/gitlab-org/gitlab-workhorse](https://gitlab.com/gitlab-org/gitlab-workhorse)
+
 ### Omnibus GitLab
 
 Omnibus GitLab creates the packages for GitLab.
