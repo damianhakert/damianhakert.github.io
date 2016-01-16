@@ -137,6 +137,11 @@ Try to submit a merge request for each part of the functionality.
 This means that we expect multiple a merge request per week from you.
 Smaller merge requests are more likely to receive good feedback and will get merged sooner.
 
+Unless the change is very minor, or is fixing a bug that was introduced in the
+same version, add an entry to `CHANGELOG` (or `CHANGELOG-EE` when applicable).
+Do not include your name in the entry as we only do that to give recognition to
+volunteer contributors.
+
 ### Review
 
 A merge request that fixes a `Frontend` issue should have the `Frontend` label
