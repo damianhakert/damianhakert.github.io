@@ -106,7 +106,7 @@ We value results, transparency, sharing, freedom, efficiency, frugality, collabo
 1. If you have to use email please send one email per subject as multiple items in one email will cause delays (have to respond to everything) or misses (forgot one of the items).
 1. Always reply to emails, even when no action is needed. This lets the other person know that you received it. A thread is done when there is a single word reply, such as OK, thanks, or done.
 1. If you forward an email without other comments please add FYI (for your information) or FYA (for your action).
-1. Emails sent to one person (no cc:) and likely not include other people later on don't need a subject line (make the first line descriptive since Gmail uses that).
+1. Emails sent to one person (no cc:) and likely not include other people later on don't need a subject line (make the first line descriptive since Gmail uses that). Please do include a subject line for non-gmail users such as Ernst and Jacob Vosmaer.
 1. If you want to be added or removed from an internal email alias (e.g. `sales@gitlab.com`) please see the [GitLab Email Forwarding doc](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#).
 1. If you use Slack, please use a public channel whenever possible, mention the person you want to reach if it is urgent. This ensures it is easy for other people to chime in, and easy to involve other people, if needed.
 1. All company data should be **shareable** by default. Don't use a local text file but leave comments on an issue. Create Google docs with your company Google Apps account. By default share Google docs with the whole company 'anyone at GitLab can find and access' with edit (preferred) or comment access for everyone. An easy way to do this, is to create your Google docs in a Shared Folder in Google Drive.
@@ -310,7 +310,7 @@ intellectual property violations
 
 
 ## Discretionary Bonuses<a name="discretionary-bonuses"></a>
-1. Every now and then, individual team members really shine as they go above and beyond their regular responsibilities and tasks.  
+1. Every now and then, individual team members really shine as they go above and beyond their regular responsibilities and tasks.
    * We recognize this through the #thanks channel, and sometimes also through a discretionary bonus.
    * Managers can recommend their team members to the CEO for a $1,000 bonus.
    * On team call, the manager announces the “who” and “why” of the bonus; and the "why"
