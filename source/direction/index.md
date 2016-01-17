@@ -99,11 +99,9 @@ We very much welcome contributions that implement any of these things.
 
 - [See current HEAD in outdated discussion](https://gitlab.com/gitlab-org/gitlab-ce/issues/3502)
 - [Allow cross server merge requests](https://gitlab.com/gitlab-org/gitlab-ce/issues/4013)
-- [Revert button for merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 - [Ability to checkout the result of MR available before merging](https://gitlab.com/gitlab-org/gitlab-ce/issues/2765)
 - [Syntax highlighting for diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/3292)
 - [Transactional MR comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3364)
-- [Revert button for MRs](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 
 ### Project Management
 
