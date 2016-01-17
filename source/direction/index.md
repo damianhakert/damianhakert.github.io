@@ -118,7 +118,6 @@ We very much welcome contributions that implement any of these things.
 ### Version Control for Everything
 
 - [In-picture-comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
-- [Automatically push changed files from a local folder](https://gitlab.com/gitlab-org/gitlab-ce/issues/4015)
 - [Distributed code-reviews and issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/4084)
 
 ### Performance
