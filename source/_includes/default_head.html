@@ -5,10 +5,10 @@
   <title>{{ page.title }} | GitLab</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   {% if page.description %}
+{% if page.description %}
   <meta name="description" content="{{ page.description }}">
   {% else %}
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{{ content | strip_html | condense_spaces | truncate:130 }}">
   {% endif %}
 
 <!-- social sharing metadata -->
@@ -27,7 +27,7 @@
 {% if page.description %}
   <meta content="{{ page.description }}" property="og:description">
 {% else %}
-  <meta content="{{ page.title }}" property="og:description">
+  <meta content="{{ content | strip_html | condense_spaces | truncate:130 }}" property="og:description">
 {% endif %}
 {% if page.url %}
   <meta content="{{ site.url }}{{ page.url }}" property="og:url">
