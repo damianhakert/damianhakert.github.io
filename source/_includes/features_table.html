@@ -18,11 +18,11 @@
                   <td><a href="{{ feature.link }}">{{ feature.description }}</a></td>
                   <td>
                     {% if feature.in_ce %}
-                      <i class="fa fa-check"></i>
+                      <i class="fa fa-check"></i><span class="print">*</span>
                     {% endif %}
                   </td>
 
-                  <td><i class="fa fa-check"></i></td>
+                  <td><i class="fa fa-check"></i><span class="print">*</span></td>
                 </tr>
               {% endfor %}
             </tbody>
