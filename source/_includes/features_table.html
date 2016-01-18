@@ -1,0 +1,31 @@
+     {% for feature_block in site.data.features %}
+        <div class="panel panel-success">
+          <div class="panel-heading">
+            <h2 class="panel-title">{{ feature_block.title }}</h2>
+          </div>
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Community Edition</th>
+                <th><b>Enterprise Edition</b></th>
+              </tr>
+            </thead>
+            <tbody class="header first">
+              {% for feature in feature_block.features %}
+                <tr>
+                  <td><a href="{{ feature.link }}">{{ feature.description }}</a></td>
+                  <td>
+                    {% if feature.in_ce %}
+                      <i class="fa fa-check"></i>
+                    {% endif %}
+                  </td>
+
+                  <td><i class="fa fa-check"></i></td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      {% endfor %}
