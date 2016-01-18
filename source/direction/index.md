@@ -56,6 +56,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 - [Delivery analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
 - [Code management analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
+- [New design for issue page](https://gitlab.com/gitlab-org/gitlab-ce/issues/3981)
 
 ### 8.6 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/22) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/8) March 22nd
 
