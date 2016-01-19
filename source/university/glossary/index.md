@@ -227,7 +227,7 @@ A community developed fork/variation of MySQL. MySQL is owned by Oracle.
 
 ### Master
 
-*** Needs definition here
+Name of the default branch in every git repository.
 
 ### Mercurial
 
@@ -320,7 +320,7 @@ A relational database. Taunted as the most advanced open source database.
 
 ### Pull
 
-*** Needs definition here
+Git command to synchronize the local repository with the remote repository, by fetching all remote changes and merging them into the local repository.
 
 ### Puppet
 
@@ -340,7 +340,7 @@ A relational database. Taunted as the most advanced open source database.
 
 ### Git Repository
 
-*** Needs definition here
+Storage location of all files which are tracked by git.
 
 ### Revision
 
