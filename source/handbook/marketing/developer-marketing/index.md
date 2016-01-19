@@ -16,8 +16,6 @@ We also want to address the whole organization, whether they are technical or no
 - Maintain a [social media](/handbook/marketing/developer-marketing/social-media/) presence which is friendly and responsive.
 - Publish an active [blog](/handbook/marketing/developer-marketing/blog/) with useful content relevant to GitLab users.
 - Introduce [monthly themes](/handbook/marketing/developer-marketing/monthly/) exploring content from multiple perspectives, and levels of experience.
-
-- Provide [community](/handbook/marketing/developer-marketing/community/) support for events to connect people.
 - Publish a twice-monthly email newsletter you can sign up to on [our contact page](https://about.gitlab.com/contact/).
 
 ## 2016 activities introduction
@@ -74,21 +72,6 @@ There seems to be [demand for this](https://www.theknowledgeacademy.com/sc/cours
 * Attend conferences, especially OSCON
 * Get GitLab team members out to meet people in the community
 
-## Club
-
-Start a GitLab Chemists Club for people that evangelize GitLab, make them a superhero:
-
-1. Find them on Twitter, Stack Overflow, our issue tracker, our commits, our IRC channel, etc.
-1. These people can get access to swag (coupons for webstore)
-1. Access to the company and eachother (via a chat channel)
-1. Access to our service engineers (support tokens?)
-1. Access to good content (make them feel smarter, GitLab Flow, workflow, patterns)
-1. Scholarships (money to sponsor and attend events)
-1. Ask them to speak on our behalf and pay for their expenses
-1. Use a light CRM system like Salesforce IQ to manage it
-1. Special occasion [stickers](https://twitter.com/arturcygan/status/667729015155879937), [badges](http://www.nerdmeritbadges.com/) or [buttons](http://www.computerhistory.org/collections/catalog/102635438)
-1. Have a mayor/champion in every city, 3dhubs does this well
-
 ## Meetups
 
 * We should have a meetup-in-a-box package where we arrange for:
@@ -127,3 +110,21 @@ So do everything to keep it going.
 1. Join with companies that use GitLab and do joint events, have them talk about how they use it, recruiting opportunity for our partners, maybe hire people from partners part time to explain GitLab to others.
 1. Intercom developer evangelism is great because they get know people to contribute.
 1. [Strategic Partner listing](https://docs.google.com/document/d/1-oAf0tMlTrAaPAsG_8NLXrI3DEZqI5ZA0gW0lKxFjA4/edit) (internal)
+
+## Club (maybe)
+
+Maybe we'll do this but experience shows it is very labor intensive to do properly.
+
+Start a GitLab Chemists Club for people that evangelize GitLab, make them a superhero:
+
+1. Find them on Twitter, Stack Overflow, our issue tracker, our commits, our IRC channel, etc.
+1. These people can get access to swag (coupons for webstore)
+1. Access to the company and eachother (via a chat channel)
+1. Access to our service engineers (support tokens?)
+1. Access to good content (make them feel smarter, GitLab Flow, workflow, patterns)
+1. Scholarships (money to sponsor and attend events)
+1. Ask them to speak on our behalf and pay for their expenses
+1. Use a light CRM system like Salesforce IQ to manage it
+1. Special occasion [stickers](https://twitter.com/arturcygan/status/667729015155879937), [badges](http://www.nerdmeritbadges.com/) or [buttons](http://www.computerhistory.org/collections/catalog/102635438)
+1. Have a mayor/champion in every city, 3dhubs does this well
+
