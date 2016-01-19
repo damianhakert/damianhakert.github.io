@@ -1,84 +1,54 @@
 ---
 layout: post
-title: "GitLab 8.4 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab's 50th Release: 8.4"
 date: 2016-01-22
 comments: true
 categories:
-author: ADD_YOUR_FULL_NAME
+author: Job
+author_twitter: Jobvo
 filename: 2016-01-22-gitlab-8-4-released.markdown
 image_title: /images/7_X/PICTURE.PNG
 ---
 
-GitLab is open source software to collaborate on code.
-Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability, and performance improvements, and bug fixes.
-The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
-In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
+What better way to kick off a year than with the 50th release of GitLab, 8.4!
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+No matter how you use GitLab, you're going to like this release.
+Your diffs will look better than ever, you can browse through your
+build artifacts in CI and search has been super powered with Elasticsearch
+in EE!
+
+We're extremely happy to receive some amazing contributions this release.
+Kyungchul Shin contributed a fuzzy file finder to GitLab this release,
+a much requested and truly MVP-worthy contribution.
+
+Thanks Kyungchul Shin and congratulations with being this months MVP!
 
 <!--more-->
 
-## ***MAIN_CE_FEATURE***
+## Loading Tanuki
 
-***DESCRIPTION***
+![GitLab's Tanuki is loading](/images/8_4/loading_tanuki2.gif)
 
-[![screenshot](/images/8_4/feature.png)](/images/8_4/feature.png) ***8_4 is the version of GitLab being released***
+## Super powered search with Elasticsearch (EE)
 
+## Artifacts browser
 
-## ***NEW_CE_FEATURE***
+## Improved GitHub importer
 
-***DESCRIPTION***
+## Fuzzy File Finder
 
-[![screenshot](/images/8_4/feature.png)](/images/8_4/feature.png) ***8_4 is the version of GitLab being released***
+## Unsubscribe from Threads in Email
 
+## Further design updates
 
-## NEW_CE_FEATURE
+## Performance Monitoring Alpha
 
-***DESCRIPTION***
+## CAS Support
 
-[![screenshot](/images/8_4/feature.png)](/images/8_4/feature.png) ***8_4 is the version of GitLab being released***
+The Central Authentication Service (CAS) is a single sign-on protocol for the web.[1] Its purpose is to permit a user to access multiple applications while providing their credentials (such as userid and password) only once. It also allows web applications to authenticate users without gaining access to a user's security credentials, such as a password. The name CAS also refers to a software package that implements this protocol.
 
-## NEW_SPONSORED_FEATURE
+http://doc.gitlab.com/ce/integration/cas.html
 
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/8-4-stable/CHANGELOG#L18).
-
-## ***MAIN_EE_FEATURE*** (EE only feature)
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_4/feature.png)](/images/8_4/feature.png) ***8_4 is the version of GitLab being released***
-
-## ***EE_FEATURE*** (EE only feature)
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_4/feature.png)](/images/8_4/feature.png) ***8_4 is the version of GitLab being released***
-
-
-## ***MAIN_CI_FEATURE***
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_4/feature.png)](/images/8_4/feature.png) ***8_4 is the version of GitLab CI being released***
-
-
-## ***NEW_CI_FEATURE***
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_4/feature.png)](/images/8_4/feature.png) ***8_4 is the version of GitLab CI being released***
-
-
-## NEW_CI_FEATURE
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_4/feature.png)](/images/8_4/feature.png) ***8_4 is the version of GitLab CI being released***
-
-## NEW_SPONSORED_FEATURE
-
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/8-4-stable/CHANGELOG#L18).
 
 ## Other changes
 
