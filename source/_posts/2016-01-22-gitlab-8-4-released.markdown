@@ -10,7 +10,8 @@ filename: 2016-01-22-gitlab-8-4-released.markdown
 image_title: /images/8_4/building_gitlab.jpg
 ---
 
-What better way to kick off a year than with the 50th release of GitLab, 8.4!
+What better way to kick off a new year than with the 50th release of GitLab,
+8.4!
 
 No matter how you use GitLab, you're going to like this release.
 Your diffs will look better than ever, you can browse through your
@@ -21,8 +22,8 @@ We're extremely happy to receive some amazing contributions this release.
 Kyungchul Shin contributed a fuzzy file finder to GitLab this release,
 a much requested and truly MVP-worthy contribution.
 
-Thanks Kyungchul Shin and congratulations with being
-[this months MVP](https://about.gitlab.com/mvp/)!
+Thanks Kyungchul Shin and congratulations on being
+[this month's MVP](https://about.gitlab.com/mvp/)!
 
 <!--more-->
 
@@ -100,7 +101,7 @@ TODO: add pictures
 ## Unsubscribe from Threads in Email
 
 If you're getting notifications from issues or merge requests you're no
-longer interested in, there is now an quick link in every email to
+longer interested in, there is now a quick link in every email to
 unsubscribe from that thread.
 
 ![Quickly unsubscribe from a thread in GitLab 8.4](/images/8_4/unsub.jpg)
@@ -119,7 +120,7 @@ extra information about the issue or merge request:
 
 ![Slack unfurls in GitLab 8.4](unfurl.png)
 
-We're looking forward to see pretty GitLab links all over the internet!
+We're looking forward to seeing pretty GitLab links all over the internet!
 
 ## CAS Support
 
@@ -136,7 +137,7 @@ We've said in
 [multiple](https://about.gitlab.com/2016/01/15/making-gitlab-better-for-large-open-source-projects/)
 [places](https://news.ycombinator.com/item?id=10923379) that improving
 performance is a big priority for us. To give us more insights into this,
-we've build performance monitoring into GitLab.
+we've built performance monitoring into GitLab.
 
 GitLab can now send performance data to an InfluxDB database, which in turn
 can be connected to graphing software such as Grafana (shown below).
@@ -146,7 +147,7 @@ Data gathered by Performance Monitoring includes:
 - The time it took to complete a transaction (a web request or Sidekiq job).
 - The time spent in running SQL queries and rendering HAML views.
 - The time spent executing Ruby methods.
-- Ruby object that have not yet been released by the garbage collector.
+- Ruby objects that have not yet been released by the garbage collector.
 - System statistics such as the process' memory usage and open file descriptors.
 - Ruby garbage collection statistics.
 
@@ -158,6 +159,10 @@ useful, but we're planning to bundle all the required software with our
 Omnibus packages over the next releases.
 
 TODO: documentation link
+
+## Filter commit messages
+
+## Emoji picker improvements
 
 ## Other changes
 
@@ -189,9 +194,10 @@ Check out our [update page](https://about.gitlab.com/update/).
 ## Enterprise Edition
 
 The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
-For a complete overview please have a look at the [feature list of GitLab EE](http://www.gitlab.com/gitlab-ee/).
+For a complete overview please have a look at the [feature list of GitLab EE](https://about.gitlab.com/features/#enterprise).
 
-Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing/).
+Access to GitLab Enterprise Edition is included with a
+[subscription]( https://about.gitlab.com/pricing/).
 No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 
