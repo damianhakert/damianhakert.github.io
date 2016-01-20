@@ -89,6 +89,8 @@ As the saying goes, a gif speaks louder than words:
 You can quickly access the Fuzzy File Finder by pressing `t` anywhere
 in a project.
 
+_For more shortcuts, press `?` anywhere in GitLab!_
+
 ## Code highlighting in Diffs
 
 Another new feature that is better left to pictures,
@@ -102,7 +104,10 @@ If you're getting notifications from issues or merge requests you're no
 longer interested in, there is now a quick link in every email to
 unsubscribe from that thread.
 
-![Quickly unsubscribe from a thread in GitLab 8.4](/images/8_4/unsub.jpg)
+
+<div style="width: 400px; margin: 0 auto;">
+  <img src="/images/8_4/unsub.jpg" alt="Quickly unsubscribe from a thread in GitLab 8.4" style="max-width: 400px" />
+</div>
 
 The link doesn't require you to sign in, so you can easily use it from your
 phone, watch or VR headset.
@@ -116,7 +121,7 @@ by making use of the Open Graph standard.
 For instance, if you post a GitLab link in Slack, you now get some
 extra information about the issue or merge request:
 
-![Slack unfurls in GitLab 8.4](unfurl.png)
+![Slack unfurls in GitLab 8.4](/images/8_4/unfurl.png)
 
 We're looking forward to seeing pretty GitLab links all over the internet!
 
@@ -149,8 +154,8 @@ Data gathered by Performance Monitoring includes:
 - System statistics such as the process' memory usage and open file descriptors.
 - Ruby garbage collection statistics.
 
-![Using Grafana to plot GitLab Performance Monitoring data](perf_1.png)
-![Using Grafana to plot GitLab Performance Monitoring data](perf_2.png)
+![Using Grafana to plot GitLab Performance Monitoring data](/images/8_4/perf_1.png)
+![Using Grafana to plot GitLab Performance Monitoring data](/images/8_4/perf_2.png)
 
 Right now Performance Monitoring still requires some setup to be
 useful, but we're planning to bundle all the required software with our
@@ -166,11 +171,16 @@ top!
 
 ![Filter commits in GitLab 8.4](/images/8_4/commit_filter.gif)
 
+Find the commit filter on the commits page of any of your projects.
+
 ## Emoji Picker Improvements
 
 Finally use all the emoji!
 
 ![Search and find your favorite emoji quickly in GitLab 8.4](/images/8_4/emoji_picker.gif)
+
+The new emoji picker also stores your favorite emoji and is available
+in any issue and merge request.
 
 ## Design Updates
 
