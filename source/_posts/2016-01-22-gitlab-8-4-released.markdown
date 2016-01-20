@@ -91,8 +91,6 @@ in a project.
 
 ## Code highlighting in Diffs
 
-TODO: did this make 8.4?
-
 Another new feature that is better left to pictures,
 as GitLab now also highlights code in diffs:
 
@@ -160,9 +158,21 @@ Omnibus packages over the next releases.
 
 TODO: documentation link
 
-## Filter commit messages
+## Filter Commit Messages
 
-## Emoji picker improvements
+Want to quickly find a specific commit in the list of commmits?
+You can now quickly filter them by commit message, using the input on
+top!
+
+![Filter commits in GitLab 8.4](/images/8_4/commit_filter.gif)
+
+## Emoji Picker Improvements
+
+Finally use all the emoji!
+
+![Search and find your favorite emoji quickly in GitLab 8.4](/images/8_4/emoji_picker.gif)
+
+## Design Updates
 
 ## Other changes
 
