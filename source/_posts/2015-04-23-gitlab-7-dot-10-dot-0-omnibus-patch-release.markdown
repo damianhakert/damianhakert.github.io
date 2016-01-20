@@ -5,7 +5,6 @@ date: 2015-04-23
 comments: true
 author: Jacob Vosmaer
 author_twitter: jacobvosmaer
-filename: 2015-04-23-gitlab-7-dot-10-dot-0-omnibus-patch-release.markdown
 
 ---
 

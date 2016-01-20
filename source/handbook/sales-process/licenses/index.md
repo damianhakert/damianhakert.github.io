@@ -51,7 +51,7 @@ All access to the Enterprise Edition is offered only along with the [terms](http
 
 ## Giving access to the standard subscribers documentation
 
-1. Gitlab.com > groups > Standard > Members > Add members
+1. GitLab.com > groups > Standard > Members > Add members
 
 1. Give access “Developer”
 

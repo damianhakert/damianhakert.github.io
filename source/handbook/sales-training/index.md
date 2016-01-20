@@ -7,6 +7,12 @@ title: "Sales Training"
 * [6 Ways to Make Your Sales Email Insanely Valuable to Prospects](#insanely)
 * [3 Seemingly Scary Words Reps Shouldn’t Be Afraid to Use](#scary)
 * [6 Questions Sales Reps Should (But Don’t) Ask Themselves Before Sending an Email](#questions)
+* [The Art of Asking Open-Ended Questions](#art)
+* [4 Ways to Ruin a Sales Presentation](#presentation)
+* [Persistent or Just Plain Pushy? 7 Sales Behaviors Decoded](#behaviors)
+* [A Two-Step Formula for Handling Pricing Objections](#objections)
+* [Price Objections - The Script that Always Closes](#script)
+* [5 B2B Sales Call Techniques That Get More Meetings](#techniques)
 
 
 ### 5 Signs You're Talking At (Not Talking To) Your Prospects <a name="signs"></a>
@@ -264,3 +270,238 @@ Here are some examples of calls-to-action reps can include in their sales emails
 
 The introductory email sets the tone for the relationship. Before you reach out, ask yourself these six questions to determine whether or not you’re fully prepared to send that email. If you can’t answer all of these questions, hit the reset button and get back to the drawing board.
 
+### Bill Cates from Hubspot wrote [a great article about "The Art of Asking Open-Ended Questions.”](http://blog.hubspot.com/sales/the-art-of-asking-open-ended-questions) <a name="art"></a>  Here are some highlights.
+
+High-value questions bring value to the conversation and creates a learning experience for you and your prospect/client.  
+
+High-value questions are open-ended instead of closed-ended. 
+
+If your question can be answered with a simple "yes" or "no", that is a closed-ended question.   Questions that begin with "Did", "Are", "Would" and "Is" are closed-ended.  
+
+To turn a closed-ended question to an open-ended question, start with "How", "If", "What", "Why", "Who".  The result of an open-ended question is you gather more insight from the prospect/client and they become more involved in the process as well.  
+
+Here are some open-ended, high-value questions that reps can ask their prospects:
+
+* What are the top priorities in your business at the moment?
+* What are some of the best decisions you’ve made related to ____________?
+* How are you feeling about your current situation related to _____________?
+* If we were meeting five (10, 20) years from today, what must happen for you to feel good about your situation related to ___________?
+* What opportunities do you see on your horizon?
+* What challenges do you see in making this happen?
+* If we were to work together on this, what are the top two or three outcomes you’d like to see?
+* How will you be measuring our success related to these outcomes?
+* What’s the biggest risk for you to not make progress on this situation?
+
+### 4 Ways to Ruin a Sales Presentation <a name="presentation"></a>
+
+A perfect sales presentation paints the product, the company, and the rep in an ideal light, while captivating the audience and turning a target company into a customer on the spot.
+
+However, while a great meeting with a prospect can set you apart from your competitors, a bad presentation can do the same thing. Sales reps can often fall into the traps of a bad presentation without even realizing it. Everything is going smoothly in the rep’s mind ... until they realize the CEO has fallen asleep.
+
+So how does a rep avoid this scenario? Below are four avoidable sales presentation mistakes to keep in mind for your next meeting.
+
+#### 1. Being overly general.
+Not personalizing the presentation is a mistake because every buyer is different. Each buyer has a unique pain point, and is in need of a unique solution. By failing to customize the presentation, the buyer can’t see themselves using your product. All the buyer knows is that the product works in general, or a different business used it and had success.
+
+When we tell stories, the people listening feel as if what’s happening to the protagonist is happening to them too, according to studies. By personalizing the message, a sales rep can put the potential buyer into the shoes of another customer who has experienced success using the product, and help them visualize how the offering could help their company as well.
+
+#### 2. Listing too many benefits.
+Speaking about too many benefits can turn a prospect off because our brains can only process so much information at once. In fact, recent studies have found that consuming too much information can distract a person, resulting in a negative impact on personal well-being and decision making, among other things.
+
+Instead of bragging about everything your product can do, sales reps should focus on three to four benefits that will solve a very specific pain point for the prospect. Studies have found that humans retain information best when they find it useful. By highlighting a few key, relevant benefits in your presentation, the prospect is more likely to retain the information, which will be critical when they make a decision.
+
+#### 3. Slipping into autopilot.
+Beginning a presentation with a monotone voice, bad body language, or an obviously scripted intro can kill your momentum in a hurry. According to Sherrie Bourg Carter, emotions are contagious. So if a sales rep lacks energy and enthusiasm during their presentation, this lackluster mood will likely wear off on the stakeholders in attendance.
+
+There are a multitude of ways to avoid autopilot. By giving the presentation beforehand to coworkers, reps can discover where they need to improve and where the information could be strengthened. Another trick is to have a cup of coffee or work out the morning before the presentation to raise your energy. If you’re full of energy and enthusiastic about your product, these feelings can spread to your audience.
+
+#### 4. Dodging questions.
+Dodging questions after a sales presentation is a bad idea because it doesn’t allow the audience to clarify information, and according to 24Slides, can weaken your credibility. When prospects aren’t able to have specific questions answered, they can’t learn about what matters most to them. Instead of leaving the presentation feeling great about the product, the prospect is likely to leave with more questions than answers, which defeats the whole purpose of the presentation.
+
+While reps might have a fear of answering questions after a presentation, it’s important to open the floor to the audience. Reps who take the extra time to answer tough questions can showcase what it’s like to work with them on an ongoing basis and the commitment they have to their prospects and customers. And remember, if you’re truly unsure, there’s nothing wrong with saying “I don’t understand” and moving forward.
+
+A sales presentation can be tricky to master. Reps can give 1,000 of them but still have an off day every once in awhile. By focusing on reversing some bad habits, reps can ensure their prospects enjoy their presentations and find it valuable.
+
+### Persistent or Just Plain Pushy? 7 Sales Behaviors Decoded <a name="behaviors"></a>
+
+When was the last time you called a prospect and they said, “I’m so glad you called! I love salespeople!”?
+
+Probably never.
+
+#### Salespeople: Are You Being Persistent or Pushy?
+
+Salespeople face a unique dimemma.  On one hand, tenacity is key to getting business -- 80% of sales requires five follow-ups to close.
+
+On the other, coming off as annoying is a real concern.  Salespeople have a negative perception to overcome, and many buyers assume the worst.
+
+In sales, the line between pushiness and persistence can be hard to walk.  Here is a list of pushy behaviors to avoid -- and what to do instead.
+
+##### PROSPECTING
+
+* Pushy: Cold calling witout doing research and delivering a cookie-cutter pitch
+
+* Persistent: Following up on an inbound lead with an introduction customized to the prospect's activity and context.
+
+##### CONNECTING
+
+* Pushy: Pitching immediately without providing context on who you are and why you're calling
+    
+* Persistent: Providing a reason for your call (ideally the prospect's previous activity or a referral) and offerign to help.
+    
+##### NURTURING
+
+* Pushy: Sending "just checking in" emails without providing new value
+    
+* Persistent: Providing your prospect witha  a strategically sequenced progression of new, helpful resources and insights
+    
+##### DISCOVERY
+
+* Pushy: Rushing through a long list of discovery questions so you can "cover all your bases."
+    
+* Persistent: Diving deep into areas yur  prospect is interested in, letting conversation flow naturally toward their priorities, and following up with more discovery calles if necessary.
+    
+##### DEMONSTRATION
+
+* Pushy: Attempting to cover every feature of your product at once.
+    
+* Persistent: Focusing your presentation only on features and benefits relevant to your prospect's needs.
+    
+##### OBJECTION HANDLING
+
+* Pushy: Glossing over your prospect's concerns and not taking them seriously.
+    
+* Persistent: Creating a plan that accomodates your prospect's objections, and actively addresses their hesitations.
+    
+##### CLOSING
+
+* Pushy: Trying to "slam a deal" through on your timeline and your terms.
+    
+* Persistent: Making sure your prospect's on track to achieve their goals and is ready to implement your product upon purchase.
+    
+
+Recognize that there’s a fine line between being annoying and tenacious. The same sales activities can be executed in very different ways -- some good, some bad.
+
+
+### A Two-Step Formula for Handling Pricing Objections <a name="objections"></a>
+
+Below is a proven two-step formula that can help you handle any pricing (or any other) objection, for those times when your ounce of prevention may not be 100% foolproof….
+
+#### Step 1: Count to three!
+
+Whenever you’re faced with a difficult question or objection, the first thing you need to do is take a deep breath, make eye contact with your prospect and silently count to three.
+
+It is amazing how many clients will answer their own objections, or at least give you some much-needed information, when you simply say nothing. Don’t be afraid of silence. Practice it until the three-second pause becomes one of the most effective tools in your arsenal.
+
+A couple of years ago, I was buying a new pair of glasses and having lenses put in an old pair. The optician was clearly afraid to talk about price, and even went so far as to write the estimate down on a piece of paper and pass it to me instead of saying the price out loud.
+
+To my surprise, the number actually struck me as very reasonable. I had left my purse at home, so I turned to my husband to get his wallet. The optician took my silence as an objection and immediately dropped the price 15%.
+
+This seemingly minor transaction was a great demonstration of the power of silence, and the lengths most people will go to in order to fill it. In sales, you can use silence to effectively handle almost any objection, particularly those related to price.
+
+Whenever a client tells you your price is too high, just breathe and be quiet. You will find that around 40% of all prospects will fill that silence with information you can use to move the sale forward.
+
+#### Step 2: Ask questions.
+
+Step 2 is to ask questions. You can ask up to three questions before you have to answer an objection – provided you ask the right questions in the right way.
+
+The key is to acknowledge what the customer is saying and then offer them a compliment before asking your question. For example, try saying something like “I appreciate you asking that,” “that’s a really great question,” “I understand how you feel” or “good point, I never thought about that!”
+
+Including a nice warm statement in front of your question will encourage your customer to answer it, because they will feel like you are giving them something first. The compliment is a gift. It makes them feel that they are special, that you are paying attention to them and that you truly care about them, and they will be more likely to respond in kind.
+
+Which questions to ask?
+
+Once you’ve paid the client a compliment, ask them a question that is both direct and phrased to elicit more information. The following are some responses you can use to answer a few of the more common objections.
+
+##### OBJECTION: “Your price is too high!”
+
+##### RESPONSES:
+
+* Thanks for sharing that. How much too high are we?
+* I appreciate your telling me that. Have you found a less expensive product?
+* You are right, we are more expensive than some of our competitors. How much were you hoping to pay?
+* You’re right, we are not the cheapest. Is price the only consideration? • Thanks for being honest. Is the price higher than you expected, or is it because we combined the services and training in one proposal?
+* I’m not surprised to hear you say that. Are we only too high overall or is our per-unit cost too high as well?
+* Thanks for sharing that. Is our price a showstopper?
+* I appreciate your honesty. Does our current price mean we will never be able to do business together?
+* Too high? Really?
+* What do you suggest we do?
+* Thanks for letting me know. I’m curious, how much were you expecting to invest?
+
+##### OBJECTION: We don’t have any budget.
+
+##### RESPONSES:
+
+* Budget?
+* Oh! I appreciate that makes it difficult to buy. When does your budget come up for renewal or review?
+* Thanks for letting me know. Is your budget renewed annually or quarterly?
+* Does not having a budget mean we will never get a chance to do business together this year?
+
+##### OBJECTION: I need a discount!
+
+##### RESPONSES:
+
+* Discount?
+* It’s good of you to be looking for the best deal. How much of a discount do you need? Why that much?
+* Making sure you’re getting the best deal for your company is a good idea. If we can’t budge on the price, does that mean it’s over between us?
+
+#### Echo! Echo!
+
+Another option for asking questions is to use the ECHO technique.
+
+The echo technique is simply the art of taking the last word (or last important word) in a client’s sentence and turning it into a question.
+
+Whenever a client says “I need a discount,” look them squarely in the eye and say “discount?” Ninety-nine times out of a hundred, the customer either tells the rep exactly what they need to do from a price and terms point of view to move the deal forward, or offers alternatives to the pricing model that will make both parties happy.
+
+What could be simpler than that!
+
+### Price Objections - The Script that Always Closes <a name="script"></a>
+
+You hear it all the time – if your price is higher than your competition you’re told to “build value." You’re instructed to stress the quality, the warranty, the features, etc. But your prospects have heard all that before, haven’t they? Want a better way?
+
+Let’s face it – prospects will often buy from people they like, know or trust. Your enthusiasm for your product or service is also a big factor in getting your prospects to place an order with you as well. Knowing this, I’ve often used the following script to not only build value in my product or service, but also to build value in myself. Here’s what to say:
+
+If your prospects says, “I can get cheaper," or “Well the XYZ company has something similar or for less money," or anything like that, say:
+
+“You know _________ I’m aware of all the other options for this Git Repository Management and quite frankly if I thought any of them were better for my clients, I’d be working there and selling them.
+
+“When I got into this industry I did my own research, and I looked for the best company that not only offered the best product but also delivered the best customer service and follow-up. I chose GitLab because they give my clients the best overall value and the best experience and that means they continue to do business with me and refer new business to me as well.
+
+“If there was a better product or company for you to be doing business with I’d be there and we’d be talking about that. But there isn’t.
+
+“Bottom line – if you want the best overall value, results and experience, then do what I do did – choose GitLab – You’ll always be glad you did. Now, do you want to start with the X size order or would the Y size order be better?"
+
+This technique builds value in the most important part of any sales transaction — you and your belief in your product or service. Use it each time you get the price/competition objection and watch your sales and confidence growth.
+
+### 5 B2B Sales Call Techniques That Get More Meetings <a name="techniques"></a>
+
+If there’s anything I’ve learned from listening to thousands of sales calls, it’s this: despite all the tools intended to help sales reps engage with prospects -- email, lead and account scoring, content, social media alerts, and many more -- calls are still where relationships are forged or lost forever.
+
+To put it simply, every other sales activity is leading up to one thing: a phone call. Not surprisingly, reps that have the best phone skills are almost always the most successful. In my experience, here are the five sales call techniques that the best reps put into practice with every prospect.  
+
+#### 1. Show Maximum Respect
+
+Many of your calls are no doubt scheduled in advance, but some aren’t. Near the beginning of unscheduled calls, ask this one simple question: “Have I caught you at a bad time?” You’ll be surprised how few people say yes. That’s because by simply asking the question, you’re conveying that you’re a thoughtful and respectful human being.
+
+#### 2. Justify the Call
+
+Before even dialing, imagine your prospect asking you, “Why are you calling me?” (with the emphasis on the word "me"). If you can answer that question eloquently and convincingly, then you’re bound to add value during the call.
+
+For example, “I’m calling because we’re in the same beekeeping LinkedIn group, and I noticed you asked whether any group members could recommend a good supplier.” Or, with a repeat customer, “You’ve ordered four cedar hives from us in the past, so I thought you’d want to know that we released a brilliant new model.”
+
+#### 3. Verify the Role
+
+One of the keys to B2B sales is reaching out directly to the person whose job/career/life your product will improve. As a sales rep, you’ll do research to ensure that you’re calling the right person. But because people change roles all the time, you should verify this up front as well, even if you’ve talked to the person in the past.
+
+For example, “Just to make sure, you’re still involved in managing beekeeping operations -- do I have that right?” You’ll be surprised how often people will respond with something like, “Actually, I changed roles, but I’d be happy to intro you to the person who’s doing it now.”
+
+#### 4. Personalize
+
+For best results, use public information to find common ground that helps you to connect as a person. For example, “I noticed that we’re both connected to Jack White. Great guy, and an incredible guitarist. How’d you meet?”
+
+Alternatively, you can reference prior engagement. For example, “I saw that you downloaded our bee relocation cheat sheet, and I wondered if our mobile cedar hives might be a good investment for you.”
+
+#### 5. Verify Compatibility
+
+As is often the case in B2B sales, you may have a technology, size, or geography requirement. You’re obviously going to research compatibility ahead of the call, but you also need to verify it before you waste anyone’s time. For example, “Just so you know, our new hive frames are only compatible with WBC hives. Would that be an issue for you?”
+
+If there’s one common thread in all these tips, it’s that the most successful sales reps put their customers’ needs first. Add value, be honest and respectful, and offer information -- not a sales pitch. If you can put all of these sales call techniques into use, you’ll be crushing your meeting quota in no time.

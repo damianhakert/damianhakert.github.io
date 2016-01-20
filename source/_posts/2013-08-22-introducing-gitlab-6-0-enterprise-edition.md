@@ -12,7 +12,7 @@ Today we make another big step towards realizing Dmitriy's vision with the follo
 - A new pricing model for subscriptions that starts at $398 per year
 - The introduction of an educational discount of 50%
 - A big credit to thank everyone who donated
-- GitLab Cloud gets free unlimited private repo's and collaborators
+- GitLab Cloud gets free unlimited private repos and collaborators
 
 Today marks the introduction of GitLab 6.0 with many improvements. The most important new feature is that you can now add members to groups of projects. When you add a new project to a group it is shared with all group members and when you add a new group member he or she has access to all projects of the group. More new features can be found in the [changelog](https://github.com/gitlabhq/gitlabhq/blob/master/CHANGELOG).
 
@@ -24,7 +24,7 @@ The community edition is the heart of GitLab and will remain under development, 
 
 We discussed the release of the Enterprise Edition with the rest of the GitLab community and received [great input about the licensing](/2013/07/22/announcing-gitlab-enterprise-edition). The Enterprise Edition will be released under the MIT because we believe in open source and trust the GitLab community. GitLab.com will not put the source code online but everyone in posession of the source is free to do as they please. We kindly ask subscribers not to distribute GitLab EE if they think GitLab.com is doing a good job serving the GitLab community.
 
-The price of GitLab EE will be $1.99 per user per month or $19.90 per user per year in 20 user increments. We think this is great value for money and enables both large and small organizations to enjoy the Enterprise Edition. GitLab Enterprise Edition offers features unmatched by competing software such as adding multiple groups to a collection of repo's. At the same time GitLab EE is up to 10 times more affordable than other solutions.
+The price of GitLab EE will be $1.99 per user per month or $19.90 per user per year in 20 user increments. We think this is great value for money and enables both large and small organizations to enjoy the Enterprise Edition. GitLab Enterprise Edition offers features unmatched by competing software such as adding multiple groups to a collection of repos. At the same time GitLab EE is up to 10 times more affordable than other solutions.
 
 The new user based subscription also includes support and it will replace our old fixed price subscription. We want to thank our existing clients by including GitLab Enterprise Edition with their existing subscription. Fixed price subscriptions will be valid for the rest of the subscription term. After that we are open to discussing grandfathered pricing. For organizations with 20 users the new prices are more than 3 times more affordable. If the new price is better for your organization you can switch to them and we will credit you for the amount you would have saved if you ordered the new price from the beginning of your subscription. We make this offer to show how glad we are that you are already supporting GitLab.
 
@@ -36,4 +36,4 @@ We also would like to thank the people who donated to GitLab again. Everyone wil
 
   [GitLab Cloud](/cloud/) is our 'GitLab as a Service' and it runs on GitLab CE. It serves as a great way to make people part of the GitLab community. Therefore we want as many people as possible to enjoy it and we have decided to make it completely free. We'll completely reimbursed anyone who made a payment for GitLab Cloud. We hope you'll enjoy the unlimited private repositories and unlimited collaborators on GitLab Cloud.
 
-GitLab is only possible because of the rest of the GitLab community and we want to thank everyone. We would especially like to thank that Most Valuable Person (MVP) for the GitLab 6.0 release, Izaak Alpert, for contributing the merging between repo's functionality.
+GitLab is only possible because of the rest of the GitLab community and we want to thank everyone. We would especially like to thank that Most Valuable Person (MVP) for the GitLab 6.0 release, Izaak Alpert, for contributing the merging between repos functionality.

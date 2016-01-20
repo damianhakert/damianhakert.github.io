@@ -3,10 +3,6 @@ layout: markdown_page
 title: "Support and Development Process"
 ---
 
-## Problem
-
-* Slow response time because support waits for Dmitriy's decision. Dmitriy will try to reply quicker. Please try to keep in mind the following things to make the process more efficient.
-
 ## Types of issues
 
 * Bug
@@ -28,10 +24,9 @@ title: "Support and Development Process"
 ## Unpaid feature request process
 
 * Provide maximum information and use case from customer in the issue,
-mention any alternatives, how badly the customer wants it
+mention any alternatives, how badly the customer wants it.
 
-* Ask Dmitriy for opinion (do we want this feature in GitLab: yes/no.
-Dmitriy might ask more questions before answer)
+* Ask a developer for opinion (do we want this feature in GitLab: yes/no, the developer might ask more questions before answer)
 
 ## Paid feature request process
 

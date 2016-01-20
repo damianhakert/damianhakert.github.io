@@ -5,7 +5,6 @@ date: YYYY-MM-22
 comments: true
 categories:
 author: ADD_YOUR_FULL_NAME
-filename: FILENAME.MARKDOWN
 image_title: /images/7_X/PICTURE.PNG
 ---
 

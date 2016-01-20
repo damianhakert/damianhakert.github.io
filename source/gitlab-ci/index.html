@@ -117,12 +117,15 @@ extra_js:
         <i class="fa fa-download 5x"></i>
       </div>
       <div class="col-xs-10 col-md-7">
-        <h2 id=gitlab-runner>GitLab Runner</h2>
-        <p>To perform the actual build, you need to install GitLab Runner.</p>
+        <h2 id="gitlab-runner">GitLab Runner</h2>
+        <p>To perform the actual build, you need to install GitLab Runner which is written in Go.</p>
         <p>It can run on any platform for which you can build Go binaries,
           including Linux, OSX, Windows, FreeBSD and Docker.
         </p>
-        <p><a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner"><b>Official GitLab Runner in Go with Docker support for Linux, OSX and Windows</b></a></p>
+        <p>It can test any programming language including .Net, Java, Python, C, PHP and others. There are <a href="https://about.gitlab.com/applications/#runners">other runners written in Java and Javascript</a> but we recommend using the Go runner to test all languages.
+        </p>
+        <p>The official Go Runner has <a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner#features">many features</a> including great Docker support and the ability to run multiple jobs concurrently.</p>
+        <p><a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner#installation">Install GitLab Runner</a></p>
       <div class="col-xs-1 col-md-1"></div>
       </div>
     </div>

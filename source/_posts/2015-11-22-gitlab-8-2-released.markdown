@@ -5,7 +5,6 @@ date: 2015-11-22
 comments: true
 author: Job van der Voort
 author_twitter: Jobvo
-filename: 2015-11-22-gitlab-8-2-released.markdown
 image_title: /images/8_2/header2.jpg
 ---
 

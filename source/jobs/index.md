@@ -19,14 +19,14 @@ For more background please see our [about page](https://about.gitlab.com/about/)
 
 If you see yourself as a good fit with our company’s goals and team, then please review the current job openings on this page, and submit your resume and cover letter to be considered!
 
+<div style="text-align: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/UTyXGx965Os" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## Available Openings
 
 *Note: we do not accept solicitation by recruiters, recruiting agencies and outsourcing organizations.* <a id="note"></a>
 
-### Designer
-
-* [Description](https://about.gitlab.com/jobs/designer/)
-* [Apply](https://gitlab.workable.com/jobs/124211/candidates/new)
 
 ### Developer Evangelist
 
@@ -38,6 +38,16 @@ If you see yourself as a good fit with our company’s goals and team, then plea
 * [Description](https://about.gitlab.com/jobs/service-engineer/)
 * [Apply](https://gitlab.workable.com/jobs/87722/candidates/new)
 
+### Frontend Engineer
+
+* [Description](https://about.gitlab.com/jobs/frontend-engineer/)
+* [Apply](https://gitlab.workable.com/jobs/181461/candidates/new)
+
+### Strategic Relations Manager
+
+* [Description](https://about.gitlab.com/jobs/strategic-relations-manager)
+* [Apply](https://gitlab.workable.com/jobs/186837/candidates/new)
+
 ### Account Manager
 
 * [Description](https://about.gitlab.com/jobs/account-manager/)
@@ -46,7 +56,7 @@ If you see yourself as a good fit with our company’s goals and team, then plea
 ### Marketing Associate
 
 * [Description](https://about.gitlab.com/jobs/marketing-associate/)
-* [Apply](https://gitlab.workable.com/jobs/124211/candidates/new)
+* [Apply](https://gitlab.workable.com/jobs/176839/candidates/new)
 
 ### Senior Account Manager
 

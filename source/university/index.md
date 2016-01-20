@@ -49,9 +49,10 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 - [Presentation](https://docs.google.com/presentation/d/16sX7hUrCZyOFbpvnrAFrg6tVO5_yT98IgdAqOmXwBho/edit#slide=id.g72f2e4906_2_29)
 - [Take the Test](http://goo.gl/forms/8H8SNcH70T)
 
-### Intro to Terminology
+### Glossary and Terminology
 
-- [GitLab Introduction to Terminology](https://about.gitlab.com/2015/05/18/simple-words-for-a-gitlab-newbie/)
+- [GitLab Glossary](https://about.gitlab.com/university/glossary/)
+- [Introduction to Terminology Blog](https://about.gitlab.com/2015/05/18/simple-words-for-a-gitlab-newbie/)
 
 ### Intro to Git
 
@@ -59,7 +60,7 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 - [Take the Test](http://goo.gl/forms/GgWF1T5Ceg)
 - Supporting: [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
 
-### Intro to Git and Gitlab
+### Intro to Git and GitLab
 
 - [Intro to Git and GitLab](https://www.youtube.com/watch?v=03wb9FvO4Ak&index=5&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e) recorded date: 2015-9-17
 - [Take the test](http://goo.gl/forms/9PnmhiNzEa)
@@ -111,8 +112,8 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 
 - [Recording of what it is](https://www.youtube.com/watch?v=XTmpKudd-Oo)
 - [Recording of how to install](https://www.youtube.com/watch?v=Q69YaOjqNhg)
-- Suporting: [Configuring an external PostgreSQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-non-packaged-postgresql-database-management-server)
-- Suppporting: [Configuring an external MySQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-mysql-database-management-server-enterprise-edition-only)
+- Supporting: [Configuring an external PostgreSQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-non-packaged-postgresql-database-management-server)
+- Supporting: [Configuring an external MySQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-mysql-database-management-server-enterprise-edition-only)
 
 ### GitLab Flow
 
@@ -138,6 +139,11 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 ### GitLab Mirroring
 
 - Upcoming
+
+### GitLab Pages
+
+- Upcoming
+- Supporting: [Documentation on How to set up and use Pages](http://doc.gitlab.com/ee/pages/README.html)
 
 ### JIRA and Jenkins integrations in GitLab
 - [Demo of Jira integration within GitLab](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=44b548147a67ab4d8a62274047146415). Download [WebEx](https://www.webex.com/play-webex-recording.html) to view this video
@@ -172,14 +178,14 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 - [Sales Onboarding materials](https://about.gitlab.com/handbook/sales-onboarding/)
 - [GitLab Direction](https://about.gitlab.com/direction/)
 - [GitLab compared to other tools](https://about.gitlab.com/comparison/)
-- [Gitlab Workshop Part 1: Basics of Git and Gitlab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-1/material/)
-- [GitLab Workshop Part 2: Basics of Git and Gitlab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-23370/material/)
-- [Gitlab Workshop Part 3: Basics of Git and Gitlab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-3/material/)
-- [Gitlab Workshop Part 4: Basics of Git and Gitlab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-4/material/)
+- [GitLab Workshop Part 1: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-1/material/)
+- [GitLab Workshop Part 2: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-23370/material/)
+- [GitLab Workshop Part 3: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-3/material/)
+- [GitLab Workshop Part 4: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-4/material/)
 - [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 - [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=ae7b72c61347030e8aa75328ed4b8660).  Download [WebEx](https://www.webex.com/play-webex-recording.html) to view this video
 - [Amazon's transition to Continuous Delivery](https://www.youtube.com/watch?v=esEFaY0FDKc)
-- [3rd party tool comparision](http://technologyconversations.com/2015/10/16/github-vs-gitlabs-vs-bitbucket-server-formerly-stash/)
+- [3rd party tool comparison](http://technologyconversations.com/2015/10/16/github-vs-gitlabs-vs-bitbucket-server-formerly-stash/)
 - [State of Dev Ops 2015 Report by Puppet Labs](https://puppetlabs.com/sites/default/files/2015-state-of-devops-report.pdf) Insightful Chapters to understand the Impact of Continuous Delivery on Performance (Chapter 4), the Application Architecture (Chapter 5) and How IT Managers can help their teams win (Chapter 6).
 - [Customer review of GitLab with talking points on why they prefer GitLab](https://www.enovate.co.uk/web-design-blog/2015/11/25/gitlab-review/)
 - [2011 WSJ article by Mark Andreeson - Software is Eating the World](http://www.wsj.com/articles/SB10001424053111903480904576512250915629460)
@@ -187,3 +193,4 @@ For GitLab team members only there is a university class every Thursday at 5PM U
 - [Customer Use-Cases](https://about.gitlab.com/handbook/use-cases/)
 - [Why Git and GitLab slide deck](https://docs.google.com/a/gitlab.com/presentation/d/1RcZhFmn5VPvoFu6UMxhMOy7lAsToeBZRjLRn0LIdaNc/edit?usp=drive_web)
 - [Git Workshop](https://docs.google.com/presentation/d/1JzTYD8ij9slejV2-TO-NzjCvlvj6mVn9BORePXNJoMI/edit?usp=drive_web)
+- [Client Assessment of GitLab versus GitHub](https://docs.google.com/a/gitlab.com/spreadsheets/d/18cRF9Y5I6I7Z_ab6qhBEW55YpEMyU4PitZYjomVHM-M/edit?usp=sharing) INTERNAL ACCESS ONLY

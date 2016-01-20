@@ -5,7 +5,6 @@ date: 2015-09-25
 comments: true
 author: GitLab
 author_twitter: gitlab
-filename: 2015-09-25-gitlab-8-dot-0-dot-2-released.markdown
 ---
 
 Today we are releasing version 8.0.2 for Community Edition (CE) and Enterprise

@@ -53,7 +53,7 @@ title: "Customer Use-Cases"
     changes made within the GitLab server which was of extreme importance to 
     them.
     * Placeholder to add another story
-1. Importing repo's and files from GitHub
+1. Importing repos and files from GitHub
     * Placeholder to add story
     * Placeholder to add another story
 1. Migrating from SVN to Git

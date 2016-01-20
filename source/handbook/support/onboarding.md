@@ -1,9 +1,7 @@
 ---
 layout: markdown_page
-title: Support Team
+title: Service Engineer Onboarding
 ---
-
-# Interactions within the Support Team
 
 ## Expectations of the support team
 
@@ -62,6 +60,17 @@ section.
 Tickets coming from our customers take a higher priority than regular support tickets and are marked as such
 within ZenDesk. Make sure you take care of these tickets first. They can be seen in the `Subscribers Open`
 view.
+
+We use ZenDesk Organization Profiles to store relevant information about the customer, like environment setup,
+hardware specs, usage patterns, etc, so that if you need this information, it is readily available from
+within ZenDesk. To see this information, click on the link to the left of the requester's name (in our example
+it's the link that says 'GitLab' right next to Haydn's name).
+
+![ZenDesk Organizations](/images/support/zendesk-org.png)
+
+If a customer does not have an organization set up you can create one by clicking on the field next to
+the requester's name (This field says GitLab on the screenshot above, to the left of Haydn's name). When
+doing this, please fill in the correct name and email domains for the new Organization.
 
 **After the first response**
 

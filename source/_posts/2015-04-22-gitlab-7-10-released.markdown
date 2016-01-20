@@ -7,7 +7,6 @@ categories:
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: /images/7_10/sf.jpeg
-filename: 2015-04-22-gitlab-7-10-released.markdown
 ---
 
 Everyone has been working really hard to bring GitLab 7.10 to you today!

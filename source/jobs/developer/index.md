@@ -3,9 +3,8 @@ layout: markdown_page
 title: "Developer"
 ---
 
-At GitLab, developers are highly independent and self-organized individual 
+At GitLab, developers are highly independent and self-organized individual
 contributors who work together as a tight team in a [remote and agile](https://about.gitlab.com/2015/09/14/remote-agile-at-gitlab/) way.
-
 
 ## General Developer Responsibilities
 
@@ -19,10 +18,11 @@ contributors who work together as a tight team in a [remote and agile](https://a
 * Qualify developers for hiring.
 
 ### Responsibilities Split Between Various Developers
+
 * Omnibus packaging
 * Chef cookbooks
 * DevOps: ensuring that deployments are smooth and scalable
-* Maintenance of various servers such as 
+* Maintenance of various servers such as
    * license.gitlab.com
    * version.gitlab.com
    * status.gitlab.com
@@ -31,13 +31,15 @@ contributors who work together as a tight team in a [remote and agile](https://a
 * Feature development for GitLab CE, EE, and CI.
 
 ### Senior Developers
+
 Senior Developers are experienced developers who:
+
 * know a domain really well and radiate that knowledge
 * train new people
 * are the go-to person when people on the team have development questions
 
-
 ## Requirements for Applicants
+
 (Check our [Jobs](https://about.gitlab.com/jobs/) page to see current openings).
 
 * You can reason about software, algorithms and performance from a high level
@@ -46,3 +48,12 @@ Senior Developers are experienced developers who:
 * You know how to write your own Ruby gem using TDD techniques
 * Work remotely from anywhere in the world (Curious to see what that looks like?
 Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!)
+
+## Workflow
+
+You work on issues tagged with 'Developer' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=Developer) and [EE](https://gitlab.com/gitlab-org/gitlab-ee/issues?label_name=Developer).
+Some issues might be missing any [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) but be ready for a developer, in this case feed free to add 'Developer' label.
+
+The priority of the issues tagged with this label can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/#prioritize).
+
+When done with an issue remove the 'Developer' label and add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) or create a merge request and assign it someone that has 'Merge request endboss' on their [team page](https://about.gitlab.com/team/) listing.

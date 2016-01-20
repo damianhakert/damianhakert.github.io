@@ -14,10 +14,11 @@ title: "Sales Process"
 * [Closing A Won Deal](#closing)
 * [Processing Orders in Recurly](#processing)
 * [Expanding Deals](#expanding)
-* [Managing an Account](managing)
+* [Managing an Account](#managing)
 * [Licences](#licences)
+* [Sales Best Practice Training](https://about.gitlab.com/handbook/sales-training/)
 * [Export Control Classification, and Countries We Do Not Do Business In](#export-control)
-* [Sales Automation Flow](#salesautomation)
+* [Sales Automation Flow](#automation)
 * [Helpful Links](#helpful)
 
 
@@ -103,7 +104,7 @@ Opportunities will follow the following rules:
 To create a quote, you must be in the opportunity object
 
 1. Click New Quote
-1. Name the Quote Suggested format “ Gitlab/Company name/Type of Subscription. Customers will see the name of the quote.
+1. Name the Quote Suggested format “ GitLab/Company name/Type of Subscription. Customers will see the name of the quote.
 1. Enter expiration date if required - It can be left blank.
 1. In "Prepared for” search for the contact name and ensure email address is correct.
 1. Check correct mailing address this will be pulled from account page. If there is no address, add on to the account page
@@ -227,9 +228,9 @@ Find out [how to manage deals](/handbook/sales-process/deal_management_process) 
 
 Aspects to consider when [managing an account](/handbook/sales-process/account_management).
 
-### Licences <a name="license"></a>
+### Licences <a name="licenses"></a>
 
-Everything about [lincenses and EE access](/handbook/sales-process/licenses).
+Everything about [licenses and EE access](/handbook/sales-process/licenses).
 
 ### Export Control Classification, and Countries We Do Not Do Business In <a name="export-control"></a>
 
@@ -243,7 +244,7 @@ to a country listed in [Country Group E:1 in Supplement No. 1 to part 740 of the
 As a consequence of this classification, we currently do not do business in:  
 Iran, Sudan (excluding South Sudan), Syria, North Korea, and Cuba.
 
-### Sales Automation Flow (Lead to Customer) <a name="salesautomation"></a>
+### Sales Automation Flow (Lead to Customer) <a name="automation"></a>
 
 * Free Trial
 
@@ -256,9 +257,6 @@ Order placed (Recurly) -> Account billed via Credit Card -> License Sent via App
 * Contact Us Form
 
 Contact Us Form (Marketo) -> Lead added to Salesforce.com - Opportunity Created if qualifed -> Opportunity Closed Won -> Account invoiced or Credit Card added.
-
-
-
 
 ### Helpful Links <a name="helpful"></a>
 1. [GitLab subscription page](https://about.gitlab.com/subscription/)

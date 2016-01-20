@@ -13,9 +13,14 @@ title: "Sales Onboarding"
 
 1. [Our Sales Process](https://about.gitlab.com/handbook/sales-process/)
 
+1. [Sales Best Practices Training](https://about.gitlab.com/handbook/sales-training/)
+
 1. [Our Sales Agenda](https://docs.google.com/document/d/1l1ecVjKAJY67Zk28CYFiepHAFzvMNu9yDUYVSQmlTmU/edit)
 
-1. Have your manager grant access to the [Sales Folder](https://drive.google.com/drive/u/0/#shared-with-me) in our Google Docs.
+1. Have your manager grant access to the [Sales Folder](https://drive.google.com/drive/u/0/#shared-with-me) in our Google Docs. Here we host:
+	- Customer contracts
+	- RFP templates
+	- Sales calls the team records that we can not post in public
 
 1. Login to [Salesforce.com](http://www.salesforce.com/), you should receive an email asking you to change your password.  Once you are in Salesforce, please familiarize yourself wth these reports/views as they will be critical in helping you manage your business.
     * [Your Current Month Pipeline](https://na34.salesforce.com/00O61000001uYbM) This view is to focus you on what you are committing to closing this month.  Are you in the right stage? What is needed to advance the sale to the next stage?

@@ -28,8 +28,9 @@ extra_css:
       <div class="row">
         <div class="col-md-4">
           <div class="app">
-            <h4>iOS GitLab Control</h4>
-            <p>Third party iPhone app.</p>
+            <h4>GitLab Control</h4>
+            <p>
+An iOS app for managing your GitLab projects on iPhone or iPad. GitLab Control gives you full access to your GitLab projects with the built in code viewer and search tools. You can fully navigate your code tree, issues, milestones and code snippets or search for any filenames, IDs or labels. You can also capture, organise and prioritise your team’s issues, and stay up-to-date using activity streams displaying commits, issues, and more across all repositories.</p>
             <a href="http://gitlabcontrol.com/">gitlabcontrol.com</a>
           </div>
         </div>
@@ -44,7 +45,7 @@ extra_css:
         <div class="col-md-4">
           <div class="app">
             <h4>Chrome GitLab Notifier</h4>
-            <p>Third party notifier for Gitlab events (Commit, Issue, MergeRequest and Milestone).</p>
+            <p>Third party notifier for GitLab events (Commit, Issue, MergeRequest and Milestone).</p>
             <a href="https://chrome.google.com/webstore/detail/gitlab-notifier-for-googl/eageapgbnjicdjjihgclpclilenjbobi">Chrome App Store</a>
           </div>
         </div>
@@ -53,6 +54,21 @@ extra_css:
             <h4>Working Copy</h4>
             <p>Full featured Git client for iPhone and iPad.</p>
             <a href="http://WorkingCopyApp.com/">workingcopyapp.com</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="app">
+            <h4>Trident</h4>
+            <p>A beautiful GitLab client for iOS.</p>
+            <a href="http://www.somerobots.com/">somerobots.com</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="app">
+            <h4>Octotree Chrome Extension</h4>
+            <p>Octotree adds a sidebar to GitLab with all files of the project
+              you're looking at. Highly recommended.</p>
+            <a href="https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc/related">Octotree on the Chrome Web Store</a>
           </div>
         </div>
       </div>
@@ -94,9 +110,7 @@ extra_css:
              <a href="https://github.com/drewblessing/gitlab-cli">Repository on GitHub</a>
           </div>
         </div>
-      </div>
 
-      <div class="row">
         <div class="col-md-4">
           <div class="app">
             <h4>GoTsunami's GitLab Copy Tool</h4>
@@ -121,7 +135,7 @@ extra_css:
         <div class="col-md-4">
           <div class="app">
             <h4>Perl</h4>
-            <p>Net::GitLab Perl Client talks to a Gitlab installation via its API.</p>
+            <p>Net::GitLab Perl Client talks to a GitLab installation via its API.</p>
             <a href="https://metacpan.org/release/AYOUNG/Net-Gitlab-0.05">Repository on matacpan.org</a>
           </div>
         </div>
@@ -146,13 +160,13 @@ extra_css:
         <div class="col-md-4">
           <div class="app">
             <h4>Python</h4>
-            <p>PyAPI-GitLab is a Python wrapper for the Gitlab API.</p>
+            <p>PyAPI-GitLab is a Python wrapper for the GitLab API.</p>
             <a href="https://github.com/Itxaka/pyapi-gitlab">Repository on GitHub</a>
           </div>
         </div>
         <div class="col-md-4">
           <div class="app">
-           <h4>Pyton</h4>
+           <h4>Python</h4>
             <p>libsaas_gitlab is a Python wrapper based on libsaas</p>
             <a href="https://gitlab.com/bor-sh-infrastructure/libsaas_gitlab">Repository on GitLab</a>
           </div>
@@ -225,7 +239,7 @@ extra_css:
         <div class="col-md-4">
           <div class="app">
             <h4>Java</h4>
-            <p>Java GitLab API is a wrapper for the Gitlab API written in Java</p>
+            <p>Java GitLab API is a wrapper for the GitLab API written in Java</p>
             <a href="https://github.com/timols/java-gitlab-api">Repository on GitHub</a>
           </div>
         </div>
@@ -275,7 +289,7 @@ extra_css:
         <div class="col-md-4">
           <div class="app">
             <h4>create-gitlab-repo</h4>
-            <p>Simple script creating a Gitlab project from the local
+            <p>Simple script creating a GitLab project from the local
                 repository in the current directory.</p>
             <a href="https://gitlab.com/mcepl/create-gitlab-repo">Repository</a>
           </div>
@@ -289,7 +303,7 @@ extra_css:
         </div>
         <div class="col-md-4">
           <div class="app">
-            <h4>Gitlab IRC gateway</h4>
+            <h4>GitLab IRC gateway</h4>
             <p>IRC notifications using web hooks, implemented with the <a href="http://www.catb.org/esr/irker/">irker IRC bot</a>.</p>
             <a href="https://gitlab.com/anarcat/irklab">Repository on gitlab.com</a>
           </div>
@@ -336,6 +350,14 @@ extra_css:
             <h4>emacs-gitlab</h4>
             <p>A REST client to the GitLab API with an Emacs HELM interface</p>
             <a href="https://github.com/nlamirault/emacs-gitlab">emacs-gitlab</a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="app">
+            <h4>Review Board</h4>
+            <p>A web-based collaborative code review tool</p>
+            <a href="https://www.reviewboard.org/">Review Board</a>
           </div>
         </div>
       </div>
@@ -605,10 +627,17 @@ extra_css:
         </div>
       </div> <!-- second row end -->
 
-      <hr id="unofficial-runners" />
-      <h2>Unofficial GitLab Runners</h2>
+      <hr id="runners" />
+      <h2>GitLab Runners</h2>
 
       <div class="row">
+        <div class="col-md-4">
+          <div class="app">
+            <h4>Official GitLab Runner</h4>
+            <p>Written in Go, supported on multiple operating systems and includes Docker support.</p>
+            <a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner#installation">Official GitLab Runner</a>
+          </div>
+        </div>
         <div class="col-md-4">
           <div class="app">
             <h4>Unofficial GitLab Runner for Scala/Java</h4>

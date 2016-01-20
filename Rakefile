@@ -4,6 +4,8 @@ require "rubygems"
 require "bundler/setup"
 require "stringex"
 
+import 'generate_release_list.rb'
+
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 ssh_user       = "user@domain.com"
@@ -417,14 +419,14 @@ BUILD_DIR = 'public/'
 DEPLOY_LOCATION = 'deploy@blue-moon.gitlap.com:public/'
 DEPLOY_BRANCH = 'master'
 PDFS = FileList['source/terms/print/*.html'].pathmap('%{^source,public}X.pdf')
-PDFS << 'public/high-availability/gitlab-ha.pdf'
+PDFS += %w{public/high-availability/gitlab-ha.pdf public/features/gitlab-features.pdf}
 
 task :clean do
   rm_rf BUILD_DIR
 end
 
 desc "Build website in #{BUILD_DIR}"
-task :build => [:clean, :generate, :pdfs]
+task :build => [:clean, :release_list, :generate, :pdfs]
 
 rule %r{^public/.*\.pdf} => [->(f) { f.pathmap('%X.html') }] do |pdf|
   # Rewrite the generated HTML a bit, fix relative image links for pandoc

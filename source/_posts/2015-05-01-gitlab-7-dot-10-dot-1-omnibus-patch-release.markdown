@@ -5,7 +5,6 @@ date: 2015-05-01
 comments: true
 author: Marin Jankovski
 author_twitter: maxlazio
-filename: 2015-05-01-gitlab-7-dot-10-dot-1-omnibus-patch-release.markdown
 
 ---
 
