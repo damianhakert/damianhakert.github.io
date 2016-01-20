@@ -21,7 +21,8 @@ We're extremely happy to receive some amazing contributions this release.
 Kyungchul Shin contributed a fuzzy file finder to GitLab this release,
 a much requested and truly MVP-worthy contribution.
 
-Thanks Kyungchul Shin and congratulations with being this months MVP!
+Thanks Kyungchul Shin and congratulations with being
+[this months MVP](https://about.gitlab.com/mvp/)!
 
 <!--more-->
 
@@ -34,20 +35,20 @@ Thanks Kyungchul Shin and congratulations with being this months MVP!
 ## Super-powered Search with Elasticsearch (EE only)
 
 If you have a lot of data, searching through everything in GitLab can
-requires a lot of number crunching, which can take a while.
+require a lot of number crunching, which can take a while.
 Search is the last thing you want to wait for, which is why GitLab can now
 leverage [Elasticsearch](https://www.elastic.co/products/elasticsearch)
 to speed up those searches!
 
 Elasticsearch is a flexible, scalable and powerful search service that lives
 on its own server(s). Connecting it to GitLab is
-[easy as pie](TODO: documentation link).
+[easy as pie][es].
 
 Just like good-old search, Elasticsearch will search through your
 issues, merge requests, milestones, comments, projects, repositories,
 snippets and wikis.
 
-- [Read about setting up Elasticsearch in our documentation](TODO: documentation link)
+- [Read about setting up Elasticsearch in our documentation][es]
 
 ## Artifacts browser
 
@@ -69,22 +70,22 @@ TODO: documentation
 ## Improved GitHub Importer
 
 Want to move your projects from GitHub?
-GitLab now imports your repositories, wikis, issues and pull requests* from
+GitLab now imports your repositories, wikis, issues and pull requests from
 GitHub!
 
 On the new project page `/projects/new`, simply click on the GitHub link
 and click to import any or all projects. GitLab will automatically take care
 of the rest.
 
-* pull requests from forks are not imported
+TODO: picture
 
 - [Read the documentation on the GitHub importer](http://doc.gitlab.com/ce/workflow/importing/import_projects_from_github.html)
 
 ## Fuzzy File Finder
 
-This gif says it all:
+As the saying goes, a gif speaks louder than words:
 
-TODO: add awesome gif from Robert
+![Find files easily with GitLab 8.4](/images/8_4/fuzzy_file_finder.gif)
 
 You can quickly access the Fuzzy File Finder by pressing `t` anywhere
 in a project.
@@ -102,7 +103,10 @@ phone, watch or VR headset.
 
 ## Further design updates
 
-## Performance Monitoring Alpha
+We're working hard on removing unnecessary design elements in GitLab,
+while putting a stronger focus on what is important.
+
+TODO: images
 
 ## CAS Support
 
@@ -110,6 +114,36 @@ The Central Authentication Service (CAS) is a single sign-on protocol for the we
 
 http://doc.gitlab.com/ce/integration/cas.html
 
+TODO: mention contributor of CAS
+
+## Performance Monitoring Alpha
+
+We've said in
+[multiple](https://about.gitlab.com/2016/01/15/making-gitlab-better-for-large-open-source-projects/)
+[places](https://news.ycombinator.com/item?id=10923379) that improving
+performance is a big priority for us. To give us more insights into this,
+we've build performance monitoring into GitLab.
+
+GitLab can now send performance data to an InfluxDB database, which in turn
+can be connected to graphing software such as Grafana (shown below).
+
+Data gathered by Performance Monitoring includes:
+
+- The time it took to complete a transaction (a web request or Sidekiq job).
+- The time spent in running SQL queries and rendering HAML views.
+- The time spent executing Ruby methods.
+- Ruby object that have not yet been released by the garbage collector.
+- System statistics such as the process' memory usage and open file descriptors.
+- Ruby garbage collection statistics.
+
+![Using Grafana to plot GitLab Performance Monitoring data](perf_1.png)
+![Using Grafana to plot GitLab Performance Monitoring data](perf_2.png)
+
+Right now Performance Monitoring still requires some setup to be
+useful, but we're planning to bundle all the required software with our
+Omnibus packages over the next releases.
+
+TODO: documentation link
 
 ## Other changes
 
@@ -150,4 +184,4 @@ Access to GitLab Enterprise Edition is included with a [subscription](http://www
 No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 
-- - -
+[es]: http://doc.gitlab.com/ee/integration/elasticsearch.html "Elasticsearch documentation for GitLab 8.4 and up"
