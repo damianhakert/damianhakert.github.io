@@ -13,8 +13,8 @@ When you get published on our blog at [GitLab](http://about.gitlab.com/blog) you
 
 <!-- more -->
 
-We were inspired by the [writing program](https://www.digitalocean.com/community/get-paid-to-write) run by our friends at Digital Ocean. 
-Their community writers program has helped them publish a high volume of quality resources for their users. 
+We were inspired by the [community writers](https://www.digitalocean.com/community/get-paid-to-write) program run by our friends at Digital Ocean. 
+Their program has helped them publish a high volume of original, quality resources for their users. 
 It also means they can provide different perspectives beyond their internal team. 
 
 ## We’re looking for a few good writers
@@ -27,12 +27,14 @@ Did you ever start writing blog posts or tutorials even *as* you’re learning s
 We’d love to share your first-timer insights with others.
 
 At this time, we're looking for experienced technical writers, with previously published examples to share. 
-Even if your writing sample is published on your own blog, that is OK!
+Even if your writing sample is published on your own blog, that's OK!
 
-We're looking for two kinds of contribution. 
+What we're looking for...
 
-- In-depth tutorials 1,500+ words. 
-- Simple tutorials or feature highlights 800+ words. 
+- Brief "Quick tips" or feature highlights of less than 800 words.
+- Short tutorials of 800+ words. 
+- In-depth tutorials or opinion pieces of 1,500+ words. 
+
 
 Review [our call for writers](/community/writers) for the kinds of topics we're looking for.
 
