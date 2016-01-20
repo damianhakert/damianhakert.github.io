@@ -469,3 +469,7 @@ h2.panel-title {
   max-width: 1000px;
   margin: 0 auto;
 }
+
+.print {
+  display: none;
+}

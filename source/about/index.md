@@ -108,6 +108,10 @@ Apart from making new features GitLab Inc. does a lot of work that benefits both
 1. Dependency upgrades (Rails, gems, etc.)
 1. Performance improvements
 
+When we make new features we ask ourselves, is this feature much more relevant for organizations that have more than 100 developers?
+If the answer is yes the feature is likely to be exclusive to EE.
+We always make sure that CE can do all essential things and there are companies using CE with more than 10,000 developers.
+
 When someone contributes a feature to CE that is already in EE we have a hard decision to make.
 We hope that people focus on contributing features that are neither in CE nor EE.
 This way both edits benefit from a new feature and GitLab Inc. don't have to make a hard decision.
