@@ -19,17 +19,17 @@ def do_not_list(input)
 end
 
 VERSIONS = [
-  "8.3","8.2","8.1","8.0","7.14","7.13","7.12","7.11","7.10",
+  "8.4", "8.3","8.2","8.1","8.0","7.14","7.13","7.12","7.11","7.10",
   "7.9","7.8"
 ]
 
 base_url = 'https://about.gitlab.com'
 dec = "##"
 
-year = 2015
-month = 12
+year = 2016
+month = 01
 major_version = 8
-minor_version = 3
+minor_version = 4
 
 
 desc 'Generate Release List Markdown Page'

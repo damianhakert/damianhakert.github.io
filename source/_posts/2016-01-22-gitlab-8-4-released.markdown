@@ -4,10 +4,10 @@ title: "GitLab's 50th Release: 8.4"
 date: 2016-01-22
 comments: true
 categories:
-author: Job
+author: Job van der Voort
 author_twitter: Jobvo
 filename: 2016-01-22-gitlab-8-4-released.markdown
-image_title: /images/7_X/PICTURE.PNG
+image_title: /images/8_4/building_gitlab.jpg
 ---
 
 What better way to kick off a year than with the 50th release of GitLab, 8.4!
@@ -27,9 +27,11 @@ Thanks Kyungchul Shin and congratulations with being this months MVP!
 
 ## Loading Tanuki
 
-![GitLab's Tanuki is loading](/images/8_4/loading_tanuki2.gif)
+<div style="width: 112px; margin: 0 auto;">
+  <img src="/images/8_4/loading_tanuki2.gif" alt="GitLab's Tanuki is loading" />
+</div>
 
-## Super-powered Search with Elasticsearch (EE)
+## Super-powered Search with Elasticsearch (EE only)
 
 If you have a lot of data, searching through everything in GitLab can
 requires a lot of number crunching, which can take a while.
@@ -49,13 +51,54 @@ snippets and wikis.
 
 ## Artifacts browser
 
+Since [GitLab 8.2](https://about.gitlab.com/2015/11/22/gitlab-8-2-released/),
+you've been able to have CI output artifacts, which you could then
+download as a single compressed file containing all artifacts of a build.
 
+TODO: picture
 
-## Improved GitHub importer
+With GitLab 8.4, you can now browse all your artifacts directly in GitLab's
+interface and download files individually. GitLab does not extract the entire
+compressed file when viewing and when downloading, it'll only extra the
+requested file. This can save you a lot of storage and makes it much easier
+to work with large or large volumes of artifacts, as you don't need to download
+everything to get a single file.
+
+TODO: documentation
+
+## Improved GitHub Importer
+
+Want to move your projects from GitHub?
+GitLab now imports your repositories, wikis, issues and pull requests* from
+GitHub!
+
+On the new project page `/projects/new`, simply click on the GitHub link
+and click to import any or all projects. GitLab will automatically take care
+of the rest.
+
+* pull requests from forks are not imported
+
+- [Read the documentation on the GitHub importer](http://doc.gitlab.com/ce/workflow/importing/import_projects_from_github.html)
 
 ## Fuzzy File Finder
 
+This gif says it all:
+
+TODO: add awesome gif from Robert
+
+You can quickly access the Fuzzy File Finder by pressing `t` anywhere
+in a project.
+
 ## Unsubscribe from Threads in Email
+
+If you're getting notifications from issues or merge requests you're no
+longer interested in, there is now an quick link in every email to
+unsubscribe from that thread.
+
+![Quickly unsubscribe from a thread in GitLab 8.4](/images/8_4/unsub.jpg)
+
+The link doesn't require you to sign in, so you can easily use it from your
+phone, watch or VR headset.
 
 ## Further design updates
 
