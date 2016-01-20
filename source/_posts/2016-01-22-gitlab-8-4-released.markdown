@@ -59,10 +59,10 @@ TODO: picture
 
 With GitLab 8.4, you can now browse all your artifacts directly in GitLab's
 interface and download files individually. GitLab does not extract the entire
-compressed file when viewing and when downloading, it'll only extra the
-requested file. This can save you a lot of storage and makes it much easier
-to work with large or large volumes of artifacts, as you don't need to download
-everything to get a single file.
+compressed file when viewing and when downloading, it'll only extract the
+requested file. This can save you a lot of storage space and makes it much
+easier to work with large files or large volumes of artifacts, as you don't need
+to download everything to get a single file.
 
 TODO: documentation
 
@@ -82,7 +82,7 @@ TODO: picture
 
 ## Fuzzy File Finder
 
-As the saying goes, a gif speaks louder than words:
+As the saying goes, GIFs speak louder than words:
 
 ![Find files easily with GitLab 8.4](/images/8_4/fuzzy_file_finder.gif)
 
@@ -110,12 +110,12 @@ unsubscribe from that thread.
 </div>
 
 The link doesn't require you to sign in, so you can easily use it from your
-phone, watch or VR headset.
+phone, watch, or VR headset.
 
 ## Better links in other apps (Slack unfurls!)
 
 When pasting a GitLab link in Slack, Twitter or Facebook,
-it now automagically becomes a little bit more pretty or informative
+it now automagically becomes a little bit prettier and informative
 by making use of the Open Graph standard.
 
 For instance, if you post a GitLab link in Slack, you now get some
@@ -130,7 +130,7 @@ We're looking forward to seeing pretty GitLab links all over the internet!
 GitLab user [tduehr](https://gitlab.com/u/tduehr) contributed CAS support
 for GitLab, allowing you to use your CAS single sign-on server to sign
 into GitLab.
-Thanks tduehr!
+Thanks, tduehr!
 
 - [Read the documentation on using CAS with GitLab](http://doc.gitlab.com/ce/integration/cas.html)
 
@@ -159,13 +159,13 @@ Data gathered by Performance Monitoring includes:
 
 Right now Performance Monitoring still requires some setup to be
 useful, but we're planning to bundle all the required software with our
-Omnibus packages over the next releases.
+Omnibus packages in the coming releases.
 
 TODO: documentation link
 
 ## Filter Commit Messages
 
-Want to quickly find a specific commit in the list of commmits?
+Want to quickly find a specific commit in the list of commits?
 You can now quickly filter them by commit message, using the input on
 top!
 
@@ -175,11 +175,11 @@ Find the commit filter on the commits page of any of your projects.
 
 ## Emoji Picker Improvements
 
-Finally use all the emoji!
+Finally use all the Emoji!
 
-![Search and find your favorite emoji quickly in GitLab 8.4](/images/8_4/emoji_picker.gif)
+![Search and find your favorite Emoji quickly in GitLab 8.4](/images/8_4/emoji_picker.gif)
 
-The new emoji picker also stores your favorite emoji and is available
+The new Emoji picker also stores your favorite Emoji and is available
 in any issue and merge request.
 
 ## Design Updates
@@ -192,7 +192,7 @@ Groups now look cleaner:
 
 ![Upgraded Group page for GitLab 8.4](/images/8_4/design_group.png)
 
-And issues are also easier to the eye, especially if you're using a smaller
+And issues are also easier on the eyes, especially if you're using a smaller
 window:
 
 ![Renewed issue design in GitLab 8.4](/images/8_4/design_issue.png)
