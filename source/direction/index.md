@@ -179,7 +179,7 @@ review, and deploying in different environments. That doesn't mean we'll never
 do a marketplace, in fact this is the way [GitLab.com will be free
 forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever).
 We admire other convention over configuration tools like [Ruby on
-Rails](http://rubyonrails.org/), [Ember](http://emberjs.com/), and
+Rails](http://rubyonrails.org/) (that doctrine of which perfectly describe the [value of integrated systems](http://rubyonrails.org/doctrine#integrated-systems), [Ember](http://emberjs.com/), and
 [Heroku](https://www.heroku.com/), and strive to offer the same advantages for a
 continuous delivery of software.
 
