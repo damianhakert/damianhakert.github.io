@@ -26,8 +26,6 @@ Thanks Kyungchul Shin and congratulations with being
 
 <!--more-->
 
-## Loading Tanuki
-
 <div style="width: 112px; margin: 0 auto;">
   <img src="/images/8_4/loading_tanuki2.gif" alt="GitLab's Tanuki is loading" />
 </div>
@@ -90,6 +88,15 @@ As the saying goes, a gif speaks louder than words:
 You can quickly access the Fuzzy File Finder by pressing `t` anywhere
 in a project.
 
+## Code highlighting in Diffs
+
+TODO: did this make 8.4?
+
+Another new feature that is better left to pictures,
+as GitLab now also highlights code in diffs:
+
+TODO: add pictures
+
 ## Unsubscribe from Threads in Email
 
 If you're getting notifications from issues or merge requests you're no
@@ -101,20 +108,27 @@ unsubscribe from that thread.
 The link doesn't require you to sign in, so you can easily use it from your
 phone, watch or VR headset.
 
-## Further design updates
+## Better links in other apps (Slack unfurls!)
 
-We're working hard on removing unnecessary design elements in GitLab,
-while putting a stronger focus on what is important.
+When pasting a GitLab link in Slack, Twitter or Facebook,
+it now automagically becomes a little bit more pretty or informative
+by making use of the Open Graph standard.
 
-TODO: images
+For instance, if you post a GitLab link in Slack, you now get some
+extra information about the issue or merge request:
+
+![Slack unfurls in GitLab 8.4](unfurl.png)
+
+We're looking forward to see pretty GitLab links all over the internet!
 
 ## CAS Support
 
-The Central Authentication Service (CAS) is a single sign-on protocol for the web.[1] Its purpose is to permit a user to access multiple applications while providing their credentials (such as userid and password) only once. It also allows web applications to authenticate users without gaining access to a user's security credentials, such as a password. The name CAS also refers to a software package that implements this protocol.
+GitLab user [tduehr](https://gitlab.com/u/tduehr) contributed CAS support
+for GitLab, allowing you to use your CAS single sign-on server to sign
+into GitLab.
+Thanks tduehr!
 
-http://doc.gitlab.com/ce/integration/cas.html
-
-TODO: mention contributor of CAS
+- [Read the documentation on using CAS with GitLab](http://doc.gitlab.com/ce/integration/cas.html)
 
 ## Performance Monitoring Alpha
 
@@ -152,10 +166,7 @@ This release has more improvements, including security fixes. Please check out [
 
 ## Upgrade barometer
 
-
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
-*** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
+TODO: upgrade barometer
 
 *Note* If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
 
