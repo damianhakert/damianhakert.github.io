@@ -184,10 +184,28 @@ in any issue and merge request.
 
 ## Design Updates
 
+Upgrading the looks and usability of GitLab is very important to us.
+GitLab 8.4 introduces several design changes that will be built upon in
+future releases.
+
+Groups now look cleaner:
+
+![Upgraded Group page for GitLab 8.4](/images/8_4/design_group.png)
+
+And issues are also easier to the eye, especially if you're using a smaller
+window:
+
+![Renewed issue design in GitLab 8.4](/images/8_4/design_issue.png)
+
+We're working hard to improve the design of GitLab and put more emphasis
+on content, while making everything easier to use. We'd love to get your
+feedback on the latest changes.
+
 ## Other changes
 
-This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
-
+This release has more improvements, including security fixes. Please check out
+[the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG)
+to see the all named changes.
 
 ## Upgrade barometer
 
