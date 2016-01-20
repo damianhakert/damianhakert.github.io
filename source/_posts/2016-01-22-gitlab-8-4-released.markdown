@@ -29,9 +29,27 @@ Thanks Kyungchul Shin and congratulations with being this months MVP!
 
 ![GitLab's Tanuki is loading](/images/8_4/loading_tanuki2.gif)
 
-## Super powered search with Elasticsearch (EE)
+## Super-powered Search with Elasticsearch (EE)
+
+If you have a lot of data, searching through everything in GitLab can
+requires a lot of number crunching, which can take a while.
+Search is the last thing you want to wait for, which is why GitLab can now
+leverage [Elasticsearch](https://www.elastic.co/products/elasticsearch)
+to speed up those searches!
+
+Elasticsearch is a flexible, scalable and powerful search service that lives
+on its own server(s). Connecting it to GitLab is
+[easy as pie](TODO: documentation link).
+
+Just like good-old search, Elasticsearch will search through your
+issues, merge requests, milestones, comments, projects, repositories,
+snippets and wikis.
+
+- [Read about setting up Elasticsearch in our documentation](TODO: documentation link)
 
 ## Artifacts browser
+
+
 
 ## Improved GitHub importer
 
