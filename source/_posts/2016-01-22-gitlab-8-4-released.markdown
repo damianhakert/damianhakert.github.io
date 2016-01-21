@@ -96,7 +96,9 @@ _For more shortcuts, press `?` anywhere in GitLab!_
 Another new feature that is better left to pictures,
 as GitLab now also highlights code in diffs:
 
-TODO: add pictures
+![Diffs are now highlighted in GitLab 8.4](/images/8_4/diff_highlighting.jpg)
+
+![Diffs are now highlighted in GitLab 8.4](/images/8_4/diff_highlighting_2.jpg)
 
 ## Unsubscribe from Threads in Email
 
@@ -161,7 +163,7 @@ Right now Performance Monitoring still requires some setup to be
 useful, but we're planning to bundle all the required software with our
 Omnibus packages in the coming releases.
 
-TODO: documentation link
+- [View the documentation on GitLab Performance Monitoring](http://doc.gitlab.com/ce/monitoring/performance/introduction.html)
 
 ## Filter Commit Messages
 
