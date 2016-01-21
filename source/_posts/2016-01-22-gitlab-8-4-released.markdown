@@ -55,7 +55,7 @@ Since [GitLab 8.2](https://about.gitlab.com/2015/11/22/gitlab-8-2-released/),
 you've been able to have CI output artifacts, which you could then
 download as a single compressed file containing all artifacts of a build.
 
-TODO: picture
+![Build artifacts browser in GitLab 8.4](/images/8_4/artifacts_browser.jpg)
 
 With GitLab 8.4, you can now browse all your artifacts directly in GitLab's
 interface and download files individually. GitLab does not extract the entire
@@ -64,7 +64,7 @@ requested file. This can save you a lot of storage space and makes it much
 easier to work with large files or large volumes of artifacts, as you don't need
 to download everything to get a single file.
 
-TODO: documentation
+- [Read the documentation on build artifacts browser](http://doc.gitlab.com/ce/ci/build_artifacts/README.html)
 
 ## Improved GitHub Importer
 
