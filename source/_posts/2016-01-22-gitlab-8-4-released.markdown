@@ -224,7 +224,7 @@ Some other notable changes include:
 - Sign-in using your [Microsoft Azure account][azure-doc]
 
 This release has many more improvements. Please check out
-[the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG)
+[the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/8-4-stable/CHANGELOG)
 to see the all named changes.
 
 ## Upgrade barometer
