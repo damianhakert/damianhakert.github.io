@@ -56,4 +56,4 @@ or build them on ARM servers (hard to find).
 
 ### Update
 
-If you are using GitLab on your Raspberry Pi 2, it works exactly the same way as it does regularly. You can use GitLab's official user documentation as a guide.
+If you are using GitLab on your Raspberry Pi 2, it works exactly the same way as it does regularly. You can use [GitLab's official user documentation](https://about.gitlab.com/downloads/) as a guide.
