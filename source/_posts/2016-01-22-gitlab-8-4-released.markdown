@@ -143,7 +143,8 @@ Thanks, tduehr!
 We've said in
 [multiple](https://about.gitlab.com/2016/01/15/making-gitlab-better-for-large-open-source-projects/)
 [places](https://news.ycombinator.com/item?id=10923379) that improving
-performance is a big priority for us. To give us more insights into this,
+performance of GitLab.com is a big priority for us.
+To give us more insights into this,
 we've built performance monitoring into GitLab.
 
 GitLab can now send performance data to an InfluxDB database, which in turn
@@ -162,8 +163,8 @@ Data gathered by Performance Monitoring includes:
 ![Using Grafana to plot GitLab Performance Monitoring data](/images/8_4/perf_2.png)
 
 Right now Performance Monitoring still requires some setup to be
-useful, but we're planning to bundle all the required software with our
-Omnibus packages in the coming releases.
+useful, but we're planning to bundle all the required software with
+our EE Omnibus packages in the coming releases.
 
 > [View the documentation on GitLab Performance Monitoring](http://doc.gitlab.com/ce/monitoring/performance/introduction.html)
 
