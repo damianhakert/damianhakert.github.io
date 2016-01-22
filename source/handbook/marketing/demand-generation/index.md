@@ -9,6 +9,7 @@ title: "Demand Generation"
 - [Point webhook from mailchimp to marketo issue](https://gitlab.com/gitlab-com/www-gitlab-com/issues/427)
 - [Replace wufoo forms with Marketo forms](https://gitlab.com/gitlab-com/www-gitlab-com/issues/422)
 - [Marketo webhooks docs](http://developers.marketo.com/documentation/webhooks/)
+- [Recurly data into Marketo](https://gitlab.com/gitlab-com/www-gitlab-com/issues/526)
 
 ## Contact methods on website
 
