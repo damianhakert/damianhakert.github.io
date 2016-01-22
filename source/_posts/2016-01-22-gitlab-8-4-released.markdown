@@ -47,7 +47,7 @@ Just like good-old search, Elasticsearch will search through your
 issues, merge requests, milestones, comments, projects, repositories,
 snippets and wikis.
 
-- [Read about setting up Elasticsearch in our documentation][es]
+> [Read about setting up Elasticsearch in our documentation][es]
 
 ## Artifacts browser
 
@@ -64,7 +64,7 @@ requested file. This can save you a lot of storage space and makes it much
 easier to work with large files or large volumes of artifacts, as you don't need
 to download everything to get a single file.
 
-- [Read the documentation on build artifacts browser](http://doc.gitlab.com/ce/ci/build_artifacts/README.html)
+> [Read the documentation on build artifacts browser](http://doc.gitlab.com/ce/ci/build_artifacts/README.html)
 
 ## Improved GitHub Importer
 
@@ -76,7 +76,7 @@ On the new project page `/projects/new`, simply click on the GitHub link
 and click to import any or all projects. GitLab will automatically take care
 of the rest.
 
-- [Read the documentation on the GitHub importer](http://doc.gitlab.com/ce/workflow/importing/import_projects_from_github.html)
+> [Read the documentation on the GitHub importer](http://doc.gitlab.com/ce/workflow/importing/import_projects_from_github.html)
 
 ## Fuzzy File Finder
 
@@ -90,7 +90,7 @@ in a project.
 
 _For more shortcuts, press `?` anywhere in GitLab!_
 
-- [Read the documentation on the File finder](http://doc.gitlab.com/ce/workflow/file_finder.html)
+> [Read the documentation on the File finder](http://doc.gitlab.com/ce/workflow/file_finder.html)
 
 
 ## Code highlighting in Diffs
@@ -136,7 +136,7 @@ for GitLab, allowing you to use your CAS single sign-on server to sign
 into GitLab.
 Thanks, tduehr!
 
-- [Read the documentation on using CAS with GitLab](http://doc.gitlab.com/ce/integration/cas.html)
+> [Read the documentation on using CAS with GitLab](http://doc.gitlab.com/ce/integration/cas.html)
 
 ## Performance Monitoring Alpha
 
@@ -165,7 +165,7 @@ Right now Performance Monitoring still requires some setup to be
 useful, but we're planning to bundle all the required software with our
 Omnibus packages in the coming releases.
 
-- [View the documentation on GitLab Performance Monitoring](http://doc.gitlab.com/ce/monitoring/performance/introduction.html)
+> [View the documentation on GitLab Performance Monitoring](http://doc.gitlab.com/ce/monitoring/performance/introduction.html)
 
 ## Filter Commit Messages
 
