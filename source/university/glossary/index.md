@@ -215,7 +215,7 @@ Allows you to synchronize the members of a GitLab group with one or more LDAP gr
 
 ### Git LFS
 
-*** Needs definition here
+Git Large File Storage. A way to enable git to handle large binary files by using reference pointers within small text files to point to the large files.
 
 ### Linux
 
@@ -316,7 +316,7 @@ A relational database. Taunted as the most advanced open source database.
 
 ### Protected Branches
 
-*** Needs definition here
+A feature that protects branches from unauthorized pushes, force pushing or deletion.
 
 ### Pull
 
@@ -328,7 +328,7 @@ Git command to synchronize the local repository with the remote repository, by f
 
 ### Push
 
-*** Needs definition here
+Git command to send commits from the local repository to the remote repository.
 
 ### RE Read Only
 
