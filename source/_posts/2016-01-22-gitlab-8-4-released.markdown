@@ -213,9 +213,21 @@ to see the all named changes.
 
 ## Upgrade barometer
 
-TODO: upgrade barometer
+### Downtime required
 
-*Note* If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
+This upgrade **requires downtime** as it brings a couple of migrations that are updating large set of records.
+Most notable ones are iterating through all services and updating default values and, for instances that have LDAP enabled,
+iterating through the whole user base to update LDAP email settings.
+
+On GitLab.com these migration took around 5 minutes to complete. Do note that GitLab.com doesn't have LDAP enabled
+so on instances that do have it enabled, migration will take longer.
+
+### Upgrading from 7.x or prior?
+
+*Note* If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled,
+you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
+
+### Default upgrade behavior
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
