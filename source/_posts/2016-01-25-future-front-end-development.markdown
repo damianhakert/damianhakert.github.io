@@ -64,12 +64,12 @@ We have quite a challenge ahead, and we need your help.
 I’m the first front end developer here at GitLab. 
 I was most recently working for a digital agency developing applications and sites for large retail clients like Panera bread. 
 These sites get tons of people visiting and they have to work really well. 
-They have to be fast extremely reliable. 
+They have to be fast and extremely reliable. 
 That is what I want to bring to GitLab. 
 
 We’re hiring two more front end developers. 
-If you’re curious, you can see open issues and activity related to front end development at GitLab. 
-In my interview with Job (Van der voort, VP of Product), we worked through an issue. 
+If you’re curious, you can see open issues and activity related to front end development at GitLab, right on the [job description](https://about.gitlab.com/jobs/frontend-engineer/). 
+In my interview with Job Van der Voort, VP of Product, we worked through an issue. 
 Job was honest with me. 
 Our current frontend is written in jQuery and coffeescript. 
 However, I think the code is timeless in a way. 
