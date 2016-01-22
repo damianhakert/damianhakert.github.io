@@ -138,7 +138,7 @@ Thanks, tduehr!
 
 > [Read the documentation on using CAS with GitLab](http://doc.gitlab.com/ce/integration/cas.html)
 
-## Performance Monitoring Alpha
+## Performance Monitoring
 
 We've said in
 [multiple](https://about.gitlab.com/2016/01/15/making-gitlab-better-for-large-open-source-projects/)
