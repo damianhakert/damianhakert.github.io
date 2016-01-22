@@ -205,6 +205,20 @@ We're working hard to improve the design of GitLab and put more emphasis
 on content, while making everything easier to use. We'd love to get your
 feedback on the latest changes.
 
+## New CI features in API
+
+Build artifacts browser is not the only change in CI part of GitLab. With GitLab
+8.4 we are introducing new CI features in API:
+
+- [builds](https://gitlab.com/help/api/builds.md) - with this you can list,
+  cancel or retry any build in your project,
+- [build triggers](https://gitlab.com/help/api/build_triggers.md) - with this
+  you can manage project's triggers,
+- [build variables](https://gitlab.com/help/api/build_variables.md) - with
+  this you can manage project's variables.
+
+Details about usage can be found in linked documentation.
+
 ## Other changes
 
 This release has more improvements. Please check out
