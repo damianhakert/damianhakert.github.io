@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A rosetta stone of confusing terminology"
+title: "Comparing Confusing Terms in GitHub, Bitbucket and GitLab"
 date: 2016-01-22
 comments: true
 categories:
@@ -13,7 +13,7 @@ image_title: /images/unsplash/trees-raysoflight.jpg
 Developers rely on multiple platforms to manage repositories, depending on client and project needs.
 One client may have on-premises GitLab, another has a 
 community project on GitHub, and yet another has a legacy 
-project in mercurial on Bitbucket.
+project in Mercurial on Bitbucket.
 Confusion can arise when you switch between platforms.
 In this post, we have a handy reference guide to explain 
 some potentially confusing terms, especially if you're new 
@@ -30,7 +30,7 @@ for users.
 Git-specific terms like commits, push, and so forth are the same.
 Common features most repository managers have are also the same: such as users, issues, webhooks, etc.
 
-However there are some features have different names.
+However some features have different names.
 For example a “pull request” in GitHub and Bitbucket is called a “merge request” in GitLab.
 We figured since you're often making a request to `merge` a feature branch into the master branch, we call this a 
 "merge request" and you'll hear us talk about MRs and not PRs.
@@ -39,7 +39,7 @@ If you’re brand new to GitLab, we’ve made this handy cheat-sheet to help you
 
 (graphic here)
 
-## Projects v Repositories v Organizations
+## Projects, Repositories, Organizations?
 
 With the recent additions of “Projects” in Bitbucket, there’s fresh confusion.
 Weren’t “repos” actually projects?
@@ -72,7 +72,7 @@ And even those settings can be locked at the group level so you can avoid someon
 
 The confusion is understandable, especially if like many developers, you work with a number of clients each on different platforms.
 
-I hope this has cleared up confusing. If you have any questions, you can join us for a [live Q & A in our webcast][webcast] Thursday, January 28, 5pm (17:00) UTC; 12pm EST; 9am PST.
+I hope this has cleared up confusion. If you have any questions, you can join us for a [live Q & A in our webcast][webcast] Thursday, January 28, 5pm (17:00) UTC; 12pm EST; 9am PST.
 
 
 [services]: http://doc.gitlab.com/ce/project_services/project_services.html "Configure Services for Projects"
