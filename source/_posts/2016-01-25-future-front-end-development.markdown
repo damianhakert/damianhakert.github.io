@@ -3,11 +3,13 @@ layout: post
 title: "The future of the front end"
 date: 2016-01-25
 comments: true
-author: Heather McNamee
-author_twitter: nearlythere
+author: Jacob Schatz
+author_twitter: jakecodes
 image_title: '/images/unsplash/kitchen.jpg'
 ---
 
+
+Hi! I'm Jacob Schatz Principle Front End Engineer at [GitLab](http://about.gitlab.com).
 
 When I started here at GitLab in December 2015, I felt like I’d joined the cool-kid club. 
 I’d heard about the job on HackerNews, and thought, “I’ll apply for it and it would be awesome if I got it.” And I got the job! 
