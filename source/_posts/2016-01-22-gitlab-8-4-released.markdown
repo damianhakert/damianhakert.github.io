@@ -207,21 +207,23 @@ feedback on the latest changes.
 
 ## New CI features in API
 
-Build artifacts browser is not the only change in CI part of GitLab. With GitLab
-8.4 we are introducing new CI features in API:
+The build artifacts browser is not the only enhancement in GitLab CI. With
+GitLab 8.4 we are introducing new CI features in our API:
 
-- [builds](https://gitlab.com/help/api/builds.md) - with this you can list,
-  cancel or retry any build in your project,
-- [build triggers](https://gitlab.com/help/api/build_triggers.md) - with this
-  you can manage project's triggers,
-- [build variables](https://gitlab.com/help/api/build_variables.md) - with
-  this you can manage project's variables.
-
-Details about usage can be found in linked documentation.
+- [builds][] - list, cancel or retry any build in your project
+- [build triggers][] - manage your project's [triggers][]
+- [build variables][] - manage your project's variables
 
 ## Other changes
 
-This release has more improvements. Please check out
+Some other notable changes include:
+
+- Do some housekeeping and use `git gc` on your projects [right from your browser][gc-doc]
+- [Enforce Two-factor authentication][2fa-doc] for all users on your GitLab
+  instance
+- Sign-in using your [Microsoft Azure account][azure-doc]
+
+This release has many more improvements. Please check out
 [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG)
 to see the all named changes.
 
@@ -229,12 +231,16 @@ to see the all named changes.
 
 ### Downtime required
 
-This upgrade **requires downtime** as it brings a couple of migrations that are updating large set of records.
-Most notable ones are iterating through all services and updating default values and, for instances that have LDAP enabled,
-iterating through the whole user base to update LDAP email settings.
+This upgrade **requires downtime** as it brings a couple of migrations that are
+updating a large set of records.
 
-On GitLab.com these migration took around 5 minutes to complete. Do note that GitLab.com doesn't have LDAP enabled
-so on instances that do have it enabled, migration will take longer.
+Most notably, the update iterates through all services, updating default values.
+For instances that have LDAP enabled, it iterates through the whole user base
+to update LDAP email settings.
+
+On GitLab.com these migrations took around 5 minutes to complete. Do note that
+GitLab.com doesn't have LDAP enabled so on instances that do have it enabled,
+migration will take longer.
 
 ### Upgrading from 7.x or prior?
 
@@ -269,4 +275,18 @@ Access to GitLab Enterprise Edition is included with a
 No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 
+## Join us for a live Q & A
+
+If you'd like to find out more about GitLab 8.4, [sign up to the webcast][webcast].
+We'll give a live walk-through for this release and talk about what's coming up
+next for GitLab. It's on Thursday, January 28, 5pm (17:00) UTC; 12pm EST; 9am PST.
+
 [es]: http://doc.gitlab.com/ee/integration/elasticsearch.html "Elasticsearch documentation for GitLab 8.4 and up"
+[gc-doc]: http://doc.gitlab.com/ce/administration/housekeeping.html "Housekeeping documentation"
+[2fa-doc]: http://doc.gitlab.com/ce/security/two_factor_authentication.html "Two-factor authentication security documentation"
+[azure-doc]: http://doc.gitlab.com/ce/integration/azure.html "Microsoft Azure integration documentation"
+[builds]: http://doc.gitlab.com/ce/api/builds.html "Builds API documentation"
+[build triggers]: http://doc.gitlab.com/ce/api/build_triggers.html "Build triggers API documentation"
+[build variables]: http://doc.gitlab.com/ce/api/build_variables.html "Build variables API documentation"
+[triggers]: http://doc.gitlab.com/ce/ci/triggers/README.html "Triggers documentation"
+[webcast]: http://page.gitlab.com/Jan282016Webcast.html "Webcast: 8.4 Feature Walk-through"
