@@ -76,13 +76,12 @@ On the new project page `/projects/new`, simply click on the GitHub link
 and click to import any or all projects. GitLab will automatically take care
 of the rest.
 
-TODO: picture
-
 - [Read the documentation on the GitHub importer](http://doc.gitlab.com/ce/workflow/importing/import_projects_from_github.html)
 
 ## Fuzzy File Finder
 
-As the saying goes, GIFs speak louder than words:
+The new Fuzzy File Finder lets you quickly navigate to a file by name
+in the current repository without having to reach for the mouse!
 
 ![Find files easily with GitLab 8.4](/images/8_4/fuzzy_file_finder.gif)
 
@@ -91,10 +90,12 @@ in a project.
 
 _For more shortcuts, press `?` anywhere in GitLab!_
 
+- [Read the documentation on the File finder](http://doc.gitlab.com/ce/workflow/file_finder.html)
+
+
 ## Code highlighting in Diffs
 
-Another new feature that is better left to pictures,
-as GitLab now also highlights code in diffs:
+Diffs in GitLab now have highlighted syntax!
 
 ![Diffs are now highlighted in GitLab 8.4](/images/8_4/diff_highlighting.jpg)
 
@@ -129,7 +130,8 @@ We're looking forward to seeing pretty GitLab links all over the internet!
 
 ## CAS Support
 
-GitLab user [tduehr](https://gitlab.com/u/tduehr) contributed CAS support
+GitLab user [tduehr](https://gitlab.com/u/tduehr) contributed
+[CAS support](https://en.wikipedia.org/wiki/Central_Authentication_Service)
 for GitLab, allowing you to use your CAS single sign-on server to sign
 into GitLab.
 Thanks, tduehr!
@@ -177,7 +179,7 @@ Find the commit filter on the commits page of any of your projects.
 
 ## Emoji Picker Improvements
 
-Finally use all the Emoji!
+Now you can quickly search all available emoji!
 
 ![Search and find your favorite Emoji quickly in GitLab 8.4](/images/8_4/emoji_picker.gif)
 
@@ -205,7 +207,7 @@ feedback on the latest changes.
 
 ## Other changes
 
-This release has more improvements, including security fixes. Please check out
+This release has more improvements. Please check out
 [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG)
 to see the all named changes.
 
