@@ -66,6 +66,7 @@ They have to be fast and extremely reliable.
 That is what I want to bring to GitLab. 
 
 We’re hiring two more front end developers. 
+Our Ruby architecture is rock-solid, and now we need to bring out front end architecture up to that level.
 If you’re curious, you can see open issues and activity related to front end development at GitLab, right on the [job description](https://about.gitlab.com/jobs/frontend-engineer/). 
 In my interview with Job Van der Voort, VP of Product, we worked through a current frontend issue. 
 Our current frontend is written in jQuery and coffeescript. 
