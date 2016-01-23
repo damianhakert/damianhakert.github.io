@@ -42,8 +42,7 @@ If you’re brand new to GitLab, we’ve made this handy cheat-sheet to help you
 
 ## Projects, Repositories, Organizations?
 
-With the recent additions of “Projects” in Bitbucket, there’s fresh confusion.
-Weren’t “repos” actually projects?
+With the recent additions of “Projects” in Bitbucket, there’s a potential for fresh confusion.
 In GitHub, "repositories" contain the Git/SVN repository, and the project assets 
 such as issues, contribution metrics, etc.
 However users often refer to repos as *projects* interchangeably in both GitHub and Bitbucket.
