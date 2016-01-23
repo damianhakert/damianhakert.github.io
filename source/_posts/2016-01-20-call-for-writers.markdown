@@ -58,7 +58,7 @@ It might spark some ideas!
 
 ## How does this work?
 
-First, start by having a look at our [blog post backlog](http://ow.ly/WWA2n). 
+First, start by having a look at our [blog post backlog](https://gitlab.com/gitlab-com/blog-posts/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=0&author_id=&milestone_title=&label_name=&weight=). 
 These are some ideas our team have in their wishlist. Do you see something you can help with? Take the next step.
 
 1. Submit topics and a writing sample to us.
