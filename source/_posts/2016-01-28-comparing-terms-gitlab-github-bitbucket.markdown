@@ -1,12 +1,11 @@
 ---
 layout: post
 title: "Comparing Confusing Terms in GitHub, Bitbucket and GitLab"
-date: 2016-01-26
+date: 2016-01-28
 comments: true
 categories:
 author: Heather McNamee
 author_twitter: nearlythere
-filename: 
 image_title: /images/unsplash/trees-raysoflight.jpg
 ---
 
@@ -42,8 +41,8 @@ If you’re brand new to GitLab, we’ve made this handy cheat-sheet to help you
 
 ## Projects, Repositories, Organizations?
 
-With the recent additions of “Projects” in Bitbucket, there’s a potential for fresh confusion.
-In GitHub, "repositories" contain the Git/SVN repository, and the project assets 
+With the recent additions of Projects in Bitbucket, there’s a potential for fresh confusion.
+In GitHub, *Repositories* contain the Git/SVN repository, and the project assets 
 such as issues, contribution metrics, etc.
 However users often refer to repos as *projects* interchangeably in both GitHub and Bitbucket.
 
@@ -60,6 +59,8 @@ When you configure a project, you can;
 
 It's important to make this distinction because you "Import a project" in 
 GitLab, regardless of whether that is called a *Repository* in GitHub or BitBucket.
+
+![The Import Project UI in GitLab showing you can import from GitHub, Bitbucket, etc](/images/blog-images/import-project.jpg)
 
 This is where it could get confusing.
 Now Bitbucket groups multiple repositories into *Projects*. 
