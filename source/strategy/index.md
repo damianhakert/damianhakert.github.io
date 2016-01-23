@@ -13,7 +13,7 @@ We believe that all digital products should be open to contributions, from legal
 
 1. To ensure that **everyone can contribute** to digital products we make integrated and opinionated collaboration software. Our software is efficient, easy to use and enjoyable. Because there is no need to string together multiple tools you spend less time, have less frustration, there is less bikeshedding, and you get more results.
 
-2. To ensure that **everyone can contribute** with GitLab every person in the world should be able to afford it. Therefore GitLab CE is [free ](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/)[as](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/)[ in ](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/)[beer](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/). Also GitLab.com is free with private repos and ci runners, so that even without a budget you can use a great tool.
+2. To ensure that **everyone can contribute** with GitLab every person in the world should be able to afford it. Therefore GitLab CE is [free ](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/)[as](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/)[ in ](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/)[beer](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/). Also GitLab.com is free with private repos and CI runners, so that even without a budget you can use a great tool.
 
 3. To ensure that **everyone can contribute** using GitLab in some form it should be free as in speech, that is why GitLab CE is MIT licensed. But open source is more than a license, that is why we actively help our competitor Perforce to ship GitLab as part of Perforce Helix. We try to be [a good steward of](https://about.gitlab.com/about/#stewardship) GitLab CE. We keep all our software open to inspection, modifications, enhancements and suggestions.
 
@@ -189,5 +189,5 @@ We believe that all digital products should be open to contributions, from legal
 
 1. Get shipped as official Debian package
 
-2. Others partnetships are not public but people working at GitLab Inc. can find them in the 'Partnerships' Google Doc
+2. Others partnerships are not public but people working at GitLab Inc. can find them in the 'Partnerships' Google Doc
 
