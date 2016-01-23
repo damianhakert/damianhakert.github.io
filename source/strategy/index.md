@@ -1,3 +1,8 @@
+---
+layout: markdown_page
+title: "GitLab Strategy"
+---
+
 ## Why
 
 GitLab was created because Dmitriy needed an affordable tool to collaborate with his team. He wanted something efficient and enjoyable so he could focus on his work, not the tools. He worked on it from home, a house in the Ukraine without running water.
