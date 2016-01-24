@@ -25,6 +25,10 @@ A Microsoft based directory service for windows domain networks. It uses LDAP te
 
 Building and delivering software in phases/parts rather than trying to build everything at once then delivering to the user/client. The later is known as a WaterFall model
 
+### Application Lifecycle Management (ALM)
+
+Entire product lifecycle management process for an application. From requirements management, development and testing until deployment.
+
 ### Artifactory
 
 Version control for binaries.
@@ -342,6 +346,10 @@ Git command to send commits from the local repository to the remote repository.
 
 Storage location of all files which are tracked by git.
 
+### Requirements management
+
+*** Needs definition here
+
 ### Revision
 
 *** Needs definition here
@@ -394,7 +402,7 @@ Atlassian's Git On-Premises solution. Think of it as Atlassian's GitLab EE. It i
 
 ### Subversion
 
-*** Needs definition here
+Non-proprietary, centralized version control system.
 
 ### Sudo
 
@@ -412,7 +420,7 @@ Abbreviation for Subversion.
 
 ### Tool Stack
 
-*** Needs definition here
+Set of tools used in a process to achieve a common outcome. E.g. set of tools used in Application Lifecycle Management.
 
 ### Trac
 
