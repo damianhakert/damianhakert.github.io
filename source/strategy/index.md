@@ -45,6 +45,8 @@ We believe that all digital products should be open to contributions, from legal
 
 4. Become the most popular SaaS solution for public repositories
 
+5. All knowledge workers contributing via GitLab
+
 ## Assumptions
 
 1. [Open source user benefits](http://buytaert.net/acquia-retrospective-2015): significant advantages over proprietary software because of its faster innovation, higher quality, freedom from vendor lock-in, greater security, and lower total cost of ownership.
