@@ -115,10 +115,13 @@ volunteer contributors.
 
 ### Review
 
-A merge request that fixes a `Frontend` issue should have the `Frontend` label
-and be assigned to a Frontend Engineer for review. All other merge requests
-should be assigned for review to one of merge request endbosses. You can find
-them listed on the [team page](https://about.gitlab.com/team/).
+In order to receive feedback on your merge request and have it accepted it
+should be assigned to the right person. A merge request that fixes a frontend
+issue should have the `Frontend` label and be assigned to a Frontend Engineer
+for review. A merge request that is related to Continuous Integration should be
+assigned to the GitLab CI lead. All other merge requests should be assigned for
+review to one of merge request "endbosses". You can find all the roles listed on
+the [team page](https://about.gitlab.com/team/).
 
 ### Ruby Gems
 
