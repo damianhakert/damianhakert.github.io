@@ -31,7 +31,7 @@ title: "Sales Process"
 1. To ensure data integrity and a excellent customer experience, salesperson will conduct a quick search within Salesforce.com search field.  Salesperson will type in a portion of the account name and lead name.  Less is more when searching in Salesforce.com.
     * If the lead already exists in Salesforce.com by either the same contact name or an account with the same business entity name, the salesperson will change ownership to the existing salesperson and add commentary to the chatter field within the lead object.
 
-1. If lead is unique, Salesperson will check https://version.gitlab.com before reaching out to prospect
+1. If lead is unique, Salesperson will check https://version.gitlab.com before reaching out to prospect. See [Version Check page](/handbook/sales-process/version_check) for more information.
 
 1.  Salesperson will attempt to contact lead 4 times with 10 business days. Attempt 1 - within 1 business day. Attempt 2 - 3rd business day. Attempt 3- 6th business day. Attempt 4 - 10th business day.
     * For each attempt, salesperson will change lead status field within lead to correspond to which attempt they have completed
@@ -257,6 +257,10 @@ Order placed (Recurly) -> Account billed via Credit Card -> License Sent via App
 * Contact Us Form
 
 Contact Us Form (Marketo) -> Lead added to Salesforce.com - Opportunity Created if qualifed -> Opportunity Closed Won -> Account invoiced or Credit Card added.
+
+### GitLab Version Check <a name="version_check"></a>
+
+Everything about [GitLab Version Check](/handbook/sales-process/version_check).
 
 ### Helpful Links <a name="helpful"></a>
 1. [GitLab subscription page](https://about.gitlab.com/subscription/)
