@@ -86,6 +86,9 @@ manner. Make sure that you answer the tickets that are assigned to you first and
 that have come in and are unassigned, again using FIFO.
 When you need others to help please create an issue on the relevant GitLab issue tracker.
 
+
+<iframe frameborder="0" src="https://analytics.zendesk.com/dashboard.html#project=/gdc/projects/fan67iacybmx4rawsd6jcipe01ouaxvt&dashboard=/gdc/md/fan67iacybmx4rawsd6jcipe01ouaxvt/obj/61108" width="100%" height="456px" allowTransparency="false"></iframe>
+
 ## Disqus questions on the blog
 
 All the comments from our blog are handled by Disqus, and we have an integration in place, where every new
@@ -160,4 +163,3 @@ You can also consider hanging out on IRC to answer questions and help people (#g
 ## Monitoring
 
 We're working on [piping all named channels into ZenDesk and monitoring the response time for each](https://dev.gitlab.org/gitlab/organization/issues/497).
-
