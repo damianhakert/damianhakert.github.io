@@ -13,7 +13,7 @@ title: "Demand Generation"
 
 ## Incoming Leads
 
-- https://about.gitlab.com/pricing/ => Recurly (not yet integrated into Marketo). Currently when someone clicks "Buy Now" it creates an account in Salesforce and the account owner is notified. Default account owner is Emily/Hank and can then be transferred. This process is being reviewed so it will flow through BDR.
+- https://about.gitlab.com/pricing/ => Recurly (not yet integrated into Marketo). Currently when someone clicks "Buy Now" it creates an account in Salesforce and the account owner is notified. Default account owner is Emily/Hank and can then be transferred. This process is being reviewed so it will flow through BDR. More info below under "New License Flow".
 - https://about.gitlab.com/free-trial/ => Free trial submits flow to BDR team. lead submits form, form sends data to Marketo, Marketo requests license key from the licensing app, lead gets email with license key from Marketo. BDR follows lead qualification process (documented below).
 - https://about.gitlab.com/sales/ => When a lead submit a form to contact sales, that lead flows through marketo and notifies BDR team. BDR follows lead qualification process (documented below).
 - https://about.gitlab.com/contact/ Email to community@gitlab.com - Email sends to marketing team. Leads for EMEA are handled by EMEA BDR, Leads for NA are handled by NA BDR, APAC leads are first notice, first route. When lead is followed up, please BCC community@gitlab.com so everyone knows it has been handled and we don't duplicate work. BDR follows lead qualification process (documented below).
@@ -29,37 +29,53 @@ title: "Demand Generation"
 - Webcast leads => Lead flows through BDR team for lead qualification process (documentation below).
 - Any other forms that are created simply flow through the BDR team for lead qualification process (documentation below).
 
-##Lead status explanation
-- Coming soon
-
 ## New license flow
 
-1. "Buy Now" button on https://about.gitlab.com/pricing/
-1. Recurly
-1. webhooks.io
-1. marketo-tools
-1. Marketo
+Below is theoretical once it is implemented.
 
-## Trial license flow
+1. "Buy Now" button on https://about.gitlab.com/pricing/ is submitted.
+2. Recurly intakes lead information and sends account information to Marketo.
+3. Lead information (first name, last name, email, company name) is sent to webhooks.io.
+4. Webhook.io sends information to Marketo via API.
+5. BDR team is notified via email that a lead has purchased via "buy now" button. Lead flows through BDR team for lead qualification process (documentation below).
 
-1. Form on website is posted to Marketo
-1. Marketo creates a lead and posts to version.gitlab.com
-1. version.gitlab.com sends an email to the customer with a license
+Current state
+1. "Buy Now" button on https://about.gitlab.com/pricing/ is submitted.
+2. Recurly intakes lead information and sends account information to Salesforce.
+3. Lead is assigned based on current account owner.
+4. If no current account owner, Emily handles.
 
-## New GitLab.com lead
+## Incoming lead flow
 
-1. Creates an account on GitLab.com and posts to X
-1. lead is added to the Y mailing list in Marketo
+1. Lead comes into BDR team via one of the named Incoming Lead routes above.
+2. Lead is input into Marketo.
+3. Lead is assigned according to assignment rules.
+4. If region is EMEA, lead goes directly to EMEA BDR team.
+5. All other regions go directly to NA BDR team.
+6. If outside of EMEA, large accounts and recognizable brand names are first passed directly to Enterprise Sales team via assignment in Salesforce + email alert to account owner.
+7. All other leads pass through BDR lead qualification process.
 
 ## Lead qualification process
 
-1. SDR marks the prospect
-1. Account manager is assigned based on geo (EMEA/US) and round robin
-1. Account manager is emailed and a slack message is generated
+1. Soft-BANT is used to determine if a lead should be passed to sales.
+2. If 2 of 4 from budget, authority, need, or timeline are met, BDR team passes lead to sales for followup via salesforce assignment and email notification.
+3. If existing customers comes in as a lead request or if questions about purchasing, BDR team determine account owner and passes lead via email notification.
+4. If further qualification is needed to understand if Soft-BANT requirements are met, BDR team will email or schedule a phone call with lead to understand their opportunity.
+5. If Soft-BANT isn't met, BDR team answers all questions or routes to support.
+6. If no questions and lead isn't qualified for sales contact, status is updated appropriately. See "lead status" above.
 
-## Sales to Nurture
+## What counts as an SQL or MQL?
+1. SQL is any lead passed to the Sales team from the BDR team that has met the qualification process requirements above.
+2. MQL is any lead with a lead score of 20 or greater in Marketo.
+3. Lead score is calculated based on behavioral and demographic data.
 
-If a lead is in an "Attempt #" Lead Status for 21 days without being changed, it will auto-update the Lead Status to "Nurture" This starts Tuesday, but will only affect one lead so far
+## Lead status
+
+Coming this week.
+
+## Nurture campaign process
+
+Coming soon once process is defined. Will be signup campaign for GitLab.com, leads that don't meet Soft-BANT requirements, etc.
 
 ## Marketo Tools Server
 
