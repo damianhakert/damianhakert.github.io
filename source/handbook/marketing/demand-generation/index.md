@@ -11,17 +11,26 @@ title: "Demand Generation"
 - [Marketo webhooks docs](http://developers.marketo.com/documentation/webhooks/)
 - [Recurly data into Marketo](https://gitlab.com/gitlab-com/www-gitlab-com/issues/526)
 
-## Contact methods on website
+## Incoming Leads
 
-- https://about.gitlab.com/pricing/ => Recurly
-- https://about.gitlab.com/free-trial/ => Marketo License
-- https://about.gitlab.com/sales/ => Marketo SDR
-- https://about.gitlab.com/sales/ => Marketo SDR
-- https://about.gitlab.com/contact/ Newsletter => Marketo newsletter signup
-- https://about.gitlab.com/contact/ Security notices => Marketo security notice signup
-- https://about.gitlab.com/press/ press@gitlab.com => Forwards to Ashley
-- https://about.gitlab.com/development/ => Marketo SDR?
-- please add more
+- https://about.gitlab.com/pricing/ => Recurly (not yet integrated into Marketo). Currently when someone clicks "Buy Now" it creates an account in Salesforce and the account owner is notified. Default account owner is Emily/Hank and can then be transferred. This process is being reviewed so it will flow through BDR.
+- https://about.gitlab.com/free-trial/ => Free trial submits flow to BDR team. lead submits form, form sends data to Marketo, Marketo requests license key from the licensing app, lead gets email with license key from Marketo. BDR follows lead qualification process (documented below).
+- https://about.gitlab.com/sales/ => When a lead submit a form to contact sales, that lead flows through marketo and notifies BDR team. BDR follows lead qualification process (documented below).
+- https://about.gitlab.com/contact/ Email to community@gitlab.com - Email sends to marketing team. Leads for EMEA are handled by EMEA BDR, Leads for NA are handled by NA BDR, APAC leads are first notice, first route. When lead is followed up, please BCC community@gitlab.com so everyone knows it has been handled and we don't duplicate work. BDR follows lead qualification process (documented below).
+- https://about.gitlab.com/contact/ Newsletter signup - lead is added to our semi-monthly newsletter.
+- https://about.gitlab.com/contact/ Security signup - Signs up lead for security notices.
+- Emails to sales@gitlab.com => Email to sales@gitlab.com - Email sends to sales team. Leads for EMEA are handled by EMEA BDR, Leads for NA are handled by NA BDR, APAC leads are first notice, first route. When lead is followed up, please BCC community@gitlab.com so everyone knows it has been handled and we don't duplicate work. BDR follows lead qualification process (documented below).
+- https://about.gitlab.com/press/ press@gitlab.com => Forwards to CMO for handling with our PR team.
+- https://about.gitlab.com/development/ => When a lead submit a form to request development help, that lead flows through Marketo and notifies BDR team. BDR follows lead qualification process (documented below).
+- https://about.gitlab.com/training/ => When a lead submit a form for training, that lead flows through Marketo and notifies BDR team. BDR follows lead qualification process (documented below).
+- https://about.gitlab.com/consultancy/ => When a  submit a form for consultancy, that lead flows through Marketo and notifies BDR team. BDR follows lead qualification process (documented below).
+- GitLab.com lead signup =>
+- https://about.gitlab.com/downloads/ GitLab CE Downloads newsletter signups=> Lead flows through BDR team for lead qualification process (documentation below).
+- Webcast leads => Lead flows through BDR team for lead qualification process (documentation below).
+- Any other forms that are created simply flow through the BDR team for lead qualification process (documentation below).
+
+##Lead status explanation
+- Coming soon
 
 ## New license flow
 
@@ -37,12 +46,12 @@ title: "Demand Generation"
 1. Marketo creates a lead and posts to version.gitlab.com
 1. version.gitlab.com sends an email to the customer with a license
 
-## New GitLab.com user
+## New GitLab.com lead
 
 1. Creates an account on GitLab.com and posts to X
-1. User is added to the Y mailing list in Marketo
+1. lead is added to the Y mailing list in Marketo
 
-## SDR to Sales
+## Lead qualification process
 
 1. SDR marks the prospect
 1. Account manager is assigned based on geo (EMEA/US) and round robin
