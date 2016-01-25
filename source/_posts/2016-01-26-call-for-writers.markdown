@@ -19,7 +19,8 @@ It also means they can provide different perspectives beyond their internal team
 
 ## We’re looking for a few good writers
 
-Did you ever go looking for a tutorial on some topic you’re struggling with, to never find it? 
+Did you ever go looking for a tutorial on some topic you’re struggling with, 
+only to never find it? 
 Finally, after you’ve figured it out, you publish a blog post yourself? 
 That is a writer we want to meet.
 
@@ -48,12 +49,15 @@ Whether you manage a large team of developers, or you're a specialist freelancer
 Whether you manage an open source project, or you're a first-time contributor.
 The challenges of fostering productive collaboration, communication, and contribution are universal topics we want to explore on our blog. 
 
-Maybe you're an expert in SVN, just learning git? 
-Your impressions of your first-timer's experience could be very valuable to someone, like you, who's considering a switch. 
+Maybe you're an expert in SVN, just learning Git? 
+Your impressions of your first-timer's experience could be very valuable to 
+someone, like you, who's considering a switch. 
 
 However, please do join us if you'd like to learn more about GitLab. 
-<a href="http://page.gitlab.com/Jan282016Webcast.html">Our first webcast</a> is on Thursday, January 28 at 5pm (17:00) UTC; 12pm EST; 9am PS. 
-You'll get a walkthrough our latest release and learn more about the project and the people behind it. 
+<a href="http://page.gitlab.com/Jan282016Webcast.html">Our first webcast</a>
+is on Thursday, January 28 at 5pm (17:00) UTC; 12pm EST; 9am PST. 
+You'll get a walkthrough of our latest release and learn more about the 
+project and the people behind it. 
 It might spark some ideas!
 
 ## How does this work?
