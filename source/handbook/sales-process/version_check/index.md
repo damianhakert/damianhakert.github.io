@@ -3,7 +3,7 @@ layout: markdown_page
 title: "GitLab Version Check"
 ---
 
-[Reference](https://about.gitlab.com/2015/05/07/version-check/)
+[Blog post about version check: https://about.gitlab.com/2015/05/07/version-check/](https://about.gitlab.com/2015/05/07/version-check/)
 
 ## What is the functionality of the GitLab Version Check?
 
