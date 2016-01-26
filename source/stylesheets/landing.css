@@ -255,7 +255,7 @@
 
 .header-feature {
   display: inline-block;
-  width: 750px;
+  width: 1050px;
   height: 240px;
 }
 
@@ -264,7 +264,8 @@
   }
 
     .header-feature li {
-      margin-right: 4%;
+      margin-right: 2%;
+      margin-left: 2%;
       text-align: center;
       float: left;
       height: 265px;
