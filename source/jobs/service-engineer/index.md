@@ -10,18 +10,19 @@ If you would love to work from home and help GitLab grow, this is the right spot
 
 ## Responsibilities
 
-* Engage with our customers—anything from a small advertising firm or a university, to Fortune 100 clients.
-* Communicate via email and video conferencing with potential and current clients.
-* Maintain GitLab.com and our other services.
-* Participate in the rotating "on-call" list to provide 24/7 emergency response availability .
-* Ensure that everything we learn from running GitLab.com is set as default or communicated to our users.
-* Write and update documentation based on customer interactions.
-* Submit and comment on feature requests based on customer interactions.
+* Engage with our customers—anything from a small advertising firm or a university, to Fortune 100 clients
+* Communicate via email and video conferencing with potential and current clients
+* Maintain GitLab.com and our other services such as GitHost.io
+* Participate in the rotating "on-call" list to provide 24/7 emergency response availability 
+* Ensure that everything we learn from running GitLab.com is set as default or communicated to our users
+* Write and update documentation based on customer interactions
+* Submit and comment on feature requests based on customer interactions
+* Create merge requests to fix bugs
 
 More information can be found on the [support page in the handbook](https://about.gitlab.com/handbook/support/).
 
 ### Senior Service Engineer
-Senior Service Engineers are experienced Service Engineers who: 
+Senior Service Engineers are experienced Service Engineers who 
 
 * have deep knowledge of GitLab internals and a variety of possible configurations
 * train new Service Engineers
