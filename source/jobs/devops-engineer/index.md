@@ -13,6 +13,16 @@ to GitLab.com availability incidents and customer incidents.
 * Improve monitoring systems
 * Improve deployment processes
 
+### Senior DevOps Engineers
+
+Senior DevOps Engineers are experienced DevOps Engineers who: 
+
+* have deep knowledge of GitLab and GitLab.com infrastructure
+* train new DevOps Engineers
+* are a go-to person for the other DevOps Engineers when they face tough challenges
+* write blog posts for the benefit of sysadmins everywhere
+
+
 ## Requirements for Applicants
 (Check our [Jobs](https://about.gitlab.com/jobs/) page to see current openings).
 
