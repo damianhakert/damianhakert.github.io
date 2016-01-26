@@ -41,7 +41,8 @@ above it does not save IP addresses.
 ## Why does GitLab save this information?
 
 This information provides better insights into where and how GitLab is
-used and helps us to improve GitLab for everyone.
+used and helps us to improve GitLab for everyone, for example by seeing which
+versions are popular and require a backport of a security fix.
 
 ## Who has access to this database?
 
