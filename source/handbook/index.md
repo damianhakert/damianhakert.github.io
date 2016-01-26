@@ -48,61 +48,61 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 
 ## Values<a name="values"></a>
 
-We value results, transparency, sharing, freedom, efficiency, frugality, 
+We value results, transparency, sharing, freedom, efficiency, frugality,
 collaboration, directness, kindness, diversity, quirkiness, boring solutions, and interesting people:
 
-1. Results: We care about what you achieve; the code you shipped, the user you 
-made happy, and the team member you helped. Do not compete by proclaiming how many 
-hours you worked yesterday because we don't want someone who took the afternoon 
-off to feel like they did something wrong. Instead celebrate the achievements of 
+1. Results: We care about what you achieve; the code you shipped, the user you
+made happy, and the team member you helped. Do not compete by proclaiming how many
+hours you worked yesterday because we don't want someone who took the afternoon
+off to feel like they did something wrong. Instead celebrate the achievements of
 yourself and your teammates.
-1. Transparency: Be open about as many things as possible. By making information 
-public we can reduce the threshold to contribution and make collaboration easier. 
-An example is the [public repository of this website](https://gitlab.com/gitlab-com/www-gitlab-com/) 
+1. Transparency: Be open about as many things as possible. By making information
+public we can reduce the threshold to contribution and make collaboration easier.
+An example is the [public repository of this website](https://gitlab.com/gitlab-com/www-gitlab-com/)
 that also contains our [company handbook](https://about.gitlab.com/handbook/).
-1. Sharing: We care about giving great software, documentation, examples, lessons, 
+1. Sharing: We care about giving great software, documentation, examples, lessons,
 and processes to the world. An example is the MIT licensed [GitLab CE](https://about.gitlab.com/features/).
-1. Freedom: You should have clear objectives and the freedom to work on them as you 
-see fit. Any instructions are open to discussion. You don't have to defend how you 
+1. Freedom: You should have clear objectives and the freedom to work on them as you
+see fit. Any instructions are open to discussion. You don't have to defend how you
 spend your day.
-1. Efficiency: We care about working on the right things, not doing more than needed, 
-and not duplicating work. This enables us to achieve more progress with less people 
+1. Efficiency: We care about working on the right things, not doing more than needed,
+and not duplicating work. This enables us to achieve more progress with less people
 and makes our work more fulfilling.
-1. Frugality: [Amazon states it best](http://www.amazon.jobs/principles) with: 
-"Accomplish more with less. Constraints breed resourcefulness, self-sufficiency 
-and invention. There are no extra points for growing headcount, budget size or 
+1. Frugality: [Amazon states it best](http://www.amazon.jobs/principles) with:
+"Accomplish more with less. Constraints breed resourcefulness, self-sufficiency
+and invention. There are no extra points for growing headcount, budget size or
 fixed expense."
-1. Collaboration: Helping others is a priority. You are expected to ask others for 
-help and advise. Anyone can chime in on any subject. You don't have to comply with 
-all feedback but you should always take it seriously. An example is the inclusion 
+1. Collaboration: Helping others is a priority. You are expected to ask others for
+help and advise. Anyone can chime in on any subject. You don't have to comply with
+all feedback but you should always take it seriously. An example is the inclusion
 of people from outside GitLab Inc. in the [core team](https://www.gitlab.com/core-team/).
-1. Directness: We try to channel our inner Ben Horowitz by being [both straightforward 
-and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). 
-1. Kindness: Some companies say [Evaluate People Accurately, Not "Kindly"](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf). 
-We're all for accurate assessment but we think it must be done in a kind way. 
-Give as much positive feedback as you can and do it in a public way. Give negative 
-feedback in the smallest setting possible, one-on-one video calls are preferred. 
-Clearly make negative feedback about the work itself, not the person. When giving 
-feedback always provide at least one clear and recent example. If a person is 
-going through a hard time in their personal life, then take that into account. An example of 
+1. Directness: We try to channel our inner Ben Horowitz by being [both straightforward
+and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b).
+1. Kindness: Some companies say [Evaluate People Accurately, Not "Kindly"](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf).
+We're all for accurate assessment but we think it must be done in a kind way.
+Give as much positive feedback as you can and do it in a public way. Give negative
+feedback in the smallest setting possible, one-on-one video calls are preferred.
+Clearly make negative feedback about the work itself, not the person. When giving
+feedback always provide at least one clear and recent example. If a person is
+going through a hard time in their personal life, then take that into account. An example of
 giving positive feedback is our [thanks chat channel](https://about.gitlab.com/handbook/#internal-communication).
-1. Diversity: The community consists of people from all over the world, with different 
-backgrounds and opinions. Make everyone feel welcome. Work to increase the participation 
-of underrepresented minorities and nationalities in our community and company. An 
-example is our sponsorship of [RailsGirls NL](http://railsgirls.nl/) and Poland. 
-It seems harder to get sponsors for coding diversity events in Europe than in the 
-US so if you organize one please email commuity@gitlab.com to give us a chance to 
+1. Diversity: The community consists of people from all over the world, with different
+backgrounds and opinions. Make everyone feel welcome. Work to increase the participation
+of underrepresented minorities and nationalities in our community and company. An
+example is our sponsorship of [RailsGirls NL](http://railsgirls.nl/) and Poland.
+It seems harder to get sponsors for coding diversity events in Europe than in the
+US so if you organize one please email commuity@gitlab.com to give us a chance to
 sponsor them.
-1. Quirkiness: Unexpected and unconventional things make life more interesting. 
-Celebrate and encourage quirky gifts, habits, behavior, and points of view. An example 
-is our [team call](https://about.gitlab.com/handbook/#team-call) where we spend most 
-of our time talking about what we did in our private lives, from fire-throwing to 
+1. Quirkiness: Unexpected and unconventional things make life more interesting.
+Celebrate and encourage quirky gifts, habits, behavior, and points of view. An example
+is our [team call](https://about.gitlab.com/handbook/#team-call) where we spend most
+of our time talking about what we did in our private lives, from fire-throwing to
 knitting.
-1. Boring solutions: Use the most simple and boring solution for a problem. You 
-can always make it more complex later if that is needed. The speed of innovation 
-for our organization and product is constrained by the total complexity we added 
+1. Boring solutions: Use the most simple and boring solution for a problem. You
+can always make it more complex later if that is needed. The speed of innovation
+for our organization and product is constrained by the total complexity we added
 so far, so every little reduction in complexity helps.
-1. Interesting people: Open source is a great way to interact with interesting 
+1. Interesting people: Open source is a great way to interact with interesting
 people. We try to hire people who think work is a great way to express themselves.
 
 ## General Guidelines<a name="general-guidelines"></a>
@@ -297,7 +297,7 @@ intellectual property violations
 1. Any non-company expenses paid with a company credit card will have to be reported to your manager as soon as possible and **refunded** in full within 14 days.
 1. **Mileage** is reimbursed according to local law: [US rate per mile](http://www.irs.gov/Tax-Professionals/Standard-Mileage-Rates), or [rate per km](http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/auto_en_vervoer/auto_van_de_onderneming/autokosten/u_rijdt_in_uw_eigen_auto) in the Netherlands.
 1. The company will pay for the following **items** if you need it for work or use it mainly for business, and local law allows us to pay for it without incurring payroll taxes:
-    *  Notebook: we recommend getting a MacBook (Pro for 'heavy' users, Air for 'light' users) since running Unix makes it easier to work with git from the command line and WebEx screen sharing does not work from a Linux platform while it is one of the more common conferencing tools used with customers. If you have strong reasons to want to deviate from this guideline just ask your manager.
+    *  Notebook: we recommend getting a MacBook Pro 13-inch retina with 512GB for engineers and a Macbook 256GB for non-engineers. Running Unix makes it easier to work with git from the command line so we strongly recommend against Windows laptops. WebEx screen sharing does not work from a Linux platform while it is one of the more common conferencing tools used with customers that we all need to interact with from time to time. Additionally 1password doesn't have a native client for Linux and the web interface in Firefox is not that good. If you have strong reasons to want to deviate from this guideline just ask your manager.
     *  Notebook carrying bag
     *  External [monitor](http://www.amazon.com/gp/product/B009C3M7H0?psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s00), [monitor-cable](http://www.amazon.com/Monoprice-32AWG-Mini-DisplayPort-Cable/dp/B0034X6SCY/ref=sr_1_1?ie=UTF8&qid=1442231319&sr=8-1&keywords=Monoprice+6ft+32AWG+Mini+DisplayPort+to+DisplayPort+Cable+-+White), keyboard, mouse, webcam and ethernet connector
     *  Headset
@@ -351,7 +351,7 @@ intellectual property violations
 
 
 ## Discretionary Bonuses<a name="discretionary-bonuses"></a>
-1. Every now and then, individual team members really shine as they go above and beyond their regular responsibilities and tasks.  
+1. Every now and then, individual team members really shine as they go above and beyond their regular responsibilities and tasks.
    * We recognize this through the #thanks channel, and sometimes also through a discretionary bonus.
    * Managers can recommend their team members to the CEO for a $1,000 bonus.
    * On team call, the manager announces the “who” and “why” of the bonus; and the "why"
