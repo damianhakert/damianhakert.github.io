@@ -1,7 +1,5 @@
 #landing {
   padding: 0;
-  height: 677px;
-  overflow: hidden;
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -33,16 +31,64 @@
   margin-top: 20px;
 }
 
-@media (max-width: 960px) {
-    #landing {
-        background-size: cover;
-    }
+@media (max-width: 388px) {
+  #landing {
+    min-height: 0;
+    height: 82%;
+    background-size: cover;
+  }
+
+  #landing h1 {
+    font-size: 18px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  #landing h3 {
+    margin-top: 0 !important;
+    font-size: 15px !important;
+  }
+
+  #landing .container .row div .text-left {
+    padding: 0 0 0 0 !important;
+  }
+
+  .landing-ctas {
+    margin-top: 0 !important;
+  }
+
+  #landing .landing-ctas a {
+    font-size: 15px;
+    margin: 0px 0 12px 0;
+    padding: 0;
+  }
+
+  .gitlab-comparison {
+    margin-top: 0px !important;
+  }
+
+  .features-panel {
+    margin-top: 24px !important;
+  }
+
+  .read-more-tweets a {
+    padding: 2px !important;
+  }
+
+  .see-further {
+    margin-top: 0 !important;
+  }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 768px) {
+  .landing-item {
+    padding-bottom: 45px;
+  }
+}
+
+@media (max-width: 768px) {
     #landing {
         min-height: 0;
-        height: 82%;
         background-size: cover;
     }
 
@@ -77,55 +123,26 @@
       margin-top: 8px !important;
     }
 
+    .landing-item {
+      padding-bottom: 45px;
+    }
+
 }
 
-@media (max-width: 388px) {
-    #landing {
-        min-height: 0;
-        height: 82%;
-        background-size: cover;
-    }
+@media (max-width: 960px) {
+  #landing {
+    background-size: cover;
+  }
 
-    #landing h1 {
-      font-size: 18px !important;
-      padding-top: 0 !important;
-      padding-bottom: 0 !important;
-    }
+  .landing-item {
+    padding-bottom: 45px;
+  }
+}
 
-    #landing h3 {
-      margin-top: 0 !important;
-      font-size: 15px !important;
-    }
-
-    #landing .container .row div .text-left {
-      padding: 0 0 0 0 !important;
-    }
-
-    .landing-ctas {
-      margin-top: 0 !important;
-    }
-
-    #landing .landing-ctas a {
-      font-size: 15px;
-      margin: 0px 0 12px 0;
-      padding: 0;
-    }
-
-    .gitlab-comparison {
-      margin-top: 0px !important;
-    }
-
-    .features-panel {
-      margin-top: 24px !important;
-    }
-
-    .read-more-tweets a {
-      padding: 2px !important;
-    }
-
-    .see-further {
-      margin-top: 0 !important;
-    }
+@media (max-width: 979px) {
+  .landing-item {
+    padding-bottom: 45px;
+  }
 }
 
 #landing h1 {
@@ -255,8 +272,9 @@
 
 .header-feature {
   display: inline-block;
-  width: 1050px;
-  height: 240px;
+  width: 100%;
+  max-width: 1050px;
+  min-height: 240px;
 }
 
   .header-feature ul {
@@ -281,7 +299,7 @@
         font-size: 4em;
       }
 
-    .header-feature li .clickable .select-area {
+    .header-feature .clickable .select-area {
       position: absolute;
       width: 18%;
       height: 37%;
@@ -313,6 +331,17 @@
       background: #fff;
       color: #548;
       text-decoration: none;
+    }
+
+    .header-feature .icon-area a:hover {
+      background: #fff;
+      color: #548;
+      text-decoration: none;
+    }
+
+    .header-feature .icon-area i {
+      color: white;
+      font-size: 4em;
     }
 
     .header-feature .text-area p:first-child {
