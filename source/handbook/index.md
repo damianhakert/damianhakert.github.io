@@ -42,7 +42,10 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Intellectual Property](#intellectual-property)
 * [Spending Company Money](#spending-company-money)
 * [Paid Time Off](#paid-time-off)
-* [Discretionary Bonuses](#discretionary-bonuses)
+* [Further Incentives](#further-incentives)
+   * [Discretionary Bonuses](#discretionary-bonuses)
+   * [Referral Bonuses](#referral-bonuses)
+   * [Work Remotely Travel Grant](#travel-grant)
 * [Signing Legal Documents](#signing-legal-documents)
 * [Using Git to update this website](#starting-with-git)
 
@@ -348,14 +351,42 @@ intellectual property violations
 1. In case it can be useful add your planned time off as a **FYI** on the next agenda of the team call.
 1. We will **help** clients during official days off, unless they are official days off in both the Netherlands and the U.S. We try to have people working who are in a country that don't have an official day off. If you need to work during an official day off in your country, you should take a day off in return.
 
+## Further Incentives<a name="further-incentives"></a>
 
-## Discretionary Bonuses<a name="discretionary-bonuses"></a>
+The following incentives are available for GitLab team members.
+
+### Discretionary Bonuses<a name="discretionary-bonuses"></a>
+
 1. Every now and then, individual team members really shine as they go above and beyond their regular responsibilities and tasks.
    * We recognize this through the #thanks channel, and sometimes also through a discretionary bonus.
    * Managers can recommend their team members to the CEO for a $1,000 bonus.
    * On team call, the manager announces the “who” and “why” of the bonus; and the "why"
    should be tied to our [values](#values).
 1. If you think you are meeting the requirements for another title, want to change jobs within the company, or think your growth should be reflected in your compensation please feel free to discuss with your manager.
+
+### Referral Bonuses<a name="referral-bonuses"></a>
+
+Chances are that if you work at GitLab, you have great friends and peers who would
+also be fantastic additions to our [Team](https://about.gitlab.com/team/) and who
+may be interested in one of the current [Job Openings](https://about.gitlab.com/jobs/).
+To help us grow the team with exceptional people, we have referral bonuses that work as follows:
+
+1. If you refer a great candidate and she/he is hired, then you receive a $1,000 bonus
+once the new team member has been with the company for 3 months.
+1. If the new team member receives a [discretionary bonus](#discretionary-bonuses) within the
+first 6 months of their hire, then you *also* get a $1,000 bonus.
+
+### Work Remotely Travel Grant<a name="travel-grant"></a>
+
+GitLab is a [remote-first company](http://zachholman.com/posts/remote-first/) with team members
+all over the world (see the map on our [Team page](https://about.gitlab.com/team/) ).
+If you want to visit a colleague in another part of the world, or find out how efficiently
+you can work from a place that is remote from your home office, then present your travel plan
+to your manager or the CEO, and you can receive *up to* $2,000 in support for your plan!
+
+As an example, the first grant was handed to a team member who will be traveling to 6
+different countries during 6 months, and this team member will receive the maximum
+grant of $2,000.
 
 
 ## Signing Legal Documents<a name="signing-legal-documents"></a>
