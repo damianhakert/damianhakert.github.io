@@ -193,6 +193,8 @@ We believe that all digital products should be open to contributions, from legal
 
 1. Most partnerships are not public but people working at GitLab Inc. can find them in the 'Partnerships' Google Doc
 
+1. We'll hire a Strategic Relations Manager
+
 1. The reseller partnerships are espacially important here.
 
 1. We also want to get shipped as official Debian package.
