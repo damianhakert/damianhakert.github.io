@@ -27,6 +27,9 @@ If you see yourself as a good fit with our company’s goals and team, then plea
 
 *Note: we do not accept solicitation by recruiters, recruiting agencies and outsourcing organizations.* <a id="note"></a>
 
+### Developer
+* [Description](https://about.gitlab.com/jobs/developer/)
+* [Apply](https://gitlab.workable.com/jobs/106660)
 
 ### Developer Evangelist
 
