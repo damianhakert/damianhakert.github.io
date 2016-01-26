@@ -7,7 +7,7 @@ author: Marin Jankovski
 author_twitter: maxlazio
 ---
 
-GitLab is built using Ruby on Rails framework.
+GitLab is built using the Ruby on Rails framework.
 The team behind Ruby on Rails has [recently announced 9 possible security vulnerabilities](http://weblog.rubyonrails.org/2016/1/25/Rails-5-0-0-beta1-1-4-2-5-1-4-1-14-1-3-2-22-1-and-rails-html-sanitizer-1-0-3-have-been-released/).
 
 This means that some of these Rails vulnerabilities could potentially
