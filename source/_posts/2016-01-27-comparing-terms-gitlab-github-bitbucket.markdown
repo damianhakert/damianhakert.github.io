@@ -39,9 +39,9 @@ If you’re brand new to GitLab, we’ve made this handy cheat-sheet to help you
 
 ![The Import Project UI in GitLab showing you can import from GitHub, Bitbucket, etc](/images/blogimages/gitlab-terminology.png)
 
-## Projects, Repositories, Organizations?
+## Teams, Repositories, Organizations?
 
-With the recent additions of Projects in Bitbucket, there’s a potential for fresh confusion.
+From teams to repositories to organizations, there’s a potential for fresh confusion.
 In GitHub, *repositories* contain the Git/SVN repository, and the project assets
 such as issues, contribution metrics, etc.
 However users often refer to repos as *projects* interchangeably in both GitHub and Bitbucket.
