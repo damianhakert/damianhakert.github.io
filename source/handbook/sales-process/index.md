@@ -3,7 +3,7 @@ layout: markdown_page
 title: "Sales Process"
 ---
 * [Lead Qualification Process](#leadqual)
-* [Sales Qualification Questions](#salesqual)
+* [Sales Discovery Questions](#salesdisco)
 * [Client Use Cases](#client)
 * [Parent and Child Accounts](#parent)
 * [Opportunity Naming Convention](#naming)
@@ -26,7 +26,7 @@ title: "Sales Process"
 
 1. All marketing leads added to salesforce.com as a lead object.  These are called marketing qualified leads.
 
-1. Leads will be assigned round-robin in both the US and International Regions, with the exception being large Enterprise leads (Fortune 500) assigned to Sr. Enterprise Account Managers.
+1. Leads will be assigned round-robin in both the US and International Regions, with the exception being large Enterprise leads (i.e. 1000+ seats, Fortune 500, multiple divisions) assigned to Sr. Enterprise Account Managers.
 
 1. To ensure data integrity and a excellent customer experience, salesperson will conduct a quick search within Salesforce.com search field.  Salesperson will type in a portion of the account name and lead name.  Less is more when searching in Salesforce.com.
     * If the lead already exists in Salesforce.com by either the same contact name or an account with the same business entity name, the salesperson will change ownership to the existing salesperson and add commentary to the chatter field within the lead object.
@@ -47,9 +47,9 @@ title: "Sales Process"
 
 1. All leads should be in a lead status of nurture, disqualified or converted to an opportuity within 20 days of the lead being created.  
 
-### Sales Qualification Questions <a name="salesqual"></a>
+### Sales Discovery Questions <a name="salesdisco"></a>
 
-[Sales Qualification Questions](https://about.gitlab.com/handbook/sales-qualification-questions/)
+[Sales Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/)
 
 ### Client Use Cases <a name="client"></a>
 
