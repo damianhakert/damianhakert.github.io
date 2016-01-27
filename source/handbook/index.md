@@ -145,6 +145,7 @@ people. We try to hire people who think work is a great way to express themselve
 1. Use **asynchronous communication** when possible (issues and email instead of chat), issues are preferred over email, email is preferred over chat.
 1. It is very OK to ask as many questions as you have, but ask them so many people can answer them and many people see the answer (so use issues or public chat channels instead of private messages or one-on-one emails) and make sure you try to document the answers.
 1. If you have to use email please send one email per subject as multiple items in one email will cause delays (have to respond to everything) or misses (forgot one of the items).
+1. If you mention something (a merge request, issue, commit, webpage, comment, etc.) please include a link to it.
 1. Always reply to emails, even when no action is needed. This lets the other person know that you received it. A thread is done when there is a single word reply, such as OK, thanks, or done.
 1. If you forward an email without other comments please add FYI (for your information) or FYA (for your action).
 1. If you want to be added or removed from an internal email alias (e.g. `sales@gitlab.com`) please see the [GitLab Email Forwarding doc](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#).
