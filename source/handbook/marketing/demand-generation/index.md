@@ -58,8 +58,8 @@ Current state
 ## Lead qualification process
 
 1. Soft-BANT is used to determine if a lead should be passed to sales.
-2. If 2 of 4 from budget, authority, need, or timeline are met, BDR team passes lead to sales for followup via salesforce assignment and email notification.
-3. If existing customers comes in as a lead request or if questions about purchasing, BDR team determine account owner and passes lead via email notification.
+2. If 2 of the 4 from BANT are met (budget, authority, need, timeline), BDR team passes lead to account manager based on round robin rotation via Salesforce assignment and email notification.
+3. If existing customer lead or request comes in, BDR team determines the account owner and passes lead via Salesforce assignment and email notification.
 4. If further qualification is needed to understand if Soft-BANT requirements are met, BDR team will email or schedule a phone call with lead to understand their opportunity.
 5. If Soft-BANT isn't met, BDR team answers all questions or routes to support.
 6. If no questions and lead isn't qualified for sales contact, status is updated appropriately. See "lead status" above.
