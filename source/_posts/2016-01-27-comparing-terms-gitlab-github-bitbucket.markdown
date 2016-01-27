@@ -63,8 +63,8 @@ GitLab, regardless of whether that is called a *repository* elsewhere.
 ![The Import Project UI in GitLab showing you can import from GitHub, Bitbucket, etc](/images/blogimages/import-project.jpg)
 
 This is where it could get confusing.
-Now Bitbucket groups multiple repositories into *Projects*.
-Projects in Bitbucket are analogous to an *Organization* in GitHub.
+Now Bitbucket groups multiple repositories into *Projects*, multiple projects into teams,
+and teams in Bitbucket are analogous to an *Organization* in GitHub.
 
 In GitLab, we call this a *Group*.
 This allows you to collect several projects together and also have members.
