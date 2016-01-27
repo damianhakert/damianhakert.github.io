@@ -383,6 +383,7 @@ To help us grow the team with exceptional people, we have referral bonuses that 
 once the new team member has been with the company for 3 months.
 1. If the new team member receives a [discretionary bonus](#discretionary-bonuses) within the
 first 6 months of their hire, then you *also* get a $1,000 bonus.
+1. Exceptions: no bonuses for hiring people who report to you, and no bonus for the executive team.
 
 ### Work Remotely Travel Grant<a name="travel-grant"></a>
 
