@@ -70,7 +70,7 @@ In GitLab, we call this a *Group*.
 This allows you to collect several projects together and also have members.
 Those members can then configure their own group-level notifications.
 Projects can be stored in only one group at once.
-However you can share a project with other groups.
+However you can share a project with other groups in GitLab Enterprise Edition.
 And even those settings can be locked at the group level so you can avoid
 someone sharing a private project to other groups, for example.
 
