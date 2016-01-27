@@ -34,6 +34,7 @@ It includes the following changes:
   ([!146])
 - **EE:** Rake task gitlab:elastic:index_repositories handles errors and shows
   progress ([!143])
+- **EE:** Partial Elasticsearch indexing of repo on push ([!142])
 
 [!2528]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2528
 [!2535]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2535
