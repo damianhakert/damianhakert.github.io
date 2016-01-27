@@ -44,7 +44,7 @@ If you’re brand new to GitLab, we’ve made this handy cheat-sheet to help you
 From teams to repositories to organizations, there’s a potential for fresh confusion.
 In GitHub, *repositories* contain the Git/SVN repository, and the project assets
 such as issues, contribution metrics, etc.
-However users often refer to repos as *projects* interchangeably in both GitHub and Bitbucket.
+However users might conflate repos as *projects*.
 
 So in GitLab, we call that container a Project.
 That includes the Git repository, issues, MRs, etc.
