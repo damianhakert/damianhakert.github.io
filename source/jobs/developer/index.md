@@ -9,7 +9,7 @@ contributors who work together as a tight team in a [remote and agile](https://a
 ## General Developer Responsibilities
 
 * Develop features from request to polished end result.
-* Support our [service engineers](https://about.gitlab/com/jobs/service-engineer) in getting to the bottom of user-reported issues and come up with robust solutions.
+* Support our [service engineers](https://about.gitlab.com/jobs/service-engineer) in getting to the bottom of user-reported issues and come up with robust solutions.
 * Engage with the rest of the core team and the open source community and collaborate on improving GitLab.
 * Review code contributed by the rest of the community and work with them to get it ready for production.
 * Write documentation around features and configuration to save our users time.
