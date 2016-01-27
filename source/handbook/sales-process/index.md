@@ -3,7 +3,7 @@ layout: markdown_page
 title: "Sales Process"
 ---
 * [Lead Qualification Process](#leadqual)
-* [Sales Qualification Questions](#salesqual)
+* [Sales Discovery Questions](#salesdisco)
 * [Client Use Cases](#client)
 * [Parent and Child Accounts](#parent)
 * [Opportunity Naming Convention](#naming)
@@ -47,9 +47,9 @@ title: "Sales Process"
 
 1. All leads should be in a lead status of nurture, disqualified or converted to an opportuity within 20 days of the lead being created.  
 
-### Sales Qualification Questions <a name="salesqual"></a>
+### Sales Discovery Questions <a name="salesdisco"></a>
 
-[Sales Qualification Questions](https://about.gitlab.com/handbook/sales-qualification-questions/)
+[Sales Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/)
 
 ### Client Use Cases <a name="client"></a>
 
