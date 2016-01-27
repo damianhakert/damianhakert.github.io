@@ -43,6 +43,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Spending Company Money](#spending-company-money)
 * [Paid Time Off](#paid-time-off)
 * [Further Incentives](#further-incentives)
+   * [Sales Target Dinner Bonus](#sales-target-dinner)
    * [Discretionary Bonuses](#discretionary-bonuses)
    * [Referral Bonuses](#referral-bonuses)
    * [Work Remotely Travel Grant](#travel-grant)
@@ -354,6 +355,13 @@ intellectual property violations
 ## Further Incentives<a name="further-incentives"></a>
 
 The following incentives are available for GitLab team members.
+
+### Sales Target Dinner Bonus<a name="sales-target-dinner"></a>
+
+Since reaching sales targets is a team effort that integrates everything from making a great product
+to providing top notch customer support and everything in between, we reward all
+team members for every month that we reach our Sales Targets. The reward is $100 
+to each team member, towards a dinner of each team member's own choice. Enjoy! 
 
 ### Discretionary Bonuses<a name="discretionary-bonuses"></a>
 
