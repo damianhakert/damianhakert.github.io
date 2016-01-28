@@ -61,6 +61,38 @@ It includes the following changes:
 [!143]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/143
 [!146]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/146
 
+## Elasticsearch re-indexing
+
+If you have already enabled Elasticsearch in your Enterprise Edition, you will
+have to rebuild the indexes of the Git repositories to benefit from the new
+indexer function. The new indexer works 8 times faster than in GitLab versions
+8.4.0 and 8.4.1, and the indexes will be much smaller.
+
+In case your repositories are very large, you might want to check the
+documentation on [Indexing large repositories][es-large-index].
+
+[es-large-index]: http://doc.gitlab.com/ee/integration/elasticsearch.html#indexing-large-repositories "Elasticsearch - Indexing large repositories"
+
+1.  First, remove the indexes from Elasticsearch:
+
+    ```bash
+    curl -X DELETE 'http://localhost:9200/repository-index-development,projectwiki-index-development/'
+    ```
+
+    The above request should return `{"acknowledged":true}`.
+
+1.  And then build the new ones:
+
+    ```bash
+    # Omnibus installations
+    gitlab-rake gitlab:elastic:index_repositories
+    gitlab-rake gitlab:elastic:index_wikis
+
+    # Installations from source
+    bundle exec rake gitlab:elastic:index_repositories RAILS_ENV=production
+    bundle exec rake gitlab:elastic:index_wikis RAILS_ENV=production
+    ```
+
 ## Upgrade barometer
 
 This version does not include any new migrations, and should not require any
