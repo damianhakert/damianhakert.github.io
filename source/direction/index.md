@@ -63,7 +63,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [Merge even if master is updated](https://gitlab.com/gitlab-org/gitlab-ce/issues/3873)
 - [Acknowledge line comments on a MR](https://gitlab.com/gitlab-org/gitlab-ce/issues/10325)
 
-### 8.7 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/23) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/9) May 22nd
+### 8.7 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/23) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/9) April 22nd
 
 - [Squash commits upon Merging (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/150)
 - [Run build on merged code before merging (EE?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4176)
