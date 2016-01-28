@@ -32,7 +32,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] People Ops: Once the contract is signed, as soon as possible, create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in
 [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant
 lines of the master checklist, paste the private email address of the hire in
-there and /cc @rspeicher, @jacobvosmaer, @patricio, and @sytse.
+there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @emily, and @tiffanie.
 * [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
 * [ ] People Ops: Add blank entry to team page (only the start date and position) so the team can see when new people are joining.
 * [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @ HANDLE), and People Ops is tackled by (FILL IN WITH @ HANDLE).
@@ -40,12 +40,12 @@ there and /cc @rspeicher, @jacobvosmaer, @patricio, and @sytse.
 * [ ] New team member: provide scan of photo ID to People Ops.
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), and become comfortable with Git and the GitLab workflow.
 * [ ] People Ops: file signed contract, PIAA, and photo ID in Dropbox and confirm receipt by commenting in the issue.
-* [ ] Robert/Jacob/CEO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
-* [ ] Robert/Jacob/CEO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
+* [ ] Robert/Jacob/COO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
+* [ ] Robert/Jacob/COO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 * [ ] Hiring manager: send an email to company address 'Please read https://about.gitlab.com/handbook/ and the relevant onboarding pages that are linked from there and let me know if you have any questions.'
-* [ ] Robert/Jacob/CEO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
-* [ ] Robert/Jacob/CEO: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
-* [ ] Robert/Jacob/CEO: Add to [Slack](https://gitlab.slack.com/admin)
+* [ ] Robert/Jacob/COO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
+* [ ] Robert/Jacob/COO: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
+* [ ] Robert/Jacob/COO: Add to [Slack](https://gitlab.slack.com/admin)
 * [ ] People Ops: Give team member access to the GitLab availability calendar.
 * [ ] People Ops: Invite to team meeting.
 * [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment.
@@ -80,11 +80,11 @@ welcome email to the employee at their work email on their first date of hire.
 and then ping @rspeicher to confirm your account.
 * [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
 * [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle.
-* [ ] Robert/Jacob/CEO: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
+* [ ] Robert/Jacob/COO: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] People Ops: Invite to autoconnect on [Beamy](https://about.gitlab.com/handbook#beamy-guidelines).
 * [ ] People Ops: Order business cards for new team member.
 * [ ] People Ops: Add team member to Expensify (if employee).
-* [ ] Patricio/CEO: Add to tweetdeck (applies to Service Engineers and DevOps Engineers for @gitlabstatus, and marketing hires)
+* [ ] Patricio/COO: Add to tweetdeck (applies to Service Engineers and DevOps Engineers for @gitlabstatus, and marketing hires)
 * [ ] New team member: Add yourself to our [Email, Phone and Emergency Contact Sheet](https://docs.google.com/spreadsheets/d/1kMPW_eGEOz9HOIHbD8uPCzDWljsDHovS4H5XY8Q12wo/edit#gid=0).
 * [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar, stock photo or something with sunglasses).
 * [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo.
@@ -201,19 +201,19 @@ This list looks strange in this handbook but this is to ensure you can copy past
 When you paste it in an issue it will have checkboxes that you can click to complete.
 
 ```
-* [ ] For this offboarding, Manager is (@ mention), People Ops is handled by (@ mention). cc @sytse, @rspeicher, @jacobvosmaer, @patricio.
+* [ ] For this offboarding, Manager is (@ mention), People Ops is handled by (@ mention). cc @sytse, @rspeicher, @jacobvosmaer, @patricio, @ernst.
 * [ ] Manager of former team member: Organize smooth hand over of any work or tasks from former team member.
-* [ ] Robert/Jacob/CEO: Suspend Google account
-   * [ ] Robert/Jacob/CEO: When the manager has time, change the telephone number associated with the account and send a password reset to the manager.
+* [ ] Robert/Jacob/COO: Suspend Google account
+   * [ ] Robert/Jacob/COO: When the manager has time, change the telephone number associated with the account and send a password reset to the manager.
    * [ ] Manager: log on to Google account and have new messages forward to yourself.
-   * [ ] Robert/Jacob/CEO: when manager requests (typically 4 weeks after blocking the Google account), transfer owned documents from Google Drive to
+   * [ ] Robert/Jacob/COO: when manager requests (typically 4 weeks after blocking the Google account), transfer owned documents from Google Drive to
    manager, and delete the Google account.
-* [ ] Robert/Jacob/CEO: Disable team member in Slack.
+* [ ] Robert/Jacob/COO: Disable team member in Slack.
 * [ ] People Ops: Remove former team member from TriNet and payroll if applicable.
 * [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment.
 * [ ] People Ops: Inform Controller / Accounting if any items in former team members possession will not be returning, so that they can be removed from asset tracking.
-* [ ] Robert/Jacob/CEO: Remove former team members' GitLab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
-* [ ] Robert/Jacob/CEO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
+* [ ] Robert/Jacob/COO: Remove former team members' GitLab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
+* [ ] Robert/Jacob/COO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] People Ops: Suspect access to 1Password.
 * [ ] People Ops: Remove team member access to Dropbox.
 * [ ] Manager/CEO: Remove access to SalesForce.
@@ -224,7 +224,7 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 * [ ] CEO: Remove team member from the GitLab availability calendar.
 * [ ] CEO: Remove team member from team call invitation.
 * [ ] COO: Remove team member from HelloSign.
-* [ ] Patricio/Jacob/CEO: Remove from tweetdeck
+* [ ] Patricio/Jacob/COO: Remove from tweetdeck
 * [ ] Manager: Notify eShares administrator (CFO) of offboarding.
 * [ ] COO: Note final date of employment / contract in the [Organizational Chart and Hiring](https://docs.google.com/spreadsheets/u/1/d/1Ru1hUAlF2Z2D2ILDzzqdmOGFbzov6eDSqSwHdM6buzQ/edit?usp=sheets_home) sheet.
 * [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team)
