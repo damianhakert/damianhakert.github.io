@@ -83,6 +83,7 @@ We very much welcome contributions that implement any of these things.
 - [Realtime editing of the issue/MR description field](https://gitlab.com/gitlab-org/gitlab-ce/issues/4199)
 - [Mailing list functionality](https://gitlab.com/gitlab-org/gitlab-ce/issues/4272)
 - [Handle incoming emails with support questions in issues](https://gitlab.com/gitlab-org/gitlab-ee/issues/149)
+- [Cherry-pick MR into any branch in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/12785)
 
 ### Usability
 
