@@ -13,7 +13,7 @@ Improving diversity in tech has become an important issue around the Bay Area an
 
 <!--more-->
 
-In order to help to expand these initiatives, we’re offering $500 to any diversity in tech event located outside the New York and the Bay Area. In order to gain sponsorship, please email us at community@gitlab.com with the subject line “Diversity in tech” and details about your event with a link to registration or any supporting documentation.
+In order to help to expand these initiatives, we’re offering $500 to any diversity in tech event located outside the New York and the Bay Area. In order to gain sponsorship, please email us at community@gitlab.com with the subject line “Diversity in tech” and details about your event with a link to registration or any supporting documentation. You can also review our [community sponsorship program and complete the form there](git push --set-upstream origin blog-sponsorship).
 
 If your event is in a city where we have a GitLab team member, we’ll be happy to help coach or give a talk if possible. Check out our [team map](https://about.gitlab.com/team/) to see where we are. Just let us know where you are and we’ll see how we can help.
 
