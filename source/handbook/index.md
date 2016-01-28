@@ -204,17 +204,19 @@ people. We try to hire people who think work is a great way to express themselve
 
 ### Team Call<a name="team-call"></a>
 
-1. The team call is every workday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
+1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
 1. We use BlueJeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
 1. Please join the meeting with your x@gitlab.com account, not your private Google account.
 1. If you have previously logged on to Bluejeans with different credentials, make sure to log out before joining the call as yourself.
 1. We wait for people to join the first two minutes of the meeting until :32.
 1. If you are unable to attend just add your name to the [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) as 'Not attending'.
 1. We start by discussing the subjects that are on the agenda for today.
-1. Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
-1. When done with a point mention the subject of the next item and hand over to the next person.
-1. We ask everyone what they did outside of work the day(s) before.
-1. There is no need to excuse yourself with "I didn't do anything interesting", "I just watched television" or "that's all", it is not a competition. Instead share the most interesting detail, for example what television show you watched, book you are reading, video game you played or what recipe you cooked.
+   1. Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
+   1. When done with a point mention the subject of the next item and hand over to the next person.
+1. We have functional group updates (1 group per call) for the following groups: Marketing, Sid, Product, Sales, Ops, Support, HR, Finance, Development, Front-end, UX/UI.
+1. We ask 10-15 people per day to share updates about the most exciting thing from your past or upcoming week/weekend. If anyone has something they'd like to talk about, last person in the list will ask the group if they have anything else to share.
+   1. The [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) lists who is meant to speak on which day; this can be altered daily if conflicts arise.
+   1. There is no need to excuse yourself with "I didn't do anything interesting", "I just watched television" or "that's all", it is not a competition. Instead share the most interesting detail, for example what television show you watched, book you are reading, video game you played or what recipe you cooked.
 1. Sequence of asking people is in order of joining the company, same as on the [team page](https://about.gitlab.com/team/). If there are non-team page people in the call we end with those.
 1. Please look if the person you hand over to is present in the participant list so you don't hand over to someone who is not present.
 1. Last person hands over to the first person in the call order that is present (normally Dmitriy) who wishes everyone a good day or wishes everyone a great day her or him self.
