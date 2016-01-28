@@ -11,6 +11,16 @@ filename: 2016-01-28-gitlab-8-dot-4-dot-2-released.markdown
 Today we are releasing version 8.4.2 for GitLab Community Edition (CE) and
 Enterprise Edition (EE).
 
+Most importantly, we've removed those ugly borders that accidentally got added
+to all of our tables. That alone should be reason to upgrade, but this version
+also includes some performance improvements to project pages and Elasticsearch
+integration, and squashes a few bugs, including one that was preventing LDAP
+users with 2FA enabled from logging in, which we think is an important feature.
+
+Read on for all the details!
+
+<!-- more -->
+
 It includes the following changes:
 
 - **CE/EE:** Bump required gitlab-workhorse version to bring in a fix for
@@ -49,8 +59,6 @@ It includes the following changes:
 [!142]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/142
 [!143]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/143
 [!146]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/146
-
-<!-- more -->
 
 ## Upgrade barometer
 
