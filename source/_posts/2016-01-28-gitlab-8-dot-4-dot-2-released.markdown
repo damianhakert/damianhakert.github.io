@@ -13,9 +13,10 @@ Enterprise Edition (EE).
 
 Most importantly, we've removed those ugly borders that accidentally got added
 to all of our tables. That alone should be reason to upgrade, but this version
-also includes some performance improvements to project pages and Elasticsearch
-integration, and squashes a few bugs, including one that was preventing LDAP
-users with 2FA enabled from logging in, which we think is an important feature.
+also includes some performance improvements to project pages and to
+Elasticsearch indexing, and squashes a few bugs, including one that was
+preventing LDAP users with 2FA enabled from logging in, which we think is an
+important feature.
 
 Read on for all the details!
 
