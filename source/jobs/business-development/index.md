@@ -19,9 +19,12 @@ You love talking about GitLab to people and no question or challenge is too big 
 
 ## Requirements
 
-* GitLab is a developer-focused open source product so an understanding of the developer product space is required.
+* Work remotely from anywhere in the world (Curious to see what that looks like? Check out our <a href="https://about.gitlab.com/2015/04/08/the-remote-manifesto/" target="_blank">remote manifesto</a>!)
+* Excellent spoken and written English
+* Experience in sales, marketing, or customer service
+* Experience with CRM and/or marketing automation software is highly preferred
+* An understanding of B2B software, Open Source software, and the developer product space is preferred
 * Is your college degree in French foreign politics with a minor in interpretive dance but you’ve been hacking together websites since you were 12? Perfect. We understand that your college degree isn’t the only thing that prepares you as a potential job candidate.
 * You are obsessed with making customers happy. You know that the slightest trouble in getting started with a product can ruin customer happiness.
-* Be ready to learn how to use GitLab and Git as you’ll be able to edit the website directly from terminal.
-* Excellent spoken and written English
-* Work remotely from anywhere in the world (Curious to see what that looks like? Check out our <a href="https://about.gitlab.com/2015/04/08/the-remote-manifesto/" target="_blank">remote manifesto</a>!)
+* Be ready to learn how to use GitLab and Git
+* Start part-time or full-time depending on situation
