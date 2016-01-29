@@ -57,12 +57,15 @@ Current state
 
 ## Lead qualification process
 
-1. Soft-BANT is used to determine if a lead should be passed to sales.
-2. If 2 of 4 from budget, authority, need, or timeline are met, BDR team passes lead to sales for followup via salesforce assignment and email notification.
-3. If existing customers comes in as a lead request or if questions about purchasing, BDR team determine account owner and passes lead via email notification.
-4. If further qualification is needed to understand if Soft-BANT requirements are met, BDR team will email or schedule a phone call with lead to understand their opportunity.
-5. If Soft-BANT isn't met, BDR team answers all questions or routes to support.
-6. If no questions and lead isn't qualified for sales contact, status is updated appropriately. See "lead status" above.
+1. Soft-BANT is used to determine if a lead should be passed to sales. Once determined, BDR team passes all leads to sales for followup via Salesforce assignment and email notification.
+2. If 2 of the 4 elements of BANT are met (budget, authority, need, timeline), BDR team will determine account owner and pass lead.
+3. If further qualification is needed to understand Soft-BANT requirements, BDR team will email or schedule a phone call with lead to understand their project and initiatives.
+4. If Soft-BANT isn't met and there are questions, BDR team will answer all questions or route to support.
+5. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
+6. If a lead is from a Fortune 500 company, it will be automatically assigned to a senior account manager.
+7. If a lead is an existing customer or a prospect that's owned/operated by an existing customer, BDR team will determine account owner and pass lead.
+8. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
+
 
 ## What counts as an SQL or MQL?
 1. SQL is any lead passed to the Sales team from the BDR team that has met the qualification process requirements above.
