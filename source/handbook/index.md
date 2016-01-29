@@ -363,6 +363,9 @@ to providing top notch customer support and everything in between, we reward all
 team members for every month that we reach our Sales Targets. The reward is $100 
 to each team member, towards a dinner of each team member's own choice. Enjoy! 
 
+The CEO, or CRO will announce on the team call if the target was met. To claim the bonus, 
+please submit your receipt through expensify or include on your contractor invoice as a reimbursable expense.
+
 ### Discretionary Bonuses<a name="discretionary-bonuses"></a>
 
 1. Every now and then, individual team members really shine as they go above and beyond their regular responsibilities and tasks.
@@ -370,7 +373,8 @@ to each team member, towards a dinner of each team member's own choice. Enjoy!
    * Managers can recommend their team members to the CEO for a $1,000 bonus.
    * On team call, the manager announces the “who” and “why” of the bonus; and the "why"
    should be tied to our [values](#values).
-1. If you think you are meeting the requirements for another title, want to change jobs within the company, or think your growth should be reflected in your compensation please feel free to discuss with your manager.
+1. If you think you are meeting the requirements for another title, want to change 
+jobs within the company, or think your growth should be reflected in your compensation please feel free to discuss with your manager.
 
 ### Referral Bonuses<a name="referral-bonuses"></a>
 
@@ -379,7 +383,7 @@ also be fantastic additions to our [Team](https://about.gitlab.com/team/) and wh
 may be interested in one of the current [Job Openings](https://about.gitlab.com/jobs/).
 To help us grow the team with exceptional people, we have referral bonuses that work as follows:
 
-1. If you refer a great candidate and she/he is hired, then you receive a $1,000 bonus
+1. If you refer a great candidate and they are hired, then you receive a $1,000 bonus
 once the new team member has been with the company for 3 months.
 1. If the new team member receives a [discretionary bonus](#discretionary-bonuses) within the
 first 6 months of their hire, then you *also* get a $1,000 bonus.
