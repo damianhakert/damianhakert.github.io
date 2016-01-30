@@ -123,7 +123,7 @@ When someone does contribute a feature to CE that is already in EE we weigh a co
 1. What is the use case for this, is it needed for organizations with less than 100 people?
 1. Is it an original work or clearly based on the EE code?
 
-In case we're not sure we'll consult with the [core team](https://about.gitlab.com/core-team/) to reach a conclusion.
+In case we're not sure, we'll consult with the [core team](https://about.gitlab.com/core-team/) to reach a conclusion.
 
 ## Handbook
 If you're interested, most of our internal procedures can be found in <a href="/handbook">publicly viewable handbooks</a>.
