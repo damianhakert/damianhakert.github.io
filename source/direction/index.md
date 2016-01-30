@@ -91,6 +91,7 @@ We very much welcome contributions that implement any of these things.
 - [Email actions](https://gitlab.com/gitlab-org/gitlab-ce/issues/4273)
 - [Improved emails on push](https://gitlab.com/gitlab-org/gitlab-ee/issues/146)
 - [Autocomplete all users](https://gitlab.com/gitlab-org/gitlab-ce/issues/3872)
+- [Create branch from issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/3886)
 
 ### Code Review
 
