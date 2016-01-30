@@ -11,17 +11,15 @@ We think that it is logical that our collaboration tools are a collaborative wor
 
 We believe that all digital products should be open to contributions, from legal documents to movie scripts and from websites to chip designs. GitLab Inc. will develop great open source software to enable people to collaborate in this way.
 
-1. To ensure that **everyone can contribute** to digital products we make integrated and opinionated collaboration software. Our software is efficient, easy to use and enjoyable. Because there is no need to string together multiple tools you spend less time, have less frustration, there is less bikeshedding, and you get more results.
+1. To ensure that **everyone can contribute** to digital products we make GitLab joyful to use. It is integrated and opinionated collaboration software. Because there is no need to string together multiple tools you spend less time, have less frustration, there is less bikeshedding, and you get more results.
 
-2. To ensure that **everyone can contribute** with GitLab every person in the world should be able to afford it. Therefore GitLab CE is [free ](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/)[as](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/)[ in ](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/)[beer](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/). Also GitLab.com is free with private repos and CI runners, so that even without a budget you can use a great tool.
+2. To ensure that **everyone can contribute** with GitLab every person in the world should be able to afford it. Therefore GitLab CE is [free ](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/)[as ](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/)[in ](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/)[beer](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/). Also GitLab.com is free with private repos and CI runners, so that even without a budget you can use a great tool.
 
 3. To ensure that **everyone can contribute** using GitLab in some form it should be free as in speech, that is why GitLab CE is MIT licensed. But open source is more than a license, that is why we actively help our competitor Perforce to ship GitLab as part of Perforce Helix. We try to be [a good steward of](https://about.gitlab.com/about/#stewardship) GitLab CE. We keep all our software open to inspection, modifications, enhancements and suggestions.
 
-4. To ensure that **everyone can contribute** to GitLab we actively welcome contributors. We do this by having quality code, tests, documentation, using popular frameworks, and offering a comprehensive GitLab Development Kit. We celebrate contributions by recognizing a Most Valuable Person (MVP) every month. We allow everyone to anticipate, propose, discuss, and contribute features by having everything on a public issue tracker. We ship a new version every month so contributions and feedback are visible fast.
+4. To ensure that **everyone can contribute** to GitLab itself we actively welcome contributors. We do this by having quality code, tests, documentation, using popular frameworks, and offering a comprehensive GitLab Development Kit. We celebrate contributions by recognizing a Most Valuable Person (MVP) every month. We allow everyone to anticipate, propose, discuss, and contribute features by having everything on a public issue tracker. We ship a new version every month so contributions and feedback are visible fast. To contribute to open source software people must be empowered to learn programming. That is why we sponsor initiatives such as Rails Girls and lean poker.
 
-5. To ensure that **everyone can contribute** to open source software people must learn programming. That is why we sponsor initiatives such as Rails Girls and maybe lean poker.
-
-6. To ensure that **everyone can contribute** to our organization we have open business processes that allow all team members to suggest improvements to our handbook. We hire remotely so everyone with an internet connection can come work for us and be judged on results, not presence in the office. We offer equal opportunity for every nationality. We are agnostic to location and that can be a real benefit to people in countries with less opportunities. We engage engage on Hacker News, Twitter and our blog post comments. And we strive to take decisions guided by [our values](https://about.gitlab.com/handbook/#values).
+5. To ensure that **everyone can contribute** to our organization we have open business processes that allow all team members to suggest improvements to our handbook. We hire remotely so everyone with an internet connection can come work for us and be judged on results, not presence in the office. We offer equal opportunity for every nationality. We are agnostic to location and that can be a real benefit to people in countries with less opportunities. We engage engage on Hacker News, Twitter and our blog post comments. And we strive to take decisions guided by [our values](https://about.gitlab.com/handbook/#values).
 
 ## Goals
 
@@ -107,7 +105,7 @@ We believe that all digital products should be open to contributions, from legal
 
 ## Technology 2016
 
-1. Make something people want: merging community contributions is the priority.
+1. Make something people want: merging community contributions is the priority and at least one person will work on that fulltime.
 
 2. Ship the features in our direction [https://about.gitlab.com/direction/](https://about.gitlab.com/direction/)
 
@@ -129,9 +127,11 @@ We believe that all digital products should be open to contributions, from legal
 
 5. Create a customer success team and create a VP of customer success position.
 
-6. Specialized roles: SDR, (senior) account managers, customer success, regional director
+6. Specialized roles: BDR, (senior) account managers, customer success, regional director
 
-7. Intense one month onboarding you need to pass: use GLU, GitLab, Udacity, TrainTool
+7. Account managers can specialize in upsell from CE, competitive sell against GitHub or Atlassian, educational sell from SVN/Clearcase or top-down sell to CTO.
+
+8. Intense one month onboarding you need to pass: use GLU, GitLab, Udacity, TrainTool
 
 ## Marketing 2016
 
@@ -145,7 +145,9 @@ We believe that all digital products should be open to contributions, from legal
 
 5. Announce we'll sponsor every diversity in tech event outside the US with at least $500.
 
-6. Introduce 'everyone can contribute' as our why and alternative tagline?
+6. Introduce 'everyone can contribute' as our why and tagline.
+
+7. Hire partner marketing and product marketing people (release posts, website and sales enablement).
 
 ## Finance 2016
 
@@ -189,7 +191,12 @@ We believe that all digital products should be open to contributions, from legal
 
 ## Partnerships 2016
 
-1. Get shipped as official Debian package
+1. Most partnerships are not public but people working at GitLab Inc. can find them in the 'Partnerships' Google Doc
 
-2. Others partnerships are not public but people working at GitLab Inc. can find them in the 'Partnerships' Google Doc
+1. We'll hire a Strategic Relations Manager
+
+1. The reseller partnerships are espacially important here.
+
+1. We also want to get shipped as official Debian package.
+
 
