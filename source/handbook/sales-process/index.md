@@ -45,7 +45,7 @@ title: "Sales Process"
 
 1. Salesperson shall have a follow-up tasks for every open lead
 
-1. All leads should be in a lead status of nurture, disqualified or converted to an opportuity within 20 days of the lead being created.  
+1. All leads should be in a lead status of nurture, disqualified or converted to an opportuity within 20 days of the lead being created.
 
 ### Sales Discovery Questions <a name="salesdisco"></a>
 
@@ -83,15 +83,15 @@ Opportunities will follow the following rules:
 
 1. When creating an opportunity, you will be required to add in a product for the opportunity.
 1. Select the product the prospect is interested in.  The product you choose should match the plan you added in the Opportunity Name.
-    * If selling a 24 or 36 month deal, please select the correct product.  Each plan has a 12, 24 and 36 month product.  
+    * If selling a 24 or 36 month deal, please select the correct product.  Each plan has a 12, 24 and 36 month product.
     * Please note that the discount (10% for 24 month pre-paid and 15% for 36 month pre-paid) has already been applied to the product amount when you select it. You may change the sales price of the pack if you are giving a further discount or if no discount at all.
-1. If selling more than one pack, please note the number of packs you are selling in the quantity field.  
-1. Once you select a product you can edit the quantity and the sales price. 
+1. If selling more than one pack, please note the number of packs you are selling in the quantity field.
+1. Once you select a product you can edit the quantity and the sales price.
 1. If you want to change the product, you must first delete the product you have currently in the opportunity, then add in the new product.
 
 ### Opportunity Stages <a name="stages"></a>
 
-1. Discovery - research, fact finding, identify contacts, current situation, 
+1. Discovery - research, fact finding, identify contacts, current situation,
 1. Developing - isolate the opportunities, assess needs, qualify the opportunities, build rapport, access decision makers, understand decision process and criteria, Collaborate on solutions, define the business case, assess competition
 1. Present Solution - Tailor the presentation, coordinate the team, present recommendations, present pricing, isolate value proposition, gain feedback
 1. Negotiating - negotiate business terms resolve objections, set close plan (sequence of events), gain commitment
@@ -118,7 +118,7 @@ In order to close a deal in Salesforce.com, one of the following must happen:
 
 1. Cient paid via Credit Card
 1. PO has been received
-1. Prospect has returned a signed quote (attach to the opportunity). 
+1. Prospect has returned a signed quote (attach to the opportunity).
 
 Once the above has happened, please make sure the following actions are done:
 
@@ -165,7 +165,7 @@ Once the above has happened, please make sure the following actions are done:
       1. Select the Make license from Recurly subscription button
 1. Task created for Account Owner to reach out to new client, thanking them for their business and asking for time to learn more about their initiatives for account development opportunities and to ensure their experience is great.
 
-### Invoiced Clients 
+### Invoiced Clients
 
 #### New Business Order
 1. Sales receives an order (one of the three options):
@@ -184,7 +184,7 @@ Once the above has happened, please make sure the following actions are done:
 1. License keys auto-generated
 1. Sales Admin to check to see if Salesforce.com record already exists (or not) by searching for the company as shown on the Recurly invoice within the search field of Salesforce.com. If an account already exists, then add an opportunity to the account. If one does not exist, create a new account, contact and opportunity for the name on the invoice.
 1. Task created for Account Owner to reach out to new client, thanking them for their business and asking for time to learn more about their initiatives for account development opportunities and to ensure their experience is great.
-	
+
 #### Renewals
 
 PO order for additional seats when past due:
@@ -200,24 +200,24 @@ PO order for additional seats when past due:
 Renewal in Advance- before renew date:
 
 1. Add charge for renewal amount and process
-1. Click Subscription- Manually change renewal date 
+1. Click Subscription- Manually change renewal date
 1. Double check license key is sent
-       
+
 Renewal in Advance- plus add users:
 
-1. Go into account and click add charge- add total number (existing plus added seats) include details in description field. 
+1. Go into account and click add charge- add total number (existing plus added seats) include details in description field.
 1. Click Subscription and manually change renewal date
 1. Click Edit Subscription, add pack with zero charge
-1. Confirm license key matches subscription 
+1. Confirm license key matches subscription
 
 Adding users to current subscription as a separate department:
 
-1. Need to make sure it’s a different division as you will need to issue a second license key 
+1. Need to make sure it’s a different division as you will need to issue a second license key
 1. Click Add Subscription on main account page
-1. Process order 
+1. Process order
 1. Makes sure you see two separate subscriptions on the main page in Recurly
 1. Make sure a second license key is sent to the contact
-	
+
 Additional billing situations [Accounting procedures](/handbook/sales-process/accounting)
 
 ### Expanding Deals <a name="expanding"></a>
@@ -234,29 +234,19 @@ Everything about [licenses and EE access](/handbook/sales-process/licenses).
 
 ### Export Control Classification, and Countries We Do Not Do Business In <a name="export-control"></a>
 
-GitLab's Export Control Classification (or ECCN) is 5D002.c.1.  
-This means that GitLab source code can be exported and re-exported under the 
-authority of license exception TSU of section [740.13(e)](https://www.bis.doc.gov/index.php/forms-documents/doc_view/986-740) of the export administration regulations (EAR).  
+GitLab's Export Control Classification (or ECCN) is 5D002.c.1.
+This means that GitLab source code can be exported and re-exported under the
+authority of license exception TSU of section [740.13(e)](https://www.bis.doc.gov/index.php/forms-documents/doc_view/986-740) of the export administration regulations (EAR).
 
-Per [740.13(e)(2)(ii)](https://www.bis.doc.gov/index.php/forms-documents/doc_view/986-740) of the EAR, there are restrictions on "Any knowing export or reexport 
-to a country listed in [Country Group E:1 in Supplement No. 1 to part 740 of the EAR](https://www.bis.doc.gov/index.php/forms-documents/doc_download/944-740-supp-1)".  
+Per [740.13(e)(2)(ii)](https://www.bis.doc.gov/index.php/forms-documents/doc_view/986-740) of the EAR, there are restrictions on "Any knowing export or reexport
+to a country listed in [Country Group E:1 in Supplement No. 1 to part 740 of the EAR](https://www.bis.doc.gov/index.php/forms-documents/doc_download/944-740-supp-1)".
 
-As a consequence of this classification, we currently do not do business in:  
+As a consequence of this classification, we currently do not do business in:
 Iran, Sudan (excluding South Sudan), Syria, North Korea, and Cuba.
 
 ### Sales Automation Flow (Lead to Customer) <a name="automation"></a>
 
-* Free Trial
-
-Free Trial form (Marketo) -> License Sent via App -> Lead added to Salesforce.com -> Opportunity Created -> Opportunity Closed Won -> Account invoiced or Credit Card added
-
-* Web Direct Purchase
-
-Order placed (Recurly) -> Account billed via Credit Card -> License Sent via App -> Sales Admin creates Account and opportunity in SF
-
-* Contact Us Form
-
-Contact Us Form (Marketo) -> Lead added to Salesforce.com - Opportunity Created if qualifed -> Opportunity Closed Won -> Account invoiced or Credit Card added.
+Please see <a href="https://about.gitlab.com/handbook/marketing/demand-generation/">Demand Generation</a>.
 
 ### GitLab Version Check <a name="version_check"></a>
 
