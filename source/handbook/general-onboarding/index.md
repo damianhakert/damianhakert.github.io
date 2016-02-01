@@ -35,6 +35,7 @@ lines of the master checklist, paste the private email address of the hire in
 there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @emily, and @tiffanie.
 * [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
 * [ ] People Ops: Add blank entry to team page (only the start date and position) so the team can see when new people are joining.
+* [ ] People Ops: Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
 * [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @ HANDLE), and People Ops is tackled by (FILL IN WITH @ HANDLE).
 * [ ] New team member: provide signed contract (including signed proprietary information and assignment agreement (PIAA)) to People Ops.
 * [ ] New team member: provide scan of photo ID to People Ops.
