@@ -40,7 +40,6 @@ The CE and EE to the right of the version number link to all planned issues for 
 
 ### 8.5 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/20) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/7) February 22nd
 
-- [CI Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
 - [CI Autoscale](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/318)
 - [GitLab Pages gets CNAME and SSL support](https://gitlab.com/gitlab-org/gitlab-ee/issues/134)
 - [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
@@ -49,14 +48,13 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [HA Omnibus packages (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
 - [Revert merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
 - [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
-- [Delivery analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
-- [Code management analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
 - [New design for issue page](https://gitlab.com/gitlab-org/gitlab-ce/issues/3981)
+- [Support for relative URLs](https://gitlab.com/gitlab-org/gitlab-ce/issues/1938)
 
 ### 8.6 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/22) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/8) March 22nd
 
+- [CI Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
 - [External users](https://gitlab.com/gitlab-org/gitlab-ce/issues/4009)
-- [Support for relative URLs](https://gitlab.com/gitlab-org/gitlab-ce/issues/1938)
 - [Push to a remote repository (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/116)
 - [Confidential issues (EE)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3678)
 - [Performance monitoring (EE)](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1008)
@@ -67,6 +65,8 @@ The CE and EE to the right of the version number link to all planned issues for 
 
 - [Squash commits upon Merging (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/150)
 - [Run build on merged code before merging (EE?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4176)
+- [Code management analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
+- [Delivery analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
 
 ## Wishlist
 
