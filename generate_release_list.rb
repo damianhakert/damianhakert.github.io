@@ -27,7 +27,7 @@ base_url = 'https://about.gitlab.com'
 dec = "##"
 
 year = 2016
-month = 01
+month = 1
 major_version = 8
 minor_version = 4
 
@@ -60,7 +60,12 @@ task :release_list do
 
     output << "\n"
 
-    month == 1 ? month = 12 && year = year - 1 : month = month - 1
+    if month == 1
+      month = 12
+      year = year - 1
+    else
+      month = month - 1
+    end
   end
 
   puts ''
