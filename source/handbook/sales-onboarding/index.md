@@ -3,7 +3,7 @@ layout: markdown_page
 title: "Sales Onboarding"
 ---
 
-Sales onboarding at GitLab is an intense 30 day program.  Our goal is within 30 days, have very salesperson prepared to help buyers navigate the purchase of GitLab EE.  Each week in the forst 30 days will have a focus, a goal for the salesperson to have learned and applied. To help with the onboarding process, content can be found at [GitLab University](https://about.gitlab.com/university/)
+Sales onboarding at GitLab is an intense 30 day program.  Our goal is within 30 days, have very salesperson prepared to help buyers navigate the purchase of GitLab EE.  Each week, in the first 30 days, will have a focus; a goal, for the salesperson to have learned and applied. To help with the onboarding process, content can be found at [GitLab University](https://about.gitlab.com/university/)
 
 ### Week 1 - Goal is to create a Group, Project, Issue and merge request.
 
@@ -135,6 +135,7 @@ Sales onboarding at GitLab is an intense 30 day program.  Our goal is within 30 
         * [Accounts you Own](https://na34.salesforce.com/001?fcf=00B61000001XPLz) This view is to be used to identify expansion opportunities, who you have neglected and the mix of customers to prospects you are working
 
 Supporting Information
+
 1. [Our Sales Process](https://about.gitlab.com/handbook/sales-process/)
 
 1. [Sales Best Practices Training](https://about.gitlab.com/handbook/sales-training/)
