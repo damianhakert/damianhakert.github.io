@@ -37,7 +37,7 @@ Sales onboarding at GitLab is an intense 30 day program.  Our goal is within 30 
 
 1. Issues and Merge Requests
     - [Recording](https://www.youtube.com/watch?v=raXvuwet78M)
-    - Supporting: [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4
+    - Supporting: [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 
 #### Week 1 Test
 1. Create a group on GitLab.com named: "glu_yourname"
