@@ -54,7 +54,7 @@ title: "GitLab Positioning FAQ"
     1. More customizable and secure.
 * Who are some of your customers?
     1. Used by more than 100,000 organizations.
-    1. Large - Disney, IBM, AT&T, CERN
+    1. Large - Microsoft, IBM, AT&T, CERN
     1. Small - SpaceX, Stack Overflow
 * Why are you monetizing an open-source product?
     1. Our community has worked hard on making a great product.
