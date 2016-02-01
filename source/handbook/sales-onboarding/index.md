@@ -42,7 +42,7 @@ Sales onboarding at GitLab is an intense 30 day program.  Our goal is within 30 
 #### Week 1 Test
 1. Create a group on GitLab.com named: "glu_yourname"
 1. Add your direct manager and Chad Malchow as master to the group
-1. Create a project "Abount Me" with a README.md with a list of things that we should know about you
+1. Create a project "About Me" with a README.md with a list of things that we should know about you
 1. Create a project "90 day plan" with a README.md with what you plan to do in your first 90 days
 1. Create a MR adding something funny to either of the projects and assign to your manager and Chad Malchow to it
 1. Create an issue named: "Add me to TrainTool" and assign to Chad Malchow and tag your direct manager
