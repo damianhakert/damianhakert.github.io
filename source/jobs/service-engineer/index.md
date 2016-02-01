@@ -17,7 +17,6 @@ If you would love to work from home and help GitLab grow, this is the right spot
 * Ensure that everything we learn from running GitLab.com is set as default or communicated to our users
 * Write and update documentation based on customer interactions
 * Submit and comment on feature requests based on customer interactions
-* Create merge requests to fix bugs
 
 More information can be found on the [support page in the handbook](https://about.gitlab.com/handbook/support/).
 
@@ -25,11 +24,12 @@ More information can be found on the [support page in the handbook](https://abou
 Senior Service Engineers are experienced Service Engineers who 
 
 * have deep knowledge of GitLab internals and a variety of possible configurations
-* train new Service Engineers
+* help hire and train new Service Engineers
 * are a go-to person for the other Service Engineers when they face tough challenges
 * improve the support process (Optimize Zendesk flow, suggest rake task additions)
-* write blog articles regularly
+* write blog articles 
 * take ownership of documentation and feature requests that is based on customer interactions
+* create merge requests to fix bugs
 
 
 ## Requirements for Applicants
