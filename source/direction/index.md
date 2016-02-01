@@ -67,6 +67,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [Run build on merged code before merging (EE?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4176)
 - [Code management analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
 - [Delivery analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
+- [Subscribe to a Label](https://gitlab.com/gitlab-org/gitlab-ce/issues/12743)
 
 ## Wishlist
 
