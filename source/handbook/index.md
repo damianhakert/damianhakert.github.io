@@ -363,10 +363,10 @@ The following incentives are available for GitLab team members.
 
 Since reaching sales targets is a team effort that integrates everything from making a great product
 to providing top notch customer support and everything in between, we reward all
-team members for every month that we reach our Sales Targets. The reward is $100 
-to each team member, towards a dinner of each team member's own choice. Enjoy! 
+team members for every month that we reach our Sales Targets. The reward is $100
+to each team member, towards a dinner of each team member's own choice. Enjoy!
 
-The CEO, or CRO will announce on the team call if the target was met. To claim the bonus, 
+The CEO, or CRO will announce on the team call if the target was met. To claim the bonus,
 please submit your receipt through expensify or include on your contractor invoice as a reimbursable expense.
 
 ### Discretionary Bonuses<a name="discretionary-bonuses"></a>
@@ -376,7 +376,7 @@ please submit your receipt through expensify or include on your contractor invoi
    * Managers can recommend their team members to the CEO for a $1,000 bonus.
    * On team call, the manager announces the “who” and “why” of the bonus; and the "why"
    should be tied to our [values](#values).
-1. If you think you are meeting the requirements for another title, want to change 
+1. If you think you are meeting the requirements for another title, want to change
 jobs within the company, or think your growth should be reflected in your compensation please feel free to discuss with your manager.
 
 ### Referral Bonuses<a name="referral-bonuses"></a>
@@ -394,15 +394,16 @@ first 6 months of their hire, then you *also* get a $1,000 bonus.
 
 ### Work Remotely Travel Grant<a name="travel-grant"></a>
 
-GitLab is a [remote-first company](http://zachholman.com/posts/remote-first/) with team members
-all over the world (see the map on our [Team page](https://about.gitlab.com/team/) ).
-If you want to visit a colleague in another part of the world, or find out how efficiently
-you can work from a place that is remote from your home office, then present your travel plan
-to your manager or the CEO, and you can receive *up to* $2,000 in support for your plan!
+GitLab is a [remote-first company](http://zachholman.com/posts/remote-first/)
+with team members all over the world (see the map on our [Team
+page](https://about.gitlab.com/team/) ). If you want to visit a colleague in
+another part of the world, or promote GitLab at events in another country,
+then present your travel plan to your manager or the CEO, and you can receive
+*up to* $2,000 in support for your plan!
 
-As an example, the first grant was handed to a team member who will be traveling to 6
-different countries during 6 months, and this team member will receive the maximum
-grant of $2,000.
+As an example, the first grant was handed to a team member who will be
+traveling to 6 team members in different countries during 6 months, and this
+team member will receive the maximum grant of $2,000.
 
 
 ## Signing Legal Documents<a name="signing-legal-documents"></a>
