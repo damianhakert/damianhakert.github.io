@@ -7,13 +7,8 @@ You are an entry-level technical marketer with an urge to learn everything there
 
 ## Responsibilities
 
-* Ready to learn Marketo to help the team manage newsletters, leads, and analytics. Not afraid to dig around in data to help create reports for the team meetings. Comfortable being a self-taught marketing automation master.  
 * On the 22nd of every month you know it is time for a beautifully designed newsletter to go out to our community and you are ready to click send at the time of launch. You’ve worked with the demand generation manager, developer marketing manager, and technical team to ensure this newsletter is relevant, beautifully designed, and high quality.  
-* Work with our demand generation manager to help implement email nurture campaigns at all stages of the funnel.   
-* Work with demand generation to make sure the leads flowing from our marketing automation software to Salesforce are correct and timely.
-* Work with sales and our demand generation lead to make sure the proper reports are generated in order to track leads.
 * Help with event logistics in support of the team. From helping to book space for meetups to making sure the booth is staffed, you can make sure every aspect of our events are well organized.
-* Work with the CMO to help find candidates for marketing hires through browsing LinkedIn, managing inbound applicants, and more.
 * You will work closely with the developer marketing manager and engineering team to make sure blog posts are technically and grammatically correct. You’ll also be in charge of posting at the appropriate time and making sure that social media content is tailored for each platform.
 * Help the team make website updates to copy, tutorials, and the blog post and track any issues with the website that need marketing or design’s attention.
 * Manage incoming emails to the marketing alias and know how to properly route.
