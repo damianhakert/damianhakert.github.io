@@ -9,6 +9,7 @@ title: "GitLab Positioning FAQ"
         - GitLab.com.  Hosted, open source for private repos. Just signup and get started.
         - GitLab CE.  On-premise, self-hosted GitLab with LDAP integration, issue tracker, webhooks, and integrated CI.
         - GitLab EE.  GitLab Enterprise Edition builds on top of the Community Edition and includes extra features mainly aimed at organizations with more than 100 users. It has LDAP group sync, audit logs and multiple roles. It includes deeper authentication and authorization integration, has fine-grained workflow management, has extra server management options and it integrates with your tool stack.
+        - GitHost.io  Private, single-tenant GitLab instances hosted by us.
         - Know the comparison chart - https://about.gitlab.com/features/#compare
 * I use GitHub.  What can GitLab offer me?
     1. GitHub has done a lot for the Git space. Great company.
