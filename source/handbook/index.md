@@ -95,7 +95,7 @@ backgrounds and opinions. Make everyone feel welcome. Work to increase the parti
 of underrepresented minorities and nationalities in our community and company. An
 example is our sponsorship of [RailsGirls NL](http://railsgirls.nl/) and Poland.
 It seems harder to get sponsors for coding diversity events in Europe than in the
-US so if you organize one please email commuity@gitlab.com to give us a chance to
+US so if you organize one please email community@gitlab.com to give us a chance to
 sponsor them.
 1. Quirkiness: Unexpected and unconventional things make life more interesting.
 Celebrate and encourage quirky gifts, habits, behavior, and points of view. An example
