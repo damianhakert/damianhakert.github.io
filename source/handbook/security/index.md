@@ -15,14 +15,16 @@ title: Security Handbook
    user accounts, use that. If not, then store your credentials in an
    appropriate company 1Password vault so that your colleagues can sign in using
    your credentials.
-
-   Do not share credentials via email, issue comments, chat etc. This includes
+1. Do not share credentials via email, issue comments, chat etc. This includes
    email addresses to login and API keys. Use 1Password vaults for this. You
    will be invited to applicable vaults after joining the company.
-
-   If you're missing an appropriate vault ask the CEO to create a new vault.
+1. If you want to see you vaults or ask to be added to a new one please leave
+   a comment in the "1password Shared Folders" Google Doc.
+1. If you're missing an appropriate vault leave a comment in the
+   "1password Shared Folders" Google Doc.
    Refer to the items with NAME_OF_SITE credentials in VAULT_NAME. For example:
-   "for access please see the AOL credentials in the Luddite vault". Do not
+   "for access please see the AOL credentials in the Luddite vault".
+1. Do not
    store credentials in a vault if everyone has their own user account for the
    service.
 1. Do not let your password manager store the **master password**. It is okay to
@@ -65,9 +67,6 @@ title: Security Handbook
 1Password is a password manager. Ideally you memorize one strong password -
 hence the name - and let 1Password generate and manage strong, unique passwords
 for every site for which you have a login.
-
-GitLab, Inc. is currently evaluating [1Password for Teams] during its beta
-period.
 
 ### Terms<a name="1password-terms"></a>
 
