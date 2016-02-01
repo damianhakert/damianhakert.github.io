@@ -297,7 +297,7 @@ intellectual property violations
 
 **Other Business Related Expenses**
 
-1. Spend company money like it is your **own** money before taxes.
+1. Spend company money like it is your **own** money.
 1. You don't have to ask permission before making purchases in the interest of the company. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
 1. **File** your expense report 7 days after the end of the calendar quarter.
 1. Any non-company expenses paid with a company credit card will have to be reported to your manager as soon as possible and **refunded** in full within 14 days.
