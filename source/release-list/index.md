@@ -3,7 +3,24 @@ layout: markdown_page
 title: List of all GitLab releases
 ---
 
-## GitLab 8.3
+## [GitLab 8.4](https://about.gitlab.com/2016/01/22/gitlab-8-4-released) 
+
+- Super-powered Search with Elasticsearch (EE only)
+- Artifacts browser
+- Improved GitHub Importer
+- Fuzzy File Finder
+- Code highlighting in Diffs
+- Unsubscribe from Threads in Email
+- Better links in other apps (Slack unfurls!)
+- CAS Support
+- Performance Monitoring
+- Filter Commit Messages
+- Emoji Picker Improvements
+- Design Updates
+- New CI features in API
+- Join us for a live Q & A
+
+## [GitLab 8.3](https://about.gitlab.com/2015/12/22/gitlab-8-3-released) 
 
 - GitLab Pages (EE only)
 - Auto-merge on Build Success
@@ -16,7 +33,7 @@ title: List of all GitLab releases
 - JIRA support in GitLab CE
 - CI Improvements
 
-## GitLab 8.2
+## [GitLab 8.2](https://about.gitlab.com/2015/11/22/gitlab-8-2-released) 
 
 - Git LFS
 - Award Emoji
@@ -30,7 +47,7 @@ title: List of all GitLab releases
 - CI Runner improvements
 - CI & Shared Runners now on by default
 
-## GitLab 8.1
+## [GitLab 8.1](https://about.gitlab.com/2015/10/22/gitlab-8-1-released) 
 
 - GitLab = GL + CI
 - Design Updates
@@ -39,7 +56,7 @@ title: List of all GitLab releases
 - Further improvements
 - GitLab Mattermost Update
 
-## GitLab 8.0
+## [GitLab 8.0](https://about.gitlab.com/2015/09/22/gitlab-8-0-released) 
 
 - Continuous Integration in GitLab
 - Fresh Design
@@ -54,7 +71,7 @@ title: List of all GitLab releases
 - Public User Profile and Group Pages
 - Notification Settings within the Projects main page
 
-## GitLab 7.14
+## [GitLab 7.14](https://about.gitlab.com/2015/08/22/gitlab-7-14-released) 
 
 - Beta: support for long git push/pull over HTTPS
 - Improved syntax highlighting
@@ -66,7 +83,7 @@ title: List of all GitLab releases
 - Better support for skipped builds
 - Bundling of Mattermost now, possibly RocketChat in the future
 
-## GitLab 7.13
+## [GitLab 7.13](https://about.gitlab.com/2015/07/22/gitlab-7-13-released) 
 
 - Customizable Project Dashboard
 - Comment on Side-by-Side diffs
@@ -78,7 +95,7 @@ title: List of all GitLab releases
 - Runners without Tags (GitLab CI)
 - Better Omnibus Documentation
 
-## GitLab 7.12
+## [GitLab 7.12](https://about.gitlab.com/2015/06/22/gitlab-7-12-released) 
 
 - SAML Support
 - Web Hook for Comments
@@ -90,7 +107,7 @@ title: List of all GitLab releases
 - .gitlab-ci.yml
 - BETA: Secret Variables for runner (CI)
 
-## GitLab 7.11
+## [GitLab 7.11](https://about.gitlab.com/2015/05/22/gitlab-7-11-released) 
 
 - Better looking sidebar
 - Clean project dashboard
@@ -104,7 +121,7 @@ title: List of all GitLab releases
 - New GitLab CI Features
 - Other awesome changes in GitLab CE
 
-## GitLab 7.10
+## [GitLab 7.10](https://about.gitlab.com/2015/04/22/gitlab-7-10-released) 
 
 - Apt-get install GitLab
 - Google Code Import
@@ -114,7 +131,7 @@ title: List of all GitLab releases
 - Default Git Hooks (EE only feature)
 - Audit log for Deploy keys (EE only feature)
 
-## GitLab 7.9
+## [GitLab 7.9](https://about.gitlab.com/2015/03/22/gitlab-7-9-released) 
 
 - Dashboard
 - Bitbucket importer
@@ -126,7 +143,7 @@ title: List of all GitLab releases
 - Blocking users is non-destructive
 - Group level webhooks (EE only feature)
 
-## GitLab 7.8
+## [GitLab 7.8](https://about.gitlab.com/2015/02/22/gitlab-7-8-released) 
 
 - GitLab.com integration: login with GitLab.com account and import projects from GitLab.com
 - New file in Empty Repository
