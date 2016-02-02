@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab Sponsorship of $500 for All Non-Bay Area Diversity Events"
+title: "GitLab Offer Sponsorship of $500 for Diversity Events outside New York and Bay Area"
 date: 2016-02-02
 comments: true
 categories: community
