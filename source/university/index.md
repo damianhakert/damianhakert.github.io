@@ -189,6 +189,8 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
 - Upcoming
 - Supporting: [Markdown](http://doc.gitlab.com/ce/markdown/markdown.html)
 
+#### Other
+
 * [GitLab documentation](http://doc.gitlab.com/)
 * [Innersourcing article](https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/)
 * [Platzi training course](https://courses.platzi.com/courses/git-gitlab/)
