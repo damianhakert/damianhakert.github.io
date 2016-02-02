@@ -39,7 +39,3 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 
 1. [Our Sales Agenda](https://docs.google.com/document/d/1l1ecVjKAJY67Zk28CYFiepHAFzvMNu9yDUYVSQmlTmU/edit)
 
-1. Have your manager grant access to the [Sales Folder](https://drive.google.com/drive/u/0/#shared-with-me) in our Google Docs. Here we host:
-	- Customer contracts
-	- RFP templates
-	- Sales calls the team records that we can not post in public
