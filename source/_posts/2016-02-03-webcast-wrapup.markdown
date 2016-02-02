@@ -17,6 +17,15 @@ Sign up to our [newsletter](https://about.gitlab.com/contact/#newsletter) to fin
 
 <!-- more -->
 
+In this webcast:
+
+- Walk-through: GitLab 8.4 features
+- Fuzzy file finder, Code highlighting in Diffs, Performance Monitoring Alpha
+- Elasticsearch in EE, Improved GitLab CI
+- Discuss: Lessons learned from 50 monthly releases
+- Q&A: Questions from webcast attendees answered live
+
+
 ## Webcast Recording
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kKDsEWgaHbg" frameborder="0" allowfullscreen></iframe>
