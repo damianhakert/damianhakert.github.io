@@ -95,7 +95,7 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
     - Supporting: [Migrating from SVN](http://doc.gitlab.com/ee/workflow/importing/migrating_from_svn.html)
     - Supporting: [Migrating from Fogbugs](http://doc.gitlab.com/ee/workflow/importing/import_projects_from_fogbugz.html)
 
-### Week 3 - Learning goal is to be able to pitch GitLab Enterprise Edition focused on the key selling points of EE and to record how to handle pricing objections.
+### Week 3 - Learning goal is to be able to pitch GitLab Enterprise Edition focused on the key selling points of EE.
 
 1. [Compare GitLab versions](https://about.gitlab.com/features/#compare)
 
