@@ -6,6 +6,7 @@ title: "Hiring"
 * [Hiring Process](#hiring-process)
 * [Interview Questions](#interview-questions)
 * [Getting Contracts Ready](#prep-contracts)
+* [Who Reviews and Who Signs Contracts](#contract-review)
 * [Contract signed: now what?](#move-to-onboarding)
 
 
@@ -69,7 +70,7 @@ title: "Hiring"
 
 ## Interview Questions<a name="interview-questions"></a>
 So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
-[this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw) 
+[this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw)
 and then also consider using the following questions:  
 
 1. Do you have any questions about the job or GitLab?
@@ -93,9 +94,22 @@ and then also consider using the following questions:
 ## Getting Contracts Ready<a name="prep-contracts"></a>
 Once a new team member is to be added in an employee or contractor capacity,
 fill out the [New Contract form](https://docs.google.com/a/gitlab.com/forms/d/1Cthnkdj_23ev_u7LT01wv5dZYAZKm20vp5JmzT3ECqE/viewform)
-with pertinent details, and ping the Business Office Manager to initiate the creation of the contracts.
+with pertinent details, and ping the People Operations Admin or the Administrative
+Coordinator to initiate the creation of the contracts.
 
 Our template contracts are posted on the [Contracts page](https://about.gitlab.com/handbook/contracts).
+
+## Who Reviews and Who Signs Contracts<a name="contract-review"></a>
+While many people can prepare the contracts on our [Contracts](https://about.gitlab.com/handbook/contracts)
+page, the most typical situation is that either our People Operations Administrator
+(mostly for US based employees) or Administrative Coordinator, or the COO will
+prepare the necessary contracts. The review process is as follows:
+
+* For any hires for which the COO does _not_ sign, the COO reviews the contract
+after which it can be sent out to be signed by any of the relevant C-level team
+members.
+* For any hires for which the COO should sign, either the CFO or the CEO must
+review the contracts.
 
 ## Contract Signed: Now What?<a name="move-to-onboarding"></a>
 Once the contract has been signed, create an onboarding issue as detailed on the

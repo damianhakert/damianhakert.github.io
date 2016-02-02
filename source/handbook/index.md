@@ -419,7 +419,9 @@ send a copy of the document to legal@gitlab.com with the following information:
 
 The document will be managed through HelloSign, a cloud-based electronic
 signature tool. Only C-level executives can sign legal documents, with the
-exception of NDAs covering a physical visit of another organization.
+exception of NDAs covering a physical visit of another organization. For offer
+letters and contractor agreements specifically, please see the [Hiring](https://about.gitlab.com/handbook/hiring/)
+page.
 
 ## Using Git to update this website<a name="starting-with-git"></a>
 
