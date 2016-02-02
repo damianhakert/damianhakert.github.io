@@ -6,6 +6,8 @@ title: "Sales Onboarding"
 Every salesperson who starts at GitLab will enter an intense 30-day sales bootcamp.  The weekly class schedule can be found at [GitLab University](https://about.gitlab.com/university/).  In addition, once a new salesperson starts, their manager will create an issue for each of the first 4 weeks, tracking the progress of the new hire.
 
 ### Week 1 Test
+1. [Version Conrol Systems Test](http://goo.gl/forms/8H8SNcH70T)
+1. [Intro to Git Test](http://goo.gl/forms/GgWF1T5Ceg) 
 1. Create a group on GitLab.com named: "glu_yourname"
 1. Add your direct manager and Chad Malchow as master to the group
 1. Create a project "About Me" with a README.md with a list of things that we should know about you
@@ -14,6 +16,7 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 1. Create an issue named: "Add me to TrainTool" and assign to Chad Malchow and tag your direct manager
 
 ### Week 2 Test
+1. [Ecosystem Test](http://goo.gl/forms/5Vrf3CE0iC)
 1. Record video, within TrainTool, giving a key value statement on why an organization would choose each of our 4 GitLab offerings.
 1. Record video, within TrainTool, why is GitLab better than GitHub
 1. Record video, within TrainTool, why is GitLab better than Subversion
@@ -21,6 +24,8 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 1. Record video, within TrainTool, why is GitLab better than Perforce
 
 ### Week 3 Test
+1. [GitLab 8.2 Test](http://goo.gl/forms/9PnmhiNzEa) 
+1. [Big Files in Git Test](http://goo.gl/forms/RFsNK9fKuj) 
 1. Record replies to TrainTool pricing objection tests
 1. Record a demo using WebEx and send to your manager and Chad Malchow.  Demo scenario is an organization with 500 seats who uses Jira and BitBucket for a few teams, subversion within a couple teams and GitLab CE is also installed.
 
