@@ -6,7 +6,7 @@ title: "Sales Onboarding"
 Every salesperson who starts at GitLab will enter an intense 30-day sales bootcamp.  The weekly class schedule can be found at [GitLab University](https://about.gitlab.com/university/).  In addition, once a new salesperson starts, their manager will create an issue for each of the first 4 weeks, tracking the progress of the new hire.
 
 ### Week 1 Test
-1. [Version Conrol Systems Test](http://goo.gl/forms/8H8SNcH70T)
+1. [Version Control Systems Test](http://goo.gl/forms/8H8SNcH70T)
 1. [Intro to Git Test](http://goo.gl/forms/GgWF1T5Ceg) 
 1. Create a group on GitLab.com named: "glu_yourname"
 1. Add your direct manager and Chad Malchow as master to the group
