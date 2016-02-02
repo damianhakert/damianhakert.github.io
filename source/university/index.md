@@ -24,166 +24,176 @@ There is a [YouTube playlist with all recordings](https://www.youtube.com/playli
 
 For GitLab team members only there is a university class every Thursday at 5PM UTC, send Job a message to sign up.
 
-### Repositories, Projects and Groups
+To prepare new salespeople at GitLab, an intense 30 day program has been completed.  Each week there are learning goals and content to support the learning of the salesperson.  The goal of bootcamp is to have every salesperson prepared to help buyers navigate the purchase of GitLab EE. 
 
-* [Recording](https://www.youtube.com/watch?v=4TWfh1aKHHw&index=1&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e) recorded date: 2015-12-10
+### Week 1 - Learning goal is to be able create a Group, Project, Issue and merge request.
 
-### Scalability and High Availability
+1. Understanding [terminology](https://about.gitlab.com/university/glossary/).  Please create a merge request for any term that does not have an answer or to add a term that you feel is relevant but is not on this page.
 
-* [Recording 2015-12-03](https://www.youtube.com/watch?v=cXRMJJb6sp4&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=2)
+1. Understandging Version Control Systems
+    - [Presentation](https://docs.google.com/presentation/d/16sX7hUrCZyOFbpvnrAFrg6tVO5_yT98IgdAqOmXwBho/edit#slide=id.g72f2e4906_2_29)
 
-### GitLab 8.2
+1. Operating Systems and How Git Works
+    - [Operating Systems and How Git Works](https://drive.google.com/a/gitlab.com/file/d/0B41DBToSSIG_OVYxVFJDOGI3Vzg/view?usp=sharing) recorded date: 2015-10-01
 
-- [Recording 2015-11-19](https://www.youtube.com/watch?v=09RLHyMFfpA&index=3&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e)
-- [Slides](https://gitlab.com/gitlab-org/University/blob/master/classes/8.2.md) 2015-11-19
-- [Make the test](http://goo.gl/forms/9PnmhiNzEa)
+1. Introduction to Git
+    - [Intro to Git](https://www.codeschool.com/account/courses/try-git)
+    - Supporting: [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
 
-### Upcoming in EE and Big files in Git (Git LFS, Annex)
+1. Create a GitLab Account
+    - [Create a GitLab Account](https://courses.platzi.com/classes/git-gitlab/concepto/first-steps/create-an-account-on-gitlab/material/)
+    - Supporting: [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 
-- [Upcoming in EE](https://gitlab.com/gitlab-org/University/blob/master/classes/upcoming_in_ee.md)
-- [Big files in Git (Git LFS, Annex)](https://gitlab.com/gitlab-org/University/blob/master/classes/git_lfs_and_annex.md)
-- [Make the test](http://goo.gl/forms/RFsNK9fKuj)
+1. Add SHH key to GitLab 
+    - [Create and Add your SHH key to GitLab](https://www.youtube.com/watch?v=54mxyLo3Mqk)
 
-### Version Control Systems
+1. Repositories, Projects and Groups
+    - [Recording](https://www.youtube.com/watch?v=4TWfh1aKHHw&index=1&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e) recorded date: 2015-12-10
 
-- [Presentation](https://docs.google.com/presentation/d/16sX7hUrCZyOFbpvnrAFrg6tVO5_yT98IgdAqOmXwBho/edit#slide=id.g72f2e4906_2_29)
-- [Take the Test](http://goo.gl/forms/8H8SNcH70T)
+1. Creating a Project in GitLab
+    - [Recording](https://www.youtube.com/watch?v=7p0hrpNaJ14)
+    - Supporting: [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 
-### Glossary and Terminology
+1. Issues and Merge Requests
+    - [Recording](https://www.youtube.com/watch?v=raXvuwet78M)
+    - Supporting: [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 
-- [GitLab Glossary](https://about.gitlab.com/university/glossary/)
-- [Introduction to Terminology Blog](https://about.gitlab.com/2015/05/18/simple-words-for-a-gitlab-newbie/)
+### Week 2 - Learning goal is to communicate the key differentiators between GitLab offerings and GitLab competition
 
-### Intro to Git
+1. Ecosystem
+    - [Recording 2015-11-05](https://www.youtube.com/watch?v=sXlhgPK1NTY&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=6)
+    - [GitLab Ecosystem slides](https://docs.google.com/presentation/d/1vCU-NbZWz8NTNK8Vu3y4zGMAHb5DpC8PE5mHtw1PWfI/edit)
 
-- [Intro to Git](https://www.codeschool.com/account/courses/try-git)
-- [Take the Test](http://goo.gl/forms/GgWF1T5Ceg)
-- Supporting: [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
+1. [Compare GitLab versions](https://about.gitlab.com/features/#compare)
 
-### Intro to Git and GitLab
+1. [GitLab compared to other tools](https://about.gitlab.com/comparison/)
 
-- [Intro to Git and GitLab](https://www.youtube.com/watch?v=03wb9FvO4Ak&index=5&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e) recorded date: 2015-9-17
-- [Take the test](http://goo.gl/forms/9PnmhiNzEa)
-- Supporting: [A Short History of Git](http://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
+1. [Positioning FAQ](https://about.gitlab.com/handbook/positioning-faq)
 
-### Operating Systems and How Git Works
+1. JIRA and Jenkins integrations in GitLab
+    - [Demo of Jira integration within GitLab](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=44b548147a67ab4d8a62274047146415). Download [WebEx](https://www.webex.com/play-webex-recording.html) to view this video
 
-- [Operating Systems and How Git Works](https://drive.google.com/a/gitlab.com/file/d/0B41DBToSSIG_OVYxVFJDOGI3Vzg/view?usp=sharing) recorded date: 2015-10-01
+1. [GitLab Workshop Part 1: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-1/material/)
 
-### Ecosystem
+1. [GitLab Workshop Part 2: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-23370/material/)
 
-- [Recording 2015-11-05](https://www.youtube.com/watch?v=sXlhgPK1NTY&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=6)
-- [GitLab Ecosystem slides](https://docs.google.com/presentation/d/1vCU-NbZWz8NTNK8Vu3y4zGMAHb5DpC8PE5mHtw1PWfI/edit)
-- [Take the Test](http://goo.gl/forms/5Vrf3CE0iC)
+1. [GitLab Workshop Part 3: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-3/material/)
 
-### Creating a GitLab Account
+1. [GitLab Workshop Part 4: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-4/material/)
 
-- [Create a GitLab Account](https://courses.platzi.com/classes/git-gitlab/concepto/first-steps/create-an-account-on-gitlab/material/)
-- Supporting: [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
+1. GitLab Integrations
 
-### Add SHH Key to GitLab
+    - Supporting: [Documentation on Integrating Jira with GitLab](http://doc.gitlab.com/ee/integration/jira.html) and [Demo of Jira integration within GitLab](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=44b548147a67ab4d8a62274047146415).  Download [WebEx](https://www.webex.com/play-webex-recording.html) to view this video
+    - Supporting: [Atlassian Crowd feature request](http://feedback.gitlab.com/forums/176466-general/suggestions/4324384-integration-with-crowd)
+    - Supporting: [Documentation on Integrating Jenkins with GitLab](http://doc.gitlab.com/ee/integration/jenkins.html)
+    - Supporting: [Documentation on Integrating Bamboo with GitLab](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
+    - Supporting: [Documentation on Integrating Slack with GitLab](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/integration/slack.md)
 
-- Upcoming
-- [Create and Add your SHH key to GitLab](https://www.youtube.com/watch?v=54mxyLo3Mqk)
+1. Migrating to GitLab from SVN/GitHub Enterprise/BitBucket/Perforce
+    - Supporting: [Migrating from BitBucket/Stash](http://doc.gitlab.com/ee/workflow/importing/import_projects_from_bitbucket.html)
+    - Supporting: [Migrating from GitHub](http://doc.gitlab.com/ee/workflow/importing/import_projects_from_github.html)
+    - Supporting: [Migrating from SVN](http://doc.gitlab.com/ee/workflow/importing/migrating_from_svn.html)
+    - Supporting: [Migrating from Fogbugs](http://doc.gitlab.com/ee/workflow/importing/import_projects_from_fogbugz.html)
 
-### Creating a Project in GitLab
+### Week 3 - Learning goal is to be able to pitch GitLab Enterprise Edition focused on the key selling points of EE and to record how to handle pricing objections.
 
-- [Recording](https://www.youtube.com/watch?v=7p0hrpNaJ14)
-- Supporting: [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
+1. [Compare GitLab versions](https://about.gitlab.com/features/#compare)
 
-### Issues and Merge Requests
+1. Scalability and High Availability
+    - [Recording 2015-12-03](https://www.youtube.com/watch?v=cXRMJJb6sp4&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=2)
 
-- [Recording](https://www.youtube.com/watch?v=raXvuwet78M)
-- Supporting: [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
+1. Managing LDAP, Active Directory
+    - [Recording of what it is and how to set it up](https://www.youtube.com/watch?v=HPMjM-14qa8)
 
-### GitLab Wiki
+1. Managing Permissions within EE
+    - [Recording of what it is and how to set it up](https://www.youtube.com/watch?v=DjUoIrkiNuM)
 
-- Upcoming
+1. GitLab 8.2
+    - [Recording 2015-11-19](https://www.youtube.com/watch?v=09RLHyMFfpA&index=3&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e)
+    - [Slides](https://gitlab.com/gitlab-org/University/blob/master/classes/8.2.md) 2015-11-19
 
-### GitLab Activity Log
+1. Upcoming in EE and Big files in Git (Git LFS, Annex)
+    - [Upcoming in EE](https://gitlab.com/gitlab-org/University/blob/master/classes/upcoming_in_ee.md)
+    - [Big files in Git (Git LFS, Annex)](https://gitlab.com/gitlab-org/University/blob/master/classes/git_lfs_and_annex.md)
 
-- Upcoming
+1. [GitLab Workshop Part 1: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-1/material/)
 
-### Branching and Forking
+1. [GitLab Workshop Part 2: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-23370/material/)
 
-- Upcoming
+1. [GitLab Workshop Part 3: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-3/material/)
 
-### GitLab Omnibus
+1. [GitLab Workshop Part 4: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-4/material/)
 
-- [Recording of what it is](https://www.youtube.com/watch?v=XTmpKudd-Oo)
-- [Recording of how to install](https://www.youtube.com/watch?v=Q69YaOjqNhg)
-- Supporting: [Configuring an external PostgreSQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-non-packaged-postgresql-database-management-server)
-- Supporting: [Configuring an external MySQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-mysql-database-management-server-enterprise-edition-only)
+1. [Positioning FAQ](https://about.gitlab.com/handbook/positioning-faq)
 
-### GitLab Flow
+1. [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 
-- [Recording of what it is](https://www.youtube.com/watch?v=UGotqAUACZA)
-- [GitLab Flow blog post](https://about.gitlab.com/2014/09/29/gitlab-flow/)
-- [GitLab Flow documentation](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
+1. [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=ae7b72c61347030e8aa75328ed4b8660)
 
-### Managing LDAP, Active Directory
+### Week 4 - Goal is to create a lead, check if lead is using CE, create a task, convert lead to opportunty, add a product to the opportunity, create a quote, close win the opportunity, create a renewal opportunity and invoice the client.
 
-- [Recording of what it is and how to set it up](https://www.youtube.com/watch?v=HPMjM-14qa8)
+1. Review in order, learning material on our [Sales Procss](https://about.gitlab.com/handbook/sales-process/) page.
 
-### Managing Permissions within EE
+1. Login to [Salesforce.com](http://www.salesforce.com/), you should receive an email asking you to change your password.  Once you are in Salesforce, please familiarize yourself wth these reports/views as they will be critical in helping you manage your business.
+    - [Your Current Month Pipeline](https://na34.salesforce.com/00O61000001uYbM) This view is to focus you on what you are committing to closing this month.  Are you in the right stage? What is needed to advance the sale to the next stage?
+    - [Your Total Pipeline](https://na34.salesforce.com/00O61000001uYbR) This view should be used to identify where you are going and where you need focus to ensure you are successful.  What needs to to close and/or where you need to build up your pipleine - new business, expansion, add-on
+    - [Your Leads](https://na34.salesforce.com/00Q?fcf=00B610000027qT9&rolodexIndex=-1&page=1) This view should be used to make sure you are followign up on each lead in a timely manner and have a plan on how you qualify or disqualify a lead.
+        * [Your Personal Dashboard](https://na34.salesforce.com/01Z61000000J0gx) This dashboard should be used to understand where you have been, where you are at, where are you going and do you have the pipeline to get to where you need to be.
+        * [Accounts you Own](https://na34.salesforce.com/001?fcf=00B61000001XPLz) This view is to be used to identify expansion opportunities, who you have neglected and the mix of customers to prospects you are working
 
-- [Recording of what it is and how to set it up](https://www.youtube.com/watch?v=DjUoIrkiNuM)
+### Supporting Learning Materials
 
-### Continuous Integration and Runners
+#### GitLab Wiki
 
-- Upcoming
-- [GitLab CI](https://about.gitlab.com/gitlab-ci/)
-- Supporting: [Documentation on Integrating Jenkins with GitLab](http://doc.gitlab.com/ee/integration/jenkins.html)
-- Supporting: [Documentation on Integrating Bamboo with GitLab](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
+    - Upcoming
 
-### GitLab Mirroring
+#### GitLab Activity Log
 
-- Upcoming
+    - Upcoming
 
-### GitLab Pages
+#### Branching and Forking
 
-- Upcoming
-- Supporting: [Documentation on How to set up and use Pages](http://doc.gitlab.com/ee/pages/README.html)
+    - Upcoming
 
-### JIRA and Jenkins integrations in GitLab
-- [Demo of Jira integration within GitLab](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=44b548147a67ab4d8a62274047146415). Download [WebEx](https://www.webex.com/play-webex-recording.html) to view this video
-- [Documentation on Integrating Jenkins with GitLab](http://doc.gitlab.com/ee/integration/jenkins.html) and Video Tutorial upcoming
+#### GitLab Omnibus
 
-### GitLab Integrations
+    - [Recording of what it is](https://www.youtube.com/watch?v=XTmpKudd-Oo)
+    - [Recording of how to install](https://www.youtube.com/watch?v=Q69YaOjqNhg)
+    - Supporting: [Configuring an external PostgreSQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-non-packaged-postgresql-database-management-server)
+    - Supporting: [Configuring an external MySQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-mysql-database-management-server-enterprise-edition-only)
 
-- Upcoming
-- Supporting: [Documentation on Integrating Jira with GitLab](http://doc.gitlab.com/ee/integration/jira.html) and [Demo of Jira integration within GitLab](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=44b548147a67ab4d8a62274047146415).  Download [WebEx](https://www.webex.com/play-webex-recording.html) to view this video
-- Supporting: [Atlassian Crowd feature request](http://feedback.gitlab.com/forums/176466-general/suggestions/4324384-integration-with-crowd)
-- Supporting: [Documentation on Integrating Jenkins with GitLab](http://doc.gitlab.com/ee/integration/jenkins.html)
-- Supporting: [Documentation on Integrating Bamboo with GitLab](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
-- Supporting: [Documentation on Integrating Slack with GitLab](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/integration/slack.md)
+#### GitLab Flow
 
-### Migrating to GitLab from SVN/GitHub Enterprise/BitBucket/Perforce
+    - [Recording of what it is](https://www.youtube.com/watch?v=UGotqAUACZA)
+    - [GitLab Flow blog post](https://about.gitlab.com/2014/09/29/gitlab-flow/)
+    - [GitLab Flow documentation](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
 
-- Supporting: [Migrating from BitBucket/Stash](http://doc.gitlab.com/ee/workflow/importing/import_projects_from_bitbucket.html)
-- Supporting: [Migrating from GitHub](http://doc.gitlab.com/ee/workflow/importing/import_projects_from_github.html)
-- Supporting: [Migrating from SVN](http://doc.gitlab.com/ee/workflow/importing/migrating_from_svn.html)
-- Supporting: [Migrating from Fogbugs](http://doc.gitlab.com/ee/workflow/importing/import_projects_from_fogbugz.html)
+#### Continuous Integration and Runners
 
-### GitLab Markdown
+    - Upcoming
+    - [GitLab CI](https://about.gitlab.com/gitlab-ci/)
+    - Supporting: [Documentation on Integrating Jenkins with GitLab](http://doc.gitlab.com/ee/integration/jenkins.html)
+    - Supporting: [Documentation on Integrating Bamboo with GitLab](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
 
-- Upcoming
-- Supporting: [Markdown](http://doc.gitlab.com/ce/markdown/markdown.html)
+#### GitLab Mirroring
 
-## Learning Resources
+    - Upcoming
+
+#### GitLab Pages
+
+    - Upcoming
+    - Supporting: [Documentation on How to set up and use Pages](http://doc.gitlab.com/ee/pages/README.html)
+
+#### GitLab Markdown
+
+    - Upcoming
+    - Supporting: [Markdown](http://doc.gitlab.com/ce/markdown/markdown.html)
 
 - [GitLab documentation](http://doc.gitlab.com/)
 - [Innersourcing article](https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/)
 - [Platzi training course](https://courses.platzi.com/courses/git-gitlab/)
 - [Sales Onboarding materials](https://about.gitlab.com/handbook/sales-onboarding/)
 - [GitLab Direction](https://about.gitlab.com/direction/)
-- [GitLab compared to other tools](https://about.gitlab.com/comparison/)
-- [GitLab Workshop Part 1: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-1/material/)
-- [GitLab Workshop Part 2: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-23370/material/)
-- [GitLab Workshop Part 3: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-3/material/)
-- [GitLab Workshop Part 4: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-4/material/)
-- [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
-- [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=ae7b72c61347030e8aa75328ed4b8660).  Download [WebEx](https://www.webex.com/play-webex-recording.html) to view this video
 - [Amazon's transition to Continuous Delivery](https://www.youtube.com/watch?v=esEFaY0FDKc)
 - [3rd party tool comparison](http://technologyconversations.com/2015/10/16/github-vs-gitlabs-vs-bitbucket-server-formerly-stash/)
 - [State of Dev Ops 2015 Report by Puppet Labs](https://puppetlabs.com/sites/default/files/2015-state-of-devops-report.pdf) Insightful Chapters to understand the Impact of Continuous Delivery on Performance (Chapter 4), the Application Architecture (Chapter 5) and How IT Managers can help their teams win (Chapter 6).
