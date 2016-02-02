@@ -142,8 +142,8 @@ The software development lifecycle and collaboration on digital products happens
 
 1. **Chat** conversation => Mattermost, [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
 1. **Issue** creation => GitLab Issues
-1. **Scrum** board to plan => [Huboard](https://huboard.com/) for which there is a [bounty](https://github.com/huboard/huboard/issues/276) in addition to https://about.gitlab.com/applications/#scrum-boards
-1. **Development** => [Browser IDE](https://gitlab.com/gitlab-org/gitlab-ce/issues/12759): Koding, Nitrous.io, [Cloud9](https://c9.io/blog/cloud9-template-days/), CodeAnywhere, Codio and CodeEnvy (ship GitLab with them and button to open from GitLab)
+1. **Scrum** board to plan => [Huboard](https://huboard.com/) for which there is a [bounty](https://github.com/huboard/huboard/issues/276)
+1. **Development** => [Browser IDE](https://gitlab.com/gitlab-org/gitlab-ce/issues/12759)
 1. **Version control** => GitLab Repo
 1. **Continuous integration** => GitLab CI
 1. **Merge Request** discussion => GitLab MR
@@ -162,10 +162,10 @@ Things that are outside our scope are:
 
 ### We would love to partner with
 
-- [Waffle.io](https://waffle.io/)
-- [Zenhub.io](https://www.zenhub.io/)
+- Scrum boards: We already support [some of them](https://about.gitlab.com/applications/#scrum-boards) but would love for [Waffle.io](https://waffle.io/), and [Zenhub.io](https://www.zenhub.io/) to support GitLab too.
 - [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
 - [Oracle database support (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/96)
+- Browser IDE's to ship GitLab with them and to have button to open them from GitLab: Koding, Nitrous.io, [Cloud9](https://c9.io/blog/cloud9-template-days/), CodeAnywhere, Codio, and CodeEnvy
 
 ## Vision <a name="vision"></a>
 
