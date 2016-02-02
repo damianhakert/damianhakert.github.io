@@ -145,63 +145,63 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
 
 #### GitLab Wiki
 
-    - Upcoming
+- Upcoming
 
 #### GitLab Activity Log
 
-    - Upcoming
+- Upcoming
 
 #### Branching and Forking
 
-    - Upcoming
+- Upcoming
 
 #### GitLab Omnibus
 
-    - [Recording of what it is](https://www.youtube.com/watch?v=XTmpKudd-Oo)
-    - [Recording of how to install](https://www.youtube.com/watch?v=Q69YaOjqNhg)
-    - Supporting: [Configuring an external PostgreSQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-non-packaged-postgresql-database-management-server)
-    - Supporting: [Configuring an external MySQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-mysql-database-management-server-enterprise-edition-only)
+- [Recording of what it is](https://www.youtube.com/watch?v=XTmpKudd-Oo)
+- [Recording of how to install](https://www.youtube.com/watch?v=Q69YaOjqNhg)
+- Supporting: [Configuring an external PostgreSQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-non-packaged-postgresql-database-management-server)
+- Supporting: [Configuring an external MySQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-mysql-database-management-server-enterprise-edition-only)
 
 #### GitLab Flow
 
-    - [Recording of what it is](https://www.youtube.com/watch?v=UGotqAUACZA)
-    - [GitLab Flow blog post](https://about.gitlab.com/2014/09/29/gitlab-flow/)
-    - [GitLab Flow documentation](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
+- [Recording of what it is](https://www.youtube.com/watch?v=UGotqAUACZA)
+- [GitLab Flow blog post](https://about.gitlab.com/2014/09/29/gitlab-flow/)
+- [GitLab Flow documentation](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
 
 #### Continuous Integration and Runners
 
-    - Upcoming
-    - [GitLab CI](https://about.gitlab.com/gitlab-ci/)
-    - Supporting: [Documentation on Integrating Jenkins with GitLab](http://doc.gitlab.com/ee/integration/jenkins.html)
-    - Supporting: [Documentation on Integrating Bamboo with GitLab](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
+- Upcoming
+- [GitLab CI](https://about.gitlab.com/gitlab-ci/)
+- Supporting: [Documentation on Integrating Jenkins with GitLab](http://doc.gitlab.com/ee/integration/jenkins.html)
+- Supporting: [Documentation on Integrating Bamboo with GitLab](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
 
 #### GitLab Mirroring
 
-    - Upcoming
+- Upcoming
 
 #### GitLab Pages
 
-    - Upcoming
-    - Supporting: [Documentation on How to set up and use Pages](http://doc.gitlab.com/ee/pages/README.html)
+- Upcoming
+- Supporting: [Documentation on How to set up and use Pages](http://doc.gitlab.com/ee/pages/README.html)
 
 #### GitLab Markdown
 
-    - Upcoming
-    - Supporting: [Markdown](http://doc.gitlab.com/ce/markdown/markdown.html)
+- Upcoming
+- Supporting: [Markdown](http://doc.gitlab.com/ce/markdown/markdown.html)
 
-- [GitLab documentation](http://doc.gitlab.com/)
-- [Innersourcing article](https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/)
-- [Platzi training course](https://courses.platzi.com/courses/git-gitlab/)
-- [Sales Onboarding materials](https://about.gitlab.com/handbook/sales-onboarding/)
-- [GitLab Direction](https://about.gitlab.com/direction/)
-- [Amazon's transition to Continuous Delivery](https://www.youtube.com/watch?v=esEFaY0FDKc)
-- [3rd party tool comparison](http://technologyconversations.com/2015/10/16/github-vs-gitlabs-vs-bitbucket-server-formerly-stash/)
-- [State of Dev Ops 2015 Report by Puppet Labs](https://puppetlabs.com/sites/default/files/2015-state-of-devops-report.pdf) Insightful Chapters to understand the Impact of Continuous Delivery on Performance (Chapter 4), the Application Architecture (Chapter 5) and How IT Managers can help their teams win (Chapter 6).
-- [Customer review of GitLab with talking points on why they prefer GitLab](https://www.enovate.co.uk/web-design-blog/2015/11/25/gitlab-review/)
-- [2011 WSJ article by Mark Andreeson - Software is Eating the World](http://www.wsj.com/articles/SB10001424053111903480904576512250915629460)
-- [2014 Blog post by Chris Dixon - Software eats software development](http://cdixon.org/2014/04/13/software-eats-software-development/)
-- [2015 Venture Beat article - Actually, Open Source is Eating the World](http://venturebeat.com/2015/12/06/its-actually-open-source-software-thats-eating-the-world/)
-- [Customer Use-Cases](https://about.gitlab.com/handbook/use-cases/)
-- [Why Git and GitLab slide deck](https://docs.google.com/a/gitlab.com/presentation/d/1RcZhFmn5VPvoFu6UMxhMOy7lAsToeBZRjLRn0LIdaNc/edit?usp=drive_web)
-- [Git Workshop](https://docs.google.com/presentation/d/1JzTYD8ij9slejV2-TO-NzjCvlvj6mVn9BORePXNJoMI/edit?usp=drive_web)
-- [Client Assessment of GitLab versus GitHub](https://docs.google.com/a/gitlab.com/spreadsheets/d/18cRF9Y5I6I7Z_ab6qhBEW55YpEMyU4PitZYjomVHM-M/edit?usp=sharing) INTERNAL ACCESS ONLY
+* [GitLab documentation](http://doc.gitlab.com/)
+* [Innersourcing article](https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/)
+* [Platzi training course](https://courses.platzi.com/courses/git-gitlab/)
+* [Sales Onboarding materials](https://about.gitlab.com/handbook/sales-onboarding/)
+* [GitLab Direction](https://about.gitlab.com/direction/)
+* [Amazon's transition to Continuous Delivery](https://www.youtube.com/watch?v=esEFaY0FDKc)
+* [3rd party tool comparison](http://technologyconversations.com/2015/10/16/github-vs-gitlabs-vs-bitbucket-server-formerly-stash/)
+* [State of Dev Ops 2015 Report by Puppet Labs](https://puppetlabs.com/sites/default/files/2015-state-of-devops-report.pdf) Insightful Chapters to understand the Impact of Continuous Delivery on Performance (Chapter 4), the Application Architecture (Chapter 5) and How IT Managers can help their teams win (Chapter 6).
+* [Customer review of GitLab with talking points on why they prefer GitLab](https://www.enovate.co.uk/web-design-blog/2015/11/25/gitlab-review/)
+* [2011 WSJ article by Mark Andreeson - Software is Eating the World](http://www.wsj.com/articles/SB10001424053111903480904576512250915629460)
+* [2014 Blog post by Chris Dixon - Software eats software development](http://cdixon.org/2014/04/13/software-eats-software-development/)
+* [2015 Venture Beat article - Actually, Open Source is Eating the World](http://venturebeat.com/2015/12/06/its-actually-open-source-software-thats-eating-the-world/)
+* [Customer Use-Cases](https://about.gitlab.com/handbook/use-cases/)
+* [Why Git and GitLab slide deck](https://docs.google.com/a/gitlab.com/presentation/d/1RcZhFmn5VPvoFu6UMxhMOy7lAsToeBZRjLRn0LIdaNc/edit?usp=drive_web)
+* [Git Workshop](https://docs.google.com/presentation/d/1JzTYD8ij9slejV2-TO-NzjCvlvj6mVn9BORePXNJoMI/edit?usp=drive_web)
+* [Client Assessment of GitLab versus GitHub](https://docs.google.com/a/gitlab.com/spreadsheets/d/18cRF9Y5I6I7Z_ab6qhBEW55YpEMyU4PitZYjomVHM-M/edit?usp=sharing) INTERNAL ACCESS ONLY
