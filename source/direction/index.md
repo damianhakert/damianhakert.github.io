@@ -138,18 +138,34 @@ We very much welcome contributions that implement any of these things.
 
 ### Software to ship in the Omnibus packages
 
-- [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
-- [A scrum board](https://about.gitlab.com/applications/#scrum-boards)
-- [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
-- [Hubot](https://hubot.github.com/) which has a [Merge Request](https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/564) or [Lita](https://www.lita.io/)
-- [Oracle database support (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/96)
+The software development lifecycle and collaboration on digital products happens with the following stack of tools that we want to ship in our Omnibus packages:
+
+1. **Chat** conversation => Mattermost, [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
+1. **Issue** creation => GitLab Issues
+1. **Scrum** board to plan => [Huboard](https://huboard.com/) for which there is a [bounty](https://github.com/huboard/huboard/issues/276) in addition to https://about.gitlab.com/applications/#scrum-boards
+1. **Development** => [Browser IDE](https://gitlab.com/gitlab-org/gitlab-ce/issues/12759): Koding, Nitrous.io, [Cloud9](https://c9.io/blog/cloud9-template-days/), CodeAnywhere, Codio and CodeEnvy (ship GitLab with them and button to open from GitLab)
+1. **Version control** => GitLab Repo
+1. **Continuous integration** => GitLab CI
+1. **Merge Request** discussion => GitLab MR
+1. **Deploy** to production => [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
+1. **Chatops** to check => [Hubot](https://hubot.github.com/) which has a [Merge Request](https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/564) or [Lita](https://www.lita.io/)
+
+We're still deciding if application performance monitoring is in our scope, for example with Grafana and InfluxDB.
+
+Things that are outside our scope are:
+
+1. **PaaS** although we do want to use [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) to deploy to CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Nomad](https://nomadproject.io/), [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/), [Tutum](https://www.tutum.co/), [GiantSwarm](https://giantswarm.io/), [Rancher](https://github.com/rancher/rancher/blob/master/README.md)
+1. **Configuration management** although we do want to upload cookbooks, manifests, playbooks, and modules for respectively Chef, Puppet, Ansible, and Salt.
+1. **Log monitoring** (ELK stack, Splunk)
+1. **Network** (Openflow, VMware NSX, Cisco ACI)
+1. **Security** applications
 
 ### We would love to partner with
 
-- [Browser IDE](https://gitlab.com/gitlab-org/gitlab-ce/issues/12759): Koding, Nitrous.io, [Cloud9](https://c9.io/blog/cloud9-template-days/), CodeAnywhere, Codio and CodeEnvy (ship GitLab with them and button to open from GitLab)
-- Configuration management: Upload cookbooks, manifests, playbooks, and modules for respectively Chef, Puppet, Ansible, and Salt.
-- Paas: Use [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) to deploy to CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Nomad](https://nomadproject.io/), [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/), [Tutum](https://www.tutum.co/), [GiantSwarm](https://giantswarm.io/), [Rancher](https://github.com/rancher/rancher/blob/master/README.md)
-- Scrum boards: [Huboard](https://huboard.com/) for which there is a [bounty](https://github.com/huboard/huboard/issues/276), [Waffle.io](https://waffle.io/) and [Zenhub.io](https://www.zenhub.io/) support in addition to https://about.gitlab.com/applications/#scrum-boards
+- [Waffle.io](https://waffle.io/)
+- [Zenhub.io](https://www.zenhub.io/)
+- [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
+- [Oracle database support (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/96)
 
 ## Vision <a name="vision"></a>
 
