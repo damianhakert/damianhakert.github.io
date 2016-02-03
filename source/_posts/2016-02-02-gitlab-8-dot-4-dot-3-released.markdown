@@ -31,6 +31,7 @@ Read on for all the details!
 - **EE:** Elasticsearch: fix partial blob indexing on push ([!149])
 - **EE:** Elasticsearch: added advanced indexer for repositories ([!154])
 - **EE:** Fix "Mirror User" dropdown ([!158])
+- **Omnibus GitLab** Update openssl to 1.0.1r ([!621])
 
 [!149]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/149
 [!154]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/154
@@ -42,6 +43,7 @@ Read on for all the details!
 [!2644]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2644
 [!2653]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2653
 [!2664]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2664
+[!621]: https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/621
 
 ## Upgrade barometer
 
