@@ -50,6 +50,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 - [New design for issue page](https://gitlab.com/gitlab-org/gitlab-ce/issues/3981)
 - [Support for relative URLs](https://gitlab.com/gitlab-org/gitlab-ce/issues/1938)
+- [Sort by vote count](https://gitlab.com/gitlab-org/gitlab-ce/issues/3763)
 
 ### 8.6 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/22) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/8) March 22nd
 
@@ -68,6 +69,17 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [Code management analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
 - [Delivery analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
 - [Subscribe to a Label](https://gitlab.com/gitlab-org/gitlab-ce/issues/12743)
+
+### Upcoming
+
+Things we'd like to see in upcoming releases of GitLab, but haven't been
+given a formal place yet.
+
+- [Subscribe to new Issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/12758)
+- [Project / Repo templates](https://gitlab.com/gitlab-org/gitlab-ce/issues/3785)
+- [Award emoji in comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3655)
+- [Comment on Images in Diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
+
 
 ## Wishlist
 
