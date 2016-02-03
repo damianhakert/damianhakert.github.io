@@ -80,7 +80,6 @@ given a formal place yet.
 - [Award emoji in comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3655)
 - [Comment on Images in Diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
 
-
 ## Wishlist
 
 Below are features we'd really like to see in GitLab.
