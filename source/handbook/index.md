@@ -200,8 +200,8 @@ out to any of the other C-level team members or our board member Bruce Armstrong
 1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [operations](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues.
 1. Pick issues from the current [milestone](https://gitlab.com/groups/gitlab-org/milestones).
 1. We try not to assign issues to people but to have people **pick issues** in a milestone themselves.
-1. Assign an issue to yourself as soon as you start to work on it, but not before 
-that time. If you complete part of an issue and need someone else to take the next 
+1. Assign an issue to yourself as soon as you start to work on it, but not before
+that time. If you complete part of an issue and need someone else to take the next
 step, **re-assign** the issue to that person.
 1. We keep our **promises** and do not make external promises without internal agreement.
 1. Even when something is not done, share it internally so people can comment early and prevent rework. Mark the merge request **[Work In Progress](https://about.gitlab.com/2016/01/08/feature-highlight-wip/)** so it is not merged by accident.
@@ -256,6 +256,7 @@ step, **re-assign** the issue to that person.
 1. Monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9
 1. If an email needs a response write the ask at the top of it.
 1. Our homepage is https://about.gitlab.com/ (with the `about.` and with `https`).
+1. Please refer to self-hosted installations as on-premises, not on-premise.
 1. If you use headers properly format them (`##` in Markdown, "Heading 2" in Google docs), start at the second header level because header level 1 is for titles, do not end headers with a colon.
 1. Always use an [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma) in lists of three or more terms.
 1. Read our [Documentation Styleguide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc_styleguide.md) for more information when writing documentation.
@@ -481,7 +482,7 @@ exception of NDAs covering a physical visit of another organization.
 
 ### Prevent newlines from causing all following lines in a file to be tagged as changed
 
-This is especially a problem for anyone running a Mac OSX operating system. The 
+This is especially a problem for anyone running a Mac OSX operating system. The
 command to 'tame' git is `git config --global core.autocrlf input`
 
 
