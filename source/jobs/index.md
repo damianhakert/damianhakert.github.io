@@ -36,7 +36,7 @@ letter to be considered!
 ### Developer
 * [Description](https://about.gitlab.com/jobs/developer/)
 * [Apply](https://gitlab.workable.com/jobs/106660)
-* A note on the technical interview: As part of our interviewing process, you may 
+* A note on the technical interview<a name="technical-interview"></a>: As part of our interviewing process, you may 
 be asked to pick an issue from the GitLab CE issue tracker, and code 'live' with 
 the interviewer there to talk with and collaborate with. We do this because we 
 believe that it is the best way for you to see what the work is really like, and 
