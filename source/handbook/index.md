@@ -135,6 +135,7 @@ people. We try to hire people who think work is a great way to express themselve
 1. Be **specific** in your written communication, especially externally. Do not reply with a generalization when you can give an example.
 1. Be **kind** in your written communication, especially externally. Be constructive instead of argumentative, sarcastic or condescending. We're not all programmers but try to be inspired by the friendliness in the Ruby community of which the common maxim is the [MINASWAN motto](https://en.wikipedia.org/wiki/MINASWAN).
 1. Explicitly note what **next action** you propose or expect and from whom.
+1. When you reply to a request please do so after you have completed the request or indicate when you plan to do it. In the latter case always send a second message when the request is complete.
 1. Everyone at the company cares about your **output**. Being away from the keyboard during the workday, doing private browsing or making personal phone calls is fine and encouraged.
 1. We're a **distributed** company where people work remote without missing out, prefer communication in public issues and chat channels and ensure conclusions of offline conversations are written down.
 1. Everything is always in draft and subject to change, including this handbook. So do not delay documenting things and do not include draft in the titles of documents. Ensure everyone can read the current state, nothing will ever be finished.
