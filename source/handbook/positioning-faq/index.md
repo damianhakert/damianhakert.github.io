@@ -7,7 +7,7 @@ title: "GitLab Positioning FAQ"
     1. GitLab is an open source tool used by developers to create and manage code bases collaboratively. Built on Git, which is a very popular and efficient distributed version control system, GitLab gives you all the tools needed for Git repository management from code reviews to issue tracking and more.
     1. We have a few different versions of GitLab.
         - GitLab.com.  Hosted, open source for private repos. Just signup and get started.
-        - GitLab CE.  On-premise, self-hosted GitLab with LDAP integration, issue tracker, webhooks, and integrated CI.
+        - GitLab CE.  On-premises, self-hosted GitLab with LDAP integration, issue tracker, webhooks, and integrated CI.
         - GitLab EE.  GitLab Enterprise Edition builds on top of the Community Edition and includes extra features mainly aimed at organizations with more than 100 users. It has LDAP group sync, audit logs and multiple roles. It includes deeper authentication and authorization integration, has fine-grained workflow management, has extra server management options and it integrates with your tool stack.
         - GitHost.io  Private, single-tenant GitLab instances hosted by us.
         - Know the comparison chart - https://about.gitlab.com/features/#compare
@@ -61,14 +61,14 @@ title: "GitLab Positioning FAQ"
     1. The enterprise world could benefit from this product.
     1. We wanted to be able to offer some features that aren’t necessarily needed in the open source world but are needed for large companies.
     1. For those features, we charge our large customers and in return are able to create those features and hire people to work on the open source project.
-* I use the hosted version of GitLab. Why would my company need on-premise?
+* I use the hosted version of GitLab. Why would my company need on-premises?
     1. More secure and customizable.
     1. LDAP integration
     1. Paid support
     1. 2FA
     1. Permissions management
 * How does support work?
-    1. For on-premise EE - https://about.gitlab.com/pricing/ - gitlab enterprise edition with paid support
+    1. For on-premises EE - https://about.gitlab.com/pricing/ - gitlab enterprise edition with paid support
     1. For GitLab.com - Bronze support - monthly fee - https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20
     1. Active StackOverflow community for free users.
 * Do you offer a solution for migrating data from GitHub, Bitbucket, SVN to GitLab?
