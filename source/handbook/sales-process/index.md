@@ -228,10 +228,3 @@ to a country listed in [Country Group E:1 in Supplement No. 1 to part 740 of the
 As a consequence of this classification, we currently do not do business in:
 Iran, Sudan (excluding South Sudan), Syria, North Korea, and Cuba.
 
-### Sales Automation Flow (Lead to Customer) <a name="automation"></a>
-
-Please see <a href="https://about.gitlab.com/handbook/marketing/demand-generation/">Demand Generation</a>.
-
-
-1. [EE repo members](https://gitlab.com/subscribers/gitlab-ee/team)
-
