@@ -7,9 +7,18 @@ title: Security Handbook
 
 1. **Never reuse** a password you use on a company account, not for another
    GitLab service nor for a personal account.
-1. Set up [1Password] as your password manager and set a **strong and unique**
+1. Use a tool that generates random passwords for you and stores them in an
+   encrypted vault. In all cases below, make sure to set a **strong and unique**
    master password.
-1. Use 1Password to [generate strong passwords] for any new accounts.
+   - [1Password]: a password manager available for Mac OSX, Windows, iOS and
+     Android. It can also be installed as a [browser extension]. This is the
+     manager that GitLab team uses to store their passwords. Use it to
+     [generate strong passwords] for any new accounts.
+   - [KeePassX]: an open source, cross-platform tool that generates and stores
+     passwords in an encrypted vault. It can run on Linux, Mac OSX and Windows.
+   - [KeePass]: an open source tool that generates and stores passwords in an
+     encrypted vault. It mainly runs on Windows but can also run on Linux, Mac
+     OS X, BSD [using Mono][mono].
 1. When signing up for a new service ask yourself which team members you need to
    **share access** with. If the service has a built-in way of creating other
    user accounts, use that. If not, then store your credentials in an
@@ -61,6 +70,10 @@ title: Security Handbook
 [team call agenda]: https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit
 [0-day attack]: https://en.wikipedia.org/wiki/Zero-day_(computing)
 [email to wire cash]: http://blog.centrify.com/ceo-fraud-business-email-compromise/
+[keepassx]: https://www.keepassx.org/
+[browser extension]: https://agilebits.com/onepassword/extensions
+[KeePass]:
+[mono]: http://keepass.info/help/v2/setup.html#mono
 
 ## 1Password Guide<a name="1password-guide"></a>
 
