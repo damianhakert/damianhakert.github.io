@@ -111,7 +111,7 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
 
 1. GitLab 8.2
     - [Recording 2015-11-19](https://www.youtube.com/watch?v=09RLHyMFfpA&index=3&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e)
-    - [Slides](https://gitlab.com/gitlab-org/University/blob/master/classes/8.2.md) 2015-11-19
+    - [Slides](https://gitlab.com/gitlab-org/University/blob/master/classes/8.2.markdown) 2015-11-19
 
 1. Upcoming in EE and Big files in Git (Git LFS, Annex)
     - [Upcoming in EE](https://gitlab.com/gitlab-org/University/blob/master/classes/upcoming_in_ee.md)
