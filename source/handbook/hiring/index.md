@@ -90,6 +90,9 @@ and then also consider using the following questions:
 1. Are you interviewing anywhere else?
 1. Do you have any questions for me?
 
+As described on the [Jobs](https://about.gitlab.com/jobs/) page, certain positions 
+require [technical interviews](https://about.gitlab.com/jobs/#technical-interview).
+
 ## Getting Contracts Ready<a name="prep-contracts"></a>
 Once a new team member is to be added in an employee or contractor capacity,
 fill out the [New Contract form](https://docs.google.com/a/gitlab.com/forms/d/1Cthnkdj_23ev_u7LT01wv5dZYAZKm20vp5JmzT3ECqE/viewform)
