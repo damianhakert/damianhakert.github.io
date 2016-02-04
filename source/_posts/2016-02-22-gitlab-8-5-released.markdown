@@ -86,10 +86,17 @@ This release has more improvements, including security fixes. Please check out [
 
 ## Upgrade barometer
 
+A migration affecting projects having a path ending in '.atom' has been added, 
+as they are no longer supported. This migration updates both the database and 
+the filesystem and previous versions of this migration have proven to be fragile.
 
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
-*** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
+If you have no projects with paths ending in '.atom' in your database (most likely, you don't)
+you can perform this upgrade online. If you do have them, we recommend to take downtime.
+You can find the current number of affected database records with the following command:
+
+```
+ sudo gitlab-rails runner "puts Project.where(%q{path LIKE '%.atom'}).count"
+```
 
 *Note* If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
 
