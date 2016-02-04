@@ -253,13 +253,8 @@ Please see <a href="https://about.gitlab.com/handbook/marketing/demand-generatio
 Everything about [GitLab Version Check](/handbook/sales-process/version_check).
 
 ### Helpful Links <a name="helpful"></a>
-1. [GitLab subscription page](https://about.gitlab.com/subscription/)
-
-1. [GitLab HA page](https://about.gitlab.com/high-availability/)
 
 1. [EE repo members](https://gitlab.com/subscribers/gitlab-ee/team)
-
-1. [Standard subscribers list](https://gitlab.com/groups/standard/members)
 
 1. [GitLab CE issues list](https://gitlab.com/gitlab-org/gitlab-ce/issues)
 
@@ -267,14 +262,4 @@ Everything about [GitLab Version Check](/handbook/sales-process/version_check).
 
 1. [GitLab feedback tracker](http://feedback.gitlab.com/forums/176466-general)
 
-1. [GitLab documentation](http://doc.gitlab.com/)
-
-1. [Offer for university students](https://about.gitlab.com/2014/05/19/students-now-free/)
-
 1. [YouTube page](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg)
-
-1. [GitLab architecture for noobs (office analogy)](https://dev.gitlab.org/gitlab/gitlabhq/blob/master/doc/development/architecture.md)
-
-1. [GitLab flow](https://about.gitlab.com/2014/09/29/gitlab-flow/)
-
-1. [Free GitLab workshop on Platzi (Job as trainer)](https://courses.platzi.com/courses/git-gitlab/)
