@@ -79,6 +79,7 @@ given a formal place yet.
 - [Project / Repo templates](https://gitlab.com/gitlab-org/gitlab-ce/issues/3785)
 - [Award emoji in comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3655)
 - [Comment on Images in Diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
+- [Mailing list functionality](https://gitlab.com/gitlab-org/gitlab-ce/issues/4272)
 
 ## Wishlist
 
@@ -93,7 +94,6 @@ We very much welcome contributions that implement any of these things.
 - [Resolve merge conflicts in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/3567)
 - [Multithreaded application server](https://gitlab.com/gitlab-org/gitlab-ce/issues/3592)
 - [Realtime editing of the issue/MR description field](https://gitlab.com/gitlab-org/gitlab-ce/issues/4199)
-- [Mailing list functionality](https://gitlab.com/gitlab-org/gitlab-ce/issues/4272)
 - [Handle incoming emails with support questions in issues](https://gitlab.com/gitlab-org/gitlab-ee/issues/149)
 - [Cherry-pick MR into any branch in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/12785)
 
