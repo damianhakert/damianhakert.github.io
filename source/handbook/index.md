@@ -168,6 +168,9 @@ people. We try to hire people who think work is a great way to express themselve
 1. Emails are asynchronous, for example if your manager emails you on a weekend it is fine to reply during the workweek.
 1. If an email is or has become urgent feel free to ping people via chat referencing the subject of the email.
 1. Thank people that did a great job in our 'Thanks' chat channel. If someone is an employee just "@" mention them. If multiple people were working on something try mentioning each person by "@" name. 'Thanks everyone' does not say much. If someone is not an employee mention our office manager, their name, a quirky gift and link to their work. For example: _"@sytse Joe deserves a lawnmower for LINK"_. The office manager will approach the people for their address saying we want to send some swag. We'll ship it in gift wrap with "Thanks for your great work on LINK, love from @gitlab". Don't thank the CEO or other executives for something that the company paid for, thank GitLab instead.
+1. If there is something that you want to discuss, but you do not feel that it is a
+reasonable option to discuss with either your manager or CEO, then you can reach
+out to any of the other C-level team members or our board member Bruce Armstrong.
 
 ### GitLab Workflow<a name="gitlab-workflow"></a>
 
