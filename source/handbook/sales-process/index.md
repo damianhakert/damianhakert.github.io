@@ -14,12 +14,8 @@ title: "Sales Process"
 * [Submitting Quotes in Salesforce.com](#quotes)
 * [Closing A Won Deal](#closing)
 * [Processing Orders in Recurly](#processing)
-* [Expanding Deals](#expanding)
-* [Managing an Account](#managing)
-* [Licences](#licences)
-* [Sales Best Practice Training](https://about.gitlab.com/handbook/sales-training/)
 * [Export Control Classification, and Countries We Do Not Do Business In](#export-control)
-* [Sales Automation Flow](#automation)
+* [Other Pages in Sales Handbook](#pages)
 
 
 ### Lead Qualification & Demand Generation Process <a name="leadqual"></a>
@@ -204,18 +200,6 @@ Adding users to current subscription as a separate department:
 
 Additional billing situations [Accounting procedures](/handbook/sales-process/accounting)
 
-### Expanding Deals <a name="expanding"></a>
-
-Find out [how to manage deals](/handbook/sales-process/deal_management_process) with potential customers.
-
-### Managing an Account <a name="managing"></a>
-
-Aspects to consider when [managing an account](/handbook/sales-process/account_management).
-
-### Licences <a name="licenses"></a>
-
-Everything about [licenses and EE access](/handbook/sales-process/licenses).
-
 ### Export Control Classification, and Countries We Do Not Do Business In <a name="export-control"></a>
 
 GitLab's Export Control Classification (or ECCN) is 5D002.c.1.
@@ -227,4 +211,20 @@ to a country listed in [Country Group E:1 in Supplement No. 1 to part 740 of the
 
 As a consequence of this classification, we currently do not do business in:
 Iran, Sudan (excluding South Sudan), Syria, North Korea, and Cuba.
+
+### Other Pages in Sales Handbook <a name="pages"></a>
+
+[Sales Onboarding](https://about.gitlab.com/handbook/sales-onboarding/)
+
+[Sales Training](https://about.gitlab.com/handbook/sales-training/)
+
+[GitLab Positioning](https://about.gitlab.com/handbook/positioning-faq/)
+
+[How to manage deals](/handbook/sales-process/deal_management_process)
+
+[Managing an account](/handbook/sales-process/account_management)
+
+Everything about [licenses and EE access](/handbook/sales-process/licenses)
+
+[GitLab University](https://about.gitlab.com/university/)
 
