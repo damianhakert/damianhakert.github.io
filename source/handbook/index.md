@@ -457,6 +457,12 @@ exception of NDAs covering a physical visit of another organization.
 1. Execute: `cd www-gitlab-com` to change to the `www-gitlab-com` directory.
 1. Execute: `bundle install` to install all gem dependencies.
 
+### Prevent newlines from causing all following lines in a file to be tagged as changed
+
+This is especially a problem for anyone running a Mac OSX operating system. The 
+command to 'tame' git is `git config --global core.autocrlf input`
+
+
 ### Preview website changes locally
 
 1. In a terminal, execute: `bundle exec rake preview`.
