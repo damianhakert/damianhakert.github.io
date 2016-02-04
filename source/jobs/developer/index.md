@@ -52,7 +52,7 @@ Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-
 ## Workflow
 
 You work on issues tagged with 'Developer' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=Developer) and [EE](https://gitlab.com/gitlab-org/gitlab-ee/issues?label_name=Developer).
-Some issues might be missing any [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) but be ready for a developer, in this case feed free to add 'Developer' label.
+Some issues might be missing any [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) but be ready for a developer, in this case feel free to add a 'Developer' label.
 
 The priority of the issues tagged with this label can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/#prioritize).
 
