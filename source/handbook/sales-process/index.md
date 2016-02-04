@@ -2,7 +2,8 @@
 layout: markdown_page
 title: "Sales Process"
 ---
-* [Lead Qualification Process](#leadqual)
+* [Lead Qualification & Demand Gen Process](#leadqual)
+* [GitLab Version Check](#version_check)
 * [Sales Discovery Questions](#salesdisco)
 * [Client Use Cases](#client)
 * [Parent and Child Accounts](#parent)
@@ -13,39 +14,17 @@ title: "Sales Process"
 * [Submitting Quotes in Salesforce.com](#quotes)
 * [Closing A Won Deal](#closing)
 * [Processing Orders in Recurly](#processing)
-* [Expanding Deals](#expanding)
-* [Managing an Account](#managing)
-* [Licences](#licences)
-* [Sales Best Practice Training](https://about.gitlab.com/handbook/sales-training/)
 * [Export Control Classification, and Countries We Do Not Do Business In](#export-control)
-* [Sales Automation Flow](#automation)
-* [Helpful Links](#helpful)
+* [Other Pages in Sales Handbook](#pages)
 
 
-### Lead Qualification Process <a name="leadqual"></a>
+### Lead Qualification & Demand Generation Process <a name="leadqual"></a>
 
-1. All marketing leads added to salesforce.com as a lead object.  These are called marketing qualified leads.
+See [Lead Qual & Demand Gen](https://about.gitlab.com/handbook/marketing/demand-generation/)
 
-1. Leads will be assigned round-robin in both the US and International Regions, with the exception being large Enterprise leads (i.e. 1000+ seats, Fortune 500, multiple divisions) assigned to Sr. Enterprise Account Managers.
+### GitLab Version Check <a name="version_check"></a>
 
-1. To ensure data integrity and a excellent customer experience, salesperson will conduct a quick search within Salesforce.com search field.  Salesperson will type in a portion of the account name and lead name.  Less is more when searching in Salesforce.com.
-    * If the lead already exists in Salesforce.com by either the same contact name or an account with the same business entity name, the salesperson will change ownership to the existing salesperson and add commentary to the chatter field within the lead object.
-
-1. If lead is unique, Salesperson will check https://version.gitlab.com before reaching out to prospect. See [Version Check page](/handbook/sales-process/version_check) for more information.
-
-1.  Salesperson will attempt to contact lead 4 times with 10 business days. Attempt 1 - within 1 business day. Attempt 2 - 3rd business day. Attempt 3- 6th business day. Attempt 4 - 10th business day.
-    * For each attempt, salesperson will change lead status field within lead to correspond to which attempt they have completed
-    * On the 4th attempt and 10th business day, salesperson will send last email and move lead status to nurture.  In this stage marketing will continue to nurture lead back to a sales ready lead.
-    * If lead is a Free Trial, Salesperson will convert lead to an opportunity immediately and pursue the opportunity.  Opportunity close date for Free Trails will be the expiration of their free trial.  Salesperson shall add Free Trial within the lead source field of the opportunity object.
-    * For Free Trial leads, Salesperson will follow the lead outreach cadence and then weekly outreach, until trial expires.
-
-1. Leads convert to opportunities once salesperson validates problem, we can solve and interest from buyer to pursue a solution.  These are called sales qualified leads.
-
-1. Upon lead conversion, salesperson checks to ensure the lead does not exist as an Account already.  If no, convert lead and an Account is created automatically.  If yes, salesperson selects "add to existing account".  An opportunity will be created under the existing account.  These are now part of the sales pipeline.
-
-1. Salesperson shall have a follow-up tasks for every open lead
-
-1. All leads should be in a lead status of nurture, disqualified or converted to an opportuity within 20 days of the lead being created.
+Before prospecting and engaging with a prospect, check to see if they are using CE. To do this, use GitLab Version Check. Everything about [GitLab Version Check](/handbook/sales-process/version_check).
 
 ### Sales Discovery Questions <a name="salesdisco"></a>
 
@@ -127,6 +106,7 @@ Once the above has happened, please make sure the following actions are done:
 1. Make sure opportunity close date matches invoice date in Recurly
 1. Make sure opportunity product matches subscription plan in Recurly
 1. Make sure opportunity amount matches amount in Recurly
+1. Attach any signed agreement, PO, and/or quote as an attachment to the account page/object in Salesforce.com
 1. Add in the competition we were up against in the opportunity.  This can be the legacy SCM solution they had and/or who they were evaluating along side of us.
 1. Create a renewal opportunity opportunity by cloning the current opportunity and changing the close date to be 12, 24 or 36 months out.
 1. Create an add-on or Existing Account (new division) opportunity if there has been one identified by you at this time.
@@ -220,18 +200,6 @@ Adding users to current subscription as a separate department:
 
 Additional billing situations [Accounting procedures](/handbook/sales-process/accounting)
 
-### Expanding Deals <a name="expanding"></a>
-
-Find out [how to manage deals](/handbook/sales-process/deal_management_process) with potential customers.
-
-### Managing an Account <a name="managing"></a>
-
-Aspects to consider when [managing an account](/handbook/sales-process/account_management).
-
-### Licences <a name="licenses"></a>
-
-Everything about [licenses and EE access](/handbook/sales-process/licenses).
-
 ### Export Control Classification, and Countries We Do Not Do Business In <a name="export-control"></a>
 
 GitLab's Export Control Classification (or ECCN) is 5D002.c.1.
@@ -244,37 +212,19 @@ to a country listed in [Country Group E:1 in Supplement No. 1 to part 740 of the
 As a consequence of this classification, we currently do not do business in:
 Iran, Sudan (excluding South Sudan), Syria, North Korea, and Cuba.
 
-### Sales Automation Flow (Lead to Customer) <a name="automation"></a>
+### Other Pages in Sales Handbook <a name="pages"></a>
 
-Please see <a href="https://about.gitlab.com/handbook/marketing/demand-generation/">Demand Generation</a>.
+[Sales Onboarding](https://about.gitlab.com/handbook/sales-onboarding/)
 
-### GitLab Version Check <a name="version_check"></a>
+[Sales Training](https://about.gitlab.com/handbook/sales-training/)
 
-Everything about [GitLab Version Check](/handbook/sales-process/version_check).
+[GitLab Positioning](https://about.gitlab.com/handbook/positioning-faq/)
 
-### Helpful Links <a name="helpful"></a>
-1. [GitLab subscription page](https://about.gitlab.com/subscription/)
+[How to manage deals](/handbook/sales-process/deal_management_process)
 
-1. [GitLab HA page](https://about.gitlab.com/high-availability/)
+[Managing an account](/handbook/sales-process/account_management)
 
-1. [EE repo members](https://gitlab.com/subscribers/gitlab-ee/team)
+Everything about [licenses and EE access](/handbook/sales-process/licenses)
 
-1. [Standard subscribers list](https://gitlab.com/groups/standard/members)
+[GitLab University](https://about.gitlab.com/university/)
 
-1. [GitLab CE issues list](https://gitlab.com/gitlab-org/gitlab-ce/issues)
-
-1. [GitLab.com support forum](https://gitlab.com/gitlab-com/support-forum/issues)
-
-1. [GitLab feedback tracker](http://feedback.gitlab.com/forums/176466-general)
-
-1. [GitLab documentation](http://doc.gitlab.com/)
-
-1. [Offer for university students](https://about.gitlab.com/2014/05/19/students-now-free/)
-
-1. [YouTube page](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg)
-
-1. [GitLab architecture for noobs (office analogy)](https://dev.gitlab.org/gitlab/gitlabhq/blob/master/doc/development/architecture.md)
-
-1. [GitLab flow](https://about.gitlab.com/2014/09/29/gitlab-flow/)
-
-1. [Free GitLab workshop on Platzi (Job as trainer)](https://courses.platzi.com/courses/git-gitlab/)

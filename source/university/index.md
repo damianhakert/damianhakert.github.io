@@ -101,7 +101,8 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
 
 1. Scalability and High Availability
     - [Recording 2015-12-03](https://www.youtube.com/watch?v=cXRMJJb6sp4&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=2)
-
+    - [High Availability Documentation](https://about.gitlab.com/high-availability/)
+    
 1. Managing LDAP, Active Directory
     - [Recording of what it is and how to set it up](https://www.youtube.com/watch?v=HPMjM-14qa8)
 
@@ -192,6 +193,7 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
 #### Other
 
 * [GitLab documentation](http://doc.gitlab.com/)
+* [GitLab architecture for noobs](https://dev.gitlab.org/gitlab/gitlabhq/blob/master/doc/development/architecture.md)
 * [Innersourcing article](https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/)
 * [Platzi training course](https://courses.platzi.com/courses/git-gitlab/)
 * [Sales Onboarding materials](https://about.gitlab.com/handbook/sales-onboarding/)
