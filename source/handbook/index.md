@@ -196,7 +196,9 @@ people. We try to hire people who think work is a great way to express themselve
 1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [operations](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues.
 1. Pick issues from the current [milestone](https://gitlab.com/groups/gitlab-org/milestones).
 1. We try not to assign issues to people but to have people **pick issues** in a milestone themselves.
-1. Assign an issue to yourself as soon as you start to work on it, but not before that time.
+1. Assign an issue to yourself as soon as you start to work on it, but not before 
+that time. If you complete part of an issue and need someone else to take the next 
+step, **re-assign** the issue to that person.
 1. We keep our **promises** and do not make external promises without internal agreement.
 1. Even when something is not done, share it internally so people can comment early and prevent rework. Mark the merge request **[Work In Progress](https://about.gitlab.com/2016/01/08/feature-highlight-wip/)** so it is not merged by accident.
 1. When you create a merge request, **mention** the issue(s) that it solves in the description. If any followup actions are required on the issue after the merge request is merged, like reporting back to any customers or writing documentation, avoid auto closing it by saying `Fixes #1` or `Closes #1`.
