@@ -32,8 +32,9 @@ Please search for similar proposals before posting your own.
 
 ## Reference
 * [GitLab CE documentation](http://doc.gitlab.com/ce/): information about the functionality in GitLab for users, administrators and developers.
-* [GitLab application documentation](https://about.gitlab.com/documentation/): Documentation for all GitLab applications
+* [GitLab documentation](https://about.gitlab.com/documentation/) contails links to documentation for all GitLab applications
 * [The GitLab Cookbook](https://www.packtpub.com/application-development/gitlab-cookbook): written by core team member Jeroen van Baarsen, it is the most comprehensive book about GitLab.
+* [Learn Enough Git to Be Dangerous by Michael Hartl](http://www.learnenough.com/git-tutorial) is a great introduction to version control and git.
 * Version two of the [Pro Git book](http://git-scm.com/book/en/v2) has a [section about GitLab.](http://git-scm.com/book/en/v2/Git-on-the-Server-GitLab)
 * O'Reilly Media 'Git for teams' [book](http://shop.oreilly.com/product/0636920034520.do) has a chapter on GitLab, there are also [videos](http://shop.oreilly.com/product/0636920034872.do?code=WKGTVD) about Git and GitLab. They also provide a [free video about creating a GitLab account](http://player.oreilly.com/videos/9781491912003?toc_id=194077).
 * [GitLab Youtube Channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg): the place where you can see video's of features and installation options.
@@ -42,4 +43,5 @@ Please search for similar proposals before posting your own.
 * [The issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) lists errors and bugs people are experiencing. Please read the [contributing guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#issue-tracker) before posting on the Issue tracker.
 
 ## Security
-* Our [responsible disclosure page](https://about.gitlab.com/disclosure/) describes how to contact GitLab to report security vulnerabilities and other security information.
+* [The responsible disclosure page](https://about.gitlab.com/disclosure/) describes how to contact GitLab to report security vulnerabilities and other security information.
+* [The security section in the documentation](http://doc.gitlab.com/ce/security/README.html) lists what you can do to further secure your GitLab instance.
