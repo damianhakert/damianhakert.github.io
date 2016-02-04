@@ -12,12 +12,18 @@ enterprises move to Git and build better software.
 ## Why work for GitLab?
 
 GitLab is growing fast.
-Working for GitLab means joining a very productive, ambitious team, where independence and flexibility are both valued and required.
-Your work will directly have a large impact on the present and future of GitLab. We like to spend our time on things that matter.
-We are a [remote first company](https://about.gitlab.com/2015/04/08/the-remote-manifesto/) and you can work from wherever you want.
-For more background please see our [about page](https://about.gitlab.com/about/), our [culture page](https://about.gitlab.com/culture/), and our [handbook](https://about.gitlab.com/handbook/).
+Working for GitLab means joining a very productive, ambitious team, where independence 
+and flexibility are both valued and required.
+Your work will directly have a large impact on the present and future of GitLab. 
+We like to spend our time on things that matter.
+We are a [remote first company](https://about.gitlab.com/2015/04/08/the-remote-manifesto/) 
+and you can work from wherever you want.
+For more background please see our [about page](https://about.gitlab.com/about/), 
+our [culture page](https://about.gitlab.com/culture/), and our [handbook](https://about.gitlab.com/handbook/).
 
-If you see yourself as a good fit with our company’s goals and team, then please review the current job openings on this page, and submit your resume and cover letter to be considered!
+If you see yourself as a good fit with our company’s goals and team, then please 
+review the current job openings on this page, and submit your resume and cover 
+letter to be considered!
 
 <div style="text-align: center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/UTyXGx965Os" frameborder="0" allowfullscreen></iframe>
@@ -30,6 +36,15 @@ If you see yourself as a good fit with our company’s goals and team, then plea
 ### Developer
 * [Description](https://about.gitlab.com/jobs/developer/)
 * [Apply](https://gitlab.workable.com/jobs/106660)
+* A note on the technical interview: As part of our interviewing process, you may 
+be asked to pick an issue from the GitLab CE issue tracker, and code 'live' with 
+the interviewer there to talk with and collaborate with. We do this because we 
+believe that it is the best way for you to see what the work is really like, and 
+for our [interviewer to see how you think, code, and collaborate](http://zachholman.com/posts/startup-interviewing-is-fucked/#collaborate). 
+When contributing code, you should follow the [Contribution guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md), 
+and you agree to the [individual contributor license agreement](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/legal/individual_contributor_license_agreement.md). 
+This is a voluntary part of the interviewing process, and you are welcome to suggest 
+an alternative that would be able to lead to the same insights.
 
 ### Developer Evangelist
 
