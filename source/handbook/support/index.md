@@ -121,7 +121,7 @@ Please refer to the priority as listed under [GitLab Workflow in the handbook](h
 For issues specific to GitLab.com that have nothing to do with availability we have the
 [Support Forum](https://gitlab.com/gitlab-com/support-forum/issues). This forum must also be checked periodically
 for new issues and to report back if an issue has been solved. Some people use this forum to report issues they
-are having with their on-premise installation. In that case, you should refer them to the
+are having with their on-premises installation. In that case, you should refer them to the
 [CE issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) or to our
 [Getting Help](https://about.gitlab.com/getting-help/) page, depending on the issue they are having.
 

@@ -17,12 +17,12 @@ Companies using [GitLab EE](https://about.gitlab.com/features/#enterprise) still
 
 ## What is Git LFS?
 
-Git LFS uses reference pointers within small text files to point to large files stored on the GitLab servers for GitLab.com, or on your own servers for our on-premise offerings, GitLab CE and EE. Large files such as high resolution images and videos, audio files, and assets can be called from a remote server.
+Git LFS uses reference pointers within small text files to point to large files stored on the GitLab servers for GitLab.com, or on your own servers for our on-premises offerings, GitLab CE and EE. Large files such as high resolution images and videos, audio files, and assets can be called from a remote server.
 
 This allows for Git users to bypass the size restrictions previously given for repositories. The general recommendation has been to not allow Git repositories larger than 1GB to preserve performance and decrease the chances of performance issues.
 
 ## How do I get started using Git LFS?
 
-Git LFS is already running on GitLab.com. To update your on-premise version of GitLab EE or CE, simply update your [installation to 8.2](https://about.gitlab.com/downloads/). To learn more about Git LFS, take a look at our [documentation](http://doc.gitlab.com/ce/workflow/lfs/manage_large_binaries_with_git_lfs.html).
+Git LFS is already running on GitLab.com. To update your on-premises version of GitLab EE or CE, simply update your [installation to 8.2](https://about.gitlab.com/downloads/). To learn more about Git LFS, take a look at our [documentation](http://doc.gitlab.com/ce/workflow/lfs/manage_large_binaries_with_git_lfs.html).
 
 Don’t miss the other great features from [yesterday’s release](https://about.gitlab.com/2015/11/22/gitlab-8-2-released/) like repository mirroring, award emoji, and more. As always, thanks everyone in the community, both inside the company and out, for helping with this release. If you have any comments or questions, please feel free to comment directly on this post.

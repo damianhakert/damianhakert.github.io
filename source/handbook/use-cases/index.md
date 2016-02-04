@@ -46,7 +46,7 @@ title: "Customer Use-Cases"
     * Placeholder to add another story
 1. Access to your server and security 
     * A customer in the banking industry had security as their number one 
-    concern. An on-premise solution like GitLab EE is exactly what they needed
+    concern. An on-premises solution like GitLab EE is exactly what they needed
     as it allowed them to have access to their own server, view log files, and 
     they could also install additional software like intrusion dectection. Since
     GitLab EE also comes with Audit Events, they could have a history and view 

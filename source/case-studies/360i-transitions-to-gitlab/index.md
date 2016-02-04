@@ -13,7 +13,7 @@ Keith Harris, associate director and the person in charge with software architec
 second, the storage requirements were getting heftier and heftier.
 
 ### GitLab is the chosen alternative
-When Keith started looking for alternatives to SVN, he had to balance internal team preferences with management requirements. The team had always wanted to move to Git, but they also wanted a user-friendly interface to help their workflows. From a managerial standpoint, having an on-premise installation was mandatory so as to respect third-party agreements. Keith himself was a supporter of open-source software.
+When Keith started looking for alternatives to SVN, he had to balance internal team preferences with management requirements. The team had always wanted to move to Git, but they also wanted a user-friendly interface to help their workflows. From a managerial standpoint, having an on-premises installation was mandatory so as to respect third-party agreements. Keith himself was a supporter of open-source software.
 
 Bringing together the wishes of all parties involved, Keith decided to start testing GitLab, to see if it was easy enough for him to maintain and for the developers to use. He soon gained confidence in the stability of his GitLab installation, so he is running it on the bleeding edge now.
 
@@ -29,6 +29,6 @@ The implementation also opens long-term opportunities. GitLab is versatile and u
 
 ### Learning points
 The experience of introducing GitLab at 360i leads to several key learning points:
- - the on-premise installation is a big advantage for companies that need to keep sensitive information in-house;
+ - the on-premises installation is a big advantage for companies that need to keep sensitive information in-house;
  - keeping to centralized version control systems has two drawbacks: not only does it create frustration in the team, but it also makes it harder for the company to keep and attract new talent;
  - GitLab makes developers happy on two counts: first, it makes it easy for them to collaborate in writing code, and second, it also allows them to dig into the source code, learn best practices, and perform customizations.

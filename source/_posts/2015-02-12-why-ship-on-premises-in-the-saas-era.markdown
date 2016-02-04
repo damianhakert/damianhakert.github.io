@@ -18,9 +18,9 @@ around since the late 90's it wasn't until the [second half of the last
 decade](http://en.wikipedia.org/wiki/Comparison_of_source_code_software_hosting_facilities) that 3rd party code hosting became more acceptable, especially
 among SME's. There's been a [proliferation of providers](http://blog.profitbricks.com/top-source-code-repository-hosts/) in the space since.
 
-The advantages of SaaS over on-premise deployments has been written
+The advantages of SaaS over on-premises deployments has been written
 about ad nauseam and there's certainly good reasons why but let's take
-a moment to highlight some of the reasons why on-premise is not such a
+a moment to highlight some of the reasons why on-premises is not such a
 bad idea after all.
 
 <!-- more -->
@@ -76,15 +76,15 @@ degradation making on-prem servers more conducive to big code bases.
 On-premises deployments can be installed on physical servers,
 virtualized servers (dedicated or shared), purpose-built appliances and
 virtualized appliances. These aren't available with hosted solutions.
-Likewise, most on-premise servers can be deployed on a variety of
-operating systems and there's more choice of on-prem solutions in
+Likewise, most on-premises servers can be deployed on a variety of
+operating systems and there's more choice of on-premises solutions in
 general.
 
 ## Retrieval
-Getting your IP back from cloud vendors that store data in proprietary formats can be a costly and lengthy process. No such trouble with on-premise.
+Getting your IP back from cloud vendors that store data in proprietary formats can be a costly and lengthy process. No such trouble with on-premises.
 
 ## Conclusion
 Although there's plenty of good reasons for using a hosted solution,
-the advantages of on-premise deployments should not be overlooked.
-GitLab is the most adopted on-premise solution for developer
+the advantages of on-premises deployments should not be overlooked.
+GitLab is the most adopted on-premises solution for developer
 collaboration, deployed at over 100,000 organizations worldwide.
