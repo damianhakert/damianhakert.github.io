@@ -42,7 +42,6 @@ The CE and EE to the right of the version number link to all planned issues for 
 
 - [CI Autoscale](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/318)
 - [GitLab Pages gets CNAME and SSL support](https://gitlab.com/gitlab-org/gitlab-ee/issues/134)
-- [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
 - [GitLab Geo for readonly secondary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
 - [Todo's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2425)
 - [HA Omnibus packages (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
@@ -54,6 +53,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 
 ### 8.6 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/22) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/8) March 22nd
 
+- [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
 - [CI Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
 - [External users](https://gitlab.com/gitlab-org/gitlab-ce/issues/4009)
 - [Push to a remote repository (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/116)
