@@ -36,6 +36,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Internal Communication](#internal-communication)
    * [GitLab Workflow](#gitlab-workflow)
    * [Team Call](#team-call)
+   * [Scheduling Calls](#scheduling-calls)
    * [User Communication Guidelines](#user-communication-guidelines)
    * [Writing Style Guidelines](#writing-style-guidelines)
    * [Beamy Guidelines](#beamy-guidelines)
@@ -253,6 +254,22 @@ people. We try to hire people who think work is a great way to express themselve
 1. If you use headers properly format them (`##` in Markdown, "Heading 2" in Google docs), start at the second header level because header level 1 is for titles, do not end headers with a colon.
 1. Always use an [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma) in lists of three or more terms.
 1. Read our [Documentation Styleguide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc_styleguide.md) for more information when writing documentation.
+
+### Scheduling Calls<a name="scheduling-calls"></a>
+
+1. Set up a [Calendly](https://calendly.com/) account and link it to your
+work calendar to make it possible for people to schedule a call with you
+1. Add your Calendly link to your [Slack profile](https://get.slack.help/hc/en-us/articles/204092246-Editing-your-profile)
+For `Display Text`, use this line: `Schedule a meeting with me!`
+1. To schedule a 1:1 call with someone in GitLab, simply click their Calendly
+link in their Slack profile
+1. For people outside of GitLab Inc, send them your Calendly link
+1. If you're often talking to people outside of GitLab Inc,
+add a custom field to your Calendly asking people how you can reach them
+(Hangouts / Skype)
+1. To schedule a call with multiple people, invite them using Google Calendar.
+Use your own agenda on one specific to the people joining, so the calendar item
+doesn't unnecessarily appear on other people's calendars
 
 ### Beamy Guidelines<a name="beamy-guidelines"></a>
 
