@@ -29,10 +29,10 @@ letter to be considered!
   <iframe width="560" height="315" src="https://www.youtube.com/embed/UTyXGx965Os" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## We don't work with recruiters<a href="no-recruiters"></a>
+## We don't work with recruiters<a name="no-recruiters"></a>
 
 We do not accept solicitation by recruiters, recruiting agencies and outsourcing organizations.
-If you email us we'll reply [a link to this paragraph](https://about.gitlab.com/jobs/#no-recruiters) to indicate we would appreciate it if you stop emailing us.
+If you email us we'll reply with [a link to this paragraph](https://about.gitlab.com/jobs/#no-recruiters) to indicate we would appreciate it if you stop emailing us.
 
 ## Available Openings
 
