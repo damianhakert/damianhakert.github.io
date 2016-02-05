@@ -18,7 +18,8 @@ We're excited about 2016!
 
 ![GitLab 2015 Retrospective Infographic](/images/blogimages/gitlab-2015-recap-infographic.png)
 
-We've included some details about our mascot, the Tanuki, a raccoon-dog from Japan.
+We've included some details about our mascot, the Tanuki,
+a raccoon-dog from Japan.
 Sometimes our mascot is confused for a fox.
 But we think [2016](http://nymag.com/following/2016/01/everyones-crazy-about-this-japanese-raccoon-dog.html)
 is
