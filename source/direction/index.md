@@ -127,8 +127,8 @@ We very much welcome contributions that implement any of these things.
 
 ### Version Control for Everything
 
-- [In-picture-comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
 - [Distributed code-reviews and issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/4084)
+- [Render PSD files](https://gitlab.com/gitlab-org/gitlab-ce/issues/13189)
 
 ### Performance
 
