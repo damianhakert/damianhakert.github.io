@@ -45,9 +45,9 @@ Current state
 3. Lead is assigned based on current account owner.
 4. If no current account owner, Emily handles.
 
-## Incoming lead flow
+## Inbound Lead Flow
 
-1. Lead comes into BDR team via one of the named Incoming Lead routes above.
+1. Lead comes into BDR team via one of the named Inbound Lead routes above.
 2. Lead is input into Marketo.
 3. Lead is assigned according to assignment rules.
 4. If region is EMEA, lead goes directly to EMEA BDR team.
@@ -57,15 +57,22 @@ Current state
 
 ## Lead qualification process
 
-1. Soft-BANT is used to determine if a lead should be passed to sales. Once determined, BDR team passes all leads to sales for followup via Salesforce assignment and email notification.
-2. If 2 of the 4 elements of BANT are met (budget, authority, need, timeline), BDR team will determine account owner and pass lead.
-3. If further qualification is needed to understand Soft-BANT requirements, BDR team will email or schedule a phone call with lead to understand their project and initiatives.
-4. If Soft-BANT isn't met and there are questions, BDR team will answer all questions or route to support.
-5. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
-6. If a lead is from a Fortune 500 company, it will be automatically assigned to a senior account manager.
-7. If a lead is an existing customer or a prospect that's owned/operated by an existing customer, BDR team will determine account owner and pass lead.
-8. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
+1. Unless a specific request is made, provide a useful resource that will help the person have a better GitLab experience. 
+2. Soft-BANT is used to determine if a lead should be passed to sales or recommended CE resources. Once determined, BDR team passes all leads to sales for followup via Salesforce assignment and email notification.
+3. If 2 of the 4 elements of BANT are met (budget, authority, need, timeline), BDR team will determine account owner and pass lead.
+4. If further qualification is needed to understand Soft-BANT requirements, BDR team will email or schedule a phone call with lead to understand their project and initiatives.
+5. If Soft-BANT isn't met and there are questions, BDR team will answer all questions or route to support.
+6. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
+7. If a lead is from a Fortune 500 company, it will be automatically assigned to a senior account manager.
+8. If a lead is an existing customer or a prospect that's owned/operated by an existing customer, BDR team will determine account owner and pass lead.
+9. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
 
+## Soft-BANT
+
+- Budget => Does the person work at a company that could afford GitLab (i.e. has revenue or funding)?
+- Authority => Can the person influence a purchase decision?
+- Need => Is there a legitimate use for GitLab at the company (i.e. multiple developers, etc.)?
+- Timeline => Is the solution needed in the next few weeks or months? If they have another solution, are they looking to replace?
 
 ## What counts as an SQL or MQL?
 1. SQL is any lead passed to the Sales team from the BDR team that has met the qualification process requirements above.
@@ -74,7 +81,16 @@ Current state
 
 ## Lead status
 
-Coming this week.
+- Raw => Newly synced lead from Marketo to SFDC
+- Open => Lead not yet contacted
+- Attempt 1 => One message sent
+- Attempt 2 => Two messages sent
+- Attempt 3 => Three messages sent
+- Attempt 4 => Four messages sent
+- Qualified => Soft-BANT criteria met. Action: convert to Contact and introduce to sales team.
+- Progressing => Communication is two-way. Soft-BANT still undetermined.
+- Unqualified => Soft-BANT criteria not met (e.g. a developer using GitLab for personal projects, a student, etc.). Action: send appropriate resources if requested; avoid sending salesy messages.
+- Bad Data => Invalid email address. Note: only mark as bad data if there is no communication channel. For example, a lead who provide "Spam Spamson" as their name but still provided a valid email address is not Bad Data.
 
 ## Nurture campaign process
 
