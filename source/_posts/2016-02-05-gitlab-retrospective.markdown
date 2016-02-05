@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2015 was a great year at GitLab"
+title: "2015 was a great year at GitLab!"
 date: 2016-02-05
 comments: true
 categories:
@@ -16,7 +16,7 @@ We’ve put together an infographic detailing our growth.
 
 We're excited about 2016!
 
-![GitLab 2015 Retrospective Infographic](/images/blogimages/gitlab-2015-recap-infographic.png)
+![GitLab 2015 Retrospective Infographic](/images/blogimages/gitlab-2015-recap-infographic-awesome.png)
 
 We've included some details about our mascot, the Tanuki,
 a raccoon-dog from Japan.
