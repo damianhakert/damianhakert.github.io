@@ -71,7 +71,7 @@ GoToWebinar doesn't send out a Google calendar friendly invite
 
 - Clone the last campaign
 
-Connect the webcast campaign to Gotowebinar. Webcast > Event Settings > Event partner
+- Connect the webcast campaign to Gotowebinar. Webcast > Event Settings > Event partner
 
 - Correct version number and invitation date and details for assets:
 
@@ -79,7 +79,10 @@ Connect the webcast campaign to Gotowebinar. Webcast > Event Settings > Event pa
 
     -   The confirmation email
 
-- Update the hero form
+- Update the hero form on the landing page to the correct form.
+
+- Final check: If the lightbulb is not "on" (yellow), then it's not doing anything.
+Check the smart list and flow first. To activate - Click the "registered" smart campaign -> "Schedule" tab -> "Activate" button
 
 #### Promote
 
