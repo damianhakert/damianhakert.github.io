@@ -48,6 +48,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Discretionary Bonuses](#discretionary-bonuses)
    * [Referral Bonuses](#referral-bonuses)
    * [Work Remotely Travel Grant](#travel-grant)
+   * [Deceased Employee Compensation](#deceased-employee)
 * [Signing Legal Documents](#signing-legal-documents)
 * [Using Git to update this website](#starting-with-git)
 
@@ -429,6 +430,11 @@ As an example, the first grant was handed to a team member who will be
 traveling to 6 team members in different countries during 6 months, and this
 team member will receive the maximum grant of $2,000.
 
+### Deceased Employee Compensation<a name="deceased-employee"></a>
+
+In the unfortunate event that a GitLab employee passes away, GitLab will 
+provide a $10,000 lump sum to anyone of your choosing. This can be a spouse,
+partner, family member, friend, or charity.
 
 ## Signing Legal Documents<a name="signing-legal-documents"></a>
 
