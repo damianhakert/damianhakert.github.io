@@ -99,7 +99,6 @@ We very much welcome contributions that implement any of these things.
 
 ### Usability
 
-- [Show commits behind/ahead on branch overview page](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/1716)
 - [See all forked projects of one project](https://gitlab.com/gitlab-org/gitlab-ce/issues/2406)
 - [Email actions](https://gitlab.com/gitlab-org/gitlab-ce/issues/4273)
 - [Improved emails on push](https://gitlab.com/gitlab-org/gitlab-ee/issues/146)
