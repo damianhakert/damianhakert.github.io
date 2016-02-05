@@ -83,10 +83,10 @@ Current state
 
 - Raw => Newly synced lead from Marketo to SFDC
 - Open => Lead not yet contacted
-- Attempt 1 => One message sent
-- Attempt 2 => Two messages sent
-- Attempt 3 => Three messages sent
-- Attempt 4 => Four messages sent
+- Attempt 1 => One message sent without response
+- Attempt 2 => Two messages sent without response
+- Attempt 3 => Three messages sent without response
+- Attempt 4 => Four messages sent without response
 - Qualified => Soft-BANT criteria met. Action: convert to Contact and introduce to sales team.
 - Progressing => Communication is two-way. Soft-BANT still undetermined.
 - Unqualified => Soft-BANT criteria not met (e.g. a developer using GitLab for personal projects, a student, etc.). Action: send appropriate resources if requested; avoid sending salesy messages.
