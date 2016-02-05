@@ -36,15 +36,18 @@ Our GitLab CE project was accepted as a Rails Girls Summer of Code project.
 We’re really excited to get involved.
 If you have any questions please contact us about the project.
 
-## Community sponsorship
+## Local sponsorship
 
-In other news, we are sponsoring events which have a great impact.
+In other news, we are sponsoring events which have a great impact at a local level.
+It's part of our strategy to reach out to underserved regions which have less
+access to funding. Since we're a distributed company, it also means we can send colleagues to participate in these events.
 
 - [TechParty - 2016](http://techparty.faccat.br/)  April 25 - 28, 2016.
 
 If you would like us to sponsor your next event, please check out
-our [community sponsorship program](sponsorship).
+our [community sponsorship program](sponsorship). You can also see
+[where our team](team) is if you want to connect to someone in your local region.
 
-
+[team]: https://about.gitlab.com/team/
 [sponsorship]:https://about.gitlab.com/community/sponsorship
 [diversity]: https://about.gitlab.com/2016/02/02/gitlab-diversity-sponsorship/
