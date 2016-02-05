@@ -72,7 +72,7 @@ Current state
 - Budget => Does the person work at a company that could afford GitLab (i.e. has revenue or funding)?
 - Authority => Can the person influence a purchase decision?
 - Need => Is there a legitimate use for GitLab at the company (i.e. multiple developers, etc.)?
-- Timeline => Is the solution needed in the next few weeks or months? If they have another solution, are they looking to replace?
+- Timeline => Are they willing to continue communicating about GitLab in the next few weeks? If they have another solution, are they looking to replace in the next few weeks or months?
 
 ## What counts as an SQL or MQL?
 1. SQL is any lead passed to the Sales team from the BDR team that has met the qualification process requirements above.
