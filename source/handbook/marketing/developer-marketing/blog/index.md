@@ -18,8 +18,8 @@ We ensure there is a weekly blog post. We also want to bring in voices from all 
 
 ### Product-specific topics
 
-- Tutorials on using GitLab, GitLab CI, etc. 
-- Feature highlights bring attention to specific features at GitLab. 
+- Tutorials on using GitLab, GitLab CI, etc.
+- Feature highlights bring attention to specific features at GitLab.
 
 ### User Stories
 
@@ -32,7 +32,8 @@ We ensure there is a weekly blog post. We also want to bring in voices from all 
 
 ## Community contributions
 
-We are developing a program to invite paid contribution by GitLab community members. Coming soon!
+We are developing a program to invite paid contribution by GitLab community members.
+Read more about the [Community Writers](https://about.gitlab.com/community/writers) program.
 
 ## Blog post backlog
 
@@ -40,4 +41,14 @@ We are developing a program to invite paid contribution by GitLab community memb
 - Anything that is assigned to a person in 'in progress'
 - Anything that has a non-WIP MR is ready for review
 
+## <a name="checklist"></a>Blog post publishing checklist
 
+Before you write, make sure you're on a new branch cloned from master.
+Check these before you publish:
+
+- First instance of GitLab should be linked to [GitLab](http://about.gitlab.com)
+- Check all links.
+- Check the date on the file.
+- Check the date in the post.
+- Check the image is crunched down. Use [tinypng](tinypng.com).
+- Check the blog appears good locally.
