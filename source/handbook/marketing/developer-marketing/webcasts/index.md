@@ -70,10 +70,15 @@ GoToWebinar doesn't send out a Google calendar friendly invite
 #### Create the program in Marketo
 
 - Clone the last campaign
+
 Connect the webcast campaign to Gotowebinar. Webcast > Event Settings > Event partner
-- Correct version number and invitation date and details
-      - The landing page
-      - The confirmation email
+
+- Correct version number and invitation date and details for assets:
+
+    -   The landing page
+
+    -   The confirmation email
+
 - Update the hero form
 
 #### Promote
@@ -89,10 +94,11 @@ Connect the webcast campaign to Gotowebinar. Webcast > Event Settings > Event pa
 - Conduct a sound check and sharing check for anyone who will present.
 - Organizers and Panelists are listed in the "Staff" tab and they can mute and unmute attendees, and see questions sent to the Panelists, etc.
 
-Ending the webcast
+## After the webcast
 
 - Process the recording as .mov
-- Upload to YouTube
+- Upload to YouTube and slides to Speakerdeck
+- Blog post to share the recording and slides
 
 
 ### <a name="view"></a>Viewing webcasts
