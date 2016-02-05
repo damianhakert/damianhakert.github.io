@@ -88,9 +88,10 @@ Current state
 - Attempt 3 => Three messages sent without response
 - Attempt 4 => Four messages sent without response
 - Qualified => Soft-BANT criteria met. Action: convert to Contact and introduce to sales team.
-- Progressing => Communication is two-way. Soft-BANT still undetermined.
+- Progressing => Communication is two-way, but Soft-BANT still undetermined. Any response that doesn't immediately put the lead into "Qualified", "Unqualified", or "Nurture" status should put the lead in this status.
 - Unqualified => Soft-BANT criteria not met (e.g. a developer using GitLab for personal projects, a student, etc.). Action: send appropriate resources if requested; avoid sending salesy messages.
 - Bad Data => Invalid email address. Note: only mark as bad data if there is no communication channel. For example, a lead who provide "Spam Spamson" as their name but still provided a valid email address is not Bad Data.
+- Nurture => May become "Qualified" in the future, but communication is closed. Will receive useful marketing emails.
 
 ## Nurture campaign process
 
