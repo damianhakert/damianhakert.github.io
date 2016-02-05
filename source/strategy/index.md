@@ -25,7 +25,7 @@ We believe that all digital products should be open to contributions, from legal
 
 1. Ensure that **everyone can contribute** in the 5 ways outlined above.
 
-2. Become most used software for the software developerment lifecycle and collaboration on all digital content.
+2. Become most used software for the software development lifecycle and collaboration on all digital content.
 
 3. Complete our product vision of an [opinionated and integrated set of tools based on convention over configuration that offers superior user experience](https://about.gitlab.com/direction/).
 
