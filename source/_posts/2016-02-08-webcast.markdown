@@ -1,0 +1,37 @@
+---
+layout: post
+title: "Join us for a tour of GitLab 8.5"
+date: 2016-02-08
+comments: true
+author: Heather McNamee
+author_twitter: nearlythere
+image_title: '/images/unsplash/party.jpg'
+---
+
+[Join us for a live webcast](webcast) on
+Thursday, February 25th to get a guided tour of GitLab 8.5.  
+
+Can't make it at that time? That's OK! Register anyway and we'll send you the link.
+
+<!-- more -->
+
+
+## A walk-through tour
+
+Job van der Voort, our VP of Product, will give you a guided tour of the
+features of GitLab 8.5.
+
+Are you curious what is coming next?
+You can also go straight to our [Direction page](direction).
+Here are some more tips on [How to see into the future](future) at Gitlab,
+and how you can track progress on the project.
+
+## See you on the webcast!
+
+We hope to see you there, Thursday, February 25 at 5pm (17:00) UTC; 12pm EST; 9am PST.
+
+<a class="btn btn-primary" href="http://page.gitlab.com/Feb252016Webcast_LandingPage.html" role="button">Register Now</a>
+
+[future]:https://about.gitlab.com/2016/01/05/future-direction-gitlab/
+[direction]:https://about.gitlab.com/direction/
+[webcast]:http://page.gitlab.com/Feb252016Webcast_LandingPage.html
