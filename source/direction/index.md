@@ -71,21 +71,18 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [Subscribe to a Label](https://gitlab.com/gitlab-org/gitlab-ce/issues/12743)
 - [Subscribe to new Issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/12758)
 
-### Upcoming
-
-Things we'd like to see in upcoming releases of GitLab, but haven't been
-given a formal place yet.
-
-- [Project / Repo templates](https://gitlab.com/gitlab-org/gitlab-ce/issues/3785)
-- [Award emoji in comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3655)
-- [Comment on Images in Diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
-- [Mailing list functionality](https://gitlab.com/gitlab-org/gitlab-ce/issues/4272)
-
 ## Wishlist
 
 Below are features we'd really like to see in GitLab.
 This list is not prioritized.
 We very much welcome contributions that implement any of these things.
+
+### Next to plan.
+
+- [Project / Repo templates](https://gitlab.com/gitlab-org/gitlab-ce/issues/3785)
+- [Award emoji in comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3655)
+- [Comment on Images in Diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
+- [Mailing list functionality](https://gitlab.com/gitlab-org/gitlab-ce/issues/4272)
 
 ### Major Wins
 
