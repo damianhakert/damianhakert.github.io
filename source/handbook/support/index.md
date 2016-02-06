@@ -14,6 +14,13 @@ title: Support
 A [service engineer](/jobs/service-engineer) handles the following channels.
 They are sorted in order of priority.
 
+## Dashboard from ZenDesk Insights
+(Requires login for gitlab.zendesk.com to view)
+
+<iframe frameborder="0" src="https://analytics.zendesk.com/dashboard.html#project=/gdc/projects/fan67iacybmx4rawsd6jcipe01ouaxvt&dashboard=/gdc/md/fan67iacybmx4rawsd6jcipe01ouaxvt/obj/47957&nochrome=true" width="100%" height="275px" allowTransparency="false"></iframe>
+
+
+
 ## Emergency Tickets
 
 When an emergency ticket comes in, it triggers a [PagerDuty](https://gitlab.pagerduty.com) incident. All
@@ -160,4 +167,3 @@ You can also consider hanging out on IRC to answer questions and help people (#g
 ## Monitoring
 
 We're working on [piping all named channels into ZenDesk and monitoring the response time for each](https://dev.gitlab.org/gitlab/organization/issues/497).
-
