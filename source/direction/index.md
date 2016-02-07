@@ -132,6 +132,7 @@ We very much welcome contributions that implement any of these things.
 - [Handle errors before they give a 500](https://gitlab.com/gitlab-org/gitlab-ce/issues/4665)
 - [Get rid of the large authorized keys (SSH) file](https://gitlab.com/gitlab-org/gitlab-git-http-server/issues/2#note_1983654)
 - [Participants table](https://gitlab.com/gitlab-org/gitlab-ce/issues/3965)
+- [Reduce memory leaks](https://gitlab.com/gitlab-org/gitlab-ce/issues/13241)
 
 ### CI
 
