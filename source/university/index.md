@@ -22,7 +22,14 @@ please submit a merge request to add an upcoming class, assign to [Chad](https:/
 
 ### Adding classes
 
-To view or modify the slides of the classes use [Deckset](http://www.decksetapp.com/).
+1. All training materials of any kind should be added to this repository and the /university page to ensure they are available to a broad audidence (don't use any other repo or storage for training materials).
+1. Don't make materials that are needlessly specific to one group of people, try to keep the wording broad and inclusive (don't make things for only GitLab Inc. people, only interns, only customers, etc.).
+1. To allow people to contribute to them all content should be in git.
+1. The content can go in a subdirectory under /university
+1. Please link your materials from this page, either under 'Non sales bootcamp classes' or 'Other'
+1. To make, view or modify the slides of the classes use [Deckset](http://www.decksetapp.com/) or [RevealJS](http://lab.hakim.se/reveal-js/), do not use Powerpoint or Google Slides since this prevents everyone from contributing.
+1. Please upload any video recordings to our Youtube channel, we prefer them to be public, if needed they can be unlisted but if so they should be linked from this page.
+1. Please create a merge request and assign to [Job](https://gitlab.com/u/JobV).
 
 ### Recordings
 
