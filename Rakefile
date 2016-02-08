@@ -427,7 +427,7 @@ task :clean do
 end
 
 desc "Build website in #{BUILD_DIR}"
-task :build => [:clean, :release_list, :generate, :pdfs]
+task :build => [:clean, :release_list, :direction_issues, :generate, :pdfs]
 
 rule %r{^public/.*\.pdf} => [->(f) { f.pathmap('%X.html') }] do |pdf|
   # Rewrite the generated HTML a bit, fix relative image links for pandoc
