@@ -50,7 +50,11 @@ quickly rejected as 'won't work' or 'not interested' without much explanation."
     Having a rapid release cycle contributes to increasing quality over time being able to iterate faster. For
     particular concerns in an individual issue, please raise your concerns in the
     issue. Because GitLab has gotten very popular the absolute amount of bugs might be increasing.
-    But to individual users it feels like we've "[been squashing bugs and releasing features rapidly while also decreasing the number of regressions introduced and improving their test suit across the board](https://news.ycombinator.com/item?id=11039966)". Obviously quality is and will always be a top concern, espacially code quality since that enables better testing, faster fixes, and more contributions.
+    But to individual users it feels like we've "[been squashing bugs and releasing 
+    features rapidly while also decreasing the number of regressions introduced and 
+    improving their test suit across the board](https://news.ycombinator.com/item?id=11039966)". 
+    Obviously quality is and will always be a top concern, especially code quality 
+    since that enables better testing, faster fixes, and more contributions.
 
 #### "What do you like about working here?"
 
