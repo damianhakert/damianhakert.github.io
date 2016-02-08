@@ -50,10 +50,23 @@ there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @emily, and @tiffani
 * [ ] People Ops: Give team member access to the GitLab availability calendar.
 * [ ] People Ops: Invite to team meeting.
 * [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment.
-* [ ] People Ops: Assign buddy and explain to buddy what that means: "What it
-means is that if she/he has questions she/he can come to you. But your main job
-as a buddy will be to direct her/him to the right parts of the handbook, and/or
-encourage her/him to ask her/his questions of the wider group on Slack, etc."  
+
+*For developers only*
+
+* [ ] Development Lead: Assign developer buddy and explain to buddy what that means:
+"During their first month, you will help them get oriented and pick the first 
+few issues to work on, do a preliminary review of their merge requests, 
+and give quick feedback on their performance.
+It also means that if they have questions they can come to you, but when appropriate
+try to direct them to the right parts of the handbook, or
+encourage them to ask their questions of the wider group on Slack, etc."
+
+*For non-developers*
+
+* [ ] People Ops: Assign buddy and explain to buddy what that means: 
+"It means that if they have questions they can come to you, but when appropriate
+try to direct them to the right parts of the handbook, or
+encourage them to ask their questions of the wider group on Slack, etc."  
 
 *For GitLab Inc employees only*  
 
