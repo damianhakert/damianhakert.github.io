@@ -33,7 +33,7 @@ class GitLabProject
    def milestones
      result = @instance.call("/projects/#{@id}/milestones")
      result = result.select { |ms| ms["state"] != "closed" }
-     puts "testing #{ms}"
+     puts "testing \n #{result.inspect}"
      result.sort_by { |ms| ms["title"] }
    end
 
