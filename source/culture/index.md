@@ -5,14 +5,14 @@ title: "GitLab Culture"
 
 ## Summits
 
-Approximately every 6-9 months, we gather in person to see what we look like in 3-D, and to
+Approximately every 6-9 months, we gather in person to see how tall everyone is (hard to see with video confercing), and to
 get to know each other better by working and 'playing' together. Here are some
  [Impressions from the Summit in Amsterdam, October 2015](https://about.gitlab.com/2015/11/30/gitlab-summit-2015/)
 
 
 ## Internal Feedback
 
-By sending out our Feedback Form (find the link to the "open" form by accessing 
+By sending out our Feedback Form (find the link to the "open" form by accessing
 [this "closed" document](https://docs.google.com/document/d/12ZAACGeS2_nz6AFXqf78x9iv2LB_hyX9fcT4s9nJF4M/edit) )
 we gather feedback from the team members anonymously. We then share the main highlights
 and concerns / wishes / things people wonder about with the entire team by discussing
@@ -45,11 +45,12 @@ quickly rejected as 'won't work' or 'not interested' without much explanation."
    request more explanation. This might lead to a fruitful discussion and a reconsideration.
  1. "Wish we had more time"/ "Wonder if sometimes we go too fast and should go slower
  to focus on quality and testing more"
-    * Having little time is inherent at a startup. Please make sure you take enough
+    * Please make sure you take enough
     [time off](https://about.gitlab.com/handbook/#paid-time-off) to recharge!
-    Having a rapid release cycle contributes to increasing quality over time. For
+    Having a rapid release cycle contributes to increasing quality over time being able to iterate faster. For
     particular concerns in an individual issue, please raise your concerns in the
-    issue.
+    issue. Because GitLab has gotten very popular the absolute amount of bugs might be increasing.
+    But to individual users it feels like we've "[been squashing bugs and releasing features rapidly while also decreasing the number of regressions introduced and improving their test suit across the board](https://news.ycombinator.com/item?id=11039966)". Obviously quality is and will always be a top concern, espacially code quality since that enables better testing, faster fixes, and more contributions.
 
 #### "What do you like about working here?"
 
