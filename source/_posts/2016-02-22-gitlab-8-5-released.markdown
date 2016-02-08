@@ -83,11 +83,21 @@ Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
+### Mattermost 1.5
+
+We're shipping Mattermost 1.5 with GitLab 8.5.
+Most notable of [many changes in this release](LINK), are a few features that
+are improving the way GitLab works with Mattermost.
+
+* GitLab SSO is now available in Mattermost iOS app. This is a breaking change and iOS app will no longer work on previous version of GitLab Mattermost
+*  Mattermost upgrade will now be able to skip 1 major build version. This means
+that you will be able to upgrade using package 8.3 to 8.5 without breaking
+Mattermost.
 
 ## Upgrade barometer
 
-A migration affecting projects having a path ending in '.atom' has been added, 
-as they are no longer supported. This migration updates both the database and 
+A migration affecting projects having a path ending in '.atom' has been added,
+as they are no longer supported. This migration updates both the database and
 the filesystem and previous versions of this migration have proven to be fragile.
 
 If you have no projects with paths ending in '.atom' in your database (most likely, you don't)
