@@ -14,14 +14,17 @@ title: Support
 A [service engineer](/jobs/service-engineer) handles the following channels.
 They are sorted in order of priority.
 
-## Dashboard from ZenDesk Insights
-(Requires login for gitlab.zendesk.com to view)  
-Or [click here for a direct link to the dashboard on ZenDesk](https://gitlab.zendesk.com/agent/reporting/analytics/period:0/dashboard:ag0kOtFSfbUf)
+## Dashboard
 
+The dasboard lists the activity for all out channels over the last 30 days.
+
+[ZenDesk Insight dashboard](https://gitlab.zendesk.com/agent/reporting/analytics/period:0/dashboard:ag0kOtFSfbUf)
+
+Or see the iframe below.
+This requires a valid session for the above link.
+Signing in on this page doesn't seem to work.
 
 <iframe frameborder="0" src="https://analytics.zendesk.com/dashboard.html#project=/gdc/projects/fan67iacybmx4rawsd6jcipe01ouaxvt&dashboard=/gdc/md/fan67iacybmx4rawsd6jcipe01ouaxvt/obj/47957&nochrome=true" width="100%" height="275px" allowTransparency="false"></iframe>
-
-
 
 ## Emergency Tickets
 
