@@ -5,7 +5,7 @@ date: 2016-02-10
 comments: true
 author: Sytse Sijbrandij
 author_twitter: sytses
-image_title: '/images/unsplash/moving-parts.jpg'
+image_title: '/images/unsplash/moving-parts2.jpg'
 ---
 
 We've just created and published our [Strategy document][strategy]
@@ -18,9 +18,10 @@ We also outlined our dedication to being a [a good open source steward][stewards
 
 Having our Strategy document in the open will help users understand why
 we make certain choices at GitLab, Inc.
-We can also be held accountable to these choices as well.
+We can be held accountable to these choices as well.
 
-Our prime objective is to ensure everyone can contribute.
+The Strategy document is comprehensive.
+Our prime objective is to *ensure that everyone can contribute*.
 We outline our set of assumptions and the constraints under which we operate.
 We include our tactical plans for 2016 for all aspects of our business.
 We want to share this with the entire Gitlab community so you know how
@@ -33,7 +34,7 @@ by learning about the driving forces behind our choices.
 
 Often users are left wondering and speculating why companies do certain things.
 We feel you have every right to know.
-From whom we partner with and the investment burden we take on,
+From what we prioritize and the investment burden we take on,
 to the initiatives we support and the incentives we give our team:
 All of these choices affect how GitLab operates and that, in turn, affects
 your experience as a user.
