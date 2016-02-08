@@ -54,6 +54,11 @@ an alternative that would be able to lead to the same insights.
 * [Description](https://about.gitlab.com/jobs/developer-evangelist/)
 * [Apply](https://gitlab.workable.com/jobs/128446/candidates/new)
 
+### Product Marketing Manager
+
+* [Description](https://about.gitlab.com/jobs/product-marketing-manager/)
+* [Apply](https://gitlab.workable.com/jobs/202183/candidates/new)
+
 ### Service Engineer
 
 * [Description](https://about.gitlab.com/jobs/service-engineer/)
