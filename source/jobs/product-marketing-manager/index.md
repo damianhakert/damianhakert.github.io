@@ -3,9 +3,9 @@ layout: markdown_page
 title: "Product Marketing Manager"
 ---
 As Product Marketing Manager, there are three key areas of focus for this role:
-* Monthly release management
-* Sales enablement 
-* Market research
+* Monthly release management  
+* Sales enablement   
+* Market research  
 
 
 ## Responsibilities
