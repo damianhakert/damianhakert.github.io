@@ -24,7 +24,7 @@ The Strategy document is comprehensive.
 Our prime objective is to *ensure that everyone can contribute*.
 We outline our set of assumptions and the constraints under which we operate.
 We include our tactical plans for 2016 for all aspects of our business.
-We want to share this with the entire Gitlab community so you know how
+We want to share this with the entire GitLab community so you know how
 and why important decisions are being made.
 
 We think having our Strategy in the open will make it better for users and it will make
