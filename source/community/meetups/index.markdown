@@ -20,10 +20,12 @@ of collaborating, communicating and deploying with GitLab.
 - [San Francisco - GitLab Meetup Group - ](http://www.meetup.com/GitLab-Meetup-Group/)
 - [Dutch - GitLab Meetup Group](http://www.meetup.com/Dutch-GitLab-Meetup-Group/)
 
-If you'd like to help us connect with the community, tell us if you would like to
+If you'd like to help us connect with the community, tell us if you would like to:
 
 - Become a GitLab Meet-up Organizer
 - Or - Host a GitLab-themed meet-up within your own software community
+
+Email community at GitLab.com and include "Meetup" in the subject line.
 
 ## Meetup in a box!
 
