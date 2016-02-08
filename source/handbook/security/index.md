@@ -12,7 +12,8 @@ title: Security Handbook
 1. Use 1Password to [generate strong passwords] for any new accounts.
 1. When signing up for a new service ask yourself which team members you need to
    **share access** with. If the service has a built-in way of creating other
-   user accounts, use that. If not, then store your credentials in an
+   user accounts, use that and keep your credentials to yourself by storing them in 'Your Vault'.
+   If not, then store your credentials in an
    appropriate company 1Password vault so that your colleagues can sign in using
    your credentials.
 1. Do not share credentials via email, issue comments, chat etc. This includes
