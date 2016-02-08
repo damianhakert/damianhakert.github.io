@@ -2,8 +2,8 @@
 layout: markdown_page
 title: "Product Marketing Manager"
 ---
-As Product Marketing Manager, there are three key areas of focus for this role:
-* Monthly release management  
+As Product Marketing Manager, there are three key areas of focus for this role:  
+* Monthly release management    
 * Sales enablement   
 * Market research  
 
@@ -24,6 +24,5 @@ As Product Marketing Manager, there are three key areas of focus for this role:
 * Technical background or clear understanding of developer products.
 * 3-5 years of experience in developer product marketing. 
 * Able to coordinate across many teams and perform in fast-moving startup environment. 
-* Is your college degree in french foreign politics with a minor in interpretive dance but you’ve been hacking together websites since you were 12? Perfect. We understand that your college degree isn’t the only thing that prepares you as a potential job candidate.
 * Excellent spoken and written English
 * Work remotely from anywhere in the world (Curious to see what that looks like? Check out our remote manifesto!)
