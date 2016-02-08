@@ -147,27 +147,69 @@ people. We try to hire people who think work is a great way to express themselve
 
 ### Internal Communication<a name="internal-communication"></a>
 
-1. All written communication happens in English, even when sent one on one, because sometimes you need to forward an email or chat.
-1. Use **asynchronous communication** when possible (issues and email instead of chat), issues are preferred over email, email is preferred over chat.
-1. It is very OK to ask as many questions as you have, but ask them so many people can answer them and many people see the answer (so use issues or public chat channels instead of private messages or one-on-one emails) and make sure you try to document the answers.
-1. If you have to use email please send one email per subject as multiple items in one email will cause delays (have to respond to everything) or misses (forgot one of the items).
-1. If you mention something (a merge request, issue, commit, webpage, comment, etc.) please include a link to it.
-1. Always reply to emails, even when no action is needed. This lets the other person know that you received it. A thread is done when there is a single word reply, such as OK, thanks, or done.
-1. If you forward an email without other comments please add FYI (for your information) or FYA (for your action).
-1. If you want to be added or removed from an internal email alias (e.g. `sales@gitlab.com`) please see the [GitLab Email Forwarding doc](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#).
-1. If you use Slack, please use a public channel whenever possible, mention the person you want to reach if it is urgent. This ensures it is easy for other people to chime in, and easy to involve other people, if needed.
-1. If you agree in a chat to start a video call (typically by asking 'call?') the person that didn't leave the last comment starts the call. So either respond to the 'call?' request with a video link or say 'yes' and let the other person start it. Don't say 'yes' and start a call 5 seconds later since it is likely you'll both be creating a video call link at the same time.
-1. All company data should be **shareable** by default. Don't use a local text file but leave comments on an issue. Create Google docs with your company Google Apps account. By default share Google docs with the whole company 'anyone at GitLab can find and access' with edit (preferred) or comment access for everyone. An easy way to do this, is to create your Google docs in a Shared Folder in Google Drive.
-1. All our procedures and templates are stored in (mostly public) git repositories instead of Google/Word documents. This makes them easier to find and suggest changes to with the organization and shows our commitment to open collaboration outside the organization.
-1. Use FYI (for your information) and /cc if you want to inform people but it does not require an action, use FYA (for your action) if an action of the recipient is required.
-1. Use video calls if you find yourself going back and forth in an issue/via email or over chat.
-1. Having pets, children, significant others, friends and family visible during video chats is encouraged. If they are humans, ask them to wave at your remote team member to say 'Hi'.
-1. Email forwarding rules are specified in [a Google Doc accessible to people in the company](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit), if you want to change a rule or add a forwarding email alias, please [make a suggestion](https://support.google.com/docs/answer/6033474?hl=en) in the document.
-1. Emails are asynchronous, for example if your manager emails you on a weekend it is fine to reply during the workweek.
-1. If an email is or has become urgent feel free to ping people via chat referencing the subject of the email.
-1. Thank people that did a great job in our 'Thanks' chat channel. If someone is an employee just "@" mention them. If multiple people were working on something try mentioning each person by "@" name. 'Thanks everyone' does not say much. If someone is not an employee mention our office manager, their name, a quirky gift and link to their work. For example: _"@sytse Joe deserves a lawnmower for LINK"_. The office manager will approach the people for their address saying we want to send some swag. We'll ship it in gift wrap with "Thanks for your great work on LINK, love from @gitlab". Don't thank the CEO or other executives for something that the company paid for, thank GitLab instead.
-1. If there is something that you want to discuss, but you do not feel that it is a
-reasonable option to discuss with either your manager or CEO, then you can reach
+1. All written communication happens in English, even when sent one on one, 
+because sometimes you need to forward an email or chat.
+1. Use **asynchronous communication** when possible (issues and email instead of 
+chat), issues are preferred over email, email is preferred over chat.
+1. It is very OK to ask as many questions as you have, but ask them so many 
+people can answer them and many people see the answer (so use issues or public 
+chat channels instead of private messages or one-on-one emails) and make sure 
+you try to document the answers.
+1. If you have to use email please send one email per subject as multiple items 
+in one email will cause delays (have to respond to everything) or misses (forgot 
+one of the items).
+1. If you mention something (a merge request, issue, commit, webpage, comment, 
+etc.) please include a link to it.
+1. Always reply to emails, even when no action is needed. This lets the other 
+person know that you received it. A thread is done when there is a single word 
+reply, such as OK, thanks, or done.
+1. If you forward an email without other comments please add FYI (for your 
+information) or FYA (for your action).
+1. If you want to create, or be added or removed from an internal email alias (e.g. 
+`sales@gitlab.com`) please see the [GitLab Email Forwarding doc](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#). 
+1. If you use Slack, please use a public channel whenever possible, mention the 
+person you want to reach if it is urgent. This ensures it is easy for other people 
+to chime in, and easy to involve other people, if needed.
+1. If you agree in a chat to start a video call (typically by asking 'call?') 
+the person that didn't leave the last comment starts the call. So either respond 
+to the 'call?' request with a video link or say 'yes' and let the other person 
+start it. Don't say 'yes' and start a call 5 seconds later since it is likely 
+you'll both be creating a video call link at the same time.
+1. All company data should be **shareable** by default. Don't use a local text 
+file but leave comments on an issue. Create Google docs with your company Google 
+Apps account. By default share Google docs with the whole company 'anyone at 
+GitLab can find and access' with edit (preferred) or comment access for everyone. 
+An easy way to do this, is to create your Google docs in a Shared Folder in 
+Google Drive.
+1. All our procedures and templates are stored in (mostly public) git repositories 
+instead of Google/Word documents. This makes them easier to find and suggest 
+changes to with the organization and shows our commitment to open collaboration 
+outside the organization.
+1. Use FYI (for your information) and /cc if you want to inform people but it 
+does not require an action, use FYA (for your action) if an action of the recipient 
+is required.
+1. Use video calls if you find yourself going back and forth in an issue/via email 
+or over chat.
+1. Having pets, children, significant others, friends and family visible during 
+video chats is encouraged. If they are humans, ask them to wave at your remote 
+team member to say 'Hi'.
+1. Email forwarding rules are specified in [a Google Doc accessible to people in 
+the company](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit), if you want to change a rule or add a forwarding email alias, please [make a suggestion](https://support.google.com/docs/answer/6033474?hl=en) in the document.
+1. Emails are asynchronous, for example if your manager emails you on a weekend 
+it is fine to reply during the workweek.
+1. If an email is or has become urgent feel free to ping people via chat referencing 
+the subject of the email.
+1. Thank people that did a great job in our 'Thanks' chat channel. If someone is 
+an employee just "@" mention them. If multiple people were working on something 
+try mentioning each person by "@" name. 'Thanks everyone' does not say much. If 
+someone is not an employee mention our office manager, their name, a quirky gift 
+and link to their work. For example: _"@sytse Joe deserves a lawnmower for LINK"_. 
+The office manager will approach the people for their address saying we want to send 
+some swag. We'll ship it in gift wrap with "Thanks for your great work on LINK, love 
+from @gitlab". Don't thank the CEO or other executives for something that the company 
+paid for, thank GitLab instead.
+1. If there is something that you want to discuss, but you do not feel that it is 
+a reasonable option to discuss with either your manager or CEO, then you can reach
 out to any of the other C-level team members or our board member Bruce Armstrong.
 
 ### Scheduling
