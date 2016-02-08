@@ -81,7 +81,7 @@ Google Hangouts.
 ## Security disclosures
 
 We have a [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/).
-These emails go into ZenDesk.
+These emails go into ZenDesk and get an autoresponser that says: "Thank you for your responsible disclosure of a potential GitLab vulnerability. We should follow up with you the next business day."
 Please be very patient with these reports.
 Do not say 'there is no problem', you might be misunderstanding something leading to a 0 day disclosure.
 Give examples and keep asking questions until you understand the problem or the researcher concludes there is no problem.
