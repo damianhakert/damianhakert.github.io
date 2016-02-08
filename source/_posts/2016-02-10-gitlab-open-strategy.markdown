@@ -26,6 +26,11 @@ We include our tactical plans for 2016 for all aspects of our business.
 We want to share this with the entire Gitlab community so you know how
 and why important decisions are being made.
 
+We think having our Strategy in the open will make it better for users and it will make
+the product better.
+We will get more feedback and potential team members can self-select
+by learning about the driving forces behind our choices.
+
 Often users are left wondering and speculating why companies do certain things.
 We feel you have every right to know.
 From whom we partner with and the investment burden we take on,
@@ -34,7 +39,8 @@ All of these choices affect how GitLab operates and that, in turn, affects
 your experience as a user.
 
 Please do read our [Strategy document][strategy], and as always,
-your feedback is welcomed.
+everyone can contribute.
+Merge requests to suggest improvements to the Strategy document are welcome.
 
 [stewardship]: https://about.gitlab.com/2016/01/11/being-a-good-open-source-steward/
 [direction]: https://about.gitlab.com/direction/
