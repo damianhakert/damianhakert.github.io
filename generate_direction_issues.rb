@@ -67,6 +67,8 @@ end
 
 desc 'Generate Direction Page Issue List'
 task :direction_issues do
+  puts 'Generating direction page..'
+
   com = GitLabInstance.new('https://gitlab.com', PRIVATE_TOKEN, 'GitLab.com')
 
   ce = GitLabProject.new('gitlab-org%2Fgitlab-ce',com)
