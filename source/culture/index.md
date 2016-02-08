@@ -5,14 +5,15 @@ title: "GitLab Culture"
 
 ## Summits
 
-Every now and then, we gather in person to see what we look like in 3-D, and to
+Approximately every 6-9 months, we gather in person to see what we look like in 3-D, and to
 get to know each other better by working and 'playing' together. Here are some
  [Impressions from the Summit in Amsterdam, October 2015](https://about.gitlab.com/2015/11/30/gitlab-summit-2015/)
 
 
 ## Internal Feedback
 
-By sending out our [Friday Feedback Form](https://docs.google.com/a/gitlab.com/forms/d/1hkdmloQqcr1BLXJWQAK3twlTZiK7cNZm6KCuUoIm9kg/viewform)
+By sending out our Feedback Form (find the link to the "open" form by accessing 
+[this "closed" document](https://docs.google.com/document/d/12ZAACGeS2_nz6AFXqf78x9iv2LB_hyX9fcT4s9nJF4M/edit) )
 we gather feedback from the team members anonymously. We then share the main highlights
 and concerns / wishes / things people wonder about with the entire team by discussing
 them during our [Team Call](https://about.gitlab.com/handbook/#team-call) and posting
