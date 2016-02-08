@@ -46,7 +46,8 @@ title: "Hiring"
 
 1. Confirm application: applicants should receive confirmation of their application, thanking them for submitting their information. This is an automated message from Workable. If the person came though another channel please add them to Workable before continuing the process. TODO How to do this.
 1. Ask more information if needed: if information is missing and the applicant seems sufficiently promising (or not enough information to be able to make that determination), the appropriate person from the hiring team should follow up requesting additional information.
-1. Screening call:
+1. Hiring manager does a first round of rejections
+1. Screening call (see below)
 1. Technical interview (optional): As described on the [Jobs](https://about.gitlab.com/jobs/) page, certain positions
 require [technical interviews](https://about.gitlab.com/jobs/#technical-interview).
 1. Manager interview (see below for questions)
@@ -73,6 +74,8 @@ Questions are:
 1. What is your experience with X? (do for each of the skills asked in the job description)
 1. How do they feel about working remotely and do they have experience with it?
 1. Compensation expectation and compensation in current/last job.
+
+[An example of the output of a good screening call](https://gitlab.workable.com/backend/jobs/128446/browser/applied/candidate/7604850) (need workable account).
 
 At the end of the screening call applicant should be told what the timeline is for what the next steps are (if any).
 An example message would be "We are reviewing applications through the end of next week, and will let you know by the end of two weeks from today whether you've been selected for the next round or not. Please feel free to ping us if you haven't heard anything from us by then."
