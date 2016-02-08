@@ -83,16 +83,31 @@ Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
+### Updates in the omnibus-gitlab package
+
+As GitLab gets improved every release, so is the omnibus-gitlab package.
+You can see the changes that package receives for every release it the
+[omnibus-gitlab CHANGELOG](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/CHANGELOG.md).
+
+This release there are some major changes in the bundled software:
+
+* Ruby is updated from version 2.1.8 to 2.2.4
+* Nginx is updated from version 1.7.12 to 1.9.10
+* Nginx spdy protocol was replaced with http2
+* Openssl is updated from version 1.0.1r to 1.0.2f
+
 ### Mattermost 1.5
 
 We're shipping Mattermost 1.5 with GitLab 8.5.
 Most notable of [many changes in this release](LINK), are a few features that
 are improving the way GitLab works with Mattermost.
 
-* GitLab SSO is now available in Mattermost iOS app. This is a breaking change and iOS app will no longer work on previous version of GitLab Mattermost
+* GitLab SSO is now available in Mattermost iOS app. This is a breaking change
+and iOS app will no longer work on previous version of GitLab Mattermost
 *  Mattermost upgrade will now be able to skip 1 major build version. This means
 that you will be able to upgrade using package 8.3 to 8.5 without breaking
 Mattermost.
+
 
 ## Upgrade barometer
 
