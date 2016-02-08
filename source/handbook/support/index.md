@@ -15,7 +15,9 @@ A [service engineer](/jobs/service-engineer) handles the following channels.
 They are sorted in order of priority.
 
 ## Dashboard from ZenDesk Insights
-(Requires login for gitlab.zendesk.com to view)
+(Requires login for gitlab.zendesk.com to view)  
+Or [click here for a direct link to the dashboard on ZenDesk](https://gitlab.zendesk.com/agent/reporting/analytics/period:0/dashboard:ag0kOtFSfbUf)
+
 
 <iframe frameborder="0" src="https://analytics.zendesk.com/dashboard.html#project=/gdc/projects/fan67iacybmx4rawsd6jcipe01ouaxvt&dashboard=/gdc/md/fan67iacybmx4rawsd6jcipe01ouaxvt/obj/47957&nochrome=true" width="100%" height="275px" allowTransparency="false"></iframe>
 

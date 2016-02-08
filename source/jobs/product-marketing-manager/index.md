@@ -2,14 +2,27 @@
 layout: markdown_page
 title: "Product Marketing Manager"
 ---
+As Product Marketing Manager, there are three key areas of focus for this role:  
+* Monthly release management    
+* Sales enablement   
+* Market research  
+
 
 ## Responsibilities
 
-* Manage monthly release post (lots of technical details and input from many teams required)
-* Work with product and engineering to write feature highlights
-* Work help technical writing and engineering to write documentation.
+* Manage monthly release post with key understaind of technical details and ability to gather input from many people.
 * Create sales enablement materials like white-papers and case studies.
-* Website copy for the redesign of the website and copy for release
-* Market and competitive research collaborate with other product people on what to build next
-* Work with engineering and design on creating new ways to market (graphics or animations explaining complex new features)
-* Manage expectations about upcoming features => some features are not shipped on time, this is normal, but marketing, sales, community have to be aware of this.
+* Conduct market research to understand buyer personas, competitive landscape, and other data to help influence marketing, sales, and product decisions.  
+* Work with product and engineering to write feature highlights in addition to the monthly release post.
+* Help technical writing and engineering to write documentation.
+* Create positioning and copy for the website. Make sure the website is updated in all appropriate areas at release time. 
+* Work with engineering and design on creating new ways to market products or releases. For examples, infographics or animations explaining complex new features.
+* Manage expectations and timelines about upcoming features.
+
+## Requirements
+
+* Technical background or clear understanding of developer products.
+* 3-5 years of experience in developer product marketing. 
+* Able to coordinate across many teams and perform in fast-moving startup environment. 
+* Excellent spoken and written English
+* Work remotely from anywhere in the world (Curious to see what that looks like? Check out our remote manifesto!)
