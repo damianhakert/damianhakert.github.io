@@ -26,20 +26,32 @@ Each year GitLab sponsors a number of large events in Europe and North America a
 
 All applications will be reviewed by our team. Our highest priority in selecting events to support is to reach the greatest number of people and grow the open source GitLab community.
 
-1.  Events or intiatives which foster diversity, especially in underserved regions and communities.
-2.  Events or intiatives which help mentor young people in finding a path to software development fluency.
+1.  Events or initiatives which foster diversity, especially in underserved regions and communities.
+2.  Events or initiatives which help mentor young people in finding a path to software development fluency.
 3.  Events where our users meet, such as GitLab meetups.
 
 We would like to sponsor events related to issues and solutions that GitLab users face every day, such as DevOps, open source and collaboration. If you think you have an event where people would like to get to know more about GitLab and our community, please do contact us. We certainly haven't thought of everything.
 
 ### A special grant for Diversity events
 
-In February 2016, [we announced a $500 USD grant](https://about.gitlab.com/2016/02/02/gitlab-diversity-sponsorship/) for ALL events which promote diversity in technology. Yep, all events which help increase diversity in technology fields. You will automatically receive the grant if you meet the criteria. We're focusing on regions outside of New York and the Bay Area because these are well-served by existing programs.
+In February 2016, [we announced a $500 USD grant](https://about.gitlab.com/2016/02/02/gitlab-diversity-sponsorship/) for ALL events which promote diversity in technology.
+Yep, all events which help increase diversity in technology fields.
+You will automatically receive the grant if you meet the criteria.
+We're focusing on regions outside of New York and the Bay Area because these
+areas are already well-served by existing programs.
 
 What are the criteria?
 
 *   An event which aims to increase participation from underrepresented groups in its local region.
 *   An event outside of NYC or Bay Area.
+
+Why is fostering diversity important?
+
+As if the moral imperative and ethical rationale was not enough,
+there are also practical advantages to fostering diversity.
+These events help increase the potential pool of talent to work at GitLab.
+Research has also proven that more diversity is better for business in almost
+every aspect. ([McKinsey, 2015](http://www.mckinsey.com/insights/organization/why_diversity_matters))
 
 ### A grant for open science
 
