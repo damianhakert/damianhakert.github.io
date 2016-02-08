@@ -8,7 +8,7 @@ author_twitter: nearlythere
 image_title: '/images/unsplash/party.jpg'
 ---
 
-[Join us for a live webcast][http://page.gitlab.com/Feb252016Webcast_LandingPage.html] on
+[Join us for a live webcast](http://page.gitlab.com/Feb252016Webcast_LandingPage.html) on
 Thursday, February 25th to get a guided tour of GitLab 8.5.  
 
 Can't make it at that time? That's OK! Register anyway and we'll send you the link.
