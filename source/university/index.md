@@ -11,20 +11,30 @@ future. Today it's still pretty hard to master.
 GitLab University has as a goal to teach Git, GitLab and everything that relates
 to that to anyone willing to listen and participate.
 
-## Classes
+## Process
 
-If you would like to teach in one of them or participate or help in any way, please contact Job or submit a merge request.
+### Suggesting improvements
+
+If you would like to teach ca class or participate or help in any way please submit a merge request and assign it to [Job](https://gitlab.com/u/JobV).
 
 If you have suggestions for additional courses you would like to see,
-please submit a merge request to add an upcoming class, assign to Chad and /cc Job.
+please submit a merge request to add an upcoming class, assign to [Chad](https://gitlab.com/u/chadmalchow) and /cc [Job](https://gitlab.com/u/JobV).
+
+### Adding classes
 
 To view or modify the slides of the classes use [Deckset](http://www.decksetapp.com/).
 
+### Recordings
+
 There is a [YouTube playlist with all recordings](https://www.youtube.com/playlist?list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e).
 
-For GitLab team members only there is a university class every Thursday at 5PM UTC, send Job a message to sign up.
+### Webcasts
 
-To prepare new salespeople at GitLab, an intense 30 day program has been completed.  Each week there are learning goals and content to support the learning of the salesperson.  The goal of bootcamp is to have every salesperson prepared to help buyers navigate the purchase of GitLab EE. 
+For GitLab Inc. team members only there is a university class every Thursday at 5PM UTC, send Job a message to sign up.
+
+### Sales bootcamp week 1 to 3
+
+To prepare new salespeople at GitLab, an intense 30 day program has been completed.  Each week there are learning goals and content to support the learning of the salesperson.  The goal of bootcamp is to have every salesperson prepared to help buyers navigate the purchase of GitLab EE.
 
 ### Week 1 - Learning goal is to be able create a Group, Project, Issue and merge request.
 
@@ -44,7 +54,7 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
     - [Create a GitLab Account](https://courses.platzi.com/classes/git-gitlab/concepto/first-steps/create-an-account-on-gitlab/material/)
     - Supporting: [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 
-1. Add SHH key to GitLab 
+1. Add SHH key to GitLab
     - [Create and Add your SHH key to GitLab](https://www.youtube.com/watch?v=54mxyLo3Mqk)
 
 1. Repositories, Projects and Groups
@@ -102,7 +112,7 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
 1. Scalability and High Availability
     - [Recording 2015-12-03](https://www.youtube.com/watch?v=cXRMJJb6sp4&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=2)
     - [High Availability Documentation](https://about.gitlab.com/high-availability/)
-    
+
 1. Managing LDAP, Active Directory
     - [Recording of what it is and how to set it up](https://www.youtube.com/watch?v=HPMjM-14qa8)
 
@@ -142,7 +152,7 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
         * [Your Personal Dashboard](https://na34.salesforce.com/01Z61000000J0gx) This dashboard should be used to understand where you have been, where you are at, where are you going and do you have the pipeline to get to where you need to be.
         * [Accounts you Own](https://na34.salesforce.com/001?fcf=00B61000001XPLz) This view is to be used to identify expansion opportunities, who you have neglected and the mix of customers to prospects you are working
 
-### Supporting Learning Materials
+### Non sales bootcamp classes
 
 #### GitLab Wiki
 
