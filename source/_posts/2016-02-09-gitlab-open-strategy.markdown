@@ -13,7 +13,7 @@ to make our choices clear as they relate to our strategic objectives.
 
 <!-- more -->
 
-Previously, we opened up our [roadmap](direction) and our entire [employee handbook](handbook).
+Previously, we opened up our [roadmap][direction] and our entire [employee handbook][handbook].
 We also outlined our dedication to being [a good open source steward][stewardship].
 
 Having our Strategy document in the open will help users understand why
