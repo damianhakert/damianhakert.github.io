@@ -220,6 +220,8 @@ Iran, Sudan (excluding South Sudan), Syria, North Korea, and Cuba.
 
 [GitLab Positioning](https://about.gitlab.com/handbook/positioning-faq/)
 
+[Customer Reference Sheet](https://docs.google.com/spreadsheets/d/1Off9pVkc2krT90TyOEevmr4ZtTEmutMj8dLgCnIbhRs/edit#gid=0)
+
 [How to manage deals](/handbook/sales-process/deal_management_process)
 
 [Managing an account](/handbook/sales-process/account_management)
