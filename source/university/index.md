@@ -22,7 +22,8 @@ please submit a merge request to add an upcoming class, assign to [Chad](https:/
 
 ### Adding classes
 
-1. All training materials of any kind should be added to this repository and the /university page to ensure they are available to a broad audidence (don't use any other repo or storage for training materials).
+1. All training materials of any kind should be added to [the university repo](https://gitlab.com/gitlab-org/University) to ensure they are available to a broad audidence (don't use any other repo or storage for training materials).
+1. Please link any new materials from the /university page
 1. Don't make materials that are needlessly specific to one group of people, try to keep the wording broad and inclusive (don't make things for only GitLab Inc. people, only interns, only customers, etc.).
 1. To allow people to contribute to them all content should be in git.
 1. The content can go in a subdirectory under /university
