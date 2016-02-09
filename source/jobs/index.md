@@ -31,7 +31,7 @@ letter to be considered!
 
 ## We don't work with recruiters<a name="no-recruiters"></a>
 
-We do not accept solicitation by recruiters, recruiting agencies and outsourcing organizations.
+We do not accept solicitation by recruiters, recruiting agencies, headhunters and outsourcing organizations.
 If you email us we'll reply with [a link to this paragraph](https://about.gitlab.com/jobs/#no-recruiters) to indicate we would appreciate it if you stop emailing us.
 
 ## Available Openings
