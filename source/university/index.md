@@ -81,7 +81,7 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
     - [Recording 2015-11-05](https://www.youtube.com/watch?v=sXlhgPK1NTY&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=6)
     - [GitLab Ecosystem slides](https://docs.google.com/presentation/d/1vCU-NbZWz8NTNK8Vu3y4zGMAHb5DpC8PE5mHtw1PWfI/edit)
 
-1. - Understanding DevOps?
+1. Understanding DevOps?
     - [Understanding DevOps](https://youtu.be/HpZBnc07q9o)
     - [DevOps at IBM](https://www.youtube.com/user/IBMRational)
     - [DevOps Where To Start](https://www.youtube.com/watch?v=CSrKwP1QrjE)
