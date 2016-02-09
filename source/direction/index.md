@@ -61,6 +61,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [Performance monitoring (EE)](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1008)
 - [Merge even if master is updated](https://gitlab.com/gitlab-org/gitlab-ce/issues/3873)
 - [Acknowledge line comments on a MR](https://gitlab.com/gitlab-org/gitlab-ce/issues/10325)
+- [Get rid of default login credentials](Get rid of default login credentials)
 
 ### 8.7 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/23) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/9) April 22nd
 
