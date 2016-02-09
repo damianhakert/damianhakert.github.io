@@ -109,38 +109,42 @@ people. We try to hire people who think work is a great way to express themselve
 
 ## General Guidelines<a name="general-guidelines"></a>
 
-1. Working at GitLab Inc. is cooperating with the most talented people you've ever worked with, being the **most productive** you'll ever be, creating software that is helping the most people you've ever reached.
-1. We recognize that inspiration is perishable, if you’re **enthusiastic** about something that generates great results in relatively little time feel free to work on that.
+1. Working at GitLab Inc. is cooperating with the most talented people you've ever worked with, being the **most productive** you'll ever be, and creating software that is helping the most people you've ever reached.
+1. We recognize that inspiration is perishable, so if you’re **enthusiastic** about something that generates great results in relatively little time feel free to work on that.
 1. Do what is right for our **customers** and the rest of the GitLab community, do what is best over the long term, don't be evil.
 1. We create **simple** software to accomplish complex collaborative tasks.
 1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin colour, gender or sexual orientation.
 1. Use **inclusive** language. For example, prefer 'Hi everybody' or 'Hi people' to 'Hi guys'.
 1. Share problems you run into, ask for help, be forthcoming with information and **speak up**.
 1. Work out in the **open**, try to use public issue trackers and repositories when possible.
-1. Most things are public unless there is a reason not to, not public by default are: financial information, job applications/compensation/feedback and partnerships with other companies.
+1. Most things are **public** unless there is a reason not to, not public by default are: financial information, job applications/compensation/feedback and partnerships with other companies.
 1. Share solutions you find and answers you receive with the **whole community**.
+1. If you need to discuss with a team member for help please realize that probably the majority of the community also doesn't know, be sure to **document** the answer to radiate this information to the whole community. After the question is answered discuss where it should be documented and who will do it. You can remind other people of this by asking 'who will document this'?
 1. If you make a mistake, don't worry, correct it and **proactively** let the affected party, your team, and the CEO know what happened, how you corrected it and how, if needed, you changed the process to prevent future mistakes.
 1. You can always **refuse** to deal with people that treat you badly and get out of situations that make you feel uncomfortable.
-1. Everyone can **remind** anyone in the company about the above points. If there is a disagreement about the interpretations, the discussion can be escalated to more people within the company without repercussions.
+1. Everyone can **remind** anyone in the company about these guidelines. If there is a disagreement about the interpretations, the discussion can be escalated to more people within the company without repercussions.
 1. If you are unhappy with anything (your duties, your colleague, your boss, your salary, your location, your computer) please let your boss, or the CEO, know as soon as you realize it. We want to solve problems while they are **small**.
 1. We want to have a great company so if you meet people that are **better** than yourself try to recruit them to join the company.
-1. It is easier to bond with people that have the same constraints, compensate for this and recognize that sales is hard because you are dependent on another organization and development is hard because you have to preserve the ability to quickly improve the product in the future.
-1. Our strategy is detailed in the [GitLab Strategy document](https://docs.google.com/a/gitlab.com/document/d/1tco4-arhiA3V-XUJAkTtJ6zrfvT0OrUHtID2S1qVsXE/edit), please read it and contribute.
-1. There is no need for **consensus**, make sure that you give people that might have good insights a chance to respond (by /cc'ing them) but make a call yourself, [consensus doesn't scale](https://twitter.com/sama/status/585950222703992833).
-1. If you need to discuss with a team member for help please realize that probably the majority of the community also doesn't know, be sure to **document** the answer to radiate this information to the whole community. After the question is answered discuss where it should be documented and who will do it. You can remind other people of this by asking 'who will document this'?
-1. If you fix something for GitLab.com or one of our users make sure to make that the default (preferred) and radiate the information in the docs, we should run GitLab.com with the default settings and setup our users would also have.
-1. Be **specific** in your written communication, especially externally. Do not reply with a generalization when you can give an example.
-1. Be **kind** in your written communication, especially externally. Be constructive instead of argumentative, sarcastic or condescending. We're not all programmers but try to be inspired by the friendliness in the Ruby community of which the common maxim is the [MINASWAN motto](https://en.wikipedia.org/wiki/MINASWAN).
-1. Explicitly note what **next action** you propose or expect and from whom.
-1. When you reply to a request please do so after you have completed the request or indicate when you plan to do it. In the latter case always send a second message when the request is complete.
+1. Make a conscious effort to **recognize** the constraints of others within the team. For example, sales is hard because you are dependent on another organization, and Development is hard because you have to preserve the ability to quickly improve the product in the future.
+1. Our **strategy** is detailed on the [Strategy page](https://about.gitlab.com/strategy/), please read it and contribute.
+1. There is no need for **consensus**, make sure that you give people that might have good insights a chance to respond (by /cc'ing them) but make a call yourself because [consensus doesn't scale](https://twitter.com/sama/status/585950222703992833).
 1. Everyone at the company cares about your **output**. Being away from the keyboard during the workday, doing private browsing or making personal phone calls is fine and encouraged.
-1. We're a **distributed** company where people work remote without missing out, prefer communication in public issues and chat channels and ensure conclusions of offline conversations are written down.
-1. Everything is always in draft and subject to change, including this handbook. So do not delay documenting things and do not include draft in the titles of documents. Ensure everyone can read the current state, nothing will ever be finished.
+1. If you fix something for GitLab.com or one of our users make sure to make that the default (preferred) and **radiate** the information in the docs. We should run GitLab.com with the default settings and setup our users would also have.
+1. Everything is **always in draft** and subject to change, including this handbook. So do not delay documenting things and do not include draft in the titles of documents. Ensure everyone can read the current state, nothing will ever be finished.
 1. If you copy content please remove it at the origin place and replace it with a link to the new content. Duplicate content leads to updating it in the wrong place, keep it [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
+1. Explicitly note what **next action** you propose or expect and from whom.
+1. When you reply to a request please do so after you have completed the request or
+indicate when you plan to do it. In the latter case always send a second message
+when the request is complete.
 1. All guidelines in this handbook are meant to help, don't be afraid to do something because you can't oversee all guidelines, be gentle when reminding people about these guidelines, for example say: "It is not a problem, but next time please consider the following guideline from the handbook".
 
 ## Communication<a name="communication"></a>
 
+We're a **distributed**, **remote-first** company where people work remote without missing out.
+For this, we use **asynchronous communication** and are as open as we can be by communicating through public issues, chat channels,
+and placing an emphasis on ensuring that conclusions of offline conversations are written down.
+These communication guidelines are meant to facilitate smooth communication in an
+ever-growing remote-first company.
 
 ### Internal Communication<a name="internal-communication"></a>
 
