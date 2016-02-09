@@ -81,7 +81,7 @@ Google Hangouts.
 ## Security disclosures
 
 We have a [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/).
-These emails go into ZenDesk.
+These emails go into ZenDesk and get an autoresponder that says: "Thank you for your responsible disclosure of a potential GitLab vulnerability. We'll follow up with you within one business day."
 Please be very patient with these reports.
 Do not say 'there is no problem', you might be misunderstanding something leading to a 0 day disclosure.
 Give examples and keep asking questions until you understand the problem or the researcher concludes there is no problem.
@@ -162,9 +162,9 @@ Respond to questions on the [GitLab Mailing List](https://groups.google.com/foru
 
 The [GitLab Forum](https://forum.gitlab.com/).
 
-## StackOverflow
+## Stack Overflow
 
-The [StackOverflow tagged questions](http://stackoverflow.com/questions/tagged/gitlab) that relate to GitLab.
+The [Stack Overflow tagged questions](http://stackoverflow.com/questions/tagged/gitlab) that relate to GitLab.
 
 ## Non channel work
 
