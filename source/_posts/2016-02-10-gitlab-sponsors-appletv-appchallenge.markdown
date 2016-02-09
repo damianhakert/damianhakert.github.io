@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitLab Sponsors Apple TV App Challenge by Applovin"
-date: 2016-02-12
+date: 2016-02-10
 comments: true
 author: Ashley Smith
 author_twitter: theunquietone
