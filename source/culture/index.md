@@ -66,15 +66,6 @@ quickly rejected as 'won't work' or 'not interested' without much explanation."
    * Four people mentioned it specifically, and this one sums it up nicely: "Working
    on a product that I actually love to use".
 
-### Feedback from October 2015, and responses
-
-The results of this round of feedback gathering were shared internally by way of a
-presentation: ["Stuff the GitLab team likes and does not like"](https://docs.google.com/a/gitlab.com/presentation/d/1h9P8Vf_6fzPbLCCahvwtIF5j_cH54zsv9iRSseVZzl0/edit?usp=sharing)
-
-* [Impressions from the Summit in Amsterdam, October 2015](https://about.gitlab.com/2015/11/30/gitlab-summit-2015/)
-
-
-
 # Feedback from the GitLab team - September 2015
 
 ### _What we love about working at GitLab:_
