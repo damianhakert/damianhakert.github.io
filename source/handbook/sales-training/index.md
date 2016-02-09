@@ -532,21 +532,17 @@ This question is crucial. If this is the first time they’ve ever bought someth
 #### Your Buying Plan needs to have Process-Related Questions:
 
 1. Who’s responsible for buy-in?
+    * Knowing who will be impacted by using the product, where the budget will come from as well as impacted by the change in moving to GitLab is essential. 
+    * It is also just as important to identify and bring into the conversation any stakeholder who is or acted as a champion for a competitor. Find that person and get them on your side.
 
-Knowing who will be impacted by using the product, where the budget will come from as well as impacted by the change in moving to GitLab is essential. 
-It is also just as important to identify and bring into the conversation any stakeholder who is or acted as a champion for a competitor. Find that person and get them on your side.
+1. What are your biggest challenges to the purchase?
+    * Identify the roadblocks to purchase as soon as possible. This question will help you understand what still needs to be done.
 
-2. What are your biggest challenges to the purchase?
+1. What happens if you don't complete this purchase?
+    * Find out your prospect’s Plan B. It could be that they’re totally screwed if they don’t make this purchase, and asking them to envision that possibility will kickstart the sales process. It could also reveal that you’re in a competitive situation, in which case it’s time to reach out to a coach or champion and figure out where you stand.
 
-Identify the roadblocks to purchase as soon as possible. This question will help you understand what still needs to be done.
-
-3. What happens if you don't complete this purchase?
-
-Find out your prospect’s Plan B. It could be that they’re totally screwed if they don’t make this purchase, and asking them to envision that possibility will kickstart the sales process. It could also reveal that you’re in a competitive situation, in which case it’s time to reach out to a coach or champion and figure out where you stand.
-
-4. What’s your personal goal?
-
-Know whether my prospect has skin in the game. This informs you of the motivating levers you can pull to move the deal ahead and forces the prospect to revisit exactly why this deal is important to them. The closer you get to the end of a sales cycle, the higher the chance that your prospect will be fatigued. Refocusing them on the prize is crucial. 
+1. What’s your personal goal?
+    * Know whether my prospect has skin in the game. This informs you of the motivating levers you can pull to move the deal ahead and forces the prospect to revisit exactly why this deal is important to them. The closer you get to the end of a sales cycle, the higher the chance that your prospect will be fatigued. Refocusing them on the prize is crucial. 
 
 #### Now that you have created the Buying Plan, what to do after.
 
