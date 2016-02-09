@@ -17,19 +17,26 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 
 ### Week 2 Test
 1. [Ecosystem Test](http://goo.gl/forms/5Vrf3CE0iC)
-1. Record video, within TrainTool, giving a key value statement on why an organization would choose each of our 4 GitLab offerings.
-1. Record video, within TrainTool, why is GitLab better than GitHub
-1. Record video, within TrainTool, why is GitLab better than Subversion
-1. Record video, within TrainTool, why is GitLab better than Atlassian
-1. Record video, within TrainTool, why is GitLab better than Perforce
+1. Complete TrainTool Course - GitLab vs. The Competition
+1. Complete TrainTool Course - Jira Support
+1. Complete TrainTool Course - Selling EE to CE User
+1. Complete TrainTool Course - On-Premised vs. SaaS
 
 ### Week 3 Test
 1. [GitLab 8.2 Test](http://goo.gl/forms/9PnmhiNzEa) 
 1. [Big Files in Git Test](http://goo.gl/forms/RFsNK9fKuj) 
-1. Record replies to TrainTool pricing objection tests
+1. Complete TrainTool Course - Asking Effective Questions
+1. Complete TrainTool Course - Closing Techniques
+1. Complete TrainTool Course - Handling Pricing Objections
 1. Record a demo using WebEx and send to your manager and Chad Malchow.  Demo scenario is an organization with 500 seats who uses Jira and BitBucket for a few teams, subversion within a couple teams and GitLab CE is also installed.
 
 ### Week 4 test
+1. Create Fake Lead in Salesforce.  Lead First Name - Test; Lead Last Name - GitLab Bootcamp.  Company: GitLab Sales Bootcamp. Lead Source: Other
+1. Convert Lead into an opportunity and Account
+1. Ensure Opportunity follows naming convention process
+1. Add Opportunity Product to Opportunity.  Quantity 2 of 100 seat Standard, one year.
+1. Change close date to be 90 days out
+1. Opportunity Stage to presenting solution
 
 #### Supporting Information
 
