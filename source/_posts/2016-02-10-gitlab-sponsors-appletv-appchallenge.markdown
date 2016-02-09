@@ -8,7 +8,8 @@ author_twitter: theunquietone
 image_title: '/images/blogimages/applovin-app-challenge.jpg'
 ---
 
-Gitlab is proud to participate in the Apple TV App Challenge! Apps are the future of TV, and AppLovin aims to cultivate the nascent tvOS dev community.
+[Gitlab](https://about.gitlab.com) is proud to participate in the [Apple TV App Challenge](https://www.applovin.com/appchallenge)!
+Apps are the future of TV, and AppLovin aims to cultivate the nascent tvOS dev community.
 
 <!-- more -->
 
