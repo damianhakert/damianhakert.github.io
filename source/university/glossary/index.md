@@ -35,7 +35,7 @@ Version control for binaries.
 
 ### Artifacts
 
-*** Needs definition here
+objects (usually binary and large) created by a build process
 
 ### Atlassian
 
@@ -181,6 +181,10 @@ A web based hosting service for projects using Git. It was acquired by GitLab an
 
 High Availability
 
+### HADR
+
+Sometimes written HA/DR.  High Availability for Disaster Recovery.  Usually refers to a strategy having a failover server in place in case the main server fails.
+
 ### Hip Chat
 
 Atlassian's real time chat application for teams. Competitor to Slack, RocketChat and MatterMost.
@@ -207,7 +211,7 @@ A network authentication protocol that uses secret-key cryptography for security
 
 ### Labels
 
-*** Needs definition here
+An identifier to describe a group of one or more specific file revisions
 
 ### LDAP
 
@@ -304,7 +308,7 @@ This is the most powerful person on a GitLab project. He has the permissions of 
 
 ### Perforce
 
-*** Needs definition here
+The company that produces Helix.  A commercial, proprietary, centralised VCS well known for it's ability to version files of any size and type.  They OEM a re-branded version of GitLab called "GitSwarm" that is tightly integrated with their "GitFusion" product, which in turn represents a portion of a Helix repository (called a depot) as a git repo
 
 ### Phabricator
 
@@ -332,7 +336,7 @@ Git command to synchronize the local repository with the remote repository, by f
 
 ### Puppet
 
-*** Needs definition here
+A popular devops automation tool
 
 ### Push
 
@@ -340,7 +344,7 @@ Git command to send commits from the local repository to the remote repository.
 
 ### RE Read Only
 
-*** Needs definition here
+Permissions to see a file and it's contents, but not change it
 
 ### Rebase
 
@@ -372,13 +376,11 @@ Software as a service. Software is hosted centrally and accessed on-demand i.e. 
 
 ### SCM
 
-*** Needs definition here
+Software Configuration Management.  Often used by people when they mean Version Control 
 
 ### Slack
 
 Real time messaging app for teams. Used internally by  GitLab
-
-*** Needs definition here
 
 ### Slave Servers
 
