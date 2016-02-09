@@ -190,9 +190,6 @@ Google Drive.
 instead of Google/Word documents. This makes them easier to find and suggest
 changes to with the organization and shows our commitment to open collaboration
 outside the organization.
-1. Use FYI (for your information) and /cc if you want to inform people but it
-does not require an action, use FYA (for your action) if an action of the recipient
-is required.
 1. Use video calls if you find yourself going back and forth in an issue/via email
 or over chat.
 1. Having pets, children, significant others, friends and family visible during
