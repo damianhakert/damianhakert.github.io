@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitLab's Open Strategy"
-date: 2016-02-10
+date: 2016-02-09
 comments: true
 author: Sytse Sijbrandij
 author_twitter: sytses
@@ -14,7 +14,7 @@ to make our choices clear as they relate to our strategic objectives.
 <!-- more -->
 
 Previously, we opened up our [roadmap](direction) and our entire [employee handbook](handbook).
-We also outlined our dedication to being a [a good open source steward][stewardship].
+We also outlined our dedication to being [a good open source steward][stewardship].
 
 Having our Strategy document in the open will help users understand why
 we make certain choices at GitLab, Inc.
