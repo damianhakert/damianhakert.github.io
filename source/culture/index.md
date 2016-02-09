@@ -50,23 +50,78 @@ quickly rejected as 'won't work' or 'not interested' without much explanation."
     Having a rapid release cycle contributes to increasing quality over time being able to iterate faster. For
     particular concerns in an individual issue, please raise your concerns in the
     issue. Because GitLab has gotten very popular the absolute amount of bugs might be increasing.
-    But to individual users it feels like we've "[been squashing bugs and releasing 
-    features rapidly while also decreasing the number of regressions introduced and 
-    improving their test suit across the board](https://news.ycombinator.com/item?id=11039966)". 
-    Obviously quality is and will always be a top concern, especially code quality 
+    But to individual users it feels like we've "[been squashing bugs and releasing
+    features rapidly while also decreasing the number of regressions introduced and
+    improving their test suit across the board](https://news.ycombinator.com/item?id=11039966)".
+    Obviously quality is and will always be a top concern, especially code quality
     since that enables better testing, faster fixes, and more contributions.
 
 #### "What do you like about working here?"
 
 1. A lot of love for the team
-   * keywords people used to describe their fellow team members are: 'talented,
+   * Keywords people used to describe their fellow team members are: 'talented,
    caring, teamwork, approachable, honesty, frankness, smart, brilliant, skilled,
    team spirit'.
 1. Great product
    * Four people mentioned it specifically, and this one sums it up nicely: "Working
    on a product that I actually love to use".
 
-### Feedback from October 2015, and responses
+## Feedback from the GitLab team - September 2015
 
-The results of this round of feedback gathering were shared internally by way of a
-presentation: ["Stuff the GitLab team likes and does not like"](https://docs.google.com/a/gitlab.com/presentation/d/1h9P8Vf_6fzPbLCCahvwtIF5j_cH54zsv9iRSseVZzl0/edit?usp=sharing)
+Summarized in this presentation about ["Stuff the GitLab team likes and does not 
+like"](https://docs.google.com/a/gitlab.com/presentation/d/1h9P8Vf_6fzPbLCCahvwtIF5j_cH54zsv9iRSseVZzl0/edit?usp=sharing), 
+here is what the team said in September of 2015.
+
+#### What we love about working at GitLab
+
+Freedom, flexibility, enthusiasm, passion, great, smart, engaging,
+enjoy teaching, feels like a family, great dynamic, supportive,
+approachable execs, supportive, transparency, speed of innovation, remote working,
+company sponsored training, great Summit in Amsterdam.  
+
+_and also_  
+
+Great product, ability to create new processes,
+company growth, no burocracy, no high pressure, opportunity, our growth,
+the challenge of maintaining quality of people, product, brand etc,
+laser focus on improving collaboration through social coding, market adoption,
+our work is public so we can talk about it, and our ability to create new processes.
+
+#### What we wish we had or what we want to be doing & What we’re doing about it
+
+1. More team members.
+  - We’re hiring
+1. Bigger feature gap between CE and EE.
+  -	Current plan is to have one EE feature added per release, so over time the difference will grow.
+1. More summits.
+  -	Current plan is to have a summit every 6-9 months.
+1. Better onboarding.
+  -	We're working on this with GitLabUniversity (GLU) content, continuous improvements to documentation and the handbook
+1. Customer success events, starting in the Bay Area.
+  -	Cool idea, start an issue and make it happen!
+1. Coaching on Agile and Lean approaches for Engineering team.
+  -	Great idea, we'll look into it. Suggestions are welcome.
+1. A scale with happiness of last work week for feedback.
+  -	We've working this into our feedback from in a different setting for now.
+1. Global presence of Service Engineers, and dedicated trainer and training materials.
+  -	We're working on this through hiring. Also, we have high hopes of GLU, ongoing content creation, etc. to help out here.
+
+#### What we’re wondering about & the answers to our thoughts
+
+1. Stock options: terms, conditions
+  - Does the handbook answer your questions? (https://about.gitlab.co/handbook/stock-options). Please feel free to ask Paul.
+1. If Azure was a bag idea.
+  - In hindsight, yes.
+1. What the company will look like 3, 6, 12 months from now? (community-ish, enterprise-ish)
+  - The community and people using GitLab will keep growing. 12 months from now 
+  we'll answer all questions from the community on all platforms (from forum to 
+  Stack Overflow), we'll have a proper swag shop and have more developer oriented 
+  content (blog posts, video's).
+  - Enterprise wise we'll have double the features we have now, a twice as large sales 
+team, and many add-ons. Feel free to ask something more specific if you need more 
+detail. And of course try to shape it as you think it should look.
+1. How committed are we to building EE features and having significant releases  each month?
+  - Very committed. At least one tentpole EE feature every month. Next 3 releases contain 2 or 3 each! https://about.gitlab.com/direction/
+1. Sales team hiring plan
+  - We're hiring but it is not a priority until everyone is up to speed and trained. But we expect that to happen soon, and the marketing machine will come up to speed soon, after which hiring becomes a priority.
+
