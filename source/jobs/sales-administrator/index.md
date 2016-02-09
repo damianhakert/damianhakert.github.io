@@ -11,3 +11,4 @@ title: "Sales Administrator"
 * Provide quotes, update licenses and account information or pass off the inquiry to Account Managers or Service Engineers
 * Process sales orders, issue license keys and manage a small sales pipeline of your own
 * Work with our Controller on customer payments and other back-end finance related activities
+* Manage the upcoming [Summit](https://about.gitlab.com/culture/) .
