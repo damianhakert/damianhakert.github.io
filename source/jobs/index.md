@@ -38,7 +38,7 @@ If you email us we'll reply with [a link to this paragraph](https://about.gitlab
 
 ### Developer
 * [Description](https://about.gitlab.com/jobs/developer/)
-* [Apply](https://gitlab.workable.com/jobs/106660)
+* [Apply](https://gitlab.workable.com/jobs/106660/candidates/new)
 * A note on the technical interview<a name="technical-interview"></a>: As part of our interviewing process, you may
 be asked to pick an issue from the GitLab CE issue tracker, and code 'live' with
 the interviewer there to talk with and collaborate with. We do this because we
