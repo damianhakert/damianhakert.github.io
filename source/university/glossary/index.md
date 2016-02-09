@@ -101,9 +101,13 @@ Everyone who is using GitLab
 
 Atlassian's product for collaboration of documents and projects.
 
+### Continuous Deivery
+
+Continuous delivery is a series of practices designed to ensure that code can be rapidly and safely deployed to production by delivering every change to a production-like environment and ensuring business applications and services function as expected through rigorous automated testing. 
+
 ### Continuous Deployment
 
-*** Needs definition here
+Continuous deployment is the next step of continuous delivery: Every change that passes the automated tests is deployed to production automatically. 
 
 ### Continuous Integration
 
