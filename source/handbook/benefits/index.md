@@ -31,20 +31,20 @@ TriNet also offers a high and a low vision plan nationally through two different
 
 The Company pays 100% of premiums for medical, 100% of premiums for dental and 100% of premiums for vision coverage for employee. In addition, the Company funds 50% of premiums for medical, 50% of premiums for dental and 50% of premiums for vision coverage for spouse, dependent and domestic partner. These contribution amounts are capped at:
 ￼￼￼￼￼￼￼
-| Insurance | Company Contribution Cap |
-| -------- | -------- |
-| ￼￼￼￼￼￼Medical Employee Only | $467.00 |
-| ￼￼￼￼￼￼￼￼Medical Employee + Spouse | $747.00 |
-￼| ￼￼￼￼￼￼￼Medical Employee + Child(ren) | $700.50 |
-| ￼￼￼￼￼￼￼￼Medical Employee + Family | $934.00 |
-￼| ￼￼￼￼￼￼￼Group Dental Employee Only | $19.80 |
-￼￼| ￼￼￼￼￼￼Group Dental Employee + Spouse | $30.20 |
-￼￼￼| ￼￼￼￼￼Group Dental Employee + Child(ren)| $31.19 |
-￼￼￼￼| ￼￼￼￼Group Dental Employee + Family | $41.59 |
-￼￼￼￼￼￼| ￼￼Group Vision Employee Only | $9.15 |
-￼￼￼￼￼￼￼￼| Group Vision Employee + Spouse | $13.75 |
-￼￼￼￼￼￼￼￼| Group Vision Employee + Child(ren) | $14.39 |
-￼￼￼| Group Vision Employee + Family | $20.26 |
+| Insurance                          | Company Contribution Cap |
+| ---------------------------------- | -----------------------: |
+| ￼￼￼￼￼￼Medical Employee Only              |                  $467.00 |
+| ￼￼￼￼￼￼￼￼Medical Employee + Spouse          |                  $747.00 |
+￼| ￼￼￼￼￼￼￼Medical Employee + Child(ren)      |                  $700.50 |
+| ￼￼￼￼￼￼￼￼Medical Employee + Family          |                  $934.00 |
+￼| ￼￼￼￼￼￼￼Group Dental Employee Only         |                   $19.80 |
+￼￼| ￼￼￼￼￼￼Group Dental Employee + Spouse     |                   $30.20 |
+￼￼￼| ￼￼￼￼￼Group Dental Employee + Child(ren) |                   $31.19 |
+￼￼￼￼| ￼￼￼￼Group Dental Employee + Family     |                   $41.59 |
+￼￼￼￼￼￼| ￼￼Group Vision Employee Only         |                    $9.15 |
+￼￼￼￼￼￼￼￼| Group Vision Employee + Spouse     |                   $13.75 |
+￼￼￼￼￼￼￼￼| Group Vision Employee + Child(ren) |                   $14.39 |
+￼￼￼| Group Vision Employee + Family     |                   $20.26 |
 
 You are responsible for the remainder of the premium cost, if any.
 
