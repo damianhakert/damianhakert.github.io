@@ -27,7 +27,7 @@ We believe that all digital products should be open to contributions, from legal
 
 2. Become most used software for the software development lifecycle and collaboration on all digital content.
 
-3. Complete our product vision of an [opinionated and integrated set of tools based on convention over configuration that offers superior user experience](https://about.gitlab.com/direction/).
+3. Complete our product vision of an [opinionated and integrated set of tools based on convention over configuration that offers superior user experience](https://about.gitlab.com/direction/#vision).
 
 4. Offer a sense of progress [in a supportive environment with smart colleagues](http://pandodaily.com/2012/08/10/dear-startup-genius-choosing-co-founders-burning-out-employees-and-lean-vs-fat-startups/).
 
