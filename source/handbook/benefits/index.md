@@ -11,10 +11,14 @@ title: "Benefits"
 
 In the unfortunate event that a GitLab team member passes away, GitLab will
 provide a $10,000 lump sum to anyone of their choosing. This can be a spouse,
-partner, family member, friend, or charity. The team member needs to have been with 
-GitLab for at least one month, and must have indicated in writing to whom the money 
-should be transferred. For part-time team members, the lump sum is calculated pro-rata, 
-so for example for a team member that works for GitLab 50% of the time, the lump sum would be $5,000.
+partner, family member, friend, or charity. 
+   * For US based employees of GitLab Inc., this benefit is replaced by the [Basic 
+   Life Insurance](#basic-life-ins) that is offered through TriNet. 
+   * For all other team members, the following conditions apply: 
+      * The team member needs to have been with GitLab for at least one month, and 
+      * The team member must have indicated in writing to whom the money should be transferred. 
+      * For part-time team members, the lump sum is calculated pro-rata, so for example 
+   for a team member that works for GitLab 50% of the time, the lump sum would be $5,000.
 
 ## Specific to US based employees <a name="us-specific-benefits"></a>
 
@@ -55,9 +59,11 @@ You are responsible for the remainder of the premium cost, if any.
 
 If you already have current group medical coverage, you may choose to waive or opt out of TriNet's group health benefits. If you choose to waive health coverage, you will receive a $300.00 monthly benefit allowance and will still be able to enroll in optional plans and flexible spending accounts.
 
-### Basic Life Insurance & AD&D
+### Basic Life Insurance & AD&D<a name="basic-life-ins"></a>
 
-TriNet offers company­paid basic life and accidental death and dismemberment (AD&D) plans. The Company pays for basic life insurance coverage valued at $20,000, which includes an equal amount of AD&D coverage.
+TriNet offers company ­paid basic life and accidental death and dismemberment (AD&D)
+plans. The Company pays for basic life insurance coverage valued at $20,000, which 
+includes an equal amount of AD&D coverage.
 
 ### Group Long­-Term Disability Insurance
 
