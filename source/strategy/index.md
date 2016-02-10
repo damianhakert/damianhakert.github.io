@@ -119,19 +119,19 @@ We believe that all digital products should be open to contributions, from legal
 
 1. Triple ARR (Annual Recurring Revenue) in 2016&17&18, double it in 2019&20.
 
-2. Efficient sales needs people that demo, answer questions, and write feature proposals.
+2. Enable sales to provide more effective product demonstrations, share use case stories and create custom solutions and proposals.
 
-3. Build the channel via (value added) resellers and get more revenue from APAC.
+3. Increase revenue globally, with a focus on APAC, by developing channel sales program (value-added reseller and OEM).
 
-4. Grow our deals: upsell to higher plans, more years, and more users.
+4. Increase our average deal size through upsell to higher plans, selling multi-year deals and increasing seats sold.
 
-5. Create a customer success team and create a VP of customer success position.
+5. Increase adoption and revenue within accounts through the creation of a Customer Success Organization
 
-6. Specialized roles: BDR, (senior) account managers, customer success, regional director.
+6. Increase salesperson capacity and productivity by creating specialized roles: BDR, (senior) account managers, customer success, regional director
 
-7. Account managers can specialize in upsell from CE, competitive sell against GitHub or Atlassian, educational sell from SVN/Clearcase or top-down sell to CTO.
+7. Account managers specialize in upsell EE from CE, competitive sell against GitHub or Atlassian and educational sell from SVN/Clearcase or top-down sell to CTO.
 
-8. Intense one month onboarding you need to pass: use GLU, GitLab, Udacity, TrainTool.
+8. Intense one month onboarding program (GLU, GitLab, Udacity, TrainTool) to prepare new salespeople to add value faster to the buying process.
 
 ## Marketing 2016
 
