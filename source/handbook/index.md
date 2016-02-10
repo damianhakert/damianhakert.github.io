@@ -120,10 +120,11 @@ people. We try to hire people who think work is a great way to express themselve
 1. Most things are **public** unless there is a reason not to, not public by default are: financial information, job applications/compensation/feedback and partnerships with other companies.
 1. Share solutions you find and answers you receive with the **whole community**.
 1. If you need to discuss with a team member for help please realize that probably the majority of the community also doesn't know, be sure to **document** the answer to radiate this information to the whole community. After the question is answered discuss where it should be documented and who will do it. You can remind other people of this by asking 'who will document this'?
-1. To change a guideline or process, **suggest an edit** in the form of a merge request, and talk about it during
-the team call if applicable. Do not change the process first, and then view the documentation as a
-lower priority task, as this inevitably leads to changes in guidelines and processes
-going unnoticed and uncommunicated to the team.
+1. To change a guideline or process, **suggest an edit** in the form of a merge request. 
+After it is merged you can and talk about it during the team call if applicable. 
+Communicate process changes by linking to the commit. Do not change the process 
+first, and then view the documentation as a lower priority task as this inevitably 
+leads to duplicate work communicating the change and outdated documents.
 1. If you make a mistake, don't worry, correct it and **proactively** let the affected party, your team, and the CEO know what happened, how you corrected it and how, if needed, you changed the process to prevent future mistakes.
 1. You can always **refuse** to deal with people that treat you badly and get out of situations that make you feel uncomfortable.
 1. Everyone can **remind** anyone in the company about these guidelines. If there is a disagreement about the interpretations, the discussion can be escalated to more people within the company without repercussions.
