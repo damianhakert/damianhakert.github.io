@@ -11,7 +11,10 @@ title: "Benefits"
 
 In the unfortunate event that a GitLab team member passes away, GitLab will
 provide a $10,000 lump sum to anyone of their choosing. This can be a spouse,
-partner, family member, friend, or charity
+partner, family member, friend, or charity. The team member needs to have been with 
+GitLab for at least one month, and must have indicated in writing to whom the money 
+should be transferred. For part-time team members, the lump sum is calculated pro-rata, 
+so for example for a team member that works for GitLab 50% of the time, the lump sum would be $5,000.
 
 ## Specific to US based employees <a name="us-specific-benefits"></a>
 
