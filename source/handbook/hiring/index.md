@@ -8,6 +8,7 @@ title: "Hiring"
 * [Screening Call](#screening-call)
 * [Interview Questions](#interview-questions)
 * [Getting Contracts Ready](#prep-contracts)
+* [Who Reviews and Who Signs Contracts](#contract-review)
 * [Contract signed: now what?](#move-to-onboarding)
 
 ## Vacancy Creation Process<a name="vacancy-creation-process"></a>
@@ -95,6 +96,18 @@ fill out the [New Contract form](https://docs.google.com/a/gitlab.com/forms/d/1C
 with pertinent details, and ping the Business Office Manager to initiate the creation of the contracts.
 
 Our template contracts are posted on the [Contracts page](https://about.gitlab.com/handbook/contracts).
+
+## Who Reviews and Who Signs Contracts<a name="contract-review"></a>
+While many people can prepare the contracts on our [Contracts](https://about.gitlab.com/handbook/contracts)
+page, the most typical situation is that either our [People Operations Administrator](https://about.gitlab.com/jobs/people-operations-administrator)
+(mostly for US based employees) or [Administrative Coordinator](https://about.gitlab.com/jobs/administrative-coordinator), or the COO will
+prepare the necessary contracts. The review process is as follows:
+
+* For any hires for which the COO does _not_ sign, the COO reviews the contract
+after which it can be sent out to be signed by any of the relevant C-level team
+members.
+* For any hires for which the COO should sign, either the CFO or the CEO must
+review the contracts.
 
 ## Onboarding<a name="move-to-onboarding"></a>
 
