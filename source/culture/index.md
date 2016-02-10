@@ -5,9 +5,9 @@ title: "GitLab Culture"
 
 ## Summits
 
-Approximately every 6-9 months, we gather in person to see how tall everyone is (hard to see with video confercing), and to
+Approximately every 6-9 months, we gather in person to see how tall everyone is (hard to see with video conferencing), and to
 get to know each other better by working and 'playing' together. Here are some
- [Impressions from the Summit in Amsterdam, October 2015](https://about.gitlab.com/2015/11/30/gitlab-summit-2015/)
+ [impressions from the Summit in Amsterdam, October 2015](https://about.gitlab.com/2015/11/30/gitlab-summit-2015/).
 
 
 ## Internal Feedback
@@ -19,7 +19,7 @@ and concerns / wishes / things people wonder about with the entire team by discu
 them during our [Team Call](https://about.gitlab.com/handbook/#team-call) and posting
 all topics that came up along with their responses here (with the exception of
   [topics](https://about.gitlab.com/handbook/#general-guidelines) that by nature
-  are not shared outside of the company).
+  are not shared outside of the company). _The responses may be altered from the original wording in an effort to maintain anonymity, while also maintaining the same spirit and message of the response._
 
 ### Feedback from January 2016, and responses
 
@@ -55,21 +55,32 @@ quickly rejected as 'won't work' or 'not interested' without much explanation."
     improving their test suit across the board](https://news.ycombinator.com/item?id=11039966)".
     Obviously quality is and will always be a top concern, especially code quality
     since that enables better testing, faster fixes, and more contributions.
+1. "Better supervision in the first two months"
+   * Always be sure to reach out to your manager if you feel that you need more guidance. Your peers are a Slack message away.
+1. "Maybe a more competitive salary"
+   * From the [handbook](https://about.gitlab.com/handbook/#general-guidelines): "If you are unhappy with anything (your duties, your colleague, your boss, your salary, your location, your computer) please let your boss, or the CEO, know as soon as you realize it. We want to solve problems while they are small."
 
 #### "What do you like about working here?"
 
 1. A lot of love for the team
    * Keywords people used to describe their fellow team members are: 'talented,
-   caring, teamwork, approachable, honesty, frankness, smart, brilliant, skilled,
+   caring, teamwork, approachable, honest, frank, smart, brilliant, skilled,
    team spirit'.
 1. Great product
    * Four people mentioned it specifically, and this one sums it up nicely: "Working
-   on a product that I actually love to use".
+   on a product that I actually love to use". Respondents also mentioned the fast pace of development.
+1. Open Source
+   * Respondents value being involved in Open Source, with phrases such as: 'proving that open source is awesome and working with the rest of the community, working on open source while getting paid for it is a dream job!'
+1. Freedom and opportunity
+   * We are a remote-first company and our team members like: 'being remote-first, working from home, having personal independence, the freedom to choose what to work on, the freedom that you don't get in a corporate office environment, flexibility to get things done, slim process, slack oriented'
+   * People also mentioned the opportunity to learn, and the massive opportunity that the project and the company has.
+1. Team dynamic
+   * Several people mentioned that they really like the team dynamic, specifically: 'the support that you need is there, you have the ability to take on multiple hats and responsibilities, everyone and everything is open to constant improvement, ability to collaborate even though we're remote, we're remote but still have a great sense of "team", love the cross discipline collaboration that goes on every day'
 
 ## Feedback from the GitLab team - September 2015
 
-Summarized in this presentation about ["Stuff the GitLab team likes and does not 
-like"](https://docs.google.com/a/gitlab.com/presentation/d/1h9P8Vf_6fzPbLCCahvwtIF5j_cH54zsv9iRSseVZzl0/edit?usp=sharing), 
+Summarized in this presentation about ["Stuff the GitLab team likes and does not
+like"](https://docs.google.com/a/gitlab.com/presentation/d/1h9P8Vf_6fzPbLCCahvwtIF5j_cH54zsv9iRSseVZzl0/edit?usp=sharing),
 here is what the team said in September of 2015.
 
 #### What we love about working at GitLab
@@ -113,15 +124,14 @@ our work is public so we can talk about it, and our ability to create new proces
 1. If Azure was a bag idea.
   - In hindsight, yes.
 1. What the company will look like 3, 6, 12 months from now? (community-ish, enterprise-ish)
-  - The community and people using GitLab will keep growing. 12 months from now 
-  we'll answer all questions from the community on all platforms (from forum to 
-  Stack Overflow), we'll have a proper swag shop and have more developer oriented 
+  - The community and people using GitLab will keep growing. 12 months from now
+  we'll answer all questions from the community on all platforms (from forum to
+  Stack Overflow), we'll have a proper swag shop and have more developer oriented
   content (blog posts, video's).
-  - Enterprise wise we'll have double the features we have now, a twice as large sales 
-team, and many add-ons. Feel free to ask something more specific if you need more 
+  - Enterprise wise we'll have double the features we have now, a twice as large sales
+team, and many add-ons. Feel free to ask something more specific if you need more
 detail. And of course try to shape it as you think it should look.
 1. How committed are we to building EE features and having significant releases  each month?
   - Very committed. At least one tentpole EE feature every month. Next 3 releases contain 2 or 3 each! https://about.gitlab.com/direction/
 1. Sales team hiring plan
   - We're hiring but it is not a priority until everyone is up to speed and trained. But we expect that to happen soon, and the marketing machine will come up to speed soon, after which hiring becomes a priority.
-
