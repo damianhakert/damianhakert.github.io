@@ -11,9 +11,6 @@ image_title: '/images/blogimages/applovin-app-challenge.jpg'
 [Gitlab](https://about.gitlab.com) is proud to participate in the [Apple TV App Challenge](https://www.applovin.com/appchallenge)!
 Apps are the future of TV, and AppLovin aims to cultivate the nascent tvOS dev community.
 
-We're excited to sponsor and support events in software development communities
-and help grow awareness of GitLab. 
-
 <!-- more -->
 
 Got an idea for a tvOS app? Kick-start it by entering the Apple TV App Challenge,
@@ -26,5 +23,8 @@ The best entries will be rewarded with awesome prizes, including $25,000
 to the tvOS App Challenge winner and $5,000 to two Hackathon finalists.
 On April 17, Challenge finalists will demo their apps for journalists, VCs, 
 and a special guest from Gitlab during an App Challenge showcase.
+
+We're excited to sponsor and support events in software development communities
+and help grow awareness of GitLab. 
 
 Find out more about the [Apple TV App Challenge](https://www.applovin.com/appchallenge).
