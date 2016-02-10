@@ -101,37 +101,37 @@ our work is public so we can talk about it, and our ability to create new proces
 #### What we wish we had or what we want to be doing & What we’re doing about it
 
 1. More team members.
-  - We’re hiring
+   * We’re hiring
 1. Bigger feature gap between CE and EE.
-  -	Current plan is to have one EE feature added per release, so over time the difference will grow.
+   * Current plan is to have one EE feature added per release, so over time the difference will grow.
 1. More summits.
-  -	Current plan is to have a summit every 6-9 months.
+   * Current plan is to have a summit every 6-9 months.
 1. Better onboarding.
-  -	We're working on this with GitLabUniversity (GLU) content, continuous improvements to documentation and the handbook
+   * We're working on this with GitLabUniversity (GLU) content, continuous improvements to documentation and the handbook
 1. Customer success events, starting in the Bay Area.
-  -	Cool idea, start an issue and make it happen!
+   * Cool idea, start an issue and make it happen!
 1. Coaching on Agile and Lean approaches for Engineering team.
-  -	Great idea, we'll look into it. Suggestions are welcome.
+   * Great idea, we'll look into it. Suggestions are welcome.
 1. A scale with happiness of last work week for feedback.
-  -	We've working this into our feedback from in a different setting for now.
+   * We've working this into our feedback from in a different setting for now.
 1. Global presence of Service Engineers, and dedicated trainer and training materials.
-  -	We're working on this through hiring. Also, we have high hopes of GLU, ongoing content creation, etc. to help out here.
+   * We're working on this through hiring. Also, we have high hopes of GLU, ongoing content creation, etc. to help out here.
 
 #### What we’re wondering about & the answers to our thoughts
 
 1. Stock options: terms, conditions
-  - Does the handbook answer your questions? (https://about.gitlab.co/handbook/stock-options). Please feel free to ask Paul.
+   * Does the handbook answer your questions? (https://about.gitlab.co/handbook/stock-options). Please feel free to ask Paul.
 1. If Azure was a bag idea.
-  - In hindsight, yes.
+   * In hindsight, yes.
 1. What the company will look like 3, 6, 12 months from now? (community-ish, enterprise-ish)
-  - The community and people using GitLab will keep growing. 12 months from now
+   * The community and people using GitLab will keep growing. 12 months from now
   we'll answer all questions from the community on all platforms (from forum to
   Stack Overflow), we'll have a proper swag shop and have more developer oriented
   content (blog posts, video's).
-  - Enterprise wise we'll have double the features we have now, a twice as large sales
+   * Enterprise wise we'll have double the features we have now, a twice as large sales
 team, and many add-ons. Feel free to ask something more specific if you need more
 detail. And of course try to shape it as you think it should look.
 1. How committed are we to building EE features and having significant releases  each month?
-  - Very committed. At least one tentpole EE feature every month. Next 3 releases contain 2 or 3 each! https://about.gitlab.com/direction/
+   * Very committed. At least one tentpole EE feature every month. Next 3 releases contain 2 or 3 each! https://about.gitlab.com/direction/
 1. Sales team hiring plan
-  - We're hiring but it is not a priority until everyone is up to speed and trained. But we expect that to happen soon, and the marketing machine will come up to speed soon, after which hiring becomes a priority.
+   * We're hiring but it is not a priority until everyone is up to speed and trained. But we expect that to happen soon, and the marketing machine will come up to speed soon, after which hiring becomes a priority.
