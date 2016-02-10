@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Business Development"
+title: "Business Development Representative"
 ---
 
 You love talking about GitLab to people and no question or challenge is too big or small. You have experience working directly with customers in order to answer questions on getting started with a technical product. Your job is to make sure our customers are successful, from the single-shop development firm all the way up to our Fortune 500 customers, and that everyone gets the appropriate level of support.
