@@ -77,7 +77,7 @@ quickly rejected as 'won't work' or 'not interested' without much explanation."
 1. Team dynamic
    * Several people mentioned that they really like the team dynamic, specifically: 'the support that you need is there, you have the ability to take on multiple hats and responsibilities, everyone and everything is open to constant improvement, ability to collaborate even though we're remote, we're remote but still have a great sense of "team", love the cross discipline collaboration that goes on every day'
 
-## Feedback from the GitLab team - September 2015
+### Feedback from the GitLab team - September 2015
 
 Summarized in this presentation about ["Stuff the GitLab team likes and does not
 like"](https://docs.google.com/a/gitlab.com/presentation/d/1h9P8Vf_6fzPbLCCahvwtIF5j_cH54zsv9iRSseVZzl0/edit?usp=sharing),
@@ -88,9 +88,9 @@ here is what the team said in September of 2015.
 Freedom, flexibility, enthusiasm, passion, great, smart, engaging,
 enjoy teaching, feels like a family, great dynamic, supportive,
 approachable execs, supportive, transparency, speed of innovation, remote working,
-company sponsored training, great Summit in Amsterdam.  
+company sponsored training, great Summit in Amsterdam.
 
-_and also_  
+_and also_
 
 Great product, ability to create new processes,
 company growth, no burocracy, no high pressure, opportunity, our growth,
