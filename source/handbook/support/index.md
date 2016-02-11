@@ -12,7 +12,9 @@ title: Support
 ## Introduction
 
 A [service engineer](/jobs/service-engineer) handles the following channels.
-They are sorted in order of priority.
+They are sorted in order of priority, and as a result, it is possible that channels that appear lower 
+in this list experience longer delays in receiving responses. We are actively [hiring](https://about.gitlab.com/jobs/) 
+more Service Engineers to strengthen the team and provide support to the community.
 
 ## Dashboard
 
