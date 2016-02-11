@@ -43,6 +43,14 @@ to contact them. Usual channels are Phone, Skype, WebEx or Hangouts.
 If you are unable to help the customer and their instance is in a critical state (unavailable, uncertainty of
 data loss, etc.), you should escalate the PD incident to Second Level support. They will be able to assist you.
 
+In a crisis situation (defined as an emergency that takes longer than an hour to resolve, 
+and/or multiple people are or need to be involved), start a google doc that is open to the customer and the wider team at GitLab, and keep track of the 
+issues and ideas there. ZenDesk's 'linear' display of communication with a customer is not as effective in crisis situations, and the 
+majority of developers do not have access to ZenDesk in the first place. Announce the google doc in the appropriate 
+slack channel (#operations, #development, #general) so that individuals can contribute solutions and ideas. When the crisis 
+has been resolved, be sure to transfer pertinent know-how from the google doc to relevant documentation, handbooks, and/or 
+issue trackers, so that the google doc can be deprecated a.s.a.p.
+
 ## GitLab.com downtime
 
 When GitLab.com goes down a PD incident will be triggered as well, so the flow is the same as emergency tickets
