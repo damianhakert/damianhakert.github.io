@@ -71,9 +71,7 @@ welcome email to the employee at their work email on their first date of hire.
 
 #### For GitLab BV employees only
 
-* [ ] New employee: provide People Ops with your BSN (burger service nummer), bank account information (IBAN code), the basics (name, address, date of birth), and if you are based in the Netherlands, please indicate whether you want "loonheffingskorting" to be applied or not.
-* [ ] People Ops: Add new employees to [BV payroll](https://docs.google.com/document/d/1g6nZ7w1RqkSvD6VbyuRPauDTUuyTp4mDaHrUY2UVY-A/edit).
-
+* [ ] New team member: Please fill in the following form & send the needed documents as mentioned to Savvy https://docs.google.com/forms/d/1mExVeTRn1cd0MtnNuvMSy7UJ8WazI5D6_snq3R6bsmI/viewform
 
 ### WITHIN FIRST WEEK OF STARTING
 
