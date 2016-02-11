@@ -363,8 +363,8 @@ intellectual property violations
 
 **Regular Compensation**
 
-1. Employees of our Dutch entity (GitLab B.V.) will get their **salary** wired on the 25th of every month and will receive their salary slip by email on or before that date.
-1. Employees of our US entity (GitLab Inc.) have payroll processed through TriNet, and they can access their pay slips through the [TriNet portal](https://www.hrpassport.com).
+1. Employees of our Dutch entity (GitLab B.V.) will get their salary wired on the 25th of every month, and can see their payslip in their personal portal on [HR Savvy's system](https://hr-savvy.nmbrs.nl/).
+1. Employees of our US entity (GitLab Inc.) have payroll processed semi-monthly through TriNet, and they can access their pay slips through the [TriNet portal](https://www.hrpassport.com).
 1. Contractors to GitLab (either entity) should send their invoices for services rendered to ap@gitlab.com
    * For 'fixed fee' contracts, it is OK to send the invoice before the time period
    that it covers is over. For example, an invoice covering the period of March 1-31 can be sent on March 25.
