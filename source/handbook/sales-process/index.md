@@ -2,10 +2,10 @@
 layout: markdown_page
 title: "Sales Process"
 ---
-* [Lead Qualification & Demand Gen Process](#leadqual)
+
+* [Pages inside Sales Handbook](#pages)
+* [Pages outside Sales Handbook](#pages-outside)
 * [GitLab Version Check](#version_check)
-* [Sales Discovery Questions](#salesdisco)
-* [Client Use Cases](#client)
 * [Parent and Child Accounts](#parent)
 * [Opportunity Naming Convention](#naming)
 * [Opportunity Types](#types)
@@ -15,24 +15,27 @@ title: "Sales Process"
 * [Closing A Won Deal](#closing)
 * [Processing Orders in Recurly](#processing)
 * [Export Control Classification, and Countries We Do Not Do Business In](#export-control)
-* [Other Pages in Sales Handbook](#pages)
 
+### Pages inside Sales Handbook <a name="pages"></a>
 
-### Lead Qualification & Demand Generation Process <a name="leadqual"></a>
+* [Sales Onboarding](https://about.gitlab.com/handbook/sales-onboarding/)
+* [Sales Training](https://about.gitlab.com/handbook/sales-training/)
+* [Lead Qual & Demand Gen](https://about.gitlab.com/handbook/marketing/demand-generation/)
+* [Sales Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/)
+* [GitLab Positioning](https://about.gitlab.com/handbook/positioning-faq/)
+* [How to manage deals](/handbook/sales-process/deal_management_process)
+* [Managing an account](/handbook/sales-process/account_management)
+* [Licenses and EE access](/handbook/sales-process/licenses)
 
-See [Lead Qual & Demand Gen](https://about.gitlab.com/handbook/marketing/demand-generation/)
+### Pages outside Sales Handbook <a name="pages-outside"></a>
+
+* [Client Use Cases](https://about.gitlab.com/handbook/use-cases/)
+* [Customer Reference Sheet](https://docs.google.com/spreadsheets/d/1Off9pVkc2krT90TyOEevmr4ZtTEmutMj8dLgCnIbhRs/edit#gid=0)
+* [GitLab University](https://about.gitlab.com/university/)
 
 ### GitLab Version Check <a name="version_check"></a>
 
 Before prospecting and engaging with a prospect, check to see if they are using CE. To do this, use GitLab Version Check. Everything about [GitLab Version Check](/handbook/sales-process/version_check).
-
-### Sales Discovery Questions <a name="salesdisco"></a>
-
-[Sales Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/)
-
-### Client Use Cases <a name="client"></a>
-
-[Client Use Cases](https://about.gitlab.com/handbook/use-cases/)
 
 ### Parent and Child Accounts <a name="parent"></a>
 
@@ -211,22 +214,3 @@ to a country listed in [Country Group E:1 in Supplement No. 1 to part 740 of the
 
 As a consequence of this classification, we currently do not do business in:
 Iran, Sudan (excluding South Sudan), Syria, North Korea, and Cuba.
-
-### Other Pages in Sales Handbook <a name="pages"></a>
-
-[Sales Onboarding](https://about.gitlab.com/handbook/sales-onboarding/)
-
-[Sales Training](https://about.gitlab.com/handbook/sales-training/)
-
-[GitLab Positioning](https://about.gitlab.com/handbook/positioning-faq/)
-
-[Customer Reference Sheet](https://docs.google.com/spreadsheets/d/1Off9pVkc2krT90TyOEevmr4ZtTEmutMj8dLgCnIbhRs/edit#gid=0)
-
-[How to manage deals](/handbook/sales-process/deal_management_process)
-
-[Managing an account](/handbook/sales-process/account_management)
-
-Everything about [licenses and EE access](/handbook/sales-process/licenses)
-
-[GitLab University](https://about.gitlab.com/university/)
-
