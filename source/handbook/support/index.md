@@ -166,6 +166,10 @@ The [GitLab Forum](https://forum.gitlab.com/).
 
 The [Stack Overflow tagged questions](http://stackoverflow.com/questions/tagged/gitlab) that relate to GitLab.
 
+## Reddit
+
+Respond to mentions of GitLab on Reddit, especially ones in the [GitLab Reddit](https://www.reddit.com/r/gitlab/).
+
 ## Non channel work
 
 If you have time for it please improve GitLab: fix bugs, add features, improve documentation, and polish the website.
