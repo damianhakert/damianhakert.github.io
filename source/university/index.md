@@ -106,6 +106,11 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
 
 1. [GitLab Workshop Part 4: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-4/material/)
 
+1. GitLab Flow
+    - [Recording of what it is](https://www.youtube.com/watch?v=UGotqAUACZA)
+    - [GitLab Flow blog post](https://about.gitlab.com/2014/09/29/gitlab-flow/)
+    - [GitLab Flow documentation](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
+
 1. GitLab Integrations
 
     - Supporting: [Documentation on Integrating Jira with GitLab](http://doc.gitlab.com/ee/integration/jira.html) and [Demo of Jira integration within GitLab](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=44b548147a67ab4d8a62274047146415).  Download [WebEx](https://www.webex.com/play-webex-recording.html) to view this video
@@ -187,12 +192,6 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
 - [Recording of how to install](https://www.youtube.com/watch?v=Q69YaOjqNhg)
 - Supporting: [Configuring an external PostgreSQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-non-packaged-postgresql-database-management-server)
 - Supporting: [Configuring an external MySQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-mysql-database-management-server-enterprise-edition-only)
-
-#### GitLab Flow
-
-- [Recording of what it is](https://www.youtube.com/watch?v=UGotqAUACZA)
-- [GitLab Flow blog post](https://about.gitlab.com/2014/09/29/gitlab-flow/)
-- [GitLab Flow documentation](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
 
 #### Continuous Integration and Runners
 
