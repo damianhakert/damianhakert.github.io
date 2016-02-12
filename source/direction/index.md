@@ -146,9 +146,9 @@ We very much welcome contributions that implement any of these things.
 - [Show code coverage in diffs with colored horizontal bar](https://gitlab.com/gitlab-org/gitlab-ce/issues/4073)
 - [A/B testing of branches with GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
 
-### Software to ship in the Omnibus packages
+### Scope <a name="scope"></a>
 
-The software development lifecycle and collaboration on digital products happens with the following stack of tools that we want to ship in our Omnibus packages:
+To realize [our vision](#vision) we plan to ship the following stack of tools:
 
 1. **Chat** conversation => Mattermost, [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
 1. **Issue** creation => GitLab Issues
@@ -161,6 +161,8 @@ The software development lifecycle and collaboration on digital products happens
 1. **Chatops** to check => [Hubot](https://hubot.github.com/) which has a [Merge Request](https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/564) or [Lita](https://www.lita.io/)
 
 We're still deciding if application performance monitoring is in our scope, for example with Grafana and InfluxDB.
+
+We plan to ship all of the above in our Omnibus package.
 
 Things that are outside our scope are:
 
