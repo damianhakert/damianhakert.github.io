@@ -3,11 +3,6 @@ layout: markdown_page
 title: Team Handbook
 ---
 
-<!---
-This page used to be HTML only, please convert to Markdown when you touch it.
-Please make headers linkable, for an example see the feedback header below.
--->
-
 ## Feedback<a name="feedback"></a>
 
 Please make a <a href="https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests">merge request</a> to suggest improvements or add clarifications.
@@ -283,6 +278,8 @@ step, **re-assign** the issue to that person.
 1. Sequence of asking people is in order of joining the company, same as on the [team page](https://about.gitlab.com/team/). If there are non-team page people in the call we end with those.
 1. Please look if the person you hand over to is present in the participant list so you don't hand over to someone who is not present.
 1. Last person hands over to the first person in the call order that is present (normally Dmitriy) who wishes everyone a good day or wishes everyone a great day her or him self.
+1. Even if you cannot join the call, read through the team agenda and the links from there. We often use the team call to make announcements or 
+discuss changes in processes, so make sure to catch up on the news if you have missed a team call (or more).
 
 ### User Communication Guidelines<a name="user-communication"></a>
 
