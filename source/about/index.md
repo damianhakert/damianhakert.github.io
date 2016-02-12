@@ -115,7 +115,7 @@ We always make sure that CE can do all essential things and there are companies 
 When someone contributes a feature to CE that is already in EE we have a hard decision to make.
 We hope that people focus on contributing features that are neither in CE nor EE.
 This way both edits benefit from a new feature and GitLab Inc. don't have to make a hard decision.
-The features we plan to build for EE are shared on our [direction page](https://about.gitlab.com/direction/) and we welcome people to contribute features to CE that are planned for future EE releases, if you pick one from the upcoming release please as in the issue if someone is already working on it.
+The features we plan to build for EE are shared on our [direction page](https://about.gitlab.com/direction/) and we welcome people to contribute features to CE that are planned for future EE releases, if you pick one from the upcoming release please ask in the issue if someone is already working on it.
 When someone does contribute a feature to CE that is already in EE we weigh a couple of factors in that decision:
 
 1. What is the quality of the code?
