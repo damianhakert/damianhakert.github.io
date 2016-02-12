@@ -66,7 +66,7 @@ Omnibus GitLab creates the packages for GitLab.
 
 ## Cloud infrastructure
 
-GitLab.com runs on Amazon Web Services (AWS). Many people in GitLab also have
+GitLab.com runs on Microsoft Azure. Many people in GitLab also have
 instances on DigitalOcean. If you need a VPS for any reason, it's probably easiest
 to set one up at DigitalOcean. Ask another developer for access.
 
