@@ -5,16 +5,16 @@ title: About Us
 
 ## GitLab Inc.
 
-GitLab Inc. is the company behind the [GitLab open-source project](https://gitlab.com/gitlab-org/gitlab-ce/)
-which is hosted on [GitLab.com](https://gitlab.com) (our free hosted service).
-GitLab is a Rails application providing Git repository management with fine grained
-access controls, code reviews, issue tracking, activity feeds, wikis and continuous integration.
-GitLab Inc. has 4 offerings, 3 of which are free:
+GitLab Inc. is a company based on the [GitLab open-source project](https://gitlab.com/gitlab-org/gitlab-ce/).
+GitLab is a application to code test and deploy code together.
+It provides Git repository management with fine grained access controls, code reviews, issue tracking, activity feeds, wikis, and continuous integration.
 
-1. [GitLab.com](https://about.gitlab.com/gitlab-com/) - free SaaS for public and private repositories, support can be purchased
+GitLab Inc. has 4 product offerings:
+
 1. [GitLab Community Edition (CE)](https://about.gitlab.com/features/#community) - free, self hosted application, support from [Community](https://about.gitlab.com/getting-help/)
 1. [GitLab Enterprise Edition (EE)](https://about.gitlab.com/pricing/) - paid, self hosted application, comes with additional features and support
-1. [GitLab Continuous Integration (CI)](https://about.gitlab.com/gitlab-ci/) - free, self hosted application that integrates with GitLab CE/EE. Also available as SaaS at [ci.gitlab.com](https://ci.gitlab.com)
+1. [GitLab.com](https://about.gitlab.com/gitlab-com/) - free SaaS for public and private repositories, support can be purchased
+1. [GitHost.io](https://about.gitlab.com/githost-io/) - a private single-tenant GitLab instance run by us
 
 GitLab Inc. also offers:
 
@@ -22,13 +22,8 @@ GitLab Inc. also offers:
 1. [Consulting](https://about.gitlab.com/consultancy/)
 1. [Custom Development work](https://about.gitlab.com/development/)
 
-[ReleaseTEAM](http://www.releaseteam.com) is a reseller partner of GitLab in the US.
-
-GitLab Inc. supports organizations and individuals using GitLab.
-To do this we offer services around GitLab such as subscriptions, consulting, development and training.
-
-Above all, GitLab is a community project, over 1000 people worldwide have [contributed to GitLab]!
-GitLab Inc. is an active participant in this community, trying to serve its needs and lead by example.
+GitLab is a community project, over 1000 people worldwide have [contributed to GitLab]!
+GitLab Inc. is an active participant in this community, trying to serve its needs and lead by example. For more information see 'Our stewardship of GitLab CE' further down this page.
 
 ## A brief history of GitLab
 
@@ -41,16 +36,17 @@ So together with Valery, he started to build GitLab as a solution for this.
 
 ### _2012: GitLab.com_
 
-Sytse began a SaaS of GitLab, which until then was only an open source project
-that could be ran on your own servers. GitLab.com offered free and paid hosting
-of git projects to anyone.
+Sid saw GitLab for the first time
+He though it was natural that a collaboration tool for programmers was open source.
+Being a Ruby programmer he checked out the source code and was impressed with the code quality of GitLab.
+He started GitLab.com as the first SaaS offering for GitLab.
 
 In November 2012, Dmitriy also made the [first version of GitLab CI].
 
 ### _2013: "I want to work on GitLab full time"_
 
 In 2013, Dmitriy tweeted that he wanted to work on GitLab full time.
-Sytse and Dmitriy teamed up and started bootstrapping GitLab as a company.
+Sid and Dmitriy teamed up and started bootstrapping GitLab as a company.
 
 In the same year in August, we introduced [GitLab Enterprise Edition].
 
@@ -67,16 +63,17 @@ The first release of the year at January 22nd: GitLab 6.5. At the end of 2014, D
 In the very start of 2015, almost the entire GitLab team flew over to Silicon
 Valley to [participate in Y Combinator].
 
-At this point, over 800 people worldwide have [contributed to GitLab] and more
+At this point, over 1000 people worldwide have [contributed to GitLab] and more
 than 100,000 organizations are using GitLab.
 
 ## Vision
 
 At GitLab we have one vision.
-To allow everyone to collaborate on all digital content.
-For more background and to see how we plan to achieve it please see our [direction page](https://about.gitlab.com/direction/).
+**Everyone can contribute** to all digital content.
+For more information the [product version on our direction page](https://about.gitlab.com/direction/#vision and our [strategy](https://about.gitlab.com/strategy/)
 
 ## Logo
+
 Our <a href="https://en.wikipedia.org/wiki/Japanese_raccoon_dog">Tanuki</a> logo
 symbolizes this with a smart animal that works in a group to achieve a common goal.
 Please see our [press page](https://about.gitlab.com/press/) to download the logo.
@@ -126,6 +123,7 @@ When someone does contribute a feature to CE that is already in EE we weigh a co
 In case we're not sure, we'll consult with the [core team](https://about.gitlab.com/core-team/) to reach a conclusion.
 
 ## Handbook
+
 If you're interested, most of our internal procedures can be found in <a href="/handbook">publicly viewable handbooks</a>.
 
 ## Donations<a name="donations"></a>
