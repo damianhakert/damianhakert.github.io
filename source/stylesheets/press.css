@@ -117,6 +117,21 @@ ul {
   background-position-y: -4px;
 }
 
+.stacked-wordmark {
+  background-image: url(https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm.png);
+  background-position-y: -8px;
+}
+
+.stacked-wordmark-no-bg {
+  background-image: url(https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm_no_bg.png);
+  background-position-y: -7px;
+}
+
+.stacked-wordmark-grayscale {
+  background-image: url(https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/stacked_wm_grayscale.png);
+  background-position-y: -8px;
+}
+
 .wordmark {
   background-image: url(https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/wordmark/wm.png);
 }
@@ -132,11 +147,24 @@ ul {
 }
 
 .image {
-overflow: hidden;
+  overflow: hidden;
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 40px;
   width: 170px;
+  float: left;
+  border: 1px solid #548;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.square-image {
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 40px;
+  width: 170px;
+  height: 170px;
   float: left;
   border: 1px solid #548;
   border-radius: 2px;
