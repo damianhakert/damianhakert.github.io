@@ -12,7 +12,9 @@ title: Support
 ## Introduction
 
 A [service engineer](/jobs/service-engineer) handles the following channels.
-They are sorted in order of priority.
+They are sorted in order of priority, and as a result, it is possible that channels that appear lower 
+in this list experience longer delays in receiving responses. We are actively [hiring](https://about.gitlab.com/jobs/) 
+more Service Engineers to strengthen the team and provide support to the community.
 
 ## Dashboard
 
@@ -42,6 +44,14 @@ to contact them. Usual channels are Phone, Skype, WebEx or Hangouts.
 
 If you are unable to help the customer and their instance is in a critical state (unavailable, uncertainty of
 data loss, etc.), you should escalate the PD incident to Second Level support. They will be able to assist you.
+
+In a crisis situation (defined as an emergency that takes longer than an hour to resolve, 
+and/or multiple people are or need to be involved), start a google doc that is open to the customer and the wider team at GitLab, and keep track of the 
+issues and ideas there. ZenDesk's 'linear' display of communication with a customer is not as effective in crisis situations, and the 
+majority of developers do not have access to ZenDesk in the first place. Announce the google doc in the appropriate 
+slack channel (#operations, #development, #general) so that individuals can contribute solutions and ideas. When the crisis 
+has been resolved, be sure to transfer pertinent know-how from the google doc to relevant documentation, handbooks, and/or 
+issue trackers, so that the google doc can be deprecated a.s.a.p.
 
 ## GitLab.com downtime
 
