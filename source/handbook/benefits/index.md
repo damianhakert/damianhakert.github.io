@@ -13,12 +13,11 @@ title: "Benefits"
 1. GitLab will pay for the items listed under [spending company money](https://about.gitlab.com/handbook/#spending-company-money).
 1.  Deceased team member
     In the unfortunate event that a GitLab team member passes away, GitLab will
-    provide a $10,000 lump sum to anyone of their choosing. This can be a spouse,
+    provide a $20,000 lump sum to anyone of their choosing. This can be a spouse,
     partner, family member, friend, or charity.
       * For US based employees of GitLab Inc., this benefit is replaced by the
         [Basic Life Insurance](#basic-life-ins) that is offered through TriNet.
       * For all other team members, the following conditions apply:
-         * The team member needs to have been with GitLab for at least one month, and
          * The team member must have indicated in writing to whom the money
            should be transferred.
          * For part-time team members, the lump sum is calculated pro-rata, so
