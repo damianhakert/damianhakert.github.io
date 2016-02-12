@@ -4,10 +4,13 @@ title: "Benefits"
 ---
 
 * [General Benefits](#general-benefits)
+* [Regular compensation](#regular-compensation)
+* [Specific to Netherland based employees](#nl-specific-benefits)
 * [Specific to US based employees](#us-specific-benefits)
 
 ## General Benefits <a name="general-benefits"></a>
 
+1. GitLab will pay for the items listed under [spending company money](https://about.gitlab.com/handbook/#spending-company-money).
 1.  Deceased team member
     In the unfortunate event that a GitLab team member passes away, GitLab will
     provide a $10,000 lump sum to anyone of their choosing. This can be a spouse,
@@ -21,6 +24,22 @@ title: "Benefits"
          * For part-time team members, the lump sum is calculated pro-rata, so
            for example for a team member that works for GitLab 50% of the time,
            the lump sum would be $5,000.
+1. Our [paid time off policy](https://about.gitlab.com/handbook/#paid-time-off)
+1. There are [incentives](https://about.gitlab.com/handbook/#incentives) available.
+
+## Regular compensation <a name="regular-compensation"></a>
+
+1. Employees of our Dutch entity (GitLab B.V.) will get their salary wired on the 25th of every month, and can see their payslip in their personal portal on [HR Savvy's system](https://hr-savvy.nmbrs.nl/).
+1. Employees of our US entity (GitLab Inc.) have payroll processed semi-monthly through TriNet, and they can access their pay slips through the [TriNet portal](https://www.hrpassport.com).
+1. Contractors to GitLab (either entity) should send their invoices for services rendered to ap@gitlab.com
+   * For 'fixed fee' contracts, it is OK to send the invoice before the time period
+   that it covers is over. For example, an invoice covering the period of March 1-31 can be sent on March 25.
+   * All invoices are internally reviewed, approved, and then payment is processed.
+   This is usually a fast process, but be aware that it can incur delays around vacations.
+
+## Specific to employees based in the Netherlands <a name="nl-specific-benefits"></a>
+
+Dutch employees get the customary month of vacation money in the month of May.
 
 ## Specific to US based employees <a name="us-specific-benefits"></a>
 

@@ -44,7 +44,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Intellectual Property](#intellectual-property)
 * [Spending Company Money](#spending-company-money)
 * [Paid Time Off](#paid-time-off)
-* [Further Incentives](#further-incentives)
+* [Incentives](#incentives)
    * [Sales Target Dinner Bonus](#sales-target-dinner)
    * [Discretionary Bonuses](#discretionary-bonuses)
    * [Referral Bonuses](#referral-bonuses)
@@ -362,18 +362,6 @@ intellectual property violations
 
 ## Spending Company Money<a name="spending-company-money"></a>
 
-**Regular Compensation**
-
-1. Employees of our Dutch entity (GitLab B.V.) will get their salary wired on the 25th of every month, and can see their payslip in their personal portal on [HR Savvy's system](https://hr-savvy.nmbrs.nl/).
-1. Employees of our US entity (GitLab Inc.) have payroll processed semi-monthly through TriNet, and they can access their pay slips through the [TriNet portal](https://www.hrpassport.com).
-1. Contractors to GitLab (either entity) should send their invoices for services rendered to ap@gitlab.com
-   * For 'fixed fee' contracts, it is OK to send the invoice before the time period
-   that it covers is over. For example, an invoice covering the period of March 1-31 can be sent on March 25.
-   * All invoices are internally reviewed, approved, and then payment is processed.
-   This is usually a fast process, but be aware that it can incur delays around vacations.
-
-**Other Business Related Expenses**
-
 1. Spend company money like it is your **own** money.
 1. You don't have to ask permission before making purchases in the interest of the company. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
 1. **File** your expense report 7 days after the end of the calendar quarter.
@@ -432,7 +420,7 @@ intellectual property violations
 1. In case it can be useful add your planned time off as a **FYI** on the next agenda of the team call.
 1. We will **help** clients during official days off, unless they are official days off in both the Netherlands and the U.S. We try to have people working who are in a country that don't have an official day off. If you need to work during an official day off in your country, you should take a day off in return.
 
-## Further Incentives<a name="further-incentives"></a>
+## Incentives<a name="incentives"></a>
 
 The following incentives are available for GitLab team members.
 
