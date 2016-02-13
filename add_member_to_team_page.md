@@ -49,9 +49,9 @@ branch](http://doc.gitlab.com/ce/gitlab-basics/create-branch.html).
 
 9. Information displayed on [Team page](https://about.gitlab.com/team/) is
 pulled from a data file. You can find it, by clicking on each of the following itens: `source/` `_data/``
-`team_members.yml`.
+`team.yml`.
 
-10. When you are in “team_members.yml”, click on “edit” on the top right side of
+10. When you are in “team.yml”, click on “edit” on the top right side of
 your screen.
 
 11. Your information should be added after the last person on the team page.
