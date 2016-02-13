@@ -145,6 +145,7 @@ We very much welcome contributions that implement any of these things.
 - [Automatic Docker image cleanup](https://gitlab.com/ayufan/gitlab-runner-docker-cleanup/issues/1)
 - [Show code coverage in diffs with colored horizontal bar](https://gitlab.com/gitlab-org/gitlab-ce/issues/4073)
 - [A/B testing of branches with GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
+- [Code coverage graphs and adding more metrics](https://gitlab.com/gitlab-org/gitlab-ce/issues/13409)
 
 ### Scope <a name="scope"></a>
 
