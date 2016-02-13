@@ -49,9 +49,9 @@
   {% endif %}
 
   {% if page.image_title %}
-  <meta content="{{ page.image_title }}" property="og:image">
+  <meta content="{{ site.url }}{{ page.image_title }}" property="og:image">
   {% else %}
-  <meta content="/images/gitlab_logo.png" property="og:image">
+  <meta content="{{ site.url }}/images/gitlab_logo.png" property="og:image">
   {% endif %}
 
   {% if page.categories %}

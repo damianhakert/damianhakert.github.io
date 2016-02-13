@@ -47,11 +47,11 @@ order). If you don't have a branch yet, follow the steps to [create a new
 branch](http://doc.gitlab.com/ce/gitlab-basics/create-branch.html).
 ![dropdown menu](source/images/dropdown-branch-teampage.jpg)
 
-9. Find the file where the [Team page](https://about.gitlab.com/team/) is
-located, by clicking on each of the following files: source/ team/
-index.html.
+9. Information displayed on [Team page](https://about.gitlab.com/team/) is
+pulled from a data file. You can find it by clicking on each of the following items: `source/` `_data/``
+`team.yml`.
 
-10. When you are in “index.html”, click on “edit” on the top right side of
+10. When you are in “team.yml”, click on “edit” on the top right side of
 your screen.
 
 11. Your information should be added after the last person on the team page.
