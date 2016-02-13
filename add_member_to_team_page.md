@@ -48,7 +48,7 @@ branch](http://doc.gitlab.com/ce/gitlab-basics/create-branch.html).
 ![dropdown menu](source/images/dropdown-branch-teampage.jpg)
 
 9. Information displayed on [Team page](https://about.gitlab.com/team/) is
-pulled from a data file. You can find it, by clicking on each of the following itens: `source/` `_data/``
+pulled from a data file. You can find it by clicking on each of the following items: `source/` `_data/``
 `team.yml`.
 
 10. When you are in “team.yml”, click on “edit” on the top right side of
