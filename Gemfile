@@ -17,6 +17,7 @@ end
 
 group :test do
   gem 'html-proofer'
+  gem 'yaml-lint'
 end
 
 gem 'sinatra', '~> 1.4.2'
