@@ -43,7 +43,7 @@ We believe that all digital products should be open to contributions, from legal
 
 4. Become the most popular SaaS solution for public repositories (easier to overcome network effects if people already use GitLab.com for private repositories)
 
-5. All knowledge workers contributing via GitLab (make GitLab much more user friendly)
+5. All knowledge workers contributing via GitLab (need to make the git workflow much more user friendly)
 
 ## Assumptions
 
