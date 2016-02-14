@@ -37,13 +37,13 @@ We believe that all digital products should be open to contributions, from legal
 
 1. Become the most popular solution on-premises (DONE)
 
-2. Become the most revenue generation solution on-premises
+2. Become the most revenue generation solution on-premises (through well executed marketing and sales)
 
-3. Become the most popular SaaS solution for private repositories
+3. Become the most popular SaaS solution for private repositories (through a great product that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever))
 
-4. Become the most popular SaaS solution for public repositories
+4. Become the most popular SaaS solution for public repositories (easier to overcome network effects if people already use GitLab.com for private repositories)
 
-5. All knowledge workers contributing via GitLab
+5. All knowledge workers contributing via GitLab (make GitLab much more user friendly)
 
 ## Assumptions
 
