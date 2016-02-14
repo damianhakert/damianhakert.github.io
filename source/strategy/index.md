@@ -25,7 +25,7 @@ We believe that all digital products should be open to contributions, from legal
 
 1. Ensure that **everyone can contribute** in the 5 ways outlined above.
 
-2. Become most used software for the software development lifecycle and collaboration on all digital content.
+2. Become most used software for the software development lifecycle and collaboration on all digital content by following [the sequence below](#sequence).
 
 3. Complete our product vision of an [opinionated and integrated set of tools based on convention over configuration that offers superior user experience](https://about.gitlab.com/direction/#vision).
 
@@ -39,7 +39,7 @@ We believe that all digital products should be open to contributions, from legal
 
 2. Become the most revenue generation solution on-premises (through well executed marketing and sales)
 
-3. Become the most popular SaaS solution for private repositories (through a great product that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever))
+3. Become the most popular SaaS solution for private repositories (through a [great product](https://about.gitlab.com/direction/) that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever))
 
 4. Become the most popular SaaS solution for public repositories (easier to overcome network effects if people already use GitLab.com for private repositories)
 
