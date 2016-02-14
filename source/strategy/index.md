@@ -33,7 +33,7 @@ We believe that all digital products should be open to contributions, from legal
 
 5. Stay independent long term so we can preserve our values.
 
-## Sequence
+## Sequence <a name="sequence"></a>
 
 1. Become the most popular solution on-premises (DONE)
 
