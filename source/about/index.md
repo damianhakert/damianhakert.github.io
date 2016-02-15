@@ -128,8 +128,9 @@ In case we're not sure, we'll consult with the [core team](https://about.gitlab.
 If you're interested, most of our internal procedures can be found in <a href="/handbook">publicly viewable handbooks</a>.
 
 ## Donations<a name="donations"></a>
+
 Some people contact us because they would like to donate to GitLab.
-If you have time to give please help spread the word about GitLab by mentioning us and/or <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md">contribute by reviewing issues and merge requests</a>.
+If you have time to give please help spread the word about GitLab by mentioning us and/or <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md">contribute by creating and reviewing issues and merge requests</a>.
 If you would like to give money please <a href="http://railsgirlssummerofcode.org/campaign/">donate to Rails Girls Summer of Code</a> in our name.
 
 ## Location
