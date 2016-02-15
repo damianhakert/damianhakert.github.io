@@ -625,12 +625,12 @@
   story:  |
           To be revealed
 
-- name: Joining soon&#58; I. N.
+- name: Ivan Nemytchenko
   role: <a href="https://about.gitlab.com/jobs/developer-evangelist/">Developer Evangelist</a>
   reports_to: CMO
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: ivan.png
+  twitter: inemation
+  gitlab: inem
   story:  |
           To be revealed
 
