@@ -647,14 +647,15 @@
           he enjoys developing from small to large scale projects with a high degree of devotion.
           He likes music and loves attending concerts.
 
-- name: Joining soon&#58; Z.J.
+- name: Zeger-Jan 'ZJ' van de Weg
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer Intern</a>
   reports_to: Development Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: zegerjan.jpeg
+  twitter: zjvandeweg
+  gitlab: zj
   story:  |
-          To be revealed
+          Zeger-Jan is a husband, father of an awesome son, and about to get his bachelor’s degree in Computer Science. In his spare time he spends time with his family,
+          plays board games (he hates not winning) and watches TV shows.
 
 - name: Joining soon&#58; P.H.
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
