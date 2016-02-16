@@ -110,7 +110,7 @@ includes an equal amount of AD&D coverage.
 ### Group Long-Term Disability Insurance
 
 The Company provides a policy that may replace up to 60% of your salary, up to
-a maximum benefit of $10,000 per month, for qualifying disabilities. A waiting
+a maximum benefit of $12,500 per month, for qualifying disabilities. A waiting
 period of 180 days will apply.
 
 ### 401k Plan
