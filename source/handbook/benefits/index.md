@@ -8,6 +8,9 @@ title: "Benefits"
 * [Specific to Netherland based employees](#nl-specific-benefits)
 * [Specific to US based employees](#us-specific-benefits)
 
+NOTE: Our contractor agreements and employment contracts are all on the [Contracts](https://about.gitlab.com/handbook/contracts/) page.
+
+
 ## General Benefits <a name="general-benefits"></a>
 
 1. GitLab will pay for the items listed under [spending company money](https://about.gitlab.com/handbook/#spending-company-money).
