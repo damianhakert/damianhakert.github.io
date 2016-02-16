@@ -62,6 +62,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [Merge even if master is updated](https://gitlab.com/gitlab-org/gitlab-ce/issues/3873)
 - [Acknowledge line comments on a MR](https://gitlab.com/gitlab-org/gitlab-ce/issues/10325)
 - [Get rid of default login credentials](Get rid of default login credentials)
+- [Ability to delete issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/2489)
 
 ### 8.7 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/23) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/9) April 22nd
 
