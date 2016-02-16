@@ -1,9 +1,9 @@
 ---
 layout: markdown_page
-title: "Developer Evangelist"
+title: "Developer Advocate"
 ---
 
-As our official Developer Evangelist, your goal is to yell from the rooftops
+As our official Developer Advocate, your goal is to yell from the rooftops
 about the greatness of GitLab and our amazing community. You’ll be traveling to events
 for speaking engagements, creating high-quality code complete tutorials to help our community
 collaborate more effectively, and doing everything in your power to keep GitLab in the minds of the developer community.
