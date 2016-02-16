@@ -22,7 +22,7 @@ title: "Benefits"
            should be transferred.
          * For part-time team members, the lump sum is calculated pro-rata, so
            for example for a team member that works for GitLab 50% of the time,
-           the lump sum would be $5,000.
+           the lump sum would be $10,000.
 1. Our [paid time off policy](https://about.gitlab.com/handbook/#paid-time-off)
 1. There are [incentives](https://about.gitlab.com/handbook/#incentives) available.
 
