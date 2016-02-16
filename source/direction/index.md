@@ -129,6 +129,7 @@ We very much welcome contributions that implement any of these things.
 - [Distributed code-reviews and issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/4084)
 - [Render PSD files](https://gitlab.com/gitlab-org/gitlab-ce/issues/13189)
 - [Snippets backed by a git repository to enable cloning and revisions](https://gitlab.com/gitlab-org/gitlab-ce/issues/13426)
+- [Binary file lock](https://gitlab.com/gitlab-org/gitlab-ce/issues/7889)
 
 ### Performance
 
