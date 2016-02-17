@@ -10,7 +10,7 @@ image_title: '/images/blogimages/gitlab-pages-setup-cover.jpg'
 ---
 
 In this tutorial we provide you with detailed information about using
-[GitLab Pages][] to host your website for free on [GitLab.com][]!
+[GitLab Pages][] to host your website for free on [GitLab.com][].
 
 If you're not familiar with `git` or with GitLab itself, don't worry,
 everything is briefly explained.
@@ -22,16 +22,16 @@ However, there's nothing too complex that a beginner or an intermediate develope
 
 <!-- more -->
 
-#### Table of Contents
+#### What's in this tutorial?
 
 * [GitLab.com](#GitLab-com)
 * [GitLab Pages](#GitLab-Pages)
- * [Main GitLab Pages Features](#GitLab-Pages-Features)
- * [Conditions to host on GitLab Pages](#conditions-to-host-on-GitLab-Pages)
+* [Main GitLab Pages Features](#GitLab-Pages-Features)
+  * [Conditions to host on GitLab Pages](#conditions-to-host-on-GitLab-Pages)
      * [Supported Languages &amp; Files](#supported-languages-and-files)
      * [Jekyll Static Website Generator](#jekyll)
- * [Domain &amp; Subdomain names](#domains-and-subdomains)
- * [Website Types](#website-types)
+* [Domain &amp; Subdomain names](#domains-and-subdomains)
+  * [Website Types](#website-types)
      * [User Websites](#user-websites)
      * [Project Websites](#project-websites)
 * [Setting Up GitLab Pages](#Setting-Up-GitLab-Pages)
@@ -332,7 +332,7 @@ If your project already have content:
 - Click on `Files` (on the sidebar menu)
 - Click on the ` + ` sign and you will see the following options:
 
-![Adding content to GitLab.com projects via web interface](https://virtuacreative.gitlab.io/images/gitlab-blog/gitlab-adding-new-file-web.png)
+![Adding content to GitLab.com projects via web interface](images/blogimages/gitlab-adding-new-file-web.png)
 
 - Choose one of the options (New file, Upload file, New directory, New branch or New tag)
 - Commit your changes
@@ -359,13 +359,13 @@ After installing [Git][], you need to proceed as the following:
 
 **Choose `https`:**
 
-![GitLab Clone Repo via https link](https://virtuacreative.gitlab.io/images/gitlab-blog/gitlab-clone-repo-https-link.jpg)
+![GitLab Clone Repo via https link](/images/blogimages/gitlab-clone-repo-https-link.jpg)
 
 ----
 
 **Then copy it:**
 
-![GitLab Clone Repo via https link copy](https://virtuacreative.gitlab.io/images/gitlab-blog/gitlab-clone-repo-https-link-copied.jpg)
+![GitLab Clone Repo via https link copy](/images/blogimages/gitlab-clone-repo-https-link-copied.jpg)
 
 ----
 
