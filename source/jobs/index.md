@@ -64,10 +64,10 @@ an alternative that would be able to lead to the same insights.
 * [Description](https://about.gitlab.com/jobs/service-engineer/)
 * [Apply](https://gitlab.workable.com/jobs/87722/candidates/new)
 
-### Frontend Engineer
+### DevOps Engineer
 
-* [Description](https://about.gitlab.com/jobs/frontend-engineer/)
-* [Apply](https://gitlab.workable.com/jobs/181461/candidates/new)
+* [Description](https://about.gitlab.com/jobs/devops-engineer/)
+* [Apply](https://gitlab.workable.com/jobs/142989/candidates/new)
 
 ### Strategic Relations Manager
 
