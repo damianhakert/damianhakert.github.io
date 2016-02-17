@@ -59,6 +59,12 @@ quickly rejected as 'won't work' or 'not interested' without much explanation."
    * Always be sure to reach out to your manager if you feel that you need more guidance. Your peers are a Slack message away.
 1. "Maybe a more competitive salary"
    * From the [handbook](https://about.gitlab.com/handbook/#general-guidelines): "If you are unhappy with anything (your duties, your colleague, your boss, your salary, your location, your computer) please let your boss, or the CEO, know as soon as you realize it. We want to solve problems while they are small."
+1. "A step between review/QA and deployment."
+   * Review happens through merge requests, and QA happens as part of the release process. We can't think of anything else at the moment that would not introduce gates that cause delay and inefficiency.
+1. "Off-site meetings during the year and/or team-specific summits, like a hackathon"
+   * We had a Summit in Oct'15, and are having one in May'16. We aim to have these every 6-9 months. We are thinking about organizing a hackathon during the [Summit](https://gitlab.com/summits/Austin-Summit-2016-project/blob/master/Proposed_Activities.md); please upvote if you want it to happen!
+1. "We share a lot about our software 'side'; can we share more about our other 'sides' (like how marketing does marketing) in a "team blog"? This would help in hiring awesome people!"
+   * We love blog posts and sharing all of GitLab's 'sides'. Please channel your inner need to write a blog post (or part of it!) on our [blog](https://gitlab.com/gitlab-com/blog-posts/issues) repo.
 
 #### "What do you like about working here?"
 
