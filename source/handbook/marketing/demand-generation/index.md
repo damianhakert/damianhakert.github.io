@@ -84,10 +84,10 @@ Current state
 
 - Raw => Newly synced lead from Marketo to SFDC
 - Open => Lead not yet contacted
-- Attempt 1 => One message sent without response
-- Attempt 2 => Two messages sent without response
-- Attempt 3 => Three messages sent without response
-- Attempt 4 => Four messages sent without response
+- Attempt 1 => One message sent without response; after 21 days, auto-updates to Nurture
+- Attempt 2 => Two messages sent without response; after 21 days, auto-updates to Nurture
+- Attempt 3 => Three messages sent without response; after 21 days, auto-updates to Nurture
+- Attempt 4 => Four messages sent without response; after 21 days, auto-updates to Nurture
 - Qualified => Soft-BANT criteria met. Action: convert to Contact and introduce to sales team.
 - Progressing => Communication is two-way, but Soft-BANT still undetermined. Any response that doesn't immediately put the lead into "Qualified", "Unqualified", or "Nurture" status should put the lead in this status.
 - Unqualified => Soft-BANT criteria not met (e.g. a developer using GitLab for personal projects, a student, etc.). Action: send appropriate resources if requested; avoid sending salesy messages.
