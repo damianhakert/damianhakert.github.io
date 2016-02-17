@@ -98,6 +98,10 @@ Current state
 
 Coming soon once process is defined. Will be signup campaign for GitLab.com, leads that don't meet Soft-BANT requirements, etc.
 
+## Subscriptions and Newsletter
+
+Inbound leads receive appropriate marketing emails, such as newsletters, onboarding tips (coming soon), etc. What they receive depends on how they came to find us and what we believe will be most helpful to them. For example, a person who downloaded an EE trial will receive different resources than a person who registered for a webcast. Our non-operational emails have a one-click unsubscribe button. You can manually unsubscribe a person by clicking the "Opt Out" checkbox in SFDC. SFDC also has a manual 30-Day Opt Out checkbox for a 30-day unsubscribe from non-operational emails.
+
 ## Marketo Tools Server
 
 - This is a simple Sinatra application that receives several web hooks and forwards the relevant information to Marketo via its REST API.
