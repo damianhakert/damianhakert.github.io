@@ -370,8 +370,8 @@ Via the web interface, copy the `https` path of the project you want to clone:
 - Introduce yourself to `git` by typing:
 
 ```posh
-git config --global user.name _Your Name Goes Here_
-git config --global user.email _your-email@example.com_
+git config --global user.name "Your Name Goes Here"
+git config --global user.email "your-email@example.com"
 ```
 
 - Choose a folder where you want to store your project and navigate into it
