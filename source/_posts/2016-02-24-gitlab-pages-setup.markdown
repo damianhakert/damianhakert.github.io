@@ -22,34 +22,24 @@ However, there's nothing too complex that a beginner or an intermediate develope
 
 <!-- more -->
 
-#### What's in this tutorial?
+### What's in this tutorial?
 
 * [GitLab.com](#GitLab-com)
-
 * [GitLab Pages](#GitLab-Pages)
-
 * [Main GitLab Pages Features](#GitLab-Pages-Features)
-
-  * [Conditions to host on GitLab Pages](#conditions-to-host-on-GitLab-Pages)
-
+  * [Technical overview of GitLab Pages](#technical-overview-gitlab-pages)
      * [Supported Languages &amp; Files](#supported-languages-and-files)
      * [Jekyll Static Website Generator](#jekyll)
-
 * [Domain &amp; Subdomain names](#domains-and-subdomains)
-
   * [Website Types](#website-types)
      * [User Websites](#user-websites)
      * [Project Websites](#project-websites)
-
 * [Setting Up GitLab Pages](#Setting-Up-GitLab-Pages)
-
   * [Step-by-Step](#step-by-step)
-
-     * [Creating a new project](#creating-new-project)
-     * [Creating `.gitlab-ci.yml` configuration file](#creating-gitlab-ci)
-     * [Enabling Shared Runners](#enabling-shared-runners)
-     * [Uploading your Website Content](#uploading-website-content)
-
+     * [Create a new project](#creating-new-project)
+     * [Create the `.gitlab-ci.yml` configuration file](#creating-gitlab-ci)
+     * [Enable Shared Runners](#enabling-shared-runners)
+     * [Upload your Website Content](#uploading-website-content)
 * [Building Process](#building-process)
 
 ----
@@ -76,7 +66,7 @@ You'll only need internet access, an e-mail account and a username.
 which was made for providing a free, simple website hosting service.  
 GitLab Pages is a feature available through the GitLab EE (Enterprise Edition is what GitLab.com runs.)
 That means if you have your own GitLab EE instance your users can create GitLab pages
-whether you host on premises or with [GitHost.io][].
+whether you host on premises or with [GitHost.io][https://githost.io].
 
 <a name="GitLab-Pages-Features"></a>
 
@@ -86,14 +76,15 @@ whether you host on premises or with [GitHost.io][].
 - **Supports and builds [Jekyll][]**:
    * Multiple Jekyll Versions - no more unpleasant site breaks due to Jekyll Upgrades.
    * Multiple Plugins - you make a request, GitLab.com builds.
-- Your website will be automatically **digital certified** by [Comodo](https://www.comodo.com/) - meaning secure `https` connection for your site  - `https://you.gitlab.io`
+- Your website will be automatically **digital certified** by [Comodo](https://www.comodo.com/) -
+meaning a secure `https` connection for your site  - `https://you.gitlab.io`
 - **Control over the building process** - you can run your own script however you like.
 - **Shared runners** - you don't need to rely on just one computer to run your script.
 You can enable shared runners or install one for yourself.
 
-<a name="conditions-to-host-on-GitLab-Pages"></a>
+<a name="technical-overview-gitlab-pages"></a>
 
-### Conditions to host on GitLab Pages
+### Technical overview of GitLab Pages
 
 <a name="supported-languages-and-files"></a>
 
@@ -121,12 +112,12 @@ This means we write dynamically and Jekyll `build`s the static site (HTML, CSS, 
 [Jekyll][] is based on:
 
 - [Markdown][], `.md`, which is a simple textile file easy to read;
-- [Yaml][], `.yml`, responsible for configuring variables and their values;
+- [YAML][], `.yml`, responsible for configuring variables and their values;
 - [Liquid][], which dynamically calls the YAML variables defined by Jekyll itself or by yourself.
 
 You also will need to handle some HTML, CSS and JavaScript files.
 
-If you aren't familiar with Jekyll, it's worth the try.
+If you aren't familiar with Jekyll, it's worth a try.
 You can play around with `includes`, `loops`, `if` statements, `code blocks` and a lot more.
 You can find all of it on [Jekyll Documentation](http://jekyllrb.com/docs/home/).
 Jekyll also offers full support for preprocessors like [Sass](http://jekyllrb.com/docs/assets/#sassscss) and [Coffee Script](http://jekyllrb.com/docs/assets/#coffeescript).
@@ -140,22 +131,22 @@ Once installed, it's pretty fast to learn and easy to use.
 
 Using custom domain and subdomain names pointing to your website hosted
 by **GitLab Pages** is a feature that is already implemented to [GitLab EE][]
-and it is currently **under development** by [GitLab Team][] to make it
+and it is currently under development by GitLab team to make it
 available to [GitLab.com][] users.
 
-As soon as it is released for **GitLab.com** we'll bring you a tutorial with
-the steps to configure you site.
+As soon as it is released for GitLab.com we'll bring you a tutorial with
+the steps to configure your site.
 Follow [GitLab on Twitter][3] and stay tuned for updates.
 
 <a name="Comprehending-GitLab-Pages"></a>
 
-### Comprehending GitLab Pages
+## Comprehending GitLab Pages
 
 <a name="website-types"></a>
 
 ### Website Types:
 
-On **GitLab.com** you are allowed to create and host with **GitLab Pages** two sorts of websites:
+On GitLab.com you are allowed to create and host with GitLab Pages two sorts of websites:
 
 1. User Websites
 2. Project Websites
@@ -164,18 +155,18 @@ On **GitLab.com** you are allowed to create and host with **GitLab Pages** two s
 
 #### GitLab User Websites
 
-Every **GitLab.com** user is permitted to create only one **user website**,
+Every GitLab.com user is permitted to create only one **user website**,
 which will be accessed via `https://username.gitlab.io`.
 Setting this website up has exactly the same process as setting **project websites** up.
 They are both deployed and build likely.
-The only difference is, for **user websites**, the **repository name** needs
+The only difference is, for **user websites**, the repository name needs
 to be exactly `username.gitlab.io`, where `username` is, of course, your user name.
 
 <a name="project-websites"></a>
 
 #### GitLab Project Websites
 
-Every **GitLab.com** user is allowed to create as many **project websites** as they want.
+Every GitLab.com user is allowed to create as many **project websites** as they want.
 They will be accessed via `https://username.gitlab.io/projectname`.
 Their **repository names** (projects' names) can be chosen at the users' will.
 
@@ -199,16 +190,16 @@ Now we will go through this process step-by-step.
 
 <a name="creating-new-project"></a>
 
-#### **Create a new project**
+#### Create a new project
 
 This is as strait-forward as you can imagine:
 
 - On your **dashboard** you will see a big green button called `+ New Project`. Click on it.
 - Set the first things up:
    - **Project path** - your project's name, accessed by `https://gitlab.com/username/projectname`:
-   - **Privacy** - choose if you want your project to be visible and accessible just for you (`private`), just for **GitLab.com** users (`internal`) or free to anyone to view, clone, fork and download it (`public`)
+   - **Privacy** - choose if you want your project to be visible and accessible just for you (`private`), just for GitLab.com users (`internal`) or free to anyone to view, clone, fork and download it (`public`)
 
-**Important**: you **can** host your website on [GitLab.com][] even if it is
+**Important**: you can host your website on [GitLab.com][] even if it is
 stored in a **private** repository!
 If you do so, you can have your [Jekyll][] project **protected** -
 only the `html` compiled site will be visible to the public -
@@ -216,20 +207,20 @@ via _Inspect Element_ or _View-Source_ from their web browsers.
 
 <a name="creating-gitlab-ci"></a>
 
-#### **Add the `.gitlab-ci.yml` configuration file**
+#### Add the `.gitlab-ci.yml` configuration file
 
 The key for having everything up and running as expected is [**GitLab CI** configuration file][doc-ciconfig] `.gitlab-ci.yml`.
 Every time your repository content is updated,  `.gitlab-ci.yml` will be called by the _runners_ to build it.
 
 This file has to be added to the **root** of your project.
 You can have a distinct `.gitlab-ci.yml` for each repository - even for each `branch`.
-This means you can **test** your script in parallel branches before pushing to your `master` branch.
+This means you can test your script in parallel branches before pushing to your `master` branch.
 If the build succeed, you merge.
 If it doesn't, you can make adjustments and try building again without messing up with you `master` branch.
 
-##### **GitLab-ci for plain HTML websites**
+#### GitLab-ci for plain HTML websites
 
-In order to build your **plain** `html` site with **GitLab Pages**,
+In order to build your plain `html` site with GitLab Pages.
 your `.gitlab-ci.yml` file doesn't need much.
 Just copy the following code and paste it to your file.
 
@@ -254,14 +245,14 @@ What this code is doing is:
 - `artifacts`- it's creating a public path to the build project
 - `only:` - the previous script is affecting only the following branches
 
-**Examples**: **plain HTML Template Websites**:
+**Examples**: plain HTML Template Websites:
 
 - [Genius Template](https://virtuacreative.gitlab.io/genius/) - [View Project on GitLab](https://gitlab.com/virtuacreative/genius)
 - [ArtCore Template](https://virtuacreative.gitlab.io/artcore/) - [View Project on GitLab](https://gitlab.com/virtuacreative/artcore)
 
-##### **GitLab-ci for Jekyll websites**
+#### GitLab-ci for Jekyll websites
 
-If you want **GitLab Pages** to build your Jekyll website, you will need to start with this simple script:
+If you want GitLab Pages to build your Jekyll website, you will need to start with this simple script:
 
 ```ruby
 image: ruby:2.1
@@ -286,7 +277,7 @@ What this code is doing is:
 - `artifacts`- it's creating a public path to the build project
 - `only:` - the previous script is affecting only the following branches
 
-**Examples**: **Jekyll Websites**:
+**Examples**: Jekyll Websites:
 
 - [Creative Theme](https://steko.gitlab.io/test/) - [View source on GitLab](https://gitlab.com/steko/test/tree/pages) - [View `.gitlab-ci.yml`](https://gitlab.com/steko/test/blob/pages/.gitlab-ci.yml) - deploying via `pages` branch.
 - [Greyscale Theme](https://virtuacreative.gitlab.io/grayscale/) - [View project on GitLab](https://gitlab.com/virtuacreative/grayscale) - [View `.gitlab-ci.yml`](https://gitlab.com/virtuacreative/grayscale/blob/master/.gitlab-ci.yml) - default configuration.
@@ -300,7 +291,7 @@ Here you can read the [full documentation regarding `.gitlab-ci.yml`](http://doc
 
 <a name="enabling-shared-runners"></a>
 
-#### **Enable Shared Runners**
+#### Enable Shared Runners
 
 > A 'runner' is a process which runs a build. You can setup as many runners as you need. Runners can be placed on separate users, servers, and even on your local machine.
 
@@ -308,7 +299,7 @@ Now you will need to configure [runners][doc-runners] to build your website
 based on the `.gitlab-ci.yml` configuration.
 This step is quite simple.
 
-Go to your dashboard and click on a **GitLab Pages** project.
+Go to your dashboard and click on a GitLab Pages project.
 Then click on `Settings` -> `Runners` and you will see the option `Enable Shared Runners`.
 Click on that and you're done!
 
@@ -317,18 +308,17 @@ This is a non-required step and it's up to you to using this feature or not.
 
 <a name="uploading-website-content"></a>
 
-#### **Upload your Website Content**
+#### Upload your Website Content
 
-You have basically two ways of inserting content to your projects:
+You have two ways of inserting content to your projects:
 
-1. Via web interface ([GitLab.com][5])
+1. Via the web interface ([GitLab.com][5])
 2. Via command line
 
-##### Via Web
+**Via the web interface**
 
-It's the most straight-forward way for this task:
-
-- Choose a project and click on that
+Via the web interface is the most straight-forward way for this task.
+To start, select your project.
 
 If your project is new and it's empty:
 
@@ -337,47 +327,42 @@ If your project is new and it's empty:
 - Add a name for your file, insert the content and commit your changes
 - Done!
 
-If your project already have content:
+If your project already has content:
 
 - Click on `Files` (on the sidebar menu)
 - Click on the ` + ` sign and you will see the following options:
 
-![Adding content to GitLab.com projects via web interface](images/blogimages/gitlab-adding-new-file-web.png)
+![Adding content to GitLab.com projects via web interface](/images/blogimages/gitlab-adding-new-file-web.png)
 
 - Choose one of the options (New file, Upload file, New directory, New branch or New tag)
 - Commit your changes
 - Done!
 
 
-##### Via Command Line
+**Via Command Line**
 
-In order to connect your computer to online `git` services, you'll need to [install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) locally.
+In order to connect your computer to remote `git` services, you'll need to [install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) locally.
 
 If you are not familiar with the command line, don't be discouraged.
-You won't need too much from it to make things work.
+You won't need to do too much to make things work.
 If you really don't have any idea how it works, you can search for
 _"how to use command line"_ and you'll find a lot of tutorials to guide you through.
 It's a very useful skill to acquire.
 
 After installing [Git][], you need to proceed as the following:
 
-**First**: To download your project (you'll need to do that before uploading any content via terminal):
+**First**: Clone your project.
+This downloads a copy, which you'll need before you can upload any content.
 
-- Via the web interface, copy the `https` path of the project you want to clone:
-
-----
+Via the web interface, copy the `https` path of the project you want to clone:
 
 **Choose `https`:**
 
 ![GitLab Clone Repo via https link](/images/blogimages/gitlab-clone-repo-https-link.jpg)
 
-----
-
 **Then copy it:**
 
 ![GitLab Clone Repo via https link copy](/images/blogimages/gitlab-clone-repo-https-link-copied.jpg)
-
-----
 
 <a name="git-config-global"></a>
 
@@ -385,7 +370,7 @@ After installing [Git][], you need to proceed as the following:
 - Introduce yourself to `git` by typing:
 
 ```posh
-git config --global user.name _Your Name Comes Here_
+git config --global user.name _Your Name Goes Here_
 git config --global user.email _your-email@example.com_
 ```
 
@@ -395,19 +380,21 @@ git config --global user.email _your-email@example.com_
 project (**tip**: you cannot paste any command to the terminal via `Ctrl + V`
   but you can do that by right-clicking on the terminal with your mouse)
 - The terminal will ask for your credentials.
-Enter your **GitLab.com** username, press `enter` or `return`, enter your password and press that again
+Enter your GitLab.com username, press `enter` or `return`, enter your password and press that again
 - Done!
 
-Great! Now your repository will be cloned (= downloaded) to your local computer,
+Great! Now your repository will be cloned (meaning downloaded) to your local computer,
 in the folder you had chosen before.
-Make the adjustments you need (insert or delete files, change them, whatever you want).
+Make the adjustments you need such as adding or deleting files.
+
+----
 
 **Second**: Whenever you need to **upload** content again to update your project online:
 
 - Open the terminal, navigate to your local folder and [introduce yourself](#git-config-global)
 - Type `git pull` - this command will download any files changed via web interface
 - Type `git status` - you will see all the changes made locally compared to the previous pull request
-- Type `git add <file>` - to add an specific file - or `git add .` - to add all the files at the same time
+- Type `git add <file>` - to add a specific file, or `git add .` - to add all the files at the same time
 - Type `git commit -m "my message"` - to commit your changes
 - Type `git push` - to upload everything you had added and committed to the repository
 - Most likely the system will require your credentials again, so just type your
@@ -422,7 +409,7 @@ You can find here a [Git Cheat Sheet](https://www.git-tower.com/blog/git-cheat-s
 
 ## Building Process
 
-As previously mentioned, **GitLab.com** building process is controlled by yourself, through `.gitlab-ci.yml` configurations. If you want to monitor the process while it's running, just follow these few steps:
+The GitLab.com building process is controlled by yourself, through `.gitlab-ci.yml` configurations. If you want to monitor the process while it's running, just follow these few steps:
 
 - Sign into your GitLab.com account and open the project you want to view.
 - On the sidebar menu, click on `Builds`.
@@ -450,7 +437,7 @@ We're looking forward to seeing your sites!
 [GitLab Team]: https://about.gitlab.com/team/
 [Jekyll]: https://jekyllrb.com
 [Markdown]: http://daringfireball.net/projects/markdown/basics
-[Yaml]: http://yaml.org/
+[YAML]: http://yaml.org/
 [Liquid]: https://github.com/Shopify/liquid/wiki
 [Ruby]: https://www.ruby-lang.org/
 
