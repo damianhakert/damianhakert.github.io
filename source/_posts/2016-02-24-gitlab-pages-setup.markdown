@@ -426,7 +426,7 @@ Hopefully you understand how **GitLab Pages** work and how to create your new si
 We're looking forward to seeing your sites!
 
 
-[doc-runner]: http://doc.gitlab.com/ce/ci/runners/README.html#sts=Runners
+[doc-runners]: http://doc.gitlab.com/ce/ci/runners/README.html#sts=Runners
 [doc-stages]: http://doc.gitlab.com/ce/ci/yaml/README.html#stages
 [doc-ciconfig]: http://doc.gitlab.com/ee/ci/quick_start/README.html#creating-a-.gitlab-ci.yml-file
 [gitlab83]: https://about.gitlab.com/2015/12/22/gitlab-8-3-released
