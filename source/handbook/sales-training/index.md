@@ -4,6 +4,7 @@ title: "Sales Training"
 ---
 
 * [5 Signs You’re Talking At (Not Talking To) Your Prospects](#signs)
+* [Ways to influence decision making by using the Psychology of Persuasion: The Principle of Reciprocity](#reciprocity)
 * [6 Ways to Make Your Sales Email Insanely Valuable to Prospects](#insanely)
 * [3 Seemingly Scary Words Reps Shouldn’t Be Afraid to Use](#scary)
 * [6 Questions Sales Reps Should (But Don’t) Ask Themselves Before Sending an Email](#questions)
@@ -61,6 +62,40 @@ If it's the latter, dig deeper. While many of your sales conversations will run 
 Another way to check whether your sales conversations are productive for your prospect is to quiz yourself. Can you explain the deal to someone else on your team?
 
 To test his understanding of a prospect’s problems, Dan Tyre, a sales director at HubSpot, tries to define three reasons his prospects would buy, three reasons his prospects would balk, and what the next step should be. If he can’t, he knows he needs to get on another call with his prospect to further understand what they want and discuss how to move forward in a mutually productive way.
+
+
+### Ways to influence decision making by using the Psychology of Persuasion: The Principle of Reciprocity <a name="reciprocity"></a>
+
+Dr. Robert Cialdini's theory of influence from his book "Influence: The Psychology of Persuasion" defines six principles that guide human behavior. The first principle is reciprocity, the desire to give back to someone who has given to us. E.g. if someone does you a favor you feel obligated to return a favor.
+
+In a sales conversation this principle can be used to influence the direction and outcome of a conversation from the very beginning. 
+For example if a prospect signs up for a free trial, you can initiate the conversation by offering help with potential issues or questions and making sure the prospect has received the relevant information from the trial confirmation mail, e.g. the license key.
+Nearly everyone of us has experienced a situation where a confirmation email didn't arrive or went to the spam folder. So by starting the conversation with a favor, the prospect will feel obligated to take the time to reply and answer your [open-ended question](#art).
+The principle of reciprocity is also reason why [sales emails should always provide value to a customer](#insanely). 
+Here are a few examples about how to start a conversation with a prospect who started a trial:
+
+Hi [prospect] and thanks for your interest in GitLab.
+
+In case you didn't see the email from our license app, I've attached a copy of your trial license key. Let me know if you need help installing or configuring GitLab.
+
+Perhaps let me know what's driving your interest, what you're looking to validate during the trial period and how we can help you (demo, docs technical support etc).
+
+Cheers,
+
+
+Hi [prospect],
+
+Thank you for your interest in GitLab Enterprise Edition.
+
+In case you did not receive the email with the license file yet, I have attached it to this email.
+
+Do you have any questions or issues regarding GitLab so far?
+
+It would be great to understand what the problems and tasks are, that you are trying to solve with GitLab Enterprise Edition?
+
+Looking forward hearing from you.
+
+Best regards,
 
 
 ### 6 Ways to Make Your Sales Email Insanely Valuable to Prospects <a name="insanely"></a>
