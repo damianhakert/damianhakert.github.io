@@ -88,7 +88,7 @@ the fair market value of the common stock on the date of grant pursuant to the
 terms and conditions of the Company’s 2015 Stock Plan (the “Stock Plan”), and the 
 stock option agreement that is entered into hereunder evidencing the grant. 
 Twenty-five percent (25%) of the Stock Option grant shall vest and become exercisable 
-12 months after the Effective date of this agreement and the remainder of the Stock 
+12 months after the Date of Vesting Commencement (hire date) and the remainder of the Stock 
 Option grant shall vest and become exercisable in 36 consecutive, equal, monthly 
 installments such that the Stock Option shall be fully vested and exercisable as 
 of the fourth anniversary of the date of grant, provided Employee remains a service 

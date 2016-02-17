@@ -41,7 +41,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 ### 8.5 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/20) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/7) February 22nd
 
 - [CI Autoscale](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/318)
-- [GitLab Pages gets CNAME and SSL support](https://gitlab.com/gitlab-org/gitlab-ee/issues/134)
+- [GitLab Pages gets CNAME and SSL support (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/134)
 - [GitLab Geo for readonly secondary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
 - [Todo's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2425)
 - [HA Omnibus packages (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
@@ -62,6 +62,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [Merge even if master is updated](https://gitlab.com/gitlab-org/gitlab-ce/issues/3873)
 - [Acknowledge line comments on a MR](https://gitlab.com/gitlab-org/gitlab-ce/issues/10325)
 - [Get rid of default login credentials](Get rid of default login credentials)
+- [Ability to delete issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/2489)
 
 ### 8.7 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/23) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/9) April 22nd
 
@@ -129,6 +130,7 @@ We very much welcome contributions that implement any of these things.
 - [Distributed code-reviews and issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/4084)
 - [Render PSD files](https://gitlab.com/gitlab-org/gitlab-ce/issues/13189)
 - [Snippets backed by a git repository to enable cloning and revisions](https://gitlab.com/gitlab-org/gitlab-ce/issues/13426)
+- [Binary file lock](https://gitlab.com/gitlab-org/gitlab-ce/issues/7889)
 
 ### Performance
 

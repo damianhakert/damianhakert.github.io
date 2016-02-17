@@ -49,9 +49,9 @@ and you agree to the [individual contributor license agreement](https://gitlab.c
 This is a voluntary part of the interviewing process, and you are welcome to suggest
 an alternative that would be able to lead to the same insights.
 
-### Developer Evangelist
+### Developer Advocate
 
-* [Description](https://about.gitlab.com/jobs/developer-evangelist/)
+* [Description](https://about.gitlab.com/jobs/developer-advocate/)
 * [Apply](https://gitlab.workable.com/jobs/128446/candidates/new)
 
 ### Product Marketing Manager

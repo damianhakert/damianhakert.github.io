@@ -638,23 +638,28 @@
           In 2015 moved to Serbia, where he enjoys life with his great wife and awesome daughter,
           and travels across nearby countries(after Russia, all European countries seem to be nearby ;)
 
-- name: Joining soon&#58; A. S.
+- name: Alfredo Sumaran
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: CTO
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: alfredo.jpg
+  twitter: asumaran
+  gitlab: alfredo1
   story:  |
-          To be revealed
+          Alfredo is a multi-disciplined web veteran specializing in front-end development and web design.
+          In the past, he also dabbled in back-end, prototyping and graphic design.
+          Self-taught with over ten years of experience,
+          he enjoys developing from small to large scale projects with a high degree of devotion.
+          He likes music and loves attending concerts.
 
-- name: Joining soon&#58; Z.J.
+- name: Zeger-Jan 'ZJ' van de Weg
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer Intern</a>
   reports_to: Development Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: zegerjan.jpeg
+  twitter: zjvandeweg
+  gitlab: zj
   story:  |
-          To be revealed
+          Zeger-Jan is a husband, father of an awesome son, and about to get his bachelor’s degree in Computer Science. In his spare time he spends time with his family,
+          plays board games (he hates not winning) and watches TV shows.
 
 - name: Joining soon&#58; P.H.
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>

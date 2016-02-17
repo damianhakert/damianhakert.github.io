@@ -58,14 +58,15 @@ Current state
 ## Lead qualification process
 
 1. Unless a specific request is made, provide a useful resource that will help the person have a better GitLab experience. 
-2. Soft-BANT is used to determine if a lead should be passed to sales or recommended CE resources. Once determined, BDR team passes all leads to sales for followup via Salesforce assignment and email notification.
-3. If 2 of the 4 elements of BANT are met (budget, authority, need, timeline), BDR team will determine account owner and pass lead.
-4. If further qualification is needed to understand Soft-BANT requirements, BDR team will email or schedule a phone call with lead to understand their project and initiatives.
-5. If Soft-BANT isn't met and there are questions, BDR team will answer all questions or route to support.
-6. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
-7. If a lead is from a Fortune 500 company, it will be automatically assigned to a senior account manager.
-8. If a lead is an existing customer or a prospect that's owned/operated by an existing customer, BDR team will determine account owner and pass lead.
-9. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
+1. Ask [Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/) to qualify lead
+1. Soft-BANT is used to determine if a lead should be passed to sales or recommended CE resources. Once determined, BDR team passes all leads to sales for followup via Salesforce assignment and email notification.
+1. If 2 of the 4 elements of BANT are met (budget, authority, need, timeline), BDR team will determine account owner and pass lead.
+1. If further qualification is needed to understand Soft-BANT requirements, BDR team will email or schedule a phone call with lead to understand their project and initiatives.
+1. If Soft-BANT isn't met and there are questions, BDR team will answer all questions or route to support.
+1. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
+1. If a lead is from a Fortune 500 company, it will be automatically assigned to a senior account manager.
+1. If a lead is an existing customer or a prospect that's owned/operated by an existing customer, BDR team will determine account owner and pass lead.
+1. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
 
 ## Soft-BANT
 

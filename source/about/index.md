@@ -92,6 +92,7 @@ We promise that:
 
 1. We won't remove features from CE to make the same feature exclusive in EE
 1. We won't introduce features into CE with a delay, if a feature is planned to land in both it will be released simultaneously in both
+1. We will always release all tests that we have for a feature that is in CE
 1. CE will have all the features that are essential to running a large 'forge' with public and private repositories
 1. CE will not contain any artificial limits (repositories, users, size, etc.)
 1. The majority of new features made by GitLab Inc. will be for both CE and EE
@@ -127,8 +128,9 @@ In case we're not sure, we'll consult with the [core team](https://about.gitlab.
 If you're interested, most of our internal procedures can be found in <a href="/handbook">publicly viewable handbooks</a>.
 
 ## Donations<a name="donations"></a>
+
 Some people contact us because they would like to donate to GitLab.
-If you have time to give please help spread the word about GitLab by mentioning us and/or <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md">contribute by reviewing issues and merge requests</a>.
+If you have time to give please help spread the word about GitLab by mentioning us and/or <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md">contribute by creating and reviewing issues and merge requests</a>.
 If you would like to give money please <a href="http://railsgirlssummerofcode.org/campaign/">donate to Rails Girls Summer of Code</a> in our name.
 
 ## Location

@@ -8,6 +8,9 @@ title: "Benefits"
 * [Specific to Netherland based employees](#nl-specific-benefits)
 * [Specific to US based employees](#us-specific-benefits)
 
+NOTE: Our contractor agreements and employment contracts are all on the [Contracts](https://about.gitlab.com/handbook/contracts/) page.
+
+
 ## General Benefits <a name="general-benefits"></a>
 
 1. GitLab will pay for the items listed under [spending company money](https://about.gitlab.com/handbook/#spending-company-money).
@@ -22,7 +25,7 @@ title: "Benefits"
            should be transferred.
          * For part-time team members, the lump sum is calculated pro-rata, so
            for example for a team member that works for GitLab 50% of the time,
-           the lump sum would be $5,000.
+           the lump sum would be $10,000.
 1. Our [paid time off policy](https://about.gitlab.com/handbook/#paid-time-off)
 1. There are [incentives](https://about.gitlab.com/handbook/#incentives) available.
 
@@ -107,7 +110,7 @@ includes an equal amount of AD&D coverage.
 ### Group Long-Term Disability Insurance
 
 The Company provides a policy that may replace up to 60% of your salary, up to
-a maximum benefit of $10,000 per month, for qualifying disabilities. A waiting
+a maximum benefit of $12,500 per month, for qualifying disabilities. A waiting
 period of 180 days will apply.
 
 ### 401k Plan
