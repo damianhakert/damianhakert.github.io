@@ -25,28 +25,38 @@ However, there's nothing too complex that a beginner or an intermediate develope
 #### What's in this tutorial?
 
 * [GitLab.com](#GitLab-com)
+
 * [GitLab Pages](#GitLab-Pages)
+
 * [Main GitLab Pages Features](#GitLab-Pages-Features)
+
   * [Conditions to host on GitLab Pages](#conditions-to-host-on-GitLab-Pages)
+
      * [Supported Languages &amp; Files](#supported-languages-and-files)
      * [Jekyll Static Website Generator](#jekyll)
+
 * [Domain &amp; Subdomain names](#domains-and-subdomains)
+
   * [Website Types](#website-types)
      * [User Websites](#user-websites)
      * [Project Websites](#project-websites)
+
 * [Setting Up GitLab Pages](#Setting-Up-GitLab-Pages)
+
   * [Step-by-Step](#step-by-step)
+
      * [Creating a new project](#creating-new-project)
      * [Creating `.gitlab-ci.yml` configuration file](#creating-gitlab-ci)
      * [Enabling Shared Runners](#enabling-shared-runners)
      * [Uploading your Website Content](#uploading-website-content)
+
 * [Building Process](#building-process)
 
 ----
 
 <a name="GitLab-com"></a>
 
-# GitLab.com
+## GitLab.com
 
 [GitLab.com][] is a **free** and powerful service for hosting code projects.
 You can host the GitLab open source code anywhere, but GitLab.com itself is
@@ -60,7 +70,7 @@ You'll only need internet access, an e-mail account and a username.
 
 <a name="GitLab-Pages"></a>
 
-# GitLab Pages
+## GitLab Pages
 
 [GitLab 8.3][gitlab83] introduced a new feature, called **GitLab Pages**,
 which was made for providing a free, simple website hosting service.  
@@ -70,7 +80,7 @@ whether you host on premises or with [GitHost.io][].
 
 <a name="GitLab-Pages-Features"></a>
 
-## Main GitLab Pages Features
+### Main GitLab Pages Features
 
 - **Supports any static website** (HTML/CSS/JS)
 - **Supports and builds [Jekyll][]**:
@@ -83,11 +93,11 @@ You can enable shared runners or install one for yourself.
 
 <a name="conditions-to-host-on-GitLab-Pages"></a>
 
-## Conditions to host on GitLab Pages
+### Conditions to host on GitLab Pages
 
 <a name="supported-languages-and-files"></a>
 
-### Supported Languages &amp; Files
+#### Supported Languages &amp; Files
 
 As a static website hosting provider, **GitLab Pages** fully supports:
 
@@ -103,7 +113,7 @@ As a static website hosting provider, **GitLab Pages** fully supports:
 
 <a name="jekyll"></a>
 
-### Jekyll Static Website Generator
+#### Jekyll Static Website Generator
 
 [Jekyll][] is software written in [Ruby][] that generates static blog aware websites.
 This means we write dynamically and Jekyll `build`s the static site (HTML, CSS, JS) for us.
@@ -126,7 +136,7 @@ Once installed, it's pretty fast to learn and easy to use.
 
 <a name="domains-and-subdomains"></a>
 
-## Domain &amp; Subdomain names
+### Domain &amp; Subdomain names
 
 Using custom domain and subdomain names pointing to your website hosted
 by **GitLab Pages** is a feature that is already implemented to [GitLab EE][]
@@ -139,11 +149,11 @@ Follow [GitLab on Twitter][3] and stay tuned for updates.
 
 <a name="Comprehending-GitLab-Pages"></a>
 
-## Comprehending GitLab Pages
+### Comprehending GitLab Pages
 
 <a name="website-types"></a>
 
-## Website Types:
+### Website Types:
 
 On **GitLab.com** you are allowed to create and host with **GitLab Pages** two sorts of websites:
 
@@ -152,7 +162,7 @@ On **GitLab.com** you are allowed to create and host with **GitLab Pages** two s
 
 <a name="user-websites"></a>
 
-### GitLab User Websites
+#### GitLab User Websites
 
 Every **GitLab.com** user is permitted to create only one **user website**,
 which will be accessed via `https://username.gitlab.io`.
@@ -163,7 +173,7 @@ to be exactly `username.gitlab.io`, where `username` is, of course, your user na
 
 <a name="project-websites"></a>
 
-### GitLab Project Websites
+#### GitLab Project Websites
 
 Every **GitLab.com** user is allowed to create as many **project websites** as they want.
 They will be accessed via `https://username.gitlab.io/projectname`.
@@ -171,7 +181,7 @@ Their **repository names** (projects' names) can be chosen at the users' will.
 
 <a name="Setting-Up-GitLab-Pages"></a>
 
-# Setting Up GitLab Pages
+## Setting Up GitLab Pages
 
 Here is an overview of the steps we'll take, assuming you have your GitLab.com account.
 
@@ -183,13 +193,13 @@ Here is an overview of the steps we'll take, assuming you have your GitLab.com a
 
 <a name="step-by-step"></a>
 
-## Step-by-Step
+### Step-by-Step
 
 Now we will go through this process step-by-step.
 
 <a name="creating-new-project"></a>
 
-### **Create a new project**
+#### **Create a new project**
 
 This is as strait-forward as you can imagine:
 
@@ -206,7 +216,7 @@ via _Inspect Element_ or _View-Source_ from their web browsers.
 
 <a name="creating-gitlab-ci"></a>
 
-### **Add the `.gitlab-ci.yml` configuration file**
+#### **Add the `.gitlab-ci.yml` configuration file**
 
 The key for having everything up and running as expected is [**GitLab CI** configuration file][doc-ciconfig] `.gitlab-ci.yml`.
 Every time your repository content is updated,  `.gitlab-ci.yml` will be called by the _runners_ to build it.
@@ -217,7 +227,7 @@ This means you can **test** your script in parallel branches before pushing to y
 If the build succeed, you merge.
 If it doesn't, you can make adjustments and try building again without messing up with you `master` branch.
 
-#### **GitLab-ci for plain HTML websites**
+##### **GitLab-ci for plain HTML websites**
 
 In order to build your **plain** `html` site with **GitLab Pages**,
 your `.gitlab-ci.yml` file doesn't need much.
@@ -249,7 +259,7 @@ What this code is doing is:
 - [Genius Template](https://virtuacreative.gitlab.io/genius/) - [View Project on GitLab](https://gitlab.com/virtuacreative/genius)
 - [ArtCore Template](https://virtuacreative.gitlab.io/artcore/) - [View Project on GitLab](https://gitlab.com/virtuacreative/artcore)
 
-#### **GitLab-ci for Jekyll websites**
+##### **GitLab-ci for Jekyll websites**
 
 If you want **GitLab Pages** to build your Jekyll website, you will need to start with this simple script:
 
@@ -290,7 +300,7 @@ Here you can read the [full documentation regarding `.gitlab-ci.yml`](http://doc
 
 <a name="enabling-shared-runners"></a>
 
-### **Enable Shared Runners**
+#### **Enable Shared Runners**
 
 > A 'runner' is a process which runs a build. You can setup as many runners as you need. Runners can be placed on separate users, servers, and even on your local machine.
 
@@ -307,14 +317,14 @@ This is a non-required step and it's up to you to using this feature or not.
 
 <a name="uploading-website-content"></a>
 
-### **Upload your Website Content**
+#### **Upload your Website Content**
 
 You have basically two ways of inserting content to your projects:
 
 1. Via web interface ([GitLab.com][5])
 2. Via command line
 
-#### Via Web
+##### Via Web
 
 It's the most straight-forward way for this task:
 
@@ -339,7 +349,7 @@ If your project already have content:
 - Done!
 
 
-#### Via Command Line
+##### Via Command Line
 
 In order to connect your computer to online `git` services, you'll need to [install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) locally.
 
@@ -410,7 +420,7 @@ You can find here a [Git Cheat Sheet](https://www.git-tower.com/blog/git-cheat-s
 
 <a name="building-process"></a>
 
-# Building Process
+## Building Process
 
 As previously mentioned, **GitLab.com** building process is controlled by yourself, through `.gitlab-ci.yml` configurations. If you want to monitor the process while it's running, just follow these few steps:
 
