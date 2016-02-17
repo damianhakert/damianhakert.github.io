@@ -64,9 +64,9 @@ You'll only need internet access, an e-mail account and a username.
 
 [GitLab 8.3][gitlab83] introduced a new feature, called **GitLab Pages**,
 which was made for providing a free, simple website hosting service.  
-GitLab Pages is a feature available through the GitLab EE (Enterprise Edition is what GitLab.com runs.)
-That means if you have your own GitLab EE instance your users can create GitLab pages
-whether you host on premises or with [GitHost.io][https://githost.io].
+GitLab Pages is a feature available through the GitLab EE.
+GitLab Enterprise Edition is what GitLab.com runs on.
+
 
 <a name="GitLab-Pages-Features"></a>
 
