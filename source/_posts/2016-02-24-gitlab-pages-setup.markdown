@@ -9,14 +9,16 @@ author_twitter: virtuacreative
 image_title: '/images/blogimages/gitlab-pages-setup-cover.jpg'
 ---
 
-In this tutorial we provide you with detailed information about using [GitLab Pages][] to host your website for free on [GitLab.com][]!
+In this tutorial we provide you with detailed information about using
+[GitLab Pages][] to host your website for free on [GitLab.com][]!
 
-If you're not familiar with `git` or with GitLab itself, don't worry, everything is briefly explained.
-After describing the service, it's brought to you a full step-by-step tutorial so you won't get lost on the process.
+If you're not familiar with `git` or with GitLab itself, don't worry,
+everything is briefly explained.
+After that we'll go through a full step-by-step tutorial so you won't get lost in the process.
 
-To get the most out of this article you'll need to know the basics of the
+To get the most out of this tutorial you'll need to know the basics of the
 web development process, from creation to publishing.
-There's nothing too complex that a beginner or an intermediate developer can't handle.
+However, there's nothing too complex that a beginner or an intermediate developer can't handle.
 
 <!-- more -->
 
@@ -51,9 +53,9 @@ You can host the GitLab open source code anywhere, but GitLab.com itself is
 especially useful for coders and programmers who contribute to each other's work.
 Anyone with internet access can use it for free - no credit cards required, ever!
 
-Check it out the [main advantages of using GitLab.com](https://about.gitlab.com/gitlab-com/)!
+Check it out the [main advantages of using GitLab.com](https://about.gitlab.com/gitlab-com/).
 
-[Creating an account on GitLab.com][4] couldn't be easier!
+[Creating an account on GitLab.com][4] couldn't be easier.
 You'll only need internet access, an e-mail account and a username.
 
 <a name="GitLab-Pages"></a>
@@ -117,7 +119,7 @@ You also will need to handle some HTML, CSS and JavaScript files.
 If you aren't familiar with Jekyll, it's worth the try.
 You can play around with `includes`, `loops`, `if` statements, `code blocks` and a lot more.
 You can find all of it on [Jekyll Documentation](http://jekyllrb.com/docs/home/).
-Jekyll also offers full support for preprocessors like [Sass](http://jekyllrb.com/docs/assets/#sassscss) and [Coffee Script](http://jekyllrb.com/docs/assets/#coffeescript)!
+Jekyll also offers full support for preprocessors like [Sass](http://jekyllrb.com/docs/assets/#sassscss) and [Coffee Script](http://jekyllrb.com/docs/assets/#coffeescript).
 
 In order to run your Jekyll website locally, you will need to [install Jekyll](http://jekyllrb.com/docs/installation/) and its dependencies to your computer.
 Once installed, it's pretty fast to learn and easy to use.
@@ -133,7 +135,7 @@ available to [GitLab.com][] users.
 
 As soon as it is released for **GitLab.com** we'll bring you a tutorial with
 the steps to configure you site.
-Follow [GitLab on Twitter][3] and stay tuned for updates!
+Follow [GitLab on Twitter][3] and stay tuned for updates.
 
 <a name="Comprehending-GitLab-Pages"></a>
 
@@ -163,7 +165,7 @@ to be exactly `username.gitlab.io`, where `username` is, of course, your user na
 
 ### GitLab Project Websites
 
-Every **GitLab.com** user is allowed to create as many **project websites** as they want!
+Every **GitLab.com** user is allowed to create as many **project websites** as they want.
 They will be accessed via `https://username.gitlab.io/projectname`.
 Their **repository names** (projects' names) can be chosen at the users' will.
 
@@ -196,9 +198,11 @@ This is as strait-forward as you can imagine:
    - **Project path** - your project's name, accessed by `https://gitlab.com/username/projectname`:
    - **Privacy** - choose if you want your project to be visible and accessible just for you (`private`), just for **GitLab.com** users (`internal`) or free to anyone to view, clone, fork and download it (`public`)
 
-**Important**: you **can** host your website on [GitLab.com][] even if it is stored in a **private** repository!
+**Important**: you **can** host your website on [GitLab.com][] even if it is
+stored in a **private** repository!
 If you do so, you can have your [Jekyll][] project **protected** -
-only the `html` compiled site will be visible to the public - via _Inspect Element_ or _View-Source_ from their web browsers!
+only the `html` compiled site will be visible to the public -
+via _Inspect Element_ or _View-Source_ from their web browsers.
 
 <a name="creating-gitlab-ci"></a>
 
@@ -280,7 +284,7 @@ What this code is doing is:
 
 If you are an experienced Jekyll developer, you might want more information about configuring `.gitlab-ci.yml`.
 But this an introductory article, so advanced Jekyll builds will be left for a future tutorial.
-Follow [GitLab on Twitter][3] to receive updates!
+Follow [GitLab on Twitter][3] to receive updates.
 
 Here you can read the [full documentation regarding `.gitlab-ci.yml`](http://doc.gitlab.com/ee/ci/yaml/README.html).
 
@@ -339,7 +343,7 @@ If your project already have content:
 
 In order to connect your computer to online `git` services, you'll need to [install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) locally.
 
-If you are not familiar with the command line, don't be discouraged!
+If you are not familiar with the command line, don't be discouraged.
 You won't need too much from it to make things work.
 If you really don't have any idea how it works, you can search for
 _"how to use command line"_ and you'll find a lot of tutorials to guide you through.
@@ -422,7 +426,7 @@ _______
 That's it!
 
 Hopefully you understand how **GitLab Pages** work and how to create your new site.
-We're looking forward to your questions!
+We're looking forward to seeing your sites!
 
 
 [doc-runner]: http://doc.gitlab.com/ce/ci/runners/README.html#sts=Runners
