@@ -91,8 +91,8 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 ## Getting Contracts Ready<a name="prep-contracts"></a>
 
 Once a new team member is to be added in an employee or contractor capacity,
-fill out the [New Contract form](https://docs.google.com/a/gitlab.com/forms/d/1Cthnkdj_23ev_u7LT01wv5dZYAZKm20vp5JmzT3ECqE/viewform)
-with pertinent details, and ping the Business Office Manager to initiate the creation of the contracts.
+fill out the [New Contract form](https://docs.google.com/a/gitlab.com/forms/d/19sPOZW8rnBTnyvj3BR4-ZMksLeMnTjkbpCZUsfUDVy4/viewform)
+with pertinent details, and ping the Administrative Coordinator to initiate the creation of the contracts.
 
 Our template contracts are posted on the [Contracts page](https://about.gitlab.com/handbook/contracts).
 
