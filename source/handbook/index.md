@@ -112,8 +112,9 @@ people. We try to hire people who think work is a great way to express themselve
 1. We recognize that inspiration is perishable, if you’re **enthusiastic** about something that generates great results in relatively little time feel free to work on that.
 1. Do what is right for our **customers** and the rest of the GitLab community, do what is best over the long term, don't be evil.
 1. We create **simple** software to accomplish complex collaborative tasks.
-1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin colour, gender or sexual orientation.
-1. Use **inclusive** language. For example, prefer 'Hi everybody' or 'Hi people' to 'Hi guys'.
+1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin colour, gender or sexual orientation. 
+1. By the same token, avoid disparaging groups of people, countries, or personal ideologies, which extends into politics.
+1. Use **inclusive** language. For example, prefer 'Hi everybody' or 'Hi people' to 'Hi guys'. 
 1. Share problems you run into, ask for help, be forthcoming with information and **speak up**.
 1. Work out in the **open**, try to use public issue trackers and repositories when possible.
 1. Most things are public unless there is a reason not to, not public by default are: financial information, job applications/compensation/feedback and partnerships with other companies.
