@@ -103,6 +103,9 @@ If someone opens a public issue please leave a message: "Thank you for helping t
 The key used to encode/decode PGP messages is stored in our support vault.
 We only provide our public PGP key on request because it makes collaborating much harder and only a small percentage of all disclosures are serious enough to require that overhead.
 
+See [PGP Process](/handbook/support/pgp_process.html) for
+information about using the security PGP key pair and decrypting messages.
+
 ## Regular ZenDesk tickets
 
 You should always answer the tickets in a [FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)
