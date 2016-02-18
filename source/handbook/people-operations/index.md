@@ -2,6 +2,13 @@
 layout: markdown_page
 title: "People Operations"
 ---
+## US Benefits 
+
+1. You are eligible to participate in GitLab’s 401k as of the 1st of the month after your hire date.  
+1. You will receive a notification on your homepage in Trinet Passport once eligible, if you follow the prompts it will take you to the Transamerica website https://www.ta-retirement.com/ or skip logging in to Trinet Passport and go directly to https://www.ta-retirement.com/ after the 1st of the month after your hire date.
+1. Once on the home page of https://www.ta-retirement.com/ go to>First Time User Register Here.  
+1. You will be prompted for the following information>Full Name>Social Security Number>Date of Birth>Zip Code.  
+1. Once inside the portal you may elect your annual/pay-period contributions, and Investments.  
 
 ## New US hire day one
 
