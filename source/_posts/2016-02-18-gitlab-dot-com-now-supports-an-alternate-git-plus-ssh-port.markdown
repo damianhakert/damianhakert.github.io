@@ -102,6 +102,10 @@ That's only normal since you are connecting to the new loadbalancer. If you
 watch closely, the key fingerprint is
 [the same as in GitLab.com](/gitlab-com#availability-and-security).
 
+---
+
+Happy pushing!
+
 [configure gitlab]: https://gitlab.com/gitlab-org/gitlab-ce/blob/28d42a33f3385b57660906d4ca35e96d56785d7e/config/gitlab.yml.example#L412-413
 [sshuttle]: https://github.com/apenwarr/sshuttle "sshuttle - a poor man's VPN"
 [vpn-wiki]: https://en.wikipedia.org/wiki/VPN_blocking "Wikipedia - VPN Blocking"
