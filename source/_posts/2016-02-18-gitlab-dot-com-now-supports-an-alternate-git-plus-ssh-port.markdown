@@ -24,7 +24,7 @@ It's not uncommon that in some places the network traffic is being monitored
 and heavily firewalled, allowing only ports 80 (HTTP) and 443 (HTTPS) to be
 used.
 
-Blocking the standard SSH port is a legitimate measure that network sysadmins
+Blocking the standard SSH port is a measure that network sysadmins
 occasionally [have to take](http://serverfault.com/a/25566).
 
 ## The solution
