@@ -5,7 +5,7 @@ date: 2016-02-18
 comments: true
 author: Achilleas Pipinellis
 author_twitter: _axil
-image_title: '/images/unsplash/FILENAME.jpg'
+image_title: '/images/unsplash/altssh.jpg'
 ---
 
 Have you ever tried to push changes to GitLab and gotten the error
