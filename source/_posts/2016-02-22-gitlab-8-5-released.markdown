@@ -13,8 +13,12 @@ Today we announce the release of a new version of GitLab Community Edition (CE) 
 The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
 In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+Once again, we received some amazing contributions this release.
+One of these is the support for relative URLs in Omnibus installations,
+which was one of the many contributions we received from Artem Sidorenko.
+
+Thanks Artem Sidorenko and congratulations on being
+[this month's MVP](https://about.gitlab.com/mvp/)!
 
 <!--more-->
 
