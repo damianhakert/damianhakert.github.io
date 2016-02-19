@@ -158,3 +158,7 @@ Anyone is always welcome to ask our CFO any questions they have about their opti
  GitLab’s fundraising, or anything else related to equity at GitLab. However, everyone should
  also consult a lawyer before making important financial decisions, especially regarding
  their equity because there are complex legal and tax requirements that may apply.
+
+## References
+
+Our team member Drew Blessing [wrote about what he learned about stock options](http://blessing.io/startups/stock-options/2016/02/15/navigating-your-stock-options.html) after starting to research them because he received them when joining us. His article is grealy appreciated but GitLab Inc. does not endorse it, any advise is his.
