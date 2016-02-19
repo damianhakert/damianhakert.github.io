@@ -97,12 +97,29 @@ milestone view.
 
 > [Read about milestones in our documentation](http://doc.gitlab.com/ee/workflow/milestones.html)
 
-## Render SVGs inline
+## Render SVGs in Diffs
+
+As big fans of SVGs ourselves, we made it possible to view rendered SVGs
+in diffs:
+
+![Rendered SVG in GitLab 8.5](svg.png)
 
 ## Markdown in Broadcast messages
 
-## Mark difference on file renames
+When broadcasting important messages to all users on your instance,
+it can be useful to include formatting or links. That's possible now
+with markdown support for broadcast messages.
 
+![Broadcast messages with markdown in GitLab 8.5](broadcast_md.gif)
+
+> TODO documentation link
+
+## Highlighted File Renames
+
+Small changes can be great too!
+We now highlight file renames in diffs:
+
+![See differences on file renames in Gitlab 8.5](filenames.png)
 
 ## Erase Build Content
 
@@ -118,7 +135,6 @@ You can see the changes that package receives for every release it the
 
 This release there are some major changes in the bundled software:
 
-* Ruby is updated from version 2.1.8 to 2.2.4
 * Nginx is updated from version 1.7.12 to 1.9.10
 * Nginx spdy protocol was replaced with http2
 * Openssl is updated from version 1.0.1r to 1.0.2f
@@ -157,6 +173,12 @@ Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
 can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
 file](http://doc.gitlab.com/omnibus/update/README.html).
+
+_Note to early adopters: the 8.5.0 release candidates recommended using Ruby 2.2
+but we have found
+[some issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/13514).
+We recommend everybody to keep using Ruby 2.1 for now._
+
 
 - - -
 
