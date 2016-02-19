@@ -45,6 +45,23 @@ all your users happy.
 
 ## Tasks
 
+GitLab is where you do your work, so being able to get start quickly is
+very important. Therefore, we're now introducing Tasks.
+
+Tasks is a chronological list of tasks that are waiting for your input.
+Whenever you're assigned to an issue or merge request
+or have someone mention you, a new task is created automatically.
+
+Then when you've made a change, like replying to a comment or updating an issue,
+the task is automatically set to **Done**. You can also manually mark tasks
+as done.
+
+![Tasks in GitLab 8.5](tasks.png)
+
+Tasks has been designed to be as actionable as possible, so that you can focus
+on what is important. Having a personal space to work from has been a long-time
+request and we're looking forward to your feedback after having given it a go.
+
 ## GitLab Geo Beta
 
 ## Render SVGs inline
