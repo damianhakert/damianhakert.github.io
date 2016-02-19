@@ -70,7 +70,7 @@ request and we're looking forward to your feedback after having given it a go.
 
 > TODO documentation link
 
-## GitLab Geo Beta (EE)
+## GitLab Geo Alpha (EE)
 
 If you have two or more teams geographically spread out,
 but your GitLab instance is in a single location,
@@ -81,10 +81,26 @@ main GitLab instance. Your Geo instance can be used for cloning and fetching
 projects, in addition to reading any data. This will make working with large
 repositories over large distances much faster.
 
-With GitLab 8.5, we're offering GitLab Geo as a beta to all our Enterprise
-Edition customers.
+With GitLab 8.5, we're offering GitLab Geo as an Alpha to all our Enterprise
+Edition customers. Once GitLab Geo has left Alpha / Beta state, a special
+license will be required to use it.
 
 > TODO documentation link
+
+## Updated Issue Sidebar
+
+We created the issue sidebar so we could free up the most important content
+from other interface elements. With GitLab 8.5 we're doing this in a
+smarter, prettier and more accessible way:
+
+![]()
+
+To focus on your content, fold it in:
+
+![]()
+
+Besides the sidebar, we've updated many things, big and small, in the interface.
+Expect more improvements over the coming releases.
 
 ## Labels in Milestone View
 
@@ -121,7 +137,11 @@ We now highlight file renames in diffs:
 
 ![See differences on file renames in Gitlab 8.5](filenames.png)
 
-## Erase Build Content
+## Erase Build Content in CI
+
+Accidentally exposed some information in your build logs or in a
+faulty build artifact in CI? You can now delete artifacts
+and build traces from CI.
 
 ## Other changes
 
