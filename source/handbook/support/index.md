@@ -103,6 +103,16 @@ If someone opens a public issue please leave a message: "Thank you for helping t
 The key used to encode/decode PGP messages is stored in our support vault.
 We only provide our public PGP key on request because it makes collaborating much harder and only a small percentage of all disclosures are serious enough to require that overhead.
 
+Additionally we use HackerOne to manage security reports. To access HackerOne find the credentials through 1Password on 
+the Support vault. This user is read only so if you need more permission please request an invitation through the 
+support channel. The HackerSpace dashboard lists al reports for which you need to respond within one business day. This 
+reports are also piped into ZenDesk.
+
+Remember that researchers require feedback and besides the comments provided you'll need to triage or escalate the report. 
+Eventually each report has to be accepted and/or closed at the dashboard even if you've followed through on ZenDesk.
+  
+If you need to grant permissions to a new GitLab user send an invitation and add it to the Internal group.   
+
 See [PGP Process](/handbook/support/pgp_process.html) for
 information about using the security PGP key pair and decrypting messages.
 
