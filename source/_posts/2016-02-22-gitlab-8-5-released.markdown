@@ -22,66 +22,40 @@ Thanks Artem Sidorenko and congratulations on being
 
 <!--more-->
 
-## ***MAIN_CE_FEATURE***
+## Performance for Scale
 
-***DESCRIPTION***
+At GitLab, making sure everything runs smoothly with thousands of projects
+has always been a priority. But with GitLab 8.5, we've raised the bar for
+ourselves.
 
-[![screenshot](/images/8_5/feature.png)](/images/8_5/feature.png) ***8_5 is the version of GitLab being released***
+Average mean performance is up at least 1.4 times, up to 1.6 times for 99th
+percentile response times. For slower pages, the response time has been improved
+way beyond this.
 
+For instance, displaying individual issues is now up to 3.5 times faster
+for very large issues. The graph below shows you the slowest 95th percentile
+response times for loading issues on GitLab.com before and after we deployed
+the first release candidate of 8.5:
 
-## ***NEW_CE_FEATURE***
+![Response times for single issues in GitLab 8.5](/images/8_5/issue_timings.png)
 
-***DESCRIPTION***
+There are many performance improvements that you will notice with 8.5.
+Especially if you're running a very large server, this release will make
+all your users happy.
 
-[![screenshot](/images/8_5/feature.png)](/images/8_5/feature.png) ***8_5 is the version of GitLab being released***
+## Tasks
 
+## GitLab Geo Beta
 
-## NEW_CE_FEATURE
+## Render SVGs inline
 
-***DESCRIPTION***
+## Markdown in Broadcast messages
 
-[![screenshot](/images/8_5/feature.png)](/images/8_5/feature.png) ***8_5 is the version of GitLab being released***
+## Mark difference on file renames
 
-## NEW_SPONSORED_FEATURE
+## Labels in Milestone View
 
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/8-5-stable/CHANGELOG#L18).
-
-## ***MAIN_EE_FEATURE*** (EE only feature)
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_5/feature.png)](/images/8_5/feature.png) ***8_5 is the version of GitLab being released***
-
-## ***EE_FEATURE*** (EE only feature)
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_5/feature.png)](/images/8_5/feature.png) ***8_5 is the version of GitLab being released***
-
-
-## ***MAIN_CI_FEATURE***
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_5/feature.png)](/images/8_5/feature.png) ***8_5 is the version of GitLab CI being released***
-
-
-## ***NEW_CI_FEATURE***
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_5/feature.png)](/images/8_5/feature.png) ***8_5 is the version of GitLab CI being released***
-
-
-## NEW_CI_FEATURE
-
-***DESCRIPTION***
-
-[![screenshot](/images/8_5/feature.png)](/images/8_5/feature.png) ***8_5 is the version of GitLab CI being released***
-
-## NEW_SPONSORED_FEATURE
-
-Thanks to sponsoring by ***COMPANY_NAME*** it is now possible to ***DESCRIPTION_OF_THE_FEATURE*** [LINK TO CHAGELOG](https://gitlab.com/gitlab-org/gitlab-ce/blob/8-5-stable/CHANGELOG#L18).
+## Erase Build Content
 
 ## Other changes
 
@@ -100,17 +74,18 @@ This release there are some major changes in the bundled software:
 * Nginx spdy protocol was replaced with http2
 * Openssl is updated from version 1.0.1r to 1.0.2f
 
-### Mattermost 1.5
+### Mattermost 2.0
 
-We're shipping Mattermost 1.5 with GitLab 8.5.
-Most notable of [many changes in this release](LINK), are a few features that
-are improving the way GitLab works with Mattermost.
+[Mattermost 2.0](http://www.mattermost.org/open-source-localizable-slack-alternative-mattermost-2-0/)
+ships with GitLab 8.5 and includes localization support,
+Spanish-language translation, and API support for GitLab single-sign-on in iOS
+and Android apps.
 
-* GitLab SSO is now available in Mattermost iOS app. This is a breaking change
-and iOS app will no longer work on previous version of GitLab Mattermost
-*  Mattermost upgrade will now be able to skip 1 major build version. This means
-that you will be able to upgrade using package 8.3 to 8.5 without breaking
-Mattermost.
+Mattermost can now also skip 1 major build version. This means GitLab Mattermost
+upgrades from GitLab 8.3 to 8.5 without needing to upgrade to 8.4.
+The new 2.0 iOS app for Mattermost with GitLab SSO requires Mattermost server
+2.0 and higher due to a breaking change in mobile API incompatible with
+Mattermost 1.x.
 
 
 ## Upgrade barometer

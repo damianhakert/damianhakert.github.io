@@ -27,8 +27,6 @@
   - description: Two-factor Authentication
     link: http://doc.gitlab.com/ce/profile/two_factor_authentication.html
     in_ce: true
-  - description: Two-factor Authentication with LDAP
-    link: http://doc.gitlab.com/ee/profile/two_factor_authentication.html
   - description: Integrate with Atlassian Crowd
     link: http://doc.gitlab.com/ce/integration/crowd.html
   - description: Central Authentication Service (CAS) integration
