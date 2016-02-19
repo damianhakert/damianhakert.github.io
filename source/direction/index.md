@@ -58,7 +58,6 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [Confidential issues (EE)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3678)
 - [Merge even if master is updated](https://gitlab.com/gitlab-org/gitlab-ce/issues/3873)
 - [Acknowledge line comments on a MR](https://gitlab.com/gitlab-org/gitlab-ce/issues/10325)
-- [Get rid of default login credentials](Get rid of default login credentials)
 - [Ability to delete issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/2489)
 - [Get rid of default login credentials](https://gitlab.com/gitlab-org/gitlab-ce/issues/1980)
 - [HA Omnibus packages (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
