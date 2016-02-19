@@ -103,6 +103,7 @@ and then ping @rspeicher to confirm your account.
 * [ ] Finance: Add to [QuickBooks users](https://about.gitlab.com/handbook/hiring/) (finance only)
 * [ ] People Ops: Order company credit card (for all sales team members who are employees)
 * [ ] People Ops: If credit card holder, add to expense report calendar reminder
+* [ ] CFO / COO: Add to [Hellosign](https://hellosign.com) as a team member
 * [ ] Hiring Manager: Add to [Recurly](https://app.recurly.com/login)
 * [ ] Hiring Manager: Add to  [Salesforce]
 * [ ] New team member: Ask a colleague if they can do a screenshare the next time they process an order using Recurly and Salesforce.
