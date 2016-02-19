@@ -48,10 +48,6 @@ When contributing code, you should follow the [Contribution guidelines](https://
 and you agree to the [individual contributor license agreement](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/legal/individual_contributor_license_agreement.md).
 If you prefer not to do the above please let us know and we'll give you an assignment that does not relate to GitLab but does tests the relevant skills.
 
-### Developer Advocate
-
-* [Description](https://about.gitlab.com/jobs/developer-advocate/)
-* [Apply](https://gitlab.workable.com/jobs/128446/candidates/new)
 
 ### Product Marketing Manager
 
