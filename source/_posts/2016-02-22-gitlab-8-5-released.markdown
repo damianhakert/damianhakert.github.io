@@ -4,14 +4,20 @@ title: "GitLab 8.5 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 date: 2016-02-22
 comments: true
 categories:
-author: ADD_YOUR_FULL_NAME
+author: Job van der Voort
+author_twitter: Jobvo
 image_title: /images/7_X/PICTURE.PNG
 ---
 
-GitLab is open source software to collaborate on code.
-Today we announce the release of a new version of GitLab Community Edition (CE) and GitLab Enterprise Edition (EE), with new features, usability, and performance improvements, and bug fixes.
-The biggest new features in Community Edition are ***MAIN_CE_FEATURES***.
-In addition to the updates from Community Edition, GitLab Enterprise Edition has gained ***MAIN_EE_FEATURES***.
+If there is one GitLab release that you'll want to upgrade to as soon as
+possible, it's this one.
+
+GitLab 8.5 is faster, _a lot faster_. Not only have we increased performance
+for everyone, getting to what is important is now super quick with Tasks.
+
+With GitLab 8.5 Enterprise Edition, we're also introducing the beta of
+GitLab Geo, which allows you to have a remote replicate of your entire
+GitLab instance.
 
 Once again, we received some amazing contributions this release.
 One of these is the support for relative URLs in Omnibus installations,
@@ -62,7 +68,34 @@ Tasks has been designed to be as actionable as possible, so that you can focus
 on what is important. Having a personal space to work from has been a long-time
 request and we're looking forward to your feedback after having given it a go.
 
-## GitLab Geo Beta
+> TODO documentation link
+
+## GitLab Geo Beta (EE)
+
+If you have two or more teams geographically spread out,
+but your GitLab instance is in a single location,
+fetching large repositories can take a long time.
+
+With GitLab Geo, you can have a secondary GitLab instance that mirrors your
+main GitLab instance. Your Geo instance can be used for cloning and fetching
+projects, in addition to reading any data. This will make working with large
+repositories over large distances much faster.
+
+With GitLab 8.5, we're offering GitLab Geo as a beta to all our Enterprise
+Edition customers.
+
+> TODO documentation link
+
+## Labels in Milestone View
+
+We want to make GitLab the best place to manage your projects,
+whether they are
+[open source](https://about.gitlab.com/2016/01/15/making-gitlab-better-for-large-open-source-projects/) or not.
+
+To get a better overview of a milestone, we're now showing labels in the
+milestone view.
+
+> [Read about milestones in our documentation](http://doc.gitlab.com/ee/workflow/milestones.html)
 
 ## Render SVGs inline
 
@@ -70,7 +103,6 @@ request and we're looking forward to your feedback after having given it a go.
 
 ## Mark difference on file renames
 
-## Labels in Milestone View
 
 ## Erase Build Content
 
@@ -148,3 +180,13 @@ No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 
 - - -
+
+## Join us for a live demo and Q+A
+
+[Sign up to our webcast](http://page.gitlab.com/Feb252016Webcast_LandingPage.html).
+[Job](https://twitter.com/Jobvo/) will give a live walkthrough for GitLab 8.5
+and he'll talk about GitLab Flow.
+It’s on Thursday, February 25th, 5pm (17:00) UTC; 12pm EST; 9am PST.
+Can't make that time?
+[Register](http://page.gitlab.com/Feb252016Webcast_LandingPage.html) anyway,
+and we'll send you the recording.
