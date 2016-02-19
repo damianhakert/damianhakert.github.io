@@ -44,34 +44,35 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [GitLab Pages gets CNAME and SSL support (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/134)
 - [GitLab Geo for readonly secondary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
 - [Todo's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2425)
-- [HA Omnibus packages (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
 - [Revert merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
-- [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 - [New design for issue page](https://gitlab.com/gitlab-org/gitlab-ce/issues/3981)
 - [Support for relative URLs](https://gitlab.com/gitlab-org/gitlab-ce/issues/1938)
 - [Sort by vote count](https://gitlab.com/gitlab-org/gitlab-ce/issues/3763)
 
 ### 8.6 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/22) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/8) March 22nd
 
+- [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 - [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
-- [CI Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
 - [External users](https://gitlab.com/gitlab-org/gitlab-ce/issues/4009)
 - [Push to a remote repository (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/116)
 - [Confidential issues (EE)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3678)
-- [Performance monitoring (EE)](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1008)
 - [Merge even if master is updated](https://gitlab.com/gitlab-org/gitlab-ce/issues/3873)
 - [Acknowledge line comments on a MR](https://gitlab.com/gitlab-org/gitlab-ce/issues/10325)
 - [Get rid of default login credentials](Get rid of default login credentials)
 - [Ability to delete issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/2489)
+- [Get rid of default login credentials](https://gitlab.com/gitlab-org/gitlab-ce/issues/1980)
+- [HA Omnibus packages (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
 
 ### 8.7 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/23) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/9) April 22nd
 
+- [CI Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
 - [Squash commits upon Merging (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/150)
 - [Run build on merged code before merging (EE?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4176)
 - [Code management analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
 - [Delivery analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
 - [Subscribe to a Label](https://gitlab.com/gitlab-org/gitlab-ce/issues/12743)
 - [Subscribe to new Issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/12758)
+- [Performance monitoring (EE)](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1008)
 
 ## Wishlist
 
