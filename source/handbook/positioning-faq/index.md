@@ -7,7 +7,7 @@ title: "GitLab Positioning FAQ"
     1. GitLab is an open source tool used by developers to create and manage code bases collaboratively. Built on Git, which is a very popular and efficient distributed version control system, GitLab gives you all the tools needed for Git repository management from code reviews to issue tracking and more.
     1. We have a few different versions of GitLab.
         - GitLab.com.  Hosted, open source for private repos. Just signup and get started.
-        - GitLab CE.  On-premise, self-hosted GitLab with LDAP integration, issue tracker, webhooks, and integrated CI.
+        - GitLab CE.  On-premises, self-hosted GitLab with LDAP integration, issue tracker, webhooks, and integrated CI.
         - GitLab EE.  GitLab Enterprise Edition builds on top of the Community Edition and includes extra features mainly aimed at organizations with more than 100 users. It has LDAP group sync, audit logs and multiple roles. It includes deeper authentication and authorization integration, has fine-grained workflow management, has extra server management options and it integrates with your tool stack.
         - GitHost.io  Private, single-tenant GitLab instances hosted by us.
         - Know the comparison chart - https://about.gitlab.com/features/#compare
@@ -21,7 +21,7 @@ title: "GitLab Positioning FAQ"
         - Community of 1,000 developers contributing to updates that are pushed on the 22nd of every month
 * Our company uses GitHub.com for all open source projects, so why should we use GitLab Enterprise Edition on-premises and not GitHub Enterprise?
     1. With GitLab Enterprise Edition you can use [Repository Mirroring](http://doc.gitlab.com/ee/workflow/repository_mirroring.html) to mirror your open source projects from GitHub.com to your on premises GitLab server. Alternatively, if you want to have a public mirror of your GitLab project, you can now do so effortlessly using mirroring. GitHub Enterprise does not have mirroring.
-    1. Open source projects have different needs than projects developed on-premises by organizations. GitLab was built specifically for use by organizations on-premises and so has more features specific to the enterprise such as 5 levels of [permissions](http://doc.gitlab.com/ee/permissions/permissions.html). GitHub simply bundled their web application (GitHub.com) into a virtual appliance that requires 16GB of memory just to run. 
+    1. Open source projects have different needs than projects developed on-premises by organizations. GitLab was built specifically for use by organizations on-premises and so has more features specific to the enterprise such as 5 levels of [permissions](http://doc.gitlab.com/ee/permissions/permissions.html), and the ability to install on a variety of operating systems.
     1. Unlike other Git management solutions which can have different project views etc, GitHub and GitLab are very similar in features and functionality as well as the workflow they support. Their URL’s and API’s are also similar, so developers will quickly become familiar with GitLab.
 * GitLab is winning enterprise - GitLab is focusing a considerable amount of energy on making Git the way large companies manage their code repositories. Our open-source community has created a powerful tool that we are excited to bring into the enterprise world.
     1. GitLab enterprise key features:
@@ -31,7 +31,7 @@ title: "GitLab Positioning FAQ"
         - Pricing - we are much more cost effective.
 * I use BitBucket.  What can GitLab offer me?
     1. BitBucket has done a lot for the enterprise Git space. Great company.
-    1. GitLab.com and Community Edition are completely free - BitBucket.com is pay if you have more than 5 competitors.
+    1. GitLab.com and Community Edition are completely free - BitBucket.com is pay if you have more than 5 users.
     1. Backed by a community of a few hundred thousand developers and 1,000 contributors.
     1. We launch new features monthly and are iterating on our product faster than anyone in the market. Thanks to our community and our open-way of working, we’ve been able to release new features quickly and effectively.
         - Job’s blog post on the topic is a great read, https://about.gitlab.com/2015/04/15/bitbucket-vs-gitlab-com/
@@ -61,14 +61,14 @@ title: "GitLab Positioning FAQ"
     1. The enterprise world could benefit from this product.
     1. We wanted to be able to offer some features that aren’t necessarily needed in the open source world but are needed for large companies.
     1. For those features, we charge our large customers and in return are able to create those features and hire people to work on the open source project.
-* I use the hosted version of GitLab. Why would my company need on-premise?
+* I use the hosted version of GitLab. Why would my company need on-premises?
     1. More secure and customizable.
     1. LDAP integration
     1. Paid support
     1. 2FA
     1. Permissions management
 * How does support work?
-    1. For on-premise EE - https://about.gitlab.com/pricing/ - gitlab enterprise edition with paid support
+    1. For on-premises EE - https://about.gitlab.com/pricing/ - gitlab enterprise edition with paid support
     1. For GitLab.com - Bronze support - monthly fee - https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20
     1. Active StackOverflow community for free users.
 * Do you offer a solution for migrating data from GitHub, Bitbucket, SVN to GitLab?

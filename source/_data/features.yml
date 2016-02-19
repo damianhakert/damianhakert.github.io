@@ -64,6 +64,8 @@
     in_ce: true
   - description: Set weight of issues
     link: http://doc.gitlab.com/ee/workflow/issue_weight.html
+  - description: Create templates for issues and merge requests
+    link: http://doc.gitlab.com/ee/customization/issue_and_merge_request_template.html
 
 - title: Additional server management options
   features:

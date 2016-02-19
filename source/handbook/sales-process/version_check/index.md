@@ -47,3 +47,20 @@ versions are popular and require a backport of a security fix.
 ## Who has access to this database?
 
 Only the GitLab team has access to version.gitlab.com.
+
+## Which information can be derived from the HTTP referrer?
+
+The HTTP referrer can contain the local or public hostname or IP address of a
+GitLab instance. It depends on how the user accessed the GitLab web interface.
+Local hostnames and local IP addresses are only relevant and reachable within
+the local network in which the instance is running. Therefore local hostnames
+can be named anything, for example 'myownGitLab'. Public hostnames or
+IP addresses can contain information about the owner of the host network.
+For example if the HTTP referrer contains 'dev.gitlab.com' it is assumable that
+this instance is owned by GitLab.
+
+## Limitations
+
+Because an HTTP referrer can be easily spoofed and because a local hostname can
+be named anything, it is impossible to be completely sure if any derived
+information is actually valid.

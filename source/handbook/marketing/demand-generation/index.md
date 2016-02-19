@@ -11,7 +11,7 @@ title: "Demand Generation"
 - [Marketo webhooks docs](http://developers.marketo.com/documentation/webhooks/)
 - [Recurly data into Marketo](https://gitlab.com/gitlab-com/www-gitlab-com/issues/526)
 
-## Incoming Leads
+## Inbound Leads
 
 - https://about.gitlab.com/pricing/ => Recurly (not yet integrated into Marketo). Currently when someone clicks "Buy Now" it creates an account in Salesforce and the account owner is notified. Default account owner is Emily/Hank and can then be transferred. This process is being reviewed so it will flow through BDR. More info below under "New License Flow".
 - https://about.gitlab.com/free-trial/ => Free trial submits flow to BDR team. lead submits form, form sends data to Marketo, Marketo requests license key from the licensing app, lead gets email with license key from Marketo. BDR follows lead qualification process (documented below).
@@ -26,7 +26,7 @@ title: "Demand Generation"
 - https://about.gitlab.com/consultancy/ => When a  submit a form for consultancy, that lead flows through Marketo and notifies BDR team. BDR follows lead qualification process (documented below).
 - GitLab.com lead signup =>
 - https://about.gitlab.com/downloads/ GitLab CE Downloads newsletter signups=> Lead flows through BDR team for lead qualification process (documentation below).
-- Webcast leads => Lead flows through BDR team for lead qualification process (documentation below).
+- Webcast leads => Leads registered for a webcast are sent confirmation, reminder, and followup (recording link and attendee survey) emails. A new lead flows through BDR team for lead qualification process.
 - Any other forms that are created simply flow through the BDR team for lead qualification process (documentation below).
 
 ## New license flow
@@ -45,9 +45,9 @@ Current state
 3. Lead is assigned based on current account owner.
 4. If no current account owner, Emily handles.
 
-## Incoming lead flow
+## Inbound Lead Flow
 
-1. Lead comes into BDR team via one of the named Incoming Lead routes above.
+1. Lead comes into BDR team via one of the named Inbound Lead routes above.
 2. Lead is input into Marketo.
 3. Lead is assigned according to assignment rules.
 4. If region is EMEA, lead goes directly to EMEA BDR team.
@@ -57,15 +57,23 @@ Current state
 
 ## Lead qualification process
 
-1. Soft-BANT is used to determine if a lead should be passed to sales. Once determined, BDR team passes all leads to sales for followup via Salesforce assignment and email notification.
-2. If 2 of the 4 elements of BANT are met (budget, authority, need, timeline), BDR team will determine account owner and pass lead.
-3. If further qualification is needed to understand Soft-BANT requirements, BDR team will email or schedule a phone call with lead to understand their project and initiatives.
-4. If Soft-BANT isn't met and there are questions, BDR team will answer all questions or route to support.
-5. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
-6. If a lead is from a Fortune 500 company, it will be automatically assigned to a senior account manager.
-7. If a lead is an existing customer or a prospect that's owned/operated by an existing customer, BDR team will determine account owner and pass lead.
-8. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
+1. Unless a specific request is made, provide a useful resource that will help the person have a better GitLab experience. 
+1. Ask [Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/) to qualify lead
+1. Soft-BANT is used to determine if a lead should be passed to sales or recommended CE resources. Once determined, BDR team passes all leads to sales for followup via Salesforce assignment and email notification.
+1. If 2 of the 4 elements of BANT are met (budget, authority, need, timeline), BDR team will determine account owner and pass lead.
+1. If further qualification is needed to understand Soft-BANT requirements, BDR team will email or schedule a phone call with lead to understand their project and initiatives.
+1. If Soft-BANT isn't met and there are questions, BDR team will answer all questions or route to support.
+1. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
+1. If a lead is from a Fortune 500 company, it will be automatically assigned to a senior account manager.
+1. If a lead is an existing customer or a prospect that's owned/operated by an existing customer, BDR team will determine account owner and pass lead.
+1. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
 
+## Soft-BANT
+
+- Budget => Does the person work at a company that could afford GitLab (i.e. has revenue or funding)?
+- Authority => Can the person influence a purchase decision?
+- Need => Is there a legitimate use for GitLab at the company (i.e. multiple developers, etc.)?
+- Timeline => Are they willing to continue communicating about GitLab in the next few weeks? If they have another solution, are they looking to replace in the next few weeks or months?
 
 ## What counts as an SQL or MQL?
 1. SQL is any lead passed to the Sales team from the BDR team that has met the qualification process requirements above.
@@ -74,11 +82,25 @@ Current state
 
 ## Lead status
 
-Coming this week.
+- Raw => Newly synced lead from Marketo to SFDC
+- Open => Lead not yet contacted
+- Attempt 1 => One message sent without response; after 21 days, auto-updates to Nurture
+- Attempt 2 => Two messages sent without response; after 21 days, auto-updates to Nurture
+- Attempt 3 => Three messages sent without response; after 21 days, auto-updates to Nurture
+- Attempt 4 => Four messages sent without response; after 21 days, auto-updates to Nurture
+- Qualified => Soft-BANT criteria met. Action: convert to Contact and introduce to sales team.
+- Progressing => Communication is two-way, but Soft-BANT still undetermined. Any response that doesn't immediately put the lead into "Qualified", "Unqualified", or "Nurture" status should put the lead in this status.
+- Unqualified => Soft-BANT criteria not met (e.g. a developer using GitLab for personal projects, a student, etc.). Action: send appropriate resources if requested; avoid sending salesy messages.
+- Bad Data => Invalid email address. Note: only mark as bad data if there is no communication channel. For example, a lead who provide "Spam Spamson" as their name but still provided a valid email address is not Bad Data.
+- Nurture => May become "Qualified" in the future, but communication is closed. Will receive useful marketing emails.
 
 ## Nurture campaign process
 
 Coming soon once process is defined. Will be signup campaign for GitLab.com, leads that don't meet Soft-BANT requirements, etc.
+
+## Subscriptions and Newsletter
+
+Inbound leads receive appropriate marketing emails, such as newsletters, onboarding tips (coming soon), etc. What they receive depends on how they came to find us and what we believe will be most helpful to them. For example, a person who downloaded an EE trial will receive different resources than a person who registered for a webcast. Our non-operational emails have a one-click unsubscribe button. You can manually unsubscribe a person by clicking the "Opt Out" checkbox in SFDC. SFDC also has a manual 30-Day Opt Out checkbox for a 30-day unsubscribe from non-operational emails.
 
 ## Marketo Tools Server
 

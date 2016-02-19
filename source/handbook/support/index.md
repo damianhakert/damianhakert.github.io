@@ -12,7 +12,21 @@ title: Support
 ## Introduction
 
 A [service engineer](/jobs/service-engineer) handles the following channels.
-They are sorted in order of priority.
+They are sorted in order of priority, and as a result, it is possible that channels that appear lower 
+in this list experience longer delays in receiving responses. We are actively [hiring](https://about.gitlab.com/jobs/) 
+more Service Engineers to strengthen the team and provide support to the community.
+
+## Dashboard
+
+The dasboard lists the activity for all out channels over the last 30 days.
+
+[ZenDesk Insight dashboard](https://gitlab.zendesk.com/agent/reporting/analytics/period:0/dashboard:ag0kOtFSfbUf)
+
+Or see the iframe below.
+This requires a valid session for the above link.
+Signing in on this page doesn't seem to work.
+
+<iframe frameborder="0" src="https://analytics.zendesk.com/dashboard.html#project=/gdc/projects/fan67iacybmx4rawsd6jcipe01ouaxvt&dashboard=/gdc/md/fan67iacybmx4rawsd6jcipe01ouaxvt/obj/47957&nochrome=true" width="100%" height="275px" allowTransparency="false"></iframe>
 
 ## Emergency Tickets
 
@@ -30,6 +44,14 @@ to contact them. Usual channels are Phone, Skype, WebEx or Hangouts.
 
 If you are unable to help the customer and their instance is in a critical state (unavailable, uncertainty of
 data loss, etc.), you should escalate the PD incident to Second Level support. They will be able to assist you.
+
+In a crisis situation (defined as an emergency that takes longer than an hour to resolve, 
+and/or multiple people are or need to be involved), start a google doc that is open to the customer and the wider team at GitLab, and keep track of the 
+issues and ideas there. ZenDesk's 'linear' display of communication with a customer is not as effective in crisis situations, and the 
+majority of developers do not have access to ZenDesk in the first place. Announce the google doc in the appropriate 
+slack channel (#operations, #development, #general) so that individuals can contribute solutions and ideas. When the crisis 
+has been resolved, be sure to transfer pertinent know-how from the google doc to relevant documentation, handbooks, and/or 
+issue trackers, so that the google doc can be deprecated a.s.a.p.
 
 ## GitLab.com downtime
 
@@ -69,7 +91,7 @@ Google Hangouts.
 ## Security disclosures
 
 We have a [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/).
-These emails go into ZenDesk.
+These emails go into ZenDesk and get an autoresponder that says: "Thank you for your responsible disclosure of a potential GitLab vulnerability. We'll follow up with you within one business day."
 Please be very patient with these reports.
 Do not say 'there is no problem', you might be misunderstanding something leading to a 0 day disclosure.
 Give examples and keep asking questions until you understand the problem or the researcher concludes there is no problem.
@@ -77,7 +99,12 @@ If someone invested time to help us offer to mention them on our [Security Resea
 If you say that we'll get back to them always mention that they can email us at any time for an update.
 This is really important to prevent a 0 day disclosure because we forgot to respond.
 If you need help from developers to diagnose the issue please open an issue on dev.gitlab.org so we can work in private.
-If someone opens a public issue please leave a message: "Thank you for helping to make GitLab more secure! We removed the contents of your vulnerability disclosure to keep it private. We opened an internal issue to look at your disclosure. Can you please use our [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/) to send us an email that references this url so we can communicate in private?"
+If someone opens a public issue please leave a message: "Thank you for helping to make GitLab more secure! We removed the contents of your vulnerability disclosure to keep it private. We opened an internal issue to look at your disclosure. Can you please use our [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/) to send us an email that references this url so we can communicate in private?".
+The key used to encode/decode PGP messages is stored in our support vault.
+We only provide our public PGP key on request because it makes collaborating much harder and only a small percentage of all disclosures are serious enough to require that overhead.
+
+See [PGP Process](/handbook/support/pgp_process.html) for
+information about using the security PGP key pair and decrypting messages.
 
 ## Regular ZenDesk tickets
 
@@ -121,7 +148,7 @@ Please refer to the priority as listed under [GitLab Workflow in the handbook](h
 For issues specific to GitLab.com that have nothing to do with availability we have the
 [Support Forum](https://gitlab.com/gitlab-com/support-forum/issues). This forum must also be checked periodically
 for new issues and to report back if an issue has been solved. Some people use this forum to report issues they
-are having with their on-premise installation. In that case, you should refer them to the
+are having with their on-premises installation. In that case, you should refer them to the
 [CE issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) or to our
 [Getting Help](https://about.gitlab.com/getting-help/) page, depending on the issue they are having.
 
@@ -148,9 +175,13 @@ Respond to questions on the [GitLab Mailing List](https://groups.google.com/foru
 
 The [GitLab Forum](https://forum.gitlab.com/).
 
-## StackOverflow
+## Stack Overflow
 
-The [StackOverflow tagged questions](http://stackoverflow.com/questions/tagged/gitlab) that relate to GitLab.
+The [Stack Overflow tagged questions](http://stackoverflow.com/questions/tagged/gitlab) that relate to GitLab.
+
+## Reddit
+
+Respond to mentions of GitLab on Reddit, especially ones in the [GitLab Reddit](https://www.reddit.com/r/gitlab/).
 
 ## Non channel work
 
@@ -160,4 +191,3 @@ You can also consider hanging out on IRC to answer questions and help people (#g
 ## Monitoring
 
 We're working on [piping all named channels into ZenDesk and monitoring the response time for each](https://dev.gitlab.org/gitlab/organization/issues/497).
-

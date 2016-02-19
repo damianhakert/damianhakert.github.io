@@ -7,7 +7,6 @@ extra_css:
   - magnific-popup.css
 extra_js:
   - feature_page.js
-
 ---
 
 <div class="wrapper">
@@ -184,7 +183,7 @@ extra_js:
   <div class="container">
     <div class="compare">
 
- {% include features_table.html %}
+      {% include features_table.html %}
 
       <div class="action">
         <a href="/pricing/" onClick="_gaq.push(['_trackEvent', 'Features', 'Compare', 'Pricing (large bottom button)']);" class="btn btn-default btn-lg"><b>See Pricing Options</b></a>
@@ -196,6 +195,10 @@ extra_js:
 
       <div class="action">
         <a href="gitlab-features.pdf" style="font-size: 22px;">Download the feature comparison table as a PDF</a>
+      </div>
+
+      <div class="action">
+        <a href="/comparison" style="font-size: 22px;">Compare GitLab with other tools</a>
       </div>
     </div>
   </div>

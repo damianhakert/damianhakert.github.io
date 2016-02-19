@@ -5,6 +5,7 @@ require "bundler/setup"
 require "stringex"
 
 import 'generate_release_list.rb'
+import 'generate_direction_issues.rb'
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file

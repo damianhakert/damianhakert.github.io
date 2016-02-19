@@ -76,7 +76,7 @@ To see our response to every single point, please view
 [this issue on GitLab.com](https://gitlab.com/gitlab-org/gitlab-ce/issues/8938).
 
 One issue that was raised several times was the ability to not create
-merge commits. In GitLab you can, as an alternative to the merge commits,
+merge commits. In GitLab.com and EE you can, as an alternative to the merge commits,
 [use fast-forward merges](http://doc.gitlab.com/ee/workflow/ff_merge.html)
 or have [merge requests be automatically rebased](http://doc.gitlab.com/ee/workflow/rebase_before_merge.html).
 

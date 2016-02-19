@@ -16,6 +16,7 @@ There are three GitLab Twitter accounts
 -   [@GitLabSupport](https://twitter.com/gitlabsupport) - This account is for managing support questions about the use of GitLab services. This is managed by the GitLab service engineer team.
 
 -   [@GitLabStatus](https://twitter.com/gitlabstatus) - This account tweets about the status of GitLab.com services and is managed by the GitLab operations team.
+We don't generally retweet GitLabStatus, but point users to follow that account or check it.
 
 ### Representing GitLab on Twitter
 
@@ -77,24 +78,23 @@ About using the tools
 
 ## Facebook
 
-We post blog articles there if we think they are good and relevant.
+- We post blog articles there if we think they are good and relevant.
+- Share "Inside GitLab" stories which highlight the people behind the product.
+
+## YouTube
+
+- We post our webcast recordings there.
+
+## LinkedIn
+
+- We post information for potential GitLab employees to show what it's like to work here.
+- We share jobs
+- We post links to relevant industry articles about open source, DevOps, or other trends and news.
 
 ## Google Plus
 
 Not actively posting right now, maybe we should remove it from our homepage.
 
-## YouTube
-
-We're not very active except for uploading a video from time to time.
-
-## LinkedIn
-
-Sometimes we post there.
-
 ## Other channels
 
 See the ones listed on our [getting help page](https://about.gitlab.com/getting-help/).
-
-
-
-

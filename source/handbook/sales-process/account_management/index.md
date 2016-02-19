@@ -98,3 +98,7 @@ Do NOT invoice before feature/work is completed.
 1. Create an issue on the [public issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) and mention someone (Dimitriy, Sytse, Job).
 
 1. Do not mention customer name but confirm if large, medium or small and include URL to Saleforce account.
+
+## Federal agency templates and certificates 
+
+1. GitLab does not have VPAT or 508 certificates

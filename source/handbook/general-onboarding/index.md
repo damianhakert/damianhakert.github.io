@@ -36,11 +36,11 @@ there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @emily, and @tiffani
 * [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
 * [ ] People Ops: Add blank entry to team page (only the start date and position) so the team can see when new people are joining.
 * [ ] People Ops: Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
-* [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @ HANDLE), and People Ops is tackled by (FILL IN WITH @ HANDLE).
+* [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @HANDLE (Nominate someone preferably in similar timezone but different functional group)), and People Ops is tackled by (FILL IN WITH @ HANDLE).
 * [ ] New team member: provide signed contract (including signed proprietary information and assignment agreement (PIAA)) to People Ops.
-* [ ] New team member: provide scan of photo ID to People Ops.
+* [ ] New team member: where applicable, provide scan of photo ID to People Ops.
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), and become comfortable with Git and the GitLab workflow.
-* [ ] People Ops: file signed contract, PIAA, and photo ID in Dropbox and confirm receipt by commenting in the issue.
+* [ ] People Ops: file signed contract, PIAA, and where applicable, photo ID in Dropbox and confirm receipt by commenting in the issue.
 * [ ] Robert/Jacob/COO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
 * [ ] Robert/Jacob/COO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 * [ ] Hiring manager: send an email to company address 'Please read https://about.gitlab.com/handbook/ and the relevant onboarding pages that are linked from there and let me know if you have any questions.'
@@ -103,6 +103,7 @@ and then ping @rspeicher to confirm your account.
 * [ ] Finance: Add to [QuickBooks users](https://about.gitlab.com/handbook/hiring/) (finance only)
 * [ ] People Ops: Order company credit card (for all sales team members who are employees)
 * [ ] People Ops: If credit card holder, add to expense report calendar reminder
+* [ ] CFO / COO: Add to [Hellosign](https://hellosign.com) as a team member
 * [ ] Hiring Manager: Add to [Recurly](https://app.recurly.com/login)
 * [ ] Hiring Manager: Add to  [Salesforce]
 * [ ] New team member: Ask a colleague if they can do a screenshare the next time they process an order using Recurly and Salesforce.
@@ -204,10 +205,10 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 ```
 * [ ] For this offboarding, Manager is (@ mention), People Ops is handled by (@ mention). cc @sytse, @rspeicher, @jacobvosmaer, @patricio, @ernst.
 * [ ] Manager of former team member: Organize smooth hand over of any work or tasks from former team member.
-* [ ] Robert/Jacob/COO: Suspend Google account
-   * [ ] Robert/Jacob/COO: When the manager has time, change the telephone number associated with the account and send a password reset to the manager.
-   * [ ] Manager: log on to Google account and have new messages forward to yourself.
-   * [ ] Robert/Jacob/COO: when manager requests (typically 4 weeks after blocking the Google account), transfer owned documents from Google Drive to
+* [ ] Robert/Jacob/COO: Suspending and closing the Google account
+   * [ ] Robert/Jacob/COO: Check with the former team member's manager if they want email forwarded. If yes, then:
+   * [ ] Robert/Jacob/COO: reset the password for the google account, log on, and set email to forward to the manager. Also change the phone number and alternative email (typically personal email address) that are associated with the account.
+   * [ ] Robert/Jacob/COO: upon manager's request (typically 4 weeks after blocking the Google account), transfer owned documents from Google Drive to
    manager, and delete the Google account.
 * [ ] Robert/Jacob/COO: Disable team member in Slack.
 * [ ] People Ops: Remove former team member from TriNet and payroll if applicable.

@@ -11,6 +11,8 @@ We want to meet each developer where they are now, and help them be the most eff
 
 We also want to address the whole organization, whether they are technical or non-technical; at the coal-face of development or in decision making roles. GitLab is not only used for code development and review. Those same tools are used by team members to track progress, create documentation and collaborate on projects.
 
+In Phil Leggetter's [DevRelOMeter](http://www.leggetter.co.uk/2016/02/03/defining-developer-relations.html) we fall mostly on the "evangelism" side. 
+
 ## Current activities
 
 - Maintain a [social media](/handbook/marketing/developer-marketing/social-media/) presence which is friendly and responsive.
@@ -127,4 +129,3 @@ Start a GitLab Chemists Club for people that evangelize GitLab, make them a supe
 1. Use a light CRM system like Salesforce IQ to manage it
 1. Special occasion [stickers](https://twitter.com/arturcygan/status/667729015155879937), [badges](http://www.nerdmeritbadges.com/) or [buttons](http://www.computerhistory.org/collections/catalog/102635438)
 1. Have a mayor/champion in every city, 3dhubs does this well
-
