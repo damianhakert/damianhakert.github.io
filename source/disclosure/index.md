@@ -7,7 +7,7 @@ Please email security@gitlab.com to report any security vulnerabilities. Please
 refrain from requesting compensation for reporting vulnerabilities. We will
 acknowledge receipt of your vulnerability report and send you regular updates
 about our progress. If you want we will [publicly acknowledge](https://about.gitlab.com/vulnerability-acknowledgements/)
- your responsible disclosure. You may also send us your report to [HackerOne](https://hackerone.com/gitlab).  
+ your responsible disclosure. You may also send us your report via [HackerOne](https://hackerone.com/gitlab).  
 
 
 You are not allowed to search for vulnerabilities on GitLab.com itself. GitLab
