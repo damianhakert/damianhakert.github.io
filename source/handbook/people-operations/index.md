@@ -3,13 +3,6 @@ layout: markdown_page
 title: "People Operations"
 ---
 
-## New US Employees 
-
-
-
-
-
-
 ## Entering New Hires into TriNet<a name="trinet-process"></a>
 
 Employer enters the employee data in the HR Passport with the information below
