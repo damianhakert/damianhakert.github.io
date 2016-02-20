@@ -139,7 +139,7 @@ The GitLab Runner will register the runner and give it a unique `runner` ID.
 Registering runner... succeeded                     runner=s8Bgtktb
 ```
 
-
+The GitLab Runner has to run `xcodebuild` to build and test the project, so we select `shell` as the executor: 
 
 ```
 Please enter the executor: virtualbox, ssh, shell, parallels, docker, docker-ssh:
@@ -147,9 +147,49 @@ shell
 Runner registered successfully. Feel free to start it, but if it's running already the config should be automatically reloaded! 
 ```
 
+Continue with the rest of the Runner installation instructions (`install` and `start`), per the documentation.
 
+Go to the Runners page in your Project Settings and voilà:
 
-TK.
+![The GitLab Runner is recognized in GitLab's Project Settings.](../images/blogimages/setting-up-gitlab-for-ios-projects/6_runner-registered.png)
+
+Your GitLab Runner is recognized and (almost) ready to go!
+
+You can verify this by running
+
+```
+$ gitlab-ci-multi-runner verify
+WARNING: Running in user-mode.                     
+WARNING: The user-mode requires you to manually start builds processing: 
+WARNING: $ gitlab-runner run                       
+WARNING: Use sudo for system-mode:                 
+WARNING: $ sudo gitlab-runner...                   
+                                                   
+Veryfing runner... is alive                         runner=25c780b3
+```
+
+Note that they have the same ID (in this case, `25c780b3`).
+
+The last thing to do is to configure the build and test settings. To do so, open your text editor and enter the following:
+
+```
+stages:
+  - build
+
+build_code:
+  stage: build
+  script:
+    - xcodebuild clean -project ProjectName.xcodeproj -scheme ProjectName | xcpretty
+    - xcodebuild test -project ProjectName.xcodeproj -scheme ProjectName -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.2' | xcpretty -c && exit ${PIPESTATUS[0]}
+  tags:
+    - gitlab-ci-for-ios
+```
+
+A few things to note here:
+
+- The two commands under `script` first clean the Xcode project, then build and test it. Make sure to replace all references to `ProjectName` with the name of your Xcode project.
+- In the `xcodebuild test` command, notice the `-destination` option is set to launch an iPhone 6S image running iOS 9.2 in the Simulator; if you need to run a different device (iPad, for example), you'll need to change this.
+- Add the tag you created when you registered the GitLab Runner under `tags`.
 
 # Setting up your GitLab project for CI
 
