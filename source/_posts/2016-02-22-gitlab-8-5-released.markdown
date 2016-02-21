@@ -12,10 +12,10 @@ image_title: /images/7_X/PICTURE.PNG
 If there is one GitLab release that you'll want to upgrade to as soon as
 possible, it's this one.
 
-GitLab 8.5 is faster, _a lot faster_. Not only have we increased performance
+GitLab 8.5 is faster. _A lot faster_. Not only have we increased performance
 for everyone, getting to what is important is now super quick with Tasks.
 
-With GitLab 8.5 Enterprise Edition, we're also introducing the beta of
+With GitLab 8.5 Enterprise Edition, we're also introducing the alpha of
 GitLab Geo, which allows you to have a remote replicate of your entire
 GitLab instance.
 
@@ -51,7 +51,7 @@ all your users happy.
 
 ## Tasks
 
-GitLab is where you do your work, so being able to get start quickly is
+GitLab is where you do your work, so being able to get started quickly is
 very important. Therefore, we're now introducing Tasks.
 
 Tasks is a chronological list of tasks that are waiting for your input.
@@ -91,7 +91,7 @@ license will be required to use it.
 
 We created the issue sidebar so we could free up the most important content
 from other interface elements. With GitLab 8.5 we're doing this in a
-smarter, prettier and more accessible way:
+smarter, prettier, and more accessible way:
 
 ![]()
 
@@ -124,7 +124,7 @@ in diffs:
 
 When broadcasting important messages to all users on your instance,
 it can be useful to include formatting or links. That's possible now
-with markdown support for broadcast messages.
+with Markdown support for broadcast messages.
 
 ![Broadcast messages with markdown in GitLab 8.5](broadcast_md.gif)
 
@@ -149,15 +149,15 @@ This release has more improvements, including security fixes. Please check out [
 
 ### Updates in the omnibus-gitlab package
 
-As GitLab gets improved every release, so is the omnibus-gitlab package.
-You can see the changes that package receives for every release it the
+As GitLab gets improved every release, so does the omnibus-gitlab package.
+You can see the changes that package receives for every release in the
 [omnibus-gitlab CHANGELOG](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/CHANGELOG.md).
 
-This release there are some major changes in the bundled software:
+In this release there are some major changes in the bundled software:
 
 * Nginx is updated from version 1.7.12 to 1.9.10
 * Nginx spdy protocol was replaced with http2
-* Openssl is updated from version 1.0.1r to 1.0.2f
+* OpenSSL is updated from version 1.0.1r to 1.0.2f
 
 ### Mattermost 2.0
 
@@ -172,7 +172,6 @@ The new 2.0 iOS app for Mattermost with GitLab SSO requires Mattermost server
 2.0 and higher due to a breaking change in mobile API incompatible with
 Mattermost 1.x.
 
-
 ## Upgrade barometer
 
 A migration affecting projects having a path ending in '.atom' has been added,
@@ -184,7 +183,7 @@ you can perform this upgrade online. If you do have them, we recommend to take d
 You can find the current number of affected database records with the following command:
 
 ```
- sudo gitlab-rails runner "puts Project.where(%q{path LIKE '%.atom'}).count"
+sudo gitlab-rails runner "puts Project.where(%q{path LIKE '%.atom'}).count"
 ```
 
 *Note* If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
@@ -228,7 +227,7 @@ A subscription also entitles you to our upgrade and installation services.
 [Sign up to our webcast](http://page.gitlab.com/Feb252016Webcast_LandingPage.html).
 [Job](https://twitter.com/Jobvo/) will give a live walkthrough for GitLab 8.5
 and he'll talk about GitLab Flow.
-It’s on Thursday, February 25th, 5pm (17:00) UTC; 12pm EST; 9am PST.
+It's on Thursday, February 25th, 5pm (17:00) UTC; 12pm EST; 9am PST.
 Can't make that time?
 [Register](http://page.gitlab.com/Feb252016Webcast_LandingPage.html) anyway,
 and we'll send you the recording.
