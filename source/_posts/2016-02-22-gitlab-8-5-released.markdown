@@ -13,7 +13,8 @@ If there is one GitLab release that you'll want to upgrade to as soon as
 possible, it's this one.
 
 GitLab 8.5 is faster. _A lot faster_. Not only have we increased performance
-for everyone, getting to what is important is now super quick with Todos.
+for everyone, getting to what is important is now super quick with Todos (yes,
+_all_ important things for those of you that speak Spanish or Portuguese).
 
 With GitLab 8.5 Enterprise Edition, we're also introducing the alpha of
 GitLab Geo, which allows you to have a remote replicate of your entire
