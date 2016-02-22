@@ -20,12 +20,13 @@ GitLab Geo, which allows you to have a remote replicate of your entire
 GitLab instance.
 
 Once again, we received some amazing contributions this release.
-One of these is the support for relative URLs in Omnibus installations,
+One of these is the support for [relative URLs in Omnibus installations][rel],
 which was one of the many contributions we received from Artem Sidorenko.
 
 Thanks Artem Sidorenko and congratulations on being
 [this month's MVP](https://about.gitlab.com/mvp/)!
 
+[rel]: http://doc.gitlab.com/omnibus/settings/configuration.html#configuring-a-relative-url-for-gitlab
 <!--more-->
 
 ## Performance for Scale
