@@ -51,7 +51,9 @@ issues and ideas there. ZenDesk's 'linear' display of communication with a custo
 majority of developers do not have access to ZenDesk in the first place. Announce the google doc in the appropriate 
 slack channel (#operations, #development, #general) so that individuals can contribute solutions and ideas. When the crisis 
 has been resolved, be sure to transfer pertinent know-how from the google doc to relevant documentation, handbooks, and/or 
-issue trackers, so that the google doc can be deprecated a.s.a.p.
+issue trackers, so that the google doc can be deprecated a.s.a.p.  In addition, Service Engineers and Developers involved
+in the crisis should make time to have a hangout for hand-off to make sure that everyone has the chance to recover and stay 
+clear-headed.
 
 ## GitLab.com downtime
 
