@@ -23,6 +23,7 @@ title: "Sales Process"
 * [Lead Qual & Demand Gen](https://about.gitlab.com/handbook/marketing/demand-generation/)
 * [Sales Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/)
 * [GitLab Positioning](https://about.gitlab.com/handbook/positioning-faq/)
+* [FAQ from prospects](https://about.gitlab.com/handbook/sales-faq-from-prospects/)
 * [How to manage deals](/handbook/sales-process/deal_management_process)
 * [Managing an account](/handbook/sales-process/account_management)
 * [Licenses and EE access](/handbook/sales-process/licenses)
