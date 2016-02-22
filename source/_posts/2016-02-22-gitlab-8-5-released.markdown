@@ -140,7 +140,7 @@ functionality is enabled by your GitLab administrator:
 
 ![Pages domain list](/images/8_5/pages_domain_list.png)
 
-The new functionality of GitLab Pageswas made possible with the help of a new
+The new functionality of GitLab Pages was made possible with the help of a new
 HTTP server written in Go. We call
 it the [GitLab Pages daemon][pages-daemon] and it supports dynamic certificates
 through SNI and exposes pages using HTTP2 by default.
