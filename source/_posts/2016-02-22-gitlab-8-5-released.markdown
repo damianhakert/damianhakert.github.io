@@ -138,7 +138,7 @@ settings page in your projects at **Settings > Pages**.
 
 ![Pages new area](/images/8_5/pages_new_area.png)
 
-You can add custom domains and certificates will if this
+You can add custom domains and certificates if this
 functionality is enabled by your GitLab administrator:
 
 ![Pages domain list](/images/8_5/pages_domain_list.png)
