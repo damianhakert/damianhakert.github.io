@@ -238,6 +238,8 @@ Accidentally exposed some information in your build logs or in a
 faulty build artifact in CI? You can now delete artifacts
 and build traces from CI.
 
+![Erase builds in GitLab 8.5](/images/8_5/erase_builds.png)
+
 ---
 
 ## Other changes
