@@ -104,8 +104,6 @@ Todos has been designed to be as actionable as possible, so that you can focus
 on what is important. Having a personal space to work from has been a long-time
 request and we're looking forward to your feedback after having given it a go.
 
-> TODO documentation link
-
 ## GitLab Geo Alpha (EE)
 
 If you have two or more teams geographically spread out,
@@ -121,44 +119,42 @@ With GitLab 8.5, we're offering GitLab Geo as an Alpha to all our Enterprise
 Edition customers. Once GitLab Geo has left Alpha / Beta state, a special
 license will be required to use it.
 
-> TODO documentation link
-
 ## GitLab Pages now support custom domains and custom TLS certificates (EE)
 
-This feature was first introduced in GitLab EE 8.3, giving you the ability to
-host your own static website in GitLab under a separate domain name. You can
-see it in action on GitLab.com by visiting Dmitriy's blog at
-<https://dzaporozhets.gitlab.io/>.
+GitLab Pages was first introduced in GitLab EE 8.3, giving you the ability to
+host your own static website in GitLab under a separate domain name.
+[Dmitriy's blog](https://dzaporozhets.gitlab.io/) is hosted with it,
+for example!
 
-With GitLab EE 8.5 we raised the bar by adding support of custom domains.
-In addition, not only can you have your own domain name, but you can also point
-multiple domains to GitLab, as well as upload your own TLS certificate!
+With GitLab 8.5 EE we're adding support for custom domains and TLS certificates.
+You can even point multiple domains to GitLab and easily upload your own TLS
+certificates.
 
-This is all possible with the help of a new HTTP server written in Go. We call
-it the [GitLab Pages daemon][pages-daemon] and it supports dynamic certificates
-through SNI and exposes pages using HTTP2 by default.
-
-Since we added that much functionality, Pages settings deserved their own home
-so you can now visit them in your project's **Settings > Pages**.
+To make it easier to set this all up, GitLab Pages now has its own
+settings page in your projects at **Settings > Pages**.
 
 ![Pages new area](/images/8_5/pages_new_area.png)
 
-The button to add custom domains and certificates will be visible if this
-functionality is enabled by your GitLab administrator. Here's a screenshot of
-how the Pages area looks when there are multiple custom domains added.
+You can add custom domains and certificates will if this
+functionality is enabled by your GitLab administrator:
 
 ![Pages domain list](/images/8_5/pages_domain_list.png)
+
+The new functionality of GitLab Pageswas made possible with the help of a new
+HTTP server written in Go. We call
+it the [GitLab Pages daemon][pages-daemon] and it supports dynamic certificates
+through SNI and exposes pages using HTTP2 by default.
 
 The upgrade path from GitLab 8.3 to 8.5 has changed quite a bit and we added
 new comprehensive documentation how GitLab Pages work and the multiple ways to
 set them up.
 
-We plan to enable custom domains on GitLab.com in the following week, so stay
-tuned!
+For GitLab.com users: We plan to enable custom domains on GitLab.com in the
+following week, so stay tuned!
 
-> [Read more about the Pages administration guide](http://doc.gitlab.com/ee/pages/administration.html)
->
-> [Read more about the Pages user guide](http://doc.gitlab.com/ee/pages/README.html)
+> [Learn how to setup your own page in our Gitlab Pages user documentation](http://doc.gitlab.com/ee/pages/README.html)
+
+> [GitLab Pages administration documentation](http://doc.gitlab.com/ee/pages/administration.html)
 
 [pages-daemon]: https://gitlab.com/gitlab-org/gitlab-pages
 
@@ -215,8 +211,6 @@ it can be useful to include formatting or links. That's possible now
 with Markdown support for broadcast messages.
 
 ![Broadcast messages with markdown in GitLab 8.5](/images/8_5/broadcast_md.gif)
-
-> TODO documentation link
 
 ## Highlighted File Renames
 
