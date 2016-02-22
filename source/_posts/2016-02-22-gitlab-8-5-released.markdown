@@ -116,6 +116,8 @@ main GitLab instance. Your Geo instance can be used for cloning and fetching
 projects, in addition to reading any data. This will make working with large
 repositories over large distances much faster.
 
+![GitLab Geo available as Alpha in GitLab 8.5 EE](/images/8_5/geo.png)
+
 With GitLab 8.5, we're offering GitLab Geo as an Alpha to all our Enterprise
 Edition customers. Once GitLab Geo has left Alpha / Beta state, a special
 license will be required to use it.
