@@ -240,6 +240,16 @@ and build traces from CI.
 
 ![Erase builds in GitLab 8.5](/images/8_5/erase_builds.png)
 
+## New CI features in API
+
+Every month we strive to expose more and more CI features to our API. With
+GitLab 8.5 here's what's new:
+
+- [runners](http://doc.gitlab.com/ce/api/runners.html) - enable, disable, edit
+  and see the details of a runner
+- [builds artifacts](http://doc.gitlab.com/ce/api/builds.html#get-build-artifacts) -
+  download the artifacts
+
 ---
 
 ## Other changes
