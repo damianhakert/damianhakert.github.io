@@ -122,6 +122,45 @@ license will be required to use it.
 
 > TODO documentation link
 
+## GitLab Pages now support custom domains and custom TLS certificates (EE)
+
+This feature was first introduced in GitLab EE 8.3, giving you the ability to
+host your own static website in GitLab under a separate domain name. You can
+see it in action on GitLab.com by visiting Dmitriy's blog at
+<https://dzaporozhets.gitlab.io/>.
+
+With GitLab EE 8.5 we raised the bar by adding support of custom domains.
+In addition, not only can you have your own domain name, but you can also point
+multiple domains to GitLab, as well as upload your own TLS certificate!
+
+This is all possible with the help of a new HTTP server written in Go. We call
+it the [GitLab Pages daemon][pages-daemon] and it supports dynamic certificates
+through SNI and exposes pages using HTTP2 by default.
+
+Since we added that much functionality, Pages settings deserved their own home
+so you can now visit them in your project's **Settings > Pages**.
+
+![Pages new area](/images/8_5/pages_new_area.png)
+
+The button to add custom domains and certificates will be visible if this
+functionality is enabled by your GitLab administrator. Here's a screenshot of
+how the Pages area looks when there are multiple custom domains added.
+
+![Pages domain list](/images/8_5/pages_domain_list.png)
+
+The upgrade path from GitLab 8.3 to 8.5 has changed quite a bit and we added
+new comprehensive documentation how GitLab Pages work and the multiple ways to
+set them up.
+
+We plan to enable custom domains on GitLab.com in the following week, so stay
+tuned!
+
+> [Read more about the Pages administration guide](http://doc.gitlab.com/ee/pages/administration.html)
+>
+> [Read more about the Pages user guide](http://doc.gitlab.com/ee/pages/README.html)
+
+[pages-daemon]: https://gitlab.com/gitlab-org/gitlab-pages
+
 ## Revert any Commit
 
 If your motto is "Move fast and break things", you must be familiar with the
