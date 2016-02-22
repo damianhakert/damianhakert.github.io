@@ -171,6 +171,8 @@ it:
 
 ![Revert any commit in GitLab 8.5](/images/8_5/revert.png)
 
+> [Read about reverting changes in our documentation](http://doc.gitlab.com/ce/workflow/revert_changes.html)
+
 ## Updated Issue Sidebar
 
 We created the issue sidebar so we could free up the most important content
