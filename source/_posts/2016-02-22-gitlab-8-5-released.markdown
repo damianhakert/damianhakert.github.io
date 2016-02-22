@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab's fastest release: 8.5, including Todos and Geo"
+title: "GitLab's fastest release ever: 8.5, with Todos and Geo"
 date: 2016-02-22
 comments: true
 categories:
@@ -13,7 +13,7 @@ If there is one GitLab release that you'll want to upgrade to as soon as
 possible, it's this one.
 
 GitLab 8.5 is faster. _A lot faster_. Not only have we increased performance
-for everyone, getting to what is important is now super quick with Tasks.
+for everyone, getting to what is important is now super quick with Todos.
 
 With GitLab 8.5 Enterprise Edition, we're also introducing the alpha of
 GitLab Geo, which allows you to have a remote replicate of your entire
