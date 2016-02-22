@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab 8.5 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab's fastest release: 8.5, including Tasks and Geo"
 date: 2016-02-22
 comments: true
 categories:
