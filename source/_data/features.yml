@@ -1,6 +1,6 @@
 - title: Reporting and Publishing
   features:
-  - description: Host static pages straight from GitLab using GitLab Pages
+  - description: Host static pages straight (with TLS and CNAME support) from GitLab using GitLab Pages
     link: http://doc.gitlab.com/ee/pages/README.html
   - description: Contribution Analytics, see detailed statistics of contributors
     link: https://about.gitlab.com/features/#compare
@@ -64,6 +64,11 @@
     link: http://doc.gitlab.com/ee/workflow/issue_weight.html
   - description: Create templates for issues and merge requests
     link: http://doc.gitlab.com/ee/customization/issue_and_merge_request_template.html
+  - description: Quick see what is important with Todos
+    in_ce: true
+  - description: Revert any commit quickly and easily
+    link: http://doc.gitlab.com/ce/workflow/revert_changes.html
+    in_ce: true
 
 - title: Additional server management options
   features:
