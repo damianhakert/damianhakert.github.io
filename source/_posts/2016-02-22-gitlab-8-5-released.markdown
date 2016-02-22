@@ -93,11 +93,11 @@ We created the issue sidebar so we could free up the most important content
 from other interface elements. With GitLab 8.5 we're doing this in a
 smarter, prettier, and more accessible way:
 
-![]()
+![Updated Issue Sidebar in GitLab 8.5](/images/8_5/sidebar1.png)
 
 To focus on your content, fold it in:
 
-![]()
+![Updated Issue Sidebar in its folded state in GitLab 8.5](/images/8_5/sidebar2.png)
 
 Besides the sidebar, we've updated many things, big and small, in the interface.
 Expect more improvements over the coming releases.
