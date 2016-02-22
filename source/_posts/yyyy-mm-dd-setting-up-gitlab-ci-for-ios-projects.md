@@ -11,11 +11,18 @@ image_title: '/images/unsplash/ios-development.jpg'
 
 # Why CI?
 
-[Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) (CI) is great tool for helping developers be more productive and write higher-quality code. By automatically running a suite of tests every time a commit is pushed, everyone can see the results of changes to the codebase, and take action to make integration faster and easier.
+[Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) (CI)
+is great tool for helping developers be more productive and write higher-quality code. 
+By automatically running a suite of tests every time a commit is pushed, 
+everyone can see the results of changes to the codebase, and take action to 
+make integration faster and easier.
 
-GitLab [comes with CI built-in](https://about.gitlab.com/gitlab-ci/) for all projects, for free.
+GitLab [comes with CI built-in](https://about.gitlab.com/gitlab-ci/) for 
+all projects, for free.
 
-It's beyond the scope of this tutorial to go into details on best practices, workflows, and advantages/disadvantages of CI. In short, however, here's what happens when you enable it for your Xcode project:
+It's beyond the scope of this tutorial to go into details on best practices, 
+workflows, and advantages/disadvantages of CI. 
+In short, however, here's what happens when you enable it for your Xcode project:
 
 1. You make changes to your copy of the codebase and push a commit to GitLab.
 2. GitLab recognizes that the codebase has changed.
@@ -26,9 +33,16 @@ It's beyond the scope of this tutorial to go into details on best practices, wor
 
 # Assumptions and environment
 
-This post will provide a step-by-step guide to setting up GitLab CI for your iOS projects, from start to finish. First, however, we need to make a few assumptions.
+This post will provide a step-by-step guide to setting up GitLab CI for your 
+iOS projects, from start to finish. 
+First, however, we need to make a few assumptions.
 
-[GitLab's strategy document](https://about.gitlab.com/strategy/) hinges on one key idea: *everyone can contribute*. As such, this post is written for readers of nearly all levels of experience. However, given that CI is a relatively advanced topic, we're going to assume some basic knowledge of how to create Xcode and GitLab projects, as well as some familiarity with Terminal and git.
+[GitLab's strategy document](https://about.gitlab.com/strategy/) hinges on
+one key idea: *everyone can contribute*. 
+As such, this post is written for readers of nearly all levels of experience. 
+However, given that CI is a relatively advanced topic, we're going to assume 
+some basic knowledge of how to create Xcode and GitLab projects, 
+as well as some familiarity with Terminal and git.
 
 This post was written with the following development environment in mind:
 
@@ -36,7 +50,8 @@ This post was written with the following development environment in mind:
 - Xcode 7.2.1 with command-line tools and the iOS 9.2 SDK installed
 - GitLab.com v8.5
 
-We'll also assume you've already created a new GitLab project. If you haven't, go ahead and do that now.
+We'll also assume you've already created a new GitLab project. 
+If you haven't, go ahead and do that now.
 
 # Setting up your Xcode project
 
@@ -44,17 +59,25 @@ We'll start by creating a new single-view iOS project in Xcode.
 
 ![Creating a new Xcode project.](../images/blogimages/setting-up-gitlab-for-ios-projects/1_create-new-xcode-project.png)
 
-Give your project a name and make certain that the **Include Unit Tests** and **Include UI Tests** options are enabled for the project. Xcode will create a template test class with some sample tests, which we'll use in this post as the test suite that GitLab CI runs to verify a build. Choose a name for your project and click on **Next**.
+Give your project a name and make certain that the **Include Unit Tests** 
+and **Include UI Tests** options are enabled for the project. Xcode will create 
+a template test class with some sample tests, which we'll use in this post as 
+the test suite that GitLab CI runs to verify a build. Choose a name for your project and click on **Next**.
 
 ![Enable unit and UI tests in your project](../images/blogimages/setting-up-gitlab-for-ios-projects/2_enable-unit-tests.png)
 
-Choose where you'll save your iOS project. If you like, let Xcode create the git repository on your Mac.
+Choose where you'll save your iOS project. 
+If you like, let Xcode create the git repository on your Mac.
 
 ![Let Xcode initialize your git repository.](../images/blogimages/setting-up-gitlab-for-ios-projects/3_create-git-repository.png)
 
-Once Xcode has created and opened your iOS project, you need to [share its scheme](https://developer.apple.com/library/ios/recipes/xcode_help-scheme_editor/Articles/SchemeShare.html). Apple's [documentation](https://developer.apple.com/library/ios/recipes/xcode_help-scheme_editor/Articles/SchemeDialog.html) defines schemes nicely:
+Once Xcode has created and opened your iOS project, you need to 
+[share its scheme](https://developer.apple.com/library/ios/recipes/xcode_help-scheme_editor/Articles/SchemeShare.html). 
+Apple's [documentation](https://developer.apple.com/library/ios/recipes/xcode_help-scheme_editor/Articles/SchemeDialog.html) defines schemes nicely:
 
-> A scheme is a collection of settings that specify which targets to build, what build configuration to use, and the executable environment to use when the product specified by the target is launched.
+> A scheme is a collection of settings that specify which targets to build, 
+what build configuration to use, and the executable environment to use when the 
+product specified by the target is launched.
 
 By sharing your scheme, GitLab CI gets context it needs to build and test your project.
 
@@ -64,11 +87,18 @@ To share a scheme in Xcode, choose **Product** > **Scheme** > **Manage Schemes**
 
 Click on the **Close** button.
 
-Your Xcode project has been created with two test files; one includes sample unit tests, and the other includes sample UI tests. You can run **Product** > **Test** to run these tests, which will build your project, launch the Simulator, install the project on the Simulator device, and run the test suite. You can see the results right in Xcode:
+Your Xcode project has been created with two test files; one includes sample 
+unit tests, and the other includes sample UI tests. 
+You can run **Product** > **Test** to run these tests, which will build your 
+project, launch the Simulator, install the project on the Simulator device, 
+and run the test suite. 
+You can see the results right in Xcode:
 
 ![](../images/blogimages/setting-up-gitlab-for-ios-projects/5_test-suite-success-in-xcode.png)
 
-The green checkmarks next to the test functions (both in the file, and in the Test navigator) show that all tests passed. We won't be referring to the Xcode project anymore, so if you like, you can close it.
+The green checkmarks next to the test functions (both in the file, and in 
+the Test navigator) show that all tests passed. We won't be referring to the 
+Xcode project anymore, so if you like, you can close it.
 
 Next, open Terminal and navigate to the folder you created for your iOS project.
 
@@ -84,19 +114,25 @@ For an Objective-C project, enter
 $ curl -o .gitignore https://www.gitignore.io/api/objective-c
 ```
 
-The `curl` command conveniently downloads the contents of the page at the given [gitignore.io](https://gitignore.io) URL into a file named `.gitignore`.
+The `curl` command conveniently downloads the contents of the page at the given 
+[gitignore.io](https://gitignore.io) URL into a file named `.gitignore`.
 
-If Xcode initialized the git repository for you, you'll need to set the origin url to your GitLab project (replaceing `<username>` with your GitLab username and `<project>` with the project name:
+If Xcode initialized the git repository for you, you'll need to set the origin 
+url to your GitLab project (replaceing `<username>` with your GitLab username 
+and `<project>` with the project name:
 
 ```
 $ git remote add origin git@gitlab.com:<username>/<project>.git
 ```
 
-The final step here is to [install xcpretty](https://github.com/supermarin/xcpretty). When Xcode builds and tests your project, xcpretty will transform the output into something more readable for you.
+The final step here is to [install xcpretty](https://github.com/supermarin/xcpretty). 
+When Xcode builds and tests your project, xcpretty will transform the output into something more readable for you.
 
 # Installing and registering the GitLab Runner
 
-The GitLab Runner is a service that's installed on your Mac, which runs the build and test process that you set up in a configuration file. You can follow the [installation instructions for OS X](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/osx.md), but we'll need to make some changes to the *register the runner* step:
+The GitLab Runner is a service that's installed on your Mac, which runs the 
+build and test process that you set up in a configuration file. 
+You can follow the [installation instructions for OS X](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/osx.md), but we'll need to make some changes to the *register the runner* step:
 
 ```
 $ gitlab-ci-multi-runner register
@@ -114,14 +150,17 @@ Please enter the gitlab-ci coordinator URL (e.g. https://gitlab.com/ci):
 https://gitlab.com/ci
 ```
 
-The CI token for your project is available on GitLab's Project Settings page, under *Advanced Settings*. Each project has a unique token, so it won't be the same as the one below.
+The CI token for your project is available on GitLab's Project Settings page, 
+under *Advanced Settings*. 
+Each project has a unique token, so it won't be the same as the one below.
 
 ```
 Please enter the gitlab-ci token for this runner:
 s8BgtktbFwvdyxp1yyWZ
 ```
 
-The `register` process suggests the name of your Mac as a description for the runner. You can enter something different if you like, or just hit **return** to continue.
+The `register` process suggests the name of your Mac as a description for the runner. 
+You can enter something different if you like, or just hit **return** to continue.
 
 ```
 Please enter the gitlab-ci description for this runner:
@@ -141,12 +180,14 @@ The GitLab Runner will register the runner and give it a unique `runner` ID.
 Registering runner... succeeded                     runner=s8Bgtktb
 ```
 
-The GitLab Runner has to run `xcodebuild` to build and test the project, so we select `shell` as the executor: 
+The GitLab Runner has to run `xcodebuild` to build and test the project, so we 
+select `shell` as the executor: 
 
 ```
 Please enter the executor: virtualbox, ssh, shell, parallels, docker, docker-ssh:
 shell
-Runner registered successfully. Feel free to start it, but if it's running already the config should be automatically reloaded! 
+Runner registered successfully. Feel free to start it, but if it's running 
+already the config should be automatically reloaded! 
 ```
 
 Continue with the rest of the Runner installation instructions (`install` and `start`), per the documentation.
@@ -172,7 +213,8 @@ Veryfing runner... is alive                         runner=25c780b3
 
 Note that they have the same ID (in this case, `25c780b3`).
 
-The last thing to do is to configure the build and test settings. To do so, open your text editor and enter the following:
+The last thing to do is to configure the build and test settings. 
+To do so, open your text editor and enter the following:
 
 ```
 stages:
@@ -187,35 +229,47 @@ build_code:
     - gitlab-ci-for-ios
 ```
 
-Save this file in your Xcode project folder as `.gitlab-ci.yml`, and don't forget the period at the beginning of the file name!
+Save this file in your Xcode project folder as `.gitlab-ci.yml`, and don't 
+forget the period at the beginning of the file name!
 
 A few things to note here:
 
-- The two commands under `script` first clean the Xcode project, then build and test it. Make sure to replace all references to `ProjectName` with the name of your Xcode project.
-- In the `xcodebuild test` command, notice the `-destination` option is set to launch an iPhone 6S image running iOS 9.2 in the Simulator; if you want to run a different device (iPad, for example), you'll need to change this.
+- The two commands under `script` first clean the Xcode project, then build and test it.
+Make sure to replace all references to `ProjectName` with the name of your Xcode project.
+- In the `xcodebuild test` command, notice the `-destination` option is set to 
+launch an iPhone 6S image running iOS 9.2 in the Simulator; if you want to run a 
+different device (iPad, for example), you'll need to change this.
 - Under `tags`, add the tag you created when you registered the GitLab Runner.
 
-There's a simple tool for "linting" (i.e., validating) your `.gitlab-ci.yml` in GitLab. From your GitLab project page, click on *Builds* in the sidebar, then in the upper-right corner, click on **CI Lint**:
+There's a simple tool for "linting" (i.e., validating) your `.gitlab-ci.yml` in GitLab. 
+From your GitLab project page, click on *Builds* in the sidebar, then in the upper-right corner, click on **CI Lint**:
 
 ![Accessing the GitLab CI script linter.](../images/blogimages/setting-up-gitlab-for-ios-projects/7_ci-lint-button.png)
 
-Paste the contents of your `.gitlab-ci.yml` file into the text box and click on **Validate**. You should see something like:
+Paste the contents of your `.gitlab-ci.yml` file into the text box and click on **Validate**. 
+You should see something like:
 
 > **Status:** syntax is correct
 
-This won't tell you if your project name or the Simulator chosen is correct, so be sure to double-check these values.
+This won't tell you if your project name or the Simulator chosen is correct, 
+so be sure to double-check these values.
 
 # Setting up your GitLab project for CI
 
-Actually, there's really not much to do here! CI is enabled by default on new projects. If your iOS project has some environment variables you want to keep secret, but you want to keep the project public on GitLab, you may want to disable **Public builds** in Project Settings, under *Continous Integration*. This will hide the build results from everyone except members of the project.
+Actually, there's really not much to do here! CI is enabled by default on new projects. 
+If your iOS project has some environment variables you want to keep secret, 
+but you want to keep the project public on GitLab, you may want to disable **Public builds** in Project Settings, under *Continous Integration*. This will hide the build results from everyone except members of the project.
 
-You may also want to go to *Runners* under your Project Settings and click **Disable shared runners**, as they're not needed anyhow&mdash;we're using a project-specific runner.
+You may also want to go to *Runners* under your Project Settings and 
+click **Disable shared runners**, as they're not needed anyhow&mdash;we're 
+using a project-specific runner.
 
 We're now ready to trigger a CI build!
 
 # How to trigger builds
 
-To trigger a build, all you have to do is push a commit to GitLab. From the Terminal:
+To trigger a build, all you have to do is push a commit to GitLab. 
+From the Terminal:
 
 ```
 $ git add .
@@ -225,7 +279,9 @@ $ git push origin master
 [...push info...]
 ```
 
-If everything worked, and you installed the GitLab Runner on the same machine, you'll notice that Simulator launches, installs your iOS app and launches it, and then goes back to the home screen.
+If everything worked, and you installed the GitLab Runner on the same machine, 
+you'll notice that Simulator launches, installs your iOS app and launches it, 
+and then goes back to the home screen.
 
 Go to the *Builds* page of your GitLab project and have a look at the results!
 
@@ -235,7 +291,8 @@ Click on the <span style=color:green>✔︎ success</span> button to see the bui
 
 ![The build results page.](../images/blogimages/setting-up-gitlab-for-ios-projects/9_build-results.png)
 
-Here you'll see the output from all the steps you requested in your `.gitlab-ci.yml` file. At the bottom of the log, you should see something like:
+Here you'll see the output from all the steps you requested in your `.gitlab-ci.yml` file. 
+At the bottom of the log, you should see something like:
 
 ```
 All tests
@@ -260,7 +317,10 @@ GitLab_CI_for_iOSUITests
 Build succeeded.
 ```
 
-Now you can go ahead and start writing tests for your code, and every time you push a commit, GitLab will diligently fetch the project, clean it, and then build and test it. If the build fails, you can take action to fix the commit.
+Now you can go ahead and start writing tests for your code, and every time you 
+push a commit, GitLab will diligently fetch the project, clean it, and then 
+build and test it. 
+If the build fails, you can take action to fix the commit.
 
 # Starting and stopping the runner on your Mac
 
@@ -314,7 +374,8 @@ $ gitlab-ci-multi-runner status
 gitlab-runner: Service is not running.
 ```
  
-In this case, any builds pushed will show up as **pending** and will be triggered as soon as you restart the Runner:
+In this case, any builds pushed will show up as **pending** and will be 
+triggered as soon as you restart the Runner:
 
 ```
 $ gitlab-ci-multi-runner start
@@ -322,11 +383,23 @@ $ gitlab-ci-multi-runner status
 gitlab-runner: Service is running!
 ```
 
-Any pending builds in the queue will then be triggered, launching Simulator and running the test suite normally.
+Any pending builds in the queue will then be triggered, launching Simulator 
+and running the test suite normally.
 
 # Other salient points
 
-- This workflow should work for *any* kind of Xcode project, including tvOS, watchOS, and Mac OS X. Just be sure to specify the appropriate Simulator device in your `.gitlab-ci.yml` file.
-- If you want to push a commit but don't want to trigger a CI build, simply add `[ci skip]` to your commit message.
-- If you're working on a team, or if your project is public, you may want to install the GitLab Runner on a dedicated build machine. It can otherwise be very distracting to be using your machine and have Simulator launch unexpectedly to run a test suite.
-- The test project used in this particular tutorial is [available here](https://gitlab.com/AngeloStavrow/gitlab-ci-for-ios-projets), but the Runner is permanently stopped. Note that the project isn't tied to a particular team, so provisioning isn't an issue here; you may need to [add some parameters to the build scripts](https://coderwall.com/p/rv2lgw/use-xcodebuild-to-build-workspace-vs-project) in your `.gitlab-ci.yml` file if you see provisioning errors in your build output.
+- This workflow should work for *any* kind of Xcode project, including tvOS, 
+watchOS, and Mac OS X. 
+Just be sure to specify the appropriate Simulator device in your `.gitlab-ci.yml` file.
+- If you want to push a commit but don't want to trigger a CI build, simply 
+add `[ci skip]` to your commit message.
+- If you're working on a team, or if your project is public, you may want 
+to install the GitLab Runner on a dedicated build machine. 
+It can otherwise be very distracting to be using your machine and have 
+Simulator launch unexpectedly to run a test suite.
+- The test project used in this particular tutorial is 
+[available here](https://gitlab.com/AngeloStavrow/gitlab-ci-for-ios-projets), 
+but the Runner is permanently stopped. Note that the project isn't tied to a 
+particular team, so provisioning isn't an issue here; you may need to 
+[add some parameters to the build scripts](https://coderwall.com/p/rv2lgw/use-xcodebuild-to-build-workspace-vs-project)
+in your `.gitlab-ci.yml` file if you see provisioning errors in your build output.
