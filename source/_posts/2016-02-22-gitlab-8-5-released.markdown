@@ -176,6 +176,7 @@ We now highlight file renames in diffs:
 You can now easily sort issues by votes!
 This should make it easier to find popular or important issues.
 
+![Sort by votes in GitLab 8.5](/images/8_5/votes.png)
 
 ## Erase Build Content in CI
 
