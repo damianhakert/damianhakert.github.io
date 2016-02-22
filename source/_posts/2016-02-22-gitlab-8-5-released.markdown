@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "GitLab's fastest release: 8.5, including Tasks and Geo"
+title: "GitLab's fastest release: 8.5, including Todos and Geo"
 date: 2016-02-22
 comments: true
 categories:
 author: Job van der Voort
 author_twitter: Jobvo
-image_title: /images/7_X/PICTURE.PNG
+image_title: /images/8_5/header.jpg
 ---
 
 If there is one GitLab release that you'll want to upgrade to as soon as
@@ -81,22 +81,22 @@ Some notable performance notes are:
   now, this is only set by the web editor/API before creating/updating files
   (as this is the only case where it's actually needed).
 
-## Tasks
+## Todos
 
 GitLab is where you do your work, so being able to get started quickly is
-very important. Therefore, we're now introducing Tasks.
+very important. Therefore, we're now introducing Todos.
 
-Tasks is a chronological list of tasks that are waiting for your input.
+Todos is a chronological list of to-dos that are waiting for your input.
 Whenever you're assigned to an issue or merge request
 or have someone mention you, a new task is created automatically.
 
 Then when you've made a change, like replying to a comment or updating an issue,
-the task is automatically set to **Done**. You can also manually mark tasks
+the to-do is automatically set to **Done**. You can also manually mark to-dos
 as done.
 
-![Tasks in GitLab 8.5](/images/8_5/tasks.png)
+![Todos in GitLab 8.5](/images/8_5/tasks.png)
 
-Tasks has been designed to be as actionable as possible, so that you can focus
+Todos has been designed to be as actionable as possible, so that you can focus
 on what is important. Having a personal space to work from has been a long-time
 request and we're looking forward to your feedback after having given it a go.
 
@@ -171,11 +171,19 @@ We now highlight file renames in diffs:
 
 ![See differences on file renames in Gitlab 8.5](/images/8_5/filenames.png)
 
+## Sort by Votes
+
+You can now easily sort issues by votes!
+This should make it easier to find popular or important issues.
+
+
 ## Erase Build Content in CI
 
 Accidentally exposed some information in your build logs or in a
 faulty build artifact in CI? You can now delete artifacts
 and build traces from CI.
+
+---
 
 ## Other changes
 
@@ -205,6 +213,8 @@ upgrades from GitLab 8.3 to 8.5 without needing to upgrade to 8.4.
 The new 2.0 iOS app for Mattermost with GitLab SSO requires Mattermost server
 2.0 and higher due to a breaking change in mobile API incompatible with
 Mattermost 1.x.
+
+---
 
 ## Upgrade barometer
 
