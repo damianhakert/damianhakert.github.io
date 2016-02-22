@@ -99,7 +99,7 @@ Then when you've made a change, like replying to a comment or updating an issue,
 the to-do is automatically set to **Done**. You can also manually mark to-dos
 as done.
 
-![Todos in GitLab 8.5](/images/8_5/tasks.png)
+![Todos in GitLab 8.5](/images/8_5/todos.png)
 
 Todos has been designed to be as actionable as possible, so that you can focus
 on what is important. Having a personal space to work from has been a long-time
