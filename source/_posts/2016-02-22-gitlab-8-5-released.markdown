@@ -88,7 +88,7 @@ very important. Therefore, we're now introducing Todos.
 
 Todos is a chronological list of to-dos that are waiting for your input.
 Whenever you're assigned to an issue or merge request
-or have someone mention you, a new task is created automatically.
+or have someone mention you, a new to-do is created automatically.
 
 Then when you've made a change, like replying to a comment or updating an issue,
 the to-do is automatically set to **Done**. You can also manually mark to-dos
