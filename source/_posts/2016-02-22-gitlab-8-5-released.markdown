@@ -80,9 +80,10 @@ Some notable performance notes are:
   written (regardless of whether it was already set) on every request. As of
   now, this is only set by the web editor/API before creating/updating files
   (as this is the only case where it's actually needed).
-- 'Raw' file contents from Git repositories are served by gitlab-workhorse now, which prevents timeouts.
-- GitLab no longer loads large Git blobs (e.g. binary files) into memory when browsing a Git repository. This prevents timeouts and memory leaks.
-
+- 'Raw' file contents from Git repositories are served by gitlab-workhorse now,
+  which prevents timeouts.
+- GitLab no longer loads large Git blobs (e.g. binary files) into memory when
+  browsing a Git repository. This prevents timeouts and memory leaks.
 
 ## Todos
 
