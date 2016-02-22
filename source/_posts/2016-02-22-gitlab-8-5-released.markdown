@@ -62,7 +62,7 @@ Then when you've made a change, like replying to a comment or updating an issue,
 the task is automatically set to **Done**. You can also manually mark tasks
 as done.
 
-![Tasks in GitLab 8.5](tasks.png)
+![Tasks in GitLab 8.5](/images/8_5/tasks.png)
 
 Tasks has been designed to be as actionable as possible, so that you can focus
 on what is important. Having a personal space to work from has been a long-time
@@ -109,7 +109,9 @@ whether they are
 [open source](https://about.gitlab.com/2016/01/15/making-gitlab-better-for-large-open-source-projects/) or not.
 
 To get a better overview of a milestone, we're now showing labels in the
-milestone view.
+milestone view:
+
+![See labels in Milestones in GitLab 8.5](/images/8_5/milestone.png)
 
 > [Read about milestones in our documentation](http://doc.gitlab.com/ee/workflow/milestones.html)
 
@@ -118,7 +120,7 @@ milestone view.
 As big fans of SVGs ourselves, we made it possible to view rendered SVGs
 in diffs:
 
-![Rendered SVG in GitLab 8.5](svg.png)
+![Rendered SVG in GitLab 8.5](/images/8_5/svg.png)
 
 ## Markdown in Broadcast messages
 
@@ -126,7 +128,7 @@ When broadcasting important messages to all users on your instance,
 it can be useful to include formatting or links. That's possible now
 with Markdown support for broadcast messages.
 
-![Broadcast messages with markdown in GitLab 8.5](broadcast_md.gif)
+![Broadcast messages with markdown in GitLab 8.5](/images/8_5/broadcast_md.gif)
 
 > TODO documentation link
 
@@ -135,7 +137,7 @@ with Markdown support for broadcast messages.
 Small changes can be great too!
 We now highlight file renames in diffs:
 
-![See differences on file renames in Gitlab 8.5](filenames.png)
+![See differences on file renames in Gitlab 8.5](/images/8_5/filenames.png)
 
 ## Erase Build Content in CI
 
