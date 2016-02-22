@@ -46,9 +46,40 @@ the first release candidate of 8.5:
 
 ![Response times for single issues in GitLab 8.5](/images/8_5/issue_timings.png)
 
+And here's a graph showing the overall response timings (per 30 minutes) from
+10 to 12 February. The vertical arrow indicates the 8.5.0 RC1 deploy on
+GitLab.com.
+
+![Overall Response times in GitLab 8.5](/images/8_5/gitlab_timings.png)
+
 There are many performance improvements that you will notice with 8.5.
 Especially if you're running a very large server, this release will make
 all your users happy.
+
+Some notable performance notes are:
+
+- Broadcast messages are cached, reducing the impact they have on page loading
+  times [!2633](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2633)
+- Performance of `Repository#empty?` and `Repository#has_visible_content?` has
+  been improved and their output is cached, reducing project specific page
+  (issues, project dashboard, etc) loading times by about 3 to 3.5 times. This
+  was changed in [gitlab_git!62](https://gitlab.com/gitlab-org/gitlab_git/merge_requests/62)
+  followed by [!2752](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2752)
+- Caches for branch commit ahead/behind statistics are only flushed when needed.
+  For example, when pushing to a non default branch only the statistics for
+  said branch are flushed, whereas previously the statistics for all branches
+  would be flushed. This was changed in [!2769](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2769)
+- Performance of retrieving the issues that should be closed by a merge request
+  has been improved in [!2625](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2625)
+- Performance of Atom feeds has been greatly improved in
+  [!2613](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2613),
+  leading to a reduction of up to roughly 10 seconds per page load
+  (depending on the amount of events involved)
+- [!2859](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2859) changes
+  the way the Git `core.autocrlf` option is set. Previously this would be
+  written (regardless of whether it was already set) on every request. As of
+  now, this is only set by the web editor/API before creating/updating files
+  (as this is the only case where it's actually needed).
 
 ## Tasks
 
