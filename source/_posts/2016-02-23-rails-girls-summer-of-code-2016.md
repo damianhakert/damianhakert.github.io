@@ -10,7 +10,7 @@ image_title: /images/unsplash/programmer1.jpg
 
 We're delighted to announce that GitLab Community Edition has been accepted as a
 project for the upcoming Rails Girls Summer of Code. Students will be working on
-improving GitLab not only for GitLab.com but for all GitLab users, be it
+improving GitLab not only for [GitLab.com](https://gitlab.com) but for all GitLab users, be it
 individuals or large corporations such as SpaceX, NASA, CERN, and IBM. A regular
 release interval means changes made by students will be available quickly,
 instead of waiting in a queue for months.
@@ -43,9 +43,9 @@ out as a coach can take a look at the ["Becoming a Coach" guide][coach-guide].
 
 ## Support Rails Girls Summer of Code
 
-We're proud to be [sponsors][sponsors] of this year's Summer of Code. Those
+We're also proud to be [sponsors][sponsors] of this year's Summer of Code. Those
 interested in sponsoring this year's Summer of code as well should take a look
-at the [crowdfunding campaign][campaign].
+at the [crowdfunding campaign][campaign] which is now open!
 
 The money raised by this campaign is used to help support teams and
 participants with full time scholarships.
@@ -57,4 +57,4 @@ participants with full time scholarships.
 [team-application-guide]: http://railsgirlssummerofcode.org/students/application/
 [coach-guide]: http://railsgirlssummerofcode.org/guide/coaching/
 [sponsors]: http://railsgirlssummerofcode.org/sponsors/
-[campaign]: http://railsgirlssummerofcode.org/campaign/
+[campaign]: http://railsgirlssummerofcode.org/blog/2016-02-23-crowdfunding-campaign-is-open
