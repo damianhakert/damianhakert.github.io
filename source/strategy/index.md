@@ -125,11 +125,11 @@ We believe that all digital products should be open to contributions, from legal
 
 4. Increase our average deal size through upsell to higher plans, selling multi-year deals and increasing seats sold.
 
-5. Increase adoption and revenue within accounts through the creation of a Customer Success Organization
+5. Increase adoption and revenue within accounts through the creation of a Customer Success organization
 
-6. Increase salesperson capacity and productivity by creating specialized roles: BDR, (senior) account managers, customer success, regional director
+6. Increase salesperson capacity and productivity by creating specialized roles, in sales we'll have account executives, senior accounts executives, and regional sales directors. In Customer Success we'll have customer success managers (on quota and work with named accounts) and technical account managers (not on quota, work with named accounts, will not do product support, work primarily via email, provide pre-sales support, guide their accounts through our features, installation, implementation, integrations, roadmap, and best practices).
 
-7. Account managers specialize in upsell EE from CE, competitive sell against GitHub or Atlassian and educational sell from SVN/Clearcase or top-down sell to CTO.
+7. Account Executives specialize in upsell EE from CE, competitive sell against GitHub or Atlassian and educational sell from SVN/Clearcase or top-down sell to CTO.
 
 8. Intense one month onboarding program (GLU, GitLab, Udacity, TrainTool) to prepare new salespeople to add value faster to the buying process.
 
