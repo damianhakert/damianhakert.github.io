@@ -75,9 +75,9 @@ Current state
 - Need => Is the prospect asking for a quote? Is the prospect asking about specific feature and functionality? Is there a legitimate use for GitLab at the company (i.e. multiple developers, etc.)?
 - Timeline => Are they willing to continue communicating about GitLab in the next few weeks? If they have another solution, are they looking to replace in the next few weeks or months?
 
-## What counts as an SAL or SQL or MQL?
-1. SAL is any qualifed lead from the BDR team that is converted into an opportunity.
-1. SQL is any lead passed to the Sales team from the BDR team that has met the qualification process requirements above.
+## What counts as an SQL or SAL or MQL?
+1. SQL is an lead from the BDR team that is converted into an opportunity.
+1. SAL is any lead passed to the Sales team from the BDR team that has met the qualification process requirements above and sales accepts.
 1. MQL is any lead with a lead score of 20 or greater in Marketo.
 1. Lead score is calculated based on behavioral and demographic data.
 
