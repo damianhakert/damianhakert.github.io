@@ -5,6 +5,7 @@ date: 2016-02-23
 comments: true
 author: Yorick Peterse
 author_twitter: yorickpeterse
+image_title: /images/blogimages/rgsoc_logo_map.png
 ---
 
 We're delighted to announce that GitLab Community Edition has been accepted as a
