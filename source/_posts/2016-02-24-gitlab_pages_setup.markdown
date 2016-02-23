@@ -7,8 +7,6 @@ categories: tutorial
 author: Guest author Marcia Ramos
 author_twitter: virtuacreative
 image_title: '/images/blogimages/gitlab-pages-setup-cover.jpg'
-review: "review-1.3-2016-02-24-gitlab_pages_setup.markdown"
-review_date: 2016-02-22 21:08:23
 ---
 
 In this article we provide you with detailed information about using [GitLab Pages][pages-ee] to host your website for free on [GitLab.com][sign-up].
