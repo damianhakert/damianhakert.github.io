@@ -5,7 +5,7 @@ date: 2016-02-23
 comments: true
 author: Yorick Peterse
 author_twitter: yorickpeterse
-image_title: /images/blogimages/rgsoc_logo_map.png
+image_title: /images/unsplash/programmer1.jpg
 ---
 
 We're delighted to announce that GitLab Community Edition has been accepted as a
@@ -41,10 +41,16 @@ Students interested in working on GitLab should take a look at the
 ["Application Guide"][team-application-guide]. Those interested in helping
 out as a coach can take a look at the ["Becoming a Coach" guide][coach-guide].
 
-We're also proud to be [sponsors][sponsors] of this year's Summer of Code. Those
+## Support Rails Girls Summer of Code
+
+We're proud to be [sponsors][sponsors] of this year's Summer of Code. Those
 interested in sponsoring this year's Summer of code as well should take a look
-at the [crowdfunding campaign][campaign]. The money raised by this campaign is
-used to help support teams and participants with full time scholarships.
+at the [crowdfunding campaign][campaign].
+
+The money raised by this campaign is used to help support teams and
+participants with full time scholarships.
+
+![Rails Girls Summer of Code](/images/blogimages/rgsoc_logo.png)
 
 [up-for-grabs]: https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&sort=id_desc&state=opened&utf8=%E2%9C%93&label_name=up-for-grabs
 [project-page]: https://teams.railsgirlssummerofcode.org/projects/99-gitlab-community-edition
