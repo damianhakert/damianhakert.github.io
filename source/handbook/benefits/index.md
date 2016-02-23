@@ -116,7 +116,10 @@ period of 180 days will apply.
 ### 401k Plan
 
 The company offers a 401k plan in which you may make voluntary pre-tax contributions
-toward your retirement. We do not currently offer matching contributions.
+toward your retirement. We do not currently offer matching contributions. See the 
+[People Operations](https://about.gitlab.com/handbook/people-operations/) page for 
+details on eligibility and sign up.
+
 
 ### Optional TriNet Plans Available at Employee Expense
 
