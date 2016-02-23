@@ -6,7 +6,7 @@ title: About Us
 ## GitLab Inc.
 
 GitLab Inc. is a company based on the [GitLab open-source project](https://gitlab.com/gitlab-org/gitlab-ce/).
-GitLab is a application to code, test, and deploy code together.
+GitLab is an application to code, test, and deploy code together.
 It provides Git repository management with fine grained access controls, code reviews, issue tracking, activity feeds, wikis, and continuous integration.
 
 GitLab Inc. has 4 product offerings:
