@@ -6,7 +6,7 @@ title: About Us
 ## GitLab Inc.
 
 GitLab Inc. is a company based on the [GitLab open-source project](https://gitlab.com/gitlab-org/gitlab-ce/).
-GitLab is a application to code test and deploy code together.
+GitLab is a application to code, test, and deploy code together.
 It provides Git repository management with fine grained access controls, code reviews, issue tracking, activity feeds, wikis, and continuous integration.
 
 GitLab Inc. has 4 product offerings:
@@ -36,8 +36,8 @@ So together with Valery, he started to build GitLab as a solution for this.
 
 ### _2012: GitLab.com_
 
-Sid saw GitLab for the first time
-He though it was natural that a collaboration tool for programmers was open source.
+Sid saw GitLab for the first time.
+He thought it was natural that a collaboration tool for programmers was open source.
 Being a Ruby programmer he checked out the source code and was impressed with the code quality of GitLab.
 He started GitLab.com as the first SaaS offering for GitLab.
 
@@ -68,7 +68,7 @@ than 100,000 organizations are using GitLab.
 
 At GitLab we have one vision.
 **Everyone can contribute** to all digital content.
-For more information the [product version on our direction page](https://about.gitlab.com/direction/#vision and our [strategy](https://about.gitlab.com/strategy/)
+For more information the [product version on our direction page](https://about.gitlab.com/direction/#vision) and our [strategy](https://about.gitlab.com/strategy/)
 
 ## Logo
 
