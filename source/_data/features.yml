@@ -49,6 +49,8 @@
     link: http://doc.gitlab.com/ee/workflow/git_annex.html
   - description: Rebase merge requests before merge
     link: http://doc.gitlab.com/ee/workflow/rebase_before_merge.html
+  - description: Use fast-forward merges when possible
+    link: http://doc.gitlab.com/ee/workflow/ff_merge.html
   - description: Git hooks (commit message must mention an issue, no tag deletion, etc.)
     link: http://doc.gitlab.com/ee/git_hooks/git_hooks.html
   - description: Lock project membership to the members of a group
