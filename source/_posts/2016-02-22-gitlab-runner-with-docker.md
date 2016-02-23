@@ -129,7 +129,7 @@ Once our build starts, we should see that it completes with success in a couple 
 While these Shared Runners are great to get a sense of how to get started with
 CI, we will now install GitLab Runner on a private server to run exclusively
 for our project.
-We will use exactly the same [open-source software](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner) GitLab users on their Shared Runners, so we will have the extra benefit of optimizing and securing our builds for our specific project.
+We will use exactly the same [open-source software](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner) GitLab uses on their Shared Runners, so we will have the extra benefit of optimizing and securing our builds for our specific project.
 
 
 We will need a server instance where we will install the GitLab Runner.
