@@ -616,14 +616,18 @@
   story:  |
           Michael has been helping customers choose, deploy, and use software development tools since the 80's at companies like Borland, Symantec, Gupta, and Perforce.  Michael is passionate about building teams and business in the far-flung corners of the world.  When not working, Michael is an award winning wine maker and heavily involved in the local Boy Scouts.
 
-- name: Joining soon&#58; P. C.
+- name: Pablo Carranza
   role: Senior <a href="https://about.gitlab.com/jobs/devops-engineer/">DevOps Engineer</a>
   reports_to: CEO
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: pablo.jpg
+  twitter: psczg
+  gitlab: pcarranza
   story:  |
-          To be revealed
+          With over 15 years of industry experience, Pablo comes from scaling Amazon's network as a development lead 
+          to help scaling GitLab.com. Passionate about programming since the age of 8 and open source after discovering Gentoo.
+          Deeply interested in software craftsmanship, distributed systems, keeping services running fast and reliably
+          and automating everything. Because doing the same thing thrice is just boring. In his free time he takes care
+          of his family and enjoys riding in 2 wheels, with or without engine.
 
 - name: Ivan Nemytchenko
   role: <a href="https://about.gitlab.com/jobs/developer-advocate/">Developer Advocate</a>
