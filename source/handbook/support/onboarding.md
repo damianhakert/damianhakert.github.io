@@ -23,13 +23,15 @@ expected to:
 ## First steps when you join the team
 
 When you first join the team everything will be new to you. In order to get you started with GitLab quickly
-you should take some time to go through our [documentation](http://doc.gitlab.com).
+you should take a look at the resources we have available at the [GitLab University](https://about.gitlab.com/university/).
 
-To familiarize yourself with ZenDesk, you can follow [this guide](https://support.zendesk.com/hc/en-us/articles/203921213).
-This great resource written by ZenDesk Support will help you better know how ZenDesk works and how you can
-use it to be more productive.
+The [user training](https://gitlab.com/gitlab-org/University/tree/master/training) we use for our customers
+is also a great resource to get you started with the basics of Git and GitLab.
 
-You should also familiarize yourself with the GitLab codebase. A great place to start is by installing the
+If you want to dig deeper into the inner workings of our great features, the best place to do that is
+our [documentation](http://doc.gitlab.com) page.
+
+You also need to familiarize yourself with the GitLab codebase. A great place to start is by installing the
 [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit). Any problem that our customers have will first
 go through you, so you need to make sure you understand the issue and are able to radiate the information
 you collect in a precise manner to the rest of the team. Make sure that you know how to install and upgrade
@@ -39,8 +41,21 @@ GitLab using our different installation methods:
 - Docker
 - From source
 
+To familiarize yourself with ZenDesk, you can follow [this guide](https://support.zendesk.com/hc/en-us/articles/203921213).
+This great resource written by ZenDesk Support will help you better know how ZenDesk works and how you can
+use it to be more productive.
+
 It is also encouraged to go over your colleagues responses to previously submitted tickets, to see how they
 craft their replies, and to get more insight and knowledge into topics with which you are unfamiliar.
+
+### Training
+
+Right after joining the team you will be required to go through a training process. In this training you
+will learn the ins and outs of GitLab, how to integrate it with the mostly used enterprise tools, like
+LDAP, Jira, Jenkins and SAML, how to best talk to our customers, and how to best radiate information you
+collect across the team.
+
+Most of the training material is still being worked on and will be linked here once it's ready.
 
 ## Specific actions within ZenDesk
 

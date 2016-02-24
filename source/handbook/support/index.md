@@ -18,7 +18,7 @@ more Service Engineers to strengthen the team and provide support to the communi
 
 ## Dashboard
 
-The dasboard lists the activity for all out channels over the last 30 days.
+The dashboard lists the activity for all our channels over the last 30 days.
 
 [ZenDesk Insight dashboard](https://gitlab.zendesk.com/agent/reporting/analytics/period:0/dashboard:ag0kOtFSfbUf)
 
@@ -41,6 +41,30 @@ have the link to the corresponding ZenDesk issue where you will continue the con
 Once acknowledge, you need login into [ZenDesk](https://gitlab.zendesk.com), go to the corresponding ticket
 and let the customer know that you will handle their case. On this response you should ask for the best way
 to contact them. Usual channels are Phone, Skype, WebEx or Hangouts.
+
+### WebEx
+
+More often than not, WebEx will be the best tool for the job, so you can save yourself a step and already start
+a WebEx session for this call. To do this you can use the `GitLab Support` WebEx account. Go to our
+[WebEx Portal](https://gitlabmeetings.webex.com), click on the login button on the top right and use the
+credentials found in the Support Vault on 1password.
+
+![WebEx Login](/images/support/web-ex-login.png)
+
+Once logged in click the `Enter Room` button to start the WebEx meeting and send the following link to
+the customer and ask them to join the call.
+
+```
+https://gitlabmeetings.webex.com/meet/gitlabsupport
+```
+
+![WebEx Room](/images/support/web-ex-room.png)
+
+WebEx is usually the perfect choice, since it allows you to see the customer's desktop and
+to control it on request. It also gives the customer the possibility to join via phone and
+us the possibility to use our computer audio connection.
+
+### Escalation
 
 If you are unable to help the customer and their instance is in a critical state (unavailable, uncertainty of
 data loss, etc.), you should escalate the PD incident to Second Level support. They will be able to assist you.
