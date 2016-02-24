@@ -53,7 +53,10 @@ It was not so hard, right?
 
 ## New notions & differences
 
-When you start exploring GitLab, you quickly discover new differences to what you're used to on Github.
+When you start exploring GitLab, you quickly discover differences to what you're used to on Github.
+
+### Merge requests
+The term "pull request" was always a bit confusing to me. But everything falls into place, after you read [this post](https://about.gitlab.com/2016/01/27/comparing-terms-gitlab-github-bitbucket/), and follow (the discussion on HN)[https://news.ycombinator.com/item?id=11095652].
 
 ### Continuos integration (CI)
 If you were too greedy(to pay for separate CI service) or too lazy(to configure Github-CI integration), then you're lucky. GitLab has its own built-in CI server.
@@ -67,12 +70,21 @@ Otherwise, let's take a look at the documentation: "A runner is an isolated (vir
 If you're GitLab.com user, you're able to use shared runners, provided by GitLab. If you want more speed and security, you can configure own server to be your personal runner. I mentioned security because of this scary notification:
 > "GitLab Runners do not offer secure isolation between projects that they do builds for. You are TRUSTING all GitLab users who can push code to project A, B or C to run shell scripts on the machine hosting runner X."
 
-### Pages
+### GitLab Pages
 GitLab Pages is a way to host static websites. They are implemented on top of GitLab's CI.
 It is not that straightforward as on Github(yet?), so you need to follow this simple tutorial to configure it properly.
+
+But the good news is that you don't need to build static version of the website locally. You can use it not only with Jekyll, but also with any other static site generators. Custom domain names are supported.
 
 ### Omnibus
 The first new word for me was "omnibus". You don't have to care about it unless you decided to install your own instance CE or EE.
 
 Omnibus is a way to install(and upgrade) GitLab without a hassle. Since GitLab consists of many parts, installing them manually is a time-consuming process. With omnibus, all you need to do is to install package for your OS.
+
+## Migration
+
+GitLab is very welcoming in this part of the website :) It is super-easy to migrate from Github or Bitbucket or whatever.
+Since I learned about GitLab benefits, it is stupid not to migrate. The main stopper is that it will affect my collaborators. Though I hope this blog post will convince them.
+
+
 
