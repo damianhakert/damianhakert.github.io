@@ -31,6 +31,7 @@ Read on for all the details!
 - **CE/EE:** Fix error 500 when trying to mark an already done todo as "done" ([!2926])
 - **CE/EE:** Fix an issue where MRs weren't sortable ([!2935])
 - **CE/EE:** Issues can now be dragged & dropped into empty milestone lists. This is also possible with MRs ([!2935])
+- **CE/EE:** Changed padding & background color for highlighted notes ([!2937])
 - **CE/EE:** Re-add the newrelic_rpm gem which was removed without any deprecation or warning ([!2943])
 - **CE/EE:** Update sentry-raven gem to 0.15.6 ([!2947])
 - **Omnibus GitLab:** Push Raspbian repository for RPI2 to packagecloud ([!655])
@@ -49,7 +50,7 @@ Read on for all the details!
 [!2919]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2919
 [!2926]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2926
 [!2935]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2935
-[!2935]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2935
+[!2937]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2937
 [!2943]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2943
 [!2947]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2947
 [!655]: https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/655
