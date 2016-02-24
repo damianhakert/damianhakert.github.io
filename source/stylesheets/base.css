@@ -603,7 +603,7 @@ article {
 
 .blog-entry h1 a {
   font-size: 40px;
-  font-family: "Roboto Condensed", sans-serif;
+  
   color: #444;
   font-weight: 600;
   line-height: 55px;
@@ -665,7 +665,7 @@ article {
 }
 
 .blog-index .toplink {
-  font-family: "Roboto Condensed", sans-serif;
+  
   font-size: 14px;
   line-height: auto;
   font-weight: 600;
