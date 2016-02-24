@@ -88,7 +88,7 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
     - [DevOps Where To Start](https://www.youtube.com/watch?v=CSrKwP1QrjE)
     - [Agile & DevOps](https://www.youtube.com/watch?v=WqoVeGFjK9k)
     - [Problem Solving with DevOps](https://www.youtube.com/watch?v=pTq9hFBWPeM)
-  
+
 1. [Compare GitLab versions](https://about.gitlab.com/features/#compare)
 
 1. [GitLab compared to other tools](https://about.gitlab.com/comparison/)
