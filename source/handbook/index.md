@@ -429,7 +429,7 @@ The following incentives are available for GitLab team members.
 
 Since reaching sales targets is a team effort that integrates everything from making a great product
 to providing top notch customer support and everything in between, we reward all
-team members for every month that we reach our Sales Targets. The reward is $100
+team members for every month that we reach our Sales Targets. The reward is [100 USD](https://www.google.com/search?q=100+usd+in+eur)
 to each team member, towards a dinner of each team member's own choice. Enjoy!
 
 The CEO, or CRO will announce on the team call if the target was met. To claim the bonus,
