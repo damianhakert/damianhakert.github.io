@@ -60,7 +60,7 @@ Current state
 1. Unless a specific request is made, provide a useful resource that will help the person have a better GitLab experience. 
 1. Ask [Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/) to qualify lead
 1. Soft-BANT is used to determine if a lead should be passed to sales or recommended CE resources. Once determined, BDR team passes all leads to sales for followup via Salesforce assignment and email notification.
-1. If 2 of the 4 elements of BANT are met (budget, authority, need, timeline) or prospect requst a quote or has an EE feature/functionality question, BDR team will determine account owner and pass lead.
+1. If 2 of the 4 elements of BANT are met (budget, authority, need, timeline) or prospect requests a quote or has an EE feature/functionality question, BDR team will determine account owner and pass lead.
 1. If further qualification is needed to understand Soft-BANT requirements, BDR team will email or schedule a phone call with lead to understand their project and initiatives.
 1. If Soft-BANT isn't met and there are questions, BDR team will answer all questions or route to support.
 1. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
@@ -75,9 +75,8 @@ Current state
 - Need => Is the prospect asking for a quote? Is the prospect asking about specific feature and functionality? Is there a legitimate use for GitLab at the company (i.e. multiple developers, etc.)?
 - Timeline => Are they willing to continue communicating about GitLab in the next few weeks? If they have another solution, are they looking to replace in the next few weeks or months?
 
-## What counts as an SQL or SAL or MQL?
-1. SQL is an lead from the BDR team that is converted into an opportunity.
-1. SAL is any lead passed to the Sales team from the BDR team that has met the qualification process requirements above and sales accepts.
+## What counts as an SQL or MQL?
+1. SAQL is any lead passed to the Sales team from the BDR team that has met the qualification process requirements above and an opportunity is created.
 1. MQL is any lead with a lead score of 20 or greater in Marketo.
 1. Lead score is calculated based on behavioral and demographic data.
 
