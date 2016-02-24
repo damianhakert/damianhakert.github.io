@@ -1,0 +1,36 @@
+- name: IBM
+  logo: /images/organizations/logo_1a.png
+- name: Expedia
+  logo: /images/organizations/logo_2a.png
+- name: Stack Exchange
+  logo: /images/organizations/logo_3a.png
+- name: Nasa
+  logo: /images/organizations/logo_4a.png
+- name: Bell
+  logo: /images/organizations/logo_5a.png
+- name: AT&T
+  logo: /images/organizations/logo_6a.png
+- name: Alibaba
+  logo: /images/organizations/logo_1b.png
+- name: SpaceX
+  logo: /images/organizations/logo_2b.png
+- name: RedHat
+  logo: /images/organizations/logo_3b.png
+- name: Qualcomm
+  logo: /images/organizations/logo_4b.png
+- name: The National Archives
+  logo: /images/organizations/logo_5b.png
+- name: Nasdaq
+  logo: /images/organizations/logo_7b.png
+- name: Interpol
+  logo: /images/organizations/logo_1c.png
+- name: Cern
+  logo: /images/organizations/logo_2c.png
+- name: Publicis
+  logo: /images/organizations/logo_3c.png
+- name: O'Reilly
+  logo: /images/organizations/logo_4c.png
+- name: AVG
+  logo: /images/organizations/logo_5c.png
+- name: UCLA
+  logo: /images/organizations/logo_7c.png

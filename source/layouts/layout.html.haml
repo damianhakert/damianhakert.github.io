@@ -1,0 +1,160 @@
+!!! 5
+%html
+  %head
+    %meta{:charset => "UTF-8"}
+    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}
+
+    %title
+      -
+      #{current_page.data.title} | GitLab
+
+    %link{:href => "/ico/favicon.ico", :rel => "shortcut icon"}
+    %link{:href => "/ico/apple-touch-icon-57x57.png", :rel => "apple-touch-icon", :sizes => "57x57"}
+    %link{:href => "/ico/apple-touch-icon-114x114.png", :rel => "apple-touch-icon", :sizes => "114x114"}
+    %link{:href => "/ico/apple-touch-icon-72x72.png", :rel => "apple-touch-icon", :sizes => "72x72"}
+    %link{:href => "/ico/apple-touch-icon-144x144.png", :rel => "apple-touch-icon", :sizes => "144x144"}
+    %link{:href => "/ico/apple-touch-icon-60x60.png", :rel => "apple-touch-icon", :sizes => "60x60"}
+    %link{:href => "/ico/apple-touch-icon-120x120.png", :rel => "apple-touch-icon", :sizes => "120x120"}
+    %link{:href => "/ico/apple-touch-icon-76x76.png", :rel => "apple-touch-icon", :sizes => "76x76"}
+    %link{:href => "/ico/apple-touch-icon-152x152.png", :rel => "apple-touch-icon", :sizes => "152x152"}
+    %link{:href => "/ico/apple-touch-icon-180x180.png", :rel => "apple-touch-icon", :sizes => "180x180"}
+    %link{:href => "/ico/favicon-192x192.png", :rel => "icon", :sizes => "192x192", :type => "image/png"}
+    %link{:href => "/ico/favicon-160x160.png", :rel => "icon", :sizes => "160x160", :type => "image/png"}
+    %link{:href => "/ico/favicon-96x96.png", :rel => "icon", :sizes => "96x96", :type => "image/png"}
+    %link{:href => "/ico/favicon-16x16.png", :rel => "icon", :sizes => "16x16", :type => "image/png"}
+    %link{:href => "/ico/favicon-32x32.png", :rel => "icon", :sizes => "32x32", :type => "image/png"}
+    %meta{:content => "#554488", :name => "msapplication-TileColor"}
+    %meta{:content => "/ico/mstile-144x144.png", :name => "msapplication-TileImage"}
+    %meta{:content => "/ico/browserconfig.xml", :name => "msapplication-config"}
+
+    %link{:rel => "stylesheet", :href => "//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600"}
+    %link{:rel => "stylesheet", :href => "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"}
+
+    = stylesheet_link_tag "bootstrap.min"
+    = stylesheet_link_tag "animate.min"
+    = stylesheet_link_tag :base
+    - for css_name in current_page.data.extra_css
+      = stylesheet_link_tag css_name
+  %body{:data => {:spy => "scroll", :target => ".qnav"}}
+    .navbar.navbar-fixed-top.navbar-default{:role => "navigation"}
+      .container
+        .navbar-header
+          %button.navbar-toggle{:type => "button", :data => {:target => "#main-gl-nav", :toggle => "collapse"}}
+            %span.sr-only
+              Toggle Navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          - if current_page.url == '/'
+            %a.navbar-brand.animated
+              = partial "includes/logos/wm_web.svg"
+          - else
+            %a.navbar-brand.animated{:href => "/"}
+              = partial "includes/logos/wm_web.svg"
+        .collapse.navbar-collapse#main-gl-nav
+          %ul.nav.pull-right.animated.navbar-nav
+            %li
+              %a{:href => "/downloads", :onclick => "_gaq.push(['_trackEvent', 'Top navigation', 'Download']);"}
+                Download
+            %li
+              %a{:href => "/pricing", :onclick => "_gaq.push(['_trackEvent', 'Top navigation', 'Pricing']);"}
+                Pricing
+            %li
+              %a{:href => "/community", :onclick => "_gaq.push(['_trackEvent', 'Top navigation', 'Community']);"}
+                Community
+            %li
+              %a{:href => "/blog", :onclick => "_gaq.push(['_trackEvent', 'Top navigation', 'Blog']);"}
+                Download
+            %li
+              %a.sign-in-up-btn{:href => "https://gitlab.com/users/sign_in", :onclick => "_gaq.push(['_trackEvent', 'Top navigation', 'Sign in']);"}
+                Sign Up
+    = yield
+    #footer.footer
+      = partial "includes/logos/footer_logo.svg"
+      .animated.container
+        %ul.text-center.footer-social
+          %li
+            %a{:href => "https://twitter.com/gitlab"}
+              %i.fa.fa-twitter
+              %span.sr-only Twitter
+          %li
+            %a{:href => "https://plus.google.com/107491817347842790515/posts"}
+              %i.fa.fa-google-plus
+              %span.sr-only Google+
+          %li
+            %a{:href => "https://www.facebook.com/gitlab"}
+              %i.fa.fa-facebook
+              %span.sr-only Facebook
+          %li
+            %a{:href => "https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg"}
+              %i.fa.fa-youtube
+              %span.sr-only YouTube
+          %li
+            %a{:href => "https://www.linkedin.com/company/gitlab-com"}
+              %i.fa.fa-linkedin
+              %span.sr-only LinkedIn
+        .row
+          .col-sm-6.col-md-3.col-lg-2.col-lg-offset-2.footer-link-holder
+            %h3.footer-link-title Products
+            %ul.animated.footer-links
+              %li
+                %a{:href => "/features/"} Community Edition
+              %li
+                %a{:href => "/features/#enterprise"} Enterprise Edition
+              %li
+                %a{:href => "/gitlab-ci/"} Continuous Integration
+              %li
+                %a{:href => "/gitlab-com/"} GitLab.com
+          .col-sm-6.col-md-3.col-lg-2.footer-link-holder
+            %h3.footer-link-title Services
+            %ul.animated.footer-links
+              %li
+                %a{:href => "/pricing/"} Pricing
+              %li
+                %a{:href => "/consultancy/"} Consultancy
+              %li
+                %a{:href => "/development/"} Development
+              %li
+                %a{:href => "/training/"} Training
+          .col-sm-6.col-md-3.col-lg-2.footer-link-holder
+            %h3.footer-link-title Community
+            %ul.animated.footer-links
+              %li
+                %a{:href => "/core-team/"} Core Team
+              %li
+                %a{:href => "http://contributors.gitlab.com/"} Contributors
+              %li
+                %a{:href => "/documentation/"} Documentation
+              %li
+                %a{:href => "/getting-help/"} Getting Help
+              %li
+                %a{:href => "/contributing/"} Contributing
+              %li
+                %a{:href => "/applications/"} Applications
+              %li
+                %a{:href => "/mvp/"} Hall of Fame
+          .col-sm-6.col-md-3.col-lg-2.footer-link-holder
+            %h3.footer-link-title Company
+            %ul.animated.footer-links
+              %li
+                %a{:href => "/blog/"} Blog
+              %li
+                %a{:href => "/press/"} Press and Logos
+              %li
+                %a{:href => "/about/"} About Us
+              %li
+                %a{:href => "/team/"} Team
+              %li
+                %a{:href => "/jobs/"} Jobs
+              %li
+                %a{:href => "/terms/"} Terms
+              %li
+                %a{:href => "/contact/"} Contact Us
+    .animated.text-center.source-link
+      This page is generated from
+      %a.external-source-link{:href => "https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/#{current_page.path}"}
+        a public file on GitLab.com
+      \– merge requests with improvements are
+      %a.external-source-link{:href => "https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md"}
+        very welcome
+      = partial "includes/cc-license.html"
