@@ -173,9 +173,10 @@ reply, such as OK, thanks, or done.
 information) or FYA (for your action).
 1. If you want to create, or be added or removed from an internal email alias (e.g.
 `sales@gitlab.com`) please see the [GitLab Email Forwarding doc](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#).
-1. If you use Slack, please use a public channel whenever possible, mention the
+1. If you use chat please use a public channel whenever possible, mention the
 person you want to reach if it is urgent. This ensures it is easy for other people
 to chime in, and easy to involve other people, if needed.
+1. In chat try to keep the use of keywords that mention the whole channel to a minimum. They should only be used for urgent and important pings. By overusing them you make it harder to respond to personal mentions in a timely manner since people get pinged too frequently.
 1. If you agree in a chat to start a video call (typically by asking 'call?')
 the person that didn't leave the last comment starts the call. So either respond
 to the 'call?' request with a video link or say 'yes' and let the other person
