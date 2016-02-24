@@ -14,3 +14,6 @@ bundle exec middleman
 
 open http://localhost:4567
 ```
+
+See the [Middleman docs](https://middlemanapp.com/basics/development_cycle/) for
+more information.
