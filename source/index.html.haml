@@ -6,9 +6,8 @@ extra_js:
   - libs/slick.min.js
   - home.js
 ---
-.gitlab-qa-banner.animated
-  %a{:href => "http://page.gitlab.com/Feb252016Webcast_LandingPage.html"}
-    Join us for a live Q&A on February 25th!
+.gitlab-promo-banner.animated
+  %a{href: data.promo.link}= data.promo.text
 .landing-container.text-center
   #js-landing-community.landing-community
   .container
