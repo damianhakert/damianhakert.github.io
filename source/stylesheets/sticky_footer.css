@@ -15,6 +15,6 @@ html, body {
   content: "";
   display: block;
 }
-.footer, .wrapper:after {
-  height: 255px;
+.wrapper:after {
+  height: 389px;
 }

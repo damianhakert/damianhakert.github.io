@@ -68,7 +68,7 @@
 
   <link rel="alternate" type="application/atom+xml" title="Blog" href="/atom.xml" />
 
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
   {% include combined_stylesheets.html %}
@@ -96,7 +96,7 @@
   <meta name="msapplication-TileImage" content="/ico/mstile-144x144.png">
   <meta name="msapplication-config" content="/ico/browserconfig.xml">
 
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-37019925-1']);
     _gaq.push(['_setDomainName', 'gitlab.com']);
@@ -107,7 +107,7 @@
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-  </script>
+  </script> -->
 </head>
 
 <body data-spy="scroll" data-target".qnav">
@@ -130,14 +130,11 @@
       <div class="collapse navbar-collapse" id="main-gl-nav">
         <ul class="nav pull-right animated navbar-nav">
           <li><a href="/downloads/" onClick="_gaq.push(['_trackEvent', 'Top navigation', 'Download']);">Download</a></li>
-          <li><a href="/features/" onClick="_gaq.push(['_trackEvent', 'Top navigation', 'Features']);">Features</a></li>
+          <li><a href="/products/" onClick="_gaq.push(['_trackEvent', 'Top navigation', 'Products']);">Products</a></li>
           <li><a href="/pricing/" onClick="_gaq.push(['_trackEvent', 'Top navigation', 'Pricing']);">Pricing</a></li>
-          <li><a href="/gitlab-com/" onClick="_gaq.push(['_trackEvent', 'Top navigation', 'GitLab.com']);">GitLab.com</a></li>
-          <li><a href="/gitlab-ci/" onClick="_gaq.push(['_trackEvent', 'Top navigation', 'GitLab CI']);">GitLab CI</a></li>
           <li><a href="/community/" onClick="_gaq.push(['_trackEvent', 'Top navigation', 'Community']);">Community</a></li>
           <li><a href="/blog/" onClick="_gaq.push(['_trackEvent', 'Top navigation', 'Blog']);">Blog</a></li>
-          <li><a href="https://gitlab.com/explore/" onClick="_gaq.push(['_trackEvent', 'Top navigation', 'Explore']);">Explore</a></li>
-          <li><a href="https://gitlab.com/users/sign_in" onClick="_gaq.push(['_trackEvent', 'Top navigation', 'Sign in']);" class="sign-in-up-btn">Sign in</a></li>
+          <li><a href="https://gitlab.com/users/sign_in" onClick="_gaq.push(['_trackEvent', 'Top navigation', 'Sign in']);" class="sign-in-up-btn">Sign Up</a></li>
         </ul>
       </div>
     </div>

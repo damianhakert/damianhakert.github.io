@@ -1,43 +1,45 @@
 <div id="footer" class="footer">
-  {% if page.layout != "default" and page.layout != "markdown_page" %}
-    <div class="source-link">
-      This page is generated from <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/_posts/{{ page.filename }}">a public file on GitLab.com</a> – merge requests with improvement are <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md">very welcome</a>.
-      {% include cc_license.html %}
-    </div>
-  {% elsif page.layout != "default" %}
-  <div class="source-link">
-    This page is generated from <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/{{ page.path }}">a public file on GitLab.com</a> – merge requests with improvements are <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md">very welcome</a>.
-    {% include cc_license.html %}
-  </div>
-  {% else %}
-    <div class="source-link">
-      This page is generated from <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source{{ page.url }}">a public file on GitLab.com</a> – merge requests with improvements are <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md">very welcome</a>.
-      {% include cc_license.html %}
-    </div>
-  {% endif %}
-  <div class="container">
+  <svg width="65" height="60" viewBox="0 0 210 194" xmlns="http://www.w3.org/2000/svg" class="footer-logo">
+    <g fill="none" fill-rule="evenodd">
+      <path d="M105.0614,193.655 L105.0614,193.655 L143.7014,74.734 L66.4214,74.734 L105.0614,193.655 L105.0614,193.655 Z" fill="#E24329" class="logo-svg-shape logo-dark-orange-shape"/>
+      <path d="M105.0614,193.6548 L66.4214,74.7338 L12.2684,74.7338 L105.0614,193.6548 Z" fill="#FC6D26" class="logo-svg-shape logo-orange-shape"/>
+      <path d="M12.2685,74.7341 L12.2685,74.7341 L0.5265,110.8731 C-0.5445,114.1691 0.6285,117.7801 3.4325,119.8171 L105.0615,193.6551 L12.2685,74.7341 Z" fill="#FCA326" class="logo-svg-shape logo-light-orange-shape"/>
+      <path d="M12.2685,74.7342 L66.4215,74.7342 L43.1485,3.1092 C41.9515,-0.5768 36.7375,-0.5758 35.5405,3.1092 L12.2685,74.7342 Z" fill="#E24329" class="logo-svg-shape logo-dark-orange-shape"/>
+      <path d="M105.0614,193.6548 L143.7014,74.7338 L197.8544,74.7338 L105.0614,193.6548 Z" fill="#FC6D26" class="logo-svg-shape logo-orange-shape"/>
+      <path d="M197.8544,74.7341 L197.8544,74.7341 L209.5964,110.8731 C210.6674,114.1691 209.4944,117.7801 206.6904,119.8171 L105.0614,193.6551 L197.8544,74.7341 Z" fill="#FCA326" class="logo-svg-shape logo-light-orange-shape"/>
+      <path d="M197.8544,74.7342 L143.7014,74.7342 L166.9744,3.1092 C168.1714,-0.5768 173.3854,-0.5758 174.5824,3.1092 L197.8544,74.7342 Z" fill="#E24329" class="logo-svg-shape logo-dark-orange-shape"/>
+    </g>
+  </svg>
+  <div class="animated container">
+    <ul class="text-center footer-social">
+      <li><a href="https://twitter.com/gitlab"><i class="fa fa-twitter"></i><span class="sr-only">Twitter</span></a></li>
+      <li><a href="https://plus.google.com/107491817347842790515/posts"><i class="fa fa-google-plus"></i><span class="sr-only">Google+</span></a></li>
+      <li><a href="https://www.facebook.com/gitlab"><i class="fa fa-facebook"></i><span class="sr-only">Facebook</span></a></li>
+      <li><a href="https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg"><i class="fa fa-youtube"></i><span class="sr-only">YouTube</span></a></li>
+      <li><a href="https://www.linkedin.com/company/gitlab-com"><i class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a></li>
+    </ul>
     <div class="row">
-      <div class="col-sm-15">
-        <h3>Products</h3>
-        <ul class="animated">
+      <div class="col-sm-6 col-md-3 col-lg-2 col-lg-offset-2 footer-link-holder">
+        <h3 class="footer-link-title">Products</h3>
+        <ul class="animated footer-links">
           <li><a href="/features/">Community Edition</a></li>
           <li><a href="/features/#enterprise">Enterprise Edition</a></li>
           <li><a href="/gitlab-ci/">Continuous Integration</a></li>
           <li><a href="/gitlab-com/">GitLab.com</a></li>
         </ul>
       </div>
-      <div class="col-sm-15">
-        <h3>Services</h3>
-        <ul class="animated">
+      <div class="col-sm-6 col-md-3 col-lg-2 footer-link-holder">
+        <h3 class="footer-link-title">Services</h3>
+        <ul class="animated footer-links">
           <li><a href="/pricing/">Pricing</a></li>
           <li><a href="/consultancy/">Consultancy</a></li>
           <li><a href="/development/">Development</a></li>
           <li><a href="/training/">Training</a></li>
         </ul>
       </div>
-      <div class="col-sm-15">
-        <h3>Community</h3>
-        <ul class="animated">
+      <div class="col-sm-6 col-md-3 col-lg-2 footer-link-holder">
+        <h3 class="footer-link-title">Community</h3>
+        <ul class="animated footer-links">
           <li><a href="/core-team/">Core Team</a></li>
           <li><a href="http://contributors.gitlab.com/">Contributors</a></li>
           <li><a href="/documentation/">Documentation</a></li>
@@ -47,9 +49,9 @@
           <li><a href="/mvp/">Hall of Fame</a></li>
         </ul>
       </div>
-      <div class="col-sm-15">
-        <h3>Company</h3>
-        <ul class="animated">
+      <div class="col-sm-6 col-md-3 col-lg-2 footer-link-holder">
+        <h3 class="footer-link-title">Company</h3>
+        <ul class="animated footer-links">
           <li><a href="/blog/">Blog</a></li>
           <li><a href="/press/">Press and Logos</a></li>
           <li><a href="/about/">About Us</a></li>
@@ -59,16 +61,23 @@
           <li><a href="/contact/">Contact Us</a></li>
         </ul>
       </div>
-      <div class="col-sm-15">
-        <h3>Social</h3>
-        <ul class="animated">
-          <li><a href="https://twitter.com/gitlab"><i class="fa fa-twitter"></i> Twitter</a></li>
-          <li><a href="https://plus.google.com/107491817347842790515/posts"><i class="fa fa-google-plus"></i> Google+</a></li>
-          <li><a href="https://www.facebook.com/gitlab"><i class="fa fa-facebook"></i> Facebook</a></li>
-          <li><a href="https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg"><i class="fa fa-youtube"></i> YouTube</a></li>
-          <li><a href="https://www.linkedin.com/company/gitlab-com"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
-        </ul>
-      </div>
     </div>
   </div>
 </div>
+
+{% if page.layout != "default" and page.layout != "markdown_page" %}
+  <div class="animated text-center source-link">
+    This page is generated from <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/_posts/{{ page.filename }}" class="external-source-link">a public file on GitLab.com</a> – merge requests with improvement are <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md" class="external-source-link">very welcome</a>.
+    {% include cc_license.html %}
+  </div>
+{% elsif page.layout != "default" %}
+  <div class="animated text-center source-link">
+    This page is generated from <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/{{ page.path }}" class="external-source-link">a public file on GitLab.com</a> – merge requests with improvements are <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md" class="external-source-link">very welcome</a>.
+    {% include cc_license.html %}
+  </div>
+{% else %}
+  <div class="animated text-center source-link">
+    This page is generated from <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source{{ page.url }}" class="external-source-link">a public file on GitLab.com</a> – merge requests with improvements are <a href="https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md" class="external-source-link">very welcome</a>.
+    {% include cc_license.html %}
+  </div>
+{% endif %}
