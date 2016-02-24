@@ -61,6 +61,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [Ability to delete issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/2489)
 - [Get rid of default login credentials](https://gitlab.com/gitlab-org/gitlab-ce/issues/1980)
 - [HA Omnibus packages (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
+- [Due date for issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/12709)
 
 ### 8.7 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/23) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/9) April 22nd
 

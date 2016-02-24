@@ -21,6 +21,7 @@ NOTE: Our contractor agreements and employment contracts are all on the [Contrac
       * For US based employees of GitLab Inc., this benefit is replaced by the
         [Basic Life Insurance](#basic-life-ins) that is offered through TriNet.
       * For all other team members, the following conditions apply:
+         * The team member must be either an employee or direct contractor,
          * The team member must have indicated in writing to whom the money
            should be transferred.
          * For part-time team members, the lump sum is calculated pro-rata, so
@@ -116,7 +117,10 @@ period of 180 days will apply.
 ### 401k Plan
 
 The company offers a 401k plan in which you may make voluntary pre-tax contributions
-toward your retirement. We do not currently offer matching contributions.
+toward your retirement. We do not currently offer matching contributions. See the 
+[People Operations](https://about.gitlab.com/handbook/people-operations/) page for 
+details on eligibility and sign up.
+
 
 ### Optional TriNet Plans Available at Employee Expense
 

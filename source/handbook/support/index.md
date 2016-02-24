@@ -18,7 +18,7 @@ more Service Engineers to strengthen the team and provide support to the communi
 
 ## Dashboard
 
-The dasboard lists the activity for all out channels over the last 30 days.
+The dashboard lists the activity for all our channels over the last 30 days.
 
 [ZenDesk Insight dashboard](https://gitlab.zendesk.com/agent/reporting/analytics/period:0/dashboard:ag0kOtFSfbUf)
 
@@ -41,6 +41,30 @@ have the link to the corresponding ZenDesk issue where you will continue the con
 Once acknowledge, you need login into [ZenDesk](https://gitlab.zendesk.com), go to the corresponding ticket
 and let the customer know that you will handle their case. On this response you should ask for the best way
 to contact them. Usual channels are Phone, Skype, WebEx or Hangouts.
+
+### WebEx
+
+More often than not, WebEx will be the best tool for the job, so you can save yourself a step and already start
+a WebEx session for this call. To do this you can use the `GitLab Support` WebEx account. Go to our
+[WebEx Portal](https://gitlabmeetings.webex.com), click on the login button on the top right and use the
+credentials found in the Support Vault on 1password.
+
+![WebEx Login](/images/support/web-ex-login.png)
+
+Once logged in click the `Enter Room` button to start the WebEx meeting and send the following link to
+the customer and ask them to join the call.
+
+```
+https://gitlabmeetings.webex.com/meet/gitlabsupport
+```
+
+![WebEx Room](/images/support/web-ex-room.png)
+
+WebEx is usually the perfect choice, since it allows you to see the customer's desktop and
+to control it on request. It also gives the customer the possibility to join via phone and
+us the possibility to use our computer audio connection.
+
+### Escalation
 
 If you are unable to help the customer and their instance is in a critical state (unavailable, uncertainty of
 data loss, etc.), you should escalate the PD incident to Second Level support. They will be able to assist you.
@@ -93,17 +117,43 @@ Google Hangouts.
 ## Security disclosures
 
 We have a [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/).
-These emails go into ZenDesk and get an autoresponder that says: "Thank you for your responsible disclosure of a potential GitLab vulnerability. We'll follow up with you within one business day."
-Please be very patient with these reports.
-Do not say 'there is no problem', you might be misunderstanding something leading to a 0 day disclosure.
-Give examples and keep asking questions until you understand the problem or the researcher concludes there is no problem.
-If someone invested time to help us offer to mention them on our [Security Researcher Acknowledgments page](https://about.gitlab.com/vulnerability-acknowledgements/) even if there was no actual vulnerability.
-If you say that we'll get back to them always mention that they can email us at any time for an update.
-This is really important to prevent a 0 day disclosure because we forgot to respond.
+Emails sent to security@gitlab.com go into ZenDesk and receive an autoresponder that 
+says: "Thank you for your responsible disclosure of a potential GitLab vulnerability. We'll follow up with you within one business day."
+
+Please be very patient with these reports. Do not say 'there is no problem', you 
+might be misunderstanding something that can lead to a 0 day disclosure.
+Give examples and keep asking questions until you understand the problem or until the researcher concludes there is no problem.
+If someone invested time to help us, offer to mention them on our [Security Researcher Acknowledgments page](https://about.gitlab.com/vulnerability-acknowledgements/) 
+even if there was no actual vulnerability.
+If you say that we'll get back to them **always** mention that they can email us at any time for an update.
+This is really important to prevent a 0 day disclosure resulting from us forgetting to respond.
+
 If you need help from developers to diagnose the issue please open an issue on dev.gitlab.org so we can work in private.
-If someone opens a public issue please leave a message: "Thank you for helping to make GitLab more secure! We removed the contents of your vulnerability disclosure to keep it private. We opened an internal issue to look at your disclosure. Can you please use our [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/) to send us an email that references this url so we can communicate in private?".
-The key used to encode/decode PGP messages is stored in our support vault.
-We only provide our public PGP key on request because it makes collaborating much harder and only a small percentage of all disclosures are serious enough to require that overhead.
+If someone opens a public issue please leave a message:   
+"Thank you for helping to 
+make GitLab more secure! We removed the contents of your vulnerability disclosure 
+to keep it private. We opened an internal issue to look at your disclosure. Can 
+you please use our [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/) 
+to send us an email that references this url so we can communicate in private?"
+
+### HackerOne
+
+We also use [HackerOne](https://hackerone.com/gitlab) to manage security reports. 
+The HackerOne dashboard lists all reports for which you need to respond within one business day. These 
+reports are also piped into ZenDesk, but they need to be responded to from the HackerOne dashboard and closed manually in ZenDesk 
+upon completion. Remember that all researchers should receive feedback as with regular support tickets,
+and you should not hesitate to triage or escalate the report. **Always** mention that they can email us at any time for an update. 
+Eventually each report has to be accepted and/or closed through the HackerOne dashboard even if you've followed through on ZenDesk.
+  
+If you need to grant HackerOne permissions to a new GitLab user, have an admin send 
+an invitation from HackerOne and add you to the Internal group. You can find out who 
+the admins are by asking on the #support channel.   
+
+### PGP Process
+
+The key used to encode/decode PGP messages is stored in our Support Vault on 1Password.
+We only provide our public PGP key upon request because it makes collaborating much 
+harder and only a small percentage of all disclosures are serious enough to require that overhead.
 
 See [PGP Process](/handbook/support/pgp_process.html) for
 information about using the security PGP key pair and decrypting messages.
