@@ -603,7 +603,7 @@ article {
 
 .blog-entry h1 a {
   font-size: 40px;
-  
+
   color: #444;
   font-weight: 600;
   line-height: 55px;
@@ -665,7 +665,7 @@ article {
 }
 
 .blog-index .toplink {
-  
+
   font-size: 14px;
   line-height: auto;
   font-weight: 600;
@@ -677,6 +677,7 @@ article {
   position: relative;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-top: 45px;
   background: #6b4fbb;
   color: #fff;
 }
