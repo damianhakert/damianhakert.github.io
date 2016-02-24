@@ -1,0 +1,35 @@
+.navbar.navbar-fixed-top.navbar-default{:role => "navigation"}
+  .container
+    .navbar-header
+      %button.navbar-toggle{:type => "button", :data => {:target => "#main-gl-nav", :toggle => "collapse"}}
+        %span.sr-only
+          Toggle Navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      - if current_page.url == '/'
+        %a.navbar-brand.animated
+          = partial "includes/logos/wm_web.svg"
+      - else
+        %a.navbar-brand.animated{:href => "/"}
+          = partial "includes/logos/wm_web.svg"
+    .collapse.navbar-collapse#main-gl-nav
+      %ul.nav.pull-right.animated.navbar-nav
+        %li
+          %a{:href => "/downloads", :onclick => "_gaq.push(['_trackEvent', 'Top navigation', 'Download']);"}
+            Download
+        %li
+          %a{:href => "/products", :onclick => "_gaq.push(['_trackEvent', 'Top navigation', 'Products']);"}
+            Products
+        %li
+          %a{:href => "/pricing", :onclick => "_gaq.push(['_trackEvent', 'Top navigation', 'Pricing']);"}
+            Pricing
+        %li
+          %a{:href => "/community", :onclick => "_gaq.push(['_trackEvent', 'Top navigation', 'Community']);"}
+            Community
+        %li
+          %a{:href => "/blog", :onclick => "_gaq.push(['_trackEvent', 'Top navigation', 'Blog']);"}
+            Blog
+        %li
+          %a.sign-in-up-btn{:href => "https://gitlab.com/users/sign_in", :onclick => "_gaq.push(['_trackEvent', 'Top navigation', 'Sign in']);"}
+            Sign Up

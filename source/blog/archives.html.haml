@@ -1,0 +1,15 @@
+---
+layout: default
+title: Blog archives
+extra_css:
+  - blog.css
+---
+
+.blog-index.blog-entry
+  %ul.post-list
+    - blog.articles.each do |post|
+      %li
+        = link_to post.url do
+          = post.title
+        %time
+          = post.date.strftime '%b %e, %Y'

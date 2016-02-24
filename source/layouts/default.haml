@@ -1,0 +1,8 @@
+!!! 5
+%html
+  %head
+    = partial "includes/layout/head"
+  %body{:data => {:spy => "scroll", :target => ".qnav"}}
+    = partial "includes/layout/header"
+    = yield
+    = partial "includes/layout/footer"

@@ -1,0 +1,7 @@
+- if post.data.image_title
+  = partial "includes/blog/image", :locals => {:post => post}
+  = partial "includes/blog/meta", :locals => {:post => post}
+.entry-content
+  = post.summary
+%footer
+  = link_to "Read on &rarr;", post.url
