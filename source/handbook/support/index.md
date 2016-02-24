@@ -113,11 +113,11 @@ to send us an email that references this url so we can communicate in private?"
 ### HackerOne
 
 We also use [HackerOne](https://hackerone.com/gitlab) to manage security reports. 
-The HackerSpace dashboard lists all reports for which you need to respond within one business day. These 
-reports are also piped into ZenDesk, but they need to be responded to from the HackerSpace dashboard and closed manually in ZenDesk 
+The HackerOne dashboard lists all reports for which you need to respond within one business day. These 
+reports are also piped into ZenDesk, but they need to be responded to from the HackerOne dashboard and closed manually in ZenDesk 
 upon completion. Remember that all researchers should receive feedback as with regular support tickets,
 and you should not hesitate to triage or escalate the report. **Always** mention that they can email us at any time for an update. 
-Eventually each report has to be accepted and/or closed through the HackerSpace dashboard even if you've followed through on ZenDesk.
+Eventually each report has to be accepted and/or closed through the HackerOne dashboard even if you've followed through on ZenDesk.
   
 If you need to grant HackerOne permissions to a new GitLab user, have an admin send 
 an invitation from HackerOne and add you to the Internal group. You can find out who 
