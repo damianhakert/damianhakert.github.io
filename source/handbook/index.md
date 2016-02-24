@@ -45,6 +45,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Discretionary Bonuses](#discretionary-bonuses)
    * [Referral Bonuses](#referral-bonuses)
    * [Work Remotely Travel Grant](#travel-grant)
+* [On Call Rotation and Schedule](#on-call)
 * [Signing Legal Documents](#signing-legal-documents)
 * [Using Git to update this website](#starting-with-git)
 
@@ -414,11 +415,19 @@ intellectual property violations
     * You do not need to ask permission to take time off unless you want to take more than 25 consecutive calendar days.
     * Always make sure that your job responsibilities are covered while you are away.
     * We strongly recommended to take at least a minimum of 2 weeks of vacation per year, if you take less your manager might follow up to discuss your work load.
-1. You do need to ensure that not more than **half** of the people that can help with availability emergencies (24/7), regular support, sales or development are gone at any moment. You can check for this on the availability calendar, so be sure to add appointments early.
-1. If someone from the 24/7 team leaves, set up a **call** two weeks before that so the other people can divide the on-call days.
-1. Add an **appointment** to the GitLab availability calendar as you know your plans, you can always change it later.
+1. You do need to ensure that not more than **half** of the people that can help 
+with availability emergencies (the on-call heroes), regular support, sales or development are 
+gone at any moment. You can check for this on the availability calendar, so be sure to add appointments early.
+1. If someone from the [on-call](#on-call) team leaves, or will be unavailable, set up a **call** two weeks before that 
+so the other people can divide the on-call days.
+1. Add an **appointment** to the GitLab availability calendar as you know your plans, 
+you can always change it later.
 1. In case it can be useful add your planned time off as a **FYI** on the next agenda of the team call.
-1. We will **help** clients during official days off, unless they are official days off in both the Netherlands and the U.S. We try to have people working who are in a country that don't have an official day off. If you need to work during an official day off in your country, you should take a day off in return.
+1. We will **help** clients during official days off, unless they are official days 
+off in both the Netherlands and the U.S. We try to have people working who are in a 
+country that don't have an official day off. If you need to work during an official 
+day off in your country, you should take a day off in return.
+
 
 ## Incentives<a name="incentives"></a>
 
@@ -470,6 +479,15 @@ then present your travel plan to your manager or the CEO, and you can receive
 As an example, the first grant was handed to a team member who will be
 traveling to 6 team members in different countries during 6 months, and this
 team member will receive the maximum grant of $2,000.
+
+## On-Call Rotation and Scheduling<a name="on-call"></a>
+
+We have on-call heroes (see the [team page](https://about.gitlab.com/team/)) to 
+respond quickly to GitLab.com downtime, and customer emergencies. We use PagerDuty to 
+set the schedule, and to route the notification to the right on-call hero. Rotation is 
+currently set to be a weekly-follow-the-sun schedule, with weekends handled separately. 
+Overrides can be added to the schedule manually, or by adding a layer that edits the 
+overall schedule on a daily basis (i.e. daily overrides to the default weekly schedule). 
 
 
 ## Signing Legal Documents<a name="signing-legal-documents"></a>
