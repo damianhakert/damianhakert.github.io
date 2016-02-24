@@ -37,13 +37,10 @@ We would like to sponsor events related to issues and solutions that GitLab user
 In February 2016, [we announced a $500 USD grant](https://about.gitlab.com/2016/02/02/gitlab-diversity-sponsorship/) for ALL events which promote diversity in technology.
 Yep, all events which help increase diversity in technology fields.
 You will automatically receive the grant if you meet the criteria.
-We're focusing on regions outside of New York and the Bay Area because these
-areas are already well-served by existing programs.
 
 What are the criteria?
 
 *   An event which aims to increase participation from underrepresented groups in its local region.
-*   An event outside of NYC or Bay Area.
 
 Why is fostering diversity important?
 
