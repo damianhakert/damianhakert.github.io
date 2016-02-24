@@ -13,20 +13,20 @@ There are many cloud-based Continuous Integration providers out there and
 most of them generously offer free plans for open-source projects.
 While this is great for the open-source community, paid plans can get a little
 bit too expensive for small start-ups that would prefer to keep their source code private.
-In such an ecosystem, GitLab stands out as a viable option with unlimited private
-repositories and its GitLab Runner, free and open-source tool to automate the
-testing and building of projects hosted on GitLab.com, thus giving software
+In such an ecosystem, GitLab Inc. stands out as a viable option with unlimited private
+repositories and its GitLab Runner, a free and open-source tool to automate the
+testing and building of projects, thus giving software
 developers the freedom to experiment with different approaches to build the
 optimal pipeline for their needs.
 
 This tutorial will demonstrate how to get started with a CI workflow using
 [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner).
 We will first setup a sample NodeJS project hosted on Gitlab.com to run tests
-on Shared Runners, general-purpose server instances provided by GitLab.
+on build machines provided by GitLab Inc.
 Then, we will setup and configure our own specific runner on a private server.
 Then we will go over some good practices to speed up the build time as the project grows.
-By the end of this tutorial you will feel comfortable rolling out your own
-CI solution custom-tailored for your existing projects.
+By the end of this tutorial you will feel comfortable building your own
+CI solution, custom-tailored for your existing projects.
 This post will be useful for project managers looking for affordable
 Continuous Integration solutions and developers wanting to build test-driven
 and sustainable software projects.
@@ -44,7 +44,6 @@ The other module implements a simple wrapper around PostgreSQL database to
 insert and retrieve records. Thanks to the latter module, we will need a
 database instance in our testing environment to run the tests.
 
-We already have some tests that we can run locally.
 After starting a test database, we can run the tests locally and see all tests pass.
 
   ```
@@ -80,10 +79,6 @@ We will add our .gitlab-ci.yml file to the root directory of our project.
   services:
     - postgres:9.5.0
 
-  variables:
-    POSTGRES_USER: $DB_USER
-    POSTGRES_PASSWORD: $DB_PASS
-
   all_tests:
     script:
      - npm install
@@ -98,18 +93,12 @@ Since we are testing a NodeJS app, our base image image will be a recent NodeJS 
 Services is where external dependencies are listed.
 In our tests, we need a PostgreSQL database, so we add the image name for this database.
 Any Docker image name can be specified here, such as mysql for MySQL databases.
-When the database starts it will be available to the NodeJS app under the host name `postgres` on the default PostgreSQL port, 5432.
-
-The variables section specifies the environment variables to be passed to the containers.
-`POSTGRES_USER` and `POSTGRES_PASSWORD` are two variables recognized by the
-PostgreSQL image to set the database user and the password on start up.
-Values for these variables are set in Secure Variables page
-(Settings -> Secure Variables) where we can store sensitive passwords and
-tokens for our project as environment variables without revealing them in commits or build logs.
+The database will start with default credentials before tests run and it will be
+accessible under the the host name `postgres` on the default PostgreSQL port, 5432.
 
 In the final section, we define a job named `all_tests`, which contains the command
 that will run our tests.
-In the script section we simply add our commands to install the dependencies
+In the `scripts` subsection here, we simply add our commands to install the dependencies
 and start the tests.
 
 To be extra cautious, we could lint-check our yml file on
@@ -118,7 +107,7 @@ the build steps make sure we don't have a typo.
 
 ### Using Shared Runners
 
-GitLab provides a number of servers with GitLab Runner installed.
+GitLab Inc. provides a number of servers with GitLab Runner installed.
 On Runners page (Settings -> Runners), we can see the list of currently available runners.
 We should see that Shared Runners are already available for us, so we can immediately queue our first build by simply pushing our gitlab-ci.yml file to our repository.
 We can track the progress of our build on the [Builds page](https://gitlab.com/ahmetkizilay/test-nodejs-project/builds).
@@ -129,7 +118,9 @@ Once our build starts, we should see that it completes with success in a couple 
 While these Shared Runners are great to get a sense of how to get started with
 CI, we will now install GitLab Runner on a private server to run exclusively
 for our project.
-We will use exactly the same [open-source software](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner) GitLab uses on their Shared Runners, so we will have the extra benefit of optimizing and securing our builds for our specific project.
+We will use exactly the same [open-source software](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner)
+GitLab.com uses on their Shared Runners, so we will have the extra benefit of
+optimizing and securing our builds for our specific project.
 
 
 We will need a server instance where we will install the GitLab Runner.
@@ -153,7 +144,6 @@ The registration will walk us through a few steps to configure our runner.
   https://gitlab.com/ci
   ```
 
-
 Since our project is hosted on Gitlab.com, we will use the default
 gitlab-ci coordinator URL.
 
@@ -168,12 +158,13 @@ On Runners page (Settings -> Runners), we will copy the private gitlab-ci token 
   Please enter the gitlab-ci description for this runner:
   [ubuntu-2gb-nyc3-01]: new-docker-executor
   Please enter the gitlab-ci tags for this runner (comma separated):
-  node, postgres
+  docker
   Registering runner... succeeded                     runner=8tB1zBiU
   ```
 
 It is a good practice to give descriptive name and tags for runners to
-be able to remember and target them later on. So we will choose `node` and `postreg`.
+be able to remember and target them later on. We will add `docker` tag to this
+runner since we can run any docker image and services with this runner.
 
   ```
   Please enter the executor: virtualbox, ssh, shell, parallels, docker, docker-ssh:
@@ -186,7 +177,8 @@ be able to remember and target them later on. So we will choose `node` and `post
 Notice that there are several executor options available.
 In this post, we are using the docker executor.
 Remember from the gitlab-ci.yml file, our base image is already set as node:4.2.2.
-Note that the default Docker image specified here will be used only when .gitlab-ci.yml file does not contain an image declaration.
+Note that the default Docker image specified here will be used only when .gitlab-ci.yml
+file does not contain an image declaration.
 
 
 Finally, we will disable the Shared Runners as we won't need them any more.
@@ -248,18 +240,19 @@ Note that we still need to introduce concurrency to the build.
 To do that we could either create a new server and register a runner for
 our project, or increase the concurrency level for our existing runner.
 We will go with the latter and edit the `concurrent` setting on the first
-line of our config.toml file in the server.
+line of our config.toml file in the server. On Linux, the config file will be in
+`/etc/gitlab-runner/config.toml` by default.
 
   ```
   concurrent = 2
   ```
 
-After restarting the runner and triggering a build, we can see two jobs running
+After triggering a new build, we can see two jobs running
 at the same time.
 
 ### Conclusion
 
 In this tutorial, we set up automated testing with GitLab Runner for a NodeJS
-project to get started with Continuous Integration on GitLab.
-Check out the [documentation](http://doc.gitlab.com/ce/ci/) for more information
-on how to work with the GitLab CI platform. Happy coding!
+project to get started with Continuous Integration on Gitlab.com.
+For more information on the GitLab Runner and GitLab CI platform and, check out the [documentation](http://doc.gitlab.com/ce/ci/).
+Happy coding!
