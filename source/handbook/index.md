@@ -249,7 +249,7 @@ step, **re-assign** the issue to that person.
 1. Even when something is not done, share it internally so people can comment early and prevent rework. Mark the merge request **[Work In Progress](https://about.gitlab.com/2016/01/08/feature-highlight-wip/)** so it is not merged by accident.
 1. When you create a merge request, **mention** the issue(s) that it solves in the description. If any followup actions are required on the issue after the merge request is merged, like reporting back to any customers or writing documentation, avoid auto closing it by saying `Fixes #1` or `Closes #1`.
 1. Once merge request is created, make sure to assign it to the proper person:
-    1. A merge request that fixes a frontend issue should have the `Frontend` label and be assigned to a Frontend Engineer for review.
+    1. For example a merge request that fixes a frontend issue should have the `Frontend` label and be assigned to a Frontend Engineer for review. For other workflow labels please see [PROCESS.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels).
     1. A merge request that is related to Continuous Integration should be assigned to the GitLab CI lead.
     1. All other merge requests should be assigned for review to one of merge request "endbosses". You can find all the roles listed on the [team page](https://about.gitlab.com/team/).
 1. When a merge request is done, remove the WIP prefix and **assign** the merge request to someone to review and merge it. A WIP merge request will never be merged, an unassigned non-WIP merge request can be merged by anyone if it looks ready, an assigned non-WIP will only be merged by the assigned reviewer.
