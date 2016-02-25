@@ -1,0 +1,25 @@
+- data.features.each do |feature_block|
+  .panel.panel-success
+    .panel-heading
+      %h2.panel-title
+        = feature_block.title
+    %table.table
+      %thead
+        %tr
+          %th
+          %th Community Edition
+          %th
+            %b Enterprise Edition
+      %tbody.header.first
+        - feature_block.features.each do |feature|
+          %tr
+            %td
+              %a{:href => feature.link}
+                = feature.description
+            %td
+              - if feature.in_ce
+                %i.fa.fa-check
+                %span.print *
+            %td
+              %i.fa.fa-check
+              %span.print *
