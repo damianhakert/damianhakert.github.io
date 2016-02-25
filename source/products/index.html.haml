@@ -1,0 +1,24 @@
+---
+layout: default
+title: Products
+suppress_header: true
+extra_css:
+  - intermediate.css
+---
+.wrapper.container-fluid
+  .products
+    .col-md-4.product
+      %a{:href => "/features/"}
+        %img#ce.img-responsive{:src => "/images/products/product_ce.png"}
+        %h1 Community Edition
+        %p.lead GitLab CE is open source software to collaborate on code
+    .col-md-4.product.ee
+      %a{:href => "/features/#enterprise"}
+        %img#ee.img-responsive{:src => "/images/products/product_ee.png"}
+        %h1 Enterprise Edition
+        %p.lead GitLab EE is similar to CE but with additional features
+    .col-md-4.product.ci
+      %a{:href => "/gitlab-ci/"}
+        %img#ci.img-responsive{:src => "/images/products/product_ci.png"}
+        %h1 Continuous Integration
+        %p.lead GitLab CI runs tests for your GitLab projects

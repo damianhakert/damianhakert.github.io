@@ -1,0 +1,47 @@
+body {
+  background-color: #548;
+}
+
+.products {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.products h1 {
+  font-weight: 700;
+}
+
+.products a {
+  color: #fff;
+  transition: color 0.4s;
+  -moz-transition: color 0.4s;
+  -webkit-transition: color 0.4s;
+}
+
+.products a:hover {
+  color: rgba(165, 171, 251, 1);
+  text-decoration: none;
+}
+
+.img-responsive {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ce {
+  animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+}
+
+#ee {
+  animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+}
+
+#ci {
+  animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  -webkit-animation-delay: 0.7s;
+}
