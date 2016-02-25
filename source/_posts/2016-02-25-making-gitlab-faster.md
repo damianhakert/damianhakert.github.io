@@ -539,7 +539,7 @@ be done.
 [monitoring]: http://doc.gitlab.com/ce/monitoring/performance/introduction.html
 [influxdb]: https://influxdata.com/time-series-platform/influxdb/
 [grafana]: http://grafana.org/
-[rblineprof]: http://grafana.org/
+[rblineprof]: https://github.com/peek/peek-rblineprof
 [benchmark-ips]: https://github.com/evanphx/benchmark-ips
 [benchmark-ips-readme]: https://github.com/evanphx/benchmark-ips/blob/master/README.md
 [jacob]: https://gitlab.com/u/jacobvosmaer
