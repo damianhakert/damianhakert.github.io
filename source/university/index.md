@@ -234,3 +234,13 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
 * [Why Git and GitLab slide deck](https://docs.google.com/a/gitlab.com/presentation/d/1RcZhFmn5VPvoFu6UMxhMOy7lAsToeBZRjLRn0LIdaNc/edit?usp=drive_web)
 * [Git Workshop](https://docs.google.com/presentation/d/1JzTYD8ij9slejV2-TO-NzjCvlvj6mVn9BORePXNJoMI/edit?usp=drive_web)
 * [Client Assessment of GitLab versus GitHub](https://docs.google.com/a/gitlab.com/spreadsheets/d/18cRF9Y5I6I7Z_ab6qhBEW55YpEMyU4PitZYjomVHM-M/edit?usp=sharing) INTERNAL ACCESS ONLY
+
+## Training Material
+
+### User Training
+
+Git workshop for GitLab end-users. This training covers everything users need
+to configure their environment and understand the GitLab interface.
+
+- [Slides](https://gitlab.com/gitlab-org/University/blob/master/training/user_training.md)
+can be viewed using [Deckset](http://www.decksetapp.com/).
