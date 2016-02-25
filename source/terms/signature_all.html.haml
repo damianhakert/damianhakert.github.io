@@ -1,0 +1,25 @@
+---
+layout: default
+title: Terms
+---
+
+.wrapper
+  .container
+    #gitlab-com
+      %h2.terms GitLab.com Terms
+      %p
+        %a{:href => "print/gitlab_com_terms.pdf"} PDF Preview
+      = partial "includes/terms/gitlab-com"
+      = partial "includes/terms/signature-block"
+    #subscription
+      %h2.terms GitLab Subscription Terms
+      %p
+        %a{:href => "print/gitlab_subscription_terms.pdf"} PDF Preview
+      = partial "includes/terms/subscription"
+      = partial "includes/terms/signature-block"
+    #consultancy
+      %h2.terms GitLab Consultancy Terms
+      %p
+        %a{:href => "print/gitlab_consultancy_terms.pdf"} PDF Preview
+      = partial "includes/terms/consultancy"
+      = partial "includes/terms/signature-block"
