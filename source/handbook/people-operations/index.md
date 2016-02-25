@@ -2,6 +2,11 @@
 layout: markdown_page
 title: "People Operations"
 ---
+
+To reach People Operations, please post an issue on our [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/) 
+and add the 'PeopleOps' label, or send an email to the People Operations group (see the [sheet with aliases](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#)), or ping an individual 
+member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
+
 ## Administrative details of benefits for US-based employees
 
 ### 401k 
