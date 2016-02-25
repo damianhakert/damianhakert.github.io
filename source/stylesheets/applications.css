@@ -1,11 +1,6 @@
 p {
   font-size: 17px;
-  font-family: "Roboto Condensed", sans-serif;
   font-weight: 200;
-}
-
-h1, h2, h3, h4, h5, button, a {
-  font-family: "Roboto Condensed", sans-serif;
 }
 
 h2 {
@@ -56,6 +51,6 @@ hr {
   margin-bottom: 15px;
   box-shadow: 0px 3px 4px #E0E0E0;
   padding: 10px;
-  min-height: 150px;
-  background-color: white;
+  min-height: 175px;
+  background-color: #fff;
 }
