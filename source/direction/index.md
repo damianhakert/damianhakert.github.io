@@ -193,7 +193,7 @@ file format and distributed version control. The vision of GitLab is to **allow
 everyone to collaborate on all digital content** so people can cooperate
 effectively and achieve better results, faster.
 
-Idea's flow though many stages before they are realized: chat, issue, sprint,
+Ideas flow though many stages before they are realized: chat, issue, sprint,
 IDE, commit, CI, review, acceptance, deployment. Stitching all these stages
 together can be done in many different ways. You can have a marketplace of
 proprietary apps from different suppliers or use a suite of products developed
