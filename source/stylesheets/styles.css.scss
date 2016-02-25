@@ -1,7 +1,14 @@
 @import "variables";
-@import "vendor/bootstrap";
+@import "vendor/bootstrap/bootstrap";
 @import "vendor/animate";
 @import "vendor/glyphicons";
 
 @import "base";
+
+@import "components/logo";
+@import "components/header";
+@import "components/nav";
+@import "components/buttons";
+@import "components/footer";
+
 @import "pages/blog";

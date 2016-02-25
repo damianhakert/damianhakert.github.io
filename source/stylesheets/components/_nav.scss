@@ -1,0 +1,59 @@
+.navbar-default {
+  border: 0;
+
+  .navbar-collapse {
+    @media (max-width: 767px) {
+      background-color: $color-primary-alt;
+      text-align: center;
+    }
+  }
+
+  .navbar-nav {
+    @media (min-width: 768px) {
+      float: right;
+    }
+
+    > li {
+      > a {
+        font-size: 16px;
+        font-weight: 600;
+        padding-top: 18px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        @media (max-width: 767px) {
+          padding-top: 8px;
+          padding-bottom: 8px;
+          color: #fff;
+        }
+
+        @media (max-width: 991px) {
+          padding-left: 15px;
+          padding-right: 15px;
+          font-size: 14px;
+        }
+      }
+
+      .sign-in-up-btn {
+        @media (min-width: 767px) {
+          border: 1px solid #554488;
+          border-radius: 3px;
+          padding: 4px 20px;
+          margin-left: 10px;
+          margin-top: 12px;
+          background-color: #fff;
+          color: #554488;
+
+          &:hover {
+            background-color: #554488;
+            color: #fff;
+          }
+        }
+
+        @media (min-width: 990px) {
+          padding: 4px 30px;
+        }
+      }
+    }
+  }
+}

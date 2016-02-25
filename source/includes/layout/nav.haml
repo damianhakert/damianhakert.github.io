@@ -1,17 +1,17 @@
-%ul.nav.pull-right.animated.navbar-nav
-  %li{:class => ("active-state" if current_page.url == "/downloads/")}
+%ul.nav.navbar-nav.animated
+  %li{:class => ("active" if current_page.url == "/downloads/")}
     %a{:href => "/downloads", :onclick => "_gaq.push(['_trackEvent', 'Top navigation', 'Download']);"}
       Download
-  %li{:class => ("active-state" if current_page.url == "/products/")}
+  %li{:class => ("active" if current_page.url == "/products/")}
     %a{:href => "/products", :onclick => "_gaq.push(['_trackEvent', 'Top navigation', 'Products']);"}
       Products
-  %li{:class => ("active-state" if current_page.url == "/pricing/")}
+  %li{:class => ("active" if current_page.url == "/pricing/")}
     %a{:href => "/pricing", :onclick => "_gaq.push(['_trackEvent', 'Top navigation', 'Pricing']);"}
       Pricing
-  %li{:class => ("active-state" if current_page.url == "/community/")}
+  %li{:class => ("active" if current_page.url == "/community/")}
     %a{:href => "/community", :onclick => "_gaq.push(['_trackEvent', 'Top navigation', 'Community']);"}
       Community
-  %li{:class => ("active-state" if current_page.url == "/blog/")}
+  %li{:class => ("active" if current_page.url == "/blog/")}
     %a{:href => "/blog", :onclick => "_gaq.push(['_trackEvent', 'Top navigation', 'Blog']);"}
       Blog
   %li

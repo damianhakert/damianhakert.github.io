@@ -25,6 +25,8 @@ set :haml, {
   :format => :html5
 }
 
+activate :minify_css
+
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   # blog.prefix = "blog"

@@ -2,3 +2,15 @@ $color-primary: #554488;
 $color-primary-alt: #6b4fbb;
 $color-secondary: #e14329;
 $color-secondary-alt: #fba225;
+
+// Bootstrap overrides
+$body-bg: #f9f9f9;
+
+$font-family-sans-serif: "Source Sans Pro", sans-serif;
+
+$navbar-default-bg: #fff;
+$navbar-default-toggle-icon-bar-bg: $color-primary-alt;
+
+$navbar-default-link-color: #8C929D;
+$navbar-default-link-hover-color: $color-primary-alt;
+$navbar-default-link-active-color: $color-primary-alt;

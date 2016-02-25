@@ -1,24 +1,25 @@
-.navbar.navbar-fixed-top.navbar-default{:role => "navigation"}
-  .container
-    .navbar-header
-      %button.navbar-toggle{:type => "button", :data => {:target => "#main-gl-nav", :toggle => "collapse"}}
-        %span.sr-only
-          Toggle Navigation
-        %span.icon-bar
-        %span.icon-bar
-        %span.icon-bar
-      - if current_page.url == '/'
-        %a.navbar-brand.animated
-          = partial "includes/logos/wm_web.svg"
-      - else
-        %a.navbar-brand.animated{:href => "/"}
-          = partial "includes/logos/wm_web.svg"
-    .collapse.navbar-collapse#main-gl-nav
-      = partial "includes/layout/nav"
-- if !defined? current_page.data.suppress_header
-  .simple-header
+%header
+  .navbar.navbar-fixed-top.navbar-default{:role => "navigation"}
     .container
-      .row
-        .col-sm-12.col-md-12
-          %h1
-            = current_page.data.title
+      .navbar-header
+        %button.navbar-toggle{:type => "button", :data => {:target => "#main-gl-nav", :toggle => "collapse"}}
+          %span.sr-only
+            Toggle Navigation
+          %span.icon-bar
+          %span.icon-bar
+          %span.icon-bar
+        - if current_page.url == '/'
+          %a.navbar-brand.animated
+            = partial "includes/logos/wm_web.svg"
+        - else
+          %a.navbar-brand.animated{:href => "/"}
+            = partial "includes/logos/wm_web.svg"
+      .collapse.navbar-collapse#main-gl-nav
+        = partial "includes/layout/nav"
+  - if !defined? current_page.data.suppress_header
+    .simple-header
+      .container
+        .row
+          .col-sm-12.col-md-12
+            %h1
+              = current_page.data.title
