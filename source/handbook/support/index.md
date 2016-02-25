@@ -12,8 +12,8 @@ title: Support
 ## Introduction
 
 A [service engineer](/jobs/service-engineer) handles the following channels.
-They are sorted in order of priority, and as a result, it is possible that channels that appear lower 
-in this list experience longer delays in receiving responses. We are actively [hiring](https://about.gitlab.com/jobs/) 
+They are sorted in order of priority, and as a result, it is possible that channels that appear lower
+in this list experience longer delays in receiving responses. We are actively [hiring](https://about.gitlab.com/jobs/)
 more Service Engineers to strengthen the team and provide support to the community.
 
 ## Dashboard
@@ -69,14 +69,14 @@ us the possibility to use our computer audio connection.
 If you are unable to help the customer and their instance is in a critical state (unavailable, uncertainty of
 data loss, etc.), you should escalate the PD incident to Second Level support. They will be able to assist you.
 
-In a crisis situation (defined as an emergency that takes longer than an hour to resolve, 
-and/or multiple people are or need to be involved), start a google doc that is open to the customer and the wider team at GitLab, and keep track of the 
-issues and ideas there. ZenDesk's 'linear' display of communication with a customer is not as effective in crisis situations, and the 
-majority of developers do not have access to ZenDesk in the first place. Announce the google doc in the appropriate 
-slack channel (#operations, #development, #general) so that individuals can contribute solutions and ideas. When the crisis 
-has been resolved, be sure to transfer pertinent know-how from the google doc to relevant documentation, handbooks, and/or 
+In a crisis situation (defined as an emergency that takes longer than an hour to resolve,
+and/or multiple people are or need to be involved), start a google doc that is open to the customer and the wider team at GitLab, and keep track of the
+issues and ideas there. ZenDesk's 'linear' display of communication with a customer is not as effective in crisis situations, and the
+majority of developers do not have access to ZenDesk in the first place. Announce the google doc in the appropriate
+slack channel (#operations, #development, #general) so that individuals can contribute solutions and ideas. When the crisis
+has been resolved, be sure to transfer pertinent know-how from the google doc to relevant documentation, handbooks, and/or
 issue trackers, so that the google doc can be deprecated a.s.a.p.  In addition, Service Engineers and Developers involved
-in the crisis should make time to have a hangout for hand-off to make sure that everyone has the chance to recover and stay 
+in the crisis should make time to have a hangout for hand-off to make sure that everyone has the chance to recover and stay
 clear-headed.
 
 ## GitLab.com downtime
@@ -90,7 +90,32 @@ our backend NFS server rebooting or becoming unresponsive. In any case, you shou
 found on our [Chef Repo](https://dev.gitlab.org/gitlab/gitlabhq/issues/2624). A fire drill to train you in this
 situation should take place before you are put on rotation. If this has not happened, please let the team know.
 
-## Scheduled calls
+
+## Security disclosures
+
+We have a [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/).
+These emails go into ZenDesk.
+Please be very patient with these reports.
+Do not say 'there is no problem', you might be misunderstanding something leading to a 0 day disclosure.
+Give examples and keep asking questions until you understand the problem or the researcher concludes there is no problem.
+If someone invested time to help us offer to mention them on our [Security Researcher Acknowledgments page](https://about.gitlab.com/vulnerability-acknowledgements/) even if there was no actual vulnerability.
+If you say that we'll get back to them always mention that they can email us at any time for an update.
+This is really important to prevent a 0 day disclosure because we forgot to respond.
+If you need help from developers to diagnose the issue please open an issue on dev.gitlab.org so we can work in private.
+If someone opens a public issue please leave a message: "Thank you for helping to make GitLab more secure! We removed the contents of your vulnerability disclosure to keep it private. We opened an internal issue to look at your disclosure. Can you please use our [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/) to send us an email that references this url so we can communicate in private?"
+
+## Regular ZenDesk tickets
+
+You should always answer the tickets in a [FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)
+manner. Make sure that you answer the tickets that are assigned to you first and then move on to new tickets
+that have come in and are unassigned, again using FIFO.
+When you need others to help please create an issue on the relevant GitLab issue tracker.
+
+As part of regular support tickets you should expect that sometimes calls with
+customers will be necessary. There may be scheduled or unscheduled calls,
+depending on the topic and severity of the issue.
+
+### Scheduled calls
 
 We also offer intake, upgrade and installation support for our customers. When these requests come in, you will schedule
 a call/screen sharing session with them and either guide them through the upgrade process or take control of the
@@ -107,52 +132,53 @@ much as possible about the customer's instance as you can.
 
 We collect this information in ZenDesk and link it to the organization, see the [responding to tickets section in onboarding](https://about.gitlab.com/handbook/support/onboarding.html).
 
-## Unscheduled calls
+### Unscheduled calls
 
 While engaging with customers you should always be prepared to jump on a call with them. It is easier to get
 all the information you might need on a 20 minute call than on 10 2-minute emails. If a conversation goes through
 several back and forth emails and the problem still isn't close to being resolved, suggest a call via WebEx or
 Google Hangouts.
 
+
 ## Security disclosures
 
 We have a [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/).
-Emails sent to security@gitlab.com go into ZenDesk and receive an autoresponder that 
+Emails sent to security@gitlab.com go into ZenDesk and receive an autoresponder that
 says: "Thank you for your responsible disclosure of a potential GitLab vulnerability. We'll follow up with you within one business day."
 
-Please be very patient with these reports. Do not say 'there is no problem', you 
+Please be very patient with these reports. Do not say 'there is no problem', you
 might be misunderstanding something that can lead to a 0 day disclosure.
 Give examples and keep asking questions until you understand the problem or until the researcher concludes there is no problem.
-If someone invested time to help us, offer to mention them on our [Security Researcher Acknowledgments page](https://about.gitlab.com/vulnerability-acknowledgements/) 
+If someone invested time to help us, offer to mention them on our [Security Researcher Acknowledgments page](https://about.gitlab.com/vulnerability-acknowledgements/)
 even if there was no actual vulnerability.
 If you say that we'll get back to them **always** mention that they can email us at any time for an update.
 This is really important to prevent a 0 day disclosure resulting from us forgetting to respond.
 
 If you need help from developers to diagnose the issue please open an issue on dev.gitlab.org so we can work in private.
 If someone opens a public issue please leave a message:   
-"Thank you for helping to 
-make GitLab more secure! We removed the contents of your vulnerability disclosure 
-to keep it private. We opened an internal issue to look at your disclosure. Can 
-you please use our [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/) 
+"Thank you for helping to
+make GitLab more secure! We removed the contents of your vulnerability disclosure
+to keep it private. We opened an internal issue to look at your disclosure. Can
+you please use our [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/)
 to send us an email that references this url so we can communicate in private?"
 
 ### HackerOne
 
-We also use [HackerOne](https://hackerone.com/gitlab) to manage security reports. 
-The HackerOne dashboard lists all reports for which you need to respond within one business day. These 
-reports are also piped into ZenDesk, but they need to be responded to from the HackerOne dashboard and closed manually in ZenDesk 
+We also use [HackerOne](https://hackerone.com/gitlab) to manage security reports.
+The HackerOne dashboard lists all reports for which you need to respond within one business day. These
+reports are also piped into ZenDesk, but they need to be responded to from the HackerOne dashboard and closed manually in ZenDesk
 upon completion. Remember that all researchers should receive feedback as with regular support tickets,
-and you should not hesitate to triage or escalate the report. **Always** mention that they can email us at any time for an update. 
+and you should not hesitate to triage or escalate the report. **Always** mention that they can email us at any time for an update.
 Eventually each report has to be accepted and/or closed through the HackerOne dashboard even if you've followed through on ZenDesk.
-  
-If you need to grant HackerOne permissions to a new GitLab user, have an admin send 
-an invitation from HackerOne and add you to the Internal group. You can find out who 
+
+If you need to grant HackerOne permissions to a new GitLab user, have an admin send
+an invitation from HackerOne and add you to the Internal group. You can find out who
 the admins are by asking on the #support channel.   
 
 ### PGP Process
 
 The key used to encode/decode PGP messages is stored in our Support Vault on 1Password.
-We only provide our public PGP key upon request because it makes collaborating much 
+We only provide our public PGP key upon request because it makes collaborating much
 harder and only a small percentage of all disclosures are serious enough to require that overhead.
 
 See [PGP Process](/handbook/support/pgp_process.html) for
@@ -164,6 +190,8 @@ You should always answer the tickets in a [FIFO](https://en.wikipedia.org/wiki/F
 manner. Make sure that you answer the tickets that are assigned to you first and then move on to new tickets
 that have come in and are unassigned, again using FIFO.
 When you need others to help please create an issue on the relevant GitLab issue tracker.
+
+
 
 ## Disqus questions on the blog
 
