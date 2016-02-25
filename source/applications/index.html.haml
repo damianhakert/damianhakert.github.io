@@ -1,0 +1,40 @@
+---
+layout: default
+title: Applications Supporting GitLab
+suppress_header: true
+extra_css:
+  - applications.css
+---
+.wrapper
+  .application-container
+    .application-overlay
+      .application-content
+        %h1 Applications Supporting GitLab
+  .container
+    .container-text
+      %p
+        Every application that supports Git will work with GitLab.
+        Below are some of the applications we wanted to highlight.
+        You can use the
+        %a{:href => "http://doc.gitlab.com/ce/api/"} GitLab API
+        to add support for GitLab.
+        Please file a
+        %a{:href => "https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests?assignee_id=&label_name=&milestone_id=&scope=all&sort=newest&state=all"} merge request
+        to add a new application to the list.
+      - data.applications.each do |app_category|
+        %hr{id: app_category.id}
+        %h2
+          = app_category.title
+        .row
+          - app_category.applications.each do |application|
+            .col-md-4
+              .app
+                %h4
+                  = application.title
+                %p
+                  = application.content
+                - if application.links
+                  - application.links.each do |link|
+                    %a{href: link.url, title: link.title}
+                      = link.title
+                    %br
