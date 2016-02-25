@@ -4,15 +4,17 @@ title: "Being GitLab newbie"
 date: 2016-02-23
 comments: true
 author: Ivan Nemytchenko
-author_twitter: sytses
+author_twitter: inemation
 image_title: '/images/unsplash/FILENAME.jpg'
 ---
 
 This post recounts my first week at GitLab. I’m an experienced Ruby developer and a long time user of Github for both my personal projects and open source projects. I’ve joined the team as a Developer Advocate. Part of my role will be to travel to community events, I hope we’ll meet in person someday. I took notes during my first week to chart my fresh-eyed “GitLab newbie experience.”
 
+<!--more-->
+
 I pretend to be an average Github user. It is default place for all my projects. I pay my $7/month, despite the fact that there's Bitbucket with free private repositories.
 
-I've heard of GitLab that it is Github clone, and it is somewhat cool if you want to have your Github-like hosting on your personal server.
+I've heard of GitLab is somewhat cool if you want to have your Github-like hosting on your personal server.
 
 It looks like things have changed a lot during past 2 years. I am going to share what I have learned about GitLab recently.
 
@@ -80,11 +82,3 @@ But the good news is that you don't need to build static version of the website 
 The first new word for me was "omnibus". You don't have to care about it unless you decided to install your own instance CE or EE.
 
 Omnibus is a way to install(and upgrade) GitLab without a hassle. Since GitLab consists of many parts, installing them manually is a time-consuming process. With omnibus, all you need to do is to install package for your OS.
-
-## Migration
-
-GitLab is very welcoming in this part of the website :) It is super-easy to migrate from Github or Bitbucket or whatever.
-Since I learned about GitLab benefits, it is stupid not to migrate. The main stopper is that it will affect my collaborators. Though I hope this blog post will convince them.
-
-
-
