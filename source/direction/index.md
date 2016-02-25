@@ -105,6 +105,7 @@ We very much welcome contributions that implement any of these things.
 - [Improved emails on push](https://gitlab.com/gitlab-org/gitlab-ee/issues/146)
 - [Autocomplete all users](https://gitlab.com/gitlab-org/gitlab-ce/issues/3872)
 - [Create branch from issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/3886)
+- [Ship octotree as part of GitLab](https://gitlab.com/gitlab-org/gitlab-ce/issues/13723)
 
 ### Code Review
 
