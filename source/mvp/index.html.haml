@@ -1,0 +1,35 @@
+---
+layout: default
+title: MVP
+extra_css:
+  - mvp.css
+suppress_header: true
+---
+.wrapper
+  .container
+    .title
+      GitLab Hall of
+      %b Fame
+    .mvp-badge
+      %img.img-responsive{:alt => "", :src => "/images/mvp_badge.png"}/
+    .description
+      Every release a contributor is awarded the prestigious golden fork for Most Valueable Person (MVP).
+    .mvp-list
+      %table.table
+        %thead
+          %tr
+            %th
+              Version
+            %th
+              Release date
+            %th
+              MVP
+        %tbody
+          - data.mvps.each do |mvp|
+            %tr
+              %td
+                = mvp.version
+              %td
+                = mvp.date
+              %td
+                = mvp.name
