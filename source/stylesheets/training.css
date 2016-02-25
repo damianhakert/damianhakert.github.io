@@ -1,0 +1,68 @@
+body {
+  background-color: rgba(85, 68, 136, 0.23);
+  
+}
+
+.training-picture-container {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  overflow: hidden;
+  background: url(/images/bg/bg_training.png) no-repeat center center;
+  background-size: cover;
+}
+
+.training-overlay {
+  background: rgba(85, 68, 136, 0.9);
+  min-height: 500px;
+}
+
+.training-content {
+  padding-top: 76px;
+  color: white;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.training-content li {
+  text-align: left;
+  font-size: 15px;
+}
+
+.training-content h1 {
+
+  color: white;
+  font-size: 6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.training-form {
+  color: white !important;
+  margin-top: 25px;
+}
+
+@media (max-width: 1066px) {
+  .training-content {
+    margin: 0;
+    width: 100%;
+  }
+
+ .training-content li {
+    font-size: 13px;
+    background-size: cover;
+  }
+
+  .action {
+    margin: 3% 0% 0 15%;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.centered-form {
+  margin: 2em auto;
+  width: 500px;
+}
