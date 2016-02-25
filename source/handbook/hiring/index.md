@@ -47,8 +47,11 @@ require [technical interviews](https://about.gitlab.com/jobs/#technical-intervie
 1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
 1. Hiring manager ensures that the contract is signed, and [starts the onboarding process](#move-to-onboarding) (the People Ops team can help).
 
-At any time during this process the applicant can be rejected (and should always be notified of this). If the
-applicant asks for further feedback always offer frank feedback. This is hard, but it is part of our company values.
+Some further guidelines around the hiring process:
+
+- For female candidates, include at least one interview with a female GitLab team member.
+- At any time during this process the applicant can be rejected (and should always be notified of this). 
+- If the applicant asks for further feedback always offer frank feedback. This is hard, but it is part of our company values.
 
 ## Screening Call<a name="screening-call"></a>
 
