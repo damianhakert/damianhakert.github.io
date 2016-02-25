@@ -77,8 +77,8 @@ Current state
 
 ## What counts as an SQL or MQL?
 1. SQL is any lead which has been both: 
- - accepted by the sales team which has met the qualification requirements; and 
- - converted to a Contact in and attached to a new Opportunity in SFDC.
+ a. accepted by the sales team which has met the qualification requirements; and 
+ b. converted to a Contact in and attached to a new Opportunity in SFDC.
 2. MQL is any lead with a lead score of 20 or greater in Marketo.
  - Lead score is calculated based on behavioral and demographic data.
 
@@ -90,11 +90,16 @@ Current state
 - Attempt 2 => Two messages sent without response; after 21 days, auto-updates to Nurture
 - Attempt 3 => Three messages sent without response; after 21 days, auto-updates to Nurture
 - Attempt 4 => Four messages sent without response; after 21 days, auto-updates to Nurture
-- Qualified => Soft-BANT criteria met. Action: convert to Contact and introduce to sales team.
+- Qualified => Soft-BANT criteria met. Action: pass to sales team.
 - Progressing => Communication is two-way, but Soft-BANT still undetermined. Any response that doesn't immediately put the lead into "Qualified", "Unqualified", or "Nurture" status should put the lead in this status.
 - Unqualified => Soft-BANT criteria not met (e.g. a developer using GitLab for personal projects, a student, etc.). Action: send appropriate resources if requested; avoid sending salesy messages.
 - Bad Data => Invalid email address. Note: only mark as bad data if there is no communication channel. For example, a lead who provided "Spam Spamson" as their name but still provided a valid email address is not Bad Data.
 - Nurture => May become "Qualified" in the future, but communication is closed. Will receive useful marketing emails.
+
+##Passing Qualified Leads
+- Set "Lead Status" to Qualified and assign the appropriate sales team member as the new owner
+- Introduce the lead to the sales team member unless inappropriate or unnecessary.
+- If no action is taken by the newly assigned sales team member within 1-7 days, follow up with them and determine why no action has been taken.
 
 ## Nurture campaign process
 
