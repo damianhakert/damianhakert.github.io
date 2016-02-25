@@ -4,5 +4,32 @@
     = partial "includes/layout/head"
   %body{:data => {:spy => "scroll", :target => ".qnav"}}
     = partial "includes/layout/header"
-    = yield
+    #content
+      - if current_page.data.image_title
+        = partial "includes/blog/image-single", locals: {post: current_page}
+      .container.full-post
+        .row
+          .col-sm-12
+            .row
+              .col-sm-12.blog-entry
+                - if !current_page.data.image_title
+                  %h1.title
+                    = current_page.data.title
+                  %h4.date
+                    = partial "includes/blog/author", locals: {post: current_page}
+                    = current_page.data.date.strftime '%b %e, %Y'
+                  %hr.blog-title-divider
+                - else
+                  %h4.date
+                    = partial "includes/blog/author", locals: {post: current_page}
+                    = current_page.data.date.strftime '%b %e, %Y'
+                = yield
+                = partial "includes/download"
+                %hr
+                %p
+                  &rarr;
+                  %a{href: "/blog/archives.html"}
+                    Browse all posts
+                = partial "includes/newsletter-signup.html"
+                = partial "includes/blog/comments"
     = partial "includes/layout/footer"

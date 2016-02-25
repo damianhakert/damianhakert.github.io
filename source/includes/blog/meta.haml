@@ -1,9 +1,3 @@
 %h4.meta.date
-  - if post.data.author_twitter
-    .author
-      %a{:href => "https://www.twitter.com/#{post.data.author_twitter}"}
-        = post.data.author
-  - else
-    .author
-      = post.data.author
+  = partial "includes/blog/author", locals: {post: post}
   = post.date.strftime '%b %e, %Y'

@@ -15,7 +15,7 @@
           = partial "includes/logos/wm_web.svg"
     .collapse.navbar-collapse#main-gl-nav
       = partial "includes/layout/nav"
-- if !current_page.data.suppress_header
+- if current_page.data.suppress_header != nil
   .simple-header
     .container
       .row
