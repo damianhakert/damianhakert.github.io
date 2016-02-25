@@ -1,0 +1,62 @@
+- name: Maçã
+  picture: pets/maca.jpg
+  story:  |
+          Maca loves to play with plastic bottles and sleep on any surface
+          near her owners.
+- name: Kirei
+  picture: pets/kirei.jpg
+  story: |
+          Batman?
+- name: Lola
+  picture: pets/lola.jpg
+  story: |
+          Super hip and fashionable. Lola likes snacks, naps and snacks.
+- name: Ramona
+  picture: pets/ramona.jpg
+  story: |
+          Loves the beach.
+- name: Sadie
+  picture: pets/sadie.jpg
+  story: |
+          Lick Bull Terrier. So cute. Keeps <a href="http://everybodylovessadie.blogspot.com/">her own blog</a>.
+- name: Asti
+  picture: pets/asti.jpg
+  story: |
+          Woof! And smile
+- name: Winston and Benny
+  picture: pets/winston_benny.jpg
+  story: |
+         A three-legged Pit Bull and a Cocker Spaniel. Odd but loveable brothers.
+- name: Mouse
+  picture: pets/mouse.jpg
+  story: |
+         Laser pointer enthusiast, loves clean sheets. Sits where he fits,
+         preferably on top of his human.
+- name: Humpf
+  picture: pets/Humpf.jpeg
+  story: |
+         Well-trained black lab with a love for carrots and naps.
+- name: Suzy
+  picture: pets/suzy.jpg
+  story: |
+          Curious kitty.
+- name: Zayats!
+  picture: pets/zayats.jpg
+  story: |
+         Surprisingly smart and constantly hungry. Takes care of your wires. Exclamation mark is necessary.
+- name: Malu
+  picture: pets/malu.jpg
+  story: |
+         Feed me and I’ll love u forever.
+- name: Maggie
+  picture: pets/maggie.jpg
+  story: |
+         Lagotto with the heart of a lion, and a lifetime ban from the zoo.
+- name: Pacho
+  picture: pets/pacho.jpg
+  story: |
+         Indoor catch ball enthusiast. Preferably XL sized balls.
+- name: You?
+  picture: logo-extra-whitespace.png
+  story:  |
+          Want to see your name and picture here? Ask your owner/servant to check out our latest <a href="http://about.gitlab.com/jobs/">job openings!</a>

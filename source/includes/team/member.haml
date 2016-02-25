@@ -1,0 +1,29 @@
+.col-xl-3.col-lg-4.col-md-4.col-sm-6.col-xs-12
+  .member{:class => ("pet" if is_pet)}
+    .card{:id => member.twitter}
+      .front
+        %img{:src => "/images/team/#{member.picture}", :alt => member.name, :width => 200, :height => 200}
+        %h3
+          = member.name
+        %h4
+          = member.role
+        - if member.reports_to
+          %h5
+            = member.reports_to
+        - if member.maintains
+          %ul
+            = member.maintains
+        .social
+          - if member.twitter
+            %a{:href => "https://twitter.com/#{member.twitter}"}
+              %span.sr-only
+                Twitter
+              %i.fa.fa-twitter
+          - if member.gitlab
+            %a{:href => "https://gitlab.com/u/#{member.gitlab}"}
+              %span.sr-only
+                GitLab
+              = partial "includes/logos/logo_sq.svg"
+        .bio
+          %p
+            = member.story

@@ -1,0 +1,52 @@
+---
+layout: default
+title: Community
+suppress_header: true
+extra_css:
+  - community.css
+---
+.community.wrapper
+  .container
+    .row
+      .col-sm-6.col-md-4
+        %a{:href => "https://gitlab.com/gitlab-org/gitlab-ce/tree/master#README"}
+          %img#source-code{:alt => "source-code", :src => "/images/icons/development.png"}/
+          %h2 Source code
+          %p
+            The GitLab Community Edition source code
+      .col-sm-6.col-md-4
+        %a{:href => "/core-team"}
+          %img#core-team{:src => "/images/icons/team.png"}/
+          %h2 Core Team
+          %p People behind the open-source project.
+      .col-sm-6.col-md-4
+        %a{:href => "http://contributors.gitlab.com/"}
+          %img#contributors{:src => "/images/icons/contributors.png"}/
+          %h2 Contributors
+          %p Contributors to the open-source project.
+      .col-sm-6.col-md-4
+        %a{:href => "/documentation"}
+          %img#documentation{:src => "/images/icons/documentation.png"}/
+          %h2 Documentation
+          %p All GitLab projects in one place.
+      .col-sm-6.col-md-4
+        %a{:href => "/getting-help"}
+          %img#help{:src => "/images/icons/help.png"}/
+          %h2 Getting Help
+          %p How to get help and stay informed.
+      .col-sm-6.col-md-4
+        %a{:href => "/contributing"}
+          %img#contributing{:src => "/images/icons/contributing.png"}/
+          %h2 Contributing
+          %p Information on how to contribute to the projects.
+      .col-sm-6.col-md-4
+        %a{:href => "/applications"}
+          %img#applications{:src => "/images/icons/apps.png"}/
+          %h2 Applications
+          %p List of applications which support GitLab.
+      .col-sm-6.col-md-4
+        %a{:href => "/mvp"}
+          %img#mvp{:src => "/images/icons/mvp.png"}/
+          %h2 Hall of Fame
+          %p The most valuable persons in past releases.
+      .clearfix.visible-sm-block

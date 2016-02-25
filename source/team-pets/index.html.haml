@@ -1,0 +1,17 @@
+---
+layout: default
+title: Team Pets
+suppress_header: true
+extra_css:
+  - team.css
+team_members:
+---
+.wrapper
+  .container
+    .team-head
+      %h1
+        MEET OUR
+        %b PETS
+    .row
+      - data.pets.each do |pet|
+        = partial "includes/team/member", :locals => {:member => pet, :is_pet => true}
