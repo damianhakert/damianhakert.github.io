@@ -6,12 +6,11 @@
 }
 
 h1 {
-  
+
   font-weight: 600;
 }
 
 h2, h3, h4 {
-  /*font-family: Roboto;*/
   font-weight: 400;
 }
 
@@ -37,7 +36,6 @@ h1 small {
 .member h3 {
   font-weight: 600;
   color: #333;
-  /*font-family: Roboto;*/
   font-size: 23px;
 }
 

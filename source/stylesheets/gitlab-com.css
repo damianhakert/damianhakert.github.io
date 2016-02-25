@@ -8,12 +8,8 @@ h2 {
   font-weight: 400;
 }
 
-a {
-    font-family: "Roboto Condensed-Light", sans-serif;
-}
-
 h1, h2, h3, h4, h5, button, a, p, li {
-  
+
 }
 
 .wrapper {
@@ -143,7 +139,7 @@ h1, h2, h3, h4, h5, button, a, p, li {
   .panels .panel-body {
     font-size: 19px;
     font-weight: 100;
-    
+
   }
 
 .tages {
@@ -166,7 +162,7 @@ h1, h2, h3, h4, h5, button, a, p, li {
 }
 
 .advantages div:nth-child(3) p {
-  
+
   font-size: 6em;
   font-weight: 100;
   float: right;
@@ -174,7 +170,6 @@ h1, h2, h3, h4, h5, button, a, p, li {
 }
 
 .users span {
-    font-family: 'Roboto Condensed', sans-serif;
     color: #a0c720;
 }
 
@@ -263,7 +258,7 @@ h1, h2, h3, h4, h5, button, a, p, li {
   background-image: linear-gradient(to bottom, rgba(85,68,136,1.0) 0%,rgba(85,68,136,0.85) 99%,rgba(85,68,136,0.79) 100%)
 }
   .color-bg h1 {
-    
+
     position: relative;
     padding: 64px 0 3px 0;
     margin-top: 0;
@@ -272,7 +267,6 @@ h1, h2, h3, h4, h5, button, a, p, li {
   }
 
   .color-bg h3 {
-    font-family: "Roboto Condensed-Light", sans-serif;
     font-size: 32px;
     color: rgba(255, 255, 255, 0.62);
     line-height: 32px;
