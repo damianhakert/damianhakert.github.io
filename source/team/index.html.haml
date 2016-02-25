@@ -22,7 +22,7 @@ image_title: /images/team/team.jpg
         %a{:href => "https://about.gitlab.com/culture/"} culture page
     .row
       - data.team.each do |member|
-        = partial "includes/team/member", :locals => {:member => member}
+        = partial "includes/team/member", locals: {member: member, is_pet: false}
       .col-xl-3.col-lg-4.col-md-4.col-sm-6.col-xs-12
         .member
           .card
