@@ -1,0 +1,99 @@
+body{
+  background: #548;
+}
+
+h2 {
+  color: #FFF;
+  font-weight: 400;
+}
+
+a {
+  color: #FFF;
+}
+
+a:hover{
+  color: #A5ABFB;
+  text-decoration: none;
+}
+
+p {
+  margin: 0px 0px 30px;
+}
+
+.contact {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  background: #548;
+  color: #BBB4CF;
+}
+
+.btn-primary {
+  color: #FFF;
+  background-color: #887AB6;
+  border: none;
+}
+
+.clear {
+  padding-bottom: 4px;
+}
+
+.btn-primary:hover {
+  color: #FFF;
+  background-color: #6654A1;
+}
+
+.btn-o {
+  padding-top: 5px;
+}
+
+.twitter-follow-button {
+  height: 25px !important;
+  padding-top: 5px !important;
+}
+
+.newsletter-afterword {
+  margin-top: 12px;
+}
+
+/* Override some Marketo form styles */
+.mktoAsterix, .mktoLabel {
+  display: none !important;
+}
+
+.mktoForm {
+  margin: 0 auto;
+  width: 220px;
+}
+
+.mktoFormCol {
+  margin-bottom: 0 !important;
+}
+
+.mktoFieldWrap {
+  float: none !important;
+}
+
+.mktoButtonWrap {
+  margin: 0 !important;
+}
+
+.mktoGutter, .mktoOffset {
+  width: 0 !important;
+}
+
+.mktoField, .mktoButton {
+  width: 220px !important;
+}
+
+.mktoButton {
+  background-color: #887AB6 !important;
+  background-image: none !important;
+  border: none !important;
+  color: #FFF !important;
+}
+
+.mktoButton:hover {
+  background-color: #6654A1 !important;
+  color: #FFF !important;
+}
