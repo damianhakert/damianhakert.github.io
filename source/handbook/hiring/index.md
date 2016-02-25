@@ -93,15 +93,17 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 
 Once a new team member is to be added in an employee or contractor capacity,
 fill out the [New Contract form](https://docs.google.com/a/gitlab.com/forms/d/19sPOZW8rnBTnyvj3BR4-ZMksLeMnTjkbpCZUsfUDVy4/viewform)
-with pertinent details, and ping the Administrative Coordinator to initiate the creation of the contracts.
+with pertinent details. This pings the [People Operations Administrator]
+(https://about.gitlab.com/jobs/people-operations-administrator), [Administrative 
+Coordinator](https://about.gitlab.com/jobs/administrative-coordinator), and [COO](https://about.gitlab.com/jobs/chief-operating-officer) 
+who coordinate amongst themselves who actually prepares the requested contract.
 
 Our template contracts are posted on the [Contracts page](https://about.gitlab.com/handbook/contracts).
 
 ## Who Reviews and Who Signs Contracts<a name="contract-review"></a>
-While many people can prepare the contracts on our [Contracts](https://about.gitlab.com/handbook/contracts)
-page, the most typical situation is that either our [People Operations Administrator](https://about.gitlab.com/jobs/people-operations-administrator)
-(mostly for US based employees) or [Administrative Coordinator](https://about.gitlab.com/jobs/administrative-coordinator), or the COO will
-prepare the necessary contracts. The review process is as follows:
+
+Various people can prepare the contracts on our [Contracts](https://about.gitlab.com/handbook/contracts)
+page, but once they are created the review process is as follows:
 
 * For any hires for which the COO does _not_ sign, the COO reviews the contract
 after which it can be sent out to be signed by any of the relevant C-level team
