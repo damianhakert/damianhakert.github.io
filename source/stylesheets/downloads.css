@@ -1,0 +1,117 @@
+body {
+  background: #548;
+  color: white;
+}
+
+.graphic-menu {
+  margin-bottom: 70px;
+}
+
+.pack-fox {
+  margin: 0 auto;
+}
+
+.btn-default {
+  background-color: #7769A0;
+  border-color: #7769A0;
+  color: #fff;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default .dropdown-toggle,
+.btn-group.open .dropdown-toggle {
+  background-color: #403366;
+  border-color: #403366;
+  color: #fff;
+}
+
+.btn-group {
+  padding-bottom: 8px;
+}
+
+.dropdown-menu {
+  background: #019875;
+}
+.dropdown-menu>li>a {
+  color: white;
+}
+.dropdown-menu li a:hover {
+  background: #18BE97;
+}
+
+.other-downloads {
+  margin-top: 30px;
+}
+
+.other-downloads h1 {
+  font-weight: 700;
+}
+
+.other-downloads a {
+  color: rgba(255,255,255,0.8);
+}
+
+.other-downloads h3 a {
+  color: rgba(255,255,255,0.9);
+}
+
+pre {
+  background: #403366;
+  border: none;
+  color: white;
+}
+
+.tab-step p {
+  color: #E3DCF7;
+}
+
+.green{
+  color: #18BE97;
+}
+
+.simple-header {
+  margin-bottom: 40px !important;
+}
+
+.tab-step {
+  margin: 20px 0px;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.05);
+}
+
+.tab-step a {
+  color: #FFB800;
+}
+
+.newsletter-preamble {
+  margin: 20px 5px;
+}
+
+/* Override some Marketo form styles */
+.mktoAsterix {
+  display: none !important;
+}
+
+.mktoFieldDescriptor {
+  margin-bottom: 0 !important;
+}
+
+.mktoForm,
+.mktoFormCol,
+.mktoFieldWrap,
+.mktoField,
+.mktoButtonRow,
+.mktoButton {
+  width: 100% !important;
+}
+
+.mktoOffset, .mktoGutter {
+  width: 0 !important;
+}

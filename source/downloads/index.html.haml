@@ -1,0 +1,189 @@
+---
+layout: default
+title: Download GitLab Community Edition (CE)
+extra_css:
+  - downloads.css
+extra_js:
+  - downloads.js
+platforms:
+- name: ubuntu1204
+  long_name: Ubuntu 12.04
+  download_command: curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/precise/gitlab-ce-XXX.deb/download
+                    dpkg -i gitlab-ce-XXX.deb
+  dependency_commands: |
+                     sudo apt-get install curl openssh-server ca-certificates postfix
+- name: ubuntu1404
+  long_name: Ubuntu 14.04 (recommended, for 15.04 select and download the package manually)
+  download_command: curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/trusty/gitlab-ce-XXX.deb/download
+                    dpkg -i gitlab-ce-XXX.deb
+  dependency_commands: |
+                    sudo apt-get install curl openssh-server ca-certificates postfix
+
+- name: debian7
+  long_name: Debian 7
+  download_command: curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/debian/wheezy/gitlab-ce-XXX.deb/download
+                    dpkg -i gitlab-ce-XXX.deb
+  dependency_commands: |
+                    sudo apt-get install curl openssh-server ca-certificates postfix
+- name: debian8
+  long_name: Debian 8
+  download_command: curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/debian/jessie/gitlab-ce-XXX.deb/download
+                    dpkg -i gitlab-ce-XXX.deb
+  dependency_commands: |
+                    sudo apt-get install curl openssh-server ca-certificates postfix
+- name: centos6
+  long_name: CentOS 6 (and RedHat/Oracle/Scientific Linux 6)
+  download_command: curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
+  install_commands: |
+                    sudo yum install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/el/6/gitlab-ce-XXX.rpm/download
+                    rpm -i gitlab-ce-XXX.rpm
+  dependency_commands: |
+                    sudo yum install curl openssh-server openssh-clients postfix cronie
+                    sudo service postfix start
+                    sudo chkconfig postfix on
+
+  firewall_open: sudo lokkit -s http -s ssh
+- name: centos7
+  long_name: CentOS 7 (and RedHat/Oracle/Scientific Linux 7)
+  download_command: curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
+  install_commands: |
+                    sudo yum install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/el/7/gitlab-ce-XXX.rpm/download
+                    rpm -i gitlab-ce-XXX.rpm
+  dependency_commands: |
+                    sudo yum install curl policycoreutils openssh-server openssh-clients
+                    sudo systemctl enable sshd
+                    sudo systemctl start sshd
+                    sudo yum install postfix
+                    sudo systemctl enable postfix
+                    sudo systemctl start postfix
+  firewall_open: |
+                    sudo firewall-cmd --permanent --add-service=http
+                    sudo systemctl reload firewalld
+- name: raspberrypi2
+  long_name: Raspberry PI 2 on Raspbian
+  download_command: |
+                    sudo curl -sS https://packages.gitlab.com/install/repositories/gitlab/raspberry-pi2/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/raspberry-pi2/packages/raspbian/(wheezy|jessie)/gitlab-ce-XXX.deb/download
+                    dpkg -i gitlab-ce-XXX.deb
+  dependency_commands: |
+                    sudo apt-get install curl openssh-server ca-certificates postfix apt-transport-https
+                    curl https://packages.gitlab.com/gpg.key | sudo apt-key add -
+
+
+---
+
+.wrapper.container
+  .row.graphic-menu
+    .col-md-3.hidden-sm.hidden-xs
+      %img.img-responsive.pack-fox{:src => "/images/downloads/logo.svg"}/
+      %p.newsletter-preamble
+        Sign up for our monthly newsletter to stay up-to-date with new features, security updates
+        and product releases.
+      %script{:src => "//app-ab13.marketo.com/js/forms2/js/forms2.min.js"}
+      %form#mktoForm_1070
+      :javascript
+        MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1070);
+    .col-md-9
+      .installation-instructions
+        %h2.heavy
+          Install a GitLab CE Omnibus package on
+        .btn-group
+          %button.btn.btn-default.dropdown-toggle.btn-lg{"data-toggle" => "dropdown", :onclick => "_gaq.push(['_trackEvent', 'Downloads', 'OS Select', 'Dropdown Open']);", :type => "button"}
+            Select Operating System
+            %span.caret
+          %ul.dropdown-menu{:role => "menu"}
+            - current_page.data.platforms.each do |platform|
+              %li
+                %a{:href => "##{platform.name}", :onclick => "_gaq.push(['_trackEvent', 'Downloads', 'OS Select', '#{platform.name}']);"}
+                  = platform.long_name
+      #tabs
+        - current_page.data.platforms.each do |platform|
+          .tab{:id => platform.name}
+            .tab-step
+              %p
+                %i.glyphicons-circle_info.green
+                Check if your server meets
+                %a.green{:href => "http://doc.gitlab.com/ce/install/requirements.html"} the hardware requirements.
+                GitLab packages are built for 64bit systems. For 32bit OS, consider
+                %a.green{:href => "https://about.gitlab.com/installation/"} alternative installation methods.
+            .tab-step
+              %h4
+                1. Install and configure the necessary dependencies
+              %p
+                If you install Postfix to send email please select 'Internet Site' during setup.
+                Instead of using Postfix you can also use Sendmail or
+                %a{:href => "https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/settings/smtp.md"}
+                configure a custom SMTP server
+                %a{:href => "https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/settings/smtp.md#smtp-on-localhost"}
+                configure it as an SMTP server.
+              %p
+                On Centos 6 and 7, the commands below will also open HTTP and SSH access in the system firewall.
+              %p
+                %pre
+                  = platform.dependency_commands
+                  = platform.firewall_open
+            .tab-step
+              %h4
+                2. Add the GitLab package server and install the package
+              %p
+                %pre
+                  = platform.download_command
+                If you are not comfortable installing the repository through a piped script, you can find the
+                %a{:href => "https://packages.gitlab.com/gitlab/gitlab-ce/install"}
+                entire script here
+                %a{:href => "https://packages.gitlab.com/gitlab/gitlab-ce"}
+                select and download the package manually
+                and install using
+                %pre
+                  = platform.install_commands_manual
+            .tab-step
+              %h4
+                3. Configure and start GitLab
+              %p
+                %pre
+                  sudo gitlab-ctl reconfigure
+              .tab-step
+                %h4
+                  4. Browse to the hostname and login
+                %p
+                  Username:
+                  %code root
+                  %br
+                  Password:
+                  %code 5iveL!fe
+            .tab-step
+              %p
+                %i.glyphicons-circle_info.green
+                For configuration and troubleshooting options please see the
+                %a.green{:href => "http://doc.gitlab.com/omnibus/"}
+                Omnibus GitLab documentation
+            .tab-step
+              %p
+                Tweet about it!
+              %a.twitter-share-button{:href => "https://twitter.com/share", :data => {:url => "https://about.gitlab.com", :text => "I just installed GitLab: open source software to collaborate on code. Check it out!", :via => "gitlab", :size => "large"}}
+                Tweet about it!
+              :javascript
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');

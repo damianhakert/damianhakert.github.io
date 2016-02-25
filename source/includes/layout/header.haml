@@ -33,3 +33,10 @@
         %li
           %a.sign-in-up-btn{:href => "https://gitlab.com/users/sign_in", :onclick => "_gaq.push(['_trackEvent', 'Top navigation', 'Sign in']);"}
             Sign Up
+- if !current_page.data.suppress_header
+  .simple-header
+    .container
+      .row
+        .col-sm-12.col-md-12
+          %h1
+            = current_page.data.title
