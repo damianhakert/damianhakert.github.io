@@ -11,7 +11,7 @@ We want to meet each developer where they are now, and help them be the most eff
 
 We also want to address the whole organization, whether they are technical or non-technical; at the coal-face of development or in decision making roles. GitLab is not only used for code development and review. Those same tools are used by team members to track progress, create documentation and collaborate on projects.
 
-In Phil Leggetter's [DevRelOMeter](http://www.leggetter.co.uk/2016/02/03/defining-developer-relations.html) we fall mostly on the "evangelism" side. 
+In Phil Leggetter's [DevRelOMeter](http://www.leggetter.co.uk/2016/02/03/defining-developer-relations.html) we fall mostly on the "evangelism" side.
 
 ## Current activities
 
@@ -36,6 +36,7 @@ Some content from Heather McNamee her presentation [Developer Marketing Brainsto
 
 * A reliable publishing schedule on the blog
 * The content doesn't have to be about GitLab, it can also be other content aimed at developers, Hacker News or team leads.
+* When submitting to Hacker News please add a ? to the url and do not announce it anywhere to prevent setting off the voting ring detector.
 * You need to have high quality and high volume, great times are in the [Priceonomics content marketing handbook](http://priceonomics.com/the-content-marketing-handbook/).
 * What worked for Apigee was the 'collaboration in the 21st century' theme
 * Videos with good screencasts, great subtitles, and narratives are expensive but popular, and hard to copy (what does happens to written content), Realm.io does a lot of good videos, for example [about Swift](https://realm.io/news/top-5-swift-videos-of-2014/)
