@@ -3,7 +3,11 @@
 
 %title
   -
-  #{current_page.data.title} | GitLab
+  #{current_page.data.title}
+  \|
+  = data.site.title
+
+= partial "includes/layout/meta"
 
 %link{:rel => "alternate", :type => "application/atom+xml", :title => "Blog", :href => "/atom.xml"}
 

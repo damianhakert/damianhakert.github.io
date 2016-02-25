@@ -321,11 +321,7 @@
 
   .testimonials-item-image {
     margin-bottom: 10px;
-    max-width: 150px;
-
-    @media (min-width: 990px) {
-      max-width: 200px;
-    }
+    width: 200px;
   }
 
   .testimonials-item-content {
@@ -341,6 +337,7 @@
   }
 
   .slick-slide {
+    height: auto;
     outline: none;
   }
 
