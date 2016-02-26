@@ -108,15 +108,18 @@
   .featured-item-icon {
     display: none;
     margin-bottom: 10px;
-    color: $color-secondary;
     font-size: 56px;
 
     @media (min-width: 768px) {
-      display: block;
+      display: inline-block;
     }
 
     @media (min-width: 1200px) {
       margin-bottom: 25px;
+    }
+
+    path {
+      fill: $color-secondary;
     }
   }
 
@@ -210,8 +213,11 @@
 
   .what-is-item-icon {
     margin-bottom: 10px;
-    color: $color-secondary-alt;
     font-size: (56px / 16px) * 1em;
+
+    path {
+      fill: $color-secondary-alt;
+    }
   }
 
   .what-is-item-title {

@@ -1,11 +1,11 @@
-%script{:src => "/javascripts/libs/jquery.min.js"}
-%script{:src => "/javascripts/libs/bootstrap.min.js"}
-%script{:src => "/javascripts/libs/jqBootstrapValidation.js"}
-%script{:src => "/javascripts/libs/jquery.magnific-popup.min.js"}
-%script{:src => "/javascripts/scripts.js"}
+= javascript_include_tag "libs/jquery.min.js"
+= javascript_include_tag "libs/bootstrap.min.js"
+= javascript_include_tag "libs/jqBootstrapValidation.js"
+= javascript_include_tag "libs/jquery.magnific-popup.min.js"
+= javascript_include_tag "scripts.js"
 - if current_page.data.extra_js
   - current_page.data.extra_js.each do |js_name|
-    %script{:src => "/javascripts/#{js_name}"}
+    = javascript_include_tag "#{js_name}"
 
 :javascript
   $.ajax({

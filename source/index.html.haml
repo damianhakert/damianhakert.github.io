@@ -19,7 +19,7 @@ extra_js:
     .row.animated
       .col-md-4
         .featured-item
-          %i.fa.fa-download.featured-item-icon
+          = icon "ce", "featured-item-icon", {width: 56, height: 56, label: "GitLab CE"}
           %h2.featured-item-headline
             GitLab CE
           %h3.featured-item-headline-small
@@ -30,7 +30,7 @@ extra_js:
             Download
       .col-md-4
         .featured-item
-          %i.fa.fa-plus.featured-item-icon
+          = icon "ee", "featured-item-icon", {width: 56, height: 56, label: "GitLab EE"}
           %h2.featured-item-headline
             GitLab EE
           %h3.featured-item-headline-small
@@ -41,7 +41,7 @@ extra_js:
             Pricing
       .col-md-4
         .featured-item
-          %i.fa.fa-cloud.featured-item-icon
+          = icon "com", "featured-item-icon", {width: 56, height: 56, label: "GitLab.com"}
           %h2.featured-item-headline
             GitLab.com
           %h3.featured-item-headline-small
@@ -55,7 +55,7 @@ extra_js:
     .row
       .col-sm-6.col-md-4.what-is-item-holder
         .what-is-item
-          %i.fa.fa-rocket.what-is-item-icon
+          = icon "community", "what-is-item-icon", {width: 56, height: 56, label: "Community"}
           %h3.what-is-item-title
             Feature-Packed
           .what-is-item-content
@@ -71,7 +71,7 @@ extra_js:
               \: GitLab has integrations for tons of tools such as Slack, Hipchat, LDAP, JIRA, Jenkins, many types of hooks and a complete API.
       .col-sm-6.col-md-4.what-is-item-holder
         .what-is-item
-          %i.fa.fa-gears.what-is-item-icon
+          = icon "contribute", "what-is-item-icon", {width: 56, height: 56, label: "Contribute"}
           %h3.what-is-item-title
             Everyone can contribute
           .what-is-item-content
@@ -81,7 +81,7 @@ extra_js:
               Nam dignissim nisl pellentesque tempor placerat. Vivamus sem sapien, cursus vel porttitor at, semper a mauris. Proin venenatis cursus tellus at tristique. Morbi sollicitudin tortor id magna lacinia, pharetra auctor dui ullamcorper. Sed fermentum sodales placerat. Suspendisse scelerisque sit amet diam et tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       .col-sm-12.col-md-4.what-is-item-holder
         .what-is-item
-          %i.fa.fa-globe.what-is-item-icon
+          = icon "release", "what-is-item-icon", {width: 56, height: 56, label: "Release"}
           %h3.what-is-item-title
             We are never done
           .what-is-item-content
@@ -89,22 +89,5 @@ extra_js:
               Nam dignissim nisl pellentesque tempor placerat. Vivamus sem sapien, cursus vel porttitor at, semper a mauris. Proin venenatis cursus tellus at tristique. Morbi sollicitudin tortor id magna lacinia, pharetra auctor dui ullamcorper. Sed fermentum sodales placerat. Suspendisse scelerisque sit amet diam et tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             %p
               Nam dignissim nisl pellentesque tempor placerat. Vivamus sem sapien, cursus vel porttitor at, semper a mauris. Proin venenatis cursus tellus at tristique. Morbi sollicitudin tortor id magna lacinia, pharetra auctor dui ullamcorper. Sed fermentum sodales placerat. Suspendisse scelerisque sit amet diam et tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-.organizations.text-center
-  .container
-    %h2.organizations-title
-      GitLab is used by more than 100,000 organizations
-    .row
-      - data.organizations.each do |organization|
-        .col-xs-4.col-sm-4.col-md-3.col-lg-2.organizations-logo
-          %img{:alt => organization.name, :src => organization.logo}
-    %small.organizations-disclaimer
-      All logos and trademarks are the property of their respective owners.
-.testimonials
-  #js-testimonials-slider.container
-    - data.testimonials.each do |testimonial|
-      .testimonials-item.text-center
-        %a.testimonials-item-link{:href => testimonial.link}
-          %img.testimonials-item-image{:alt => "", :src => testimonial.logo}
-        .row
-          %blockquote.col-md-8.col-md-push-2.testimonials-item-content
-            = testimonial.quote
+= partial "includes/organizations/grid"
+= partial "includes/testimonials/slider"
