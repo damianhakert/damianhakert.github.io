@@ -94,14 +94,19 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 
 ## Getting Contracts Ready<a name="prep-contracts"></a>
 
-Once a new team member is to be added in an employee or contractor capacity,
-fill out the [New Contract form](https://docs.google.com/a/gitlab.com/forms/d/19sPOZW8rnBTnyvj3BR4-ZMksLeMnTjkbpCZUsfUDVy4/viewform)
-with pertinent details. This pings the [People Operations Administrator]
-(https://about.gitlab.com/jobs/people-operations-administrator), [Administrative 
-Coordinator](https://about.gitlab.com/jobs/administrative-coordinator), and [COO](https://about.gitlab.com/jobs/chief-operating-officer) 
-who coordinate amongst themselves who actually prepares the requested contract.
+Offers made to new team members should be documented in the email thread between the 
+person authorized to make the offer (e.g. CEO) and the applicant. 
 
-Our template contracts are posted on the [Contracts page](https://about.gitlab.com/handbook/contracts).
+1. In the email confirmation of the offer, 
+put the [People Operations email alias](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#) in the cc. 
+1. One person from People Operations then responds to the 
+thread to confirm that they will take over to make sure that the contract is made. 
+1. The relevant person from People Operations makes the contract based on the details found in the Workable 
+platform, and follows up with the applicant / hiring manager (keeping both in the loop at all times) for 
+specific pieces of information that may be missing.
+
+Note for People Operations: the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the 
+[Contracts page](https://about.gitlab.com/handbook/contracts). 
 
 ## Who Reviews and Who Signs Contracts<a name="contract-review"></a>
 
