@@ -97,7 +97,7 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 Offers made to new team members should be documented in the email thread between the
 person authorized to make the offer (e.g. CEO) and the applicant.
 
-1. Email example: We would love to have you as part of our team. You will have position of service engineer. As a contractor you will invoice USD 2000 per month. You will report to the CEO. We will send you a contract on Monday based on the examples on https://about.gitlab.com/handbook/contracts/. If you have not received anything on that day please reply-to-all to let us know. Please let us know if you have any questions or concerns in the meantime.
+1. Email example: "We would love to have you as part of our team. You will have a position of [job title]. As a contractor you will invoice [monthly rate] per month. You will report to the [manager]. We will send you a contract on Monday based on the examples on https://about.gitlab.com/handbook/contracts/. If you have not received anything on that day please reply-to-all to let us know. Please let us know if you have any questions or concerns in the meantime."
 1. In the email confirmation of the offer,
 put the People Operations email alias (which can be found in the "GitLab Email Forwarding" google doc) in the cc.
 1. One person from People Operations will reply-to-all to everyone in the thread (including the applicant) to confirm that they will make the contract.
