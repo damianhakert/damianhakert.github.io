@@ -1,3 +1,18 @@
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  while (0 !== currentIndex) {
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+
 $(function () {
   var $slider = $('#js-testimonials-slider');
 
@@ -11,19 +26,23 @@ $(function () {
   var $community = $('#js-landing-community');
 
   if ($community.length) {
-    var count = 200;
+    // Get JSON
+    $.getJSON('/team.json', function (d) {
+      var team = shuffle(d.concat(d.concat(d)));
 
-    for (var i = 0; i < count; i++) {
-      var $img = $('<img />', {
-        src: 'http://placehold.it/100x100',
-        class: 'community-image',
-        style: 'display: none;'
-      });
-      $img.on('load', function () {
-        $(this).fadeIn();
-      });
+      $.each(team, function () {
+        var $img = $('<img />', {
+          src: '/images/team/' + this.picture
+        });
+        $img.on('load', function () {
+          var $this = $(this);
+          setTimeout(function () {
+            $this.addClass('is-loaded');
+          }, 1000);
+        });
 
-      $community.append($img);
-    }
+        $community.append($('<div class="community-image">').append($img));
+      });
+    });
   }
 });
