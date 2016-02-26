@@ -16,7 +16,7 @@ title: "Hiring"
 The CEO needs to authorize any new job positions/searches, and agree on the proposed hiring team.
 
 1. Define hiring team. Roles can be assigned fluidly (see below for the [Hiring Process](#hiring-process)), depending on who is available, bearing in
-mind that the most time consuming aspect tends to be review of the first wave of applicants.    
+mind that the most time consuming aspect tends to be review of the first wave of applicants.
 1. Create the job description on our website, and in Workable
     1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`
     1. Add a job of the exact same job title on [Workable](https://gitlab.workable.com/backend)
@@ -50,7 +50,7 @@ require [technical interviews](https://about.gitlab.com/jobs/#technical-intervie
 Some further guidelines around the hiring process:
 
 - For female candidates, include at least one interview with a female GitLab team member.
-- At any time during this process the applicant can be rejected (and should always be notified of this). 
+- At any time during this process the applicant can be rejected (and should always be notified of this).
 - If the applicant asks for further feedback always offer frank feedback. This is hard, but it is part of our company values.
 
 ## Screening Call<a name="screening-call"></a>
@@ -94,18 +94,18 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 
 ## Getting Contracts Ready<a name="prep-contracts"></a>
 
-Offers made to new team members should be documented in the email thread between the 
-person authorized to make the offer (e.g. CEO) and the applicant. 
+Offers made to new team members should be documented in the email thread between the
+person authorized to make the offer (e.g. CEO) and the applicant.
 
-1. In the email confirmation of the offer, 
-put the People Operations email alias (which can be found in the "GitLab Email Forwarding" google doc) in the cc. 
-1. One person from People Operations then responds to the 
-thread to confirm that they will make the contract. 
-1. This person from People Operations makes the contract based on the details found in the Workable 
-platform, and uses reply-all to gather any missing pieces of information, and to confirm when the contract is made.
+1. Email example: We would love to have you as part of our team. You will have position of service engineer. As a contractor you will invoice USD 2000 per month. You will report to the CEO. We will send you a contract on Monday based on the examples on https://about.gitlab.com/handbook/contracts/. If you have not received anything on that day please reply-to-all to let us know. Please let us know if you have any questions or concerns in the meantime.
+1. In the email confirmation of the offer,
+put the People Operations email alias (which can be found in the "GitLab Email Forwarding" google doc) in the cc.
+1. One person from People Operations will reply-to-all to everyone in the thread (including the applicant) to confirm that they will make the contract.
+1. This person from People Operations makes the contract based on the details found in the Workable
+platform, and uses reply-all to gather any missing pieces of information, and to confirm with a reply-to-all when the contract is send.
 
-Note for People Operations: the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the 
-[Contracts page](https://about.gitlab.com/handbook/contracts). 
+Note for People Operations: the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
+[Contracts page](https://about.gitlab.com/handbook/contracts).
 
 ## Who Reviews and Who Signs Contracts<a name="contract-review"></a>
 
@@ -117,7 +117,6 @@ after which it can be sent out to be signed by any of the relevant C-level team
 members.
 * For any hires for which the COO should sign, either the CFO or the CEO must
 review the contracts.
-
 
 ## Onboarding<a name="move-to-onboarding"></a>
 
