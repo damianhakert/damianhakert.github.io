@@ -149,7 +149,9 @@ We're a **distributed**, **remote-first** company where people work remote witho
 For this, we use **asynchronous communication** and are as open as we can be by communicating through public issues, chat channels,
 and placing an emphasis on ensuring that conclusions of offline conversations are written down.
 These communication guidelines are meant to facilitate smooth communication in an
-ever-growing remote-first company.
+ever-growing remote-first company. 
+Please keep in mind that you represent GitLab and our culture, also on Social Media. 
+When commenting on posts please keep in mind: "Don't argue but represent."
 
 ### Internal Communication<a name="internal-communication"></a>
 
