@@ -198,7 +198,6 @@ ul {
     -ms-filter: grayscale(85%);
     -o-filter: grayscale(85%);
     filter: grayscale(85%);
-    filter: filter: grayscale(85%);
     filter: gray;
     transition: 0.2s ease;
   }

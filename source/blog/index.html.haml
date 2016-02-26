@@ -16,8 +16,9 @@ suppress_header: true
       %li.post-list-item
         %a{:href => post.url}
           = post.title
-        %time
-          = post.date.strftime '%b %e, %Y'
+        - if post.date
+          %time
+            = post.date.to_time.strftime '%b %e, %Y'
   %p
     \→
     %a{:href => "/blog/archives.html"} Browse the archives

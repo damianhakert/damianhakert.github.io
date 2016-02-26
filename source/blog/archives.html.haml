@@ -9,5 +9,6 @@ title: Blog archives
       %li
         = link_to post.url do
           = post.title
-        %time
-          = post.date.strftime '%b %e, %Y'
+        - if post.date
+          %time
+            = post.date.to_time.strftime '%b %e, %Y'

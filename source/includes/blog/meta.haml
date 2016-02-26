@@ -1,3 +1,4 @@
 %h4.meta.date
   = partial "includes/blog/author", locals: {post: post}
-  = post.date.strftime '%b %e, %Y'
+  - if post.date
+    = post.date.to_time.strftime '%b %e, %Y'

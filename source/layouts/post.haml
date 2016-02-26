@@ -13,12 +13,14 @@
             = current_page.data.title
           %h4.date
             = partial "includes/blog/author", locals: {post: current_page}
-            = current_page.data.date.strftime '%b %e, %Y'
+            - if current_page.data.date
+              = current_page.data.date.to_time.strftime '%b %e, %Y'
           %hr.blog-title-divider
         - else
           %h4.date
             = partial "includes/blog/author", locals: {post: current_page}
-            = current_page.data.date.strftime '%b %e, %Y'
+            - if current_page.data.date
+              = current_page.data.date.to_time.strftime '%b %e, %Y'
         = yield
         = partial "includes/download"
         %hr
