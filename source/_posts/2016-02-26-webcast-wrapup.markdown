@@ -6,7 +6,7 @@ comments: true
 categories: webcast
 author: Heather McNamee
 author_twitter: nearlythere
-image_title: '/unsplash/stars.png'
+image_title: '/images/unsplash/stars.png'
 ---
 
 In our latest webcast, we highlighted the new features in [GitLab 8.5](https://about.gitlab.com/2016/02/22/gitlab-8-5-released/).
