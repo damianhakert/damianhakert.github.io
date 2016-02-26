@@ -98,12 +98,11 @@ Offers made to new team members should be documented in the email thread between
 person authorized to make the offer (e.g. CEO) and the applicant. 
 
 1. In the email confirmation of the offer, 
-put the [People Operations email alias](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#) in the cc. 
+put the People Operations email alias (which can be found in the "GitLab Email Forwarding" google doc) in the cc. 
 1. One person from People Operations then responds to the 
-thread to confirm that they will take over to make sure that the contract is made. 
-1. The relevant person from People Operations makes the contract based on the details found in the Workable 
-platform, and follows up with the applicant / hiring manager (keeping both in the loop at all times) for 
-specific pieces of information that may be missing.
+thread to confirm that they will make the contract. 
+1. This person from People Operations makes the contract based on the details found in the Workable 
+platform, and uses reply-all to gather any missing pieces of information, and to confirm when the contract is made.
 
 Note for People Operations: the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the 
 [Contracts page](https://about.gitlab.com/handbook/contracts). 
