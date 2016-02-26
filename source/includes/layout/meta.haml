@@ -1,8 +1,6 @@
 - description = current_page.data.description
 - if description
   %meta{name: "description", content: description}
-- else
-  %meta{name: "description", content: current_page.data.content}
 
 %meta{content: data.site.title, property: "og:site_name"}
 - if current_page.data.title
