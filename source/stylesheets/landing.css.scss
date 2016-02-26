@@ -47,6 +47,19 @@
 
   .landing-hero {
     margin-bottom: 30px;
+
+    .illustration-stroke {
+      fill: transparent;
+      stroke: $color-secondary;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10;
+    }
+
+    .illustration-fill {
+      fill: $color-secondary;
+    }
   }
 }
 
@@ -170,10 +183,12 @@
       line-height: 40px;
     }
 
-    &:hover {
+    &:hover,
+    &:focus {
       color: #fff;
       background-color: $color-secondary;
       text-decoration: none;
+      outline: 0;
     }
   }
 }

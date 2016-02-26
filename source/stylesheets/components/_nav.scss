@@ -8,6 +8,21 @@
     }
   }
 
+  .navbar-brand {
+    .wordmark {
+      transition: fill .3s;
+    }
+
+    &:focus,
+    &:hover {
+      outline: 0;
+
+      .wordmark {
+        fill: $color-primary-alt;
+      }
+    }
+  }
+
   .navbar-nav {
     @media (min-width: 768px) {
       float: right;
@@ -16,8 +31,6 @@
     > li {
       > a {
         font-size: 16px;
-        font-weight: 600;
-        padding-top: 18px;
         padding-left: 30px;
         padding-right: 30px;
 
@@ -40,13 +53,16 @@
           border-radius: 3px;
           padding: 4px 20px;
           margin-left: 10px;
-          margin-top: 12px;
+          margin-top: 10px;
           background-color: #fff;
           color: #554488;
+          font-weight: 600;
 
-          &:hover {
+          &:hover,
+          &:focus {
             background-color: #554488;
             color: #fff;
+            outline: 0;
           }
         }
 
