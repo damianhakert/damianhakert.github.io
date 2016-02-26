@@ -47,8 +47,11 @@ require [technical interviews](https://about.gitlab.com/jobs/#technical-intervie
 1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
 1. Hiring manager ensures that the contract is signed, and [starts the onboarding process](#move-to-onboarding) (the People Ops team can help).
 
-At any time during this process the applicant can be rejected (and should always be notified of this). If the
-applicant asks for further feedback always offer frank feedback. This is hard, but it is part of our company values.
+Some further guidelines around the hiring process:
+
+- For female candidates, include at least one interview with a female GitLab team member.
+- At any time during this process the applicant can be rejected (and should always be notified of this).
+- If the applicant asks for further feedback always offer frank feedback. This is hard, but it is part of our company values.
 
 ## Screening Call<a name="screening-call"></a>
 
@@ -94,8 +97,8 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 Once a new team member is to be added in an employee or contractor capacity,
 fill out the [New Contract form](https://docs.google.com/a/gitlab.com/forms/d/19sPOZW8rnBTnyvj3BR4-ZMksLeMnTjkbpCZUsfUDVy4/viewform)
 with pertinent details. This pings the [People Operations Administrator]
-(https://about.gitlab.com/jobs/people-operations-administrator), [Administrative 
-Coordinator](https://about.gitlab.com/jobs/administrative-coordinator), and [COO](https://about.gitlab.com/jobs/chief-operating-officer) 
+(https://about.gitlab.com/jobs/people-operations-administrator), [Administrative
+Coordinator](https://about.gitlab.com/jobs/administrative-coordinator), and [COO](https://about.gitlab.com/jobs/chief-operating-officer)
 who coordinate amongst themselves who actually prepares the requested contract.
 
 Our template contracts are posted on the [Contracts page](https://about.gitlab.com/handbook/contracts).

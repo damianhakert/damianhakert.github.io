@@ -1,3 +1,7 @@
+---
+layout: markdown_page
+title: Leadership
+---
 ## Behaviour
 
 - As a leader new team members will look up to you and will follow your behaviour.
@@ -7,4 +11,3 @@
 
 - High output management - Andrew Grove
 - The Hard thing about hard things - Ben Horowitz
-

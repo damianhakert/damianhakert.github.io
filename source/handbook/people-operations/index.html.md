@@ -2,14 +2,19 @@
 layout: markdown_page
 title: "People Operations"
 ---
+
+To reach People Operations, please post an issue on our [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/)
+and add the 'PeopleOps' label, or send an email to the People Operations group (see the [sheet with aliases](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#)), or ping an individual
+member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
+
 ## Administrative details of benefits for US-based employees
 
-### 401k 
+### 401k
 
 1. You are eligible to participate in GitLab’s 401k as of the 1st of the month after your hire date.  
-1. You will receive a notification on your homepage in Trinet Passport once eligible, 
-if you follow the prompts it will take you to the Transamerica website https://www.ta-retirement.com/ 
-or skip logging in to Trinet Passport and go directly to https://www.ta-retirement.com/ 
+1. You will receive a notification on your homepage in Trinet Passport once eligible,
+if you follow the prompts it will take you to the Transamerica website https://www.ta-retirement.com/
+or skip logging in to Trinet Passport and go directly to https://www.ta-retirement.com/
 after the 1st of the month after your hire date.
 1. Once on the home page of https://www.ta-retirement.com/ go to "First Time User Register Here".  
 1. You will be prompted for the following information
@@ -17,7 +22,7 @@ after the 1st of the month after your hire date.
    1. Social Security Number
    1. Date of Birth
    1. Zip Code  
-1. Once inside the portal you may elect your annual/pay-period contributions, and Investments. 
+1. Once inside the portal you may elect your annual/pay-period contributions, and Investments.
 
 
 

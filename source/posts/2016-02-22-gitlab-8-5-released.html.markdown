@@ -152,8 +152,8 @@ The upgrade path from GitLab 8.3 to 8.5 has changed quite a bit and we added
 new comprehensive documentation how GitLab Pages work and the multiple ways to
 set them up.
 
-For GitLab.com users: We plan to enable custom domains on GitLab.com in the
-following week, so stay tuned!
+For GitLab.com users: Pages with CNAME and TLS support are fully live and
+ready to use!
 
 > [Learn how to setup your own page in our Gitlab Pages user documentation](http://doc.gitlab.com/ee/pages/README.html)
 

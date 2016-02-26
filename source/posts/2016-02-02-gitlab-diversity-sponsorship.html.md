@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab Offer Sponsorship of $500 for Diversity Events outside New York and Bay Area"
+title: "GitLab Offer Sponsorship of $500 for Diversity Events"
 date: 2016-02-02
 comments: true
 categories: community
@@ -8,9 +8,9 @@ author: Ashley Smith
 author_twitter: unquietone
 image_title: /images/community/love-the-sun-gitlab.jpg
 ---
+Note: An earlier version of this post opened this sponsorship to anyone outside of New York and the Bay Area but we've removed that restriction.   
 
-Improving diversity in tech has become an important issue around the Bay Area
-and New York in the last few years.
+Improving diversity in tech has become an important issue in the last few years.
 Organizations and events tailored specifically for underrepresented groups
 are getting increasingly popular and it has been amazing to watch the progress
 in the tech world. While we aren’t completely on equal footing yet,
@@ -21,7 +21,7 @@ help broaden that reach to beyond the major tech centers of the U.S.
 <!--more-->
 
 In order to help to expand these initiatives, we’re offering $500 to any
-diversity in tech event located outside the New York and the Bay Area.
+diversity in tech event globally.
 In order to gain sponsorship, please email us at community@gitlab.com with
 the subject line “Diversity in tech” and include details about your event with a link to registration and any supporting documentation.
 You can also review our [community sponsorship program and complete the form there](https://about.gitlab.com/community/sponsorship/).
