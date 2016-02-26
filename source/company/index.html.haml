@@ -1,0 +1,48 @@
+---
+layout: default
+title: Company
+suppress_header: true
+extra_css:
+  - company.css
+extra_js:
+  - company.js
+---
+.company.wrapper
+  .container
+    .row
+      .col-sm-6.col-md-4
+        %a{:href => "/blog"}
+          %img#blog_page{:src => "/images/icons/blog.png"}/
+          %h2 Blog
+          %p The latest news.
+      .col-sm-6.col-md-4
+        %a{:href => "/press"}
+          %img#press{:src => "/images/icons/press.png"}/
+          %h2 Press
+          %p Information for journalists.
+      .col-sm-6.col-md-4
+        %a{:href => "/about"}
+          %img#about_us{:src => "/images/icons/about_us.png"}/
+          %h2 About Us
+          %p The vision of GitLab B.V..
+      .col-sm-6.col-md-4
+        %a{:href => "/team"}
+          %img#team{:src => "/images/icons/team_alt.png"}/
+          %h2 Team
+          %p Meet our team.
+      .col-sm-6.col-md-4
+        %a{:href => "/jobs"}
+          %img#jobs{:src => "/images/icons/jobs.png"}/
+          %h2 Jobs
+          %p Join our team.
+      .col-sm-6.col-md-4
+        %a{:href => "/terms"}
+          %img#terms{:src => "/images/icons/terms.png"}/
+          %h2 Terms
+          %p Terms, conditions and policies.
+      .clearfix.visible-sm-block
+      .col-sm-6.col-md-4
+        %a{:href => "/contact"}
+          %img#contact_us{:src => "/images/icons/contact_us.png"}/
+          %h2 Contact Us
+          %p How to get in touch.

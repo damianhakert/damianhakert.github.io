@@ -1,0 +1,285 @@
+---
+layout: default
+title: GitLab compared to other tools
+suppress_header: true
+extra_css:
+  - comparison.css
+---
+.row
+  .hidden-xs.hidden-sm.col-md-3
+    .navigation-wrapper
+      .navigation-reasons
+        %ul
+          %li
+            %a{:href => "#gitlab-ce-vs-ee"} GitLab CE vs. GitLab EE
+          %li
+            %a{:href => "#gitlab-vs-github"} GitLab vs. GitHub
+          %li
+            %a{:href => "#gitlab-ee-vs-github-enterprise"} GitLab EE vs. GitHub Enterprise
+          %li
+            %a{:href => "#gitlab-com-vs-github-com"} GitLab.com vs. GitHub.com
+          %li
+            %a{:href => "#gitlab-vs-bitbucket-server"} GitLab CE/EE vs. Bitbucket Server
+          %li
+            %a{:href => "#gitlab-vs-bitbucket-org"} GitLab.com vs. Bitbucket.org
+          %li
+            %a{:href => "#gitlab-vs-saas"} GitLab CE/EE vs. SaaS
+  .col-xs-12.col-sm-12.col-md-9
+    .wrapper
+      .heading
+        %h1 GitLab compared to other tools
+        %p.note-on-content
+          Since GitLab people wrote them the comparisons here might be biased.
+          Nonetheless we try hard to ensure the comparisons are fair and factual.
+          If you find something that is invalid, biased or out of date in the comparisons,
+          please open a
+          %a{:href => "https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests"} merge request for this website
+          to correct it.
+          As on all the pages on this website you can find a link to this page in the repository in the footer. We can help with migration services as part of a custom GitLab EE plan. Please
+          %a{:href => "https://about.gitlab.com/sales/"} contact sales
+          if you would like to learn more.
+      .title-container
+        .hr-title
+        %h3#gitlab-ce-vs-ee.title GitLab CE vs. GitLab EE
+        .hr-title
+      .list-of-reasons-container
+        %ol
+          %h4
+            To learn more about how GitLab Community Edition compares to GitLab Enterprise Edition, take a look at
+            = succeed "." do
+              %a{:href => "https://about.gitlab.com/features/#compare"} the comparison table on our features page
+      .title-container
+        .hr-title
+        %h3#gitlab-vs-github.title GitLab vs. GitHub
+        .hr-title
+      .list-of-reasons-container
+        %ol
+          %li#multiple-authentication-levels
+            %p Multiple authentication Levels
+            %p Set permissions according to people's role, rather than either read or write access to a repository. Don't share the source code with people that only need access to the issue tracker.
+            %p
+              %a{:href => "http://doc.gitlab.com/ce/permissions/permissions.html"} See the various authentication levels
+          %li#group-level-milestones
+            %p Group-level milestones
+            %p View all the issues for the milestone you’re currently working on across multiple projects.
+            %p
+              %a{:href => "https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2"} Example milestone for GitLab 8.2 (need to be logged in)
+          %li#attachments-in-issues
+            %p Attachments in issues
+            %p In GitLab you can attach any file to any issue or comment.
+          %li#innersourcing
+            %p Innersourcing
+            %p Internal projects in GitLab allow you to promote innersourcing of your internal repositories.
+            %p
+              %a{:href => "https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/"} Find out more about innersourcing
+          %li#wip-protection
+            %p Work-in-Progress Protection
+            %p
+              Simply add 'WIP' to the title of a merge request to prevent anyone from merging
+              it. This gives you all the code review power of merge requests,
+              while protecting unfinished work.
+            %p
+              %a{:href => "http://doc.gitlab.com/ce/workflow/wip_merge_requests.html"} WIP Merge documentation
+          %li#large-open-source-projects
+            %p Large open source projects
+            %p
+              GitLab is meant to be the best place for any software project.  The team
+              behind GitLab is addressing issues that maintainers and contributors to large
+              open source projects are facing, to make it easier to do both.
+            %p
+              %a{:href => "https://about.gitlab.com/2016/01/15/making-gitlab-better-for-large-open-source-projects/"} Making GitLab better for large open source projects
+          %li#powerful-issue-tracker
+            %p Powerful Issue Tracker
+            %p Quickly set the status, assignee or milestone for multiple issues at the same time or easily filter them on any properties. See milestones and issues across projects.
+          %li#commit-search
+            %p Search through Commits
+            %p
+              GitLab not only allows you to search through code, but also
+              searches through your commit messages.
+          %li#article
+            %p Don't take our word for it.
+            %p
+              Agilob contributed a
+              = succeed "." do
+                %a{:href => "https://www.b.agilob.net/choose-gitlab-for-your-next-project/"} great article about why you should choose GitLab for your next open source project
+          .title-container
+            .hr-title
+            %h3#gitlab-ee-vs-github-enterprise.title GitLab EE vs. GitHub Enterprise
+            .hr-title
+          .list-of-reasons-container
+            %ol
+            %li#Cost
+              %p Cost
+              %p
+                GitLab has the most competitive pricing model in the market and a fraction
+                of the cost of our competition. Our remote-first philosophy allow us to pass on the cost savings to our clients.
+            %li
+              %p All features mentioned in GitLab.com versus GitHub.com
+            %li#gitlab-handles-huge-repositories-well
+              %p GitLab handles huge repositories well
+              %p
+                Big repository? Huge (>5GB) binary files? No problem. GitLab is built to
+                handle very large repositories, and Git Annex and LFS are both supported.
+              %p
+                %a{:href => "https://about.gitlab.com/2015/02/17/gitlab-annex-solves-the-problem-of-versioning-large-binaries-with-git/"} Using Git Annex with GitLab
+            %li#rebase-before-merge-in-the-web-ui-to-prevent-merge-commits
+              %p Rebase before merge in the web UI to prevent merge commits
+              %p Before merging one branch in the other, GitLab can rebase it automatically.
+              %p
+                %a{:href => "https://about.gitlab.com/2014/12/22/gitlab-7-6-and-ci-5-3-released/"} See how to prevent merge commits
+            %li#access-to-the-server
+              %p Access to the server
+              %p You have complete control of the server/instance, so you can install additional software (intrusion detection, performance monitoring, etc.) and view log files on the server itself.
+              %p
+                %a{:href => "http://doc.gitlab.com/ce/logs/logs.html"} Learn more about logging
+            %li#runs-on-metal
+              %p Runs on metal
+              %p You can run GitLab fully on metal. No need for pre-supplied VMs. Run GitLab on your infrastructure, however you like.
+            %li#more-users-on-a-single-server
+              %p Run more users on a single server
+              %p A single machine server handles thousands of users and repositories
+            %li#multiple-active-servers-and-other-ha-setups
+              %p HA setups
+              %p GitLab offers multiple HA solutions, making it possible to failover easily.
+              %p
+                %a{:href => "https://about.gitlab.com/high-availability/"} More information about active servers
+            %li#run-your-own-software-on-your-instance
+              %p Run your own software on your instance
+              %p You are free to run your own software on the instance that GitLab is running on. Have your own intrusion detection system? No problem.
+            %li#use-your-configuration-management-software
+              %p Use your configuration management software
+              %p
+                Use configuration management software of your choice to manage GitLab.
+                Puppet, Chef, Ansible—it all works.
+              %p
+                %a{:href => "https://about.gitlab.com/installation/"} Read about configuration management here
+            %li#use-standard-unix-tools-for-maintenance-and-monitoring
+              %p Use standard Unix tools for maintenance and monitoring
+              %p
+                Use the tools you know for monitoring and maintenance, whether they're
+                standard or your own. GitLab doesn't restrict you.
+            %li#built-in-continuous-integration-tool
+              %p Built-in Continuous Integration tool
+              %p Easy-to-set up, performant, stable and elegant continuous integration with every GitLab installation.
+              %p
+                %a{:href => "http://doc.gitlab.com/ci/"} Learn about the benefits of our CI tool
+            %li#powerful-ad-ldap-integration
+              %p Powerful AD / LDAP integration
+              %p Sync groups, manage SSH-keys, manage permissions, authentication and more. You can manage an entire GitLab instance through the LDAP / AD integration.
+              %p
+                %a{:href => "http://doc.gitlab.com/ee/integration/ldap.html"} More information about AD / LDAP integration
+            %li#approve-merge-requests
+              %p Multiple approvals in code review
+              %p
+                To ensure strict code review, you can require a specific number of approvals
+                on a merge request by different users before being able to merge it.
+              %p
+                %a{:href => "http://doc.gitlab.com/ee/workflow/merge_request_approvals.html"} Approvals Documentation
+            %li#ease-of-migration
+              %p Ease of Migration
+              %p Easily migrate all repos and merge request data from your previous provider.
+            %li#security-and-policy-enforcement
+              %p Security and Policy enforcement
+              %p Git Hooks and Audit logs and enhanced LDAP integration give you and the added security to meet the increasing requirements of compliance teams.
+            %li#issue-weights
+              %p Issue Weights
+              %p
+                Manage issues using Agile practices by setting the weight of an issue.
+              %p
+                %a{:href => "http://doc.gitlab.com/ee/workflow/issue_weight.html"} Issue Weights Documentation
+            %li#mr-issue-templates
+              %p Merge Request  Issue Templates
+              %p Create a template for issues and merge requests in your project to ensure all information is entered correctly and to make it easy to standardise.
+              %p
+                %a{:href => "http://doc.gitlab.com/ee/customization/issue_and_merge_request_template.html"} Templates for Issues and Merge Requests Documentation
+            %li#most-installed-on-premises-git-solutions
+              %p Use the most installed on-premises Git solution
+              %p
+                GitLab is used by over 100,000 organizations worldwide,
+                on their own servers.
+        .title-container
+          .hr-title
+          %h3#gitlab-com-vs-github-com.title GitLab.com vs. GitHub.com
+          .hr-title
+        .list-of-reasons-container
+          %ol
+            %li
+              %p Everything mentioned in GitLab versus GitHub
+            %li#unlimited-public-and-private-repositories-for-free
+              %p Unlimited public  private repositories and unlimited collaborators for free.
+            %li#gitlab-ee-features-on-com
+              %p GitLab.com runs GitLab Enterprise Edition with all its features.
+            %li#free-ci
+              %p
+                GitLab.com has free
+                %a{:href => "/gitlab-ci"} GitLab CI
+                if you bring your own runner or use the shared ones.
+        .title-container
+          .hr-title
+          %h3#gitlab-vs-bitbucket-server.title GitLab CE/EE vs. Bitbucket Server
+          .hr-title
+        .list-of-reasons-container
+          %ol
+            %li#built-in-continuous-integration-tool
+              %p Built-in Continuous Integration tool
+              %p Easy-to-set up, performant, stable and elegant continuous integration with every GitLab installation.
+              %p
+                %a{:href => "http://doc.gitlab.com/ci/"} Learn about the benefits of our CI tool
+            %li#all-in-one
+              %p More value with everything you need in one solution
+              %p To replace GitLab, you'd need a combination of Bitbucket server, JIRA, Confluence, and Bamboo.
+            %li#nicer-interface
+              %p Great user interface
+              %p GitLab has a really nice user interface that your team will love, and also enjoy working with.
+            %li#integrated-issue-tracking
+              %p Integrated issue tracking
+              %p GitLab includes an issue tracker which you can link to any merge request.
+              %p
+                %a{:href => "https://gitlab.com/gitlab-org/gitlab-ce/issues"} Issue Tracker
+            %li#no-activity-feed
+              %p Better activity feed and visualization
+              %p Collaborative activity feed to help everyone understand what is happening in a project and graphical view of the commit history.
+              %p
+                %a{:href => "https://gitlab.com/gitlab-org/gitlab-ce/activity"} See Our Activity Feed
+            %li#powerful-search
+              %p Full, powerful search
+              %p
+                Search through all your code, issues, wikis, commits,
+                groups and projects. Built into GitLab.
+        .title-container
+          .hr-title
+          %h3#gitlab-vs-bitbucket-org.title GitLab.com vs. Bitbucket.org
+          .hr-title
+        .list-of-reasons-container
+          %ol
+            %li
+              %p Everything mentioned in GitLab CE/EE versus BitBucket Server
+            %li#unlimited-collaborators
+              %p Unlimited collaborators
+              %p With GitLab.com, you don't have to start paying when you have more than 5 collaborators across all your private repositories.
+        .title-container
+          .hr-title
+          %h3#gitlab-vs-saas.title GitLab CE/EE vs. SaaS
+          .hr-title
+        .list-of-reasons-container
+          %ol
+            %li#containment
+              %p Containment
+              %p Containing your company's IP behind the company's firewall gives you protection from unauthorized access. Learn from the lessons of Code Space:
+              %p
+                %a{:href => "http://www.infoworld.com/article/2608076/data-center/murder-in-the-amazon-cloud.html"} Lessons from Code Space
+            %li#integrations
+              %p Integrations
+              %p Integrating with Authentication and Authorization (LDAP / AD), issue tracking, CI, deployment and other tools such as ALM, PLM, Agile and Automation tools.
+            %li#control
+              %p Control
+              %p Take control of maintenance downtime, don't be at the mercy of your hosting provider. Control how and where your code is backed up and stored.
+            %li#choice-and-flexibility
+              %p Choice and Flexibility
+              %p GitLab CE/EE can be installed on physical servers, virtualized servers (dedicated or shared), purpose-built appliances and virtualized appliances. These aren’t available with hosted solutions. Likewise, most on-premises servers can be deployed on a variety of operating systems and there’s more choice of on-premises solutions in general.
+            %li#retrieval
+              %p Retrieval
+              %p Getting your IP back from cloud vendors that store data in proprietary formats can be a costly and lengthy process. No such trouble with GitLab CE/EE.
+            %li#in-good-company
+              %p In good company
+              %p GitLab is the most adopted on-premises solution for developer collaboration, deployed at over 100,000 organizations worldwide.

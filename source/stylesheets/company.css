@@ -1,0 +1,38 @@
+body{
+  background: #548;
+}
+
+h1 {
+  color: #FFF;
+}
+
+a {
+  color: #FFF;
+  transition: all 0.2s;
+}
+
+a p {
+  color: #BBB4CF;
+}
+
+a:hover{
+  color: #A5ABFB;
+  text-decoration: none;
+}
+
+p {
+  margin: 0px 0px 30px;
+}
+
+.company {
+  padding-top: 80px;
+  background: #548;
+  text-align: center;
+  animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+}
+
+.company img:before {
+  opacity: 0;
+}
