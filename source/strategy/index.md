@@ -177,7 +177,7 @@ We believe that all digital products should be open to contributions, from legal
 
 5. Sponsor initiatives and hire in countries that have low opportunity.
 
-## DevOps 2016
+## Production Engineering 2016
 
 1. A highly available GitLab.com that feels fast and has little downtime.
 
