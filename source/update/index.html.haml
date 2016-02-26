@@ -1,0 +1,73 @@
+---
+layout: default
+title: Update
+suppress_header: true
+extra_css:
+  - update.css
+---
+.simple-header
+  .container
+    .row
+      .col-sm-12.col-md-12
+        %h1 Update GitLab Community Edition
+.wrapper.container
+  .row.graphic-menu
+    .col-md-12
+      .row
+        .heavy.col-md-4
+          Have an Omnibus package?
+          %h5.title Used our package server on Ubuntu / Debian?
+          %p.answer
+            sudo apt-get update
+            %br/
+            sudo apt-get install gitlab-ce
+          %h5.title Used our package server on CentOS?
+          %p.answer
+            sudo yum install gitlab-ce
+          %h5.title Want to upgrade from a manually downloaded Omnibus package to package server?
+          %p.answer
+            %a.view-docs{:href => "/upgrade-to-package-repository"} View our documentation on upgrading to the package repository
+          %h5.title Want to keep using manually downloaded Omnibus packages?
+          %p.answer
+            %a.view-docs{:href => "https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update/README.md#updating-from-gitlab-66-and-higher-to-the-latest-version"} View documentation here
+        .heavy-middle.col-md-4
+          Installation from source?
+          %h5.title
+            Want to use an Omnibus package?
+          %p.answer
+            %a.view-docs{:href => "https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/update/README.md#upgrading-from-a-non-omnibus-installation-to-an-omnibus-installation"} View documentation here
+          %h5.title Want to stay on source?
+          %h5
+          %p.question Patch update?
+          %a.answer{:href => "https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/patch_versions.md"} Universal update guide for patch versions
+          %h5
+          %p.question Major/minor update?
+          %a.answer{:href => "https://gitlab.com/gitlab-org/gitlab-ce/tree/master/doc/update"} View all incremental updates
+        .col-md-4
+          .heavy
+            Bitnami or other?
+            %p.title Backup and restore to an Omnibus package
+          %a.view-docs{:href => "http://doc.gitlab.com/ce/raketasks/backup_restore.html"} View backup and restore page
+  #ee.row.graphic-menu
+    .heavy{:style => "font-size: 45px; text-align: center; margin-top: 0px;"} Upgrading (to) GitLab Enterprise Edition
+    .heavy{:style => "text-align: center; margin-top: 26px;"}
+      %h5.title{:style => "margin-bottom: 0;"}
+        Already using an Omnibus package?
+      %p.answer
+        Upgrade using the Omnibus package
+        = succeed "," do
+          %a.answer{:href => "http://doc.gitlab.com/omnibus/#updating"} upgrade documentation
+        %a.answer{:href => "https://packages.gitlab.com/gitlab/gitlab-ee"} Enterprise Edition package
+      %h5.title{:style => "margin-bottom: 0;"}
+        Upgrade your source installation to Enterprise Edition?
+      %a.answer{:href => "https://gitlab.com/gitlab-org/gitlab-ee/blob/master/doc/update/7.8-ce-to-ee.md"} See the CE to EE upgrade documentation
+      %h5.title{:style => "margin-bottom: 0;"}
+        Set up your new integrations with Jira and Jenkins
+      %p.answer
+        %a.answer{:href => "http://doc.gitlab.com/ee/integration/jira.html"} Jira integration documentation
+        and
+        %a.answer{:href => "http://doc.gitlab.com/ee/integration/jenkins.html"} Jenkins integration documentation
+      %h5#ee-downgrade.title{:style => "margin-bottom: 0;"}
+        Need to downgrade to the Community Edition?
+      %p.answer
+        %a.answer{:href => "http://doc.gitlab.com/ee/downgrade_ee_to_ce/README.html"} Downgrading from EE to CE documentation

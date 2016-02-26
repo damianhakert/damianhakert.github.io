@@ -1,0 +1,140 @@
+---
+layout: default
+title: Installation methods for GitLab
+suppress_header: true
+extra_css:
+  - installation.css
+---
+.wrapper
+  .installation-container
+    .installation-overlay
+      .installation-content
+        %h1 GitLab Installation
+        %p Below are all the options to create a GitLab installation. If you're not sure which method to choose, please use the Omnibus package installation method.
+  #content
+    .wrapper.container
+      .col-md-12.col-sm-12{:role => "main"}
+        .method
+          %h2{:id => "#omnibus"} Omnibus package installation (recommended)
+          %p
+            We recommend installing the Omnibus package instead of installing GitLab from source.
+            %a{:href => "https://twitter.com/awc737/status/517902687052898305"} Omnibus GitLab takes just 2 minutes to install
+            and is packaged in the popular deb and rpm formats.
+            Compared to an installation from source, the Omnibus package is faster to install and upgrade, more reliable to upgrade and maintain, and it shortens the response time for our subscribers' issues.
+            A package contains GitLab and all its depencies (Ruby, PostgreSQL, Redis, Nginx, Unicorn, etc.), it can be installed without an internet connection.
+            For troubleshooting and configuration options please see the
+            = succeed "." do
+              %a{:href => "https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md"} Omnibus GitLab readme
+          %ul
+            %li
+              %p
+                %a{:href => "/downloads"} GitLab Community Edition packages
+            %li
+              %p
+                %a{:href => "/downloads-ee"} GitLab Enterprise Edition packages
+        .method
+          %h2 Update your GitLab instance
+          %ul
+            %li
+              %p
+                %a{:href => "/update"} Update options
+                for GitLab Community Edition and Enterprise Edition.
+        #other-methods.method
+          %h2 Other official installation methods
+          %ul
+            %li
+              %p
+                %a{:href => "https://gitlab.com/gitlab-org/gitlab-development-kit/blob/master/README.md"} GitLab Development Kit
+                lets you install GitLab for development purposes, it is isolated in a directory and runs with a single make command
+            %li
+              %p
+                %a{:href => "https://gitlab.com/gitlab-org/cookbook-omnibus-gitlab/blob/master/README.md"} GitLab Omnibus Cookbook
+                can be used for production
+                %a{:href => "https://www.getchef.com/chef/"} Chef
+                installations
+            %li
+              %p
+                %a{:href => "https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/install/installation.md"} Installation from source guide
+                to set up a production server on Ubuntu with detailed and complete step-by-step instructions
+            %li
+              %p
+                %a{:href => "https://gitlab.com/gitlab-org/gitlab-ce/tree/master/docker"} Docker installation instructions
+                for a container based on the Omnibus packages
+        .method
+          %h2#one-click-install-providers One-click install providers
+          %p
+            One-click installers are frequently out of date and might not contain our Omnibus packages.
+            An example of this are the Bitnami packages in the past couldn't be updated and are now much harder to update than the Omnibus packages.
+            We advise to
+            %b not use one-click installers
+            but instead start an vanilla Ubuntu 14.04 instance and use the recommended Omnibus package installation.
+            This is almost as quick as a one-click install and you're sure of the latest version and easy upgrades.
+          %ul
+            %li
+              %p
+                %a{:href => "/aws"} GitLab Community Edition AWS AMI
+            %li
+              %p
+                %a{:href => "https://www.digitalocean.com/features/one-click-apps/gitlab/"} Digital Ocean 1-Click Application Install
+                gets a new server up in 55 seconds with fast SSD disks. We recommend selecting a droplet with
+                = succeed "." do
+                  %a{:href => "https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/install/requirements.md#memory"} 2GB of memory
+                %a{:href => "https://www.digitalocean.com/company/blog/host-your-git-repositories-in-55-seconds-with-gitlab/"} blog post
+                and a nice
+                %a{:href => "https://www.digitalocean.com/community/tutorials/how-to-use-the-gitlab-one-click-install-image-to-manage-git-repositories"} tutorial
+            %li
+              %p
+                %a{:href => "https://developers.google.com/cloud/gitlab/"} Google Compute Engine
+                offers a click to deploy GitLab template
+            %li
+              %p
+                %a{:href => "https://app.cloud66.com/easydeploys"} Cloud 66 deployment and management
+                to deploy GitLab to your own server or any cloud (DigitalOcean/AWS/Rackspace/GCE/etc.) and then manage it with database backups, scaling and more
+            %li
+              %p
+                %a{:href => "https://packager.io/gh/gitlabhq/gitlabhq"} Packager.io
+                provides autogenerated debian or rpm packages of GitLab for Debian, Ubuntu, and CentOS/RHEL
+            %li
+              %p
+                %a{:href => "https://twoub.io/en/templates/gitlab"} twoub
+                lets you deploy GitLab on their cloud service hosted in Germany
+        .method
+          %h2 Community installation methods
+          %ul
+            %li
+              %p
+                %a{:href => "https://gitlab.com/gitlab-org/gitlab-recipes/"} GitLab recipes
+                repository with unofficial guides for using GitLab with different software (operating systems, webservers, etc.) than the official version
+            %li
+              %p
+                %a{:href => "https://github.com/gitlabhq/gitlab-public-wiki/wiki/Unofficial-Installation-Guides"} Unofficial installation guides
+                on the public wiki to install GitLab on different operating systems
+            %li
+              %p
+                %a{:href => "https://forge.puppetlabs.com/vshn/gitlab"} Puppet module
+                by VSHN AG based on the Omnibus packages
+            %li
+              %p
+                %a{:href => "https://github.com/tuminoid/gitlab-installer"} Vagrant
+                option by Tuomo Tanskanen
+        .method
+          %h2 GitLab as a Service - Hosted GitLab
+          %ul
+            %li
+              %p
+                %a{:href => "https://gitlab.com"} GitLab.com
+                free, hosted GitLab by GitLab B.V., also the canonical location of the GitLab source code
+            %li
+              %p
+                %a{:href => "https://githost.io/"} GitHost.io
+                private, managed GitLab instances in the Cloud
+            %li
+              %p
+                %a{:href => "http://blog.geekli.st/post/79731331374/free-private-git-repositories-come-out-of-beta-on"} Geeklist
+                is a social platform for developers
+        .method
+          %h2 Third-party applications
+          %ul
+            %li
+              %p
+                %a{:href => "/applications"} List of third-party applications that support GitLab.

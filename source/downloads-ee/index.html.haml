@@ -21,17 +21,17 @@ extra_js:
     .col-md-9
       .installation-instructions
         %h2.heavy
-          Install a GitLab CE Omnibus package on
+          Install a GitLab EE Omnibus package on
         .btn-group
           %button.btn.btn-default.dropdown-toggle.btn-lg{"data-toggle" => "dropdown", :onclick => "ga('send', 'event', 'link', 'click', 'operating system select open');", :type => "button"}
             Select Operating System
             %span.caret
           %ul.dropdown-menu{:role => "menu"}
-            - data.platforms.each do |platform|
+            - data.platforms_ee.each do |platform|
               %li
                 %a{:href => "##{platform.name}", :onclick => "ga('send', 'event', 'link', 'click', 'operating system select #{platform.name}');"}
                   = platform.long_name
       #tabs
-        - data.platforms.each do |platform|
+        - data.platforms_ee.each do |platform|
           = partial "includes/downloads/platform", locals: {platform: platform}
       = partial "includes/downloads/other"
