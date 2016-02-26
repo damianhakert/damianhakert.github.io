@@ -12,7 +12,7 @@ image_title: '/images/unsplash/stars.png'
 In our latest webcast, we highlighted the new features in [GitLab 8.5](https://about.gitlab.com/2016/02/22/gitlab-8-5-released/).
 This was a really feature-packed release.
 
-Job van der Voort gave a step-by-step tutorial of a workflow with GitLab.
+[Job van der Voort] gave a step-by-step tutorial of a workflow with GitLab.
 This highlighted some of the new features in the context of collaboration.
 If you're brand new to GitLab this is a quick introduction to how it works.
 
@@ -44,7 +44,7 @@ In this webcast:
 
 [Sign up for our webcast](http://ow.ly/YMvsM) in partnership with Perforce!
 
-Job van der Voort, VP of Product will be presenting with Matt Attaway, VP of
+[Job van der Voort], VP of Product will be presenting with Matt Attaway, VP of
 Community from Perforce. They will discuss managing Git teams/projects; issue tracking & wikis;
 integrating CI into dev; integration testing and advantages of the mono repo.
 
@@ -68,3 +68,5 @@ We develop completely in the open so if you want to know how to find out what
 we're working on and planning, check out my post about [locating issues and finding the roadmap](https://about.gitlab.com/2016/01/05/future-direction-gitlab/) of development at GitLab.
 
 You can of course leave comments, attendees of the webcast will receive a survey form via email.
+
+[Job van der Voort]: https://twitter.com/Jobvo
