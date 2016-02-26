@@ -1,4 +1,6 @@
+@import "variables";
 @import "plugins/magnific-popup";
+
 .wrapper {
   background: #f9f9f9;
 }
@@ -15,11 +17,6 @@
 hr {
   border-top: 1px solid #E4E4E4;
 }
-
-h1, h2, h3, h4, h5, button, a, p, li {
-
-}
-
 
 @media (max-width: 600px) {
   .wrapper div:nth-child(5) {
@@ -58,6 +55,10 @@ h1, h2, h3, h4, h5, button, a, p, li {
   color: rgba(255,255,255,0.85);
   line-height: 24px;
   text-align: justify;
+
+  a {
+    color: $color-secondary-alt;
+  }
 }
 
 .header-text b {

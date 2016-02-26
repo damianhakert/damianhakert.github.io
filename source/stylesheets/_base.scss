@@ -7,6 +7,10 @@ body {
   &.purple-bg {
     background-color: #548;
     color: #fff;
+
+    a {
+      color: inherit;
+    }
   }
 }
 
