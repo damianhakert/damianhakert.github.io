@@ -40,7 +40,7 @@ there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @emily, and @tiffani
 * [ ] New team member: provide signed contract (including signed proprietary information and assignment agreement (PIAA)) to People Ops.
 * [ ] New team member: where applicable, provide scan of photo ID to People Ops.
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), and become comfortable with Git and the GitLab workflow.
-* [ ] People Ops: file signed contract, PIAA, and where applicable, photo ID in Dropbox and confirm receipt by commenting in the issue.
+* [ ] People Ops: file signed contract, PIAA, and where applicable, photo ID in Google Drive and confirm receipt by commenting in the issue.
 * [ ] Robert/Jacob/COO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
 * [ ] Robert/Jacob/COO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 * [ ] Hiring manager: send an email to company address 'Please read https://about.gitlab.com/handbook/ and the relevant onboarding pages that are linked from there and let me know if you have any questions.'
@@ -133,6 +133,7 @@ Please update this list as more steps arise.
 * Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
 * Read our [Team Handbook](https://about.gitlab.com/handbook/)
 * Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/)
+* You can [download] (https://tools.google.com/dlpage/drive/index.html?hl=en) Google Drive for your computer to access offline
 * You should have been provided access to our [Internal GitLab Server](https://dev.gitlab.org). Take a moment to familiarize yourself with:
   1. The Dashboard
   1. The Projects
@@ -217,7 +218,7 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 * [ ] Robert/Jacob/COO: Remove former team members' GitLab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] Robert/Jacob/COO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] People Ops: Suspect access to 1Password.
-* [ ] People Ops: Remove team member access to Dropbox.
+* [ ] People Ops: Remove team member access to Google Drive.
 * [ ] Manager/CEO: Remove access to SalesForce.
 * [ ] Manager/CEO: Remove access to Recurly.
 * [ ] Manager/CEO: Remove access to Quickbooks.
