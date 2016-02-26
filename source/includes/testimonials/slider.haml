@@ -3,7 +3,7 @@
     - data.testimonials.each do |testimonial|
       .testimonials-item.text-center
         %a.testimonials-item-link{:href => testimonial.link}
-          %img.testimonials-item-image{:alt => "", :src => testimonial.logo}
+          = image_tag testimonial.logo, class: "testimonials-item-image"
         .row
           %blockquote.col-md-8.col-md-push-2.testimonials-item-content
             = testimonial.quote

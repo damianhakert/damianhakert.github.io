@@ -154,21 +154,21 @@ extra_css:
       .col-sm-4
         .box
           %a{:href => "/consultancy"}
-            %img#consultancy.gs{:src => "/images/icons/cons_icon.png"}/
+            = image_tag "/images/icons/cons_icon.png", class: "gs"
             %h2 Consultancy
             %p Upgrade or install GitLab.
           %a.btn.btn-md.btn-default{:href => "/consultancy/"} Contact us
       .col-sm-4
         .box
           %a{:href => "/development"}
-            %img#development.gs{:src => "/images/icons/dev_icon.png"}/
+            = image_tag "/images/icons/dev_icon.png", class: "gs"
             %h2 Development
             %p Add a new feature to GitLab.
           %a.btn.btn-md.btn-default{:href => "/development/"} Contact us
       .col-sm-4
         .box
           %a{:href => "/training"}
-            %img#training.gs{:src => "/images/icons/tra_icon.png"}/
+            = image_tag "/images/icons/tra_icon.png", class: "gs"
             %h2 Training
             %p Git training workshop.
           %a.btn.btn-md.btn-default{:href => "/training/"} Contact us

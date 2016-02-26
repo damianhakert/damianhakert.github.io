@@ -5,6 +5,6 @@
     .row
       - data.organizations.each do |organization|
         .col-xs-4.col-sm-4.col-md-3.col-lg-2.organizations-logo
-          %img{:alt => organization.name, :src => organization.logo}
+          = image_tag organization.logo, alt: organization.name
     %small.organizations-disclaimer
       All logos and trademarks are the property of their respective owners.

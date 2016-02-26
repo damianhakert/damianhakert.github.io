@@ -246,11 +246,9 @@ h1, h2, h3, h4, h5, button, a, p, li {
 }
 
 .image-title .color-bg {
-  text-align: center;
+  padding-top: 0;
   padding-bottom: 4%;
   height: 100%;
-  width: 100%;
-  margin-top: -1px;
   background-image: linear-gradient(to bottom, rgba(85,68,136,1.0) 0%,rgba(85,68,136,0.85) 99%,rgba(85,68,136,0.79) 100%)
 }
   .color-bg h1 {

@@ -2,7 +2,7 @@
   .member{:class => ("pet" if is_pet)}
     .card{:id => member.twitter}
       .front
-        %img{:src => "/images/team/#{member.picture}", :alt => member.name, :width => 200, :height => 200}
+        = image_tag "/images/team/#{member.picture}", :alt => member.name, :width => 200, :height => 200
         %h3
           = member.name
         %h4

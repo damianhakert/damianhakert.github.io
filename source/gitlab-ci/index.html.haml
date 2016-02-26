@@ -4,8 +4,6 @@ title: GitLab Continuous Integration
 suppress_header: true
 extra_css:
   - gitlab-ci.css
-extra_js:
-  - gitlab-ci.js
 ---
 .wrapper
   .image-title
@@ -92,7 +90,7 @@ extra_js:
               %b Merge request integration:
               See the status of each build within the Merge Request in GitLab.
         .hidden-xs.hidden-sm.col-md-4
-          %img.gitlab-raccoon-dog-image.hidden-xs{:alt => "", :src => "/images/logo.png"}/
+          = image_tag "/images/logo.png", class: "gitlab-raccoon-dog-image hidden-xs"
         .col-xs-1.col-md-1
       %hr.divider/
       .row.architecture
@@ -118,7 +116,7 @@ extra_js:
               = succeed "." do
                 %b GitLab Runner
         .hidden-xs.hidden-sm.col-md-6
-          %img.gitlab-arch.hidden-xs{:alt => "", :src => "/images/ci/arch-1.jpg"}/
+          = image_tag "/images/ci/arch-1.jpg", class: "gitlab-arch hidden-xs"
       %hr#gitlab-runner.divider/
       .row.installation
         .col-xs-1.col-md-1

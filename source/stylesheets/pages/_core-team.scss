@@ -1,0 +1,44 @@
+.core-team-social {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  > li {
+    display: inline-block;
+  }
+}
+
+.core-team-image {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.website{
+  background-image: url(/images/website.png);
+  width: 40px;
+  height:40px;
+}
+
+.linkedin{
+  background-image: url(/images/linkedin.png);
+  width: 40px;
+  height:40px;
+}
+
+.twitter{
+  background-image: url(/images/twitter.png);
+  width: 40px;
+  height:40px;
+}
+
+.gitlab{
+  background-image: url(/images/gitlab.png);
+  width: 40px;
+  height:40px;
+}
+
+.github{
+  background-image: url(/images/github.png);
+  width: 40px;
+  height:40px;
+}

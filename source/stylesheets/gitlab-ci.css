@@ -1,7 +1,3 @@
-* {
-
-}
-
 h1, h2 {
   color: #548;
 }
@@ -17,10 +13,6 @@ p {
   font-weight: 200;
 }
 
-h1, h2, h3, h4, h5, button, a {
-
-}
-
 .navbar-nav li {
 
   font-weight: 600;
@@ -34,6 +26,7 @@ h1, h2, h3, h4, h5, button, a {
 
 .image-title .color-bg {
   text-align: center;
+  padding-top: 0;
   padding-bottom: 4%;
   height: 500px;
   width: 100%;

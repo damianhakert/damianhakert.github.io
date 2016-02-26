@@ -54,7 +54,7 @@ extra_js:
           ACTIVITY
           %b STREAM
         %a.image-link{:href => "/images/feature_page/activity_stream_full.png"}
-          %img.img-responsive{:alt => "", :src => "/images/feature_page/activity_stream_full.png"}/
+          = image_tag "/images/feature_page/activity_stream_full.png", class: "img-responsive"
         .link
           %a{:href => "https://gitlab.com/gitlab-org/gitlab-ce/activity"} Have a look at an actual activity page
       .col-md-4.small-feature
@@ -62,7 +62,7 @@ extra_js:
           FILE
           %b BROWSER
         %a.image-link{:href => "/images/feature_page/file_browser_full.png"}
-          %img.img-responsive{:alt => "", :src => "/images/feature_page/file_browser_full.png"}/
+          = image_tag "/images/feature_page/file_browser_full.png", class: "img-responsive"
         .link
           %a{:href => "https://gitlab.com/gitlab-org/gitlab-ce/tree/master"} Try navigating GitLab's code
       .col-md-4.small-feature
@@ -70,7 +70,7 @@ extra_js:
           GIT POWERED
           %b WIKI
         %a.image-link{:href => "/images/feature_page/wiki_full.png"}
-          %img.img-responsive{:alt => "", :src => "/images/feature_page/wiki_full.png"}/
+          = image_tag "/images/feature_page/wiki_full.png", class: "img-responsive"
   .wide-feature.mr
     .row
       .col-md-12
@@ -81,7 +81,7 @@ extra_js:
           Merge requests with line-by-line comments, CI and issue tracker integrations and much more..
       .wide-img
         %a.image-link{:href => "/images/feature_page/mr.png"}
-          %img.img-responsive{:alt => "", :src => "/images/feature_page/mr_sh.png"}/
+          = image_tag "/images/feature_page/mr_sh.png", class: "img-responsive"
       .wide-feature-link
         %a.btn-default{:href => "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests"} See the power of merge requests on GitLab.com
   .container
@@ -91,7 +91,7 @@ extra_js:
           ISSUE
           %b MANAGEMENT
         %a.image-link{:href => "/images/feature_page/issue_management.png"}
-          %img.img-responsive{:alt => "", :src => "/images/feature_page/issue_management.png"}/
+          = image_tag "/images/feature_page/issue_management.png", class: "img-responsive"
         .link
           %a{:href => "https://gitlab.com/gitlab-org/gitlab-ce/issues"} See how we use issues to manage our open source project
       .col-md-4.small-feature
@@ -99,13 +99,13 @@ extra_js:
           CODE
           %b SNIPPETS
         %a.image-link{:href => "/images/feature_page/snippets_full.png"}
-          %img.img-responsive{:alt => "", :src => "/images/feature_page/snippets_full.png"}/
+          = image_tag "/images/feature_page/snippets_full.png", class: "img-responsive"
       .col-md-4.small-feature
         .name
           WEB
           %b HOOKS
         %a.image-link{:href => "/images/feature_page/webhooks_full.png"}
-          %img.img-responsive{:alt => "", :src => "/images/feature_page/webhooks_full.png"}/
+          = image_tag "/images/feature_page/webhooks_full.png", class: "img-responsive"
   #enterprise.wide-feature.head.ee
     .container
       .name
@@ -124,19 +124,19 @@ extra_js:
           GIT
           %b HOOKS
         %a.image-link{:href => "/images/feature_page/githooks_full.png"}
-          %img.img-responsive{:alt => "", :src => "/images/feature_page/githooks_full.png"}/
+          = image_tag "/images/feature_page/githooks_full.png", class: "img-responsive"
       .col-md-4.small-feature
         .name
           LDAP
           %b GROUP SYNC
         %a.image-link{:href => "/images/feature_page/ldap_groups_full.png"}
-          %img.img-responsive{:alt => "", :src => "/images/feature_page/ldap_groups_full.png"}/
+          = image_tag "/images/feature_page/ldap_groups_full.png", class: "img-responsive"
       .col-md-4.small-feature
         .name
           BRANDED
           %b LOGIN PAGE
         %a.image-link{:href => "/images/feature_page/branded_login_full.png"}
-          %img.img-responsive{:alt => "", :src => "/images/feature_page/branded_login_full.png"}/
+          = image_tag "/images/feature_page/branded_login_full.png", class: "img-responsive"
         .link
           %a{:href => "https://gitlab.com/users/sign_in"} See the login page from GitLab.com >
   #compare.wide-feature.head.community
