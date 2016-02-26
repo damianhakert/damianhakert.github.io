@@ -87,4 +87,11 @@
   %a.external-source-link{:href => "https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md"}
     very welcome
   = partial "includes/cc-license.html"
-  = partial "includes/layout/scripts"
+= partial "includes/layout/scripts"
+= partial "includes/google/remarketing"
+%script{src: "//platform.twitter.com/oct.js"}
+:javascript
+  twttr.conversion.trackPid('l5hzj');</script>
+%noscript
+  %img{:alt => "", :height => "1", :src => "https://analytics.twitter.com/i/adsct?txn_id=l5hzj&p_id=Twitter", :style => "display:none;", :width => "1"}
+  %img{:alt => "", :height => "1", :src => "//t.co/i/adsct?txn_id=l5hzj&p_id=Twitter", :style => "display:none;", :width => "1"}
