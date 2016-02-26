@@ -3,6 +3,11 @@
 -------------------------------------------------- */
 body {
   padding-top: 50px;
+
+  &.purple-bg {
+    background-color: #548;
+    color: #fff;
+  }
 }
 
 h1,
