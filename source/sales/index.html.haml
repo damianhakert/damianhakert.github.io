@@ -1,0 +1,28 @@
+---
+layout: default
+title: Contact Sales
+suppress_header: true
+extra_css:
+  - sales.css
+---
+.wrapper
+  .sales-picture-container
+    .sales-overlay
+      .sales-content
+        %h1 Contact Sales
+  .centered-form
+    .contact-intro
+      Please contact our sales team with any questions
+      about
+      %a{:href => "/features/#enterprise"} GitLab Enterprise Edition
+      and
+      someone will get back to you within one business day.
+    %script{:src => "//app-ab13.marketo.com/js/forms2/js/forms2.min.js"}
+    %form#mktoForm_1036
+    :javascript
+      MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1036);
+    %br/
+    %br/
+    %p{:style => "text-align: center;"} If you're not able to see the form above, please email us at: sales [at] gitlab.com
+    %br/
+    %br/
