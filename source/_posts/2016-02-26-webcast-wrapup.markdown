@@ -29,7 +29,7 @@ In this webcast:
 - Revert any Commit
 - GitLab Geo Alpha (EE)
 - Step by step: GitLab workflow in practice and GitLab Flow ([skip ahead](https://youtu.be/MGH7TdZA9Rg?t=1225))
-- Community news! ()[skip ahead](https://youtu.be/MGH7TdZA9Rg?t=2643))
+- Community news! ([skip ahead](https://youtu.be/MGH7TdZA9Rg?t=2643))
 - Q&A: Questions from webcast attendees answered live
 
 ## Webcast Recording
