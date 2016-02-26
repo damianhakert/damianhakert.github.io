@@ -73,17 +73,17 @@ databases, before running jobs and links containers to communicate with each oth
 
 We will add our .gitlab-ci.yml file to the root directory of our project.
 
-  ```
-  image: node:4.2.2
+```
+image: node:4.2.2
 
-  services:
-    - postgres:9.5.0
+services:
+  - postgres:9.5.0
 
-  all_tests:
-    script:
-     - npm install
-     - node ./specs/start.js
-  ```
+all_tests:
+  script:
+   - npm install
+   - node ./specs/start.js
+```
 
 Now let's go over the parts of this file.
 
@@ -95,6 +95,22 @@ In our tests, we need a PostgreSQL database, so we add the image name for this d
 Any Docker image name can be specified here, such as mysql for MySQL databases.
 The database will start with default credentials before tests run and it will be
 accessible under the the host name `postgres` on the default PostgreSQL port, 5432.
+
+If we needed to use any credentials other than the defaults, we could add them
+inside the `variables` tag. Values under this tag are passed to all services
+on initialization. As per the PostgreSQL service [documentation](http://doc.gitlab.com/ce/ci/services/postgres.html),
+the following settings will overwrite the user and password for our database.
+
+```
+variables:
+  POSTGRES_USER: testuser
+  POSTGRES_PASSWORD: testpass
+```
+
+Note that since these test credentials are internal to our project, it is OK to simply
+add them to the `.gitlab-ci.yml` file. However, you should register any external
+configuration variables, such as API keys, in `Secure Variables`
+page (Settings -> Variables) and reference them here by name.
 
 In the final section, we define a job named `all_tests`, which contains the command
 that will run our tests.
