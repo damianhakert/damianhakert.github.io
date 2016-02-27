@@ -154,7 +154,7 @@ email will be sent to you and the ZenDesk manager to notify you of the fact. Whe
 let a Senior know about the problem and follow up with the customer to see if something you did can
 be improved.
 
-### Dedicated Service Engineers
+## Dedicated Service Engineers
 
 Certain subscribers have access to a Dedicated Service Engineer. This means that 
 tickets that arrive in ZenDesk from people within the subscriber's organization 
