@@ -62,7 +62,7 @@ responding to a large volume of these tickets. Typically, you will start by answ
 through social media, advancing to general support tickets, and eventually subscriber, security, and emergency tickets.
 
 
-## Specific actions in ZenDesk and beyond
+## Handling tickets
 
 ### Assigning a ticket to yourself
 
@@ -153,6 +153,16 @@ the level of support they received. If a customer rates a ticket to which you we
 email will be sent to you and the ZenDesk manager to notify you of the fact. When this happens, you should
 let a Senior know about the problem and follow up with the customer to see if something you did can
 be improved.
+
+## Customer Training
+
+Service Engineers are regularly asked to provide customer training, and/or to provide answers to technical 
+questions from potential customers. The materials for the customer training should be kept up to date [INSERT LINK] . 
+Importantly, requests for Service Engineer's time for training and other non-ticket related work should be done 
+via the [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/) using the 'Support' label. 
+If you are receiving such a request via email or Slack, please move it to an issue to allow for wider participation 
+or easy escalation when needed.
+
 
 ## Team member is unavailable
 
