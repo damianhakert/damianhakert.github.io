@@ -20,7 +20,7 @@ It's beyond the scope of this tutorial to go into details on best practices, wor
 1. You make changes to your copy of the codebase and push a commit to GitLab.
 2. GitLab recognizes that the codebase has changed.
 3. GitLab triggers a build with the GitLab Runner you set up on your Mac for the project.
-4. The GitLab Runner runs through the build and test process you specified in `.gitlab-runner.yml`.
+4. The GitLab Runner runs through the build and test process you specified in `.gitlab-ci.yml`.
 5. The GitLab Runner reports its results back to GitLab.
 6. GitLab shows you the results of the build.
 
@@ -181,8 +181,8 @@ stages:
 build_code:
   stage: build
   script:
-    - xcodebuild clean -project ProjectName.xcodeproj -scheme ProjectName | xcpretty
-    - xcodebuild test -project ProjectName.xcodeproj -scheme ProjectName -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.2' | xcpretty -c && exit ${PIPESTATUS[0]}
+    - xcodebuild clean -project ProjectName.xcodeproj -scheme SchemeName | xcpretty
+    - xcodebuild test -project ProjectName.xcodeproj -scheme SchemeName -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.2' | xcpretty -c && exit ${PIPESTATUS[0]}
   tags:
     - gitlab-ci-for-ios
 ```
@@ -191,7 +191,7 @@ Save this file in your Xcode project folder as `.gitlab-ci.yml`, and don't forge
 
 A few things to note here:
 
-- The two commands under `script` first clean the Xcode project, then build and test it. Make sure to replace all references to `ProjectName` with the name of your Xcode project.
+- The two commands under `script` first clean the Xcode project, then build and test it. Make sure to replace all references to `ProjectName` with the name of your Xcode project; if you're using a different scheme than the default, then make sure you pass in the proper `SchemeName` too (the default is the same as the `ProjectName`.
 - In the `xcodebuild test` command, notice the `-destination` option is set to launch an iPhone 6S image running iOS 9.2 in the Simulator; if you want to run a different device (iPad, for example), you'll need to change this.
 - Under `tags`, add the tag you created when you registered the GitLab Runner.
 
@@ -328,5 +328,6 @@ Any pending builds in the queue will then be triggered, launching Simulator and 
 
 - This workflow should work for *any* kind of Xcode project, including tvOS, watchOS, and Mac OS X. Just be sure to specify the appropriate Simulator device in your `.gitlab-ci.yml` file.
 - If you want to push a commit but don't want to trigger a CI build, simply add `[ci skip]` to your commit message.
+- If the user that installed the GitLab runner isn't logged in, the runner won't run. So, if builds seem to be pending for a long time, you may want to check on this!
 - If you're working on a team, or if your project is public, you may want to install the GitLab Runner on a dedicated build machine. It can otherwise be very distracting to be using your machine and have Simulator launch unexpectedly to run a test suite.
 - The test project used in this particular tutorial is [available here](https://gitlab.com/AngeloStavrow/gitlab-ci-for-ios-projets), but the Runner is permanently stopped. Note that the project isn't tied to a particular team, so provisioning isn't an issue here; you may need to [add some parameters to the build scripts](https://coderwall.com/p/rv2lgw/use-xcodebuild-to-build-workspace-vs-project) in your `.gitlab-ci.yml` file if you see provisioning errors in your build output.
