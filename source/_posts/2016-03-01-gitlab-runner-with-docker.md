@@ -36,7 +36,7 @@ and sustainable software projects.
 ### Introducing the sample project
 
 Before we start with the GitLab Runner, let's briefly review this simple
-[NodeJS project](https://gitlab.com/ahmetkizilay/test-nodejs-project/) we will
+[NodeJS project](https://gitlab.com/gitlab-examples/nodejs/) we will
 work with throughout this tutorial.
 Our project contains two independent modules we would like to test.
 One module consists of some utility methods for asynchronous operations.
@@ -53,7 +53,7 @@ DB_HOST=[db-host:db-port] \
 node ./specs/start.js
 ```
 
-Feel free to explore the project [source code](https://gitlab.com/ahmetkizilay/test-nodejs-project/tree/master)
+Feel free to explore the project [source code](https://gitlab.com/gitlab-examples/nodejs/tree/master)
 if you are interested.
 
 ### Getting started with GitLab Runner
@@ -136,7 +136,7 @@ the build steps to make sure we don't have a typo.
 GitLab Inc. provides a number of servers with GitLab Runner installed.
 On the **Runners** page (**Settings -> Runners**), we can see the list of currently available runners.
 We should see that Shared Runners are already available for us, so we can immediately queue our first build by simply pushing our `gitlab-ci.yml` file to our repository.
-We can track the progress of our build on the [Builds page](https://gitlab.com/ahmetkizilay/test-nodejs-project/builds).
+We can track the progress of our build on the [Builds page](https://gitlab.com/gitlab-examples/nodejs/builds).
 Once our build starts, we should see that it completes with success in a couple of minutes.
 
 ### Installing a specific runner
