@@ -103,13 +103,24 @@ why you didn’t do X or didn’t account for Y.
 
 ## What's contained in the initial issue?
 
-In the contribution guide…
+In the [contribution guide][contribution guide], we call these "feature proposals"
+rather than "feature requests".
+This is a subtle but important nuance.
 
-(what should a feature proposal contain)
+A request puts the onus on someone else to "fulfill" a request.
+Whereas a proposal puts the onus on the initial person writing the issue.
 
-The issue started with a [long description][original proposal] which thankfully
-was kept and later marked as "too complex", so we can compare it.
+> Please keep feature proposals as small and simple as possible,
+complex ones might be edited to make them small and simple.
+> For changes in the interface, it can be helpful to create a mockup first.
+> If you want to create something yourself, consider opening an issue
+first to discuss whether it is interesting to include this in GitLab.
 
+The Todo issue started with a [long description][original proposal] which was
+later marked as "too complex".
+Thankfully it was kept and we can compare it.
+
+(ask Sytse how they came about the change or what we can see in the comparison)
 
 ## Are there times you don’t start with an issue?
 
@@ -130,7 +141,7 @@ In our next webcast on March 10th, we'll dig into a typical GitLab workflow.
 
 - Date: Thursday, March 10, 2016
 - Time: 5pm (17:00) UTC; 12pm EST; 9am PST
-- [Register here][webcast] 
+- [Register here][webcast]
 
 Can't make it? Register anyway, and we'll send you a link to watch it later!
 
@@ -141,3 +152,4 @@ Can't make it? Register anyway, and we'll send you a link to watch it later!
 [the MR]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2817
 [original proposal]: https://gitlab.com/gitlab-org/gitlab-ce/issues/2425#old-deprecated-proposal-too-complex
 [next actions]: https://gitlab.com/gitlab-org/gitlab-ce/issues/2425#note_2070496
+[contribution guide]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#feature-proposals
