@@ -135,7 +135,7 @@ the build steps to make sure we don't have a typo.
 
 GitLab Inc. provides a number of servers with GitLab Runner installed.
 On the **Runners** page (**Settings -> Runners**), we can see the list of currently available runners.
-We should see that Shared Runners are already available for us, so we can immediately queue our first build by simply pushing our `gitlab-ci.yml` file to our repository.
+We should see that Shared Runners are already available for us, so we can immediately queue our first build by simply pushing our `.gitlab-ci.yml` file to our repository.
 We can track the progress of our build on the [Builds page](https://gitlab.com/gitlab-examples/nodejs/builds).
 Once our build starts, we should see that it completes with success in a couple of minutes.
 
@@ -202,7 +202,7 @@ Runner registered successfully. Feel free to start it, but if it's running alrea
 
 Notice that there are several executor options available.
 In this post, we are using the `docker` executor.
-Remember from the `gitlab-ci.yml` file, our base image is already set as node:4.2.2.
+Remember from the `.gitlab-ci.yml` file, our base image is already set as node:4.2.2.
 Note that the default Docker image specified here will be used only when `.gitlab-ci.yml`
 file does not contain an image declaration.
 
@@ -222,7 +222,7 @@ how to make it faster and more efficient.
 To start, we can eliminate redundant downloading of dependency libraries by
 caching and restoring dependencies between builds.
 For NodeJS projects, dependent libraries are installed in a folder called `node_modules`.
-We should specify this folder to cache in our `gitlab-ci.yml` file:
+We should specify this folder to cache in our `.gitlab-ci.yml` file:
 
 ```
 image: node:4.2.2
