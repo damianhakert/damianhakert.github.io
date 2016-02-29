@@ -888,7 +888,11 @@ These obligations also apply to any matters concerning the Employer or relations
 
 **14\. Additional jobs**
 
-Other than with the prior written permission of the Employer, the Employee is prohibited during the term of the Employment Contract to carry out work – either paid or not – of any nature whatsoever, either for himself and/or for third-parties.
+Other than with the prior written permission of the Employer, the Employee is 
+prohibited during the term of the Employment Contract to carry out paid work of 
+any nature whatsoever, either for himself and/or for third-parties. When contributing 
+without pay to non-GitLab projects, Employee must send an email to his manager to 
+notify the manager, and permission is implied unless noted otherwise by the Employer.
 
 **15\. Non-competition clause**
 
