@@ -72,13 +72,13 @@ The green checkmarks next to the test functions (both in the file, and in the Te
 
 Next, open Terminal and navigate to the folder you created for your iOS project.
 
-It's convenient to add a standard `.gitignore` file. For a Swift project, enter
+It's convenient to add a standard `.gitignore` file. For a Swift project, enter:
 
 ```
 $ curl -o .gitignore https://www.gitignore.io/api/swift
 ```
 
-For an Objective-C project, enter
+For an Objective-C project, enter:
 
 ```
 $ curl -o .gitignore https://www.gitignore.io/api/objective-c
@@ -107,18 +107,18 @@ WARNING: Use sudo for system-mode:
 WARNING: $ sudo gitlab-runner...                   
 ```
 
-If you're using self-hosted GitLab, the coordinator URL will be `http(s)://url-of-your-gitlab-instance/ci`.
+If you're using self-hosted GitLab, the coordinator URL will be http(s)://url-of-your-gitlab-instance/ci`.
 
 ```
 Please enter the gitlab-ci coordinator URL (e.g. https://gitlab.com/ci):
 https://gitlab.com/ci
 ```
 
-The CI token for your project is available on GitLab's Project Settings page, under *Advanced Settings*. Each project has a unique token, so it won't be the same as the one below.
+The CI token for your project is available on GitLab's Project Settings page, under *Advanced Settings*. Each project has a unique token.
 
 ```
 Please enter the gitlab-ci token for this runner:
-s8BgtktbFwvdyxp1yyWZ
+<CI runner token from Project > Settings > Runner>
 ```
 
 The `register` process suggests the name of your Mac as a description for the runner. You can enter something different if you like, or just hit **return** to continue.
@@ -128,11 +128,11 @@ Please enter the gitlab-ci description for this runner:
 [Your-Mac's-Name.local]:
 ```
 
-Enter whatever tags you'd like to further identify this particular runner.
+Enter whatever tags you'd like to further identify this particular runner. It's particularly helpful when you need a particular build environment&mdash;for example, iOS 9.2 on Xcode 7.2 on OS X 10.11 could use tags like `ios_9-2`, `xcode_7-2`, and `osx_10-11`. This way, we can filter our build results in GitLab by toolchain, platform, etc.
 
 ```
 Please enter the gitlab-ci tags for this runner (comma separated):
-gitlab-ci-for-ios
+ios_9-2, xcode_7-2, osx_10-11
 ```
 
 The GitLab Runner will register the runner and give it a unique `runner` ID.
@@ -146,7 +146,8 @@ The GitLab Runner has to run `xcodebuild` to build and test the project, so we s
 ```
 Please enter the executor: virtualbox, ssh, shell, parallels, docker, docker-ssh:
 shell
-Runner registered successfully. Feel free to start it, but if it's running already the config should be automatically reloaded! 
+Runner registered successfully. Feel free to start it, but if it's running 
+already the config should be automatically reloaded! 
 ```
 
 Continue with the rest of the Runner installation instructions (`install` and `start`), per the documentation.
@@ -182,18 +183,23 @@ build_code:
   stage: build
   script:
     - xcodebuild clean -project ProjectName.xcodeproj -scheme SchemeName | xcpretty
-    - xcodebuild test -project ProjectName.xcodeproj -scheme SchemeName -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.2' | xcpretty -c && exit ${PIPESTATUS[0]}
+    - xcodebuild test -project ProjectName.xcodeproj -scheme SchemeName -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.2' | xcpretty && exit ${PIPESTATUS[0]}
   tags:
-    - gitlab-ci-for-ios
+    - ios_9-2
+    - xcode_7-2
+    - osx_10-11
 ```
 
 Save this file in your Xcode project folder as `.gitlab-ci.yml`, and don't forget the period at the beginning of the file name!
 
 A few things to note here:
 
-- The two commands under `script` first clean the Xcode project, then build and test it. Make sure to replace all references to `ProjectName` with the name of your Xcode project; if you're using a different scheme than the default, then make sure you pass in the proper `SchemeName` too (the default is the same as the `ProjectName`.
+- The two commands under `script` first clean the Xcode project, then build and test it. Make sure to replace all references to `ProjectName` with the name of your Xcode project; if you're using a different scheme than the default, then make sure you pass in the proper `SchemeName` too (the default is the same as the `ProjectName`).
+- The `xcodebuild clean` command is a precautionary step to make sure the build is started from a clean state. Skipping this can make builds faster.
 - In the `xcodebuild test` command, notice the `-destination` option is set to launch an iPhone 6S image running iOS 9.2 in the Simulator; if you want to run a different device (iPad, for example), you'll need to change this.
-- Under `tags`, add the tag you created when you registered the GitLab Runner.
+- If you're using a workspace rather than a project (e.g., because your app uses [Cocoapods](https://cocoapods.org)), change the `-project ProjectName.xcodeproj` options to `-workspace WorkspaceName.xcworkspace`. There are several options available to customize your build; run `xcodebuild --help` in the Terminal to explore these further.
+- The `xcodebuild test` command pipes its output into `xcpretty`, but it's also good practice to pass the exit status of `xcodebuild` to the CI, which we get from `${PIPESTATUS[0]}`. Thus, the `&& exit ${PIPESTATUS[0]}` command exits the current shell with the `xcodebuild` status.
+- Under `tags`, add the tags you created when you registered the GitLab Runner.
 
 There's a simple tool for "linting" (i.e., validating) your `.gitlab-ci.yml` in GitLab. From your GitLab project page, click on *Builds* in the sidebar, then in the upper-right corner, click on **CI Lint**:
 
@@ -203,7 +209,7 @@ Paste the contents of your `.gitlab-ci.yml` file into the text box and click on 
 
 > **Status:** syntax is correct
 
-This won't tell you if your project name or the Simulator chosen is correct, so be sure to double-check these values.
+This won't tell you if your project name or the Simulator chosen is correct, so be sure to double-check these settings.
 
 # Setting up your GitLab project for CI
 
@@ -267,7 +273,7 @@ Now you can go ahead and start writing tests for your code, and every time you p
 The GitLab Runner includes several convenient commands, which you can list easily:
 
 ```
-$ gitlab-ci-multi-runner
+$ gitlab-ci-multi-runner --help
 NAME:
    gitlab-ci-multi-runner - a GitLab Runner
 
