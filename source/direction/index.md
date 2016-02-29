@@ -51,6 +51,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [Get rid of default login credentials](https://gitlab.com/gitlab-org/gitlab-ce/issues/1980)
 - [HA Omnibus packages (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
 - [Due date for issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/12709)
+- [Subscribe to a Label](https://gitlab.com/gitlab-org/gitlab-ce/issues/12743)
 
 ### 8.7 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/23) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/9) April 22nd
 
@@ -59,7 +60,6 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [Run build on merged code before merging (EE?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4176)
 - [Code management analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
 - [Delivery analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
-- [Subscribe to a Label](https://gitlab.com/gitlab-org/gitlab-ce/issues/12743)
 - [Subscribe to new Issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/12758)
 - [Performance monitoring (EE)](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1008)
 
