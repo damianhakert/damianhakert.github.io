@@ -38,17 +38,6 @@ Also the list below not include any contributions from outside GitLab the compan
 The bullets list the tentpole features; the most important features of upcoming releases.
 The CE and EE to the right of the version number link to all planned issues for that version.
 
-### 8.5 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/20) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/7) February 22nd
-
-- [CI Autoscale](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/318)
-- [GitLab Pages gets CNAME and SSL support (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/134)
-- [GitLab Geo for readonly secondary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
-- [Todo's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2425)
-- [Revert merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
-- [New design for issue page](https://gitlab.com/gitlab-org/gitlab-ce/issues/3981)
-- [Support for relative URLs](https://gitlab.com/gitlab-org/gitlab-ce/issues/1938)
-- [Sort by vote count](https://gitlab.com/gitlab-org/gitlab-ce/issues/3763)
-
 ### 8.6 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/22) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/8) March 22nd
 
 - [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
