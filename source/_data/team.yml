@@ -686,12 +686,11 @@
   story:  |
           Mitchell is a technical marketer that began his career consulting with B2C companies on their online presence. He has since shifted to helping B2B companies drive demand for their products through digital marketing. He enjoys playing volleyball, ultimate frisbee, and trying new retaurants with his wife.
 
-- name: F. C.
+- name: Felipe Cabargas
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
   reports_to: COO
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: felipe.jpg
+  twitter: juanpintoduran
+  gitlab: cabargas
   story:  |
-           Joining Feb 29th
-           
+          Felipe is a rubyist from Chile trying to get more people into the Git boat. He likes to comunicate tech to non-tech individuals and help local communities reach more people. When AFK, he is desoldering stuff, 3D printing Star Wars models or in the stadium with his father and brother cheering for 'La U'.
