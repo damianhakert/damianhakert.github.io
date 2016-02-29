@@ -11,6 +11,7 @@ image_title: '/images/unsplash/tshirts.jpg'
 
 We're delighted to announce [GitLab Swag Shop](https://gitlab.mybrightsites.com) is now opened!
 We're starting with essentials: Some nifty t-shirts and stickers.
+New items are discussed in the [swag suggestions issue tracker](https://gitlab.com/gitlab_swag/swag_suggestions/issues), feel free to join the conversation or suggest cool items.
 
 <!-- more -->
 
