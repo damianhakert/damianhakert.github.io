@@ -16,7 +16,7 @@ Working for GitLab means joining a very productive, ambitious team, where indepe
 and flexibility are both valued and required.
 Your work will directly have a large impact on the present and future of GitLab.
 We like to spend our time on things that matter.
-We are a [remote first company](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)
+We are a [remote only company](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)
 and you can work from wherever you want.
 For more background please see our [about page](https://about.gitlab.com/about/),
 our [culture page](https://about.gitlab.com/culture/), and our [handbook](https://about.gitlab.com/handbook/).
