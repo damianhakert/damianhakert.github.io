@@ -74,8 +74,8 @@ An example message would be "We are reviewing applications through the end of ne
 Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
 [this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw).
 
-1. Do you have any questions about the job or GitLab?
-1. Why apply to GitLab?
+1. Do you have any questions about the job or our organization?
+1. Why did you apply to GitLab?
 1. For each significant study and job ask: why did you select this one and why did it end? (for studies: why not do master, PhD, PostDoc, etc.)
 1. What did you like least about your last position?
 1. When were you most satisfied in your position?
@@ -83,13 +83,13 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 1. What professional achievements are you most proud of?
 1. How do you keep up to date with developments in your profession?
 1. If you don't get this job what will you do?
+1. Are you interviewing anywhere else?
 1. How can we change GitLab the product or company to make it better?
 1. What do you expect to achieve in your first month at GitLab?
 1. Where do you want to be in three years from now?
 1. Have you worked remote before and how do you feel about it?
-1. What salary range would you feel comfortable with?
 1. If you get hired when can you start?
-1. Are you interviewing anywhere else?
+1. What compensation would you feel comfortable with?
 1. Do you have any questions for me?
 
 ## Getting Contracts Ready<a name="prep-contracts"></a>
