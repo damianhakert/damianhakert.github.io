@@ -10,13 +10,11 @@ image_title: '/images/unsplash/FILENAME.jpg'
 
 I recently joined GitLab as a Developer Advocate. Part of my role will be to travel to community events, I hope we’ll meet in person someday. I’m also an experienced Ruby developer and a long time user of Github for both my personal projects and open source projects. I am actively using GitLab and taking notes about things that I learn.
 
-I've heard of GitLab that it is somewhat cool if you want to have your Github-like hosting on your personal server. Things have changed a lot. I am happy to share what I have learned about GitLab.com recently.
-
-The goal of this post is to give you an up-to-date understanding of what GitLab have become, and how you can benefit from it.
-
 <!--more-->
 
-First, lets disrupt existing delusions.
+Before joining GitLab, I've heard of GitLab that it is somewhat cool if you want to have your Github-like hosting on your personal server. Today things have changed a lot, and I am happy to share what I have learned about GitLab.com recently.
+
+First, lets disrupt some delusions.
 
 ## Misbeliefs and delusions
 
