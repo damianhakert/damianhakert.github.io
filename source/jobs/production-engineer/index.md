@@ -6,7 +6,7 @@ title: "Production Engineer"
 At GitLab, Production Engineers are highly independent and self-organized team
 contributors in a [remote and agile](https://about.gitlab.com/2015/09/14/remote-agile-at-gitlab/) way.
 
-A Production Engineer is a hybrid Software/System Engineer who ensure that GitLab.com
+A Production Engineer is a hybrid Software/System Engineer who ensures that GitLab.com
 runs smoothly and have the capacity for future growth. Either you are a Developer who
 loves to keep things running or a Systems Engineer who loves to code.
 
