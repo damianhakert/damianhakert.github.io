@@ -247,6 +247,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
 1. Assign an issue to yourself as soon as you start to work on it, but not before
 that time. If you complete part of an issue and need someone else to take the next
 step, **re-assign** the issue to that person.
+1. When reassigning an issue, make sure that the issue body contains the latest information. The issue body should be the single source of truth.
 1. We keep our **promises** and do not make external promises without internal agreement.
 1. Even when something is not done, share it internally so people can comment early and prevent rework. Mark the merge request **[Work In Progress](https://about.gitlab.com/2016/01/08/feature-highlight-wip/)** so it is not merged by accident.
 1. When you create a merge request, **mention** the issue(s) that it solves in the description. If any followup actions are required on the issue after the merge request is merged, like reporting back to any customers or writing documentation, avoid auto closing it by saying `Fixes #1` or `Closes #1`.
