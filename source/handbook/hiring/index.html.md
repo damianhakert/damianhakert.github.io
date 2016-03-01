@@ -16,7 +16,7 @@ title: "Hiring"
 The CEO needs to authorize any new job positions/searches, and agree on the proposed hiring team.
 
 1. Define hiring team. Roles can be assigned fluidly (see below for the [Hiring Process](#hiring-process)), depending on who is available, bearing in
-mind that the most time consuming aspect tends to be review of the first wave of applicants.    
+mind that the most time consuming aspect tends to be review of the first wave of applicants.
 1. Create the job description on our website, and in Workable
     1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`
     1. Add a job of the exact same job title on [Workable](https://gitlab.workable.com/backend)
@@ -74,8 +74,8 @@ An example message would be "We are reviewing applications through the end of ne
 Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
 [this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw).
 
-1. Do you have any questions about the job or GitLab?
-1. Why apply to GitLab?
+1. Do you have any questions about the job or our organization?
+1. Why did you apply to GitLab?
 1. For each significant study and job ask: why did you select this one and why did it end? (for studies: why not do master, PhD, PostDoc, etc.)
 1. What did you like least about your last position?
 1. When were you most satisfied in your position?
@@ -83,25 +83,29 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 1. What professional achievements are you most proud of?
 1. How do you keep up to date with developments in your profession?
 1. If you don't get this job what will you do?
+1. Are you interviewing anywhere else?
 1. How can we change GitLab the product or company to make it better?
 1. What do you expect to achieve in your first month at GitLab?
 1. Where do you want to be in three years from now?
 1. Have you worked remote before and how do you feel about it?
-1. What salary range would you feel comfortable with?
 1. If you get hired when can you start?
-1. Are you interviewing anywhere else?
+1. What compensation would you feel comfortable with?
 1. Do you have any questions for me?
 
 ## Getting Contracts Ready<a name="prep-contracts"></a>
 
-Once a new team member is to be added in an employee or contractor capacity,
-fill out the [New Contract form](https://docs.google.com/a/gitlab.com/forms/d/19sPOZW8rnBTnyvj3BR4-ZMksLeMnTjkbpCZUsfUDVy4/viewform)
-with pertinent details. This pings the [People Operations Administrator]
-(https://about.gitlab.com/jobs/people-operations-administrator), [Administrative
-Coordinator](https://about.gitlab.com/jobs/administrative-coordinator), and [COO](https://about.gitlab.com/jobs/chief-operating-officer)
-who coordinate amongst themselves who actually prepares the requested contract.
+Offers made to new team members should be documented in the email thread between the
+person authorized to make the offer (e.g. CEO) and the applicant.
 
-Our template contracts are posted on the [Contracts page](https://about.gitlab.com/handbook/contracts).
+1. Email example: "We would love to have you as part of our team. You will have a position of [job title]. As a contractor you will invoice [monthly rate] per month. You will report to the [manager]. We will send you a contract on Monday based on the examples on https://about.gitlab.com/handbook/contracts/. If you have not received anything on that day please reply-to-all to let us know. Please let us know if you have any questions or concerns in the meantime."
+1. In the email confirmation of the offer,
+put the People Operations email alias (which can be found in the "GitLab Email Forwarding" google doc) in the cc.
+1. One person from People Operations will reply-to-all to everyone in the thread (including the applicant) to confirm that they will make the contract.
+1. This person from People Operations makes the contract based on the details found in the Workable
+platform, and uses reply-all to gather any missing pieces of information, and to confirm with a reply-to-all when the contract is send.
+
+Note for People Operations: the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
+[Contracts page](https://about.gitlab.com/handbook/contracts).
 
 ## Who Reviews and Who Signs Contracts<a name="contract-review"></a>
 
@@ -113,7 +117,6 @@ after which it can be sent out to be signed by any of the relevant C-level team
 members.
 * For any hires for which the COO should sign, either the CFO or the CEO must
 review the contracts.
-
 
 ## Onboarding<a name="move-to-onboarding"></a>
 
