@@ -72,7 +72,7 @@ but we had to make some changes to accommodate a larger group.
 
 We still keep a running agenda, which acts like an internal "GitLab News" update.
 It's expected that even if you can't make the meeting, you still read it.
-We start with agenda items which any can add.
+We start with agenda items which anyone can add.
 
 Then we get an update from members of a functional team.
 So you can find out what other teams are working on easily and ask questions.
@@ -96,10 +96,10 @@ Then they talk about something they did recently, or they are planning to do.
 No one expects you to be "interesting" though.
 Whether you baked a cake or watched a movie, it's been an easy way to get to know
 people across the company.
-I was worried my nights of knitting might be boring new, but I flash a WIP
+I was worried my nights of knitting might be boring news, but I flash a WIP
 (work in progress in Knitting terminology) once in a while, and it's nice to share.
 
-### The remote bonding works: even better.
+### How remote bonding works even better
 
 I have a feeling that I know my colleagues in this company even better
 than I did in previous companies.
@@ -119,7 +119,8 @@ I know that in a way, being remote is a challenge.
 I can't go make him a cup of tea and chat with him.
 But it gives an advantage in that we all share these experiences together.
 
-And of course, when we do get together, we can pick up where we left off.
+Of course, when we do get together, we can pick up where we left off.
+And I'm very much looking forward to that!
 
 ### Join us!
 
