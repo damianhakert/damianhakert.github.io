@@ -74,10 +74,10 @@ at GitLab in December. Previously, I had worked on the GitHub import project
 which came out in GitLab 8.4.
 
 I needed to learn quite a lot of the GitLab codebase in order to create this
-feature. And then, while I was reading the code, I discovered it was going to
-be much easier than I thought. My epiphany was that we already had the Activity
-feed system in place which I could use. As it turned out, it was going to be
-very easy to implement this feature.
+feature. And then, while I was reading the code, I was surprised to discover it
+was going to be much easier than I thought. My epiphany was that we already had
+the Activity feed system in place which I could reuse. As it turned out, it was
+going to be very easy to implement this feature.
 
 At the beginning, I spent the first week reading the code, understanding how
 the system worked, discovering the points that we needed to trigger a todo. I
@@ -128,7 +128,7 @@ I'm really happy to have worked on a feature that people will use every day!
 It's a simple feature and even though we've only been using it a few days,
 we can't imagine how we managed to work without it.
 
-This tweet from a user pretty much sums it up.
+This Tweet from a user pretty much sums it up.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/gitlab">@gitlab</a>&#39;s new ToDos feature is simply amazing. Simple feature but something you cannot live without once you tried it.</p>&mdash; Tero Tasanen (@ttasanen) <a href="https://twitter.com/ttasanen/status/702249244950974464">February 23, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
