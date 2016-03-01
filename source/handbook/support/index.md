@@ -16,6 +16,15 @@ They are sorted in order of priority, and as a result, it is possible that chann
 in this list experience longer delays in receiving responses. We are actively [hiring](https://about.gitlab.com/jobs/) 
 more Service Engineers to strengthen the team and provide support to the community.
 
+### Support Turbo
+
+Every now and then, it may occur that we come close to breaching our SLA's. 
+To prevent an actual breach from occurring, the Support team can call on the help 
+of several 'Support Turbo' developers who are called out on the [Team Page](https://about.gitlab.com/team/). 
+The support team calls for help when necessary via Slack, but in case of doubt or 
+conflicting priorities, the Development Lead needs to give the green light for the 
+support turbo developers to momentarily switch away from their other tasks.
+
 ## Dashboard
 
 The [ZenDesk Insight dashboard](https://gitlab.zendesk.com/agent/reporting/analytics/period:0/dashboard:buLJ3T7IiFnr)
