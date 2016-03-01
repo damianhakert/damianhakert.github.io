@@ -87,6 +87,28 @@ If a customer does not have an organization set up you can create one by clickin
 the requester's name (This field says GitLab on the screenshot above, to the left of Haydn's name). When
 doing this, please fill in the correct name and email domains for the new Organization.
 
+**Tags for Tickets**
+
+To be able to capture metrics on which topics are most frequently asked about, when you start on a ticket,
+add tags to it. Currently, the tags that are to be used are:  
+
+- bug
+- feature proposal
+- call - if the problem results in a screen share
+- documentation (if it requires further documentation)
+- LDAP
+- CI
+- Docker
+- JIRA
+- Jenkins
+- SAML
+- Kerberos
+- Importing
+- SSL
+
+Tagging tickets will allow us to better capture what topics need to be documented in more detail, 
+and/or which areas of the product development can use some attention to prevent creating more requests for support.
+
 **After the first response**
 
 In most cases when you reply to a customer you expect a reply back. In this case the ticket should be
@@ -95,7 +117,7 @@ the customer. If this is your second response without a reply you can mark the t
 point, otherwise ask them if they still need help or have further questions.
 
 When a feature request or the fix for a bug has been scheduled for a future release, you should let the
-customer know about the versio for which this has been scheduled and when that version is going to be
+customer know about the version for which this has been scheduled and when that version is going to be
 releases, e.g. June 22nd for 8.9, and add the `promised` tag to the ZenDesk ticket.
 
 **How to escalate a ticket?**
