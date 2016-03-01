@@ -20,6 +20,7 @@ over 600% during that time, with 54 people [on our team][team] as I write this.
 It's probably best you hear from others about working remotely at GitLab.
 Watch this video:
 
+(embed video)
 
 ### Our handbook
 
@@ -118,8 +119,17 @@ I know that in a way, being remote is a challenge.
 I can't go make him a cup of tea and chat with him.
 But it gives an advantage in that we all share these experiences together.
 
+And of course, when we do get together, we can pick up where we left off.
+
+### Join us!
+
+Having the handbook out there is in the open, it makes it easier for people to
+identify if they'd be a fit for our team.
+
+If you'd like to work with us at GitLab, please check out the [Jobs][jobs] available.
 
 
+[jobs]: https://about.gitlab.com/jobs
 [handbook]: https://about.gitlab.com/handbook
 [communication handbook]: https://about.gitlab.com/handbook/#communication
 [team call]: https://about.gitlab.com/handbook/#team-call
