@@ -28,12 +28,12 @@ Make sure to search in All issues (open and closed) to see if your idea has been
 
 The benefits of collaboration start at the point of making an issue.
 By making an issue, you get your ideas out there, and this allows your
-collaborators have their say early.
+collaborators to have their say early in the process.
 
 Non-programmers think that programmers are constantly tapping away at their
 keyboards on code.
 In fact software development is more like a discussion, and it’s a more
-collaborative experience than it is a solitary experience.
+collaborative experience than it is a solitary one.
 
 The tools GitLab provides make it easier to manage that discussion,
 and keep the flow of conversation moving.
@@ -53,12 +53,12 @@ The [original issue][Todo issue] was posted 6 months before coding began.
 The targeted milestone was moved from 8.4 to 8.5 during that time.
 The discussion continued for four months until the description was simplified.
 One of our designers, Andriy, came up with a second design reflecting the major decisions.
-The title changed seven times until finally it’s renamed Todo’s.
+The title changed seven times until finally it’s renamed Todos.
 There were 30 participants marked in the issue, but some may have just been
 watching, or may have taken other actions such as adding a label.
 In total, 13 people added to the discussion.
 
-At one point early on, Job summarized [the next actions to take][next actions] and assigned them.
+At one point early on, Job summarized [the next actions to take][next actions] and assigned them:
 
 - formal proposal (Job / Darby / other people)
 - mockups (Job)
