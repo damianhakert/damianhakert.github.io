@@ -194,7 +194,7 @@ Hopefully in this post you've also gotten a peek at the underlying systems in Gi
 It if has inspired you to contribute to GitLab, check out our [Contributing guide][contributing].
 Issues marked ["up for grabs"][up for grabs] will be of reasonable size and
 challenge, for anyone to start contributing to GitLab.
-The [Merge Request Guidelines][merge request] explain you how to make a merge request
+The [Merge Request Guidelines][merge request] explain how to make a merge request
 and what that process will be like.
 
 [contributing]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md
