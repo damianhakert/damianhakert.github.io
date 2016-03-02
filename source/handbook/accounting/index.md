@@ -62,9 +62,6 @@ the general number (+1-415-761-1791), but be aware that this number simply guide
 All GitLab BV employees receive their payslips within their personal portal of Savvy.
 They can login and download their payslip to their computer if needed.
 
-Not needed anymore??  >> 1. People Ops: Send the pdf with Factuur in the title to Accounts Payable.
-
-
 
 ## Accounts Payable <a name="ap"></a>
 NOTE: Vendor and contractor invoices are to be sent to ap@gitlab.com
