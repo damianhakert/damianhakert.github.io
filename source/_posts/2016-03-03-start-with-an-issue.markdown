@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Always start with an issue"
-date: 2016-03-07
+date: 2016-03-03
 comments: true
 categories: collaboration
 author: Heather McNamee
@@ -9,12 +9,12 @@ author_twitter: nearlythere
 image_title: '/images/unsplash/stars.png'
 ---
 
-“Always start with an issue” say [Job][job], VP of Product here at GitLab.
+“Always start with an issue” says [Job][job], VP of Product here at GitLab.
 Before you begin anything else, summarize your ideas in an issue and share it.
 It’s such a simple rule, but the impact is huge.
 
 In this post we'll focus on issues for feature proposals specifically,
-but the rule applies in either case.
+but the rule applies in any case, no matter what kind of project you're working on.
 We say “start” with an issue and not “create” an issue, because one might already exist.
 Make sure to search in All issues (open and closed) to see if your idea has been proposed already.
 
@@ -24,33 +24,30 @@ Make sure to search in All issues (open and closed) to see if your idea has been
 
 <!-- more -->
 
-### The benefits of collaboration start at the point of making an issue
-
-By making an issue, you have to get your ideas out there, and let your
-collaborators have their say early.
-You also avert a number of risks which can introduce problems later on.
-
-- You may not know everything there is to consider.
-- There may be parts of the system you aren’t familiar with.
-- There may be limitation or possibilities you’re not aware of.
-- There may be factors for users you may not know.
-- There may be work going on in a parallel effort which relates your idea.
-
 ### GitLab is a discussion about software
+
+The benefits of collaboration start at the point of making an issue.
+By making an issue, you get your ideas out there, and this allows your
+collaborators have their say early.
 
 Non-programmers think that programmers are constantly tapping away at their
 keyboards on code.
-In fact software development is more like a discussion, and it’s more
-collaborative than it is a solitary experience.
+In fact software development is more like a discussion, and it’s a more
+collaborative experience than it is a solitary experience.
 
-Of course not everything aspect of collaboration is recorded on GitLab.
-We also use text chat and we pop open a video chat sometimes.
-However, the issue tracker does give us insight into the collaborative experience.
+The tools GitLab provides make it easier to manage that discussion,
+and keep the flow of conversation moving.
+
+### An example of software as a discussion
 
 Let’s look at an example discussion as it took place around a specific feature
 proposal.
-In his recent blog post (link), GitLab developer [Douglas][Douglas] told the
-story of how the Todo feature came to be in GitLab 8.5.
+Of course not every aspect of collaboration is recorded on GitLab.
+We also use text chat and we pop open a quick video chat sometimes.
+However, the issue tracker does give us insight into the collaborative experience.
+
+In his recent [blog post about the Todo feature][todo blog], GitLab developer
+[Douglas][Douglas] told the story of how the Todo feature came to be in GitLab 8.5.
 
 The [original issue][Todo issue] was posted 6 months before coding began.
 The targeted milestone was moved from 8.4 to 8.5 during that time.
@@ -59,9 +56,9 @@ One of our designers, Andriy, came up with a second design reflecting the major 
 The title changed seven times until finally it’s renamed Todo’s.
 There were 30 participants marked in the issue, but some may have just been
 watching, or may have taken other actions such as adding a label.
-In total, 13 people add to the discussion.
+In total, 13 people added to the discussion.
 
-At one point early on, Job summarized [the next actions to take][next actions].
+At one point early on, Job summarized [the next actions to take][next actions] and assigned them.
 
 - formal proposal (Job / Darby / other people)
 - mockups (Job)
@@ -70,18 +67,20 @@ At one point early on, Job summarized [the next actions to take][next actions].
 
 Implementation is a *final* step.
 
-Let's consider the lifetime of the issue which started 174 days before the final release.
+Let's consider the lifetime of this issue which started 174 days before the final release.
 
 The task was assigned to Douglas only on Feb 2nd, with 20 days left to that milestone.
-Douglas spent 11% of lifetime of this issue on development.
+Douglas spent 11% of lifetime of this issue on implementation.
 He didn't created the merge request until 7 days before the release.
 That means over the course of the issue from start to close, only 4% of the
-time was spent "coding".
+lifetime of the issue was spent "coding".
+Douglas even spent the first week of implementation reading code and writing a
+proposal for how he would implement the feature.
 
-It’s in [the merge request][the MR] that Douglas and Douwe worked on refining edge cases
-and how it would get done according to the intention of the original issue.
-Douglas would make a number of commits, and then Douwe would give him feedback.
-Again, it's more discussion and communication.
+It’s in [the merge request][the MR] that Douglas and Douwe worked on refining edge cases.
+They worked out how it would get done according to the intention of the original issue.
+Each day, Douglas would make a number of commits, and then Douwe would give him feedback.
+Again, it's further evidence that the bulk of work is in discussion and communication.
 
 Of course, the Todo issue might be an extreme case, but it does highlight
 that software development is a discussion.
@@ -89,17 +88,25 @@ Git commits themselves are just one aspect of the work software developers do.
 That is why tracking "commits" as evidence of productivity gives an inaccurate
 metric of software development productivity.
 
-(link to @job's post)
-
 ## What happens if you don’t make an issue first?
+
+![Gollum gets precious about his work](/images/blogimages/gollum-perfectionist.jpg)
 
 There’s a danger with spending a lot of time on work before sharing the idea.
 As you develop it, and polish it, you run the risk of becoming precious about it.
 
-![Gollum gets precious about his work](/images/blogimages/gollum-perfectionist.jpg)
+When you present your polished prize, you risk spending more time justifying
+your decisions, such as why you didn’t do X or didn’t account for Y.
 
-When you present your polished prize, you will be spending more time justifying your decisions.
-why you didn’t do X or didn’t account for Y.
+By starting with an issue you also avert a number of risks which can introduce problems later on.
+
+- You may not know everything there is to consider.
+- There may be parts of the system you aren’t familiar with.
+- There may be limitations or possibilities you’re not aware of.
+- There may be factors for users you may not know.
+- There may be work going on in a parallel effort which relates your idea.
+
+The issue opens the conversation.
 
 ## What's contained in the initial issue?
 
@@ -120,24 +127,29 @@ The Todo issue started with a [long description][original proposal] which was
 later marked as "too complex".
 Thankfully it was kept and we can compare it.
 
-(ask Sytse how they came about the change or what we can see in the comparison)
-
 ## Are there times you don’t start with an issue?
 
-Sure! When I’m working on something small, corrections or small fixes, I don’t make an issue.
-
-(needs another case)
+Sure! When I’m working on something small, corrections or typo fixes, I don’t make an issue.
 
 The Merge Request (MR) has all the same collaboration tools I need.
 
 - Comments
-- Labels and milestone
+- Labels and Milestone
 - Notifications
+- References
+- Todo notifications
+
+So this means I can still continue the conversation.
+Of course, I keep the MR in ["WIP" mode][wip] (work in progress) so it doesn't
+accidentally get merged. Then we're free to collaborate.
 
 ## GitLab workflow
 
 So you've started with an issue, what happens next?
 In our next webcast on March 10th, we'll dig into a typical GitLab workflow.
+This will take you through the steps of making an issue, merge requests, and
+using tools in GitLab for cross-referencing and keeping your issue tracker
+organized with labels and milestones.
 
 - Date: Thursday, March 10, 2016
 - Time: 5pm (17:00) UTC; 12pm EST; 9am PST
@@ -145,6 +157,8 @@ In our next webcast on March 10th, we'll dig into a typical GitLab workflow.
 
 Can't make it? Register anyway, and we'll send you a link to watch it later!
 
+[todo blog]: https://about.gitlab.com/2016/03/02/gitlab-todos-feature-highlight/
+[wip]: http://doc.gitlab.com/ce/workflow/wip_merge_requests.html
 [webcast]: http://page.gitlab.com/mar-2016-gitlab-introduction.html
 [Job]: https://twitter.com/Jobvo
 [Douglas]: https://twitter.com/dbalexandre
