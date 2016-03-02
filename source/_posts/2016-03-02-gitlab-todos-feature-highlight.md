@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Feature Highlight: Todo's"
+title: "Feature Highlight: Todos"
 date: 2016-03-02
 comments: true
 categories:
