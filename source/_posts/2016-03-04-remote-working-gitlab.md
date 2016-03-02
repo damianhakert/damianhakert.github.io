@@ -17,8 +17,8 @@ over 600% during that time, with 54 people [on our team][team] as I write this.
 
 ### Working remotely at GitLab
 
-It's probably best you hear from others about working remotely at GitLab.
-Watch this video:
+You might be curious what it's like to work remotely at GitLab. 
+Watch this video to hear from our team. 
 
 (embed video)
 
@@ -58,12 +58,12 @@ This ensures it is easy for other people to chime in, and easy to
 involve other people, if needed.
 
 Many rules of communication in face to face offices are implicit.
-Having the Handbook helps makes these explicit and clear.
+Having the Handbook helps making those rules explicit and clear.
 
 ### So what has changed? The team call got bigger.
 
 In July 2014, Job wrote about [how GitLab works remotely][remotely].
-He wrote about a morning team meeting. We still do have a [team call][team call].
+We still do have a daily [team call][team call].
 Though we use Bluejeans now and not Vline.
 The technology isn't as relevant as how we do it.
 
@@ -88,7 +88,7 @@ If they are humans, ask them to wave at your remote team member to say ‘Hi’.
 As a remote employee since 2009, I can't even tell you how much this means to me.
 It reflects the human and compassionate side of GitLab. It's lovely.
 It's not unusual to have some small kids on laps, or dogs, or cats.
-The morning meeting is meant to be a relaxing time, and it always cheers me up!
+The daily team meeting is meant to be a relaxing time, and it always cheers me up!
 
 The main difference is that now we can't hear from everyone each day,
 so we have people grouped to speak on a specific day.
@@ -97,7 +97,8 @@ No one expects you to be "interesting" though.
 Whether you baked a cake or watched a movie, it's been an easy way to get to know
 people across the company.
 I was worried my nights of knitting might be boring news, but I flash a WIP
-(work in progress in Knitting terminology) once in a while, and it's nice to share.
+(work in progress in Knitting terminology, and [on GitLab][wip]) 
+once in a while, and it's nice to share.
 
 ### How remote bonding works even better
 
@@ -124,12 +125,12 @@ And I'm very much looking forward to that!
 
 ### Join us!
 
-Having the handbook out there is in the open, it makes it easier for people to
+Having the handbook out there in the open makes it easier for people to
 identify if they'd be a fit for our team.
 
 If you'd like to work with us at GitLab, please check out the [Jobs][jobs] available.
 
-
+[wip]: http://doc.gitlab.com/ce/workflow/wip_merge_requests.html
 [jobs]: https://about.gitlab.com/jobs
 [handbook]: https://about.gitlab.com/handbook
 [communication handbook]: https://about.gitlab.com/handbook/#communication
