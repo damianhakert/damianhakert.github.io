@@ -12,6 +12,7 @@ image_title: '/images/unsplash/taking-notes.jpg'
 In this blog post I'll guide you through the "Todos" feature we introduced in
 [GitLab 8.5](https://about.gitlab.com/2016/02/22/gitlab-8-5-released/)
 and also tell you how this feature came to life.
+We'll also talk about how you can contribute to GitLab.
 
 <!-- more -->
 
@@ -185,8 +186,16 @@ This Tweet from a user pretty much sums it up.
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/gitlab">@gitlab</a>&#39;s new ToDos feature is simply amazing. Simple feature but something you cannot live without once you tried it.</p>&mdash; Tero Tasanen (@ttasanen) <a href="https://twitter.com/ttasanen/status/702249244950974464">February 23, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-How many 'Todos' do you have?
+Hopefully in this post you've also gotten a peek at the underlying systems in GitLab.
+It if has inspired you to contribute to GitLab, check out our [Contributing guide][contributing].
+Issues marked ["up for grabs"][up for grabs] will be of reasonable size and
+challenge, for anyone to start contributing to GitLab.
+The [Merge Request Guidelines][merge request] explain you how to make a merge request
+and what that process will be like. 
 
+[contributing]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md
+[up for grabs]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#i-want-to-contribute
+[merge request]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#merge-requests
 [comment]: https://gitlab.com/gitlab-org/gitlab-ce/issues/2425#note_3116626
 [dirty]: http://api.rubyonrails.org/classes/ActiveModel/Dirty.html
 [todoservice]: https://gitlab.com/gitlab-org/gitlab-ce/blob/8-5-stable/app/services/todo_service.rb
