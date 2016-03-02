@@ -10,6 +10,8 @@ image_title: '/images/unsplash/FILENAME.jpg'
 
 If you’re interested in an indication of productivity of individual software engineers (programmers), don’t look at commits or other measures of activity. Look at _consistent progress_ instead.
 
+<!-- more -->
+
 ## Commits
 
 Commits are arbitrary changes captured in a single moment in time. Their size and frequency do not correlate with the work needed to achieve that change. At best, commits can be viewed as an indication of activity.
