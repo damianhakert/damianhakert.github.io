@@ -35,7 +35,7 @@ We're doing this for a number of reasons.
 - We want to enable people to order individual licenses. Now, if you need 2
 you don't need to buy a pack of 10 or if you need 104 you don’t need to buy a pack of 200.
 - We want to avoid raising the price of our basic package.
-- We have more add-ons coming and we want to charge only the people that use
+- We have more Enterprise Edition Options coming and we want to charge only the people that use
 them instead of raising the price for everyone.
 - We want to charge more for 24/7 support.
 - Our plus package was not selling well and we want to be able to customize
@@ -48,7 +48,7 @@ the price based on the needs of the customer, you.
 pricing by contacting sales@gitlab.com.
 Deadline for early renewals is April 30, 2016.
 - Existing customers get 50% discount for first year of premium support.
-- Current Plus subscribers get all add-on's, for FREE, while they are on the Plus plan.
+- Current Plus subscribers get all future Enterprise Edition Options, for FREE, while they are on the Plus plan.
 
 ### Examples of how this pricing might affect you
 
