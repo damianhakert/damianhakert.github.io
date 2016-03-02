@@ -96,10 +96,59 @@ the issue description. After this, I just needed to make sure that when someone
 completed whatever they thought is needed on the issue or merge request, the
 todo will be marked as **Done**.
 
+Depending on the action that someone made on the issue or merge request, we
+need to know exactly what attributes were changed, this is specially important
+to know when todos are automatically marked as done.
+
+To know what changed inside a issue or merge request we used the
+[Rails ActiveModel::Dirty API](http://api.rubyonrails.org/classes/ActiveModel/Dirty.html), that allows us to quick track what attributes on a model have changed,
+even after the model was saved.
+
+The `ActiveModel::Dirty` works very well, except that it does not track changes
+on associations. So how we determine what changed inside the association, for
+example, how to check if a label was added, or removed from an issue or merge
+request? To accomplish these we came with a boring solution, where we receive
+the old items of the association through an parameter, and compare it with
+the current asssociation to check is something have changed.
+
+Now, let's look at the method that check if at least one valid attribute has
+changed:
+
+    def has_changes?(issuable, options = {})
+      valid_attrs = [:title, :description, :assignee_id, :milestone_id, :target_branch]
+
+      attrs_changed = valid_attrs.any? do |attr|
+        issuable.previous_changes.include?(attr.to_s)
+      end
+
+      old_labels = options[:old_labels]
+      labels_changed = old_labels && issuable.labels != old_labels
+
+      attrs_changed || labels_changed
+    end
+
+A quick note about this code is that it will run after the model was saved,
+so `previous_changes` is the method that we need to call that returns a hash
+with the attributes that were changed before the model was saved.
+
+We can see on the following snippet of code that other GitLab features, like
+the system note, and the notification service also use this API to trigger an
+action after certain attributes have changed.
+
+    if issue.previous_changes.include?('assignee_id')
+      create_assignee_note(issue)
+      notification_service.reassigned_issue(issue, current_user)
+      todo_service.reassigned_issue(issue, current_user)
+    end
+
 My colleague, [Douwe](https://twitter.com/DouweM), guided me through some of
 these edge cases and helped me a lot with daily code reviews. Together we
 considered the aspects of the functionality. I had to make many changes during
 the review period, but that worked out well in the end.
+
+To get an whole idea about the points that trigger an action related to todos
+we can take a look at the source code of the [TodoService](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/app/services/todo_service.rb) class, that describe the expected
+behaviour for each of these points.
 
 Some people asked for changes which we thought didn't fit for what we were
 trying to achieve. There was for example a request to be notified of Todos on
