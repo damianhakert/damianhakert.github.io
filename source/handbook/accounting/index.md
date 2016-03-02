@@ -13,10 +13,11 @@ title: "Accounting"
 * [Accounts Receivable](#ar)
 * [Cash Receipt](#cash-receipt)
 
-### General information
+### Company phone number
 
-When needing to fill in details of our contact information you can take the addressess of the offices for reference. 
-If a phone number is asked, leaving this field empty is our default answer, otherwise if this does not work you can use the RingCentral number (+1-415-761-1791)
+When needing to fill in details of GitLab's contact information you can take the addressess of the offices for reference. 
+If a phone number is asked, leaving this field empty is our default answer, otherwise if this does not work you can use 
+the general number (+1-415-761-1791), but be aware that this number simply guides to a voice message that refers the caller back to contacting us via email.
 
 ## Processing Payroll  <a name="payroll"></a>
 
