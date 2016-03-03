@@ -159,6 +159,7 @@ To realize [our vision](#vision) we plan to ship the following stack of tools:
 1. **Merge Request** discussion => GitLab MR
 1. **Deploy** to production => [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 1. **Chatops** to check => [Hubot](https://hubot.github.com/) which has a [Merge Request](https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/564) or [Lita](https://www.lita.io/)
+1. **Wiki** to document => GitLab Wiki
 
 We're still deciding if application performance monitoring is in our scope, for example with Grafana and InfluxDB.
 
