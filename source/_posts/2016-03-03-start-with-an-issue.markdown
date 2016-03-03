@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Always start with an issue"
-date: 2016-03-03
+date: 2016-03-03 10:00
 comments: true
 categories: workflow
 author: Heather McNamee
@@ -90,7 +90,7 @@ metric of software development productivity.
 
 ## What happens if you don’t make an issue first?
 
-There’s a danger with spending a lot of time on work before sharing the idea, 
+There’s a danger with spending a lot of time on work before sharing the idea,
 like some kind of [Gollum][gollum], working on your own.
 As you develop it, and polish it, you run the risk of becoming precious about it.
 
@@ -116,7 +116,7 @@ This is a subtle but important nuance.
 A 'request' puts the onus on someone else to "fulfill" a request.
 Whereas a 'proposal' puts the onus on the initial person writing the issue.
 
-> Please keep feature proposals as small and simple as possible, 
+> Please keep feature proposals as small and simple as possible,
 complex ones might be edited to make them small and simple.
 > For changes in the interface, it can be helpful to create a mockup first.
 > If you want to create something yourself, consider opening an issue
@@ -129,12 +129,12 @@ Thankfully it was kept and we can compare it.
 ## Are there times you don’t start with an issue?
 
 Sure! When I’m working on something small, corrections or typo fixes, I don’t make an issue.
-Job said he also doesn't always make an issue. 
+Job said he also doesn't always make an issue.
 "For super small changes that don’t need to be discussed, for spontaneous outbursts
 of code or creativity or when you just can’t be bothered," Job said.
 We have to be practical, as with most rules, there are reasonable exceptions.
 
-The [Merge Request (MR)][mr] has everything we need anyway. 
+The [Merge Request (MR)][mr] has everything we need anyway.
 MRs have the same collaboration tools as issues.
 
 - Comments
