@@ -34,7 +34,6 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [GitLab Workflow](#gitlab-workflow)
    * [Team Call](#team-call)
    * [Scheduling Calls](#scheduling-calls)
-   * [GitLab Workflow](#gitlab-workflow)
    * [User Communication Guidelines](#user-communication-guidelines)
    * [Writing Style Guidelines](#writing-style-guidelines)
    * [Beamy Guidelines](#beamy-guidelines)
