@@ -76,6 +76,7 @@
   features:
   - description: Branded Login Page
     link: http://doc.gitlab.com/ee/customization/branded_login_page.html
+    in_ce: true
   - description: An admin can email all users of a project, a group or the entire server
     email: http://doc.gitlab.com/ee/tools/email.html
   - description: Omnibus package supports log forwarding
