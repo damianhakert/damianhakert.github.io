@@ -62,6 +62,11 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [Delivery analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
 - [Subscribe to new Issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/12758)
 - [Performance monitoring (EE)](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1008)
+- [Request access to a repo](https://gitlab.com/gitlab-org/gitlab-ce/issues/13948)
+
+### 8.8 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/24) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/10)
+
+- [Multiline comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/4143)
 
 ## Wishlist
 
@@ -103,7 +108,6 @@ We very much welcome contributions that implement any of these things.
 - [Ability to checkout the result of MR available before merging](https://gitlab.com/gitlab-org/gitlab-ce/issues/2765)
 - [Syntax highlighting for diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/3292)
 - [Transactional MR comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3364)
-- [Multiline comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/4143)
 
 ### Project Management
 

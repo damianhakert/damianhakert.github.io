@@ -34,7 +34,7 @@ please submit a merge request to add an upcoming class, assign to [Chad](https:/
 
 ### Recordings
 
-There is a [YouTube playlist with all recordings](https://www.youtube.com/playlist?list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e).
+There is a [YouTube playlist with all recordings](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg/playlists).
 
 ### Webcasts
 
