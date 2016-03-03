@@ -11,10 +11,10 @@ filename: 2016-03-03-gitlab-8-dot-5-dot-2-released.markdown
 Today we are releasing version 8.5.2 for GitLab Community Edition (CE) and
 Enterprise Edition (EE).
 
-This version includes many fixes for Issues sidebar, Todos, Labels, relative URL
-installations, forks list. It also ports a feature from GitLab Enterprise
+This version includes many fixes for the Issues sidebar, Todos, Labels, relative URL
+installations, and forks list. It also ports a feature from GitLab Enterprise
 Edition to GitLab Community Edition, adds documentation for the Todos feature
-and update the required Rails and OpenSSL versions.
+and updates the required Rails and OpenSSL versions.
 
 Read on for all the details!
 
@@ -112,7 +112,7 @@ To update, check out our [update page](https://about.gitlab.com/update).
 ## Enterprise Edition
 
 Interested in GitLab Enterprise Edition? Check out the [features exclusive to
-EE](http://about.gitlab.com/features/#enterprise).
+EE](https://about.gitlab.com/features/#enterprise).
 
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/subscription/).
 No time to upgrade GitLab yourself? Subscribers receive upgrade and installation
