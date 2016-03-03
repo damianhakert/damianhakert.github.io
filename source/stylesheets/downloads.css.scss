@@ -1,11 +1,13 @@
+@import "variables";
+
 .pack-fox {
   margin: 0 auto;
 }
 
 .btn-default {
-  background-color: #7769A0;
-  border-color: #7769A0;
-  color: #fff;
+  background-color: $downloads-btn-color;
+  border-color: $downloads-btn-color;
+  color: $color-white;
   transition: all .2s linear;
 }
 
@@ -13,23 +15,19 @@
 .btn-default:focus,
 .btn-default .dropdown-toggle,
 .btn-group.open .dropdown-toggle {
-  background-color: #403366;
-  border-color: #403366;
-  color: #fff;
+  background-color: $downloads-btn-hover-color;
+  border-color: $downloads-btn-hover-color;
+  color: $color-white;
 }
 
 .other-downloads a {
-  color: rgba(255,255,255,0.8);
+  color: rgba($color-white, .8);
 }
 
 pre {
-  background: #403366;
-  border: none;
-  color: white;
-}
-
-.tab-step p {
-  color: #E3DCF7;
+  background: $downloads-code-color;
+  border: 0;
+  color: $color-white;
 }
 
 .simple-header {
@@ -37,21 +35,25 @@ pre {
 }
 
 .tab-step {
-  margin: 20px 0px;
+  margin: 20px 0;
   padding: 12px;
   border-radius: 5px;
-  background-color: rgba(255,255,255,0.05);
-}
+  background-color: rgba($color-white, .05);
 
-.tab-step a {
-  color: #FFB800;
+  a {
+    color: $downloads-step-link-color;
+  }
+
+  p {
+    color: $downloads-step-color;
+  }
 }
 
 .newsletter-preamble {
   margin: 20px 5px;
 }
 
-/* Override some Marketo form styles */
+// scss-lint:disable all
 .mktoAsterix {
   display: none !important;
 }
@@ -72,3 +74,4 @@ pre {
 .mktoOffset, .mktoGutter {
   width: 0 !important;
 }
+// scss-lint:enable all

@@ -2,6 +2,8 @@ scss_files: "source/stylesheets/**"
 exclude: "source/stylesheets/vendor/**"
 
 linters:
+  BorderZero:
+    severity: error
   ColorKeyword:
     severity: error
   DuplicateProperty:
