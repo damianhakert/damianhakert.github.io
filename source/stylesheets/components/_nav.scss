@@ -1,3 +1,4 @@
+// scss-lint:disable NestingDepth,SelectorDepth
 .navbar-default {
   border: 0;
 
@@ -37,7 +38,7 @@
         @media (max-width: 767px) {
           padding-top: 8px;
           padding-bottom: 8px;
-          color: #fff;
+          color: $color-white;
         }
 
         @media (max-width: 991px) {
@@ -46,30 +47,31 @@
           font-size: 14px;
         }
       }
+    }
 
-      .sign-in-up-btn {
-        @media (min-width: 767px) {
-          border: 1px solid #554488;
-          border-radius: 3px;
-          padding: 4px 20px;
-          margin-left: 10px;
-          margin-top: 10px;
-          background-color: #fff;
-          color: #554488;
-          font-weight: 600;
+    .sign-in-up-btn {
+      @media (min-width: 767px) {
+        border: 1px solid $color-primary;
+        border-radius: 3px;
+        padding: 4px 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+        background-color: $color-white;
+        color: $color-primary;
+        font-weight: 600;
 
-          &:hover,
-          &:focus {
-            background-color: #554488;
-            color: #fff;
-            outline: 0;
-          }
+        &:hover,
+        &:focus {
+          background-color: $color-primary;
+          color: $color-white;
+          outline: 0;
         }
+      }
 
-        @media (min-width: 990px) {
-          padding: 4px 30px;
-        }
+      @media (min-width: 990px) {
+        padding: 4px 30px;
       }
     }
   }
 }
+// scss-lint:enable NestingDepth,SelectorDepth

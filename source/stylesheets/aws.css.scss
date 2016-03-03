@@ -1,3 +1,5 @@
+@import "variables";
+
 .aws-header {
   text-align: center;
   padding-top: 70px;
@@ -10,32 +12,32 @@
 
 .aws-install-step {
   margin-bottom: 50px;
-}
 
-.aws-install-step p:nth-child(1) {
-  font-weight: 200;
-  font-size: 25px;
-  color: rgba(255,255,255,0.74);
-  line-height: 30px;
-}
+  p:nth-child(1) {
+    font-weight: 200;
+    font-size: 25px;
+    color: rgba($color-white, .74);
+    line-height: 30px;
+  }
 
-.aws-install-step p:nth-child(2) {
-  font-weight: 600;
-  font-size: 30px;
-  color: #FFFFFF;
-  line-height: 37px;
-}
+  p:nth-child(2) {
+    font-weight: 600;
+    font-size: 30px;
+    color: $color-white;
+    line-height: 37px;
+  }
 
-.aws-install-step p:nth-child(3) {
-  font-weight: 200;
-  font-size: 25px;
-  color: rgba(255,255,255,0.74);
-  line-height: 30px;
+  p:nth-child(3) {
+    font-weight: 200;
+    font-size: 25px;
+    color: rgba($color-white, .74);
+    line-height: 30px;
+  }
 }
 
 h1 {
   font-size: 38px;
-  color: #FFFFFF;
+  color: $color-white;
   line-height: 47px;
   margin-bottom: 0;
 }
@@ -43,16 +45,16 @@ h1 {
 h2 {
   font-weight: 200;
   font-size: 26px;
-  color: #FFFFFF;
+  color: $color-white;
   line-height: 32px;
   margin-top: 0;
   margin-bottom: 35px;
 }
 
 .other-downloads {
-  color: white;
-}
+  color: $color-white;
 
-.other-downloads a {
-  color: white;
+  a {
+    color: $color-white;
+  }
 }

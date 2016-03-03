@@ -1,53 +1,54 @@
+@import "variables";
+
 a {
-  color: #FFF;
+  color: $color-white;
+
+  &:hover {
+    color: $color-secondary-alt;
+    text-decoration: none;
+  }
 }
 
-a:hover{
-  color: #A5ABFB;
-  text-decoration: none;
+h2 {
+  color: $color-white;
 }
 
 p {
-  margin: 0px 0px 30px;
+  margin: 0 0 30px;
 }
 
 .contact {
   text-align: center;
   padding-top: 80px;
   padding-bottom: 30px;
-  background: #548;
-  color: #BBB4CF;
+  background: $color-primary;
+  color: $contact-color;
 }
 
 .btn-primary {
-  color: #FFF;
-  background-color: #887AB6;
-  border: none;
+  color: $color-white;
+  background-color: $contact-btn-bg;
+  border: 0;
+
+  &:hover {
+    color: $color-white;
+    background-color: lighten($contact-btn-bg, 10%);
+  }
 }
 
 .clear {
   padding-bottom: 4px;
 }
 
-.btn-primary:hover {
-  color: #FFF;
-  background-color: #6654A1;
-}
-
 .btn-o {
   padding-top: 5px;
-}
-
-.twitter-follow-button {
-  height: 25px !important;
-  padding-top: 5px !important;
 }
 
 .newsletter-afterword {
   margin-top: 12px;
 }
 
-/* Override some Marketo form styles */
+// scss-lint:disable all
 .mktoAsterix, .mktoLabel {
   display: none !important;
 }
@@ -88,3 +89,4 @@ p {
   background-color: #6654A1 !important;
   color: #FFF !important;
 }
+// scss-lint:enable all

@@ -9,10 +9,10 @@
 }
 
 .logo-svg-shape {
-  transition: all 0.8s;
+  transition: all .8s;
 }
 
 .logo-svg-shape:hover {
-  fill: #fff;
-  transition: all 0.1s;
+  fill: $color-white;
+  transition: all .1s;
 }
