@@ -3,7 +3,7 @@ layout: post
 title: "Always start with an issue"
 date: 2016-03-03
 comments: true
-categories: collaboration
+categories: workflow
 author: Heather McNamee
 author_twitter: nearlythere
 image_title: '/images/unsplash/stars.png'
@@ -26,7 +26,7 @@ Make sure to search in All issues (open and closed) to see if your idea has been
 
 ### GitLab is a discussion about software
 
-The benefits of collaboration start at the point of making an issue.
+The benefits of collaboration start at the point of [making an issue][docs-issue].
 By making an issue, you get your ideas out there, and this allows your
 collaborators to have their say early in the process.
 
@@ -71,9 +71,9 @@ Let's consider the lifetime of this issue which started 174 days before the fina
 
 The task was assigned to Douglas only on Feb 2nd, with 20 days left to that milestone.
 Douglas spent 11% of lifetime of this issue on implementation.
-He didn't created the merge request until 7 days before the release.
-That means over the course of the issue from start to close, only 4% of the
-lifetime of the issue was spent "coding".
+He didn't create the merge request until 7 days before the release.
+That means over the course of the issue from start to close,
+*only 4% of the lifetime of the issue was spent "coding".*
 Douglas even spent the first week of implementation reading code and writing a
 proposal for how he would implement the feature.
 
@@ -90,9 +90,8 @@ metric of software development productivity.
 
 ## What happens if you don’t make an issue first?
 
-![Gollum gets precious about his work](/images/blogimages/gollum-perfectionist.jpg)
-
-There’s a danger with spending a lot of time on work before sharing the idea.
+There’s a danger with spending a lot of time on work before sharing the idea, 
+like some kind of [Gollum][gollum], working on your own.
 As you develop it, and polish it, you run the risk of becoming precious about it.
 
 When you present your polished prize, you risk spending more time justifying
@@ -106,18 +105,18 @@ By starting with an issue you also avert a number of risks which can introduce p
 - There may be factors for users you may not know.
 - There may be work going on in a parallel effort which relates your idea.
 
-The issue opens the conversation.
+The issue opens the conversation, and you gain the benefits of collaboration from the start.
 
-## What's contained in the initial issue?
+## What's contained in the initial issue for a feature proposal?
 
 In the [contribution guide][contribution guide], we call these "feature proposals"
 rather than "feature requests".
 This is a subtle but important nuance.
 
-A request puts the onus on someone else to "fulfill" a request.
-Whereas a proposal puts the onus on the initial person writing the issue.
+A 'request' puts the onus on someone else to "fulfill" a request.
+Whereas a 'proposal' puts the onus on the initial person writing the issue.
 
-> Please keep feature proposals as small and simple as possible,
+> Please keep feature proposals as small and simple as possible, 
 complex ones might be edited to make them small and simple.
 > For changes in the interface, it can be helpful to create a mockup first.
 > If you want to create something yourself, consider opening an issue
@@ -130,8 +129,13 @@ Thankfully it was kept and we can compare it.
 ## Are there times you don’t start with an issue?
 
 Sure! When I’m working on something small, corrections or typo fixes, I don’t make an issue.
+Job said he also doesn't always make an issue. 
+"For super small changes that don’t need to be discussed, for spontaneous outbursts
+of code or creativity or when you just can’t be bothered," Job said.
+We have to be practical, as with most rules, there are reasonable exceptions.
 
-The Merge Request (MR) has all the same collaboration tools I need.
+The [Merge Request (MR)][mr] has everything we need anyway. 
+MRs have the same collaboration tools as issues.
 
 - Comments
 - Labels and Milestone
@@ -157,6 +161,9 @@ organized with labels and milestones.
 
 Can't make it? Register anyway, and we'll send you a link to watch it later!
 
+[gollum]: http://www.imdb.com/character/ch0000152/quotes
+[docs-issue]: http://doc.gitlab.com/ce/gitlab-basics/create-issue.html
+[mr]: http://doc.gitlab.com/ee/gitlab-basics/add-merge-request.html
 [todo blog]: https://about.gitlab.com/2016/03/02/gitlab-todos-feature-highlight/
 [wip]: http://doc.gitlab.com/ce/workflow/wip_merge_requests.html
 [webcast]: http://page.gitlab.com/mar-2016-gitlab-introduction.html
