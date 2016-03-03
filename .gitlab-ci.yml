@@ -1,0 +1,17 @@
+image: "ruby:2.1"
+
+before_script:
+  - ruby -v
+  - which ruby
+  - gem install bundler --no-ri --no-rdoc
+  - bundle install"
+
+stages:
+  - test
+
+scss:lint:
+  stage: test
+  script:
+    - bundle exec scss-lint
+  tags:
+    - scss
