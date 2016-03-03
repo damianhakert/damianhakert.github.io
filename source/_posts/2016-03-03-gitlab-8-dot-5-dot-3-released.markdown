@@ -30,7 +30,7 @@ Read on for all the details!
 ## `gitlab-elastic-search` gem update
 
 This patch release updates the `gitlab-elastic-search` gem to `0.0.11`. If you
-are using Elasticsearch,this will fix an issue where no CI builds where created
+are using Elasticsearch, this will fix an issue where no CI builds where created
 for new merge requests.
 
 ## Upgrade barometer
