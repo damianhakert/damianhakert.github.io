@@ -8,8 +8,9 @@ author_twitter: gitlab
 filename: 2016-03-03-gitlab-8-dot-5-dot-3-released.markdown
 ---
 
-Today we are releasing version 8.5.3 for GitLab Community Edition (CE) and
+We are releasing version 8.5.3 for GitLab Community Edition (CE) and
 Enterprise Edition (EE).
+This follows the release of version 8.5.2 earlier today, we try to release fixes as early and often as possible and this is the first time we have two patch releases on the same day.
 
 This version includes one important fixes for GitLab Enterprise Edition when
 Elasticsearch is enabled, as well as two minor fixes.
