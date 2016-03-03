@@ -23,15 +23,16 @@ We are assuming that you are familiar with [`git`][git] and with the web develop
 
 - [GitLab Pages](#GitLab-Pages)
 - [Website Types](#website-types)
-   - [User Websites](#user-websites)
+   - [User/Group Websites](#user-websites)
    - [Project Websites](#project-websites)
 - [Setting Up GitLab Pages](#Setting-Up-GitLab-Pages)
    - [Step-by-Step](#step-by-step)
       - [Create a new project](#creating-new-project)
       - [Add the configuration file:  `.gitlab-ci.yml`](#add-gitlab-ci)
-      - [Configure runners](#enable-runners)
       - [Upload your website content](#upload-content)
+      - [Add your custom domain](#custom-domains)
 - [Examples](#examples)
+- [FAQ](#faq)
 - [Getting Help](#getting-help)
 - [Conclusions](#conclusions) 
 
@@ -45,13 +46,8 @@ We are assuming that you are familiar with [`git`][git] and with the web develop
 which was made for providing a free, simple website hosting service.  
 [GitLab Pages][pages-ee] is available through the GitLab EE. GitLab Enterprise Edition is what [GitLab.com][about-gitlab-com] runs on.
 
-GitLab Pages supports [static websites][wiki-static-websites] and also builds [Jekyll][]. 
+GitLab Pages supports [static websites][wiki-static-websites] and also builds [Static Site Generators (SSGs)][SSGs], as [Jekyll][], [Hugo], [Hexo], [Middleman] and many others. 
 
-Jekyll is software written in [Ruby][] which generates static blog aware websites. 
-This means we write dynamically with [Liquid][], [Markdown][] and [YAML][] and Jekyll builds the static site (HTML, CSS, JS) for us. 
-It offers full support for preprocessors like [Sass][] and [Coffee Script][]. 
-You can find all of it on [Jekyll Documentation][].
- 
 On the official docs you can understand how [GitLab Pages][pages-work] work.
 
 <a name="website-types"></a>
@@ -60,18 +56,30 @@ On the official docs you can understand how [GitLab Pages][pages-work] work.
 
 On GitLab.com you are allowed to create and host with GitLab Pages two sorts of websites:
 
-1. User Websites
+1. User/Group Websites
 1. Project Websites
 
 <a name="user-websites"></a>
 
-## GitLab User Websites
+## GitLab User &amp; Group Websites
+
+### User Websites
 
 Every GitLab.com user is permitted to create only one **user website**, 
 which will be accessed via `https://username.gitlab.io`. 
 Setting this website up has exactly the same process as setting **project websites** up. 
 They are both deployed and build likely. The only difference is, for **user websites**, 
-the repository name needs to be exactly `username.gitlab.io`.
+the repository name needs to be exactly `username.gitlab.io`, where `username` is your user name, and corresponds to your unique **namespace** on GitLab.com.
+
+### Group Websites
+
+Creating a [group][doc-groups] on GitLab is very useful when you have several projects with the same subject. 
+Each group has with its own **namespace**, which is unique for each group.
+
+Group websites follow the same logic as users' do. 
+If you want to deploy a website under the group namespace, 
+just create a new project named `groupname.gitlab.io` 
+and the website will be accessible under `https://groupname.gitlab.io/`.
 
 <a name="project-websites"></a>
 
@@ -81,6 +89,9 @@ Every GitLab.com user is allowed to create as many **project websites** as they 
 They will be accessed via `https://username.gitlab.io/projectname`. 
 Their **repository names** (projects' names) can be chosen at the users' will.
 
+Similarly, for each group you can assemble project 
+websites which will be accessible under `https://groupname.gitlab.io/projectname`.
+
 <a name="Setting-Up-GitLab-Pages"></a>
 
 # Setting Up GitLab Pages
@@ -89,8 +100,8 @@ Here is an overview of the steps we'll take, assuming you have your GitLab.com a
 
 1. Create a new project
 1. Add the configuration file - called `.gitlab-ci.yml`
-1. Configure runners
 1. Upload your website content
+1. Add your custom domain _(non-required)_
 1. Done!
 
 <a name="step-by-step"></a>
@@ -107,27 +118,27 @@ This is as strait-forward as you can imagine:
 
 - On your **dashboard** you will see a big green button called `+ New Project`. Click on it.
 - Set the first things up:
-   - **Project path** - your project's name, accessed by `https://gitlab.com/username/projectname`
+   - **Project path** - your project's name, accessed via `https://gitlab.com/username/projectname`
    - **Privacy** - choose if you want your project to be visible and accessible just for you (`private`), just for GitLab.com users (`internal`) or free to anyone to view, clone, fork and download it (`public`)
 
-**Important**: you can host your website on [GitLab.com][gitlab-com] even if it is stored in a **private** repository! 
-If you do so, you can have your project **protected** - only the `html` compiled site will be visible 
-to the public - via _Inspect Element_ or _View-Source_ from their web browsers.
+_**Note**: you can host your website on [GitLab.com][gitlab-com] even if it is stored in a private repository. 
+If you do so, you can have your project protected - only the static site will be visible 
+to the public - via "Inspect Element" or "View-Source" from their web browsers._
 
 <a name="add-gitlab-ci"></a>
 
 ### Add the configuration file: `.gitlab-ci.yml`
 
-The key for having everything up and running as expected is [**GitLab CI** configuration file][doc-ciconfig] `.gitlab-ci.yml`.
+The key for having everything up and running as expected is the [**GitLab CI** file][doc-ciconfig] `.gitlab-ci.yml`.
 
-What this file does is [configuring][ee-yaml-ci] how your website will be build by a _[runner][doc-runners]_. 
+What this file does is [configuring][ee-yaml-ci] how your website will be build by a _[runner][doc-config-runners]_. 
 It is written in [YAML][], which has its own syntax, so we recommend you
  to follow this [quick start guide][] before setting it up. 
 It needs to be placed at your project's root. 
 
 Before you push any `.gitlab-ci.yml` to your project, you can 
 validate its syntax with the tool called [CI Lint][ci-lint]. 
-You need to be logged into your account to have access to this link.
+You need to be logged into your account to have access to this tool.
 
 ### GitLab-ci for plain HTML websites
 
@@ -149,22 +160,24 @@ pages:
 ```
 
 What this code is doing is creating a _[job][doc-jobs]_ called _[pages][doc-contents-ciconfig]_ 
-telling the _[runner][doc-runners]_ to _[deploy][doc-stages]_ the website _[artifacts][doc-artifacts]_ to a _[public path][doc-contents-ciconfig]_, 
-whenever a commit is pushed _[only][doc-only]_ to the master branch.
+telling the _[runner][doc-shared-runners]_ to _[deploy][doc-stages]_ the website _[artifacts][doc-artifacts]_ to a _[public path][doc-contents-ciconfig]_, 
+whenever a commit is pushed _[only][doc-only]_ to the `master` branch.
 
 All pages are created after the build completes successfully 
 and the artifacts for the pages job are uploaded to GitLab.
 
 ### GitLab-ci for Jekyll websites
 
+Jekyll is so far the most popular [SSG][SSGs] available, that's why we'll use it as an example for configuring our GitLab-ci. On the next section you'll find more [examples](#examples) for SSGs already tested with GitLab Pages. 
+
+Jekyll is written in [Ruby][] and generates static blog aware websites. 
+This means we write dynamically with [Liquid], [Markdown] and [YAML] and 
+Jekyll builds the static site (HTML, CSS, JS) for us. 
+You will find the same functionality for every SSG, 
+yet each of them uses its own languages.
+
 If you want GitLab Pages to build your Jekyll website, 
 you can start with the simple script below. 
-It is requiring the _[script][doc-script]_ to run on 
-the _[environment][doc-images]_ of [Ruby][] 2.1.x, 
-installing and building Jekyll to the _[public path][doc-contents-ciconfig]_. 
-The result is affecting _[only][doc-only]_ the master branch.
-For building a regular Jekyll site, you need just 
-to copy this code and paste it into your `.gitlab-ci.yml`. 
 
 ```yaml
 image: ruby:2.1
@@ -180,57 +193,143 @@ pages:
   - master
 ```
 
+This code is requiring the _[script][doc-script]_ to run on 
+the _[environment][doc-images]_ of [Ruby][] 2.1.x and 
+installing and building Jekyll to the _[public path][doc-contents-ciconfig]_. 
+The result is affecting _[only][doc-only]_ the master branch.
+For building a regular Jekyll site, you can just 
+copy this code and paste it into your `.gitlab-ci.yml`. 
+
 Here you can read the [full documentation regarding `.gitlab-ci.yml`][ee-yaml-ci].
-
-<a name="enable-runners"></a>
-
-### Configure _Runners_
-
-This step is quite simple.
-
-A "runner" is a process which runs a build; that's why we need it. 
-To enable [runners][doc-config-runners] to your project, simply go to your project's dashboard, 
-click on `Settings` -> `Runners` -> [`Enable Shared Runners`][doc-shared-runners]. 
-These are special virtual machines that run on GitLab's infrastructure and can build any project.
-
-If you want to know more about them, 
-you can read the [quick start guide][] and the [runners][doc-runners] documentation.
 
 <a name="upload-content"></a>
 
 ### Upload your website content
 
-Push the content to your project and keep an eye on the build!
+Push the content to your remote project and keep an eye on the build!
+
+<a name="custom-domains"></a>
+
+### Add your custom domain
+
+_**Note:** Custom CNAMEs with TLS support were introduced in [GitLab EE 8.5][EE-85]._
+
+If you want, you can easily add 
+your own domain name to your website hosted by GitLab.com.
+
+- From your project's dashboard, go to `Settings` -> `Pages` -> `+ New Domain`
+
+- Add your domain to the first field: `mydomain.com`
+
+- If you have a SSL/TLS digital certificate and its key, just add them to their respective fields. This will enable `https` secure connection to your custom domain. If you don't, just leave the fields blank. 
+
+
+- Click on `Create New Domain`.
+
+- Finally, access your domain control panel and create a new `CNAME`  DNS record pointing to `username.gitlab.io`:
+
+```
+mydomain.com CNAME username.gitlab.io
+```
+
+**Alternatively, the same procedure can be applied for custom sub domains:**
+
+- Add the sub domain to the first field: `subdomain.mydomain.com`
+
+- Then create the DNS record:
+
+```
+subdomain.mydomain.com CNAME username.gitlab.io
+```
+
+Ordinary, DNS propagation needs some time to take effect, so don't worry if you can't access your website under your custom domain instantaneously. Wait a few hours and check it again.
 
 <a name="examples"></a>
 
 # Examples
 
-On the following tables you can find a few examples of plain HTML and Jekyll sites
- build with GitLab Pages and hosted by GitLab.com.
+On the following tables you can explore some examples of sites 
+build with GitLab Pages and hosted by GitLab.com. 
 
-**Plain HTML Template Websites**
+On the first table you will find some illustrative plain HTML websites; on the subsequent lists, 
+some SSGs examples that we gathered for you, organized by their respective environments.
 
-| Website URL | Project URL | .gitlab-ci.yml | Configuration | 
-| ----------- | ----------- | -------------- | -------------- |
-|[Simple page][h-1-web]|[Source on GitLab][h-1-pro]|[.gitlab-ci.yml][h-1-ci]| Default
-|[Genius Template][h-2-web]|[Source on GitLab][h-2-pro]|[.gitlab-ci.yml][h-2-ci]| Default
-|[ArtCore Template][h-3-web]|[Source on GitLab][h-3-pro]|[.gitlab-ci.yml][h-3-ci]| Default
+### Plain HTML Websites
 
-**Jekyll Websites**
+| Website URL | Project URL | Configuration |  
+| ----------- | ----------- | -------------- | 
+| [Simple page][h-1-web] | [Source on GitLab][h-1-pro] | [Default][h-1-ci] |
+| [Genius Template][h-2-web] | [Source on GitLab][h-2-pro] | [Default][h-2-ci] |
+| [ArtCore Template][h-3-web] | [Source on GitLab][h-3-pro] | [Default][h-3-ci] |
 
-| Website URL | Project URL | .gitlab-ci.yml | Configuration | 
-| ----------- | ----------- | -------------- | -------------- |
-|[Default Theme][j-1-web]|[Source on GitLab][j-1-pro]|[.gitlab-ci.yml][j-1-ci]| Markdown: `redcarpet` 
-|[Greyscale Theme][j-2-web]|[Source on GitLab][j-2-pro]|[.gitlab-ci.yml][j-2-ci]| Default 
-|[Creative Theme][j-3-web]|[Source on GitLab][j-3-pro]|[.gitlab-ci.yml][j-3-ci]| Deploing via `pages` branch 
-|[Carte Noire Theme][j-4-web]|[Source on GitLab][j-4-pro]|[.gitlab-ci.yml][j-4-ci]| Building Jekyll v 2.5.3 with `bundler`
+### Environment: **Ruby**
 
-_**Note**: these  themes were randomly chosen and listed on this post 
-to provide you with some distinct GitLab-ci configurations. _
+| SSG | Website URL | Project URL | Configuration | 
+| --- | ----------- | ----------- | -------------- |
+| [Jekyll] | [Greyscale Theme][j-3-web] | [Source on GitLab][j-3-pro] | [Default][j-3-ci] |  
+| [Jekyll] | [Default Theme][j-2-web] | [Source on GitLab][j-2-pro] | [Building Jekyll 3.1.2 with `bundler`][j-2-ci] | 
+| [Middleman] | [Default Theme][middle-prev] | [Source on GitLab][middle-proj] | [Default][middle-ci] | 
+| [Hugo/GoLang][Hugo] | [Lanyon Theme][hugo-prev] | [Source on GitLab][hugo-proj] | [Default][hugo-ci] |
 
-You can find more [GitLab CI examples][ci-examples] in this group.
 
+### Environment: **Node JS**
+
+| SSG | Website URL | Project URL | Configuration | 
+| --- | ----------- | ----------- | -------------- |
+| [Hexo] | [Hueman Theme][hexo-prev] | [Source on GitLab][hexo-proj] | [Default + Test Job][hexo-ci] |
+| [Brunch] | [Default Skeleton][brunch-prev] | [Source on GitLab][brunch-proj] | [Default][brunch-ci] |
+| [Harp] | [Default Theme][harp-prev] | [Source on GitLab][harp-proj] | [Default][harp-ci] |
+| [Metalsmith] | [Default Theme][metal-prev] | [Source on GitLab][metal-proj] | [Default][metal-ci] |
+
+
+### Environment: **Python**
+
+**** To be included - (?)
+
+### More Examples
+
+On the following GitLab groups you can find even more examples.
+
+| Group | Environment | SSGs |
+| ----- | ----------- | ---- |
+| [GitLab CI][ci-examples] | Ruby, Node, etc| Brunch, Harp, Hexo, Hugo, Jekyll, MetalSmith, Middleman |
+| [Jekyll Themes][jekyll-examples] | Ruby | Jekyll |
+| [Themes and Templates][themes-templates] | Miscellaneous | Miscellaneous |
+| [HTML Themes][html-examples] | - | - |
+
+_**Note:** these themes, templates and SSGs were casually chosen and listed on this post to provide you with some distinct GitLab CI configurations._
+
+<a name="faq"></a>
+
+# FAQ
+
+
+### Is it all of this really free to use?
+
+Yes, it is! On [GitLab.com][sign-up] you can create your free account and enjoy all it's [features][gitlab-com], including unlimited private repositories, projects, websites and contributors. Also, you'll have 10GB disk space per project and unlimited total disk space. Awesome, isn't it? Why don't you take a peek at the [public projects][explore]?
+
+### Where is the `public` folder?
+
+When a build succeeds, you'll find your static site at `Project` -> `Builds` -> `Build ID` -> `Browse`.  You can download the artifacts from the same screen.
+
+### Can I use other SSGs?
+
+Yes, you can use pretty much any [SSG][SSGs] available.
+
+### Can I use free SSL/TLS digital certificates?
+
+Yes, absolutely. However, you cannot use self-signed certificates.
+
+### Can I contribute to the themes?
+
+Sure! You are very welcome to contribute to the groups mentioned above. 
+To do that, please set your website up and make sure it's working as you expected. 
+Then, add an issue to the group you're interested in and we'll be glad to fork your theme 
+and expose it to our community!
+
+### Can I use `.php` pages and connect databases with my sites?
+
+No. GitLab Pages host static websites only (HTML, CSS and JS).
 
 <a name="getting-help"></a>
 
@@ -245,12 +344,7 @@ feel free to use one of [our channels][get-help].
 
 Hopefully now you understand how **GitLab Pages** work and how to create your new site.
 
-Pointing **custom domain names** to GitLab Pages websites is a feature that 
-is already fully functional on [GitLab EE][pages-ee]. 
-It's currently [under development][cname-issue] and 
-will be available soon on **GitLab.com** via **CNAME**.
-
-Follow [GitLab on Twitter][twitter] to stay tuned for updates!
+Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 
 We're looking forward to seeing your sites!
 
@@ -258,6 +352,7 @@ We're looking forward to seeing your sites!
 [doc-ciconfig]: http://doc.gitlab.com/ee/ci/quick_start/README.html#creating-a-.gitlab-ci.yml-file
 [doc-config-runners]: http://doc.gitlab.com/ee/ci/quick_start/README.html#configuring-a-runner
 [doc-contents-ciconfig]: http://doc.gitlab.com/ee/pages/README.html#explore-the-contents-of-.gitlab-ci.yml
+[doc-groups]: http://doc.gitlab.com/ee/workflow/groups.html
 [doc-images]: http://doc.gitlab.com/ee/ci/yaml/README.html#image-and-services
 [doc-jobs]: http://doc.gitlab.com/ce/ci/yaml/README.html#jobs
 [doc-only]: http://doc.gitlab.com/ee/ci/yaml/README.html#only-and-except
@@ -274,20 +369,32 @@ We're looking forward to seeing your sites!
 [ci-examples]: https://gitlab.com/groups/gitlab-examples#projects
 [ci-lint]: https://gitlab.com/ci/lint "Try me!"
 [cname-issue]: https://gitlab.com/gitlab-org/gitlab-ee/issues/134
+[ee-85]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/173
+[explore]: https://gitlab.com/explore
 [get-help]: https://about.gitlab.com/getting-help
 [gitlab83]: https://about.gitlab.com/2015/12/22/gitlab-8-3-released
 [gitlab-com]: https://about.gitlab.com/gitlab-com/
+[html-examples]: https://gitlab.com/groups/html-themes#projects
+[jekyll-examples]: https://gitlab.com/groups/jekyll-themes#projects
 [sign-up]: https://gitlab.com/users/signin "Sign Up!"
+[themes-templates]: https://gitlab.com/themes-templates
 [twitter]: https://twitter.com/gitlab
 
+[Brunch]: http://brunch.io/
 [Coffee Script]: http://coffeescript.org/
 [git]: https://git-scm.com/about
+[Harp]: http://harpjs.com/
+[Hexo]: https://hexo.io/
+[Hugo]: https://gohugo.io/
 [Jekyll]: https://jekyllrb.com
 [Jekyll Documentation]: http://jekyllrb.com/docs/home/
 [Liquid]: https://github.com/Shopify/liquid/wiki
 [Markdown]: http://daringfireball.net/projects/markdown/
+[Metalsmith]: http://www.metalsmith.io/
+[Middleman]: https://middlemanapp.com/
 [Ruby]: https://www.ruby-lang.org/
 [Sass]: http://sass-lang.com/
+[SSGs]: https://staticsitegenerators.net/
 [wiki-static-websites]: https://en.wikipedia.org/wiki/Static_web_page
 [YAML]: http://yaml.org/
 
@@ -295,30 +402,42 @@ We're looking forward to seeing your sites!
 [h-1-pro]: https://gitlab.com/gitlab-examples/pages-plain-html
 [h-1-ci]: https://gitlab.com/gitlab-examples/pages-plain-html/blob/master/.gitlab-ci.yml
 
-[h-2-web]: https://virtuacreative.gitlab.io/genius/ " A beautiful gallery dark theme"
-[h-2-pro]: https://gitlab.com/virtuacreative/genius
-[h-2-ci]: https://gitlab.com/virtuacreative/genius/blob/master/.gitlab-ci.yml
+[h-2-web]: http://html-themes.gitlab.io/genius/ "A beautiful gallery dark theme"
+[h-2-pro]: https://gitlab.com/html-themes/genius
+[h-2-ci]: https://gitlab.com/html-themes/genius/blob/master/.gitlab-ci.yml
 
-[h-3-web]: https://virtuacreative.gitlab.io/artcore/ "A featured template with multiple page layouts and fancy animations"
-[h-3-pro]: https://gitlab.com/virtuacreative/artcore
-[h-3-ci]: https://gitlab.com/virtuacreative/artcore/blob/master/.gitlab-ci.yml
+[h-3-web]: http://html-themes.gitlab.io/artcore/ "A featured template with multiple page layouts and fancy animations"
+[h-3-pro]: https://gitlab.com/html-themes/artcore
+[h-3-ci]: https://gitlab.com/html-themes/artcore/blob/master/.gitlab-ci.yml
 
-[j-1-web]: https://gitlab.com/gitlab-examples/pages-jekyll "The default Jekyll Theme"
-[j-1-pro]: https://gitlab.com/gitlab-examples/pages-jekyll
-[j-1-ci]: https://gitlab.com/gitlab-examples/pages-jekyll/blob/master/.gitlab-ci.yml
+[j-2-web]: https://jekyll-themes.gitlab.io/default-bundler/ "The default Jekyll Theme"
+[j-2-pro]: https://gitlab.com/jekyll-themes/default-bundler
+[j-2-ci]: https://gitlab.com/jekyll-themes/default-bundler/blob/master/.gitlab-ci.yml
 
-[j-2-web]: https://virtuacreative.gitlab.io/grayscale/ "A single page Jekyll template"
-[j-2-pro]: https://gitlab.com/virtuacreative/grayscale
-[j-2-ci]: https://gitlab.com/virtuacreative/grayscale/blob/master/.gitlab-ci.yml
+[j-3-web]: http://jekyll-themes.gitlab.io/grayscale/ "A single page Jekyll template"
+[j-3-pro]: https://gitlab.com/jekyll-themes/grayscale
+[j-3-ci]: https://gitlab.com/jekyll-themes/grayscale/blob/master/.gitlab-ci.yml
 
-[j-3-web]: https://steko.gitlab.io/test/ "A beautiful Start Bootstrap Theme"
-[j-3-pro]: https://gitlab.com/steko/test/tree/pages
-[j-3-ci]: https://gitlab.com/steko/test/blob/pages/.gitlab-ci.yml
+[hugo-prev]: https://gitlab-examples.gitlab.io/pages-hugo/
+[hugo-proj]: https://gitlab.com/gitlab-examples/pages-hugo
+[hugo-ci]: https://gitlab.com/gitlab-examples/pages-hugo/blob/master/.gitlab-ci.yml
 
-[j-4-web]: https://virtuacreative.gitlab.io/carte-noire/ "A dark blog theme with Jekyll Plugins"
-[j-4-pro]: https://gitlab.com/virtuacreative/carte-noire
-[j-4-ci]: https://gitlab.com/virtuacreative/carte-noire/blob/master/.gitlab-ci.yml
+[middle-prev]: https://middleman-themes.gitlab.io/middleman/
+[middle-proj]: https://gitlab.com/middleman-themes/middleman
+[middle-ci]: https://gitlab.com/middleman-themes/middleman/blob/master/.gitlab-ci.yml
 
-[j-4-web]: https://virtuacreative.gitlab.io/carte-noire/ "A dark blog theme with Jekyll Plugins"
-[j-4-pro]: https://gitlab.com/virtuacreative/carte-noire
-[j-4-ci]: https://gitlab.com/virtuacreative/carte-noire/blob/master/.gitlab-ci.yml
+[hexo-prev]: https://themes-templates.gitlab.io/hexo/
+[hexo-proj]: https://gitlab.com/themes-templates/hexo
+[hexo-ci]: https://gitlab.com/themes-templates/hexo/blob/master/.gitlab-ci.yml
+
+[brunch-prev]: https://gitlab-examples.gitlab.io/pages-brunch/
+[brunch-proj]: https://gitlab.com/gitlab-examples/pages-brunch
+[brunch-ci]: https://gitlab.com/gitlab-examples/pages-brunch/blob/master/.gitlab-ci.yml
+
+[harp-prev]: https://gitlab-examples.gitlab.io/pages-harp/
+[harp-proj]: https://gitlab.com/gitlab-examples/pages-harp
+[harp-ci]: https://gitlab.com/gitlab-examples/pages-harp/blob/master/.gitlab-ci.yml
+
+[metal-prev]: https://gitlab-examples.gitlab.io/pages-metalsmith/
+[metal-proj]: https://gitlab.com/gitlab-examples/pages-metalsmith
+[metal-ci]: https://gitlab.com/gitlab-examples/pages-metalsmith/blob/master/.gitlab-ci.yml
