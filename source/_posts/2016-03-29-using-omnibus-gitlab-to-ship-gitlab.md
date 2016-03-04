@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Omnibus GitLab package, why on earth?
+title: Using Omnibus GitLab package to ship GitLab
 date: 2016-03-29
 comments: true
 author: Marin Jankovski
 author_twitter: maxlazio
+image_title: /images/unsplash/cat-in-the-box.jpg
 ---
 
 Two years ago we announced that [GitLab is now simple to install] with a great
@@ -17,8 +18,8 @@ seems to have polarized people to either
 [hate](https://twitter.com/phessler/status/672747920635109376)
 [them](https://twitter.com/jiphex/status/672746104103051265).
 
-Let's take a look at some of the advantages and the disadvantages of the
-omnibus-gitlab package.
+Let's take a look at what kind of decisions we need make on
+every release of GitLab and how omnibus-gitlab package fits into this process.
 
 <!--more-->
 
@@ -27,12 +28,13 @@ omnibus-gitlab package.
 [Omnibus project] is a brainchild of Chef Inc.
 Their product, Chef Server, was notoriously hard to install and configure. To
 tackle this issue the omnibus project was created. The idea behind it was to
-have one binary package for the supported OS that would install all the required
+have one binary package for the supported OS that would install all required
 dependencies and allow configuration of each required component.
-This meant that the end binary package will certainly not be lean like the most
-binary packages. In fact, they will be "fat" and hence [the name omnibus].
-This also meant going against [Unix design principles] which favours
-composable components as opposed to monolithic software (which reminds Unix
+This meant that the end binary package will certainly not be lean like packages
+that people usually encounter. In fact, they will be "fat" and
+hence [the name omnibus].
+This also meant going against [the Unix design principles] which favour
+[composable components] as opposed to [monolithic software] (which reminds Unix
 users too much of Windows software).
 
 The concept is simple:
@@ -45,8 +47,8 @@ The concept is simple:
 ## Installing GitLab from source
 
 GitLab is fighting a similar battle.
-[Installation and update guides] for what we now call
-the installation from source are available but they are at least 10 pages long.
+[Installation and upgrade guides] for what we call the installation from source
+are available but they are at least 10 pages long.
 
 They show how to install and configure multiple dependencies,
 system users, which directories and files need to exist and user permissions
@@ -54,28 +56,29 @@ they need to have and so on. Installing a wrong version of a dependency
 means that things might not work as expected, so it is imperative to follow the
 guide to the letter.
 
-Upgrading is maybe worse. Sure, the update guide is shorter but usually you have
-time constraints to perform the upgrade. Having everyone breathing down your
-neck and expecting everything to go smooth makes upgrading very stressful.
+Upgrading is maybe even worse. Sure, the update guide is shorter but usually you
+have time constraints to perform the upgrade. Having everyone breathing down
+your neck and expecting everything to go smooth makes upgrading very stressful.
 
 ## Omnibus-gitlab
 
 Enter the omnibus-gitlab package.
 
 Anyone should be able to install and configure GitLab with minimum knowledge.
-GitLab should be available on most major Linux distributions, at least on the
-most widely used ones.
+GitLab should be available on most widely used Linux distributions.
 
 We want for the focus to be on GitLab and its features.
-Installation and update should be easy and almost enjoyable!
+Installation and upgrade should be easy and almost enjoyable!
 
 This is how omnibus-gitlab was born.
 
 Benefits for everyone:
 
-1. Users need minimum effort to install GitLab
-1. Users need minimum configuration to get GitLab up and running
+1. Users need a minimum effort to install GitLab
+1. Users need a minimum configuration to get GitLab up and running
 1. Users can easily upgrade between GitLab versions
+1. Users are encouraged to upgrade to the latest version of GitLab which is
+always better than the previous one
 
 Benefits for the maintainers of GitLab:
 
@@ -85,7 +88,7 @@ install
 1. We can make sure that the components that GitLab requires for a specific
 version are shipped
 1. We know that the components are running on versions that are compatible
-1. It becomes easier to support any issues user have because we have a
+1. It becomes easier to support any issues user have because we have a mostly
 predictable environment
 1. We can maintain one project that covers all of the above
 
@@ -98,7 +101,7 @@ Given how important GitLab is to the development infrastructure, we need to be
 able to react quick to any vulnerabilities in GitLab or any of its components.
 
 The overhead of maintaining this type of package is low since we only need
-one or two dedicated people to take care of all support that a package needs.
+a couple of dedicated people to take care of support that a package needs.
 
 ### Silver bullet?
 
@@ -115,22 +118,23 @@ different version).
 For a very large portion of users all of the above won't matter but there are
 environments which are highly restrictive.
 The package has a lot of configuration to make it easier to adjust to the
-environment but this can be a lot of work to get right. To this day we are
-working on making the package even more customizable. It is a process rather
-than a sprint.
+environment but this can be a lot of work to get right.
+We are always working on making the package even more customizable while
+assuming the best possible defaults for users who don't need to customize.
+However, it is a process rather than a sprint.
 
 ### But you could have done X instead!
 
-One of the complaints we often hear is that the omnibus packages are a blasphemy
+One of the remarks we often hear is that the omnibus packages are a blasphemy
 and that we are breaking a number of "laws".
 
-We often get told that "You could have done it in another way".
+We often get told that "You could have done it in this better way".
 
-The list of usual suspects varies but there are some common ways that often get
-recommended.
+The list of the usual suspects varies but there are some common ways of shipping
+an application that often get recommended.
 
-We did consider the options so let's review some of the conclusions we have
-drawn.
+We are always evaluating the new options that become available.
+Let's take a look at a few of the options that we have already considered.
 
 #### Docker images
 
@@ -141,10 +145,10 @@ environments. Introducing Docker into your environment adds another piece of
 software that needs support and not everyone can add this layer.
 
 The packages in .deb and .rpm archive format are usually allowed in most if not
-all systems. Every company has a procedure on how to introduce new packages to
-their environments.
+all systems.
 
-We now have [Docker] images but as an additional method of installing GitLab.
+We release new [Docker] images on every release as an additional method of
+installing GitLab.
 
 #### Native Debian Packages
 
@@ -163,31 +167,39 @@ repository, tell the user to compile it
 1. Make sure that any change that was created in GitLab by us or any of the
 contributors does not break the package
 
-We don't have enough expertise to do the native packaging. It is a lot of work
-and we would need a dedicated team only for packaging for this platform.
+Native packages are more suited for the slower release cycles and this clashes
+with the way GitLab does releases.
 
-There are some good news though!
-[Native Debian packages are being built] by Pirate Praveen for the past 3-6
+We also don't have enough expertise and manpower to do the native packaging.
+It is a lot of work and we would need a dedicated team only for the packaging
+for this specific platform.
+
+There is some good news though!
+[Native Debian packages are being built] by Pirate Praveen for the past 6-8
 months and they are almost ready to be included in the Debian package
 repository!
 
 This will allow all users who do not want the omnibus-gitlab package to touch
 their system to easily install GitLab.
 
+We are yet to see how much of an effort will it be to release new
+versions but this is something that will be announced once the packages are
+ready.
+
 #### Native Fedora Packages
 
-The story goes pretty much the same as the story about native Debian packages.
-There was an attempt of packaging for Fedora as a part of
+The story goes pretty much the same as the story about the native Debian
+packages. There was an attempt of packaging GitLab for Fedora as a part of
 [Google Summer of Code project] by (now) our own team member
 Achilleas Pipinellis. However, it is a multi person job and packaging alone
-is a lot of work.
+is a lot of work so the project was never completed.
 
 #### Anything else
 
-We have also often heard:
+We also often hear:
 
-"Why can't you just leave Chef, Puppet, Ansible or something else to do what they
-are made for? They can be configured to get the specific versions of
+"Why can't you just leave Chef, Puppet, Ansible or something else to do what
+they are made for? They can be configured to get the specific versions of
 dependencies and installed on the system, it is not up to GitLab to care about
 that!"
 
@@ -200,6 +212,7 @@ expected.
 The end user most likely won't care how the setup is done, they might just see
 something not working as they would expect. That is a risk we want to remove if
 we can.
+
 
 ## Conclusion
 
@@ -218,16 +231,37 @@ and 2 Raspberry PI2 packages)
 
 then omnibus-gitlab is doing a very good job.
 
+[A lot](https://twitter.com/choyer/status/670273120566120449)
+[of users](https://twitter.com/jrblier/status/613077041219399681)
+[that have been using](https://twitter.com/mickael_andrieu/status/646278424936480768)
+the omnibus-gitlab packages
+[to maintain](https://twitter.com/invalidusrname/status/673862628125614080)
+[their GitLab installation](https://twitter.com/J_Salamin/status/687884326629937152)
+[seem to](https://twitter.com/alexzeitler_/status/692812151296282625)
+[agree with this](https://twitter.com/berkeleynerd/status/692093491149582339).
+
 With the omnibus-gitlab packages available for everyone we can work in parallel
 on getting more ways of installing GitLab available.
 
-Want to help? Get in touch!
+Want to help improve omnibus-gitlab package? Contribute to omnibus-gitlab at the
+[omnibus-gitlab repository]!
+
+Want to work on making GitLab available on your favourite platform but need
+some feedback? Get in touch through the [GitLab CE issue tracker]!
+
+Are you in New York on 04/12/2016?
+Ask me a question at the [Software Architecture Conference]!.
 
 [GitLab is now simple to install]: https://about.gitlab.com/2014/02/14/gitlab-is-now-simple-to-install/
 [Omnibus project]: https://github.com/chef/omnibus
 [the name omnibus]: https://en.wikipedia.org/wiki/Omnibus
-[Unix design principles]: https://en.wikipedia.org/wiki/Unix_philosophy
-[Installation and update guides]: http://doc.gitlab.com/ce/install/installation.html
+[the Unix design principles]: https://en.wikipedia.org/wiki/Unix_philosophy
+[composable components]: https://en.wikipedia.org/wiki/Composability
+[monolithic software]: https://en.wikipedia.org/wiki/Monolithic_application
+[Installation and upgrade guides]: http://doc.gitlab.com/ce/install/installation.html
 [Docker]: https://hub.docker.com/u/gitlab/
 [Native Debian packages are being built]: https://wiki.debian.org/GitLab/Packaging
 [Google Summer of Code project]: https://fedoraproject.org/wiki/User:Axilleas/GitLab
+[omnibus-gitlab repository]: https://gitlab.com/gitlab-org/omnibus-gitlab
+[GitLab CE issue tracker]: https://gitlab.com/gitlab-org/gitlab-ce/issues
+http://conferences.oreilly.com/software-architecture/engineering-business-us/public/schedule/speaker/228210
