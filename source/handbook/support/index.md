@@ -84,6 +84,19 @@ The support team calls for help when necessary via Slack, but in case of doubt o
 conflicting priorities, the Development Lead needs to give the green light for the 
 support turbo developers to momentarily switch away from their other tasks.
 
+## Internal Support<a name="internal"></a>
+
+Fellow GitLab team members can reach out for help from the Support Team in various ways:
+
+- creating an [internal issue](https://dev.gitlag.org/gitlab/organization/issues/), adding the "Support"
+label and @ mentioning one or more Service Engineers. This is the preferred path for longer term 
+or larger scope questions, such as discussing customized training requests.
+- submitting a ticket to ZenDesk using the internal support email alias that is listed in the "GitLab Email Forwarding" 
+google doc. This is the preferred path for your own questions that can use technical support, and unless an 
+immediate answer is required, this is also where customer or user questions can best be relayed.
+- pinging the support team on the support channel in Slack for quick questions or clarifications. 
+
+
 ## Support Channels <a name="support-channels"></a>
 
 A [service engineer](/jobs/service-engineer) handles the following channels.
