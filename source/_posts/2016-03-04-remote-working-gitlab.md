@@ -64,8 +64,7 @@ Having the Handbook helps making those rules explicit and clear.
 
 In July 2014, Job wrote about [how GitLab works remotely][remotely].
 We still do have a daily [team call][team call].
-Though we use Bluejeans now and not Vline.
-The technology isn't as relevant as how we do it.
+The technology may have changed, but that isn't as relevant as how we do it.
 
 The rules, according to the [the Remote Manifesto][manifesto] are the same,
 but we had to make some changes to accommodate a larger group.
@@ -110,8 +109,8 @@ I have a feeling that I know my colleagues in this company even better
 than I did in previous companies.
 Though I haven't met any of them in person (yet!)
 
-In an office, you might bond more easily with physical proximity. 
-With the team meeting, I feel somehow "close" to the people who joined around 
+In an office, you might bond more easily with those in close physical proximity. 
+With the team meeting, I feel somehow *close* to the people who joined around 
 the same time as me. 
 [Jose](https://twitter.com/random_primate) joined right before me, and speaks 
 before me in the team meeting, and [Grzegorz](https://twitter.com/GrzegorzBizon)
