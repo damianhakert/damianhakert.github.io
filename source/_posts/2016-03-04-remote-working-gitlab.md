@@ -92,7 +92,7 @@ The daily team meeting is meant to be a relaxing time, and it always cheers me u
 
 The main difference is that now we can't hear from everyone each day,
 so we have people grouped to speak on a specific day.
-Then they talk about something they did recently, or they are planning to do.
+Then each person talks about something they did recently, or they are planning to do.
 No one expects you to be "interesting" though.
 Whether you baked a cake or watched a movie, it's been an easy way to get to know
 people across the company.
@@ -102,9 +102,23 @@ once in a while, and it's nice to share.
 
 ### How remote bonding works even better
 
+My favorite quote from the video above is what Ashley said: 
+"You really get to know people and you don’t realise that you do."
+That's exactly how the team meeting works.
+
 I have a feeling that I know my colleagues in this company even better
 than I did in previous companies.
 Though I haven't met any of them in person (yet!)
+
+In an office, you might bond more easily with physical proximity. 
+With the team meeting, I feel somehow "close" to the people who joined around 
+the same time as me. 
+[Jose](https://twitter.com/random_primate) joined right before me, and speaks 
+before me in the team meeting, and [Grzegorz](https://twitter.com/GrzegorzBizon)
+joined after me, and I hand over the call to him right after me. 
+While we don't work on the same teams, I've become more familiar with them somehow.
+
+The notion of proximity is different in a remote organization. 
 
 One day, one of our colleagues said he was really bummed out and didn't even
 feel like working.
@@ -114,6 +128,8 @@ They encouraged him to take time off too.
 
 I kept on thinking that if this had happened in an office,
 he might be on the other side of the building, struggling and I wouldn't know.
+The lack of physical proximity has the potential to bring us closer, 
+as long as we are sharing what we're experiencing. 
 While it took some bravery for him to share that, I love that he did.
 
 I know that in a way, being remote is a challenge.
@@ -121,7 +137,16 @@ I can't go make him a cup of tea and chat with him.
 But it gives an advantage in that we all share these experiences together.
 
 Of course, when we do get together, we can pick up where we left off.
-And I'm very much looking forward to that!
+And I'm very much looking forward to that.
+
+We have a [Remote travel grant][grant] at GitLab, to bring people together.
+
+> If you want to visit a colleague in another part of the world, or promote 
+GitLab at events in another country, then present your travel plan to your 
+manager or the CEO, and you can receive up to $2,000 in support for your plan!
+
+While we don't have an office, we can get financial support to visit colleagues. 
+I'm super excited about this! I can't wait to make a trip on this grant :)
 
 ### Join us!
 
@@ -130,6 +155,7 @@ identify if they'd be a fit for our team.
 
 If you'd like to work with us at GitLab, please check out the [Jobs][jobs] available.
 
+[grant]: https://about.gitlab.com/handbook/#travel-grant
 [wip]: http://doc.gitlab.com/ce/workflow/wip_merge_requests.html
 [jobs]: https://about.gitlab.com/jobs
 [handbook]: https://about.gitlab.com/handbook
