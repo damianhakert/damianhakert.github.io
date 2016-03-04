@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Omnibus GitLab package to ship GitLab
-date: 2016-03-29
+date: 2016-03-30
 comments: true
 author: Marin Jankovski
 author_twitter: maxlazio
@@ -190,9 +190,9 @@ ready.
 
 The story goes pretty much the same as the story about the native Debian
 packages. There was an attempt of packaging GitLab for Fedora as a part of
-[Google Summer of Code project] by (now) our own team member
-Achilleas Pipinellis. However, it is a multi-person job and packaging alone
-is a lot of work, so the project was never completed.
+[Google Summer of Code project] by our (now) own team member
+Achilleas Pipinellis. Through that effort, we learned it is a multi-person
+job and packaging alone is a lot of work. So, the project was never completed.
 
 #### Anything else
 
