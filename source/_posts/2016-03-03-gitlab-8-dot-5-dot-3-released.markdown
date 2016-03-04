@@ -12,7 +12,7 @@ We are releasing version 8.5.3 for GitLab Community Edition (CE) and
 Enterprise Edition (EE).
 This follows the release of version 8.5.2 earlier today, we try to release fixes as early and often as possible and this is the first time we have two patch releases on the same day.
 
-This version includes one important fixes for GitLab Enterprise Edition when
+This version includes one important fix for GitLab Enterprise Edition when
 Elasticsearch is enabled, as well as two minor fixes.
 
 Read on for all the details!
@@ -36,8 +36,8 @@ for new merge requests.
 
 ## Upgrade barometer
 
-This version does not include any new migrations, and should not require any
-causing any downtime.
+This version does not include any new migrations, and should not require
+any downtime.
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
@@ -51,8 +51,8 @@ To update, check out our [update page](https://about.gitlab.com/update).
 ## Enterprise Edition
 
 Interested in GitLab Enterprise Edition? Check out the [features exclusive to
-EE](http://about.gitlab.com/features/#enterprise).
+EE](https://about.gitlab.com/features/#enterprise).
 
-Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/subscription/).
+Access to GitLab Enterprise Edition is included with a [subscription](https://about.gitlab.com/pricing/).
 No time to upgrade GitLab yourself? Subscribers receive upgrade and installation
 services.
