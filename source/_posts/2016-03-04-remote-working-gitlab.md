@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Working Remotely at GitLab: An update"
-date: 2016-03-04
+date: 2016-03-04 10:00
 comments: true
 categories:
 author: Heather McNamee
@@ -17,8 +17,8 @@ over 600% during that time, with 54 people [on our team][team] as I write this.
 
 ### Working remotely at GitLab
 
-You might be curious what it's like to work remotely at GitLab. 
-Watch this video to hear from our team! 
+You might be curious what it's like to work remotely at GitLab.
+Watch this video to hear from our team!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NoFLJLJ7abE" frameborder="0" allowfullscreen></iframe>
 
@@ -96,7 +96,7 @@ No one expects you to be "interesting" though.
 Whether you baked a cake or watched a movie, it's been an easy way to get to know
 people across the company.
 I was worried my nights of knitting might be boring news, but I flash a WIP
-(work in progress in Knitting terminology, and [on GitLab][wip]) 
+(work in progress in Knitting terminology, and [on GitLab][wip])
 once in a while, and it's nice to share.
 
 ### How remote bonding works even better
@@ -109,15 +109,15 @@ I have a feeling that I know my colleagues in this company even better
 than I did in previous companies.
 Though I haven't met any of them in person (yet!)
 
-In an office, you might bond more easily with those in close physical proximity. 
-With the team meeting, I feel somehow *close* to the people who joined around 
-the same time as me. 
-[Jose](https://twitter.com/random_primate) joined right before me, and speaks 
+In an office, you might bond more easily with those in close physical proximity.
+With the team meeting, I feel somehow *close* to the people who joined around
+the same time as me.
+[Jose](https://twitter.com/random_primate) joined right before me, and speaks
 before me in the team meeting, and [Grzegorz](https://twitter.com/GrzegorzBizon)
-joined after me, and I hand over the call to him right after me. 
+joined after me, and I hand over the call to him right after me.
 While we don't work on the same teams, I've become more familiar with them somehow.
 
-The notion of *proximity* is different in a remote organization. 
+The notion of *proximity* is different in a remote organization.
 
 One day, one of our colleagues said he was really bummed out and didn't even
 feel like working.
@@ -127,8 +127,8 @@ They encouraged him to take time off too.
 
 I kept on thinking that if this had happened in an office,
 he might be on the other side of the building, struggling and I wouldn't know.
-The lack of physical proximity has the potential to bring us closer, 
-as long as we are sharing what we're experiencing. 
+The lack of physical proximity has the potential to bring us closer,
+as long as we are sharing what we're experiencing.
 While it took some bravery for him to share that, I love that he did.
 
 I know that in a way, being remote is a challenge.
@@ -140,11 +140,11 @@ And I'm very much looking forward to that.
 
 We have a [Remote travel grant][grant] at GitLab, to bring people together.
 
-> If you want to visit a colleague in another part of the world, or promote 
-GitLab at events in another country, then present your travel plan to your 
+> If you want to visit a colleague in another part of the world, or promote
+GitLab at events in another country, then present your travel plan to your
 manager or the CEO, and you can receive up to $2,000 in support for your plan!
 
-While we don't have an office, we can get financial support to visit colleagues. 
+While we don't have an office, we can get financial support to visit colleagues.
 I'm super excited about this! I can't wait to make a trip on this grant :)
 
 ### Join us!

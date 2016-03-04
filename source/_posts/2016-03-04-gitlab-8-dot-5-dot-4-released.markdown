@@ -1,38 +1,27 @@
 ---
 layout: post
-title: "GitLab 8.5.3 Released"
-date: 2016-03-03 17:00
+title: "GitLab 8.5.4 Released"
+date: 2016-03-04 15:00
 comments: true
 author: GitLab
 author_twitter: gitlab
-filename: 2016-03-03-gitlab-8-dot-5-dot-3-released.markdown
+filename: 2016-03-04-gitlab-8-dot-5-dot-4-released.markdown
 ---
 
-We are releasing version 8.5.3 for GitLab Community Edition (CE) and
+Today we are releasing version 8.5.4 for GitLab Community Edition (CE) and
 Enterprise Edition (EE).
-This follows the release of version 8.5.2 earlier today, we try to release fixes as early and often as possible and this is the first time we have two patch releases on the same day.
 
 This version includes one important fix for GitLab Enterprise Edition when
-Elasticsearch is enabled, as well as two minor fixes.
+Elasticsearch is enabled, as well as a minor fix for GitLab Community Edition.
 
 Read on for all the details!
 
 <!-- more -->
 
-- **EE:** Prevent LDAP from downgrading a group's last owner ([!216])
-- **EE:** Update `gitlab-elastic-search` gem to `0.0.11` ([!234])
-- **CE/EE:** Flush repository caches before renaming projects ([!2974])
+- **EE:** Fix a Notes exposure in Elasticsearch results
+- **CE/EE:** Do not cache requests for badges (including builds badge) ([!3086])
 
-[!216]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/216
-[!234]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/234
-
-[!2974]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2974
-
-## `gitlab-elastic-search` gem update
-
-This patch release updates the `gitlab-elastic-search` gem to `0.0.11`. If you
-are using Elasticsearch, this will fix an issue where no CI builds where created
-for new merge requests.
+[!3086]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3086
 
 ## Upgrade barometer
 
