@@ -264,4 +264,4 @@ Ask me a question at the [Software Architecture Conference]!.
 [Google Summer of Code project]: https://fedoraproject.org/wiki/User:Axilleas/GitLab
 [omnibus-gitlab repository]: https://gitlab.com/gitlab-org/omnibus-gitlab
 [GitLab CE issue tracker]: https://gitlab.com/gitlab-org/gitlab-ce/issues
-http://conferences.oreilly.com/software-architecture/engineering-business-us/public/schedule/speaker/228210
+[Software Architecture Conference]: http://conferences.oreilly.com/software-architecture/engineering-business-us/public/schedule/speaker/228210
