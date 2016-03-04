@@ -46,7 +46,7 @@ believe that it is the best way for you to see what the work is really like, and
 for our [interviewer to see how you think, code, and collaborate](http://zachholman.com/posts/startup-interviewing-is-fucked/#collaborate).
 When contributing code, you should follow the [Contribution guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md),
 and you agree to the [individual contributor license agreement](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/legal/individual_contributor_license_agreement.md).
-If you prefer not to do the above please let us know and we'll give you an assignment that does not relate to GitLab but does tests the relevant skills.
+If you prefer not to do the above please let us know and we'll give you an assignment that does not relate to GitLab but does test the relevant skills.
 
 
 ### Product Marketing Manager
