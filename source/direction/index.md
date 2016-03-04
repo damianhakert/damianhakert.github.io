@@ -156,7 +156,7 @@ To realize [our vision](#vision) we plan to ship the following stack of tools:
 1. **Development** => [Browser IDE](https://gitlab.com/gitlab-org/gitlab-ce/issues/12759)
 1. **Version control** => GitLab Repo
 1. **Continuous integration** => GitLab CI
-1. **Merge Request** discussion => GitLab MR
+1. **Code review** => GitLab Merge Requests
 1. **Deploy** to production => [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 1. **Chatops** to check => [Hubot](https://hubot.github.com/) which has a [Merge Request](https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/564) or [Lita](https://www.lita.io/)
 1. **Wiki** to document => GitLab Wiki
