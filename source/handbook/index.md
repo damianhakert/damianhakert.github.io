@@ -187,6 +187,9 @@ Apps account. By default share Google docs with the whole company 'anyone at
 GitLab can find and access' with edit (preferred) or comment access for everyone.
 An easy way to do this, is to create your Google docs in a Shared Folder in
 Google Drive.
+1. When referring to a Google Doc in the handbook, refrain from providing the direct link. In the past
+this has led to inadvertent opening of sharing settings beyond what was intended, and it also helps 
+prevent spam from people outside of GitLab who request access to the doc when they see the link.
 1. All our procedures and templates are stored in (mostly public) git repositories
 instead of Google/Word documents. This makes them easier to find and suggest
 changes to with the organization and shows our commitment to open collaboration
