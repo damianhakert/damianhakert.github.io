@@ -34,7 +34,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 lines of the master checklist, paste the private email address of the hire in
 there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @emily, and @tiffanie.
 * [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
-* [ ] People Ops: Add blank entry to team page (only the start date and position) so the team can see when new people are joining.
+* [ ] People Ops: Add blank entry to team page (only the start date and position, use "logo-extra-whitespace.png" for the picture) so the team can see when new people are joining.
 * [ ] People Ops: Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
 * [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @HANDLE (Nominate someone preferably in similar timezone but different functional group)), and People Ops is tackled by (FILL IN WITH @ HANDLE).
 * [ ] New team member: provide signed contract (including signed proprietary information and assignment agreement (PIAA)) to People Ops.
@@ -218,18 +218,18 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 * [ ] People Ops: Inform Controller / Accounting if any items in former team members possession will not be returning, so that they can be removed from asset tracking.
 * [ ] Robert/Jacob/COO: Remove former team members' GitLab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
 * [ ] Robert/Jacob/COO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
-* [ ] People Ops: Suspect access to 1Password.
+* [ ] People Ops: Remove access to 1Password.
 * [ ] People Ops: Remove team member access to Google Drive.
 * [ ] Manager/CEO: Remove access to SalesForce.
 * [ ] Manager/CEO: Remove access to Recurly.
 * [ ] Manager/CEO: Remove access to Quickbooks.
 * [ ] People Ops: Remove access to company credit card.
 * [ ] People Ops: Remove from Beamy
-* [ ] CEO: Remove team member from the GitLab availability calendar.
-* [ ] CEO: Remove team member from team call invitation.
-* [ ] COO: Remove team member from HelloSign.
+* [ ] People Ops: Remove team member from the GitLab availability calendar.
+* [ ] People Ops: Remove team member from team call invitation.
+* [ ] People Ops: Remove team member from HelloSign.
 * [ ] Patricio/Jacob/COO: Remove from tweetdeck
-* [ ] Manager: Notify eShares administrator (CFO) of offboarding.
-* [ ] COO: Note final date of employment / contract in the [Organizational Chart and Hiring](https://docs.google.com/spreadsheets/u/1/d/1Ru1hUAlF2Z2D2ILDzzqdmOGFbzov6eDSqSwHdM6buzQ/edit?usp=sheets_home) sheet.
+* [ ] People Ops: Notify eShares administrator (CFO) of offboarding.
+* [ ] People Ops: Note final date of employment / contract in the "Organizational Chart and Hiring" sheet.
 * [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team)
 ```
