@@ -20,7 +20,9 @@ over 600% during that time, with 54 people [on our team][team] as I write this.
 You might be curious what it's like to work remotely at GitLab.
 Watch this video to hear from our team!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NoFLJLJ7abE" frameborder="0" allowfullscreen></iframe>
+<div style="text-align: center; margin-bottom: 12px">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NoFLJLJ7abE" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ### Our handbook
 
