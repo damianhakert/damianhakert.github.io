@@ -49,7 +49,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [Acknowledge line comments on a MR](https://gitlab.com/gitlab-org/gitlab-ce/issues/10325)
 - [Ability to delete issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/2489)
 - [Get rid of default login credentials](https://gitlab.com/gitlab-org/gitlab-ce/issues/1980)
-- [HA Omnibus packages (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
+- [HA Omnibus packages (EE option?)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
 - [Due date for issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/12709)
 - [Subscribe to a Label](https://gitlab.com/gitlab-org/gitlab-ce/issues/12743)
 
@@ -58,28 +58,24 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [CI Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
 - [Squash commits upon Merging (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/150)
 - [Run build on merged code before merging (EE?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4176)
-- [Code management analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
-- [Delivery analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
+- [Code management analytics (EE option?)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
+- [Delivery analytics (EE option?)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
 - [Subscribe to new Issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/12758)
 - [Performance monitoring (EE)](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1008)
 - [Request access to a repo](https://gitlab.com/gitlab-org/gitlab-ce/issues/13948)
+- [Award emoji in comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3655)
+- [Comment on Images in Diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
 
 ### 8.8 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/24) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/10)
 
 - [Multiline comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/4143)
+- [Mailing list functionality](https://gitlab.com/gitlab-org/gitlab-ce/issues/4272)
 
 ## Wishlist
 
 Below are features we'd really like to see in GitLab.
 This list is not prioritized.
 We very much welcome contributions that implement any of these things.
-
-### Next to plan.
-
-- [Project / Repo templates](https://gitlab.com/gitlab-org/gitlab-ce/issues/3785)
-- [Award emoji in comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3655)
-- [Comment on Images in Diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
-- [Mailing list functionality](https://gitlab.com/gitlab-org/gitlab-ce/issues/4272)
 
 ### Major Wins
 
@@ -100,6 +96,7 @@ We very much welcome contributions that implement any of these things.
 - [Autocomplete all users](https://gitlab.com/gitlab-org/gitlab-ce/issues/3872)
 - [Create branch from issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/3886)
 - [Ship octotree as part of GitLab](https://gitlab.com/gitlab-org/gitlab-ce/issues/13723)
+- [Repo templates](https://gitlab.com/gitlab-org/gitlab-ce/issues/3785)
 
 ### Code Review
 
@@ -109,7 +106,7 @@ We very much welcome contributions that implement any of these things.
 - [Syntax highlighting for diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/3292)
 - [Transactional MR comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3364)
 
-### Project Management
+### Issue tracker
 
 - [Filter by more than one label](https://gitlab.com/gitlab-org/gitlab-ce/issues/989)
 - [Move issues between projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/3024)
