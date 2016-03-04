@@ -14,14 +14,6 @@ expected to:
 - It is OK if you don't know something. You can always ask someone else
 - It is OK to say no to a customer, but try to suggest a workaround and escalate to a Senior if necessary
 
-## Support Level Agreements
-
-- Emergency tickets should be answered within 30 minutes.
-- Tickets from customers should be answered within 1 business day, preferably sooner.
-- Tickets from social channels don't have a contractually set SLA, but internally we
-aim for no later than next business day for tickets from Disqus and Twitter. Ideally
-all other social channels should also be answered within 48 hours.
-
 ## First steps when you join the team
 
 When you first join the team everything will be new to you. In order to get you started with GitLab quickly
