@@ -18,9 +18,9 @@ over 600% during that time, with 54 people [on our team][team] as I write this.
 ### Working remotely at GitLab
 
 You might be curious what it's like to work remotely at GitLab. 
-Watch this video to hear from our team. 
+Watch this video to hear from our team! 
 
-(embed video)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NoFLJLJ7abE" frameborder="0" allowfullscreen></iframe>
 
 ### Our handbook
 
@@ -32,7 +32,7 @@ My friend asked me how I could possibly remember it all.
 In fact you don't have to.
 When you start out at GitLab, you read the handbook, but you still act and react
 with your old habits.
-Luckily your colleagues will remind you, and help you learn how to be more GitLab.
+Luckily your colleagues will remind you, and help you learn how to *be more GitLab.*
 
 A typical thing is to see someone say "I'm going out for lunch."
 But you don't need to tell people at GitLab you're going AFK (away from keyboard).
@@ -102,7 +102,7 @@ once in a while, and it's nice to share.
 
 ### How remote bonding works even better
 
-My favorite quote from the video above is what Ashley said: 
+My favorite quote from the video above is what [Ashley](https://twitter.com/theunquietone) said:
 "You really get to know people and you don’t realise that you do."
 That's exactly how the team meeting works.
 
@@ -118,7 +118,7 @@ before me in the team meeting, and [Grzegorz](https://twitter.com/GrzegorzBizon)
 joined after me, and I hand over the call to him right after me. 
 While we don't work on the same teams, I've become more familiar with them somehow.
 
-The notion of proximity is different in a remote organization. 
+The notion of *proximity* is different in a remote organization. 
 
 One day, one of our colleagues said he was really bummed out and didn't even
 feel like working.
