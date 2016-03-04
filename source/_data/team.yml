@@ -700,7 +700,7 @@
 - name: T.A.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Development Lead
-  picture: 
+  picture: logo-extra-whitespace.png
   twitter: 
   gitlab: 
   story:  |
