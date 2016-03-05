@@ -54,9 +54,9 @@ there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @emily, and @tiffani
 * [ ] People Ops: Assign buddy and explain to buddy what that means: "What it
 means is that if she/he has questions she/he can come to you. But your main job
 as a buddy will be to direct her/him to the right parts of the handbook, and/or
-encourage her/him to ask her/his questions of the wider group on Slack, etc."  
+encourage her/him to ask her/his questions of the wider group on Slack, etc."
 
-*For GitLab Inc employees only*  
+*For GitLab Inc employees only*
 
 * [ ] People Ops: gather relevant information from new team member to enter them into the TriNet system.
 * [ ] People Ops: complete and submit an online Add New Hire Form
@@ -127,7 +127,7 @@ Please update this list as more steps arise.
 
 ### General<a name="general"></a>
 
-* The first month at a remote first company is hard, especially if you have not worked remote before and/or if you're unfamiliar with the tools used (mainly GitLab, chat, and video calling). If you feel lonely feel free to schedule 1 on 1 video calls to get to know people. If you need help with the tools ask people for help. If you don't know who to ask for help use the #questions chat channel. If you're not happy please let your manager know so we can take action.
+* The first month at a remote only company is hard, especially if you have not worked remote before and/or if you're unfamiliar with the tools used (mainly GitLab, chat, and video calling). If you feel lonely feel free to schedule 1 on 1 video calls to get to know people. If you need help with the tools ask people for help. If you don't know who to ask for help use the #questions chat channel. If you're not happy please let your manager know so we can take action.
 * We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https://www.google.com/docs/about/) and [dev.gitlab.org](https://dev.gitlab.org) to communicate.
 * Check out our [about page](https://about.gitlab.com/about/), [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/) and [Life as a non technical employee at GitLab](https://about.gitlab.com/2015/06/30/life-as-a-non-technical-employee-at-gitlab/)
 * Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
@@ -171,9 +171,9 @@ The most common Issues are created in the following projects:
 We have two GitLab instances that we use primarily, namely the 'dev' server and the free SaaS of GitLab at GitLab.com.
 
 #### dev.gitlab.org
-* This server is only accessible to people from GitLab the company.  
-* This is the instance we use for customers development.  
-* In addition, all our internal (company) issues are found here as well.  
+* This server is only accessible to people from GitLab the company.
+* This is the instance we use for customers development.
+* In addition, all our internal (company) issues are found here as well.
 * This server is updated from master every night, so we quickly see if we broke something.
 * Often referred to as `dev`.
 
