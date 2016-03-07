@@ -73,7 +73,7 @@ for key customers while still addressing the questions of all subscribers, and t
 - Tickets from customers should be answered within 1 business day, preferably sooner.
 - Tickets from social channels don't have a contractually set SLA, but internally we
 aim for no later than next business day for tickets from Disqus and Twitter. Ideally
-all other social channels should also be answered within 48 hours.
+all other social channels should also be answered within 2 business days.
 
 ## Support Turbo<a name="support-turbo"></a>
 
@@ -94,13 +94,13 @@ or larger scope questions, such as discussing customized training requests.
 - submitting a ticket to ZenDesk using the internal support email alias that is listed in the "GitLab Email Forwarding" 
 google doc. This is the preferred path for your own questions that can use technical support, and unless an 
 immediate answer is required, this is also where customer or user questions can best be relayed.
-- pinging the support team on the support channel in Slack for quick questions or clarifications. 
+- pinging the support team on the support chat channel for quick questions or clarifications. 
 
 
 ## Support Channels <a name="support-channels"></a>
 
-A [service engineer](/jobs/service-engineer) handles the following channels.
-They are sorted in order of priority, and as a result, it is possible that channels that appear lower 
+Our [service engineers](/jobs/service-engineer) handle the channels listed below.
+They are sorted in order of priority (strictest SLA at top), and as a result, it is possible that channels that appear lower 
 in this list experience longer delays in receiving responses. We are actively [hiring](https://about.gitlab.com/jobs/) 
 more Service Engineers to strengthen the team and provide support to the community.
 
