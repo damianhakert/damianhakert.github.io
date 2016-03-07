@@ -7,9 +7,7 @@ title: "Hiring"
 * [Hiring Process](#hiring-process)
 * [Screening Call](#screening-call)
 * [Interview Questions](#interview-questions)
-* [Getting Contracts Ready](#prep-contracts)
-* [Who Reviews and Who Signs Contracts](#contract-review)
-* [Onboarding](#move-to-onboarding)
+* [Getting Contracts Ready, Reviewed, and Signed](#prep-contracts)
 
 ## Vacancy Creation Process<a name="vacancy-creation-process"></a>
 
@@ -92,34 +90,29 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 1. What compensation would you feel comfortable with?
 1. Do you have any questions for me?
 
-## Getting Contracts Ready<a name="prep-contracts"></a>
+## Getting Contracts Ready, Reviewed, and Signed<a name="prep-contracts"></a>
 
 Offers made to new team members should be documented in the email thread between the
 person authorized to make the offer (e.g. CEO) and the applicant.
 
-1. Email example: "We would love to have you as part of our team. You will have a position of [job title]. As a contractor you will invoice [monthly rate] per month. You will report to the [manager]. We will send you a contract on Monday based on the examples on https://about.gitlab.com/handbook/contracts/. If you have not received anything on that day please reply-to-all to let us know. Please let us know if you have any questions or concerns in the meantime."
+1. Email example: "We would love to have you as part of our team. You will have 
+a position of [job title]. As a contractor you will invoice [monthly rate] per month. 
+You will report to the [manager]. We will send you a contract on Monday based on 
+the examples on https://about.gitlab.com/handbook/contracts/. If you have not 
+received anything on that day please reply-to-all to let us know. Please let us 
+know if you have any questions or concerns in the meantime."
 1. In the email confirmation of the offer,
 put the People Operations email alias (which can be found in the "GitLab Email Forwarding" google doc) in the cc.
-1. One person from People Operations will reply-to-all to everyone in the thread (including the applicant) to confirm that they will make the contract.
+1. One person from People Operations will reply-to-all to everyone in the thread 
+(including the applicant) to confirm that they will make the contract. Speed matters: if you are in People Operations and you can 
+tackle this, then raise your hand and hit reply-all.
+   - For any hires for which the COO does _not_ sign, the COO reviews the contract
+after which it can be sent out to be signed by any of the relevant C-level team
+members. For any hires for which the COO should sign, either the CFO or the CEO must
+review the contracts.
 1. This person from People Operations makes the contract based on the details found in the Workable
-platform, and uses reply-all to gather any missing pieces of information, and to confirm with a reply-to-all when the contract is send.
+platform, and uses reply-all to gather any missing pieces of information, and to confirm with a reply-to-all when the contract is sent.
+1. This same person from People Operations files the signed contract in the appropriate place, and **starts the [onboarding** issue](https://about.gitlab.com/handbook/general-onboarding/). 
 
 Note for People Operations: the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
 [Contracts page](https://about.gitlab.com/handbook/contracts).
-
-## Who Reviews and Who Signs Contracts<a name="contract-review"></a>
-
-Various people can prepare the contracts on our [Contracts](https://about.gitlab.com/handbook/contracts)
-page, but once they are created the review process is as follows:
-
-* For any hires for which the COO does _not_ sign, the COO reviews the contract
-after which it can be sent out to be signed by any of the relevant C-level team
-members.
-* For any hires for which the COO should sign, either the CFO or the CEO must
-review the contracts.
-
-## Onboarding<a name="move-to-onboarding"></a>
-
-Once the contract has been signed, create an onboarding issue as detailed on the
-[General Onboarding](https://about.gitlab.com/handbook/general-onboarding/) page. Important: create the related
-onboarding issue as soon as possible.
