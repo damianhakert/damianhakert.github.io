@@ -58,7 +58,17 @@ encourage her/him to ask her/his questions of the wider group on Slack, etc."
 * [ ] New team member: provide signed contract (including signed proprietary information and assignment agreement (PIAA)) to People Ops.
 * [ ] New team member: where applicable, provide scan of photo ID to People Ops.
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), and become comfortable with Git and the GitLab workflow.
-* [ ] New team member: Schedule 10 calls of 30 min with 10 different GitLab team members to get familiar with our team
+* [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team.
+   * [ ] 1. call with ___
+   * [ ] 2. call with ___
+   * [ ] 3. call with ___
+   * [ ] 4. call with ___
+   * [ ] 5. call with ___
+   * [ ] 6. call with ___
+   * [ ] 7. call with ___
+   * [ ] 8. call with ___
+   * [ ] 9. call with ___
+   * [ ] 10. call with ___
 
 
 ### WITHIN TWO DAYS OF STARTING
