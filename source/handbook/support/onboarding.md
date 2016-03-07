@@ -136,7 +136,10 @@ to the questions and suggestions since not everyone is familiar with ZenDesk. Wh
 ### When to mark a ticket as solved?
 
 A ticket can be marked as solved when you are certain that you were able to resolve the requester's
-problem, or, as mentioned above, when many days go by without a reply from the requester.
+problem, or, as mentioned above, when many days go by without a reply from the requester. The exception 
+to this rule is in social media support channels that do not integrate well with ZenDesk such as Disqus, 
+the Forum, Stack Overflow, and others, where each comment creates a new ticket. In those cases, you can 
+close the ticket as soon as you have provided a response (and also close the ticket created by your own response).
 
 ### Receiving negative feedback
 
