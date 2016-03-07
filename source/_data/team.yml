@@ -459,17 +459,6 @@
   story:  |
           Wilson has worked in many accounting roles at various early to mid-stage startups over the past 20 years.  When not debiting or crediting,  you can find Wilson at a San Francisco Giants game, spending time with his dogs or at the poker table.  Ante up!
 
-- name: Stephen Breen
-  role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
-  reports_to: CEO
-  picture: stevebreen.jpg
-  twitter: ahoybreen
-  gitlab: sbreen
-  maintains: |
-             <li>On-call trainee!</li>
-  story:  |
-          Stephen has over a decade of experience with data center infrastructure including virtualization, storage and application deployment.  He tinkers with micro-controllers and building IoT devices.  Stephen enjoys the outdoors, especially the ski slopes in the Sierra Nevada Mountains.
-
 - name: Ian Wilson
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
   reports_to: CEO
