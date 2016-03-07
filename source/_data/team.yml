@@ -615,6 +615,8 @@
   picture: pablo.jpg
   twitter: psczg
   gitlab: pcarranza
+  maintains:  |
+              <li>On-call hero!</li>
   story:  |
           With over 15 years of industry experience, Pablo comes from scaling Amazon's network as a development lead
           to help scaling GitLab.com. Passionate about programming since the age of 8 and open source after discovering Gentoo.
