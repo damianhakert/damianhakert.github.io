@@ -34,7 +34,6 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [GitLab Workflow](#gitlab-workflow)
    * [Team Call](#team-call)
    * [Scheduling Calls](#scheduling-calls)
-   * [GitLab Workflow](#gitlab-workflow)
    * [User Communication Guidelines](#user-communication-guidelines)
    * [Writing Style Guidelines](#writing-style-guidelines)
    * [Beamy Guidelines](#beamy-guidelines)
@@ -231,6 +230,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
     1. Issues assigned to the upcoming milestone
     1. Issues assigned to future milestones
     1. Issues not assigned to a milestone
+    
     In the same milestone the priority starting from urgent is:
     1. **Emergency** issues (a service engineer will probably contact you via chat)
     1. **Security** issues
@@ -247,6 +247,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
 1. Assign an issue to yourself as soon as you start to work on it, but not before
 that time. If you complete part of an issue and need someone else to take the next
 step, **re-assign** the issue to that person.
+1. When reassigning an issue, make sure that the issue body contains the latest information. The issue body should be the single source of truth.
 1. We keep our **promises** and do not make external promises without internal agreement.
 1. Even when something is not done, share it internally so people can comment early and prevent rework. Mark the merge request **[Work In Progress](https://about.gitlab.com/2016/01/08/feature-highlight-wip/)** so it is not merged by accident.
 1. When you create a merge request, **mention** the issue(s) that it solves in the description. If any followup actions are required on the issue after the merge request is merged, like reporting back to any customers or writing documentation, avoid auto closing it by saying `Fixes #1` or `Closes #1`.
@@ -255,6 +256,7 @@ step, **re-assign** the issue to that person.
     1. A merge request that is related to Continuous Integration should be assigned to the GitLab CI lead.
     1. All other merge requests should be assigned for review to one of merge request "endbosses". You can find all the roles listed on the [team page](https://about.gitlab.com/team/).
 1. When a merge request is done, remove the WIP prefix and **assign** the merge request to someone to review and merge it. A WIP merge request will never be merged, an unassigned non-WIP merge request can be merged by anyone if it looks ready, an assigned non-WIP will only be merged by the assigned reviewer.
+1. When a merge request is done, set milestone to the version it should be included in.
 1. If you are assigned to review and merge a merge request and would like the creator to make some **changes**, comment on the merge request and assign it back to the creator. When they have addressed the concern, they will reassign it to the reviewer.
 1. If you are assigned to merge a merge request and there is a **merge conflict**, consider trying to resolve it **yourself** instead of asking the MR creator to resolve the conflict. If it is easy to resolve you avoid a round trip between you and the creator, and the MR gets merged sooner. This is a suggestion, not an obligation.
 1. If you ask a question to a specific person, always start the comment by mentioning them; this will ensure they see it if their notification level is mentioned and other people will understand they don't have to respond.

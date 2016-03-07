@@ -21,7 +21,23 @@ extra_css:
 
     <script src="//app-ab13.marketo.com/js/forms2/js/forms2.min.js"></script>
     <form id="mktoForm_1036"></form>
-    <script>MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1036);</script>
+    <script>
+
+
+      MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1036, function(form) {
+          form.onSuccess(function(values, followUpUrl) {
+
+            form.getFormElem().hide();
+            document.getElementById('confirmform').style.visibility = 'visible';
+
+            ga('send', 'pageview');
+            ga('send', 'event', 'form', 'submit', 'sales request');
+            return false;
+          });
+      });
+    </script>
+
+    <div id="confirmform" style="visibility:hidden;"><p>Submission received! We'll be in contact shortly.</p></div>
 
     <br><br>
     <p style="text-align: center;">If you're not able to see the form above, please email us at: sales [at] gitlab.com</p>

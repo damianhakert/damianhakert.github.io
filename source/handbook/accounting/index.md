@@ -13,6 +13,12 @@ title: "Accounting"
 * [Accounts Receivable](#ar)
 * [Cash Receipt](#cash-receipt)
 
+### Company phone number
+
+When needing to fill in details of GitLab's contact information you can take the addressess of the offices for reference. 
+If a phone number is asked, leaving this field empty is our default answer, otherwise if this does not work you can use 
+the general number (+1-415-761-1791), but be aware that this number simply guides to a voice message that refers the caller back to contacting us via email.
+
 ## Processing Payroll  <a name="payroll"></a>
 
 ### GitLab Inc. Payroll Procedures <a name="payroll-inc"></a>
@@ -53,18 +59,8 @@ title: "Accounting"
 1. Update
 
 ### GitLab BV Pay Slip Distribution Process <a name="payroll-bv"></a>
-1. People Ops: Save the attachments that arrive from Loonbureau each month to a folder in Dropbox that you label like this: Dropbox=> GitLab BV=>year=>month (all pdf attachments go into this folder).
-1. People Ops: On or before the 25th of each month, send each employee their salary slip (see steps below) and a note to the Controller to process the necessary paperwork (Betaallijst.pdf is most useful).
-1. Controller / CEO: Use the Betaallijst.pdf document to stage each employee's salary transfer.
-1. People Ops: Steps to separate the salary slips, starting from Salarisstroken.pdf:
-   1. Split the pdf into individual pages. This can be done by 'printing to pdf', or using a tool such as [PDFsam](http://www.pdfsam.org/)
-   1. Rename the separate pages with the format YYYY-MM-lastname
-   1. CHECK after renaming that the renamed documents are in fact for the person 
-   listed in the title and do not accidentaly include someone else's salary information.
-   1. CHECK AGAIN
-1. People Ops: Send each employee their salary slip via email with the subject line: Salary slip
-1. People Ops: Send the pdf with Factuur in the title to Accounts Payable.
-1. People Ops: Save the individual pay slips in the same Dropbox folder as the original attachments from Loonbureau.
+All GitLab BV employees receive their payslips within their personal portal of Savvy.
+They can login and download their payslip to their computer if needed.
 
 
 ## Accounts Payable <a name="ap"></a>

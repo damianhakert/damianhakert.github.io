@@ -378,7 +378,7 @@
   twitter: random_primate
   gitlab: balameb
   maintains: |
-             <li>On-call trainee!</li>
+             <li>On-call hero!</li>
              <li><a href="https://hackerone.com/gitlab">HackerOne lead</a></li>
   story:  |
           Having worked with the Guatemalan Government and as an IT Manager at a Bio Lab for too long he launched a
@@ -522,6 +522,7 @@
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-contributors/">GitLab Contributors</a></li>
               <li>Merge request coach</li>
               <li>Trained <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/release/monthly.md#release-manager">Release Manager</a></li>
+              <li>Support Turbo <a href="https://about.gitlab.com/handbook/support/"></a></li>
   story:  |
           Rémy loves the Web, the open-source, Git and Ruby. He's very versatile
           and enjoys working on complete features from back to front. When not
@@ -536,6 +537,7 @@
   gitlab: joshfng
   maintains:  |
                 <li>Performance specialist</li>
+                <li>Support Turbo <a href="https://about.gitlab.com/handbook/support/"></a></li>
   story:  |
           Josh is a software developer with a passion for developer tools, automation,
           and CI. He enjoys creating and maintaining side projects for developers
@@ -686,12 +688,20 @@
   story:  |
           Mitchell is a technical marketer that began his career consulting with B2C companies on their online presence. He has since shifted to helping B2B companies drive demand for their products through digital marketing. He enjoys playing volleyball, ultimate frisbee, and trying new retaurants with his wife.
 
-- name: F. C.
+- name: Felipe Cabargas
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
   reports_to: COO
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: felipe.jpg
+  twitter: juanpintoduran
+  gitlab: cabargas
   story:  |
-           Joining Feb 29th
-           
+          Felipe is a rubyist from Chile trying to get more people into the Git boat. He likes to comunicate tech to non-tech individuals and help local communities reach more people. When AFK, he is desoldering stuff, 3D printing Star Wars models or in the stadium with his father and brother cheering for 'La U'.
+
+- name: T.A.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Development Lead
+  picture: logo-extra-whitespace.png
+  twitter: 
+  gitlab: 
+  story:  |
+          Joining April 11th

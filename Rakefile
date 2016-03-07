@@ -419,8 +419,8 @@ end
 BUILD_DIR = 'public/'
 DEPLOY_LOCATION = 'deploy@blue-moon.gitlap.com:public/'
 DEPLOY_BRANCH = 'master'
-PDFS = FileList['source/terms/print/*.html'].pathmap('%{^source,public}X.pdf')
-PDFS += %w{public/high-availability/gitlab-ha.pdf public/features/gitlab-features.pdf}
+PDFS = FileList['source/terms/print/*.html'].pathmap('%{^source,public}X.pdf') +
+  %w{public/high-availability/gitlab-ha.pdf public/features/gitlab-features.pdf}
 
 task :clean do
   rm_rf BUILD_DIR
