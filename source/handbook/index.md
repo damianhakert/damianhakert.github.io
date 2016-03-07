@@ -155,7 +155,7 @@ ever-growing remote-first company.
 1. All written communication happens in English, even when sent one on one,
 because sometimes you need to forward an email or chat.
 1. Use **asynchronous communication** when possible (issues and email instead of
-chat), issues are preferred over email, email is preferred over chat.
+chat), issues are preferred over email, email is preferred over chat, announcements happen on the team call agenda, and [people should be able to do their work without getting interrupted by chat](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d#.21t7089jk).
 1. It is very OK to ask as many questions as you have, but ask them so many
 people can answer them and many people see the answer (so use issues or public
 chat channels instead of private messages or one-on-one emails) and make sure
@@ -230,7 +230,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
     1. Issues assigned to the upcoming milestone
     1. Issues assigned to future milestones
     1. Issues not assigned to a milestone
-    
+
     In the same milestone the priority starting from urgent is:
     1. **Emergency** issues (a service engineer will probably contact you via chat)
     1. **Security** issues
