@@ -214,19 +214,32 @@ Push the content to your remote project and keep an eye on the build!
 
 _**Note:** Custom CNAMEs with TLS support were introduced in [GitLab EE 8.5][EE-85]._
 
-If you want, you can easily add 
-your own domain name to your website hosted by GitLab.com.
+If you want, you are free to easily add your own domain name to your website hosted by GitLab.com. 
+It's not required though, you can always use the standard GitLab Pages subdomain accessed under `https://mynamespace.gitlab.io`.
+
+_Features_
+
+- Besides including your own domain, you can add your custom **subdomain** to your GitLab Pages project (e.g. `subdomain.example.com`)
+- You can enter more than one domain aliases **per project** (e.g. `example.com`, 
+`example.net` `my.example.org` and `another-example.com` pointing to your project under `mynamespace.gitlab.io` or 
+`mynamespace.gitlab.io/myproject`). A domain alias is like having multiple front doors to one location.
+- If you want to enable `https` secure connection to your domains, you can affix your own SSL/TLS digital 
+certificate to **each** custom domain or subdomain you've added to your projects.
+
+_How to do that_
+
 
 - From your project's dashboard, go to `Settings` -> `Pages` -> `+ New Domain`
 
 - Add your domain to the first field: `mydomain.com`
 
-- If you have a SSL/TLS digital certificate and its key, just add them to their respective fields. This will enable `https` secure connection to your custom domain. If you don't, just leave the fields blank. 
+- If you have a SSL/TLS digital certificate and its key, just add them to their respective fields. 
+If you don't, just leave the fields blank. 
 
 
 - Click on `Create New Domain`.
 
-- Finally, access your domain control panel and create a new `CNAME`  DNS record pointing to `username.gitlab.io`:
+- Finally, access your domain control panel and create a new `CNAME`  [DNS record][dns-cname] pointing to `username.gitlab.io`:
 
 ```
 mydomain.com CNAME username.gitlab.io
@@ -242,7 +255,10 @@ mydomain.com CNAME username.gitlab.io
 subdomain.mydomain.com CNAME username.gitlab.io
 ```
 
-Ordinary, DNS propagation needs some time to take effect, so don't worry if you can't access your website under your custom domain instantaneously. Wait a few hours and check it again.
+To add new domain aliases to the same project, just repeat these steps.
+
+Ordinary, DNS propagation needs some time to take effect, so don't worry if you can't access your 
+website under your custom domain instantaneously. Wait a few hours and check it again.
 
 <a name="examples"></a>
 
@@ -267,16 +283,16 @@ some SSGs examples that we gathered for you, organized by their respective envir
 | SSG | Website URL | Project URL | Configuration | 
 | --- | ----------- | ----------- | -------------- |
 | [Jekyll] | [Greyscale Theme][j-3-web] | [Source on GitLab][j-3-pro] | [Default][j-3-ci] |  
-| [Jekyll] | [Default Theme][j-2-web] | [Source on GitLab][j-2-pro] | [Building Jekyll 3.1.2 with `bundler`][j-2-ci] | 
-| [Middleman] | [Default Theme][middle-prev] | [Source on GitLab][middle-proj] | [Default][middle-ci] | 
-| [Hugo/GoLang][Hugo] | [Lanyon Theme][hugo-prev] | [Source on GitLab][hugo-proj] | [Default][hugo-ci] |
+| [Jekyll] | [Default Theme][j-2-web] | [Source on GitLab][j-2-pro] | [Building Jekyll 3.1.2 with Bundler][j-2-ci] | 
+| [Middleman] | [Default Theme][middle-prev] | [Source on GitLab][middle-proj] | [Default + Bundler `ENV=PRODUCTION`][middle-ci] | 
+| [Hugo/GoLang][Hugo] | [Lanyon Theme][hugo-prev] | [Source on GitLab][hugo-proj] | [Default, `image: publysher/hugo`][hugo-ci] |
 
 
 ### Environment: **Node JS**
 
 | SSG | Website URL | Project URL | Configuration | 
 | --- | ----------- | ----------- | -------------- |
-| [Hexo] | [Hueman Theme][hexo-prev] | [Source on GitLab][hexo-proj] | [Default + Test Job][hexo-ci] |
+| [Hexo] | [Hueman Theme][hexo-prev] | [Source on GitLab][hexo-proj] | [Default + `test` job][hexo-ci] |
 | [Brunch] | [Default Skeleton][brunch-prev] | [Source on GitLab][brunch-proj] | [Default][brunch-ci] |
 | [Harp] | [Default Theme][harp-prev] | [Source on GitLab][harp-proj] | [Default][harp-ci] |
 | [Metalsmith] | [Default Theme][metal-prev] | [Source on GitLab][metal-proj] | [Default][metal-ci] |
@@ -294,6 +310,7 @@ On the following GitLab groups you can find even more examples.
 | ----- | ----------- | ---- |
 | [GitLab CI][ci-examples] | Ruby, Node, etc| Brunch, Harp, Hexo, Hugo, Jekyll, MetalSmith, Middleman |
 | [Jekyll Themes][jekyll-examples] | Ruby | Jekyll |
+| [Middleman Themes][middle-examples] | Ruby | Middleman | 
 | [Themes and Templates][themes-templates] | Miscellaneous | Miscellaneous |
 | [HTML Themes][html-examples] | - | - |
 
@@ -306,26 +323,30 @@ _**Note:** these themes, templates and SSGs were casually chosen and listed on t
 
 ### Is it all of this really free to use?
 
-Yes, it is! On [GitLab.com][sign-up] you can create your free account and enjoy all it's [features][gitlab-com], including unlimited private repositories, projects, websites and contributors. Also, you'll have 10GB disk space per project and unlimited total disk space. Awesome, isn't it? Why don't you take a peek at the [public projects][explore]?
+Yes, it is! On [GitLab.com][sign-up] you can create your free account 
+and enjoy all it's [features][gitlab-com], including unlimited private repositories, 
+projects, websites and contributors. Also, you'll have 10GB disk space per project 
+and unlimited total disk space. Awesome, isn't it? Why don't you take a peek at the [public projects][explore]?
 
 ### Where is the `public` folder?
 
-When a build succeeds, you'll find your static site at `Project` -> `Builds` -> `Build ID` -> `Browse`.  You can download the artifacts from the same screen.
+When a build succeeds, you'll find your static site at `Project` -> `Builds` -> `Build ID` -> `Browse`.  
+You can download the artifacts from the same screen.
 
 ### Can I use other SSGs?
 
-Yes, you can use pretty much any [SSG][SSGs] available.
+Yes, you can use any [SSG][SSGs] available.
 
 ### Can I use free SSL/TLS digital certificates?
 
-Yes, absolutely. However, you cannot use self-signed certificates.
+Yes, absolutely.
 
 ### Can I contribute to the themes?
 
 Sure! You are very welcome to contribute to the groups mentioned above. 
 To do that, please set your website up and make sure it's working as you expected. 
-Then, add an issue to the group you're interested in and we'll be glad to fork your theme 
-and expose it to our community!
+Then, add an issue to the group you're interested in including a link to your project. After a brief evaluation, 
+we'll be glad to fork your project and present your theme to our community!
 
 ### Can I use `.php` pages and connect databases with my sites?
 
@@ -376,12 +397,14 @@ We're looking forward to seeing your sites!
 [gitlab-com]: https://about.gitlab.com/gitlab-com/
 [html-examples]: https://gitlab.com/groups/html-themes#projects
 [jekyll-examples]: https://gitlab.com/groups/jekyll-themes#projects
+[middle-examples]: https://gitlab.com/groups/middleman-themes
 [sign-up]: https://gitlab.com/users/signin "Sign Up!"
 [themes-templates]: https://gitlab.com/themes-templates
 [twitter]: https://twitter.com/gitlab
 
 [Brunch]: http://brunch.io/
 [Coffee Script]: http://coffeescript.org/
+[dns-cname]: https://en.wikipedia.org/wiki/CNAME_record
 [git]: https://git-scm.com/about
 [Harp]: http://harpjs.com/
 [Hexo]: https://hexo.io/
@@ -394,7 +417,7 @@ We're looking forward to seeing your sites!
 [Middleman]: https://middlemanapp.com/
 [Ruby]: https://www.ruby-lang.org/
 [Sass]: http://sass-lang.com/
-[SSGs]: https://staticsitegenerators.net/
+[SSGs]: https://www.staticgen.com/
 [wiki-static-websites]: https://en.wikipedia.org/wiki/Static_web_page
 [YAML]: http://yaml.org/
 
