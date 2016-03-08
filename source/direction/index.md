@@ -52,6 +52,8 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [HA Omnibus packages (EE option?)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
 - [Due date for issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/12709)
 - [Subscribe to a Label](https://gitlab.com/gitlab-org/gitlab-ce/issues/12743)
+- [Move issues between projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/3024)
+
 
 ### 8.7 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/23) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/9) April 22nd
 
@@ -65,11 +67,13 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [Request access to a repo](https://gitlab.com/gitlab-org/gitlab-ce/issues/13948)
 - [Award emoji in comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3655)
 - [Comment on Images in Diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
+- [LICENSE templates](https://gitlab.com/gitlab-org/gitlab-ce/issues/12804)
 
 ### 8.8 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/24) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/10)
 
 - [Multiline comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/4143)
 - [Mailing list functionality](https://gitlab.com/gitlab-org/gitlab-ce/issues/4272)
+- [.gitignore templates](https://gitlab.com/gitlab-org/gitlab-ce/issues/14106)
 
 ## Wishlist
 
@@ -103,13 +107,11 @@ We very much welcome contributions that implement any of these things.
 - [See current HEAD in outdated discussion](https://gitlab.com/gitlab-org/gitlab-ce/issues/3502)
 - [Allow cross server merge requests](https://gitlab.com/gitlab-org/gitlab-ce/issues/4013)
 - [Ability to checkout the result of MR available before merging](https://gitlab.com/gitlab-org/gitlab-ce/issues/2765)
-- [Syntax highlighting for diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/3292)
 - [Transactional MR comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3364)
 
 ### Issue tracker
 
 - [Filter by more than one label](https://gitlab.com/gitlab-org/gitlab-ce/issues/989)
-- [Move issues between projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/3024)
 - [Time tracking](https://gitlab.com/gitlab-org/gitlab-ee/issues/78)
 - [Labels should be visible in Milestone view](https://gitlab.com/gitlab-org/gitlab-ce/issues/3276)
 
