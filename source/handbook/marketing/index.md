@@ -24,6 +24,6 @@ The marketing team is made up of a few key functional groups:
 Partner and channel marketing - coming soon  
 Communications - coming soon  
 
-Marketing team links:
--  [GitLab Marketing Project](https://gitlab.com/gitlab-com/marketing)
--  Google drive folder can be found by searching the company Google Drive for "GitLab Marketing"   
+##Marketing resources  
+-  [GitLab Marketing Project](https://gitlab.com/gitlab-com/marketing)  
+-  Google drive folder can be found by searching the company Google Drive for "GitLab Marketing"     
