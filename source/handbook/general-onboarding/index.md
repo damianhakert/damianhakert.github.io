@@ -227,7 +227,8 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 * [ ] People Ops: Remove from Beamy
 * [ ] People Ops: Remove team member from the GitLab availability calendar.
 * [ ] People Ops: Remove team member from team call invitation.
-* [ ] People Ops: Remove team member from HelloSign.
+* [ ] People Ops: Remove team member from HelloSign, if applicable.
+* [ ] People Ops: Remove team member from map / Sundial.
 * [ ] Patricio/Jacob/COO: Remove from tweetdeck
 * [ ] People Ops: Notify eShares administrator (CFO) of offboarding.
 * [ ] People Ops: Note final date of employment / contract in the "Organizational Chart and Hiring" sheet.
