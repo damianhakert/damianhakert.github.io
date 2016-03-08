@@ -2,13 +2,24 @@
 layout: markdown_page
 title: "Marketing"
 ---
-[Developer marketing](/handbook/marketing/developer-marketing)
-[Demand generation](/handbook/marketing/demand-generation)
-[Social media](/handbook/marketing/developer-marketing/social-media/)
 
-## Developer Relations Organization (dev rel org)
+The marketing team is made up of a few key functional groups:  
 
-- [technical writing](https://about.gitlab.com/jobs/technical-writer/)
-- [developer advocacy](https://about.gitlab.com/jobs/developer-advocate/)
-- field marketing (events)
-- [developer marketing](/handbook/marketing/developer-marketing)
+## Design
+[Designer](/jobs/designer/)
+
+## Demand generation
+[Demand generation](/handbook/marketing/demand-generation)  
+[Online marketing](/jobs/online-marketing-manager/)  
+[Business development](/jobs/business-development-representative/)  
+
+## Developer Relations
+[Technical writing](/jobs/technical-writer/)  
+[Developer advocacy](/handbook/marketing/developer-relations/developer-advocacy/)  
+[Field marketing](/handbook/marketing/developer-relations/field-marketing/)  
+[Developer marketing](/handbook/marketing/developer-relations/developer-marketing/)  
+
+##Product Marketing
+[Product marketing](/jobs/product-marketing-manager)  
+Partner and channel marketing - coming soon  
+Communications - coming soon  
