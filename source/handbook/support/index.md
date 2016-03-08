@@ -5,8 +5,10 @@ title: Support
 
 ## Other support pages
 
+- [Service Engineer Onboarding](/handbook/support/onboarding/)
+- [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
+- [PGP Process](https://about.gitlab.com/handbook/support/pgp_process/)
 - [Common responses to problems](/handbook/support/common-responses.html)
-- [Service Engineer Onboarding](/handbook/support/onboarding.html)
 - [Support and Development Process](https://about.gitlab.com/handbook/support-and-development-process)
 
 ## Contents of the page
@@ -216,7 +218,7 @@ The key used to encode/decode PGP messages is stored in our Support Vault on 1Pa
 We only provide our public PGP key upon request because it makes collaborating much
 harder and only a small percentage of all disclosures are serious enough to require that overhead.
 
-See [PGP Process](/handbook/support/pgp_process.html) for
+See [PGP Process](/handbook/support/pgp_process) for
 information about using the security PGP key pair and decrypting messages.
 
 ### Regular ZenDesk tickets <a name="regular"></a>
@@ -242,7 +244,7 @@ much as possible about the customer's instance as you can.
 1. Use of GitLab CI (need to upgrade to 8.0 first, then 8.+)
 
 We collect this information in ZenDesk and link it to the organization, see the
-[responding to tickets section in onboarding](https://about.gitlab.com/handbook/support/onboarding.html).
+[responding to tickets section in onboarding](https://about.gitlab.com/handbook/support/onboarding/).
 
 #### Unscheduled calls
 
