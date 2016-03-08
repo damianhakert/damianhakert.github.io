@@ -92,6 +92,7 @@ and then ping @rspeicher to confirm your account.
 * [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo.
 * [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing)
 * [ ] New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
+* [ ] New team member: Make an improvement to the handbook (something that you wished was there), assign the merge request (MR) to your manager and link the MR url in this onboarding issue.
 
 ### FOR ENGINEERING ONLY (Devs, PEs, SEs)
 
