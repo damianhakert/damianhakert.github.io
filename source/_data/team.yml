@@ -679,6 +679,16 @@
   story:  |
           Felipe is a rubyist from Chile trying to get more people into the Git boat. He likes to comunicate tech to non-tech individuals and help local communities reach more people. When AFK, he is desoldering stuff, 3D printing Star Wars models or in the stadium with his father and brother cheering for 'La U'.
 
+- name: A.F
+  role: <a href="https://about.gitlab.com/jobs/developer-advocate/">Developer Advocate</a>
+  reports_to: CMO
+  picture: logo-extra-whitespace.png
+  twitter: 
+  gitlab: 
+  story:  |
+          Joining March 7th
+          
+          
 - name: T.A.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Development Lead
