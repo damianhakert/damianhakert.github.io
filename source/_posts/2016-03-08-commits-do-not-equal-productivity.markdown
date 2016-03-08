@@ -5,9 +5,12 @@ date: 2016-03-08
 comments: true
 author: Job van der Voort
 author_twitter: Jobvo
+image_title: '/images/unsplash/racing.png'
 ---
 
 If you’re interested in an indication of productivity of individual software engineers (programmers), don’t look at commits or other measures of activity. Look at _consistent progress_ instead.
+In this post we'll consider some ways people evaluate or represent productivity,
+and I ask for your thoughts on what you track and what you think matters.
 
 <!-- more -->
 
@@ -49,7 +52,7 @@ I argue that an engineer’s productivity should not be judged by their delivera
 > How is your work going?
 
 A productive programmer will tell you to stop distracting them and come back
-in an hour. And then they’ll give you a pretty good idea of their producitivity.
+in an hour. And then they’ll give you a pretty good idea of their productivity.
 
 ## How to Measure Productivity
 
@@ -89,8 +92,9 @@ organized with labels and milestones.
 - Time: 5pm (17:00) UTC; 12pm EST; 9am PST
 - [Register here][webcast]
 
-Can't make it? Register anyway, and we'll send you a link to watch it later!
+Can't make it? Register anyway, and we'll send you a link to watch it later.
 
+[Planning Poker]: https://www.planningpoker.com
 [webcast]: http://page.gitlab.com/mar-2016-gitlab-introduction.html
 [Contribution Analytics]: http://doc.gitlab.com/ee/analytics/contribution_analytics.html
 [create an issue]: https://gitlab.com/gitlab-org/gitlab-ce/issues/new
