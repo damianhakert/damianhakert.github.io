@@ -54,7 +54,7 @@ This will update the issue with info about anything related.
 You can make all the same [references] in comments or merge requests as you can
 in an issue description.
 
-The purpose of the [WIP:] MR (work in progress MR) is to encourage early code
+The purpose of the [WIP:] (work in progress) merge request is to encourage early code
 review, so you can share your work with others.
 In this way you can reference related work, and hopefully reduce duplicate effort.
 
@@ -128,13 +128,14 @@ There's a key difference. Merge requests generally resolve issues.
 Adding that reference means GitLab can take care of tidying up your issue
 tracker when you're done.
 
-The point of *merge when build succeeds* is not only that it's a timesaver it
-also helps keep your momentum going.
+The point of [*merge when build succeeds*][merge-succeeds] is not only that
+it's a timesaver it also helps keep your momentum going.
 
 After merging you may want to turn your mind to the next project.
 Or you may simply need a break!
 You don't want to come back and have to remember to check and then merge,
 and then have to remember to close related issues.
+Help GitLab do that for you.
 
 ### Live tutorial: GitLab workflow
 
@@ -150,6 +151,7 @@ organized with labels and milestones.
 
 Can't make it? Register anyway, and we'll send you a link to watch it later!
 
+[merge-succeeds]: http://doc.gitlab.com/ce/workflow/merge_when_build_succeeds.html
 [milestone-mr]: https://gitlab.com/gitlab-org/gitlab-ce/milestones/22
 [group-milestones]: https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.6
 [our monthly release issue]: http://doc.gitlab.com/ee/release/monthly.html#create-an-overall-issue-and-follow-it
