@@ -98,7 +98,7 @@ You can also assign someone to an issue or MR.
 
 In either case, the user will see a notice pop up on their [Todos] list.
 
-![Milestone display of MRs](/images/blogimages/todos-screenshot.jpg)
+![Todos](/images/blogimages/todos-screenshot.jpg)
 
 When issues are assigned in GitLab, it's assumed someone is working on it,
 and it appears as "Ongoing", open and assigned.
@@ -115,7 +115,7 @@ Hence, only one person can be assigned at a time.
 
 ### What will this merge request resolve? Close issues automatically.
 
-In your merge request description add Closes #123 or Fixes #123.
+In your merge request description add "Closes #123" or "Fixes #123".
 When you merge that branch, GitLab will close the issues you
 referenced with Fixes #ID or Closes #ID.
 
@@ -128,14 +128,14 @@ There's a key difference. Merge requests generally resolve issues.
 Adding that reference means GitLab can take care of tidying up your issue
 tracker when you're done.
 
-The point of [*merge when build succeeds*][merge-succeeds] is not only that
-it's a timesaver it also helps keep your momentum going.
+[*Merge when build succeeds*][merge-succeeds] is not just a timesaver, it
+also helps keep your momentum going.
 
 After merging you may want to turn your mind to the next project.
 Or you may simply need a break!
 You don't want to come back and have to remember to check and then merge,
 and then have to remember to close related issues.
-Help GitLab do that for you.
+Let GitLab do that for you.
 
 ### Live tutorial: GitLab workflow
 
