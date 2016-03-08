@@ -175,7 +175,8 @@ It is a lot of work and we would need a dedicated team only for the packaging
 for this specific platform.
 
 There is some good news though!
-Pirate Praveen has been working for the past 6-8 on [native Debian packages].
+Pirate Praveen has been working for the past 6-8 months on
+[native Debian packages].
 The packages are almost ready to be included in the Debian package
 repository.
 
@@ -193,6 +194,10 @@ packages. There was an attempt of packaging GitLab for Fedora as a part of
 [Google Summer of Code project] by our (now) own team member
 Achilleas Pipinellis. Through that effort, we learned it is a multi-person
 job and packaging alone is a lot of work. So, the project was never completed.
+
+If you are interested in helping out with making of the native Fedora packages,
+you can leave your comment in
+[this issue on GitLab CE issue tracker.](https://gitlab.com/gitlab-org/gitlab-ce/issues/14043)
 
 #### Anything else
 
