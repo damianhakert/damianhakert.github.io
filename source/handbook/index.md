@@ -46,6 +46,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Referral Bonuses](#referral-bonuses)
    * [Work Remotely Travel Grant](#travel-grant)
 * [Signing Legal Documents](#signing-legal-documents)
+* [Tools](#tools)
 * [Using Git to update this website](#starting-with-git)
 
 ## Values<a name="values"></a>
@@ -490,6 +491,66 @@ send a copy of the document to legal@gitlab.com with the following information:
 The document will be managed through HelloSign, a cloud-based electronic
 signature tool. Only C-level executives can sign legal documents, with the
 exception of NDAs covering a physical visit of another organization.
+
+## Tools<a name="tools"></a>
+
+A lot of tools we use are described in the rest of the handbook (GitLab, Google Docs, Google Hangouts, 1Password, etc.).
+This section is for tools that don't fit anywhere else.
+
+### Calendly
+
+[Calendly](https://calendly.com/): Set up 45 minute meeting slots. Connect to your Google calendar which knows your availability.
+The meeting will alwasys create the same Google Video url so if you have that you can add it to the booking.
+
+### Shush
+
+[$4.99 tool for OSX](http://mizage.com/shush/) that allows you to use you fn key as a push to talk or push to mute.
+Never again will you have switch window focus to Google Hangout or Bluejeans to speak or mute.
+The icon will show the current state of your mic input (x means muted).
+With a right click you can switch from push to talk to push to mute.
+Don't forget to unblock your mike in Bluejeans/Google hangouts immediately after joining.
+Be warned that page up with fn+down arrow will activate it.
+Use space for page down instead of fn+up arrow.
+
+### Google Calendar Guest Modify Event Default
+
+[This Chrome extension](https://chrome.google.com/webstore/detail/google-calendar-guests-mo/hjhicmeghjagaicbkmhmbbnibhbkcfdb?hl=en) will allow allow guests to modify calendar appointments by default.
+
+### Bluejeans
+
+Please add instructions how to set up a Bluejeans meeting, how to record it and how to add the resulting video to our Youtube channel.
+
+### Hangouts on air
+
+Hangouts on Air probably only works with a maximum of 15 people for scheduled calls (same limit as normal Google Hangouts).
+
+Potential problem: even when I logged in as GitLab and got the bar below the call, I could not switch it too on-air!
+I did notice that the time was not properly set (anymore?).
+I did a test event before and that seemed to work OK.
+I'll try one more time to see if it works.
+
+Potential problem 2: the video showed up as listed by default
+
+Go to [My live events on Youtube](https://www.youtube.com/my_live_events) and switch to the GitLab account on the top right (you need to be a manager of our Youtube channel).
+
+Go to => life streaming => events and create a new one with the attributes:
+
+- type => quick (using Google Hangouts on Air)
+- advanced: promotions: disable both checkboxes
+- time needs to be set correctly
+
+The view on watch page url only allows for people to watch it.
+Window that pops up when you press the start hangout on air button has the proper url that you can send to other people and/or add it to the calendar invite, it is structured like: https://plus.google.com/hangouts/_/ytl/LONGHASH.
+When people join the event they have to [accept a warning](https://gitlab.com/snippets/16245).
+
+[Completed live events](https://www.youtube.com/my_live_events?filter=completed) will show the video and you can click the image to view it.
+You can use actions to make it public here
+
+BTW Trying to set this up via Google+ via [https://plus.google.com/hangouts/onair](Hangouts on Air) instead of via Youtube doesn't seem to connect to the right Youtube channel, even if you selected the right account on the top right.
+
+### One Tab
+
+[One Tab](https://www.one-tab.com/) tames tabs into a list which can be sorted and exported.
 
 ## Using Git to update this website<a name="starting-with-git"></a>
 
