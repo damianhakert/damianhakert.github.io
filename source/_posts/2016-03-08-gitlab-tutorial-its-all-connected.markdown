@@ -54,7 +54,7 @@ This will update the issue with info about anything related.
 You can make all the same [references] in comments or merge requests as you can
 in an issue description.
 
-The purpose of the [WIP:] (work in progress) merge request is to encourage early code
+The purpose of the [WIP]: (work in progress) merge request is to encourage early code
 review, so you can share your work with others.
 In this way you can reference related work, and hopefully reduce duplicate effort.
 
@@ -163,7 +163,7 @@ Can't make it? Register anyway, and we'll send you a link to watch it later!
 [GitLab Flow]: http://doc.gitlab.com/ee/workflow/gitlab_flow.html
 [Patricio-tips]: https://about.gitlab.com/2015/02/19/8-tips-to-help-you-work-better-with-git/
 [Todos]: http://doc.gitlab.com/ce/workflow/todos.html
-[WIP:]: http://doc.gitlab.com/ce/workflow/wip_merge_requests.html
+[WIP]: http://doc.gitlab.com/ce/workflow/wip_merge_requests.html
 [gitlab-ui]: https://about.gitlab.com/2016/02/10/feature-highlight-create-files-and-directories-from-files-page/
 [GitLab Flavored Markdown]: http://doc.gitlab.com/ce/markdown/markdown.html
 [task lists]: http://doc.gitlab.com/ce/markdown/markdown.html#task-lists
