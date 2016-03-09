@@ -2,8 +2,22 @@
 layout: markdown_page
 title: "Demand Generation"
 ---
+## This page
 
-## References
+* [References](#references)
+* [Inbound Leads](#inbound)
+* [New license flow](#licenseFlow)
+* [Inbound Lead Flow](#leadFlow)
+* [Lead Qualification Process](#leadQual)
+* [Soft-BANT](#bant)
+* [SQL & MQL Definition](#SQL)
+* [Lead Status](#leadStatus)
+* [Passing Qualified Leads](#leadPassing)
+* [Nurture campaign process](#nurture)
+* [Subscriptions and Newsletter](#newsletter)
+* [Marketo Tools Server](#marketoTools)
+
+## References<a name="references"></a>
 
 - [Q1 ‘16 Lead Generation.pptx](https://docs.google.com/presentation/d/1ePns2ln0bLb_SPodXkYC13HEWRoVrJzsOrHQ3aGWio0/edit#slide=id.p5)
 - [Point webhook from mailchimp to marketo issue](https://gitlab.com/gitlab-com/www-gitlab-com/issues/427)
@@ -11,7 +25,7 @@ title: "Demand Generation"
 - [Marketo webhooks docs](http://developers.marketo.com/documentation/webhooks/)
 - [Recurly data into Marketo](https://gitlab.com/gitlab-com/www-gitlab-com/issues/526)
 
-## Inbound Leads
+## Inbound Leads<a name="inbound"></a>
 
 - https://about.gitlab.com/pricing/ => Recurly (not yet integrated into Marketo). Currently when someone clicks "Buy Now" it creates an account in Salesforce and the account owner is notified. Default account owner is Emily/Hank and can then be transferred. This process is being reviewed so it will flow through BDR. More info below under "New License Flow".
 - https://about.gitlab.com/free-trial/ => Free trial submits flow to BDR team. lead submits form, form sends data to Marketo, Marketo requests license key from the licensing app, lead gets email with license key from Marketo. BDR follows lead qualification process (documented below).
@@ -29,7 +43,7 @@ title: "Demand Generation"
 - Webcast leads => Leads registered for a webcast are sent confirmation, reminder, and followup (recording link and attendee survey) emails. A new lead flows through BDR team for lead qualification process.
 - Any other forms that are created simply flow through the BDR team for lead qualification process (documentation below).
 
-## New license flow
+## New license flow<a name="licenseFlow"></a>
 
 Below is theoretical once it is implemented.
 
@@ -45,7 +59,7 @@ Current state
 3. Lead is assigned based on current account owner.
 4. If no current account owner, Emily handles.
 
-## Inbound Lead Flow
+## Inbound Lead Flow<a name="leadFlow"></a>
 
 1. Lead comes into BDR team via one of the named Inbound Lead routes above.
 2. Lead is input into Marketo.
@@ -55,7 +69,7 @@ Current state
 6. If outside of EMEA, large accounts and recognizable brand names are first passed directly to Enterprise Sales team via assignment in Salesforce + email alert to account owner.
 7. All other leads pass through BDR lead qualification process.
 
-## Lead qualification process
+## Lead qualification process<a name="leadQual"></a>
 
 1. Unless a specific request is made, provide a useful resource that will help the person have a better GitLab experience. 
 2. Ask [Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/) to qualify lead
@@ -68,21 +82,21 @@ Current state
 9. If a lead is an existing customer or a prospect that's owned/operated by an existing customer, BDR team will determine account owner and pass lead.
 10. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
 
-## Soft-BANT
+## Soft-BANT<a name="bant"></a>
 
 - Budget => Does the person work at a company that could afford GitLab (i.e. has revenue or funding)?
 - Authority => Can the person influence a purchase decision?
 - Need => Is there a legitimate use for GitLab at the company (i.e. multiple developers, etc.)?
 - Timeline => Are they willing to continue communicating about GitLab in the next few weeks? If they have another solution, are they looking to replace in the next few weeks or months?
 
-## What counts as an SQL or MQL?
+## What counts as an SQL or MQL?<a name="SQL"></a>
 1. SQL is any lead which has been both: 
  a. accepted by the sales team which has met the qualification requirements; and 
  b. converted to a Contact in and attached to a new Opportunity in SFDC.
 2. MQL is any lead with a lead score of 20 or greater in Marketo.
  - Lead score is calculated based on behavioral and demographic data.
 
-## Lead status
+## Lead status<a name="leadStatus"></a>
 
 - Raw => Newly synced lead from Marketo to SFDC
 - Open => Lead not yet contacted
@@ -96,20 +110,20 @@ Current state
 - Bad Data => Invalid email address. Note: only mark as bad data if there is no communication channel. For example, a lead who provided "Spam Spamson" as their name but still provided a valid email address is not Bad Data.
 - Nurture => May become "Qualified" in the future, but communication is closed. Will receive useful marketing emails.
 
-##Passing Qualified Leads
+##Passing Qualified Leads<a name="leadPass"></a>
 - Set "Lead Status" to Qualified and assign the appropriate sales team member as the new owner
 - Introduce the lead to the sales team member unless inappropriate or unnecessary.
 - If no action is taken by the newly assigned sales team member within 1-7 days, follow up with them and determine why no action has been taken.
 
-## Nurture campaign process
+## Nurture campaign process<a name="nurture"></a>
 
 Coming soon once process is defined. Will be signup campaign for GitLab.com, leads that don't meet Soft-BANT requirements, etc.
 
-## Subscriptions and Newsletter
+## Subscriptions and Newsletter<a name="newsletter"></a>
 
 Inbound leads receive appropriate marketing emails, such as newsletters, onboarding tips (coming soon), etc. What they receive depends on how they came to find us and what we believe will be most helpful to them. For example, a person who downloaded an EE trial will receive different resources than a person who registered for a webcast. Our non-operational emails have a one-click unsubscribe button. You can manually unsubscribe a person by clicking the "Opt Out" checkbox in SFDC. SFDC also has a manual 30-Day Opt Out checkbox for a 30-day unsubscribe from non-operational emails.
 
-## Marketo Tools Server
+## Marketo Tools Server<a name="marketoTools"></a>
 
 - This is a simple Sinatra application that receives several web hooks and forwards the relevant information to Marketo via its REST API.
 - URL: http://marketo-tools.gitlap.com/ (can't access via browser)
