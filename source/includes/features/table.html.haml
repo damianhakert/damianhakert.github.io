@@ -14,7 +14,7 @@
         - feature_block.features.each do |feature|
           %tr
             %td
-              %a{:href => feature.link}
+              %a{href: feature.link}
                 = feature.description
             %td
               - if feature.in_ce

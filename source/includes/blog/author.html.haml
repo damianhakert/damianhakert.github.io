@@ -1,6 +1,6 @@
 - if post.data.author_twitter
   .author
-    %a{:href => "https://www.twitter.com/#{post.data.author_twitter}"}
+    %a{href: "https://www.twitter.com/#{post.data.author_twitter}"}
       = post.data.author
 - else
   .author

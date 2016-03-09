@@ -1,14 +1,14 @@
 %header
-  .navbar.navbar-fixed-top.navbar-default{:role => "navigation"}
+  .navbar.navbar-fixed-top.navbar-default{role: "navigation"}
     .container
       .navbar-header
-        %button.navbar-toggle{:type => "button", :data => {:target => "#main-gl-nav", :toggle => "collapse"}}
+        %button.navbar-toggle{type: "button", data: {target: "#main-gl-nav", toggle: "collapse"}}
           %span.sr-only
             Toggle Navigation
           %span.icon-bar
           %span.icon-bar
           %span.icon-bar
-        %a.navbar-brand.animated{:href => "/"}
+        %a.navbar-brand.animated{href: "/"}
           = partial "includes/logos/wm_web.svg"
       .collapse.navbar-collapse#main-gl-nav
         = partial "includes/layout/nav"
