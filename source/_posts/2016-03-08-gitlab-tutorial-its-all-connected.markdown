@@ -23,7 +23,7 @@ The best features of GitLab help you link and reference related work.
 
 <!-- more -->
 
-### Your issue is the Single Source of Truth
+## Your issue is the Single Source of Truth
 
 As mentioned in my previous post, [always start with an issue][start-issue].
 
@@ -42,7 +42,7 @@ made decisions. The links will get formatted to be more readable.
 
 ![Link to comments](/images/blogimages/connect-commentlink.png)
 
-### Referencing what's related
+## Referencing what's related
 
 Add [references] in issue or merge request descriptions or in comments.
 This will update the issue with info about anything related.
@@ -58,7 +58,7 @@ The purpose of the [WIP]: (work in progress) merge request is to encourage early
 review, so you can share your work with others.
 In this way you can reference related work, and hopefully reduce duplicate effort.
 
-### Labels and milestones at a glance
+## Labels and milestones at a glance
 
 Add [labels] for categorization.
 Labels can have a description and a color.
@@ -77,7 +77,7 @@ The same goes for the display of merge requests tagged under a milestone.
 
 You can also view [milestones across an entire group][group-milestones].
 
-### References in Commits and Code review
+## References in Commits and Code review
 
 Similar to references on merge requests, you can add references in commit messages.
 Further details are in documentation for [GitLab Flow commit messages][glf-commit].
@@ -89,7 +89,7 @@ Commits also have a comment thread available for discussion,
 and the rules of referencing apply.
 You can also link directly to lines of code in comments.
 
-### @Mention others and assign
+## @Mention others and assign
 
 GitLab is a platform for collaborating.
 You can mention people with @username and ask them to provide feedback in
@@ -113,7 +113,7 @@ We have a feature if you want to approve merge requests in EE, but there's one
 person who presses the final merge button.
 Hence, only one person can be assigned at a time.
 
-### What will this merge request resolve? Close issues automatically.
+## What will this merge request resolve? Close issues automatically.
 
 In your merge request description add "Closes #123" or "Fixes #123".
 When you merge that branch, GitLab will close the issues you
@@ -137,7 +137,7 @@ You don't want to come back and have to remember to check and then merge,
 and then have to remember to close related issues.
 Let GitLab do that for you.
 
-### Live tutorial: GitLab workflow
+## Live tutorial: GitLab workflow
 
 In our next webcast on March 10th, we'll dig into the GitLab workflow outlined
 above, and you can ask questions live about getting the most out of GitLab.
