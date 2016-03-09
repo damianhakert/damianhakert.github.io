@@ -485,9 +485,9 @@ this!
 - If you're working on a team, or if your project is public, you may want to install 
 the GitLab Runner on a dedicated build machine. It can otherwise be very distracting 
 to be using your machine and have Simulator launch unexpectedly to run a test suite.
-- The test project used in this particular tutorial is [available here](https://gitlab.com/AngeloStavrow/gitlab-ci-for-ios-projects), but the Runner 
-is permanently stopped. Note that the project isn't tied to a particular team, so 
-provisioning isn't an issue here; in fact, *no* provisioning profile is specified. 
+- The test project used in this particular tutorial is [available here](https://gitlab.com/AngeloStavrow/gitlab-ci-for-ios-projects),
+but the Runner is permanently stopped. Note that the project isn't tied to a particular 
+team, so provisioning isn't an issue here; in fact, *no* provisioning profile is specified. 
 You, however, may need to [add some parameters to the build scripts](https://coderwall.com/p/rv2lgw/use-xcodebuild-to-build-workspace-vs-project) 
 in your `.gitlab-ci.yml` file if you see provisioning errors in your build output.
 
