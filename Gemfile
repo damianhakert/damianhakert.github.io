@@ -20,6 +20,7 @@ gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 # For feed.xml.builder
 gem "builder", "~> 3.0"
 
-group :test do
+group :development, :test do
   gem 'scss_lint', require: false
+  gem 'yaml-lint', require: false
 end
