@@ -2,6 +2,8 @@
 layout: markdown_page
 title: "Demand Generation"
 ---
+Go to [Marketing](/handbook/marketing)
+
 ## This page
 
 * [References](#references)
