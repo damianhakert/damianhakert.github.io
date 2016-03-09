@@ -46,3 +46,4 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 
 1. [Our Sales Agenda](https://docs.google.com/document/d/1l1ecVjKAJY67Zk28CYFiepHAFzvMNu9yDUYVSQmlTmU/edit)
 
+1. [Recorded Practice Sales Demos](https://drive.google.com/drive/u/0/folders/0B_XVovPbWgADM1M3VUg1ZVJ0UjQ)
