@@ -62,7 +62,7 @@ Field marketing includes event marketing and swag production.
 
 ## Meetups
 
-* We should have a meetup-in-a-box package where we arrange for:
+* We have a meetup-in-a-box package where we arrange for:
 
 1. The venue (we find and book it)
 1. Food (not only pizza, something healthy too)
