@@ -19,14 +19,22 @@ Read on for all the details!
 <!-- more -->
 
 - **EE:** GitLab Geo: Repository synchronization between primary and secondary nodes ([!179])
+- **EE:** Add documentation for GitLab Pages ([!212])
 - **EE:** Fix importing projects from GitHub Enterprise Edition ([!219])
 - **EE:** Fix syntax error in init file ([!223])
 - **EE:** Only show group member roles if explicitly requested ([!3044])
 
 [!179]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/179
+[!212]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/212
 [!219]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/219
 [!223]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/223
 [!3044]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3044
+
+## GitLab Geo documentation
+
+GitLab Geo is a new feature, currently in alpha, that allows you to have a
+remote replicate of your entire GitLab instance. Today we're introducing its
+documentation so that you our users can start using it.
 
 ## Upgrade barometer
 
