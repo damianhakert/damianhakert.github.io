@@ -32,9 +32,34 @@ Field marketing includes event marketing and swag production.
 
 We want to strike a good balance between: community and enterprise events.
 
+## Promoting Events
+- Email signatures- starting 1 month before event???
+- Get attendee list and contact customers and prospects
+- BDRS will help set up 20 in person meetings set up before event to occur at event
+
+
+## After and Event
+
+- Fill out after event survey- send any relevant feedback on event to marketing event staff. 
+    - was the event valuable?
+        - would you go again/ should we go again?
+        - did we get good leads/ contacts?
+        - best questions asked and conversations
+        - was our sponsorship/ involvement successful?
+    - how was the booth set up?
+        - how was the booth staffing?
+        - did the booth get enough traffic?
+        - booth location and size
+    - how did our swag go over?
+        - did we have enough/ too much?
+    - contests?
+- Make sure contacts/ leads gathered from event are with marketing and categorized under specific event campaign.
+- Follow up with leads from event within 5 business days after event ends.
+
+
 ## Speaker Portal
 
-* Catalogue of talks and speaker briefs we have done or can do.  Contact community@gitlab.com for access.
+* Catalogue of talks and speaker briefs we have done or can do and their run times.  Contact community@gitlab.com for access.
 
 ## Meetups
 
@@ -60,7 +85,7 @@ So do everything to keep it going.
 
 * We aim to do swag in a way that doesn't cost us a lot of time to execute => self serve => [web shop](https://gitlab.mybrightsites.com/)
 * With a webshop you can just give people credit, they can pick what they want and provide shipping info.
-* Of course we need [stickers](http://opensource.com/business/15/11/open-source-stickers). Also working on special edition stickers for contributors, GitLab Club members.
+* Of course we have [stickers](http://opensource.com/business/15/11/open-source-stickers). Also working on special edition stickers for contributors, GitLab Club members.
 * We aim to make our sag delight an or be useful.
 * Making limited edition swag for the community to collect. 
 
