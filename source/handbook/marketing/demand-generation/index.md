@@ -58,8 +58,9 @@ Go to the [Marketing Handbook](/handbook/marketing)
 
 ## What counts as an SQL or MQL?<a name="SQL"></a>
 * SQL is any lead which has been both: 
-a. accepted by the sales team which has met the qualification requirements; and 
-b. converted to a Contact in and attached to a new Opportunity in SFDC.
+accepted by the sales team which has met the qualification requirements; and 
+converted to a Contact in SFDC and attached to a new Opportunity in SFDC.
+
 * MQL is any lead with a lead score of 20 or greater in Marketo (lead score is calculated based on behavioral and demographic data).
 
 ## Lead status<a name="leadStatus"></a>
