@@ -7,13 +7,34 @@ title: "Developer Marketing"
 
 Field marketing includes event marketing and swag production.  
 
-## Events
+## Events Overview
 
 * People and especially the CEO should go shaking hands, even at small events.
 * If you go talk at small events you'll see that over time you get into bigger ones.
 * People that you meet in person are more likely to become evangelists for you.
-* Attend conferences, especially OSCON
-* Get GitLab team members out to meet people in the community
+* Attend conferences, especially OSCON.
+* Get GitLab team members out to meet people in the community.
+
+## Events Goals
+- Evangelism (brand) - Talk to as many people as we can about GitLab. Our booth presence we must be friendly, knowledgeable, and outgoing. 
+- Sales leads (revenue) - We will collect business cards and email addresses for potential leads. 
+- Hiring (company) - Always be recruiting. See someone doing a great job of evangelism for another product? Ask that person for coffee.
+- Partnership (channel) - Organizations adding support for GitLab and/or shipping GitLab with their offering.
+- Product Direction - what is the market asking for, in need of and willing to pay for.  
+- Drive audience to any talks/ events we are having
+
+## How We Evaluate Events
+- Price/ Budget 
+- Location- tops cities for developers and can we tag on another event?
+- Attendees- who’s attending? Is it the right audience for us? entrepreneurs vs engineers 
+- Size- go bigger
+- What will our presence be? Who can/ can we go, participate, speak, booth?
+
+We want to strike a good balance between: community and enterprise events.
+
+## Speaker Portal
+
+* Catalogue of talks and speaker briefs we have done or can do.  Contact community@gitlab.com for access.
 
 ## Meetups
 
@@ -37,10 +58,9 @@ So do everything to keep it going.
 
 ## Swag
 
-* Should do it in a way that doesn't cost us a lot of time to execute => self serve => web shop
-* With a webshop you can just give people credit, they can pick what they want and provide shipping info
-* Have lots of mugs, [mugs are a conversational item in the office](http://dealwhisperers.blogspot.co.il/2015/07/a-million-dollar-coffee-cup.html)
-* Special edition stickers for contributors, GitLab Club members.
-* Of course we need [stickers](http://opensource.com/business/15/11/open-source-stickers)
-* Maybe we can also do [hologram stickers](http://www.integraf.com/custom/hologram-stickers-labels/) since these will look cool on laptops and people are more likely to give them a prominent place.
+* We aim to do swag in a way that doesn't cost us a lot of time to execute => self serve => [web shop](https://gitlab.mybrightsites.com/)
+* With a webshop you can just give people credit, they can pick what they want and provide shipping info.
+* Of course we need [stickers](http://opensource.com/business/15/11/open-source-stickers). Also working on special edition stickers for contributors, GitLab Club members.
+* We aim to make our sag delight an or be useful.
+* Making limited edition swag for the community to collect. 
 
