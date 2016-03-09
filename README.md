@@ -12,13 +12,13 @@ It will be moved to the www-gitlab-com project at a later date.
 Edit [`data/team.yml`](./data/team.yml) and add a new entry for yourself (or
 update the placeholder with your initials).
 
-Images should be uploaded to [`source/images/team](./source/images/team).
+Images should be uploaded to [`source/images/team`](./source/images/team).
 
 ### Adding a pet to the team pets page
 
 Edit [`data/pets.yml`](./data/pets.yml) and add a new entry.
 
-Images should be uploaded to [`source/images/team/pets](./source/images/team/pets).
+Images should be uploaded to [`source/images/team/pets`](./source/images/team/pets).
 
 ### Updating the promotion link
 
