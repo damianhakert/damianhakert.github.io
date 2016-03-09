@@ -33,6 +33,7 @@ $(function() {
     var current = window.location.hash;
 
     $('.tab:not(' + current +')', $tabs).hide();
+    window.scrollTo(0, 0);
 
     $(".dropdown-menu a").on('click', function (e) {
       e.preventDefault();
@@ -45,10 +46,9 @@ $(function() {
       $('.tab:not(' + current +')', $tabs).hide();
       $(current).show();
       window.location.replace(window.location.origin + window.location.pathname + current);
+      window.scrollTo(0, 0);
 
       $(this).dropdown('toggle');
-
-      window.scrollTo(0, $('body').scrollTop() - 120);
 
       return false;
     });
