@@ -64,7 +64,7 @@ They can login and download their payslip to their computer if needed.
 
 
 ## Accounts Payable <a name="ap"></a>
-NOTE: Vendor and contractor invoices are to be sent to ap@gitlab.com. An invoice template can be found in [Google Docs](https://docs.google.com/spreadsheets/d/1eA0fOmbRysYrL4YVufRRydl2B_9UwWRtxKwKu2iTCHo).
+NOTE: Vendor and contractor invoices are to be sent to ap@gitlab.com. An invoice template can be found in Google Docs by the name of "Invoice Template".
 
 ### A note on VAT for transactions between GitLab BV and EU-based vendors
 In many cases, VAT will not be payable on transactions between GitLab BV and EU-based
