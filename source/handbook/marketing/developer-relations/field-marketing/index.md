@@ -29,8 +29,7 @@ Field marketing includes event marketing and swag production.
 - Attendees- who’s attending? Is it the right audience for us? entrepreneurs vs engineers 
 - Size- go bigger
 - What will our presence be? Who can/ can we go, participate, speak, booth?
-
-We want to strike a good balance between: community and enterprise events.
+- We want to strike a good balance between: community and enterprise events.
 
 ## Promoting Events
 - Email signatures- starting 1 month before event???
