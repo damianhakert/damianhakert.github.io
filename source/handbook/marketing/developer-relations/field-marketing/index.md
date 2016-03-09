@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Developer Marketing"
+title: "Field Marketing"
 ---
 
 ## Field Marketing
@@ -64,7 +64,6 @@ Field marketing includes event marketing and swag production.
 
 * We have a meetup-in-a-box package where we arrange for:
 
-1. The venue (we find and book it)
 1. Food (not only pizza, something healthy too)
 1. GitLab swag
 1. Walkthroughs (demo scripts)
