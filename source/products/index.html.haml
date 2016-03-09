@@ -8,17 +8,17 @@ extra_css:
 .wrapper.container-fluid
   .products.row
     .col-md-4.product
-      %a{:href => "/features/"}
+      %a{href: "/features/"}
         = image_tag "/images/products/product_ce.png", class: "img-responsive"
         %h1 Community Edition
         %p.lead GitLab CE is open source software to collaborate on code
     .col-md-4.product.ee
-      %a{:href => "/features/#enterprise"}
+      %a{href: "/features/#enterprise"}
         = image_tag "/images/products/product_ee.png", class: "img-responsive"
         %h1 Enterprise Edition
         %p.lead GitLab EE is similar to CE but with additional features
     .col-md-4.product.ci
-      %a{:href => "/gitlab-ci/"}
+      %a{href: "/gitlab-ci/"}
         = image_tag "/images/products/product_ci.png", class: "img-responsive"
         %h1 Continuous Integration
         %p.lead GitLab CI runs tests for your GitLab projects

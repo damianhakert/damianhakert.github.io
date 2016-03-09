@@ -20,7 +20,7 @@ extra_css:
         %li Deeper integration with your tool stack
       You will receive an email with your 30-day license key and download
       instructions after submitting this form.
-    %script{:src => "//app-ab13.marketo.com/js/forms2/js/forms2.min.js"}
+    %script{src: "//app-ab13.marketo.com/js/forms2/js/forms2.min.js"}
     %form#mktoForm_1100
     :javascript
       MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1100, function(form) {
@@ -34,5 +34,5 @@ extra_css:
             return false;
           });
       });
-    #confirmform{:style => "visibility:hidden;"}
+    #confirmform{style: "visibility:hidden;"}
       %p Submission received! Check your email for your 30-day license key and download instructions.

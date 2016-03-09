@@ -11,8 +11,8 @@ extra_css:
       .pricing-content
         %h1 GitLab Enterprise Edition on your Server
       .header-btn
-        %a.free-trial{:href => "/free-trial"} Free trial
-        %a.contact-us{:href => "https://about.gitlab.com/sales/"} Contact us
+        %a.free-trial{href: "/free-trial"} Free trial
+        %a.contact-us{href: "https://about.gitlab.com/sales/"} Contact us
   #subs.subscriptions
     .row
       .col-sm-4
@@ -33,13 +33,13 @@ extra_css:
             .detail
               %span.glyphicon.glyphicon-chevron-right
               .body
-                %a{:href => "/features/#enterprise"} GitLab Enterprise Edition
+                %a{href: "/features/#enterprise"} GitLab Enterprise Edition
             .detail
               %span.glyphicon.glyphicon-chevron-right
               .body
                 Next business day support
             .detail-spacer
-          %a#order-basic.basic.button{:href => "https://gitlab.recurly.com/subscribe/gitlab-basic-yearly-10", :onclick => "ga('send', 'event', 'link', 'click', 'basic subscription');"} Buy now
+          %a#order-basic.basic.button{href: "https://gitlab.recurly.com/subscribe/gitlab-basic-yearly-10", onclick: "ga('send', 'event', 'link', 'click', 'basic subscription');"} Buy now
       .col-sm-4
         .standard.subscription
           .header
@@ -58,7 +58,7 @@ extra_css:
             .detail
               %span.glyphicon.glyphicon-chevron-right
               .body
-                %a{:href => "/features/#enterprise"} GitLab Enterprise Edition
+                %a{href: "/features/#enterprise"} GitLab Enterprise Edition
             .detail
               %span.glyphicon.glyphicon-chevron-right
               .body
@@ -71,12 +71,12 @@ extra_css:
               %span.glyphicon.glyphicon-chevron-right
               .body
                 Support for
-                %a{:href => "https://about.gitlab.com/high-availability/"} high availability
+                %a{href: "https://about.gitlab.com/high-availability/"} high availability
             .detail
               %span.glyphicon.glyphicon-chevron-right
               .body
                 Live upgrade assistance
-          %a#order-standard.basic.button{:href => "https://gitlab.recurly.com/subscribe/gitlab-standard-yearly-100", :onclick => "ga('send', 'event', 'link', 'click', 'standard subscription');"} Buy now
+          %a#order-standard.basic.button{href: "https://gitlab.recurly.com/subscribe/gitlab-standard-yearly-100", onclick: "ga('send', 'event', 'link', 'click', 'standard subscription');"} Buy now
       .col-sm-4
         .plus.subscription
           .header
@@ -94,7 +94,7 @@ extra_css:
             .detail
               %span.glyphicon.glyphicon-chevron-right
               .body
-                %a{:href => "/features/#enterprise"} GitLab Enterprise Edition
+                %a{href: "/features/#enterprise"} GitLab Enterprise Edition
             .detail
               %span.glyphicon.glyphicon-chevron-right
               .body
@@ -102,7 +102,7 @@ extra_css:
             .detail
               %span.glyphicon.glyphicon-chevron-right
               .body
-                %a{:href => "https://about.gitlab.com/training/"} Git Training (4 workshops)
+                %a{href: "https://about.gitlab.com/training/"} Git Training (4 workshops)
             .detail
               %span.glyphicon.glyphicon-chevron-right
               .body
@@ -123,25 +123,25 @@ extra_css:
               %span.glyphicon.glyphicon-chevron-right
               .body
                 Onboarding help
-          %a#order-plus.basic.button{:href => "https://gitlab.recurly.com/subscribe/gitlab-plus-yearly-100", :onclick => "ga('send', 'event', 'link', 'click', 'plus subscription');"} Buy now
+          %a#order-plus.basic.button{href: "https://gitlab.recurly.com/subscribe/gitlab-plus-yearly-100", onclick: "ga('send', 'event', 'link', 'click', 'plus subscription');"} Buy now
     %p  
   .subs-header
     .title All plans include a 45 day money-back guarantee
   .pricing-notes
     %p
-      %a{:href => "/features/#compare"} Compare
+      %a{href: "/features/#compare"} Compare
       the features of GitLab Community Edition and Enterprise Edition
     %p
       Compare GitLab to the
-      %a{:href => "/comparison"} competition
+      %a{href: "/comparison"} competition
     %p
-      %a{:href => "https://about.gitlab.com/sales/", :onclick => "ga('send', 'event', 'link', 'click', 'contact sales');"} Please contact us
+      %a{href: "https://about.gitlab.com/sales/", onclick: "ga('send', 'event', 'link', 'click', 'contact sales');"} Please contact us
       if you have any questions.
     %p
-      %a{:href => "https://about.gitlab.com/high-availability/"} Learn more
+      %a{href: "https://about.gitlab.com/high-availability/"} Learn more
       about high availability
     %p
-      %a{:href => "/license-faq"} Frequently asked questions
+      %a{href: "/license-faq"} Frequently asked questions
       about subscriptions and licensing
   %hr.divider/
   .container
@@ -153,24 +153,24 @@ extra_css:
           Want us to help you with something else?
       .col-sm-4
         .box
-          %a{:href => "/consultancy"}
+          %a{href: "/consultancy"}
             = image_tag "/images/icons/cons_icon.png", class: "gs"
             %h2 Consultancy
             %p Upgrade or install GitLab.
-          %a.btn.btn-md.btn-default{:href => "/consultancy/"} Contact us
+          %a.btn.btn-md.btn-default{href: "/consultancy/"} Contact us
       .col-sm-4
         .box
-          %a{:href => "/development"}
+          %a{href: "/development"}
             = image_tag "/images/icons/dev_icon.png", class: "gs"
             %h2 Development
             %p Add a new feature to GitLab.
-          %a.btn.btn-md.btn-default{:href => "/development/"} Contact us
+          %a.btn.btn-md.btn-default{href: "/development/"} Contact us
       .col-sm-4
         .box
-          %a{:href => "/training"}
+          %a{href: "/training"}
             = image_tag "/images/icons/tra_icon.png", class: "gs"
             %h2 Training
             %p Git training workshop.
-          %a.btn.btn-md.btn-default{:href => "/training/"} Contact us
+          %a.btn.btn-md.btn-default{href: "/training/"} Contact us
   %hr.divider/
   .other-services

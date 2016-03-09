@@ -10,23 +10,23 @@ extra_css:
   .container
     .row
       .col-sm-4.col-md-4
-        %a{:href => "/getting-help"}
+        %a{href: "/getting-help"}
           = image_tag "/images/icons/about_us.png", alt: "Getting help"
         %h2
-          %a{:href => "/getting-help"} Getting Help
+          %a{href: "/getting-help"} Getting Help
         %p
           We have several resources available such as documentation, FAQs,
           forums, and Issue Trackers to help you with GitLab.
       .col-sm-4.col-md-4
-        %a{:href => "/sales"}
+        %a{href: "/sales"}
           = image_tag "/images/icons/contact_us.png", alt: "Contact Us"
         %h2
-          %a{:href => "/sales"} Contact Sales
+          %a{href: "/sales"} Contact Sales
         %p
           Contact our sales team for any questions about GitLab Enterprise
           Edition. If you have any marketing or PR inquiries, please email
           = succeed "." do
-            %a{:href => "mailto:community@gitlab.com"} community@gitlab.com
+            %a{href: "mailto:community@gitlab.com"} community@gitlab.com
 
       .col-sm-4.col-md-4
         %a{href: "https://twitter.com/gitlab"}
@@ -44,7 +44,7 @@ extra_css:
       .col-sm-4.col-md-4
         = image_tag "/images/icons/news.png", alt: "Newsletter"
         %h2 Newsletter
-        %script{:src => "//app-ab13.marketo.com/js/forms2/js/forms2.min.js"}
+        %script{src: "//app-ab13.marketo.com/js/forms2/js/forms2.min.js"}
         %form#mktoForm_1073
         :javascript
           MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1073, function(form) {
@@ -63,21 +63,21 @@ extra_css:
         %p.newsletter-afterword
           If you subscribe, you will receive our twice-monthly newsletter.
       .col-sm-4.col-md-4
-        %a{:href => "/visiting"}
+        %a{href: "/visiting"}
           = image_tag "/images/icons/office.png", alt: "Office"
         %h2
-          %a{:href => "/visiting"} Visit Our Office
+          %a{href: "/visiting"} Visit Our Office
         %p
           Information about visiting our office in San Francisco, California.
       .col-sm-4.col-md-4
-        %a{:href => "/disclosure"}
+        %a{href: "/disclosure"}
           = image_tag "/images/icons/security.png", alt: "Security"
         %h2
-          %a{:href => "/disclosure"} Security
+          %a{href: "/disclosure"} Security
         %p
           If you want to test the security of GitLab or if you think you have
           found a problem please see our
-          %a{:href => "/disclosure"}
+          %a{href: "/disclosure"}
             Responsible Disclosure Policy
 
     .row
@@ -104,11 +104,11 @@ extra_css:
           If you subscribe, you will receive notifications about security
           updates.
       .col-sm-4.col-md-4
-        %a{:href => "https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md"}
+        %a{href: "https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md"}
           = image_tag "/images/icons/website.png", alt: "Website"
         %h2
-          %a{:href => "https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md"} Website
+          %a{href: "https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md"} Website
         %p
           This website is created from a public repository. If you see a
           potential improvement please
-          %a{:href => "https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md"} contribute to this website
+          %a{href: "https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md"} contribute to this website

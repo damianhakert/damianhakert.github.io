@@ -12,7 +12,7 @@ extra_css:
         %h1 GitLab.com
         %h3 host your private and public software projects for free
         .header
-          %a#join-community.gs-button{:href => "https://gitlab.com/users/sign_in"} Sign Up
+          %a#join-community.gs-button{href: "https://gitlab.com/users/sign_in"} Sign Up
         .header-feature.hidden-sm.hidden-xs
           %ul
             %li
@@ -42,7 +42,7 @@ extra_css:
         .col-xs-12.col-md-5
           %h2
             Advantages
-            %a{:name => "advantages"}
+            %a{name: "advantages"}
           %ul
             %li Unlimited repositories
             %li Unlimited private collaborators
@@ -50,9 +50,9 @@ extra_css:
             %li Unlimited total disk space
             %li Completely free, no credit card required
             %li
-              %a{:href => "/2016/02/18/gitlab-dot-com-now-supports-an-alternate-git-plus-ssh-port/"} Alternate SSH port for git+ssh (443)
+              %a{href: "/2016/02/18/gitlab-dot-com-now-supports-an-alternate-git-plus-ssh-port/"} Alternate SSH port for git+ssh (443)
           %p
-            %a{:href => "https://gitlab.com/explore"} Explore the public projects on GitLab.com
+            %a{href: "https://gitlab.com/explore"} Explore the public projects on GitLab.com
             (no account needed)
         .col-md-4.hidden-sm.hidden-xs
           = image_tag "/images/wordmark.png"
@@ -96,20 +96,20 @@ extra_css:
         .col-xs-12.col-md-6
           %h2
             Support Package
-            %a{:name => "support-package"}
+            %a{name: "support-package"}
           %ul
             %li
               Free subscribers can use the
-              %a{:href => "https://gitlab.com/gitlab-com/support-forum/issues"} GitLab.com Support Forum
+              %a{href: "https://gitlab.com/gitlab-com/support-forum/issues"} GitLab.com Support Forum
               if they have questions.
             %li
               If you purchase
-              %a{:href => "https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20"} GitLab.com Bronze Support
+              %a{href: "https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20"} GitLab.com Bronze Support
               you can email support directly for timely, personal and private answers. This costs $9.99 per user per year for next-business-day response time and is available in packs of 20 users.
       .row.panels
         %h2
           Select package
-          %a{:name => "select-package"}
+          %a{name: "select-package"}
         .col-md-6
           .panel.panel-default
             .panel-heading
@@ -122,13 +122,13 @@ extra_css:
               private collaborators
               %br/
               Support via
-              %a{:href => "https://gitlab.com/gitlab-com/support-forum/issues"} the forum
+              %a{href: "https://gitlab.com/gitlab-com/support-forum/issues"} the forum
               %br/
               %br/
               %b Completely free
               %br/
               %br/
-              %a.btn.btn-lg.btn-default{:href => "https://gitlab.com/users/sign_up"} Sign up
+              %a.btn.btn-lg.btn-default{href: "https://gitlab.com/users/sign_up"} Sign up
         .col-md-6
           .panel.panel-purple
             .panel-heading
@@ -146,21 +146,21 @@ extra_css:
               %b $9.99 per user, per year in multiples of 20 users
               %br/
               %br/
-              %a.btn.btn-lg.btn-purple{:href => "https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20"} Order support
+              %a.btn.btn-lg.btn-purple{href: "https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20"} Order support
       %hr.divider/
       .row.security
         .col-xs-1.col-md-1
         .col-xs-12.col-md-6
           %h2
             Availability and Security
-            %a{:name => "availability-and-security"}
+            %a{name: "availability-and-security"}
           %ul
             %li
               GitLab.com is monitored 24/7. For updates follow
-              %a{:href => "https://twitter.com/gitlabstatus"} @gitlabstatus
+              %a{href: "https://twitter.com/gitlabstatus"} @gitlabstatus
               or see our
               = succeed "." do
-                %a{:href => "https://status.gitlab.com/", :title => "status"} status page
+                %a{href: "https://status.gitlab.com/", title: "status"} status page
             %li
               These are the fingerprints for GitLab.com's SSH host keys:
               %ul
@@ -187,7 +187,7 @@ extra_css:
             %li Our servers are hosted on Amazon Web Services (AWS) and Azure, we use configuration management, and we patch our servers at least once a week.
             %li
               GitLab offers
-              %a{:href => "https://about.gitlab.com/2015/05/22/gitlab-7-11-released/"} Two-Factor Authentication
+              %a{href: "https://about.gitlab.com/2015/05/22/gitlab-7-11-released/"} Two-Factor Authentication
               (2FA) and our passwords are one-way encrypted.
             %li
               GitLab.com sends emails from the
@@ -197,7 +197,7 @@ extra_css:
             %li
               GitLab.com can't be integrated with your LDAP server, if you need this please use
               = succeed "." do
-                %a{:href => "https://about.gitlab.com/features/"} GitLab CE or EE
+                %a{href: "https://about.gitlab.com/features/"} GitLab CE or EE
         .hidden-xs.hidden-sm.col-md-4
           %i.fa.fa-terminal
         .col-xs-1.col-md-1
@@ -207,7 +207,7 @@ extra_css:
         .col-xs-12.col-md-6
           %h2
             Plenty of import options
-            %a{:name => "import-options"}
+            %a{name: "import-options"}
           %ul
             %li You can easily import all of your projects, repositories and issues from GitHub with a single click.
         .hidden-xs.hidden-sm.col-md-4
@@ -218,7 +218,7 @@ extra_css:
         .col-xs-1.col-md-1
         .col-xs-12.col-md-6
           %h2#why-gitlab-com-will-be-free-forever
-            %a{:name => "free-forever"}>
+            %a{name: "free-forever"}>
             Why GitLab.com will be free forever
           We want GitLab.com to become the most popular service for hosting projects.
           To achieve this goal, GitLab.com is completely free, both for public and private projects. Unlike other companies in this space, there is no limit to the number of collaborators.

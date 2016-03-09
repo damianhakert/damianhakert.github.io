@@ -14,4 +14,4 @@ team_members:
         %b PETS
     .row
       - data.pets.each do |pet|
-        = partial "includes/team/member", :locals => {:member => pet, :is_pet => true}
+        = partial "includes/team/member", locals: {member: pet, is_pet: true}

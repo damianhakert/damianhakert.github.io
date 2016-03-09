@@ -7,7 +7,7 @@ extra_css:
 image_title: /images/team/team.jpg
 ---
 .hidden-xs
-  %iframe{:frameborder => "0", :height => "500", :scrolling => "no", :src => "https://sundial.teleport.org/public/map/Y3IahPR5vYjBpMyU2kZj?mousescroll=false", :width => "100%"}
+  %iframe{frameborder: "0", height: "500", scrolling: "no", src: "https://sundial.teleport.org/public/map/Y3IahPR5vYjBpMyU2kZj?mousescroll=false", width: "100%"}
 .wrapper
   .team-container
     .team-head
@@ -16,10 +16,10 @@ image_title: /images/team/team.jpg
         %b TEAM
       %p
         The GitLab Inc. team consists of
-        %a{:href => "/team-pets/"} pets
+        %a{href: "/team-pets/"} pets
         and the following individuals.
         You can get a sense of the team culture by visiting our
-        %a{:href => "https://about.gitlab.com/culture/"} culture page
+        %a{href: "https://about.gitlab.com/culture/"} culture page
     .row
       - data.team.each do |member|
         = partial "includes/team/member", locals: {member: member, is_pet: false}
@@ -30,11 +30,11 @@ image_title: /images/team/team.jpg
               = image_tag "/images/team/logo-extra-whitespace.png", alt: "GitLab.com", width: 200, height: 200
               %h3 You?
               %br/
-              %p{:style => "text-align: center; padding: 0 25px;"}
+              %p{style: "text-align: center; padding: 0 25px;"}
                 Want to see your name and picture here? Check out our latest
-                %a{:href => "http://about.gitlab.com/jobs/"} job openings!
+                %a{href: "http://about.gitlab.com/jobs/"} job openings!
               .social
-                %a{:href => "https://twitter.com/gitlab"}
+                %a{href: "https://twitter.com/gitlab"}
                   %i.fa.fa-twitter
-                %a{:href => "https://gitlab.com"}
+                %a{href: "https://gitlab.com"}
                   = partial "includes/logos/logo_sq.svg"

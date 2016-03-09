@@ -10,8 +10,8 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 set :haml, {
-  :ugly => true,
-  :format => :html5
+  ugly: true,
+  format: :html5
 }
 
 activate :blog do |blog|
