@@ -269,7 +269,6 @@ step, **re-assign** the issue to that person.
 
 1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
 1. We use BlueJeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
-1. Please join the meeting with your x@gitlab.com account, not your private Google account.
 1. If you have previously logged on to Bluejeans with different credentials, make sure to log out before joining the call as yourself.
 1. We start on time and will not wait for people.
 1. If you are unable to attend just add your name to the [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) as 'Not attending'.
