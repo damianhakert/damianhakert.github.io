@@ -507,7 +507,7 @@ This section is for tools that don't fit anywhere else.
 ### Calendly
 
 [Calendly](https://calendly.com/): Set up 45 minute meeting slots. Connect to your Google calendar which knows your availability.
-The meeting will alwasys create the same Google Video url so if you have that you can add it to the booking.
+The meeting will always create the same Google Video url so if you have that you can add it to the booking.
 
 ### Shush
 
