@@ -63,6 +63,8 @@ Some content from Heather McNamee her presentation [Developer Marketing Brainsto
 * Our service engineers will respond to [questions from any user, at any place, irrespective of them being a paying customer](https://about.gitlab.com/handbook/support/) [internal issue](https://dev.gitlab.org/gitlab/organization/issues/497)
 * Every one on our team, espacially the CEO should engage with the rest of the community. We should treat it like it's your first day on the job and you've got to earn every single one of those users yourself. Here's the best part: this practice of being responsive, human + helpful gets MORE valuable as you become more successful.
 
+## [Events and Swag](https://about.gitlab.com/handbook/marketing/developer-relations/field-marketing/)
+
 ## Training
 
 There seems to be [demand for this](https://www.theknowledgeacademy.com/sc/courses/source-code-software-training/gitlab-software-training/victoria/) so start offering scheduled training instead of only [on customer request](https://about.gitlab.com/training/).
