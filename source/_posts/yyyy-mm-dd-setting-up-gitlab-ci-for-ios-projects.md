@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Setting up GitLab CI for iOS projects"
-date: yyyy-mm-dd
+date: 2016-03-10
 comments: true
 categories:
 author: Angelo Stavrow
@@ -227,7 +227,7 @@ stages:
 build_project:
   stage: build
   script:
-	- xcodebuild clean -project ProjectName.xcodeproj -scheme SchemeName | xcpretty
+    - xcodebuild clean -project ProjectName.xcodeproj -scheme SchemeName | xcpretty
     - xcodebuild test -project ProjectName.xcodeproj -scheme SchemeName -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.2' | xcpretty -s
   tags:
     - ios_9-2
