@@ -461,10 +461,10 @@ this job will only run when we commit to master. Notice that it also defines
 option uploads it to GitLab, where you can later download it from the *Build* page.
 
 In the `archive_project` job's `exportArchive` script, make sure you pass in the 
-correct `ProvisioningProfileName`. It's likely that the `archive_project` job 
-will fail if your developer keys are in the login Keychain, rather than the System 
-Keychain. To fix this, open Keychain Access on your Mac to check this; if your 
-developer keys are in the login Keychain, just drag and drop them to the System 
+correct `ProvisioningProfileName`. It's possible that the `archive_project` job 
+will fail if your developer keys are in the login Keychain, because it's not unlocked
+in the script. The simplest way to fix this without putting your password in a
+script is to open Keychain Access on your Mac and drag and drop them to the System 
 Keychain.
 
 Now, when we commit to master, the build will also show us the archive results, 
@@ -485,7 +485,7 @@ this!
 - If you're working on a team, or if your project is public, you may want to install 
 the GitLab Runner on a dedicated build machine. It can otherwise be very distracting 
 to be using your machine and have Simulator launch unexpectedly to run a test suite.
-- The test project used in this particular tutorial is [available here](https://gitlab.com/AngeloStavrow/gitlab-ci-for-ios-projets), but the Runner 
+- The test project used in this particular tutorial is [available here](https://gitlab.com/AngeloStavrow/gitlab-ci-for-ios-projects), but the Runner 
 is permanently stopped. Note that the project isn't tied to a particular team, so 
 provisioning isn't an issue here; in fact, *no* provisioning profile is specified. 
 You, however, may need to [add some parameters to the build scripts](https://coderwall.com/p/rv2lgw/use-xcodebuild-to-build-workspace-vs-project) 
