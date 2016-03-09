@@ -15,8 +15,8 @@ title: "Accounting"
 
 ### Company phone number
 
-When needing to fill in details of GitLab's contact information you can take the addressess of the offices for reference. 
-If a phone number is asked, leaving this field empty is our default answer, otherwise if this does not work you can use 
+When needing to fill in details of GitLab's contact information you can take the addressess of the offices for reference.
+If a phone number is asked, leaving this field empty is our default answer, otherwise if this does not work you can use
 the general number (+1-415-761-1791), but be aware that this number simply guides to a voice message that refers the caller back to contacting us via email.
 
 ## Processing Payroll  <a name="payroll"></a>
@@ -64,16 +64,16 @@ They can login and download their payslip to their computer if needed.
 
 
 ## Accounts Payable <a name="ap"></a>
-NOTE: Vendor and contractor invoices are to be sent to ap@gitlab.com
+NOTE: Vendor and contractor invoices are to be sent to ap@gitlab.com. An invoice template can be found in Google Docs by the name of "Invoice Template".
 
 ### A note on VAT for transactions between GitLab BV and EU-based vendors
 In many cases, VAT will not be payable on transactions between GitLab BV and EU-based
 vendors/contractors, thanks to "Shifted VAT". To make use of this shifted VAT:
 
-* The vendor/contractor writes the phrase "VAT shifted to recipient according to 
-article 44 and 196 of the European VAT Directive" on the invoice along with the 
-VAT-number of GitLab BV (NL853740343B01). 
-* On the vendor's VAT return the revenue from GitLab BV goes to the rubric "Revenue within the EU". It goes without saying that vendors are responsible for their own correct and timely filings. 
+* The vendor/contractor writes the phrase "VAT shifted to recipient according to
+article 44 and 196 of the European VAT Directive" on the invoice along with the
+VAT-number of GitLab BV (NL853740343B01).
+* On the vendor's VAT return the revenue from GitLab BV goes to the rubric "Revenue within the EU". It goes without saying that vendors are responsible for their own correct and timely filings.
 * GitLab BV files the VAT on the VAT return, and is generally able to deduct this VAT all as part of the same return.
 
 
