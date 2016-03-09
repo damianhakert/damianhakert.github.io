@@ -59,52 +59,56 @@ extra_js:
           %h3.what-is-item-title
             Everyone can contribute
           .what-is-item-content
-            %p
-              %strong Build together:
-              GitLab includes git repository management, code reviews, issue tracking, wikis, and
-              %a{href: "/features/"} more.
-              GitLab includes GitLab CI an easy to use continuous integration and deployment tool.
-            %p
-              %strong Stay up to date:
-              Collaborate with your team using issues, milestones, and line by line code review. View activity streams of projects or the people you work with.
-            %p
-              %strong Plays well with others:
-              GitLab seamlessly integrates with Slack, Hipchat, LDAP, JIRA, Jenkins, and many other popular tools. GitLab includes many webhooks and offers a complete API.
+            :markdown
+              **Build together:** GitLab includes git repository management,
+              code reviews, issue tracking, wikis, and [more](/features/).
+              GitLab includes GitLab CI an easy to use continuous integration
+              and deployment tool.
+
+              **Stay up-to-date:** Collaborate with your team using issues,
+              milestones, and line by line code review. View activity streams of
+              projects or the people you work with.
+
+              **Plays well with others:** GitLab seamlessly integrates with
+              Slack, Hipchat, LDAP, JIRA, Jenkins, and many other popular tools.
+              GitLab includes many webhooks and offers a complete API.
       .col-sm-6.col-md-4.what-is-item-holder
         .what-is-item
           = icon "community", "what-is-item-icon", {width: 56, height: 56, label: "Community"}
           %h3.what-is-item-title
-            Community loved,
-            %br
-            enterprise ready
+            Community-loved, enterprise-ready
           .what-is-item-content
-            %p
-              GitLab Community Edition is completely free to
-              %a{href: "/downloads/"} download
-              and
-              %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/tree/master#README"} open source.
-              GitLab is powered by a community of more than 1000 people.
-            %p
-              GitLab Enterprise Edition offers deeper LDAP and Active Directory integration, Jira and Jenkins integration, and
-              %a{href: "/features/#compare"} much more.
-            %p
-              Enterprise Edition subscriptions can include 24/7 emergency support, a dedicated service engineer, high availability support, and more. Learn more on our
-              %a{href: "/pricing/"} pricing page.
+            :markdown
+              GitLab Community Edition is completely free to [download] and
+              [open source]. GitLab is powered by a community of more than 1,000
+              people.
+
+              GitLab Enterprise Edition offers deeper LDAP and Active Directory
+              integration, Jira and Jenkins integration, and
+              [much more](/features#compare).
+
+              Enterprise Edition subscriptions can include 24/7 emergency
+              support, a dedicated service engineer, high availability support,
+              and more. Learn more on our [pricing page](/pricing).
+
+              [download]: /downloads
+              [open source]: https://gitlab.com/gitlab-org/gitlab-ce
       .col-sm-12.col-md-4.what-is-item-holder
         .what-is-item
           = icon "release", "what-is-item-icon", {width: 56, height: 56, label: "Release"}
           %h3.what-is-item-title
             We are never done
           .what-is-item-content
-            %p
-              %strong Updated Monthly:
-              We release a new version of GitLab each month on the 22nd and it'll only take you 2 minutes to update.
-            %p
-              %strong Community Input:
-              We listen to our community when deciding what to release next. Follow along with our
-              %a{href: "/direction/"} upcoming releases.
-            %p
-              %strong Scales Effortlessly:
-              GitLab runs smoothly on any size server but can scale to multiple active servers. A single server can handle more than 25,000 users.
+            :markdown
+              **Updated Monthly:** We release a new version of GitLab each month
+              on the 22nd and it'll only take you 2 minutes to update.
+
+              **Community Input:** We listen to our community when deciding what
+              to release next. Follow along with our [upcoming releases](/direction).
+
+              **Scales Effortlessly:** GitLab runs smoothly on any size server
+              but can scale to multiple active servers. A single server can
+              handle more than 25,000 users.
+
 = partial "includes/organizations/grid"
 = partial "includes/testimonials/slider"
