@@ -1,0 +1,401 @@
+@import "variables";
+
+.text-right,
+.text-left {
+  text-align: center;
+}
+
+@media (min-width: 692px) {
+  .text-right {
+    text-align: right;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+}
+
+.pricing-container {
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+  overflow: hidden;
+  background: url("/images/pricing.jpg") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 35px;
+
+  @media (max-width: 767px) {
+    min-height: 500px;
+    margin-bottom: 35px;
+  }
+}
+
+.pricing-overlay {
+  background: linear-gradient(-225deg, rgba($color-primary, .8) 0%, rgba($pricing-header-color-to, .92) 100%);
+  height: 300px;
+}
+
+.pricing-content {
+  padding-top: 68px;
+  text-align: center;
+  color: $color-white;
+  width: 72%;
+  margin-left: 13%;
+
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+}
+
+.header-btn {
+  margin-top: 50px;
+  text-align: center;
+
+  p {
+    color: $color-white;
+    margin-top: 10px;
+  }
+
+  a:hover {
+    background: $color-primary;
+    color: $color-white;
+    text-decoration: none;
+  }
+}
+
+.free-trial,
+.contact-us {
+  background: $pricing-primary;
+  color: $color-white;
+  padding: 10px 20px;
+  font-size: 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.subscriptions {
+  text-align: center;
+  max-width: 970px;
+  margin: auto;
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.subscription {
+  width: 300px;
+  font-weight: 200;
+  text-align: center;
+  transition: all .3s;
+  display: inline-block;
+  box-shadow: 0 3px 3px rgba($color-dark, .1);
+  border-radius: 4px;
+  margin-top: 10px;
+  background: $color-white;
+
+  .header {
+    font-size: 40px;
+    color: $color-white;
+    background: $subscription-header-bg;
+    height: 110px;
+    line-height: 100px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    .sub-header {
+      font-style: italic;
+      font-size: 15px;
+      line-height: 34px;
+      text-transform: initial;
+      top: -35px;
+      position: relative;
+      font-weight: 400;
+    }
+  }
+
+  .price {
+    font-size: 50px;
+    color: $subscription-header-bg;
+    padding: 33px 0 20px;
+    background: $color-white;
+    font-weight: 600;
+
+    .money {
+      display: inline;
+      margin: 0;
+      padding: 0;
+      font-size: 24px;
+      font-weight: 600;
+      top: -22px;
+      margin-left: -20px;
+      position: relative;
+    }
+  }
+
+  .subprice {
+    color: $subscription-header-bg;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .details {
+    background: $color-white;
+    padding: 11px 30px 20px;
+    text-align: left;
+  }
+
+  .detail {
+    font-size: 15px;
+    line-height: 25px;
+    padding: 5px 0;
+    transition: all .2s;
+
+    &:hover {
+      background: $color-white;
+    }
+
+    //scss-lint:disable NestingDepth
+    .body {
+      display: inline-block;
+      position: relative;
+      top: -5px;
+      padding-left: 10px;
+      font-weight: 400;
+      width: 88%;
+
+      &.double {
+        top: 6px;
+        margin-bottom: 9px;
+        line-height: 1.3em;
+      }
+    }
+    //scss-lint:enable NestingDepth
+
+    .glyphicon {
+      color: $pricing-primary;
+      font-size: 25px;
+      width: 10%;
+    }
+  }
+
+  .detail-spacer {
+    height: 86px;
+  }
+
+  .button {
+    padding: 15px;
+    background: $color-gray-extra-light;
+    display: inline-block;
+    width: 95%;
+    margin-bottom: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: all .1s;
+    color: $subscription-header-bg;
+
+    &:hover {
+      text-decoration: none;
+      background: $color-primary;
+      color: $color-white;
+    }
+  }
+}
+
+.basic.subscription,
+.plus.subscription {
+  position: relative;
+}
+
+.standard.subscription .header {
+  background: $pricing-primary;
+}
+
+.standard.subscription .button {
+  background: $pricing-primary;
+  color: $color-white;
+
+  &:hover {
+    background: $color-primary;
+  }
+}
+
+.subs-header {
+  text-align: center;
+  margin: 50px 0;
+
+  .title {
+    font-weight: 600;
+    font-size: 46px;
+    color: $subs-header-color;
+    line-height: 64px;
+  }
+
+  .subtitle {
+    font-weight: 400;
+    font-size: 19px;
+    color: $subs-header-sub-color;
+    line-height: 27px;
+  }
+
+  hr {
+    margin: 7px 285px;
+    border-top: 1px solid $subs-header-hr-color;
+  }
+}
+
+.small.subs-header {
+  margin: 50px 0;
+}
+
+@media (max-width: 900px) and (min-width: 768px) {
+  .subscription {
+    width: 250px;
+  }
+  .subscription .detail {
+    font-size: 14px;
+  }
+  .subscription .detail .glyphicon {
+    font-size: 19px;
+  }
+  .basic.subscription,
+  .plus.subscription {
+    top: 0;
+  }
+}
+
+.divider {
+  margin: auto;
+  margin-top: 80px;
+  width: 970px;
+  border-color: $divider-color;
+  border-width: 1px;
+  max-width: 100%;
+}
+
+.spacer {
+  margin: 50px 0;
+}
+
+.other-services {
+  text-align: center;
+
+  a {
+    margin: auto;
+    color: $subscription-header-bg;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.gs {
+  transition: all .2s;
+}
+
+.btn-default {
+  background: $color-white;
+  border: 1px solid $pricing-primary;
+  color: $pricing-primary;
+  font-weight: 400;
+  padding: 6px 8px;
+  transition: all .15s;
+
+  &:hover {
+    background: $pricing-primary;
+    color: $color-white;
+    border: 1px solid $pricing-primary;
+  }
+}
+
+.gitlab-com {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.com-sub {
+  width: 370px;
+  margin: auto;
+  float: none;
+  text-align: left;
+  display: inline-block;
+  margin-top: 15px;
+  background: $color-gray-extra-light;
+  padding-bottom: 15px;
+
+  .title {
+    width: 100%;
+    height: 130px;
+    line-height: 130px;
+    text-align: center;
+    background: $pricing-primary;
+    color: $color-white;
+    font-weight: 600;
+    font-size: 34px;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .body {
+    padding-left: 15px;
+    font-size: 1.6rem;
+  }
+}
+
+.top-header {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.top-body {
+  font-size: 17px;
+  width: 550px;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 20px;
+
+  .list {
+    margin: 15px;
+  }
+}
+
+.pricing-notes {
+  max-width: 900px;
+  box-shadow: 0 3px 3px rgba($color-dark, .1);
+  border-radius: 5px;
+  background: $color-white;
+  margin: auto;
+
+  p {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba($color-dark, .08);
+    padding: 12px;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+}
+
+.cc-only {
+  margin: 5px 0 10px;
+  font-style: italic;
+  color: $subscription-header-bg;
+}
+
+.box {
+  box-shadow: 0 3px 3px rgba($color-dark, .1);
+  background: $color-white;
+  padding: 23px;
+  border-radius: 5px;
+  max-width: 271px;
+  margin: 10px auto;
+}
