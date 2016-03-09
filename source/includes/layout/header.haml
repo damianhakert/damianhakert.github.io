@@ -8,11 +8,7 @@
           %span.icon-bar
           %span.icon-bar
           %span.icon-bar
-        - if current_page.url == '/'
-          %a.navbar-brand.animated
-            = partial "includes/logos/wm_web.svg"
-        - else
-          %a.navbar-brand.animated{:href => "/"}
-            = partial "includes/logos/wm_web.svg"
+        %a.navbar-brand.animated{:href => "/"}
+          = partial "includes/logos/wm_web.svg"
       .collapse.navbar-collapse#main-gl-nav
         = partial "includes/layout/nav"
