@@ -9,9 +9,9 @@ before_script:
 stages:
   - test
 
-scss:lint:
+lint:
   stage: test
   script:
-    - bundle exec scss-lint
+    - bundle exec rake lint
   tags:
     - ruby
