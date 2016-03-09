@@ -20,6 +20,10 @@ activate :blog do |blog|
   blog.layout = "post"
 end
 
+activate :autoprefixer do |config|
+  config.browsers = ['last 2 versions', 'Explorer >= 9']
+end
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload

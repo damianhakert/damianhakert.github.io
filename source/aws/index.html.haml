@@ -12,13 +12,13 @@ current_version: gitlab-aws-image
   %h1 GitLab CE AWS AMI
   %h2 GitLab Community Edition on AWS with our machine image
   .btn-group
-    %button.btn.btn-default.dropdown-toggle.btn-lg{"data-toggle" => "dropdown", :onclick => "ga('send', 'event', 'dropdown','select','aws region select open']);", :type => "button"}
+    %button.btn.btn-default.dropdown-toggle.btn-lg{"data-toggle" => "dropdown", :onclick => "ga('send', 'event', 'dropdown','select','aws region select open');", :type => "button"}
       Select AWS region
       %span.caret
     %ul.dropdown-menu{:role => "menu"}
       - data.aws.each do |region|
         %li
-          %a{:href => "##{region.id}", :onclick => "ga('send', 'event', 'link','click', 'download ce']);"}
+          %a{:href => "##{region.id}", :onclick => "ga('send', 'event', 'link','click','download ce');"}
             = region.name
 
   #tabs

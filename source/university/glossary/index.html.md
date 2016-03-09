@@ -71,7 +71,7 @@ Having your own logo on your GitLab instance login page instead of the GitLab lo
 
 ### CEPH
 
-*** Needs definition here
+is a distributed object store and file system designed to provide excellent performance, reliability and scalability.
 
 ### Clone
 
@@ -123,15 +123,16 @@ An SSH key stored on the your server that grants access to a single GitLab repos
 
 ### Developer 
 
-For us(GitLab) this means a software developer, i.e. someone who makes software. It is also one of the levels of access in our multi level approval system.
+For us (GitLab) this means a software developer, i.e. someone who makes software. It is also one of the levels of access in our multi level approval system.
+
+### Diff
+
+Is the difference between two commits, or saved changes. This will also be shown visually after the changes.
 
 ### Docker
 
-*** Needs definition here
-
-### Docker Image
-
-*** Needs definition here
+Containers wrap up a piece of software in a complete filesystem that contains everything it needs to run: code, runtime, system tools, system libraries – anything you can install on a server. 
+This guarantees that it will always run the same, regardless of the environment it is running in.
 
 ### Fork
 
@@ -147,7 +148,8 @@ Are scripts you can use to trigger actions at certain points.
 
 ### GitHost.io
 
-*** Needs definition here
+Is a single-tenant solution that provides GitLab CE or EE as a managed service. GitLab Inc. is responsible for 
+installing, updating, hosting, and backing up customers own private and secure GitLab instance.
 
 ### GitHub
 
@@ -171,15 +173,11 @@ Our free SaaS for public and private repositories.
 
 ### Gitolite
 
-*** Needs definition here
+Is basically an access layer that sits on top of Git. Users are granted access to repos via a simple config file and you as an admin only needs the users public SSH key and a username from the user.
 
 ### Gitorious
 
 A web based hosting service for projects using Git. It was acquired by GitLab and we discontinued the service. [Gitorious Acquisition Blog Post](https://about.gitlab.com/2015/03/03/gitlab-acquires-gitorious/)
-
-### HA
-
-High Availability
 
 ### HADR
 
@@ -191,11 +189,11 @@ Atlassian's real time chat application for teams. Competitor to Slack, RocketCha
 
 ### High Availability
 
-*** Needs definition here
+Refers to a system or component that is continuously operational for a desirably long length of time. Availability can be measured relative to "100% operational" or "never failing."
 
 ### Issue Tracker
 
-*** Needs definition here
+A tool used to manage, organize, and maintain a list of issues, making it easier for an organization to manage.
 
 ### Jenkins
 
@@ -233,6 +231,11 @@ Git Large File Storage. A way to enable git to handle large binary files by usin
 
 An operating system like Windows or OS X. It is mostly used by software developers and on servers. 
 
+### Markdown
+
+Is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name. 
+Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+
 ### Maria DB
 
 A community developed fork/variation of MySQL. MySQL is owned by Oracle.
@@ -255,11 +258,11 @@ A hip platform for building javascript apps.[Meteor] (https://www.meteor.com)
 
 ### Milestones
 
-*** Needs definition here
+Allows you to track the progress on issues, and merge requests, which allows you to get a snapshot of the progress made.
 
 ### Mirror Repositories
 
-*** Needs definition here
+You can set up a project to automatically have its branches, tags, and commits updated from an upstream repository. This is useful when a repository you're interested in is located on a different server, and you want to be able to browse its content and its activity using the familiar GitLab interface.
 
 ### MIT License
 
@@ -288,11 +291,11 @@ A relational database. Currently only supported if you are using EE. It is owned
 
 ### oAuth
 
-*** Needs definition here
+Is an open standard for authorization, commonly used as a way for Internet users to log into third party websites using their Microsoft, Google, Facebook or Twitter accounts without exposing their password.
 
 ### Omnibus Packages
 
-*** Needs definition here
+Omnibus is a way to package different services and tools required to run GitLab, so that most of developers can install it without laborious configuration.
 
 ### On Premise
 
@@ -312,7 +315,7 @@ The company that produces Helix.  A commercial, proprietary, centralised VCS wel
 
 ### Phabricator
 
-*** Needs definition here
+Is a suite of web-based software development collaboration tools, including the Differential code review tool, the Diffusion repository browser, the Herald change monitoring tool, the Maniphest bug tracker and the Phriction wiki. Phabricator integrates with Git, Mercurial, and Subversion.
 
 ### Piwik Analytics
 
@@ -348,7 +351,7 @@ Permissions to see a file and it's contents, but not change it
 
 ### Rebase
 
-*** Needs definition here
+Moves a branch from one commit to another.  This allows you to re-write your project's history.
 
 ### Git Repository
 
@@ -414,15 +417,13 @@ Non-proprietary, centralized version control system.
 
 A program that allows you to perform superuser/administrator actions on Unix Operating Systems e.g. Linux, OS X. It actually stands for 'superuser do'
 
-*** Needs definition here
-
 ### SVN
 
 Abbreviation for Subversion.
 
 ### Tag
 
-*** Needs definition here
+Represents a version of a particular branch at a moment in time.
 
 ### Tool Stack
 

@@ -208,8 +208,8 @@
           In his spare time, Ernst likes to think that he flies gliders, travels, and goes scuba diving, but actually he's having a great time playing with his kids and golden retrievers.
 
 - name: Emily Kyle
-  role: <a href="https://about.gitlab.com/jobs/sales-administrator/">Sales Admin</a>
-  reports_to: CRO
+  role: <a href="https://about.gitlab.com/jobs/field-marketing-manager/">Field Marketing Manager</a>
+  reports_to: CMO
   picture: emilykyle.jpg
   twitter: emilylucie
   gitlab: emilykyle
@@ -266,7 +266,7 @@
           Chad the opportunity to visit Tahoe, Napa Valley and San Francisco often.
 
 - name: Jeroen Nijhof
-  role: Senior <a href="https://about.gitlab.com/jobs/devops-engineer/">DevOps Engineer</a>
+  role: Senior <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
   reports_to: CEO
   picture: jnijhof.jpg
   twitter: jeroen_nijhof
@@ -326,15 +326,6 @@
   gitlab: muthuri.kelmut
   story:  |
           Before joining GitLab, Kelvin was a developer and system's engineer for a Kenyan Financial Services platform, Abacus. He is passionate about playing chess, video games, watching sci-fi movies, reading novels and watching soccer.
-
-- name: Liza Beiliaieva
-  role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
-  reports_to: CTO
-  picture: picture_liza.jpg
-  twitter: creamzzzy
-  gitlab: creamzy
-  story: |
-         Liza comes from a maths background, bringing her passion for order and consistency to the design world. With more than seven years of experience in both corporate environments and the startup world she is really excited about delivering meaningful and useful experiences to people in need. Through open source software and a vegan lifestyle she hopes to change this world for the better.
 
 - name: Gabriel Mazetto
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
@@ -468,25 +459,12 @@
   story:  |
           Wilson has worked in many accounting roles at various early to mid-stage startups over the past 20 years.  When not debiting or crediting,  you can find Wilson at a San Francisco Giants game, spending time with his dogs or at the poker table.  Ante up!
 
-- name: Stephen Breen
-  role: <a href="https://about.gitlab.com/jobs/devops-engineer/">DevOps Engineer</a>
-  reports_to: CEO
-  picture: stevebreen.jpg
-  twitter: ahoybreen
-  gitlab: sbreen
-  maintains: |
-             <li>On-call trainee!</li>
-  story:  |
-          Stephen has over a decade of experience with data center infrastructure including virtualization, storage and application deployment.  He tinkers with micro-controllers and building IoT devices.  Stephen enjoys the outdoors, especially the ski slopes in the Sierra Nevada Mountains.
-
 - name: Ian Wilson
-  role: <a href="https://about.gitlab.com/jobs/devops-engineer/">DevOps Engineer</a>
+  role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
   reports_to: CEO
   picture: uid0.jpg
   twitter: uid0
   gitlab: uid0
-  maintains: |
-             <li>On-call trainee!</li>
   story: |
          Ian's just your normal nerd who lives on a farm.  He blows and tinkers with glass in order to build telescopes and make neon art, is a board member and former president of his local hackerspace, and volunteers at a school for hearing impaired children in his spare time.  .
 - name: Tomasz Maczukin
@@ -564,6 +542,8 @@
   picture: james.png
   twitter: jlopezofficial
   gitlab: jameslopez
+  maintains: |
+             <li>Part-time maintainer of <a href="https://github.com/jneen/rouge">rouge</a></li>
   story:  |
           James is an experienced developer coming from the corporate world
           of Vodafone in the UK. He has contributed to the open source
@@ -619,11 +599,13 @@
           Michael has been helping customers choose, deploy, and use software development tools since the 80's at companies like Borland, Symantec, Gupta, and Perforce.  Michael is passionate about building teams and business in the far-flung corners of the world.  When not working, Michael is an award winning wine maker and heavily involved in the local Boy Scouts.
 
 - name: Pablo Carranza
-  role: Senior <a href="https://about.gitlab.com/jobs/devops-engineer/">DevOps Engineer</a>
+  role: Senior <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
   reports_to: CEO
   picture: pablo.jpg
   twitter: psczg
   gitlab: pcarranza
+  maintains:  |
+              <li>On-call hero!</li>
   story:  |
           With over 15 years of industry experience, Pablo comes from scaling Amazon's network as a development lead
           to help scaling GitLab.com. Passionate about programming since the age of 8 and open source after discovering Gentoo.
@@ -696,3 +678,22 @@
   gitlab: cabargas
   story:  |
           Felipe is a rubyist from Chile trying to get more people into the Git boat. He likes to comunicate tech to non-tech individuals and help local communities reach more people. When AFK, he is desoldering stuff, 3D printing Star Wars models or in the stadium with his father and brother cheering for 'La U'.
+
+- name: A.F
+  role: <a href="https://about.gitlab.com/jobs/developer-advocate/">Developer Advocate</a>
+  reports_to: CMO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining March 7th
+
+
+- name: T.A.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Development Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining April 11th

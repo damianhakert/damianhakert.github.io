@@ -34,10 +34,10 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [GitLab Workflow](#gitlab-workflow)
    * [Team Call](#team-call)
    * [Scheduling Calls](#scheduling-calls)
-   * [GitLab Workflow](#gitlab-workflow)
    * [User Communication Guidelines](#user-communication-guidelines)
    * [Writing Style Guidelines](#writing-style-guidelines)
    * [Beamy Guidelines](#beamy-guidelines)
+* [On Call Rotation and Schedule](#on-call)
 * [Intellectual Property](#intellectual-property)
 * [Spending Company Money](#spending-company-money)
 * [Paid Time Off](#paid-time-off)
@@ -47,6 +47,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Referral Bonuses](#referral-bonuses)
    * [Work Remotely Travel Grant](#travel-grant)
 * [Signing Legal Documents](#signing-legal-documents)
+* [Tools](#tools)
 * [Using Git to update this website](#starting-with-git)
 
 ## Values<a name="values"></a>
@@ -156,7 +157,7 @@ ever-growing remote-first company.
 1. All written communication happens in English, even when sent one on one,
 because sometimes you need to forward an email or chat.
 1. Use **asynchronous communication** when possible (issues and email instead of
-chat), issues are preferred over email, email is preferred over chat.
+chat), issues are preferred over email, email is preferred over chat, announcements happen on the team call agenda, and [people should be able to do their work without getting interrupted by chat](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d#.21t7089jk).
 1. It is very OK to ask as many questions as you have, but ask them so many
 people can answer them and many people see the answer (so use issues or public
 chat channels instead of private messages or one-on-one emails) and make sure
@@ -231,6 +232,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
     1. Issues assigned to the upcoming milestone
     1. Issues assigned to future milestones
     1. Issues not assigned to a milestone
+
     In the same milestone the priority starting from urgent is:
     1. **Emergency** issues (a service engineer will probably contact you via chat)
     1. **Security** issues
@@ -256,6 +258,7 @@ step, **re-assign** the issue to that person.
     1. A merge request that is related to Continuous Integration should be assigned to the GitLab CI lead.
     1. All other merge requests should be assigned for review to one of merge request "endbosses". You can find all the roles listed on the [team page](https://about.gitlab.com/team/).
 1. When a merge request is done, remove the WIP prefix and **assign** the merge request to someone to review and merge it. A WIP merge request will never be merged, an unassigned non-WIP merge request can be merged by anyone if it looks ready, an assigned non-WIP will only be merged by the assigned reviewer.
+1. When a merge request is done, set milestone to the version it should be included in.
 1. If you are assigned to review and merge a merge request and would like the creator to make some **changes**, comment on the merge request and assign it back to the creator. When they have addressed the concern, they will reassign it to the reviewer.
 1. If you are assigned to merge a merge request and there is a **merge conflict**, consider trying to resolve it **yourself** instead of asking the MR creator to resolve the conflict. If it is easy to resolve you avoid a round trip between you and the creator, and the MR gets merged sooner. This is a suggestion, not an obligation.
 1. If you ask a question to a specific person, always start the comment by mentioning them; this will ensure they see it if their notification level is mentioned and other people will understand they don't have to respond.
@@ -354,6 +357,12 @@ Make sure it is charging, otherwise try again.
 * More info can be found at https://www.suitabletech.com/
 * Please report any questions or issues you have about the beam by @mentioning Emily in the #general channel.
 
+## On-Call Rotation and Scheduling<a name="on-call"></a>
+
+We have on-call heroes (see the [team page](https://about.gitlab.com/team/)) to
+respond quickly to GitLab.com downtime, and customer emergencies. Details about the schedule
+and how to swap duty in the [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/) page.
+
 ## Intellectual Property<a name="intellectual-property"></a>
 
 1. Take proper care of any **confidential** information you get from our customers.
@@ -417,8 +426,9 @@ intellectual property violations
     * You do not need to ask permission to take time off unless you want to take more than 25 consecutive calendar days.
     * Always make sure that your job responsibilities are covered while you are away.
     * We strongly recommended to take at least a minimum of 2 weeks of vacation per year, if you take less your manager might follow up to discuss your work load.
-1. You do need to ensure that not more than **half** of the people that can help with availability emergencies (24/7), regular support, sales or development are gone at any moment. You can check for this on the availability calendar, so be sure to add appointments early.
-1. If someone from the 24/7 team leaves, set up a **call** two weeks before that so the other people can divide the on-call days.
+1. You do need to ensure that not more than **half** of the people that can help with availability emergencies (the on-call heroes), regular support, sales, or development are gone at any moment. You can check for this on the availability calendar, so be sure to add appointments early.
+1. Please see the [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
+page for information on how to handle scheduled leave for someone from the [on-call](#on-call) team. 
 1. Add an **appointment** to the GitLab availability calendar as you know your plans, you can always change it later.
 1. In case it can be useful add your planned time off as a **FYI** on the next agenda of the team call.
 1. We will **help** clients during official days off, unless they are official days off in both the Netherlands and the U.S. We try to have people working who are in a country that don't have an official day off. If you need to work during an official day off in your country, you should take a day off in return.
@@ -474,7 +484,6 @@ As an example, the first grant was handed to a team member who will be
 traveling to 6 team members in different countries during 6 months, and this
 team member will receive the maximum grant of $2,000.
 
-
 ## Signing Legal Documents<a name="signing-legal-documents"></a>
 
 If you need to sign, fill out, send or retrieve documents electronically, please
@@ -489,6 +498,66 @@ send a copy of the document to legal@gitlab.com with the following information:
 The document will be managed through HelloSign, a cloud-based electronic
 signature tool. Only C-level executives can sign legal documents, with the
 exception of NDAs covering a physical visit of another organization.
+
+## Tools<a name="tools"></a>
+
+A lot of tools we use are described in the rest of the handbook (GitLab, Google Docs, Google Hangouts, 1Password, etc.).
+This section is for tools that don't fit anywhere else.
+
+### Calendly
+
+[Calendly](https://calendly.com/): Set up 45 minute meeting slots. Connect to your Google calendar which knows your availability.
+The meeting will alwasys create the same Google Video url so if you have that you can add it to the booking.
+
+### Shush
+
+[$4.99 tool for OSX](http://mizage.com/shush/) that allows you to use you fn key as a push to talk or push to mute.
+Never again will you have switch window focus to Google Hangout or Bluejeans to speak or mute.
+The icon will show the current state of your mic input (x means muted).
+With a right click you can switch from push to talk to push to mute.
+Don't forget to unblock your mike in Bluejeans/Google hangouts immediately after joining.
+Be warned that page up with fn+down arrow will activate it.
+Use space for page down instead of fn+up arrow.
+
+### Google Calendar Guest Modify Event Default
+
+[This Chrome extension](https://chrome.google.com/webstore/detail/google-calendar-guests-mo/hjhicmeghjagaicbkmhmbbnibhbkcfdb?hl=en) will allow allow guests to modify calendar appointments by default.
+
+### Bluejeans
+
+Please add instructions how to set up a Bluejeans meeting, how to record it and how to add the resulting video to our Youtube channel.
+
+### Hangouts on air
+
+Hangouts on Air probably only works with a maximum of 15 people for scheduled calls (same limit as normal Google Hangouts).
+
+Potential problem: even when I logged in as GitLab and got the bar below the call, I could not switch it too on-air!
+I did notice that the time was not properly set (anymore?).
+I did a test event before and that seemed to work OK.
+I'll try one more time to see if it works.
+
+Potential problem 2: the video showed up as listed by default
+
+Go to [My live events on Youtube](https://www.youtube.com/my_live_events) and switch to the GitLab account on the top right (you need to be a manager of our Youtube channel).
+
+Go to => life streaming => events and create a new one with the attributes:
+
+- type => quick (using Google Hangouts on Air)
+- advanced: promotions: disable both checkboxes
+- time needs to be set correctly
+
+The view on watch page url only allows for people to watch it.
+Window that pops up when you press the start hangout on air button has the proper url that you can send to other people and/or add it to the calendar invite, it is structured like: https://plus.google.com/hangouts/_/ytl/LONGHASH.
+When people join the event they have to [accept a warning](https://gitlab.com/snippets/16245).
+
+[Completed live events](https://www.youtube.com/my_live_events?filter=completed) will show the video and you can click the image to view it.
+You can use actions to make it public here
+
+BTW Trying to set this up via Google+ via [https://plus.google.com/hangouts/onair](Hangouts on Air) instead of via Youtube doesn't seem to connect to the right Youtube channel, even if you selected the right account on the top right.
+
+### One Tab
+
+[One Tab](https://www.one-tab.com/) tames tabs into a list which can be sorted and exported.
 
 ## Using Git to update this website<a name="starting-with-git"></a>
 

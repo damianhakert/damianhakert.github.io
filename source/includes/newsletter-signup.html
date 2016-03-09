@@ -17,9 +17,26 @@
     </span>
 
     <div class="newsletter-form">
+
       <script src="//app-ab13.marketo.com/js/forms2/js/forms2.min.js"></script>
       <form id="mktoForm_1077"></form>
-      <script>MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1077);</script>
+      <script>
+
+
+        MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1077, function(form) {
+          form.onSuccess(function(values, followUpUrl) {
+
+            form.getFormElem().hide();
+            document.getElementById('confirmform').style.visibility = 'visible';
+
+            ga('send', 'pageview');
+            ga('send', 'event', 'form', 'submit', 'newsletter signup');
+            return false;
+          });
+        });
+      </script>
+
+       <div id="confirmform" style="visibility:hidden;"><p>Thanks for subscribing!</p></div>
     </div>
   </div>
 </div>

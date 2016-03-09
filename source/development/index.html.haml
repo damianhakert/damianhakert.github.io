@@ -22,4 +22,16 @@ extra_css:
     %script{:src => "//app-ab13.marketo.com/js/forms2/js/forms2.min.js"}
     %form#mktoForm_1063
     :javascript
-      MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1063);
+      MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1063, function(form) {
+          form.onSuccess(function(values, followUpUrl) {
+
+            form.getFormElem().hide();
+            document.getElementById('confirmform').style.visibility = 'visible';
+
+            ga('send', 'pageview');
+            ga('send', 'event', 'form', 'submit', 'development request');
+            return false;
+          });
+      });
+    #confirmform{style: "visibility:hidden;"}
+      %p Submission received!

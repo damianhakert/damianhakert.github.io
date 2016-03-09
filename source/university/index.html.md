@@ -195,9 +195,9 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
 
 #### Continuous Integration and Runners
 
-- Upcoming
 - [Continuous Delivery vs Continuous Deployment](https://www.youtube.com/watch?v=igwFj8PPSnw)
-- [GitLab CI](https://about.gitlab.com/gitlab-ci/)
+- [GitLab CI product page](https://about.gitlab.com/gitlab-ci/)
+- [Setting up GitLab Runner For Continuous Integration](https://about.gitlab.com/2016/03/01/gitlab-runner-with-docker/?mkt_tok=3RkMMJWWfF9wsRonsqnLZKXonjHpfsX56%2BwpWKW%2FlMI%2F0ER3fOvrPUfGjI4AScJqI%2BSLDwEYGJlv6SgFS7nBMbZ22bgPWRA%3D)
 - Supporting: [Documentation on Integrating Jenkins with GitLab](http://doc.gitlab.com/ee/integration/jenkins.html)
 - Supporting: [Documentation on Integrating Bamboo with GitLab](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
 

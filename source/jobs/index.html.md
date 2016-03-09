@@ -16,7 +16,7 @@ Working for GitLab means joining a very productive, ambitious team, where indepe
 and flexibility are both valued and required.
 Your work will directly have a large impact on the present and future of GitLab.
 We like to spend our time on things that matter.
-We are a [remote first company](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)
+We are a [remote only company](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)
 and you can work from wherever you want.
 For more background please see our [about page](https://about.gitlab.com/about/),
 our [culture page](https://about.gitlab.com/culture/), and our [handbook](https://about.gitlab.com/handbook/).
@@ -46,7 +46,7 @@ believe that it is the best way for you to see what the work is really like, and
 for our [interviewer to see how you think, code, and collaborate](http://zachholman.com/posts/startup-interviewing-is-fucked/#collaborate).
 When contributing code, you should follow the [Contribution guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md),
 and you agree to the [individual contributor license agreement](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/legal/individual_contributor_license_agreement.md).
-If you prefer not to do the above please let us know and we'll give you an assignment that does not relate to GitLab but does tests the relevant skills.
+If you prefer not to do the above please let us know and we'll give you an assignment that does not relate to GitLab but does test the relevant skills.
 
 
 ### Product Marketing Manager
@@ -59,9 +59,9 @@ If you prefer not to do the above please let us know and we'll give you an assig
 * [Description](https://about.gitlab.com/jobs/service-engineer/)
 * [Apply](https://gitlab.workable.com/jobs/87722/candidates/new)
 
-### DevOps Engineer
+### Production Engineer
 
-* [Description](https://about.gitlab.com/jobs/devops-engineer/)
+* [Description](https://about.gitlab.com/jobs/production-engineer/)
 * [Apply](https://gitlab.workable.com/jobs/142989/candidates/new)
 
 ### Strategic Relations Manager

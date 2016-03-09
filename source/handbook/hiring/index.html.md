@@ -7,9 +7,7 @@ title: "Hiring"
 * [Hiring Process](#hiring-process)
 * [Screening Call](#screening-call)
 * [Interview Questions](#interview-questions)
-* [Getting Contracts Ready](#prep-contracts)
-* [Who Reviews and Who Signs Contracts](#contract-review)
-* [Onboarding](#move-to-onboarding)
+* [Getting Contracts Ready, Reviewed, and Signed](#prep-contracts)
 
 ## Vacancy Creation Process<a name="vacancy-creation-process"></a>
 
@@ -77,8 +75,8 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 1. Do you have any questions about the job or our organization?
 1. Why did you apply to GitLab?
 1. For each significant study and job ask: why did you select this one and why did it end? (for studies: why not do master, PhD, PostDoc, etc.)
-1. What did you like least about your last position?
-1. When were you most satisfied in your position?
+1. When were you most satisfied in your most recent position?
+1. What did you like least about your most recent position?
 1. Take each skill required for the job and do a [STAR](https://en.wikipedia.org/wiki/Situation,_Task,_Action,_Result) for a couple of situations.
 1. What professional achievements are you most proud of?
 1. How do you keep up to date with developments in your profession?
@@ -87,39 +85,34 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 1. How can we change GitLab the product or company to make it better?
 1. What do you expect to achieve in your first month at GitLab?
 1. Where do you want to be in three years from now?
-1. Have you worked remote before and how do you feel about it?
+1. How do you feel about working remote?
 1. If you get hired when can you start?
 1. What compensation would you feel comfortable with?
 1. Do you have any questions for me?
 
-## Getting Contracts Ready<a name="prep-contracts"></a>
+## Getting Contracts Ready, Reviewed, and Signed<a name="prep-contracts"></a>
 
 Offers made to new team members should be documented in the email thread between the
 person authorized to make the offer (e.g. CEO) and the applicant.
 
-1. Email example: "We would love to have you as part of our team. You will have a position of [job title]. As a contractor you will invoice [monthly rate] per month. You will report to the [manager]. We will send you a contract on Monday based on the examples on https://about.gitlab.com/handbook/contracts/. If you have not received anything on that day please reply-to-all to let us know. Please let us know if you have any questions or concerns in the meantime."
+1. Email example: "We would love to have you as part of our team. You will have
+a position of [job title]. As a contractor you will invoice [monthly rate] per month.
+You will report to the [manager]. We will send you a contract on Monday based on
+the examples on https://about.gitlab.com/handbook/contracts/. If you have not
+received anything on that day please reply-to-all to let us know. Please let us
+know if you have any questions or concerns in the meantime."
 1. In the email confirmation of the offer,
 put the People Operations email alias (which can be found in the "GitLab Email Forwarding" google doc) in the cc.
-1. One person from People Operations will reply-to-all to everyone in the thread (including the applicant) to confirm that they will make the contract.
+1. One person from People Operations will reply-to-all to everyone in the thread
+(including the applicant) to confirm that they will make the contract. Speed matters: if you are in People Operations and you can
+tackle this, then raise your hand and hit reply-all.
+   - For any hires for which the COO does _not_ sign, the COO reviews the contract
+after which it can be sent out to be signed by any of the relevant C-level team
+members. For any hires for which the COO should sign, either the CFO or the CEO must
+review the contracts.
 1. This person from People Operations makes the contract based on the details found in the Workable
-platform, and uses reply-all to gather any missing pieces of information, and to confirm with a reply-to-all when the contract is send.
+platform, and uses reply-all to gather any missing pieces of information, and to confirm with a reply-to-all when the contract is sent.
+1. This same person from People Operations files the signed contract in the appropriate place, and **starts the [onboarding** issue](https://about.gitlab.com/handbook/general-onboarding/).
 
 Note for People Operations: the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
 [Contracts page](https://about.gitlab.com/handbook/contracts).
-
-## Who Reviews and Who Signs Contracts<a name="contract-review"></a>
-
-Various people can prepare the contracts on our [Contracts](https://about.gitlab.com/handbook/contracts)
-page, but once they are created the review process is as follows:
-
-* For any hires for which the COO does _not_ sign, the COO reviews the contract
-after which it can be sent out to be signed by any of the relevant C-level team
-members.
-* For any hires for which the COO should sign, either the CFO or the CEO must
-review the contracts.
-
-## Onboarding<a name="move-to-onboarding"></a>
-
-Once the contract has been signed, create an onboarding issue as detailed on the
-[General Onboarding](https://about.gitlab.com/handbook/general-onboarding/) page. Important: create the related
-onboarding issue as soon as possible.
