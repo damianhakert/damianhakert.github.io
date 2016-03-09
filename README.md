@@ -5,6 +5,29 @@ rewrite using Middleman.
 
 It will be moved to the www-gitlab-com project at a later date.
 
+## Contributing
+
+### Adding yourself to the team page
+
+Edit [`data/team.yml`](./data/team.yml) and add a new entry for yourself (or
+update the placeholder with your initials).
+
+Images should be uploaded to [`source/images/team](./source/images/team).
+
+### Adding a pet to the team pets page
+
+Edit [`data/pets.yml`](./data/pets.yml) and add a new entry.
+
+Images should be uploaded to [`source/images/team/pets](./source/images/team/pets).
+
+### Updating the promotion link
+
+This link appears at the top of the homepage and can be used to promote new
+versions or upcoming events.
+
+Edit [`data/promo.yml`](./data/promo.yml) to update the `link` and `text`
+properties.
+
 ## Development
 
 ```sh
