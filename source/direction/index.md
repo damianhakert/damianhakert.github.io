@@ -74,7 +74,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 - [Multiline comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/4143)
 - [Mailing list functionality](https://gitlab.com/gitlab-org/gitlab-ce/issues/4272)
 - [.gitignore templates](https://gitlab.com/gitlab-org/gitlab-ce/issues/14106)
-- [Watch projects I'm not a member of](https://gitlab.com/gitlab-org/gitlab-ce/issues/9013)
+- [Watch projects I'm not a member of](https://gitlab.com/gitlab-org/gitlab-ce/issues/9013) which is dependent on [participants table](https://gitlab.com/gitlab-org/gitlab-ce/issues/3965)
 
 ## Wishlist
 
