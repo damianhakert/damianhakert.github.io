@@ -29,7 +29,7 @@ $(function() {
   }
 
   // Tabs
-  if ($tabs) {
+  if ($tabs.length) {
     var current = window.location.hash;
 
     $('.tab:not(' + current +')', $tabs).hide();
@@ -47,6 +47,10 @@ $(function() {
       window.location.replace(window.location.origin + window.location.pathname + current);
 
       $(this).dropdown('toggle');
+
+      window.scrollTo(0, $('body').scrollTop() - 120);
+
+      return false;
     });
   }
 
