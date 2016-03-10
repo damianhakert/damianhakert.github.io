@@ -19,7 +19,7 @@ Read on for all the details!
 <!-- more -->
 
 - **EE:** GitLab Geo: Repository synchronization between primary and secondary nodes ([!179])
-- **EE:** Add documentation for GitLab Pages ([!212])
+- **EE:** Refactor user documentation for GitLab Pages ([!212])
 - **EE:** Fix importing projects from GitHub Enterprise Edition ([!219])
 - **EE:** Fix syntax error in init file ([!223])
 - **EE:** Only show group member roles if explicitly requested ([!3044])
