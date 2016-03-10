@@ -9,6 +9,11 @@ author_twitter: AngeloStavrow
 image_title: '/images/unsplash/ios-development.jpg'
 ---
 
+In this post I'll show you how to set up GitLab CI for your iOS projects, 
+step-by-step, from start to finish. 
+
+<!--more-->
+
 ### Why CI?
 
 [Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) 
