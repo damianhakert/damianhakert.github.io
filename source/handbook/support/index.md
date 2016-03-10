@@ -71,11 +71,15 @@ for key customers while still addressing the questions of all subscribers, and t
 
 ## Service Level Agreements <a name="sla"></a>
 
-- Emergency tickets should be answered within 30 minutes.
-- Tickets from customers should be answered within 1 business day, preferably sooner.
-- Tickets from social channels don't have a contractually set SLA, but internally we
-aim for no later than next business day for tickets from Disqus and Twitter. Ideally
-all other social channels should also be answered within 2 business days.
+The channels are sorted in order of priority, there are 4 general SLA's:
+
+1. Emergency tickets should be answered within 30 minutes.
+2. Security disclosures until Twitter should be answered within 1 business day.
+4. Posted Issues until Reddit should be answered within 2 business days.
+
+Preferably we like to answer tickets sooner than the SLA requires.
+The higher a channel is in the list the sooner it should be answered.
+Tickets from social channels and security disclosures don't have a contractually set SLA, these are internal aims.
 
 ## Support Turbo<a name="support-turbo"></a>
 
