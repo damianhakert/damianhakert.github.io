@@ -22,11 +22,11 @@ Now we've removed the seat minimums so you can purchase a EE license per-seat.
 The price per seat will remain the same, $39 per year per seat.
 This is the same price as the Basic Plan.  
 
-We will now offer Premium Support; which includes 24x7 emergency support,
+We will now offer Premium Support; which includes 24x7 emergency support, two training workshops,
 live upgrade assistance and support for High Availability, as an add-on Option to a
-GitLab Enterprise Edition license. Premium Support was previously part of our Standard Subscription.
+GitLab Enterprise Edition license. Premium Support was previously part of our Standard Subscription and did not include training workshops.
 The cost for Premium Support will be $9,900/year and $99 per seat over 100 seats,
-with a maximum charge of $35,000.
+with a maximum charge of $50,000.
 
 ### Why we are changing pricing now?
 
