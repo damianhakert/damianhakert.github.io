@@ -64,7 +64,7 @@ go ahead and do that now.
 
 We'll start by creating a new single-view iOS project in Xcode.
 
-![Creating a new Xcode project.](../images/blogimages/setting-up-gitlab-for-ios-projects/1_create-new-xcode-project.png)
+![Creating a new Xcode project.](/images/blogimages/setting-up-gitlab-for-ios-projects/1_create-new-xcode-project.png)
 
 Give your project a name and make certain that the **Include Unit Tests** and 
 **Include UI Tests** options are enabled for the project. Xcode will create a 
@@ -72,12 +72,12 @@ template test class with some sample tests, which we'll use in this post as the
 test suite that GitLab CI runs to verify a build. Choose a name for your project 
 and click on **Next**.
 
-![Enable unit and UI tests in your project](../images/blogimages/setting-up-gitlab-for-ios-projects/2_enable-unit-tests.png)
+![Enable unit and UI tests in your project](/images/blogimages/setting-up-gitlab-for-ios-projects/2_enable-unit-tests.png)
 
 Choose where you'll save your iOS project. If you like, let Xcode create the git 
 repository on your Mac.
 
-![Let Xcode initialize your git repository.](../images/blogimages/setting-up-gitlab-for-ios-projects/3_create-git-repository.png)
+![Let Xcode initialize your git repository.](/images/blogimages/setting-up-gitlab-for-ios-projects/3_create-git-repository.png)
 
 Once Xcode has created and opened your iOS project, you need to [share its scheme](https://developer.apple.com/library/ios/recipes/xcode_help-scheme_editor/Articles/SchemeShare.html). Apple's [documentation](https://developer.apple.com/library/ios/recipes/xcode_help-scheme_editor/Articles/SchemeDialog.html) defines schemes nicely:
 
@@ -87,7 +87,7 @@ By sharing your scheme, GitLab CI gets context it needs to build and test your p
 
 To share a scheme in Xcode, choose **Product** > **Scheme** > **Manage Schemes**.
 
-![Share your scheme.](../images/blogimages/setting-up-gitlab-for-ios-projects/4_share-xcode-scheme.png)
+![Share your scheme.](/images/blogimages/setting-up-gitlab-for-ios-projects/4_share-xcode-scheme.png)
 
 Click on the **Close** button.
 
@@ -97,7 +97,7 @@ to run these tests, which will build your project, launch the Simulator, install
 the project on the Simulator device, and run the test suite. You can see the 
 results right in Xcode:
 
-![Test suite success in Xcode.](../images/blogimages/setting-up-gitlab-for-ios-projects/5_test-suite-success-in-xcode.png)
+![Test suite success in Xcode.](/images/blogimages/setting-up-gitlab-for-ios-projects/5_test-suite-success-in-xcode.png)
 
 The green checkmarks next to the test functions (both in the file, and in the 
 Test navigator) show that all tests passed. We won't be referring to the Xcode 
@@ -203,7 +203,7 @@ Continue with the rest of the Runner installation instructions (`install` and
 
 Go to the _Runners_ page in your Project Settings and voilà:
 
-![The GitLab Runner is recognized in GitLab's Project Settings.](../images/blogimages/setting-up-gitlab-for-ios-projects/6_runner-registered.png)
+![The GitLab Runner is recognized in GitLab's Project Settings.](/images/blogimages/setting-up-gitlab-for-ios-projects/6_runner-registered.png)
 
 Your GitLab Runner is recognized and (almost) ready to go!
 
@@ -271,7 +271,7 @@ There's a simple tool for "linting" (i.e., validating) your `.gitlab-ci.yml` in
 GitLab. From your GitLab project page, click on _Builds_ in the sidebar, then in 
 the upper-right corner, click on **CI Lint**:
 
-![Accessing the GitLab CI script linter.](../images/blogimages/setting-up-gitlab-for-ios-projects/7_ci-lint-button.png)
+![Accessing the GitLab CI script linter.](/images/blogimages/setting-up-gitlab-for-ios-projects/7_ci-lint-button.png)
 
 Paste the contents of your `.gitlab-ci.yml` file into the text box and click on 
 **Validate**. You should see something like:
@@ -318,11 +318,11 @@ then goes back to the home screen.
 
 Go to the *Builds* page of your GitLab project and have a look at the results!
 
-![The Build page after your first CI build.](../images/blogimages/setting-up-gitlab-for-ios-projects/8_build-page-success.png)
+![The Build page after your first CI build.](/images/blogimages/setting-up-gitlab-for-ios-projects/8_build-page-success.png)
 
 Click on the <span style=color:green>✔︎ success</span> button to see the build output:
 
-![The build results page.](../images/blogimages/setting-up-gitlab-for-ios-projects/9_build-results.png)
+![The build results page.](/images/blogimages/setting-up-gitlab-for-ios-projects/9_build-results.png)
 
 Here you'll see the output from all the steps you requested in your `.gitlab-ci.yml` 
 file. At the bottom of the log, you should see something like:
@@ -475,7 +475,7 @@ Keychain.
 Now, when we commit to master, the build will also show us the archive results, 
 along with the option to download or browse our build artifacts!
 
-![The archive results page.](../images/blogimages/setting-up-gitlab-for-ios-projects/10_archive-results.png)
+![The archive results page.](/images/blogimages/setting-up-gitlab-for-ios-projects/10_archive-results.png)
 
 ### Other salient points
 
