@@ -1,5 +1,7 @@
-scss_files: "source/stylesheets/**"
-exclude: "source/stylesheets/vendor/**"
+scss_files: "./source/stylesheets/**"
+exclude:
+  - "./source/stylesheets/vendor/**"
+  - "./build/**"
 
 linters:
   BorderZero:
