@@ -3,7 +3,24 @@ layout: markdown_page
 title: Service Engineer Onboarding
 ---
 
-## Expectations of the support team
+## On this page
+
+- [Expectations of the support team](#expectations)
+- [First steps when you join the team](#first-steps)
+   - [Training](#training)
+- [Handling tickets](#ticket-handling)
+   - [Assigning a ticket to yourself](#assigning)
+   - [Responding to tickets](#responding)
+   - [When and how to escalate a ticket?](#escalating)
+   - [When to create an issue relating to a ticket?](#make-issue)
+   - [When to mark a ticket as solved?](#closing)
+- [Customer feedback](#feedback)
+- [Dedicated Service Engineers](#dedicated-se)
+- [Customer Training](#cust-training)
+- [Team member is unavailable](#team-away)
+
+
+## Expectations of the support team<a name="expectations"></a>
 
 As members of the support team we are the first to interact with someone when they have a problem or question.
 As such it is up to us to represent the company and make sure we present ourselves properly. Therefore we are
@@ -14,7 +31,7 @@ expected to:
 - It is OK if you don't know something. You can always ask someone else
 - It is OK to say no to a customer, but try to suggest a workaround and escalate to a Senior if necessary
 
-## First steps when you join the team
+## First steps when you join the team<a name="first-steps"></a>
 
 When you first join the team everything will be new to you. In order to get you started with GitLab quickly
 you should take a look at the resources we have available at the [GitLab University](https://about.gitlab.com/university/).
@@ -42,7 +59,7 @@ use it to be more productive.
 It is also encouraged to go over your colleagues' responses to previously submitted tickets, to see how they
 craft their replies, and to get more insight and knowledge into topics with which you are unfamiliar.
 
-### Training
+### Training<a name="training"></a>
 
 Right after joining the team you will go through a training process with the guidance of a fellow Service Engineer.
 In this training you will learn the ins and outs of GitLab, how to integrate it with the most used enterprise tools, like
@@ -54,9 +71,9 @@ responding to a large volume of these tickets. Typically, you will start by answ
 through social media, advancing to general support tickets, and eventually subscriber, security, and emergency tickets.
 
 
-## Handling tickets
+## Handling tickets<a name="ticket-handling"></a>
 
-### Assigning a ticket to yourself
+### Assigning a ticket to yourself<a name="assigning"></a>
 
 Assign a ticket to yourself the moment you decide you are going to work on it. If the nature of the problem
 requires you to investigate further, let the customer know that you need further time to investigate, assign
@@ -64,7 +81,7 @@ the ticket to yourself, and submit the reply. By assigning the ticket to yoursel
 know that you will work with this customer and by replying to the customer, even if you need further time to
 craft a proper answer, you are acknowledging their request.
 
-### Responding to tickets
+### Responding to tickets<a name="responding"></a>
 
 For responses to regularly asked question see the [common responses](/handbook/support/common-responses.html)
 section. [Common questions should be the prime focus of better documentation, and common responses should be in the form of a
@@ -118,7 +135,7 @@ When a feature request or the fix for a bug has been scheduled for a future rele
 customer know about the version for which this has been scheduled and when that version is going to be
 releases, e.g. June 22nd for 8.9, and add the `promised` tag to the ZenDesk ticket.
 
-### When and how to escalate a ticket?
+### When and how to escalate a ticket?<a name="escalating"></a>
 
 Do not hesitate to ask for help with a ticket, you can ask any of your colleagues to assist you. You can do this via
 Slack initially. If the person you know can help you the best (expert on a specific topic) is not available on
@@ -126,30 +143,38 @@ Slack, you can assign the ticket to them, add a comment summarizing the situatio
 ticket as **open**. Especially if you do are not yet fully familiar with the particular topic of the issue,
 don't spend more than 30 minutes on an issue before escalating it internally.
 
-### When to create an issue relating to a ticket?
+### When to create an issue relating to a ticket?<a name="make-issue"></a>
 
 Many tickets lead to bug reports or feature requests on the CE issue tracker.
 But it can also be helpful to create an issue on the [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/)
 when dealing with a tough ticket. Creating an issue allows more people within GitLab easy access
 to the questions and suggestions since not everyone is familiar with ZenDesk. When in doubt, create an issue.
 
-### When to mark a ticket as solved?
+### When to mark a ticket as solved?<a name="closing"></a>
 
 A ticket can be marked as solved when you are certain that you were able to resolve the requester's
-problem, or, as mentioned above, when many days go by without a reply from the requester. The exception 
-to this rule is in social media support channels that do not integrate well with ZenDesk such as Disqus, 
-the Forum, Stack Overflow, and others, where each comment creates a new ticket. In those cases, you can 
+problem, or, as mentioned above, when many days go by without a reply from the requester. The exception
+to this rule is in social media support channels that do not integrate well with ZenDesk such as Disqus,
+the Forum, Stack Overflow, and others, where each comment creates a new ticket. In those cases, you can
 close the ticket as soon as you have provided a response (and also close the ticket created by your own response).
 
-### Receiving negative feedback
+## Customer feedback<a name="feedback"></a>
 
-After 24 hours of marking the ticket as solved a survey is sent to our customers, where they can rate
-the level of support they received. If a customer rates a ticket to which you were assigned as bad, an
-email will be sent to you and the ZenDesk manager to notify you of the fact. When this happens, you should
-let a Senior know about the problem and follow up with the customer to see if something you did can
-be improved.
+After 24 hours of marking the ticket as solved a survey is sent to our customers,
+(to see the settings, in ZenDesk go to Admin -> Business Rules -> Automations) so that they can rate
+the level of support they received. If a customer rates a ticket to which you were
+assigned as good or bad, an email will be sent to you and your manager to notify you.
 
-## Dedicated Service Engineers
+Positive feedback should be shared with others in the #support and/or #thanks chat channel, to
+help spread best practices and praise.
+
+It is very important to follow up on negative feedback. When you receive a 'bad' rating
+or comment, follow-up with the customer to see if something can be improved. Also share
+the feedback with the larger team, by creating an issue on the [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/)
+with a link to the ZenDesk ticket. This allows us to truly learn and collaborate to
+turn the customer's experience into a positive one, and change our processes as needed.  
+
+## Dedicated Service Engineers<a name="dedicated-se"></a>
 
 Certain subscribers have access to a Dedicated Service Engineer. This means that
 tickets that arrive in ZenDesk from people within the subscriber's organization
@@ -166,7 +191,7 @@ currently unavailable to respond to your ticket." When you return, you should re
 all tickets submitted by the subscriber during your absence, and make sure to follow-through
 or follow-up as required.
 
-## Customer Training
+## Customer Training<a name="cust-training"></a>
 
 Service Engineers are regularly asked to provide customer training, and/or to provide answers to technical
 questions from potential customers. The materials for the customer training should be kept up to date [INSERT LINK] .
@@ -176,7 +201,7 @@ If you are receiving such a request via email or Slack, please move it to an iss
 or easy escalation when needed.
 
 
-## Team member is unavailable
+## Team member is unavailable<a name="team-away"></a>
 
 ### Vacation
 
@@ -186,9 +211,8 @@ are, however, some things to consider when a member of the support team takes a 
 **On-call schedule must be covered**
 
 Before leaving for vacation, 2 weeks before at the latest, you should coordinate with your colleagues
-to see who can take over the days when you should be on-call. This can happen via an issue in our
-[Organization Repo](https://dev.gitlab.org/gitlab/organization/issues?label_name=pagerduty) or via
-a Hangout that you should schedule.
+to see who can take over the days when you should be on-call. See the [PagerDuty](/handbook/support/pagerduty)
+page for more details.
 
 **Rest of the team**
 
