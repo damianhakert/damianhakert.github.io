@@ -75,12 +75,12 @@ for key customers while still addressing the questions of all subscribers, and t
 The channels are sorted in order of priority, there are 4 general SLA's:
 
 1. Emergency tickets should be answered within 30 minutes.
-2. Security disclosures until Twitter should be answered within 1 business day.
-3. Posted Issues until Reddit should be answered within 2 business days.
+2. Security disclosures until regular tickets should be answered within 1 business day.
+3. Disqus and Twitter we strive to answer them within 1 business day.
+4. Posted Issues until Reddit we strive to answer them within 2 business days.
 
 Preferably we like to answer tickets sooner than the SLA requires.
 The higher a channel is in the list the sooner it should be answered.
-Tickets from social channels and security disclosures don't have a contractually set SLA, these are internal aims.
 
 ## Support Turbo<a name="support-turbo"></a>
 
