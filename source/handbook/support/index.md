@@ -102,14 +102,7 @@ label and @ mentioning one or more Service Engineers.
 1. If customers or users have questions advise them to contact support direct via the relevant channel.
 1. For quick questions that are urgent ping the support team on the support chat channel.
 
-## Support Channels <a name="support-channels"></a>
-
-Our [service engineers](/jobs/service-engineer) handle the channels listed below.
-They are sorted in order of priority (strictest SLA at top), and as a result, it is possible that channels that appear lower
-in this list experience longer delays in receiving responses. We are actively [hiring](https://about.gitlab.com/jobs/)
-more Service Engineers to strengthen the team and provide support to the community.
-
-### Dashboard <a name="dashboard"></a>
+## Dashboard <a name="dashboard"></a>
 
 The [ZenDesk Insight dashboard](https://gitlab.zendesk.com/agent/reporting/analytics/period:0/dashboard:buLJ3T7IiFnr)
 lists the activity for all our channels currently and summarized over the last 30 days (login to ZenDesk required).
@@ -117,6 +110,13 @@ lists the activity for all our channels currently and summarized over the last 3
 The iframe below also shows this dashboard, but it requires a valid session for the above link. Signing in on this page doesn't seem to work.
 
 <iframe frameborder="0" src="https://analytics.zendesk.com/dashboard.html#project=/gdc/projects/fan67iacybmx4rawsd6jcipe01ouaxvt&dashboard=/gdc/md/fan67iacybmx4rawsd6jcipe01ouaxvt/obj/65766&nochrome=true" width="100%" height="380px" allowTransparency="false"></iframe>
+
+## Support Channels <a name="support-channels"></a>
+
+Our [service engineers](/jobs/service-engineer) handle the channels listed below.
+They are sorted in order of priority (strictest SLA at top), and as a result, it is possible that channels that appear lower
+in this list experience longer delays in receiving responses. We are actively [hiring](https://about.gitlab.com/jobs/)
+more Service Engineers to strengthen the team and provide support to the community.
 
 ### Emergency Tickets <a name="emergency"></a>
 
