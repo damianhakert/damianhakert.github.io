@@ -11,8 +11,8 @@ filename: 2016-03-10-gitlab-8-dot-5-dot-5-released.markdown
 Today we are releasing version 8.5.5 for GitLab Community Edition (CE) and
 Enterprise Edition (EE).
 
-This version includes a new GitLab Geo feature, several minor EE fixes as well
-as fixes for Todos.
+This version includes a new GitLab Geo feature and fixes, several minor EE fixes
+as well as fixes for Todos and project lists.
 
 Read on for all the details!
 
@@ -43,16 +43,10 @@ Read on for all the details!
 [!3159]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3159
 [!679]: https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/679
 
-## GitLab Geo documentation
-
-GitLab Geo is a new feature, currently in alpha, that allows you to have a
-remote replicate of your entire GitLab instance. Today we're introducing its
-documentation so that you our users can start using it.
-
 ## Upgrade barometer
 
-This release includes two minor database migrations which can be run without
-causing any downtime.
+This release includes one minor database migration for CE and two minor
+migrations for EE. All the migrations can be run without causing any downtime.
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
