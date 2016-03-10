@@ -50,7 +50,7 @@ CI!
 
 What started as a side project [three years ago][ci-first-post], has now
 become one of GitLab's key features. Back then, it was a separate application
-that talked to GitLab via web hooks. Now, starting from GitLab 8.0,
+that talked to GitLab via webhooks. Now, starting from GitLab 8.0,
 GitLab CI has been [fully integrated with GitLab itself][8-post]. No more need
 to setup and maintain another application, which means less work for you or
 your Ops team.

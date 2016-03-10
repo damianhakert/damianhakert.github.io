@@ -163,10 +163,10 @@ with Rocket Chat or whether it will be delayed.
 
 ## SSL Verification for Web Hooks
 
-We've now enabled SSL verification for web hooks by default.
-This makes web hooks safer to use and helps mitigate man-in-the-middle attacks.
+We've now enabled SSL verification for webhooks by default.
+This makes webhooks safer to use and helps mitigate man-in-the-middle attacks.
 
-You can turn this off in the web hook settings of a project.
+You can turn this off in the webhook settings of a project.
 
 ![Configure SSL verification of Web Hooks](/images/8_0/webhooks.png)
 

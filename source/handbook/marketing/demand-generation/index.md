@@ -38,7 +38,7 @@ Go to the [Marketing Handbook](/handbook/marketing)
 
 ## Lead qualification process<a name="leadQual"></a>
 
-1. Unless a specific request is made, provide a useful resource that will help the person have a better GitLab experience. 
+1. Unless a specific request is made, provide a useful resource that will help the person have a better GitLab experience.
 2. Ask [Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/) to qualify lead
 3. Soft-BANT is used to determine if a lead should be passed to sales or recommended CE resources. Once determined, BDR team passes all leads to sales for followup via Salesforce assignment and email notification.
 4. If 2 of the 4 elements of BANT are met (budget, authority, need, timeline), BDR team will determine account owner and pass lead.
@@ -123,7 +123,7 @@ Current state
 
 ## Marketo Tools Server<a name="marketoTools"></a>
 
-- This is a simple Sinatra application that receives several web hooks and forwards the relevant information to Marketo via its REST API.
+- This is a simple Sinatra application that receives several webhooks and forwards the relevant information to Marketo via its REST API.
 - URL: http://marketo-tools.gitlap.com/ (can't access via browser)
 - [Software running on it](https://gitlab.com/gitlab-com/marketo-tools/)
 - [Readme of the cookbook for deployment](https://gitlab.com/gitlab-com/cookbook-marketo-tools/blob/master/README.md)
