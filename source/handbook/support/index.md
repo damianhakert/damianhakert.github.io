@@ -16,6 +16,7 @@ title: Support
 - [Support Direction](#support-direction)
 - [Service Level Agreements](#sla)
 - [Support Turbo](#support-turbo)
+- [Internal Support](#internal)
 - [Support Channels](#support-channels)
    - [Dashboard](#dashboard)
    - [Emergency Tickets](#emergency)
