@@ -502,4 +502,15 @@ in your `.gitlab-ci.yml` file if you see provisioning errors in your build outpu
 living in Montreal, Canada. He believes that open, honest, collaboration is the 
 best path towards building great things *and* great teams.
 
+## Live webcast: GitLab CI
+
+Sign up for our webcast on April 14th, which includes an overview and tutorial
+about using GitLab CI. Meet people from the GitLab team and get your questions
+answered live!
+
+- Date: Thursday, April 14, 2016
+- Time: 5pm (17:00) UTC; 12pm EST; 9am PST
+- [Register here](http://page.gitlab.com/apr-2016-gitlab-intro-ci-webcast.html)
+
+Can't make it? Register anyway, and we'll send you a link to watch it later!
 
