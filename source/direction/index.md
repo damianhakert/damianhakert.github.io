@@ -40,7 +40,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 
 ### 8.6 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/22) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/8) March 22nd
 
-- [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
+- [First iteration](https://gitlab.com/gitlab-org/gitlab-ce/issues/14149) of [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 - [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
 - [External users](https://gitlab.com/gitlab-org/gitlab-ce/issues/4009)
 - [Push to a remote repository (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/116)
@@ -57,6 +57,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 
 ### 8.7 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/23) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/9) April 22nd
 
+- Second iteration of [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 - [CI Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
 - [Squash commits upon Merging (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/150)
 - [Run build on merged code before merging (EE?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4176)
@@ -71,6 +72,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 
 ### 8.8 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/24) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/10)
 
+- Third iteration of [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 - [Multiline comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/4143)
 - [Mailing list functionality](https://gitlab.com/gitlab-org/gitlab-ce/issues/4272)
 - [.gitignore templates](https://gitlab.com/gitlab-org/gitlab-ce/issues/14106)
