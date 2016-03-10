@@ -35,7 +35,7 @@ See our [documentation on how to setup SAML integration](http://doc.gitlab.com/c
 
 ## Web Hook for Comments
 
-There is a new web hook available that will trigger on all comments.
+There is a new webhook available that will trigger on all comments.
 You could use this to add additional automations and integrations to GitLab.
 For instance when someone comments on a merge request, you can have it
 trigger internal systems or, depending on the comment contents,

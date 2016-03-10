@@ -65,8 +65,8 @@ Blocking user will not remove users from their projects and groups. GitLab 7.9 w
 
 ## Group level webhooks (EE only feature)
 
-In earlier versions of GitLab you were able to add a web hook for a project.
-Share the same web hooks between multiple projects - just setup it once in group.
+In earlier versions of GitLab you were able to add a webhook for a project.
+Share the same webhooks between multiple projects - just setup it once in group.
 
 [![screenshot](/images/7_9/group-hooks.png)](/images/7_9/group-hooks.png)
 

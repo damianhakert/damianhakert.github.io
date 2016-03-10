@@ -161,16 +161,16 @@ in adding PostgreSQL compatibility.
 How quickly these are solved will determine if GitLab 8.1 will ship
 with Rocket Chat or whether it will be delayed.
 
-## SSL Verification for Web Hooks
+## SSL Verification for Webhooks
 
-We've now enabled SSL verification for web hooks by default.
-This makes web hooks safer to use and helps mitigate man-in-the-middle attacks.
+We've now enabled SSL verification for webhooks by default.
+This makes webhooks safer to use and helps mitigate man-in-the-middle attacks.
 
-You can turn this off in the web hook settings of a project.
+You can turn this off in the webhook settings of a project.
 
-![Configure SSL verification of Web Hooks](/images/8_0/webhooks.png)
+![Configure SSL verification of Webhooks](/images/8_0/webhooks.png)
 
-* [View the documentation for Web Hooks](http://doc.gitlab.com/ce/web_hooks/web_hooks.html)
+* [View the documentation for Webhooks](http://doc.gitlab.com/ce/web_hooks/web_hooks.html)
 
 ## Public User Profile and Group Pages
 
@@ -289,7 +289,7 @@ One of the biggest improvements of GitLab 8.0 is integrated GitLab CI.
 Doing that required large amount of changes, including rebuild of the GitLab CI Service in GitLab.
 With all these changes we removed the GitLabCiService. This change broke the Jenkins [gitlab-plugin](https://github.com/jenkinsci/gitlab-plugin) that allowed Jenkins to act as an external GitLab CI in front of GitLab.
 
-You can still use [mentioned plugin](https://github.com/jenkinsci/gitlab-plugin) with GitLab. For all Web Hooks that you added you need to enable not only *Merge Request Events*, but also *Push and Tag Events*. By doing that GitLab will properly notify Jenkins when you do **git push**. This doesn't resolve missing build status for Jenkins builds in GitLab interface. We are working hard to bring the Commit Status API that will allow any external service to post the build status back to GitLab. When this gets implemented by the maintainer of this plugin it will make the integration much better then it was in versions prior to 8.0.
+You can still use [mentioned plugin](https://github.com/jenkinsci/gitlab-plugin) with GitLab. For all Webhooks that you added you need to enable not only *Merge Request Events*, but also *Push and Tag Events*. By doing that GitLab will properly notify Jenkins when you do **git push**. This doesn't resolve missing build status for Jenkins builds in GitLab interface. We are working hard to bring the Commit Status API that will allow any external service to post the build status back to GitLab. When this gets implemented by the maintainer of this plugin it will make the integration much better then it was in versions prior to 8.0.
 
 - - -
 

@@ -90,7 +90,7 @@ time on this, as competitors offer pretty much the same functionality.
 1. Share with group feature
 1. Deploy keys
     * Quickly.
-1. Web hooks
+1. Webhooks
     * Quickly.
 1. Git hooks
     * Explain what they are, what they do.
