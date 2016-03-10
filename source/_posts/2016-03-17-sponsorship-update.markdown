@@ -40,8 +40,8 @@ seeking support through their [crowd funding campaign](http://railsgirlssummerof
 ## Sponsorship in areas of low opportunity
 
 In other news, we are also sponsoring events which have a great impact at a local level.
-It's part of our [strategy] sponsor initiatives in countries that have low
-opportunity, and which have less access to funding.
+It's part of our [strategy] to sponsor initiatives in countries that have low
+opportunity, and less access to funding.
 Since we're a distributed company, it also means we can send colleagues to
 participate in these events.
 
