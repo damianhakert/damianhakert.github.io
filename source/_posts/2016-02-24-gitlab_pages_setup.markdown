@@ -278,17 +278,15 @@ some SSGs examples that we gathered for you, organized by their respective envir
 | [Genius Template][h-2-web] | [Source on GitLab][h-2-pro] | [Default][h-2-ci] |
 | [ArtCore Template][h-3-web] | [Source on GitLab][h-3-pro] | [Default][h-3-ci] |
 
-### Environment: **Ruby**
+### Environment: **[Ruby]**
 
 | SSG | Website URL | Project URL | Configuration | 
 | --- | ----------- | ----------- | -------------- |
 | [Jekyll] | [Greyscale Theme][j-3-web] | [Source on GitLab][j-3-pro] | [Default][j-3-ci] |  
 | [Jekyll] | [Default Theme][j-2-web] | [Source on GitLab][j-2-pro] | [Building Jekyll 3.1.2 with Bundler][j-2-ci] | 
 | [Middleman] | [Default Theme][middle-prev] | [Source on GitLab][middle-proj] | [Default + Bundler `ENV=PRODUCTION`][middle-ci] | 
-| [Hugo/GoLang][Hugo] | [Lanyon Theme][hugo-prev] | [Source on GitLab][hugo-proj] | [Default, `image: publysher/hugo`][hugo-ci] |
 
-
-### Environment: **Node JS**
+### Environment: **[Node JS][node]**
 
 | SSG | Website URL | Project URL | Configuration | 
 | --- | ----------- | ----------- | -------------- |
@@ -298,21 +296,30 @@ some SSGs examples that we gathered for you, organized by their respective envir
 | [Metalsmith] | [Default Theme][metal-prev] | [Source on GitLab][metal-proj] | [Default][metal-ci] |
 
 
-### Environment: **Python**
+### Environment: **[Python]**
 
-**** To be included - (?)
+| SSG | Website URL | Project URL | Configuration | 
+| --- | ----------- | ----------- | -------------- |
+| [Lektor] | [Default Theme][lektor-prev] | [Source on GitLab][lektor-proj] | [Default][lektor-ci] |
+| [Hyde] | [Default Theme][hyde-prev] | [Source on GitLab][hyde-proj] | [Default + `test` job][hyde-ci] |
 
-### More Examples
+### Environment: **[Go Lang][go]**
+
+| SSG | Website URL | Project URL | Configuration | 
+| --- | ----------- | ----------- | -------------- |
+| [Hugo] | [Lanyon Theme][hugo-prev] | [Source on GitLab][hugo-proj] | [Default][hugo-ci] |
+
+### **More Examples**
 
 On the following GitLab groups you can find even more examples.
 
 | Group | Environment | SSGs |
 | ----- | ----------- | ---- |
-| [GitLab CI][ci-examples] | Ruby, Node, etc| Brunch, Harp, Hexo, Hugo, Jekyll, MetalSmith, Middleman |
+| [GitLab CI][ci-examples] (Official) | Ruby, Node, Python, etc| All SSGs presented on this post |
 | [Jekyll Themes][jekyll-examples] | Ruby | Jekyll |
 | [Middleman Themes][middle-examples] | Ruby | Middleman | 
 | [Themes and Templates][themes-templates] | Miscellaneous | Miscellaneous |
-| [HTML Themes][html-examples] | - | - |
+| [HTML Themes][html-examples] | GitLab Default | None |
 
 _**Note:** these themes, templates and SSGs were casually chosen and listed on this post to provide you with some distinct GitLab CI configurations._
 
@@ -406,15 +413,20 @@ We're looking forward to seeing your sites!
 [Coffee Script]: http://coffeescript.org/
 [dns-cname]: https://en.wikipedia.org/wiki/CNAME_record
 [git]: https://git-scm.com/about
+[go]: https://golang.org/
 [Harp]: http://harpjs.com/
 [Hexo]: https://hexo.io/
+[Hyde]: http://hyde.github.io/
 [Hugo]: https://gohugo.io/
 [Jekyll]: https://jekyllrb.com
 [Jekyll Documentation]: http://jekyllrb.com/docs/home/
+[Lektor]: https://www.getlektor.com/
 [Liquid]: https://github.com/Shopify/liquid/wiki
 [Markdown]: http://daringfireball.net/projects/markdown/
 [Metalsmith]: http://www.metalsmith.io/
 [Middleman]: https://middlemanapp.com/
+[node]: https://nodejs.org/en/
+[Python]: https://www.python.org/
 [Ruby]: https://www.ruby-lang.org/
 [Sass]: http://sass-lang.com/
 [SSGs]: https://www.staticgen.com/
@@ -464,3 +476,11 @@ We're looking forward to seeing your sites!
 [metal-prev]: https://gitlab-examples.gitlab.io/pages-metalsmith/
 [metal-proj]: https://gitlab.com/gitlab-examples/pages-metalsmith
 [metal-ci]: https://gitlab.com/gitlab-examples/pages-metalsmith/blob/master/.gitlab-ci.yml
+
+[lektor-prev]: https://gitlab-examples.gitlab.io/pages-lektor/
+[lektor-proj]: https://gitlab.com/gitlab-examples/pages-lektor
+[lektor-ci]: https://gitlab.com/gitlab-examples/pages-lektor/blob/master/.gitlab-ci.yml
+
+[hyde-prev]: https://themes-templates.gitlab.io/hyde/
+[hyde-proj]: https://gitlab.com/themes-templates/hyde
+[hyde-ci]: https://gitlab.com/themes-templates/hyde/blob/master/.gitlab-ci.yml
