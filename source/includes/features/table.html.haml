@@ -3,23 +3,22 @@
     .panel-heading
       %h2.panel-title
         = feature_block.title
-    %table.table
+    %table.table.compare-table
       %thead
         %tr
           %th
-          %th Community Edition
-          %th
-            %b Enterprise Edition
+          %th.ce-col Community Edition
+          %th.ee-col Enterprise Edition
       %tbody.header.first
         - feature_block.features.each do |feature|
           %tr
             %td
               %a{href: feature.link}
                 = feature.description
-            %td
+            %td.ce-col
               - if feature.in_ce
                 %i.fa.fa-check
                 %span.print *
-            %td
+            %td.ee-col
               %i.fa.fa-check
               %span.print *
