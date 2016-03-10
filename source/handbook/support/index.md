@@ -75,7 +75,7 @@ The channels are sorted in order of priority, there are 4 general SLA's:
 
 1. Emergency tickets should be answered within 30 minutes.
 2. Security disclosures until Twitter should be answered within 1 business day.
-4. Posted Issues until Reddit should be answered within 2 business days.
+3. Posted Issues until Reddit should be answered within 2 business days.
 
 Preferably we like to answer tickets sooner than the SLA requires.
 The higher a channel is in the list the sooner it should be answered.
