@@ -436,7 +436,7 @@ stages:
 build_project:
   stage: build
   script:
-	- xcodebuild clean -project ProjectName.xcodeproj -scheme SchemeName | xcpretty
+    - xcodebuild clean -project ProjectName.xcodeproj -scheme SchemeName | xcpretty
     - xcodebuild test -project ProjectName.xcodeproj -scheme SchemeName -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.2' | xcpretty -s
   tags:
     - ios_9-2
@@ -501,3 +501,5 @@ in your `.gitlab-ci.yml` file if you see provisioning errors in your build outpu
 [Angelo](http://angelostavrow.com) is a Quality Engineer and Software Developer 
 living in Montreal, Canada. He believes that open, honest, collaboration is the 
 best path towards building great things *and* great teams.
+
+
