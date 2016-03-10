@@ -22,6 +22,8 @@ Read on for all the details!
 - **EE:** Refactor user documentation for GitLab Pages ([!212])
 - **EE:** Fix importing projects from GitHub Enterprise Edition ([!219])
 - **EE:** Fix syntax error in init file ([!223])
+- **EE:** GitLab Geo: Improve GeoNodes Admin screen ([!251])
+- **EE:** GitLab Geo: Avoid locking yourself out when adding a GeoNode ([!252])
 - **EE:** Only show group member roles if explicitly requested ([!3044])
 - **CE/EE:** Ensure removing a project removes associated Todo entries ([!3141])
 - **CE/EE:** Prevent a 500 error in Todos when author was removed ([!3141])
@@ -33,6 +35,8 @@ Read on for all the details!
 [!212]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/212
 [!219]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/219
 [!223]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/223
+[!251]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/251
+[!252]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/252
 [!3044]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3044
 [!3141]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3141
 [!3149]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3149
