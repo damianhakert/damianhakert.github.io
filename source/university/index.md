@@ -70,8 +70,6 @@ only. Send Job a message to sign up.
 
 1. [GitLab Workshop Part 4: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-4/material/)
 
-1. [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
-
 1. [Making GitLab Great for Everyone, our response to the Dear GitHub letter](https://www.youtube.com/watch?v=GGC40y4vMx0)
 
 1. Understanding [terminology](https://about.gitlab.com/university/glossary/).
