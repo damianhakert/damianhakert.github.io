@@ -445,7 +445,7 @@ Version Control Software
 
 A model of building software that involves collecting all requirements from the customer, then building and refining all the requirements and finally delivering the COMPLETE software to the customer that meets all the requirements specified by the customer
 
-### Web Hooks
+### Webhooks
 
 A way for for an app to provide other applications with real-time information. e.g. send a message to a slack channel when a commit is pushed
 
