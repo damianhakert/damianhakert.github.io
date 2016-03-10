@@ -40,6 +40,8 @@ during your first week.
 
 1. [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=ae7b72c61347030e8aa75328ed4b8660)
 
+1. [Sales Onboarding materials](/handbook/sales-onboarding/)
+
 ### Week 4
 
 **Create a lead, check if lead is using CE, create a task, convert

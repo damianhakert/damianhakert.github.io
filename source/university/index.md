@@ -231,7 +231,6 @@ only. Send Job a message to sign up.
 * [GitLab architecture for noobs](https://dev.gitlab.org/gitlab/gitlabhq/blob/master/doc/development/architecture.md)
 * [Innersourcing article](https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/)
 * [Platzi training course](https://courses.platzi.com/courses/git-gitlab/)
-* [Sales Onboarding materials](https://about.gitlab.com/handbook/sales-onboarding/)
 * [GitLab Direction](https://about.gitlab.com/direction/)
 * [Amazon's transition to Continuous Delivery](https://www.youtube.com/watch?v=esEFaY0FDKc)
 * [3rd party tool comparison](http://technologyconversations.com/2015/10/16/github-vs-gitlabs-vs-bitbucket-server-formerly-stash/)

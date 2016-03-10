@@ -69,7 +69,7 @@ Complement the [General Boot Camp](../#general-boot-camp) with these topics:
    - Find the differences between the [EE codebase](https://gitlab.com/gitlab-org/gitlab-ce)
      and the [CE codebase](https://gitlab.com/gitlab-org/gitlab-ce)
 
-1. Ask as many questions as you can think of the the `#support` chat channel.
+1. Ask as many questions as you can think of on the `#support` chat channel.
 
 
 
