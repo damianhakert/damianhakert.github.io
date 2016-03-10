@@ -25,6 +25,7 @@ Read on for all the details!
 - **EE:** Only show group member roles if explicitly requested ([!3044])
 - **CE/EE:** Ensure removing a project removes associated Todo entries ([!3141])
 - **CE/EE:** Prevent a 500 error in Todos when author was removed ([!3141])
+- **CE/EE:** Fix "Show all" link behavior on profile page ([!3159])
 - **Omnibus GitLab:** Add ldap_sync_time global configuration as the EE is still supporting it ([!679])
 
 [!179]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/179
@@ -33,6 +34,7 @@ Read on for all the details!
 [!223]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/223
 [!3044]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3044
 [!3141]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3141
+[!3159]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3159
 [!679]: https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/679
 
 ## GitLab Geo documentation
