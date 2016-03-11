@@ -1,6 +1,6 @@
 require 'httparty'
 
-PRIVATE_TOKEN = ENV["private_gl_token"]
+PRIVATE_TOKEN = ENV["PRIVATE_TOKEN"]
 
 class GitLabInstance
   def initialize(endpoint, private_token, name)
@@ -64,6 +64,9 @@ end
 desc 'Generate Direction Page Issue List'
 task :direction_issues do
   print 'Generating direction page'
+
+  # Check if private token is available
+  puts "Can't find PRIVATE TOKEN!" unless PRIVATE_TOKEN.length > 0
 
   com = GitLabInstance.new('https://gitlab.com', PRIVATE_TOKEN, 'GitLab.com')
   ce = GitLabProject.new('gitlab-org%2Fgitlab-ce',com)
