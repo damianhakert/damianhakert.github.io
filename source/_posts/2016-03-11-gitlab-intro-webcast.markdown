@@ -29,6 +29,7 @@ In this webcast:
 
 ## Webcast Recording
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen></iframe>
 
 ## Webcast Slides
 
@@ -36,7 +37,7 @@ In this webcast:
 
 ## Join our next webcasts!
 
-Can't make these times? Register anyway, and we'll send you a link to watch it later.
+Can't make these times? Register anyway, and we'll send you a link to watch later.
 
 In our next webcast on March 24th, we'll take a look at the new features in GitLab 8.6!
 
