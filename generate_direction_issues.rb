@@ -65,9 +65,6 @@ desc 'Generate Direction Page Issue List'
 task :direction_issues do
   print 'Generating direction page'
 
-  # Check if private token is available
-  puts "Can't find PRIVATE TOKEN!" unless PRIVATE_TOKEN
-
   com = GitLabInstance.new('https://gitlab.com', PRIVATE_TOKEN, 'GitLab.com')
   ce = GitLabProject.new('gitlab-org%2Fgitlab-ce',com)
   ee = GitLabProject.new('gitlab-org%2Fgitlab-ee',com)
