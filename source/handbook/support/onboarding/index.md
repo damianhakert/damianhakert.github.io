@@ -147,6 +147,13 @@ tickets into the first one before closing it.
 In channels that don't create new tickets with new interactions, such as Stack Overflow (which pipes 
 digests into ZenDesk instead of each interaction), you can close the ticket as soon as you have provided a response.
 
+### Clearing out Suspended Tickets
+
+In ZenDesk, various filters send a ticket straight to "suspended" status. This is mostly useful
+to remove spam and it works quite well. However, it is possible that actual tickets
+are accidentally routed to Suspended Tickets, so it is important to check the new Suspended Ticket queue
+at least once a day. Doing this on a regular basis also keeps that queue manageable.
+
 ### Receiving negative feedback
 
 After 24 hours of marking the ticket as solved a survey is sent to our customers, where they can rate
