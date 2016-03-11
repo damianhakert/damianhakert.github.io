@@ -75,9 +75,9 @@ for key customers while still addressing the questions of all subscribers, and t
 The channels are sorted in order of priority, there are 4 general SLA's:
 
 1. Emergency tickets should be answered within 30 minutes.
-2. Security disclosures until regular tickets should be answered within 1 business day.
-3. Disqus and Twitter we strive to answer them within 1 business day.
-4. Posted Issues until Reddit we strive to answer them within 2 business days.
+2. Security disclosures through regular tickets should be answered within 1 business day.
+3. Disqus and Twitter: we strive to answer them within 1 business day.
+4. Posted Issues through Reddit: we strive to answer them within 2 business days.
 
 Preferably we like to answer tickets sooner than the SLA requires.
 The higher a channel is in the list the sooner it should be answered.
@@ -287,7 +287,7 @@ you must make sure to **@ mention the user** who tweeted their question to @gitl
 The @GitLabStatus account should only be used to
 give updates on the availability of GitLab.com and to follow up on users reporting that GitLab.com is unavailable.
 
-### Follow up on issues on GitLab issue tracker<a name="issue-tracker"></a>
+### Follow up on issues posted on GitLab issue tracker<a name="issue-tracker"></a>
 
 For ZenDesk issues you will have created issues on the relevant issue tracker.
 Please refer to the priority as listed under [GitLab Workflow in the handbook](https://about.gitlab.com/handbook/#gitlab-workflow).
