@@ -11,9 +11,7 @@ image_title: '/images/community/love-the-sun-gitlab.jpg'
 
 In this post, I'll give you an update of what we've sponsored recently as well as some insight into our priorities as we welcome more requests for sponsorship.
 
-We’re so delighted with the interest in our [tech diversity sponsorship program][diversity].
-
-Since we announced the program in early February, we've sponsored a number of great events.
+We’re so delighted with the interest in our [tech diversity sponsorship program][diversity]. Since we announced the program in early February, we've sponsored a number of great events.
 
 <!-- more -->
 
