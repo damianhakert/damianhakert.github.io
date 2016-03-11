@@ -144,8 +144,8 @@ In the social media support channels that create a new ticket with each comment 
 must mark the original question ticket as pending, resolve the issue and merge all the individual comment 
 tickets into the first one before closing it.
 
-In channels that don't create new tickets with new interactions, such as Stack Overflow, you can close 
-the ticket as soon as you have provided a response.
+In channels that don't create new tickets with new interactions, such as Stack Overflow (which pipes 
+digests into ZenDesk instead of each interaction), you can close the ticket as soon as you have provided a response.
 
 ### Receiving negative feedback
 
