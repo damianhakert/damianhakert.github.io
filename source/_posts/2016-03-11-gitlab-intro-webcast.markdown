@@ -9,10 +9,16 @@ author_twitter: nearlythere
 image_title: '/images/unsplash/moving-parts.jpg'
 ---
 
-In our latest webcast, we highlighted
-
+In our latest webcast, we highlighted a typical daily workflow when using GitLab.
 We looked at features in GitLab which emphasize conversation, collaborating
 early, improving discoverability, and keeping your momentum going.
+
+[Job](http://twitter.com/jobvo) showed how he starts his day, checking his todo list,
+providing feedback on issues, line-by-line code review, and getting to work on his
+own commits. 
+This demo is based on [GitLab Flow](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
+which is lightweight and scales easily for even large teams. 
+Watch the recording below.
 
 Sign up to our [newsletter](https://about.gitlab.com/contact/#newsletter)
 so you don't miss our webcasts!
