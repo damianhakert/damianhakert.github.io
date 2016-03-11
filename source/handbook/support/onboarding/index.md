@@ -141,6 +141,13 @@ to this rule is in social media support channels that do not integrate well with
 the Forum, Stack Overflow, and others, where each comment creates a new ticket. In those cases, you can 
 close the ticket as soon as you have provided a response (and also close the ticket created by your own response).
 
+### Clearing out Suspended Tickets
+
+In ZenDesk, various filters send a ticket straight to "suspended" status. This is mostly useful
+to remove spam and it works quite well. However, it is possible that actual tickets
+are accidentally routed to Suspended Tickets, so it is important to check the new Suspended Ticket queue
+at least once a day. Doing this on a regular basis also keeps that queue manageable.
+
 ### Receiving negative feedback
 
 After 24 hours of marking the ticket as solved a survey is sent to our customers, where they can rate
