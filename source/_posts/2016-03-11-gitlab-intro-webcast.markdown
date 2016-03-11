@@ -27,9 +27,9 @@ so you don't miss our webcasts!
 
 In this webcast:
 
-- Creating Groups and Projects
+- Overview of Groups and Projects
 - Always start with an issue
-- Organizing with Issues and Milestones
+- Organizing with Labels and Milestones
 - Referencing related work such as @mentions, Fixes #ID or Closes #ID
 - Q&A: Questions from webcast attendees answered live
 
