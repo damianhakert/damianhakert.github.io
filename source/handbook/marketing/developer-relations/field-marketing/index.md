@@ -35,27 +35,44 @@ Field marketing includes event marketing and swag production.
 
 ## At Events
 
-Emplyee Booth Guidelines
+# Emplyee Booth Guidelines
+   
     - If you see someone standing alone, talk to them. 
+    
     - Do not stand around and talk to other GitLab coworkers. Talk to people you don’t know. 
+    
     - Do not sell; generate interest to learn more. Attendees have a lot of info they are digesting, so get their info and some key info to follow up on.
+   
     - Give out swag and one-pagers!
+    
     - Don’t be afraid to walk around to other booths and talk to people. Make friends we could partner with, create interesting content with, or just have friendly beers.
+   
     - The booth should be clean and organized at all times.
+    
     - Document any product feedback you get.
+    
     - If press comes ot the event feel free to put themin contact with CEO (Sid) or Marketing (Ashley).
 
-Networking Tips
+# Networking Tips
+ 
     - Listen
+ 
     - Ask questions
+ 
     - Don't interrupt
+ 
     - Everyone gets shy sometimes, be the brave one and introduce yourself to new people. 
+ 
     - Feel free to talk about our next release, GitLab [strategy] (https://about.gitlab.com/strategy/), or our [product directtion] (https://about.gitlab.com/direction/#vision).
     
-Suggested Attire
+# Suggested Attire
+ 
     - Wear at least one branded GitLab piece of clothing. 
+ 
     - If the conference is business casual try some nice jeans (no holes) or pants. 
+ 
     - Clean shoes please. 
+  
     - A smile. 
 
 ## After and Event
