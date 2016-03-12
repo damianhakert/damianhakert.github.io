@@ -3,7 +3,7 @@ layout: markdown_page
 title: "Field Marketing"
 ---
 
-## Field Marketing
+## **Field Marketing**
 
 Field marketing includes event marketing and swag production.  
 
