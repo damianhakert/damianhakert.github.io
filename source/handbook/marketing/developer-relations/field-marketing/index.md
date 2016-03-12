@@ -33,9 +33,9 @@ Field marketing includes event marketing and swag production.
 - Get attendee list and contact customers and prospects.
 - BDRS will help set up 20 in person meetings set up before event to occur at event.
 
-## At Events
+### At Events
 
-# Emplyee Booth Guidelines
+## Emplyee Booth Guidelines
    
     - If you see someone standing alone, talk to them. 
     
@@ -53,7 +53,7 @@ Field marketing includes event marketing and swag production.
     
     - If press comes ot the event feel free to put themin contact with CEO (Sid) or Marketing (Ashley).
 
-# Networking Tips
+## Networking Tips
  
     - Listen
  
@@ -65,7 +65,7 @@ Field marketing includes event marketing and swag production.
  
     - Feel free to talk about our next release, GitLab [strategy] (https://about.gitlab.com/strategy/), or our [product directtion] (https://about.gitlab.com/direction/#vision).
     
-# Suggested Attire
+## Suggested Attire
  
     - Wear at least one branded GitLab piece of clothing. 
  
