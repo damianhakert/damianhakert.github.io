@@ -62,18 +62,18 @@ Field marketing includes event marketing and swag production.
 ## After and Event
 
 - Fill out after event survey- send any relevant feedback on event to marketing event staff. 
-    - was the event valuable?
-        - would you go again/ should we go again?
-        - did we get good leads/ contacts?
-        - best questions asked and conversations
-        - was our sponsorship/ involvement successful?
-    - how was the booth set up?
-        - how was the booth staffing?
-        - did the booth get enough traffic?
-        - booth location and size
-    - how did our swag go over?
-        - did we have enough/ too much?
-    - contests?
+    - Was the event valuable?
+        - Would you go again/ should we go again?
+        - Did we get good leads/ contacts?
+        - Best questions asked and conversations
+        - Was our sponsorship/ involvement successful?
+    - How was the booth set up?
+        - How was the booth staffing?
+        - Did the booth get enough traffic?
+        - Booth location and size
+    - How did our swag go over?
+        - Did we have enough/ too much?
+    - Contests?
 - Make sure contacts/ leads gathered from event are with marketing and categorized under specific event campaign.
 - Follow up with leads from event within 5 business days after event ends.
 
@@ -86,20 +86,17 @@ Field marketing includes event marketing and swag production.
 
 * We have a meetup-in-a-box package where we arrange for:
 
-1. Food (not only pizza, something healthy too)
-1. GitLab swag
-1. Walkthroughs (demo scripts)
-1. Exclusive content (can make new feature presentations exclusive to meetups for a month)
-1. Puzzles (pub quiz style, score points and compete with other cities)
-1. Video Q&A with service engineers and.or developers
-1. AMA's with CEO/CTO
-1. Visit in person if we can
-1. Organizers become part of the GitLab Club
+- Food (not only pizza, something healthy too)
+- GitLab swag
+- Walkthroughs (demo scripts)
+- Exclusive content (can make new feature presentations exclusive to meetups for a month)
+- Puzzles (pub quiz style, score points and compete with other cities)
+- Video Q&A with service engineers and.or developers
+- AMA's with CEO/CTO
+-  Visit in person if we can
+- Organizers become part of the GitLab Club (more details to come)
 
-The first meetups should be run by ourselves.
-If someone manages to have 3 to 4 successive meetups it will live on.
-Dead meetup cities will be much harder to start up again than new ones.
-So do everything to keep it going.
+The first meetups should be run by employees. If someone manages to have 3 to 4 successive the meetup itself will live on. It is much harder to start new meetups versus maintaining existing ones. So we should everything to keep existing events going.
 
 ## Swag
 
