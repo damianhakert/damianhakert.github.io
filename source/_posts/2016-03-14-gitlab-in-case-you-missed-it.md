@@ -33,7 +33,7 @@ As it turns out, the unusual terminology is, in fact, justified.
 ## The terminology 
 
 These aren't just fancy terms to stand out from the crowd. 
-I strongly recommend reading article about [GitLab, Github and Bitbucket and terms comparison](https://about.gitlab.com/2016/01/27/comparing-terms-gitlab-github-bitbucket/), if you wish to sort out the details. 
+I strongly recommend reading the article about [GitLab, Github and Bitbucket and terms comparison](https://about.gitlab.com/2016/01/27/comparing-terms-gitlab-github-bitbucket/), if you wish to sort out the details. 
 I'd like to bring up the "Merge requests" topic, as it's the most controversial.
 
 My initial reaction, naturally, was rejection. Most of us are accustomed to
@@ -44,8 +44,8 @@ sense to me because closing a pull request actually does branch merging.
 As it turns out, there is a command [`git request-pull`](https://git-scm.com/docs/git-request-pull),
 hence the feature title.
 
-Pull requests have hothing in common with this git command. So, technically correct name is "merge request". 
-[Learn more](https://about.gitlab.com/2016/01/27/comparing-terms-gitlab-github-bitbucket/) on terminology difference, if you're interested.
+Pull requests have hothing in common with this git command. So, technically the correct name is "merge request". 
+[Learn more](https://about.gitlab.com/2016/01/27/comparing-terms-gitlab-github-bitbucket/) on terminology differences, if you're interested.
 
 The terminology was just a part of the deal. 
 When reading the documentation, I discovered something called "omnibus" and
@@ -60,15 +60,16 @@ Continuous Integration is a best practice in software development.
 For example, a CI server runs your tests every time you push changes to the repository.
 
 As a rule, CI is a separate service. 
-But in GitLab, CI is embedded.
+But in GitLab, [CI is embedded](http://docs.gitlab.com/ce/ci/).
 If you had to manually connect two services before, it just works on its own in GitLab.
+Though you can still use other continuous integration services such as [Jenkins](http://doc.gitlab.com/ee/integration/jenkins.html).
 
 And it works through runners.
 
 ## Runners
 
 A runner is a virtual machine that runs your tests, builds your builds or generates static files for your websites. 
-GitLab.com users are able to make use of a special Shared Runners pool to simply make everything work. 
+GitLab.com users are able to make use of a special [Shared Runners](http://doc.gitlab.com/ce/ci/quick_start/README.html#shared-runners) pool to simply make everything work. 
 
 Since the pool is shared across all projects on GitLab.com, sometimes it can
 take a while to wait for your project's build to be processed.
@@ -77,13 +78,13 @@ If you are not satisfied with the Shared runners performance, you can
 [setup a runner](https://about.gitlab.com/2016/03/01/gitlab-runner-with-docker/)
 on your own server and connect it to one or more projects.
 
-Don't fforget that you can install GitLab on your own server as well. 
+Don't forget that you can install GitLab on your own server as well. 
 
 ## GitLab installation with Omnibus
 
 In the past, you could only install GitLab manually.
 Now you can install and update the service from packages thanks to Omnibus.
-[Omnibus](https://github.com/chef/omnibus-chef) is a tool developed by Chef
+[Omnibus](http://doc.gitlab.com/omnibus/) is a tool developed by Chef
 that helps to create installation packages for complex software with a lot of
 components for various platforms.
 
