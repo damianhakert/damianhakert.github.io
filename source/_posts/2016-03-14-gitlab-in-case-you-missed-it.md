@@ -11,7 +11,7 @@ image_title: '/images/unsplash/key-concepts.jpg'
 I've recently joined GitLab as a Developer Advocate. 
 A part of my role will be traveling to community events where I hope we'll meet in person someday. 
 I'm also an experienced Ruby developer. 
-As a rubyist, naturally, I've heard about GitLab and even tried to use it.
+As a rubyist, naturally, I've heard about GitLab and even used it couple of times.
 
 The first two weeks working with GitLab have been full of pleasant surprises and dispelled delusions. 
 If you haven't been following GitLab for the last two years, this post is for you.
@@ -28,7 +28,7 @@ No, there is no catch.
 
 It should be noted that repositories are actually called "projects". 
 And that is not the only thing that catches at first. 
-As it turns out, the uncustomary terminology is, in fact, justified. 
+As it turns out, the terminology is justified.
 
 ## The terminology 
 These aren't just fancy terms to stand out from the crowd. 
@@ -54,8 +54,7 @@ Omnibus is related to GitLab installation on your own server.
 Continuous Integration is a best practice in software development.
 For example, CI server runs your tests every time you push changes to the repository.
 
-As a rule, CI is a separate service. 
-But in GitLab, CI is embedded.
+A lot of companies have a separate CI service but in GitLab, CI is embedded.
 If you had to manually connect two services before, it just works on its own in GitLab.
 
 And it works through runners.
@@ -73,7 +72,7 @@ Not to forget that you can install GitLab on your own server as well.
 
 ## GitLab installation with Omnibus
 
-In the past, you could only install GitLab manually. 
+In the past, GitLab was installed manually. 
 Now you can install and update the service from packages thanks to Omnibus.
 [Omnibus](https://github.com/chef/omnibus-chef) is a tool developed by Chef that helps to create installation packages for complex software with a lot of components for various platforms.
 
