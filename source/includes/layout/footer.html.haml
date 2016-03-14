@@ -80,10 +80,10 @@
 - full_path = current_page.file_descriptor.relative_path
 .animated.text-center.source-link
   This page is generated from
-  %a.external-source-link{href: "https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/#{full_path}"}
+  %a.external-source-link{href: "#{data.site.repo}blob/master/source/#{full_path}"}
     a public file on GitLab.com
   \– merge requests with improvements are
-  %a.external-source-link{href: "https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md"}
+  %a.external-source-link{href: "#{data.site.repo}blob/master/CONTRIBUTING.md"}
     very welcome
   = partial "includes/cc-license.html"
 = partial "includes/layout/scripts"
