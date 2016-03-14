@@ -129,6 +129,10 @@ Over the next several weeks I will be attending the following Ukrainian Ruby-mee
 ## Join our webcast about GitLab CI.
 
 I mentioned Gitlab CI a few times in this blog post. If you're interested, we'll have a live webcast all about GitLab CI.
-- Date: Thursday, April 14, 2016 - Time: 5pm (17:00) UTC; 12pm EST; 9am PST - [Register here][webcast]
+
+- Date: Thursday, April 14, 2016 
+- Time: 5pm (17:00) UTC; 12pm EST; 9am PST 
+- [Register here][webcast]
+
 Can't make these times? Register anyway, and we'll send you a link to watch later.
 [webcast]: http://page.gitlab.com/apr-2016-gitlab-intro-ci-webcast.html
