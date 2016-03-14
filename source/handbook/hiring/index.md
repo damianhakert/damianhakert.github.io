@@ -97,7 +97,8 @@ person authorized to make the offer (e.g. CEO) and the applicant.
 
 1. Email example: "We would love to have you as part of our team. You will have
 a position of [job title]. As a contractor you will invoice [monthly rate] per month.
-You will report to the [manager]. We will send you a contract on Monday based on
+You will report to the [manager]. We proposed to make you eligible for [number] of stock options. 
+We will send you a contract on Monday based on
 the examples on https://about.gitlab.com/handbook/contracts/. If you have not
 received anything on that day please reply-to-all to let us know. Please let us
 know if you have any questions or concerns in the meantime."
@@ -111,7 +112,10 @@ after which it can be sent out to be signed by any of the relevant C-level team
 members. For any hires for which the COO should sign, either the CFO or the CEO must
 review the contracts.
 1. This person from People Operations makes the contract based on the details found in the Workable
-platform, and uses reply-all to gather any missing pieces of information, and to confirm with a reply-to-all when the contract is sent.
+platform, and uses reply-all to gather any missing pieces of information, and to 
+confirm with a reply-to-all when the contract is sent. Note: the number of proposed stock options
+must always be mentioned specifically, even when it is 0. People Ops must follow-up 
+with the person who requested the contract to make sure that this point is addressed.
 1. This same person from People Operations files the signed contract in the appropriate place, and **starts the [onboarding** issue](https://about.gitlab.com/handbook/general-onboarding/).
 
 Note for People Operations: the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
