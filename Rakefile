@@ -23,3 +23,12 @@ namespace :lint do
     exit failed unless failed == 0
   end
 end
+
+task build: ["build:site"] do
+end
+
+namespace :build do
+  task :site do
+    system "BUILD=true bundle exec middleman build"
+  end
+end

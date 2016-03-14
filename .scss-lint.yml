@@ -2,6 +2,7 @@ scss_files: "./source/stylesheets/**"
 exclude:
   - "./source/stylesheets/vendor/**"
   - "./build/**"
+  - "./public/**"
 
 linters:
   BorderZero:

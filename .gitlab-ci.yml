@@ -4,7 +4,10 @@ before_script:
   - ruby -v
   - which ruby
   - gem install bundler --no-ri --no-rdoc
-  - bundle install
+  - bundle install --path vendor
+cache:
+  paths:
+    - vendor
 
 stages:
   - test
@@ -15,3 +18,14 @@ lint:
     - bundle exec rake lint
   tags:
     - ruby
+
+pages:
+  script:
+    - apt-get update -yqqq
+    - apt-get install -y nodejs
+    - bundle exec rake build
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
