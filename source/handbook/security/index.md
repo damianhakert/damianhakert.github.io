@@ -12,7 +12,8 @@ title: Security Handbook
 1. Use 1Password to [generate strong passwords] for any new accounts.
 1. When signing up for a new service ask yourself which team members you need to
    **share access** with. If the service has a built-in way of creating other
-   user accounts, use that. If not, then store your credentials in an
+   user accounts, use that and keep your credentials to yourself by storing them in 'Your Vault'.
+   If not, then store your credentials in an
    appropriate company 1Password vault so that your colleagues can sign in using
    your credentials.
 1. Do not share credentials via email, issue comments, chat etc. This includes
@@ -20,9 +21,9 @@ title: Security Handbook
    will be invited to applicable vaults after joining the company.
 1. If you want to see you vaults or ask to be added to a new one please leave
    a comment in the "1password Shared Folders" Google Doc.
-1. If you're missing an appropriate vault leave a comment in the
-   "1password Shared Folders" Google Doc.
-   Refer to the items with NAME_OF_SITE credentials in VAULT_NAME. For example:
+1. If you're missing an appropriate vault [make a suggestion to mark the relevant cell](https://support.google.com/docs/answer/6033474?hl=en) in the
+   "1password Shared Folders" Google SHeet.
+1. Refer to the items with NAME_OF_SITE credentials in VAULT_NAME. For example:
    "for access please see the AOL credentials in the Luddite vault".
 1. Do not
    store credentials in a vault if everyone has their own user account for the

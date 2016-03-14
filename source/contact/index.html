@@ -53,7 +53,23 @@ extra_css:
 
         <script src="//app-ab13.marketo.com/js/forms2/js/forms2.min.js"></script>
         <form id="mktoForm_1073"></form>
-        <script>MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1073);</script>
+        <script>
+
+
+          MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1073, function(form) {
+              form.onSuccess(function(values, followUpUrl) {
+
+                form.getFormElem().hide();
+                document.getElementById('confirmform').style.visibility = 'visible';
+
+                ga('send', 'pageview');
+                ga('send', 'event', 'form', 'submit', 'newsletter subscription');
+                return false;
+              });
+          });
+        </script>
+
+        <div id="confirmform" style="visibility:hidden;"><p>Thanks for subscribing!</p></div>
 
         <p class="newsletter-afterword">
           If you subscribe, you will receive our twice-monthly newsletter.
@@ -90,7 +106,23 @@ extra_css:
         <h2>Security Notices</h2>
 
         <form id="mktoForm_1102"></form>
-        <script>MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1102);</script>
+        <script>
+
+
+          MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1102, function(form) {
+              form.onSuccess(function(values, followUpUrl) {
+
+                form.getFormElem().hide();
+                document.getElementById('confirmform').style.visibility = 'visible';
+
+                ga('send', 'pageview');
+                ga('send', 'event', 'form', 'submit', 'security updates newsletter');
+                return false;
+              });
+          });
+        </script>
+
+        <div id="confirmform" style="visibility:hidden;"><p>Thanks for subscribing!</p></div>
 
         <p class="newsletter-afterword">
           If you subscribe, you will receive notifications about security

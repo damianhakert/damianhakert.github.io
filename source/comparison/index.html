@@ -15,8 +15,9 @@ extra_css:
           <li><a href="#gitlab-ee-vs-github-enterprise">GitLab EE vs. GitHub Enterprise</a></li>
           <li><a href="#gitlab-com-vs-github-com">GitLab.com vs. GitHub.com</a></li>
           <li><a href="#gitlab-vs-bitbucket-server">GitLab CE/EE vs. Bitbucket Server</a></li>
-          <li><a href="#gitlab-vs-bitbucket-com">GitLab.com vs. Bitbucket.com</a></li>
+          <li><a href="#gitlab-vs-bitbucket-org">GitLab.com vs. Bitbucket.org</a></li>
           <li><a href="#gitlab-vs-saas">GitLab CE/EE vs. SaaS</a></li>
+          <li><a href="#gitlab-vs-svn">GitLab vs. SVN</a></li>
         </ul>
       </div>
     </div>
@@ -67,7 +68,7 @@ extra_css:
           <li id="group-level-milestones">
             <p>Group-level milestones</p>
             <p>View all the issues for the milestone you’re currently working on across multiple projects.</p>
-            <p><a href="https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2">Example milestone for GitLab 8.2 with 4 projects</a></p>
+            <p><a href="https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2">Example milestone for GitLab 8.2 (need to be logged in)</a></p>
           </li>
           <li id="attachments-in-issues">
             <p>Attachments in issues</p>
@@ -92,11 +93,20 @@ extra_css:
             open source projects are facing, to make it easier to do both.</p>
             <p><a href="https://about.gitlab.com/2016/01/15/making-gitlab-better-for-large-open-source-projects/">Making GitLab better for large open source projects</a></p>
           </li>
+
+          <li id="powerful-issue-tracker">
+            <p>Powerful Issue Tracker</p>
+            <p>Quickly set the status, assignee or milestone for multiple issues at the same time or easily filter them on any properties. See milestones and issues across projects.</p>
+          </li>
+
           <li id="commit-search">
             <p>Search through Commits</p>
             <p>GitLab not only allows you to search through code, but also
             searches through your commit messages.</p>
           </li>
+          <li id="article">
+            <p>Don't take our word for it.</p>
+            <p>Agilob contributed a <a href="https://www.b.agilob.net/choose-gitlab-for-your-next-project/">great article about why you should choose GitLab for your next open source project</a>.
         </ol>
       </div>
 
@@ -146,14 +156,14 @@ extra_css:
             <p>You can run GitLab fully on metal. No need for pre-supplied VMs. Run GitLab on your infrastructure, however you like.</p>
           </li>
 
-          <li  id="more-users-on-a-single-server">
+          <li id="more-users-on-a-single-server">
             <p>Run more users on a single server</p>
             <p>A single machine server handles thousands of users and repositories</p>
           </li>
 
           <li id="multiple-active-servers-and-other-ha-setups">
-            <p>Multiple active servers and other HA setups</p>
-            <p>Run GitLab on a single instance or distribute it over a cluster. GitLab offers multiple HA solutions, making it possible to scale however you like.</p>
+            <p>HA setups</p>
+            <p>GitLab offers multiple HA solutions, making it possible to failover easily.</p>
             <p><a href="https://about.gitlab.com/high-availability/">More information about active servers</a></p>
           </li>
 
@@ -194,7 +204,6 @@ extra_css:
             <p><a href="http://doc.gitlab.com/ee/workflow/merge_request_approvals.html">Approvals Documentation</a></p>
           </li>
 
-
           <li id="ease-of-migration">
             <p>Ease of Migration</p>
             <p> Easily migrate all repos and merge request data from your previous provider.</p>
@@ -203,6 +212,19 @@ extra_css:
           <li id="security-and-policy-enforcement">
             <p>Security and Policy enforcement</p>
             <p>Git Hooks and Audit logs and enhanced LDAP integration give you and the added security to meet the increasing requirements of compliance teams.</p>
+          </li>
+
+          <li id="issue-weights">
+            <p>Issue Weights</p>
+            <p>Manage issues using Agile practices by setting the weight of an issue.
+            </p>
+            <p><a href="http://doc.gitlab.com/ee/workflow/issue_weight.html">Issue Weights Documentation</a></p>
+          </li>
+
+          <li id="mr-issue-templates">
+            <p>Merge Request & Issue Templates</p>
+            <p>Create a template for issues and merge requests in your project to ensure all information is entered correctly and to make it easy to standardise.</p>
+            <p><a href="http://doc.gitlab.com/ee/customization/issue_and_merge_request_template.html">Templates for Issues and Merge Requests Documentation</a></p>
           </li>
 
           <li id="most-installed-on-premises-git-solutions">
@@ -285,7 +307,7 @@ extra_css:
 
       <div class="title-container">
         <div class="hr-title"></div>
-        <h3 class="title" id="gitlab-vs-bitbucket-com">GitLab.com vs. Bitbucket.com</h3>
+        <h3 class="title" id="gitlab-vs-bitbucket-org">GitLab.com vs. Bitbucket.org</h3>
         <div class="hr-title"></div>
       </div>
 
@@ -298,7 +320,7 @@ extra_css:
 
           <li id="unlimited-collaborators">
             <p>Unlimited collaborators</p>
-            <p>With GitLab, you don't have to worry about your number of collaborators in your repo, you don't have to pay to get more.</p>
+            <p>With GitLab.com, you don't have to start paying when you have more than 5 collaborators across all your private repositories.</p>
           </li>
 
         </ol>
@@ -339,6 +361,44 @@ extra_css:
             <p>In good company</p>
             <p>GitLab is the most adopted on-premises solution for developer collaboration, deployed at over 100,000 organizations worldwide.</p>
           </li>
+        </ol>
+      </div>
+
+      <div class="title-container">
+        <div class="hr-title"></div>
+        <h3 class="title" id="gitlab-vs-svn">GitLab (Git) vs. SVN</h3>
+        <div class="hr-title"></div>
+      </div>
+
+      <div class="list-of-reasons-container">
+        <ol>
+          <li id="distributed">
+            <p>Distributed</p>
+            <p>Git, on which GitLab is built, is fully distributed. Every user has a complete copy of the repository, allowing for much faster access to history, easier branching and an overall better experience.
+            </p>
+          </li>
+
+          <li id="access-control">
+            <p>Access Control</p>
+            <p>For someone to commit to a local respository, no access has to be given in Git. At the same time, the owner of the canonical repository has the ability to restrict pushes to the repository or certain branches.</p>
+          </li>
+
+          <li id="powerful-branching">
+            <p>Powerful Branching</p>
+            <p>A branch in Git contains the entire history that preceeds it.
+            It's also created or moved towards instantly and easily shared.</p>
+          </li>
+
+          <li id="speed">
+            <p>Speed</p>
+            <p>Git is really fast. Performing a diff, viewing history, committing and merging changes, obtaining any revision and any form of branching is much faster in Git than SVN.</p>
+          </li>
+
+          <li id="size-requirements">
+            <p>Size Requirements</p>
+            <p>A single repository in Git is typically a number of times smaller than the same repository in SVN.</p>
+          </li>
+
         </ol>
       </div>
     </div>

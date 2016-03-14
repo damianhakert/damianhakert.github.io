@@ -32,7 +32,7 @@ We improved performance, fixed some bugs, added teams, users pages and more
 2. Performance: 
 
     * Async gitolite calls
-    * Process web hooks async
+    * Process webhooks async
 
 3. Permissions:
 

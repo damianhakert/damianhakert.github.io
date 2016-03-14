@@ -38,51 +38,52 @@ Also the list below not include any contributions from outside GitLab the compan
 The bullets list the tentpole features; the most important features of upcoming releases.
 The CE and EE to the right of the version number link to all planned issues for that version.
 
-### 8.5 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/20) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/7) February 22nd
-
-- [CI Autoscale](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/318)
-- [GitLab Pages gets CNAME and SSL support](https://gitlab.com/gitlab-org/gitlab-ee/issues/134)
-- [GitLab Geo for readonly secondary servers (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/76)
-- [Todo's](https://gitlab.com/gitlab-org/gitlab-ce/issues/2425)
-- [HA Omnibus packages (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
-- [Revert merges](https://gitlab.com/gitlab-org/gitlab-ce/issues/3409)
-- [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
-- [New design for issue page](https://gitlab.com/gitlab-org/gitlab-ce/issues/3981)
-- [Support for relative URLs](https://gitlab.com/gitlab-org/gitlab-ce/issues/1938)
-- [Sort by vote count](https://gitlab.com/gitlab-org/gitlab-ce/issues/3763)
-
 ### 8.6 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/22) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/8) March 22nd
 
+- [First iteration](https://gitlab.com/gitlab-org/gitlab-ce/issues/14149) of [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 - [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
-- [CI Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
 - [External users](https://gitlab.com/gitlab-org/gitlab-ce/issues/4009)
 - [Push to a remote repository (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/116)
 - [Confidential issues (EE)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3678)
-- [Performance monitoring (EE)](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1008)
 - [Merge even if master is updated](https://gitlab.com/gitlab-org/gitlab-ce/issues/3873)
 - [Acknowledge line comments on a MR](https://gitlab.com/gitlab-org/gitlab-ce/issues/10325)
+- [Ability to delete issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/2489)
+- [Get rid of default login credentials](https://gitlab.com/gitlab-org/gitlab-ce/issues/1980)
+- [HA Omnibus packages (EE option?)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
+- [Due date for issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/12709)
+- [Subscribe to a Label](https://gitlab.com/gitlab-org/gitlab-ce/issues/12743)
+- [Move issues between projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/3024)
+
 
 ### 8.7 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/23) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/9) April 22nd
 
+- Second iteration of [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
+- [CI Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
 - [Squash commits upon Merging (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/150)
 - [Run build on merged code before merging (EE?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4176)
-- [Code management analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
-- [Delivery analytics (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
-- [Subscribe to a Label](https://gitlab.com/gitlab-org/gitlab-ce/issues/12743)
+- [Code management analytics (EE option?)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
+- [Delivery analytics (EE option?)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
 - [Subscribe to new Issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/12758)
+- [Performance monitoring (EE)](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1008)
+- [Request access to a repo](https://gitlab.com/gitlab-org/gitlab-ce/issues/13948)
+- [Award emoji in comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3655)
+- [Comment on Images in Diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
+- [LICENSE templates](https://gitlab.com/gitlab-org/gitlab-ce/issues/12804)
+
+### 8.8 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/24) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/10)
+
+- Third iteration of [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
+- [Multiline comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/4143)
+- [Mailing list functionality](https://gitlab.com/gitlab-org/gitlab-ce/issues/4272)
+- [.gitignore templates](https://gitlab.com/gitlab-org/gitlab-ce/issues/14106)
+- [Watch projects I'm not a member of](https://gitlab.com/gitlab-org/gitlab-ce/issues/9013) which is dependent on [participants table](https://gitlab.com/gitlab-org/gitlab-ce/issues/3965)
+- [Use votes for acceptance of MRs](https://gitlab.com/gitlab-org/gitlab-ce/issues/13411)
 
 ## Wishlist
 
 Below are features we'd really like to see in GitLab.
 This list is not prioritized.
 We very much welcome contributions that implement any of these things.
-
-### Next to plan.
-
-- [Project / Repo templates](https://gitlab.com/gitlab-org/gitlab-ce/issues/3785)
-- [Award emoji in comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3655)
-- [Comment on Images in Diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
-- [Mailing list functionality](https://gitlab.com/gitlab-org/gitlab-ce/issues/4272)
 
 ### Major Wins
 
@@ -102,19 +103,19 @@ We very much welcome contributions that implement any of these things.
 - [Improved emails on push](https://gitlab.com/gitlab-org/gitlab-ee/issues/146)
 - [Autocomplete all users](https://gitlab.com/gitlab-org/gitlab-ce/issues/3872)
 - [Create branch from issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/3886)
+- [Ship octotree as part of GitLab](https://gitlab.com/gitlab-org/gitlab-ce/issues/13723)
+- [Repo templates](https://gitlab.com/gitlab-org/gitlab-ce/issues/3785)
 
 ### Code Review
 
 - [See current HEAD in outdated discussion](https://gitlab.com/gitlab-org/gitlab-ce/issues/3502)
 - [Allow cross server merge requests](https://gitlab.com/gitlab-org/gitlab-ce/issues/4013)
 - [Ability to checkout the result of MR available before merging](https://gitlab.com/gitlab-org/gitlab-ce/issues/2765)
-- [Syntax highlighting for diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/3292)
 - [Transactional MR comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3364)
 
-### Project Management
+### Issue tracker
 
 - [Filter by more than one label](https://gitlab.com/gitlab-org/gitlab-ce/issues/989)
-- [Move issues between projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/3024)
 - [Time tracking](https://gitlab.com/gitlab-org/gitlab-ee/issues/78)
 - [Labels should be visible in Milestone view](https://gitlab.com/gitlab-org/gitlab-ce/issues/3276)
 
@@ -127,6 +128,8 @@ We very much welcome contributions that implement any of these things.
 
 - [Distributed code-reviews and issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/4084)
 - [Render PSD files](https://gitlab.com/gitlab-org/gitlab-ce/issues/13189)
+- [Snippets backed by a git repository to enable cloning and revisions](https://gitlab.com/gitlab-org/gitlab-ce/issues/13426)
+- [Binary file lock (EE option?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/7889)
 
 ### Performance
 
@@ -143,11 +146,12 @@ We very much welcome contributions that implement any of these things.
 - [Automatically give code quality metrics in the merge request](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
 - [Automatic Docker image cleanup](https://gitlab.com/ayufan/gitlab-runner-docker-cleanup/issues/1)
 - [Show code coverage in diffs with colored horizontal bar](https://gitlab.com/gitlab-org/gitlab-ce/issues/4073)
-- [A/B testing of branches with GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
+- [A/B testing of branches with GitLab Pages (EE option?)](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
+- [Code coverage graphs and adding more metrics (EE option?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/13409)
 
-### Software to ship in the Omnibus packages
+### Scope <a name="scope"></a>
 
-The software development lifecycle and collaboration on digital products happens with the following stack of tools that we want to ship in our Omnibus packages:
+To realize [our vision](#vision) we plan to ship the following stack of tools:
 
 1. **Chat** conversation => Mattermost, [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
 1. **Issue** creation => GitLab Issues
@@ -155,11 +159,14 @@ The software development lifecycle and collaboration on digital products happens
 1. **Development** => [Browser IDE](https://gitlab.com/gitlab-org/gitlab-ce/issues/12759)
 1. **Version control** => GitLab Repo
 1. **Continuous integration** => GitLab CI
-1. **Merge Request** discussion => GitLab MR
+1. **Code review** => GitLab Merge Requests
 1. **Deploy** to production => [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
 1. **Chatops** to check => [Hubot](https://hubot.github.com/) which has a [Merge Request](https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/564) or [Lita](https://www.lita.io/)
+1. **Wiki** to document => GitLab Wiki
 
 We're still deciding if application performance monitoring is in our scope, for example with Grafana and InfluxDB.
+
+We plan to ship all of the above in our Omnibus package.
 
 Things that are outside our scope are:
 
@@ -185,7 +192,7 @@ file format and distributed version control. The vision of GitLab is to **allow
 everyone to collaborate on all digital content** so people can cooperate
 effectively and achieve better results, faster.
 
-Idea's flow though many stages before they are realized: chat, issue, sprint,
+Ideas flow though many stages before they are realized: chat, issue, sprint,
 IDE, commit, CI, review, acceptance, deployment. Stitching all these stages
 together can be done in many different ways. You can have a marketplace of
 proprietary apps from different suppliers or use a suite of products developed

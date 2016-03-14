@@ -43,13 +43,13 @@ regions:
 
   <!-- dropdown button -->
   <div class="btn-group">
-    <button type="button" class="btn btn-default dropdown-toggle btn-lg" data-toggle="dropdown" onClick="_gaq.push(['_trackEvent', 'AWS', 'Region Select', 'Dropdown Open']);">
+    <button type="button" class="btn btn-default dropdown-toggle btn-lg" data-toggle="dropdown" onClick="ga('send', 'event', 'dropdown','select','aws region select open');">
       Select AWS region <span class="caret"></span>
     </button>
 
     <ul class="dropdown-menu" role="menu">
     {% for region in page.regions %}
-      <li><a href="#{{region.id}}" onClick="_gaq.push(['_trackEvent', 'AWS', 'Region Select', '#{{region.name}}']);">{{region.name}}</a></li>
+      <li><a href="#{{region.id}}" onClick="ga('send', 'event', 'link','click','download ce');">{{region.name}}</a></li>
     {% endfor %}
     </ul>
   </div>

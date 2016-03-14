@@ -3,104 +3,116 @@ layout: markdown_page
 title: "Hiring"
 ---
 ## On this page:
+* [Vacancy Creation Process](#vacancy-creation-process)
 * [Hiring Process](#hiring-process)
+* [Screening Call](#screening-call)
 * [Interview Questions](#interview-questions)
-* [Getting Contracts Ready](#prep-contracts)
-* [Contract signed: now what?](#move-to-onboarding)
+* [Getting Contracts Ready, Reviewed, and Signed](#prep-contracts)
 
+## Vacancy Creation Process<a name="vacancy-creation-process"></a>
 
-## Hiring Process<a name="hiring-process"></a>
+The CEO needs to authorize any new job positions/searches, and agree on the proposed hiring team.
 
-1. Create job description.
-    * The CEO needs to authorize any new job positions/searches, and agree on the proposed hiring team.
-    * The description is made through [Workable](https://gitlab.workable.com/backend)
-    which also populates the [Jobs page](https://about.gitlab.com/jobs). The description consists of:
-      * Job title
-      * Preferred timezone where candidate should reside
-      * Description of role, and/or link to Job Description page on GitLab website. (For example for a [Developer](https://about.gitlab.com/jobs/developer) )
-      * Requirements for the role (can be split into must-have’s and nice-to-have’s)
-      * Post-amble stating how to apply, and who the hiring manager is.
-1. Define hiring team.
-    * Roles can be assigned fluidly, depending on who is available, but the following roles need
-    to be thought through ahead of time: (one person can of course handle multiple roles)
-      * Person(s) to do first vetting of candidates, selecting applicants for interview.
-      * Person(s) to have (first round) interviews.
-      * Optional: Person(s) to have second round interviews.
-      * Person(s) to make final decision to make offer. This step always involves the CEO.
-      * Person(s) actually making the offer, including terms of offer.
-      * Person(s) to handle communications with applicants along the way.
-1. Hiring team agrees on a hiring timeline. Typical options:
-    * Choose from specific deadlines (e.g. all applicants will be reviewed on date X, hear back by date Y), or
-    * Choose rolling application process, wherein the review and interview process  happen as applications come in, or
-    * Some combination of the above. So for example, wait for X amount of time
-    to gather enough applications, then review in bulk, set up first interviews,
-    and repeat this process until a suitable applicant is found.
-1. Publish the job description through the [Workable](https://gitlab.workable.com/backend) interface.
-    * Confirm that the CEO (or person authorized by CEO) has signed off on the description, and hiring team.
+1. Define hiring team. Roles can be assigned fluidly (see below for the [Hiring Process](#hiring-process)), depending on who is available, bearing in
+mind that the most time consuming aspect tends to be review of the first wave of applicants.
+1. Create the job description on our website, and in Workable
+    1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`
+    1. Add a job of the exact same job title on [Workable](https://gitlab.workable.com/backend)
+       * For location, select "Telecommute".
+       * For the description, simply write `For the job description, see [url of relevant jobs page on GitLab's website]`
+       * Indicate what applicants need to provide with their application. By default, this will include their resumé, a cover letter, but it may also
+       include qualifying questions such as "What timezone are you in?" and "Are you aware that this is not a DevOps role?".
+       * "Publish" the job, and follow the links to the application form.
+    1. Embed the link to the application form for the new job on our [Jobs page](https://about.gitlab.com/jobs/)
 1. Optional: advertise the job description.
     * This can be through “soft” referral, e.g. all GitLab staff post link to jobs site on their LinkedIn profiles.
     * Tweet the new job posting.
     * Consider advertising and/or listing on paid / free job boards.
     * Use the [Workable Clipper](http://resources.workable.com/the-workable-clipper) to help source candidates directly from LinkedIn, and  familiarize yourself with the Workable environment, work flow, features, and support desk.
-1. Interview Questions.
-    * Hiring team to determine which questions need to be asked, and by whom in the team, for a list that the CEO tends to ask see below.
-    * Homework assignments may be required for some positions.
-1. Communication with Applicants
-    * Upon receiving the application and reviewing it for the first time:
-      * Applicants should receive confirmation of their application, thanking
-      them for submitting their information. This may be an automated message.
-      * If information is missing and the applicant seems sufficiently promising
-      (or not enough information to be able to make that determination), the appropriate person from the hiring team should follow up requesting additional information.
-    * Timing
-      * Interviews should be set up in accordance with the hiring timeline that
-      was defined previously; and applicants should be notified of this process as much as possible.
-      * At time of interview, applicant should be told what the timeline is for
-      a decision, and what the next steps are (if any). An example message would
-      be "We are reviewing applications through the end of next week, and will let
-      you know by the end of two weeks from today whether you've been selected for
-      the next round or not. Please feel free to ping us if you haven't heard anything from us by then."
-    * Feedback
-      * Do not hesitate to involve the CEO in reviewing feedback to candidates who have not been selected.
-1. Make a decision, make an offer.
-    * The CEO needs to authorize offers.
-    * Sign up successful applicant and move to [onboarding](https://about.gitlab.com/handbook/general-onboarding).
-    * As soon as the contract is signed, make the onboarding issue!
-    * Inform other applicants that we selected someone else this time. Applicants remain in the database and may be contacted in the future for other roles.
+
+## Hiring Process<a name="hiring-process"></a>
+
+1. Confirm application: applicants automatically receive confirmation of their application, thanking them for submitting their information. This is an automated message from Workable. If the person came though another channel please add them to Workable before continuing the process. There are various ways to do this, see [Workable's documentation](https://resources.workable.com/adding-candidates).
+1. Ask more information if needed: if information is missing and the applicant seems sufficiently promising (or not enough information to be able to make that determination), the appropriate person from the hiring team should follow up requesting additional information.
+1. Hiring manager does a first round of rejections. Disqualified candidates should be sent a note informing them of the rejection. There are templates in Workable to assist, but messages can be tailored as appropriate: place yourself in the receiving end of the message.
+1. [Screening call](#screening-call) (optional, see below for further detail).
+1. Technical interview (optional): As described on the [Jobs](https://about.gitlab.com/jobs/) page, certain positions
+require [technical interviews](https://about.gitlab.com/jobs/#technical-interview).
+1. Manager interview (see below for questions)
+1. C-level executive interview (if different than the manager, see below for questions)
+1. CEO interview (if different than the C-level executive, see below for questions)
+1. Make a verbal or written (email) offer (the CEO needs to authorize offers)
+1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
+1. Hiring manager ensures that the contract is signed, and [starts the onboarding process](#move-to-onboarding) (the People Ops team can help).
+
+Some further guidelines around the hiring process:
+
+- For female candidates, include at least one interview with a female GitLab team member.
+- At any time during this process the applicant can be rejected (and should always be notified of this).
+- If the applicant asks for further feedback always offer frank feedback. This is hard, but it is part of our company values.
+
+## Screening Call<a name="screening-call"></a>
+
+For some positions, we conduct screening calls. This call is typically done by our [administrative coordinator](https://about.gitlab.com/jobs/administrative-coordinator/).
+
+Questions are:
+
+1. Why are they looking for a new job?
+1. What is your experience with X? (do for each of the skills asked in the job description)
+1. How do they feel about working remotely and do they have experience with it?
+1. Compensation expectation and compensation in current/last job.
+
+[An example of the output of a good screening call](https://gitlab.workable.com/backend/jobs/128446/browser/applied/candidate/7604850) (need workable account).
+
+At the end of the screening call applicant should be told what the timeline is for what the next steps are (if any).
+An example message would be "We are reviewing applications through the end of next week, and will let you know by the end of two weeks from today whether you've been selected for the next round or not. Please feel free to ping us if you haven't heard anything from us by then."
 
 ## Interview Questions<a name="interview-questions"></a>
-So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
-[this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw) 
-and then also consider using the following questions:  
 
-1. Do you have any questions about the job or GitLab?
-1. Why apply to GitLab?
+Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
+[this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw).
+
+1. Do you have any questions about the job or our organization?
+1. Why did you apply to GitLab?
 1. For each significant study and job ask: why did you select this one and why did it end? (for studies: why not do master, PhD, PostDoc, etc.)
-1. What did you like least about your last position?
-1. When were you most satisfied in your position?
+1. When were you most satisfied in your most recent position?
+1. What did you like least about your most recent position?
 1. Take each skill required for the job and do a [STAR](https://en.wikipedia.org/wiki/Situation,_Task,_Action,_Result) for a couple of situations.
 1. What professional achievements are you most proud of?
 1. How do you keep up to date with developments in your profession?
 1. If you don't get this job what will you do?
+1. Are you interviewing anywhere else?
 1. How can we change GitLab the product or company to make it better?
 1. What do you expect to achieve in your first month at GitLab?
 1. Where do you want to be in three years from now?
-1. Have you worked remote before and how do you feel about it?
-1. What salary range would you feel comfortable with?
+1. How do you feel about working remote?
 1. If you get hired when can you start?
-1. Are you interviewing anywhere else?
+1. What compensation would you feel comfortable with?
 1. Do you have any questions for me?
 
-As described on the [Jobs](https://about.gitlab.com/jobs/) page, certain positions 
-require [technical interviews](https://about.gitlab.com/jobs/#technical-interview).
+## Getting Contracts Ready, Reviewed, and Signed<a name="prep-contracts"></a>
 
-## Getting Contracts Ready<a name="prep-contracts"></a>
-Once a new team member is to be added in an employee or contractor capacity,
-fill out the [New Contract form](https://docs.google.com/a/gitlab.com/forms/d/1Cthnkdj_23ev_u7LT01wv5dZYAZKm20vp5JmzT3ECqE/viewform)
-with pertinent details, and ping the Business Office Manager to initiate the creation of the contracts.
+Offers made to new team members should be documented in the email thread between the
+person authorized to make the offer (e.g. CEO) and the applicant.
 
-Our template contracts are posted on the [Contracts page](https://about.gitlab.com/handbook/contracts).
+1. Email example: "We would love to have you as part of our team. You will have
+a position of [job title]. As a contractor you will invoice [monthly rate] per month.
+You will report to the [manager]. We will send you a contract on Monday based on
+the examples on https://about.gitlab.com/handbook/contracts/. If you have not
+received anything on that day please reply-to-all to let us know. Please let us
+know if you have any questions or concerns in the meantime."
+1. In the email confirmation of the offer,
+put the People Operations email alias (which can be found in the "GitLab Email Forwarding" google doc) in the cc.
+1. One person from People Operations will reply-to-all to everyone in the thread
+(including the applicant) to confirm that they will make the contract. Speed matters: if you are in People Operations and you can
+tackle this, then raise your hand and hit reply-all.
+   - For any hires for which the COO does _not_ sign, the COO reviews the contract
+after which it can be sent out to be signed by any of the relevant C-level team
+members. For any hires for which the COO should sign, either the CFO or the CEO must
+review the contracts.
+1. This person from People Operations makes the contract based on the details found in the Workable
+platform, and uses reply-all to gather any missing pieces of information, and to confirm with a reply-to-all when the contract is sent.
+1. This same person from People Operations files the signed contract in the appropriate place, and **starts the [onboarding** issue](https://about.gitlab.com/handbook/general-onboarding/).
 
-## Contract Signed: Now What?<a name="move-to-onboarding"></a>
-Once the contract has been signed, create an onboarding issue as detailed on the
-[General Onboarding](https://about.gitlab.com/handbook/general-onboarding/) page. Important: create the related
-onboarding issue as soon as possible.
+Note for People Operations: the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
+[Contracts page](https://about.gitlab.com/handbook/contracts).

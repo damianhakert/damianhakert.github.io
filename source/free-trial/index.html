@@ -16,14 +16,35 @@ extra_css:
 
   <div class="centered-form">
     <div class="free-trial-intro">
-      Submit this form for your free 30-day trial of GitLab Enterprise Edition.
-      Once submitted, you’ll receive an email with your license key and download
-      instructions. If you have any questions, please
-      <a href="/sales">contact sales</a>.
+      GitLab Enterprise Edition includes:
+      <ul><li>Extended authentication and authorization integration</li>
+      <li>Fine-grained workflow management</li>
+      <li>Additional server management options</li>
+      <li>Deeper integration with your tool stack</li></ul>
+      
+      You will receive an email with your 30-day license key and download
+      instructions after submitting this form.
     </div>
 
     <script src="//app-ab13.marketo.com/js/forms2/js/forms2.min.js"></script>
     <form id="mktoForm_1100"></form>
-    <script>MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1100);</script>
+    <script>
+
+
+      MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1100, function(form) {
+          form.onSuccess(function(values, followUpUrl) {
+
+            form.getFormElem().hide();
+            document.getElementById('confirmform').style.visibility = 'visible';
+
+            ga('send', 'pageview');
+            ga('send', 'event', 'form', 'submit', 'ee free trial');
+            return false;
+          });
+      });
+    </script>
+
+    <div id="confirmform" style="visibility:hidden;"><p>Submission received! Check your email for your 30-day license key and download instructions.</p></div>
+
   </div>
 </div>

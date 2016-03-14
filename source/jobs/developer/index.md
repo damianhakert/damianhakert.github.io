@@ -21,7 +21,7 @@ contributors who work together as a tight team in a [remote and agile](https://a
 
 * Omnibus packaging
 * Chef cookbooks
-* DevOps: ensuring that deployments are smooth and scalable
+* Production: ensuring that deployments are smooth and scalable
 * Maintenance of various servers such as
    * license.gitlab.com
    * version.gitlab.com

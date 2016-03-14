@@ -6,6 +6,8 @@ test:
     - ''
     - bundle install --path ~/bundle
     - ''
+    - bundle exec yaml-lint source/_data/*.yml
+    - ''
     - "# build without deploying, so that we know if a MR is horribly broken"
     - bundle exec rake build
   tags:

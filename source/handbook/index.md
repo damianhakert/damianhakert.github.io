@@ -3,11 +3,6 @@ layout: markdown_page
 title: Team Handbook
 ---
 
-<!---
-This page used to be HTML only, please convert to Markdown when you touch it.
-Please make headers linkable, for an example see the feedback header below.
--->
-
 ## Feedback<a name="feedback"></a>
 
 Please make a <a href="https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests">merge request</a> to suggest improvements or add clarifications.
@@ -17,6 +12,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 
 * [Onboarding](/handbook/general-onboarding)
 * [People Operations](/handbook/people-operations)
+* [Benefits](/handbook/benefits)
 * [Hiring](/handbook/hiring)
 * [Travel](/handbook/travel)
 * [Sales process](/handbook/sales-process)
@@ -26,6 +22,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Marketing](/handbook/marketing)
 * [Security](/handbook/security)
 * [Support](/handbook/support)
+* [Leadership](/handbook/leadership)
 * [GitLab University](/university/)
 
 ## This page
@@ -40,15 +37,17 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [User Communication Guidelines](#user-communication-guidelines)
    * [Writing Style Guidelines](#writing-style-guidelines)
    * [Beamy Guidelines](#beamy-guidelines)
+* [On Call Rotation and Schedule](#on-call)
 * [Intellectual Property](#intellectual-property)
 * [Spending Company Money](#spending-company-money)
 * [Paid Time Off](#paid-time-off)
-* [Further Incentives](#further-incentives)
+* [Incentives](#incentives)
    * [Sales Target Dinner Bonus](#sales-target-dinner)
    * [Discretionary Bonuses](#discretionary-bonuses)
    * [Referral Bonuses](#referral-bonuses)
    * [Work Remotely Travel Grant](#travel-grant)
 * [Signing Legal Documents](#signing-legal-documents)
+* [Tools](#tools)
 * [Using Git to update this website](#starting-with-git)
 
 ## Values<a name="values"></a>
@@ -112,66 +111,110 @@ people. We try to hire people who think work is a great way to express themselve
 
 ## General Guidelines<a name="general-guidelines"></a>
 
-1. Working at GitLab Inc. is cooperating with the most talented people you've ever worked with, being the **most productive** you'll ever be, creating software that is helping the most people you've ever reached.
-1. We recognize that inspiration is perishable, if you’re **enthusiastic** about something that generates great results in relatively little time feel free to work on that.
+1. Working at GitLab Inc. is cooperating with the most talented people you've ever worked with, being the **most productive** you'll ever be, and creating software that is helping the most people you've ever reached.
+1. We recognize that inspiration is perishable, so if you’re **enthusiastic** about something that generates great results in relatively little time feel free to work on that.
 1. Do what is right for our **customers** and the rest of the GitLab community, do what is best over the long term, don't be evil.
 1. We create **simple** software to accomplish complex collaborative tasks.
 1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin colour, gender or sexual orientation.
 1. Use **inclusive** language. For example, prefer 'Hi everybody' or 'Hi people' to 'Hi guys'.
 1. Share problems you run into, ask for help, be forthcoming with information and **speak up**.
 1. Work out in the **open**, try to use public issue trackers and repositories when possible.
-1. Most things are public unless there is a reason not to, not public by default are: financial information, job applications/compensation/feedback and partnerships with other companies.
+1. Most things are **public** unless there is a reason not to, not public by default are: financial information, job applications/compensation/feedback and partnerships with other companies.
 1. Share solutions you find and answers you receive with the **whole community**.
+1. If you need to discuss with a team member for help please realize that probably the majority of the community also doesn't know, be sure to **document** the answer to radiate this information to the whole community. After the question is answered discuss where it should be documented and who will do it. You can remind other people of this by asking 'who will document this'?
+1. To change a guideline or process, **suggest an edit** in the form of a merge request.
+After it is merged you can and talk about it during the team call if applicable.
+Communicate process changes by linking to the commit. Do not change the process first,
+and then view the documentation as a lower priority task as this inevitably leads to duplicate work communicating the change and outdated documents.
 1. If you make a mistake, don't worry, correct it and **proactively** let the affected party, your team, and the CEO know what happened, how you corrected it and how, if needed, you changed the process to prevent future mistakes.
 1. You can always **refuse** to deal with people that treat you badly and get out of situations that make you feel uncomfortable.
-1. Everyone can **remind** anyone in the company about the above points. If there is a disagreement about the interpretations, the discussion can be escalated to more people within the company without repercussions.
+1. Everyone can **remind** anyone in the company about these guidelines. If there is a disagreement about the interpretations, the discussion can be escalated to more people within the company without repercussions.
 1. If you are unhappy with anything (your duties, your colleague, your boss, your salary, your location, your computer) please let your boss, or the CEO, know as soon as you realize it. We want to solve problems while they are **small**.
 1. We want to have a great company so if you meet people that are **better** than yourself try to recruit them to join the company.
-1. It is easier to bond with people that have the same constraints, compensate for this and recognize that sales is hard because you are dependent on another organization and development is hard because you have to preserve the ability to quickly improve the product in the future.
-1. Our strategy is detailed in the [GitLab Strategy document](https://docs.google.com/a/gitlab.com/document/d/1tco4-arhiA3V-XUJAkTtJ6zrfvT0OrUHtID2S1qVsXE/edit), please read it and contribute.
-1. There is no need for **consensus**, make sure that you give people that might have good insights a chance to respond (by /cc'ing them) but make a call yourself, [consensus doesn't scale](https://twitter.com/sama/status/585950222703992833).
-1. If you need to discuss with a team member for help please realize that probably the majority of the community also doesn't know, be sure to **document** the answer to radiate this information to the whole community. After the question is answered discuss where it should be documented and who will do it. You can remind other people of this by asking 'who will document this'?
-1. If you fix something for GitLab.com or one of our users make sure to make that the default (preferred) and radiate the information in the docs, we should run GitLab.com with the default settings and setup our users would also have.
-1. Be **specific** in your written communication, especially externally. Do not reply with a generalization when you can give an example.
-1. Be **kind** in your written communication, especially externally. Be constructive instead of argumentative, sarcastic or condescending. We're not all programmers but try to be inspired by the friendliness in the Ruby community of which the common maxim is the [MINASWAN motto](https://en.wikipedia.org/wiki/MINASWAN).
-1. Explicitly note what **next action** you propose or expect and from whom.
-1. When you reply to a request please do so after you have completed the request or indicate when you plan to do it. In the latter case always send a second message when the request is complete.
+1. Make a conscious effort to **recognize** the constraints of others within the team. For example, sales is hard because you are dependent on another organization, and Development is hard because you have to preserve the ability to quickly improve the product in the future.
+1. Our **strategy** is detailed on the [Strategy page](https://about.gitlab.com/strategy/), please read it and contribute.
+1. There is no need for **consensus**, make sure that you give people that might have good insights a chance to respond (by /cc'ing them) but make a call yourself because [consensus doesn't scale](https://twitter.com/sama/status/585950222703992833).
 1. Everyone at the company cares about your **output**. Being away from the keyboard during the workday, doing private browsing or making personal phone calls is fine and encouraged.
-1. We're a **distributed** company where people work remote without missing out, prefer communication in public issues and chat channels and ensure conclusions of offline conversations are written down.
-1. Everything is always in draft and subject to change, including this handbook. So do not delay documenting things and do not include draft in the titles of documents. Ensure everyone can read the current state, nothing will ever be finished.
+1. If you fix something for GitLab.com or one of our users make sure to make that the default (preferred) and **radiate** the information in the docs. We should run GitLab.com with the default settings and setup our users would also have.
+1. Everything is **always in draft** and subject to change, including this handbook. So do not delay documenting things and do not include draft in the titles of documents. Ensure everyone can read the current state, nothing will ever be finished.
 1. If you copy content please remove it at the origin place and replace it with a link to the new content. Duplicate content leads to updating it in the wrong place, keep it [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
+1. Explicitly note what **next action** you propose or expect and from whom.
+1. When you reply to a request please do so after you have completed the request or
+indicate when you plan to do it. In the latter case always send a second message
+when the request is complete.
 1. All guidelines in this handbook are meant to help, don't be afraid to do something because you can't oversee all guidelines, be gentle when reminding people about these guidelines, for example say: "It is not a problem, but next time please consider the following guideline from the handbook".
 
 ## Communication<a name="communication"></a>
 
+We're a **distributed**, **remote-first** company where people work remote without missing out.
+For this, we use **asynchronous communication** and are as open as we can be by communicating through public issues, chat channels,
+and placing an emphasis on ensuring that conclusions of offline conversations are written down.
+These communication guidelines are meant to facilitate smooth communication in an
+ever-growing remote-first company.
 
 ### Internal Communication<a name="internal-communication"></a>
 
-1. All written communication happens in English, even when sent one on one, because sometimes you need to forward an email or chat.
-1. Use **asynchronous communication** when possible (issues and email instead of chat), issues are preferred over email, email is preferred over chat.
-1. It is very OK to ask as many questions as you have, but ask them so many people can answer them and many people see the answer (so use issues or public chat channels instead of private messages or one-on-one emails) and make sure you try to document the answers.
-1. If you have to use email please send one email per subject as multiple items in one email will cause delays (have to respond to everything) or misses (forgot one of the items).
-1. If you mention something (a merge request, issue, commit, webpage, comment, etc.) please include a link to it.
-1. Always reply to emails, even when no action is needed. This lets the other person know that you received it. A thread is done when there is a single word reply, such as OK, thanks, or done.
-1. If you forward an email without other comments please add FYI (for your information) or FYA (for your action).
-1. If you want to be added or removed from an internal email alias (e.g. `sales@gitlab.com`) please see the [GitLab Email Forwarding doc](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#).
-1. If you use Slack, please use a public channel whenever possible, mention the person you want to reach if it is urgent. This ensures it is easy for other people to chime in, and easy to involve other people, if needed.
-1. If you agree in a chat to start a video call (typically by asking 'call?') the person that didn't leave the last comment starts the call. So either respond to the 'call?' request with a video link or say 'yes' and let the other person start it. Don't say 'yes' and start a call 5 seconds later since it is likely you'll both be creating a video call link at the same time.
-1. All company data should be **shareable** by default. Don't use a local text file but leave comments on an issue. Create Google docs with your company Google Apps account. By default share Google docs with the whole company 'anyone at GitLab can find and access' with edit (preferred) or comment access for everyone. An easy way to do this, is to create your Google docs in a Shared Folder in Google Drive.
-1. All our procedures and templates are stored in (mostly public) git repositories instead of Google/Word documents. This makes them easier to find and suggest changes to with the organization and shows our commitment to open collaboration outside the organization.
-1. Use FYI (for your information) and /cc if you want to inform people but it does not require an action, use FYA (for your action) if an action of the recipient is required.
-1. Use video calls if you find yourself going back and forth in an issue/via email or over chat.
-1. Having pets, children, significant others, friends and family visible during video chats is encouraged. If they are humans, ask them to wave at your remote team member to say 'Hi'.
-1. If there are materials relevant for a calendar meeting (for example a Google Doc) please add the url to the meeting invite description.
-1. If you want to ask people if they are available for an event please send a new calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.
-1. If you want to schedule time with a team member for an outside meeting, create a calendar appointment and invite the team member only, after they respond yes then invite outside people.
-1. If you want to move a meeting just move the calendar appointment instead of reaching out via other channels, note the change at the top of the description.
-1. Email forwarding rules are specified in [a Google Doc accessible to people in the company](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit), if you want to change a rule or add a forwarding email alias, please [make a suggestion](https://support.google.com/docs/answer/6033474?hl=en) in the document.
-1. Emails are asynchronous, for example if your manager emails you on a weekend it is fine to reply during the workweek.
-1. If an email is or has become urgent feel free to ping people via chat referencing the subject of the email.
-1. Thank people that did a great job in our 'Thanks' chat channel. If someone is an employee just "@" mention them. If multiple people were working on something try mentioning each person by "@" name. 'Thanks everyone' does not say much. If someone is not an employee mention our office manager, their name, a quirky gift and link to their work. For example: _"@sytse Joe deserves a lawnmower for LINK"_. The office manager will approach the people for their address saying we want to send some swag. We'll ship it in gift wrap with "Thanks for your great work on LINK, love from @gitlab". Don't thank the CEO or other executives for something that the company paid for, thank GitLab instead.
-1. If there is something that you want to discuss, but you do not feel that it is a
-reasonable option to discuss with either your manager or CEO, then you can reach
+1. All written communication happens in English, even when sent one on one,
+because sometimes you need to forward an email or chat.
+1. Use **asynchronous communication** when possible (issues and email instead of
+chat), issues are preferred over email, email is preferred over chat, announcements happen on the team call agenda, and [people should be able to do their work without getting interrupted by chat](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d#.21t7089jk).
+1. It is very OK to ask as many questions as you have, but ask them so many
+people can answer them and many people see the answer (so use issues or public
+chat channels instead of private messages or one-on-one emails) and make sure
+you try to document the answers.
+1. If you have to use email please send one email per subject as multiple items
+in one email will cause delays (have to respond to everything) or misses (forgot
+one of the items).
+1. If you mention something (a merge request, issue, commit, webpage, comment,
+etc.) please include a link to it.
+1. Always reply to emails, even when no action is needed. This lets the other
+person know that you received it. A thread is done when there is a single word
+reply, such as OK, thanks, or done.
+1. If you forward an email without other comments please add FYI (for your
+information) or FYA (for your action).
+1. If you want to create, or be added or removed from an internal email alias (e.g.
+`sales@gitlab.com`) please see the [GitLab Email Forwarding doc](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#).
+1. If you use chat please use a public channel whenever possible, mention the
+person you want to reach if it is urgent. This ensures it is easy for other people
+to chime in, and easy to involve other people, if needed.
+1. In chat try to keep the use of keywords that mention the whole channel to a minimum. They should only be used for urgent and important pings. By overusing them you make it harder to respond to personal mentions in a timely manner since people get pinged too frequently.
+1. If you agree in a chat to start a video call (typically by asking 'call?')
+the person that didn't leave the last comment starts the call. So either respond
+to the 'call?' request with a video link or say 'yes' and let the other person
+start it. Don't say 'yes' and start a call 5 seconds later since it is likely
+you'll both be creating a video call link at the same time.
+1. All company data should be **shareable** by default. Don't use a local text
+file but leave comments on an issue. Create Google docs with your company Google
+Apps account. By default share Google docs with the whole company 'anyone at
+GitLab can find and access' with edit (preferred) or comment access for everyone.
+An easy way to do this, is to create your Google docs in a Shared Folder in
+Google Drive.
+1. All our procedures and templates are stored in (mostly public) git repositories
+instead of Google/Word documents. This makes them easier to find and suggest
+changes to with the organization and shows our commitment to open collaboration
+outside the organization.
+1. Use video calls if you find yourself going back and forth in an issue/via email
+or over chat.
+1. Having pets, children, significant others, friends and family visible during
+video chats is encouraged. If they are humans, ask them to wave at your remote
+team member to say 'Hi'.
+1. Email forwarding rules are specified in [a Google Doc accessible to people in
+the company](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit), if you want to change a rule or add a forwarding email alias, please [make a suggestion](https://support.google.com/docs/answer/6033474?hl=en) in the document.
+1. Emails are asynchronous, for example if your manager emails you on a weekend
+it is fine to reply during the workweek.
+1. If an email is or has become urgent feel free to ping people via chat referencing
+the subject of the email.
+1. Thank people that did a great job in our 'Thanks' chat channel. If someone is
+an employee just "@" mention them. If multiple people were working on something
+try mentioning each person by "@" name. 'Thanks everyone' does not say much. If
+someone is not an employee mention our office manager, their name, a quirky gift
+and link to their work. For example: _"@sytse Joe deserves a lawnmower for LINK"_.
+The office manager will approach the people for their address saying we want to send
+some swag. We'll ship it in gift wrap with "Thanks for your great work on LINK, love
+from @gitlab". Don't thank the CEO or other executives for something that the company
+paid for, thank GitLab instead.
+1. If there is something that you want to discuss, but you do not feel that it is
+a reasonable option to discuss with either your manager or CEO, then you can reach
 out to any of the other C-level team members or our board member Bruce Armstrong.
 
 ### GitLab Workflow<a name="gitlab-workflow"></a>
@@ -179,6 +222,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
 1. Always **create** an issue for things you work on. If it is worth spending time on, it is worth creating an issue for it since that enables other people to learn and help. You can always edit the description or close it when the problem is something different or disappears.
 1. **'Double link'** issues to prevent internal confusion and us failing to report back to the reporters. For example, open an issue with link to ZenDesk and close the issue with copy of the response. Or add 'Report: ' lines to the description with links to relevant issues and feature requests and ensure they are closed and note this with a comment. If you are not responsible for reporting back please do not close an issue, instead reassign it.
 1. If issues are related, **crosslink** them (a link from each issue to the other one). Put the links at the top of the issues' description with a short mention of the relationship (Report, etc.). If there are more than 2 issues, use one issue as the central one and crosslink all issues to this one. Please, also crosslink between ZenDesk and GitLab issues.
+1. After a discussion about a feature **update the issue body** with the consensus or final conclusions. This makes it much easier to see the current state of an issue for everyone involved in the implementation and prevents confusion and discussion later on.
 1. Give the community the **chance to help**. For example: place issues on the feedback tracker, leave comments in rake check tests about what you can run manually and ask 'Can you send a merge request to fix this?'.
 1. Submit the **smallest** item of work that makes sense. When creating an issue describe the smallest fix possible, put suggestions for enhancements in separate issues and link them. If you're new to GitLab and are writing documentation or instructions submit your first merge request for at most 20 lines.
 1. Do not leave issues open for a long time, issues should be **actionable** and realistic. If you are assigned but don't have time, assign it to someone else. If nobody is assigned and it is not a priority, please ensure the community can help and close it.
@@ -188,6 +232,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
     1. Issues assigned to the upcoming milestone
     1. Issues assigned to future milestones
     1. Issues not assigned to a milestone
+
     In the same milestone the priority starting from urgent is:
     1. **Emergency** issues (a service engineer will probably contact you via chat)
     1. **Security** issues
@@ -204,10 +249,16 @@ out to any of the other C-level team members or our board member Bruce Armstrong
 1. Assign an issue to yourself as soon as you start to work on it, but not before
 that time. If you complete part of an issue and need someone else to take the next
 step, **re-assign** the issue to that person.
+1. When reassigning an issue, make sure that the issue body contains the latest information. The issue body should be the single source of truth.
 1. We keep our **promises** and do not make external promises without internal agreement.
 1. Even when something is not done, share it internally so people can comment early and prevent rework. Mark the merge request **[Work In Progress](https://about.gitlab.com/2016/01/08/feature-highlight-wip/)** so it is not merged by accident.
 1. When you create a merge request, **mention** the issue(s) that it solves in the description. If any followup actions are required on the issue after the merge request is merged, like reporting back to any customers or writing documentation, avoid auto closing it by saying `Fixes #1` or `Closes #1`.
+1. Once merge request is created, make sure to assign it to the proper person:
+    1. For example a merge request that fixes a frontend issue should have the `Frontend` label and be assigned to a Frontend Engineer for review. For other workflow labels please see [PROCESS.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels).
+    1. A merge request that is related to Continuous Integration should be assigned to the GitLab CI lead.
+    1. All other merge requests should be assigned for review to one of merge request "endbosses". You can find all the roles listed on the [team page](https://about.gitlab.com/team/).
 1. When a merge request is done, remove the WIP prefix and **assign** the merge request to someone to review and merge it. A WIP merge request will never be merged, an unassigned non-WIP merge request can be merged by anyone if it looks ready, an assigned non-WIP will only be merged by the assigned reviewer.
+1. When a merge request is done, set milestone to the version it should be included in.
 1. If you are assigned to review and merge a merge request and would like the creator to make some **changes**, comment on the merge request and assign it back to the creator. When they have addressed the concern, they will reassign it to the reviewer.
 1. If you are assigned to merge a merge request and there is a **merge conflict**, consider trying to resolve it **yourself** instead of asking the MR creator to resolve the conflict. If it is easy to resolve you avoid a round trip between you and the creator, and the MR gets merged sooner. This is a suggestion, not an obligation.
 1. If you ask a question to a specific person, always start the comment by mentioning them; this will ensure they see it if their notification level is mentioned and other people will understand they don't have to respond.
@@ -216,20 +267,43 @@ step, **re-assign** the issue to that person.
 
 ### Team Call<a name="team-call"></a>
 
-1. The team call is every workday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
+1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
 1. We use BlueJeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
-1. Please join the meeting with your x@gitlab.com account, not your private Google account.
 1. If you have previously logged on to Bluejeans with different credentials, make sure to log out before joining the call as yourself.
-1. We wait for people to join the first two minutes of the meeting until :32.
+1. We start on time and will not wait for people.
 1. If you are unable to attend just add your name to the [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) as 'Not attending'.
 1. We start by discussing the subjects that are on the agenda for today.
-1. Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
-1. When done with a point mention the subject of the next item and hand over to the next person.
-1. We ask everyone what they did outside of work the day(s) before.
-1. There is no need to excuse yourself with "I didn't do anything interesting", "I just watched television" or "that's all", it is not a competition. Instead share the most interesting detail, for example what television show you watched, book you are reading, video game you played or what recipe you cooked.
+   * Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
+   * When done with a point mention the subject of the next item and hand over to the next person.
+1. We have functional group updates (1 group per call) for the following groups: Marketing, Sid, Product, Sales, Ops, Support, HR, Finance, Development, Front-end, UX/UI.
+1. We ask 10-15 people per day to share updates about the most exciting thing from your past or upcoming week/weekend. If anyone has something they'd like to talk about, last person in the list will ask the group if they have anything else to share.
+   * The [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) lists who is meant to speak on which day; this can be altered daily if conflicts arise.
+   * There is no need to excuse yourself with "I didn't do anything interesting", "I just watched television" or "that's all", it is not a competition. Instead share the most interesting detail, for example what television show you watched, book you are reading, video game you played or what recipe you cooked.
 1. Sequence of asking people is in order of joining the company, same as on the [team page](https://about.gitlab.com/team/). If there are non-team page people in the call we end with those.
 1. Please look if the person you hand over to is present in the participant list so you don't hand over to someone who is not present.
 1. Last person hands over to the first person in the call order that is present (normally Dmitriy) who wishes everyone a good day or wishes everyone a great day her or him self.
+1. Even if you cannot join the call, read through the team agenda and the links from there. We often use the team call to make announcements or
+discuss changes in processes, so make sure to catch up on the news if you have missed a team call (or more).
+
+### Scheduling Calls<a name="scheduling-calls"></a>
+
+1. Set up a [Calendly](https://calendly.com/) account and link it to your
+work calendar to make it possible for people to schedule a call with you
+   1. Add your Calendly link to your [Slack profile](https://get.slack.help/hc/en-us/articles/204092246-Editing-your-profile)
+For `Display Text`, use this line: `Schedule a meeting with me!`
+   1. To schedule a 1:1 call with someone in GitLab, simply click their Calendly
+link in their Slack profile
+   1. For people outside of GitLab Inc, send them your Calendly link
+   1. If you're often talking to people outside of GitLab Inc,
+add a custom field to your Calendly asking people how you can reach them
+(Hangouts / Skype)
+1. If you want to ask people if they are available for an event please send a new calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.
+1. If there are materials relevant for a calendar meeting (for example a Google Doc) please add the url to the meeting invite description.
+1. If you want to check if a team member is available for an outside meeting, create a calendar appointment and invite the team member only, after they respond yes then invite outside people.
+1. When scheduling a call with multiple people, invite them using a Google Calendar that is your own, or one specific to the people joining, so the calendar item
+doesn't unnecessarily appear on other people's calendars.
+1. If you want to move a meeting just move the calendar appointment instead of reaching out via other channels, note the change at the top of the description.
+1. Please click 'Guests can modify event' so people can update the time in the calendar instead of having to reach out via other channels. You can install [the Google-Calendar-Guests-Can-Modify-Event-By-Default plugin in Chrome](https://github.com/robin-drexler/Google-Calendar-Guests-Can-Modify-Event-By-Default) to do this automatically.
 
 ### User Communication Guidelines<a name="user-communication"></a>
 
@@ -256,27 +330,12 @@ step, **re-assign** the issue to that person.
 1. Always write GitLab with a capitalized G and L, even when writing GitLab.com.
 1. Monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9
 1. If an email needs a response write the ask at the top of it.
+1. Use the future version of words, just like we don't write internet with a capital anymore, we write frontend and webhook without a hyphen or space.
 1. Our homepage is https://about.gitlab.com/ (with the `about.` and with `https`).
 1. Please refer to self-hosted installations as on-premises, not on-premise.
 1. If you use headers properly format them (`##` in Markdown, "Heading 2" in Google docs), start at the second header level because header level 1 is for titles, do not end headers with a colon.
 1. Always use an [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma) in lists of three or more terms.
 1. Read our [Documentation Styleguide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc_styleguide.md) for more information when writing documentation.
-
-### Scheduling Calls<a name="scheduling-calls"></a>
-
-1. Set up a [Calendly](https://calendly.com/) account and link it to your
-work calendar to make it possible for people to schedule a call with you
-1. Add your Calendly link to your [Slack profile](https://get.slack.help/hc/en-us/articles/204092246-Editing-your-profile)
-For `Display Text`, use this line: `Schedule a meeting with me!`
-1. To schedule a 1:1 call with someone in GitLab, simply click their Calendly
-link in their Slack profile
-1. For people outside of GitLab Inc, send them your Calendly link
-1. If you're often talking to people outside of GitLab Inc,
-add a custom field to your Calendly asking people how you can reach them
-(Hangouts / Skype)
-1. To schedule a call with multiple people, invite them using Google Calendar.
-Use your own agenda on one specific to the people joining, so the calendar item
-doesn't unnecessarily appear on other people's calendars
 
 ### Beamy Guidelines<a name="beamy-guidelines"></a>
 
@@ -298,6 +357,12 @@ Make sure it is charging, otherwise try again.
 * More info can be found at https://www.suitabletech.com/
 * Please report any questions or issues you have about the beam by @mentioning Emily in the #general channel.
 
+## On-Call Rotation and Scheduling<a name="on-call"></a>
+
+We have on-call heroes (see the [team page](https://about.gitlab.com/team/)) to
+respond quickly to GitLab.com downtime, and customer emergencies. Details about the schedule
+and how to swap duty in the [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/) page.
+
 ## Intellectual Property<a name="intellectual-property"></a>
 
 1. Take proper care of any **confidential** information you get from our customers.
@@ -308,18 +373,6 @@ Make sure it is charging, otherwise try again.
 intellectual property violations
 
 ## Spending Company Money<a name="spending-company-money"></a>
-
-**Regular Compensation**
-
-1. Employees of our Dutch entity (GitLab B.V.) will get their **salary** wired on the 25th of every month and will receive their salary slip by email on or before that date.
-1. Employees of our US entity (GitLab Inc.) have payroll processed through TriNet, and they can access their pay slips through the [TriNet portal](https://www.hrpassport.com).
-1. Contractors to GitLab (either entity) should send their invoices for services rendered to ap@gitlab.com
-   * For 'fixed fee' contracts, it is OK to send the invoice before the time period
-   that it covers is over. For example, an invoice covering the period of March 1-31 can be sent on March 25.
-   * All invoices are internally reviewed, approved, and then payment is processed.
-   This is usually a fast process, but be aware that it can incur delays around vacations.
-
-**Other Business Related Expenses**
 
 1. Spend company money like it is your **own** money.
 1. You don't have to ask permission before making purchases in the interest of the company. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
@@ -373,13 +426,14 @@ intellectual property violations
     * You do not need to ask permission to take time off unless you want to take more than 25 consecutive calendar days.
     * Always make sure that your job responsibilities are covered while you are away.
     * We strongly recommended to take at least a minimum of 2 weeks of vacation per year, if you take less your manager might follow up to discuss your work load.
-1. You do need to ensure that not more than **half** of the people that can help with availability emergencies (24/7), regular support, sales or development are gone at any moment. You can check for this on the availability calendar, so be sure to add appointments early.
-1. If someone from the 24/7 team leaves, set up a **call** two weeks before that so the other people can divide the on-call days.
+1. You do need to ensure that not more than **half** of the people that can help with availability emergencies (the on-call heroes), regular support, sales, or development are gone at any moment. You can check for this on the availability calendar, so be sure to add appointments early.
+1. Please see the [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
+page for information on how to handle scheduled leave for someone from the [on-call](#on-call) team.
 1. Add an **appointment** to the GitLab availability calendar as you know your plans, you can always change it later.
 1. In case it can be useful add your planned time off as a **FYI** on the next agenda of the team call.
 1. We will **help** clients during official days off, unless they are official days off in both the Netherlands and the U.S. We try to have people working who are in a country that don't have an official day off. If you need to work during an official day off in your country, you should take a day off in return.
 
-## Further Incentives<a name="further-incentives"></a>
+## Incentives<a name="incentives"></a>
 
 The following incentives are available for GitLab team members.
 
@@ -387,7 +441,7 @@ The following incentives are available for GitLab team members.
 
 Since reaching sales targets is a team effort that integrates everything from making a great product
 to providing top notch customer support and everything in between, we reward all
-team members for every month that we reach our Sales Targets. The reward is $100
+team members for every month that we reach our Sales Targets. The reward is [100 USD](https://www.google.com/search?q=100+usd+in+eur)
 to each team member, towards a dinner of each team member's own choice. Enjoy!
 
 The CEO, or CRO will announce on the team call if the target was met. To claim the bonus,
@@ -415,6 +469,7 @@ once the new team member has been with the company for 3 months.
 1. If the new team member receives a [discretionary bonus](#discretionary-bonuses) within the
 first 6 months of their hire, then you *also* get a $1,000 bonus.
 1. Exceptions: no bonuses for hiring people who report to you, and no bonus for the executive team.
+1. When your referral applies for an opening, make sure that they enter your name on the application form.
 
 ### Work Remotely Travel Grant<a name="travel-grant"></a>
 
@@ -428,7 +483,6 @@ then present your travel plan to your manager or the CEO, and you can receive
 As an example, the first grant was handed to a team member who will be
 traveling to 6 team members in different countries during 6 months, and this
 team member will receive the maximum grant of $2,000.
-
 
 ## Signing Legal Documents<a name="signing-legal-documents"></a>
 
@@ -444,6 +498,66 @@ send a copy of the document to legal@gitlab.com with the following information:
 The document will be managed through HelloSign, a cloud-based electronic
 signature tool. Only C-level executives can sign legal documents, with the
 exception of NDAs covering a physical visit of another organization.
+
+## Tools<a name="tools"></a>
+
+A lot of tools we use are described in the rest of the handbook (GitLab, Google Docs, Google Hangouts, 1Password, etc.).
+This section is for tools that don't fit anywhere else.
+
+### Calendly
+
+[Calendly](https://calendly.com/): Set up 45 minute meeting slots. Connect to your Google calendar which knows your availability.
+The meeting will always create the same Google Video url so if you have that you can add it to the booking.
+
+### Shush
+
+[$4.99 tool for OSX](http://mizage.com/shush/) that allows you to use you fn key as a push to talk or push to mute.
+Never again will you have switch window focus to Google Hangout or Bluejeans to speak or mute.
+The icon will show the current state of your mic input (x means muted).
+With a right click you can switch from push to talk to push to mute.
+Don't forget to unblock your mike in Bluejeans/Google hangouts immediately after joining.
+Be warned that page up with fn+down arrow will activate it.
+Use space for page down instead of fn+up arrow.
+
+### Google Calendar Guest Modify Event Default
+
+[This Chrome extension](https://chrome.google.com/webstore/detail/google-calendar-guests-mo/hjhicmeghjagaicbkmhmbbnibhbkcfdb?hl=en) will allow allow guests to modify calendar appointments by default.
+
+### Bluejeans
+
+Please add instructions how to set up a Bluejeans meeting, how to record it and how to add the resulting video to our Youtube channel.
+
+### Hangouts on air
+
+Hangouts on Air probably only works with a maximum of 15 people for scheduled calls (same limit as normal Google Hangouts).
+
+Potential problem: even when I logged in as GitLab and got the bar below the call, I could not switch it too on-air!
+I did notice that the time was not properly set (anymore?).
+I did a test event before and that seemed to work OK.
+I'll try one more time to see if it works.
+
+Potential problem 2: the video showed up as listed by default
+
+Go to [My live events on Youtube](https://www.youtube.com/my_live_events) and switch to the GitLab account on the top right (you need to be a manager of our Youtube channel).
+
+Go to => life streaming => events and create a new one with the attributes:
+
+- type => quick (using Google Hangouts on Air)
+- advanced: promotions: disable both checkboxes
+- time needs to be set correctly
+
+The view on watch page url only allows for people to watch it.
+Window that pops up when you press the start hangout on air button has the proper url that you can send to other people and/or add it to the calendar invite, it is structured like: https://plus.google.com/hangouts/_/ytl/LONGHASH.
+When people join the event they have to [accept a warning](https://gitlab.com/snippets/16245).
+
+[Completed live events](https://www.youtube.com/my_live_events?filter=completed) will show the video and you can click the image to view it.
+You can use actions to make it public here
+
+BTW Trying to set this up via Google+ via [https://plus.google.com/hangouts/onair](Hangouts on Air) instead of via Youtube doesn't seem to connect to the right Youtube channel, even if you selected the right account on the top right.
+
+### One Tab
+
+[One Tab](https://www.one-tab.com/) tames tabs into a list which can be sorted and exported.
 
 ## Using Git to update this website<a name="starting-with-git"></a>
 

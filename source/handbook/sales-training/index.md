@@ -4,6 +4,7 @@ title: "Sales Training"
 ---
 
 * [5 Signs You’re Talking At (Not Talking To) Your Prospects](#signs)
+* [Ways to influence decision making by using the Psychology of Persuasion: The Principle of Reciprocity](#reciprocity)
 * [6 Ways to Make Your Sales Email Insanely Valuable to Prospects](#insanely)
 * [3 Seemingly Scary Words Reps Shouldn’t Be Afraid to Use](#scary)
 * [6 Questions Sales Reps Should (But Don’t) Ask Themselves Before Sending an Email](#questions)
@@ -13,6 +14,7 @@ title: "Sales Training"
 * [A Two-Step Formula for Handling Pricing Objections](#objections)
 * [Price Objections - The Script that Always Closes](#script)
 * [5 B2B Sales Call Techniques That Get More Meetings](#techniques)
+* [How to Create a Sales Plan](#buyingplan)
 
 
 ### 5 Signs You're Talking At (Not Talking To) Your Prospects <a name="signs"></a>
@@ -60,6 +62,40 @@ If it's the latter, dig deeper. While many of your sales conversations will run 
 Another way to check whether your sales conversations are productive for your prospect is to quiz yourself. Can you explain the deal to someone else on your team?
 
 To test his understanding of a prospect’s problems, Dan Tyre, a sales director at HubSpot, tries to define three reasons his prospects would buy, three reasons his prospects would balk, and what the next step should be. If he can’t, he knows he needs to get on another call with his prospect to further understand what they want and discuss how to move forward in a mutually productive way.
+
+
+### Ways to influence decision making by using the Psychology of Persuasion: The Principle of Reciprocity <a name="reciprocity"></a>
+
+Dr. Robert Cialdini's theory of influence from his book "Influence: The Psychology of Persuasion" defines six principles that guide human behavior. The first principle is reciprocity, the desire to give back to someone who has given to us. E.g. if someone does you a favor you feel obligated to return a favor.
+
+In a sales conversation this principle can be used to influence the direction and outcome of a conversation from the very beginning. 
+For example if a prospect signs up for a free trial, you can initiate the conversation by offering help with potential issues or questions and making sure the prospect has received the relevant information from the trial confirmation mail, e.g. the license key.
+Nearly everyone of us has experienced a situation where a confirmation email didn't arrive or went to the spam folder. So by starting the conversation with a favor, the prospect will feel obligated to take the time to reply and answer your [open-ended question](#art).
+The principle of reciprocity is also reason why [sales emails should always provide value to a customer](#insanely). 
+Here are a few examples about how to start a conversation with a prospect who started a trial:
+
+Hi [prospect] and thanks for your interest in GitLab.
+
+In case you didn't see the email from our license app, I've attached a copy of your trial license key. Let me know if you need help installing or configuring GitLab.
+
+Perhaps let me know what's driving your interest, what you're looking to validate during the trial period and how we can help you (demo, docs technical support etc).
+
+Cheers,
+
+
+Hi [prospect],
+
+Thank you for your interest in GitLab Enterprise Edition.
+
+In case you did not receive the email with the license file yet, I have attached it to this email.
+
+Do you have any questions or issues regarding GitLab so far?
+
+It would be great to understand what the problems and tasks are, that you are trying to solve with GitLab Enterprise Edition?
+
+Looking forward hearing from you.
+
+Best regards,
 
 
 ### 6 Ways to Make Your Sales Email Insanely Valuable to Prospects <a name="insanely"></a>
@@ -505,3 +541,57 @@ Alternatively, you can reference prior engagement. For example, “I saw that yo
 As is often the case in B2B sales, you may have a technology, size, or geography requirement. You’re obviously going to research compatibility ahead of the call, but you also need to verify it before you waste anyone’s time. For example, “Just so you know, our new hive frames are only compatible with WBC hives. Would that be an issue for you?”
 
 If there’s one common thread in all these tips, it’s that the most successful sales reps put their customers’ needs first. Add value, be honest and respectful, and offer information -- not a sales pitch. If you can put all of these sales call techniques into use, you’ll be crushing your meeting quota in no time.
+
+### Dan Tyre wrote [a great article about "How to Create a Sales Plan"](http://blog.hubspot.com/sales/ultimate-guide-creating-sales-plan?utm_campaign=blog-rss-emails&utm_source=hs_email&utm_medium=email&utm_content=26033406)<a name="buyingplan"></a>.  Here are some highlights.
+
+First, I would like to change our thinking from being a sales plan to a buying plan.  This puts us in the mindset of the buyer and helps us use words focused on them and not us. The purpose of a buying plan is to help the process move forward.  To avoid inertia.  Time kills deals so we putting a plan in place that moves the conversation and process forward is essential.
+
+To determine if you need a buying plan at all or how comprehensive it should be, you fist need to understand the sophisitication of your buyer.  A good question to ask is: “Have you bought a similar product before?”
+
+This question is crucial. If this is the first time they’ve ever bought something like your offering, your plan needs to outline how to buy in the first place. You’ll need to walk them through how to get internal buy-in and how to evaluate if your product is a good solution, working closely with them throughout.
+
+#### Your Buying Plan needs to have Goal-Related Questions:
+
+1. What are your goals?
+    * People who don’t have goals don’t make good customers. Your job is to find great prospects who will also make great customers.
+
+2. What's your why?
+    * Prospects don’t buy for rational reasons -- they buy for emotional reasons. Your product is a rational means to an end, but that end is usually influenced by emotion. Your prospect has an image of the future in their head, and your product is what can help them get there. Getting a prospect talking about that future helps them understand why they should invest time and money in your solution. 
+
+3. What changes will result from this plan?
+    * This is an impact question.  What is the impact of them using this product successfully? What fundamental changes will need to be made to their business?  
+
+4. If you don’t know the answers to these questions, do you know who to ask to find out?
+    * This is crucial as it brings in additonal "champions" to the discussion.
+    
+#### Your Buying Plan needs to have Process-Related Questions:
+
+1. Who’s responsible for buy-in?
+    * Knowing who will be impacted by using the product, where the budget will come from as well as impacted by the change in moving to GitLab is essential. 
+    * It is also just as important to identify and bring into the conversation any stakeholder who is or acted as a champion for a competitor. Find that person and get them on your side.
+
+1. What are your biggest challenges to the purchase?
+    * Identify the roadblocks to purchase as soon as possible. This question will help you understand what still needs to be done.
+
+1. What happens if you don't complete this purchase?
+    * Find out your prospect’s Plan B. It could be that they’re totally screwed if they don’t make this purchase, and asking them to envision that possibility will kickstart the sales process. It could also reveal that you’re in a competitive situation, in which case it’s time to reach out to a coach or champion and figure out where you stand.
+
+1. What’s your personal goal?
+    * Know whether my prospect has skin in the game. This informs you of the motivating levers you can pull to move the deal ahead and forces the prospect to revisit exactly why this deal is important to them. The closer you get to the end of a sales cycle, the higher the chance that your prospect will be fatigued. Refocusing them on the prize is crucial. 
+
+#### Now that you have created the Buying Plan, what to do after.
+
+1. Ask the prospect to review it. Formally present it if you need to and ask how you can help them get buy-in. 
+
+2. Get buy-in from stakeholders on the plan so that everyone is on the same page.
+
+3. Answer the naysayers. Go straight to your blockers with the plan to air out all their objections. 
+
+4. Define the purchasing process by asking questions like the ones below.
+    * Who needs to be involved in the actual purchase -- signing contracts, approving budgets, etc.?
+    * Does the purchase require an RFI (request for information), an RFQ (request for quotation), or any other documentation you’ll be responsible for coordinating?
+    * Does Legal need to get involved?
+    * If additional documentation or reviews are needed, how long will those processes take?
+
+
+

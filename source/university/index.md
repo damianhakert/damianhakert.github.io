@@ -11,20 +11,38 @@ future. Today it's still pretty hard to master.
 GitLab University has as a goal to teach Git, GitLab and everything that relates
 to that to anyone willing to listen and participate.
 
-## Classes
+## Process
 
-If you would like to teach in one of them or participate or help in any way, please contact Job or submit a merge request.
+### Suggesting improvements
+
+If you would like to teach ca class or participate or help in any way please submit a merge request and assign it to [Job](https://gitlab.com/u/JobV).
 
 If you have suggestions for additional courses you would like to see,
-please submit a merge request to add an upcoming class, assign to Chad and /cc Job.
+please submit a merge request to add an upcoming class, assign to [Chad](https://gitlab.com/u/chadmalchow) and /cc [Job](https://gitlab.com/u/JobV).
 
-To view or modify the slides of the classes use [Deckset](http://www.decksetapp.com/).
+### Adding classes
 
-There is a [YouTube playlist with all recordings](https://www.youtube.com/playlist?list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e).
+1. All training materials of any kind should be added to [the university repo](https://gitlab.com/gitlab-org/University) to ensure they are available to a broad audidence (don't use any other repo or storage for training materials).
+1. Please link any new materials from the /university page
+1. Don't make materials that are needlessly specific to one group of people, try to keep the wording broad and inclusive (don't make things for only GitLab Inc. people, only interns, only customers, etc.).
+1. To allow people to contribute to them all content should be in git.
+1. The content can go in a subdirectory under /university
+1. Please link your materials from this page, either under 'Non sales bootcamp classes' or 'Other'
+1. To make, view or modify the slides of the classes use [Deckset](http://www.decksetapp.com/) or [RevealJS](http://lab.hakim.se/reveal-js/), do not use Powerpoint or Google Slides since this prevents everyone from contributing.
+1. Please upload any video recordings to our Youtube channel, we prefer them to be public, if needed they can be unlisted but if so they should be linked from this page.
+1. Please create a merge request and assign to [Job](https://gitlab.com/u/JobV).
 
-For GitLab team members only there is a university class every Thursday at 5PM UTC, send Job a message to sign up.
+### Recordings
 
-To prepare new salespeople at GitLab, an intense 30 day program has been completed.  Each week there are learning goals and content to support the learning of the salesperson.  The goal of bootcamp is to have every salesperson prepared to help buyers navigate the purchase of GitLab EE. 
+There is a [YouTube playlist with all recordings](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg/playlists).
+
+### Webcasts
+
+For GitLab Inc. team members only there is a university class every Thursday at 5PM UTC, send Job a message to sign up.
+
+### Sales bootcamp week 1 to 3
+
+To prepare new salespeople at GitLab, an intense 30 day program has been completed.  Each week there are learning goals and content to support the learning of the salesperson.  The goal of bootcamp is to have every salesperson prepared to help buyers navigate the purchase of GitLab EE.
 
 ### Week 1 - Learning goal is to be able create a Group, Project, Issue and merge request.
 
@@ -44,7 +62,7 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
     - [Create a GitLab Account](https://courses.platzi.com/classes/git-gitlab/concepto/first-steps/create-an-account-on-gitlab/material/)
     - Supporting: [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 
-1. Add SHH key to GitLab 
+1. Add SHH key to GitLab
     - [Create and Add your SHH key to GitLab](https://www.youtube.com/watch?v=54mxyLo3Mqk)
 
 1. Repositories, Projects and Groups
@@ -64,9 +82,17 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
     - [Recording 2015-11-05](https://www.youtube.com/watch?v=sXlhgPK1NTY&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=6)
     - [GitLab Ecosystem slides](https://docs.google.com/presentation/d/1vCU-NbZWz8NTNK8Vu3y4zGMAHb5DpC8PE5mHtw1PWfI/edit)
 
+1. Understanding DevOps?
+    - [Understanding DevOps](https://youtu.be/HpZBnc07q9o)
+    - [DevOps at IBM](https://www.youtube.com/user/IBMRational)
+    - [DevOps Where To Start](https://www.youtube.com/watch?v=CSrKwP1QrjE)
+    - [Agile & DevOps](https://www.youtube.com/watch?v=WqoVeGFjK9k)
+    - [Problem Solving with DevOps](https://www.youtube.com/watch?v=pTq9hFBWPeM)
+
 1. [Compare GitLab versions](https://about.gitlab.com/features/#compare)
 
 1. [GitLab compared to other tools](https://about.gitlab.com/comparison/)
+    - [Compared to Atlassian (Recording 2016-03-03) ](https://youtu.be/Nbzp1t45ERo)
 
 1. [Positioning FAQ](https://about.gitlab.com/handbook/positioning-faq)
 
@@ -80,6 +106,11 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
 1. [GitLab Workshop Part 3: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-3/material/)
 
 1. [GitLab Workshop Part 4: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-4/material/)
+
+1. GitLab Flow
+    - [Recording of what it is](https://www.youtube.com/watch?v=UGotqAUACZA)
+    - [GitLab Flow blog post](https://about.gitlab.com/2014/09/29/gitlab-flow/)
+    - [GitLab Flow documentation](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
 
 1. GitLab Integrations
 
@@ -102,7 +133,7 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
 1. Scalability and High Availability
     - [Recording 2015-12-03](https://www.youtube.com/watch?v=cXRMJJb6sp4&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=2)
     - [High Availability Documentation](https://about.gitlab.com/high-availability/)
-    
+
 1. Managing LDAP, Active Directory
     - [Recording of what it is and how to set it up](https://www.youtube.com/watch?v=HPMjM-14qa8)
 
@@ -129,6 +160,8 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
 
 1. [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 
+1. [Making GitLab Great for Everyone, our response to the Dear GitHub letter](https://www.youtube.com/watch?v=GGC40y4vMx0)
+
 1. [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=ae7b72c61347030e8aa75328ed4b8660)
 
 ### Week 4 - Goal is to create a lead, check if lead is using CE, create a task, convert lead to opportunty, add a product to the opportunity, create a quote, close win the opportunity, create a renewal opportunity and invoice the client.
@@ -142,7 +175,7 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
         * [Your Personal Dashboard](https://na34.salesforce.com/01Z61000000J0gx) This dashboard should be used to understand where you have been, where you are at, where are you going and do you have the pipeline to get to where you need to be.
         * [Accounts you Own](https://na34.salesforce.com/001?fcf=00B61000001XPLz) This view is to be used to identify expansion opportunities, who you have neglected and the mix of customers to prospects you are working
 
-### Supporting Learning Materials
+### Non sales bootcamp classes
 
 #### GitLab Wiki
 
@@ -163,16 +196,11 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
 - Supporting: [Configuring an external PostgreSQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-non-packaged-postgresql-database-management-server)
 - Supporting: [Configuring an external MySQL database](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#using-a-mysql-database-management-server-enterprise-edition-only)
 
-#### GitLab Flow
-
-- [Recording of what it is](https://www.youtube.com/watch?v=UGotqAUACZA)
-- [GitLab Flow blog post](https://about.gitlab.com/2014/09/29/gitlab-flow/)
-- [GitLab Flow documentation](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
-
 #### Continuous Integration and Runners
 
-- Upcoming
-- [GitLab CI](https://about.gitlab.com/gitlab-ci/)
+- [Continuous Delivery vs Continuous Deployment](https://www.youtube.com/watch?v=igwFj8PPSnw)
+- [GitLab CI product page](https://about.gitlab.com/gitlab-ci/)
+- [Setting up GitLab Runner For Continuous Integration](https://about.gitlab.com/2016/03/01/gitlab-runner-with-docker/?mkt_tok=3RkMMJWWfF9wsRonsqnLZKXonjHpfsX56%2BwpWKW%2FlMI%2F0ER3fOvrPUfGjI4AScJqI%2BSLDwEYGJlv6SgFS7nBMbZ22bgPWRA%3D)
 - Supporting: [Documentation on Integrating Jenkins with GitLab](http://doc.gitlab.com/ee/integration/jenkins.html)
 - Supporting: [Documentation on Integrating Bamboo with GitLab](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/project_services/bamboo.md)
 
@@ -209,3 +237,13 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
 * [Why Git and GitLab slide deck](https://docs.google.com/a/gitlab.com/presentation/d/1RcZhFmn5VPvoFu6UMxhMOy7lAsToeBZRjLRn0LIdaNc/edit?usp=drive_web)
 * [Git Workshop](https://docs.google.com/presentation/d/1JzTYD8ij9slejV2-TO-NzjCvlvj6mVn9BORePXNJoMI/edit?usp=drive_web)
 * [Client Assessment of GitLab versus GitHub](https://docs.google.com/a/gitlab.com/spreadsheets/d/18cRF9Y5I6I7Z_ab6qhBEW55YpEMyU4PitZYjomVHM-M/edit?usp=sharing) INTERNAL ACCESS ONLY
+
+## Training Material
+
+### User Training
+
+Git workshop for GitLab end-users. This training covers everything users need
+to configure their environment and understand the GitLab interface.
+
+- [Slides](https://gitlab.com/gitlab-org/University/blob/master/training/user_training.md)
+can be viewed using [Deckset](http://www.decksetapp.com/).

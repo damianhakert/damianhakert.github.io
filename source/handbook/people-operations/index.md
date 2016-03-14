@@ -3,23 +3,28 @@ layout: markdown_page
 title: "People Operations"
 ---
 
-## New US hire day one
+To reach People Operations, please post an issue on our [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/) 
+and add the 'PeopleOps' label, or send an email to the People Operations group (see the [sheet with aliases](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#)), or ping an individual 
+member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
 
-1. HR will complete and submit an online Add New Hire Form (TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the welcome email to the employee at their work email on their first date of hire.
+## Administrative details of benefits for US-based employees
 
-1. Employee completes New Hire TriNet Passport 7 Steps Guide. The I-9 portion of this must be completed within the first two days of hire. Note: this is critical so you must contact HR@gitlab.com if you have difficulty with this form.
+### 401k 
 
-1. Employee submits to HR@gitlab.com a completed New Employee Personal Information Form.
+1. You are eligible to participate in GitLab’s 401k as of the 1st of the month after your hire date.  
+1. You will receive a notification on your homepage in Trinet Passport once eligible, 
+if you follow the prompts it will take you to the Transamerica website https://www.ta-retirement.com/ 
+or skip logging in to Trinet Passport and go directly to https://www.ta-retirement.com/ 
+after the 1st of the month after your hire date.
+1. Once on the home page of https://www.ta-retirement.com/ go to "First Time User Register Here".  
+1. You will be prompted for the following information
+   1. Full Name
+   1. Social Security Number
+   1. Date of Birth
+   1. Zip Code  
+1. Once inside the portal you may elect your annual/pay-period contributions, and Investments. 
 
-1. HR will send a welcome letter which includes a link to the TriNet Employee Handbook and a link to the GitLab Handbook.
 
-1. Please read through the New Hire Benefits Guidebook. This will go over medical, dental, vision and voluntary benefits.
-
-1. Operations will reach out to the new hire within 48 hours of hire to identify and order any necessary supplies/equipment.
-
-1. Each employee will be assigned a GitLab support person who will act as his/her ambassador for the first month of work. This person will help the new hire with finding the information that often makes the first month overwhelming.
-
-If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
 
 ## Entering New Hires into TriNet<a name="trinet-process"></a>
 

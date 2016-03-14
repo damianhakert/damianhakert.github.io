@@ -45,7 +45,7 @@ with the following outline:
 3. Managing users, groups and permissions
 4. Issue tracker and Wiki
 5. Maintaining your GitLab instance
-6. Web hooks, external services and the API
+6. Webhooks, external services and the API
 7. Using LDAP and omniauth providers
 8. GitLab CI
 9. Appendix

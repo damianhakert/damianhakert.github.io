@@ -66,7 +66,7 @@ Omnibus GitLab creates the packages for GitLab.
 
 ## Cloud infrastructure
 
-GitLab.com runs on Amazon Web Services (AWS). Many people in GitLab also have
+GitLab.com runs on Microsoft Azure. Many people in GitLab also have
 instances on DigitalOcean. If you need a VPS for any reason, it's probably easiest
 to set one up at DigitalOcean. Ask another developer for access.
 
@@ -112,16 +112,6 @@ Unless the change is very minor, or is fixing a bug that was introduced in the
 same version, add an entry to `CHANGELOG` (or `CHANGELOG-EE` when applicable).
 Do not include your name in the entry as we only do that to give recognition to
 volunteer contributors.
-
-### Review
-
-In order to receive feedback on your merge request and have it accepted it
-should be assigned to the right person. A merge request that fixes a frontend
-issue should have the `Frontend` label and be assigned to a Frontend Engineer
-for review. A merge request that is related to Continuous Integration should be
-assigned to the GitLab CI lead. All other merge requests should be assigned for
-review to one of merge request "endbosses". You can find all the roles listed on
-the [team page](https://about.gitlab.com/team/).
 
 ### Ruby Gems
 

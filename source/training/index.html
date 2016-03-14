@@ -55,6 +55,22 @@ extra_css:
   <div class="centered-form training-form">
     <script src="//app-ab13.marketo.com/js/forms2/js/forms2.min.js"></script>
     <form id="mktoForm_1068"></form>
-    <script>MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1068);</script>
+    <script>
+
+
+      MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1068, function(form) {
+          form.onSuccess(function(values, followUpUrl) {
+
+            form.getFormElem().hide();
+            document.getElementById('confirmform').style.visibility = 'visible';
+
+            ga('send', 'pageview');
+            ga('send', 'event', 'form', 'submit', 'ee free trial');
+            return false;
+          });
+      });
+    </script>
+
+    <div id="confirmform" style="visibility:hidden;"><p>Submission received! We'll be in touch shortly.</p></div>
   </div>
 </div>

@@ -41,9 +41,9 @@ It's important that the content is:
 - Complete
 - Original
 
-We'll be able to develop a more complete style guide as we grow out the program. Meanwhile we will rely on referencing [the Digital Ocean style guide, which inspired our community writers program](https://www.digitalocean.com/community/tutorials/how-to-write-an-article-for-the-digitalocean-community).
-
 To find out what topics we're looking for, review [the blog post backlog](https://gitlab.com/gitlab-com/blog-posts/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=0&author_id=&milestone_title=&label_name=&weight=) and see if there are any existing requests for topics that inspire you.
+
+Review our [Blog Post Style Guide](https://gitlab.com/gitlab-com/blog-posts/blob/master/STYLEGUIDE.md)
 
 ### Example topic areas
 
@@ -65,3 +65,4 @@ Got an idea?
 - [Our blog](http://about.gitlab.com)
 - [Blog post backlog](http://ow.ly/WWA2n)
 - [Submit your proposal](http://ow.ly/WWMAg)
+- [Blog Style Guide](https://gitlab.com/gitlab-com/blog-posts/blob/master/STYLEGUIDE.md)

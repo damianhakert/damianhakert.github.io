@@ -76,7 +76,7 @@ With GitLab flow we offer additional guidance for these questions.
 ![Master branch and production branch with arrow that indicate deployments](/images/git_flow/production_branch.png)
 
 GitHub flow does assume you are able to deploy to production every time you merge a feature branch.
-This is possible for SaaS applications but are many cases where this is not possible.
+This is possible for SaaS applications but there are many cases where this is not possible.
 One would be a situation where you are not in control of the exact release moment, for example an iOS application that needs to pass AppStore validation.
 Another example is when you have deployment windows (workdays from 10am to 4pm when the operations team is at full capacity) but you also merge code at other times.
 In these cases you can make a production branch that reflects the deployed code.
@@ -225,7 +225,7 @@ This prevents creating a merge commit when merging master into your feature bran
 However, just like with squashing you should never rebase commits you have pushed to a remote server.
 This makes it impossible to rebase work in progress that you already shared with your team which is something we recommend.
 When using rebase to keep your feature branch updated you [need to resolve similar conflicts again and again](http://blogs.atlassian.com/2013/10/git-team-workflows-merge-or-rebase/).
-You can reuse recorded resolutions (rerere) sometimes, but with without rebasing you only have to solve the conflicts one time and you’re set.
+You can reuse recorded resolutions (rerere) sometimes, but without rebasing you only have to solve the conflicts one time and you’re set.
 There has to be a better way to avoid many merge commits.
 
 The way to prevent creating many merge commits is to not frequently merge master into the feature branch.
@@ -321,5 +321,4 @@ Merging only when needed prevents creating merge commits in your feature branch 
 
 ## References
 
-- [Sketch file](https://www.dropbox.com/s/58dvsj5votbwrzv/git_flows.sketch?dl=0) with vectors of images in this article
 - [Git Flow by Vincent Driessen](http://nvie.com/posts/a-successful-git-branching-model/)

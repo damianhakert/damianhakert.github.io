@@ -17,7 +17,7 @@ We believe that all digital products should be open to contributions, from legal
 
 3. To ensure that **everyone can contribute** using GitLab in some form it should be free as in speech, that is why GitLab CE is MIT licensed. But open source is more than a license, that is why we actively help our competitor Perforce to ship GitLab as part of Perforce Helix. We try to be [a good steward of](https://about.gitlab.com/about/#stewardship) GitLab CE. We keep all our software open to inspection, modifications, enhancements, and suggestions.
 
-4. To ensure that **everyone can contribute** to GitLab itself we actively welcome contributors. We do this by having quality code, tests, documentation, using popular frameworks, and offering a comprehensive GitLab Development Kit. We celebrate contributions by recognizing a Most Valuable Person (MVP) every month. We allow everyone to anticipate, propose, discuss, and contribute features by having everything on a public issue tracker. We ship a new version every month so contributions and feedback are visible fast. To contribute to open source software people must be empowered to learn programming. That is why we sponsor initiatives such as Rails Girls and lean poker.
+4. To ensure that **everyone can contribute** to GitLab itself we actively welcome contributors. We do this by having quality code, tests, documentation, using popular frameworks, and offering a comprehensive GitLab Development Kit. We celebrate contributions by recognizing a Most Valuable Person (MVP) every month. We allow everyone to anticipate, propose, discuss, and contribute features by having everything on a public issue tracker. We ship a new version every month so contributions and feedback are visible fast. To contribute to open source software people must be empowered to learn programming. That is why we sponsor initiatives such as Rails Girls and [Lean Poker](http://leanpoker.org).
 
 5. To ensure that **everyone can contribute** to our organization we have open business processes that allow all team members to suggest improvements to our handbook. We hire remotely so everyone with an internet connection can come work for us and be judged on results, not presence in the office. We offer equal opportunity for every nationality. We are agnostic to location and that can be a real benefit to people in countries with less opportunities. We engage on Hacker News, Twitter, and our blog post comments. And we strive to take decisions guided by [our values](https://about.gitlab.com/handbook/#values).
 
@@ -25,25 +25,25 @@ We believe that all digital products should be open to contributions, from legal
 
 1. Ensure that **everyone can contribute** in the 5 ways outlined above.
 
-2. Become most used software for the software development lifecycle and collaboration on all digital content.
+2. Become most used software for the software development lifecycle and collaboration on all digital content by following [the sequence below](#sequence).
 
-3. Complete our product vision of an [opinionated and integrated set of tools based on convention over configuration that offers superior user experience](https://about.gitlab.com/direction/).
+3. Complete our product vision of an [opinionated and integrated set of tools based on convention over configuration that offers superior user experience](https://about.gitlab.com/direction/#vision).
 
 4. Offer a sense of progress [in a supportive environment with smart colleagues](http://pandodaily.com/2012/08/10/dear-startup-genius-choosing-co-founders-burning-out-employees-and-lean-vs-fat-startups/).
 
 5. Stay independent long term so we can preserve our values.
 
-## Sequence
+## Sequence <a name="sequence"></a>
 
 1. Become the most popular solution on-premises (DONE)
 
-2. Become the most revenue generation solution on-premises
+2. Become the most revenue generation solution on-premises (through well executed marketing and sales)
 
-3. Become the most popular SaaS solution for private repositories
+3. Become the most popular SaaS solution for private repositories (through a [great product](https://about.gitlab.com/direction/) that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever))
 
-4. Become the most popular SaaS solution for public repositories
+4. Become the most popular SaaS solution for public repositories (easier to overcome network effects if people already use GitLab.com for private repositories)
 
-5. All knowledge workers contributing via GitLab
+5. All knowledge workers contributing via GitLab (need to make the git workflow much more user friendly)
 
 ## Assumptions
 
@@ -119,19 +119,19 @@ We believe that all digital products should be open to contributions, from legal
 
 1. Triple ARR (Annual Recurring Revenue) in 2016&17&18, double it in 2019&20.
 
-2. Efficient sales needs people that demo, answer questions, and write feature proposals.
+2. Enable sales to provide more effective product demonstrations, share use case stories and create custom solutions and proposals.
 
-3. Build the channel via (value added) resellers and get more revenue from APAC.
+3. Increase revenue globally, with a focus on APAC, by developing channel sales program (value-added reseller and OEM).
 
-4. Grow our deals: upsell to higher plans, more years, and more users.
+4. Increase our average deal size through upsell to higher plans, selling multi-year deals and increasing seats sold.
 
-5. Create a customer success team and create a VP of customer success position.
+5. Increase adoption and revenue within accounts through the creation of a Customer Success organization
 
-6. Specialized roles: BDR, (senior) account managers, customer success, regional director.
+6. Increase salesperson capacity and productivity by creating specialized roles, in sales we'll have account executives, senior accounts executives, and regional sales directors. In Customer Success we'll have account managers (on quota and work with named accounts) and solution engineers (not on quota, work with named accounts, will not do product support, work primarily via email/web-conferencing, provide pre-sales support, guide their accounts through our features, installation, implementation, integrations, roadmap, and best practices).
 
-7. Account managers can specialize in upsell from CE, competitive sell against GitHub or Atlassian, educational sell from SVN/Clearcase or top-down sell to CTO.
+7. Account Executives specialize in upsell EE from CE, competitive sell against GitHub or Atlassian and educational sell from SVN/Clearcase or top-down sell to CTO.
 
-8. Intense one month onboarding you need to pass: use GLU, GitLab, Udacity, TrainTool.
+8. Intense one month onboarding program (GLU, GitLab, Udacity, TrainTool) to prepare new salespeople to add value faster to the buying process.
 
 ## Marketing 2016
 
@@ -177,7 +177,7 @@ We believe that all digital products should be open to contributions, from legal
 
 5. Sponsor initiatives and hire in countries that have low opportunity.
 
-## DevOps 2016
+## Production Engineering 2016
 
 1. A highly available GitLab.com that feels fast and has little downtime.
 

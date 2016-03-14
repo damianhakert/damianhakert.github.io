@@ -23,26 +23,27 @@ valid as such and do not replace personalized signed agreements.
 Assuming that the [hiring process](https://about.gitlab.com/handbook/hiring/) went smoothly, now it is time to prepare the applicable contracts. 
 The following set of steps should suffice:
 
-1. Select the relevant contracts to copy them into Word or a Google Doc (see next 
-step for details). Employees / Contractors should always be employed by the GitLab 
+1. Employees / Contractors should always be employed by the GitLab 
 entity where they are located (e.g. GitLab BV should not contract with contractors 
 / employees in the US and vice versa). 
 If the employee is in the US, GitLab Inc. should be the hiring/contracting entity.  
 In all other regions GitLab BV should be the hiring / contracting entity. 
-1. Copy the relevant contracts to a single Word or Google Doc (Word does a better job of retaining formatting). 
-  * NOTE: Remember that regardless of the status of the new team member, i.e. contractor or employee for either GitLab Inc., or GitLab BV, 
+
+1. Copy the relevant contract(s) to a Google Doc, and place it in Google Drive, following the structure 
+{entity} -> {contractors or employees} -> {ZZ In Process of Hiring} -> {folder with name of applicant}. 
+
+1. Remember that regardless of the status of the new team member, i.e. contractor or employee for either GitLab Inc., or GitLab BV, 
   an NDA and IP Agreement (called a PIAA for the Inc. entity) must be included with the contract.
-  * Further formatting tips once it is in Word:
-     * select all, and 
-        * decrease font size a few times until everything looks more reasonable. The main headers need to be adjusted further to fit on a single line.
-        * set line spacing to 1.0
-        * add space after paragraphs
-     * Insert page breaks for Signature pages and Exhibits, and between contract and PIAA.
+
 1. Find all fields with curly brackets (` { } `), and edit as appropriate. It is often efficient 
 to do a find + replace on fields that appear multiple times such as names, email 
 addresses, etc. (fields are named the same in the contracts / PIAA to make this easier).
+
 1. When removing optional clauses, take care that the paragraph / section numbering still makes sense (especially for the GitLab Inc offer letter).
-1. Save newly created contract + PIAA (or offer letter + PIAA), and process via HelloSign (also see [how to get legal documents signed](https://about.gitlab.com/handbook/#signing-legal-documents) ).
+
+1. Have the contract reviewed, per the guideline on the [Hiring page](https://about.gitlab.com/handbook/hiring/).
+
+1. Process new contract(s) via HelloSign (also see [how to get legal documents signed](https://about.gitlab.com/handbook/#signing-legal-documents) ).
 
    
        
@@ -88,7 +89,7 @@ the fair market value of the common stock on the date of grant pursuant to the
 terms and conditions of the Company’s 2015 Stock Plan (the “Stock Plan”), and the 
 stock option agreement that is entered into hereunder evidencing the grant. 
 Twenty-five percent (25%) of the Stock Option grant shall vest and become exercisable 
-12 months after the Effective date of this agreement and the remainder of the Stock 
+12 months after the Date of Vesting Commencement (hire date) and the remainder of the Stock 
 Option grant shall vest and become exercisable in 36 consecutive, equal, monthly 
 installments such that the Stock Option shall be fully vested and exercisable as 
 of the fourth anniversary of the date of grant, provided Employee remains a service 
@@ -887,7 +888,11 @@ These obligations also apply to any matters concerning the Employer or relations
 
 **14\. Additional jobs**
 
-Other than with the prior written permission of the Employer, the Employee is prohibited during the term of the Employment Contract to carry out work – either paid or not – of any nature whatsoever, either for himself and/or for third-parties.
+Other than with the prior written permission of the Employer, the Employee is 
+prohibited during the term of the Employment Contract to carry out paid work of 
+any nature whatsoever, either for himself and/or for third-parties. When contributing 
+without pay to non-GitLab projects, Employee must send an email to his manager to 
+notify the manager, and permission is implied unless noted otherwise by the Employer.
 
 **15\. Non-competition clause**
 
@@ -1012,7 +1017,7 @@ GitLab and Contributor are hereinafter collectively referred to as the “Partie
 2.6	Contributor is free to engage other persons to assist Contributor with the service, in consultation with GitLab, and as long as Contributor bears the costs concerned.  
  
 **3\.	Fee**   
-3.1	For the fulfilment of the service by Contributor on behalf of GitLab, GitLab shall pay Contributor a fee of € {Monthly Payment} per calendar month (exclusive of VAT) for the duration of the project. GitLab will receive detailed time sheets from Contributor with specific activities and the times under which they were completed specifically pertaining to fulfilment of the service concerned.  
+3.1	For the fulfilment of the service by Contributor on behalf of GitLab, GitLab shall pay Contributor a fee of € {Monthly Payment} per calendar month for the duration of the project. GitLab will receive detailed time sheets from Contributor with specific activities and the times under which they were completed specifically pertaining to fulfilment of the service concerned.  
 3.2	In consultation with GitLab, Contributor is entitled to paid time off in accordance with the handbook (https://about.gitlab.com/handbook/#paid-time-off) . However, GitLab has the right to revoke or change the days off at all times if the company’s interest is harmed or damaged.  
 3.3	GitLab will pay Contributor’s invoice within 30 days.  
 3.4	Contributor’s fee includes a full compensation for any expenses related to the performance of Contributor's activities for GitLab and a full compensation for any damages Contributor may suffer in the performance of Contributor's activities for GitLab.  
