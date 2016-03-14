@@ -44,10 +44,10 @@ It is hidden from the dashboard and it does not show up in searches.
 Archived projects you have access to will still be listed on your profile page (gitlab.example.com/u/my_user).
 
 
-### Project web hooks
+### Project webhooks
 
-Project web hooks were extended with new types of events.
-Web hooks can now also be triggered when an issue is created or a merge requst is closed.
+Project webhooks were extended with new types of events.
+Webhooks can now also be triggered when an issue is created or a merge requst is closed.
 
 
 [![screenshot](/images/6_4/hook.png)](/images/6_4/hook.png)

@@ -8,6 +8,8 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.4.0)
+    ansi (1.5.0)
+    ast (2.2.0)
     autoprefixer-rails (6.3.3.1)
       execjs
     backports (3.6.8)
@@ -42,6 +44,9 @@ GEM
     hashie (3.4.3)
     htmlcompressor (0.2.0)
     http_parser.rb (0.6.0)
+    httparty (0.13.7)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     i18n (0.7.0)
     json (1.8.3)
     kramdown (1.9.0)
@@ -96,8 +101,12 @@ GEM
     mime-types-data (3.2016.0221)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
+    multi_xml (0.5.5)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
+    oga (2.0.0)
+      ast
+      ruby-ll (~> 2.1)
     padrino-helpers (0.13.1)
       i18n (~> 0.6, >= 0.6.7)
       padrino-support (= 0.13.1)
@@ -114,6 +123,9 @@ GEM
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     redcarpet (3.3.4)
+    ruby-ll (2.1.2)
+      ansi
+      ast
     sass (3.4.21)
     scss_lint (0.47.1)
       rake (>= 0.9, < 11)
@@ -135,11 +147,13 @@ PLATFORMS
 
 DEPENDENCIES
   builder (~> 3.0)
+  httparty
   middleman (~> 4.0.0)
   middleman-autoprefixer
   middleman-blog
   middleman-livereload
   middleman-minify-html
+  oga
   redcarpet (~> 3.3, >= 3.3.3)
   scss_lint
   tzinfo-data
