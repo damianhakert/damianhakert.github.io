@@ -22,9 +22,9 @@ with the goal always being to make things easier from the perspective of the tea
 
 ## Requirements
 
-* Experience with US employment law and best practices.
-* Excellent written and verbal communication skills.
-* Enthusiasm for and broard experience with software tools
+* Experience with US employment law and best practices
+* Excellent written and verbal communication skills
+* Enthusiasm for and broad experience with software tools
 * Proven experience quickly learning new software tools
 * Willing to make People Operations as open and transparent as possible
 
