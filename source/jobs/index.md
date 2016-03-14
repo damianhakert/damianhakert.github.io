@@ -31,8 +31,8 @@ letter to be considered!
 
 ## We don't work with recruiters<a name="no-recruiters"></a>
 
-We do not accept solicitation by recruiters, recruiting agencies, headhunters and outsourcing organizations.
-If you email us we'll reply with [a link to this paragraph](https://about.gitlab.com/jobs/#no-recruiters) to indicate we would appreciate it if you stop emailing us.
+We do not accept solicitations by recruiters, recruiting agencies, headhunters and outsourcing organizations.
+If you email us we'll reply with [a link to this paragraph](https://about.gitlab.com/jobs/#no-recruiters) to indicate we would very much appreciate it if you stop emailing us and remove us from any marketing list.
 
 ## Available Openings
 
@@ -78,3 +78,8 @@ If you prefer not to do the above please let us know and we'll give you an assig
 
 * [Description](https://about.gitlab.com/jobs/account-manager/)
 * [Apply](https://gitlab.workable.com/jobs/88117/candidates/new)
+
+### People Operations Administrator
+
+* [Description](https://about.gitlab.com/jobs/people-ops-administrator/)
+* [Apply](https://gitlab.workable.com/jobs/220106/candidates/new)
