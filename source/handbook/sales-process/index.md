@@ -37,6 +37,7 @@ title: "Sales Process"
 * [Client Use Cases](https://about.gitlab.com/handbook/use-cases/)
 * [Customer Reference Sheet](https://docs.google.com/spreadsheets/d/1Off9pVkc2krT90TyOEevmr4ZtTEmutMj8dLgCnIbhRs/edit#gid=0)
 * [GitLab University](https://about.gitlab.com/university/)
+* [Our Support Handbook](https://about.gitlab.com/handbook/support/)
 
 ### GitLab Version Check <a name="version_check"></a>
 
@@ -64,7 +65,9 @@ Before a lead is converted or an opportunity is created the following must occur
 Opportunities will follow the following rules:
 
 * Subscription: [name of company] [type of subscription] [number of packs]. Example: MicahTek, Inc.-Standard-1
-* Training: [name of company] [type of training: User Training/Git Workshop/GitLab Flow/GitLab Admin]. Example: First Community Credit Union User-Training
+* Training: [name of company] [type of training: User Training/Git Workshop/GitLab Flow/GitLab Admin]. 
+Example: First Community Credit Union User-Training. **Note** to set up the actual training, 
+follow the workflow described on the [Support handbook](https://about.gitlab.com/handbook/support/).
 * Any deal coming from Gitorious has “(from Gitorious)” added.  Example MicahTek, Inc.-Gitorious-Standard-1
 
 ### Opportunity Types <a name="types"></a>
