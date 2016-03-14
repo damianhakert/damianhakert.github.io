@@ -697,7 +697,7 @@
   story:  |
           Joining March 9th
           
-name: E.A.
+- name: E.A.
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: CTO
   picture: logo-extra-whitespace.png
@@ -706,7 +706,7 @@ name: E.A.
   story:  |
           Joining March 14th
 
-name: J.B.
+- name: J.B.
   role: <a href="https://about.gitlab.com/jobs/strategic-relations-manager/">Strategic Relations Manager</a>
   reports_to: CEO
   picture: logo-extra-whitespace.png
