@@ -57,7 +57,7 @@ In the past, you could only install GitLab manually. Now you can install and upd
 [Omnibus](https://github.com/chef/omnibus-chef) is a tool developed by Chef that helps to create installation packages for complex software with a lot of components for various platforms.
 
 Any installation using Omnibus lasts for 2-6 minutes tops, depending on your server performance. This is what GitLab installation looks like on Ubuntu 14.04 using a relatively slow VPS with 2Gb running memory:
-[![asciicast](https://asciinema.org/a/39151.png)](https://asciinema.org/a/39151)
+<script type="text/javascript" src="https://asciinema.org/a/39151.js" id="asciicast-39151" async></script>
 
 Hint: in case you'd prefer not to mess with console installation and updates at all, you can simply rent a GitLab server on [Githost.io](https://githost.io/)
 
