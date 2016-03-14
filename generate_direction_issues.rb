@@ -41,7 +41,7 @@ class GitLabProject
    end
 
    def milestone_direction_issues(milestone_id)
-     @instance.call("/projects/#{@id}/issues", "?milestone=#{milestone_id}&labels=direction&state=opened")
+     @instance.call("/projects/#{@id}/issues", "?milestone=#{milestone_id}&labels=direction")
    end
 
    def name
