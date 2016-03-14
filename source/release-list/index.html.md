@@ -67,7 +67,7 @@ title: List of all GitLab releases
 - Easily Upload files in GitLab
 - Better HTTP Support
 - Mattermost Improvements
-- SSL Verification for Web Hooks
+- SSL Verification for Webhooks
 - Public User Profile and Group Pages
 - Notification Settings within the Projects main page
 

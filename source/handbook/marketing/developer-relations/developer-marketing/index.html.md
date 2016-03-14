@@ -15,9 +15,9 @@ In Phil Leggetter's [DevRelOMeter](http://www.leggetter.co.uk/2016/02/03/definin
 
 ## Current activities
 
-- Maintain a [social media](/handbook/marketing/developer-marketing/social-media/) presence which is friendly and responsive.
-- Publish an active [blog](/handbook/marketing/developer-marketing/blog/) with useful content relevant to GitLab users.
-- Introduce [monthly themes](/handbook/marketing/developer-marketing/monthly/) exploring content from multiple perspectives, and levels of experience.
+- Maintain a [social media](/handbook/marketing/developer-relations/developer-marketing/social-media/) presence which is friendly and responsive.
+- Publish an active [blog](/handbook/marketing/developer-relations/developer-marketing/blog/) with useful content relevant to GitLab users.
+- Introduce [monthly themes](/handbook/marketing/developer-relations/developer-marketing/monthly/) exploring content from multiple perspectives, and levels of experience.
 - Publish a twice-monthly email newsletter you can sign up to on [our contact page](https://about.gitlab.com/contact/).
 
 ## 2016 activities introduction
@@ -30,7 +30,7 @@ Some content from Heather McNamee her presentation [Developer Marketing Brainsto
 
 ## Webcasts
 
-- Host [webcasts](/handbook/marketing/developer-marketing/webcasts/) which welcome newcomers, celebrate with existing users, and provide access to expertise. These are great source of leads. Some can be interactive sessions with customers to discuss product direction.
+- Host [webcasts](/handbook/marketing/developer-relations/developer-marketing/webcasts/) which welcome newcomers, celebrate with existing users, and provide access to expertise. These are great source of leads. Some can be interactive sessions with customers to discuss product direction.
 
 ## Blog
 

@@ -92,6 +92,7 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
 1. [Compare GitLab versions](https://about.gitlab.com/features/#compare)
 
 1. [GitLab compared to other tools](https://about.gitlab.com/comparison/)
+    - [Compared to Atlassian (Recording 2016-03-03) ](https://youtu.be/Nbzp1t45ERo)
 
 1. [Positioning FAQ](https://about.gitlab.com/handbook/positioning-faq)
 
@@ -158,6 +159,8 @@ To prepare new salespeople at GitLab, an intense 30 day program has been complet
 1. [Positioning FAQ](https://about.gitlab.com/handbook/positioning-faq)
 
 1. [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
+
+1. [Making GitLab Great for Everyone, our response to the Dear GitHub letter](https://www.youtube.com/watch?v=GGC40y4vMx0)
 
 1. [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=ae7b72c61347030e8aa75328ed4b8660)
 

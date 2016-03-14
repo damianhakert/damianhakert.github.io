@@ -19,4 +19,4 @@ comments: false
 <a href="http://blog.gitlabhq.com/wp-content/uploads/2012/01/1328709.png"><img src="http://blog.gitlabhq.com/wp-content/uploads/2012/01/1328709-300x145.png" alt="" title="1328709" width="300" height="145" class="alignleft size-medium wp-image-207" /></a>
 
 
-<h2>and deploy keys, web hooks, etc</h2>
+<h2>and deploy keys, webhooks, etc</h2>

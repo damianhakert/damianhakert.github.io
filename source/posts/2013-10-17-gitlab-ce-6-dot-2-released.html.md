@@ -84,7 +84,7 @@ Misc:
   - Group owner or admin can remove other group owners
   - Make default user theme configurable (Izaak Alpert)
   - Update logic for validates_merge_request for tree of MR (Andrew Kumanyaev)
-  - Rake tasks for web hooks management (Jonhnny Weslley)
+  - Rake tasks for webhooks management (Jonhnny Weslley)
   - Fixed relative links in markdown
 
 - - -

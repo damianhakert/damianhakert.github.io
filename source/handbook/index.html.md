@@ -269,9 +269,8 @@ step, **re-assign** the issue to that person.
 
 1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
 1. We use BlueJeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
-1. Please join the meeting with your x@gitlab.com account, not your private Google account.
 1. If you have previously logged on to Bluejeans with different credentials, make sure to log out before joining the call as yourself.
-1. We wait for people to join the first two minutes of the meeting until :32.
+1. We start on time and will not wait for people.
 1. If you are unable to attend just add your name to the [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) as 'Not attending'.
 1. We start by discussing the subjects that are on the agenda for today.
    * Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
@@ -331,6 +330,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. Always write GitLab with a capitalized G and L, even when writing GitLab.com.
 1. Monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9
 1. If an email needs a response write the ask at the top of it.
+1. Use the future version of words, just like we don't write internet with a capital anymore, we write frontend and webhook without a hyphen or space.
 1. Our homepage is https://about.gitlab.com/ (with the `about.` and with `https`).
 1. Please refer to self-hosted installations as on-premises, not on-premise.
 1. If you use headers properly format them (`##` in Markdown, "Heading 2" in Google docs), start at the second header level because header level 1 is for titles, do not end headers with a colon.
@@ -428,7 +428,7 @@ intellectual property violations
     * We strongly recommended to take at least a minimum of 2 weeks of vacation per year, if you take less your manager might follow up to discuss your work load.
 1. You do need to ensure that not more than **half** of the people that can help with availability emergencies (the on-call heroes), regular support, sales, or development are gone at any moment. You can check for this on the availability calendar, so be sure to add appointments early.
 1. Please see the [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
-page for information on how to handle scheduled leave for someone from the [on-call](#on-call) team. 
+page for information on how to handle scheduled leave for someone from the [on-call](#on-call) team.
 1. Add an **appointment** to the GitLab availability calendar as you know your plans, you can always change it later.
 1. In case it can be useful add your planned time off as a **FYI** on the next agenda of the team call.
 1. We will **help** clients during official days off, unless they are official days off in both the Netherlands and the U.S. We try to have people working who are in a country that don't have an official day off. If you need to work during an official day off in your country, you should take a day off in return.
@@ -507,7 +507,7 @@ This section is for tools that don't fit anywhere else.
 ### Calendly
 
 [Calendly](https://calendly.com/): Set up 45 minute meeting slots. Connect to your Google calendar which knows your availability.
-The meeting will alwasys create the same Google Video url so if you have that you can add it to the booking.
+The meeting will always create the same Google Video url so if you have that you can add it to the booking.
 
 ### Shush
 

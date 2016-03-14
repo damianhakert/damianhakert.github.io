@@ -30,7 +30,7 @@ And today we announced another FOSS software for developers. Its GitLab CI.
 
 **GitLab CI supports only git SCM.**
 
-**GitLab CI requires present of GitLab instance with web hooks setup to make builds automatically**
+**GitLab CI requires present of GitLab instance with webhooks setup to make builds automatically**
 
 ### How it works: 
 
@@ -38,9 +38,9 @@ And today we announced another FOSS software for developers. Its GitLab CI.
 2. Then you clone projects you want to test and setup test environment
 3. Next step is just add projects to GitLab CI via web UI
   ![Screenshot](/images/gitlab_ci_new_project.png)
-4. Add just copy HTTP POST url provided by GitLab CI to your GitLab web hooks
+4. Add just copy HTTP POST url provided by GitLab CI to your GitLab webhooks
   ![Screenshot](/images/gitlab_ci_project.png)
-5. When you push code to GitLab web hook will trigger CI to make a build
+5. When you push code to GitLab webhook will trigger CI to make a build
 
 
 [Source Code](https://github.com/gitlabhq/gitlab-ci)

@@ -53,6 +53,11 @@
     link: http://doc.gitlab.com/ee/workflow/ff_merge.html
   - description: Git hooks (commit message must mention an issue, no tag deletion, etc.)
     link: http://doc.gitlab.com/ee/git_hooks/git_hooks.html
+  - description: Webhooks at Project Level
+    link: http://doc.gitlab.com/ee/web_hooks/web_hooks.html
+    in_ce: true
+  - description: Webhooks at Group Level  
+    link: http://doc.gitlab.com/ee/web_hooks/web_hooks.html
   - description: Lock project membership to the members of a group
     link: http://doc.gitlab.com/ee/workflow/groups.html
   - description: Approve Merge Requests

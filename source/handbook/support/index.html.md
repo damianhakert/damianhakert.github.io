@@ -16,6 +16,7 @@ title: Support
 - [Support Direction](#support-direction)
 - [Service Level Agreements](#sla)
 - [Support Turbo](#support-turbo)
+- [Internal Support](#internal)
 - [Support Channels](#support-channels)
    - [Dashboard](#dashboard)
    - [Emergency Tickets](#emergency)
@@ -71,11 +72,15 @@ for key customers while still addressing the questions of all subscribers, and t
 
 ## Service Level Agreements <a name="sla"></a>
 
-- Emergency tickets should be answered within 30 minutes.
-- Tickets from customers should be answered within 1 business day, preferably sooner.
-- Tickets from social channels don't have a contractually set SLA, but internally we
-aim for no later than next business day for tickets from Disqus and Twitter. Ideally
-all other social channels should also be answered within 2 business days.
+The channels are sorted in order of priority, there are 4 general SLA's:
+
+1. Emergency tickets should be answered within 30 minutes.
+2. Security disclosures through regular tickets should be answered within 1 business day.
+3. Disqus and Twitter: we strive to answer them within 1 business day.
+4. Posted Issues through Reddit: we strive to answer them within 2 business days.
+
+Preferably we like to answer tickets sooner than the SLA requires.
+The higher a channel is in the list the sooner it should be answered.
 
 ## Support Turbo<a name="support-turbo"></a>
 
@@ -97,14 +102,7 @@ label and @ mentioning one or more Service Engineers.
 1. If customers or users have questions advise them to contact support direct via the relevant channel.
 1. For quick questions that are urgent ping the support team on the support chat channel.
 
-## Support Channels <a name="support-channels"></a>
-
-Our [service engineers](/jobs/service-engineer) handle the channels listed below.
-They are sorted in order of priority (strictest SLA at top), and as a result, it is possible that channels that appear lower
-in this list experience longer delays in receiving responses. We are actively [hiring](https://about.gitlab.com/jobs/)
-more Service Engineers to strengthen the team and provide support to the community.
-
-### Dashboard <a name="dashboard"></a>
+## Dashboard <a name="dashboard"></a>
 
 The [ZenDesk Insight dashboard](https://gitlab.zendesk.com/agent/reporting/analytics/period:0/dashboard:buLJ3T7IiFnr)
 lists the activity for all our channels currently and summarized over the last 30 days (login to ZenDesk required).
@@ -112,6 +110,13 @@ lists the activity for all our channels currently and summarized over the last 3
 The iframe below also shows this dashboard, but it requires a valid session for the above link. Signing in on this page doesn't seem to work.
 
 <iframe frameborder="0" src="https://analytics.zendesk.com/dashboard.html#project=/gdc/projects/fan67iacybmx4rawsd6jcipe01ouaxvt&dashboard=/gdc/md/fan67iacybmx4rawsd6jcipe01ouaxvt/obj/65766&nochrome=true" width="100%" height="380px" allowTransparency="false"></iframe>
+
+## Support Channels <a name="support-channels"></a>
+
+Our [service engineers](/jobs/service-engineer) handle the channels listed below.
+They are sorted in order of priority (strictest SLA at top), and as a result, it is possible that channels that appear lower
+in this list experience longer delays in receiving responses. We are actively [hiring](https://about.gitlab.com/jobs/)
+more Service Engineers to strengthen the team and provide support to the community.
 
 ### Emergency Tickets <a name="emergency"></a>
 
@@ -282,7 +287,7 @@ you must make sure to **@ mention the user** who tweeted their question to @gitl
 The @GitLabStatus account should only be used to
 give updates on the availability of GitLab.com and to follow up on users reporting that GitLab.com is unavailable.
 
-### Follow up on issues on GitLab issue tracker<a name="issue-tracker"></a>
+### Follow up on issues posted on GitLab issue tracker<a name="issue-tracker"></a>
 
 For ZenDesk issues you will have created issues on the relevant issue tracker.
 Please refer to the priority as listed under [GitLab Workflow in the handbook](https://about.gitlab.com/handbook/#gitlab-workflow).

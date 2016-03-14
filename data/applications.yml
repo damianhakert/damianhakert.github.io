@@ -177,12 +177,12 @@
         - url: https://gitlab.com/mcepl/create-gitlab-repo
           title: Repository
     - title: GitLab Listener
-      content: JIRA add-on allowing the reception of GitLab push events using GitLab project web hooks.
+      content: JIRA add-on allowing the reception of GitLab push events using GitLab project webhooks.
       links:
         - url: https://marketplace.atlassian.com/plugins/com.allenta.jira.plugins.gitlab.gitlab-listener
           title: Atlassian Marketplace
     - title: GitLab IRC gateway
-      content: 'IRC notifications using web hooks, implemented with the <a href="http://www.catb.org/esr/irker/">irker IRC bot</a>'
+      content: 'IRC notifications using webhooks, implemented with the <a href="http://www.catb.org/esr/irker/">irker IRC bot</a>'
       links:
         - url: https://gitlab.com/anarcat/irklab
           title: Repository on gitlab.com
@@ -330,7 +330,7 @@
           title: Taiga.io
     - title: Kanboard
       content: 'A free, open source and self-hosted visual task board software.
-      GitLab events can be connected to Kanboard''s automatic actions through <a href="http://kanboard.net/documentation/gitlab-webhooks">GitLab web hooks</a> and <a href="http://kanboard.net/documentation/gitlab-authentication">GitLab authentication</a>'
+      GitLab events can be connected to Kanboard''s automatic actions through <a href="http://kanboard.net/documentation/gitlab-webhooks">GitLab webhooks</a> and <a href="http://kanboard.net/documentation/gitlab-authentication">GitLab authentication</a>'
       links:
         - url: http://kanboard.net
           title: kanboard.net
