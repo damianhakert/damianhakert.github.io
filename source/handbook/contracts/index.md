@@ -896,8 +896,12 @@ notify the manager, and permission is implied unless noted otherwise by the Empl
 
 **15\. Non-competition clause**
 
-1. Without the prior written permission of the Employer, the Employee is prohibited during employment and for a period of 24 months following termination of the Employment Contract to establish, run, have run or jointly run a business identical, similar or related to that of the Employer, either directly or indirectly, or to work in any capacity in such a business, either on a paid or unpaid basis, or to have a share in it of any nature whatsoever. 
-1. The business of the Employer is offering source code management software and services.
+1. Without the prior written permission of the Employer, the Employee is prohibited 
+during employment and for a period of 24 months following termination of the Employment 
+Contract to establish, run, have run or jointly run a business that offers source 
+code management software and services, either directly or indirectly, or to work in any 
+capacity in such a business, either on a paid or unpaid basis, or to have a share in 
+it of any nature whatsoever. 
 1. Employer is a start-up company. If Employee leaves Employer and transfers knowledge, clients or other key information for the start-up company, this could directly damage the financial stability and existence of the Employer. For that reason Employer applies a non-competition clause to this contract.
 
 **16\. Business relations clause**
@@ -1033,12 +1037,12 @@ GitLab and Contributor are hereinafter collectively referred to as the “Partie
 **6\. Non-competition**
 
 6.1 Without the prior written permission of GitLab, the Contributor is prohibited 
-for the duration of the term of this Contractor Agreement and for a period of 24 months following 
-the term of this Contractor Agreement to establish, run, have run or jointly run a business identical, similar 
-or related to that of the Employer, either directly or indirectly , or to work in 
-any capacity in such a business, either on a paid or unpaid basis, or to have a 
-share in it of any nature whatsoever.
-6.2 The business of GitLab is offering source code management software and services.
+for the duration of the term of this Contractor Agreement and for a period of 24 
+months following the term of this Contractor Agreement to establish, run, have 
+run or jointly run a business that offers source code management software and 
+services, either directly or indirectly , or to work in any capacity in such a 
+business, either on a paid or unpaid basis, or to have a share in it of any nature 
+whatsoever.
  
 **7\.	Business relations**   
 7.1	During the term of this Agreement Contributor shall not, without GitLab’s prior 
@@ -1053,7 +1057,11 @@ to sever their relationship with GitLab.
  
  
 **8\.	Penalty**   
-8.1	For each infringement of the provisions of article 5, 6 and/or 7, Contributor forfeits to GitLab, without further summons or notice of default being required, an immediately eligible penalty of EUR 25.000,-, plus an amount of EUR 1.000,- for each day that the infringement continues, without prejudice of GitLab’s right to claim compliance and damages.  
+8.1	For each infringement of the provisions of article 5, 6 and/or 7, Contributor 
+forfeits to GitLab, without further summons or notice of default being required, 
+an immediately eligible penalty of EUR 25.000,-, plus an amount of EUR 1.000,- for 
+each day that the infringement continues, without prejudice of GitLab’s right to 
+claim compliance and damages.  
  
 **9\.	Intellectual property**   
 9.1	Parties will agree on Intellectual Property in a separate agreement appended to this Contractor Agreement. The Intellectual Property Agreement is an indissoluble part of this Contractor Agreement.
