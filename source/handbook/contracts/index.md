@@ -1030,15 +1030,26 @@ GitLab and Contributor are hereinafter collectively referred to as the “Partie
 5.2. In case of termination of this agreement for whatever reason, Contributor is obliged to immediately return all documentation and other property belonging to GitLab which Contributor has in Contributor’s possession together with Contributor's own notes and photocopies.  
 5.3	Contributor shall not be permitted to retain any property belonging to GitLab to offset any alleged claim against GitLab. Contributor waives any right of retention of property.  
 
-**6\. Non-competition clause**
+**6\. Non-competition**
 
-6.1 Without the prior written permission of the Employer, the Employee is prohibited during employment and for a period of 24 months following termination of the Employment Contract to establish, run, have run or jointly run a business identical, similar or related to that of the Employer, either directly or indirectly , or to work in any capacity in such a business, either on a paid or unpaid basis, or to have a share in it of any nature whatsoever.
-6.2 The business of the Employer is offering source code management software and services
+6.1 Without the prior written permission of GitLab, the Contributor is prohibited 
+for the duration of the term of this Contractor Agreement and for a period of 24 months following 
+the term of this Contractor Agreement to establish, run, have run or jointly run a business identical, similar 
+or related to that of the Employer, either directly or indirectly , or to work in 
+any capacity in such a business, either on a paid or unpaid basis, or to have a 
+share in it of any nature whatsoever.
+6.2 The business of GitLab is offering source code management software and services.
  
 **7\.	Business relations**   
-7.1	During the term of this Agreement Contributor shall not, without GitLab’s prior written consent, either directly or indirectly, work for or be involved with any customers and/or business relations of GitLab, unless on behalf of GitLab.  
-7.2	Contributor shall not, for a period of two years after the end of this Agreement, without GitLab’s prior written consent, either directly or indirectly, work for or be involved with any customers and/or business relations of GitLab. This obligation applies irrespective of whether or not Contributor initiated any such contact.  
-7.3	Contributor shall not encourage customers and/or business contacts of GitLab to sever their relationship with GitLab.
+7.1	During the term of this Agreement Contributor shall not, without GitLab’s prior 
+written consent, either directly or indirectly, work for or be involved with any 
+customers and/or business relations of GitLab, unless on behalf of GitLab.  
+7.2	Contributor shall not, for a period of two years after the end of this Agreement, 
+without GitLab’s prior written consent, either directly or indirectly, work for or 
+be involved with any customers and/or business relations of GitLab. This obligation 
+applies irrespective of whether or not Contributor initiated any such contact.  
+7.3	Contributor shall not encourage customers and/or business contacts of GitLab 
+to sever their relationship with GitLab.
  
  
 **8\.	Penalty**   
