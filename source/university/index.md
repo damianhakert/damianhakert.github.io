@@ -35,6 +35,8 @@ the [Process Documentation](/university/process).
         - [Extra Topics](#extra-topics)
 - [Training Material](#training-material)
     - [User Training](#user-training)
+- [Support Boot Camp](/university/support)
+- [Sales Boot Camp](/university/sales)
 
 ---
 
@@ -51,7 +53,7 @@ necessary.
 
 There is a [YouTube playlist with all recordings](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg/playlists).
 
-#### Web Casts
+#### Webcasts
 
 There is a university class every Thursday at 5PM UTC for GitLab team members
 only. Send Job a message to sign up.
@@ -179,8 +181,8 @@ only. Send Job a message to sign up.
 
 **Dive into your particular path**
 
-- [Sales Path](/university/sales/)
 - [Support Path](/university/support/)
+- [Sales Path](/university/sales/)
 
 ### Other general topics <a name="other-general-topics"></a>
 
