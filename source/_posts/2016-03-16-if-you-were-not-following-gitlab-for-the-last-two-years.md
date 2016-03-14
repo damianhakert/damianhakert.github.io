@@ -95,5 +95,6 @@ So please don't be surprised once crashed build creates a TODO automatically or 
 Hopefully, this article has helped you to fill in the gaps in understanding of what GitLab is now. I'm planning to write two more articles: about migrating personal projects to GitLab and about the contribution to GitLab. Stay tuned and [follow me on Twitter](https://twitter.com/inemation).
 
 I'm always happy to answer your questions in comments or personally. Over the next several weeks I will be attending the following Ukrainian Ruby-meetups, where we can catch up:
+
 - [Ruby Meditation, Kiev](https://www.facebook.com/events/406794219490854/) (March 18)
 - [Pivorak, Lviv](https://www.facebook.com/pivorak/) (March 26)
