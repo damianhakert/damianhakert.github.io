@@ -84,7 +84,7 @@ Don't forget that you can install GitLab on your own server as well.
 
 In the past, you could only install GitLab manually.
 Now you can install and update the service from packages thanks to Omnibus.
-[Omnibus](http://doc.gitlab.com/omnibus/) is a tool developed by Chef
+[Omnibus](http://doc.gitlab.com/omnibus) is a tool developed by Chef
 that helps to create installation packages for complex software with a lot of
 components for various platforms.
 
