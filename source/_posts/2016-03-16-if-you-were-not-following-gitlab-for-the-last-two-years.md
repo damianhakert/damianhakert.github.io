@@ -28,7 +28,7 @@ But then I remembered that the title "Pull request" never did make perfect sense
 
 As it turns out, there is a command [`git request-pull`](https://git-scm.com/docs/git-request-pull), hence the feature title.
 
-Pull requests have hothing in common with this git command. Technically correct name is "Merge request". 
+Pull requests have hothing in common with this git command. So, technically correct name is "merge request". 
 [Learn more](https://about.gitlab.com/2016/01/27/comparing-terms-gitlab-github-bitbucket/) on terminology difference, if you're interested.
 
 The terminology was just a part of the deal. When reading the documentation, I've discovered something called "omnibus" and found some mysterious "runners" and "shared runners" in the settings. But first things first. 
