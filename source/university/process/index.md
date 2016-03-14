@@ -5,7 +5,7 @@ title: University | Process
 
 ## Suggesting improvements
 
-If you would like to teach ca class or participate or help in any way please
+If you would like to teach a class or participate or help in any way please
 submit a merge request and assign it to [Job](https://gitlab.com/u/JobV).
 
 If you have suggestions for additional courses you would like to see,
