@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "If you were not following GitLab for the last two years"
-date: 2016-03-16
+title: "GitLab: In case you missed it"
+date: 2016-03-14
 comments: true
 author: Ivan Nemytchenko
 author_twitter: inemation
@@ -105,8 +105,7 @@ You simply push your changes to the repository and GitLab generates and deploys 
 
 Custom CNAME and TLS [are supported](http://doc.gitlab.com/ee/pages/README.html#add-a-custom-domain-to-your-pages-website).
 
-
-These kinds of features have become possible due to a synergic effect between system components.
+These kinds of features have become possible due to a synergic effect between system components. There's much more
 
 ## GitLab Direction
 
