@@ -79,7 +79,9 @@ GitLab Pages runs on top of the built-in CI. Thanks to the feature, you can host
 Fork a repo from [GitLab examples](https://gitlab.com/groups/gitlab-examples?utf8=%E2%9C%93&filter_projects=pages-) or figure out GitLab CI settings to forget all about the manual static generation. 
 You simply push your changes to the repository and GitLab generates and deploys everything on its own.
 
-CNAME and TLS are supported.
+Custom CNAME and TLS [are supported](http://doc.gitlab.com/ee/pages/README.html#add-a-custom-domain-to-your-pages-website).
+
+
 
 
 These kinds of features have become possible due to a synergic effect between system components.
