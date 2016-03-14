@@ -29,7 +29,7 @@ No, there is no catch.
 It should be noted that repositories are actually called "projects". 
 
 And that is not the only thing that catches your eye at first. 
-As it turns out, the unusual terminology is, in fact, justified. 
+As it turns out, the terminology is justified.
 
 ## The terminology 
 
