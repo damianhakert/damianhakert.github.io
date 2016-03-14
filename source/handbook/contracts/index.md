@@ -1017,7 +1017,7 @@ GitLab and Contributor are hereinafter collectively referred to as the “Partie
 2.6	Contributor is free to engage other persons to assist Contributor with the service, in consultation with GitLab, and as long as Contributor bears the costs concerned.  
  
 **3\.	Fee**   
-3.1	For the fulfilment of the service by Contributor on behalf of GitLab, GitLab shall pay Contributor a fee of € {Monthly Payment} per calendar month for the duration of the project. GitLab will receive detailed time sheets from Contributor with specific activities and the times under which they were completed specifically pertaining to fulfilment of the service concerned.  
+3.1	For the fulfilment of the service by Contributor on behalf of GitLab, GitLab shall pay Contributor a fee of {Monthly Payment} per calendar month for the duration of the project. GitLab will receive detailed time sheets from Contributor with specific activities and the times under which they were completed specifically pertaining to fulfilment of the service concerned.  
 3.2	In consultation with GitLab, Contributor is entitled to paid time off in accordance with the handbook (https://about.gitlab.com/handbook/#paid-time-off) . However, GitLab has the right to revoke or change the days off at all times if the company’s interest is harmed or damaged.  
 3.3	GitLab will pay Contributor’s invoice within 30 days.  
 3.4	Contributor’s fee includes a full compensation for any expenses related to the performance of Contributor's activities for GitLab and a full compensation for any damages Contributor may suffer in the performance of Contributor's activities for GitLab.  
