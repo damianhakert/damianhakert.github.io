@@ -3,6 +3,7 @@ exclude:
   - "./source/stylesheets/vendor/**"
   - "./build/**"
   - "./public/**"
+  - "./vendor/**"
 
 linters:
   BorderZero:
