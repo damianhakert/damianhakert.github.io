@@ -42,7 +42,7 @@ the [Process Documentation](/university/process).
 
 ## General Boot Camp <a name="general-boot-camp"></a>
 
-In order to get everyone started quickly with GitLab, and intense 30 days course
+In order to get everyone started quickly with GitLab, an intense 30 days course
 has been prepared. The path outlined here should be followed by everyone new to GitLab,
 and depending on your functional group, extra steps will be required.
 
@@ -51,7 +51,8 @@ necessary.
 
 #### Recordings
 
-There is a [YouTube playlist with all recordings](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg/playlists).
+There is a [YouTube playlist with all recordings](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg/playlists),
+and links to specific videos can be found bellow.
 
 #### Webcasts
 
@@ -63,16 +64,6 @@ only. Send Job a message to sign up.
 ### Week 1 <a name="week-1"></a>
 
 **Familiarize yourself with the basics**
-
-1. [GitLab Workshop Part 1: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-1/material/)
-
-1. [GitLab Workshop Part 2: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-23370/material/)
-
-1. [GitLab Workshop Part 3: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-3/material/)
-
-1. [GitLab Workshop Part 4: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-4/material/)
-
-1. [Making GitLab Great for Everyone, our response to the Dear GitHub letter](https://www.youtube.com/watch?v=GGC40y4vMx0)
 
 1. Understanding [terminology](https://about.gitlab.com/university/glossary/).
    Please create a merge request for any term that does not have an answer or
@@ -88,6 +79,16 @@ only. Send Job a message to sign up.
 1. Introduction to Git
     - [Intro to Git](https://www.codeschool.com/account/courses/try-git)
     - Supporting: [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
+
+1. [GitLab Workshop Part 1: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-1/material/)
+
+1. [GitLab Workshop Part 2: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-23370/material/)
+
+1. [GitLab Workshop Part 3: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-3/material/)
+
+1. [GitLab Workshop Part 4: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-4/material/)
+
+1. [Making GitLab Great for Everyone, our response to the Dear GitHub letter](https://www.youtube.com/watch?v=GGC40y4vMx0)
 
 1. Create a GitLab Account
     - [Create a GitLab Account](https://courses.platzi.com/classes/git-gitlab/concepto/first-steps/create-an-account-on-gitlab/material/)

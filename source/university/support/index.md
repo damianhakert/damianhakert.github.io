@@ -17,15 +17,16 @@ your way here for more advanced and specific training.
 
 ### Week 1
 
-Follow the [General Boot Camp](../#general-boot-camp) and concentrate on it
-during your first week.
+Follow the [General Boot Camp](../#general-boot-camp), concentrate on it
+during your first week, but also:
+
+1. Perform the [first steps](/handbook/support/onboarding.html#first-steps) of
+   the on-boarding process for new Service Engineers
 
 ### Week 2
 
 Complement the [General Boot Camp](../#general-boot-camp) with these topics:
 
-1. Perform the [first steps](/handbook/support/onboarding.html#first-steps) of
-   the on-boarding process for new Service Engineers
 1. Get to know GitLab by installing the [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit)
 1. [Installation Methods](/installation/):
 	  - Omnibus
@@ -65,9 +66,16 @@ Complement the [General Boot Camp](../#general-boot-camp) with these topics:
    - Migrate from a [source installation to Omnibus](http://doc.gitlab.com/omnibus/update/README.html#upgrading-from-a-non-omnibus-installation-to-an-omnibus-installation)
 
 1. Join Support Calls by asking with your colleagues to invite you
-1. Start getting real world experience by handling real tickets. Begin with Twitter
-   and make your way down in the [priority order](/handbook/support#support-channels)
-1. Schedule a DevOps training to be able to handle GitLab.com going down
+1. Start getting real world experience by handling real tickets. Begin with new
+   tickets from the lowest [priority channels](/handbook/support#support-channels)
+   that are listed on the Support page, and then address any backlog that may
+   exist for those channels.
+
+1. Create an issue on the internal Organization tracker to schedule time with
+   the DevOps / Production team, so that you learn how to handle GitLab.com
+   going down. Once you are trained for this, you are ready to be added to the
+   on-call rotation.
+
 1. Get to know the GitLab Codebase by reading through the source code:
    - Find the differences between the [EE codebase](https://gitlab.com/gitlab-org/gitlab-ce)
      and the [CE codebase](https://gitlab.com/gitlab-org/gitlab-ce)
