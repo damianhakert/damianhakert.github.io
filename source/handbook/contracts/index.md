@@ -1029,9 +1029,11 @@ GitLab and Contributor are hereinafter collectively referred to as the “Partie
 5.1	Parties will agree on Confidentiality a separate agreement appended to this Contractor Agreement. The Confidentiality Agreement is an indissoluble part of this Contractor Agreement.  
 5.2. In case of termination of this agreement for whatever reason, Contributor is obliged to immediately return all documentation and other property belonging to GitLab which Contributor has in Contributor’s possession together with Contributor's own notes and photocopies.  
 5.3	Contributor shall not be permitted to retain any property belonging to GitLab to offset any alleged claim against GitLab. Contributor waives any right of retention of property.  
- 
-**6\.	Non-competition**  
-6.1	During the term of this Agreement, Contributor shall not without the prior written consent of GitLab directly or indirectly perform any activities which are competing with the activities of GitLab or violate GitLab’s interests in any other way.
+
+**6\. Non-competition clause**
+
+6.1 Without the prior written permission of the Employer, the Employee is prohibited during employment and for a period of 24 months following termination of the Employment Contract to establish, run, have run or jointly run a business identical, similar or related to that of the Employer, either directly or indirectly , or to work in any capacity in such a business, either on a paid or unpaid basis, or to have a share in it of any nature whatsoever.
+6.2 The business of the Employer is offering source code management software and services
  
 **7\.	Business relations**   
 7.1	During the term of this Agreement Contributor shall not, without GitLab’s prior written consent, either directly or indirectly, work for or be involved with any customers and/or business relations of GitLab, unless on behalf of GitLab.  
