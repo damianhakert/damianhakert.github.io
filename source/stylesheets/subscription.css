@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, button, a {
 }
 
 .subscription {
-  width: 300px;
+  width: 100%;
   font-weight: 200;
   text-align: center;
   transition: all 0.3s;
@@ -116,11 +116,10 @@ h1, h2, h3, h4, h5, button, a {
 
 
 .subscription .header {
-  font-size: 40px;
+  font-size: 30px;
   color: #FFFFFE;
   background: #444;
-  height: 110px;
-  line-height: 100px;
+  line-height: 70px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   text-transform: uppercase;
@@ -142,7 +141,7 @@ h1, h2, h3, h4, h5, button, a {
   position: relative;
 }
 
-.standard.subscription .header {
+.standard.subscription > .header {
   background: #129BEE;
 }
 
@@ -150,7 +149,6 @@ h1, h2, h3, h4, h5, button, a {
   font-size: 50px;
   color: #444;
   padding: 33px 0px 20px;
-  background: #fff;
   font-weight: 600;
 }
 
@@ -172,7 +170,6 @@ h1, h2, h3, h4, h5, button, a {
 }
 
 .subscription .details {
-  background: #FFFFFF;
   padding: 11px 30px 20px;
   text-align: left;
 }
@@ -213,7 +210,8 @@ h1, h2, h3, h4, h5, button, a {
   width: 10%;
 }
 
-.subscription a.button {
+.subscription a.button,
+.subscription a.subscription-btn {
   padding: 15px;
   background: #e7e7e7;
   display: inline-block;
@@ -225,19 +223,19 @@ h1, h2, h3, h4, h5, button, a {
   color: #333;
 }
 
-.standard.subscription a.button {
+.subscription a.button:hover {
+  text-decoration: none;
+  background: #6144B8;
+  color: #fff;
+}
+
+.subscription a.subscription-btn {
   background: #129BEE;
   color: #fff;
 }
 
-.standard.subscription a.button:hover {
+.subscription a.subscription-btn:hover {
   background: #6144B8;
-}
-
-.subscription a.button:hover {
-  text-decoration: none;
-  background: #6144B8;
-  color: white;
 }
 
 .quote {
@@ -314,9 +312,6 @@ h1, h2, h3, h4, h5, button, a {
 }
 
 @media ( max-width: 900px ) and (min-width: 768px) {
-  .subscription {
-    width: 250px;
-  }
   .subscription .detail {
     font-size: 14px;
   }
@@ -462,4 +457,39 @@ a.btn-default:hover {
   border-radius: 5px;
   max-width: 271px;
   margin: 10px auto;
+}
+
+.new-addons {
+  margin: 30px 0px;
+  text-align: center;
+}
+
+.new-addons h2 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.new-addons p {
+  margin: 10px 0 0
+}
+
+.empty-content-btn {
+  margin-top: 10px;
+}
+
+.main-subscription .price {
+  padding: 0 0;
+  font-size: 70px;
+}
+
+.main-subscription .price .money {
+  top: -30px;
+}
+
+.main-subscription .subprice {
+  margin-top: -20px;
+}
+
+.main-subscription-extra .detail {
+  padding: 1px 0;
 }
