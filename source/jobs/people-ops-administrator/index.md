@@ -18,6 +18,7 @@ with the goal always being to make things easier from the perspective of the tea
 * Suggest improvements to the hiring pipeline, for example a better referral program
 * Help design and implement learning programs
 * Write job descriptions and promotion criteria
+* Help the CEO answer team member [Feedback Form](https://about.gitlab.com/culture/) questions
 
 ## Requirements
 
