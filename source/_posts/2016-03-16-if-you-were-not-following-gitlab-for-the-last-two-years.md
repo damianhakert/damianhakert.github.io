@@ -14,9 +14,9 @@ The first two weeks working with GitLab have been full of pleasant surprises and
 
 <!--more-->
 
-## [GitLab.com](https://gitlab.com/users/sign_in)
+## GitLab.com
 
-You don't have to download and install GitLab nowadays. You can simply sign up for GitLab.com and host your own repositories. Even the private ones. Yes, for free and without any restrictions. No, there is no catch.
+You don't have to download and install GitLab nowadays. You can simply [sign up for GitLab.com](https://gitlab.com/users/sign_in) and host your own repositories. Even the private ones. Yes, for free and without any restrictions. No, there is no catch.
 
 It should be noted that repositories are actually called "projects". And that is not the only thing that hits the eyes at first. As it turns out, the uncustomary terminology is, in fact, justified. 
 
