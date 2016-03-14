@@ -44,32 +44,36 @@ there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @emily, and @tiffani
 * [ ] People Ops: input relevant data (dates, compensation) into the Org Sheet (google sheet).
 * [ ] Robert/Jacob/COO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
 * [ ] Robert/Jacob/COO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
-* [ ] Hiring manager: send an email to company address 'Please read https://about.gitlab.com/handbook/ and the relevant onboarding pages that are linked from there and let me know if you have any questions.'
+* [ ] Hiring manager: send an email to company address ''
 * [ ] Robert/Jacob/COO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] Robert/Jacob/COO: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
 * [ ] Robert/Jacob/COO: Add to [Slack](https://gitlab.slack.com/admin)
 * [ ] People Ops: Give team member access to the GitLab availability calendar.
-* [ ] People Ops: Invite to team meeting.
-* [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment.
-* [ ] People Ops: Assign buddy and explain to buddy what that means: "What it
-means is that if she/he has questions she/he can come to you. But your main job
-as a buddy will be to direct her/him to the right parts of the handbook, and/or
-encourage her/him to ask her/his questions of the wider group on Slack, etc."
-* [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team.
-   * [ ] 1. call with ___
-   * [ ] 2. call with ___
-   * [ ] 3. call with ___
-   * [ ] 4. call with ___
-   * [ ] 5. call with ___
-   * [ ] 6. call with ___
-   * [ ] 7. call with ___
-   * [ ] 8. call with ___
-   * [ ] 9. call with ___
-   * [ ] 10. call with ___
+* [ ] People Ops: Invite to team meeting on the Google Availability calendar.
+* [ ] People Ops: send the following message to the new team member, the buddy, 
+and the hiring manager to tackle several topics at once:  
+"Hi [name],
+
+Just reaching out with a few topics relating to your 
+onboarding that you may find helpful to know right away. We have a
+team call every workday at 8:30 AM Pacific (___ your local time). 
+
+You should have received an invitation to the team call on your new @gitlab.com address, please let me know if 
+you are having trouble accessing the agenda and the link to the meeting. Your onboarding issue
+is here (include link). Please read https://about.gitlab.com/handbook/ and the relevant 
+onboarding pages that are linked from there and let me know if you have any questions.
+
+Your buddy is [name of buddy]. Your buddy can help you with any
+questions you might have, but their main responsibility is to direct you to relevant 
+parts of the handbook and the right communication channels. For People Ops related 
+questions, you can of course email me as well.
+
+Finally, please let me know if you need any supplies or equipment (see the handbook 
+for examples of things that we reimburse), and I will help you get that sorted out."
 
 
 ### WITHIN TWO DAYS OF STARTING
-*For GitLab Inc employees only*  
+**For GitLab Inc employees only**  
 
 * [ ] People Ops: gather relevant information from new team member to enter them into the TriNet system.
 * [ ] People Ops: complete and submit an online Add New Hire Form
@@ -79,7 +83,7 @@ welcome email to the employee at their work email on their first date of hire.
 * [ ] New employee: read through the [New Hire Benefits Guide](https://drive.google.com/a/gitlab.com/file/d/0B0dixQ9qzgilNlN0MnNFS29xWnB2SjNWVUk3dUV2aWlhejVR/view?usp=sharing). This will go over medical, dental, vision and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
 * [ ] People Ops: Set up new hire training with TriNet (If necessary).
 
-#### For GitLab BV employees only
+**For GitLab BV employees only**
 
 * [ ] New team member: fill in this payroll information [form](https://docs.google.com/a/gitlab.com/forms/d/1mExVeTRn1cd0MtnNuvMSy7UJ8WazI5D6_snq3R6bsmI/viewform)
 This info is needed to get your profile ready with Savvy HR in order to get you your payslips and other information.
@@ -104,7 +108,17 @@ and then ping @rspeicher to confirm your account.
 * [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing)
 * [ ] New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
 * [ ] New team member: Make an improvement to the handbook (something that you wished was there), assign the merge request (MR) to your manager and link the MR url in this onboarding issue.
-
+* [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team. (Edit this issue as you add people).
+   * [ ] 1. call with ___
+   * [ ] 2. call with ___
+   * [ ] 3. call with ___
+   * [ ] 4. call with ___
+   * [ ] 5. call with ___
+   * [ ] 6. call with ___
+   * [ ] 7. call with ___
+   * [ ] 8. call with ___
+   * [ ] 9. call with ___
+   * [ ] 10. call with ___
 
 ### FOR ENGINEERING ONLY (Devs, PEs, SEs)
 
