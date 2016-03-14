@@ -70,7 +70,7 @@ Let us review a few features.
 
 With GitLab, you don't have to wait for your build to turn green to finally merge the branch. You can simply ask GitLab to do that for you.
 
-![](automerge.png)
+![](/images/automerge.jpg)
 
 ### Publishing with GitLab Pages
 
