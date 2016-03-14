@@ -55,9 +55,6 @@ there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @emily, and @tiffani
 means is that if she/he has questions she/he can come to you. But your main job
 as a buddy will be to direct her/him to the right parts of the handbook, and/or
 encourage her/him to ask her/his questions of the wider group on Slack, etc."
-* [ ] New team member: provide signed contract (including signed proprietary information and assignment agreement (PIAA)) to People Ops.
-* [ ] New team member: where applicable, provide scan of photo ID to People Ops.
-* [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), and become comfortable with Git and the GitLab workflow.
 * [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team.
    * [ ] 1. call with ___
    * [ ] 2. call with ___

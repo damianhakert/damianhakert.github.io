@@ -599,7 +599,7 @@
           Michael has been helping customers choose, deploy, and use software development tools since the 80's at companies like Borland, Symantec, Gupta, and Perforce.  Michael is passionate about building teams and business in the far-flung corners of the world.  When not working, Michael is an award winning wine maker and heavily involved in the local Boy Scouts.
 
 - name: Pablo Carranza
-  role: Senior <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
+  role: Senior <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a> and operations lead
   reports_to: CEO
   picture: pablo.jpg
   twitter: psczg
@@ -696,7 +696,25 @@
   gitlab:
   story:  |
           Joining March 9th
+          
+name: E.A.
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: CTO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining March 14th
 
+name: J.B.
+  role: <a href="https://about.gitlab.com/jobs/strategic-relations-manager/">Strategic Relations Manager</a>
+  reports_to: CEO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining March 15th          
+          
 - name: T.A.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Development Lead

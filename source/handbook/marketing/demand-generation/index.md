@@ -38,7 +38,7 @@ Go to the [Marketing Handbook](/handbook/marketing)
 
 ## Lead qualification process<a name="leadQual"></a>
 
-1. Unless a specific request is made, provide a useful resource that will help the person have a better GitLab experience. 
+1. Unless a specific request is made, provide a useful resource that will help the person have a better GitLab experience.
 2. Ask [Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/) to qualify lead
 3. Soft-BANT is used to determine if a lead should be passed to sales or recommended CE resources. Once determined, BDR team passes all leads to sales for followup via Salesforce assignment and email notification.
 4. If 2 of the 4 elements of BANT are met (budget, authority, need, timeline), BDR team will determine account owner and pass lead.
@@ -57,7 +57,9 @@ Go to the [Marketing Handbook](/handbook/marketing)
 - Timeline => Are they willing to continue communicating about GitLab in the next few weeks? If they have another solution, are they looking to replace in the next few weeks or months?
 
 ## What counts as an SQL or MQL?<a name="SQL"></a>
-* SQL is any lead which has been both: (a) accepted by the sales team which has met the qualification requirements, and (b) converted to a Contact in SFDC and attached to a new Opportunity in SFDC.
+* SQL is any lead which has been both: 
+    * accepted by the sales team which has met the qualification requirements, and 
+    * converted to a Contact in SFDC and attached to a new Opportunity in SFDC.
 * MQL is any lead with a lead score of 20 or greater in Marketo (lead score is calculated based on behavioral and demographic data).
 
 ## Lead status<a name="leadStatus"></a>
@@ -123,7 +125,7 @@ Current state
 
 ## Marketo Tools Server<a name="marketoTools"></a>
 
-- This is a simple Sinatra application that receives several web hooks and forwards the relevant information to Marketo via its REST API.
+- This is a simple Sinatra application that receives several webhooks and forwards the relevant information to Marketo via its REST API.
 - URL: http://marketo-tools.gitlap.com/ (can't access via browser)
 - [Software running on it](https://gitlab.com/gitlab-com/marketo-tools/)
 - [Readme of the cookbook for deployment](https://gitlab.com/gitlab-com/cookbook-marketo-tools/blob/master/README.md)

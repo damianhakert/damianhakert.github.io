@@ -1,6 +1,6 @@
 require 'httparty'
 
-PRIVATE_TOKEN = ENV["private_gl_token"]
+PRIVATE_TOKEN = ENV["PRIVATE_TOKEN"]
 
 class GitLabInstance
   def initialize(endpoint, private_token, name)
@@ -9,9 +9,9 @@ class GitLabInstance
     @name = name
   end
 
-  def call(path)
-    url = @endpoint + path + "?private_token=#{@private_token}"
-    data = HTTParty.get(url)
+  def call(path, params = "")
+    url = @endpoint + path + params
+    HTTParty.get(url, headers: { "PRIVATE-TOKEN" => PRIVATE_TOKEN })
   end
 
   def name
@@ -40,12 +40,8 @@ class GitLabProject
      @instance.call("/projects/#{@id}/milestones/#{milestone_id}")
    end
 
-   def milestone_issues(milestone_id)
-     @instance.call("/projects/#{@id}/milestones/#{milestone_id}/issues")
-   end
-
-   def milestone_direction_issues
-     @instance.call("/projects/#{@id}/milestones/#{milestone_id}/issues?labels=direction&state=opened")
+   def milestone_direction_issues(milestone_id)
+     @instance.call("/projects/#{@id}/issues", "?milestone=#{milestone_id}&labels=direction")
    end
 
    def name
@@ -67,28 +63,22 @@ end
 
 desc 'Generate Direction Page Issue List'
 task :direction_issues do
-  puts 'Generating direction page..'
+  print 'Generating direction page'
 
   com = GitLabInstance.new('https://gitlab.com', PRIVATE_TOKEN, 'GitLab.com')
-
   ce = GitLabProject.new('gitlab-org%2Fgitlab-ce',com)
   ee = GitLabProject.new('gitlab-org%2Fgitlab-ee',com)
-
-  ar = [ce,ee]
-
+  edition = [ce,ee]
   output = ''
 
-  ar.each do |project|
-
+  edition.each do |project|
     milestones = project.milestones
-
     output << "## #{project.name}\n\n"
 
     milestones.each do |ms|
       if ms["due_date"] && Date.parse(ms["due_date"]) > Date.today
 
-        issues = project.milestone_issues(ms["id"])
-
+        issues = project.milestone_direction_issues(ms["title"])
         output << "### [#{ms["title"]}](#{project.web_url}/milestones/#{ms["iid"]}) \n\n"
 
         issues.each do |issue|
@@ -102,7 +92,7 @@ task :direction_issues do
     end
   end
 
-  file_path = "source/direction2/index.md"
+  file_path = "source/direction/index.md"
 
   original_file = File.read(file_path)
   new_contents = original_file.gsub(/<!-- direction_issues -->/, output)

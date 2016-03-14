@@ -330,6 +330,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. Always write GitLab with a capitalized G and L, even when writing GitLab.com.
 1. Monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9
 1. If an email needs a response write the ask at the top of it.
+1. Use the future version of words, just like we don't write internet with a capital anymore, we write frontend and webhook without a hyphen or space.
 1. Our homepage is https://about.gitlab.com/ (with the `about.` and with `https`).
 1. Please refer to self-hosted installations as on-premises, not on-premise.
 1. If you use headers properly format them (`##` in Markdown, "Heading 2" in Google docs), start at the second header level because header level 1 is for titles, do not end headers with a colon.

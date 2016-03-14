@@ -38,44 +38,9 @@ Also the list below not include any contributions from outside GitLab the compan
 The bullets list the tentpole features; the most important features of upcoming releases.
 The CE and EE to the right of the version number link to all planned issues for that version.
 
-### 8.6 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/22) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/8) March 22nd
+<!-- direction_issues -->
 
-- [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
-- [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
-- [External users](https://gitlab.com/gitlab-org/gitlab-ce/issues/4009)
-- [Push to a remote repository (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/116)
-- [Confidential issues (EE)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3678)
-- [Merge even if master is updated](https://gitlab.com/gitlab-org/gitlab-ce/issues/3873)
-- [Acknowledge line comments on a MR](https://gitlab.com/gitlab-org/gitlab-ce/issues/10325)
-- [Ability to delete issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/2489)
-- [Get rid of default login credentials](https://gitlab.com/gitlab-org/gitlab-ce/issues/1980)
-- [HA Omnibus packages (EE option?)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
-- [Due date for issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/12709)
-- [Subscribe to a Label](https://gitlab.com/gitlab-org/gitlab-ce/issues/12743)
-- [Move issues between projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/3024)
-
-
-### 8.7 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/23) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/9) April 22nd
-
-- [CI Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
-- [Squash commits upon Merging (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/150)
-- [Run build on merged code before merging (EE?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4176)
-- [Code management analytics (EE option?)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
-- [Delivery analytics (EE option?)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
-- [Subscribe to new Issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/12758)
-- [Performance monitoring (EE)](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1008)
-- [Request access to a repo](https://gitlab.com/gitlab-org/gitlab-ce/issues/13948)
-- [Award emoji in comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3655)
-- [Comment on Images in Diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
-- [LICENSE templates](https://gitlab.com/gitlab-org/gitlab-ce/issues/12804)
-
-### 8.8 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/24) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/10)
-
-- [Multiline comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/4143)
-- [Mailing list functionality](https://gitlab.com/gitlab-org/gitlab-ce/issues/4272)
-- [.gitignore templates](https://gitlab.com/gitlab-org/gitlab-ce/issues/14106)
-- [Watch projects I'm not a member of](https://gitlab.com/gitlab-org/gitlab-ce/issues/9013) which is dependent on [participants table](https://gitlab.com/gitlab-org/gitlab-ce/issues/3965)
-- [Use votes for acceptance of MRs](https://gitlab.com/gitlab-org/gitlab-ce/issues/13411)
+<!-- do not remove or modify these lines -->
 
 ## Wishlist
 
