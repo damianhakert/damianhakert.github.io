@@ -45,7 +45,7 @@ sense to me because closing a pull request actually does branch merging.
 As it turns out, there is a command [`git request-pull`](https://git-scm.com/docs/git-request-pull),
 hence the feature title.
 
-Pull requests have hothing in common with this git command. So, technically the correct name is "merge request". 
+Pull requests have nothing in common with this git command. So, technically the correct name is "merge request". 
 [Learn more](https://about.gitlab.com/2016/01/27/comparing-terms-gitlab-github-bitbucket/) on terminology differences, if you're interested.
 
 The terminology was just a part of the deal. 
