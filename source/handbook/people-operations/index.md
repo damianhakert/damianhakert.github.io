@@ -7,6 +7,35 @@ To reach People Operations, please post an issue on our [internal issue tracker]
 and add the 'PeopleOps' label, or send an email to the People Operations group (see the [sheet with aliases](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#)), or ping an individual 
 member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
 
+## US-Based Employees
+
+###Equal Employment Oppertunity Statement
+
+1. GitLab provides equal employment opportunities (EEO) to all employees and applicants 
+for employment without regard to race, color, religion, sex, national origin, age, 
+disability or genetics. In addition to federal law requirements, GitLab complies with 
+applicable state and local laws governing nondiscrimination in employment in every location 
+in which the company has facilities. This policy applies to all terms and conditions of employment, 
+including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, 
+leaves of absence, compensation and training.
+1. GitLab expressly prohibits any form of workplace harassment. Improper interference with 
+the ability of GitLab’s employees to perform their job duties may result in discipline up to and 
+including discharge.
+
+###Employment Status 
+
+1. Fair Labor Standards Act Exempt v. Non-Exempt Employees
+1. Non-exempt employees: are required to track and report hours worked. Non-exempt 
+employees that work over 40 hours in the work week is entitled to one and a half times 
+his or her hourly pay. If a non-exempt employee works on the seventh day he/she is entitled 
+to two times his/her pay for the hours worked. Non-exempt employees are also required to 
+take two paid 10 minute breaks and one unpaid thirty minute lunch break.
+1. Exempt employees: are generally managers he/she must not spend more than 50% of his or her 
+time doing non-exempt duties to remain exempt. Exempt employees are not required to track 
+working hours. Exempt employees are required to work overtime without additional pay.
+1. Contributors your status is marked in your offer letter.
+
+
 ## Administrative details of benefits for US-based employees
 
 ### 401k 
