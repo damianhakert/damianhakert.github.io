@@ -7,6 +7,30 @@ To reach People Operations, please post an issue on our [internal issue tracker]
 and add the 'PeopleOps' label, or send an email to the People Operations group (see the [sheet with aliases](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#)), or ping an individual 
 member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
 
+
+
+## Onboarding new employees using [BambooHR](https://gitlab.bamboohr.com)
+
+We’re using BambooHR to keep all employee information in one place. All employees 
+regardless of the entity that employs them are in BambooHR. 
+
+### Adding a new team member to BambooHR
+
+After People Ops is requested to make a contract or offer letter for a potential hire,
+as described on our [Hiring](/handbook/hiring/) page, follow these steps:
+
+1. Download the correct template from the files page on BambooHR
+1. Edit the contract or offer letter to include the new hire information.
+1. Send out the document to be signed using HelloSign, \cc people ops in this process. (document HelloSign first)
+1. Once the document has been signed, create a BambooHR employee file:
+   1. Go to the BambooHR Dashboard 
+   1. Click on the top right on “Add employee”
+   1. Enter the following fields: First name, Last name, Gender, Hire date, Employment status, Job information, Pay rate, Salary for employees, or select another option.
+   1. Turn “self service” on for the employee to enter the following info: Address, Phone, DOB. private email.
+   1. Save the signed contract under the Documents tab in the folder “0.Signed Contract/Offer Letter”.
+
+
+
 ## Administrative details of benefits for US-based employees
 
 ### 401k 
