@@ -82,9 +82,10 @@
   This page is generated from
   %a.external-source-link{href: "#{data.site.repo}blob/master/source/#{full_path}"}
     a public file on GitLab.com
-  \– merge requests with improvements are
-  %a.external-source-link{href: "#{data.site.repo}blob/master/CONTRIBUTING.md"}
-    very welcome
+  &mdash; merge requests with improvements are
+  = succeed('.') do
+    %a.external-source-link{href: "#{data.site.repo}blob/master/CONTRIBUTING.md"}
+      very welcome
   = partial "includes/cc-license.html"
 = partial "includes/layout/scripts"
 = partial "includes/google/remarketing"
