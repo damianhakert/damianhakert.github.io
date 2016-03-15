@@ -5,10 +5,9 @@ title: Support
 
 ## Other support pages
 
-- [Service Engineer Onboarding](/handbook/support/onboarding/)
+- [Service Engineer On-boarding](/handbook/support/onboarding/)
 - [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
 - [PGP Process](https://about.gitlab.com/handbook/support/pgp_process/)
-- [Common responses to problems](/handbook/support/common-responses.html)
 - [Support and Development Process](https://about.gitlab.com/handbook/support-and-development-process)
 
 ## Contents of the page
@@ -115,7 +114,7 @@ The iframe below also shows this dashboard, but it requires a valid session for 
 
 Our [service engineers](/jobs/service-engineer) handle the channels listed below.
 They are sorted in order of priority (strictest SLA at top), and as a result, it is possible that channels that appear lower
-in this list experience longer delays in receiving responses. We are actively [hiring](https://about.gitlab.com/jobs/)
+in this list experience longer delays in receiving responses. We are actively [hiring](/jobs/)
 more Service Engineers to strengthen the team and provide support to the community.
 
 ### Emergency Tickets <a name="emergency"></a>
@@ -191,7 +190,7 @@ Please be very patient with these reports. Do not say 'there is no problem', you
 might be misunderstanding something that can lead to a 0 day disclosure.
 Give examples and keep asking questions until you understand the problem or until
 the researcher concludes there is no problem.
-If someone invested time to help us, offer to mention them on our [Security Researcher Acknowledgments page](https://about.gitlab.com/vulnerability-acknowledgements/)
+If someone invested time to help us, offer to mention them on our [Security Researcher Acknowledgments page](/vulnerability-acknowledgements/)
 even if there was no actual vulnerability.
 If you say that we'll get back to them **always** mention that they can email us at any time for an update.
 This is really important to prevent a 0 day disclosure resulting from us forgetting to respond.
@@ -201,7 +200,7 @@ If someone opens a public issue please leave a message:
 "Thank you for helping to
 make GitLab more secure! We removed the contents of your vulnerability disclosure
 to keep it private. We opened an internal issue to look at your disclosure. Can
-you please use our [Responsible Disclosure Policy](https://about.gitlab.com/disclosure/)
+you please use our [Responsible Disclosure Policy](/disclosure/)
 to send us an email that references this url so we can communicate in private?"
 
 #### HackerOne
@@ -249,7 +248,7 @@ much as possible about the customer's instance as you can.
 1. Use of GitLab CI (need to upgrade to 8.0 first, then 8.+)
 
 We collect this information in ZenDesk and link it to the organization, see the
-[responding to tickets section in onboarding](https://about.gitlab.com/handbook/support/onboarding/).
+[responding to tickets section in onboarding](/handbook/support/onboarding).
 
 #### Unscheduled calls
 
@@ -290,7 +289,7 @@ give updates on the availability of GitLab.com and to follow up on users reporti
 ### Follow up on issues posted on GitLab issue tracker<a name="issue-tracker"></a>
 
 For ZenDesk issues you will have created issues on the relevant issue tracker.
-Please refer to the priority as listed under [GitLab Workflow in the handbook](https://about.gitlab.com/handbook/#gitlab-workflow).
+Please refer to the priority as listed under [GitLab Workflow in the handbook](/handbook/#gitlab-workflow).
 
 ### GitLab.com Support Forum<a name="supp-forum"></a>
 
@@ -299,7 +298,7 @@ For issues specific to GitLab.com that have nothing to do with availability we h
 for new issues and to report back if an issue has been solved. Some people use this forum to report issues they
 are having with their on-premises installation. In that case, you should refer them to the
 [CE issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) or to our
-[Getting Help](https://about.gitlab.com/getting-help/) page, depending on the issue they are having.
+[Getting Help](/getting-help/) page, depending on the issue they are having.
 
 ### Facebook<a name="facebook"></a>
 
