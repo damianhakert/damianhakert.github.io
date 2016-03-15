@@ -21,6 +21,16 @@ Read on for all the details!
 
 [!3181]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3181
 
+## Details about the LDAP fix
+
+Before the LDAP fix above it could happen that a single GitLab user triggered
+multiple simultaneous LDAP checks due to a race condition. On large LDAP-enabled
+GitLab servers, especially with GitLab Enterprise Edition, this could generate
+unnecessary load on the GitLab server.
+
+We now use a 10-minute “lease” in Redis to ensure that at most one LDAP check is
+started per user during this time interval.
+
 ## Upgrade barometer
 
 This version does not include any new migrations, and should not require
