@@ -33,7 +33,7 @@ namespace :build do
 
     # The below should be removed for going live
     # This is just for testing on GitLab pages
-    original_string_or_regex = /(href|src)="\s*(.*?)\s*"/
+    original_string_or_regex = /(href|src)=(?:"|')\s*(.*?)\s*(?:"|')/
 
     Dir.glob("public/**/*.html") do |file_name|
       if !File.directory?(file_name)

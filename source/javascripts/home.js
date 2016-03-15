@@ -27,12 +27,12 @@ $(function () {
 
   if ($community.length) {
     // Get JSON
-    $.getJSON('/team.json', function (d) {
+    $.getJSON('team.json', function (d) {
       var team = shuffle(d.concat(d.concat(d)));
 
       $.each(team, function () {
         var $img = $('<img />', {
-          src: '/images/team/' + this.picture
+          src: 'images/team/' + this.picture
         });
         $img.on('load', function () {
           var $this = $(this);
