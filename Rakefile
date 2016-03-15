@@ -40,7 +40,7 @@ namespace :build do
         text = File.read(file_name)
         text = text.force_encoding("UTF-8")
         replace = text.gsub(original_string_or_regex) do |link|
-          if !link.include?("http")
+          if !link.include?("com")
             "#{$1}='/about-gitlab-com#{$2}'"
           end
         end
