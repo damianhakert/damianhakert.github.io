@@ -42,6 +42,8 @@ namespace :build do
         replace = text.gsub(original_string_or_regex) do |link|
           if !link.include?("com")
             "#{$1}='/about-gitlab-com#{$2}'"
+          else
+            link
           end
         end
         File.open(file_name, "w") { |file| file.puts replace }
