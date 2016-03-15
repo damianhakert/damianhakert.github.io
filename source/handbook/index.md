@@ -186,7 +186,8 @@ to the 'call?' request with a video link or say 'yes' and let the other person
 start it. Don't say 'yes' and start a call 5 seconds later since it is likely
 you'll both be creating a video call link at the same time.
 1. All company data should be **shareable** by default. Don't use a local text
-file but leave comments on an issue. Create Google docs with your company Google
+file but leave comments on an issue. Use merge requests to edit the website, don't use 
+Google Docs. If you _do_ need a Google Doc, then create the doc with your company Google
 Apps account. By default share Google docs with the whole company 'anyone at
 GitLab can find and access' with edit (preferred) or comment access for everyone.
 An easy way to do this, is to create your Google docs in a Shared Folder in
