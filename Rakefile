@@ -29,6 +29,22 @@ end
 
 namespace :build do
   task :site do
-    system "BUILD=true bundle exec middleman build"
+    system "bundle exec middleman build"
+
+    # The below should be removed for going live
+    # This is just for testing on GitLab pages
+    original_string_or_regex = /(href|src)="\s*(.*?)\s*"/
+
+    Dir.glob("public/**/*.html") do |file_name|
+      if !File.directory?(file_name)
+        text = File.read(file_name)
+        replace = text.gsub(original_string_or_regex) do |link|
+          if !link.include?("http")
+            "#{$1}='/about-gitlab-com#{$2}'"
+          end
+        end
+        File.open(file_name, "w") { |file| file.puts replace }
+      end
+    end
   end
 end

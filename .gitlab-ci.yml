@@ -23,7 +23,7 @@ pages:
   script:
     - apt-get update -yqqq
     - apt-get install -y nodejs
-    - bundle exec rake build
+    - bundle exec rake build --trace
   artifacts:
     paths:
       - public
