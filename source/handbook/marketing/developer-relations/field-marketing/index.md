@@ -44,7 +44,7 @@ Field marketing includes event marketing and swag production.
 - Don’t be afraid to walk around to other booths and talk to people. Make friends we could partner with, create interesting content with, or just have friendly beers.
 - The booth should be clean and organized at all times.
 - Document any product feedback you get.
-- If press comes ot the event feel free to put themin contact with CEO (Sid) or Marketing (Ashley).
+- If press comes to the event feel free to put them in contact with CEO (Sid) or Marketing (Ashley).
 
 ## Networking Tips
 - Listen
