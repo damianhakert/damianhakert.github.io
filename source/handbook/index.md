@@ -150,8 +150,8 @@ We're a **distributed**, **remote-first** company where people work remote witho
 For this, we use **asynchronous communication** and are as open as we can be by communicating through public issues, chat channels,
 and placing an emphasis on ensuring that conclusions of offline conversations are written down.
 These communication guidelines are meant to facilitate smooth communication in an
-ever-growing remote-first company. 
-Please keep in mind that you represent GitLab and our culture, also on Social Media. 
+ever-growing remote-first company.
+Please keep in mind that you represent GitLab and our culture, also on Social Media.
 When commenting on posts please keep in mind: "Don't argue but represent."
 
 ### Internal Communication<a name="internal-communication"></a>
@@ -173,7 +173,7 @@ etc.) please include a link to it.
 person know that you received it. A thread is done when there is a single word
 reply, such as OK, thanks, or done.
 1. If you forward an email without other comments please add FYI (for your
-information) or FYA (for your action).
+information) or FYA (for your action). If you forward an external request with FYA it doesn't mean that the company should do whatever is proposed, it just means the person who forwarded it will not follow up on the request.
 1. If you want to create, or be added or removed from an internal email alias (e.g.
 `sales@gitlab.com`) please see the [GitLab Email Forwarding doc](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#).
 1. If you use chat please use a public channel whenever possible, mention the
@@ -191,9 +191,9 @@ Apps account. By default share Google docs with the whole company 'anyone at
 GitLab can find and access' with edit (preferred) or comment access for everyone.
 An easy way to do this, is to create your Google docs in a Shared Folder in
 Google Drive.
-1. When referring to a Google Doc in the handbook, refrain from providing the direct link. 
+1. When referring to a Google Doc in the handbook, refrain from providing the direct link.
 Instead, write the name of the Google Doc. In the past, giving the url of a doc
-has led to inadvertent opening of sharing settings beyond what was intended, and it also helps 
+has led to inadvertent opening of sharing settings beyond what was intended, and it also helps
 prevent spam from people outside of GitLab who request access to the doc when they see the link.
 1. All our procedures and templates are stored in (mostly public) git repositories
 instead of Google/Word documents. This makes them easier to find and suggest
