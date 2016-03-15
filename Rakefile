@@ -38,6 +38,7 @@ namespace :build do
     Dir.glob("public/**/*.html") do |file_name|
       if !File.directory?(file_name)
         text = File.read(file_name)
+        text = text.force_encoding("UTF-8")
         replace = text.gsub(original_string_or_regex) do |link|
           if !link.include?("http")
             "#{$1}='/about-gitlab-com#{$2}'"
