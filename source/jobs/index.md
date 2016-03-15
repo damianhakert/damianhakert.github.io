@@ -73,11 +73,6 @@ If you prefer not to do the above please let us know and we'll give you an assig
 * [Description](https://about.gitlab.com/jobs/production-engineer/)
 * [Apply](https://gitlab.workable.com/jobs/142989/candidates/new)
 
-### Strategic Relations Manager
-
-* [Description](https://about.gitlab.com/jobs/strategic-relations-manager)
-* [Apply](https://gitlab.workable.com/jobs/186837/candidates/new)
-
 ### Account Manager
 
 * [Description](https://about.gitlab.com/jobs/account-manager/)
