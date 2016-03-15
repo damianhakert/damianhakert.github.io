@@ -49,14 +49,14 @@ and you agree to the [individual contributor license agreement](https://gitlab.c
 If you prefer not to do the above please let us know and we'll give you an assignment that does not relate to GitLab but does test the relevant skills.
 * If you get in the [contributors](http://contributors.gitlab.com/) top 10 we'll
   hire you (at least that is what has happened so far).
-* We normally don't offer any internships but if you get five merge requests
+* We normally don't offer any internships but if you get a couple of merge requests
   accepted we'll interview you for one. This will be a remote internship without
   supervision, you'll only get feedback on your merge requests. If you want to
   work on open source and qualify please [submit an application](https://gitlab.workable.com/jobs/207439/candidates/new).
   In the cover letter field please note that you want an internship and link to
-  five accepted merge requests. The merge requests should be of significant
+  the accepted merge requests. The merge requests should be of significant
   value and difficulty, which is at the discretion of the hiring manager. For
-  example, fixing five typos isn't as valuable as shipping 5 new features.
+  example, fixing 10 typos isn't as valuable as shipping 2 new features.
 
 ### Product Marketing Manager
 
