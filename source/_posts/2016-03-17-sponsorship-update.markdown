@@ -18,7 +18,9 @@ We’re so delighted with the interest in our [tech diversity sponsorship progra
 - [Rails Girls Brussels](http://railsgirls.com/brussels) February 19-20, 2016
 - [Django Girls Łódź](https://djangogirls.org/lodz/) Feb 27, 2016
 - [Rails Girls Tricity](http://railsgirls.com/tricity) March 5-6, 2016
+- [Rails Girls Atlanta](http://www.meetup.com/Rails-Girls-Atlanta/) March 30, 2016
 - [Django Girls Florence](https://djangogirls.org/florence/) April 17, 2016
+- [Rails Girls Bialystok](http://railsgirls.com/bialystok) May 21-22, 2016
 
 ## Rails Girls
 
