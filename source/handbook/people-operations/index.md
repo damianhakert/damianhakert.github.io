@@ -7,10 +7,17 @@ To reach People Operations, please post an issue on our [internal issue tracker]
 and add the 'PeopleOps' label, or send an email to the People Operations group (see the [sheet with aliases](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#)), or ping an individual
 member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
 
+## Setting up new hiring contracts
+New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/) page, including instructions on how to set up new contracts.
+Here's what you can find on the PeopleOps page
+
 * [Using HelloSign](#hellosign)
-* [Using BambooHR](bamboohr)
-* [Adding new teammembers to BambooHR ](admin-bamboo)
-* [Using BambooHR as employee](new-employee-bamboo)
+* [Using BambooHR](#bamboohr)
+* [Adding new teammembers to BambooHR ](#admin-bamboo)
+* [Using BambooHR as employee](#new-employee-bamboo)
+* [Benefits details for US-based employees](#benefits-us)
+* [Add new hires to TriNet](#trinet-process)
+* [Making changes in TriNet](#changes-trinet)
 
 
 ### Getting contracts signed using [HelloSign](hellosign.com) <a name="hellosign"></a>
@@ -58,9 +65,7 @@ Here is explained how employees can keep their employee file on BambooHR updates
 1. Login with your new credentials
 1. Keep your credentials stored in your 1Password Vault and keep the info in BambooHR updated (e.g. change address when moving)
 
-
-
-## Administrative details of benefits for US-based employees
+## Administrative details of benefits for US-based employees <a name="benefits-us"></a>
 
 ### 401k
 
@@ -78,8 +83,7 @@ after the 1st of the month after your hire date.
 1. Once inside the portal you may elect your annual/pay-period contributions, and Investments.
 
 
-
-## Entering New Hires into TriNet<a name="trinet-process"></a>
+## Entering New Hires into TriNet <a name="trinet-process"></a>
 
 Employer enters the employee data in the HR Passport with the information below
 
@@ -142,7 +146,8 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. The employee is prompted to log on, complete tax withholding (W4 data), direct deposit information, section 1 of the I-9, and benefits election (if eligible).
 1. The employer logs in to HR Passport and is prompted by way of work inbox item, to complete section 2 of the I-9.
 
-## GitLab, Inc. Employee Location
+## Adding a new GitLab, Inc. Employee Location in TriNet <a name="changes-trinet"></a>
+
 
 ### Add a New Location
 1. Go to HR Passport homepage
@@ -163,6 +168,3 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Select Employee Transfer.
 1. Change location and fill in necessary information.
 1. Select Update.
-
-## Setting up new hiring contracts
-New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/) page, including instructions on how to set up new contracts.
