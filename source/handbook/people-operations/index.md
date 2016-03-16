@@ -57,8 +57,16 @@ as described on our [Hiring](/handbook/hiring/) page, follow these steps:
 1. Send out the document to be signed using HelloSign, \cc people ops in this process. (document HelloSign first)
 1. Once the document has been signed, create a BambooHR employee file:
    1. Go to the BambooHR Dashboard
-   1. Click on the top right on “Add employee”
-   1. Enter the following fields: First name, Last name, Gender, Hire date, Employment status, Job information, Pay rate, Salary for employees, or select another option.
+   1. Click on the top left on “Add employee” This will generate one page for the administrator to add 
+   the team member personal information as well as status, classification, salary, location and job title
+   1. Enter the following fields: First name, Last name, Gender, Hire date, Employment status(Employee Inc/BV or 
+   Contractor Inc/BV). Job information (Job Title: From the dropdown menu choose a stored Job Title. Note if you 
+   do not see the job title scroll to the bottom of the dropdown menu and click Add New> enter job title >save). Reports To = 
+   ignore this option. Department: choose one, Development, Customer Service, Sales, Marketing or G&A. 
+   Division: choose one, employee or contractor
+   Location: choose one,  Inc or BV. Compensation: Pay Rate: enter Pay Rate>click currency abbreviation 
+   to change currency. Pay Type: from the dropdown menu choose one: Salary for annual compensation> monthly for monthly compensation> hourly for hourly compensated contributors
+
    1. Turn “self service” on for the employee to enter the following info: Address, Phone, DOB. private email.
 1. Save the signed contract under the Documents tab in the folder “0.Signed Contract/Offer Letter”.
 
