@@ -19,7 +19,10 @@ We’re so delighted with the interest in our [tech diversity sponsorship progra
 - [Django Girls Łódź](https://djangogirls.org/lodz/) Feb 27, 2016
 - [Rails Girls Tricity](http://railsgirls.com/tricity) March 5-6, 2016
 - [Rails Girls Atlanta](http://www.meetup.com/Rails-Girls-Atlanta/) March 30, 2016
+- [AlterConf] (http://www.alterconf.com/) April 9, 2016
+- [ClojureWest] (http://clojurewest.org/) Opportunity Scholarship April 15-16, 2016
 - [Django Girls Florence](https://djangogirls.org/florence/) April 17, 2016
+- [SciPyLA] (http://conf.scipyla.org/) Opportunity Scholarship May 16-20, 2016
 - [Rails Girls Bialystok](http://railsgirls.com/bialystok) May 21-22, 2016
 
 ## Rails Girls
@@ -45,8 +48,6 @@ opportunity, and less access to funding.
 Since we're a distributed company, it also means we can send colleagues to
 participate in these events.
 
-- [SciPyLA] (http://conf.scipyla.org/) May 16-20, 2016
-- [ClojureWest] (http://clojurewest.org/) Opportunity Grant April 15-16, 2016
 - [TechParty - 2016](http://techparty.faccat.br/)  April 25 - 28, 2016.
 - [Cuba Startup Meetup] (http://www.meetup.com/merchise/) Dates TBD
 
