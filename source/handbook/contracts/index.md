@@ -896,8 +896,13 @@ notify the manager, and permission is implied unless noted otherwise by the Empl
 
 **15\. Non-competition clause**
 
-1. Without the prior written permission of the Employer, the Employee is prohibited during employment and for a period of 24 months following termination of the Employment Contract to establish, run, have run or jointly run a business identical, similar or related to that of the Employer, either directly or indirectly, or to work in any capacity in such a business, either on a paid or unpaid basis, or to have a share in it of any nature whatsoever.
-1. The business of the Employer is offering source code management software and services.
+
+1. Without the prior written permission of the Employer, the Employee is prohibited
+during employment and for a period of 24 months following termination of the Employment
+Contract to establish, run, have run or jointly run a business that offers source
+code management software and services, either directly or indirectly, or to work in any
+capacity in such a business, either on a paid or unpaid basis, or to have a share in
+it of any nature whatsoever.
 1. Employer is a start-up company. If Employee leaves Employer and transfers knowledge, clients or other key information for the start-up company, this could directly damage the financial stability and existence of the Employer. For that reason Employer applies a non-competition clause to this contract.
 
 **16\. Business relations clause**
@@ -1021,7 +1026,7 @@ GitLab and Contributor are hereinafter collectively referred to as the “Partie
 2.6	Contributor is free to engage other persons to assist Contributor with the service, in consultation with GitLab, and as long as Contributor bears the costs concerned.  
 
 **3\.	Fee**   
-3.1	For the fulfilment of the service by Contributor on behalf of GitLab, GitLab shall pay Contributor a fee of € {Monthly Payment} per calendar month for the duration of the project. GitLab will receive detailed time sheets from Contributor with specific activities and the times under which they were completed specifically pertaining to fulfilment of the service concerned.  
+3.1	For the fulfilment of the service by Contributor on behalf of GitLab, GitLab shall pay Contributor a fee of {Monthly Payment} per calendar month for the duration of the project. GitLab will receive detailed time sheets from Contributor with specific activities and the times under which they were completed specifically pertaining to fulfilment of the service concerned.  
 3.2	In consultation with GitLab, Contributor is entitled to paid time off in accordance with the handbook (https://about.gitlab.com/handbook/#paid-time-off) . However, GitLab has the right to revoke or change the days off at all times if the company’s interest is harmed or damaged.  
 3.3	GitLab will pay Contributor’s invoice within 30 days.  
 3.4	Contributor’s fee includes a full compensation for any expenses related to the performance of Contributor's activities for GitLab and a full compensation for any damages Contributor may suffer in the performance of Contributor's activities for GitLab.  
@@ -1034,17 +1039,34 @@ GitLab and Contributor are hereinafter collectively referred to as the “Partie
 5.2. In case of termination of this agreement for whatever reason, Contributor is obliged to immediately return all documentation and other property belonging to GitLab which Contributor has in Contributor’s possession together with Contributor's own notes and photocopies.  
 5.3	Contributor shall not be permitted to retain any property belonging to GitLab to offset any alleged claim against GitLab. Contributor waives any right of retention of property.  
 
-**6\.	Non-competition**  
-6.1	During the term of this Agreement, Contributor shall not without the prior written consent of GitLab directly or indirectly perform any activities which are competing with the activities of GitLab or violate GitLab’s interests in any other way.
+**6\. Non-competition**
+
+6.1 Without the prior written permission of GitLab, the Contributor is prohibited
+for the duration of the term of this Contractor Agreement and for a period of 24
+months following the term of this Contractor Agreement to establish, run, have
+run or jointly run a business that offers source code management software and
+services, either directly or indirectly , or to work in any capacity in such a
+business, either on a paid or unpaid basis, or to have a share in it of any nature
+whatsoever.
 
 **7\.	Business relations**   
-7.1	During the term of this Agreement Contributor shall not, without GitLab’s prior written consent, either directly or indirectly, work for or be involved with any customers and/or business relations of GitLab, unless on behalf of GitLab.  
-7.2	Contributor shall not, for a period of two years after the end of this Agreement, without GitLab’s prior written consent, either directly or indirectly, work for or be involved with any customers and/or business relations of GitLab. This obligation applies irrespective of whether or not Contributor initiated any such contact.  
-7.3	Contributor shall not encourage customers and/or business contacts of GitLab to sever their relationship with GitLab.
+7.1	During the term of this Agreement Contributor shall not, without GitLab’s prior
+written consent, either directly or indirectly, work for or be involved with any
+customers and/or business relations of GitLab, unless on behalf of GitLab.  
+7.2	Contributor shall not, for a period of two years after the end of this Agreement,
+without GitLab’s prior written consent, either directly or indirectly, work for or
+be involved with any customers and/or business relations of GitLab. This obligation
+applies irrespective of whether or not Contributor initiated any such contact.  
+7.3	Contributor shall not encourage customers and/or business contacts of GitLab
+to sever their relationship with GitLab.
 
 
 **8\.	Penalty**   
-8.1	For each infringement of the provisions of article 5, 6 and/or 7, Contributor forfeits to GitLab, without further summons or notice of default being required, an immediately eligible penalty of EUR 25.000,-, plus an amount of EUR 1.000,- for each day that the infringement continues, without prejudice of GitLab’s right to claim compliance and damages.  
+8.1	For each infringement of the provisions of article 5, 6 and/or 7, Contributor
+forfeits to GitLab, without further summons or notice of default being required,
+an immediately eligible penalty of EUR 25.000,-, plus an amount of EUR 1.000,- for
+each day that the infringement continues, without prejudice of GitLab’s right to
+claim compliance and damages.  
 
 **9\.	Intellectual property**   
 9.1	Parties will agree on Intellectual Property in a separate agreement appended to this Contractor Agreement. The Intellectual Property Agreement is an indissoluble part of this Contractor Agreement.
