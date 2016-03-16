@@ -3,80 +3,60 @@
   .animated.container
     %ul.text-center.footer-social
       %li
-        %a{href: "https://twitter.com/gitlab"}
+        = link_to('https://twitter.com/gitlab') do
           %i.fa.fa-twitter
           %span.sr-only Twitter
       %li
-        %a{href: "https://plus.google.com/107491817347842790515/posts"}
+        = link_to('https://plus.google.com/107491817347842790515/posts') do
           %i.fa.fa-google-plus
           %span.sr-only Google+
       %li
-        %a{href: "https://www.facebook.com/gitlab"}
+        = link_to('https://www.facebook.com/gitlab') do
           %i.fa.fa-facebook
           %span.sr-only Facebook
       %li
-        %a{href: "https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg"}
+        = link_to('https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg') do
           %i.fa.fa-youtube
           %span.sr-only YouTube
       %li
-        %a{href: "https://www.linkedin.com/company/gitlab-com"}
+        = link_to('https://www.linkedin.com/company/gitlab-com') do
           %i.fa.fa-linkedin
           %span.sr-only LinkedIn
     .row
       .col-sm-6.col-md-3.col-lg-2.col-lg-offset-2.footer-link-holder
         %h3.footer-link-title Products
         %ul.animated.footer-links
-          %li
-            %a{href: "/features/"} Community Edition
-          %li
-            %a{href: "/features/#enterprise"} Enterprise Edition
-          %li
-            %a{href: "/gitlab-com/"} GitLab.com
+          %li= link_to('Community Edition',  '/features')
+          %li= link_to('Enterprise Edition', '/features/#enterprise')
+          %li= link_to('GitLab.com',         '/gitlab-com/')
       .col-sm-6.col-md-3.col-lg-2.footer-link-holder
         %h3.footer-link-title Services
         %ul.animated.footer-links
-          %li
-            %a{href: "/pricing/"} Pricing
-          %li
-            %a{href: "/consultancy/"} Consultancy
-          %li
-            %a{href: "/development/"} Development
-          %li
-            %a{href: "/training/"} Training
+          %li= link_to('Pricing',     '/pricing/')
+          %li= link_to('Consultancy', '/consultancy/')
+          %li= link_to('Development', '/development/')
+          %li= link_to('Training',    '/training/')
       .col-sm-6.col-md-3.col-lg-2.footer-link-holder
         %h3.footer-link-title Community
         %ul.animated.footer-links
-          %li
-            %a{href: "/core-team/"} Core Team
-          %li
-            %a{href: "http://contributors.gitlab.com/"} Contributors
-          %li
-            %a{href: "/documentation/"} Documentation
-          %li
-            %a{href: "/getting-help/"} Getting Help
-          %li
-            %a{href: "/contributing/"} Contributing
-          %li
-            %a{href: "/applications/"} Applications
-          %li
-            %a{href: "/mvp/"} Hall of Fame
+          %li= link_to('Core Team',     '/core-team/')
+          %li= link_to('Contributors',  'http://contributors.gitlab.com/')
+          %li= link_to('Documentation', '/documentation/')
+          %li= link_to('Getting Help',  '/getting-help/')
+          %li= link_to('Contributing',  '/contributing/')
+          %li= link_to('Applications',  '/applications/')
+          %li= link_to('Hall of Fame',  '/mvp/')
       .col-sm-6.col-md-3.col-lg-2.footer-link-holder
         %h3.footer-link-title Company
         %ul.animated.footer-links
-          %li
-            %a{href: "/blog/"} Blog
-          %li
-            %a{href: "/press/"} Press and Logos
-          %li
-            %a{href: "/about/"} About Us
-          %li
-            %a{href: "/team/"} Team
-          %li
-            %a{href: "/jobs/"} Jobs
-          %li
-            %a{href: "/terms/"} Terms
-          %li
-            %a{href: "/contact/"} Contact Us
+          %li= link_to('Blog',            '/blog/')
+          %li= link_to('Press and Logos', '/press/')
+          %li= link_to('About Us',        '/about/')
+          %li= link_to('Team',            '/team/')
+          %li= link_to('Jobs',            '/jobs/')
+          %li= link_to('Terms',           '/terms/')
+          %li= link_to('Contact Us',      '/contact/')
+
 - full_path = current_page.file_descriptor.relative_path
 .animated.text-center.source-link
   This page is generated from
