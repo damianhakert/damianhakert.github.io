@@ -401,9 +401,12 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 
 We're looking forward to seeing your sites!
 
-# About guest author Marcia Ramos
+# About guest author Marcia Dias Ramos
 
-********** To be included
+[Marcia] is a back-end developer specialized in WordPress and Jekyll sites at [Virtua Creative], 
+though she does some front-end too. Her daily work is based on version-controlled systems for almost 15 years. 
+She is driven by her thirst for knowledge and her hunger to continuously expand her horizons. 
+When she is not coding, she is writing articles, studying, teaching or making a contribution to open source projects here and there. 
 
 [doc-artifacts]: http://doc.gitlab.com/ee/ci/yaml/README.html#artifacts
 [doc-ciconfig]: http://doc.gitlab.com/ee/ci/quick_start/README.html#creating-a-.gitlab-ci.yml-file
@@ -471,6 +474,8 @@ We're looking forward to seeing your sites!
 [StartSSL]: https://startssl.com/
 [wiki-static-websites]: https://en.wikipedia.org/wiki/Static_web_page
 [YAML]: http://yaml.org/
+[Marcia]: https://gitlab.com/u/virtuacreative
+[Virtua Creative]: https://virtuacreative.com.br/en/
 
 [h-1-web]: http://gitlab-examples.gitlab.io/pages-plain-html "The simplest html example"
 [h-1-pro]: https://gitlab.com/gitlab-examples/pages-plain-html
