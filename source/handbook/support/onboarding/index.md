@@ -99,6 +99,8 @@ related GitLab issue that is related to this ticket as a way to cross-link betwe
 Every issue you mention here must also contain a link to the ticket in question, either in the
 description or in a comment.
 
+Use this field as a reminder of when and where to follow up.
+
 #### Tags for Tickets
 
 To be able to capture metrics on which topics are most frequently asked about, when you start on a ticket,
