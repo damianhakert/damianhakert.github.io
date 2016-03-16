@@ -1,31 +1,15 @@
-image: "ruby:2.1"
-
-before_script:
-  - ruby -v
-  - which ruby
-  - gem install bundler --no-ri --no-rdoc
-  - bundle install --path vendor
-cache:
-  paths:
-    - vendor
-
-stages:
-  - test
-
-lint:
-  stage: test
+test:
   script:
+    - pwd
+    - git rev-parse HEAD
+    - export LC_ALL=en_US.UTF-8
+    - ''
+    - bundle install --path ~/bundle-tmp
+    - ''
     - bundle exec rake lint
+    - ''
+    - "# build without deploying, so that we know if a MR is horribly broken"
+    - bundle exec rake build
   tags:
-    - ruby
-
-pages:
-  script:
-    - apt-get update -yqqq
-    - apt-get install -y nodejs
-    - bundle exec rake build --trace
-  artifacts:
-    paths:
-      - public
-  only:
-    - master
+  except:
+  - tags
