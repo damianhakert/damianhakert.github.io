@@ -3,33 +3,38 @@ layout: markdown_page
 title: "People Operations"
 ---
 
+- [Reaching People Operations](#reach-peopleops)
+- [Setting up new contracts](#new-contracts)
+   - [Using HelloSign](#hellosign)
+- [Using BambooHR](#bamboohr)
+   - [Adding a new team member to BambooHR](#admin-bamboo)
+   - [Using BambooHR as a new team member](#new-member-bamboo)
+- [Administrative details of benefits for US-based employees](#benefits-us)
+   - [401k](#401k)
+- [Using TriNet](#using-trinet)
+   - [Add new hires to TriNet](#trinet-process)
+   - [Making changes in TriNet](#changes-trinet)
+
+## Reaching People Operations<a name="reach-peopleops"></a>
+
 To reach People Operations, please post an issue on our [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/)
 and add the 'PeopleOps' label, or send an email to the People Operations group (see the [sheet with aliases](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#)), or ping an individual
 member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
 
-## Setting up new hiring contracts
+## Setting up new hiring contracts<a name="new-contracts"></a>
+
 New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/) page, including instructions on how to set up new contracts.
-Here's what you can find on the PeopleOps page
 
-* [Using HelloSign](#hellosign)
-* [Using BambooHR](#bamboohr)
-* [Adding new teammembers to BambooHR ](#admin-bamboo)
-* [Using BambooHR as employee](#new-employee-bamboo)
-* [Benefits details for US-based employees](#benefits-us)
-* [Add new hires to TriNet](#trinet-process)
-* [Making changes in TriNet](#changes-trinet)
+### Using HelloSign<a name="hellosign"></a>
 
-
-### Getting contracts signed using [HelloSign](hellosign.com) <a name="hellosign"></a>
-
-When we need [contracts to be signed](https://about.gitlab.com/handbook/#signing-legal-documents) we use HelloSign.
+When we need [contracts to be signed](https://about.gitlab.com/handbook/#signing-legal-documents) we use [HelloSign](https://hellosign.com).
 Follow these steps to send out a signature request.
 
-1. Choose who needs to sign. (just me, me & others or just others)
+1. Choose who needs to sign. (just me, me & others, or just others)
 1. Upload your document that needs signing
-1. Enter the names of the people that need to sign.
-1. With more than one signature required, Assign signing order.(for contracts or offer letters, always have the GitLab Signatory sign first)
-1. Add the People Ops team to the CC.
+1. Enter the names of the people that need to sign
+1. With more than one signature required, assign signing order (for contracts or offer letters, always have the GitLab Signatory sign first)
+1. Add the People Ops team to the cc
 1. Click on "Prepare Docs for signing"
 1. Drag & Drop the Signature and Date fields to the corresponding empty spaces in the document (you can select the signee with the pop up screen)
 1. Add a title and a message for the recipient. For contract use for example: "Dear [...], You can sign [document type] with HelloSign. Once you've signed you will receive a copy by email. If you have any questions, feel free to reach out"
@@ -37,10 +42,10 @@ Follow these steps to send out a signature request.
 
 Once you've sent out the document you will receive email notifications of the progress and a copy of the signed document after all parties have signed.
 
-### Using [BambooHR](https://gitlab.bamboohr.com) <a name="bamboohr"></a>
+## Using BambooHR<a name="bamboohr"></a>
 
-We’re using BambooHR to keep all employee information in one place. All employees,
-regardless of the entity that employs them, are in BambooHR.
+We’re using [BambooHR](https://gitlab.bamboohr.com) to keep all team member information 
+in one place. All team members (all contract types) are in BambooHR.
 
 ### Adding a new team member to BambooHR <a name="admin-bamboo"></a>
 
@@ -57,17 +62,18 @@ as described on our [Hiring](/handbook/hiring/) page, follow these steps:
    1. Turn “self service” on for the employee to enter the following info: Address, Phone, DOB. private email.
 1. Save the signed contract under the Documents tab in the folder “0.Signed Contract/Offer Letter”.
 
-### Using BambooHR as a new hire or employee <a name="new-employee-bamboo"></a>
-Here is explained how employees can keep their employee file on BambooHR updates using self-service
+### Using BambooHR as a new team member<a name="new-member-bamboo"></a>
 
-1. Go to bamboo link received per email
-1. Change password according to [handbook regulations](https://about.gitlab.com/handbook/security/)
+Team members can keep their information in BambooHR updated using self-service:
+
+1. Go to the BambooHR link that you should have received by email
+1. Change the password to make it secure (see the handbook section on [secure passwords](https://about.gitlab.com/handbook/security/))
 1. Login with your new credentials
 1. Keep your credentials stored in your 1Password Vault and keep the info in BambooHR updated (e.g. change address when moving)
 
 ## Administrative details of benefits for US-based employees <a name="benefits-us"></a>
 
-### 401k
+### 401k<a name="401k"></a>
 
 1. You are eligible to participate in GitLab’s 401k as of the 1st of the month after your hire date.  
 1. You will receive a notification on your homepage in Trinet Passport once eligible,
@@ -82,8 +88,9 @@ after the 1st of the month after your hire date.
    1. Zip Code  
 1. Once inside the portal you may elect your annual/pay-period contributions, and Investments.
 
+## Using TriNet<a name="using-trinet"></a>
 
-## Entering New Hires into TriNet <a name="trinet-process"></a>
+### Entering New Hires into TriNet<a name="trinet-process"></a>
 
 Employer enters the employee data in the HR Passport with the information below
 
@@ -146,10 +153,10 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. The employee is prompted to log on, complete tax withholding (W4 data), direct deposit information, section 1 of the I-9, and benefits election (if eligible).
 1. The employer logs in to HR Passport and is prompted by way of work inbox item, to complete section 2 of the I-9.
 
-## Adding a new GitLab, Inc. Employee Location in TriNet <a name="changes-trinet"></a>
+### Making changes in TriNet <a name="changes-trinet"></a>
 
+#### Add a New Location
 
-### Add a New Location
 1. Go to HR Passport homepage
 1. Click Find
 1. Click Find Location.
@@ -158,7 +165,8 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Complete location information. For a remote location, enter the location (ex. WA remote) in all fields except city, state and zip.
 1. Click Add.
 
-### Transfer Employee to Different Location
+#### Transfer Employee to Different Location
+
 1. Go to HR Passport homepage.
 1. Click Find.
 1. Select find person by Name.
