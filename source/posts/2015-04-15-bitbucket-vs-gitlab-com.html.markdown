@@ -98,7 +98,7 @@ that you can use by simply selecting them.
 ## Comes with a CI!
 
 With every GitLab installation, you get our continuous integration tool
-GitLab CI! GitLab.com users can use it for free on [ci.gitlab.com](https://ci.gitlab.com/). It integrates fully with GitLab, so you can easily see the
+GitLab CI! GitLab.com users [can use it for free](http://doc.gitlab.com/ce/ci/quick_start/README.html). It integrates fully with GitLab, so you can easily see the
 build status of any branch, commit or merge request and run your
 deployments automatically after!
 

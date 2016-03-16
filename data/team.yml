@@ -697,6 +697,24 @@
   story:  |
           Joining March 9th
 
+- name: E.A.
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: CTO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining March 14th
+
+- name: J.B.
+  role: <a href="https://about.gitlab.com/jobs/strategic-relations-manager/">Strategic Relations Manager</a>
+  reports_to: CEO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining March 15th
+
 - name: T.A.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Development Lead
@@ -705,3 +723,13 @@
   gitlab:
   story:  |
           Joining April 11th
+
+- name: M.F.
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
+  reports_to: COO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 1st
+

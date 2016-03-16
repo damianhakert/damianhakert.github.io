@@ -26,5 +26,6 @@ with the goal always being to make things easier from the perspective of the tea
 * Excellent written and verbal communication skills
 * Enthusiasm for and broad experience with software tools
 * Proven experience quickly learning new software tools
+* Willing to work with git and GitLab whereevery possible
 * Willing to make People Operations as open and transparent as possible
 

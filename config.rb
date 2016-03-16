@@ -55,7 +55,7 @@ configure :build do
 
   ## Direction page
   if PRIVATE_TOKEN
-    proxy "/direction2/index.html", "/direction2/template.html", locals: { direction: generate_direction }, ignore: true
+    proxy "/direction2/index.html", "/direction/template.html", locals: { direction: generate_direction }, ignore: true
   end
 
   ## Releast list page
@@ -65,4 +65,4 @@ end
 
 ignore "/includes/*"
 ignore "/release-list/template.html"
-ignore "/direction2/template.html"
+ignore "/direction/template.html"
