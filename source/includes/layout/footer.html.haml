@@ -60,21 +60,22 @@
 - full_path = current_page.file_descriptor.relative_path
 .animated.text-center.source-link
   This page is generated from
-  %a.external-source-link{href: "#{data.site.repo}blob/master/source/#{full_path}"}
-    a public file on GitLab.com
+  = link_to('a public file on GitLab.com', "#{data.site.repo}blob/master/source/#{full_path}", class: 'external-source-link')
   &mdash; merge requests with improvements are
   = succeed('.') do
-    %a.external-source-link{href: "#{data.site.repo}blob/master/CONTRIBUTING.md"}
-      very welcome
+    = link_to('very welcome', "#{data.site.repo}blob/master/CONTRIBUTING.md", class: 'external-source-link')
   = partial "includes/cc-license.html"
 = partial "includes/layout/scripts"
 = partial "includes/google/remarketing"
+
 %script{src: "//platform.twitter.com/oct.js", type: "text/javascript"}
+
 :javascript
   twttr.conversion.trackPid('nufbg', { tw_sale_amount: 0, tw_order_quantity: 0 });
 %noscript
   %img{alt: "", height: "1", src: "https://analytics.twitter.com/i/adsct?txn_id=nufbg&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0", style: "display:none;", width: "1"}
   %img{alt: "", height: "1", src: "//t.co/i/adsct?txn_id=nufbg&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0", style: "display:none;", width: "1"}
+
 :javascript
   !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
   n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
@@ -84,5 +85,6 @@
 
   fbq('init', '1689559637958103');
   fbq('track', "PageView");
+
 %noscript
   %img{height: "1", src: "https://www.facebook.com/tr?id=1689559637958103&ev=PageView&noscript=1", style: "display:none", width: "1"}/
