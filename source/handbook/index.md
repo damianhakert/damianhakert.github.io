@@ -277,6 +277,7 @@ step, **re-assign** the issue to that person.
 1. We use BlueJeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
 1. If you have previously logged on to Bluejeans with different credentials, make sure to log out before joining the call as yourself.
 1. We start on time and will not wait for people.
+1. Person who has first item on the agenda starts the call. 
 1. If you are unable to attend just add your name to the [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) as 'Not attending'.
 1. We start by discussing the subjects that are on the agenda for today.
    * Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
@@ -287,7 +288,7 @@ step, **re-assign** the issue to that person.
    * There is no need to excuse yourself with "I didn't do anything interesting", "I just watched television" or "that's all", it is not a competition. Instead share the most interesting detail, for example what television show you watched, book you are reading, video game you played or what recipe you cooked.
 1. Sequence of asking people is in order of joining the company, same as on the [team page](https://about.gitlab.com/team/). If there are non-team page people in the call we end with those.
 1. Please look if the person you hand over to is present in the participant list so you don't hand over to someone who is not present.
-1. Last person hands over to the first person in the call order that is present (normally Dmitriy) who wishes everyone a good day or wishes everyone a great day her or him self.
+1. Last person wishes everyone a good day.
 1. Even if you cannot join the call, read through the team agenda and the links from there. We often use the team call to make announcements or
 discuss changes in processes, so make sure to catch up on the news if you have missed a team call (or more).
 
