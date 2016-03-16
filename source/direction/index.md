@@ -33,7 +33,8 @@ On our [release list page](https://about.gitlab.com/release-list/) you can find 
 ## Next releases
 
 GitLab releases a new version every single month on the 22nd.
-Note that we often move things around, do things that are not listed and we don't always get to do everything that is planned.
+Note that we often move things around, do things that are not listed and don't do things that are listed.
+EE options are indicated with 'EE option' in the issue title, this is our best estimate of what will be options, it is not definitive.
 Also the list below not include any contributions from outside GitLab the company.
 The bullets list the tentpole features; the most important features of upcoming releases.
 The CE and EE to the right of the version number link to all planned issues for that version.
@@ -92,7 +93,7 @@ We very much welcome contributions that implement any of these things.
 - [Distributed code-reviews and issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/4084)
 - [Render PSD files](https://gitlab.com/gitlab-org/gitlab-ce/issues/13189)
 - [Snippets backed by a git repository to enable cloning and revisions](https://gitlab.com/gitlab-org/gitlab-ce/issues/13426)
-- [Binary file lock (EE option?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/7889)
+- [Binary file lock (EE option)](https://gitlab.com/gitlab-org/gitlab-ce/issues/7889)
 
 ### Performance
 
@@ -109,8 +110,8 @@ We very much welcome contributions that implement any of these things.
 - [Automatically give code quality metrics in the merge request](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
 - [Automatic Docker image cleanup](https://gitlab.com/ayufan/gitlab-runner-docker-cleanup/issues/1)
 - [Show code coverage in diffs with colored horizontal bar](https://gitlab.com/gitlab-org/gitlab-ce/issues/4073)
-- [A/B testing of branches with GitLab Pages (EE option?)](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
-- [Code coverage graphs and adding more metrics (EE option?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/13409)
+- [A/B testing of branches with GitLab Pages (EE option)](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
+- [Code coverage graphs and adding more metrics (EE option)](https://gitlab.com/gitlab-org/gitlab-ce/issues/13409)
 
 ### Scope <a name="scope"></a>
 
