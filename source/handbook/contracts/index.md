@@ -893,6 +893,7 @@ during employment and for a period of 24 months following termination of the Emp
 Contract to establish, run, have run or jointly run a business that offers source
 code management software and services, either directly or indirectly, or to work in any
 capacity in such a business, either on a paid or unpaid basis, or to have a share in
+it of any nature whatsoever.
 
 1. Employer is a start-up company. If Employee leaves Employer and transfers knowledge, clients or other key information for the start-up company, this could directly damage the financial stability and existence of the Employer. For that reason Employer applies a non-competition clause to this contract.
 
