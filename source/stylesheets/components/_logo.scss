@@ -2,17 +2,4 @@
   max-height: 44px;
   position: relative;
   top: -12px;
-
-  .logo-svg-shape:hover {
-    fill: $color-primary-alt;
-  }
-}
-
-.logo-svg-shape {
-  transition: all .8s;
-}
-
-.logo-svg-shape:hover {
-  fill: $color-white;
-  transition: all .1s;
 }
