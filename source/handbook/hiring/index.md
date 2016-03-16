@@ -116,8 +116,9 @@ platform, and uses reply-all to gather any missing pieces of information, and to
 confirm with a reply-to-all when the contract is sent. Note: the number of proposed stock options
 must always be mentioned specifically, even when it is 0. People Ops must follow-up
 with the person who requested the contract to make sure that this point is addressed.
-1. This same person from People Operations files the signed contract in the appropriate place, and **starts the [onboarding issue]** (https://about.gitlab.com/handbook/general-onboarding/).
+1. This same person from People Operations files the signed contract in the appropriate place, and starts the [**onboarding issue**](https://about.gitlab.com/handbook/general-onboarding/).
 
-Note for People Operations: the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
-[Contracts page](https://about.gitlab.com/handbook/contracts).
-Onboarding info for the PeopleOps system, BambooHR, can be found on the [PeopleOps](about.gitlab.com/handbook/people-operations)
+Note for People Operations:  
+- the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
+[Contracts page](https://about.gitlab.com/handbook/contracts).  
+- Onboarding info for the PeopleOps system, BambooHR, can be found on the [PeopleOps](about.gitlab.com/handbook/people-operations) page.
