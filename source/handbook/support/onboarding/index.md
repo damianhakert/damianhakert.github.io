@@ -89,7 +89,7 @@ doing this, please fill in the correct name and email domains for the new Organi
 #### Tags for Tickets
 
 To be able to capture metrics on which topics are most frequently asked about, when you start on a ticket,
-add tags to it. Currently, the tags that are to be used are:  
+add tags to it. Currently, the tags that are to be used are:
 
 - bug
 - feature proposal
@@ -137,16 +137,10 @@ to the questions and suggestions since not everyone is familiar with ZenDesk. Wh
 ### When to mark a ticket as solved?
 
 A ticket can be marked as solved when you are certain that you were able to resolve the requester's
-problem, or, as mentioned above, when many days go by without a reply from the requester. The exception 
-to this rule is in social media support channels that do not integrate well with ZenDesk such as Disqus, 
-the Forum, Stack Overflow, and others.
-
-In the social media support channels that create a new ticket with each comment (i.e. the Forum) you 
-must mark the original question ticket as pending, resolve the issue and merge all the individual comment 
-tickets into the first one before closing it.
-
-In channels that don't create new tickets with new interactions, such as Stack Overflow (which pipes 
-digests into ZenDesk instead of each interaction), you can close the ticket as soon as you have provided a response.
+problem, or, as mentioned above, when many days go by without a reply from the requester. The exception
+to this rule is in social media support channels that do not integrate well with ZenDesk such as Disqus,
+the Forum, Stack Overflow, and others, where each comment creates a new ticket. In those cases, you can
+close the ticket as soon as you have provided a response (and also close the ticket created by your own response).
 
 ### Clearing out Suspended Tickets
 
