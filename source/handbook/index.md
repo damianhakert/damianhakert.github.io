@@ -151,6 +151,8 @@ For this, we use **asynchronous communication** and are as open as we can be by 
 and placing an emphasis on ensuring that conclusions of offline conversations are written down.
 These communication guidelines are meant to facilitate smooth communication in an
 ever-growing remote-first company.
+Please keep in mind that you represent GitLab and our culture, also on Social Media.
+When commenting on posts please keep in mind: "Don't argue but represent."
 
 ### Internal Communication<a name="internal-communication"></a>
 
@@ -171,7 +173,7 @@ etc.) please include a link to it.
 person know that you received it. A thread is done when there is a single word
 reply, such as OK, thanks, or done.
 1. If you forward an email without other comments please add FYI (for your
-information) or FYA (for your action).
+information) or FYA (for your action). If you forward an external request with FYA it doesn't mean that the company should do whatever is proposed, it just means the person who forwarded it will not follow up on the request.
 1. If you want to create, or be added or removed from an internal email alias (e.g.
 `sales@gitlab.com`) please see the [GitLab Email Forwarding doc](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#).
 1. If you use chat please use a public channel whenever possible, mention the
@@ -184,11 +186,16 @@ to the 'call?' request with a video link or say 'yes' and let the other person
 start it. Don't say 'yes' and start a call 5 seconds later since it is likely
 you'll both be creating a video call link at the same time.
 1. All company data should be **shareable** by default. Don't use a local text
-file but leave comments on an issue. Create Google docs with your company Google
+file but leave comments on an issue. Use merge requests to edit the website, don't use 
+Google Docs. If you _do_ need a Google Doc, then create the doc with your company Google
 Apps account. By default share Google docs with the whole company 'anyone at
 GitLab can find and access' with edit (preferred) or comment access for everyone.
 An easy way to do this, is to create your Google docs in a Shared Folder in
 Google Drive.
+1. When referring to a Google Doc in the handbook, refrain from providing the direct link.
+Instead, write the name of the Google Doc. In the past, giving the url of a doc
+has led to inadvertent opening of sharing settings beyond what was intended, and it also helps
+prevent spam from people outside of GitLab who request access to the doc when they see the link.
 1. All our procedures and templates are stored in (mostly public) git repositories
 instead of Google/Word documents. This makes them easier to find and suggest
 changes to with the organization and shows our commitment to open collaboration
@@ -271,6 +278,7 @@ step, **re-assign** the issue to that person.
 1. We use BlueJeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
 1. If you have previously logged on to Bluejeans with different credentials, make sure to log out before joining the call as yourself.
 1. We start on time and will not wait for people.
+1. Person who has first item on the agenda starts the call. 
 1. If you are unable to attend just add your name to the [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) as 'Not attending'.
 1. We start by discussing the subjects that are on the agenda for today.
    * Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
@@ -281,7 +289,7 @@ step, **re-assign** the issue to that person.
    * There is no need to excuse yourself with "I didn't do anything interesting", "I just watched television" or "that's all", it is not a competition. Instead share the most interesting detail, for example what television show you watched, book you are reading, video game you played or what recipe you cooked.
 1. Sequence of asking people is in order of joining the company, same as on the [team page](https://about.gitlab.com/team/). If there are non-team page people in the call we end with those.
 1. Please look if the person you hand over to is present in the participant list so you don't hand over to someone who is not present.
-1. Last person hands over to the first person in the call order that is present (normally Dmitriy) who wishes everyone a good day or wishes everyone a great day her or him self.
+1. Last person wishes everyone a good day.
 1. Even if you cannot join the call, read through the team agenda and the links from there. We often use the team call to make announcements or
 discuss changes in processes, so make sure to catch up on the news if you have missed a team call (or more).
 

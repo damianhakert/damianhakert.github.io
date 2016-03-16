@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: Service Engineer Onboarding
+title: Service Engineer On-boarding
 ---
 
 ## Expectations of the support team
@@ -14,7 +14,7 @@ expected to:
 - It is OK if you don't know something. You can always ask someone else
 - It is OK to say no to a customer, but try to suggest a workaround and escalate to a Senior if necessary
 
-## First steps when you join the team
+## First steps when you join the team <a name="first-steps"></a>
 
 When you first join the team everything will be new to you. In order to get you started with GitLab quickly
 you should take a look at the resources we have available at the [GitLab University](https://about.gitlab.com/university/).
@@ -44,17 +44,18 @@ craft their replies, and to get more insight and knowledge into topics with whic
 
 ### Training
 
-Right after joining the team you will go through a training process with the guidance of a fellow Service Engineer.
-In this training you will learn the ins and outs of GitLab, how to integrate it with the most used enterprise tools, like
-LDAP, Jira, Jenkins and SAML, how to best talk to our customers, and how to best radiate information you
-collect across the team. [TODO: link to SE training materials on GitLab University]
+Right after joining the team you will go through a [training process](/university/support)
+with the guidance of a fellow Service Engineer. In this training you will learn the ins and
+outs of GitLab, how to integrate it with the most used enterprise tools, like LDAP, JIRA,
+Jenkins and SAML, how to best talk to our customers, and how to best radiate information you
+collect across the team.
 
 Initially, you will pick up relatively less complex tickets, and learn more about the product and the process by
 responding to a large volume of these tickets. Typically, you will start by answering tickets that come in
 through social media, advancing to general support tickets, and eventually subscriber, security, and emergency tickets.
 
 
-## Handling tickets
+## Handling tickets <a name="handling-tickets"/>
 
 ### Assigning a ticket to yourself
 
@@ -146,6 +147,13 @@ tickets into the first one before closing it.
 
 In channels that don't create new tickets with new interactions, such as Stack Overflow (which pipes 
 digests into ZenDesk instead of each interaction), you can close the ticket as soon as you have provided a response.
+
+### Clearing out Suspended Tickets
+
+In ZenDesk, various filters send a ticket straight to "suspended" status. This is mostly useful
+to remove spam and it works quite well. However, it is possible that actual tickets
+are accidentally routed to Suspended Tickets, so it is important to check the new Suspended Ticket queue
+at least once a day. Doing this on a regular basis also keeps that queue manageable.
 
 ### Receiving negative feedback
 

@@ -41,7 +41,7 @@ class GitLabProject
    end
 
    def milestone_direction_issues(milestone_id)
-     @instance.call("/projects/#{@id}/issues", "?milestone=#{milestone_id}&labels=direction&state=opened")
+     @instance.call("/projects/#{@id}/issues", "?milestone=#{milestone_id}&labels=direction")
    end
 
    def name
@@ -92,7 +92,7 @@ task :direction_issues do
     end
   end
 
-  file_path = "source/direction2/index.md"
+  file_path = "source/direction/index.md"
 
   original_file = File.read(file_path)
   new_contents = original_file.gsub(/<!-- direction_issues -->/, output)

@@ -28,23 +28,15 @@ entity where they are located (e.g. GitLab BV should not contract with contracto
 / employees in the US and vice versa).
 If the employee is in the US, GitLab Inc. should be the hiring/contracting entity.  
 In all other regions GitLab BV should be the hiring / contracting entity.
-
-1. Copy the relevant contract(s) to a Google Doc, and place it in Google Drive, following the structure
-{entity} -> {contractors or employees} -> {ZZ In Process of Hiring} -> {folder with name of applicant}.
-
+1. Download the right contract or offer letter template from the "In Process of Hiring" file on the Documents page of [BambooHR](https://gitlab.bamboohr.com)
 1. Remember that regardless of the status of the new team member, i.e. contractor or employee for either GitLab Inc., or GitLab BV,
   an NDA and IP Agreement (called a PIAA for the Inc. entity) must be included with the contract.
-
 1. Find all fields with curly brackets (` { } `), and edit as appropriate. It is often efficient
 to do a find + replace on fields that appear multiple times such as names, email
 addresses, etc. (fields are named the same in the contracts / PIAA to make this easier).
-
 1. When removing optional clauses, take care that the paragraph / section numbering still makes sense (especially for the GitLab Inc offer letter).
-
 1. Have the contract reviewed, per the guideline on the [Hiring page](https://about.gitlab.com/handbook/hiring/).
-
-1. Process new contract(s) via HelloSign (also see [how to get legal documents signed](https://about.gitlab.com/handbook/#signing-legal-documents) ).
-
+1. [Process new contract(s) via HelloSign](https://about.gitlab.com/handbook/people-operations/#hellosign) (also see [how to get legal documents signed](https://about.gitlab.com/handbook/#signing-legal-documents) ).
 
 
 ## GitLab Inc Employee Offer Letter<a name="inc-employee"></a>
@@ -896,13 +888,12 @@ notify the manager, and permission is implied unless noted otherwise by the Empl
 
 **15\. Non-competition clause**
 
-
 1. Without the prior written permission of the Employer, the Employee is prohibited
 during employment and for a period of 24 months following termination of the Employment
 Contract to establish, run, have run or jointly run a business that offers source
 code management software and services, either directly or indirectly, or to work in any
 capacity in such a business, either on a paid or unpaid basis, or to have a share in
-it of any nature whatsoever.
+
 1. Employer is a start-up company. If Employee leaves Employer and transfers knowledge, clients or other key information for the start-up company, this could directly damage the financial stability and existence of the Employer. For that reason Employer applies a non-competition clause to this contract.
 
 **16\. Business relations clause**
@@ -969,6 +960,10 @@ Date:
 * {Remove for Contractors not based in NL: 10.6 Contributor will provide GitLab
 with a copy of Contributor's valid Declaration of Independent Contractor Status
 with respect to income tax (*VAR WUO-verklaring*) and will provide a new declaration after its expiration.  }
+* {EMPLOYEES:**{Name of Contributor}**, (BSN:{Contributor BSN}), born on {Contributor
+DOB}, currently residing at {Contributor Address}, hereinafter referred to as
+‘Contributor’; OR CONTRACTORS: **{Name of Contributor}** acting as an independent
+contractor located at {Contributor Address}, hereinafter referred to as ‘Contributor’;}
 * {in the name of {Contributor Company Name} OR as an independent contractor}
 * {EMPLOYEES:**{Name of Contributor}**, (BSN:{Contributor BSN}), born on {Contributor
 DOB}, currently residing at {Contributor Address}, hereinafter referred to as
@@ -998,6 +993,7 @@ laws of the Netherlands, having its statutory seat at {GitLab BV Address} repres
 for these purposes by {GitLab Authorized Signatory}, hereinafter referred to as ‘GitLab’;
 
 **and**
+
 
 {Name of Contributor} acting {in the name of {Contributor Company Name} OR as an
 independent contractor} located at {Contributor Address}, hereinafter referred to as ‘Contributor’;
@@ -1031,10 +1027,14 @@ GitLab and Contributor are hereinafter collectively referred to as the “Partie
 3.3	GitLab will pay Contributor’s invoice within 30 days.  
 3.4	Contributor’s fee includes a full compensation for any expenses related to the performance of Contributor's activities for GitLab and a full compensation for any damages Contributor may suffer in the performance of Contributor's activities for GitLab.  
 
-**4\.	Replacement**   
+
+**4\.	Replacement**
+
 4.1	In the event GitLab is obliged to re-do any of the {Single or two word service/project description} due to dissatisfaction, Contributor shall perform the required work/activities. Contributor is not entitled to an additional fee for these activities. Compensation for the unsatisfactory work is included in the fee as stipulated in article 3.   
 
-**5\.	Confidentiality and property**   
+
+**5\.	Confidentiality and property**
+
 5.1	Parties will agree on Confidentiality a separate agreement appended to this Contractor Agreement. The Confidentiality Agreement is an indissoluble part of this Contractor Agreement.  
 5.2. In case of termination of this agreement for whatever reason, Contributor is obliged to immediately return all documentation and other property belonging to GitLab which Contributor has in Contributor’s possession together with Contributor's own notes and photocopies.  
 5.3	Contributor shall not be permitted to retain any property belonging to GitLab to offset any alleged claim against GitLab. Contributor waives any right of retention of property.  
@@ -1049,7 +1049,9 @@ services, either directly or indirectly , or to work in any capacity in such a
 business, either on a paid or unpaid basis, or to have a share in it of any nature
 whatsoever.
 
-**7\.	Business relations**   
+
+**7\.	Business relations**
+
 7.1	During the term of this Agreement Contributor shall not, without GitLab’s prior
 written consent, either directly or indirectly, work for or be involved with any
 customers and/or business relations of GitLab, unless on behalf of GitLab.  
@@ -1062,16 +1064,20 @@ to sever their relationship with GitLab.
 
 
 **8\.	Penalty**   
+
 8.1	For each infringement of the provisions of article 5, 6 and/or 7, Contributor
 forfeits to GitLab, without further summons or notice of default being required,
 an immediately eligible penalty of EUR 25.000,-, plus an amount of EUR 1.000,- for
 each day that the infringement continues, without prejudice of GitLab’s right to
 claim compliance and damages.  
 
-**9\.	Intellectual property**   
+
+**9\.	Intellectual property**
+
 9.1	Parties will agree on Intellectual Property in a separate agreement appended to this Contractor Agreement. The Intellectual Property Agreement is an indissoluble part of this Contractor Agreement.
 
-**10\.	Character of the Agreement and liability**   
+**10\.	Character of the Agreement and liability**
+
 10.1	Parties explicitly agree that the legal relationship between GitLab and Contributor is a Contractor Agreement (*opdrachtovereenkomst art. 7:400 BW*) and cannot be regarded as an employment agreement (*arbeidsovereenkomst art. 7:610 BW*).  
 10.2	GitLab excludes any responsibility or liability for any direct or consequential damages or losses of Contributor ensuing from their working relationship or for any other damage.  
 10.3	In any event GitLab’s liability is and will be limited to an amount equal to the fee to be paid to Contributor for the service the damage relate to.  
@@ -1079,7 +1085,8 @@ claim compliance and damages.
 10.5	In case the Tax Authorities and/or the Social Security Authorities regard the working relationship between the Parties as a (fictive) employment agreement, Contributor shall indemnify GitLab against all tax and social security claims from the aforementioned authorities.  
 {Remove for Contractors not based in NL: 10.6 Contributor will provide GitLab with a copy of Contributor's valid Declaration of Independent Contractor Status with respect to income tax (*VAR WUO-verklaring*) and will provide a new declaration after its expiration.  }
 
-**11\. 	Governing Law**    
+**11\. 	Governing Law**
+
 11.1	This Agreement shall be subject to Dutch law only.  
 11.2	Any dispute in regard to this Agreement and to the implementation thereof shall be settled before a competent court in The Netherlands.  
 
@@ -1200,7 +1207,7 @@ and
 DOB}, currently residing at {Contributor Address}, hereinafter referred to as
 ‘Contributor’; OR CONTRACTORS: **{Name of Contributor}** acting {in the name of
 {Contributor Company Name} OR as an independent
-contractor} located at {Contributor Address}, hereinafter referred to as ‘Contributor’;}  
+contractor} located at {Contributor Address}, hereinafter referred to as ‘Contributor’;}
 
 Both parties are hereinafter jointly referred to as ‘the Parties’.
 

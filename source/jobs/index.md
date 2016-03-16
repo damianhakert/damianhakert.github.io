@@ -39,7 +39,7 @@ If you email us we'll reply with [a link to this paragraph](https://about.gitlab
 ### Developer
 * [Description](https://about.gitlab.com/jobs/developer/)
 * [Apply](https://gitlab.workable.com/jobs/106660/candidates/new)
-* A note on the technical interview<a name="technical-interview"></a>: As part of our interviewing process, you may
+* As part of our technical interview<a name="technical-interview"></a>, you will
 be asked to pick an issue from the GitLab CE issue tracker, and code 'live' with
 the interviewer there to talk with and collaborate with. We do this because we
 believe that it is the best way for you to see what the work is really like, and
@@ -47,7 +47,16 @@ for our [interviewer to see how you think, code, and collaborate](http://zachhol
 When contributing code, you should follow the [Contribution guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md),
 and you agree to the [individual contributor license agreement](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/legal/individual_contributor_license_agreement.md).
 If you prefer not to do the above please let us know and we'll give you an assignment that does not relate to GitLab but does test the relevant skills.
-
+* If you get in the [contributors](http://contributors.gitlab.com/) top 10 we'll
+  hire you (at least that is what has happened so far).
+* We normally don't offer any internships but if you get a couple of merge requests
+  accepted we'll interview you for one. This will be a remote internship without
+  supervision, you'll only get feedback on your merge requests. If you want to
+  work on open source and qualify please [submit an application](https://gitlab.workable.com/jobs/207439/candidates/new).
+  In the cover letter field please note that you want an internship and link to
+  the accepted merge requests. The merge requests should be of significant
+  value and difficulty, which is at the discretion of the hiring manager. For
+  example, fixing 10 typos isn't as valuable as shipping 2 new features.
 
 ### Product Marketing Manager
 
@@ -64,11 +73,6 @@ If you prefer not to do the above please let us know and we'll give you an assig
 * [Description](https://about.gitlab.com/jobs/production-engineer/)
 * [Apply](https://gitlab.workable.com/jobs/142989/candidates/new)
 
-### Strategic Relations Manager
-
-* [Description](https://about.gitlab.com/jobs/strategic-relations-manager)
-* [Apply](https://gitlab.workable.com/jobs/186837/candidates/new)
-
 ### Account Manager
 
 * [Description](https://about.gitlab.com/jobs/account-manager/)
@@ -78,3 +82,8 @@ If you prefer not to do the above please let us know and we'll give you an assig
 
 * [Description](https://about.gitlab.com/jobs/account-manager/)
 * [Apply](https://gitlab.workable.com/jobs/88117/candidates/new)
+
+### People Operations Administrator
+
+* [Description](https://about.gitlab.com/jobs/people-ops-administrator/)
+* [Apply](https://gitlab.workable.com/jobs/220106/candidates/new)

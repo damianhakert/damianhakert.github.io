@@ -33,51 +33,15 @@ On our [release list page](https://about.gitlab.com/release-list/) you can find 
 ## Next releases
 
 GitLab releases a new version every single month on the 22nd.
-Note that we often move things around, do things that are not listed and we don't always get to do everything that is planned.
+Note that we often move things around, do things that are not listed and don't do things that are listed.
+EE options are indicated with 'EE option' in the issue title, this is our best estimate of what will be options, it is not definitive.
 Also the list below not include any contributions from outside GitLab the company.
 The bullets list the tentpole features; the most important features of upcoming releases.
 The CE and EE to the right of the version number link to all planned issues for that version.
 
-### 8.6 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/22) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/8) March 22nd
+<!-- direction_issues -->
 
-- [First iteration](https://gitlab.com/gitlab-org/gitlab-ce/issues/14149) of [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
-- [Project import / export](https://gitlab.com/gitlab-org/gitlab-ce/issues/3050)
-- [External users](https://gitlab.com/gitlab-org/gitlab-ce/issues/4009)
-- [Push to a remote repository (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/116)
-- [Confidential issues (EE)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3678)
-- [Merge even if master is updated](https://gitlab.com/gitlab-org/gitlab-ce/issues/3873)
-- [Acknowledge line comments on a MR](https://gitlab.com/gitlab-org/gitlab-ce/issues/10325)
-- [Ability to delete issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/2489)
-- [Get rid of default login credentials](https://gitlab.com/gitlab-org/gitlab-ce/issues/1980)
-- [HA Omnibus packages (EE option?)](https://gitlab.com/gitlab-org/gitlab-ee/issues/77)
-- [Due date for issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/12709)
-- [Subscribe to a Label](https://gitlab.com/gitlab-org/gitlab-ce/issues/12743)
-- [Move issues between projects](https://gitlab.com/gitlab-org/gitlab-ce/issues/3024)
-
-
-### 8.7 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/23) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/9) April 22nd
-
-- Second iteration of [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
-- [CI Pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
-- [Squash commits upon Merging (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/150)
-- [Run build on merged code before merging (EE?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4176)
-- [Code management analytics (EE option?)](https://gitlab.com/gitlab-org/gitlab-ee/issues/112)
-- [Delivery analytics (EE option?)](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
-- [Subscribe to new Issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/12758)
-- [Performance monitoring (EE)](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1008)
-- [Request access to a repo](https://gitlab.com/gitlab-org/gitlab-ce/issues/13948)
-- [Award emoji in comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3655)
-- [Comment on Images in Diffs](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
-- [LICENSE templates](https://gitlab.com/gitlab-org/gitlab-ce/issues/12804)
-
-### 8.8 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/24) [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/10)
-
-- Third iteration of [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
-- [Multiline comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/4143)
-- [Mailing list functionality](https://gitlab.com/gitlab-org/gitlab-ce/issues/4272)
-- [.gitignore templates](https://gitlab.com/gitlab-org/gitlab-ce/issues/14106)
-- [Watch projects I'm not a member of](https://gitlab.com/gitlab-org/gitlab-ce/issues/9013) which is dependent on [participants table](https://gitlab.com/gitlab-org/gitlab-ce/issues/3965)
-- [Use votes for acceptance of MRs](https://gitlab.com/gitlab-org/gitlab-ce/issues/13411)
+<!-- do not remove or modify these lines -->
 
 ## Wishlist
 
@@ -129,7 +93,7 @@ We very much welcome contributions that implement any of these things.
 - [Distributed code-reviews and issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/4084)
 - [Render PSD files](https://gitlab.com/gitlab-org/gitlab-ce/issues/13189)
 - [Snippets backed by a git repository to enable cloning and revisions](https://gitlab.com/gitlab-org/gitlab-ce/issues/13426)
-- [Binary file lock (EE option?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/7889)
+- [Binary file lock (EE option)](https://gitlab.com/gitlab-org/gitlab-ce/issues/7889)
 
 ### Performance
 
@@ -146,8 +110,35 @@ We very much welcome contributions that implement any of these things.
 - [Automatically give code quality metrics in the merge request](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
 - [Automatic Docker image cleanup](https://gitlab.com/ayufan/gitlab-runner-docker-cleanup/issues/1)
 - [Show code coverage in diffs with colored horizontal bar](https://gitlab.com/gitlab-org/gitlab-ce/issues/4073)
-- [A/B testing of branches with GitLab Pages (EE option?)](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
-- [Code coverage graphs and adding more metrics (EE option?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/13409)
+- [A/B testing of branches with GitLab Pages (EE option)](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
+- [Code coverage graphs and adding more metrics (EE option)](https://gitlab.com/gitlab-org/gitlab-ce/issues/13409)
+- Pre-testing of merged results (EE option)
+- Feature deploy (measure KPI and use feature toggles) (EE option)
+- Automatic environment per merge request (EE option)
+- Automatic A/B testing of branches (EE option)
+- Configuration management integration (Chef, Puppet, Ansible, Salt) (EE option)
+
+### Access control
+
+- Directory access management (EE option)
+- Turnstile security that is self learning and location dependent (EE option)
+- Automated vulnerability scanner (EE option)
+
+### Tracebility
+
+Watermarking of binaries that are downloaded (EE option)
+Build traceability (trace binary to source) (EE option)
+New code license detection (scans the internet) (EE option)
+
+### Analytics
+
+- Advanced compliance reporting on access rights (EE option)
+- Advanced analytics features (EE option)
+
+### Reporting
+
+- Aggregated time reports (time spent per project, etc.) (EE option)
+- Management dashboard (time spend per phase, cycle time and velocity) (EE option)
 
 ### Scope <a name="scope"></a>
 

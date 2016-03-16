@@ -61,6 +61,8 @@ We believe that all digital products should be open to contributions, from legal
 
 7. To be sustainable we need an open core model that includes a proprietary GitLab EE.
 
+8. There is a network effect for open source software, the most popular software will receive the most contributions and feedback.
+
 ## Constraints
 
 1. Founder control: vote & board majority so we can keep making long term decisions.
