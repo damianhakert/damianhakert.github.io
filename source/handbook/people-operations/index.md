@@ -8,14 +8,16 @@ and add the 'PeopleOps' label, or send an email to the People Operations group (
 member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
 
 * [Using HelloSign](#hellosign)
-* [Onboarding using BambooHR](bamboohr)
-* [Adding team members in Bamboo](new-employee-bamboo)
+* [Using BambooHR](bamboohr)
+* [Adding new teammembers to BambooHR ](admin-bamboo)
+* [Using BambooHR as employee](new-employee-bamboo)
 
 
 ### Getting contracts signed using [HelloSign](hellosign.com) <a name="hellosign"></a>
 
 When we need [contracts to be signed](https://about.gitlab.com/handbook/#signing-legal-documents) we use HelloSign.
 Follow these steps to send out a signature request.
+
 1. Choose who needs to sign. (just me, me & others or just others)
 1. Upload your document that needs signing
 1. Enter the names of the people that need to sign.
@@ -23,17 +25,17 @@ Follow these steps to send out a signature request.
 1. Add the People Ops team to the CC.
 1. Click on "Prepare Docs for signing"
 1. Drag & Drop the Signature and Date fields to the corresponding empty spaces in the document (you can select the signee with the pop up screen)
-1. Add a title and a message for the receipient. For contract use for example: "Dear [...], You can sign [document type] with HelloSign. Once you've signed you will receive a copy by email. If you have any questions, feel free to reach out"
+1. Add a title and a message for the recipient. For contract use for example: "Dear [...], You can sign [document type] with HelloSign. Once you've signed you will receive a copy by email. If you have any questions, feel free to reach out"
 1. Request Signature.
 
 Once you've sent out the document you will receive email notifications of the progress and a copy of the signed document after all parties have signed.
 
-### Onboarding new employees using [BambooHR](https://gitlab.bamboohr.com) <a name="bamboohr"></a>
+### Using [BambooHR](https://gitlab.bamboohr.com) <a name="bamboohr"></a>
 
 We’re using BambooHR to keep all employee information in one place. All employees,
 regardless of the entity that employs them, are in BambooHR.
 
-### Adding a new team member to BambooHR <a name="new-employee-bamboo"></a>
+### Adding a new team member to BambooHR <a name="admin-bamboo"></a>
 
 After People Ops is requested to make a contract or offer letter for a potential hire,
 as described on our [Hiring](/handbook/hiring/) page, follow these steps:
@@ -47,6 +49,14 @@ as described on our [Hiring](/handbook/hiring/) page, follow these steps:
    1. Enter the following fields: First name, Last name, Gender, Hire date, Employment status, Job information, Pay rate, Salary for employees, or select another option.
    1. Turn “self service” on for the employee to enter the following info: Address, Phone, DOB. private email.
 1. Save the signed contract under the Documents tab in the folder “0.Signed Contract/Offer Letter”.
+
+### Using BambooHR as a new hire or employee <a name="new-employee-bamboo"></a>
+Here is explained how employees can keep their employee file on BambooHR updates using self-service
+
+1. Go to bamboo link received per email
+1. Change password according to [handbook regulations](https://about.gitlab.com/handbook/security/)
+1. Login with your new credentials
+1. Keep your credentials stored in your 1Password Vault and keep the info in BambooHR updated (e.g. change address when moving)
 
 
 
