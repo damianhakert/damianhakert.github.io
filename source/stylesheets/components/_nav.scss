@@ -4,7 +4,6 @@
 
   .navbar-collapse {
     @media (max-width: 767px) {
-      background-color: $color-primary-alt;
       text-align: center;
     }
   }
@@ -25,16 +24,18 @@
   }
 
   .navbar-nav {
+    margin-bottom: 0;
+
     @media (min-width: $screen-sm-min) {
       float: right;
     }
 
     > li {
-      &.active {
-        > a {
-          @media (max-width: $screen-sm-min) {
-            color: $color-secondary-alt;
-          }
+      &:last-child {
+        border-bottom: 2px solid $color-primary;
+
+        @media (min-width: $screen-sm-min) {
+          border-bottom: 0;
         }
       }
 
@@ -43,16 +44,16 @@
         padding-left: 30px;
         padding-right: 30px;
 
-        @media (max-width: 767px) {
-          padding-top: 8px;
-          padding-bottom: 8px;
-          color: $color-white;
-        }
-
         @media (max-width: 991px) {
           padding-left: 15px;
           padding-right: 15px;
           font-size: 14px;
+        }
+
+        @media (max-width: 767px) {
+          padding-top: 8px;
+          padding-bottom: 8px;
+          font-size: 16px;
         }
       }
     }
