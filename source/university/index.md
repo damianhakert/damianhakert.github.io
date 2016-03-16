@@ -19,10 +19,10 @@ the [Process Documentation](/university/process).
 ### Table of Contents
 
 - [General Boot Camp](#general-boot-camp)
-    - [stage 1](#stage-1)
-    - [stage 2](#stage-2)
-    - [stage 3](#stage-3)
-    - [stage 4](#stage-4)
+    - [Stage 1](#stage-1)
+    - [Stage 2](#stage-2)
+    - [Stage 3](#stage-3)
+    - [Stage 4](#stage-4)
     - [Other general topics](#other-general-topics)
         - [GitLab Wiki](#gitlab-wiki)
         - [GitLab Activity Log](#gitlab-activity-log)
