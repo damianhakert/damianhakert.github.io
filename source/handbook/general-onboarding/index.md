@@ -47,7 +47,7 @@ there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @emily, and @tiffani
 * [ ] Robert/Jacob/COO: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
 * [ ] Robert/Jacob/COO: Add to [Slack](https://gitlab.slack.com/admin)
 * [ ] People Ops: Give team member access to the GitLab availability calendar
-* [ ] People Ops: Add new team member to the next monthly GitLab 101 call 
+* [ ] People Ops: Add new team member to the next monthly GitLab 101 call
 * [ ] People Ops: Invite to team meeting.
 * [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment.
 * [ ] People Ops: Assign buddy and explain to buddy what that means: "What it
