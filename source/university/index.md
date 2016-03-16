@@ -19,10 +19,10 @@ the [Process Documentation](/university/process).
 ### Table of Contents
 
 - [General Boot Camp](#general-boot-camp)
-    - [Week 1](#week-1)
-    - [Week 2](#week-2)
-    - [Week 3](#week-3)
-    - [Week 4](#week-4)
+    - [Stage 1](#stage-1)
+    - [Stage 2](#stage-2)
+    - [Stage 3](#stage-3)
+    - [Stage 4](#stage-4)
     - [Other general topics](#other-general-topics)
         - [GitLab Wiki](#gitlab-wiki)
         - [GitLab Activity Log](#gitlab-activity-log)
@@ -42,8 +42,8 @@ the [Process Documentation](/university/process).
 
 ## General Boot Camp <a name="general-boot-camp"></a>
 
-In order to get everyone started quickly with GitLab, an intense 30 days course
-has been prepared. The path outlined here should be followed by everyone new to GitLab,
+In order to get everyone started quickly with GitLab, an intense 4 stages course
+has been prepared. The path outlined here can be followed by everyone new to GitLab,
 and depending on your functional group, extra steps will be required.
 
 These extra steps are described in their own document and linked from here, when
@@ -61,7 +61,7 @@ only. Send Job a message to sign up.
 
 ---
 
-### Week 1 <a name="week-1"></a>
+### Stage 1 <a name="stage-1"></a>
 
 **Familiarize yourself with the basics**
 
@@ -109,7 +109,7 @@ only. Send Job a message to sign up.
     - [Recording](https://www.youtube.com/watch?v=raXvuwet78M)
     - Supporting: [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 
-### Week 2 <a name="week-2"></a>
+### Stage 2 <a name="stage-2"></a>
 
 **Experience first hand the power of GitLab**
 
@@ -146,11 +146,11 @@ only. Send Job a message to sign up.
     - Supporting: [Migrating from SVN](http://doc.gitlab.com/ee/workflow/importing/migrating_from_svn.html)
     - Supporting: [Migrating from Fogbugz](http://doc.gitlab.com/ee/workflow/importing/import_projects_from_fogbugz.html)
 
-1. Follow the steps outlined on **Week 2** of your path:
+1. Follow the steps outlined on **Stage 2** of your path:
     - [Support Path](/university/support/)
     - [Sales Path](/university/sales/)
 
-### Week 3 <a name="week-3"></a>
+### Stage 3 <a name="stage-3"></a>
 
 **Get familiar with GitLab's advanced features**
 
@@ -174,11 +174,11 @@ only. Send Job a message to sign up.
     - [Upcoming in EE](https://gitlab.com/gitlab-org/University/blob/master/classes/upcoming_in_ee.md)
     - [Big files in Git (Git LFS, Annex)](https://gitlab.com/gitlab-org/University/blob/master/classes/git_lfs_and_annex.md)
 
-1. Follow the steps outlined on **Week 3** of your path:
+1. Follow the steps outlined on **Stage 3** of your path:
     - [Support Path](/university/support/)
     - [Sales Path](/university/sales/)
 
-### Week 4 <a name="week-4"></a>
+### Stage 4 <a name="stage-4"></a>
 
 **Dive into your particular path**
 

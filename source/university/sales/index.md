@@ -11,6 +11,9 @@ Each week there are learning goals and content to support the learning of the sa
 The goal of this boot camp is to have every salesperson prepared to help buyers navigate
 the purchase of GitLab EE.
 
+The General Boot Camp is divided in stages that correlate to the `Weeks` schedule
+mentioned in here. Work on one stage per week.
+
 Always start with the [General Boot Camp](../#general-boot-camp) and then work
 your way here for more advanced and specific training.
 
