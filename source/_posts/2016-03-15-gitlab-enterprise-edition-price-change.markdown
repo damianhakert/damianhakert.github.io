@@ -33,9 +33,9 @@ with a maximum charge of $50,000.
 We're doing this for a number of reasons.
 
 - We want to enable people to order individual licenses. Now, if you need 2
-you don't need to buy a pack of 10 or if you need 104 you don’t need to buy a pack of 200.
+you don't need to buy a pack of 10 or if you need 104 you don’t need to buy two packs of 100.
 - We want to avoid raising the price of our basic package.
-- We will also be offering have Enterprise Edition Options (EE) for organizations to purchase with their subscription.  EE Options will be specific features which certian organizations will find extremely valuable. We want to charge only the people that use
+- We will also be offering have Enterprise Edition Options (EE) for organizations to purchase with their subscription.  EE Options will be specific features which certain organizations will find valuable. We want to charge only the people that use
 thes Options instead of raising the price for everyone.
 - We want to charge more for 24/7 support.
 - Our plus package was not selling well and we want to be able to customize
