@@ -86,6 +86,21 @@ If a customer does not have an organization set up you can create one by clickin
 the requester's name (This field says GitLab on the screenshot above, to the left of Haydn's name). When
 doing this, please fill in the correct name and email domains for the new Organization.
 
+On the organization view, use the `Notes` field to write relevant information about the Organization
+in question.
+
+![Organization Details](/images/support/org-details.png)
+
+#### Ticket Fields
+
+The only custom ticket field we use is the `GitLab issues` field. In here you will fill in every
+related GitLab issue that is related to this ticket as a way to cross-link between them.
+
+Every issue you mention here must also contain a link to the ticket in question, either in the
+description or in a comment.
+
+Use this field as a reminder of when and where to follow up.
+
 #### Tags for Tickets
 
 To be able to capture metrics on which topics are most frequently asked about, when you start on a ticket,
