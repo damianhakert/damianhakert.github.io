@@ -45,7 +45,7 @@ Go to the [Marketing Handbook](/handbook/marketing)
 5. If further qualification is needed to understand Soft-BANT requirements, BDR team will email or schedule a phone call with lead to understand their project and initiatives.
 6. If Soft-BANT isn't met and there are questions, BDR team will answer all questions or route to support.
 7. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
-8. If a lead is from a Fortune 500 company, it will be automatically assigned to a senior account manager.
+8. If a lead is from a company with $1 billion in or greater in annual revenue, it will be assigned to a senior account manager.
 9. If a lead is an existing customer or a prospect that's owned/operated by an existing customer, BDR team will determine account owner and pass lead.
 10. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
 
