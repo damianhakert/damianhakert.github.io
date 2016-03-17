@@ -7,7 +7,7 @@ author_twitter: chadmalchow
 ---
 
 Today we are announcing an update to pricing for GitLab Enterprise Edition. We have replaced the three subscription plans (Basic, Standard, and Plus) with one simplified plan.
-Check out our [Pricing page][pricing] for more information, or read on for a summary.
+Please visit our [Pricing page][pricing] for more information, or read on for a summary.
 
 <!--more-->
 
