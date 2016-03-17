@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab Shared Runners uses Auto-scaling"
+title: "GitLab.com Shared Runners uses Auto-scaling"
 date: 2016-03-30
 comments: true
 categories:
@@ -8,9 +8,9 @@ author: Kamil Trzciński
 author_twitter: ayufanpl
 ---
 
-A few months ago we started offering the Shared Runners.
+A few months ago we started offering the Shared Runners for GitLab.com.
 These are machines that run your builds in docker containers.
-This is convienient way to start with GitLab without any hurdle.
+This is convienient way to start with GitLab.com without any hurdle.
 These machines can run any of your builds that is compatible with Docker.
 
 The Shared Runners are free to build any type of project, including the private one.
@@ -20,7 +20,7 @@ This will reduce the build times and also the reduce that time required to alloc
 
 <!--more-->
 
-The Shared Runners from today use the new GitLab Runner 1.1.
+The Shared Runners for GitLab.com from today use the new GitLab Runner 1.1.
 
 GitLab Runner is configured in auto-scaling mode
 with distributed cache and docker registry proxy for docker images.
