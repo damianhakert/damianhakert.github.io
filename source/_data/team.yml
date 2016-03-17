@@ -713,6 +713,24 @@
   gitlab:
   story:  |
           Joining March 15th
+          
+- name: F.C.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Development Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining March 17th   
+          
+- name: D.M.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Development Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining March 23rd          
 
 - name: T.A.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
