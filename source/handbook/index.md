@@ -327,6 +327,7 @@ doesn't unnecessarily appear on other people's calendars.
 ### Writing Style Guidelines<a name="writing-style-guidelines"></a>
 
 1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](http://doc.gitlab.com/ce/markdown/markdown.html) instead.
+1. We use Unix style (lf) line endings, not Windows style (crlf), please ensure `*.md text eol=lf` is set in the repo's .gitattributes and run `git config --global core.autocrlf input` on your client.
 1. Do not create links like "here" or "click here". All links should have relevant anchor text that describes what they link to, such as: "GitLab CI source installation documentation".
 1. Always use [ISO dates](http://xkcd.com/1179/) in all writing and legal documents, yyyy-mm-dd, e.g., 2015-04-13, and never 04-13-2015 or 13-04-2015
 1. If you have multiple points in a comment or email, please number them to make replies easier.
