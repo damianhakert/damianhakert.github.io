@@ -36,6 +36,13 @@ This release has more improvements, including security fixes. Please check out [
 *** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
 *** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
 
+### Elasticsearch Requirements
+
+We have added a requirement for the Elasticsearch integration with GitLab 8.6.
+You now need to have the [Delete By Query Plugin](https://www.elastic.co/guide/en/elasticsearch/plugins/2.0/plugins-delete-by-query.html)
+installed, in addition to Elasticsearch 2.0+.
+
+> [Read about the Elasticsearch integration in our documentation](http://doc.gitlab.com/ee/integration/elasticsearch.html)
 
 *Note* We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
 If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
