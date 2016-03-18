@@ -60,6 +60,10 @@ Go to the [Marketing Handbook](/handbook/marketing)
 * SQL is any lead which has been both: 
     * accepted by the sales team which has met the qualification requirements, and 
     * converted to a Contact in SFDC and attached to a new Opportunity in SFDC.
+        
+        => when converting a qualified lead, make sure that you are creating an opportunity upon conversion. This is required to map the BDR to the opportunity.  It also helps us to track the age of an opportunity from discovery call to closed.
+        
+        => if the lead is not a new opportunity, convert to a contact and uncheck the box to create a new opportunity. 
 * MQL is any lead with a lead score of 20 or greater in Marketo (lead score is calculated based on behavioral and demographic data).
 
 ## Lead status<a name="leadStatus"></a>
