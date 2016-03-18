@@ -16,15 +16,40 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 <!--more-->
 
-## feature 1
+## GitLab Deploy
 
 > [Documentation link](link)
 
-## feature 2
+## Subscribe to a Label
+
+> [Documentation link](link)
+
+## Confidential Issues
+
+> [Documentation link](link)
+
+## External Users
+
+> [Documentation link](link)
+
+## Better Sign up flow
+
+> [Documentation link](link)
+
+## External Users
+
+> [Documentation link](link)
+
+## Table of Contents for Wiki
 
 > [Documentation link](link)
 
 ## Other changes
+
+- e for edit
+- YAML frontmatter rendered
+-
+
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
@@ -42,7 +67,7 @@ installed, in addition to Elasticsearch 2.0+.
 > [Read about the Elasticsearch integration in our documentation](http://doc.gitlab.com/ee/integration/elasticsearch.html)
 
 
-### Changes for PostgreSQL Users
+### Changes for Source installations with PostgreSQL
 
 Starting with GitLab 8.6 PostgreSQL users are required to enable the "pg_trgm"
 extension. On certain Linux distributions this will require the installation of
