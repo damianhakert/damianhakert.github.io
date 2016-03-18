@@ -154,7 +154,7 @@ following:
     ON issues
     USING gin (title gin_trgm_ops);
 
-To showcase the impact these indexes have on performance lets use the following
+To showcase the impact these indexes have on performance let's use the following
 query as an example:
 
     SELECT COUNT(*)
