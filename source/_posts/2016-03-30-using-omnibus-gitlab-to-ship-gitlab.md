@@ -192,12 +192,11 @@ you can leave your comment in
 We've been asked a few times why we don't just let Chef, Puppet, or Ansible to
 be configured by the developer.
 
-True, the bottom line is that we can leave everything up to the person that is
-setting up GitLab to do that work.
-However, it is _still_ a lot of work. That also means that for every GitLab
-update, the administrator needs to go through a list of changes and see if
-they need to upgrade the software. If they don't, GitLab might not work as
-expected.
+You can still use your favourite configuration management tool to do this work.
+However, be advised that it is _still_ a lot of work. That also means that for
+every GitLab update, the administrator needs to go through a list of changes
+and see if they need to upgrade the software. If they don't, GitLab might not
+work as expected.
 The end user most likely won't care how the setup is done, they might just see
 something not working as they would expect. That is a risk we want to remove if
 we can.
