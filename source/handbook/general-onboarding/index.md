@@ -46,7 +46,7 @@ there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @emily, and @tiffani
 * [ ] Robert/Jacob/COO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] Robert/Jacob/COO: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
 * [ ] Robert/Jacob/COO: Add to [Slack](https://gitlab.slack.com/admin)
-* [ ] People Ops: Give team member access to the GitLab availability calendar.
+* [ ] People Ops: Give team member access to the GitLab availability calendar
 * [ ] People Ops: Add new team member to the next monthly GitLab 101 call
 * [ ] People Ops: Invite to team meeting.
 * [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment.
@@ -90,13 +90,16 @@ Next to Savvy, the People Ops team will also get a copy of the form info for you
 * [ ] People Ops: Invite to autoconnect on [Beamy](https://about.gitlab.com/handbook#beamy-guidelines).
 * [ ] People Ops: Order business cards for new team member.
 * [ ] People Ops: Add team member to Expensify (if employee).
+* [ ] People Ops: Inform new team member of upcoming events and team meet-ups such as the Summit.
+* [ ] PeopleOps: Send the new team member the "reset password" email for their BabooHR profile
 * [ ] Patricio/COO: Add to tweetdeck (applies to Service Engineers and Production Engineers for @gitlabstatus, and marketing hires)
 * [ ] New team member: Register on 1Password by clicking [this link](https://gitlab.1password.com/teamjoin/invitation/J2KWH3CJDRFA7KTFDVVXXDSCMY)
 and then ping @rspeicher to confirm your account.
 * [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
 * [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle.
 * [ ] Robert/Jacob/COO: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
-* [ ] New team member: Add yourself to our [Email, Phone and Emergency Contact Sheet](https://docs.google.com/spreadsheets/d/1kMPW_eGEOz9HOIHbD8uPCzDWljsDHovS4H5XY8Q12wo/edit#gid=0).
+* [ ] New team member: USe the "reset your password" email of BambooHR to set a password and access your profile.
+* [ ] New team member: Add your Address, Phone number, private email and emergency contact to your BambooHR profile page.
 * [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar, stock photo or something with sunglasses).
 * [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo.
 * [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing)
