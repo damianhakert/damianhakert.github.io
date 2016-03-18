@@ -4,8 +4,8 @@ title: "GitLab 8.6 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 date: 2016-03-22
 comments: true
 categories:
-author: ADD_YOUR_FULL_NAME
-author_twitter: TWITTER_USERNAME
+author: Job van der Voort
+author_twitter: Jobvo
 image_title: /images/7_X/PICTURE.PNG
 ---
 
@@ -32,11 +32,11 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 > [Documentation link](link)
 
-## Better Sign up flow
+## Updates to looks
 
 > [Documentation link](link)
 
-## External Users
+# Delete Issues
 
 > [Documentation link](link)
 
@@ -44,12 +44,64 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 > [Documentation link](link)
 
+## Performance improvements
+
+* Search performance has been greatly improved for users using PostgreSQL
+ _without_ using ElasticSearch. This requires the `pg_trgm` extension (see
+barometer).
+* Performance of listing commits has been improved
+* Counting of tags and branches on the commits/branches/tags pages is now a bit
+faster and is cached
+* Performance of retrieving CI services of a project has been improved
+* Large diffs are hidden in merge requests
+* Project avatars stored in Git repositories are now cached, cutting down request timings for _all_ project pages for projects that don't use an avatar uploaded via the web UI. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3272
+* Diffs that are larger than 100 KB are no longer displayed, instead a "This diff is too large" message is displayed. This prevents Unicorn timeouts when viewing large diffs. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3185
+* The branch commit ahead/behind statistics are no longer pre-cached on every push. For projects with lots of branches (e.g. thousands) this can have a huge impact on the time it takes for the pre-caching process to complete. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3274
+* Indexes were added for `ci_runners.token` (https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3249) and `git_hooks.project_id` (https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/271)
+- performance of viewing individual issues will be improved by caching certain Git operations
+
+## New GitLab CI Features
+
+- pass artifacts between builds
+
+## GitLab Mattermost 2.1
+
+[Mattermost 2.1](http://www.mattermost.org/mattermost-2-1-android-windows-linux-and-mac-apps-plus-portuguese/)
+ships in GitLab 8.6 with new Android, Windows, Linux and Mac apps with full
+GitLab SSO support, plus Brazilian Portuguese translation and more.
+Mattermost 2.1 contains a [security update](http://docs.mattermost.com/administration/changelog.html#security-update)
+and earlier deployments should [upgrade to this version](http://doc.gitlab.com/omnibus/gitlab-mattermost/).
+
+
 ## Other changes
 
 - e for edit
 - YAML frontmatter rendered
--
+- Better Signup flow [docs](http://doc.gitlab.com/ce/install/installation.html#initial-login)
+- Show test coverage in builds
+- Support for Golang subpackage fetching
+- Build updates via the Web notifications. https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2604
+- A whole new fancy sidebar with multi select labels. https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3175
+- Issues and Merge Requests look good on mobile.
+- New drop downs with multi selection
+- New branch from an issue
+- SAML customization http://doc.gitlab.com/ee/integration/saml.html#customization
 
+### Updates in the omnibus-gitlab package
+
+As GitLab gets improved every release, so does the omnibus-gitlab package.
+You can see the changes that package receives for every release in the
+[omnibus-gitlab CHANGELOG](https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/CHANGELOG.md).
+
+In this release there are some important changes in the bundled software:
+
+* Redis is updated to version 2.8.24
+* PostgreSQL is updated to version 9.2.15
+* Nginx proxy caching is enabled
+* pg_trgm extension is automatically enabled
+* Default Nginx http2 support can be disabled if necessary
+
+---
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
