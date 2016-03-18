@@ -50,6 +50,9 @@ PostgreSQL super user for every GitLab database:
 
     CREATE EXTENSION IF NOT EXISTS pg_trgm;
 
+Users using GitLab's Omnibus packages do _not_ have to manually enable this
+extension as this is done automatically.
+
 To check if the extension is enabled you can run the following query:
 
     SELECT true AS enabled
