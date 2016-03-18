@@ -71,7 +71,13 @@ paid commission on a monthly basis based on the following criteria; payable on
 cash collection from the client. Initially you will be compensated at a rate of
 [x]% of cash received from the customer less any taxes, shipping, returns, refunds,
 chargebacks, third party commissions, etc. All terms, definitions, payments and
-obligations related to Commission shall be governed by the 2015 GitLab Sales Compensation Plan.  
+obligations related to Commission shall be governed by the 2016 GitLab Sales Compensation Plan.  
+
+**4\. {OPTIONAL PERFORMANCE BONUS (Usually for BDR roles)} Performance Bonus**.  
+Business Development Reps will be eligible for a quarterly performance bonus in the following amounts:
+1. 100% of Target Met equals {Bonus Amount} 
+1. 150% of Target Met equals {Bonus Amount}
+1. 200% of Target Met equals {Bonus Amount}
 
 **4\. {OPTIONAL: STOCK}Stock Option Grant**. Subject to Board Approval you shall
 be granted an “incentive stock option” within the meaning of Section 422 of the
