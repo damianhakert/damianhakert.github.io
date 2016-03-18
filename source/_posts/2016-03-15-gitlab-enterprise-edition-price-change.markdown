@@ -15,13 +15,13 @@ Please visit our [Pricing page][pricing] for more information, or read on for a 
 
 Previously, we had a minimum seat purchase, which required you to buy
 10 seats for the Basic package and 100 seats for Standard and Plus.
-Now we've removed the seat minimums so you can purchase a GitLab EE license per-seat.
+Now we've removed the seat minimums so you can purchase a GitLab Enterprise Edition (EE) license per-seat.
 
 The price per seat will remain the same, $39 per year per seat.
 This is the same price as the Basic Plan.  
 
 We will now offer Premium Support; which includes 24x7 emergency support, two training workshops,
-live upgrade assistance and support for High Availability, direct access to GitLab's internal chat channel for support, as add-on Options to a
+live upgrade assistance, support for High Availability and direct access to GitLab's internal chat channel for support, as add-on Options to a
 GitLab Enterprise Edition license. Premium Support was previously part of our Standard Subscription and did not include training workshops or direct access to support team.
 The cost for Premium Support will be $9,900/year and $99 per seat over 100 seats,
 with a maximum charge of $50,000.
@@ -33,8 +33,8 @@ We're doing this for a number of reasons:
 - We want to enable people to order individual licenses. Now, if you need 2 licenses
 you don't need to buy a pack of 10 or if you need 104 you don’t need to buy two licenses of 100.
 - We want to avoid raising the price of our basic package.
-- We will also be offering Enterprise Edition Options (EE) for organizations to purchase with their subscription.  EE Options will be specific features which certain organizations will find valuable. We want to charge only the people that use
-thes Options instead of raising the price for everyone.
+- We will also be offering GitLab EE Options for organizations to purchase with their subscription.  GitLab EE Options will be specific features which certain organizations will find valuable. We want to charge only the people that use
+these Options instead of raising the price for everyone. An example of an EE Option, is [GitLab Geo](http://doc.gitlab.com/ee/administration/gitlab-geo/README.html) for $99/year/user.
 - We want to charge for 24/7 support.
 - Our plus package wasn't customizable enough for what our customers were requesting.
 
@@ -49,7 +49,7 @@ Deadline for early renewals is April 30, 2016.
 
 ### Examples of how this pricing might affect you
 
-- Currently on Basic with 3 users? Your cost goes from $390 to $117.
+- Currently on Basic with 3 users? Your cost decreases from $390 to $117.
 - Currently on Basic with 10 users? Your cost stays the same, $390.
 - Currently on Standard with 100 users with Premium Support? Your cost increases from $4900 to $8850
 - Currently on Standard with 110 users with Premium Support? Your cost decreases from $9800 to $9735
