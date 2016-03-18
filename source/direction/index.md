@@ -44,7 +44,7 @@ The CE and EE to the right of the version number link to all planned issues for 
 
 <!-- do not remove or modify these lines -->
 
-## Wishlist
+## Wishlist <a name="wishlist"></a>
 
 Below are features we'd really like to see in GitLab.
 This list is not prioritized.
