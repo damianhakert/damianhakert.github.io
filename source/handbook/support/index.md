@@ -283,6 +283,8 @@ The main account to use for support related questions is @GitLabSupport. When re
 tweets that are forwarded by @gitlab, the response from Twitter will always start with @gitlab as well but
 you must make sure to **@ mention the user** who tweeted their question to @gitlab in the first place.
 
+Direct messaging from everybody is enabled on GitLab and GitLabSupport accounts. Users should be directed to send us a private message in case we require some private information such as their email address to be able to service their requests.
+
 The @GitLabStatus account should only be used to
 give updates on the availability of GitLab.com and to follow up on users reporting that GitLab.com is unavailable.
 
