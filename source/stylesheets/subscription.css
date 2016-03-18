@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, button, a {
 .subscription .detail {
   font-size: 15px;
   line-height: 25px;
-  padding: 5px 0px;
+  padding: 1px 0px;
   transition: all 0.2s;
 }
 
@@ -488,8 +488,4 @@ a.btn-default:hover {
 
 .main-subscription .subprice {
   margin-top: -20px;
-}
-
-.main-subscription-extra .detail {
-  padding: 1px 0;
 }
