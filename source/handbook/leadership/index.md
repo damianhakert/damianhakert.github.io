@@ -7,4 +7,4 @@
 
 - High output management - Andrew Grove
 - The Hard thing about hard things - Ben Horowitz
-
+- [The score takes care of itself - Bill Walsh](http://coachjacksonspages.com/The%20Score%20Takes%20Care.pdf)
