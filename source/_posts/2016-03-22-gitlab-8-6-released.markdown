@@ -44,6 +44,14 @@ installed, in addition to Elasticsearch 2.0+.
 
 > [Read about the Elasticsearch integration in our documentation](http://doc.gitlab.com/ee/integration/elasticsearch.html)
 
+### For source installations with PostgreSQL
+
+If you have GitLab installed from source and use PostgreSQL,
+you must enable the pg_trgm extension as a PostgreSQL super user for GitLab
+8.6.
+
+---
+
 *Note* We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
 If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
 
