@@ -295,10 +295,10 @@ Please refer to the priority as listed under [GitLab Workflow in the handbook](/
 
 For issues specific to GitLab.com that have nothing to do with availability we have the
 [Support Forum](https://gitlab.com/gitlab-com/support-forum/issues). This forum must also be checked periodically
-for new issues and to report back if an issue has been solved. Some people use this forum to report issues they
+for new issues and to report back if an issue has been solved. Ensure that you assign the issue to yourself to enable you to keep track of the issue and also to enable other service engineers to easily pick on unassigned tasks at a glance. Some people use this forum to report issues they
 are having with their on-premises installation. In that case, you should refer them to the
 [CE issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) or to our
-[Getting Help](/getting-help/) page, depending on the issue they are having.
+[Getting Help](/getting-help/) page, depending on the issue they are having. 
 
 ### Facebook<a name="facebook"></a>
 
