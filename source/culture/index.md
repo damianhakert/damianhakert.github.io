@@ -65,6 +65,18 @@ quickly rejected as 'won't work' or 'not interested' without much explanation."
    * We had a Summit in Oct'15, and are having one in May'16. We aim to have these every 6-9 months. We are thinking about organizing a hackathon during the [Summit](https://gitlab.com/summits/Austin-Summit-2016-project/blob/master/Proposed_Activities.md); please upvote if you want it to happen!
 1. "We share a lot about our software 'side'; can we share more about our other 'sides' (like how marketing does marketing) in a "team blog"? This would help in hiring awesome people!"
    * We love blog posts and sharing all of GitLab's 'sides'. Please channel your inner need to write a blog post (or part of it!) on our [blog](https://gitlab.com/gitlab-com/blog-posts/issues) repo.
+1. "Additional training for dev people, maybe? Specific suggestions for topics include agile coding, code quality, and there is a suggestion for Robert "Uncle Bob " Marcin (https://sites.google.com/site/unclebobconsultingllc/) for code quality
+  * After some research within the team there was a greater interest in a "birds of a feather" gathering than formal training. We're looking to do this during our Summit trip to Austin.
+1. "What features are we planning? I hear about price changes and optional features?"
+  * See [issue about pricing](https://dev.gitlab.org/gitlab/organization/issues/522) and see /direction and GitLab Option List Doc for optional features.
+1. "How are we doing? How does the Board see it? Can we keep up the growth and the Sales?"
+  * Khosla is really happy so far. Keeping up growth depends on demand generation
+1. "If we are sometimes too open and too transparent in a way that hurts us?"
+  * So far the only negative thing is that we suspect that competitors release their stuff early to preempt us, we think it is great that they are adjusting their schedule to ours!
+1. "Creating/using a standard for interviewing candidates."
+  * Good idea, a lot of us use standard interview questions https://about.gitlab.com/handbook/hiring/#interview-questions but merge requests are welcome.
+1.  "More formality in development process."
+  * What form of formality? We welcome changes that don't reduce our productivity. Potentially we could start using issue weights more to gauge the load.
 
 #### "What do you like about working here?"
 
@@ -127,7 +139,7 @@ our work is public so we can talk about it, and our ability to create new proces
 
 1. Stock options: terms, conditions
    * Does the handbook answer your questions? (https://about.gitlab.com/handbook/stock-options). Please feel free to ask Paul.
-1. If Azure was a bag idea.
+1. If Azure was a bad idea.
    * In hindsight, yes.
 1. What the company will look like 3, 6, 12 months from now? (community-ish, enterprise-ish)
    * The community and people using GitLab will keep growing. 12 months from now
