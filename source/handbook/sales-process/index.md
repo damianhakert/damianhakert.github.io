@@ -7,7 +7,7 @@ title: "Sales Process"
 * [Pages outside Sales Handbook](#pages-outside)
 * [GitLab Version Check](#version_check)
 * [Parent and Child Accounts](#parent)
-$ [When to create an Opportunity](#opportunity)
+* [When to create an Opportunity](#opportunity)
 * [Opportunity Naming Convention](#naming)
 * [Opportunity Types](#types)
 * [Adding Products to an Opportunity](#products)
