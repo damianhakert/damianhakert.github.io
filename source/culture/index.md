@@ -139,7 +139,7 @@ our work is public so we can talk about it, and our ability to create new proces
 
 1. Stock options: terms, conditions
    * Does the handbook answer your questions? (https://about.gitlab.com/handbook/stock-options). Please feel free to ask Paul.
-1. If Azure was a bag idea.
+1. If Azure was a bad idea.
    * In hindsight, yes.
 1. What the company will look like 3, 6, 12 months from now? (community-ish, enterprise-ish)
    * The community and people using GitLab will keep growing. 12 months from now
