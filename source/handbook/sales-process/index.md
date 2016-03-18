@@ -7,6 +7,7 @@ title: "Sales Process"
 * [Pages outside Sales Handbook](#pages-outside)
 * [GitLab Version Check](#version_check)
 * [Parent and Child Accounts](#parent)
+$ [When to create an Opportunity](#opportunity)
 * [Opportunity Naming Convention](#naming)
 * [Opportunity Types](#types)
 * [Adding Products to an Opportunity](#products)
@@ -46,6 +47,15 @@ Before prospecting and engaging with a prospect, check to see if they are using 
 * You may have a opportuity with the Parent account and a Child Account.  Example: Disney and ESPN may both be customers and have opportunities.
 * When selling into a new division (which has their own budget, different mailing address, and decision process) create a new account.  This is the Child Account.  For every child account, you must select the parent account by using the parent account field on the account page.
 * We want to do this as we can keep each opportunity with each child account separate and easily find all accounts and opportunities tied to a parent account.
+
+### When to create an Opportunity <a name="opportunity"></a>
+
+Before a lead is converted or an opportunity is created the following must occur:
+
+* Identified problem GitLab can solve - happens during introductory call
+* Interest by prospect to learn more about GitLab - moving to discovery stage
+* Discovery call scheduled with prospect - moving to discovery stage
+* Interest by GitLab salesperson to pursue the opportunity
 
 ### Opportunity Naming Convention <a name="naming"></a>
 
