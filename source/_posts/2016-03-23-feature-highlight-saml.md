@@ -12,9 +12,9 @@ image_title: /images/unsplash/galaxy.jpg
 It's been a long time since I last wrote on this blog. I've been involved with
 other projects that have kept me really busy. One of the tasks that I have been
 really involved with is SAML and its integration with GitLab. As a Service Engineer
-I'm in constant contact with customers and their needs and I've seen an steadily
+I'm in constant contact with customers and their needs and I've seen a steadily
 increasing interest in SAML from our Enterprise Customers, so I decided to dive
-a little deeper into th topic in an effort to improve our integration with SAML,
+a little deeper into the topic in an effort to improve our integration with SAML,
 to add better documentation, and to help our customers and our community to better
 understand this feature.
 
@@ -25,7 +25,7 @@ affects GitLab and what we plan to do with SAML in the future.
 
 ### What is SAML?
 
-SAML stands for Security Assertion Markup Language, it is an XML standard that
+SAML stands for Security Assertion Markup Language. It is an XML standard that
 allows secure web domains to exchange user authentication and authorization data.
 Using SAML, an online service provider can contact a separate online identity
 provider to authenticate users who are trying to access secure content.
@@ -49,7 +49,7 @@ GitLab would be the "Service Provider":
 
 SAML was first introduced on version [7.12](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/722/diffs)
 via a contribution from our amazing community. The feature was contributed by [CERN](http://home.cern/)
-almost 10 moths ago. Since the original contribution, not much changed around the
+almost 10 months ago. Since the original contribution, not much changed around the
 SAML support offered by GitLab. But interest from our users our customers really
 increased. You can check all SAML related merge requests
 [here](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?utf8=%E2%9C%93&issue_search=saml&state=merged&scope=all&assignee_id=&author_id=&milestone_id=&label_id=).
@@ -93,7 +93,7 @@ better error handling, and a couple of bug fixes.
 
 The inclusion of these features, specially the Custom Attributes, are of great
 use to GitLab users. You no longer need to change your IdP server to match the
-parameters that GitLab is expecting, you can now tell `omniauth-saml`, and therefor
+parameters that GitLab is expecting, you can now tell `omniauth-saml`, and therefore
 GitLab, where to look for them.
 
 Along with the inclusion of better SAML documentation, these changes will help
@@ -109,7 +109,7 @@ is maintained by the amazing people at [OneLogin](https://www.onelogin.com/).
 
 I didn't dive as deep into this library as I would have liked. The entry barrier
 is a bit higher, given that the code is a bit more complex than what I'm accustomed
-to and I will take me more time to get familiar with this code, but this will be
+to. It will take me more time to get familiar with this code, but this will be
 needed soon because of the plans we have for the future. Direct use of `ruby-saml`
 will be required.
 
