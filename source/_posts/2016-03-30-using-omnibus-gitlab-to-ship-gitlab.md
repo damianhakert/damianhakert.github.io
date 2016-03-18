@@ -18,21 +18,21 @@ seem to have polarized people to either
 [hate](https://twitter.com/phessler/status/672747920635109376)
 [them](https://twitter.com/jiphex/status/672746104103051265).
 
-Let's take a look at what kind of decisions we need make on
+Let's take a look at what kind of decisions we need to make on
 every release of GitLab and how omnibus-gitlab package fits into this process.
 
 <!--more-->
 
 ## Omnibus concept
 
-The [Omnibus project] is a brainchild of Chef Inc.
+The [Omnibus project] is the brainchild of Chef Inc.
 Their product, Chef Server, was notoriously hard to install and configure. To
-tackle this issue the omnibus project was created. The idea behind it was to
+tackle this issue the Omnibus project was created. The idea behind it was to
 have one binary package for the supported OS that would install all required
 dependencies and allow configuration of each required component.
-This meant that the end binary package would not be lean like packages
+This meant that the end binary package will not be lean like the packages
 that people usually encounter. In fact, they will be "fat" and
-hence [the name omnibus].
+hence [the name Omnibus].
 This also meant going against [the Unix design principles] which favor
 [composable components] as opposed to [monolithic software] (which reminds Unix
 users too much of Windows software).
@@ -46,7 +46,7 @@ The concept is simple:
 
 ## Installing GitLab from source
 
-GitLab is fighting a similar battle.
+GitLab is facing similar challenges.
 [Installation and upgrade guides] for what we call *installation from source*
 are available but they are at least 10 pages long.
 
@@ -56,19 +56,18 @@ they need to have and so on. Installing a wrong version of a dependency
 means that things might not work as expected, so it is imperative to follow the
 guide strictly to the letter.
 
-Upgrading is maybe even worse. Sure, the update guide is shorter but usually you
-have time constraints to perform the upgrade. Having everyone breathing down
-your neck and expecting everything to go smooth makes upgrading very stressful.
+Upgrading can sometimes be challenging. The update guide is shorter but there are time constraints that can make the upgrade stressful. Having everyone breathing down
+your neck and expecting everything to go smoothly makes upgrading very stressful.
 
 ## Omnibus-gitlab
 
 Enter the omnibus-gitlab package.
 
 Anyone should be able to install and configure GitLab with minimum knowledge.
-GitLab should be available on the most widely used Linux distributions.
+GitLab should be available on the most widely-used Linux distributions.
 
 We want the focus to be on GitLab and its features.
-Installation and upgrade should be easy and almost enjoyable!
+Installation and upgrades should be easy and almost enjoyable!
 
 This is how omnibus-gitlab was born.
 
@@ -82,38 +81,35 @@ always better than the previous one.
 
 Benefits for the maintainers of GitLab:
 
-1. We can provide our users with only one binary package they would need to
+1. We provide our users with only one binary package they would need to
 install.
-1. We can ship packages for multiple platforms at the same time.
-1. We can make sure that the components that GitLab requires for a specific
+1. We ship packages for multiple platforms at the same time.
+1. We make sure that the components that GitLab requires for a specific
 version are shipped.
 1. We know that the components are running on versions that are compatible.
-1. It becomes easier to support any issues users have because we have a mostly
-predictable environment.
-1. We can maintain one project that covers all of the above.
+1. It becomes easier to support any issues users have because we have a more
+consistent environment.
+1. We maintain one project that covers all of the above.
 
 The last point is very important for a project like GitLab.
 
-GitLab has a monthly release cycle. Every 22nd of the month we need to release
+GitLab has a monthly release cycle. Every month on the 22nd we need to release
 a new version. We usually follow up the release with a couple of patch releases
 to address any regressions that might have been introduced previously.
 Given how important GitLab is to the development infrastructure, we need to be
-able to react quick to any vulnerabilities in GitLab or any of its components.
-
-The overhead of maintaining this type of package is low since we only need
-a couple of dedicated people to take care of support that a package needs.
+able to react quickly to any vulnerabilities in GitLab or any of its components.
 
 ### A Silver Bullet?
 
-No.
+Not quite.
 
-Omnibus-gitlab package does a lot for the end user but because of that it
-assumes quite a lot. It will create the directories and files on the file system
-and assume that it can do so. It will create the system users. It will occupy
-the ports.
+The omnibus-gitlab package does a lot for the end user but because of that it
+makes a lot of choices for the user. It will create the directories and files
+on the file system and assume that it can do so.
+It will create the system users. It will occupy the ports it needs.
 It ships with its own UNIX init supervision system, runit.
-It ships with libraries that can already exist on the system (albeit might be a
-different version).
+It ships with libraries that may already exist on the system
+(albeit maybe of a different version).
 
 For a very large portion of users all of the above won't matter but there are
 environments which are highly restrictive.
@@ -121,17 +117,9 @@ The package has a lot of configuration to make it easier to adjust to the
 environment but this can be a lot of work to get right.
 We are always working on making the package even more customizable while
 assuming the best possible defaults for users who don't need to customize.
-However, it is a process rather than a sprint.
+However, it is a marathon rather than a sprint.
 
-### But you could have done X instead!
-
-One of the remarks we often hear is that the omnibus packages are a blasphemy
-and that we are breaking a number of "laws".
-
-We often get told that "You could have done it in this better way".
-
-The list of the usual suspects varies but there are some common ways of shipping
-an application that often get recommended.
+### Alternatives to Omnibus we've considered
 
 We are always evaluating the new options that become available.
 Let's take a look at a few of the options that we've already considered.
@@ -160,17 +148,17 @@ ship another one?
 
 Let's take a look at what that would entail:
 
-1. Packaging over 300 ruby gems as separate packages. (This is Spartaaa!)
+1. Packaging over 300 Ruby gems as separate packages. (This is Spartaaa!)
 1. If a component version we require does not exist in the system package
 repository, tell the user to compile it.
-1. Do this at least once a month to be able to follow the release on every 22nd.
+1. Do this at least once a month to be able to follow the monthly release.
 1. Make sure that any change that was created in GitLab by us or any of the
 contributors does not break the package.
 
 Native packages are more suited for the slower release cycles and this clashes
 with the way GitLab does releases.
 
-We also don't have enough expertise and manpower to do native packaging.
+We also don't have enough expertise and big enough team to do native packaging.
 It is a lot of work and we would need a dedicated team only for the packaging
 for this specific platform.
 
@@ -189,24 +177,20 @@ ready.
 
 #### Native Fedora Packages
 
-The story goes pretty much the same as the story about the native Debian
-packages. There was an attempt of packaging GitLab for Fedora as a part of
-[Google Summer of Code project] by our (now) own team member
-Achilleas Pipinellis. Through that effort, we learned it is a multi-person
+This case is pretty much the same as the native Debian packages.
+There was an attempt to package GitLab for Fedora as a part of the
+[Google Summer of Code project] by Achilleas Pipinellis, who has since become
+a GitLab team member. Through that effort, we learned it is a multi-person
 job and packaging alone is a lot of work. So, the project was never completed.
 
-If you are interested in helping out with making of the native Fedora packages,
+If you are interested in helping to create the native Fedora packages,
 you can leave your comment in
 [this issue on GitLab CE issue tracker.](https://gitlab.com/gitlab-org/gitlab-ce/issues/14043)
 
 #### Anything else
 
-We also often hear:
-
-> "Why can't you just leave Chef, Puppet, Ansible or something else to do what
-they are made for? They can be configured to get the specific versions of
-dependencies and installed on the system, it is not up to GitLab to care about
-that!"
+We've been asked a few times why we don't just let Chef, Puppet, or Ansible to
+be configured by the developer.
 
 True, the bottom line is that we can leave everything up to the person that is
 setting up GitLab to do that work.
@@ -223,18 +207,15 @@ we can.
 
 One of the GitLab strengths is that we are able to have a very short release
 cycle and to get the updates to all our users very fast.
-The omnibus-gitlab packages are not the ideal way of distributing software and
-they do have their own shortcomings.
+The omnibus-gitlab packages aren't perfect but they are currently the best
+option currently for frequent GitLab updates.
 
-If you consider:
-
-1. The manpower required to maintain 8 packages
-(4 platforms + 2 types of packages - one for CE and one for EE, 2 Docker images
-and 2 Raspberry PI2 packages)
-1. Monthly release cycle
-1. Ease of upgrade between versions or ease of initial installation
-
-Then omnibus-gitlab is doing a very good job.
+If you consider the amount of time required to maintain eight packages
+(four platforms, one package each for CE and EE, two docker images,
+two Raspberry Pi 2 packages),
+the monthly release cycle, and making upgrades between versions and i
+nstallations as simple as possible,
+then omnibus-gitlab is doing a very good job.
 
 [A lot](https://twitter.com/choyer/status/670273120566120449)
 [of users](https://twitter.com/jrblier/status/613077041219399681)
@@ -245,8 +226,8 @@ the omnibus-gitlab packages
 [seem to](https://twitter.com/alexzeitler_/status/692812151296282625)
 [agree with this](https://twitter.com/berkeleynerd/status/692093491149582339).
 
-With the omnibus-gitlab packages available for everyone we can work in parallel
-on getting more ways of installing GitLab available.
+With the omnibus-gitlab packages available for everyone, we can work in parallel
+to create more ways to install GitLab.
 
 Want to help improve omnibus-gitlab package? Contribute to omnibus-gitlab at the
 [omnibus-gitlab repository].
