@@ -179,14 +179,14 @@ information) or FYA (for your action). If you forward an external request with F
 1. If you use chat please use a public channel whenever possible, mention the
 person you want to reach if it is urgent. This ensures it is easy for other people
 to chime in, and easy to involve other people, if needed.
-1. In chat try to keep the use of keywords that mention the whole channel to a minimum. They should only be used for urgent and important pings. By overusing them you make it harder to respond to personal mentions in a timely manner since people get pinged too frequently.
+1. In chat try to keep the use of keywords that mention the whole channel to a minimum. They should only be used for pings that are both urgent as well as important. By overusing channel mentions you make it harder to respond to personal mentions in a timely manner since people get pinged too frequently.
 1. If you agree in a chat to start a video call (typically by asking 'call?')
 the person that didn't leave the last comment starts the call. So either respond
 to the 'call?' request with a video link or say 'yes' and let the other person
 start it. Don't say 'yes' and start a call 5 seconds later since it is likely
 you'll both be creating a video call link at the same time.
 1. All company data should be **shareable** by default. Don't use a local text
-file but leave comments on an issue. Use merge requests to edit the website, don't use 
+file but leave comments on an issue. Use merge requests to edit the website, don't use
 Google Docs. If you _do_ need a Google Doc, then create the doc with your company Google
 Apps account. By default share Google docs with the whole company 'anyone at
 GitLab can find and access' with edit (preferred) or comment access for everyone.
@@ -278,7 +278,7 @@ step, **re-assign** the issue to that person.
 1. We use BlueJeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
 1. If you have previously logged on to Bluejeans with different credentials, make sure to log out before joining the call as yourself.
 1. We start on time and will not wait for people.
-1. Person who has first item on the agenda starts the call. 
+1. Person who has first item on the agenda starts the call.
 1. If you are unable to attend just add your name to the [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) as 'Not attending'.
 1. We start by discussing the subjects that are on the agenda for today.
    * Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
