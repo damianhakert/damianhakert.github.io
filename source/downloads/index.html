@@ -108,7 +108,23 @@ platforms:
 
       <script src="//app-ab13.marketo.com/js/forms2/js/forms2.min.js"></script>
       <form id="mktoForm_1070"></form>
-      <script>MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1070);</script>
+      <script>
+
+
+        MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1070, function(form) {
+            form.onSuccess(function(values, followUpUrl) {
+
+              form.getFormElem().hide();
+              document.getElementById('confirmform').style.visibility = 'visible';
+
+              ga('send', 'pageview');
+              ga('send', 'event', 'form', 'submit', 'newsletter subscription');
+              return false;
+            });
+        });
+      </script>
+
+      <div id="confirmform" style="visibility:hidden;"><p>Thanks for subscribing!</p></div>
     </div>
 
     <div class="col-md-9">
@@ -118,12 +134,12 @@ platforms:
 
         <!-- dropdown button -->
         <div class="btn-group">
-          <button type="button" class="btn btn-default dropdown-toggle btn-lg" data-toggle="dropdown" onClick="ga('send', 'event', 'dropdown','select','operating system select open']);">
+          <button type="button" class="btn btn-default dropdown-toggle btn-lg" data-toggle="dropdown" onClick="ga('send', 'event', 'dropdown','select','operating system select open');">
             Select Operating System <span class="caret"></span>
           </button>
           <ul class="dropdown-menu" role="menu">
           {% for platform in page.platforms %}
-            <li><a href="#{{platform.name}}" onClick="ga('send', 'event', 'dropdown','select','operating system select {{platform.name}}']);">{{platform.long_name}}</a></li>
+            <li><a href="#{{platform.name}}" onClick="ga('send', 'event', 'dropdown','select','operating system select {{platform.name}}');">{{platform.long_name}}</a></li>
           {% endfor %}
           </ul>
         </div>
@@ -182,6 +198,8 @@ platforms:
             <div class="tab-step">
               <p>
                 <i class="glyphicons-circle_info green"></i> For configuration and troubleshooting options please see the <a class="green" href="http://doc.gitlab.com/omnibus/">Omnibus GitLab documentation</a>
+                <br />
+                <i class="glyphicons-circle_info green"></i> If you are located in China, try using <a class="green" href="https://mirror.tuna.tsinghua.edu.cn/help/gitlab-ce/">the GitLab CE mirror hosted by TUNA</a>
               </p>
             </div>
             <div class="tab-step">

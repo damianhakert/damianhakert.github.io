@@ -23,7 +23,23 @@ extra_css:
   <div class="centered-form development-form">
     <script src="//app-ab13.marketo.com/js/forms2/js/forms2.min.js"></script>
     <form id="mktoForm_1063"></form>
-    <script>MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1063);</script>
+    <script>
+
+
+      MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1063, function(form) {
+          form.onSuccess(function(values, followUpUrl) {
+
+            form.getFormElem().hide();
+            document.getElementById('confirmform').style.visibility = 'visible';
+
+            ga('send', 'pageview');
+            ga('send', 'event', 'form', 'submit', 'development request');
+            return false;
+          });
+      });
+    </script>
+
+    <div id="confirmform" style="visibility:hidden;"><p>Submission received!</p></div>
   </div>
 
 </div>

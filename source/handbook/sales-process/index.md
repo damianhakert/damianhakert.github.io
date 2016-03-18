@@ -13,6 +13,7 @@ title: "Sales Process"
 * [Opportunity Stages](#stages)
 * [Submitting Quotes in Salesforce.com](#quotes)
 * [Closing A Won Deal](#closing)
+* [Process after you sell a Plus Subscription](#plus-subscription)
 * [Processing Orders in Recurly](#processing)
 * [Export Control Classification, and Countries We Do Not Do Business In](#export-control)
 
@@ -99,7 +100,7 @@ To create a quote, you must be in the opportunity object
 
 In order to close a deal in Salesforce.com, one of the following must happen:
 
-1. Cient paid via Credit Card
+1. Client paid via Credit Card
 1. PO has been received
 1. Prospect has returned a signed quote (attach to the opportunity).
 
@@ -118,6 +119,15 @@ Once the above has happened, please make sure the following actions are done:
     * If an add-on or existing account (new division) opportunity has been identified and recorded in Salesforce, create a task for the day you and the client will meet to explore the growth opportunity.
 1. Check to make sure the Type field on the Account page now says Customer.  If not, please manually change it.
 1. Update the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
+
+### Process after you close a Plus Subscription <a name="plus-subscription"></a>
+
+Once you close a Plus Subscription deal, you need to do a few things.
+
+1. When possible, create an issue on dev.gitlab.org under Organization with the Support label as soon as it is clear that a dedicated service engineer will be needed. Service Engineers can volunteer, or they will be assigned by Ernst if nobody is volunteering. It can depend on the client, and factors like: timezone, language, specific needs, etc.
+Once this is determined, please add the Dedicated Service Engineer to the Salesforce account with the drop down. 
+1. The next step is to introduce your client to their Dedicated Engineer, and if necessary, work together to schedule an on-boarding call to cover any questions, and give an overview of the support they are entitled to.
+1. You would have probably brought this up prior to the deal closing, but if the client is interested in joining the Slack support channel, please work with the Dedicated Engineer to make this happen. 
 
 ### Processing Orders in Recurly <a name="processing"></a>
 

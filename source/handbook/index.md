@@ -34,10 +34,10 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [GitLab Workflow](#gitlab-workflow)
    * [Team Call](#team-call)
    * [Scheduling Calls](#scheduling-calls)
-   * [GitLab Workflow](#gitlab-workflow)
    * [User Communication Guidelines](#user-communication-guidelines)
    * [Writing Style Guidelines](#writing-style-guidelines)
    * [Beamy Guidelines](#beamy-guidelines)
+* [On Call Rotation and Schedule](#on-call)
 * [Intellectual Property](#intellectual-property)
 * [Spending Company Money](#spending-company-money)
 * [Paid Time Off](#paid-time-off)
@@ -47,6 +47,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Referral Bonuses](#referral-bonuses)
    * [Work Remotely Travel Grant](#travel-grant)
 * [Signing Legal Documents](#signing-legal-documents)
+* [Tools](#tools)
 * [Using Git to update this website](#starting-with-git)
 
 ## Values<a name="values"></a>
@@ -150,13 +151,15 @@ For this, we use **asynchronous communication** and are as open as we can be by 
 and placing an emphasis on ensuring that conclusions of offline conversations are written down.
 These communication guidelines are meant to facilitate smooth communication in an
 ever-growing remote-first company.
+Please keep in mind that you represent GitLab and our culture, also on Social Media.
+When commenting on posts please keep in mind: "Don't argue but represent."
 
 ### Internal Communication<a name="internal-communication"></a>
 
 1. All written communication happens in English, even when sent one on one,
 because sometimes you need to forward an email or chat.
 1. Use **asynchronous communication** when possible (issues and email instead of
-chat), issues are preferred over email, email is preferred over chat.
+chat), issues are preferred over email, email is preferred over chat, announcements happen on the team call agenda, and [people should be able to do their work without getting interrupted by chat](https://m.signalvnoise.com/is-group-chat-making-you-sweat-744659addf7d#.21t7089jk).
 1. It is very OK to ask as many questions as you have, but ask them so many
 people can answer them and many people see the answer (so use issues or public
 chat channels instead of private messages or one-on-one emails) and make sure
@@ -170,7 +173,7 @@ etc.) please include a link to it.
 person know that you received it. A thread is done when there is a single word
 reply, such as OK, thanks, or done.
 1. If you forward an email without other comments please add FYI (for your
-information) or FYA (for your action).
+information) or FYA (for your action). If you forward an external request with FYA it doesn't mean that the company should do whatever is proposed, it just means the person who forwarded it will not follow up on the request.
 1. If you want to create, or be added or removed from an internal email alias (e.g.
 `sales@gitlab.com`) please see the [GitLab Email Forwarding doc](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#).
 1. If you use chat please use a public channel whenever possible, mention the
@@ -183,11 +186,16 @@ to the 'call?' request with a video link or say 'yes' and let the other person
 start it. Don't say 'yes' and start a call 5 seconds later since it is likely
 you'll both be creating a video call link at the same time.
 1. All company data should be **shareable** by default. Don't use a local text
-file but leave comments on an issue. Create Google docs with your company Google
+file but leave comments on an issue. Use merge requests to edit the website, don't use 
+Google Docs. If you _do_ need a Google Doc, then create the doc with your company Google
 Apps account. By default share Google docs with the whole company 'anyone at
 GitLab can find and access' with edit (preferred) or comment access for everyone.
 An easy way to do this, is to create your Google docs in a Shared Folder in
 Google Drive.
+1. When referring to a Google Doc in the handbook, refrain from providing the direct link.
+Instead, write the name of the Google Doc. In the past, giving the url of a doc
+has led to inadvertent opening of sharing settings beyond what was intended, and it also helps
+prevent spam from people outside of GitLab who request access to the doc when they see the link.
 1. All our procedures and templates are stored in (mostly public) git repositories
 instead of Google/Word documents. This makes them easier to find and suggest
 changes to with the organization and shows our commitment to open collaboration
@@ -231,6 +239,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
     1. Issues assigned to the upcoming milestone
     1. Issues assigned to future milestones
     1. Issues not assigned to a milestone
+
     In the same milestone the priority starting from urgent is:
     1. **Emergency** issues (a service engineer will probably contact you via chat)
     1. **Security** issues
@@ -256,6 +265,7 @@ step, **re-assign** the issue to that person.
     1. A merge request that is related to Continuous Integration should be assigned to the GitLab CI lead.
     1. All other merge requests should be assigned for review to one of merge request "endbosses". You can find all the roles listed on the [team page](https://about.gitlab.com/team/).
 1. When a merge request is done, remove the WIP prefix and **assign** the merge request to someone to review and merge it. A WIP merge request will never be merged, an unassigned non-WIP merge request can be merged by anyone if it looks ready, an assigned non-WIP will only be merged by the assigned reviewer.
+1. When a merge request is done, set milestone to the version it should be included in.
 1. If you are assigned to review and merge a merge request and would like the creator to make some **changes**, comment on the merge request and assign it back to the creator. When they have addressed the concern, they will reassign it to the reviewer.
 1. If you are assigned to merge a merge request and there is a **merge conflict**, consider trying to resolve it **yourself** instead of asking the MR creator to resolve the conflict. If it is easy to resolve you avoid a round trip between you and the creator, and the MR gets merged sooner. This is a suggestion, not an obligation.
 1. If you ask a question to a specific person, always start the comment by mentioning them; this will ensure they see it if their notification level is mentioned and other people will understand they don't have to respond.
@@ -266,9 +276,9 @@ step, **re-assign** the issue to that person.
 
 1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
 1. We use BlueJeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
-1. Please join the meeting with your x@gitlab.com account, not your private Google account.
 1. If you have previously logged on to Bluejeans with different credentials, make sure to log out before joining the call as yourself.
-1. We wait for people to join the first two minutes of the meeting until :32.
+1. We start on time and will not wait for people.
+1. Person who has first item on the agenda starts the call. 
 1. If you are unable to attend just add your name to the [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) as 'Not attending'.
 1. We start by discussing the subjects that are on the agenda for today.
    * Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
@@ -279,7 +289,7 @@ step, **re-assign** the issue to that person.
    * There is no need to excuse yourself with "I didn't do anything interesting", "I just watched television" or "that's all", it is not a competition. Instead share the most interesting detail, for example what television show you watched, book you are reading, video game you played or what recipe you cooked.
 1. Sequence of asking people is in order of joining the company, same as on the [team page](https://about.gitlab.com/team/). If there are non-team page people in the call we end with those.
 1. Please look if the person you hand over to is present in the participant list so you don't hand over to someone who is not present.
-1. Last person hands over to the first person in the call order that is present (normally Dmitriy) who wishes everyone a good day or wishes everyone a great day her or him self.
+1. Last person wishes everyone a good day.
 1. Even if you cannot join the call, read through the team agenda and the links from there. We often use the team call to make announcements or
 discuss changes in processes, so make sure to catch up on the news if you have missed a team call (or more).
 
@@ -328,6 +338,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. Always write GitLab with a capitalized G and L, even when writing GitLab.com.
 1. Monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9
 1. If an email needs a response write the ask at the top of it.
+1. Use the future version of words, just like we don't write internet with a capital anymore, we write frontend and webhook without a hyphen or space.
 1. Our homepage is https://about.gitlab.com/ (with the `about.` and with `https`).
 1. Please refer to self-hosted installations as on-premises, not on-premise.
 1. If you use headers properly format them (`##` in Markdown, "Heading 2" in Google docs), start at the second header level because header level 1 is for titles, do not end headers with a colon.
@@ -353,6 +364,12 @@ Make sure it is charging, otherwise try again.
 * If you don't use headphones be careful about your volume and microphone placement, it might start singing, if so immediately mute your microphone and switch to headphones.
 * More info can be found at https://www.suitabletech.com/
 * Please report any questions or issues you have about the beam by @mentioning Emily in the #general channel.
+
+## On-Call Rotation and Scheduling<a name="on-call"></a>
+
+We have on-call heroes (see the [team page](https://about.gitlab.com/team/)) to
+respond quickly to GitLab.com downtime, and customer emergencies. Details about the schedule
+and how to swap duty in the [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/) page.
 
 ## Intellectual Property<a name="intellectual-property"></a>
 
@@ -417,8 +434,9 @@ intellectual property violations
     * You do not need to ask permission to take time off unless you want to take more than 25 consecutive calendar days.
     * Always make sure that your job responsibilities are covered while you are away.
     * We strongly recommended to take at least a minimum of 2 weeks of vacation per year, if you take less your manager might follow up to discuss your work load.
-1. You do need to ensure that not more than **half** of the people that can help with availability emergencies (24/7), regular support, sales or development are gone at any moment. You can check for this on the availability calendar, so be sure to add appointments early.
-1. If someone from the 24/7 team leaves, set up a **call** two weeks before that so the other people can divide the on-call days.
+1. You do need to ensure that not more than **half** of the people that can help with availability emergencies (the on-call heroes), regular support, sales, or development are gone at any moment. You can check for this on the availability calendar, so be sure to add appointments early.
+1. Please see the [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
+page for information on how to handle scheduled leave for someone from the [on-call](#on-call) team.
 1. Add an **appointment** to the GitLab availability calendar as you know your plans, you can always change it later.
 1. In case it can be useful add your planned time off as a **FYI** on the next agenda of the team call.
 1. We will **help** clients during official days off, unless they are official days off in both the Netherlands and the U.S. We try to have people working who are in a country that don't have an official day off. If you need to work during an official day off in your country, you should take a day off in return.
@@ -474,7 +492,6 @@ As an example, the first grant was handed to a team member who will be
 traveling to 6 team members in different countries during 6 months, and this
 team member will receive the maximum grant of $2,000.
 
-
 ## Signing Legal Documents<a name="signing-legal-documents"></a>
 
 If you need to sign, fill out, send or retrieve documents electronically, please
@@ -489,6 +506,66 @@ send a copy of the document to legal@gitlab.com with the following information:
 The document will be managed through HelloSign, a cloud-based electronic
 signature tool. Only C-level executives can sign legal documents, with the
 exception of NDAs covering a physical visit of another organization.
+
+## Tools<a name="tools"></a>
+
+A lot of tools we use are described in the rest of the handbook (GitLab, Google Docs, Google Hangouts, 1Password, etc.).
+This section is for tools that don't fit anywhere else.
+
+### Calendly
+
+[Calendly](https://calendly.com/): Set up 45 minute meeting slots. Connect to your Google calendar which knows your availability.
+The meeting will always create the same Google Video url so if you have that you can add it to the booking.
+
+### Shush
+
+[$4.99 tool for OSX](http://mizage.com/shush/) that allows you to use you fn key as a push to talk or push to mute.
+Never again will you have switch window focus to Google Hangout or Bluejeans to speak or mute.
+The icon will show the current state of your mic input (x means muted).
+With a right click you can switch from push to talk to push to mute.
+Don't forget to unblock your mike in Bluejeans/Google hangouts immediately after joining.
+Be warned that page up with fn+down arrow will activate it.
+Use space for page down instead of fn+up arrow.
+
+### Google Calendar Guest Modify Event Default
+
+[This Chrome extension](https://chrome.google.com/webstore/detail/google-calendar-guests-mo/hjhicmeghjagaicbkmhmbbnibhbkcfdb?hl=en) will allow allow guests to modify calendar appointments by default.
+
+### Bluejeans
+
+Please add instructions how to set up a Bluejeans meeting, how to record it and how to add the resulting video to our Youtube channel.
+
+### Hangouts on air
+
+Hangouts on Air probably only works with a maximum of 15 people for scheduled calls (same limit as normal Google Hangouts).
+
+Potential problem: even when I logged in as GitLab and got the bar below the call, I could not switch it too on-air!
+I did notice that the time was not properly set (anymore?).
+I did a test event before and that seemed to work OK.
+I'll try one more time to see if it works.
+
+Potential problem 2: the video showed up as listed by default
+
+Go to [My live events on Youtube](https://www.youtube.com/my_live_events) and switch to the GitLab account on the top right (you need to be a manager of our Youtube channel).
+
+Go to => life streaming => events and create a new one with the attributes:
+
+- type => quick (using Google Hangouts on Air)
+- advanced: promotions: disable both checkboxes
+- time needs to be set correctly
+
+The view on watch page url only allows for people to watch it.
+Window that pops up when you press the start hangout on air button has the proper url that you can send to other people and/or add it to the calendar invite, it is structured like: https://plus.google.com/hangouts/_/ytl/LONGHASH.
+When people join the event they have to [accept a warning](https://gitlab.com/snippets/16245).
+
+[Completed live events](https://www.youtube.com/my_live_events?filter=completed) will show the video and you can click the image to view it.
+You can use actions to make it public here
+
+BTW Trying to set this up via Google+ via [https://plus.google.com/hangouts/onair](Hangouts on Air) instead of via Youtube doesn't seem to connect to the right Youtube channel, even if you selected the right account on the top right.
+
+### One Tab
+
+[One Tab](https://www.one-tab.com/) tames tabs into a list which can be sorted and exported.
 
 ## Using Git to update this website<a name="starting-with-git"></a>
 

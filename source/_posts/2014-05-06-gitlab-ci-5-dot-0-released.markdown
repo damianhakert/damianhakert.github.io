@@ -43,11 +43,11 @@ This way we can ensure that killing the script also kills all its child processe
 
 __We would like to thank Corin Langosch for contributing these improvements.__
 
-## Web hooks
+## Webhooks
 
 In order to build some services based on GitLab CI you may need hooks that send data when the build finishes.
 GitLab already has such hooks, but up until now, GitLab CI did not.
-With GitLab CI version 5, we have added web hook functionality. We thank Võ Anh Duy for help with this feature.
+With GitLab CI version 5, we have added webhook functionality. We thank Võ Anh Duy for help with this feature.
 
 [![screenshot](/images/ci_5/hooks.png)](/images/ci_5/hooks.png)
 

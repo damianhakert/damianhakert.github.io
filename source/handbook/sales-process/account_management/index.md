@@ -84,19 +84,19 @@ Do NOT invoice before feature/work is completed.
 ## Handover from sales to support for subscription clients
 
 1. Sales includes a link to the relevant Highrise deal
-
 1. Support looks in the highrise deal, if the conversation is too long they leave a note in Highrise asking for a summary
 
 ## Support for potential customers
 
-1. Sales hears about a bug / issue the potential customer is having and decides that GitLab B.V. should try to solve it in the interest of winning the deal
-
-1. Sales asks the customer to email support regarding their issue
+1. Sales hears about a bug / issue the potential customer is having and decides 
+that GitLab should try to solve it in the interest of winning the deal. At that point:
+   - Sales asks the customer to email support regarding their issue; OR
+   - Sales forwards the issue from the customer to support, and in doing so also 
+puts the sales team in the cc to avoid creating duplicate tickets for the Support Team.
 
 ## Creating an Issue for feature requests
 
 1. Create an issue on the [public issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) and mention someone (Dimitriy, Sytse, Job).
-
 1. Do not mention customer name but confirm if large, medium or small and include URL to Saleforce account.
 
 ## Federal agency templates and certificates 

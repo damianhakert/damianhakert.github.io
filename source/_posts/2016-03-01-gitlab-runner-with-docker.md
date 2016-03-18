@@ -295,3 +295,8 @@ In this tutorial, we set up automated testing with GitLab Runner for a NodeJS
 project to get started with continuous integration on Gitlab.com.
 For more information on the GitLab Runner and GitLab CI platform, check out the [documentation](http://doc.gitlab.com/ce/ci/).
 Happy coding!
+
+### About Guest Author: Ahmet Kizilay
+
+[Ahmet Kizilay](https://about.me/ahmetkizilay) is a software developer living in Istanbul.
+He is currently working as a full-stack developer at [Graph Commons](https://graphcommons.com/).

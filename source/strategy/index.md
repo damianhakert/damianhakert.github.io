@@ -61,6 +61,8 @@ We believe that all digital products should be open to contributions, from legal
 
 7. To be sustainable we need an open core model that includes a proprietary GitLab EE.
 
+8. There is a network effect for open source software, the most popular software will receive the most contributions and feedback.
+
 ## Constraints
 
 1. Founder control: vote & board majority so we can keep making long term decisions.
@@ -127,7 +129,7 @@ We believe that all digital products should be open to contributions, from legal
 
 5. Increase adoption and revenue within accounts through the creation of a Customer Success organization
 
-6. Increase salesperson capacity and productivity by creating specialized roles, in sales we'll have account executives, senior accounts executives, and regional sales directors. In Customer Success we'll have customer success managers (on quota and work with named accounts) and technical account managers (not on quota, work with named accounts, will not do product support, work primarily via email, provide pre-sales support, guide their accounts through our features, installation, implementation, integrations, roadmap, and best practices).
+6. Increase salesperson capacity and productivity by creating specialized roles, in sales we'll have account executives, senior accounts executives, and regional sales directors. In Customer Success we'll have account managers (on quota and work with named accounts) and solution engineers (not on quota, work with named accounts, will not do product support, work primarily via email/web-conferencing, provide pre-sales support, guide their accounts through our features, installation, implementation, integrations, roadmap, and best practices).
 
 7. Account Executives specialize in upsell EE from CE, competitive sell against GitHub or Atlassian and educational sell from SVN/Clearcase or top-down sell to CTO.
 
@@ -177,7 +179,7 @@ We believe that all digital products should be open to contributions, from legal
 
 5. Sponsor initiatives and hire in countries that have low opportunity.
 
-## DevOps 2016
+## Production Engineering 2016
 
 1. A highly available GitLab.com that feels fast and has little downtime.
 
