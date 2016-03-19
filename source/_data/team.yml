@@ -1,3 +1,4 @@
+
 - name: Dmitriy Zaporozhets
   role: Co-founder, <a href="https://about.gitlab.com/jobs/chief-technology-officer/">Chief Technical Officer (CTO)</a>
   reports_to: CEO
@@ -730,7 +731,17 @@
   twitter:
   gitlab:
   story:  |
-          Joining March 23rd          
+          Joining March 23rd 
+          
+- name: A.D.
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: CTO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining April 11th          
+          
 
 - name: T.A.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
@@ -739,7 +750,7 @@
   twitter:
   gitlab:
   story:  |
-          Joining April 11th
+          Joining March 28th
 
 - name: M.F.
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
