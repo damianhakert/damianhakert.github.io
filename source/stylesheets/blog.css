@@ -156,6 +156,7 @@ article {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 2.9rem;
+  word-break: break-word;
 }
 
 .blog-entry .date {
@@ -415,4 +416,8 @@ ul.post-list > li > time {
     font-size: 30px;
     line-height: normal;
   }
+}
+
+#dl-partial-sm {
+  white-space: normal;
 }
