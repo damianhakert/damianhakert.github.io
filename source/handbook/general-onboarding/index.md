@@ -249,4 +249,5 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 * [ ] People Ops: Notify eShares administrator (CFO) of offboarding.
 * [ ] People Ops: Note final date of employment / contract in the "Organizational Chart and Hiring" sheet.
 * [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team)
+* [ ] Operations: If the person if from operations [remove the sysadmin](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/user-administration.md#remove-a-sysadmin)
 ```
