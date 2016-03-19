@@ -68,7 +68,7 @@ encourage her/him to ask her/his questions of the wider group on Slack, etc."
 
 
 ### WITHIN TWO DAYS OF STARTING
-*For GitLab Inc employees only*  
+*For GitLab Inc employees only*
 
 * [ ] People Ops: gather relevant information from new team member to enter them into the TriNet system.
 * [ ] People Ops: complete and submit an online Add New Hire Form
@@ -221,7 +221,7 @@ This list looks strange in this handbook but this is to ensure you can copy past
 When you paste it in an issue it will have checkboxes that you can click to complete.
 
 ```
-* [ ] For this offboarding, Manager is (@ mention), People Ops is handled by (@ mention). cc @sytse, @rspeicher, @jacobvosmaer, @patricio, @ernst.
+* [ ] For this offboarding, Manager is (@ mention), People Ops is handled by (@ mention). cc @rspeicher, @jacobvosmaer, @patricio, @ernst.
 * [ ] Manager of former team member: Organize smooth hand over of any work or tasks from former team member.
 * [ ] Robert/Jacob/COO: Suspending and closing the Google account
    * [ ] Robert/Jacob/COO: Check with the former team member's manager if they want email forwarded. If yes, then:
@@ -236,9 +236,9 @@ When you paste it in an issue it will have checkboxes that you can click to comp
 * [ ] Robert/Jacob/COO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members)
 * [ ] People Ops: Remove access to 1Password.
 * [ ] People Ops: Remove team member access to Google Drive.
-* [ ] Manager/CEO: Remove access to SalesForce.
-* [ ] Manager/CEO: Remove access to Recurly.
-* [ ] Manager/CEO: Remove access to Quickbooks.
+* [ ] Manager: Remove access to SalesForce.
+* [ ] Manager: Remove access to Recurly.
+* [ ] Manager: Remove access to Netsuite.
 * [ ] People Ops: Remove access to company credit card.
 * [ ] People Ops: Remove from Beamy
 * [ ] People Ops: Remove team member from the GitLab availability calendar.
