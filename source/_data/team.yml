@@ -569,7 +569,7 @@
   role: <a href="https://about.gitlab.com/jobs/people-ops-administrator/">People Ops Admin</a>
   reports_to: COO
   picture: tiffanie.png
-  twitter: tiffyrn
+  twitter: tiffyryn
   gitlab: tiffanie
   story:  |
           For the past 3 years Tiffanie has worked with Silicon Valley's finest
@@ -581,7 +581,7 @@
   role: <a href="https://about.gitlab.com/jobs/administrative-coordinator/">Administrative Coordinator</a>
   reports_to: COO
   picture: kirsten.jpg
-  twitter: kirsten_abma
+  twitter: 
   gitlab: kirstenabma
   story:  |
           After spending time planning a TEDx event of 500 people, Kirsten realised she loves working at start ups
@@ -730,7 +730,17 @@
   twitter:
   gitlab:
   story:  |
-          Joining March 23rd          
+          Joining March 23rd 
+          
+- name: A.D.
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: CTO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining April 11th          
+          
 
 - name: T.A.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
@@ -739,7 +749,7 @@
   twitter:
   gitlab:
   story:  |
-          Joining April 11th
+          Joining March 28th
 
 - name: M.F.
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
