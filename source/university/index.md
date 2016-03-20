@@ -57,7 +57,7 @@ and links to specific videos can be found bellow.
 #### Webcasts
 
 There is a university class every Thursday at 5PM UTC for GitLab team members
-only. Send Job a message to sign up.
+only. Send peopleops@gitlab.com an email to sign up.
 
 ---
 
