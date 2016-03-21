@@ -7,7 +7,7 @@ author: GitLab
 author_twitter: gitlab
 ---
 
-Last Friday, we released version 8.5.8, 8.4.6, 8.3.5, and 8.2.4 for GitLab
+Last Friday, we released versions 8.5.8, 8.4.6, 8.3.5, and 8.2.4 for GitLab
 Community Edition (CE) and Enterprise Edition (EE).
 
 These versions raises the minimum required Git version to 2.7.4 ([!692]) to
