@@ -16,8 +16,8 @@ title: Support
 - [Service Level Agreements](#sla)
 - [Support Turbo](#support-turbo)
 - [Internal Support](#internal)
+- [Dashboard](#dashboard)
 - [Support Channels](#support-channels)
-   - [Dashboard](#dashboard)
    - [Emergency Tickets](#emergency)
    - [Security disclosures](#security)
    - [GitLab.com downtime](#downtime)
@@ -109,6 +109,11 @@ lists the activity for all our channels currently and summarized over the last 3
 The iframe below also shows this dashboard, but it requires a valid session for the above link. Signing in on this page doesn't seem to work.
 
 <iframe frameborder="0" src="https://analytics.zendesk.com/dashboard.html#project=/gdc/projects/fan67iacybmx4rawsd6jcipe01ouaxvt&dashboard=/gdc/md/fan67iacybmx4rawsd6jcipe01ouaxvt/obj/65766&nochrome=true" width="100%" height="380px" allowTransparency="false"></iframe>
+
+We can't fit more than 13 views in the dashboard panel.
+We have 6 views that are not channels.
+Meaning we have 7 views left for all our channels.
+That is why some channels are combined.
 
 ## Support Channels <a name="support-channels"></a>
 
@@ -286,6 +291,10 @@ you must make sure to **@ mention the user** who tweeted their question to @gitl
 The @GitLabStatus account should only be used to
 give updates on the availability of GitLab.com and to follow up on users reporting that GitLab.com is unavailable.
 
+### Facebook<a name="facebook"></a>
+
+Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed into ZenDesk.
+
 ### Follow up on issues posted on GitLab issue tracker<a name="issue-tracker"></a>
 
 For ZenDesk issues you will have created issues on the relevant issue tracker.
@@ -298,11 +307,7 @@ For issues specific to GitLab.com that have nothing to do with availability we h
 for new issues and to report back if an issue has been solved. Ensure that you assign the issue to yourself to enable you to keep track of the issue and also to enable other service engineers to easily pick on unassigned tasks at a glance. Some people use this forum to report issues they
 are having with their on-premises installation. In that case, you should refer them to the
 [CE issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) or to our
-[Getting Help](/getting-help/) page, depending on the issue they are having. 
-
-### Facebook<a name="facebook"></a>
-
-Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed into ZenDesk.
+[Getting Help](/getting-help/) page, depending on the issue they are having.
 
 ### GitLab CE/EE/Omnibus issue trackers<a name="product-issue-tracker"></a>
 
