@@ -627,7 +627,7 @@
 
 - name: Alfredo Sumaran
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
-  reports_to: CTO
+  reports_to: Frontend Lead
   picture: alfredo.jpg
   twitter: asumaran
   gitlab: alfredo1
@@ -651,7 +651,7 @@
 
 - name: Phil Hughes
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
-  reports_to: CTO
+  reports_to: Frontend Lead
   picture: phil-hughes.jpg
   twitter: iamphill
   gitlab: iamphill
@@ -698,7 +698,7 @@
 
 - name: E.A.
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
-  reports_to: CTO
+  reports_to: Frontend Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
