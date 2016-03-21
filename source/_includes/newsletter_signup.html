@@ -2,7 +2,7 @@
   <div class="panel-heading">
     For the latest and most detailed news follow <strong><a href="https://twitter.com/gitlab">@gitlab</a></strong>
     on Twitter.
-    <a href="https://gitlab.com/gitlab-com/blog-posts/issues">Future blog posts suggestions</a>
+    <a href="https://gitlab.com/gitlab-com/blog-posts/issues">Future blog posts suggestions</a>.
 
     <a href="/atom.xml" class="rss-btn">
       <button class="btn btn-sm btn-default" data-toggle="tooltip" data-placement="right" title="RSS">
@@ -28,7 +28,7 @@
           form.onSuccess(function(values, followUpUrl) {
 
             form.getFormElem().hide();
-            document.getElementById('confirmform').style.visibility = 'visible';
+            document.getElementById('confirmform').style.display = 'block';
 
             ga('send', 'pageview');
             ga('send', 'event', 'form', 'submit', 'newsletter signup');
@@ -37,7 +37,7 @@
         });
       </script>
 
-       <div id="confirmform" style="visibility:hidden;"><p>Thanks for subscribing!</p></div>
+       <div id="confirmform" style="display:none;"><p>Thanks for subscribing!</p></div>
     </div>
   </div>
 </div>
