@@ -22,22 +22,42 @@ extra_js:
   </div>
 
   <div class="subscriptions" id="subs">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="basic subscription">
+    <div class="row" data-equal=".pricing-box">
+      <div class="pricing-box col-sm-4 col-sm-offset-2">
+        <div class="basic subscription main-subscription main-subscription-extra">
           <div class="header">
-            Basic
-            <div class="sub-header">
+            Community Edition
+          </div>
+          <div class="price">
+            Free
+            <div class="subprice">
+              unlimited users<br/>
+
             </div>
+            <div class="details">
+              <div class="detail">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <div class="body">
+                  <a href="/features/#community">GitLab Community Edition</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="/downloads/" class="basic button empty-content-btn">
+            Download Now
+          </a>
+        </div>
+      </div>
+      <div class="pricing-box col-sm-4">
+        <div class="standard subscription main-subscription">
+          <div class="header">
+            Enterprise Edition
           </div>
           <div class="price">
             <div class="money">$</div>39
             <div class="subprice">
-              yearly per user
-              <br>
-              purchased in packs of 10
-              <br>
-              $390 per pack
+              yearly per user<br/>
+              no minimum users
             </div>
           </div>
           <div class="details">
@@ -53,53 +73,90 @@ extra_js:
                 Next business day support
               </div>
             </div>
-            <div class="detail-spacer"></div>
-
-          </div>
-          <a href="https://gitlab.recurly.com/subscribe/gitlab-basic-yearly-10" class="basic button" id="order-basic" onclick="ga('send', 'event', 'link', 'click', 'basic subscription');">Buy now</a>
-        </div>
-      </div>
-
-      <div class="col-sm-4">
-        <div class="standard subscription">
-          <div class="header">
-            standard
-            <div class="sub-header">
+            <div class="detail">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <div class="body">
+                Advanced LDAP integration
+              </div>
+            </div>
+            <div class="detail">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <div class="body">
+                GitLab Pages
+              </div>
             </div>
           </div>
+          <a href="https://gitlab.recurly.com/subscribe/gitlab_ee_annual_fee_per_user" class="basic button subscription-btn" onclick="ga('send', 'event', 'link', 'click', 'basic subscription');">
+            Buy now
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="subscriptions">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>
+          Add-ons
+        </h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="plus subscription">
+          <div class="header">
+            GitLab Geo
+          </div>
           <div class="price">
-            <div class="money">$</div>49
+            <div class="money">$</div>99
             <div class="subprice">
-              yearly per user
-              <br>
-              purchased in packs of 100
-              <br>
-              $4,900 per pack
+              yearly per user<br/>
+              no minimum users
             </div>
           </div>
           <div class="details">
             <div class="detail">
               <span class="glyphicon glyphicon-chevron-right"></span>
               <div class="body">
-                <a href="/features/#enterprise">GitLab Enterprise Edition</a>
+                Learn more about <a href="http://doc.gitlab.com/ee/administration/gitlab-geo/README.html">GitLab Geo</a>
+              </div>
+            </div>
+          </div>
+          <a href="https://gitlab.recurly.com/subscribe/gitlab_ee_annual_fee_per_user" class="basic button subscription-btn" onclick="ga('send', 'event', 'link', 'click', 'basic subscription');">
+            Buy now
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="plus subscription">
+          <div class="header">
+            Premium Support
+          </div>
+          <div class="price">
+            <div class="money">$</div>99
+            <div class="subprice">
+              yearly per user<br/>
+              minimum of 100 users
+            </div>
+          </div>
+          <div class="details">
+            <div class="detail">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <div class="body">
+                24x7 emergency support
               </div>
             </div>
             <div class="detail">
               <span class="glyphicon glyphicon-chevron-right"></span>
               <div class="body">
-                All features from Basic
+                Two training workshops
               </div>
             </div>
             <div class="detail">
               <span class="glyphicon glyphicon-chevron-right"></span>
               <div class="body">
-                24/7 Emergency Support
-              </div>
-            </div>
-            <div class="detail">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-              <div class="body">
-                Support for <a href="https://about.gitlab.com/high-availability/">high availability</a>
+                Dedicated service engineer
               </div>
             </div>
             <div class="detail">
@@ -108,86 +165,48 @@ extra_js:
                 Live upgrade assistance
               </div>
             </div>
+            <div class="detail">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <div class="body">
+                Support for <a href="/high-availability/">High Availability</a>
+              </div>
+            </div>
           </div>
-          <a href="https://gitlab.recurly.com/subscribe/gitlab-standard-yearly-100" class="basic button" id="order-standard" onclick="ga('send', 'event', 'link', 'click', 'standard subscription');">Buy now</a>
+          <a href="https://gitlab.recurly.com/subscribe/gitlab_ee_annual_fee_per_user" class="basic button subscription-btn" onclick="ga('send', 'event', 'link', 'click', 'basic subscription');">
+            Buy now
+          </a>
         </div>
       </div>
-
       <div class="col-sm-4">
         <div class="plus subscription">
           <div class="header">
-            Plus
-            <div class="sub-header">
-            </div>
+            Pivotal Tile
           </div>
           <div class="price">
-            <div class="money">$</div>149
+            <div class="money">$</div>99
             <div class="subprice">
-              <br>
-              purchased in packs of 100
-              <br>
-              $14,900 per pack
+              yearly per user<br/>
+              no minimum users
             </div>
           </div>
           <div class="details">
             <div class="detail">
               <span class="glyphicon glyphicon-chevron-right"></span>
               <div class="body">
-                <a href="/features/#enterprise">GitLab Enterprise Edition</a>
-              </div>
-            </div>
-            <div class="detail">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-              <div class="body">
-                All features from Standard
-              </div>
-            </div>
-            <div class="detail">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-              <div class="body">
-                <a href="https://about.gitlab.com/training/">Git Training (4 workshops)</a>
-              </div>
-            </div>
-            <div class="detail">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-              <div class="body">
-                Feature request prioritization
-              </div>
-            </div>
-            <div class="detail">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-              <div class="body">
-                Dedicated Account Manager
-              </div>
-            </div>
-            <div class="detail">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-              <div class="body">
-                Dedicated Service Engineer
-              </div>
-            </div>
-            <div class="detail">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-              <div class="body">
-                Access to support Slack channel
-              </div>
-            </div>
-            <div class="detail">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-              <div class="body">
-                Onboarding help
+                Learn more about <a href="https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/">pivotal.</a>
               </div>
             </div>
           </div>
-          <a href="https://gitlab.recurly.com/subscribe/gitlab-plus-yearly-100" class="basic button" id="order-plus" onclick="ga('send', 'event', 'link', 'click', 'plus subscription');">Buy now</a>
+          <a href="https://gitlab.recurly.com/subscribe/gitlab_ee_annual_fee_per_user" class="basic button subscription-btn" onclick="ga('send', 'event', 'link', 'click', 'basic subscription');">
+            Buy now
+          </a>
         </div>
       </div>
     </div>
-    <p> &nbsp; </p>
   </div>
 
   <div class="subs-header">
-    <div class="title">All plans include a 45 day money-back guarantee</div>
+    <div class="title">Includes a 45 day money-back guarantee</div>
   </div>
 
   <div class="pricing-notes">
