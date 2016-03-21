@@ -74,7 +74,7 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 
 1. Do you have any questions about the job or our organization?
 1. Why did you apply to GitLab?
-1. For each significant study and job ask: why did you select this one and why did it end? (for studies: why not do master, PhD, PostDoc, etc.)
+1. For each significant study and job ask: can you shortly say why did you select this one and why did it end? (for studies: why not do master, PhD, PostDoc, etc.)
 1. When were you most satisfied in your most recent position?
 1. What did you like least about your most recent position?
 1. Take each skill required for the job and do a [STAR](https://en.wikipedia.org/wiki/Situation,_Task,_Action,_Result) for a couple of situations.
@@ -82,7 +82,8 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 1. How do you keep up to date with developments in your profession?
 1. If you don't get this job what will you do?
 1. Are you interviewing anywhere else?
-1. How can we change GitLab the product or company to make it better?
+1. How can we change GitLab the product to make it better?
+1. What can we change in GitLab the organization to make it better, for example the hiring process?
 1. What do you expect to achieve in your first month at GitLab?
 1. Where do you want to be in three years from now?
 1. How do you feel about working remote?
@@ -118,7 +119,7 @@ must always be mentioned specifically, even when it is 0. People Ops must follow
 with the person who requested the contract to make sure that this point is addressed.
 1. This same person from People Operations files the signed contract in the appropriate place, and starts the [**onboarding issue**](https://about.gitlab.com/handbook/general-onboarding/).
 
-Note for People Operations:  
+Note for People Operations:
 - the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
-[Contracts page](https://about.gitlab.com/handbook/contracts).  
+[Contracts page](https://about.gitlab.com/handbook/contracts).
 - Onboarding info for the PeopleOps system, BambooHR, can be found on the [PeopleOps](about.gitlab.com/handbook/people-operations) page.
