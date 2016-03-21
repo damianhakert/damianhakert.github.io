@@ -32,6 +32,7 @@ Any time GitLab is mentioned or relevant to a thread, someone from GitLab should
 - **Replies are not endorsements.** Just because you’re replying and not publicly disagreeing doesn’t mean you agree with the statement.
 - **Always seek feedback.** If someone has something negative to say, ask them how we could make it better. If they can provide examples that’s even better.
 - **Open issues!** If someone has a point they’d like to discuss, feel free to open an issue and link them to it. Regardless of whether or not you agree with the point, you should be inviting the community to participate in GitLab’s direction. Be sure to link to the relevant post in the issue for easier tracking. This won’t work for all cases, so use your best judgement.
+- **Do what you say you will.** If you say you'll look into something, set a reminder to circle back with the person or link them to an issue on the issue tracker. Saying you'll look into something makes it impossible to continue the conversation until you do so, so it is essential that you continue the conversation at some later point. If this is too much work just say 'I don't know' and leave it at that.
 
 ## GitLab Voice
 
