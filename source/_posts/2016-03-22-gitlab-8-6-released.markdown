@@ -17,7 +17,7 @@ easier.
 Not only can you now effortlessly deploy to Kubernetes with GitLab Deploy,
 it's now so much easier to only get the messages you need with
 the ability to subscribe to labels. And even if you don't care about those
-things, we made everything faster and _feel_ better.
+things, we made many things faster and _feel_ better.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
 Marcia Ramos for helping us [improving GitLab Pages documentation][gl-pages]
@@ -199,6 +199,11 @@ This button triggers a [git gc](https://www.kernel.org/pub/software/scm/git/docs
 project. In GitLab 8.6 we have automated this button: every 10 pushes, but no
 more than once per hour, GitLab will run `git gc` on repositories. This should
 (slightly) improve Git disk use and performance.
+- We split LDAPSyncworker and LDAPGroupSync worker. Performance will be greatly improved for large installations. LDAPSyncworker runs once per hour. In our
+benchmark runs, for 20,000 users and 10,000 groups, the sync takes 15 minutes.
+This is in contrast to hours or, in extreme cases, 1-2 days for the old
+LDAPSyncWorker (which synced groups, too).
+
 
 ### Updates in the omnibus-gitlab package
 
@@ -319,7 +324,7 @@ Check out our [update page](https://about.gitlab.com/update/).
 
 ## Enterprise Edition
 
-The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
+EE only features and features such as LDAP group support can be found in GitLab Enterprise Edition.
 For a complete overview please have a look at the [feature list of GitLab EE]( https://about.gitlab.com/features/#enterprise).
 
 Access to GitLab Enterprise Edition is included with a
