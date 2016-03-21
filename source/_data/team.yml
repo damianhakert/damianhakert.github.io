@@ -678,14 +678,14 @@
   story:  |
           Felipe is a rubyist from Chile trying to get more people into the Git boat. He likes to comunicate tech to non-tech individuals and help local communities reach more people. When AFK, he is desoldering stuff, 3D printing Star Wars models or in the stadium with his father and brother cheering for 'La U'.
 
-- name: A.F
+- name: Amanda Folson
   role: <a href="https://about.gitlab.com/jobs/developer-advocate/">Developer Advocate</a>
   reports_to: CMO
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: amanda.jpg
+  twitter: AmbassadorAwsum
+  gitlab: afolson
   story:  |
-          Joining March 7th
+          Amanda began her career as a technical writer and consultant. She went to her first conference in 2011, which is when she decided that she wanted to take a more active role in community building. The rest was history. When she's not on the road, you'll find her nose-deep in a book or wrangling code for some obscure project or another.
 
 - name: R.C
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
