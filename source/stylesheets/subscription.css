@@ -104,6 +104,7 @@ h1, h2, h3, h4, h5, button, a {
 
 .subscription {
   width: 100%;
+  height: 100%;
   font-weight: 200;
   text-align: center;
   transition: all 0.3s;
@@ -488,4 +489,15 @@ a.btn-default:hover {
 
 .main-subscription .subprice {
   margin-top: -20px;
+}
+
+.pricing-box .subscription {
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.pricing-box .subscription .button {
+  position: absolute;
+  left: 2.5%;
+  bottom: 0;
 }
