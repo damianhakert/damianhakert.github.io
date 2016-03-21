@@ -38,7 +38,7 @@ where you collaborate in issues and diffs and even test your code.
 Now, GitLab is also the place where you ship you code quickly and easily
 to Kubernetes.
 
-EXPLAIN WHAT IT DOES
+WAITING FOR COPY FROM REDSPREAD
 
 > [Documentation link](link)
 
@@ -67,13 +67,45 @@ to rely on external applications.
 
 ## External Users
 
-> [Documentation link](link)
+Internal projects allow you to practice [innersourcing][innersourcing],
+sharing projects internally as if they're open source, but protecting them
+as if they are private.
 
-## Updates to looks
+This is something we see more and more organisations adapt, but especially
+larger organisations often have external parties working together with them.
+These people also need access to GitLab, but not necessarily to everything,
+not to the internal projects.
 
-> [Documentation link](link)
+To prevent certain users from accessing internal projects, you can now mark
+them as _External_. It's a simply check in the users' page that can be set
+by any admininstrator.
 
-# Delete Issues
+In a future release, we'll be adding the ability to have this set automatically
+based on LDAP membership.
+
+> [Read about external users in our documentation](http://doc.gitlab.com/ce/permissions/permissions.html#external-users)
+
+## Better Dropdowns
+
+This seems like a minor update, but just try them!
+The dropdowns all over GitLab have been improved. Especially the filters
+for lists are now much more functional and easier to use.
+
+You can quickly add multiple labels and even make new labels on the go.
+This release contains hundreds of improvements to the interface, big and small,
+we hope you appreciate them!
+
+TODO PICTURE ![]()
+
+_Another improvement? Try Todos today!_
+
+## Delete Issues
+
+Sometimes, simply closing an issue or merge request is not sufficient.
+For those times, we are now making it possible to delete issues and merge
+requests.
+
+Only owners can delete issues.
 
 > [Documentation link](link)
 
@@ -81,7 +113,13 @@ to rely on external applications.
 
 > [Documentation link](link)
 
-## Move issue to another project
+## Move Issues to other Projects
+
+## Commit message in JIRA
+
+If a JIRA issue is mentioned in a commit, add the commit message to the JIRA comment from GitLab. This could look something like:
+USER mentioned this issue in abcd123:
+“Git commit message”
 
 ## Performance improvements
 
@@ -136,7 +174,6 @@ and earlier deployments should [upgrade to this version](http://doc.gitlab.com/o
 - Build updates via the Web notifications. https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2604
 - A whole new fancy sidebar with multi select labels. https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3175
 - Issues and Merge Requests look good on mobile.
-- New drop downs with multi selection
 - New branch from an issue
 - SAML customization http://doc.gitlab.com/ee/integration/saml.html#customization
 - Easily (un)mark merge request as WIP using link: gitlab-org/gitlab-ce!3006
