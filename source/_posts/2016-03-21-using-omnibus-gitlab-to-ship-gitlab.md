@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Omnibus GitLab package to ship GitLab
-date: 2016-03-30
+date: 2016-03-21
 comments: true
 author: Marin Jankovski
 author_twitter: maxlazio
