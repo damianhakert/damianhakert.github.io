@@ -10,7 +10,7 @@ author_twitter: gitlab
 Last Friday, we released versions 8.5.8, 8.4.6, 8.3.5, and 8.2.4 for GitLab
 Community Edition (CE) and Enterprise Edition (EE).
 
-These versions raises the minimum required Git version to 2.7.4 ([!692]) to
+These versions raise the minimum required Git version to 2.7.4 ([!692]) to
 address the recent
 [Git vulnerabilities](https://about.gitlab.com/2016/03/18/what-git-vulnerabilities-cve-2016-2324-and-2315-mean-for-gitlab-and-you/).
 The Omnibus packages have been updated to include this new version.
