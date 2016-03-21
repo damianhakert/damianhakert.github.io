@@ -11,19 +11,25 @@ We think that it is logical that our collaboration tools are a collaborative wor
 
 We believe that all digital products should be open to contributions, from legal documents to movie scripts and from websites to chip designs. GitLab Inc. will develop great open source software to enable people to collaborate in this way.
 
-1. To ensure that **everyone can contribute** to digital products we make GitLab joyful to use. It is integrated and opinionated collaboration software. Because there is no need to string together multiple tools you spend less time, have less frustration, there is less [bikeshedding](https://en.wikipedia.org/wiki/Law_of_triviality), and you get more results.
+1. To ensure that **everyone can contribute to digital products** we make GitLab joyful to use. It is integrated and opinionated collaboration software. Because there is no need to string together multiple tools you spend less time, have less frustration, there is less [bikeshedding](https://en.wikipedia.org/wiki/Law_of_triviality), and you get more results.
 
-2. To ensure that **everyone can contribute** with GitLab every person in the world should be able to afford it. Therefore GitLab CE is [free as in beer](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/). Also GitLab.com is free with private repos and CI runners, so that even without a budget you can use a great tool.
+2. To ensure that **everyone can contribute with GitLab** every person in the world should be able to afford and adapt. GitLab CE is [free as in beer](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/) so everyone can afford it. And GitLab.com is free with private repos and CI runners, so you don't even have to host it yourself. People should be able to adapt GitLab to fit their needs. That is why GitLab CE is [free as in speech](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/) though the MIT Expat license. But open source is more than a license, that is why we actively help our competitor Perforce to ship GitLab as part of Perforce Helix, and are [a good steward of GitLab CE](https://about.gitlab.com/about/#stewardship). And we keep all our software open to inspection, modifications, enhancements, and suggestions.
 
-3. To ensure that **everyone can contribute** using GitLab in some form it should be free as in speech, that is why GitLab CE is MIT licensed. But open source is more than a license, that is why we actively help our competitor Perforce to ship GitLab as part of Perforce Helix. We try to be [a good steward of](https://about.gitlab.com/about/#stewardship) GitLab CE. We keep all our software open to inspection, modifications, enhancements, and suggestions.
+3. To ensure that **everyone can contribute to GitLab itself** we actively welcome contributors. We do this by having quality code, tests, documentation, using popular frameworks, and offering a comprehensive [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit). We celebrate contributions by recognizing a Most Valuable Person (MVP) every month. We allow everyone to anticipate, propose, discuss, and contribute features by having everything on a public issue tracker. We ship a new version every month so contributions and feedback are visible fast. To contribute to open source software people must be empowered to learn programming. That is why we sponsor initiatives such as Rails Girls and [Lean Poker](http://leanpoker.org).
 
-4. To ensure that **everyone can contribute** to GitLab itself we actively welcome contributors. We do this by having quality code, tests, documentation, using popular frameworks, and offering a comprehensive GitLab Development Kit. We celebrate contributions by recognizing a Most Valuable Person (MVP) every month. We allow everyone to anticipate, propose, discuss, and contribute features by having everything on a public issue tracker. We ship a new version every month so contributions and feedback are visible fast. To contribute to open source software people must be empowered to learn programming. That is why we sponsor initiatives such as Rails Girls and [Lean Poker](http://leanpoker.org).
+4. To ensure that **everyone can contribute to our organization** we have open business processes that allow all team members to suggest improvements to our handbook. We hire remotely so everyone with an internet connection can come work for us and be judged on results, not presence in the office. We offer equal opportunity for every nationality. We are agnostic to location and create more equality of opportunity in the world. We engage on Hacker News, Twitter, and our blog post comments. And we strive to take decisions guided by [our values](https://about.gitlab.com/handbook/#values).
 
-5. To ensure that **everyone can contribute** to our organization we have open business processes that allow all team members to suggest improvements to our handbook. We hire remotely so everyone with an internet connection can come work for us and be judged on results, not presence in the office. We offer equal opportunity for every nationality. We are agnostic to location and that can be a real benefit to people in countries with less opportunities. We engage on Hacker News, Twitter, and our blog post comments. And we strive to take decisions guided by [our values](https://about.gitlab.com/handbook/#values).
+In summary, our vision is as follows.
+GitLab is integrated and opinionated collaboration software that everyone should be able to afford and adapt.
+With GitLab **everyone can contribute** to digital products, GitLab itself, and our organization.
+
+## Mission
+
+Change all creative work from read-only to read-write so that **everyone can contribute**.
 
 ## Goals
 
-1. Ensure that **everyone can contribute** in the 5 ways outlined above.
+1. Ensure that **everyone can contribute** in the 4 ways outlined above.
 
 2. Become most used software for the software development lifecycle and collaboration on all digital content by following [the sequence below](#sequence).
 
