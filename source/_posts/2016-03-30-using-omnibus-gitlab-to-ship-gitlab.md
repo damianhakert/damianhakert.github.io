@@ -204,16 +204,16 @@ we can.
 
 ## Conclusion
 
-One of the GitLab strengths is that we are able to have a very short release
-cycle and to get the updates to all our users very fast.
+One of GitLab's strengths is that we are able to have a very short release
+cycle, getting the updates to all our users very quickly.
 The omnibus-gitlab packages aren't perfect but they are currently the best
 option currently for frequent GitLab updates.
 
 If you consider the amount of time required to maintain eight packages
 (four platforms, one package each for CE and EE, two docker images,
 two Raspberry Pi 2 packages),
-the monthly release cycle, and making upgrades between versions and i
-nstallations as simple as possible,
+the monthly release cycle, and making upgrades between versions and
+installations as simple as possible,
 then omnibus-gitlab is doing a very good job.
 
 [A lot](https://twitter.com/choyer/status/670273120566120449)
