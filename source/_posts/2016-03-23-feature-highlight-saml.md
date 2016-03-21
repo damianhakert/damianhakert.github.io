@@ -9,14 +9,11 @@ filename: 2016-03-23-feature-highlight-saml.md
 image_title: /images/unsplash/galaxy.jpg
 ---
 
-It's been a long time since I last wrote on this blog. I've been involved with
-other projects that have kept me really busy. One of the tasks that I have been
-really involved with is SAML and its integration with GitLab. As a Service Engineer
-I'm in constant contact with customers and their needs and I've seen a steadily
-increasing interest in SAML from our Enterprise Customers, so I decided to dive
-a little deeper into the topic in an effort to improve our integration with SAML,
-to add better documentation, and to help our customers and our community to better
-understand this feature.
+As a Service Engineer I'm in constant contact with customers and their needs and I've
+seen a steadily increasing interest in SAML from our Enterprise Customers. That inspired
+me to dive a little deeper into the topic in an effort to improve our integration with
+SAML and to add better documentation. I hope this helps our customers and our
+community to better understand this feature.
 
 In this blog post I'll give you an overview of what I've been working on, how it
 affects GitLab and what we plan to do with SAML in the future.
@@ -47,20 +44,20 @@ GitLab would be the "Service Provider":
 
 #### The beginnings
 
-SAML was first introduced on version [7.12](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/722/diffs)
+SAML was first introduced in version [7.12](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/722/diffs)
 via a contribution from our amazing community. The feature was contributed by [CERN](http://home.cern/)
 almost 10 months ago. Since the original contribution, not much changed around the
-SAML support offered by GitLab. But interest from our users our customers really
+SAML support offered by GitLab. But interest from our users and our customers really
 increased. You can check all SAML related merge requests
 [here](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?utf8=%E2%9C%93&issue_search=saml&state=merged&scope=all&assignee_id=&author_id=&milestone_id=&label_id=).
 
 Due to the increased interest, I decided to dive into all the parts required to
 get GitLab to speak SAML. The first component required for this is `omniauth-saml`.
 
-#### omniauth-saml
+#### Reviving omniauth-saml
 
 GitLab relies on [omniauth-saml](https://github.com/omniauth/omniauth-saml) to
-provide the integration with a SAML Identity Provider (IdP). As you know, GitLab uses
+provide the integration with a SAML Identity Provider (IdP). It also uses
 [Devise](https://github.com/plataformatec/devise) as an authentication platform.
 Devise allows you to extend its authentication mechanism using Omniauth.
 `omniauth-saml` is an strategy that allows Omniauth to retrieve user information
@@ -68,8 +65,9 @@ from a SAML IdP and relay this information to GitLab to either create a new user
 or bind this new authentication mechanism to an existing user (if GitLab is
 [configured](http://doc.gitlab.com/ce/integration/saml.html) to do so).
 
-The `omniauth-saml` gem was originally developed and maintained by Practically
-Green, but in the last couple of months it lost momentum from its maintainers.
+The `omniauth-saml` gem was originally developed and maintained by
+[Practically Green](http://www.wespire.com/), but in the last couple of months
+it lost momentum from its maintainers.
 The gem on which this one is based, `ruby-saml`, started to add new features
 recently and merge requests were made on the `omniauth-saml` repo to add this
 new features here as well, but they went without review from the maintainers
@@ -91,7 +89,7 @@ version [1.5.0](https://github.com/omniauth/omniauth-saml/blob/master/CHANGELOG.
 with support for [Custom Attributes](http://doc.gitlab.com/ce/integration/saml.html#attribute_statements),
 better error handling, and a couple of bug fixes.
 
-The inclusion of these features, specially the Custom Attributes, are of great
+The inclusion of these features, especially the Custom Attributes, are of great
 use to GitLab users. You no longer need to change your IdP server to match the
 parameters that GitLab is expecting, you can now tell `omniauth-saml`, and therefore
 GitLab, where to look for them.
