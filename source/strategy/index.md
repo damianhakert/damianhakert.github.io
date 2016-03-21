@@ -45,6 +45,28 @@ We believe that all digital products should be open to contributions, from legal
 
 5. All knowledge workers contributing via GitLab (need to make the git workflow much more user friendly)
 
+
+## Constraints
+
+1. Founder control: vote & board majority so we can keep making long term decisions.
+
+2. Independence: since we took financing, to prevent being acquired, we need to IPO.
+
+3. Low burn: spend seed money like it is the last we’ll raise, maintain 2 years of runway.
+
+4. First time right: last to market so we get it right the first time, a fast follower with taste.
+
+5. Values: make decisions based on [our values](https://about.gitlab.com/handbook/#values), even if it is inconvenient.
+
+6. Free SaaS: to make GitLab.com the most popular SaaS in 2020 it should be largely free.
+
+7. Reach: go for a broad reach, no focus on business verticals or certain professions.
+
+8. Speed: ship every change in the next release to maximize responsiveness and learning.
+
+9. Life balance: we want people to stay with us long time, so time off is encouraged.
+
+
 ## Assumptions
 
 1. [Open source user benefits](http://buytaert.net/acquia-retrospective-2015): significant advantages over proprietary software because of its faster innovation, higher quality, freedom from vendor lock-in, greater security, and lower total cost of ownership.
@@ -61,29 +83,9 @@ We believe that all digital products should be open to contributions, from legal
 
 7. To be sustainable we need an open core model that includes a proprietary GitLab EE.
 
-8. There is a network effect for open source software, the most popular software will receive the most contributions and feedback.
+8. EE has a low base price that is publicly available to compete for reach with CE, established competitors, and new entrants to the market.
 
-## Constraints
-
-1. Founder control: vote & board majority so we can keep making long term decisions.
-
-2. Independence: since we took financing, to prevent being acquired, we need to IPO.
-
-3. Low burn: spend seed money like it is the last we’ll raise, maintain 2 years of runway.
-
-4. First time right: last to market so we get it right the first time, a fast follower with taste.
-
-5. Low price: we must have low prices for EE since CE is an anchor and the delta is small.
-
-6. Free SaaS: to make GitLab.com the most popular SaaS in 2020 it should be largely free.
-
-7. Reach: go for a broad reach, no focus on business verticals or certain professions.
-
-8. Speed: ship every change in the next release to maximize responsiveness and learning.
-
-9. Life balance: we want people to stay with us long time, so time off is encouraged.
-
-10. Values: make decisions based on [our values](https://about.gitlab.com/handbook/#values), even if it is inconvenient.
+9. The low base price is supplemented by a large set of options aimed at larger organizations that get a lot of value from GitLab.
 
 ## General 2016
 
