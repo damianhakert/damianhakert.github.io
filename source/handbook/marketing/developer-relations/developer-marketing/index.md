@@ -15,7 +15,7 @@ In Phil Leggetter's [DevRelOMeter](http://www.leggetter.co.uk/2016/02/03/definin
 
 ## Current activities
 
-- Maintain a [social media](/handbook/marketing/developer-relations/developer-marketing/social-media/) presence which is friendly and responsive.
+- Maintain a [social](/handbook/marketing/developer-relations/developer-advocacy/social-media) presence which is friendly and responsive.
 - Publish an active [blog](/handbook/marketing/developer-relations/developer-marketing/blog/) with useful content relevant to GitLab users.
 - Introduce [monthly themes](/handbook/marketing/developer-relations/developer-marketing/monthly/) exploring content from multiple perspectives, and levels of experience.
 - Publish a twice-monthly email newsletter you can sign up to on [our contact page](https://about.gitlab.com/contact/).
