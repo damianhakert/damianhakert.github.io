@@ -68,7 +68,7 @@ than 100,000 organizations are using GitLab.
 
 At GitLab we have one vision.
 **Everyone can contribute** to all digital content.
-For more information see the [product vision on our direction page](https://about.gitlab.com/direction/#vision) and our [strategy](https://about.gitlab.com/strategy/)
+For more information see the our [strategy](https://about.gitlab.com/strategy/).
 
 ## Logo
 
