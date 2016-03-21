@@ -11,8 +11,14 @@ image_title: /images/7_X/PICTURE.PNG
 
 Intro and introduce main features here.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
+Marcia Ramos for helping us [improving GitLab Pages documentation][gl-pages]
+and being a great contributor to the GitLab community. Being an MVP doesn't
+necessarily mean contributing code to GitLab!
+
+Thanks Marcia!
+
+[gl-pages]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/212
 
 <!--more-->
 
