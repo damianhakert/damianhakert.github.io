@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "GitLab 8.5.8 Released"
-date: 2016-03-21 12:30
+date: 2016-03-21 14:15:00 UTC
 comments: true
 author: GitLab
 author_twitter: gitlab
-filename: 2016-03-21-gitlab-8-dot-5-dot-8-released.markdown
 ---
 
 Last Friday, we released version 8.5.8 for GitLab Community Edition (CE) and
@@ -22,8 +21,8 @@ Following is the full changelog for this patch release:
 - **EE:** GitLab Geo: Documentation ([!236])
 - **Omnibus:** Update Git to 2.7.4 ([!692])
 
-[!692]: https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/692
 [!236]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/236
+[!692]: https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/692
 
 ## Upgrade barometer
 

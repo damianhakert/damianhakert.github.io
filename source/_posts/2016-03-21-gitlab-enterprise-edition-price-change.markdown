@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GitLab Enterprise Edition price change
-date: 2016-03-21
+date: 2016-03-21 13:00:00 UTC
 author: Chad Malchow
 author_twitter: chadmalchow
 ---
