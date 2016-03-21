@@ -103,11 +103,14 @@ Sometimes, simply closing an issue or merge request is not sufficient.
 For those times, we are now making it possible to delete issues and merge
 requests.
 
-Only owners can delete issues.
+Only owners can delete issues by editing the issue or merge request and
+clicking, you guessed it, `Delete`.
 
 > [Documentation link](link)
 
 ## Table of Contents for Wiki
+
+TODO
 
 > [Documentation link](link)
 
@@ -133,8 +136,6 @@ on how we can improve GitLab's integration with JIRA.
 
 > [Read about GitLab's JIRA integration](http://doc.gitlab.com/ee/project_services/jira.html)
 
-
-
 ## New GitLab CI Features
 
 - pass artifacts between builds
@@ -146,7 +147,6 @@ ships in GitLab 8.6 with new Android, Windows, Linux and Mac apps with full
 GitLab SSO support, plus Brazilian Portuguese translation and more.
 Mattermost 2.1 contains a [security update](http://docs.mattermost.com/administration/changelog.html#security-update)
 and earlier deployments should [upgrade to this version](http://doc.gitlab.com/omnibus/gitlab-mattermost/).
-
 
 ## Other changes
 
@@ -165,6 +165,12 @@ We still want you to know about them, so here are some of them, in short:
 - Easily (un)mark merge requests as WIP using a link. No more editing necessary!
 
 ## Performance improvements
+
+When [we said][making-faster-blog] that [making GitLab faster][8-5-release] was a priority, we weren't kidding.
+Here is some of the work we've done to make GitLab 8.6 faster:
+
+[making-faster-blog]: https://about.gitlab.com/2016/02/25/making-gitlab-faster/
+[8-5-release]: https://about.gitlab.com/2016/02/22/gitlab-8-5-released/
 
 - Search performance has been greatly improved for users using PostgreSQL
  _without_ using ElasticSearch. This requires the `pg_trgm` extension (see
