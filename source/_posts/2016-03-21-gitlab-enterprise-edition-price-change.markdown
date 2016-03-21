@@ -18,7 +18,7 @@ Previously, we had a minimum seat purchase, which required you to buy
 Now we've removed the seat minimums so you can purchase a GitLab Enterprise Edition (EE) license per-seat.
 
 The price per seat will remain the same, $39 per year per seat.
-This is the same price as the Basic Plan.  
+This is the same price as the Basic Plan.
 
 We will now offer Premium Support; which includes 24x7 emergency support, two training workshops,
 live upgrade assistance, support for High Availability and direct access to GitLab's internal chat channel for support, as add-on Options to a
@@ -35,7 +35,7 @@ you don't need to buy a pack of 10 or if you need 104 you don’t need to buy tw
 - We want to avoid raising the price of our basic package.
 - We will also be offering GitLab EE Options for organizations to purchase with their subscription.  GitLab EE Options will be specific features which certain organizations will find valuable. We want to charge only the people that use
 these Options instead of raising the price for everyone. An example of an EE Option, is [GitLab Geo](http://doc.gitlab.com/ee/administration/gitlab-geo/README.html) for $99/year/user.
-- We want to charge for 24/7 support.
+- We want to charge more for 24/7 support.
 - Our plus package wasn't customizable enough for what our customers were requesting.
 
 ### What does this mean for our current clients?
@@ -51,9 +51,8 @@ Deadline for early renewals is April 30, 2016.
 
 - Currently on Basic with 3 users? Your cost decreases from $390 to $117.
 - Currently on Basic with 10 users? Your cost stays the same, $390.
-- Currently on Standard with 100 users with Premium Support? Your cost increases from $4900 to $8850
-- Currently on Standard with 110 users with Premium Support? Your cost decreases from $9800 to $9735
+- Currently on Standard with 100 users with Premium Support? Your cost increases from $4900 to $8850 (with the 50% discount)
+- Currently on Standard with 110 users with Premium Support? Your cost decreases from $9800 to $9735 (with the 50% discount)
 - Currently on Standard with 150 users with no support? Your cost decreases from $9800 to $5850
-
 
 [pricing]: https://about.gitlab.com/pricing/
