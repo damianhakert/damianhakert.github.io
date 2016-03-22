@@ -17,8 +17,8 @@ with GitLab 8.6 your life is going to get a whole lot easier.
 
 Not only can you now effortlessly deploy to Kubernetes,
 it's now _so much_ easier to only get the messages you need with
-the ability to subscribe to labels. On top of that
-, we made _many_ things faster and better looking.
+the ability to subscribe to labels. On top of that,
+we made _many_ things faster and better looking.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
 Marcia Ramos for helping us [improving GitLab Pages documentation][gl-pages]
@@ -36,16 +36,16 @@ Thanks Marcia!
 
 GitLab has always been the place where your projects start their life,
 where you collaborate in issues and diffs and even test your code.
-Now, GitLab is also the place where you ship you code quickly and easily
+Now, GitLab is also the place where you ship your code quickly and easily
 to Kubernetes.
 
 We want to make easy to deploy straight from GitLab CI in one step,
 without any custom scripts.
 
-Redspread a company in the current Y Combinator batch (Winter 2016), and they're
-noticing an incredible increase in Kubernetes usage among earlier stage
-startups. Many startups this batch and recent alumni are either evaluating
-Kubernetes or already using it in production.
+Redspread is a company in the current Y Combinator batch (Winter 2016).
+THey noticed an incredible increase in Kubernetes usage among early stage
+startups. Many startups in this YC batch and recent alumni are evaluating
+or already using Kubernetes in production.
 
 Redspread’s open source command line tool,
 [Spread](https://github.com/redspread/spread),
