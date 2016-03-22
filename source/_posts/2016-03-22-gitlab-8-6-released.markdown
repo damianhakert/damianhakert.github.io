@@ -170,7 +170,7 @@ on how we can improve GitLab's integration with JIRA.
 
 > [Read about GitLab's JIRA integration](http://doc.gitlab.com/ee/project_services/jira.html)
 
-## Group Level Visibility Level
+## Group Visibility Level
 
 You can now set the visibility level of groups, just like you could always
 do with projects. Groups now have a visibility level icon to show this.
@@ -181,6 +181,8 @@ the explore page will be empty for anonymous users.
 
 The group level visibility solves
 [this popular issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/12658).
+
+> [Read about the group visibility level](http://doc.gitlab.com/ce/public_access/public_access.html#visibility-of-groups)
 
 ## GitLab Mattermost 2.1
 
