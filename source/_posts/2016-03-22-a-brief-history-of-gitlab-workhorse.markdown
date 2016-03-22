@@ -24,7 +24,7 @@ GitLab is a Ruby on Rails web application that uses the
 [Unicorn](http://unicorn.bogomips.org/) Ruby web server. I am a fan of
 Unicorn because it makes application resource leaks manageable and
 because it has served GitLab well for a long time by patching up
-problems for which we found or find too hard to solve 'properly'. (I am
+problems which we found or find too hard to solve 'properly'. (I am
 known to growl at people who suggest swapping out Unicorn for another
 web server in GitLab.)
 
