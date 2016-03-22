@@ -90,7 +90,7 @@ Next to Savvy, the People Ops team will also get a copy of the form info for you
 * [ ] People Ops: Invite to autoconnect on [Beamy](https://about.gitlab.com/handbook#beamy-guidelines).
 * [ ] People Ops: Order business cards for new team member.
 * [ ] People Ops: Add team member to Expensify (if employee).
-* [ ] People Ops: Inform new team member of upcoming events and team meet-ups such as the Summit.
+* [ ] People Ops: Add new team member to the info sheets of the Austin Summit
 * [ ] PeopleOps: Send the new team member the "reset password" email for their BabooHR profile
 * [ ] Patricio/COO: Add to tweetdeck (applies to Service Engineers and Production Engineers for @gitlabstatus, and marketing hires)
 * [ ] New team member: Register on 1Password by clicking [this link](https://gitlab.1password.com/teamjoin/invitation/J2KWH3CJDRFA7KTFDVVXXDSCMY)
@@ -98,7 +98,7 @@ and then ping @rspeicher to confirm your account.
 * [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
 * [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle.
 * [ ] Robert/Jacob/COO: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
-* [ ] New team member: USe the "reset your password" email of BambooHR to set a password and access your profile.
+* [ ] New team member: Use the "reset your password" email of BambooHR to set a password and access your profile.
 * [ ] New team member: Add your Address, Phone number, private email and emergency contact to your BambooHR profile page.
 * [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar, stock photo or something with sunglasses).
 * [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo.
