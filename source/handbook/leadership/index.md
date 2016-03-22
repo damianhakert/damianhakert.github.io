@@ -1,3 +1,7 @@
+---
+layout: markdown_page
+title: Leadership
+---
 ## Behaviour
 
 - As a leader new team members will look up to you and will follow your behaviour.
