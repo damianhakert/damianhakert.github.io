@@ -346,6 +346,11 @@ can run the following SQL commands in their database:
 These commands ensure all indexes are in place and mark the migration as having
 finished successfully (so Rails doesn't end up trying to run it again).
 
+### Deprecation of download_url in Builds API
+
+We removed `download_url` from the [Builds API](http://doc.gitlab.com/ce/api/builds.html).
+Instead we provide [an API for downloading artifacts of builds](http://doc.gitlab.com/ce/api/builds.html#get-build-artifacts.)
+
 ---
 
 *Note* We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
