@@ -5,6 +5,8 @@ title: "People Operations Administrator"
 
 ## Responsibilities
 
+* Independently initiate and manage People Operations activities, including improvement of processes,
+but also take on a hands-on role in People Operations administration.
 * Prepare contracts and help ensure smooth onboarding of new team members.
 * Help ensure smooth offboarding of team members.
 * Handle administrative interactions for US-based team members with our payroll and benefits provider, TriNet.
