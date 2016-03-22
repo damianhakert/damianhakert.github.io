@@ -678,6 +678,15 @@
   story:  |
           Felipe is a rubyist from Chile trying to get more people into the Git boat. He likes to comunicate tech to non-tech individuals and help local communities reach more people. When AFK, he is desoldering stuff, 3D printing Star Wars models or in the stadium with his father and brother cheering for 'La U'.
 
+- name: Felipe Artur
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Development Lead
+  picture: felipe_artur.jpg
+  twitter: FelipeArtur
+  gitlab: felipe_artur
+  story:  |
+          Software enthusiast which started his career developing desktop applications. Former member of a repositories/task management company which is here make Gitlab better. Likes to play RTS video games and boxing in his free time.
+
 - name: A.F
   role: <a href="https://about.gitlab.com/jobs/developer-advocate/">Developer Advocate</a>
   reports_to: CMO
