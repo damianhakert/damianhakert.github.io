@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab 8.6 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 8.6 released with Deploy to Kubernetes and Subscribe to Label"
 date: 2016-03-22
 comments: true
 categories:
@@ -12,11 +12,11 @@ image_title: /images/7_X/PICTURE.PNG
 Never have there been more people contributing to GitLab. And you can see it.
 
 Whether you're leading a large open source project, managing thousands of
-private, interlinked projects, or just use it by yourself,
+private, interlinked projects, or even just use GitLab by yourself,
 with GitLab 8.6 your life is going to get a whole lot easier.
 
 Not only can you now effortlessly deploy to Kubernetes,
-it's now so much easier to only get the messages you need with
+it's now _so much_ easier to only get the messages you need with
 the ability to subscribe to labels. On top of that
 , we made _many_ things faster and better looking.
 
@@ -193,9 +193,9 @@ We still want you to know about them, so here are some of them, in short:
 - YAML frontmatter is now rendered nicely in markdown files
 - No more default password! Set your password on first sign in. [Read more in the docs](http://doc.gitlab.com/ce/install/installation.html#initial-login)
 - We now show test coverage in the builds view
-- Support for Golang subpackage fetching, straight from GitLab
+- Support for Golang subpackage fetching, straight from GitLab.
 - You now also get build updates via web notifications. Ping!
-- Issues and Merge Requests now look better on mobile
+- Issues and Merge Requests now look better on mobile. Finally!
 - Quickly create a new branch from an issue, with a dedicated button
 - [SAML customization](http://doc.gitlab.com/ee/integration/saml.html#customization)
 - Easily (un)mark merge requests as WIP using a link. No more editing necessary!
