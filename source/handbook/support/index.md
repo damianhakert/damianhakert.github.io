@@ -274,7 +274,7 @@ the ticket that was created for your reply.
 
 ### Twitter <a name="twitter"></a>
 
-Tweets that mention [@GitLab](https://twitter.com/GitLabSupport), [@GitLabSupport](https://twitter.com/GitLabSupport),
+Tweets that mention [@GitLab](https://twitter.com/GitLab), [@GitLabSupport](https://twitter.com/GitLabSupport),
 or [@GitLabStatus](https://twitter.com/GitLabStatus), will create a ticket in ZenDesk, 
 and show up in the "Twitter and Facebook" view. Responses to these tweets should 
 always come from within ZenDesk and not from TweetDeck, to avoid duplication of tickets 
