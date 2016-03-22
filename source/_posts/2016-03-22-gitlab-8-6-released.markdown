@@ -28,7 +28,6 @@ necessarily mean contributing code to GitLab!
 Thanks Marcia!
 
 [gl-pages]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/212
-[dear-github-response]: https://about.gitlab.com/2016/01/15/making-gitlab-better-for-large-open-source-projects/
 
 <!--more-->
 
@@ -109,8 +108,7 @@ as if they are private.
 
 This is something we see more and more organisations adopt, but especially
 larger organisations often have external parties working together with them.
-These people also need access to GitLab, but not necessarily to everything,
-not to the internal projects.
+These people also need access to GitLab, but not to the internal projects.
 
 To prevent certain users from accessing internal projects, you can now mark
 them as _External_. It's a simple check in the users' page that can be set
