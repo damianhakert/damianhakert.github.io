@@ -285,6 +285,8 @@ participate in responding to questions.
 The @GitLabStatus account should only be used to give updates on the availability 
 of GitLab.com and to follow up on users reporting that GitLab.com is unavailable.
 
+When a tweet mentions 1 or more of the handles described above should be replied from the main handle (@GitLab).
+
 ### Facebook<a name="facebook"></a>
 
 Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed into ZenDesk.
