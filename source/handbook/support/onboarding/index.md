@@ -75,6 +75,10 @@ Tickets coming from our customers take a higher priority than regular support ti
 within ZenDesk. Make sure you take care of these tickets first. They can be seen in the `Subscribers Open`
 view.
 
+During your interaction with the customers you will most likely need to create an issue, either for a feature
+request or for a bug. Since we do everything in the open, it is good practice to send the link of the issue
+to the requesting customer, so that they can also keep an eye on the discussion there, and weigh in if necessary.
+
 We use ZenDesk Organization Profiles to store relevant information about the customer, like environment setup,
 hardware specs, usage patterns, etc, so that if you need this information, it is readily available from
 within ZenDesk. To see this information, click on the link to the left of the requester's name (in our example
