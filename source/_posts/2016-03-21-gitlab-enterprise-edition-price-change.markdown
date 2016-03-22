@@ -34,7 +34,7 @@ We're doing this for a number of reasons:
 you don't need to buy a pack of 10 or if you need 104 you don’t need to buy two licenses of 100.
 - We want to avoid raising the price of our basic package.
 - We will also be offering GitLab EE Options for organizations to purchase with their subscription.  GitLab EE Options will be specific features which certain organizations will find valuable. We want to charge only the people that use
-these Options instead of raising the price for everyone. An example of an EE Option, is [GitLab Geo](http://doc.gitlab.com/ee/administration/gitlab-geo/README.html) for $99/year/user.
+these Options instead of raising the price for everyone. An example of an EE Option, is [GitLab Geo](http://doc.gitlab.com/ee/gitlab-geo/README.html) for $99/year/user.
 - We want to charge more for 24/7 support.
 - Our plus package wasn't customizable enough for what our customers were requesting.
 
