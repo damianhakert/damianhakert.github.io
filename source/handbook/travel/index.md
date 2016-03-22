@@ -17,7 +17,7 @@ your trip. However, the extra days will not be covered by the company.
 Below is some more information to help you get set up with your Egencia account.
 1. You will receive an email from Egencia with your username.
 1. With the link, from step one in this email, you can set a password with link. 
-Make sure it is set up using the handbook guidelines for safe passwords
+Make sure it is set up using the [handbook guidelines](https://about.gitlab.com/handbook/security/) for safe passwords
 1. Once you are in your dashboard, you can setup preferences in your travel profile. You can enter your profile in the top right corner
 1. Now let's start booking!
 
