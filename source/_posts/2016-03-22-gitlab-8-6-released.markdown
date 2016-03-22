@@ -10,14 +10,15 @@ image_title: /images/7_X/PICTURE.PNG
 ---
 
 Never have there been more people contributing to GitLab. And you can see it.
-Whether you're leading a large open source project or thousands of private,
-interlinked projects, with GitLab 8.6 your life is going to get a whole lot
-easier.
 
-Not only can you now effortlessly deploy to Kubernetes with GitLab Deploy,
+Whether you're leading a large open source project, managing thousands of
+private, interlinked projects, or just use it by yourself,
+with GitLab 8.6 your life is going to get a whole lot easier.
+
+Not only can you now effortlessly deploy to Kubernetes,
 it's now so much easier to only get the messages you need with
-the ability to subscribe to labels. And even if you don't care about those
-things, we made many things faster and _feel_ better.
+the ability to subscribe to labels. On top of that
+, we made _many_ things faster and better looking.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
 Marcia Ramos for helping us [improving GitLab Pages documentation][gl-pages]
@@ -31,22 +32,55 @@ Thanks Marcia!
 
 <!--more-->
 
-## GitLab Deploy
+## Deploy straight from GitLab CI to Kubernetes
 
 GitLab has always been the place where your projects start their life,
 where you collaborate in issues and diffs and even test your code.
 Now, GitLab is also the place where you ship you code quickly and easily
 to Kubernetes.
 
-WAITING FOR COPY FROM REDSPREAD
+We want to make easy to deploy straight from GitLab CI in one step,
+without any custom scripts.
 
-> [Documentation link](link)
+Redspread a company in the current Y Combinator batch (Winter 2016), and they're
+noticing an incredible increase in Kubernetes usage among earlier stage
+startups. Many startups this batch and recent alumni are either evaluating
+Kubernetes or already using it in production.
+
+Redspread’s open source command line tool,
+[Spread](https://github.com/redspread/spread),
+allows command line deployments to
+Kubernetes. It uses the current `kubectl` context to read
+a project directory and
+automatically create or update any Kubernetes objects. It made sense to
+integrate Spread with GitLab CI, since GitLab CI focuses on automating
+deployment.
+
+To use Spread with GitLab CI:
+
+1. Add the correct image to .gitlab-ci.yml:
+
+```YAML
+deploy:
+  stage: deploy
+  image: redspreadapps/gitlabci
+  script:
+  - null-script
+```
+
+2. Set the environment variables to what makes sense. [See the documentation of the environment variables](https://github.com/ethernetdan/spread/blob/gitlab-ci/images/gitlabci/README.md).
 
 ## Subscribe to a Label
 
 If you don't want to miss issues that are important to you, simply
 subscribe to a label! You'll get notified whenever the label gets added to
 an issue, making sure you don't miss a thing.
+
+![Subscribe to a label in GitLab 8.6](/images/8_6/subscribe-to-label.png)
+
+If you work on a large or popular project, try subscribing only to the labels
+that are relevant to you. You'll notice it'll be much easier to focus on what's
+important.
 
 ## Confidential Issues
 
@@ -59,9 +93,9 @@ This means people can now safely report security issues to your open source
 projects. You can communicate with them right there and then, without having
 to rely on external applications.
 
-[open]: https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/
+![Use confidential issue for sensitive matters in GitLab 8.6](/images/8_6/confidential-issue.png)
 
-> [Documentation link](link)
+[open]: https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/
 
 ## External Users
 
@@ -93,9 +127,11 @@ You can quickly add multiple labels and even make new labels on the go.
 This release contains hundreds of improvements to the interface, big and small,
 we hope you appreciate them!
 
-TODO PICTURE ![]()
+![Awesome dropdowns in GitLab 8.6](/images/8_6/create-label-from-dropdown.gif)
 
 _Another improvement? Try Todos today!_
+
+![Better Todos with GitLab 8.6](/images/8_6/fast-todos.gif)
 
 ## Delete Issues
 
@@ -103,16 +139,8 @@ Sometimes, simply closing an issue or merge request is not sufficient.
 For those times, we are now making it possible to delete issues and merge
 requests.
 
-Only owners can delete issues by editing the issue or merge request and
+Only `owners` can delete issues by editing the issue or merge request and
 clicking, you guessed it, `Delete`.
-
-> [Documentation link](link)
-
-## Table of Contents for Wiki
-
-TODO
-
-> [Documentation link](link)
 
 ## Move Issues to other Projects
 
@@ -120,7 +148,7 @@ If your product consists of multiple GitLab projects,
 issues can easily end up in the wrong place.
 You can now easily move issues between projects!
 
-TODO PIC / ANIMATION
+![Move issues between projects in GitLab 8.6](/images/8_6/move-issue.png)
 
 The original issue will be copied, closed and referenced,
 making sure nothing or no one will be confused with the move.
@@ -136,9 +164,17 @@ on how we can improve GitLab's integration with JIRA.
 
 > [Read about GitLab's JIRA integration](http://doc.gitlab.com/ee/project_services/jira.html)
 
-## New GitLab CI Features
+## Group Level Visibility Level
 
-- pass artifacts between builds
+You can now set the visibility level of groups, just like you could always
+do with projects. Groups now have a visibility level icon to show this.
+
+The global restriction for visibility levels, which you can set as an administrator,
+also applies to groups. That means that if you set it to `internal`,
+the explore page will be empty for anonymous users.
+
+The group level visibility solves
+[this popular issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/12658).
 
 ## GitLab Mattermost 2.1
 
@@ -163,10 +199,14 @@ We still want you to know about them, so here are some of them, in short:
 - Quickly create a new branch from an issue, with a dedicated button
 - [SAML customization](http://doc.gitlab.com/ee/integration/saml.html#customization)
 - Easily (un)mark merge requests as WIP using a link. No more editing necessary!
+- Better table of contents in Wikis!
+- [GitLab Geo](http://doc.gitlab.com/ee/gitlab-geo/README.html) now syncs even
+more things! We urge you to upgrade to 8.6 if you're interested in Geo
 
 ## Performance improvements
 
-When [we said][making-faster-blog] that [making GitLab faster][8-5-release] was a priority, we weren't kidding.
+When [we said][making-faster-blog] that [making GitLab faster][8-5-release]
+was a priority, we weren't kidding.
 Here is some of the work we've done to make GitLab 8.6 faster:
 
 [making-faster-blog]: https://about.gitlab.com/2016/02/25/making-gitlab-faster/
@@ -180,11 +220,11 @@ barometer).
 faster and is cached
 - Performance of retrieving CI services of a project has been improved
 - Large diffs are hidden in merge requests
-- Project avatars stored in Git repositories are now cached, cutting down request timings for _all_ project pages for projects that don't use an avatar uploaded via the web UI. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3272
-- Diffs that are larger than 100 KB are no longer displayed, instead a "This diff is too large" message is displayed. This prevents Unicorn timeouts when viewing large diffs. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3185
-- The branch commit ahead/behind statistics are no longer pre-cached on every push. For projects with lots of branches (e.g. thousands) this can have a huge impact on the time it takes for the pre-caching process to complete. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3274
-- Indexes were added for `ci_runners.token` (https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3249) and `git_hooks.project_id` (https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/271)
-- performance of viewing individual issues will be improved by caching certain Git operations
+- Project avatars stored in Git repositories are now cached, cutting down request timings for _all_ project pages for projects that don't use an avatar uploaded via the web UI. [See the merge request](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3272)
+- Diffs that are larger than 100 KB are no longer displayed, instead a "This diff is too large" message is displayed. This prevents Unicorn timeouts when viewing large diffs. [Merge request](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3185)
+- The branch commit ahead/behind statistics are no longer pre-cached on every push. For projects with lots of branches (e.g. thousands) this can have a huge impact on the time it takes for the pre-caching process to complete. [Merge request](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3274)
+- Indexes were added for `ci_runners.token` (https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3249) and `git_hooks.project_id` [Merge request](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/271)
+- Performance of viewing individual issues is improved by caching certain Git operations
 - We enabled HTTP caching for requests that fetch the raw contents on a single
 file in a Git repository. Cache times range from 1 minute (for 'mutable'
 resources like `https://gitlab.com/gitlab-org/gitlab-ce/raw/master/VERSION`
