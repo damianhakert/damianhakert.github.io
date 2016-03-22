@@ -275,22 +275,18 @@ the ticket that was created for your reply.
 
 ### Twitter <a name="twitter"></a>
 
-From a support perspective the Service Engineers should only answer questions coming to
-[@GitLabSupport](https://twitter.com/GitLabSupport) or [@GitLabStatus](https://twitter.com/GitLabStatus) directly.
-Tweets with a mention of these accounts **anywhere** in the tweet will create a ticket in ZenDesk and they will
-show up under the `Social` view.
+Tweets that mention [@GitLab](https://twitter.com/GitLab), [@GitLabSupport](https://twitter.com/GitLabSupport),
+or [@GitLabStatus](https://twitter.com/GitLabStatus), will create a ticket in ZenDesk, 
+and show up in the "Twitter and Facebook" view. Responses to these tweets should 
+always come from within ZenDesk and not from TweetDeck, to avoid duplication of tickets 
+or responses, and to be able to track our response times vs. our internal [SLA](#sla). 
+Our Developer Advocates also have access to tweets through ZenDesk, and often 
+participate in responding to questions.
 
-We know that many users will still mention our main [@gitlab](https://twitter.com/gitlab) account when they
-want to ask a technical question or have a problem. For those cases our marketing team, who are in charge of
-the main account, will hand over the question to @GitLabSupport for us to answer and to keep the conversation
-within ZenDesk.
+The @GitLabStatus account should only be used to give updates on the availability 
+of GitLab.com and to follow up on users reporting that GitLab.com is unavailable.
 
-The main account to use for support related questions is @GitLabSupport. When responding to
-tweets that are forwarded by @gitlab, the response from Twitter will always start with @gitlab as well but
-you must make sure to **@ mention the user** who tweeted their question to @gitlab in the first place.
-
-The @GitLabStatus account should only be used to
-give updates on the availability of GitLab.com and to follow up on users reporting that GitLab.com is unavailable.
+When a tweet mentions 1 or more of the handles described above should be replied from the main handle (@GitLab).
 
 ### Facebook<a name="facebook"></a>
 
