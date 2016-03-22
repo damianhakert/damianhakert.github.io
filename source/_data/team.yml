@@ -705,14 +705,14 @@
   story:  |
           Joining March 14th
 
-- name: J.B.
+- name: Joost Bloom
   role: <a href="https://about.gitlab.com/jobs/strategic-relations-manager/">Strategic Relations Manager</a>
   reports_to: CEO
-  picture: logo-extra-whitespace.png
+  picture: joost.jpeg
   twitter:
-  gitlab:
+  gitlab: joost
   story:  |
-          Joining March 15th
+          Joost previously established partnerships between technology organizations in Canada and The Netherlands. He started developing software commercially while working on his Master in Physics. After that he worked on signal processing software, clean-tech and water treatment technologies, but now he is excited to be back again to his roots in software development. He currently lives with his wife in Lafayette, California and when he is not working or traveling he likes to go cycling or play squash. If there’s some time left after this, he still likes to build software in Swift.
           
 - name: F.C.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
