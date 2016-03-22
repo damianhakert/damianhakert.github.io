@@ -391,3 +391,16 @@ No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 
 - - -
+
+## Join our webcast about 8.6!
+
+In our next webcast on Thursday, March 24th, we'll take a look at the new features in GitLab 8.6.
+Our special guest is Douwe Maan, Development Lead here at GitLab.
+
+- Date: Thursday, March 24, 2016
+- Time: 5pm (17:00) UTC; 12pm EST; 9am PST
+- [Register here][webcast]
+
+Can't make it? Register anyway, and we'll send you a link to watch later.
+
+[webcast]: http://page.gitlab.com/mar242016-release-webcast.html
