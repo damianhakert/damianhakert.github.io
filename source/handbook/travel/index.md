@@ -2,20 +2,33 @@
 layout: markdown_page
 title: "Travel"
 ---
-
-## Booking Travel
-
+## Arranging your company travel
 The company will cover all work related travel costs.
-A few important things to note:
-
-1. Whenever it is possible, please book your own travel, using a company credit card if 
-you have one, or submitting the receipt to ap@gitlab.com for reimbursement if you 
-do not have a company credit card. If using a credit card is not an option at all, 
-please send a message to travel@gitlab.com to get help in booking your travel.
+1. Understand that the guidelines of [Spending Company Money](https://about.gitlab.com/handbook/#spending-company-money) still apply
 1. The company can accommodate your custom request. It is OK to stay longer on 
 your trip. However, the extra days will not be covered by the company.
 
-## Expenses While Travelling
+* [Setting up your Egencia account](#setup-egencia)
+* [Booking Travel through Egencia](#egencia)
+ * within that part
+* [Expenses while travelling](#expenses-while-travelling)
+
+
+## Setting up your Egencia account <a name="setup-egencia"></a>
+Below is some more information to help you get set up with your Egencia account.
+1. You will receive an email from Egencia with your username.
+1. With the link, from step one in this email, you can set a password with link. 
+Make sure it is set up using the handbook guidelines for safe passwords
+1. Once you are in your dashboard, you can setup preferences in your travel profile. You can enter your profile in the top right corner
+1. Now let's start booking!
+
+## Booking Travel through [Egencia](https://www.egencia.com/auth/v1/login) <a name="egencia"></a>
+
+If you book through Egencia, the costs will be added to the GitLab invoice and **no credit card is needed**.
+
+1. Please send a message to travel@gitlab.com to get help in booking your travel.
+
+## Expenses While Travelling <a name="expenses-while-travelling"></a>
 
 1. The company will pay for lodging and meals during the part of the trip
 that is work related. Depending on the distance of your travel, this can include
@@ -37,5 +50,3 @@ Expensify steps can be found http://help.expensify.com/getting-started/
 
 See the section on [Spending Company Money](https://about.gitlab.com/handbook/#spending-company-money)
 on the handbook for more details on the expense policies.
-
-
