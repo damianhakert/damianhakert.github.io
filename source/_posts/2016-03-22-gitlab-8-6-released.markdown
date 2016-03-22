@@ -70,6 +70,10 @@ deploy:
 
 2. Set the environment variables to what makes sense. [See the documentation of the environment variables](https://github.com/ethernetdan/spread/blob/gitlab-ci/images/gitlabci/README.md).
 
+_Note: to use Spread with GitLab CI Variables, you will need GitLab Runner 1.1,
+which be released as stable the 24th of this month. Right now you can make use
+of the [Bleeding Edge releases for Runner](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/bleeding-edge.md)_
+
 ## Subscribe to a Label
 
 If you don't want to miss issues that are important to you, simply
@@ -181,6 +185,7 @@ The group level visibility solves
 [Mattermost 2.1](http://www.mattermost.org/mattermost-2-1-android-windows-linux-and-mac-apps-plus-portuguese/)
 ships in GitLab 8.6 with new Android, Windows, Linux and Mac apps with full
 GitLab SSO support, plus Brazilian Portuguese translation and more.
+
 Mattermost 2.1 contains a [security update](http://docs.mattermost.com/administration/changelog.html#security-update)
 and earlier deployments should [upgrade to this version](http://doc.gitlab.com/omnibus/gitlab-mattermost/).
 
@@ -203,7 +208,7 @@ We still want you to know about them, so here are some of them, in short:
 - [GitLab Geo](http://doc.gitlab.com/ee/gitlab-geo/README.html) now syncs even
 more things! We urge you to upgrade to 8.6 if you're interested in Geo
 
-## Performance improvements
+### Performance improvements
 
 When [we said][making-faster-blog] that [making GitLab faster][8-5-release]
 was a priority, we weren't kidding.
