@@ -17,6 +17,7 @@ Go to the [Marketing Handbook](/handbook/marketing)
 * [Inbound Leads](#inbound)
 * [New license flow](#licenseFlow)
 * [Marketo Tools Server](#marketoTools)
+* [Sales and Community Group Emails](#groupEmail) 
 
 ## References<a name="references"></a>
 
@@ -133,3 +134,11 @@ Current state
 - URL: http://marketo-tools.gitlap.com/ (can't access via browser)
 - [Software running on it](https://gitlab.com/gitlab-com/marketo-tools/)
 - [Readme of the cookbook for deployment](https://gitlab.com/gitlab-com/cookbook-marketo-tools/blob/master/README.md)
+
+## Sales and Community Group Emails<a name="groupEmail"></a>
+
+- Always CC or BCC the group email list (sales@gitlab.com or community@gitlab.com) so others on the list know it's been handled.
+- If a request is a new lead with questions about EE, pricing, etc., handle directly.
+- If an email is a quote, forward to appropriate sales people.
+- If an email is a refund or other billing request, forward to ar@gitlab.com.
+- If an email is a license issue or question, forward to support@gitlab.com.
