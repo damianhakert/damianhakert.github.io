@@ -687,14 +687,14 @@
   story:  |
           Amanda began her career as a technical writer and consultant. She went to her first conference in 2011, which is when she decided that she wanted to take a more active role in community building. The rest was history. When she's not on the road, you'll find her nose-deep in a book or wrangling code for some obscure project or another.
 
-- name: R.C
+- name: Ryan Caplin
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
   reports_to: Senior Demand Generation Manager
-  picture: logo-extra-whitespace.png
+  picture: ryan.jpg
   twitter:
-  gitlab:
+  gitlab: rycap
   story:  |
-          Joining March 9th
+          Before coming to GitLab, Ryan could occasionally be spotted in the driver’s seat of a recycling truck as co-founder of a Utah-based recycling startup. His cleaner roles have been in marketing and strategy within a variety of tech and non-tech companies, mostly startups. He delights in deeply understanding the customer experience and putting himself in the customer’s shoes. When the work’s done and the sun’s still out, Ryan is likely to be found shredding the trails on his mountain bike, shooting hoops, or pondering the complexities and intricacies of waste management.
 
 - name: E.A.
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
