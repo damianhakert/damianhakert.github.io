@@ -32,6 +32,7 @@ title: Support
    - [GitLab Forum](#gitlab-forum)
    - [Stack Overflow](#stack-overflow)
    - [Reddit](#reddit)
+   - [Quora](#quora)
 - [Non Channel Work](#other)
 
 ## Support Direction <a name="support-direction"></a>
@@ -337,6 +338,10 @@ flow into ZenDesk, but can only be responded to from within Stack Overflow.
 ### Reddit<a name="reddit"></a>
 
 Respond to mentions of GitLab on Reddit, especially ones in the [GitLab Reddit](https://www.reddit.com/r/gitlab/).
+
+### Quora<a name="quora"></a>
+
+Respond to questions about GitLab on Quora, especially the ones that appear in the [GitLab Topic channel](https://www.quora.com/topic/GitLab/).
 
 ## Non channel work<a name="other"></a>
 
