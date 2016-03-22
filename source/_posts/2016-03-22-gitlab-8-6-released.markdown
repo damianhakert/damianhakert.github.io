@@ -168,7 +168,7 @@ but now also add the commit message in a comment in the JIRA issue.
 We know many people are using JIRA and we're looking forward to more feedback
 on how we can improve GitLab's integration with JIRA.
 
-> [Read about GitLab's JIRA integration](http://doc.gitlab.com/ee/project_services/jira.html)
+> [Read about GitLab's JIRA integration](http://doc.gitlab.com/ce/project_services/jira.html)
 
 ## Group Visibility Level
 
