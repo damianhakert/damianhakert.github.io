@@ -273,6 +273,15 @@ This release has more improvements, including security fixes. Please check out [
 
 This release includes migrations that require downtime.
 
+Especially for very large instances running PostgreSQL, this upgrade can
+take some time. In our instance (with almost a million projects), the PostgreSQL
+migrations took more than half an hour, which caused a TCP connection to be dropped.
+Connecting using a Unix socket or using TCP keepalive should prevent this.
+[This is what we did](https://gitlab.com/gitlab-com/operations/issues/135#note_4303804).
+
+Smaller instances or those running MySQL should have no such issues, but still
+require some downtime for migrations.
+
 ### Elasticsearch Requirements
 
 We have added a requirement for the Elasticsearch integration with GitLab 8.6.
@@ -280,7 +289,6 @@ You now need to have the [Delete By Query Plugin](https://www.elastic.co/guide/e
 installed, in addition to Elasticsearch 2.0+.
 
 > [Read about the Elasticsearch integration in our documentation](http://doc.gitlab.com/ee/integration/elasticsearch.html)
-
 
 ### Changes for Source installations with PostgreSQL
 
