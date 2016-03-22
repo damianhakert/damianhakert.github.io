@@ -43,7 +43,7 @@ We want to make easy to deploy straight from GitLab CI in one step,
 without any custom scripts.
 
 Redspread is a company in the current Y Combinator batch (Winter 2016).
-THey noticed an incredible increase in Kubernetes usage among early stage
+They noticed an incredible increase in Kubernetes usage among early stage
 startups. Many startups in this YC batch and recent alumni are evaluating
 or already using Kubernetes in production.
 
@@ -71,8 +71,8 @@ deploy:
 2. Set the environment variables to what makes sense. [See the documentation of the environment variables](https://github.com/ethernetdan/spread/blob/gitlab-ci/images/gitlabci/README.md).
 
 _Note: to use Spread with GitLab CI Variables, you will need GitLab Runner 1.1,
-which be released as stable the 24th of this month. Right now you can make use
-of the [Bleeding Edge releases for Runner](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/bleeding-edge.md)_
+which will be released as stable the 24th of this month. Right now you can make use
+of the [Bleeding Edge releases for Runner](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/bleeding-edge.md)_.
 
 ## Subscribe to a Label
 
@@ -103,23 +103,25 @@ to rely on external applications.
 
 ## External Users
 
-Internal projects allow you to practice [innersourcing][innersourcing],
+Internal projects allow you to practice [innersourcing],
 sharing projects internally as if they're open source, but protecting them
 as if they are private.
 
-This is something we see more and more organisations adapt, but especially
+This is something we see more and more organisations adopt, but especially
 larger organisations often have external parties working together with them.
 These people also need access to GitLab, but not necessarily to everything,
 not to the internal projects.
 
 To prevent certain users from accessing internal projects, you can now mark
-them as _External_. It's a simply check in the users' page that can be set
-by any admininstrator.
+them as _External_. It's a simple check in the users' page that can be set
+by any administrator.
 
 In a future release, we'll be adding the ability to have this set automatically
 based on LDAP membership.
 
 > [Read about external users in our documentation](http://doc.gitlab.com/ce/permissions/permissions.html#external-users)
+
+[innersourcing]: https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/
 
 ## Better Dropdowns
 
@@ -194,19 +196,18 @@ and earlier deployments should [upgrade to this version](http://doc.gitlab.com/o
 This release has been so full, we didn't have the space to highlight all!
 We still want you to know about them, so here are some of them, in short:
 
-- New keyboard shortcut: You can now press `e` to edit any issue / MR
-- YAML frontmatter is now rendered nicely in markdown files
-- No more default password! Set your password on first sign in. [Read more in the docs](http://doc.gitlab.com/ce/install/installation.html#initial-login)
-- We now show test coverage in the builds view
+- New keyboard shortcut: You can now press `e` to edit any issue / MR.
+- YAML frontmatter is now rendered nicely in markdown files.
+- No more default password! Set your password on first sign in. [Read more in the docs](http://doc.gitlab.com/ce/install/installation.html#initial-login).
+- We now show test coverage in the builds view.
 - Support for Golang subpackage fetching, straight from GitLab.
-- You now also get build updates via web notifications. Ping!
 - Issues and Merge Requests now look better on mobile. Finally!
-- Quickly create a new branch from an issue, with a dedicated button
-- [SAML customization](http://doc.gitlab.com/ee/integration/saml.html#customization)
+- Quickly create a new branch from an issue, with a dedicated button.
+- [SAML customization](http://doc.gitlab.com/ee/integration/saml.html#customization).
 - Easily (un)mark merge requests as WIP using a link. No more editing necessary!
 - Better table of contents in Wikis!
 - [GitLab Geo](http://doc.gitlab.com/ee/gitlab-geo/README.html) now syncs even
-more things! We urge you to upgrade to 8.6 if you're interested in Geo
+more things! We urge you to upgrade to 8.6 if you're interested in Geo.
 
 ### Performance improvements
 
@@ -218,37 +219,46 @@ Here is some of the work we've done to make GitLab 8.6 faster:
 [8-5-release]: https://about.gitlab.com/2016/02/22/gitlab-8-5-released/
 
 - Search performance has been greatly improved for users using PostgreSQL
- _without_ using ElasticSearch. This requires the `pg_trgm` extension (see
-barometer).
-- Performance of listing commits has been improved
+  _without_ using ElasticSearch. This requires the `pg_trgm` extension (see
+  barometer).
+- Performance of listing commits has been improved.
 - Counting of tags and branches on the commits/branches/tags pages is now a bit
-faster and is cached
-- Performance of retrieving CI services of a project has been improved
-- Large diffs are hidden in merge requests
-- Project avatars stored in Git repositories are now cached, cutting down request timings for _all_ project pages for projects that don't use an avatar uploaded via the web UI. [See the merge request](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3272)
-- Diffs that are larger than 100 KB are no longer displayed, instead a "This diff is too large" message is displayed. This prevents Unicorn timeouts when viewing large diffs. [Merge request](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3185)
-- The branch commit ahead/behind statistics are no longer pre-cached on every push. For projects with lots of branches (e.g. thousands) this can have a huge impact on the time it takes for the pre-caching process to complete. [Merge request](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3274)
-- Indexes were added for `ci_runners.token` (https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3249) and `git_hooks.project_id` [Merge request](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/271)
-- Performance of viewing individual issues is improved by caching certain Git operations
+  faster and is cached.
+- Performance of retrieving CI services of a project has been improved.
+- Project avatars stored in Git repositories are now cached, cutting down request.
+  timings for _all_ project pages for projects that don't use an avatar uploaded
+  via the web UI. ([!3272](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3272))
+- Diffs that are larger than 100 KB are no longer displayed, instead a "This
+  diff is too large" message is displayed. This prevents Unicorn timeouts when
+  viewing large diffs. ([!3185](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3185))
+- The branch commit ahead/behind statistics are no longer pre-cached on every
+  push. For projects with lots of branches (e.g. thousands) this can have a huge
+  impact on the time it takes for the pre-caching process to complete.
+  ([!3274](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3274))
+- Indexes were added for `ci_runners.token`
+  ([!3249](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3249)) and
+  `git_hooks.project_id`. ([!271](https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/271))
+- Performance of viewing individual issues is improved by caching certain Git operations.
 - We enabled HTTP caching for requests that fetch the raw contents on a single
-file in a Git repository. Cache times range from 1 minute (for 'mutable'
-resources like `https://gitlab.com/gitlab-org/gitlab-ce/raw/master/VERSION`
-which use a branch name) to 1 hour (for immutable resources like
-`https://gitlab.com/gitlab-org/gitlab-ce/raw/17de30f412b5eddaa080006b6dd2
-aae2bd2d5647/VERSION` that use a commit SHA). In addition to this we
-configured NGINX in the Omnibus packages to use up to 1 GB of disk space for
-proxy caching. These two changes combined reduce the load on GitLab servers
-that get many requests of HTTP clients polling a single file in a public repo.
+  file in a Git repository. Cache times range from 1 minute (for 'mutable'
+  resources like `https://gitlab.com/gitlab-org/gitlab-ce/raw/master/VERSION`
+  which use a branch name) to 1 hour (for immutable resources like
+  `https://gitlab.com/gitlab-org/gitlab-ce/raw/17de30f412b5eddaa080006b6dd2aae2bd2d5647/VERSION`
+  that use a commit SHA). In addition to this we configured NGINX in the Omnibus
+  packages to use up to 1 GB of disk space for proxy caching. These two changes
+  combined reduce the load on GitLab servers that get many requests of HTTP
+  clients polling a single file in a public repo.
 - In GitLab 8.4 we added a 'housekeeping button' to the project settings page.
-This button triggers a [git gc](https://www.kernel.org/pub/software/scm/git/docs/git-gc.html) run on the
-project. In GitLab 8.6 we have automated this button: every 10 pushes, but no
-more than once per hour, GitLab will run `git gc` on repositories. This should
-(slightly) improve Git disk use and performance.
-- We split LDAPSyncworker and LDAPGroupSync worker. Performance will be greatly improved for large installations. LDAPSyncworker runs once per hour. In our
-benchmark runs, for 20,000 users and 10,000 groups, the sync takes 15 minutes.
-This is in contrast to hours or, in extreme cases, 1-2 days for the old
-LDAPSyncWorker (which synced groups, too).
-
+  This button triggers a
+  [git gc](https://www.kernel.org/pub/software/scm/git/docs/git-gc.html) run on
+  the project. In GitLab 8.6 we have automated this button: every 10 pushes, but
+  no more than once per hour, GitLab will run `git gc` on repositories. This
+  should (slightly) improve Git disk use and performance.
+- We split `LDAPSyncworker` and `LDAPGroupSync` worker. Performance will be
+  greatly improved for large installations. LDAPSyncworker runs once per hour.
+  In our benchmark runs, for 20,000 users and 10,000 groups, the sync takes 15
+  minutes. This is in contrast to hours or, in extreme cases, 1-2 days for the
+  old `LDAPSyncWorker` (which synced groups, too).
 
 ### Updates in the omnibus-gitlab package
 
@@ -357,11 +367,11 @@ finished successfully (so Rails doesn't end up trying to run it again).
 ### Deprecation of download_url in Builds API
 
 We removed `download_url` from the [Builds API](http://doc.gitlab.com/ce/api/builds.html).
-Instead we provide [an API for downloading artifacts of builds](http://doc.gitlab.com/ce/api/builds.html#get-build-artifacts.)
+Instead we provide [an API for downloading artifacts of builds](http://doc.gitlab.com/ce/api/builds.html#get-build-artifacts).
 
 ---
 
-*Note* We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
+*Note*: We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
 If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
