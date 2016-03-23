@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "GitLab Webcasts"
+title: "Content Marketing - GitLab Webcasts"
 ---
 
 ## What is the webcast program at GitLab?
@@ -8,21 +8,22 @@ title: "GitLab Webcasts"
 -   The webcast program consists of regular online events for GitLab users and community members.
 -   The webcasts are recorded and distributed to GitLab users, and can be referred to in the Resource Library as part of GitLab University
 
-Jump: [How to Schedule a webcast](#schedule)
+- [How to Schedule a webcast](#schedule)
+- [Technical requirements to view a webcast](#view)
+
 
 ## Monthly Program
 
-
 This program is in development. For the first month, January, we'll start with one webcast, then add another and build up to the full schedule.
 
-### GitLab 101 - 20 mins
+### Welcome to GitLab - 20 mins (coming soon!)
 
 -   Live demo run.
 -   Similar base demo script each month.
     -   How to use GitLab - essential demo.
     -   This month’s Q+A (commonly asked questions, recent questions from twitter)
     -   GitLab’s products and services.
-    -   How to find stuff in the GitLab; getting help, direction, participantion.
+    -   How to find stuff in the GitLab; getting help, direction, participation.
     -   Community welcome mat: How to meet other GitLab users what events we’ll be at, how about you?
 -   Aimed at developers or decision makers who have signed up in the last 30 days, inviting them into the community.
 
@@ -36,7 +37,7 @@ This program is in development. For the first month, January, we'll start with o
 -   New contributors welcomed.
 -   Q+A from audience.
 
-### GitLab - Expert to expert - 40 mins - 1 hour
+### GitLab Tutorials - 40 mins - 1 hour
 
 -   Live presentation, demo or discussion on monthly in-depth learning theme.
 -   Preceded by 3 weeks of blog posts, screencasts, tutorial and an invitation which leads to the online event.
@@ -102,3 +103,4 @@ Check the smart list and flow first. To activate: Click the "registered" smart c
 
 - [Citrix Online system requirements](https://support.citrixonline.com/webinar/all_files/G2W010003)
 - Using GoToWebinar Instant Join, Linux/Unbuntu users can view in a web browser.
+- Linux users should use Chromium to view the browser.
