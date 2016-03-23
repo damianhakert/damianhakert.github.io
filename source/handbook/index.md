@@ -59,11 +59,12 @@ collaboration, directness, kindness, diversity, quirkiness, boring solutions, an
 made happy, and the team member you helped. Do not compete by proclaiming how many
 hours you worked yesterday because we don't want someone who took the afternoon
 off to feel like they did something wrong. Instead celebrate the achievements of
-yourself and your teammates.
+yourself and your teammates. We want people to have the desire to ship.
 1. Transparency: Be open about as many things as possible. By making information
 public we can reduce the threshold to contribution and make collaboration easier.
 An example is the [public repository of this website](https://gitlab.com/gitlab-com/www-gitlab-com/)
 that also contains our [company handbook](https://about.gitlab.com/handbook/).
+On a personal level you should tell it like it is instead of putting up a pokerface. Don't be afraid to admin you made a mistake or where wrong.
 1. Sharing: We care about giving great software, documentation, examples, lessons,
 and processes to the world. An example is the MIT licensed [GitLab CE](https://about.gitlab.com/features/).
 1. Freedom: You should have clear objectives and the freedom to work on them as you
@@ -72,6 +73,7 @@ spend your day.
 1. Efficiency: We care about working on the right things, not doing more than needed,
 and not duplicating work. This enables us to achieve more progress with less people
 and makes our work more fulfilling.
+Think how we can make the company better instead of being territorial or defensive.
 1. Frugality: [Amazon states it best](http://www.amazon.jobs/principles) with:
 "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency
 and invention. There are no extra points for growing headcount, budget size or
