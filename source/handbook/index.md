@@ -243,7 +243,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
     In the same milestone the priority starting from urgent is:
     1. **Emergency** issues (a service engineer will probably contact you via chat)
     1. [**Security**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.7&label_name=security) issues
-    1. [**Data integrity**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.7&label_name=data-integrity) issues (preventing data loss)
+    1. [**Data integrity**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.7&label_name=data+integrity) issues (preventing data loss)
     1. [**Regression**](https://gitlab.com/groups/gitlab-org/issues?label_name=regression) issues (used to work in a previous release)
     1. [**Promised**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.7&label_name=promised) issues (promised to a customer)
     1. Other [**customer**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.7&label_name=customer) issues
