@@ -74,25 +74,54 @@ Team members can keep their information in BambooHR updated using self-service:
 1. Keep your credentials stored in your 1Password Vault and keep the info in BambooHR updated (e.g. change address when moving)
 
 ## Managing the PeopleOps onboarding tasks <a name="manage-onboarding-tasks"></a>
+
 Here are some useful guidelines to set up everything for our new team members with the onboarding issue
 
 - **Add team member to availability calendar**
-Make a new "all-day" event on the day the new team member starts "[Name] joining as [Job title]". Make sure to select the calendar as GitLab Availability and not your own.
+Make a new "all-day" event on the day the new team member starts "[Name] joining 
+as [Job title]". Make sure to select the calendar as GitLab Availability and not your own.
 - **Give team member access to the GitLab availability calendar**
-Go to your calendar window, under my calendars move your cursor over the calendar and click the dropdown triangle. Select calendar settings and go to "Share this calendar" in the top of the window. Enter the GitLab email address and scroll down to set the permission setting to "make changes to events" Then save in the lower left corner.
+Go to your calendar window, under my calendars move your cursor over the calendar 
+and click the dropdown triangle. Select calendar settings and go to "Share this 
+calendar" in the top of the window. Enter the GitLab email address and scroll 
+down to set the permission setting to "make changes to events" Then save in the 
+lower left corner.
 - **Add blank entry to team page**
-Login to [Gitlab.com](www.gitlab.com) and go to the www-gitlab-com project. In the left menu click "Files" and select the folder called "source". Continue by clicking the folder "data" and select the file called team.yml. In the top right corner you can click "edit" to make edits to the code. Scroll all the way down and copy-paste the code of the previous blank entry to the team page. Edit the fields to the right info of the new hire and find the right job description on the [Jobs](https://about.gitlab.com/jobs/) page.
-_**Note** This can be tricky, so if you run into trouble reach out to some of your awesome colleagues in the #questions (channel) on Slack_
+Login to [Gitlab.com](www.gitlab.com) and go to the www-gitlab-com project. In 
+the left menu click "Files" and select the folder called "source". Continue by 
+clicking the folder "data" and select the file called team.yml. In the top right 
+corner you can click "edit" to make edits to the code. Scroll all the way down 
+and copy-paste the code of the previous blank entry to the team page. Edit the 
+fields to the right info of the new hire and find the right job description on 
+the [Jobs](https://about.gitlab.com/jobs/) page.
+_**Note** This can be tricky, so if you run into trouble reach out to some of 
+your awesome colleagues in the #questions (channel) on Slack_
 - **Add entry to Team Call agenda**
-Open the [Team Agenda](https://docs.google.com/a/gitlab.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit?usp=sharing) and on the starting day add an Agenda item: "[Hiring manager name]: Welcome [name new team member] joining as [job title]" as the first item on the agenda
+Open the Team Agenda google doc, and on the starting day add an Agenda item: 
+"[Hiring manager name]: Welcome [name new team member] joining as [job title]" 
+as the first item on the agenda
 - **Invite to team meeting and GitLab 101 meeting**
-Go to the team call meeting on the starting date of the team member and the next scheduled GitLab 101 in the Availability calendar. Click on "edit event" to open. On the right enter the team member's GitLab email address in the  "add guests" section and click save. When asked select "all events" to add to all scheduled meetings and "send" out the invitation. 
+Go to the team call meeting on the starting date of the team member and the next 
+scheduled GitLab 101 in the Availability calendar. Click on "edit event" to open. 
+On the right enter the team member's GitLab email address in the  "add guests" 
+section and click save. When asked select "all events" to add to all scheduled 
+meetings and "send" out the invitation. 
 - **Order business cards**
-Add the new team member's info to the [Business Cards](https://docs.google.com/a/gitlab.com/document/d/1F1G936gdkMsPLPgbOT7ekM1E0Ht0YxyeSisB8mB1HPM/edit?usp=sharing) document. Email our partner to order new business cards and add the info for the cards to be ordered. Include the address of the team member (found in BambooHR) and inform our partner to _**ship the cards directly to that address**_. Double check the info that is sent with the preview before approving the print.
+Add the new team member's info to the [Business Cards](https://docs.google.com/a/gitlab.com/document/d/1F1G936gdkMsPLPgbOT7ekM1E0Ht0YxyeSisB8mB1HPM/edit?usp=sharing) document. 
+Email our partner to order new business cards and add the info for the cards to 
+be ordered. Include the address of the team member (found in BambooHR) and inform 
+our partner to _**ship the cards directly to that address**_. Double check the 
+info that is sent with the preview before approving the print.
 - **Add team member to Expensify (only with employees)**
-Login for [Expensify](https://www.expensify.com/signin?funnel=homepage_2014Dec04&entryGUID=56f1e349144db) and go to "Admin" in the top menu. Select the right policy based upon the entity that employs the new team member. Select "People" in the left menu. Select "Invite" and add the GitLab email. Edit the message to be sent for the employee. Click "invite"
+Login to [Expensify](https://www.expensify.com/signin) and go to "Admin" in the 
+top menu. Select the right policy based upon the entity that employs the new team 
+member. Select "People" in the left menu. Select "Invite" and add the GitLab email. 
+Edit the message to be sent for the employee. Click "invite".
 - **Add team member to Beamy**
-Login in to access the settings for the [Beam](https://suitabletech.com/accounts/login/) In the top menu move your cursor over the blue login button. Go to "Manage your beams". Click on "manage" in the lower left corner. Enter the GitLab email and scroll down to find the newly addedd email. Check the box for "Auto connect".
+Login in to access the settings for the [Beam](https://suitabletech.com/accounts/login/). 
+In the top menu move your cursor over the blue login button. Go to "Manage your beams". 
+Click on "manage" in the lower left corner. Enter the GitLab email and scroll down 
+to find the newly addedd email. Check the box for "Auto connect".
 - **Add team member into the Austin info sheets**
 Add the team member's name to the [Travel](https://docs.google.com/spreadsheets/d/14I0m6crQBMZD6GVbl-vNceR9h6a3PP7-NEpZED1nSKY/edit#gid=0) and [Lodging](https://docs.google.com/spreadsheets/d/1XhCG_JhbLvck4WQNvJfn0X3SFhkvTwFr3PCrbTcPnHM/edit#gid=398389470) sheets to make sure they enter flight details and they are assigned a room.
 - **Add team member to our Egencia platform**
