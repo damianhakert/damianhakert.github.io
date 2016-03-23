@@ -696,14 +696,17 @@
   story:  |
           Joining March 9th
 
-- name: E.A.
+- name: Eniola Arinde
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: eniolaarinde.jpg
+  twitter: elvongray
+  gitlab: elvongray
   story:  |
-          Joining March 14th
+          Eniola's passion for problem solving and building led him to software development.
+          He previously worked as a full-stack developer but later realized he has an affinity
+          for the front-end, this was driven by his love for JavaScript.
+          He enjoys learning new technologies, music (especially EDM), and sometimes philosophy.
 
 - name: J.B.
   role: <a href="https://about.gitlab.com/jobs/strategic-relations-manager/">Strategic Relations Manager</a>
