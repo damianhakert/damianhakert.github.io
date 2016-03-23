@@ -19,20 +19,21 @@ your trip. However, the extra days will not be covered by the company.
 
 ### Setting up your Egencia account<a name="setup-egencia"></a>
 
-Below is some more information to help you get set up with your [Egencia](https://www.egencia.com/auth/v1/login) account.  
+Below is some more information to help you get set up with your [Egencia](https://www.egencia.com) account.  
 
 1. You will receive an email from Egencia with your username.
 1. With the link, from step one in this email, you can set a password with link.
 1. Once you are in your dashboard, you can setup preferences in your travel profile. 
-You can enter your profile in the top right corner
+You can enter your profile in the top right corner. Make sure to add your phone number.
+1. When you add your passport info to your profile this will populate your info directly when booking a flight.
 1. Now let's start booking!
 
-### Booking travel through [Egencia](https://www.egencia.com/auth/v1/login) <a name="egencia"></a>
+### Booking travel through [Egencia](https://www.egencia.com) <a name="egencia"></a>
 
 If you book through Egencia, the costs will be added to the GitLab invoice and **no credit card is needed**.
 
 1. Login to your account. If you've not yet set up your account, do this first.
-1. The dashboard gives you directly the option to start booking. The flight option 
+1. The dashboard gives you directly the option to start booking. The flight option
 is displayed,other options are booking a train ticket, hotel or car
 1. Input info for the flight you want to book.
 1. Select your favorite option for the outbound flight. Please note that our policy 
@@ -53,6 +54,7 @@ such as another flight, a hotel reservation or booking a car.
 #### Continue adding a hotel or car
 
 Under "add more items to this trip" you can select what you want to add.
+
 1. The platform auto populates your info based on your flight.
 1. For adding a **hotel**:
   - You will get a window including a map with all hotel options.
