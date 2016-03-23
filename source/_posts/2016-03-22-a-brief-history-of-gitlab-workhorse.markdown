@@ -138,9 +138,10 @@ gitlab-workhorse, inspired by the mechanism Kamil intended to use in
 NGINX: `X-Sendfile` headers. Most of the time when you want to use
 gitlab-workhorse to make something faster or more robust in GitLab you
 have to write both Ruby code and Go code. But because [Ruby on Rails
-understands `X-Sendfile` already](http://api.rubyonrails.org/classes/ActionController/DataStreaming.html#method-i-send_file), GitLab developers can reap the
-benefits of gitlab-workhorse for file downloads without writing any Go
-code!
+understands `X-Sendfile`
+already](http://api.rubyonrails.org/classes/ActionController/DataStreaming.html#method-i-send_file),
+GitLab developers can reap the benefits of gitlab-workhorse for file
+downloads without writing any Go code!
 
 ## Betting the farm
 
