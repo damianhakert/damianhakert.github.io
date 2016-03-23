@@ -81,10 +81,12 @@ Make a new "all-day" event on the day the new team member starts "[Name] joining
 - **Give team member access to the GitLab availability calendar**
 Go to your calendar window, under my calendars move your cursor over the calendar and click the dropdown triangle. Select calendar settings and go to "Share this calendar" in the top of the window. Enter the GitLab email address and scroll down to set the permission setting to "make changes to events" Then save in the lower left corner.
 - **Add blank entry to team page**
+Login to [Gitlab.com](www.gitlab.com) and go to the www-gitlab-com project. In the left menu click "Files" and select the folder called "source". Continue by clicking the folder "data" and select the file called team.yml. In the top right corner you can click "edit" to make edits to the code. Scroll all the way down and copy-paste the code of the previous blank entry to the team page. Edit the fields to the right info of the new hire and find the right job description on the [Jobs](https://about.gitlab.com/jobs/) page.
+_**Note** This can be tricky, so if you run into trouble reach out to some of your awesome colleagues in the #questions (channel) on Slack_
 - **Add entry to Team Call agenda**
 Open the [Team Agenda](https://docs.google.com/a/gitlab.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit?usp=sharing) and on the starting day add an Agenda item: "[Hiring manager name]: Welcome [name new team member] joining as [job title]" as the first item on the agenda
 - **Invite to team meeting and GitLab 101 meeting**
-Go to the team call meeting on the starting date of the team member and the next scheduled GitLab 101 in the Availability calendar. Click on "edit event" to open. On the right enter the team member's GitLab email address in the  "add guests" section and click save. When asked select "all events" to add to all scheduled meetings and "send" out the invition. 
+Go to the team call meeting on the starting date of the team member and the next scheduled GitLab 101 in the Availability calendar. Click on "edit event" to open. On the right enter the team member's GitLab email address in the  "add guests" section and click save. When asked select "all events" to add to all scheduled meetings and "send" out the invitation. 
 - **Order business cards**
 Add the new team member's info to the [Business Cards](https://docs.google.com/a/gitlab.com/document/d/1F1G936gdkMsPLPgbOT7ekM1E0Ht0YxyeSisB8mB1HPM/edit?usp=sharing) document. Email our partner to order new business cards and add the info for the cards to be ordered. Include the address of the team member (found in BambooHR) and inform our partner to _**ship the cards directly to that address**_. Double check the info that is sent with the preview before approving the print.
 - **Add team member to Expensify (only with employees)**
@@ -100,9 +102,9 @@ Add the team member's name to the [Travel](https://docs.google.com/spreadsheets/
 ### 401k<a name="401k"></a>
 
 1. You are eligible to participate in GitLab’s 401k as of the 1st of the month after your hire date.  
-1. You will receive a notification on your homepage in Trinet Passport once eligible,
+1. You will receive a notification on your homepage in TriNet Passport once eligible,
 if you follow the prompts it will take you to the Transamerica website https://www.ta-retirement.com/
-or skip logging in to Trinet Passport and go directly to https://www.ta-retirement.com/
+or skip logging in to TriNet Passport and go directly to https://www.ta-retirement.com/
 after the 1st of the month after your hire date.
 1. Once on the home page of https://www.ta-retirement.com/ go to "First Time User Register Here".  
 1. You will be prompted for the following information
