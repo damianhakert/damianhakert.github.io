@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "GitLab Webcasts"
+title: "Content Marketing - GitLab Webcasts"
 ---
 
 ## What is the webcast program at GitLab?

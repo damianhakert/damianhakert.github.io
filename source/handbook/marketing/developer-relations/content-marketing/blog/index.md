@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Developer Marketing - Blogging"
+title: "Content Marketing - Blogging"
 ---
 
 The [blog](/blog) is our main publishing outlet. We publish content multiple times a week.
