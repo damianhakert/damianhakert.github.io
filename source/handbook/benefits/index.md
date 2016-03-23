@@ -28,6 +28,12 @@ NOTE: Our contractor agreements and employment contracts are all on the [Contrac
            for example for a team member that works for GitLab 50% of the time,
            the lump sum would be $10,000.
 1. Our [paid time off policy](https://about.gitlab.com/handbook/#paid-time-off)
+1. Our Sick Leave Policy 
+    - Contributors begin to accrue sick hour from the first day of work. 
+    - Accrue .0346 per hour worked = 3.0 hours of sick leave accrued per semi-monthly pay-peroid; 
+      for a maximum accrual and carrier over of 72 hours per calendar year
+      * For details on San Francisco Sick Leave Ordinance http://sfgov.org/olse/sites/default/files/FileCenter/Documents/7401-69_PaidSickLeaveOrdinanceBlack1210v4.pdf
+      * For FAQ's between CA and SF Sick Leave Law http://sfgov.org/olse/sites/default/files/FileCenter/Documents/13606-FAQs%20on%20PSLO%20and%20CA%20PSL%2011_13_15%20Final3.pdf
 1. There are [incentives](https://about.gitlab.com/handbook/#incentives) available.
 
 ## Regular compensation <a name="regular-compensation"></a>
