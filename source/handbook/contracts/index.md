@@ -23,6 +23,7 @@ valid as such and do not replace personalized signed agreements.
 Assuming that the [hiring process](https://about.gitlab.com/handbook/hiring/) went smoothly, now it is time to prepare the applicable contracts.
 The following set of steps should suffice:
 
+1. The currency should normally be the local currency of the new team member unless they explicitly request USD/EUR because their local currency has a lot of inflation.
 1. Employee entity: employ though the GitLab entity where they are located (US => Inc., NL => B.V).
 1. Contractor entity: if the employee is in the US, GitLab Inc. is the contracting entity, in all other regions GitLab BV is the contracting entity.
 1. Download the right contract or offer letter template from the "In Process of Hiring" file on the Documents page of [BambooHR](https://gitlab.bamboohr.com)
