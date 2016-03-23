@@ -207,7 +207,7 @@ continuous delivery of software.
 The integrated exeprience doesn't mean we'll never
 do a marketplace, in fact this is the way [GitLab.com will be free
 forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever).
-But we believe that an [integrated set of tools provides a better user exprience that a modular approach](https://stratechery.com/2013/clayton-christensen-got-wrong/).
+But we believe that an [integrated set of tools provides a better user experience that a modular approach](https://stratechery.com/2013/clayton-christensen-got-wrong/).
 The open source nature of GitLab ensures that that we can combine great open source products and everyone can contribute to achieve the [complete feature set](https://about.gitlab.com/comparison/).
 We'll focus on making all the parts work well together to create a better user experience.
 
