@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A brief history of gitlab-workhorse"
-date: 2016-03-22
+date: 2016-04-06
 comments: true
 author: Jacob Vosmaer
 author_twitter: jacobvosmaer
@@ -14,9 +14,6 @@ HTTP requests to GitLab. In this blog post I will reflect on how we got
 here.
 
 <!-- more -->
-I will refer to individuals (not in the least, shamelessly, myself) more
-than I usually would because I think an impersonal 'we' would distort
-the story too much.
 
 ## Technical and personal motivations
 
@@ -53,9 +50,10 @@ So one weekend in July last year I found myself with an itch to build
 something in Go and a lack of imagination which led me to ask myself:
 could I rewrite
 [gitlab-grack](https://gitlab.com/gitlab-org/gitlab-grack), the GitLab
-component that responds to Git HTTP clients, in Go? For the record I
-think doing unpaid and unasked overtime (which is what this 'weekend
-project' really was) is stupid, but my actions contradict my words here.
+component that responds to Git HTTP clients, in Go? For the record I am
+not proud of having used my own (non-work) time to drive development of
+this project for the first few months, I think it sets a bad example for
+myself and others. But that is how it went.
 
 The result was a very short and mostly correct Go program called
 'gitlab-git-http-server' that suffered from none of the timeout issues
@@ -66,14 +64,17 @@ codebase were so minor that I could easily hide them behind a [feature
 flag](https://en.wikipedia.org/wiki/Feature_toggle). To top it off I
 announced gitlab-git-http-server to the team on a day the CTO was on
 vacation: the ultimate sneak attack. Just kidding, but I thought it was
-a funny coincidence about Dmitriy's vacation.
+a funny coincidence about [Dmitriy](http://twitter.com/dzaporozhets)'s
+vacation.
 
 The team somehow let me 'try gitlab-git-http-server out' (read: merge it
-into master) and so it got started. Less than a month later GitLab 7.14
-shipped with gitlab-git-http-server behind a feature flag, which allowed
-us to test it on GitLab.com for a month, and in GitLab 8.0 (released the
-month after 7.14) we officially inflicted it upon the rest of GitLab
-community.
+into master and deploy it on our staging server) and so it got started.
+Less than a month later GitLab 7.14 shipped with gitlab-git-http-server
+behind a feature flag. This allowed us to test it on GitLab.com for a
+month. Between our staging environment and GitLab.com we were able to
+catch the worst bugs. In GitLab 8.0 (released the month after 7.14)
+we made gitlab-git-http-server an official (and required!) component of
+GitLab.
 
 The acceptance of gitlab-git-http-server by the team was probably helped
 by a shared understanding that GitLab's Git-over-HTTP solution was just
@@ -119,22 +120,26 @@ Git-over-HTTP. We have Marin to thank for coming up with
 Unicorn.
 
 It was also a great development for gitlab-workhorse to be getting
-attention from Kamil because he is our resident Go expert. (For me,
-gitlab-workhorse was the first Go program I wrote beyond 'hello world'
-and some tutorials.) For a short while Marin and I were on the one hand
-trying to implement file uploads/downloads in gitlab-workhorse, while
-Kamil on the other hand was implementing the same thing for CI artifacts
-using NGINX plugins. Luckily we spotted the duplication of efforts
-before the code went out the door so we were able to implement this in
-gitlab-workhorse together for GitLab 8.2.
+attention from Kamil because he is our resident Go expert. This was very
+welcome: I felt confident enough that gitlab-workhorse functioned
+correctly, but I am not an experienced Go programmer. Having Kamil in
+the game helped us make gitlab-workhorse a better Go program.
+
+For a short while Marin and I were on the one hand trying to implement
+file uploads/downloads in gitlab-workhorse, while Kamil on the other
+hand was implementing the same thing for CI artifacts using NGINX
+plugins. Luckily we spotted the duplication of efforts before the code
+went out the door so we were able to implement this in gitlab-workhorse
+together for GitLab 8.2.
 
 We ended up with an especially nice solution for file downloads in
 gitlab-workhorse, inspired by the mechanism Kamil intended to use in
-NGINX: `X-Sendfile` headers. What is so nice about this is that Ruby on
-Rails natively supports this protocol, so every time somebody writes
-`send_file` in GitLab the Rails application to send a file on disk to an
-HTTP client, gitlab-workhorse automatically takes the work off of
-Unicorn's hands.
+NGINX: `X-Sendfile` headers. Most of the time when you want to use
+gitlab-workhorse to make something faster or more robust in GitLab you
+have to write both Ruby code and Go code. But because Ruby on Rails
+'understands' `X-Sendfile` already, GitLab developers can reap the
+benefits of gitlab-workhorse for file downloads without writing any Go
+code!
 
 ## Betting the farm
 
@@ -209,15 +214,15 @@ GitLab.
     |             |         |                     |        |            |
     +-------------+         +---------------------+        +------------+
 
-This change went out in GitLab 8.3; in little over four months
+This change went out in GitLab 8.3. In little over four months
 gitlab-workhorse went from being a little helper daemon on the side to a
 traffic cop that routes all HTTP requests going into GitLab.
 
-This work immediately paid off in GitLab 8.4 (when
+This work immediately paid off in GitLab 8.4 when
 [Grzegorz](https://gitlab.com/u/grzesiek) added the CI artifact browsing
-feature) and GitLab 8.5 (where we started serving 'raw' Git blobs via
-gitlab-workhorse). Neither of these changes forced end-users to update
-their NGINX configuration.
+feature and GitLab 8.5 where we started serving 'raw' Git blobs via
+gitlab-workhorse. Neither of these changes forced GitLab administrators
+to update their NGINX configuration.
 
 ## What to do next
 
@@ -233,7 +238,7 @@ authentication / authorization
 code](https://gitlab.com/gitlab-org/gitlab-ce/issues/14501). It would be
 nice to clean this up.
 
-Finally, it bothers me a little that we still buffer Git pushes in NGINX
+Finally, it is sub-optimal that we still buffer Git pushes in NGINX
 before forwarding them to gitlab-workhorse. We could avoid this
 unncessary delay and give people who use Apache instead of NGINX a
 better experience if we [implement selective request buffering in
