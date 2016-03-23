@@ -5,6 +5,7 @@ date: 2016-04-06
 comments: true
 author: Jacob Vosmaer
 author_twitter: jacobvosmaer
+image_title: /images/brief-history-of-gitlab-workhorse/gopher.jpg
 ---
 
 In the past 8 months gitlab-workhorse, a 'weekend project' written in Go
