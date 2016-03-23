@@ -242,12 +242,13 @@ out to any of the other C-level team members or our board member Bruce Armstrong
 
     In the same milestone the priority starting from urgent is:
     1. **Emergency** issues (a service engineer will probably contact you via chat)
-    1. **Security** issues
-    1. **Data integrity** issues (preventing data loss)
-    1. **Regression** issues (used to work in a previous release)
-    1. **Promised** issues (promised to a customer)
-    1. **Direction** issues (listed on [the direction page](https://about.gitlab.com/direction/))
-    1. **Bug** issues (things)
+    1. [**Security**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.7&label_name=security) issues
+    1. [**Data integrity**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.7&label_name=data-integrity) issues (preventing data loss)
+    1. [**Regression**](https://gitlab.com/groups/gitlab-org/issues?label_name=regression) issues (used to work in a previous release)
+    1. [**Promised**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.7&label_name=promised) issues (promised to a customer)
+    1. Other [**customer**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.7&label_name=customer) issues
+    1. [**Direction**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.7&label_name=direction) issues (listed on [the direction page](https://about.gitlab.com/direction/))
+    1. [**Bug**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.7&label_name=bug) issues (things)
     1. Issues without a label listed above.
 1. Use the public issue trackers on GitLab.com for anything related to our software since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
 1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [operations](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues.
