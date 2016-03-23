@@ -717,15 +717,15 @@
   story:  |
           Joining March 15th
           
-- name: F.C.
+- name: Felipe Artur
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Development Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: felipe_artur.jpg
+  twitter: FelipeArtur
+  gitlab: felipe_artur
   story:  |
-          Joining March 17th   
-          
+          Software enthusiast who started his career developing desktop applications. Former member of a repositories/task management company who is here make Gitlab better. Likes playing RTS video games and boxing in his free time.          
+
 - name: D.M.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Development Lead
