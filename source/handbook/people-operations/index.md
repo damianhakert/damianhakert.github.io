@@ -9,6 +9,7 @@ title: "People Operations"
 - [Using BambooHR](#bamboohr)
    - [Adding a new team member to BambooHR](#admin-bamboo)
    - [Using BambooHR as a new team member](#new-member-bamboo)
+- [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)   
 - [Administrative details of benefits for US-based employees](#benefits-us)
    - [401k](#401k)
 - [Using TriNet](#using-trinet)
@@ -61,6 +62,7 @@ as described on our [Hiring](/handbook/hiring/) page, follow these steps:
    1. Enter the following fields: First name, Last name, Gender, Hire date, Employment status, Job information, Pay rate, Salary for employees, or select another option.
    1. Turn “self service” on for the employee to enter the following info: Address, Phone, DOB. private email.
 1. Save the signed contract under the Documents tab in the folder “0.Signed Contract/Offer Letter”.
+1. On the start date of the employee send out the "password reset email" under the settings option in the top right of the profile (next to "request a change")
 
 ### Using BambooHR as a new team member<a name="new-member-bamboo"></a>
 
@@ -70,6 +72,17 @@ Team members can keep their information in BambooHR updated using self-service:
 1. Change the password to make it secure (see the handbook section on [secure passwords](https://about.gitlab.com/handbook/security/))
 1. Login with your new credentials
 1. Keep your credentials stored in your 1Password Vault and keep the info in BambooHR updated (e.g. change address when moving)
+
+## Managing the PeopleOps onboarding tasks <a name="manage-onboarding-tasks"></a>
+- Add team member to availability calendar
+- Give team member access to the GitLab availability calendar
+- Add blank entry to team page
+- Add entry to Team Call agenda
+- Invite to team meeting and GitLab 101 meeting
+- Order business cards
+- Add team member to Expensify (only with employees)
+- Add team member to Beamy
+- Add team member into the Austin info sheets
 
 ## Administrative details of benefits for US-based employees <a name="benefits-us"></a>
 
