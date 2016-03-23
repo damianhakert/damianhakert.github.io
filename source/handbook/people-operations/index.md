@@ -94,7 +94,7 @@ corner you can click "edit" to make edits to the code. Scroll all the way down
 and copy-paste the code of the previous blank entry to the team page. Edit the 
 fields to the right info of the new hire and find the right job description on 
 the [Jobs](https://about.gitlab.com/jobs/) page.
-_**Note** This can be tricky, so if you run into trouble reach out to some of 
+- **Note** This can be tricky, so if you run into trouble reach out to some of 
 your awesome colleagues in the #questions (channel) on Slack_
 - **Add entry to Team Call agenda**
 Open the Team Agenda google doc, and on the starting day add an Agenda item: 
