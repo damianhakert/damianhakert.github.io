@@ -249,7 +249,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
     1. Other [**customer**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.7&label_name=customer) issues
     1. [**Direction**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.7&label_name=direction) issues (listed on [the direction page](https://about.gitlab.com/direction/))
     1. [**Bug**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.7&label_name=bug) issues (things)
-    1. Issues without a label listed above.
+    1. [Issues](https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.7) without a label listed above.
 1. Use the public issue trackers on GitLab.com for anything related to our software since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
 1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [operations](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues.
 1. Pick issues from the current [milestone](https://gitlab.com/groups/gitlab-org/milestones).
