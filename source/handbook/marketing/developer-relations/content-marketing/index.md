@@ -21,7 +21,7 @@ GitLab" we also model how to use our software.
 
 ## 2016 activities
 
-- Publish an active [blog](/handbook/marketing/developer-relations/developer-marketing/blog/) with useful content relevant to GitLab users.
-- Publish a twice-monthly email newsletter you can sign up to on [our contact page](https://about.gitlab.com/contact/).
-- Host [webcasts](/handbook/marketing/developer-relations/developer-marketing/webcasts/)
+- Publish an active [blog](blog/) with useful content relevant to GitLab users.
+- Host [webcasts](webcasts/)
 which welcome newcomers, celebrate with existing users, and provide access to expertise.
+- Publish a twice-monthly email newsletter you can sign up to on [our contact page](https://about.gitlab.com/contact/).
