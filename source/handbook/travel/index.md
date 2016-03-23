@@ -69,9 +69,11 @@ Under "add more items to this trip" you can select what you want to add.
 Now you once again have the possibility to "continue to checkout" or "add more items to this trip" such as another flight
 
 #### Checkout flight and hotel and/or a car
+
 You will get a total overview of what is booked. You can see that the hotel and/or car are awaiting confirmation of the third party that will be booked once you checkout.
 
 #### Options in Egencia
+
 * In stead of choosing "checkout" you can select "safe trip and view itinerary"
 * Here you will get an overview of everything that was selected and you can change items, such as your flight. 
 * In the menu on the top left you have some options like "invite others", "print itinerary", send or delete.
