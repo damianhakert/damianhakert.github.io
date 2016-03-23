@@ -25,6 +25,7 @@ Below is some more information to help you get set up with your [Egencia](https:
 1. With the link, from step one in this email, you can set a password with link.
 1. Once you are in your dashboard, you can setup preferences in your travel profile. 
 You can enter your profile in the top right corner. Make sure to add your phone number.
+1. When you add your passport info to your profile this will populate your info directly when booking a flight.
 1. Now let's start booking!
 
 ### Booking travel through [Egencia](https://www.egencia.com) <a name="egencia"></a>
