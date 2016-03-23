@@ -2,64 +2,76 @@
 layout: markdown_page
 title: "Travel"
 ---
+
 ## Arranging your company travel
-The company will cover all work related travel costs.
-* Understand that the guidelines of [Spending Company Money](https://about.gitlab.com/handbook/#spending-company-money) still apply
-*  The company can accommodate your custom request. It is OK to stay longer on 
+
+The company will cover all work related travel costs.  
+- Understand that the guidelines of [Spending Company Money](https://about.gitlab.com/handbook/#spending-company-money) still apply
+- The company can accommodate your custom request. It is OK to stay longer on 
 your trip. However, the extra days will not be covered by the company.
 
-[Setting up your Egencia account](#setup-egencia)<br>
-[Booking travel through Egencia](#egencia)<br>
-[Expenses while travelling](#expenses-while-travelling)
+## Specific Topics Relating to Egencia and Expenses
+
+- [Setting up your Egencia account](#setup-egencia)  
+- [Booking travel through Egencia](#egencia)  
+- [Expenses while traveling](#expenses-while-traveling)
 
 
-## Setting up your [Egencia](https://www.egencia.com/auth/v1/login) account <a name="setup-egencia"></a>
-Below is some more information to help you get set up with your Egencia account.
+### Setting up your Egencia account<a name="setup-egencia"></a>
+
+Below is some more information to help you get set up with your [Egencia](https://www.egencia.com/auth/v1/login) account.  
+
 1. You will receive an email from Egencia with your username.
-1. With the link, from step one in this email, you can set a password with link. 
-Make sure it is set up using the [handbook guidelines](https://about.gitlab.com/handbook/security/) for safe passwords
-1. Once you are in your dashboard, you can setup preferences in your travel profile. You can enter your profile in the top right corner
+1. With the link, from step one in this email, you can set a password with link.
+1. Once you are in your dashboard, you can setup preferences in your travel profile. 
+You can enter your profile in the top right corner
 1. Now let's start booking!
 
-## Booking travel through [Egencia](https://www.egencia.com/auth/v1/login) <a name="egencia"></a>
+### Booking travel through [Egencia](https://www.egencia.com/auth/v1/login) <a name="egencia"></a>
 
 If you book through Egencia, the costs will be added to the GitLab invoice and **no credit card is needed**.
 
 1. Login to your account. If you've not yet set up your account, do this first.
-1. The dashboard gives you directly the option to start booking. The flight option is displayed,other options are booking a train ticket, hotel or car
+1. The dashboard gives you directly the option to start booking. The flight option 
+is displayed,other options are booking a train ticket, hotel or car
 1. Input info for the flight you want to book.
-1. Select your favorite option for the outbound flight. Please note that our policy is that you can book up to $250 of the cheapest flight option. Booking more than $250 over that amount will flag "out of policy" and requires approval.
+1. Select your favorite option for the outbound flight. Please note that our policy 
+is that you can book up to $250 of the cheapest flight option. Booking more than 
+$250 over that amount will flag "out of policy" and requires approval.
 1. Select your return (inbound) flight
-1. Read & check the box "I have read and accept the rules and restrictions"
-Now you have the possibility to "continue to checkout" or "add more items to this trip" such as another flight, a hotel reservation or booking a car.
+1. Read & check the box "I have read and accept the rules and restrictions". Now 
+you have the possibility to "continue to checkout" or "add more items to this trip" 
+such as another flight, a hotel reservation or booking a car.
 1. Select "continue to checkout" if you just want to book the flight.
 
-##### Checkout flight only
+#### Checkout flight only
+
 1. Enter your passport information in the "Secure flight" window
 1. Enter your seat preferences and frequent flyer program info if wanted
 1. Enter your reason for booking, this is required for every booking
 
-##### Continue adding a hotel or car
+#### Continue adding a hotel or car
+
 Under "add more items to this trip" you can select what you want to add.
 1. The platform auto populates your info based on your flight.
 1. For adding a **hotel**:
-  * You will get a window including a map with all hotel options.
-  * On the top right you can filter based upon preferences
-  * Click on a hotel to get more information
-  * To go back to the overview of hotels click on X in the top right corner
-  * To choose the hotel room click on the price
-  * When choosing the hotel you will go to an overview of the costs and hotel info
+  - You will get a window including a map with all hotel options.
+  - On the top right you can filter based upon preferences
+  - Click on a hotel to get more information
+  - To go back to the overview of hotels click on X in the top right corner
+  - To choose the hotel room click on the price
+  - When choosing the hotel you will go to an overview of the costs and hotel info
 1. For adding a **car**:
-  * you will get a window with your car options
-  * On the top of the window you can sort on price
-  * to select a car click "select"
-  * When choosing the car you will go to an overview of the costs and rules/restrictions info
+  - you will get a window with your car options
+  - On the top of the window you can sort on price
+  - to select a car click "select"
+  - When choosing the car you will go to an overview of the costs and rules/restrictions info
 Now you once again have the possibility to "continue to checkout" or "add more items to this trip" such as another flight
 
-##### Checkout flight and hotel and/or a car
+#### Checkout flight and hotel and/or a car
 You will get a total overview of what is booked. You can see that the hotel and/or car are awaiting confirmation of the third party that will be booked once you checkout.
 
-##### Options in Egencia
+#### Options in Egencia
 * In stead of choosing "checkout" you can select "safe trip and view itinerary"
 * Here you will get an overview of everything that was selected and you can change items, such as your flight. 
 * In the menu on the top left you have some options like "invite others", "print itinerary", send or delete.
@@ -67,7 +79,7 @@ You will get a total overview of what is booked. You can see that the hotel and/
 
 Please send a message to travel@gitlab.com to get help in booking your travel.
 
-## Expenses While Travelling <a name="expenses-while-travelling"></a>
+### Expenses While Traveling <a name="expenses-while-traveling"></a>
 
 1. The company will pay for lodging and meals during the part of the trip
 that is work related. Depending on the distance of your travel, this can include
