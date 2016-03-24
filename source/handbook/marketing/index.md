@@ -20,7 +20,7 @@ The marketing team is made up of a few key functional groups:
 - [Technical writing](/jobs/technical-writer/)
 - [Developer advocacy](/handbook/marketing/developer-relations/developer-advocacy/)
 - [Field marketing](/handbook/marketing/developer-relations/field-marketing/)
-- [Developer marketing](/handbook/marketing/developer-relations/developer-marketing/)
+- [Content marketing](/handbook/marketing/developer-relations/content-marketing/)
 
 ##Product Marketing
 
