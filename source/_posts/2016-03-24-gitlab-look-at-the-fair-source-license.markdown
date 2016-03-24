@@ -21,7 +21,7 @@ One of the key issues with commercializing open source software is licensing.
 There are great examples of open source licenses which allow code to be viewable
 and modifiable. There are many examples of proprietary licenses which protect
 intellectual property and don't even allow users to view the source code.
-However, what license is appropriate for a project like Gitlab in which users can view
+However, what license is appropriate for a project like GitLab in which users can view
 the EE code, but pay to use it?
 
 The Fair Source license aims to address that. On [Fair.io](https://fair.io/)
