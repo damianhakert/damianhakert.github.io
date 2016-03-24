@@ -1,15 +1,16 @@
 ---
 layout: post
 title: "GitLab Sponsorship Update"
-date: 2016-03-17
+date: 2016-03-24 15:00
 comments: true
 categories: community
-author: Emilyy Kyle
+author: Emily Kyle
 author_twitter: emilylucie
 image_title: '/images/community/love-the-sun-gitlab.jpg'
 ---
 
-In this post, I'll give you an update of what we've sponsored recently as well as some insight into our priorities as we welcome more requests for sponsorship.
+In this post, I'll give you an update of what we've sponsored recently as well
+as some insight into our priorities as we welcome more requests for sponsorship.
 
 We’re so delighted with the interest in our [tech diversity sponsorship program][diversity]. Since we announced the program in early February, we've sponsored a number of great events.
 
@@ -19,10 +20,10 @@ We’re so delighted with the interest in our [tech diversity sponsorship progra
 - [Django Girls Łódź](https://djangogirls.org/lodz/) Feb 27, 2016
 - [Rails Girls Tricity](http://railsgirls.com/tricity) March 5-6, 2016
 - [Rails Girls Atlanta](http://www.meetup.com/Rails-Girls-Atlanta/) March 30, 2016
-- [AlterConf] (http://www.alterconf.com/) April 9, 2016
-- [ClojureWest] (http://clojurewest.org/) Opportunity Scholarship April 15-16, 2016
+- [AlterConf](http://www.alterconf.com/) April 9, 2016
+- [ClojureWest](http://clojurewest.org/) Opportunity Scholarship April 15-16, 2016
 - [Django Girls Florence](https://djangogirls.org/florence/) April 17, 2016
-- [SciPyLA] (http://conf.scipyla.org/) Opportunity Scholarship May 16-20, 2016
+- [SciPyLA](http://conf.scipyla.org/) Opportunity Scholarship May 16-20, 2016
 - [Rails Girls Bialystok](http://railsgirls.com/bialystok) May 21-22, 2016
 
 ## Rails Girls
@@ -35,7 +36,7 @@ Tricity Rails Girls event, and there were even a few men attending to learn too!
 
 Our GitLab CE project was accepted as a Rails Girls Summer of Code project.
 We’re really excited to get involved. My colleague, Yorick wrote about
-[Rails Girls Summer of Code](https://about.gitlab.com/2016/02/23/rails-girls-summer-of-code-2016/)
+[Rails Girls Summer of Code](https://about.gitlab.com/2016/02/23/rails-girls-summer-of-code-2016/).
 
 We've also invested as a Gold Sponsor, and the Rails Girls Summer of Code is still
 seeking support through their [crowd funding campaign](http://railsgirlssummerofcode.org/campaign/).
@@ -43,13 +44,13 @@ seeking support through their [crowd funding campaign](http://railsgirlssummerof
 ## Sponsorship in areas of low opportunity
 
 In other news, we are also sponsoring events which have a great impact at a local level.
-It's part of our [strategy] to sponsor initiatives in countries that have low
+It's part of our [strategy][strategy] to sponsor initiatives in countries that have low
 opportunity, and less access to funding.
 Since we're a distributed company, it also means we can send colleagues to
 participate in these events.
 
 - [TechParty - 2016](http://techparty.faccat.br/)  April 25 - 28, 2016.
-- [Cuba Startup Meetup] (http://www.meetup.com/merchise/) Dates TBD
+- [Cuba Startup Meetup](http://www.meetup.com/merchise/) Dates TBD
 
 It's certainly an area we can improve, so we're looking forward to hearing your
 proposals!
