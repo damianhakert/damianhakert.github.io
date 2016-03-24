@@ -30,7 +30,7 @@ At the same time, the design of Unicorn is incompatible with one of
 GitLab's main functions, namely Git repository access (`git clone`,
 `git push`, etc.) via HTTP(S). The reason it is incompatible is that
 Unicorn heavily relies on (relatively) short request timeouts. If you
-configure to Unicorn time out slowly rather than quickly then it starts
+configure Unicorn to time out slowly rather than quickly then it starts
 to become a lot less pleasant to work with. A `git clone` on the other
 hand may take quite a long time if you are fetching a large Git
 repository. In my previous role as a service engineer at GitLab I
@@ -65,7 +65,7 @@ codebase were so minor that I could easily hide them behind a [feature
 flag](https://en.wikipedia.org/wiki/Feature_toggle). To top it off I
 announced gitlab-git-http-server to the team on a day the CTO was on
 vacation: the ultimate sneak attack. Just kidding, but I thought it was
-a funny coincidence about [Dmitriy](http://twitter.com/dzaporozhets)'s
+a funny coincidence about [Dmitriy](https://gitlab.com/u/dzaporozhets)'s
 vacation.
 
 The team somehow let me 'try gitlab-git-http-server out' (read: merge it
@@ -126,7 +126,7 @@ welcome: I felt confident enough that gitlab-workhorse functioned
 correctly, but I am not an experienced Go programmer. Having Kamil in
 the game helped us make gitlab-workhorse a better Go program.
 
-For a short while Marin and I were on the one hand trying to implement
+For a short while, Marin and I were on the one hand trying to implement
 file uploads/downloads in gitlab-workhorse, while Kamil on the other
 hand was implementing the same thing for CI artifacts using NGINX
 plugins. Luckily we spotted the duplication of efforts before the code
