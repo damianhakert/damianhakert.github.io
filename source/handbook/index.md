@@ -534,7 +534,7 @@ Use space for page down instead of fn+up arrow.
 
 ### Google Calendar Guest Modify Event Default
 
-[This Chrome extension](https://chrome.google.com/webstore/detail/google-calendar-guests-mo/hjhicmeghjagaicbkmhmbbnibhbkcfdb?hl=en) will allow allow guests to modify calendar appointments by default.
+[This Chrome extension](https://chrome.google.com/webstore/detail/google-calendar-guests-mo/hjhicmeghjagaicbkmhmbbnibhbkcfdb?hl=en) will allow guests to modify calendar appointments by default.
 
 ### Bluejeans
 
