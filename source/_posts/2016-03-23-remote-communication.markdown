@@ -22,7 +22,7 @@ why you should think about doing just that.
 at a time when we can handle it—usually not “live.” This is important for the
 very simple reason that most programmers need head space to focus on what we do.
 You can minimize interruption by setting up a “preference list” for how to contact
-your remote team. At Gitlab, issues are most preferred, then email, then chat.
+your remote team. At GitLab, issues are most preferred, then email, then chat.
 
 Asynchronous also refers to the fact that you’re not expected to immediately
 respond if, for example, a colleague or even your boss emails you on the weekend.
@@ -78,7 +78,7 @@ everyone knows you’re not AI.
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Also, say thanks to your coworkers to let them know that you know THEY’RE human,
-too! We have a “Thanks” chat channel just for this purpose, where we ask Gitlab
+too! We have a “Thanks” chat channel just for this purpose, where we ask GitLab
 employees to mention each other by name and say thanks for specific things.
 It just makes things nicer.
 
