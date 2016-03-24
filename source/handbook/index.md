@@ -64,7 +64,7 @@ yourself and your teammates. We want people to have the desire to ship.
 public we can reduce the threshold to contribution and make collaboration easier.
 An example is the [public repository of this website](https://gitlab.com/gitlab-com/www-gitlab-com/)
 that also contains our [company handbook](https://about.gitlab.com/handbook/).
-On a personal level you should tell it like it is instead of putting up a pokerface. Don't be afraid to admin you made a mistake or where wrong.
+On a personal level you should tell it like it is instead of putting up a pokerface. Don't be afraid to admit you made a mistake or where wrong.
 1. Sharing: We care about giving great software, documentation, examples, lessons,
 and processes to the world. An example is the MIT licensed [GitLab CE](https://about.gitlab.com/features/).
 1. Freedom: You should have clear objectives and the freedom to work on them as you
