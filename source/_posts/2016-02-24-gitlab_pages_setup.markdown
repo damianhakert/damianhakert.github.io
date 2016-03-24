@@ -9,7 +9,7 @@ author_twitter: virtuacreative
 image_title: '/images/blogimages/gitlab-pages-setup-cover.jpg'
 ---
 
-In this article we provide you with detailed information about using [GitLab Pages][pages-ee] to host your website for free on [GitLab.com][sign-up].
+In this article we provide you with detailed information about using [GitLab Pages][pages] to host your website for free on [GitLab.com][sign-up].
 
 We've prepared a step-by-step tutorial on setting up GitLab Pages so you won't get lost in the process.
 
@@ -44,7 +44,7 @@ We are assuming that you are familiar with [`git`][git] and with the web develop
 
 [GitLab 8.3][gitlab83] introduced a new feature, called **GitLab Pages**, 
 which was made for providing a free, simple website hosting service.  
-[GitLab Pages][pages-ee] is available through the GitLab EE. GitLab Enterprise Edition is what [GitLab.com][about-gitlab-com] runs on.
+[GitLab Pages][pages] is available through the GitLab EE. GitLab Enterprise Edition is what [GitLab.com][about-gitlab-com] runs on.
 
 GitLab Pages supports [static websites][wiki-static-websites] and also builds [Static Site Generators (SSGs)][SSGs], as [Jekyll][], [Hugo], [Hexo], [Middleman] and many others. 
 
@@ -330,7 +330,7 @@ some SSGs examples that we gathered for you, organized by their respective envir
 
 | SSG | Website URL | Project URL | Configuration | 
 | --- | ----------- | ----------- | -------------- |
-| [Hugo] | [Lanyon Theme][hugo-prev] | [Source on GitLab][hugo-proj] | [Default][hugo-ci] |
+| [Hugo] | [Lanyon Theme][hugo-prev] (Default) | [Source on GitLab][hugo-proj] | [Default][hugo-ci] |
 
 ### **More Examples**
 
@@ -338,7 +338,7 @@ On the following GitLab groups you can find even more examples.
 
 | Group | Environment | SSGs |
 | ----- | ----------- | ---- |
-| [GitLab CI][ci-examples] (Official) | Ruby, Node, Python, etc. | All SSGs presented on this post |
+| [Pages][ci-examples] (Official) | Ruby, Node, Python, etc. | All SSGs presented on this post |
 | [Jekyll Themes][jekyll-examples] | Ruby | Jekyll |
 | [Middleman Themes][middle-examples] | Ruby | Middleman | 
 | [Themes and Templates][themes-templates] | Miscellaneous | Miscellaneous |
@@ -377,12 +377,12 @@ Yes, absolutely! Would you need a suggestion? You can try [StartSSL] or [Let's E
 
 Sure! You are very welcome to contribute to the groups mentioned above. 
 To do that, please set your website up and make sure it's working as you expected. 
-Then, add an issue to the group you're interested in including a link to your project. After a brief evaluation, 
+Then, add an issue to the group you're interested in. Don't forget to include a link to your project. After a brief evaluation, 
 we'll be glad to fork your project and present your theme to our community!
 
 ### Can I use `.php` pages and connect databases with my sites?
 
-No. GitLab Pages host static websites only (HTML, CSS and JS).
+No. GitLab Pages hosts static websites only (HTML, CSS and JS).
 
 <a name="getting-help"></a>
 
@@ -401,12 +401,12 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 
 We're looking forward to seeing your sites!
 
-# About guest author Marcia Dias Ramos
+# About guest author Marcia Ramos
 
 [Marcia] is a back-end developer specialized in WordPress and Jekyll sites at [Virtua Creative], 
 though she does some front-end too. Her daily work is based on version-controlled systems for almost 15 years. 
 She is driven by her thirst for knowledge and her hunger to continuously expand her horizons. 
-When she is not coding, she is writing articles, studying, teaching or making a contribution to open source projects here and there. 
+When she is not coding, she is writing articles, studying, teaching or making contributions to open source projects here and there. 
 
 [doc-artifacts]: http://doc.gitlab.com/ee/ci/yaml/README.html#artifacts
 [doc-ciconfig]: http://doc.gitlab.com/ee/ci/quick_start/README.html#creating-a-.gitlab-ci.yml-file
@@ -421,6 +421,7 @@ When she is not coding, she is writing articles, studying, teaching or making a 
 [doc-shared-runners]: http://doc.gitlab.com/ee/ci/quick_start/README.html#shared-runners
 [doc-stages]: http://doc.gitlab.com/ce/ci/yaml/README.html#stages
 [ee-yaml-ci]: http://doc.gitlab.com/ee/ci/yaml/README.html
+[pages]: https://pages.gitlab.io
 [pages-ee]: http://doc.gitlab.com/ee/pages/README.html
 [pages-work]: http://doc.gitlab.com/ee/pages/README.html#getting-started-with-gitlab-pages
 [pages-user]: http://doc.gitlab.com/ee/pages/README.html#user-or-group-pages
@@ -431,7 +432,7 @@ When she is not coding, she is writing articles, studying, teaching or making a 
 [quick start guide]: http://doc.gitlab.com/ee/ci/quick_start/README.html
 
 [about-gitlab-com]: https://about.gitlab.com/
-[ci-examples]: https://gitlab.com/groups/gitlab-examples#projects
+[ci-examples]: https://gitlab.com/groups/pages
 [ci-lint]: https://gitlab.com/ci/lint "Try me!"
 [cname-issue]: https://gitlab.com/gitlab-org/gitlab-ee/issues/134
 [ee-85]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/173
@@ -477,9 +478,9 @@ When she is not coding, she is writing articles, studying, teaching or making a 
 [Marcia]: https://gitlab.com/u/virtuacreative
 [Virtua Creative]: https://virtuacreative.com.br/en/
 
-[h-1-web]: http://gitlab-examples.gitlab.io/pages-plain-html "The simplest html example"
-[h-1-pro]: https://gitlab.com/gitlab-examples/pages-plain-html
-[h-1-ci]: https://gitlab.com/gitlab-examples/pages-plain-html/blob/master/.gitlab-ci.yml
+[h-1-web]: http://pages.gitlab.io/plain-html "The simplest html example"
+[h-1-pro]: https://gitlab.com/pages/plain-html
+[h-1-ci]: https://gitlab.com/pages/plain-html/blob/master/.gitlab-ci.yml
 
 [h-2-web]: http://html-themes.gitlab.io/genius/ "A beautiful gallery dark theme"
 [h-2-pro]: https://gitlab.com/html-themes/genius
@@ -497,9 +498,9 @@ When she is not coding, she is writing articles, studying, teaching or making a 
 [j-3-pro]: https://gitlab.com/jekyll-themes/grayscale
 [j-3-ci]: https://gitlab.com/jekyll-themes/grayscale/blob/master/.gitlab-ci.yml
 
-[hugo-prev]: https://gitlab-examples.gitlab.io/pages-hugo/
-[hugo-proj]: https://gitlab.com/gitlab-examples/pages-hugo
-[hugo-ci]: https://gitlab.com/gitlab-examples/pages-hugo/blob/master/.gitlab-ci.yml
+[hugo-prev]: https://pages.gitlab.io/hugo/
+[hugo-proj]: https://gitlab.com/pages/hugo
+[hugo-ci]: https://gitlab.com/pages/hugo/blob/master/.gitlab-ci.yml
 
 [middle-prev]: https://middleman-themes.gitlab.io/middleman/
 [middle-proj]: https://gitlab.com/middleman-themes/middleman
@@ -509,22 +510,22 @@ When she is not coding, she is writing articles, studying, teaching or making a 
 [hexo-proj]: https://gitlab.com/themes-templates/hexo
 [hexo-ci]: https://gitlab.com/themes-templates/hexo/blob/master/.gitlab-ci.yml
 
-[brunch-prev]: https://gitlab-examples.gitlab.io/pages-brunch/
-[brunch-proj]: https://gitlab.com/gitlab-examples/pages-brunch
-[brunch-ci]: https://gitlab.com/gitlab-examples/pages-brunch/blob/master/.gitlab-ci.yml
+[brunch-prev]: https://pages.gitlab.io/brunch/
+[brunch-proj]: https://gitlab.com/pages/brunch
+[brunch-ci]: https://gitlab.com/pages/brunch/blob/master/.gitlab-ci.yml
 
-[harp-prev]: https://gitlab-examples.gitlab.io/pages-harp/
-[harp-proj]: https://gitlab.com/gitlab-examples/pages-harp
-[harp-ci]: https://gitlab.com/gitlab-examples/pages-harp/blob/master/.gitlab-ci.yml
+[harp-prev]: https://pages.gitlab.io/harp/
+[harp-proj]: https://gitlab.com/pages/harp
+[harp-ci]: https://gitlab.com/pages/harp/blob/master/.gitlab-ci.yml
 
-[metal-prev]: https://gitlab-examples.gitlab.io/pages-metalsmith/
-[metal-proj]: https://gitlab.com/gitlab-examples/pages-metalsmith
-[metal-ci]: https://gitlab.com/gitlab-examples/pages-metalsmith/blob/master/.gitlab-ci.yml
+[metal-prev]: https://pages.gitlab.io/metalsmith/
+[metal-proj]: https://gitlab.com/pages/metalsmith
+[metal-ci]: https://gitlab.com/pages/metalsmith/blob/master/.gitlab-ci.yml
 
-[lektor-prev]: https://gitlab-examples.gitlab.io/pages-lektor/
-[lektor-proj]: https://gitlab.com/gitlab-examples/pages-lektor
-[lektor-ci]: https://gitlab.com/gitlab-examples/pages-lektor/blob/master/.gitlab-ci.yml
+[lektor-prev]: https://pages.gitlab.io/lektor/
+[lektor-proj]: https://gitlab.com/pages/lektor
+[lektor-ci]: https://gitlab.com/pages/lektor/blob/master/.gitlab-ci.yml
 
-[hyde-prev]: https://themes-templates.gitlab.io/hyde/
-[hyde-proj]: https://gitlab.com/themes-templates/hyde
-[hyde-ci]: https://gitlab.com/themes-templates/hyde/blob/master/.gitlab-ci.yml
+[hyde-prev]: https://pages.gitlab.io/hyde/
+[hyde-proj]: https://gitlab.com/pages/hyde
+[hyde-ci]: https://gitlab.com/pages/hyde/blob/master/.gitlab-ci.yml
