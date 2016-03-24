@@ -41,6 +41,12 @@ We’re really excited to get involved. My colleague, Yorick wrote about
 We've also invested as a Gold Sponsor, and the Rails Girls Summer of Code is still
 seeking support through their [crowd funding campaign](http://railsgirlssummerofcode.org/campaign/).
 
+Photos used with permission from [Rails Girls Tricity](https://www.facebook.com/RailsGirlsTricity/?fref=photo).
+
+![Rails Girls Tricity](/images/blogimages/railsgirls-tomazs.jpg)
+
+![Rails Girls Tricity](/images/blogimages/railsgirls-grzegorz.jpg)
+
 ## Sponsorship in areas of low opportunity
 
 In other news, we are also sponsoring events which have a great impact at a local level.
