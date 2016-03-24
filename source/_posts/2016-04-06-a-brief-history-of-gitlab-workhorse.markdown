@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A brief history of gitlab-workhorse"
+title: "A Brief History of GitLab Workhorse"
 date: 2016-04-06
 comments: true
 author: Jacob Vosmaer
