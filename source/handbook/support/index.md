@@ -82,6 +82,26 @@ The channels are sorted in order of priority, there are 4 general SLA's:
 Preferably we like to answer tickets sooner than the SLA requires.
 The higher a channel is in the list the sooner it should be answered.
 
+### Practical details about SLA settings
+
+Within ZenDesk, the SLA's are set as follows. Under Business Rules in the Admin console,
+Service Level Agreements are defined. Currently, one is defined, with different response times
+required depending on the _priority_  of the ticket which can be Urgent, High, Normal, or Low.
+Emergency tickets (SLA 1 per the list above) are tagged as "Urgent" using a trigger setting, 
+and SLA 2 items are tagged as either High or Normal priority, depending on the exact channel. 
+The response times configured for the different priorities are:    
+
+- 30 minutes (Urgent), 
+- 12 business hours (High),
+- 16 business hours (Normal),
+- 24 business hours (Low)
+
+An email is sent to everyone in the support team when an SLA breach is imminent, see 
+the [automation in ZenDesk](https://gitlab.zendesk.com/agent/admin/automations/edit/80833987).
+
+Within ZenDesk, currently we do _not_ have an SLA assigned (and no automated warnings) 
+to any tickets from channels below Regular Tickets, but we do track response times.
+
 ## Support Turbo<a name="support-turbo"></a>
 
 Every now and then, it may occur that we come close to breaching our SLA's.
