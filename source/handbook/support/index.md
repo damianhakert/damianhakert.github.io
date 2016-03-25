@@ -115,10 +115,12 @@ support turbo developers to momentarily switch away from their other tasks.
 
 Fellow GitLab team members can reach out for help from the Support Team in various ways:
 
-1. For normal support questions (can GitLab do x, how do I do x with GitLab) email the internal support email alias that is listed in the "GitLab Email Forwarding"
+1. For normal support questions (can GitLab do x, how do I do x with GitLab) email
+the internal support email alias that is listed in the "GitLab Email Forwarding"
 google doc.
-1. For longer term or larger scope questions, such as discussing customized training requests create an [internal issue](https://dev.gitlag.org/gitlab/organization/issues/), adding the "Support"
-label and @ mentioning one or more Service Engineers.
+1. For longer term or larger scope questions, such as discussing customized training
+requests create an [internal issue](https://dev.gitlag.org/gitlab/organization/issues/),
+adding the "Support" label and @ mentioning one or more Service Engineers.
 1. If customers or users have questions advise them to contact support direct via the relevant channel.
 1. For quick questions that are urgent ping the support team on the support chat channel.
 
@@ -302,7 +304,8 @@ If a tweet is responded to from TweetDeck, this creates a new ticket in ZenDesk;
 or responses. Responding from ZenDesk also enables us to track our response times vs. our internal [SLA](#sla).
 
 Our Developer Advocates also have access to tweets through ZenDesk, and often
-participate in responding to questions.
+participate in responding to questions. The support team does not retweet or favorite 
+any tweets; that is handled by the marketing team.
 
 The @GitLabStatus account should only be used to give updates on the availability
 of GitLab.com and to follow up on users reporting that GitLab.com is unavailable.
