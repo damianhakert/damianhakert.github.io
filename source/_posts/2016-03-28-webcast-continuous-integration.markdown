@@ -9,7 +9,7 @@ author_twitter: nearlythere
 image_title: '/images/unsplash/stars.png'
 ---
 
-Since GitLab 8.0 GitLab CI is an integrated part of GitLab. This web application
+Since GitLab 8.0, GitLab CI is an integrated part of GitLab. This web application
 manages projects/builds and provides a nice user interface.
 
 In our next webcast on April 14th, we'll take a look using continuous
@@ -37,7 +37,8 @@ This is literally a list of questions I was asked at a recent Ruby meet-up:
 - Are you sure it's really free? Yes!
 
 I think mostly people were quite surprised and also delighted to see
-how easy it was to configure GitLab CI.
+how easy it was to configure GitLab CI. And of course a little incredulous that
+it's actually all built-in and free.
 Now you're probably wondering how to get started with it. Do join us
 for the webcast, we'd love to hear your questions.
 
