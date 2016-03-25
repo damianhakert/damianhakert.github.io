@@ -87,19 +87,19 @@ The higher a channel is in the list the sooner it should be answered.
 Within ZenDesk, the SLA's are set as follows. Under Business Rules in the Admin console,
 Service Level Agreements are defined. Currently, one is defined, with different response times
 required depending on the _priority_  of the ticket which can be Urgent, High, Normal, or Low.
-Emergency tickets (SLA 1 per the list above) are tagged as "Urgent" using a trigger setting, 
-and SLA 2 items are tagged as either High or Normal priority, depending on the exact channel. 
-The response times configured for the different priorities are:    
+Emergency tickets (SLA 1 per the list above) are tagged as "Urgent" using a trigger setting,
+and SLA 2 items are tagged as either High or Normal priority, depending on the exact channel.
+The response times configured for the different priorities are:
 
-- 30 minutes (Urgent), 
+- 30 minutes (Urgent),
 - 12 business hours (High),
 - 16 business hours (Normal),
 - 24 business hours (Low)
 
-An email is sent to everyone in the support team when an SLA breach is imminent, see 
+An email is sent to everyone in the support team when an SLA breach is imminent, see
 the [automation in ZenDesk](https://gitlab.zendesk.com/agent/admin/automations/edit/80833987).
 
-Within ZenDesk, currently we do _not_ have an SLA assigned (and no automated warnings) 
+Within ZenDesk, currently we do _not_ have an SLA assigned (and no automated warnings)
 to any tickets from channels below Regular Tickets, but we do track response times.
 
 ## Support Turbo<a name="support-turbo"></a>
@@ -296,15 +296,15 @@ the ticket that was created for your reply.
 ### Twitter <a name="twitter"></a>
 
 Tweets that mention [@GitLab](https://twitter.com/GitLab), [@GitLabSupport](https://twitter.com/GitLabSupport),
-or [@GitLabStatus](https://twitter.com/GitLabStatus), will create a ticket in ZenDesk, 
-and show up in the "Twitter and Facebook" view. All responses should be sent from ZenDesk. 
-If a tweet is responded to from TweetDeck, this creates a new ticket in ZenDesk; risking duplication of tickets 
+or [@GitLabStatus](https://twitter.com/GitLabStatus), will create a ticket in ZenDesk,
+and show up in the "Twitter and Facebook" view. All responses should be sent from ZenDesk.
+If a tweet is responded to from TweetDeck, this creates a new ticket in ZenDesk; risking duplication of tickets
 or responses. Responding from ZenDesk also enables us to track our response times vs. our internal [SLA](#sla).
 
-Our Developer Advocates also have access to tweets through ZenDesk, and often 
+Our Developer Advocates also have access to tweets through ZenDesk, and often
 participate in responding to questions.
 
-The @GitLabStatus account should only be used to give updates on the availability 
+The @GitLabStatus account should only be used to give updates on the availability
 of GitLab.com and to follow up on users reporting that GitLab.com is unavailable.
 
 When a tweet mentions 1 or more of the handles described above, it should be replied to from the main handle (@GitLab).
@@ -362,5 +362,5 @@ Respond to questions about GitLab on Quora, especially the ones that appear in t
 
 ## Non channel work<a name="other"></a>
 
-If you have time for it please improve GitLab: fix bugs, add features, improve documentation, and polish the website.
+If you have time for it please improve GitLab: fix bugs, add features, and polish the website.
 You can also consider hanging out on IRC to answer questions and help people (#gitlab on freenode.net).
