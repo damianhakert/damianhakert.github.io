@@ -4,7 +4,7 @@ title: Leadership
 ---
 ## Behaviour
 
-- As a leader new team members will look up to you and will follow your behaviour.
+- As a leader team members will follow your behaviour, always do the right thing.
 - Behaviour should be consistent inside and outside the company, don't fake it outside, just do the right thing inside the company as well.
 
 ## Books to read
