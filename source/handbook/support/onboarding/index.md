@@ -68,8 +68,8 @@ craft a proper answer, you are acknowledging their request.
 ### Responding to tickets
 
 For responses to regularly asked question see the [common responses](/handbook/support/common-responses.html)
-section. [Common questions should be the prime focus of better documentation, and common responses should be in the form of a
-link to the documentation].
+section. Common questions should be the prime focus of better documentation, and common responses should be in the form of a
+link to the documentation.
 
 Tickets coming from our customers take a higher priority than regular support tickets and are marked as such
 within ZenDesk. Make sure you take care of these tickets first. They can be seen in the `Subscribers Open`
