@@ -39,18 +39,25 @@ mind that the most time consuming aspect tends to be review of the first wave of
 1. Technical interview (optional): As described on the [Jobs](https://about.gitlab.com/jobs/) page, certain positions
 require [technical interviews](https://about.gitlab.com/jobs/#technical-interview).
 1. Manager interview (see below for questions)
+1. For female candidates, include at least one interview with a female GitLab team member.
 1. C-level executive interview (if different than the manager, see below for questions)
 1. CEO interview (if different than the C-level executive, see below for questions)
-1. If the candidate is not hired, make sure to send out an email to ask for feedback. There is a template in Workable with these questions.
 1. Make a verbal or written (email) offer (the CEO needs to authorize offers)
 1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
 1. Hiring manager ensures that the contract is signed, and [starts the onboarding process](#move-to-onboarding) (the People Ops team can help).
 
-Some further guidelines around the hiring process:
+### Rejecting applicants
 
-- For female candidates, include at least one interview with a female GitLab team member.
-- At any time during this process the applicant can be rejected (and should always be notified of this).
-- If the applicant asks for further feedback always offer frank feedback. This is hard, but it is part of our company values.
+1. At any time during the hiring process the applicant can be rejected
+1. The applicant should always be notified of this. The hiring manager is primarily
+responsible for this, but People Ops can help and does a weekly check-up in Workable.
+1. If the applicant asks for further feedback always offer frank feedback. This
+is hard, but it is part of our company values.
+1. If the candidate is not hired, People Ops sends out an email to ask for feedback.
+There is a "gathering applicant feedback" template in Workable with these questions. 
+The feedback survey should be sent out about 3 days after the applicant has been
+notified of the rejection.
+
 
 ## Screening Call<a name="screening-call"></a>
 
