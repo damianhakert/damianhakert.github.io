@@ -434,7 +434,7 @@ intellectual property violations
 
 1. Don't frown on people taking time off, but rather encourage that people take care of themselves and others.
 1. Working hours are flexible, you are invited to the [team call](#team-call) if you are available, and we encourage you to post to the #working-on chat channel when you start your day so others can offer suggestions.
-1. You don't need to worry about taking time off to go to the gym, go grocery shopping, doing household chores, helping someone, taking care of a loved one, etc. If something comes up or takes longer than expected and you have urgent tasks and you're able to communicate, just ensure the rest of the team **knows** and someone can pick up any urgent tasks.
+1. You don't need to worry about taking time off to go to the gym, [take a nap](https://m.signalvnoise.com/sleep-deprivation-is-not-a-badge-of-honor-f24fbff47a75#.hl1x9zh15), go grocery shopping, doing household chores, helping someone, taking care of a loved one, etc. If something comes up or takes longer than expected and you have urgent tasks and you're able to communicate, just ensure the rest of the team **knows** and someone can pick up any urgent tasks.
 1. We have an "unlimited" time off policy. This means that:
     * You do not need to ask permission to take time off unless you want to take more than 25 consecutive calendar days.
     * Always make sure that your job responsibilities are covered while you are away.
