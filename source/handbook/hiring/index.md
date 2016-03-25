@@ -41,6 +41,7 @@ require [technical interviews](https://about.gitlab.com/jobs/#technical-intervie
 1. Manager interview (see below for questions)
 1. C-level executive interview (if different than the manager, see below for questions)
 1. CEO interview (if different than the C-level executive, see below for questions)
+1. If the candidate is not hired, make sure to send out an email to ask for feedback. There is a template in Workable with these questions.
 1. Make a verbal or written (email) offer (the CEO needs to authorize offers)
 1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
 1. Hiring manager ensures that the contract is signed, and [starts the onboarding process](#move-to-onboarding) (the People Ops team can help).
