@@ -3,7 +3,27 @@ layout: markdown_page
 title: Service Engineer On-boarding
 ---
 
-## Expectations of the support team
+## On this page
+- [Expectations of the support team](#expectations)
+- [First steps when you join the team](#first-steps)
+   - [Training](#training)
+- [Handling tickets](#handling-tickets)
+   - [Assigning a ticket to yourself](#assign-yourself)
+   - [Point to documentation, or make it](#document-it)
+   - [Create issues](#create-issue)
+   - [Recording information about the organization](#fix-organization)
+   - [Tags tickets](#tags)   
+   - [After the first response](#first-response)   
+   - [When and how to escalate a ticket?](#when-escalate)
+   - [When to mark a ticket as solved?](#when-solved)
+   - [Clearing out suspended tickets](#clear-suspended)
+- [Receiving feedback](#feedback)
+- [Dedicated Service Engineers](#dse)
+- [Customer Training](#customer-training)
+- [Team member is unavailable](#not-available)
+
+
+## Expectations of the support team<a name="expectations"></a>
 
 As members of the support team we are the first to interact with someone when they have a problem or question.
 As such it is up to us to represent the company and make sure we present ourselves properly. Therefore we are
@@ -42,7 +62,7 @@ use it to be more productive.
 It is also encouraged to go over your colleagues' responses to previously submitted tickets, to see how they
 craft their replies, and to get more insight and knowledge into topics with which you are unfamiliar.
 
-### Training
+### Training<a name="training"></a>
 
 Right after joining the team you will go through a [training process](/university/support)
 with the guidance of a fellow Service Engineer. In this training you will learn the ins and
@@ -57,7 +77,7 @@ through social media, advancing to general support tickets, and eventually subsc
 
 ## Handling tickets <a name="handling-tickets"/>
 
-### Assigning a ticket to yourself
+### Assigning a ticket to yourself<a name="assign-yourself"></a>
 
 Assign a ticket to yourself the moment you decide you are going to work on it. If the nature of the problem
 requires you to investigate further, let the customer know that you need further time to investigate, assign
@@ -65,19 +85,45 @@ the ticket to yourself, and submit the reply. By assigning the ticket to yoursel
 know that you will work with this customer and by replying to the customer, even if you need further time to
 craft a proper answer, you are acknowledging their request.
 
-### Responding to tickets
 
-For responses to regularly asked question see the [common responses](/handbook/support/common-responses.html)
-section. Common questions should be the prime focus of better documentation, and common responses should be in the form of a
-link to the documentation.
+### Point to documentation, or make it<a name="document-it"></a>
 
-Tickets coming from our customers take a higher priority than regular support tickets and are marked as such
-within ZenDesk. Make sure you take care of these tickets first. They can be seen in the `Subscribers Open`
-view.
+As a general rule, you should always include a link to the applicable documentation as 
+part of your response to a ticket. If the documentation does not exist yet, then 
+_make_ the documentation and send the link in the response. For those situations
+where making documentation is a more time consuming exercise: 
 
-During your interaction with the customers you will most likely need to create an issue, either for a feature
-request or for a bug. Since we do everything in the open, it is good practice to send the link of the issue
-to the requesting customer, so that they can also keep an eye on the discussion there, and weigh in if necessary.
+- add the "documentation" tag to the ticket, 
+- respond to the ticket,
+- create an issue on the [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/) or
+[GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/) repo linking to the ZenDesk
+ticket and add the "Documentation" label, and
+- add the link to this issue in the ZenDesk ticket.
+
+### Create issues<a name="create-issue"></a>
+
+During your interaction with the customers you will most likely need to create an
+issue, either for a feature request, for a bug, or for further documentation.
+Since we do everything in the open, it is good practice to send the link of the
+issue to the requesting customer, so that they can also keep an eye on the discussion
+there, and weigh in if necessary.
+
+Sometimes it is helpful to create an issue on the [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/)
+when dealing with a **tough ticket**. Creating an issue allows more people within
+GitLab easy access to the questions and suggestions since not everyone is familiar
+with ZenDesk. When in doubt, create an issue. Also see the section on [when to escalate](#when-escalate).
+
+#### Ticket fields
+
+The only custom ticket field we use is the `GitLab issues` field. In here you will fill in every
+related GitLab issue that is related to this ticket as a way to cross-link between them.
+
+Every issue you mention here must also contain a link to the ticket in question, either in the
+description or in a comment.
+
+Use this field as a reminder of when and where to follow up.
+
+### Recording information about the organization<a name="fix-organization"></a>
 
 We use ZenDesk Organization Profiles to store relevant information about the customer, like environment setup,
 hardware specs, usage patterns, etc, so that if you need this information, it is readily available from
@@ -95,17 +141,7 @@ in question.
 
 ![Organization Details](/images/support/org-details.png)
 
-#### Ticket Fields
-
-The only custom ticket field we use is the `GitLab issues` field. In here you will fill in every
-related GitLab issue that is related to this ticket as a way to cross-link between them.
-
-Every issue you mention here must also contain a link to the ticket in question, either in the
-description or in a comment.
-
-Use this field as a reminder of when and where to follow up.
-
-#### Tags for Tickets
+### Tag tickets<a name="tags"></a>
 
 To be able to capture metrics on which topics are most frequently asked about, when you start on a ticket,
 add tags to it. Currently, the tags that are to be used are:
@@ -127,7 +163,7 @@ add tags to it. Currently, the tags that are to be used are:
 Tagging tickets will allow us to better capture what topics need to be documented in more detail,
 and/or which areas of the product development can use some attention to prevent creating more requests for support.
 
-#### After the first response
+### After the first response<a name="first-response"></a>
 
 In most cases when you reply to a customer you expect a reply back. In this case the ticket should be
 marked as `Pending`. If this ticket doesn't receive a reply within 7 days, you should follow up with
@@ -138,7 +174,7 @@ When a feature request or the fix for a bug has been scheduled for a future rele
 customer know about the version for which this has been scheduled and when that version is going to be
 releases, e.g. June 22nd for 8.9, and add the `promised` tag to the ZenDesk ticket.
 
-### When and how to escalate a ticket?
+### When and how to escalate a ticket?<a name="when-escalate"></a>
 
 Do not hesitate to ask for help with a ticket, you can ask any of your colleagues to assist you. You can do this via
 Slack initially. If the person you know can help you the best (expert on a specific topic) is not available on
@@ -146,14 +182,7 @@ Slack, you can assign the ticket to them, add a comment summarizing the situatio
 ticket as **open**. Especially if you do are not yet fully familiar with the particular topic of the issue,
 don't spend more than 30 minutes on an issue before escalating it internally.
 
-### When to create an issue relating to a ticket?
-
-Many tickets lead to bug reports or feature requests on the CE issue tracker.
-But it can also be helpful to create an issue on the [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/)
-when dealing with a tough ticket. Creating an issue allows more people within GitLab easy access
-to the questions and suggestions since not everyone is familiar with ZenDesk. When in doubt, create an issue.
-
-### When to mark a ticket as solved?
+### When to mark a ticket as solved?<a name="when-solved"></a>
 
 A ticket can be marked as solved when you are certain that you were able to resolve the requester's
 problem, or, as mentioned above, when many days go by without a reply from the requester. The exception
@@ -161,22 +190,27 @@ to this rule is in social media support channels that do not integrate well with
 the Forum, Stack Overflow, and others, where each comment creates a new ticket. In those cases, you can
 close the ticket as soon as you have provided a response (and also close the ticket created by your own response).
 
-### Clearing out Suspended Tickets
+### Clearing out Suspended Tickets<a name="clear-suspended"></a>
 
 In ZenDesk, various filters send a ticket straight to "suspended" status. This is mostly useful
 to remove spam and it works quite well. However, it is possible that actual tickets
 are accidentally routed to Suspended Tickets, so it is important to check the new Suspended Ticket queue
 at least once a day. Doing this on a regular basis also keeps that queue manageable.
 
-### Receiving negative feedback
+## Receiving feedback<a name="feedback"></a>
 
 After 24 hours of marking the ticket as solved a survey is sent to our customers, where they can rate
 the level of support they received. If a customer rates a ticket to which you were assigned as bad, an
 email will be sent to you and the ZenDesk manager to notify you of the fact. When this happens, you should
 let a Senior know about the problem and follow up with the customer to see if something you did can
-be improved.
+be improved. 
 
-## Dedicated Service Engineers
+You will also receive a message if the feedback is positive, and it is encouraged to
+celebrate those "wins" with the rest of the team through the #support or #thanks
+chat channel. Read the positive feedback carefully, often it contains a question
+or suggestion for improvement which should be followed up on.
+
+## Dedicated Service Engineers<a name="dse"></a>
 
 Certain subscribers have access to a Dedicated Service Engineer. This means that
 tickets that arrive in ZenDesk from people within the subscriber's organization
@@ -193,7 +227,7 @@ currently unavailable to respond to your ticket." When you return, you should re
 all tickets submitted by the subscriber during your absence, and make sure to follow-through
 or follow-up as required.
 
-## Customer Training
+## Customer Training<a name="customer-training"></a>
 
 Service Engineers are regularly asked to provide customer training, and/or to provide answers to technical
 questions from potential customers. The materials for the customer training should be kept up to date [INSERT LINK] .
@@ -203,7 +237,7 @@ If you are receiving such a request via email or Slack, please move it to an iss
 or easy escalation when needed.
 
 
-## Team member is unavailable
+## Team member is unavailable<a name="not-available"></a>
 
 ### Vacation
 
