@@ -14,7 +14,7 @@ In our latest webcast, we looked at highlights from GitLab 8.6.
 Our special guest, [Douwe Maan][Douwe], gave us a live demo of the latest features
 in [GitLab 8.6][releasenotes] with a special focus around improved confidentiality.
 We looked at project configuration and user permissions to start.
-Douwe followed a typical GitLab workflow for demonstrate new features
+Douwe followed a typical GitLab workflow to demonstrate new features
 which make it easier to keep track of what is happening (subscribe to label)
 and features which save you time (create a new branch from an issue), and more.
 
