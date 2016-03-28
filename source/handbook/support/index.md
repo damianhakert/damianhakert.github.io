@@ -129,9 +129,11 @@ adding the "Support" label and @ mentioning one or more Service Engineers.
 The [ZenDesk Insight dashboard](https://gitlab.zendesk.com/agent/reporting/analytics/period:0/dashboard:buLJ3T7IiFnr)
 lists the activity for all our channels currently and summarized over the last 30 days (login to ZenDesk required).
 
+<!--
 The iframe below also shows this dashboard, but it requires a valid session for the above link. Signing in on this page doesn't seem to work.
 
 <iframe frameborder="0" src="https://analytics.zendesk.com/dashboard.html#project=/gdc/projects/fan67iacybmx4rawsd6jcipe01ouaxvt&dashboard=/gdc/md/fan67iacybmx4rawsd6jcipe01ouaxvt/obj/65766&nochrome=true" width="100%" height="380px" allowTransparency="false"></iframe>
+-->
 
 We can't fit more than 13 views in the dashboard panel.
 We have 6 views that are not channels.
@@ -304,7 +306,7 @@ If a tweet is responded to from TweetDeck, this creates a new ticket in ZenDesk;
 or responses. Responding from ZenDesk also enables us to track our response times vs. our internal [SLA](#sla).
 
 Our Developer Advocates also have access to tweets through ZenDesk, and often
-participate in responding to questions. The support team does not retweet or favorite 
+participate in responding to questions. The support team does not retweet or favorite
 any tweets; that is handled by the marketing team.
 
 The @GitLabStatus account should only be used to give updates on the availability
