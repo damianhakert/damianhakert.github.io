@@ -15,13 +15,13 @@ title: Support
 - [Support Direction](#support-direction)
 - [Service Level Agreements](#sla)
 - [Support Turbo](#support-turbo)
-- [Internal Support](#internal)
 - [Dashboard](#dashboard)
 - [Support Channels](#support-channels)
    - [Emergency Tickets](#emergency)
    - [Security disclosures](#security)
    - [GitLab.com downtime](#downtime)
    - [Regular tickets](#regular)
+   - [Internal Support](#internal)
    - [Disqus from blog posts](#disqus)
    - [Twitter](#twitter)
    - [Posted Issues](#issue-tracker)
@@ -110,19 +110,6 @@ of several 'Support Turbo' developers who are called out on the [Team Page](http
 The support team calls for help when necessary via Slack, but in case of doubt or
 conflicting priorities, the Development Lead needs to give the green light for the
 support turbo developers to momentarily switch away from their other tasks.
-
-## Internal Support<a name="internal"></a>
-
-Fellow GitLab team members can reach out for help from the Support Team in various ways:
-
-1. For normal support questions (can GitLab do x, how do I do x with GitLab) email
-the internal support email alias that is listed in the "GitLab Email Forwarding"
-google doc.
-1. For longer term or larger scope questions, such as discussing customized training
-requests create an [internal issue](https://dev.gitlag.org/gitlab/organization/issues/),
-adding the "Support" label and @ mentioning one or more Service Engineers.
-1. If customers or users have questions advise them to contact support direct via the relevant channel.
-1. For quick questions that are urgent ping the support team on the support chat channel.
 
 ## Dashboard <a name="dashboard"></a>
 
@@ -286,6 +273,20 @@ While engaging with customers you should always be prepared to jump on a call wi
 all the information you might need on a 20 minute call than on 10 2-minute emails. If a conversation goes through
 several back and forth emails and the problem still isn't close to being resolved, suggest a call via WebEx or
 Google Hangouts.
+
+### Internal Support<a name="internal"></a>
+
+Fellow GitLab team members can reach out for help from the Support Team in various ways:
+
+1. For normal support questions (can GitLab do x, how do I do x with GitLab) email
+the internal support email alias that is listed in the "GitLab Email Forwarding"
+google doc. Those emails create tickets in ZenDesk.
+1. For longer term or larger scope questions, such as discussing customized training
+requests create an [internal issue](https://dev.gitlag.org/gitlab/organization/issues/),
+adding the "Support" label and @ mentioning one or more Service Engineers.
+1. If customers or users have questions advise them to contact support direct via the relevant channel.
+1. For quick questions that are urgent ping the support team on the support chat channel.
+
 
 ### Disqus questions on the blog <a name="disqus"></a>
 
