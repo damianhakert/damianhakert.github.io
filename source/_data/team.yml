@@ -733,7 +733,15 @@
   twitter:
   gitlab:
   story:  |
-          Joining March 23rd          
+          Joining March 23rd
+
+- name: Annabel Dunstone
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: annabel.png
+  gitlab: annabeldunstone
+  story:  |
+          Annabel is a front end developer with a passion for creating beautiful and functional applications. She has learned bits and pieces of various languages during her career, but is most excited about JavaScript, SASS, and Rails. In her free time she enjoys curling up with a good book, inventing cookie recipes, and spending time with her wonderful fianc&eacute.
 
 - name: T.A.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
