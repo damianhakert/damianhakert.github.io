@@ -36,7 +36,6 @@
   twitter: maxlazio
   gitlab: marin
   maintains:  |
-              <li>On-call hero!</li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/">Omnibus GitLab</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/cookbook-omnibus-gitlab/">Cookbook Omnibus GitLab</a></li>
   story:  |
@@ -54,7 +53,6 @@
   twitter: jacobvosmaer
   gitlab: jacobvosmaer
   maintains:  |
-              <li>On-call hero!</li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-development-kit/">GitLab Development Kit</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-workhorse/">gitlab-workhorse</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/cookbook-marketo-tools/">cookbook-marketo-tools</a></li>
@@ -473,7 +471,7 @@
   twitter: TomaszMaczukin
   gitlab: tmaczukin
   maintains:  |
-              <li>On-call trainee!</li>
+              <li>On-call hero!</li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner">GitLab Runner</a></li>
               <li>DevOps interest</li>
               <li><a href="https://gitlab.com/gitlab-org/omnibus-gitlab/">Omnibus GitLab</a> specialist</li>
