@@ -17,6 +17,7 @@ title: Service Engineer On-boarding
    - [When and how to escalate a ticket?](#when-escalate)
    - [When to mark a ticket as solved?](#when-solved)
    - [Clearing out suspended tickets](#clear-suspended)
+   - [Allowing teammates to adopt a ticket](#allow-others)
 - [Receiving feedback](#feedback)
 - [Dedicated Service Engineers](#dse)
 - [Customer Training](#customer-training)
@@ -197,20 +198,23 @@ to remove spam and it works quite well. However, it is possible that actual tick
 are accidentally routed to Suspended Tickets, so it is important to check the new Suspended Ticket queue
 at least once a day. Doing this on a regular basis also keeps that queue manageable.
 
-### Allowing teammates to adopt a ticket
+### Allowing teammates to adopt a ticket<a name="allow-others"></a>
 
 When you are viewing a ticket teammates see an eye icon on the left of the ticket in the Views Screen.
 
 ![Organization Details](/images/support/zd-eye-icon.png)
 
-This implies that your reading or working on the ticket so if your not going to handle it make sure to close it by 
-closing the tab at the upper section of the screen that has the ticket's title. 
+This implies that you're reading or working on the ticket so if your not going
+to handle it make sure to close it by closing the tab at the upper section of the
+screen that has the ticket's title. 
 
-If you see a ticket with this icon that either you feel you can add value to it or has been open for too long then 
-please ask your teammate through Slack if he or she is still working on it. The person's name appears by hovering over 
-the ticket's title on the list view or by selecting the ticket and reading the "Also on this ticket" section on the top 
-left. Notice that if a general account like GitLab Support is being used there is no name to refer to so you might want 
-to ask on the support channel with the ticket's link.
+If you see a ticket with this icon that either you feel you can add value to it,
+or has been open for too long then please ask your teammate through Slack if he
+or she is still working on it. The person's name appears by hovering over the,
+ticket's title on the list view or by selecting the ticket and reading the
+"Also on this ticket" section on the top left. Notice that if a general account
+like GitLab Support is being used there is no name to refer to so you might want 
+to ask on the support and/or general chat channel with the ticket's link.
 
 ## Receiving feedback<a name="feedback"></a>
 
