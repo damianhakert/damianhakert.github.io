@@ -303,8 +303,8 @@ the ticket that was created for your reply.
 Tweets that mention [@GitLab](https://twitter.com/GitLab), [@GitLabSupport](https://twitter.com/GitLabSupport),
 or [@GitLabStatus](https://twitter.com/GitLabStatus), will create a ticket in ZenDesk,
 and show up in the "Twitter and Facebook" view. All responses should be sent from ZenDesk.
-If a tweet is responded to from TweetDeck, this creates a new ticket in ZenDesk; risking duplication of tickets
-or responses. Responding from ZenDesk also enables us to track our response times vs. our internal [SLA](#sla).
+If a tweet is responded to from TweetDeck, this risks duplicate responses. Responding
+from ZenDesk also enables us to track our response times vs. our internal [SLA](#sla).
 
 Our Developer Advocates also have access to tweets through ZenDesk, and often
 participate in responding to questions. The support team does not retweet or favorite
