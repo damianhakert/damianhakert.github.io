@@ -57,6 +57,7 @@ is hard, but it is part of our company values.
 There is a "gathering applicant feedback" template in Workable with these questions. 
 The feedback survey should be sent out about 3 days after the applicant has been
 notified of the rejection.
+1. PeopleOps will receive the feedback and will use this to improve the hiring process.
 
 
 ## Screening Call<a name="screening-call"></a>
