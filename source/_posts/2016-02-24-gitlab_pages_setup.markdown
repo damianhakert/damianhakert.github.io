@@ -308,6 +308,7 @@ some SSGs examples that we gathered for you, organized by their respective envir
 | [Jekyll] | [Greyscale Theme][j-3-web] | [Source on GitLab][j-3-pro] | [Default][j-3-ci] |  
 | [Jekyll] | [Default Theme][j-2-web] | [Source on GitLab][j-2-pro] | [Building Jekyll 3.1.2 with Bundler][j-2-ci] | 
 | [Middleman] | [Default Theme][middle-prev] | [Source on GitLab][middle-proj] | [Default + Bundler `ENV=PRODUCTION`][middle-ci] | 
+| [Nanoc] | [Default Theme][nanoc-prev] | [Source on GitLab][nanoc-proj] | [Default][nanoc-ci] | 
 
 ### Environment: **[Node JS][node]**
 
@@ -323,6 +324,7 @@ some SSGs examples that we gathered for you, organized by their respective envir
 
 | SSG | Website URL | Project URL | Configuration | 
 | --- | ----------- | ----------- | -------------- |
+| [Pelican] | [Default Theme][pelican-prev] | [Source on GitLab][pelican-proj] | [Default][pelican-ci] |
 | [Lektor] | [Default Theme][lektor-prev] | [Source on GitLab][lektor-proj] | [Default][lektor-ci] |
 | [Hyde] | [Default Theme][hyde-prev] | [Source on GitLab][hyde-proj] | [Default + `test` job][hyde-ci] |
 
@@ -331,6 +333,8 @@ some SSGs examples that we gathered for you, organized by their respective envir
 | SSG | Website URL | Project URL | Configuration | 
 | --- | ----------- | ----------- | -------------- |
 | [Hugo] | [Lanyon Theme][hugo-prev] (Default) | [Source on GitLab][hugo-proj] | [Default][hugo-ci] |
+
+<a name="groups"></a>
 
 ### **More Examples**
 
@@ -377,7 +381,7 @@ Yes, absolutely! Would you need a suggestion? You can try [StartSSL] or [Let's E
 
 Sure! You are very welcome to contribute to the groups mentioned above. 
 To do that, please set your website up and make sure it's working as you expected. 
-Then, add an issue to the group you're interested in. Don't forget to include a link to your project. After a brief evaluation, 
+Then, add an issue to the [group](#groups) you're interested in. Don't forget to include a link to your project. After a brief evaluation, 
 we'll be glad to fork your project and present your theme to our community!
 
 ### Can I use `.php` pages and connect databases with my sites?
@@ -395,7 +399,7 @@ feel free to use one of [our channels][get-help].
 
 # Conclusions
 
-Hopefully now you understand how **GitLab Pages** work and how to create your new site.
+Hopefully now you understand how **[GitLab Pages][pages]** work and how to create your new site.
 
 Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 
@@ -467,7 +471,9 @@ When she is not coding, she is writing articles, studying, teaching or making co
 [Markdown]: http://daringfireball.net/projects/markdown/
 [Metalsmith]: http://www.metalsmith.io/
 [Middleman]: https://middlemanapp.com/
+[Nanoc]: http://nanoc.ws/
 [node]: https://nodejs.org/en/
+[Pelican]: http://blog.getpelican.com/
 [Python]: https://www.python.org/
 [Ruby]: https://www.ruby-lang.org/
 [Sass]: http://sass-lang.com/
@@ -529,3 +535,11 @@ When she is not coding, she is writing articles, studying, teaching or making co
 [hyde-prev]: https://pages.gitlab.io/hyde/
 [hyde-proj]: https://gitlab.com/pages/hyde
 [hyde-ci]: https://gitlab.com/pages/hyde/blob/master/.gitlab-ci.yml
+
+[nanoc-prev]: https://pages.gitlab.io/nanoc/
+[nanoc-proj]: https://gitlab.com/pages/nanoc
+[nanoc-ci]: https://gitlab.com/pages/nanoc/blob/master/.gitlab-ci.yml
+
+[pelican-prev]: https://pages.gitlab.io/pelican/
+[pelican-proj]: https://gitlab.com/pages/pelican
+[pelican-ci]: https://gitlab.com/pages/pelican/blob/master/.gitlab-ci.yml
