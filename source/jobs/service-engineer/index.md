@@ -10,11 +10,11 @@ If you would love to work from home and help GitLab grow, this is the right spot
 
 ## Responsibilities
 
-* Engage with our customers—anything from a small advertising firm or a university, to Fortune 100 clients and 
+* Engage with our customers—anything from a small advertising firm or a university, to Fortune 100 clients and
 help them with anything from a simple support ticket to a customer training
 * Communicate via email and video conferencing with potential and current clients
 * Maintain GitLab.com and our other services such as GitHost.io
-* Participate in the rotating "on-call" list to provide 24/7 emergency response availability 
+* Participate in the rotating "on-call" list to provide 24/7 emergency response availability
 * Ensure that everything we learn from running GitLab.com is set as default or communicated to our users
 * Write and update documentation based on customer interactions
 * Submit and comment on feature requests based on customer interactions
@@ -22,15 +22,28 @@ help them with anything from a simple support ticket to a customer training
 More information can be found on the [support page in the handbook](https://about.gitlab.com/handbook/support/).
 
 ### Senior Service Engineer
+
 Senior Service Engineers are experienced Service Engineers who 
 
 * have deep knowledge of GitLab internals and a variety of possible configurations
 * help hire and train new Service Engineers
 * are a go-to person for the other Service Engineers when they face tough challenges
 * improve the support process (Optimize Zendesk flow, suggest rake task additions)
-* write blog articles 
+* write blog articles
 * take ownership of documentation and feature requests that is based on customer interactions
 * create merge requests to fix bugs
+
+## Success Criteria
+
+You know you are doing a good job as a Service Engineer when:
+
+* Customers consistently give your support high ratings.
+* You are providing feedback from customer experiences to the rest of the team in a constructive way that
+improves the product and experience.
+* You are actively contributing to training materials, tutorials, and other clear documentation.
+* You are able to keep GitLab.com "in the air" when you are on-call.
+* Your interaction with the rest of the GitLab community is constructive and positive.
+* You show initiative in improving support processes and in making the life of all GitLab users easier.
 
 
 ## Requirements for Applicants
