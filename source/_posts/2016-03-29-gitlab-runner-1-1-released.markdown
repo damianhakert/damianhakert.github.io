@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "GitLab Runner 1.1 with auto-scaling"
-date: 2016-03-24
+date: 2016-03-29 08:00
 comments: true
 categories:
 author: Kamil Trzciński
 author_twitter: ayufanpl
 ---
 
-Over the last year the GitLab Runner, become a significant part of GitLab family. 
+Over the last year the GitLab Runner, become a significant part of GitLab family.
 
 GitLab Runner 1.1 is the biggest release yet.
 The new release introduces a new feature the auto-scaling.
