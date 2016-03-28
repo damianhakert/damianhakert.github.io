@@ -18,7 +18,7 @@ title: "People Operations"
 ## Reaching People Operations<a name="reach-peopleops"></a>
 
 To reach People Operations, please post an issue on our [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/)
-and add the 'PeopleOps' label, or send an email to the People Operations group (see the [sheet with aliases](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#)), or ping an individual
+and add the 'PeopleOps' label, or send an email to the People Operations group (see the "GitLab Email Forwarding" google doc), or ping an individual
 member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
 
 ## Setting up new hiring contracts<a name="new-contracts"></a>
