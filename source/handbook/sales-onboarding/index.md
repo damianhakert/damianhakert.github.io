@@ -7,7 +7,7 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 
 ### Week 1 Test
 1. [Version Control Systems Test](http://goo.gl/forms/8H8SNcH70T)
-1. [Intro to Git Test](http://goo.gl/forms/GgWF1T5Ceg) 
+1. [Intro to Git Test](http://goo.gl/forms/GgWF1T5Ceg)
 1. Create a group on GitLab.com named: "glu_yourname"
 1. Add your direct manager and Chad Malchow as master to the group
 1. Create a project "About Me" with a README.md with a list of things that we should know about you
@@ -23,8 +23,8 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 1. Complete TrainTool Course - On-Premised vs. SaaS
 
 ### Week 3 Test
-1. [GitLab 8.2 Test](http://goo.gl/forms/9PnmhiNzEa) 
-1. [Big Files in Git Test](http://goo.gl/forms/RFsNK9fKuj) 
+1. [GitLab 8.2 Test](http://goo.gl/forms/9PnmhiNzEa)
+1. [Big Files in Git Test](http://goo.gl/forms/RFsNK9fKuj)
 1. Complete TrainTool Course - Asking Effective Questions
 1. Complete TrainTool Course - Closing Techniques
 1. Complete TrainTool Course - Handling Pricing Objections
@@ -39,6 +39,8 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 1. Opportunity Stage to presenting solution
 
 #### Supporting Information
+
+1. [Getting Technical Support](https://about.gitlab.com/handbook/support/#internal)
 
 1. [Our Sales Process](https://about.gitlab.com/handbook/sales-process/)
 
