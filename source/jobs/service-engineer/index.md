@@ -45,7 +45,7 @@ Senior Service Engineers are experienced Service Engineers who
 
 * B.Sc. in Computer Science or equivalent experience
 * Above average knowledge of Unix and Unix based Operating Systems
-* Vast experience with Ruby on Rails Applications
+* Vast experience with Ruby on Rails Applications and git
 * Good people skills
 * Excellent spoken and written English
 * Work remotely from anywhere in the world (Curious to see what that looks like? Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!)
