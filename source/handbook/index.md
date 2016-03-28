@@ -69,7 +69,7 @@ On a personal level you should tell it like it is instead of putting up a poker 
 and processes to the world. An example is the MIT licensed [GitLab CE](https://about.gitlab.com/features/).
 1. Freedom: You should have clear objectives and the freedom to work on them as you
 see fit. Any instructions are open to discussion. You don't have to defend how you
-spend your day.
+spend your day. We trust team members to do the right thing instead of having rigid rules.
 1. Efficiency: We care about working on the right things, not doing more than needed,
 and not duplicating work. This enables us to achieve more progress with less people
 and makes our work more fulfilling.
