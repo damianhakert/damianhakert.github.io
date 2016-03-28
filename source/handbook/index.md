@@ -388,11 +388,16 @@ intellectual property violations
 ## Spending Company Money<a name="spending-company-money"></a>
 
 1. Spend company money like it is your **own** money.
-1. You don't have to ask permission before making purchases in the interest of the company. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
+1. You don't have to ask permission before making purchases in the interest of the
+company. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
 1. **File** your expense report 7 days after the end of the calendar quarter.
-1. Any non-company expenses paid with a company credit card will have to be reported to your manager as soon as possible and **refunded** in full within 14 days.
-1. **Mileage** is reimbursed according to local law: [US rate per mile](http://www.irs.gov/Tax-Professionals/Standard-Mileage-Rates), or [rate per km](http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/auto_en_vervoer/auto_van_de_onderneming/autokosten/u_rijdt_in_uw_eigen_auto) in the Netherlands.
-1. The company will pay for the following **items** if you need it for work or use it mainly for business, and local law allows us to pay for it without incurring payroll taxes:
+1. Any non-company expenses paid with a company credit card will have to be reported
+to your manager as soon as possible and **refunded** in full within 14 days.
+1. **Mileage** is reimbursed according to local law: [US rate per mile](http://www.irs.gov/Tax-Professionals/Standard-Mileage-Rates),
+or [rate per km](http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/auto_en_vervoer/auto_van_de_onderneming/autokosten/u_rijdt_in_uw_eigen_auto) in the Netherlands.
+1. The company will pay for the following **items** if you need it for work or use
+it mainly for business, and local law allows us to pay for it without incurring
+payroll taxes (links are to sample items, other options can be considered):
     *  Notebook: we recommend getting a [MacBook Pro 13-inch retina with 512GB](http://www.apple.com/shop/buy-mac/macbook-pro) for engineers and a [Macbook 256GB](http://www.apple.com/shop/buy-mac/macbook-pro) for non-engineers. Running Unix makes it easier to work with git from the command line so we strongly recommend against Windows laptops. WebEx screen sharing does not work from a Linux platform while it is one of the more common conferencing tools used with customers that we all need to interact with from time to time. Additionally 1password doesn't have a native client for Linux and the web interface in Firefox is not that good. If you have strong reasons to want to deviate from this guideline just ask your manager.
     *  [Notebook carrying bag](http://www.amazon.com/Under-Armour-Hustle-Backpack-Royal/dp/B00OQSL6LO/ref=sr_1_27?s=office-products&ie=UTF8&qid=1458505246&sr=1-27&keywords=laptop+backpack)
     *  External [monitor](http://www.amazon.com/gp/product/B009C3M7H0?psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s00), [monitor-cable](http://www.amazon.com/Monoprice-32AWG-Mini-DisplayPort-Cable/dp/B0034X6SCY/ref=sr_1_1?ie=UTF8&qid=1442231319&sr=8-1&keywords=Monoprice+6ft+32AWG+Mini+DisplayPort+to+DisplayPort+Cable+-+White), 
@@ -415,7 +420,7 @@ intellectual property violations
         * Upgrade to Economy Plus if you’re taller than 1.95m / 6’5” for flights longer than 2 hours.
         * Up to the first [EUR 100](https://www.google.com/search?q=100+eur+in+usd) for an upgrade to Economy Plus (no height restriction) on flights longer than 8 hours.
     * Anything else you need? Please ask!
-    * To order please send a screenshot of what you need to peopleops@gitlab.com
+    * To order please send a screenshot of what you need to People Ops.
 1. **Expense Reimbursement**
     *  If you are a contractor, please submit an invoice with receipts attached to ap@gitlab.com.
     *  If you are an employee, GitLab uses Expensify to facilitate the reimbursement of your expenses.
