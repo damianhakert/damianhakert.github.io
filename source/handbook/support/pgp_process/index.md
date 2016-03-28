@@ -5,7 +5,7 @@ title: PGP Process
 
 # Install GPG Keychain and import PGP keypair
 
-On a Mac, download and install the [GPG Keychain](gpgtools.org) application.
+On a Mac, download and install the [GPG Keychain](https://gpgtools.org) application.
 Download the keypair file from the Support vault. It's attached to the
 'security@gitlab.com PGP Keypair' item.
 Open the GPG Keychain application and import the keypair file. It will ask for
