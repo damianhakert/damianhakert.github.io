@@ -8,7 +8,6 @@ title: Support
 - [Service Engineer On-boarding](/handbook/support/onboarding/)
 - [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
 - [PGP Process](https://about.gitlab.com/handbook/support/pgp_process/)
-- [Support and Development Process](https://about.gitlab.com/handbook/support-and-development-process)
 
 ## Contents of the page
 
