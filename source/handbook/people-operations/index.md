@@ -47,6 +47,10 @@ Once you've sent out the document you will receive email notifications of the pr
 We’re using [BambooHR](https://gitlab.bamboohr.com) to keep all team member information 
 in one place. All team members (all contract types) are in BambooHR.
 
+Some changes or additions we make to BambooHR require action of our team. Before calling the whole team into action,
+make sure to check with all contributors involved on the steps to be taken. Make sure to test if what you're asking the
+team to do is possible and legally accurate.
+
 ### Adding a new team member to BambooHR <a name="admin-bamboo"></a>
 
 After People Ops is requested to make a contract or offer letter for a potential hire,
