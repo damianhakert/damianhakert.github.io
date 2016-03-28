@@ -75,7 +75,8 @@ Team members can keep their information in BambooHR updated using self-service:
 
 ## Managing the PeopleOps onboarding tasks <a name="manage-onboarding-tasks"></a>
 
-Here are some useful guidelines to set up everything for our new team members with the onboarding issue
+Here are some useful guidelines to set up everything for our new team members with the onboarding issue.
+If Google Sheets or Docs are mentioned, these will be shared with you on Google Drive.
 
 - **Add team member to availability calendar**
 Make a new "all-day" event on the day the new team member starts "[Name] joining 
@@ -107,7 +108,7 @@ On the right enter the team member's GitLab email address in the  "add guests"
 section and click save. When asked select "all events" to add to all scheduled 
 meetings and "send" out the invitation. 
 - **Order business cards**
-Add the new team member's info to the [Business Cards](https://docs.google.com/a/gitlab.com/document/d/1F1G936gdkMsPLPgbOT7ekM1E0Ht0YxyeSisB8mB1HPM/edit?usp=sharing) document. 
+Add the new team member's info to the Business Cards Google doc. 
 Email our partner to order new business cards and add the info for the cards to 
 be ordered. Include the address of the team member (found in BambooHR) and inform 
 our partner to _**ship the cards directly to that address**_. Double check the 
@@ -123,8 +124,11 @@ In the top menu move your cursor over the blue login button. Go to "Manage your 
 Click on "manage" in the lower left corner. Enter the GitLab email and scroll down 
 to find the newly addedd email. Check the box for "Auto connect".
 - **Add team member into the Austin info sheets**
-Add the team member's name to the [Travel](https://docs.google.com/spreadsheets/d/14I0m6crQBMZD6GVbl-vNceR9h6a3PP7-NEpZED1nSKY/edit#gid=0) and [Lodging](https://docs.google.com/spreadsheets/d/1XhCG_JhbLvck4WQNvJfn0X3SFhkvTwFr3PCrbTcPnHM/edit#gid=398389470) sheets to make sure they enter flight details and they are assigned a room.
+Add the team member's name to the Travel and Lodging Google sheets to make sure they enter flight details and they are assigned a room.
 - **Add team member to our Egencia platform**
+Log into Egencia and go to the menu option "manage users". Choose "new user account" and fill in the passport name of the new team member.
+As username choose the same handle as on our dev page. Enter the GitLab email address and uncheck the newsletter box.
+Lastly assign the department in which the new team member is working.
 
 ## Administrative details of benefits for US-based employees <a name="benefits-us"></a>
 
