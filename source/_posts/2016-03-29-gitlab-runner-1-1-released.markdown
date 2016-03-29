@@ -73,7 +73,7 @@ Autoscaling allows you to increase developer happiness. Everyone hates to wait
 for their builds to be picked up, just because all Runners are currently in use.
 
 The autoscaling feature promotes heavy parallelization of your tests, something
-that is made easy by defining [stages] in your `.gitlab-ci.yml` file.
+that is made easy by defining multiple [jobs] in your `.gitlab-ci.yml` file.
 
 While cutting down the waiting time to a minimum makes your developers happy,
 this is not the only benefit of autoscaling. In the long run, autoscaling
