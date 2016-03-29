@@ -21,7 +21,13 @@ help them with anything from a simple support ticket to a customer training
 
 More information can be found on the [support page in the handbook](https://about.gitlab.com/handbook/support/).
 
+### Junior Service Engineer
+
+Junior Service Engineer's responsibilities cover all the support channels that are
+supported by a level 3 or 4 SLA, per the definitions on the [Support](/handbook/support/#sla) page.
+
 ### Senior Service Engineer
+
 Senior Service Engineers are experienced Service Engineers who 
 
 * have deep knowledge of GitLab internals and a variety of possible configurations
@@ -34,11 +40,12 @@ Senior Service Engineers are experienced Service Engineers who
 
 
 ## Requirements for Applicants
+
 (Check our [Jobs](https://about.gitlab.com/jobs/) page to see current openings).
 
 * B.Sc. in Computer Science or equivalent experience
 * Above average knowledge of Unix and Unix based Operating Systems
-* Vast experience with Ruby on Rails Applications
+* Vast experience with Ruby on Rails Applications and git
 * Good people skills
 * Excellent spoken and written English
 * Work remotely from anywhere in the world (Curious to see what that looks like? Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!)
