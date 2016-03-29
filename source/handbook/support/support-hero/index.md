@@ -11,7 +11,6 @@ Winners receive a [Swag store](https://gitlab.mybrightsites.com) credit code for
 
 The process of Support Hero selection consists of the following steps:
 
-+ **29th of each month:** Nominations start on an internal issue tagged with the _Support_ label.
-+ **15th of each month:** Support Hero nominations close, Hero of the month gets selected.
-+ **2-3 business days:** Support Hero receives notification from the program manager and the Swag store code from Marketing.
++ **1st of each month:** Nominations start on an internal issue tagged with the _Support_ label.
++ **20th of each month:** Support Hero nominations close, Hero of the month gets selected, receives notification and the Swag store code.
 + **22th of each month (Release Day):** Support Hero is publicly acknowledged in the release blog post.
