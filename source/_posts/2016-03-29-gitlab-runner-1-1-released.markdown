@@ -90,7 +90,7 @@ reduces your infrastructure costs:
 Below, you can see a real-life example of the Runner's autoscale feature, tested
 on GitLab.com for the [GitLab Community Edition][ce] project:
 
-![Real life example of autoscaling](/images/runner_1_1/autoscaling-gitlab-com.png)
+![Real life example of autoscaling](/images/runner_1_1/auto-scaling-gitlab-com.png)
 
 Each machine on the chart is an independent cloud instance, running build jobs
 inside Docker containers. Our builds are run on DigitalOcean 4GB machines, with
