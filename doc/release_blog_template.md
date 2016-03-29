@@ -14,6 +14,9 @@ Intro and introduce main features here.
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
 
+Also, this month's [Support Hero](https://about.gitlab.com/handbook/support/support-hero/) is ***SUPPORT_HERO_USER*** ***CONTRIBUTION_OF_SUPPORT_HERO_USER***.
+Thanks ***SUPPORT_HERO_USER_FIRST_NAME***!
+
 <!--more-->
 
 ## feature 1
