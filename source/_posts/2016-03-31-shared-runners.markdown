@@ -10,40 +10,36 @@ image_title: '/images/unsplash/agile.jpeg'
 ---
 
 Not only is [Continuous Integration][docs-ci] built-in with GitLab CE and EE,
-we also offer [Shared Runners][docs-runners] to run your builds in CI *for free* on
-GitLab.com.
-Up until recently, you may have experienced a short wait time as your build got
-queued for a shared runner.
-With the [latest release of GitLab Runner 1.1][runner-release], we've
-introduced autoscaling to help us meet the growing demand, and this is now
-available on GitLab.com. Less waiting, more building!
+but we also offer [Shared Runners][docs-runners] to run your builds in CI *for
+free* on GitLab.com. Up until recently, you may have experienced a short wait
+time as your build got queued for a shared runner. With the [latest release of
+GitLab Runner 1.1][runner-release], we've introduced autoscaling to help us meet
+the growing demand, and this is now available on GitLab.com. Less waiting, more
+building!
 
 <!--more-->
 
 ## Scaling the service
 
-Continuous Integration comes built-in with GitLab, for both CE and EE.
-That means projects hosted in GitLab can have CI run tasks specified in their
-YAML files.
-These tasks are performed by [*runners*][docs-runners] which are essentially virtual machines
-which run your builds in Docker containers.
-These machines can run any of your builds that are compatible with Docker.
+Projects hosted in GitLab can have CI tasks defined in their [`.gitlab-ci.yml`
+files](http://doc.gitlab.com/ce/ci/yaml/README.html). These tasks are performed
+by [*runners*][docs-runners] which are essentially virtual machines which run
+your builds in Docker containers. These machines can run any of your builds that
+are compatible with Docker.
 
-In other platforms similar functionality is only available with an add-on
-charge such as Agents in Bamboo (which is an add-on service to BitBucket.)
-In GitLab it's free to connect your own runners, and we also started offering
-free [Shared Runners][docs-runners] on GitLab.com.
-That means Shared Runners are freely available for projects on GitLab.com,
-whether they are private or public.
-However, up until recently users would have noticed their builds would be queued
-to run as they waited for a shared runner to be made available.
+On other platforms, similar functionality is only available with an add-on
+charge. In GitLab it's free to connect your own runners, and we also began
+offering free [Shared Runners][docs-runners] on GitLab.com. That means Shared
+Runners are freely available for projects on GitLab.com, whether they are
+private or public. However, up until recently users would have noticed their
+builds would be queued to run as they waited for a shared runner to become
+available for work.
 
 Today we are extending our offering, enabling the [recently announced][runner-release]
-autoscaling feature.
-This will reduce the build times and also the reduce that time required to
-allocate a new free machine.
+autoscaling feature. This will reduce the build times and also reduce the time
+required to allocate a new available machine.
 
-The Shared Runners for GitLab.com from today use the new GitLab Runner 1.1.
+As of today, the Shared Runners for GitLab.com use the new GitLab Runner 1.1.
 GitLab Runner is configured in autoscaling mode with distributed cache and
 Docker registry proxy for Docker images.
 
@@ -57,19 +53,19 @@ are served by [GitLab Pages][docs-pages].
 
 ## The machines
 
-All your builds run on [Digital Ocean](https://www.digitalocean.com/) 4GB,
-with CoreOS and latest Docker Engine installed.
+All your builds run on [Digital Ocean](https://www.digitalocean.com/) 4GB
+instances, with CoreOS and the latest Docker Engine installed.
 
-Your builds will always be run on fresh machines. This will reduce the potential
-security issues to zero, meaning there is no potential of breaking out of the
-container.
+Your builds will always be run on fresh machines. This will effectively
+eliminate possible security issues, as there is no potential of breaking
+out of the container.
 
 ## The tags
 
-All Shared Runners received two tags: `shared` and `docker`.
+All Shared Runners are tagged with `shared` and `docker`.
 
-You can use these tags in your `.gitlab-ci.yml` to limit which runners are used
-for what branches:
+You can use these tags in your `.gitlab-ci.yml` file to limit which runners are
+used for specific jobs:
 
 ```
 test:
@@ -86,16 +82,18 @@ deploy:
 
 The above script will configure GitLab to always run your tests on shared
 runners, and run deployments only on your specific runner, registered with
-tag `my_private_runner`.
+a `my_private_runner` tag.
 
 ## What has changed
 
-Previously runners were configured to always start the `mysql`, `postgres`,
-`redis` and `mongodb`.
-We are aware that most of our users don't need to use any of these services.
-Thus we are removing hard dependency on them.
-This can lead to scenario where your builds start to fail.
-Modify your `.gitlab-ci.yml` and add the services required by your application:
+Previously, runners were configured to always start the `mysql`, `postgres`,
+`redis`, and `mongodb` services.
+However, we are aware that most of our users don't need to use all (or even any)
+of these services, and have removed them from the default configuration.
+
+If your builds _do_ require one or more of these services, your builds may start
+to fail unexpectedly. Modify your `.gitlab-ci.yml` file to add the services
+required by your application:
 
 ```
 services:
