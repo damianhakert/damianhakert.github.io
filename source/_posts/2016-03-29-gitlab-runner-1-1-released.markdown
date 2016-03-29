@@ -9,9 +9,13 @@ author_twitter: ayufanpl
 image_title: '/images/unsplash/high-road.jpg'
 ---
 
-Over the last year the GitLab Runner has become a significant part of the GitLab
-family. We've recently made major improvements with the release of GitLab Runner 1.1.
-The new release introduces a new feature: Auto-Scaling.
+Over the last year, GitLab Runner has become a significant part of the GitLab
+family. We are happy to announce that GitLab Runner 1.1 is released today; a
+release that brings major improvements over its predecessor. There is one
+feature though that we are excited about and is the cornerstone of this release.
+
+Without further ado, we present you GitLab Runner 1.1 and its brand-new, shiny
+feature: Autoscaling!
 
 <!-- more -->
 
