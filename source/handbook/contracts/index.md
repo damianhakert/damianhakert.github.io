@@ -1262,7 +1262,7 @@ Date:
 
 During this usability test I agree to participate in an online session using my computer and telephone. During the session I will be interviewed about the site, asked to find information or complete tasks using the site, asked to complete an online questionnaire about the experience, and I may be video recorded (together, these form the “Materials”).
 
-I understand and consent to the use and release of the Materials by GitLab B.V. (“GitLab”). I understand that the information and recording are primarily for research purposes, but it is the discretion of GitLab to decide whether and how to use the Materials. I relinquish any rights to the Materials and understand the recording may be copied and used by GitLab without further permission. I hereby agree to release, defend, and hold harmless GitLab and its agents or employees, from and against any claims, damages or liability arising from or related to the use of the Materials, including but not limited to libel, defamation, invasion of privacy or right of publicity, infringement of copyright or trademark, misuse, distortion, blurring, alteration, optical illusion or use in composite form, either intentionally or otherwise, that may occur or be produced in taking, processing, reduction or production of the Materials, their publication or distribution.  
+I understand and consent to the use and release of the Materials by GitLab B.V. (“GitLab”). These materials will likely be made public. I understand that it is the discretion of GitLab to decide whether and how to use the Materials. I relinquish any rights to the Materials and understand the recording may be copied and used by GitLab without further permission. I hereby agree to release, defend, and hold harmless GitLab and its agents or employees, from and against any claims, damages or liability arising from or related to the use of the Materials, including but not limited to libel, defamation, invasion of privacy or right of publicity, infringement of copyright or trademark, misuse, distortion, blurring, alteration, optical illusion or use in composite form, either intentionally or otherwise, that may occur or be produced in taking, processing, reduction or production of the Materials, their publication or distribution.
 
 I have read the above authorization, release, and agreement and I am fully familiar with the contents thereof. This release shall be binding upon me and my heirs, legal representatives, and assigns. I understand that participation is voluntary and I agree to immediately raise any concerns I might have.
 
@@ -1274,9 +1274,9 @@ Please sign below to indicate that you have read and understand the information 
 
 Date:{Date}
 
-Please print your name: {Usability Tester Name}  
+Please print your name: {Usability Tester Name}
 
-Please sign your name:   
+Please sign your name:
 
 Thank you!
 
