@@ -166,7 +166,7 @@ Read the [revised documentation][doc-improved].
 ## Using Runner on OSX
 
 We also upgraded GitLab Runner 1.1 to be compatible with El Capitan and Xcode 7.3.
-You should read the revisied [installation guide for OSX][osx-install]
+You should read the revised [installation guide for OSX][osx-install]
 and FAQ section describing the [needed prepartion steps][osx-faq].
 
 ## Changelog
