@@ -3,14 +3,13 @@ layout: markdown_page
 title: "GitLab Onboarding"
 ---
 
-## Other pages
+## Job specific onboarding pages
 
 * [Sales onboarding](/handbook/sales-onboarding)
 * [Developer onboarding](/handbook/developer-onboarding)
 * [Service engineer onboarding](/handbook/support/onboarding.html)
-* [Offboarding](/handbook/offboarding)
 
-## This page
+## General Onboarding Topics on this page
 
 * [Master Checklist for Onboarding of New Hires](#checklist)
 * [Onboarding Topics That Apply to Everyone](#everyone)
@@ -18,6 +17,7 @@ title: "GitLab Onboarding"
   * [GitLab Instances](#gitlab-instances)
   * [Security](#security)
   * [Git Quiz!](#quiz)
+* [Offboarding](#offboarding)
 
 ## Master Checklist for Onboarding of New Hires <a name="checklist"></a>
 
@@ -101,11 +101,11 @@ Next to Savvy, the People Ops team will also get a copy of the form info for you
 
 ### WITHIN FIRST WEEK OF STARTING
 
-* [ ] People Ops: Invite to autoconnect on [Beamy](https://about.gitlab.com/handbook#beamy-guidelines).
-* [ ] People Ops: Order business cards for new team member.
-* [ ] People Ops: Add team member to Expensify (if employee).
-* [ ] People Ops: Add new team member to the info sheets of the Austin Summit
-* [ ] PeopleOps: Send the new team member the "reset password" email for their BabooHR profile
+* [ ] PeopleOps: Invite to autoconnect on [Beamy](https://about.gitlab.com/handbook#beamy-guidelines).
+* [ ] PeopleOps: Order business cards for new team member.
+* [ ] PeopleOps: Add team member to Expensify (if employee).
+* [ ] PeopleOps: Add new team member to the info sheets of the Austin Summit
+* [ ] PeopleOps: Send the new team member the "reset password" email for their BambooHR profile
 * [ ] Patricio/COO: Add to tweetdeck (applies to Service Engineers and Production Engineers for @gitlabstatus, and marketing hires)
 * [ ] New team member: Register on 1Password by clicking [this link](https://gitlab.1password.com/teamjoin/invitation/J2KWH3CJDRFA7KTFDVVXXDSCMY)
 and then ping @rspeicher to confirm your account.
@@ -115,7 +115,8 @@ and then ping @rspeicher to confirm your account.
 * [ ] New team member: Use the "reset your password" email of BambooHR to set a password and access your profile.
 * [ ] New team member: Add your Address, Phone number, private email and emergency contact to your BambooHR profile page.
 * [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar, stock photo or something with sunglasses).
-* [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo.
+* [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. Assign the merge request to your Manager.
+* [ ] PeopleOps: Once the new team member is added to the team page, request on the marketing chat channel that this happy news is tweeted out to the world.
 * [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing)
 * [ ] New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
 * [ ] New team member: Read the [Summit page](https://gitlab.com/summits/Austin-Summit-2016-project/) and save the date!
@@ -227,3 +228,42 @@ Employees should answer GitLab quiz questions in the first 2 weeks of working in
 the company. If the answers are not accurate, you may retest once:
 <a href="https://about.gitlab.com/handbook/questions/">GitLab Quiz.</a>
 Please schedule a call with your hiring manager.</li>
+
+
+## Offboarding<a name="offboarding"></a>
+Create issue for former team member on the dev server in the organization project and add the following checklist (edit it for applicability to the individual).
+This list looks strange in this handbook but this is to ensure you can copy paste it into an issue.
+When you paste it in an issue it will have checkboxes that you can click to complete.
+
+```
+* [ ] For this offboarding, Manager is (@ mention), People Ops is handled by (@ mention). cc @rspeicher, @jacobvosmaer, @patricio, @ernst.
+* [ ] Manager of former team member: Organize smooth hand over of any work or tasks from former team member.
+* [ ] Robert/Jacob/COO: Dealing with the Google account
+   * [ ] Robert/Jacob/COO: Check with the former team member's manager if they want email forwarded. If yes, then:
+   * [ ] Robert/Jacob/COO: switch off 2FA for the account, reset the password, log on, and set email to forward to the manager. 
+   Also change the phone number and alternative email (typically personal email address) that are associated with the account. Switch 2FA back on and save login credentials in 1password.
+   * [ ] Robert/Jacob/COO: upon manager's request (typically 4 weeks after blocking the Google account), transfer owned documents from Google Drive to
+   manager, and delete the Google account.
+* [ ] Robert/Jacob/COO: Disable team member in Slack.
+* [ ] People Ops: Remove former team member from TriNet and payroll if applicable.
+* [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment.
+* [ ] People Ops: Inform Controller / Accounting if any items in former team members possession will not be returning, so that they can be removed from asset tracking.
+* [ ] Robert/Jacob/COO: Remove former team members' GitLab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members)
+* [ ] Robert/Jacob/COO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members)
+* [ ] People Ops: Remove access to 1Password.
+* [ ] People Ops: Remove team member access to Google Drive.
+* [ ] Manager: Remove access to SalesForce.
+* [ ] Manager: Remove access to Recurly.
+* [ ] Manager: Remove access to Netsuite.
+* [ ] People Ops: Remove access to company credit card.
+* [ ] People Ops: Remove from Beamy
+* [ ] People Ops: Remove team member from the GitLab availability calendar.
+* [ ] People Ops: Remove team member from team call invitation.
+* [ ] People Ops: Remove team member from HelloSign, if applicable.
+* [ ] People Ops: Remove team member from map / Sundial.
+* [ ] Patricio/Jacob/COO: Remove from tweetdeck
+* [ ] People Ops: Notify eShares administrator (CFO) of offboarding.
+* [ ] People Ops: Note final date of employment / contract in the "Organizational Chart and Hiring" sheet.
+* [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team)
+* [ ] Operations: If the person is from operations [remove the sysadmin](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/user-administration.md#remove-a-sysadmin)
+```
