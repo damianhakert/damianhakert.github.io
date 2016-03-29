@@ -3,13 +3,14 @@ layout: markdown_page
 title: "GitLab Onboarding"
 ---
 
-## Job specific onboarding pages
+## Other pages
 
 * [Sales onboarding](/handbook/sales-onboarding)
 * [Developer onboarding](/handbook/developer-onboarding)
 * [Service engineer onboarding](/handbook/support/onboarding.html)
+* [Offboarding](/handbook/offboarding)
 
-## General Onboarding Topics on this page
+## This page
 
 * [Master Checklist for Onboarding of New Hires](#checklist)
 * [Onboarding Topics That Apply to Everyone](#everyone)
@@ -17,7 +18,6 @@ title: "GitLab Onboarding"
   * [GitLab Instances](#gitlab-instances)
   * [Security](#security)
   * [Git Quiz!](#quiz)
-* [Offboarding](#offboarding)
 
 ## Master Checklist for Onboarding of New Hires <a name="checklist"></a>
 
@@ -227,42 +227,3 @@ Employees should answer GitLab quiz questions in the first 2 weeks of working in
 the company. If the answers are not accurate, you may retest once:
 <a href="https://about.gitlab.com/handbook/questions/">GitLab Quiz.</a>
 Please schedule a call with your hiring manager.</li>
-
-
-## Offboarding<a name="offboarding"></a>
-Create issue for former team member on the dev server in the organization project and add the following checklist (edit it for applicability to the individual).
-This list looks strange in this handbook but this is to ensure you can copy paste it into an issue.
-When you paste it in an issue it will have checkboxes that you can click to complete.
-
-```
-* [ ] For this offboarding, Manager is (@ mention), People Ops is handled by (@ mention). cc @rspeicher, @jacobvosmaer, @patricio, @ernst.
-* [ ] Manager of former team member: Organize smooth hand over of any work or tasks from former team member.
-* [ ] Robert/Jacob/COO: Dealing with the Google account
-   * [ ] Robert/Jacob/COO: Check with the former team member's manager if they want email forwarded. If yes, then:
-   * [ ] Robert/Jacob/COO: switch off 2FA for the account, reset the password, log on, and set email to forward to the manager. 
-   Also change the phone number and alternative email (typically personal email address) that are associated with the account. Switch 2FA back on and save login credentials in 1password.
-   * [ ] Robert/Jacob/COO: upon manager's request (typically 4 weeks after blocking the Google account), transfer owned documents from Google Drive to
-   manager, and delete the Google account.
-* [ ] Robert/Jacob/COO: Disable team member in Slack.
-* [ ] People Ops: Remove former team member from TriNet and payroll if applicable.
-* [ ] People Ops: Reach out to former team member to identify and retrieve any company supplies/equipment.
-* [ ] People Ops: Inform Controller / Accounting if any items in former team members possession will not be returning, so that they can be removed from asset tracking.
-* [ ] Robert/Jacob/COO: Remove former team members' GitLab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members)
-* [ ] Robert/Jacob/COO: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members)
-* [ ] People Ops: Remove access to 1Password.
-* [ ] People Ops: Remove team member access to Google Drive.
-* [ ] Manager: Remove access to SalesForce.
-* [ ] Manager: Remove access to Recurly.
-* [ ] Manager: Remove access to Netsuite.
-* [ ] People Ops: Remove access to company credit card.
-* [ ] People Ops: Remove from Beamy
-* [ ] People Ops: Remove team member from the GitLab availability calendar.
-* [ ] People Ops: Remove team member from team call invitation.
-* [ ] People Ops: Remove team member from HelloSign, if applicable.
-* [ ] People Ops: Remove team member from map / Sundial.
-* [ ] Patricio/Jacob/COO: Remove from tweetdeck
-* [ ] People Ops: Notify eShares administrator (CFO) of offboarding.
-* [ ] People Ops: Note final date of employment / contract in the "Organizational Chart and Hiring" sheet.
-* [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team)
-* [ ] Operations: If the person is from operations [remove the sysadmin](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/user-administration.md#remove-a-sysadmin)
-```
