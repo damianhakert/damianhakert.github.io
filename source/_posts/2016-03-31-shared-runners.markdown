@@ -10,7 +10,7 @@ image_title: '/images/unsplash/agile.jpeg'
 ---
 
 Not only is [Continuous Integration][docs-ci] built-in with GitLab CE and EE,
-we also offer [shared runners][docs-runners] to run your builds in CI *for free* on
+we also offer [Shared Runners][docs-runners] to run your builds in CI *for free* on
 GitLab.com.
 Up until recently, you may have experienced a short wait time as your build got
 queued for a shared runner.
@@ -32,8 +32,8 @@ These machines can run any of your builds that are compatible with Docker.
 In other platforms similar functionality is only available with an add-on
 charge such as Agents in Bamboo (which is an add-on service to BitBucket.)
 In GitLab it's free to connect your own runners, and we also started offering
-free [shared runners][docs-runners] on GitLab.com.
-That means shared runners are freely available for projects on GitLab.com,
+free [Shared Runners][docs-runners] on GitLab.com.
+That means Shared Runners are freely available for projects on GitLab.com,
 whether they are private or public.
 However, up until recently users would have noticed their builds would be queued
 to run as they waited for a shared runner to be made available.
@@ -43,16 +43,16 @@ autoscaling feature.
 This will reduce the build times and also the reduce that time required to
 allocate a new free machine.
 
-The shared runners for GitLab.com from today use the new GitLab Runner 1.1.
+The Shared Runners for GitLab.com from today use the new GitLab Runner 1.1.
 GitLab Runner is configured in autoscaling mode with distributed cache and
 Docker registry proxy for Docker images.
 
 ## Using Shared Runners
 
-You will be able to continue using the shared runners for testing and deploying
+You will be able to continue using the Shared Runners for testing and deploying
 your private projects.
 
-The shared runners will continue to be used to build your static pages that
+The Shared Runners will continue to be used to build your static pages that
 are served by [GitLab Pages][docs-pages].
 
 ## The machines
@@ -66,7 +66,7 @@ container.
 
 ## The tags
 
-All shared runners received two tags: `shared` and `docker`.
+All Shared Runners received two tags: `shared` and `docker`.
 
 You can use these tags in your `.gitlab-ci.yml` to limit which runners are used
 for what branches:
