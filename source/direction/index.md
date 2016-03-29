@@ -206,13 +206,13 @@ The integrated exeprience doesn't mean we'll never
 do a marketplace, in fact this is the way [GitLab.com will be free
 forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever).
 But we believe that an [integrated set of tools provides a better user experience that a modular approach](https://stratechery.com/2013/clayton-christensen-got-wrong/).
-The open source nature of GitLab ensures that that we can combine great open source products and everyone can contribute to achieve the [complete feature set](https://about.gitlab.com/comparison/).
+The open source nature of GitLab ensures that that we can combine great open source products and that everyone can contribute to a feature set that is [more complete than other tools](https://about.gitlab.com/comparison/).
 We'll focus on making all the parts work well together to create a better user experience.
 
 Because GitLab is open source the enhancements can become part of
 the codebase instead of being external. This ensures the automated tests for all
-functionality are continually run, ensuring that plugins always work. It also
-ensures GitLab can continue to evolve with it's plugins instead of being bound
-to a plugin API that is hard to change and that resists refactoring. This
+functionality are continually run, ensuring that additions always work. It also
+ensures GitLab can continue to evolve with it's additions instead of being bound
+to an API that is hard to change and that resists refactoring. This
 ensures we have many years of quality code and great monthly releases ahead of
 us.
