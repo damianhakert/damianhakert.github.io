@@ -38,7 +38,9 @@ there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @emily, and @tiffani
 * [ ] People Ops: Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
 * [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @HANDLE (Nominate someone preferably in similar timezone but different functional group)), and People Ops is tackled by (FILL IN WITH @ HANDLE).
 * [ ] New team member: where applicable, provide scan of photo ID to People Ops.
-* [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), read the relevant onboarding pages that are linked from there, and become comfortable with Git and the GitLab workflow.
+* [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), read
+the relevant onboarding pages that are linked from there, and become comfortable
+with Git and the GitLab workflow.
 * [ ] People Ops: file signed contract, PIAA, and where applicable, photo ID in the "Files" tab on the team members profile on BambooHR
 * [ ] People Ops: input relevant data (dates, compensation) into the team members profile tabs "Job" and "Benefits" in BambooHR
 * [ ] Robert/Jacob/COO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
@@ -50,10 +52,22 @@ there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @emily, and @tiffani
 * [ ] People Ops: Add new team member to the next monthly GitLab 101 call
 * [ ] People Ops: Invite to team meeting.
 * [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment.
-* [ ] People Ops: Assign buddy and explain to buddy what that means: "What it
-means is that if she/he has questions she/he can come to you. But your main job
-as a buddy will be to direct her/him to the right parts of the handbook, and/or
-encourage her/him to ask her/his questions of the wider group on Slack, etc."
+* [ ] People Ops: Assign buddy and explain to buddy what that means: "If she/he
+has questions she/he can come to you. But your main job as a buddy will be to
+direct her/him to the right parts of the handbook, and/or encourage her/him to
+ask her/his questions of the wider group on Slack, etc."
+* [ ] People Ops: Send brief welcome email to their personal address that directs
+the new team member to their GitLab email and their onboarding issue. Template text:
+"Welcome to GitLab, we are happy to have you on the team! You should have received
+an invitation to your GitLab email account; please let me know if that is not the case.
+Everything you need to get started is listed in your onboarding issue (insert link).
+We're looking forward to seeing you on our daily Team Call! The first time that you
+join, please make sure that you connect at least 10 minutes before the call and
+make sure that your camera and microphone are working properly. We'd like you to
+introduce yourself to the team so please prepare some talking points for yourself.
+Some tips to help you out here: tell us about where you were before GitLab, why
+you wanted to join our team, just a little something about your background and
+of course something on what you like to do in your spare time."
 * [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team.
    * [ ] 1. call with ___
    * [ ] 2. call with ___
