@@ -116,8 +116,8 @@ and then ping @rspeicher to confirm your account.
 * [ ] New team member: Use the "reset your password" email of BambooHR to set a password and access your profile.
 * [ ] New team member: Add your Address, Phone number, private email and emergency contact to your BambooHR profile page.
 * [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar, stock photo or something with sunglasses).
-* [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. Assign the merge request to your Manager.
-* [ ] PeopleOps: Once the new team member is added to the team page, request on the marketing chat channel that this happy news is tweeted out to the world.
+* [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. Assign the merge request to your hiring manager.
+* [ ] Hiring manager: Merge the request to add the new team member is added to the team page, and immediate send out a tweet via Tweetdeck from @gitlab: "Welcome FULL NAME as TITLE https://about.gitlab.com/team/ glad to have you on the team @TWITTER_HANDLE_OF_NEW_TEAM_MEMBER". Feel free to replace "glad to have you on the team" with something else. If you don't have access to Tweetdeck please request it from Ernst, Patricio Dmitriy, or Sid.
 * [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing)
 * [ ] New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
 * [ ] New team member: Read the [Summit page](https://gitlab.com/summits/Austin-Summit-2016-project/) and save the date!
