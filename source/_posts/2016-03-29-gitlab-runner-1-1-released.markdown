@@ -163,6 +163,12 @@ supported by different configurations.
 
 Read the [revised documentation][doc-improved].
 
+## Using Runner on OSX
+
+We also upgraded GitLab Runner 1.1 to be compatible with El Capitan and Xcode 7.3.
+You should read the revisied [installation guide for OSX][osx-install]
+and FAQ section describing the [needed prepartion steps][osx-faq].
+
 ## Changelog
 
 So far we described the biggest features, but these are not all the changes
@@ -222,3 +228,5 @@ Can't make it? Register anyway, and we'll send you a link to watch it later!
 [jobs]: http://doc.gitlab.com/ce/ci/yaml/README.html#jobs
 [dependencies]: http://doc.gitlab.com/ce/ci/yaml/README.html#dependencies
 [artifacts-name]: http://doc.gitlab.com/ce/ci/yaml/README.html#artifactsname
+[osx-install]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/osx.md#install-on-osx
+[osx-faq]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/faq/README.md#12-failed-to-authorize-rights-0x1-with-status-60007
