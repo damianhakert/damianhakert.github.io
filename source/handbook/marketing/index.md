@@ -24,9 +24,7 @@ The marketing team is made up of a few key functional groups:
 
 ##Product Marketing
 
-- [Product marketing](/jobs/product-marketing-manager)
-- Partner and channel marketing - coming soon
-- Communications - coming soon
+- [Product marketing](/handbook/marketing/product-marketing/)
 
 ##Marketing resources
 
