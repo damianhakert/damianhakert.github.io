@@ -69,9 +69,7 @@ deploy:
 
 2. Set the environment variables to what makes sense. [See the documentation of the environment variables](https://github.com/ethernetdan/spread/blob/gitlab-ci/images/gitlabci/README.md).
 
-_Note: to use Spread with GitLab CI Variables, you will need GitLab Runner 1.1,
-which will be released as stable the 24th of this month. Right now you can make use
-of the [Bleeding Edge releases for Runner](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/bleeding-edge.md)_.
+_Note: to use Spread with GitLab CI Variables, you will need [GitLab Runner 1.1](https://about.gitlab.com/2016/03/29/gitlab-runner-1-1-released/).
 
 ## Subscribe to a Label
 
