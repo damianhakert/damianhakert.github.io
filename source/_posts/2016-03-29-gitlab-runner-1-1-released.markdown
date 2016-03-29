@@ -24,113 +24,115 @@ feature: Autoscaling!
 GitLab has [built-in continuous integration][doc-ci] to allow you to run a
 number of tasks as you prepare to deploy your software. Typical tasks
 might be to build a software package or to run tests as specified in a
-YAML file. These tasks need to be run in a virtual machine, and in GitLab
-these virtual machines are called [Runners][doc-runners].
+YAML file. These tasks need to run by something, and in GitLab this something
+is called a [Runner][doc-runners]; an application that processes builds.
 
-GitLab Runner 1.1 is the biggest release yet.
-Autoscaling provides the ability to utilize resources in a more elastic and
-dynamic way.
-The other features include support for distributed cache server
-and user requested features like passing artifacts between stages,
-or and the ability to specify an archive name.
+GitLab Runner 1.1 is the biggest release yet. Autoscaling provides the ability
+to utilize resources in a more elastic and dynamic way. Along with autoscaling
+come some other significant features as well. Among them is support for a
+distributed cache server, and user requested features like passing artifacts
+between stages and the ability to specify the archive names are now available.
 
+Let's explore these features one by one.
 
 ## The Challenge of Scaling
 
 Other continuous integration platforms have a similar functionality.
-For example, Runners are called is available as "Agents" in Atlassian's
-Bamboo (which integrates with Bitbucket.) Some services, like Bamboo,
-charge individually for using these virtual machines and if you need a
-number of them it can get quite expensive, quite quickly. If you have only
-one available Agent or Runner, you could be slowing down your work.
+For example, Runners are called "Agents" in Atlassian's Bamboo (which integrates
+with Bitbucket.) Some services, like Bamboo, charge individually for using these
+virtual machines and if you need a number of them it can get quite expensive,
+quite quickly. If you have only one available Agent or Runner, you could be
+slowing down your work.
 
-We don’t charge anything for connecting Runners in GitLab, it’s all
-built-in. However, the challenge up until now has been how can you scale
-these runners? With GitLab, runners can be specified per project, but this
-means you have to create a runner per project, and that doesn’t scale
-well.
+We don't charge anything for connecting Runners in GitLab, it’s all built-in.
+However, the challenge up until now has been the scaling of these Runners. With
+GitLab, Runners can be specified per project, but this means you have to create
+a Runner per project, and that doesn't scale well.
 
-An alternative up until now was to create a number of
-[*shared runners*](http://doc.gitlab.com/ce/ci/runners/README.html)
-which can be used across your entire GitLab instance.
+An alternative up until now was to create a number of [shared Runners] which
+can be used across your entire GitLab instance.
 
-However, what happens then when you need more runners than are available?
-You end up having to queue your tasks, and that will slow things down.
+However, what happens when you need more Runners than there are available?
+You end up having to queue your tasks, and that will eventually slow things down.
+
 Hence the need for autoscaling.
-
-<!--more-->
 
 ## Autoscaling increases developer happiness
 
 We decided to build autoscaling with the help of [Docker Machine][docker-machine].
 Docker Machine allows you to provision and manage multiple remote Docker hosts
-and supports vast number of [virtualization and cloud providers][docker-machine-driver].
-For now autoscaling only works with Docker Machine virtualization and cloud providers.
+and supports a vast number of [virtualization and cloud providers][docker-machine-driver],
+and this is what autoscaling currently works only with.
 
-Because the runners will autoscale, your infrastructure contains only as
+Because the Runners will autoscale, your infrastructure contains only as
 many build instances as necessary at anytime. If you configure the Runner to
 only use autoscale, the system on which the Runner is installed acts as a
 bastion for all the machines it creates.
 
-Autoscaling allows you to increase developer happiness.
-Everyone hates to wait for their builds to be picked up, just because all runners
-are currently in use.
+Autoscaling allows you to increase developer happiness. Everyone hates to wait
+for their builds to be picked up, just because all Runners are currently in use.
 
-The autoscaling feature promotes heavy parallelization of your tests.
-GitLab makes parallelization of your tests easy in your .gitlab-ci.yml file.
+The autoscaling feature promotes heavy parallelization of your tests, something
+that is made easy by defining [stages] in your `.gitlab-ci.yml` file.
 
-These are not only benefits of autoscaling.
-In long run autoscaling reduces your infrastructure costs:
+While cutting down the waiting time to a minimum makes your developers happy,
+this is not the only benefit of autoscaling. In the long run, autoscaling
+reduces your infrastructure costs:
 
-* autoscaling follows your team work hours,
-* you pay for what you used, even when scaling to hundreds of machines,
-* you can use larger machines for the same cost, thus having your builds run faster,
-* the machines are self-managed, everything is handled by docker-machine, making your Administrators happy too,
-* your responsibility is to only manage GitLab and one GitLab Runner instance.
+- autoscaling follows your team's work hours,
+- you pay for what you used, even when scaling to hundreds of machines,
+- you can use larger machines for the same cost, thus having your builds run
+  faster,
+- the machines are self-managed, everything is handled by docker-machine, making
+  your Administrators happy too,
+- your responsibility is to only manage GitLab and one GitLab Runner instance.
 
-Below, you can see a real-life example of the runners autoscale feature, tested
+Below, you can see a real-life example of the Runner's autoscale feature, tested
 on GitLab.com for the [GitLab Community Edition][ce] project:
 
 ![Real life example of autoscaling](/images/runner_1_1/autoscaling-gitlab-com.png)
 
 Each machine on the chart is an independent cloud instance, running build jobs
-inside of Docker containers.
+inside Docker containers. Our builds are run on DigitalOcean 4GB machines, with
+CoreOS and the latest Docker Engine installed.
 
-Our builds are run on Digital Ocean 4GB machines, with CoreOS and latest Docker
-Engine installed.
-Digital Ocean proved to be one of the best choices for us, mostly because of the
-fast spin-up time (around 50 seconds) and very fast SSD drivers, which are ideal
-for testing purposes. Currently the GitLab Runner processes up to 160 builds at time.
+[DigitalOcean] proved to be one of the best choices for us, mostly because of
+the fast spin-up time (around 50 seconds) and their very fast SSDs, which are
+ideal for testing purposes. Currently, our GitLab Runner processes up to 160
+builds at a time.
 
-Read more [about the new autoscaling feature][doc-autoscale].
+If you are eager to test this yourself, read more on [configuring the new
+autoscaling feature][doc-autoscale].
 
 ## Distributed cache server
 
-In GitLab Runner 0.7.0 we introduced support for caching.
-This release brings improvements to this feature too, which is especially useful
-with autoscaling.
+In GitLab Runner 0.7.0 we introduced support for [caching]. This release brings
+improvements to this feature too, which is especially useful with autoscaling.
 
-The GitLab Runner 1.1 allows you to use an external server to store all your caches.
-The server needs to expose the S3-compatible API.
-You can use for example Amazon S3, but there are also a number of servers that
-you can run on-premise just for the purposes of caching.
+GitLab Runner 1.1 allows you to use an external server to store all your caches.
+The server needs to expose an S3-compatible API, and while you can use for
+example Amazon S3, there are also a number of other servers that you can run
+on-premises just for the purpose of caching.
 
-Find out more [about the distributed cache server][doc-cache].
+Read more [about the distributed cache server][doc-cache] and learn how to set
+up and configure your own.
 
 ## Artifacts improvements
 
-We listen closely to our community, to extend the project where users most request.
-One of the often-requested features was related to passing artifacts.
+We listen closely to our community to extend GitLab Runner with user requests.
+One of the often-requested features was related to passing artifacts between
+builds.
 
-GitLab offers awesome capabilities to define multiple jobs and group them in
-different stages.
-The jobs are always independent, and can be run on different runners.
-Up until now you had to use an external method if you wanted to pass the files
-from one job to another one.
-With GitLab Runner 1.1 it happens automatically. Going one step further - GitLab
-8.6 allows you to fine tune what should be passed: http://doc.gitlab.com/ce/ci/yaml/README.html#dependencies.
+GitLab offers some awesome capabilities to define multiple [jobs] and group
+them in different [stages]. The jobs are always independent, and can be run on
+different Runners.
 
-```
+Up until now, you had to use an external method if you wanted to pass the files
+from one job to another. With GitLab Runner 1.1 this happens automatically.
+Going one step further, GitLab 8.6 allows you to fine-tune _what_ should be
+passed. This is now handled by defining [dependencies]:
+
+```yaml
 build:osx:
   stage: build
   artifacts: ...
@@ -141,15 +143,17 @@ test:osx:
   - build:osx
 ```
 
-The second requested feature was the ability to change the name of uploaded
-artifacts archive. It's possible now with this simple syntax:
+The second most-requested feature was the ability to change the name of the
+uploaded artifacts archive. With GitLab Runner 1.1, this is now possible with
+this simple syntax:
 
-```
+```yaml
 build_linux:
   artifacts:
     name: "build_linux_$CI_BUILD_REF_NAME"
-    ...
 ```
+
+Read more [about naming artifacts][artifacts-name].
 
 ## Improved documentation
 
@@ -159,11 +163,11 @@ supported by different configurations.
 
 Read the [revised documentation][doc-improved].
 
-
 ## Changelog
 
-These are not all the changes introduced by with GitLab Runner 1.1.
-Here is the complete list:
+So far we described the biggest features, but these are not all the changes
+introduced with GitLab Runner 1.1. We know that even the smallest change can
+make a difference in your workflow, so here is the complete list:
 
 ```
 - Use Go 1.5
@@ -207,7 +211,14 @@ Can't make it? Register anyway, and we'll send you a link to watch it later!
 [docker-machine-driver]: https://docs.docker.com/machine/drivers/
 [ce]: https://gitlab.com/gitlab-org/gitlab-ce
 [doc-runners]: http://doc.gitlab.com/ce/ci/runners/README.html
-[doc-ci]: http://doc.gitlab.com/ce/ci/quick_start/README.html
+[doc-ci]: /gitlab-ci
 [doc-autoscale]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/configuration/autoscale.md
 [doc-improved]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/README.md
 [doc-cache]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/configuration/autoscale.md#distributed-runners-caching
+[shared runners]: http://doc.gitlab.com/ce/ci/runners/README.html
+[stages]: http://doc.gitlab.com/ce/ci/yaml/README.html#stages
+[digitalocean]: https://www.digitalocean.com/
+[caching]: http://doc.gitlab.com/ce/ci/yaml/README.html#cache
+[jobs]: http://doc.gitlab.com/ce/ci/yaml/README.html#jobs
+[dependencies]: http://doc.gitlab.com/ce/ci/yaml/README.html#dependencies
+[artifacts-name]: http://doc.gitlab.com/ce/ci/yaml/README.html#artifactsname
