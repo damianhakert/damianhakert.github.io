@@ -14,7 +14,7 @@ You have experience in sales or business development helping people get started 
     * Ensuring business development team members improve performance and abilities over time by providing coaching and feedback.
     * Hiring and onboarding new business development representatives.
     * Managing the lead funnel from marketing qualified lead (MQL) to sales qualified lead (SQL).
-* Work with our demand generation manager on inbound ~~and outbound~~ lead qualification campaigns.
+* Work with our demand generation manager on inbound and outbound lead qualification campaigns.
 * Work with our demand generation manager on growing and developing the business development team.
 * Work with our field marketing manager on event lead qualification.
 * Work with our developer marketing manager to identify customer stories from all of the conversations you have with our customers.
@@ -30,6 +30,6 @@ You have experience in sales or business development helping people get started 
 * Experience with CRM software (Salesforce preferred)
 * Experience in sales operations and/or marketing automation software preferred
 * Understanding of B2B software, Open Source software, and the developer product space is preferred
-* Is your college degree in French foreign politics with a minor in interpretive dance but you’ve selling and marketing products since you were 12? Perfect. We understand that your college degree isn’t the only thing that prepares you as a potential job candidate.
+* Is your college degree in French foreign politics with a minor in interpretive dance but you’ve been selling and marketing products since you were 12? Perfect. We understand that your college degree isn’t the only thing that prepares you as a potential job candidate.
 * You are obsessed with making customers happy. You know that the slightest trouble in getting started with a product can ruin customer happiness.
 * Be ready to learn how to use GitLab and Git
