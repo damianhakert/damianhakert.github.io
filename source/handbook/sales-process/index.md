@@ -3,6 +3,8 @@ layout: markdown_page
 title: "Sales Process"
 ---
 
+### On this page
+
 * [Pages inside Sales Handbook](#pages)
 * [Pages outside Sales Handbook](#pages-outside)
 * [GitLab Version Check](#version_check)
@@ -135,9 +137,9 @@ Once the above has happened, please make sure the following actions are done:
 Once you close a Plus Subscription deal, you need to do a few things.
 
 1. When possible, create an issue on dev.gitlab.org under Organization with the Support label as soon as it is clear that a dedicated service engineer will be needed. Service Engineers can volunteer, or they will be assigned by Ernst if nobody is volunteering. It can depend on the client, and factors like: timezone, language, specific needs, etc.
-Once this is determined, please add the Dedicated Service Engineer to the Salesforce account with the drop down. 
+Once this is determined, please add the Dedicated Service Engineer to the Salesforce account with the drop down.
 1. The next step is to introduce your client to their Dedicated Engineer, and if necessary, work together to schedule an on-boarding call to cover any questions, and give an overview of the support they are entitled to.
-1. You would have probably brought this up prior to the deal closing, but if the client is interested in joining the Slack support channel, please work with the Dedicated Engineer to make this happen. 
+1. You would have probably brought this up prior to the deal closing, but if the client is interested in joining the Slack support channel, please work with the Dedicated Engineer to make this happen.
 
 ### Processing Orders in Recurly <a name="processing"></a>
 
