@@ -724,14 +724,14 @@
   story:  |
           Software enthusiast who started his career developing desktop applications. Former member of a repositories/task management company who is here make Gitlab better. Likes playing RTS video games and boxing in his free time.          
 
-- name: D.M.
+- name: DJ Mountney
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Development Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: dj.png
+  twitter: twk3
+  gitlab: twk3
   story:  |
-          Joining March 23rd
+          DJ grew up on a farm in the Canadian Prairies where it is common to have to fix your own tools and equipment. This didn't change when computers became the tools, and he discovered the joy of development while pursuing a career in IT. He has been working as a developer at various sized companies since 2008 and is excited to be able to finally work in the open source community with GitLab.
 
 - name: Annabel Dunstone
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
