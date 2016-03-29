@@ -5,7 +5,7 @@ title: Support Heroes
 
 Contributing to GitLab is not limited to just code. Our community is made by people from different countries and cultures that help us by adding features to our codebase, improving documentation and helping other users.
 
-The title of _Support Hero_ [is awarded](https://dev.gitlab.org/gitlab/organization/issues/688) to community members with an outstanding work helping others. Its selected each month and posted alongside the [Most Valuable Person](http://about.gitlab.com/mvp/) winner.
+The title of _Support Hero_ is awarded to community members with an outstanding work helping others. Its selected each month and posted alongside the [Most Valuable Person](http://about.gitlab.com/mvp/) winner.
 
 Winners receive a [Swag store](https://gitlab.mybrightsites.com) credit code for their contribution and a mention in our release blog post.
 
