@@ -494,6 +494,7 @@
   twitter: rymai
   gitlab: rymai
   maintains: |
+              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-contributors/">GitLab Contributors</a></li>
               <li>Merge request coach</li>
               <li>Trained <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/release/monthly.md#release-manager">Release Manager</a></li>
