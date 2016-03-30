@@ -46,13 +46,17 @@ extra_js:
       <div class="col-xs-10 col-md-5">
         <h2>Features</h2>
         <ul>
-          <li><b>Multi-platform:</b> You can execute builds on Unix, Windows and OSX.
-          <li><b>Multi-language:</b> Build scripts are command line driven and work with Java, PHP, Ruby, C, and any other language.
-          <li><b>Stable:</b> Your builds run on a different machine than GitLab.</li>
+          <li><b>Multi-platform:</b> you can execute builds on Unix, Windows, OSX, and any other platform that supports Go.
+          <li><b>Multi-language:</b> build scripts are command line driven and work with Java, PHP, Ruby, C, and any other language.
+          <li><b>Stable:</b> your builds run on a different machine than GitLab.</li>
           <li><b>Parallel builds:</b> GitLab CI splits builds over multiple machines, for fast execution.</li>
-          <li><b>Realtime logging:</b> A link in the merge request takes you to the current build log that updates dynamically.</li>
-          <li><b>Versioned tests:</b> A <a href="http://doc.gitlab.com/ce/ci/yaml/README.html">.gitlab-ci.yml file</a> that contains your tests, allowing everyone to contribute changes and ensuring every branch gets the tests it needs.</li>
-          <li><b>Pipeline:</b> You can define multiple jobs per stage and you can <a href="http://doc.gitlab.com/ce/ci/triggers/README.html">trigger other builds</a>.
+          <li><b>Realtime logging:</b> a link in the merge request takes you to the current build log that updates dynamically.</li>
+          <li><b>Versioned tests:</b> a <a href="http://doc.gitlab.com/ce/ci/yaml/README.html">.gitlab-ci.yml file</a> that contains your tests, allowing everyone to contribute changes and ensuring every branch gets the tests it needs.</li>
+          <li><b>Pipeline:</b> you can define multiple jobs per stage and you can <a href="http://doc.gitlab.com/ce/ci/triggers/README.html">trigger other builds</a>.
+          <li><b>Autoscaling:</b> you can <a href="https://about.gitlab.com/2016/03/29/gitlab-runner-1-1-released/">automatically spin up and down VM's</a> to make sure your builds get processed immediately and minimize costs.</li>
+          <li><b>Build artifacts:</b> you can upload binaries and other <a href="http://doc.gitlab.com/ce/ci/build_artifacts/README.html">build artifacts</a> to GitLab and browse and download them.</li>
+          <li><b>Test locally</b> there are <a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/executors/README.md">multiple executors</a> and you can <a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/312">reproduce tests locally</a>.
+          <li><b>Docker support:</b> you can easily spin up other Docker contains as a <a href="http://doc.gitlab.com/ce/ci/services/README.html">service</a> as part of the test and <a href="http://doc.gitlab.com/ce/ci/docker/using_docker_build.html">build docker images</a>.
           <li><b>Continuous Delivery (CD):</b> Continuous delivery and deployment are easy with multiple types of jobs, and secure <a href="http://doc.gitlab.com/ce/ci/variables/README.html">environmental variables</a>.
         </ul>
       </div>
