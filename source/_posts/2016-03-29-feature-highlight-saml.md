@@ -9,14 +9,15 @@ filename: 2016-03-23-feature-highlight-saml.md
 image_title: /images/unsplash/galaxy.jpg
 ---
 
-As a Service Engineer I'm in constant contact with customers and their needs and I've
-seen a steadily increasing interest in SAML from our Enterprise Customers. That inspired
-me to dive a little deeper into the topic in an effort to improve our integration with
-SAML and to add better documentation. I hope this helps our customers and our
-community to better understand this feature.
+As a Service Engineer I'm in constant contact with customers, listening to their
+needs, and I've noticed a steadily-increasing interest in SAML from our
+Enterprise Customers. That inspired me to dive a little deeper into the topic in
+an effort to improve our integration with SAML and to add better documentation.
+I hope this helps our customers and our community to better understand this
+feature.
 
 In this blog post I'll give you an overview of what I've been working on, how it
-affects GitLab and what we plan to do with SAML in the future. Our plan is to
+affects GitLab, and what we plan to do with SAML in the future. Our plan is to
 bring SAML up to par with the features that LDAP offers within GitLab.
 
 <!-- more -->
@@ -36,7 +37,7 @@ It also provides you with the ability to enable Single Sign On (SSO) for your
 GitLab instance, allowing your users to access your GitLab instance without
 having to create a new account and set a password.
 
-Here is an example on how the SAML request and response work. In the example
+Here is an example on how the SAML request and response work. In this example
 GitLab would be the "Service Provider":
 
 ![SAML Workflow Example](/images/saml_workflow_vertical.gif)
@@ -45,11 +46,12 @@ GitLab would be the "Service Provider":
 
 ### The beginnings
 
-SAML was first introduced in version [7.12](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/722/diffs)
-via a contribution from our amazing community. The feature was contributed by [CERN](http://home.cern/)
-almost 10 months ago. Since the original contribution, not much changed around the
-SAML support offered by GitLab. But interest from our users and our customers really
-increased. You can check all SAML related merge requests
+GitLab first introduced SAML support in version [7.12](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/722/diffs)
+via a contribution from our amazing community. The feature was contributed by
+[CERN](http://home.cern/) almost 10 months ago. Since the original contribution,
+not much changed around the SAML support offered by GitLab. But interest from
+our users and our customers increased. You can check all SAML related merge
+requests
 [here](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?utf8=%E2%9C%93&issue_search=saml&state=merged&scope=all&assignee_id=&author_id=&milestone_id=&label_id=).
 
 Due to the increased interest, I decided to dive into all the parts required to
@@ -62,8 +64,8 @@ The `omniauth-saml` gem was originally developed and maintained by
 [Practically Green](http://www.wespire.com/), but in the last couple of months
 it lost momentum from its maintainers.
 The gem on which this one is based, `ruby-saml`, started to add new features
-recently and merge requests were made on the `omniauth-saml` repo to add this
-new features here as well, but they went without review from the maintainers
+recently and merge requests were made on the `omniauth-saml` repo to add these
+new features as well, but they went without review from the maintainers
 for quite some time.
 
 Luckily the maintainers realized that there was still a lot of interest in the
@@ -83,15 +85,15 @@ with support for [Custom Attributes](http://doc.gitlab.com/ce/integration/saml.h
 better error handling, and a couple of bug fixes.
 
 The inclusion of these features, especially the Custom Attributes, are of great
-use to GitLab users. You no longer need to change your IdP server to match the
-parameters that GitLab is expecting, you can now tell `omniauth-saml`, and therefore
-GitLab, where to look for them.
+use to GitLab users. You no longer need to change your Identity Provider (IdP)
+server to match the parameters that GitLab is expecting, you can now tell
+`omniauth-saml`, and therefore GitLab, where to look for them.
 
-GitLab relies on [omniauth-saml](https://github.com/omniauth/omniauth-saml) to
-provide the integration with a SAML Identity Provider (IdP). It also uses
+GitLab relies on [`omniauth-saml`](https://github.com/omniauth/omniauth-saml) to
+provide the integration with a SAML IdP. It also uses
 [Devise](https://github.com/plataformatec/devise) as an authentication platform.
 Devise allows you to extend its authentication mechanism using Omniauth.
-`omniauth-saml` is an strategy that allows Omniauth to retrieve user information
+`omniauth-saml` is a strategy that allows Omniauth to retrieve user information
 from a SAML IdP and relay this information to GitLab to either create a new user,
 or bind this new authentication mechanism to an existing user (if GitLab is
 [configured](http://doc.gitlab.com/ce/integration/saml.html) to do so).
@@ -109,33 +111,32 @@ the integration between SAML and GitLab.
 At the moment SAML only functions as an authentication provider, but with SAML 2.0
 (the only version of SAML supported by GitLab) you can also retrieve Group Membership
 information from the Identity Provider, if the IdP server supports this feature
-and is configured to respond with this information. For this the membership
-information needs to be added to the SAML response as a SAML Attribute in
-the generated SAML 2.0 Assertion.
+and is configured to respond with this information. For this to work, the
+membership information needs to be added to the SAML response as a SAML
+Attribute in the generated SAML 2.0 Assertion.
 
 If we leverage this feature, we would be able to manage GitLab Group Memberships
-via SAML, in the same way that it is done right to for LDAP within the Enterprise
-Edition. This would allow admins to off-load the management of the groups to a
-different service, offer their users an SSO system, and not have to worry about
-setting up LDAP as well as SAML to accomplish both. For this we will need to use
-`ruby-saml` directly.
+via SAML, as we do now for LDAP within Enterprise Edition. This would allow
+admins to offload the management of user groups to a different service, offer
+their users an SSO system, and not have to worry about setting up LDAP as well
+as SAML to accomplish both. For this we will need to use `ruby-saml` directly.
 
 ### ruby-saml
 
-[`ruby-saml`](https://github.com/onelogin/ruby-saml) is a Ruby based library for
+[`ruby-saml`](https://github.com/onelogin/ruby-saml) is a Ruby library for
 implementing client-side SAML authorization. `omniauth-saml` relies on this library
 for initialization and validation of a SAML request/response protocol. `ruby-saml`
 is maintained by the amazing people at [OneLogin](https://www.onelogin.com/).
 
 ---
 
-We still need to investigate quite a bit how to best approach this endeavour and
-see how much work it would be. But our plan is to bring SAML up to par with the
+We still need to investigate how to best approach this endeavour and determine
+how much work it would be. But our plan is to bring SAML up to par with the
 features that LDAP offers within GitLab.
 
 Are you integrating SAML with GitLab or any other application? Let us know if you
 run into any problems with [GitLab & SAML](https://gitlab.com/gitlab-org/gitlab-ce/issues)
-or [omniauth-saml](https://github.com/omniauth/omniauth-saml/issues) by creating
+or [`omniauth-saml`](https://github.com/omniauth/omniauth-saml/issues) by creating
 issues in the respective repository.
 
 ---
