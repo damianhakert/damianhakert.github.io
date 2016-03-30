@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Feature Highlight: SAML and its future within GitLab"
-date: 2016-03-29
+date: 2016-03-30
 comments: true
 author: Patricio Cano
 author_twitter: suprnova32
-filename: 2016-03-23-feature-highlight-saml.md
-image_title: /images/unsplash/galaxy.jpg
+filename: 2016-03-30-feature-highlight-saml.md
+image_title: /images/unsplash/galaxy-small.jpg
 ---
 
 As a Service Engineer I'm in constant contact with customers, listening to their
@@ -42,7 +42,7 @@ GitLab would be the "Service Provider":
 
 ![SAML Workflow Example](/images/saml_workflow_vertical.gif)
 
-[Image from Wikipedia](https://en.wikipedia.org/wiki/SAML_2.0#/media/File:Saml2-browser-sso-post.gif)
+[Public domain image from Wikipedia](https://en.wikipedia.org/wiki/SAML_2.0#/media/File:Saml2-browser-sso-post.gif)
 
 ## SAML & GitLab
 
@@ -142,5 +142,3 @@ or [`omniauth-saml`](https://github.com/omniauth/omniauth-saml/issues) by creati
 issues in the respective repository.
 
 ---
-
-
