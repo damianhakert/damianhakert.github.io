@@ -5,7 +5,7 @@ date: 2016-03-31 08:00
 comments: true
 author: Douglas Alexandre
 author_twitter: dbalexandre
-image_title: '/images/unsplash/stars.png'
+image_title: '/images/unsplash/door.jpg'
 ---
 
 Since GitLab 8.6 in both CE and EE versions, there is a small checkbox available
