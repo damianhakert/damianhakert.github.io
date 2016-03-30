@@ -42,6 +42,8 @@ GitLab would be the "Service Provider":
 
 ![SAML Workflow Example](/images/saml_workflow_vertical.gif)
 
+[Image from Wikipedia](https://en.wikipedia.org/wiki/SAML_2.0#/media/File:Saml2-browser-sso-post.gif)
+
 ## SAML & GitLab
 
 ### The beginnings
