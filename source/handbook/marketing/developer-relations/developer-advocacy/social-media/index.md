@@ -92,7 +92,7 @@ Use English
 
 - If a foreign language tweet comes in, replies in that language are okay but discouraged as we can't guarantee making our support SLA.
 
-- Please no foreign retweets, these are awkward and cause people to unfollow.
+- Please no foreign retweets, these break the flow of people reading their timeline and cause people to unfollow.
 
 ### Replies to commonly asked questions on Twitter
 
