@@ -12,7 +12,7 @@ You have experience in sales or business development helping people get started 
     * Passing qualified leads to the sales team and ensuring the sales team follows through.
     * Training other members of the business development team to identify and pass qualified leads.
     * Ensuring business development team members improve performance and abilities over time by providing coaching and feedback.
-    * Hiring and onboarding new business development representatives.
+    * Assist hiring and onboarding new business development representatives.
     * Managing the lead funnel from marketing qualified lead (MQL) to sales qualified lead (SQL).
 * Work with our demand generation manager on inbound and outbound lead qualification campaigns.
 * Work with our demand generation manager on growing and developing the business development team.
