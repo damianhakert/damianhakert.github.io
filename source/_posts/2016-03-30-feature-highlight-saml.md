@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Feature Highlight: SAML and its future within GitLab"
-date: 2016-03-30
+date: 2016-03-30 18:30
 comments: true
 author: Patricio Cano
 author_twitter: suprnova32
