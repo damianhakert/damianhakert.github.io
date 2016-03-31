@@ -58,6 +58,10 @@
   picture: lincolnmona.jpg
   human: emily
   story: Silly, doodle duo who dream of being in the next muppet movie.
+  - name: Tiger
+  picture: Tiger.jpg
+  human: michael
+  story: I anm 13 years old and blind; but still enjoy playing fetch and riding my skateboard around the house
 - name: You?
   picture: ../logo-extra-whitespace.png
   story:  |
