@@ -47,7 +47,9 @@ such as another flight, a hotel reservation or booking a car.
 
 #### Checkout flight only
 
-1. Enter your passport information in the "Secure flight" window
+1. Enter your passport information in the "Secure flight" window. (You can use your
+US drivers license for domestic flights within the US)
+1. Enter home, work, and mobile phone number (they can be the same number)
 1. Enter your seat preferences and frequent flyer program info if wanted
 1. Enter your reason for booking, this is required for every booking
 
