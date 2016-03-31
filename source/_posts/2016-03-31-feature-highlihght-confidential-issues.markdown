@@ -89,4 +89,12 @@ Normally, you don’t work a long time on issues like this, but in this case it
 was unavoidable due to the security nature of the feature. Again, using tests
 made this a lot easier.
 
+## More about GitLab 8.6
+
+Confidential issues feature is just one of the many recent changes in GitLab.
+Find out more [about our latest release, 8.6][release] with new improvements
+and features.
+
+
 [disclosure]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#security-vulnerability-disclosure
+[release]: https://about.gitlab.com/2016/03/22/gitlab-8-6-released/
