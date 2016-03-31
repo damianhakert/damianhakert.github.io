@@ -34,8 +34,8 @@ have to:
 - Find other means to contact the maintainer.
 
 In general, most of the projects advise to not use the issue tracker, and
-instead send an email to a specific email address. As you might imagine, before
-this release, we as an open source project, advised the same
+instead send an email to a specific email address. As you might imagine before
+this release we, as an open source project, advised the same
 [security vulnerability disclosure][disclosure] in our contributing guide:
 
 > Please report suspected security vulnerabilities in private to
