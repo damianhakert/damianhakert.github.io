@@ -14,7 +14,8 @@ for custom domains and TLS certificates in GitLab (EE) 8.5. We made this service
 freely available to users on [GitLab.com](https://gitlab.com), which is our hosted
 GitLab EE service, offering unlimited and free public or private projects.
 
-We've since added some great resources to help you get started.
+We've since added some great resources to help you get started, including this
+handy [quickstart guide][quickstart].
 
 <!-- more -->
 
@@ -78,3 +79,4 @@ Can't make it? Register anyway, and we'll send you a link to watch it later!
 [issue tracker]: https://gitlab.com/pages/pages.gitlab.io/issues
 [docs-pages]: http://doc.gitlab.com/ee/pages/README.html
 [docs-adminpages]: http://doc.gitlab.com/ee/pages/administration.html
+[quickstart]: https://pages.gitlab.io/
