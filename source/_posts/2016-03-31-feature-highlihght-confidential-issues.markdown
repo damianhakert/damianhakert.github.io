@@ -91,7 +91,7 @@ made this a lot easier.
 
 ## More about GitLab 8.6
 
-Confidential issues feature is just one of the many recent changes in GitLab.
+This *confidential issues* feature is just one of the many recent changes in GitLab.
 Find out more [about our latest release, 8.6][release] with new improvements
 and features.
 
