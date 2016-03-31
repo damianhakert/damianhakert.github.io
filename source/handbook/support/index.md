@@ -310,7 +310,9 @@ from ZenDesk also enables us to track our response times vs. our internal [SLA](
 
 Our Developer Advocates also have access to tweets through ZenDesk, and often
 participate in responding to questions. The support team does not retweet or favorite
-any tweets; that is handled by the marketing team.
+any tweets; that is handled by the marketing team. Any tweets that appear to only
+"need" liking or re-tweeting will be closed in ZenDesk with a tag "RT/like" added
+for the purpose of gathering metrics.
 
 The @GitLabStatus account should only be used to give updates on the availability
 of GitLab.com and to follow up on users reporting that GitLab.com is unavailable.
