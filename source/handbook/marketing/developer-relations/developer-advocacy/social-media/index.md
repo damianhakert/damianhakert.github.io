@@ -86,9 +86,13 @@ About using the tools
 
 -   Use Tweetdeck to find GitLab mentions without the # or @.
 
+Use English
 
+- [GitLab communicates in English](https://about.gitlab.com/handbook/#internal-communication) so please tweet in English.
 
- 
+- If a foreign language tweet comes in, replies in that language are okay but discouraged as we can't guarantee making our support SLA.
+
+- Please no foreign retweets, these break the flow of people reading their timeline and cause people to unfollow.
 
 ### Replies to commonly asked questions on Twitter
 

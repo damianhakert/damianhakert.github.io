@@ -494,6 +494,7 @@
   twitter: rymai
   gitlab: rymai
   maintains: |
+              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-contributors/">GitLab Contributors</a></li>
               <li>Merge request coach</li>
               <li>Trained <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/release/monthly.md#release-manager">Release Manager</a></li>
@@ -703,9 +704,9 @@
   story:  |
           Eniola's passion for problem solving and building led him to software development.
           He previously worked as a full-stack developer but later realized he has an affinity
-          for the front-end, this was driven by his love for JavaScript.
+          for the front-end, driven by his love of JavaScript.
           He enjoys learning new technologies, music (especially EDM), and sometimes philosophy.
-          
+
 - name: Felipe Artur
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Development Lead
@@ -713,7 +714,7 @@
   twitter: FelipeArtur
   gitlab: felipe_artur
   story:  |
-          Software enthusiast who started his career developing desktop applications. Former member of a repositories/task management company who is here make Gitlab better. Likes playing RTS video games and boxing in his free time.          
+          Software enthusiast who started his career developing desktop applications. Former member of a repositories/task management company who is here to make GitLab better. Likes playing RTS video games and boxing in his free time.
 
 - name: DJ Mountney
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
