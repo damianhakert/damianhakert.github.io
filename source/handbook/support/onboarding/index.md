@@ -176,7 +176,8 @@ When a feature request or the fix for a bug has been scheduled for a future rele
 customer know about the version for which this has been scheduled and when that version is going to be
 releases, e.g. June 22nd for 8.9, and add the `promised` tag to the ZenDesk ticket.
 
-Sometimes, a customer will ask for a response in a specific issue tracker. In such
+Sometimes a customer will send an email to ask for a response to an issue that was
+already created on a public issue tracker. In such
 cases, include the link to the given issue in the "GitLab Issue" box, go ahead and
 reply from the issue tracker, but also follow-up through ZenDesk by providing a link
 to your comment in the issue tracker. Providing the response to the customer is
