@@ -23,9 +23,10 @@ GitLab has a presence across many social media channels. The following is a list
 
 Any time GitLab is mentioned or relevant to a thread, someone from GitLab should be responding to questions or feedback. The idea here is to be available for people without making them feel obligated to talk to you. Remain positive.
 
+- **Continue the conversation by providing meaningful responses instead of just upvoting or saying a one word “Thanks!”** If a post will add to a discussion, post it. If someone has given you feedback, link them to a relevant issue showing the feedback has been received. You can even provide people with links to non-GitLab things such as Git guides or DevOps guides. There is always a feature to mention or gratitude to express 'Thanks you so much for spreading the word about GitLab.'.
 - **Remember that you’re speaking to a human being.** The people behind the comments are real, so treat them how you’d want to be treated if the roles were reversed. Try to find their real name so that you can personalize your message to them.
 - **Begin by thanking them for their feedback or apologizing to them for any inconvenience they may have experienced.** We want to start and end conversations on a high note.
-- **Provide meaningful responses instead of just upvoting or saying “Thanks!”** If a post will add to a discussion, post it. If someone has given you feedback, link them to a relevant issue showing the feedback has been received. You may even provide people with links to non-GitLab things such as Git guides or DevOps guides.
+
 - **Assume good faith**. Remember, people are commenting on the product, not the people. The line can get blurry, but it’s important to stay objective.
 - **Address any and all points the user has made.** If they made 4 points/requests, respond to each. If you don’t know the answer, don’t be afraid to tell them you don’t know but will look into it.
 - **You’re allowed to disagree with people.** Try to inform the person (respectfully) why they might be misguided and provide any links they may need to make a more informed decision. Don’t say “you’re wrong” or “that’s stupid.” Instead try to say “I disagree because…” or “I don’t think that’s accurate because…”
