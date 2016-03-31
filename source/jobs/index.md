@@ -58,11 +58,6 @@ If you prefer not to do the above please let us know and we'll give you an assig
   value and difficulty, which is at the discretion of the hiring manager. For
   example, fixing 10 typos isn't as valuable as shipping 2 new features.
 
-### Product Marketing Manager
-
-- [Description](https://about.gitlab.com/jobs/product-marketing-manager/)
-- [Apply](https://gitlab.workable.com/jobs/202183/candidates/new)
-
 ### Service Engineer
 
 - [Description](https://about.gitlab.com/jobs/service-engineer/)
