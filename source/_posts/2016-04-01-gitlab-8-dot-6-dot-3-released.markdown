@@ -24,7 +24,7 @@ Read on for all the details!
 - **CE/EE:** Fix copying uploads when moving issue to another project. ([!3382])
 - **CE/EE:** Ensuring Merge Request API returns boolean values for work_in_progress. ([!3432])
 - **CE/EE:** Fix raw/rendered diff producing different results on merge requests. ([!3450])
-- **CE/EE:** Fix commit comment alignment (Stan Hu). ([!3466])
+- **CE/EE:** Fix commit comment alignment. ([!3466])
 - **CE/EE:** Update gitlab-shell version and doc to 2.6.12. ([!280])
 - **CE/EE:** Mentions on confidential issues doesn't create todos for non-members. ([!3374])
 - **CE/EE:** Allow temporary email as notification email. ([!3477])
