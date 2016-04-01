@@ -8,8 +8,8 @@ author_twitter: emilylucie
 image_title: '/images/blogimages/railsgirls-tomazs.jpg'
 ---
 
-Our [team] is growing! Since we're remote only so we have no real headquarters
-where you can meet GitLab people.
+Our [team] is growing! Since we're remote only we have no real headquarters
+where you can meet the GitLab team.
 The great thing about being remote is we've got team members all across the
 globe, active in their own communities and giving talks or presentations.
 In this post we give you a list of some upcoming events and where you can
