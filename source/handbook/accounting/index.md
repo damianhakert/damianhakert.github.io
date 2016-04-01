@@ -19,6 +19,10 @@ When needing to fill in details of GitLab's contact information you can take the
 If a phone number is asked, leaving this field empty is our default answer, otherwise if this does not work you can use
 the general number (+1-415-761-1791), but be aware that this number simply guides to a voice message that refers the caller back to contacting us via email.
 
+### General info
+A lot of general information of GitLab account such as our Fedx, Amazon or IND Business accounts and information can be found in 1Password.
+If you need this information but cannot find it in your shared vaults you can check with PeopleOps to get access.
+
 ## Processing Payroll  <a name="payroll"></a>
 
 ### GitLab Inc. Payroll Procedures <a name="payroll-inc"></a>
