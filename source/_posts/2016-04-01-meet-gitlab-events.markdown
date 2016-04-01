@@ -24,7 +24,6 @@ We'd love to meet you.
 - [Git Merge](http://git-merge.com/), Arpil 5th in New York City, NY:  -- [Sid] is speaking and [Ashley], [Job], and [Marin] will be there too.
 - [Docker RoadShow SF](https://goto.docker.com/docker-roadshow-sf-april-2016.html), April 7th in San Francisco, CA [Amanda] is speaking on [Autoscaling in Git with the help of the Docker Machine](https://about.gitlab.com/2016/03/29/gitlab-runner-1-1-released/).
 - [Software Architecture Conference](http://conferences.oreilly.com/software-architecture/engineering-business-us), April 11-13 in New York City, NY:  -- [Marin] is speaking and [Ashley], [Job], and [Sid] will be there too.
-- [Perforce MERGE](https://www.perforce.com/conference/2016/home), April 13-15 in San Francisco, CA. [Amanda] will be in attendance.
 - [AppLovin Apple TV App Challenge](https://applovin.com/appchallenge), April 16-17 in San Francisco, CA. [Amanda] is a [Hackathon Judge](https://blog.applovin.com/apple-tv-app-challenge-update-welcoming-riffsy-and-amanda-folson-into-the-fold/)
 - [Docker RoadShow NYC](https://goto.docker.com/docker-roadshow-ny-april-2016.html) April 19th in New York City, NY [Kamil] is speaking, and [Drew] will be in attendance.
 - [LinuxFest NorthWest](https://www.linuxfestnorthwest.org/2016) April 23-24 in Bellingham, WA:
