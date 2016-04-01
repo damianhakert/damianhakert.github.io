@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Meet GitLab - Events"
+title: "Meet GitLab - Upcoming Events"
 date: 2016-04-01 08:00
 comments: true
 author: Emily Kyle
 author_twitter: emilylucie
-image_title: '/images/team_sm.jpg'
+image_title: '/images/blogimages/railsgirls-tomazs.jpg'
 ---
 
 Our [team] is growing! Since we're an entirely remote team, you don't have to
@@ -49,6 +49,8 @@ We'd love to meet you.
 ## Online
 
 - [Programadores e Informáticos Chile community](http://www.programadores.cl) - April 4. [Heather] will present about GitLab Pages.
+
+Photo by [Rails Girls Tricity](railsgirls.com/tricity).
 
 
 [team]: https://about.gitlab.com/team/
