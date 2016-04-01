@@ -23,7 +23,6 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Security](/handbook/security)
 * [Support](/handbook/support)
 * [Leadership](/handbook/leadership)
-* [GitLab University](/university/)
 
 ## This page
 
