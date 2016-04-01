@@ -34,9 +34,9 @@ We'd love to meet you.
 
 ## South America
 
-- [4th ProIn Chile Meetup - Universidad San Sebastián](http://www.programadores.cl), Santiago, Chile. [Felipe] is leading the challenge.
+- [4th ProIn Chile Meetup - Universidad San Sebastián](http://www.programadores.cl), Santiago, Chile. [Felipe] is leading the "Community Portfolios" challenge.
 - [FLISoL Chile 2016](http://www.santiago.flisol.cl) - DUOC UC, Santiago, Chile. April 23. [Felipe] will be leading a workshop. GitLab CE & GitLab.com for FOSS. How to contribute to GitLab.
-- [Ruby on Rails Bootcamp](http://rails.softwarelibrechile.cl ) - Universidad de Santiago de Chile, Santiago, Chile. April 30 | May 7, 28 | June 4, 11, 18. Ruby, Rails, Git (website under construction) [Felipe]
+- [Ruby on Rails Bootcamp](http://rails.softwarelibrechile.cl ) - Universidad de Santiago de Chile, Santiago, Chile. April 30 | May 7, 28 | June 4, 11, 18. Ruby, Rails & Git [Felipe]
 
 ## Europe
 
