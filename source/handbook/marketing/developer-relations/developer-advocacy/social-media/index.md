@@ -53,7 +53,6 @@ You may come across angry users from time to time. When dealing with people who 
 - If it’s getting personal, step away from the conversation and delegate to someone else.
 - Sometimes all people need is acknowledgement. Saying “Sorry things aren’t working for you” can go a long way.
 
-
 This document is a guide for GitLab team members who manage social media accounts. 
 
 You are personally responsible for the tweets, likes and replies you post on social media while representing GitLab. Everything you publish is publicly viewable and will be available for a long time even if redacted. Be careful and thoughtful when using the company accounts. 
@@ -145,10 +144,6 @@ Use English
 - We post information for potential GitLab employees to show what it's like to work here.
 - We share jobs
 - We post links to relevant industry articles about open source, DevOps, or other trends and news.
-
-## Google Plus
-
-Not actively posting right now, maybe we should remove it from our homepage.
 
 ## Other channels
 
