@@ -109,7 +109,7 @@ Change all creative work from read-only to read-write so that **everyone can con
 
 6. To preserve culture we should over communicate and regularly discuss our values.
 
-7. Drop minimum basic subscription user count to 1 user.
+7. Drop minimum basic subscription user count to 1 user. DONE
 
 8. Work on [leadership development](https://docs.google.com/document/d/11XBwnyLZE7ocHSx147Az09XtElzAPR_osc-H75BYkMI/edit) to promote from within where possible.
 
@@ -197,7 +197,7 @@ Change all creative work from read-only to read-write so that **everyone can con
 
 3. Foster leadership that stresses radiating knowledge in code, documentation, and blog articles.
 
-4. Continuous Deployment of master to GitLab.com via packages.
+4. [Continuous Deployment of master to GitLab.com via packages.](https://gitlab.com/gitlab-com/operations/issues/146)
 
 5. Solutions for performance measurement, logs, and errors that ship with EE.
 
@@ -209,4 +209,4 @@ Change all creative work from read-only to read-write so that **everyone can con
 
 1. The reseller partnerships are especially important here.
 
-1. We also want to get shipped as official Debian package.
+1. We also want to get shipped as official Debian package. DONE
