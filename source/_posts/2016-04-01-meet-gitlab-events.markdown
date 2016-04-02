@@ -50,7 +50,7 @@ We'd love to meet you.
 
 - [Programadores e Informáticos Chile community](http://www.programadores.cl) - April 4. [Heather] will present about GitLab Pages.
 
-Photo by [Rails Girls Tricity](railsgirls.com/tricity).
+Photo by [Rails Girls Tricity](http://railsgirls.com/tricity).
 
 
 [team]: https://about.gitlab.com/team/
