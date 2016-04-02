@@ -12,7 +12,7 @@ The marketing team is made up of a few key functional groups:
 ## Demand generation
 
 - [Demand generation](/handbook/marketing/demand-generation)
-- [Online marketing](/jobs/online-marketing-manager/)
+- [Online marketing](/handbook/marketing/online-marketing/)
 - [Business development](/jobs/business-development-representative/)
 
 ## Developer Relations

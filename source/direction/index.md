@@ -47,8 +47,10 @@ The CE and EE to the right of the version number link to all planned issues for 
 ## Wishlist <a name="wishlist"></a>
 
 Below are features we'd really like to see in GitLab.
-This list is not prioritized.
+This list is not prioritized. We invite everyone to join the discussion by clicking the wishlist item that is of interest to you.
+Feel free to comment, vote up or down any issue or just follow the conversation.  For GitLab sales, please add a link to the account in Salesforce.com that has expressed interest in a wishlist feature.
 We very much welcome contributions that implement any of these things.
+
 
 ### Major Wins
 
