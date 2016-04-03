@@ -12,7 +12,7 @@ title: Organizational Structure
       etc.
     etc.
   Sales - CRO
-    (Senior) Account Executives
+    Account Executives
     EMEA - Sales Director EMEA
       Account Executives
     APAC - Director of Global Alliances and APAC Sales
@@ -27,11 +27,14 @@ title: Organizational Structure
   Engineering - VP of Engineering
     Various teams - Various team leads
       Developers
+    Design - Frontend Lead
+      UX Designers
+      Frontend engineers
     Infrastructure - Senior Production Engineer
       Production Engineers
       Developers
-  Product - VP of Product
-  Product - Head of Product
+  General Product - VP of Product
+  CI/CD Product - Head of Product
   People Operations - People Operations Manager
     Administration - Administrative Coordinator
     People Operations - People Operations Administrator
