@@ -129,6 +129,8 @@ and then ping @rspeicher to confirm your account.
 * [ ] Patricio/Robert/Jacob: Add new team member to the [gitlab-org](https://gitlab.com/groups/gitlab-org/group_members) group on GitLab.com as a `Developer`.
 * [ ] For Production Engineering team members: Hiring manager: add the [sysadmin onboarding checklist](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/onboard-new-sysadmin.md)
 * [ ] PeopleOps: Add the new team member to the next Retro meeting and the Kickoff meeting that's scheduled and save for all events in the future.
+* [ ] For Service Engineering team members: Patricio/Robert/Jacob: Create GitLab.com admin account.
+
 
 ### FOR SALES AND FINANCE ONLY
 
