@@ -107,6 +107,7 @@ Next to Savvy, the People Ops team will also get a copy of the form info for you
 * [ ] PeopleOps: Add team member to Expensify (if employee).
 * [ ] PeopleOps: Add new team member to the info sheets of the Austin Summit
 * [ ] PeopleOps: Send the new team member the "reset password" email for their BambooHR profile
+* [ ] PeopleOps: Create a profile on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member
 * [ ] Patricio/COO: Add to tweetdeck (applies to Service Engineers and Production Engineers for @gitlabstatus, and marketing hires)
 * [ ] New team member: Register on 1Password by clicking [this link](https://gitlab.1password.com/teamjoin/invitation/J2KWH3CJDRFA7KTFDVVXXDSCMY)
 and then ping @rspeicher to confirm your account.
