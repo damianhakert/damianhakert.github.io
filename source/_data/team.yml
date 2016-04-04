@@ -331,7 +331,7 @@
   twitter: brodock
   gitlab: brodock
   maintains: |
-             <li>Support Turbo <a href="https://about.gitlab.com/handbook/support/"></a></li>
+             <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           Gabriel is the first Brazillian in the team, before joining GitLab,
           he was fighting the scalability and performance battle on a
@@ -499,7 +499,7 @@
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-contributors/">GitLab Contributors</a></li>
               <li>Merge request coach</li>
               <li>Trained <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/release/monthly.md#release-manager">Release Manager</a></li>
-              <li>Support Turbo <a href="https://about.gitlab.com/handbook/support/"></a></li>
+              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           Rémy loves the Web, the open-source, Git and Ruby. He's very versatile
           and enjoys working on complete features from back to front. When not
@@ -514,7 +514,7 @@
   gitlab: joshfng
   maintains:  |
                 <li>Performance specialist</li>
-                <li>Support Turbo <a href="https://about.gitlab.com/handbook/support/"></a></li>
+                <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           Josh is a software developer with a passion for developer tools, automation,
           and CI. He enjoys creating and maintaining side projects for developers
