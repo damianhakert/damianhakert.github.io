@@ -676,6 +676,15 @@
   story:  |
           Felipe is a rubyist from Chile trying to get more people into the Git boat. He likes to comunicate tech to non-tech individuals and help local communities reach more people. When AFK, he is desoldering stuff, 3D printing Star Wars models or in the stadium with his father and brother cheering for 'La U'.
 
+- name: B.C.
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
+  reports_to: Senior Demand Generation Manager
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining March 1st
+
 - name: Amanda Folson
   role: <a href="https://about.gitlab.com/jobs/developer-advocate/">Developer Advocate</a>
   reports_to: CMO
@@ -751,7 +760,7 @@
   gitlab:
   story:  |
           Joining April 11th
-          
+
 - name: R.B.
   role: Solutions Engineer
   reports_to: CRO
@@ -759,7 +768,7 @@
   twitter:
   gitlab:
   story:  |
-          Joining April 18th          
+          Joining April 18th
 
 - name: M.F.
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
@@ -769,4 +778,3 @@
   gitlab:
   story:  |
           Joining May 1st
-
