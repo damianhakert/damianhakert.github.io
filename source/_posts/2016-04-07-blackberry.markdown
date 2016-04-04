@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blackberry - GitLab as an ideation tool"
+title: "Customer Story: Blackberry - GitLab as an ideation tool"
 date: 2016-04-07 10:00
 comments: true
 categories: customers
@@ -12,10 +12,15 @@ image_title: '/images/unsplash/agile.jpeg'
 In this post we'll look at how BlackBerry® is using GitLab.
 
 <!-- more -->
+
+## Background Info
+
 BlackBerry® is securing a connected world, delivering innovative solutions
 across the entire mobile ecosystem and beyond.
 They secure the world’s most sensitive data across all end points – from cars
 to smartphones – making the mobile-first enterprise vision a reality. 
+
+## GitLab as an ideation tool
 
 We spoke with Mark Chatterley, Senior Manager, Software Development at
 BlackBerry about how they use GitLab. They run a GitLab instance as a center
@@ -50,3 +55,8 @@ that is a natural fit for their work. When it’s time to move an innovation
 project to production, the migration from GitLab to Gerrit is easy.
 They aren’t locked in with GitLab. For BlackBerry, GitLab is an additional
 incubator for innovation.
+
+## Tell us your story
+
+Is your team using Gitlab? We’d love to hear from you.
+Email us at community@gitlab.com if you’re interested in sharing. 
