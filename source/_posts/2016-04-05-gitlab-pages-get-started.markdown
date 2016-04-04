@@ -9,10 +9,11 @@ author_twitter: _axil
 image_title: '/images/unsplash/ios-development.jpg'
 ---
 
-We added [GitLab Pages][docs-pages] in GitLab (EE) 8.3, and then added support
-for custom domains and TLS certificates in GitLab (EE) 8.5. We made this service
-freely available to users on [GitLab.com](https://gitlab.com), which is our hosted
-GitLab EE service, offering unlimited and free public or private projects.
+We added [GitLab Pages][docs-pages] in GitLab Enterprise Edition (EE) 8.3, and
+then added support for custom domains and TLS certificates in GitLab EE 8.5. We
+made this service freely available to users on [GitLab.com](https://gitlab.com),
+which is our hosted GitLab EE service, offering unlimited and free public or
+private projects.
 
 We've since added some great resources to help you get started, including this
 handy [quickstart guide][quickstart].
@@ -21,33 +22,32 @@ handy [quickstart guide][quickstart].
 
 ## What you need to know about GitLab Pages
 
-1. You can create a site for...
-
-    - Your username
-    - A project
-    - A group
-
-2. You can use any static site generator.
-3. You can connect custom domains and TLS certificates to secure your domains.
+1. There are two kinds of Pages:
+    - User or group Pages
+    - Project Pages
+2. You can use any static site generator
+3. You can connect custom domains and TLS certificates to secure your domains
 4. The service is completely free as part of GitLab.com
-
-![GitLab Pages example projects](/images/blogimages/gitlab-pages-examples.png)
 
 ## New resources to learn how to use GitLab Pages
 
 We added improved documentation to help you get your site set up.
 
-- GitLab Pages Quick Start Guide: https://pages.gitlab.com
+- GitLab Pages Quick Start Guide: https://pages.gitlab.io
 - Documentation: [GitLab Pages User guide][docs-pages]
 - Documentation: [GitLab Pages Admin guide][docs-adminpages]
 
-We also added a group with a number of example GitLab Pages projects.
+We also [added a group][group] with a number of example GitLab Pages projects.
+
+![GitLab Pages example projects](/images/blogimages/gitlab-pages-examples.png)
+
 You can easily get started with a [Plain HTML](https://gitlab.com/pages/plain-html)
 site, but you can do much more.
 The range of examples show that GitLab can support *any static site generator*.
-You name the generator, you can build it with GitLab!.
+You name the generator, you can build it with GitLab!
 
 - [Jekyll](https://gitlab.com/pages/jekyll)
+- [Pelican](https://gitlab.com/pages/pelican)
 - [Hugo](https://gitlab.com/pages/hugo)
 - [Middleman](https://gitlab.com/pages/middleman)
 - [Hexo](https://gitlab.com/pages/hexo)
@@ -56,7 +56,7 @@ You name the generator, you can build it with GitLab!.
 - [Harp](https://gitlab.com/pages/harp)
 
 All of this is made possible with GitLab CI. If you'd like to know more,
-sign up for our webcast!
+sign up for our webcast below!
 
 ## Need some help to get started?
 
@@ -80,3 +80,4 @@ Can't make it? Register anyway, and we'll send you a link to watch it later!
 [docs-pages]: http://doc.gitlab.com/ee/pages/README.html
 [docs-adminpages]: http://doc.gitlab.com/ee/pages/administration.html
 [quickstart]: https://pages.gitlab.io/
+[group]: https://gitlab.com/groups/pages
