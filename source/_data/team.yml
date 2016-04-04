@@ -330,6 +330,8 @@
   picture: gabriel.jpg
   twitter: brodock
   gitlab: brodock
+  maintains: |
+             <li>Support Turbo <a href="https://about.gitlab.com/handbook/support/"></a></li>
   story:  |
           Gabriel is the first Brazillian in the team, before joining GitLab,
           he was fighting the scalability and performance battle on a
