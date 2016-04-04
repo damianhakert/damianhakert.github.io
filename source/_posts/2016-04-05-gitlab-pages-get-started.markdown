@@ -25,7 +25,7 @@ handy [quickstart guide][quickstart].
 1. There are two kinds of Pages:
     - User or group Pages
     - Project Pages
-2. You can use any static site generator
+2. You can use [any static site generator][staticgen]
 3. You can connect custom domains and TLS certificates to secure your domains
 4. The service is completely free as part of GitLab.com
 
@@ -55,7 +55,7 @@ You name the generator, you can build it with GitLab!
 - [Metalsmith](https://gitlab.com/pages/metalsmith)
 - [Harp](https://gitlab.com/pages/harp)
 
-All of this is made possible with GitLab CI. If you'd like to know more,
+All of this is made possible with [GitLab CI][ci]. If you'd like to know more,
 sign up for our webcast below!
 
 ## Need some help to get started?
@@ -79,5 +79,7 @@ Can't make it? Register anyway, and we'll send you a link to watch it later!
 [issue tracker]: https://gitlab.com/pages/pages.gitlab.io/issues
 [docs-pages]: http://doc.gitlab.com/ee/pages/README.html
 [docs-adminpages]: http://doc.gitlab.com/ee/pages/administration.html
-[quickstart]: https://pages.gitlab.io/
+[quickstart]: https://pages.gitlab.io
 [group]: https://gitlab.com/groups/pages
+[ci]: https://about.gitlab.com/gitlab-ci/
+[staticgen]: https://www.staticgen.com/
