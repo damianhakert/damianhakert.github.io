@@ -734,6 +734,15 @@
   story:  |
           Annabel is a front end developer with a passion for creating beautiful and functional applications. She has learned bits and pieces of various languages during her career, but is most excited about JavaScript, SASS, and Rails. In her free time she enjoys curling up with a good book, inventing cookie recipes, and spending time with her wonderful fianc&eacute.
 
+- name: A.N.
+  role: <a href="https://about.gitlab.com/jobs/product-marketing-manager/">Senior Product Marketing Manager</a>
+  reports_to: CMO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining April 4th
+
 - name: T.A.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Development Lead
@@ -742,6 +751,15 @@
   gitlab:
   story:  |
           Joining April 11th
+          
+- name: R.B.
+  role: Solutions Engineer
+  reports_to: CRO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining April 18th          
 
 - name: M.F.
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
