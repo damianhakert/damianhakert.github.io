@@ -30,12 +30,13 @@ Go to the [Marketing Handbook](/handbook/marketing)
 ## Inbound Lead Flow<a name="leadFlow"></a>
 
 1. Lead comes into BDR team via one of the named Inbound Lead routes above.
-2. Lead is input into Marketo.
-3. Lead is assigned according to assignment rules.
-4. If region is EMEA, lead goes directly to EMEA BDR team.
-5. All other regions go directly to NA BDR team.
-6. If outside of EMEA, large accounts and recognizable brand names are first passed directly to Enterprise Sales team via assignment in Salesforce + email alert to account owner.
-7. All other leads pass through BDR lead qualification process.
+1. Lead is input into Marketo.
+1. Lead is assigned according to assignment rules.
+1. If region is EMEA, lead goes directly to EMEA BDR team.
+1. If region is APAC, lead goes directly to APAC Sales Director.
+1. All other regions go directly to NA BDR team.
+1. If outside of EMEA, large accounts and recognizable brand names are first passed directly to Enterprise Sales team via assignment in Salesforce + email alert to account owner.
+1. All other leads pass through BDR lead qualification process.
 
 ## Lead qualification process<a name="leadQual"></a>
 
