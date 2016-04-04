@@ -80,11 +80,14 @@ GitLab 8.6.2 fixes a privacy issue where private snippets for a public or
 internal project were accessible either to anonymous users in the case of a
 public project or to any logged-in users in the case of an internal project.
 
-**If you have private snippets in a public or internal project, we recommend
-updating to 8.6.2 or a newer version immediately.**
+All versions prior to 8.6.2 are affected. Depending on your usage of project
+snippets, you might want to upgrade to 8.6.2 or a newer version immediately:
 
-**Please note that if your project is private, your snippets were never affected
-by this issue.**
+- **If you have private snippets in public or internal projects, we recommend
+upgrading to 8.6.2 or a newer version immediately**
+- If all your projects are private or if you have no private project snippets in
+your GitLab instance, you can keep upgrading according to your
+usual schedule
 
 ## Upgrade barometer
 
