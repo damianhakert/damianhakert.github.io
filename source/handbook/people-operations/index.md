@@ -50,12 +50,16 @@ in one place. All team members (all contract types) are in BambooHR.
 Some changes or additions we make to BambooHR require action from our team members.
 Before calling the whole team to action:  
 
-- make sure _that it is necessary_  for the entire team to act, or whether the
+1. document what the process will be regarding this action (e.g. "need information X") for
+_new_ team members. (Recall that we strive to change processes by documenting them, not vice versa).
+1. make sure _that it is necessary_  for the entire team to act, or whether the
 work can be done by People Ops (even if this is tedious to do for People Ops, it
 is preferred, so as not to burden the team),
-- make sure that the call to action is OK-ed by management, 
-- and check the steps to be taken by testing them with a single team member or a
+1. make sure that the call to action is OK-ed by management, 
+1. and check the steps to be taken by testing them with a single team member or a
 test account that does not have admin privileges.
+1. in the note to the team, point to the documentation created in step 1, explain the need and 
+the ask, and who to turn to in case of questions.
 
 ### Adding a new team member to BambooHR <a name="admin-bamboo"></a>
 
