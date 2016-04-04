@@ -9,7 +9,8 @@ author_twitter: _axil
 image_title: '/images/unsplash/ios-development.jpg'
 ---
 
-We added [GitLab Pages][docs-pages] in GitLab Enterprise Edition (EE) 8.3, and
+With [GitLab Pages][docs-pages] you can host your static website for free.
+We added GitLab Pages in GitLab Enterprise Edition (EE) 8.3, and
 then added support for custom domains and TLS certificates in GitLab EE 8.5. We
 made this service freely available to users on [GitLab.com](https://gitlab.com),
 which is our hosted GitLab EE service, offering unlimited and free public or
@@ -60,7 +61,7 @@ sign up for our webcast below!
 
 ## Need some help to get started?
 
-We'd love your feedback on our quick start guide.
+We'd love your feedback on our [GitLab Pages Quick Start][quickstart] guide.
 If you have any questions you can submit them in the comments,
 or on the [issue tracker] for the GitLab Pages Quick Start Guide project.
 
