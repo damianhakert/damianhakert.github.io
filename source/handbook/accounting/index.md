@@ -4,6 +4,9 @@ title: "Accounting"
 ---
 
 ## Accounting Topics
+* [General Topics](#general-topics)
+   * [Company phone number](#phone-number)
+   * [Company accounts](#company-accounts)
 * [Processing Payroll](#payroll)
    * [GitLab Inc. payroll](#payroll-inc)
    * [GitLab BV pay slips](#payroll-bv)
@@ -13,11 +16,24 @@ title: "Accounting"
 * [Accounts Receivable](#ar)
 * [Cash Receipt](#cash-receipt)
 
-### Company phone number
+## General Topics<a name="general-topics"></a>
+
+### Company phone number<a name="phone-number"></a>
 
 When needing to fill in details of GitLab's contact information you can take the addressess of the offices for reference.
 If a phone number is asked, leaving this field empty is our default answer, otherwise if this does not work you can use
 the general number (+1-415-761-1791), but be aware that this number simply guides to a voice message that refers the caller back to contacting us via email.
+
+### Company accounts<a name="company-accounts"></a>
+
+Login information for the following accounts can be found in the Secretarial vault 
+on 1Password:
+
+- FedEx
+- Amazon
+- IND (Immigratie en Naturalisatie Dienst, in the Netherlands) company number
+
+If you need this information but cannot find it in your shared vaults you can check with PeopleOps to get access.
 
 ## Processing Payroll  <a name="payroll"></a>
 
