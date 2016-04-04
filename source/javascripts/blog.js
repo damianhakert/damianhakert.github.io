@@ -1,3 +1,3 @@
-$(document).ready(function() {
-  $('[data-toggle="tooltip"]').tooltip()
+$(function () {
+  $('.blog-entry table').wrap('<div class="table-responsive"></div>');
 });

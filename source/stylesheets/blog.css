@@ -421,3 +421,29 @@ ul.post-list > li > time {
 #dl-partial-sm {
   white-space: normal;
 }
+
+.blog-entry .table-responsive {
+  margin-bottom: 0;
+  border: 0;
+}
+
+.blog-entry table {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.blog-entry table:not(.highlighttable) th,
+.blog-entry table:not(.highlighttable) td {
+  padding: 8px 10px;
+  font-size: 18px;
+}
+
+.blog-entry table:not(.highlighttable) th {
+  font-weight: normal;
+  background-color: #faf9f9;
+  border-bottom: 1px solid #efeff1;
+}
+
+.blog-entry table:not(.highlighttable) tr:hover td {
+  background-color: #f4f8fe;
+}
