@@ -10,7 +10,8 @@ author_twitter: gitlab
 Today we are releasing version 8.6.2 for GitLab Community Edition (CE) and
 Enterprise Edition (EE).
 
-This version includes many fixes and improvements.
+This version includes one privacy fix for project snippets, as well as many
+fixes and improvements.
 
 Read on for all the details!
 
@@ -72,6 +73,21 @@ Read on for all the details!
 
 [!704]: https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/704
 [!705]: https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/705
+
+## Privacy issue with project snippets
+
+GitLab 8.6.2 fixes a privacy issue where private snippets for a public or
+internal project were accessible either to anonymous users in the case of a
+public project or to any logged-in users in the case of an internal project.
+
+All versions prior to 8.6.2 are affected. Depending on your usage of project
+snippets, you might want to upgrade to 8.6.2 or a newer version immediately:
+
+- **If you have private snippets in public or internal projects, we recommend
+upgrading to 8.6.2 or a newer version immediately**
+- If all your projects are private or if you have no private project snippets in
+your GitLab instance, you can keep upgrading according to your
+usual schedule
 
 ## Upgrade barometer
 
