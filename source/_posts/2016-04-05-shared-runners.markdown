@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitLab.com Shared Runners use Autoscaling"
-date: 2016-03-31 12:00
+date: 2016-04-05 16:00
 comments: true
 categories:
 author: Kamil Trzciński
@@ -62,7 +62,7 @@ out of the container.
 
 ## The tags
 
-All Shared Runners are tagged with `shared` and `docker`.
+All Shared Runners are tagged with `shared`, `docker` and `linux`.
 
 You can use these tags in your `.gitlab-ci.yml` file to limit which runners are
 used for specific jobs:
@@ -72,7 +72,6 @@ test:
   ...
   tags:
   - shared
-  - docker
 
 deploy:
   ...
@@ -107,6 +106,50 @@ tests:
   ...
 ```
 
+## Final configuration
+
+You may be interested how GitLab Runner [config.toml][config-toml] looks like.
+It's really simple!
+
+```
+[[runners]]
+  name = "docker-auto-scale"
+  limit = X
+  url = "https://gitlab.com/ci"
+  token = "SHARED_RUNNER_TOKEN"
+  executor = "docker+machine"
+  [runners.docker]
+    image = "ruby:2.1"
+    privileged = false
+    volumes = ["/cache", "/usr/local/bundle/gems"]
+  [runners.machine]
+    IdleCount = 20
+    IdleTime = 1800
+    MaxBuilds = 1
+    MachineDriver = "digitalocean"
+    MachineName = "machine-%s-digital-ocean-4gb"
+    MachineOptions = [
+      "digitalocean-image=coreos-beta",
+      "digitalocean-ssh-user=core",
+      "digitalocean-access-token=DIGITAL_OCEAN_ACCESS_TOKEN",
+      "digitalocean-region=nyc2",
+      "digitalocean-size=4gb",
+      "digitalocean-private-networking",
+      "engine-registry-mirror=http://IP_TO_OUR_REGISTRY_MIRROR"
+    ]
+  [runners.cache]
+    Type = "s3"
+    ServerAddress = "IP_TO_OUR_CACHE_SERVER"
+    AccessKey = "ACCESS_KEY"
+    SecretKey = "ACCESS_SECRET_KEY"
+    BucketName = "runner"
+```
+
+The above configuration says that the VM will be used only once, making your builds secure.
+We will always have 20 machines waiting to pick up a new builds.
+We use Digital Ocean 4GB machine in NYC2, with CoreOS Beta and Docker 1.9.1 installed.
+The runner is configured to use [Docker Hub Registry Mirror][docker-mirror] and [Distributed runners caching][docker-caching].
+
 Happy building!
 
 ## Live webcast: GitLab CI
@@ -125,3 +168,6 @@ Can't make it? Register anyway, and we'll send you a link to watch it later!
 [docs-pages]: http://doc.gitlab.com/ee/pages/README.html
 [docs-runners]: http://doc.gitlab.com/ce/ci/runners/README.html
 [runner-release]: https://about.gitlab.com/2016/03/29/gitlab-runner-1-1-released/
+[docker-mirror]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/configuration/autoscale.md#distributed-docker-registry-mirroring
+[docker-caching]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/configuration/autoscale.md#distributed-runners-caching
+[config-toml]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/configuration/advanced-configuration.md
