@@ -108,7 +108,7 @@ tests:
 
 ## Final configuration
 
-You may be interested how GitLab Runner [config.toml][config-toml] looks like.
+You may be interested what GitLab Runner [config.toml][config-toml] looks like.
 It's really simple!
 
 ```
