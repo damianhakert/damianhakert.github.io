@@ -31,6 +31,7 @@ Below is some more information to help you get set up with your [Egencia](https:
 ### Booking travel through [Egencia](https://www.egencia.com) <a name="egencia"></a>
 
 If you book through Egencia, the costs will be added to the GitLab invoice and **no credit card is needed**.
+* Please note that some budget airlines might not show in Egencia, so make sure to check those to be sure there is no better option out there.
 
 1. Login to your account. If you've not yet set up your account, do this first.
 1. The dashboard gives you directly the option to start booking. The flight option
