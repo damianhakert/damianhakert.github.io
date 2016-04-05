@@ -14,6 +14,7 @@ title: "People Operations"
 - [Using TriNet](#using-trinet)
    - [Add new hires to TriNet](#trinet-process)
    - [Making changes in TriNet](#changes-trinet)
+- [Offboarding team members](#offboarding)
 
 ## Reaching People Operations<a name="reach-peopleops"></a>
 
@@ -190,3 +191,9 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Select Employee Transfer.
 1. Change location and fill in necessary information.
 1. Select Update.
+
+
+## Offboarding team members <a name="offboarding"></a>
+
+After the relationship ends between the team member and  GitLab we expect our property to be returned to us. GitLab will pay for the shipping either by sending a Fedex shipping slip or it can be returned by another method. After the relationship ends and the property is not returned, GitLab reserves the right to use a Creditor Company and to send it to collections against your Tax ID Number.
+More information on the steps to take when offboarding employees are in the [handbook](https://about.gitlab.com/handbook/offboarding/).
