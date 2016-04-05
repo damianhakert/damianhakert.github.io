@@ -25,6 +25,7 @@ member of the People Operations team, as listed on our [Team page](https://about
 ## Setting up new hiring contracts<a name="new-contracts"></a>
 
 New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/) page, including instructions on how to set up new contracts.
+Templates for the contracts are set up in BambooHR. You can download the template from the "Files" tab and work on the contract using Google Drive. Here you can work together if you need help and download the PDF for HelloSign.
 
 ### Using HelloSign<a name="hellosign"></a>
 

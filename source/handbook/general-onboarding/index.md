@@ -62,14 +62,7 @@ ask her/his questions of the wider group on Slack, etc."
 the new team member to their GitLab email and their onboarding issue. Template text:
 "Welcome to GitLab, we are happy to have you on the team! You should have received
 an invitation to your GitLab email account; please let me know if that is not the case.
-Everything you need to get started is listed in your onboarding issue (insert link).
-We're looking forward to seeing you on our daily Team Call! The first time that you
-join, please make sure that you connect at least 10 minutes before the call and
-make sure that your camera and microphone are working properly. We'd like you to
-introduce yourself to the team so please prepare some talking points for yourself.
-Some tips to help you out here: tell us about where you were before GitLab, why
-you wanted to join our team, just a little something about your background and
-of course something on what you like to do in your spare time."
+Everything you need to get started is listed in your onboarding issue (insert link). Please read through the different tasks carefully and feel free to reach out to PeopleOps with any questions.
 * [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team.
    * [ ] 1. call with ___
    * [ ] 2. call with ___
@@ -90,7 +83,7 @@ of course something on what you like to do in your spare time."
 * [ ] People Ops: complete and submit an online Add New Hire Form
 (TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the
 welcome email to the employee at their work email on their first date of hire.
-* [ ] New employee: complete [New Hire TriNet Passport 7 Steps Guide](https://docs.google.com/a/gitlab.com/document/d/1CFIyByd1Kgmz5353_aASVI1D8QTyJ2Uy60ziQHEPTUI/edit?usp=sharing). The I-9 portion of this must be completed with the first two days of hire. Note- this is critical so you must contact HR@gitlab.com if you have difficulty with this form.
+* [ ] New employee: complete [New Hire TriNet Passport 7 Steps Guide](https://docs.google.com/a/gitlab.com/document/d/1CFIyByd1Kgmz5353_aASVI1D8QTyJ2Uy60ziQHEPTUI/edit?usp=sharing). The I-9 portion of this must be completed with the first two days of hire. Note- this is critical so you must contact PeopleOps if you have difficulty with this form.
 * [ ] New employee: read through the [New Hire Benefits Guide](https://drive.google.com/a/gitlab.com/file/d/0B0dixQ9qzgilNlN0MnNFS29xWnB2SjNWVUk3dUV2aWlhejVR/view?usp=sharing). This will go over medical, dental, vision and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
 * [ ] People Ops: Set up new hire training with TriNet (If necessary).
 

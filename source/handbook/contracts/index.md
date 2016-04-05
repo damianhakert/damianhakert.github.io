@@ -14,6 +14,10 @@ title: "Contracts"
    * [GitLab BV NDA and IP Agreements](#bv-nda-ip)
 * [Usability Testing Consent](#usability-consent)
 
+## Note
+**Please make sure to inform the PeopleOps team when you are making changes to these example templates for any type of contract.**
+PeopleOps has the different templates of our contracts in BambooHR. These are used to create the actual contact.
+
 ## Disclaimer <a name="disclaimer"></a>
 These agreements are examples of the agreements that we currently use at GitLab. However, the terms and conditions of  an employee or
 contractor’s agreement will vary based on each employee or contractor’s specific circumstances. GitLab reserves the right to amend or
@@ -65,14 +69,24 @@ Company’s employee compensation policies in effect from time to time.
 {OPTIONAL: In addition to your base salary you will be eligible to participate in
 additional incentive arrangements as set forth in the paragraphs below.}
 
-**3\. {OPTIONAL COMMISSION (usually for Sales roles)} Commission**. You will be
+**3\. {OPTIONAL BDR COMP STRUCTURE} Performance Bonus**
+You will be eligible for a quarterly performance bonus in the following amounts:<br>
+% of Target Met, Gives Bonus % of $x.<br>
+Examples are:<br>
+25% of Target Met, Gives Bonus 25% of $x<br>
+50% of Target Met, Gives Bonus 50% of $x<br>
+75% of Target Met, Gives Bonus 75% of $x<br>
+100% of Target Met, Gives Bonus 100% of $x<br>
+The targets will be defined in accordance with the corporate plan.
+
+**4\. {OPTIONAL COMMISSION (usually for Sales roles)} Commission**. You will be
 paid commission on a monthly basis based on the following criteria; payable on
 cash collection from the client. Initially you will be compensated at a rate of
 [x]% of cash received from the customer less any taxes, shipping, returns, refunds,
 chargebacks, third party commissions, etc. All terms, definitions, payments and
 obligations related to Commission shall be governed by the 2015 GitLab Sales Compensation Plan.
 
-**4\. {OPTIONAL: STOCK}Stock Option Grant**. Subject to Board Approval you shall
+**5\. {OPTIONAL: STOCK}Stock Option Grant**. Subject to Board Approval you shall
 be granted an “incentive stock option” within the meaning of Section 422 of the
 Internal Revenue Code of 1986, as amended, to purchase {Number of Shares} shares
 of the Company’s common stock (the “Stock Option”), at an exercise price equal to
@@ -196,7 +210,7 @@ Work**”) and to provide any work product resulting therefrom to GitLab. Contri
 will be paid compensation in the amount and at the times set forth in **Exhibit B**,
 subject to timely submission of any deliverables in accordance with the schedule in
 the applicable Statement of Work. Unless other terms are set forth in **Exhibit B**,
-GitLab will pay Contributor for services within thirty (30) days of the date of receipt
+GitLab will pay Contributor for services within fifteen (15) days of the date of receipt
 of Contributor’s detailed invoice. Contributor will provide GitLab with reasonable
 documentation and work description in connection with Contributor’s invoices, as
 requested by GitLab.
