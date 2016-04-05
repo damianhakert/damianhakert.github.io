@@ -146,7 +146,7 @@ It's really simple!
 ```
 
 The above configuration says that the VM will be used only once, making your builds secure.
-We will always have 20 machines waiting to pick up a new builds.
+We will always have 20 machines waiting to pick up a new build.
 We use Digital Ocean 4GB machine in NYC2, with CoreOS Beta and Docker 1.9.1 installed.
 The runner is configured to use [Docker Hub Registry Mirror][docker-mirror] and [Distributed runners caching][docker-caching].
 
