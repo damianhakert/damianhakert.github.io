@@ -22,10 +22,14 @@ Read on for all the details!
 
 ## Minor security issue with tags and forks
 
-The security issue fixed in GitLab 8.6.4 was making tags from a fork project
-appearing in the upstream project's tags list in the case a merge request was
-opened from the fork to the upstream project, and a new tag had been pushed to
-the fork after that.
+Prior to this version, it was possible for the Git tags from a fork project to
+appear in the source project, if a merge request was opened on the source
+project from the fork project, and then new tags were pushed to the forked
+project. Tags that already existed in the source project would not be
+overwritten.
+
+We are planning to release patches for previous monthly releases soon and will
+update this post with more information at that time.
 
 ## Upgrade barometer
 
