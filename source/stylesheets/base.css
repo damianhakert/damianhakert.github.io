@@ -660,10 +660,6 @@ article {
   /*margin: 0 0 24px;*/
 }
 
-.blog-entry figure.code {
-  margin: 25px;
-}
-
 .blog-entry a {
   font-family: 'Roboto Condensed', serif;
   font-size: 18px;
