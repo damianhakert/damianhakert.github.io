@@ -23,9 +23,9 @@ Below is some more information to help you get set up with your [Egencia](https:
 
 1. You will receive an email from Egencia with your username.
 1. With the link, from step one in this email, you can set a password with link.
-1. Once you are in your dashboard, you can setup preferences in your travel profile. 
-You can enter your profile in the top right corner. Make sure to add your phone number.
-1. When you add your passport info to your profile this will populate your info directly when booking a flight.
+1. Once you are in your dashboard, setup your info in your profile. 
+1. You can enter your profile in the top right corner. Make sure to add your phone number in all three fields.
+1. Add your passport info to your profile (only passport info, no other form of ID) this will populate your info directly when booking a flight.
 1. Now let's start booking!
 
 ### Booking travel through [Egencia](https://www.egencia.com) <a name="egencia"></a>
@@ -84,6 +84,14 @@ You will get a total overview of what is booked. You can see that the hotel and/
 * You can also download the app "Egencia TripNavigator" to keep your itinerary close and even do bookings on the go if needed.
 
 Please send a message to travel@gitlab.com to get help in booking your travel.
+
+#### Booking shows Out of Policy
+
+* Sometimes there is no way around booking a flight or hotel that is out of policy. 
+* This means that the option selected is more expensive than the cheapest option + our buffer. 
+* When you try to book this, an email will be sent to travel@gitlab.com for approval. 
+* Please provide extensive reasoning to make approval easier and faster.
+* After 24 hours without any manual action (approved/denied) the booking will automatically be accepted.
 
 ### Expenses While Traveling <a name="expenses-while-traveling"></a>
 
