@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notes from the Git Contributors Summit"
+title: "Notes from the Git Merge Core Contributors Summit"
 date: 2016-04-06 16:00
 comments: true
 categories:
