@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "GitLab 8.6.4 Released"
+title: "GitLab 8.6.4, 8.5.9, 8.4.7, and 8.3.6 Released"
 date: 2016-04-04 12:00
 comments: true
 author: GitLab
 author_twitter: gitlab
 ---
 
-Today we are releasing version 8.6.4 for GitLab Community Edition (CE) and
-Enterprise Edition (EE).
+Today we are releasing versions 8.6.4, 8.5.9, 8.4.7, and 8.3.6 for GitLab
+Community Edition (CE) and Enterprise Edition (EE).
 
-This version includes a minor security fix.
+These versions include a minor security fix.
 
 Read on for all the details!
 
@@ -28,8 +28,10 @@ project from the fork project, and then new tags were pushed to the forked
 project. Tags that already existed in the source project would not be
 overwritten.
 
-We are planning to release patches for previous monthly releases soon and will
-update this post with more information at that time.
+> **Update:** _(2016-04-05 22:45 UTC)_
+>
+> As promised, we have included this security fix for the previous four GitLab
+> monthly releases, and have released new packages for each.
 
 ## Upgrade barometer
 
