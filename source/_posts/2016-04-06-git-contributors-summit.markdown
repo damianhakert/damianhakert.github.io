@@ -47,7 +47,7 @@ https://github.com/rtyley/submitgit
 
 ## Submodules
 
-There will be improvements to submodules in Git. Google engineers (Stefan Beller) are making this better, with improvements to both the UI and initialization. They are also working to improve speed with parallel downloads. When this works it will replace the Android repository tool called Repo. https://source.android.com/source/developing.html  
+There will be improvements to submodules in Git. Google engineers are making this better, with improvements to both the UI and initialization. They are also working to improve speed with parallel downloads. When this works it will replace the Android repository tool called Repo. https://source.android.com/source/developing.html  
 
 We'd like to thank [Peff](https://github.com/peff) for including us in the Git Merge Core Contributors Summit. We look forward to the next one!  
 
