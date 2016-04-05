@@ -7,6 +7,7 @@ title: "Hiring"
 * [Hiring Process](#hiring-process)
 * [Screening Call](#screening-call)
 * [Interview Questions](#interview-questions)
+* [Reference calls](#reference-calls)
 * [Getting Contracts Ready, Reviewed, and Signed](#prep-contracts)
 
 ## Vacancy Creation Process<a name="vacancy-creation-process"></a>
@@ -99,6 +100,10 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 1. If you get hired when can you start?
 1. What compensation would you feel comfortable with?
 1. Do you have any questions for me?
+
+## Reference calls <a name="reference-calls"></a>
+
+As part of our hiring process we can ask applicant to provide us with one or more references to contact. These reference calls is typically be done by our [administrative coordinator](https://about.gitlab.com/jobs/administrative-coordinator/) or the hiring manager for that specific vacancy. 
 
 ## Getting Contracts Ready, Reviewed, and Signed<a name="prep-contracts"></a>
 
