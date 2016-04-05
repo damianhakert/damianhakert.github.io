@@ -154,7 +154,7 @@ If an emergency takes longer than an hour to resolve,
 and/or multiple people are or need to be involved, **start a google doc** that is open to the customer and the wider team at GitLab, and keep track of the
 issues and ideas there. ZenDesk's 'linear' display of communication with a customer is not as effective in crisis situations, and the
 majority of developers do not have access to ZenDesk in the first place. Announce the google doc in the appropriate
-slack channel (#operations, #development, #general) so that individuals can contribute solutions and ideas. When the crisis
+slack channel (#infrastructure, #development, #general) so that individuals can contribute solutions and ideas. When the crisis
 has been resolved, be sure to transfer pertinent know-how from the google doc to relevant documentation, handbooks, and/or
 issue trackers, so that the google doc can be deprecated a.s.a.p.  In addition, Service Engineers and Developers involved
 in the crisis should make time to have a hangout for hand-off to make sure that everyone has the chance to recover and stay
@@ -163,7 +163,7 @@ clear-headed.
 ### GitLab.com downtime <a name="downtime"></a>
 
 When GitLab.com goes down a PD incident will be triggered as well, so the flow is the same as emergency tickets
-for the first steps. If you are on call and are still working, you should keep an eye on our #operations channel
+for the first steps. If you are on call and are still working, you should keep an eye on our #infrastructure channel
 in [Slack](https://gitlab.slack.com), as warning messages will often start to appear before the PD incident is triggered.
 
 Once you acknowledge the incident, you need to pinpoint the reason for the outage. Follow the documentation

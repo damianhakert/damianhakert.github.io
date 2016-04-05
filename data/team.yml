@@ -260,7 +260,7 @@
   gitlab: jnijhof
   maintains:  |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/status-gitlab-com">status-gitlab-com</a></li>
-              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/operations">operations issue tracker</a></li>
+              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/infrastructure">infrastructure issue tracker</a></li>
               <li>Maintainer of <a href="https://dev.gitlab.org/cookbooks/chef-repo/">Chef Repo</a> (internal)</li>
   story:  |
           Jeroen is a true open source evangelist with years of experience in maintaining, implementing and development in and with open source. At GitLab he really enjoys the
@@ -580,7 +580,7 @@
           Michael has been helping customers choose, deploy, and use software development tools since the 80's at companies like Borland, Symantec, Gupta, and Perforce.  Michael is passionate about building teams and business in the far-flung corners of the world.  When not working, Michael is an award winning wine maker and heavily involved in the local Boy Scouts.
 
 - name: Pablo Carranza
-  role: Senior <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a> and operations lead
+  role: Senior <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a> and infrastructure lead
   reports_to: CEO
   picture: pablo.jpg
   twitter: psczg

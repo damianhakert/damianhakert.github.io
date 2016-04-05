@@ -5,13 +5,13 @@ title: "Infrastructure"
 
 ## Infrastructure documentation and reference
 
-Most of the  documentation and reference can be found in
+Most of the infrastructure documentation and reference can be found in
 [in the Chef Repo](https://dev.gitlab.org/cookbooks/chef-repo).
 Make sure to check that if you're looking for anything in particular.
 
-## Always log into the  room
+## Always log into the infrastructure room
 
-Before you start fixing stuff, log into the [room](https://gitlab.slack.com/messages/infrastructure/) and leave a message. Other people might be working at the same time, especially if there was a pagerduty alert. If you don't immediately know what happened, create a postmortem doc with a sequential timeline.
+Before you start fixing stuff, log into the [infrastructure room](https://gitlab.slack.com/messages/infrastructure/) and leave a message. Other people might be working at the same time, especially if there was a pagerduty alert. If you don't immediately know what happened, create a postmortem doc with a sequential timeline.
 
 ### Why did server X stop working on Monday morning?
 
@@ -29,7 +29,7 @@ See [failover procedure](https://dev.gitlab.org/cookbooks/gitlab-drbd/blob/maste
 
 Backups for dev.gitlab.org are stored on S3 in the ‘backup-dev-gitlab-org’ bucket. The backups are protected against deletion using S3 versioning, and move to Glacier storage (slow retrieval) after 7 days.
 
-## GitLab infrastructure Archive
+## GitLab Infrastructure Archive
 
 You can find the infrastructure archive [here](https://docs.google.com/document/d/19yzyIHY9F_m5p0B0e6STSZyhzfo-vLIRVQ1zRRevWRM/edit#heading=h.lz1c6r6c9ejd).
 
