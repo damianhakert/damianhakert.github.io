@@ -9,7 +9,7 @@ author_twitter: GitLab
 image_title: '/images/unsplash/notes.jpg'
 ---
 
-At GitLab, we’re really proud to support the open source projects which underpin our service. Obviously, Git is a main part of absolutely everything we do. We recently sponsored [Git Merge](http://git-merge.com/#sponsors), an event organized by GitHub and sponsored by Atlassian, Bloomberg, Compose, SAP, and of course, GitLab. Even competitive organizations must work together to improve upon and negotiate the direction of key open source software. On the day before GitMerge, we joined the Git Contributors Summit to discuss the direction of the project and new developments. Here are some notes from this event.
+At GitLab, we’re really proud to support the open source projects which underpin our service. Obviously, Git is a main part of absolutely everything we do. We recently sponsored [Git Merge](http://git-merge.com/#sponsors), an event organized by GitHub and sponsored by Atlassian, Bloomberg, Compose, SAP, and of course, GitLab. Even competitive organizations must work together to improve upon and negotiate the direction of key open source software. On the day before GitMerge, we joined the Git Merge Core Contributors Summit to discuss the direction of the project and new developments. Here are some notes from this event.
 
 <!--more-->
 
@@ -49,4 +49,6 @@ https://github.com/rtyley/submitgit
 
 There will be improvements to submodules in Git. Google engineers (Stefan Beller) are making this better, with improvements to both the UI and initialization. They are also working to improve speed with parallel downloads. When this works it will replace the Android repository tool called Repo. https://source.android.com/source/developing.html  
 
-We'd like to thank [Peff](https://github.com/peff) for including us in the Git Contributors Summit. We look forward to the next one!
+We'd like to thank [Peff](https://github.com/peff) for including us in the Git Merge Core Contributors Summit. We look forward to the next one!  
+
+Please leave your opinions in the comments. We'd love to hear your thoughts. 
