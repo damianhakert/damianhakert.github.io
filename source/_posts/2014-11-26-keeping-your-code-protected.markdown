@@ -137,7 +137,7 @@ that reflect how most organisations use GitLab.
 ## About GitLab
 
 Interested in trying GitLab's protected branches?
-You can try GitLab by [downloading](https://about.gitlab.com/downloads/) the Community Edition and installing it on your own server or by signing up to our free, umlimited GitLab instance [GitLab.com](https://gitlab.com/users/sign_up).
+You can try GitLab by [downloading](https://about.gitlab.com/downloads/) the Community Edition and installing it on your own server or by signing up to our free, unlimited GitLab instance [GitLab.com](https://gitlab.com/users/sign_up).
 
 For support, deep LDAP integration, git hooks, Jenkins integration and more enterprise features, check out [GitLab Enterprise Edition](https://about.gitlab.com/features/#enterprise).
 
