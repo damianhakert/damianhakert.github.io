@@ -105,21 +105,20 @@ Next to Savvy, the People Ops team will also get a copy of the form info for you
 * [ ] PeopleOps: Invite to autoconnect on [Beamy](https://about.gitlab.com/handbook#beamy-guidelines).
 * [ ] PeopleOps: Order business cards for new team member.
 * [ ] PeopleOps: Add team member to Expensify (if employee).
-* [ ] PeopleOps: Add new team member to the info sheets of the Austin Summit
-* [ ] PeopleOps: Send the new team member the "reset password" email for their BambooHR profile
-* [ ] PeopleOps: Create a profile on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member
-* [ ] Patricio/COO: Add to tweetdeck (applies to Service Engineers and Production Engineers for @gitlabstatus, and marketing hires)
+* [ ] PeopleOps: Add new team member to the info sheets of the Austin Summit.
+* [ ] PeopleOps: Send the new team member the "reset password" email for their BambooHR profile.
+* [ ] PeopleOps: Create a profile on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
 * [ ] New team member: Register on 1Password by clicking [this link](https://gitlab.1password.com/teamjoin/invitation/J2KWH3CJDRFA7KTFDVVXXDSCMY)
 and then ping @rspeicher to confirm your account.
 * [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
 * [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
-* [ ] Robert/Jacob/COO: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer
+* [ ] Robert/Jacob/COO: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
 * [ ] New team member: Use the "reset your password" email of BambooHR to set a password and access your profile.
 * [ ] New team member: Add your Address, Phone number, private email and emergency contact to your BambooHR profile page.
 * [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar, stock photo or something with sunglasses).
 * [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. Assign the merge request to your hiring manager.
-* [ ] Hiring manager: Merge the request to add the new team member to be added to the team page, and immediately send out a tweet via Tweetdeck from @gitlab: "Welcome FULL NAME as TITLE https://about.gitlab.com/team/ glad to have you on the team @TWITTER_HANDLE_OF_NEW_TEAM_MEMBER". Feel free to replace "glad to have you on the team" with something else. If you don't have access to Tweetdeck please request it from Ernst, Patricio Dmitriy, or Sid.
-* [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing)
+* [ ] Hiring manager: Merge the request to add the new team member to be added to the team page, and coordinate with Marketing to send out a tweet from @gitlab.
+* [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing).
 * [ ] New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
 * [ ] New team member: Read the [Summit page](https://gitlab.com/summits/Austin-Summit-2016-project/) and save the date!
 * [ ] New team member: Make an improvement to the handbook (something that you wished was there), assign the merge request (MR) to your manager and link the MR url in this onboarding issue.
@@ -128,10 +127,14 @@ and then ping @rspeicher to confirm your account.
 ### FOR ENGINEERING ONLY (Devs, PEs, SEs)
 
 * [ ] Patricio/Robert/Jacob: Add new team member to the [gitlab-org](https://gitlab.com/groups/gitlab-org/group_members) group on GitLab.com as a `Developer`.
-* [ ] For Production Engineering team members: Hiring manager: add the [sysadmin onboarding checklist](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/onboard-new-sysadmin.md)
+* [ ] For Production Engineering team members: Hiring manager: add the [sysadmin onboarding checklist](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/onboard-new-sysadmin.md).
 * [ ] PeopleOps: Add the new team member to the next Retro meeting and the Kickoff meeting that's scheduled and save for all events in the future.
 * [ ] For Service Engineering team members: Patricio/Robert/Jacob: Create GitLab.com admin account.
+* [ ] For Service Engineering team members: Patricio/COO: Add to Tweetdeck for @gitlabstatus.
 
+### FOR MARKETING ONLY
+
+* [ ] Patricio/COO: Add to Tweetdeck.
 
 ### FOR SALES AND FINANCE ONLY
 
