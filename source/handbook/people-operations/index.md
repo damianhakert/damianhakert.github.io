@@ -95,7 +95,7 @@ corner you can click "edit" to make edits to the code. Scroll all the way down
 and copy-paste the code of the previous blank entry to the team page. Edit the 
 fields to the right info of the new hire and find the right job description on 
 the [Jobs](https://about.gitlab.com/jobs/) page.
-- **Note** This can be tricky, so if you run into trouble reach out to some of 
+ **Note** _This can be tricky, so if you run into trouble reach out to some of 
 your awesome colleagues in the #questions (channel) on Slack_
 - **Add entry to Team Call agenda**
 Open the Team Agenda google doc, and on the starting day add an Agenda item: 
@@ -108,7 +108,8 @@ On the right enter the team member's GitLab email address in the  "add guests"
 section and click save. When asked select "all events" to add to all scheduled 
 meetings and "send" out the invitation. 
 - **Order business cards**
-Add the new team member's info to the Business Cards Google doc. 
+Go to the "Notes" field in BambooHR and enter the info needed for the Business Cards.
+Once every week/few days or how often needed, run the "Business Cards order" report in the Reports - My Reports menu of BambooHR.
 Email our partner to order new business cards and add the info for the cards to 
 be ordered. Include the address of the team member (found in BambooHR) and inform 
 our partner to _**ship the cards directly to that address**_. Double check the 
