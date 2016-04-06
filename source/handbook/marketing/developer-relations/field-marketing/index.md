@@ -51,7 +51,7 @@ Field marketing includes event marketing and swag production.
 - Ask questions
 - Don't interrupt
 - Everyone gets shy sometimes, be the brave one and introduce yourself to new people.
-- Feel free to talk about our next release, GitLab [strategy] (https://about.gitlab.com/strategy/), or our [product direction] (https://about.gitlab.com/direction/#vision).
+- Feel free to talk about our next release, GitLab [strategy](https://about.gitlab.com/strategy/), or our [product direction](https://about.gitlab.com/direction/#vision).
 
 ## Suggested Attire
 - Wear at least one branded GitLab piece of clothing.
