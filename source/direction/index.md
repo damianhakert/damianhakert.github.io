@@ -127,9 +127,9 @@ We very much welcome contributions that implement any of these things.
 
 ### Tracebility
 
-Watermarking of binaries that are downloaded (EE option)
-Build traceability (trace binary to source) (EE option)
-New code license detection (scans the internet) (EE option)
+- Watermarking of binaries that are downloaded (EE option)
+- Build traceability (trace binary to source) (EE option)
+- New code license detection (scans the internet) (EE option)
 
 ### Analytics
 
