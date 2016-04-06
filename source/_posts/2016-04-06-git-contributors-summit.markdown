@@ -17,7 +17,11 @@ course, GitLab. Even competitive organizations must work together to improve
 upon and negotiate the direction of key open source software.
 On the day before [Git Merge](http://www.git-merge.com), we joined the Git Merge
 Core Contributors Summit to discuss the direction of the project and new
-developments. Here are our notes from this event.
+developments. 
+
+[Sytse](https://twitter.com/sytses), [Job](https://twitter.com/jobvo) and [Marin](twitter.com/maxlazio)
+attended to represent GitLab and learn more about what is happening in the core
+Git community. Here are our notes and impressions from this event.
 
 <!--more-->
 
