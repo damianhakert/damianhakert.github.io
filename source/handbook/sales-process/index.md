@@ -65,8 +65,8 @@ Before a lead is converted or an opportunity is created the following must occur
 Opportunities will follow the following rules:
 
 * Subscription: [name of company] [type of subscription] [number of packs]. Example: MicahTek, Inc.-Standard-1
-* Training: [name of company] [type of training: User Training/Git Workshop/GitLab Flow/GitLab Admin]. 
-Example: First Community Credit Union User-Training. **Note** to set up the actual training, 
+* Training: [name of company] [type of training: User Training/Git Workshop/GitLab Flow/GitLab Admin].
+Example: First Community Credit Union User-Training. **Note** to set up the actual training,
 follow the workflow described on the [Support handbook](https://about.gitlab.com/handbook/support/).
 * Any deal coming from Gitorious has “(from Gitorious)” added.  Example MicahTek, Inc.-Gitorious-Standard-1
 
@@ -231,7 +231,8 @@ Additional billing situations [Accounting procedures](/handbook/sales-process/ac
 
 ### Export Control Classification, and Countries We Do Not Do Business In <a name="export-control"></a>
 
-GitLab's Export Control Classification (or ECCN) is 5D002.c.1.
+GitLab's Export Control Classification (or ECCN) is 5D002.c.1
+with CCATS number G163509.
 This means that GitLab source code can be exported and re-exported under the
 authority of license exception TSU of section [740.13(e)](https://www.bis.doc.gov/index.php/forms-documents/doc_view/986-740) of the export administration regulations (EAR).
 
