@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "People Operations Generalist"
+title: "People Operations Coordinator"
 ---
 
 ## Responsibilities
