@@ -514,8 +514,10 @@ send a copy of the document to legal@gitlab.com with the following information:
 5. Deadline by which you need the document to be signed, dated and submitted.
 
 The document will be managed through HelloSign, a cloud-based electronic
-signature tool. Only C-level executives can sign legal documents, with the
-exception of NDAs covering a physical visit of another organization.
+signature tool. Any team member can sign an NDA that covers a physical visit of
+another organization. C-level executives may explicitly delegate team members
+to sign vendor contracts and agreements. Any other type of legal document may only
+be signed by C-level executives.
 
 ## Tools<a name="tools"></a>
 
