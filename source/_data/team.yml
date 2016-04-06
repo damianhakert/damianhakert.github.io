@@ -681,11 +681,12 @@
 - name: B.C.
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
   reports_to: Senior Demand Generation Manager
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: Braden.jpg
+  twitter: Janaandbraden
+  gitlab: bradenC
   story:  |
-          Joining March 1st
+          Braden is passionate about software and marketing. He is currently studying at BYU and is an avid supporter of their athletics. When he’s not buried in marketing projects or the school’s library he can be found adventuring in the great outdoors with his wife and son.
+         
 
 - name: Amanda Folson
   role: <a href="https://about.gitlab.com/jobs/developer-advocate/">Developer Advocate</a>
