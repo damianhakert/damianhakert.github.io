@@ -81,7 +81,7 @@ Go to the [Marketing Handbook](/handbook/marketing)
 - Bad Data => Invalid email address. Note: only mark as bad data if there is no communication channel. For example, a lead who provided "Spam Spamson" as their name but still provided a valid email address is not Bad Data.
 - Nurture => May become "Qualified" in the future, but communication is closed. Will receive useful marketing emails.
 
-##Passing Qualified Leads<a name="leadPass"></a>
+##Passing Qualified Leads<a name="leadPassing"></a>
 - Set "Lead Status" to Qualified and assign the appropriate sales team member as the new owner
 - Introduce the lead to the sales team member unless inappropriate or unnecessary.
 - If no action is taken by the newly assigned sales team member within 1-7 days, follow up with them and determine why no action has been taken.
