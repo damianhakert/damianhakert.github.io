@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Notes from the Git Merge Core Contributors Summit"
-date: 2016-04-06 16:00
+date: 2016-04-06 12:00
 comments: true
 categories:
 author: GitLab
@@ -61,7 +61,8 @@ more support.
 Diversity was discussed at the event. Our team noted that all attendees were men,
 including those from our team. It was an unfortunate realization and one which
 has inspired us to take action. We will continue to focus efforts on our own
-diversity sponsorship program. We also aim to support events in areas with
+[diversity sponsorship program](https://about.gitlab.com/community/sponsorship/).
+We also aim to support events in areas with
 low-opportunity, to increase global diversity in technology.
 
 Great projects which need more support:  
