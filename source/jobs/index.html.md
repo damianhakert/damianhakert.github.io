@@ -78,9 +78,9 @@ If you prefer not to do the above please let us know and we'll give you an assig
 - [Description](https://about.gitlab.com/jobs/account-manager/)
 - [Apply](https://gitlab.workable.com/jobs/88117/candidates/new)
 
-### People Operations Administrator
+### People Operations Coordinator
 
-- [Description](https://about.gitlab.com/jobs/people-ops-administrator/)
+- [Description](/jobs/people-ops-coordinator/)
 - [Apply](https://gitlab.workable.com/jobs/220106/candidates/new)
 
 ### People Operations Director
