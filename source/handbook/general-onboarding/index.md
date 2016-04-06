@@ -34,10 +34,10 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant
 lines of the master checklist, paste the private email address of the hire in
 there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @emily, and @tiffanie.
+* [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @HANDLE (Nominate someone preferably in similar timezone but different functional group)), and People Ops is tackled by (FILL IN WITH @ HANDLE).
 * [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
 * [ ] People Ops: Add blank entry to team page (only the start date and position, use "logo-extra-whitespace.png" for the picture) so the team can see when new people are joining.
 * [ ] People Ops: Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
-* [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @HANDLE (Nominate someone preferably in similar timezone but different functional group)), and People Ops is tackled by (FILL IN WITH @ HANDLE).
 * [ ] New team member: where applicable, provide scan of photo ID to People Ops.
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), read
 the relevant onboarding pages that are linked from there, and become comfortable
@@ -89,7 +89,7 @@ of course something on what you like to do in your spare time."
 * [ ] People Ops: complete and submit an online Add New Hire Form
 (TriNet Passport=>My Workplace=> Add New Hire/Rehire). This will generate the
 welcome email to the employee at their work email on their first date of hire.
-* [ ] New employee: complete [New Hire TriNet Passport 7 Steps Guide](https://docs.google.com/a/gitlab.com/document/d/1CFIyByd1Kgmz5353_aASVI1D8QTyJ2Uy60ziQHEPTUI/edit?usp=sharing). The I-9 portion of this must be completed with the first two days of hire. Note- this is critical so you must contact HR@gitlab.com if you have difficulty with this form.
+* [ ] New employee: complete [New Hire TriNet Passport 7 Steps Guide](https://docs.google.com/a/gitlab.com/document/d/1CFIyByd1Kgmz5353_aASVI1D8QTyJ2Uy60ziQHEPTUI/edit?usp=sharing). The I-9 portion of this must be completed with the first two days of hire. Note- this is critical so you must contact PeopleOps if you have difficulty with this form.
 * [ ] New employee: read through the [New Hire Benefits Guide](https://drive.google.com/a/gitlab.com/file/d/0B0dixQ9qzgilNlN0MnNFS29xWnB2SjNWVUk3dUV2aWlhejVR/view?usp=sharing). This will go over medical, dental, vision and voluntary benefits. Note - If you have any questions or need help within the TriNet system please contact the Employee Solution Center at 800-638-0461 or email them at employees@trinet.com.
 * [ ] People Ops: Set up new hire training with TriNet (If necessary).
 

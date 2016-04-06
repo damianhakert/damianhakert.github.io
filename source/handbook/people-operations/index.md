@@ -14,6 +14,7 @@ title: "People Operations"
 - [Using TriNet](#using-trinet)
    - [Add new hires to TriNet](#trinet-process)
    - [Making changes in TriNet](#changes-trinet)
+- [Returning property to GitLab](#returning-property)
 
 ## Reaching People Operations<a name="reach-peopleops"></a>
 
@@ -24,6 +25,7 @@ member of the People Operations team, as listed on our [Team page](https://about
 ## Setting up new hiring contracts<a name="new-contracts"></a>
 
 New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/) page, including instructions on how to set up new contracts.
+Templates for the contracts are set up in BambooHR. You can download the template from the "Files" tab and work on the contract using Google Drive. Here you can work together if you need help and download the PDF for HelloSign.
 
 ### Using HelloSign<a name="hellosign"></a>
 
@@ -44,7 +46,7 @@ Once you've sent out the document you will receive email notifications of the pr
 
 ## Using BambooHR<a name="bamboohr"></a>
 
-We’re using [BambooHR](https://gitlab.bamboohr.com) to keep all team member information 
+We’re using [BambooHR](https://gitlab.bamboohr.com) to keep all team member information
 in one place. All team members (all contract types) are in BambooHR.
 
 Some changes or additions we make to BambooHR require action from our team members.
@@ -55,10 +57,10 @@ _new_ team members. (Recall that we strive to change processes by documenting th
 1. make sure _that it is necessary_  for the entire team to act, or whether the
 work can be done by People Ops (even if this is tedious to do for People Ops, it
 is preferred, so as not to burden the team),
-1. make sure that the call to action is OK-ed by management, 
+1. make sure that the call to action is OK-ed by management,
 1. and check the steps to be taken by testing them with a single team member or a
 test account that does not have admin privileges.
-1. in the note to the team, point to the documentation created in step 1, explain the need and 
+1. in the note to the team, point to the documentation created in step 1, explain the need and
 the ask, and who to turn to in case of questions.
 
 ### Adding a new team member to BambooHR <a name="admin-bamboo"></a>
@@ -190,3 +192,12 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Select Employee Transfer.
 1. Change location and fill in necessary information.
 1. Select Update.
+
+
+## Returning property to GitLab<a name="returning-property"></a>
+
+As part of [offboarding](https://about.gitlab.com/handbook/offboarding/), any
+GitLab property needs to be returned to GitLab. GitLab
+will pay for the shipping either by PeopleOps sending a FedEx shipping slip or it can be returned
+by another mutually agreed method. If property is not returned, GitLab reserves the
+right to use a creditor company to help retrieve the property.

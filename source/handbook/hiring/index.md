@@ -7,6 +7,7 @@ title: "Hiring"
 * [Hiring Process](#hiring-process)
 * [Screening Call](#screening-call)
 * [Interview Questions](#interview-questions)
+* [Reference calls](#reference-calls)
 * [Getting Contracts Ready, Reviewed, and Signed](#prep-contracts)
 
 ## Vacancy Creation Process<a name="vacancy-creation-process"></a>
@@ -54,7 +55,7 @@ responsible for this, but People Ops can help and does a weekly check-up in Work
 1. If the applicant asks for further feedback always offer frank feedback. This
 is hard, but it is part of our company values.
 1. If the candidate is not hired, People Ops sends out an email to ask for feedback.
-There is a "gathering applicant feedback" template in Workable with these questions. 
+There is a "gathering applicant feedback" template in Workable with these questions.
 The feedback survey should be sent out about 3 days after the applicant has been
 notified of the rejection.
 1. PeopleOps will receive the feedback and will use this to improve the hiring process.
@@ -99,6 +100,12 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 1. If you get hired when can you start?
 1. What compensation would you feel comfortable with?
 1. Do you have any questions for me?
+
+## Reference calls <a name="reference-calls"></a>
+
+As part of our hiring process we may ask applicants to provide us with one or more
+references to contact. These reference calls are typically be done by our [administrative coordinator](https://about.gitlab.com/jobs/administrative-coordinator/) or the hiring
+ manager for that specific vacancy. 
 
 ## Getting Contracts Ready, Reviewed, and Signed<a name="prep-contracts"></a>
 
