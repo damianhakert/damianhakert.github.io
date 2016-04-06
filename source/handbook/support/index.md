@@ -299,9 +299,12 @@ comment from ZenDesk, so if a comment you see requires a reply (that is if the t
 our team, or is a question or a problem) you need to click on the link to the comment and reply directly in
 the blog post. 
 
-If the comment has been responded already by a team member, or once you have replied, you should come back to 
-ZenDesk, leave a private note saying who replied to the comment and mark that ticket as solved, plus
-the ticket that was created by the reply.
+If the comment has been responded already by a team member, or once you have replied, 
+you should come back to ZenDesk, leave an internal comment that states "replied", 
+or "replied by ... " and mark the ticket as solved. Also close the ticket that was 
+created by the reply (no need to leave a comment there). Providing the comment makes
+it easier to understand in retrospect whether a ticket was closed correctly or
+by mistake.
 
 ### Twitter <a name="twitter"></a>
 
