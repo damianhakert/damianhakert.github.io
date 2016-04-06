@@ -28,7 +28,7 @@ The first big player was the [HTTPS Everywhere]() browser extension. Not only th
 
 ## TLS certificates
 
-In order to add TLS to HTTP one would need to get a certificate, and untill 2015, one would need to either pay for it or sell a small piece of their soul to the Certificate Authority in order to get one for free.
+In order to add TLS to HTTP one would need to get a certificate, and untill 2015, one would need to either pay for it or figure out how to do it with one of the available Certificate Authorities.
 
 Enter Let's Encrypt:
 
@@ -213,5 +213,7 @@ This redirects the user to the HTTPS version, but there are a few problems with 
 That's how easy it is to have a free HTTPS enabled website. With these tools, I see no reason not to do it.
 
 If you want to check the status of your HTTPS enabled website, [SSL Labs offers a free online service](https://www.ssllabs.com/ssltest/) that "performs a deep analysis of the configuration of any SSL web server on the public Internet". 
+
+Based on [Paul Wakeford's post](https://www.paulwakeford.info/2015/11/24/letsencrypt/).
 
 I hope it helps you :)
