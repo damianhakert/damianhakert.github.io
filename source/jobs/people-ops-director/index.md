@@ -1,14 +1,14 @@
 ---
 layout: markdown_page
-title: "People Operations Manager"
+title: "People Operations Director"
 ---
 
 ## Responsibilities
 
 - **Effectiveness**
     - Keep our guidelines and materials [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) (refer to the updated handbook when emailing instead of duplicating content)
-    - Our handbook https://about.gitlab.com/handbook/ is the single source of truth
-    - Follow the GitLab workflow http://doc.gitlab.com/ee/workflow/gitlab_flow.html
+    - Our [handbook](https://about.gitlab.com/handbook/) is the single source of truth
+    - Follow the [GitLab workflow](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
     - Implement best practices such as [A Resource Guide for Recruiting](https://medium.com/for-entrepreneurs/a-resource-guide-for-recruiting-advice-from-the-experts-a41d549880f4#.g9pkqdeq7)
  - **Remote only aspects**
     - Have people feel close through initiatives
@@ -50,10 +50,10 @@ title: "People Operations Manager"
 ## Requirements
 
 - Experience with US employment law and best practices
-- Experience with human resource in country(ies) other than the US.
+- Experience with human resource in countries other than the US.
 - Excellent written and verbal communication skills
 - Enthusiasm for and broad experience with software tools
 - Proven experience quickly learning new software tools
 - Willing to work with git and GitLab whenever possible
 - Willing to make People Operations as open and transparent as possible
-- Wanting to work for a fast moving startup
+- Wanting to work for a fast-moving startup
