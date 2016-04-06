@@ -17,7 +17,7 @@ course, GitLab. Even competitive organizations must work together to improve
 upon and negotiate the direction of key open source software.
 On the day before [Git Merge](http://www.git-merge.com), we joined the Git Merge
 Core Contributors Summit to discuss the direction of the project and new
-developments. Here are some notes from this event.
+developments. Here are our notes from this event.
 
 <!--more-->
 
@@ -85,11 +85,14 @@ pull requests on the [Git project](https://github.com/rtyley/submitgit).
 
 ## Submodules
 
-There will be improvements to submodules in Git. Google engineers are making
-this better, with improvements to both the UI and initialization.
-They are also working to improve speed with parallel downloads. When this works
-it will replace the Android repository tool called
-[Repo](https://source.android.com/source/developing.html).   
+It sounds like there may be improvements to submodules in Git.
+Google engineers expressed an interest in making
+this better, such as with improvements to both the UI and initialization.
+They are also interested in working to improve speed with parallel downloads.
+When this works, perhaps it could replace the Android repository tool called
+[Repo](https://source.android.com/source/developing.html)?
+We look forward to seeing what happens next.
+
 
 We'd like to thank [Peff](https://github.com/peff) for including us in the Git
 Merge Core Contributors Summit. We look forward to the next one!  
