@@ -143,3 +143,8 @@ Current state
 - If an email is a quote, forward to appropriate sales people.
 - If an email is a refund or other billing request, forward to ar@gitlab.com.
 - If an email is a license issue or question, forward to support@gitlab.com.
+
+## Newsletters<a name="newsletters"></a>
+
+- We currently send out two newsletters a month. One is is on the second Tuesday of the month and the other is on the monthly release day (22nd).
+- The newsletters are scheduled to go out between 8 and 9 am Pacific time.
