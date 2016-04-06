@@ -83,9 +83,9 @@ If you prefer not to do the above please let us know and we'll give you an assig
 - [Description](https://about.gitlab.com/jobs/people-ops-administrator/)
 - [Apply](https://gitlab.workable.com/jobs/220106/candidates/new)
 
-### People Operations Manager
+### People Operations Director
 
-- [Description](https://about.gitlab.com/jobs/people-ops-manager/)
+- [Description](https://about.gitlab.com/jobs/people-ops-director/)
 - [Apply](https://gitlab.workable.com/jobs/234625/candidates/new)
 
 ### UX Designer
