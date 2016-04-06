@@ -317,13 +317,9 @@ and/or retweet is independent of the reply provided by the suppor team; so a twe
 may be responded to from ZenDesk, and separately favorited from TweetDeck, as an
 example.
 
-In the case of competition related tweets that our Support Engineers are not sure
-how to reply, they should be marked as "Pending" and assign them to the default
-GitLab Support Zendesk Account.
-
 From time-to-time, we also receive tweets that mention competitors or negative events 
-related to them. On principle, we don't acknowledge these tweets as it's in poor taste to kick competitors 
-when they're down.
+related to them. In principle, we don't acknowledge these tweets as also described in
+the [social media guidelines](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/social-media/).
 
 The @GitLabStatus account should only be used to give updates on the availability
 of GitLab.com and to follow up on users reporting that GitLab.com is unavailable.
