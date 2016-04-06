@@ -18,6 +18,7 @@ Go to the [Marketing Handbook](/handbook/marketing)
 * [New license flow](#licenseFlow)
 * [Marketo Tools Server](#marketoTools)
 * [Sales and Community Group Emails](#groupEmail) 
+* [Newsletters](#newsletters) 
 
 ## References<a name="references"></a>
 
