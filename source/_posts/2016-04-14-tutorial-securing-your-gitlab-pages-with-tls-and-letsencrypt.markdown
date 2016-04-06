@@ -14,17 +14,17 @@ In this post we will talk about HTTPS and how to add it to your GitLab Pages.
 ## Why TLS/SSL?
 When discussing about HTTPS, it is common to hear people saying that an static website doesn't need it, since it doesn't receive any POST request, or isn't handling credit card or any secure request. But that's not the whole story.
 
-TLS ([formerly SSL]()) is a security protocol that can be added to HTTP and increase the security of your website by:
+TLS ([formerly SSL](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.0)) is a security protocol that can be added to HTTP and increase the security of your website by:
 1. properly authenticating yourself: the client can trust that you are really **you**. The TLS handshake that is made at the beginning of the connection ensures the client that no one is trying to impersonate you;
 2. data integrity: this ensures that no one has tampered with the data in a request/response cycle
 3. encryption: this is commonly referred as the selling point of TLS, but the other two are just as important. This protects the privacy of the communication between client and server.
 
-The TLS layer can be added to other protocols too, like FTP (making it [FTPS]()) or WebSockets (making `ws://` [`wss://`]()). 
+The TLS layer can be added to other protocols too, like FTP (making it [FTPS](https://en.wikipedia.org/wiki/FTPS)) or WebSockets (making `ws://` [`wss://`](https://devcenter.heroku.com/articles/websocket-security)). 
 
 ## HTTPS Everywhere
 Nowadays there is a strong push for using TLS on every website. The ultimate goal is to make the web safer, by adding those three components cited above to every website.
 
-The first big player was the [HTTPS Everywhere]() browser extension. Not only that, Google is also using HTTPS compliance to better rank websites since [2014](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html).
+The first big player was the [HTTPS Everywhere](https://www.eff.org/https-everywhere) browser extension. Not only that, Google is also using HTTPS compliance to better rank websites since [2014](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html).
 
 ## TLS certificates
 
