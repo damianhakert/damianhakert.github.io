@@ -297,8 +297,11 @@ comment or reply to a comment creates a new ticket in ZenDesk. As part of your d
 make sure that this queue is as empty as possible. Right now there is no way for us to directly reply to the
 comment from ZenDesk, so if a comment you see requires a reply (that is if the ticket is not from someone on
 our team, or is a question or a problem) you need to click on the link to the comment and reply directly in
-the blog post. Once you have replied, you should come back to ZenDesk and mark that ticket as solved, plus
-the ticket that was created for your reply.
+the blog post. 
+
+If the comment has been responded already by a team member, or once you have replied, you should come back to 
+ZenDesk, leave a private note saying who replied to the comment and mark that ticket as solved, plus
+the ticket that was created by the reply.
 
 ### Twitter <a name="twitter"></a>
 
