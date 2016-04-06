@@ -2,6 +2,12 @@
 layout: markdown_page
 title: "Contracts"
 ---
+## Notify PeopleOps of any edits to this page
+
+**Please make sure to inform the PeopleOps team if you make changes to these example templates for any type of contract.**
+PeopleOps has these contracts in BambooHR as templates (for reasons of formatting and pre-filled GitLab information), and uses those to create the actual contracts.
+
+## On this page
 * [Disclaimer](#disclaimer)
 * [How to use this page to prepare a contract](#how-to-use)
 * Employees and Contractors to GitLab Inc.
@@ -14,22 +20,20 @@ title: "Contracts"
    * [GitLab BV NDA and IP Agreements](#bv-nda-ip)
 * [Usability Testing Consent](#usability-consent)
 
-## Note
-**Please make sure to inform the PeopleOps team when you are making changes to these example templates for any type of contract.**
-PeopleOps has the different templates of our contracts in BambooHR. These are used to create the actual contact.
-
 ## Disclaimer <a name="disclaimer"></a>
+
 These agreements are examples of the agreements that we currently use at GitLab. However, the terms and conditions of  an employee or
 contractor’s agreement will vary based on each employee or contractor’s specific circumstances. GitLab reserves the right to amend or
 change the sample agreements, as well as each employee or contractor’s actual agreement. The samples below are samples only — they are not
 valid as such and do not replace personalized signed agreements.
 
 ## How to use this page to prepare a contract <a name="how-to-use"></a>
+
 Assuming that the [hiring process](https://about.gitlab.com/handbook/hiring/) went smoothly, now it is time to prepare the applicable contracts.
 The following set of steps should suffice:
 
 1. The currency should normally be the local currency of the new team member unless they explicitly request USD/EUR because their local currency has a lot of inflation.
-1. Employee entity: employ though the GitLab entity where they are located (US => Inc., NL => B.V).
+1. Employee entity: employ though the GitLab entity where they are located (US => Inc., NL => B.V.)
 1. Contractor entity: if the employee is in the US, GitLab Inc. is the contracting entity, in all other regions GitLab BV is the contracting entity.
 1. Download the right contract or offer letter template from the "In Process of Hiring" file on the Documents page of [BambooHR](https://gitlab.bamboohr.com)
 1. Remember that regardless of the status of the new team member, i.e. contractor or employee for either GitLab Inc., or GitLab BV,
@@ -69,24 +73,23 @@ Company’s employee compensation policies in effect from time to time.
 {OPTIONAL: In addition to your base salary you will be eligible to participate in
 additional incentive arrangements as set forth in the paragraphs below.}
 
-**3\. {OPTIONAL BDR COMP STRUCTURE} Performance Bonus**
-You will be eligible for a quarterly performance bonus in the following amounts:<br>
-% of Target Met, Gives Bonus % of $x.<br>
-Examples are:<br>
-25% of Target Met, Gives Bonus 25% of $x<br>
-50% of Target Met, Gives Bonus 50% of $x<br>
-75% of Target Met, Gives Bonus 75% of $x<br>
-100% of Target Met, Gives Bonus 100% of $x<br>
+**3\. {OPTIONAL BONUS (usually for BDR's)} Performance Bonus**
+You will be eligible for a quarterly performance bonus in the following amounts:  
+% of Target Met &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bonus  <br>
+ 25% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $(0.25 x)  
+ 50% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $(0.50 x)  
+ 75% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $(0.75 x)  
+ 100% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $(1.00 x)  
 The targets will be defined in accordance with the corporate plan.
 
-**4\. {OPTIONAL COMMISSION (usually for Sales roles)} Commission**. You will be
+**3\. {OPTIONAL COMMISSION (usually for Sales roles)} Commission**. You will be
 paid commission on a monthly basis based on the following criteria; payable on
 cash collection from the client. Initially you will be compensated at a rate of
 [x]% of cash received from the customer less any taxes, shipping, returns, refunds,
 chargebacks, third party commissions, etc. All terms, definitions, payments and
 obligations related to Commission shall be governed by the 2015 GitLab Sales Compensation Plan.
 
-**5\. {OPTIONAL: STOCK}Stock Option Grant**. Subject to Board Approval you shall
+**4\. {OPTIONAL: STOCK}Stock Option Grant**. Subject to Board Approval you shall
 be granted an “incentive stock option” within the meaning of Section 422 of the
 Internal Revenue Code of 1986, as amended, to purchase {Number of Shares} shares
 of the Company’s common stock (the “Stock Option”), at an exercise price equal to

@@ -38,7 +38,6 @@ there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @emily, and @tiffani
 * [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
 * [ ] People Ops: Add blank entry to team page (only the start date and position, use "logo-extra-whitespace.png" for the picture) so the team can see when new people are joining.
 * [ ] People Ops: Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
-* [ ] New team member: Make sure to login 10 min before the team call and check if your mic and camera are working. We'd like you to prepare a quick introduction of yourself to present during the call. (examples: where you're from, experience, why GitLab, what you like to do in your spare time)
 * [ ] New team member: where applicable, provide scan of photo ID to People Ops.
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), read
 the relevant onboarding pages that are linked from there, and become comfortable
@@ -62,7 +61,14 @@ ask her/his questions of the wider group on Slack, etc."
 the new team member to their GitLab email and their onboarding issue. Template text:
 "Welcome to GitLab, we are happy to have you on the team! You should have received
 an invitation to your GitLab email account; please let me know if that is not the case.
-Everything you need to get started is listed in your onboarding issue (insert link). Please read through the different tasks carefully and feel free to reach out to PeopleOps with any questions.
+Everything you need to get started is listed in your onboarding issue (insert link).
+We're looking forward to seeing you on our daily Team Call! The first time that you
+join, please make sure that you connect at least 10 minutes before the call and
+make sure that your camera and microphone are working properly. We'd like you to
+introduce yourself to the team so please prepare some talking points for yourself.
+Some tips to help you out here: tell us about where you were before GitLab, why
+you wanted to join our team, just a little something about your background and
+of course something on what you like to do in your spare time."
 * [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team.
    * [ ] 1. call with ___
    * [ ] 2. call with ___
