@@ -19,7 +19,7 @@ TLS ([formerly SSL](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1
 2. data integrity: this ensures that no one has tampered with the data in a request/response cycle
 3. encryption: this is commonly referred as the selling point of TLS, but the other two are just as important. This protects the privacy of the communication between client and server.
 
-The TLS layer can be added to other protocols too, like FTP (making it [FTPS](https://en.wikipedia.org/wiki/FTPS)) or WebSockets (making `ws://` [`wss://`](https://devcenter.heroku.com/articles/websocket-security)). 
+The TLS layer can be added to other protocols too, like FTP (making it [FTPS](https://en.wikipedia.org/wiki/FTPS)) or WebSockets (making `ws://` [`wss://`](https://devcenter.heroku.com/articles/websocket-security#wss)). 
 
 ## HTTPS Everywhere
 Nowadays there is a strong push for using TLS on every website. The ultimate goal is to make the web safer, by adding those three components cited above to every website.
@@ -173,6 +173,8 @@ Success! We have correctly acquired a free TLS certificate for our domain!
 Note, however, that like any other TLS certificate, it has an expiration date of three months. When you finishing setting up, just put in your calendar to remember to renew the certificate in time, otherwise it will become invalid, and the browser will reject it.
 
 Now we just need to upload the certificate and the key to GitLab. Go to the `Settings -> Pages` inside your project, remove the old CNAME and add a new one with the same domain, but now you'll also upload the TLS certificate. Paste the contents of `/etc/letsencrypt/live/YOURDOMAIN.org/fullchain.pem` (you'll need `sudo` to read the file) to the "Certificate (PEM)" field and `/etc/letsencrypt/live/YOURDOMAIN.org/privkey.pem` (also needs `sudo`) to the "Key (PEM)" field.
+
+![Uploading the certificate to GitLab Pages](/images/blogimages/gitlab-pages-cert-upload-screenshot.png)
 
 And you're done! You now have a fully working HTTPS website. 
 
