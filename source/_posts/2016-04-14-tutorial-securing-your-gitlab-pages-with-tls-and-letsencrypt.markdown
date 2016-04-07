@@ -1,65 +1,104 @@
 ---
 layout: post
 title: Tutorial: Securing your GitLab Pages with TLS and Let's Encrypt
-date: 2016-04-14 15:00:00 
+date: 2016-04-14 09:00:00
 comments: true
 categories: tutorial
 author: Guest author André Miranda
 author_twitter: EuAndreh
-image_title: '???.jpg' # Should I pick one?
+image_title: '/images/unsplash/altssh.jpg'
 ---
 
-In this post we will talk about HTTPS and how to add it to your GitLab Pages.
+In this post we will talk about HTTPS and how to add it to your GitLab Pages site
+with [Let's Encrypt][letsencrypt].
+
+<!-- more -->
 
 ## Why TLS/SSL?
-When discussing about HTTPS, it is common to hear people saying that an static website doesn't need it, since it doesn't receive any POST request, or isn't handling credit card or any secure request. But that's not the whole story.
 
-TLS ([formerly SSL](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.0)) is a security protocol that can be added to HTTP and increase the security of your website by:
-1. properly authenticating yourself: the client can trust that you are really **you**. The TLS handshake that is made at the beginning of the connection ensures the client that no one is trying to impersonate you;
-2. data integrity: this ensures that no one has tampered with the data in a request/response cycle
-3. encryption: this is commonly referred as the selling point of TLS, but the other two are just as important. This protects the privacy of the communication between client and server.
+When discussing HTTPS, it's common to hear people saying that a static
+website doesn't need HTTPS, since it doesn't receive any POST requests, or isn't
+handling credit card transactions or any other secure request.
+But that's not the whole story.
 
-The TLS layer can be added to other protocols too, like FTP (making it [FTPS](https://en.wikipedia.org/wiki/FTPS)) or WebSockets (making `ws://` [`wss://`](https://devcenter.heroku.com/articles/websocket-security#wss)). 
+TLS ([formerly SSL][TLSwiki] is a security protocol that can be added to HTTP
+to increase the security of your website by:
+
+1. properly authenticating yourself: the client can trust that you are really
+**you**. The TLS handshake that is made at the beginning of the connection
+ensures the client that no one is trying to impersonate you;
+2. data integrity: this ensures that no one has tampered with the data in a
+request/response cycle
+3. encryption: this is commonly referred as the selling point of TLS, but the
+other two are just as important. This protects the privacy of the communication
+between client and server.
+
+The TLS layer can be added to other protocols too, such as FTP (making it
+[FTPS](https://en.wikipedia.org/wiki/FTPS)) or WebSockets
+(making `ws://` [`wss://`](https://devcenter.heroku.com/articles/websocket-security#wss)).
 
 ## HTTPS Everywhere
-Nowadays there is a strong push for using TLS on every website. The ultimate goal is to make the web safer, by adding those three components cited above to every website.
 
-The first big player was the [HTTPS Everywhere](https://www.eff.org/https-everywhere) browser extension. Not only that, Google is also using HTTPS compliance to better rank websites since [2014](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html).
+Nowadays there is a strong push for using TLS on every website.
+The ultimate goal is to make the web safer, by adding those three components
+cited above to every website.
+
+The first big player was the [HTTPS Everywhere](https://www.eff.org/https-everywhere)
+browser extension. Not only that, Google has also been using HTTPS compliance to better
+rank websites since [2014](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html).
 
 ## TLS certificates
 
-In order to add TLS to HTTP one would need to get a certificate, and untill 2015, one would need to either pay for it or figure out how to do it with one of the available Certificate Authorities.
+In order to add TLS to HTTP one would need to get a certificate, and until 2015,
+one would need to either pay for it or figure out how to do it with one of the
+available Certificate Authorities.
 
 Enter Let's Encrypt:
 
-    Let’s Encrypt is a new Certificate Authority: 
-    It’s free, automated, and open. 
+    Let’s Encrypt is a new Certificate Authority:
+    It’s free, automated, and open.
     Get Started (Public Beta)
 
-Since [December 2015](https://letsencrypt.org/2015/12/03/entering-public-beta.html), anyone can get a free certificate from this new Certificate Authorithy within the comfort of your terminal.
+Since [December 2015][publicbeta] anyone can get a free certificate from this
+new Certificate Authority in the comfort of your terminal.
 
 
 ## Implementation
-So lets suppose we're going to create an static blog with Jekyll. If you are not creating a blog or are not using Jekyll just follow along, it should be strait-forward to translate the steps for different purposes. You can also find many different projects using different static blog generators (like Middleman or Hugo) in [GitLab's example projects](https://gitlab.com/groups/pages).
+
+So let's suppose we're going to create a static blog with ]Jekyll].
+If you are not creating a blog or are not using Jekyll just follow along, it
+should be straightforward enough to translate the steps for different purposes.
+You can also find many example projects using different static blog generators
+(like Middleman or Hugo) in [GitLab's example projects][examplepages].
 
 A simple stub blog can be simply created with:
+
 ```shell
 $ jekyll new cool-blog
-New jekyll site installed in ~/cool-blog. 
+New jekyll site installed in ~/cool-blog.
 $ cd cool-blog/
 ```
 
-Now you have to create a GitLab repo. Here we are going to create an "user pages", which means that it is a project created within a user account (not a group account), and that the name of the repo is the name of the username. Refer to the ["Getting started" section of the GitLab Pages manual](http://doc.gitlab.com/ee/pages/README.html#getting-started-with-gitlab-pages) for more information on that.
+Now you have to create a GitLab project. Here we are going to create a "user
+pages", which means that it is a project created within a user account (not a
+group account), and that the name of the project is the name of the username.
+Refer to the ["Getting started" section of the GitLab Pages manual][pagesdocs]
+for more information on that.
 
-From now on, remember to replace `YOURDOMAIN.org` with your custom domain and `YOURUSERNAME` with, hmm, you user name ;)
+From now on, remember to replace `YOURDOMAIN.org` with your custom domain and
+`YOURUSERNAME` with, well, you username ;)
 
-So create a project named `YOURUSERNAME.gitlab.io` in order to GitLab to identify correctly. After that, upload your code to GitLab:
+Create a project named `YOURUSERNAME.gitlab.io` in order that GitLab will
+identify the project correctly. After that, upload your code to GitLab:
+
 ```
 $ git remote add origin git@gitlab.com:YOURUSERNAME/YOURUSERNAME.gitlab.io.git
 $ git push -u origin master
 ```
 
-OK, so far we have a project uploaded to GitLab, but no GitLab Pages. To add it, just create a `.gitlab-ci.yml` file and add the following: 
+OK, so far we have a project uploaded to GitLab, but we have GitLab Pages yet.
+To add it, just create a `.gitlab-ci.yml` file and add the following:
+
 ```yaml
 pages:
   stage: deploy
@@ -74,44 +113,74 @@ pages:
     - master
 ```
 
-This file instructs the GitLab Runner to `deploy` by installing Jekyll and building your website under the `public/` folder (that's the `jekyll build -d public/` doing it).
+This file instructs GitLab Runner to `deploy` by installing Jekyll and
+building your website under the `public/` folder
+(that's the `jekyll build -d public/` doing it).
 
-Wait for the build process to complete (you can track the progress in the Builds page of your project - once it starts, it probably won't take longer than 1m30s). Once the build is finished, your website will be available at `https://YOURUSERNAME.gitlab.io`. Note that GitLab already provides TLS certificates to all subdomains of `gitlab.io`. So if you don't want to add a custom domain, you're done.
+Wait for the build process to complete. You can track the progress in the
+Builds page of your project. Once it starts, it probably won't take longer
+than 1m30s. Once the build is finished, your website will be available at
+`https://YOURUSERNAME.gitlab.io`. Note that GitLab already provides TLS
+certificates to all subdomains of `gitlab.io`. So if you don't want to add a
+custom domain, you're done.
 
 ## Configuring the TLS certificate of your custom domain.
 
-Once you buy a domain name and point that domain to your GitLab Pages website, you need to configure 2 things:
+Once you buy a domain name and point that domain to your GitLab Pages website,
+you need to configure 2 things:
+
 1. add the domain to GitLab Pages configuration
 2. add your custom certificate to your website.
 
-Once you add your domain, your website will be available under both `http://YOURDOMAIN.org` and `https://YOURUSERNAME.gitlab.io`.
+Once you add your domain, your website will be available under both
+`http://YOURDOMAIN.org` and `https://YOURUSERNAME.gitlab.io`.
 
-But if you try to access your custom domain with `HTTPS` (`https://YOURDOMAIN.org` in this case), your browser will show that horrible page, saying that things are going wrong and someone is trying to steal your information. Why is that?
+But if you try to access your custom domain with `HTTPS`
+(`https://YOURDOMAIN.org` in this case), your browser will show that
+horrible page, saying that things are going wrong and someone is trying to
+steal your information. *Why is that?*
 
-The problem is: since GitLab offers TLS certificates to all `gitlab.io` pages and your custom domain is just a `CNAME` over that same domain, GitLab serves the `gitlab.io` certificate, and your browser receives mixed messages: for one side, the browser is trying to access `YOURDOMAIN.org`, but on the other side it is getting a TLS certificate for a said `*.gitlab.io`. So it signals that something is wrong. 
+The problem is this: since GitLab offers TLS certificates to all `gitlab.io` pages
+and your custom domain is just a `CNAME` over that same domain, GitLab serves
+the `gitlab.io` certificate, and your browser receives mixed messages: on one
+side, the browser is trying to access `YOURDOMAIN.org`, but on the other side
+it is getting a TLS certificate for a said `*.gitlab.io`.
+So it signals that something is wrong.
 
-In order to fix it, you need to obtain a certificate for `YOURDOMAIN.org` and add it to GitLab Pages. For that we are going to use [Let's Encrypt](https://letsencrypt.org/).
+In order to fix it, you need to obtain a certificate for `YOURDOMAIN.org` and
+add it to GitLab Pages. For that we are going to use
+[Let's Encrypt](https://letsencrypt.org/).
 
-Let's Encrypt is a new certificate authority that offers both *free* and *automated* certificates. That's perfect for us: we don't have to pay for having HTTPS and you can do everything within the comfort of your terminal.
+Let's Encrypt is a new certificate authority that offers both *free* and
+*automated* certificates. That's perfect for us: we don't have to pay for
+having HTTPS and you can do everything within the comfort of your terminal.
 
 We begin with downloading and installing the `letsencrypt-auto` utility:
+
 ```shell
 $ cd
 $ git clone https://github.com/letsencrypt/letsencrypt
 $ cd letsencrypt
 ```
 
-`letsencrypt-auto` offers a lot of free functionality. For example, if you have a web server running Apache, you could `letsencrypt-auto --apache` inside your webserver and have everything done for you.
+`letsencrypt-auto` offers a lot of free functionality. For example, if you have
+a web server running Apache, you could add `letsencrypt-auto --apache` inside your
+webserver and have everything done for you.
 
-Since we are running GitLab's servers instead, we have to do a bit of manual work:
+Since we are running GitLab's servers instead, we have to do a bit of manual
+work:
+
 ```shell
 $ ./letsencrypt-auto certonly -a manual -d YOURDOMAIN.org
 ```
 
-After you accept that your IP will be publicly logged, a message like the following will appear:
+After you accept that your IP will be publicly logged, a message like the
+following will appear:
+
 ```shell
 Make sure your web server displays the following content at
-http://YOURDOMAIN.org/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM before continuing:
+http://YOURDOMAIN.org/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM
+before continuing:
 
 5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.ewlbSYgvIxVOqiP1lD2zeDKWBGEZMRfO_4kJyLRP_4U
 
@@ -120,11 +189,16 @@ http://YOURDOMAIN.org/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gx
 #
 
 Press ENTER to continue
+
 ```
 
-Again, since we are not running our own server, we can ignore the instructions on how to setup a Python webserver. Leave this terminal window open for now.
+Again, since we are not running our own server, we can ignore the instructions
+on how to setup a Python webserver. Leave this terminal window open for now.
 
-So, the goal is to the make our already published static website return the said token when the said URL is requested. That's easy: just create a custom page!
+So, the goal is to the make our already published static website return the
+said token when the said URL is requested. That's easy: just create a custom
+page!
+
 ```markdown
 ---
 layout: null
@@ -134,14 +208,17 @@ permalink: /.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTb
 5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.ewlbSYgvIxVOqiP1lD2zeDKWBGEZMRfO_4kJyLRP_4U
 ```
 
-This tells Jekyll to create an static page (which you can see at
-`cool-blog/_site/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.html`) with no HTML, just the token. We can check that everything is working as expected:
+This tells Jekyll to create a static page (which you can see at
+`cool-blog/_site/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.html`)
+with no HTML, just the token. We can check that everything is working as expected:
 ```shell
 $ curl http://localhost:4000/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM
 5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.ewlbSYgvIxVOqiP1lD2zeDKWBGEZMRfO_4kJyLRP_4U
 ```
 
-Note that I just replaced the `http://YOURDOMAIN.org` (from the `letsencrypt-auto` instructions) with `http://localhost:4000`. Everything is working fine, so we just need to upload the new file to GitLab:
+Note that I just replaced the `http://YOURDOMAIN.org` (from the
+`letsencrypt-auto` instructions) with `http://localhost:4000`.
+Everything is working fine, so we just need to upload the new file to GitLab:
 ```
 $ git add letsencrypt
 $ git commit -m "add letsencypt file"
@@ -154,9 +231,14 @@ Once the build finishes, test again if everything is working well:
 $ curl http://YOURDOMAIN.org/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM
 ```
 
-If you get a `404 page not found`, check if you missed any step, or get in touch in the comments.
+If you get a `404 page not found`, check if you missed any step, or get in touch
+in the comments below.
 
-Now that everything is working as expected, go back to the terminal window that's waiting for you and hit `ENTER`. This instructs the Let's Encrypt's servers to go to the said URL. If they get the response they were waiting for, we've proved that we actually own the domain and now they'll send you the TLS certificates. After a while it responds:
+Now that everything is working as expected, go back to the terminal window
+that's waiting for you and hit `ENTER`. This instructs the Let's Encrypt's
+servers to go to the said URL. If they get the response they were waiting for,
+we've proven that we actually own the domain and now they'll send you the
+TLS certificates. After a while it responds:
 ```
 IMPORTANT NOTES:
  - Congratulations! Your certificate and chain have been saved at
@@ -170,35 +252,59 @@ IMPORTANT NOTES:
 ```
 Success! We have correctly acquired a free TLS certificate for our domain!
 
-Note, however, that like any other TLS certificate, it has an expiration date of three months. When you finishing setting up, just put in your calendar to remember to renew the certificate in time, otherwise it will become invalid, and the browser will reject it.
+Note, however, that like any other TLS certificate, it has an expiration date
+of three months. When you finishing setting up, just put in your calendar to
+remember to renew the certificate in time, otherwise it will become invalid,
+and the browser will reject it.
 
-Now we just need to upload the certificate and the key to GitLab. Go to the `Settings -> Pages` inside your project, remove the old CNAME and add a new one with the same domain, but now you'll also upload the TLS certificate. Paste the contents of `/etc/letsencrypt/live/YOURDOMAIN.org/fullchain.pem` (you'll need `sudo` to read the file) to the "Certificate (PEM)" field and `/etc/letsencrypt/live/YOURDOMAIN.org/privkey.pem` (also needs `sudo`) to the "Key (PEM)" field.
+Now we just need to upload the certificate and the key to GitLab.
+Go to the `Settings -> Pages` inside your project, remove the old CNAME and
+add a new one with the same domain, but now you'll also upload the TLS
+certificate.
+Paste the contents of `/etc/letsencrypt/live/YOURDOMAIN.org/fullchain.pem`
+(you'll need `sudo` to read the file) to the "Certificate (PEM)" field and `/etc/letsencrypt/live/YOURDOMAIN.org/privkey.pem` (also needs `sudo`) to the
+"Key (PEM)" field.
 
 ![Uploading the certificate to GitLab Pages](/images/blogimages/gitlab-pages-cert-upload-screenshot.png)
 
-And you're done! You now have a fully working HTTPS website. 
+And you're done! You now have a fully working HTTPS website.
 
 ## Redirecting
-Everything is working fine, but now we have an extra concern: we have two working versions of our website, both HTTP **and** HTTPS. We need a way to redirect all of our traffic to the HTTPS version, and tell search engines to do the same.
+
+Everything is working fine, but now we have an extra concern: we have two
+working versions of our website, both HTTP **and** HTTPS. We need a way to
+redirect all of our traffic to the HTTPS version, and tell search engines to
+do the same.
 
 ### Search Engines
 
-Instructing the search engines is really easy: just tell them that the HTTPS version is the "canonical" version, and they send all the users to it. And how do you do that? By adding a `link` tag to the header of the HTML:
+Instructing the search engines is really easy: just tell them that the HTTPS
+version is the "canonical" version, and they send all the users to it.
+And how do you do that? By adding a `link` tag to the header of the HTML:
 ```html
 <link rel="canonical" href="https://YOURDOMAIN.org/especific/page" />
 ```
 
-Adding this to every header on a blog tells the search engine that the correct version is the HTTPS one, and they'll comply.
+Adding this to every header on a blog tells the search engine that the correct
+version is the HTTPS one, and they'll comply.
 
 ### Internal links
-Remember to use HTTPS for your CSS or JavaScript file URLs, because when the browser accesses a secure website that relies on an insecure resource, it may block that resource.
+
+Remember to use HTTPS for your CSS or JavaScript file URLs, because when the
+browser accesses a secure website that relies on an insecure resource, it may
+block that resource.
 
 ### JavaScript-based redirect
-There is, however, a case where the user specifically types in the URL **without** using HTTPS, and they'll access the HTTP version of your website.
 
-The correct way of handling that would be to respond with a 301 "Moved permanently" HTTP code, and the browser would remember it for the next request. However, that's not a possibility we have here.
+There is, however, a case where the user specifically types in the URL
+**without** using HTTPS, and they'll access the HTTP version of your website.
+
+The correct way of handling that would be to respond with a 301 "Moved
+permanently" HTTP code, and the browser would remember it for the next request.
+However, that's not a possibility we have here.
 
 A small hack you can do is redirect your users with a small JavaScript code:
+
 ```javascript
 var host = "YOURDOMAIN.org";
 if ((host == window.location.host) && (window.location.protocol != 'https:')) {
@@ -207,15 +313,32 @@ if ((host == window.location.host) && (window.location.protocol != 'https:')) {
 ```
 
 This redirects the user to the HTTPS version, but there are a few problems with it:
+
 1. a user could have JavaScript disabled, and would not be affected by that;
-2. an attacker could simply remove that code and behave as a [Man in the Middle](https://en.wikipedia.org/wiki/Man-in-the-middle_attack);
-3. the browser won't remember the redirect instruction, so every time he types that same URL, the website will have to redirect the user again.
+2. an attacker could simply remove that code and behave as a [Man in the Middle][middleattack];
+3. the browser won't remember the redirect instruction, so every time he types
+that same URL, the website will have to redirect the user again.
 
 ## Wrap up
-That's how easy it is to have a free HTTPS enabled website. With these tools, I see no reason not to do it.
 
-If you want to check the status of your HTTPS enabled website, [SSL Labs offers a free online service](https://www.ssllabs.com/ssltest/) that "performs a deep analysis of the configuration of any SSL web server on the public Internet". 
+That's how easy it is to have a free HTTPS enabled website.
+With these tools, I see no reason not to do it.
 
-Based on [Paul Wakeford's post](https://www.paulwakeford.info/2015/11/24/letsencrypt/).
+If you want to check the status of your HTTPS enabled website,
+[SSL Labs offers a free online service][ssltest] that
+"performs a deep analysis of the configuration of any SSL web server on the
+public Internet".
+
+This article is based on [Paul Wakeford's post][wakeford].
 
 I hope it helps you :)
+
+[Jekyll]: https://jekyllrb.com/
+[examplepages]: https://gitlab.com/groups/pages
+[pagesdocs]: http://doc.gitlab.com/ee/pages/README.html#getting-started-with-gitlab-pages
+[TLSwiki]: https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.0
+[letsencrypt]: https://letsencrypt.org/
+[wakeford]: https://www.paulwakeford.info/2015/11/24/letsencrypt/
+[publicbeta]: https://letsencrypt.org/2015/12/03/entering-public-beta.html
+[ssltest]: https://www.ssllabs.com/ssltest/
+[middleattack]: https://en.wikipedia.org/wiki/Man-in-the-middle_attack
