@@ -21,7 +21,7 @@ website doesn't need HTTPS, since it doesn't receive any POST requests, or isn't
 handling credit card transactions or any other secure request.
 But that's not the whole story.
 
-TLS ([formerly SSL][TLSwiki] is a security protocol that can be added to HTTP
+TLS ([formerly SSL][TLSwiki]) is a security protocol that can be added to HTTP
 to increase the security of your website by:
 
 1. properly authenticating yourself: the client can trust that you are really
