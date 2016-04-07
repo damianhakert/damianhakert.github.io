@@ -297,6 +297,12 @@ Remember to use HTTPS for your CSS or JavaScript file URLs, because when the
 browser accesses a secure website that relies on an insecure resource, it may
 block that resource.
 
+It is [considered a good practice](relativeprotocol) to use the protocol agnostic path:
+```
+<link rel="stylesheet" href="//YOURDOMAIN.org/styles.css" />
+<script src="//YOURDOMAIN.org/script.js"></script>
+```
+
 ### JavaScript-based redirect
 
 There is, however, a case where the user specifically types in the URL
@@ -349,3 +355,4 @@ I hope it helps you :)
 [ssltest]: https://www.ssllabs.com/ssltest/
 [middleattack]: https://en.wikipedia.org/wiki/Man-in-the-middle_attack
 [talk]: (https://www.youtube.com/watch?v=cBhZ6S0PFCY)
+[relativeprotocol]: (http://www.paulirish.com/2010/the-protocol-relative-url/)
