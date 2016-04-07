@@ -165,7 +165,10 @@ $ cd letsencrypt
 
 `letsencrypt-auto` offers a lot of free functionality. For example, if you have
 a web server running Apache, you could add `letsencrypt-auto --apache` inside your
-webserver and have everything done for you.
+webserver and have everything done for you. `letsencrypt` targets primarily Unix-like 
+webservers, so the `letsencrypt-auto` tool won't work fork Windows users. Check [this
+tutorial][letsencryptwindows] to see how to get Let's Encrypt certificates while running
+Windows.
 
 Since we are running GitLab's servers instead, we have to do a bit of manual
 work:
@@ -377,3 +380,4 @@ I hope it helps you :)
 [talk]: (https://www.youtube.com/watch?v=cBhZ6S0PFCY)
 [relativeprotocol]: (http://www.paulirish.com/2010/the-protocol-relative-url/)
 [jekyllversion]: (https://jekyllrb.com/docs/upgrading/2-to-3/#permalinks-no-longer-automatically-add-a-trailing-slash) 
+[letsencryptwindows]: (https://cultiv.nl/blog/lets-encrypt-on-windows/)
