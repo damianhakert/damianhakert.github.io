@@ -210,7 +210,10 @@ permalink: /.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTb
 
 This tells Jekyll to create a static page (which you can see at
 `cool-blog/_site/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.html`)
-with no HTML, just the token. We can check that everything is working as expected:
+with no extra HTML, just the token in plain text. As we are using the `permalink` attribute in the 
+front matter, you can name this file anyway you want, with or without an `.html` or `.md` extension 
+and put it anywhere, too. Here we'll call it `letsencrypt-setup.html` and place it in the root folder 
+of the blog. We can check that everything is working as expected:
 ```shell
 $ curl http://localhost:4000/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM
 5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.ewlbSYgvIxVOqiP1lD2zeDKWBGEZMRfO_4kJyLRP_4U
@@ -220,8 +223,8 @@ Note that I just replaced the `http://YOURDOMAIN.org` (from the
 `letsencrypt-auto` instructions) with `http://localhost:4000`.
 Everything is working fine, so we just need to upload the new file to GitLab:
 ```
-$ git add letsencrypt
-$ git commit -m "add letsencypt file"
+$ git add letsencrypt-setup.html
+$ git commit -m "add letsencypt-setup.html file"
 $ git push
 ```
 
@@ -250,7 +253,7 @@ IMPORTANT NOTES:
    Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
    Donating to EFF:                    https://eff.org/donate-le
 ```
-Success! We have correctly acquired a free TLS certificate for our domain!
+Success! We have correctly acquired a free TLS certificate for our domain! 
 
 Note, however, that like any other TLS certificate, it has an expiration date
 of three months. When you finishing setting up, just put in your calendar to
@@ -324,6 +327,9 @@ that same URL, the website will have to redirect the user again.
 That's how easy it is to have a free HTTPS enabled website.
 With these tools, I see no reason not to do it.
 
+There's an [excellent talk](talk) on HTTPS where you can learn more 
+about it.
+
 If you want to check the status of your HTTPS enabled website,
 [SSL Labs offers a free online service][ssltest] that
 "performs a deep analysis of the configuration of any SSL web server on the
@@ -342,3 +348,4 @@ I hope it helps you :)
 [publicbeta]: https://letsencrypt.org/2015/12/03/entering-public-beta.html
 [ssltest]: https://www.ssllabs.com/ssltest/
 [middleattack]: https://en.wikipedia.org/wiki/Man-in-the-middle_attack
+[talk]: (https://www.youtube.com/watch?v=cBhZ6S0PFCY)
