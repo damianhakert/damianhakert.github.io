@@ -1,9 +1,6 @@
-# about-gitlab-com
+# www-gitlab-com
 
-This project is the (temporary) home for the about.gitlab.com redesign, and
-rewrite using Middleman.
-
-It will be moved to the www-gitlab-com project at a later date.
+This is the source for the https://about.gitlab.com/ site.
 
 ## Contributing
 
@@ -43,7 +40,9 @@ more information.
 
 ## Production build
 
-Before building the static files, ensure you have a GitLab.com `PRIVATE_TOKEN` environment variable setup. This is required so that Middleman can automatically build the [direction page](https://about.gitlab.com/direction/).
+Before building the static files, ensure you have a GitLab.com `PRIVATE_TOKEN`
+environment variable setup. This is required so that Middleman can automatically
+build the [direction page](https://about.gitlab.com/direction/).
 
 ```sh
 bundle install
