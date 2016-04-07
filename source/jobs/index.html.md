@@ -16,10 +16,10 @@ Working for GitLab means joining a very productive, ambitious team, where indepe
 and flexibility are both valued and required.
 Your work will directly have a large impact on the present and future of GitLab.
 We like to spend our time on things that matter.
-We are a [remote only company](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)
+We are a [remote only company](/2015/04/08/the-remote-manifesto/)
 and you can work from wherever you want.
-For more background please see our [about page](https://about.gitlab.com/about/),
-our [culture page](https://about.gitlab.com/culture/), and our [handbook](https://about.gitlab.com/handbook/).
+For more background please see our [about page](/about/),
+our [culture page](/culture/), and our [handbook](/handbook/).
 
 If you see yourself as a good fit with our company’s goals and team, then please
 review the current job openings on this page, and submit your resume and cover
@@ -32,12 +32,12 @@ letter to be considered!
 ## We don't work with recruiters<a name="no-recruiters"></a>
 
 We do not accept solicitations by recruiters, recruiting agencies, headhunters and outsourcing organizations.
-If you email us we'll reply with [a link to this paragraph](https://about.gitlab.com/jobs/#no-recruiters) to indicate we would very much appreciate it if you stop emailing us and remove us from any marketing list.
+If you email us we'll reply with [a link to this paragraph](/jobs/#no-recruiters) to indicate we would very much appreciate it if you stop emailing us and remove us from any marketing list.
 
 ## Available Openings
 
 ### Developer
-- [Description](https://about.gitlab.com/jobs/developer/)
+- [Description](/jobs/developer/)
 - [Apply](https://gitlab.workable.com/jobs/106660/candidates/new)
 - As part of our technical interview<a name="technical-interview"></a>, you will
 be asked to pick an issue from the GitLab CE issue tracker, and code 'live' with
@@ -60,22 +60,22 @@ If you prefer not to do the above please let us know and we'll give you an assig
 
 ### Service Engineer
 
-- [Description](https://about.gitlab.com/jobs/service-engineer/)
+- [Description](/jobs/service-engineer/)
 - [Apply](https://gitlab.workable.com/jobs/87722/candidates/new)
 
 ### Production Engineer
 
-- [Description](https://about.gitlab.com/jobs/production-engineer/)
+- [Description](/jobs/production-engineer/)
 - [Apply](https://gitlab.workable.com/jobs/142989/candidates/new)
 
 ### Account Manager
 
-- [Description](https://about.gitlab.com/jobs/account-manager/)
+- [Description](/jobs/account-manager/)
 - [Apply](https://gitlab.workable.com/jobs/88120/candidates/new)
 
 ### Senior Account Manager
 
-- [Description](https://about.gitlab.com/jobs/account-manager/)
+- [Description](/jobs/account-manager/)
 - [Apply](https://gitlab.workable.com/jobs/88117/candidates/new)
 
 ### People Operations Coordinator
@@ -85,15 +85,15 @@ If you prefer not to do the above please let us know and we'll give you an assig
 
 ### People Operations Director
 
-- [Description](https://about.gitlab.com/jobs/people-ops-director/)
+- [Description](/jobs/people-ops-director/)
 - [Apply](https://gitlab.workable.com/jobs/234625/candidates/new)
 
 ### UX Designer
 
-- [Description](https://about.gitlab.com/jobs/ux-designer/)
+- [Description](/jobs/ux-designer/)
 - [Apply](https://gitlab.workable.com/jobs/227708/candidates/new)
 
 ### Strategic Relations Manager
 
-- [Description](https://about.gitlab.com/jobs/strategic-relations-manager/)
+- [Description](/jobs/strategic-relations-manager/)
 - [Apply](https://gitlab.workable.com/jobs/186837/candidates/new)
