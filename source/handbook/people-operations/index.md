@@ -62,7 +62,8 @@ as described on our [Hiring](/handbook/hiring/) page, follow these steps:
    1. Enter the following fields: First name, Last name, Gender, Hire date, Employment status, Job information, Pay rate, Salary for employees, or select another option.
    1. Turn “self service” on for the employee to enter the following info: Address, Phone, DOB. private email.
 1. Save the signed contract under the Documents tab in the folder “0.Signed Contract/Offer Letter”.
-1. On the start date of the employee send out the "password reset email" under the settings option in the top right of the profile (next to "request a change")
+1. As noted in the onboarding checklist, on the start date of the employee send out the "password reset email" under
+the settings option in the top right of the profile (next to "request a change")
 **Note** This link is only valid for 24 hours.
 
 ### Using BambooHR as a new team member<a name="new-member-bamboo"></a>
