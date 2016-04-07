@@ -130,10 +130,13 @@ iframe[name='google_conversion_frame'] {
   margin-top: 33px;
   box-shadow: 0 3px 3px rgba($color-dark, .1);
   max-width: 900px;
+}
 
-  iframe {
-    max-width: 100%;
-  }
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
 }
 
 .signature-block {
