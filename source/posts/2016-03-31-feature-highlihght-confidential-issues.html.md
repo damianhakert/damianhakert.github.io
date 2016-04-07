@@ -85,7 +85,7 @@ It also helps a lot to do development with automated tests. As you work in
 parallel with other developers and constantly update the feature, you can tell
 if something is going to break.
 
-Normally, you don’t work a long time on issues like this, but in this case it
+Normally, you don’t work a long time on issues like this but in this case it
 was unavoidable due to the security nature of the feature. Again, using tests
 made this a lot easier.
 
