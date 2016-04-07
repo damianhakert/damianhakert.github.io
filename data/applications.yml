@@ -287,11 +287,11 @@
       links:
         - url: https://visualstudiogallery.msdn.microsoft.com/abafc7d6-dcaa-40f4-8a5e-d6724bdb980c
           title: visualstudiogallery
-    - title: SourceTree
-      content: The SourceTree application for Mac and Windows created by Atlassian also supports GitLab.
+    - title: GitKraken
+      content: GitKraken is a visual git client. Please note that it requires you to sign up with a working email.
       links:
-        - url: http://www.sourcetreeapp.com/
-          title: www.sourcetreeapp.com
+        - url: https://www.gitkraken.com/
+          title: GitKraken.com
     - title: PhpStorm
       content: This IDE for the PHP programming language has a GitLab plugin.
       links:
