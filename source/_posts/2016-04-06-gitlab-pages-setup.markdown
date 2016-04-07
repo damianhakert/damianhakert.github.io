@@ -15,9 +15,9 @@ host your website for free on [GitLab.com][sign-up].
 We've prepared a step-by-step tutorial on creating a new project for GitLab Pages so you won't get lost in the process.
 
 GitLab Pages supports [static websites][wiki-static-websites] and builds **any** [Static Site Generator (SSG)][SSGs],  
-such as [Jekyll][], [Hugo], [Hexo], [Middleman] and [Pelican]. 
+such as [Jekyll], [Hugo], [Hexo], [Middleman] and [Pelican]. 
 
-We are assuming that you are familiar with [`git`][git] and with the web development process, from creation to publishing.
+We are assuming that you are familiar with [Git][git] and with the web development process, from creation to publishing.
 
 <!-- more -->
 
@@ -30,7 +30,7 @@ We are assuming that you are familiar with [`git`][git] and with the web develop
        - [A note regarding GitLab Groups and Namespaces](#group-websites)
    - [About GitLab CI for GitLab Pages](#gitlab-ci)
    - [Creating new GitLab Pages projects](#creating-new-pages-projects)
-   - [Step-by-Step](#step-by-step)
+   - [Step-by-step](#step-by-step)
       - [Step 1: Create a new project](#creating-new-project)
       - [Step 2: Add the configuration file:  `.gitlab-ci.yml`](#add-gitlab-ci)
       - [Step 3: Upload your website content](#upload-content)
@@ -48,7 +48,7 @@ We are assuming that you are familiar with [`git`][git] and with the web develop
 
 There are two ways of getting started with GitLab Pages: either you fork an existing project, or you create a new one for yourself. 
 
-On [GitLab Pages Quick Start Guide][pages], which is by the way a site built with [Middleman], 
+On the [GitLab Pages Quick Start Guide][pages], which is, by the way, a site built with [Middleman], 
 you will find the steps for forking an existing project from a list of examples prepared for you. 
 There are some popular SSGs, like Jekyll, Hugo, Hexo, Bruch, etc.
 
@@ -57,8 +57,8 @@ However, if you want to understand the process of creating a new project from sc
 On the official documentation you can learn about [GitLab Pages][pages-work], but here we will focus on the **steps** 
 for creating your own project.
 
-_**Note:** [GitLab Pages was introduced in GitLab EE 8.3][pages-introduced]. 
-It is available for [GitLab.com][sign-up] and [GitLab Enterprise Edition][gitlab-ee] users._
+>**Note:** [GitLab Pages was introduced in GitLab EE 8.3][pages-introduced]. 
+It is available for [GitLab.com][sign-up] and [GitLab Enterprise Edition][gitlab-ee] users.
 
 <a name="website-types"></a>
 
@@ -78,9 +78,9 @@ You can find out more about them on the [docs][pages-work].
 Creating a [group][doc-groups] on GitLab is very useful when you have several projects with the same subject. 
 A group has its own **namespace**, which is unique for each group (and for each user). 
 
-The important matter is, when you create your account on GitLab, it's better to choose a `username` for 
+The important matter is, when you create your account on GitLab, it's better to choose a username for 
 yourself as a person, not as a company. You can create your "company username" later, as a group 
-`namespace`. For example, let's say your name is "John Doe" and your company is called "Foo Master". 
+namespace. For example, let's say your name is "John Doe" and your company is called "Foo Master". 
 First, register yourself as `johndoe` and later create a group called Foo Master within the namespace of 
 `foomaster`. This will allow you to separate your personal projects from your company ones.
 
@@ -91,42 +91,42 @@ and your company site under `https://groupname.gitlab.io`.
 
 ## About GitLab CI for GitLab Pages
 
-The key for having everything up and running as expected, is the [**GitLab CI** configuration file][doc-ciconfig], called `.gitlab-ci.yml`.
+The key to having everything up and running as expected is the [**GitLab CI** configuration file][doc-ciconfig], called `.gitlab-ci.yml`.
 
-What this file does, is [configuring][ee-yaml-ci] how your website will be build by a _[Runner][doc-config-runners]_. 
-It is written in [YAML][], which has its own syntax, so we recommend you 
-follow this [quick start guide][] before setting it up. 
+This file [configures][ee-yaml-ci] how your website will be built by a _[Runner][doc-config-runners]_. 
+It is written in [YAML], which has its own syntax, so we recommend you 
+follow this [quick start guide] before setting it up. 
 It needs to be placed at your root directory. 
 
-The most important fact is that with GitLab CI **you** take control over your builds. 
-They won't be in a black invisible box where you don't know what is going on! 
-You can actually **see** any build running live (navigate to your project's **Settings > Builds > Build ID**). 
+The most important fact is that with GitLab CI, **you** take control over your builds. 
+They won't be in an invisible black box where you don't know what is going on! 
+You can actually **see** any build running live by navigating to your project's **Settings > Builds > Build ID**. 
 You can also add any command to your script. This is far beyond useful as it allows you to do 
 pretty much anything you do on your local machine!
 
-For example, you can add any [Jekyll Plugins][Jekyll Plugin] to your Jekyll site, 
-you can require any `gem` you need on your `Gemfile`, run `npm`, run `bundle` and much more. 
+For example, you can add any [Jekyll Plugin] to your Jekyll site, 
+you can require any `gem` you need in your `Gemfile`, run `npm`, run `bundle` and much more. 
 Bottom line, it's as handy as having your own command line on your GitLab UI.  
 
 Additionally, you can have a distinct `.gitlab-ci.yml` for each repository - even for each branch. 
 This means you can test your script in parallel branches before pushing to your `master` branch. 
 If the build succeeds, you merge. If it doesn't, you can make adjustments and try building 
-again without messing up with your `master` branch.
+again without messing up your `master` branch.
 
 Before you push any `.gitlab-ci.yml` to your project, you can 
 validate its syntax with the tool called [CI Lint][ci-lint]. 
 You need to be logged into your account to have access to this tool. 
-It's easily found by navigating to your project's **Settings > Builds**: there is a button at the top-right of your screen.
+It's found by navigating to your project's **Settings > Builds**: there is a button at the top-right of your screen.
 
 ![CI-Lint](/images/blogimages/gitlab-pages-setup-ci-lint.png)
 
-Here you can read the [full documentation regarding `.gitlab-ci.yml`][ee-yaml-ci].
+You can read through the [full documentation for `.gitlab-ci.yml`][ee-yaml-ci] for more information.
 
 <a name="creating-new-pages-projects"></a>
 
 ## Creating new GitLab Pages projects
 
-Here is an overview of the steps we'll take, assuming you already have your GitLab.com account.
+Here is an overview of the steps we'll take, assuming you already have your GitLab.com account:
 
 1. Create a new project
 1. Add the configuration file (`.gitlab-ci.yml`)
@@ -136,7 +136,7 @@ Here is an overview of the steps we'll take, assuming you already have your GitL
 
 <a name="step-by-step"></a>
 
-## Step-by-Step
+## Step-by-step
 
 Now we will go through this process step-by-step.
 
@@ -151,20 +151,20 @@ This is as straight-forward as you can imagine:
    - **Project path** - your project's name, accessed via `https://gitlab.com/namespace/projectname`
    - **Privacy** - choose if you want your project to be visible and accessible just for you (`private`), just for GitLab.com users (`internal`) or free to anyone to view, clone, fork and download it (`public`)
 
-_**Note**: you can host your website on [GitLab.com][gitlab-com] even if it is stored in a private repository. 
+>**Note**: you can host your website on [GitLab.com][gitlab-com] even if it is stored in a private repository. 
 If you do so, you can have your project protected - only the static site will be visible 
-to the public - via "Inspect Element" or "View-Source" from their web browsers._
+to the public - via "Inspect Element" or "View-Source" from their web browsers.
 
 <a name="add-gitlab-ci"></a>
 
 ### Step 2: Add the configuration file: `.gitlab-ci.yml`
 
-Now we can have some fun! GitLab CI will be where you add your commands into. 
-You will see a few examples below (options A, B and C) to understand how they work.
+Now we can have some fun! Let's tell GitLab CI how to build the site. 
+You will see a few examples below (options A, B, and C) to understand how they work.
 
 ### Option A: GitLab CI for plain HTML websites
 
-In order to build your [plain `HTML` site][pages-ci-html] with GitLab Pages, 
+In order to build your [plain HTML site][pages-ci-html] with GitLab Pages, 
 your `.gitlab-ci.yml` file doesn't need much:
 
 ```yaml
@@ -191,10 +191,10 @@ and the artifacts for the pages job are uploaded to GitLab.
 
 ### Option B: GitLab CI for Jekyll websites
 
-Jekyll is so far the most popular [Static Site Generator (SSG)][SSGs] available, that's why we'll use it as a first SSG example 
+Jekyll is so far the most popular [Static Site Generator (SSG)][SSGs] available, that's why we'll use it as a first example 
 for configuring our GitLab CI. On the next section you'll find more [examples](#examples) for SSGs already tested with GitLab Pages. 
 
-Jekyll is written in [Ruby][] and generates static blog-aware websites. 
+Jekyll is written in [Ruby] and generates static blog-aware websites. 
 Blog-aware means a website generator will create blog-style content, such as lists of 
 content in reverse chronological order, archive lists, and
 other common blog-style features.
@@ -221,9 +221,10 @@ pages:
   - master
 ```
 
-This code is requires the _[script][doc-script]_ to run on 
-the _[environment][doc-images]_ of [Ruby][] 2.1.x and 
-installing and building Jekyll to the _[public path][doc-contents-ciconfig]_. 
+This code requires the _[script][doc-script]_ to run on 
+the _[environment][doc-images]_ of [Ruby] 2.1.x,
+installs the Jekyll gem, and builds the site 
+to the _[public path][doc-contents-ciconfig]_. 
 The result affects _[only][doc-only]_ the master branch.
 For building a regular Jekyll site, you can just 
 copy this code and paste it into your `.gitlab-ci.yml`. 
@@ -239,7 +240,7 @@ you are free to use any [Jekyll Plugins][Jekyll Plugin]. _Yep!_
 ### Option C: GitLab CI for Hexo websites
 
 
-Let's see another example. [Hexo] is a powerful blog-aware framework which runs in [NodeJS][node], 
+Let's see another example. [Hexo] is a powerful blog-aware framework built with [NodeJS][node], 
 a server-side JavaScript environment based on [Google V8] high-performance engine. 
 
 To build our Hexo site, we can start with this `.gitlab-ci.yml`:
@@ -269,7 +270,7 @@ our `hexo` site to the default `public` directory, uploaded to GitLab as `artifa
 The `pages` job is `only` affecting the `master` branch. 
 
 On the [Pages][ci-examples] group you will find a default [Hexo site][pages-hexo] 
-deployed with GitLab Pages, and here you can find another [example][hexo-proj] with a slightly different configuration.
+deployed with GitLab Pages, and on [this group][themes-templates], another [example][hexo-proj] with a slightly different configuration.
 
 <a name="upload-content"></a>
 
@@ -285,71 +286,71 @@ You can do this automatically by adding them to a `.gitignore` file, placed at y
 
 E.g., if you are building a Jekyll site, your `.gitignore` will have this line:
 
-```ruby
+```
 _site
 ```
 
 A `.gitignore` is very useful to avoid uploading to your remote repository any file or folder within your project. 
-If you want to know more about it, check [`.gitignore` official docs][git-docs-gitignore].
+If you want to know more about it, check the [`.gitignore` official docs][git-docs-gitignore].
 
 <a name="custom-domains"></a>
 
 ### Step 4: Add your custom domain
 
-_**Note:** Custom CNAMEs with TLS support were introduced in [GitLab EE 8.5][EE-85]._
+>**Note:** Custom CNAMEs with TLS support were introduced in [GitLab EE 8.5][EE-85].
 
-If you want, you are free to easily [add your own domain(s) name][pages-custom-domain] to your website hosted by GitLab.com. 
+If you want, you are free to [add your own domain(s) name][pages-custom-domain] to your website hosted by GitLab.com. 
 It's not required though, you can always use the standard GitLab Pages subdomain accessed under `https://mynamespace.gitlab.io`.
 
 _Features_
 
 - Besides including your own domain, you can add your custom **subdomain** to your GitLab Pages project (e.g., `subdomain.example.com`)
-- You can enter more than one domain aliases **per project** (e.g., `example.com`, 
+- You can enter more than one domain alias **per project** (e.g., `example.com`, 
 `example.net` `my.example.org` and `another-example.com` pointing to your project under `mynamespace.gitlab.io` or 
 `mynamespace.gitlab.io/myproject`). A domain alias is like having multiple front doors to one location.
-- If you want to enable an `https` secure connection to your domains, you can affix your own SSL/TLS digital 
+- If you want to enable an HTTPS secure connection to your domains, you can affix your own SSL/TLS digital 
 certificate to **each** custom domain or subdomain you've added to your projects.
 
-_How to do that_
-
+_Steps to set up a custom domain_
 
 - From your project's dashboard, go to **Settings > Pages > New Domain**
-
 - Add your domain to the first field: `mydomain.com`
-
-- If you have a SSL/TLS digital certificate and its key, just add them to their respective fields. 
+- If you have an SSL/TLS digital certificate and its key, add them to their respective fields. 
 If you don't, just leave the fields blank. 
-
-
 - Click on **Create New Domain**.
-
-- Finally, access your domain control panel and create a new [DNS `A` record][dns-A] pointing to the IP of Pages:
+- Finally, access your domain control panel and create a new [DNS `A` record][dns-A] pointing to the IP of Pages server:
 
 ```
 mydomain.com A 104.208.235.32
 ```
 
-**Alternatively, a similar procedure can be applied for custom sub domains:**
+Alternatively, a similar procedure can be applied for **custom subdomains**:
 
-- Add the sub domain to the first field: `subdomain.mydomain.com`
+- Add the subdomain to the first field: `subdomain.mydomain.com`
 
-- Then create a new [DNS `CNAME` record][dns-cname] pointing to `username.gitlab.io`:
+- Then create a new [DNS `CNAME` record][dns-cname] pointing to `myusername.gitlab.io`:
 
 ```
-subdomain.mydomain.com CNAME username.gitlab.io
+subdomain.mydomain.com CNAME myusername.gitlab.io
 ```
 
-To add new domain aliases to the same project, just repeat these steps.
+Repeat these steps for any additional domain aliases.
 
-Ordinary, DNS propagation needs some time to take effect, so don't worry if you can't access your 
-website under your custom domain instantaneously. Wait a few hours and check it again.
+Note that how you set up your DNS records will depend upon which company you 
+used to register your domain name. Every company has its own methods for DNS Zone Management. 
+On this link you can find an [overview for some providers][dns-zone-examples], 
+it might help you to follow through. Please contact your provider directly if you need some extra help.
+
+Ordinarily, DNS propagation needs some time to take effect, so don't worry if you can't access your 
+website under your custom domain instantaneously. Wait a few minutes and check it again.
+
 
 <a name="examples"></a>
 
 ## Examples
 
 Check out the [Pages][ci-examples] official group for a list of example projects, 
-where you can explore some good options of Static Site Generators for Ruby, NodeJS and Python environments. 
+where you can explore some good options for Static Site Generators for Ruby, NodeJS and Python environments. 
 You can also find more specific examples on the following groups, which I prepared for the purposes of this post: 
 
 - [Jekyll Themes][jekyll-examples] (Ruby/Jekyll)
@@ -357,19 +358,19 @@ You can also find more specific examples on the following groups, which I prepar
 - [Themes and Templates][themes-templates] (Miscellaneous)
 - [HTML Themes][html-examples] (plain HTML)
 
-_**Note:** these themes, templates and SSGs were casually chosen and listed on this 
-post to provide you with some distinct GitLab CI configurations._
+>**Note:** these themes, templates and SSGs were casually chosen and listed on this 
+post to provide you with some distinct GitLab CI configurations.
 
 <a name="faq"></a>
 
 ## FAQ
 
 
-### Is it all of this really free to use?
+### Is all of this really free to use?
 
 Yes, it is! On [GitLab.com][sign-up] you can create your free account 
-and enjoy all it's [features][gitlab-com], including unlimited private repositories, 
-projects, websites and contributors. Also, you'll have 10GB disk space per project, [1GB per Pages artifacts][pages-1GB-artifacts],
+and enjoy all its [features][gitlab-com], including unlimited private repositories, 
+projects, websites, and contributors. Also, you'll have 10GB disk space per project, [1GB per Pages artifacts][pages-1GB-artifacts],
 and unlimited total disk space. Awesome, isn't it? Why don't you take a peek at the [public projects][explore]?
 
 ### Where is the `public` folder?
@@ -385,7 +386,7 @@ Yes, you can use any [Static Site Generator][SSGs] available.
 
 ### Can I use free SSL/TLS digital certificates?
 
-Yes, absolutely! Would you need a suggestion? You can try [StartSSL] or [Let's Encrypt][lets-encrypt].
+Yes, absolutely! Need a suggestion? Try [StartSSL] or [Let's Encrypt][lets-encrypt].
 
 ### Can I contribute to the themes?
 
@@ -409,7 +410,7 @@ feel free to use one of [our channels][get-help]. You can also open an issue on 
 
 ## Conclusions
 
-Hopefully now you understand how **[GitLab Pages][pages]** work and how to create your new site.
+Hopefully now you understand how **[GitLab Pages][pages]** works and how to create your new site.
 
 Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 
@@ -465,6 +466,7 @@ When she is not coding, she is writing articles, studying, teaching or contribut
 [Coffee Script]: http://coffeescript.org/
 [dns-A]: https://support.dnsimple.com/articles/a-record/
 [dns-cname]: https://en.wikipedia.org/wiki/CNAME_record
+[dns-zone-examples]: http://docs.businesscatalyst.com/user-manual/site-settings/site-domains/updating-dns-records-with-a-domain-registrar-external-dns
 [git]: https://git-scm.com/about
 [git-docs-gitignore]: https://git-scm.com/docs/gitignore
 [go]: https://golang.org/
@@ -506,4 +508,3 @@ When she is not coding, she is writing articles, studying, teaching or contribut
 [jekyll-253-example]: https://gitlab.com/jekyll-themes/carte-noire
 [hexo-proj]: https://gitlab.com/themes-templates/hexo
 [pages-hexo]: https://gitlab.com/pages/hexo
-
