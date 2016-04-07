@@ -356,7 +356,7 @@ that same URL, the website will have to redirect the user again.
 That's how easy it is to have a free HTTPS enabled website.
 With these tools, I see no reason not to do it.
 
-There's an [excellent talk](talk) on HTTPS where you can learn more 
+There's an [excellent talk][talk] on HTTPS where you can learn more 
 about it.
 
 If you want to check the status of your HTTPS enabled website,
