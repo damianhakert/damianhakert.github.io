@@ -137,7 +137,7 @@ and then view the documentation as a lower priority task as this inevitably lead
 1. Make a conscious effort to **recognize** the constraints of others within the team. For example, sales is hard because you are dependent on another organization, and Development is hard because you have to preserve the ability to quickly improve the product in the future.
 1. Our **strategy** is detailed on the [Strategy page](https://about.gitlab.com/strategy/), please read it and contribute.
 1. For each action or comment, it helps to ask yourself (i) does this 
-help the company achieve its' strategic goals? (ii) is this in the company's interest, 
+help the company achieve its strategic goals? (ii) is this in the company's interest, 
 and finally, (iii) how can I contribute to this effort/issue in a constructive way?
 1. There is no need for **consensus**, make sure that you give people that might have good insights a chance to respond (by /cc'ing them) but make a call yourself because [consensus doesn't scale](https://twitter.com/sama/status/585950222703992833).
 1. Everyone at the company cares about your **output**. Being away from the keyboard during the workday, doing private browsing or making personal phone calls is fine and encouraged.
