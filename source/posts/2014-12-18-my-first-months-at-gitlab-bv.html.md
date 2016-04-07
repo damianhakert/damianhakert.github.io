@@ -2,7 +2,6 @@
 layout: post
 title: "My first months at GitLab B.V."
 date: 2014-12-18
-comments: true
 categories:
 author: Patricio Cano
 ---

@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab CI 4.3 released"
 date: 2014-03-06 11:32:53 +0200
-comments: true
 categories: 
 author: Dmitriy Zaporozhets
 ---

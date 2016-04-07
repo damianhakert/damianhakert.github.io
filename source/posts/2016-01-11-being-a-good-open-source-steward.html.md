@@ -2,7 +2,6 @@
 layout: post
 title: "Open Source Stewardship"
 date: 2016-01-11
-comments: true
 author: Sytse Sijbrandij
 author_twitter: sytses
 image_title: '/images/unsplash/sailing-5.jpg'

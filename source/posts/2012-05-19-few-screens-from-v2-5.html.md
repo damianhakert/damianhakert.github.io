@@ -3,7 +3,6 @@ layout: post
 title: Few screens from v2.5
 wordpress_id: 353
 wordpress_url: http://blog.gitlabhq.com/?p=353
-comments: true
 date: 2012-05-19 10:10:38 +00:00
 community: true
 ---

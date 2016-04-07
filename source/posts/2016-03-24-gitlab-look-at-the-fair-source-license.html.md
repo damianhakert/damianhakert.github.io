@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab Looked at the Fair Source License"
 date: 2016-03-24 10:00
-comments: true
 author: Paul Machle
 author_twitter: pmachle
 filename: 2016-03-24-gitlab-look-at-the-fair-source-license.markdown

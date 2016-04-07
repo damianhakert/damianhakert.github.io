@@ -2,7 +2,6 @@
 layout: post
 title: "50th release party"
 date: 2016-01-29
-comments: true
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: '/images/50th/cover.png'

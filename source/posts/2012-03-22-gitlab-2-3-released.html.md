@@ -2,7 +2,6 @@
 layout: post
 title: Gitlab 2.3 released
 wordpress_id: 263
-comments: true
 wordpress_url: http://blog.gitlabhq.com/?p=263
 date: 2012-03-22 08:52:09 +00:00
 community: true

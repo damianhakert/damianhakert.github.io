@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab + Tower = A Most Efficient Setup"
 date: 2015-11-10
-comments: true
 author: Tobias Günther
 author_twitter: gittower
 ---

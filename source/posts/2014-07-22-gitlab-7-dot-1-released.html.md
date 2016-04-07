@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 7.1 released"
 date: 2014-07-22 13:06:50 +0300
-comments: true
 categories: 
 author: Dmitriy Zaporozhets
 ---

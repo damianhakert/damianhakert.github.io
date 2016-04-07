@@ -2,7 +2,6 @@
 layout: post
 title: "We're doing a live Git and Gitlab Workshop"
 date: 2015-02-26
-comments: true
 categories:
 author: Job van der Voort
 author_twitter: Jobvo

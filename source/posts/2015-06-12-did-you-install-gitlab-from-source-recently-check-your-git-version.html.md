@@ -2,7 +2,6 @@
 layout: post
 title: "Did you install GitLab from source? Check your Git version"
 date: 2015-06-12
-comments: true
 author: Jacob Vosmaer
 author_twitter: jacobvosmaer
 ---

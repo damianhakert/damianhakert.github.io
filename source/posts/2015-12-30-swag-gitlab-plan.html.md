@@ -2,7 +2,6 @@
 layout: post
 title: "Swag matters - share your #swagportrait"
 date: 2015-12-30
-comments: true
 categories: marketing
 author: Heather McNamee
 author_twitter: nearlythere

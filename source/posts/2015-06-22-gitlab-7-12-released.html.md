@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 7.12 released with SAML support, Merge Request Approvers and .gitlab-ci.yml"
 date: 2015-06-22
-comments: true
 categories:
 author: Job van der Voort
 author_twitter: Jobvo

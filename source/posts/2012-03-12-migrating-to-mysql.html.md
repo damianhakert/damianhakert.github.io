@@ -3,7 +3,6 @@ layout: post
 title: Migrating to mysql
 wordpress_id: 260
 wordpress_url: http://blog.gitlabhq.com/?p=260
-comments: true
 date: 2012-03-12 07:28:15 +00:00
 community: true
 ---

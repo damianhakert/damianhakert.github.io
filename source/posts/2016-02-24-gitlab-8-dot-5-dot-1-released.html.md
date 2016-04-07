@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 8.5.1 Released"
 date: 2016-02-24
-comments: true
 author: GitLab
 author_twitter: gitlab
 filename: 2016-02-24-gitlab-8-dot-5-dot-1-released.markdown

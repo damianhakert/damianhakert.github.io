@@ -4,7 +4,6 @@ title: "GitLab Omnibus packages now include GitLab CI"
 date: 2014-11-06 17:12 +0100
 permalink: /2014/11/04/gitlab-omnibus-packages-now-include-gitlab-ci/
 author: Jacob Vosmaer
-comments: true
 categories: 
 ---
 

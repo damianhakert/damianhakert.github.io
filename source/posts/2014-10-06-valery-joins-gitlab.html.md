@@ -2,7 +2,6 @@
 layout: post
 title: "Valery joins GitLab"
 date: 2014-10-06 15:14:06 +0300
-comments: true
 author: Valery Sizov
 categories: 
 ---

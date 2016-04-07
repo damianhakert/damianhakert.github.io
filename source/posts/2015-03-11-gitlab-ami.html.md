@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab AMI"
 date: 2015-03-11
-comments: true
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: '/images/stock/mac.jpg'

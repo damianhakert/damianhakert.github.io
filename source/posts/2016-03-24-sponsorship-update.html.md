@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab Sponsorship Update"
 date: 2016-03-24 15:00
-comments: true
 categories: community
 author: Emily Kyle
 author_twitter: emilylucie

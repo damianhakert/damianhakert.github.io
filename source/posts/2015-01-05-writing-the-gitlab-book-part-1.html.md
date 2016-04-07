@@ -2,7 +2,6 @@
 layout: post
 title: "Writing the GitLab book: part 1"
 date: 2015-01-05 11:27:58 +0100
-comments: true
 categories:
   - Book
   - Guest post

@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab.com outage on 2015-05-29"
 date: 2015-06-04
-comments: true
 author: Jacob Vosmaer
 author_twitter: jacobvosmaer
 ---

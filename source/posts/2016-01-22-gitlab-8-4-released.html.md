@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab's 50th Release: 8.4"
 date: 2016-01-22
-comments: true
 categories:
 author: Job van der Voort
 author_twitter: Jobvo

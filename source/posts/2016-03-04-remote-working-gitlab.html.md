@@ -2,7 +2,6 @@
 layout: post
 title: "Working Remotely at GitLab: An update"
 date: 2016-03-04 10:00
-comments: true
 categories:
 author: Heather McNamee
 author_twitter: nearlythere

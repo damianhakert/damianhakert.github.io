@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab X.X released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 date: YYYY-MM-22
-comments: true
 categories:
 author: ADD_YOUR_FULL_NAME
 author_twitter: TWITTER_USERNAME

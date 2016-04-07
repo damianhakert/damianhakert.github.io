@@ -2,7 +2,6 @@
 layout: post
 title: "Donations large and small"
 date: 2013-03-01 12:00
-comments: true
 categories:
 community: true
 ---

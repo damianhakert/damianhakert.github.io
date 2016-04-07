@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 7.5.2 and GitLab CI 5.2.1 Release"
 date: 2014-12-03
-comments: true
 categories:
 author: Job van der Voort
 ---

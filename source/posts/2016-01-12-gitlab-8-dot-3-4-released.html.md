@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 8.3.4 Released"
 date: 2016-01-12
-comments: true
 author: Jacob Vosmaer
 author_twitter: jacobvosmaer
 ---

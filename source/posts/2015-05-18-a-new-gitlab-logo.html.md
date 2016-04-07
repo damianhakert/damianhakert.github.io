@@ -2,7 +2,6 @@
 layout: post
 title: "A new GitLab Logo"
 date: 2015-05-18
-comments: true
 author: Job van der Voort
 author_twitter: Jobvo
 ---

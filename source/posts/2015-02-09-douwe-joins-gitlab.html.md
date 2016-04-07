@@ -2,7 +2,6 @@
 layout: post
 title: "Douwe joins GitLab as a Developer"
 date: 2015-02-09
-comments: true
 ---
 
 <img src="/images/team/picture_douwe.png" alt="Douwe Maan" width="200" height="200" style="float: right; margin-left: 15px;">

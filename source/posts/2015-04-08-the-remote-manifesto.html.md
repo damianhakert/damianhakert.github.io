@@ -2,7 +2,6 @@
 layout: post
 title: "The Remote Manifesto"
 date: 2015-04-08
-comments: true
 author: Sytse Sijbrandij
 author_twitter: sytses
 image_title: '/images/stock/remote.jpg'

@@ -2,7 +2,6 @@
 layout: post
 title: "Notes from the Git Merge Core Contributors Summit"
 date: 2016-04-06 12:00
-comments: true
 categories:
 author: GitLab
 author_twitter: GitLab

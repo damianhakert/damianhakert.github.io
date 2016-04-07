@@ -2,7 +2,6 @@
 layout: post
 title: "Announcing Git LFS Support in GitLab"
 date: 2015-11-23
-comments: true
 author: GitLab
 author_twitter: GitLab
 ---

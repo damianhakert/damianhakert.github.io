@@ -2,7 +2,6 @@
 layout: post
 title: "Perforce launches GitSwarm based on GitLab"
 date: 2015-10-06
-comments: true
 author: GitLab
 author_twitter: gitlab
 ---

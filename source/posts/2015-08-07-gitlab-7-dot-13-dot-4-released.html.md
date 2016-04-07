@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 7.13.4 released"
 date: 2015-08-07
-comments: true
 author: Valery Sizov
 author_twitter: gitlab
 ---

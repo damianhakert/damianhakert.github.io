@@ -2,7 +2,6 @@
 layout: post
 title: "Feature Highlight: Approve Merge Request"
 date: 2015-06-16
-comments: true
 author: Dmitriy Zaporozhets
 author_twitter: dzaporozhets
 ---

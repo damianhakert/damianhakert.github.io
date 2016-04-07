@@ -2,7 +2,6 @@
 layout: post
 title: "To Work Remotely You Need: Wifi & Good Communication Habits"
 date: 2016-03-23 17:00
-comments: true
 author: GitLab
 author_twitter: gitlab
 image_title: /images/unsplash/phones.jpg

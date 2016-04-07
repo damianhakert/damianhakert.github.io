@@ -2,7 +2,6 @@
 layout: post
 title: "Write for GitLab"
 date: 2016-01-26
-comments: true
 author: Heather McNamee
 author_twitter: nearlythere
 image_title: '/images/blogimages/write-gitlab.jpg'

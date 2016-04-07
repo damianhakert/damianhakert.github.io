@@ -2,7 +2,6 @@
 layout: post
 title: "Announcing GitLab 6.0 Enterprise Edition"
 date: 2013-07-22 13:01
-comments: true
 categories:
 community: true
 ---

@@ -2,7 +2,6 @@
 layout: post
 title: "One Million Downloads of GitLab"
 date: 2015-10-29
-comments: true
 author: Sytse Sijbrandij
 author_twitter: sytses
 image_title: '/images/unsplash/million_downloads.jpg'

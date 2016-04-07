@@ -2,7 +2,6 @@
 layout: post
 title: "Happiness at GitLab"
 date: 2014-10-09
-comments: true
 author: Job van der Voort
 ---
 

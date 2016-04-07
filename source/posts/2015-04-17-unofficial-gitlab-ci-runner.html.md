@@ -2,7 +2,6 @@
 layout: post
 title: "Unofficial GitLab CI Runner"
 date: 2015-04-17
-comments: true
 author: Kamil Trzciński
 author_twitter: ayufanpl
 ---

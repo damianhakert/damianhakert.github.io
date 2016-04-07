@@ -3,7 +3,6 @@ layout: post
 title: "GitLab 6.2.3 and 5.4.1 security releases"
 date: 2013-11-04 19:00
 author: Jacob Vosmaer
-comments: true
 categories:
 community: true
 ---

@@ -2,7 +2,6 @@
 layout: post
 title: "Getting started with Git and Gitlab Screencast"
 date: 2014-02-26 14:02
-comments: true
 author: Job van der Voort
 categories: 
 ---

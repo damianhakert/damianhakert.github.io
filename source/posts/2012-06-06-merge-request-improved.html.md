@@ -3,7 +3,6 @@ layout: post
 title: Merge Request improved
 wordpress_id: 407
 wordpress_url: http://blog.gitlabhq.com/?p=407
-comments: true
 date: 2012-06-06 08:28:18 +00:00
 community: true
 ---

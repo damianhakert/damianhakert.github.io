@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 7.6.2 Release"
 date: 2014-12-31
-comments: true
 categories:
 author: Job van der Voort
 ---

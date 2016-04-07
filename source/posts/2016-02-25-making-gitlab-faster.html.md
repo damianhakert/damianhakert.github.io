@@ -2,7 +2,6 @@
 layout: post
 title: Making GitLab Faster
 date: 2016-02-25
-comments: true
 author: Yorick Peterse
 author_twitter: yorickpeterse
 ---

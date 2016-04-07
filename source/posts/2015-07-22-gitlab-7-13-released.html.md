@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 7.13 released with a Customizable Project Dashboard and even better Approvals"
 date: 2015-07-22
-comments: true
 categories:
 author: GitLab
 author_twitter: gitlab

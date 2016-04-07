@@ -2,7 +2,6 @@
 layout: post
 title: "Patricio Joins GitLab as Junior Service Engineer"
 date: 2014-10-13
-comments: true
 ---
 
 <img src="/images/team/picture_patricio.png" style="float: right; margin-left: 15px;">

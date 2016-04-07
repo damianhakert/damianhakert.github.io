@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab Feature Highlight: Groups"
 date: 2014-06-30
-comments: true
 categories:
 author: Job van der Voort, Jacob Vosmaer
 ---

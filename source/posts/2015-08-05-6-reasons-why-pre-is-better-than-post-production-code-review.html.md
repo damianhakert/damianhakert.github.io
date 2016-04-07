@@ -2,7 +2,6 @@
 layout: post
 title: "6 reasons why pre is better than post production code review"
 date: 2015-08-05
-comments: true
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: '/images/code.png'

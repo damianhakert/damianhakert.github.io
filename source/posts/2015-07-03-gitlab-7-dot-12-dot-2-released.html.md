@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 7.12.2 released"
 date: 2015-07-03
-comments: true
 author: Jacob Vosmaer
 author_twitter: jacobvosmaer
 ---

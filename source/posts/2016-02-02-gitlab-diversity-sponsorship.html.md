@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab Offer Sponsorship of $500 for Diversity Events"
 date: 2016-02-02
-comments: true
 categories: community
 author: Ashley Smith
 author_twitter: unquietone

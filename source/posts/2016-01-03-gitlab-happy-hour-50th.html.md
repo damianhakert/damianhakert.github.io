@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab's 50th Release Happy Hour"
 date: 2016-01-03
-comments: true
 author: GitLab
 author_twitter: GitLab
 image_title: '/images/unsplash/million_downloads.jpg'

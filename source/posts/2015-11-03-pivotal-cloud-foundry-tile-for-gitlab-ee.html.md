@@ -2,7 +2,6 @@
 layout: post
 title: "Pivotal Cloud Foundry Tile for GitLab EE"
 date: 2015-11-03
-comments: true
 author: GitLab
 author_twitter: gitlab
 image_title: '/images/unsplash/fall.jpg'

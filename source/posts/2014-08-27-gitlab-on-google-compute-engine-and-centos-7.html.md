@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab on Google Compute Engine and CentOS 7"
 date: 2014-08-27 18:06:55 +0200
-comments: true
 author: Sytse Sijbrandij
 categories: 
 ---

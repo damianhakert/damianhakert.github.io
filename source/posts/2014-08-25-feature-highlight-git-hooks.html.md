@@ -2,7 +2,6 @@
 layout: post
 title: "Feature highlight: Git Hooks in GitLab Enterprise Edition"
 date: 2014-08-25 13:11:30 +0200
-comments: true
 author: Job van der Voort
 ---
 

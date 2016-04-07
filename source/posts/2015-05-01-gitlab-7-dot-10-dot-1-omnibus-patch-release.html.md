@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 7.10.1 Omnibus patch release"
 date: 2015-05-01
-comments: true
 author: Marin Jankovski
 author_twitter: maxlazio
 

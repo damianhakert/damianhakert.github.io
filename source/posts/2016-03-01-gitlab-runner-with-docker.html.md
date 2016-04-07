@@ -2,7 +2,6 @@
 layout: post
 title: "Setting up GitLab Runner For Continuous Integration"
 date: 2016-03-01
-comments: true
 categories:
 author: Ahmet Kizilay
 author_twitter: ahmetkizilay

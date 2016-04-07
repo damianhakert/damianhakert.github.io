@@ -2,7 +2,6 @@
 layout: post
 title: "Feature Highlight: WIP"
 date: 2016-01-08
-comments: true
 author: Job van der Voort
 author_twitter: Jobvo
 ---

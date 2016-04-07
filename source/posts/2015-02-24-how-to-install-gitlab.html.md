@@ -2,7 +2,6 @@
 layout: post
 title: "How to install GitLab on your own domain"
 date: 2015-02-24
-comments: true
 categories:
 author: Job van der Voort
 image_title: '/images/stock/installing.jpeg'

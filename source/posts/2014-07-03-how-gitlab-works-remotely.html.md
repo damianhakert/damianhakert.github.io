@@ -2,7 +2,6 @@
 layout: post
 title: "How GitLab works remotely"
 date: 2014-07-03
-comments: true
 categories:
 author: Job van der Voort
 ---

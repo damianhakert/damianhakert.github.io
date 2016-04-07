@@ -2,7 +2,6 @@
 layout: post
 title: "Responding to Ghost"
 date: 2015-01-28
-comments: true
 categories:
 author: Jacob Vosmaer
 ---

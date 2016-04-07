@@ -3,7 +3,6 @@ layout: post
 title: Network Graph Keyboard navigation
 wordpress_id: 401
 wordpress_url: http://blog.gitlabhq.com/?p=401
-comments: true
 date: 2012-06-01 18:04:23 +00:00
 community: true
 ---

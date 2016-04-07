@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 7.3 released with performance improvements"
 date: 2014-09-22 12:50:22 +0200
-comments: true
 categories:
 author: Marin Jankovski
 ---

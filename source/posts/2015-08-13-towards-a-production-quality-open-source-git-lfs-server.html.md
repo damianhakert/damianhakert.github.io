@@ -2,7 +2,6 @@
 layout: post
 title: "Towards a production quality open source Git LFS server"
 date: 2015-08-13
-comments: true
 author: Sytse Sijbrandij
 author_twitter: sytses
 image_title: '/images/unsplash/FILENAME.jpg'

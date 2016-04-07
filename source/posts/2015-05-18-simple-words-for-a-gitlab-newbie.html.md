@@ -2,7 +2,6 @@
 layout: post
 title: "Simple words for a GitLab Newbie"
 date: 2015-05-18
-comments: true
 author: Karen Carias
 author_twitter: myvineste
 image_title: '/images/unsplash/water.jpg'

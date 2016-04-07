@@ -2,7 +2,6 @@
 layout: post
 title: "Implementing .gitlab-ci.yml"
 date: 2015-06-08
-comments: true
 author: Job van der Voort
 author_twitter: Jobvo
 ---

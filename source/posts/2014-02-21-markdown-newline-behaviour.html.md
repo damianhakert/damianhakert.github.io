@@ -2,7 +2,6 @@
 layout: post
 title: "Markdown newline behaviour"
 date: 2014-02-21 11:47
-comments: true
 categories:
 community: true
 ---

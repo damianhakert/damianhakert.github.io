@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab CI version 2.1 released"
 date: 2013-03-13 15:05
-comments: true
 categories:
 community: true
 ---

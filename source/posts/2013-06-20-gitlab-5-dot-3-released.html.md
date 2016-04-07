@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 5.3 released"
 date: 2013-06-20 09:28
-comments: true
 categories:
 community: true
 ---

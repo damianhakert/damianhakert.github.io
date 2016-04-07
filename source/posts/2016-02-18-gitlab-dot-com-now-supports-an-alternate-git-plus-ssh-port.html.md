@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab.com now supports an alternate git+ssh port"
 date: 2016-02-18
-comments: true
 author: Achilleas Pipinellis
 author_twitter: _axil
 image_title: '/images/unsplash/altssh.jpg'

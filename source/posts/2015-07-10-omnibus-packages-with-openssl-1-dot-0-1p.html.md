@@ -2,7 +2,6 @@
 layout: post
 title: "Omnibus packages with OpenSSL 1.0.1p"
 date: 2015-07-10
-comments: true
 author: Jacob Vosmaer
 author_twitter: jacobvosmaer
 ---

@@ -2,7 +2,6 @@
 layout: post
 title: "Get Started with GitLab Pages"
 date: 2016-04-04 10:00
-comments: true
 categories:
 author: Achilleas Pipinellis
 author_twitter: _axil

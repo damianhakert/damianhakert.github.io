@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 7.3.1 released"
 date: 2014-09-24 11:30:15 +0200
-comments: true
 categories:
 author: Marin Jankovski
 ---

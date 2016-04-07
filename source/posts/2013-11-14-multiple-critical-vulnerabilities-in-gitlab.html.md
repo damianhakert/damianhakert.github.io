@@ -3,7 +3,6 @@ layout: post
 title: "Multiple critical vulnerabilities in GitLab"
 date: 2013-11-14 15:00
 author: Jacob Vosmaer
-comments: true
 categories:
 community: true
 ---

@@ -3,7 +3,6 @@ layout: post
 title: We've started donation campaign
 wordpress_id: 304
 wordpress_url: http://blog.gitlabhq.com/?p=304
-comments: true
 date: 2012-03-27 12:51:34 +00:00
 community: true
 ---

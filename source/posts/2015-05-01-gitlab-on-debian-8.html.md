@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab on Debian 8"
 date: 2015-05-01
-comments: true
 author: Job van der Voort
 author_twitter: Jobvo
 ---

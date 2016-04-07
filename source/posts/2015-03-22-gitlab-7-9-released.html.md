@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 7.9 released with drag and drop for all files and group hooks"
 date: 2015-03-22
-comments: true
 categories:
 author: Marin Jankovski
 ---

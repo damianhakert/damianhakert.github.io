@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 8.1 with deeper CI integration, MR improvements, and more. Released from our team summit in Amsterdam!"
 date: 2015-10-22
-comments: true
 categories:
 author: Job van der Voort
 image_title: /images/8_1/team.jpg

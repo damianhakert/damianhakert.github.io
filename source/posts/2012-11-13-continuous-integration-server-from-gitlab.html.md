@@ -2,7 +2,6 @@
 layout: post
 title: "Continuous integration server from GitLab"
 date: 2012-11-13 16:00
-comments: true
 categories:
 community: true
 ---

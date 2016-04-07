@@ -2,7 +2,6 @@
 layout: post
 title: "Join us for a live tutorial about GitLab CI"
 date: 2016-03-28 08:00
-comments: true
 categories: webcast
 author: Heather McNamee
 author_twitter: nearlythere

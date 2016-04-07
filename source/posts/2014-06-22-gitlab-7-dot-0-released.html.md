@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 7.0 released with drag and drop images and performance improvements"
 date: 2014-06-22 16:18:54 +0300
-comments: true
 categories: 
 author: Dmitriy Zaporozhets
 ---

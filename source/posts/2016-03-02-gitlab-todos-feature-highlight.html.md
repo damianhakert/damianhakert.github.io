@@ -2,7 +2,6 @@
 layout: post
 title: "Feature Highlight: Todos"
 date: 2016-03-02
-comments: true
 categories:
 author: Douglas Alexandre
 author_twitter: dbalexandre

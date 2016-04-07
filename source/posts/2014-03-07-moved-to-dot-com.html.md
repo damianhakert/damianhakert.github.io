@@ -2,7 +2,6 @@
 layout: post
 title: "Moving to GitLab.com"
 date: 2014-03-07
-comments: true
 categories:
 ---
 

@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 8.3 released with Auto-merge and GitLab Pages"
 date: 2015-12-22
-comments: true
 categories:
 author: Job van der Voort
 author_twitter: jobvo

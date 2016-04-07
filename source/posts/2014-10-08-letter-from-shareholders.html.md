@@ -2,7 +2,6 @@
 layout: post
 title: "Letter from shareholders"
 date: 2014-10-08 10:45:55 +0200
-comments: true
 author: Sytse Sijbrandij
 ---
 

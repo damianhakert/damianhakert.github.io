@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab Runner 1.1 with Autoscaling"
 date: 2016-03-29 14:00
-comments: true
 categories:
 author: Kamil Trzciński
 author_twitter: ayufanpl

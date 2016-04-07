@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab switches to Piwik analytics to free the JavaScript"
 date: 2015-11-27
-comments: true
 author: Sytse Sijbrandij
 author_twitter: sytses
 image_title: '/images/unsplash/water.jpg'

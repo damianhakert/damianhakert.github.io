@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab <3 Ruby Together"
 date: 2015-12-21
-comments: true
 author: Guest author André Arko of Ruby Together
 author_twitter: rubytogether
 image_title: '/images/unsplash/love-the-sun.jpg'

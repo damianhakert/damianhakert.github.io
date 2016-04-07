@@ -2,7 +2,6 @@
 layout: post
 title: "Almost Everything We Do Will Be Open"
 date: 2015-08-03
-comments: true
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: '/images/unsplash/open.jpeg'

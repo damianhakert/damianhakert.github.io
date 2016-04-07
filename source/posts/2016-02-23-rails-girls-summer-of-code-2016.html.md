@@ -2,7 +2,6 @@
 layout: post
 title: Rails Girls Summer of Code 2016
 date: 2016-02-23
-comments: true
 author: Yorick Peterse
 author_twitter: yorickpeterse
 image_title: /images/unsplash/programmer1.jpg

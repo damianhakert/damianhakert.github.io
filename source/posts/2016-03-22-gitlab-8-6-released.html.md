@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 8.6 released with Deploy to Kubernetes and Subscribe to Label"
 date: 2016-03-22
-comments: true
 categories:
 author: Job van der Voort
 author_twitter: Jobvo

@@ -2,7 +2,6 @@
 layout: post
 title: "Packaging GitLab for Fedora: A GSoC 2013 project"
 date: 2013-05-28 11:17
-comments: true
 categories: gsoc
 author: Axilleas Pipinellis
 community: true

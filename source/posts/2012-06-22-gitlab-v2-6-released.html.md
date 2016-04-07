@@ -3,7 +3,6 @@ layout: post
 title: GITLAB v2.6 released
 wordpress_id: 419
 wordpress_url: http://blog.gitlabhq.com/?p=419
-comments: true
 date: 2012-06-22 04:00:57 +00:00
 community: true
 ---

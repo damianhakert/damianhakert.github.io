@@ -2,7 +2,6 @@
 layout: post
 title: "News from the front"
 date: 2012-09-17 17:45
-comments: true
 categories:
 community: true
 ---

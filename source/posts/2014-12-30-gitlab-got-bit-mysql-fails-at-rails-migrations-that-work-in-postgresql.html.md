@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab got bit: MySQL fails at Rails migrations that work in PostgreSQL"
 date: 2014-12-30
-comments: true
 author: Job van der Voort
 ---
 

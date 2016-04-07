@@ -2,7 +2,6 @@
 layout: post
 title: "Setting up GitLab CI for iOS projects"
 date: 2016-03-10
-comments: true
 categories:
 author: Angelo Stavrow
 author_twitter: AngeloStavrow

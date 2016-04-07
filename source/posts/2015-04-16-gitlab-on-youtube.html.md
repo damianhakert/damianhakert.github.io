@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab on YouTube"
 date: 2015-04-16
-comments: true
 categories:
 author: Job van der Voort
 author_twitter: Jobvo

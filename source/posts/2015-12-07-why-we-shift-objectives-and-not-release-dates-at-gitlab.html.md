@@ -2,7 +2,6 @@
 layout: post
 title: "Why we shift objectives and not release dates at GitLab"
 date: 2015-12-07
-comments: true
 author: Heather McNamee
 author_twitter: nearlythere
 image_title: '/images/unsplash/goal.jpg'

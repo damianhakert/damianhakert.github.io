@@ -2,7 +2,6 @@
 layout: post
 title: "How we managed 49 monthly releases"
 date: 2015-12-17
-comments: true
 author: Dmitriy Zaporozhets
 author_twitter: dzaporozhets
 image_title: '/images/unsplash/leavesonbranch.png'

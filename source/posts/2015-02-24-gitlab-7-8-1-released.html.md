@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 7.8.1 Released"
 date: 2015-02-24
-comments: true
 categories:
 author: Marin Jankovski
 author_twitter: maxlazio

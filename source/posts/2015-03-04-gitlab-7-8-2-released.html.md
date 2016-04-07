@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 7.8.2 Released"
 date: 2015-03-04
-comments: true
 categories:
 author: Marin Jankovski
 ---

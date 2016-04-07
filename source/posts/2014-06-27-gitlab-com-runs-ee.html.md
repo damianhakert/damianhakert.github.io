@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab.com now runs GitLab Enterprise Edition"
 date: 2014-06-27
-comments: true
 categories:
 author: Sytse Sijbrandij
 ---

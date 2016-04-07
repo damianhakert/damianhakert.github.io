@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab featured on OpenSource.com"
 date: 2015-03-12
-comments: true
 author: Patricio Cano
 author_twitter: suprnova32
 image_title: '/images/unsplash/wheat-field.jpg'

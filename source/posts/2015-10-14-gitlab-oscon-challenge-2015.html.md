@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab OSCON Challenge 2015"
 date: 2015-10-14
-comments: true
 author: GitLab Team
 author_twitter: gitlab
 image_title: '/images/unsplash/oscon.png'

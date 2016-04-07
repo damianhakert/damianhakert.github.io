@@ -2,7 +2,6 @@
 layout: post
 title: "Hosting GitLab on GitLab"
 date: 2014-01-07
-comments: true
 author: Sytse Sijbrandij
 categories:
 community: true

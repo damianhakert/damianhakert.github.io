@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 7.9.2 Released"
 date: 2015-04-02
-comments: true
 categories:
 author: Marin Jankovski, Valery Sizov
 ---

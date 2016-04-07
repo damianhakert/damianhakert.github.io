@@ -2,7 +2,6 @@
 layout: post
 title: "BitBucket vs. GitLab.com"
 date: 2015-04-15
-comments: true
 categories:
 author: Job van der Voort
 author_twitter: Jobvo

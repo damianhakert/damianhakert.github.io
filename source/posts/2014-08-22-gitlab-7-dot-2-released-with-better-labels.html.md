@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 7.2 released with better labels"
 date: 2014-08-22 12:50:22 +0200
-comments: true
 categories:
 author: Marin Jankovski
 ---

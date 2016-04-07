@@ -2,7 +2,6 @@
 layout: post
 title: "Our new logo"
 date: 2015-07-03
-comments: true
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: '/images/press/logo/wm.svg'

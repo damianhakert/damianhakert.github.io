@@ -2,7 +2,6 @@
 layout: post
 title: "Making GitLab Better for Large Open Source Projects"
 date: 2016-01-15
-comments: true
 author: Job van der Voort
 author_twitter: Jobvo
 ---

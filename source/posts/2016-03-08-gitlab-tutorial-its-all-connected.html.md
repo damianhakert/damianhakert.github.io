@@ -2,7 +2,6 @@
 layout: post
 title: "Tutorial: It's all connected in GitLab"
 date: 2016-03-08
-comments: true
 categories: tutorial
 author: Heather McNamee
 author_twitter: nearlythere

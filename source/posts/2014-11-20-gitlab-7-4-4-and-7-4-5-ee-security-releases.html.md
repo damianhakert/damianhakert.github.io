@@ -3,7 +3,6 @@ layout: post
 title: "GitLab 7.4.4 and 7.4.5-ee security releases"
 date: 2014-11-20
 author: Jacob Vosmaer
-comments: true
 categories:
 ---
 

@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 8.6.4, 8.5.9, 8.4.7, and 8.3.6 Released"
 date: 2016-04-04 12:00
-comments: true
 author: GitLab
 author_twitter: gitlab
 ---

@@ -2,7 +2,6 @@
 layout: post
 title: "Feature Highlight: Confidential issues"
 date: 2016-03-31 08:00
-comments: true
 author: Douglas Alexandre
 author_twitter: dbalexandre
 image_title: '/images/unsplash/door.jpg'

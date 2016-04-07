@@ -2,7 +2,6 @@
 layout: post
 title: "Feature Highlight: Merge Request Approvals"
 date: 2015-07-29
-comments: true
 author: Job van der Voort
 author_twitter: Jobvo
 ---

@@ -2,7 +2,6 @@
 layout: post
 title: "Big changes coming to GitHost"
 date: 2015-12-30
-comments: true
 author: Patricio Cano
 author_twitter: suprnova32
 image_title: '/images/unsplash/fireworks.jpeg'

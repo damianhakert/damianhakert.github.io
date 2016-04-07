@@ -2,7 +2,6 @@
 layout: post
 title: "7 reasons why you should be using Continuous Integration"
 date: 2015-02-03
-comments: true
 image_title: '/images/unsplash/vespa.jpeg'
 categories:
 author: Patricio Cano

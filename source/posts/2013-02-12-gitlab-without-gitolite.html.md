@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab without gitolite"
 date: 2013-02-12 09:15
-comments: true
 categories:
 community: true
 ---

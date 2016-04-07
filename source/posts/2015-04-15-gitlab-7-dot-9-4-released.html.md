@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 7.9.4 security release"
 date: 2015-04-15
-comments: true
 author: Jacob Vosmaer
 author_twitter: jacobvosmaer
 ---

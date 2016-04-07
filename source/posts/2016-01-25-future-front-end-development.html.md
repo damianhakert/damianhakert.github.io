@@ -2,7 +2,6 @@
 layout: post
 title: "Help shape the future of the front end at GitLab"
 date: 2016-01-25
-comments: true
 author: Jacob Schatz
 author_twitter: jakecodes
 image_title: '/images/unsplash/kitchen.jpg'

@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 4.0 release details and schedule"
 date: 2012-12-20 19:20
-comments: true
 categories:
 community: true
 ---

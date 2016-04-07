@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab's Open Strategy"
 date: 2016-02-09
-comments: true
 author: Sytse Sijbrandij
 author_twitter: sytses
 image_title: '/images/unsplash/moving-parts2.jpg'

@@ -2,7 +2,6 @@
 layout: post
 title: "Why move to a single code collaboration tool?"
 date: 2015-02-6
-comments: true
 categories:
 author: Marc Radulescu
 image_title: '/images/stock/one_instance.jpg'

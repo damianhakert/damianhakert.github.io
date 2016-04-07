@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 8.5 Release Webcast and step-by-step GitLab workflow"
 date: 2016-02-26
-comments: true
 categories: webcast
 author: Heather McNamee
 author_twitter: nearlythere

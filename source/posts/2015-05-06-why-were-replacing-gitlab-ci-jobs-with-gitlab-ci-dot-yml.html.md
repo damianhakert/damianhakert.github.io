@@ -2,7 +2,6 @@
 layout: post
 title: "Why we're replacing GitLab CI jobs with .gitlab-ci.yml"
 date: 2015-05-06
-comments: true
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: '/images/stock/ci-yml.jpg'

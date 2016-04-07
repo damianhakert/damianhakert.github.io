@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab now operating as US corporation"
 date: 2015-07-01
-comments: true
 author: Haydn Mackay
 author_twitter: haydnmackay
 ---

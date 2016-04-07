@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 8.0 released with new looks and integrated CI!"
 date: 2015-09-22
-comments: true
 categories:
 author: Job van der Voort
 author_twitter: jobvo

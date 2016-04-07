@@ -2,7 +2,6 @@
 layout: post
 title: "Version Check Functionality"
 date: 2015-05-07
-comments: true
 author: Sytse Sijbrandij
 author_twitter: sytses
 ---

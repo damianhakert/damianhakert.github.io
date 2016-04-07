@@ -3,7 +3,6 @@ layout: post
 title: "GitHub Enterprise vs GitLab Enterprise Edition"
 image_title: '/images/stock/city_highway_at_night.jpg'
 date: 2015-01-20
-comments: true
 categories:
 ---
 

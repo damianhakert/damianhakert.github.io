@@ -2,7 +2,6 @@
 layout: post
 title: "Highlights to my first remote job"
 date: 2015-06-17
-comments: true
 author: "Karen Carías"
 image_title: '/images/unsplash/highlights.jpeg'
 author_twitter: myvineste

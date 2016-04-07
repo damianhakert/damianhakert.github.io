@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab, Gitorious, and Free Software"
 date: 2015-05-20
-comments: true
 author: Mike Gerwitz
 license: CC-BY-SA 3.0
 

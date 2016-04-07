@@ -2,7 +2,6 @@
 layout: post
 title: "Getting started with GitLab and GitLab CI"
 date: 2015-12-14
-comments: true
 author: Achilleas Pipinellis
 author_twitter: _axil
 image_title: '/images/unsplash/stairwaycompressed.jpg'

@@ -2,7 +2,6 @@
 layout: post
 title: "Join us for a Tour of GitLab 8.5"
 date: 2016-02-08
-comments: true
 author: Heather McNamee
 author_twitter: nearlythere
 image_title: '/images/unsplash/party.jpg'

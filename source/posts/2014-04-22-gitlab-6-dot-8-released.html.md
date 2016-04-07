@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab CE 6.8 released"
 date: 2014-04-22 10:04:04 +0100
-comments: true
 categories:
 author: Marin Jankovski, Jacob Vosmaer
 community: false

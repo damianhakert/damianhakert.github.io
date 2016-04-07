@@ -2,7 +2,6 @@
 layout: post
 title: "7 Git personalities, which one are you?"
 date: 2015-01-27
-comments: true
 categories:
 author: Job van der Voort
 image_title: '/images/git_personalities.jpeg'

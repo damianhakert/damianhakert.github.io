@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab 8.2.2 Released"
 date: 2015-12-02
-comments: true
 author: GitLab
 author_twitter: gitlab
 ---

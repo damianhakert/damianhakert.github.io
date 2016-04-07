@@ -2,7 +2,6 @@
 layout: post
 title: "Unofficial runner becomes official one"
 date: 2015-05-03
-comments: true
 author: Kamil Trzciński
 author_twitter: ayufanpl
 ---

@@ -2,7 +2,6 @@
 layout: post
 title: "GitLab Intro Webcast: Workflow"
 date: 2016-03-11
-comments: true
 categories: webcast
 author: Heather McNamee
 author_twitter: nearlythere
