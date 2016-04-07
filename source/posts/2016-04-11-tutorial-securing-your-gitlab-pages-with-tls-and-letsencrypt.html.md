@@ -65,7 +65,7 @@ new Certificate Authority in the comfort of your terminal.
 
 ## Implementation
 
-So let's suppose we're going to create a static blog with ]Jekyll].
+So let's suppose we're going to create a static blog with [Jekyll 3][Jekyll].
 If you are not creating a blog or are not using Jekyll just follow along, it
 should be straightforward enough to translate the steps for different purposes.
 You can also find many example projects using different static blog generators
@@ -211,8 +211,10 @@ permalink: /.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTb
 This tells Jekyll to create a static page (which you can see at
 `cool-blog/_site/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.html`)
 with no extra HTML, just the token in plain text. As we are using the `permalink` attribute in the 
-front matter, you can name this file anyway you want, with or without an `.html` or `.md` extension 
-and put it anywhere, too. Here we'll call it `letsencrypt-setup.html` and place it in the root folder 
+front matter, you can name this file anyway you want, with or without an `.html` extension 
+and put it anywhere, too. Note that the behaviour of the `permalink` attribute has 
+[changed][jekyllversion] from Jekyll 2 to Jekyll 3, so make sure you have Jekyll 3.x installed. 
+Here we'll call it `letsencrypt-setup.html` and place it in the root folder 
 of the blog. We can check that everything is working as expected:
 ```shell
 $ curl http://localhost:4000/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM
@@ -370,3 +372,4 @@ I hope it helps you :)
 [middleattack]: https://en.wikipedia.org/wiki/Man-in-the-middle_attack
 [talk]: (https://www.youtube.com/watch?v=cBhZ6S0PFCY)
 [relativeprotocol]: (http://www.paulirish.com/2010/the-protocol-relative-url/)
+[jekyllversion]: (https://jekyllrb.com/docs/upgrading/2-to-3/#permalinks-no-longer-automatically-add-a-trailing-slash) 
