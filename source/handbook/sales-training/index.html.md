@@ -15,6 +15,7 @@ title: "Sales Training"
 * [Price Objections - The Script that Always Closes](#script)
 * [5 B2B Sales Call Techniques That Get More Meetings](#techniques)
 * [How to Create a Sales Plan](#buyingplan)
+* [73 Insightful "How" Sales Questions That Get Buyers Talking](#73)
 
 
 ### 5 Signs You're Talking At (Not Talking To) Your Prospects <a name="signs"></a>
@@ -593,5 +594,15 @@ This question is crucial. If this is the first time they’ve ever bought someth
     * Does Legal need to get involved?
     * If additional documentation or reviews are needed, how long will those processes take?
 
+### 73 Insightful "How" Sales Questions That Get Buyers Talking <a name="73"></a>
 
+Art Sobczak wrote [a great article on [73 Insightful "How" Sales Questions That Get Buyers Talking](http://blog.hubspot.com/sales/how-sales-questions?utm_campaign=blog-rss-emails&utm_source=hs_email&utm_medium=email&utm_content=28057486)
+
+These HOW questions are broken down into categories
+1. Fact-Gathering and Qualifying Questions
+1. Need Identification Questions
+1. Closing Questions
+1. Addressing Resistance and Objections
+1. Customer Service Questions
+1. Questions to Ask Yourself
 
