@@ -32,19 +32,16 @@ NOTE: Our contractor agreements and employment contracts are all on the [Contrac
 
 ## Regular compensation <a name="regular-compensation"></a>
 
-1. Employees of our Dutch entity (GitLab B.V.) will get their salary wired on the 25th of every month, and can see their payslip in their personal portal on [HR Savvy's system](https://hr-savvy.nmbrs.nl/).
-1. Employees of our US entity (GitLab Inc.) have payroll processed semi-monthly through TriNet, and they can access their pay slips through the [TriNet portal](https://www.hrpassport.com).
+1. Employees of our Dutch entity (GitLab B.V.) will get their salary wired on the 
+25th of every month, and can see their payslip in their personal portal on 
+[HR Savvy's system](https://hr-savvy.nmbrs.nl/).
+1. Employees of our US entity (GitLab Inc.) have payroll processed semi-monthly 
+through TriNet, and they can access their pay slips through the [TriNet portal](https://www.hrpassport.com).
 1. Contractors to GitLab (either entity) should send their invoices for services rendered to ap@gitlab.com
    * For 'fixed fee' contracts, it is OK to send the invoice before the time period
    that it covers is over. For example, an invoice covering the period of March 1-31 can be sent on March 25.
    * All invoices are internally reviewed, approved, and then payment is processed.
    This is usually a fast process, but be aware that it can incur delays around vacations.
-1. Any changes to a Contributor’s status, classification, promotion/demotion, pay increase/decrease and 
-bonus needs to be communicated via email to People Ops by the contributor's manager or CEO. People Ops will then enter 
-the changes in BambooHR under the Jobs Tab in the Contributor’s profile; then file the email in the Offers 
-and Contracts Folder in the Document Section.  
-
-
 
 ## Specific to employees based in the Netherlands <a name="nl-specific-benefits"></a>
 
