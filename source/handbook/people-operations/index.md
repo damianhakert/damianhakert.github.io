@@ -6,6 +6,7 @@ title: "People Operations"
 - [Reaching People Operations](#reach-peopleops)
 - [Setting up new contracts](#new-contracts)
    - [Using HelloSign](#hellosign)
+- [Processing changes](#processing-changes)
 - [Using BambooHR](#bamboohr)
    - [Adding a new team member to BambooHR](#admin-bamboo)
    - [Using BambooHR as a new team member](#new-member-bamboo)
@@ -27,6 +28,7 @@ member of the People Operations team, as listed on our [Team page](https://about
 New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/) page, including instructions on how to set up new contracts.
 Templates for the contracts are set up in BambooHR. You can download the template from the "Files" tab and work on the contract using Google Drive. Here you can work together if you need help and download the PDF for HelloSign.
 
+
 ### Using HelloSign<a name="hellosign"></a>
 
 When we need [contracts to be signed](https://about.gitlab.com/handbook/#signing-legal-documents) we use [HelloSign](https://hellosign.com).
@@ -43,6 +45,19 @@ Follow these steps to send out a signature request.
 1. Request Signature.
 
 Once you've sent out the document you will receive email notifications of the progress and a copy of the signed document after all parties have signed.
+
+## Processing changes<a name="processing-changes"></a>
+
+Any changes to a team member’s status, classification, promotion/demotion, pay increase/decrease and 
+bonus needs to be communicated via email to People Ops by the team member's manager or CEO. People Ops will then enter 
+the changes in BambooHR under the Jobs Tab in the member’s profile; then file the email in the Offers 
+and Contracts Folder in the Document Section. 
+
+Further changes may need to be [processed in TriNet](#changes-trinet) or Savvy to fully process the change. People Ops 
+is responsible for seeing the change through to completion. Once completed, People Ops
+sends an email to the person reporting / requesting the change (member's manager or CEO)
+to confirm this.
+
 
 ## Using BambooHR<a name="bamboohr"></a>
 
