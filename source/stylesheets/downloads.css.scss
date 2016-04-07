@@ -1,0 +1,77 @@
+@import "variables";
+
+.pack-fox {
+  margin: 0 auto;
+}
+
+.btn-default {
+  background-color: $downloads-btn-color;
+  border-color: $downloads-btn-color;
+  color: $color-white;
+  transition: all .2s linear;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default .dropdown-toggle,
+.btn-group.open .dropdown-toggle {
+  background-color: $downloads-btn-hover-color;
+  border-color: $downloads-btn-hover-color;
+  color: $color-white;
+}
+
+.other-downloads a {
+  color: rgba($color-white, .8);
+}
+
+pre {
+  background: $downloads-code-color;
+  border: 0;
+  color: $color-white;
+}
+
+.simple-header {
+  margin-bottom: 40px;
+}
+
+.tab-step {
+  margin: 20px 0;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: rgba($color-white, .05);
+
+  a {
+    color: $downloads-step-link-color;
+  }
+
+  p {
+    color: $downloads-step-color;
+  }
+}
+
+.newsletter-preamble {
+  margin: 20px 5px;
+}
+
+// scss-lint:disable all
+.mktoAsterix {
+  display: none !important;
+}
+
+.mktoFieldDescriptor {
+  margin-bottom: 0 !important;
+}
+
+.mktoForm,
+.mktoFormCol,
+.mktoFieldWrap,
+.mktoField,
+.mktoButtonRow,
+.mktoButton {
+  width: 100% !important;
+}
+
+.mktoOffset, .mktoGutter {
+  width: 0 !important;
+}
+// scss-lint:enable all

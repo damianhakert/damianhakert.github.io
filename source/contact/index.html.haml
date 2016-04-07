@@ -1,0 +1,114 @@
+---
+layout: default
+title: Contact
+suppress_header: true
+purple_bg: true
+extra_css:
+  - contact.css
+---
+.contact
+  .container
+    .row
+      .col-sm-4.col-md-4
+        %a{href: "/getting-help"}
+          = image_tag "/images/icons/about_us.png", alt: "Getting help"
+        %h2
+          %a{href: "/getting-help"} Getting Help
+        %p
+          We have several resources available such as documentation, FAQs,
+          forums, and Issue Trackers to help you with GitLab.
+      .col-sm-4.col-md-4
+        %a{href: "/sales"}
+          = image_tag "/images/icons/contact_us.png", alt: "Contact Us"
+        %h2
+          %a{href: "/sales"} Contact Sales
+        %p
+          Contact our sales team for any questions about GitLab Enterprise
+          Edition. If you have any marketing or PR inquiries, please email
+          = succeed "." do
+            %a{href: "mailto:community@gitlab.com"} community@gitlab.com
+
+      .col-sm-4.col-md-4
+        %a{href: "https://twitter.com/gitlab"}
+          = image_tag "/images/icons/twitter.png", alt: "Twitter"
+        %h2
+          %a{href: "https://twitter.com/gitlab"}
+            Twitter
+        %a.twitter-follow-button{href: "https://twitter.com/gitlab", data: {show: {count: false}}}
+          Follow @gitlab
+        :javascript
+          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+        %p
+          Follow us on Twitter for the most detailed and up-to-date information about GitLab.
+    .row
+      .col-sm-4.col-md-4
+        = image_tag "/images/icons/news.png", alt: "Newsletter"
+        %h2 Newsletter
+        %script{src: "//app-ab13.marketo.com/js/forms2/js/forms2.min.js"}
+        %form#mktoForm_1073
+        :javascript
+          MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1073, function(form) {
+            form.onSuccess(function(values, followUpUrl) {
+              form.getFormElem().hide();
+              document.getElementById('confirmformnewlsetter').style.visibility = 'visible';
+
+              ga('send', 'pageview');
+              ga('send', 'event', 'form', 'submit', 'newsletter subscription');
+              return false;
+            });
+          });
+        #confirmformnewlsetter{style: "visibility:hidden;"}
+          %p
+            Thanks for subscribing!
+        %p.newsletter-afterword
+          If you subscribe, you will receive our twice-monthly newsletter.
+      .col-sm-4.col-md-4
+        %a{href: "/visiting"}
+          = image_tag "/images/icons/office.png", alt: "Office"
+        %h2
+          %a{href: "/visiting"} Visit Our Office
+        %p
+          Information about visiting our office in San Francisco, California.
+      .col-sm-4.col-md-4
+        %a{href: "/disclosure"}
+          = image_tag "/images/icons/security.png", alt: "Security"
+        %h2
+          %a{href: "/disclosure"} Security
+        %p
+          If you want to test the security of GitLab or if you think you have
+          found a problem please see our
+          %a{href: "/disclosure"}
+            Responsible Disclosure Policy
+
+    .row
+      .col-sm-4.col-md-4
+        = image_tag "/images/icons/security_newsletter.png", alt: "Security newsletter"
+        %h2 Security Notices
+        %form#mktoForm_1102
+        :javascript
+          MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1102, function(form) {
+            form.onSuccess(function(values, followUpUrl) {
+
+              form.getFormElem().hide();
+              document.getElementById('confirmform').style.visibility = 'visible';
+
+              ga('send', 'pageview');
+              ga('send', 'event', 'form', 'submit', 'security updates newsletter');
+              return false;
+            });
+          });
+        #confirmform{style: "visibility:hidden;"}
+          %p
+            Thanks for subscribing!
+        %p.newsletter-afterword
+          If you subscribe, you will receive notifications about security
+          updates.
+      .col-sm-4.col-md-4
+        %a{href: "https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md"}
+          = image_tag "/images/icons/website.png", alt: "Website"
+        %h2
+          %a{href: "https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md"} Website
+        %p
+          This website is created from a public repository. If you see a
+          potential improvement please
+          %a{href: "https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md"} contribute to this website

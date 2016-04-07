@@ -1,0 +1,61 @@
+- name: ubuntu1204
+  long_name: Ubuntu 12.04
+  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ee
+  install_commands_manual: dpkg -i gitlab-ee-XXX.deb
+  dependency_commands: |
+                     sudo apt-get install curl openssh-server ca-certificates postfix
+- name: ubuntu1404
+  long_name: Ubuntu 14.04 (recommended, for 15.04 select and download the package manually)
+  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ee
+  install_commands_manual: dpkg -i gitlab-ee-XXX.deb
+  dependency_commands: |
+                    sudo apt-get install curl openssh-server ca-certificates postfix
+
+- name: debian7
+  long_name: Debian 7
+  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ee
+  install_commands_manual: dpkg -i gitlab-ee-XXX.deb
+  dependency_commands: |
+                    sudo apt-get install curl openssh-server ca-certificates postfix
+- name: debian8
+  long_name: Debian 8
+  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ee
+  install_commands_manual: dpkg -i gitlab-ee-XXX.deb
+  dependency_commands: |
+                    sudo apt-get install curl openssh-server ca-certificates postfix
+- name: centos6
+  long_name: CentOS 6 (and RedHat/Oracle/Scientific Linux 6)
+  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
+  install_commands: |
+                    sudo yum install gitlab-ee
+  install_commands_manual: rpm -i gitlab-ee-XXX.rpm
+  dependency_commands: |
+                    sudo yum install curl openssh-server postfix cronie
+                    sudo service postfix start
+                    sudo chkconfig postfix on
+
+  firewall_open: sudo lokkit -s http -s ssh
+- name: centos7
+  long_name: CentOS 7 (and RedHat/Oracle/Scientific Linux 7)
+  download_command: curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
+  install_commands: |
+                    sudo yum install gitlab-ee
+  install_commands_manual: rpm -i gitlab-ee-XXX.rpm
+  dependency_commands: |
+                    sudo yum install curl openssh-server
+                    sudo systemctl enable sshd
+                    sudo systemctl start sshd
+                    sudo yum install postfix
+                    sudo systemctl enable postfix
+                    sudo systemctl start postfix
+  firewall_open: |
+                    sudo firewall-cmd --permanent --add-service=http
+                    sudo systemctl reload firewalld

@@ -1,0 +1,18 @@
+before_script:
+  - pwd
+  - git rev-parse HEAD
+  - export LC_ALL=en_US.UTF-8
+  - ''
+  - bundle install --path ~/bundle
+
+deploy:
+  script:
+    - bundle exec rake lint
+    - bundle exec middleman build
+    - rsync -r public/ ~/public/
+  type: deploy
+  tags:
+  only:
+    - master
+  except:
+    - tags

@@ -1,0 +1,392 @@
+- title: Native Apps
+  id: native-apps
+  applications:
+    - title: GitLab Control
+      content: An iOS app for managing your GitLab projects on iPhone or iPad. GitLab Control gives you full access to your GitLab projects with the built in code viewer and search tools. You can fully navigate your code tree, issues, milestones and code snippets or search for any filenames, IDs or labels. You can also capture, organise and prioritise your team’s issues, and stay up-to-date using activity streams displaying commits, issues, and more across all repositories.
+      links:
+        - url: http://gitlabcontrol.com/
+          title: gitlabcontrol.com
+    - title: LabCoat
+      content: GitLab client for Android, featuring full material design and allows for multiple accounts.
+      links:
+        - url: https://play.google.com/store/apps/details?id=com.commit451.gitlab&hl=en
+          title: Play Store
+        - url: https://gitlab.com/Commit451/LabCoat
+          title: Repository on GitLab
+    - title: Chrome GitLab Notifier
+      content: Third party notifier for GitLab events (Commit, Issue, MergeRequest and Milestone).
+      links:
+        - url: https://chrome.google.com/webstore/detail/gitlab-notifier-for-googl/eageapgbnjicdjjihgclpclilenjbobi
+          title: Chrome App Store
+    - title: Working Copy
+      content: Full featured Git client for iPhone and iPad.
+      links:
+        - url: http://WorkingCopyApp.com/
+          title: workingcopyapp.com
+    - title: Trident
+      content: A beautiful GitLab client for iOS.
+      links:
+        - url: http://www.somerobots.com/
+          title: somerobots.com
+    - title: Octotree Chrome Extension
+      content: "Octotree adds a sidebar to GitLab with all files of the project
+      you're looking at. Highly recommended."
+      links:
+        - url: https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc/related
+          title: Octotree on the Chrome Web Store
+    - title: Git2Go
+      content: The Git client for iPhone and iPad you always wanted
+      links:
+        - url: http://git2go.com
+          title: git2go.com
+- title: Command Line Interface (CLI) Clients
+  id: cli-clients
+  applications:
+    - title: Narkoz's Ruby wrapper & CLI
+      content: Ruby wrapper and CLI for GitLab REST API.
+      links:
+        - url: https://github.com/NARKOZ/gitlab
+          title: Repository on GitHub
+    - title: "Numa08's lab"
+      content: Git::Gitlab is a GitLab command line interface.
+      links:
+        - url: https://github.com/numa08/git-gitlab
+          title: Repository on GitHub
+    - title: "Bor-sh's git-gitlab"
+      content: Yet another GitLab command line interface.
+      links:
+        - url: https://gitlab.com/bor-sh/git-gitlab
+          title: Repository on GitLab
+    - title: "Drew Blessing's GitLab CLI Tool"
+      content: Interact with your GitLab server via the command line to manage snippets, projects and more.
+      links:
+        - url: https://github.com/drewblessing/gitlab-cli
+          title: Repository on GitHub
+    - title: "GoTsunami's GitLab Copy Tool"
+      content: Copy issues (with labels, milestones and notes) from one GitLab project to another, possibly running on different GitLab instances.
+      links:
+        - url: https://github.com/gotsunami/gitlab-copy
+          title: Repository on GitHub
+- title: API Clients
+  id: api-clients
+  applications:
+    - title: "Narkoz's Ruby wrapper & CLI"
+      content: Ruby wrapper and CLI for GitLab REST API.
+      links:
+        - url: https://github.com/NARKOZ/gitlab
+          title: Repository on GitHub
+    - title: Perl
+      content: Net::GitLab Perl Client talks to a GitLab installation via its API.
+      links:
+        - url: https://metacpan.org/release/AYOUNG/Net-Gitlab-0.05
+          title: Repository on matacpan.org
+    - title: Perl
+      content: Perl Client is a complete GitLab API v3 client.
+      links:
+        - url: https://metacpan.org/pod/GitLab::API::v3
+          title: Distribution on MetaCPAN
+        - url: https://github.com/bluefeet/GitLab-API-v3
+          title: Repository on GitHub
+    - title: Python
+      content: Python GitLab is a Python wrapper for the GitLab API
+      links:
+        - url: https://github.com/gpocentek/python-gitlab
+          title: Repository on GitHub
+    - title: Python
+      content: PyAPI-GitLab is a Python wrapper for the GitLab API.
+      links:
+        - url: https://github.com/Itxaka/pyapi-gitlab
+          title: Repository on GitHub
+    - title: Python
+      content: libsaas_gitlab is a Python wrapper based on libsaas
+      links:
+        - url: https://gitlab.com/bor-sh-infrastructure/libsaas_gitlab
+          title: Repository on GitLab
+    - title: Go
+      content: Go GitLab Client is a 100% complete GitLab API v3 client.
+      links:
+        - url: https://github.com/xanzy/go-gitlab
+          title: Repository on GitHub
+    - title: Go
+      content: Go GitLab Client for GitLab.
+      links:
+        - url: https://github.com/Bugagazavr/go-gitlab-client
+          title: Repository on GitHub
+    - title: Swift
+      content: GitLabKit is an API client library for the GitLab API, written in Swift.
+      links:
+        - url: https://github.com/orih/GitLabKit
+          title: Repository on GitHub
+    - title: Backbone
+      content: Backbone for GitLab is a Backbone client library for the GitLab API
+      links:
+        - url: https://github.com/oreillymedia/backbone-gitlab/
+          title: Repository on GitHub
+    - title: Node
+      content: GitLab-Yaac (Node Package Manager) is aGitLab API client with more control over server response
+      links:
+        - url: https://www.npmjs.com/package/gitlab-yaac
+          title: Repository on GitHub
+    - title: Node
+      content: Node GitLab is a GitLab API Node.js library.
+      links:
+        - url: https://github.com/moul/node-gitlab
+          title: Repository on GitHub
+    - title: PHP
+      content: PHP-GitLab-API is aGitLab API client for PHP
+      links:
+        - url: https://github.com/m4tthumphrey/php-gitlab-api
+          title: Repository on GitHub
+    - title: Laravel
+      content: Laravel GitLab is a Laravel bridge for GitLab
+      links:
+        - url: https://github.com/vinkla/gitlab
+          title: Repository on GitHub
+    - title: Java
+      content: Java GitLab API is a wrapper for the GitLab API written in Java
+      links:
+        - url: https://github.com/timols/java-gitlab-api
+          title: Repository on GitHub
+    - title: .NET
+      content: NGitLab is a .NET client for GitLab.
+      links:
+        - url: https://github.com/Scooletz/NGitLab
+          title: Repository on GitHub
+- title: Utilities
+  id: utilities
+  applications:
+    - title: Mirror a GitHub project to GitLab
+      content: 'github2gitlab is a command line tool to mirror the git repository and the pull requests of a GitHub project to GitLab. As of version 7.7.0 GitLab also <a href="http://doc.gitlab.com/ce/workflow/importing/import_projects_from_github.html">includes a GitHub importer</a> that transfers issues and comments.'
+      links:
+        - url: https://pypi.python.org/pypi/github2gitlab
+          title: Home Page
+    - title: Usersnap
+      content: Add annotated screenshots to every issue in GitLab. A picture paints a thousand words, so reproducing the bug gets as simple as possible.
+      links:
+        - url: https://usersnap.com/gitlab
+          title: www.usersnap.com
+    - title: GitLab Identity Connector
+      content: 'Identity connector for GitLab written using ConnId framework. The
+      connector can be used to access GitLab from <a href="http://midpoint.evolveum.com/">midPoint</a> identity management system.'
+      links:
+        - url: https://github.com/Evolveum/connector-gitlab
+          title: Repository on GitHub
+    - title: create-gitlab-repo
+      content: Simple script creating a GitLab project from the local repository in the current directory.
+      links:
+        - url: https://gitlab.com/mcepl/create-gitlab-repo
+          title: Repository
+    - title: GitLab Listener
+      content: JIRA add-on allowing the reception of GitLab push events using GitLab project webhooks.
+      links:
+        - url: https://marketplace.atlassian.com/plugins/com.allenta.jira.plugins.gitlab.gitlab-listener
+          title: Atlassian Marketplace
+    - title: GitLab IRC gateway
+      content: 'IRC notifications using webhooks, implemented with the <a href="http://www.catb.org/esr/irker/">irker IRC bot</a>'
+      links:
+        - url: https://gitlab.com/anarcat/irklab
+          title: Repository on gitlab.com
+    - title: Envoyer
+      content: Zero Downtime PHP Deployments.
+      links:
+        - url: https://envoyer.io/
+          title: Envoyer.io
+    - title: YouTrack
+      content: When you type any YouTrack command in a VCS commit comment, it is applied to the issue associated with that commit.
+      links:
+        - url: https://www.jetbrains.com/youtrack/features/integrations.html
+          title: YouTrack
+    - title: Teamweek
+      content: Teamweek gives you the simplicity of an Excel sheet in a web-based, multi-user environment. It helps you schedule, manage and share tasks.
+      links:
+        - url: https://teamweek.com/
+          title: Teamweek
+    - title: Toggl
+      content: Time tracker that is built for speed and ease of use.
+      links:
+        - url: https://www.toggl.com/tools
+          title: Toggl
+    - title: emacs-gitlab
+      content: A REST client to the GitLab API with an Emacs HELM interface
+      links:
+        - url: https://github.com/nlamirault/emacs-gitlab
+          title: emacs-gitlab
+    - title: Review Board
+      content: A web-based collaborative code review tool
+      links:
+        - url: https://www.reviewboard.org/
+          title: Review Board
+- title: Continuous Integration
+  id: continuous-integration
+  applications:
+    - title: GitLab CI
+      content: GitLab Continuous Integration (CI) integrates with your GitLab installation to run tests for your projects. Login with GitLab account, add a project with one click and enjoy running your tests. GitLab CI is on-premises software that you can install and use on your server(s) and is supported by GitLab the company.
+      links:
+        - url: https://about.gitlab.com/gitlab-ci/
+          title: GitLab CI
+    - title: Magnum CI
+      content: Hosted Continuous Integration and Delivery Platform
+      links:
+        - url: http://blog.magnum-ci.com/post/55149963415/integration-with-gitlab
+          title: Magnum CI Integration with GitLab
+    - title: BuildKite
+      content: BuildKite runs builds on GitLab commits, either on self-hosted GitLab repositories or GitLab.com.
+      links:
+        - url: https://buildkite.com/docs/guides/gitlab
+          title: BuildKite
+    - title: StriderCD
+      content: StriderCD is an open-source continuous integration tool that integrates well with GitLab.
+      links:
+        - url: http://strider.readthedocs.org/en/latest/intro.html
+          title: StriderCD
+    - title: TeamCity
+      content: One reason TeamCity is dubbed an "Intelligent CI server" is its approach to integration. You get all this support without installing any plugins and with no modifications to build scripts.
+      links:
+        - url: https://www.jetbrains.com/teamcity/features/
+          title: TeamCity
+    - title: Jenkins
+      content: We support Jenkins through the Jenkins GitLab plugin.
+      links:
+        - url: http://doc.gitlab.com/ee/integration/jenkins.html
+          title: Jenkins CI integration
+- title: CMS Plugins
+  id: cms-plugins
+  applications:
+    - title: Drupal Plugin
+      content: Connect your Drupal site to a GitLab instance using web services. This is purely an API module. You should only enable it if another module requires it or if you want to build code against this API.
+      links:
+        - url: https://www.drupal.org/project/gitlab
+          title: www.drupal.org
+    - title: Dropfort
+      content: Dropfort helps you to organize your Drupal projects and manage your sites in one simple interface.
+      links:
+        - url: http://dropfort.com
+          title: www.dropfort.com
+- title: GUI Git Clients
+  id: gui-git-clients
+  applications:
+    - title: All GUI Clients
+      content: All Git GUI Clients from all companies are compatible with GitLab.
+      links:
+        - url: http://git-scm.com/downloads/guis
+          title: http://git-scm.com/downloads/guis
+    - title: Git Tower
+      content: Easy version control in a beautiful, efficient, and powerful app for Mac OS X.
+      links:
+        - url: http://www.git-tower.com/
+          title: www.git-tower.com
+    - title: Eclipse
+      content: 'Eclipse has the Egit Team provider that also supports GitLab. <a href="https://projects.eclipse.org/projects/technology.egit">Eclipse Git Team Provider</a> <a href="http://wiki.eclipse.org/EGit/User_Guide#Working_with_remote_Repositories">Working with remote repositories</a>'
+    - title: JetBrains
+      content: Lets you interact with gitlab from within your IDE.
+      links:
+        - url: https://plugins.jetbrains.com/plugin/7447?pr=idea
+          content: JetBrains integration plugin
+    - title: Visual Studio
+      content: The Visual Studio Tools for Git is an extension for Team Explorer that provides source control integration for Git.
+      links:
+        - url: https://visualstudiogallery.msdn.microsoft.com/abafc7d6-dcaa-40f4-8a5e-d6724bdb980c
+          title: visualstudiogallery
+    - title: SourceTree
+      content: The SourceTree application for Mac and Windows created by Atlassian also supports GitLab.
+      links:
+        - url: http://www.sourcetreeapp.com/
+          title: www.sourcetreeapp.com
+    - title: PhpStorm
+      content: This IDE for the PHP programming language has a GitLab plugin.
+      links:
+        - url: https://plugins.jetbrains.com/plugin/7319?pr=phpStorm
+          title: Plugin on the Jetbrains site
+- title: Performance measurement
+  id: performance-measurement
+  applications:
+    - title: AppSignal
+      content: 'AppSignal <a href="http://blog.appsignal.com/blog/2015/01/20/gitlab-integration.html">support GitLab</a> and can monitor both Rails and Sidekiq.'
+      links:
+        - url: https://appsignal.com/
+          title: appsignal.com
+    - title: Opbeat
+      content: Application monitoring for developers with Git integration for faster debugging.
+      links:
+        - url: https://opbeat.com/
+          title: opbeat.com
+        - url: https://opbeat.com/docs/articles/gitlab-integration/
+          title: GitLab integration
+    - title: Munin Plugins
+      content: Plugins for monitoring a GitLab instance with munin.
+      links:
+        - url: https://github.com/MatthiasLohr/munin-plugins-gitlab
+          title: Plugins on GitHub
+- title: Login with your GitLab.com account
+  id: login-with-gitlab
+  applications:
+    - title: OAuth2 service provider
+      content: Using the OAuth2 service provider to sign into other services.
+      links:
+        - url: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/integration/oauth_provider.md
+          title: GitLab as OAuth2 authentication service provider
+- title: Scrum boards
+  id: scrum-boards
+  applications:
+    - title: Taiga.io
+      content: Free. Open Source. Powerful. Taiga is a project management platform for startups and agile developers and designers who want a simple, beautiful tool that makes work truly enjoyable.
+      links:
+        - url: https://taiga.io/
+          title: Taiga.io
+    - title: Kanboard
+      content: 'A free, open source and self-hosted visual task board software.
+      GitLab events can be connected to Kanboard''s automatic actions through <a href="http://kanboard.net/documentation/gitlab-webhooks">GitLab webhooks</a> and <a href="http://kanboard.net/documentation/gitlab-authentication">GitLab authentication</a>'
+      links:
+        - url: http://kanboard.net
+          title: kanboard.net
+    - title: GitLab Kanban
+      content: Self hosted kanban board built from the ground up using the GitLab public API. Kanban issues are GitLab issues and the user permissions are respected.
+      links:
+        - url: http://kanban.leanlabs.io/
+          title: Kanban.Leanlabs.io
+    - title: Vivify Scrum
+      content: SaaS for agile project management.
+      links:
+        - url: https://www.vivifyscrum.com/
+          title: Vivify Scrum
+- title: Built with GitLab
+  id: built-with-gitlab
+  applications:
+    - title: La fabrique de la loi
+      content: 'This site <a href="http://www.lafabriquedelaloi.fr/a-propos.html">uses GitLab</a> to store French laws in git and make the lawmaking process visual.'
+      links:
+        - url: http://www.lafabriquedelaloi.fr/articles.html?loi=pjl12-689
+          title: lafabriquedelaloi.fr
+    - title: Perforce Helix GitSwarm
+      content: Perforce Helix GitSwarm is a git collaboration tool built on GitLab.
+      links:
+        - url: http://www.perforce.com/git"
+          title: perforce.com/git
+    - title: O'Reilly Atlas
+      content: 'Technical publisher O''Reilly Media has build their own frontend on top of a GitLab backend. The published a <a href="https://www.youtube.com/watch?v=IHEbYsaKW9Y&feature=youtu.be">video of the app</a> <a href="https://github.com/oreillymedia/backbone-gitlab/">Backbone for GitLab API library</a> they developed for this.'
+      links:
+        - url: https://atlas.oreilly.com/
+          title: atlas.oreilly.com
+    - title: Penflip
+      content: 'This authoring site for writing books is <a href="https://twitter.com/madebyloren/status/468917323588698112">built with a fork of GitLab.</a>'
+      links:
+        - url: https://www.penflip.com/
+          title: penflip.com
+- title: GitLab Runners
+  id: runners
+  applications:
+    - title: Official GitLab Runner
+      content: Written in Go, supported on multiple operating systems and includes Docker support.
+      links:
+        - url: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner#installation
+          title: Official GitLab Runner
+    - title: Unofficial GitLab Runner for Scala/Java
+      content: 'An unofficial GitLab Runner written in Java, it has less features than <a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner">our official Runner</a>'
+      links:
+        - url: https://github.com/nafg/gitlab-ci-runner-scala
+          title: Unofficial GitLab Runner for Scala/Java
+    - title: Unofficial GitLab Runner for Node
+      content: 'An unofficial GitLab Runner written in Node, it has less features than <a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner">our official Runner</a>'
+      links:
+        - url: https://www.npmjs.com/package/gcr
+          title: Unofficial GitLab Runner for Node

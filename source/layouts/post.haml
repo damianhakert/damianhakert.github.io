@@ -1,0 +1,23 @@
+!!! 5
+%html
+  %head
+    = partial "includes/layout/head"
+  %body{:data => {:spy => "scroll", :target => ".qnav"}}
+    = partial "includes/layout/header"
+    = partial "includes/blog/image-single", locals: {post: current_page}
+    .container.full-post
+      .blog-entry
+        %h4.date
+          = partial "includes/blog/author", locals: {post: current_page}
+          - if current_page.data.date
+            = current_page.data.date.to_time.strftime '%b %e, %Y'
+        = yield
+        = partial "includes/download"
+        %hr
+        %p
+          &rarr;
+          %a{href: "/blog/archives.html"}
+            Browse all posts
+        = partial "includes/newsletter-signup.html"
+        = partial "includes/blog/comments"
+    = partial "includes/layout/footer"

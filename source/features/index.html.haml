@@ -1,0 +1,160 @@
+---
+layout: default
+title: Features
+suppress_header: true
+extra_css:
+  - features.css
+extra_js:
+  - libs/jquery.magnific-popup.min.js
+---
+.wrapper
+  %nav#qnav.navbar.navbar-default.qnav.hidden-xs.qnav2{role: "navigation"}
+    .container-fluid.featurenav
+      %ul.nav.nav-pills.nav-justified
+        %li
+          %a{href: "#community", onclick: "ga('send', 'event', 'nav','click','ce features');"} Community Edition
+        %li
+          %a{href: "#enterprise", onclick: "ga('send', 'event', 'nav','click','ee features');"} Enterprise Edition
+        %li
+          %a{href: "#compare", onclick: "ga('send', 'event', 'nav','click','ce ee compare');"} Compare
+  #community.wide-feature.head
+    .container
+      .row
+        .col-sm-12.col-md-8.head-non-bg
+          .title
+            GitLab
+            %br
+            %b Community edition
+          .header-text
+            %ul
+              %li
+                %b> Feature rich
+                \: Git repository management, code reviews, issue tracking, activity feeds and wikis. It comes with
+                %a{href: "/gitlab-ci/"} GitLab CI
+                for continuous integration and delivery.
+              %li
+                %b> Open Source
+                \: MIT licensed, community driven, 700+ contributors, inspect and modify the source, easy to integrate into your infrastructure
+              %li
+                %b> Scalable
+                \: support 25,000 users on one server or a highly available active/active cluster
+            .actions
+              %a.btn.btn-default.btn-lg{href: "/downloads", onclick: "ga('send', 'event', 'link','click','download ce');"} Download
+              %a.btn.btn-default.btn-lg{href: "https://gitlab.com/gitlab-org/gitlab-ce/tree/master#README", onclick: "ga('send', 'event', 'link','click','source and readme');"} Source + Readme
+            %br
+            If you want to use GitLab without installing it,
+            check out
+            %a{href: "/gitlab-com"} GitLab.com
+            Note that only self-hosted GitLab will let you integrate with your LDAP.
+        .col-md-4.head-bg.hidden-sm.hidden-xs
+  .container
+    .row.feature-row
+      .col-md-4.small-feature
+        .name
+          ACTIVITY
+          %b STREAM
+        %a.image-link{href: "/images/feature_page/activity_stream_full.png"}
+          = image_tag "/images/feature_page/activity_stream_full.png", class: "img-responsive"
+        .link
+          %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/activity"} Have a look at an actual activity page
+      .col-md-4.small-feature
+        .name
+          FILE
+          %b BROWSER
+        %a.image-link{href: "/images/feature_page/file_browser_full.png"}
+          = image_tag "/images/feature_page/file_browser_full.png", class: "img-responsive"
+        .link
+          %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/tree/master"} Try navigating GitLab's code
+      .col-md-4.small-feature
+        .name
+          GIT POWERED
+          %b WIKI
+        %a.image-link{href: "/images/feature_page/wiki_full.png"}
+          = image_tag "/images/feature_page/wiki_full.png", class: "img-responsive"
+  .wide-feature.mr
+    .row
+      .col-md-12
+        .name
+          powerful
+          %b code review
+        .description
+          Merge requests with line-by-line comments, CI and issue tracker integrations and much more..
+      .wide-img
+        %a.image-link{href: "/images/feature_page/mr.png"}
+          = image_tag "/images/feature_page/mr_sh.png", class: "img-responsive"
+      .wide-feature-link
+        %a.btn-default{href: "https://gitlab.com/gitlab-org/gitlab-ce/merge_requests"} See the power of merge requests on GitLab.com
+  .container
+    .row.feature-row
+      .col-md-4.small-feature
+        .name
+          ISSUE
+          %b MANAGEMENT
+        %a.image-link{href: "/images/feature_page/issue_management.png"}
+          = image_tag "/images/feature_page/issue_management.png", class: "img-responsive"
+        .link
+          %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/issues"} See how we use issues to manage our open source project
+      .col-md-4.small-feature
+        .name
+          CODE
+          %b SNIPPETS
+        %a.image-link{href: "/images/feature_page/snippets_full.png"}
+          = image_tag "/images/feature_page/snippets_full.png", class: "img-responsive"
+      .col-md-4.small-feature
+        .name
+          WEB
+          %b HOOKS
+        %a.image-link{href: "/images/feature_page/webhooks_full.png"}
+          = image_tag "/images/feature_page/webhooks_full.png", class: "img-responsive"
+  #enterprise.wide-feature.head.ee
+    .container
+      .name
+        gitlab
+        %b enterprise edition
+      .description
+        GitLab Enterprise Edition builds on top of the Community Edition and includes extra features mainly aimed at organizations with more than 100 users.
+        It has LDAP group sync, audit logs and multiple roles.
+        It includes deeper authentication and authorization integration, has fine-grained workflow management, has extra server management options and it integrates with your tool stack.
+        GitLab EE runs on your servers, for our SaaS offering please see
+        %a{href: "/gitlab-com"} GitLab.com
+  .container
+    .row.feature-row
+      .col-md-4.small-feature
+        .name
+          GIT
+          %b HOOKS
+        %a.image-link{href: "/images/feature_page/githooks_full.png"}
+          = image_tag "/images/feature_page/githooks_full.png", class: "img-responsive"
+      .col-md-4.small-feature
+        .name
+          LDAP
+          %b GROUP SYNC
+        %a.image-link{href: "/images/feature_page/ldap_groups_full.png"}
+          = image_tag "/images/feature_page/ldap_groups_full.png", class: "img-responsive"
+      .col-md-4.small-feature
+        .name
+          BRANDED
+          %b LOGIN PAGE
+        %a.image-link{href: "/images/feature_page/branded_login_full.png"}
+          = image_tag "/images/feature_page/branded_login_full.png", class: "img-responsive"
+        .link
+          %a{href: "https://gitlab.com/users/sign_in"} See the login page from GitLab.com >
+  #compare.wide-feature.head.community
+    .container
+      .name
+        compare gitlab versions
+  .container
+    .compare
+      = partial "includes/features/table"
+      .action
+        %a.btn.btn-default.btn-lg{href: "/pricing/", onclick: "ga('send', 'event', 'link','click','pricing options');"}
+          %b See Pricing Options
+      .action
+        %a{href: "/direction/", style: "font-size: 22px;"}
+          View the direction of development and upcoming features
+      .action
+        %a{href: "gitlab-features.pdf", style: "font-size: 22px;"}
+          Download the feature comparison table as a PDF
+      .action
+        %a{href: "/comparison", style: "font-size: 22px;"}
+          Compare GitLab with other tools

@@ -1,0 +1,24 @@
+- data.features.each do |feature_block|
+  .panel.panel-success
+    .panel-heading
+      %h2.panel-title
+        = feature_block.title
+    %table.table.compare-table
+      %thead
+        %tr
+          %th
+          %th.ce-col Community Edition
+          %th.ee-col Enterprise Edition
+      %tbody.header.first
+        - feature_block.features.each do |feature|
+          %tr
+            %td
+              %a{href: feature.link}
+                = feature.description
+            %td.ce-col
+              - if feature.in_ce
+                %i.fa.fa-check
+                %span.print *
+            %td.ee-col
+              %i.fa.fa-check
+              %span.print *

@@ -1,0 +1,62 @@
+.tab{id: platform.name}
+  .tab-step
+    %p
+      %i.fa.fa-info-circle.green
+      Check if your server meets
+      %a.green{:href => "http://doc.gitlab.com/ce/install/requirements.html"} the hardware requirements.
+      GitLab packages are built for 64bit systems. For 32bit OS, consider
+      %a.green{:href => "https://about.gitlab.com/installation/"} alternative installation methods.
+  .tab-step
+    %h4
+      1. Install and configure the necessary dependencies
+    %p
+      If you install Postfix to send email please select 'Internet Site' during setup.
+      Instead of using Postfix you can also use Sendmail or
+      %a{:href => "https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/settings/smtp.md"}
+      configure a custom SMTP server
+      %a{:href => "https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/settings/smtp.md#smtp-on-localhost"}
+      configure it as an SMTP server.
+    %p
+      On Centos 6 and 7, the commands below will also open HTTP and SSH access in the system firewall.
+    %p
+      %pre
+        = platform.dependency_commands
+        = platform.firewall_open
+  .tab-step
+    %h4
+      2. Add the GitLab package server and install the package
+    %p
+      %pre
+        = platform.download_command
+      If you are not comfortable installing the repository through a piped script, you can find the
+      %a{:href => "https://packages.gitlab.com/gitlab/gitlab-ce/install"}
+      entire script here
+      %a{:href => "https://packages.gitlab.com/gitlab/gitlab-ce"}
+      select and download the package manually
+      and install using
+      %pre
+        = platform.install_commands_manual
+  .tab-step
+    %h4
+      3. Configure and start GitLab
+    %p
+      %pre
+        sudo gitlab-ctl reconfigure
+  .tab-step
+    %h4
+      4. Browse to the hostname and login
+    :markdown
+      On your first visit, you'll be redirected to a password reset screen to provide the password for the initial administrator account. Enter your desired password and you'll be redirected back to the login screen.
+
+      The default account's username is **root**.Provide the password you created earlier and login. After login you can change the username if you wish.
+  .tab-step
+    %p
+      %i.fa.fa-info-circle.green
+      For configuration and troubleshooting options please see the
+      %a.green{href: "http://doc.gitlab.com/omnibus/"}
+        Omnibus GitLab documentation
+      %br
+      %i.fa.fa-info-circle.green
+      If you are located in China, try using
+      %a.green{href: "https://mirror.tuna.tsinghua.edu.cn/help/gitlab-ce/"}
+        https://mirror.tuna.tsinghua.edu.cn/help/gitlab-ce/

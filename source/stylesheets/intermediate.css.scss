@@ -1,0 +1,29 @@
+@import "variables";
+
+body {
+  background-color: $color-primary;
+}
+
+.products {
+  margin-top: 50px;
+  text-align: center;
+
+  h1 {
+    font-weight: 700;
+  }
+
+  a {
+    color: $color-white;
+    transition: color .4s;
+
+    &:hover {
+      color: rgba($color-white, .5);
+      text-decoration: none;
+    }
+  }
+}
+
+.img-responsive {
+  margin-left: auto;
+  margin-right: auto;
+}

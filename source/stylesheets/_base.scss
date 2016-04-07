@@ -1,0 +1,163 @@
+body {
+  padding-top: 50px;
+
+  &.purple-bg {
+    background-color: $color-primary;
+    color: $color-white;
+
+    a {
+      color: inherit;
+    }
+  }
+}
+
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+h1,
+h3,
+h4,
+h5,
+button,
+a {
+  font-weight: 400;
+}
+
+.map {
+  height: 350px;
+  width: 100%;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.medium {
+  font-weight: 400;
+}
+
+.green {
+  color: $color-green;
+}
+
+img {
+  max-width: 100%;
+}
+
+//scss-lint:disable all
+iframe[name='google_conversion_frame'] {
+  height: 0 !important;
+  width: 0 !important;
+  line-height: 0 !important;
+  font-size: 0 !important;
+  margin-top: -13px;
+  float: left;
+}
+//scss-lint:enable all
+
+.animated,
+.animated a {
+  transition: all .2s linear;
+}
+
+.terms {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.newsletter-form {
+  width: 206px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mc-field-group {
+  padding-bottom: 5px;
+}
+
+.link-box {
+  color: $link-box-color;
+  border: 2px solid $link-box-border-color;
+  padding: 17px;
+  text-align: justify;
+  border-radius: 3px;
+  background: $color-white;
+  margin-top: 25px;
+  transition: all .2s;
+
+  &:hover {
+    background: $link-box-hover-bg;
+  }
+
+  h3 {
+    font-weight: 600;
+    margin-top: 0;
+  }
+}
+
+.panel-purple {
+  border-color: $color-primary;
+
+  > .panel-heading {
+    color: $color-white;
+    background-color: $color-primary;
+    border-color: $color-primary;
+  }
+}
+
+.source-link {
+  padding: 6px 15px 8px;
+  color: $color-white;
+  font-size: 15px;
+  background: $color-primary;
+
+  .external-source-link {
+    color: $color-white;
+    border-bottom: 1px solid $color-white;
+
+    &:hover {
+      border-bottom-color: transparent;
+      text-decoration: none;
+    }
+  }
+}
+
+.md-page {
+  background: $color-white;
+  padding: 25px;
+  margin-top: 33px;
+  box-shadow: 0 3px 3px rgba($color-dark, .1);
+  max-width: 900px;
+
+  iframe {
+    max-width: 100%;
+  }
+}
+
+.signature-block {
+  width: 49%;
+  display: inline-block;
+  padding: 15px;
+}
+
+.fixed-sidenav {
+  &.affix {
+    top: 55px;
+  }
+}
+
+.team {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  > li {
+    display: inline-block;
+  }
+}
+
+.install-gitlab-btn {
+  white-space: normal;
+}

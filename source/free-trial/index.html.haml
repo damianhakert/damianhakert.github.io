@@ -1,0 +1,38 @@
+---
+layout: default
+title: Free Trial of GitLab Enterprise Edition
+suppress_header: true
+extra_css:
+  - free-trial.css
+---
+.wrapper
+  .free-trial-picture-container
+    .free-trial-overlay
+      .free-trial-content
+        %h1 Free Trial of GitLab Enterprise Edition
+  .centered-form
+    .free-trial-intro
+      GitLab Enterprise Edition includes:
+      %ul
+        %li Extended authentication and authorization integration
+        %li Fine-grained workflow management
+        %li Additional server management options
+        %li Deeper integration with your tool stack
+      You will receive an email with your 30-day license key and download
+      instructions after submitting this form.
+    %script{src: "//app-ab13.marketo.com/js/forms2/js/forms2.min.js"}
+    %form#mktoForm_1100
+    :javascript
+      MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1100, function(form) {
+          form.onSuccess(function(values, followUpUrl) {
+
+            form.getFormElem().hide();
+            document.getElementById('confirmform').style.visibility = 'visible';
+
+            ga('send', 'pageview');
+            ga('send', 'event', 'form', 'submit', 'ee free trial');
+            return false;
+          });
+      });
+    #confirmform{style: "visibility:hidden;"}
+      %p Submission received! Check your email for your 30-day license key and download instructions.

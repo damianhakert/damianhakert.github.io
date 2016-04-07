@@ -1,0 +1,86 @@
+%footer.footer
+  = partial "includes/logos/footer_logo.svg"
+  .animated.container
+    %ul.text-center.footer-social
+      %li
+        = link_to('https://twitter.com/gitlab') do
+          %i.fa.fa-twitter
+          %span.sr-only Twitter
+      %li
+        = link_to('https://www.facebook.com/gitlab') do
+          %i.fa.fa-facebook
+          %span.sr-only Facebook
+      %li
+        = link_to('https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg') do
+          %i.fa.fa-youtube
+          %span.sr-only YouTube
+      %li
+        = link_to('https://www.linkedin.com/company/gitlab-com') do
+          %i.fa.fa-linkedin
+          %span.sr-only LinkedIn
+    .row
+      .col-sm-6.col-md-3.col-lg-2.col-lg-offset-2.footer-link-holder
+        %h3.footer-link-title Products
+        %ul.animated.footer-links
+          %li= link_to('Community Edition',  '/features')
+          %li= link_to('Enterprise Edition', '/features/#enterprise')
+          %li= link_to('GitLab.com',         '/gitlab-com/')
+      .col-sm-6.col-md-3.col-lg-2.footer-link-holder
+        %h3.footer-link-title Services
+        %ul.animated.footer-links
+          %li= link_to('Pricing',     '/pricing/')
+          %li= link_to('Consultancy', '/consultancy/')
+          %li= link_to('Development', '/development/')
+          %li= link_to('Training',    '/training/')
+      .col-sm-6.col-md-3.col-lg-2.footer-link-holder
+        %h3.footer-link-title Community
+        %ul.animated.footer-links
+          %li= link_to('Core Team',     '/core-team/')
+          %li= link_to('Contributors',  'http://contributors.gitlab.com/')
+          %li= link_to('Documentation', '/documentation/')
+          %li= link_to('Getting Help',  '/getting-help/')
+          %li= link_to('Contributing',  '/contributing/')
+          %li= link_to('Applications',  '/applications/')
+          %li= link_to('Hall of Fame',  '/mvp/')
+      .col-sm-6.col-md-3.col-lg-2.footer-link-holder
+        %h3.footer-link-title Company
+        %ul.animated.footer-links
+          %li= link_to('Blog',            '/blog/')
+          %li= link_to('Press and Logos', '/press/')
+          %li= link_to('About Us',        '/about/')
+          %li= link_to('Team',            '/team/')
+          %li= link_to('Jobs',            '/jobs/')
+          %li= link_to('Terms',           '/terms/')
+          %li= link_to('Contact Us',      '/contact/')
+
+- full_path = current_page.file_descriptor.relative_path
+.animated.text-center.source-link
+  This page is generated from
+  = link_to('a public file on GitLab.com', "#{data.site.repo}blob/master/source/#{full_path}", class: 'external-source-link')
+  &mdash; merge requests with improvements are
+  = succeed('.') do
+    = link_to('very welcome', "#{data.site.repo}blob/master/CONTRIBUTING.md", class: 'external-source-link')
+  = partial "includes/cc-license"
+= partial "includes/layout/scripts"
+= partial "includes/google/remarketing"
+
+%script{src: "//platform.twitter.com/oct.js", type: "text/javascript"}
+
+:javascript
+  twttr.conversion.trackPid('nufbg', { tw_sale_amount: 0, tw_order_quantity: 0 });
+%noscript
+  %img{alt: "", height: "1", src: "https://analytics.twitter.com/i/adsct?txn_id=nufbg&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0", style: "display:none;", width: "1"}
+  %img{alt: "", height: "1", src: "//t.co/i/adsct?txn_id=nufbg&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0", style: "display:none;", width: "1"}
+
+:javascript
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '1689559637958103');
+  fbq('track', "PageView");
+
+%noscript
+  %img{height: "1", src: "https://www.facebook.com/tr?id=1689559637958103&ev=PageView&noscript=1", style: "display:none", width: "1"}/
