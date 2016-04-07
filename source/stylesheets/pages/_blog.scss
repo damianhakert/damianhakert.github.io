@@ -2,8 +2,12 @@
   padding-top: 30px;
 }
 
-pre code {
-  word-wrap: normal;
+pre {
+  margin-bottom: 20px;
+
+  code {
+    word-wrap: normal;
+  }
 }
 
 .line {

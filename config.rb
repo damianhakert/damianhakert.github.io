@@ -17,10 +17,10 @@ set :haml, {
   format: :html5
 }
 
-activate :syntax, :line_numbers => true
+activate :syntax, line_numbers: false
 
 set :markdown_engine, :redcarpet
-set :markdown, :fenced_code_blocks => true, :smartypants => true
+set :markdown, fenced_code_blocks: true, smartypants: true
 
 activate :blog do |blog|
   blog.sources = "posts/{year}-{month}-{day}-{title}.html"
@@ -68,6 +68,7 @@ configure :build do
   proxy "/release-list/index.html", "/release-list/template.html", locals: { list: releases.content }, ignore: true
 end
 
-ignore "/includes/*"
-ignore "/release-list/template.html"
-ignore "/direction/template.html"
+ignore '/direction/template.html'
+ignore '/includes/*'
+ignore '/release-list/template.html'
+ignore '/source/stylesheets/highlight.css'
