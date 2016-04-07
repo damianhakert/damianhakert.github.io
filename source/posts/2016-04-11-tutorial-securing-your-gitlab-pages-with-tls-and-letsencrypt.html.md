@@ -330,6 +330,8 @@ that same URL, the website will have to redirect the user again.
 
 ## Wrap up
 
+![a working certificate screenshot](/images/blogimages/working-certificate-screenshot.png)
+
 That's how easy it is to have a free HTTPS enabled website.
 With these tools, I see no reason not to do it.
 
