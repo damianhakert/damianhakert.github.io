@@ -10,6 +10,7 @@ title: "People Operations"
 - [Using BambooHR](#bamboohr)
    - [Adding a new team member to BambooHR](#admin-bamboo)
    - [Using BambooHR as a new team member](#new-member-bamboo)
+- [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)   
 - [Administrative details of benefits for US-based employees](#benefits-us)
    - [401k](#401k)
 - [Using TriNet](#using-trinet)
@@ -92,6 +93,9 @@ as described on our [Hiring](/handbook/hiring/) page, follow these steps:
    1. Enter the following fields: First name, Last name, Gender, Hire date, Employment status, Job information, Pay rate, Salary for employees, or select another option.
    1. Turn “self service” on for the employee to enter the following info: Address, Phone, DOB. private email.
 1. Save the signed contract under the Documents tab in the folder “0.Signed Contract/Offer Letter”.
+1. As noted in the onboarding checklist, on the start date of the employee send out the "password reset email" under
+the settings option in the top right of the profile (next to "request a change")
+**Note** This link is only valid for 24 hours.
 
 ### Using BambooHR as a new team member<a name="new-member-bamboo"></a>
 
@@ -102,14 +106,72 @@ Team members can keep their information in BambooHR updated using self-service:
 1. Login with your new credentials
 1. Keep your credentials stored in your 1Password Vault and keep the info in BambooHR updated (e.g. change address when moving)
 
+## Managing the PeopleOps onboarding tasks <a name="manage-onboarding-tasks"></a>
+
+Here are some useful guidelines to set up everything for our new team members with the onboarding issue.
+If Google Sheets or Docs are mentioned, these will be shared with you on Google Drive.
+
+- **Add team member to availability calendar**
+Make a new "all-day" event on the day the new team member starts "[Name] joining 
+as [Job title]". Make sure to select the calendar as GitLab Availability and not your own.
+- **Give team member access to the GitLab availability calendar**
+Go to your calendar window, under my calendars move your cursor over the calendar 
+and click the dropdown triangle. Select calendar settings and go to "Share this 
+calendar" in the top of the window. Enter the GitLab email address and scroll 
+down to set the permission setting to "make changes to events" Then save in the 
+lower left corner.
+- **Add blank entry to team page**
+Login to [Gitlab.com](www.gitlab.com) and go to the www-gitlab-com project. In 
+the left menu click "Files" and select the folder called "source". Continue by 
+clicking the folder "data" and select the file called team.yml. In the top right 
+corner you can click "edit" to make edits to the code. Scroll all the way down 
+and copy-paste the code of the previous blank entry to the team page. Edit the 
+fields to the right info of the new hire and find the right job description on 
+the [Jobs](https://about.gitlab.com/jobs/) page.
+ **Note** _This can be tricky, so if you run into trouble reach out to some of 
+your awesome colleagues in the #questions (channel) on Slack_
+- **Add entry to Team Call agenda**
+Open the Team Agenda google doc, and on the starting day add an Agenda item: 
+"[Hiring manager name]: Welcome [name new team member] joining as [job title]" 
+as the first item on the agenda
+- **Invite to team meeting and GitLab 101 meeting**
+Go to the team call meeting on the starting date of the team member and the next 
+scheduled GitLab 101 in the Availability calendar. Click on "edit event" to open. 
+On the right enter the team member's GitLab email address in the  "add guests" 
+section and click save. When asked select "all events" to add to all scheduled 
+meetings and "send" out the invitation. 
+- **Order business cards**
+Go to the "Notes" field in BambooHR and enter the info needed for the Business Cards.
+Once every week/few days or how often needed, run the "Business Cards order" report in the Reports - My Reports menu of BambooHR.
+Email our partner to order new business cards and add the info for the cards to 
+be ordered. Include the address of the team member (found in BambooHR) and inform 
+our partner to _**ship the cards directly to that address**_. Double check the 
+info that is sent with the preview before approving the print.
+- **Add team member to Expensify (only with employees)**
+Login to [Expensify](https://www.expensify.com/signin) and go to "Admin" in the 
+top menu. Select the right policy based upon the entity that employs the new team 
+member. Select "People" in the left menu. Select "Invite" and add the GitLab email. 
+Edit the message to be sent for the employee. Click "invite".
+- **Add team member to Beamy**
+Login in to access the settings for the [Beam](https://suitabletech.com/accounts/login/). 
+In the top menu move your cursor over the blue login button. Go to "Manage your beams". 
+Click on "manage" in the lower left corner. Enter the GitLab email and scroll down 
+to find the newly addedd email. Check the box for "Auto connect".
+- **Add team member into the Austin info sheets**
+Add the team member's name to the Travel and Lodging Google sheets to make sure they enter flight details and they are assigned a room.
+- **Add team member to our Egencia platform**
+Log into Egencia and go to the menu option "manage users". Choose "new user account" and fill in the passport name of the new team member.
+As username choose the same handle as on our dev page. Enter the GitLab email address and uncheck the newsletter box.
+Lastly assign the department in which the new team member is working.
+
 ## Administrative details of benefits for US-based employees <a name="benefits-us"></a>
 
 ### 401k<a name="401k"></a>
 
 1. You are eligible to participate in GitLab’s 401k as of the 1st of the month after your hire date.  
-1. You will receive a notification on your homepage in Trinet Passport once eligible,
+1. You will receive a notification on your homepage in TriNet Passport once eligible,
 if you follow the prompts it will take you to the Transamerica website https://www.ta-retirement.com/
-or skip logging in to Trinet Passport and go directly to https://www.ta-retirement.com/
+or skip logging in to TriNet Passport and go directly to https://www.ta-retirement.com/
 after the 1st of the month after your hire date.
 1. Once on the home page of https://www.ta-retirement.com/ go to "First Time User Register Here".  
 1. You will be prompted for the following information
