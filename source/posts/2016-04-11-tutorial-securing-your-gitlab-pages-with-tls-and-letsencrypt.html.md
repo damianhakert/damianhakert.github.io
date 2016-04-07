@@ -255,8 +255,9 @@ IMPORTANT NOTES:
 ```
 Success! We have correctly acquired a free TLS certificate for our domain! 
 
-Note, however, that like any other TLS certificate, it has an expiration date
-of three months. When you finishing setting up, just put in your calendar to
+Note, however, that like any other TLS certificate, it has an expiration date,
+and in case of certificates issued by Let's Encrypt, the certificate will
+remain valid for three months. When you finishing setting up, just put in your calendar to
 remember to renew the certificate in time, otherwise it will become invalid,
 and the browser will reject it.
 
