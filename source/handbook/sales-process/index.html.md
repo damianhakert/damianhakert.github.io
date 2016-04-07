@@ -36,7 +36,7 @@ title: "Sales Process"
 
 * [Client Use Cases](https://about.gitlab.com/handbook/use-cases/)
 * [Customer Reference Sheet](https://docs.google.com/spreadsheets/d/1Off9pVkc2krT90TyOEevmr4ZtTEmutMj8dLgCnIbhRs/edit#gid=0)
-* [GitLab University](https://about.gitlab.com/university/)
+* [GitLab University](https://university.gitlab.com/)
 * [Our Support Handbook](https://about.gitlab.com/handbook/support/)
 
 ### GitLab Version Check <a name="version_check"></a>

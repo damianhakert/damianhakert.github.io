@@ -31,7 +31,7 @@ Please search for similar proposals before posting your own.
 * [GitLab Community Forum](https://forum.gitlab.com/): this is the best place to have a discussion.
 
 ## Reference
-* [GitLab University](https://about.gitlab.com/university/) contains a variety of resources.
+* [GitLab University](https://university.gitlab.com/) contains a variety of resources.
 * [GitLab CE documentation](http://doc.gitlab.com/ce/): information about the functionality in GitLab for users, administrators and developers.
 * [GitLab documentation](https://about.gitlab.com/documentation/) contails links to documentation for all GitLab applications
 * [The GitLab Cookbook](https://www.packtpub.com/application-development/gitlab-cookbook): written by core team member Jeroen van Baarsen, it is the most comprehensive book about GitLab.
