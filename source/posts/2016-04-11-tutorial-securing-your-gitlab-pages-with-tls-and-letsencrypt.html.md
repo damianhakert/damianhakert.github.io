@@ -214,6 +214,10 @@ with no extra HTML, just the token in plain text. As we are using the `permalink
 front matter, you can name this file anyway you want, with or without an `.html` extension 
 and put it anywhere, too. Note that the behaviour of the `permalink` attribute has 
 [changed][jekyllversion] from Jekyll 2 to Jekyll 3, so make sure you have Jekyll 3.x installed. 
+If you're not using version 3 of Jekyll or if you're using a different tool, 
+just create the same file in the exact path, like
+`cool-blog/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.html` 
+or an equivalent path in your tool of choice.
 Here we'll call it `letsencrypt-setup.html` and place it in the root folder 
 of the blog. We can check that everything is working as expected:
 ```shell
