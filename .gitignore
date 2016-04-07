@@ -13,6 +13,7 @@
 
 # Ignore cache
 /.sass-cache
+/.pygments-cache
 /.cache
 
 # Ignore .DS_store file
