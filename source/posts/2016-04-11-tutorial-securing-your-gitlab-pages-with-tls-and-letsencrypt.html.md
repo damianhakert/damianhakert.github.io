@@ -205,7 +205,7 @@ page!
 ```markdown
 ---
 layout: null
-permalink: /.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM
+permalink: /.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.html
 ---
 
 5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.ewlbSYgvIxVOqiP1lD2zeDKWBGEZMRfO_4kJyLRP_4U
@@ -214,8 +214,8 @@ permalink: /.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTb
 This tells Jekyll to create a static page (which you can see at
 `cool-blog/_site/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.html`)
 with no extra HTML, just the token in plain text. As we are using the `permalink` attribute in the 
-front matter, you can name this file anyway you want, with or without an `.html` extension 
-and put it anywhere, too. Note that the behaviour of the `permalink` attribute has 
+front matter, you can name this file anyway you want and put it anywhere, too.
+ Note that the behaviour of the `permalink` attribute has 
 [changed][jekyllversion] from Jekyll 2 to Jekyll 3, so make sure you have Jekyll 3.x installed. 
 If you're not using version 3 of Jekyll or if you're using a different tool, 
 just create the same file in the exact path, like
