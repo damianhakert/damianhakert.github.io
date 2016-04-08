@@ -58,7 +58,7 @@ get a better handle on what people are looking for and/or not finding.
 
 **Decrease Demand for Support**
 
-By making training materials for customer trainings available on [GitLab University](/university),
+By making training materials for customer trainings available on [GitLab University](https://university.gitlab.com/),
 making documentation easy to find and easy to search, and constantly contributing to further documentation
 with the trend discovery showing where the need is greatest, we can help the community become
 as self sufficient as possible. A seamless interface between the support team and developers closes the

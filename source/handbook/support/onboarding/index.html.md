@@ -39,7 +39,7 @@ expected to:
 ## First steps when you join the team <a name="first-steps"></a>
 
 When you first join the team everything will be new to you. In order to get you started with GitLab quickly
-you should take a look at the resources we have available at the [GitLab University](https://about.gitlab.com/university/).
+you should take a look at the resources we have available at the [GitLab University](https://university.gitlab.com/).
 
 The [user training](https://gitlab.com/gitlab-org/University/tree/master/training) we use for our customers
 is also a great resource to get you started with the basics of Git and GitLab.
@@ -66,7 +66,7 @@ craft their replies, and to get more insight and knowledge into topics with whic
 
 ### Training<a name="training"></a>
 
-Right after joining the team you will go through a [training process](/university/support)
+Right after joining the team you will go through a [training process](https://university.gitlab.com/support/)
 with the guidance of a fellow Service Engineer. In this training you will learn the ins and
 outs of GitLab, how to integrate it with the most used enterprise tools, like LDAP, JIRA,
 Jenkins and SAML, how to best talk to our customers, and how to best radiate information you
@@ -90,12 +90,12 @@ craft a proper answer, you are acknowledging their request.
 
 ### Point to documentation, or make it<a name="document-it"></a>
 
-As a general rule, you should always include a link to the applicable documentation as 
-part of your response to a ticket. If the documentation does not exist yet, then 
+As a general rule, you should always include a link to the applicable documentation as
+part of your response to a ticket. If the documentation does not exist yet, then
 _make_ the documentation and send the link in the response. For those situations
-where making documentation is a more time consuming exercise: 
+where making documentation is a more time consuming exercise:
 
-- add the "documentation" tag to the ticket, 
+- add the "documentation" tag to the ticket,
 - respond to the ticket,
 - create an issue on the [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/) or
 [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/) repo linking to the ZenDesk
@@ -215,14 +215,14 @@ When you are viewing a ticket teammates see an eye icon on the left of the ticke
 
 This implies that you're reading or working on the ticket so if your not going
 to handle it make sure to close it by closing the tab at the upper section of the
-screen that has the ticket's title. 
+screen that has the ticket's title.
 
 If you see a ticket with this icon that either you feel you can add value to it,
 or has been open for too long then please ask your teammate through Slack if he
 or she is still working on it. The person's name appears by hovering over the,
 ticket's title on the list view or by selecting the ticket and reading the
 "Also on this ticket" section on the top left. Notice that if a general account
-like GitLab Support is being used there is no name to refer to so you might want 
+like GitLab Support is being used there is no name to refer to so you might want
 to ask on the support and/or general chat channel with the ticket's link.
 
 ## Receiving feedback<a name="feedback"></a>
@@ -231,7 +231,7 @@ After 24 hours of marking the ticket as solved a survey is sent to our customers
 the level of support they received. If a customer rates a ticket to which you were assigned as bad, an
 email will be sent to you and the ZenDesk manager to notify you of the fact. When this happens, you should
 let a Senior know about the problem and follow up with the customer to see if something you did can
-be improved. 
+be improved.
 
 You will also receive a message if the feedback is positive, and it is encouraged to
 celebrate those "wins" with the rest of the team through the #support or #thanks
