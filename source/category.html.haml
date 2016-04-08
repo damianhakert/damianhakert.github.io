@@ -2,7 +2,7 @@
 layout: default
 ---
 - content_for :title do
-  = categories.capitalize
+  = categories.to_s.capitalize
 .blog-index.blog-entry
   %ul.post-list
     - page_articles.each do |post|
