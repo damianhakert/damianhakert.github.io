@@ -129,7 +129,7 @@ custom domain, you're done.
 Once you buy a domain name and point that domain to your GitLab Pages website,
 you need to configure 2 things:
 
-1. add the domain to GitLab Pages configuration
+1. add the domain to GitLab Pages configuration ([learn how to do it here][customdomain])
 2. add your custom certificate to your website.
 
 Once you add your domain, your website will be available under both
@@ -381,3 +381,4 @@ I hope it helps you :)
 [relativeprotocol]: (http://www.paulirish.com/2010/the-protocol-relative-url/)
 [jekyllversion]: (https://jekyllrb.com/docs/upgrading/2-to-3/#permalinks-no-longer-automatically-add-a-trailing-slash) 
 [letsencryptwindows]: (https://cultiv.nl/blog/lets-encrypt-on-windows/)
+[customdomain]: (https://gitlab.com/help/pages/README.md#add-a-custom-domain-to-your-pages-website)
