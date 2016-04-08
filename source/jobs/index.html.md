@@ -78,6 +78,11 @@ If you prefer not to do the above please let us know and we'll give you an assig
 - [Description](/jobs/account-manager/)
 - [Apply](https://gitlab.workable.com/jobs/88117/candidates/new)
 
+### Sales Operations Manager
+
+- [Description](/jobs/sales-operations-manager/)
+- [Apply](https://gitlab.workable.com/jobs/236037/candidates/new)
+
 ### People Operations Coordinator
 
 - [Description](/jobs/people-ops-coordinator/)
