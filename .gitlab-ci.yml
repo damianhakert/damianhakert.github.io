@@ -5,6 +5,16 @@ before_script:
   - ''
   - bundle install --path ~/bundle
 
+lint:
+  stage: test
+  script:
+    - bundle exec rake lint
+
+build:
+  stage: test
+  script:
+    - bundle exec middleman build
+
 deploy:
   script:
     - bundle exec rake lint
