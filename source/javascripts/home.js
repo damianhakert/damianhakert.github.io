@@ -34,7 +34,7 @@ $(function () {
 
       $.each(team, function () {
         var $img = $('<img />', {
-          src: 'images/team/' + this.picture
+          src: this.picture
         });
         $img.on('load', function () {
           var $this = $(this);

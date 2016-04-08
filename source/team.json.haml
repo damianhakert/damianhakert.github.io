@@ -1,1 +1,5 @@
-= data.team.reject { |t| t.picture == 'logo-extra-whitespace.png' }.to_json
+- team_array = []
+- team = data.team.reject { |t| t.picture == 'logo-extra-whitespace.png' }
+- team.each do |member|
+  - team_array << { picture: image_path("team/#{member.picture}") }
+= team_array.to_json
