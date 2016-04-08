@@ -81,7 +81,7 @@ fixed expense."
 1. Collaboration: Helping others is a priority. You are expected to ask others for
 help and advise. Anyone can chime in on any subject. You don't have to comply with
 all feedback but you should always take it seriously. An example is the inclusion
-of people from outside GitLab Inc. in the [core team](https://www.gitlab.com/core-team/).
+of people from outside GitLab Inc. in the [core team](https://about.gitlab.com/core-team/).
 1. Directness: We try to channel our inner Ben Horowitz by being [both straightforward
 and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b).
 1. Kindness: We don't want [jerks](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) in our team.
@@ -335,7 +335,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. When you reference an issue, merge request, comment, commit, page, doc, etc. and you have the URL available please paste that in.
 1. In URLs, always prefer hyphens to underscores.
 1. The community include users, contributors, core team members, customers, people working for GitLab Inc., and friends of GitLab. If you want to refer to 'people not working for GitLab Inc.' just say that and don't use the word community. If you want to refer to people working for GitLab Inc. you can also use 'the GitLab Inc. team' but don't use the 'GitLab Inc. employees'.
-1. All people working for GitLab the company are the [GitLab team](https://about.gitlab.com/team/), we also have the [Core team](https://about.gitlab.com/team/) that is part GitLab team, part volunteers.
+1. All people working for GitLab the company are the [GitLab team](https://about.gitlab.com/team/), we also have the [Core team](https://about.gitlab.com/core-team/) that is part GitLab team, part volunteers.
 1. Please always refer to GitLab Inc. people as team members, not employees.
 1. Always write GitLab with a capitalized G and L, even when writing GitLab.com.
 1. Monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9
