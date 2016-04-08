@@ -4,4 +4,7 @@
       .row
         .col-sm-12.col-md-12
           %h1
-            = current_page.data.title
+            - if current_page.data.title
+              = current_page.data.title
+            - else
+              = yield_content(:title)

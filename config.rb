@@ -26,6 +26,13 @@ activate :blog do |blog|
   blog.sources = "posts/{year}-{month}-{day}-{title}.html"
   blog.permalink = "{year}/{month}/{day}/{title}/index.html"
   blog.layout = "post"
+
+  blog.custom_collections = {
+    categories: {
+      link: '/blog/categories/{categories}/index.html',
+      template: '/category.html'
+    }
+  }
 end
 
 activate :autoprefixer do |config|
@@ -72,3 +79,4 @@ ignore '/direction/template.html'
 ignore '/includes/*'
 ignore '/release-list/template.html'
 ignore '/source/stylesheets/highlight.css'
+ignore '/category.html'
