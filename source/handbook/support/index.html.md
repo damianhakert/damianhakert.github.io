@@ -98,7 +98,7 @@ The channels are sorted in order of priority, there are 4 general SLA's:
 1. Emergency tickets should be answered within 30 minutes.
 2. Security disclosures through regular tickets should be answered within 1 business day.
 3. Disqus and Twitter: we strive to answer them within 1 business day.
-4. Posted Issues through Reddit: we strive to answer them within 2 business days.
+4. Posted Issues through the end: we strive to answer them within 2 business days.
 
 Preferably we like to answer tickets sooner than the SLA requires.
 The higher a channel is in the list the sooner it should be answered.
