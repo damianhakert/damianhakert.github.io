@@ -28,8 +28,8 @@ to increase the security of your website by:
 **you**. The TLS handshake that is made at the beginning of the connection
 ensures the client that no one is trying to impersonate you;
 2. data integrity: this ensures that no one has tampered with the data in a
-request/response cycle
-3. encryption: this is commonly referred as the selling point of TLS, but the
+request/response cycle;
+3. encryption: this is the main selling point of TLS, but the
 other two are just as important. This protects the privacy of the communication
 between client and server.
 
@@ -44,7 +44,7 @@ The ultimate goal is to make the web safer, by adding those three components
 cited above to every website.
 
 The first big player was the [HTTPS Everywhere](https://www.eff.org/https-everywhere)
-browser extension. Not only that, Google has also been using HTTPS compliance to better
+browser extension. Google has also been using HTTPS compliance to better
 rank websites since [2014](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html).
 
 ## TLS certificates
@@ -55,12 +55,12 @@ available Certificate Authorities.
 
 Enter Let's Encrypt:
 
-    Let’s Encrypt is a new Certificate Authority:
-    It’s free, automated, and open.
-    Get Started (Public Beta)
+>    Let’s Encrypt is a new Certificate Authority:
+>    It’s free, automated, and open.
+>    Get Started (Public Beta)
 
 Since [December 2015][publicbeta] anyone can get a free certificate from this
-new Certificate Authority in the comfort of your terminal.
+new Certificate Authority from the comfort of your terminal.
 
 
 ## Implementation
@@ -68,10 +68,10 @@ new Certificate Authority in the comfort of your terminal.
 So let's suppose we're going to create a static blog with [Jekyll 3][Jekyll].
 If you are not creating a blog or are not using Jekyll just follow along, it
 should be straightforward enough to translate the steps for different purposes.
-You can also find many example projects using different static blog generators
+You can also find many example projects using different static site generators
 (like Middleman or Hugo) in [GitLab's example projects][examplepages].
 
-A simple stub blog can be simply created with:
+A simple example blog can be created with:
 
 ```shell
 $ jekyll new cool-blog
@@ -80,7 +80,7 @@ $ cd cool-blog/
 ```
 
 Now you have to create a GitLab project. Here we are going to create a "user
-pages", which means that it is a project created within a user account (not a
+page", which means that it is a project created within a user account (not a
 group account), and that the name of the project is the name of the username.
 Refer to the ["Getting started" section of the GitLab Pages manual][pagesdocs]
 for more information on that.
