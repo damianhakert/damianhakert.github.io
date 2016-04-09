@@ -63,17 +63,16 @@ yourself and your teammates. We want people to have the desire to ship.
 1. Transparency: Be open about as many things as possible. By making information
 public we can reduce the threshold to contribution and make collaboration easier.
 An example is the [public repository of this website](https://gitlab.com/gitlab-com/www-gitlab-com/)
-that also contains our [company handbook](https://about.gitlab.com/handbook/).
-On a personal level you should tell it like it is instead of putting up a poker face. Don't be afraid to admit you made a mistake or were wrong.
+that also contains this [company handbook](https://about.gitlab.com/handbook/).
+On a personal level you should tell it like it is instead of putting up a poker face. Don't be afraid to admit you made a mistake or were wrong. When something went wrong it is a great opportunity to say 'what’s the [kaizen](https://en.wikipedia.org/wiki/Kaizen) moment here' and find a better way without hurt feelings.
 1. Sharing: We care about giving great software, documentation, examples, lessons,
-and processes to the world. An example is the MIT licensed [GitLab CE](https://about.gitlab.com/features/).
+and processes to the world. An example is the MIT licensed [GitLab CE](https://about.gitlab.com/features/). We believe that open source creates more value than it captures.
 1. Freedom: You should have clear objectives and the freedom to work on them as you
 see fit. Any instructions are open to discussion. You don't have to defend how you
 spend your day. We trust team members to do the right thing instead of having rigid rules.
 1. Efficiency: We care about working on the right things, not doing more than needed,
 and not duplicating work. This enables us to achieve more progress with less people
-and makes our work more fulfilling.
-Think how we can make the company better instead of being territorial or defensive.
+and makes our work more fulfilling. We think of how we can make the company better instead of being territorial or defensive.
 1. Frugality: [Amazon states it best](http://www.amazon.jobs/principles) with:
 "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency
 and invention. There are no extra points for growing headcount, budget size or
@@ -97,16 +96,15 @@ giving positive feedback is our [thanks chat channel](https://about.gitlab.com/h
 backgrounds and opinions. Make everyone feel welcome. Work to increase the participation
 of underrepresented minorities and nationalities in our community and company. An
 example is our sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
-1. Quirkiness: Unexpected and unconventional things make life more interesting.
-Celebrate and encourage quirky gifts, habits, behavior, and points of view. An example
-is our [team call](https://about.gitlab.com/handbook/#team-call) where we spend most
-of our time talking about what we did in our private lives, from fire-throwing to
-knitting.
 1. Boring solutions: Use the most simple and boring solution for a problem. You
 can always make it more complex later if that is needed. The speed of innovation
 for our organization and product is constrained by the total complexity we added
 so far, so every little reduction in complexity helps.
-1. Interesting people: Open source is a great way to interact with interesting
+1. Quirkiness: Unexpected and unconventional things make life more interesting.
+Celebrate and encourage quirky gifts, habits, behavior, and points of view. An example
+is our [team call](https://about.gitlab.com/handbook/#team-call) where we spend most
+of our time talking about what we did in our private lives, from fire-throwing to
+knitting. Open source is a great way to interact with interesting
 people. We try to hire people who think work is a great way to express themselves.
 
 ## General Guidelines<a name="general-guidelines"></a>
