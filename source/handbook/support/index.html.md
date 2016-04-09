@@ -91,14 +91,14 @@ That is why some channels are combined.
 
 ## Service Level Agreements <a name="sla"></a>
 
-### Priorities
+### SLA categories
 
-The channels are sorted in order of priority, there are 4 general SLA's:
+The channels are sorted in order of priority, there are 4 SLA categories:
 
 1. Emergency tickets should be answered within 30 minutes.
 2. Security disclosures through regular tickets should be answered within 1 business day.
 3. Disqus and Twitter: we strive to answer them within 1 business day.
-4. Posted Issues through the end: we strive to answer them within 2 business days.
+4. Posted Issues through the end: we strive to answer them within two weeks but not sooner than two days to give the rest of the community a chance to respond.
 
 Preferably we like to answer tickets sooner than the SLA requires.
 The higher a channel is in the list the sooner it should be answered.
@@ -108,20 +108,19 @@ The higher a channel is in the list the sooner it should be answered.
 Within ZenDesk, the SLA's are set as follows. Under Business Rules in the Admin console,
 Service Level Agreements are defined. Currently, one is defined, with different response times
 required depending on the _priority_  of the ticket which can be Urgent, High, Normal, or Low.
-Emergency tickets (SLA 1 per the list above) are tagged as "Urgent" using a trigger setting,
-and SLA 2 items are tagged as either High or Normal priority, depending on the exact channel.
-The response times configured for the different priorities are:
 
-- 30 minutes (Urgent),
-- 12 business hours (High),
-- 16 business hours (Normal),
-- 24 business hours (Low)
+Emergency tickets (SLA category 1 per the list above) are tagged as "Urgent" using a 30 minute trigger.
+
+SLA category 2 items are tagged as either High or Normal priority.
+
+- High with a trigger of 12 business hours: TODO
+- Normal with a trigger 16 business hours: TODO
 
 An email is sent to everyone in the support team when an SLA breach is imminent, see
 the [automation in ZenDesk](https://gitlab.zendesk.com/agent/admin/automations/edit/80833987).
 
 Within ZenDesk, currently we do _not_ have an SLA assigned (and no automated warnings)
-to any tickets from channels below Regular Tickets, but we do track response times.
+to any tickets from channels in category 3 and 4, but we do track response times.
 
 ## Support Channels <a name="support-channels"></a>
 
