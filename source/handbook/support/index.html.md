@@ -84,12 +84,6 @@ support turbo developers to momentarily switch away from their other tasks.
 The [ZenDesk Insight dashboard](https://gitlab.zendesk.com/agent/reporting/analytics/period:0/dashboard:buLJ3T7IiFnr)
 lists the activity for all our channels currently and summarized over the last 30 days (login to ZenDesk required).
 
-<!--
-The iframe below also shows this dashboard, but it requires a valid session for the above link. Signing in on this page doesn't seem to work.
-
-<iframe frameborder="0" src="https://analytics.zendesk.com/dashboard.html#project=/gdc/projects/fan67iacybmx4rawsd6jcipe01ouaxvt&dashboard=/gdc/md/fan67iacybmx4rawsd6jcipe01ouaxvt/obj/65766&nochrome=true" width="100%" height="380px" allowTransparency="false"></iframe>
--->
-
 We can't fit more than 13 views in the dashboard panel.
 We have 6 views that are not channels.
 Meaning we have 7 views left for all our channels.
