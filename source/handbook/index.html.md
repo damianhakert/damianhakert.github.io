@@ -66,7 +66,7 @@ An example is the [public repository of this website](https://gitlab.com/gitlab-
 that also contains this [company handbook](https://about.gitlab.com/handbook/).
 On a personal level you should tell it like it is instead of putting up a poker face. Don't be afraid to admit you made a mistake or were wrong. When something went wrong it is a great opportunity to say 'what’s the [kaizen](https://en.wikipedia.org/wiki/Kaizen) moment here' and find a better way without hurt feelings.
 1. Sharing: We care about giving great software, documentation, examples, lessons,
-and processes to the world. An example is the MIT licensed [GitLab CE](https://about.gitlab.com/features/). We believe that open source creates more value than it captures.
+and processes to the world. An example is the MIT licensed [GitLab CE](https://about.gitlab.com/features/). We believe that open source creates more value than it captures. We are grateful to our customers, users, partners, investors and the open source ecosystem.
 1. Freedom: You should have clear objectives and the freedom to work on them as you
 see fit. Any instructions are open to discussion. You don't have to defend how you
 spend your day. We trust team members to do the right thing instead of having rigid rules.
