@@ -81,14 +81,14 @@ $ cd cool-blog/
 
 Now you have to create a GitLab project. Here we are going to create a "user
 page", which means that it is a project created within a user account (not a
-group account), and that the name of the project is the name of the username.
+group account), and that the name of the project looks like `YOURUSERNAME.gitlab.io`.
 Refer to the ["Getting started" section of the GitLab Pages manual][pagesdocs]
 for more information on that.
 
 From now on, remember to replace `YOURDOMAIN.org` with your custom domain and
-`YOURUSERNAME` with, well, you username ;)
+`YOURUSERNAME` with, well, your username. ;)
 
-Create a project named `YOURUSERNAME.gitlab.io` in order that GitLab will
+Create a project named `YOURUSERNAME.gitlab.io` so that GitLab will
 identify the project correctly. After that, upload your code to GitLab:
 
 ```
@@ -96,8 +96,8 @@ $ git remote add origin git@gitlab.com:YOURUSERNAME/YOURUSERNAME.gitlab.io.git
 $ git push -u origin master
 ```
 
-OK, so far we have a project uploaded to GitLab, but we have GitLab Pages yet.
-To add it, just create a `.gitlab-ci.yml` file and add the following:
+OK, so far we have a project uploaded to GitLab, but we haven't configured GitLab Pages yet.
+To configure it, just create a `.gitlab-ci.yml` file and add the following:
 
 ```yaml
 pages:
@@ -115,11 +115,11 @@ pages:
 
 This file instructs GitLab Runner to `deploy` by installing Jekyll and
 building your website under the `public/` folder
-(that's the `jekyll build -d public/` doing it).
+(`jekyll build -d public/`).
 
 Wait for the build process to complete. You can track the progress in the
 Builds page of your project. Once it starts, it probably won't take longer
-than 1m30s. Once the build is finished, your website will be available at
+than a few minutes. Once the build is finished, your website will be available at
 `https://YOURUSERNAME.gitlab.io`. Note that GitLab already provides TLS
 certificates to all subdomains of `gitlab.io`. So if you don't want to add a
 custom domain, you're done.
@@ -129,7 +129,7 @@ custom domain, you're done.
 Once you buy a domain name and point that domain to your GitLab Pages website,
 you need to configure 2 things:
 
-1. add the domain to GitLab Pages configuration ([learn how to do it here][customdomain])
+1. add the domain to GitLab Pages configuration ([see documentation][customdomain]);
 2. add your custom certificate to your website.
 
 Once you add your domain, your website will be available under both
@@ -140,12 +140,12 @@ But if you try to access your custom domain with `HTTPS`
 horrible page, saying that things are going wrong and someone is trying to
 steal your information. *Why is that?*
 
-The problem is this: since GitLab offers TLS certificates to all `gitlab.io` pages
+Since GitLab offers TLS certificates to all `gitlab.io` pages
 and your custom domain is just a `CNAME` over that same domain, GitLab serves
 the `gitlab.io` certificate, and your browser receives mixed messages: on one
 side, the browser is trying to access `YOURDOMAIN.org`, but on the other side
-it is getting a TLS certificate for a said `*.gitlab.io`.
-So it signals that something is wrong.
+it is getting a TLS certificate for `*.gitlab.io`, 
+signaling that something is wrong.
 
 In order to fix it, you need to obtain a certificate for `YOURDOMAIN.org` and
 add it to GitLab Pages. For that we are going to use
@@ -163,14 +163,14 @@ $ git clone https://github.com/letsencrypt/letsencrypt
 $ cd letsencrypt
 ```
 
-`letsencrypt-auto` offers a lot of free functionality. For example, if you have
+`letsencrypt-auto` offers a lot of functionality. For example, if you have
 a web server running Apache, you could add `letsencrypt-auto --apache` inside your
 webserver and have everything done for you. `letsencrypt` targets primarily Unix-like 
-webservers, so the `letsencrypt-auto` tool won't work fork Windows users. Check [this
+webservers, so the `letsencrypt-auto` tool won't work for Windows users. Check [this
 tutorial][letsencryptwindows] to see how to get Let's Encrypt certificates while running
 Windows.
 
-Since we are running GitLab's servers instead, we have to do a bit of manual
+Since we are running on GitLab's servers instead, we have to do a bit of manual
 work:
 
 ```shell
@@ -188,19 +188,18 @@ before continuing:
 5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.ewlbSYgvIxVOqiP1lD2zeDKWBGEZMRfO_4kJyLRP_4U
 
 #
-# things we don't need to care about how to setup a Python server
+# output omitted
 #
 
 Press ENTER to continue
-
 ```
 
-Again, since we are not running our own server, we can ignore the instructions
-on how to setup a Python webserver. Leave this terminal window open for now.
+Now it is waiting for the server to be correctly configured so it can go on.
+Leave this terminal window open for now.
 
-So, the goal is to the make our already published static website return the
-said token when the said URL is requested. That's easy: just create a custom
-page!
+So, the goal is to the make our already-published static website return 
+said token when said URL is requested. That's easy: just create a custom
+page! Just create a file in your blog folder that looks like this:
 
 ```markdown
 ---
@@ -211,8 +210,8 @@ permalink: /.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTb
 5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.ewlbSYgvIxVOqiP1lD2zeDKWBGEZMRfO_4kJyLRP_4U
 ```
 
-This tells Jekyll to create a static page (which you can see at
-`cool-blog/_site/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.html`)
+This tells Jekyll to create a static page, which you can see at
+`cool-blog/_site/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.html`,
 with no extra HTML, just the token in plain text. As we are using the `permalink` attribute in the 
 front matter, you can name this file anyway you want and put it anywhere, too.
  Note that the behaviour of the `permalink` attribute has 
@@ -223,7 +222,9 @@ just create the same file in the exact path, like
 or an equivalent path in your tool of choice.
 Here we'll call it `letsencrypt-setup.html` and place it in the root folder 
 of the blog. We can check that everything is working as expected:
+
 ```shell
+$ jekyll serve
 $ curl http://localhost:4000/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM
 5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.ewlbSYgvIxVOqiP1lD2zeDKWBGEZMRfO_4kJyLRP_4U
 ```
@@ -231,6 +232,7 @@ $ curl http://localhost:4000/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3
 Note that I just replaced the `http://YOURDOMAIN.org` (from the
 `letsencrypt-auto` instructions) with `http://localhost:4000`.
 Everything is working fine, so we just need to upload the new file to GitLab:
+
 ```
 $ git add letsencrypt-setup.html
 $ git commit -m "add letsencypt-setup.html file"
@@ -238,6 +240,7 @@ $ git push
 ```
 
 Once the build finishes, test again if everything is working well:
+
 ```shell
 # Note that we're using the actual domain, not localhost anymore
 $ curl http://YOURDOMAIN.org/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM
@@ -248,9 +251,10 @@ in the comments below.
 
 Now that everything is working as expected, go back to the terminal window
 that's waiting for you and hit `ENTER`. This instructs the Let's Encrypt's
-servers to go to the said URL. If they get the response they were waiting for,
+servers to go to the URL we just created. If they get the response they were waiting for,
 we've proven that we actually own the domain and now they'll send you the
 TLS certificates. After a while it responds:
+
 ```
 IMPORTANT NOTES:
  - Congratulations! Your certificate and chain have been saved at
@@ -262,20 +266,21 @@ IMPORTANT NOTES:
    Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
    Donating to EFF:                    https://eff.org/donate-le
 ```
+
 Success! We have correctly acquired a free TLS certificate for our domain! 
 
 Note, however, that like any other TLS certificate, it has an expiration date,
-and in case of certificates issued by Let's Encrypt, the certificate will
-remain valid for three months. When you finishing setting up, just put in your calendar to
+and in the case of certificates issued by Let's Encrypt, the certificate will
+remain valid for 90 days. When you finish setting up, just put in your calendar to
 remember to renew the certificate in time, otherwise it will become invalid,
 and the browser will reject it.
 
 Now we just need to upload the certificate and the key to GitLab.
-Go to the `Settings -> Pages` inside your project, remove the old CNAME and
+Go to **Settings** -> **Pages** inside your project, remove the old `CNAME` and
 add a new one with the same domain, but now you'll also upload the TLS
-certificate.
-Paste the contents of `/etc/letsencrypt/live/YOURDOMAIN.org/fullchain.pem`
-(you'll need `sudo` to read the file) to the "Certificate (PEM)" field and `/etc/letsencrypt/live/YOURDOMAIN.org/privkey.pem` (also needs `sudo`) to the
+certificate. Paste the contents of `/etc/letsencrypt/live/YOURDOMAIN.org/fullchain.pem`
+(you'll need `sudo` to read the file) to the "Certificate (PEM)"
+ field and `/etc/letsencrypt/live/YOURDOMAIN.org/privkey.pem` (also needs `sudo`) to the
 "Key (PEM)" field.
 
 ![Uploading the certificate to GitLab Pages](/images/blogimages/gitlab-pages-cert-upload-screenshot.png)
@@ -305,8 +310,9 @@ do the same.
 Instructing the search engines is really easy: just tell them that the HTTPS
 version is the "canonical" version, and they send all the users to it.
 And how do you do that? By adding a `link` tag to the header of the HTML:
+
 ```html
-<link rel="canonical" href="https://YOURDOMAIN.org/especific/page" />
+<link rel="canonical" href="https://YOURDOMAIN.org/specific/page" />
 ```
 
 Adding this to every header on a blog tells the search engine that the correct
@@ -318,7 +324,8 @@ Remember to use HTTPS for your CSS or JavaScript file URLs, because when the
 browser accesses a secure website that relies on an insecure resource, it may
 block that resource.
 
-It is [considered a good practice](relativeprotocol) to use the protocol agnostic path:
+It is [considered a good practice](relativeprotocol) to use the protocol-agnostic path:
+
 ```
 <link rel="stylesheet" href="//YOURDOMAIN.org/styles.css" />
 <script src="//YOURDOMAIN.org/script.js"></script>
@@ -331,9 +338,9 @@ There is, however, a case where the user specifically types in the URL
 
 The correct way of handling that would be to respond with a 301 "Moved
 permanently" HTTP code, and the browser would remember it for the next request.
-However, that's not a possibility we have here.
+However, that's not a possibility we have here, since we're running on GitLab's servers.
 
-A small hack you can do is redirect your users with a small JavaScript code:
+A small hack you can do is to redirect your users with a bit of JavaScript code:
 
 ```javascript
 var host = "YOURDOMAIN.org";
@@ -346,17 +353,17 @@ This redirects the user to the HTTPS version, but there are a few problems with 
 
 1. a user could have JavaScript disabled, and would not be affected by that;
 2. an attacker could simply remove that code and behave as a [Man in the Middle][middleattack];
-3. the browser won't remember the redirect instruction, so every time he types
-that same URL, the website will have to redirect the user again.
+3. the browser won't remember the redirect instruction, so every time the user types
+that same URL, the website will have to redirect him/her again.
 
 ## Wrap up
 
 ![a working certificate screenshot](/images/blogimages/working-certificate-screenshot.png)
 
-That's how easy it is to have a free HTTPS enabled website.
+That's how easy it is to have a free HTTPS-enabled website.
 With these tools, I see no reason not to do it.
 
-There's an [excellent talk][talk] on HTTPS where you can learn more 
+There's an [excellent talk][talk] by Pierre Far and Ilya Grigorik on HTTPS where you can learn more 
 about it.
 
 If you want to check the status of your HTTPS enabled website,
