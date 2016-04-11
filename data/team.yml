@@ -583,13 +583,12 @@
   role: <a href="https://about.gitlab.com/jobs/administrative-coordinator/">Administrative Coordinator</a>
   reports_to: COO
   picture: kirsten.jpg
-  twitter: kirsten_abma
   gitlab: kirstenabma
   story:  |
           After spending time planning a TEDx event of 500 people, Kirsten realised she loves working at start ups
           and is crazy about organizing events. If you need anything arranged, from plane tickets to meeting schedules
           or simply want to plan a party or event, just let her know. When she's not planning something she's travelling
-          the world and is out exploring with her friends or family. Or doing both at the same time.
+          the world and is out meeting up with her friends or family. Or doing both at the same time.
 
 - name: Michael Alessio
   role: <a href="https://about.gitlab.com/jobs/sales-director/">Director of Global Alliances and APAC Sales</a>
@@ -766,6 +765,15 @@
   gitlab:
   story:  |
           Joining April 11th
+          
+- name: K.C.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Development Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining April 11th          
 
 - name: R.B.
   role: <a href="https://about.gitlab.com/jobs/solutions-engineer/">Solutions Engineer</a>
@@ -775,6 +783,24 @@
   gitlab:
   story:  |
           Joining April 18th
+          
+- name: S.M.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Development Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining April 27th          
+
+- name: M.P.
+  role: Head of Product
+  reports_to: VP of Product
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining April 19th
 
 - name: M.F.
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>

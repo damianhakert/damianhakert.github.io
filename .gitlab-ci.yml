@@ -9,6 +9,8 @@ lint:
   stage: test
   script:
     - bundle exec rake lint
+  except:
+    - master
 
 build:
   stage: test
@@ -19,6 +21,7 @@ build:
 
 deploy:
   script:
+    - rsync -r ~/public/ public/
     - bundle exec rake lint
     - bundle exec middleman build
     - rsync -r public/ ~/public/
