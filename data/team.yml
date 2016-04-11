@@ -783,6 +783,15 @@
   gitlab:
   story:  |
           Joining April 18th
+          
+- name: S.M.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Development Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining April 27th          
 
 - name: M.P.
   role: Head of Product
