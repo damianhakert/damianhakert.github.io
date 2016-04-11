@@ -156,7 +156,7 @@ Let's Encrypt is a new certificate authority that offers both *free* and
 *automated* certificates. That's perfect for us: we don't have to pay for
 having HTTPS and you can do everything within the comfort of your terminal.
 
-We begin with downloading and installing the `letsencrypt-auto` utility. 
+We begin with downloading the `letsencrypt-auto` utility. 
 Open a new terminal window and type:
 
 ```shell
