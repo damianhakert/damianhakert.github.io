@@ -596,7 +596,7 @@ This question is crucial. If this is the first time they’ve ever bought someth
 
 ### 73 Insightful "How" Sales Questions That Get Buyers Talking <a name="73"></a>
 
-Art Sobczak wrote [a great article on [73 Insightful "How" Sales Questions That Get Buyers Talking](http://blog.hubspot.com/sales/how-sales-questions?utm_campaign=blog-rss-emails&utm_source=hs_email&utm_medium=email&utm_content=28057486)
+Art Sobczak wrote a great article on [73 Insightful "How" Sales Questions That Get Buyers Talking](http://blog.hubspot.com/sales/how-sales-questions?utm_campaign=blog-rss-emails&utm_source=hs_email&utm_medium=email&utm_content=28057486)
 
 These HOW questions are broken down into categories
 
