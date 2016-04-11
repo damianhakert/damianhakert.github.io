@@ -5,10 +5,9 @@ title: Support
 
 ## Other support pages
 
-- [Service Engineer On-boarding](/handbook/support/onboarding/)
+- [Service Engineer Onboarding](/handbook/support/onboarding/)
 - [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
 - [PGP Process](https://about.gitlab.com/handbook/support/pgp_process/)
-- [Support and Development Process](https://about.gitlab.com/handbook/support-and-development-process)
 
 ## Contents of the page
 
@@ -98,7 +97,7 @@ The channels are sorted in order of priority, there are 4 SLA categories:
 1. Emergency tickets should be answered within 30 minutes.
 2. Security disclosures through regular tickets should be answered within 1 business day.
 3. Disqus and Twitter: we strive to answer them within 1 business day.
-4. Posted Issues through the end: we strive to answer them within two weeks but 
+4. Posted Issues through the end: we strive to answer them within two weeks but
 not sooner than two days, to give the rest of the community a chance to respond.
 
 Preferably we like to answer tickets sooner than the SLA requires.
