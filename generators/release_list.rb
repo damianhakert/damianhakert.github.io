@@ -15,8 +15,8 @@ class ReleaseList
     print "Generating release list..."
     base_url = 'https://about.gitlab.com'
     dec = "##"
-    year = Time.new.year
-    month = Time.new.month
+    year = 2016
+    month = 3
     next_version = VERSIONS[0]
     major_version = next_version.split(".").first
     minor_version = next_version.split(".").last
