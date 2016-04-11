@@ -198,7 +198,7 @@ Now it is waiting for the server to be correctly configured so it can go on.
 Leave this terminal window open for now.
 
 So, the goal is to the make our already-published static website return 
-said token when said URL is requested. That's easy: just create a custom
+said token when said URL is requested. That's easy: create a custom
 page! Just create a file in your blog folder that looks like this:
 
 ```markdown
