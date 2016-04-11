@@ -369,6 +369,10 @@ that same URL, the website will have to redirect him/her again.
 That's how easy it is to have a free HTTPS-enabled website.
 With these tools, I see no reason not to do it.
 
+If you want to improve GitLab's support for Let's Encrypt, you can
+discuss and contribute in issues [#474][issue474], [#467][issue467] and 
+[#472][issue472] from GitLab EE. They are open to merge requests!
+
 There's an [excellent talk][talk] by Pierre Far and Ilya Grigorik on HTTPS where you can learn more 
 about it.
 
@@ -397,3 +401,6 @@ I hope it helps you :)
 [customdomain]: http://doc.gitlab.com/ee/pages/README.html#add-a-custom-domain-to-your-pages-website
 [certificateauthority]: https://en.wikipedia.org/wiki/Certificate_authority
 [limitation]: http://doc.gitlab.com/ee/pages/README.html#limitations
+[issue474]: https://gitlab.com/gitlab-org/gitlab-ee/issues/474
+[issue472]: https://gitlab.com/gitlab-org/gitlab-ee/issues/472
+[issue467]: https://gitlab.com/gitlab-org/gitlab-ee/issues/467
