@@ -138,10 +138,11 @@ and then view the documentation as a lower priority task as this inevitably lead
 1. Everything is **always in draft** and subject to change, including this handbook. So do not delay documenting things and do not include draft in the titles of documents. Ensure everyone can read the current state, nothing will ever be finished.
 1. If you copy content please remove it at the origin place and replace it with a link to the new content. Duplicate content leads to updating it in the wrong place, keep it [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 1. Explicitly note what **next action** you propose or expect and from whom.
-1. When you reply to a request please do so after you have completed the request or
+1. When you **reply** to a request please do so after you have completed the request or
 indicate when you plan to do it. In the latter case always send a second message
 when the request is complete.
-1. All guidelines in this handbook are meant to help, don't be afraid to do something because you can't oversee all guidelines, be gentle when reminding people about these guidelines, for example say: "It is not a problem, but next time please consider the following guideline from the handbook".
+1. Respect the privacy of our users and your fellow team members. Secure our production data at all times. Only work with production data when this is needed to perform your job. Looking into production data for malicious reasons (for exaple [LOVEINT](https://en.wikipedia.org/wiki/LOVEINT) or spying on direct messages of team members) is a fireable offense.
+1. Most guidelines in this handbook are meant to help, don't be afraid to do something because you can't oversee all guidelines, be gentle when reminding people about these guidelines, for example say: "It is not a problem, but next time please consider the following guideline from the handbook".
 
 ## Communication<a name="communication"></a>
 
