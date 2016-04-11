@@ -219,12 +219,11 @@ front matter, you can name this file anyway you want and put it anywhere, too.
 If you're not using version 3 of Jekyll or if you're using a different tool, 
 just create the same file in the exact path, like
 `cool-blog/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.html` 
-or an equivalent path in your tool of choice.
+or an equivalent path in your static site generator of choice.
 Here we'll call it `letsencrypt-setup.html` and place it in the root folder 
-of the blog. We can check that everything is working as expected:
+of the blog. In order to check that everything is working as expected, start a local server with `jekyll serve` in a separate terminal window and try to access the URL:
 
 ```shell
-$ jekyll serve
 $ curl http://localhost:4000/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM
 5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.ewlbSYgvIxVOqiP1lD2zeDKWBGEZMRfO_4kJyLRP_4U
 ```
