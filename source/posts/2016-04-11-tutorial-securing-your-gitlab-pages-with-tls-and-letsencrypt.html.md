@@ -383,8 +383,8 @@ I hope it helps you :)
 [publicbeta]: https://letsencrypt.org/2015/12/03/entering-public-beta.html
 [ssltest]: https://www.ssllabs.com/ssltest/
 [middleattack]: https://en.wikipedia.org/wiki/Man-in-the-middle_attack
-[talk]: (https://www.youtube.com/watch?v=cBhZ6S0PFCY)
-[relativeprotocol]: (http://www.paulirish.com/2010/the-protocol-relative-url/)
-[jekyllversion]: (https://jekyllrb.com/docs/upgrading/2-to-3/#permalinks-no-longer-automatically-add-a-trailing-slash) 
-[letsencryptwindows]: (https://cultiv.nl/blog/lets-encrypt-on-windows/)
-[customdomain]: (https://gitlab.com/help/pages/README.md#add-a-custom-domain-to-your-pages-website)
+[talk]: https://www.youtube.com/watch?v=cBhZ6S0PFCY
+[relativeprotocol]: http://www.paulirish.com/2010/the-protocol-relative-url/
+[jekyllversion]: https://jekyllrb.com/docs/upgrading/2-to-3/#permalinks-no-longer-automatically-add-a-trailing-slash 
+[letsencryptwindows]: https://cultiv.nl/blog/lets-encrypt-on-windows/
+[customdomain]: https://gitlab.com/help/pages/README.md#add-a-custom-domain-to-your-pages-website
