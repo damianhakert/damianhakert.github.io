@@ -51,10 +51,11 @@ code.
 It was also possible to enumerate users and check if they have 2FA enabled,
 because GitLab responded with a different error for each case.
 
-We'll also be releasing new packages for versions 8.5, 8.4, and 8.3 shortly, and
-we'll update this post when those are available.
+We've also [released new packages for 8.5, 8.4, and 8.3][backports] to include this
+important fix.
 
 [security vulnerability]: https://gitlab.com/gitlab-org/gitlab-ce/issues/14900
+[backports]: /2016/04/11/gitlab-8-dot-5-dot-10-released/
 
 ## Upgrade barometer
 
