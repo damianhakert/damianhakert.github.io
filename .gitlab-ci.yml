@@ -21,6 +21,7 @@ build:
 
 deploy:
   script:
+    - rsync -r ~/public/ public/
     - bundle exec rake lint
     - bundle exec middleman build
     - rsync -r public/ ~/public/
