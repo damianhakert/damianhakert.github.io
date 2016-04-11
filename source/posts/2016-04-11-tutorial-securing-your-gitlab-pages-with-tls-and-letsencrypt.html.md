@@ -53,12 +53,7 @@ In order to add TLS to HTTP, one would need to get a certificate, and until 2015
 one would need to either pay for it or figure out how to do it with one of the
 available [Certificate Authorities][certificateauthority].
 
-Enter Let's Encrypt:
-
->    Let’s Encrypt is a new Certificate Authority:
->    It’s free, automated, and open.
->    Get Started (Public Beta)
-
+Enter [Let's Encrypt][letsencrypt], a free, automated, and open Certificate Authority.
 Since [December 2015][publicbeta] anyone can get a free certificate from this
 new Certificate Authority from the comfort of their terminal.
 
@@ -88,7 +83,7 @@ for more information on that.
 From now on, remember to replace `YOURDOMAIN.org` with your custom domain and
 `YOURUSERNAME` with, well, your username. ;)
 
-Create a project named `YOURUSERNAME.gitlab.io` so that GitLab will
+[Create a project] named `YOURUSERNAME.gitlab.io` so that GitLab will
 identify the project correctly. After that, upload your code to GitLab:
 
 ```
@@ -97,7 +92,8 @@ $ git push -u origin master
 ```
 
 OK, so far we have a project uploaded to GitLab, but we haven't configured GitLab Pages yet.
-To configure it, just create a `.gitlab-ci.yml` file and add the following:
+To configure it, just create a `.gitlab-ci.yml` file in the root directory of your repository
+with the following contents:
 
 ```yaml
 pages:
@@ -386,6 +382,7 @@ This article is based on [Paul Wakeford's post][wakeford].
 
 I hope it helps you :)
 
+[Create a project]: http://doc.gitlab.com/ce/gitlab-basics/create-project.html
 [Jekyll]: https://jekyllrb.com/
 [examplepages]: https://gitlab.com/groups/pages
 [pagesdocs]: http://doc.gitlab.com/ee/pages/README.html#getting-started-with-gitlab-pages
