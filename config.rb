@@ -27,6 +27,8 @@ activate :blog do |blog|
   blog.permalink = "{year}/{month}/{day}/{title}/index.html"
   blog.layout = "post"
 
+  blog.summary_separator = '<!-- more -->'
+
   blog.custom_collections = {
     categories: {
       link: '/blog/categories/{categories}/index.html',
