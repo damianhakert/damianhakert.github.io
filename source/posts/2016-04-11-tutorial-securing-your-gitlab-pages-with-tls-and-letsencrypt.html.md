@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial: Securing your GitLab Pages with TLS and Let's Encrypt"
-date: 2016-04-11
+date: 2016-04-11 18:30
 comments: true
 categories: tutorial
 author: Guest author André Miranda
