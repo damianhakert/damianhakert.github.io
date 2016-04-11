@@ -373,7 +373,8 @@ If you want to improve GitLab's support for Let's Encrypt, you can
 discuss and contribute in issues [#474][issue474], [#467][issue467] and 
 [#472][issue472] from GitLab EE. They are open to merge requests!
 
-There's an [excellent talk][talk] by Pierre Far and Ilya Grigorik on HTTPS where you can learn more 
+There's an [excellent talk][talk] by [Pierre Far][pierretwitter] and 
+[Ilya Grigorik][ilyatwitter] on HTTPS where you can learn more 
 about it.
 
 If you want to check the status of your HTTPS enabled website,
@@ -404,3 +405,5 @@ I hope it helps you :)
 [issue474]: https://gitlab.com/gitlab-org/gitlab-ee/issues/474
 [issue472]: https://gitlab.com/gitlab-org/gitlab-ee/issues/472
 [issue467]: https://gitlab.com/gitlab-org/gitlab-ee/issues/467
+[pierretwitter]: https://twitter.com/pierrefar
+[ilyatwitter]: https://twitter.com/igrigorik
