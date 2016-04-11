@@ -39,7 +39,7 @@ The TLS layer can be added to other protocols too, such as FTP (making it
 
 ## HTTPS Everywhere
 
-Nowadays there is a strong push for using TLS on every website.
+Nowadays, there is a strong push for using TLS on every website.
 The ultimate goal is to make the web safer, by adding those three components
 cited above to every website.
 
@@ -49,9 +49,9 @@ rank websites since [2014](https://webmasters.googleblog.com/2014/08/https-as-ra
 
 ## TLS certificates
 
-In order to add TLS to HTTP one would need to get a certificate, and until 2015,
+In order to add TLS to HTTP, one would need to get a certificate, and until 2015,
 one would need to either pay for it or figure out how to do it with one of the
-available Certificate Authorities.
+available [Certificate Authorities](certificateauthority).
 
 Enter Let's Encrypt:
 
@@ -65,7 +65,7 @@ new Certificate Authority from the comfort of your terminal.
 
 ## Implementation
 
-So let's suppose we're going to create a static blog with [Jekyll 3][Jekyll].
+So, let's suppose we're going to create a static blog with [Jekyll 3][Jekyll].
 If you are not creating a blog or are not using Jekyll just follow along, it
 should be straightforward enough to translate the steps for different purposes.
 You can also find many example projects using different static site generators
@@ -102,7 +102,7 @@ To configure it, just create a `.gitlab-ci.yml` file and add the following:
 ```yaml
 pages:
   stage: deploy
-  image: ruby:2.1
+  image: ruby:2.3
   script:
     - gem install jekyll
     - jekyll build -d public/
@@ -117,11 +117,12 @@ This file instructs GitLab Runner to `deploy` by installing Jekyll and
 building your website under the `public/` folder
 (`jekyll build -d public/`).
 
-Wait for the build process to complete. You can track the progress in the
+While you Wait for the build process to complete, you can track the progress in the
 Builds page of your project. Once it starts, it probably won't take longer
 than a few minutes. Once the build is finished, your website will be available at
 `https://YOURUSERNAME.gitlab.io`. Note that GitLab already provides TLS
-certificates to all subdomains of `gitlab.io`. So if you don't want to add a
+certificates to all subdomains of `gitlab.io` (but it has some limitations, so 
+please [refer to the documentation for more](limitation)). So if you don't want to add a
 custom domain, you're done.
 
 ## Configuring the TLS certificate of your custom domain.
@@ -155,10 +156,10 @@ Let's Encrypt is a new certificate authority that offers both *free* and
 *automated* certificates. That's perfect for us: we don't have to pay for
 having HTTPS and you can do everything within the comfort of your terminal.
 
-We begin with downloading and installing the `letsencrypt-auto` utility:
+We begin with downloading and installing the `letsencrypt-auto` utility. 
+Open a new terminal window and type:
 
 ```shell
-$ cd
 $ git clone https://github.com/letsencrypt/letsencrypt
 $ cd letsencrypt
 ```
@@ -175,6 +176,11 @@ work:
 
 ```shell
 $ ./letsencrypt-auto certonly -a manual -d YOURDOMAIN.org
+# 
+# If you want to support another domain, www.YOURDOMAIN.org, for example, you
+# can add it to the domain list after -d like:
+# ./letsencrypt-auto certonly -a manual -d YOURDOMAIN.org www.YOURDOMAIN.org
+#
 ```
 
 After you accept that your IP will be publicly logged, a message like the
@@ -225,6 +231,7 @@ of the blog. In order to check that everything is working as expected, start a l
 
 ```shell
 $ curl http://localhost:4000/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM
+# response:
 5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.ewlbSYgvIxVOqiP1lD2zeDKWBGEZMRfO_4kJyLRP_4U
 ```
 
@@ -323,7 +330,7 @@ Remember to use HTTPS for your CSS or JavaScript file URLs, because when the
 browser accesses a secure website that relies on an insecure resource, it may
 block that resource.
 
-It is [considered a good practice](relativeprotocol) to use the protocol-agnostic path:
+It is [considered a good practice][relativeprotocol] to use the protocol-agnostic path:
 
 ```
 <link rel="stylesheet" href="//YOURDOMAIN.org/styles.css" />
@@ -387,4 +394,6 @@ I hope it helps you :)
 [relativeprotocol]: http://www.paulirish.com/2010/the-protocol-relative-url/
 [jekyllversion]: https://jekyllrb.com/docs/upgrading/2-to-3/#permalinks-no-longer-automatically-add-a-trailing-slash 
 [letsencryptwindows]: https://cultiv.nl/blog/lets-encrypt-on-windows/
-[customdomain]: https://gitlab.com/help/pages/README.md#add-a-custom-domain-to-your-pages-website
+[customdomain]: http://doc.gitlab.com/ee/pages/README.html#add-a-custom-domain-to-your-pages-website
+[certificateauthority]: https://en.wikipedia.org/wiki/Certificate_authority
+[limitation]: http://doc.gitlab.com/ee/pages/README.html#limitations
