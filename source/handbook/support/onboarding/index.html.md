@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: Service Engineer On-boarding
+title: Service Engineer Onboarding
 ---
 
 ## On this page
@@ -109,6 +109,22 @@ issue, either for a feature request, for a bug, or for further documentation.
 Since we do everything in the open, it is good practice to send the link of the
 issue to the requesting customer, so that they can also keep an eye on the discussion
 there, and weigh in if necessary.
+
+Typical kinds of issues created:
+
+- **Bug**
+   - Make sure it looks like a bug - otherwise ping one of the developers to confirm.
+   - Reproduce the bug
+   - Assign the bug fix to the next milestone
+   - Report back to customer
+- **Unpaid feature request**
+   - Provide maximum information and use case from customer in the issue,
+mention any alternatives, how badly the customer wants it.
+   - Ask a developer for opinion (do we want this feature in GitLab: yes/no, the
+developer might ask more questions before answer)
+- **Paid feature request**
+   - Follow some process as for an unpaid feature request, AND
+   - Ask for an estimate
 
 Sometimes it is helpful to create an issue on the [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/)
 when dealing with a **tough ticket**. Creating an issue allows more people within
