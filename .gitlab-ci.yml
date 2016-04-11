@@ -9,6 +9,8 @@ lint:
   stage: test
   script:
     - bundle exec rake lint
+  except:
+    - master
 
 build:
   stage: test
