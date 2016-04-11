@@ -299,7 +299,7 @@ $ curl -vX HEAD https://YOURDOMAIN.org/
 # starting connection
 #
 * TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
-* Server certificate: euandre.org
+* Server certificate: YOURDOMAIN.org
 * Server certificate: Let's Encrypt Authority X3
 * Server certificate: DST Root CA X3
 ```
