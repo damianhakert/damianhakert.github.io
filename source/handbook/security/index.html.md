@@ -15,7 +15,8 @@ title: Security Handbook
    user accounts, use that and keep your credentials to yourself by storing them in 'Your Vault'.
    If not, then store your credentials in an
    appropriate company 1Password vault so that your colleagues can sign in using
-   your credentials.
+   your credentials. If 2FA should be on for the new user account, make sure to store
+   recovery codes in the login, and consider using [auto-generated TOTP] if useful.
 1. Do not share credentials via email, issue comments, chat etc. This includes
    email addresses to login and API keys. Use 1Password vaults for this. You
    will be invited to applicable vaults after joining the company.
@@ -57,6 +58,7 @@ title: Security Handbook
 
 [1Password]: https://agilebits.com/onepassword
 [generate strong passwords]: https://support.1password.com/guides/mac/generate-a-strong-password.html
+[auto-generated TOTP]: https://blog.agilebits.com/2015/01/26/totp-for-1password-users/
 [Google Authenticator]: https://support.google.com/accounts/answer/1066447?hl=en
 [FileVault]: https://support.apple.com/en-us/HT204837
 [team call agenda]: https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit
