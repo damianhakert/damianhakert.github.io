@@ -576,6 +576,11 @@ BTW Trying to set this up via Google+ via [https://plus.google.com/hangouts/onai
 
 [One Tab](https://www.one-tab.com/) tames tabs into a list which can be sorted and exported.
 
+### Slack
+
+We use [Slack](https://www.slack.com/) which is a message app for teams in daily communication. Ask your manager for an invitation
+if you still don't have access. Browse through the channels and join those which you have interest in like Development, Frontend, Gaming and etc.
+
 ## Using Git to update this website<a name="starting-with-git"></a>
 
 ### Start using GitLab
