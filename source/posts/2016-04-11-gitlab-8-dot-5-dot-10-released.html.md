@@ -27,7 +27,7 @@ alerted us to a [security vulnerability] related to the two-factor authenticatio
 
 It was possible for an attacker to bypass password authentication of users that
 have 2FA enabled, and consequently sign in as a different user without knowing
-their password, if they could guess the user's current six-digit 2FA validation
+their password, if he could guess the user's current six-digit 2FA validation
 code.
 
 It was also possible to enumerate users and check if they have 2FA enabled,
