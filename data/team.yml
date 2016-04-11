@@ -424,6 +424,7 @@
   gitlab: axil
   maintains:  |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-recipes">GitLab Recipes</a></li>
+              <li>Maintainer of <a href="https://gitlab.com/groups/pages">GitLab Pages examples</a></li>
   story:  |
           Achilleas has been using GitLab since version 2, back when the default
           username and password were not documented. He started actively
