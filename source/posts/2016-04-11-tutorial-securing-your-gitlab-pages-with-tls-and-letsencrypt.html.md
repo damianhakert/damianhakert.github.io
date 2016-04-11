@@ -60,7 +60,7 @@ Enter Let's Encrypt:
 >    Get Started (Public Beta)
 
 Since [December 2015][publicbeta] anyone can get a free certificate from this
-new Certificate Authority from the comfort of your terminal.
+new Certificate Authority from the comfort of their terminal.
 
 
 ## Implementation
