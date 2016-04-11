@@ -1,29 +1,30 @@
-test:
+before_script:
+  - pwd
+  - git rev-parse HEAD
+  - export LC_ALL=en_US.UTF-8
+  - ''
+  - bundle install --path ~/bundle
+
+lint:
+  stage: test
   script:
-    - pwd
-    - git rev-parse HEAD
-    - export LC_ALL=en_US.UTF-8
-    - ''
-    - bundle install --path ~/bundle
-    - ''
-    - bundle exec yaml-lint source/_data/*.yml
-    - ''
-    - "# build without deploying, so that we know if a MR is horribly broken"
-    - bundle exec rake build
-  tags:
+    - bundle exec rake lint
+
+build:
+  stage: test
+  script:
+    - bundle exec middleman build
   except:
-  - tags
+    - master
+
 deploy:
   script:
-    - pwd
-    - export LC_ALL=en_US.UTF-8
-    - ''
-    - bundle install --path ~/bundle
-    - bundle exec rake build
-    - rsync -r --delete-after public/ ~/public/
+    - bundle exec rake lint
+    - bundle exec middleman build
+    - rsync -r public/ ~/public/
   type: deploy
   tags:
   only:
     - master
   except:
-  - tags
+    - tags

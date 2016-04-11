@@ -1,0 +1,29 @@
+.gs-button {
+  background: $gs-btn-bg;
+  color: $color-white;
+  padding: 10px 20px;
+  font-size: 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all .2s;
+
+  &:hover {
+    background: $gs-btn-hover-bg;
+    color: $color-white;
+    text-decoration: none;
+  }
+}
+
+.btn-purple {
+  color: $color-primary;
+  background-color: $color-white;
+  border-color: $color-primary;
+  transition: all .2s;
+  font-weight: 600;
+
+  &:hover {
+    color: $color-white;
+    background-color: $color-primary;
+    border-color: $color-primary;
+  }
+}

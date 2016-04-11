@@ -1,0 +1,43 @@
+<div class="panel panel-default nl">
+  <div class="panel-heading">
+    For the latest and most detailed news follow <strong><a href="https://twitter.com/gitlab">@gitlab</a></strong>
+    on Twitter.
+    <a href="https://gitlab.com/gitlab-com/blog-posts/issues">Future blog posts suggestions</a>.
+
+    <a href="/atom.xml" class="rss-btn pull-right">
+      <button class="btn btn-sm btn-default" data-toggle="tooltip" data-placement="right" title="RSS">
+        <i class="fa fa-rss"></i>
+      </button>
+    </a>
+
+  </div>
+  <div class="panel-body newsletter">
+
+    <span class="newsletter-preamble">
+      Get our GitLab newsletter twice monthly.
+    </span>
+
+    <div class="newsletter-form">
+
+      <script src="//app-ab13.marketo.com/js/forms2/js/forms2.min.js"></script>
+      <form id="mktoForm_1077"></form>
+      <script>
+
+
+        MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1077, function(form) {
+          form.onSuccess(function(values, followUpUrl) {
+
+            form.getFormElem().hide();
+            document.getElementById('confirmform').style.display = 'block';
+
+            ga('send', 'pageview');
+            ga('send', 'event', 'form', 'submit', 'newsletter signup');
+            return false;
+          });
+        });
+      </script>
+
+       <div id="confirmform" style="display:none;"><p>Thanks for subscribing!</p></div>
+    </div>
+  </div>
+</div>

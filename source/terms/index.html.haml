@@ -1,0 +1,43 @@
+---
+layout: default
+title: Terms
+---
+.container.text-left
+  .row
+    .col-sm-9.col-md-9
+      #gitlab-com
+        %h2.terms GitLab.com Terms
+        %p
+          %a{href: "print/gitlab_com_terms.pdf"} PDF Preview
+        = partial "includes/terms/gitlab-com"
+      #subscription
+        %h2.terms GitLab Subscription Terms
+        %p
+          %a{href: "print/gitlab_subscription_terms.pdf"} PDF Preview
+        = partial "includes/terms/subscription"
+      #consultancy
+        %h2.terms GitLab Consultancy Terms
+        %p
+          %a{href: "print/gitlab_consultancy_terms.pdf"} PDF Preview
+        = partial "includes/terms/consultrancy"
+      #githost
+        %h2.terms GitHost.io Terms
+        %p
+          %a{href: "print/githost_terms.pdf"} PDF Preview
+        = partial "includes/terms/githost"
+    .col-sm-3.col-md-3
+      %ul.nav.nav-list.fixed-sidenav{data: {spy: "affix", offset: {top: 100}}}
+        %li
+          %a{href: "#gitlab_com"} GitLab.com Terms
+        %li
+          %a{href: "#subscription"} GitLab Subscription Terms
+        %li
+          %a{href: "#consultancy"} GitLab Consultancy Terms
+        %li
+          %a{href: "#githost"} GitHost Terms
+        %li
+          %a{href: "/privacy"} Privacy Policy
+        %li
+          %a{href: "/dmca"} DMCA Policy
+        %li
+          %a{href: "/disclosure"} Responsible Disclosure Policy

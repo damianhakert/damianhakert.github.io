@@ -1,0 +1,48 @@
+- name: IBM
+  logo: /images/organizations/logo_3b.svg
+- name: SanDisk
+  logo: /images/organizations/logo_1b.svg
+- name: Lego
+  logo: /images/organizations/logo_1c.svg
+- name: RedHat
+  logo: /images/organizations/logo_1d.svg
+- name: Nasa
+  logo: /images/organizations/logo_1e.svg
+- name: Alibaba
+  logo: /images/organizations/logo_1f.svg
+- name: SpaceX
+  logo: /images/organizations/logo_2a.svg
+- name: Ing
+  logo: /images/organizations/logo_2b.svg
+- name: Sony
+  logo: /images/organizations/logo_2c.svg
+- name: Freddie Mac
+  logo: /images/organizations/logo_2d.svg
+- name: Pitney Bowes
+  logo: /images/organizations/logo_2e.svg
+- name: Cern
+  logo: /images/organizations/logo_2f.svg
+- name: EA
+  logo: /images/organizations/logo_3a.svg
+- name: Northwestern Mutual
+  logo: /images/organizations/logo_1a.svg
+- name: Macys
+  logo: /images/organizations/logo_3c.svg
+- name: Stack Exchange
+  logo: /images/organizations/logo_3d.svg
+- name: Ericsson
+  logo: /images/organizations/logo_3e.svg
+- name: Expedia
+  logo: /images/organizations/logo_3f.svg
+- name: Intel
+  logo: /images/organizations/logo_4a.svg
+- name: VMWare
+  logo: /images/organizations/logo_4b.svg
+- name: Lockhead Martin
+  logo: /images/organizations/logo_4c.svg
+- name: Uber
+  logo: /images/organizations/logo_4d.svg
+- name: Verizon
+  logo: /images/organizations/logo_4e.svg
+- name: USAA
+  logo: /images/organizations/logo_4f.svg

@@ -1,0 +1,10 @@
+- if !current_page.data.suppress_header
+  .simple-header
+    .container
+      .row
+        .col-sm-12.col-md-12
+          %h1
+            - if current_page.data.title
+              = current_page.data.title
+            - else
+              = yield_content(:title)

@@ -1,0 +1,12 @@
+- name: Business Insider
+  logo: /images/testimonials/bi.svg
+  quote: This 'well-kept' secret for programmers is suddenly popping up in the Fortune 500
+  link: http://www.businessinsider.com/gitlab-ceo-sytse-sid-sijbrandij-interview-2015-10
+- name: The Next Web
+  logo: /images/testimonials/user_99.svg
+  quote: Code collaboration platform GitLab acquires rival Gitorious
+  link: http://thenextweb.com/insider/2015/03/03/gitlab-acquires-rival-gitorious-will-shut-june-1/
+- name: Tech Crunch
+  logo: /images/testimonials/user_100.svg
+  quote: YC-Backed GitLab Is Like GitHub But For Enterprise
+  link: http://techcrunch.com/2015/03/03/the-great-git-debate/

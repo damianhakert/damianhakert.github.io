@@ -1,0 +1,47 @@
+---
+layout: default
+title: Company
+suppress_header: true
+purple_bg: true
+extra_css:
+  - company.css
+---
+.company.wrapper
+  .container
+    .row
+      .col-sm-6.col-md-4
+        %a{href: "/blog"}
+          = image_tag "/images/icons/blog.png"
+          %h2 Blog
+          %p The latest news.
+      .col-sm-6.col-md-4
+        %a{href: "/press"}
+          = image_tag "/images/icons/press.png"
+          %h2 Press
+          %p Information for journalists.
+      .col-sm-6.col-md-4
+        %a{href: "/about"}
+          = image_tag "/images/icons/about_us.png"
+          %h2 About Us
+          %p The vision of GitLab B.V..
+      .col-sm-6.col-md-4
+        %a{href: "/team"}
+          = image_tag "/images/icons/team_alt.png"
+          %h2 Team
+          %p Meet our team.
+      .col-sm-6.col-md-4
+        %a{href: "/jobs"}
+          = image_tag "/images/icons/jobs.png"
+          %h2 Jobs
+          %p Join our team.
+      .col-sm-6.col-md-4
+        %a{href: "/terms"}
+          = image_tag "/images/icons/terms.png"
+          %h2 Terms
+          %p Terms, conditions and policies.
+      .clearfix.visible-sm-block
+      .col-sm-6.col-md-4
+        %a{href: "/contact"}
+          = image_tag "/images/icons/contact_us.png"
+          %h2 Contact Us
+          %p How to get in touch.

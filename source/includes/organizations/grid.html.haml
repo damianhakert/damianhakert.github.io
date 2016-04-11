@@ -1,0 +1,10 @@
+.organizations.text-center
+  .container
+    %h2.organizations-title
+      GitLab is used by more than 100,000 organizations
+    .row
+      - data.organizations.each do |organization|
+        .col-xs-4.col-sm-4.col-md-3.col-lg-2.organizations-logo
+          = image_tag organization.logo, alt: organization.name
+    %small.organizations-disclaimer
+      All logos and trademarks are the property of their respective owners.

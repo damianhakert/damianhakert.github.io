@@ -1,0 +1,39 @@
+---
+layout: default
+title: Consultancy
+suppress_header: true
+extra_css:
+  - consultancy.css
+---
+.wrapper
+  .hire-us
+    .container
+      %h1#tagline
+        Need help installing, upgrading, or migrating to GitLab?
+        %br/
+        %small We can help with migration services or simply upgrading your current instance.
+        %br/
+        %small Please note that emergency help is for subscribers only.
+      %a{href: "#consultancy-form"}
+        %button#hire-us.btn.btn-default.btn-lg{type: "button"} Get a Quote
+  #consultancy-form.container
+    .row
+      .col-sm-9.col-md-9
+        .centered-form
+          %script{src: "//app-ab13.marketo.com/js/forms2/js/forms2.min.js"}
+          %form#mktoForm_1061
+          :javascript
+            MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1061, function(form) {
+              form.onSuccess(function(values, followUpUrl) {
+
+                form.getFormElem().hide();
+                document.getElementById('confirmform').style.visibility = 'visible';
+
+                ga('send', 'pageview');
+                ga('send', 'event', 'form', 'submit', 'newsletter signup');
+                return false;
+              });
+            });
+          #confirmform{style: "visibility:hidden;"}
+            %p
+              Thanks for subscribing!

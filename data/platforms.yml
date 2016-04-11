@@ -1,0 +1,85 @@
+- name: ubuntu1204
+  long_name: Ubuntu 12.04
+  download_command: curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/precise/gitlab-ce-XXX.deb/download
+                    dpkg -i gitlab-ce-XXX.deb
+  dependency_commands: |
+                     sudo apt-get install curl openssh-server ca-certificates postfix
+- name: ubuntu1404
+  long_name: Ubuntu 14.04 (recommended, for 15.04 select and download the package manually)
+  download_command: curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/trusty/gitlab-ce-XXX.deb/download
+                    dpkg -i gitlab-ce-XXX.deb
+  dependency_commands: |
+                    sudo apt-get install curl openssh-server ca-certificates postfix
+
+- name: debian7
+  long_name: Debian 7
+  download_command: curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/debian/wheezy/gitlab-ce-XXX.deb/download
+                    dpkg -i gitlab-ce-XXX.deb
+  dependency_commands: |
+                    sudo apt-get install curl openssh-server ca-certificates postfix
+- name: debian8
+  long_name: Debian 8
+  download_command: curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/debian/jessie/gitlab-ce-XXX.deb/download
+                    dpkg -i gitlab-ce-XXX.deb
+  dependency_commands: |
+                    sudo apt-get install curl openssh-server ca-certificates postfix
+- name: centos6
+  long_name: CentOS 6 (and RedHat/Oracle/Scientific Linux 6)
+  download_command: curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
+  install_commands: |
+                    sudo yum install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/el/6/gitlab-ce-XXX.rpm/download
+                    rpm -i gitlab-ce-XXX.rpm
+  dependency_commands: |
+                    sudo yum install curl openssh-server openssh-clients postfix cronie
+                    sudo service postfix start
+                    sudo chkconfig postfix on
+
+  firewall_open: sudo lokkit -s http -s ssh
+- name: centos7
+  long_name: CentOS 7 (and RedHat/Oracle/Scientific Linux 7)
+  download_command: curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
+  install_commands: |
+                    sudo yum install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/el/7/gitlab-ce-XXX.rpm/download
+                    rpm -i gitlab-ce-XXX.rpm
+  dependency_commands: |
+                    sudo yum install curl policycoreutils openssh-server openssh-clients
+                    sudo systemctl enable sshd
+                    sudo systemctl start sshd
+                    sudo yum install postfix
+                    sudo systemctl enable postfix
+                    sudo systemctl start postfix
+  firewall_open: |
+                    sudo firewall-cmd --permanent --add-service=http
+                    sudo systemctl reload firewalld
+- name: raspberrypi2
+  long_name: Raspberry PI 2 on Raspbian
+  download_command: |
+                    sudo curl -sS https://packages.gitlab.com/install/repositories/gitlab/raspberry-pi2/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/raspberry-pi2/packages/raspbian/(wheezy|jessie)/gitlab-ce-XXX.deb/download
+                    dpkg -i gitlab-ce-XXX.deb
+  dependency_commands: |
+                    sudo apt-get install curl openssh-server ca-certificates postfix apt-transport-https
+                    curl https://packages.gitlab.com/gpg.key | sudo apt-key add -

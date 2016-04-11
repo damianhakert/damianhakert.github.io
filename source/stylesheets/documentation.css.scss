@@ -1,0 +1,35 @@
+@import "variables";
+
+p {
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.wrapper {
+  min-height: 0;
+}
+
+.documentation-container {
+  position: relative;
+  width: 100%;
+  height: 125px;
+  overflow: hidden;
+  background: $color-primary;
+}
+
+.documentation-overlay {
+  background: rgba($color-primary, .62);
+  height: 500px;
+}
+
+.documentation-content {
+  padding-top: 25px;
+  text-align: center;
+  color: $color-white;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.container-documentation {
+  padding: 5%;
+}
