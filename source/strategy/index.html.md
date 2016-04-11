@@ -121,7 +121,7 @@ Change all creative work from read-only to read-write so that **everyone can con
 
 2. Ship the features in our direction [https://about.gitlab.com/direction/](https://about.gitlab.com/direction/)
 
-3. Improve code quality, look and feel, usability, and performance.
+3. Improve code quality, look and feel, usability, and [performance](https://gitlab.com/gitlab-com/operations/issues/182).
 
 4. Implement effective development processes and leadership.
 
@@ -155,9 +155,9 @@ Change all creative work from read-only to read-write so that **everyone can con
 
 4. Show that we can test big projects (Rails, etc.) faster than Travis CI.
 
-5. Announce we'll sponsor every diversity in tech event outside the US with at least $500.
+5. Announce we'll sponsor every diversity in tech event with at least $500. DONE
 
-6. Introduce 'everyone can contribute' as our why and tagline.
+6. Introduce 'everyone can contribute' as our why and tagline. DONE
 
 7. Hire partner marketing and product marketing people (release posts, website, and sales enablement).
 
@@ -175,25 +175,23 @@ Change all creative work from read-only to read-write so that **everyone can con
 
 6. Within 2016 we'll switch from TCV to ARR as the metric for bonuses.
 
-7. Monthly incentive for the whole company ($100 dinner) if we make our sales goal.
+7. Monthly incentive for the whole company ($100 dinner) if we make our sales goal. DONE
 
-## Operations 2016
+## People Operations 2016
 
-1. [Respond to all community communication](https://dev.gitlab.org/gitlab/organization/issues/306) and have reliable response times.
+1. Include goals and promotion criteria in all job descriptions.
 
-2. Include goals and promotion criteria in all job descriptions.
+2. Develop great recruiting, hiring, onboarding, offboarding practices with full time HR and recruiter.
 
-3. Develop great recruiting, hiring, onboarding, offboarding practices with full time HR and recruiter.
+3. To keep our great culture we need to institutionalize feedback.
 
-4. To keep our great culture we need to institutionalize feedback.
-
-5. Sponsor initiatives and hire in countries that have low opportunity.
+4. Sponsor initiatives and hire in countries that have low opportunity.
 
 ## Production Engineering 2016
 
-1. A highly available GitLab.com that feels fast and has little downtime.
+1. A highly available GitLab.com that [feels fast](https://gitlab.com/gitlab-com/operations/issues/182) and has little downtime.
 
-2. [Free CI runners for everyone](https://dev.gitlab.org/gitlab/gitlab-ci/issues/322) for at least as long as our Azure and DO credits last.
+2. [Free CI runners for everyone](https://dev.gitlab.org/gitlab/gitlab-ci/issues/322) for at least as long as our credits last. DONE
 
 3. Foster leadership that stresses radiating knowledge in code, documentation, and blog articles.
 
