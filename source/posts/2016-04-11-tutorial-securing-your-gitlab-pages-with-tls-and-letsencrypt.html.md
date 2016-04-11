@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial: Securing your GitLab Pages with TLS and Let's Encrypt"
-date: 2016-04-11 09:00:00
+date: 2016-04-11 19:00:00
 comments: true
 categories: tutorial
 author: Guest author André Miranda
@@ -51,7 +51,7 @@ rank websites since [2014](https://webmasters.googleblog.com/2014/08/https-as-ra
 
 In order to add TLS to HTTP, one would need to get a certificate, and until 2015,
 one would need to either pay for it or figure out how to do it with one of the
-available [Certificate Authorities](certificateauthority).
+available [Certificate Authorities][certificateauthority].
 
 Enter Let's Encrypt:
 
@@ -121,7 +121,7 @@ While you Wait for the build process to complete, you can track the progress in 
 Builds page of your project. Once it starts, it probably won't take longer
 than a few minutes. Once the build is finished, your website will be available at
 `https://YOURUSERNAME.gitlab.io`. Note that GitLab already provides TLS
-certificates to all subdomains of `gitlab.io` (but it has some limitations, so 
+certificates to all subdomains of `gitlab.io` (but it has some limitations, so
 please [refer to the documentation for more](limitation)). So if you don't want to add a
 custom domain, you're done.
 
@@ -145,7 +145,7 @@ Since GitLab offers TLS certificates to all `gitlab.io` pages
 and your custom domain is just a `CNAME` over that same domain, GitLab serves
 the `gitlab.io` certificate, and your browser receives mixed messages: on one
 side, the browser is trying to access `YOURDOMAIN.org`, but on the other side
-it is getting a TLS certificate for `*.gitlab.io`, 
+it is getting a TLS certificate for `*.gitlab.io`,
 signaling that something is wrong.
 
 In order to fix it, you need to obtain a certificate for `YOURDOMAIN.org` and
@@ -156,7 +156,7 @@ Let's Encrypt is a new certificate authority that offers both *free* and
 *automated* certificates. That's perfect for us: we don't have to pay for
 having HTTPS and you can do everything within the comfort of your terminal.
 
-We begin with downloading the `letsencrypt-auto` utility. 
+We begin with downloading the `letsencrypt-auto` utility.
 Open a new terminal window and type:
 
 ```shell
@@ -166,7 +166,7 @@ $ cd letsencrypt
 
 `letsencrypt-auto` offers a lot of functionality. For example, if you have
 a web server running Apache, you could add `letsencrypt-auto --apache` inside your
-webserver and have everything done for you. `letsencrypt` targets primarily Unix-like 
+webserver and have everything done for you. `letsencrypt` targets primarily Unix-like
 webservers, so the `letsencrypt-auto` tool won't work for Windows users. Check [this
 tutorial][letsencryptwindows] to see how to get Let's Encrypt certificates while running
 Windows.
@@ -176,7 +176,7 @@ work:
 
 ```shell
 $ ./letsencrypt-auto certonly -a manual -d YOURDOMAIN.org
-# 
+#
 # If you want to support another domain, www.YOURDOMAIN.org, for example, you
 # can add it to the domain list after -d like:
 # ./letsencrypt-auto certonly -a manual -d YOURDOMAIN.org www.YOURDOMAIN.org
@@ -203,7 +203,7 @@ Press ENTER to continue
 Now it is waiting for the server to be correctly configured so it can go on.
 Leave this terminal window open for now.
 
-So, the goal is to the make our already-published static website return 
+So, the goal is to the make our already-published static website return
 said token when said URL is requested. That's easy: create a custom
 page! Just create a file in your blog folder that looks like this:
 
@@ -218,15 +218,15 @@ permalink: /.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTb
 
 This tells Jekyll to create a static page, which you can see at
 `cool-blog/_site/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.html`,
-with no extra HTML, just the token in plain text. As we are using the `permalink` attribute in the 
+with no extra HTML, just the token in plain text. As we are using the `permalink` attribute in the
 front matter, you can name this file anyway you want and put it anywhere, too.
- Note that the behaviour of the `permalink` attribute has 
-[changed][jekyllversion] from Jekyll 2 to Jekyll 3, so make sure you have Jekyll 3.x installed. 
-If you're not using version 3 of Jekyll or if you're using a different tool, 
+ Note that the behaviour of the `permalink` attribute has
+[changed][jekyllversion] from Jekyll 2 to Jekyll 3, so make sure you have Jekyll 3.x installed.
+If you're not using version 3 of Jekyll or if you're using a different tool,
 just create the same file in the exact path, like
-`cool-blog/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.html` 
+`cool-blog/.well-known/acme-challenge/5TBu788fW0tQ5EOwZMdu1Gv3e9C33gxjV58hVtWTbDM.html`
 or an equivalent path in your static site generator of choice.
-Here we'll call it `letsencrypt-setup.html` and place it in the root folder 
+Here we'll call it `letsencrypt-setup.html` and place it in the root folder
 of the blog. In order to check that everything is working as expected, start a local server with `jekyll serve` in a separate terminal window and try to access the URL:
 
 ```shell
@@ -273,7 +273,7 @@ IMPORTANT NOTES:
    Donating to EFF:                    https://eff.org/donate-le
 ```
 
-Success! We have correctly acquired a free TLS certificate for our domain! 
+Success! We have correctly acquired a free TLS certificate for our domain!
 
 Note, however, that like any other TLS certificate, it has an expiration date,
 and in the case of certificates issued by Let's Encrypt, the certificate will
@@ -370,11 +370,11 @@ That's how easy it is to have a free HTTPS-enabled website.
 With these tools, I see no reason not to do it.
 
 If you want to improve GitLab's support for Let's Encrypt, you can
-discuss and contribute in issues [#474][issue474], [#467][issue467] and 
+discuss and contribute in issues [#474][issue474], [#467][issue467] and
 [#472][issue472] from GitLab EE. They are open to merge requests!
 
-There's an [excellent talk][talk] by [Pierre Far][pierretwitter] and 
-[Ilya Grigorik][ilyatwitter] on HTTPS where you can learn more 
+There's an [excellent talk][talk] by [Pierre Far][pierretwitter] and
+[Ilya Grigorik][ilyatwitter] on HTTPS where you can learn more
 about it.
 
 If you want to check the status of your HTTPS enabled website,
@@ -397,7 +397,7 @@ I hope it helps you :)
 [middleattack]: https://en.wikipedia.org/wiki/Man-in-the-middle_attack
 [talk]: https://www.youtube.com/watch?v=cBhZ6S0PFCY
 [relativeprotocol]: http://www.paulirish.com/2010/the-protocol-relative-url/
-[jekyllversion]: https://jekyllrb.com/docs/upgrading/2-to-3/#permalinks-no-longer-automatically-add-a-trailing-slash 
+[jekyllversion]: https://jekyllrb.com/docs/upgrading/2-to-3/#permalinks-no-longer-automatically-add-a-trailing-slash
 [letsencryptwindows]: https://cultiv.nl/blog/lets-encrypt-on-windows/
 [customdomain]: http://doc.gitlab.com/ee/pages/README.html#add-a-custom-domain-to-your-pages-website
 [certificateauthority]: https://en.wikipedia.org/wiki/Certificate_authority
