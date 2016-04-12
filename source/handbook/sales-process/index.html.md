@@ -59,6 +59,7 @@ Before a lead is converted or an opportunity is created the following must occur
 * Interest by prospect to learn more about GitLab - moving to discovery stage
 * Discovery call scheduled with prospect - moving to discovery stage
 * Interest by GitLab salesperson to pursue the opportunity
+* If you have given a quote (pricing) please convert as this is now a sales opportunity
 
 ### Opportunity Naming Convention <a name="naming"></a>
 
