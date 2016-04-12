@@ -545,6 +545,26 @@ Use space for page down instead of fn+up arrow.
 
 Please add instructions how to set up a Bluejeans meeting, how to record it and how to add the resulting video to our Youtube channel.
 
+### Gmail
+
+#### Filters
+
+It might be useful to add a Gmail filter that adds a label to any GitLab
+notification email in which you are specifically mentioned, as opposed to a
+notification that you received simply because you were subscribed to the issue
+or merge request.
+
+1. Search for `@your_gitlab_username` in Gmail
+1. Click the down arrow on the right side of the search field
+1. Click "Create filter with this search"
+1. Check "Apply the label:" and select a label to add, or create a new one, such
+   as "Mentioned"
+1. Check "Also apply filter to matching conversations."
+1. Click "Create filter"
+
+If your username on dev.gitlab.org is different from your username on
+GitLab.com, you might want to create a similar filter for that username as well.
+
 ### Hangouts on air
 
 Hangouts on Air probably only works with a maximum of 15 people for scheduled calls (same limit as normal Google Hangouts).
