@@ -412,3 +412,18 @@
     }
   }
 }
+
+.what-is-twitter {
+  padding-top: 15px;
+
+  a {
+    color: $color-white;
+    text-decoration: none;
+    font-size: (18px / 16px) * 1em;
+    border-bottom: 1px solid $color-white;
+
+    &:hover {
+      border-bottom-color: transparent;
+    }
+  }
+}
