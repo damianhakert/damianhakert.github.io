@@ -15,7 +15,7 @@
           He loves a good Martini and a merge request that can be accepted without comments.
           He is the lead author of GitLab CE and CI.
 
-- name: Sytse 'Sid' Sijbrandij
+- name: Sid Sijbrandij
   role: Co-founder, <a href="https://about.gitlab.com/jobs/chief-executive-officer/">Chief Executive Officer (CEO)</a>
   reports_to: Board of Directors
   twitter: sytses
@@ -688,7 +688,7 @@
   gitlab: bradenC
   story:  |
           Braden is passionate about software and marketing. He is currently studying at BYU and is an avid supporter of their athletics. When he’s not buried in marketing projects or the school’s library he can be found adventuring in the great outdoors with his wife and son.
-         
+
 
 - name: Amanda Folson
   role: <a href="https://about.gitlab.com/jobs/developer-advocate/">Developer Advocate</a>
@@ -765,7 +765,7 @@
   gitlab:
   story:  |
           Joining April 11th
-          
+
 - name: K.C.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Development Lead
@@ -773,7 +773,7 @@
   twitter:
   gitlab:
   story:  |
-          Joining April 11th          
+          Joining April 11th
 
 - name: R.B.
   role: <a href="https://about.gitlab.com/jobs/solutions-engineer/">Solutions Engineer</a>
@@ -783,7 +783,7 @@
   gitlab:
   story:  |
           Joining April 18th
-          
+
 - name: S.M.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Development Lead
@@ -791,7 +791,7 @@
   twitter:
   gitlab:
   story:  |
-          Joining April 27th          
+          Joining April 27th
 
 - name: M.P.
   role: Head of Product
