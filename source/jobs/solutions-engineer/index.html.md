@@ -34,4 +34,4 @@ effective Indirect Sales model. 
 - Vast experience with Ruby on Rails Applications and git
 - Vast experience in Software Development and Developer Tool Pipeline
 - Great people skills and presentation skills
-- Work remotely from anywhere in the world (Curious to see what that looks like? Check out our remote manifesto!)
+- Work remotely from anywhere in the world (Curious to see what that looks like? Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!)
