@@ -164,3 +164,16 @@ iframe {
 .install-gitlab-btn {
   white-space: normal;
 }
+
+.org-structure {
+  font-size: 16px;
+  
+  li ul {
+    margin-left: 20px;
+  }
+
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+}
