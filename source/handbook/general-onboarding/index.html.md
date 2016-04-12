@@ -69,21 +69,11 @@ introduce yourself to the team so please prepare some talking points for yoursel
 Some tips to help you out here: tell us about where you were before GitLab, why
 you wanted to join our team, just a little something about your background and
 of course something on what you like to do in your spare time."
-* [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team.
-   * [ ] 1. call with ___
-   * [ ] 2. call with ___
-   * [ ] 3. call with ___
-   * [ ] 4. call with ___
-   * [ ] 5. call with ___
-   * [ ] 6. call with ___
-   * [ ] 7. call with ___
-   * [ ] 8. call with ___
-   * [ ] 9. call with ___
-   * [ ] 10. call with ___
 
 
-### WITHIN TWO DAYS OF STARTING
-*For GitLab Inc employees only*
+### ON YOUR FIRST DAY
+
+#### For GitLab Inc employees only
 
 * [ ] People Ops: gather relevant information from new team member to enter them into the TriNet system.
 * [ ] People Ops: complete and submit an online Add New Hire Form
@@ -99,6 +89,15 @@ welcome email to the employee at their work email on their first date of hire.
 This info is needed to get your profile ready with Savvy HR in order to get you your payslips and other information.
 Next to Savvy, the People Ops team will also get a copy of the form info for your employee file on BambooHR
 
+#### All team members
+
+* [ ] New team member: Register on 1Password by clicking [this link](https://gitlab.1password.com/teamjoin/invitation/J2KWH3CJDRFA7KTFDVVXXDSCMY)
+and then ping @rspeicher to confirm your account.
+* [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
+* [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
+* [ ] Robert/Jacob/COO: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
+* [ ] New team member: Use the "reset your password" email of BambooHR to set a password and access your profile.
+* [ ] New team member: Add your Address, Phone number, private email and emergency contact to your BambooHR profile page.
 
 ### WITHIN FIRST WEEK OF STARTING
 
@@ -108,13 +107,17 @@ Next to Savvy, the People Ops team will also get a copy of the form info for you
 * [ ] PeopleOps: Add new team member to the info sheets of the Austin Summit.
 * [ ] PeopleOps: Send the new team member the "reset password" email for their BambooHR profile.
 * [ ] PeopleOps: Create a profile on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
-* [ ] New team member: Register on 1Password by clicking [this link](https://gitlab.1password.com/teamjoin/invitation/J2KWH3CJDRFA7KTFDVVXXDSCMY)
-and then ping @rspeicher to confirm your account.
-* [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
-* [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
-* [ ] Robert/Jacob/COO: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
-* [ ] New team member: Use the "reset your password" email of BambooHR to set a password and access your profile.
-* [ ] New team member: Add your Address, Phone number, private email and emergency contact to your BambooHR profile page.
+* [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team.
+   * [ ] 1. call with ___
+   * [ ] 2. call with ___
+   * [ ] 3. call with ___
+   * [ ] 4. call with ___
+   * [ ] 5. call with ___
+   * [ ] 6. call with ___
+   * [ ] 7. call with ___
+   * [ ] 8. call with ___
+   * [ ] 9. call with ___
+   * [ ] 10. call with ___
 * [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar, stock photo or something with sunglasses).
 * [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. Assign the merge request to your hiring manager.
 * [ ] Hiring manager: Merge the request to add the new team member to be added to the team page, and coordinate with Marketing to send out a tweet from @gitlab.
