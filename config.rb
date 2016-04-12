@@ -58,6 +58,18 @@ helpers do
       partial "includes/icons/#{icon}.svg"
     end
   end
+
+  def xml_feed_content(article)
+    content = article.body
+
+    if article.data.image_title
+      content << "<img src='#{data.site.url}#{article.data.image_title}' class='webfeedsFeaturedVisual' style='display: none;' />"
+    else
+      content << "<img src='#{data.site.url}#{image_path("default-blog-image.png")}' class='webfeedsFeaturedVisual' style='display: none;' />"
+    end
+
+    h(content)
+  end
 end
 
 # Build-specific configuration
