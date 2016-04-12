@@ -20,7 +20,7 @@ set :haml, {
 activate :syntax, line_numbers: false
 
 set :markdown_engine, :redcarpet
-set :markdown, fenced_code_blocks: true, smartypants: true
+set :markdown, fenced_code_blocks: true, smartypants: true, tables: true
 
 activate :blog do |blog|
   blog.sources = "posts/{year}-{month}-{day}-{title}.html"
