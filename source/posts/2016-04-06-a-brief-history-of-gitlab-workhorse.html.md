@@ -245,3 +245,8 @@ before forwarding them to gitlab-workhorse. We could avoid this
 unncessary delay and give people who use Apache instead of NGINX a
 better experience if we [implement selective request buffering in
 gitlab-workhorse](https://gitlab.com/gitlab-org/gitlab-workhorse/issues/1#note_2681403).
+
+If you want to know what is coming next in GitLab, check out our
+[Direction](https://about.gitlab.com/direction/) page, or follow developments on
+our latest milestones for 8.7 [CE](https://gitlab.com/gitlab-org/gitlab-ce/milestones/23)
+and [EE](https://gitlab.com/gitlab-org/gitlab-ee/milestones/9).
