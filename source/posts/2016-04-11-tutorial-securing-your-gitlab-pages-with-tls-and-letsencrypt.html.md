@@ -118,7 +118,7 @@ Builds page of your project. Once it starts, it probably won't take longer
 than a few minutes. Once the build is finished, your website will be available at
 `https://YOURUSERNAME.gitlab.io`. Note that GitLab already provides TLS
 certificates to all subdomains of `gitlab.io` (but it has some limitations, so
-please [refer to the documentation for more](limitation)). So if you don't want to add a
+please [refer to the documentation for more][limitation]). So if you don't want to add a
 custom domain, you're done.
 
 ## Configuring the TLS certificate of your custom domain.
