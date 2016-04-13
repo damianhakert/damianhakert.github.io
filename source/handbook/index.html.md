@@ -597,6 +597,9 @@ BTW Trying to set this up via Google+ via [https://plus.google.com/hangouts/onai
 
 [One Tab](https://www.one-tab.com/) tames tabs into a list which can be sorted and exported.
 
+### Check whom occupies a given port
+When the GitLab Development Kit cannot start using the `./run` command and unicorn terminates because port 3000 is already in use you will have to check what process does. Running `sudo lsof -i -n -P | grep TCP | grep 3000` will yield the offender so this process can be killed. It might be wise to alias this command in your `.bash_profile` or equivalent for your shell.
+
 ## Using Git to update this website<a name="starting-with-git"></a>
 
 ### Start using GitLab
@@ -637,7 +640,6 @@ BTW Trying to set this up via Google+ via [https://plus.google.com/hangouts/onai
 
 This is especially a problem for anyone running a Mac OSX operating system. The
 command to 'tame' git is `git config --global core.autocrlf input`
-
 
 ### Preview website changes locally
 
