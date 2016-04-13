@@ -138,5 +138,4 @@ How does your workflow look and why does it work for you?
 
 - [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/)
 - [The Release Manager](https://about.gitlab.com/2015/06/25/release-manager-the-invisible-hero/)
-- [Life as a Non Technical Employee at GitLab](https://about.gitlab.com/2015/06/30/life-as-a-non-technical-employee-at-gitlab/)
 - [The Remote Manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)
