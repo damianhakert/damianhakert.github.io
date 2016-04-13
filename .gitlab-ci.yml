@@ -24,7 +24,7 @@ deploy:
     - rsync -r ~/public/ public/
     - bundle exec rake lint
     - bundle exec middleman build
-    - rsync -r public/ ~/public/
+    - rsync --delete -r public/ ~/public/
   type: deploy
   tags:
   only:
