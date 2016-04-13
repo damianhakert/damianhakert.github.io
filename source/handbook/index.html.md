@@ -648,8 +648,8 @@ command to 'tame' git is `git config --global core.autocrlf input`
 
 ### Preview website changes locally
 
-1. In a terminal, execute: `bundle exec rake preview`.
-1. Visit http://localhost:4000 in your browser.
+1. In a terminal, execute: `bundle exec middleman`.
+1. Visit http://localhost:4567 in your browser.
 1. To edit the site locally you'll need to install a text editor. We recommend
    [Sublime Text 2](http://www.sublimetext.com/2).
 
