@@ -22,7 +22,7 @@ PeopleOps has these contracts in BambooHR as templates (for reasons of formattin
 
 ## Disclaimer <a name="disclaimer"></a>
 
-These agreements are examples of the agreements that we currently use at GitLab. However, the terms and conditions of  an employee or
+These agreements are examples of the agreements that we currently use at GitLab. However, the terms and conditions of an employee or
 contractor’s agreement will vary based on each employee or contractor’s specific circumstances. GitLab reserves the right to amend or
 change the sample agreements, as well as each employee or contractor’s actual agreement. The samples below are samples only — they are not
 valid as such and do not replace personalized signed agreements.
@@ -37,7 +37,7 @@ The following set of steps should suffice:
 1. Contractor entity: if the employee is in the US, GitLab Inc. is the contracting entity, in all other regions GitLab BV is the contracting entity.
 1. Download the right contract or offer letter template from the "In Process of Hiring" file on the Documents page of [BambooHR](https://gitlab.bamboohr.com)
 1. Remember that regardless of the status of the new team member, i.e. contractor or employee for either GitLab Inc., or GitLab BV,
-  an NDA and IP Agreement (called a PIAA for the Inc. entity) must be included with the contract.
+ an NDA and IP Agreement (called a PIAA for the Inc. entity) must be included with the contract.
 1. Find all fields with curly brackets (` { } `), and edit as appropriate. It is often efficient
 to do a find + replace on fields that appear multiple times such as names, email
 addresses, etc. (fields are named the same in the contracts / PIAA to make this easier).
@@ -73,13 +73,12 @@ Company’s employee compensation policies in effect from time to time.
 {OPTIONAL: In addition to your base salary you will be eligible to participate in
 additional incentive arrangements as set forth in the paragraphs below.}
 
-**3\. {OPTIONAL BONUS (usually for BDR's)} Performance Bonus**
-You will be eligible for a quarterly performance bonus in the following amounts:  
-% of Target Met &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bonus  <br>
- 25% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $(0.25 x)  
- 50% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $(0.50 x)  
- 75% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $(0.75 x)  
- 100% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $(1.00 x)  
+**3\. {OPTIONAL BONUS (usually for BDR's)} Performance Bonus** You will be eligible for a quarterly performance bonus in the following amounts:<br>
+% of Target Met &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bonus<br>
+ 25% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $(0.25 x)<br>
+ 50% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $(0.50 x)<br>
+ 75% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $(0.75 x)<br>
+ 100% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $(1.00 x)<br>
 The targets will be defined in accordance with the corporate plan.
 
 **3\. {OPTIONAL COMMISSION (usually for Sales roles)} Commission**. You will be
@@ -161,7 +160,7 @@ Signature:
 
 Dated:
 
-Name:  {Name of Contributor}
+Name: {Name of Contributor}
 
 
 **On behalf of GitLab:**
@@ -208,6 +207,7 @@ in connection with certain services to be provided by Contributor to GitLab, as 
 below, the parties agree as follows:
 
 **1\. WORK AND COMPENSATION**.
+
 Contributor agrees to perform the work set forth in **Exhibit A** (“**Statement of
 Work**”) and to provide any work product resulting therefrom to GitLab. Contributor
 will be paid compensation in the amount and at the times set forth in **Exhibit B**,
@@ -220,6 +220,7 @@ requested by GitLab.
 
 
 **2\. TERM**.
+
 **2.1 Completion of Services**. This Agreement will become effective on the Effective
 Date and will continue in effect until completion of the Statement of Work as set
 forth in **Exhibit A** or any subsequent Statements of Work as set forth in Section
@@ -236,6 +237,7 @@ only with respect to the subject work described therein.
 
 
 **3\. RESPONSIBILITIES**
+
 Contributor will perform and promptly complete the Statement of Work set forth in
 **Exhibit A** in a professional and timely manner consistent with industry standards
 at a location, place and time that Contributor deems appropriate. Contributor, in
@@ -270,6 +272,7 @@ and include captions and pull quotes where appropriate.
 
 
 **4\. CONFIDENTIAL INFORMATION, OWNERSHIP OF PROPERTY, NON-SOLICITATION**
+
 Contributor and GitLab agree to bound by the separate **Proprietary Information and
 Assignment Agreement** entered into by Contributor and GitLab, describing the agreements
 between Contributor and GitLab with respect to Confidential Information, Ownership of
@@ -277,12 +280,14 @@ Property, and Non-Solicitation.
 
 
 **5\. ADDITIONAL ACTIVITIES AND CONFLICTS OF INTEREST**
+
 Contributor agrees that during the term of this Agreement, Contributor will not,
 without GitLab’s express written consent, engage in any employment or business activity
 that is competitive with, or would otherwise create a conflict of interest with Contributor’s obligations to GitLab.
 
 
 **6\. INDEMNIFICATION**
+
 Contributor will indemnify and hold harmless GitLab, its parents, stockholders,
 officers, directors, employees, sub-licensees, customers and agents (collectively the
 “**Indemnified Parties**”) from any and all claims, losses, liabilities, damages,
@@ -293,12 +298,14 @@ that GitLab provided to the Contributor for performance of a Statement of Work.
 
 
 **7\. NONDISPARAGEMENT**.
+
 Contributor will not, during and after the term of this Agreement, disparage or defame
 GitLab to anyone, including, without limitation, its other Contributors, GitLab employees,
 officers, directors, services, business, or manner of doing business.
 
 
 **8\. TERMINATION**.
+
 **8.1 Termination**. This Agreement may be terminated by either GitLab or Contributor
 for any reason on fifteen (15) days’ written notice to the other Party or such longer
 period as may be specified in the attached exhibits. In the event that Contributor gives
@@ -325,12 +332,15 @@ will not, during or after Contributor’s engagement with GitLab, deliver or tra
 person, or use, without written authorization by an authorized GitLab officer any GitLab Materials or other property owned by GitLab.
 
 
-**9\. ASSIGNMENT**. The rights and obligations of Contributor are personal in nature and
+**9\. ASSIGNMENT**.
+
+The rights and obligations of Contributor are personal in nature and
 may not be assigned without GitLab’s prior written consent. The rights and obligations of
 GitLab under this Agreement will inure to the benefit of and will be binding upon the successors and assignees of GitLab.
 
 
 **10\. INDEPENDENT CONTRACTOR RELATIONSHIP**.
+
 Contributor’s relationship with GitLab will be that of an independent contractor and
 nothing in this Agreement should be construed to create a partnership, joint venture,
 or employer-employee relationship. Contributor is not the agent of GitLab and is not
@@ -351,6 +361,7 @@ any and all such taxes or contributions, including penalties and interest.
 
 
 **11\. GENERAL**
+
 **11.1 Governing Law**. This Agreement will be governed and construed in accordance
 with the laws of the State of California as applied to transactions taking place wholly
 within California between California residents. In the event of a dispute, the parties
@@ -421,22 +432,22 @@ Services Agreement to be duly executed as of the first date written above.
 
 Signature:
 
-Name:  {GitLab Authorized Signatory}
-Title:     {GitLab Signatory Title}
+Name: {GitLab Authorized Signatory}
+Title: {GitLab Signatory Title}
 Date:
-Email:  {GitLab Signatory email}
-Address for Notices:  {GitLab Address}
+Email: {GitLab Signatory email}
+Address for Notices: {GitLab Address}
 
 
 **Contributor**
 
 Signature:
 
-Name:  {Name of Contributor}
-Title:  {Title of Contributor}
+Name: {Name of Contributor}
+Title: {Title of Contributor}
 Date:
-Email:  {Email of Contributor}
-Address for Notices:  {Address of Contributor}
+Email: {Email of Contributor}
+Address for Notices: {Address of Contributor}
 
 
 
@@ -452,13 +463,14 @@ Attachments:
 ### EXHIBIT A
 **STATEMENT OF WORK and PROJECT SCHEDULE**
 
-1\. Title of Project: {Title of project}
-2\. Project Dates:
+1\. Title of Project: {Title of project}<br>
+2\. Project Dates:<br>
 
-   * Project commencement date:  {Start Date}.
-   * Project termination date:  {End Date}.
-3\. Deliverables and Due Dates:
-Company has engaged contractor to perform the following:
+   * Project commencement date: {Start Date}.<br>
+   * Project termination date: {End Date}.<br>
+
+3\. Deliverables and Due Dates:<br>
+Company has engaged contractor to perform the following:<br>
    * {Short task description link to job description webpage whenever possible}
 
 All Deliverables must be completed in the time frame specified above in order to
@@ -466,8 +478,8 @@ maintain the herein mutually agreed upon schedule and budget. Any delay in submi
 a Deliverable may result in all subsequent dates shifting by the same number of days
 as the delay. The Parties will make all reasonable business efforts to adhere to all scheduled dates regardless of delays.
 
-**{REMOVE FOR ONGOING PROJECTS, LEAVE IN FOR ONE-OFF PROJECTS}**
-4\. Approvals & Feedback:
+**{REMOVE FOR ONGOING PROJECTS, LEAVE IN FOR ONE-OFF PROJECTS}**<br>
+4\. Approvals & Feedback:<br>
 All Contributor Deliverables associated with the Project will be subject to approval
 and acceptance by GitLab (“Approvals”). Approvals are based on GitLab’s standards
 and subject to GitLab’s sole discretion. In the event that GitLab denies an Approval,
@@ -482,39 +494,39 @@ GitLab Approval or Feedback specified in the table above assume that Contributor
    * Are submitted to GitLab on schedule
    * Meet GitLab’s implementation technical standards
 
-5\. Points of Contact:
+5\. Points of Contact:<br>
 Each Party will provide a single point of contact that will have the authority to
 communicate all final decisions, which will be deemed final and official (“Primary Contact”).
 For the purpose of this Statement of Work, Primary Contacts for each party will be:
 
 
-**GitLab Primary Contact**:
-Name:  {GitLab Authorized Signatory}
-Title:  {GitLab Signatory Title}
-Phone:  {GitLab Signatory Phone}
-E-Mail:  {GitLab Signatory Email}
+**GitLab Primary Contact**:<br>
+Name: {GitLab Authorized Signatory}<br>
+Title: {GitLab Signatory Title}<br>
+Phone: {GitLab Signatory Phone}<br>
+E-Mail: {GitLab Signatory Email}<br>
 
 
-**Contributor Primary Contact**:
-Name:  {Name of Contributor}
-Title:   {Title of Contributor}
-Phone:
-E-Mail:   {Email of Contributor}
+**Contributor Primary Contact**:<br>
+Name: {Name of Contributor}<br>
+Title: {Title of Contributor}<br>
+Phone:<br>
+E-Mail: {Email of Contributor}<br>
 
 
-For record-keeping purposes only, the alternate contact person for each party will be:
-GitLab Alternate Contact:
-Name:
-Title:
-Phone:
-E-Mail:
+For record-keeping purposes only, the alternate contact person for each party will be:<br>
+GitLab Alternate Contact:<br>
+Name:<br>
+Title:<br>
+Phone:<br>
+E-Mail:<br>
 
 
-Contributor Alternate Contact:
-Name:
-Title:
-Phone:
-E-Mail:
+Contributor Alternate Contact:<br>
+Name:<br>
+Title:<br>
+Phone:<br>
+E-Mail:<br>
 
 
 
@@ -527,7 +539,7 @@ GitLab shall pay Contributor a rate of {indicate currency, rate, and period}.
 
 Contributor shall submit invoices no more frequently than every two weeks.
 
-**{REMOVE FOR ONGOING PROJECTS, LEAVE IN FOR ONE-OFF PROJECTS}**
+**{REMOVE FOR ONGOING PROJECTS, LEAVE IN FOR ONE-OFF PROJECTS}**<br>
 GitLab reserves the right to withhold payment until Contributor reaches the
 payment’s associated milestone and the related Deliverables are approved and
 accepted by GitLab. If the Agreement is terminated prior to the completion of the Project, the amount
@@ -535,7 +547,7 @@ of payment to be paid to Contributor will be payment for work performed up to th
 date of termination.
 
 
-**{OPTIONAL, REMOVE IF NOT APPLICABLE:}**
+**{OPTIONAL, REMOVE IF NOT APPLICABLE:}**<br>
 **Stock Option Grant**:
 Subject to Board approval, Contributor shall be granted a stock option, to purchase
 {Number of shares} shares of the Company’s common stock (the “Stock Option”), at
@@ -568,9 +580,9 @@ plans, financial information or other subject matter pertaining to any business 
 GitLab or any of its clients, Contributors or licensees.
 
 
-Contributor Signature:
+Contributor Signature:<br>
 
-Print Name:  {Name of Contributor}
+Print Name: {Name of Contributor}<br>
 
 Date:
 
@@ -588,32 +600,32 @@ ownership by GitLab of all rights, title, and interest in intellectual property 
 in performance of this Subsequent Statement of Work. Any capitalized terms used but not
 defined in this Exhibit D, retain the same meaning given them in the Agreement.
 
-Title of Effort: [TITLE]
-Starting Date: [START DATE]
-List of Tasks and Due Date: [LIST TASKS WITH DUE DATE]
-Payment Schedule and Terms: [PAYMENT SCHEDULE AND TERMS]
+Title of Effort: [TITLE]<br>
+Starting Date: [START DATE]<br>
+List of Tasks and Due Date: [LIST TASKS WITH DUE DATE]<br>
+Payment Schedule and Terms: [PAYMENT SCHEDULE AND TERMS]<br>
 Address where payment should be mailed (if different from initial Statement of Work): [ADDRESS]
 
 **GitLab Inc.**
 
-Signature:
+Signature:<br>
 
-Name:
-Title:
-Date:
+Name:<br>
+Title:<br>
+Date:<br>
 Address for Notices:
 
 **Contributor**
 
-Signature:
+Signature:<br>
 
-Name:
-Title:
-Date:
+Name:<br>
+Title:<br>
+Date:<br>
 Address for Notices:
 
 
-## PROPRIETARY INFORMATION AND ASSIGNMENT AGREEMENT  <a name="inc-PIAA"></a>
+## PROPRIETARY INFORMATION AND ASSIGNMENT AGREEMENT <a name="inc-PIAA"></a>
 
 
 This **Proprietary Information and Assignment Agreement** (“Agreement”) is made
@@ -625,27 +637,28 @@ WHEREAS, as a material condition of and inducement for the Company sharing propr
 WHEREAS, for other good and valuable consideration provided at this time and during Contributor’s tenure, the adequacy and receipt of which is hereby acknowledged by Contributor, Contributor and the Company agree:
 
 **1\. CONFIDENTIAL INFORMATION.**
-**A. Definition**. For purposes of this Agreement, “Confidential Information” means any proprietary information including, without limitation, all information in whatever form provided which
-(i) in any way relates to the past, present or future business affairs of Company or its affiliates or their respective customers,
-(ii) is maintained in confidence by the Company or its affiliates,
-(iii) might permit the Company or its affiliates or their respective customers to obtain a competitive advantage over competitors who do not have access to such information which is disclosed by Company or its affiliates to Contributor,
-(iv) Contributor learns from inspection of drawings, products, systems, software, parts or equipment, or
+
+**A. Definition**. For purposes of this Agreement, “Confidential Information” means any proprietary information including, without limitation, all information in whatever form provided which<br>
+(i) in any way relates to the past, present or future business affairs of Company or its affiliates or their respective customers,<br>
+(ii) is maintained in confidence by the Company or its affiliates,<br>
+(iii) might permit the Company or its affiliates or their respective customers to obtain a competitive advantage over competitors who do not have access to such information which is disclosed by Company or its affiliates to Contributor,<br>
+(iv) Contributor learns from inspection of drawings, products, systems, software, parts or equipment, or<br>
 (v) the Company or its affiliates has a legal obligation to treat as confidential or which the Company or its affiliates treats as proprietary or designates as confidential for internal use only, whether or not owned or developed by the Company or its affiliates; including, without limitation, trade secrets, proprietary information, know-how, inventions, computer programs, computer code, technology, graphics, algorithms, engineering, formulas, processes, techniques, compositions of matter, sketches, drawings, models, diagrams, flow charts, apparatus, equipment, product specifications or designs, samples, product and service planning, client or customer lists, supplier lists, hardware configuration information, and information, research and development, business plans, business methods and processes, pricing and fee policies, information relating to operations, systems, security, merchandising, marketing, affiliate relations, products and product development, procurement requirements, business forecasts, financial and personnel data, and specialized knowledge, data or property concerning any idea, invention, discovery, process, program, services or products provided, used, developed, investigated, manufactured or considered by Company or its affiliates or any of their customers, whether commercial, experimental or patented, patentable, copyrightable or not.
 
-**B. Confidentiality Obligations**. During and after Contributor's tenure with the Company, Contributor will
-(i) keep secret and retain in the strictest confidence all Confidential Information, and will not directly or indirectly use, divulge, publish or otherwise or disclose or any such Confidential Information to be disclosed to, or used for the benefit of, anyone outside of Company without Company's prior written consent,
-(ii) not use Confidential Information except in the course of performing Contributor's duties for the Company or its affiliates and
-(iii) refrain from any action or conduct that might reasonably or foreseeably be expected to compromise the confidentiality or proprietary nature of the Confidential Information.
+**B. Confidentiality Obligations**. During and after Contributor's tenure with the Company, Contributor will<br>
+(i) keep secret and retain in the strictest confidence all Confidential Information, and will not directly or indirectly use, divulge, publish or otherwise or disclose or any such Confidential Information to be disclosed to, or used for the benefit of, anyone outside of Company without Company's prior written consent,<br>
+(ii) not use Confidential Information except in the course of performing Contributor's duties for the Company or its affiliates and<br>
+(iii) refrain from any action or conduct that might reasonably or foreseeably be expected to compromise the confidentiality or proprietary nature of the Confidential Information.<br>
 Contributor may use the Confidential Information solely to perform services for the benefit of Company. Contributor will take all other reasonable precautions to prevent any unauthorized disclosure of such Confidential Information and will treat all Confidential Information of Company with the same degree of care as Contributor accords to its own confidential information, but in no case less than reasonable care. Contributor will abide by all policies or practices established by the Company to protect Confidential Information. Contributor will immediately give notice to Company of any unauthorized use or disclosure of the Confidential Information and will assist Company in remedying any such unauthorized use or disclosure. Contributor shall not reverse engineer, decompile, or disassemble any software or other Confidential Information for any reason other than providing services to the Company.
 
-**C. Exceptions**. Contributor's obligations under Section 1(B) with respect to any portion of the Confidential Information will not apply to any such portion which Contributor can demonstrate:
-(i) was in the public domain at or subsequent to the time such portion was communicated to Contributor by Company through no fault of Contributor;
-(ii) was rightfully in Contributor's possession free of any obligation of confidence at or subsequent to the time such portion was communicated to Contributor by Company; or
-(iii) was developed by Contributor independently of and without reference to any information communicated to Contributor by Company.
+**C. Exceptions**. Contributor's obligations under Section 1(B) with respect to any portion of the Confidential Information will not apply to any such portion which Contributor can demonstrate:<br>
+(i) was in the public domain at or subsequent to the time such portion was communicated to Contributor by Company through no fault of Contributor;<br>
+(ii) was rightfully in Contributor's possession free of any obligation of confidence at or subsequent to the time such portion was communicated to Contributor by Company; or<br>
+(iii) was developed by Contributor independently of and without reference to any information communicated to Contributor by Company.<br>
 A disclosure of Confidential Information by Contributor after the termination of Contributor’s tenure in response to a valid order by a court or other governmental body or otherwise required by law shall not be considered to be a breach of this Agreement or a waiver of confidentiality for other purposes; provided, however, that before such disclosure is made Contributor must provide prompt prior written notice thereof to Company to enable Company to seek a protective order or otherwise prevent such disclosure.
 
-**D. No Breach of Confidentiality**. Contributor has not and will not
-(i) improperly use or disclose any confidential or proprietary information or trade secrets of any former or concurrent employer or other person or entity with which Contributor has an agreement or duty to keep in confidence information acquired by Contributor, if any, or
+**D. No Breach of Confidentiality**. Contributor has not and will not<br>
+(i) improperly use or disclose any confidential or proprietary information or trade secrets of any former or concurrent employer or other person or entity with which Contributor has an agreement or duty to keep in confidence information acquired by Contributor, if any, or<br>
 (ii) bring on to the premises of Company any document or confidential or proprietary information belong to such employer, person or entity unless consented to in writing by such employer, person or entity.
 Contributor will indemnify Company and hold it harmless from and against all claims, liabilities, damages and expenses including reasonable attorneys' fees and costs of suit, arising out of or in connection with any violation of the foregoing to the maximum extent allowed by law.
 
@@ -655,20 +668,23 @@ Contributor will indemnify Company and hold it harmless from and against all cla
 
 
 **2\. INTELLECTUAL PROPERTY.**
-**A. Ownership; Assignment.** Contributor agrees to assign and hereby irrevocably assigns exclusively to Company or its designee, from the moment of inception or creation, without additional consideration of any kind other than the consideration recited herein and regardless of the termination of Contributor's relationship with the Company, all worldwide right, title and interest of Contributor and its personnel in and to all Inventions (defined below) that are conceived, discovered, developed, created or reduced to practice by Contributor, solely or in collaboration with others, that
-(i) relate to the services or the business or actual or demonstrably anticipated research or development of the Company or any of its predecessors or affiliates,
-(ii) are developed using any of the equipment, supplies, facilities of the Company or any of its predecessors or affiliates or any Confidential Information or
+
+**A. Ownership; Assignment.** Contributor agrees to assign and hereby irrevocably assigns exclusively to Company or its designee, from the moment of inception or creation, without additional consideration of any kind other than the consideration recited herein and regardless of the termination of Contributor's relationship with the Company, all worldwide right, title and interest of Contributor and its personnel in and to all Inventions (defined below) that are conceived, discovered, developed, created or reduced to practice by Contributor, solely or in collaboration with others, that<br>
+(i) relate to the services or the business or actual or demonstrably anticipated research or development of the Company or any of its predecessors or affiliates,<br>
+(ii) are developed using any of the equipment, supplies, facilities of the Company or any of its predecessors or affiliates or any Confidential Information or<br>
 (iii) result from any work Contributor performs for the Company or any of its predecessors or affiliates, whether or not performed during business hours (individually and collectively, "Works").
+
 Contributor will make and maintain adequate and current records of all Works, which records will be and remain the property of Company. Contributor will promptly disclose to Company all Works. The Company and Contributor expressly agree that each copyrightable Work created in solely or jointly with others by Contributor pursuant to this Agreement at the direction of Company or relating to the business of the Company shall be considered a "work made for hire" to the maximum extent allowed by law, and that Company shall be considered the "author" of each such Work, as those terms are defined in the Copyright Act 17 U.S.C. §101, et seq; provided that if and to the extent that if any aspect of any Work is found as a matter of law not to be a “work made for hire” as contemplated above or any other Work is deemed for any reason to be owned by Contributor, then such Work shall not be a "work made for hire" and shall be subject to the assignment under this Section 2(A). Contributor's assignment of all right, title and interest in and to all Works is worldwide and perpetual and includes all intellectual property rights of any kind anywhere in the world. Contributor's assignment is valid and irrevocable and shall not lapse notwithstanding any delay or failure by the Company to exercise or exploit the rights so assigned for any period of time.
 
-**B. Definition of Inventions**. As used in this Agreement, "Inventions" means:
-(i) any new or useful invention, concept, art, discovery, machine, composition of matter, process, method, design, development, contribution, finding or improvement, whether or not patentable or registrable under copyright or similar laws in any jurisdiction,
-(ii) any and all copyrightable works, in any medium of expression,
-(iii) any and all trademarks, service marks, domain names, trade names and trade dress, including all goodwill associated therewith,
-(iv) any and all patentable works, including any patents, divisions, continuations, continuations in part, applications, utility applications, provisional applications, substitute applications, reexaminations, reissues and extensions,
-(v) any and all software (including both object and source code), works of authorship, utility models, topography rights, database rights, formulas, methods, processes, manufacturing techniques, trade secrets, mask works and moral rights,
-(vi) any other intellectual property or proprietary rights anywhere in the world,
-(vii) any and all related know-how and rights to obtain, register, perfect and enforce any right or interest in any of (i) through (vi), and (viii) the right to sue for past infringement in connection with any of (i) through (vii).
+**B. Definition of Inventions**. As used in this Agreement, "Inventions" means:<br>
+(i) any new or useful invention, concept, art, discovery, machine, composition of matter, process, method, design, development, contribution, finding or improvement, whether or not patentable or registrable under copyright or similar laws in any jurisdiction,<br>
+(ii) any and all copyrightable works, in any medium of expression,<br>
+(iii) any and all trademarks, service marks, domain names, trade names and trade dress, including all goodwill associated therewith,<br>
+(iv) any and all patentable works, including any patents, divisions, continuations, continuations in part, applications, utility applications, provisional applications, substitute applications, reexaminations, reissues and extensions,<br>
+(v) any and all software (including both object and source code), works of authorship, utility models, topography rights, database rights, formulas, methods, processes, manufacturing techniques, trade secrets, mask works and moral rights,<br>
+(vi) any other intellectual property or proprietary rights anywhere in the world,<br>
+(vii) any and all related know-how and rights to obtain, register, perfect and enforce any right or interest in any of (i) through (vi), and <br>
+(viii) the right to sue for past infringement in connection with any of (i) through (vii).
 
 **C. No Designation as Inventor; Waiver of Moral Rights**. Contributor agrees that Company shall not be required to designate Contributor as the inventor or author of any Works. Contributor hereby irrevocably and unconditionally waives and releases, to the extent permitted by applicable law, all of Contributor's rights to such designation and any rights concerning future modifications to any Works. To the extent permitted by applicable law, Contributor hereby waives all claims to moral rights in and to any Works.
 
@@ -676,35 +692,40 @@ Contributor will make and maintain adequate and current records of all Works, wh
 
 **E. Pre-Existing and Third Party Materials**. Contributor will not, in the course of tenure with the Company, incorporate into or in any way use in creating any Works any pre-existing invention, improvement, development, concept, discovery, works, or other proprietary right or information owned by Contributor or in which Contributor has an interest without Company's prior written permission. Contributor hereby grants the Company a nonexclusive, royalty-free, fully-paid, perpetual, irrevocable, sublicensable, worldwide license to make, have made, modify, use, sell, copy and distribute, and to use or exploit in any way and in any medium, whether or not now known or existing, such item as part of or in connection with such Works. Contributor will not incorporate any invention, improvement, development, concept, discovery, intellectual property or other proprietary information owned by any party other than Contributor into any Works without Company’s prior written permission.
 
-**F. Exceptions**. Notwithstanding any other provision of this Section 2, Contributor understands that the provisions of this Section 2 shall not apply to any Invention that qualifies in all respects under Section 2870 of the California Labor Code, which provides:
-“(a) Any provision in an employment agreement which provides that an employee shall assign, or offer to assign, any of his or her rights in an invention to his or her employer shall not apply to an invention that the employee developed entirely on his or her own time without using the employer's equipment, supplies, facilities, or trade secret information except for those inventions that either: (1) Relate at the time of conception or reduction to practice of the invention to the employer's business, or actual or demonstrably anticipated research or development of the employer; or (2) Result from any work performed by the employee for the employer. (b) To the extent a provision in an employment agreement purports to require an employee to assign an invention otherwise excluded from being required to be assigned under subdivision (a), the provision is against the public policy of this state and is unenforceable. ”
+**F. Exceptions**. Notwithstanding any other provision of this Section 2, Contributor understands that the provisions of this Section 2 shall not apply to any Invention that qualifies in all respects under Section 2870 of the California Labor Code, which provides:<br>
+“(a) Any provision in an employment agreement which provides that an employee shall assign, or offer to assign, any of his or her rights in an invention to his or her employer shall not apply to an invention that the employee developed entirely on his or her own time without using the employer's equipment, supplies, facilities, or trade secret information except for those inventions that either: (1) Relate at the time of conception or reduction to practice of the invention to the employer's business, or actual or demonstrably anticipated research or development of the employer; or (2) Result from any work performed by the employee for the employer. (b) To the extent a provision in an employment agreement purports to require an employee to assign an invention otherwise excluded from being required to be assigned under subdivision (a), the provision is against the public policy of this state and is unenforceable. ”<br>
 Contributor shall advise Company promptly and in writing of any of his or her previous or future works or inventions which he believes qualify under the California Labor Code Section 2870. Any such previous works are described in Exhibit A to this Agreement. The Company agrees to receive such information in confidence. If no such previous works are scheduled, then Contributor represents, acknowledges and agrees that there are no such prior inventions.
 
 **G. Attorney-in-Fact**. Contributor hereby irrevocably designates and appoints the Company and its duly authorized officers and agents as Contributor’s agent and attorney-in-fact, to act for and on Contributor’s behalf to execute and file any such applications and to do all other lawfully permitted acts to further the prosecution and issuance of patents, copyright, trademark and mask work registrations with the same legal force and effect as if executed by Contributor, if the Company is unable because of Contributor’s unavailability, dissolution, mental or physical incapacity, or for any other reason, to secure Contributor’s signature for the purpose of applying for or pursuing any application for any United States or foreign patents or mask work or copyright or trademark registrations covering the Works owned by the Company pursuant to this Section.
 
 
 **3\. CONFLICTING OBLIGATIONS**.
+
 **A. Conflicts**. Contributor certifies that Contributor has no outstanding agreement or obligation that is in conflict with any of the provisions of this Agreement or that would preclude Contributor from complying with the provisions of this Agreement. Contributor will not enter into any such conflicting agreement during the term of this Agreement. Contributor’s violation of this Section will be considered a material breach of this Agreement.
 
 **B. Substantially Similar Designs**. Contributor will not, without Company’s prior written approval, design, disclose, create, or in any other way use or exploit any identical or substantially similar Works or intellectual property to that developed under this Agreement to or for any third party during the term of this Agreement and after the termination of this Agreement. Contributor acknowledges that the obligations in this Section are ancillary to Contributor’s nondisclosure obligations under Section 1.
 
 
 **4\. NON-SOLICITATION OF COMPANY EMPLOYEES AND CONSULTANTS**.
-In order to protect Company's confidential and proprietary information and to prevent undesired and unnecessary business interruption, Contributor shall not, directly or indirectly, during tenure with the Company, and for a period of one (1) year thereafter, solicit, interfere with, or induce any person, who is or was a Contributor of Company, to
-(A) discontinue his, her or its relationship with Company, or
-(B) accept employment by, or enter into a business relationship with Contributor, or any other entity or person unless Company has approved of such business or employment relationship beforehand in writing.
+
+In order to protect Company's confidential and proprietary information and to prevent undesired and unnecessary business interruption, Contributor shall not, directly or indirectly, during tenure with the Company, and for a period of one (1) year thereafter, solicit, interfere with, or induce any person, who is or was a Contributor of Company, to<br>
+(A) discontinue his, her or its relationship with Company, or<br>
+(B) accept employment by, or enter into a business relationship with Contributor, or any other entity or person unless Company has approved of such business or employment relationship beforehand in writing.<br>
 Contributor acknowledges that this Section is reasonable and necessary for the protection of the business of Company and its affiliates, and that part of the compensation paid under this Agreement is in consideration for the provisions contained in this Section.
 
 
 **5\. NOTICES**.
+
 Any notice to be given or required to be given pursuant to this Agreement shall be deemed sufficiently given if personally delivered or mailed, with postage prepaid, by registered mail, addressed to the Company c/o its Chief Executive Officer at his or her principal business address or Contributor at Contributor’s residence address on file with the Company.
 
 
 **6\. ASSIGNMENT**.
+
 This Agreement, including all rights and assignments granted by Contributor under this Agreement, is assignable by the Company including, without limitation, to any affiliate of the Company or any entity with which, or into which, the Company may be merged or which may succeed to its assets or business, and all covenants and agreements hereunder shall inure to the benefit of and be enforceable by such successors or assigns without the necessity that this Agreement be re-signed at the time of such assignment. Contributor shall not assign or delegate any rights or obligations under this Agreement to any other person or entity, including without limitation by operation of law, merger, sale of all or substantially all of Contributor's assets or otherwise.
 
 
 **7\. GENERAL**.
+
 **A. Injunctive Relief**. Contributor's obligations under this Agreement are of a unique character that gives them particular value; Contributor's breach of any of such obligations will result in irreparable and continuing damage to Company for which there will be no adequate remedy at law; and, in the event of such breach, Company will be entitled to injunctive relief and/or a decree for specific performance, and such other and further relief as may be proper (including monetary damages if appropriate).
 
 **B. Compliance**. Contributor will comply and do all things necessary for the Company to comply with all applicable laws and regulations and with the provisions of all Contributors entered into by the Company that relate to Works or to the safeguarding of Confidential Information.
@@ -744,7 +765,7 @@ IN WITNESS WHEREOF, the parties have caused this Agreement to be duly executed o
 Signature:
 
 Name: {GitLab Authorized Signatory}
-Title:   {GitLab Signatory Title}
+Title: {GitLab Signatory Title}
 Date:
 
 
@@ -752,14 +773,14 @@ Date:
 
 Signature:
 
-Name:  {Name of Contributor}
+Name: {Name of Contributor}
 Date:
 
 ### Exhibit A to the PIAA
 
 The following is a complete list of all Works which have been made or conceived or first reduced to practice by me alone or jointly with others prior to my tenure with Company:
 
-No Works (please write "yes" or "no"):
+No Works (please write "yes" or "no"):<br>
 If Yes, please write further details below.
 
 
@@ -827,7 +848,7 @@ termination with effect from the last day of a calendar month and with due obser
 **4\. Applicability of the company handbook**
 
 The Employer’s company handbook will apply to this Employment Contract. The contents of the company handbook
-form an integral part of this Employment Contract. For the latest version of the handbook please see  https://about.gitlab.com/handbook/ .
+form an integral part of this Employment Contract. For the latest version of the handbook please see https://about.gitlab.com/handbook/ .
 
 **5\. Working hours and working week**
 
@@ -866,7 +887,7 @@ of the Employment Contract and part-time employment.
 **10\. Vacation**
 
 1. The Employee is entitled to a legal minimum of 160 hours of vacation on full pay per calendar year based on a 40-hour working week (Article 7:634 Dutch Civil code).
-1. Employee is entitled to unlimited paid time off on top of the first 160 hours according to the staff handbook. Please see:  https://about.gitlab.com/handbook/#paid-time-off/
+1. Employee is entitled to unlimited paid time off on top of the first 160 hours according to the staff handbook. Please see: https://about.gitlab.com/handbook/#paid-time-off/
 
 
 **11\. Illness**
@@ -976,7 +997,7 @@ Date:
 
 * {Remove for Contractors not based in NL: 10.6 Contributor will provide GitLab
 with a copy of Contributor's valid Declaration of Independent Contractor Status
-with respect to income tax (*VAR WUO-verklaring*) and will provide a new declaration after its expiration.  }
+with respect to income tax (*VAR WUO-verklaring*) and will provide a new declaration after its expiration.}
 * {EMPLOYEES:**{Name of Contributor}**, (BSN:{Contributor BSN}), born on {Contributor
 DOB}, currently residing at {Contributor Address}, hereinafter referred to as
 ‘Contributor’; OR CONTRACTORS: **{Name of Contributor}** acting as an independent
@@ -1027,21 +1048,24 @@ GitLab and Contributor are hereinafter collectively referred to as the “Partie
 **Have agreed as follows:**
 
 **1\. Term**
-1.1 This Agreement is effective from {Start Date} for an {indefinite term OR temporary for the period of {Duration}}
+
+1.1 This Agreement is effective from {Start Date} for an {indefinite term OR temporary for the period of {Duration}}<br>
 1.2 Each Party may terminate this Agreement with immediate effect for whatever reason, without the obligation to pay any indemnification or compensation to the other Party.
 
 **2\.	Duties and activities**
-2.1 GitLab requests Contributor to assume the role of {Contributor Title}.
-2.2 After GitLab’s request for {Single or two word service/project description} on its behalf, Contributor will inform GitLab as soon as possible whether Contributor wants to accept the role of {Contributor Title} or not.
-2.3	If Contributor agrees to fulfil the service, Contributor will perform the service to Contributor's best ability and in accordance with (1) the requirements as determined in the service description (2) the terms and conditions which are applicable between GitLab and its client (where applicable) and (3) the instructions given by GitLab.
-2.4	Contributor will inform GitLab on a regular basis about the progress made in fulfilling the service.
-2.5	Contributor is free to decide when and where Contributor wants to perform Contributor's activities in order to fulfil the service. Contributor is obligated to use GitLab’s workflow as described in the handbook and is free to use the offices of GitLab in consultation with GitLab.
+
+2.1 GitLab requests Contributor to assume the role of {Contributor Title}.<br>
+2.2 After GitLab’s request for {Single or two word service/project description} on its behalf, Contributor will inform GitLab as soon as possible whether Contributor wants to accept the role of {Contributor Title} or not.<br>
+2.3	If Contributor agrees to fulfill the service, Contributor will perform the service to Contributor's best ability and in accordance with (1) the requirements as determined in the service description (2) the terms and conditions which are applicable between GitLab and its client (where applicable) and (3) the instructions given by GitLab.<br>
+2.4	Contributor will inform GitLab on a regular basis about the progress made in fulfilling the service.<br>
+2.5	Contributor is free to decide when and where Contributor wants to perform Contributor's activities in order to fulfill the service. Contributor is obligated to use GitLab’s workflow as described in the handbook and is free to use the offices of GitLab in consultation with GitLab.<br>
 2.6	Contributor is free to engage other persons to assist Contributor with the service, in consultation with GitLab, and as long as Contributor bears the costs concerned.
 
 **3\.	Fee**
-3.1	For the fulfilment of the service by Contributor on behalf of GitLab, GitLab shall pay Contributor a fee of {Monthly Payment} per calendar month for the duration of the project. GitLab will receive detailed time sheets from Contributor with specific activities and the times under which they were completed specifically pertaining to fulfilment of the service concerned.
-3.2	In consultation with GitLab, Contributor is entitled to paid time off in accordance with the handbook (https://about.gitlab.com/handbook/#paid-time-off) . However, GitLab has the right to revoke or change the days off at all times if the company’s interest is harmed or damaged.
-3.3	GitLab will pay Contributor’s invoice within 30 days.
+
+3.1	For the fulfillment of the service by Contributor on behalf of GitLab, GitLab shall pay Contributor a fee of {Monthly Payment} per calendar month for the duration of the project. GitLab will receive detailed time sheets from Contributor with specific activities and the times under which they were completed specifically pertaining to fulfillment of the service concerned.<br>
+3.2	In consultation with GitLab, Contributor is entitled to paid time off in accordance with the handbook (https://about.gitlab.com/handbook/#paid-time-off) . However, GitLab has the right to revoke or change the days off at all times if the company’s interest is harmed or damaged.<br>
+3.3	GitLab will pay Contributor’s invoice within 30 days.<br>
 3.4	Contributor’s fee includes a full compensation for any expenses related to the performance of Contributor's activities for GitLab and a full compensation for any damages Contributor may suffer in the performance of Contributor's activities for GitLab.
 
 
@@ -1052,8 +1076,8 @@ GitLab and Contributor are hereinafter collectively referred to as the “Partie
 
 **5\.	Confidentiality and property**
 
-5.1	Parties will agree on Confidentiality a separate agreement appended to this Contractor Agreement. The Confidentiality Agreement is an indissoluble part of this Contractor Agreement.
-5.2. In case of termination of this agreement for whatever reason, Contributor is obliged to immediately return all documentation and other property belonging to GitLab which Contributor has in Contributor’s possession together with Contributor's own notes and photocopies.
+5.1	Parties will agree on Confidentiality a separate agreement appended to this Contractor Agreement. The Confidentiality Agreement is an indissoluble part of this Contractor Agreement.<br>
+5.2. In case of termination of this agreement for whatever reason, Contributor is obliged to immediately return all documentation and other property belonging to GitLab which Contributor has in Contributor’s possession together with Contributor's own notes and photocopies.<br>
 5.3	Contributor shall not be permitted to retain any property belonging to GitLab to offset any alleged claim against GitLab. Contributor waives any right of retention of property.
 
 **6\. Non-competition**
@@ -1071,11 +1095,11 @@ whatsoever.
 
 7.1	During the term of this Agreement Contributor shall not, without GitLab’s prior
 written consent, either directly or indirectly, work for or be involved with any
-customers and/or business relations of GitLab, unless on behalf of GitLab.
+customers and/or business relations of GitLab, unless on behalf of GitLab.<br>
 7.2	Contributor shall not, for a period of two years after the end of this Agreement,
 without GitLab’s prior written consent, either directly or indirectly, work for or
 be involved with any customers and/or business relations of GitLab. This obligation
-applies irrespective of whether or not Contributor initiated any such contact.
+applies irrespective of whether or not Contributor initiated any such contact.<br>
 7.3	Contributor shall not encourage customers and/or business contacts of GitLab
 to sever their relationship with GitLab.
 
@@ -1091,42 +1115,43 @@ claim compliance and damages.
 
 **9\.	Intellectual property**
 
-9.1	Parties will agree on Intellectual Property in a separate agreement appended to this Contractor Agreement. The Intellectual Property Agreement is an indissoluble part of this Contractor Agreement.
+9.1	Parties will agree on Intellectual Property in a separate agreement appended
+to this Contractor Agreement. The Intellectual Property Agreement is an indissoluble part of this Contractor Agreement.
 
 **10\.	Character of the Agreement and liability**
 
-10.1	Parties explicitly agree that the legal relationship between GitLab and Contributor is a Contractor Agreement (*opdrachtovereenkomst art. 7:400 BW*) and cannot be regarded as an employment agreement (*arbeidsovereenkomst art. 7:610 BW*).
-10.2	GitLab excludes any responsibility or liability for any direct or consequential damages or losses of Contributor ensuing from their working relationship or for any other damage.
-10.3	In any event GitLab’s liability is and will be limited to an amount equal to the fee to be paid to Contributor for the service the damage relate to.
-10.4	Contributor will indemnify and hold GitLab harmless against claims of third parties arising from or in connection with Contributor's acts or omissions.
-10.5	In case the Tax Authorities and/or the Social Security Authorities regard the working relationship between the Parties as a (fictive) employment agreement, Contributor shall indemnify GitLab against all tax and social security claims from the aforementioned authorities.
-{Remove for Contractors not based in NL: 10.6 Contributor will provide GitLab with a copy of Contributor's valid Declaration of Independent Contractor Status with respect to income tax (*VAR WUO-verklaring*) and will provide a new declaration after its expiration.  }
+10.1	Parties explicitly agree that the legal relationship between GitLab and Contributor is a Contractor Agreement (*opdrachtovereenkomst art. 7:400 BW*) and cannot be regarded as an employment agreement (*arbeidsovereenkomst art. 7:610 BW*).<br>
+10.2	GitLab excludes any responsibility or liability for any direct or consequential damages or losses of Contributor ensuing from their working relationship or for any other damage.<br>
+10.3	In any event GitLab’s liability is and will be limited to an amount equal to the fee to be paid to Contributor for the service the damage relate to.<br>
+10.4	Contributor will indemnify and hold GitLab harmless against claims of third parties arising from or in connection with Contributor's acts or omissions.<br>
+10.5	In case the Tax Authorities and/or the Social Security Authorities regard the working relationship between the Parties as a (fictive) employment agreement, Contributor shall indemnify GitLab against all tax and social security claims from the aforementioned authorities.<br>
+{Remove for Contractors not based in NL: 10.6 Contributor will provide GitLab with a copy of Contributor's valid Declaration of Independent Contractor Status with respect to income tax (*VAR WUO-verklaring*) and will provide a new declaration after its expiration.}
 
 **11\. 	Governing Law**
 
-11.1	This Agreement shall be subject to Dutch law only.
+11.1	This Agreement shall be subject to Dutch law only.<br>
 11.2	Any dispute in regard to this Agreement and to the implementation thereof shall be settled before a competent court in The Netherlands.
 
 **Thus agreed upon:**
 
 **GitLab**
 
-Signature:
+Signature:<br>
 
-Name: {GitLab Authorized Signatory}
+Name: {GitLab Authorized Signatory}<br>
 
-Title: {GitLab Signatory Title}
+Title: {GitLab Signatory Title}<br>
 
-Date:
+Date:<br>
 
-**The Contributor**
+**The Contributor**<br>
 
-Signature:
+Signature:<br>
 
-Name: {Name of Contributor}
-{On behalf of: {Contributor Company Name}}
+Name: {Name of Contributor}<br>
+{On behalf of: {Contributor Company Name}}<br>
 
-Date:
+Date:<br>
 
 ## GitLab BV NDA and IP Agreements<a name="bv-nda-ip"></a>
 
@@ -1161,25 +1186,25 @@ whether prior to the expiration of this contract, or for a period of 24 months a
 the expiration date of this Agreement, including but not limited to information relating
 to that party’s operations, processes, plans or intentions, production information,
 know-how, copyrights, design rights, trade secrets, market opportunities and business
-affairs, but shall not include any part of such information which:
-&nbsp;&nbsp;&nbsp;a. is in or comes into the public domain in any way without breach of this Agreement by the Receiving Party or any person to whom it makes disclosure; or
-&nbsp;&nbsp;&nbsp;b. the Receiving Party can show:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. was in their possession or known to it by being in its use or being recorded in its files prior to receipt from the Disclosing Party and was not acquired by the Receiving Party from the Disclosing Party under an obligation of confidence; or
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. to have been independently developed by the Receiving Party without recourse to the Confidential Information; or
-&nbsp;&nbsp;&nbsp;c. the Receiving Party obtains or has available from a source other than the Disclosing Party without breach by the Receiving Party or such source of any obligation of confidentiality or non-use; or
-&nbsp;&nbsp;&nbsp;d. it is hereafter furnished by the Disclosing Party to a third party without restriction on disclosure or use; or
+affairs, but shall not include any part of such information which:<br>
+&nbsp;&nbsp;&nbsp;a. is in or comes into the public domain in any way without breach of this Agreement by the Receiving Party or any person to whom it makes disclosure; or<br>
+&nbsp;&nbsp;&nbsp;b. the Receiving Party can show:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. was in their possession or known to it by being in its use or being recorded in its files prior to receipt from the Disclosing Party and was not acquired by the Receiving Party from the Disclosing Party under an obligation of confidence; or<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. to have been independently developed by the Receiving Party without recourse to the Confidential Information; or<br>
+&nbsp;&nbsp;&nbsp;c. the Receiving Party obtains or has available from a source other than the Disclosing Party without breach by the Receiving Party or such source of any obligation of confidentiality or non-use; or<br>
+&nbsp;&nbsp;&nbsp;d. it is hereafter furnished by the Disclosing Party to a third party without restriction on disclosure or use; or<br>
 &nbsp;&nbsp;&nbsp;e. is disclosed by the Receiving Party with the prior written approval of the Disclosing Party.
 
 4\. Each of the parties shall be responsible for and primarily liable for any acts or omissions of its associate companies and associates (as defined the Dutch Income and Corporation Taxes Act) and all officers, employees, servants, agents or professional advisers of such person which would have been a breach of this Agreement were it done or omitted to be done by the Receiving Party.
 
-5\. In relation to Confidential Information received from the other party or from a third party on behalf of the other party, the Disclosing Party and the Receiving Party also agree as follows:
-&nbsp;&nbsp;&nbsp;a. to treat the Confidential Information in confidence and to use it only for the Purpose;
-&nbsp;&nbsp;&nbsp;b. not to copy or write down any part of the Confidential Information except as is reasonably necessary for the Purpose;
-&nbsp;&nbsp;&nbsp;c. to disclose the Confidential Information only to such of their directors, employees or third parties as may need to know the Confidential Information for the Purpose;
+5\. In relation to Confidential Information received from the other party or from a third party on behalf of the other party, the Disclosing Party and the Receiving Party also agree as follows:<br>
+&nbsp;&nbsp;&nbsp;a. to treat the Confidential Information in confidence and to use it only for the Purpose;<br>
+&nbsp;&nbsp;&nbsp;b. not to copy or write down any part of the Confidential Information except as is reasonably necessary for the Purpose;<br>
+&nbsp;&nbsp;&nbsp;c. to disclose the Confidential Information only to such of their directors, employees or third parties as may need to know the Confidential Information for the Purpose;<br>
 &nbsp;&nbsp;&nbsp;d. to treat the Confidential Information with the same degree of care and with sufficient protection from unauthorized disclosure as the Receiving Party uses to maintain its own confidential or proprietary information.
 
-6\. If no business relationship between the Disclosing Party and the Receiving Party shall be established or at the request of the Disclosing Party the Receiving Party shall:
-&nbsp;&nbsp;&nbsp;a. promptly return all documents, materials and records and all copies of the Confidential Information to the Disclosing Party and permanently delete any such Confidential Information from any electronic storage media or memory;
+6\. If no business relationship between the Disclosing Party and the Receiving Party shall be established or at the request of the Disclosing Party the Receiving Party shall:<br>
+&nbsp;&nbsp;&nbsp;a. promptly return all documents, materials and records and all copies of the Confidential Information to the Disclosing Party and permanently delete any such Confidential Information from any electronic storage media or memory;<br>
 &nbsp;&nbsp;&nbsp;b. remain bound by clause 4 above for an indefinite period of time from the date of disclosure of the Confidential Information.
 
 7\. If a party doesn’t enforce a right available to it under this Agreement in any particular instance, then that won’t prevent it from enforcing that right in future or in any other instance.
@@ -1192,25 +1217,25 @@ affairs, but shall not include any part of such information which:
 
 11\. The interpretation construction and effect of this Agreement shall be construed in all respects in accordance with Dutch Law and the parties hereby submit to the exclusive jurisdiction of the Dutch courts.
 
-**Thus agreed upon:**
+**Thus agreed upon:**<br>
 
-**GitLab**
+**GitLab**<br>
 
-Signature:
+Signature:<br>
 
-Name: {GitLab Authorized Signatory}
+Name: {GitLab Authorized Signatory}<br>
 
-Title: {GitLab Signatory Title}
+Title: {GitLab Signatory Title}<br>
 
-Date:
+Date:<br>
 
-**The Contributor**
+**The Contributor**<br>
 
-Signature:
+Signature:<br>
 
-Name: {Name of Contributor}
+Name: {Name of Contributor}<br>
 
-Date:
+Date:<br>
 
 
 
@@ -1232,10 +1257,10 @@ WHEREAS, in consideration of the mutual covenants and promises herein contained,
 
 1\. This agreement is an indissoluble part of the {Employment or Contractor} Agreement.
 
-2\. Contributor represents and warrants that any work performed by Contributor pursuant to their {Employment or Contractor} relationship with GitLab will be their original work and does not invade the copyrights or other proprietary rights of any party, that there are no contractual or other arrangements which could interfere with performing their work, and that Contributor has the full power and authority to grant the rights hereunder. The Parties agree that Contributor’s work has been specially ordered and commissioned by GitLab as a work for hire. Should, under Dutch and/or foreign law, any activities and/or work the Contributor performs and/or creates within the scope of Contributor’s {Employment or Contractor} relationship with GitLab be protected by any intellectual property right(s) (for example, but not limited to, copyrights, (industrial) design rights, patent rights, (semi-conductor) topography rights, plant variety rights, accompanying rights, trade name rights, trade mark rights, database rights:
-&nbsp;&nbsp;&nbsp;a. GitLab shall be the sole author of Contributor’s work and any work embodying Contributor’s work according to the Intellectual Property Act (Auteurswet) and no rights thereto shall accrue in any manner to Contributor. To the extent that Contributor’s work is not properly characterized as a work made for hire, Contributor grants to GitLab all right, title and interest in Contributor’s work, including all copyright rights, in perpetuity and throughout the world.
-&nbsp;&nbsp;&nbsp;b. GitLab shall be the sole owner of all patents, copyrights, trade secrets and other intellectual property rights related to Contributor’s work. Contractor also agrees to waive any and all moral rights relating to the work product, including but not limited to, any and all rights of identification of authorship and any and all rights of approval, restriction or limitation on use, and subsequent modifications.
-&nbsp;&nbsp;&nbsp;c. Contributor shall not register him/herself as patent holder, design right holder, trade mark holder and/or holder of any other intellectual property right in respect thereof.
+2\. Contributor represents and warrants that any work performed by Contributor pursuant to their {Employment or Contractor} relationship with GitLab will be their original work and does not invade the copyrights or other proprietary rights of any party, that there are no contractual or other arrangements which could interfere with performing their work, and that Contributor has the full power and authority to grant the rights hereunder. The Parties agree that Contributor’s work has been specially ordered and commissioned by GitLab as a work for hire. Should, under Dutch and/or foreign law, any activities and/or work the Contributor performs and/or creates within the scope of Contributor’s {Employment or Contractor} relationship with GitLab be protected by any intellectual property right(s) (for example, but not limited to, copyrights, (industrial) design rights, patent rights, (semi-conductor) topography rights, plant variety rights, accompanying rights, trade name rights, trade mark rights, database rights:<br>
+&nbsp;&nbsp;&nbsp;a. GitLab shall be the sole author of Contributor’s work and any work embodying Contributor’s work according to the Intellectual Property Act (Auteurswet) and no rights thereto shall accrue in any manner to Contributor. To the extent that Contributor’s work is not properly characterized as a work made for hire, Contributor grants to GitLab all right, title and interest in Contributor’s work, including all copyright rights, in perpetuity and throughout the world.<br>
+&nbsp;&nbsp;&nbsp;b. GitLab shall be the sole owner of all patents, copyrights, trade secrets and other intellectual property rights related to Contributor’s work. Contractor also agrees to waive any and all moral rights relating to the work product, including but not limited to, any and all rights of identification of authorship and any and all rights of approval, restriction or limitation on use, and subsequent modifications.<br>
+&nbsp;&nbsp;&nbsp;c. Contributor shall not register him/herself as patent holder, design right holder, trade mark holder and/or holder of any other intellectual property right in respect thereof.<br>
 &nbsp;&nbsp;&nbsp;d. Contributor warrants that the intellectual property rights are unencumbered (onbezwaard) and not protected by any third party (intellectual property) rights.
 
 3\. GitLab is entitled to file / register for intellectual property protection in GitLab's name or the name of its company / undertaking as patent, (industrial) design, trade mark or any other intellectual property right;
@@ -1244,31 +1269,31 @@ WHEREAS, in consideration of the mutual covenants and promises herein contained,
 
 5\. The compensation agreed upon in the {Employment OR Contractor} Agreement sufficiently compensates the Contributor and amounts to a 'fair price' for the transfer of any intellectual property rights.
 
-6\. Unilateral amendment, choice of law and final provisions
-&nbsp;&nbsp;&nbsp;a. Any addition to and/or variance from this contract shall only be valid if set out in writing, dated and signed by both parties.
-&nbsp;&nbsp;&nbsp;b. The provisions of this contract and any annexes hereto shall be deemed to constitute one entire agreement. No rights may be asserted on the basis of this contract until the GitLab has received a copy of this contract, and any annexes, signed by the Contributor.
+6\. Unilateral amendment, choice of law and final provisions<br>
+&nbsp;&nbsp;&nbsp;a. Any addition to and/or variance from this contract shall only be valid if set out in writing, dated and signed by both parties.<br>
+&nbsp;&nbsp;&nbsp;b. The provisions of this contract and any annexes hereto shall be deemed to constitute one entire agreement. No rights may be asserted on the basis of this contract until the GitLab has received a copy of this contract, and any annexes, signed by the Contributor.<br>
 &nbsp;&nbsp;&nbsp;c. The interpretation construction and effect of this Agreement shall be construed in all respects in accordance with Dutch Law and the parties hereby submit to the exclusive jurisdiction of the Dutch courts.
 
 
-**Thus agreed upon:**
+**Thus agreed upon:**<br>
 
-**GitLab**
+**GitLab**<br>
 
-Signature:
+Signature:<br>
 
-Name: {GitLab Authorized Signatory}
+Name: {GitLab Authorized Signatory}<br>
 
-Title: {GitLab Signatory Title}
+Title: {GitLab Signatory Title}<br>
 
-Date:
+Date:<br>
 
-**The Contributor**
+**The Contributor**<br>
 
-Signature:
+Signature:<br>
 
-Name: {Name of Contributor}
+Name: {Name of Contributor}<br>
 
-Date:
+Date:<br>
 
 
 
