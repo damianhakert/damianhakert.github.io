@@ -61,7 +61,8 @@ Field marketing includes event marketing and swag production.
 
 ## After and Event
 
-- Fill out after event survey- send any relevant feedback on event to marketing event staff.
+- Fill out after event survey.
+- Add event debrief to event issue in marketing project. The debrief should include the following if applicable:
     - Was the event valuable?
         - Would you go again/ should we go again?
         - Did we get good leads/ contacts?
@@ -73,7 +74,8 @@ Field marketing includes event marketing and swag production.
         - Booth location and size
     - How did our swag go over?
         - Did we have enough/ too much?
-    - Contests?
+    - Contests
+        - Did the contest(s) effectively build our brand and connecting with our target audience?
 - Make sure contacts/ leads gathered from event are with marketing and categorized under specific event campaign.
 - Follow up with leads from event within 5 business days after event ends.
 
@@ -93,15 +95,15 @@ Field marketing includes event marketing and swag production.
 - Puzzles (pub quiz style, score points and compete with other cities)
 - Video Q&A with service engineers and.or developers
 - AMA's with CEO/CTO
--  Visit in person if we can
+- Visit in person if we can
 - Organizers become part of the GitLab Club (more details to come)
 
-The first meetups should be run by employees. If someone manages to have 3 to 4 successive the meetup itself will live on. It is much harder to start new meetups versus maintaining existing ones. So we should everything to keep existing events going.
+The first meetups should be run by GitLab employees. If someone manages to have 3-4 successive events, the meetup itself will live on. It is much harder to start new meetups versus maintaining existing ones. So we should everything to keep existing events going.
 
 ## Swag
 
 * We aim to do swag in a way that doesn't take a lot of time to execute => self serve => [web shop](https://gitlab.mybrightsites.com/)
 * With a webshop you can just give people credit, they can pick what they want and provide shipping info.
-* Of course we love [stickers](http://opensource.com/business/15/11/open-source-stickers). Also working on special edition stickers for contributors, GitLab Club members.
-* We aim to make our swag delight and or be useful.
+* Of course we love [stickers](http://opensource.com/business/15/11/open-source-stickers). We are working on special edition stickers for contributors to be announced May 2016.
+* We aim to have our swag delight and or be useful.
 * We aim to make limited edition swag for the community to collect.
