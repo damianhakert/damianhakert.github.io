@@ -213,19 +213,17 @@
 
 .what-is {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   background-color: $color-primary-alt;
   color: $color-white;
   font-size: 16px;
 
   @media (min-width: 990px) {
     padding-top: 60px;
-    padding-bottom: 60px;
   }
 
   @media (min-width: 1200px) {
     padding-top: 120px;
-    padding-bottom: 120px;
   }
 
   .what-is-item-holder {
@@ -414,13 +412,21 @@
 }
 
 .what-is-twitter {
-  padding-top: 15px;
+  padding-top: 20px;
+
+  @media (min-width: 990px) {
+    padding-top: 60px;
+  }
+
+  @media (min-width: 1200px) {
+    padding-top: 80px;
+  }
 
   a {
-    color: $color-white;
+    color: $color-secondary-alt;
     text-decoration: none;
-    font-size: (18px / 16px) * 1em;
-    border-bottom: 1px solid $color-white;
+    font-size: (20px / 16px) * 1em;
+    border-bottom: 1px solid $color-secondary-alt;
 
     &:hover {
       border-bottom-color: transparent;
