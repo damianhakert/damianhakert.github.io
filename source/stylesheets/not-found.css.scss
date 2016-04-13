@@ -10,13 +10,13 @@ body {
   flex-direction: column;
   position: relative;
   padding-top: 0;
-  background-image: url(/images/404/bg.png);
+  background-image: url("/images/404/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 
-  &:before {
-    content: '';
+  &::before {
+    content: "";
     position: absolute;
     top: 0;
     right: 0;
