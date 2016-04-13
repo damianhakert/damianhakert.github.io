@@ -181,11 +181,24 @@ Change all creative work from read-only to read-write so that **everyone can con
 
 1. Include goals and promotion criteria in all job descriptions.
 
-2. Develop great recruiting, hiring, onboarding, offboarding practices with full time HR and recruiter.
+2. Develop great recruiting, hiring, onboarding, offboarding practices with full
+time People Operations staff.
 
 3. To keep our great culture we need to institutionalize feedback.
 
 4. Sponsor initiatives and hire in countries that have low opportunity.
+
+## Service Engineering 2016
+
+1. Provide a great support experience with reliable response times for customers. 
+
+2. Respond to all community communication and recognize community members who provide
+a lot of support to others in the community.
+
+3. Make service engineering onboarding and training a mostly self-guided experience that scales.
+
+4. Reduce the demand for support by improved documentation, training, tutorials, and
+community engagement.
 
 ## Production Engineering 2016
 
