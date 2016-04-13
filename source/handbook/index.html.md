@@ -141,7 +141,7 @@ and then view the documentation as a lower priority task as this inevitably lead
 1. When you **reply** to a request please do so after you have completed the request or
 indicate when you plan to do it. In the latter case always send a second message
 when the request is complete.
-1. Respect the privacy of our users and your fellow team members. Secure our production data at all times. Only work with production data when this is needed to perform your job. Looking into production data for malicious reasons (for exaple [LOVEINT](https://en.wikipedia.org/wiki/LOVEINT) or spying on direct messages of team members) is a fireable offense.
+1. Respect the privacy of our users and your fellow team members. Secure our production data at all times. Only work with production data when this is needed to perform your job. Looking into production data for malicious reasons (for example [LOVEINT](https://en.wikipedia.org/wiki/LOVEINT) or spying on direct messages of team members) is a fireable offense.
 1. Most guidelines in this handbook are meant to help, don't be afraid to do something because you can't oversee all guidelines, be gentle when reminding people about these guidelines, for example say: "It is not a problem, but next time please consider the following guideline from the handbook".
 
 ## Communication<a name="communication"></a>
@@ -193,7 +193,7 @@ GitLab can find and access' with edit (preferred) or comment access for everyone
 An easy way to do this, is to create your Google docs in a Shared Folder in
 Google Drive.
 1. When referring to a Google Doc in the handbook, refrain from providing the direct link.
-Instead, write the name of the Google Doc. In the past, giving the url of a doc
+Instead, write the name of the Google Doc. In the past, giving the URL of a doc
 has led to inadvertent opening of sharing settings beyond what was intended, and it also helps
 prevent spam from people outside of GitLab who request access to the doc when they see the link.
 1. All our procedures and templates are stored in (mostly public) git repositories
@@ -307,7 +307,7 @@ link in their Slack profile
 add a custom field to your Calendly asking people how you can reach them
 (Hangouts / Skype)
 1. If you want to ask people if they are available for an event please send a new calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.
-1. If there are materials relevant for a calendar meeting (for example a Google Doc) please add the url to the meeting invite description.
+1. If there are materials relevant for a calendar meeting (for example a Google Doc) please add the URL to the meeting invite description.
 1. If you want to check if a team member is available for an outside meeting, create a calendar appointment and invite the team member only, after they respond yes then invite outside people.
 1. When scheduling a call with multiple people, invite them using a Google Calendar that is your own, or one specific to the people joining, so the calendar item
 doesn't unnecessarily appear on other people's calendars.
@@ -328,9 +328,9 @@ doesn't unnecessarily appear on other people's calendars.
 ### Writing Style Guidelines<a name="writing-style-guidelines"></a>
 
 1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](http://doc.gitlab.com/ce/markdown/markdown.html) instead.
-1. We use Unix style (lf) line endings, not Windows style (crlf), please ensure `*.md text eol=lf` is set in the repo's .gitattributes and run `git config --global core.autocrlf input` on your client.
+1. We use Unix style (lf) line endings, not Windows style (crlf), please ensure `*.md text eol=lf` is set in the repository's `.gitattributes` and run `git config --global core.autocrlf input` on your client.
 1. Do not create links like "here" or "click here". All links should have relevant anchor text that describes what they link to, such as: "GitLab CI source installation documentation".
-1. Always use [ISO dates](http://xkcd.com/1179/) in all writing and legal documents, yyyy-mm-dd, e.g., 2015-04-13, and never 04-13-2015 or 13-04-2015
+1. Always use [ISO dates](http://xkcd.com/1179/) in all writing and legal documents, `yyyy-mm-dd`, e.g., 2015-04-13, and never 04-13-2015 or 13-04-2015
 1. If you have multiple points in a comment or email, please number them to make replies easier.
 1. When you reference an issue, merge request, comment, commit, page, doc, etc. and you have the URL available please paste that in.
 1. In URLs, always prefer hyphens to underscores.
@@ -420,7 +420,7 @@ payroll taxes (links are to sample items, other options can be considered):
     * Anything else you need? Please ask!
     * To order please send a screenshot of what you need to People Ops.
 1. **Expense Reimbursement**
-    *  If you are a contractor, please submit an invoice with receipts attached to ap@gitlab.com.
+    *  If you are a contractor, please submit an invoice with receipts attached to <ap@gitlab.com>.
     *  If you are an employee, GitLab uses Expensify to facilitate the reimbursement of your expenses.
     You will receive an invitation by email to join GitLab's account. Please set up your account
     by following the instructions in the invitation.
@@ -463,7 +463,7 @@ team members for every month that we reach our Sales Targets. The reward is [100
 to each team member, towards a dinner of each team member's own choice. Enjoy!
 
 The CEO, or CRO will announce on the team call if the target was met. To claim the bonus,
-please submit your receipt through expensify or include on your contractor invoice as a reimbursable expense.
+please submit your receipt through Expensify or include on your contractor invoice as a reimbursable expense.
 
 ### Discretionary Bonuses<a name="discretionary-bonuses"></a>
 
@@ -525,7 +525,7 @@ This section is for tools that don't fit anywhere else.
 ### Calendly
 
 [Calendly](https://calendly.com/): Set up 45 minute meeting slots. Connect to your Google calendar which knows your availability.
-The meeting will always create the same Google Video url so if you have that you can add it to the booking.
+The meeting will always create the same Google Video URL so if you have that you can add it to the booking.
 
 ### Shush
 
@@ -543,7 +543,7 @@ Use space for page down instead of fn+up arrow.
 
 ### Bluejeans
 
-Please add instructions how to set up a Bluejeans meeting, how to record it and how to add the resulting video to our Youtube channel.
+Please add instructions how to set up a Bluejeans meeting, how to record it and how to add the resulting video to our YouTube channel.
 
 ### Gmail
 
@@ -576,7 +576,7 @@ I'll try one more time to see if it works.
 
 Potential problem 2: the video showed up as listed by default
 
-Go to [My live events on Youtube](https://www.youtube.com/my_live_events) and switch to the GitLab account on the top right (you need to be a manager of our Youtube channel).
+Go to [My live events on YouTube](https://www.youtube.com/my_live_events) and switch to the GitLab account on the top right (you need to be a manager of our YouTube channel).
 
 Go to => life streaming => events and create a new one with the attributes:
 
@@ -584,21 +584,26 @@ Go to => life streaming => events and create a new one with the attributes:
 - advanced: promotions: disable both checkboxes
 - time needs to be set correctly
 
-The view on watch page url only allows for people to watch it.
-Window that pops up when you press the start hangout on air button has the proper url that you can send to other people and/or add it to the calendar invite, it is structured like: https://plus.google.com/hangouts/_/ytl/LONGHASH.
+The view on watch page URL only allows for people to watch it.
+Window that pops up when you press the start hangout on air button has the proper URL that you can send to other people and/or add it to the calendar invite, it is structured like: https://plus.google.com/hangouts/_/ytl/LONGHASH.
 When people join the event they have to [accept a warning](https://gitlab.com/snippets/16245).
 
 [Completed live events](https://www.youtube.com/my_live_events?filter=completed) will show the video and you can click the image to view it.
 You can use actions to make it public here
 
-BTW Trying to set this up via Google+ via [https://plus.google.com/hangouts/onair](Hangouts on Air) instead of via Youtube doesn't seem to connect to the right Youtube channel, even if you selected the right account on the top right.
+BTW Trying to set this up via Google+ via [https://plus.google.com/hangouts/onair](Hangouts on Air) instead of via YouTube doesn't seem to connect to the right YouTube channel, even if you selected the right account on the top right.
 
 ### One Tab
 
 [One Tab](https://www.one-tab.com/) tames tabs into a list which can be sorted and exported.
 
-### Check whom occupies a given port
-When the GitLab Development Kit cannot start using the `./run` command and unicorn terminates because port 3000 is already in use you will have to check what process does. Running `sudo lsof -i -n -P | grep TCP | grep 3000` will yield the offender so this process can be killed. It might be wise to alias this command in your `.bash_profile` or equivalent for your shell.
+### Check which process occupies a given port
+
+When the GitLab Development Kit cannot start using the `./run` command and
+Unicorn terminates because port 3000 is already in use, you will have to check
+what process is using it. Running `sudo lsof -i -n -P | grep TCP | grep 3000`
+will yield the offender so this process can be killed. It might be wise to alias
+this command in your `.bash_profile` or equivalent for your shell.
 
 ## Using Git to update this website<a name="starting-with-git"></a>
 
