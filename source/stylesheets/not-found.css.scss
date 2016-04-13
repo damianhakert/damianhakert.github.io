@@ -1,3 +1,4 @@
+@import "vendor/bootstrap/bootstrap/variables";
 @import "variables";
 
 html,
@@ -52,12 +53,20 @@ body {
 
 .four-zero-four-content {
   color: $color-white;
-  font-size: 16px;
+  font-size: 13px;
+
+  @media (min-width: $screen-md-min) {
+    font-size: 16px;
+  }
 
   h1 {
-    margin-top: 45px;
+    margin-top: 5px;
     font-size: (32px / 16px) * 1em;
     font-weight: 600;
+
+    @media (min-width: $screen-md-min) {
+      margin-top: 45px;
+    }
   }
 
   p {
