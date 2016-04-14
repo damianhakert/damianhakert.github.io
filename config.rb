@@ -20,7 +20,7 @@ set :haml, {
 activate :syntax, line_numbers: false
 
 set :markdown_engine, :redcarpet
-set :markdown, fenced_code_blocks: true, smartypants: true
+set :markdown, fenced_code_blocks: true, smartypants: true, tables: true
 
 activate :blog do |blog|
   blog.sources = "posts/{year}-{month}-{day}-{title}.html"
@@ -57,6 +57,18 @@ helpers do
     content_tag :svg, viewbox: "0 0 76 76", width: width, height: height, class: cssclass, aria: {label: label}, role: "img" do
       partial "includes/icons/#{icon}.svg"
     end
+  end
+
+  def xml_feed_content(article)
+    content = article.body
+
+    if article.data.image_title
+      content << "<img src='#{data.site.url}#{article.data.image_title}' class='webfeedsFeaturedVisual' style='display: none;' />"
+    else
+      content << "<img src='#{data.site.url}#{image_path("default-blog-image.png")}' class='webfeedsFeaturedVisual' style='display: none;' />"
+    end
+
+    h(content)
   end
 end
 

@@ -4,6 +4,18 @@ This is the source for the https://about.gitlab.com/ site.
 
 ## Contributing
 
+### Blog posts
+
+When adding timestamps to blog posts, **be warned:** setting it too far into the
+future will cause the post to not be published until that time has passed.
+
+Because builds are only triggered on new commits to `master`, you might set a
+blog post to publish in a few hours, but it might not be published for days if
+no one makes a new commit after that time has passed.
+
+When in doubt, either don't give it a timestamp, or set it to a time that has
+already passed.
+
 ### Adding yourself to the team page
 
 Edit [`data/team.yml`](./data/team.yml) and add a new entry for yourself (or

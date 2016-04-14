@@ -6,7 +6,7 @@ title: Blog archives
 .blog-index.blog-entry
   %ul.post-list
     - blog.articles.each do |post|
-      %li
+      %li.post-list-item
         = link_to post.url do
           = post.title
         - if post.date

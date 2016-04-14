@@ -185,7 +185,7 @@
   maintains:  |
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/marketo-tools">Marketo tools</a></li>
-              <li>Trained <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/release/monthly.md#release-manager">Release Manager</a></li>
+              <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
   story:  |
           Before joining GitLab the company in 2015, Robert was
           already an active member of the GitLab community beginning in 2012,
@@ -302,7 +302,7 @@
   twitter: yorickpeterse
   gitlab: yorickpeterse
   maintains: |
-             <li>Trained <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/release/monthly.md#release-manager">Release Manager</a></li>
+             <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
              <li>Performance specialist</li>
   story: |
          Yorick first started working as a professional software developer in
@@ -500,7 +500,7 @@
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-contributors/">GitLab Contributors</a></li>
               <li>Merge request coach</li>
-              <li>Trained <a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/release/monthly.md#release-manager">Release Manager</a></li>
+              <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
               <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           Rémy loves the Web, the open-source, Git and Ruby. He's very versatile
