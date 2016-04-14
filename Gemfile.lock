@@ -125,7 +125,6 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
-    redcarpet (3.3.4)
     rouge (1.10.1)
     ruby-ll (2.1.2)
       ansi
@@ -153,6 +152,7 @@ PLATFORMS
 DEPENDENCIES
   builder (~> 3.0)
   httparty
+  kramdown (~> 1.10)
   middleman (~> 4.0.0)
   middleman-autoprefixer
   middleman-blog
@@ -160,7 +160,6 @@ DEPENDENCIES
   middleman-minify-html
   middleman-syntax
   oga
-  redcarpet (~> 3.3, >= 3.3.3)
   scss_lint
   stringex
   tzinfo-data

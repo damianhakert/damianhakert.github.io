@@ -236,6 +236,5 @@ See the [security handbook](https://about.gitlab.com/handbook/security).
 
 ### Quiz<a name="quiz"></a>
 Employees should answer GitLab quiz questions in the first 2 weeks of working in
-the company. If the answers are not accurate, you may retest once:
-<a href="https://about.gitlab.com/handbook/questions/">GitLab Quiz.</a>
-Please schedule a call with your hiring manager.</li>
+the company. If the answers are not accurate, you may retest once: [GitLab Quiz](https://about.gitlab.com/handbook/questions/)
+Please schedule a call with your hiring manager.

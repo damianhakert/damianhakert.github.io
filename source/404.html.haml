@@ -1,0 +1,24 @@
+---
+layout: blank
+title: 404
+extra_css:
+  - not-found.css
+---
+%header.blank-header.text-center
+  = partial 'includes/logos/blank_logo.svg'
+.container.text-center.blank-container
+  .four-zero-four-image
+    = image_tag '404/illustration.png'
+  .four-zero-four-content
+    :markdown
+      # Four Oh No!
+
+      We've looked everywhere and we've lost this page
+    %a.btn-take-back.js-take-me-back{ href: '/' }
+      Take Me Back
+:javascript
+  var ref = document.referrer;
+
+  if (ref !== '') {
+    document.querySelectorAll('.js-take-me-back')[0].href = ref;
+  }

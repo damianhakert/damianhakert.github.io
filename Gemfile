@@ -16,7 +16,7 @@ gem "middleman-minify-html"
 gem "middleman-autoprefixer"
 gem "middleman-syntax"
 
-gem 'redcarpet', '~> 3.3', '>= 3.3.3'
+gem 'kramdown', '~> 1.10'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"

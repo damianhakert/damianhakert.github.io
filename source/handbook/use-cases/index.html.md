@@ -60,7 +60,7 @@ title: "Customer Use-Cases"
     * Placeholder to add story
     * Placeholder to add another story
 1. Protected Branches
-    * The customer had been using BitBucket and was not able to limit developer 
+    * The customer had been using Bitbucket and was not able to limit developer 
       permissions to specific branches and repositories.  They had an ongoing 
       problem with developers accidently pushing branches to the wrong project 
       or without proper code review. They decided to switch to GitLab because 
