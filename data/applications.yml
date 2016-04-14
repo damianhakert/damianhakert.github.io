@@ -70,7 +70,7 @@
     - title: Zmo's git-repo, a tool for managing your remote repository services
       content: |
         A tool to manage your remote repositories (create, fork, delete, clone,
-        add remote…) for services like GitLab (but also GitHub and BitBucket)
+        add remote…) for services like GitLab (but also GitHub and Bitbucket)
         that integrates as a Git subcommand.
       links:
         - url: https://gitlab.com/guyzmo/git-repo

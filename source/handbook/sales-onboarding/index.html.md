@@ -28,7 +28,7 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 1. Complete TrainTool Course - Asking Effective Questions
 1. Complete TrainTool Course - Closing Techniques
 1. Complete TrainTool Course - Handling Pricing Objections
-1. Record a demo using WebEx and send to your manager and Chad Malchow.  Demo scenario is an organization with 500 seats who uses Jira and BitBucket for a few teams, subversion within a couple teams and GitLab CE is also installed.
+1. Record a demo using WebEx and send to your manager and Chad Malchow.  Demo scenario is an organization with 500 seats who uses Jira and Bitbucket for a few teams, subversion within a couple teams and GitLab CE is also installed.
 
 ### Week 4 test
 1. Create Fake Lead in Salesforce.  Lead First Name - Test; Lead Last Name - GitLab Bootcamp.  Company: GitLab Sales Bootcamp. Lead Source: Other
