@@ -29,9 +29,9 @@ title: "GitLab Positioning FAQ"
         - GitLab handles huge repositories well - Big repository? No problem. GitLab is built to handle very large repositories.
         - Access to the server - You have complete control of the server/instance, so you can install additional software (intrusion detection, performance monitoring, etc.) and view log files on the server itself.
         - Pricing - we are much more cost effective.
-* I use BitBucket.  What can GitLab offer me?
-    1. BitBucket has done a lot for the enterprise Git space. Great company.
-    1. GitLab.com and Community Edition are completely free - BitBucket.com is pay if you have more than 5 users.
+* I use Bitbucket.  What can GitLab offer me?
+    1. Bitbucket has done a lot for the enterprise Git space. Great company.
+    1. GitLab.com and Community Edition are completely free - Bitbucket.com is pay if you have more than 5 users.
     1. Backed by a community of a few hundred thousand developers and 1,000 contributors.
     1. We launch new features monthly and are iterating on our product faster than anyone in the market. Thanks to our community and our open-way of working, we’ve been able to release new features quickly and effectively.
         - Job’s blog post on the topic is a great read, https://about.gitlab.com/2015/04/15/bitbucket-vs-gitlab-com/

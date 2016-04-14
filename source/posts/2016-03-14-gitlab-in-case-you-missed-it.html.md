@@ -33,7 +33,7 @@ As it turns out, the terminology is justified.
 ## The terminology 
 
 These aren't just fancy terms to stand out from the crowd. 
-I strongly recommend reading the article about [GitLab, Github and Bitbucket and terms comparison](https://about.gitlab.com/2016/01/27/comparing-terms-gitlab-github-bitbucket/), if you wish to sort out the details. 
+I strongly recommend reading the article about [GitLab, GitHub and Bitbucket and terms comparison](https://about.gitlab.com/2016/01/27/comparing-terms-gitlab-github-bitbucket/), if you wish to sort out the details. 
 I'd like to bring up the "Merge requests" topic, as it's the most controversial.
 
 My initial reaction, naturally, was rejection. Most of us are accustomed to
