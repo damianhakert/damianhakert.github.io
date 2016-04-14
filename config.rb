@@ -19,8 +19,8 @@ set :haml, {
 
 activate :syntax, line_numbers: false
 
-set :markdown_engine, :redcarpet
-set :markdown, fenced_code_blocks: true, smartypants: true, tables: true
+set :markdown_engine, :kramdown
+set :markdown, tables: true, hard_wrap: false, input: "GFM"
 
 activate :blog do |blog|
   blog.sources = "posts/{year}-{month}-{day}-{title}.html"
