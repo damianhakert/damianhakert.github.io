@@ -25,7 +25,7 @@ namespace :lint do
   end
 end
 
-desc "Being a new post"
+desc "Begin a new post"
 task :new_post, :title do |t, args|
   if args.title
     title = args.title
@@ -46,5 +46,36 @@ task :new_post, :title do |t, args|
     post.puts "categories: "
     post.puts "image_title: "
     post.puts "---"
+  end
+end
+
+desc "Creates a new release post"
+task :new_release_post, :version do |t, args|
+  version = args.version
+  source_dir = File.expand_path('../source', __FILE__)
+  posts_dir = 'posts'
+
+  unless version =~ /\A\d+\.\d+\z/
+    raise 'You need to specify version like 8.3'
+  end
+
+  mkdir_p "#{source_dir}/#{posts_dir}"
+
+  filename = "#{source_dir}/#{posts_dir}/#{Time.now.strftime('%Y-%m-22')}-gitlab-#{version.gsub('.', '-')}-released.html.md"
+
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+
+  puts "Creating new release post: #{filename}"
+
+  template_text = File.read('doc/release_blog_template.html.md')
+  template_text.gsub!('date: YYYY-MM-22', "date: #{Time.now.year}-#{Time.now.strftime("%m")}-22")
+  template_text.gsub!('X_X', version.gsub('.', '_'))
+  template_text.gsub!('X.X', version)
+  template_text.gsub!('X-X', version.gsub('.', '-'))
+
+  open(filename, 'w') do |post|
+    post.puts template_text
   end
 end
