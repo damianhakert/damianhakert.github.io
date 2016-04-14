@@ -16,6 +16,20 @@ no one makes a new commit after that time has passed.
 When in doubt, either don't give it a timestamp, or set it to a time that has
 already passed.
 
+### Create a new blog post
+
+You can use the rake command below to create a draft post with the YAML
+frontmatter pre-filled:
+
+```
+bundle exec rake new_post
+```
+
+Enter the title of the blog post and hit Enter. A new file will be created
+under `source/posts/` for you to edit. Keep in mind that the date and time is
+set to the one when you issued the above command. You might want to change it
+to a later date depending on when you want the post to be published.
+
 ### Adding yourself to the team page
 
 Edit [`data/team.yml`](./data/team.yml) and add a new entry for yourself (or
