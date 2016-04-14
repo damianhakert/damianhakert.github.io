@@ -89,6 +89,8 @@ configure :build do
   proxy "/release-list/index.html", "/release-list/template.html", locals: { list: releases.content }, ignore: true
 end
 
+page '/404.html', directory_index: false
+
 ignore '/direction/template.html'
 ignore '/includes/*'
 ignore '/release-list/template.html'
