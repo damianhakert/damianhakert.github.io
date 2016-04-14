@@ -105,18 +105,18 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 
 As part of our hiring process we may ask applicants to provide us with one or more
 references to contact. These reference calls are typically be done by our [administrative coordinator](https://about.gitlab.com/jobs/administrative-coordinator/) or the hiring
- manager for that specific vacancy. 
+ manager for that specific vacancy.
 
 ## Getting Contracts Ready, Reviewed, and Signed<a name="prep-contracts"></a>
 
 Offers made to new team members should be documented in the email thread between the
 person authorized to make the offer (e.g. CEO) and the applicant.
 
-1. Email example:   
+1. Email example:
 ```
 We would love to have you as part of our team. You will have
 a position of [job title]. As a contractor you will invoice [monthly rate] per month.
-You will report to the [manager]. We proposed to make you eligible for [number] of stock options.
+You will report to [name of manager]. We proposed to make you eligible for [number] of stock options.
 We will send you a contract on [day of week] based on
 the examples on https://about.gitlab.com/handbook/contracts/. If you have not
 received anything on that day please reply-to-all to let us know. Please let us
