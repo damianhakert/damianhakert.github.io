@@ -269,7 +269,6 @@
   twitter: jeroen_nijhof
   gitlab: jnijhof
   maintains:  |
-              <li>On-call hero!</li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/status-gitlab-com">status-gitlab-com</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/operations">operations issue tracker</a></li>
               <li>Maintainer of <a href="https://dev.gitlab.org/cookbooks/chef-repo/">Chef Repo</a> (internal)</li>
