@@ -23,7 +23,8 @@ image_title: /images/team/team.jpg
         -# %a{href: "/team/structure.html"} team structure
         -# .
         You can get a sense of the team culture by visiting our
-        %a{href: "https://about.gitlab.com/culture/"} culture page.
+        %a{href: "https://about.gitlab.com/culture/"} culture page
+        .
     .row
       - data.team.each do |member|
         = partial "includes/team/member", locals: {member: member, is_pet: false}
