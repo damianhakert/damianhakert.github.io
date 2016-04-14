@@ -605,6 +605,10 @@ what process is using it. Running `sudo lsof -i -n -P | grep TCP | grep 3000`
 will yield the offender so this process can be killed. It might be wise to alias
 this command in your `.bash_profile` or equivalent for your shell.
 
+### MobileDay
+
+If you install [MobileDay](https://mobileday.com/) on your phone and give it access to your Google Calendar it can dial into conference calls for you. It is very good at detecting the number and password from the calendar invite.
+
 ## Using Git to update this website<a name="starting-with-git"></a>
 
 ### Start using GitLab
