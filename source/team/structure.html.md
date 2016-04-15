@@ -11,11 +11,11 @@ page_class: org-structure
       - Online Marketing Manager
       - Business Developer Representative
     - Product Marketing - Senior Product Marketing Manager (lead)
-      -Partner/Channel Marketing Manager (vacancy)
+      - Partner/Channel Marketing Manager (vacancy)
+      - Content Marketing Manager (vacancy)
     - Developer Relations
       - Developer Advocates
       - Field Marketing Manager
-      - Developer Marketing Manager
       - Technical Writer
   - Sales - CRO
     - Account Executives
