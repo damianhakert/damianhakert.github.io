@@ -7,8 +7,10 @@ extra_js:
   - libs/slick.min.js
   - home.js
 ---
-.gitlab-promo-banner.animated
-  %a{href: data.promo.link}= data.promo.text
+- if data.promo.link && data.promo.text
+  .gitlab-promo-banner.animated
+    %a{href: data.promo.link}= data.promo.text
+
 .landing-container.text-center
   #js-landing-community.landing-community
   .container
