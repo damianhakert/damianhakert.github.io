@@ -213,19 +213,17 @@
 
 .what-is {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   background-color: $color-primary-alt;
   color: $color-white;
   font-size: 16px;
 
   @media (min-width: 990px) {
     padding-top: 60px;
-    padding-bottom: 60px;
   }
 
   @media (min-width: 1200px) {
     padding-top: 120px;
-    padding-bottom: 120px;
   }
 
   .what-is-item-holder {
@@ -288,7 +286,7 @@
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: $color-white;
-  border-bottom: 2px solid $landing-organization-color;
+  border-bottom: 1px solid $landing-organization-color;
 
   @media (min-width: 990px) {
     padding-top: 60px;
@@ -409,6 +407,30 @@
 
     &:hover {
       background-color: $landing-organization-color;
+    }
+  }
+}
+
+.what-is-twitter {
+  padding-top: 20px;
+
+  @media (min-width: 990px) {
+    padding-top: 60px;
+  }
+
+  @media (min-width: 1200px) {
+    padding-top: 80px;
+  }
+
+  a {
+    color: $color-secondary-alt;
+    text-decoration: none;
+    font-size: (20px / 16px) * 1em;
+    font-weight: 300;
+    border-bottom: 1px solid $color-secondary-alt;
+
+    &:hover {
+      border-bottom-color: transparent;
     }
   }
 }
