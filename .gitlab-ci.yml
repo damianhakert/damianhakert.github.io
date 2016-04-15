@@ -15,7 +15,7 @@ lint:
 build:
   stage: test
   script:
-    - bundle exec middleman build
+    - bundle exec middleman build --verbose
   except:
     - master
 
