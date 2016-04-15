@@ -244,9 +244,7 @@ at a location, place and time that Contributor deems appropriate. Contributor, i
 its sole discretion, will determine the manner, method, details and means of performing
 work under a Statement of Work, but may not subcontract or otherwise delegate its
 obligations under this Agreement, nor employ any agents or employees to perform such
-obligations without the prior written consent of GitLab. Contributor is expected to
-provide its own equipment, tools, and other materials at its own expense in performing
-work under the Statement of Work.
+obligations without the prior written consent of GitLab.
 
 **3.1 Acceptance or Rejection of Work**. Upon Contributor’s submission of the work
 product, GitLab will, in its sole discretion, accept or reject all or part of the work
@@ -872,9 +870,9 @@ A reasonable degree of overtime is considered to be inherent to the job position
 to be worked if the Employer takes the view that it is necessary in the company's interests and in the
 context of the proper completion of the agreed work.
 
-**8\. Travelling expenses**
+**8\. traveling expenses**
 
-If the Employee incurs travelling expenses for business trips authorized by the employer,
+If the Employee incurs traveling expenses for business trips authorized by the employer,
 those expenses are payable in accordance with the most recent tax rules in that regard.
 
 **9\. Holiday allowance**
@@ -908,7 +906,7 @@ The Employer does not provide a pension scheme.
 **13\. Duty of confidentiality**
 
 1. The Employee undertakes both during and after the term of the Employment Contract not to disclose to third parties in any way whatsoever any particulars relating to:-
-   1. the business of the Employer or any company economically or organisationally affiliated with the Employer which he knows or may suspect could harm the interests of the Employer and/or those affiliated companies; or
+   1. the business of the Employer or any company economically or organizationaly affiliated with the Employer which he knows or may suspect could harm the interests of the Employer and/or those affiliated companies; or
    1. matters in respect of which the Employer has imposed secrecy.
 These obligations also apply to any matters concerning the Employer or relations or clients of the Employer or the Employer’s affiliates.
 1. The Employee will sign a non-disclosure agreement with clients, if requested by this client.
