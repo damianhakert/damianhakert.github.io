@@ -91,7 +91,7 @@ Next to Savvy, the People Ops team will also get a copy of the form info for you
 
 #### All team members
 
-* [ ] New team member: Register on 1Password by clicking [this link](https://gitlab.1password.com/teamjoin/invitation/J2KWH3CJDRFA7KTFDVVXXDSCMY)
+* [ ] New team member: Register on 1Password by clicking on the link in the shared Google Doc titled "Link to 1Password Sign-Up"
 and then ping @rspeicher to confirm your account.
 * [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
 * [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
