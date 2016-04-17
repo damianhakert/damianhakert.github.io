@@ -1,0 +1,143 @@
+---
+layout: post
+title: "Getting started with GitLab and DigitalOcean"
+date: 2016-04-17
+author: Achilleas Pipinellis
+author_twitter: _axil
+categories: 
+image_title: 
+---
+
+## Introduction
+
+Collaborating on projects, keeping track of source changes, and maintaining a clean code repository are some great reasons to use a version control system. Version control is now considered an essential tool in software development.
+
+Git is the most popular distributed version control system. GitLab is a git repository management server that can be used to host repositories and set up control structures for git within a clean web interface. It is built on Ruby on Rails.
+
+DigitalOcean has created a GitLab application image that can be used to instantly deploy GitLab on a DigitalOcean droplet using their Omnibus installer. You can have your own repository system up and running in minutes.
+
+<!-- more -->
+
+## Step One – Create a GitLab Droplet
+
+Before you begin using GitLab, you need to spin up a DigitalOcean droplet using the provided image.
+
+From the Control Panel, click on the "Create" button that is visible from any page:
+
+![Create Droplet](/images/blogimages/getting-started-with-gitlab-and-digitalocean/create-droplet.png)
+
+Choose a name, the droplet size, and the region you would like to use.
+
+The [GitLab documentation recommends a minimum of 2GB of RAM and 2 CPU cores](http://doc.gitlab.com/ce/install/requirements.html#hardware-requirements) for optimum performance. If your projects are small (fewer than 100 users total), 1GB of RAM and 1 CPU core may be sufficient:
+
+![Hardware](/images/blogimages/getting-started-with-gitlab-and-digitalocean/hardware.png)
+
+Scroll down the page. Under the "Select Image" section, choose the "Applications" tab and click the "GitLab image.
+
+Add any SSH Keys, select any settings you'd like to use, and click "Create Droplet" at the bottom:
+
+![Image](/images/blogimages/getting-started-with-gitlab-and-digitalocean/select_gitlab_app.png)
+
+Your GitLab droplet will be created!
+
+## Step Two – Configure Domain Names and Emails
+
+We still need to configure just a few things first to utilize our environment.
+
+Begin by setting up any domain names you would like to use for your GitLab instance. Learn [how to set up domain names on DigitalOcean](https://www.digitalocean.com/community/articles/how-to-set-up-a-host-name-with-digitalocean).
+
+Once your domain name is configured correctly, you need to adjust some values on the actual VPS instance. Log into your droplet as root through SSH, and open the GitLab configuration file with your text editor:
+
+```
+nano /etc/gitlab/gitlab.rb
+```
+
+Uncomment and adjust the `external_url` parameter to match your domain name. Your URL should end with a slash:
+
+```
+external_url "http://your_domain.com/"
+```
+
+If you have [generated an SSL certificate](https://www.digitalocean.com/community/tutorials/how-to-install-an-ssl-certificate-from-a-commercial-certificate-authority) for your domain, you can configure GitLab to use them in this file as well:
+
+```
+external_url "https://your_domain.com/"
+
+nginx['ssl_certificate'] = "/etc/gitlab/ssl/your_domain.com.crt"
+nginx['ssl_certificate_key'] = "/etc/gitlab/ssl/your_domain.com.key"
+nginx['redirect_http_to_https'] = true
+```
+
+While we're in this file, we can adjust the email settings that GitLab will use in the "From:" field in automated emails, and the email published for support contact, respectively:
+
+```
+gitlab_rails['gitlab_email_from'] = "gitlab@domain.com"
+gitlab_rails['gitlab_support_email'] = "your_email@domain.com"
+```
+
+The GitLab One-Click application is configured to use a local postfix server for sending emails. For a production site, you will likely want to use an external service such as Mandrill or SendGrid. If so, you can [configure SMTP settings](http://doc.gitlab.com/omnibus/settings/smtp.html) here as well.
+
+After saving and closing the file, we just need to reconfigure the service:
+
+```
+gitlab-ctl reconfigure
+```
+
+This should be done when ever you make configuration changes in order for them to take effect.
+
+## Step Three – Log into GitLab
+
+When you connect to your GitLab instance via SSH or the DigitalOcean web console, you will see the message of the day (MOTD) which contains your randomly generated GitLab password. It will look like this:
+
+```
+------------------------------------------------------------------------------
+Thank you for using DigitalOcean's GitLab Application.
+Your GitLab instance can be accessed at http://xxx.xxx.xxx.xxx/
+The default credentials for GitLab are: 
+Username: root
+Password: e0wXRM4fLmb6
+
+You can find more information on using this image at: http://do.co/gitlabapp
+------------------------------------------------------------------------------
+```
+
+Next, open a web browser and navigate to your domain name (or the IP address of your Droplet if you did not set up a domain name). You will now be able to log in using the credentials you found above.
+
+![Login](/images/blogimages/getting-started-with-gitlab-and-digitalocean/login.png)
+
+You now have a full GitLab server configured and at your disposal to manage your repositories:
+
+![Landing](/images/blogimages/getting-started-with-gitlab-and-digitalocean/landing.png)
+
+## Step Four – Modify Account Information
+
+It would probably be more helpful if the account you're using more accurately reflected your information. This will allow you to receive email updates and will display your information to other users.
+
+First, click on the "Admin area" icon in the top-right corner:
+
+![Admin](/images/blogimages/getting-started-with-gitlab-and-digitalocean/admin_button.png)
+
+## Updating to Newer Releases
+
+The GitLab One-Click application is configured to use the GitLab Apt repository. So upgrading to the most recent version is as simple as running:
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+```
+
+Before upgrading to a new release, you may wish to make a back up of your existing installation. To do so, run:
+
+```
+sudo gitlab-rake gitlab:backup:create
+```
+
+The resulting backup will be located in: `/var/opt/gitlab/backups`.
+
+## Conclusion
+
+You should now have a server configured to handle your team's git projects. You can easily manage user access, configure both public and private repositories, and get an overview of your projects' issues and commits.
+
+GitLab has a great help system accessible from within the user interface. In a future article, we will discuss how to manage repositories and users and effectively take advantage of the interface.
+
+For further information on configuring you GitLab Omnibus installation, check out the [official documentation](http://doc.gitlab.com/).
