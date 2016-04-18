@@ -14,7 +14,7 @@ GitLab Inc. has at most four layers in the team structure:
 1. Individual contributors (IC's)
 
 The indentation below reflects the reporting relations.
-You can see our complete team and who reports to who on the [team page](https://about.gitlab.com/team/)
+You can see our complete team and who reports to who on the [team page](https://about.gitlab.com/team/).
 If there is a hyphen (-) in a line the part before hyphen is the name of the department and sometimes links to the relevant part of the [handbook](https://about.gitlab.com/handbook/).
 The jobs titles link to the job descriptions.
 Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
@@ -29,7 +29,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - Partner/Channel Marketing Manager (vacancy)
       - Content Marketing Manager (vacancy)
     - Developer Relations
-      - Developer Advocates
+      - Developer Advocate
       - Field Marketing Manager
       - Technical Writer
   - Sales - CRO
@@ -38,8 +38,8 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - Account Executives
     - APAC - Director of Global Alliances and APAC Sales
     - Customer Success - Customer Success Manager (future vacancy)
-      - Account Managers
-      - Solution Engineers
+      - Account Manager
+      - Solution Engineer
   - Finance - CFO
     - Controller
     - People Operations Manager (vacancy)
@@ -51,7 +51,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - Various teams - Development Lead
       - Developers that are specilists on for that team
     - Design - Frontend Lead
-      - Frontend engineers
+      - Frontend engineer
     - Infrastructure - Senior Production Engineer
       - Production Engineers
       - Developers that are a performance specialist
