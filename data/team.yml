@@ -766,6 +766,23 @@
   story:  |
           Joining April 11th
 
+- name: Stan Hu
+  role: VP of Engineering
+  reports_to: CEO
+  picture: stanhu.jpg
+  twitter: stanhu
+  gitlab: stanhu
+  story:  |
+          Before joining full-time, Stan was a 4-time GitLab MVP that just
+          wanted to make GitLab better for his team at PacketZoom. Over the
+          last two decades, he has worked at all levels of the software stack,
+          even debugging issues with hardware. At Aclima, Stan led the
+          development of one of the largest air quality sensor networks in the
+          world for Google. He was part of a small team that created the Vanu
+          Anywave Base Station, the first FCC-certified software-defined
+          radio. A three-time Boston Marathon qualifier and finisher, Stan now
+          channels his energy into training for his next triathlon.
+
 - name: R.B.
   role: <a href="https://about.gitlab.com/jobs/solutions-engineer/">Solutions Engineer</a>
   reports_to: CRO
