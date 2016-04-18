@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: Organizational Structure
+title: Team Structure
 page_class: org-structure
 ---
 
