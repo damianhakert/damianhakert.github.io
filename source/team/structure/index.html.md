@@ -49,7 +49,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - UX Designers
   - Engineering - VP of Engineering
     - Various teams - Development Lead
-      - Developers that are specilists on for that team
+      - Developers that are specialized in what the team does (CI, others)
     - Design - Frontend Lead
       - Frontend engineer
     - Infrastructure - Senior Production Engineer
