@@ -127,10 +127,9 @@ put the People Operations email alias (which can be found in the "GitLab Email F
 1. One person from People Operations will reply-to-all to everyone in the thread
 (including the applicant) to confirm that they will make the contract. Speed matters: if you are in People Operations and you can
 tackle this, then raise your hand and hit reply-all.
-   - For any hires for which the COO does _not_ sign, the COO reviews the contract
-after which it can be sent out to be signed by any of the relevant C-level team
-members. For any hires for which the COO should sign, either the CFO or the CEO must
-review the contracts.
+   - The VP of Scaling reviews the contract
+after which it can be sent out to be signed by the C-level team
+member that made the offer.
 1. This person from People Operations makes the contract based on the details found in the Workable
 platform, and uses reply-all to gather any missing pieces of information, and to
 confirm with a reply-to-all when the contract is sent. Note: the number of proposed stock options
