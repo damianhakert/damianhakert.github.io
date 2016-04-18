@@ -4,11 +4,9 @@ title: "Getting started with GitLab and DigitalOcean"
 date: 2016-04-17
 author: Achilleas Pipinellis
 author_twitter: _axil
-categories: 
-image_title: 
+categories: digitalocean
+image_title: '/images/unsplash/sharks.jpg'
 ---
-
-_This tutorial is adapted from the [How To Use the GitLab One-Click Install Image to Manage Git Repositories](https://www.digitalocean.com/community/tutorials/how-to-use-the-gitlab-one-click-install-image-to-manage-git-repositories) tutorial on DigitalOcean._
 
 ### Introduction
 
@@ -16,7 +14,7 @@ Collaborating on projects, keeping track of source changes, and maintaining a cl
 
 Git is the most popular distributed version control system. GitLab is a Git repository management server that can be used to host repositories and set up control structures for git within a clean web interface. It is built on Ruby on Rails.
 
-DigitalOcean has created a GitLab application image that can be used to instantly deploy GitLab Community Edition on a DigitalOcean Ubuntu 14.04 x86_64 droplet using the [Omnibus installer](/2016/03/21/using-omnibus-gitlab-to-ship-gitlab/). You can have your own repository system up and running in minutes.
+DigitalOcean has created a GitLab application image that can be used to instantly deploy GitLab Community Edition on a DigitalOcean Ubuntu 14.04 x86-64 droplet using the [Omnibus installer](/2016/03/21/using-omnibus-gitlab-to-ship-gitlab/). You can have your own repository system up and running in minutes.
 
 <!-- more -->
 
@@ -55,7 +53,7 @@ We still need to configure just a few things first to utilize our environment.
 Begin by setting up the domain name you would like to use for your GitLab instance. Learn [how to set up domain names on DigitalOcean](https://www.digitalocean.com/community/articles/how-to-set-up-a-host-name-with-digitalocean) if you want to use DigitalOcean's nameservers.
 
 >**Note:**
-If you don't have a domain name at your disposal, you can just use your droplet's IP address.
+If you don't have a domain name at your disposal, you can just use your droplet's IP address, but GitLab will not be able to send emails.
 
 Once your domain name is configured correctly, you need to adjust some values on the actual VPS instance. Log into your droplet as root through SSH, and open the GitLab configuration file with your text editor:
 
@@ -79,14 +77,16 @@ nginx['ssl_certificate_key'] = "/etc/gitlab/ssl/your_domain.com.key"
 nginx['redirect_http_to_https'] = true
 ```
 
-While we're in this file, we can adjust the email settings that GitLab will use in the "From:" field in automated emails, and the email published for support contact, respectively:
+GitLab uses its own bundled NGINX web server. You can find more information like using your own external web server, changing the ports NGINX listens to, etc., in the [official documentation](http://doc.gitlab.com/omnibus/settings/nginx.html).
+
+While we're in this file, we can adjust the email settings that GitLab will use in the "From:" field in automated emails, and the email display name, respectively:
 
 ```
 gitlab_rails['gitlab_email_from'] = "gitlab@your_domain.com"
-gitlab_rails['gitlab_support_email'] = "your_email@your_domain.com"
+gitlab_rails['gitlab_email_display_name'] = 'Example'
 ```
 
-The GitLab One-Click application is configured to use a local postfix server for sending emails. For a production site, you will likely want to use an external service such as Mandrill or SendGrid. If so, you can [configure SMTP settings](http://doc.gitlab.com/omnibus/settings/smtp.html) here as well.
+The GitLab One-Click application is configured to use a local postfix server for sending emails. If you wish to use it with GitLab you will have to first set it up correctly. Follow the "[How To Install and Configure Postfix as a Send-Only SMTP Server on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-as-a-send-only-smtp-server-on-ubuntu-14-04)" tutorial for more information. For a production site, you will likely want to use an external service such as Mandrill or SendGrid. If so, you can [configure the SMTP settings](http://doc.gitlab.com/omnibus/settings/smtp.html) here as well.
 
 After saving and closing the file, we just need to reconfigure the service:
 
@@ -104,7 +104,7 @@ When you connect to your GitLab instance via SSH or the DigitalOcean web console
 ------------------------------------------------------------------------------
 Thank you for using DigitalOcean's GitLab Application.
 Your GitLab instance can be accessed at http://xxx.xxx.xxx.xxx/
-The default credentials for GitLab are: 
+The default credentials for GitLab are:
 Username: root
 Password: e0wXRM4fLmb6
 
@@ -116,7 +116,7 @@ Next, open a web browser and navigate to your domain name (or the IP address of 
 
 ![Login](/images/blogimages/getting-started-with-gitlab-and-digitalocean/login.png)
 
-You now have a full GitLab server configured and at your disposal to manage your repositories:
+You now have a full GitLab server configured and at your disposal to manage your repositories.
 
 ![Landing](/images/blogimages/getting-started-with-gitlab-and-digitalocean/landing.png)
 
@@ -124,9 +124,23 @@ You now have a full GitLab server configured and at your disposal to manage your
 
 It would probably be more helpful if the account you're using more accurately reflected your information. This will allow you to receive email updates and will display your information to other users.
 
-First, click on the "Admin area" icon in the top-right corner:
+Let's navigate to the "Admin area" by clicking the wrench icon in the top-right corner.
 
 ![Admin](/images/blogimages/getting-started-with-gitlab-and-digitalocean/admin_button.png)
+
+In the left sidebar click **Users**. This should only contain one user, the Administrator account you are logged into.
+
+![Users area](/images/blogimages/getting-started-with-gitlab-and-digitalocean/admin_users.png)
+
+Click on the "Edit" button and change the account information at the top.
+
+The "Name" field will be your name as displayed to other users. The "Username" can be used to log in and it defines the owner of your projects. The "Email" is where alerts will be sent.
+
+It is important to at least change the email field.
+
+![Account edit](/images/blogimages/getting-started-with-gitlab-and-digitalocean/account.png)
+
+Click "Save changes" at the bottom for the changes to take effect.
 
 ## Updating to Newer Releases
 
@@ -137,18 +151,25 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-Before upgrading to a new release, you may wish to make a back up of your existing installation. To do so, run:
+Before upgrading to a new release, GitLab automatically backups the database.
+If you wish to make a full back up of your existing installation, run:
 
 ```
 sudo gitlab-rake gitlab:backup:create
 ```
 
-The resulting backup will be located in: `/var/opt/gitlab/backups`.
+The resulting backup will be located in: `/var/opt/gitlab/backups`. You can read more in the [Omnibus backup documentation](http://doc.gitlab.com/omnibus/settings/backups.html).
 
 ## Conclusion
 
-You should now have a server configured to handle your team's git projects. You can easily manage user access, configure both public and private repositories, and get an overview of your projects' issues and commits.
+You should now have a server configured to handle your team's Git projects. You can easily manage user access, configure both public and private repositories, and get an overview of your projects' issues and commits.
 
-GitLab has a great help system accessible from within the user interface. In a future article, we will discuss how to manage repositories and users and effectively take advantage of the interface.
+GitLab has a great help system accessible from within the user interface (visit `https://your_domain.com/help`). In a future article, we will discuss how to manage repositories and users and effectively take advantage of the interface.
 
-For further information on configuring you GitLab Omnibus installation, check out the [official documentation](http://doc.gitlab.com/).
+For further information on configuring your GitLab Omnibus installation, check out the [official documentation](http://doc.gitlab.com/omnibus).
+
+---
+
+_This tutorial is adapted from the [How To Use the GitLab One-Click Install Image to Manage Git Repositories](https://www.digitalocean.com/community/tutorials/how-to-use-the-gitlab-one-click-install-image-to-manage-git-repositories) tutorial on DigitalOcean._
+
+[![Powered by DigitalOcean](/images/blogimages/powered-by-do-badge-gray.svg)](https://www.digitalocean.com/features/one-click-apps/gitlab/)
