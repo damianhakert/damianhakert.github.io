@@ -32,9 +32,6 @@ Draft company structure, to be finished after the Austin Summit (end of May 2016
     - People Operations Manager (vacancy)
       - People Operations Coordinator
       - Administrative Coordinator
-  - Operations - COO
-    - Support - Lead Service Engineer
-      - Service Engineers
   - Technical - CTO
     - UX Designers
   - Engineering - VP of Engineering
@@ -45,6 +42,9 @@ Draft company structure, to be finished after the Austin Summit (end of May 2016
     - Infrastructure - Senior Production Engineer
       - Production Engineers
       - Developers that are a performance specialist
+    - Support - Lead Service Engineer
+      - Service Engineers
     - Developers that work on other products
+  - Scaling - VP of Scaling
   - General Product - VP of Product
   - CI/CD Product - Head of Product
