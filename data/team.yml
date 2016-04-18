@@ -739,14 +739,14 @@
   story:  |
           Annabel is a front end developer with a passion for creating beautiful and functional applications. She has learned bits and pieces of various languages during her career, but is most excited about JavaScript, SASS, and Rails. In her free time she enjoys curling up with a good book, inventing cookie recipes, and spending time with her wonderful fianc&eacute.
 
-- name: A.N.
+- name: Amara Nwaigwe
   role: <a href="https://about.gitlab.com/jobs/product-marketing-manager/">Senior Product Marketing Manager</a>
   reports_to: CMO
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: amara.png
+  twitter: its_amaracle
+  gitlab: amara
   story:  |
-          Joining April 4th
+          Amara is passionate about technology, consumer behavior, and design. She is a versatile product marketer with diverse experiences ranging from marketing at large enterprises to high-growth startups. When she is not working, she is traveling near and far, finding enjoyment in New York's art and music scene or venturing to a new part of the world.   
 
 - name: T.A.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
