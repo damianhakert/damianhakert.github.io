@@ -3,32 +3,28 @@ layout: markdown_page
 title: "Account Manager"
 ---
 
+GitLab is an application to code, test, and deploy code together. It provides Git repository management with fine grained access controls, code reviews, issue tracking, activity feeds, wikis, and continuous integration. We're looking for an Account Manager, as part of our Customer Success Team, to develop positive customer relationships and continue to increase the adoption of GitLab within organizations. 
 
 ## Responsibilities
 
-* Manage relationships with prospective and current customers.
-   * Work with customers, engaging our [service engineers](https://about.gitlab.com/jobs/service-engineer) as appropriate.
-* Manage new and grow existing business with customers.
-* Contribute to post-mortem analysis on wins/losses.
-   * Communicate lessons learned to the team, including account managers, the marketing team, and the technical team.
-* Manage and report on part of the sales pipeline.
-* Keep the sales process smooth and robust, using tools such as SalesForce.
-* Document sales and account management processes.
- 
-### Senior Account Managers
-Senior Account Managers carry the additional responsibilities of
-* Taking the lead in large deals
-* Coaching and training other Account Managers
-   
+* Build and expand relationships and awareness of GitLab within accounts 
+* Engage our [service engineers](https://about.gitlab.com/jobs/service-engineer) and [solutions engineer](https://about.gitlab.com/jobs/solutions-engineer/) as appropriate.
+* Identify and document business goals, technology stack and how customers are using GitLab
+* Increase adoption of GitLab features and products through implementation of an outreach strategy
+* Advocate for customer needs for training and services where needed
+* Own the renewal process
+* Identify and document growth opportunities within account
+* Advocate for the overall health of relationship to GitHub acting proactively to address issues and concerns
+* Help map customers process and goals
    
 ## Requirements for Applicants
-(Check our [Jobs](https://about.gitlab.com/jobs/) page to see current openings).
-
-* Some experience with B2B sales
-* Relevant background
+* 2+ years of successful account management experience in a sales organization
+* Strong customer orientation, dedication, and passion for delivering a great customer experience
+* Excellent verbal and written communication skills
+* Collaborative and team oriented
+* Experience using Salesforce.com
+* Motivated, self-directed and results oriented
+* Knowledge of Git and GitLab workflow preferred
 * Interest in GitLab, and open source software
-* Work remotely or from our office in San Francisco  
-For Senior Account Managers, additional requirements apply:  
-* Substantial experience with B2B sales
-* Experience closing large deals
-* Bonus: experience selling open source software
+
+Work remotely from anywhere in the world. Curious to see what that looks like? Check out our [remote manifesto]( https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!
