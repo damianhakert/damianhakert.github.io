@@ -7,6 +7,7 @@ GitLab is an application to code, test, and deploy code together. It provides Gi
 
 ## Responsibilities
 
+<<<<<<< HEAD
 * Build and expand relationships and awareness of GitLab within accounts 
 * Engage our [service engineers](https://about.gitlab.com/jobs/service-engineer) and [solutions engineer](https://about.gitlab.com/jobs/solutions-engineer/) as appropriate.
 * Identify and document business goals, technology stack and how customers are using GitLab
@@ -28,3 +29,34 @@ GitLab is an application to code, test, and deploy code together. It provides Gi
 * Interest in GitLab, and open source software
 
 Work remotely from anywhere in the world. Curious to see what that looks like? Check out our [remote manifesto]( https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!
+=======
+* Manage relationships with prospective and current customers.
+   * Work with customers, engaging our [service engineers](https://about.gitlab.com/jobs/service-engineer) as appropriate.
+* Manage new and grow existing business with customers.
+* Contribute to post-mortem analysis on wins/losses.
+   * Communicate lessons learned to the team, including account managers, the marketing team, and the technical team.
+* Manage and report on part of the sales pipeline.
+* Keep the sales process smooth and robust, using tools such as SalesForce.
+* Document sales and account management processes.
+
+### Senior Account Managers
+
+Senior Account Managers carry the additional responsibilities of
+
+* Taking the lead on large deals
+* Coaching and training other Account Managers
+
+
+## Requirements for Applicants
+
+(Check our [Jobs](https://about.gitlab.com/jobs/) page to see current openings).
+
+* Some experience with B2B sales
+* Relevant background
+* Interest in GitLab, and open source software
+* Work remotely or from our office in San Francisco  
+For Senior Account Managers, additional requirements apply:  
+* Substantial experience with B2B sales
+* Experience closing large deals
+* Bonus: experience selling open source software
+>>>>>>> 8627d48... remove COO refs from team page
