@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting started with GitLab and DigitalOcean"
-date: 2016-04-17
+date: 2016-04-19
 author: Achilleas Pipinellis
 author_twitter: _axil
 categories: digitalocean
