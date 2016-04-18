@@ -14,7 +14,7 @@ Collaborating on projects, keeping track of source changes, and maintaining a cl
 
 Git is the most popular distributed version control system. GitLab is a Git repository management server that can be used to host repositories and set up control structures for git within a clean web interface. It is built on Ruby on Rails.
 
-DigitalOcean has created a GitLab application image that can be used to instantly deploy GitLab Community Edition on a DigitalOcean Ubuntu 14.04 x86-64 droplet using the [Omnibus installer](/2016/03/21/using-omnibus-gitlab-to-ship-gitlab/). You can have your own repository system up and running in minutes.
+[DigitalOcean](https://www.digitalocean.com) has created a GitLab application image that can be used to instantly deploy GitLab Community Edition on a DigitalOcean Ubuntu 14.04 x86-64 droplet using the [Omnibus installer](/2016/03/21/using-omnibus-gitlab-to-ship-gitlab/). You can have your own repository system up and running in minutes.
 
 <!-- more -->
 
