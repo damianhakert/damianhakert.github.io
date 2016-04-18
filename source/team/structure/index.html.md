@@ -4,6 +4,8 @@ title: Organizational Structure
 page_class: org-structure
 ---
 
+Draft company structure, to be finished after the Austin Summit (end of May 2016).
+
 - [General](/handbook/) - [CEO](/jobs/chief-executive-officer/)
   - [Marketing](/handbook/marketing/) - [CMO](/jobs/chief-marketing-officer/)
     - Design - Designer
