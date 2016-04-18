@@ -64,6 +64,11 @@ If you prefer not to do the above please let us know and we'll give you an assig
 - [Description](/jobs/production-engineer/)
 - [Apply](https://gitlab.workable.com/jobs/142989/candidates/new)
 
+### Account Executive
+
+- [Description](/jobs/account-executive/)
+- [Apply](https://gitlab.workable.com/jobs/88120/candidates/new)
+
 ### Account Manager
 
 - [Description](/jobs/account-manager/)
