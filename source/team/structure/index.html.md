@@ -33,9 +33,9 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - Field Marketing Manager
       - Technical Writer
   - Sales - CRO
-    - Account Executives
+    - Account Executive
     - EMEA - Sales Director EMEA
-      - Account Executives
+      - Account Executive
     - APAC - Director of Global Alliances and APAC Sales
     - Customer Success - Customer Success Manager (future vacancy)
       - Account Manager
