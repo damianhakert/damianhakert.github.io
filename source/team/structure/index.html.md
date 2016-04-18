@@ -4,7 +4,7 @@ title: Team Structure
 page_class: org-structure
 ---
 
-Draft company structure, to be finished after the Austin Summit (end of May 2016).
+Draft team structure, this is to be finished after the Austin Summit (end of May 2016).
 
 GitLab Inc. has at most four layers in the team structure:
 
