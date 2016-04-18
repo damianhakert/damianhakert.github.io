@@ -12,16 +12,17 @@ Constantly initiate new contacts through networking opportunities in order to in
 * Manage new and grow existing business with customers.
 * Contribute to post-mortem analysis on wins/losses.
    * Communicate lessons learned to the team, including account managers, the marketing team, and the technical team.
-* Take ownership of your book of business 
+* Take ownership of your book of business
     * document the buying criteria
     * document the buying process
     * document next steps and owners
     * ensure pipeline accuracy based on evidence and not hope
-* Contribute to documenting improvments in our [sales process](https://about.gitlab.com/handbook/sales-process/).
+* Contribute to documenting improvements in our [sales process](https://about.gitlab.com/handbook/sales-process/).
 * Provide account leadership and direction in the pre- and post-sales process
 * Be the voice of the customer by contributing product ideas to ur public [issue tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues)        
 
-## Requirements:   
+## Requirements
+ 
 * A true desire to see customers benefit from the investment they make with you
 * 2+ years of experience with B2B sales
 * Interest in GitLab, and open source software
@@ -32,5 +33,3 @@ Constantly initiate new contacts through networking opportunities in order to in
 * Preferred experience with Git, Software Development Tools, Application Lifecycle Management
 
 Work remote from anywhere in the World
-   
-
