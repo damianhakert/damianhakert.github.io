@@ -44,11 +44,11 @@ the relevant onboarding pages that are linked from there, and become comfortable
 with Git and the GitLab workflow.
 * [ ] People Ops: file signed contract, PIAA, and where applicable, photo ID in the "Files" tab on the team members profile on BambooHR
 * [ ] People Ops: input relevant data (dates, compensation) into the team members profile tabs "Job" and "Benefits" in BambooHR
-* [ ] Robert/Jacob/COO: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
-* [ ] Robert/Jacob/COO: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
-* [ ] Robert/Jacob/COO: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
-* [ ] Robert/Jacob/COO: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
-* [ ] Robert/Jacob/COO: Add to [Slack](https://gitlab.slack.com/admin)
+* [ ] Robert/Jacob/Ernst: create Google account, firstname@gitlab.com or initial(s)@gitlab.com, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
+* [ ] Robert/Jacob/Ernst: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
+* [ ] Robert/Jacob/Ernst: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
+* [ ] Robert/Jacob/Ernst: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
+* [ ] Robert/Jacob/Ernst: Add to [Slack](https://gitlab.slack.com/admin)
 * [ ] People Ops: Give team member access to the GitLab availability calendar
 * [ ] People Ops: Add new team member to the next monthly GitLab 101 call
 * [ ] People Ops: Invite to team meeting.
@@ -95,7 +95,7 @@ Next to Savvy, the People Ops team will also get a copy of the form info for you
 and then ping @rspeicher to confirm your account.
 * [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
 * [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
-* [ ] Robert/Jacob/COO: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
+* [ ] Robert/Jacob/Ernst: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
 * [ ] New team member: Use the "reset your password" email of BambooHR to set a password and access your profile.
 * [ ] New team member: Add your Address, Phone number, private email and emergency contact to your BambooHR profile page.
 
@@ -133,11 +133,11 @@ and then ping @rspeicher to confirm your account.
 * [ ] For Production Engineering team members: Hiring manager: add the [sysadmin onboarding checklist](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/onboard-new-sysadmin.md).
 * [ ] PeopleOps: Add the new team member to the next Retro meeting and the Kickoff meeting that's scheduled and save for all events in the future.
 * [ ] For Service Engineering team members: Patricio/Robert/Jacob: Create GitLab.com admin account.
-* [ ] For Service Engineering team members: Patricio/COO: Add to Tweetdeck for @gitlabstatus.
+* [ ] For Service Engineering team members: Patricio/Ernst: Add to Tweetdeck for @gitlabstatus.
 
 ### FOR MARKETING ONLY
 
-* [ ] Patricio/COO: Add to Tweetdeck.
+* [ ] Patricio/Ernst: Add to Tweetdeck.
 
 ### FOR SALES AND FINANCE ONLY
 
@@ -145,7 +145,7 @@ and then ping @rspeicher to confirm your account.
 * [ ] Finance: Add to [QuickBooks users](https://about.gitlab.com/handbook/hiring/) (finance only)
 * [ ] People Ops: Order company credit card (for all sales team members who are employees)
 * [ ] People Ops: If credit card holder, add to expense report calendar reminder
-* [ ] CFO / COO: Add to [Hellosign](https://hellosign.com) as a team member
+* [ ] CFO / Ernst: Add to [Hellosign](https://hellosign.com) as a team member
 * [ ] Hiring Manager: Invite to sales meeting.
 * [ ] Hiring Manager: Add to [Recurly](https://app.recurly.com/login)
 * [ ] Hiring Manager: Add to  [Salesforce]
