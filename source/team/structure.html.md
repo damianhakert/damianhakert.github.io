@@ -9,31 +9,33 @@ page_class: org-structure
     - Design - Designer
     - Demand generation - Senior Demand Generation Manager
       - Online marketing - Online Marketing Manager
-      - Business development
+    - TODO
   - Sales - CRO
     - Account Executives
     - EMEA - Sales Director EMEA
       - Account Executives
     - APAC - Director of Global Alliances and APAC Sales
-    - Customer Success - Customer Success Manager
+    - Customer Success - Customer Success Manager (future vacancy)
       - Account Managers
       - Solution Engineers
   - Finance - CFO
+    - Controller
+    - People Operations Manager (vacancy)
+      - People Operations Coordinator
+      - Administrative Coordinator
   - Operations - COO
     - Support - Lead Service Engineer
       - Service Engineers
   - Technical - CTO
+    - UX Designers
   - Engineering - VP of Engineering
-    - Various teams - Various team leads
-      - Developers
+    - Various teams - Development Lead
+      - Developers that are specilists on for that team
     - Design - Frontend Lead
-      - UX Designers
       - Frontend engineers
     - Infrastructure - Senior Production Engineer
       - Production Engineers
-      - Developers
+      - Developers that are a performance specialist
+    - Developers that work on other products
   - General Product - VP of Product
   - CI/CD Product - Head of Product
-  - People Operations - People Operations Manager
-    - Administration - Administrative Coordinator
-    - People Operations - People Operations Administrator
