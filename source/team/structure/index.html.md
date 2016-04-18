@@ -7,9 +7,16 @@ page_class: org-structure
 - [General](/handbook/) - [CEO](/jobs/chief-executive-officer/)
   - [Marketing](/handbook/marketing/) - [CMO](/jobs/chief-marketing-officer/)
     - Design - Designer
-    - Demand generation - Senior Demand Generation Manager
-      - Online marketing - Online Marketing Manager
-    - TODO
+    - Demand generation - Senior Demand Generation Manager (lead)
+      - Online Marketing Manager
+      - Business Developer Representative
+    - Product Marketing - Senior Product Marketing Manager (lead)
+      - Partner/Channel Marketing Manager (vacancy)
+      - Content Marketing Manager (vacancy)
+    - Developer Relations
+      - Developer Advocates
+      - Field Marketing Manager
+      - Technical Writer
   - Sales - CRO
     - Account Executives
     - EMEA - Sales Director EMEA
