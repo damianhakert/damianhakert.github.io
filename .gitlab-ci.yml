@@ -23,7 +23,7 @@ deploy:
   script:
     - rsync -r ~/public/ public/
     - bundle exec rake lint
-    - bundle exec middleman build --verbose
+    - bundle exec middleman build
     - rsync --delete -r public/ ~/public/
   type: deploy
   tags:
