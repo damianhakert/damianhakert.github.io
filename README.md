@@ -2,9 +2,51 @@
 
 This is the source for the https://about.gitlab.com/ site.
 
+## Local development
+
+```sh
+bundle install
+
+bundle exec middleman
+```
+
+Once the Middleman server is running, you can visit `http://localhost:4567/` in
+your browser to see a live, local preview of the site. Any changes to files in
+the `source` directory will be detected automatically, and your browser will
+even reload the page if necessary.
+
+See the [Middleman docs](https://middlemanapp.com/basics/development_cycle/) for
+more information.
+
 ## Contributing
 
 ### Blog posts
+
+Blog posts go in [`source/posts/`](./source/posts/) and **must be named to
+match the following format:** `yyyy-mm-dd-the-post-title.html.md`.
+
+You can generate the file for a new blog post interactively by using the
+`new_post` Rake task:
+
+```shell
+bundle exec rake new_post
+```
+
+When prompted, enter the blog post title, _without a date_, and press
+<kbd>Enter</kbd>. A message will be printed to tell you the path to the new
+file.
+
+Open the file in your text editor of choice. The file will be empty except for a
+few lines at the top, surrounded by a pair of three hyphens (`---`). These lines
+are called [**Frontmatter**](https://middlemanapp.com/basics/frontmatter/).
+
+The `layout`, `title`, and `date` attributes have already been filled out by the
+`new_post` Rake task. Fill in the others as needed, or remove any that aren't
+applicable to your post.
+
+Fill in the post's content using [Markdown][gfm]. To preview your post locally
+before publishing, see [**Local development**](#local-development) for
+instructions.
 
 When adding timestamps to blog posts, **be warned:** setting it too far into the
 future will cause the post to not be published until that time has passed.
@@ -15,6 +57,8 @@ no one makes a new commit after that time has passed.
 
 When in doubt, either don't give it a timestamp, or set it to a time that has
 already passed.
+
+[gfm]: http://doc.gitlab.com/ce/markdown/markdown.html
 
 ### Adding yourself to the team page
 
@@ -36,19 +80,6 @@ versions or upcoming events.
 
 Edit [`data/promo.yml`](./data/promo.yml) to update the `link` and `text`
 properties.
-
-## Development
-
-```sh
-bundle install
-
-bundle exec middleman
-
-open http://localhost:4567
-```
-
-See the [Middleman docs](https://middlemanapp.com/basics/development_cycle/) for
-more information.
 
 ## Production build
 
