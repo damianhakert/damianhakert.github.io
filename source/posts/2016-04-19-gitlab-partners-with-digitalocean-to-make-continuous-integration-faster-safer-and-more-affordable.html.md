@@ -76,10 +76,12 @@ For existing GitLab.com users, great news, your Runners are powered by DigitalOc
 completely free.
 
 For GitLab Community Edition users, use the promotional code `GitLab10` to receive a $10
-credit, when creating a new DigitalOcean account.
+credit*, when creating a new DigitalOcean account.
 
 For GitLab Enterprise Edition users, you'll receive an email with a unique promo for
-a $250 credit to use to host your own Runners on DigitalOcean.
+a $250 credit* to use to host your own Runners on DigitalOcean.
+
+**Note: Promotion code available for new DigitalOcean customers only.* 
 
 ## Need help setting up your Runners?
 
