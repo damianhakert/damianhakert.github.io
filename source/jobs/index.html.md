@@ -32,20 +32,15 @@ If you email us we'll reply with [a link to this paragraph](/jobs/#no-recruiters
 
 ## Available Openings (in roughly alphabetical order)
 
-### Account Executive
+### Account Executive - Sales
 
 - [Description](/jobs/account-executive/)
 - [Apply](https://gitlab.workable.com/jobs/88120/candidates/new)
 
-### Account Manager
+### Account Manager - Customer Success
 
 - [Description](/jobs/account-manager/)
-- [Apply](https://gitlab.workable.com/jobs/88120/candidates/new)
-
-### Senior Account Manager
-
-- [Description](/jobs/account-manager/)
-- [Apply](https://gitlab.workable.com/jobs/88117/candidates/new)
+- [Apply](https://gitlab.workable.com/jobs/242362/candidates/new)
 
 ### Developer
 
@@ -94,6 +89,11 @@ If you prefer not to do the above please let us know and we'll give you an assig
 
 - [Description](/jobs/service-engineer/)
 - [Apply](https://gitlab.workable.com/jobs/87722/candidates/new)
+
+### Solutions Engineer
+
+- [Descritpion](/jobs/solutions-engineer/)
+- [Apply](https://gitlab.workable.com/j/6A9FA4A8DE)
 
 ### Strategic Relations Manager
 
