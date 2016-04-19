@@ -253,7 +253,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
 1. Use the public issue trackers on GitLab.com for anything related to our software since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
 1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [operations](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues.
 1. Pick issues from the current [milestone](https://gitlab.com/groups/gitlab-org/milestones).
-1. We try not to assign issues to people but to have people **pick issues** in a milestone themselves.
+1. We try not to assign issues to people but to have people **pick issues** in a milestone themselves, except cases when the issue needs to be fixed as soon as possible.
 1. Assign an issue to yourself as soon as you start to work on it, but not before
 that time. If you complete part of an issue and need someone else to take the next
 step, **re-assign** the issue to that person.
@@ -267,11 +267,13 @@ step, **re-assign** the issue to that person.
     1. All other merge requests should be assigned for review to one of merge request "endbosses". You can find all the roles listed on the [team page](https://about.gitlab.com/team/).
 1. When a merge request is done, remove the WIP prefix and **assign** the merge request to someone to review and merge it. A WIP merge request will never be merged, an unassigned non-WIP merge request can be merged by anyone if it looks ready, an assigned non-WIP will only be merged by the assigned reviewer.
 1. When a merge request is done, set milestone to the version it should be included in.
+1. If the merge request should be included in the current version, add the label `Pick into stable`
 1. If you are assigned to review and merge a merge request and would like the creator to make some **changes**, comment on the merge request and assign it back to the creator. When they have addressed the concern, they will reassign it to the reviewer.
 1. If you are assigned to merge a merge request and there is a **merge conflict**, consider trying to resolve it **yourself** instead of asking the MR creator to resolve the conflict. If it is easy to resolve you avoid a round trip between you and the creator, and the MR gets merged sooner. This is a suggestion, not an obligation.
 1. If you ask a question to a specific person, always start the comment by mentioning them; this will ensure they see it if their notification level is mentioned and other people will understand they don't have to respond.
 1. Do not close an issue until it is fully done, which means code has been merged, it has been **reported** back to any customers and the community, all issue trackers are updated and any documentation is written and merged.
 1. When **closing** an issue leave a comment explaining why you are closing the issue.
+1. If you make any significant change, add it as an entry to the **CHANGELOG**
 
 ### Team Call<a name="team-call"></a>
 
