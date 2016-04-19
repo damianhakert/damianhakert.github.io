@@ -38,7 +38,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - Americas Sales - [_Account Executive_](/jobs/account-executive/)
     - EMEA Sales - [_Sales Director EMEA_](/jobs/sales-director/) (lead)
       - [_Account Executive_](/jobs/account-executive/)
-    - APAC Sales - [_Director of Global Alliances and APAC Sales_](/jobs/sales-director/) (lead)
+    - APAC Sales - [_Director of Global Alliances and APAC Sales_](/jobs/director-of-global-alliances-and-apac-sales/) (lead)
     - Customer Success - _Customer Success Manager_ (lead, future vacancy)
       - [_Account Manager_](/jobs/account-manager/)
       - [_Solutions Engineer_](/jobs/solutions-engineer/)

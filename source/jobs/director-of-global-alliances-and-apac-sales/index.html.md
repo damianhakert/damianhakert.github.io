@@ -1,12 +1,12 @@
 ---
 layout: markdown_page
-title: "Director of Sales APAC & Global Alliances"
+title: "Director of Global Alliances & APAC Sales"
 ---
 
 
 ## Description
 
-The Director, Sales APAC & Global Alliances is a hybrid of strategic planning, sales,
+The Director of Global Alliances & APAC Sales is a hybrid of strategic planning, sales,
 sales optimization and sales operations. This individual in this position will bring strategic vision to the business,
 identifying new and innovative approaches to growth and supplying an objective perspective.
 Strategic deliverables take the form of evaluating APAC market opportunities, the creation
