@@ -28,8 +28,8 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Online Marketing](/handbook/marketing/online-marketing) - [_Online Marketing Manager_](/jobs/online-marketing-manager/)
       - Business Development - [_Business Development Team Lead_](/jobs/business-development-team-lead/) (lead)
          - [_Business Development Representatives_](/jobs/business-development-representative/)
-    - Product Marketing - [_Senior Product Marketing Manager_](/jobs/product-marketing-manager/) (lead)
-      - _Partner/Channel Marketing Manager_ (vacancy)
+    - [Product Marketing](/handbook/marketing/product-marketing/) - [_Senior Product Marketing Manager_](/jobs/product-marketing-manager/) (lead)
+      - [Partner Marketing](/handbook/marketing/product-marketing/#partnermarketing/) - _Partner/Channel Marketing Manager_ (vacancy)
       - [Content Marketing](/handbook/marketing/developer-relations/content-marketing/) - _Content Marketing Manager_ (vacancy)
     - Developer Relations
       - [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/) - [_Developer Advocate_](/jobs/developer-advocate/)
