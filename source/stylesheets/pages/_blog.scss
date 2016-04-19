@@ -236,14 +236,6 @@ pre {
   clear: both;
 }
 
-ul.post-list > li > time {
-  color: $blog-date-color;
-  display: inline-block;
-  float: right;
-  font-size: 14px;
-  white-space: nowrap;
-}
-
 .post-list-item {
   border-bottom: 1px solid $color-gray-medium;
   margin: 0 0 5px;
@@ -254,6 +246,14 @@ ul.post-list > li > time {
     &:visited {
       color: $color-primary;
     }
+  }
+
+  > time {
+    color: $blog-date-color;
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    white-space: nowrap;
   }
 }
 
