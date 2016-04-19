@@ -42,6 +42,7 @@ through TriNet, and they can access their pay slips through the [TriNet portal](
    that it covers is over. For example, an invoice covering the period of March 1-31 can be sent on March 25.
    * All invoices are internally reviewed, approved, and then payment is processed.
    This is usually a fast process, but be aware that it can incur delays around vacations.
+   * An invoice can be found as a Google sheet named "Invoice Template" (also listed on the [accounting page](/handbook/accounting/)
 
 ## Specific to employees based in the Netherlands <a name="nl-specific-benefits"></a>
 
