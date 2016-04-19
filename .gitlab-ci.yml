@@ -1,6 +1,6 @@
 before_script:
   - pwd
-  - git rev-parse HEAD
+  - git log --oneline | head -n1
   - export LC_ALL=en_US.UTF-8
   - ''
   - bundle install --path ~/bundle
@@ -23,7 +23,7 @@ deploy:
   script:
     - rsync -r ~/public/ public/
     - bundle exec rake lint
-    - bundle exec middleman build
+    - bundle exec middleman build --verbose
     - rsync --delete -r public/ ~/public/
   type: deploy
   tags:
