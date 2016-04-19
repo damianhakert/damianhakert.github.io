@@ -66,6 +66,10 @@
   picture: tiger.jpg
   human: michael
   story: I may be 15 years old and blind as a bat, but that does not keep me from exploring the neighboorhood on my skateboard.
+- name: Pablo
+  picture: pablo.jpg
+  human: mark
+  story: Cold? Need a lap-warming? Pablo's your man, err, dog.
 - name: You?
   picture: ../logo-extra-whitespace.png
   story:  |
