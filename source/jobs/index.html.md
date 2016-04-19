@@ -92,7 +92,7 @@ If you prefer not to do the above please let us know and we'll give you an assig
 
 ### Solutions Engineer
 
-- [Descritpion](/jobs/solutions-engineer/)
+- [Description](/jobs/solutions-engineer/)
 - [Apply](https://gitlab.workable.com/j/6A9FA4A8DE)
 
 ### Strategic Relations Manager
