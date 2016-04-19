@@ -101,6 +101,7 @@ example is our sponsorship of [diversity events](https://about.gitlab.com/2016/0
 can always make it more complex later if that is needed. The speed of innovation
 for our organization and product is constrained by the total complexity we added
 so far, so every little reduction in complexity helps.
+Don't pick an interesting technology just to make your work more fun, using code that is popular will ensure many bugs are already solved and its familiarity makes it easier for others to contribute.
 1. Quirkiness: Unexpected and unconventional things make life more interesting.
 Celebrate and encourage quirky gifts, habits, behavior, and points of view. An example
 is our [team call](https://about.gitlab.com/handbook/#team-call) where we spend most
