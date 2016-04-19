@@ -100,7 +100,7 @@
 
 - name: Patricio Cano
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Senior Service Engineer</a>
-  reports_to: COO
+  reports_to: Lead Service Engineer
   picture: picture_patricio.png
   twitter: suprnova32
   gitlab: patricio
@@ -281,7 +281,7 @@
 
 - name: Drew Blessing
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: COO
+  reports_to: Lead Service Engineer
   picture: drew.jpg
   twitter: drewblessing
   gitlab: dblessing
@@ -319,7 +319,7 @@
 
 - name: Kelvin Mutuma
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Junior Service Engineer</a>
-  reports_to: COO
+  reports_to: Lead Service Engineer
   picture:  kelvin_mutuma.jpg
   twitter:  kelvinmutuma
   gitlab: muthuri.kelmut
@@ -364,8 +364,8 @@
           Rubén is a Rails developer based in Lima, Perú. Before joining GitLab, he was working remotely for other US based startups. Today, he is very happy at GitLab given that one of his dreams was to collaborate full time with open source projects. When he is away from the keyboard, he is usually taking a walk with his dogs.
 
 - name: José Torres
-  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: COO
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Lead Service Engineer</a>
+  reports_to: VP of Engineering
   picture: josetorres.jpg
   twitter: random_primate
   gitlab: balameb
@@ -560,7 +560,7 @@
 
 - name: Tiffanie Ryan
   role: <a href="https://about.gitlab.com/jobs/people-ops-administrator/">People Ops Admin</a>
-  reports_to: COO
+  reports_to: VP of Scaling
   picture: tiffanie.png
   twitter: tiffyrn
   gitlab: tiffanie
@@ -572,7 +572,7 @@
 
 - name: Kirsten Abma
   role: <a href="https://about.gitlab.com/jobs/administrative-coordinator/">Administrative Coordinator</a>
-  reports_to: COO
+  reports_to: VP of Scaling
   picture: kirsten.jpg
   gitlab: kirstenabma
   story:  |
@@ -664,7 +664,7 @@
 
 - name: Felipe Cabargas
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: COO
+  reports_to: Lead Service Engineer
   picture: felipe.jpg
   twitter: juanpintoduran
   gitlab: cabargas
@@ -746,7 +746,7 @@
   twitter: its_amaracle
   gitlab: amara
   story:  |
-          Amara is passionate about technology, consumer behavior, and design. She is a versatile product marketer with diverse experiences ranging from marketing at large enterprises to high-growth startups. When she is not working, she is traveling near and far, finding enjoyment in New York's art and music scene or venturing to a new part of the world.   
+          Amara is passionate about technology, consumer behavior, and design. She is a versatile product marketer with diverse experiences ranging from marketing at large enterprises to high-growth startups. When she is not working, she is traveling near and far, finding enjoyment in New York's art and music scene or venturing to a new part of the world.
 
 - name: T.A.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
@@ -812,7 +812,7 @@
 
 - name: M.F.
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: COO
+  reports_to: Lead Service Engineer
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:

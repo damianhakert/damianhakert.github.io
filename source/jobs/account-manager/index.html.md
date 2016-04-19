@@ -18,6 +18,7 @@ GitLab is an application to code, test, and deploy code together. It provides Gi
 * Help map customers process and goals
    
 ## Requirements for Applicants
+
 * 2+ years of successful account management experience in a sales organization
 * Strong customer orientation, dedication, and passion for delivering a great customer experience
 * Excellent verbal and written communication skills
