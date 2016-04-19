@@ -19,7 +19,6 @@ If there is a hyphen (-) in a line the part before hyphen is the name of the dep
 The job titles (in _italics_) link to the job descriptions.
 Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
 
-](/jobs//)
 
 - [**General**](/handbook/) - [_CEO_](/jobs/chief-executive-officer/)
   - [**Marketing**](/handbook/marketing/) - [_CMO_](/jobs/chief-marketing-officer/)
@@ -36,7 +35,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Field Marketing](/handbook/marketing/developer-relations/field-marketing/) - [_Field Marketing Manager_](/jobs/field-marketing-manager/)
       - Technical Writing - [_Technical Writer_](/jobs/technical-writer/)
   - [**Sales**](/handbook/sales-process/) - [_CRO_](/jobs/chief-revenue-officer/)
-    - Americas Sales - [_Account Executive](/jobs/account-executive/)
+    - Americas Sales - [_Account Executive_](/jobs/account-executive/)
     - EMEA Sales - [_Sales Director EMEA_](/jobs/sales-director/) (lead)
       - [_Account Executive_](/jobs/account-executive/)
     - APAC Sales - [_Director of Global Alliances and APAC Sales_](/jobs/sales-director/) (lead)
@@ -62,5 +61,5 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [_Service Engineers_](/jobs/service-engineer/)
     - [_Developers_](/jobs/developer/) that work on other products
   - **Scaling** - [_VP of Scaling_](/jobs/vp-of-scaling/)
-  - **Product** - [_VP of Product_](/jobs/vice-president-of-product/) (lead)
-    - CI/CD Product - [_Head of Product_](/jobs/head-of-product/)
+  - **Product** - [_VP of Product_](/jobs/vice-president-of-product/)
+    - CI/CD Product - [_Head of Product_](/jobs/head-of-product/) (lead)
