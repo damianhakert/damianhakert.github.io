@@ -12,7 +12,7 @@ Today, we are excited to announce our partnership with DigitalOcean, the worldâ€
 cloud infrastructure provider. Together, GitLab and DigitalOcean want to help developers
 eliminate the scaling challenges that come with Continuous Integration (CI), such as speed, 
 security, and cost. To help alleviate these challenges, GitLab partnered with DigitalOcean to 
-provide free Runners to all projects on Gitlab.com as well as discount codes for GitLab 
+provide free Runners to all projects on GitLab.com as well as discount codes for GitLab 
 Community Edition users. 
 
 <!-- more -->
