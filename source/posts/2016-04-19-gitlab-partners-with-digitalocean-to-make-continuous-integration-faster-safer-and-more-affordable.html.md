@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitLab Partners with DigitalOcean to make Continuous Integration faster, safer, and more affordable"
-date: 2016-04-19
+date: 2016-04-19 13:00
 author: Amara Nwaigwe
 author_twitter: its_amaracle
 categories: 
@@ -13,7 +13,7 @@ cloud infrastructure provider. Together, GitLab and DigitalOcean want to help de
 eliminate the scaling challenges that come with Continuous Integration (CI), such as speed, 
 security, and cost. To help alleviate these challenges, GitLab partnered with DigitalOcean to 
 provide free Runners to all projects on GitLab.com as well as discount codes for GitLab 
-Community Edition users. 
+Community Edition and Enterprise Edition users. 
 
 <!-- more -->
 
@@ -75,5 +75,14 @@ For existing GitLab.com users, great news, your Runners are powered by DigitalOc
 completely free.
 
 For GitLab Community Edition users, use the promotional code “GitLab10” to receive a $10 
-credit, when creating a new Digital Ocean account. 
+credit, when creating a new DigitalOcean account. 
  
+For GitLab Enterprise Edition users, you'll recieve an email with a unique promo for 
+a $250 credit to use to host your own Runners on DigitalOcean.
+
+<!-- more -->
+
+## Need help setting up your Runners? 
+
+For help setting up your GitLab Runners, read the tutorial documentation,
+[How to setup GitLab Runner on DigitalOcean](/2016/04/19/how-to-set-up-gitlab-runner-on-digitalocean/)
