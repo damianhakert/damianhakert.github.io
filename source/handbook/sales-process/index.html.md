@@ -31,10 +31,10 @@ title: "Sales Process"
 * [How to manage deals](/handbook/sales-process/deal_management_process)
 * [Managing an account](/handbook/sales-process/account_management)
 * [Licenses and EE access](/handbook/sales-process/licenses)
+* [Client Use Cases](https://about.gitlab.com/handbook/use-cases/)
 
 ### Pages outside Sales Handbook <a name="pages-outside"></a>
 
-* [Client Use Cases](https://about.gitlab.com/handbook/use-cases/)
 * [Customer Reference Sheet](https://docs.google.com/spreadsheets/d/1Off9pVkc2krT90TyOEevmr4ZtTEmutMj8dLgCnIbhRs/edit#gid=0)
 * [GitLab University](https://university.gitlab.com/)
 * [Our Support Handbook](https://about.gitlab.com/handbook/support/)
