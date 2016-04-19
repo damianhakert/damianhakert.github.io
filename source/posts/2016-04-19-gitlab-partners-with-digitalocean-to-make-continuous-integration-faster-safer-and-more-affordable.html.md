@@ -85,4 +85,4 @@ a $250 credit to use to host your own Runners on DigitalOcean.
 ## Need help setting up your Runners? 
 
 For help setting up your GitLab Runners, read the tutorial documentation,
-[How to setup GitLab Runner on DigitalOcean](/2016/04/19/how-to-set-up-gitlab-runner-on-digitalocean/)
+[How to setup GitLab Runner on DigitalOcean](/2016/04/19/how-to-set-up-gitlab-runner-on-digitalocean/).
