@@ -1,6 +1,6 @@
 before_script:
   - pwd
-  - git log --oneline | head -n1
+  - git rev-parse HEAD
   - export LC_ALL=en_US.UTF-8
   - ''
   - bundle install --path ~/bundle
