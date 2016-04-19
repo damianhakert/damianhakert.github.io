@@ -17,6 +17,8 @@ Community Edition and Enterprise Edition users.
 
 <!-- more -->
 
+![GitLab + DigitalOcean](/images/blogimages/gitlab-do.jpg)
+
 ## Eliminating Scaling Challenges with DigitalOcean
 
 At GitLab, we have a new release every month on the 22nd, so we respect the importance of
