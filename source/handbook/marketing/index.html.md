@@ -22,12 +22,12 @@ The marketing team is made up of a few key functional groups:
 - [Field marketing](/handbook/marketing/developer-relations/field-marketing/)
 - [Content marketing](/handbook/marketing/developer-relations/content-marketing/)
 
-##Product Marketing
+## Product Marketing
 
 - [Product marketing](/handbook/marketing/product-marketing/)
 - [Partner marketing](/handbook/marketing/product-marketing/#partnermarketing/)
 
-##Marketing resources
+## Marketing resources
 
 - [GitLab Marketing Project](https://gitlab.com/gitlab-com/marketing)
 - Google drive folder can be found by searching the company Google Drive for
