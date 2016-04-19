@@ -214,7 +214,7 @@ will be paid compensation in the amount and at the times set forth in **Exhibit 
 subject to timely submission of any deliverables in accordance with the schedule in
 the applicable Statement of Work. Unless other terms are set forth in **Exhibit B**,
 GitLab will pay Contributor for services within fifteen (15) days of the date of receipt
-of Contributor’s invoice. Contributor will provide GitLab with reasonable
+of Contributor’s summary invoice. Contributor will provide GitLab with reasonable
 documentation and work description in connection with Contributor’s invoices, as
 requested by GitLab.
 
