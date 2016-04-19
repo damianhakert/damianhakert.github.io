@@ -32,3 +32,5 @@ The marketing team is made up of a few key functional groups:
 - [GitLab Marketing Project](https://gitlab.com/gitlab-com/marketing)
 - Google drive folder can be found by searching the company Google Drive for
   "GitLab Marketing"
+
+[Marketing issue tracker](https://gitlab.com/gitlab-com/marketing/issues)
