@@ -9,6 +9,7 @@ title: "Hiring"
 * [Interview Questions](#interview-questions)
 * [Reference calls](#reference-calls)
 * [Getting Contracts Ready, Reviewed, and Signed](#prep-contracts)
+* [Underperformance](#underperfomance)
 
 ## Vacancy Creation Process<a name="vacancy-creation-process"></a>
 
@@ -146,3 +147,7 @@ Note for People Operations:
 - the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
 [Contracts page](https://about.gitlab.com/handbook/contracts).
 - Onboarding info for the PeopleOps system, BambooHR, can be found on the [PeopleOps](about.gitlab.com/handbook/people-operations) page.
+
+### Underperformance
+
+See [underperformance guidelines](/handbook/hiring/underperformance.html).
