@@ -297,23 +297,14 @@ discuss changes in processes, so make sure to catch up on the news if you have m
 
 ### Scheduling Calls<a name="scheduling-calls"></a>
 
-1. Set up a [Calendly](https://calendly.com/) account and link it to your
-work calendar to make it possible for people to schedule a call with you
-   1. Add your Calendly link to your [Slack profile](https://get.slack.help/hc/en-us/articles/204092246-Editing-your-profile)
-For `Display Text`, use this line: `Schedule a meeting with me!`
-   1. To schedule a 1:1 call with someone in GitLab, simply click their Calendly
-link in their Slack profile
-   1. For people outside of GitLab Inc, send them your Calendly link
-   1. If you're often talking to people outside of GitLab Inc,
-add a custom field to your Calendly asking people how you can reach them
-(Hangouts / Skype)
-1. If you want to ask people if they are available for an event please send a new calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.
+1. If you want to ask team members if they are available for an event please send a new calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.
 1. If there are materials relevant for a calendar meeting (for example a Google Doc) please add the URL to the meeting invite description.
 1. If you want to check if a team member is available for an outside meeting, create a calendar appointment and invite the team member only, after they respond yes then invite outside people.
 1. When scheduling a call with multiple people, invite them using a Google Calendar that is your own, or one specific to the people joining, so the calendar item
 doesn't unnecessarily appear on other people's calendars.
 1. If you want to move a meeting just move the calendar appointment instead of reaching out via other channels, note the change at the top of the description.
 1. Please click 'Guests can modify event' so people can update the time in the calendar instead of having to reach out via other channels. You can install [the Google-Calendar-Guests-Can-Modify-Event-By-Default plugin in Chrome](https://github.com/robin-drexler/Google-Calendar-Guests-Can-Modify-Event-By-Default) to do this automatically.
+1. If you want to schedule a meeting with a person not on the team please use [Calendly](#calendly).
 
 ### User Communication Guidelines<a name="user-communication"></a>
 
@@ -523,10 +514,17 @@ exception of NDAs covering a physical visit of another organization.
 A lot of tools we use are described in the rest of the handbook (GitLab, Google Docs, Google Hangouts, 1Password, etc.).
 This section is for tools that don't fit anywhere else.
 
-### Calendly
+### Calendly<a name="calendly"></a>
 
-[Calendly](https://calendly.com/): Set up 45 minute meeting slots. Connect to your Google calendar which knows your availability.
-The meeting will always create the same Google Video URL so if you have that you can add it to the booking.
+[Calendly](https://calendly.com/) connects to your Google calendar so people can book a time with you without having a Google Account.
+
+1. Set up a [Calendly](https://calendly.com/) account
+1. Link it to your GitLab Google Calendar to make it possible for people to schedule a call with you
+1. Set up the 45 minute timeslot with the text: "This will be a Google Hangout at https://plus.google.com/hangouts/_/gitlab.com/XXXXX Question? Please email me. GitLab Primer: https://about.gitlab.com/primer/"
+1. All meetings will have the same Google Hangout URL based on your @gitlab.com email handle. You can use that in the booking text above. Events on your calendar will automatically have the Google Hangout URL added, so you can use [the plus landingpage](https://plus.google.com/hangouts/_/gitlab.com) to quickly jump into the call.
+1. For people outside of GitLab Inc, send them your Calendly link that links directly to the 45 minute timeslot: "Are any of the times on https://calendly.com/XXXXX/45min/ convenient for you? If so please book one, if not please let me know what times are good for you and we'll find an alternative."
+1. Update you availability on [Calendy Event Types](https://calendly.com/event_types/)
+1. Consider adding your Calendly link to your [Slack profile](https://get.slack.help/hc/en-us/articles/204092246-Editing-your-profile) For `Display Text`, use this line: `Schedule a meeting with me!` so team members can schedule a 1:1 call with you in GitLab, by simply click your Calendly link in your Slack profile.
 
 ### Shush
 
