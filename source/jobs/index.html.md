@@ -63,6 +63,10 @@ In the cover letter field please note that you want an internship and link to
 the accepted merge requests. The merge requests should be of significant
 value and difficulty, which is at the discretion of the hiring manager. For
 example, fixing 10 typos isn't as valuable as shipping 2 new features.
+- We typically hire people who have experience in programming languages used
+at GitLab (e.g. Ruby on Rails, Go), but we welcome candidates who have
+excellent experience in other languages and frameworks. Tackling a GitLab CE
+issue is a good way to demonstrate your ability to learn and debug.
 
 ### People Operations Coordinator
 
