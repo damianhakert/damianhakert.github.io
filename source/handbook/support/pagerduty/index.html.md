@@ -30,6 +30,8 @@ before yours were unable to get to PagerDuty quickly enough to acknowledge the e
 However, if you are on a fallback schedule, then you do not need to adapt your plans
 as would be expected if you are on the main schedule.
 
+_As noted in the [main handbook](https://about.gitlab.com/handbook/#paid-time-off), please make sure you take off time after dealing with an incident outside of your regular business hours, so that you can continue your day and work well-rested._
+
 ## Swapping On-Call Duty
 
 To swap on-call duty with a fellow on-call hero:
@@ -40,8 +42,8 @@ but certainly no later than 2 weeks before the swap needs to be made. @mention y
 - once a replacement has been found, input this as an override on the main schedule in PagerDuty.
 This is done by clicking on the relevant block of time in PagerDuty, selecting "override" and
 filling in the name of the person you swapped with. Also see [this article](https://support.pagerduty.com/hc/en-us/articles/202830170-Creating-and-Deleting-Overrides) for reference.
-- use the "GitLab Pagerduty Override Balance" google sheet to note your swaps: it 
-is set up so that you can incur a positive ('pay it forward') or negative balance of on-call blocks 
-taken over for others which allows for more flexibility and prevents having to 
-negotiate around undesirable days as may occur when doing direct swaps. However, 
+- use the "GitLab Pagerduty Override Balance" google sheet to note your swaps: it
+is set up so that you can incur a positive ('pay it forward') or negative balance of on-call blocks
+taken over for others which allows for more flexibility and prevents having to
+negotiate around undesirable days as may occur when doing direct swaps. However,
 you can also do a direct swap with a team member, and there is no need to mark that in the sheet.
