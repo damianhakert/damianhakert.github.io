@@ -8,7 +8,7 @@ categories:
 image_title: '/images/unsplash/stars.png'
 ---
 
-In this webcast, the GitLab CI team walked us through GitLab's built in Continuous Integration. 
+In this webcast, the GitLab CI team walked us through GitLab's built-in Continuous Integration. 
 The team also gave two demos to allow you to see CI in action. 
 
 Here's a quick look at what was covered in the webcast. 
@@ -16,10 +16,12 @@ Here's a quick look at what was covered in the webcast.
 - GitLab CI overview 
 - How GitLab CI works 
 - Live demos: 
-	* Configuring CI for testing 
-    * Configuring a Specific Runner 
+   * Configuring CI for testing 
+   * Configuring a Specific Runner 
 - Review your work in CI 
 - Roadmap 
+
+<!-- more -->
 
 ## Webcast Recording
 
@@ -29,7 +31,6 @@ Here's a quick look at what was covered in the webcast.
 
 <script async class="speakerdeck-embed" data-id="3972d874f5f0446d977b8ee0aa95b456" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
-<!-- more -->
 
 ## Find out more about GitLab CI
 
@@ -40,7 +41,6 @@ We've posted some great tutorials recently, check them out if you've missed them
 - [Setting up GitLab Runner For Continuous Integration](https://about.gitlab.com/2016/03/10/setting-up-gitlab-ci-for-ios-projects/)
 - [Setting up GitLab CI for iOS projects](https://about.gitlab.com/2016/03/01/gitlab-runner-with-docker/)
 
-<!-- more -->
 
 ## Stay tuned for future webcasts 
 
