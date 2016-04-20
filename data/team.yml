@@ -748,14 +748,14 @@
   story:  |
           Amara is passionate about technology, consumer behavior, and design. She is a versatile product marketer with diverse experiences ranging from marketing at large enterprises to high-growth startups. When she is not working, she is traveling near and far, finding enjoyment in New York's art and music scene or venturing to a new part of the world.
 
-- name: T.A.
+- name: Timothy Andrew
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Development Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: tim.jpg
+  twitter: timothyandrew
+  gitlab: timothyandrew
   story:  |
-          Joining April 11th
+          Tim has been vaguely passionate about computers ever since he got all the way through Prince of Persia when he was five. This grew into a legitimate love for the field after he crashed his Windows installation in 2007, and replaced it with a fragile triple-boot system that included a patched version of OS X. Over the last few years, he's built web apps for non-profits, advertising companies, and large online retailers in Rails and Clojure. When he's not glued to a screen of some sort, he's introverted to a fault, likes to play the bass guitar, read murder mysteries, and build computers.
 
 - name: K.C.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
