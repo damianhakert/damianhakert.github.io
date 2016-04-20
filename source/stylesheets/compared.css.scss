@@ -1,3 +1,5 @@
+@import "variables";
+
 p,
 a {
   font-size: 13pt;
@@ -11,7 +13,7 @@ h4 {
 }
 
 h2 {
-  border-bottom: 2px solid #548;
+  border-bottom: 2px solid $divider-color;
   padding: 6pt 0;
   margin-top: 30pt;
 }
