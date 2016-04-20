@@ -85,6 +85,13 @@ https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2604
 * Emoji autocomplete performance has been improved. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3458
 * The referenced merge requests and related branches of an issue are now loaded asynchronously. This reduces the loading time of issue pages. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3678
 
+## GitLab Mattermost 2.2
+
+[Mattermost 2.2](http://www.mattermost.org/mattermost-2-2-threaded-messages-and-more/) ships in GitLab 8.7 with threaded messages, French translation, new themes, new Trello and IRC support, plus many more new benefits.
+
+This version also includes a [security update](http://docs.mattermost.com/administration/changelog.html#security-update) and [upgrade from earlier versions]((http://doc.gitlab.com/omnibus/gitlab-mattermost/)) is recommended.
+
+
 ## Other changes
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
