@@ -30,7 +30,7 @@ letter to be considered!
 We do not accept solicitations by recruiters, recruiting agencies, headhunters and outsourcing organizations.
 If you email us we'll reply with [a link to this paragraph](/jobs/#no-recruiters) to indicate we would very much appreciate it if you stop emailing us and remove us from any marketing list.
 
-## Available Openings (in roughly alphabetical order)
+## Available Openings
 
 ### Account Executive - Sales
 
