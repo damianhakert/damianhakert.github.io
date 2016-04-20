@@ -19,9 +19,21 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 > [Documentation link](link)
 
-## feature 2
+## LICENSE templates
 
 > [Documentation link](link)
+
+## Smarter, Better looking Commenting
+
+- press up to edit
+- new design
+- better mentions
+
+## Better diffs
+
+### Better copying from diffs
+
+### Better looking diffs
 
 ## Cherry Pick
 
@@ -30,6 +42,22 @@ https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3514
 ## Remote Mirrors
 
 * The support to have remote repositories as mirrors has been added to EE: https://gitlab.com/gitlab-org/gitlab-ee/issues/116
+
+## Other changes
+
+### More options default Dashboard page
+
+- todos
+- groups view
+
+https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3379
+
+### Build status notifications
+
+gif?
+https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2604
+
+### Raw build trace output
 
 ### CI: job-level environment variables
 
