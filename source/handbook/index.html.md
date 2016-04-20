@@ -649,6 +649,10 @@ If you install [MobileDay](https://mobileday.com/) on your phone and give it acc
 This is especially a problem for anyone running a Mac OSX operating system. The
 command to 'tame' git is `git config --global core.autocrlf input`
 
+### Read the instructions
+
+Instructions on how to update the website are in the [readme of www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/README.md).
+
 ### Preview website changes locally
 
 1. In a terminal, execute: `bundle exec middleman`.
