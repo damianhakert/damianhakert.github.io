@@ -214,7 +214,7 @@ will be paid compensation in the amount and at the times set forth in **Exhibit 
 subject to timely submission of any deliverables in accordance with the schedule in
 the applicable Statement of Work. Unless other terms are set forth in **Exhibit B**,
 GitLab will pay Contributor for services within fifteen (15) days of the date of receipt
-of Contributor’s detailed invoice. Contributor will provide GitLab with reasonable
+of Contributor’s summary invoice. Contributor will provide GitLab with reasonable
 documentation and work description in connection with Contributor’s invoices, as
 requested by GitLab.
 
@@ -1063,9 +1063,9 @@ GitLab and Contributor are hereinafter collectively referred to as the “Partie
 
 **3\.	Fee**
 
-3.1	For the fulfillment of the service by Contributor on behalf of GitLab, GitLab shall pay Contributor a fee of {Monthly Payment} per calendar month for the duration of the project. GitLab will receive detailed time sheets from Contributor with specific activities and the times under which they were completed specifically pertaining to fulfillment of the service concerned.<br>
+3.1	For the fulfillment of the service by Contributor on behalf of GitLab, GitLab shall pay Contributor a fee of {Monthly Payment} per calendar month for the duration of the project. GitLab will receive summary invoices from Contributor at least once per month.<br>
 3.2	In consultation with GitLab, Contributor is entitled to paid time off in accordance with the handbook (https://about.gitlab.com/handbook/#paid-time-off) . However, GitLab has the right to revoke or change the days off at all times if the company’s interest is harmed or damaged.<br>
-3.3	GitLab will pay Contributor’s invoice within 30 days.<br>
+3.3	GitLab will pay Contributor’s invoice within 15 days.<br>
 3.4	Contributor’s fee includes a full compensation for any expenses related to the performance of Contributor's activities for GitLab and a full compensation for any damages Contributor may suffer in the performance of Contributor's activities for GitLab.
 
 
