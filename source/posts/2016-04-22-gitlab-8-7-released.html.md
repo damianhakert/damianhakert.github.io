@@ -3,8 +3,8 @@ layout: post
 title: "GitLab 8.7 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 date: 2016-04-22
 categories:
-author: ADD_YOUR_FULL_NAME
-author_twitter: TWITTER_USERNAME
+author: Job van der Voort
+author_twitter: Jobvo
 image_title: /images/7_X/PICTURE.PNG
 ---
 
@@ -23,6 +23,40 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 > [Documentation link](link)
 
+## Cherry Pick
+
+https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3514
+
+## Remote Mirrors
+
+* The support to have remote repositories as mirrors has been added to EE: https://gitlab.com/gitlab-org/gitlab-ee/issues/116
+
+### CI: job-level environment variables
+
+* You can now define environment variables on a job level in `.gitlab-ci.yml`.
+
+    Job-level variables take precedence over global YAML variables, so it is now possible to override global YAML variables in a definition of CI job.  Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3612.
+
+### Improvements to logging when behind a reverse proxy
+
+- You can now add your proxy server to the list of trusted servers, so it's IP is not logged as the client IP. The default trusted servers were also updated so that IPs on the private network are not trusted by default. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3524
+
+- The NGINX included in the Omnibus package is now compiled with the real_ip module, and can be configured to use a  list of  trusted proxies for determining client IP in its logs Merge Request: https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/709
+
+### Authentication related changes
+
+- SAML can identify external groups based on configuration and set members of these groups as external users: gitlab-org/gitlab-ce!3530
+- Omniauth providers can be marked as external, allowing all users of these providers, even existing ones, to be marked as external users: gitlab-org/gitlab-ce!3657
+
+## Performance related changes
+
+* Timestamps for metrics have been made more accurate to prevent InfluxDB from overwriting points. Depending on the amount of traffic this may lead to significantly more data being stored. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3617
+* Extra instrumentation was added for various bits of code. Merge requests: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3701, https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3675, https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3659, https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3742
+* Rails cache timings are now tracked. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3619
+* Markdown rendering performance has been improved, leading to a 3x performance boost in the most ideal cases, though this highly depends on the type of data being rendered. Merge request:  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3389
+* Emoji autocomplete performance has been improved. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3458
+* The referenced merge requests and related branches of an issue are now loaded asynchronously. This reduces the loading time of issue pages. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3678
+
 ## Other changes
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
@@ -30,10 +64,7 @@ This release has more improvements, including security fixes. Please check out [
 
 ## Upgrade barometer
 
-
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
-*** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
+This release requires downtime due to a number of schema and data migrations.
 
 
 *Note* We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
