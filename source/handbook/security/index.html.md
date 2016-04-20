@@ -58,6 +58,7 @@ title: Security Handbook
 1. During offboarding, your 1Password account is deleted. If you want to
    store your personal passwords please store them in your 'Primary' vault, not
    the vault named 'Your Vault'.
+1. We will configure applications of which we store the passwords in 1password to [not periodically reset passwords](https://www.cesg.gov.uk/articles/problems-forcing-regular-password-expiry).
 
 [1Password]: https://agilebits.com/onepassword
 [generate strong passwords]: https://support.1password.com/guides/mac/generate-a-strong-password.html
