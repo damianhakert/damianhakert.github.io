@@ -43,7 +43,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [_Account Manager_](/jobs/account-manager/)
       - [_Solutions Engineer_](/jobs/solutions-engineer/)
   - [**Finance**](/handbook/accounting/) - [_CFO_](/jobs/chief-financial-officer/)
-    - [Accounting & Control](/handbook/accounting/) - [_Controller_](/jobs/controller/)
+    - [Accounting](/handbook/accounting/) - [_Controller_](/jobs/controller/)
     - [People Operations](/handbook/people-operations/) - [_People Operations Director_](/jobs/people-ops-director/) (lead, vacancy)
       - [_People Operations Coordinator_](/jobs/people-ops-coordinator/)
       - [_Administrative Coordinator_](/jobs/adminstrative-coordinator/)
