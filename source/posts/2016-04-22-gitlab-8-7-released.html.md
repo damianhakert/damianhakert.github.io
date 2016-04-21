@@ -22,9 +22,10 @@ This months MVP is Connor Shea. Connor has been an incredibly responsive and
 productive member of the community, working on anything from new features
 to performance issues up to this very release post.
 
-We also want to thank Ershad ..
+We also want to thank Ershad Ahmad for his enthusiastic support in the
+community, both in the forums and on Twitter. Thanks Ershad and Connor!
 
-* _GitLab doesn't actually have a mind of its own_
+* _GitLab 8.7 doesn't actually have a mind of its own_
 
 <!--more-->
 
@@ -57,7 +58,7 @@ Select any number of labels to filter only for issues or merge requests that
 contain all selections. Meaning, if I search for `feature proposal` and
 `customer`, I'm now able to find only feature proposals by customers.
 
-![]()
+![Multiple label filter in GitLab 8.7](/images/8_7/label.png)
 
 > [Documentation link](link)
 
@@ -74,10 +75,16 @@ To add a LICENSE, add a new file to an existing project and name it `LICENSE`.
 GitLab will show a dropdown with options for a license. Your name will be
 pre-filled in select licenses.
 
-![]()
+![LICENSE templates](/images/8_7/license.png)
 
-The most popular open source licenses are available and we welcome merge
-requests for additional licenses.
+Open source licenses benefit everyone. For authors, they specify any conditions
+of reuse or modification of their code. For people who use the code, they
+clarify what people can and cannot do with the code. It may sound restrictive
+but there are several variations of licenses, so it really depends on the
+author's preference. That's why we provide several of the most popular
+licenses. We welcome merge requests for additional templates.
+These licenses allow the open source community to carry on
+with the free use and sharing of software.
 
 > [Documentation link](link)
 
@@ -126,11 +133,12 @@ Cherry Pick was contributed by [P.S.V.R](https://gitlab.com/u/pmq20). Thanks!
 
 > [Documentation link](link)
 
-## Better diffs
+## Better Diffs
 
-### Better copying from diffs
+Diffs never looked better than in GitLab 8.7 and now are much more
+copy friendly, no longer copying numbers or `+` and `-`!
 
-### Better looking diffs
+![Better diffs in GitLab 8.7](/images/8_7/diffs.png)
 
 ## Tooltip in your timezone
 
@@ -148,16 +156,23 @@ The GitHub importer now also imports milestones, labels and keeps
 references to pull requests and issues!
 
 ## Other changes
-Tooltip dates use user’s timezone.
-Autocomplete for participants get’s priority
-Create labels through dropdowns
-Sidebar for issue pages with new dropdowns
-Sidebar for MR pages with new dropdowns
-Location aware search
-New comment form for issues and MR’s
-Build updates
-Diff page redesign
-Label page redesigns
+
+### Location Aware Search
+
+Search is getting better and better with GitLab.
+With GitLab 8.7 we've added location aware search. Meaning you can either
+search within the project:
+
+![Location Aware Search in GitLab 8.7](/images/8_7/search1.png)
+
+Or remove the scope of the project and quickly search through the server:
+
+![Location Aware Search in GitLab 8.7](/images/8_7/search2.png)
+
+In either case you always have the quick navigation options available when
+searching:
+
+![Location Aware Search in GitLab 8.7](/images/8_7/search3.png)
 
 ### Smarter, Better Commenting
 
@@ -171,7 +186,7 @@ will prioritize  names based on the context of the issue, diff or merge request
 Press `e` to edit the issue or merge request you're in. Or just press up on the
 arrow keys to edit your last comment.
 
-### More options default Dashboard page
+### More Default Dashboards
 
 Did you know you can change the page you see when you sign in to GitLab?
 We've now made it possible to also make that page Groups or even Todos.
@@ -186,16 +201,18 @@ That means you can set the Dashboard to be:
 
 ### Build status notifications
 
-gif?
-https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2604
+You'll now get browser notifications from running builds in the current project.
+No more staring at the builds view!
 
 ### Raw build trace output
 
+You can now get the raw build trace of your builds.
+
 ### CI: job-level environment variables
 
-* You can now define environment variables on a job level in `.gitlab-ci.yml`.
+You can now define environment variables on a job level in `.gitlab-ci.yml`.
 
-    Job-level variables take precedence over global YAML variables, so it is now possible to override global YAML variables in a definition of CI job.  Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3612.
+Job-level variables take precedence over global YAML variables, so it is now possible to override global YAML variables in a definition of CI job.
 
 ### Improvements to logging when behind a reverse proxy
 
@@ -210,14 +227,14 @@ https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2604
 
 ## Performance related changes
 
-* Timestamps for metrics have been made more accurate to prevent InfluxDB from overwriting points. Depending on the amount of traffic this may lead to significantly more data being stored. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3617
-* Extra instrumentation was added for various bits of code. Merge requests: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3701, https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3675, https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3659, https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3742
-* Rails cache timings are now tracked. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3619
-* Markdown rendering performance has been improved, leading to a 3x performance boost in the most ideal cases, though this highly depends on the type of data being rendered. Merge request:  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3389
-* Emoji autocomplete performance has been improved. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3458
-* The referenced merge requests and related branches of an issue are now loaded asynchronously. This reduces the loading time of issue pages. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3678
-* Re-enable GZIP compression of assets in production gitlab-org/gitlab-ce!3632
-* Load the emoji spritesheet only when necessary. gitlab-org/gitlab-ce!3449
+* Timestamps for metrics have been made more accurate to prevent InfluxDB from overwriting points. Depending on the amount of traffic this may lead to significantly more data being stored
+* Extra instrumentation was added for various bits of code.
+* Rails cache timings are now tracked
+* Markdown rendering performance has been improved, leading to a 3x performance boost in the most ideal cases, though this highly depends on the type of data being rendered
+* Emoji autocomplete performance has been improved
+* The referenced merge requests and related branches of an issue are now loaded asynchronously. This reduces the loading time of issue pages
+* Re-enable GZIP compression of assets in production
+* Load the emoji spritesheet only when necessary
 
 ## GitLab Mattermost 2.2
 
@@ -225,16 +242,9 @@ https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2604
 
 This version also includes a [security update](http://docs.mattermost.com/administration/changelog.html#security-update) and [upgrade from earlier versions]((http://doc.gitlab.com/omnibus/gitlab-mattermost/)) is recommended.
 
-
 ## Other changes
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
-
-- Once a month GitLab will perform a data integrity check (git fsck) on each of your Git repositories.
-http://doc.gitlab.com/ce/administration/repository_checks.html
-- Images now link to their full source URLs, this is especially good for mobile users. gitlab-org/gitlab-ce!3464
-
-
 
 ## Upgrade barometer
 
