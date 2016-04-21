@@ -143,7 +143,7 @@ and then view the documentation as a lower priority task as this inevitably lead
 indicate when you plan to do it. In the latter case always send a second message
 when the request is complete.
 1. Respect the privacy of our users and your fellow team members. Secure our production data at all times. Only work with production data when this is needed to perform your job. Looking into production data for malicious reasons (for example [LOVEINT](https://en.wikipedia.org/wiki/LOVEINT) or spying on direct messages of team members) is a fireable offense.
-1. Most guidelines in this handbook are meant to help, don't be afraid to do something because you can't oversee all guidelines, be gentle when reminding people about these guidelines, for example say: "It is not a problem, but next time please consider the following guideline from the handbook".
+1. Most guidelines in this handbook are meant to help and unless they state otherwise it is meant to help more than a absolute rule. Don't be afraid to do something because you can't oversee all guidelines. Be gentle when reminding people about these guidelines, for example say: "It is not a problem, but next time please consider the following guideline from the handbook".
 
 ## Communication<a name="communication"></a>
 
