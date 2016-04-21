@@ -33,7 +33,8 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Internal Communication](#internal-communication)
    * [GitLab Workflow](#gitlab-workflow)
    * [Team Call](#team-call)
-   * [Scheduling Calls](#scheduling-calls)
+   * [Scheduling Meetings](#scheduling-meetings)
+   * [Video Calls](#video-calls)
    * [User Communication Guidelines](#user-communication-guidelines)
    * [Writing Style Guidelines](#writing-style-guidelines)
    * [Beamy Guidelines](#beamy-guidelines)
@@ -295,7 +296,7 @@ step, **re-assign** the issue to that person.
 1. Even if you cannot join the call, read through the team agenda and the links from there. We often use the team call to make announcements or
 discuss changes in processes, so make sure to catch up on the news if you have missed a team call (or more).
 
-### Scheduling Calls<a name="scheduling-calls"></a>
+### Scheduling meetings<a name="scheduling-meetings"></a>
 
 1. If you want to ask team members if they are available for an event please send a new calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.
 1. If there are materials relevant for a calendar meeting (for example a Google Doc) please add the URL to the meeting invite description.
@@ -305,6 +306,14 @@ doesn't unnecessarily appear on other people's calendars.
 1. If you want to move a meeting just move the calendar appointment instead of reaching out via other channels, note the change at the top of the description.
 1. Please click 'Guests can modify event' so people can update the time in the calendar instead of having to reach out via other channels. You can install [the Google-Calendar-Guests-Can-Modify-Event-By-Default plugin in Chrome](https://github.com/robin-drexler/Google-Calendar-Guests-Can-Modify-Event-By-Default) to do this automatically.
 1. If you want to schedule a meeting with a person not on the team please use [Calendly](#calendly).
+
+### Video calls<a name="video-calls"></a>
+
+1. For smaller meetings we use Google Hangouts, for larger meetings we prefer Bluejeans (Google Hangouts technical limit is 15 for scheduled meetings).
+1. For meetings that are scheduled via calendar there is automatically a Google Hangout URL added, this is the meeting place. Having a url in advance is much more reliable than trying to call via hangouts as the meeting start.
+1. Use a headset with a microphone, [Apple Earpods](http://www.apple.com/shop/product/MD827LL/A/apple-earpods-with-remote-and-mic) are great. Do not use computer speakers, they cause an echo. Do not use your computer microphone, it accentuates background noise. If you want to use your [Bose headphones](https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-25-acoustic-noise-cancelling-headphones-apple-devices.html#v=qc25_black) that is fine but please ensure the microphone is active.
+1. Consider using a utility to easily mute/unmute yourself, see [Shush](#shush) in the tools section.
+1. In video calls everyone should own camera and headset, even when they are in the same room. This helps to see the person that is talking clearly on the camera and their name in the list. It also allows people to easily talk and mute themselves. And using a headset prevents an echoing. You wouldn't share an office seat together, don't share your virtual seat at the table.
 
 ### User Communication Guidelines<a name="user-communication"></a>
 
@@ -527,7 +536,7 @@ This section is for tools that don't fit anywhere else.
 1. Update you availability on [Calendy Event Types](https://calendly.com/event_types/)
 1. Consider adding your Calendly link to your [Slack profile](https://get.slack.help/hc/en-us/articles/204092246-Editing-your-profile) For `Display Text`, use this line: `Schedule a meeting with me!` so team members can schedule a 1:1 call with you in GitLab, by simply click your Calendly link in your Slack profile.
 
-### Shush
+### Shush<a name="shush"></a>
 
 [$4.99 tool for OSX](http://mizage.com/shush/) that allows you to use you fn key as a push to talk or push to mute.
 Never again will you have switch window focus to Google Hangout or Bluejeans to speak or mute.
