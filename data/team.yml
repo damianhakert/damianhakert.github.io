@@ -783,14 +783,19 @@
           radio. A three-time Boston Marathon qualifier and finisher, Stan now
           channels his energy into training for his next triathlon.
 
-- name: R.B.
+- name: Reb -- Richard E. Baum
   role: <a href="https://about.gitlab.com/jobs/solutions-engineer/">Solutions Engineer</a>
   reports_to: CRO
-  picture: logo-extra-whitespace.png
+  picture: reb.png
   twitter:
   gitlab:
   story:  |
-          Joining April 18th
+          Reb has loves working hands-on with customers.  He has many years of experience
+          in doing so, over a wide range of industries and environments
+          in consultative, support, and training situations.  He is passionate about 
+          technology and enjoys discussing it with others.  An avid traveler, Reb
+          is always looking for the next interesting place to visit.
+
 
 - name: M.P.
   role: Head of Product
