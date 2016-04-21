@@ -16,16 +16,16 @@ GitLab 8.7, we've made every step better.
 
 GitLab 8.7 improves Issues, makes diffs better to work with, brings better
 commenting, has 100% more cherries and can now even push to remote repositories
-out of its own volition*.
+by its own volition[^1].
 
-This months MVP is Connor Shea. Connor has been an incredibly responsive and
+This month's MVP is Connor Shea. Connor has been an incredibly responsive and
 productive member of the community, working on anything from new features
-to performance issues up to this very release post.
+to performance issues, and even this very release post.
 
 We also want to thank Ershad Ahmad for his enthusiastic support in the
 community, both in the forums and on Twitter. Thanks Ershad and Connor!
 
-* _GitLab 8.7 doesn't actually have a mind of its own_
+[^1]: _GitLab 8.7 doesn't actually have a mind of its own._
 
 <!--more-->
 
@@ -34,7 +34,7 @@ community, both in the forums and on Twitter. Thanks Ershad and Connor!
 You could already automatically mirror an external repository to your GitLab
 instance. With GitLab 8.7 you can now do the inverse and have GitLab push
 updates to a remote repository: a mirror on a remote repository. It's like
-you can have the cake and eat it too.
+you can have your cake and eat it too.
 
 This means you can use GitLab to build your projects, while still maintaining
 an active mirror in another place. You could even run a GitLab instance locally
@@ -52,39 +52,38 @@ the remote every hour.
 
 You might already be labelling your issues and merge requests. You might even
 [be subscribed] to a label. If that's the case, you were probably sad to
-discover GitLab couldn't filter for multiple labels. Well, now you can!
+discover GitLab couldn't filter by multiple labels at once. Well, now you can!
 
 Select any number of labels to filter only for issues or merge requests that
-contain all selections. Meaning, if I search for `feature proposal` and
+contain all selected labels. Meaning, if I search for `feature proposal` and
 `customer`, I'm now able to find only feature proposals by customers.
 
 ![Multiple label filter in GitLab 8.7](/images/8_7/label.png)
 
 > [Documentation link](link)
 
-[be subscribed]: https://about.gitlab.com/2016/04/13/feature-highlight-subscribe-to-label
+[be subscribed]: /2016/04/13/feature-highlight-subscribe-to-label
 
 ## LICENSE templates
 
 If you have an open source project, you should have a license in place for it.
-Typically, project include a text file named `LICENSE` in the root of their
+Typically, projects include a text file named `LICENSE` in the root of their
 repository. GitLab now provides license templates, so you can quickly move on
 with building the rest of the project.
 
-To add a LICENSE, add a new file to an existing project and name it `LICENSE`.
-GitLab will show a dropdown with options for a license. Your name will be
-pre-filled in select licenses.
+To add a license, add a new file named `LICENSE` to an existing project. GitLab
+will show a dropdown with licenses to choose from. With certain licenses, your
+name will even be pre-filled.
 
 ![LICENSE templates](/images/8_7/license.png)
 
 Open source licenses benefit everyone. For authors, they specify any conditions
 of reuse or modification of their code. For people who use the code, they
-clarify what people can and cannot do with the code. It may sound restrictive
-but there are several variations of licenses, so it really depends on the
-author's preference. That's why we provide several of the most popular
-licenses. We welcome merge requests for additional templates.
-These licenses allow the open source community to carry on
-with the free use and sharing of software.
+clarify what people can and cannot do with it. It may sound restrictive but
+there are several variations of licenses, so it really depends on the author's
+preference. That's why we provide several of the most popular licenses. We
+welcome merge requests for additional templates. These licenses allow the open
+source community to carry on with the free use and sharing of software.
 
 > [Documentation link](link)
 
@@ -104,10 +103,9 @@ when you want to drive your team to a target completion date.
 
 ![Due date for issues in GitLab 8.7](/images/8_7/due_date2.png)
 
-Milestones, on the
-other hand, apply to your full project. Milestones are great for organizing
-issues and merge requests into a cohesive group and track progress on a
-collection of issues, using the [milestone view].
+Milestones, on the other hand, apply to your entire project. Milestones are
+great for organizing issues and merge requests into a cohesive group and to
+track progress on a collection of issues, using the [milestone view].
 
 [milestone view]: (https://gitlab.com/gitlab-org/gitlab-ce/milestones/23)
 
@@ -138,14 +136,14 @@ Cherry Pick was contributed by [P.S.V.R](https://gitlab.com/u/pmq20). Thanks!
 ## Better Diffs
 
 Diffs never looked better than in GitLab 8.7 and now are much more
-copy friendly, no longer copying numbers or `+` and `-`!
+copy friendly, no longer copying line numbers or the `+` and `-` symbols!
 
 ![Better diffs in GitLab 8.7](/images/8_7/diffs.png)
 
 ## Tooltip in your timezone
 
-Although some of you may correctly be using the one true timezone (UTC),
-it was confusing to many that times in GitLab were reported in a different
+Although some of you may correctly be using the one true timezone (UTC), it was
+confusing to many others that times in GitLab were reported in a different
 timezone than their own.
 
 That's a thing of the past! All times are now reported in your own timezone.
@@ -154,16 +152,15 @@ That's a thing of the past! All times are now reported in your own timezone.
 
 ## Improved GitHub Importer
 
-The GitHub importer now also imports milestones, labels and keeps
+The GitHub importer now also imports milestones and labels, and preserves
 references to pull requests and issues!
 
 ## Other changes
 
-### Location Aware Search
+### Location-aware Search
 
-Search is getting better and better with GitLab.
-With GitLab 8.7 we've added location aware search. Meaning you can either
-search within the project:
+Search is getting better and better with GitLab. With GitLab 8.7 we've added
+location-aware search. Meaning you can either search within the project:
 
 ![Location Aware Search in GitLab 8.7](/images/8_7/search1.png)
 
@@ -180,13 +177,13 @@ searching:
 
 We've revised the input for comments! It doesn't just look much better,
 it's also smarter. If you start to mention someone, autocomplete
-will prioritize  names based on the context of the issue, diff or merge request
+will prioritize names based on the context of the issue, diff or merge request
 (several other dropdown boxes have that same ability now).
 
 ### Shortcuts!
 
-Press `e` to edit the issue or merge request you're in. Or just press up on the
-arrow keys to edit your last comment.
+Press `e` to edit the issue or merge request you're viewing, and press the up
+arrow key to quickly edit your last comment.
 
 ### More Default Dashboards
 
@@ -214,29 +211,41 @@ You can now get the raw build trace of your builds.
 
 You can now define environment variables on a job level in `.gitlab-ci.yml`.
 
-Job-level variables take precedence over global YAML variables, so it is now possible to override global YAML variables in a definition of CI job.
+Job-level variables take precedence over global YAML variables, so it is now
+possible to override global YAML variables in the definition of a CI job.
 
 ### Improvements to logging when behind a reverse proxy
 
-- You can now add your proxy server to the list of trusted servers, so it's IP is not logged as the client IP. The default trusted servers were also updated so that IPs on the private network are not trusted by default. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3524
+- You can now add your proxy server to the list of trusted servers, so its IP is
+  not logged as the client IP. The default trusted servers were also updated so
+  that IPs on the private network are not trusted by default. [!3524](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3524)
+- The NGINX included in the Omnibus package is now compiled with the `real_ip`
+  module, and can be configured to use a  list of  trusted proxies for
+  determining client IP in its logs. [!709](https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/709)
 
-- The NGINX included in the Omnibus package is now compiled with the real_ip module, and can be configured to use a  list of  trusted proxies for determining client IP in its logs Merge Request: https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/709
+### Authentication-related changes
 
-### Authentication related changes
+- SAML can identify external groups based on configuration and set members of
+  these groups as external users. [!3530](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3530)
+- Omniauth providers can be marked as external, allowing all users of these
+  providers, even existing ones, to be marked as external users.
+  [!3657](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3657)
 
-- SAML can identify external groups based on configuration and set members of these groups as external users: gitlab-org/gitlab-ce!3530
-- Omniauth providers can be marked as external, allowing all users of these providers, even existing ones, to be marked as external users: gitlab-org/gitlab-ce!3657
+## Performance-related changes
 
-## Performance related changes
-
-* Timestamps for metrics have been made more accurate to prevent InfluxDB from overwriting points. Depending on the amount of traffic this may lead to significantly more data being stored
+* Timestamps for metrics have been made more accurate to prevent InfluxDB from
+  overwriting points. Depending on the amount of traffic this may lead to
+  significantly more data being stored.
 * Extra instrumentation was added for various bits of code.
-* Rails cache timings are now tracked
-* Markdown rendering performance has been improved, leading to a 3x performance boost in the most ideal cases, though this highly depends on the type of data being rendered
-* Emoji autocomplete performance has been improved
-* The referenced merge requests and related branches of an issue are now loaded asynchronously. This reduces the loading time of issue pages
-* Re-enable GZIP compression of assets in production
-* Load the emoji spritesheet only when necessary
+* Rails cache timings are now tracked.
+* Markdown rendering performance has been improved, leading to a 3x performance
+  boost in the most ideal cases, though this highly depends on the type of data
+  being rendered.
+* Emoji autocomplete performance has been improved.
+* The referenced merge requests and related branches of an issue are now loaded
+  asynchronously. This reduces the loading time of issue pages.
+* Re-enable GZIP compression of assets in production.
+* Load the emoji spritesheet only when necessary.
 
 ## GitLab Mattermost 2.2
 
@@ -246,7 +255,10 @@ This version also includes a [security update](http://docs.mattermost.com/admini
 
 ## Other changes
 
-This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
+This release has more improvements, including [security fixes from previous
+patches](/2016/04/20/gitlab-8-6-7-released/). Please check out [the
+changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see
+the all named changes.
 
 ## Upgrade barometer
 
@@ -261,32 +273,33 @@ This release contains other migrations that might make the total upgrade time
 longer. For GitLab.com (>800k projects) the complete upgrade was completed within
 30 minutes.
 
-*Note* We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
-If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
+***Note:*** This assumes you are upgrading from the latest version. If not,
+please also consult the upgrade barometers of any intermediate versions you are
+skipping. If you are upgrading from a GitLab version prior to 8.0 *and* you have
+CI enabled, you have to [upgrade to GitLab 8.0 first](/2015/09/22/gitlab-8-0-released/).
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
-can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
-file](http://doc.gitlab.com/omnibus/update/README.html).
+can be changed by adding a [`/etc/gitlab/skip-auto-migrations` file](http://doc.gitlab.com/omnibus/update/README.html).
 
 - - -
 
 ## Installation
 
 If you are setting up a new GitLab installation please see the
-[download GitLab page](https://about.gitlab.com/installation/).
+[download GitLab page](/installation/).
 
 ## Updating
 
-Check out our [update page](https://about.gitlab.com/update/).
+Check out our [update page](/update/).
 
 ## Enterprise Edition
 
 The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
-For a complete overview please have a look at the [feature list of GitLab EE]( https://about.gitlab.com/features/#enterprise).
+For a complete overview please have a look at the [feature list of GitLab EE](/features/#enterprise).
 
 Access to GitLab Enterprise Edition is included with a
-[subscription]( https://about.gitlab.com/pricing/).
+[subscription](/pricing/).
 No time to upgrade GitLab yourself?
 A subscription also entitles you to our upgrade and installation services.
 
