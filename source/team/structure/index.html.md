@@ -61,5 +61,5 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [_Service Engineers_](/jobs/service-engineer/)
     - [_Developers_](/jobs/developer/) that work on other products
   - **Scaling** - [_VP of Scaling_](/jobs/vp-of-scaling/)
-  - **Product** - [_VP of Product_](/jobs/vice-president-of-product/)
+  - **General Product** - [_VP of Product_](/jobs/vice-president-of-product/)
   - **CI/CD Product** - [_Head of Product_](/jobs/head-of-product/)
