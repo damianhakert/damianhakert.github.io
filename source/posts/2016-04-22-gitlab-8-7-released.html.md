@@ -9,13 +9,14 @@ image_title: /images/7_X/PICTURE.PNG
 ---
 
 We want GitLab to be the place where your projects go from idea all the way to
-production. You don't have to rely on other tools to build something
-great together. GitLab is able to power any step in this process and with
-GitLab 8.7, we've made every step easier, faster and more powerful.
+production. You shouldn't have to rely on other tools to build something
+great together.
+We believe GitLab is able to power any step in this process and with
+GitLab 8.7, we've made every step better.
 
 GitLab 8.7 improves Issues, makes diffs better to work with, brings better
-commenting, has 100% more Cherries and can now even push to other repositories
-out of its own volition.
+commenting, has 100% more cherries and can now even push to remote repositories
+out of its own volition*.
 
 This months MVP is Connor Shae. Connor has been an incredibly responsive and
 productive member of the community, working on anything from new features
@@ -23,27 +24,81 @@ to performance issues up to this very release post.
 
 We also want to thank Ershad ..
 
+* _GitLab doesn't actually have a mind of its own_
+
 <!--more-->
 
-## Remote mirrors (EE only)
+## Remote Mirrors (EE only)
 
-* The support to have remote repositories as mirrors has been added to EE: https://gitlab.com/gitlab-org/gitlab-ee/issues/116
+You could already automatically mirror an external repository to your GitLab
+instance. With GitLab 8.7 you can now do the inverse and have GitLab push
+updates to a remote repository: a mirror on a remote repository. It's like
+you can have the cake and eat it too.
 
-## Multiple label filter
+This means you can use GitLab to build your projects, while still maintaining
+an active mirror in another place. You could even run a GitLab instance locally
+and mirror it to GitLab.com or another popular open instance.
+
+To start mirroring to a remote repository, find the Mirror Repository settings
+in your project and fill out the required URL and GitLab with automatically sync
+the remote every hour.
+
+![Remote Mirror in GitLab 8.7](/images/8_7/remote_mirror.png)
 
 > [Documentation link](link)
+
+## Multiple Label Filter
+
+You might already be labelling your issues and merge requests. You might even
+[be subscribed] to a label. If that's the case, you were probably sad to
+discover GitLab couldn't filter for multiple labels. Well, now you can!
+
+Select any number of labels to filter only for issues or merge requests that
+contain all selections. Meaning, if I search for `feature proposal` and
+`customer`, I'm now able to find only feature proposals by customers.
+
+![]()
+
+> [Documentation link](link)
+
+[be subscribed]: https://about.gitlab.com/2016/04/13/feature-highlight-subscribe-to-label
 
 ## LICENSE templates
 
+If you have an open source project, you should have a license in place for it.
+Typically, project include a text file named `LICENSE` in the root of their
+repository. GitLab now provides license templates, so you can quickly move on
+with building the rest of the project.
+
+To add a LICENSE, add a new file to an existing project and name it `LICENSE`.
+GitLab will show a dropdown with options for a license. Your name will be
+pre-filled in select licenses.
+
 > [Documentation link](link)
 
-## Due date
-
-- also smarter dropdowns
+## Due Date for Issues
 
 ## Cherry Pick
 
-https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3514
+You can now cherry-pick any commit into any branch, right within GitLab.
+Cherry picking allows you to take a single commit and bring it to any other
+branch. It's especially useful if you work with multiple, concurrent branches,
+like the release branches of GitLab (`8-6-stable`, `8-7-stable`) and you want
+to bring a certain change set over from one to the other.
+
+To cherry pick a commit, simply click on the `Cherry Pick` button, whenever
+it presents itself. You can find it in Merge Requests and Commits:
+
+![Cherry-pick any commit into any branch in GitLab 8.7](/images/8_7/cherry_pick_button.png)
+
+Choose a branch to pick the commit into and optionally create a merge request
+for it.
+
+![Cherry-pick any commit into any branch in GitLab 8.7 and create a merge request straight away](/images/8_7/cherry_pick_modal.png)
+
+Cherry Pick was contributed by [P.S.V.R](https://gitlab.com/u/pmq20). Thanks!
+
+> [Documentation link](link)
 
 ## Smarter, Better looking Commenting
 
@@ -57,8 +112,35 @@ https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3514
 
 ### Better looking diffs
 
+## Tooltip in your timezone
+
+Although some of you may correctly be using the one true timezone (UTC),
+it was confusing to many that times in GitLab were reported in a different
+timezone than their own.
+
+That's a thing of the past! All times are now reported in your own timezone.
+
+![]()
 
 ## Other changes
+Tooltip dates use user’s timezone.
+Autocomplete for participants get’s priority
+Create labels through dropdowns
+Sidebar for issue pages with new dropdowns
+Sidebar for MR pages with new dropdowns
+Location aware search
+New comment form for issues and MR’s
+Build updates
+Diff page redesign
+Label page redesigns
+### Shortcuts!
+
+Press `e` to edit the issue or merge request you're in. Or just press up on the
+arrow keys to edit your last comment.
+
+### Smarter Autocomplete
+
+
 
 ### More options default Dashboard page
 
