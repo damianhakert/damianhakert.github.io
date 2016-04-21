@@ -74,6 +74,11 @@ To add a LICENSE, add a new file to an existing project and name it `LICENSE`.
 GitLab will show a dropdown with options for a license. Your name will be
 pre-filled in select licenses.
 
+![]()
+
+The most popular open source licenses are available and we welcome merge
+requests for additional licenses.
+
 > [Documentation link](link)
 
 ## Due Date for Issues
@@ -121,12 +126,6 @@ Cherry Pick was contributed by [P.S.V.R](https://gitlab.com/u/pmq20). Thanks!
 
 > [Documentation link](link)
 
-## Smarter, Better looking Commenting
-
-- press up to edit
-- new design
-- better mentions
-
 ## Better diffs
 
 ### Better copying from diffs
@@ -141,7 +140,7 @@ timezone than their own.
 
 That's a thing of the past! All times are now reported in your own timezone.
 
-![]()
+![GitLab 8.7 uses your local timezone](/images/8_7/timezone.png)
 
 ## Improved GitHub Importer
 
@@ -159,21 +158,31 @@ New comment form for issues and MR’s
 Build updates
 Diff page redesign
 Label page redesigns
+
+### Smarter, Better Commenting
+
+We've revised the input for comments! It doesn't just look much better,
+it's also smarter. If you start to mention someone, autocomplete
+will prioritize  names based on the context of the issue, diff or merge request
+(several other dropdown boxes have that same ability now).
+
 ### Shortcuts!
 
 Press `e` to edit the issue or merge request you're in. Or just press up on the
 arrow keys to edit your last comment.
 
-### Smarter Autocomplete
-
-
-
 ### More options default Dashboard page
 
-- todos
-- groups view
+Did you know you can change the page you see when you sign in to GitLab?
+We've now made it possible to also make that page Groups or even Todos.
+That means you can set the Dashboard to be:
 
-https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3379
+- Projects (default)
+- Starred Projects
+- Groups (new)
+- Activity of Projects
+- Activity of Starred Projects
+- Todos (new)
 
 ### Build status notifications
 
