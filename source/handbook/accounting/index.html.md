@@ -5,6 +5,7 @@ title: "Accounting"
 
 ## Accounting Topics
 
+* [Sales Compensation Plan](#salescompplan)
 * [General Topics](#general-topics)
    * [Company phone number](#phone-number)
    * [Company accounts](#company-accounts)
@@ -16,6 +17,10 @@ title: "Accounting"
 * [Company Credit Cards](#company-cc)
 * [Accounts Receivable](#ar)
 * [Cash Receipt](#cash-receipt)
+
+## Sales Compensation Plan<a name="salescompplan"></a>
+
+[Sales Compensation Plan](https://docs.google.com/a/gitlab.com/document/d/153eBfPDBR7PD_hOH6bQmNs-EUm7m_t09pKTaWTpSRvs/edit?usp=sharing)
 
 ## General Topics<a name="general-topics"></a>
 
