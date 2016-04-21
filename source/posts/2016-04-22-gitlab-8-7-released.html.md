@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "GitLab 8.7 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 8.7 released with Due Date for Issues and Remote Mirrors"
 date: 2016-04-22
 categories:
 author: Job van der Voort
 author_twitter: Jobvo
-image_title: /images/7_X/PICTURE.PNG
+image_title: /images/8_7/ny.jpg
 ---
 
 We want GitLab to be the place where your projects go from idea all the way to
@@ -78,6 +78,27 @@ pre-filled in select licenses.
 
 ## Due Date for Issues
 
+It's easy for things to get lost in the shuffle of multiple priorities and
+several stakeholders. This challenge compounds in collaborative projects since
+people often depend on each other.  To help keep things on track, we've added
+the ability to set a due date for individual issues.
+
+![]()
+
+With the addition of due dates for issues, there are now two ways to keep your
+projects on track. However, due dates and milestones have a couple important
+distinctions. Due dates are only for individual issues. They are most useful
+when you want to drive your team to a target completion date.
+
+Milestones, on the
+other hand, apply to your full project. Milestones are great for organizing
+issues and merge requests into a cohesive group and track progress on a
+collection of issues, using the [milestone view].
+
+[milestone view]: (https://gitlab.com/gitlab-org/gitlab-ce/milestones/23)
+
+> [Documentation link](link)
+
 ## Cherry Pick
 
 You can now cherry-pick any commit into any branch, right within GitLab.
@@ -121,6 +142,11 @@ timezone than their own.
 That's a thing of the past! All times are now reported in your own timezone.
 
 ![]()
+
+## Improved GitHub Importer
+
+The GitHub importer now also imports milestones, labels and keeps
+references to pull requests and issues!
 
 ## Other changes
 Tooltip dates use user’s timezone.
