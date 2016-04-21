@@ -74,14 +74,33 @@ $(function() {
     });
   }
 
-  $(window).on("hashchange", function () {
-    var extraHeight = $('.navbar-header').outerHeight();
-    var $qnav = $('#qnav');
+  var changeScrollPosition = function () {
+    var hash = window.location.hash,
+        $el = $('a[name="' + hash.replace('#', '') + '"], ' + hash + ''),
+        extraHeight = $('.navbar-header').outerHeight(),
+        $qnav = $('#qnav');
 
     if ($qnav.length) {
       extraHeight += $qnav.outerHeight();
     }
 
-    window.scrollTo(window.scrollX, window.scrollY - extraHeight);
-  });
+    if ($el.length) {
+      $(window).scrollTop($el.offset().top - extraHeight);
+    }
+  }
+
+  $(window).on("hashchange", changeScrollPosition);
+});
+
+$(window).on('load', function () {
+  setTimeout(function() {
+    if (window.location.hash !== '') {
+      var target = $('a[name="' + window.location.hash.replace('#', '') + '"]'),
+          extraHeight = $('.navbar-header').outerHeight();
+
+      if (target.length) {
+        $(window).scrollTop(target.offset().top - extraHeight);
+      }
+    }
+  }, 10);
 });
