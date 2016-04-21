@@ -1,7 +1,7 @@
 ---
 layout: markdown_page
 title: Team Structure
-pageclass: org-structure
+page_class: org-structure
 ---
 
 Draft team structure, this is to be finished after the Austin Summit (end of May 2016).
