@@ -271,6 +271,7 @@ step, **re-assign** the issue to that person.
 1. If you ask a question to a specific person, always start the comment by mentioning them; this will ensure they see it if their notification level is mentioned and other people will understand they don't have to respond.
 1. Do not close an issue until it is fully done, which means code has been merged, it has been **reported** back to any customers and the community, all issue trackers are updated and any documentation is written and merged.
 1. When **closing** an issue leave a comment explaining why you are closing the issue.
+1. If a user suggests an enhancement, try and find an existing issue that addresses their concern, or create a new one. Ask if they'd like to elaborate on their idea in one of these issues.
 
 ### Team Call<a name="team-call"></a>
 
