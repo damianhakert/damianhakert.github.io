@@ -1,5 +1,5 @@
 ---
-layout: markdownpage
+layout: markdown_page
 title: Team Structure
 pageclass: org-structure
 ---
