@@ -17,6 +17,7 @@ title: "People Operations"
    - [Add new hires to TriNet](#trinet-process)
    - [Making changes in TriNet](#changes-trinet)
 - [Returning property to GitLab](#returning-property)
+- [Using RingCentral](#ringcentral)
 
 ## Reaching People Operations<a name="reach-peopleops"></a>
 
@@ -49,12 +50,12 @@ Once you've sent out the document you will receive email notifications of the pr
 
 ## Processing changes<a name="processing-changes"></a>
 
-Any changes to a team member’s status, classification, promotion/demotion, pay increase/decrease and 
-bonus needs to be communicated via email to People Ops by the team member's manager or CEO. People Ops will then enter 
-the changes in BambooHR under the Jobs Tab in the member’s profile; then file the email in the Offers 
-and Contracts Folder in the Document Section. 
+Any changes to a team member’s status, classification, promotion/demotion, pay increase/decrease and
+bonus needs to be communicated via email to People Ops by the team member's manager or CEO. People Ops will then enter
+the changes in BambooHR under the Jobs Tab in the member’s profile; then file the email in the Offers
+and Contracts Folder in the Document Section.
 
-Further changes may need to be [processed in TriNet](#changes-trinet) or Savvy to fully process the change. People Ops 
+Further changes may need to be [processed in TriNet](#changes-trinet) or Savvy to fully process the change. People Ops
 is responsible for seeing the change through to completion. Once completed, People Ops
 sends an email to the person reporting / requesting the change (member's manager or CEO)
 to confirm this.
@@ -112,50 +113,50 @@ Here are some useful guidelines to set up everything for our new team members wi
 If Google Sheets or Docs are mentioned, these will be shared with you on Google Drive.
 
 - **Add team member to availability calendar**
-Make a new "all-day" event on the day the new team member starts "[Name] joining 
+Make a new "all-day" event on the day the new team member starts "[Name] joining
 as [Job title]". Make sure to select the calendar as GitLab Availability and not your own.
 - **Give team member access to the GitLab availability calendar**
-Go to your calendar window, under my calendars move your cursor over the calendar 
-and click the dropdown triangle. Select calendar settings and go to "Share this 
-calendar" in the top of the window. Enter the GitLab email address and scroll 
-down to set the permission setting to "make changes to events" Then save in the 
+Go to your calendar window, under my calendars move your cursor over the calendar
+and click the dropdown triangle. Select calendar settings and go to "Share this
+calendar" in the top of the window. Enter the GitLab email address and scroll
+down to set the permission setting to "make changes to events" Then save in the
 lower left corner.
 - **Add blank entry to team page**
-Login to [Gitlab.com](www.gitlab.com) and go to the www-gitlab-com project. In 
-the left menu click "Files" and select the folder called "source". Continue by 
-clicking the folder "data" and select the file called team.yml. In the top right 
-corner you can click "edit" to make edits to the code. Scroll all the way down 
-and copy-paste the code of the previous blank entry to the team page. Edit the 
-fields to the right info of the new hire and find the right job description on 
+Login to [Gitlab.com](www.gitlab.com) and go to the www-gitlab-com project. In
+the left menu click "Files" and select the folder called "source". Continue by
+clicking the folder "data" and select the file called team.yml. In the top right
+corner you can click "edit" to make edits to the code. Scroll all the way down
+and copy-paste the code of the previous blank entry to the team page. Edit the
+fields to the right info of the new hire and find the right job description on
 the [Jobs](https://about.gitlab.com/jobs/) page.
- **Note** _This can be tricky, so if you run into trouble reach out to some of 
+ **Note** _This can be tricky, so if you run into trouble reach out to some of
 your awesome colleagues in the #questions (channel) on Slack_
 - **Add entry to Team Call agenda**
-Open the Team Agenda google doc, and on the starting day add an Agenda item: 
-"[Hiring manager name]: Welcome [name new team member] joining as [job title]" 
+Open the Team Agenda google doc, and on the starting day add an Agenda item:
+"[Hiring manager name]: Welcome [name new team member] joining as [job title]"
 as the first item on the agenda
 - **Invite to team meeting and GitLab 101 meeting**
-Go to the team call meeting on the starting date of the team member and the next 
-scheduled GitLab 101 in the Availability calendar. Click on "edit event" to open. 
-On the right enter the team member's GitLab email address in the  "add guests" 
-section and click save. When asked select "all events" to add to all scheduled 
-meetings and "send" out the invitation. 
+Go to the team call meeting on the starting date of the team member and the next
+scheduled GitLab 101 in the Availability calendar. Click on "edit event" to open.
+On the right enter the team member's GitLab email address in the  "add guests"
+section and click save. When asked select "all events" to add to all scheduled
+meetings and "send" out the invitation.
 - **Order business cards**
 Go to the "Notes" field in BambooHR and enter the info needed for the Business Cards.
 Once every week/few days or how often needed, run the "Business Cards order" report in the Reports - My Reports menu of BambooHR.
-Email our partner to order new business cards and add the info for the cards to 
-be ordered. Include the address of the team member (found in BambooHR) and inform 
-our partner to _**ship the cards directly to that address**_. Double check the 
+Email our partner to order new business cards and add the info for the cards to
+be ordered. Include the address of the team member (found in BambooHR) and inform
+our partner to _**ship the cards directly to that address**_. Double check the
 info that is sent with the preview before approving the print.
 - **Add team member to Expensify (only with employees)**
-Login to [Expensify](https://www.expensify.com/signin) and go to "Admin" in the 
-top menu. Select the right policy based upon the entity that employs the new team 
-member. Select "People" in the left menu. Select "Invite" and add the GitLab email. 
+Login to [Expensify](https://www.expensify.com/signin) and go to "Admin" in the
+top menu. Select the right policy based upon the entity that employs the new team
+member. Select "People" in the left menu. Select "Invite" and add the GitLab email.
 Edit the message to be sent for the employee. Click "invite".
 - **Add team member to Beamy**
-Login in to access the settings for the [Beam](https://suitabletech.com/accounts/login/). 
-In the top menu move your cursor over the blue login button. Go to "Manage your beams". 
-Click on "manage" in the lower left corner. Enter the GitLab email and scroll down 
+Login in to access the settings for the [Beam](https://suitabletech.com/accounts/login/).
+In the top menu move your cursor over the blue login button. Go to "Manage your beams".
+Click on "manage" in the lower left corner. Enter the GitLab email and scroll down
 to find the newly addedd email. Check the box for "Auto connect".
 - **Add team member into the Austin info sheets**
 Add the team member's name to the Travel and Lodging Google sheets to make sure they enter flight details and they are assigned a room.
@@ -278,3 +279,16 @@ GitLab property needs to be returned to GitLab. GitLab
 will pay for the shipping either by PeopleOps sending a FedEx shipping slip or it can be returned
 by another mutually agreed method. If property is not returned, GitLab reserves the
 right to use a creditor company to help retrieve the property.
+
+## Using RingCentral<a name="ringcentral"></a>
+
+Our company and office phone lines are handled via RingCentral. The login credentials
+are in the Secretarial vault on 1Password. To add a number to the call handling & forwarding
+rules:
+
+- From the Admin Portal, click on the Users button (menu on left), select the user for which you
+want to make changes.
+- A menu appears to the right of the selected user; pick "Call Handling & Forwarding" and review
+the current settings which show all the people and numbers that are alerted when the listed User's
+number is dialed.
+- Add the new forwarding number (along with a name for the number), and click Save.
