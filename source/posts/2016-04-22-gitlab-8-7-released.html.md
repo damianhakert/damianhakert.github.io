@@ -18,7 +18,7 @@ GitLab 8.7 improves Issues, makes diffs better to work with, brings better
 commenting, has 100% more cherries and can now even push to remote repositories
 out of its own volition*.
 
-This months MVP is Connor Shae. Connor has been an incredibly responsive and
+This months MVP is Connor Shea. Connor has been an incredibly responsive and
 productive member of the community, working on anything from new features
 to performance issues up to this very release post.
 
