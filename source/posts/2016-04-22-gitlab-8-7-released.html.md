@@ -95,12 +95,14 @@ several stakeholders. This challenge compounds in collaborative projects since
 people often depend on each other.  To help keep things on track, we've added
 the ability to set a due date for individual issues.
 
-![]()
+![Due date for issues in GitLab 8.7](/images/8_7/due_date.png)
 
 With the addition of due dates for issues, there are now two ways to keep your
 projects on track. However, due dates and milestones have a couple important
 distinctions. Due dates are only for individual issues. They are most useful
 when you want to drive your team to a target completion date.
+
+![Due date for issues in GitLab 8.7](/images/8_7/due_date2.png)
 
 Milestones, on the
 other hand, apply to your full project. Milestones are great for organizing
