@@ -8,11 +8,26 @@ author_twitter: Jobvo
 image_title: /images/7_X/PICTURE.PNG
 ---
 
-Intro and introduce main features here.
+We want GitLab to be the place where your projects go from idea all the way to
+production. You don't have to rely on other tools to build something
+great together. GitLab is able to power any step in this process and with
+GitLab 8.7, we've made every step easier, faster and more powerful.
 
-MVP Connor. We want to also recognize Ershad for X and Y.
+GitLab 8.7 improves Issues, makes diffs better to work with, brings better
+commenting, has 100% more Cherries and can now even push to other repositories
+out of its own volition.
+
+This months MVP is Connor Shae. Connor has been an incredibly responsive and
+productive member of the community, working on anything from new features
+to performance issues up to this very release post.
+
+We also want to thank Ershad ..
 
 <!--more-->
+
+## Remote mirrors (EE only)
+
+* The support to have remote repositories as mirrors has been added to EE: https://gitlab.com/gitlab-org/gitlab-ee/issues/116
 
 ## Multiple label filter
 
@@ -21,6 +36,14 @@ MVP Connor. We want to also recognize Ershad for X and Y.
 ## LICENSE templates
 
 > [Documentation link](link)
+
+## Due date
+
+- also smarter dropdowns
+
+## Cherry Pick
+
+https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3514
 
 ## Smarter, Better looking Commenting
 
@@ -34,13 +57,6 @@ MVP Connor. We want to also recognize Ershad for X and Y.
 
 ### Better looking diffs
 
-## Cherry Pick
-
-https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3514
-
-## Remote Mirrors
-
-* The support to have remote repositories as mirrors has been added to EE: https://gitlab.com/gitlab-org/gitlab-ee/issues/116
 
 ## Other changes
 
@@ -83,6 +99,8 @@ https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2604
 * Markdown rendering performance has been improved, leading to a 3x performance boost in the most ideal cases, though this highly depends on the type of data being rendered. Merge request:  https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3389
 * Emoji autocomplete performance has been improved. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3458
 * The referenced merge requests and related branches of an issue are now loaded asynchronously. This reduces the loading time of issue pages. Merge request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3678
+* Re-enable GZIP compression of assets in production gitlab-org/gitlab-ce!3632
+* Load the emoji spritesheet only when necessary. gitlab-org/gitlab-ce!3449
 
 ## GitLab Mattermost 2.2
 
@@ -95,11 +113,24 @@ This version also includes a [security update](http://docs.mattermost.com/admini
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
+- Once a month GitLab will perform a data integrity check (git fsck) on each of your Git repositories.
+http://doc.gitlab.com/ce/administration/repository_checks.html
+- Images now link to their full source URLs, this is especially good for mobile users. gitlab-org/gitlab-ce!3464
+
+
 
 ## Upgrade barometer
 
-This release requires downtime due to a number of schema and data migrations.
+This release requires up to 30 minutes downtime.
 
+A migration affecting projects with import data requires downtime as it
+manipulates and encrypts user data stored for projects that were previously
+imported from other Git repositories. Unless you have a large number of
+imported projects, this migration should last only a few seconds.
+
+This release contains other migrations that might make the total upgrade time
+longer. For GitLab.com (>800k projects) the complete upgrade was completed within
+30 minutes.
 
 *Note* We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
 If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
