@@ -805,6 +805,15 @@
   gitlab:
   story:  |
           Joining April 19th
+
+- name: C.W.
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
+  reports_to: Lead Service Engineer
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining April 25th 
           
 - name: S.M.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
@@ -813,7 +822,16 @@
   twitter:
   gitlab:
   story:  |
-          Joining April 27th          
+          Joining April 27th 
+        
+- name: C.T.
+  role: <a href="https://about.gitlab.com/jobs/business-development-team-lead/">Business Development Team Lead</a>
+  reports_to: Senior Demand Generation Manager
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining April 27th           
 
 - name: M.F.
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
