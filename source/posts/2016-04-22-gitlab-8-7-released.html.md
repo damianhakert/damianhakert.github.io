@@ -42,7 +42,7 @@ like you can have your cake and eat it too.
 
 This means you can use GitLab to build your projects, while still maintaining
 an active mirror in another place. You could even run a GitLab instance locally
-and mirror it to GitLab.com or another popular open instance.
+and mirror it to GitLab.com or any other git hosting service.
 
 To start mirroring to a remote repository, find the Mirror Repository settings
 in your project and fill out the required URL and GitLab with automatically sync
