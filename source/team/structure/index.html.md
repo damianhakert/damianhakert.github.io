@@ -42,8 +42,8 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - Customer Success - Customer Success Manager (lead, future vacancy)
       - [Account Manager](/jobs/account-manager/)
       - [Solutions Engineer](/jobs/solutions-engineer/)
-  - [Finance](/handbook/accounting/) - [CFO](/jobs/chief-financial-officer/)
-    - [Accounting & Control](/handbook/accounting/) - [Controller](/jobs/controller/)
+  - Finance - [CFO](/jobs/chief-financial-officer/)
+    - [Accounting](/handbook/accounting/) - [Controller](/jobs/controller/)
     - [People Operations](/handbook/people-operations/) - [People Operations Director](/jobs/people-ops-director/) (lead, vacancy)
       - [People Operations Coordinator](/jobs/people-ops-coordinator/)
       - [Administrative Coordinator](/jobs/adminstrative-coordinator/)
@@ -61,5 +61,5 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Service Engineers](/jobs/service-engineer/)
     - [Developers](/jobs/developer/) that work on other products
   - Scaling - [VP of Scaling](/jobs/vp-of-scaling/)
-  - Product - [VP of Product](/jobs/vice-president-of-product/)
+  - General Product - [VP of Product](/jobs/vice-president-of-product/)
   - CI/CD Product - [Head of Product](/jobs/head-of-product/)
