@@ -76,7 +76,7 @@ $(function() {
         $qnav = $('#qnav');
 
     if ($qnav.length) {
-      extraHeight += $qnav.outerHeight();
+      extraHeight += $qnav.outerHeight() - 2;
     }
 
     if ($el.length) {
@@ -90,11 +90,17 @@ $(function() {
 $(window).on('load', function () {
   setTimeout(function() {
     if (window.location.hash !== '') {
-      var target = $('a[name="' + window.location.hash.replace('#', '') + '"]'),
-          extraHeight = $('.navbar-header').outerHeight();
+      var hash = window.location.hash,
+          $el = $('a[name="' + hash.replace('#', '') + '"], ' + hash + ''),
+          extraHeight = $('.navbar-header').outerHeight(),
+          $qnav = $('#qnav');
 
-      if (target.length) {
-        $(window).scrollTop(target.offset().top - extraHeight);
+      if ($qnav.length) {
+        extraHeight += $qnav.outerHeight() - 2;
+      }
+
+      if ($el.length) {
+        $(window).scrollTop($el.offset().top - extraHeight);
       }
     }
   }, 10);
