@@ -129,29 +129,6 @@ pre {
     margin-bottom: 0;
     border: 0;
   }
-
-  table {
-    width: 100%;
-    margin-bottom: 10px;
-
-    &:not(.highlighttable) {
-      th,
-      td {
-        padding: 8px 10px;
-        font-size: 18px;
-      }
-
-      th {
-        font-weight: normal;
-        background-color: $blog-table-background;
-        border-bottom: 1px solid $blog-table-border;
-      }
-
-      tr:hover td {
-        background-color: $blog-table-background-hover;
-      }
-    }
-  }
 }
 
 .image-title .color-bg {
