@@ -141,7 +141,7 @@ We very much welcome contributions that implement any of these things.
 ### Scope <a name="scope"></a>
 
 [Our vision](#vision) is the need for an integrated set of tools for the software development lifecycle based on convention over configuration.
-To achieve this we plan to ship the following stack of tools:
+To achieve this we plan to ship the following stack of tools in our Omnibus package:
 
 1. **Chat** conversation => Mattermost, [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
 1. **Issue** creation => GitLab Issues
@@ -154,9 +154,14 @@ To achieve this we plan to ship the following stack of tools:
 1. **Chatops** to check => [Hubot](https://hubot.github.com/) which has a [Merge Request](https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/564) or [Lita](https://www.lita.io/)
 1. **Wiki** to document => GitLab Wiki
 
-We're still deciding if application performance monitoring is in our scope, for example with Grafana and InfluxDB.
+We're still deciding if superficial application performance (APM) monitoring is in our scope.
+We don't want to do deep APM since that sophisticated requires introspection of code.
+But we are considering shipping Grafana and InfluxDB as part of our Omnibus package.
+Examples of the advantages of adding APM to GitLab would be:
 
-We plan to ship all of the above in our Omnibus package.
+- No external tools or setup needed for [GitLab performance monitoring](http://doc.gitlab.com/ce/monitoring/performance/introduction.html).
+- It would make it easier have our [deployment pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/750910) automatically revert code wehn
+- We can use it to visualize the outcome of [A/B testing](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
 
 Things that are outside our scope are:
 
