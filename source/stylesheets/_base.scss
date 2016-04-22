@@ -1,4 +1,11 @@
+html {
+  height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   padding-top: 50px;
 
   &.purple-bg {
@@ -9,6 +16,14 @@ body {
       color: inherit;
     }
   }
+
+  > .wrapper {
+    flex: 1 0 auto;
+  }
+}
+
+iframe[name="google_conversion_frame"] {
+  display: none;
 }
 
 a:focus,
