@@ -11,13 +11,13 @@ image_title: /images/unsplash/truck.jpg
 
 In [8.6][releasepost] we added a feature allowing you to move issues between projects.
 
-If you work on multiple projects, it's possible to accidentally create an issue 
+If you work on multiple projects, it's possible to accidentally create an issue
 in the wrong issue tracker. It's a seemingly simple mistake that is easy to miss.
 Let's say you don't catch it right away and you do a decent amount of work
-on the wrong project. Now, your "seemingly simple" mistake just became a bigger one. 
+on the wrong project. Now, your "seemingly simple" mistake just became a bigger one.
 We've all been in this position before. With our 8.6 release, we want to avoid the
-panic that can come from creating an issue in the wrong project. Now, if you 
-create an issue in the wrong project, you can easily move it to the right one. 
+panic that can come from creating an issue in the wrong project. Now, if you
+create an issue in the wrong project, you can easily move it to the right one.
 
 <!-- more -->
 
@@ -32,17 +32,19 @@ depend on your notification settings.
 
 ![Moved issue email](/images/blogimages/moved-issue-email.png)
 
-It's a relatively simple feature, but it was tricky to implement.
+It's a relatively simple feature, but it was
+[tricky to implement][Merge request !2831].
 
 ## Behind the scenes: Moving issues between projects
 
 At first, moving issue between projects seemed like an easy task. However,
-we encountered a [wicked problem], references in the issue description or comments.
+we encountered a tricky problem with references in the issue description or
+comments.
 
 Suppose we have a project called Alice, and we created an issue inside it:
 
 ```markdown
-Hey, this issue is related to #123 and the solution is implemented in !456
+Hey, this issue is related to #123 and the solution is implemented in !456.
 ```
 
 Now let's suppose we want to move this issue to Bob. The reference #123 points
@@ -78,11 +80,20 @@ allowing us to modify text where needed.
 However, once I started this work, I felt that this was a complicated solution so
 I decided to look for a [boring solution][values]. I reached out to my fellow
 developers on the team to find a better boring solution. After sometime,
-[Kamil] helped me [with this][helped] and his suggestion worked!
+[Kamil] helped me and we came with different solution.
+
+We decided to use existing mechanisms to verify if we can substitute reference
+in place it has been detected at. We knew that resulting HTML should not change,
+so we could try substituting local reference with cross-project variation and
+see if generated HTML is different than the original one. If it didn't change,
+then substitution is valid.
+
+With this approach, we are also sure that modifications to issue/comments
+content are correct and don't break your issue which can hold valuable
+information.
 
 [Kamil]: https://twitter.com/ayufanpl
-[helped]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2831#note_4189430
+[Merge request !2831]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2831
 [values]: https://about.gitlab.com/handbook/#values
 [releasepost]: https://about.gitlab.com/2016/03/22/gitlab-8-6-released/
-[wicked problem]: https://en.wikipedia.org/wiki/Wicked_problem
 [Merge request !2996]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2966
