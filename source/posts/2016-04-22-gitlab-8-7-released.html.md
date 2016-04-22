@@ -135,7 +135,7 @@ for it.
 
 Cherry Pick was contributed by [P.S.V.R](https://gitlab.com/u/pmq20). Thanks!
 
-> [Documentation link](link)
+> [Documentation link](http://doc.gitlab.com/ce/workflow/cherry_pick_changes.html)
 
 ## Better Diffs
 
