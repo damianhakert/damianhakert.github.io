@@ -37,24 +37,24 @@ It's a relatively simple feature, but it was tricky to implement.
 ## Behind the scenes: Moving issues between projects
 
 At first, moving issue between projects seemed like an easy task. However,
-we encountered a [wicked problem], references in the issue description or comments. 
+we encountered a [wicked problem], references in the issue description or comments.
 
-Suppose we have a project called Alice, and we created an issue inside it: 
+Suppose we have a project called Alice, and we created an issue inside it:
 
 ```markdown
 Hey, this issue is related to #123 and the solution is implemented in !456
 ```
 
-Now let's suppose we want to move this issue to Bob. The reference #123 points 
+Now let's suppose we want to move this issue to Bob. The reference #123 points
 to an issue in Alice. Similarly, !456 points to a merge request in Alice as well.
 If a user moves an issue to Bob, these references need to be updated so that they
-continue pointing to Alice, not Bob. Otherwise, the resulting references would 
+continue pointing to Alice, not Bob. Otherwise, the resulting references would
 link to the wrong project. The same goes for snippets, labels, commits, etc.
 
-We knew that we needed to fix these references by using GitLab's Markdown 
+We knew that we needed to fix these references by using GitLab's Markdown
 cross-project reference notation. However, at the time, not everything in GitLab
-supported this notation. For example, labels (e.g. ~My Label) could not be shared
-across projects. We had to fix that, so we did via [!2996].
+supported this notation. For example, labels (e.g. `~"My Label"`) could not be
+shared across projects. We had to fix that, so we did via [Merge request !2996].
 
 
 Another step was simply substituting `#123` with `gitlab-org/gitlab-ce#123`.
@@ -70,15 +70,15 @@ Also see documentation docs.gitlab.com/ce/some-page#123. Also take a look at thi
 So we know that this description holds a reference to issue 123 but we do not
 know *where it is*, or how to substitute it in the right place. We needed to modify
 the source text. However, changing the source text would interfere with Markdown.
-To solve this, I tried some prototypes but couldn't find a better solution than 
-writing yet another parser for Markdown that would support the full Abstract 
-Syntax Tree of Markdown. This would add support for mutable nodes in a tree, 
+To solve this, I tried some prototypes but couldn't find a better solution than
+writing yet another parser for Markdown that would support the full Abstract
+Syntax Tree of Markdown. This would add support for mutable nodes in a tree,
 allowing us to modify text where needed.
 
 However, once I started this work, I felt that this was a complicated solution so
-I decided to look for a [boring solution][values]. I reached out to my fellow 
-developers on the team to find a better boring solution. After sometime, 
-[Kamil] helped me [with this][helped] and his suggestion worked! 
+I decided to look for a [boring solution][values]. I reached out to my fellow
+developers on the team to find a better boring solution. After sometime,
+[Kamil] helped me [with this][helped] and his suggestion worked!
 
 [Kamil]: https://twitter.com/ayufanpl
 [helped]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/2831#note_4189430
