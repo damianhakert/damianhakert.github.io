@@ -47,7 +47,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - [People Operations](/handbook/people-operations/) - [People Operations Director](/jobs/people-ops-director/) (lead, vacancy)
       - [People Operations Coordinator](/jobs/people-ops-coordinator/)
       - [Administrative Coordinator](/jobs/adminstrative-coordinator/)
-  - Technical Direction - [CTO](/jobs/chief-technology-officer/)
+  - [Technical Direction](/direction/) - [CTO](/jobs/chief-technology-officer/)
     - [UX Designers](/jobs/ux-designer/)
   - Engineering - [VP of Engineering](/jobs/vp-of-engineering/)
     - Various teams - [Development Lead](/jobs/development-lead/) (lead)
