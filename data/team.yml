@@ -323,6 +323,8 @@
   picture:  kelvin_mutuma.jpg
   twitter:  kelvinmutuma
   gitlab: muthuri.kelmut
+  maintains:  |
+                <li>Maintainer of GitLab Mentions</li>
   story:  |
           Before joining GitLab, Kelvin was a developer and system's engineer for a Kenyan Financial Services platform, Abacus. He is passionate about playing chess, video games, watching sci-fi movies, reading novels and watching soccer.
 
@@ -668,6 +670,8 @@
   picture: felipe.jpg
   twitter: juanpintoduran
   gitlab: cabargas
+  maintains:  |
+                <li>Maintainer of <a href="https://gitlab.com/gitlab-org/University">GitLab University</a></li>
   story:  |
           Felipe is a rubyist from Chile trying to get more people into the Git boat. He likes to comunicate tech to non-tech individuals and help local communities reach more people. When AFK, he is desoldering stuff, 3D printing Star Wars models or in the stadium with his father and brother cheering for 'La U'.
 
