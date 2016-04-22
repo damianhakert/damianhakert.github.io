@@ -187,7 +187,8 @@ will prioritize names based on the context of the issue, diff or merge request
 ### Shortcuts!
 
 Press `e` to edit the issue or merge request you're viewing, and press the up
-arrow key to quickly edit your last comment.
+arrow key to quickly edit your last comment. In any case, make sure you're not
+focusing in the comments area when pressing those keys.
 
 ### More Default Dashboards
 
