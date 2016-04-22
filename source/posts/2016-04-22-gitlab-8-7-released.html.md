@@ -50,8 +50,6 @@ the remote every hour.
 
 ![Remote Mirror in GitLab 8.7](/images/8_7/remote_mirror.png)
 
-> [Documentation link](link)
-
 ## Multiple Label Filter
 
 You might already be labelling your issues and merge requests. You might even
@@ -63,8 +61,6 @@ contain all selected labels. Meaning, if I search for `feature proposal` and
 `customer`, I'm now able to find only feature proposals by customers.
 
 ![Multiple label filter in GitLab 8.7](/images/8_7/label.png)
-
-> [Documentation link](link)
 
 [be subscribed]: /2016/04/13/feature-highlight-subscribe-to-label
 
@@ -89,8 +85,6 @@ preference. That's why we provide several of the most popular licenses. We
 welcome merge requests for additional templates. These licenses allow the open
 source community to carry on with the free use and sharing of software.
 
-> [Documentation link](link)
-
 ## Due Date for Issues
 
 It's easy for things to get lost in the shuffle of multiple priorities and
@@ -112,8 +106,6 @@ great for organizing issues and merge requests into a cohesive group and to
 track progress on a collection of issues, using the [milestone view].
 
 [milestone view]: (https://gitlab.com/gitlab-org/gitlab-ce/milestones/23)
-
-> [Documentation link](link)
 
 ## Cherry Pick
 
@@ -158,6 +150,8 @@ That's a thing of the past! All times are now reported in your own timezone.
 
 The GitHub importer now also imports milestones and labels, and preserves
 references to pull requests and issues!
+
+> [Documentation link](http://doc.gitlab.com/ce/workflow/importing/import_projects_from_github.html)
 
 ## Other changes
 
