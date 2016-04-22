@@ -841,3 +841,13 @@
   gitlab:
   story:  |
           Joining May 1st
+
+- name: M.W.
+  role: <a href="https://about.gitlab.com/jobs/account-manager/">Sr. Account Executive</a>
+  reports_to: CRO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 16th
+          
