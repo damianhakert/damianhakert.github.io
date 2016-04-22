@@ -180,7 +180,7 @@ table {
     border: 1px solid $table-border-color;
 
     // Tighten up spacing
-    > .table {
+    > table {
       margin-bottom: 0;
 
       // Ensure the content doesn't wrap

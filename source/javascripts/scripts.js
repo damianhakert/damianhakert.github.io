@@ -15,7 +15,7 @@ $(function() {
       $hireUs = $('#hire-us'),
       $tabs = $('#tabs'),
       $imageLink = $('.image-link'),
-      $blogTables = $('.blog-entry table');
+      $tables = $('table');
 
   $("input").not("[type=submit]").jqBootstrapValidation();
 
@@ -61,8 +61,8 @@ $(function() {
     });
   }
 
-  if ($blogTables.length) {
-    $blogTables.each(function () {
+  if ($tables.length) {
+    $tables.each(function () {
       var $table = $(this);
 
       $(this).wrap('<div class="table-responsive"></div>');
