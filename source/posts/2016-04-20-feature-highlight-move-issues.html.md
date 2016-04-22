@@ -88,6 +88,33 @@ so we could try substituting local reference with cross-project variation and
 see if generated HTML is different than the original one. If it didn't change,
 then substitution is valid.
 
+Below you can find some implementation details of current solution.
+
+1.  Match all local references to project, issue, merge request and all other
+    entities using Regexp.
+
+    References like `#123` for issue, `!456` for merge request are being
+    matched.
+
+1.  Substitute each subsequent match with fully-expanded cross-project
+    reference.
+
+    This substitues reference like `#123` with `gitlab-org/gitlab-ce#123`.
+
+1.  For each substitution generate HTML twice, using a new content and using an
+    old content.
+
+    Because of the fact that cross-project reference, when used in a context
+    of the project it refers to is rendered as a local reference, both resulting
+    HTMLs should be the same.
+
+1.  If resulting HTMLs are the same, we permanently alter original text to
+    contain cross-project reference instead of local reference.
+
+This solution is not the most optimal one because of performance reasons, but
+it allowed us to ship this feature quickly and in the future we can improve it
+by using Abstract Syntax Tree implementation for Markdown.
+
 With this approach, we are also sure that modifications to issue/comments
 content are correct and don't break your issue which can hold valuable
 information.
