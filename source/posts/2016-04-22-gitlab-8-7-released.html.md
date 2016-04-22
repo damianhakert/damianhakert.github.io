@@ -18,16 +18,20 @@ GitLab 8.7 improves Issues, makes diffs better to work with, brings better
 commenting, has 100% more cherries and can now even push to remote repositories
 by its own volition[^1].
 
-This month's MVP is Connor Shea. Connor has been an incredibly responsive and
-productive member of the community, working on anything from new features
-to performance issues, and even this very release post.
+This month's [MVP] is [Connor Shea][connor]. Connor has been an incredibly
+responsive and productive member of the community, working on anything from new
+features to performance issues up to this very release post.
 
-We also want to thank Ershad Ahmad for his enthusiastic support in the
+We also want to thank [Ershad Ahmad][ershad] for his enthusiastic support in the
 community, both in the forums and on Twitter. Thanks Ershad and Connor!
 
 [^1]: _GitLab 8.7 doesn't actually have a mind of its own._
 
 <!--more-->
+
+[mvp]: /mvp "GitLab Hall of Fame"
+[connor]: https://gitlab.com/u/connorshea
+[ershad]: https://gitlab.com/u/ershad
 
 ## Remote Mirrors (EE only)
 
@@ -188,15 +192,18 @@ arrow key to quickly edit your last comment.
 ### More Default Dashboards
 
 Did you know you can change the page you see when you sign in to GitLab?
-We've now made it possible to also make that page Groups or even Todos.
-That means you can set the Dashboard to be:
+We've now made it possible to also make that page Groups or even Todos, thanks
+to the contribution of [Elias W.][elias]! That means you can set the Dashboard
+to be:
 
 - Projects (default)
 - Starred Projects
-- Groups (new)
 - Activity of Projects
 - Activity of Starred Projects
+- Groups (new)
 - Todos (new)
+
+[elias]: https://gitlab.com/u/eliasw
 
 ### Build status notifications
 
