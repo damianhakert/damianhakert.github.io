@@ -37,8 +37,8 @@ community, both in the forums and on Twitter. Thanks Ershad and Connor!
 
 You could already automatically mirror an external repository to your GitLab
 instance. With GitLab 8.7 you can now do the inverse and have GitLab push
-updates to a remote repository: a mirror on a remote repository. It's like
-you can have your cake and eat it too.
+updates to a remote repository: a mirror on a remote repository ([!249]). It's
+like you can have your cake and eat it too.
 
 This means you can use GitLab to build your projects, while still maintaining
 an active mirror in another place. You could even run a GitLab instance locally
@@ -50,6 +50,8 @@ the remote every hour.
 
 ![Remote Mirror in GitLab 8.7](/images/8_7/remote_mirror.png)
 
+[!249]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/249
+
 ## Multiple Label Filter
 
 You might already be labelling your issues and merge requests. You might even
@@ -58,18 +60,19 @@ discover GitLab couldn't filter by multiple labels at once. Well, now you can!
 
 Select any number of labels to filter only for issues or merge requests that
 contain all selected labels. Meaning, if I search for `feature proposal` and
-`customer`, I'm now able to find only feature proposals by customers.
+`customer`, I'm now able to find only feature proposals by customers ([!3438]).
 
 ![Multiple label filter in GitLab 8.7](/images/8_7/label.png)
 
 [be subscribed]: /2016/04/13/feature-highlight-subscribe-to-label
+[!3438]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3438
 
 ## LICENSE templates
 
 If you have an open source project, you should have a license in place for it.
 Typically, projects include a text file named `LICENSE` in the root of their
 repository. GitLab now provides license templates, so you can quickly move on
-with building the rest of the project.
+with building the rest of the project ([!3660]).
 
 To add a license, add a new file named `LICENSE` to an existing project. GitLab
 will show a dropdown with licenses to choose from. With certain licenses, your
@@ -85,12 +88,14 @@ preference. That's why we provide several of the most popular licenses. We
 welcome merge requests for additional templates. These licenses allow the open
 source community to carry on with the free use and sharing of software.
 
+[!3660]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3660
+
 ## Due Date for Issues
 
 It's easy for things to get lost in the shuffle of multiple priorities and
 several stakeholders. This challenge compounds in collaborative projects since
 people often depend on each other.  To help keep things on track, we've added
-the ability to set a due date for individual issues.
+the ability to set a due date for individual issues ([!3614]).
 
 ![Due date for issues in GitLab 8.7](/images/8_7/due_date.png)
 
@@ -105,7 +110,8 @@ Milestones, on the other hand, apply to your entire project. Milestones are
 great for organizing issues and merge requests into a cohesive group and to
 track progress on a collection of issues, using the [milestone view].
 
-[milestone view]: (https://gitlab.com/gitlab-org/gitlab-ce/milestones/23)
+[milestone view]: https://gitlab.com/gitlab-org/gitlab-ce/milestones/23
+[!3614]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3614
 
 ## Cherry Pick
 
@@ -254,9 +260,14 @@ possible to override global YAML variables in the definition of a CI job.
 
 ## GitLab Mattermost 2.2
 
-[Mattermost 2.2](http://www.mattermost.org/mattermost-2-2-threaded-messages-and-more/) ships in GitLab 8.7 with threaded messages, French translation, new themes, new Trello and IRC support, plus many more new benefits.
+[Mattermost 2.2](http://www.mattermost.org/mattermost-2-2-threaded-messages-and-more/)
+ships in GitLab 8.7 with threaded messages, French translation, new themes, new
+Trello and IRC support, plus many more new benefits.
 
-This version also includes a [security update](http://docs.mattermost.com/administration/changelog.html#security-update) and [upgrade from earlier versions]((http://doc.gitlab.com/omnibus/gitlab-mattermost/)) is recommended.
+This version also includes a [security update] and [upgrade from earlier versions] is recommended.
+
+[security update]: http://docs.mattermost.com/administration/changelog.html#security-update
+[upgrade from earlier versions]: http://doc.gitlab.com/omnibus/gitlab-mattermost
 
 ## Other changes
 
