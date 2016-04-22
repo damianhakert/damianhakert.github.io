@@ -63,12 +63,7 @@ $(function() {
 
   if ($blogTables.length) {
     $blogTables.each(function () {
-      var $table = $(this),
-          isHighlighted = $table.closest('.highlight');
-
-      if (isHighlighted) {
-        $table.addClass('highlighttable');
-      }
+      var $table = $(this);
 
       $(this).wrap('<div class="table-responsive"></div>');
     });
