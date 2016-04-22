@@ -193,9 +193,9 @@ focusing in the comments area when pressing those keys.
 ### More Default Dashboards
 
 Did you know you can change the page you see when you sign in to GitLab?
-We've now made it possible to also make that page Groups or even Todos, thanks
-to the contribution of [Elias W.][elias]! That means you can set the Dashboard
-to be:
+We've now made it possible to also make that page Groups or even Todos ([!3379]),
+thanks to the contribution of [Elias W.][elias]! That means you can set the
+Dashboard to be:
 
 - Projects (default)
 - Starred Projects
@@ -205,6 +205,7 @@ to be:
 - Todos (new)
 
 [elias]: https://gitlab.com/u/eliasw
+[!3379]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3379
 
 ### Build status notifications
 
