@@ -19,7 +19,7 @@ When you paste it in an issue it will have checkboxes that you can click to comp
    with the account. Switch 2FA back on and save login credentials in 1password.
    * [ ] Robert/Jacob/Ernst: upon manager's request (typically 4 weeks after blocking
      the Google account), transfer owned documents from Google Drive to
-   manager, and delete the Google account.
+   manager, and delete the Google account. (automatically disables Drive access)
 * [ ] Robert/Jacob/Ernst: Disable team member in Slack.
 * [ ] People Ops: Remove former team member from TriNet and payroll if applicable.
 * [ ] People Ops: Reach out to former team member to identify and retrieve any company
@@ -29,7 +29,6 @@ page for further details on that process.
 * [ ] Robert/Jacob/Ernst: Remove former team members' GitLab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members)
 * [ ] Robert/Jacob/Ernst: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members)
 * [ ] People Ops: Remove access to 1Password.
-* [ ] People Ops: Remove team member access to Google Drive.
 * [ ] Manager: Remove access to SalesForce.
 * [ ] Manager: Remove access to Recurly.
 * [ ] Manager: Remove access to Netsuite.
