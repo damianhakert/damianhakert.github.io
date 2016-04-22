@@ -3,14 +3,14 @@ layout: markdown_page
 title: "Solutions Engineer"
 ---
 
-Solutions Engineers provide direction and specialist knowledge in applying
+Success Engineers provide direction and specialist knowledge in applying
 GitLab’s solutions advantages that address our client’s business requirements.
-Solutions Engineers are responsible for actively driving and managing the
+Success Engineers are responsible for actively driving and managing the
 technology evaluation and validation stages of the sales process, working in
 conjunction with GitLab’s sales team as the key solutions and technical advisors
 and product advocates for GitLab’s Enterprise Edition.
 
-Solutions Engineers serve as a trusted advisor to the client, with
+Success Engineers serve as a trusted advisor to the client, with
 particular focus on addressing the technical requirements and challenges that
 limit the customer’s ability to achieve their business objectives in driving an
 effective Indirect Sales model. 
