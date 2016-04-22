@@ -121,6 +121,7 @@ and then ping @rspeicher to confirm your account.
 * [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar, stock photo or something with sunglasses).
 * [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. Assign the merge request to your hiring manager.
 * [ ] Hiring manager: Merge the request to add the new team member to be added to the team page, and coordinate with Marketing to send out a tweet from @gitlab.
+* [ ] Marketing / @amara: Send out or schedule a tweet about the new hire. Make screenshot of the profile and possibly use the template: Very happy to announce that [NAME] joined our #[TEAM] team! Welcome! https://about.gitlab.com/team/
 * [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing).
 * [ ] New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
 * [ ] New team member: Read the [Summit page](https://gitlab.com/summits/Austin-Summit-2016-project/) and save the date!
