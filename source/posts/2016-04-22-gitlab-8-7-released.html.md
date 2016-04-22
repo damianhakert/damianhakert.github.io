@@ -222,6 +222,8 @@ You can now define environment variables on a job level in `.gitlab-ci.yml`.
 Job-level variables take precedence over global YAML variables, so it is now
 possible to override global YAML variables in the definition of a CI job.
 
+> [Documentation link](http://doc.gitlab.com/ce/ci/yaml/README.html#job-variables)
+
 ### Improvements to logging when behind a reverse proxy
 
 - You can now add your proxy server to the list of trusted servers, so its IP is
