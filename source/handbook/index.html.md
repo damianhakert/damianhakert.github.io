@@ -685,3 +685,11 @@ A pop-up window will open and tell you how many links, if any, are invalid.
 Fix any invalid links and ideally any warnings, commit, push back, test again.
 
 [check-my-links]: https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf/
+
+
+### Tips on using Markdown
+
+Most pages of the website that you might want to edit are written in [GitLab Flavored Markdown](https://gitlab.com/gitlab-org/gitlab-ce/blob/6-4-stable/doc/markdown/markdown.md).
+To create basic tables, follow the instructions from the previous link or consider
+using an [online table generator](http://www.tablesgenerator.com/markdown_tables). For more complicated tables, use the same online 
+generator but in [html format](http://www.tablesgenerator.com/html_tables#)
