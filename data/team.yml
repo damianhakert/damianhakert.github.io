@@ -810,15 +810,18 @@
   story:  |
           Joining April 19th
 
-- name: C.W.
+- name: Chris Wilson
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
   reports_to: Lead Service Engineer
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: chris.jpg
+  twitter: IsChrisW
+  gitlab: MrChrisW
   story:  |
-          Joining April 25th 
-          
+          Based in Australia, Chris has worked in a variety of roles from support specialist to systems engineer. 
+          He is passionate about open source communities and enjoys helping people solve problems with software.
+          Chris has an interest in DevOps and loves building software tools to automate and improve business operations. 
+          In his spare time, he enjoys catching waves on his bodyboard and exploring Asia with his partner.
+
 - name: S.M.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Development Lead
