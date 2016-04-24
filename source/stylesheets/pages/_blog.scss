@@ -33,6 +33,7 @@ pre {
   margin-right: auto;
   margin-left: auto;
   max-width: 760px;
+  font-size: 16px;
   word-wrap: break-word;
 
   .author {
@@ -41,7 +42,6 @@ pre {
 
     a {
       font-weight: 600;
-      font-size: 16px;
       line-height: normal;
     }
   }
@@ -55,11 +55,6 @@ pre {
     padding-bottom: 10px;
   }
 
-  a {
-    font-size: 18px;
-    line-height: 2.9rem;
-  }
-
   .panel-heading {
     a {
       font-size: inherit;
@@ -67,7 +62,6 @@ pre {
   }
 
   li {
-    font-size: 18px;
     color: $blog-text-color;
     line-height: 2.9rem;
     padding-bottom: 4px;
@@ -119,38 +113,14 @@ pre {
   }
 
   p {
-    font-size: 18px;
     color: $blog-text-color;
-    line-height: 2.9rem;
-    margin: 0 0 24px;
+    line-height: 1.5;
+    margin: 0 0 20px;
   }
 
   .table-responsive {
     margin-bottom: 0;
     border: 0;
-  }
-
-  table {
-    width: 100%;
-    margin-bottom: 10px;
-
-    &:not(.highlighttable) {
-      th,
-      td {
-        padding: 8px 10px;
-        font-size: 18px;
-      }
-
-      th {
-        font-weight: normal;
-        background-color: $blog-table-background;
-        border-bottom: 1px solid $blog-table-border;
-      }
-
-      tr:hover td {
-        background-color: $blog-table-background-hover;
-      }
-    }
   }
 }
 
@@ -246,6 +216,14 @@ pre {
     &:visited {
       color: $color-primary;
     }
+  }
+
+  > time {
+    color: $blog-date-color;
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    white-space: nowrap;
   }
 }
 

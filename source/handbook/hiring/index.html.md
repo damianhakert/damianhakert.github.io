@@ -105,29 +105,31 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 
 As part of our hiring process we may ask applicants to provide us with one or more
 references to contact. These reference calls are typically be done by our [administrative coordinator](https://about.gitlab.com/jobs/administrative-coordinator/) or the hiring
- manager for that specific vacancy. 
+ manager for that specific vacancy.
 
 ## Getting Contracts Ready, Reviewed, and Signed<a name="prep-contracts"></a>
 
 Offers made to new team members should be documented in the email thread between the
 person authorized to make the offer (e.g. CEO) and the applicant.
 
-1. Email example: "We would love to have you as part of our team. You will have
+1. Email example:
+```
+We would love to have you as part of our team. You will have
 a position of [job title]. As a contractor you will invoice [monthly rate] per month.
-You will report to the [manager]. We proposed to make you eligible for [number] of stock options.
-We will send you a contract on Monday based on
+You will report to [name of manager]. We proposed to make you eligible for [number] of stock options.
+We will send you a contract on [day of week] based on
 the examples on https://about.gitlab.com/handbook/contracts/. If you have not
 received anything on that day please reply-to-all to let us know. Please let us
-know if you have any questions or concerns in the meantime."
+know if you have any questions or concerns in the meantime.
+```
 1. In the email confirmation of the offer,
 put the People Operations email alias (which can be found in the "GitLab Email Forwarding" google doc) in the cc.
 1. One person from People Operations will reply-to-all to everyone in the thread
 (including the applicant) to confirm that they will make the contract. Speed matters: if you are in People Operations and you can
 tackle this, then raise your hand and hit reply-all.
-   - For any hires for which the COO does _not_ sign, the COO reviews the contract
-after which it can be sent out to be signed by any of the relevant C-level team
-members. For any hires for which the COO should sign, either the CFO or the CEO must
-review the contracts.
+   - The VP of Scaling reviews the contract
+after which it can be sent out to be signed by the C-level team
+member that made the offer.
 1. This person from People Operations makes the contract based on the details found in the Workable
 platform, and uses reply-all to gather any missing pieces of information, and to
 confirm with a reply-to-all when the contract is sent. Note: the number of proposed stock options

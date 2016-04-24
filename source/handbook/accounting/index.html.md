@@ -4,13 +4,14 @@ title: "Accounting"
 ---
 
 ## Accounting Topics
+
 * [General Topics](#general-topics)
    * [Company phone number](#phone-number)
    * [Company accounts](#company-accounts)
 * [Processing Payroll](#payroll)
    * [GitLab Inc. payroll](#payroll-inc)
    * [GitLab BV pay slips](#payroll-bv)
-* [Accounts Payable](#ap)
+* [Invoices template and where to send](#invoices)
 * [Commission Payment Process](#commission)
 * [Company Credit Cards](#company-cc)
 * [Accounts Receivable](#ar)
@@ -38,6 +39,7 @@ If you need this information but cannot find it in your shared vaults you can ch
 ## Processing Payroll  <a name="payroll"></a>
 
 ### GitLab Inc. Payroll Procedures <a name="payroll-inc"></a>
+
 1. You will receive a reminder from Trinet the week before payroll closes for each pay period.
 1. If you are handling payroll changes- the email will let you know by what date you must submit those changes.
 1. Enter the dates into your calendar with a reminder for the day before the deadline.
@@ -51,6 +53,7 @@ If you need this information but cannot find it in your shared vaults you can ch
 1. Make sure that you calculate the hours based on the pay days (count them) for each pay period.
 
 #### Additional Begin/End Payment (for adding payment to payroll)
+
 1. In HR Passport click Find
 1. Select find by Name
 1. Click on Add’l Begin/End Payment
@@ -62,6 +65,7 @@ If you need this information but cannot find it in your shared vaults you can ch
 1. Enter pay frequency
 
 #### Rate Changes (salary changes) for GitLab, Inc. employees
+
 1. In HR Passport, click Find
 1. Find person by name
 1. Type name and search
@@ -75,14 +79,18 @@ If you need this information but cannot find it in your shared vaults you can ch
 1. Update
 
 ### GitLab BV Pay Slip Distribution Process <a name="payroll-bv"></a>
+
 All GitLab BV employees receive their payslips within their personal portal of Savvy.
 They can login and download their payslip to their computer if needed.
 
 
-## Accounts Payable <a name="ap"></a>
-NOTE: Vendor and contractor invoices are to be sent to ap@gitlab.com. An invoice template can be found in Google Docs by the name of "Invoice Template".
+## Invoice template and where to send <a name="invoices"></a>
+
+NOTE: Vendor and contractor invoices are to be sent to ap@gitlab.com. An invoice 
+template can be found in Google Docs by the name of "Invoice Template".
 
 ### A note on VAT for transactions between GitLab BV and EU-based vendors
+
 In many cases, VAT will not be payable on transactions between GitLab BV and EU-based
 vendors/contractors, thanks to "Shifted VAT". To make use of this shifted VAT:
 
@@ -94,6 +102,7 @@ VAT-number of GitLab BV (NL853740343B01).
 
 
 ### Processing payment for invoices
+
 1. Upon receipt of vendor invoices:
     * File a .pdf copy of the invoice to dropbox\For Approval.
     * Notify manager of new invoices to be approved by forwarding the email from the vendor.
@@ -108,6 +117,7 @@ VAT-number of GitLab BV (NL853740343B01).
 1. Post the payment through the accounting system.
 
 ### QuickBooks
+
 Invoices will arrive by email to ap@gitlab.com.
 
 1. Forward email to Sytse for approval.
@@ -116,6 +126,7 @@ Invoices will arrive by email to ap@gitlab.com.
 1. Enter invoice in Quickbooks
 
 #### Entering a Bill (invoice) in Quickbooks
+
 1. Click on "+" on the Home screen
 1. Click on "Bill" under  Vendors
 1. Enter the vendor name.  If new, enter Company name, address, terms, and Tax Id (from w9).  Enter bank info in the "Notes" field.
@@ -140,6 +151,7 @@ Invoices will arrive by email to ap@gitlab.com.
 1. Payroll will enter commission into TriNet.
 
 ## Company Credit Cards <a name="company-cc"></a>
+
 1. All team members that regularly make company purchases may request a company credit card.
 1. You are personally responsible to make sure that the charges on the card are for GitLab business only.
 1. Please file your expense report on time (i.e. once a month).
@@ -149,6 +161,7 @@ Invoices will arrive by email to ap@gitlab.com.
 ## Accounts Receivable <a name="ar"></a>
 
 ### Invoicing
+
 1. In Recurly, export the "Invoices All" Report. For time period, set the end date to the day prior to the current date. Download the .CSV File.
 1. Open the "Revenue-Inc" Excel file found in Dropbox\GitLab Inc\Revenue. This workbook contains all the orders already invoiced in Quickbooks to date. In the workbook go to worksheet named “Amortization”
 1. Go back to the "Invoices All" report you just downloaded from Recurly. This is a month to date report so it will contain orders which have already been invoiced in Quickbooks. Column "L" indicates the date the Recurly invoice was created. We want to select the orders which have not been invoiced in Quickbooks, which would be any orders after the last Quickbooks invoice batch. Copy the rows for the uninvoiced orders and "insert copied cells" to the next row after the last transaction of the "Revenue -Inc" report.
@@ -233,6 +246,7 @@ You may recall from the invoicing process that there was still a balance due whe
 This transaction transfers the payment obligation from the customer to Stripe.  The payment obligation from Stripe is removed when Stripe transfers  the funds to GitLab's bank account.
 
 ### Posting a payment from Stripe when a transfer is received from Stripe.
+
 Post a journal entry:
 1. Fill the "Journal Date" with the date that payment was received in the bank.
 1. Fill the "Credit Account" with Stripe.
@@ -244,6 +258,7 @@ Post a journal entry:
 
 
 ### Posting a payment from a “bank customer”
+
 In Quickbooks:
 1. Click on the “+” sign.
 1. Click on “Receive Payment” under Customers.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BitBucket vs. GitLab.com"
+title: "Bitbucket vs. GitLab.com"
 date: 2015-04-15
 categories:
 author: Job van der Voort

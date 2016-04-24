@@ -19,15 +19,15 @@ set :haml, {
 
 activate :syntax, line_numbers: false
 
-set :markdown_engine, :redcarpet
-set :markdown, fenced_code_blocks: true, smartypants: true, tables: true
+set :markdown_engine, :kramdown
+set :markdown, tables: true, hard_wrap: false, input: "GFM"
 
 activate :blog do |blog|
   blog.sources = "posts/{year}-{month}-{day}-{title}.html"
   blog.permalink = "{year}/{month}/{day}/{title}/index.html"
   blog.layout = "post"
 
-  blog.summary_separator = '<!-- more -->'
+  blog.summary_separator = /<!--\s*more\s*-->/
 
   blog.custom_collections = {
     categories: {
@@ -88,6 +88,8 @@ configure :build do
   releases = ReleaseList.new
   proxy "/release-list/index.html", "/release-list/template.html", locals: { list: releases.content }, ignore: true
 end
+
+page '/404.html', directory_index: false
 
 ignore '/direction/template.html'
 ignore '/includes/*'

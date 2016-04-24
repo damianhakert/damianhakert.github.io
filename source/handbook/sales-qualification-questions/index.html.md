@@ -54,7 +54,7 @@ The following questions can be used to help develop the opportunity and advance 
     * Do you need to work with large binary files?
     * How important is code quality and reviewing merge requests?
     * Where does high availability rank within your needs?
-    * If using Github Enterprise, how important is it to import projects?
+    * If using GitHub Enterprise, how important is it to import projects?
     * If using Jira,
         - are they looking to replace with a built in tool or integrate with Jira?
         - how important is it to integrate with Jira?

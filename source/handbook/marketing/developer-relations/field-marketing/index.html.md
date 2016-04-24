@@ -29,9 +29,11 @@ Field marketing includes event marketing and swag production.
 - We want to strike a good balance between: community and enterprise events.
 
 ## Promoting Events
-- Email signatures- starting 1 month before event???
-- Get attendee list and contact customers and prospects.
-- BDRS will help set up 20 in person meetings set up before event to occur at event.
+- Use social media to post as soon as committed to attending an event
+- Email signatures- starting 1 month before event
+- Monthly blog post about upcoming events
+- Get attendee list and contact customers and prospects before event
+- BDRS will help set up in person meetings to occur at event
 
 ## **At Events**
 
@@ -59,6 +61,19 @@ Field marketing includes event marketing and swag production.
 - Clean shoes please.
 - A smile.
 
+## Booth Staffing
+- Ideally shifts will be round 3 hours or less
+- Staff more poeple during peak traffic hours
+- Do not have shift changes during peak hours
+- Send out clendar invites to booth staff with the following information:
+    - Time and date of event, booth, and shift
+    - Suggested attrire
+    - How he/ she can find his/ her ticket
+    - Any instructions on using or locating lead scanner
+    - Let them know of any contests happening
+    - How to get a hold of you
+    - Link to events handbook
+
 ## After and Event
 
 - Fill out after event survey.
@@ -77,7 +92,7 @@ Field marketing includes event marketing and swag production.
     - Contests
         - Did the contest(s) effectively build our brand and connecting with our target audience?
 - Make sure contacts/ leads gathered from event are with marketing and categorized under specific event campaign.
-- Follow up with leads from event within 5 business days after event ends.
+- Follow up with leads from event within 5 business days after event ends
 
 
 ## Speaker Portal

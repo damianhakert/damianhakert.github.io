@@ -2,6 +2,7 @@ before_script:
   - pwd
   - git rev-parse HEAD
   - export LC_ALL=en_US.UTF-8
+  - source ./scripts/prepare_build.sh
   - ''
   - bundle install --path ~/bundle
 
@@ -15,16 +16,15 @@ lint:
 build:
   stage: test
   script:
-    - bundle exec middleman build
+    - bundle exec middleman build --verbose
   except:
     - master
 
 deploy:
   script:
-    - rsync -r ~/public/ public/
     - bundle exec rake lint
-    - bundle exec middleman build
-    - rsync -r public/ ~/public/
+    - bundle exec middleman build --verbose
+    - rsync --delete -r public/ ~/public/
   type: deploy
   tags:
   only:

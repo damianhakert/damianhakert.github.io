@@ -16,11 +16,12 @@ image_title: /images/team/team.jpg
         MEET OUR
         %b TEAM
       %p
-        The GitLab Inc. team consists of
-        %a{href: "/team-pets/"} pets
-        and the following individuals.
+        The GitLab Inc. team consists of #{link_to('pets', '/team-pets')} and
+        the following #{data.team.size} individuals.
+        This page also lists who people report to, and on a separate page we
+        detail the #{link_to('team structure', '/team/structure')}.
         You can get a sense of the team culture by visiting our
-        %a{href: "https://about.gitlab.com/culture/"} culture page
+        #{link_to('culture page', '/culture')}.
     .row
       - data.team.each do |member|
         = partial "includes/team/member", locals: {member: member, is_pet: false}

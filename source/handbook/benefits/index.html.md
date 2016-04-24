@@ -3,13 +3,27 @@ layout: markdown_page
 title: "Benefits"
 ---
 
-* [General Benefits](#general-benefits)
 * [Regular compensation](#regular-compensation)
+* [General Benefits](#general-benefits)
 * [Specific to Netherland based employees](#nl-specific-benefits)
 * [Specific to US based employees](#us-specific-benefits)
 
 NOTE: Our contractor agreements and employment contracts are all on the [Contracts](https://about.gitlab.com/handbook/contracts/) page.
 
+
+## Regular compensation <a name="regular-compensation"></a>
+
+1. Employees of our Dutch entity (GitLab B.V.) will get their salary wired on the 
+25th of every month, and can see their payslip in their personal portal on 
+[HR Savvy's system](https://hr-savvy.nmbrs.nl/).
+1. Employees of our US entity (GitLab Inc.) have payroll processed semi-monthly 
+through TriNet, and they can access their pay slips through the [TriNet portal](https://www.hrpassport.com).
+1. Contractors to GitLab (either entity) should send their invoices for services rendered to ap@gitlab.com
+   * For 'fixed fee' contracts, it is OK to send the invoice before the time period
+   that it covers is over. For example, an invoice covering the period of March 1-31 can be sent on March 25.
+   * All invoices are internally reviewed, approved, and then payment is processed.
+   This is usually a fast process, but be aware that it can incur delays around vacations.
+   * An invoice can be found as a Google sheet named "Invoice Template" (also listed on the [accounting page](/handbook/accounting/) )
 
 ## General Benefits <a name="general-benefits"></a>
 
@@ -29,19 +43,6 @@ NOTE: Our contractor agreements and employment contracts are all on the [Contrac
            the lump sum would be $10,000.
 1. Our [paid time off policy](https://about.gitlab.com/handbook/#paid-time-off)
 1. There are [incentives](https://about.gitlab.com/handbook/#incentives) available.
-
-## Regular compensation <a name="regular-compensation"></a>
-
-1. Employees of our Dutch entity (GitLab B.V.) will get their salary wired on the 
-25th of every month, and can see their payslip in their personal portal on 
-[HR Savvy's system](https://hr-savvy.nmbrs.nl/).
-1. Employees of our US entity (GitLab Inc.) have payroll processed semi-monthly 
-through TriNet, and they can access their pay slips through the [TriNet portal](https://www.hrpassport.com).
-1. Contractors to GitLab (either entity) should send their invoices for services rendered to ap@gitlab.com
-   * For 'fixed fee' contracts, it is OK to send the invoice before the time period
-   that it covers is over. For example, an invoice covering the period of March 1-31 can be sent on March 25.
-   * All invoices are internally reviewed, approved, and then payment is processed.
-   This is usually a fast process, but be aware that it can incur delays around vacations.
 
 ## Specific to employees based in the Netherlands <a name="nl-specific-benefits"></a>
 

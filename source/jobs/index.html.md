@@ -25,10 +25,6 @@ If you see yourself as a good fit with our company’s goals and team, then plea
 review the current job openings on this page, and submit your resume and cover
 letter to be considered!
 
-<div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/UTyXGx965Os" frameborder="0" allowfullscreen></iframe>
-</div>
-
 ## We don't work with recruiters<a name="no-recruiters"></a>
 
 We do not accept solicitations by recruiters, recruiting agencies, headhunters and outsourcing organizations.
@@ -36,7 +32,18 @@ If you email us we'll reply with [a link to this paragraph](/jobs/#no-recruiters
 
 ## Available Openings
 
+### Account Executive - Sales
+
+- [Description](/jobs/account-executive/)
+- [Apply](https://gitlab.workable.com/jobs/88120/candidates/new)
+
+### Account Manager - Customer Success
+
+- [Description](/jobs/account-manager/)
+- [Apply](https://gitlab.workable.com/jobs/242362/candidates/new)
+
 ### Developer
+
 - [Description](/jobs/developer/)
 - [Apply](https://gitlab.workable.com/jobs/106660/candidates/new)
 - As part of our technical interview<a name="technical-interview"></a>, you will
@@ -47,41 +54,19 @@ for our [interviewer to see how you think, code, and collaborate](http://zachhol
 When contributing code, you should follow the [Contribution guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md),
 and you agree to the [individual contributor license agreement](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/legal/individual_contributor_license_agreement.md).
 If you prefer not to do the above please let us know and we'll give you an assignment that does not relate to GitLab but does test the relevant skills.
-- If you get in the [contributors](http://contributors.gitlab.com/) top 10 we'll
-  hire you (at least that is what has happened so far).
+- If you get in the [contributors](http://contributors.gitlab.com/) top 10 we'll hire you (at least that is what has happened so far).
 - We normally don't offer any internships but if you get a couple of merge requests
-  accepted we'll interview you for one. This will be a remote internship without
-  supervision, you'll only get feedback on your merge requests. If you want to
-  work on open source and qualify please [submit an application](https://gitlab.workable.com/jobs/207439/candidates/new).
-  In the cover letter field please note that you want an internship and link to
-  the accepted merge requests. The merge requests should be of significant
-  value and difficulty, which is at the discretion of the hiring manager. For
-  example, fixing 10 typos isn't as valuable as shipping 2 new features.
-
-### Service Engineer
-
-- [Description](/jobs/service-engineer/)
-- [Apply](https://gitlab.workable.com/jobs/87722/candidates/new)
-
-### Production Engineer
-
-- [Description](/jobs/production-engineer/)
-- [Apply](https://gitlab.workable.com/jobs/142989/candidates/new)
-
-### Account Manager
-
-- [Description](/jobs/account-manager/)
-- [Apply](https://gitlab.workable.com/jobs/88120/candidates/new)
-
-### Senior Account Manager
-
-- [Description](/jobs/account-manager/)
-- [Apply](https://gitlab.workable.com/jobs/88117/candidates/new)
-
-### Sales Operations Manager
-
-- [Description](/jobs/sales-operations-manager/)
-- [Apply](https://gitlab.workable.com/jobs/236037/candidates/new)
+accepted we'll interview you for one. This will be a remote internship without
+supervision, you'll only get feedback on your merge requests. If you want to
+work on open source and qualify please [submit an application](https://gitlab.workable.com/jobs/207439/candidates/new).
+In the cover letter field please note that you want an internship and link to
+the accepted merge requests. The merge requests should be of significant
+value and difficulty, which is at the discretion of the hiring manager. For
+example, fixing 10 typos isn't as valuable as shipping 2 new features.
+- We typically hire people who have experience in programming languages used
+at GitLab (e.g. Ruby on Rails, Go), but we welcome candidates who have
+excellent experience in other languages and frameworks. Tackling a GitLab CE
+issue is a good way to demonstrate your ability to learn and debug.
 
 ### People Operations Coordinator
 
@@ -93,12 +78,32 @@ If you prefer not to do the above please let us know and we'll give you an assig
 - [Description](/jobs/people-ops-director/)
 - [Apply](https://gitlab.workable.com/jobs/234625/candidates/new)
 
-### UX Designer
+### Production Engineer
 
-- [Description](/jobs/ux-designer/)
-- [Apply](https://gitlab.workable.com/jobs/227708/candidates/new)
+- [Description](/jobs/production-engineer/)
+- [Apply](https://gitlab.workable.com/jobs/142989/candidates/new)
+
+### Sales Operations Manager
+
+- [Description](/jobs/sales-operations-manager/)
+- [Apply](https://gitlab.workable.com/jobs/236037/candidates/new)
+
+### Service Engineer
+
+- [Description](/jobs/service-engineer/)
+- [Apply](https://gitlab.workable.com/jobs/87722/candidates/new)
+
+### Success Engineer (Customer Success)
+
+- [Description](/jobs/success-engineer/)
+- [Apply](https://gitlab.workable.com/j/6A9FA4A8DE)
 
 ### Strategic Relations Manager
 
 - [Description](/jobs/strategic-relations-manager/)
 - [Apply](https://gitlab.workable.com/jobs/186837/candidates/new)
+
+### UX Designer
+
+- [Description](/jobs/ux-designer/)
+- [Apply](https://gitlab.workable.com/jobs/227708/candidates/new)

@@ -32,3 +32,5 @@ Your impact will help us make it easier to maintain a competitive edge, enhance 
 * Deadline driven
 * SaaS and B2B experience preferred
 * Interest in GitLab, and open source software
+
+Work remotely from anywhere in the world. Curious to see what that looks like? Check out our [remote manifesto]( https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!

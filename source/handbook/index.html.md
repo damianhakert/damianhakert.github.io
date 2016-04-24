@@ -33,7 +33,8 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Internal Communication](#internal-communication)
    * [GitLab Workflow](#gitlab-workflow)
    * [Team Call](#team-call)
-   * [Scheduling Calls](#scheduling-calls)
+   * [Scheduling Meetings](#scheduling-meetings)
+   * [Video Calls](#video-calls)
    * [User Communication Guidelines](#user-communication-guidelines)
    * [Writing Style Guidelines](#writing-style-guidelines)
    * [Beamy Guidelines](#beamy-guidelines)
@@ -101,6 +102,7 @@ example is our sponsorship of [diversity events](https://about.gitlab.com/2016/0
 can always make it more complex later if that is needed. The speed of innovation
 for our organization and product is constrained by the total complexity we added
 so far, so every little reduction in complexity helps.
+Don't pick an interesting technology just to make your work more fun, using code that is popular will ensure many bugs are already solved and its familiarity makes it easier for others to contribute.
 1. Quirkiness: Unexpected and unconventional things make life more interesting.
 Celebrate and encourage quirky gifts, habits, behavior, and points of view. An example
 is our [team call](https://about.gitlab.com/handbook/#team-call) where we spend most
@@ -122,7 +124,7 @@ people. We try to hire people who think work is a great way to express themselve
 1. Share solutions you find and answers you receive with the **whole community**.
 1. If you need to discuss with a team member for help please realize that probably the majority of the community also doesn't know, be sure to **document** the answer to radiate this information to the whole community. After the question is answered discuss where it should be documented and who will do it. You can remind other people of this by asking 'who will document this'?
 1. To change a guideline or process, **suggest an edit** in the form of a merge request.
-After it is merged you can and talk about it during the team call if applicable.
+After it is merged you can talk about it during the team call if applicable.
 Communicate process changes by linking to the commit. Do not change the process first,
 and then view the documentation as a lower priority task as this inevitably leads to duplicate work communicating the change and outdated documents.
 1. If you make a mistake, don't worry, correct it and **proactively** let the affected party, your team, and the CEO know what happened, how you corrected it and how, if needed, you changed the process to prevent future mistakes.
@@ -141,8 +143,8 @@ and then view the documentation as a lower priority task as this inevitably lead
 1. When you **reply** to a request please do so after you have completed the request or
 indicate when you plan to do it. In the latter case always send a second message
 when the request is complete.
-1. Respect the privacy of our users and your fellow team members. Secure our production data at all times. Only work with production data when this is needed to perform your job. Looking into production data for malicious reasons (for exaple [LOVEINT](https://en.wikipedia.org/wiki/LOVEINT) or spying on direct messages of team members) is a fireable offense.
-1. Most guidelines in this handbook are meant to help, don't be afraid to do something because you can't oversee all guidelines, be gentle when reminding people about these guidelines, for example say: "It is not a problem, but next time please consider the following guideline from the handbook".
+1. Respect the privacy of our users and your fellow team members. Secure our production data at all times. Only work with production data when this is needed to perform your job. Looking into production data for malicious reasons (for example [LOVEINT](https://en.wikipedia.org/wiki/LOVEINT) or spying on direct messages of team members) is a fireable offense.
+1. Most guidelines in this handbook are meant to help and unless they state otherwise it is meant to help more than a absolute rule. Don't be afraid to do something because you can't oversee all guidelines. Be gentle when reminding people about these guidelines, for example say: "It is not a problem, but next time please consider the following guideline from the handbook".
 
 ## Communication<a name="communication"></a>
 
@@ -193,7 +195,7 @@ GitLab can find and access' with edit (preferred) or comment access for everyone
 An easy way to do this, is to create your Google docs in a Shared Folder in
 Google Drive.
 1. When referring to a Google Doc in the handbook, refrain from providing the direct link.
-Instead, write the name of the Google Doc. In the past, giving the url of a doc
+Instead, write the name of the Google Doc. In the past, giving the URL of a doc
 has led to inadvertent opening of sharing settings beyond what was intended, and it also helps
 prevent spam from people outside of GitLab who request access to the doc when they see the link.
 1. All our procedures and templates are stored in (mostly public) git repositories
@@ -272,6 +274,7 @@ step, **re-assign** the issue to that person.
 1. If you ask a question to a specific person, always start the comment by mentioning them; this will ensure they see it if their notification level is mentioned and other people will understand they don't have to respond.
 1. Do not close an issue until it is fully done, which means code has been merged, it has been **reported** back to any customers and the community, all issue trackers are updated and any documentation is written and merged.
 1. When **closing** an issue leave a comment explaining why you are closing the issue.
+1. If a user suggests an enhancement, try and find an existing issue that addresses their concern, or create a new one. Ask if they'd like to elaborate on their idea in one of these issues.
 
 ### Team Call<a name="team-call"></a>
 
@@ -294,25 +297,24 @@ step, **re-assign** the issue to that person.
 1. Even if you cannot join the call, read through the team agenda and the links from there. We often use the team call to make announcements or
 discuss changes in processes, so make sure to catch up on the news if you have missed a team call (or more).
 
-### Scheduling Calls<a name="scheduling-calls"></a>
+### Scheduling meetings<a name="scheduling-meetings"></a>
 
-1. Set up a [Calendly](https://calendly.com/) account and link it to your
-work calendar to make it possible for people to schedule a call with you
-   1. Add your Calendly link to your [Slack profile](https://get.slack.help/hc/en-us/articles/204092246-Editing-your-profile)
-For `Display Text`, use this line: `Schedule a meeting with me!`
-   1. To schedule a 1:1 call with someone in GitLab, simply click their Calendly
-link in their Slack profile
-   1. For people outside of GitLab Inc, send them your Calendly link
-   1. If you're often talking to people outside of GitLab Inc,
-add a custom field to your Calendly asking people how you can reach them
-(Hangouts / Skype)
-1. If you want to ask people if they are available for an event please send a new calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.
-1. If there are materials relevant for a calendar meeting (for example a Google Doc) please add the url to the meeting invite description.
+1. If you want to ask team members if they are available for an event please send a new calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.
+1. If there are materials relevant for a calendar meeting (for example a Google Doc) please add the URL to the meeting invite description.
 1. If you want to check if a team member is available for an outside meeting, create a calendar appointment and invite the team member only, after they respond yes then invite outside people.
 1. When scheduling a call with multiple people, invite them using a Google Calendar that is your own, or one specific to the people joining, so the calendar item
 doesn't unnecessarily appear on other people's calendars.
 1. If you want to move a meeting just move the calendar appointment instead of reaching out via other channels, note the change at the top of the description.
 1. Please click 'Guests can modify event' so people can update the time in the calendar instead of having to reach out via other channels. You can install [the Google-Calendar-Guests-Can-Modify-Event-By-Default plugin in Chrome](https://github.com/robin-drexler/Google-Calendar-Guests-Can-Modify-Event-By-Default) to do this automatically.
+1. If you want to schedule a meeting with a person not on the team please use [Calendly](#calendly).
+
+### Video calls<a name="video-calls"></a>
+
+1. For smaller meetings we use Google Hangouts, for larger meetings we prefer Bluejeans (Google Hangouts technical limit is 15 for scheduled meetings).
+1. For meetings that are scheduled via calendar there is automatically a Google Hangout URL added, this is the meeting place. Having a url in advance is much more reliable than trying to call via hangouts as the meeting start.
+1. Use a headset with a microphone, [Apple Earpods](http://www.apple.com/shop/product/MD827LL/A/apple-earpods-with-remote-and-mic) are great. Do not use computer speakers, they cause an echo. Do not use your computer microphone, it accentuates background noise. If you want to use your [Bose headphones](https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-25-acoustic-noise-cancelling-headphones-apple-devices.html#v=qc25_black) that is fine but please ensure the microphone is active.
+1. Consider using a utility to easily mute/unmute yourself, see [Shush](#shush) in the tools section.
+1. In video calls everyone should own camera and headset, even when they are in the same room. This helps to see the person that is talking clearly on the camera and their name in the list. It also allows people to easily talk and mute themselves. And using a headset prevents an echoing. You wouldn't share an office seat together, don't share your virtual seat at the table.
 
 ### User Communication Guidelines<a name="user-communication"></a>
 
@@ -328,9 +330,9 @@ doesn't unnecessarily appear on other people's calendars.
 ### Writing Style Guidelines<a name="writing-style-guidelines"></a>
 
 1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](http://doc.gitlab.com/ce/markdown/markdown.html) instead.
-1. We use Unix style (lf) line endings, not Windows style (crlf), please ensure `*.md text eol=lf` is set in the repo's .gitattributes and run `git config --global core.autocrlf input` on your client.
+1. We use Unix style (lf) line endings, not Windows style (crlf), please ensure `*.md text eol=lf` is set in the repository's `.gitattributes` and run `git config --global core.autocrlf input` on your client.
 1. Do not create links like "here" or "click here". All links should have relevant anchor text that describes what they link to, such as: "GitLab CI source installation documentation".
-1. Always use [ISO dates](http://xkcd.com/1179/) in all writing and legal documents, yyyy-mm-dd, e.g., 2015-04-13, and never 04-13-2015 or 13-04-2015
+1. Always use [ISO dates](http://xkcd.com/1179/) in all writing and legal documents, `yyyy-mm-dd`, e.g., 2015-04-13, and never 04-13-2015 or 13-04-2015
 1. If you have multiple points in a comment or email, please number them to make replies easier.
 1. When you reference an issue, merge request, comment, commit, page, doc, etc. and you have the URL available please paste that in.
 1. In URLs, always prefer hyphens to underscores.
@@ -420,7 +422,7 @@ payroll taxes (links are to sample items, other options can be considered):
     * Anything else you need? Please ask!
     * To order please send a screenshot of what you need to People Ops.
 1. **Expense Reimbursement**
-    *  If you are a contractor, please submit an invoice with receipts attached to ap@gitlab.com.
+    *  If you are a contractor, please submit an invoice with receipts attached to <ap@gitlab.com>.
     *  If you are an employee, GitLab uses Expensify to facilitate the reimbursement of your expenses.
     You will receive an invitation by email to join GitLab's account. Please set up your account
     by following the instructions in the invitation.
@@ -450,6 +452,7 @@ page for information on how to handle scheduled leave for someone from the [on-c
 1. Add an **appointment** to the GitLab availability calendar as you know your plans, you can always change it later.
 1. In case it can be useful add your planned time off as a **FYI** on the next agenda of the team call.
 1. We will **help** clients during official days off, unless they are official days off in both the Netherlands and the U.S. We try to have people working who are in a country that don't have an official day off. If you need to work during an official day off in your country, you should take a day off in return.
+1. If you have to respond to an incident while being on-call outside of your regular working hours, you should feel free to take off some time the following day to recover and be well-rested. If you feel pressure to _not_ take the time off to rest, refer to this part of the handbook and explain that you had to handle an incident.
 
 ## Incentives<a name="incentives"></a>
 
@@ -463,7 +466,7 @@ team members for every month that we reach our Sales Targets. The reward is [100
 to each team member, towards a dinner of each team member's own choice. Enjoy!
 
 The CEO, or CRO will announce on the team call if the target was met. To claim the bonus,
-please submit your receipt through expensify or include on your contractor invoice as a reimbursable expense.
+please submit your receipt through Expensify or include on your contractor invoice as a reimbursable expense.
 
 ### Discretionary Bonuses<a name="discretionary-bonuses"></a>
 
@@ -522,12 +525,19 @@ exception of NDAs covering a physical visit of another organization.
 A lot of tools we use are described in the rest of the handbook (GitLab, Google Docs, Google Hangouts, 1Password, etc.).
 This section is for tools that don't fit anywhere else.
 
-### Calendly
+### Calendly<a name="calendly"></a>
 
-[Calendly](https://calendly.com/): Set up 45 minute meeting slots. Connect to your Google calendar which knows your availability.
-The meeting will always create the same Google Video url so if you have that you can add it to the booking.
+[Calendly](https://calendly.com/) connects to your Google calendar so people can book a time with you without having a Google Account.
 
-### Shush
+1. Set up a [Calendly](https://calendly.com/) account
+1. Link it to your GitLab Google Calendar to make it possible for people to schedule a call with you
+1. All meetings will have the same Google Hangout URL on your calendar based on your @gitlab.com email handle. You can use that in the booking text above. Events on your calendar will automatically have the Google Hangout URL added, so you can use [the plus landingpage](https://plus.google.com/hangouts/_/gitlab.com) to quickly jump into the call. Please note that the appointment will show up in other peoples calendar with a different link, to it is assential that you set a text with the link for your timeslot as specified below.
+1. Set up the 45 minute timeslot with the text: "This will be a Google Hangout at https://plus.google.com/hangouts/_/gitlab.com/XXXXX Question? Please email me. GitLab Primer: https://about.gitlab.com/primer/"
+1. For people outside of GitLab Inc, send them your Calendly link that links directly to the 45 minute timeslot: "Are any of the times on https://calendly.com/XXXXX/45min/ convenient for you? If so please book one, if not please let me know what times are good for you and we'll find an alternative."
+1. Update you availability on [Calendy Event Types](https://calendly.com/event_types/)
+1. Consider adding your Calendly link to your [Slack profile](https://get.slack.help/hc/en-us/articles/204092246-Editing-your-profile) For `Display Text`, use this line: `Schedule a meeting with me!` so team members can schedule a 1:1 call with you in GitLab, by simply click your Calendly link in your Slack profile.
+
+### Shush<a name="shush"></a>
 
 [$4.99 tool for OSX](http://mizage.com/shush/) that allows you to use you fn key as a push to talk or push to mute.
 Never again will you have switch window focus to Google Hangout or Bluejeans to speak or mute.
@@ -543,7 +553,7 @@ Use space for page down instead of fn+up arrow.
 
 ### Bluejeans
 
-Please add instructions how to set up a Bluejeans meeting, how to record it and how to add the resulting video to our Youtube channel.
+Please add instructions how to set up a Bluejeans meeting, how to record it and how to add the resulting video to our YouTube channel.
 
 ### Gmail
 
@@ -576,7 +586,7 @@ I'll try one more time to see if it works.
 
 Potential problem 2: the video showed up as listed by default
 
-Go to [My live events on Youtube](https://www.youtube.com/my_live_events) and switch to the GitLab account on the top right (you need to be a manager of our Youtube channel).
+Go to [My live events on YouTube](https://www.youtube.com/my_live_events) and switch to the GitLab account on the top right (you need to be a manager of our YouTube channel).
 
 Go to => life streaming => events and create a new one with the attributes:
 
@@ -584,18 +594,30 @@ Go to => life streaming => events and create a new one with the attributes:
 - advanced: promotions: disable both checkboxes
 - time needs to be set correctly
 
-The view on watch page url only allows for people to watch it.
-Window that pops up when you press the start hangout on air button has the proper url that you can send to other people and/or add it to the calendar invite, it is structured like: https://plus.google.com/hangouts/_/ytl/LONGHASH.
+The view on watch page URL only allows for people to watch it.
+Window that pops up when you press the start hangout on air button has the proper URL that you can send to other people and/or add it to the calendar invite, it is structured like: https://plus.google.com/hangouts/_/ytl/LONGHASH.
 When people join the event they have to [accept a warning](https://gitlab.com/snippets/16245).
 
 [Completed live events](https://www.youtube.com/my_live_events?filter=completed) will show the video and you can click the image to view it.
 You can use actions to make it public here
 
-BTW Trying to set this up via Google+ via [https://plus.google.com/hangouts/onair](Hangouts on Air) instead of via Youtube doesn't seem to connect to the right Youtube channel, even if you selected the right account on the top right.
+BTW Trying to set this up via Google+ via [https://plus.google.com/hangouts/onair](Hangouts on Air) instead of via YouTube doesn't seem to connect to the right YouTube channel, even if you selected the right account on the top right.
 
 ### One Tab
 
 [One Tab](https://www.one-tab.com/) tames tabs into a list which can be sorted and exported.
+
+### Check which process occupies a given port
+
+When the GitLab Development Kit cannot start using the `./run` command and
+Unicorn terminates because port 3000 is already in use, you will have to check
+what process is using it. Running `sudo lsof -i -n -P | grep TCP | grep 3000`
+will yield the offender so this process can be killed. It might be wise to alias
+this command in your `.bash_profile` or equivalent for your shell.
+
+### MobileDay
+
+If you install [MobileDay](https://mobileday.com/) on your phone and give it access to your Google Calendar it can dial into conference calls for you. It is very good at detecting the number and password from the calendar invite.
 
 ## Using Git to update this website<a name="starting-with-git"></a>
 
@@ -638,11 +660,14 @@ BTW Trying to set this up via Google+ via [https://plus.google.com/hangouts/onai
 This is especially a problem for anyone running a Mac OSX operating system. The
 command to 'tame' git is `git config --global core.autocrlf input`
 
+### Read the instructions
+
+Instructions on how to update the website are in the [readme of www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/README.md).
 
 ### Preview website changes locally
 
-1. In a terminal, execute: `bundle exec rake preview`.
-1. Visit http://localhost:4000 in your browser.
+1. In a terminal, execute: `bundle exec middleman`.
+1. Visit http://localhost:4567 in your browser.
 1. To edit the site locally you'll need to install a text editor. We recommend
    [Sublime Text 2](http://www.sublimetext.com/2).
 
