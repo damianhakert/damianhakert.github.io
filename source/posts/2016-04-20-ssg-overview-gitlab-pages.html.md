@@ -10,11 +10,11 @@ image_title: '/images/blogimages/ssg-overview-gitlab-pages-cover.jpg'
 ---
 
 What is a Static Site Generator? What is this for? Why should I use one? 
-Do they have limitations? How can I use them with GitLab Pages?
+Do they have limitations? How can I use them with **GitLab Pages**?
 
 If these questions ring a bell, this post is for you!
 
-We assume you are familiar with web development and you are curious about 
+We assume you are familiar with web development, and curious about 
 Static Site Generators.
 
 <!-- more -->
@@ -22,38 +22,14 @@ Static Site Generators.
 ----------
 
 ### What's in this overview?
+{:.no_toc}
 
-- [Static and Dynamic Websites](#the-web)
-   - [A glance at the history](#web-history)
-- [Modern Static Site Generators](#ssgs)
-   - [Environment](#environment)
-   - [Template engine](#template-engine)
-   - [Markdown engine](#markdown-engine)
-   - [Preprocessors](#preprocessors)
-   - [Directory structure](#directory-structure)
-   - [SSGs built-in features](#built-in-features)
-   - [Blog-Aware SSGs](#blog-aware)
-   - [Supported languages and services](#ssg-support)
-   - [Limitations](#limitations)
-   - [Overcoming the limitations](#overcoming-limitations)
-- [Build an SSG site with GitLab Pages](#ssg-gitlab-pages)
-- [SSGs examples](#examples)
-   - [Environment: Ruby](#ruby)
-   - [Environment: Node JS](#node)
-   - [Environment: Python](#python)
-   - [Environment: Go-lang](#go)
-   - [More Examples](#groups)
-- [FAQ: which SSG should I get started with?](#which-ssg-get-started)
-- [Getting Help](#getting-help)
-- [Conclusions](#conclusions)
+- TOC
+{: toc}
 
 ----
 
-<a name="the-web"></a>
-
 ## Static and Dynamic Websites
-
-<a name="web-history"></a>
 
 ### A glance at the history
 
@@ -68,20 +44,20 @@ With the advent of processing server-side scripts,
 came forward the [Web Content Management Systems (WCMS)][wcms], allowing us to 
 create and maintain databases connected to the internet. Websites with such server-side processing, 
 which provide high-level interactivity with the user, are commonly referred as [web applications][web-apps]. 
-Some notable examples are [WordPress], [Joomla!], [Drupal], [Magento], [Ghost] and [many others][cms-list].
+Some notable examples are [WordPress], [Joomla!], [Drupal], [Magento], [Ghost], and [many others][cms-list].
 
-Besides connecting your websites with databases, the dynamic web is an important 
+Besides connecting websites with databases, the dynamic web is an important 
 asset to work with [template systems][template-sys]. By using them, developers write fast, update websites faster, 
 and reduce mistakes (provoked by repetition).
 
 Unfortunately, with the growing popularity of server-side based websites, came together 
-their [vulnerabilities][common-vulnerabilities].  [Security issues] are common among them 
-and there are a lot of [measures][security-web-apps] you need to take to prevent attacks of uncountable natures. 
-You need to protect your users, your site and your server. Everything in between is subjected to hackers attacks.
+their [vulnerabilities][common-vulnerabilities].  [Security issues] are common among them, 
+and there are a lot of [measures][security-web-apps] we need to take to prevent attacks of uncountable natures. 
+We need to protect our users, our site, and our server. Everything in between is subjected to hackers attacks.
 
 An intelligent counter-measure for avoiding those security threads and, at the same time, 
 maintaining the benefits of templating systems, was the creation of **Static Site Generators (SSGs)**. 
-With them, you write dynamically and publish statically.
+With them, we write dynamically and publish statically.
 
 SSGs came out on the early 2000's, with [Blosxom] in 2003, and [WebGen] in 2004. 
 In 2008, [Tom Preston-Werner][tom-pw] released [Jekyll], by far the [most popular SSG][ssgs-list] up to now. 
@@ -90,14 +66,14 @@ the chart below, from [Google Trends]:
 
 ![Static Site Generators - Google Trends](/images/blogimages/ssg-overview-gitlab-pages-google-trends.png)
 
-<a name="ssgs"></a>
-
 ## Modern Static Site Generators
 
 The most fascinating thing of any SSG is the ability to code fast, save money (on web hosting), 
-and incredibly increase the page loading time (compared to server-side dynamic webpages). 
+and incredibly [increase the page loading time][page-load] (compared to server-side dynamic webpages). 
+Also, if we have a lot of visitors at the same time, our [static sites have less chance to crash][server-crash] 
+due to server overload [than dynamic ones][site-down]. 
 
-The only thing common to all SSGs is the ability to produce (or _build_) static websites automatically. 
+### Structure
 
 The structure of SSGs is a combination of features to make static sites development faster 
 and less repetitive. Let's take a quick look at the list below, then describe them one by one.
@@ -107,8 +83,6 @@ and less repetitive. Let's take a quick look at the list below, then describe th
 - Markdown engine
 - Preprocessors
 - Directory structure
-
-<a name="environment"></a>
 
 ### Environment
 
@@ -146,9 +120,7 @@ _Advantages over flat HMTL_
 
 - Minimize typography errors ("typos"): all files are considerably reduced, improving readability
 - Avoid repetition: every block repeated sitewide would be included to every page, equivalently
-- Update faster: if you change something in the file `footer.html`, it will affect the entire site
-
-<a name="markdown-engine"></a>
+- Update faster: if we change something in the file `footer.html`, it will affect the entire site
 
 ### Markdown engine
 
@@ -173,15 +145,13 @@ author: "Foo Bar" # a common variable to exemplify
 Some text.
 ```
 
-<a name="preprocessors"></a>
+<!-- should we provide a code block showing the output in html? -->
 
 ### Preprocessors
 
 The **preprocessors** are made for speed up our development process too. They simplify 
 the way we code, and then compile their own files into standard ones. 
 Examples: [Sass] and [Stylus] for CSS, [CoffeeScript] for JavaScript.
-
-<a name="directory-structure"></a>
 
 ### Directory structure
 
@@ -190,16 +160,12 @@ file tree before we start working with an SSG, otherwise we might face odd build
 that we won't understand solely because we didn't use its structure accordingly. 
 Examples: [Hexo structure][hexo-struc], [Middleman structure][middle-struc], [Jekyll structure][jekyll-struc].
 
-<a name="built-in-features"></a>
-
 ### SSGs built-in features
 
 - Most of SSGs have a pre-installed server for previewing the site locally
 - Some of them also contain in their installation package a LiveReload plugin, 
 so we don't need to refresh the page every time we save it
 - Most of them provide us with built-in compilers for their supported preprocessors
-
-<a name="blog-aware"></a>
 
 ### Blog-Aware SSGs
 
@@ -229,14 +195,12 @@ all of them would be displayed as items of an unordered list of posts.
 
 Of course, you can adapt the HTML structure according to your needs.
 
-<a name="ssg-support"></a>
-
-### Supported languages and services
+### Supported content
 
 Static servers fully support any language or script interpreted by browsers, 
 known as **client-side** processing. Let's just remember that a static site is 
 essentially composed by three components: the structure (HTML), 
-the layout and styles (CSS) and the behavior (JavaScript).
+the layout and styles (CSS), and the behavior (JavaScript).
 
 _Supported languages and file extensions_
 
@@ -254,11 +218,11 @@ _Supported interactive services (examples)_
 - Site Search Engine (e.g., [Google Search][google-cse], [Swiftype], [Tipue])
 - Mailing lists and blog subscriptions (e.g., [MailChimp])
 
-We are also free to add [Schema.org] markup to our static sites, 
-making [search engines][schema-seo] to understand our site content better. 
-This is [one of the numerous SEO][seo] techniques.
+_Supported utilities (examples)_
 
-<a name="limitations"></a>
+- HTML/CSS/JS frameworks and libraries. E.g, [Bootstrap], [Foundation], [Normalize], [Modernizr], [Skeleton], [jQuery], [HTML5 Boilerplate][html5-boiler], [Animate.css]
+- [Schema.org] markup, making [search engines][schema-seo] to understand our site content better. This is [one of the numerous SEO][seo] techniques
+- [Sitemaps], important for [SEO][seo-sitemaps] too. E.g., [Jekyll Sitemap plugin][jek-sitemap], [Middleman Sitemap][middle-sitemap], [Hexo Sitemap plugin][hexo-sitemap]
 
 ### Limitations
 
@@ -268,8 +232,6 @@ We've just described what we **can do** with SSGs. Now let's see what we **canno
 - Have admin access 
 - Send emails via `mail()` function
 - Use any server-side language or script
-
-<a name="overcoming-limitations"></a>
 
 ### Overcoming the limitations
 
@@ -289,7 +251,7 @@ you can try the [parse method with SendGrid][sendgrid-parse].
 
 _JavaScript disabled_
 
-Everything based on JavaScript is allowed to be added to your site. However, if 
+Everything based on JavaScript is allowed to be added to our static sites. However, if 
 JavaScript is disabled on the user's browser, those scripts will not work. But there is 
 something we can do to minimize this issue. We can add a [`<noscript>`][no-script] tag 
 to our web pages, containing a message that will be displayed only if JavaScript disabled:
@@ -298,31 +260,25 @@ to our web pages, containing a message that will be displayed only if JavaScript
 <noscript>Please enable JavaScript on your browser for a better experience with this website!</noscript>
 ```
 
-<a name="ssg-gitlab-pages"></a>
-
 ## Build an SSG site with GitLab Pages
 
-You can use GitLab Pages to host and build **any** [SSG][ssgs] available! 
+You can use [GitLab Pages] to host and build **any** [SSG][ssgs] available! 
 You can also use custom domains, SSL/TLS certificates, create as many sites as you want, 
 and deploy your site from **private repositories**. That's all for free. 
 On the article "[Hosting on GitLab.com with GitLab Pages][post-pages]" you will 
-find this information and a detailed step-by-step to guide you through. 
-See also the [official documentation][pages-ee] and the [quick start guide][pages] for further information.
-
-<a name="examples"></a>
+find this information and a detailed step-by-step guide to walk you through the process. 
+See also the [quick start guide][pages] and the [official documentation][pages-ee] for further information.
 
 ## SSGs examples
 
 On the following tables you can explore some examples of SSGs sites **built with 
-GitLab Pages** and hosted by GitLab.com. 
+GitLab Pages** and hosted by GitLab. 
 
 The key for building your site with GitLab Pages is the GitLab CI configuration 
 file, called `.gitlab-ci.yml`.  If you are not familiar with GitLab Pages, you can 
 follow through [this tutorial][post-pages] before pushing your site to GitLab.
 
-We have gathered some examples for you, organized by their respective environments.
-
-<a name="ruby"></a>
+On the tables below, there are some examples we've gathered for you, organized by their respective environments.
 
 ### Environment: [Ruby]
 
@@ -332,8 +288,6 @@ We have gathered some examples for you, organized by their respective environmen
 | [Middleman] | [Default Theme][middle-prev] | [Source on GitLab][middle-proj] | [Default + Bundler `ENV=PRODUCTION`][middle-ci] |
 | [Nanoc] | [Default Theme][nanoc-prev] | [Source on GitLab][nanoc-proj] | [Default][nanoc-ci] |
 | [Octopress] | [Default Theme][octo-prev] | [Source on GitLab][octo-proj] | [Default][octo-ci] |
-
-<a name="node"></a>
 
 ### Environment: [Node JS][node]
 
@@ -345,8 +299,6 @@ We have gathered some examples for you, organized by their respective environmen
 | [Metalsmith] | [Default Theme][metal-prev] | [Source on GitLab][metal-proj] | [Default][metal-ci] |
 | [GitBook] | [Default Theme][book-prev] | [Source on GitLab][book-proj] | [Default][book-ci] |
 
-<a name="python"></a>
-
 ### Environment: [Python]
 
 | SSG | Website URL | Project URL | Configuration |
@@ -355,17 +307,14 @@ We have gathered some examples for you, organized by their respective environmen
 | [Lektor] | [Default Theme][lektor-prev] | [Source on GitLab][lektor-proj] | [Default][lektor-ci] |
 | [Hyde] | [Default Theme][hyde-prev] | [Source on GitLab][hyde-proj] | [Default + `test` job][hyde-ci] |
 
-<a name="go"></a>
-
 ### Environment: [Go Lang][go]
 
 | SSG | Website URL | Project URL | Configuration |
 | --- | ----------- | ----------- | -------------- |
 | [Hugo] | [Lanyon Theme][hugo-prev] (Default) | [Source on GitLab][hugo-proj] | [Default][hugo-ci] |
 
-<a name="groups"></a>
-
 ### More Examples
+{: #groups}
 
 On the following GitLab groups you can find even more examples.
 
@@ -376,19 +325,16 @@ On the following GitLab groups you can find even more examples.
 | [Middleman Themes][middle-examples] | Ruby | Middleman |
 | [Themes and Templates][themes-templates] | Miscellaneous | Miscellaneous |
 
-_**Note:** these themes, templates and SSGs were casually chosen and listed on 
+_**Note:** these themes, templates, and SSGs were casually chosen, and listed on 
 this post to provide you with some distinct GitLab CI configurations._
-
-
-<a name="which-ssg-get-started"></a>
 
 ## FAQ: which SSG should I get started with?
 
 This is a tricky question. There is no easy answer for it. Perhaps the best way 
 to choose an SSG is installing three or four of them locally and give them a try. [This list][ssgs-more] might help too. 
 
-However, if you don't know where to start and you never used any Static Site Generator 
-before, I suggest you to get started with **Jekyll**. Why?
+However, if you don't know where to start, and you never used any Static Site Generator 
+before, I suggest you to get started with [Jekyll]. Why?
 
 - It's very well documented
 - If you search the web for information you'll find plenty
@@ -400,15 +346,11 @@ if you are a programmer, you could choose the SSG according to the language it's
 written in (Ruby, Node JS, Python, etc), picking up one you're familiar with. 
 If you are a PHP developer, you might want to choose an SSG with a PHP template engine. And so on.
 
-<a name="getting-help"></a>
-
 ## Getting Help
 
 If you need some help regarding GitLab Pages on GitLab.com,
 feel free to use one of [our channels][get-help]. You can also 
 open an issue on the [Pages][pages-issues] group.
-
-<a name="conclusions"></a>
 
 ## Conclusions
 
@@ -420,7 +362,8 @@ Generators and you comprehend what they are and how do they work.
 If you already work with an SSG, please [let us know][CTA] which one you prefer. 
 It's a quick survey that will only take a minute, and your participation means a lot to us!
 
-<!-- REVIEWER: PLEASE CHECK THIS GOOGLE FORM! IF WE DECIDE TO USE IT, I WILL NEED TO ADD SOMEONE FROM GITLAB AS COLLABORATOR -->
+<!-- REVIEWER: PLEASE CHECK THIS GOOGLE FORM! IF WE DECIDE TO USE IT, 
+I WILL NEED TO ADD SOMEONE FROM GITLAB AS COLLABORATOR OR OWNER -->
 
 You are invited to contribute with new SSGs, or with your cool themes and 
 templates, to the [groups](#groups) mentioned earlier.
@@ -431,12 +374,15 @@ Remember, we can use GitLab Pages to [build any SSG][post-pages] for us and host
 Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 
 ## About guest author Marcia Ramos
+{:.no_toc}
 
 [Marcia] is a back-end developer specialized in WordPress and Jekyll sites at [Virtua Creative],
 though she does some front-end too. Her daily work is based on version-controlled 
-systems for almost 15 years.  She is also an experienced technical writer.
+systems for almost 15 years.  She is also experienced in technical writing.
 
 <!-- Cover image: https://unsplash.com/photos/6g0KJWnBhxg -->
+
+<!-- "host for free" is repeated 3 times as a SEO keyword -->
 
 <!-- IDENTIFIERS --> 
 
@@ -445,9 +391,9 @@ systems for almost 15 years.  She is also an experienced technical writer.
 [AdSense]: https://support.google.com/adsense/answer/181950
 [Adwords]: https://support.google.com/adwords/answer/6331314
 [Analytics]: https://developers.google.com/analytics/devguides/collection/analyticsjs/
-[audio]: http://www.w3schools.com/html/html5_audio.asp
+[audio]: //www.w3schools.com/html/html5_audio.asp
 [cms-list]:  https://en.wikipedia.org/wiki/List_of_content_management_systems
-[comment-systems]: http://brianshim.com/webtricks/add-a-comment-wall-to-your-website/
+[comment-systems]: //brianshim.com/webtricks/add-a-comment-wall-to-your-website/
 [common-vulnerabilities]:  https://www.toptal.com/security/10-most-common-web-security-vulnerabilities
 [Disqus]: https://disqus.com/
 [drupal]: https://www.drupal.org/
@@ -456,32 +402,37 @@ systems for almost 15 years.  She is also an experienced technical writer.
 [Facebook Social Plugins]: https://developers.facebook.com/docs/plugins
 [firebase]: https://www.firebase.com/
 [firebase-cool-stuff]: https://www.firebase.com/docs/web/examples.html
-[firebase-user-auth]: http://jsfiddle.net/firebase/a221m6pb/
-[first-cgi]:  http://royal.pingdom.com/2007/12/07/a-history-of-the-dynamic-web/
-[first-site-1990]:  http://www.telegraph.co.uk/technology/internet/12061803/The-worlds-first-website-went-online-25-years-ago-today.html
-[first-website]: http://info.cern.ch/hypertext/WWW/TheProject.html
+[firebase-user-auth]: //jsfiddle.net/firebase/a221m6pb/
+[first-cgi]:  //royal.pingdom.com/2007/12/07/a-history-of-the-dynamic-web/
+[first-site-1990]:  //www.telegraph.co.uk/technology/internet/12061803/The-worlds-first-website-went-online-25-years-ago-today.html
+[first-website]: //info.cern.ch/hypertext/WWW/TheProject.html
 [FormKeep]: https://formkeep.com/
 [Formspree]: https://formspree.io/
-[foxyform]: http://www.foxyform.com/
+[foxyform]: //www.foxyform.com/
 [ghost]: https://ghost.org/
 [google-cse]: https://support.google.com/customsearch/answer/4513751?hl=en&ref_topic=4513742&rd=1
 [Google Forms]: https://www.google.com/forms/about/
-[google trends]: http://www.google.com.br/trends/explore?hl=en-US#q=%22static+site+generator%22&cmpt=q&tz=Etc/GMT%2B3&tz=Etc/GMT%2B3
-[HTML5]: http://www.w3schools.com/html/html5_intro.asp
-[images]: http://vormplus.be/blog/article/using-images-in-your-html5-document
+[google trends]: //www.google.com.br/trends/explore?hl=en-US#q=%22static+site+generator%22&cmpt=q&tz=Etc/GMT%2B3&tz=Etc/GMT%2B3
+[HTML5]: //www.w3schools.com/html/html5_intro.asp
+[images]: //vormplus.be/blog/article/using-images-in-your-html5-document
 [JivoChat]: https://www.jivochat.com/
 [joomla!]: https://www.joomla.org/
-[MailChimp]: http://mailchimp.com/
+[MailChimp]: //mailchimp.com/
 [magento]: https://magento.com/
-[no-script]: http://www.w3schools.com/tags/tag_noscript.asp
+[no-script]: //www.w3schools.com/tags/tag_noscript.asp
+[page-load]: https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/#dynamic-websites-and-caching
 [PayPal Payments Standard]: https://developer.paypal.com/docs/classic/button-manager/integration-guide/SOAP/ButtonMgrOverview
 [programming language]: https://en.wikipedia.org/wiki/Programming_language
-[Schema.org]: http://schema.org/
-[schema-seo]: http://schema.org/docs/gs.html
+[Schema.org]: //schema.org/
+[schema-seo]: //schema.org/docs/gs.html
 [security issues]: https://www.cs.columbia.edu/~smb/classes/f06/l09.pdf
 [security-web-apps]: https://msdn.microsoft.com/en-us/library/zdh19h94.aspx
 [sendgrid-parse]: https://sendgrid.com/blog/send-email-static-websites-using-parse/
-[SEO]: http://www.wordstream.com/blog/ws/2014/03/20/schema-seo
+[SEO]: //www.wordstream.com/blog/ws/2014/03/20/schema-seo
+[seo-sitemaps]: //www.webconfs.com/importance-of-sitemaps-article-17.php
+[server-crash]: //noahveltman.com/static-dynamic/
+[sitemaps]: https://support.google.com/webmasters/answer/156184?hl=en
+[site-down]: //www.sitepoint.com/wordpress-vs-jekyll-might-want-make-switch/#2-wordpress-struggles-under-heavy-load
 [ssgs-list]: https://staticsitegenerators.net/
 [ssgs-more]: https://iwantmyname.com/blog/2014/05/the-updated-big-list-of-static-website-generators-for-your-site-blog-or-wiki
 [static webpage]: https://en.wikipedia.org/wiki/Static_web_page
@@ -491,18 +442,18 @@ systems for almost 15 years.  She is also an experienced technical writer.
 [Tawk.to]: https://www.tawk.to/
 [template-sys]: https://en.wikipedia.org/wiki/Web_template_system
 [tim-bl]: https://en.wikipedia.org/wiki/Tim_Berners-Lee
-[tipue]: http://www.tipue.com/
+[tipue]: //www.tipue.com/
 [tom-pw]: https://en.wikipedia.org/wiki/Tom_Preston-Werner
 [Twitter Kit]: https://dev.twitter.com/web/overview
-[video]: http://www.w3schools.com/html/html5_video.asp
+[video]: //www.w3schools.com/html/html5_video.asp
 [wcms]: https://en.wikipedia.org/wiki/Web_content_management_system
 [web-app-security]: https://en.wikipedia.org/wiki/Web_application_security
 [web-apps]: https://en.wikipedia.org/wiki/Web_application
-[webgen]: http://webgen.gettalong.org/news.html#webgen-0-1-0-released
+[webgen]: //webgen.gettalong.org/news.html#webgen-0-1-0-released
 [wiki-cgi]:  https://en.wikipedia.org/wiki/Common_Gateway_Interface
 [wiki-static-websites]: https://en.wikipedia.org/wiki/Static_web_page
 [wordpress]: https://wordpress.org/
-[Wufoo]: http://www.wufoo.com/
+[Wufoo]: //www.wufoo.com/
 [Marcia]: https://gitlab.com/u/virtuacreative
 [Virtua Creative]: https://virtuacreative.com.br/en/
 
@@ -514,7 +465,7 @@ systems for almost 15 years.  She is also an experienced technical writer.
 [get-help]: https://about.gitlab.com/getting-help
 [gitlab-com]: https://about.gitlab.com/gitlab-com/
 [pages]: https://pages.gitlab.io
-[pages-ee]: http://doc.gitlab.com/ee/pages/README.html
+[pages-ee]: //doc.gitlab.com/ee/pages/README.html
 [pages-issues]: https://gitlab.com/pages/pages.gitlab.io/issues
 [post-pages]: https://about.gitlab.com/2016/04/07/gitlab-pages-setup/
 [sign-up]: https://gitlab.com/users/sign_in "Sign Up!"
@@ -522,44 +473,56 @@ systems for almost 15 years.  She is also an experienced technical writer.
 
 <!-- SSGs -->
 
-[blosxom]: http://blosxom.sourceforge.net/
-[Brunch]: http://brunch.io/
+[blosxom]: //blosxom.sourceforge.net/
+[Brunch]: //brunch.io/
 [GitBook]: https://www.gitbook.com/
-[Harp]: http://harpjs.com/
+[Harp]: //harpjs.com/
 [Hexo]: https://hexo.io/
-[Hyde]: http://hyde.github.io/
+[Hyde]: //hyde.github.io/
 [Hugo]: https://gohugo.io/
 [Jekyll]: https://jekyllrb.com
 [Lektor]: https://www.getlektor.com/
-[Metalsmith]: http://www.metalsmith.io/
+[Metalsmith]: //www.metalsmith.io/
 [Middleman]: https://middlemanapp.com/
-[Nanoc]: http://nanoc.ws/
-[Octopress]: http://octopress.org/
-[Pelican]: http://blog.getpelican.com/
+[Nanoc]: //nanoc.ws/
+[Octopress]: //octopress.org/
+[Pelican]: //blog.getpelican.com/
 
 [hexo-struc]: https://hexo.io/docs/setup.html
 [jekyll-struc]: https://jekyllrb.com/docs/structure/
 [middle-struc]: https://middlemanapp.com/basics/directory-structure/
 
-<!-- languages and preprocessors -->
+[jek-sitemap]: https://github.com/jekyll/jekyll-sitemap
+[middle-sitemap]: https://middlemanapp.com/advanced/sitemap/
+[hexo-sitemap]: https://github.com/hexojs/hexo-generator-sitemap
 
-[CoffeeScript]: http://coffeescript.org/
+<!-- Languages, preprocessors, libraries and frameworks -->
+
+[animate.css]: https://daneden.github.io/animate.css/
+[Bootstrap]: //getbootstrap.com
+[CoffeeScript]: //coffeescript.org/
+[Foundation]: //foundation.zurb.com/
 [go]: https://golang.org/
-[haml]: http://haml.info/
-[kramdown]: http://kramdown.gettalong.org/
+[haml]: //haml.info/
+[html5-boiler]: https://html5boilerplate.com/
+[jquery]: //code.jquery.com/
+[kramdown]: //kramdown.gettalong.org/
 [liquid]: https://shopify.github.io/liquid/
 [markdown]: https://en.wikipedia.org/wiki/Markdown
+[modernizr]: https://modernizr.com/
 [node]: https://nodejs.org/en/
+[normalize]: https://necolas.github.io/normalize.css/
 [Python]: https://www.python.org/
-[rdiscount]: http://dafoster.net/projects/rdiscount/
+[rdiscount]: //dafoster.net/projects/rdiscount/
 [redcarpet]: https://github.com/vmg/redcarpet
-[redcloth]: http://redcloth.org/
+[redcloth]: //redcloth.org/
 [Ruby]: https://www.ruby-lang.org/
-[Sass]: http://sass-lang.com/
-[Slim]: http://slim-lang.com/
-[Stylus]: http://stylus-lang.com/
-[swig]: http://paularmstrong.github.io/swig/
-[twig]: http://twig.sensiolabs.org/
+[Sass]: //sass-lang.com/
+[skeleton]: http://getskeleton.com/
+[Slim]: //slim-lang.com/
+[Stylus]: //stylus-lang.com/
+[swig]: //paularmstrong.github.io/swig/
+[twig]: //twig.sensiolabs.org/
 
 <!-- Groups -->
 
@@ -568,13 +531,13 @@ systems for almost 15 years.  She is also an experienced technical writer.
 [middle-examples]: https://gitlab.com/groups/middleman-themes
 [themes-templates]: https://gitlab.com/themes-templates
 
-<!-- examples -->
+<!-- Examples -->
 
 [j-2-web]: https://jekyll-themes.gitlab.io/default-bundler/ "The default Jekyll Theme"
 [j-2-pro]: https://gitlab.com/jekyll-themes/default-bundler
 [j-2-ci]: https://gitlab.com/jekyll-themes/default-bundler/blob/master/.gitlab-ci.yml
 
-[j-3-web]: http://jekyll-themes.gitlab.io/grayscale/ "A single page Jekyll template"
+[j-3-web]: https://jekyll-themes.gitlab.io/grayscale/ "A single page Jekyll template"
 [j-3-pro]: https://gitlab.com/jekyll-themes/grayscale
 [j-3-ci]: https://gitlab.com/jekyll-themes/grayscale/blob/master/.gitlab-ci.yml
 
