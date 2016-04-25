@@ -800,15 +800,14 @@
           technology and enjoys discussing it with others.  An avid traveler, Reb
           is always looking for the next interesting place to visit.
 
-
-- name: M.P.
+- name: Mark Pundsack
   role: Head of Product
-  reports_to: VP of Product
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  reports_to: CEO
+  picture: mpundsack.jpg
+  twitter: MarkPundsack
+  gitlab: markpundsack
   story:  |
-          Joining April 19th
+          Originally a computer engineer doing speech recognition research, he moved to product management about 20 years ago. Over the past 5 years, Mark has developed a passion for developer experience. Most recently at CircleCI as VP Product, and before that, at Heroku focusing on continuous delivery and the Heroku-GitHub integration. Outside of work he  builds Star Wars Lego with his 5-year old son and dresses up his 2-year old daughter as a princess. On rare occasions, you might find him on a 37' trawler in the San Francisco bay.
 
 - name: C.W.
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
