@@ -51,6 +51,8 @@ Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-
 
 ## Workflow
 
+Most of the information is in the [developer onboarding](/handbook/developer-onboarding/).
+
 You work on issues tagged with 'Developer' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=Developer) and [EE](https://gitlab.com/gitlab-org/gitlab-ee/issues?label_name=Developer).
 Some issues might be missing any [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) but be ready for a developer, in this case feel free to add a 'Developer' label.
 
