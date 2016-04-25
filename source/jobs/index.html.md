@@ -93,9 +93,9 @@ issue is a good way to demonstrate your ability to learn and debug.
 - [Description](/jobs/service-engineer/)
 - [Apply](https://gitlab.workable.com/jobs/87722/candidates/new)
 
-### Solutions Engineer
+### Success Engineer (Customer Success)
 
-- [Description](/jobs/solutions-engineer/)
+- [Description](/jobs/success-engineer/)
 - [Apply](https://gitlab.workable.com/j/6A9FA4A8DE)
 
 ### Strategic Relations Manager
