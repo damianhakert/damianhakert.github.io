@@ -75,7 +75,11 @@ to set one up at DigitalOcean. Ask another developer for access.
 For everything related to operations, check out the
 [Operations handbook](https://about.gitlab.com/handbook/operations).
 
-## Basics of GitLab development
+## Basics of GitLab development<a name="basics-of-gitlab-development"></a>
+
+### Workflow
+
+The priority of the issues can be found in [the handbook under GitLab Workflow under prioritize](https://about.gitlab.com/handbook/#prioritize) and [priority in the same milestone](https://about.gitlab.com/handbook/#priority).
 
 ### Quality
 

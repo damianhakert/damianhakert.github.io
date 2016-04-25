@@ -20,9 +20,9 @@ UI/UX latest techniques, prototyping with tools or HTML/CSS, user testing, user 
 
 You work on issues tagged with 'UX' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=ux) and [EE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=ux).
 
-The priority of the issues tagged with this label can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/#prioritize).
-
 When done with an UX issue remove the UX label and add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) which is probably the 'Frontend' label.
+
+Also see the [basics of GitLab develpment in the developer onboarding](handbook/developer-onboarding/#basics-of-gitlab-development).
 
 ## Success Criteria
 
