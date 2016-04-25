@@ -49,17 +49,19 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Administrative Coordinator](/jobs/adminstrative-coordinator/)
   - [Technical Direction](/direction/) - [CTO](/jobs/chief-technology-officer/)
   - Engineering - [VP of Engineering](/jobs/vp-of-engineering/)
-    - [UX Designers](/jobs/ux-designer/)
-    - Various teams - [Development Lead](/jobs/development-lead/) (lead)
-      - [Developers](/jobs/developer/) that are a specialist in what the team does (CI, others)
-    - Frontend - [Frontend Lead](/jobs/frontend-lead/) (lead)
+    - Rails team - [Development](/jobs/development-lead/) (Rails lead)
+      - [Developers](/jobs/developer/) that are a Rails specialist
+    - Frontend - [Frontend Lead](/jobs/frontend-lead/) (Frontend lead)
       - [Frontend engineer](/jobs/frontend-engineer/)
-    - [Infrastructure](/handbook/operations/) - [Senior Production Engineer](/jobs/production-engineer/) (lead)
+    - [Infrastructure](/handbook/operations/) - [Senior Production Engineer](/jobs/production-engineer/) (Infrastructure lead)
       - [Production Engineers](/jobs/production-engineer/)
-      - [Developers](/jobs/developer/) that are performance specialists
-    - [Support](/handbook/support/) - [Lead Service Engineer](/jobs/service-engineer/) (lead)
+      - [Developers](/jobs/developer/) that are a performance specialist
+    - [Support](/handbook/support/) - [Service Engineer](/jobs/service-engineer/) (Support lead)
       - [Service Engineers](/jobs/service-engineer/)
-    - [Developers](/jobs/developer/) that work on other products or have role is across teams
+    - [UX Designers](/jobs/ux-designer/)
+    - [Developers](/jobs/developer/) that are maintainers
+    of or specialist in projects without a lead
+    - [Developers](/jobs/developer/) that are a merge request coach
   - Scaling - [VP of Scaling](/jobs/vp-of-scaling/)
   - General Product - [VP of Product](/jobs/vice-president-of-product/)
   - CI/CD Product - [Head of Product](/jobs/head-of-product/)
