@@ -141,29 +141,7 @@ have the link to the corresponding ZenDesk issue from where you will continue th
 
 Once acknowledged, you need to login to [ZenDesk](https://gitlab.zendesk.com), go to the corresponding ticket
 and let the customer know that you will handle their case. On this response you should ask for the best way
-to contact them. Usual channels are Phone, Skype, WebEx or Hangouts.
-
-#### WebEx
-
-More often than not, WebEx will be the best tool for the job, so you can save yourself a step and already start
-a WebEx session for this call. To do this you can use the `GitLab Support` WebEx account. Go to our
-[WebEx Portal](https://gitlabmeetings.webex.com), click on the login button on the top right and use the
-credentials found in the Support Vault on 1password.
-
-![WebEx Login](/images/support/web-ex-login.png)
-
-Once logged in, click the `Enter Room` button to start the WebEx meeting and send the following link to
-the customer and ask them to join the call.
-
-```
-https://gitlabmeetings.webex.com/meet/gitlabsupport
-```
-
-![WebEx Room](/images/support/web-ex-room.png)
-
-WebEx is usually the best choice, since it allows you to see the customer's desktop and
-to control it on request. It also gives the customer the possibility to join via phone and
-us the possibility to use our computer audio connection.
+to contact them. Usual channels are Phone, Skype, [WebEx](/handbook/support/onboarding/#webex) or Hangouts.
 
 #### Crisis Situations
 
@@ -224,8 +202,8 @@ upon completion. Remember that all researchers should receive feedback as with r
 and you should not hesitate to triage or escalate the report. **Always** mention that they can email us at any time for an update.
 Eventually each report has to be accepted and/or closed through the HackerOne dashboard even if you've followed through on ZenDesk.
 
-After a report has been closed as resolved or informative it can be [publicly disclosed](https://dev.gitlab.org/gitlab/organization/issues/805#note_72812). 
-This is can be requested either by GitLab or the reporter. If the reporter requests this then it will be released when you accept it 
+After a report has been closed as resolved or informative it can be [publicly disclosed](https://dev.gitlab.org/gitlab/organization/issues/805#note_72812).
+This is can be requested either by GitLab or the reporter. If the reporter requests this then it will be released when you accept it
 or 30 days after the request is submitted. Prior to publication you should edit the report and make sure that it has:
 
 1. No sensitive information.
