@@ -82,18 +82,18 @@ An example message would be "We are reviewing applications through the end of ne
 Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
 [this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw).
 
-1. Do you have any questions about the job or our organization?
+1. Do you have any questions about the job, our organization, our strategy, or me personally?
 1. Why did you apply to GitLab?
-1. For each significant study and job ask: can you shortly say why did you select this one and why did it end? (for studies: why not do master, PhD, PostDoc, etc.)
-1. When were you most satisfied in your most recent position?
-1. What did you like least about your most recent position?
+1. For each significant study and job I will ask: why did you select this one and why you moved on? Please give a short answer in 1 or 2 sentences. I will ask if I want to know more. You don't have to say what you did during the job, you already passed your technical interview.
+1. When were you most satisfied in your recent/current position?
+1. What did you like least about your recent/current position?
 1. Take each skill required for the job and do a [STAR](https://en.wikipedia.org/wiki/Situation,_Task,_Action,_Result) for a couple of situations.
 1. What professional achievements are you most proud of?
 1. How do you keep up to date with developments in your profession?
 1. If you don't get this job what will you do?
 1. Are you interviewing anywhere else?
-1. How can we change GitLab the product to make it better?
-1. What can we change in GitLab the organization to make it better, for example the hiring process?
+1. How can we change GitLab the software product to make it better?
+1. What can we change in GitLab the organization to make it better, for example the hiring process or the handbook?
 1. What do you expect to achieve in your first month at GitLab?
 1. Where do you want to be in three years from now?
 1. How do you feel about working remote?
