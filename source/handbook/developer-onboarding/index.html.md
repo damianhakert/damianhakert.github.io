@@ -73,7 +73,7 @@ to set one up at DigitalOcean. Ask another developer for access.
 ## Operations
 
 For everything related to operations, check out the
-[Operations handbook](https://about.gitlab.com/handbook/operations).
+[Infrastructure handbook](https://about.gitlab.com/handbook/infrastructure).
 
 ## Basics of GitLab development<a name="basics-of-gitlab-development"></a>
 

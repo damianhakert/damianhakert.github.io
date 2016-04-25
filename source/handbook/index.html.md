@@ -16,7 +16,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Hiring](/handbook/hiring)
 * [Travel](/handbook/travel)
 * [Sales process](/handbook/sales-process)
-* [Operations](/handbook/operations)
+* [Infrastructure](/handbook/infrastructure)
 * [Accounting](/handbook/accounting)
 * [Stock Options](/handbook/stock-options)
 * [Marketing](/handbook/marketing)
