@@ -240,7 +240,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
     1. Issues assigned to the upcoming milestone
     1. Issues assigned to future milestones
     1. Issues not assigned to a milestone
-1. Within the same milestone the priority<a name="prioritize"></a> starting from urgent is:
+1. Within the same milestone the priority<a name="priority"></a> starting from urgent is:
     1. **Emergency** issues (a service engineer will probably contact you via chat)
     1. [**Security**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.7&label_name=security) issues
     1. [**Data integrity**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=8.7&label_name=data+integrity) issues (preventing data loss)

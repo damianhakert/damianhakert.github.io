@@ -36,6 +36,6 @@ You know you are doing a good job as a UX Designer when:
 
 ## Roles in practice
 
-* Andriy is mostly working in close collaboration with Dmitriy on his initiatives
-* Liza is mostly working on the items in the milestone and making mockups for new features
-* Andriy and Liza are both learning html and css to have deliverables that are a good draft for the implementation
+* Andriy is mostly working in close collaboration with Dmitriy on his initiatives.
+* Others are mostly working on the items in the milestone and making mockups for new features.
+* All are both learning html and css to have deliverables that are a good draft for the implementation.
