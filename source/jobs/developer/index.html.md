@@ -54,6 +54,6 @@ Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-
 You work on issues tagged with 'Developer' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=Developer) and [EE](https://gitlab.com/gitlab-org/gitlab-ee/issues?label_name=Developer).
 Some issues might be missing any [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) but be ready for a developer, in this case feel free to add a 'Developer' label.
 
-The priority of the issues tagged with this label can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/#prioritize).
+The priority of the issues tagged with this label can be found in [the handbook under GitLab Workflow under prioritize](https://about.gitlab.com/handbook/#prioritize) and [priority in the same milestone](https://about.gitlab.com/handbook/#priority).
 
 When done with an issue remove the 'Developer' label and add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) or create a merge request and assign it someone that has 'Merge request endboss' on their [team page](https://about.gitlab.com/team/) listing.
