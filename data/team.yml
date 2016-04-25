@@ -290,7 +290,7 @@
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/doc-gitlab-com">doc-gitlab-com</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/support-forum/">GitLab.com Support Forum</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/githost">GitHost.io feature proposals</a></li>
-             <li>LDAP specialist</li>
+             <li>LDAP expert</li>
   story:  |
           Before joining the GitLab team, Drew was involved in the GitLab community as a member of the core team. He is passionate about
           open-source projects and communities and enjoys helping people solve problems. When he is not hacking on a project, Drew enjoys playing piano, working
@@ -796,7 +796,7 @@
   story:  |
           Reb loves working hands-on with customers.  He has many years of experience
           in doing so, over a wide range of industries and environments
-          in consultative, support, and training situations.  He is passionate about 
+          in consultative, support, and training situations.  He is passionate about
           technology and enjoys discussing it with others.  An avid traveler, Reb
           is always looking for the next interesting place to visit.
 
@@ -817,8 +817,8 @@
   twitter:
   gitlab:
   story:  |
-          Joining April 25th 
-          
+          Joining April 25th
+
 - name: S.M.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Development Lead
@@ -826,8 +826,8 @@
   twitter:
   gitlab:
   story:  |
-          Joining April 27th 
-        
+          Joining April 27th
+
 - name: C.T.
   role: <a href="https://about.gitlab.com/jobs/business-development-team-lead/">Business Development Team Lead</a>
   reports_to: Senior Demand Generation Manager
@@ -835,7 +835,7 @@
   twitter:
   gitlab:
   story:  |
-          Joining April 27th           
+          Joining April 27th
 
 - name: M.F.
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
@@ -854,4 +854,3 @@
   gitlab:
   story:  |
           Joining May 16th
-          

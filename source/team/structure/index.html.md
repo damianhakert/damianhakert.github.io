@@ -48,10 +48,10 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [People Operations Coordinator](/jobs/people-ops-coordinator/)
       - [Administrative Coordinator](/jobs/adminstrative-coordinator/)
   - [Technical Direction](/direction/) - [CTO](/jobs/chief-technology-officer/)
-    - [UX Designers](/jobs/ux-designer/)
   - Engineering - [VP of Engineering](/jobs/vp-of-engineering/)
+    - [UX Designers](/jobs/ux-designer/)
     - Various teams - [Development Lead](/jobs/development-lead/) (lead)
-      - [Developers](/jobs/developer/) that are specialized in what the team does (CI, others)
+      - [Developers](/jobs/developer/) that are a specialist in what the team does (CI, others)
     - Frontend - [Frontend Lead](/jobs/frontend-lead/) (lead)
       - [Frontend engineer](/jobs/frontend-engineer/)
     - [Infrastructure](/handbook/operations/) - [Senior Production Engineer](/jobs/production-engineer/) (lead)
@@ -59,7 +59,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Developers](/jobs/developer/) that are performance specialists
     - [Support](/handbook/support/) - [Lead Service Engineer](/jobs/service-engineer/) (lead)
       - [Service Engineers](/jobs/service-engineer/)
-    - [Developers](/jobs/developer/) that work on other products
+    - [Developers](/jobs/developer/) that work on other products or have role is across teams
   - Scaling - [VP of Scaling](/jobs/vp-of-scaling/)
   - General Product - [VP of Product](/jobs/vice-president-of-product/)
   - CI/CD Product - [Head of Product](/jobs/head-of-product/)
