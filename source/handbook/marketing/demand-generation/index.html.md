@@ -149,3 +149,7 @@ Current state
 
 - We currently send out two newsletters a month. One is is on the second Tuesday of the month and the other is on the monthly release day (22nd).
 - The newsletters are scheduled to go out between 8 and 9 am Pacific time.
+- Occasionally there will be a need to send an email to the security release list. The following steps will help you send this email:
+    - Clone the most recent security release in Marketo
+    - Edit the email to have the new release information and update the subject line
+    - Be aware that there may people on the list listening for security exploits that they can use. E-mails that go on this should be carefully worded as to not describe the issues but only that an update is needed.
