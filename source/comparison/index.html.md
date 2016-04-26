@@ -82,7 +82,6 @@ Big repository? Huge (>5GB) binary files? No problem. GitLab is built to handle 
 
 [Using Git Annex with GitLab](https://about.gitlab.com/2015/02/17/gitlab-annex-solves-the-problem-of-versioning-large-binaries-with-git/)
 
-
 ### Rebase before merge in the web UI to prevent merge commits
 Before merging one branch in the other, GitLab can rebase it automatically.
 
@@ -148,6 +147,16 @@ Create a template for issues and merge requests in your project to ensure all in
 
 ### Use the most installed on-premises Git solution
 GitLab is used by over 100,000 organizations worldwide, on their own servers.
+
+### Access to possibility to modify the source of GitLab
+
+Ruby code in GitHub Enterprise is obfuscated.
+GitLab Enterprise Edition [has a publicly readable source code][ee-source] and
+you have the right to modify the code.
+
+[Read the GitLab Enterprise Edition license](https://gitlab.com/gitlab-org/gitlab-ee/blob/master/LICENSE)
+
+[ee-source]: https://gitlab.com/gitlab-org/gitlab-ee
 
 ## GitLab.com vs. GitHub.com
 
