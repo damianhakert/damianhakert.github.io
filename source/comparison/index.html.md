@@ -148,9 +148,9 @@ Create a template for issues and merge requests in your project to ensure all in
 ### Use the most installed on-premises Git solution
 GitLab is used by over 100,000 organizations worldwide, on their own servers.
 
-### Access to possibility to modify the source of GitLab
+### Access to source code
 
-Ruby code in GitHub Enterprise is obfuscated.
+The Ruby code in GitHub Enterprise is obfuscated.
 GitLab Enterprise Edition [has a publicly readable source code][ee-source] and
 you have the right to modify the code.
 
