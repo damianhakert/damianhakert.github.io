@@ -38,6 +38,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [User Communication Guidelines](#user-communication-guidelines)
    * [Writing Style Guidelines](#writing-style-guidelines)
    * [Beamy Guidelines](#beamy-guidelines)
+   * [Company Phone Number](#phone-number)
 * [On Call Rotation and Schedule](#on-call)
 * [Intellectual Property](#intellectual-property)
 * [Spending Company Money](#spending-company-money)
@@ -368,6 +369,13 @@ Make sure it is charging, otherwise try again.
 * If you don't use headphones be careful about your volume and microphone placement, it might start singing, if so immediately mute your microphone and switch to headphones.
 * More info can be found at https://www.suitabletech.com/
 * Please report any questions or issues you have about the beam by @mentioning Emily in the #general channel.
+
+### Company phone number<a name="phone-number"></a>
+
+If you need to provide the details of GitLab's contact information you can take the [address of the office](https://about.gitlab.com/visiting/) for reference; or the [mailing address](https://about.gitlab.com/handbook/people-operations/#addresses) of the office in the Netherlands if that is more applicable.
+
+If a phone number is required, leave this field empty by default. If that is not possible, then use
+the general number (+1-415-761-1791), but be aware that this number simply guides to a voice message that refers the caller back to contacting us via email.
 
 ## On-Call Rotation and Scheduling<a name="on-call"></a>
 
