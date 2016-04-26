@@ -54,7 +54,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 ## Values<a name="values"></a>
 
 We value results, transparency, sharing, freedom, efficiency, frugality,
-collaboration, directness, kindness, diversity, quirkiness, boring solutions, and interesting people:
+collaboration, directness, kindness, diversity, quirkiness, boring solutions, and quirkiness:
 
 1. Results: We care about what you achieve; the code you shipped, the user you
 made happy, and the team member you helped. Do not compete by proclaiming how many
