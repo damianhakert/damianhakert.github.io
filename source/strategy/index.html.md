@@ -43,6 +43,8 @@ Change all creative work from read-only to read-write so that **everyone can con
 
 ## Sequence <a name="sequence"></a>
 
+We want to achieve our goals in the following order:
+
 1. Become the most popular solution on-premises (DONE)
 
 2. Become the most revenue generation solution on-premises (through well executed marketing and sales)
@@ -53,6 +55,7 @@ Change all creative work from read-only to read-write so that **everyone can con
 
 5. All knowledge workers contributing via GitLab (need to make the git workflow much more user friendly)
 
+While we achive our goals one by one this doesn't mean we can exclude everything else. Simultaniously we'll grow our userbase, get more subscribers for our [EE](https://about.gitlab.com/features/#enterprise), grow the use of [GitLab.com](https://about.gitlab.com/gitlab-com/), make and sell more [options](https://about.gitlab.com/pricing/#options), increase our [scope](https://about.gitlab.com/direction/#scope), and make version control usable for more types of work.
 
 ## Constraints
 
