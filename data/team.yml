@@ -290,7 +290,7 @@
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/doc-gitlab-com">doc-gitlab-com</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/support-forum/">GitLab.com Support Forum</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/githost">GitHost.io feature proposals</a></li>
-             <li>LDAP specialist</li>
+             <li>LDAP expert</li>
   story:  |
           Before joining the GitLab team, Drew was involved in the GitLab community as a member of the core team. He is passionate about
           open-source projects and communities and enjoys helping people solve problems. When he is not hacking on a project, Drew enjoys playing piano, working
@@ -796,19 +796,18 @@
   story:  |
           Reb loves working hands-on with customers.  He has many years of experience
           in doing so, over a wide range of industries and environments
-          in consultative, support, and training situations.  He is passionate about 
+          in consultative, support, and training situations.  He is passionate about
           technology and enjoys discussing it with others.  An avid traveler, Reb
           is always looking for the next interesting place to visit.
 
-
-- name: M.P.
+- name: Mark Pundsack
   role: Head of Product
-  reports_to: VP of Product
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  reports_to: CEO
+  picture: mpundsack.jpg
+  twitter: MarkPundsack
+  gitlab: markpundsack
   story:  |
-          Joining April 19th
+          Originally a computer engineer doing speech recognition research, he moved to product management about 20 years ago. Over the past 5 years, Mark has developed a passion for developer experience. Most recently at CircleCI as VP Product, and before that, at Heroku focusing on continuous delivery and the Heroku-GitHub integration. Outside of work he  builds Star Wars Lego with his 5-year old son and dresses up his 2-year old daughter as a princess. On rare occasions, you might find him on a 37' trawler in the San Francisco bay.
 
 - name: Chris Wilson
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
@@ -829,8 +828,8 @@
   twitter:
   gitlab:
   story:  |
-          Joining April 27th 
-        
+          Joining April 27th
+
 - name: C.T.
   role: <a href="https://about.gitlab.com/jobs/business-development-team-lead/">Business Development Team Lead</a>
   reports_to: Senior Demand Generation Manager
@@ -838,7 +837,7 @@
   twitter:
   gitlab:
   story:  |
-          Joining April 27th           
+          Joining April 27th
 
 - name: M.F.
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
@@ -857,4 +856,3 @@
   gitlab:
   story:  |
           Joining May 16th
-          
