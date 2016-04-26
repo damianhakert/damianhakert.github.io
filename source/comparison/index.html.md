@@ -78,7 +78,7 @@ View all the issues for the milestone you’re currently working on across multi
 GitLab not only allows you to search through code, but also searches through your commit messages.
 
 ### Don't take our word for it.
-Agilob contributed [a great article about why you should choose GitLab for your next open source project.](https://www.b.agilob.net/choose-gitlab-for-your-next-project/)
+agilob contributed [a great article about why you should choose GitLab for your next open source project.](https://b.agilob.net/choose-gitlab-for-your-next-project/)
 
 ## GitLab EE vs. GitHub Enterprise
 
