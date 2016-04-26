@@ -68,7 +68,7 @@ Quickly set the status, assignee or milestone for multiple issues at the same ti
 
 In GitLab, you can set a due date for individual issues. This is very convenient if you have small tasks with a specific deadline.
 
-### Move issues between projects
+#### Move issues between projects
 
 You can move issues between projects in GitLab. All links, history and comments
 will be copied and the original issue will reference the newly moved issue.
