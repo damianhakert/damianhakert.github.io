@@ -64,6 +64,16 @@ GitLab is meant to be the best place for any software project. The team behind G
 ### Powerful Issue Tracker
 Quickly set the status, assignee or milestone for multiple issues at the same time or easily filter them on any properties. See milestones and issues across projects.
 
+#### Due date
+
+In GitLab, you can set a due date for individual issues. This is very convenient if you have small tasks with a specific deadline.
+
+### Move issues between projects
+
+You can move issues between projects in GitLab. All links, history and comments
+will be copied and the original issue will reference the newly moved issue.
+This makes working with multiple issue trackers much easier.
+
 ### Search through Commits
 GitLab not only allows you to search through code, but also searches through your commit messages.
 
