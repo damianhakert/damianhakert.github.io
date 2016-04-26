@@ -37,12 +37,6 @@ Set permissions according to people's role, rather than either read or write acc
 
 [See the various authentication levels](http://doc.gitlab.com/ce/permissions/permissions.html)
 
-### Group-level milestones
-
-View all the issues for the milestone you’re currently working on across multiple projects.
-
-[Example milestone for GitLab 8.2 (need to be logged in)](https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2)
-
 ### Attachments in issues
 In GitLab you can attach any file to any issue or comment.
 
@@ -73,6 +67,12 @@ In GitLab, you can set a due date for individual issues. This is very convenient
 You can move issues between projects in GitLab. All links, history and comments
 will be copied and the original issue will reference the newly moved issue.
 This makes working with multiple issue trackers much easier.
+
+#### Group-level milestones
+
+View all the issues for the milestone you’re currently working on across multiple projects.
+
+[Example milestone for GitLab 8.2 (need to be logged in)](https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2)
 
 ### Search through Commits
 GitLab not only allows you to search through code, but also searches through your commit messages.
@@ -158,7 +158,7 @@ Create a template for issues and merge requests in your project to ensure all in
 ### Use the most installed on-premises Git solution
 GitLab is used by over 100,000 organizations worldwide, on their own servers.
 
-### Access to source code
+### Access to and possibility to modify the source code of GitLab
 
 The Ruby code in GitHub Enterprise is obfuscated.
 GitLab Enterprise Edition [has a publicly readable source code][ee-source] and
