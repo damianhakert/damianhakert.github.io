@@ -47,6 +47,11 @@ require [technical interviews](https://about.gitlab.com/jobs/#technical-intervie
 1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
 1. Hiring manager ensures that the contract is signed, and [starts the onboarding process](#move-to-onboarding) (the People Ops team can help).
 
+### Moving applicants to the next step
+
+If you have decided to let the applicant move on to the next interview, feel free to send the next interviewer's calendly link to the applicant.
+This saves the time that it would otherwise take for the next interviewer to get around to sending the link, and it thus works in everyone's benefit.
+
 ### Rejecting applicants
 
 1. At any time during the hiring process the applicant can be rejected
