@@ -438,7 +438,7 @@
 
 - name: Jacob Schatz
   role: <a href="https://about.gitlab.com/jobs/frontend-lead/">Frontend Lead</a>
-  reports_to: CTO
+  reports_to: VP of Engineering
   picture: jacobschatz.jpg
   twitter: jakecodes
   gitlab: jschatz1
@@ -801,7 +801,7 @@
           is always looking for the next interesting place to visit.
 
 - name: Mark Pundsack
-  role: Head of Product
+  role: <a href="https://about.gitlab.com/jobs/head-of-product/">Head of Product</a>
   reports_to: CEO
   picture: mpundsack.jpg
   twitter: MarkPundsack

@@ -37,12 +37,6 @@ Set permissions according to people's role, rather than either read or write acc
 
 [See the various authentication levels](http://doc.gitlab.com/ce/permissions/permissions.html)
 
-### Group-level milestones
-
-View all the issues for the milestone you’re currently working on across multiple projects.
-
-[Example milestone for GitLab 8.2 (need to be logged in)](https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2)
-
 ### Attachments in issues
 In GitLab you can attach any file to any issue or comment.
 
@@ -64,6 +58,22 @@ GitLab is meant to be the best place for any software project. The team behind G
 ### Powerful Issue Tracker
 Quickly set the status, assignee or milestone for multiple issues at the same time or easily filter them on any properties. See milestones and issues across projects.
 
+#### Due date
+
+In GitLab, you can set a due date for individual issues. This is very convenient if you have small tasks with a specific deadline.
+
+#### Move issues between projects
+
+You can move issues between projects in GitLab. All links, history and comments
+will be copied and the original issue will reference the newly moved issue.
+This makes working with multiple issue trackers much easier.
+
+#### Group-level milestones
+
+View all the issues for the milestone you’re currently working on across multiple projects.
+
+[Example milestone for GitLab 8.2 (need to be logged in)](https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2)
+
 ### Search through Commits
 GitLab not only allows you to search through code, but also searches through your commit messages.
 
@@ -81,7 +91,6 @@ GitLab has the most competitive pricing model in the market and a fraction of th
 Big repository? Huge (>5GB) binary files? No problem. GitLab is built to handle very large repositories, and Git Annex and LFS are both supported.
 
 [Using Git Annex with GitLab](https://about.gitlab.com/2015/02/17/gitlab-annex-solves-the-problem-of-versioning-large-binaries-with-git/)
-
 
 ### Rebase before merge in the web UI to prevent merge commits
 Before merging one branch in the other, GitLab can rebase it automatically.
@@ -148,6 +157,16 @@ Create a template for issues and merge requests in your project to ensure all in
 
 ### Use the most installed on-premises Git solution
 GitLab is used by over 100,000 organizations worldwide, on their own servers.
+
+### Access to and possibility to modify the source code of GitLab
+
+The Ruby code in GitHub Enterprise is obfuscated.
+GitLab Enterprise Edition [has a publicly readable source code][ee-source] and
+you have the right to modify the code.
+
+[Read the GitLab Enterprise Edition license](https://gitlab.com/gitlab-org/gitlab-ee/blob/master/LICENSE)
+
+[ee-source]: https://gitlab.com/gitlab-org/gitlab-ee
 
 ## GitLab.com vs. GitHub.com
 
