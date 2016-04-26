@@ -45,4 +45,7 @@ extra_css:
       #tabs
         - data.platforms.each do |platform|
           = partial "includes/downloads/platform", locals: {platform: platform}
+      .other-downloads
+        %h5
+          %a{href: "http://about.gitlab.com/downloads-ee"} Download GitLab Enterprise Edition
       = partial "includes/downloads/other"
