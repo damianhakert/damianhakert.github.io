@@ -155,8 +155,8 @@ You can find more information on using this image at: http://do.co/gitlabapp
 ```
 
 Next, open a web browser and navigate to your domain name (or the IP address of
-your Droplet if you did not set up a domain name). You will now be able to log
-in using the credentials you found above.
+your Droplet if you did not set up a domain name). You will be able to log in
+using the credentials you found above.
 
 ![Login](/images/blogimages/getting-started-with-gitlab-and-digitalocean/login-shadow.png)
 
@@ -167,11 +167,13 @@ repositories.
 
 ## Step Four – Modify Account Information
 
-It would probably be more helpful if the account you're using more accurately
+It would probably be more helpful if the account you're using, more accurately
 reflected your information. This will allow you to receive email updates and
-will display your information to other users.
+will display your information to other users. The root account is the first one
+created by default, and it contains some predefined values for "Name", "Username"
+and "Email". You can change all that from the "Admin Area".
 
-Let's navigate to the "Admin area" by clicking the wrench icon in the top-right
+Let's navigate to the "Admin Area" by clicking the wrench icon in the top-right
 corner.
 
 ![Admin](/images/blogimages/getting-started-with-gitlab-and-digitalocean/admin_button-shadow.png)
@@ -196,7 +198,7 @@ Click "Save changes" at the bottom for the changes to take effect.
 ## Updating to Newer Releases
 
 The GitLab One-Click application is configured to use the GitLab Apt repository.
-So upgrading to the most recent version is as simple as running:
+[Updating to the most recent version][update-doc] is as simple as running:
 
 ```
 sudo apt-get update
@@ -256,3 +258,4 @@ _Photo credits: <https://flic.kr/p/9RAQ2J> ([CC BY-NC 2.0][cc])_
 [runner-do]: /2016/04/19/how-to-set-up-gitlab-runner-on-digitalocean/
 [glci]: /gitlab-ci/
 [cc]: https://creativecommons.org/licenses/by-nc/2.0/
+[update-doc]: http://doc.gitlab.com/omnibus/update/README.html#updating-using-the-official-repositories
