@@ -6,6 +6,7 @@ Go to the [Marketing Handbook](/handbook/marketing)
 
 ## This page
 * [References](#references)
+* [Cases](#cases)
 * [Inbound Lead Flow](#leadFlow)
 * [Lead Qualification Process](#leadQual)
 * [Soft-BANT](#bant)
@@ -27,6 +28,10 @@ Go to the [Marketing Handbook](/handbook/marketing)
 - [Replace wufoo forms with Marketo forms](https://gitlab.com/gitlab-com/www-gitlab-com/issues/422)
 - [Marketo webhooks docs](http://developers.marketo.com/documentation/webhooks/)
 - [Recurly data into Marketo](https://gitlab.com/gitlab-com/www-gitlab-com/issues/526)
+
+## Cases<a name="cases"></a>
+
+1. Lorem Ipsum
 
 ## Inbound Lead Flow<a name="leadFlow"></a>
 
