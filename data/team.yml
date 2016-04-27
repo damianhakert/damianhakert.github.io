@@ -809,14 +809,17 @@
           Chris has an interest in DevOps and loves building software tools to automate and improve business operations.
           In his spare time, he enjoys catching waves on his bodyboard and exploring Asia with his partner.
 
-- name: S.M.
+- name: Sean McGivern
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Backend Lead
-  picture: logo-extra-whitespace.png
+  picture: smcgivern.jpg
   twitter:
-  gitlab:
+  gitlab: smcgivern
   story:  |
-          Joining April 27th
+          Sean likes writing code, and especially likes writing code that helps other
+          people write code. Despite dabbling with other editors, he's been unable to
+          break his Emacs habit. He lives in Scotland, and spends his free time playing
+          sports, overthinking films, and failing to maintain his garden.
 
 - name: Colton Taylor
   role: <a href="https://about.gitlab.com/jobs/business-development-team-lead/">Business Development Team Lead</a>
