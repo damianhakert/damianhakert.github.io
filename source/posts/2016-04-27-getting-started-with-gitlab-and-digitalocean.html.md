@@ -76,7 +76,8 @@ want to use DigitalOcean's nameservers.
 
 >**Note:**
 If you don't have a domain name at your disposal, you can just use your
-droplet's IP address, but GitLab will not be able to send emails.
+droplet's IP address, but GitLab will _not_ be able to send emails without
+using an SMTP server.
 
 Once your domain name is configured correctly, you need to adjust some values
 on the actual VPS instance. Log into your droplet as root through SSH, and open
