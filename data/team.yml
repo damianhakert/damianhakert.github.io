@@ -76,7 +76,7 @@
           Besides code, Job has an obsession for design and entrepreneurship and loves to play games of any kind.
 
 - name: Haydn Mackay
-  role: <a href="https://about.gitlab.com/jobs/account-manager/">Major Accounts Manager</a>
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Senior Accounts Executive</a>
   reports_to: CRO
   picture: picture_haydn.png
   twitter: haydnmackay
@@ -149,7 +149,7 @@
           He's focusing lately on security principles of mobile platforms and the "container revolution". In his spare time he likes to run, cycle and play good games, although not all at the same time.
 
 - name: Josh Wrede
-  role: <a href="https://about.gitlab.com/jobs/account-manager/">Account Manager</a>
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
   reports_to: CRO
   picture: josh.jpg
   twitter: wredej
@@ -169,7 +169,7 @@
           Richard enjoys most sports and the ones that he can no longer play he follows avidly especially Rugby. He enjoys playing Golf and Cycling but time is difficult to find with family and dog commitments.
 
 - name: Philip 'Phil' Camillo
-  role: <a href="https://about.gitlab.com/jobs/account-manager/">Account Manager</a>
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
   reports_to: CRO
   picture: phil.jpg
   twitter: pmanjr311
@@ -548,7 +548,7 @@
           technology, Astronomy and top spinning.
 
 - name: Timo Schuit
-  role: <a href="https://about.gitlab.com/jobs/account-manager/">Account Manager</a>
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Account Executive</a>
   reports_to: CRO
   picture: timo.jpg
   twitter: timouit
@@ -845,8 +845,17 @@
   story:  |
           Joining May 1st
 
+- name: M.C.
+  role: <a href="https://about.gitlab.com/jobs/technical-writer/">Junior Technical Writer</a>
+  reports_to: CMO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 2nd
+
 - name: M.W.
-  role: <a href="https://about.gitlab.com/jobs/account-manager/">Sr. Account Executive</a>
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Sr. Account Executive</a>
   reports_to: CRO
   picture: logo-extra-whitespace.png
   twitter:
