@@ -48,21 +48,21 @@ the provided image.
 From the Control Panel, click on the "Create Droplet" button that is visible
 from any page:
 
-![Create Droplet](/images/blogimages/getting-started-with-gitlab-and-digitalocean/create-droplet.png)
+![Create Droplet](/images/blogimages/getting-started-with-gitlab-and-digitalocean/create-droplet-shadow.png)
 
 Under the "Choose an image" section, select the "One-click Apps" tab and click
 the "GitLab" image (the version might differ).
 
-![Droplet app](/images/blogimages/getting-started-with-gitlab-and-digitalocean/select_gitlab_app.png)
+![Droplet app](/images/blogimages/getting-started-with-gitlab-and-digitalocean/select_gitlab_app-shadow.png)
 
 The next step is to choose the droplet size and the region you would like to use.
 
-![Hardware](/images/blogimages/getting-started-with-gitlab-and-digitalocean/hardware.png)
+![Hardware](/images/blogimages/getting-started-with-gitlab-and-digitalocean/hardware-shadow.png)
 
 Add any SSH Keys, select any settings you'd like to use, and click "Create" at
 the bottom.
 
-![Finalize creation](/images/blogimages/getting-started-with-gitlab-and-digitalocean/finalize.png)
+![Finalize creation](/images/blogimages/getting-started-with-gitlab-and-digitalocean/finalize-shadow.png)
 
 Your GitLab droplet will be created and available in a few minutes!
 
@@ -157,12 +157,12 @@ Next, open a web browser and navigate to your domain name (or the IP address of
 your Droplet if you did not set up a domain name). You will now be able to log
 in using the credentials you found above.
 
-![Login](/images/blogimages/getting-started-with-gitlab-and-digitalocean/login.png)
+![Login](/images/blogimages/getting-started-with-gitlab-and-digitalocean/login-shadow.png)
 
 You now have a full GitLab server configured and at your disposal to manage your
 repositories.
 
-![Landing](/images/blogimages/getting-started-with-gitlab-and-digitalocean/landing.png)
+![Landing](/images/blogimages/getting-started-with-gitlab-and-digitalocean/landing-shadow.png)
 
 ## Step Four – Modify Account Information
 
@@ -173,12 +173,12 @@ will display your information to other users.
 Let's navigate to the "Admin area" by clicking the wrench icon in the top-right
 corner.
 
-![Admin](/images/blogimages/getting-started-with-gitlab-and-digitalocean/admin_button.png)
+![Admin](/images/blogimages/getting-started-with-gitlab-and-digitalocean/admin_button-shadow.png)
 
 In the left sidebar click **Users**. This should only contain one user, the
 Administrator account you are logged into.
 
-![Users area](/images/blogimages/getting-started-with-gitlab-and-digitalocean/admin_users.png)
+![Users area](/images/blogimages/getting-started-with-gitlab-and-digitalocean/admin_users-shadow.png)
 
 Click on the "Edit" button and change the account information at the top.
 
@@ -188,7 +188,7 @@ is where alerts will be sent.
 
 It is important to at least change the email field.
 
-![Account edit](/images/blogimages/getting-started-with-gitlab-and-digitalocean/account.png)
+![Account edit](/images/blogimages/getting-started-with-gitlab-and-digitalocean/account-shadow.png)
 
 Click "Save changes" at the bottom for the changes to take effect.
 
