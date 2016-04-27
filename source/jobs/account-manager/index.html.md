@@ -14,7 +14,7 @@ GitLab is an application to code, test, and deploy code together. It provides Gi
 * Advocate for customer needs for training and services where needed
 * Own the renewal process
 * Identify and document growth opportunities within account
-* Advocate for the overall health of relationship to GitHub acting proactively to address issues and concerns
+* Advocate for the overall health of relationship to GitLab acting proactively to address issues and concerns
 * Help map customers process and goals
    
 ## Requirements for Applicants
