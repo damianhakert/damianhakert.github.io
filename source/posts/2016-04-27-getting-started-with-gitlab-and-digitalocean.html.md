@@ -4,9 +4,13 @@ title: "Getting started with GitLab and DigitalOcean"
 date: 2016-04-27
 author: Achilleas Pipinellis
 author_twitter: _axil
-categories: digitalocean
-image_title: '/images/unsplash/sharks.jpg'
+categories: tutorials
+tags: digitalocean, gitlab
+image_title: '/images/blogimages/sharks-paper.jpg'
 ---
+
+_This tutorial is adapted from the [How To Use the GitLab One-Click Install
+Image to Manage Git Repositories][do-source] tutorial on DigitalOcean._
 
 ### Introduction
 
@@ -224,10 +228,17 @@ out the [official documentation][omnidocs].
 
 ---
 
-_This tutorial is adapted from the [How To Use the GitLab One-Click Install
-Image to Manage Git Repositories][do-source] tutorial on DigitalOcean._
+If you already have GitLab installed and want to use the [integrated CI][glci]
+for your projects, check our other tutorial on
+[setting up GitLab Runner on DigitalOcean][runner-do].
 
-[![Powered by DigitalOcean](/images/blogimages/powered-by-do-badge-gray.svg)](https://www.digitalocean.com/features/one-click-apps/gitlab/)
+---
+
+[![Powered by DigitalOcean](/images/blogimages/powered-by-do-badge-gray.png)](https://www.digitalocean.com/features/one-click-apps/gitlab/)
+
+---
+
+_Photo credits: <https://flic.kr/p/9RAQ2J> ([CC BY-NC 2.0][cc])_
 
 [digitalocean]: https://www.digitalocean.com
 [omnibus installer]: /2016/03/21/using-omnibus-gitlab-to-ship-gitlab/
@@ -241,3 +252,6 @@ Image to Manage Git Repositories][do-source] tutorial on DigitalOcean._
 [omnidocs]: http://doc.gitlab.com/omnibus
 [do-source]: https://www.digitalocean.com/community/tutorials/how-to-use-the-gitlab-one-click-install-image-to-manage-git-repositories
 [swap]: https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04
+[runner-do]: /2016/04/19/how-to-set-up-gitlab-runner-on-digitalocean/
+[glci]: /gitlab-ci/
+[cc]: https://creativecommons.org/licenses/by-nc/2.0/
