@@ -68,6 +68,7 @@ for tough issues.
 
 By triaging support effort through internal SLA's, the team can improve the support experience
 for key customers while still addressing the questions of all subscribers, and the rest of the GitLab community.
+Rather than promising and delivering "next business day" support, we'd like to deliver a median first response time of less than one hour.
 
 ## Support Turbo<a name="support-turbo"></a>
 
