@@ -317,6 +317,14 @@ of GitLab.com and to follow up on users reporting that GitLab.com is unavailable
 
 When a tweet mentions 1 or more of the handles described above, it should be replied to from the main handle (@GitLab).
 
+When resolving Twitter tickets you should:
+
+1. Start by the oldest ticket first
+1. Not skip any tickets
+1. Assign the ticket to yourself and ask on the appropriate Slack 
+   channel if you don't know the answer
+1. Not cross assign tickets
+
 ### Facebook<a name="facebook"></a>
 
 Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed into ZenDesk.
