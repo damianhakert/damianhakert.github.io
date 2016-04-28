@@ -11,7 +11,7 @@ Make sure to check that if you're looking for anything in particular.
 
 ## Always log into the  room
 
-Before you start fixing stuff, log into the [ room](https://gitlab.slack.com/messages/operations/) and leave a message. Other people might be working at the same time, especially if there was a pagerduty alert. If you don't immediately know what happened, create a postmortem doc with a sequential timeline.
+Before you start fixing stuff, log into the [room](https://gitlab.slack.com/messages/infrastructure/) and leave a message. Other people might be working at the same time, especially if there was a pagerduty alert. If you don't immediately know what happened, create a postmortem doc with a sequential timeline.
 
 ### Why did server X stop working on Monday morning?
 
