@@ -92,7 +92,7 @@ Next to Savvy, the People Ops team will also get a copy of the form info for you
 #### All team members
 
 * [ ] New team member: Register on 1Password by clicking on the link in the shared Google Doc titled "Link to 1Password Sign-Up"
-and then ping @rspeicher to confirm your account.
+and then ping @rspeicher to confirm your account. You can find this (and other) shared Google Docs by using ["Search <your domain>"](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
 * [ ] New team member: once you are registered on 1Password, ping your hiring manager to grant you access
 to the proper shared Vaults by making a suggestion in the relevant cell in the "1password Shared Folders" Google Sheet.
 * [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
@@ -122,9 +122,8 @@ to the proper shared Vaults by making a suggestion in the relevant cell in the "
    * [ ] 9. call with ___
    * [ ] 10. call with ___
 * [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar, stock photo or something with sunglasses).
-* [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. Assign the merge request to your hiring manager.
-* [ ] Hiring manager: Merge the request to add the new team member to be added to the team page, and coordinate with Marketing to send out a tweet from `@gitlab`.
-* [ ] Marketing / @amara: Send out or schedule a tweet about the new hire. Make screenshot of the profile and possibly use the template: Very happy to announce that [NAME] joined our #[TEAM] team! Welcome! https://about.gitlab.com/team/
+* [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. Assign the merge request to your hiring manager, and @ mention @amara so that she can schedule the tweet that announces you!
+* [ ] @amara: Send out or schedule a tweet about the new hire when the addition to the team page has been merged. Make screenshot of the profile and possibly use the template: Very happy to announce that [NAME] joined our #[TEAM] team! Welcome! https://about.gitlab.com/team/
 * [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing).
 * [ ] New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
 * [ ] New team member: Read the [Summit page](https://gitlab.com/summits/Austin-Summit-2016-project/) and save the date!
