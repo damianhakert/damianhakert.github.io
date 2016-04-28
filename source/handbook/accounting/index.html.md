@@ -6,7 +6,6 @@ title: "Accounting"
 ## Accounting Topics
 
 * [General Topics](#general-topics)
-   * [Company phone number](#phone-number)
    * [Company accounts](#company-accounts)
 * [Processing Payroll](#payroll)
    * [GitLab Inc. payroll](#payroll-inc)
@@ -19,15 +18,9 @@ title: "Accounting"
 
 ## General Topics<a name="general-topics"></a>
 
-### Company phone number<a name="phone-number"></a>
-
-When needing to fill in details of GitLab's contact information you can take the addressess of the offices for reference.
-If a phone number is asked, leaving this field empty is our default answer, otherwise if this does not work you can use
-the general number (+1-415-761-1791), but be aware that this number simply guides to a voice message that refers the caller back to contacting us via email.
-
 ### Company accounts<a name="company-accounts"></a>
 
-Login information for the following accounts can be found in the Secretarial vault 
+Login information for the following accounts can be found in the Secretarial vault
 on 1Password:
 
 - FedEx
@@ -86,7 +79,7 @@ They can login and download their payslip to their computer if needed.
 
 ## Invoice template and where to send <a name="invoices"></a>
 
-NOTE: Vendor and contractor invoices are to be sent to ap@gitlab.com. An invoice 
+NOTE: Vendor and contractor invoices are to be sent to ap@gitlab.com. An invoice
 template can be found in Google Docs by the name of "Invoice Template".
 
 ### A note on VAT for transactions between GitLab BV and EU-based vendors

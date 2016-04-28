@@ -4,6 +4,7 @@ title: "People Operations"
 ---
 
 - [Reaching People Operations](#reach-peopleops)
+- [Office addresses](#addresses)
 - [Setting up new contracts](#new-contracts)
    - [Using HelloSign](#hellosign)
 - [Processing changes](#processing-changes)
@@ -24,6 +25,12 @@ title: "People Operations"
 To reach People Operations, please post an issue on our [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/)
 and add the 'PeopleOps' label, or send an email to the People Operations group (see the "GitLab Email Forwarding" google doc), or ping an individual
 member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
+
+## Office addresses<a name="addresses"></a>
+
+- For the SF office, see our [visiting](https://about.gitlab.com/visiting/) page.
+- For the NL office, we use a postbox address listed in the "GitLab BV address" note in the Shared vault on 1Password. We use [addpost](www.addpost.nl) to scan our mail and send it along to a physical address upon request. The scans are sent via email to the email alias listed in the "GitLab Email Forwarding" google doc.
+
 
 ## Setting up new hiring contracts<a name="new-contracts"></a>
 
