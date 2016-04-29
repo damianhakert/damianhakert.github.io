@@ -65,5 +65,5 @@ So, the answer is, GitLab.com is currently running on 45 servers. However, if we
 count the build hosts for Shared Runners, then GitLab.com is using 60 to 200 servers!
 
 We appreciate the question and the curiousity. As always, keep the questions coming!
-You can also visit [our Operations issue tracker](https://gitlab.com/gitlab-com/operations/issues)for a live look at what
+You can also visit [our Operations issue tracker](https://gitlab.com/gitlab-com/operations/issues) for a live look at what
 the team is working on. 
