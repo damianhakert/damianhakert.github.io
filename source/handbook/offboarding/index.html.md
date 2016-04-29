@@ -21,6 +21,7 @@ When you paste it in an issue it will have checkboxes that you can click to comp
      the Google account), transfer owned documents from Google Drive to
    manager, and delete the Google account. (automatically disables Drive access)
 * [ ] Manager of former team member: Organize smooth hand over of any work or tasks from former team member.
+* [ ] Manager: offer option to send a message to everyone in the company (i.e. forwarded by the manager), for a farewell message and/or to transmit their personal email address in case people wish to stay in touch.
 * [ ] Manager: Announce in general chat channel 'X is no longer with GitLab'
 * [ ] Manager: Put on the agenda for the next team call 'X is no longer with GitLab'
 * [ ] Manager: Remove access to SalesForce.
@@ -37,7 +38,7 @@ for further details on that process.
 * [ ] @wilson: Remove access to company credit card.
 * [ ] People Ops: Remove from Beamy
 * [ ] People Ops: Remove team member from the GitLab availability calendar.
-* [ ] People Ops: Remove team member from team call invitation.
+* [ ] People Ops: Remove team member from team call invitation; and remove from Team Call Agenda.
 * [ ] Ernst/Paul: Remove team member from HelloSign, if applicable.
 * [ ] People Ops: Remove team member from map / Sundial.
 * [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team)
