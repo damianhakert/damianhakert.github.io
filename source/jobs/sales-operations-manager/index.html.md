@@ -14,7 +14,7 @@ Your impact will help us make it easier to maintain a competitive edge, enhance 
 * Manager Platforms and Systems: Responsible for all SalesForce.com administration including user management, data management, application setup, customization, reports and dashboards. Zuora, WebEx, TrainTool, etc.
 * Partner in the development of sales coverage, headcount planning and sales quota.
 * Create and manage New Hire Boot Camps to quickly ramp up Sales Reps
-* Improve and manage the Corporate Sales Certification Program
+* Improve and manage the [Sales Onboarding Bootcamp](https://about.gitlab.com/handbook/sales-onboarding/) 
 * Create Board level presentations for the Chief Revenue Officer
 * Manage, analyze and summarize the weekly Sales Forecast
 * Create and manage programs for Weekly and Quarterly Sales Training sessions
