@@ -73,9 +73,10 @@ for key customers while still addressing the questions of all subscribers, and t
 
 ## Support Issue Tracker <a name="issue-tracker"></a>
 
-The Support project hosts an issue tracker meant to improve our workflow 
-by reporting any problems that may arise on our tools or processes. Its 
-also meant to propose and discuss ideas in general. 
+The [Support project](https://gitlab.com/gitlab-com/support/issues) 
+hosts an issue tracker meant to improve our workflow by reporting any 
+problems that may arise on our tools or processes. Its also meant to 
+propose and discuss ideas in general. 
 
 The issue tracker is open to the community and part of the GitLab.com 
 group. It should not contain any sensitive information. Links to ZenDesk 
