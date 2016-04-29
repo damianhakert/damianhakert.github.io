@@ -3,9 +3,7 @@ layout: markdown_page
 title: "GitLab Offboarding"
 ---
 
-Create issue for former team member on the dev server in the [people ops confidential project](https://dev.gitlab.org/gitlab/people-ops-confidential/issues/) and add the following checklist (edit it for applicability to the individual).
-This list looks strange in this handbook but this is to ensure you can copy paste it into an issue.
-When you paste it in an issue it will have checkboxes that you can click to complete.
+Create issue for former team member on the dev server in the [organization issue tracker](https://dev.gitlab.org/gitlab/organization/issues/), and add the following checklist (edit it for applicability to the individual). This list looks strange in this handbook but this is to ensure you can copy paste it into an issue. When you paste it in an issue it will have checkboxes that you can click to complete.
 
 ```
 * [ ] For this offboarding, the manager is @MENTION, People Ops is handled by @MENTION. cc @rspeicher, @jacobvosmaer, @patricio, @ernst.
