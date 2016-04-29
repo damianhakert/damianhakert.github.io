@@ -51,7 +51,7 @@ with Git and the GitLab workflow.
 * [ ] Robert/Jacob/Ernst: Add to [Slack](https://gitlab.slack.com/admin)
 * [ ] People Ops: Give team member access to the GitLab availability calendar
 * [ ] People Ops: Add new team member to the next monthly GitLab 101 call
-* [ ] People Ops: Invite to team meeting.
+* [ ] People Ops: Invite to team meeting, and re-arrange the days on which team members speak in the Team Call Agenda.
 * [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment.
 * [ ] People Ops: Assign buddy and explain to buddy what that means: "If she/he
 has questions she/he can come to you. But your main job as a buddy will be to
