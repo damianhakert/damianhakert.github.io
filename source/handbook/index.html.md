@@ -391,6 +391,7 @@ and how to swap duty in the [PagerDuty](https://about.gitlab.com/handbook/suppor
 1. Only the CEO of the company **signs** legal documents such as NDAs. Sales people and the business office manager can upload them via HelloSign.
 1. View our [DMCA policy](https://about.gitlab.com/dmca) in regards to copyright /
 intellectual property violations
+1. Comply with the [GitLab Inc. Proprietary Information and Assignment Agreement](Proprietary Information and Assignment Agreement) and/or [GitLab B.V. NDA and IP Agreements](https://about.gitlab.com/handbook/contracts/#bv-nda-ip).
 
 ## Spending Company Money<a name="spending-company-money"></a>
 
