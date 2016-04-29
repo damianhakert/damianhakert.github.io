@@ -178,7 +178,7 @@ reply, such as OK, thanks, or done.
 1. If you forward an email without other comments please add FYI (for your
 information) or FYA (for your action). If you forward an external request with FYA it doesn't mean that the company should do whatever is proposed, it just means the person who forwarded it will not follow up on the request.
 1. If you want to create, or be added or removed from an internal email alias (e.g.
-`sales@gitlab.com`) please see the [GitLab Email Forwarding doc](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit#).
+`sales@gitlab.com`) please see the shared "GitLab Email Forwarding" doc.
 1. If you use chat please use a public channel whenever possible, mention the
 person you want to reach if it is urgent. This ensures it is easy for other people
 to chime in, and easy to involve other people, if needed.
@@ -199,6 +199,7 @@ Google Drive.
 Instead, write the name of the Google Doc. In the past, giving the URL of a doc
 has led to inadvertent opening of sharing settings beyond what was intended, and it also helps
 prevent spam from people outside of GitLab who request access to the doc when they see the link.
+1. If you are having trouble finding a shared Google Doc, make sure you ["Search <your domain>"](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
 1. All our procedures and templates are stored in (mostly public) git repositories
 instead of Google/Word documents. This makes them easier to find and suggest
 changes to with the organization and shows our commitment to open collaboration
@@ -208,8 +209,7 @@ or over chat.
 1. Having pets, children, significant others, friends and family visible during
 video chats is encouraged. If they are humans, ask them to wave at your remote
 team member to say 'Hi'.
-1. Email forwarding rules are specified in [a Google Doc accessible to people in
-the company](https://docs.google.com/document/d/1rrVgD2QVixuAf07roYws7Z8rUF2gJKrrmTE4Z3vtENo/edit), if you want to change a rule or add a forwarding email alias, please [make a suggestion](https://support.google.com/docs/answer/6033474?hl=en) in the document.
+1. Email forwarding rules are specified in the shared "GitLab Email Forwarding" Google doc accessible to people in the company, if you want to change a rule or add a forwarding email alias, please [make a suggestion](https://support.google.com/docs/answer/6033474?hl=en) in the document.
 1. Emails are asynchronous, for example if your manager emails you on a weekend
 it is fine to reply during the workweek.
 1. If an email is or has become urgent feel free to ping people via chat referencing
@@ -538,9 +538,9 @@ This section is for tools that don't fit anywhere else.
 
 1. Set up a [Calendly](https://calendly.com/) account
 1. Link it to your GitLab Google Calendar to make it possible for people to schedule a call with you
-1. All meetings will have the same Google Hangout URL on your calendar based on your @gitlab.com email handle. You can use that in the booking text above. Events on your calendar will automatically have the Google Hangout URL added, so you can use [the plus landingpage](https://plus.google.com/hangouts/_/gitlab.com) to quickly jump into the call. Please note that the appointment will show up in other peoples calendar with a different link, to it is assential that you set a text with the link for your timeslot as specified below.
-1. Set up the 45 minute timeslot with the text: "This will be a Google Hangout at https://plus.google.com/hangouts/_/gitlab.com/XXXXX Question? Please email me. GitLab Primer: https://about.gitlab.com/primer/"
-1. For people outside of GitLab Inc, send them your Calendly link that links directly to the 45 minute timeslot: "Are any of the times on https://calendly.com/XXXXX/45min/ convenient for you? If so please book one, if not please let me know what times are good for you and we'll find an alternative."
+1. All meetings will have the same Google Hangout URL on your calendar based on your @gitlab.com email handle. You can use that in the booking text above. Events on your calendar will automatically have the Google Hangout URL added, so you can use [the plus landing page](https://plus.google.com/hangouts/_/gitlab.com) to quickly jump into the call. Please note that the appointment will show up in other peoples calendar with a different link, to it is essential that you set a text with the link for your time slot as specified below.
+1. Set up the 45 minute time slot with the text: "This will be a Google Hangout at https://plus.google.com/hangouts/_/gitlab.com/XXXXX Question? Please email me. GitLab Primer: https://about.gitlab.com/primer/"
+1. For people outside of GitLab Inc, send them your Calendly link that links directly to the 45 minute time slot: "Are any of the times on https://calendly.com/XXXXX/45min/ convenient for you? If so please book one, if not please let me know what times are good for you and we'll find an alternative."
 1. Update you availability on [Calendy Event Types](https://calendly.com/event_types/)
 1. Consider adding your Calendly link to your [Slack profile](https://get.slack.help/hc/en-us/articles/204092246-Editing-your-profile) For `Display Text`, use this line: `Schedule a meeting with me!` so team members can schedule a 1:1 call with you in GitLab, by simply click your Calendly link in your Slack profile.
 
