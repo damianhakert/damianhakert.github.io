@@ -21,9 +21,9 @@ those servers are up to.
 
 For running GitLab.com as an application we have:
 * 5 HAProxy load balancers that are handling GitLab.com http, https, and ssh
-* 2 HAProxy load balancers that are handling "alternative ssh" (altssh.GitLab.com?) so they do redirection from 443 to 22
+* 2 HAProxy load balancers that are handling "alternative ssh" (altssh.GitLab.com) so they do redirection from 443 to 22
 * 2 HAProxy load balancers that are handling pages.GitLab.com http and https
-* 20 workers running GitLab EE application stack (nginx, workhorse, unicorn + rails, redis + saidkiq)
+* 20 workers running GitLab EE application stack (nginx, workhorse, unicorn + rails, redis + sidkiq)
 * 2 NFS servers for the storage
 * 2 Redis servers
 * 2 PostgreSQL servers
@@ -33,8 +33,8 @@ Those are servers that we manage directly. With that, the server count is at 38.
 
 ## Next 
 
-We also use 6 of Azure's "Availability Sets" 3 for load balancers (1 for redis HA, 1 for 
-PostgreSQL HA, and 1 forElasticsearch HA). Each of these Availability Sets has it's own "internal" 
+We also use 6 of Azure's "Availability Sets" 3 for load balancers, 1 for redis HA, 1 for 
+PostgreSQL HA, and 1 forElasticsearch HA. Each of these Availability Sets has it's own "internal" 
 load balancer that is managing the HA traffic. If we count them as a GitLab.com servers, then 
 we need to add 6 servers (now, the count is 44). 
 
