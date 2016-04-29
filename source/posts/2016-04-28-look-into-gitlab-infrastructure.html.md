@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "An inside look at the infrastructure of GitLab.com"
-date: 2016-04-28
+date: 2016-04-28 17:00
 author: Tomasz Maczukin
 author_twitter: TomaszMaczukin 
 categories: 
@@ -20,14 +20,14 @@ those servers are up to.
 ## Baseline
 
 For running GitLab.com as an application we have:
-* 5 HAProxy load balancers that are handling GitLab.com http, https, and ssh
-* 2 HAProxy load balancers that are handling "alternative ssh" (altssh.GitLab.com) so they do redirection from 443 to 22
-* 2 HAProxy load balancers that are handling pages.GitLab.com http and https
-* 20 workers running GitLab EE application stack (nginx, workhorse, unicorn + rails, redis + sidkiq)
-* 2 NFS servers for the storage
-* 2 Redis servers
-* 2 PostgreSQL servers
-* 3 Elasticsearch servers 
+- 5 HAProxy load balancers that are handling GitLab.com http, https, and ssh
+- 2 HAProxy load balancers that are handling "alternative ssh" (altssh.GitLab.com) so they do redirection from 443 to 22
+- 2 HAProxy load balancers that are handling pages.GitLab.com http and https
+- 20 workers running GitLab EE application stack (nginx, workhorse, unicorn + rails, redis + sidekiq)
+- 2 NFS servers for the storage
+- 2 Redis servers
+- 2 PostgreSQL servers
+- 3 Elasticsearch servers 
 
 Those are servers that we manage directly. With that, the server count is at 38.  
 
@@ -54,9 +54,9 @@ users.
 Ah! Don't forget about autoscaled Docker machines! Each user's builds are running on Docker hosts 
 created "on demand" by the autoscaling mode of the Runner. Last week, I looked at a diagram of the
 machine utilization and it showed that we had:
-* minimum 12 machines running at once,
-* maximum 150 machines running at once,
-* an average of 54 machines running at once.
+- minimum 12 machines running at once,
+- maximum 150 machines running at once,
+- an average of 54 machines running at once.
 Because Shared Runners can be used by all GitLab.com users then I would count them as well!
 
 ## Final count
