@@ -19,6 +19,7 @@ title: "People Operations"
    - [Making changes in TriNet](#changes-trinet)
 - [Returning property to GitLab](#returning-property)
 - [Using RingCentral](#ringcentral)
+- [Paperwork people may need to obtain mortgage in the Netherlands](#dutch-mortgage)
 
 ## Reaching People Operations<a name="reach-peopleops"></a>
 
@@ -299,3 +300,20 @@ want to make changes.
 the current settings which show all the people and numbers that are alerted when the listed User's
 number is dialed.
 - Add the new forwarding number (along with a name for the number), and click Save.
+
+## Paperwork people may need to obtain mortgage in the Netherlands<a name="dutch-mortgage"></a>
+
+When your employment contract is for a fixed period of time (e.g. 12 months) you'll need a "werkgeversverklaring". 
+This document describes your salary and states that your employer expects to continue to employ 
+you after the contract expires (assuming the performance of the employee doesn't degrade). 
+This document has to be filled in by hand, preferably using blue ink, and must be signed 
+and stamped. If there is no stamp (as is the case for GitLab) an extra letter (also signed) 
+must be supplied that states the employer has no stamp. While the language of these 
+documents doesn't matter, the use of Dutch is preferred.
+
+Employees also have to provide a copy of a payslip that clearly states not only their 
+monthly salary but also their annual salary. These numbers must match the numbers on 
+the "werkgeversverklaring" down to the decimals. Mortgage providers may also require 
+you to provide information about your financial status, usually in the form of a report/screenshot 
+of your total financial status (including any savings you have). The requirements for 
+this seem to vary a bit between mortgage providers.
