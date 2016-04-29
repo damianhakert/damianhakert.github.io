@@ -21,9 +21,9 @@ those servers are up to.
 
 For running GitLab.com as an application we have:
 
-- 5 HAProxy load balancers that are handling GitLab.com http, https, and ssh
-- 2 HAProxy load balancers that are handling "alternative ssh" (altssh.GitLab.com) so they do redirection from 443 to 22
-- 2 HAProxy load balancers that are handling pages.gitlab.io http and https
+- 5 HAProxy load balancers that are handling GitLab.com HTTP, HTTPS, and SSH
+- 2 HAProxy load balancers that are handling "[alternative SSH][altssh]" (altssh.GitLab.com) so they do redirection from 443 to 22
+- 2 HAProxy load balancers that are handling <https://pages.gitlab.io> HTTP and HTTPS
 - 20 workers running GitLab EE application stack (Nginx, Workhorse, Unicorn + Rails, Redis + Sidekiq)
 - 2 NFS servers for the storage
 - 2 Redis servers
@@ -39,9 +39,9 @@ PostgreSQL HA, and 1 for Elasticsearch HA. Each of these Availability Sets has i
 load balancer that is managing the HA traffic. If we count them as a GitLab.com servers, then
 we need to add 6 servers (now, the count is 44).
 
-We also have 3 servers for GitLab Runners in autoscale mode. Two of them are managing autoscaling
+We also have 3 servers for GitLab Runners in [autoscale mode][scale]. Two of them are managing autoscaling
 of runners for GitLab CE/EE projects (so they are used only by GitLab and I will not count them).
-But the third is used to manage autoscaling for Shared Runners at GitLab.com. So +1 for
+But the third is used to manage [autoscaling for Shared Runners][shared] at GitLab.com. So +1 for
 the "Shared Runners manager."
 
 We also have some servers that are specific for GitLab as a company (Runners for building
@@ -70,3 +70,7 @@ count the build hosts for Shared Runners, then GitLab.com is using 60 to 200 ser
 We appreciate the question and the curiosity. As always, keep the questions coming!
 You can also visit [our Operations issue tracker](https://gitlab.com/gitlab-com/operations/issues) for a live look at what
 the team is working on.
+
+[altssh]: /2016/02/18/gitlab-dot-com-now-supports-an-alternate-git-plus-ssh-port/
+[shared]: /2016/04/05/shared-runners/
+[scale]: /2016/03/29/gitlab-runner-1-1-released/
