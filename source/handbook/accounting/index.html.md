@@ -15,6 +15,7 @@ title: "Accounting"
 * [Company Credit Cards](#company-cc)
 * [Accounts Receivable](#ar)
 * [Cash Receipt](#cash-receipt)
+* [GitLab, Inc. Exercise Stock Options (How to Purchase Vested Shares of Stock Granted)
 
 ## General Topics<a name="general-topics"></a>
 
@@ -260,3 +261,14 @@ In Quickbooks:
 1. Fill the "Reference No." with the check # or bank reference # from incoming wire.
 1. Fill the "Deposit to" with "Comerica Checking".
 1. Fill the "Amount Received" with the amount received from the incoming wire.
+
+### GitLab, Inc. Exercise Stock Options (How to Purchase Vested Shares of Stock Granted)
+1. Please find your Option Grant Notice sent to you by eShares.
+1. Complete the documentation to "Exercise" and any other requirements outlined in the document.
+1. Your vested shares are X at $0.00 per share.
+1. Write a Check to GitLab, Inc for the amount of shares you want to purchase. 
+1. Make copies of the Grant Notice and Exercise documentation, and a copy of your check for your records 
+(it is always best to send this type of mail via "returnm receipt" that way you know the recipient 
+has received the important documents). 
+1. Send a PDF of the completed documents to our CFO. 
+1. Send the originals of the Grant Notice/Exercise documents and the check to GitLab, Inc. US HQ's. 
