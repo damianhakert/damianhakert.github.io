@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "An inside look at the infrastructure of GitLab.com"
-date: 2016-04-28 17:00
+date: 2016-04-29
 author: Tomasz Maczukin
 author_twitter: TomaszMaczukin
 categories:
