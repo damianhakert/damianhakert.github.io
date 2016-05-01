@@ -828,14 +828,17 @@
   story:  |
           Joining April 27th
 
-- name: M.F.
+- name: Mark Fletcher
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
   reports_to: Lead Service Engineer
   picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  gitlab: markglenfletcher
+  picture: mark.png
   story:  |
-          Joining May 1st
+          Mark's experience within the technology sector has been varied, including various Web Development and Technical Support roles.
+          One of the most challenging being providing Internet connectivity to remote parts of the French Alps.
+          Whenever possible, he likes to hone his skills in the arts of skiing, cooking, travelling, lifting heavy things and avoiding running anywhere.
+          One day, he would really a dog to call his own, so he can stop bothering other people's.
 
 - name: M.C.
   role: <a href="https://about.gitlab.com/jobs/technical-writer/">Junior Technical Writer</a>
