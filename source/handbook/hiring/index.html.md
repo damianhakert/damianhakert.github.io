@@ -37,13 +37,14 @@ mind that the most time consuming aspect tends to be review of the first wave of
 1. Confirm application: applicants automatically receive confirmation of their application, thanking them for submitting their information. This is an automated message from Workable. If the person came though another channel please add them to Workable before continuing the process. There are various ways to do this, see [Workable's documentation](https://resources.workable.com/adding-candidates).
 1. Ask more information if needed: if information is missing and the applicant seems sufficiently promising (or not enough information to be able to make that determination), the appropriate person from the hiring team should follow up requesting additional information.
 1. Hiring manager does a first round of rejections. Disqualified candidates should be sent a note informing them of the rejection. There are templates in Workable to assist, but messages can be tailored as appropriate: place yourself in the receiving end of the message.
-1. [Screening call](#screening-call) (optional, see below for further detail).
+1. [Screening call](#screening-call): in Workable, leave a note for our [administrative coordinator](https://about.gitlab.com/jobs/administrative-coordinator/) to ping for a screening call; and also move the applicant to the "screening call" stage in Workable. Depending on the outcome of the screening call, the hiring manager can either [reject an applicant](#rejecting), or move the applicant to the interview stage in Workable.
 1. Technical interview (optional): As described on the [Jobs](https://about.gitlab.com/jobs/) page, certain positions
 require [technical interviews](https://about.gitlab.com/jobs/#technical-interview).
 1. Manager interview (see below for questions)
 1. For female candidates, include at least one interview with a female GitLab team member.
 1. C-level executive interview (if different than the manager, see below for questions)
 1. CEO interview (if different than the C-level executive, see below for questions)
+1. Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
 1. Make a verbal or written (email) offer (the CEO needs to authorize offers)
 1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
 1. Hiring manager ensures that the contract is signed, and [starts the onboarding process](#move-to-onboarding) (the People Ops team can help).
@@ -53,7 +54,7 @@ require [technical interviews](https://about.gitlab.com/jobs/#technical-intervie
 If you have decided to let the applicant move on to the next interview, feel free to send the next interviewer's calendly link to the applicant.
 This saves the time that it would otherwise take for the next interviewer to get around to sending the link, and it thus works in everyone's benefit.
 
-### Rejecting applicants
+### Rejecting applicants<a name="rejecting"></a>
 
 1. At any time during the hiring process the applicant can be rejected
 1. The applicant should always be notified of this. The hiring manager is primarily
