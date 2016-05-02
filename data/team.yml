@@ -31,7 +31,7 @@
 
 - name: Marin Jankovski
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: picture_marin.jpg
   twitter: maxlazio
   gitlab: marin
@@ -48,7 +48,7 @@
 
 - name: Jacob Vosmaer
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: picture_jacob.png
   twitter: jacobvosmaer
   gitlab: jacobvosmaer
@@ -88,7 +88,7 @@
 
 - name: Valery Sizov
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: picture_vsizov.png
   twitter: Sizov_Valeriy
   gitlab: vsizov
@@ -114,7 +114,7 @@
           to swim, play video games and spend time with his family and friends.
 
 - name: Douwe Maan
-  role: <a href="https://about.gitlab.com/jobs/development-lead/">Development Lead</a>
+  role: <a href="https://about.gitlab.com/jobs/backend-lead/">Backend Lead</a>
   reports_to: CEO
   picture: picture_douwe.png
   twitter: DouweM
@@ -137,7 +137,7 @@
 
 - name: Kamil Trzciński
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: kamil.jpg
   twitter: ayufanpl
   gitlab: ayufan
@@ -179,7 +179,7 @@
 
 - name: Robert Speicher
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: rspeicher.jpg
   twitter: rspeicher
   gitlab: rspeicher
@@ -287,7 +287,7 @@
 
 - name: Yorick Peterse
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: picture_yorick.jpg
   twitter: yorickpeterse
   gitlab: yorickpeterse
@@ -319,7 +319,7 @@
 
 - name: Gabriel Mazetto
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: gabriel.jpg
   twitter: brodock
   gitlab: brodock
@@ -344,7 +344,7 @@
 
 - name: Rubén Dávila
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: ruben.jpg
   twitter: rdavila
   gitlab: rdavila
@@ -372,7 +372,7 @@
 
 - name: Grzegorz 'Greg' Bizon
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: grzegorz.png
   twitter: GrzegorzBizon
   gitlab: grzesiek
@@ -388,7 +388,7 @@
 
 - name: Douglas Alexandre
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: douglas.png
   twitter: dbalexandre
   gitlab: dbalexandre
@@ -452,7 +452,7 @@
          Ian's just your normal nerd who lives on a farm.  He blows and tinkers with glass in order to build telescopes and make neon art, is a board member and former president of his local hackerspace, and volunteers at a school for hearing impaired children in his spare time.  .
 - name: Tomasz Maczukin
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: tomasz.jpg
   twitter: TomaszMaczukin
   gitlab: tmaczukin
@@ -474,7 +474,7 @@
 
 - name: Rémy Coutable
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: remy.png
   twitter: rymai
   gitlab: rymai
@@ -492,7 +492,7 @@
 
 - name: Josh Frye
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: jfrye.jpg
   twitter: joshfng
   gitlab: joshfng
@@ -521,7 +521,7 @@
 
 - name: James Lopez
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: james.png
   twitter: jlopezofficial
   gitlab: jameslopez
@@ -623,7 +623,7 @@
 
 - name: Zeger-Jan 'ZJ' van de Weg
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer Intern</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: zegerjan.jpeg
   twitter: zjvandeweg
   gitlab: zj
@@ -706,7 +706,7 @@
 
 - name: Felipe Artur
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: felipe_artur.jpg
   twitter: FelipeArtur
   gitlab: felipe_artur
@@ -715,7 +715,7 @@
 
 - name: DJ Mountney
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: dj.png
   twitter: twk3
   gitlab: twk3
@@ -743,7 +743,7 @@
 
 - name: Timothy Andrew
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: tim.jpg
   twitter: timothyandrew
   gitlab: timothyandrew
@@ -752,7 +752,7 @@
 
 - name: K.C.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
@@ -805,14 +805,14 @@
   twitter: IsChrisW
   gitlab: MrChrisW
   story:  |
-          Based in Australia, Chris has worked in a variety of roles from support specialist to systems engineer. 
+          Based in Australia, Chris has worked in a variety of roles from support specialist to systems engineer.
           He is passionate about open source communities and enjoys helping people solve problems with software.
-          Chris has an interest in DevOps and loves building software tools to automate and improve business operations. 
+          Chris has an interest in DevOps and loves building software tools to automate and improve business operations.
           In his spare time, he enjoys catching waves on his bodyboard and exploring Asia with his partner.
 
 - name: S.M.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:

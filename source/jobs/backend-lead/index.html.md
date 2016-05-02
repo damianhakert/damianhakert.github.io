@@ -1,9 +1,9 @@
 ---
 layout: markdown_page
-title: "Development Lead"
+title: "Backend Lead"
 ---
 
-The Development Lead reports to the CEO, and developers report to them.
+The Backend Lead reports to the CEO, and developers report to them.
 
 _Note: Frontend engineers and UX designers report to the CTO._
 
