@@ -49,13 +49,13 @@ We want to achieve our goals in the following order:
 
 2. Become the most revenue generation solution on-premises (through well executed marketing and sales)
 
-3. Become the most popular SaaS solution for private repositories (through a [great product](https://about.gitlab.com/direction/) that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever))
+3. Become the most popular SaaS solution for private repositories (a [complete product](https://about.gitlab.com/direction/#scope) that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever) is competitive since network effects are smaller for private repositories than for public ones)
 
 4. Become the most popular SaaS solution for public repositories (easier to overcome network effects if people already use GitLab.com for private repositories)
 
 5. All knowledge workers contributing via GitLab (need to make the git workflow much more user friendly)
 
-While we achive our goals one by one this doesn't mean we can exclude everything else. Simultaniously we'll grow our userbase, get more subscribers for our [EE](https://about.gitlab.com/features/#enterprise), grow the use of [GitLab.com](https://about.gitlab.com/gitlab-com/), make and sell more [options](https://about.gitlab.com/pricing/#options), increase our [scope](https://about.gitlab.com/direction/#scope), and make version control usable for more types of work.
+While we achive our goals one by one this doesn't mean we can will focus on only one goal at the time. Simultaniously we'll grow our userbase, get more subscribers for [EE](https://about.gitlab.com/features/#enterprise), grow [GitLab.com](https://about.gitlab.com/gitlab-com/), develop [options](https://about.gitlab.com/pricing/#options), realize our [scope](https://about.gitlab.com/direction/#scope), and make version control usable for more types of work.
 
 ## Constraints
 
