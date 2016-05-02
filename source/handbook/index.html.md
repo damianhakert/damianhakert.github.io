@@ -473,8 +473,12 @@ to providing top notch customer support and everything in between, we reward all
 team members for every month that we reach our Sales Targets. The reward is [100 USD](https://www.google.com/search?q=100+usd+in+eur)
 to each team member, towards a dinner of each team member's own choice. Enjoy!
 
-The CEO, or CRO will announce on the team call if the target was met. To claim the bonus,
-please submit your receipt through Expensify or include on your contractor invoice as a reimbursable expense.
+- The CEO, or CRO will announce on the team call if the target was met.
+- To claim the bonus, please submit your receipt through Expensify or include on your contractor invoice as a reimbursable expense.
+- You should spend the bonus on eating out, and can be reimbursed _up to_ the maximum of 100 USD.
+- Use the bonus in the month following the announcement. So for example, if we reach our target in March, use your bonus in April.
+- If you cannot, or decide not to, use the bonus in the expected month, you can carry it over to the next month by notifying Accounts Payable before the 22nd of the month (release day!). You can only carry over one month in this way.
+
 
 ### Discretionary Bonuses<a name="discretionary-bonuses"></a>
 
