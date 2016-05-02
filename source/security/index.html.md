@@ -22,240 +22,168 @@ GitLab also has a [responsible disclosure program](https://about.gitlab.com/disc
 
 ### Governance
 
-**Q.** Do you maintain a quality management system (QMS) approved by management?
+1. Do you maintain a quality management system (QMS) approved by management?
 In lieu of a formal and static QMS, GitLab has a dynamic and responsive approach to quality management.
 Does your quality management system (QMS) include coverage for software application security principles?
+   - YES
 
-**A.** YES
+1. Is quality management system (QMS) content published and communicated to all relevant employees?
+   - YES.  
 
+1. Is quality management system (QMS) content reviewed and updated (if appropriate) at least once per year?
+   - It is considered a constant Work In Progress; and updated almost daily in small increments.
 
-**Q.** Is quality management system (QMS) content published and communicated to all relevant employees?
+1. Is there defined management oversight who is responsible for application quality and security reporting & signoff?
+   - YES. See our [team page](https://about.gitlab.com/team/)  (search for "Merge request endboss"). Also see [code review guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/code_review.md) which mentions the endbosses, and stresses team-wide code review.
 
-**A.** Yes.  
+1. Is access to and maintenance of applications, systems, network components (including routers, databases, firewalls, voice communications servers, voice recording servers, etc), operating systems, virtualization components, hypervisors, or other information objects restricted to authorized personnel only?
+   - YES
 
+1. Is access to and maintenance of applications, systems, network components (including routers, firewalls, voice communications servers, voice recording servers, voice response units (VRU) etc), operating systems, virtualization components, hypervisors, or other information objects granted based upon need-to-know job function?
+   - YES
 
-**Q.** Is quality management system (QMS) content reviewed and updated (if appropriate) at least once per year?
+1. For all IT systems including but not limited to servers, routers, switches, firewalls, databases, and external social spaces, is management approval required prior to creating all user and privileged accounts (e.g., system or security administrator)?
+   - YES
 
-**A.** It is considered a constant Work In Progress; and updated almost daily in small increments.
+1. For all IT systems including but not limited to servers, routers, switches, firewalls, databases are privileged accounts (e.g., system or security administrator) logged at all times and reviewed on at least a quarterly basis?
+   - YES
 
-**Q.** Is there defined management oversight who is responsible for application quality and security reporting & signoff?
+1. Are all user accounts (including, but not limited to, standard user, system administrator, security administrator, internal social spaces, etc) assigned to an individual employee and not shared?
+   - YES
 
-**A.** Yes. See our team page https://about.gitlab.com/team/  (search for "Merge request endboss"). Also see https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/code_review.md which mentions the endbosses, and stresses team-wide code review.
+1. Are all user accounts disabled after no more than ten unsuccessful logon attempts?
+   - YES
+
+1. For all IT systems (including but not limited to servers, routers, database, switches, firewalls, external social spaces), are inactive user and privileged accounts (e.g., system administrator or security administrator) disabled after 90 days or more?
+   - YES
+
+1. Is a user's identity verified before communicating an initial/temporary password or initiating a password reset by an automated or manual process?
+   - YES
+
+1. Do application, system, and device passwords (including routers, firewalls, databases, and external social spaces) require passwords to have the following characteristics: 1. minimum length of 8 characters, 2. chosen from any acceptable character sets available on the target system, 3. includes at least one alphabetic and one numeric character.)
+   - YES
+
+1. Are passwords prevented from being displayed in clear text during user authentication or in electronic/printed reports?
+   - YES
+
+1. Are passwords/PINs sent to users utilizing a secure method (e.g. secure e-mail) and sent separately from other authentication information such as the user account?
+   - YES
+
+1. For all IT systems (including but not limited to servers, routers, databases, switches, firewalls), are user and privileged account (e.g., system or security administrator) passwords changed at least every 90 days?
+   - YES
+
+1. Are users required to authenticate prior to changing their password?
+   - YES
+
+1. Are all system, application and device password files encrypted using an industry standard encryption algorithm where technically feasible?
+   - YES
+
+1. In instances where a software token is used to access an application or system, is a password or PIN required?
+   - YES
+
+1. In instances where a software token is used to access an application or system, are stored keys and software token files encrypted using an industry standard algorithm and smartcards compliant to FIPS level 2 or above?
+   - YES
+
+1. For externally hosted environment, is there separation of administrative access between the hosting infrastructure/platform and the hosted platform and data?
+   - YES
+
+1. If user accounts are assigned to non-permanent personnel (e.g., contractors, consultants)  for troubleshooting purposes, are the accounts disabled or removed after each use?
+   - YES
+
+1. Is the retirement or replacement of encryption keys included in key management procedures when the integrity of the key has been weakened (such as departure of an employee with key knowledge) or keys are suspected of being compromised?
+   - YES
+
+1. If you use cloud services, do you ensure that confidential data or an aggregation of proprietary information that can reveal confidential information is encrypted to ensure confidentiality at rest and in transit?
+   - YES
+
+1. If you use cloud services, do you have key management procedures to manage and maintain encryption keys?
+   - YES
 
 ### Software Development Life Cycle (SDLC)
 
-1. **Q.** Are there documented processes, procedures, standards and templates used in your SDLC process?  
-**A.** Yes. See our [Contributing guidelines](https://about.gitlab.com/contributing/), and related documentation on code review and development processes: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/code_review.md  and https://gitlab.com/gitlab-org/gitlab-ce/tree/master/doc/development .
+1. Are there documented processes, procedures, standards and templates used in your SDLC process?  
+   - YES. See our [Contributing guidelines](https://about.gitlab.com/contributing/), and related documentation on [code review](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/code_review.md) and [development processes](https://gitlab.com/gitlab-org/gitlab-ce/tree/master/doc/development).
 
-1. **Q.** Do the materials above  include references to application security best-practices and principles being followed?
-**A.** Yes. Also see https://about.gitlab.com/security/ for an overview.
+1. Do the materials above  include references to application security best-practices and principles being followed?
+   - YES.
 
-**Q.** Are design and code reviews performed as part of your SDLC processes?
-**A.** Yes. Testing guidelines are at: http://doc.gitlab.com/ee/development/testing.html
+1. Are design and code reviews performed as part of your SDLC processes?
+   - YES. See our [testing guidelines](http://doc.gitlab.com/ee/development/testing.html).
 
-**Q.** Are security considerations (checklists, standards and policies) referenced in the design and code review?
-**A.** Yes.
+1. Are security considerations (checklists, standards and policies) referenced in the design and code review?
+   - YES.
 
-**Q.** Is app security threat modeling performed when deemed appropriate (i.e. new or changed architectures and approaches)?
-**A.** No.
+1. Is app security threat modeling performed when deemed appropriate (i.e. new or changed architectures and approaches)?
+   - NO.
 
-**Q.** Is application code managed in a secure configuration management system with access controls?
-**A.** Yes.
+1. Is application code managed in a secure configuration management system with access controls?
+   - YES.
 
-**Q.** Is there a configuration management plan and are release artifacts maintained in a configuration management system?
-**A.** Yes.
+1. Is there a configuration management plan and are release artifacts maintained in a configuration management system?
+   - YES.
 
-**Q.** Are test plans and records kept that reflects the tests performed and results observed for each release?
-**A.** Yes.
+1. Are test plans and records kept that reflects the tests performed and results observed for each release?
+   - YES.
 
-**Q.** Is security testing defined and included in the test plan for each release?
-**A.** Yes.
+1. Is security testing defined and included in the test plan for each release?
+   - YES.
 
-**Q.** Is a release criteria defined, measured and reported on to confirm targeted release quality is achieved?
-**A.** Yes. We do manual QA testing for each monthly release and deploy all new versions on GitLab.com to be our own test subjects.
+1. Is a release criteria defined, measured and reported on to confirm targeted release quality is achieved?
+   - YES. We do manual QA testing for each monthly release and deploy all new versions on GitLab.com to be our own test subjects.
 
-**Q.** Are specific application security characteristics and measures part of the defined release criteria?
-**A.** No.
+1. Are specific application security characteristics and measures part of the defined release criteria?
+   - NO.
 
-**Q.** Do you work with third parties that may have access to your IP and sensitive data?
-**A.** N/A w.r.t. code, as our code is all open-source (community edition) or open-core (enterprise edition).
+1. Do you work with third parties that may have access to your IP and sensitive data?
+   - N/A w.r.t. code, as our code is all open-source (community edition) or open-core (enterprise edition).
 
-**Q.** If so, is access to data controlled by terms of Non-Disclosure Agreements?
-**A.** N/A
+1. If so, is access to data controlled by terms of Non-Disclosure Agreements?
+   - N/A
 
 ### Training
 
-**Q.** Is Internal company training available & performed commensurate with personnel roles and responsibilities?
-**A.** Yes; peer-to-peer training is commonplace.
+1. Is Internal company training available & performed commensurate with personnel roles and responsibilities?
+   - YES; peer-to-peer training is commonplace.
 
-**Q.** Does training include security awareness?
-**A.** Yes; as applicable for the role.
+1. Does training include security awareness?
+   - YES; as applicable for the role.
 
-**Q.** Does training include education on policies, standards, procedures and updates when needed?
-**A.** Yes; as applicable.
+1. Does training include education on policies, standards, procedures and updates when needed?
+   - YES; as applicable.
 
-**Q.** Are personnel training plans and records kept for internal company compliance purposes?
-**A.** No.
+1. Are personnel training plans and records kept for internal company compliance purposes?
+   - NO.
 
 ### Validation
 
-**Q.** Are results from the execution of test plans reported and used to track and justify release readiness?
-Yes. We require all automated tests to pass before any official release (monthly and patch versions), and perform manual QA testing for each monthly release.
+1. Are results from the execution of test plans reported and used to track and justify release readiness?
+   - YES. We require all automated tests to pass before any official release (monthly and patch versions), and perform manual QA testing for each monthly release.
 
-**Q.** Does the quality assurance organization have authority to delay shipment of releases due to non-conformance reasons?
-Yes.
+1. Does the quality assurance organization have authority to delay shipment of releases due to non-conformance reasons?
+   - YES.
 
-**Q.** Is some form of static code scanning performed as part of the release acceptance? What tools are used?
-Yes. For example, https://github.com/presidentbeef/brakeman and https://github.com/rubysec/bundler-audit are part of our test suite to be alerted to any security issues in our dependent Ruby libraries.
+1. Is some form of static code scanning performed as part of the release acceptance? What tools are used?
+   - YES. For example, [brakeman](https://github.com/presidentbeef/brakeman) and [bundler-audit](https://github.com/rubysec/bundler-audit) are part of our test suite to be alerted to any security issues in our dependent Ruby libraries.
 
-**Q.** Is some form of dynamic code scanning performed as part of the release acceptance? What tools are used?
-No
+1. Is some form of dynamic code scanning performed as part of the release acceptance? What tools are used?
+   - NO.
 
 ### Security Response
 
-**Q.** Do you have a documented company security incident response process?
-**A.** Yes. See https://gitlab.com/gitlab-org/release-tools/blob/master/doc/security.md as well as https://about.gitlab.com/handbook/support/ (which details service level response times and priorities).
+1. Do you have a documented company security incident response process?
+   - YES. See [security documentation](https://gitlab.com/gitlab-org/release-tools/blob/master/doc/security.md) as well as details on [service level response times and priorities](https://about.gitlab.com/handbook/support/).
 
-**Q.** Do your maintenance releases include fixes for both quality and security related issues?
-**A.** Yes.
+1. Do your maintenance releases include fixes for both quality and security related issues?
+   - YES.
 
-**Q.** Do you provide dedicated security patches for software versions that are released and supported in the field? How?
-**A.** Yes, for the latest release and the three prior monthly releases, when applicable.
+1. Do you provide dedicated security patches for software versions that are released and supported in the field? How?
+   - YES, for the latest release and the three prior monthly releases, when applicable.
 
-**Q.** Is there proactive notification provided to customers and software partners (PTC)?  How?
-**A.** Yes. Notifications in the "version check" image, blog posts, tweets, and a mailing list just for security fixes.
+1. Is there proactive notification provided to customers and software partners (PTC)?  How?
+   - YES. Notifications in the "version check" image, blog posts, tweets, and a mailing list just for security fixes.
 
-**Q.** Do you have a formal risk severity classification assessment approach?
-**A.** No.
+1. Do you have a formal risk severity classification assessment approach?
+   - NO.
 
-**Q.** Is there a specified response policy that includes the timeframe issues are to be addressed?
-**A.** Yes. https://gitlab.com/gitlab-org/release-tools/blob/master/doc/security.md as well as https://about.gitlab.com/handbook/support/ .
-
-
-
-
-**Q.** Is access to and maintenance of applications, systems, network components (including routers, databases, firewalls, voice communications servers, voice recording servers, etc), operating systems, virtualization components, hypervisors, or other information objects restricted to authorized personnel only?
-
-**A.** YES
-
----
-
-**Q.** Is access to and maintenance of applications, systems, network components (including routers, firewalls, voice communications servers, voice recording servers, voice response units (VRU) etc), operating systems, virtualization components, hypervisors, or other information objects granted based upon need-to-know job function?
-
-**A.** YES
-
----
-
-**Q.** For all IT systems including but not limited to servers, routers, switches, firewalls, databases, and external social spaces, is management approval required prior to creating all user and privileged accounts (e.g., system or security administrator)?
-
-**A.** YES
-
----
-
-**Q.** For all IT systems including but not limited to servers, routers, switches, firewalls, databases are privileged accounts (e.g., system or security administrator) logged at all times and reviewed on at least a quarterly basis?
-
-**A.** YES
-
----
-
-**Q.** Are all user accounts (including, but not limited to, standard user, system administrator, security administrator, internal social spaces, etc) assigned to an individual employee and not shared?
-
-**A.** YES
-
----
-
-**Q.** Are all user accounts disabled after no more than ten unsuccessful logon attempts?
-
-**A.** YES
-
----
-
-**Q.** For all IT systems (including but not limited to servers, routers, database, switches, firewalls, external social spaces), are inactive user and privileged accounts (e.g., system administrator or security administrator) disabled after 90 days or more?
-
-**A.** YES
-
----
-
-**Q.** Is a user's identity verified before communicating an initial/temporary password or initiating a password reset by an automated or manual process?
-
-**A.** YES
-
----
-
-**Q.** Do application, system, and device passwords (including routers, firewalls, databases, and external social spaces) require passwords to have the following characteristics: 1. minimum length of 8 characters, 2. chosen from any acceptable character sets available on the target system, 3. includes at least one alphabetic and one numeric character.)
-
-**A.** YES
-
----
-
-**Q.** Are passwords prevented from being displayed in clear text during user authentication or in electronic/printed reports?
-
-**A.** YES
-
----
-
-**Q.** Are passwords/PINs sent to users utilizing a secure method (e.g. secure e-mail) and sent separately from other authentication information such as the user account?
-
-**A.** YES
-
----
-
-**Q.** For all IT systems (including but not limited to servers, routers, databases, switches, firewalls), are user and privileged account (e.g., system or security administrator) passwords changed at least every 90 days?
-
-**A.** YES
-
----
-
-**Q.** Are users required to authenticate prior to changing their password?
-
-**A.** YES
-
----
-
-**Q.** Are all system, application and device password files encrypted using an industry standard encryption algorithm where technically feasible?
-
-**A.** YES
-
----
-
-**Q.** In instances where a software token is used to access an application or system, is a password or PIN required?
-
-**A.** YES
-
----
-
-**Q.** In instances where a software token is used to access an application or system, are stored keys and software token files encrypted using an industry standard algorithm and smartcards compliant to FIPS level 2 or above?
-
-**A.** YES
-
----
-
-**Q.** For externally hosted environment, is there separation of administrative access between the hosting infrastructure/platform and the hosted platform and data?
-
-**A.** YES
-
----
-
-**Q.** If user accounts are assigned to non-permanent personnel (e.g., contractors, consultants)  for troubleshooting purposes, are the accounts disabled or removed after each use?
-
-**A.** YES
-
----
-
-**Q.** Is the retirement or replacement of encryption keys included in key management procedures when the integrity of the key has been weakened (such as departure of an employee with key knowledge) or keys are suspected of being compromised?
-
-**A.** YES
-
----
-
-**Q.** If you use cloud services, do you ensure that confidential data or an aggregation of proprietary information that can reveal confidential information is encrypted to ensure confidentiality at rest and in transit?
-
-**A.** YES
-
----
-
-**Q.** If you use cloud services, do you have key management procedures to manage and maintain encryption keys?
-
-**A.** YES
-
----
+1. Is there a specified response policy that includes the timeframe issues are to be addressed?
+   - YES. See [security documentation](https://gitlab.com/gitlab-org/release-tools/blob/master/doc/security.md) as well as details on [service level response times and priorities](https://about.gitlab.com/handbook/support/).
