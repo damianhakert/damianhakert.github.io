@@ -49,14 +49,14 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Administrative Coordinator](/jobs/adminstrative-coordinator/)
   - [Technical Direction](/direction/) - [CTO](/jobs/chief-technology-officer/)
   - Engineering - [VP of Engineering](/jobs/vp-of-engineering/)
-    - Rails team - [Development](/jobs/development-lead/) (Rails lead)
-      - [Developers](/jobs/developer/) that are a Rails specialist
-    - Frontend - [Frontend Lead](/jobs/frontend-lead/) (Frontend lead)
+    - Backend - Backend lead
+      - [Developers](/jobs/developer/) that are Rails specialists
+    - Frontend - [Frontend Lead](/jobs/frontend-lead/)
       - [Frontend engineer](/jobs/frontend-engineer/)
-    - [Infrastructure](/handbook/operations/) - [Senior Production Engineer](/jobs/production-engineer/) (Infrastructure lead)
+    - [Infrastructure](/handbook/operations/) - Infrastructure lead
       - [Production Engineers](/jobs/production-engineer/)
       - [Developers](/jobs/developer/) that are a performance specialist
-    - [Support](/handbook/support/) - [Service Engineer](/jobs/service-engineer/) (Support lead)
+    - [Support](/handbook/support/) - Support lead
       - [Service Engineers](/jobs/service-engineer/)
     - [UX Designers](/jobs/ux-designer/)
     - [Developers](/jobs/developer/) that are maintainers
