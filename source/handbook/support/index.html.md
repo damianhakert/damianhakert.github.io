@@ -75,7 +75,7 @@ Every now and then, it may occur that we come close to breaching our SLA's.
 To prevent an actual breach from occurring, the Support team can call on the help
 of several 'Support Turbo' developers who are called out on the [Team Page](https://about.gitlab.com/team/).
 The support team calls for help when necessary via Slack, but in case of doubt or
-conflicting priorities, the Development Lead needs to give the green light for the
+conflicting priorities, the Backend Lead needs to give the green light for the
 support turbo developers to momentarily switch away from their other tasks.
 
 ## Dashboard <a name="dashboard"></a>
@@ -224,8 +224,8 @@ upon completion. Remember that all researchers should receive feedback as with r
 and you should not hesitate to triage or escalate the report. **Always** mention that they can email us at any time for an update.
 Eventually each report has to be accepted and/or closed through the HackerOne dashboard even if you've followed through on ZenDesk.
 
-After a report has been closed as resolved or informative it can be [publicly disclosed](https://dev.gitlab.org/gitlab/organization/issues/805#note_72812). 
-This is can be requested either by GitLab or the reporter. If the reporter requests this then it will be released when you accept it 
+After a report has been closed as resolved or informative it can be [publicly disclosed](https://dev.gitlab.org/gitlab/organization/issues/805#note_72812).
+This is can be requested either by GitLab or the reporter. If the reporter requests this then it will be released when you accept it
 or 30 days after the request is submitted. Prior to publication you should edit the report and make sure that it has:
 
 1. No sensitive information.
@@ -321,7 +321,7 @@ When resolving Twitter tickets you should:
 
 1. Start by the oldest ticket first
 1. Not skip any tickets
-1. Assign the ticket to yourself and ask on the appropriate Slack 
+1. Assign the ticket to yourself and ask on the appropriate Slack
    channel if you don't know the answer
 1. Not cross assign tickets
 
