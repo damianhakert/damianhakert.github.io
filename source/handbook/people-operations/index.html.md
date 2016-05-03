@@ -3,6 +3,17 @@ layout: markdown_page
 title: "People Operations"
 ---
 
+## Other pages related to People Operations
+
+- [Hiring process](/handbook/hiring/)
+- [Onboarding](/handbook/general-onboarding/)
+- [Underperformance](/handbook/hiring/underperformance.html)
+- [Offboarding](/handbook/offboarding/)
+- [Benefits](/handbook/benefits/)
+- [Travel](/handbook/travel/)
+
+## This page
+
 - [Reaching People Operations](#reach-peopleops)
 - [Office addresses](#addresses)
 - [Setting up new contracts](#new-contracts)
@@ -303,17 +314,17 @@ number is dialed.
 
 ## Paperwork people may need to obtain mortgage in the Netherlands<a name="dutch-mortgage"></a>
 
-When your employment contract is for a fixed period of time (e.g. 12 months) you'll need a "werkgeversverklaring". 
-This document describes your salary and states that your employer expects to continue to employ 
-you after the contract expires (assuming the performance of the employee doesn't degrade). 
-This document has to be filled in by hand, preferably using blue ink, and must be signed 
-and stamped. If there is no stamp (as is the case for GitLab) an extra letter (also signed) 
-must be supplied that states the employer has no stamp. While the language of these 
+When your employment contract is for a fixed period of time (e.g. 12 months) you'll need a "werkgeversverklaring".
+This document describes your salary and states that your employer expects to continue to employ
+you after the contract expires (assuming the performance of the employee doesn't degrade).
+This document has to be filled in by hand, preferably using blue ink, and must be signed
+and stamped. If there is no stamp (as is the case for GitLab) an extra letter (also signed)
+must be supplied that states the employer has no stamp. While the language of these
 documents doesn't matter, the use of Dutch is preferred.
 
-Employees also have to provide a copy of a payslip that clearly states not only their 
-monthly salary but also their annual salary. These numbers must match the numbers on 
-the "werkgeversverklaring" down to the decimals. Mortgage providers may also require 
-you to provide information about your financial status, usually in the form of a report/screenshot 
-of your total financial status (including any savings you have). The requirements for 
+Employees also have to provide a copy of a payslip that clearly states not only their
+monthly salary but also their annual salary. These numbers must match the numbers on
+the "werkgeversverklaring" down to the decimals. Mortgage providers may also require
+you to provide information about your financial status, usually in the form of a report/screenshot
+of your total financial status (including any savings you have). The requirements for
 this seem to vary a bit between mortgage providers.
