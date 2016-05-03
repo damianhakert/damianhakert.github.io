@@ -23,17 +23,18 @@ Field marketing includes event marketing and swag production.
 ## How We Evaluate Events
 - Price/ Budget
 - Location- tops cities for developers and can we tag on another event?
-- Attendees- who’s attending? Is it the right audience for us? entrepreneurs vs engineers
-- Size- try to reach a large audience
+- Attendees- who’s attending? Is it the right audience for us? entrepreneurs vs engineers.
+- Size- try to reach a large audience.
 - What will our presence be? Who can/ can we go, participate, speak, booth?
+- Can we pair this event with other local engagements? 
 - We want to strike a good balance between: community and enterprise events.
 
 ## Promoting Events
-- Use social media to post as soon as committed to attending an event
-- Email signatures- starting 1 month before event
-- Monthly blog post about upcoming events
-- Get attendee list and contact customers and prospects before event
-- BDRS will help set up in person meetings to occur at event
+- Use social media to post as soon as committed to attending an event.
+- Email signatures- starting 1 month before event for those attending event.
+- Monthly blog post about upcoming events.
+- Get attendee list and contact customers and prospects before event.
+- BDRS will help set up in person meetings to occur at event.
 
 ## **At Events**
 
