@@ -50,7 +50,6 @@ example:
 
 ```yaml
 ---
-layout: post
 title: "Example Blog Post"
 date: 2017-04-01 15:45
 ---
