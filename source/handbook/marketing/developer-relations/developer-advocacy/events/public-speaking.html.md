@@ -66,11 +66,4 @@ If you do a Q&A session, it's important to maintain control of it so that everyo
 
 - Send follow-up emails to anyone who had questions that went unanswered/anyone who gave you a business card.
 - Upload your slides/code/videos as soon as you can.
-
-## Talk Debrief
-
-How was the talk received by the audience?
-What went well?
-What didn't go so well?
-Were there any technical difficulties?
-What sort of questions were asked during your Q&A session?
+- Fill out an event [debrief](event-debrief.html) and include information about your [talk](event-debrief.html#talk-debrief)
