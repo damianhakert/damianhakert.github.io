@@ -59,7 +59,7 @@ This saves the time that it would otherwise take for the next interviewer to get
 
 Interviewing is hard, it's hard for both sides. In less than one hour you both need to get to know each other and
 both will have to make the decision if you want to work with this person.
-This is an effort to provide a set of guidelines to make interviewing a bit less traumating.
+This is an effort to provide a set of guidelines to make interviewing a bit less traumatizing.
 
 
 #### Before the interview
@@ -73,7 +73,7 @@ This is an effort to provide a set of guidelines to make interviewing a bit less
 
 1. There is an unbalanced power relationship during the interview. The interviewer is in a powerful position. It will decide if this candidate will get an offer or not. Be mindful of this. Be as friendly and approachable as you can. Be frank about what is going on, explain how the interview is going to be and set clear expectations: tell it like it is. This has the added value of getting people comfortable (over time) and allows you to get much better data.
 1. Communication is really hard, don't expect perfect answers. Every person is different and they will express things differently, they are not listening your train of thought so they will say things differently than what you expect, work on approaching to what they are trying to say rather than demanding them to approach to you. Once you have an answer validate your assumptions by explaining to the interviewed what did you understood and allow the candidate to correct your story.
-1. Don't go checking for perfect theoretical knowledge that the interviewee can google when needed, or give a problem that took you 2 months to dominate yet you expect your interviewee to master in a 30 minutes conversation. Be fair. At the end of the interview you should know if you want to work with this person.
+1. Don't go checking for perfect theoretical knowledge that the interviewee can google when needed, or give a problem that took you 2 months to dominate yet you expect your interviewee to master in a 30 minutes conversation. Be fair.
 1. Aim to at the end of the interview know if you want to work with this person.
 1. Interview for softskills, really, do it. Pick some behavioural questions to get data on what has the candidate done before and how his behaviour aligns to the company values. We are all going to be much happier if we all naturally agree on how things should be.
 1. Consider having more people interviewing with you, different people see and value different things. More data helps making better decisions and ends up being a better use of interviewing time for both the candidate and the company.
