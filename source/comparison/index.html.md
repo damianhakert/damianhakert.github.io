@@ -18,6 +18,7 @@ extra_css:
 - [GitLab.com vs. Bitbucket.org](#gitlabcom-vs-bitbucketorg)
 - [GitLab CE/EE vs. SaaS](#gitlab-ceee-vs-saas)
 - [GitLab vs. SVN](#gitlab-vs-svn)
+- [GitLab vs. GitSwarm](#gitlab-gitswarm)
 
 ## Bias
 
@@ -255,3 +256,5 @@ Git is really fast. Performing a diff, viewing history, committing and merging c
 
 ### Size Requirements
 A single repository in Git is typically a number of times smaller than the same repository in SVN.
+
+## GitLab vs. GitSwarm
