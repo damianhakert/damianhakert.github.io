@@ -69,7 +69,6 @@ task :new_release_post, :version do |t, args|
   puts "Creating new release post: #{filename}"
 
   template_text = File.read('doc/release_blog_template.html.md')
-  template_text.gsub!('date: YYYY-MM-22', "date: #{Time.now.year}-#{Time.now.strftime("%m")}-22")
   template_text.gsub!('X_X', version.gsub('.', '_'))
   template_text.gsub!('X.X', version)
   template_text.gsub!('X-X', version.gsub('.', '-'))
