@@ -3,14 +3,16 @@ layout: markdown_page
 title: "Hiring"
 ---
 ## On this page:
+
 * [Vacancy Creation Process](#vacancy-creation-process)
+* [Advertising the job description](#job-advertising)
 * [Hiring Process](#hiring-process)
 * [Screening Call](#screening-call)
 * [Interviewing](#interviewing)
 * [Interview Questions](#interview-questions)
 * [Reference calls](#reference-calls)
 * [Getting Contracts Ready, Reviewed, and Signed](#prep-contracts)
-* [Underperformance](#underperfomance)
+* [Underperformance](#underperformance)
 
 ## Vacancy Creation Process<a name="vacancy-creation-process"></a>
 
@@ -26,12 +28,26 @@ mind that the most time consuming aspect tends to be review of the first wave of
        * Indicate what applicants need to provide with their application. By default, this will include their resumé, a cover letter, but it may also
        include qualifying questions such as "What timezone are you in?" and "Are you aware that this is not a DevOps role?".
        * "Publish" the job, and follow the links to the application form.
-    1. Embed the link to the application form for the new job on our [Jobs page](https://about.gitlab.com/jobs/)
-1. Optional: advertise the job description.
-    * This can be through “soft” referral, e.g. all GitLab staff post link to jobs site on their LinkedIn profiles.
-    * Tweet the new job posting.
-    * Consider advertising and/or listing on paid / free job boards.
-    * Use the [Workable Clipper](http://resources.workable.com/the-workable-clipper) to help source candidates directly from LinkedIn, and  familiarize yourself with the Workable environment, work flow, features, and support desk.
+    1. Embed the link to the application form for the new job on our [Jobs page](https://about.gitlab.com/jobs/), and also include a link on their to the job description. As soon as the new job description / posting is "live" on our website, also consider your available [advertising methods](#job-advertising) below.
+
+
+## Advertising the job<a name="job-advertising"></a>
+
+_Always_ advertise the job through the following means:
+
+1. "Soft” referral, e.g. all GitLab staff post link to jobs site on their LinkedIn profiles.
+1. Tweet the new job posting.
+1. Use the [Workable Clipper](http://resources.workable.com/the-workable-clipper) to help source candidates directly from LinkedIn, and  familiarize yourself with the Workable environment, work flow, features, and support desk.
+
+_Consider_ advertising the job through the following means:
+
+List on:
+1. [Hacker News](https://news.ycombinator.com/ask): On the first of the month, include a note for GitLab in the Hacker News thread of "Who's Hiring" . Template text: `REMOTE ONLY GitLab
+We're hiring production engineers, developers, UX designers , and more. https://about.gitlab.com/jobs/ We're a remote only company so everyone is on an equal level. GitLab is a Ruby on Rails project with over 1000 contributors.`
+1. [WeWorkRemotely](https://weworkremotely.com) ($200 for 30 days, per position).
+1. [RemoteOK](https://remoteok.io) ($200 for ?? days, per position)
+
+
 
 ## Hiring Process<a name="hiring-process"></a>
 
@@ -228,6 +244,6 @@ Note for People Operations:
 [Contracts page](https://about.gitlab.com/handbook/contracts).
 - Onboarding info for the PeopleOps system, BambooHR, can be found on the [PeopleOps](about.gitlab.com/handbook/people-operations) page.
 
-### Underperformance
+## Underperformance <a name="underperformance"></a>
 
 See [underperformance guidelines](/handbook/hiring/underperformance.html).
