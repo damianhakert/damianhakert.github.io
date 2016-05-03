@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: New access privilegies
 wordpress_id: 119
 wordpress_url: http://blog.gitlabhq.com/?p=119

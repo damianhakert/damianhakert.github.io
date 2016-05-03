@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: Gitlab Version 2.2
 wordpress_id: 214
 wordpress_url: http://blog.gitlabhq.com/?p=214

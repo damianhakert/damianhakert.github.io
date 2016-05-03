@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Feature Highlight: Todos"
 date: 2016-03-02
 categories:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Feature Highlight: Branded login in GitLab Enterprise Edition"
 date: 2014-09-02
 categories:

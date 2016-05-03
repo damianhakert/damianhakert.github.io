@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Security advisory for multiple Rails vulnerabilities
 date: 2016-01-26
 author: Marin Jankovski and Jacob Vosmaer

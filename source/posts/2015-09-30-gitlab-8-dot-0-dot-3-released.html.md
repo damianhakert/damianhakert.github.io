@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 8.0.3 Released"
 date: 2015-09-30
 author: GitLab

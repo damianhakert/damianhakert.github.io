@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Feature Highlight: Confidential issues"
 date: 2016-03-31 08:00
 author: Douglas Alexandre

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Notes from the Git Merge Core Contributors Summit"
 date: 2016-04-06 12:00
 categories:

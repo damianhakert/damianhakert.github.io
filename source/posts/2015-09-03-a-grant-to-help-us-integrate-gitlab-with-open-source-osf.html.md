@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "A grant to help us integrate GitLab with open source OSF"
 date: 2015-09-03
 author: GitLab Team

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: More than 500 people signed up
 tags: []
 status: publish

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab acquires GitHost, a managed cloud service for GitLab"
 date: 2015-04-26
 author: Sytse Sijbrandij

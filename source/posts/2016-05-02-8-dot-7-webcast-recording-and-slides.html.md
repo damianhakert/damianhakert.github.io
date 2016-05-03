@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 8.7 Release Webcast Recording and Slides"
 date: 2016-05-02
 author: Amara Nwaigwe

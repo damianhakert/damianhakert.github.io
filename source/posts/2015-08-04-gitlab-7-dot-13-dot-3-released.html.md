@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 7.13.3 released"
 date: 2015-08-04
 author: Valery Sizov

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Towards a production quality open source Git LFS server"
 date: 2015-08-13
 author: Sytse Sijbrandij

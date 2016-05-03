@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 7.4.1 released"
 date: 2014-10-24
 categories:

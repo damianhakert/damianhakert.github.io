@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 6.3.1 security release"
 date: 2013-12-05
 author: Jacob Vosmaer

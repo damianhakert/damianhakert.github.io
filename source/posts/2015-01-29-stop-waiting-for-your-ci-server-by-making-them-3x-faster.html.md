@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Stop waiting for your tests by making them 3x faster"
 date: 2015-01-29
 author: "Sytse Sijbrandij"

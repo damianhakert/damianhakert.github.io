@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Farewell Google Code. Hello GitLab.com"
 date: 2015-03-12
 author: Sytse Sijbrandij

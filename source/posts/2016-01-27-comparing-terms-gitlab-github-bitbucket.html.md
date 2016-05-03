@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Comparing Confusing Terms in GitHub, Bitbucket, and GitLab"
 date: 2016-01-27
 categories:

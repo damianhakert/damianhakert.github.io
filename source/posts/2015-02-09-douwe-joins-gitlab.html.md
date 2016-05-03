@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Douwe joins GitLab as a Developer"
 date: 2015-02-09
 ---

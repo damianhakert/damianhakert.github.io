@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Swag matters - share your #swagportrait"
 date: 2015-12-30
 categories: marketing

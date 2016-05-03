@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 6.9 EE and CE released"
 date: 2014-05-22
 categories:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Big changes coming to GitHost"
 date: 2015-12-30
 author: Patricio Cano

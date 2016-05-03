@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: GITLAB v2.6 released
 wordpress_id: 419
 wordpress_url: http://blog.gitlabhq.com/?p=419

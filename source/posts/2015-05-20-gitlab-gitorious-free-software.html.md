@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab, Gitorious, and Free Software"
 date: 2015-05-20
 author: Mike Gerwitz

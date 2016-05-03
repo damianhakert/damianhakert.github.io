@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab Intro Webcast: Workflow"
 date: 2016-03-11
 categories: webcast

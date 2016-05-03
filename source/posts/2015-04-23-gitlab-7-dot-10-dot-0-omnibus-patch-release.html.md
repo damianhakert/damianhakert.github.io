@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 7.10.0 Omnibus patch release"
 date: 2015-04-23
 author: Jacob Vosmaer

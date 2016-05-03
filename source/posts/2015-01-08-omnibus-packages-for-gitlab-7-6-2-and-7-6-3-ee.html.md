@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Omnibus packages for GitLab 7.6.2 and 7.6.3-ee"
 date: 2015-01-08 11:28:58 +0100
 categories:

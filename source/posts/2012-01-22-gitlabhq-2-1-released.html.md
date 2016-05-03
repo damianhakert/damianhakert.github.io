@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: Gitlabhq 2.1 released!
 wordpress_id: 202
 wordpress_url: http://blog.gitlabhq.com/?p=202

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GitLab Enterprise Edition 6.6.2 Security Release
 date: February 27, 2014
 author: Jacob Vosmaer

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab on Raspberry Pi 2!"
 date: 2015-04-21
 author: Job van der Voort
