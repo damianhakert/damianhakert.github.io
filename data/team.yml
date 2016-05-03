@@ -818,14 +818,14 @@
   story:  |
           Joining April 27th
 
-- name: C.T.
+- name: Colton Taylor
   role: <a href="https://about.gitlab.com/jobs/business-development-team-lead/">Business Development Team Lead</a>
   reports_to: Senior Demand Generation Manager
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: colton.jpg
+  twitter: ctaylor021
+  gitlab: cdtaylor
   story:  |
-          Joining April 27th
+          Colton has worked in the technology space for the last three years, and is passionate about business development, marketing, and the customer lifecycle. With a particular interest in innovative technologies, he found a great match at GitLab. When not at work, Colton enjoys basketball, football, golf, and action sports. He and his wife love being outdoors with their dog, as well as traveling often.
 
 - name: M.F.
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
