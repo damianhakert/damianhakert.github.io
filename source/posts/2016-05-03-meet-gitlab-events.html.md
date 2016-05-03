@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meet GitLab - Upcoming Events May Edition"
-date: 2016-05-03 21:00
+date: 2016-05-03 18:30
 comments: true
 author: Emily Kyle
 author_twitter: emilylucie
