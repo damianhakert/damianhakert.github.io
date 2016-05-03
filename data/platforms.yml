@@ -9,12 +9,22 @@
   dependency_commands: |
                      sudo apt-get install curl openssh-server ca-certificates postfix
 - name: ubuntu1404
-  long_name: Ubuntu 14.04 (recommended, for 15.04 select and download the package manually)
+  long_name: Ubuntu 14.04 (for 15.04 select and download the package manually)
   download_command: curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
   install_commands: |
                     sudo apt-get install gitlab-ce
   install_commands_manual: |
                     curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/trusty/gitlab-ce-XXX.deb/download
+                    dpkg -i gitlab-ce-XXX.deb
+  dependency_commands: |
+                    sudo apt-get install curl openssh-server ca-certificates postfix
+- name: ubuntu1604
+  long_name: Ubuntu 16.04 (recommended)
+  download_command: curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+  install_commands: |
+                    sudo apt-get install gitlab-ce
+  install_commands_manual: |
+                    curl -LJO https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/xenial/gitlab-ce-XXX.deb/download
                     dpkg -i gitlab-ce-XXX.deb
   dependency_commands: |
                     sudo apt-get install curl openssh-server ca-certificates postfix
