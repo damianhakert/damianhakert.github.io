@@ -40,9 +40,9 @@ Open the file in your text editor of choice. The file will be empty except for a
 few lines at the top, surrounded by a pair of three hyphens (`---`). These lines
 are called [**Frontmatter**](https://middlemanapp.com/basics/frontmatter/).
 
-The `layout` and `title` attributes have already been filled out by the
-`new_post` Rake task. Fill in the others as needed, or remove any that aren't
-applicable to your post.
+The `title` attribute has already been filled out by the `new_post` Rake task.
+Fill in the others as needed, or remove any that aren't applicable to your post
+(not every post needs an `image`, for example).
 
 If you need more fine-grained control over blog post ordering, or publication
 time, add a `date` attribute to the frontmatter with a UTC-based time. For
