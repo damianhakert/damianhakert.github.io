@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Implementing .gitlab-ci.yml"
 date: 2015-06-08
 author: Job van der Voort

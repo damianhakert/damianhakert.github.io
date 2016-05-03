@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Marc Radulescu joins GitLab as an account manager
 date: December 13, 2013
 author: Marc Radulescu

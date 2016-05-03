@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab's 50th Release: 8.4"
 date: 2016-01-22
 categories:

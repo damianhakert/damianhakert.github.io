@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Making GitLab Better for Large Open Source Projects"
 date: 2016-01-15
 author: Job van der Voort

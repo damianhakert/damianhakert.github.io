@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Pivotal Cloud Foundry Tile for GitLab EE"
 date: 2015-11-03
 author: GitLab

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Patricio Joins GitLab as Junior Service Engineer"
 date: 2014-10-13
 ---

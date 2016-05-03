@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 8.2 released with Award Emoji and Repository Mirroring"
 date: 2015-11-22
 author: Job van der Voort

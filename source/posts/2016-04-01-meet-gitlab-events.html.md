@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Meet GitLab - Upcoming Events"
 date: 2016-04-01 21:00
 author: Emily Kyle

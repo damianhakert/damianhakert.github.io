@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab's fastest release ever: 8.5, with Todos and Geo"
 date: 2016-02-22
 categories:

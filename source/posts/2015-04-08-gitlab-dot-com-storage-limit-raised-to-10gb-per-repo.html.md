@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab.com storage limit raised to 10GB per repo"
 date: 2015-04-08
 author: Sytse Sijbrandij

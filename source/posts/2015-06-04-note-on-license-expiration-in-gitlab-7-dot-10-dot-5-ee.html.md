@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Note on license expiration in GitLab 7.10.5 EE"
 date: 2015-06-04
 author: Job van der Voort

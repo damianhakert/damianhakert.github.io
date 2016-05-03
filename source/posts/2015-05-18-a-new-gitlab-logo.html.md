@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "A new GitLab Logo"
 date: 2015-05-18
 author: Job van der Voort

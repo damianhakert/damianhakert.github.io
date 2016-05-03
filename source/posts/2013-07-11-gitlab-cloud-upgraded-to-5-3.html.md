@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GitLab Cloud upgraded to 5.3
 tags: []
 status: publish

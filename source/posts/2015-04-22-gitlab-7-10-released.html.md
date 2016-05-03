@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 7.10 released with Google Code Import, Default Git Hooks and a package server!"
 date: 2015-04-22
 categories:

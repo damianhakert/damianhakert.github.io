@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab <3 Ruby Together"
 date: 2015-12-21
 author: Guest author André Arko of Ruby Together

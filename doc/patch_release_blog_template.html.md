@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab X.Y.Z Released"
 date: YYYY-MM-DD
 comments: true

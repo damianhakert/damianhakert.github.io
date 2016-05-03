@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 7.7.1 and GitLab CI 5.4.1 Released"
 date: 2015-01-23
 categories:

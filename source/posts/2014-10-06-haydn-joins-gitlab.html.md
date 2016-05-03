@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab welcomes first North American employee"
 date: 2014-10-06
 categories:

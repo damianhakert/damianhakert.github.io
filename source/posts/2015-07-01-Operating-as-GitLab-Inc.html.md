@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab now operating as US corporation"
 date: 2015-07-01
 author: Haydn Mackay

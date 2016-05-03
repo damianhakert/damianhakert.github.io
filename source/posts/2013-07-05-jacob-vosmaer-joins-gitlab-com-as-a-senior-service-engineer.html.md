@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Jacob Vosmaer joins GitLab.com as a senior service engineer
 tags: []
 status: publish

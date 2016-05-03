@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab.com now supports an alternate git+ssh port"
 date: 2016-02-18
 author: Achilleas Pipinellis

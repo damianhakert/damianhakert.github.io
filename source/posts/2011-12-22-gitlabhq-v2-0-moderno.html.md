@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: "Gitlabhq v2.0: Moderno"
 wordpress_id: 153
 wordpress_url: http://blog.gitlabhq.com/?p=153

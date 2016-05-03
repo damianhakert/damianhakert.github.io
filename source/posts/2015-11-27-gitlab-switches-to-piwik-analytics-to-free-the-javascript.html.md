@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab switches to Piwik analytics to free the JavaScript"
 date: 2015-11-27
 author: Sytse Sijbrandij

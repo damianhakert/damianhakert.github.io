@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How to set up GitLab Runner on DigitalOcean"
 date: 2016-04-19 10:00
 author: Achilleas Pipinellis

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Our new logo"
 date: 2015-07-03
 author: Job van der Voort

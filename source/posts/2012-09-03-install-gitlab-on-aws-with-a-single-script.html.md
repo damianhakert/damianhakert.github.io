@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Install Gitlab on AWS with a single script
 tags: []
 status: publish

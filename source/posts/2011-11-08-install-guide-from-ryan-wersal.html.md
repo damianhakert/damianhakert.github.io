@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: Install guide from Ryan Wersal
 wordpress_id: 36
 wordpress_url: http://blog.gitlabhq.com/?p=36

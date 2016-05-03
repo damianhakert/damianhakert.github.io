@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 8.7.2 Released"
 date: 2016-05-03
 comments: true

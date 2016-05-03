@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Getting started with GitLab and GitLab CI"
 date: 2015-12-14
 author: Achilleas Pipinellis

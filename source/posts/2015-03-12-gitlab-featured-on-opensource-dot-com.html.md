@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab featured on OpenSource.com"
 date: 2015-03-12
 author: Patricio Cano

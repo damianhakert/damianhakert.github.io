@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 7.4.4 EE Patch Release"
 date: 2014-11-10 09:45 +0100
 author: Marin Jankovski

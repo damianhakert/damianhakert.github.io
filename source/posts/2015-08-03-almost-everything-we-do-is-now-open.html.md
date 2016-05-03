@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Almost Everything We Do Will Be Open"
 date: 2015-08-03
 author: Job van der Voort

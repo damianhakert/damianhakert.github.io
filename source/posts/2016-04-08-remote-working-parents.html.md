@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "What’s It Like to Be a Working Parent at GitLab?"
 date: 2016-04-08 10:00
 comments: true

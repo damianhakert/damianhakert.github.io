@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: "Issue prototype: "
 wordpress_id: 96
 wordpress_url: http://blog.gitlabhq.com/?p=96

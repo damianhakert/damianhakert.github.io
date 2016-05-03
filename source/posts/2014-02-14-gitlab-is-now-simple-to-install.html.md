@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GitLab is now simple to install
 date: February 14, 2014
 ---

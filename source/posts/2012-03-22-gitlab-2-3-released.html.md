@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: Gitlab 2.3 released
 wordpress_id: 263
 wordpress_url: http://blog.gitlabhq.com/?p=263

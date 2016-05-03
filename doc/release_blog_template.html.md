@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab X.X released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 date: YYYY-MM-22
 categories:

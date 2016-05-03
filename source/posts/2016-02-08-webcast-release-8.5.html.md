@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Join us for a Tour of GitLab 8.5"
 date: 2016-02-08
 author: Heather McNamee

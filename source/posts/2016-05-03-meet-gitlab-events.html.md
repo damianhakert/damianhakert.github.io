@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Meet GitLab - Upcoming Events May Edition"
 date: 2016-05-03 18:30
 comments: true
