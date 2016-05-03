@@ -40,7 +40,6 @@ task :new_post, :title do |t, args|
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
-    post.puts "date: #{Time.now.strftime('%Y-%m-%d')}"
     post.puts "author: "
     post.puts "author_twitter: "
     post.puts "categories: "
