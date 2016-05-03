@@ -3,12 +3,30 @@ layout: markdown_page
 title: "GitLab Culture"
 ---
 
+## Introduction
+
+Please see our [primer](https://about.gitlab.com/primer/) for more general information about GitLab.
+
+## Advantages
+
+Top 10 reasons to work for GitLab:
+
+1. Work with helpful, kind, motivated, and talented people
+1. Work remote so you have no commute and are free to travel and move
+1. Have flexible work hours so you are there for other people and free to plan the day how you like
+1. Everyone works remote, you're don't feel remote, we don't have a head office so you're not in a satellite office
+1. Work on open source software so you can interact with a large community and can show your work
+1. Work on a product you use too, we drink our own wine
+1. Work on a product used by lots of people that care about what you do
+1. As a company we contribute more than that we take, most of our work is released as the open source GitLab CE
+1. Focussed on results, not on long hours, so that you can have a life and don't burn out.
+1. Open internal processes, know what you're getting in to and be assured we're thoughful and effective
+
 ## Summits
 
 Approximately every 6-9 months, we gather in person to see how tall everyone is (hard to see with video conferencing), and to
 get to know each other better by working and 'playing' together. Here are some
  [impressions from the Summit in Amsterdam, October 2015](https://about.gitlab.com/2015/11/30/gitlab-summit-2015/).
-
 
 ## Internal Feedback
 
