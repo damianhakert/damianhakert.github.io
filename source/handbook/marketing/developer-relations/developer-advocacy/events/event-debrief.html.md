@@ -14,6 +14,7 @@ After an event, put a debrief together to help us determine whether we're hittin
 - What went well?
 - What didn't go so well?
 - What can we improve?
+- Would you attend/sponsor/speak at this event again?
 
 This information can be posted on the relevant event issue in the issue tracker. If no issue exists, please create one and tag Emily in it. If you gave a talk be sure to include a [debrief](#talk-debrief) about that as well.
 
