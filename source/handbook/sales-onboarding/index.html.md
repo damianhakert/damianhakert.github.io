@@ -10,7 +10,7 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 
 **Familiarize yourself with the basics**
 
-* [ ] Understanding [terminology](/glossary/).
+* [ ] Understanding [terminology](http://university.gitlab.com/glossary/).
    Please create a merge request for any term that does not have an answer or
    to add a term that you feel is relevant but is not on this page.
 
