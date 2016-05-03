@@ -25,6 +25,8 @@ If you see yourself as a good fit with our company’s goals and team, then plea
 review the current job openings on this page, and submit your resume and cover
 letter to be considered!
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GJP-3BNyCXw" frameborder="0" allowfullscreen></iframe>
+
 ## We don't work with recruiters<a name="no-recruiters"></a>
 
 We do not accept solicitations by recruiters, recruiting agencies, headhunters and outsourcing organizations.
