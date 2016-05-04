@@ -3,11 +3,9 @@ layout: markdown_page
 title: Responsible Disclosure Policy
 ---
 
-Please email security@gitlab.com to report any security vulnerabilities. Please
-refrain from requesting compensation for reporting vulnerabilities. We will
-acknowledge receipt of your vulnerability report and send you regular updates
-about our progress. If you want we will [publicly acknowledge](https://about.gitlab.com/vulnerability-acknowledgements/)
- your responsible disclosure. You may also send us your report via [HackerOne](https://hackerone.com/gitlab).  
+Please report any security vulnerabilities by creating a [confidential issue](https://about.gitlab.com/2016/03/31/feature-highlihght-confidential-issues/) on the [GitLab CE issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues). If the vulnerability is _about_ confidential issues, then please email security@gitlab.com instead.
+
+Please refrain from requesting compensation for reporting vulnerabilities. We will acknowledge receipt of your vulnerability report and send you regular updates about our progress. If you want we will [publicly acknowledge](https://about.gitlab.com/vulnerability-acknowledgements/) your responsible disclosure. You may also send us your report via [HackerOne](https://hackerone.com/gitlab).  
 
 
 You are not allowed to search for vulnerabilities on GitLab.com itself. GitLab
