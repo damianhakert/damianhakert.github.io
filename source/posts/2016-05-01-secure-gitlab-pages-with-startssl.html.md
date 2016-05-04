@@ -34,8 +34,7 @@ We assume you are familiar with web development and with web hosting.
 
 ### Why should I care about HTTPS?
 
-Perhaps this might be your first question. If our sites are hosted by [GitLab Pages][pages], are [static][static webpage], and 
-we are not dealing with server-side scripts, nor credit card transactions, why do we need a secure connection? 
+Perhaps this might be your first question. If our sites are hosted by [GitLab Pages][pages], therefore they are [static][static webpage], hence we are not dealing with server-side scripts nor credit card transactions, so why do we need secure connections? 
 
 Back in the 1990s, where HTTPS came out, [SSL]<sup>[1](#1)</sup> was considered a "special" security measure, necessary just for big folks, like banks and shoppings sites with financial transactions. Now we have a different picture. [According to Josh Aas][lets-quote], [ISRG] Executive Director:
 
@@ -43,7 +42,7 @@ Back in the 1990s, where HTTPS came out, [SSL]<sup>[1](#1)</sup> was considered 
 
 ### Organizations supporting HTTPS
 
-There is a huge movement in favor of securing all the web. W3C fully [supports the cause][w3c-https] and explain very well the reasons for that. Richard Barnes, a writer for Mozilla Security Blog, suggested that [Firefox would deprecate HTTP][moz-http-deprecate], and would no longer accept unsecured connections. Recently, Mozilla published a [communicate][moz-comm] reiterating the importance of HTTPS.
+There is a huge movement in favor of securing all the web. W3C fully [supports the cause][w3c-https] and explains very well the reasons for that. Richard Barnes, a writer for Mozilla Security Blog, suggested that [Firefox would deprecate HTTP][moz-http-deprecate], and would no longer accept unsecured connections. Recently, Mozilla published a [communicate][moz-comm] reiterating the importance of HTTPS.
 
 ### Free SSL/TLS Certificates
 
@@ -59,7 +58,7 @@ As individuals, dealing with small sites for promoting ourselves and our work, w
 
 <a name="2"></a>
 
-<small>_**Note 2:** Premium certificates examples: [Comodo SSL/TLS][comodo-ssl], [StartSSL SSL Class 2][startssl-class-2], [Symantec SSL][symantec-ssl]. They offer support for e-commerce and offer a huge warranty to their customers._</small>
+<small>_**Note 2:** Premium certificates examples: [Comodo SSL/TLS][comodo-ssl], [StartSSL SSL Class 2][startssl-class-2], [Symantec SSL][symantec-ssl]. They offer support for e-commerce and grant a huge warranty to their customers._</small>
 
 {::options parse_block_html="false" /}
 
@@ -68,7 +67,7 @@ As individuals, dealing with small sites for promoting ourselves and our work, w
 ## StartCom
 
 Start Commercial Ltd. (StartCom) was [founded][startssl-about] by [Eddy Nigg] in 2005, who wanted to engage in 
-a "revolution" of the digital certification industry, making the certificates more affordable and with better quality. 
+a "revolution" of the digital certification industry, making certificates more affordable and with better quality. 
 StartCom has become the world's sixth largest Certificate Authority, covering
 nearly one million registered subscribers, and more than 400,000 websites.
 
@@ -79,8 +78,7 @@ Thus, on this post, **StartCom** refers to the **Certificate Authority**, while 
 Among four classes of StartSSL certificates, there is one **free**, called [Class 1][startssl-class-1]. This is the one will be referencing to in this post. But, of course, you are free to choose their premium products too. 
 On their website, you can find a [comparison chart][startssl-compare] for their certificates.
 
-[StartCom Certificate Policy & Practice Statements][startssl-policy] covers a lot of procedures to make sure they can trust 
-their customers information. This document states rules, obligations, validation, etc. General information can be found through their [documentation][startssl-docs].
+[StartCom Certificate Policy & Practice Statements][startssl-policy] covers a lot of procedures to make sure they can trust their customers information. That document states rules, obligations, validations, etc. General information can be found through their [documentation][startssl-docs].
 
 ### StartSSL Class 1 Features
 
@@ -98,7 +96,7 @@ their customers information. This document states rules, obligations, validation
 
 <a name="3"></a>
 
-<small>_**Note 3:** Code file validation is a file provided by an institution, and we need to upload this file to our site root. It's a simple HTML file containing a token sent by the institution which wants to verify that we hold that particular domain. It's not used just by CAs. For example, it is also used by Google, as a [method for site ownership verification][google-verif]._</small>
+<small>_**Note 3:** Code file validation is a file provided by an institution, which needs to be uploaded to the site root. It's a simple HTML file containing a token to verify that we hold that particular domain. It's not used just by CAs. For example, it is also used by Google, as a [method for site ownership verification][google-verif]._</small>
 
 <a name="4"></a>
 
@@ -110,12 +108,12 @@ their customers information. This document states rules, obligations, validation
 
 ### StartSSL Class 1 Limitations
 
-**StartSSL Class 1** certificates cover a lot of wonderful features, but have some [limitations][startssl-compare]:
+**StartSSL Class 1** certificates cover a lot of attractive features, but have some [limitations][startssl-compare]:
 
 - There is no support for [wildcard DNS record][wildcard], `*.example.com` 
 - We are limited to issue certificates for up to 5 domains
 - We can't use commercial "sensitive" names for our domains or subdomains (e.g, "store", "buy", "shop", etc)
-- [Revocations carry a handling fee][startssl-revocation] of currently US$ 9.90. Though we may use a different sub domain in order to create additional certificates without the need to revoke a previously created certificate
+- [Revocations carry a handling fee][startssl-revocation] of currently US$ 9.90. Though we may use a different subdomain in order to create additional certificates without the need to revoke a previously created certificate
 
 ### StartSSL **x** Let's Encrypt
 
@@ -151,9 +149,9 @@ For additional info on Let's Encrypt, you can read their [Certificate Policy][le
 Digital certificates are applicable to your [GitLab Pages][pages] project only when you use a **custom domain**, as
 all standard `https://namespace.gitlab.io` urls are secure by default.
 
-With GitLab Pages we can host our static website, use custom domains (and aliases), and secure our domains with SSL/TLS certificates **for free**. Cost zero, no credit card, no hidden fees! This is detailed in the tutorial "[Hosting on GitLab.com with GitLab Pages][gitlab-post-pages]". Also, you can read their [quick start guide][pages], and their [documentation][pages-doc].
+With GitLab Pages we can host our static website, use custom domains (and aliases), and secure our domains with SSL/TLS certificates **for free**. Cost zero, no credit card, no hidden fees! This is detailed in the tutorial "[Hosting on GitLab.com with GitLab Pages][gitlab-post-pages]". Also, you can read the [quick start guide][pages], and the [documentation][pages-doc] for GitLab Pages.
 
-GitLab Pages supports [PEM] certificates issued by any [CA][wiki-ca], though we need to make sure that the certificate is compatible with [NGINX], the server [where GitLab runs on][gitlab-nginx]. <!-- AXIL is that correct? All GitLab instances run on Nginx?  -->
+GitLab Pages supports [PEM] certificates issued by any [CA][wiki-ca], though we need to make sure that the certificate is compatible with [NGINX], the server [where GitLab runs on][gitlab-nginx]. <!-- AXIL is that correct? All GitLab instances (GitLab.com and GitLab EE) run on Nginx?  -->
 
 StartCom certificates are retrievable from their [User Interface (UI)][startssl], where you have access to your own information, certificates requests, expiration dates, etc. 
 
@@ -163,9 +161,9 @@ For the following steps, we assume:
 
 - You already have your custom domain
 - Your project is configured for GitLab Pages 
-- Your site is accessible under `http://example.com` or `https://your.example.com` 
+- Your site is accessible under `http://example.com` or `http://your.example.com` 
 
-If you don't know how to do that, please check this tutorial first: [Hosting on GitLab.com with GitLab Pages][gitlab-post-pages]
+If you don't know how to do that, please check this tutorial first: [Hosting on GitLab.com with GitLab Pages][gitlab-post-pages].
 
 ## Step-by-step
 
@@ -184,7 +182,7 @@ Unlike other mechanisms for web-based authentication, certificates ensure the pe
 - Navigate to StartCom and [sign up][startssl-sign-up]
 - Enter your country and email address to the respective fields
 - Verify your e-mail (follow the instructions, which are very simple)
-- The system will issue a certificate for your email and save it locally, which will be your user authentication to log in. Choose " The system generate private key and CSR", enter your password, and download the file. 
+- The system will issue a certificate for your email and save it locally, which will be your user authentication to log in. Choose "The system generate private key and CSR", enter your password, and download the file
 - [Import the certificate to your browser][import-cert-browser]. This will allow you to log into your account in one click from then on 
 
 On the next screen, StartCom will present all their certificate options. Choose the box "Free - Class 1 SSL".
@@ -201,7 +199,12 @@ Domain validation is necessary to make sure that the domain you are issuing the 
 
 #### Certificate Request
 
-- In the box **Please enter the full hostname for SSL certificate**, enter your domain name: you can enter only the root domain, enter the domain and some subdomains, and/or enter multiple domains (up to 5). Suggestion? Do one by one; if something goes wrong, it will be just one to fix.
+- In the box **Please enter the full hostname for SSL certificate**, enter your domain name. There are a few options:
+   - you can enter only the root domain 
+   - enter the root domain and some subdomains 
+   - enter multiple domains (up to 5). 
+
+   Suggestion? Do one by one; if something goes wrong, it will be just one to fix.
 - Choose the first option: the radio button for PEM certificates **Generate by myself**. It will open a text area where you'll add the CSR we'll generate next. Leave the tab opened<a name="tab-step-1"></a>.
 
 ![StartCom - Certificate Wizard - CSR](/images/blogimages/startssl-gitlab-pages/startssl-gitlab-pages-gen-csr.png)
@@ -217,7 +220,7 @@ For this particular step, we have two different approaches: [Linux and Mac](#uni
 - Open the terminal and check if you have [OpenSSL] installed: `$ openssl version`. If the response is not `OpenSSL x.x.x date`, install it before continue
 - Run the command recommended by StartCom: 
   `$ openssl req -newkey rsa:2048 -keyout yourname.key -out yourname.csr`. 
-  Use `sudo` if needed. Alternatively, you can change the key length to `rsa:4096`. `yourname` can be any name you want
+  Use `sudo` if needed. Alternatively, you can change the key length to `rsa:4096`. The file name (`yourname`) can be chosen at your will
 - Enter the PEM passphrase (it's like a password)
 - Verify it by typing the same passphrase again. Memorize it or make a note.
 - The terminal will ask you questions. Answer the first, then you can leave the others blank if you want (hit Enter/Return). Done!
@@ -245,7 +248,7 @@ The image below illustrates how the desktop application looks like:
 
 ![StartCom Tool - Windows](/images/blogimages/startssl-gitlab-pages/startssl-gitlab-pages-windows.png)
 
-Alternatively, you can follow these instructions to generate the CSR via [command line][google-gen-csr] on Windows.
+Alternatively, you can follow [these instructions][google-gen-csr] to generate the CSR via command line on Windows.
 
 ### Step 3: Issue your certificate
 
@@ -292,13 +295,13 @@ There are two ways to proceed in this case: [via command line (option A)](#cmd) 
 
 In your terminal, type `$ openssl rsa -in yourname.key -out yourname-decrypted.key`, where `yourname` is the name of the encrypted key and `yourname-decrypted.key` will be the name of the decrypted key. Use the same password you set up before (on Step 2) when prompted. Your new key will be in your `~home` directory. 
 
-On Windows, proceed likewise, but `cd path/to/folder` before beginning. And the decrypted key will be store in the same directory.
+On Windows, proceed likewise, but `cd path/to/folder` before beginning. The decrypted key will be stored in the same directory you've just navigated to.
 
 <a name="ui"></a>
 
 #### Option B: Via StartCom UI
 
-- On your StartCom UI, navigate to the **Tool Box** tab and click **Decrypt Private Key**
+- On your [StartCom UI][startssl], navigate to the **Tool Box** tab and click **Decrypt Private Key**
 - Locally, open the private encrypted key in a text-editor. Copy all its content.
 - Back to the UI, paste the content to the text-area and type your passphrase (used on Step 2)
 - Click **Decrypt**
@@ -329,7 +332,7 @@ If we've set up everything correctly, this is the screen we'll see on our GitLab
 
 ![StartSSL + GitLab - valid certificate](/images/blogimages/startssl-gitlab-pages/startssl-gitlab-pages-certificate-valid.png)
 
-Now your domain will be accessed under secure HTTPS protocol and will display on the browser the green lock we were looking forward to see! 
+Now your domain will be accessed under secure HTTPS protocol and will display on the browser the green lock we were looking forward to see! You can perform a test to check your certificate with [Site 24x7][site-24-7], if you want.
 
 Do you want to see a working example of a GitLab Pages Project secure with StartSSL Class 1? 
 Visit <https://gitlab.virtuacreative.com.br>, an alias for <https://virtuacreative.gitlab.io>.
@@ -366,7 +369,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [Eddy Nigg]: https://twitter.com/eddy_nigg
 [google-verif]: https://support.google.com/webmasters/answer/35179?hl=en
 [google-gen-csr]: https://developers.google.com/web/fundamentals/security/encrypt-in-transit/generating-keys-and-csr#generate-a-csr
-[import-cert-browser]: http://help-icc.untangle.com/Content/User%20Guide/UI_Tabs/SSLCertificateGPO_v4/Appendix%20B%20Installing%20the.htm
+[import-cert-browser]: //help-icc.untangle.com/Content/User%20Guide/UI_Tabs/SSLCertificateGPO_v4/Appendix%20B%20Installing%20the.htm
 [isrg]: https://en.wikipedia.org/wiki/Internet_Security_Research_Group
 [lets]: https://letsencrypt.org/
 [lets-browser-support]: https://community.letsencrypt.org/t/which-browsers-and-operating-systems-support-lets-encrypt/4394
@@ -374,7 +377,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [lets-docs]: https://letsencrypt.readthedocs.org/en/latest/intro.html
 [lets-domain-validation]: https://letsencrypt.org/how-it-works/#domain-validation
 [lest-faq]: https://community.letsencrypt.org/t/frequently-asked-questions-faq/26
-[lets-features]: http://letsencrypt.readthedocs.org/en/latest/intro.html?highlight=revoke#current-features
+[lets-features]: //letsencrypt.readthedocs.org/en/latest/intro.html?highlight=revoke#current-features
 [lets-forum]: https://community.letsencrypt.org/
 [lets-limits]: https://community.letsencrypt.org/t/rate-limits-for-lets-encrypt/6769
 [lets-quote]: https://letsencrypt.org/2015/10/29/phishing-and-malware.html
@@ -383,7 +386,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [lets-ref2]: //arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/
 [lets-ref3]: //krebsonsecurity.com/2015/04/dont-be-fodder-for-chinas-great-cannon/
 [lets-renewal]: //letsencrypt.readthedocs.org/en/latest/using.html#renewal
-[lets-requirements]: http://letsencrypt.readthedocs.org/en/latest/intro.html?highlight=revoke#system-requirements
+[lets-requirements]: //letsencrypt.readthedocs.org/en/latest/intro.html?highlight=revoke#system-requirements
 [lets-sha-256]: https://community.letsencrypt.org/t/does-the-certificate-offer-a-sha-2-signature/8914
 [lets-smime]: https://community.letsencrypt.org/t/s-mime-certificates/153
 [lets-win]: https://cultiv.nl/blog/lets-encrypt-on-windows/
@@ -392,10 +395,11 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [nginx]: https://www.nginx.com/
 [openssl]: https://www.openssl.org/
 [pages]: https://pages.gitlab.io/
-[pages-doc]: http://doc.gitlab.com/ee/pages/README.html
+[pages-doc]: //doc.gitlab.com/ee/pages/README.html
 [pem]: https://support.ssl.com/Knowledgebase/Article/View/19/0/der-vs-crt-vs-cer-vs-pem-certificates-and-how-to-convert-them
 [pki-google-book]: https://books.google.com.br/books?id=oswvyhAftLsC&pg=PA69&redir_esc=y#v=onepage&q&f=false
 [sha]: https://en.wikipedia.org/wiki/Secure_Hash_Algorithm
+[site-24-7]: https://www.site24x7.com/ssl-certificate.html
 [symantec]: https://www.symantec.com/
 [symantec-ssl]: https://www.symantec.com/ssl-certificates/
 [startssl]: https://startssl.com
@@ -432,7 +436,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [pages]: https://pages.gitlab.io
 [pages-ee]: //doc.gitlab.com/ee/pages/README.html
 [pages-issues]: https://gitlab.com/pages/pages.gitlab.io/issues
-[gitlab-nginx]: http://doc.gitlab.com/ee/install/installation.html#nginx
+[gitlab-nginx]: //doc.gitlab.com/ee/install/installation.html#nginx
 [gitlab-post-lets]: https://about.gitlab.com/2016/04/11/tutorial-securing-your-gitlab-pages-with-tls-and-letsencrypt/
 [gitlab-post-pages]: https://about.gitlab.com/2016/04/07/gitlab-pages-setup/
 [sign-up]: https://gitlab.com/users/sign_in "Sign Up!"
