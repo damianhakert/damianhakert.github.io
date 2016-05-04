@@ -38,7 +38,9 @@ Senior Developers are experienced developers who:
 ## Success Criteria
 You know you are doing a good job as a Developer when:
 
-* You add much-requested features, fix bugs, and/or improve speed and memory performance to GitLab.
+* You add much-requested features to GitLab.
+* You help improve the performance and reduce the memory usage of GitLab.
+* You fix commonly-encountered bugs.
 * Your contributions adhere tightly to the [Contribution Guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md).
 * You are helping Service Engineers resolve customer issues in a timely manner.
 * Your documentation is considered complete and clear.
