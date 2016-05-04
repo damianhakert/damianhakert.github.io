@@ -39,3 +39,5 @@ We'd love to meet you.
 [Kamil]: https://twitter.com/ayufanpl
 [Richard]: https://twitter.com/catchthepidge
 [Job]: https://twitter.com/Jobvo
+[Douwe]: https://twitter.com/DouweM
+[ZJ]: https://twitter.com/zegerjan
