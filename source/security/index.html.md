@@ -152,7 +152,7 @@ Does your quality management system (QMS) include coverage for software applicat
    - YES; as applicable.
 
 1. Are personnel training plans and records kept for internal company compliance purposes?
-   - NO.
+   - Tasks and training completed during [onboarding](https://about.gitlab.com/handbook/general-onboarding/) are recorded.
 
 ### Validation
 
@@ -166,7 +166,7 @@ Does your quality management system (QMS) include coverage for software applicat
    - YES. For example, [brakeman](https://github.com/presidentbeef/brakeman) and [bundler-audit](https://github.com/rubysec/bundler-audit) are part of our test suite to be alerted to any security issues in our dependent Ruby libraries.
 
 1. Is some form of dynamic code scanning performed as part of the release acceptance? What tools are used?
-   - NO.
+   - YES. We use GitLab CI for this purpose.
 
 ### Security Response
 
