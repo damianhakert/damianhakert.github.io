@@ -36,7 +36,6 @@ Go to the [Marketing Handbook](/handbook/marketing)
 1. If region is EMEA, lead goes directly to EMEA BDR team.
 1. If region is APAC, lead goes directly to APAC Sales Director.
 1. All other regions go directly to NA BDR team.
-1. If outside of EMEA, large accounts and recognizable brand names are first passed directly to Enterprise Sales team via assignment in Salesforce + email alert to account owner.
 1. All other leads pass through BDR lead qualification process.
 
 ## Lead qualification process<a name="leadQual"></a>
@@ -48,7 +47,7 @@ Go to the [Marketing Handbook](/handbook/marketing)
 5. If further qualification is needed to understand Soft-BANT requirements, BDR team will email or schedule a phone call with lead to understand their project and initiatives.
 6. If Soft-BANT isn't met and there are questions, BDR team will answer all questions or route to support.
 7. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
-8. If a lead is from a [Fortune 500 company](http://fortune.com/fortune500/), it will be assigned to a senior account manager.
+8. If a lead is from a [Fortune 500 company](http://fortune.com/fortune500/), it will be assigned to a senior account executive.  For larger opportunities outside the US, lead will be passed to senior account executive or sales director in region.
 9. If a lead is an existing customer or a prospect that's owned/operated by an existing customer, BDR team will determine account owner and pass lead.
 10. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
 
