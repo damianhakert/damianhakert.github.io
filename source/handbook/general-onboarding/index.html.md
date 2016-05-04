@@ -185,6 +185,7 @@ Please update this list as more steps arise.
 * Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
 * Read our [Team Handbook](https://about.gitlab.com/handbook/)
 * Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/)
+* Be aware your google calendar (tied to your GitLab account) is internally viewable by default, you might want to [change this](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en) in your calendar settings.
 * You can [download](https://tools.google.com/dlpage/drive/index.html?hl=en) Google Drive for your computer to access offline
 * You should have been provided access to our [Internal GitLab Server](https://dev.gitlab.org). Take a moment to familiarize yourself with:
   1. The Dashboard
