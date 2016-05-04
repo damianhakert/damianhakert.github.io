@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Release Manager - The invisible hero
 date: 2015-06-25
 author: Marin Jankovski

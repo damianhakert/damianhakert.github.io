@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab Community Forum"
 date: 2015-01-12
 categories:

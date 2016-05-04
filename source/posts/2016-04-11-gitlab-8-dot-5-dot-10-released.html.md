@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 8.5.10, 8.4.8, and 8.3.7 Released"
 date: 2016-04-11 17:05
 author: GitLab

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab Partners with DigitalOcean to make Continuous Integration faster, safer, and more affordable"
 date: 2016-04-19 13:00
 author: Amara Nwaigwe

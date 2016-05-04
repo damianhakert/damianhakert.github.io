@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Fast Search Using PostgreSQL Trigram Indexes
 date: 2016-03-18 19:00:00 UTC
 author: Yorick Peterse

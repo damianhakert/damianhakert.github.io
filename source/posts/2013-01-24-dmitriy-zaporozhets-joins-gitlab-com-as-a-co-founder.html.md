@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Dmitriy Zaporozhets joins GitLab.com as a co-founder
 tags: []
 status: publish

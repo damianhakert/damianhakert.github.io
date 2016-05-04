@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Rails Girls Summer of Code 2016
 date: 2016-02-23
 author: Yorick Peterse

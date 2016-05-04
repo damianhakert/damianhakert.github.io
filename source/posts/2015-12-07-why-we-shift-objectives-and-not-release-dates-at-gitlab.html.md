@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Why we shift objectives and not release dates at GitLab"
 date: 2015-12-07
 author: Heather McNamee

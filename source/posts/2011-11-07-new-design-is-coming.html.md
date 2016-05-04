@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: New design is coming
 wordpress_id: 25
 wordpress_url: http://blog.gitlabhq.com/?p=25

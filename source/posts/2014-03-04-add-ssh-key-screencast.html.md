@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Adding a SSH key to GitLab Screencast
 date: March 4, 2014
 author: Job van der Voort

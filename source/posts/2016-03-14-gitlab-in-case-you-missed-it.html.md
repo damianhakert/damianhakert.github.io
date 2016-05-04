@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab: In case you missed it"
 date: 2016-03-14
 author: Ivan Nemytchenko

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Omnibus-gitlab security release: bundled Postgres trusts all local connections"
 date: June 19, 2014
 author: Jacob Vosmaer

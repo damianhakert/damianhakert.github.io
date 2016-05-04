@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Gitlab.io is now Gitlab.com
 tags: []
 status: publish

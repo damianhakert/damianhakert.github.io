@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GitLab High Availability Solutions
 date: December 17, 2013
 author: Marc Radulescu

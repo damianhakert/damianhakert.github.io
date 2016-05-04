@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GitLab.com upgraded to GitLab 4.1
 tags: []
 status: publish

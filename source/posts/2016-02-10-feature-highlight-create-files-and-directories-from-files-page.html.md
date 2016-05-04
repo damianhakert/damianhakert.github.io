@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Feature Highlight: Create files and directories from the Files page"
 date: 2016-02-10
 author: Drew Blessing

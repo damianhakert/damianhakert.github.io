@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "WANdisco integrates GitLab Enterprise Edition in their Git MultiSite offering"
 date: 2014-09-22 12:50:13 +0200
 author: Sytse Sijbrandij

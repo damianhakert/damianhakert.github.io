@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Job van der Voort joins Gitlab as Junior Service Engineer
 date: February 11, 2014
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Testdriving GitLab
 date: March 11, 2014
 author: Job van der Voort

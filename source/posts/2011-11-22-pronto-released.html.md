@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: Pronto released
 wordpress_id: 69
 wordpress_url: http://blog.gitlabhq.com/?p=69

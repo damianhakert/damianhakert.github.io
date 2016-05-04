@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: New commit show page
 wordpress_id: 114
 wordpress_url: http://blog.gitlabhq.com/?p=114

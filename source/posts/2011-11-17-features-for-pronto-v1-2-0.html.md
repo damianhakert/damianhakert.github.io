@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: Features for Pronto  (v1.2.0)
 wordpress_id: 52
 wordpress_url: http://blog.gitlabhq.com/?p=52

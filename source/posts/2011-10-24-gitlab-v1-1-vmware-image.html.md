@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: gitlab v1.1 vmware image
 wordpress_id: 8
 wordpress_url: http://blog.gitlabhq.com/?p=7

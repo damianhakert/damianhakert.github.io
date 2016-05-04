@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Setting up GitLab CI for iOS projects"
 date: 2016-03-10
 categories:

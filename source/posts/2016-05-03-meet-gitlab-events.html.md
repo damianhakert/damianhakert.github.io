@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Meet GitLab - Upcoming Events May Edition"
 date: 2016-05-03 18:30
 comments: true
@@ -8,7 +7,7 @@ author_twitter: emilylucie
 image_title: '/images/blogimages/eventspic.jpg'
 ---
 
-May is a very busy and exciting events month for our [team]! Since we are a remote first company, we rarely get to meet in person, but this month the whole team is meeting in Austin, TX for OSCON. The last time we met was in October and since then the team has grown significantly. We get to meet each other face to face for the firts time and hopefully get to see some of you throughout the month as well.
+May is a very busy and exciting events month for our [team]! Since we are a remote first company, we rarely get to meet in person, but this month the whole team is meeting in Austin, TX for OSCON. The last time we met was in October and since then the team has grown significantly. We get to meet each other face to face for the first time and hopefully get to see some of you throughout the month as well.
 
 The following are some upcoming events and where you can meet our team.
 
@@ -25,7 +24,7 @@ We'd love to meet you.
 
 ## South America
 
-- [Ruby on Rails Bootcamp](http://rails.softwarelibrechile.cl), May 7, 28 in Santiago, Chile -- [Felipe] will be runnign the course.
+- [Ruby on Rails Bootcamp](http://rails.softwarelibrechile.cl), May 7, 28 in Santiago, Chile -- [Felipe] will be running the course.
 
 ## Europe
 
@@ -40,3 +39,5 @@ We'd love to meet you.
 [Kamil]: https://twitter.com/ayufanpl
 [Richard]: https://twitter.com/catchthepidge
 [Job]: https://twitter.com/Jobvo
+[Douwe]: https://twitter.com/DouweM
+[ZJ]: https://twitter.com/zegerjan

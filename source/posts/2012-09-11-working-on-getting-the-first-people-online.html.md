@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Working on getting the first people online
 tags: []
 status: publish

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Making GitLab Faster
 date: 2016-02-25
 author: Yorick Peterse

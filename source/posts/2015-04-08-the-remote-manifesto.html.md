@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "The Remote Manifesto"
 date: 2015-04-08
 author: Sytse Sijbrandij

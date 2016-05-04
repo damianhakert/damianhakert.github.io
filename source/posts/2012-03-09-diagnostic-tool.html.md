@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: Diagnostic tool
 wordpress_id: 254
 wordpress_url: http://blog.gitlabhq.com/?p=254

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Your thoughts on Gitlab.com pricing
 tags: []
 status: publish

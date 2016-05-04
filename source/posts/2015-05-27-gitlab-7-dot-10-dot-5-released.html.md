@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 7.10.5 released"
 date: 2015-05-27
 author: Job van der Voort

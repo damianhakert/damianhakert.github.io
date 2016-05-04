@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GitLab.com and Logjam
 date: 2015-06-17
 author: Marin Jankovski

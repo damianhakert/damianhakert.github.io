@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Commits Do Not Equal Productivity"
 date: 2016-03-08
 author: Job van der Voort

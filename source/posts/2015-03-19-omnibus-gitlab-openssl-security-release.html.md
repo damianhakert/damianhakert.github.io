@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Omnibus GitLab OpenSSL 1.0.1m security release
 date: 2015-03-19
 author: Marin Jankovski

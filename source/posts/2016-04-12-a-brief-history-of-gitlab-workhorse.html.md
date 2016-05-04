@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "A Brief History of GitLab Workhorse"
 date: 2016-04-12 12:00
 comments: true

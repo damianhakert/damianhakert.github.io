@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: Some screens from 2.3pre
 wordpress_id: 246
 wordpress_url: http://blog.gitlabhq.com/?p=246

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Innersourcing, using the open source workflow to improve collaboration within an organization"
 date: 2014-09-05 11:27:30 +0200
 author: Sytse Sijbrandij

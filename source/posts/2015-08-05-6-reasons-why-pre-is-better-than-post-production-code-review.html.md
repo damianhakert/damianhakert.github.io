@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "6 reasons why pre is better than post production code review"
 date: 2015-08-05
 author: Job van der Voort

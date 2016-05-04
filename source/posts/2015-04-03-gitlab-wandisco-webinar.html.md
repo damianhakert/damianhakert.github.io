@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab WANdisco Webinar"
 date: 2015-04-03
 categories:

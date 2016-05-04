@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Webcast Recording and Slides: GitLab 8.6"
 date: 2016-03-25
 categories: webcast

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "What GitLab employees like about working at GitLab"
 date: 2016-04-26
 author: GitLab

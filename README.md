@@ -40,23 +40,35 @@ Open the file in your text editor of choice. The file will be empty except for a
 few lines at the top, surrounded by a pair of three hyphens (`---`). These lines
 are called [**Frontmatter**](https://middlemanapp.com/basics/frontmatter/).
 
-The `layout`, `title`, and `date` attributes have already been filled out by the
-`new_post` Rake task. Fill in the others as needed, or remove any that aren't
-applicable to your post.
+The `title` attribute has already been filled out by the `new_post` Rake task.
+Fill in the others as needed, or remove any that aren't applicable to your post
+(not every post needs an `image`, for example).
 
-Fill in the post's content using [Markdown][gfm]. To preview your post locally
-before publishing, see [**Local development**](#local-development) for
-instructions.
+If you need more fine-grained control over blog post ordering, or publication
+time, add a `date` attribute to the frontmatter with a UTC-based time. For
+example:
+
+```yaml
+---
+title: "Example Blog Post"
+date: 2017-04-01 15:45
+---
+```
+
+If no `date` attribute is supplied, it will be inferred from the filename.
 
 When adding timestamps to blog posts, **be warned:** setting it too far into the
 future will cause the post to not be published until that time has passed.
-
 Because builds are only triggered on new commits to `master`, you might set a
 blog post to publish in a few hours, but it might not be published for days if
 no one makes a new commit after that time has passed.
 
 When in doubt, either don't give it a timestamp, or set it to a time that has
 already passed.
+
+Fill in the post's content using [Markdown][gfm]. To preview your post locally
+before publishing, see [**Local development**](#local-development) for
+instructions.
 
 [gfm]: http://doc.gitlab.com/ce/markdown/markdown.html
 

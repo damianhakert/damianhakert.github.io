@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GitLab CI 5.0.1 Security Release
 date: May 16, 2014
 author: Job van der Voort

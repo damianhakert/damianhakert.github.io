@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How to install GitLab on your own domain"
 date: 2015-02-24
 categories:

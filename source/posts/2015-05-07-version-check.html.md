@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Version Check Functionality"
 date: 2015-05-07
 author: Sytse Sijbrandij

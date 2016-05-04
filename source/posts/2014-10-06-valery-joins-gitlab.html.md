@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Valery joins GitLab"
 date: 2014-10-06 15:14:06 +0300
 author: Valery Sizov

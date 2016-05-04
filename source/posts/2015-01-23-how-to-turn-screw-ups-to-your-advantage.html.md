@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How to turn screw-ups to your advantage"
 date: 2015-01-23
 categories:

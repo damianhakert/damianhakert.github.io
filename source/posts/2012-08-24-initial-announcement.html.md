@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Initial announcement
 tags: []
 status: publish

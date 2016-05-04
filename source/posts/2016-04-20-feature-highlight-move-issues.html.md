@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Feature highlight: Move issues between projects"
 date: 2016-04-20 12:00
 comments: true

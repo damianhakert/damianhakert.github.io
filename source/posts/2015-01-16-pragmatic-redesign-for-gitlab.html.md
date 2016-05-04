@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Pragmatic Redesign for GitLab"
 date: 2015-01-16
 categories:

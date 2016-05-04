@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Customer Story: Stack Overflow"
 date: 2016-04-07 16:30
 categories: customer

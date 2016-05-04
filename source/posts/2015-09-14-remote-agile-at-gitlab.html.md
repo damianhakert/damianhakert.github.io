@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Remote Agile at GitLab"
 date: 2015-09-14
 author: Job van der Voort

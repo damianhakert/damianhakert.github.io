@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How we managed 49 monthly releases"
 date: 2015-12-17
 author: Dmitriy Zaporozhets
