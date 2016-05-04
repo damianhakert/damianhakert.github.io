@@ -5,15 +5,18 @@ title: "Marketing"
 
 The marketing team is made up of a few key functional groups:
 
-## Design
-
-- [Designer](/jobs/designer/)
 
 ## Demand generation
 
 - [Demand generation](/handbook/marketing/demand-generation)
 - [Online marketing](/handbook/marketing/online-marketing/)
-- [Business development](/jobs/business-development-representative/)
+- [Business development](/jobs/business-development-representative/)  
+
+
+## Design
+
+- [Designer](/jobs/designer/)  
+
 
 ## Developer Relations
 
@@ -33,5 +36,4 @@ The marketing team is made up of a few key functional groups:
 - [GitLab Marketing Project](https://gitlab.com/gitlab-com/marketing)
 - Google drive folder can be found by searching the company Google Drive for
   "GitLab Marketing"
-
-[Marketing issue tracker](https://gitlab.com/gitlab-com/marketing/issues)
+- [Marketing issue tracker](https://gitlab.com/gitlab-com/marketing/issues)
