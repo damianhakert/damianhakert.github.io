@@ -8,6 +8,7 @@ title: Support
 - [Service Engineer Onboarding](/handbook/support/onboarding/)
 - [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
 - [PGP Process](https://about.gitlab.com/handbook/support/pgp_process/)
+- [External support resources for the team](/handbook/support/external/)
 
 ## Contents of the page
 
@@ -141,29 +142,7 @@ have the link to the corresponding ZenDesk issue from where you will continue th
 
 Once acknowledged, you need to login to [ZenDesk](https://gitlab.zendesk.com), go to the corresponding ticket
 and let the customer know that you will handle their case. On this response you should ask for the best way
-to contact them. Usual channels are Phone, Skype, WebEx or Hangouts.
-
-#### WebEx
-
-More often than not, WebEx will be the best tool for the job, so you can save yourself a step and already start
-a WebEx session for this call. To do this you can use the `GitLab Support` WebEx account. Go to our
-[WebEx Portal](https://gitlabmeetings.webex.com), click on the login button on the top right and use the
-credentials found in the Support Vault on 1password.
-
-![WebEx Login](/images/support/web-ex-login.png)
-
-Once logged in, click the `Enter Room` button to start the WebEx meeting and send the following link to
-the customer and ask them to join the call.
-
-```
-https://gitlabmeetings.webex.com/meet/gitlabsupport
-```
-
-![WebEx Room](/images/support/web-ex-room.png)
-
-WebEx is usually the best choice, since it allows you to see the customer's desktop and
-to control it on request. It also gives the customer the possibility to join via phone and
-us the possibility to use our computer audio connection.
+to contact them. Usual channels are Phone, Skype, [WebEx](/handbook/support/onboarding/#webex) or Hangouts.
 
 #### Crisis Situations
 
