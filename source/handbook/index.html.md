@@ -207,7 +207,7 @@ outside the organization.
 1. Use video calls if you find yourself going back and forth in an issue/via email
 or over chat.
 1. Having pets, children, significant others, friends and family visible during
-video chats is encouraged. If they are humans, ask them to wave at your remote
+video chats is encouraged. If they are human, ask them to wave at your remote
 team member to say 'Hi'.
 1. Email forwarding rules are specified in the shared "GitLab Email Forwarding" Google doc accessible to people in the company, if you want to change a rule or add a forwarding email alias, please [make a suggestion](https://support.google.com/docs/answer/6033474?hl=en) in the document.
 1. Emails are asynchronous, for example if your manager emails you on a weekend
