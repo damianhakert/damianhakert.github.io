@@ -242,7 +242,7 @@ with the person who requested the contract to make sure that this point is addre
 Note for People Operations:
 - the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
 [Contracts page](https://about.gitlab.com/handbook/contracts).
-- Onboarding info for the PeopleOps system, BambooHR, can be found on the [PeopleOps](about.gitlab.com/handbook/people-operations) page.
+- Onboarding info for the PeopleOps system, BambooHR, can be found on the [PeopleOps](/handbook/people-operations) page.
 
 ## Underperformance <a name="underperformance"></a>
 
