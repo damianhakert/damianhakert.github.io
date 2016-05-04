@@ -10,6 +10,7 @@ contributors who work together as a tight team in a [remote and agile](https://a
 
 * Develop features from request to polished end result.
 * Support our [service engineers](https://about.gitlab.com/jobs/service-engineer) in getting to the bottom of user-reported issues and come up with robust solutions.
+* Support our [infrastructure engineers](https://about.gitlab.com/jobs/production-engineer/) to identify and fix production issues.
 * Engage with the rest of the core team and the open source community and collaborate on improving GitLab.
 * Review code contributed by the rest of the community and work with them to get it ready for production.
 * Write documentation around features and configuration to save our users time.
@@ -37,8 +38,7 @@ Senior Developers are experienced developers who:
 ## Success Criteria
 You know you are doing a good job as a Developer when:
 
-* You are solving issues and contributing code assigned to milestones well before
-the milestone comes up.
+* You add much-requested features, fix bugs, and/or improve speed and memory performance to GitLab.
 * Your contributions adhere tightly to the [Contribution Guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md).
 * You are helping Service Engineers resolve customer issues in a timely manner.
 * Your documentation is considered complete and clear.
