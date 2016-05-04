@@ -45,7 +45,7 @@ You know you are doing a good job as a Developer when:
 * You are helping Service Engineers resolve customer issues in a timely manner.
 * Your documentation is considered complete and clear.
 * Your interaction with the rest of the GitLab community is constructive and positive.
-* You show initiative in pro-actively improving code and processes to make the life of all developers easier.
+* You show initiative in proactively improving code and processes to make the lives of all developers easier.
 
 ## Requirements
 
