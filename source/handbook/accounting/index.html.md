@@ -5,6 +5,7 @@ title: "Accounting"
 
 ## Accounting Topics
 
+* [Signature Authorization Matrix](#auth-matrix)
 * [General Topics](#general-topics)
    * [Company accounts](#company-accounts)
 * [Processing Payroll](#payroll)
@@ -15,6 +16,17 @@ title: "Accounting"
 * [Company Credit Cards](#company-cc)
 * [Accounts Receivable](#ar)
 * [Cash Receipt](#cash-receipt)
+
+
+## Signature Authorization Matrix<a name="auth-matrix"></a>
+
+
+
+| Amount    | Team member | Exec Team | CEO | Board | Controller   | CFO          |
+| --------- | ----------- | --------- | --- | ----- | ------------ | -----------: |
+| Up to $5k | Approves    |           |     |       | Approves (1) | Approves (2) |        				
+
+
 
 ## General Topics<a name="general-topics"></a>
 
@@ -33,7 +45,7 @@ If you need this information but cannot find it in your shared vaults you can ch
 
 ### GitLab Inc. Payroll Procedures <a name="payroll-inc"></a>
 
-1. You will receive a reminder from Trinet the week before payroll closes for each pay period.
+1. You will receive a reminder from TriNet the week before payroll closes for each pay period.
 1. If you are handling payroll changes- the email will let you know by what date you must submit those changes.
 1. Enter the dates into your calendar with a reminder for the day before the deadline.
 1. Log into TriNet Passport
