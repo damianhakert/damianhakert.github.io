@@ -2,8 +2,6 @@
   logo: /images/organizations/logo_3b.svg
 - name: SanDisk
   logo: /images/organizations/logo_1b.svg
-- name: Lego
-  logo: /images/organizations/logo_1c.svg
 - name: RedHat
   logo: /images/organizations/logo_1d.svg
 - name: Nasa
@@ -24,8 +22,6 @@
   logo: /images/organizations/logo_2f.svg
 - name: EA
   logo: /images/organizations/logo_3a.svg
-- name: Northwestern Mutual
-  logo: /images/organizations/logo_1a.svg
 - name: Macys
   logo: /images/organizations/logo_3c.svg
 - name: Stack Exchange
