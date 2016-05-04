@@ -18,7 +18,7 @@ extra_css:
 - [GitLab.com vs. Bitbucket.org](#gitlabcom-vs-bitbucketorg)
 - [GitLab CE/EE vs. SaaS](#gitlab-ceee-vs-saas)
 - [GitLab vs. SVN](#gitlab-vs-svn)
-- [GitLab vs. GitSwarm](#gitlab-gitswarm)
+- [GitLab vs. GitSwarm](#gitlab-vs-gitswarm)
 
 ## Bias
 
