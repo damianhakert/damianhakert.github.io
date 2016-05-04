@@ -117,7 +117,7 @@ people. We try to hire people who think work is a great way to express themselve
 1. We recognize that inspiration is perishable, so if you’re **enthusiastic** about something that generates great results in relatively little time feel free to work on that.
 1. Do what is right for our **customers** and the rest of the GitLab community, do what is best over the long term, don't be evil.
 1. We create **simple** software to accomplish complex collaborative tasks.
-1. We **use** our own software to accomplish complex collaborative tasks. 
+1. We **use** our own software to accomplish complex collaborative tasks.
 1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin colour, gender or sexual orientation.
 1. Use **inclusive** language. For example, prefer 'Hi everybody' or 'Hi people' to 'Hi guys'.
 1. Share problems you run into, ask for help, be forthcoming with information and **speak up**.
@@ -136,8 +136,8 @@ and then view the documentation as a lower priority task as this inevitably lead
 1. We want to have a great company so if you meet people that are **better** than yourself try to recruit them to join the company.
 1. Make a conscious effort to **recognize** the constraints of others within the team. For example, sales is hard because you are dependent on another organization, and Development is hard because you have to preserve the ability to quickly improve the product in the future.
 1. Our **strategy** is detailed on the [Strategy page](https://about.gitlab.com/strategy/), please read it and contribute.
-1. For each action or comment, it helps to ask yourself (i) does this 
-help the company achieve its strategic goals? (ii) is this in the company's interest, 
+1. For each action or comment, it helps to ask yourself (i) does this
+help the company achieve its strategic goals? (ii) is this in the company's interest,
 and finally, (iii) how can I contribute to this effort/issue in a constructive way?
 1. There is no need for **consensus**, make sure that you give people that might have good insights a chance to respond (by /cc'ing them) but make a call yourself because [consensus doesn't scale](https://twitter.com/sama/status/585950222703992833).
 1. Everyone at the company cares about your **output**. Being away from the keyboard during the workday, doing private browsing or making personal phone calls is fine and encouraged.
@@ -209,6 +209,7 @@ prevent spam from people outside of GitLab who request access to the doc when th
 instead of Google/Word documents. This makes them easier to find and suggest
 changes to with the organization and shows our commitment to open collaboration
 outside the organization.
+1. In our handbook, if you find yourself wondering whether it is better to provide a public link to a Google Doc vs. writing out the content on the website, use the following guideline: Is this document frequently adapted / customized? If yes, then provide a link, making sure that the document can be _commented on_ by _anyone_ with the link. For instance, this is how we share our employment contracts. If the document is rarely customized, then provide the content directly on the site and deprecate the Google Doc.
 1. Use video calls if you find yourself going back and forth in an issue/via email
 or over chat.
 1. Having pets, children, significant others, friends and family visible during
