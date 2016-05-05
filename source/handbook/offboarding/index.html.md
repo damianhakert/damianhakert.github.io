@@ -30,7 +30,8 @@ Create issue for former team member on the dev server in the [organization issue
 supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/people-operations/#returning-property)
 for further details on that process.
 * [ ] People Ops: Inform Controller / Accounting if any items in former team members possession will not be returning, so that they can be removed from asset tracking.
-* [ ] Robert/Jacob: Remove former team members' GitLab.com account from the [gitlab.com group](https://gitlab.com/groups/gitlab-com/group_members)
+* [ ] Robert/Jacob: Remove former team members' GitLab.com account from the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members)
+* [ ] Robert/Jacob: Remove former team members' GitLab.com account from the [gitlab-org group](https://gitlab.com/groups/gitlab-org/group_members) (if applicable)
 * [ ] Robert/Jacob/Ernst: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members)
 * [ ] Robert/Ernst: Remove access to 1Password.
 * [ ] @wilson: Remove access to company credit card.
