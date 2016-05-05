@@ -853,3 +853,39 @@
   gitlab:
   story:  |
           Joining May 16th
+
+- name: F.A.
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 9th
+
+- name: J.N.
+  role: <a href="https://about.gitlab.com/jobs/production-engineer/">Senior Production Engineer</a>
+  reports_to: Operations Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 16th
+
+- name: M.K.
+  role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
+  reports_to: Operations Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 23rd
+
+- name: T.B.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer Intern</a>
+  reports_to: Backend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining July 1st
