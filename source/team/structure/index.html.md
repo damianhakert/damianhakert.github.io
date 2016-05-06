@@ -53,7 +53,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Developers](/jobs/developer/) that are Rails specialists
     - Frontend - [Frontend Lead](/jobs/frontend-lead/)
       - [Frontend Engineers](/jobs/frontend-engineer/)
-    - [Infrastructure](/handbook/operations/) - Infrastructure lead
+    - [Infrastructure](/handbook/infrastructure/) - Infrastructure lead
       - [Production Engineers](/jobs/production-engineer/)
       - [Developers](/jobs/developer/) that are a performance specialist
     - [Support](/handbook/support/) - Support lead
