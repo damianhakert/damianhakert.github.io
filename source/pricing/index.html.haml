@@ -3,95 +3,81 @@ layout: default
 title: Pricing
 suppress_header: true
 extra_css:
-  - subscription.css
+  - pricing.css
 extra_js:
   - subscription.js
 ---
-.wrapper
-  .pricing-container
-    .pricing-overlay
-      .pricing-content
-        %h1 GitLab Enterprise Edition on your Server
-      .header-btn
-        %a.free-trial{href: "/free-trial"} Free trial
-        %a.contact-us{href: "https://about.gitlab.com/sales/"} Contact us
-  #subs.subscriptions
-    .row{ data: { equal: ".pricing-box" } }
-      .pricing-box.col-sm-4
-        .basic.subscription.main-subscription.main-subscription-extra
-          .header
+
+.page-container.pricing-container.text-center
+  .container
+    %h1.page-headline
+      Simple pricing for teams of all sizes
+    %h4.subheader
+      Includes a 45 day money-back guarantee
+    .row.animated
+
+      .col-md-4
+        .featured-item
+          .edition-name
             GitLab.com
-          .price
-            Free
-            .subprice
+          .featured-item-body
+            %h2
+              Free
+            %h4
               unlimited repositories
-              %br/
-            .details
-              .detail
-                %span.fa.fa-chevron-right
-                .body
-                  Hosted on GitLab's servers
-              .detail
-                %span.fa.fa-chevron-right
-                .body
-                  Multi-tenant
-              .detail
-                %span.fa.fa-chevron-right
-                .body
-                  %a{href: "/gitlab-com"}
-                    Learn more about GitLab.com
-          %a.basic.button.empty-content-btn{href: "https://gitlab.com/users/sign_in"}
-            Signup
-      .pricing-box.col-sm-4
-        .basic.subscription.main-subscription.main-subscription-extra
-          .header
+            = icon "ce", "featured-item-icon", {width: 76, height: 76, label: "GitLab CE"}
+            .item-description
+              Hosted on GitLab's servers
+            .line-separator
+            .item-description
+              Unlimited private collaborators
+            .line-separator
+            .item-description
+              %a.action-link Learn more...
+            %a.featured-item-button{href: "https://gitlab.com/users/sign_in", onclick: "ga('send', 'event', 'link','click','gitlab.com signup');"}
+              Sign Up
+
+      .col-md-4
+        .featured-item
+          .edition-name
             Community Edition
-          .price
-            Free
-            .subprice
+          .featured-item-body
+            %h2
+              Free
+            %h4
               unlimited users
-              %br/
-            .details
-              .detail
-                %span.fa.fa-chevron-right
-                .body
-                  On-premises on your server
-              .detail
-                %span.fa.fa-chevron-right
-                .body
-                  %a{href: "/features/#community"} GitLab Community Edition
-              .detail
-                %span.fa.fa-chevron-right
-                .body
-                  Open source
-          %a.basic.button.empty-content-btn{href: "/downloads/"}
-            Download Now
-      .pricing-box.col-sm-4
-        .standard.subscription.main-subscription
-          .header
+            = icon "ce", "featured-item-icon", {width: 76, height: 76, label: "GitLab CE"}
+            .item-description
+              On-premises on your server
+            .line-separator
+            .item-description
+              Open source & scalable
+            .line-separator
+            .item-description
+              %a.action-link Learn more...
+            %a.featured-item-button{href: "https://gitlab.com/users/sign_in", onclick: "ga('send', 'event', 'link','click','gitlab.com signup');"}
+              Download Now
+
+      .col-md-4
+        .featured-item
+          .edition-name
             Enterprise Edition
-          .price
-            .money> $
-            39
-            .subprice
-              yearly per user
-              %br/
-              no minimum users
-          .details
-            .detail
-              %span.fa.fa-chevron-right
-              .body
-                On-premises on your server
-            .detail
-              %span.fa.fa-chevron-right
-              .body
-                %a{href: "/features/#enterprise"} GitLab Enterprise Edition
-            .detail
-              %span.fa.fa-chevron-right
-              .body
-                Next business day support
-          %a.basic.button.subscription-btn{href: "https://customers.gitlab.com"}
-            Buy now
+          .featured-item-body
+            %h2
+              $39/yr
+            %h4
+              per user (no minimum)
+            = icon "ce", "featured-item-icon", {width: 76, height: 76, label: "GitLab CE"}
+            .item-description
+              On-premises on your server
+            .line-separator
+            .item-description
+              Next business day support
+            .line-separator
+            .item-description
+              %a.action-link Learn more...
+            %a.featured-item-button{href: "https://gitlab.com/users/sign_in", onclick: "ga('send', 'event', 'link','click','gitlab.com signup');"}
+              Buy Now
   .subscriptions
     .row
       .col-sm-12
