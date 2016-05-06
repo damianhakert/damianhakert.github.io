@@ -79,10 +79,6 @@ If you email us we'll reply with [a link to this paragraph](/jobs/#no-recruiters
 - [Description](/jobs/success-engineer/)
 - [Apply](https://gitlab.workable.com/j/6A9FA4A8DE)
 
-### Strategic Relations Manager
-
-- [Description](/jobs/strategic-relations-manager/)
-- [Apply](https://gitlab.workable.com/jobs/186837/candidates/new)
 
 ### UX Designer
 
