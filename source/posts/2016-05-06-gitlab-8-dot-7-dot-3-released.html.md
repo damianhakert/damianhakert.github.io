@@ -10,6 +10,7 @@ Enterprise Edition (EE).
 
 It includes the following fixes:
 
+- **CE/EE:** OpenSSL upgraded to 1.0.1h to fix [CVE-2016-2107]
 - **CE/EE:** Emails, Gitlab::Email::Message, Gitlab::Diff, and
   Premailer::Adapter::Nokogiri are now instrumented ([!4038])
 - **CE/EE:** Merge request widget displays TeamCity build state and code
@@ -44,6 +45,7 @@ Access to GitLab Enterprise Edition is included with a [subscription](http://www
 No time to upgrade GitLab yourself? Subscribers receive upgrade and installation
 services.
 
+[CVE-2016-2107]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2107
 [!4038]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4038
 [!3998]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3998
 [!4010]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4010
