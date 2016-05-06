@@ -169,6 +169,10 @@ We want to be the devops side of monitoring more than the ops side of monitoring
 Measure the impact of deployments and not ddos attacks and scaling problems.
 Not sure if we need to ship our own monitoring stack for this or not.
 
+If we just push a release we don't have a preconfigured way to push data to the monitoring system.
+Without this preconfigured way there is no advantage to doing this ourselves.
+Also, users might be using an existing solution they want to reuse (datadog, etc.).
+
 ### Outside our scope
 
 1. **PaaS** although we do want to use [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) to deploy to CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Nomad](https://nomadproject.io/), [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/), [Tutum](https://www.tutum.co/), [GiantSwarm](https://giantswarm.io/), [Rancher](https://github.com/rancher/rancher/blob/master/README.md)
