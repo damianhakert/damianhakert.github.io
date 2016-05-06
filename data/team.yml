@@ -836,6 +836,15 @@
   story:  |
           Joining May 1st
 
+- name: C.C.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Backend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 1st
+
 - name: M.C.
   role: <a href="https://about.gitlab.com/jobs/technical-writer/">Junior Technical Writer</a>
   reports_to: CMO
@@ -844,6 +853,15 @@
   gitlab:
   story:  |
           Joining May 2nd
+
+- name: F.A.
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 9th
 
 - name: M.W.
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Sr. Account Executive</a>
@@ -854,14 +872,14 @@
   story:  |
           Joining May 16th
 
-- name: F.A.
-  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
-  reports_to: Frontend Lead
+- name: J-S.L.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Backend Lead 
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
   story:  |
-          Joining May 9th
+          Joining May 16th
 
 - name: J.N.
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Senior Production Engineer</a>
@@ -880,6 +898,15 @@
   gitlab:
   story:  |
           Joining May 23rd
+
+- name: A.P.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Backend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 26th
 
 - name: T.B.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer Intern</a>
