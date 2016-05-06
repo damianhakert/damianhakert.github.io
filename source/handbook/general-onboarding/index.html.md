@@ -42,8 +42,8 @@ there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @kirsten, and @tiffa
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), read
 the relevant onboarding pages that are linked from there, and become comfortable
 with Git and the GitLab workflow.
-* [ ] People Ops: create new profile for team member in BambooHR, and input relevant data (title, dates, contract type, compensation) into the team members profile tabs "Job"
-* [ ] People Ops: file signed contract with PIAA or NDA+IP agreements in BambooHR profile under "Documents"-->"Signed Contract/Offer Letter"
+* [ ] People Ops: create new profile for team member in BambooHR, and input relevant data (title, dates, contract type, compensation) into the team members profile tabs "Job". Be sure to enable "self-service" before saving the newly entered information.
+* [ ] People Ops: file signed contract with PIAA or NDA+IP agreements in BambooHR profile under "Documents"-->"Signed Contract/Offer Letter". Set the uploaded documents to "shared" so that the team member can also view them.
 * [ ] People Ops: when applicable, file photo ID in BambooHR profile under "Documents"--> "Verification Docs"
 * [ ] People Ops: list any stock options that were part of the offer in BambooHR profile under "Benefits"--> "Stock Options"
 * [ ] Robert/Jacob/Ernst: create Google account, `firstname@gitlab.com` or `initial(s)@gitlab.com`, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
