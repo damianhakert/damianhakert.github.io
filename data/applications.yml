@@ -263,6 +263,14 @@
       links:
         - url: http://doc.gitlab.com/ee/integration/jenkins.html
           title: Jenkins CI integration
+    - title: Shippable
+      content: |
+        Shippable is the one solution you need to automate your application
+        delivery pipelines, with the flexibility to work with your existing
+        tools, processes and infrastructure.
+      links:
+        - url: http://docs.shippable.com/ht_using_gitlab/
+          title: Shippable GitLab integration
 - title: CMS Plugins
   id: cms-plugins
   applications:

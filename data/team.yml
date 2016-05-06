@@ -691,18 +691,6 @@
   story:  |
           Before coming to GitLab, Ryan could occasionally be spotted in the driver’s seat of a recycling truck as co-founder of a Utah-based recycling startup. His cleaner roles have been in marketing and strategy within a variety of tech and non-tech companies, mostly startups. He delights in deeply understanding the customer experience and putting himself in the customer’s shoes. When the work’s done and the sun’s still out, Ryan is likely to be found shredding the trails on his mountain bike, shooting hoops, or pondering the complexities and intricacies of waste management.
 
-- name: Eniola Arinde
-  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
-  reports_to: Frontend Lead
-  picture: eniolaarinde.jpg
-  twitter: elvongray
-  gitlab: elvongray
-  story:  |
-          Eniola's passion for problem solving and building led him to software development.
-          He previously worked as a full-stack developer but later realized he has an affinity
-          for the front-end, driven by his love of JavaScript.
-          He enjoys learning new technologies, music (especially EDM), and sometimes philosophy.
-
 - name: Felipe Artur
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Backend Lead
@@ -775,8 +763,8 @@
           radio. A three-time Boston Marathon qualifier and finisher, Stan now
           channels his energy into training for his next triathlon.
 
-- name: Richard "Reb" E. Baum
-  role: <a href="https://about.gitlab.com/jobs/solutions-engineer/">Solutions Engineer</a>
+- name: Reb - Richard E. Baum
+  role: <a href="https://about.gitlab.com/jobs/success-engineer/">Success Engineer</a>
   reports_to: CRO
   picture: reb.jpg
   twitter: therebbie
@@ -836,6 +824,15 @@
   story:  |
           Joining May 1st
 
+- name: C.C.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Backend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 1st
+
 - name: M.C.
   role: <a href="https://about.gitlab.com/jobs/technical-writer/">Junior Technical Writer</a>
   reports_to: CMO
@@ -845,6 +842,15 @@
   story:  |
           Joining May 2nd
 
+- name: F.A.
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 9th
+
 - name: M.W.
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Sr. Account Executive</a>
   reports_to: CRO
@@ -853,3 +859,48 @@
   gitlab:
   story:  |
           Joining May 16th
+
+- name: J-S.L.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Backend Lead 
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 16th
+
+- name: J.N.
+  role: <a href="https://about.gitlab.com/jobs/production-engineer/">Senior Production Engineer</a>
+  reports_to: Operations Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 16th
+
+- name: M.K.
+  role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
+  reports_to: Operations Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 23rd
+
+- name: A.R.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Backend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 30th
+
+- name: T.B.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer Intern</a>
+  reports_to: Backend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining July 1st

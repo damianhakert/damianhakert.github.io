@@ -43,7 +43,7 @@ _Consider_ advertising the job through the following means:
 
 List on:
 1. [Hacker News](https://news.ycombinator.com/ask): On the first of the month, include a note for GitLab in the Hacker News thread of "Who's Hiring" . Template text: `REMOTE ONLY GitLab
-We're hiring production engineers, developers, UX designers , and more. https://about.gitlab.com/jobs/ We're a remote only company so everyone is on an equal level. GitLab is a Ruby on Rails project with over 1000 contributors.`
+We're hiring production engineers, developers, UX designers , and more. https://about.gitlab.com/jobs/ We're a remote only company so everyone is on an equal level. GitLab is an open-source Ruby on Rails project with over 1000 contributors.`
 1. [WeWorkRemotely](https://weworkremotely.com) ($200 for 30 days, per position).
 1. [RemoteOK](https://remoteok.io) ($200 for ?? days, per position)
 
@@ -242,7 +242,7 @@ with the person who requested the contract to make sure that this point is addre
 Note for People Operations:
 - the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
 [Contracts page](https://about.gitlab.com/handbook/contracts).
-- Onboarding info for the PeopleOps system, BambooHR, can be found on the [PeopleOps](about.gitlab.com/handbook/people-operations) page.
+- Onboarding info for the PeopleOps system, BambooHR, can be found on the [PeopleOps](/handbook/people-operations) page.
 
 ## Underperformance <a name="underperformance"></a>
 
