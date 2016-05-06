@@ -851,6 +851,15 @@
   story:  |
           Joining May 9th
 
+- name: E.M.
+  role: <a href="https://about.gitlab.com/jobs/director-strategic-partnerships/">Director of Strategic Partnerships</a>
+  reports_to: CEO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 9th
+
 - name: M.W.
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Sr. Account Executive</a>
   reports_to: CRO
@@ -862,7 +871,7 @@
 
 - name: J-S.L.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead 
+  reports_to: Backend Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
@@ -872,6 +881,15 @@
 - name: J.N.
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Senior Production Engineer</a>
   reports_to: Operations Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 16th
+
+- name: C.S.
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineering Intern</a>
+  reports_to: Frontend Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
@@ -895,6 +913,15 @@
   gitlab:
   story:  |
           Joining May 30th
+
+- name: H.Y.
+  role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
+  reports_to: VP of Engineering
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining June 6th
 
 - name: T.B.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer Intern</a>
