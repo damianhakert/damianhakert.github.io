@@ -40,7 +40,7 @@ for further details on that process.
 * [ ] People Ops: Remove team member from team call invitation; and remove from Team Call Agenda.
 * [ ] Ernst/Paul: Remove team member from HelloSign, if applicable.
 * [ ] People Ops: Remove team member from map / Sundial.
-* [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team)
+* [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team). Don't forget to remove the profile picture.
 * [ ] Patricio/Jacob: Remove from tweetdeck
 * [ ] People Ops: Notify eShares administrator (CFO) of offboarding.
 * [ ] People Ops: Note final date of employment / contract in BambooHR.
