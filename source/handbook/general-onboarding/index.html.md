@@ -92,7 +92,7 @@ Next to Savvy, the People Ops team will also get a copy of the form info for you
 #### All team members
 
 * [ ] New team member: Register on 1Password by clicking on the link in the shared Google Doc titled "Link to 1Password Sign-Up"
-and then ping @rspeicher to confirm your account. You can find this (and other) shared Google Docs by using ["Search <your domain>"](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
+and then ping @rspeicher to confirm your account. You can find this (and other) shared Google Docs by using [`Search <your domain>`](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
 * [ ] New team member: once you are registered on 1Password, ping your hiring manager to grant you access
 to the proper shared Vaults by making a suggestion in the relevant cell in the "1password Shared Folders" Google Sheet.
 * [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
