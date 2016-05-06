@@ -22,6 +22,15 @@ It will be synced every hour. You can also trigger it manually right from the pr
 
 ![Trigger push to a remote repository](/images/blogimages/push-to-remote-repository/trigger.png)
 
+"Push to remote repository" is a feature of Enterprise Edition of GitLab. It means that you can use it for free at GitLab.com or in your own GitLab EE instance.
+
+
+## Build flexible workflows
+
+As an experiment, I build a chain of 3 repositories: Bitbicket → GitLab → Github.
+It means every change from Bitbucket goes to GitLab, and it triggers a Build there, since I checked "Trigger builds for mirror updates" checkbox. Then all the changes are synced to the repo at Github.
+
+
 ## What it can be used for:
 
 - Keep a project at self-hosted GitLab in sync with a copy at GitLab.com
@@ -29,6 +38,3 @@ It will be synced every hour. You can also trigger it manually right from the pr
 - Some companies use outdated systems, and their business processes are tied to these tools.
 With this feature you can start using GitLab for development, and keep your company managers happy, just by adding Remote Git repository URL in settings
 
-* * *
-
-"Push to remote repository" is a feature of Enterprise Edition of GitLab. It means that you can use it for free at GitLab.com or in your own GitLab EE instance.
