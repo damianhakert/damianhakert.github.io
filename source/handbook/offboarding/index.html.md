@@ -44,5 +44,5 @@ for further details on that process.
 * [ ] Patricio/Jacob: Remove from tweetdeck
 * [ ] People Ops: Notify eShares administrator (CFO) of offboarding.
 * [ ] People Ops: Note final date of employment / contract in BambooHR.
-* [ ] Operations: If the person is from operations [remove the sysadmin](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/user-administration.md#remove-a-sysadmin)
+* [ ] Infrastructure: If the person is from infrastructure [remove the sysadmin](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/user-administration.md#remove-a-sysadmin)
 ```

@@ -1,17 +1,17 @@
 ---
 layout: markdown_page
-title: "Operations"
+title: "Infrastructure"
 ---
 
-## Operations documentation and reference
+## Infrastructure documentation and reference
 
-Most of the operations documentation and reference can be found in
+Most of the  documentation and reference can be found in
 [in the Chef Repo](https://dev.gitlab.org/cookbooks/chef-repo).
 Make sure to check that if you're looking for anything in particular.
 
-## Always log into the operations room
+## Always log into the  room
 
-Before you start fixing stuff, log into the [operations room](https://gitlab.slack.com/messages/operations/) and leave a message. Other people might be working at the same time, especially if there was a pagerduty alert. If you don't immediately know what happened, create a postmortem doc with a sequential timeline.
+Before you start fixing stuff, log into the [room](https://gitlab.slack.com/messages/infrastructure/) and leave a message. Other people might be working at the same time, especially if there was a pagerduty alert. If you don't immediately know what happened, create a postmortem doc with a sequential timeline.
 
 ### Why did server X stop working on Monday morning?
 
@@ -29,9 +29,9 @@ See [failover procedure](https://dev.gitlab.org/cookbooks/gitlab-drbd/blob/maste
 
 Backups for dev.gitlab.org are stored on S3 in the ‘backup-dev-gitlab-org’ bucket. The backups are protected against deletion using S3 versioning, and move to Glacier storage (slow retrieval) after 7 days.
 
-## GitLab Operations Archive
+## GitLab infrastructure Archive
 
-You can find the operations archive [here](https://docs.google.com/document/d/19yzyIHY9F_m5p0B0e6STSZyhzfo-vLIRVQ1zRRevWRM/edit#heading=h.lz1c6r6c9ejd).
+You can find the infrastructure archive [here](https://docs.google.com/document/d/19yzyIHY9F_m5p0B0e6STSZyhzfo-vLIRVQ1zRRevWRM/edit#heading=h.lz1c6r6c9ejd).
 
 ## Network
 

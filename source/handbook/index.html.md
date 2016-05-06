@@ -16,7 +16,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Hiring](/handbook/hiring)
 * [Travel](/handbook/travel)
 * [Sales process](/handbook/sales-process)
-* [Operations](/handbook/operations)
+* [Infrastructure](/handbook/infrastructure)
 * [Accounting](/handbook/accounting)
 * [Stock Options](/handbook/stock-options)
 * [Marketing](/handbook/marketing)
@@ -257,7 +257,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
     1. [**Bug**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=bug) issues (things)
     1. [Issues](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming) without a label listed above.
 1. Use the public issue trackers on GitLab.com for anything related to our software since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
-1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [operations](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues.
+1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [infrastructure](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues.
 1. Pick issues from the current [milestone](https://gitlab.com/groups/gitlab-org/milestones).
 1. We try not to assign issues to people but to have people **pick issues** in a milestone themselves.
 1. Assign an issue to yourself as soon as you start to work on it, but not before
