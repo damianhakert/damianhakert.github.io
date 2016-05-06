@@ -25,6 +25,10 @@
 
   .page-headline {
     margin-bottom: 0;
+
+    &.cta {
+      padding-top: 75px;
+    }
   }
 
   .subheader {
@@ -32,6 +36,20 @@
     margin-bottom: 75px;
     font-weight: 300;
     font-size: 20px;
+
+    &.cta {
+      margin-bottom: 18px;
+    }
+
+    .contact-us {
+      border-bottom: 1px solid $color-gray-light;
+      color: $color-gray-light;
+      font-weight: 300;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 }
 
@@ -40,7 +58,7 @@
 
   .edition-name {
     border-bottom: 1px solid $landing-organization-color;
-    background-color: $pricing-edition-bg;
+    background-color: $pricing-gray-bg;
     border-radius: 4px 4px 0px 0px;
     color: $color-secondary;
     font-size: 26px;
@@ -49,6 +67,12 @@
 
   .featured-item-body {
     padding: 22px 35px 35px;
+
+    .currency {
+      position: relative;
+      font-size: 30px;
+      top: -16px;
+    }
 
     .featured-item-icon {
       margin: 20px 0 30px;
@@ -91,4 +115,36 @@
   margin: 12px auto;
   width: 15px;
   height: 1px;
+}
+
+.enterprise-tools {
+  background-color: $pricing-gray-bg;
+  padding-top: 75px;
+
+  .page-headline {
+    color: $color-primary;
+    padding-bottom: 75px;
+    max-width: 910px;
+    margin: auto;
+  }
+
+  .featured-item {
+    border: none;
+  }
+
+  .edition-name {
+    border: 1px solid $mvp-table-border;
+    background-color: $color-primary;
+    color: $color-white;
+  }
+
+  .featured-item-body {
+    border: 1px solid $landing-organization-color;
+    border-top: none;
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  .purchase-now {
+    margin-top: 75px;
+  }
 }
