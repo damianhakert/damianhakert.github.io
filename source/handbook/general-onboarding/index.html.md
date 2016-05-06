@@ -38,12 +38,14 @@ there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @kirsten, and @tiffa
 * [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
 * [ ] People Ops: Add blank entry to team page (only the start date and position, use "logo-extra-whitespace.png" for the picture) so the team can see when new people are joining.
 * [ ] People Ops: Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
-* [ ] New team member: where applicable, provide scan of photo ID to People Ops.
+* [ ] New team member: provide scan of photo ID to People Ops.
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), read
 the relevant onboarding pages that are linked from there, and become comfortable
 with Git and the GitLab workflow.
-* [ ] People Ops: file signed contract, PIAA, and where applicable, photo ID in the "Files" tab on the team members profile on BambooHR
-* [ ] People Ops: input relevant data (dates, compensation) into the team members profile tabs "Job" and "Benefits" in BambooHR
+* [ ] People Ops: create new profile for team member in BambooHR, and input relevant data (title, dates, contract type, compensation) into the team members profile tabs "Job"
+* [ ] People Ops: file signed contract with PIAA or NDA+IP agreements in BambooHR profile under "Documents"-->"Signed Contract/Offer Letter"
+* [ ] People Ops: when applicable, file photo ID in BambooHR profile under "Documents"--> "Verification Docs"
+* [ ] People Ops: list any stock options that were part of the offer in BambooHR profile under "Benefits"--> "Stock Options"
 * [ ] Robert/Jacob/Ernst: create Google account, `firstname@gitlab.com` or `initial(s)@gitlab.com`, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
 * [ ] Robert/Jacob/Ernst: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 * [ ] Robert/Jacob/Ernst: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
@@ -92,7 +94,7 @@ Next to Savvy, the People Ops team will also get a copy of the form info for you
 #### All team members
 
 * [ ] New team member: Register on 1Password by clicking on the link in the shared Google Doc titled "Link to 1Password Sign-Up"
-and then ping @rspeicher to confirm your account. You can find this (and other) shared Google Docs by using ["Search <your domain>"](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
+and then ping @rspeicher to confirm your account. You can find this (and other) shared Google Docs by using [`Search <your domain>`](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
 * [ ] New team member: once you are registered on 1Password, ping your hiring manager to grant you access
 to the proper shared Vaults by making a suggestion in the relevant cell in the "1password Shared Folders" Google Sheet.
 * [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
