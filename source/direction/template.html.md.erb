@@ -150,11 +150,14 @@ To achieve this we plan to ship the following stack of tools in our Omnibus pack
 1. **Version control** => GitLab Repo
 1. **Continuous integration** => GitLab CI
 1. **Code review** => GitLab Merge Requests
-1. **Deploy** to production => [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
+1. **Continuous Delivery** => [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) and maybe delivery with feature flags
 1. **Chatops** to check => [Hubot](https://hubot.github.com/) which has a [Merge Request](https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/564) or [Lita](https://www.lita.io/)
+1. **Monitoring** => See monitoring section below
 1. **Wiki** to document => GitLab Wiki
 
-We're still deciding if superficial application performance (APM) monitoring is in our scope.
+### Monitoring
+
+Superficial application performance (APM) monitoring is in our scope.
 We don't want to do deep APM since that sophisticated requires introspection of code.
 But we are considering shipping Grafana and InfluxDB as part of our Omnibus package.
 Examples of the advantages of adding APM to GitLab would be:
@@ -163,7 +166,10 @@ Examples of the advantages of adding APM to GitLab would be:
 - It would make it easier have our [deployment pipeline](https://gitlab.com/gitlab-org/gitlab-ce/issues/750910) automatically revert a deployment when it impacts performance.
 - We can use it to visualize the outcome of [A/B testing](https://gitlab.com/gitlab-org/gitlab-ee/issues/117).
 
-Things that are outside our scope are:
+We want to be the devops side of monitoring more than the ops side of monitoring.
+Measure the impact of deployments and not ddos attacks and scaling problems.
+
+### Outside our scope
 
 1. **PaaS** although we do want to use [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) to deploy to CloudFoundry, OpenStack, OpenShift, Kubernetes, Mesos DCOS, Docker Swarm, Atlas/Terraform, [Nomad](https://nomadproject.io/), [Deis](http://deis.io/), [Convox](http://www.convox.com/), [Flynn](https://flynn.io/), [Tutum](https://www.tutum.co/), [GiantSwarm](https://giantswarm.io/), [Rancher](https://github.com/rancher/rancher/blob/master/README.md)
 1. **Configuration management** although we do want to upload cookbooks, manifests, playbooks, and modules for respectively Chef, Puppet, Ansible, and Salt.
