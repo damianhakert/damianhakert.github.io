@@ -138,13 +138,18 @@ to the proper shared Vaults by making a suggestion in the relevant cell in the "
 * [ ] For Production Engineering team members: Hiring manager: add the [sysadmin onboarding checklist](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/onboard-new-sysadmin.md).
 * [ ] PeopleOps: Add the new team member to the next Retro meeting and the Kickoff meeting that's scheduled and save for all events in the future.
 
-#### SERVICE ENGINEERING ONLY
+#### FOR SERVICE ENGINEERING ONLY
 
 * [ ] Patricio/Robert/Jacob: Create GitLab.com admin account.
 * [ ] Patricio/Ernst: Add to Tweetdeck for `@gitlabstatus`.
 * [ ] Jose: add to slack handle `@supportteam`
 * [ ] Jose: invite to support team call
 * [ ] Jose: use the "GitLab Email Forwarding" google doc to request that the new team member is added to the alias for the support team.
+
+#### FOR UX/UI DESIGNERS AND FRONTEND ENGINEERING ONLY
+
+* [ ] Hiring Manager: leave note below if an Adobe Creative Cloud license is needed, ping Ernst.
+* [ ] Hiring Manager: leave note below if an Antetype license is needed, ping Ernst.
 
 ### FOR MARKETING ONLY
 
