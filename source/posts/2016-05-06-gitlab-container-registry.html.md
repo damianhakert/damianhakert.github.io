@@ -6,7 +6,7 @@ categories:
 image_title:
 ---
 Today we're happy to announce the release of GitLab Container Registry as the latest addition to GitLab's integrated set of tools for the software development lifecycle. GitLab Container Registry is a fully-integrated Docker registry that makes it easy for developers to build, test, and deploy Docker container images using GitLab CI and other Docker-compatible tooling.
-
+<!-- more -->
 GitLab Container Registry is available on-premises in GitLab CE and GitLab EE at no additional cost and installs in the same infrastructure as the rest of your GitLab instance. GitLab Container Registry is also available for free on GitLab.com for an unlimited number of private projects.
 
 ## Docker Basics
