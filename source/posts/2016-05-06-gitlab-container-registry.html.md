@@ -26,12 +26,9 @@ Built on [open source](https://github.com/docker/distribution), GitLab Container
 
 ## Example
 
-Example `.gitlab-ci.yml`:
+Here's an example GitLab CI configuration file (`.gitlab-ci.yml`) which builds an image, runs tests, and if the tests are successful, tags the build and uploads the build to the container registry.
 
 ```
-before_script:
-  - docker info
-
 build_image:
   script:
     - docker build -t my-group/my-project .
@@ -50,21 +47,20 @@ before_script:
 
 build_image:
   script:
-    - docker build -t $CI_PROJECT_NAME:$CI_BUILD_REF .
-    - docker run $CI_PROJECT_NAME:$CI_BUILD_REF /script/to/run/tests
-    - docker push $CI_REGISTRY/$CI_PROJECT_NAME:$CI_BUILD_REF
-  except:
-    - master
-
-build_image:
-  script:
     - docker build -t $CI_PROJECT_NAME:latest .
     - docker run $CI_PROJECT_NAME:latest /script/to/run/tests
     - docker push $CI_REGISTRY/$CI_PROJECT_NAME:latest
   only:
     master
-```
 
+build_image:
+  script:
+    - docker build -t $CI_PROJECT_NAME:$CI_BUILD_REF .
+    - docker run $CI_PROJECT_NAME:$CI_BUILD_REF /script/to/run/tests
+    - docker push $CI_REGISTRY/$CI_PROJECT_NAME:$CI_BUILD_REF
+  except:
+    - master
+```
 
 ## Summary
 
