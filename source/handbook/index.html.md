@@ -24,6 +24,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Support](/handbook/support)
 * [Leadership](/handbook/leadership)
 * [GitLab University](https://university.gitlab.com/)
+* [Social Media Guidelines](/handbook/social-media-guidelines)
 
 ## This page
 
