@@ -321,7 +321,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. Consider using a utility to easily mute/unmute yourself, see [Shush](#shush) in the tools section.
 1. In video calls everyone should own camera and headset, even when they are in the same room. This helps to see the person that is talking clearly on the camera and their name in the list. It also allows people to easily talk and mute themselves. And using a headset prevents an echoing. You wouldn't share an office seat together, don't share your virtual seat at the table.
 
-### User Communication Guidelines<a name="user-communication"></a>
+### User Communication Guidelines<a name="user-communication-guidelines"></a>
 
 1. Keep conversations positive, friendly, real and productive while adding value.
 1. If you make a mistake, admit it. Be upfront and be quick with your correction. If you're posting to a blog, you may choose to modify an earlier post, just make it clear that you have done so.
