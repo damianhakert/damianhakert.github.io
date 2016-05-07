@@ -39,6 +39,11 @@
       links:
         - url: http://git2go.com
           title: git2go.com
+    - title: Branches
+      content: Branches is an iPhone and iPad app for managing issues in your GitLab repositories. The app also lets you browse commits, merge requests and files.
+      links:
+        - url: http://branchesapp.co
+          title: branchesapp.co 
 - title: Command Line Interface (CLI) Clients
   id: cli-clients
   applications:
