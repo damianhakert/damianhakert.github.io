@@ -284,8 +284,8 @@ step, **re-assign** the issue to that person.
 ### Team Call<a name="team-call"></a>
 
 1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
-1. We use BlueJeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
-1. If you have previously logged on to Bluejeans with different credentials, make sure to log out before joining the call as yourself.
+1. We use Blue Jeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
+1. If you have previously logged on to Blue Jeans with different credentials, make sure to log out before joining the call as yourself.
 1. We start on time and will not wait for people.
 1. Person who has first item on the agenda starts the call.
 1. If you are unable to attend just add your name to the [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) as 'Not attending'.
@@ -316,7 +316,7 @@ doesn't unnecessarily appear on other people's calendars.
 
 ### Video calls<a name="video-calls"></a>
 
-1. For smaller meetings we use Google Hangouts, for larger meetings we prefer Bluejeans (Google Hangouts technical limit is 15 for scheduled meetings).
+1. For smaller meetings we use Google Hangouts, for larger meetings we prefer Blue Jeans (Google Hangouts technical limit is 15 for scheduled meetings).
 1. For meetings that are scheduled via calendar there is automatically a Google Hangout URL added, this is the meeting place. Having a url in advance is much more reliable than trying to call via hangouts as the meeting start.
 1. Use a headset with a microphone, [Apple Earpods](http://www.apple.com/shop/product/MD827LL/A/apple-earpods-with-remote-and-mic) are great. Do not use computer speakers, they cause an echo. Do not use your computer microphone, it accentuates background noise. If you want to use your [Bose headphones](https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-25-acoustic-noise-cancelling-headphones-apple-devices.html#v=qc25_black) that is fine but please ensure the microphone is active.
 1. Consider using a utility to easily mute/unmute yourself, see [Shush](#shush) in the tools section.
@@ -558,10 +558,10 @@ This section is for tools that don't fit anywhere else.
 ### Shush<a name="shush"></a>
 
 [$4.99 tool for OSX](http://mizage.com/shush/) that allows you to use you fn key as a push to talk or push to mute.
-Never again will you have switch window focus to Google Hangout or Bluejeans to speak or mute.
+Never again will you have switch window focus to Google Hangout or Blue Jeans to speak or mute.
 The icon will show the current state of your mic input (x means muted).
 With a right click you can switch from push to talk to push to mute.
-Don't forget to unblock your mike in Bluejeans/Google hangouts immediately after joining.
+Don't forget to unblock your mic in Blue Jeans/Google Hangouts immediately after joining.
 Be warned that page up with fn+down arrow will activate it.
 Use space for page down instead of fn+up arrow.
 
@@ -569,9 +569,9 @@ Use space for page down instead of fn+up arrow.
 
 [This Chrome extension](https://chrome.google.com/webstore/detail/google-calendar-guests-mo/hjhicmeghjagaicbkmhmbbnibhbkcfdb?hl=en) will allow guests to modify calendar appointments by default.
 
-### Bluejeans
+### Blue Jeans
 
-Please add instructions how to set up a Bluejeans meeting, how to record it and how to add the resulting video to our YouTube channel.
+Please add instructions how to set up a Blue Jeans meeting, how to record it and how to add the resulting video to our YouTube channel.
 
 ### Gmail
 
