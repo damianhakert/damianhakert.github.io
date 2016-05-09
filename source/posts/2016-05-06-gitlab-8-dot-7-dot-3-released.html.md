@@ -1,5 +1,6 @@
 ---
 title: "GitLab 8.7.3 Released"
+date: 2016-05-06 17:00
 comments: true
 author: GitLab
 author_twitter: gitlab
