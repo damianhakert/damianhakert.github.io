@@ -35,7 +35,7 @@ expected to:
 - Be open to new ideas and points of view
 - It is OK if you don't know something. You can always ask someone else
 - It is OK to say no to a customer, but try to suggest a workaround and escalate to a Senior if necessary
-- Read the guidelines on how to [respond on social media](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/social-media/).
+- Read the guidelines on how to [respond on social media](https://about.gitlab.com/handbook/social-media-guidelines).
 
 ## First steps when you join the team <a name="first-steps"></a>
 
