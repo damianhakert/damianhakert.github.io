@@ -31,10 +31,15 @@ It will be pushed every hour. You can also trigger it manually right from the pr
 ![Trigger push to a remote repository](/images/blogimages/push-to-remote-repository/trigger.png)
 
 
-As an experiment, I built a chain of 3 repositories: Bitbicket → GitLab → Github.
-It means every change from Bitbucket repo goes to GitLab, triggers build there(since I checked "Trigger builds for mirror updates" checkbox). Then all the changes are pushed to the repo at Github.
+## Playing with mirroring functionality
+
+As an experiment, I built a chain of 3 repositories: [Bitbicket](https://bitbucket.org/ivannemytchenko/sync) → [GitLab](https://gitlab.com/inem/sync) → [Github](https://github.com/inem/sync).
+
+Every change from Bitbucket repo goes to GitLab, triggers build there(since I checked "Trigger builds for mirror updates" checkbox). Then all the changes are pushed to the repo at Github.
 
 ![Checkbox](/images/blogimages/push-to-remote-repository/checkbox.png)
+
+As you see, mirroring gives you an additional dimension of flexibility. You can use it to modify existing workflow, or to build one from scratch.
 
 
 "Push to remote repository" is a feature of GitLab Enterprise Edition. It means that you can use it for free at GitLab.com or in your own GitLab EE instance.
