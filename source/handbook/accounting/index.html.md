@@ -6,6 +6,7 @@ title: "Accounting"
 ## Accounting Topics
 
 * [Signature Authorization Matrix](#auth-matrix)
+* [Sales Compensation Plan](#comp-plan)
 * [General Topics](#general-topics)
    * [Company accounts](#company-accounts)
 * [Processing Payroll](#payroll)
@@ -481,6 +482,15 @@ title: "Accounting"
 - (2) If Not Included in Company Plan
 - (3) Approved by Compensation Committee (or Board if no Compensation Committee)
 - (4) All purchases must have purchase req (or email approval) in accordance with SAM
+
+## Sales Compensation Plan
+
+### Plan Purpose
+
+GitLab has introduced the 2016 Sales Compensation Plan, as specified in this Master Plan Document (the "Plan"), to develop the highest quality global organization by attracting, retaining and rewarding eligible GitLab contributors (“Participants”) who reach and exceed their sales, revenue and individual performance goals.  “GitLab” is defined as the employing/contracting legal entity of the applicable Participant (from among the GitLab group of Companies, which is comprised of GitLab Inc., GitLab BV and any of its’ direct or indirect subsidiaries or affiliates).
+Except as required by applicable law, nothing in this Plan or any Participant Schedule is intended to create or amend any existing employment or contractor agreement for a particular term with any Participant.  
+Participants are reminded that in addition to their eligibility for Commissions and Bonuses, they are paid a Base Salary or Base Contractor Fee, which entitles GitLab to expect that: each Participant will act in GitLab’s best interest even if it does not result in commissions or bonuses paid to them; Participants will assist others in earning business for GitLab, even if it does not result in commissions or bonuses paid to them; and that Participants will perform all other duties and responsibilities required or assigned to them.
+
 
 ## General Topics<a name="general-topics"></a>
 
