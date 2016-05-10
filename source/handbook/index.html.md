@@ -613,6 +613,13 @@ or merge request.
 If your username on dev.gitlab.org is different from your username on
 GitLab.com, you might want to create a similar filter for that username as well.
 
+#### Advance
+
+If you use the archive function you normally return to your overview.
+With auto-advance you can return to the next message.
+Enable 'Auto-advance' in the labs section under settings.
+The default setting of showing the next older message is OK.
+
 ### Hangouts on air
 
 Hangouts on Air probably only works with a maximum of 15 people for scheduled calls (same limit as normal Google Hangouts).
