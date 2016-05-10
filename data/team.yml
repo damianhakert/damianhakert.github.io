@@ -845,14 +845,18 @@
   story:  |
           Joining May 1st
 
-- name: M.C.
+- name: Marcia Ramos
   role: <a href="https://about.gitlab.com/jobs/technical-writer/">Junior Technical Writer</a>
   reports_to: CMO
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: marcia.jpg
+  twitter: XMDRamos
+  gitlab: virtuacreative
   story:  |
-          Joining May 2nd
+          Marcia is passionate about computers since the early 1990s, when she first touched the 
+          command line and somehow managed to play games on DOS. Her background in Science opened the way for technical
+          writing, which she has been improving since 2005, by writing and reviewing professionally. Over the last few 
+          years, her enthusiasm for technology motivated her to learn web development, and write about it too. She loves photography.
+          When she's not typing, you will find her behind the camera, or in a plane, for being behind her camera somewhere else.
 
 - name: F.A.
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
