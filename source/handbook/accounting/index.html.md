@@ -513,6 +513,80 @@ Any and all costs of collection.
 1. A "Sales Agreement" is a contract (which incorporates the terms of a fully executed master agreement) signed by authorized representatives of both the Customer and GitLab, and which provides the terms and conditions pursuant to which GitLab shall deliver product or provide specific services to the Customer, as well as the specific terms of payment to be made by the Customer to GitLab for the services provided.
 1. “Total Contract Value” is the total amount of Realized Revenue, which GitLab, in its sole discretion, estimates will be paid by the Customer to GitLab under a Sales Agreement.  If the Total Contract Value is not clearly defined in a Sales Agreement, the amount shall be determined by the CFO.  Sales Targets may be set for New Customers and/or Existing Customers as specified in the applicable Participant Schedule.
 
+### Effective Date
+
+This Plan is effective for all Commissions or Bonuses calculated for payment or otherwise earned hereunder during the Plan term, which begins on January 1, 2016 (“Effective Date”).  This Plan will remain in effect as the governing plan until explicitly amended or replaced by another plan.   However, each Participant Schedule shall be effective only for the calendar year designated on each such Participant Schedule unless extended by writing (including email) by the Company. 
+As of the Effective Date, this Plan supersedes and replaces all prior plans regarding the payment of commissions, bonuses and similar incentive compensation by GitLab.  
+
+### Eligibility 
+
+No GitLab contributor shall become a Participant in this Plan unless and until (i) he or she accepts the terms and conditions of this Plan and his or her individual Participant Schedule as provided by GitLab by signing such Participant Schedule and returning it to GitLab, and (ii) an authorized representative of GitLab signs and returns a fully executed Participant Schedule to the Participant.
+
+### Requirements
+
+The following activities may be required of the Participants in order to close a Sales Agreement and a Sales Agreement with the Customer, thus enabling the various Participants to be eligible for the payment of Commissions under this Plan.
+
+A.	Each Participant shall, in coordination with his/her sales manager, engage in the following activities:
+
+Provide detailed written (and input into SFDC system) information to GitLab about the Customer or prospective New Customer, as well as said Customer’s contact person(s), including: (a) the name, title, address, and phone number of such Customer and its contact person(s); (b) the approximate dates and substance of any prior discussions with such Customer relating to GitLab’s products and services; and (c) provide outlines or other documentation of such Customer's business issues, key concerns, needs, the suggested sales strategy for GitLab, and other relevant information. 
+Deliver presentation(s) related to GitLab’s products and services;
+Develop the proof of concept or solution demo, as required, of GitLab’s product  and secure the technical recommendation from the Customer or the prospective New Customer;
+Work with the appropriate GitLab personnel to establish a competitive quote for the products and services or increase the size (i.e., the price) of the Sales Agreement;
+Pursue signature for the Sales Agreement (which must be pre-approved by GitLab) or accelerate the Customer’s or the prospective New Customer's signature thereof;
+Assist in the collection of all invoices and expenses, and provide meaningful assistance to GitLab in the resolution of disputes or project issues with the Customer; and
+Engage in any other activity requested by GitLab with the intent of promoting GitLab and its products and  services.
+
+B.	In addition to the above, Participants that fulfill GitLab management roles shall, engage in the following activities:
+
+Assist other GitLab personnel in any or all of the activities stated above;
+Manage and supervise the proper delivery of GitLab’s products and services in accordance with the applicable terms of the Customer contract and Sales Agreement;
+Maintain the morale of assigned team members and inspire excellence in the performance and delivery of GitLab’sproducts and services; 
+Manage and maintain relationships with Customer personnel and lay the groundwork for the sale of additional GitLab products and services to the Customer;
+Maintain a constant awareness of the Customer’s technology needs and promptly advise the relevant GitLab personnel of new opportunities for the sale of additional products and services to the Customer; and
+Engage in any other activity requested by GitLab with the intent of promoting GitLab and its products.
+Participants in this Plan may not participate in any other GitLab commission or bonus plan unless approved in writing by the CEO or CFO.  Payments, if any, under this plan shall be made in addition to Participant’s regular compensation.
+A Commission shall be deemed to be "Earned" under this Plan when, during the term of the Participant’s employment, GitLab has been paid cash by the Customer for products delivered and services rendered pursuant to a Sales Agreement for which the Participant is eligible to receive Commissions.  No Commissions or Bonuses may be Earned by a former Participant following termination of the Participant's employment with GitLab unless specified in a Participant’s Schedule or unless authorized by GitLab in writing by the CEO or CFO.
+
+### Responsibilities and Standards of Conduct
+
+Participants in the Plan shall perform in an ethical manner at all times.  Managers are responsible for ensuring that their employees, including new employees, are aware of these standards and their responsibility for compliance.  Any actions that violate the values of the Company, including those listed below and in the Company's policies, subject an employee to possible corrective or disciplinary action, up to and including termination.
+Participants should leverage themselves in accounts through cooperative and collaborative relationships with other GitLab resources and external channel Partners. To that end, the Participant is required to:
+Receive written approval from the Chief Revenue Officer or his designee prior to communicating discounted price quotes/proposals or non-standard deal terms. 
+Comply with Customer and Company nondisclosure agreements.
+Utilize his or her best efforts to develop long term mutually beneficial relationships with partners and customers that reflect the Company's values.
+Be respectful of competitors and not disparage their company or products.  Disclosure of competitor, third party, and business partner strategies must be fair and factual, based only on public information.
+Apply the requisite diligence, effort, and knowledge in representing the Company.
+Strive to make the greatest contribution possible to the sales effort and to act in the Company's best interests.
+When appropriate, invite and encourage other GitLab resources into assigned accounts to maximize an opportunity.
+When possible, anticipate and inform management of possible commission split situations.  All commission splits must be approved by management in writing.
+Participants should not compete against other GitLab’s Participants for sales opportunities for account control or in an effort to increase commissions at the expense of another Participant.  Any potential or perceived conflicts between Participants shall be immediately referred to the Participants’ supervisor(s) for prompt and fair resolution.
+
+### Plan Description 
+
+Participants are assigned to specific areas of responsibility, which may be changed at any time in GitLab’s sole discretion.  Areas of responsibility may be established based on industry specific customers or prospects, selected market segments, specific geographical areas, or any combination of the above criteria or any additional criteria established in GitLab’s sole discretion.  Sales Targets (as defined below) for each Participant are designed to support established business plan objectives and/or are a function of Participant’s prior target and goal attainment, expected future target and goal attainment, and the company’s growth and strategic requirements.
+
+### Commissions
+
+1.	Participants are eligible to receive Commissions (solely to the extent specified in each Participant Schedule as defined below) based in general on (a) successful performance of the duties set forth above; and/or (b) sales and/or revenue from New Customers; and/or (c) sales and/or revenue from Existing Customers.
+1.	A Participant may also be eligible to receive a split Commission as detailed later in this Plan. 
+1.	Goal Setting:
+(a)	Each Participant's Sales Targets, if any, will be established and set forth in the Participant Schedule.  Sales Targets (as well as any other targets established from time-to-time) will be established for each Participant by the Participant’s manager in conjunction with GitLab’s Chief Financial Officer (“CFO”). 
+1.	New and Existing Customers as a Basis for Commission Calculations:
+(a)	"Customer" is defined as a "company" or "firm" for whom GitLab provides goods or services pursuant to a Sales Agreement.  Customer is not defined as a Customer contact person, and the term Customer does not include any parent, subsidiary, division or affiliate of that Customer, even if controlled by Customer or under common control with Customer, unless otherwise determined by GitLab in its sole discretion.
+(b)	A "New Customer" is defined as any Customer or division within a Customer with which GitLab has not done any business (e.g., delivered goods or services to or received revenue from such Customer) during the 12-month period immediately preceding the first product sale or commencement of services as specified in a Sales Agreement.  A Customer remains a "New Customer" for the 12-month period immediately following product delivery or the commencement of services as specified in the first New Customer Sales Agreement.  Realized Revenue resulting from any other Sales Agreement signed with said New Customer during the 12-month period immediately following the commencement of services under the first New Customer Sales Agreement will also qualify as a New Customer Realized Revenue under the Participant Schedule (if applicable).  Account responsibility for all New Customers may be transitioned to an Account Manager following the commencement of services; however, Participants earning New Customer Commissions from the Customer at the time of the transition will continue to earn New Customer Commissions during the entire 12-month period, as stated in their Participant Schedules.  The 12-month period specified above shall be subject to change in the event that the Plan is modified, superseded, or terminated by GitLab.
+(c)	A Customer is an "Existing Customer" if it has done business with GitLab at any time during the 12-month period immediately preceding the product delivery or commencement of services as specified in a Sales Agreement (and it is not a New Customer).   A New Customer becomes an Existing Customer at the end of the 12-month period immediately following the commencement of services as specified in the first New Customer Sales Agreement.  The 12-month period specified above shall be subject to change in the event that the Plan is modified, superseded, or terminated by GitLab. 
+ 1.	Timing and Calculation of Commission Payment:
+(a)	Although some Commission rates may be based on the achievement of various Sales Targets, the Participant's eligibility to receive Commission payments from GitLab will be based on Realized Revenue actually paid to GitLab by the Customer, during the term of Participant's employment, pursuant to a Sales Agreement (less Commissions paid on returned Realized Revenue). Therefore, Participants are strongly encouraged to structure their activities and act in a manner that is conducive to prompt payment by the Customer. The above notwithstanding, GitLab, in its sole discretion may make Advances Against Compensation as described herein. 
+(b)	Commissions Earned on Realized Revenue paid by the Customer shall be calculated by reference to the following formula:
+
+Commissions = A – B – C
+For the purposes of this formula:
+“A” means the amount payable in respect of Realized Revenue, calculated in accordance with the terms and Commission Rates set forth in the applicable Participant Schedule; 
+“B” means the amount of any Commissions paid on returned Realized Revenue (as determined by GitLab) or third party commissions such as third party software vendors or resellers; and
+“C” means the amount of any Advances Against Compensation. 
+(c) Commissions Earned on Realized Revenue paid by the Customer, and advanced Commission payments based on revenue recognized and invoiced pursuant to Section 5(a) above, will be calculated on a monthly basis.
+(d)	Eligible Commissions will be paid within 30 days of the end of the applicable month. Specific payment date(s) will be stated on individual's participant schedule.  
+
 
 ## General Topics<a name="general-topics"></a>
 
