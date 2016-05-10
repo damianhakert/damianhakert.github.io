@@ -149,7 +149,7 @@ NSOs are treated much less favorably under tax law because they can be given to 
 don’t work at GitLab. This complicates the tax law and is beyond the current scope of this
 document.
 
-For our Dutch employees, the Dutch taxing authority has a similar concept in that
+For our employees based in the Netherlands, the Dutch taxing authority has a similar concept in that
 only the difference between the exercise price and the fair market value is considered taxable.  So if
 you exercise early there is no difference between the two and therefore no taxable gain.
 Again, the decision to exercise early should be done in consultation with your tax advisor.
