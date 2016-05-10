@@ -6,7 +6,7 @@ author: Ivan Nemytchenko
 author_twitter: inemation
 ---
 
-Since GitLab Enterpise Edition 8.2 you could sync all changes from a remote repository to one on GitLab.
+Since GitLab Enterprise Edition 8.2 you could sync all changes from a remote repository to one on GitLab.
 
 In GitLab 8.7 we introduced the second part of the mirroring functionality: the ability to push changes to an external repo from GitLab.
 
