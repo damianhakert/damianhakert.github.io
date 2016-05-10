@@ -926,6 +926,24 @@
   story:  |
           Joining May 30th
 
+- name: B.R.
+  role: <a href="https://about.gitlab.com/jobs/people-ops-coordinator/">People Operations Coordinator</a>
+  reports_to: VP of Scaling
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining June 1st
+
+- name: J.A.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: VP of Engineering
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining June 1st
+
 - name: H.Y.
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
   reports_to: VP of Engineering
