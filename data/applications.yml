@@ -235,6 +235,11 @@
       links:
         - url: https://www.reviewboard.org/
           title: Review Board
+    - title: TMetric
+      content: Easy time management tool which helps to track all your working activity in GitLab. Follow GitLab time tracking instruction to start using TMetric.
+      links:
+        - url: https://tmetric.com/help/integrations/gitlab-time-tracking/
+          title: GitLab time tracking
 - title: Continuous Integration
   id: continuous-integration
   applications:
