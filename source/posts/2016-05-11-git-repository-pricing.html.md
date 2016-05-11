@@ -60,7 +60,7 @@ lead to better development practices since developers will no longer be constrai
 storage or with financial limitations. However, with more repositories, we assume developers will
 write more code and seek out more contributors to collaborate on your projects.
 
-## For some it is a price increase
+## For some this is a price increase
 
 While the news of
 GitHub’s pricing is great if you have a lot of repos, it is not so helpful to people who have a lot
