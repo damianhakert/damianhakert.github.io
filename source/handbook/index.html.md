@@ -51,7 +51,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Referral Bonuses](#referral-bonuses)
    * [Work Remotely Travel Grant](#travel-grant)
 * [Signing Legal Documents](#signing-legal-documents)
-* [Tools](#tools)
+* [Tools and Tips](#tools)
 * [Using Git to update this website](#starting-with-git)
 
 ## Values<a name="values"></a>
@@ -558,10 +558,11 @@ The document will be managed through HelloSign, a cloud-based electronic
 signature tool. Only C-level executives can sign legal documents, with the
 exception of NDAs covering a physical visit of another organization.
 
-## Tools<a name="tools"></a>
+## Tools and Tips<a name="tools"></a>
 
-A lot of tools we use are described in the rest of the handbook (GitLab, Google Docs, Google Hangouts, 1Password, etc.).
-This section is for tools that don't fit anywhere else.
+A lot of tools we use are described in the rest of the handbook (GitLab, Google
+Docs, Google Hangouts, 1Password, etc.). This section is for tools that don't
+fit anywhere else.
 
 ### Calendly<a name="calendly"></a>
 
@@ -584,6 +585,15 @@ With a right click you can switch from push to talk to push to mute.
 Don't forget to unblock your mic in Blue Jeans/Google Hangouts immediately after joining.
 Be warned that page up with fn+down arrow will activate it.
 Use space for page down instead of fn+up arrow.
+
+### Disabling OS X Notification Center
+
+During a presentation or screen share, you might want to disable your
+notifications on OS X to prevent distractions or possible embarrassment.
+
+The Notification Center can be quickly disabled by Option-Clicking the menu bar
+icon in the top right of your screen. This disables notifications until the next
+day. Option-Click again to re-enable immediately.
 
 ### Google Calendar Guest Modify Event Default
 
