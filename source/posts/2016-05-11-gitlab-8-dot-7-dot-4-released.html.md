@@ -35,7 +35,7 @@ It also includes the following security fixes:
 
 ## XSS vulnerability via faulty URI scheme sanitization
 
-The URI scheme of user-supplied links were not being properly sanitized. See
+The URI scheme of user-supplied links was not being properly sanitized. See
 [the issue][#17299] for more details.
 
 Thanks to [Anirudh Anand](https://hackerone.com/a0xnirudh) of [0daylabs] for
