@@ -3,7 +3,7 @@ title: "GitLab 8.7.4 Released"
 comments: true
 author: GitLab
 author_twitter: gitlab
-date: 2016-05-06 12:00
+date: 2016-05-11 12:00
 ---
 
 Today we are releasing version 8.7.4 for GitLab Community Edition (CE) and

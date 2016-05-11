@@ -2,7 +2,7 @@
 title: "The future of SaaS hosted git repository pricing"
 author: Sid Sijbrandij
 author_twitter: sytses
-date: 2016-05-06 16:00
+date: 2016-05-11 16:00
 image_title: /images/unsplash/stars.png
 ---
 
