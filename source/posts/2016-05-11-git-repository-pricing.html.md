@@ -1,5 +1,5 @@
 ---
-title: "The future of SaaS hosted git repository pricing"
+title: "The future of SaaS hosted Git repository pricing"
 author: Sid Sijbrandij
 author_twitter: sytses
 date: 2016-05-11 16:00
@@ -34,7 +34,7 @@ you have the more repositories you’ll need. That is why it is not surprising t
 free private repositories. With their announcement today, now GitHub.com, Bitbucket.org, and GitLab.com all offer
 unlimited private repositories. It does not cost companies much more to host additional repositories for a given user.
 You can think of hosting additional repositories like you think about your email. Once you have an
-email account, you are usually not asked to pay more to store more. Unlimited repositories have become table stakes for a git hosting SaaS service.
+email account, you are usually not asked to pay more to store more. Unlimited repositories have become table stakes for a Git hosting SaaS service.
 
 ## Pricing overview
 
@@ -77,7 +77,7 @@ Here are some examples and quote's we've read about how these pricing changes wi
 
 ## Business models
 
-When it comes to SaaS hosted git repository pricing models, it seems GitHub is pursuing more of a network
+When it comes to SaaS hosted Git repository pricing models, it seems GitHub is pursuing more of a network
 pricing model where users are asked to pay for 3rd party services. Atlassian is leveraging their
 expansive product suite to get users to get additional paid services from them, like JIRA and Bamboo. At
 GitLab, we offer a free product with free services, for example [unlimited CI Runners](https://about.gitlab.com/2016/04/19/gitlab-partners-with-digitalocean-to-make-continuous-integration-faster-safer-and-more-affordable/).
