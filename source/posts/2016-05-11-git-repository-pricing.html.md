@@ -1,7 +1,7 @@
 ---
 title: "The future of SaaS hosted git repository pricing"
-author: GitLab
-author_twitter: gitlab
+author: Sid Sijbrandij
+author_twitter: sytses
 categories:
 image_title: /images/unsplash/stars.png
 ---
