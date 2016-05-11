@@ -836,14 +836,14 @@
   story:  |
           Joining May 1st
 
-- name: C.C.
+- name: Christian Couder
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Backend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: christiancouder.jpg
+  twitter: ChristianCouder
+  gitlab: chriscool
   story:  |
-          Joining May 1st
+          Based near Paris, France, Christian has been developing Git since 2006. He is passionate about open source projects, especially development tools.
 
 - name: Marcia Ramos
   role: <a href="https://about.gitlab.com/jobs/technical-writer/">Junior Technical Writer</a>
