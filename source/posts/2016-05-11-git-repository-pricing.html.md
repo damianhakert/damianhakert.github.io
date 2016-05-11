@@ -35,19 +35,18 @@ We detailed our thinking about [why GitLab will be free now and free forever](ht
 
 Price for Git repository hosting per month in popular cloud solutions
 
-| 	   | GitHub.com* | 	GitHub.com | BitBucket.org | GitLab.com |
+| 	   | GitHub.com old | GitHub.com new| BitBucket.org | GitLab.com |
 | :--- | :---------: | :---------: | :-----------: | :--------: |
 | **Personal usage**	| | | |
 | 1 private repo    | $7	| $7	| $0	| $0
 | 100 private repos	| $200	| $7	| $0	| $0
 | **For organizations**	| | | |
-| 5 collaborators  | ** | $25 | $0 | $0
-| 10 collaborators | ** | $90 | $10 | $0
-| 11 collaborators | ** | $99 |$25	| $0
+| 5 collaborators  | depended on repos | $25 | $0 | $0
+| 10 collaborators | depended on repos | $90 | $10 | $0
+| 11 collaborators | depended on repos | $99 |$25	| $0
 | Unlimited	| | N/A	| N/A | $0
 
-*GitHub before their pricing model change
-**Pricing depends on the number of repos
+2) Pricing depended on the number of repos
 
 It’s awesome that repositories have become table stakes across the market. We truly believe it will
 lead to better development practices since developers will no longer be constrained with physical
