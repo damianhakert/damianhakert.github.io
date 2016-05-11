@@ -11,7 +11,7 @@ changes, paid plans on GitHub.com will now include unlimited private repositorie
 we were not surprised to hear about these pricing changes. We believe they are inline with
 how pricing will move in the future. At GitLab, we think per-user pricing is the best pricing
 model because it is more predictable, less restrictive on code, and aligned with value the
-company gets.
+organization gets.
 
 <!-- more -->
 
@@ -31,7 +31,6 @@ free private repositories. With their announcement today, now GitHub.com, Bitbuc
 unlimited private repositories. It does not cost companies much more to host additional repositories for a given user.
 You can think of hosting additional repositories like you think about your email. Once you have an
 email account, you are usually not asked to pay more to store more. Unlimited repositories have become table stakes for a git hosting SaaS service.
-We detailed our thinking about [why GitLab will be free now and free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever) in [2015](https://gitlab.com/gitlab-com/www-gitlab-com/commit/e7e2faec2eca5d35629504b4435358615147fbec).
 
 Price for Git repository hosting per month in popular cloud solutions
 
@@ -46,14 +45,15 @@ Price for Git repository hosting per month in popular cloud solutions
 | 11 collaborators | depended on repos | $99 |$25	| $0
 | Unlimited	| | N/A	| N/A | $0
 
-2) Pricing depended on the number of repos
 
-It’s awesome that repositories have become table stakes across the market. We truly believe it will
+It’s awesome that repositories have become table stakes across the market.
+We detailed our thinking about [why GitLab will be free now and free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever) in [2015](https://gitlab.com/gitlab-com/www-gitlab-com/commit/e7e2faec2eca5d35629504b4435358615147fbec).
+We truly believe it will
 lead to better development practices since developers will no longer be constrained with physical
 storage or with financial limitations. However, with more repositories, we assume developers will
 write more code and seek out more contributors to collaborate on your projects. While the news of
 GitHub’s pricing is great if you have a lot of repos, it is not so helpful to people who have a lot
-of contributors. In fact, the per contributor price actually went up. At GitLab, we strongly believe that
+of contributors. At GitLab, we strongly believe that
 “everyone can contribute.” This message is exemplified not only in how we build our own products but
 also in how we price them. On GitLab.com, our free SaaS version, we offer unlimited private repositories,
 unlimited contributors, and unlimited CI runners, all for free.
