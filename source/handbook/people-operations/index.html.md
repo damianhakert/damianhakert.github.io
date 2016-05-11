@@ -34,7 +34,6 @@ member of the People Operations team, as listed on our [Team page](https://about
 ## Setting up new hiring contracts<a name="new-contracts"></a>
 
 New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/) page, including instructions on how to set up new contracts.
-Templates for the contracts are set up in BambooHR. You can download the template from the "Files" tab and work on the contract using Google Drive. Here you can work together if you need help and download the PDF for HelloSign.
 
 
 ### Using HelloSign<a name="hellosign"></a>
@@ -69,7 +68,7 @@ to confirm this.
 
 ## Using BambooHR<a name="bamboohr"></a>
 
-We’re using [BambooHR](https://gitlab.bamboohr.com) to keep all team member information
+We use [BambooHR](https://gitlab.bamboohr.com) to keep all team member information
 in one place. All team members (all contract types) are in BambooHR.
 
 Some changes or additions we make to BambooHR require action from our team members.
@@ -107,7 +106,7 @@ the left menu click "Files" and select the folder called "source". Continue by
 clicking the folder "data" and select the file called team.yml. In the top right
 corner you can click "edit" to make edits to the code. Scroll all the way down
 and copy-paste the code of the previous blank entry to the team page. Edit the
-fields to the right info of the new hire and find the right job description on
+fields to the right info of the new hire and find the right job description URL on
 the [Jobs](https://about.gitlab.com/jobs/) page.
  **Note** _This can be tricky, so if you run into trouble reach out to some of
 your awesome colleagues in the #questions (channel) on Slack_
@@ -137,12 +136,12 @@ Edit the message to be sent for the employee. Click "invite".
 Login in to access the settings for the [Beam](https://suitabletech.com/accounts/login/).
 In the top menu move your cursor over the blue login button. Go to "Manage your beams".
 Click on "manage" in the lower left corner. Enter the GitLab email and scroll down
-to find the newly addedd email. Check the box for "Auto connect".
+to find the newly added email. Check the box for "Auto connect".
 - **Add team member into the Austin info sheets**
 Add the team member's name to the Travel and Lodging Google sheets to make sure they enter flight details and they are assigned a room.
 - **Add team member to our Egencia platform**
 Log into Egencia and go to the menu option "manage users". Choose "new user account" and fill in the passport name of the new team member.
-As username choose the same handle as on our dev page. Enter the GitLab email address and uncheck the newsletter box.
+As username choose the same handle as on our dev domain. Enter the GitLab email address and uncheck the newsletter box.
 Lastly assign the department in which the new team member is working.
 
 ## Administrative details of benefits for US-based employees <a name="benefits-us"></a>
