@@ -31,8 +31,7 @@ free private repositories. With their announcement today, now GitHub.com, Bitbuc
 unlimited private repositories. It does not cost companies much more to host additional repositories for a given user.
 You can think of hosting additional repositories like you think about your email. Once you have an
 email account, you are usually not asked to pay more to store more. Unlimited repositories have become table stakes for a git hosting SaaS service.
-We detailed our thinking about this a
-while ago [on why GitLab will be free now and free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever).
+We detailed our thinking about [why GitLab will be free now and free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever) in [2015](https://gitlab.com/gitlab-com/www-gitlab-com/commit/e7e2faec2eca5d35629504b4435358615147fbec).
 
 It’s awesome that repositories have become table stakes across the market. We truly believe it will
 lead to better development practices since developers will no longer be constrained with physical
