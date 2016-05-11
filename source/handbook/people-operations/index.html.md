@@ -9,8 +9,6 @@ title: "People Operations"
    - [Using HelloSign](#hellosign)
 - [Processing changes](#processing-changes)
 - [Using BambooHR](#bamboohr)
-   - [Adding a new team member to BambooHR](#admin-bamboo)
-   - [Using BambooHR as a new team member](#new-member-bamboo)
 - [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)   
 - [Administrative details of benefits for US-based employees](#benefits-us)
    - [401k](#401k)
@@ -88,32 +86,6 @@ test account that does not have admin privileges.
 1. in the note to the team, point to the documentation created in step 1, explain the need and
 the ask, and who to turn to in case of questions.
 
-### Adding a new team member to BambooHR <a name="admin-bamboo"></a>
-
-After People Ops is requested to make a contract or offer letter for a potential hire,
-as described on our [Hiring](/handbook/hiring/) page, follow these steps:
-
-1. Download the correct template from the files page on BambooHR
-1. Edit the contract or offer letter to include the new hire information.
-1. Send out the document to be signed using HelloSign, \cc people ops in this process. (document HelloSign first)
-1. Once the document has been signed, create a BambooHR employee file:
-   1. Go to the BambooHR Dashboard
-   1. Click on the top right on “Add employee”
-   1. Enter the following fields: First name, Last name, Gender, Hire date, Employment status, Job information, Pay rate, Salary for employees, or select another option.
-   1. Turn “self service” on for the employee to enter the following info: Address, Phone, DOB. private email.
-1. Save the signed contract under the Documents tab in the folder “0.Signed Contract/Offer Letter”.
-1. As noted in the onboarding checklist, on the start date of the employee send out the "password reset email" under
-the settings option in the top right of the profile (next to "request a change")
-**Note** This link is only valid for 24 hours.
-
-### Using BambooHR as a new team member<a name="new-member-bamboo"></a>
-
-Team members can keep their information in BambooHR updated using self-service:
-
-1. Go to the BambooHR link that you should have received by email
-1. Change the password to make it secure (see the handbook section on [secure passwords](https://about.gitlab.com/handbook/security/))
-1. Login with your new credentials
-1. Keep your credentials stored in your 1Password Vault and keep the info in BambooHR updated (e.g. change address when moving)
 
 ## Managing the PeopleOps onboarding tasks <a name="manage-onboarding-tasks"></a>
 
@@ -303,17 +275,17 @@ number is dialed.
 
 ## Paperwork people may need to obtain mortgage in the Netherlands<a name="dutch-mortgage"></a>
 
-When your employment contract is for a fixed period of time (e.g. 12 months) you'll need a "werkgeversverklaring". 
-This document describes your salary and states that your employer expects to continue to employ 
-you after the contract expires (assuming the performance of the employee doesn't degrade). 
-This document has to be filled in by hand, preferably using blue ink, and must be signed 
-and stamped. If there is no stamp (as is the case for GitLab) an extra letter (also signed) 
-must be supplied that states the employer has no stamp. While the language of these 
+When your employment contract is for a fixed period of time (e.g. 12 months) you'll need a "werkgeversverklaring".
+This document describes your salary and states that your employer expects to continue to employ
+you after the contract expires (assuming the performance of the employee doesn't degrade).
+This document has to be filled in by hand, preferably using blue ink, and must be signed
+and stamped. If there is no stamp (as is the case for GitLab) an extra letter (also signed)
+must be supplied that states the employer has no stamp. While the language of these
 documents doesn't matter, the use of Dutch is preferred.
 
-Employees also have to provide a copy of a payslip that clearly states not only their 
-monthly salary but also their annual salary. These numbers must match the numbers on 
-the "werkgeversverklaring" down to the decimals. Mortgage providers may also require 
-you to provide information about your financial status, usually in the form of a report/screenshot 
-of your total financial status (including any savings you have). The requirements for 
+Employees also have to provide a copy of a payslip that clearly states not only their
+monthly salary but also their annual salary. These numbers must match the numbers on
+the "werkgeversverklaring" down to the decimals. Mortgage providers may also require
+you to provide information about your financial status, usually in the form of a report/screenshot
+of your total financial status (including any savings you have). The requirements for
 this seem to vary a bit between mortgage providers.
