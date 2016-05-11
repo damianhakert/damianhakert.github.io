@@ -41,7 +41,6 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Company Phone Number](#phone-number)
 * [On Call Rotation and Schedule](#on-call)
 * [Intellectual Property](#intellectual-property)
-* [Access to Shared Credentials](#sharing-credentials)
 * [Spending Company Money](#spending-company-money)
 * [Paid Time Off](#paid-time-off)
 * [Incentives](#incentives)
@@ -393,10 +392,6 @@ and how to swap duty in the [PagerDuty](https://about.gitlab.com/handbook/suppor
 1. View our [DMCA policy](https://about.gitlab.com/dmca) in regards to copyright /
 intellectual property violations
 1. Comply with the [GitLab Inc. Proprietary Information and Assignment Agreement](Proprietary Information and Assignment Agreement) and/or [GitLab B.V. NDA and IP Agreements](https://about.gitlab.com/handbook/contracts/#bv-nda-ip).
-
-## Access to Shared Credentials<a name="sharing-credentials"></a>
-
-We use [1Password](https://gitlab.1password.com) to keep track of our (shared) credentials, as also described in more detail on the [Security page](/handbook/security/). At times, there will be credentials that you need which are _not_ stored in a shared vault on 1Password, for one reason or another. To find those credentials, locate the 'secure note' in the team's Shared vault titled "How to gain access to credentials that are not in these vaults". That note lists the relevant services, a brief note about why the credentials are not shared, and whom you should contact to gain access.
 
 ## Spending Company Money<a name="spending-company-money"></a>
 
