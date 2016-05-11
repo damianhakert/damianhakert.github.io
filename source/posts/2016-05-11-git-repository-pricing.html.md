@@ -26,7 +26,7 @@ development practices for over a decade. Matt Miller details the significance of
 in his article, [‘Innovate or Die: The Rise of Microservices’](https://www.sequoiacap.com/article/build-us-microservices/) published in January 2016 on Sequoia
 Capital’s blog.
 
-## Unimited repos is table stakes
+## Unlimited repos is table stakes
 
 As more and more developers, teams, and organizations seek out the advantages of microservices,
 they’ll need more repositories to support this new code structure. Basically, the more microservices
