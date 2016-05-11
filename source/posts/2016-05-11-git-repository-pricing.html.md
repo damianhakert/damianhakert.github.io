@@ -33,6 +33,22 @@ You can think of hosting additional repositories like you think about your email
 email account, you are usually not asked to pay more to store more. Unlimited repositories have become table stakes for a git hosting SaaS service.
 We detailed our thinking about [why GitLab will be free now and free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever) in [2015](https://gitlab.com/gitlab-com/www-gitlab-com/commit/e7e2faec2eca5d35629504b4435358615147fbec).
 
+Price for Git repository hosting per month in popular cloud solutions
+
+| 	   | GitHub.com* | 	GitHub.com | BitBucket.org | GitLab.com |
+| :--- | :---------: | :---------: | :-----------: | :--------: |
+| **Personal usage**	| | | |
+| 1 private repo    | $7	| $7	| $0	| $0
+| 100 private repos	| $200	| $7	| $0	| $0
+| **For organizations**	| | | |
+| 5 collaborators  | ** | $25 | $0 | $0
+| 10 collaborators | ** | $90 | $10 | $0
+| 11 collaborators | ** | $99 |$25	| $0
+| Unlimited	| | N/A	| N/A | $0
+
+*GitHub before their pricing model change
+**Pricing depends on the number of repos
+
 It’s awesome that repositories have become table stakes across the market. We truly believe it will
 lead to better development practices since developers will no longer be constrained with physical
 storage or with financial limitations. However, with more repositories, we assume developers will
