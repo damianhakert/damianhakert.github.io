@@ -42,7 +42,7 @@ there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @kirsten, and @tiffa
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), read
 the relevant onboarding pages that are linked from there, and become comfortable
 with Git and the GitLab workflow.
-* [ ] People Ops: create new profile for team member in BambooHR, and input relevant data (title, dates, contract type, compensation) into the team members profile tabs "Job". Be sure to enable "self-service" before saving the newly entered information.
+* [ ] People Ops: create new profile for team member in BambooHR, and input relevant data (title, dates, contract type, compensation) into the team members profile tabs "Job". Be sure to add the personal and work email address and to enable "self-service" before saving the newly entered information.
 * [ ] People Ops: file signed contract with PIAA or NDA+IP agreements in BambooHR profile under "Documents"-->"Signed Contract/Offer Letter". Set the uploaded documents to "shared" so that the team member can also view them.
 * [ ] People Ops: when applicable, file photo ID in BambooHR profile under "Documents"--> "Verification Docs"
 * [ ] People Ops: list any stock options that were part of the offer in BambooHR profile under "Benefits"--> "Stock Options"
@@ -100,8 +100,7 @@ to the proper shared Vaults by making a suggestion in the relevant cell in the "
 * [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
 * [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
 * [ ] Robert/Jacob/Ernst: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
-* [ ] New team member: Use the "reset your password" email of BambooHR to set a password and access your profile.
-* [ ] New team member: Add your Address, Phone number, private email and emergency contact to your BambooHR profile page.
+* [ ] New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information.
 * [ ] New team member: Set up [Calendly](https://about.gitlab.com/handbook/#calendly) and add your Calendly link to your Slack profile.
 
 ### WITHIN FIRST WEEK OF STARTING
@@ -110,7 +109,6 @@ to the proper shared Vaults by making a suggestion in the relevant cell in the "
 * [ ] PeopleOps: Order business cards for new team member.
 * [ ] PeopleOps: Add team member to Expensify (if employee).
 * [ ] PeopleOps: Add new team member to the info sheets of the Austin Summit.
-* [ ] PeopleOps: Send the new team member the "reset password" email for their BambooHR profile.
 * [ ] PeopleOps: Create a profile on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
 * [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team.
    * [ ] 1. call with ___
