@@ -1,9 +1,9 @@
 ---
 layout: markdown_page
 title: "Marketing"
----  
+---
 
-# GitLab Marketing mission: GitLab for All!  
+# GitLab Marketing Mission: GitLab for All!  
 
 We think GitLab (.com, CE, and EE) can help developers, designers, IT workers, marketers, and everyone in between improve collaboration.  
 
@@ -17,40 +17,40 @@ Here are some marketing resouces we think help to describe how we work:
 - coming soon
 - coming soon
 
-# Functional groups in marketing:
+# Marketing Team Functional Groups
 
 Our Marketing team is split into four key functional groups. All four groups are equally important for the success of GitLab.
 
-## Demand generation
+### Demand generation
 
 - [Demand generation](/handbook/marketing/demand-generation)
 - [Online marketing](/handbook/marketing/online-marketing/)
 - [Business development](/jobs/business-development-representative/)
 
-## Design
+### Design
 
 - [Designer](/jobs/designer/)
 
-## Developer Relations
+### Developer Relations
 
 - [Technical writing](/jobs/technical-writer/)
 - [Developer advocacy](/handbook/marketing/developer-relations/developer-advocacy/)
 - [Field marketing](/handbook/marketing/developer-relations/field-marketing/)
 
-##Product Marketing
+### Product Marketing
 
 - [Product marketing](/handbook/marketing/product-marketing/)
 - [Partner marketing](/handbook/marketing/product-marketing/#partnermarketing/)
   [Content marketing](/handbook/marketing/developer-relations/content-marketing/)
 
-### Marketing resources
+# Marketing resources
 
 - [GitLab Marketing Project](https://gitlab.com/gitlab-com/marketing)
 - [Public GitLab Marketing Issue Tracker](https://gitlab.com/gitlab-com/marketing/issues)
 - Google drive folder can be found by searching the company Google Drive for
   "GitLab Marketing"
 
-# Meetings and meeting structure  
+# Meetings and Structure  
 
 These are just the required meetings for team members and managers. Of course, meetings are encouraged when it expedites a project or problem solving amongst member so the team and company. Don't be afraid to say "Hey, can we hangout?" if you need help with something.
 
