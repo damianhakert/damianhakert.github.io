@@ -4,8 +4,6 @@ title: Team Structure
 page_class: org-structure
 ---
 
-Draft team structure, this is to be finished after the Austin Summit (end of May 2016).
-
 GitLab Inc. has at most four layers in the team structure:
 
 1. CEO
