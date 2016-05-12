@@ -17,9 +17,10 @@ title: "People Operations"
 - [Using TriNet](#using-trinet)
    - [Add new hires to TriNet](#trinet-process)
    - [Making changes in TriNet](#changes-trinet)
-- [Returning property to GitLab](#returning-property)
 - [Using RingCentral](#ringcentral)
 - [Paperwork people may need to obtain mortgage in the Netherlands](#dutch-mortgage)
+- [Returning property to GitLab](#returning-property)
+
 
 ## Reaching People Operations<a name="reach-peopleops"></a>
 
@@ -279,15 +280,6 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Change location and fill in necessary information.
 1. Select Update.
 
-
-## Returning property to GitLab<a name="returning-property"></a>
-
-As part of [offboarding](https://about.gitlab.com/handbook/offboarding/), any
-GitLab property needs to be returned to GitLab. GitLab
-will pay for the shipping either by PeopleOps sending a FedEx shipping slip or it can be returned
-by another mutually agreed method. If property is not returned, GitLab reserves the
-right to use a creditor company to help retrieve the property.
-
 ## Using RingCentral<a name="ringcentral"></a>
 
 Our company and office phone lines are handled via RingCentral. The login credentials
@@ -317,3 +309,12 @@ the "werkgeversverklaring" down to the decimals. Mortgage providers may also req
 you to provide information about your financial status, usually in the form of a report/screenshot 
 of your total financial status (including any savings you have). The requirements for 
 this seem to vary a bit between mortgage providers.
+
+
+## Returning property to GitLab<a name="returning-property"></a>
+
+As part of [offboarding](https://about.gitlab.com/handbook/offboarding/), any
+GitLab property needs to be returned to GitLab. GitLab
+will pay for the shipping either by PeopleOps sending a FedEx shipping slip or it can be returned
+by another mutually agreed method. If property is not returned, GitLab reserves the
+right to use a creditor company to help retrieve the property.
