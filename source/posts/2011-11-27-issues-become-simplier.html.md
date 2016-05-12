@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: Issues become simplier
 wordpress_id: 103
 wordpress_url: http://blog.gitlabhq.com/?p=103

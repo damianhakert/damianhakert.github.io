@@ -22,11 +22,11 @@ In addition to providing enhancements to GitLab itself, Advocates can also provi
 
 ## Public Speaking and Events
 
-Speaking at events is an important facet of developer outreach. Guidelines for what to do at events can be found [here](/handbook/marketing/developer-relations/developer-advocacy/events), while guidelines for public speaking can be found [here](/handbook/marketing/developer-relations/developer-advocacy/events/public-speaking).
+Speaking at events is an important facet of developer outreach. Guidelines for what to do at events can be found [here](/handbook/marketing/developer-relations/developer-advocacy/events), while guidelines for public speaking can be found [here](/handbook/marketing/developer-relations/developer-advocacy/events/public-speaking.html).
 
 ## Social Media and online community interaction
 
-Advocates follow these [guidelines](/handbook/marketing/developer-relations/developer-advocacy/social-media) when posting as GitLab. 
+Advocates follow these [guidelines](/handbook/social-media-guidelines) when posting as GitLab. 
 
 ## Blogging and Podcasting
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Feature Highlight: Merge Request Approvals"
 date: 2015-07-29
 author: Job van der Voort

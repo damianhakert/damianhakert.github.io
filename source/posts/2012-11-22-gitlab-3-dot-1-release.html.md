@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 3.1 and GitLab CI v1.0.1"
 date: 2012-11-22 15:20
 categories:

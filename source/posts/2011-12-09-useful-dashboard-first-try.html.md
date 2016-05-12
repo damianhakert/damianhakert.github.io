@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: Useful Dashboard - first try
 wordpress_id: 128
 wordpress_url: http://blog.gitlabhq.com/?p=128

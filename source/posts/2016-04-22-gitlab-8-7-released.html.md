@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 8.7 released with Due Date for Issues and Remote Mirrors"
 date: 2016-04-22
 categories:

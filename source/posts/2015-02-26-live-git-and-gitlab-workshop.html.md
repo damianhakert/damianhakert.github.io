@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "We're doing a live Git and Gitlab Workshop"
 date: 2015-02-26
 categories:

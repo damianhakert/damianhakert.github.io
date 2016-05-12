@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How to see into the future at GitLab"
 date: 2016-01-05
 author: Heather McNamee

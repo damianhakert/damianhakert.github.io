@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Getting started with GitLab and DigitalOcean"
 date: 2016-04-27
 author: Achilleas Pipinellis

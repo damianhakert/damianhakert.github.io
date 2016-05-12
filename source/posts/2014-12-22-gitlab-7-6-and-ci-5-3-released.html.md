@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 7.6 and GitLab CI 5.3 released with Audit log, Rebasing and more authentication options"
 date: 2014-12-22
 categories:

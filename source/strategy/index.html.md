@@ -49,13 +49,13 @@ We want to achieve our goals in the following order:
 
 2. Become the most revenue generation solution on-premises (through well executed marketing and sales)
 
-3. Become the most popular SaaS solution for private repositories (through a [great product](https://about.gitlab.com/direction/) that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever))
+3. Become the most popular SaaS solution for private repositories (a [complete product](https://about.gitlab.com/direction/#scope) that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever) is competitive since network effects are smaller for private repositories than for public ones)
 
 4. Become the most popular SaaS solution for public repositories (easier to overcome network effects if people already use GitLab.com for private repositories)
 
 5. All knowledge workers contributing via GitLab (need to make the git workflow much more user friendly)
 
-While we achive our goals one by one this doesn't mean we can exclude everything else. Simultaniously we'll grow our userbase, get more subscribers for our [EE](https://about.gitlab.com/features/#enterprise), grow the use of [GitLab.com](https://about.gitlab.com/gitlab-com/), make and sell more [options](https://about.gitlab.com/pricing/#options), increase our [scope](https://about.gitlab.com/direction/#scope), and make version control usable for more types of work.
+While we achive our goals one by one this doesn't mean we can will focus on only one goal at the time. Simultaniously we'll grow our userbase, get more subscribers for [EE](https://about.gitlab.com/features/#enterprise), grow [GitLab.com](https://about.gitlab.com/gitlab-com/), develop [options](https://about.gitlab.com/pricing/#options), realize our [scope](https://about.gitlab.com/direction/#scope), and make version control usable for more types of work.
 
 ## Constraints
 
@@ -104,7 +104,7 @@ While we achive our goals one by one this doesn't mean we can exclude everything
 
 2. Partner with Rocket Chat, ship it with GitLab and integrate it.
 
-3. Open up everything we can, including an [open Chef repo](https://dev.gitlab.org/cookbooks/chef-repo/issues/247), and open Asana.
+3. Open up everything we can, including an [open Chef repo](https://dev.gitlab.org/cookbooks/chef-repo/issues/247), and [marketing issue tracker](https://gitlab.com/gitlab-com/marketing/issues).
 
 4. Publish our processes and plans in the handbook or link from there.
 
@@ -154,7 +154,7 @@ While we achive our goals one by one this doesn't mean we can exclude everything
 
 2. PR pitch: [opinionated and integrated set of tools based on CoC offers a superior UX](https://about.gitlab.com/direction/).
 
-3. Needs to win hearts and minds with excellent [developer marketing](https://about.gitlab.com/handbook/marketing/developer-marketing/).
+3. Needs to win hearts and minds with excellent [developer advocacy](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/).
 
 4. Show that we can test big projects (Rails, etc.) faster than Travis CI.
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Welcome Marin
 tags: []
 status: publish

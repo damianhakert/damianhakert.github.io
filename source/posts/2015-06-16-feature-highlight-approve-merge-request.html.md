@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Feature Highlight: Approve Merge Request"
 date: 2015-06-16
 author: Dmitriy Zaporozhets

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Hosting GitLab on GitLab"
 date: 2014-01-07
 author: Sytse Sijbrandij

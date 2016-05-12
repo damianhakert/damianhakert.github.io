@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Did you install GitLab from source? Check your Git version"
 date: 2015-06-12
 author: Jacob Vosmaer

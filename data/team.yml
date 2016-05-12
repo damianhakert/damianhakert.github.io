@@ -31,7 +31,7 @@
 
 - name: Marin Jankovski
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: picture_marin.jpg
   twitter: maxlazio
   gitlab: marin
@@ -48,7 +48,7 @@
 
 - name: Jacob Vosmaer
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: picture_jacob.png
   twitter: jacobvosmaer
   gitlab: jacobvosmaer
@@ -57,10 +57,11 @@
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-workhorse/">gitlab-workhorse</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/cookbook-marketo-tools/">cookbook-marketo-tools</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-certificate-toolkit">gitlab-certificate-toolkit</a></li>
+              <li><a href="/jobs/expert/">Expert</a> on: LDAP, packaging, init script, backup script, security, gitlab-shell, Redis, Unicorn</li>
   story:  |
           Jacob became a professional software developer in 2012 after a brief academic career which included obtaining a PhD in mathematics.
-          Motivated by his own experiences switching careers he has been helping others do the same, for instance by coaching at RailsGirls events.
-          Today he is excited to be working on open source software and helping organisations around the world collaborate better using Git and GitLab.
+          He joined GitLab in 2013 as a Senior Service Engineer, helping customers install and maintain GitLab and working on GitLab.com infrastructure.
+          As a Senior Developer he now works mostly on behind-the-scenes improvements to GitLab and on developer productivity (<a href="https://gitlab.com/gitlab-org/gitlab-development-kit/">GitLab Development Kit</a>).
           He is part of the GitLab core-team.
 
 - name: Job van der Voort
@@ -88,12 +89,14 @@
 
 - name: Valery Sizov
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: picture_vsizov.png
   twitter: Sizov_Valeriy
   gitlab: vsizov
   maintains: |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ee/">GitLab EE</a></li>
+              <li><a href="http://doc.gitlab.com/ee/workflow/merge_request_approvals.html">Merge Request approvals</a> <a href="/jobs/expert/">expert</a></li>
+              <li><a href="http://doc.gitlab.com/ee/integration/elasticsearch.html">ElasticSearch</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           I started the GitLab project together with Dmitriy 3 years ago. Today, we are together again :) I like Ruby, UNIX, git and other cool technologies.
           I have a very strong desire to improve the world by making all things easier.
@@ -106,21 +109,23 @@
   gitlab: patricio
   maintains:  |
               <li>On-call hero!</li>
-              <li>SAML <a href="/jobs/expert/">expert</a></li>
               <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/GitHost">GitHost.io</a> (internal)</li>
+              <li><a href="http://docs.gitlab.com/ce/integration/saml.html">SAML</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Patricio is from Quito, Ecuador and he studied Computer Science in Stuttgart, Germany, where he lived for 7 years.
           He is very passionate about open source software and has been working with Ruby on Rails for the past 4 years. He also likes
           to swim, play video games and spend time with his family and friends.
 
 - name: Douwe Maan
-  role: <a href="https://about.gitlab.com/jobs/development-lead/">Development Lead</a>
+  role: <a href="https://about.gitlab.com/jobs/backend-lead/">Backend Lead</a>
   reports_to: CEO
   picture: picture_douwe.png
   twitter: DouweM
   gitlab: DouweM
   maintains:  |
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
+              <li><a href="http://docs.gitlab.com/ce/markdown/markdown.html">GitLab Flavored Markdown</a> <a href="/jobs/expert/">expert</a></li>
+              <li><a href="http://docs.gitlab.com/ce/incoming_email/README.html">Reply by Email</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Douwe caught the programming virus at the age of 9, got his first freelance job 2 years later, and has spent the years that followed gaining experience with a wide range of technologies&mdash;both by himself and as lead developer at two startups.
           Some 4 years ago, he found Ruby and fell in love with the language and the open-source community surrounding it, making him a perfect fit for GitLab.
@@ -137,7 +142,7 @@
 
 - name: Kamil Trzciński
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: kamil.jpg
   twitter: ayufanpl
   gitlab: ayufan
@@ -179,7 +184,7 @@
 
 - name: Robert Speicher
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: rspeicher.jpg
   twitter: rspeicher
   gitlab: rspeicher
@@ -187,6 +192,7 @@
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/marketo-tools">Marketo tools</a></li>
               <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
+              <li><a href="http://docs.gitlab.com/ce/markdown/markdown.html">GitLab Flavored Markdown</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Before joining GitLab the company in 2015, Robert was
           already an active member of the GitLab community beginning in 2012,
@@ -259,13 +265,12 @@
   twitter: jeroen_nijhof
   gitlab: jnijhof
   maintains:  |
-              <li>On-call hero!</li>
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/status-gitlab-com">status-gitlab-com</a></li>
-              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/operations">operations issue tracker</a></li>
+              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/infrastructure">infrastructure issue tracker</a></li>
               <li>Maintainer of <a href="https://dev.gitlab.org/cookbooks/chef-repo/">Chef Repo</a> (internal)</li>
   story:  |
-          Jeroen is a true open source evangelist with years of experience in maintaining, implementing and development in and with open source. At GitLab he really enjoys the
-          combination of operations and development. Next to GitLab he owns two startups <a href="https://openscan.nl">OpenScan</a> and <a href="https://timeaddicts.nl">Timeaddicts</a>.
+          Jeroen is a true open source evangelist with years of experience in maintaining, implementing and development in and with open source.
+          At GitLab he really enjoys the combination of operations and development.
           In his spare time he really likes to work on his small electronics projects based on arduino and pi.
 
 - name: Drew Blessing
@@ -279,7 +284,7 @@
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/doc-gitlab-com">doc-gitlab-com</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/support-forum/">GitLab.com Support Forum</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/githost">GitHost.io feature proposals</a></li>
-             <li>LDAP expert</li>
+             <li><a href="http://doc.gitlab.com/ce/administration/auth/ldap.html">LDAP</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Before joining the GitLab team, Drew was involved in the GitLab community as a member of the core team. He is passionate about
           open-source projects and communities and enjoys helping people solve problems. When he is not hacking on a project, Drew enjoys playing piano, working
@@ -287,7 +292,7 @@
 
 - name: Yorick Peterse
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: picture_yorick.jpg
   twitter: yorickpeterse
   gitlab: yorickpeterse
@@ -319,12 +324,13 @@
 
 - name: Gabriel Mazetto
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: gabriel.jpg
   twitter: brodock
   gitlab: brodock
   maintains: |
              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
+             <li><a href="http://doc.gitlab.com/ee/gitlab-geo/README.html">Geo</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Gabriel is the first Brazillian in the team, before joining GitLab,
           he was fighting the scalability and performance battle on a
@@ -344,13 +350,15 @@
 
 - name: Rubén Dávila
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: ruben.jpg
   twitter: rdavila
   gitlab: rdavila
   maintains: |
              <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/license-app">license-app</a> (internal)</li>
              <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/gitlab-license">gitlab-license</a> (internal)</li>
+             <li><a href="http://docs.gitlab.com/ee/api/license.html">EE License</a> <a href="/jobs/expert/">expert</a></li>
+             <li><a href="http://docs.gitlab.com/ee/workflow/repository_mirroring.html">Repository Mirroring</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Rubén is a Rails developer based in Lima, Perú. Before joining GitLab, he was working remotely for other US based startups. Today, he is very happy at GitLab given that one of his dreams was to collaborate full time with open source projects. When he is away from the keyboard, he is usually taking a walk with his dogs.
 
@@ -372,7 +380,7 @@
 
 - name: Grzegorz 'Greg' Bizon
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: grzegorz.png
   twitter: GrzegorzBizon
   gitlab: grzesiek
@@ -388,13 +396,14 @@
 
 - name: Douglas Alexandre
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: douglas.png
   twitter: dbalexandre
   gitlab: dbalexandre
   maintains:  |
               <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/version-gitlab-com">version-gitlab-com</a> (internal)</li>
               <li>Issue tracker development lead</li>
+              <li><a href="http://doc.gitlab.com/ce/workflow/todos.html">Todos</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Douglas is a software developer that fell in love with Ruby since 2007 and the open-source community surrounding it and has been working with Ruby on Rails for the past 3 years. Before joining GitLab, he was working remotely for nonprofit organization based in Brazil. He enjoys to improve people's lives with the product he is working on, so GitLab was a perfect match to him. In his free time, he loves to drink a good beer and, spend time with his friends.
 
@@ -452,7 +461,7 @@
          Ian's just your normal nerd who lives on a farm.  He blows and tinkers with glass in order to build telescopes and make neon art, is a board member and former president of his local hackerspace, and volunteers at a school for hearing impaired children in his spare time.  .
 - name: Tomasz Maczukin
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: tomasz.jpg
   twitter: TomaszMaczukin
   gitlab: tmaczukin
@@ -474,7 +483,7 @@
 
 - name: Rémy Coutable
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: remy.png
   twitter: rymai
   gitlab: rymai
@@ -492,7 +501,7 @@
 
 - name: Josh Frye
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: jfrye.jpg
   twitter: joshfng
   gitlab: joshfng
@@ -521,7 +530,7 @@
 
 - name: James Lopez
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: james.png
   twitter: jlopezofficial
   gitlab: jameslopez
@@ -581,7 +590,7 @@
           Michael has been helping customers choose, deploy, and use software development tools since the 80's at companies like Borland, Symantec, Gupta, and Perforce.  Michael is passionate about building teams and business in the far-flung corners of the world.  When not working, Michael is an award winning wine maker and heavily involved in the local Boy Scouts.
 
 - name: Pablo Carranza
-  role: Senior <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a> and operations lead
+  role: Senior <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a> and Infrastructure lead
   reports_to: CEO
   picture: pablo.jpg
   twitter: psczg
@@ -623,10 +632,12 @@
 
 - name: Zeger-Jan 'ZJ' van de Weg
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer Intern</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: zegerjan.jpeg
   twitter: zjvandeweg
   gitlab: zj
+  maintains: |
+              <li>Award Emoji <a href="/jobs/expert/">expert</a></li>
   story:  |
           Zeger-Jan is a husband, father of an awesome son, and about to get his bachelor’s degree in Computer Science. In his spare time he spends time with his family,
           plays board games (he hates not winning) and watch TV shows. Two years ago, Douwe introduced him to Ruby and Zeger-Jan instantly fell in love with the elegant syntax and the expressiveness.
@@ -692,21 +703,9 @@
   story:  |
           Before coming to GitLab, Ryan could occasionally be spotted in the driver’s seat of a recycling truck as co-founder of a Utah-based recycling startup. His cleaner roles have been in marketing and strategy within a variety of tech and non-tech companies, mostly startups. He delights in deeply understanding the customer experience and putting himself in the customer’s shoes. When the work’s done and the sun’s still out, Ryan is likely to be found shredding the trails on his mountain bike, shooting hoops, or pondering the complexities and intricacies of waste management.
 
-- name: Eniola Arinde
-  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
-  reports_to: Frontend Lead
-  picture: eniolaarinde.jpg
-  twitter: elvongray
-  gitlab: elvongray
-  story:  |
-          Eniola's passion for problem solving and building led him to software development.
-          He previously worked as a full-stack developer but later realized he has an affinity
-          for the front-end, driven by his love of JavaScript.
-          He enjoys learning new technologies, music (especially EDM), and sometimes philosophy.
-
 - name: Felipe Artur
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: felipe_artur.jpg
   twitter: FelipeArtur
   gitlab: felipe_artur
@@ -715,7 +714,7 @@
 
 - name: DJ Mountney
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: dj.png
   twitter: twk3
   gitlab: twk3
@@ -743,7 +742,7 @@
 
 - name: Timothy Andrew
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: tim.jpg
   twitter: timothyandrew
   gitlab: timothyandrew
@@ -752,7 +751,7 @@
 
 - name: K.C.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
@@ -776,8 +775,8 @@
           radio. A three-time Boston Marathon qualifier and finisher, Stan now
           channels his energy into training for his next triathlon.
 
-- name: Richard "Reb" E. Baum
-  role: <a href="https://about.gitlab.com/jobs/solutions-engineer/">Solutions Engineer</a>
+- name: Reb - Richard E. Baum
+  role: <a href="https://about.gitlab.com/jobs/success-engineer/">Success Engineer</a>
   reports_to: CRO
   picture: reb.jpg
   twitter: therebbie
@@ -805,28 +804,28 @@
   twitter: IsChrisW
   gitlab: MrChrisW
   story:  |
-          Based in Australia, Chris has worked in a variety of roles from support specialist to systems engineer. 
+          Based in Australia, Chris has worked in a variety of roles from support specialist to systems engineer.
           He is passionate about open source communities and enjoys helping people solve problems with software.
-          Chris has an interest in DevOps and loves building software tools to automate and improve business operations. 
+          Chris has an interest in DevOps and loves building software tools to automate and improve business operations.
           In his spare time, he enjoys catching waves on his bodyboard and exploring Asia with his partner.
 
 - name: S.M.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Development Lead
+  reports_to: Backend Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
   story:  |
           Joining April 27th
 
-- name: C.T.
+- name: Colton Taylor
   role: <a href="https://about.gitlab.com/jobs/business-development-team-lead/">Business Development Team Lead</a>
   reports_to: Senior Demand Generation Manager
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: colton.jpg
+  twitter: ctaylor021
+  gitlab: cdtaylor
   story:  |
-          Joining April 27th
+          Colton has worked in the technology space for the last three years, and is passionate about business development, marketing, and the customer lifecycle. With a particular interest in innovative technologies, he found a great match at GitLab. When not at work, Colton enjoys basketball, football, golf, and action sports. He and his wife love being outdoors with their dog, as well as traveling often.
 
 - name: Mark Fletcher
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
@@ -840,14 +839,45 @@
           Whenever possible, he likes to hone his skills in the arts of skiing, cooking, travelling, lifting heavy things and avoiding running anywhere.
           One day, he would really a dog to call his own, so he can stop bothering other people's.
 
-- name: M.C.
+- name: Christian Couder
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Backend Lead
+  picture: christiancouder.jpg
+  twitter: ChristianCouder
+  gitlab: chriscool
+  story:  |
+          Based near Paris, France, Christian has been developing Git since 2006. He is passionate about open source projects, especially development tools.
+
+- name: Marcia Ramos
   role: <a href="https://about.gitlab.com/jobs/technical-writer/">Junior Technical Writer</a>
   reports_to: CMO
+  picture: marcia.jpg
+  twitter: XMDRamos
+  gitlab: virtuacreative
+  story:  |
+          Marcia is passionate about computers since the early 1990s, when she first touched the 
+          command line and somehow managed to play games on DOS. Her background in Science opened the way for technical
+          writing, which she has been improving since 2005, by writing and reviewing professionally. Over the last few 
+          years, her enthusiasm for technology motivated her to learn web development, and write about it too. She loves photography.
+          When she's not typing, you will find her behind the camera, or in a plane, for being behind her camera somewhere else.
+
+- name: F.A.
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
   story:  |
-          Joining May 2nd
+          Joining May 9th
+
+- name: Eliran Mesika
+  role: <a href="https://about.gitlab.com/jobs/director-strategic-partnerships/">Director of Strategic Partnerships</a>
+  reports_to: CEO
+  picture: eli.jpg
+  twitter:
+  gitlab:
+  story:  |
+          Nicknamed 'The Fox', Eliran graduated engineering at the Technion and has since focused on leading business growth for software companies. He managed the Customer Experience group at ClickTale, built a monetization ecosystem for Conduit and most recently co-founded OhTell, a micro-video hotel review company. Outside work you can find 'The Fox' in the water or on land, training for IRONMAN triathlon races.
 
 - name: M.W.
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Sr. Account Executive</a>
@@ -857,3 +887,84 @@
   gitlab:
   story:  |
           Joining May 16th
+
+- name: J-S.L.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Backend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 16th
+
+- name: J.N.
+  role: <a href="https://about.gitlab.com/jobs/production-engineer/">Senior Production Engineer</a>
+  reports_to: Infrastructure Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 16th
+
+- name: C.S.
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineering Intern</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 16th
+
+- name: M.K.
+  role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
+  reports_to: Infrastructure Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 23rd
+
+- name: A.R.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Backend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 30th
+
+- name: B.R.
+  role: <a href="https://about.gitlab.com/jobs/people-ops-coordinator/">People Operations Coordinator</a>
+  reports_to: VP of Scaling
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining June 1st
+
+- name: J.A.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: VP of Engineering
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining June 1st
+
+- name: H.Y.
+  role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
+  reports_to: VP of Engineering
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining June 6th
+
+- name: T.B.
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer Intern</a>
+  reports_to: Backend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining July 1st

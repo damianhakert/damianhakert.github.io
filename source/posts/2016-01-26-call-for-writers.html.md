@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Write for GitLab"
 date: 2016-01-26
 author: Heather McNamee

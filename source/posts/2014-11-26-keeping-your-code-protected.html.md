@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Keeping your code protected"
 date: 2014-11-26
 categories:

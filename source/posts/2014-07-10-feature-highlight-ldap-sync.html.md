@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Feature Highlight: LDAP Integration"
 date: 2014-07-10
 categories:

@@ -7,6 +7,7 @@ title: Service Engineer Onboarding
 - [Expectations of the support team](#expectations)
 - [First steps when you join the team](#first-steps)
    - [Training](#training)
+   - [WebEx](#webex)
 - [Handling tickets](#handling-tickets)
    - [Assigning a ticket to yourself](#assign-yourself)
    - [Point to documentation, or make it](#document-it)
@@ -34,7 +35,7 @@ expected to:
 - Be open to new ideas and points of view
 - It is OK if you don't know something. You can always ask someone else
 - It is OK to say no to a customer, but try to suggest a workaround and escalate to a Senior if necessary
-- Read the guidelines on how to [respond on social media](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/social-media/).
+- Read the guidelines on how to [respond on social media](https://about.gitlab.com/handbook/social-media-guidelines).
 
 ## First steps when you join the team <a name="first-steps"></a>
 
@@ -75,6 +76,28 @@ collect across the team.
 Initially, you will pick up relatively less complex tickets, and learn more about the product and the process by
 responding to a large volume of these tickets. Typically, you will start by answering tickets that come in
 through social media, advancing to general support tickets, and eventually subscriber, security, and emergency tickets.
+
+### WebEx<a name="webex"></a>
+
+More often than not, WebEx will be the best tool for customer calls, so you can save yourself a step and already start
+a WebEx session for a call. To do this you can use the `GitLab Support` WebEx account. Go to our
+[WebEx Portal](https://gitlabmeetings.webex.com), click on the login button on the top right and use the
+credentials found in the Support Vault on 1password.
+
+![WebEx Login](/images/support/web-ex-login.png)
+
+Once logged in, click the `Enter Room` button to start the WebEx meeting and send the following link to
+the customer and ask them to join the call.
+
+```
+https://gitlabmeetings.webex.com/meet/gitlabsupport
+```
+
+![WebEx Room](/images/support/web-ex-room.png)
+
+WebEx is usually the best choice, since it allows you to see the customer's desktop and
+to control it on request. It also gives the customer the possibility to join via phone and
+us the possibility to use our computer audio connection.
 
 
 ## Handling tickets <a name="handling-tickets"/>

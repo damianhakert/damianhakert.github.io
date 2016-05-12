@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GitLab Cloud is now running on 5.1
 tags: []
 status: publish

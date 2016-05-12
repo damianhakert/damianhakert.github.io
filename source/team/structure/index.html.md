@@ -11,7 +11,7 @@ GitLab Inc. has at most four layers in the team structure:
 1. CEO
 1. Executives (e-team) consisting of CxO's and VP's
 1. Leads
-1. Individual contributors (IC's)
+1. Individual contributors (IC's), which can be a [specialist](/jobs/specialist/) in one things and be an [expert](/jobs/expert/) in multiple things.
 
 The indentation below reflects the reporting relations.
 You can see our complete team and who reports to who on the [team page](https://about.gitlab.com/team/).
@@ -25,8 +25,8 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - Design - [Designer](/jobs/designer/)
     - [Demand generation](/handbook/marketing/demand-generation) - [Senior Demand Generation Manager](/jobs/demand-generation-manager/) (lead)
       - [Online Marketing](/handbook/marketing/online-marketing) - [Online Marketing Manager](/jobs/online-marketing-manager/)
-      - Business Development - [Business Development Team Lead](/jobs/business-development-team-lead/) (lead)
-         - [Business Development Representatives](/jobs/business-development-representative/)
+      - Business Development - [Business Development Team Lead](/jobs/business-development-team-lead/)
+      - [Business Development Representatives](/jobs/business-development-representative/)
     - [Product Marketing](/handbook/marketing/product-marketing/) - [Senior Product Marketing Manager](/jobs/product-marketing-manager/) (lead)
       - [Partner Marketing](/handbook/marketing/product-marketing/#partnermarketing/) - Partner/Channel Marketing Manager (vacancy)
       - [Content Marketing](/handbook/marketing/developer-relations/content-marketing/) - Content Marketing Manager (vacancy)
@@ -49,14 +49,14 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Administrative Coordinator](/jobs/adminstrative-coordinator/)
   - [Technical Direction](/direction/) - [CTO](/jobs/chief-technology-officer/)
   - Engineering - [VP of Engineering](/jobs/vp-of-engineering/)
-    - Rails team - [Development](/jobs/development-lead/) (Rails lead)
-      - [Developers](/jobs/developer/) that are a Rails specialist
-    - Frontend - [Frontend Lead](/jobs/frontend-lead/) (Frontend lead)
-      - [Frontend engineer](/jobs/frontend-engineer/)
-    - [Infrastructure](/handbook/operations/) - [Senior Production Engineer](/jobs/production-engineer/) (Infrastructure lead)
+    - Backend - [Backend Lead](/jobs/backend-lead/)
+      - [Developers](/jobs/developer/) that are Rails specialists
+    - Frontend - [Frontend Lead](/jobs/frontend-lead/)
+      - [Frontend Engineers](/jobs/frontend-engineer/)
+    - [Infrastructure](/handbook/infrastructure/) - Infrastructure lead
       - [Production Engineers](/jobs/production-engineer/)
       - [Developers](/jobs/developer/) that are a performance specialist
-    - [Support](/handbook/support/) - [Service Engineer](/jobs/service-engineer/) (Support lead)
+    - [Support](/handbook/support/) - Support lead
       - [Service Engineers](/jobs/service-engineer/)
     - [UX Designers](/jobs/ux-designer/)
     - [Developers](/jobs/developer/) that are maintainers

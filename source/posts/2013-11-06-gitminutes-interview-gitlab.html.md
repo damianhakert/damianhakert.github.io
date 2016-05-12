@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Gitminutes podcast interviews our co-founder about GitLab
 date: November 6, 2013
 author: Sytse Sijbrandij

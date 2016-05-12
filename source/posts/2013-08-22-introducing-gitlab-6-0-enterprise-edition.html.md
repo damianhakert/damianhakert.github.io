@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Introducing GitLab 6.0 Enterprise Edition
 ---
 The GitLab.com team is working on Dmitriy's dream of giving the world great free tools to collaborate. After releasing GitLab 5.0 on March 22 this dream is coming closer every day. Since 5.0 the performance and stability of GitLab are best in class. This helped the community grow from 10.000 to 25.000 organizations using GitLab. We also see growing interest in larger companies with 3 Fortune 100 companies signing up for a [subscription](/subscription/) in the last quarter.

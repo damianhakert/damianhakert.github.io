@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Over half of the beta signups have access
 tags: []
 status: publish

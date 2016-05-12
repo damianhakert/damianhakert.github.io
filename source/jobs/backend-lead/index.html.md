@@ -1,19 +1,15 @@
 ---
 layout: markdown_page
-title: "Development Lead"
+title: "Backend Lead"
 ---
-
-The Development Lead reports to the CEO, and developers report to them.
-
-_Note: Frontend engineers and UX designers report to the CTO._
 
 ## Responsibilities
 
 * Interviews applicants for development positions
-* Continues to spend part of their time coding
+* Continues to spend part of time coding
 * Indicates to the VP of Product when a release is full, leaving room for bugfixes and other urgent tasks that will still arise
-* Ensures that the technical decisions and process set by the CTO are followed
-* Ensures that there is a written development onboarding and process that is effective and followed
+* Ensures that the technical decisions and process set by the VP of Engineering and CTO are followed
+* Ensures that there is a written onboarding and process that is effective and followed
 * Does the release kickoff
 * Does the release retrospective
 * Does 1:1's with all reports every 2-5 weeks (depending on the experience of the report)
@@ -22,4 +18,4 @@ _Note: Frontend engineers and UX designers report to the CTO._
 * Ensures all tentpole features, promised and bugs are assigned early in the release
 * Ensures that all issues that can't be shipped are moved quickly
 * Reviews a significant amount of the merge requests made by developers
-* Delivers input on promotions, function changes, demotions and firings in consultation with the CEO and CTO
+* Delivers input on promotions, function changes, demotions and firings in consultation with the CEO, CTO, and VP of Engineering

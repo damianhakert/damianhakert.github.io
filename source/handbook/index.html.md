@@ -16,7 +16,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Hiring](/handbook/hiring)
 * [Travel](/handbook/travel)
 * [Sales process](/handbook/sales-process)
-* [Operations](/handbook/operations)
+* [Infrastructure](/handbook/infrastructure)
 * [Accounting](/handbook/accounting)
 * [Stock Options](/handbook/stock-options)
 * [Marketing](/handbook/marketing)
@@ -24,11 +24,13 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Support](/handbook/support)
 * [Leadership](/handbook/leadership)
 * [GitLab University](https://university.gitlab.com/)
+* [Social Media Guidelines](/handbook/social-media-guidelines)
 
 ## This page
 
 * [Values](#values)
 * [General Guidelines](#general-guidelines)
+* [Handbook Usage](#handbook-usage)
 * [Communication](#communication)
    * [Internal Communication](#internal-communication)
    * [GitLab Workflow](#gitlab-workflow)
@@ -49,7 +51,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Referral Bonuses](#referral-bonuses)
    * [Work Remotely Travel Grant](#travel-grant)
 * [Signing Legal Documents](#signing-legal-documents)
-* [Tools](#tools)
+* [Tools and Tips](#tools)
 * [Using Git to update this website](#starting-with-git)
 
 ## Values<a name="values"></a>
@@ -117,17 +119,13 @@ people. We try to hire people who think work is a great way to express themselve
 1. We recognize that inspiration is perishable, so if you’re **enthusiastic** about something that generates great results in relatively little time feel free to work on that.
 1. Do what is right for our **customers** and the rest of the GitLab community, do what is best over the long term, don't be evil.
 1. We create **simple** software to accomplish complex collaborative tasks.
+1. We **use** our own software to accomplish complex collaborative tasks.
 1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin colour, gender or sexual orientation.
 1. Use **inclusive** language. For example, prefer 'Hi everybody' or 'Hi people' to 'Hi guys'.
 1. Share problems you run into, ask for help, be forthcoming with information and **speak up**.
 1. Work out in the **open**, try to use public issue trackers and repositories when possible.
 1. Most things are **public** unless there is a reason not to, not public by default are: financial information, job applications/compensation/feedback and partnerships with other companies.
 1. Share solutions you find and answers you receive with the **whole community**.
-1. If you need to discuss with a team member for help please realize that probably the majority of the community also doesn't know, be sure to **document** the answer to radiate this information to the whole community. After the question is answered discuss where it should be documented and who will do it. You can remind other people of this by asking 'who will document this'?
-1. To change a guideline or process, **suggest an edit** in the form of a merge request.
-After it is merged you can talk about it during the team call if applicable.
-Communicate process changes by linking to the commit. Do not change the process first,
-and then view the documentation as a lower priority task as this inevitably leads to duplicate work communicating the change and outdated documents.
 1. If you make a mistake, don't worry, correct it and **proactively** let the affected party, your team, and the CEO know what happened, how you corrected it and how, if needed, you changed the process to prevent future mistakes.
 1. You can always **refuse** to deal with people that treat you badly and get out of situations that make you feel uncomfortable.
 1. Everyone can **remind** anyone in the company about these guidelines. If there is a disagreement about the interpretations, the discussion can be escalated to more people within the company without repercussions.
@@ -135,6 +133,9 @@ and then view the documentation as a lower priority task as this inevitably lead
 1. We want to have a great company so if you meet people that are **better** than yourself try to recruit them to join the company.
 1. Make a conscious effort to **recognize** the constraints of others within the team. For example, sales is hard because you are dependent on another organization, and Development is hard because you have to preserve the ability to quickly improve the product in the future.
 1. Our **strategy** is detailed on the [Strategy page](https://about.gitlab.com/strategy/), please read it and contribute.
+1. For each action or comment, it helps to ask yourself (i) does this
+help the company achieve its strategic goals? (ii) is this in the company's interest,
+and finally, (iii) how can I contribute to this effort/issue in a constructive way?
 1. There is no need for **consensus**, make sure that you give people that might have good insights a chance to respond (by /cc'ing them) but make a call yourself because [consensus doesn't scale](https://twitter.com/sama/status/585950222703992833).
 1. Everyone at the company cares about your **output**. Being away from the keyboard during the workday, doing private browsing or making personal phone calls is fine and encouraged.
 1. If you fix something for GitLab.com or one of our users make sure to make that the default (preferred) and **radiate** the information in the docs. We should run GitLab.com with the default settings and setup our users would also have.
@@ -146,6 +147,31 @@ indicate when you plan to do it. In the latter case always send a second message
 when the request is complete.
 1. Respect the privacy of our users and your fellow team members. Secure our production data at all times. Only work with production data when this is needed to perform your job. Looking into production data for malicious reasons (for example [LOVEINT](https://en.wikipedia.org/wiki/LOVEINT) or spying on direct messages of team members) is a fireable offense.
 1. Most guidelines in this handbook are meant to help and unless they state otherwise it is meant to help more than a absolute rule. Don't be afraid to do something because you can't oversee all guidelines. Be gentle when reminding people about these guidelines, for example say: "It is not a problem, but next time please consider the following guideline from the handbook".
+
+## Handbook Usage<a name="handbook-usage"></a>
+
+At GitLab our handbook is extensive and keeping it relevant is an important part of everyone's job. The reasons for having a handbook are:
+
+1. Reading is much faster than listening.
+1. Reading is async, you don't have to interrupt someone or wait for them to become available.
+1. Recruiting is easier if people can see what we stand for an how we operate.
+1. Retention is better if people knew what they where getting into before they joined.
+1. Onboarding is easier if you can find all relevant information spelled out.
+1. Teamwork is easier if you can read how other parts of the company work.
+1. Proposing and discussing changes is easier if you can read what the current process is.
+1. Communicating change is easier if you can just point to a diff.
+
+Documenting things in the handbook takes more time initially and it requires thinking. But it saves time over a longer period and it is essential to scale and adapt our organization. It is not unlike writing tests for your software. Please follow these guidelines and remind others of them.
+
+1. If you need to discuss with a team member for help please realize that probably the majority of the community also doesn't know, be sure to **document** the answer to radiate this information to the whole community. After the question is answered discuss where it should be documented and who will do it. You can remind other people of this by asking 'who will document this'?
+1. When you discuss something is chat always try to link to a URL where relevant, for example the documentation you have a questions about or the page that answered your question. You can remind other people of this by asking 'can you please link'?
+1. To change a guideline or process, **suggest an edit** in the form of a merge request.
+After it is merged you can talk about it during the team call if applicable. You can remind other people of this by asking 'can you please send an MR for the handbook'?
+1. Communicate process changes by linking to the **diff** (a commit that shows the changes before and after). Do not change the process first,
+and then view the documentation as a lower priority task. Planning to do the documentation later inevitably leads to duplicate work communicating the change and to outdated documentation. You can remind other people of this by asking 'can you please update the handbook first?'.
+1. When communicating something always include a **link** to the relevant (and up to date) part of the handbook instead of including the text in the email/chat/etc. You can remind other people of this by asking 'can you please link to the relevant part of the handbook?'.
+
+Many things can be documented in the handbook, but this will mostly be read by team members. If something can concern users of GitLab it should be documented in the [GitLab documentation](http://doc.gitlab.com/), the [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit), our [CONTRIBUTING file](https://gitlab.com/gitlab-org/gitlab-test/blob/master/CONTRIBUTING.md) or the [PROCESS file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
 
 ## Communication<a name="communication"></a>
 
@@ -207,7 +233,7 @@ outside the organization.
 1. Use video calls if you find yourself going back and forth in an issue/via email
 or over chat.
 1. Having pets, children, significant others, friends and family visible during
-video chats is encouraged. If they are humans, ask them to wave at your remote
+video chats is encouraged. If they are human, ask them to wave at your remote
 team member to say 'Hi'.
 1. Email forwarding rules are specified in the shared "GitLab Email Forwarding" Google doc accessible to people in the company, if you want to change a rule or add a forwarding email alias, please [make a suggestion](https://support.google.com/docs/answer/6033474?hl=en) in the document.
 1. Emails are asynchronous, for example if your manager emails you on a weekend
@@ -243,7 +269,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
     1. Issues not assigned to a milestone
 1. Within the same milestone the priority<a name="priority"></a> starting from urgent is:
     1. **Emergency** issues (a service engineer will probably contact you via chat)
-    1. [**Security**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=security) issues
+    1. [**Security**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=security) issues (MRs for confidential security issues should be created on [dev.gitlab.org](https://dev.gitlab.org/gitlab/gitlabhq))
     1. [**Data integrity**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=data+integrity) issues (preventing data loss)
     1. [**Regression**](https://gitlab.com/groups/gitlab-org/issues?label_name=regression) issues (used to work in a previous release)
     1. [**Promised**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=promised) issues (promised to a customer)
@@ -252,7 +278,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
     1. [**Bug**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=bug) issues (things)
     1. [Issues](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming) without a label listed above.
 1. Use the public issue trackers on GitLab.com for anything related to our software since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
-1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [operations](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues.
+1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [infrastructure](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues.
 1. Pick issues from the current [milestone](https://gitlab.com/groups/gitlab-org/milestones).
 1. We try not to assign issues to people but to have people **pick issues** in a milestone themselves.
 1. Assign an issue to yourself as soon as you start to work on it, but not before
@@ -278,8 +304,8 @@ step, **re-assign** the issue to that person.
 ### Team Call<a name="team-call"></a>
 
 1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
-1. We use BlueJeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
-1. If you have previously logged on to Bluejeans with different credentials, make sure to log out before joining the call as yourself.
+1. We use Blue Jeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
+1. If you have previously logged on to Blue Jeans with different credentials, make sure to log out before joining the call as yourself.
 1. We start on time and will not wait for people.
 1. Person who has first item on the agenda starts the call.
 1. If you are unable to attend just add your name to the [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) as 'Not attending'.
@@ -310,13 +336,13 @@ doesn't unnecessarily appear on other people's calendars.
 
 ### Video calls<a name="video-calls"></a>
 
-1. For smaller meetings we use Google Hangouts, for larger meetings we prefer Bluejeans (Google Hangouts technical limit is 15 for scheduled meetings).
+1. For smaller meetings we use Google Hangouts, for larger meetings we prefer Blue Jeans (Google Hangouts technical limit is 15 for scheduled meetings).
 1. For meetings that are scheduled via calendar there is automatically a Google Hangout URL added, this is the meeting place. Having a url in advance is much more reliable than trying to call via hangouts as the meeting start.
 1. Use a headset with a microphone, [Apple Earpods](http://www.apple.com/shop/product/MD827LL/A/apple-earpods-with-remote-and-mic) are great. Do not use computer speakers, they cause an echo. Do not use your computer microphone, it accentuates background noise. If you want to use your [Bose headphones](https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-25-acoustic-noise-cancelling-headphones-apple-devices.html#v=qc25_black) that is fine but please ensure the microphone is active.
 1. Consider using a utility to easily mute/unmute yourself, see [Shush](#shush) in the tools section.
 1. In video calls everyone should own camera and headset, even when they are in the same room. This helps to see the person that is talking clearly on the camera and their name in the list. It also allows people to easily talk and mute themselves. And using a headset prevents an echoing. You wouldn't share an office seat together, don't share your virtual seat at the table.
 
-### User Communication Guidelines<a name="user-communication"></a>
+### User Communication Guidelines<a name="user-communication-guidelines"></a>
 
 1. Keep conversations positive, friendly, real and productive while adding value.
 1. If you make a mistake, admit it. Be upfront and be quick with your correction. If you're posting to a blog, you may choose to modify an earlier post, just make it clear that you have done so.
@@ -473,8 +499,12 @@ to providing top notch customer support and everything in between, we reward all
 team members for every month that we reach our Sales Targets. The reward is [100 USD](https://www.google.com/search?q=100+usd+in+eur)
 to each team member, towards a dinner of each team member's own choice. Enjoy!
 
-The CEO, or CRO will announce on the team call if the target was met. To claim the bonus,
-please submit your receipt through Expensify or include on your contractor invoice as a reimbursable expense.
+- The CEO, or CRO will announce on the team call if the target was met.
+- To claim the bonus, please submit your receipt through Expensify or include on your contractor invoice as a reimbursable expense.
+- You should spend the bonus on eating out, and can be reimbursed _up to_ the maximum of 100 USD.
+- Use the bonus in the month following the announcement. So for example, if we reach our target in March, use your bonus in April.
+- If you cannot, or decide not to, use the bonus in the expected month, you can carry it over to the next month by notifying Accounts Payable before the 22nd of the month (release day!). You can only carry over one month in this way.
+
 
 ### Discretionary Bonuses<a name="discretionary-bonuses"></a>
 
@@ -528,10 +558,11 @@ The document will be managed through HelloSign, a cloud-based electronic
 signature tool. Only C-level executives can sign legal documents, with the
 exception of NDAs covering a physical visit of another organization.
 
-## Tools<a name="tools"></a>
+## Tools and Tips<a name="tools"></a>
 
-A lot of tools we use are described in the rest of the handbook (GitLab, Google Docs, Google Hangouts, 1Password, etc.).
-This section is for tools that don't fit anywhere else.
+A lot of tools we use are described in the rest of the handbook (GitLab, Google
+Docs, Google Hangouts, 1Password, etc.). This section is for tools that don't
+fit anywhere else.
 
 ### Calendly<a name="calendly"></a>
 
@@ -548,20 +579,29 @@ This section is for tools that don't fit anywhere else.
 ### Shush<a name="shush"></a>
 
 [$4.99 tool for OSX](http://mizage.com/shush/) that allows you to use you fn key as a push to talk or push to mute.
-Never again will you have switch window focus to Google Hangout or Bluejeans to speak or mute.
+Never again will you have switch window focus to Google Hangout or Blue Jeans to speak or mute.
 The icon will show the current state of your mic input (x means muted).
 With a right click you can switch from push to talk to push to mute.
-Don't forget to unblock your mike in Bluejeans/Google hangouts immediately after joining.
+Don't forget to unblock your mic in Blue Jeans/Google Hangouts immediately after joining.
 Be warned that page up with fn+down arrow will activate it.
 Use space for page down instead of fn+up arrow.
+
+### Disabling OS X Notification Center
+
+During a presentation or screen share, you might want to disable your
+notifications on OS X to prevent distractions or possible embarrassment.
+
+The Notification Center can be quickly disabled by Option-Clicking the menu bar
+icon in the top right of your screen. This disables notifications until the next
+day. Option-Click again to re-enable immediately.
 
 ### Google Calendar Guest Modify Event Default
 
 [This Chrome extension](https://chrome.google.com/webstore/detail/google-calendar-guests-mo/hjhicmeghjagaicbkmhmbbnibhbkcfdb?hl=en) will allow guests to modify calendar appointments by default.
 
-### Bluejeans
+### Blue Jeans
 
-Please add instructions how to set up a Bluejeans meeting, how to record it and how to add the resulting video to our YouTube channel.
+Please add instructions how to set up a Blue Jeans meeting, how to record it and how to add the resulting video to our YouTube channel.
 
 ### Gmail
 
@@ -582,6 +622,13 @@ or merge request.
 
 If your username on dev.gitlab.org is different from your username on
 GitLab.com, you might want to create a similar filter for that username as well.
+
+#### Advance
+
+If you use the archive function you normally return to your overview.
+With auto-advance you can return to the next message.
+Enable 'Auto-advance' in the labs section under settings.
+The default setting of showing the next older message is OK.
 
 ### Hangouts on air
 

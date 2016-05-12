@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Our Y Combinator experience"
 date: 2016-01-06
 author: GitLab

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab AMI"
 date: 2015-03-11
 author: Job van der Voort

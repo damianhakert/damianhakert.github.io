@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Feature Highlight: Subscribe to Label"
 date: 2016-04-13
 author: Job van der Voort

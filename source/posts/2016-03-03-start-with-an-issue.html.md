@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Always start with an issue"
 date: 2016-03-03 10:00
 categories: workflow

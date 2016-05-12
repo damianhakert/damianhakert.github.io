@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: Network Graph Keyboard navigation
 wordpress_id: 401
 wordpress_url: http://blog.gitlabhq.com/?p=401

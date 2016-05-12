@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Open Source Stewardship"
 date: 2016-01-11
 author: Sytse Sijbrandij

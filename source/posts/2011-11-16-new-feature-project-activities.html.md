@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: "New feature: Project Activities"
 wordpress_id: 48
 wordpress_url: http://blog.gitlabhq.com/?p=48

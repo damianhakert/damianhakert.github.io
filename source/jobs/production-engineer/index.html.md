@@ -27,6 +27,6 @@ to GitLab.com availability incidents and customer incidents.
 
 ## Workflow
 
-You work on issues in the [operations repository](https://gitlab.com/gitlab-com/operations/issues).
+You work on issues in the [infrastructure repository](https://gitlab.com/gitlab-com/infrastructure/issues).
 
 The priority of the issues can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/#prioritize).

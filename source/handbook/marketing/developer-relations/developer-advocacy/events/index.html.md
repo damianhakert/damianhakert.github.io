@@ -9,9 +9,9 @@ Events are an important part of developer relations efforts. You can expect to t
 
 TBD.
 
-## Pre-Event
+## Before the Event
 
-Before the event, be sure to use social channels to let people know you'll be there. If you're giving a talk, make sure to include that too. Add events to your calendar and make sure to let everyone else on the developer relations team know so they can plan accordingly.
+Be sure to use social channels to let people know you'll be there. If you're giving a talk, make sure to include that too. Add events to your calendar and make sure to let everyone else on the developer relations team know so they can plan accordingly.
 
 ## Travel
 
@@ -29,20 +29,9 @@ Before the event, be sure to use social channels to let people know you'll be th
 - Get a good night's sleep the night before any presentations you give.
 - If you're giving a talk, use the official hashtag to share location/time as well as your slides once you're done.
 
-## Event Debrief
+## After the Event
 
-After an event, put a debrief together to help us determine whether we're hitting our goals. A short summary should answer:
+- Follow up with contacts you met/anyone who handed you a business card. Even if it's just to say "Thanks for stopping by!"
+- Fill out an event [debrief](event-debrief.html)
+- Relax!
 
-- Overall feedback about the event. Was the location okay? Was it hard to get to? Was it well organized?
-- Overview of who was there (Developers? C-levels? Non-technical people?)
-- Were there any competitors there? What was their presence like?
-- Who did you speak to that we need to follow up with? Did you meet any customer/hiring prospects?
-- What went well?
-- What didn't go so well?
-- What can we improve?
-
-If you gave a talk, be sure to include a [debrief](#) about that as well.
-
-Make sure to follow up with anyone you spoke to at the event, even if it's just to say "Thanks for chatting!"
-
-Event organizers also love to hear feedback about their events. Make sure to thank them and tell them what they did well. If things didn't go according to plan, make sure they know that too so they can incorporate your feedback next time.

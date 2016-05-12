@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Setting up GitLab Runner For Continuous Integration"
 date: 2016-03-01
 categories:
