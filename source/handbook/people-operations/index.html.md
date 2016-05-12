@@ -17,7 +17,9 @@ title: "People Operations"
 - [Using TriNet](#using-trinet)
    - [Add new hires to TriNet](#trinet-process)
    - [Making changes in TriNet](#changes-trinet)
-- [Returning property to GitLab](#returning-property)
+- [Offboarding team members](#offboarding)
+   - [Returning property to GitLab](#returning-property)
+   - [FedEx info for the team member](#fedex-info)
 - [Using RingCentral](#ringcentral)
 - [Paperwork people may need to obtain mortgage in the Netherlands](#dutch-mortgage)
 
@@ -279,14 +281,33 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Change location and fill in necessary information.
 1. Select Update.
 
+## Offboarding team members <a name="offboarding"></a>
+Sometimes we don't add people to our team but are saying goodbye too. Below is some People Ops info of arrangements that need to be made.
 
-## Returning property to GitLab<a name="returning-property"></a>
+### Returning property to GitLab<a name="returning-property"></a>
 
 As part of [offboarding](https://about.gitlab.com/handbook/offboarding/), any
 GitLab property needs to be returned to GitLab. GitLab
-will pay for the shipping either by PeopleOps sending a FedEx shipping slip or it can be returned
+will pay for the shipping either by People Ops sending a FedEx shipping slip or it can be returned
 by another mutually agreed method. If property is not returned, GitLab reserves the
 right to use a creditor company to help retrieve the property.
+
+### FedEx info for the team member <a name="fedex-info"></a>
+Pull up the departing contributors home address. Find a Fedex location close to them. Then follow the template below.
+
+Hi [Name of team member]
+
+The closest Fedex to you is located on [full street address, city, state, zip code]. Driving or walking directions can be found here: [enter link from “mapping home location to the Fedex location”]
+
+Once there you can use Fedex boxes that you need and do the following actions:
+
+1. Package the equipment in the box
+2. Send package to GitLab HQ in San Francisco
+3. Mark on the invoice "Bill Recipient"
+4. Our Fedex number is: [find the number in Secretarial Vault in 1Password]
+5. Provide People Ops the tracking number via email
+
+Please let People Ops know if you have any questions.
 
 ## Using RingCentral<a name="ringcentral"></a>
 
