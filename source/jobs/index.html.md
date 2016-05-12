@@ -44,6 +44,12 @@ If you email us we'll reply with [a link to this paragraph](/jobs/#no-recruiters
 - [Description](/jobs/account-manager/)
 - [Apply](https://gitlab.workable.com/jobs/242362/candidates/new)
 
+### Content Marketing Manager
+
+- [Description](/jobs/content-marketing-manager/)
+- [Apply](https://gitlab.workable.com/jobs/252104/candidates/new)
+
+
 ### Front-End Engineer
 
 - [Description](/jobs/frontend-engineer/)
