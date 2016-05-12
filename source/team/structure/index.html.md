@@ -42,15 +42,15 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - Customer Success - Customer Success Manager (lead, future vacancy)
       - [Account Manager](/jobs/account-manager/)
       - [Solutions Engineer](/jobs/solutions-engineer/)
+  - [People Operations](/handbook/people-operations/) - [People Operations Director](/jobs/people-ops-director/) (lead, vacancy)
+    - [People Operations Coordinator](/jobs/people-ops-coordinator/)
+    - [Administrative Coordinator](/jobs/adminstrative-coordinator/)
   - Finance - [CFO](/jobs/chief-financial-officer/)
     - [Accounting](/handbook/accounting/) - [Controller](/jobs/controller/)
-    - [People Operations](/handbook/people-operations/) - [People Operations Director](/jobs/people-ops-director/) (lead, vacancy)
-      - [People Operations Coordinator](/jobs/people-ops-coordinator/)
-      - [Administrative Coordinator](/jobs/adminstrative-coordinator/)
   - [Technical Direction](/direction/) - [CTO](/jobs/chief-technology-officer/)
   - Engineering - [VP of Engineering](/jobs/vp-of-engineering/)
     - Backend - [Backend Lead](/jobs/backend-lead/)
-      - [Developers](/jobs/developer/) that are Rails specialists
+      - [Developers](/jobs/developer/) that are backend specialists
     - Frontend - [Frontend Lead](/jobs/frontend-lead/)
       - [Frontend Engineers](/jobs/frontend-engineer/)
     - [Infrastructure](/handbook/infrastructure/) - Infrastructure lead
