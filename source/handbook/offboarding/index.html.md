@@ -7,7 +7,7 @@ Create issue for former team member on the dev server in the [organization issue
 
 ```
 * [ ] For this offboarding, the manager is @MENTION, People Ops is handled by @MENTION. cc @rspeicher, @jacobvosmaer, @patricio, @ernst.
-* [ ] Robert/Jacob/Ernst: Disable team member in Slack.
+* [ ] Robert/Jacob/Ernst: Disable team member in RocketChat.
 * [ ] Robert/Jacob/Ernst: Dealing with the Google account
    * [ ] Robert/Jacob/Ernst: Check with the former team member's manager if they
    want email forwarded. If yes, then:
@@ -25,7 +25,8 @@ Create issue for former team member on the dev server in the [organization issue
 * [ ] Manager: Remove access to SalesForce.
 * [ ] Manager: Remove access to Recurly.
 * [ ] Manager: Remove access to Netsuite.
-* [ ] People Ops: Remove former team member from TriNet and payroll if applicable.
+* [ ] People Ops: Remove former team member from TriNet/Savvy and payroll if applicable.
+* [ ] People Ops: Remove former team member from BambooHR by termination their profile use the date mentioned int his offboarding issue as final date of employment. (Use voluntary when they left GitLab and unvoluntary when they have been fired.)
 * [ ] People Ops: Reach out to former team member to identify and retrieve any company
 supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/people-operations/#returning-property)
 for further details on that process.
@@ -41,8 +42,9 @@ for further details on that process.
 * [ ] Ernst/Paul: Remove team member from HelloSign, if applicable.
 * [ ] People Ops: Remove team member from map / Sundial.
 * [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team). Don't forget to remove the profile picture.
-* [ ] Patricio/Jacob: Remove from tweetdeck
+* [ ] People Ops: Remove team member from Egencia
+* [ ] People Ops: Remove team member from Summit planning documents or inform the organiser.
 * [ ] People Ops: Notify eShares administrator (CFO) of offboarding.
-* [ ] People Ops: Note final date of employment / contract in BambooHR.
+* [ ] Patricio/Jacob: Remove from tweetdeck
 * [ ] Infrastructure: If the person is from infrastructure [remove the sysadmin](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/user-administration.md#remove-a-sysadmin)
 ```
