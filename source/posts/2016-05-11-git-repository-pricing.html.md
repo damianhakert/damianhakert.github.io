@@ -50,7 +50,7 @@ Price for Git repository hosting per month in popular cloud solutions
 | 10 collaborators | depended on repos | $90 | $10 | $0
 | 11 collaborators | depended on repos | $99 |$25	| $0
 | 100 collaborators | depended on repos | $900 |$100	| $0
-| Unlimited	collaborators | | N/A	| N/A | $0
+| Unlimited	collaborators | | N/A	| $200 | $0
 
 ## Unlimited is great
 
