@@ -104,7 +104,7 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 2. Partner with Rocket Chat, ship it with GitLab and integrate it.
 
-3. Open up everything we can, including an [open Chef repo](https://dev.gitlab.org/cookbooks/chef-repo/issues/247), and open Asana.
+3. Open up everything we can, including an [open Chef repo](https://dev.gitlab.org/cookbooks/chef-repo/issues/247), and [marketing issue tracker](https://gitlab.com/gitlab-com/marketing/issues).
 
 4. Publish our processes and plans in the handbook or link from there.
 
