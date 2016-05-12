@@ -18,6 +18,9 @@ title: "People Operations"
    - [Add new hires to TriNet](#trinet-process)
    - [Making changes in TriNet](#changes-trinet)
 - [Returning property to GitLab](#returning-property)
+- [Termination guidelines](#termination-guidelines)
+- [Termination script](#termination-script)
+- [Termination memo](#termination-memo)
 - [Using RingCentral](#ringcentral)
 - [Paperwork people may need to obtain mortgage in the Netherlands](#dutch-mortgage)
 
@@ -287,6 +290,85 @@ GitLab property needs to be returned to GitLab. GitLab
 will pay for the shipping either by PeopleOps sending a FedEx shipping slip or it can be returned
 by another mutually agreed method. If property is not returned, GitLab reserves the
 right to use a creditor company to help retrieve the property.
+
+## Termination guidelines <a name="termination-guidelines"></a>
+Offboarding a team member is never easy, because of this we've created some guidlines and information to make this process as painless and easy as possible. 
+
+### Termination memo - script <a name="termination-script"></a>
+Below is a script that we use when offboarding a team member.
+
+_The last four of the social is the status change per the EDD (you do not have to inform contributor of this info)_
+ 
+**Final Pay**"your final check is for the pay period of X and includes X days of pay”.
+**COBRA**“your benefits will cease on last day of the month you are eligible for Cobra, the carrier as been notified and the carrier will send out the paperwork to your home address on file”.
+**PPACA**"You may also be eligible under PPACA for subsidized  healthcare options via the market place. If you are interested it is important that you sign up with the market place well before the 15th of the month to have coverage for the following month”.
+**HIPAA**"if you need a certificate of credible coverage please download it from your current carries online portal or request it from TriNet”.
+**UI**"it is up to the EDD to decide if you are eligible for unemployment insurance” (EDD, labor of Workforce Management various states have different agency names). 
+**Company Property**“please return all property which is explained in the [handbook](https://about.gitlab.com/handbook/people-operations/#returning-property), also please delete GitLab’s email connection from your phone”.
+**Business Expenses**“please load your final expense to Expensify so these can be reimbursed to you in a timely manner”.
+**Confidentiality and Non-Disclosure**“we know you are a professional, please keep in mind the agreement you signed when you were hired”.
+**Please remember**"keep TriNet informed if you move I want to be sure your W2 gets to you at the end of the year. You may also contact X-Person at GitLab (phone number and email address) with any other questions as you may have" (I personally tell them they may contact me at anytime for any reason) 
+
+### Termination memo <a name="termination-memo"></a>
+
+
+TO:(Enter Full Name)
+(Enter SSN, formatted as 5 times * and last 4 of SS number, this is required in CA for a change in Status)
+FROM:People Ops
+SUBJECT:Separation of Employment
+DATE:Date of Exit 
+
+The following outlines your separation of employment with GitLab, Inc. the “Company”.
+
+**Effective Date and Final Pay**
+[You have resigned] **OR** [You are being discharged/laid off] from the Company effective [day, month date, year].  Your final paycheck includes pay through [date]. No other payments are due to you.
+
+**Medical, Dental & Vision Insurance** _(If Employee is covered by any GitLab insurance)_
+Your health insurance coverage terminates at midnight on the last day of the month [Date] in which your employment is separated.
+**COBRA** _(If Employee is covered by any GitLab insurance see line above)_
+The Consolidated Omnibus Budget Reconciliation Act (“COBRA”) requires employers to notify all insured members in their benefit plans, who are otherwise losing coverage, of the legal right to continue their group coverage(s) under certain circumstances. You will have sixty days to decide if you would like to continue your health benefits through COBRA.
+
+You have the option to keep any of the group health insurance coverage you presently hold through the Company for up to 18 months after your termination date. Your health insurance benefits will not be reduced in any way because of a continuation under COBRA.
+Information regarding the COBRA continuation of medical, dental, and vision coverage will be mailed to you from the health insurance carrier.
+
+**PPACA** _(People Ops must change the State URL for all states with exchange)_
+The Patient Protection and Affordable Care Act (“PPACA”) provides individuals with wide range of affordable health plan options.  So before you decide to enroll in COBRA you should take a look at the health insurance marketplaces, or your state’s exchange. You may qualify for a subsidy which will reduce your costs.  In California visit www.coveredca.com or the Federal Government’s site at www.healthcare.gov 
+
+**HIPAA** _(Again if Employee is covered by GitLab insurance)_
+Under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), you have the right to receive a certificate of prior health coverage.  If you were covered under our health insurance plan you will receive a Certificate of Credible Coverage from the designated carrier. Please keep the Certificate on file as some employers may ask for it when enrolling for future coverage.
+
+**Unemployment Insurance** _(People Ops you must change this for every state)_
+You may be eligible to collect Unemployment Insurance.  The Employment Development Department (EDD) will determine whether or not you are eligible to collect. For more information regarding your rights to Unemployment Insurance go to http://www.edd.ca.gov  To file an Unemployment Claim you may call the EDD office toll free at 800-300-5616 or apply on-line at https://eapply4ui.edd.ca.gov/
+
+**Stock Options**
+_Please access eShares for Incentive Stock Option updates or use forfeited if employee worked for GitLab less than one month._
+
+**401k Retirement Plan** _(Only if Employee has been employed over one month)_
+Please continue to maintain your 401k through www.ta-retirement.com.
+
+**Company Property** _(Coordinate this return of property during exit meeting)_
+Please return all company property you have in your possession.  Company property includes keys, , all electronic communications; including all software and hardware, electronic organizers, laptop computers, cell phones, as well as proprietary materials such as files, flash drives, CD’s, reports, notes, spreadsheets, etc.
+
+**Business Expenses** _(People Ops ensure Employee has access to Expensify)_
+If you have any outstanding expenses, we would like your final expense report as soon as possible, but no later than one week from today.
+
+**Confidentiality and Non-Disclosure**
+Please remember your legal obligations as set forth in GitLab’s Confidential and Proprietary Information Agreement executed by you at the time of your original employment.
+
+**HR and Other Questions**
+Please notify TriNet of any changes in address and phone number to ensure prompt delivery of any documents, including your W-2 at year end. Should you have any additional questions you may contact GitLab’s People Ops Representative, at Phone Number and email@gitlab.com
+
+Acknowledgement
+Your signature below is required as a means of acknowledging that all of the above information has been reviewed with you and that you have been given a copy of this memo.
+
+
+Employee Signature:
+
+Date:
+
+Company Signature:
+
+Date:
 
 ## Using RingCentral<a name="ringcentral"></a>
 
