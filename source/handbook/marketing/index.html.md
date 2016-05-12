@@ -5,8 +5,9 @@ title: "Marketing"
 ## Marketing Handbook Index
 * [Marketing Mission](#mission)
 * [Functional Groups](#groups)
-* [Meetings and Structure](#meetings)
 * [Marketing OKRs](#okrs)
+* [Meetings and Structure](#meetings)
+* [Marketing team SLAs](#sla)
 * [Resources](#resources)
 
 # GitLab Marketing Mission: GitLab for All!<a name="mission"></a>
@@ -190,6 +191,17 @@ The meeting should run as follows:
 - Head of Design reviews upcoming goals and plans for product marketing. Floor opens for discussion and brainstorming.  
 - Team agrees on what key takeaways are from the last quarter.  
 - Team agrees on what our Team OKRs should be for the upcoming quarter.  
+
+# Marketing team SLAs (Service Level Agreements)<a name="sla"></a>
+
+When working remotely in such a quick moving organization, it is important for a team to agree on a few basic service level agreements on how we would like to work together. With anything, things can come up that make it not possible to meet these SLAs but we all agree to use best effort when possible.    
+
+- Respond to your emails by end of next business day.
+- Respond when you are cc'd with an action item on issues by end of next business day.  
+- Be on time to meetings. We start at on time.  
+- Acknowledge receipt of emails (community@, FYIs) by BCC'ing the list.
+- Try not to email co-workers on weekends. Try out [Boomerang](http://www.boomeranggmail.com/) and set all your emails to send Monday morning at 6 AM. People will think you're up and working early! Time off is important. We all have stressful weeks so please unplug on the weekends where possible.
+- Do not ping someone in a public channel on RocketChat on the weekends. This is rude.
 
 # Marketing resources<a name="resources"></a>
 
