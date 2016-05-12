@@ -167,8 +167,8 @@ Documenting things in the handbook takes more time initially and it requires thi
 1. When you discuss something is chat always try to link to a URL where relevant, for example the documentation you have a questions about or the page that answered your question. You can remind other people of this by asking 'can you please link'?
 1. To change a guideline or process, **suggest an edit** in the form of a merge request.
 After it is merged you can talk about it during the team call if applicable. You can remind other people of this by asking 'can you please send an MR for the handbook'?
-1. Communicate process changes by linking to the commit. Do not change the process first,
-and then view the documentation as a lower priority task as this inevitably leads to duplicate work communicating the change and outdated documents. You can remind other people of this by asking 'can you please update the handbook first?'.
+1. Communicate process changes by linking to the **diff** (a commit that shows the changes before and after). Do not change the process first,
+and then view the documentation as a lower priority task. Planning to do the documentation later inevitably leads to duplicate work communicating the change and to outdated documentation. You can remind other people of this by asking 'can you please update the handbook first?'.
 1. When communicating something always include a **link** to the relevant (and up to date) part of the handbook instead of including the text in the email/chat/etc. You can remind other people of this by asking 'can you please link to the relevant part of the handbook?'.
 
 Many things can be documented in the handbook, but this will mostly be read by team members. If something can concern users of GitLab it should be documented in the [GitLab documentation](http://doc.gitlab.com/), the [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit), our [CONTRIBUTING file](https://gitlab.com/gitlab-org/gitlab-test/blob/master/CONTRIBUTING.md) or the [PROCESS file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
