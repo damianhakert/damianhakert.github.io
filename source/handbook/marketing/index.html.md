@@ -9,8 +9,6 @@ title: "Marketing"
 * [Marketing OKRs](#okrs)
 * [Resources](#resources)
 
-
-
 # GitLab Marketing Mission: GitLab for All!<a name="mission"></a>
 
 We think GitLab (.com, CE, and EE) can help developers, designers, IT workers, marketers, and everyone in between improve collaboration.  
@@ -60,7 +58,21 @@ Our Marketing team is split into four key functional groups. All four groups are
 
 # Marketing OKRs<a name="okrs"></a>
 
-Coming soon
+Our team and the demands on marketing are growing quickly. In order to align our goals with company goals as well as prioritize what we are working on, OKRs help us to maintain structure. Of course, not everything can be captured in one Google Sheet but this helps us all to know what we consider our goals as a team to be.  
+
+Each member of the marketing team is responsible for 3 Objectives and 3 Key Results for each objective.  
+
+To find the GitLab Marketing Team's OKRs, search the company Google Drive for "Marketing OKRs - Quarterly".
+
+- What is an OKR? Objectives and Key Results
+- Objectives are goals
+- Key Results are measurement
+- OKRS help to prioritize and align
+- OKRs are set quarterly
+- OKRs are NOT a measurement of performance.
+- Set goals that aren’t easy to hit.
+- Graded on a scale of 0.0 to 1.0. Normal is around .8
+- [Quick overview of OKRs](http://www.slideshare.net/HenrikJanVanderPol/how-to-outperform-anyone-else-introduction-to-okr)
 
 # Meetings and Structure<a name="meetings"></a>  
 
