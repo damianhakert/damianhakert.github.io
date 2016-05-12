@@ -86,6 +86,13 @@
           title: Repository (and issues) on GitHub
         - url: https://bitbucket.org/guyzmo/git-repo
           title: Repository on Bitbucket
+    - title: gitlab-cli
+      content: |
+        Copy global labels into a project or between projects on the same or
+        different GitLab instances, edit or delete labels using a regex.
+      links:
+        - url: https://github.com/clns/gitlab-cli
+          title: Repository on GitHub
 - title: API Clients
   id: api-clients
   applications:
