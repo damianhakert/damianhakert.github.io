@@ -154,7 +154,7 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 2. PR pitch: [opinionated and integrated set of tools based on CoC offers a superior UX](https://about.gitlab.com/direction/).
 
-3. Needs to win hearts and minds with excellent [developer marketing](https://about.gitlab.com/handbook/marketing/developer-marketing/).
+3. Needs to win hearts and minds with excellent [developer advocacy](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/).
 
 4. Show that we can test big projects (Rails, etc.) faster than Travis CI.
 
