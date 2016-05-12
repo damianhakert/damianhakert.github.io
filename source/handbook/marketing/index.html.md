@@ -2,8 +2,15 @@
 layout: markdown_page
 title: "Marketing"
 ---
+## Marketing Handbook Index
+* [Marketing Mission](#mission)
+* [Functional Groups](#groups)
+* [Meetings and Structure](#meetings)
+* [Resources](#resources)
 
-# GitLab Marketing Mission: GitLab for All!  
+
+
+# GitLab Marketing Mission: GitLab for All!<a name="mission"></a>
 
 We think GitLab (.com, CE, and EE) can help developers, designers, IT workers, marketers, and everyone in between improve collaboration.  
 
@@ -17,7 +24,7 @@ Here are some marketing resouces we think help to describe how we work:
 - coming soon
 - coming soon
 
-# Marketing Team Functional Groups
+# Marketing Team Functional Groups<a name="groups"></a>
 
 Our Marketing team is split into four key functional groups. All four groups are equally important for the success of GitLab.
 
@@ -43,14 +50,14 @@ Our Marketing team is split into four key functional groups. All four groups are
 - [Partner marketing](/handbook/marketing/product-marketing/#partnermarketing/)
   [Content marketing](/handbook/marketing/developer-relations/content-marketing/)
 
-# Marketing resources
+# Marketing resources<a name="resources"></a>
 
 - [GitLab Marketing Project](https://gitlab.com/gitlab-com/marketing)
 - [Public GitLab Marketing Issue Tracker](https://gitlab.com/gitlab-com/marketing/issues)
 - Google drive folder can be found by searching the company Google Drive for
   "GitLab Marketing"
 
-# Meetings and Structure  
+# Meetings and Structure<a name="meetings"></a>  
 
 These are just the required meetings for team members and managers. Of course, meetings are encouraged when it expedites a project or problem solving amongst member so the team and company. Don't be afraid to say "Hey, can we hangout?" if you need help with something.
 
