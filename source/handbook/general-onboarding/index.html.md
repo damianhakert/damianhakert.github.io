@@ -109,7 +109,7 @@ to the proper shared Vaults by making a suggestion in the relevant cell in the "
 * [ ] PeopleOps: Invite to autoconnect on [Beamy](https://about.gitlab.com/handbook#beamy-guidelines).
 * [ ] PeopleOps: Order business cards for new team member.
 * [ ] PeopleOps: Add team member to Expensify (if employee).
-* [ ] PeopleOps: Add new team member to the info sheets of the Austin Summit.
+* [ ] PeopleOps: Add new team member to the info sheets of the upcoming Summit.
 * [ ] PeopleOps: Send the new team member the "reset password" email for their BambooHR profile.
 * [ ] PeopleOps: Create a profile on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
 * [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team.

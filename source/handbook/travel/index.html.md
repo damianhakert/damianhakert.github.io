@@ -19,8 +19,7 @@ your trip. However, the extra days will not be covered by the company.
 
 ### Setting up your Egencia account<a name="setup-egencia"></a>
 
-Below is some more information to help you get set up with your [Egencia](https://www.egencia.com) account.  
-
+Below is some more information to help you get set up with your [Egencia](https://www.egencia.com) account. 
 1. You will receive an email from Egencia with your username.
 1. With the link, from step one in this email, you can set a new secure password.
 1. Once you are in your dashboard, setup your info in your profile (see link at top right corner of page).
