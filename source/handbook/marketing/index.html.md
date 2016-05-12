@@ -6,6 +6,7 @@ title: "Marketing"
 * [Marketing Mission](#mission)
 * [Functional Groups](#groups)
 * [Meetings and Structure](#meetings)
+* [Marketing OKRs](#okrs)
 * [Resources](#resources)
 
 
@@ -56,6 +57,10 @@ Our Marketing team is split into four key functional groups. All four groups are
 - [Public GitLab Marketing Issue Tracker](https://gitlab.com/gitlab-com/marketing/issues)
 - Google drive folder can be found by searching the company Google Drive for
   "GitLab Marketing"
+
+# Marketing OKRs<a name="okrs"></a>
+
+Coming soon
 
 # Meetings and Structure<a name="meetings"></a>  
 
