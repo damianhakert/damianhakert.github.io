@@ -39,7 +39,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - APAC Sales - [Director of Global Alliances and APAC Sales](/jobs/director-of-global-alliances-and-apac-sales/) (lead)
     - Customer Success - Customer Success Manager (lead, future vacancy)
       - [Account Manager](/jobs/account-manager/)
-      - [Solutions Engineer](/jobs/solutions-engineer/)
+      - [Success Engineer](/jobs/success-engineer/)
   - [People Operations](/handbook/people-operations/) - [People Operations Director](/jobs/people-ops-director/) (lead, vacancy)
     - [People Operations Coordinator](/jobs/people-ops-coordinator/)
     - [Administrative Coordinator](/jobs/adminstrative-coordinator/)
