@@ -158,8 +158,9 @@ At GitLab our handbook is extensive and keeping it relevant is an important part
 1. Retention is better if people know what they are getting into before they join.
 1. Onboarding is easier if you can find all relevant information spelled out.
 1. Teamwork is easier if you can read how other parts of the company work.
-1. Proposing and discussing changes is easier if you can read what the current process is.
+1. Discussing changes is easier if you can read what the current process is.
 1. Communicating change is easier if you can just point to a diff.
+1. Everyone can contribute to it by proposing a change via a merge request.
 
 Documenting things in the handbook takes more time initially and it requires thinking. But it saves time over a longer period and it is essential to scale and adapt our organization. It is not unlike writing tests for your software. Please follow these guidelines and remind others of them.
 
