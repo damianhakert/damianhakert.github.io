@@ -65,6 +65,7 @@ pre {
     color: $blog-text-color;
     line-height: 2.9rem;
     padding-bottom: 4px;
+    text-align: justify;
   }
 
   .image-title h1 a {
@@ -110,12 +111,28 @@ pre {
     font-size: 30px;
     color: $blog-text-color;
     font-weight: 200;
+    padding-top: 0.4em;
   }
 
   p {
     color: $blog-text-color;
     line-height: 1.5;
     margin: 0 0 20px;
+    text-align: justify;
+  }
+
+  blockquote {
+    font-size: 16px;
+    font-style: italic;
+    color: $blog-text-color;
+    opacity: .85;
+  }
+
+  .note {
+    font-size: 0.9em;
+    font-style: italic;
+    color: $blog-text-color;
+    opacity: .9;
   }
 
   .table-responsive {
