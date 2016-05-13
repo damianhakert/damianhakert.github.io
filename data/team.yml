@@ -147,7 +147,7 @@
   twitter: ayufanpl
   gitlab: ayufan
   maintains:  |
-              <li><a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> lead</li>
+              <li><a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> maintainer</li>
               <li>Maintainer of the <a href="https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/">GitLab EE Pivotal Cloud Foundry (PCF) tile<a></li>
   story:  |
           Kamil is a low-level programming enthusiast with years of experience in building apps for all platforms. He is also a security, virtualization and graphics expert with a variety of programming languages in his toolkit together with deep operating systems architecture knowledge.
@@ -827,14 +827,17 @@
   story:  |
           Colton has worked in the technology space for the last three years, and is passionate about business development, marketing, and the customer lifecycle. With a particular interest in innovative technologies, he found a great match at GitLab. When not at work, Colton enjoys basketball, football, golf, and action sports. He and his wife love being outdoors with their dog, as well as traveling often.
 
-- name: M.F.
+- name: Mark Fletcher
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
   reports_to: Lead Service Engineer
   picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  gitlab: markglenfletcher
+  picture: mark.jpg
   story:  |
-          Joining May 1st
+          Mark's experience within the technology sector has been varied, including various Web Development and Technical Support roles.
+          One of the most challenging being providing Internet connectivity to remote parts of the French Alps.
+          Whenever possible, he likes to hone his skills in the arts of skiing, cooking, travelling, lifting heavy things and avoiding running anywhere.
+          One day, he would really a dog to call his own, so he can stop bothering other people's.
 
 - name: Christian Couder
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
@@ -852,9 +855,9 @@
   twitter: XMDRamos
   gitlab: virtuacreative
   story:  |
-          Marcia is passionate about computers since the early 1990s, when she first touched the 
+          Marcia is passionate about computers since the early 1990s, when she first touched the
           command line and somehow managed to play games on DOS. Her background in Science opened the way for technical
-          writing, which she has been improving since 2005, by writing and reviewing professionally. Over the last few 
+          writing, which she has been improving since 2005, by writing and reviewing professionally. Over the last few
           years, her enthusiasm for technology motivated her to learn web development, and write about it too. She loves photography.
           When she's not typing, you will find her behind the camera, or in a plane, for being behind her camera somewhere else.
 
@@ -871,8 +874,8 @@
   role: <a href="https://about.gitlab.com/jobs/director-strategic-partnerships/">Director of Strategic Partnerships</a>
   reports_to: CEO
   picture: eli.jpg
-  twitter:
-  gitlab:
+  twitter: eliran_mesika
+  gitlab: eliran.mesika
   story:  |
           Nicknamed 'The Fox', Eliran graduated engineering at the Technion and has since focused on leading business growth for software companies. He managed the Customer Experience group at ClickTale, built a monetization ecosystem for Conduit and most recently co-founded OhTell, a micro-video hotel review company. Outside work you can find 'The Fox' in the water or on land, training for IRONMAN triathlon races.
 

@@ -104,7 +104,7 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 2. Partner with Rocket Chat, ship it with GitLab and integrate it.
 
-3. Open up everything we can, including an [open Chef repo](https://dev.gitlab.org/cookbooks/chef-repo/issues/247), and open Asana.
+3. Open up everything we can, including an [open Chef repo](https://dev.gitlab.org/cookbooks/chef-repo/issues/247), and [marketing issue tracker](https://gitlab.com/gitlab-com/marketing/issues).
 
 4. Publish our processes and plans in the handbook or link from there.
 
@@ -154,7 +154,7 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 2. PR pitch: [opinionated and integrated set of tools based on CoC offers a superior UX](https://about.gitlab.com/direction/).
 
-3. Needs to win hearts and minds with excellent [developer marketing](https://about.gitlab.com/handbook/marketing/developer-marketing/).
+3. Needs to win hearts and minds with excellent [developer advocacy](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/).
 
 4. Show that we can test big projects (Rails, etc.) faster than Travis CI.
 

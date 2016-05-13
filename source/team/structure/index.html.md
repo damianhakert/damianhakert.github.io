@@ -4,8 +4,6 @@ title: Team Structure
 page_class: org-structure
 ---
 
-Draft team structure, this is to be finished after the Austin Summit (end of May 2016).
-
 GitLab Inc. has at most four layers in the team structure:
 
 1. CEO
@@ -41,16 +39,16 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - APAC Sales - [Director of Global Alliances and APAC Sales](/jobs/director-of-global-alliances-and-apac-sales/) (lead)
     - Customer Success - Customer Success Manager (lead, future vacancy)
       - [Account Manager](/jobs/account-manager/)
-      - [Solutions Engineer](/jobs/solutions-engineer/)
+      - [Success Engineer](/jobs/success-engineer/)
+  - [People Operations](/handbook/people-operations/) - [People Operations Director](/jobs/people-ops-director/) (lead, vacancy)
+    - [People Operations Coordinator](/jobs/people-ops-coordinator/)
+    - [Administrative Coordinator](/jobs/adminstrative-coordinator/)
   - Finance - [CFO](/jobs/chief-financial-officer/)
     - [Accounting](/handbook/accounting/) - [Controller](/jobs/controller/)
-    - [People Operations](/handbook/people-operations/) - [People Operations Director](/jobs/people-ops-director/) (lead, vacancy)
-      - [People Operations Coordinator](/jobs/people-ops-coordinator/)
-      - [Administrative Coordinator](/jobs/adminstrative-coordinator/)
   - [Technical Direction](/direction/) - [CTO](/jobs/chief-technology-officer/)
   - Engineering - [VP of Engineering](/jobs/vp-of-engineering/)
     - Backend - [Backend Lead](/jobs/backend-lead/)
-      - [Developers](/jobs/developer/) that are Rails specialists
+      - [Developers](/jobs/developer/) that are backend specialists
     - Frontend - [Frontend Lead](/jobs/frontend-lead/)
       - [Frontend Engineers](/jobs/frontend-engineer/)
     - [Infrastructure](/handbook/infrastructure/) - Infrastructure lead

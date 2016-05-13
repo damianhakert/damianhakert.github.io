@@ -42,6 +42,7 @@ _Always_ advertise the job through the following means:
 _Consider_ advertising the job through the following means:
 
 List on:
+
 1. [Hacker News](https://news.ycombinator.com/ask): On the first of the month, include a note for GitLab in the Hacker News thread of "Who's Hiring" . Template text: `REMOTE ONLY GitLab
 We're hiring production engineers, developers, UX designers , and more. https://about.gitlab.com/jobs/ We're a remote only company so everyone is on an equal level. GitLab is an open-source Ruby on Rails project with over 1000 contributors.`
 1. [WeWorkRemotely](https://weworkremotely.com) ($200 for 30 days, per position).
@@ -207,7 +208,7 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 
 As part of our hiring process we may ask applicants to provide us with one or more
 references to contact. These reference calls are typically be done by our [administrative coordinator](https://about.gitlab.com/jobs/administrative-coordinator/) or the hiring
- manager for that specific vacancy.
+ manager for that specific vacancy following [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
 
 ## Getting Contracts Ready, Reviewed, and Signed<a name="prep-contracts"></a>
 
