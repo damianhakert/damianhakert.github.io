@@ -125,14 +125,14 @@ pre {
     p {
       font-size: 16px;
       font-style: italic;
-      color: #606060;
+      color: $blog-notes-color;
     }
   }
 
   .note {
     font-size: 14px;
     font-style: italic;
-    color: #606060;
+    color: $blog-notes-color;
   }
 
   .table-responsive {
