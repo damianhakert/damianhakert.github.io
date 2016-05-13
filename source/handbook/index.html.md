@@ -155,7 +155,7 @@ At GitLab our handbook is extensive and keeping it relevant is an important part
 1. Reading is much faster than listening.
 1. Reading is async, you don't have to interrupt someone or wait for them to become available.
 1. Recruiting is easier if people can see what we stand for an how we operate.
-1. Retention is better if people knew what they where getting into before they joined.
+1. Retention is better if people know what they are getting into before they join.
 1. Onboarding is easier if you can find all relevant information spelled out.
 1. Teamwork is easier if you can read how other parts of the company work.
 1. Proposing and discussing changes is easier if you can read what the current process is.
