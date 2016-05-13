@@ -749,14 +749,19 @@
   story:  |
           Tim has been vaguely passionate about computers ever since he got all the way through Prince of Persia when he was five. This grew into a legitimate love for the field after he crashed his Windows installation in 2007, and replaced it with a fragile triple-boot system that included a patched version of OS X. Over the last few years, he's built web apps for non-profits, advertising companies, and large online retailers in Rails and Clojure. When he's not glued to a screen of some sort, he's introverted to a fault, likes to play the bass guitar, read murder mysteries, and build computers.
 
-- name: K.C.
+- name: Kim Carlbäcker
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Backend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: kimcarlbacker.jpg
+  twitter: bkcsoft
+  gitlab: bkc
   story:  |
-          Joining April 11th
+          Kim is a self-taught programmer with focus on maintainability and reusablity.
+          He has learned many languages through the years out of necessity, ranging
+          from RISC-assembly to JavaScript. His current language of choice is Go-lang
+          but still plays around in C, C++, ASM and Python. When he's not programming,
+          which he does a lot, he likes to design circuits, do handywork, and train his
+          dog.
 
 - name: Stan Hu
   role: VP of Engineering
