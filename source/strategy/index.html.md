@@ -61,7 +61,7 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 1. Founder control: vote & board majority so we can keep making long term decisions.
 
-2. Independence: since we took financing, to prevent being acquired, we need to IPO.
+2. Independence: since we took financing we need to have a [liquidity event](https://en.wikipedia.org/wiki/Liquidity_event); to maintain independence this needs to be an IPO rather than an acquisition.
 
 3. Low burn: spend seed money like it is the last we’ll raise, maintain 2 years of runway.
 
