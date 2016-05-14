@@ -47,7 +47,7 @@ We want to achieve our goals in the following order:
 
 1. Continue to be the most popular popular software development lifecycle solution
 
-2. Become the most revenue generation solution on-premises (through well executed marketing and sales)
+2. Become the most revenue generating on-premises software development lifecycle solution
 
 3. Become the most popular SaaS solution for private repositories (a [complete product](https://about.gitlab.com/direction/#scope) that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever) is competitive since network effects are smaller for private repositories than for public ones)
 
@@ -218,7 +218,7 @@ community engagement.
 
 1. Most partnerships are not public but people working at GitLab Inc. can find them in the 'Partnerships' Google Doc.
 
-1. We'll hire a Strategic Relations Manager.
+1. We'll hire a Director of Strategic Partnerships. DONE
 
 1. The reseller partnerships are especially important here.
 
