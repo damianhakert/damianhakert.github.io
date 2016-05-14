@@ -112,7 +112,7 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 7. Drop minimum basic subscription user count to 1 user. DONE
 
-8. Foster leadership that stresses radiating knowledge in code, documentation, and blog articles. Work on [leadership development](https://docs.google.com/document/d/11XBwnyLZE7ocHSx147Az09XtElzAPR_osc-H75BYkMI/edit) to promote from within where possible. 
+8. Foster leadership that stresses radiating knowledge in code, documentation, and blog articles. Work on [leadership development](https://docs.google.com/document/d/11XBwnyLZE7ocHSx147Az09XtElzAPR_osc-H75BYkMI/edit) to promote from within where possible.
 
 9. Spread monthly version cadence to operations and maybe marketing.
 
@@ -120,11 +120,13 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 1. Make something people want: merging community contributions is the priority and at least one person will work on that fulltime.
 
-2. Ship the features in our direction [https://about.gitlab.com/direction/](https://about.gitlab.com/direction/)
+1. Ship the features in our direction [https://about.gitlab.com/direction/](https://about.gitlab.com/direction/)
 
-3. Improve code quality, look and feel, usability, and [performance](https://gitlab.com/gitlab-com/operations/issues/182).
+1. Ship with the full [scope](https://about.gitlab.com/direction/#scope) before the year ends.
 
-4. Implement effective development processes and leadership.
+1. Improve code quality, look and feel, usability, and [performance](https://gitlab.com/gitlab-com/operations/issues/182).
+
+1. Implement effective development processes and leadership.
 
 ## Revenue 2016
 
