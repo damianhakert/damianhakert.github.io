@@ -82,19 +82,19 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 1. [Open source user benefits](http://buytaert.net/acquia-retrospective-2015): significant advantages over proprietary software because of its faster innovation, higher quality, freedom from vendor lock-in, greater security, and lower total cost of ownership.
 
-1. [Open Source stewardship](https://about.gitlab.com/about/#stewardship): community comes first, and share the pie with competitors.
+2. [Open Source stewardship](https://about.gitlab.com/about/#stewardship): community comes first, and share the pie with competitors.
 
-1. [Innersourcing](https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/) is needed and will force companies to choose one solution top-down.
+3. [Innersourcing](https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/) is needed and will force companies to choose one solution top-down.
 
-1. Git will dominate the version control market in 2020.
+4. Git will dominate the version control market in 2020.
 
-1. An [integrated tool](https://medium.com/@gerstenzang/developer-tools-why-it-s-hard-to-build-a-big-business-423436993f1c#.ie38a0cls) is superior to a collection of tools or a network of tools.
+5. An [integrated tool](https://medium.com/@gerstenzang/developer-tools-why-it-s-hard-to-build-a-big-business-423436993f1c#.ie38a0cls) is superior to a collection of tools or a network of tools.
 
-1. To be sustainable we need an open core model that includes a proprietary GitLab EE.
+6. To be sustainable we need an open core model that includes a proprietary GitLab EE.
 
-1. EE has a low base price that is publicly available to compete for reach with CE, established competitors, and new entrants to the market.
+7. EE needs a low base price that is publicly available to compete for reach with CE, established competitors, and new entrants to the market.
 
-1. The low base price is supplemented by a large set of options aimed at larger organizations that get a lot of value from GitLab.
+8. The low base price for EE is supplemented by a large set of options aimed at larger organizations that get a lot of value from GitLab.
 
 ## General 2016
 
