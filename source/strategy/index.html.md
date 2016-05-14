@@ -75,7 +75,7 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 8. Speed: ship every change in the next release to maximize responsiveness and learning.
 
-9. Life balance: we want people to stay with us long time, so time off is encouraged.
+9. Life balance: we want people to stay with us for a long time, so it is important to take time off, work on life balance, and being remote-only is a large part of the solution.
 
 
 ## Assumptions
