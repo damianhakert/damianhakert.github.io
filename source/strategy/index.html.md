@@ -126,8 +126,6 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 4. Implement effective development processes and leadership.
 
-5. Quickly onboard new team members and contributors.
-
 ## Revenue 2016
 
 1. Triple ARR (Annual Recurring Revenue) in 2016&17&18, double it in 2019&20.
@@ -179,6 +177,8 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 7. Monthly incentive for the whole company ($100 dinner) if we make our sales goal. DONE
 
 ## People Operations 2016
+
+1. Quickly onboard new team members and contributors.
 
 1. Include goals and promotion criteria in all job descriptions.
 
