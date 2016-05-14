@@ -45,7 +45,7 @@ Change all creative work from read-only to read-write so that **everyone can con
 
 We want to achieve our goals in the following order:
 
-1. Become the most popular solution on-premises (DONE)
+1. Continue to be the most popular popular software development lifecycle solution
 
 2. Become the most revenue generation solution on-premises (through well executed marketing and sales)
 
