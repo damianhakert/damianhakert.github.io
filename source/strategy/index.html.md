@@ -178,16 +178,17 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 ## People Operations 2016
 
-1. Quickly onboard new team members and contributors.
+1. Develop great recruiting, hiring, onboarding, offboarding practices with full time [People Ops Director](https://about.gitlab.com/jobs/people-ops-director/) and [Coordinator(s)](https://about.gitlab.com/jobs/people-ops-coordinator/).
 
-1. Include goals and promotion criteria in all job descriptions.
+1. Maintain company in compliance and adopt / adapt policies as the company scales with a globally distributed team.
 
-2. Develop great recruiting, hiring, onboarding, offboarding practices with full
-time People Operations staff.
+1. To support our great culture, institutionalize feedback as being near-continuous and mostly informal.
 
-3. To keep our great culture we need to institutionalize feedback.
+1. Adopt a coherent approach to [OKR's](https://en.wikipedia.org/wiki/OKR), performance management, and compensation management.
 
-4. Sponsor initiatives and hire in countries that have low opportunity.
+1. Develop job levels with promotion criteria, including criteria on team and company collaboration.
+
+1. Sponsor initiatives and hire in countries that have low opportunity.
 
 ## Service Engineering 2016
 
