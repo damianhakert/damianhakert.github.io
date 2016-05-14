@@ -7,5 +7,6 @@
     = partial "includes/layout/headline"
     .wrapper
       .container.md-page{ class: (current_page.data.page_class if current_page.data.page_class) }
+        = partial "includes/layout/search"
         = yield
     = partial "includes/layout/footer"
