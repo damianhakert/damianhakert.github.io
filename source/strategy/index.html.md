@@ -88,7 +88,7 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 4. Git will dominate the version control market in 2020.
 
-5. An [integrated tool](https://medium.com/@gerstenzang/developer-tools-why-it-s-hard-to-build-a-big-business-423436993f1c#.ie38a0cls) is superior to a collection of tools or a network of tools.
+5. An [integrated tool](https://medium.com/@gerstenzang/developer-tools-why-it-s-hard-to-build-a-big-business-423436993f1c#.ie38a0cls) is superior to a collection of tools or a network of tools. Even so, good integrations are important for network effects and making it possible to integrate GitLab into an organization.
 
 6. To be sustainable we need an open core model that includes a proprietary GitLab EE.
 
