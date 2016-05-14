@@ -112,7 +112,7 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 7. Drop minimum basic subscription user count to 1 user. DONE
 
-8. Work on [leadership development](https://docs.google.com/document/d/11XBwnyLZE7ocHSx147Az09XtElzAPR_osc-H75BYkMI/edit) to promote from within where possible.
+8. Foster leadership that stresses radiating knowledge in code, documentation, and blog articles. Work on [leadership development](https://docs.google.com/document/d/11XBwnyLZE7ocHSx147Az09XtElzAPR_osc-H75BYkMI/edit) to promote from within where possible. 
 
 9. Spread monthly version cadence to operations and maybe marketing.
 
@@ -192,7 +192,7 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 ## Service Engineering 2016
 
-1. Provide a great support experience with reliable response times for customers.
+1. Provide a great support experience with reliable and fast response times for customers.
 
 2. Respond to all community communication and recognize community members who provide
 a lot of support to others in the community.
@@ -207,8 +207,6 @@ community engagement.
 1. A highly available GitLab.com that [feels fast](https://gitlab.com/gitlab-com/operations/issues/182) and has little downtime.
 
 2. [Free CI runners for everyone](https://dev.gitlab.org/gitlab/gitlab-ci/issues/322) for at least as long as our credits last. DONE
-
-3. Foster leadership that stresses radiating knowledge in code, documentation, and blog articles.
 
 4. [Continuous Deployment of master to GitLab.com via packages.](https://gitlab.com/gitlab-com/operations/issues/146)
 
