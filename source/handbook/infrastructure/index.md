@@ -15,7 +15,7 @@ Before you start fixing stuff, log into the [infrastructure room](https://gitlab
 
 ### Why did server X stop working on Monday morning?
 
-On Monday at 10:10 UTC we do automatic OS updates every week.
+Weekly automatic OS updates are performed on Monday at 10:10 UTC.
 
 ## Emergency checklist
 
@@ -27,7 +27,7 @@ See [failover procedure](https://dev.gitlab.org/cookbooks/gitlab-drbd/blob/maste
 
 ## Dev.gitlab.org backups
 
-Backups for dev.gitlab.org are stored on S3 in the ‘backup-dev-gitlab-org’ bucket. The backups are protected against deletion using S3 versioning, and move to Glacier storage (slow retrieval) after 7 days.
+Backups for dev.gitlab.org are stored on S3 in the `backup-dev-gitlab-org` bucket. The backups are protected against deletion using S3 versioning, and move to Glacier storage (slow retrieval) after 7 days.
 
 ## GitLab Infrastructure Archive
 
@@ -48,24 +48,29 @@ See network spreadsheet [here](https://docs.google.com/spreadsheet/ccc?key=0Am5W
 Add the key to root@blue-moon.gitlab.com and note in the Network sheet.
 
 Add the remote:
-git remote add deploy deploy@blue-moon.gitlap.com:~/www-gitlab-com.git
 
-Now "git remote -v" should look like:
-deploy deploy@blue-moon.gitlap.com:~/www-gitlab-com.git (fetch)
-deploy deploy@blue-moon.gitlap.com:~/www-gitlab-com.git (push)
-origin git@gitlab.com:gitlab-com/www-gitlab-com.git (fetch)
-origin git@gitlab.com:gitlab-com/www-gitlab-com.git (push)
+    git remote add deploy deploy@blue-moon.gitlap.com:~/www-gitlab-com.git
+
+Now `git remote -v` should look like:
+
+    deploy deploy@blue-moon.gitlap.com:~/www-gitlab-com.git (fetch)
+    deploy deploy@blue-moon.gitlap.com:~/www-gitlab-com.git (push)
+    origin git@gitlab.com:gitlab-com/www-gitlab-com.git (fetch)
+    origin git@gitlab.com:gitlab-com/www-gitlab-com.git (push)
+
 
 Deploy with:
-git push deploy master
+    
+    git push deploy master
 
 ## DRBD reports local disk state is ‘Diskless’
 
-* Try deactivating/activating the DRBD resource: sudo drbdadm detach gitlab_data ; sudo drbdadm attach gitlab_data.
+* Try deactivating/activating the DRBD resource: 
+        sudo drbdadm detach gitlab_data ; sudo drbdadm attach gitlab_data
 
-* Check if any lvm commands are still running ps ax | grep lvm . If so, wait for them to finish (may take 15 minutes).
+* Check if any lvm commands are still running `ps ax | grep lvm` . If so, wait for them to finish (may take 15 minutes).
 
-* Remove any unnecessary LVM snapshots sudo /opt/gitlab-backup/bin/gitlab-rotate-backup purge.
+* Remove any unnecessary LVM snapshots `sudo /opt/gitlab-backup/bin/gitlab-rotate-backup purge`.
 
 * Try the drbdadm detach/attach again.
 
@@ -73,9 +78,9 @@ git push deploy master
 
 * Make sure you receive webmaster@ emails (this is almost impossible to test since Gmail doesn't show the incoming email separately, but gitlab.com and gitlab.com both go to sytse@gitlab.com)
 
-* Sudo -i
+* `sudo -i`
 
-* Cd /root
+* `cd /root`
 
 * Follow the steps to [request new certificate](https://dev.gitlab.org/gitlab/gitlab-certificate-toolkit/blob/master/doc/request-new-certificate.md)
 
@@ -100,27 +105,32 @@ git push deploy master
 ### Random tips:
 
 * Configure Nginx to use the key
-sudo vim /etc/nginx/sites-available/TAB
-( or sometimes: sudo vim /etc/nginx/ssl.conf )
-ssl_certificate         /etc/ssl/$DOMAIN.crt;
-ssl_certificate_key     /etc/ssl/$DOMAIN.key;
+    
+        sudo vim /etc/nginx/sites-available/TAB
+        ( or sometimes: sudo vim /etc/nginx/ssl.conf )
+        ssl_certificate         /etc/ssl/$DOMAIN.crt;
+        ssl_certificate_key     /etc/ssl/$DOMAIN.key;
 
 * Test Nginx config
-sudo nginx -t
+        
+        sudo nginx -t
 
 * Restart Nginx
-sudo service nginx restart
+        
+        sudo service nginx restart
 
 * Change the firewall rules, needed on Digital Ocean:
-sudo ufw allow https
+        
+        sudo ufw allow https
 
 * Consider adding a redirect rule from http to https
-server {
-  listen *:80;
-  server_name www.example.com;
-  server_tokens off;
-  return 301 https://www.example.com$request_uri;
-}
+        
+        server {
+          listen *:80;
+          server_name www.example.com;
+          server_tokens off;
+          return 301 https://www.example.com$request_uri;
+        }
 
 ## GitLab update on GitLab.com
 
@@ -144,11 +154,11 @@ User renamed project, which created an empty new wik repo instead of moving the 
 
 ## Gathering a mailing list
 
-File.open('public_owners.txt', 'w') { |f| Project.public_only.each { |p| f.puts [p.owner.email.inspect,p.owner.name.inspect].join(',') }; nil }
+    File.open('public_owners.txt', 'w') { |f| Project.public_only.each { |p| f.puts [p.owner.email.inspect,p.owner.name.inspect].join(',') }; nil }
 
 ## Ruby processes memory use
 
-ps -C ruby -o pid,rss,args
+    ps -C ruby -o pid,rss,args
 
 RSS (resident set size) seems to be the property measured by monit.
 
@@ -157,26 +167,29 @@ RSS (resident set size) seems to be the property measured by monit.
 From 13-20 December we have been storing uploads in the wrong S3 bucket. The bucket we were storing the uploads in was a staging bucket which already had some other uploads in it.
 
 * Copy 1 week’s worth of uploads to local machine
-mkdir gitlab_cloud_staging_us
-s3cmd -c .s3cfg.gitlab_staging sync s3://gitlab_cloud_staging_us gitlab_cloud_staging_us/
+
+        mkdir gitlab_cloud_staging_us
+        s3cmd -c .s3cfg.gitlab_staging sync s3://gitlab_cloud_staging_us gitlab_cloud_staging_us/
 
 * Locally delete uploads that do not belong in production. Production uploads had IDs in the thousands or tens of thousands; staging uploads had IDs like 1,2,3. I also checked in the S3 web console when some of the files were created to distinguish staging uploads from production uploads.
 
 * Dry run for uploading the cleaned-up local copy of the uploads to the production bucket. Check if the paths make sense
-s3cmd -c .s3cfg sync -n gitlab_cloud_staging_us/ s3://gitlab_production_us
+         
+         s3cmd -c .s3cfg sync -n gitlab_cloud_staging_us/ s3://gitlab_production_us
 
 * Sync the local uploads to the production bucket
-s3cmd -c .s3cfg sync  gitlab_cloud_staging_us/ s3://gitlab_production_us
+         
+         s3cmd -c .s3cfg sync  gitlab_cloud_staging_us/ s3://gitlab_production_us
 
 * Delete the local copy of the uploads
-rm -rf gitlab_cloud_staging_us/
+         
+         rm -rf gitlab_cloud_staging_us/
 
 ## Monit check for disk space on root filesystem
 
-ubuntu@ip-10-182-143-34:~$ cat /etc/monit/conf.d/disk_usage.monitrc
-check filesystem rootfs with path /dev/xvda1
-  alert everyone@gitlab.com
-  if space usage > 70% then alert
+* `cat /etc/monit/conf.d/disk_usage.monitrc`
+* check filesystem rootfs with path `/dev/xvda1`
+* if space usage > 70% then alert everyone@gitlab.com
 
 Run `sudo service monit restart` after creating/editing the file.
 
@@ -188,11 +201,12 @@ The attributes are in [GitLab cluster](https://dev.gitlab.org/cookbooks/chef-rep
 
 ## Update grub
 
-Sometimes when you run ‘apt-get upgrade’, GRUB wants to reinstall itself. During this process you get asked what disks GRUB should be installed to. Use lsblk to look for disks that contain a partition mounted at ‘/’ (there should be two). Install GRUB to those two disks (e.g. sda and sdj).
+Sometimes when you run `apt-get upgrade`, GRUB wants to reinstall itself. During this process you get asked what disks GRUB should be installed to. Use `lsblk` to look for disks that contain a partition mounted at ‘/’ (there should be two). Install GRUB to those two disks (e.g. sda and sdj).
 
 Example snippet of lsblk output below. Note the ‘/’
-sdj                         8:144  0   2.7T  0 disk
-├─sdj1                      8:145  0     1M  0 part
-├─sdj2                      8:146  0 931.3G  0 part
-│ └─md0                     9:0    0 931.2G  0 raid1  /
-└─sdj3                      8:147  0  93.1G  0 part   [SWAP]
+
+    sdj                         8:144  0   2.7T  0 disk
+    ├─sdj1                      8:145  0     1M  0 part
+    ├─sdj2                      8:146  0 931.3G  0 part
+    │ └─md0                     9:0    0 931.2G  0 raid1  /
+    └─sdj3                      8:147  0  93.1G  0 part   [SWAP]
