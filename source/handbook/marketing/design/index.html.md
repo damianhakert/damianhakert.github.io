@@ -2,7 +2,7 @@
 layout: markdown_page
 title: "Design"
 ---
-The Design organization 1 designer.
+Welcome to the Design Handbook
 
 [Up one level to the Marketing Handbook](/handbook/marketing/)    
 
