@@ -3,13 +3,26 @@ layout: markdown_page
 title: Security
 ---
 
-## Security of GitLab by Being an Open-Source Product
+- [Security of GitLab by Being an Open-Source Product](#open-source-security)
+- [GitLab Development Guidelines](#gitlab-development-guidelines)
+- [Common Security Related Questions for Enterprises](#common-security-related-questions)
+   - [Governance](#governance)
+   - [Software Development Life Cycle (SDLC)](#sdlc)
+   - [Training](#training)
+   - [Validation](#validation)
+   - [Security Response](#security-response)
+- [Business Continuity Plan](#business-continuity-plan)
+
+
+
+
+## Security of GitLab by Being an Open-Source Product<a name="open-source-security"></a>
 
 GitLab CE is open source and has over 700 contributors.
 This means there have been over 700 pairs of eyes looking at the GitLab CE source code.
 GitLab EE is open-core, which means the source code is also open for inspection to our customers.
 
-## GitLab Development Guidelines
+## GitLab Development Guidelines<a name="gitlab-development-guidelines"></a>
 
 * [Guidelines for shell commands in the GitLab codebase](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/shell_commands.md)
 * For community contributions, we enforce [style guides](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#style-guides)
@@ -18,9 +31,9 @@ GitLab EE is open-core, which means the source code is also open for inspection 
 
 GitLab also has a [responsible disclosure program](https://about.gitlab.com/disclosure/).
 
-## Common Security Related Questions for Enterprises
+## Common Security Related Questions for Enterprises<a name="common-security-related-questions"></a>
 
-### Governance
+### Governance<a name="governance"></a>
 
 1. Do you maintain a quality management system (QMS) approved by management?
 In lieu of a formal and static QMS, GitLab has a dynamic and responsive approach to quality management.
@@ -99,7 +112,7 @@ Does your quality management system (QMS) include coverage for software applicat
 1. If you use cloud services, do you have key management procedures to manage and maintain encryption keys?
    - YES
 
-### Software Development Life Cycle (SDLC)
+### Software Development Life Cycle (SDLC)<a name="sdlc"></a>
 
 1. Are there documented processes, procedures, standards and templates used in your SDLC process?  
    - YES. See our [Contributing guidelines](https://about.gitlab.com/contributing/), and related documentation on [code review](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/code_review.md) and [development processes](https://gitlab.com/gitlab-org/gitlab-ce/tree/master/doc/development).
@@ -140,7 +153,7 @@ Does your quality management system (QMS) include coverage for software applicat
 1. If so, is access to data controlled by terms of Non-Disclosure Agreements?
    - N/A
 
-### Training
+### Training<a name="training"></a>
 
 1. Is Internal company training available & performed commensurate with personnel roles and responsibilities?
    - YES; peer-to-peer training is commonplace.
@@ -154,7 +167,7 @@ Does your quality management system (QMS) include coverage for software applicat
 1. Are personnel training plans and records kept for internal company compliance purposes?
    - Tasks and training completed during [onboarding](https://about.gitlab.com/handbook/general-onboarding/) are recorded.
 
-### Validation
+### Validation<a name="validation"></a>
 
 1. Are results from the execution of test plans reported and used to track and justify release readiness?
    - YES. We require all automated tests to pass before any official release (monthly and patch versions), and perform manual QA testing for each monthly release.
@@ -168,7 +181,7 @@ Does your quality management system (QMS) include coverage for software applicat
 1. Is some form of dynamic code scanning performed as part of the release acceptance? What tools are used?
    - YES. We use GitLab CI for this purpose.
 
-### Security Response
+### Security Response<a name="security-response"></a>
 
 1. Do you have a documented company security incident response process?
    - YES. See [security documentation](https://gitlab.com/gitlab-org/release-tools/blob/master/doc/security.md) as well as details on [service level response times and priorities](https://about.gitlab.com/handbook/support/).
@@ -187,3 +200,9 @@ Does your quality management system (QMS) include coverage for software applicat
 
 1. Is there a specified response policy that includes the timeframe issues are to be addressed?
    - YES. See [security documentation](https://gitlab.com/gitlab-org/release-tools/blob/master/doc/security.md) as well as details on [service level response times and priorities](https://about.gitlab.com/handbook/support/).
+
+
+
+## Business Continuity Plan<a name="business-continuity-plan"></a>
+
+business continuity summary plan on letterhead   
