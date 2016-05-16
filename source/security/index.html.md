@@ -205,4 +205,24 @@ Does your quality management system (QMS) include coverage for software applicat
 
 ## Business Continuity Plan<a name="business-continuity-plan"></a>
 
-business continuity summary plan on letterhead   
+GitLab, by it's remote-only nature, is not easily affected by typical causes of business disruption, such as local failures of equipment, power supplies, telecommunications, social unrest, terrorist attacks, fire, or natural disasters. Even so, threats considered in the context of business continuity are:
+
+1. Disruption of service of Azure, specifically the region in which GitLab.com is hosted.
+   - Effect: a loss of the Azure service means that GitLab.com is not available. This affects anyone who uses GitLab.com to host their repositories. GitLab.com is also the primary server where GitLab CE and EE source code and packages are hosted.
+   - Solution(s): There are many other servers across the globe where GitLab CE is readily available.
+
+1.  Disruption of Amazon Web Services, specifically the region in which dev.gitlab.org is hosted (CORRECT?).
+   - Effect: Security releases are developed and staged on dev.gitlab.org before being brought to production on GitLab.com.
+   - Solution(s): Depending on the duration and nature of the disruption, the solution is to wait for service to be restored (minimal duration), or build a new staging server. Backups? TODO
+
+1. Unavailability of support staff in case of customer emergency.
+   - Effect: emergency response times are greater than intended.
+   - Solution(s): The team is distributed geographically (except during team get-togethers). Customer emergencies are handled by _any_ person who is in the [on-call rotation](/handbook/support/pagerduty). Emergencies also trigger automatic notifications on our internal chat system, alerting the entire company.
+
+1. Malicious Software (Viruses, Worms, Trojan horses) attack.
+  - Effect:
+  - Solution(s)
+
+1. Hacking or other Internet attacks.
+   - Effect:
+   - Solution(s)
