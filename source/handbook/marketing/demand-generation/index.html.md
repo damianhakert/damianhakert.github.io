@@ -2,7 +2,15 @@
 layout: markdown_page
 title: "Demand Generation"
 ---
-Go to the [Marketing Handbook](/handbook/marketing)
+The Demand Generation organization includes Demand Generation, Business Development, and Online Marketing.   
+
+Demand Generation Handbooks:  
+
+- [Demand Generation](/handbook/marketing/demand-generation/)  
+- [Online Marketing](/handbook/marketing/online-marketing/)  
+- [Business Development]BDR handbook coming soon  
+
+[Up one level to the Marketing Handbook](/handbook/marketing)  
 
 ## This page
 * [References](#references)
