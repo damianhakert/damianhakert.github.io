@@ -290,15 +290,15 @@ you to provide information about your financial status, usually in the form of a
 of your total financial status (including any savings you have). The requirements for
 this seem to vary a bit between mortgage providers.
 
-## Compensation-principles<a name="compensation-principles"></a>
+## Compensation principles<a name="compensation-principles"></a>
 
-1. We're an open organization and want to be transparent about compensation principles, individual compensation is not disclosed. We're working on having a formula for compensation but this is hard due to the need make the formula to work accross the globe.
-1. The compensation based on market rate for the region, your job title, and your (expected) level of performance.
-1. We pay market rate for most positions, better than market benefit is that we're remote only (flexible, freedom)
-1. We pay below market rate for engineering positions because of open source (great workflow, peers, build repotation), most engineers take a pay cut to join
-1. We pay on current postition and performance, not what we paid you last month. This means 50% raises but also that there are no automatic raises, and we even (although rarely) lower compensation.
-1. When the current position or performance changes we'll try to adjust you pay asap, the manager should take initiative, people should not have to ask for it.
-1. The market rate depends on your metro region. When you move you have to inform us and we'll adjust your compensation up or down.
-1. We hire accross the globe but we're not location agnostic. Your timezone, the market rate in your region, and being close TODO vinicity TODO to other team members, users, customers, and partners is a factor. We can favor an applicant over another because they live in a region with a lower market rate or because we need someone in that timezone.
-1. We have only fixed compensation except for the following functions. People on quota (account executives, account managers, and sales leadership) has variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors have variable compensation purely based on commission, for leadership roles sometimes part of it is based on business objectives. Success engineers currently have a lower variable component, we're not sure how this will evolve. All other people have fixed compensation except for the items listed under our benefits (bonusses and other incentives).
-1. Compensation decisions are talken by the compensation committee. This comittee consists of the CFO, CEO, and head of people operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee.
+1. We're an open organization and want to be transparent about compensation principles, while not disclosing individual compensation. We're working on having a formula for compensation but this is hard due to the need make the formula work across the globe.
+1. Compensation is based on market rate for the region, your job title, and your (expected) level of performance.
+1. We pay market rate for most positions, and have the better-than-market benefit of being a remote-only company (flexible, freedom).
+1. We pay on the lower end of market rates for engineering positions because of we offer the benefit of working on open source (great workflow, peers, build reputation); most engineers take a pay cut to join.
+1. We base compensation on current position and performance, not on what we paid you last month. This means 50% raises are possible, but also that there are no automatic raises, and we even (although rarely) lower compensation.
+1. When your position or performance changes we'll try to adjust your pay a.s.a.p.: the manager should take initiative, people should not have to ask for it.
+1. The market rate depends on your metro region. When you move you have to inform us and we may adjust your compensation up or down.
+1. We hire across the globe but we're not location agnostic. Your timezone, the market rate in your region, and vicinity to other team members, users, customers, and partners can all be factors. For example, we may favor an applicant over another because they live in a region with a lower market rate or because we need someone in that timezone.
+1. As you can see from our [contracts](/handbook/contracts/), compensation is typically set at a fixed monthly rate. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission, for leadership roles sometimes part of it is based on business objectives. Success engineers currently have a lower variable component, we're not sure how this will evolve. All other people have fixed compensation (but we do have [bonuses and incentives](/handbook/#incentives)).
+1. Compensation decisions are taken by the compensation committee. This committee consists of the CFO, CEO, and head of people operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee.
