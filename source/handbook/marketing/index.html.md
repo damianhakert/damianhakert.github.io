@@ -2,14 +2,20 @@
 layout: markdown_page
 title: "Marketing"
 ---
-## Marketing Handbook Index
+## Marketing Index
 * [Marketing Mission](#mission)
 * [Functional Groups](#groups)
 * [Marketing OKRs](#okrs)
 * [Meetings and Structure](#meetings)
 * [Marketing team SLAs](#sla)
 * [Resources](#resources)
-* [RocketChat Marketing Channels](#chat)
+* [RocketChat Marketing Channels](#chat)  
+
+## Marketing Handbooks
+* [Demand Generation](/handbook/marketing/demand-generation)
+* [Developer Relations](/handbook/marketing/developer-relations)
+* Design - coming soon
+* [Product Marketing](/handbook/marketing/product-marketing)
 
 # GitLab Marketing Mission: GitLab for All!<a name="mission"></a>
 
@@ -19,39 +25,31 @@ Our marketing issues are publicly viewable via the [GitLab Marketing issue track
 
 The GitLab marketing team is composed of a unique set of individuals from interesting backgrounds all over the world. Because of our unique skill sets, we're able to accomplish a lot of high impact campaigns through collaboration and open feedback from our team and the community.  
 
-Here are some marketing resources we think help to describe how we work:   
-
-- coming soon
-- coming soon
-- coming soon
-- coming soon
-- coming soon
-
 # Marketing Team Functional Groups<a name="groups"></a>
 
 Our Marketing team is split into four key functional groups. All four groups are important for the success of GitLab.
 
 ### Demand generation
 
-- [Demand generation](/handbook/marketing/demand-generation)
-- [Online marketing](/handbook/marketing/online-marketing/)
-- [Business development](/jobs/business-development-representative/)
+- **Demand Generation:** [Handbook](/handbook/marketing/demand-generation), [Job Description](https://about.gitlab.com/jobs/demand-generation-manager/)  
+- **Online Marketing:** [Handbook](/handbook/marketing/online-marketing/), [Job Description](https://about.gitlab.com/jobs/online-marketing-manager/)
+- **Business Development:** [Handbook](/handbook/marketing/demand-generation), [Job Description](/jobs/business-development-representative/)
 
 ### Design
 
-- [Designer](/jobs/designer/)
+- **Designer:** Handbook coming soon, [Job Description](/jobs/designer/)
 
 ### Developer Relations
 
-- [Technical writing](/jobs/technical-writer/)
-- [Developer advocacy](/handbook/marketing/developer-relations/developer-advocacy/)
-- [Field marketing](/handbook/marketing/developer-relations/field-marketing/)
+- **Technical Writing:** Handbook coming soon, [Job Description](/jobs/technical-writer/)
+- **Developer Advocacy:** [Handbook](/handbook/marketing/developer-relations/developer-advocacy/), [Job Description](/jobs/developer-advocate)  
+- **Field Marketing:** [Handbook](/handbook/marketing/developer-relations/field-marketing/), [Job Description](/jobs/field-marketing-manager)
 
 ### Product Marketing
 
-- [Product marketing](/handbook/marketing/product-marketing/)
-- [Partner marketing](/handbook/marketing/product-marketing/#partnermarketing/)
-- [Content marketing](/handbook/marketing/developer-relations/content-marketing/)
+- **Product marketing:** [Handbook](/handbook/marketing/product-marketing/), [Job Description](/jobs/product-marketing-manager)
+- **Partner marketing:** [Handbook](/handbook/marketing/product-marketing/#partnermarketing/), Job Description coming soon.
+- **Content marketing:** [Handbook](/handbook/marketing/developer-relations/content-marketing/), [Job Description](/jobs/content-marketing-manager)
 
 # Marketing OKRs<a name="okrs"></a>
 
@@ -221,4 +219,4 @@ We use RocketChat internally as a communication tool. The marketing channels are
 - Marketo Users - Having issues with Marketo? Ask here first.
 - Newsletters - Watch our twice monthly newsletter get made here.
 - Social - Twitter, Facebook, and other social media questions?
-- Webcasts - Watch the webcast behind the scenes. 
+- Webcasts - Watch the webcast behind the scenes.
