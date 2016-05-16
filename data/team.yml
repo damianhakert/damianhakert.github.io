@@ -920,6 +920,15 @@
   story:  |
           Joining May 16th
 
+- name: E.Z.
+  role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
+  reports_to: Infrastructure Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 16th
+
 - name: M.K.
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
   reports_to: Infrastructure Lead
