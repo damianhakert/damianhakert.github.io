@@ -15,7 +15,8 @@ The GitLab Marketing team includes Demand Generation, Developer Relations, Desig
 * [Marketing team SLAs](#sla)
 * [Resources](#resources)
 * [RocketChat Marketing Channels](#chat)  
-* [Marketing Handbook Updates](#handbook)  
+* [Marketing Handbook Updates](#handbook) 
+* [Marketing emails](#email)
 
 ## Marketing Handbooks
 * [Demand Generation](/handbook/marketing/demand-generation)
@@ -241,3 +242,11 @@ Anything that is a process in marketing should be documented in the Marketing Ha
 - Each role should have a handbook page.
 - If more than one person are performing a role, the task should be shared to update the handbook with all process or guidelines.
 - Follow the style guide set by this marketing handbook page.
+
+# Marketing email alias list<a name="email"></a>
+
+- Community@gitlab.com is an external email address that goes to the CMO, Field Marketing Manager, Senior Product Marketing Manager, and Demand Generation team.  
+- Marketing@gitlab.com is an internal team email address for everyone on the marketing team.  
+- Press@gitlab.com directs to the CMO and Senior Product Marketing Manager.  
+- News@gitlab.com is an external email address for sending newsletters that goes to the Online Marketing Manager and Senior Demand Generation Manager.  
+- Securityalerts@gitlab.com is an external email address for sending security alerts that goes to the Online Marketing Manager and Senior Demand Generation Manager.  
