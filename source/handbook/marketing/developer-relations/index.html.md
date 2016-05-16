@@ -1,35 +1,15 @@
 ---
 layout: markdown_page
-title: "Marketing"
+title: "Developer Relations"
 ---
 
-The marketing team is made up of a few key functional groups:
+The Developer Relations organization includes Developer Advocacy, Technical Writing, and Field Marketing.   
 
-## Design
+Developer Relations Handbooks:  
 
-- [Designer](/jobs/designer/)
+- [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/)  
+- [Field Marketing](/handbook/marketing/developer-relations/field-marketing/)  
+- Technical Writing handbook coming soon  
 
-## Demand generation
+[Up one level to the Marketing Handbook](/handbook/marketing)  
 
-- [Demand generation](/handbook/marketing/demand-generation)
-- [Online marketing](/jobs/online-marketing-manager/)
-- [Business development](/jobs/business-development-representative/)
-
-## Developer Relations
-
-- [Technical writing](/jobs/technical-writer/)
-- [Developer advocacy](/handbook/marketing/developer-relations/developer-advocacy/)
-- [Field marketing](/handbook/marketing/developer-relations/field-marketing/)
-- [Content marketing](/handbook/marketing/developer-relations/content-marketing/)
-
-##Product Marketing
-
-- [Product marketing](/jobs/product-marketing-manager)
-- Partner and channel marketing - coming soon
-- Communications - coming soon
-
-##Marketing resources
-
-- [GitLab Marketing Project](https://gitlab.com/gitlab-com/marketing)
-- Google drive folder can be found by searching the company Google Drive for
-  "GitLab Marketing"
