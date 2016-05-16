@@ -2,11 +2,7 @@
 layout: markdown_page
 title: "Marketing"
 ---
-The Marketing organization includes Demand Generation, Product Marketing, Developer Relations, and Design.   
-
-[Up one level to the GitLab Handbook](/handbook/)    
-
-## On this page
+## Marketing Index
 * [Marketing Mission](#mission)
 * [Functional Groups](#groups)
 * [Marketing OKRs](#okrs)
@@ -14,7 +10,6 @@ The Marketing organization includes Demand Generation, Product Marketing, Develo
 * [Marketing team SLAs](#sla)
 * [Resources](#resources)
 * [RocketChat Marketing Channels](#chat)  
-* [Marketing Handbook Updates](#handbook)  
 
 ## Marketing Handbooks
 * [Demand Generation](/handbook/marketing/demand-generation)
@@ -203,7 +198,8 @@ The meeting should run as follows:
 When working remotely in such a quick moving organization, it is important for a team to agree on a few basic service level agreements on how we would like to work together. With anything, things can come up that make it not possible to meet these SLAs but we all agree to use best effort when possible.    
 
 - Respond to your emails by end of next business day.
-- Respond when you are cc'd with an action item on issues by end of next business day.  
+- Respond when you are cc'd with an action item on issues by end of next business day.
+- Don't let issues in the marketing project go un-updated for more than 14 days. Go to the (marketing issue tracker)[], sort by oldest updated, and if you see anything in there over 14 days old since last update and assigned to you,   
 - Be on time to meetings. We start at on time.  
 - Acknowledge receipt of emails (community@, FYIs) by BCC'ing the list.
 - Try not to email co-workers on weekends. Try out [Boomerang](http://www.boomeranggmail.com/) and set all your emails to send Monday morning at 6 AM. People will think you're up and working early! Time off is important. We all have stressful weeks so please unplug on the weekends where possible.
@@ -224,20 +220,4 @@ We use RocketChat internally as a communication tool. The marketing channels are
 - Marketo Users - Having issues with Marketo? Ask here first.
 - Newsletters - Watch our twice monthly newsletter get made here.
 - Social - Twitter, Facebook, and other social media questions?
-- Webcasts - Watch the webcast behind the scenes.  
-
-# Marketing Handbook Updates<a name="handbook"></a>
-
-Anything that is a process in marketing should be documented in the Marketing Handbook.  
-
-- Format of all pages should be as follows:  
-    - First line overview of the current page.
-    - Link to up one level
-    - "On this page" index of all top level headers on the current page
-    - Links to other handbooks included on this page. 
-- Rather than create many nested pages, include everything on one page of your role's handbook with an index at the top. 
-- Each role should have a handbook page.
-- If more than one person are performing a role, the task should be shared to update the handbook with all process or guidelines.
-- Follow the style guide set by this marketing handbook page. 
-
-
+- Webcasts - Watch the webcast behind the scenes.
