@@ -911,14 +911,21 @@
   story:  |
           John's interest in systems engineering surpassed 'normal' when he amassed a small data center in his house to explore theoretical design scenarios. Passionate about open source and taking his role as a 'unix beard' seriously, John loves to spread the gospel of technology to anyone who will listen. Wearing his Chef hat, and harnessing the magic of ChatOps, he is determined to make things fit into their containers.
 
-- name: C.S.
+- name: Connor Shea
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineering Intern</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: connor.png
+  twitter: connorjshea
+  gitlab: connorshea
   story:  |
-          Joining May 16th
+          One part googling, two parts trial-and-error. Sort-of self-taught 
+          front-end developer and sort-of designer. He could probably write
+          a book out of all the jokes he intends to cram into this bio.
+          Besides the above, he’s passionate about performance, user
+          experience, security, upgrading things, style guides, documentation,
+          automation, localization, open source, grammar, and enforcing
+          Oxford commas. Outside of work: video games, Dungeons & Dragons,
+          following the news, listening to music and podcasts.
 
 - name: E.Z.
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
