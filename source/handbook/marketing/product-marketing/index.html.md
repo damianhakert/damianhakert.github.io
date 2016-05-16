@@ -2,6 +2,8 @@
 layout: markdown_page
 title: "Product Marketing"
 ---
+# Welcome to the Product Marketing Handbook  
+
 The Product Marketing organization includes Content Marketing, Partner Marketing, and Product Marketing.
 
 [Up one level to the Marketing Handbook](/handbook/marketing/)

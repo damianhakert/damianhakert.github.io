@@ -2,6 +2,7 @@
 layout: markdown_page
 title: "Developer Relations"
 ---
+# Welcome to the Developer Relations Handbook  
 
 The Developer Relations organization includes Developer Advocacy, Technical Writing, and Field Marketing.   
 

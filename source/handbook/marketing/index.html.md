@@ -2,7 +2,8 @@
 layout: markdown_page
 title: "Marketing"
 ---
-## Welcome to the GitLab Marketing Handbook
+# Welcome to the GitLab Marketing Handbook  
+The GitLab Marketing team includes Demand Generation, Developer Relations, Design, and Product Marketing
 
 [Up one level to the GitLab Handbook](/handbook/)    
 
@@ -231,8 +232,9 @@ We use RocketChat internally as a communication tool. The marketing channels are
 Anything that is a process in marketing should be documented in the Marketing Handbook.  
 
 - Format of all pages should be as follows:  
-    - First line overview of the current page.
-    - Link to up one level
+    - Welcome to the Handbook
+    - Functional group overview if handbook for entire functional group or organization
+    - Link up one level
     - "On this page" index of all top level headers on the current page
     - Links to other handbooks included on this page.
 - Rather than create many nested pages, include everything on one page of your role's handbook with an index at the top.
