@@ -2,11 +2,14 @@
 layout: markdown_page
 title: "Product Marketing"
 ---
-Go to the [Marketing Handbook](/handbook/marketing)
+[Up one level to the Marketing Handbook](/handbook/marketing/)
 
-## This page
+## On this page
 * [Partner marketing](#partnermarketing)
 * [Sales enablement](#salesenablement)
+
+## Product Marketing Handbooks  
+* [Content marketing](/handbook/marketing/product-marketing/content-marketing/)
 
 ## Partner Marketing<a name="partnermarketing"></a>
 
