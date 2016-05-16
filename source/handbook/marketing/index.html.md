@@ -8,14 +8,14 @@ The GitLab Marketing team includes Demand Generation, Developer Relations, Desig
 [Up one level to the GitLab Handbook](/handbook/)    
 
 ## On this page
-* [Marketing Mission](#mission)
-* [Functional Groups](#groups)
+* [Marketing mission](#mission)
+* [Functional groups](#groups)
 * [Marketing OKRs](#okrs)
-* [Meetings and Structure](#meetings)
+* [Meetings and structure](#meetings)
 * [Marketing team SLAs](#sla)
 * [Resources](#resources)
-* [RocketChat Marketing Channels](#chat)  
-* [Marketing Handbook Updates](#handbook) 
+* [RocketChat marketing channels](#chat)  
+* [Marketing handbook updates](#handbook)
 * [Marketing emails](#email)
 
 ## Marketing Handbooks
@@ -54,9 +54,9 @@ Our Marketing team is split into four key functional groups. All four groups are
 
 ### Product Marketing
 
-- **Product marketing:** [Handbook](/handbook/marketing/product-marketing/), [Job Description](/jobs/product-marketing-manager)
-- **Partner marketing:** [Handbook](/handbook/marketing/product-marketing/#partnermarketing/), Job Description coming soon.
-- **Content marketing:** [Handbook](/handbook/marketing/developer-relations/content-marketing/), [Job Description](/jobs/content-marketing-manager)
+- **Product Marketing:** [Handbook](/handbook/marketing/product-marketing/), [Job Description](/jobs/product-marketing-manager)
+- **Partner Marketing:** [Handbook](/handbook/marketing/product-marketing/#partnermarketing/), Job Description coming soon.
+- **Content Marketing:** [Handbook](/handbook/marketing/developer-relations/content-marketing/), [Job Description](/jobs/content-marketing-manager)
 
 # Marketing OKRs<a name="okrs"></a>
 
@@ -76,7 +76,7 @@ To find the GitLab Marketing Team's OKRs, search the company Google Drive for "M
 - Graded on a scale of 0.0 to 1.0. Normal is around .8
 - [Quick overview of OKRs](http://www.slideshare.net/HenrikJanVanderPol/how-to-outperform-anyone-else-introduction-to-okr)
 
-# Meetings and Structure<a name="meetings"></a>  
+# Meetings and structure<a name="meetings"></a>  
 
 These are just the required meetings for team members and managers. Of course, meetings are encouraged when it expedites a project or problem solving amongst member so the team and company. Don't be afraid to say "Hey, can we hangout?" if you need help with something.
 
@@ -131,7 +131,7 @@ The meeting should run as follows:
 - Walk through quarterly OKRs to make sure they are relevant and see if help is needed.  
 - Discuss upcoming OKRs if close to end of a quarter.  
 
-### Bi-weekly Marketing Meeting
+### Bi-weekly marketing meeting
 
 **Meeting goal: For the entire company to gain insight into what the Marketing team is focusing on.**
 
@@ -149,7 +149,7 @@ The meeting should run as follows:
 - The meeting will then open to questions starting with the questions already documented.
 - Everyone is encouraged to participate.    
 
-### Tuesday & Thursday Dinosaur Party   
+### Tuesday & Thursday dinosaur party   
 
 **Meeting goal: Dinosaur Party! (and also make sure we're all working together effectively)**    
 **Run time: 10-15 minutes**  
@@ -164,7 +164,7 @@ The meeting should run as follows:
 
 To find the Dinosaur Sticker leaderboard, search the company Google Drive for "Dinosaurs are awesome"
 
-### Monthly Marketing Team Meeting
+### Monthly marketing team meeting
 
 **Meeting goal: OKR review and large campaign planning**
 
@@ -180,7 +180,7 @@ The meeting should run as follows:
 - Discuss any large upcoming campaigns  
 - Team OKRs are quickly reviewed and graded   
 
-### Quarterly Marketing Review
+### Quarterly marketing review
 
 **Meeting goal: How did the last quarter go? What should we do for the upcoming quarter?**
 
@@ -211,7 +211,7 @@ When working remotely in such a quick moving organization, it is important for a
 - Try not to email co-workers on weekends. Try out [Boomerang](http://www.boomeranggmail.com/) and set all your emails to send Monday morning at 6 AM. People will think you're up and working early! Time off is important. We all have stressful weeks so please unplug on the weekends where possible.
 - Do not ping someone in a public channel on RocketChat on the weekends. This is rude.
 
-# RocketChat Marketing Channels<a name="chat"></a>
+# RocketChat marketing channels<a name="chat"></a>
 
 We use RocketChat internally as a communication tool. The marketing channels are as follows:  
 
