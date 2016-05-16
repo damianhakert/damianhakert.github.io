@@ -9,9 +9,18 @@ title: "GitLab Strategy"
 
 GitLab was created because Dmitriy needed an affordable tool to collaborate with his team. He wanted something efficient and enjoyable so he could focus on his work, not the tools. He worked on it from home, a house in Ukraine without running water.
 
-We think that it is logical that our collaboration tools are a collaborative work themselves. More than 1000 people have contributed to GitLab to make that a reality. We believe in a world where **everyone can contribute**. Allowing everyone to make a proposal is the core of what a DVCS (Distributed Version Control System) such as Git enables. No invite needed: if you can see it, you can contribute.
+We think that it is logical that our collaboration tools are a collaborative work themselves. More than [1000 people](http://contributors.gitlab.com/) have contributed to GitLab to make that a reality. We believe in a world where **everyone can contribute**. Allowing everyone to make a proposal is the core of what a DVCS ([Distributed Version Control System](https://en.wikipedia.org/wiki/Distributed_version_control)) such as Git enables. No invite needed: if you can see it, you can contribute.
 
-We believe that all digital products should be open to contributions, from legal documents to movie scripts and from websites to chip designs. GitLab Inc. will develop great open source software to enable people to collaborate in this way.
+
+In summary, our vision is as follows:
+
+We believe that all digital products should be open to contributions, from legal documents to movie scripts and from websites to chip designs. GitLab Inc. develops great open source software to enable people to collaborate in this way. GitLab is integrated and opinionated collaboration software that everyone should be able to afford and adapt. With GitLab, **everyone can contribute**.
+
+## Mission
+
+Change all creative work from read-only to read-write so that **everyone can contribute**.
+
+## How
 
 1. To ensure that **everyone can contribute to digital products** we make GitLab joyful to use. It is integrated and opinionated collaboration software. Because there is no need to string together multiple tools you spend less time, have less frustration, there is less [bikeshedding](https://en.wikipedia.org/wiki/Law_of_triviality), and you get more results.
 
@@ -21,13 +30,6 @@ We believe that all digital products should be open to contributions, from legal
 
 4. To ensure that **everyone can contribute to our organization** we have open business processes that allow all team members to suggest improvements to our handbook. We hire remotely so everyone with an internet connection can come work for us and be judged on results, not presence in the office. We offer equal opportunity for every nationality. We are agnostic to location and create more equality of opportunity in the world. We engage on Hacker News, Twitter, and our blog post comments. And we strive to take decisions guided by [our values](https://about.gitlab.com/handbook/#values).
 
-In summary, our vision is as follows.
-GitLab is integrated and opinionated collaboration software that everyone should be able to afford and adapt.
-With GitLab **everyone can contribute** to digital products, GitLab itself, and our organization.
-
-## Mission
-
-Change all creative work from read-only to read-write so that **everyone can contribute**.
 
 ## Goals
 
