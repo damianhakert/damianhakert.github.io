@@ -2,7 +2,11 @@
 layout: markdown_page
 title: "Marketing"
 ---
-## Marketing Index
+The Marketing organization includes Demand Generation, Product Marketing, Developer Relations, and Design.   
+
+[Up one level to the GitLab Handbook](/handbook/)    
+
+## On this page
 * [Marketing Mission](#mission)
 * [Functional Groups](#groups)
 * [Marketing OKRs](#okrs)
@@ -10,6 +14,7 @@ title: "Marketing"
 * [Marketing team SLAs](#sla)
 * [Resources](#resources)
 * [RocketChat Marketing Channels](#chat)  
+* [Marketing Handbook Updates](#handbook)  
 
 ## Marketing Handbooks
 * [Demand Generation](/handbook/marketing/demand-generation)
@@ -219,4 +224,20 @@ We use RocketChat internally as a communication tool. The marketing channels are
 - Marketo Users - Having issues with Marketo? Ask here first.
 - Newsletters - Watch our twice monthly newsletter get made here.
 - Social - Twitter, Facebook, and other social media questions?
-- Webcasts - Watch the webcast behind the scenes.
+- Webcasts - Watch the webcast behind the scenes.  
+
+# Marketing Handbook Updates<a name="handbook"></a>
+
+Anything that is a process in marketing should be documented in the Marketing Handbook.  
+
+- Format of all pages should be as follows:  
+    - First line overview of the current page.
+    - Link to up one level
+    - "On this page" index of all top level headers on the current page
+    - Links to other handbooks included on this page. 
+- Rather than create many nested pages, include everything on one page of your role's handbook with an index at the top. 
+- Each role should have a handbook page.
+- If more than one person are performing a role, the task should be shared to update the handbook with all process or guidelines.
+- Follow the style guide set by this marketing handbook page. 
+
+
