@@ -44,7 +44,7 @@ extra_css:
                   = platform.long_name
       #tabs
         - data.platforms.each do |platform|
-          = partial "includes/downloads/platform", locals: {platform: platform}
+          = partial "includes/downloads/platform", locals: { platform: platform, type: "ce" }
       .other-downloads
         %h5
           %a{href: "/downloads-ee"} Download GitLab Enterprise Edition
