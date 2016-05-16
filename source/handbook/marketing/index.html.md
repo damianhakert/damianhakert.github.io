@@ -9,10 +9,13 @@ title: "Marketing"
 * [Meetings and Structure](#meetings)
 * [Marketing team SLAs](#sla)
 * [Resources](#resources)
+* [RocketChat Marketing Channels](#chat)
 
 # GitLab Marketing Mission: GitLab for All!<a name="mission"></a>
 
-We think GitLab (.com, CE, and EE) can help developers, designers, IT workers, marketers, and everyone in between improve collaboration.  
+We think GitLab (.com, CE, and EE) can help developers, designers, IT workers, marketers, and everyone in between improve collaboration.
+
+Our marketing issues are publicly viewable via the [GitLab Marketing issue tracker](https://gitlab.com/gitlab-com/marketing/issues).
 
 The GitLab marketing team is composed of a unique set of individuals from interesting backgrounds all over the world. Because of our unique skill sets, we're able to accomplish a lot of high impact campaigns through collaboration and open feedback from our team and the community.  
 
@@ -26,7 +29,7 @@ Here are some marketing resources we think help to describe how we work:
 
 # Marketing Team Functional Groups<a name="groups"></a>
 
-Our Marketing team is split into four key functional groups. All four groups are equally important for the success of GitLab.
+Our Marketing team is split into four key functional groups. All four groups are important for the success of GitLab.
 
 ### Demand generation
 
@@ -48,7 +51,7 @@ Our Marketing team is split into four key functional groups. All four groups are
 
 - [Product marketing](/handbook/marketing/product-marketing/)
 - [Partner marketing](/handbook/marketing/product-marketing/#partnermarketing/)
-  [Content marketing](/handbook/marketing/developer-relations/content-marketing/)
+- [Content marketing](/handbook/marketing/developer-relations/content-marketing/)
 
 # Marketing OKRs<a name="okrs"></a>
 
@@ -203,9 +206,19 @@ When working remotely in such a quick moving organization, it is important for a
 - Try not to email co-workers on weekends. Try out [Boomerang](http://www.boomeranggmail.com/) and set all your emails to send Monday morning at 6 AM. People will think you're up and working early! Time off is important. We all have stressful weeks so please unplug on the weekends where possible.
 - Do not ping someone in a public channel on RocketChat on the weekends. This is rude.
 
-# Marketing resources<a name="resources"></a>
+# RocketChat Marketing Channels<a name="chat"></a>
 
-- [GitLab Marketing Project](https://gitlab.com/gitlab-com/marketing)
-- [Public GitLab Marketing Issue Tracker](https://gitlab.com/gitlab-com/marketing/issues)
-- Google drive folder can be found by searching the company Google Drive for
-  "GitLab Marketing"
+We use RocketChat internally as a communication tool. The marketing channels are as follows:  
+
+- Marketing - This is the general marketing channel. Don't know where to ask a question? Start here.
+- Advertising - Online marketing channel
+- BDR team - For the BDR team
+- Blog - Questions about the blog? This is your place.
+- CFP - All call for speakers will be posted here.
+- DevRel - A channel for the developer relations team to collaborate.
+- Docs - Technical writing and documentation questions? This is your room.
+- Events - Everything you want to know about events.
+- Marketo Users - Having issues with Marketo? Ask here first.
+- Newsletters - Watch our twice monthly newsletter get made here.
+- Social - Twitter, Facebook, and other social media questions?
+- Webcasts - Watch the webcast behind the scenes. 
