@@ -214,7 +214,7 @@ community engagement.
 
 4. [Continuous Deployment of master to GitLab.com via packages.](https://gitlab.com/gitlab-com/operations/issues/146)
 
-5. Solutions for performance measurement, logs, and errors that ship with EE.
+5. Solutions for performance measurement, logs, including tools for alerting when something goes wrong, that ship with EE.  
 
 ## Partnerships 2016
 
