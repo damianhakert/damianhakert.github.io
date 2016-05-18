@@ -15,7 +15,6 @@ gem "middleman-livereload"
 gem "middleman-minify-html"
 gem "middleman-autoprefixer"
 gem "middleman-syntax"
-gem "middleman-breadcrumbs"
 
 gem 'kramdown', '~> 1.10'
 

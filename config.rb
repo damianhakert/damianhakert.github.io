@@ -1,5 +1,6 @@
 require 'generators/direction.rb'
 require 'generators/release_list.rb'
+require 'extensions/breadcrumbs.rb'
 
 ###
 # Page options, layouts, aliases and proxies
