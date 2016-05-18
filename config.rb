@@ -41,6 +41,8 @@ activate :autoprefixer do |config|
   config.browsers = ['last 2 versions', 'Explorer >= 9']
 end
 
+activate :breadcrumbs, wrapper: :li, separator: ''
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload

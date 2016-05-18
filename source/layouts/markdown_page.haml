@@ -8,5 +8,7 @@
     = partial "includes/layout/headline"
     .wrapper
       .container.md-page{ class: (current_page.data.page_class if current_page.data.page_class) }
+        %ol.breadcrumb
+          = breadcrumbs current_page
         = yield
     = partial "includes/layout/footer"
