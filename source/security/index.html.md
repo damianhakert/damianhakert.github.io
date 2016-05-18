@@ -143,7 +143,7 @@ Does your quality management system (QMS) include coverage for software applicat
 ### Training
 
 1. Is Internal company training available & performed commensurate with personnel roles and responsibilities?
-   - YES; peer-to-peer training is commonplace.
+   - YES; peer-to-peer training is commonplace. 
 
 1. Does training include security awareness?
    - YES; as applicable for the role.
