@@ -205,24 +205,46 @@ Does your quality management system (QMS) include coverage for software applicat
 
 ## Business Continuity Plan<a name="business-continuity-plan"></a>
 
-GitLab, by it's remote-only nature, is not easily affected by typical causes of business disruption, such as local failures of equipment, power supplies, telecommunications, social unrest, terrorist attacks, fire, or natural disasters. Even so, threats considered in the context of business continuity are:
+GitLab, by it's remote-only nature, is not easily affected by typical causes of business disruption, such as local failures of equipment, power supplies, telecommunications, social unrest, terrorist attacks, fire, or natural disasters. Even so, threats considered in the context of business continuity are categorized by impact of the disruption.
 
-1. Disruption of service of Azure, specifically the region in which GitLab.com is hosted.
+**P1: Outage would have immediate impact on GitLab customer / user operations**
+
+1. Disruption of service of Azure, specifically the region in which GitLab.com and dev.gitlab.org are hosted.
    - Effect: a loss of the Azure service means that GitLab.com is not available. This affects anyone who uses GitLab.com to host their repositories. GitLab.com is also the primary server where GitLab CE and EE source code and packages are hosted.
    - Solution(s): There are many other servers across the globe where GitLab CE is readily available.
-
-1.  Disruption of Amazon Web Services, specifically the region in which dev.gitlab.org is hosted (CORRECT?).
-   - Effect: Security releases are developed and staged on dev.gitlab.org before being brought to production on GitLab.com.
-   - Solution(s): Depending on the duration and nature of the disruption, the solution is to wait for service to be restored (minimal duration), or build a new staging server. Backups? TODO
+   - Effect: Security releases are developed and staged on dev.gitlab.org before being brought to production on GitLab.com; these may be lost or unavailable for the duration of the disruption.
+   - Solution(s): Depending on the duration and nature of the disruption, the solution is to wait for service to be restored (minimal duration), or build a new staging server. Using VM snapshots, recovery from backup is relatively quick.
 
 1. Unavailability of support staff in case of customer emergency.
    - Effect: emergency response times are greater than intended.
-   - Solution(s): The team is distributed geographically (except during team get-togethers). Customer emergencies are handled by _any_ person who is in the [on-call rotation](/handbook/support/pagerduty). Emergencies also trigger automatic notifications on our internal chat system, alerting the entire company.
+   - Solution(s): The team is distributed geographically (except during team get-togethers). Customer emergencies are handled by _any_ person who is in the [on-call rotation](/handbook/support/pagerduty). The on-call load is distributed at many levels, service engineers, production engineers, and even developers can be summoned when we have an outage or a customer incident. Emergencies also trigger automatic notifications on our internal chat system, alerting the entire company. There is also an ongoing effort to publish our [runbooks](https://gitlab.com/gitlab-com/runbooks), explaining how we manage our infrastructure and how we deal with outage cases.
+
+1. Disruption of service of ZenDesk.
+   - Effect: support workflows are disrupted. New tickets cannot be created, existing tickets cannot be responded to.
+   - Solution(s): For the duration of the outage (if more than e.g. 4 hours) temporarily re-route incoming support requests to individual email accounts of members of the support team. Customers with premium support also have access to a direct chat channel.
+
+**P2: Outage would have immediate impact on GitLab ability to continue business**
 
 1. Malicious Software (Viruses, Worms, Trojan horses) attack.
-  - Effect:
-  - Solution(s)
+   - Effect: depends on attack.
+   - Solution(s): All the hosts in our fleet are running rkhunter every day to check for known rootkits. We get notifications whenever we detect a change in any of our hosted systems. Each case is handled manually for now.
 
 1. Hacking or other Internet attacks.
-   - Effect:
-   - Solution(s)
+   - Effect: depends on attack.
+   - Solution(s): We log and track any access that happens on any server in the fleet using logstash/kibana at log.gitlap.com.
+
+
+**P3: Outage greater than 72 hours would have impact on GitLab ability to continue to do business**
+
+Disruption of service from Salesforce.com, Zuora
+   - No failover plan currently.
+
+**P4: Outage greater than 10 business days would have impact on GitLab ability to continue business**
+
+Disruption of service from TriNet, NetSuite, Google (gmail)
+   - No failover plan currently.
+
+**P5: Non critical system**
+
+Disruption of service from Egencia, rocket.chat.
+   - No failover plan currently.
