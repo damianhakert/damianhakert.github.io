@@ -9,8 +9,6 @@ title: "People Operations"
    - [Using HelloSign](#hellosign)
 - [Processing changes](#processing-changes)
 - [Using BambooHR](#bamboohr)
-   - [Adding a new team member to BambooHR](#admin-bamboo)
-   - [Using BambooHR as a new team member](#new-member-bamboo)
 - [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)   
 - [Administrative details of benefits for US-based employees](#benefits-us)
    - [401k](#401k)
@@ -36,7 +34,6 @@ member of the People Operations team, as listed on our [Team page](https://about
 ## Setting up new hiring contracts<a name="new-contracts"></a>
 
 New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/) page, including instructions on how to set up new contracts.
-Templates for the contracts are set up in BambooHR. You can download the template from the "Files" tab and work on the contract using Google Drive. Here you can work together if you need help and download the PDF for HelloSign.
 
 
 ### Using HelloSign<a name="hellosign"></a>
@@ -71,7 +68,7 @@ to confirm this.
 
 ## Using BambooHR<a name="bamboohr"></a>
 
-We’re using [BambooHR](https://gitlab.bamboohr.com) to keep all team member information
+We use [BambooHR](https://gitlab.bamboohr.com) to keep all team member information
 in one place. All team members (all contract types) are in BambooHR.
 
 Some changes or additions we make to BambooHR require action from our team members.
@@ -88,32 +85,6 @@ test account that does not have admin privileges.
 1. in the note to the team, point to the documentation created in step 1, explain the need and
 the ask, and who to turn to in case of questions.
 
-### Adding a new team member to BambooHR <a name="admin-bamboo"></a>
-
-After People Ops is requested to make a contract or offer letter for a potential hire,
-as described on our [Hiring](/handbook/hiring/) page, follow these steps:
-
-1. Download the correct template from the files page on BambooHR
-1. Edit the contract or offer letter to include the new hire information.
-1. Send out the document to be signed using HelloSign, \cc people ops in this process. (document HelloSign first)
-1. Once the document has been signed, create a BambooHR employee file:
-   1. Go to the BambooHR Dashboard
-   1. Click on the top right on “Add employee”
-   1. Enter the following fields: First name, Last name, Gender, Hire date, Employment status, Job information, Pay rate, Salary for employees, or select another option.
-   1. Turn “self service” on for the employee to enter the following info: Address, Phone, DOB. private email.
-1. Save the signed contract under the Documents tab in the folder “0.Signed Contract/Offer Letter”.
-1. As noted in the onboarding checklist, on the start date of the employee send out the "password reset email" under
-the settings option in the top right of the profile (next to "request a change")
-**Note** This link is only valid for 24 hours.
-
-### Using BambooHR as a new team member<a name="new-member-bamboo"></a>
-
-Team members can keep their information in BambooHR updated using self-service:
-
-1. Go to the BambooHR link that you should have received by email
-1. Change the password to make it secure (see the handbook section on [secure passwords](https://about.gitlab.com/handbook/security/))
-1. Login with your new credentials
-1. Keep your credentials stored in your 1Password Vault and keep the info in BambooHR updated (e.g. change address when moving)
 
 ## Managing the PeopleOps onboarding tasks <a name="manage-onboarding-tasks"></a>
 
@@ -129,13 +100,13 @@ and click the dropdown triangle. Select calendar settings and go to "Share this
 calendar" in the top of the window. Enter the GitLab email address and scroll
 down to set the permission setting to "make changes to events" Then save in the
 lower left corner.
-- **Add blank entry to team page**
+- **Add blank entry to team page**<a name="blank-entry"></a>
 Login to [Gitlab.com](www.gitlab.com) and go to the www-gitlab-com project. In
 the left menu click "Files" and select the folder called "source". Continue by
 clicking the folder "data" and select the file called team.yml. In the top right
 corner you can click "edit" to make edits to the code. Scroll all the way down
 and copy-paste the code of the previous blank entry to the team page. Edit the
-fields to the right info of the new hire and find the right job description on
+fields to the right info of the new hire and find the right job description URL on
 the [Jobs](https://about.gitlab.com/jobs/) page.
  **Note** _This can be tricky, so if you run into trouble reach out to some of
 your awesome colleagues in the #questions (channel) on Slack_
@@ -149,28 +120,28 @@ scheduled GitLab 101 in the Availability calendar. Click on "edit event" to open
 On the right enter the team member's GitLab email address in the  "add guests"
 section and click save. When asked select "all events" to add to all scheduled
 meetings and "send" out the invitation.
-- **Order business cards**
+- **Order business cards**<a name="b-cards"></a>
 Go to the "Notes" field in BambooHR and enter the info needed for the Business Cards.
 Once every week/few days or how often needed, run the "Business Cards order" report in the Reports - My Reports menu of BambooHR.
 Email our partner to order new business cards and add the info for the cards to
 be ordered. Include the address of the team member (found in BambooHR) and inform
 our partner to _**ship the cards directly to that address**_. Double check the
 info that is sent with the preview before approving the print.
-- **Add team member to Expensify (only with employees)**
+- **Add team member to Expensify (only with employees)**<a name="add-expensify"></a>
 Login to [Expensify](https://www.expensify.com/signin) and go to "Admin" in the
 top menu. Select the right policy based upon the entity that employs the new team
 member. Select "People" in the left menu. Select "Invite" and add the GitLab email.
 Edit the message to be sent for the employee. Click "invite".
-- **Add team member to Beamy**
+- **Add team member to Beamy**<a name="add-beamy"></a>
 Login in to access the settings for the [Beam](https://suitabletech.com/accounts/login/).
 In the top menu move your cursor over the blue login button. Go to "Manage your beams".
 Click on "manage" in the lower left corner. Enter the GitLab email and scroll down
-to find the newly addedd email. Check the box for "Auto connect".
+to find the newly added email. Check the box for "Auto connect".
 - **Add team member into the Austin info sheets**
 Add the team member's name to the Travel and Lodging Google sheets to make sure they enter flight details and they are assigned a room.
-- **Add team member to our Egencia platform**
+- **Add team member to our Egencia platform**<a name="add-egencia"></a>
 Log into Egencia and go to the menu option "manage users". Choose "new user account" and fill in the passport name of the new team member.
-As username choose the same handle as on our dev page. Enter the GitLab email address and uncheck the newsletter box.
+As username choose the same handle as on our dev domain. Enter the GitLab email address and uncheck the newsletter box.
 Lastly assign the department in which the new team member is working.
 
 ## Administrative details of benefits for US-based employees <a name="benefits-us"></a>
@@ -303,17 +274,17 @@ number is dialed.
 
 ## Paperwork people may need to obtain mortgage in the Netherlands<a name="dutch-mortgage"></a>
 
-When your employment contract is for a fixed period of time (e.g. 12 months) you'll need a "werkgeversverklaring". 
-This document describes your salary and states that your employer expects to continue to employ 
-you after the contract expires (assuming the performance of the employee doesn't degrade). 
-This document has to be filled in by hand, preferably using blue ink, and must be signed 
-and stamped. If there is no stamp (as is the case for GitLab) an extra letter (also signed) 
-must be supplied that states the employer has no stamp. While the language of these 
+When your employment contract is for a fixed period of time (e.g. 12 months) you'll need a "werkgeversverklaring".
+This document describes your salary and states that your employer expects to continue to employ
+you after the contract expires (assuming the performance of the employee doesn't degrade).
+This document has to be filled in by hand, preferably using blue ink, and must be signed
+and stamped. If there is no stamp (as is the case for GitLab) an extra letter (also signed)
+must be supplied that states the employer has no stamp. While the language of these
 documents doesn't matter, the use of Dutch is preferred.
 
-Employees also have to provide a copy of a payslip that clearly states not only their 
-monthly salary but also their annual salary. These numbers must match the numbers on 
-the "werkgeversverklaring" down to the decimals. Mortgage providers may also require 
-you to provide information about your financial status, usually in the form of a report/screenshot 
-of your total financial status (including any savings you have). The requirements for 
+Employees also have to provide a copy of a payslip that clearly states not only their
+monthly salary but also their annual salary. These numbers must match the numbers on
+the "werkgeversverklaring" down to the decimals. Mortgage providers may also require
+you to provide information about your financial status, usually in the form of a report/screenshot
+of your total financial status (including any savings you have). The requirements for
 this seem to vary a bit between mortgage providers.

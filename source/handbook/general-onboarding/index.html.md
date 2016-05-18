@@ -10,7 +10,7 @@ title: "GitLab Onboarding"
 * [Service engineer onboarding](/handbook/support/onboarding/)
 * [Offboarding](/handbook/offboarding/)
 
-## This page
+## This page 
 
 * [Master Checklist for Onboarding of New Hires](#checklist)
 * [Onboarding Topics That Apply to Everyone](#everyone)
@@ -36,13 +36,13 @@ lines of the master checklist, paste the private email address of the hire in
 there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @kirsten, and @tiffanie.
 * [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @HANDLE (Nominate someone preferably in similar timezone but different functional group)), and People Ops is tackled by (FILL IN WITH @ HANDLE).
 * [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
-* [ ] People Ops: Add blank entry to team page (only the start date and position, use "logo-extra-whitespace.png" for the picture) so the team can see when new people are joining.
+* [ ] People Ops: [Add blank entry to team page](https://about.gitlab.com/handbook/people-operations/#blank-entry) (only the start date and position, use "logo-extra-whitespace.png" for the picture) so the team can see when new people are joining.
 * [ ] People Ops: Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
 * [ ] New team member: provide scan of photo ID to People Ops.
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), read
 the relevant onboarding pages that are linked from there, and become comfortable
 with Git and the GitLab workflow.
-* [ ] People Ops: create new profile for team member in BambooHR, and input relevant data (title, dates, contract type, compensation) into the team members profile tabs "Job". Be sure to enable "self-service" before saving the newly entered information.
+* [ ] People Ops: create new profile for team member in BambooHR, and input relevant data (title, dates, contract type, compensation) into the team members profile tabs "Job". Be sure to add the personal and work email address and to enable "self-service" before saving the newly entered information.
 * [ ] People Ops: file signed contract with PIAA or NDA+IP agreements in BambooHR profile under "Documents"-->"Signed Contract/Offer Letter". Set the uploaded documents to "shared" so that the team member can also view them.
 * [ ] People Ops: when applicable, file photo ID in BambooHR profile under "Documents"--> "Verification Docs"
 * [ ] People Ops: list any stock options that were part of the offer in BambooHR profile under "Benefits"--> "Stock Options"
@@ -100,18 +100,16 @@ to the proper shared Vaults by making a suggestion in the relevant cell in the "
 * [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
 * [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
 * [ ] Robert/Jacob/Ernst: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
-* [ ] New team member: Use the "reset your password" email of BambooHR to set a password and access your profile.
-* [ ] New team member: Add your Address, Phone number, private email and emergency contact to your BambooHR profile page.
+* [ ] New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information.
 * [ ] New team member: Set up [Calendly](https://about.gitlab.com/handbook/#calendly) and add your Calendly link to your Slack profile.
 
 ### WITHIN FIRST WEEK OF STARTING
 
-* [ ] PeopleOps: Invite to autoconnect on [Beamy](https://about.gitlab.com/handbook#beamy-guidelines).
-* [ ] PeopleOps: Order business cards for new team member.
-* [ ] PeopleOps: Add team member to Expensify (if employee).
+* [ ] PeopleOps: [Invite to autoconnect](https://about.gitlab.com/handbook/people-operations/#add-beamy) on [Beamy](https://about.gitlab.com/handbook/#beamy-guidelines).
+* [ ] PeopleOps: Order [business cards](https://about.gitlab.com/handbook/people-operations/#b-cards) for new team member.
+* [ ] PeopleOps: [Add team member](https://about.gitlab.com/handbook/people-operations/#add-expensify) to Expensify (if employee).
 * [ ] PeopleOps: Add new team member to the info sheets of the Austin Summit.
-* [ ] PeopleOps: Send the new team member the "reset password" email for their BambooHR profile.
-* [ ] PeopleOps: Create a profile on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
+* [ ] PeopleOps: [Create a profile](https://about.gitlab.com/handbook/people-operations/#add-egencia) on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
 * [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team.
    * [ ] 1. call with ___
    * [ ] 2. call with ___
