@@ -51,6 +51,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Referral Bonuses](#referral-bonuses)
    * [Work Remotely Travel Grant](#travel-grant)
 * [Signing Legal Documents](#signing-legal-documents)
+* [Working Remotely](#working-remotely)
 * [Tools and Tips](#tools)
 * [Using Git to update this website](#starting-with-git)
 
@@ -558,6 +559,24 @@ send a copy of the document to legal@gitlab.com with the following information:
 The document will be managed through HelloSign, a cloud-based electronic
 signature tool. Only C-level executives can sign legal documents, with the
 exception of NDAs covering a physical visit of another organization.
+
+## Working remotely<a name="working-remotely"></a>
+
+Working remotely has a lot of advantages, but also a couple of disadvantages.
+The goal of this section is to provide information and tips to maximize the
+advantages and make you aware on the disadvantages.
+
+Probably the biggest advantage of working remotely and asynchronous is the
+flexibility it provides. This makes it easy to combine with your personal life
+although it might be difficult to balance it with your personal life. This can
+be mitigated by either explicitly planning your time off or plan when you do
+work. When you don't work it is recommended to make yourself unavailable by
+turning off RocketChat and closing down your email client.
+
+If you worked at an office before, now you lack a default group to go out to
+lunch with. To look at it from a different perspective, now you can select who
+you lunch with and who you do not lunch with. Haven't spoken to a good friend in
+while? Now you can have lunch together.
 
 ## Tools and Tips<a name="tools"></a>
 
