@@ -55,6 +55,11 @@ If you email us we'll reply with [a link to this paragraph](/jobs/#no-recruiters
 - [Description](/jobs/frontend-engineer/)
 - [Apply](https://gitlab.workable.com/jobs/181461/candidates/new)
 
+### General Ledger Accountant (part time)
+
+- [Description](/jobs/general-ledger-accountant/)
+- [Apply](https://gitlab.workable.com/jobs/260762/candidates/new)
+
 ### People Operations Coordinator
 
 - [Description](/jobs/people-ops-coordinator/)

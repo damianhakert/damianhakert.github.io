@@ -3,6 +3,8 @@ layout: markdown_page
 title: "General Ledger Accountant"
 ---
 
+Currently this is a **part-time** position.
+
 ## Responsibilities
 
 - Manage full-cycle accounts payable process including vendor and invoice management, approval and weekly disbursement activities.
