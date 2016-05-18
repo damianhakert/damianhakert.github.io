@@ -74,7 +74,7 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 
 ### Opportunity Types <a name="types"></a>
 
-1. New Business - This type should be used for any new account (business) who signs up
+1. New Business - This type should be used for any new account (business) who signs up. Paid training also falls under this type if the organization does not have an enterprise license.
 1. Web Direct -  This type should be used for any new business who pays directly online
 1. Add-on - This type should be used for any incremental/upsell business sold into an existing account and division mid term, meaning not at renewal.
 1. Exisiting Account (new divsion) - This type should be used for new business sold into an existing account but a new division, a new puchasing group.
