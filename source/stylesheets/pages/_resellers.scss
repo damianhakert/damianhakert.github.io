@@ -1,8 +1,8 @@
 .reseller-hero {
   position: relative;
   padding: 20px 0;
-  background-color: #35393d;
-  background-image: url(/images/resellers/bg.png);
+  background-color: $reseller-hero-bg-color;
+  background-image: url("/images/resellers/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -22,14 +22,14 @@
     padding-bottom: 70px;
   }
 
-  &:before {
-    content: '';
+  &::before {
+    content: "";
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(to bottom, rgba(#35393d, .9), #35393d);
+    background-image: linear-gradient(to bottom, rgba($reseller-hero-bg-color, .9), $reseller-hero-bg-color);
   }
 
   .container {
@@ -54,7 +54,7 @@
 
   p {
     margin-bottom: 0;
-    color: #969696;
+    color: $reseller-hero-content-color;
     font-size: 16px;
     font-weight: 300;
 
@@ -155,8 +155,8 @@
       padding-bottom: 15px;
       margin-bottom: 14px;
 
-      &:after {
-        content: '';
+      &::after {
+        content: "";
         position: absolute;
         left: 50%;
         bottom: 0;
