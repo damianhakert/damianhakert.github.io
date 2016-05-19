@@ -30,35 +30,16 @@ Here's an example GitLab CI configuration file (`.gitlab-ci.yml`) which builds a
 
 ```
 build_image:
+  image: docker:git
+  services:
+  - docker:dind
   script:
+    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN gitlab.com:5005
     - docker build -t my-group/my-project .
     - docker run my-group/my-project /script/to/run/tests
-    - docker tag my-group/my-project gitlab.com/my-group/my-project:latest
-    - docker push gitlab.com/my-group/my-project:latest
+    - docker tag my-group/my-project gitlab.com:5005/my-group/my-project:latest
+    - docker push gitlab.com:5005/my-group/my-project:latest
   only:
-    - master
-```
-
-or more elaborately:
-
-```
-before_script:
-  - docker info
-
-build_image:
-  script:
-    - docker build -t $CI_PROJECT_NAME:latest .
-    - docker run $CI_PROJECT_NAME:latest /script/to/run/tests
-    - docker push $CI_REGISTRY/$CI_PROJECT_NAME:latest
-  only:
-    master
-
-build_image:
-  script:
-    - docker build -t $CI_PROJECT_NAME:$CI_BUILD_REF .
-    - docker run $CI_PROJECT_NAME:$CI_BUILD_REF /script/to/run/tests
-    - docker push $CI_REGISTRY/$CI_PROJECT_NAME:$CI_BUILD_REF
-  except:
     - master
 ```
 
