@@ -1,0 +1,86 @@
+- name: ReleaseTEAM
+  image: /images/resellers/release-team-logo.png
+  content: |
+    ReleaseTEAM is a veteran owned DevOps consulting firm. We help with Development and Deployment tool implementations, migrations, tool evaluations and software sales with tools from. We have established best of breed partnerships that allow us to have a unique expertise in helping our clients with problems or assessing their environments to identifying areas for improvement.
+  email: GitLab@ReleaseTEAM.com
+  contact:
+    - address: Denver/CO, USA
+      phone: +1 (720) 887-0489
+    - address: Toronto/ON, Canada
+      phone: +1 (866) 887-0489
+  social:
+    - type: twitter
+      url: https://twitter.com/ReleaseTEAM
+    - type: linkedin
+      url: http://www.linkedin.com/in/releaseteam
+- name: InTENSO
+  image: /images/resellers/intenso-logo.svg
+  content: |
+    IT Experts provides a wide range of IT solutions for more than 5 million people from 104 countries all over the world. We believe that these people trust us, not only for the reason that we create IT products or provide services, but we are also in the position to support the development of innovative business models, provide continuous growth and operational excellence.
+
+    IT Experts dostarcza szeroki zakres rozwiązań IT, z których korzysta ponad 5 milionów ludzi w 64 krajach na całym świecie. Wierzymy, że zaufanie którym darzą nas klienci jest nie tylko zasługą dostarczania przez nas wysokiej jakości produktów oraz usług IT, ale przede wszystkim cenią nas za rozumienie ich biznesu. Dodatkowo wspieramy ich w budowaniu innowacyjnych modeli biznesowych oraz zapewniamy nieustanny rozwój i operacyjną doskonałość.
+  email: intenso@intenso.pl
+  contact:
+    - address: Wrocław, Polska
+      phone: + 48 (71) 33 29570
+      website: http://www.InTENSO.pl
+    - address: Berlin, Germany
+      phone: + 49 (30) 374 334 69
+      website: http://www.intenso-it-experts.de
+  social:
+    - type: twitter
+      url: https://twitter.com/intenso10
+    - type: facebook
+      url: https://www.facebook.com/InTENSO.IT.Enterprise.Solutions
+    - type: linkedin
+      url: https://www.linkedin.com/company/117944
+    - type: google-plus
+      url: https://plus.google.com/+InTENSOpl-IT-Enterprise-Solutions/
+- name: MOUSoft
+  image: /images/resellers/mousoft-logo.svg
+  content: |
+    MOUSoft focuses on software engineering solutions and consulting about ADLM in Korea. Our reliable software engineering solutions and training will help ensure your team can proceed successfully with your projects.
+
+    모우소프트는 소프트웨어 공학 솔루션 및 ADLM 컨설팅 전문 기업입니다. 소프트웨어 공학이 기업에 성공적으로 정착할 수 있도록 최적의 솔루션과 최고의 컨설팅을 제공합니다. 우리는 모든 회사의 팀들이 성공하는 프로젝트가 되도록 지원하는 것을 목표로 합니다.
+  email: sales@mousoft.co.kr
+  contact:
+    - address: 서울, 한국
+      phone: +82 (2) 508-2733
+      website: http://mousoft.co.kr/
+    - website: http://blog.naver.com/mousoft
+- name: Softmart
+  image: /images/resellers/softmart-logo.svg
+  content: |
+    Softmart provides professional services mostly in ALM and ITSM areas in Russia helping organizations to adopt Process management, Continuous Integration, Continuous Deployment, Change and Release Management best practices while approaching DevOps or ITIL targets.
+
+    Softmart оказывает профессиональные инженерные услуги в области разработки, внедрения и поддержки комплексных решений автоматизации ИТ деятельности предприятий, включая процессы разработки ПО и процессы сервисного обслуживания, помогая организациям адаптировать лучшие практики управления бизнес процессами, непрерывной сборкой и развёртыванием, управления изменениями и релизами в контексте внедрения DevOps или ITIL.
+  email: GitLab@SoftMart.ru
+  contact:
+    - address: Москва, Россия
+      phone: + 7 (495) 730-88-03
+    - website: http://www.softmart.ru/ru/content/pages/GitLab.htm
+  social:
+    - type: facebook
+      url: https://www.facebook.com/softmartRUS
+    - type: linkedin
+      url: https://www.linkedin.com/company/softmart-ltd
+- name: Instruct
+  image: /images/resellers/instruct-logo.png
+  content: |
+    Instruct offers IT infrastructure solutions focused on automation, configuration management and agile principles. Our highly qualified team helps organizations improve their workflow when deploying applications and new services, enabling them to save time and reduce costs and errors. Our services include: DevOps consulting, Infrastructure automation, Continuous integration and delivery development.
+
+    Instruct oferece soluções em infraestrutura de TI focadas em automação, gerencia de configuração e princípios ágeis. Nosso time altamente qualificado ajuda organizações a melhorarem seus fluxos na entrega de aplicações e novos serviços, possibilitando na economia de tempo e redução de custos e erros. Nossos serviços incluem: Consultoria em DevOps, Automação de Infraestrutura e desenvolvimento de Integração e Entrega Contínua.
+  email: GitLab@Instruct.com.br
+  contact:
+    - address: São Paulo/SP, Brasil
+      phone: + 55 (11) 3230-6506
+    - address: Brasília/DF, Brasil
+      phone: + 55 (61) 4042-2250
+    - website: http://instruct.com.br/gitlab/
+  social:
+    - type: youtube
+      url: https://youtube.com/instructbr
+    - type: twitter
+      url: https://twitter.com/instructbr
+    - type: facebook
+      url: https://facebook.com/instructbr

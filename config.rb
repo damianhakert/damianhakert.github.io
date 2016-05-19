@@ -70,6 +70,10 @@ helpers do
 
     h(content)
   end
+
+  def markdown(text)
+    Tilt['markdown'].new { text }.render
+  end
 end
 
 # Build-specific configuration
