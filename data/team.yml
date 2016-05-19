@@ -919,13 +919,12 @@
   gitlab: connorshea
   story:  |
           One part googling, two parts trial-and-error. Sort-of self-taught 
-          front-end developer and sort-of designer. He could probably write
-          a book out of all the jokes he intends to cram into this bio.
-          Besides the above, he’s passionate about performance, user
-          experience, security, upgrading things, style guides, documentation,
-          automation, localization, open source, grammar, and enforcing
-          Oxford commas. Outside of work: video games, Dungeons & Dragons,
-          following the news, listening to music and podcasts.
+          front-end developer and sort-of designer. He’s passionate about
+          performance, user experience, security, upgrading things, style
+          guides, documentation, automation, localization, open source,
+          grammar, and enforcing Oxford commas. Outside of work: video games,
+          Dungeons & Dragons, following the news, listening to music and
+          podcasts, and thoughtleading.
 
 - name: E.Z.
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
