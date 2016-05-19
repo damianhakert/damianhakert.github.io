@@ -19,10 +19,10 @@ Built on [open source](https://github.com/docker/distribution), GitLab Container
 
 - User authentication is from GitLab itself, so all the user and group definitions are respected.
 - There's no need to create repositories in the registry; the project is already defined in GitLab.
-- Every project can have an image repository, but this can be turned off per-project.
 - Projects have a new tab, Container Registry, which lists all images related to the project.
-- Easily upload and download images from GitLab CI.
-- There's no need to download additional software.
+- Every project can have an image repository, but this can be turned off per-project.
+- Developers can easily upload and download images from GitLab CI.
+- There's no need to download or install additional software.
 
 ## Example
 
