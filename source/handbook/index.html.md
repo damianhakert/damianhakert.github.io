@@ -562,21 +562,23 @@ exception of NDAs covering a physical visit of another organization.
 
 ## Working remotely<a name="working-remotely"></a>
 
-Working remotely has a lot of advantages, but also a couple of disadvantages.
+Working remotely has a lot of advantages, but also a couple of challenges.
 The goal of this section is to provide information and tips to maximize the
-advantages and make you aware on the disadvantages.
+advantages and make you aware of the challenges and provide tips on how to deal
+with them.
 
 Probably the biggest advantage of working remotely and asynchronous is the
-flexibility it provides. This makes it easy to combine with your personal life
-although it might be difficult to balance it with your personal life. This can
-be mitigated by either explicitly planning your time off or plan when you do
-work. When you don't work it is recommended to make yourself unavailable by
-turning off RocketChat and closing down your email client.
+flexibility it provides. This makes it easy to ***combine*** work with your
+personal life although it might be difficult to find the right ***balance***.
+This can be mitigated by either explicitly planning your time off or plan when
+you do work. When you don't work it is recommended to make yourself unavailable
+by turning off RocketChat and closing down your email client. Coworkers should
+allow this to work by abiding by the [communication guidelines][async-communication].
 
 If you worked at an office before, now you lack a default group to go out to
 lunch with. To look at it from a different perspective, now you can select who
 you lunch with and who you do not lunch with. Haven't spoken to a good friend in
-while? Now you can have lunch together.
+a while? Now you can have lunch together.
 
 ## Tools and Tips<a name="tools"></a>
 
@@ -760,3 +762,4 @@ A pop-up window will open and tell you how many links, if any, are invalid.
 Fix any invalid links and ideally any warnings, commit, push back, test again.
 
 [check-my-links]: https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf/
+[async-communication]: https://about.gitlab.com/2016/03/23/remote-communication#asynchronous-communication-so-everyone-can-focus
