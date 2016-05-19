@@ -73,7 +73,7 @@ information:
           created.
 ```
 Don't forget to use other team members' information as a reference and to
-respect the spaces between lines. Please don't use "tab" because it will brake the page format.
+respect the spaces between lines. Please don't use "tab" because it will break the page format.
 
 12. After you added your information, add a comment to your commit and click
 on “Commit Changes”.
