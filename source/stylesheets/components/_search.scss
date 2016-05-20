@@ -4,6 +4,10 @@
   outline: 0;
   border-radius: 3px;
   transition: all .3s;
+
+  @media (min-width: $screen-md-min) {
+    font-size: 16px;
+  }
 }
 
 .search-icon {
@@ -57,10 +61,6 @@
     padding-left: 0;
     padding-right: 0;
     border: 0;
-
-    @media (min-width: $screen-md-min) {
-      font-size: 16px;
-    }
   }
 }
 
