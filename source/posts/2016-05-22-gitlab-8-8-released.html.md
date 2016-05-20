@@ -96,13 +96,25 @@ gitlab-org/gitlab-ce%8.8
 [milestone 8.8](%8.8)
 ```
 
+## Performance Changes
+
+* [Use tag_exists? in GitAccess#protected_tag?](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3983): improves SSH/HTTPS pushing performance by only checking a single Git tag upon push instead of all existing Git tags (mostly noticeable on projects with lots of tags)
+* [Cleaned up/tweaked Project#open_branches](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3985) and [Improve multiple branch push performance by memoizing permission checking](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4091): improves SSH/HTTPS pushing performance by cutting down the time spent in checking if branches are protected or not
+* [Removed tracking of total method execution times](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4124): total method execution timings are no longer tracked by GitLab Performance Monitoring
+* [Instrument all Grape API helpers](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4169): GitLab Performance Monitoring now instruments all Grape API helpers
+
+Uptime changes:
+
+* [Added helper methods for database migrations](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3860)
+and [Move generator templates to generator_templates/](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4217):
+upgrading from GitLab 8.7.x to GitLab 8.8.0 does not require any downtime as
+all migrations can now be performed without stopping your GitLab instance. The
+goal for future releases is to also allow online upgrades unless downtime is an
+absolute requirement.
+
 ## Upgrade barometer
 
-
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
-*** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
-
+Upgrading from 8.7.x to 8.8.0 requires **no downtime**.
 
 *Note* We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
 If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
