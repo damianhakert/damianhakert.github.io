@@ -226,7 +226,7 @@ Google Drive.
 Instead, write the name of the Google Doc. In the past, giving the URL of a doc
 has led to inadvertent opening of sharing settings beyond what was intended, and it also helps
 prevent spam from people outside of GitLab who request access to the doc when they see the link.
-1. If you are having trouble finding a shared Google Doc, make sure you ["Search <your domain>"](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
+1. If you are having trouble finding a shared Google Doc, make sure you [Search &lt;your domain&gt;](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
 1. All our procedures and templates are stored in (mostly public) git repositories
 instead of Google/Word documents. This makes them easier to find and suggest
 changes to with the organization and shows our commitment to open collaboration
