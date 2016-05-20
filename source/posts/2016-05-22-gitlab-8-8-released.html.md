@@ -3,8 +3,8 @@ layout: post
 title: "GitLab 8.8 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 date: 2016-05-22
 categories:
-author: ADD_YOUR_FULL_NAME
-author_twitter: TWITTER_USERNAME
+author: Job van der Voort
+author_twitter: Jobvo
 image_title: /images/7_X/PICTURE.PNG
 ---
 
@@ -15,13 +15,51 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 <!--more-->
 
-## feature 1
+## Pipelines
 
 > [Documentation link](link)
 
-## feature 2
+## .gitignore templates
 
 > [Documentation link](link)
+
+## Priority Labels
+
+> [Documentation link](link)
+
+## GitHub Importer Improvements
+
+
+ Fix link to GHE projects in the import page (gitlab-org/gitlab-ee#478)
+ Keep Issues/PRs references (#15294)
+ Import Milestones (#15293)
+ Import Labels (#15292)
+ Fix line code for comments on diff when importing PRs from GitHub (#17205)
+ Import PRs where the source/target branch was removed (#15355)
+
+ > [Documentation link](link)
+
+## Suppress Text File diffs through .gitattributes
+
+https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3806
+
+
+## New shortcuts
+
+- On a project: `i` To navigate to New Issue page.
+- On a issuable: `l` To open Label dropdown on a issuable.
+- Global: Typing `?` multiple times now toggles the modal.
+
+## Toggle whitespace changes 
+
+
+## Upcoming Feature
+
+This release contains another cool feature that we're saving
+for tomorrow.
+
+We almost can't contain our excitement about how our announcement
+on Monday will register with you!
 
 ## Other changes
 
