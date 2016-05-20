@@ -21,4 +21,9 @@ $(function () {
       $this.find(target).equalHeights();
     });
   }, 500);
+
+  $('.js-faq-question').on('click', function (e) {
+    e.preventDefault()
+    $(this).closest('.faq-item').toggleClass('is-open');
+  });
 });

@@ -1,0 +1,33 @@
+payment_url: https://gitlab.recurly.com/subscribe/gitlab_ee_annual_fee_per_user
+compare:
+  - icon:
+    title: Project importing from GitHub
+    subtitle: Community & Enterprise Edition
+  - icon:
+    title: Top Enterprise Feature
+    subtitle: Enterprise Edition
+  - icon:
+    title: Top Enterprise Feature
+    subtitle: Enterprise Edition
+  - icon:
+    title: GitLab Continuous Integration
+    subtitle: Community & Enterprise Edition
+  - icon:
+    title: LDAP Group Sync
+    subtitle: Enterprise Edition
+  - icon:
+    title: Super-powered search with Elasticsearch
+    subtitle: Enterprise Edition
+questions:
+  - question: Is there educational pricing?
+    answer: |
+      Educational pricing is that for educational institutions, students do not count towards the user count. The purchase of at least one subscription is required.
+  - question: Is there educational pricing?
+    answer: |
+      Educational pricing is that for educational institutions, students do not count towards the user count. The purchase of at least one subscription is required.
+  - question: Is there educational pricing?
+    answer: |
+      Educational pricing is that for educational institutions, students do not count towards the user count. The purchase of at least one subscription is required.
+  - question: Is there educational pricing?
+    answer: |
+      Educational pricing is that for educational institutions, students do not count towards the user count. The purchase of at least one subscription is required.
