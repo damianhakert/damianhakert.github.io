@@ -8,7 +8,14 @@ author_twitter: Jobvo
 image_title: /images/7_X/PICTURE.PNG
 ---
 
-Intro and introduce main features here.
+We're not slowing down. GitLab is getting better with every release and 8.8
+is no exception. This release we're starting to introduce further improvements
+to the navigation and a serious step up in the power of GitLab CI.
+
+With GitLab Pipelines, you can now visualize your stream of builds that follow
+every single commit and their net result. Not only can you bring you projects
+from idea to production with GitLab, you'll actually see it happening
+step-by-step.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
@@ -50,8 +57,11 @@ https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3806
 - On a issuable: `l` To open Label dropdown on a issuable.
 - Global: Typing `?` multiple times now toggles the modal.
 
-## Toggle whitespace changes 
+## Toggle whitespace changes
 
+> [Documentation link](link)
+
+## Health Check
 
 ## Upcoming Feature
 
@@ -61,10 +71,30 @@ for tomorrow.
 We almost can't contain our excitement about how our announcement
 on Monday will register with you!
 
+## UI Improvements
+
+### Top navigation for profile and groups
+
+![]()
+
+### Builds page
+
+![]()
+
+### Other pages
+
 ## Other changes
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
+### Milestone references in Markdown
+
+```
+%8.8
+%"Cool milestone"
+gitlab-org/gitlab-ce%8.8
+[milestone 8.8](%8.8)
+```
 
 ## Upgrade barometer
 
