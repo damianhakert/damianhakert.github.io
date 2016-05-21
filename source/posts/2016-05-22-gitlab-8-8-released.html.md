@@ -44,7 +44,18 @@ By default, GitLab will set up the build, test and deploy stages (as before)
 
 ## .gitignore templates
 
+You should version everything. Well, _almost_ everything.
+Occasionally you have to use some private information,
+secrets or just junk in the directories that are being watched by Git.
+For those situations, you can add those files and directories that
+you want to ignore to your `.gitignore` file.
 
+With GitLab 8.8, creating a `.gitignore` file has become much simpler.
+When creating the file in the web interface, GitLab will now automatically
+show you a dropdown where you can choose from many different templates
+to use for your `.gitignore` file.
+
+You can still edit it to your liking of course.
 
 > [Documentation link](link)
 
