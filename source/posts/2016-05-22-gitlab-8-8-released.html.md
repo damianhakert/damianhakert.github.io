@@ -5,17 +5,13 @@ date: 2016-05-22
 categories:
 author: Job van der Voort
 author_twitter: Jobvo
-image_title: /images/7_X/PICTURE.PNG
+image_title: /images/8_8/team.jpg
 ---
 
 We're not slowing down. GitLab is getting better with every release and 8.8
 is no exception. This release we're starting to introduce further improvements
-to the navigation and a serious step up in the power of GitLab CI.
-
-With GitLab Pipelines, you can now visualize your stream of builds that follow
-every single commit and their net result. Not only can you bring you projects
-from idea to production with GitLab, you'll actually see it happening
-step-by-step.
+to the navigation, a serious step up in the power of GitLab CI and multiply
+the effectivity of GitLab Issues.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
@@ -24,7 +20,27 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 ## Pipelines
 
-> [Documentation link](link)
+GitLab has powerful continuous integration build-in.
+No need to switch to another application, no need to juggle permissions and access, just use GitLab.
+
+Before, you could already define complex pipelines. With GitLab 8.8, GitLab CI
+will visualize these pipelines, so you can _see_ how things are going.
+
+In the new pipeline view, you see all related builds for a single commit
+and the net result of each stage of your pipeline. This allows you to quickly
+see what failed and fix it.
+
+![](/images/8_8/)
+
+By default, GitLab will set up the build, test and deploy stages (as before)
+, but you're free to [define any other stage][stages-doc] in your
+`.gitlab-ci.yml` file.
+
+> [Read how to define your `.gitlab-ci.yml` file](http://docs.gitlab.com/ce/ci/yaml/README.html)
+
+> [Unfamiliar with GitLab CI? Start here!](http://docs.gitlab.com/ce/ci/quick_start/README.html)
+
+[stages-doc]: http://docs.gitlab.com/ce/ci/yaml/README.html#stages
 
 ## .gitignore templates
 
@@ -96,6 +112,8 @@ gitlab-org/gitlab-ce%8.8
 [milestone 8.8](%8.8)
 ```
 
+
+
 ## Performance Changes
 
 * [Use tag_exists? in GitAccess#protected_tag?](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3983): improves SSH/HTTPS pushing performance by only checking a single Git tag upon push instead of all existing Git tags (mostly noticeable on projects with lots of tags)
@@ -134,6 +152,10 @@ than Amazon S3, please open an issue so we can consider including your specific
 use-case. See
 [this issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/15352)
 for more information.
+
+### Changes in bin/web and bin/background_jobs
+
+If you installed GitLab from source using a custom SystemD / Upstart service definition, or if you are a package maintainer for GitLab then you should know that bin/web and bin/background_jobs both perform one fewer fork(2) call now when starting Unicorn and Sidekiq respectively. This only matters if you configured your service supervision system to count the number of forks during startup. The official GitLab init script and our Omnibus packages are not affected by this change.
 
 - - -
 
