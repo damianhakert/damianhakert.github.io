@@ -746,7 +746,7 @@ Instructions on how to update the website are in the [readme of www-gitlab-com](
 1. In a terminal, execute: `bundle exec middleman`.
 1. Visit http://localhost:4567 in your browser.
 1. To edit the site locally you'll need to install a text editor. We recommend
-   [Sublime Text 2](http://www.sublimetext.com/2).
+   [Sublime Text 2](http://www.sublimetext.com/2) or [Atom](https://atom.io/).
 
 ### Test if all URL links in a page are valid
 
