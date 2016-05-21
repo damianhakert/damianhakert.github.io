@@ -20,7 +20,7 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 ## Pipelines
 
-GitLab has powerful continuous integration build-in.
+GitLab has powerful continuous integration built-in.
 No need to switch to another application, no need to juggle permissions and access, just use GitLab.
 
 Before, you could already define complex pipelines. With GitLab 8.8, GitLab CI
@@ -61,8 +61,8 @@ You can still edit it to your liking of course.
 
 ## Priority Labels
 
-You have loads of issues, you manage them through our milestones
-,label them accordingly and maybe even use weights to make sure
+You have loads of issues, you manage them through our milestones,
+label them accordingly, and maybe even use weights to make sure
 you don't plan too much work. What else can you wish for?
 
 Priorities. Some issues are just more important than others.
@@ -79,7 +79,7 @@ found by filtering for priority.
 
 ![]()
 
-### With existing issues
+### Creating priorities with existing issues
 
 For example: You want to give issues related to customers a higher priority
 than other issues. By starring or dragging the `customer` label to the top
@@ -113,7 +113,9 @@ sum the priority.
 ## GitHub Importer Improvements
 
 We further improved our GitHub importer in GitLab 8.8.
-It's more robust now and will even import pull requests, where the
+The existing GitHub importer could already important things like repository 
+data, issues, wiki pages, milestones, and labels. With GitLab 8.8 
+the importer is more robust now and will even import pull requests, where the
 source or target branch was missing.
 
  > [Want to import from GitHub? Read how, here.](link)
