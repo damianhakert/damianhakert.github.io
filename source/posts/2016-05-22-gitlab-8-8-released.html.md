@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab 8.8 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 8.8 released with Pipelines and Priority Labels"
 date: 2016-05-22
 categories:
 author: Job van der Voort
@@ -77,6 +77,8 @@ Priority labels are like regular labels, but are ordered by priority.
 This means that issues tagged with a higher priority label can now be
 found by filtering for priority.
 
+![]()
+
 ### With existing issues
 
 For example: You want to give issues related to customers a higher priority
@@ -100,6 +102,8 @@ new labels to the issues you want to prioritise.
 Priority labels are a very powerful feature that works well both with
 existing issue trackers, as well as with new projects.
 
+![]()
+
 When sorting for priority, we will float the issue with the single highest
 label to the top. If an issue has multiple priority labels, we will not
 sum the priority.
@@ -108,19 +112,11 @@ sum the priority.
 
 ## GitHub Importer Improvements
 
+We further improved our GitHub importer in GitLab 8.8.
+It's more robust now and will even import pull requests, where the
+source or target branch was missing.
 
- Fix link to GHE projects in the import page (gitlab-org/gitlab-ee#478)
- Keep Issues/PRs references (#15294)
- Import Milestones (#15293)
- Import Labels (#15292)
- Fix line code for comments on diff when importing PRs from GitHub (#17205)
- Import PRs where the source/target branch was removed (#15355)
-
- > [Documentation link](link)
-
-## Suppress Text File diffs through .gitattributes
-
-https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3806
+ > [Want to import from GitHub? Read how, here.](link)
 
 
 ## New shortcuts
@@ -145,19 +141,27 @@ on Monday will register with you!
 
 ## UI Improvements
 
-### Top navigation for profile and groups
+We've improved many things big and small again this release.
+
+Most notably, you will find that the group page and the profile
+page are using a new navigation paradigm. The left sidebar will stay
+static, where the top bar will provide you with navigation a level deeper.
 
 ![]()
 
-### Builds page
-
-![]()
-
-### Other pages
+We believe this change will make getting around in GitLab easier.
+We're trying it first in these places and love to hear what you think!
 
 ## Other changes
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
+
+### Suppress Text File diffs through .gitattributes
+
+When you mark a file as non-diffable in your `.gitattributes` file,
+GitLab will now respect that and not show the diff.
+
+Thanks to Matt Oakes for contributing this!
 
 ### Milestone references in Markdown
 
@@ -167,8 +171,6 @@ This release has more improvements, including security fixes. Please check out [
 gitlab-org/gitlab-ce%8.8
 [milestone 8.8](%8.8)
 ```
-
-
 
 ## Performance Changes
 
