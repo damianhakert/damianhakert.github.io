@@ -568,8 +568,8 @@ advantages and make you aware of the challenges and provide tips on how to deal
 with them.
 
 Probably the biggest advantage of working remotely and asynchronous is the
-flexibility it provides. This makes it easy to ***combine*** work with your
-personal life although it might be difficult to find the right ***balance***.
+flexibility it provides. This makes it easy to **combine** work with your
+personal life although it might be difficult to find the right **balance**.
 This can be mitigated by either explicitly planning your time off or plan when
 you do work. When you don't work it is recommended to make yourself unavailable
 by turning off RocketChat and closing down your email client. Coworkers should
