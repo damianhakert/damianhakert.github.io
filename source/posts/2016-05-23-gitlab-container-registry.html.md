@@ -56,7 +56,7 @@ stages:
 - release
 - deploy
 
-VARIABLES:
+variables:
   CONTAINER_TEST_IMAGE: registry.gitlab.com/my-group/my-project:$CI_BUILD_REF_NAME
   CONTAINER_RELEASE_IMAGE: registry.gitlab.com/my-group/my-project:latest
 
