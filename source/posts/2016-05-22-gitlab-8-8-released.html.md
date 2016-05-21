@@ -44,6 +44,8 @@ By default, GitLab will set up the build, test and deploy stages (as before)
 
 ## .gitignore templates
 
+
+
 > [Documentation link](link)
 
 ## Priority Labels
