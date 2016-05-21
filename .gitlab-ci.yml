@@ -12,13 +12,17 @@ lint:
     - bundle exec rake lint
 
 build:
-  stage: test
+  stage: build
   script:
     - bundle exec middleman build --verbose
+  artifacts:
+    paths:
+      - public/  
 
 deploy:
+  dependencies:
+    - build
   script:
-    - bundle exec middleman build --verbose
     - rsync --delete -r public/ ~/public/
   type: deploy
   tags:
