@@ -10,19 +10,14 @@ lint:
   stage: test
   script:
     - bundle exec rake lint
-  except:
-    - master
 
 build:
   stage: test
   script:
     - bundle exec middleman build --verbose
-  except:
-    - master
 
 deploy:
   script:
-    - bundle exec rake lint
     - bundle exec middleman build --verbose
     - rsync --delete -r public/ ~/public/
   type: deploy
