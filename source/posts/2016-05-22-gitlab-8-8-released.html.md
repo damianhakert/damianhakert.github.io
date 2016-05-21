@@ -124,6 +124,17 @@ and start again, no matter how “big” or “small” the upgrade is. This beh
 can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
 file](http://doc.gitlab.com/omnibus/update/README.html).
 
+### Deprecation of Fog gem
+
+The Fog gem will be removed in 8.9 (next month). It's
+currently used to connect GitLab's Backup service to various storage providers,
+but only a few of fogs "micro-gems" are actually used. We intend to only
+include fog-core and fog-aws in 8.9. If you backup GitLab with a service other
+than Amazon S3, please open an issue so we can consider including your specific
+use-case. See
+[this issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/15352)
+for more information.
+
 - - -
 
 ## Installation
