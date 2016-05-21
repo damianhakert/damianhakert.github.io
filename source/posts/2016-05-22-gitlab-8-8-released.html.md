@@ -61,7 +61,50 @@ You can still edit it to your liking of course.
 
 ## Priority Labels
 
-> [Documentation link](link)
+You have loads of issues, you manage them through our milestones
+,label them accordingly and maybe even use weights to make sure
+you don't plan too much work. What else can you wish for?
+
+Priorities. Some issues are just more important than others.
+We wanted to give you the option to set priorities, but do so
+in a smart way that immediately prioritises more important issues,
+but also gives you the power to create a sophisticated priority system
+yourself.
+
+That's why we're introducing Priority Labels.
+
+Priority labels are like regular labels, but are ordered by priority.
+This means that issues tagged with a higher priority label can now be
+found by filtering for priority.
+
+### With existing issues
+
+For example: You want to give issues related to customers a higher priority
+than other issues. By starring or dragging the `customer` label to the top
+of the labels list, you give it a priority. If you now sort by priority
+in the issue list, `customer` tagged issues with appear on top.
+
+### Creating your own priority system
+
+Another option is to introduce priorities with new labels. You create a few
+new labels, for instance `Prio: HIGH`, `Prio: Med` and `Prio: Low` and order
+them appropriately in the label view:
+
+![]()
+
+Now you can easily set the priority to new labels by adding either one of the
+new labels to the issues you want to prioritise.
+
+### More about priority labels
+
+Priority labels are a very powerful feature that works well both with
+existing issue trackers, as well as with new projects.
+
+When sorting for priority, we will float the issue with the single highest
+label to the top. If an issue has multiple priority labels, we will not
+sum the priority.
+
+> [Read all about priority labels in our documentation](link)
 
 ## GitHub Importer Improvements
 
