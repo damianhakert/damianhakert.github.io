@@ -118,7 +118,6 @@ source or target branch was missing.
 
  > [Want to import from GitHub? Read how, here.](link)
 
-
 ## New shortcuts
 
 - On a project: `i` To navigate to New Issue page.
@@ -130,6 +129,14 @@ source or target branch was missing.
 > [Documentation link](link)
 
 ## Health Check
+
+Software can be a lot easier than people. To see whether
+GitLab is healthy, no doctor required. Just point your monitoring
+to `/health_check` and look for status `200`.
+
+You will need a token that you can find in the admin screen.
+
+> [Documentation link](link)
 
 ## Upcoming Feature
 
@@ -165,12 +172,18 @@ Thanks to Matt Oakes for contributing this!
 
 ### Milestone references in Markdown
 
+You can now reference milestones in Markdown!
+
+To reference a milestone that's a single word, use `%` with the name. For instance: `%8.8`. More words? Wrap it in `"`: `%"Cool milestone"`.
+
+Of course, this also works cross-projects and in links:
+
 ```
-%8.8
-%"Cool milestone"
 gitlab-org/gitlab-ce%8.8
 [milestone 8.8](%8.8)
 ```
+
+Do you have any more ideas for extensions of our Markdown? Let us know!
 
 ## Performance Changes
 
