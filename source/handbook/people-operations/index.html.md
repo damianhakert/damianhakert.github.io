@@ -18,6 +18,7 @@ title: "People Operations"
 - [Returning property to GitLab](#returning-property)
 - [Using RingCentral](#ringcentral)
 - [Paperwork people may need to obtain mortgage in the Netherlands](#dutch-mortgage)
+- [Compensation principles](#compensation-principles)
 
 ## Reaching People Operations<a name="reach-peopleops"></a>
 
@@ -72,7 +73,7 @@ We use [BambooHR](https://gitlab.bamboohr.com) to keep all team member informati
 in one place. All team members (all contract types) are in BambooHR.
 
 Some changes or additions we make to BambooHR require action from our team members.
-Before calling the whole team to action:  
+Before calling the whole team to action:
 
 1. document what the process will be regarding this action (e.g. "need information X") for
 _new_ team members. (Recall that we strive to change processes by documenting them, not vice versa).
@@ -148,17 +149,17 @@ Lastly assign the department in which the new team member is working.
 
 ### 401k<a name="401k"></a>
 
-1. You are eligible to participate in GitLab’s 401k as of the 1st of the month after your hire date.  
+1. You are eligible to participate in GitLab’s 401k as of the 1st of the month after your hire date.
 1. You will receive a notification on your homepage in TriNet Passport once eligible,
 if you follow the prompts it will take you to the Transamerica website https://www.ta-retirement.com/
 or skip logging in to TriNet Passport and go directly to https://www.ta-retirement.com/
 after the 1st of the month after your hire date.
-1. Once on the home page of https://www.ta-retirement.com/ go to "First Time User Register Here".  
+1. Once on the home page of https://www.ta-retirement.com/ go to "First Time User Register Here".
 1. You will be prompted for the following information
    1. Full Name
    1. Social Security Number
    1. Date of Birth
-   1. Zip Code  
+   1. Zip Code
 1. Once inside the portal you may elect your annual/pay-period contributions, and Investments.
 
 ## Using TriNet<a name="using-trinet"></a>
@@ -288,3 +289,15 @@ the "werkgeversverklaring" down to the decimals. Mortgage providers may also req
 you to provide information about your financial status, usually in the form of a report/screenshot
 of your total financial status (including any savings you have). The requirements for
 this seem to vary a bit between mortgage providers.
+
+## Compensation principles<a name="compensation-principles"></a>
+
+1. We're an open organization and want to be transparent about compensation principles, while not disclosing individual compensation. We're working on having a formula for compensation but this is hard due to the need make the formula work across the globe.
+1. Compensation is based on market rate for the region, your job title, and your (expected) level of performance.
+1. Many of our team members who have joined have taken a decrease in compensation. We pay market rate (30th-60th percentile) for most positions, and we also offer stock options for most positions. All positions have the better-than-market benefits of being part of a remote-only company (flexible, freedom) on a mission to make it so that **everyone can contribute**, and working on an open-source project in an open and transparent way.
+1. We base compensation on current position and performance, not on what we paid you last month. This means 50% raises are possible, but also that there are no automatic raises, and we even (although rarely) lower compensation.
+1. When your position or performance changes we'll try to adjust your pay a.s.a.p.: the manager should take initiative, people should not have to ask for it.
+1. The market rate depends on your metro region. When you move you have to inform us and we may adjust your compensation up or down.
+1. We hire across the globe but we're not location agnostic. Your timezone, the market rate in your region, and vicinity to other team members, users, customers, and partners can all be factors. For example, we may favor an applicant over another because they live in a region with a lower market rate or because we need someone in that timezone. All things being equal we will hire people in lower cost markets vs. higher cost markets.
+1. As you can see from our [contracts](/handbook/contracts/), compensation is typically set at a fixed monthly rate. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission, for leadership roles sometimes part of it is based on business objectives. Success engineers currently have a lower variable component, we're not sure how this will evolve. All other people have fixed compensation (but we do have [bonuses and incentives](/handbook/#incentives)).
+1. Compensation decisions are taken by the compensation committee. This committee consists of the CFO, CEO, and head of people operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee.
