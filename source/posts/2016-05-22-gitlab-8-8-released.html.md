@@ -194,6 +194,13 @@ for more information.
 
 If you installed GitLab from source using a custom SystemD / Upstart service definition, or if you are a package maintainer for GitLab then you should know that bin/web and bin/background_jobs both perform one fewer fork(2) call now when starting Unicorn and Sidekiq respectively. This only matters if you configured your service supervision system to count the number of forks during startup. The official GitLab init script and our Omnibus packages are not affected by this change.
 
+## GitLab Mattermost 3.0 not included in the 8.8 release
+
+[Mattermost 3.0](http://www.mattermost.org/mattermost-3-0-multi-team-accounts-mobile-desktop-upgrades-japanese-integrations-for-outlook-ruby-rust/) is a major release requiring [manual upgrade steps](http://www.mattermost.org/upgrade-to-3.0/) and therefore not included in 8.8 omnibus-gitlab package. 
+Existing GitLab Mattermost users will have to wait until GitLab 8.9 where upgrade to Mattermost 3.1 should be automated. 
+If you're interested in reading more about how this decision was made, check out [the issue on GitLab.com](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1286).
+Also the upgrade design for the next release will be discussed in the same issue so please share your feedback there.
+
 - - -
 
 ## Installation
