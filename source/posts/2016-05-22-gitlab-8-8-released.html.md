@@ -97,7 +97,12 @@ Software can be a lot easier than people. To see whether
 GitLab is healthy, no doctor required. Just point your monitoring
 to `/health_check` and look for status `200`.
 
-You will need a token that you can find in the admin screen.
+This endpoint can be provided to uptime monitoring services like Pingdom,
+Nagios, and NewRelic.
+
+> Read more in the [health check documentation][health-check].
+
+[health-check]: http://docs.gitlab.com/ce/monitoring/health_check.html
 
 ## Upcoming Feature
 
