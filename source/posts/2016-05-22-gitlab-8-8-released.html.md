@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitLab 8.8 released with Pipelines and various UI improvements"
+title: "GitLab 8.8 released with Pipelines and .gitignore templates"
 date: 2016-05-22
 categories:
 author: Job van der Voort
@@ -10,11 +10,14 @@ image_title: /images/8_8/team.jpg
 
 We're not slowing down. GitLab is getting better with every release and 8.8
 is no exception. This release we're starting to introduce further improvements
-to the navigation, a serious step up in the power of GitLab CI and multiply
-the effectivity of GitLab Issues.
+to the navigation, do serious step up in the power of GitLab CI and
+add convenient `.gitignore` templates.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
+Matt Oakes for contributing the support for surpressing text file diffs on the
+default branch with .gitattributes.
+
+Thanks Matt!
 
 <!--more-->
 
@@ -30,7 +33,7 @@ In the new pipeline view, you see all related builds for a single commit
 and the net result of each stage of your pipeline. This allows you to quickly
 see what failed and fix it.
 
-![](/images/8_8/)
+![GitLab CI Pipelines in GitLab 8.8](/images/8_8/pipelines.png)
 
 By default, GitLab will set up the build, test and deploy stages (as before)
 , but you're free to [define any other stage][stages-doc] in your
@@ -62,7 +65,7 @@ You can still edit it to your liking of course.
 ## GitHub Importer Improvements
 
 We further improved our GitHub importer in GitLab 8.8.
-The existing GitHub importer could already import things like repository 
+The existing GitHub importer could already import things like repository
 data, issues, wiki pages, milestones, and labels. With GitLab 8.8
 the importer is more robust now and will also import pull requests with
 a missing source or target branch.
@@ -77,8 +80,8 @@ a missing source or target branch.
 
 ## Toggle whitespace changes
 
-Sometimes when people push their commits along with their important changes 
-are a number of insignificant whitespace changes. We added a button in our 
+Sometimes when people push their commits along with their important changes
+are a number of insignificant whitespace changes. We added a button in our
 UI that allows you to hide these insignificant changes in the commit's diff.
 
 > [Documentation link](link)
@@ -109,7 +112,7 @@ Most notably, you will find that the group page and the profile
 page are using a new navigation paradigm. The left sidebar will stay
 static, where the top bar will provide you with navigation a level deeper.
 
-![]()
+![Group Page UI improvements](/images/8_8/group_page.png)
 
 We believe this change will make getting around in GitLab easier.
 We're trying it first in these places and love to hear what you think!
