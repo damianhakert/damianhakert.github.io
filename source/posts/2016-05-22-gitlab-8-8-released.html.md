@@ -124,18 +124,14 @@ static, where the top bar will provide you with navigation a level deeper.
 We believe this change will make getting around in GitLab easier.
 We're trying it first in these places and love to hear what you think!
 
-## Other changes
-
-This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
-
-### Suppress Text File diffs through .gitattributes
+## Suppress Text File diffs through .gitattributes
 
 When you mark a file as non-diffable in your `.gitattributes` file,
 GitLab will now respect that and not show the diff.
 
 Thanks to Matt Oakes for contributing this!
 
-### Milestone references in Markdown
+## Milestone references in Markdown
 
 You can now reference milestones in Markdown!
 
@@ -165,6 +161,10 @@ upgrading from GitLab 8.7.x to GitLab 8.8.0 does not require any downtime as
 all migrations can now be performed without stopping your GitLab instance. The
 goal for future releases is to also allow online upgrades unless downtime is an
 absolute requirement.
+
+## Other changes
+
+This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
 ## Upgrade barometer
 
