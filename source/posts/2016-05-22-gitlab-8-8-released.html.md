@@ -14,8 +14,8 @@ to the navigation, do serious step up in the power of GitLab CI and
 add convenient `.gitignore` templates.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
-Matt Oakes for contributing the support for surpressing text file diffs on the
-default branch with .gitattributes.
+Matt Oakes for contributing the support for suppressing text file diffs on the
+default branch with `.gitattributes`.
 
 Thanks Matt!
 
@@ -70,9 +70,12 @@ data, issues, wiki pages, milestones, and labels. With GitLab 8.8
 the importer is more robust now and will also import pull requests with
 a missing source or target branch.
 
- > [Want to import from GitHub? Read how, here.](link)
+ > [Want to import from GitHub? Read how, here.](http://docs.gitlab.com/ee/workflow/importing/import_projects_from_github.html)
 
 ## New shortcuts
+
+Shortcuts are a great way to get things done, quickly.
+With 8.8 we've added two shortcuts and improved the shortcut help:
 
 - On a project: `i` To navigate to New Issue page.
 - On a issuable: `l` To open Label dropdown on a issuable.
@@ -83,6 +86,8 @@ a missing source or target branch.
 Sometimes when people push their commits along with their important changes
 are a number of insignificant whitespace changes. We added a button in our
 UI that allows you to hide these insignificant changes in the commit's diff.
+
+![Hide whitespace changes in GitLab 8.8](/images/8_8/whitespace.png)
 
 > [Documentation link](link)
 
