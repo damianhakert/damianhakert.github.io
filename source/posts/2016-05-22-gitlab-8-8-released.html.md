@@ -29,11 +29,13 @@ No need to switch to another application, no need to juggle permissions and acce
 Before, you could already define complex pipelines. With GitLab 8.8, GitLab CI
 will visualize these pipelines, so you can _see_ how things are going.
 
+![GitLab CI Pipelines in GitLab 8.8](/images/8_8/pipelines.png)
+
 In the new pipeline view, you see all related builds for a single commit
 and the net result of each stage of your pipeline. This allows you to quickly
 see what failed and fix it.
 
-![GitLab CI Pipelines in GitLab 8.8](/images/8_8/pipelines.png)
+![A single Pipeline in GitLab 8.8](/images/8_8/single_pipeline.png)
 
 By default, GitLab will set up the build, test and deploy stages (as before)
 , but you're free to [define any other stage][stages-doc] in your
