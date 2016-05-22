@@ -62,8 +62,6 @@ to use for your `.gitignore` file.
 
 You can still edit it to your liking of course.
 
-> [Documentation link](link)
-
 ## GitHub Importer Improvements
 
 We further improved our GitHub importer in GitLab 8.8.
@@ -91,8 +89,6 @@ UI that allows you to hide these insignificant changes in the commit's diff.
 
 ![Hide whitespace changes in GitLab 8.8](/images/8_8/whitespace.png)
 
-> [Documentation link](link)
-
 ## Health Check
 
 Software can be a lot easier than people. To see whether
@@ -100,8 +96,6 @@ GitLab is healthy, no doctor required. Just point your monitoring
 to `/health_check` and look for status `200`.
 
 You will need a token that you can find in the admin screen.
-
-> [Documentation link](link)
 
 ## Upcoming Feature
 
