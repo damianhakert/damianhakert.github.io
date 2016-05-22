@@ -8,10 +8,11 @@ author_twitter: Jobvo
 image_title: /images/8_8/team.jpg
 ---
 
-Fresh off our third GitLab Summit, this time in Austin, Texas, we are releasing 
+Fresh off our third GitLab Summit, this time in Austin, Texas, we are releasing
 our 54th consecutive release on the 22nd of the month. Sunday or not, we are not
-slowing our release schedule and are excited to show you what we're launching today. 
-GitLab 8.8 is ready to go with GitLab CI improvements, performance enhancements, 
+slowing our release schedule and are excited to show you what we're launching
+today.
+GitLab 8.8 is ready to go with GitLab CI improvements, performance enhancements,
 convenient templates, and more!
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
@@ -38,7 +39,7 @@ see what failed and fix it.
 
 ![A single Pipeline in GitLab 8.8](/images/8_8/single_pipeline.png)
 
-By default, GitLab will set up the build, test, and deploy stages (as before), 
+By default, GitLab will set up the build, test, and deploy stages (as before),
 but you're free to [define any other stage][stages-doc] in your
 `.gitlab-ci.yml` file.
 
@@ -63,8 +64,6 @@ to use for your `.gitignore` file.
 
 You can still edit it to your liking of course.
 
-> [Documentation link](link)
-
 ## GitHub Importer Improvements
 
 We further improved our GitHub importer in GitLab 8.8.
@@ -86,13 +85,11 @@ With 8.8 we've added two shortcuts and improved the shortcut help:
 
 ## Toggle whitespace changes
 
-Sometimes when people push their commits there are a number of insignificant 
+Sometimes when people push their commits there are a number of insignificant
 whitespace changes along with their important changes. We've added a button in our
 UI that allows you to hide these insignificant changes in the commit's diff.
 
 ![Hide whitespace changes in GitLab 8.8](/images/8_8/whitespace.png)
-
-> [Documentation link](link)
 
 ## Health Check
 
@@ -101,8 +98,6 @@ GitLab is healthy, no doctor required. Just point your monitoring
 to `/health_check` and look for status `200`.
 
 You will need a token that you can find in the admin screen.
-
-> [Documentation link](link)
 
 ## Upcoming Feature
 
@@ -167,6 +162,10 @@ all migrations can now be performed without stopping your GitLab instance. The
 goal for future releases is to also allow online upgrades unless downtime is an
 absolute requirement.
 
+## Other changes
+
+This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see all the named changes.
+
 ## Upgrade barometer
 
 Upgrading from 8.7.x to 8.8.0 requires **no downtime**.
@@ -184,8 +183,9 @@ file](http://doc.gitlab.com/omnibus/update/README.html).
 The Fog gem will be removed in 8.9 (next month). It's
 currently used to connect GitLab's Backup service to various storage providers,
 but only a few of fogs "micro-gems" are actually used. We intend to only
-include fog-core and fog-aws in 8.9. If you backup GitLab with a service other
-than Amazon S3, please open an issue so we can consider including your specific
+include fog-core and support for uploading backups to AWS, Google Compute and
+Microsoft Azure in 8.9. If you backup GitLab with a service other
+than those, please open an issue so we can consider including your specific
 use-case. See
 [this issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/15352)
 for more information.
