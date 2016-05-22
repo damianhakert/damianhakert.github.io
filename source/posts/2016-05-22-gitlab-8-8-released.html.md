@@ -128,6 +128,10 @@ source or target branch was missing.
 
 ## Toggle whitespace changes
 
+Sometimes when people push their commits along with their important changes 
+are a number of insignificant whitespace changes. We added a button in our 
+UI that allows you to hide these insignificant changes in the commit's diff.
+
 > [Documentation link](link)
 
 ## Health Check
