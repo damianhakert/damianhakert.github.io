@@ -8,10 +8,11 @@ author_twitter: Jobvo
 image_title: /images/8_8/team.jpg
 ---
 
-We're not slowing down. GitLab is getting better with every release and 8.8
-is no exception. This release we're starting to introduce further improvements
-to the navigation, do serious step up in the power of GitLab CI and
-add convenient `.gitignore` templates.
+Fresh off our third GitLab Summit, this time in Austin, Texas, we are releasing 
+our 54th consecutive release on the 22nd of the month. Sunday or not, we are not
+slowing our release schedule and are excited to show you what we're launching today. 
+GitLab 8.8 is ready to go with GitLab CI improvements, performance enhancements, 
+convenient templates, and more!
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
 Matt Oakes for contributing the support for suppressing text file diffs on the
@@ -37,8 +38,8 @@ see what failed and fix it.
 
 ![A single Pipeline in GitLab 8.8](/images/8_8/single_pipeline.png)
 
-By default, GitLab will set up the build, test and deploy stages (as before)
-, but you're free to [define any other stage][stages-doc] in your
+By default, GitLab will set up the build, test, and deploy stages (as before), 
+but you're free to [define any other stage][stages-doc] in your
 `.gitlab-ci.yml` file.
 
 > [Read how to define your `.gitlab-ci.yml` file](http://docs.gitlab.com/ce/ci/yaml/README.html)
@@ -52,15 +53,17 @@ By default, GitLab will set up the build, test and deploy stages (as before)
 You should version everything. Well, _almost_ everything.
 Occasionally you have to use some private information,
 secrets or just junk in the directories that are being watched by Git.
-For those situations, you can add those files and directories that
+For those situations, you can add the files and directories that
 you want to ignore to your `.gitignore` file.
 
-With GitLab 8.8, creating a `.gitignore` file has become much simpler.
+With GitLab 8.8, creating a `.gitignore` file is much simpler.
 When creating the file in the web interface, GitLab will now automatically
 show you a dropdown where you can choose from many different templates
 to use for your `.gitignore` file.
 
 You can still edit it to your liking of course.
+
+> [Documentation link](link)
 
 ## GitHub Importer Improvements
 
@@ -83,11 +86,13 @@ With 8.8 we've added two shortcuts and improved the shortcut help:
 
 ## Toggle whitespace changes
 
-Sometimes when people push their commits along with their important changes
-are a number of insignificant whitespace changes. We added a button in our
+Sometimes when people push their commits there are a number of insignificant 
+whitespace changes along with their important changes. We've added a button in our
 UI that allows you to hide these insignificant changes in the commit's diff.
 
 ![Hide whitespace changes in GitLab 8.8](/images/8_8/whitespace.png)
+
+> [Documentation link](link)
 
 ## Health Check
 
@@ -96,6 +101,8 @@ GitLab is healthy, no doctor required. Just point your monitoring
 to `/health_check` and look for status `200`.
 
 You will need a token that you can find in the admin screen.
+
+> [Documentation link](link)
 
 ## Upcoming Feature
 
@@ -118,14 +125,18 @@ static, where the top bar will provide you with navigation a level deeper.
 We believe this change will make getting around in GitLab easier.
 We're trying it first in these places and love to hear what you think!
 
-## Suppress Text File diffs through .gitattributes
+## Other changes
+
+This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
+
+### Suppress Text File diffs through .gitattributes
 
 When you mark a file as non-diffable in your `.gitattributes` file,
 GitLab will now respect that and not show the diff.
 
 Thanks to Matt Oakes for contributing this!
 
-## Milestone references in Markdown
+### Milestone references in Markdown
 
 You can now reference milestones in Markdown!
 
@@ -155,10 +166,6 @@ upgrading from GitLab 8.7.x to GitLab 8.8.0 does not require any downtime as
 all migrations can now be performed without stopping your GitLab instance. The
 goal for future releases is to also allow online upgrades unless downtime is an
 absolute requirement.
-
-## Other changes
-
-This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
 ## Upgrade barometer
 
