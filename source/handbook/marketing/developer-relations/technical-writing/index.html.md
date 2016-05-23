@@ -10,7 +10,7 @@ Welcome to the Technical Writing Handbook!
 ## On this page
 {:.no_toc}
 
-* Will be replaced with the ToC, excluding the "Contents" header
+* Will be replaced with the ToC, excluding the "On this page" header
 {:toc}
 
 ----

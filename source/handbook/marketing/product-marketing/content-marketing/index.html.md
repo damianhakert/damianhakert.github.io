@@ -20,7 +20,7 @@ Use `{:.no_toc}` to EXCLUDE itemns from the TOC
 
 {::comment}
 ANCHORS: we don't need to define anchors for every heading anymore. Kramdown atributes an ID automatically :)
-If we need a custom anchor => use `{: #my-custom-id}`
+If we need a custom anchor => we can simply use `{: #my-custom-id}`
 {:/comment}
 
 ## Introduction<a name="intro"></a>
