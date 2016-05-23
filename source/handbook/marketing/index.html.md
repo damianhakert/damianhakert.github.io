@@ -14,7 +14,7 @@ The GitLab Marketing team includes Demand Generation, Developer Relations, Desig
 * [Meetings and structure](#meetings)
 * [Marketing team SLAs](#sla)
 * [Resources](#resources)
-* [RocketChat marketing channels](#chat)  
+* [Slack marketing channels](#chat)  
 * [Marketing handbook updates](#handbook)
 * [Marketing emails](#email)
 
@@ -131,15 +131,15 @@ The meeting should run as follows:
 - Walk through quarterly OKRs to make sure they are relevant and see if help is needed.  
 - Discuss upcoming OKRs if close to end of a quarter.  
 
-### Bi-weekly marketing meeting
+### Monthly Marketing Townhall
 
 **Meeting goal: For the entire company to gain insight into what the Marketing team is focusing on.**
 
-**Run time: 30 minutes**
+**Run time: 45 minutes**
 
-The bi-weekly marketing meeting is open to the entire company for questions, ideas, and feedback. If you'd like to be added to this meeting, please contact anyone on the marketing team to be added to the invite.
+The Monthly Marketing Townhall is open to the entire company for questions, ideas, and feedback. If you'd like to be added to this meeting, please contact anyone on the marketing team to be added to the invite.
 
-To find the agenda for the bi-weekly marketing meeting, search the company Google Drive folder for "Bi-Weekly Marketing Meeting Agenda"
+To find the agenda for the bi-weekly marketing meeting, search the company Google Drive folder for "Monthly Marketing Townhall Agenda"
 
 The meeting should run as follows:  
 
@@ -158,13 +158,13 @@ The Tuesday and Thursday Dinosaur Party is where the entire team meets for 10-15
 
 The meeting should run as follows:  
 
-- First 60 seconds: Post funny GIFs in RocketChat marketing room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis  
+- First 60 seconds: Post funny GIFs in Slack marketing room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis  
 - First 5 minutes: Everyone in order of Team Page (Last goes first) gives 15 seconds about what they are working on. (Marcia, Colton, Amara, Ryan, Amanda, Braden, Mitchell, Ivan, Luke, Axil, Hank, Ashley, Emily)  
 - Last 5 minutes: Discuss roadblocks and any collaboration needs  
 
 To find the Dinosaur Sticker leaderboard, search the company Google Drive for "Dinosaurs are awesome"
 
-### Monthly marketing team meeting
+### Monthly Marketing Team Meeting
 
 **Meeting goal: OKR review and large campaign planning**
 
@@ -209,11 +209,11 @@ When working remotely in such a quick moving organization, it is important for a
 - Be on time to meetings. We start at on time.  
 - Acknowledge receipt of emails (community@, FYIs) by BCC'ing the list.
 - Try not to email co-workers on weekends. Try out [Boomerang](http://www.boomeranggmail.com/) and set all your emails to send Monday morning at 6 AM. People will think you're up and working early! Time off is important. We all have stressful weeks so please unplug on the weekends where possible.
-- Do not ping someone in a public channel on RocketChat on the weekends. This is rude.
+- Do not ping someone in a public channel on Slack on the weekends. This is rude.
 
-# RocketChat marketing channels<a name="chat"></a>
+# Slack marketing channels<a name="chat"></a>
 
-We use RocketChat internally as a communication tool. The marketing channels are as follows:  
+We use Slack internally as a communication tool. The marketing channels are as follows:  
 
 - Marketing - This is the general marketing channel. Don't know where to ask a question? Start here.
 - Advertising - Online marketing channel
