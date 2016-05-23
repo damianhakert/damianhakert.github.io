@@ -124,6 +124,12 @@ Container Images.
 
 > **Note:** This feature requires GitLab Runner 1.2.
 
+> **Note:**
+In order to use Docker in Docker images you need to have [the `privileged` flag][privflag]
+set up in your Runner's configuration. This is **not** the case for the shared
+Runners on GitLab.com for now, we plan to enable this flag next week. For the
+moment you can use your own Runners.
+
 Here's an example GitLab CI configuration file (`.gitlab-ci.yml`) which builds
 an image, runs tests, and if the tests are successful, tags the build and
 uploads the build to the container registry:
@@ -211,6 +217,12 @@ your GitLab instance.
 Container Registry is enabled on GitLab.com, it's completely free and you can
 start using it right now!
 
+> **Note:**
+In order to use Docker in Docker images you need to have [the `privileged` flag][privflag]
+set up in your Runner's configuration. This is **not** the case for the shared
+Runners on GitLab.com for now. We plan to enable this flag next week.
+
 [8.8]: https://about.gitlab.com/2016/05/22/gitlab-8-8-released/
 [user-docs]: http://docs.gitlab.com/ce/container_registry/README.html
 [admin-docs]: http://docs.gitlab.com/ce/administration/container_registry.html
+[privflag]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/executors/docker.md#use-docker-in-docker-with-privileged-mode
