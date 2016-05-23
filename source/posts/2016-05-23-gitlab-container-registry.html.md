@@ -106,10 +106,10 @@ build_image:
   services:
   - docker:dind
   script:
-    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
-    - docker build -t registry.gitlab.com/my-group/my-project .
-    - docker run registry.gitlab.com/my-group/my-project /script/to/run/tests
-    - docker push registry.gitlab.com/my-group/my-project:latest
+    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.example.com
+    - docker build -t registry.example.com/my-group/my-project .
+    - docker run registry.example.com/my-group/my-project /script/to/run/tests
+    - docker push registry.example.com/my-group/my-project:latest
   only:
     - master
 ```
@@ -128,11 +128,11 @@ stages:
 - deploy
 
 variables:
-  CONTAINER_TEST_IMAGE: registry.gitlab.com/my-group/my-project:$CI_BUILD_REF_NAME
-  CONTAINER_RELEASE_IMAGE: registry.gitlab.com/my-group/my-project:latest
+  CONTAINER_TEST_IMAGE: registry.example.com/my-group/my-project:$CI_BUILD_REF_NAME
+  CONTAINER_RELEASE_IMAGE: registry.example.com/my-group/my-project:latest
 
 before_script:
-  - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
+  - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.example.com
 
 build:
   stage: build
