@@ -14,7 +14,7 @@ The GitLab Marketing team includes Demand Generation, Developer Relations, Desig
 * [Meetings and structure](#meetings)
 * [Marketing team SLAs](#sla)
 * [Resources](#resources)
-* [RocketChat marketing channels](#chat)  
+* [Slack marketing channels](#chat)  
 * [Marketing handbook updates](#handbook)
 * [Marketing emails](#email)
 
@@ -158,7 +158,7 @@ The Tuesday and Thursday Dinosaur Party is where the entire team meets for 10-15
 
 The meeting should run as follows:  
 
-- First 60 seconds: Post funny GIFs in RocketChat marketing room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis  
+- First 60 seconds: Post funny GIFs in Slack marketing room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis  
 - First 5 minutes: Everyone in order of Team Page (Last goes first) gives 15 seconds about what they are working on. (Marcia, Colton, Amara, Ryan, Amanda, Braden, Mitchell, Ivan, Luke, Axil, Hank, Ashley, Emily)  
 - Last 5 minutes: Discuss roadblocks and any collaboration needs  
 
@@ -209,11 +209,11 @@ When working remotely in such a quick moving organization, it is important for a
 - Be on time to meetings. We start at on time.  
 - Acknowledge receipt of emails (community@, FYIs) by BCC'ing the list.
 - Try not to email co-workers on weekends. Try out [Boomerang](http://www.boomeranggmail.com/) and set all your emails to send Monday morning at 6 AM. People will think you're up and working early! Time off is important. We all have stressful weeks so please unplug on the weekends where possible.
-- Do not ping someone in a public channel on RocketChat on the weekends. This is rude.
+- Do not ping someone in a public channel on Slack on the weekends. This is rude.
 
-# RocketChat marketing channels<a name="chat"></a>
+# Slack marketing channels<a name="chat"></a>
 
-We use RocketChat internally as a communication tool. The marketing channels are as follows:  
+We use Slack internally as a communication tool. The marketing channels are as follows:  
 
 - Marketing - This is the general marketing channel. Don't know where to ask a question? Start here.
 - Advertising - Online marketing channel
