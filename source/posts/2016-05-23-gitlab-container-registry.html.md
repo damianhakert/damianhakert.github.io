@@ -8,7 +8,7 @@ image_title: /images/containers.jpg
 
 Yesterday [we released GitLab 8.8][8.8], super powering GitLab's built-in
 continuous integration. With it, you can build a pipeline in GitLab,
-visualizing your builds, tests, deploys and any other stage of the lifecycle of
+visualizing your builds, tests, deploys and any other stage of the life cycle of
 your software. Today (and already in GitLab 8.8), we're releasing the next
 step: GitLab Container Registry.
 
@@ -201,7 +201,7 @@ deploy:
 ## Summary
 
 GitLab Container Registry is the latest addition to GitLab's integrated set of
-tools for the software development lifecycle and comes with
+tools for the software development life cycle and comes with
 [GitLab 8.8 and up][8.8]. With GitLab Container Registry,
 testing and deploying Docker containers has never been easier.
 GitLab Container Registry is available on-premises in GitLab CE and GitLab EE
