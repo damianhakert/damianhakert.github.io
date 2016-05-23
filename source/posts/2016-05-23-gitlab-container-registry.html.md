@@ -1,5 +1,6 @@
 ---
 title: "GitLab Container Registry"
+date: 2016-05-23 17:00
 author: Mark Pundsack
 author_twitter: markpundsack
 image_title: /images/containers.jpg
@@ -21,11 +22,14 @@ is no exception. You can now easily use your images for GitLab CI, create
 images specific for tags or branches and much more.
 
 Our container registry is actually the first Docker registry that is
-fully-integrated with git repository management and comes out of the box with
+fully-integrated with Git repository management and comes out of the box with
 GitLab 8.8. So if you've upgraded, you already have it!
 This means our integrated Container Registry requires no additional
 installation. It allows for easy upload and download of images
 from GitLab CI. And it's free.
+
+Read the [administration documentation][admin-docs] to learn how to enable it
+on your GitLab instance.
 
 [8.8]: https://about.gitlab.com/2016/05/22/gitlab-8-8-released/
 
@@ -33,48 +37,67 @@ from GitLab CI. And it's free.
 
 ## Docker Basics
 
-The main component of a Docker-based workflow is an image,
-which contains everything needed to run an application.
-Images are often created automatically as part of continuous integration so
-they are updated whenever code changes.
-When images are built to be shared between developers and machines, they need to be stored somewhere, and that's
-where a container registry comes in. The registry is the place to store and tag images for later use. Developers
-may want to maintain their own registry for private, company images, or for throw-away images used only in testing.
-Using GitLab Container Registry means you don't need to set up and administer yet another service, or use a public registry.
+The main component of a Docker-based workflow is an image, which contains
+everything needed to run an application. Images are often created automatically
+as part of continuous integration so they are updated whenever code changes.
+When images are built to be shared between developers and machines, they need to
+be stored somewhere, and that's where a container registry comes in.
+
+The registry is the place to store and tag images for later use. Developers may
+want to maintain their own registry for private, company images, or for
+throw-away images used only in testing. Using GitLab Container Registry means
+you don't need to set up and administer yet another service, or use a public
+registry.
 
 ## Tight Integration
 
-GitLab Container Registry is fully-integrated with GitLab making it easy for developers to code, test,
-and deploy Docker container images using GitLab CI and other Docker-compatible tooling.
+GitLab Container Registry is fully-integrated with GitLab making it easy for
+developers to code, test, and deploy Docker container images using GitLab CI
+and other Docker-compatible tooling.
 
-- User authentication is from GitLab itself, so all the user and group definitions are respected.
-- There's no need to create repositories in the registry; the project is already defined in GitLab.
-- Projects have a new tab, Container Registry, which lists all images related to the project.
-- Every project can have an image repository, but this can be turned off per-project.
+- User authentication is from GitLab itself, so all the user and group
+  definitions are respected.
+- There's no need to create repositories in the registry; the project is already
+  defined in GitLab.
+- Projects have a new tab, **Container Registry**, which lists all images
+  related to the project.
+- Every project can have an image repository, but this can be turned off
+  per-project.
 - Developers can easily upload and download images from GitLab CI.
 - There's no need to download or install additional software.
 
 ## Simplify your workflow
 
 GitLab Container Registry is seamless and secure.
-Here are some examples of how GitLab
-Container Registry can simplify your development and deployment workflows.
+Here are some examples of how GitLab Container Registry can simplify your
+development and deployment workflows:
 
-- easily build Docker images with the help of GitLab CI and store them in the GitLab Container Registry,
-- easily create images per branches, tags, or any other way suitable to your workflow, and with little effort, store them on GitLab,
-- use your own build images, stored in your registry to test your applications against these images, allowing you to simplify the docker-based workflow,
-- let the team easily contribute to the images, using the same workflow they are already accustomed to, with the help of GitLab CI you can automatically rebuild images that inherit from your's allowing you to easily deliver fixes and a new features to a base image used by your teams,
-- have a full Continuous Deployment and Delivery workflow by pointing your CaaS to use images directly from GitLab Container Registry, you'll be able to perform automated deployments of your applications to the cloud (Docker Cloud, Docker Swarm, Kubernetes and others) when you build and test your images.
+- Easily build Docker images with the help of GitLab CI and store them in the
+  GitLab Container Registry.
+- Easily create images per branches, tags, or any other way suitable to your
+  workflow, and with little effort, store them on GitLab.
+- Use your own build images, stored in your registry to test your applications
+  against these images, allowing you to simplify the docker-based workflow.
+- Let the team easily contribute to the images, using the same workflow they are
+  already accustomed to. With the help of GitLab CI you can automatically
+  rebuild images that inherit from yours, allowing you to easily deliver fixes
+  and new features to a base image used by your teams.
+- Have a full Continuous Deployment and Delivery workflow by pointing your
+  CaaS to use images directly from GitLab Container Registry. You'll be able to
+  perform automated deployments of your applications to the cloud
+  (Docker Cloud, Docker Swarm, Kubernetes and others) when you build and test
+  your images.
 
 ## Start using it
 
-First, ask your system administrator to enable GitLab Container Registry following the [administration documentation](http://docs.gitlab.com/ce/administration/container_registry.html).
+First, ask your system administrator to enable GitLab Container Registry
+following the [administration documentation][admin-docs].
 
 After that, you will be allowed to enable **Container Registry** for your project.
 
 ![](/images/container-registry/project_feature.png)
 
-To start using your brand new **Container Registry** you first have to login:  
+To start using your brand new **Container Registry** you first have to login:
 
 ```
 docker login registry.example.com
@@ -92,15 +115,20 @@ This view will show you all tags in your repository and will easily allow you to
 
 ![](/images/container-registry/container_registry.png)
 
+> Read more in the [GitLab Container Registry user guide][user-docs].
+
 ## Use with GitLab CI
 
-You can use GitLab's integrated CI solution to build, push, and deploy your Container Images.
+You can use GitLab's integrated CI solution to build, push, and deploy your
+Container Images.
 
 > **Note:** This feature requires GitLab Runner 1.2.
 
-Here's an example GitLab CI configuration file (`.gitlab-ci.yml`) which builds an image, runs tests, and if the tests are successful, tags the build and uploads the build to the container registry.
+Here's an example GitLab CI configuration file (`.gitlab-ci.yml`) which builds
+an image, runs tests, and if the tests are successful, tags the build and
+uploads the build to the container registry:
 
-```
+```yaml
 build_image:
   image: docker:git
   services:
@@ -114,9 +142,13 @@ build_image:
     - master
 ```
 
-Here's a more elaborate example that splits up the tasks into 4 stages, including two tests that run in parallel. The build is stored in the container registry and used by subsequent stages, downloading the image automatically when needed. Changes to `master` also get tagged as `latest` and deployed using an application-specific deploy script.
+Here's a more elaborate example that splits up the tasks into 4 stages,
+including two tests that run in parallel. The build is stored in the container
+registry and used by subsequent stages, downloading the image automatically
+when needed. Changes to `master` also get tagged as `latest` and deployed using
+an application-specific deploy script:
 
-```
+```yaml
 image: docker:git
 services:
 - docker:dind
@@ -176,7 +208,9 @@ GitLab Container Registry is available on-premises in GitLab CE and GitLab EE
 at no additional cost and installs in the same infrastructure as the rest of
 your GitLab instance.
 
-We're working on getting GitLab Container Registry set up on GitLab.com
-(for free, of course) and will update this post when it's ready.
+Container Registry is enabled on GitLab.com, it's completely free and you can
+start using it right now!
 
 [8.8]: https://about.gitlab.com/2016/05/22/gitlab-8-8-released/
+[user-docs]: http://docs.gitlab.com/ce/container_registry/README.html
+[admin-docs]: http://docs.gitlab.com/ce/administration/container_registry.html
