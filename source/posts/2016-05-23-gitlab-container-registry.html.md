@@ -5,21 +5,38 @@ author_twitter: markpundsack
 image_title: /images/containers.jpg
 ---
 
-Today we're happy to announce the release of GitLab Container Registry,
-a secure and private registry for Docker images.
-Built on [open source](https://github.com/docker/distribution),
+Yesterday [we released GitLab 8.8][8.8], super powering GitLab's built-in
+continuous integration. With it, you can build a pipeline in GitLab,
+visualizing your builds, tests, deploys and any other stage of the lifecycle of
+your software. Today (and already in GitLab 8.8), we're releasing the next
+step: GitLab Container Registry.
+
+GitLab Container Registry is a secure and private registry for Docker images.
+Built on [open source software](https://github.com/docker/distribution),
 GitLab Container Registry isn't just a standalone registry;
-it's completely integrated with GitLab, giving developers a seamless experience from code to CI to container registry.
-It is actually the first Docker registry that is fully-integrated with git repository management. Our integrated
-Container Registry means no additional installation or configuration, easy upload and download of images from
-GitLab CI, and no additional cost.
+it's _completely_ integrated with GitLab.
+
+GitLab is all about having a single, integrated experience and our registry
+is no exception. You can now easily use your images for GitLab CI, create
+images specific for tags or branches and much more.
+
+Our container registry is actually the first Docker registry that is
+fully-integrated with git repository management and comes out of the box with
+GitLab 8.8. So if you've upgraded, you already have it!
+This means our integrated Container Registry requires no additional
+installation or configuration. It allows for easy upload and download of images
+from GitLab CI. And it's free.
+
+[8.8]: https://about.gitlab.com/2016/05/22/gitlab-8-8-released/
 
 <!-- more -->
 
 ## Docker Basics
 
-The main component of a Docker-based workflow is an image, which contains everything needed to run an application.
-Images are often created automatically as part of continuous integration so they are updated whenever code changes.
+The main component of a Docker-based workflow is an image,
+which contains everything needed to run an application.
+Images are often created automatically as part of continuous integration so
+they are updated whenever code changes.
 When images are built to be shared between developers and machines, they need to be stored somewhere, and that's
 where a container registry comes in. The registry is the place to store and tag images for later use. Developers
 may want to maintain their own registry for private, company images, or for throw-away images used only in testing.
@@ -39,7 +56,8 @@ and deploy Docker container images using GitLab CI and other Docker-compatible t
 
 ## Simplify your workflow
 
-GitLab Container Registry is seamless and secure. Here are some examples of how GitLab
+GitLab Container Registry is seamless and secure.
+Here are some examples of how GitLab
 Container Registry can simplify your development and deployment workflows.
 
 - easily build Docker images with the help of GitLab CI and store them in the GitLab Container Registry,
@@ -121,8 +139,15 @@ deploy:
 
 ## Summary
 
-GitLab Container Registry is the latest addition to GitLab's integrated set of tools for the software development lifecycle.
-With GitLab Container Registry, testing and deploying Docker containers has never been easier.
-GitLab Container Registry is available on-premises in GitLab CE and GitLab EE at no additional cost
-and installs in the same infrastructure as the rest of your GitLab instance. GitLab Container Registry
-is also available for free on GitLab.com for an unlimited number of private projects.
+GitLab Container Registry is the latest addition to GitLab's integrated set of
+tools for the software development lifecycle and comes with
+[GitLab 8.8 and up][8.8] With GitLab Container Registry,
+testing and deploying Docker containers has never been easier.
+GitLab Container Registry is available on-premises in GitLab CE and GitLab EE
+at no additional cost and installs in the same infrastructure as the rest of
+your GitLab instance.
+
+We're working on getting GitLab Container Registry to run on GitLab.com
+(for free, of course) and will update this post when it's ready.
+
+[8.8]: https://about.gitlab.com/2016/05/22/gitlab-8-8-released/
