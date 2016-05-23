@@ -178,6 +178,11 @@
       links:
         - url: https://github.com/Scooletz/NGitLab
           title: Repository on GitHub
+    - title: .NET
+      content: GitLab.NET is a .NET library for GitLab's API.
+      links:
+        - url: https://gitlab.com/tstivers/GitLab.NET
+          title: Repository on GitLab
 - title: Utilities
   id: utilities
   applications:
