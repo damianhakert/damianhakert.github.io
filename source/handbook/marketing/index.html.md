@@ -131,15 +131,15 @@ The meeting should run as follows:
 - Walk through quarterly OKRs to make sure they are relevant and see if help is needed.  
 - Discuss upcoming OKRs if close to end of a quarter.  
 
-### Bi-weekly marketing meeting
+### Monthly Marketing Townhall
 
 **Meeting goal: For the entire company to gain insight into what the Marketing team is focusing on.**
 
-**Run time: 30 minutes**
+**Run time: 45 minutes**
 
-The bi-weekly marketing meeting is open to the entire company for questions, ideas, and feedback. If you'd like to be added to this meeting, please contact anyone on the marketing team to be added to the invite.
+The Monthly Marketing Townhall is open to the entire company for questions, ideas, and feedback. If you'd like to be added to this meeting, please contact anyone on the marketing team to be added to the invite.
 
-To find the agenda for the bi-weekly marketing meeting, search the company Google Drive folder for "Bi-Weekly Marketing Meeting Agenda"
+To find the agenda for the bi-weekly marketing meeting, search the company Google Drive folder for "Monthly Marketing Townhall Agenda"
 
 The meeting should run as follows:  
 
@@ -164,7 +164,7 @@ The meeting should run as follows:
 
 To find the Dinosaur Sticker leaderboard, search the company Google Drive for "Dinosaurs are awesome"
 
-### Monthly marketing team meeting
+### Monthly Marketing Team Meeting
 
 **Meeting goal: OKR review and large campaign planning**
 
