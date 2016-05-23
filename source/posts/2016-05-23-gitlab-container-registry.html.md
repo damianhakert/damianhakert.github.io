@@ -61,7 +61,7 @@ Here are some examples of how GitLab
 Container Registry can simplify your development and deployment workflows.
 
 - easily build Docker images with the help of GitLab CI and store them in the GitLab Container Registry,
-- easily create images per branches, tags, or any other way suitable to your workflow with no effort storing them on GitLab,
+- easily create images per branches, tags, or any other way suitable to your workflow, and with little effort, store them on GitLab,
 - use your own build images, stored in your registry to test your applications against these images, allowing you to simplify the docker-based workflow,
 - let the team easily contribute to the images, using the same workflow they are already accustomed to, with the help of GitLab CI you can automatically rebuild images that inherit from your's allowing you to easily deliver fixes and a new features to a base image used by your teams,
 - have a full Continuous Deployment and Delivery workflow by pointing your CaaS to use images directly from GitLab Container Registry, you'll be able to perform automated deployments of your applications to the cloud (Docker Cloud, Docker Swarm, Kubernetes and others) when you build and test your images.
