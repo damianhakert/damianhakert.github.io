@@ -176,7 +176,7 @@ GitLab Container Registry is available on-premises in GitLab CE and GitLab EE
 at no additional cost and installs in the same infrastructure as the rest of
 your GitLab instance.
 
-We're working on getting GitLab Container Registry to run on GitLab.com
+We're working on getting GitLab Container Registry set up on GitLab.com
 (for free, of course) and will update this post when it's ready.
 
 [8.8]: https://about.gitlab.com/2016/05/22/gitlab-8-8-released/
