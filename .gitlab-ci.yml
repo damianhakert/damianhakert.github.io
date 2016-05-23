@@ -1,32 +1,42 @@
+image: ruby:2.1
+
 before_script:
   - pwd
   - git rev-parse HEAD
   - export LC_ALL=en_US.UTF-8
   - source ./scripts/prepare_build.sh
-  - ''
-  - bundle install --path ~/bundle
+  - bundle install --path vendor
 
-lint:
-  stage: test
-  script:
-    - bundle exec rake lint
+cache:
+  key: "website"
+  paths:
+    - vendor
 
 build:
   stage: build
   script:
     - bundle exec middleman build --verbose
+  tags:
+    - docker
   artifacts:
     paths:
       - public/  
 
+lint:
+  stage: test
+  script:
+    - bundle exec rake lint
+  tags:
+    - docker
+
 deploy:
+  stage: deploy
   dependencies:
     - build
+  before_script: []
   script:
     - rsync --delete -r public/ ~/public/
-  type: deploy
   tags:
+    - deploy
   only:
-    - master
-  except:
-    - tags
+    - gitlab-com/www-gitlab-com@master
