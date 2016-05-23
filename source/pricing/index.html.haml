@@ -35,9 +35,8 @@ extra_font:
                 Unlimited private collaborators
               %li.line-separator
               %li.item-description
-                %a.action-link Learn more...
-            %a.featured-item-button{href: "https://gitlab.com/users/sign_in"}
-              Sign Up
+                = link_to "Learn more...", "/gitlab-com/", class: "action-link"
+            = link_to "Sign Up", "https://gitlab.com/users/sign_in", class: "featured-item-button"
       .col-md-4
         .featured-item
           .edition-name
@@ -56,9 +55,8 @@ extra_font:
                 Open source & scalable
               %li.line-separator
               %li.item-description
-                %a.action-link Learn more...
-            %a.featured-item-button{href: "/downloads"}
-              Download Now
+                = link_to "Learn more...", "/features#community", class: "action-link"
+            = link_to "Download Now", "/downloads/", class: "featured-item-button"
       .col-md-4
         .featured-item
           .edition-name
@@ -78,9 +76,8 @@ extra_font:
                 Next business day support
               %li.line-separator
               %li.item-description
-                %a.action-link Learn more...
-            %a.featured-item-button{href: data.pricing.payment_url}
-              Buy Now
+                = link_to "Learn more...", "/features#enterprise", class: "action-link"
+            = link_to "Buy Now", data.pricing.payment_url, class: "featured-item-button"
     %h1.page-headline.cta
       Try GitLab Enterprise Edition risk free for 30 days
     %h4.subheader.cta
@@ -115,7 +112,7 @@ extra_font:
                 Faster cloning & fetching
               %li.line-separator
               %li.item-description
-                %a.action-link Learn more...
+                = link_to "Learn more...", "", class: "action-link"
             %a.featured-item-button{href: data.pricing.payment_url}
               Add GitLab Geo
       .col-md-4
@@ -141,9 +138,6 @@ extra_font:
               %li.line-separator
               %li.item-description
                 Live upgrade assistance
-              %li.line-separator
-              %li.item-description
-                %a.action-link Learn more...
             %a.featured-item-button{href: data.pricing.payment_url}
               Add Premium Support
       .col-md-4
@@ -171,7 +165,7 @@ extra_font:
                 Customizable, integrated, & secure
               %li.line-separator
               %li.item-description
-                %a.action-link Learn more...
+                = link_to "Learn more...", "https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/", class: "action-link"
             %a.featured-item-button{href: data.pricing.payment_url}
               Add Pivotal Tile
     %a.featured-item-button.purchase-now{href: data.pricing.payment_url}
