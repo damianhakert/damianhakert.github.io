@@ -18,7 +18,12 @@ $(function () {
     $('[data-equal]').each(function(){
       var $this = $(this),
       target = $this.data('equal');
-      $this.find(target).equalHeights();
+
+      if ($(window).width() > 992) {
+        $this.find(target).equalHeights();
+      } else {
+        $this.find(target).css('height', '');
+      }
     });
   }, 500);
 
