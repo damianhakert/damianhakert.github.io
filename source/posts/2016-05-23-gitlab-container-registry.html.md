@@ -66,7 +66,37 @@ Container Registry can simplify your development and deployment workflows.
 - let the team easily contribute to the images, using the same workflow they are already accustomed to, with the help of GitLab CI you can automatically rebuild images that inherit from your's allowing you to easily deliver fixes and a new features to a base image used by your teams,
 - have a full Continuous Deployment and Delivery workflow by pointing your CaaS to use images directly from GitLab Container Registry, you'll be able to perform automated deployments of your applications to the cloud (Docker Cloud, Docker Swarm, Kubernetes and others) when you build and test your images.
 
-## Example
+## Start using it
+
+First ask your system administrator to enable GitLab Container Registry following the [administration documentation](.http://docs.gitlab.com/ce/administration/container_registry.html).
+
+After that you will be allowed to enable **Container Registry** for your project.
+
+![](/images/container-registry/project_feature.png)
+
+To start using your brand new **Container Registry** you first have to login:  
+
+```
+docker login registry.example.com
+```
+
+Then you can simply build and push images to GitLab:
+
+```
+docker build -t registry.example.com/group/project .
+docker push registry.example.com/group/project
+```
+
+GitLab also offers simple Container Registry management. Go to your project and click **Container Registry**.
+ This view will show you all tags in your repository and will easily allow you to delete them.
+
+![](/images/container-registry/container_registry.png)
+
+## Use with GitLab CI
+
+You can use integrated CI solution to build, push and deploy your Container Images.
+
+> **Note:** This feature requires GitLab Runner 1.2.
 
 Here's an example GitLab CI configuration file (`.gitlab-ci.yml`) which builds an image, runs tests, and if the tests are successful, tags the build and uploads the build to the container registry.
 
@@ -77,9 +107,8 @@ build_image:
   - docker:dind
   script:
     - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
-    - docker build -t my-group/my-project .
-    - docker run my-group/my-project /script/to/run/tests
-    - docker tag my-group/my-project registry.gitlab.com/my-group/my-project:latest
+    - docker build -t registry.gitlab.com/my-group/my-project .
+    - docker run registry.gitlab.com/my-group/my-project /script/to/run/tests
     - docker push registry.gitlab.com/my-group/my-project:latest
   only:
     - master
