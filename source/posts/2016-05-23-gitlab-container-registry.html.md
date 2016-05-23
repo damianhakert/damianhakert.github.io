@@ -24,7 +24,7 @@ Our container registry is actually the first Docker registry that is
 fully-integrated with git repository management and comes out of the box with
 GitLab 8.8. So if you've upgraded, you already have it!
 This means our integrated Container Registry requires no additional
-installation or configuration. It allows for easy upload and download of images
+installation. It allows for easy upload and download of images
 from GitLab CI. And it's free.
 
 [8.8]: https://about.gitlab.com/2016/05/22/gitlab-8-8-released/
