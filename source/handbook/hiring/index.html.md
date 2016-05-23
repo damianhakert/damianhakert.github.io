@@ -192,6 +192,7 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 1. What did you like least about your recent/current position?
 1. Take each skill required for the job and do a [STAR](https://en.wikipedia.org/wiki/Situation,_Task,_Action,_Result) for a couple of situations.
 1. What professional achievements are you most proud of?
+1. Who's careers have you made better?
 1. How do you keep up to date with developments in your profession?
 1. If you don't get this job what will you do?
 1. Are you interviewing anywhere else?
