@@ -49,6 +49,17 @@ but you're free to [define any other stage][stages-doc] in your
 
 [stages-doc]: http://docs.gitlab.com/ce/ci/yaml/README.html#stages
 
+## GitLab Container Registry
+
+In this release, we are supercharging GitLab CI. First with Pipelines and now with GitLab Container Registry.
+GitLab Container Registry is a secure and private registry for Docker images. It isn't just a 
+standalone registry; it's completely integrated with GitLab. In fact, our container registry is 
+actually the first Docker registry that is fully-integrated with git repository 
+management and comes out of the box with GitLab 8.8. So if you've upgraded, you already have it!
+Our integrated Container Registry requires no additional installation. It allows for easy 
+upload and download of images from GitLab CI. And it's free. We were so excited about this feature
+that we wrote a whole blog post about it. [Read the full post](https://about.gitlab.com/2016/05/23/gitlab-container-registry/). 
+
 ## .gitignore templates
 
 You should version everything. Well, _almost_ everything.
@@ -103,14 +114,6 @@ Nagios, and NewRelic.
 > Read more in the [health check documentation][health-check].
 
 [health-check]: http://docs.gitlab.com/ce/monitoring/health_check.html
-
-## Upcoming Feature
-
-This release contains another cool feature that we're saving
-for tomorrow.
-
-We almost can't contain our excitement about how our announcement
-on Monday will register with you!
 
 ## UI Improvements
 
