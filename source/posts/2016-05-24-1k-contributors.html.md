@@ -18,9 +18,9 @@ heartfelt and handwritten thank you!
 
 ![](/images/blogimages/1k-contributors-images/1K_contributors_writing.jpg)
 
-As a community we’ve developed and released features like GitLab CI, which was an idea
+As a community we’ve developed and released features like GitLab Runner, which was an idea
 that was proposed by our current GitLab team member, Kamil. However, when Kamil
-proposed the idea of built-in continuous integration he was not a GitLab employee, he was a
+proposed the idea he was not a GitLab employee, he was a
 contributor. Our most recent example of the strength of our contributors comes from Matt
 Oakes, who contributed a great new feature to the [GitLab 8.8 release](https://about.gitlab.com/2016/05/22/gitlab-8-8-released/). Matt’s contribution
 now makes it possible to suppress text file diffs by marking a file as non-diffable in your
