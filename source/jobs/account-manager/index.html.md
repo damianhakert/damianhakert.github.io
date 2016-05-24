@@ -8,13 +8,13 @@ GitLab is an application to code, test, and deploy code together. It provides Gi
 ## Responsibilities
 
 * Build and expand relationships and awareness of GitLab within accounts 
-* Engage our [service engineers](https://about.gitlab.com/jobs/service-engineer) and [solutions engineer](https://about.gitlab.com/jobs/solutions-engineer/) as appropriate.
+* Engage our [service engineers](https://about.gitlab.com/jobs/service-engineer) and [success engineer](https://about.gitlab.com/jobs/success-engineer/) as appropriate.
 * Identify and document business goals, technology stack and how customers are using GitLab
 * Increase adoption of GitLab features and products through implementation of an outreach strategy
 * Advocate for customer needs for training and services where needed
 * Own the renewal process
 * Identify and document growth opportunities within account
-* Advocate for the overall health of relationship to GitHub acting proactively to address issues and concerns
+* Advocate for the overall health of relationship to GitLab acting proactively to address issues and concerns
 * Help map customers process and goals
    
 ## Requirements for Applicants

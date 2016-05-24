@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GitLab Enterprise Edition 6.8 Release
 date: April 28, 2014
 author: Job van der Voort

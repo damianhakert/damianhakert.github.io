@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How you can send your logs ballistically using UDP"
 date: 2014-12-08
 categories:

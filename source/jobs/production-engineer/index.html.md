@@ -4,6 +4,7 @@ title: "DevOps Engineer"
 ---
 
 ## Responsibilities
+
 * As an DevOps (or OpsDev) engineer you will be on a pager duty rotation to respond
 to GitLab.com availability incidents and customer incidents.
 * Improve GitLab.com availability and performance
@@ -21,10 +22,11 @@ to GitLab.com availability incidents and customer incidents.
 * Chef experience
 * Ruby scripting experience (our preferred language for operations scripts)
 * Programming experience (Ruby and Ruby on Rails preferred; for GitLab debugging)
+- Collaborative team spirit with great communication skills
 * Work remotely from anywhere in the world (Curious to see what that looks like? Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!)
 
 ## Workflow
 
-You work on issues in the [operations repository](https://gitlab.com/gitlab-com/operations/issues).
+You work on issues in the [infrastructure repository](https://gitlab.com/gitlab-com/infrastructure/issues).
 
 The priority of the issues can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/#prioritize).

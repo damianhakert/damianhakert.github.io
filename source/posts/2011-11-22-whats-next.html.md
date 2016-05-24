@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: What's next?
 wordpress_id: 84
 wordpress_url: http://blog.gitlabhq.com/?p=84

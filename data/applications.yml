@@ -39,6 +39,11 @@
       links:
         - url: http://git2go.com
           title: git2go.com
+    - title: Branches
+      content: Branches is an iPhone and iPad app for managing issues in your GitLab repositories. The app also lets you browse commits, merge requests and files.
+      links:
+        - url: http://branchesapp.co
+          title: branchesapp.co 
 - title: Command Line Interface (CLI) Clients
   id: cli-clients
   applications:
@@ -81,6 +86,13 @@
           title: Repository (and issues) on GitHub
         - url: https://bitbucket.org/guyzmo/git-repo
           title: Repository on Bitbucket
+    - title: gitlab-cli
+      content: |
+        Copy global labels into a project or between projects on the same or
+        different GitLab instances, edit or delete labels using a regex.
+      links:
+        - url: https://github.com/clns/gitlab-cli
+          title: Repository on GitHub
 - title: API Clients
   id: api-clients
   applications:
@@ -230,6 +242,11 @@
       links:
         - url: https://www.reviewboard.org/
           title: Review Board
+    - title: TMetric
+      content: Easy time management tool which helps to track all your working activity in GitLab. Follow GitLab time tracking instruction to start using TMetric.
+      links:
+        - url: https://tmetric.com/help/integrations/gitlab-time-tracking/
+          title: GitLab time tracking
 - title: Continuous Integration
   id: continuous-integration
   applications:
@@ -263,6 +280,14 @@
       links:
         - url: http://doc.gitlab.com/ee/integration/jenkins.html
           title: Jenkins CI integration
+    - title: Shippable
+      content: |
+        Shippable is the one solution you need to automate your application
+        delivery pipelines, with the flexibility to work with your existing
+        tools, processes and infrastructure.
+      links:
+        - url: http://docs.shippable.com/ht_using_gitlab/
+          title: Shippable GitLab integration
 - title: CMS Plugins
   id: cms-plugins
   applications:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Feature Highlight: User preferences to customize GitLab behavior"
 date: 2015-11-05
 author: Drew Blessing

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GitLab is a Google Summer of Code project
 tags: []
 status: publish

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GitLab Enterprise Edition 6.6 Release
 date: February 25, 2014
 author: Jacob Vosmaer

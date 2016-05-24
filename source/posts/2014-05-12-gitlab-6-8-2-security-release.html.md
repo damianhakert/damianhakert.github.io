@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GitLab 6.8.2-CE & 6.8.1-EE Security Release
 date: May 12, 2014
 author: Job van der Voort

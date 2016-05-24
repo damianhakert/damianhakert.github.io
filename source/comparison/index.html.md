@@ -18,10 +18,11 @@ extra_css:
 - [GitLab.com vs. Bitbucket.org](#gitlabcom-vs-bitbucketorg)
 - [GitLab CE/EE vs. SaaS](#gitlab-ceee-vs-saas)
 - [GitLab vs. SVN](#gitlab-vs-svn)
+- [GitLab vs. GitSwarm](#gitlab-vs-gitswarm)
 
 ## Bias
 
-Since GitLab fans wrote most of the text here there is a pro-GitLab bias. Nonetheless we try hard to ensure the comparisons are fair and factual. Please also add things that are great in other products but missing in GitLab. If you find something that is invalid, biased, missing, or out of date in the comparisons, please [open a merge request for this website](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests) to correct it. As with all the pages on this website you can out which where this pages lives in the repository via the link in the footer.
+Since GitLab fans wrote most of the text here there is a pro-GitLab bias. Nonetheless we try hard to ensure the comparisons are fair and factual. Please also add things that are great in other products but missing in GitLab. If you find something that is invalid, biased, missing, or out of date in the comparisons, please [open a merge request for this website](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests) to correct it. As with all the pages on this website you can find where this page lives in the repository via the link in the footer.
 
 ## GitLab CE vs. GitLab EE
 
@@ -36,12 +37,6 @@ To learn more about how GitLab Community Edition compares to GitLab Enterprise E
 Set permissions according to people's role, rather than either read or write access to a repository. Don't share the source code with people that only need access to the issue tracker.
 
 [See the various authentication levels](http://doc.gitlab.com/ce/permissions/permissions.html)
-
-### Group-level milestones
-
-View all the issues for the milestone you’re currently working on across multiple projects.
-
-[Example milestone for GitLab 8.2 (need to be logged in)](https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2)
 
 ### Attachments in issues
 In GitLab you can attach any file to any issue or comment.
@@ -64,11 +59,34 @@ GitLab is meant to be the best place for any software project. The team behind G
 ### Powerful Issue Tracker
 Quickly set the status, assignee or milestone for multiple issues at the same time or easily filter them on any properties. See milestones and issues across projects.
 
+#### Due date
+
+In GitLab, you can set a due date for individual issues. This is very convenient if you have small tasks with a specific deadline.
+
+#### Move issues between projects
+
+You can move issues between projects in GitLab. All links, history and comments
+will be copied and the original issue will reference the newly moved issue.
+This makes working with multiple issue trackers much easier.
+
+#### Group-level milestones
+
+View all the issues for the milestone you’re currently working on across multiple projects.
+
+[Example milestone for GitLab 8.2 (need to be logged in)](https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2)
+
+#### Create new branches from Issues
+
+In GitLab, you can quickly create a new branch from an issue on the issue
+tracker. It will include the issue number and title automatically, making it easy to track which branch belongs to which issue.
+
+[See how in our documentation](http://doc.gitlab.com/ce/workflow/web_editor.html#sts=Create a new branch from an issue)
+
 ### Search through Commits
 GitLab not only allows you to search through code, but also searches through your commit messages.
 
 ### Don't take our word for it.
-Agilob contributed [a great article about why you should choose GitLab for your next open source project.](https://www.b.agilob.net/choose-gitlab-for-your-next-project/)
+agilob contributed [a great article about why you should choose GitLab for your next open source project.](https://b.agilob.net/choose-gitlab-for-your-next-project/)
 
 ## GitLab EE vs. GitHub Enterprise
 
@@ -81,7 +99,6 @@ GitLab has the most competitive pricing model in the market and a fraction of th
 Big repository? Huge (>5GB) binary files? No problem. GitLab is built to handle very large repositories, and Git Annex and LFS are both supported.
 
 [Using Git Annex with GitLab](https://about.gitlab.com/2015/02/17/gitlab-annex-solves-the-problem-of-versioning-large-binaries-with-git/)
-
 
 ### Rebase before merge in the web UI to prevent merge commits
 Before merging one branch in the other, GitLab can rebase it automatically.
@@ -148,6 +165,16 @@ Create a template for issues and merge requests in your project to ensure all in
 
 ### Use the most installed on-premises Git solution
 GitLab is used by over 100,000 organizations worldwide, on their own servers.
+
+### Access to and possibility to modify the source code of GitLab
+
+The Ruby code in GitHub Enterprise is obfuscated.
+GitLab Enterprise Edition [has a publicly readable source code][ee-source] and
+you have the right to modify the code.
+
+[Read the GitLab Enterprise Edition license](https://gitlab.com/gitlab-org/gitlab-ee/blob/master/LICENSE)
+
+[ee-source]: https://gitlab.com/gitlab-org/gitlab-ee
 
 ## GitLab.com vs. GitHub.com
 
@@ -236,3 +263,23 @@ Git is really fast. Performing a diff, viewing history, committing and merging c
 
 ### Size Requirements
 A single repository in Git is typically a number of times smaller than the same repository in SVN.
+
+## GitLab vs. GitSwarm
+
+### Definitions
+* GitSwarm - a version of GitLab customized by Perforce.
+* Git Fusion - a git to Perforce connector produced by Perforce.
+
+### Authentication
+* GitSwarm uses plain GitLab authentication.  The mapping of how Git Fusion credits individual git commits to Perforce users is set up within Git Fusion and is based on the email address associated with the commit on the git side. This is compared to a text-based table stored within Perforce as part of the Git Fusion configuration.
+* To ensure usernames line up across both GitSwarm and Perforce (via Git Fusion) an external authentication mechanism that both systems use to authenticate (such as LDAP) is required. Currently this can only be done via LDAP.
+* For permission checking, as of the 2016.1 release, GitSwarm has an experimental option to pass a username to Git Fusion to check the Perforce protection table. In that case, the GitSwarm and Perforce usernames would have to be the same.  This functionality passes the username and git path to Git Fusion, which has to work out what is allowed.  It does not mean that permissions within GitSwarm are the same.  This feature is turned off by default. Because of the potential for different permissions for same path in GitSwarm and Perforce, a poor user experience could result if this were turned on.  Turning this on is not recommended by Perforce.
+
+### Mirroring/Syncing with GitSwarm (requires Git Fusion) and GitLab
+* GitSwarm synchronization with Perforce happens as part of the commit portion of the push process.  It is synchronous.  If the push fails (because of a non fast-forward merge, for example) any fix needs to be addressed from the git end.  This is because Perforce doesn’t allow rewriting of committed history the way git does.  GitSwarm metadata not stored directly by git (comments, wiki messages, issues, etc.) is not pushed to Perforce.
+* GitLab Geo synchronization between GitLab nodes happens asynchronously.  The pushes are performed on a periodic basis. (Either scheduled via cron or initiated by a trigger of some kind).  If a push fails (because of a fast-forward merge, for example) the operation can be addressed on either of the GitLab systems.  Both are running git and both support git’s rewrite functionality.
+* GitLab EE Repository Mirroring to Perforce (via Git Fusion) is performed asynchronously.  If the push fails (because of a non fast-forward merge, for example) any fix needs to be addressed from the git end.  When mirroring this way the GitLab metadata not stored directly by git (comments, wiki messages, issues, etc.) is not pushed to Perforce.
+
+
+
+###

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Pricing for GitLab.com announced, 10 users are free and no change until July
 tags: []
 status: publish

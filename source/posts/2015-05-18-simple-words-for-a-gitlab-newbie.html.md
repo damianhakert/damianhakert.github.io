@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Simple words for a GitLab Newbie"
 date: 2015-05-18
 author: Karen Carias

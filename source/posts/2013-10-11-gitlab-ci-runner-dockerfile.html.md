@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GitLab CI Runner Dockerfile
 ---
   [Docker](https://www.docker.io/) is an awesome tool to run virtual machines without overhead. Docker containers start in 2 seconds and use less memory and disk space. One requirements is that the host needs to be a Linux (virtual) machine.

@@ -15,7 +15,8 @@ $(function() {
       $hireUs = $('#hire-us'),
       $tabs = $('#tabs'),
       $imageLink = $('.image-link'),
-      $tables = $('table');
+      $tables = $('table'),
+      internalNavigationEvent = 'onpopstate' in window ? 'popstate' : 'hashchange';
 
   $("input").not("[type=submit]").jqBootstrapValidation();
 
@@ -70,6 +71,8 @@ $(function() {
   }
 
   var changeScrollPosition = function () {
+    if (window.location.hash === '') { return; }
+
     var hash = window.location.hash,
         $el = $('a[name="' + hash.replace('#', '') + '"], ' + hash + ''),
         extraHeight = $('.navbar-header').outerHeight(),
@@ -84,24 +87,7 @@ $(function() {
     }
   }
 
-  $(window).on("hashchange", changeScrollPosition);
-});
-
-$(window).on('load', function () {
-  setTimeout(function() {
-    if (window.location.hash !== '') {
-      var hash = window.location.hash,
-          $el = $('a[name="' + hash.replace('#', '') + '"], ' + hash + ''),
-          extraHeight = $('.navbar-header').outerHeight(),
-          $qnav = $('#qnav');
-
-      if ($qnav.length) {
-        extraHeight += $qnav.outerHeight() - 2;
-      }
-
-      if ($el.length) {
-        $(window).scrollTop($el.offset().top - extraHeight);
-      }
-    }
-  }, 10);
+  $(window).on('load ' + internalNavigationEvent, function () {
+    setTimeout(changeScrollPosition, 10);
+  });
 });

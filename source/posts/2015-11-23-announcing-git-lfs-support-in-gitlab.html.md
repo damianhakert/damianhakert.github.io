@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Announcing Git LFS Support in GitLab"
 date: 2015-11-23
 author: GitLab

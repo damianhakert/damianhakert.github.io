@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 7.14 released with improved syntax highlighting and Variables in CI"
 date: 2015-08-22
 categories:

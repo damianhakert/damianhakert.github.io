@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "2015 was a great year at GitLab!"
 date: 2016-02-11
 categories:

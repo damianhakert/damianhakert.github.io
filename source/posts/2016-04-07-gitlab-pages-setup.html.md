@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Hosting on GitLab.com with GitLab Pages"
 date: 2016-04-07 10:00:00
 categories: tutorial

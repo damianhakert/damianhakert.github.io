@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab CI 5.1 released"
 date: 2014-10-22 16:54:59 +0300
 categories: 

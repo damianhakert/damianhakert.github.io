@@ -3,41 +3,61 @@ layout: markdown_page
 title: "Field Marketing"
 ---
 
+## Welcome to the Field Writing Handbook!  
+
+[Up one level to the Developer Relations Handbook](/handbook/marketing/developer-relations/)
+
+## On this page
+* [Events overview](#events)  
+* [Events overview](#goals)  
+* [Evaluating events](#evaluate)  
+* [Promoting events](#promotion)  
+* [Booth guidelines](#guidelines)  
+* [Networking tips](#networking)  
+* [Events overview](#attire)  
+* [Booth staffing](#boothstaffing)  
+* [Event followup](#followup)  
+* [Speaker information](#speakerportal)  
+* [Meetups](#meetups)  
+* [Swag](#swag)  
+
+
 ## **Field Marketing**
 
 Field marketing includes event marketing and swag production.  
 
-## Events Overview
+## Events Overview<a name="events"></a>
 
 * Get GitLab team members out to meet people in the community. People that you meet in person are more likely to become evangelists for you.
 * If you go talk at small events you'll see that over time you get into bigger ones.
 
-## Events Goals
+## Events Goals<a name="goals"></a>
 - Evangelism (brand) - Talk to as many people as we can about GitLab. Our booth presence we must be friendly, knowledgeable, and outgoing.
 - Sales leads (revenue) - We will collect business cards and email addresses for potential leads.
 - Hiring (company) - Always be recruiting. See someone doing a great job of evangelism for another product? Ask that person for coffee.
 - Partnership (channel) - Organizations adding support for GitLab and/or shipping GitLab with their offering.
-- Product Direction - what is the market asking for, in need of and willing to pay for.  
+- Product Direction - discovery of what the market asking for, in need of and willing to pay for.  
 - Drive audience to any talks/ events we are having.
 
-## How We Evaluate Events
+## How We Evaluate Events<a name="evaluate"></a>
 - Price/ Budget
 - Location- tops cities for developers and can we tag on another event?
-- Attendees- who’s attending? Is it the right audience for us? entrepreneurs vs engineers
-- Size- try to reach a large audience
+- Attendees- who’s attending? Is it the right audience for us? entrepreneurs vs engineers.
+- Size- try to reach a large audience.
 - What will our presence be? Who can/ can we go, participate, speak, booth?
+- Can we pair this event with other local engagements?
 - We want to strike a good balance between: community and enterprise events.
 
-## Promoting Events
-- Use social media to post as soon as committed to attending an event
-- Email signatures- starting 1 month before event
-- Monthly blog post about upcoming events
-- Get attendee list and contact customers and prospects before event
-- BDRS will help set up in person meetings to occur at event
+## Promoting Events<a name="promotion"></a>
+- Use social media to post as soon as committed to attending an event.
+- Email signatures- starting 1 month before event for those attending event.
+- Monthly blog post about upcoming events.
+- Get attendee list and contact customers and prospects before event.
+- BDRS will help set up in person meetings to occur at event.
 
 ## **At Events**
 
-## Employee Booth Guidelines
+## Employee Booth Guidelines<a name="guidelines"></a>
 
 - If you see someone standing alone, talk to them.
 - Do not stand around and talk to other GitLab coworkers. Talk to people you don’t know.
@@ -47,24 +67,25 @@ Field marketing includes event marketing and swag production.
 - The booth should be clean and organized at all times.
 - Document any product feedback you get.
 - If press comes to the event feel free to put them in contact with CEO (Sid) or Marketing (Ashley).
+- Bring your business cards and a plan to take notes on encounters.
 
-## Networking Tips
-- Listen
-- Ask questions
-- Don't interrupt
+## Networking Tips<a name="networking"></a>
+- Listen.
+- Ask questions.
+- Don't interrupt.
 - Everyone gets shy sometimes, be the brave one and introduce yourself to new people.
 - Feel free to talk about our next release, GitLab [strategy](https://about.gitlab.com/strategy/), or our [product direction](https://about.gitlab.com/direction/#vision).
 
-## Suggested Attire
+## Suggested Attire<a name="attire"></a>
 - Wear at least one branded GitLab piece of clothing.
 - If the conference is business casual try some nice jeans (no holes) or pants.
 - Clean shoes please.
 - A smile.
 
-## Booth Staffing
-- Ideally shifts will be round 3 hours or less
-- Staff more poeple during peak traffic hours
-- Do not have shift changes during peak hours
+## Booth Staffing<a name="boothstaffing"></a>
+- Ideally shifts will be around 3 hours or less.
+- Staff more poeple during peak traffic hours.
+- Do not have shift changes during peak hours.
 - Send out clendar invites to booth staff with the following information:
     - Time and date of event, booth, and shift
     - Suggested attrire
@@ -74,7 +95,7 @@ Field marketing includes event marketing and swag production.
     - How to get a hold of you
     - Link to events handbook
 
-## After and Event
+## After an Event<a name="followup"></a>
 
 - Fill out after event survey.
 - Add event debrief to event issue in marketing project. The debrief should include the following if applicable:
@@ -92,16 +113,16 @@ Field marketing includes event marketing and swag production.
     - Contests
         - Did the contest(s) effectively build our brand and connecting with our target audience?
 - Make sure contacts/ leads gathered from event are with marketing and categorized under specific event campaign.
-- Follow up with leads from event within 5 business days after event ends
+- Follow up with leads from event within 5 business days after event ends.
 
 
-## Speaker Portal
+## Speaker Portal<a name="speakerportal"></a>
 
 * Catalogue of talks and speaker briefs we have done or can do and their run times.  Contact community@gitlab.com for access.
 
-## Meetups
+## Meetups<a name="meetups"></a>
 
-* We have a meetup-in-a-box package where we arrange for:
+* Devloping meetup-in-a-box package where we will arrange for:
 
 - Food (not only pizza, something healthy too)
 - GitLab swag
@@ -115,10 +136,10 @@ Field marketing includes event marketing and swag production.
 
 The first meetups should be run by GitLab employees. If someone manages to have 3-4 successive events, the meetup itself will live on. It is much harder to start new meetups versus maintaining existing ones. So we should everything to keep existing events going.
 
-## Swag
+## Swag<a name="swag"></a>
 
+* We aim to have our swag delight and or be useful.
+* We aim to make limited edition swag for the community to collect.
 * We aim to do swag in a way that doesn't take a lot of time to execute => self serve => [web shop](https://gitlab.mybrightsites.com/)
 * With a webshop you can just give people credit, they can pick what they want and provide shipping info.
 * Of course we love [stickers](http://opensource.com/business/15/11/open-source-stickers). We are working on special edition stickers for contributors to be announced May 2016.
-* We aim to have our swag delight and or be useful.
-* We aim to make limited edition swag for the community to collect.

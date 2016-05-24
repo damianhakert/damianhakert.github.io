@@ -8,6 +8,7 @@ title: Support
 - [Service Engineer Onboarding](/handbook/support/onboarding/)
 - [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
 - [PGP Process](https://about.gitlab.com/handbook/support/pgp_process/)
+- [External support resources for the team](/handbook/support/external/)
 
 ## Contents of the page
 
@@ -75,7 +76,7 @@ Every now and then, it may occur that we come close to breaching our SLA's.
 To prevent an actual breach from occurring, the Support team can call on the help
 of several 'Support Turbo' developers who are called out on the [Team Page](https://about.gitlab.com/team/).
 The support team calls for help when necessary via Slack, but in case of doubt or
-conflicting priorities, the Development Lead needs to give the green light for the
+conflicting priorities, the Backend Lead needs to give the green light for the
 support turbo developers to momentarily switch away from their other tasks.
 
 ## Dashboard <a name="dashboard"></a>
@@ -141,29 +142,7 @@ have the link to the corresponding ZenDesk issue from where you will continue th
 
 Once acknowledged, you need to login to [ZenDesk](https://gitlab.zendesk.com), go to the corresponding ticket
 and let the customer know that you will handle their case. On this response you should ask for the best way
-to contact them. Usual channels are Phone, Skype, WebEx or Hangouts.
-
-#### WebEx
-
-More often than not, WebEx will be the best tool for the job, so you can save yourself a step and already start
-a WebEx session for this call. To do this you can use the `GitLab Support` WebEx account. Go to our
-[WebEx Portal](https://gitlabmeetings.webex.com), click on the login button on the top right and use the
-credentials found in the Support Vault on 1password.
-
-![WebEx Login](/images/support/web-ex-login.png)
-
-Once logged in, click the `Enter Room` button to start the WebEx meeting and send the following link to
-the customer and ask them to join the call.
-
-```
-https://gitlabmeetings.webex.com/meet/gitlabsupport
-```
-
-![WebEx Room](/images/support/web-ex-room.png)
-
-WebEx is usually the best choice, since it allows you to see the customer's desktop and
-to control it on request. It also gives the customer the possibility to join via phone and
-us the possibility to use our computer audio connection.
+to contact them. Usual channels are Phone, Skype, [WebEx](/handbook/support/onboarding/#webex) or Hangouts.
 
 #### Crisis Situations
 
@@ -175,7 +154,7 @@ If an emergency takes longer than an hour to resolve,
 and/or multiple people are or need to be involved, **start a google doc** that is open to the customer and the wider team at GitLab, and keep track of the
 issues and ideas there. ZenDesk's 'linear' display of communication with a customer is not as effective in crisis situations, and the
 majority of developers do not have access to ZenDesk in the first place. Announce the google doc in the appropriate
-slack channel (#operations, #development, #general) so that individuals can contribute solutions and ideas. When the crisis
+slack channel (#infrastructure, #development, #general) so that individuals can contribute solutions and ideas. When the crisis
 has been resolved, be sure to transfer pertinent know-how from the google doc to relevant documentation, handbooks, and/or
 issue trackers, so that the google doc can be deprecated a.s.a.p.  In addition, Service Engineers and Developers involved
 in the crisis should make time to have a hangout for hand-off to make sure that everyone has the chance to recover and stay
@@ -184,7 +163,7 @@ clear-headed.
 ### GitLab.com downtime <a name="downtime"></a>
 
 When GitLab.com goes down a PD incident will be triggered as well, so the flow is the same as emergency tickets
-for the first steps. If you are on call and are still working, you should keep an eye on our #operations channel
+for the first steps. If you are on call and are still working, you should keep an eye on our #infrastructure channel
 in [Slack](https://gitlab.slack.com), as warning messages will often start to appear before the PD incident is triggered.
 
 Once you acknowledge the incident, you need to pinpoint the reason for the outage. Follow the documentation
@@ -223,6 +202,13 @@ reports are also piped into ZenDesk, but they need to be responded to from the H
 upon completion. Remember that all researchers should receive feedback as with regular support tickets,
 and you should not hesitate to triage or escalate the report. **Always** mention that they can email us at any time for an update.
 Eventually each report has to be accepted and/or closed through the HackerOne dashboard even if you've followed through on ZenDesk.
+
+After a report has been closed as resolved or informative it can be [publicly disclosed](https://dev.gitlab.org/gitlab/organization/issues/805#note_72812).
+This is can be requested either by GitLab or the reporter. If the reporter requests this then it will be released when you accept it
+or 30 days after the request is submitted. Prior to publication you should edit the report and make sure that it has:
+
+1. No sensitive information.
+1. A link to the MR that fixed the issues.
 
 If you need to grant HackerOne permissions to a new GitLab user, have an admin send
 an invitation from HackerOne and add you to the Internal group. You can find out who
@@ -309,6 +295,14 @@ The @GitLabStatus account should only be used to give updates on the availabilit
 of GitLab.com and to follow up on users reporting that GitLab.com is unavailable.
 
 When a tweet mentions 1 or more of the handles described above, it should be replied to from the main handle (@GitLab).
+
+When resolving Twitter tickets you should:
+
+1. Start by the oldest ticket first
+1. Not skip any tickets
+1. Assign the ticket to yourself and ask on the appropriate Slack
+   channel if you don't know the answer
+1. Not cross assign tickets
 
 ### Facebook<a name="facebook"></a>
 

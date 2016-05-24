@@ -92,7 +92,7 @@ diluted you by 20%). The 5% stake was worth $5m before the fundraise and the 4% 
 the exercise price that was set when the options were first granted and you get stock
 certificates back.
 To give employees an opportunity to benefit from any existing tax incentives that may
-be available (including under the US and the Netherlands tax laws) we have made the stock
+be available (including under the US and the Dutch tax laws) we have made the stock
 immediately exercisable. This means you can exercise your right to purchase the unvested
 shares under your option to start your holding period.  However, the Company retains a
 repurchase rights for the unvested shares if your employment or other services ends for
@@ -149,7 +149,7 @@ NSOs are treated much less favorably under tax law because they can be given to 
 don’t work at GitLab. This complicates the tax law and is beyond the current scope of this
 document.
 
-For our Netherlands employees, the Dutch taxing authority has a similar concept in that
+For our employees based in the Netherlands, the Dutch taxing authority has a similar concept in that
 only the difference between the exercise price and the fair market value is considered taxable.  So if
 you exercise early there is no difference between the two and therefore no taxable gain.
 Again, the decision to exercise early should be done in consultation with your tax advisor.

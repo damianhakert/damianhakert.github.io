@@ -70,12 +70,16 @@ GitLab.com runs on Microsoft Azure. Many people in GitLab also have
 instances on DigitalOcean. If you need a VPS for any reason, it's probably easiest
 to set one up at DigitalOcean. Ask another developer for access.
 
-## Operations
+## Infrastructure
 
-For everything related to operations, check out the
-[Operations handbook](https://about.gitlab.com/handbook/operations).
+For everything related to infrastructure, check out the
+[Infrastructure handbook](https://about.gitlab.com/handbook/infrastructure).
 
-## Basics of GitLab development
+## Basics of GitLab development<a name="basics-of-gitlab-development"></a>
+
+### Workflow
+
+The priority of the issues can be found in [the handbook under GitLab Workflow under prioritize](https://about.gitlab.com/handbook/#prioritize) and [priority in the same milestone](https://about.gitlab.com/handbook/#priority).
 
 ### Quality
 

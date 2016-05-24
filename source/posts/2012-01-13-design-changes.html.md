@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: Design changes
 wordpress_id: 191
 wordpress_url: http://blog.gitlabhq.com/?p=191

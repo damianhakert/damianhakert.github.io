@@ -6,7 +6,7 @@ title: "Developer"
 At GitLab, developers are highly independent and self-organized individual
 contributors who work together as a tight team in a [remote and agile](https://about.gitlab.com/2015/09/14/remote-agile-at-gitlab/) way.
 
-## General Developer Responsibilities
+## Responsibilities
 
 * Develop features from request to polished end result.
 * Support our [service engineers](https://about.gitlab.com/jobs/service-engineer) in getting to the bottom of user-reported issues and come up with robust solutions.
@@ -17,20 +17,16 @@ contributors who work together as a tight team in a [remote and agile](https://a
 * Keep code easy to maintain and keep it easy for others to contribute code to GitLab.
 * Qualify developers for hiring.
 
-### Responsibilities Split Between Various Developers
+## Workflow
 
-* Omnibus packaging
-* Chef cookbooks
-* Production: ensuring that deployments are smooth and scalable
-* Maintenance of various servers such as
-   * license.gitlab.com
-   * version.gitlab.com
-   * status.gitlab.com
-   * doc.gitlab.com
-   * dev.gitlab.org
-* Feature development for GitLab CE, EE, and CI.
+You work on issues tagged with 'Developer' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=Developer) and [EE](https://gitlab.com/gitlab-org/gitlab-ee/issues?label_name=Developer).
+Some issues might be missing any [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) but be ready for a developer, in this case feel free to add a 'Developer' label.
 
-### Senior Developers
+When done with an issue remove the 'Developer' label and add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) or create a merge request and assign it someone that has 'Merge request endboss' on their [team page](https://about.gitlab.com/team/) listing.
+
+Also see the [basics of GitLab develpment in the developer onboarding](handbook/developer-onboarding/#basics-of-gitlab-development).
+
+## Senior Developers
 
 Senior Developers are experienced developers who:
 
@@ -38,7 +34,7 @@ Senior Developers are experienced developers who:
 * train new people
 * are the go-to person when people on the team have development questions
 
-## Requirements for Applicants
+## Requirements
 
 (Check our [Jobs](https://about.gitlab.com/jobs/) page to see current openings).
 
@@ -49,11 +45,3 @@ Senior Developers are experienced developers who:
 * Work remotely from anywhere in the world (Curious to see what that looks like?
 Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!)
 
-## Workflow
-
-You work on issues tagged with 'Developer' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=Developer) and [EE](https://gitlab.com/gitlab-org/gitlab-ee/issues?label_name=Developer).
-Some issues might be missing any [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) but be ready for a developer, in this case feel free to add a 'Developer' label.
-
-The priority of the issues tagged with this label can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/#prioritize).
-
-When done with an issue remove the 'Developer' label and add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) or create a merge request and assign it someone that has 'Merge request endboss' on their [team page](https://about.gitlab.com/team/) listing.

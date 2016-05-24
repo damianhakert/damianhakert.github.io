@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab Swag Shop is Open!"
 date: 2016-02-29
 categories: community

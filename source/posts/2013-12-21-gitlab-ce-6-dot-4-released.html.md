@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab CE 6.4 released"
 date: 2013-12-21 12:20
 author: Dmitriy Zaporozhets

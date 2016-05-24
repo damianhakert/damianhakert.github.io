@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Omnibus packages with OpenSSL 1.0.1p"
 date: 2015-07-10
 author: Jacob Vosmaer

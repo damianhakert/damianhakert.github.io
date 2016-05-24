@@ -10,17 +10,18 @@ Your impact will help us make it easier to maintain a competitive edge, enhance 
 
 ## Responsibilities
 
-* Responsible for implementing tools and processes for the sales organization that focus on improving efficiency and effectiveness
-* Manager Platforms and Systems: Responsible for all SalesForce.com administration including user management, data management, application setup, customization, reports and dashboards. Zuora, WebEx, TrainTool, etc.
+* Implementing tools and processes for the sales organization that focus on improving efficiency and effectiveness
+* Manage Platforms and Systems: Responsible for all SalesForce.com administration including user management, data management, application setup, customization, reports and dashboards. Zuora, WebEx, TrainTool, etc.
 * Partner in the development of sales coverage, headcount planning and sales quota.
 * Create and manage New Hire Boot Camps to quickly ramp up Sales Reps
-* Improve and manage the Corporate Sales Certification Program
+* Improve and manage the [Sales Onboarding Bootcamp](https://about.gitlab.com/handbook/sales-onboarding/) 
 * Create Board level presentations for the Chief Revenue Officer
 * Manage, analyze and summarize the weekly Sales Forecast
 * Create and manage programs for Weekly and Quarterly Sales Training sessions
 * Organize and manage the sales resource library to include marketing pieces, presentations, outreach campaigns and competitive market intelligence.
 * Pricing and Contract Support: Given the pace of business, its imperative that sales operations enable the sales team with high-quality proposals that can be turned around quickly and efficiently.
-
+* Compensation Management
+* Manage approval process (deal sign off) between sales and finance
 
 ## Requirements for Applicants
 (Check our [Jobs](https://about.gitlab.com/jobs/) page to see current openings).

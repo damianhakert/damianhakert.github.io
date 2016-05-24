@@ -14,8 +14,9 @@ title: "Sales Process"
 * [Opportunity Types](#types)
 * [Adding Products to an Opportunity](#products)
 * [Opportunity Stages](#stages)
-* [Submitting Quotes in Salesforce.com](#quotes)
+* [Submitting Quotes in Salesforce](#quotes)
 * [Closing A Won Deal](#closing)
+* [Using Cases in Salesforce](#cases)
 * [Process after you sell a Plus Subscription](#plus-subscription)
 * [Processing Orders in Recurly](#processing)
 * [Export Control Classification, and Countries We Do Not Do Business In](#export-control)
@@ -73,7 +74,7 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 
 ### Opportunity Types <a name="types"></a>
 
-1. New Business - This type should be used for any new account (business) who signs up
+1. New Business - This type should be used for any new account (business) who signs up. Paid training also falls under this type if the organization does not have an enterprise license.
 1. Web Direct -  This type should be used for any new business who pays directly online
 1. Add-on - This type should be used for any incremental/upsell business sold into an existing account and division mid term, meaning not at renewal.
 1. Exisiting Account (new divsion) - This type should be used for new business sold into an existing account but a new division, a new puchasing group.
@@ -135,6 +136,33 @@ Once the above has happened, please make sure the following actions are done:
     * If an add-on or existing account (new division) opportunity has been identified and recorded in Salesforce, create a task for the day you and the client will meet to explore the growth opportunity.
 1. Check to make sure the Type field on the Account page now says Customer.  If not, please manually change it.
 1. Update the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
+
+### Using Cases in Salesforce <a name="cases"></a>
+
+A case is a question or feedback from a prospect or customer. Each of us can review cases to see how we can deliver better service. 
+
+When a case is submitted, if the contacts email address is in salesforce, the contact owner will be assigned to the case.  If there is mo match, the case will go to our [BDR Queue](https://na34.salesforce.com/500?fcf=00B610000042ioq). Anyone can check this queue and reasssing to yourself if this is your contact or respond to this case.
+
+Cases display in an Emails related list. The Emails related list includes all emails sent by your customer regarding a particular case, as well the email threads between you and your customer. The first 77 characters of an email message appear in the related list so that you can see what the message is about without having to click on it.
+
+#### To work with Email-to-Case or On-Demand Email-to-Case emails:
+* Click Send An Email to send an email to a contact, another user, or any other email address. Select a "From Address".  Preferrably use sales@ address.
+* Click Reply to respond to an email. The email response automatically includes the email body as received from the customer. Enter your response and click Send.
+* Click To All to respond to all participants on an email thread.
+* The email address of the contact who created the case automatically appears in the To field, as long as the creator is an existing contact. To add more recipients, click Lookup icon to look up an address, or type or paste email addresses or names in the To field.
+* When you enter an email address or name that matches one contact or user, the address appears as a button with the person’s name.
+* To add several addresses at once, copy and paste them separated by spaces or commas. These email addresses appear as buttons, and, if they’re associated with a contact or user, show the contact’s name.
+* When you enter an email address that matches multiple contacts or users, the address appears as a button. Clicking the button brings up a list of people associated with the email address so you can choose the one you want to associate with the message.
+* If you need to copy other people on the message, click Add Cc or Add Bcc.
+* By default, the email subject is the name of the case it’s related to. You can edit the subject if you need to.
+
+* Click the subject of the email to view the email. From the email, you can reply to the sender, reply to everyone, forward the email, or delete it.
+* While viewing an email, you can display a list of all the emails associated with the case by clicking Email Message List, and you can navigate to the case's other emails by clicking Next or Previous.
+* While viewing an email, click Forward to forward it. The email automatically includes the email body as received from the customer. Optionally, enter text and click Send.
+
+#### Closing a Case
+* Before closing a case, make sure that the account is associated with the case
+* Choose the case reason before you close
 
 ### Process after you close a Plus Subscription <a name="plus-subscription"></a>
 

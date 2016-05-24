@@ -38,9 +38,7 @@ task :new_post, :title do |t, args|
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
-    post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
-    post.puts "date: #{Time.now.strftime('%Y-%m-%d')}"
     post.puts "author: "
     post.puts "author_twitter: "
     post.puts "categories: "
@@ -70,7 +68,6 @@ task :new_release_post, :version do |t, args|
   puts "Creating new release post: #{filename}"
 
   template_text = File.read('doc/release_blog_template.html.md')
-  template_text.gsub!('date: YYYY-MM-22', "date: #{Time.now.year}-#{Time.now.strftime("%m")}-22")
   template_text.gsub!('X_X', version.gsub('.', '_'))
   template_text.gsub!('X.X', version)
   template_text.gsub!('X-X', version.gsub('.', '-'))

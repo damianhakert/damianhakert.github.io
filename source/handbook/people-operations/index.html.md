@@ -4,13 +4,12 @@ title: "People Operations"
 ---
 
 - [Reaching People Operations](#reach-peopleops)
+- [Office addresses](#addresses)
 - [Setting up new contracts](#new-contracts)
    - [Using HelloSign](#hellosign)
 - [Processing changes](#processing-changes)
 - [Using BambooHR](#bamboohr)
-   - [Adding a new team member to BambooHR](#admin-bamboo)
-   - [Using BambooHR as a new team member](#new-member-bamboo)
-- [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)   
+- [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)
 - [Administrative details of benefits for US-based employees](#benefits-us)
    - [401k](#401k)
 - [Using TriNet](#using-trinet)
@@ -18,6 +17,8 @@ title: "People Operations"
    - [Making changes in TriNet](#changes-trinet)
 - [Returning property to GitLab](#returning-property)
 - [Using RingCentral](#ringcentral)
+- [Paperwork people may need to obtain mortgage in the Netherlands](#dutch-mortgage)
+- [Compensation principles](#compensation-principles)
 
 ## Reaching People Operations<a name="reach-peopleops"></a>
 
@@ -25,10 +26,15 @@ To reach People Operations, please post an issue on our [internal issue tracker]
 and add the 'PeopleOps' label, or send an email to the People Operations group (see the "GitLab Email Forwarding" google doc), or ping an individual
 member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
 
+## Office addresses<a name="addresses"></a>
+
+- For the SF office, see our [visiting](https://about.gitlab.com/visiting/) page.
+- For the NL office, we use a postbox address listed in the "GitLab BV address" note in the Shared vault on 1Password. We use [addpost](www.addpost.nl) to scan our mail and send it along to a physical address upon request. The scans are sent via email to the email alias listed in the "GitLab Email Forwarding" google doc.
+
+
 ## Setting up new hiring contracts<a name="new-contracts"></a>
 
 New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/) page, including instructions on how to set up new contracts.
-Templates for the contracts are set up in BambooHR. You can download the template from the "Files" tab and work on the contract using Google Drive. Here you can work together if you need help and download the PDF for HelloSign.
 
 
 ### Using HelloSign<a name="hellosign"></a>
@@ -63,11 +69,11 @@ to confirm this.
 
 ## Using BambooHR<a name="bamboohr"></a>
 
-We’re using [BambooHR](https://gitlab.bamboohr.com) to keep all team member information
+We use [BambooHR](https://gitlab.bamboohr.com) to keep all team member information
 in one place. All team members (all contract types) are in BambooHR.
 
 Some changes or additions we make to BambooHR require action from our team members.
-Before calling the whole team to action:  
+Before calling the whole team to action:
 
 1. document what the process will be regarding this action (e.g. "need information X") for
 _new_ team members. (Recall that we strive to change processes by documenting them, not vice versa).
@@ -80,32 +86,6 @@ test account that does not have admin privileges.
 1. in the note to the team, point to the documentation created in step 1, explain the need and
 the ask, and who to turn to in case of questions.
 
-### Adding a new team member to BambooHR <a name="admin-bamboo"></a>
-
-After People Ops is requested to make a contract or offer letter for a potential hire,
-as described on our [Hiring](/handbook/hiring/) page, follow these steps:
-
-1. Download the correct template from the files page on BambooHR
-1. Edit the contract or offer letter to include the new hire information.
-1. Send out the document to be signed using HelloSign, \cc people ops in this process. (document HelloSign first)
-1. Once the document has been signed, create a BambooHR employee file:
-   1. Go to the BambooHR Dashboard
-   1. Click on the top right on “Add employee”
-   1. Enter the following fields: First name, Last name, Gender, Hire date, Employment status, Job information, Pay rate, Salary for employees, or select another option.
-   1. Turn “self service” on for the employee to enter the following info: Address, Phone, DOB. private email.
-1. Save the signed contract under the Documents tab in the folder “0.Signed Contract/Offer Letter”.
-1. As noted in the onboarding checklist, on the start date of the employee send out the "password reset email" under
-the settings option in the top right of the profile (next to "request a change")
-**Note** This link is only valid for 24 hours.
-
-### Using BambooHR as a new team member<a name="new-member-bamboo"></a>
-
-Team members can keep their information in BambooHR updated using self-service:
-
-1. Go to the BambooHR link that you should have received by email
-1. Change the password to make it secure (see the handbook section on [secure passwords](https://about.gitlab.com/handbook/security/))
-1. Login with your new credentials
-1. Keep your credentials stored in your 1Password Vault and keep the info in BambooHR updated (e.g. change address when moving)
 
 ## Managing the PeopleOps onboarding tasks <a name="manage-onboarding-tasks"></a>
 
@@ -121,13 +101,13 @@ and click the dropdown triangle. Select calendar settings and go to "Share this
 calendar" in the top of the window. Enter the GitLab email address and scroll
 down to set the permission setting to "make changes to events" Then save in the
 lower left corner.
-- **Add blank entry to team page**
+- **Add blank entry to team page**<a name="blank-entry"></a>
 Login to [Gitlab.com](www.gitlab.com) and go to the www-gitlab-com project. In
 the left menu click "Files" and select the folder called "source". Continue by
 clicking the folder "data" and select the file called team.yml. In the top right
 corner you can click "edit" to make edits to the code. Scroll all the way down
 and copy-paste the code of the previous blank entry to the team page. Edit the
-fields to the right info of the new hire and find the right job description on
+fields to the right info of the new hire and find the right job description URL on
 the [Jobs](https://about.gitlab.com/jobs/) page.
  **Note** _This can be tricky, so if you run into trouble reach out to some of
 your awesome colleagues in the #questions (channel) on Slack_
@@ -141,45 +121,45 @@ scheduled GitLab 101 in the Availability calendar. Click on "edit event" to open
 On the right enter the team member's GitLab email address in the  "add guests"
 section and click save. When asked select "all events" to add to all scheduled
 meetings and "send" out the invitation.
-- **Order business cards**
+- **Order business cards**<a name="b-cards"></a>
 Go to the "Notes" field in BambooHR and enter the info needed for the Business Cards.
 Once every week/few days or how often needed, run the "Business Cards order" report in the Reports - My Reports menu of BambooHR.
 Email our partner to order new business cards and add the info for the cards to
 be ordered. Include the address of the team member (found in BambooHR) and inform
 our partner to _**ship the cards directly to that address**_. Double check the
 info that is sent with the preview before approving the print.
-- **Add team member to Expensify (only with employees)**
+- **Add team member to Expensify (only with employees)**<a name="add-expensify"></a>
 Login to [Expensify](https://www.expensify.com/signin) and go to "Admin" in the
 top menu. Select the right policy based upon the entity that employs the new team
 member. Select "People" in the left menu. Select "Invite" and add the GitLab email.
 Edit the message to be sent for the employee. Click "invite".
-- **Add team member to Beamy**
+- **Add team member to Beamy**<a name="add-beamy"></a>
 Login in to access the settings for the [Beam](https://suitabletech.com/accounts/login/).
 In the top menu move your cursor over the blue login button. Go to "Manage your beams".
 Click on "manage" in the lower left corner. Enter the GitLab email and scroll down
-to find the newly addedd email. Check the box for "Auto connect".
+to find the newly added email. Check the box for "Auto connect".
 - **Add team member into the Austin info sheets**
 Add the team member's name to the Travel and Lodging Google sheets to make sure they enter flight details and they are assigned a room.
-- **Add team member to our Egencia platform**
+- **Add team member to our Egencia platform**<a name="add-egencia"></a>
 Log into Egencia and go to the menu option "manage users". Choose "new user account" and fill in the passport name of the new team member.
-As username choose the same handle as on our dev page. Enter the GitLab email address and uncheck the newsletter box.
+As username choose the same handle as on our dev domain. Enter the GitLab email address and uncheck the newsletter box.
 Lastly assign the department in which the new team member is working.
 
 ## Administrative details of benefits for US-based employees <a name="benefits-us"></a>
 
 ### 401k<a name="401k"></a>
 
-1. You are eligible to participate in GitLab’s 401k as of the 1st of the month after your hire date.  
+1. You are eligible to participate in GitLab’s 401k as of the 1st of the month after your hire date.
 1. You will receive a notification on your homepage in TriNet Passport once eligible,
 if you follow the prompts it will take you to the Transamerica website https://www.ta-retirement.com/
 or skip logging in to TriNet Passport and go directly to https://www.ta-retirement.com/
 after the 1st of the month after your hire date.
-1. Once on the home page of https://www.ta-retirement.com/ go to "First Time User Register Here".  
+1. Once on the home page of https://www.ta-retirement.com/ go to "First Time User Register Here".
 1. You will be prompted for the following information
    1. Full Name
    1. Social Security Number
    1. Date of Birth
-   1. Zip Code  
+   1. Zip Code
 1. Once inside the portal you may elect your annual/pay-period contributions, and Investments.
 
 ## Using TriNet<a name="using-trinet"></a>
@@ -292,3 +272,32 @@ want to make changes.
 the current settings which show all the people and numbers that are alerted when the listed User's
 number is dialed.
 - Add the new forwarding number (along with a name for the number), and click Save.
+
+## Paperwork people may need to obtain mortgage in the Netherlands<a name="dutch-mortgage"></a>
+
+When your employment contract is for a fixed period of time (e.g. 12 months) you'll need a "werkgeversverklaring".
+This document describes your salary and states that your employer expects to continue to employ
+you after the contract expires (assuming the performance of the employee doesn't degrade).
+This document has to be filled in by hand, preferably using blue ink, and must be signed
+and stamped. If there is no stamp (as is the case for GitLab) an extra letter (also signed)
+must be supplied that states the employer has no stamp. While the language of these
+documents doesn't matter, the use of Dutch is preferred.
+
+Employees also have to provide a copy of a payslip that clearly states not only their
+monthly salary but also their annual salary. These numbers must match the numbers on
+the "werkgeversverklaring" down to the decimals. Mortgage providers may also require
+you to provide information about your financial status, usually in the form of a report/screenshot
+of your total financial status (including any savings you have). The requirements for
+this seem to vary a bit between mortgage providers.
+
+## Compensation principles<a name="compensation-principles"></a>
+
+1. We're an open organization and want to be transparent about compensation principles, while not disclosing individual compensation. We're working on having a formula for compensation but this is hard due to the need make the formula work across the globe.
+1. Compensation is based on market rate for the region, your job title, and your (expected) level of performance.
+1. Many of our team members who have joined have taken a decrease in compensation. We pay market rate (30th-60th percentile) for most positions, and we also offer stock options for most positions. All positions have the better-than-market benefits of being part of a remote-only company (flexible, freedom) on a mission to make it so that [everyone can contribute](https://about.gitlab.com/strategy/#why), and working on an open-source project in an open and transparent way.
+1. We base compensation on current position and performance, not on what we paid you last month. This means 50% raises are possible, but also that there are no automatic raises, and we even (although rarely) lower compensation.
+1. When your position or performance changes we'll try to adjust your pay as soon as possible: the manager should take initiative, people should not have to ask for it. But people are free to ask if their manager if they think they are due for a raise.
+1. The market rate depends on your metro region. When you move you have to inform us and we may adjust your compensation up or down.
+1. We hire across the globe but we're not location agnostic. Your timezone, the market rate in your region, and vicinity to other team members, users, customers, and partners can all be factors. For example, we may favor an applicant over another because they live in a region with a lower market rate or because we need someone in that timezone. All things being equal we will hire people in lower cost markets vs. higher cost markets.
+1. As you can see from our [contracts](/handbook/contracts/), compensation is typically set at a fixed monthly rate. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission, for leadership roles sometimes part of it is based on business objectives. Success engineers currently have a lower variable component, we're not sure how this will evolve. All other people have fixed compensation (but we do have [bonuses and incentives](/handbook/#incentives)).
+1. Compensation decisions are taken by the compensation committee. This committee consists of the CFO, CEO, and head of people operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee.

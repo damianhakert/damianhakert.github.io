@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Explaining GitLab bugs"
 date: 2014-12-08
 categories: 

@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: Dark colors for code review
 wordpress_id: 100
 wordpress_url: http://blog.gitlabhq.com/?p=100
