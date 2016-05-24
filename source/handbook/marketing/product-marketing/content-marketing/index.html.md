@@ -13,16 +13,6 @@ Welcome to the Content Marketing Handbook
 * Will be replaced with the ToC, excluding the "On this page" header
 {:toc}
 
-{::comment}
-TIP FOR TOC (KRAMDOWN): use `{:toc}` (as above) for generate the TOC AUTOMATICALLY
-Use `{:.no_toc}` to EXCLUDE itemns from the TOC  
-{:/comment}
-
-{::comment}
-ANCHORS: we don't need to define anchors for every heading anymore. Kramdown atributes an ID automatically :)
-If we need a custom anchor => we can simply use `{: #my-custom-id}`
-{:/comment}
-
 ## Introduction<a name="intro"></a>
 
 The philosophy for Content Marketing at GitLab is to help bring insider
@@ -158,7 +148,6 @@ Check the smart list and flow first. To activate: Click the "registered" smart c
 - Encourage potential users to try GitLab
 - Motivate our community to explore what's best from GitLab features
 - Provide accurate, interesting and new information
-- MORE STUFF - MARKETING SPECIALISTS
 
 ### Important considerations
 
@@ -245,7 +234,7 @@ For our [community writers], we will follow the Scalable Writing System describe
 1. Guest Writer - choose a subject:
    - Make sure you are familiar with [GitLab Workflow]
    - Select an issue from <https://gitlab.com/gitlab-com/blog-posts/issues> or create a new one.
-   - Leave a comment "@amara I would like to write this and I accept the terms on [Community Writers Program][I GUESS WE NEED A NEW DOC HERE]. Below follows my writing sample."
+   - Leave a comment "@amara I would like to write this and I accept the terms on [Community Writers Program][Community Writers]. Below follows my writing sample."
 2. Content Marketing - analyse the proposal:
   - Amara will evaluate the writer's sample and discuss anything necessary before start writing
   - When the guest writer is approved to get started, Amara will leave a comment "@username, you got it!" and assign the issue to the writer
@@ -275,7 +264,7 @@ To keep things clear for everyone, we assume:
 ### Styles
 
 - Check out our [styles guidelines]
-- Amuse yourself with the power of [Kramdown], our markdown engine <!-- => LINK TO MARKDOWN DOC => CREATE ONE -->
+- Amuse yourself with the power of [Kramdown], our markdown engine for about.GitLab.com <!-- => LINK TO MARKDOWN DOC WHEN READY-->
 
 ### Forked project
 
@@ -286,7 +275,7 @@ Before making any change, create a new branch `git checkout -b branchname` clone
 
 Reviewer - check these before you publish:
 
-- First instance of GitLab should be linked to [GitLab] => WHAT EXACTLY DOES IT MEAN?
+- First instance of GitLab should be linked to [GitLab] <!-- => WHAT EXACTLY DOES IT MEAN? -->
 - Follow the [Blog post style guide]
 - Check all links - make sure none is broken
 - Check the file extension `.html.md`
@@ -329,11 +318,9 @@ We invite and encourage guest writers and also offer compensation through the [C
 [Priceonomics content marketing handbook]: http://priceonomics.com/the-content-marketing-handbook/
 [public domain]: https://en.wikipedia.org/wiki/Public_domain
 [Realm.io]: //realm.io
+[styles guidelines]: ../../developer-relations/technical-writing/#styles-guidelines 
 [tech-writing-audience]: ../../developer-relations/technical-writing/#st-subject-audience-requirements
 [tinypng]: //tinypng.com
 [WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
-[writing-tech]: ../../developer-relations/technical-writing/
+[writing-tech]: ../../developer-relations/technical-writing/#professional-writing-techniques
 [`www-gitlab-com`]: https://gitlab.com/gitlab-com/www-gitlab-com/
-
-[styles guidelines]: ../../developer-relations/technical-writing/#styles-guidelines 
-<!-- CHECK THIS LINK -->

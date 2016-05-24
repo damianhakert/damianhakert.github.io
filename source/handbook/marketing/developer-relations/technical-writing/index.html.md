@@ -105,7 +105,7 @@ Search for the sources you already know you'll need. Copy and paste the links wi
 
 Mind that this step will end only when your post is published. You will need to come back to search for sources again and again, until the end.
 
-A _reliable source_ is the origin of officially documented information, content described in books, newspaper's articles, scientific papers, etc. <!-- some ideas to make a better sentence here?  -->
+A _reliable source_ is officially documented information, content described in books, newspaper's articles, scientific papers, etc. <!-- some ideas to make a better sentence here?  -->
 
 #### 5th. Draft
 
@@ -129,7 +129,7 @@ If you wrote a tutorial or any procedure that can be tested, test it. Go over yo
 
 #### 8th. Submit
 
-When you're happy with your draft, submit a [WIP][WIP MR] (Work In Progress) merge request. 
+When you're happy with your draft, submit it in a [WIP][WIP MR] (Work In Progress) merge request. 
 
 #### 9th. Review
 
@@ -146,7 +146,7 @@ After you adjust the post according to the reviewers' requests, it will get publ
 There is a simple list below, for things to do and to avoid when writing. It's not a exact science, though. Try to balance between what's best and what's possible, be yourself, and use your sense.
 
 - Be original: do not repeat yourself - nor repeat other posts and documentation
-- Be concise: say what you need to say. Not more; nor less
+- Be concise: say what you need to say. Not more, nor less
 - Be attentive: do not repeat the same word, use [synonyms]
 - Be smart: try to predict questions - and answer them along the text
 - Be precise: do not make any statement if you don't have a reliable source or the expertize to defend it
@@ -170,6 +170,6 @@ There is a simple list below, for things to do and to avoid when writing. It's n
 [(key)words]: //www.wordstream.com/seo-keyword
 [synonyms]: //www.thesaurus.com/
 [tech-writing-wiki]: https://en.wikipedia.org/wiki/Technical_writing
+[WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
 
 [marketing-blog]: ../../product-marketing/content-marketing/#blog 
-<!-- FIX RELATIVE PATH ^^ -->
