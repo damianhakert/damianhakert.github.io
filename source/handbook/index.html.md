@@ -232,6 +232,7 @@ prevent spam from people outside of GitLab who request access to the doc when th
 instead of Google/Word documents. This makes them easier to find and suggest
 changes to with the organization and shows our commitment to open collaboration
 outside the organization.
+1. In our handbook, if you find yourself wondering whether it is better to provide a public link to a Google Doc vs. writing out the content on the website, use the following guideline: Is this document frequently adapted / customized? If yes, then provide a link, making sure that the document can be _commented on_ by _anyone_ with the link. For instance, this is how we share our employment contracts. If the document is rarely customized, then provide the content directly on the site and deprecate the Google Doc.
 1. Use video calls if you find yourself going back and forth in an issue/via email
 or over chat.
 1. Having pets, children, significant others, friends and family visible during
