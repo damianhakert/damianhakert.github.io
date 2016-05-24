@@ -17,7 +17,7 @@ title: "Sales Process"
 * [Submitting Quotes in Salesforce](#quotes)
 * [Closing A Won Deal](#closing)
 * [Using Cases in Salesforce](#cases)
-* [Process after you sell a Plus Subscription](#plus-subscription)
+* [Process after you sell a Premium Support Subscription](#premium-support)
 * [Processing Orders in Recurly](#processing)
 * [Export Control Classification, and Countries We Do Not Do Business In](#export-control)
 
@@ -207,10 +207,9 @@ Once this is determined, please add the Dedicated Service Engineer to the Salesf
 
 #### New Business Order
 1. Sales receives an order (one of the three options):
-    * a Purchase Order (PO) issued by the company
     * a signed quote (the quote that we sent).
-    * an e-mail agreement (“we accept the quote/subscription/etc”) or any other written statement. If order is a signed quote or written agreement, email and ask if there is a PO pending and get the PO number
-1. If no Subscription Agreement accompanies PO, only send 30 day temp license and request signed Agreement be returned in that time
+    * an signed subscription agreement 
+1. If no Subscription Agreement or signed quote accompanies PO, only send 30 day temp license and request signed Agreement be returned in that time
 1. Send invoice to customer with one of the two onboarding emails or a renewal email Forward Recurly invoice to customer as safeguard against going to spam. Also reinterate to sign up on GitLab.com and send user name.
 1. PROCESS for bank transfer renewals with PO received before renewal date:
     * Create a one-off invoice in Recurly and send to customer:
