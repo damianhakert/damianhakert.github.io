@@ -567,12 +567,12 @@ The goal of this section is to provide information and tips to maximize the
 advantages and make you aware of the challenges and provide tips on how to deal
 with them.
 
-Probably the biggest advantage of working remotely and asynchronous is the
+Probably the biggest advantage of working remotely and asynchronously is the
 flexibility it provides. This makes it easy to **combine** work with your
 personal life although it might be difficult to find the right **balance**.
 This can be mitigated by either explicitly planning your time off or plan when
 you do work. When you don't work it is recommended to make yourself unavailable
-by turning off RocketChat and closing down your email client. Coworkers should
+by turning off Slack and closing down your email client. Coworkers should
 allow this to work by abiding by the [communication guidelines][async-communication].
 
 If you worked at an office before, now you lack a default group to go out to
