@@ -890,11 +890,11 @@
 - name: M.W.
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Sr. Account Executive</a>
   reports_to: CRO
-  picture: logo-extra-whitespace.png
+  picture: gene.jpg
   twitter:
-  gitlab:
+  gitlab: eugene3
   story:  |
-          Joining May 16th
+         Zaphod's just this guy you know.
 
 - name: Lin Jen-Shin
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
@@ -929,7 +929,7 @@
           Dungeons & Dragons, following the news, listening to music and
           podcasts, and thoughtleading.
 
-- name: E.Z.
+- name: Eugene Zilman
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
   reports_to: Infrastructure Lead
   picture: logo-extra-whitespace.png
