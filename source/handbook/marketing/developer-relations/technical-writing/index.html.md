@@ -27,9 +27,9 @@ Welcome to the Technical Writing Handbook!
 
 When writing professionally, it's important to understand some standards to follow through, for the purpose of achieving high quality work in a optimum time for conclusion.
 
-Technical papers have the characteristic of being less personal and more formal: they're not the right place to express our opinions, nor to give advices. Accuracy matters most.
+Technical papers have the characteristic of being less personal and more formal: they're not the right place to express our opinions, nor to give advice. Accuracy matters most.
 
-For classical scientific papers, the rules are much more restrictive and the language is absolutely formal. For blog posts, we need to use a middle term. Be clear, precise and professional, but be empathic and "reader-friendly". A discrete and occasional touch of humor is also welcome.
+For classical scientific papers, the rules are much more restrictive and the language is absolutely formal. For blog posts, we need to use a middle term. Be clear, precise and professional, but be empathetic and "reader-friendly". A discrete and occasional touch of humor is also welcome.
 
 When writing non-technical blog posts, we can be less formal and more personal, depending on the subject we are writing about. In any case, though, we need to be professional. Meaning, we can be friendly and personal, but we need to focus on the point. The method suggested in this document is valid for both technical and non-technical themes, once it's related to the process of writing, not to the content itself.
 
@@ -78,7 +78,7 @@ The first step to take if defining the subject, the audience, the knowledge leve
 - Create a title for your article, based on the previous step. A good title is very short, and accurate.
 - Choose the audience:
    - Who might have interest on this subject? Which instance of GitLab would be involved? GitLab EE, CE?
-   - What is the expertize level necessary to follow your steps? The user needs to be familiar with the subject, or comfortable with, or need to be an expert?
+   - What is the expertise level necessary to follow your steps? The user needs to be familiar with the subject, or comfortable with, or need to be an expert?
    - What is required o make it work locally for the user? Specify the Operational System, any necessary software, any hardware condition.
 - Add this information to a new issue on the [blog posts issue tracker][blog-tracker]
 - Mind that you'll need to create a sentence to be included in the beginning of the article with this information. It can be explicit or subjective.
@@ -97,7 +97,7 @@ Keep in mind the audience you'd chosen before. Do not complicate things if you a
 
 #### 4th. Research
 
-Now that you know what you want to include in your paper, it's time to find reliable sources to support your scheme. You know the process, but you need to include sources for technical informations.
+Now that you know what you want to include in your paper, it's time to find reliable sources to support your scheme. You know the process, but you need to include sources for technical information.
 
 For example, let's consider a post about Android Apps. If you say that you need an emulator for previewing your Android app locally, provide a link to the [official Android documentation][android-doc] where it's said that you need an emulator, and also add a link for the [emulator][android-emulator] itself.
 
@@ -111,7 +111,7 @@ A _reliable source_ is officially documented information, content described in b
 
 Now that you have a skeleton for your article, and some links to guide you through, you'll start to write, filling the gaps along the structure you'd planned before.
 
-Never make a statement without providing the source for that information, unless it is your own conclusion, and you have the expertize to defend it. This posture will avoid mistrust and lost of credibility. Follow the [Writing Tips](#writing-tips) below.
+Never make a statement without providing the source for that information, unless it is your own conclusion, and you have the expertise to defend it. This posture will avoid mistrust and lost of credibility. Follow the [Writing Tips](#writing-tips) below.
 
 It's much quicker to write with a previous plan. Go on and write everything you need. Don't try to review every sentence or to think too much before writing down. You'll have time to review afterwards.
 
@@ -149,7 +149,7 @@ There is a simple list below, for things to do and to avoid when writing. It's n
 - Be concise: say what you need to say. Not more, nor less
 - Be attentive: do not repeat the same word, use [synonyms]
 - Be smart: try to predict questions - and answer them along the text
-- Be precise: do not make any statement if you don't have a reliable source or the expertize to defend it
+- Be precise: do not make any statement if you don't have a reliable source or the expertise to defend it
 - Be clear: everything seems to be logic for whom is writing. Not necessarily for those reading
 - Be organized: in tutorials, do not jump over a step presuming the audience knows that. It breaks logic and looses engrossment
 - Be consistent: try to adopt patterns to facilitate the comprehension
@@ -171,5 +171,4 @@ There is a simple list below, for things to do and to avoid when writing. It's n
 [synonyms]: //www.thesaurus.com/
 [tech-writing-wiki]: https://en.wikipedia.org/wiki/Technical_writing
 [WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
-
 [marketing-blog]: ../../product-marketing/content-marketing/#blog
