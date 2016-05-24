@@ -25,10 +25,10 @@ contributor. Our most recent example of the strength of our contributors comes f
 Oakes, who contributed a great new feature to the [GitLab 8.8 release](https://about.gitlab.com/2016/05/22/gitlab-8-8-released/). Matt’s contribution 
 now makes it possible to suppress text file diffs by marking a file as non-diffable in your
 `.gitattributes` file. Matt and many contributors like him are proof that the open core 
-model can work, when there’s a talented and dedicated community and team working together.
+model can work, when there’s a talented community and dedicated team working together.
 
-Contributors, you are awesome! As a thank you, we will be sending our thank you letters and 
-a special sticker we’ve designed just for our contributors. Our community means a lot to us 
+Contributors, you are awesome! As a thank you, we will be sending you a letter and 
+a special sticker that we’ve designed just for our contributors. Our community means a lot to us 
 and we hope that this shows a small token of our appreciation! 
 
 If you’re thinking about contributing, please do! Here’s where you can [find out more about contributing to GitLab](https://about.gitlab.com/contributing/). 
