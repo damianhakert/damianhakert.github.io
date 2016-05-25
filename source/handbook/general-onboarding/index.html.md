@@ -34,8 +34,6 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant
 lines of the master checklist, paste the private email address of the hire in
 there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @kirsten, and @tiffanie.
-* [ ] Video meeting with hiring manager as first item of the day
-* [ ] Buddy to schedule call for first day
 * [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @HANDLE (Nominate someone preferably in similar timezone but different functional group)), and People Ops is tackled by (FILL IN WITH @ HANDLE).
 * [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
 * [ ] People Ops: [Add blank entry to team page](https://about.gitlab.com/handbook/people-operations/#blank-entry) (only the start date and position, use "logo-extra-whitespace.png" for the picture) so the team can see when new people are joining.
@@ -73,6 +71,10 @@ introduce yourself to the team so please prepare some talking points for yoursel
 Some tips to help you out here: tell us about where you were before GitLab, why
 you wanted to join our team, just a little something about your background and
 of course something on what you like to do in your spare time."
+* [ ] Hiring Manager: Schedule a video call with new team member at the start
+of their day
+* [ ] Buddy: Schedule video call for first day to introduce yourself
+
 
 
 ### ON YOUR FIRST DAY
