@@ -59,7 +59,7 @@ We're hiring production engineers, developers, UX designers , and more. https://
 1. Technical interview (optional): As described on the [Jobs](https://about.gitlab.com/jobs/) page, certain positions
 require [technical interviews](https://about.gitlab.com/jobs/#technical-interview).
 1. Manager interview (see below for questions)
-1. For female candidates, include at least one interview with a female GitLab team member.
+1. For all candidates, include at least one interview with a female GitLab team member as part of the process.
 1. C-level executive interview (if different than the manager, see below for questions)
 1. CEO interview (if different than the C-level executive, see below for questions)
 1. Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
