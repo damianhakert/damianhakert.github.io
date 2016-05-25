@@ -289,19 +289,19 @@ by another mutually agreed method. If property is not returned, GitLab reserves 
 right to use a creditor company to help retrieve the property.
 
 ### Separation and Release of Claims Agreements <a name="separation-agreement"></a>
-Once you completed the Termination Memo and processed the final pay check now you may begin to create a Separation and Release of Claims Agreement
+Once you completed the Termination Memo and processed the final pay check, you can begin to create a Separation and Release of Claims Agreement
 
-1. Call Anne (GitLab legal counsel) and loop her in that you will be using a separation agreement to offer severance pay (this is a courtesy and will also keep her informed in the case reversed action from the contributor)
+1. Call Anne (GitLab legal counsel) and loop her in that you will be using a separation agreement to offer severance pay (this is a courtesy and will also keep her informed in the case reversed action from the ex-team member)
   1. Confirm voluntary or involuntary termination
-  1. Confirm the weeks of severance to be paid to the departing contributor (calculate the payment)
-    * For contributors over 40 use the over 40 template
-    * For contributors under 40 use under 40
+  1. Confirm the weeks of severance to be paid to the leaving team member (calculate the payment)
+    * For contributors over 40 use the [over 40 template](https://docs.google.com/document/d/1QhImH95nQk-Obpw_L81SrBeH89mZz5BkWUnG9BrOK8M/edit?usp=sharing)
+    * For contributors under 40 use the [under 40 template](https://docs.google.com/document/d/1E7qki9nHHbhRZKbIQp4E8WgK_Tn35UiW_hBO2dfNEgk/edit?usp=sharing)
   1. Complete the highlighted fields
-    * NOTE: Separation pay is not paid until the ex-contributor signs the document 
+    * NOTE: Separation pay is not paid until the ex-team member signs the document 
     * NOTE: Understand the rules for over 40
-    * NOTE: You must use language in your exit meeting that is in no way forceful of the ex-contributor to sign the agreement. Use “if you choose to sign” “you have a right to have legal council review this document before your sign”
-You should now be ready for your exit meeting with the contributor
-Please see the exit meeting guidelines.
+    * NOTE: You must use language in your exit meeting that is in no way forceful of the ex-team member to sign the agreement. Use “if you choose to sign” “you have a right to have legal council review this document before your sign”
+You should now be ready for your exit meeting with the ex-team member
+Please see the exit meeting guidelines mentioned on this page.
 
 ## Using RingCentral<a name="ringcentral"></a>
 
