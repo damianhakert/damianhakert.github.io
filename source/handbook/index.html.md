@@ -99,7 +99,7 @@ feedback always provide at least one clear and recent example. If a person is
 going through a hard time in their personal life, then take that into account. An example of
 giving positive feedback is our [thanks chat channel](https://about.gitlab.com/handbook/#internal-communication).
 1. Diversity: The community consists of people from all over the world, with different
-backgrounds and opinions. Make everyone feel welcome. Work to increase the participation
+backgrounds and opinions. Encourage hiring from different global locations, avoid centralized hiring from a specific city/region. Make everyone feel welcome. Work to increase the participation
 of underrepresented minorities and nationalities in our community and company. An
 example is our sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
 1. Boring solutions: Use the most simple and boring solution for a problem. You
