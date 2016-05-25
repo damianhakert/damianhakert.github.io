@@ -168,7 +168,7 @@ Cases display in an Emails related list. The Emails related list includes all em
 
 Once you close a Premium Support Subscription deal, you need to do a few things.
 
-1. When possible, create an issue on dev.gitlab.org under Organization with the Support label as soon as it is clear that a dedicated service engineer will be needed. Service Engineers can volunteer, or they will be assigned by Stan if nobody is volunteering. It can depend on the client, and factors like: timezone, language, specific needs, etc.
+1. When possible, create an issue on dev.gitlab.org under Organization with the Support label as soon as it is clear that a dedicated service engineer will be needed. Service Engineers can volunteer, or they will be assigned by VP Engineering if nobody is volunteering. It can depend on the client, and factors like: timezone, language, specific needs, etc.
 Once this is determined, please add the Dedicated Service Engineer to the Salesforce account with the drop down.
 1. The next step is to introduce your client to their Dedicated Engineer, and if necessary, work together to schedule an on-boarding call to cover any questions, and give an overview of the support they are entitled to.
 1. You would have probably brought this up prior to the deal closing, but if the client is interested in joining the Slack support channel, please work with the Dedicated Engineer to make this happen.
