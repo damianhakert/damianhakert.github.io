@@ -516,6 +516,7 @@ to each team member, towards a dinner of each team member's own choice. Enjoy!
    * Managers can recommend their team members to the CEO for a $1,000 bonus.
    * On team call, the manager announces the “who” and “why” of the bonus; and the "why"
    should be tied to our [values](#values).
+   * The manager should send a brief email that explains the bonus (same as the team call blurb) to People Ops and our Controller who will [process](/handbook/people-ops/#processing-changes) the information into payroll and BambooHR. People Ops should _confirm_ when these steps have been taken, back to the manager.
 1. If you think you are meeting the requirements for another title, want to change
 jobs within the company, or think your growth should be reflected in your compensation please feel free to discuss with your manager.
 
