@@ -869,14 +869,17 @@
           years, her enthusiasm for technology motivated her to learn web development, and write about it too. She loves photography.
           When she's not typing, you will find her behind the camera, or in a plane, for being behind her camera somewhere else.
 
-- name: F.A.
+- name: Fatih Acet
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: fatih.png
+  twitter: fatihacet
+  gitlab: fatihacet
   story:  |
-          Joining May 9th
+          Based on Istanbul, Fatih is a Frontend Engineer who is passionate about delivering solid Frontend code.
+          He loves to see the things he created used by thousands of others.
+          When not working, Fatih likes playing video games and exploring new EDM hits.
+          He also believes that one day he will be good at making Latte arts.
 
 - name: Eliran Mesika
   role: <a href="https://about.gitlab.com/jobs/director-strategic-partnerships/">Director of Strategic Partnerships</a>
@@ -921,7 +924,7 @@
   twitter: connorjshea
   gitlab: connorshea
   story:  |
-          One part Google, two parts trial-and-error. Sort-of self-taught 
+          One part Google, two parts trial-and-error. Sort-of self-taught
           front-end developer and sort-of designer. He’s passionate about
           performance, user experience, security, upgrading things, style
           guides, documentation, automation, localization, open source,
