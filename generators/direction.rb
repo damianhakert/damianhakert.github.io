@@ -76,7 +76,7 @@ def generate_direction
     direction_output << "## #{project.name}\n\n"
 
     milestones.each do |ms|
-      if ms["due_date"] && Date.parse(ms["due_date"]) > Date.today
+      if ms["due_date"] && Date.parse(ms["due_date"]) >= Date.today
 
         issues = project.milestone_direction_issues(ms["title"])
         direction_output << "### [#{ms["title"]}](#{project.web_url}/milestones/#{ms["iid"]}) \n\n"
