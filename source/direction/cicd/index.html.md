@@ -43,9 +43,9 @@ Example flow:
     2. Cross-commit (e.g. before and after a merge)
     3. [Link between related commits, merge commits, and tags](https://gitlab.com/gitlab-org/gitlab-ce/issues/17013)
     4. Show status of merge request beyond merge. (e.g. add staging and production deploys to MR activity stream)
-3. Multi-project pipelines
-    1. First-class triggers
-    2. Cross-project dependencies
+3. [Multi-project pipelines](https://gitlab.com/gitlab-org/gitlab-ce/issues/15655)
+    1. [First-class triggers](https://gitlab.com/gitlab-org/gitlab-ce/issues/16556)
+    2. [Cross-project dependencies](https://gitlab.com/gitlab-org/gitlab-ce/issues/17069)
     3. Link between project pipeline views
     4. Consolidated view of entire pipeline across projects
     5. Use Docker image registry and Docker Compose to run cross-project integration tests within single project's pipeline
@@ -75,15 +75,15 @@ Builds as first-class citizen (aka build artifacts):
 4. [Auto-parallelize tests, splitting across files or even individual tests](https://gitlab.com/gitlab-org/gitlab-ce/issues/3819)
 5. [Load-balance tests so that each run will take roughly equal time, resulting in shortest wall-clock time](https://gitlab.com/gitlab-org/gitlab-ce/issues/13412)
 6. [Provides examples and/or wizard to get started](https://gitlab.com/gitlab-org/gitlab-ce/issues/14266)
-7. Process JUnit-style output
+7. [Process JUnit-style output](https://gitlab.com/gitlab-org/gitlab-ce/issues/17081)
 
 ### Deploy
 
 A key part of CD is being able to deploy. We currently have this ability via the `dpl` gem and the `deploy` stage in `.gitlab-ci.yml`. We need to go further.
 
-1. Compute Platform config (e.g. add DO or AWS creds to project/group)
+1. [Compute Platform config (e.g. add DO or AWS creds to project/group)](https://gitlab.com/gitlab-org/gitlab-ce/issues/14812)
 2. Other services (e.g. TestFlight, Apple)
-3. Deploys as first-class entry
+3. [Deploys as first-class entry](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286)
     1. New command rather than `dpl` gem
     2. Deploy history view
     3. Rollback to previous deploy
@@ -93,7 +93,7 @@ A key part of CD is being able to deploy. We currently have this ability via the
 5. Releases as first-class entry?
     1. Release = build + config, so this implies we'd manage config
 6. Deploy/Promote without rebuilding
-7. Release Apps (e.g. create ephemeral apps on compute platform for each merge request)
+7. [Review Apps (e.g. create ephemeral apps on compute platform for each merge request)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4198)
 8. Support multiple rollout strategies
     1. Incremental deploys (make one, break one)
     2. Canary deploys (deploy to small % of production servers)
