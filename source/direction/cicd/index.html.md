@@ -39,9 +39,9 @@ Example flow:
 
 1. CI pipeline for a single commit, single project (i.e. visualize build and test pipeline)
 2. Deploy pipelines
-    1. Manual steps (e.g. deploy same SHA from staging to production)
+    1. [Manual steps (e.g. deploy same SHA from staging to production)](https://gitlab.com/gitlab-org/gitlab-ce/issues/17010)
     2. Cross-commit (e.g. before and after a merge)
-    3. Link between related commits, merge commits, and tags
+    3. [Link between related commits, merge commits, and tags](https://gitlab.com/gitlab-org/gitlab-ce/issues/17013)
     4. Show status of merge request beyond merge. (e.g. add staging and production deploys to MR activity stream)
 3. Multi-project pipelines
     1. First-class triggers
@@ -54,16 +54,16 @@ Example flow:
 
 ### Code
 
-Code includes writing, storing, and collaborating on software (and other) projects. GitLab covers much of this today and partnerships with someone like Koding can extend to cover the Online editor / IDE that has a preconfigured, collaborative, on-demand coding environment.
+Code includes writing, storing, and collaborating on software (and other) projects. GitLab covers much of this today and partnerships with someone like [Koding](https://gitlab.com/gitlab-org/gitlab-ce/issues/12759) can extend to cover the Online editor / IDE that has a preconfigured, collaborative, on-demand coding environment.
 
 ### Build
 
-GitLab CI provides an explicit `build` stage already and the concept of build artifacts. As we expand to a complete CD solution, we might need to separate out build artifacts from test artifacts. For example, you might want your test runner to create a JUnit-style output file which is available for external consumption, but not included in the build image sent to production. Creation of an explicit build aligns well with Docker where the result of the build stage is a Docker image which is stored in a registry and later pulled for testing and deployment.
+GitLab CI provides an explicit `build` stage already and the concept of build artifacts. As we expand to a complete CD solution, we might need to separate out build artifacts or "releases" from test artifacts. For example, you might want your test runner to create a JUnit-style output file which is available for external consumption, but not included in the build image sent to production. Creation of an explicit build aligns well with Docker where the result of the build stage is a Docker image which is stored in a registry and later pulled for testing and deployment.
 
 Builds as first-class citizen (aka build artifacts):
 
-1. Build history (of artifacts), a view of releases
-2. Deploy specific build to specific environment
+1. [Build history (of artifacts), a view of releases](https://gitlab.com/gitlab-org/gitlab-ce/issues/17178)
+2. [Deploy specific build to specific environment](https://gitlab.com/gitlab-org/gitlab-ce/issues/17010)
 3. Rollback to previous build
 4. [Docker images (storage, download, external usage, deployment, use in cross-project testing)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3299)
 
@@ -87,7 +87,7 @@ A key part of CD is being able to deploy. We currently have this ability via the
     1. New command rather than `dpl` gem
     2. Deploy history view
     3. Rollback to previous deploy
-4. Environments as first-class entry
+4. [Environments as first-class entry](https://gitlab.com/gitlab-org/gitlab-ce/issues/17009)
     1. List of environments
     2. Current state and history of environments
 5. Releases as first-class entry?
