@@ -3,6 +3,9 @@ layout: markdown_page
 title: "People Operations"
 ---
 
+## This page
+
+- [Role of People Operations](#role-peopleops)
 - [Reaching People Operations](#reach-peopleops)
 - [Office addresses](#addresses)
 - [Setting up new contracts](#new-contracts)
@@ -22,11 +25,25 @@ title: "People Operations"
 - [Paperwork people may need to obtain mortgage in the Netherlands](#dutch-mortgage)
 - [Compensation principles](#compensation-principles)
 
+## Other pages related to People Operations
+
+- [Hiring process](/handbook/hiring/)
+- [Onboarding](/handbook/general-onboarding/)
+- [Underperformance](/handbook/hiring/underperformance.html)
+- [Offboarding](/handbook/offboarding/)
+- [Benefits](/handbook/benefits/)
+- [Travel](/handbook/travel/)
+
+## Role of People Operations<a name="role-peopleops"></a>
+
+In general, the People Operations team and processes are here as a service to the rest of the team; helping make your life easier so that you can focus on your work and contributions to GitLab. On that note, please don't hesitate to [reach out](#reach-peopleops) with questions! In the case of a conflict between the company and a team member, People Operations works "on behalf of" the company.
+
+
 ## Reaching People Operations<a name="reach-peopleops"></a>
 
-To reach People Operations, please post an issue on our [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/)
-and add the 'PeopleOps' label, or send an email to the People Operations group (see the "GitLab Email Forwarding" google doc), or ping an individual
-member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
+To reach People Operations, please post an issue on our [public issue tracker](https://gitlab.com/gitlab-com/peopleops/issues/) (use confidential issues for topics that should only be visible to team members at GitLab). Currently, we also still use the [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/), using the 'PeopleOps' label; over time we will stop using that tracker.
+
+You can also send an email to the People Operations group (see the "GitLab Email Forwarding" google doc for the alias), or ping an individual member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
 
 ## Office addresses<a name="addresses"></a>
 
