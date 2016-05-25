@@ -699,25 +699,30 @@ If you install [MobileDay](https://mobileday.com/) on your phone and give it acc
 
 ## Using Git to update this website<a name="starting-with-git"></a>
 
-### Start using GitLab
+This is a guide on what you'll need to install and run on your machine to get Git
+up and running so you can create your first MR in minutes! Follow the numbers steps
+below to complete your setup.
 
-1. Follow the step-by-step guides on the [basics of working with Git and GitLab](http://doc.gitlab.com/ce/gitlab-basics/README.html).
-1. You will need to [create your SSH Keys](http://doc.gitlab.com/ce/gitlab-basics/create-your-ssh-keys.html).
+### 1. Start using GitLab
 
-### Install Git
+1. Here's where you can find step-by-step guides on the [basics of working with Git and GitLab](http://doc.gitlab.com/ce/gitlab-basics/README.html). You'll need those later.
+1. Create your [SSH Keys](http://doc.gitlab.com/ce/gitlab-basics/create-your-ssh-keys.html).
+
+### 2. Install Git
 
 1. Open a terminal.
 1. Check your Git version by executing: `git --version`.
-1. If Git is not installed, you should be prompted to install it.
+1. If Git is not installed, you should be prompted to install it. Follow this [guide] http://docs.gitlab.com/ce/gitlab-basics/start-using-git.html to installing Git and
+linking your account to Git.
 
-### Install RVM
+### 3. Install RVM
 
 1. Visit [https://rvm.io](https://rvm.io/).
 1. In a terminal, execute: `curl -sSL https://get.rvm.io | bash -s stable`.
 1. Close terminal.
 1. Open a new terminal to load the new environment.
 
-### Install Ruby and Bundler
+### 4. Install Ruby and Bundler
 
 1. In a terminal, execute: `rvm install 2.2.1` to install Ruby
    (enter your system password if prompted).
@@ -726,30 +731,32 @@ If you install [MobileDay](https://mobileday.com/) on your phone and give it acc
    `ruby 2.2.1p85 (2015-02-26 revision 49769)`.
 1. Execute: `gem install bundler` to install [Bundler](http://bundler.io/).
 
-### Clone the source of the website and install its dependencies
+### 5. Clone the source of the website and install its dependencies
 
 1. In a terminal execute: `git clone https://gitlab.com/gitlab-com/www-gitlab-com.git`
    to clone the website.
 1. Execute: `cd www-gitlab-com` to change to the `www-gitlab-com` directory.
 1. Execute: `bundle install` to install all gem dependencies.
 
-### Prevent newlines from causing all following lines in a file to be tagged as changed
+### 6. Prevent newlines from causing all following lines in a file to be tagged as changed
 
 This is especially a problem for anyone running a Mac OSX operating system. The
-command to 'tame' git is `git config --global core.autocrlf input`
+command to 'tame' git is `git config --global core.autocrlf input` - execute it.
 
-### Read the instructions
+### 7. Read the instructions
 
 Instructions on how to update the website are in the [readme of www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/README.md).
 
-### Preview website changes locally
+
+### Local Checks of Your Changes
+### 1. Preview website changes locally
 
 1. In a terminal, execute: `bundle exec middleman`.
 1. Visit http://localhost:4567 in your browser.
 1. To edit the site locally you'll need to install a text editor. We recommend
    [Sublime Text 2](http://www.sublimetext.com/2) or [Atom](https://atom.io/).
 
-### Test if all URL links in a page are valid
+### 2. Test if all URL links in a page are valid
 
 Until this is automated in CI, a quick way to see if there are any invalid
 links inside a page is the following.
