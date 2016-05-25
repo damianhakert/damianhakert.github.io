@@ -216,18 +216,12 @@ references to contact. These reference calls are typically be done by our [admin
 Offers made to new team members should be documented in the email thread between the
 person authorized to make the offer (e.g. CEO) and the applicant.
 
-1. Email example:
-```
-We would love to have you as part of our team. You will have
-a position of [job title]. As a contractor you will invoice [monthly rate] per month.
-You will report to [name of manager]. We proposed to make you eligible for [number] of stock options.
-We will send you a contract on [day of week] based on
-the examples on https://about.gitlab.com/handbook/contracts/. If you have not
-received anything on that day please reply-to-all to let us know. Please let us
-know if you have any questions or concerns in the meantime.
-```
-1. In the email confirmation of the offer,
-put the People Operations email alias (which can be found in the "GitLab Email Forwarding" google doc) in the cc.
+1. Email example is in the "Offer letter" template in Workable. When using the template:
+   1. make sure that you include the People Ops alias in the cc, and 
+   1. change the subject line of the email. The default subject line in Workable is "{position name} - GitLab", but when making multiple
+hires for the same position, this can cause confusion in a Gmail inbox that collects conversation
+threads based on subject line. So for example make it "{first name of applicant} - 
+offer for {position name} at GitLab" (this is something that we cannot do in the template, unfortunately.
 1. One person from People Operations will reply-to-all to everyone in the thread
 (including the applicant) to confirm that they will make the contract. Speed matters: if you are in People Operations and you can
 tackle this, then raise your hand and hit reply-all.
