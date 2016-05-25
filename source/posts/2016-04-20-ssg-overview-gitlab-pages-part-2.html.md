@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Modern Static Site Generators" # any ideas for a better title?
+title: "SSGs Part 2: Modern Static Site Generators" # any ideas for a better title?
 date: 2016-04-20 20:00:00 # to be replaced
 comments: true
 categories: technical overview
