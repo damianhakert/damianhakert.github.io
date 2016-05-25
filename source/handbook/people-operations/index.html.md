@@ -19,8 +19,8 @@ title: "People Operations"
    - [Making changes in TriNet](#changes-trinet)
 - [Returning property to GitLab](#returning-property)
 - [Termination guidelines](#termination-guidelines)
-- [Termination script](#termination-script)
-- [Termination memo](#termination-memo)
+    - Termination guidelines
+    - Termination memo
 - [Using RingCentral](#ringcentral)
 - [Paperwork people may need to obtain mortgage in the Netherlands](#dutch-mortgage)
 
