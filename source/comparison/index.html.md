@@ -16,6 +16,7 @@ extra_css:
 - [GitLab EE vs. GitHub Enterprise](#gitlab-ee-vs-github-enterprise)
 - [GitLab.com vs. GitHub.com](#gitlabcom-vs-githubcom)
 - [GitLab.com vs. Bitbucket.org](#gitlabcom-vs-bitbucketorg)
+- [GitLab CE/EE vs. Bitbucket Server](#gitlab-ccee-vs-bitbucket-server)
 - [GitLab CE/EE vs. SaaS](#gitlab-ceee-vs-saas)
 - [GitLab vs. SVN](#gitlab-vs-svn)
 - [GitLab vs. GitSwarm](#gitlab-vs-gitswarm)
