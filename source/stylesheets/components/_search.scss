@@ -64,7 +64,7 @@
   }
 }
 
-@media (max-width: $screen-sm-max) {
+@media (max-width: ($screen-sm - 1px)) {
   .search-box {
     position: relative;
     padding-left: 15px;
