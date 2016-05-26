@@ -3,30 +3,35 @@ layout: markdown_page
 title: "People Operations"
 ---
 
-**Public Issue Tracker**:
-**Chat channel**:
+## Reaching People Operations<a name="reach-peopleops"></a>
+
+- [**Public Issue Tracker**](https://gitlab.com/gitlab-com/peopleops/issues/); please use confidential issues for topics that should only be visible to team members at GitLab)
+- You can also send an email to the People Operations group (see the "GitLab Email Forwarding" google doc for the alias), or ping an individual member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
+- [**Chat channel**](https://gitlab.slack.com/archives/peopleops); please use the `#peopleops` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
 
 ## This page
 
 - [Role of People Operations](#role-peopleops)
-- [Reaching People Operations](#reach-peopleops)
 - [Office addresses](#addresses)
-- [Setting up new contracts](#new-contracts)
-   - [Using HelloSign](#hellosign)
-- [Processing changes](#processing-changes)
-- [Using BambooHR](#bamboohr)
-- [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)
-- [Administrative details of benefits for US-based employees](#benefits-us)
-   - [401k](#401k)
-- [Using TriNet](#using-trinet)
-   - [Add new hires to TriNet](#trinet-process)
-   - [Making changes in TriNet](#changes-trinet)
-- [Offboarding team members](#offboarding)
+- [Policies](#peopleops-policies)
+   - [Compensation principles](#compensation-principles)
+   - [Hiring Spouse or Family Members](#family-hires)
    - [Returning property to GitLab](#returning-property)
-   - [FedEx info for the team member](#fedex-info)
-- [Using RingCentral](#ringcentral)
+      - [FedEx info for the team member](#fedex-info)
+- [Methods and Tools for People Ops](#peopleops-methods)
+   - [Setting up new contracts](#new-contracts)
+      - [Using HelloSign](#hellosign)
+   - [Processing changes](#processing-changes)
+   - [Using BambooHR](#bamboohr)
+   - [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)
+   - [Administrative details of benefits for US-based employees](#benefits-us)
+      - [401k](#401k)
+   - [Using TriNet](#using-trinet)
+   - [Add new hires to TriNet](#trinet-process)
+      - [Making changes in TriNet](#changes-trinet)
+   - [Using RingCentral](#ringcentral)
 - [Paperwork people may need to obtain mortgage in the Netherlands](#dutch-mortgage)
-- [Compensation principles](#compensation-principles)
+
 
 ## Other pages related to People Operations
 
@@ -40,13 +45,6 @@ title: "People Operations"
 ## Role of People Operations<a name="role-peopleops"></a>
 
 In general, the People Operations team and processes are here as a service to the rest of the team; helping make your life easier so that you can focus on your work and contributions to GitLab. On that note, please don't hesitate to [reach out](#reach-peopleops) with questions! In the case of a conflict between the company and a team member, People Operations works "on behalf of" the company.
-
-
-## Reaching People Operations<a name="reach-peopleops"></a>
-
-To reach People Operations, please post an issue on our [public issue tracker](https://gitlab.com/gitlab-com/peopleops/issues/) (use confidential issues for topics that should only be visible to team members at GitLab). Currently, we also still use the [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/), using the 'PeopleOps' label; over time we will stop using that tracker.
-
-You can also send an email to the People Operations group (see the "GitLab Email Forwarding" google doc for the alias), or ping an individual member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
 
 ## Office addresses<a name="addresses"></a>
 
@@ -75,15 +73,38 @@ b) candidates for employment will not occupy a position in the same line of auth
 
 This policy applies to all current employees and candidates for employment.
 
+### Returning property to GitLab<a name="returning-property"></a>
+
+As part of [offboarding](https://about.gitlab.com/handbook/offboarding/), any GitLab property needs to be returned to GitLab. GitLab will pay for the shipping either by People Ops sending a FedEx shipping slip or it can be returned by another mutually agreed method. If property is not returned, GitLab reserves the right to use a creditor company to help retrieve the property.
+
+#### FedEx info for the team member <a name="fedex-info"></a>
+
+Pull up the departing contributors home address. Find a Fedex location close to them. Then follow the template below.
+
+"Hi [Name of team member]
+
+The closest Fedex to you is located on [full street address, city, state, zip code]. Driving or walking directions can be found here: [enter link from “mapping home location to the Fedex location”]
+
+Once there you can use Fedex boxes that you need and do the following actions:
+
+1. Package the equipment in the box
+2. Send package to GitLab HQ in San Francisco
+3. Mark on the invoice "Bill Recipient"
+4. Our Fedex number is: [find the number in Secretarial Vault in 1Password]
+5. Provide People Ops the tracking number via email
+
+Please let People Ops know if you have any questions."
+
+
 
 ## Methods and Tools for People Ops<a name="peopleops-methods"></a>
 
-## Setting up new hiring contracts<a name="new-contracts"></a>
+### Setting up new contracts<a name="new-contracts"></a>
 
 New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/) page, including instructions on how to set up new contracts.
 
 
-### Using HelloSign<a name="hellosign"></a>
+#### Using HelloSign<a name="hellosign"></a>
 
 When we need [contracts to be signed](https://about.gitlab.com/handbook/#signing-legal-documents) we use [HelloSign](https://hellosign.com).
 Follow these steps to send out a signature request.
@@ -100,7 +121,7 @@ Follow these steps to send out a signature request.
 
 Once you've sent out the document you will receive email notifications of the progress and a copy of the signed document after all parties have signed.
 
-## Processing changes<a name="processing-changes"></a>
+### Processing changes<a name="processing-changes"></a>
 
 Any changes to a team member’s status, classification, promotion/demotion, pay increase/decrease and
 bonus needs to be communicated via email to People Ops by the team member's manager or CEO. People Ops will then enter
@@ -113,7 +134,7 @@ sends an email to the person reporting / requesting the change (member's manager
 to confirm this.
 
 
-## Using BambooHR<a name="bamboohr"></a>
+### Using BambooHR<a name="bamboohr"></a>
 
 We use [BambooHR](https://gitlab.bamboohr.com) to keep all team member information
 in one place. All team members (all contract types) are in BambooHR.
@@ -133,7 +154,7 @@ test account that does not have admin privileges.
 the ask, and who to turn to in case of questions.
 
 
-## Managing the PeopleOps onboarding tasks <a name="manage-onboarding-tasks"></a>
+### Managing the PeopleOps onboarding tasks <a name="manage-onboarding-tasks"></a>
 
 Here are some useful guidelines to set up everything for our new team members with the onboarding issue.
 If Google Sheets or Docs are mentioned, these will be shared with you on Google Drive.
@@ -191,9 +212,9 @@ Log into Egencia and go to the menu option "manage users". Choose "new user acco
 As username choose the same handle as on our dev domain. Enter the GitLab email address and uncheck the newsletter box.
 Lastly assign the department in which the new team member is working.
 
-## Administrative details of benefits for US-based employees <a name="benefits-us"></a>
+### Administrative details of benefits for US-based employees <a name="benefits-us"></a>
 
-### 401k<a name="401k"></a>
+#### 401k<a name="401k"></a>
 
 1. You are eligible to participate in GitLab’s 401k as of the 1st of the month after your hire date.
 1. You will receive a notification on your homepage in TriNet Passport once eligible,
@@ -208,9 +229,9 @@ after the 1st of the month after your hire date.
    1. Zip Code
 1. Once inside the portal you may elect your annual/pay-period contributions, and Investments.
 
-## Using TriNet<a name="using-trinet"></a>
+### Using TriNet<a name="using-trinet"></a>
 
-### Entering New Hires into TriNet<a name="trinet-process"></a>
+#### Entering New Hires into TriNet<a name="trinet-process"></a>
 
 Employer enters the employee data in the HR Passport with the information below
 
@@ -273,9 +294,9 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. The employee is prompted to log on, complete tax withholding (W4 data), direct deposit information, section 1 of the I-9, and benefits election (if eligible).
 1. The employer logs in to HR Passport and is prompted by way of work inbox item, to complete section 2 of the I-9.
 
-### Making changes in TriNet <a name="changes-trinet"></a>
+#### Making changes in TriNet <a name="changes-trinet"></a>
 
-#### Add a New Location
+##### Add a New Location
 
 1. Go to HR Passport homepage
 1. Click Find
@@ -285,7 +306,7 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Complete location information. For a remote location, enter the location (ex. WA remote) in all fields except city, state and zip.
 1. Click Add.
 
-#### Transfer Employee to Different Location
+##### Transfer Employee to Different Location
 
 1. Go to HR Passport homepage.
 1. Click Find.
@@ -297,35 +318,7 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Change location and fill in necessary information.
 1. Select Update.
 
-## Offboarding team members <a name="offboarding"></a>
-Sometimes we don't add people to our team but are saying goodbye too. Below is some People Ops info of arrangements that need to be made.
-
-### Returning property to GitLab<a name="returning-property"></a>
-
-As part of [offboarding](https://about.gitlab.com/handbook/offboarding/), any
-GitLab property needs to be returned to GitLab. GitLab
-will pay for the shipping either by People Ops sending a FedEx shipping slip or it can be returned
-by another mutually agreed method. If property is not returned, GitLab reserves the
-right to use a creditor company to help retrieve the property.
-
-### FedEx info for the team member <a name="fedex-info"></a>
-Pull up the departing contributors home address. Find a Fedex location close to them. Then follow the template below.
-
-Hi [Name of team member]
-
-The closest Fedex to you is located on [full street address, city, state, zip code]. Driving or walking directions can be found here: [enter link from “mapping home location to the Fedex location”]
-
-Once there you can use Fedex boxes that you need and do the following actions:
-
-1. Package the equipment in the box
-2. Send package to GitLab HQ in San Francisco
-3. Mark on the invoice "Bill Recipient"
-4. Our Fedex number is: [find the number in Secretarial Vault in 1Password]
-5. Provide People Ops the tracking number via email
-
-Please let People Ops know if you have any questions.
-
-## Using RingCentral<a name="ringcentral"></a>
+### Using RingCentral<a name="ringcentral"></a>
 
 Our company and office phone lines are handled via RingCentral. The login credentials
 are in the Secretarial vault on 1Password. To add a number to the call handling & forwarding
