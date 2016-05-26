@@ -52,6 +52,7 @@ The Demand Generation organization includes Demand Generation, Business Developm
 
 1. Unless a specific request is made, provide a useful resource that will help the person have a better GitLab experience.
 2. Ask [Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/) to qualify lead
+  * If prospect is a U.S. Governement agency, inform prospct that GitLab is an approved service on the Government's classified services list called CS2.  This means GitLab has been vetted, approved, and recommended for U.S. government agencies
 3. Soft-BANT is used to determine if a lead should be passed to sales or recommended CE resources. Once determined, BDR team passes all leads to sales for followup via Salesforce assignment and email notification.
 4. If 2 of the 4 elements of BANT are met (budget, authority, need, timeline), BDR team will determine account owner and pass lead.
 5. If further qualification is needed to understand Soft-BANT requirements, BDR team will email or schedule a phone call with lead to understand their project and initiatives.
