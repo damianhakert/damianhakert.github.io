@@ -15,12 +15,17 @@ If these questions ring a bell, this **series of posts** is for you! We are prep
 
 This is the **Part 2: Modern Static Site Generators**, where we provide you with an overview on the subject.
 
-The previous post was [**Part 1: Dynamic x Static Websites**], where we explained their differences, pros and cons.
+The previous post was [**Part 1: Dynamic x Static Websites**][part-1], where we explained its differences, pros and cons.
 
 Stay tunned for the next post: **Part 3: Build any SSG site with GitLab Pages**!
 
-_For this series, we assume you are familiar with web development, and curious about 
-Static Site Generators._
+**Note:** For this series, we assume you are familiar with web development, curious about 
+Static Site Generators, and how to use them with GitLab Pages.
+{: .note}
+
+{::comment}
+Update this for the first post too ^^^^
+{:/comment}
 
 <!-- more -->
 
@@ -36,13 +41,16 @@ Static Site Generators._
 
 ## Modern Static Site Generators
 
-Writing a static website is quite painful. There is a lot of repetition, we need to type in every single tag, and updating them is even more painful. So, this article does not talk about them. We won't go through the process of writing static webpages, but we will go over an intelligent way to **output** static sites from **dynamic** writing.
+{::comment}
+I'm a comment that will not output a regular comment! I'm invisible! Ha! :)
+{:/comment}
 
-<!-- ^^ FIRST PARAGRAPH TO BE REVIEWED: I don't like the idea of starting a post with a negative statement. I'll come up with a better idea to introduce the subject. Any ideas are very welcome! -->
-
-Static Site Generators (SSGs) are software created to automate the process of writing static websites, from dynamic content insertion. So, we code dynamically and publish statically. No pain, all gain.
+Static Site Generators (**SSGs**) are software created to automate web development to **output** static sites from **dynamic** writing. So, we code dynamically and publish statically. No pain, all gain.
 
 The most fascinating thing of any SSG is the ability to code fast, save money (on web hosting), and incredibly [decrease the page loading time][page-load] (compared to server-side dynamic webpages). Also, if we have a lot of visitors at the same time, our [static sites have less chance to crash][server-crash] due to server overload [than dynamic ones][site-down].
+
+**Note:** if you want to know more about it, read the previous article for this series: "[Static x Dynamic Websites][part-1]".
+{: .note}
 
 ### Structure
 
@@ -80,7 +88,7 @@ To give you a picture, let's see an example for an HTML file, in which we are us
 </html>
 ```
 
-As you probably guessed, we have three files for the content that **repeats** sitewide (head, header and footer), which are included to every page using this template. The only thing that is different is the `{{ content }}` of that page, which is written in separate files, and also included dynamically to the template. Finally, it will be **compiled** to regular HTML files **before** being stored in the web server. This process is technically called **build**. GitLab Pages **build** any SSG.
+As you probably guessed, we have three files for the content that **repeats** sitewide (head, header and footer), which are included to every page using this template. The only thing that is different is the `{{ content }}` of that page, which is written in separate files, and also included dynamically to the template with this tag. Finally, all the files will be **compiled** to regular HTML pages **before** being stored in the web server. This process is called **build**. GitLab Pages **builds** any SSG.
 
 _Advantages over flat HMTL_
 
@@ -107,27 +115,65 @@ author: "Foo Bar" # a common variable to exemplify
 Some text.
 ```
 
-<!-- should we provide a code block showing the output in html? -->
+Front matter variables, which are `title`, `date` and `author` for our example above, can be called with template tags all over the site. With Liquid, we'd use `page.title`, `page.date`, `page.author`.
+
+The content for our example would output simply:
+
+```html
+<h1>An h1 heading</h1>
+<p>Some text.</p>
+```
 
 ### Preprocessors
 
 The **preprocessors** are made for speed up our development process too. They simplify the way we code, and then compile their own files into standard ones. Examples: [Sass] and [Stylus] for CSS, [CoffeeScript] for JavaScript.
 
+Again, just to give you a picture, check a CSS code block writen in CSS directly, and the other writen in Sass:
+
+CSS:
+
+```css
+h1 {
+  color: #333;
+  padding-top: 30px;
+}
+p {
+  color: #333;
+}
+```
+
+Sass:
+
+```sass
+$clr = #333
+h1 
+  color: $clr
+  padding-top: 30px
+p 
+  color: $clr
+```
+
+In a large-scale styling, saving all curly brackets `{ }` and semi-colons `;` make a lot of difference for who is typing. Also, with Sass variables (e.g., `$clr` above), we can define some standards and apply them all over our stylesheets. In the end, everything will be compiled to regular CSS.
+
+By the way, this Sass example will be compiled exactly to the CSS code above it.
+
 ### Directory structure
 
-The **directory structure** is different for each SSG. It's important to study the file tree before we start working with an SSG, otherwise we might face odd build errors, that we won't understand solely because we didn't use its structure accordingly. Examples: [Hexo structure][hexo-struc], [Middleman structure][middle-struc], [Jekyll structure][jekyll-struc].
+The **directory structure** is different for each SSG. It's important to study the file tree before we start working with an SSG, otherwise we might face odd build errors that we won't understand solely because we didn't use its structure accordingly. Examples: [Hexo structure][hexo-struc], [Middleman structure][middle-struc], [Jekyll structure][jekyll-struc]. So, just make sure you add new files to the correct directories.
 
 ### SSGs built-in features
 
-- Most of SSGs have a pre-installed server for previewing the site locally
-- Some of them also contain in their installation package a LiveReload plugin, so we don't need to refresh the page every time we save it
+- Most of SSGs have a pre-installed server for previewing the sites locally
+- Some of them also contain in their installation package a LiveReload plugin, so we don't need to refresh the page in our browser every time we save it
 - Most of them provide us with built-in compilers for their supported preprocessors
 
 ### Blog-Aware SSGs
 
-A blog-aware website generator will create blog-style content, such as lists of content in reverse chronological order, archive lists, and other common blog-style features. How would an SSG do that? With its template engine.
+A blog-aware website generator will create blog-style content, such as lists of content in reverse chronological order, archive lists, and other common blog-style features. How would an SSG do that? 
 
-All the posts are archived in a specific directory of the project, depending on the SSG directory's structure. With a `for` loop through the posts, they can be displayed in a single page, as illustrated below (with [Liquid]):
+With their file tree and their template engine. The file tree defines the specific directory for `posts` and the template engine call the posts dynamically.
+
+With a `for` loop through the posts, they can be displayed in a single page, as illustrated below (with [Liquid]):
 
 ```liquid
   <ul>
@@ -142,7 +188,7 @@ All the posts are archived in a specific directory of the project, depending on 
   </ul>
 ```
 
-This code means that, **for each post** within the **site posts** (`{% for post in site.posts %}`), all of them would be displayed as items of an unordered list of posts.
+This code means that, **for each post** within the **site posts** (`{% for post in site.posts %}`), all of them would be displayed as items of an unordered list of posts, within links for their respective paths.
 
 Of course, you can adapt the HTML structure according to your needs.
 
@@ -215,19 +261,17 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 
 - [GitLab Pages Quick Start][pages] - learn how to get started with GitLab Pages by forking an existing project
 - [GitLab Pages on GitLab.com][post-pages] - learn how to setup a GitLab Pages project from strach
-- [SSGs Part 1: Static vs Dynamic Websites][**Part 1: Dynamic x Static Websites**] - the first post of this series
+- [SSGs Part 1: Static vs Dynamic Websites][part-1] - the first post of this series
 - [GitLab Pages Docs][pages-ee] - the official documentation with all the details you might be interested in
 
 
 <!-- Cover image: https://unsplash.com/photos/6g0KJWnBhxg -->
 
-<!-- "host for free" is repeated 3 times as a SEO keyword -->
-
 <!-- IDENTIFIERS --> 
 
 <!-- Alphabetical, miscellaneous -->
 
-[**Part 1: Dynamic x Static Websites**]: #ADD-LINK-HERE
+[part-1]: #ADD-LINK-HERE
 
 [AdSense]: https://support.google.com/adsense/answer/181950
 [Adwords]: https://support.google.com/adwords/answer/6331314
