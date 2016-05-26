@@ -105,11 +105,11 @@ to the proper shared Vaults by making a suggestion in the relevant cell in the "
 
 ### WITHIN FIRST WEEK OF STARTING
 
-* [ ] PeopleOps: [Invite to autoconnect](https://about.gitlab.com/handbook/people-operations/#add-beamy) on [Beamy](https://about.gitlab.com/handbook/#beamy-guidelines).
-* [ ] PeopleOps: Order [business cards](https://about.gitlab.com/handbook/people-operations/#b-cards) for new team member.
-* [ ] PeopleOps: [Add team member](https://about.gitlab.com/handbook/people-operations/#add-expensify) to Expensify (if employee).
-* [ ] PeopleOps: Add new team member to the info sheets of the Austin Summit.
-* [ ] PeopleOps: [Create a profile](https://about.gitlab.com/handbook/people-operations/#add-egencia) on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
+* [ ] People Ops: [Invite to autoconnect](https://about.gitlab.com/handbook/people-operations/#add-beamy) on [Beamy](https://about.gitlab.com/handbook/#beamy-guidelines).
+* [ ] People Ops: Order [business cards](https://about.gitlab.com/handbook/people-operations/#b-cards) for new team member.
+* [ ] People Ops: [Add team member](https://about.gitlab.com/handbook/people-operations/#add-expensify) to Expensify (if employee).
+* [ ] People Ops: Add new team member to the info sheets of the Austin Summit.
+* [ ] People Ops: [Create a profile](https://about.gitlab.com/handbook/people-operations/#add-egencia) on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
 * [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team.
    * [ ] 1. call with ___
    * [ ] 2. call with ___
