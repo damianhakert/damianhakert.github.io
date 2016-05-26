@@ -932,9 +932,9 @@
 - name: Eugene Zilman
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
   reports_to: Infrastructure Lead
-  picture: logo-extra-whitespace.png
+  picture: gene.jpg
   twitter:
-  gitlab:
+  gitlab: eugene3
   story:  |
           Gene's most prized possession is a 25 Liter backpack. Not due to some unhealthy obsession with luggage but rather because the rest of his possessions fully fit into it. After several years of devops consulting for pointy haired enterprise-y AdTech companies it became hightime to go on globetrotting adventures. He'll SSH from wherever, just promise to send lawyers, guns and money.
 
