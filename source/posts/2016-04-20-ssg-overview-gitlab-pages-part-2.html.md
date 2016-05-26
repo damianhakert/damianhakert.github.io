@@ -45,7 +45,7 @@ Update this for the first post too ^^^^
 I'm a comment that will not output a regular comment! I'm invisible! Ha! :)
 {:/comment}
 
-Static Site Generators (**SSGs**) are software created to automate web development to **output** static sites from **dynamic** writing. So, we code dynamically and publish statically. No pain, all gain.
+Static Site Generators (**[SSGs]**) are software created to automate web development to **output** static sites from **dynamic** writing. So, we code dynamically and publish statically. No pain, all gain.
 
 The most fascinating thing of any SSG is the ability to code fast, save money (on web hosting), and incredibly [decrease the page loading time][page-load] (compared to server-side dynamic webpages). Also, if we have a lot of visitors at the same time, our [static sites have less chance to crash][server-crash] due to server overload [than dynamic ones][site-down].
 
@@ -277,77 +277,46 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [Adwords]: https://support.google.com/adwords/answer/6331314
 [Analytics]: https://developers.google.com/analytics/devguides/collection/analyticsjs/
 [audio]: //www.w3schools.com/html/html5_audio.asp
-[cms-list]:  https://en.wikipedia.org/wiki/List_of_content_management_systems
 [comment-systems]: //brianshim.com/webtricks/add-a-comment-wall-to-your-website/
-[common-vulnerabilities]:  https://www.toptal.com/security/10-most-common-web-security-vulnerabilities
 [Disqus]: https://disqus.com/
-[drupal]: https://www.drupal.org/
-[dynamic web]:  https://en.wikipedia.org/wiki/Dynamic_web_page
 [Facebook Comments]: https://developers.facebook.com/docs/plugins/comments
 [Facebook Social Plugins]: https://developers.facebook.com/docs/plugins
 [firebase]: https://www.firebase.com/
 [firebase-cool-stuff]: https://www.firebase.com/docs/web/examples.html
 [firebase-user-auth]: //jsfiddle.net/firebase/a221m6pb/
-[first-cgi]:  //royal.pingdom.com/2007/12/07/a-history-of-the-dynamic-web/
-[first-site-1990]:  //www.telegraph.co.uk/technology/internet/12061803/The-worlds-first-website-went-online-25-years-ago-today.html
-[first-website]: //info.cern.ch/hypertext/WWW/TheProject.html
 [FormKeep]: https://formkeep.com/
 [Formspree]: https://formspree.io/
 [foxyform]: //www.foxyform.com/
-[ghost]: https://ghost.org/
 [google-cse]: https://support.google.com/customsearch/answer/4513751?hl=en&ref_topic=4513742&rd=1
 [Google Forms]: https://www.google.com/forms/about/
-[google trends]: //www.google.com.br/trends/explore?hl=en-US#q=%22static+site+generator%22&cmpt=q&tz=Etc/GMT%2B3&tz=Etc/GMT%2B3
 [HTML5]: //www.w3schools.com/html/html5_intro.asp
 [images]: //vormplus.be/blog/article/using-images-in-your-html5-document
+[Jekyll]: https://jekyllrb.com
 [JivoChat]: https://www.jivochat.com/
-[joomla!]: https://www.joomla.org/
 [MailChimp]: //mailchimp.com/
-[magento]: https://magento.com/
 [no-script]: //www.w3schools.com/tags/tag_noscript.asp
 [page-load]: https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/#dynamic-websites-and-caching
 [PayPal Payments Standard]: https://developer.paypal.com/docs/classic/button-manager/integration-guide/SOAP/ButtonMgrOverview
 [programming language]: https://en.wikipedia.org/wiki/Programming_language
 [Schema.org]: //schema.org/
 [schema-seo]: //schema.org/docs/gs.html
-[security issues]: https://www.cs.columbia.edu/~smb/classes/f06/l09.pdf
-[security-web-apps]: https://msdn.microsoft.com/en-us/library/zdh19h94.aspx
 [sendgrid-parse]: https://sendgrid.com/blog/send-email-static-websites-using-parse/
 [SEO]: //www.wordstream.com/blog/ws/2014/03/20/schema-seo
 [seo-sitemaps]: //www.webconfs.com/importance-of-sitemaps-article-17.php
 [server-crash]: //noahveltman.com/static-dynamic/
 [sitemaps]: https://support.google.com/webmasters/answer/156184?hl=en
 [site-down]: //www.sitepoint.com/wordpress-vs-jekyll-might-want-make-switch/#2-wordpress-struggles-under-heavy-load
-[ssgs-list]: https://staticsitegenerators.net/
-[ssgs-more]: https://iwantmyname.com/blog/2014/05/the-updated-big-list-of-static-website-generators-for-your-site-blog-or-wiki
-[static webpage]: https://en.wikipedia.org/wiki/Static_web_page
-[static-x-dynamic-video]: https://www.youtube.com/watch?v=zC03bcuVZHY
 [SSGs]: https://www.staticgen.com/
 [svg]: https://en.wikipedia.org/wiki/Scalable_Vector_Graphics
 [swiftype]: https://swiftype.com/
 [Tawk.to]: https://www.tawk.to/
 [template-sys]: https://en.wikipedia.org/wiki/Web_template_system
-[tim-bl]: https://en.wikipedia.org/wiki/Tim_Berners-Lee
-[tipue]: //www.tipue.com/
-[tom-pw]: https://en.wikipedia.org/wiki/Tom_Preston-Werner
 [Twitter Kit]: https://dev.twitter.com/web/overview
 [video]: //www.w3schools.com/html/html5_video.asp
-[wcms]: https://en.wikipedia.org/wiki/Web_content_management_system
-[web-app-security]: https://en.wikipedia.org/wiki/Web_application_security
-[web-apps]: https://en.wikipedia.org/wiki/Web_application
-[webgen]: //webgen.gettalong.org/news.html#webgen-0-1-0-released
-[wiki-cgi]:  https://en.wikipedia.org/wiki/Common_Gateway_Interface
-[wiki-static-websites]: https://en.wikipedia.org/wiki/Static_web_page
-[wordpress]: https://wordpress.org/
 [Wufoo]: //www.wufoo.com/
-[Marcia]: https://gitlab.com/u/virtuacreative
-[Virtua Creative]: https://virtuacreative.com.br/en/
 
 <!-- GitLab -->
 
-[CTA]: https://docs.google.com/forms/d/1I_0PFB7MFm140hoFro-SfeMpU-VS71QmMfO8_4fj2pM/viewform
-
-[about-gitlab-com]: https://about.gitlab.com/
 [get-help]: https://about.gitlab.com/getting-help
 [gitlab-com]: https://about.gitlab.com/gitlab-com/
 [pages]: https://pages.gitlab.io
@@ -358,21 +327,6 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [twitter]: https://twitter.com/gitlab
 
 <!-- SSGs -->
-
-[blosxom]: //blosxom.sourceforge.net/
-[Brunch]: //brunch.io/
-[GitBook]: https://www.gitbook.com/
-[Harp]: //harpjs.com/
-[Hexo]: https://hexo.io/
-[Hyde]: //hyde.github.io/
-[Hugo]: https://gohugo.io/
-[Jekyll]: https://jekyllrb.com
-[Lektor]: https://www.getlektor.com/
-[Metalsmith]: //www.metalsmith.io/
-[Middleman]: https://middlemanapp.com/
-[Nanoc]: //nanoc.ws/
-[Octopress]: //octopress.org/
-[Pelican]: //blog.getpelican.com/
 
 [hexo-struc]: https://hexo.io/docs/setup.html
 [jekyll-struc]: https://jekyllrb.com/docs/structure/
