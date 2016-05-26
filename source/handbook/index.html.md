@@ -99,7 +99,7 @@ feedback always provide at least one clear and recent example. If a person is
 going through a hard time in their personal life, then take that into account. An example of
 giving positive feedback is our [thanks chat channel](https://about.gitlab.com/handbook/#internal-communication).
 1. Diversity: The community consists of people from all over the world, with different
-backgrounds and opinions. Encourage hiring from different global locations, avoid centralized hiring from a specific city/region. Make everyone feel welcome. Work to increase the participation
+backgrounds and opinions. Encourage hiring in a diverse set of countries. Make everyone feel welcome. Work to increase the participation
 of underrepresented minorities and nationalities in our community and company. An
 example is our sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
 1. Boring solutions: Use the most simple and boring solution for a problem. You
@@ -699,9 +699,9 @@ If you install [MobileDay](https://mobileday.com/) on your phone and give it acc
 
 ## Using Git to update this website<a name="starting-with-git"></a>
 
-This is a guide on what you'll need to install and run on your machine to get Git
-up and running so you can create your first MR in minutes! Follow the numbers steps
-below to complete your setup.
+This is a guide on what you'll need to install and run on your machine to get
+Git up and running so you can create your first MR in minutes! Follow the
+numbered steps below to complete your setup.
 
 ### 1. Start using GitLab
 
@@ -712,7 +712,7 @@ below to complete your setup.
 
 1. Open a terminal.
 1. Check your Git version by executing: `git --version`.
-1. If Git is not installed, you should be prompted to install it. Follow this [guide] http://docs.gitlab.com/ce/gitlab-basics/start-using-git.html to installing Git and
+1. If Git is not installed, you should be prompted to install it. Follow this [guide](http://docs.gitlab.com/ce/gitlab-basics/start-using-git.html) to installing Git and
 linking your account to Git.
 
 ### 3. Install RVM
@@ -749,14 +749,15 @@ Instructions on how to update the website are in the [readme of www-gitlab-com](
 
 
 ### Local Checks of Your Changes
-### 1. Preview website changes locally
+
+#### 1. Preview website changes locally
 
 1. In a terminal, execute: `bundle exec middleman`.
 1. Visit http://localhost:4567 in your browser.
 1. To edit the site locally you'll need to install a text editor. We recommend
    [Sublime Text 2](http://www.sublimetext.com/2) or [Atom](https://atom.io/).
 
-### 2. Test if all URL links in a page are valid
+#### 2. Test if all URL links in a page are valid
 
 Until this is automated in CI, a quick way to see if there are any invalid
 links inside a page is the following.
