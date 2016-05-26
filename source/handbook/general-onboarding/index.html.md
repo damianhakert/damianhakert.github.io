@@ -71,6 +71,10 @@ introduce yourself to the team so please prepare some talking points for yoursel
 Some tips to help you out here: tell us about where you were before GitLab, why
 you wanted to join our team, just a little something about your background and
 of course something on what you like to do in your spare time."
+* [ ] Hiring Manager: Schedule a video call with new team member at the start
+of their day
+* [ ] Buddy: Schedule video call for first day to introduce yourself
+
 
 
 ### ON YOUR FIRST DAY
