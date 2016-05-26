@@ -90,7 +90,7 @@ future.
 ### Can I migrate from my on-premises GitLab server to GitHost?
 
 Yes, you can use backup and restore but this requires the intervention of a
-Service Engineer. However, we are working to make this easier.
+Service Engineer, which we offer free of charge to all users. However, we are working to make this easier.
 
 ### Can I apply my GitLab Enterprise Edition subscription for use with GitHost if I decide to move from on-premises hosting?
 
