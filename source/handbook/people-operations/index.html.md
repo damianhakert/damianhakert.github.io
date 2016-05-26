@@ -3,6 +3,9 @@ layout: markdown_page
 title: "People Operations"
 ---
 
+**Public Issue Tracker**:
+**Chat channel**:
+
 ## This page
 
 - [Role of People Operations](#role-peopleops)
@@ -50,6 +53,30 @@ You can also send an email to the People Operations group (see the "GitLab Email
 - For the SF office, see our [visiting](https://about.gitlab.com/visiting/) page.
 - For the NL office, we use a postbox address listed in the "GitLab BV address" note in the Shared vault on 1Password. We use [addpost](www.addpost.nl) to scan our mail and send it along to a physical address upon request. The scans are sent via email to the email alias listed in the "GitLab Email Forwarding" google doc.
 
+## Policies<a name="policies"></a>
+
+### Compensation principles<a name="compensation-principles"></a>
+
+1. We're an open organization and want to be transparent about compensation principles, while not disclosing individual compensation. We're working on having a formula for compensation but this is hard due to the need make the formula work across the globe.
+1. Compensation is based on market rate for the region, your job title, and your (expected) level of performance.
+1. Many of our team members who have joined have taken a decrease in compensation. We pay market rate (30th-60th percentile) for most positions, and we also offer stock options for most positions. All positions have the better-than-market benefits of being part of a remote-only company (flexible, freedom) on a mission to make it so that [everyone can contribute](https://about.gitlab.com/strategy/#why), and working on an open-source project in an open and transparent way.
+1. We base compensation on current position and performance, not on what we paid you last month. This means 50% raises are possible, but also that there are no automatic raises, and we even (although rarely) lower compensation.
+1. When your position or performance changes we'll try to adjust your pay as soon as possible: the manager should take initiative, people should not have to ask for it. But people are free to ask if their manager if they think they are due for a raise.
+1. The market rate depends on your metro region. When you move you have to inform us and we may adjust your compensation up or down.
+1. We hire across the globe but we're not location agnostic. Your timezone, the market rate in your region, and vicinity to other team members, users, customers, and partners can all be factors. For example, we may favor an applicant over another because they live in a region with a lower market rate or because we need someone in that timezone. All things being equal we will hire people in lower cost markets vs. higher cost markets.
+1. As you can see from our [contracts](/handbook/contracts/), compensation is typically set at a fixed monthly rate. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission, for leadership roles sometimes part of it is based on business objectives. Success engineers currently have a lower variable component, we're not sure how this will evolve. All other people have fixed compensation (but we do have [bonuses and incentives](/handbook/#incentives)).
+1. Compensation decisions are taken by the compensation committee. This committee consists of the CFO, CEO, and head of people operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee.
+
+### Hiring Spouse or Family Members<a name="family-hires"></a>
+
+GitLab is committed to a policy of employment and advancement based on **qualifications and merit** and does not discriminate in favor of or in opposition to the employment of relatives. Due to the potential for perceived or actual conflicts, such as favoritism or personal conflicts from outside the work environment, which can be carried into the daily working relationship, GitLab will hire or consider other employment actions concerning relatives of persons currently employed or contracted only if:   
+a) candidates for employment will not be working directly for or supervising a relative, and
+b) candidates for employment will not occupy a position in the same line of authority in which employees can initiate or participate in decisions involving a direct benefit to the relative. Such decisions include hiring, retention, transfer, promotion, wages and leave requests.
+
+This policy applies to all current employees and candidates for employment.
+
+
+## Methods and Tools for People Ops<a name="peopleops-methods"></a>
 
 ## Setting up new hiring contracts<a name="new-contracts"></a>
 
@@ -327,15 +354,3 @@ the "werkgeversverklaring" down to the decimals. Mortgage providers may also req
 you to provide information about your financial status, usually in the form of a report/screenshot
 of your total financial status (including any savings you have). The requirements for
 this seem to vary a bit between mortgage providers.
-
-## Compensation principles<a name="compensation-principles"></a>
-
-1. We're an open organization and want to be transparent about compensation principles, while not disclosing individual compensation. We're working on having a formula for compensation but this is hard due to the need make the formula work across the globe.
-1. Compensation is based on market rate for the region, your job title, and your (expected) level of performance.
-1. Many of our team members who have joined have taken a decrease in compensation. We pay market rate (30th-60th percentile) for most positions, and we also offer stock options for most positions. All positions have the better-than-market benefits of being part of a remote-only company (flexible, freedom) on a mission to make it so that [everyone can contribute](https://about.gitlab.com/strategy/#why), and working on an open-source project in an open and transparent way.
-1. We base compensation on current position and performance, not on what we paid you last month. This means 50% raises are possible, but also that there are no automatic raises, and we even (although rarely) lower compensation.
-1. When your position or performance changes we'll try to adjust your pay as soon as possible: the manager should take initiative, people should not have to ask for it. But people are free to ask if their manager if they think they are due for a raise.
-1. The market rate depends on your metro region. When you move you have to inform us and we may adjust your compensation up or down.
-1. We hire across the globe but we're not location agnostic. Your timezone, the market rate in your region, and vicinity to other team members, users, customers, and partners can all be factors. For example, we may favor an applicant over another because they live in a region with a lower market rate or because we need someone in that timezone. All things being equal we will hire people in lower cost markets vs. higher cost markets.
-1. As you can see from our [contracts](/handbook/contracts/), compensation is typically set at a fixed monthly rate. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission, for leadership roles sometimes part of it is based on business objectives. Success engineers currently have a lower variable component, we're not sure how this will evolve. All other people have fixed compensation (but we do have [bonuses and incentives](/handbook/#incentives)).
-1. Compensation decisions are taken by the compensation committee. This committee consists of the CFO, CEO, and head of people operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee.
