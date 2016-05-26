@@ -887,14 +887,20 @@
   story:  |
           Nicknamed 'The Fox', Eliran graduated engineering at the Technion and has since focused on leading business growth for software companies. He managed the Customer Experience group at ClickTale, built a monetization ecosystem for Conduit and most recently co-founded OhTell, a micro-video hotel review company. Outside work you can find 'The Fox' in the water or on land, training for IRONMAN triathlon races.
 
-- name: M.W.
+- name: Mike Walsh
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Sr. Account Executive</a>
   reports_to: CRO
-  picture: logo-extra-whitespace.png
-  twitter:
+  picture: MikeWalsh.jpg
+  twitter:@MikeJohnWalsh
   gitlab:
   story:  |
-          Joining May 16th
+          Mike has been selling software since the late 1990's and successfully 
+          survived the popping of the infamous "Dot-com Bubble". Originally from 
+          Boston and residing in San Francisco he still cheers on his hometown 
+          Boston Bruins and New England Patriots. When he's not helping
+          customers solve problems you can find him on the golf course trying to
+          lower his handicap.
+          
 
 - name: Lin Jen-Shin
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
