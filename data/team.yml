@@ -890,11 +890,11 @@
 - name: M.W.
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Sr. Account Executive</a>
   reports_to: CRO
-  picture: gene.jpg
+  picture: logo-extra-whitespace.png
   twitter:
-  gitlab: eugene3
+  gitlab:
   story:  |
-          Gene's most prized possession is a 25 Liter backpack. Not due to some unhealthy obsession with luggage, he likes a different kind of bin packing, but rather because the rest of his possessions fully fit into it. After several years consulting for the point-y haired it was hightime to go on globetrotting adventures. And he don't know where he'll be tonight but he'd always tell you where he is.
+          Joining May 16th
 
 - name: Lin Jen-Shin
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
@@ -929,7 +929,7 @@
           Dungeons & Dragons, following the news, listening to music and
           podcasts, and thoughtleading.
 
-- name: Eugene Zilman
+- name: E.Z.
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
   reports_to: Infrastructure Lead
   picture: logo-extra-whitespace.png
