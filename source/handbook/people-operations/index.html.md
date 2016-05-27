@@ -15,7 +15,7 @@ title: "People Operations"
 - [Office addresses](#addresses)
 - [Policies](#peopleops-policies)
    - [Compensation principles](#compensation-principles)
-   - [Hiring Spouse or Family Members](#family-hires)
+   - [Hiring Significant Others or Family Members](#family-hires)
    - [Returning property to GitLab](#returning-property)
       - [FedEx info for the team member](#fedex-info)
 - [Methods and Tools for People Ops](#peopleops-methods)
@@ -62,11 +62,11 @@ In general, the People Operations team and processes are here as a service to th
 1. As you can see from our [contracts](/handbook/contracts/), compensation is typically set at a fixed monthly rate. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission, for leadership roles sometimes part of it is based on business objectives. Success engineers currently have a lower variable component, we're not sure how this will evolve. All other people have fixed compensation (but we do have [bonuses and incentives](/handbook/#incentives)).
 1. Compensation decisions are taken by the compensation committee. This committee consists of the CFO, CEO, and head of people operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee.
 
-### Hiring Spouse or Family Members<a name="family-hires"></a>
+### Hiring Significant Other or Family Members<a name="family-hires"></a>
 
-GitLab is committed to a policy of employment and advancement based on **qualifications and merit** and does not discriminate in favor of or in opposition to the employment of relatives. Due to the potential for perceived or actual conflicts, such as favoritism or personal conflicts from outside the work environment, which can be carried into the daily working relationship, GitLab will hire or consider other employment actions concerning relatives of persons currently employed or contracted only if:   
-a) candidates for employment will not be working directly for or supervising a relative, and
-b) candidates for employment will not occupy a position in the same line of authority in which employees can initiate or participate in decisions involving a direct benefit to the relative. Such decisions include hiring, retention, transfer, promotion, wages and leave requests.
+GitLab is committed to a policy of employment and advancement based on **qualifications and merit** and does not discriminate in favor of or in opposition to the employment of significant others or relatives. Due to the potential for perceived or actual conflicts, such as favoritism or personal conflicts from outside the work environment, which can be carried into the daily working relationship, GitLab will hire or consider other employment actions concerning significant others and/or relatives of persons currently employed or contracted only if:   
+a) candidates for employment will not be working directly for or supervising a significant other or relative, and
+b) candidates for employment will not occupy a position in the same line of authority in which employees can initiate or participate in decisions involving a direct benefit to the significant other or relative. Such decisions include hiring, retention, transfer, promotion, wages and leave requests.
 
 This policy applies to all current employees and candidates for employment.
 
