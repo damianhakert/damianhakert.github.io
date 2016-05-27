@@ -84,3 +84,14 @@
       url: https://twitter.com/instructbr
     - type: facebook
       url: https://facebook.com/instructbr
+- name: C&S Information Technology
+  image: /images/resellers/c-s-logo.svg
+  content: |
+    Shanghai C&S Information Technology Co.,LTD was founded on December 2010. We provide software system development , implementation, and maintenance service for enterprises in China and overseas. Our service purpose is customer first, we provide software information system and development services, and win a good reputation from customers.
+
+    上海创实信息技术有限公司成立于2010年12月，面向国内外的企业提供软件系统开发、实施及维护等服务。 我们的服务理念是以用户的角度为出发点，为用户提供软件信息系统的咨询和开发服务,并得到客户的高度好评。
+  email: GitLab@SHCSInfo.com
+  contact:
+    - address: 上海，中国
+      phone: + 86 (21) 6121 0910
+    - website: http://www.shcsinfo.com/
