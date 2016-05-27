@@ -611,12 +611,9 @@ Use space for page down instead of fn+up arrow.
 
 ### Disabling OS X Notification Center
 
-During a presentation or screen share, you might want to disable your
-notifications on OS X to prevent distractions or possible embarrassment.
+During a presentation or screen share, you might want to disable your notifications on OS X to prevent distractions or possible embarrassment.
 
-The Notification Center can be quickly disabled by Option-Clicking the menu bar
-icon in the top right of your screen. This disables notifications until the next
-day. Option-Click again to re-enable immediately.
+The Notification Center can be quickly disabled by Option-Clicking the menu bar icon in the top right of your screen. This disables notifications until the next day. Option-Click again to re-enable immediately. Alternatively, click on the Notification Center icon, then scroll _up_ to reveal the "Do Not Disturb" toggle.
 
 ### Google Calendar Guest Modify Event Default
 
