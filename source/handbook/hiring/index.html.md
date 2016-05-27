@@ -61,8 +61,8 @@ require [technical interviews](https://about.gitlab.com/jobs/#technical-intervie
 1. Manager interview (see below for questions)
 1. For all candidates, include at least one interview with a female GitLab team member as part of the process.
 1. C-level executive interview (if different than the manager, see below for questions)
-1. CEO interview (if different than the C-level executive, see below for questions)
-1. Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
+1. CEO interview: the CEO, as the primary culture carrier of the company, typically interviews all final round candidates.
+1. Optional: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
 1. Make a verbal or written (email) offer (the CEO needs to authorize offers)
 1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
 1. Hiring manager ensures that the contract is signed, and [starts the onboarding process](#move-to-onboarding) (the People Ops team can help).
@@ -233,6 +233,7 @@ platform, and uses reply-all to gather any missing pieces of information, and to
 confirm with a reply-to-all when the contract is sent. Note: the number of proposed stock options
 must always be mentioned specifically, even when it is 0. People Ops must follow-up
 with the person who requested the contract to make sure that this point is addressed.
+1. When the contract is signed, the People Ops team member should move the candidate to the "Hired" bucket in Workable. Thanks to an integration between Workable and BambooHR, this will automatically add an entry for the new team member in BambooHR.
 1. This same person from People Operations files the signed contract in the appropriate place, and starts the [**onboarding issue**](https://about.gitlab.com/handbook/general-onboarding/).
 
 Note for People Operations:
