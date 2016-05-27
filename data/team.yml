@@ -921,7 +921,7 @@
   twitter: connorjshea
   gitlab: connorshea
   story:  |
-          One part Google, two parts trial-and-error. Sort-of self-taught 
+          One part Google, two parts trial-and-error. Sort-of self-taught
           front-end developer and sort-of designer. He’s passionate about
           performance, user experience, security, upgrading things, style
           guides, documentation, automation, localization, open source,
@@ -956,6 +956,15 @@
   story:  |
           Joining May 30th
 
+- name: L.B.
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Jr. Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining May 30th
+
 - name: B.R.
   role: <a href="https://about.gitlab.com/jobs/people-ops-coordinator/">People Operations Coordinator</a>
   reports_to: VP of Scaling
@@ -981,7 +990,7 @@
   twitter:
   gitlab:
   story:  |
-          Joining June 6th
+          Joining June 13th
 
 - name: T.B.
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer Intern</a>
