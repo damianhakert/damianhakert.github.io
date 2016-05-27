@@ -11,7 +11,7 @@
   %li{class: ("active" if current_page.url == "/community/")}
     %a{href: "/community", onclick: "ga('send', 'event', 'link', 'click', 'Community');"}
       Community
-  %li{class: ("active" if current_page.url == "/blog/")}
+  %li{class: ("active" if current_page.url == "/blog/" || current_page.respond_to?(:blog_data))}
     %a{href: "/blog", onclick: "ga('send', 'event', 'link', 'click', 'Blog');"}
       Blog
   %li
