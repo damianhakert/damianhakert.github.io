@@ -20,17 +20,14 @@ title: "People Operations"
       - [FedEx info for the team member](#fedex-info)
 - [Methods and Tools for People Ops](#peopleops-methods)
    - [Setting up new contracts](#new-contracts)
-      - [Using HelloSign](#hellosign)
    - [Processing changes](#processing-changes)
    - [Using BambooHR](#bamboohr)
    - [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)
    - [Administrative details of benefits for US-based employees](#benefits-us)
-      - [401k](#401k)
    - [Using TriNet](#using-trinet)
-   - [Add new hires to TriNet](#trinet-process)
-      - [Making changes in TriNet](#changes-trinet)
    - [Using RingCentral](#ringcentral)
 - [Paperwork people may need to obtain mortgage in the Netherlands](#dutch-mortgage)
+- [Involuntary Terminations](#involuntary-terminations)
 
 
 ## Other pages related to People Operations
@@ -347,3 +344,27 @@ the "werkgeversverklaring" down to the decimals. Mortgage providers may also req
 you to provide information about your financial status, usually in the form of a report/screenshot
 of your total financial status (including any savings you have). The requirements for
 this seem to vary a bit between mortgage providers.
+
+## Involuntary Terminations<a name="involuntary-terminations"></a>
+
+Involuntary termination of any team member is never easy. We've created some guidelines and information to make this process as painless and easy as possible for everyone involved. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance](/handbook/hiring/underperformance.html), as well as the [offboarding](/handbook/offboarding/) checklist.
+
+
+### Points to cover during the offboarding call, with sample wording
+
+The following points need to be covered for any team member:<br>
+1. Final Pay: "your final check (or invoice period) is for the pay period of X and includes X days of pay”.
+1. Company Property: “please return all property as explained in the handbook, also please delete GitLab’s email connection from your phone”.
+1. Business Expenses: “please create your final expense report to Expensify (for employees), OR, please file any outstanding expenses with your final invoice (for contractors), so these can be reimbursed to you in a timely manner”.
+1. Confidentiality and Non-Disclosure: “we know you are a professional, please keep in mind the agreement you signed when you were hired”.
+
+The following points need to be covered for US-based employees:<br>
+1. COBRA: “your benefits will cease on last day of the month you are eligible for Consolidated Omnibus Budget Reconciliation Act (“COBRA”), the carrier (TriNet) has been notified and the carrier will send out the paperwork to your home address on file”.
+1. PPACA: "You may also be eligible under the Patient Protection and Affordable Care Act (“PPACA”) for subsidized health care options via the marketplace. If you are interested it is important that you sign up with the market place well before the 15th of the month to have coverage for the following month”.
+1. HIPAA: " under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), if you need a certificate of credible coverage please download it from your current carrier's online portal or request it from TriNet”.
+1. Unemployment insurance: "it is up to your state's labor agency (in CA: EDD) to decide if you are eligible for unemployment insurance”.
+1. Please remember to keep TriNet informed if you move I want to be sure your W-2 gets to you at the end of the year. You may also contact X at GitLab (provide phone number and email address) with any other questions that you may have" (consider inviting them to contact you at anytime for any reason)
+
+### Sample termination memo
+
+If appropriate (to be determined by conversation with the manager, CEO, and people ops), use the following [termination memo](https://docs.google.com/document/d/11Uk8p4VJrLnDD5IAtbTwswPUUEnmeEOazS1kJMhOu70/edit?usp=sharing), which is provided here as an openly viewable Google Doc, but of course needs to be personalized and tailored to each individual's situation. As written, it is applicable to US-based employees only.
