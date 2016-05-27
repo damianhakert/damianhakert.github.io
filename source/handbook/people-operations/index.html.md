@@ -190,16 +190,7 @@ On the right enter the team member's GitLab email address in the  "add guests"
 section and click save. When asked select "all events" to add to all scheduled
 meetings and "send" out the invitation.
 - **Send swag codes to new team members**
-To celebrate a new team member joining our team, send an email with $50 swag credits for our [Swag Store](https://gitlab.mybrightsites.com/) Here is a template you can use:
-Hi [Name new team member],
-
-We're excited that your joining our team, here is some swag credit to celebrate!
-
-Swag codes: [Enter 2 swag codes]
-Free shipping: [Enter free shipping code]
-
-We've got a great [swag store]( https://gitlab.mybrightsites.com/ ) set up. Please let me know if you've got any questions.
-
+To celebrate a new team member joining our team, send an email with $50 swag credits for our [Swag Store](https://gitlab.mybrightsites.com/), as noted in the onboarding issue. You can get the codes for the swag by TODO. 
 - **Order business cards**
 Go to the "Notes" field in BambooHR and enter the info needed for the Business Cards.
 Once every week/few days or how often needed, run the "Business Cards order" report in the Reports - My Reports menu of BambooHR.

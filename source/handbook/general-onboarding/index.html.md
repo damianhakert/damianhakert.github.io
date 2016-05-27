@@ -55,27 +55,16 @@ with Git and the GitLab workflow.
 * [ ] People Ops: Add new team member to the next monthly GitLab 101 call
 * [ ] People Ops: Invite to team meeting, and re-arrange the days on which team members speak in the Team Call Agenda.
 * [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment.
-* [ ] People Ops: Assign buddy and explain to buddy what that means: "If she/he
-has questions she/he can come to you. But your main job as a buddy will be to
-direct her/him to the right parts of the handbook, and/or encourage her/him to
-ask her/his questions of the wider group on Slack, etc."
-* [ ] People Ops: Send brief welcome email to their personal address that directs
-the new team member to their GitLab email and their onboarding issue. Template text:
-"Welcome to GitLab, we are happy to have you on the team! You should have received
-an invitation to your GitLab email account; please let me know if that is not the case.
-Everything you need to get started is listed in your onboarding issue (insert link).
-We're looking forward to seeing you on our daily Team Call! The first time that you
-join, please make sure that you connect at least 10 minutes before the call and
-make sure that your camera and microphone are working properly. We'd like you to
-introduce yourself to the team so please prepare some talking points for yourself.
-Some tips to help you out here: tell us about where you were before GitLab, why
-you wanted to join our team, just a little something about your background and
-of course something on what you like to do in your spare time."
-* [ ] Hiring Manager: Schedule a video call with new team member at the start
-of their day
-* [ ] Buddy: Schedule video call for first day to introduce yourself
-
-
+* [ ] Buddy: Schedule video call for first day to introduce yourself, and make sure they know that if they have questions, they can come to you. But your main job as a buddy will be to direct them to the right parts of the handbook, and/or encourage them to ask their questions of the wider group on chat, etc.
+* [ ] People Ops: Send brief welcome email to their personal address that directs the new team member to their GitLab email and their onboarding issue. Template text:<br>
+"Welcome to GitLab, we're excited that your joining our team!<br>
+You should have received an invitation to your GitLab email account; please let me know if that is not the case.<br>
+Everything you need to get started is listed in your onboarding issue (insert link).<br>
+We're looking forward to seeing you on our daily Team Call! The first time that you join, please make sure that you connect at least 10 minutes before the call and make sure that your camera and microphone are working properly. We'd like you to introduce yourself to the team so please prepare some talking points for yourself. Some tips to help you out here: tell us about where you were before GitLab, why you wanted to join our team, just a little something about your background and of course something on what you like to do in your spare time.<br>
+Here is some swag credit you can use in our [swag store](https://gitlab.mybrightsites.com/) to celebrate your arrival!<br>
+Swag codes: [Enter 2 swag codes]<br>
+Free shipping: [Enter free shipping code]<br>"
+* [ ] Hiring Manager: Schedule a video call with new team member at the start of their first day.
 
 ### ON YOUR FIRST DAY
 
