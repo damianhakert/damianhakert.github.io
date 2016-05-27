@@ -138,6 +138,7 @@ to confirm this.
 
 We use [BambooHR](https://gitlab.bamboohr.com) to keep all team member information
 in one place. All team members (all contract types) are in BambooHR.
+We don't have one contact person but can call BambooHR if we want any changes made in the platform. The contact info lives in the Secretarial Vault in 1Password.
 
 Some changes or additions we make to BambooHR require action from our team members.
 Before calling the whole team to action:
@@ -188,25 +189,27 @@ scheduled GitLab 101 in the Availability calendar. Click on "edit event" to open
 On the right enter the team member's GitLab email address in the  "add guests"
 section and click save. When asked select "all events" to add to all scheduled
 meetings and "send" out the invitation.
-- **Order business cards**<a name="b-cards"></a>
+- **Send swag codes to new team members**
+To celebrate a new team member joining our team, send an email with $50 swag credits for our [Swag Store](https://gitlab.mybrightsites.com/) Here is a template you can use:
+Hi [Name new team member],
+
+We're excited that your joining our team, here is some swag credit to celebrate!
+
+Swag codes: [Enter 2 swag codes]
+Free shipping: [Enter free shipping code]
+
+We've got a great [swag store]( https://gitlab.mybrightsites.com/ ) set up. Please let me know if you've got any questions.
+
+- **Order business cards**
 Go to the "Notes" field in BambooHR and enter the info needed for the Business Cards.
 Once every week/few days or how often needed, run the "Business Cards order" report in the Reports - My Reports menu of BambooHR.
-Email our partner to order new business cards and add the info for the cards to
-be ordered. Include the address of the team member (found in BambooHR) and inform
-our partner to _**ship the cards directly to that address**_. Double check the
-info that is sent with the preview before approving the print.
+Email our partner to order new business cards and add the info for the cards to be ordered. Include the address of the team member (found in BambooHR) and inform our partner to _**ship the cards directly to that address**_. Double check the info that is sent with the preview before approving the print.
 - **Add team member to Expensify (only with employees)**<a name="add-expensify"></a>
-Login to [Expensify](https://www.expensify.com/signin) and go to "Admin" in the
-top menu. Select the right policy based upon the entity that employs the new team
-member. Select "People" in the left menu. Select "Invite" and add the GitLab email.
-Edit the message to be sent for the employee. Click "invite".
+Login to [Expensify](https://www.expensify.com/signin) and go to "Admin" in the top menu. Select the right policy based upon the entity that employs the new team member. Select "People" in the left menu. Select "Invite" and add the GitLab email. Edit the message to be sent for the employee. Click "invite".
 - **Add team member to Beamy**<a name="add-beamy"></a>
-Login in to access the settings for the [Beam](https://suitabletech.com/accounts/login/).
-In the top menu move your cursor over the blue login button. Go to "Manage your beams".
-Click on "manage" in the lower left corner. Enter the GitLab email and scroll down
-to find the newly added email. Check the box for "Auto connect".
-- **Add team member into the Austin info sheets**
-Add the team member's name to the Travel and Lodging Google sheets to make sure they enter flight details and they are assigned a room.
+Login in to access the settings for the [Beam](https://suitabletech.com/accounts/login/). In the top menu move your cursor over the blue login button. Go to "Manage your beams". Click on "manage" in the lower left corner. Enter the GitLab email and scroll down to find the newly addedd email. Check the box for "Auto connect".
+- **Add team member into the Summit info sheets**
+Add the team member's name to the Travel and Lodging Google sheets to make sure they enter flight details and will be assigned a room.
 - **Add team member to our Egencia platform**<a name="add-egencia"></a>
 Log into Egencia and go to the menu option "manage users". Choose "new user account" and fill in the passport name of the new team member.
 As username choose the same handle as on our dev domain. Enter the GitLab email address and uncheck the newsletter box.
