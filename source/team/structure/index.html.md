@@ -32,7 +32,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/) - [Developer Advocate](/jobs/developer-advocate/)
       - [Field Marketing](/handbook/marketing/developer-relations/field-marketing/) - [Field Marketing Manager](/jobs/field-marketing-manager/) - Emily Kyle
       - Technical Writing - [Technical Writer](/jobs/technical-writer/)
-  - [Sales](/handbook/sales-process/) - [CRO](/jobs/chief-revenue-officer/) - Chad Malchow
+  - [Sales](/handbook/sales/) - [CRO](/jobs/chief-revenue-officer/) - Chad Malchow
     - Americas Sales - [Account Executive](/jobs/account-executive/)
     - EMEA Sales - [Sales Director EMEA](/jobs/sales-director/) (lead) - Richard Pidgeon
       - [Account Executive](/jobs/account-executive/)
