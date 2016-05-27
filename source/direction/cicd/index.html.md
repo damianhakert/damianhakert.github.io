@@ -37,7 +37,7 @@ Example flow:
 
 ![](/images/direction/cicd/pipelines-goal.svg)
 
-1. CI pipeline for a single commit, single project (i.e. visualize build and test pipeline)
+1. [CI pipeline for a single commit, single project (i.e. visualize build and test pipeline)](https://gitlab.com/gitlab-org/gitlab-ce/issues/3743)
 2. Deploy pipelines
     1. [Manual steps (e.g. deploy same SHA from staging to production)](https://gitlab.com/gitlab-org/gitlab-ce/issues/17010)
     2. Cross-commit (e.g. before and after a merge)
