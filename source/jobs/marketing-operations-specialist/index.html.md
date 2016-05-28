@@ -14,7 +14,7 @@ You have experience in marketing, business development, or sales operations and 
 * Work with our demand generation and sales teams to become an expert on the company's lead funnel - from web visitor to customer and everything in-between.
 * Document all processes in the handbook and update as needed.
 
-##Requirements
+## Requirements
 
 * Work remotely from anywhere in the world (Curious to see what that looks like? Check out our remote manifesto!).
 * Excellent spoken and written English.
