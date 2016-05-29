@@ -36,8 +36,8 @@
 - name: Marin Jankovski
   locality: Amsterdam
   country: The Netherlands
-  role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Backend Lead
+  role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a> and Packaging Lead
+  reports_to: VP of Engineering
   picture: picture_marin.jpg
   twitter: maxlazio
   gitlab: marin
@@ -56,7 +56,7 @@
   locality: Amsterdam
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Backend Lead
+  reports_to: VP of Engineering
   picture: picture_jacob.png
   twitter: jacobvosmaer
   gitlab: jacobvosmaer
@@ -136,7 +136,7 @@
   locality: Utrecht
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/backend-lead/">Backend Lead</a>
-  reports_to: CEO
+  reports_to: VP of Engineering
   picture: picture_douwe.png
   twitter: DouweM
   gitlab: DouweM
@@ -164,7 +164,7 @@
   locality: Warsaw
   country: Poland
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Backend Lead
+  reports_to: VP of Engineering
   picture: kamil.jpg
   twitter: ayufanpl
   gitlab: ayufan
@@ -274,7 +274,7 @@
   locality: Berlin
   country: Germany
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
-  reports_to: CTO
+  reports_to: Frontend Lead
   picture: andriy.jpg
   twitter: askyruler
   gitlab: skyruler
@@ -338,7 +338,7 @@
   locality: Hilversum
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: Infrastructure Lead
   picture: picture_yorick.jpg
   twitter: yorickpeterse
   gitlab: yorickpeterse
@@ -419,7 +419,7 @@
 - name: José Torres
   locality: San José Pinula
   country: Guatemala
-  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Lead Service Engineer</a>
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Support Lead</a>
   reports_to: VP of Engineering
   picture: josetorres.jpg
   twitter: random_primate
@@ -554,7 +554,7 @@
   locality: Tourtour
   country: France
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: VP of Engineering
   picture: remy.png
   twitter: rymai
   gitlab: rymai
@@ -574,7 +574,7 @@
   locality: Cleveland, OH
   country: USA
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Backend Lead
+  reports_to: Infrastructure Lead
   picture: jfrye.jpg
   twitter: joshfng
   gitlab: joshfng
@@ -765,7 +765,7 @@
   locality: Santiago
   country: Chile
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: Lead Service Engineer
+  reports_to: Support Lead
   picture: felipe.jpg
   twitter: juanpintoduran
   gitlab: cabargas
@@ -823,7 +823,7 @@
   locality: Victoria
   country: Canada
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: Packaging Lead
   picture: dj.png
   twitter: twk3
   gitlab: twk3
@@ -868,7 +868,7 @@
   locality: Gimo
   country: Sweden
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: VP of Engineering
   picture: kimcarlbacker.jpg
   twitter: bkcsoft
   gitlab: bkc
@@ -932,7 +932,7 @@
   locality: Perth
   country: Australia
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: Lead Service Engineer
+  reports_to: Support Lead
   picture: chris.jpg
   twitter: IsChrisW
   gitlab: MrChrisW
@@ -971,7 +971,7 @@
   locality: Edinburgh
   country: Scotland
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: Lead Service Engineer
+  reports_to: Support Lead
   picture: logo-extra-whitespace.png
   gitlab: markglenfletcher
   picture: mark.jpg
@@ -985,7 +985,7 @@
   locality: Colombes
   country: France
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: VP of Engineering
   picture: christiancouder.jpg
   twitter: ChristianCouder
   gitlab: chriscool
@@ -1165,7 +1165,7 @@
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
-  reports_to: VP of Engineering
+  reports_to: Frontend Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
