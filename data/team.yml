@@ -1084,6 +1084,8 @@
           podcasts, and thoughtleading.
 
 - name: E.Z.
+  locality: 
+  country: 
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
   reports_to: Infrastructure Lead
   picture: logo-extra-whitespace.png
@@ -1093,6 +1095,8 @@
           Joining May 16th
 
 - name: M.K.
+  locality: 
+  country: 
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
   reports_to: Infrastructure Lead
   picture: logo-extra-whitespace.png
@@ -1102,6 +1106,8 @@
           Joining May 23rd
 
 - name: A.R.
+  locality: 
+  country: 
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Backend Lead
   picture: logo-extra-whitespace.png
@@ -1111,6 +1117,8 @@
           Joining May 30th
 
 - name: L.B.
+  locality: 
+  country: 
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Jr. Frontend Engineer</a>
   reports_to: Frontend Lead
   picture: logo-extra-whitespace.png
@@ -1120,6 +1128,8 @@
           Joining May 30th
 
 - name: B.R.
+  locality: 
+  country: 
   role: <a href="https://about.gitlab.com/jobs/people-ops-coordinator/">People Operations Coordinator</a>
   reports_to: VP of Scaling
   picture: logo-extra-whitespace.png
@@ -1129,6 +1139,8 @@
           Joining June 1st
 
 - name: J.A.
+  locality: 
+  country: 
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: VP of Engineering
   picture: logo-extra-whitespace.png
@@ -1138,6 +1150,8 @@
           Joining June 1st
 
 - name: H.Y.
+  locality: 
+  country: 
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
   reports_to: VP of Engineering
   picture: logo-extra-whitespace.png
@@ -1147,6 +1161,8 @@
           Joining June 13th
 
 - name: T.B.
+  locality: 
+  country: 
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer Intern</a>
   reports_to: Backend Lead
   picture: logo-extra-whitespace.png
