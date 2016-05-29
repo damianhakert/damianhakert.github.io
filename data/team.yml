@@ -966,7 +966,7 @@
 
 - name: Mark Fletcher
   locality: Edinburgh
-  country: USA
+  country: Scotland
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
   reports_to: Lead Service Engineer
   picture: logo-extra-whitespace.png
