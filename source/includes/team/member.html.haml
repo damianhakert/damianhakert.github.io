@@ -14,7 +14,7 @@
           %h5
             Reports to
             = member.reports_to
-        - if member.country
+        - if member.locality || member.country
           - location = [member.locality, member.country].compact.join(", ")
           %h5
             Lives in
