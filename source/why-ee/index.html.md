@@ -33,6 +33,7 @@ with [Git Hooks][git-hooks].
 [auth]: #authentication
 [ldap-groups]: #ldap-group-support
 [audit-log]: #audit-log
+[git-hooks]: #git-hooks
 
 ### Authentication
 
@@ -69,11 +70,28 @@ Our pre-defined Git Hooks let you:
 - prohibit certain file names
 - limit file size
 
-## Maintenance & Scale
+## Scaling
 
-- Option: Geo
-- external MySQL support
-- future - HA omnibus
+GitLab Enterprise Edition is made for scale.
+Not only does it provide the same flexibility as GitLab CE, allowing you
+to run it on almost any Linux system,
+has [super fast search with Elasticsearch][es] and can [mirror any repository][mirroring].
+
+And of course, you can [run GitLab EE highly available][ha]. You can even
+have GitLab [globally replicated with Geo][geo], so your teams from all over
+the world can have instant access to their repositories.
+
+[geo]: #gitlab-geo
+[ha]: #high-availability
+[es]: #elasticsearch
+[mirroring]: #mirroring
+[multi-ldap]: #multi-ldap
+
+### GitLab Geo
+
+### Elasticsearch
+
+### Mirroring
 
 ## Workflow
 
