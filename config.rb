@@ -70,6 +70,10 @@ helpers do
 
     h(content)
   end
+
+  def include_markdown(path)
+    Kramdown::Document.new(File.read(path)).to_html
+  end
 end
 
 # Build-specific configuration
