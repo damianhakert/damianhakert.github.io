@@ -755,6 +755,9 @@
   picture: kimcarlbacker.jpg
   twitter: bkcsoft
   gitlab: bkc
+  maintains: |
+             <li>Maintainer of <a href="https://gogs.io">Gogs</a></li>
+
   story:  |
           Kim is a self-taught programmer with focus on maintainability and reusablity.
           He has learned many languages through the years out of necessity, ranging
