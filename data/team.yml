@@ -1108,16 +1108,21 @@
   story:  |
           Joining May 23rd
 
-- name: A.R.
-  locality: 
-  country: 
+- name: Alejandro Rodríguez
+  locality: Santiago
+  country: Chile
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: Backend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: alejandro.jpg
+  twitter: eReGeBe
+  gitlab: eReGeBe
   story:  |
-          Joining May 30th
+          From Venezuela, now in Chile, Alejandro has been passionate about
+          computers from the moment he once actually deleted System32 and tried
+          to fix it. Since then he has developed Web applications for a variety
+          of clients with a wide range of technologies. He believes in Torvalds'
+          concept of "good taste" in code and strives to achieve it. Outside of
+          programming he enjoys trading card games and discovering new music.
 
 - name: L.B.
   locality: 
