@@ -160,7 +160,7 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 ### Stage 4 <a name="stage-4"></a>
 
 * [ ] Login to [Salesforce.com](http://www.salesforce.com/), you should receive an email asking you to change your password.  Once you are in Salesforce, please familiarize yourself wth these reports/views as they will be critical in helping you manage your business.
-* [ ] Review in order, learning material on our [Sales Process](https://about.gitlab.com/handbook/sales-process/) page.
+* [ ] Review in order, learning material on our [Sales Handbook](https://about.gitlab.com/handbook/sales/) page.
 * [ ] Review [Your Current Month Pipeline](https://na34.salesforce.com/00O61000001uYbM) This view is to focus you on what you are committing to closing this month.  Are you in the right stage? What is needed to advance the sale to the next stage?
 * [ ] Review [Your Total Pipeline](https://na34.salesforce.com/00O61000001uYbR) This view should be used to identify where you are going and where you need focus to ensure you are successful.  What needs to to close and/or where you need to build up your pipleine - new business, expansion, add-on
 * [ ] [Your Leads](https://na34.salesforce.com/00Q?fcf=00B610000027qT9&rolodexIndex=-1&page=1) This view should be used to make sure you are followign up on each lead in a timely manner and have a plan on how you qualify or disqualify a lead.
@@ -183,7 +183,7 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 
 1. [Getting Technical Support](https://about.gitlab.com/handbook/support/#internal)
 
-1. [Our Sales Process](https://about.gitlab.com/handbook/sales-process/)
+1. [Our Sales Handbook](https://about.gitlab.com/handbook/sales/)
 
 1. [Sales Best Practices Training](https://about.gitlab.com/handbook/sales-training/)
 

@@ -297,6 +297,10 @@ of GitLab.com and to follow up on users reporting that GitLab.com is unavailable
 
 When a tweet mentions 1 or more of the handles described above, it should be replied to from the main handle (@GitLab).
 
+Tweets use short links which require you to visit that link to make sure you understand the context. 
+To clarify if the request refers to GitLab or an externally hosted GitLab instance as we can only 
+handle requests for gitlab.com. 
+
 When resolving Twitter tickets you should:
 
 1. Start by the oldest ticket first

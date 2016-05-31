@@ -346,13 +346,15 @@ Involuntary termination of any team member is never easy. We've created some gui
 
 ### Points to cover during the offboarding call, with sample wording
 
-The following points need to be covered for any team member:<br>
+The following points need to be covered for any team member:
+
 1. Final Pay: "your final check (or invoice period) is for the pay period of X and includes X days of pay”.
 1. Company Property: “please return all property as explained in the handbook, also please delete GitLab’s email connection from your phone”.
 1. Business Expenses: “please create your final expense report to Expensify (for employees), OR, please file any outstanding expenses with your final invoice (for contractors), so these can be reimbursed to you in a timely manner”.
 1. Confidentiality and Non-Disclosure: “we know you are a professional, please keep in mind the agreement you signed when you were hired”.
 
-The following points need to be covered for US-based employees:<br>
+The following points need to be covered for US-based employees:
+
 1. COBRA: “your benefits will cease on last day of the month you are eligible for Consolidated Omnibus Budget Reconciliation Act (“COBRA”), the carrier (TriNet) has been notified and the carrier will send out the paperwork to your home address on file”.
 1. PPACA: "You may also be eligible under the Patient Protection and Affordable Care Act (“PPACA”) for subsidized health care options via the marketplace. If you are interested it is important that you sign up with the market place well before the 15th of the month to have coverage for the following month”.
 1. HIPAA: " under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), if you need a certificate of credible coverage please download it from your current carrier's online portal or request it from TriNet”.

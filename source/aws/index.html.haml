@@ -11,45 +11,28 @@ current_version: gitlab-aws-image
 .aws-header
   %h1 GitLab CE AWS AMI
   %h2 GitLab Community Edition on AWS with our machine image
-  .btn-group
-    %button.btn.btn-default.dropdown-toggle.btn-lg{"data-toggle" => "dropdown", onclick: "ga('send', 'event', 'dropdown','select','aws region select open');", type: "button"}
-      Select AWS region
-      %span.caret
-    %ul.dropdown-menu{role: "menu"}
-      - data.aws.each do |region|
-        %li
-          %a{href: "##{region.id}", onclick: "ga('send', 'event', 'link','click','download ce');"}
-            = region.name
 
-  #tabs
-    - data.aws.each do |region|
-      .tab{id: region.id}
-        .aws-install
-          .aws-install-step
-            %p
-              Search for this AMI (
-              = current_page.data.current_version
-              ) under Community AMIs
-            %p
-              = region.name
-            %p
-              The latest version of GitLab CE will be fetched on first boot.
-          .aws-install-step
-            %p
-              Launch a
-              %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/install/requirements.md"} c4.large instance
-              with open ports for ssh, http and https.
-              %br/
-              SSH into the instance with ubuntu@your-instance, edit the
-              %br/
-              %code /etc/gitlab/gitlab.rb
-              file to your needs, and run
-            %p sudo gitlab-ctl reconfigure
-          .aws-install-step
-            %p
-              Visit the public IP in a browser and sign in as the default user
-            %p
-              username: root
-              %br/
-              password: 5iveL!fe
-        = partial "includes/downloads/other"
+  .aws-install
+    .aws-install-step
+      %p
+        Search for  gitlab-aws-image under Community AMIs.
+        The latest version of GitLab CE will be fetched on first boot.
+    .aws-install-step
+      %p
+        Launch a
+        %a{href: "https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/install/requirements.md"} c4.large instance
+        with open ports for ssh, http and https.
+        %br/
+        SSH into the instance with ubuntu@your-instance, edit the
+        %br/
+        %code /etc/gitlab/gitlab.rb
+        file to your needs, and run
+      %p sudo gitlab-ctl reconfigure
+    .aws-install-step
+      %p
+        Visit the public IP in a browser and sign in as the default user
+      %p
+        username: root
+        %br/
+        password: 5iveL!fe
+  = partial "includes/downloads/other"

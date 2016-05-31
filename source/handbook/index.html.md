@@ -15,7 +15,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Benefits](/handbook/benefits)
 * [Hiring](/handbook/hiring)
 * [Travel](/handbook/travel)
-* [Sales process](/handbook/sales-process)
+* [Sales Handbook](/handbook/sales)
 * [Infrastructure](/handbook/infrastructure)
 * [Accounting](/handbook/accounting)
 * [Stock Options](/handbook/stock-options)
@@ -270,16 +270,17 @@ out to any of the other C-level team members or our board member Bruce Armstrong
     1. Issues assigned to the upcoming milestone
     1. Issues assigned to future milestones
     1. Issues not assigned to a milestone
-1. Within the same milestone the priority<a name="priority"></a> starting from urgent is:
+1. Within the same milestone the priority<a name="priority"></a> starting from the most urgent is:
     1. **Emergency** issues (a service engineer will probably contact you via chat)
+    1. [**Direction**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=direction) issues that were explicitly assigned to you, and are your main focus for this release
     1. [**Security**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=security) issues (MRs for confidential security issues should be created on [dev.gitlab.org](https://dev.gitlab.org/gitlab/gitlabhq))
     1. [**Data integrity**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=data+integrity) issues (preventing data loss)
-    1. [**Regression**](https://gitlab.com/groups/gitlab-org/issues?label_name=regression) issues (used to work in a previous release)
-    1. [**Promised**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=promised) issues (promised to a customer)
-    1. Other [**customer**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=customer) issues
+    1. [**Regression**](https://gitlab.com/groups/gitlab-org/issues?label_name[]=regression) issues (used to work in the previous major release)
+    1. [**Promised**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=promised) customer issues
     1. [**Direction**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=direction) issues (listed on [the direction page](https://about.gitlab.com/direction/))
-    1. [**Bug**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=bug) issues (things)
-    1. [Issues](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming) without a label listed above.
+    1. [**Customer**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=customer) issues that haven't explicitly been promised
+    1. [**Bug**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=bug) issues (things that are broken)
+    1. [Issues](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming) without any of the priority labels listed above
 1. Use the public issue trackers on GitLab.com for anything related to our software since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
 1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [infrastructure](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues.
 1. Pick issues from the current [milestone](https://gitlab.com/groups/gitlab-org/milestones).
@@ -308,7 +309,7 @@ step, **re-assign** the issue to that person.
 
 1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
 1. We use Blue Jeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
-1. If you have previously logged on to Blue Jeans with different credentials, make sure to log out before joining the call as yourself.
+1. If you have previously logged on to Blue Jeans with different credentials, make sure to log out before joining the call as yourself. You don't need a Blue Jeans account to join the team call.
 1. We start on time and will not wait for people.
 1. Person who has first item on the agenda starts the call.
 1. If you are unable to attend just add your name to the [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) as 'Not attending'.
