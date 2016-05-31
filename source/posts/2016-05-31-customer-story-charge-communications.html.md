@@ -18,7 +18,7 @@ a telecommunications company uses GitLab.
 
 ## Overview
 
-Charge, the San Francisco based startup, is looking to change the way we pay for our phone 
+Charge, the San Francisco-based startup, is looking to change the way we pay for our phone 
 service. They offer simple pay-as-you-go plans for data, text, and calls on LTE devices. Charge 
 runs lean with a small team of five. This mighty team of five is working on a solution to rival the telecommunications giants. 
 Their mission to provide simple mobile phone service that puts consumers in control is no small undertaking. 
