@@ -35,7 +35,10 @@ specific to GitLab EE, add it to CE.
 
 This is _not_ an open source project, but we made the source code available for
 viewing and contributions. As of version 7.11, it requires a license key to be
-used.
+used. To be able to run your own instances for development you can use one of
+the shared licenses (like [https://license.gitlab.com/licenses/1449](https://license.gitlab.com/licenses/1449)) or you can clone
+[https://dev.gitlab.org/gitlab/license-app](https://dev.gitlab.org/gitlab/license-app)
+and generate your own licenses.
 
 - [https://gitlab.com/gitlab-org/gitlab-ee](https://gitlab.com/gitlab-org/gitlab-ee)
 - [https://dev.gitlab.org/gitlab/gitlab-ee](https://dev.gitlab.org/gitlab/gitlab-ee)
