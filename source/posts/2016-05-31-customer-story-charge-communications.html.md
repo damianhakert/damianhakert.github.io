@@ -3,7 +3,7 @@ title: "Customer Story: Charge"
 author: GitLab
 author_twitter: gitlab
 categories: 
-image_title: /images/blogimages/Charge-customer-story/person-on-phone.jpeg
+image_title: /images/blogimages/Charge-customer-story/person-on-phone.jpg
 ---
 
 We always like to hear how our customers are using GitLab. In this post we will share how [Charge](https://charge.co/), 
@@ -24,7 +24,7 @@ runs lean with a small team of five. This mighty team of five is working on a so
 Their mission to provide simple mobile phone service that puts consumers in control is no small undertaking. 
 With their ambitious goal in mind, they quickly realized that their team couldn’t afford any missteps.
 
-![](/images/blogimages/Charge-customer-story/person-on-phone-2.jpeg)
+![](/images/blogimages/Charge-customer-story/person-on-phone-2.jpg)
 
 Charge needed to find a distributed version control solution that would help improve their engineering workflow, speed up 
 their development process, and withstand industry security requirements. After looking into a number 
