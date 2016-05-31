@@ -1086,20 +1086,9 @@
           Dungeons & Dragons, following the news, listening to music and
           podcasts, and thoughtleading.
 
-- name: E.Z.
-  locality: 
-  country: 
-  role: <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a>
-  reports_to: Infrastructure Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Joining May 16th
-
 - name: M.K.
-  locality: 
-  country: 
+  locality:
+  country:
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
   reports_to: Infrastructure Lead
   picture: logo-extra-whitespace.png
@@ -1125,8 +1114,8 @@
           programming he enjoys trading card games and discovering new music.
 
 - name: L.B.
-  locality: 
-  country: 
+  locality:
+  country:
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Jr. Frontend Engineer</a>
   reports_to: Frontend Lead
   picture: logo-extra-whitespace.png
@@ -1136,8 +1125,8 @@
           Joining May 30th
 
 - name: B.R.
-  locality: 
-  country: 
+  locality:
+  country:
   role: <a href="https://about.gitlab.com/jobs/people-ops-coordinator/">People Operations Coordinator</a>
   reports_to: VP of Scaling
   picture: logo-extra-whitespace.png
@@ -1147,8 +1136,8 @@
           Joining June 1st
 
 - name: J.A.
-  locality: 
-  country: 
+  locality:
+  country:
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: VP of Engineering
   picture: logo-extra-whitespace.png
@@ -1157,9 +1146,20 @@
   story:  |
           Joining June 1st
 
+- name: F.G.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Backend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining June 1st
+
 - name: H.Y.
-  locality: 
-  country: 
+  locality:
+  country:
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
   reports_to: VP of Engineering
   picture: logo-extra-whitespace.png
@@ -1169,8 +1169,8 @@
           Joining June 13th
 
 - name: T.B.
-  locality: 
-  country: 
+  locality:
+  country:
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer Intern</a>
   reports_to: Backend Lead
   picture: logo-extra-whitespace.png
