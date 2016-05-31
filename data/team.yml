@@ -118,8 +118,8 @@
 - name: Patricio Cano
   locality: Quito
   country: Ecuador
-  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Senior Service Engineer</a>
-  reports_to: Lead Service Engineer
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Backend Lead
   picture: picture_patricio.png
   twitter: suprnova32
   gitlab: patricio
