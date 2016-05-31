@@ -15,6 +15,7 @@ build:
   stage: build
   script:
     - bundle exec middleman build --verbose
+    - bundle exec rake pdfs
   artifacts:
     paths:
       - public/  
