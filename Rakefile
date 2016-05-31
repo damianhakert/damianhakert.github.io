@@ -90,7 +90,7 @@ s/\.\.\/images/public\/images/
 wq
 EOS
   end
-  options = %W(--template=_terms_template.tex --latex-engine=xelatex -V date=#{Time.now.to_s})
+  options = %W(--template=_terms_template.tex --latex-engine=xelatex -V date=#{Time.now.to_s} --verbose)
   warn "Generating #{pdf.name}"
   abort("Pandoc failed") unless system('pandoc', *options, '-o', pdf.name, pdf.source)
 end
