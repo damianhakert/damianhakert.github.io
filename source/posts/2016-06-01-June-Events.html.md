@@ -10,6 +10,8 @@ image_title: '/images/blogimages/SHU_4933.jpg'
 
 If you have been following along last month the entire GitLab team met, many for the first time, in Austin, TX. The trip was a great success. We were able to fit in work, OSCON, fun, and lots of BBQ. 
 
+<!-- more -->
+
 ![GitLab Team](/images/blogimages/IMG_1592.PNG)
 
 So lets start with OSCON: Having the entire GitLab team in Austin for the week allowed around half of our team memebrs to participate in OSCON. Confenece attendees had fun playing jenga in our booth trying desperately to win an ever coveted pair of tanuki socks. We met some great people at both the booth and the conference events. We love meeting with other open source enthuasists so much that we signed up for OSCON Austin 2017 and OSCON London in the fall. We hope to see you there!
@@ -22,8 +24,6 @@ Let's move on to some of the work, fun, and food: The team started the week off 
 
 So now lets move on to what you can meet us this coming month. If you'll be attending these events, please say hello in the comments.
 We'd love to meet you.
-
-<!-- more -->
 
 ## North America
 - [South East Linux Fest](http://www.southeastlinuxfest.org/), June 10th - 12th in Charlotte, NC: - [Amanda] is speaking.
