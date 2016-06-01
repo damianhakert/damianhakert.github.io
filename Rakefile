@@ -78,15 +78,17 @@ task :new_release_post, :version do |t, args|
 end
 
 PDFS = FileList['source/terms/print/*.html{,.haml}'].pathmap('%{^source,public}X').pathmap('%X.pdf') +
-  %w{public/high-availability/gitlab-ha.pdf}# public/features/gitlab-features.pdf}
+  %w{public/high-availability/gitlab-ha.pdf public/features/gitlab-features.pdf}
 
 rule %r{^public/.*\.pdf} => [->(f) { f.pathmap('%X.html') }] do |pdf|
-  # Rewrite the generated HTML a bit, fix relative image links for pandoc
+  # Rewrite the generated HTML to fix image links for pandoc. Image paths
+  # need to be relative paths starting with 'public/'.
   IO.popen(%W(ed -s #{pdf.source}), 'w') do |ed|
     ed.puts <<-'EOS'
 H
-g/\.\.\/images\//\
-s/\.\.\/images/public\/images/
+g/\.\.\/images\// s//\/images\//g
+g/'\/images\/ s//'public\/images\//g
+g/"\/images\// s//"public\/images\//g
 wq
 EOS
   end
