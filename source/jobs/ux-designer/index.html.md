@@ -39,3 +39,5 @@ You know you are doing a good job as a UX Designer when:
 * Andriy is mostly working in close collaboration with Dmitriy on his initiatives.
 * Others are mostly working on the items in the milestone and making mockups for new features.
 * All are both learning html and css to have deliverables that are a good draft for the implementation.
+
+<a href="https://gitlab.workable.com/jobs/227708/candidates/new" class="btn btn-purple">Apply</a>

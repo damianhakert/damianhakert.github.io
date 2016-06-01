@@ -30,3 +30,5 @@ to GitLab.com availability incidents and customer incidents.
 You work on issues in the [infrastructure repository](https://gitlab.com/gitlab-com/infrastructure/issues).
 
 The priority of the issues can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/#prioritize).
+
+<a href="https://gitlab.workable.com/jobs/142989/candidates/new" class="btn btn-purple">Apply</a>

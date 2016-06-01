@@ -28,3 +28,5 @@ You work on issues tagged with 'Frontend' on [CE](https://gitlab.com/gitlab-org/
 The priority of the issues tagged with this label can be found in [the handbook under GitLab Workflow](https://about.gitlab.com/handbook/#prioritize).
 
 When done with a frontend issue remove the 'Frontend' label and add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) which is probably the 'Developer' label.
+
+<a href="https://gitlab.workable.com/jobs/181461/candidates/new" class="btn btn-purple">Apply</a>

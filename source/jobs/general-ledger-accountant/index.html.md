@@ -22,3 +22,5 @@ Currently this is a **part-time** position.
 - Proficient with excel and google sheets
 - International experience is a plus
 - Self-starter with the ability to work remotely and independently and interact with various teams when needed.
+
+<a href="https://gitlab.workable.com/jobs/260762/candidates/new" class="btn btn-purple">Apply</a>

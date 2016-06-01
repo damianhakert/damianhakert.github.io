@@ -23,3 +23,5 @@ GitLab is looking for a prolific content strategist and creator to join our team
 - Obsessive about content quality not quantity
 - Regular reporting on how content and channel performance to help optimize our content marketing efforts
 - BONUS: A passion and strong understanding of the industry and our mission.
+
+<a href="https://gitlab.workable.com/jobs/252104/candidates/new" class="btn btn-purple">Apply</a>

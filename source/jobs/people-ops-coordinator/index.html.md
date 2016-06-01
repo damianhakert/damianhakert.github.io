@@ -54,3 +54,5 @@ when you'll start improving our performance review processes! You are awesome.
 
 - This position reports to the People Operations Manager.
 - Salary range: $45k-$60k annually, depending on experience. Also see our benefits on https://about.gitlab.com/handbook/benefits
+
+<a href="https://gitlab.workable.com/jobs/220106/candidates/new" class="btn btn-purple">Apply</a>

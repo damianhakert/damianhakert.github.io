@@ -67,3 +67,5 @@ title: "VP of People Operations"
 - Willing to work with git and GitLab whenever possible
 - Willing to make People Operations as open and transparent as possible
 - Wanting to work for a fast-moving startup
+
+<a href="https://gitlab.workable.com/jobs/234625/candidates/new" class="btn btn-purple">Apply</a>

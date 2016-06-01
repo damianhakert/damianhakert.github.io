@@ -29,3 +29,5 @@ GitLab is an application to code, test, and deploy code together. It provides Gi
 * Interest in GitLab, and open source software
 
 Work remotely from anywhere in the world. Curious to see what that looks like? Check out our [remote manifesto]( https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!
+
+<a href="https://gitlab.workable.com/jobs/242362/candidates/new" class="btn btn-purple">Apply</a>
