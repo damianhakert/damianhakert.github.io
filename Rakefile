@@ -77,7 +77,7 @@ task :new_release_post, :version do |t, args|
   end
 end
 
-PDFS = FileList['source/terms/print/*.html'].pathmap('%{^source,public}X.pdf')# +
+PDFS = p FileList['source/terms/print/*.html{,.haml}'].pathmap('%{^source,public}X').pathmap('%X.pdf') # +
  # %w{public/high-availability/gitlab-ha.pdf public/features/gitlab-features.pdf}
 
 rule %r{^public/.*\.pdf} => [->(f) { f.pathmap('%X.html') }] do |pdf|
