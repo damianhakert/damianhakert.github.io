@@ -3,6 +3,7 @@ before_script:
   - git rev-parse HEAD
   - export LC_ALL=en_US.UTF-8
   - source ./scripts/prepare_build.sh
+  - pandoc --version
   - ''
   - bundle install --path ~/bundle
 
