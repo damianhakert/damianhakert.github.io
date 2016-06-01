@@ -1113,6 +1113,21 @@
           concept of "good taste" in code and strives to achieve it. Outside of
           programming he enjoys trading card games and discovering new music.
 
+- name: Paco Guzmán
+  locality: Madrid
+  country: Spain
+  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
+  reports_to: Backend Lead
+  picture: paco.jpg
+  twitter: pacoguzman
+  gitlab: pacoguzman
+  story:  |
+          Paco started developing Ruby on Rails Web applications on the university.
+          Since then he has been working on different companies on different sectors,
+          improving performance and decreasing release time of the software products
+          where they worked. Paco lives on Spain and when not working, becames a
+          triathlete aficionado or a chef expert on cheesecakes or he brews his own beer.
+
 - name: L.B.
   locality:
   country:
@@ -1140,17 +1155,6 @@
   country:
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: VP of Engineering
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
-  story:  |
-          Joining June 1st
-
-- name: F.G.
-  locality:
-  country:
-  role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
