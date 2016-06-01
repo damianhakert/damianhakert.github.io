@@ -12,10 +12,24 @@ your trip. However, the extra days will not be covered by the company.
 
 ## Specific Topics Relating to Egencia and Expenses
 
+- [Arranging a visa for travel](#arrange-visa)
+- [Tips and Tricks for visa arrangements](#visa-tips)
 - [Setting up your Egencia account](#setup-egencia)  
 - [Booking travel through Egencia](#egencia)  
 - [Expenses while traveling](#expenses-while-traveling)
 
+
+### Arranging a visa for travel <a name="arrange-visa"></a>
+In some cases when traveling to a conference or summit you might need to arrange a visa to enter that specific country.
+Always check the website of the Embassy of the Country you want to visit located in your home country. They will have the most updated information on wether or not you need a visa and what is needed for your application. In some instances you can travel under a visa waiver program (e.g. ESTA) in other you might need to arrange a tourist or business visa. Read their website carefully and ask People Ops if you need any help with acquiring the needed documents for your application.
+
+#### Tips & Tricks for visa arrangements <a name="visa-tips"></a>
+- Make sure to start in time with your arrangements for a visa. It can take up to 3-4 months to acquire a visa.
+- Check if your passport is still valid long enough
+- Give priority to arranging your visa, it can take time to get an appointment to apply at the Embassy.
+- Double check if you have all needed document and information. Ask People Ops to help you check this if you like.
+- Think of the answers you will give during your visa interview; it can influence your visa approval/denial.
+- Once the dates for a conference or summit are set start asap with your application if you have needed a special visa in previous situations, just to give yourself enough time and room for errors if they arrise.
 
 ### Setting up your Egencia account<a name="setup-egencia"></a>
 

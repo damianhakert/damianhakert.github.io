@@ -9,8 +9,8 @@
       .blog-entry
         %h4.date
           = partial "includes/blog/author", locals: {post: current_page}
-          - if current_page.data.date
-            = current_page.data.date.to_time.strftime '%b %e, %Y'
+          - if is_blog_article?
+            = current_article.date.to_time.strftime '%b %e, %Y'
         = yield
         = partial "includes/download"
         %hr
