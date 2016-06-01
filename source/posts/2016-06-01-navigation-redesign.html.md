@@ -17,9 +17,19 @@ So I and Andriy (our UX designer) decided to do something with it.
 <!--more-->
 
 It started one day when we both agreed that we are not satisfied with current UI.
-I even made a messy screenshot with project page navigation: 
+I even made a messy screenshot with project page navigation to describe my confusion: 
 
-![SCREENSHOT HERE](/images/navigation-redesign/CHANGE_ME.png)
+![SCREENSHOT HERE](/images/navigation-redesign/old-pr-nav.png)
+
+Basically there are several things we did not like: 
+
+* Logically hierarchy of navigation goes from left to right and from top to bottom. 
+But old UI did not follow it.
+* We can not use collapsed sidebar or muscle memory for fast click on links because of 
+dynamic menu with too many items.
+* Its hard to navigate when you come to GitLab via link from other 
+app (like chat or anything) because of context only navigation and not logical hierarchy. 
+
 
 Few days after Andriy made a prototype where project menu was displayed with 
 dashboard navigation. So when you visit one of dashboard pages you see 1 level 
@@ -42,8 +52,13 @@ Global navigation stays in dark left sidebar and is static. No matter what
 page you visit you can always find GitLab logo, your profile picture and main links
 like your projects, issues and profile settings in the left sidebar. 
  
-![SCREENSHOT HERE](/images/navigation-redesign/CHANGE_ME.png)
+![SCREENSHOT HERE](/images/navigation-redesign/nav-exp.png)
 
 Whole page except left sidebar is dynamic area with corresponding navigation and content. 
 If you visit project page - navigation will be on the top and content below it. 
 Same for group page or profile page. 
+
+First we tried it on less popular pages like groups and profiles: 
+
+![SCREENSHOT HERE](/images/navigation-redesign/group-nav.png)
+
