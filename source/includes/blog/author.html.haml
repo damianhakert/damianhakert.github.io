@@ -1,6 +1,7 @@
 - if post.data.author_twitter
   .author
-    = link_to(post.data.author, "https://twitter.com/#{post.data.author_twitter}")
+    %a{href: "https://www.twitter.com/#{post.data.author_twitter}"}
+      = post.data.author
 - else
   .author
     = post.data.author

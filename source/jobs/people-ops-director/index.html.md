@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "VP of People Operations"
+title: "People Operations Director"
 ---
 
 ## Responsibilities

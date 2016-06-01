@@ -13,10 +13,24 @@
 .aws-install-step {
   margin-bottom: 50px;
 
-  p {
+  p:nth-child(1) {
     font-weight: 200;
     font-size: 25px;
+    color: rgba($color-white, .74);
+    line-height: 30px;
+  }
+
+  p:nth-child(2) {
+    font-weight: 600;
+    font-size: 30px;
     color: $color-white;
+    line-height: 37px;
+  }
+
+  p:nth-child(3) {
+    font-weight: 200;
+    font-size: 25px;
+    color: rgba($color-white, .74);
     line-height: 30px;
   }
 }

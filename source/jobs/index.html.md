@@ -49,10 +49,6 @@ If you email us we'll reply with [a link to this paragraph](/jobs/#no-recruiters
 - [Description](/jobs/content-marketing-manager/)
 - [Apply](https://gitlab.workable.com/jobs/252104/candidates/new)
 
-### Director Customer Success
-
-- [Description](/jobs/dir-customer-success/)
-- [Apply](https://gitlab.workable.com/j/566AD7D3C8)
 
 ### Front-End Engineer
 
@@ -69,9 +65,9 @@ If you email us we'll reply with [a link to this paragraph](/jobs/#no-recruiters
 - [Description](/jobs/people-ops-coordinator/)
 - [Apply](https://gitlab.workable.com/jobs/220106/candidates/new)
 
-### VP of People Operations
+### People Operations Director
 
-- [Description](/jobs/vp-of-people-ops/)
+- [Description](/jobs/people-ops-director/)
 - [Apply](https://gitlab.workable.com/jobs/234625/candidates/new)
 
 ### Production Engineer

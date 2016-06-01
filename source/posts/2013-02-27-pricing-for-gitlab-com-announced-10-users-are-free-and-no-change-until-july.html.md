@@ -11,7 +11,7 @@ meta:
   _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:776273100;b:1;}}
   _elasticsearch_indexed_on: '2013-02-27 18:56:53'
 ---
-People wanted to know how much GitLab.com would cost them when we started charging. We are happy to announce we now have a good answer to that question. Our [pricing page](https://www.gitlab.com/gitlab-com/) contains the details. Highlights include:
+People wanted to know how much GitLab.com would cost them when we started charging. We are happy to announce we now have a good answer to that question. Our [pricing page](https://www.gitlab.com/cloud/) contains the details. Highlights include:
 
 - Unlimited private repositories for everyone
 - If you have 10 users or less you pay nothing!

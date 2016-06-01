@@ -39,5 +39,3 @@ the discretion of the manager.
    3. In retrospect, what questions should have been asked? For example, "How
       would you compare yourself relative to your peers?" People are surprisingly
       honest here.
-
-By using this process, letting people go should not be a surprise to the person in question, but it should be a surprise to the company. If a person does need to be let go, follow the [offboarding steps](/handbook/offboarding/).
