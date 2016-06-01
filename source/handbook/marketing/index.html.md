@@ -228,10 +228,11 @@ We use Slack internally as a communication tool. The marketing channels are as f
 - DevRel - A channel for the developer relations team to collaborate.
 - Docs - Technical writing and documentation questions? This is your room.
 - Events - Everything you want to know about events.
+- GitLab Pages - Where we discuss everything related to GitLab Pages.
 - Marketo Users - Having issues with Marketo? Ask here first.
 - Newsletters - Watch our twice monthly newsletter get made here.
 - Social - Twitter, Facebook, and other social media questions?
-- Webcasts - Watch the webcast behind the scenes.  
+- Webcasts - Watch the webcast behind the scenes.
 
 # Marketing Handbook Updates<a name="handbook"></a>
 
