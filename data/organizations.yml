@@ -8,15 +8,15 @@
   logo: /images/organizations/logo_1e.svg
 - name: Alibaba
   logo: /images/organizations/logo_1f.svg
-- name: SpaceX
-  logo: /images/organizations/logo_2a.svg
 - name: Ing
   logo: /images/organizations/logo_2b.svg
+- name: Bayer
+  logo: /images/organizations/logo_2a.svg
 - name: Sony
   logo: /images/organizations/logo_2c.svg
 - name: Freddie Mac
   logo: /images/organizations/logo_2d.svg
-- name: Pitney Bowes
+- name: Nasdaq
   logo: /images/organizations/logo_2e.svg
 - name: Cern
   logo: /images/organizations/logo_2f.svg
@@ -34,11 +34,15 @@
   logo: /images/organizations/logo_4a.svg
 - name: VMWare
   logo: /images/organizations/logo_4b.svg
-- name: Lockhead Martin
-  logo: /images/organizations/logo_4c.svg
 - name: Uber
   logo: /images/organizations/logo_4d.svg
+- name: Lockhead Martin
+  logo: /images/organizations/logo_4c.svg
 - name: Verizon
   logo: /images/organizations/logo_4e.svg
 - name: USAA
   logo: /images/organizations/logo_4f.svg
+- name: AVG
+  logo: /images/organizations/logo_1c.svg
+- name: Nomura
+  logo: /images/organizations/logo_1a.svg
