@@ -5,7 +5,7 @@ date: 2016-06-01 08:00
 comments: true
 author: Emily Kyle
 author_twitter: emilylucie
-image_title: '/images/blogimages/.jpg'
+image_title: '/images/blogimages/SHU_4933.jpg'
 ---
 
 If you have been following along last month the entire GitLab team met, many for the first time, in Austin, TX. The trip was a great success. We were able to fit in work, OSCON, fun, and lots of BBQ. 
@@ -46,7 +46,7 @@ We'd love to meet you.
 [Felipe]: https://twitter.com/juanpintoduran
 [Emily]: https://twitter.com/emilylucie
 [Ivan]: https://twitter.com/inemation
-[Haydn] : https://twitter.com/haydnmackay
-[John] : https://twitter.com/northrup
-[Eliran] : https://twitter.com/eliran_mesika
-[Mark] : https://twitter.com/MarkPundsack
+[Haydn]: https://twitter.com/haydnmackay
+[John]: https://twitter.com/northrup
+[Eliran]: https://twitter.com/eliran_mesika
+[Mark]: https://twitter.com/MarkPundsack
