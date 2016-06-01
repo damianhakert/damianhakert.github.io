@@ -101,7 +101,7 @@ to the proper shared Vaults by making a suggestion in the relevant cell in the "
 * [ ] People Ops: [Invite to autoconnect](https://about.gitlab.com/handbook/people-operations/#add-beamy) on [Beamy](https://about.gitlab.com/handbook/#beamy-guidelines).
 * [ ] People Ops: Order [business cards](https://about.gitlab.com/handbook/people-operations/#b-cards) for new team member.
 * [ ] People Ops: [Add team member](https://about.gitlab.com/handbook/people-operations/#add-expensify) to Expensify (if employee).
-* [ ] People Ops: Add new team member to the info sheets of the Austin Summit.
+* [ ] People Ops: Add new team member to the info sheets of the next Summit if applies.
 * [ ] People Ops: [Create a profile](https://about.gitlab.com/handbook/people-operations/#add-egencia) on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
 * [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team.
    * [ ] 1. call with ___
@@ -119,7 +119,7 @@ to the proper shared Vaults by making a suggestion in the relevant cell in the "
 * [ ] Amara: Send out or schedule a tweet about the new hire when the addition to the team page has been merged. Make screenshot of the profile and include that in the tweet.
 * [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing).
 * [ ] New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
-* [ ] New team member: Read the [Summit page](https://gitlab.com/summits/Austin-Summit-2016-project/) and save the date!
+* [ ] New team member: Check if there is a coming [Summit](https://gitlab.com/summits/) and save the date!
 * [ ] New team member: Make an improvement to the handbook (something that you wished was there), assign the merge request (MR) to your manager and link the MR url in this onboarding issue.
 
 
