@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SSGs Part 1: Static vs Dynamic Websites" # any ideas for a better title?
-date: 2016-04-20 20:00:00 # to be replaced
+date: 2016-06-03 10:00:00
 comments: true
 categories: technical overview
 author: Marcia Ramos
@@ -9,19 +9,19 @@ author_twitter: virtuacreative
 image_title: '/images/blogimages/ssg-gitlab-pages-series/part-1-static-x-dynamic-cover.jpg'
 ---
 
-What is the difference between **static** and **dynamic** websites? What are the advantages of one over another? Which ones can I use **GitLab Pages**? What about Static Site Generators?
+What is the difference between **static** and **dynamic** websites? What are the advantages of one over another? Which ones can I use **GitLab Pages**? What about **Static Site Generators**?
 
 If these questions ring a bell, this **series of posts** is for you! We are preparing three articles around the same theme "**Static Site Generators (SSGs)**".
 
-This is the **Part 1: Dynamic x Static Websites**, where we go over their differences, pros and cons. 
+This is the **Part 1: Dynamic x Static Websites**, where we go over their differences, pros and cons.
 
-Stay tunned for the next two posts:
+Stay tuned for the next two posts:
 
 - **Part 2: Modern Static Site Generators**
 - **Part 3: Build any SSG site with GitLab Pages**
 
-_For this series, we assume you are familiar with web development, and curious about 
-Static Site Generators._
+**Note:** For this series, we assume you are familiar with web development, curious about Static Site Generators, and excited to see your site getting deployed with GitLab Pages.
+{: .note}
 
 <!-- more -->
 
@@ -37,38 +37,28 @@ Static Site Generators._
 
 ## Static and Dynamic Websites
 
+### Premises
+
+Static websites are a combination of HTML markup (the text we see written on web pages), CSS (Cascading Style Sheets), which are the styles and layouts applied to that pages, and JavaScript, a programing language that defines their behavior (e.g., fade in and fade out). These pages are stored as simple files in web servers. When we type in our browsers the URL for a web page like that, our browser (called _client_) is making an _HTTP request_ to that server, which identifies which files are being requested, and send them back to our browsers via "HTTP response".
+
+Dynamic websites are more complicated than that. Besides the markup, the styles and the behavior, they do more things that our **browsers** can identify. For example, if you are buying something online, it's easy to understand that the prices and the availability of that item are _dynamically_ recovered from some data, generally stored in _databases_. This process of recovering data and processing it _before_ responding to our browsers as web pages containing that information, is called _server-side_ processing.
+
+Now let's take a better look into these processes to be able to understand how those things work, how important they are, and why is this information useful for us. How about starting from the beginning?
+
 ### A glance at the history
 
-About 25 years ago, in 1990, [Tim Berners-Lee][tim-bl] [published][first-site-1990] 
-the [first website in history][first-website]. It was a plain [static webpage] 
-with a few tags and links. Three years later, in 1993, the birth of the [dynamic web] 
-took place, when the [Common Gateway Interface (CGI)][wiki-cgi] was [first introduced][first-cgi]. 
-CGI was a way to let a website run scripts on the web server and display the output. 
+About 25 years ago, in 1990, [Tim Berners-Lee][tim-bl] [published][first-site-1990] the [first website in history][first-website]. It was a plain [static webpage] with a few tags and links. Three years later, in 1993, the birth of the [dynamic web] took place, when the [Common Gateway Interface (CGI)][wiki-cgi] was [first introduced][first-cgi]. CGI was a way to let a website run scripts on the web server and display the output. 
 From then on, the evolution was huge.
 
-With the advent of processing server-side scripts, 
-came forward the [Web Content Management Systems (WCMS)][wcms], allowing us to 
-create and maintain databases connected to the internet. Websites with such server-side processing, 
-which provide high-level interactivity with the user, are commonly referred as [web applications][web-apps]. 
-Some notable examples are [WordPress], [Joomla!], [Drupal], [Magento], [Ghost], and [many others][cms-list].
+With the advent of processing server-side scripts, came forward the [Web Content Management Systems (WCMS)][wcms], allowing us to create and maintain databases connected to the internet. Websites with such server-side processing, which provide high-level interactivity with the user, are commonly referred as [web applications][web-apps]. Some notable examples are [WordPress], [Joomla!], [Drupal], [Magento], [Ghost], and [many others][cms-list].
 
-Besides connecting websites with databases, the dynamic web is an important 
-asset to work with [template systems][template-sys]. By using them, developers write fast, update websites faster, 
-and reduce mistakes (provoked by repetition).
+Besides connecting websites with databases, the dynamic web is an important asset to work with [template systems][template-sys]. By using them, developers write fast, update websites faster, and reduce mistakes (provoked by repetition).
 
-Unfortunately, with the growing popularity of server-side based websites, came together 
-their [vulnerabilities][common-vulnerabilities].  [Security issues] are common among them, 
-and there are a lot of [measures][security-web-apps] we need to take to prevent attacks of uncountable natures. 
-We need to protect our users, our site, and our server. Everything in between is subjected to hackers attacks.
+Unfortunately, with the growing popularity of server-side based websites, came together their [vulnerabilities][common-vulnerabilities]. [Security issues] are common among them, and there are a lot of [measures][security-web-apps] we need to take to prevent attacks of uncountable natures. We need to protect our users, our site, and our server. Everything in between is subjected to hackers attacks.
 
-An intelligent counter-measure for avoiding those security threads and, at the same time, 
-maintaining the benefits of templating systems, was the creation of **Static Site Generators (SSGs)**. 
-With them, we write dynamically and publish statically.
+An intelligent counter-measure for avoiding those security threads and, at the same time, maintaining the benefits of templating systems, was the creation of **Static Site Generators (SSGs)**. With them, we write dynamically and publish statically.
 
-SSGs came out on the early 2000's, with [Blosxom] in 2003, and [WebGen] in 2004. 
-In 2008, [Tom Preston-Werner][tom-pw] released [Jekyll], by far the [most popular SSG][ssgs-list] up to now. 
-The interest for Static Site Generators have increased considerably in the last few years, as you can see at 
-the chart below, from [Google Trends]:
+SSGs came out on the early 2000's, with [Blosxom] in 2003, and [WebGen] in 2004. In 2008, [Tom Preston-Werner][tom-pw] released [Jekyll], by far the [most popular SSG][ssgs-list] up to now. The interest for Static Site Generators have increased considerably in the last few years, as you can see at the chart below, from [Google Trends]:
 
 ![Static Site Generators - Google Trends](/images/blogimages/ssg-gitlab-pages-series/part-1-ssg-google-trends.png)
 
@@ -76,7 +66,7 @@ the chart below, from [Google Trends]:
 
 Let's take a look at the image below and see [how static pages and dynamic pages][static-x-dynamic-video] communicate with the web server.
 
-**Web server** software, such as [Apache], [NGINX], and [IIS], are able to store and read static files only: HTML, CSS and JavaScript. **Application server** software, as [PHP], [Cold Fusion] or [ASP.NET], are the only ones able to interpret dynamic scripting. 
+**Web server** software, such as [Apache], [NGINX], and [IIS], are able to store and read static files only: HTML, CSS and JavaScript. **Application server** software, as [PHP], [Cold Fusion] or [ASP.NET], are the only ones able to interpret dynamic scripting.
 
 Every browser (known as _client_) communicates with **web servers only**, via HTTP _(Hiper Text Transfer Protocol)_, with an URL _(Uniform Resource Locator)_.
 
@@ -94,17 +84,17 @@ Server resources are also affected by dynamic websites, as the content of that w
 
 There's another main advantage of static over dynamic sites. Static pages don't process user data, circumventing a major security issue related to dynamic web applications: user privacy. If the users don't send any data to your server, there is no data to be stolen.
 
-## Windup
+## Conclusions
 
 Fully-featured server providers (Scheme B) have the capability of processing server-side scripts. With them, you can process your web application. Their structure is more complex and naturally more expensive. Static web servers (Scheme A), which only handle static pages, can be maintained with less cost. [GitLab Pages][pages] server hosts your site for **free**.
 
 The majority of web developers don't write static sites anymore. It does take a lot more time, both to write and update, than dynamic ones. But, as previously commented, SSGs resolve this problem. We can code dynamically and the SSG outputs only static webpages for us. That's the content uploaded to our web server, in this particular case, **GitLab Pages**, which runs on NGINX.
 
-Stay tunned for the next article of this series, in which we will provide you with an overview on **Modern Static Site Generators**.
+Stay tuned for the next article of this series, in which we will provide you with an overview on **Modern Static Site Generators**, explaining how they work, what they support, and why should we really consider using SSGs for our sites.
 
 See you there!
 
-Don't you have an account on [GitLab.com][sign-up] yet? Let's create one! 
+Don't you have an account on [GitLab.com][sign-up] yet? Let's create one!
 
 Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 
