@@ -265,12 +265,12 @@ out to any of the other C-level team members or our board member Bruce Armstrong
 1. Give the community the **chance to help**. For example: place issues on the feedback tracker, leave comments in rake check tests about what you can run manually and ask 'Can you send a merge request to fix this?'.
 1. Submit the **smallest** item of work that makes sense. When creating an issue describe the smallest fix possible, put suggestions for enhancements in separate issues and link them. If you're new to GitLab and are writing documentation or instructions submit your first merge request for at most 20 lines.
 1. Do not leave issues open for a long time, issues should be **actionable** and realistic. If you are assigned but don't have time, assign it to someone else. If nobody is assigned and it is not a priority, please ensure the community can help and close it.
-1. Make a conscious effort to **prioritize**<a name="prioritize"></a> your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc. The priority starting from urgent is:
+1. Make a conscious effort to **prioritize**<a name="prioritize"></a> your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc. The priority starting with the most urgent is:
     1. @mentions from team members and the rest of the community
     1. Issues assigned to the upcoming milestone
     1. Issues assigned to future milestones
     1. Issues not assigned to a milestone
-1. Within the same milestone the priority<a name="priority"></a> starting from the most urgent is:
+1. Within the same milestone the priority<a name="priority"></a> starting with the most urgent is:
     1. **Emergency** issues (a service engineer will probably contact you via chat)
     1. [**Direction**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=direction) issues that were explicitly assigned to you, and are your main focus for this release
     1. [**Security**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=security) issues (MRs for confidential security issues should be created on [dev.gitlab.org](https://dev.gitlab.org/gitlab/gitlabhq))
@@ -280,6 +280,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
     1. [**Direction**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=direction) issues (listed on [the direction page](https://about.gitlab.com/direction/))
     1. [**Customer**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=customer) issues that haven't explicitly been promised
     1. [**Bug**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=bug) issues (things that are broken)
+    1. [**Technical debt**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=technical+debt) issues (things that need improvement and have been left behind due to the high velocity of development)
     1. [Issues](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming) without any of the priority labels listed above
 1. Use the public issue trackers on GitLab.com for anything related to our software since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
 1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [infrastructure](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues.
