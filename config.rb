@@ -74,6 +74,13 @@ helpers do
   def markdown(text)
     Tilt['markdown'].new { text }.render
   end
+
+  def job_for_current_page
+    data.jobs.detect do |job|
+      job.open &&
+      job.description.start_with?("/#{File.dirname(current_page.request_path)}")
+    end
+  end
 end
 
 # Build-specific configuration
