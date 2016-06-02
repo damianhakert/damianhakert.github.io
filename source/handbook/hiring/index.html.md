@@ -54,7 +54,7 @@ We're hiring production engineers, developers, UX designers , and more. https://
 
 ### General points about moving applicants through the process
 
-**Inform applicants** about what stage they are in, and what stage they may move to next. So for example, if in the hiring process for the particular position / team you've agreed that there will be 4 stages (e.g. a screening call, technical interview, non-team "fit" interview, and then C-level interview), make sure to inform the applicant of this during each call / stage: "You are in stage X, and will be moving to stage Y". The process can differ from team to team, and from position to position.
+**Inform applicants** about what stage they are in, and what stage they may move to next. So for example, if in the hiring process for the particular position / team you've agreed that there will be 4 stages, make sure to inform the applicant of this during each call / stage: "You are in stage X, and will be moving to stage Y". The process can differ from team to team, and from position to position.
 
 If you have decided to let the applicant move on to the next interview, feel free to send the next interviewer's Calendly link to the applicant. This saves the time that it would otherwise take for the next interviewer to get around to sending the link, and it thus works in everyone's benefit.
 
