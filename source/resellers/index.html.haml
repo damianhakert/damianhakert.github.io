@@ -1,6 +1,8 @@
 ---
 title: GitLab Resellers
 suppress_header: true
+extra_js:
+  - libs/salvattore.min.js
 ---
 
 .reseller-hero.text-center
@@ -10,7 +12,7 @@ suppress_header: true
     %p
       At GitLab, we value your success, and we know sometimes that means getting local help or help with special expertise. We have chosen these organizations carefully, enabled them to help you, and have authorised them to resell our products and services in your market.
 .container
-  %ul.list-unstyled.resellers-list
+  %ul.list-unstyled.resellers-list.clearfix{ data: { columns: true } }
     - data.resellers.each do |reseller|
       = partial "reseller", locals: { reseller: reseller }
     %li.animated.reseller-item.reseller-you
