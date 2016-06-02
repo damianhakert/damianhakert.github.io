@@ -1,0 +1,31 @@
+%li.animated.reseller-item
+  = image_tag reseller.image, class: "img-responsive center-block reseller-image"
+  .reseller-content
+    = markdown reseller.content
+  .text-center.reseller-contact-title
+    %small Get in touch with
+    %h2
+      = reseller.name
+  %ul.text-center.list-unstyled.reseller-contact
+    - if reseller.email
+      %li
+        %a.reseller-email-link{ href: "mailto:#{reseller.email}" }
+          = reseller.email
+    - reseller.contact.each do |contact|
+      %li
+        - if contact.address
+          %p.reseller-contact-details
+            = contact.address
+        - if contact.phone
+          %p.reseller-contact-details
+            = contact.phone
+        - if contact.website
+          %p.reseller-contact-details
+            %a{ href: contact.website }= contact.website
+    - if reseller.social
+      %li.reseller-social
+        - reseller.social.each do |social|
+          %a.inline{ href: social.url }
+            %span.sr-only
+              = social.type
+            %i.fa{ class: "fa-#{social.type}" }

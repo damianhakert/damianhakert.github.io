@@ -1,0 +1,26 @@
+---
+title: GitLab Resellers
+suppress_header: true
+extra_js:
+  - libs/salvattore.min.js
+---
+
+.reseller-hero.text-center
+  .container
+    %h1
+      Meet our Authorised Resellers
+    %p
+      At GitLab, we value your success, and we know sometimes that means getting local help or help with special expertise. We have chosen these organizations carefully, enabled them to help you, and have authorised them to resell our products and services in your market.
+.container
+  %ul.list-unstyled.resellers-list.clearfix{ data: { columns: true } }
+    - data.resellers.each do |reseller|
+      = partial "reseller", locals: { reseller: reseller }
+    %li.animated.reseller-item.reseller-you
+      %h3.reseller-you-title.text-center
+        Your Company?
+      = image_tag "/images/resellers/logo.svg", class: "img-responsive center-block reseller-image reseller-image-gitlab"
+      .reseller-content.last
+        :markdown
+          GitLab is looking for quality organizations from around the globe with a passion for the development process and open source software to help our customers succeed.
+
+          Contact [partners@GitLab.com](partners@GitLab.com)
