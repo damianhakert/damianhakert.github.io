@@ -22,6 +22,8 @@ Change all creative work from read-only to read-write so that **everyone can con
 
 ## How
 
+Everyone can contribute to digital products with GitLab, to GitLab itself, and to our organization.
+
 1. To ensure that **everyone can contribute to digital products** we make GitLab joyful to use. It is integrated and opinionated collaboration software. Because there is no need to string together multiple tools you spend less time, have less frustration, there is less [bikeshedding](https://en.wikipedia.org/wiki/Law_of_triviality), and you get more results.
 
 2. To ensure that **everyone can contribute with GitLab** every person in the world should be able to afford it and adapt it. GitLab CE and GitLab.com are both [free as in beer](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/) so everyone can afford it. GitLab.com comes with free private repos and CI runners, so you don't even have to host it yourself. People should be able to adapt GitLab to fit their needs. That is why GitLab CE is also [free as in speech](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/); we distribute the source and use [MIT Expat license](https://www.debian.org/legal/licenses/mit). But open source is more than a license, that is why we actively help our competitor Perforce to ship GitLab as part of Perforce Helix, and are [a good steward of GitLab CE](https://about.gitlab.com/about/#stewardship). And we keep all our software open to inspection, modifications, enhancements, and suggestions.
@@ -29,7 +31,6 @@ Change all creative work from read-only to read-write so that **everyone can con
 3. To ensure that **everyone can contribute to GitLab itself** we actively welcome contributors. We do this by having quality code, tests, documentation, using popular frameworks, and offering a comprehensive [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit). We use GitLab at GitLab Inc., to drink our own wine and make it a tool we continue to love. We celebrate contributions by recognizing a Most Valuable Person (MVP) every month. We allow everyone to anticipate, propose, discuss, and contribute features by having everything on a public issue tracker. We ship a new version every month so contributions and feedback are visible fast. To contribute to open source software people must be empowered to learn programming. That is why we sponsor initiatives such as Rails Girls and [Lean Poker](http://leanpoker.org).
 
 4. To ensure that **everyone can contribute to our organization** we have open business processes that allow all team members to suggest improvements to our handbook. We hire remotely so everyone with an internet connection can come work for us and be judged on results, not presence in the office. We offer equal opportunity for every nationality. We are agnostic to location and create more equality of opportunity in the world. We engage on Hacker News, Twitter, and our blog post comments. And we strive to take decisions guided by [our values](https://about.gitlab.com/handbook/#values).
-
 
 ## Goals
 
@@ -47,15 +48,15 @@ Change all creative work from read-only to read-write so that **everyone can con
 
 We want to achieve our goals in the following order:
 
-1. Continue to be the most popular software development lifecycle solution
+1. In 2015 we became the most popular on on-premises software development lifecycle solution and we want to continue that.
 
-2. Become the most revenue generating on-premises software development lifecycle solution
+2. We want to become the most revenue generating on-premises software development lifecycle solution
 
-3. Become the most popular SaaS solution for private repositories (a [complete product](https://about.gitlab.com/direction/#scope) that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever) is competitive since network effects are smaller for private repositories than for public ones)
+3. After on-premises we want to become the most popular SaaS solution for private repositories (a [complete product](https://about.gitlab.com/direction/#scope) that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever) is competitive since network effects are smaller for private repositories than for public ones)
 
-4. Become the most popular SaaS solution for public repositories (easier to overcome network effects if people already use GitLab.com for private repositories)
+4. After private repositories we want to become the most popular SaaS solution for public repositories. This market has a [strong network effect](https://en.wikipedia.org/wiki/Network_effect) since more people will participate if you host your public project on a site with more people. It is easier to overcome this network effect if many people already use GitLab.com for hosting private repositories.
 
-5. [BHAG:](https://en.wikipedia.org/wiki/Big_Hairy_Audacious_Goal) Become the most popular collaboration tool for knowledge workers in any industry (need to make the git workflow much more user friendly)
+5. Our [BHAG](https://en.wikipedia.org/wiki/Big_Hairy_Audacious_Goal) is to become the most popular collaboration tool for knowledge workers in any industry. For this we need to make the git workflow much more user friendly. The great thing is that sites like [Penflip](https://www.penflip.com/) are already building on GitLab to make it
 
 While we achieve our goals one by one this doesn't mean we can will focus on only one goal at the time. Simultaniously we'll grow our userbase, get more subscribers for [EE](https://about.gitlab.com/features/#enterprise), grow [GitLab.com](https://about.gitlab.com/gitlab-com/), develop [options](https://about.gitlab.com/pricing/#options), realize our [scope](https://about.gitlab.com/direction/#scope), and make version control usable for more types of work.
 
@@ -214,7 +215,7 @@ community engagement.
 
 4. [Continuous Deployment of master to GitLab.com via packages.](https://gitlab.com/gitlab-com/operations/issues/146)
 
-5. Solutions for performance measurement, logs, including tools for alerting when something goes wrong, that ship with EE.  
+5. Solutions for performance measurement, logs, including tools for alerting when something goes wrong, that ship with EE.
 
 ## Partnerships 2016
 

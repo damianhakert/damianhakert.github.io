@@ -25,7 +25,7 @@ title: Support
    - [Disqus from blog posts](#disqus)
    - [Twitter](#twitter)
    - [Posted Issues](#issue-tracker)
-   - [GitLab.com Support Forum](#supp-forum)
+   - [GitLab.com Support Tracker](#supp-forum)
    - [Facebook](#facebook)
    - [CE/EE/Omnibus Issue Trackers](#product-issue-tracker)
    - [Mailing List](#mailing-list)
@@ -34,6 +34,7 @@ title: Support
    - [Reddit](#reddit)
    - [Quora](#quora)
 - [Non Channel Work](#other)
+- [Code of Contact](#coc)
 
 ## Support Direction <a name="support-direction"></a>
 
@@ -296,6 +297,10 @@ of GitLab.com and to follow up on users reporting that GitLab.com is unavailable
 
 When a tweet mentions 1 or more of the handles described above, it should be replied to from the main handle (@GitLab).
 
+Tweets use short links which require you to visit that link to make sure you understand the context.
+To clarify if the request refers to GitLab or an externally hosted GitLab instance as we can only
+handle requests for gitlab.com.
+
 When resolving Twitter tickets you should:
 
 1. Start by the oldest ticket first
@@ -313,10 +318,10 @@ Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed
 For ZenDesk issues you will have created issues on the relevant issue tracker.
 Please refer to the priority as listed under [GitLab Workflow in the handbook](/handbook/#gitlab-workflow).
 
-### GitLab.com Support Forum<a name="supp-forum"></a>
+### GitLab.com Support Tracker<a name="supp-forum"></a>
 
 For issues specific to GitLab.com that have nothing to do with availability we have the
-[Support Forum](https://gitlab.com/gitlab-com/support-forum/issues). This forum must also be checked periodically
+[Support Tracker](https://gitlab.com/gitlab-com/support-forum/issues). This forum must also be checked periodically
 for new issues and to report back if an issue has been solved. Ensure that you assign the issue to yourself to enable you to keep track of the issue and also to enable other service engineers to easily pick on unassigned tasks at a glance. Some people use this forum to report issues they
 are having with their on-premises installation. In that case, you should refer them to the
 [CE issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) or to our
@@ -359,3 +364,21 @@ Respond to questions about GitLab on Quora, especially the ones that appear in t
 
 If you have time for it please improve GitLab: fix bugs, add features, and polish the website.
 You can also consider hanging out on IRC to answer questions and help people (#gitlab on freenode.net).
+
+## Code of Conduct<a name="coc"></a>
+
+Just as service engineers are expected to adhere to the [Code of
+Conduct](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#code-of-conduct), we
+also expect customers to treat service engineers with the same level of respect.
+
+If you receive threatening or hostile emails from a user, please create a
+confidential issue in the [GitLab Support Issue Tracker](https://gitlab.com/gitlab-com/support/issues)
+and include:
+
+1. A history of the user's communication
+1. Relevant links
+1. Summary of the high-level issues
+
+Include the Support Lead, VP of Engineering, and Director of PeopleOps in this issue. Together we will
+evaluate on a case-by-case basis whether to take action (e.g. ban the user from the forums
+for violating the Code of Conduct).

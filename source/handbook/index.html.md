@@ -15,7 +15,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Benefits](/handbook/benefits)
 * [Hiring](/handbook/hiring)
 * [Travel](/handbook/travel)
-* [Sales process](/handbook/sales-process)
+* [Sales Handbook](/handbook/sales)
 * [Infrastructure](/handbook/infrastructure)
 * [Accounting](/handbook/accounting)
 * [Stock Options](/handbook/stock-options)
@@ -99,7 +99,7 @@ feedback always provide at least one clear and recent example. If a person is
 going through a hard time in their personal life, then take that into account. An example of
 giving positive feedback is our [thanks chat channel](https://about.gitlab.com/handbook/#internal-communication).
 1. Diversity: The community consists of people from all over the world, with different
-backgrounds and opinions. Make everyone feel welcome. Work to increase the participation
+backgrounds and opinions. Encourage hiring in a diverse set of countries. Make everyone feel welcome. Work to increase the participation
 of underrepresented minorities and nationalities in our community and company. An
 example is our sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
 1. Boring solutions: Use the most simple and boring solution for a problem. You
@@ -265,21 +265,23 @@ out to any of the other C-level team members or our board member Bruce Armstrong
 1. Give the community the **chance to help**. For example: place issues on the feedback tracker, leave comments in rake check tests about what you can run manually and ask 'Can you send a merge request to fix this?'.
 1. Submit the **smallest** item of work that makes sense. When creating an issue describe the smallest fix possible, put suggestions for enhancements in separate issues and link them. If you're new to GitLab and are writing documentation or instructions submit your first merge request for at most 20 lines.
 1. Do not leave issues open for a long time, issues should be **actionable** and realistic. If you are assigned but don't have time, assign it to someone else. If nobody is assigned and it is not a priority, please ensure the community can help and close it.
-1. Make a conscious effort to **prioritize**<a name="prioritize"></a> your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc. The priority starting from urgent is:
+1. Make a conscious effort to **prioritize**<a name="prioritize"></a> your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc. The priority starting with the most urgent is:
     1. @mentions from team members and the rest of the community
     1. Issues assigned to the upcoming milestone
     1. Issues assigned to future milestones
     1. Issues not assigned to a milestone
-1. Within the same milestone the priority<a name="priority"></a> starting from urgent is:
+1. Within the same milestone the priority<a name="priority"></a> starting with the most urgent is:
     1. **Emergency** issues (a service engineer will probably contact you via chat)
+    1. [**Direction**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=direction) issues that were explicitly assigned to you, and are your main focus for this release
     1. [**Security**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=security) issues (MRs for confidential security issues should be created on [dev.gitlab.org](https://dev.gitlab.org/gitlab/gitlabhq))
     1. [**Data integrity**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=data+integrity) issues (preventing data loss)
-    1. [**Regression**](https://gitlab.com/groups/gitlab-org/issues?label_name=regression) issues (used to work in a previous release)
-    1. [**Promised**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=promised) issues (promised to a customer)
-    1. Other [**customer**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=customer) issues
+    1. [**Regression**](https://gitlab.com/groups/gitlab-org/issues?label_name[]=regression) issues (used to work in the previous major release)
+    1. [**Promised**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=promised) customer issues
     1. [**Direction**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=direction) issues (listed on [the direction page](https://about.gitlab.com/direction/))
-    1. [**Bug**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=bug) issues (things)
-    1. [Issues](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming) without a label listed above.
+    1. [**Customer**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=customer) issues that haven't explicitly been promised
+    1. [**Bug**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=bug) issues (things that are broken)
+    1. [**Technical debt**](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming&label_name[]=technical+debt) issues (things that need improvement and have been left behind due to the high velocity of development)
+    1. [Issues](https://gitlab.com/groups/gitlab-org/issues?milestone_title=%23upcoming) without any of the priority labels listed above
 1. Use the public issue trackers on GitLab.com for anything related to our software since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
 1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [infrastructure](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues.
 1. Pick issues from the current [milestone](https://gitlab.com/groups/gitlab-org/milestones).
@@ -308,7 +310,7 @@ step, **re-assign** the issue to that person.
 
 1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
 1. We use Blue Jeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
-1. If you have previously logged on to Blue Jeans with different credentials, make sure to log out before joining the call as yourself.
+1. If you have previously logged on to Blue Jeans with different credentials, make sure to log out before joining the call as yourself. You don't need a Blue Jeans account to join the team call.
 1. We start on time and will not wait for people.
 1. Person who has first item on the agenda starts the call.
 1. If you are unable to attend just add your name to the [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) as 'Not attending'.
@@ -611,12 +613,9 @@ Use space for page down instead of fn+up arrow.
 
 ### Disabling OS X Notification Center
 
-During a presentation or screen share, you might want to disable your
-notifications on OS X to prevent distractions or possible embarrassment.
+During a presentation or screen share, you might want to disable your notifications on OS X to prevent distractions or possible embarrassment.
 
-The Notification Center can be quickly disabled by Option-Clicking the menu bar
-icon in the top right of your screen. This disables notifications until the next
-day. Option-Click again to re-enable immediately.
+The Notification Center can be quickly disabled by Option-Clicking the menu bar icon in the top right of your screen. This disables notifications until the next day. Option-Click again to re-enable immediately. Alternatively, click on the Notification Center icon, then scroll _up_ to reveal the "Do Not Disturb" toggle.
 
 ### Google Calendar Guest Modify Event Default
 
@@ -699,25 +698,30 @@ If you install [MobileDay](https://mobileday.com/) on your phone and give it acc
 
 ## Using Git to update this website<a name="starting-with-git"></a>
 
-### Start using GitLab
+This is a guide on what you'll need to install and run on your machine to get
+Git up and running so you can create your first MR in minutes! Follow the
+numbered steps below to complete your setup.
 
-1. Follow the step-by-step guides on the [basics of working with Git and GitLab](http://doc.gitlab.com/ce/gitlab-basics/README.html).
-1. You will need to [create your SSH Keys](http://doc.gitlab.com/ce/gitlab-basics/create-your-ssh-keys.html).
+### 1. Start using GitLab
 
-### Install Git
+1. Here's where you can find step-by-step guides on the [basics of working with Git and GitLab](http://doc.gitlab.com/ce/gitlab-basics/README.html). You'll need those later.
+1. Create your [SSH Keys](http://doc.gitlab.com/ce/gitlab-basics/create-your-ssh-keys.html).
+
+### 2. Install Git
 
 1. Open a terminal.
 1. Check your Git version by executing: `git --version`.
-1. If Git is not installed, you should be prompted to install it.
+1. If Git is not installed, you should be prompted to install it. Follow this [guide](http://docs.gitlab.com/ce/gitlab-basics/start-using-git.html) to installing Git and
+linking your account to Git.
 
-### Install RVM
+### 3. Install RVM
 
 1. Visit [https://rvm.io](https://rvm.io/).
 1. In a terminal, execute: `curl -sSL https://get.rvm.io | bash -s stable`.
 1. Close terminal.
 1. Open a new terminal to load the new environment.
 
-### Install Ruby and Bundler
+### 4. Install Ruby and Bundler
 
 1. In a terminal, execute: `rvm install 2.2.1` to install Ruby
    (enter your system password if prompted).
@@ -726,30 +730,33 @@ If you install [MobileDay](https://mobileday.com/) on your phone and give it acc
    `ruby 2.2.1p85 (2015-02-26 revision 49769)`.
 1. Execute: `gem install bundler` to install [Bundler](http://bundler.io/).
 
-### Clone the source of the website and install its dependencies
+### 5. Clone the source of the website and install its dependencies
 
 1. In a terminal execute: `git clone https://gitlab.com/gitlab-com/www-gitlab-com.git`
    to clone the website.
 1. Execute: `cd www-gitlab-com` to change to the `www-gitlab-com` directory.
 1. Execute: `bundle install` to install all gem dependencies.
 
-### Prevent newlines from causing all following lines in a file to be tagged as changed
+### 6. Prevent newlines from causing all following lines in a file to be tagged as changed
 
 This is especially a problem for anyone running a Mac OSX operating system. The
-command to 'tame' git is `git config --global core.autocrlf input`
+command to 'tame' git is `git config --global core.autocrlf input` - execute it.
 
-### Read the instructions
+### 7. Read the instructions
 
 Instructions on how to update the website are in the [readme of www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/README.md).
 
-### Preview website changes locally
+
+### Local Checks of Your Changes
+
+#### 1. Preview website changes locally
 
 1. In a terminal, execute: `bundle exec middleman`.
 1. Visit http://localhost:4567 in your browser.
 1. To edit the site locally you'll need to install a text editor. We recommend
    [Sublime Text 2](http://www.sublimetext.com/2) or [Atom](https://atom.io/).
 
-### Test if all URL links in a page are valid
+#### 2. Test if all URL links in a page are valid
 
 Until this is automated in CI, a quick way to see if there are any invalid
 links inside a page is the following.

@@ -11,14 +11,12 @@ title: Security Handbook
    master password.
 1. Use 1Password to [generate strong passwords] for any new accounts.
 1. When signing up for a new service ask yourself which team members you need to
-   **share access** with. If the service has a built-in way of creating other
-   user accounts, use that and keep your credentials to yourself by storing them in 'Your Vault'.
-   If not, then store your credentials in an
-   appropriate company 1Password vault so that your colleagues can sign in using
-   your credentials. If 2FA should be on for the new user account, make sure to store
-   recovery codes in the login, and consider using [auto-generated TOTP] if useful.
-1. If you need to give more people access to credentials [move them](https://discussions.agilebits.com/discussion/comment/133692/#Comment_133692) to a vault that they can access. Never duplicate credentials! If needed put them in the 'shared' vault that the whole company can access or make a suggestion to create a new vault in the
-   "1password Shared Folders" Google Sheet. Do not share passwords on a per person basis by sharing them via 1password, this is makes it hard to reason about the sharing and doesn't change when the responsibilities change.
+   **share access** with.
+   - If the service has a built-in way of creating individual user accounts, use that functionality and keep your credentials to yourself by storing them in 'Your Vault'.
+   - If not, then store your credentials in an appropriate company 1Password vault so that your colleagues can sign in using your credentials.
+   - At times, there will be credentials that you need which are _not_ stored in a shared vault on 1Password. To find those credentials, locate the 'secure note' in the team's Shared vault titled "How to gain access to credentials that are not in these vaults". That note lists the relevant services and whom you should contact to gain access.
+1. If 2FA should be on for the new user account, make sure to store recovery codes in the login, and consider using [auto-generated TOTP] if useful.
+1. If you need to give more people access to credentials [move them](https://discussions.agilebits.com/discussion/comment/133692/#Comment_133692) to a vault that they can access. Never duplicate credentials! If needed put them in the 'shared' vault that the whole company can access or make a suggestion to create a new vault in the "1password Shared Folders" Google Sheet. Do not share passwords on a per person basis by sharing them via 1password, this makes it hard to reason about the sharing and doesn't change when the responsibilities change.
 1. When asked security questions (what is your favorite pet, etc.) do not answer truthfully since that is easy to research. Make up an answer and write both the question and answer in 1password.
 1. Do not share credentials via email, issue comments, chat etc. This includes
    email addresses to login and API keys. Use 1Password vaults for this. You
