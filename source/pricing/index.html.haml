@@ -234,5 +234,5 @@ extra_font:
       Still have questions?
       = link_to "Contact us", "/sales/"
     .faq-holder.clearfix
-      - data.pricing.questions.each_slice(2).to_a.each do |group|
+      - data.pricing.questions.each_slice(data.pricing.questions.size / 2).to_a.each do |group|
         = partial "question-group", locals: { group: group }
