@@ -62,3 +62,4 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
   - Scaling - [VP of Scaling](/jobs/vp-of-scaling/) - Ernst van Nierop
   - General Product - [VP of Product](/jobs/vice-president-of-product/) - Job van der Voort
   - CI/CD Product - [Head of Product](/jobs/head-of-product/) - Mark Pundsack
+  - Strategic Partnerships - [Director of Strategic Partnerships] (/jobs/director-strategic-partnerships/) - Eliran Mesika
