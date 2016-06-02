@@ -1139,16 +1139,16 @@
   story:  |
           Joining May 30th
 
-- name: B.R.
-  locality:
-  country:
+- name: Brittany Rohde
+  locality: Tacoma, WA
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/people-ops-coordinator/">People Operations Coordinator</a>
   reports_to: VP of Scaling
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: brittanyrohde.jpg
+  twitter: brittany_rohde
+  gitlab: brittany@gitlab.com
   story:  |
-          Joining June 1st
+           Coming from a mathematics background, Brittany combined her love for human interaction with her thirst for knowledge and began working in human resources. She enjoys learning as much as possible about employee relations and benefits. Originally from Northern California as a giant Giants fan, she stays active in the great outdoors with her husband and their golden retriever, Cowboy Jake. 
 
 - name: J.A.
   locality:
