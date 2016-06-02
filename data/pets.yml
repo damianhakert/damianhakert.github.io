@@ -70,6 +70,10 @@
   picture: pablo.jpg
   human: mark
   story: Cold? Need a lap-warming? Pablo's your man, err, dog.
+- name: Moka
+  picture: moka.jpg
+  human: alejandro
+  story: Moka likes to sleep and to not be bothered while she's sleeping.
 - name: You?
   picture: ../logo-extra-whitespace.png
   story:  |

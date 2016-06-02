@@ -22,11 +22,17 @@ more information.
 
 ### Blog posts
 
+A new blog post likely needs to be reviewed by others before being published, so
+it's best to use our standard [feature branch workflow](http://docs.gitlab.com/ee/workflow/workflow.html)
+and to open a Merge Request. If you're not yet comfortable using the Git command
+line, you can [create a branch in the GitLab UI](http://docs.gitlab.com/ee/gitlab-basics/create-branch.html).
+
 Blog posts go in [`source/posts/`](./source/posts/) and **must be named to
 match the following format:** `yyyy-mm-dd-the-post-title.html.md`.
 
-You can generate the file for a new blog post interactively by using the
-`new_post` Rake task:
+Because the formatting of the filename is important and specific, it's best to
+generate the file for a new blog post interactively in your terminal by using
+the `new_post` Rake task:
 
 ```shell
 bundle exec rake new_post

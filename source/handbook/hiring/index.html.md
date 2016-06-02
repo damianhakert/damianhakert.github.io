@@ -59,10 +59,10 @@ We're hiring production engineers, developers, UX designers , and more. https://
 1. Technical interview (optional): As described on the [Jobs](https://about.gitlab.com/jobs/) page, certain positions
 require [technical interviews](https://about.gitlab.com/jobs/#technical-interview).
 1. Manager interview (see below for questions)
-1. For female candidates, include at least one interview with a female GitLab team member.
+1. For all candidates, include at least one interview with a female GitLab team member as part of the process.
 1. C-level executive interview (if different than the manager, see below for questions)
-1. CEO interview (if different than the C-level executive, see below for questions)
-1. Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
+1. CEO interview: the CEO, as the primary culture carrier of the company, typically interviews all final round candidates.
+1. Optional: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
 1. Make a verbal or written (email) offer (the CEO needs to authorize offers)
 1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
 1. Hiring manager ensures that the contract is signed, and [starts the onboarding process](#move-to-onboarding) (the People Ops team can help).
@@ -185,6 +185,7 @@ An example message would be "We are reviewing applications through the end of ne
 Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
 [this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw).
 
+1. Thanks for taking the time to interview with us. I would like to take notes during this interview. This might cause me to look distracted since I'll be looking at another screen. What do you think?
 1. Do you have any questions about the job, our organization, our strategy, or me personally?
 1. Why did you apply to GitLab?
 1. For each significant study and job I will ask: why did you select this one and why you moved on? Please give a short answer in 1 or 2 sentences. I will ask if I want to know more. You don't have to say what you did during the job, you already passed your technical interview.
@@ -216,18 +217,12 @@ references to contact. These reference calls are typically be done by our [admin
 Offers made to new team members should be documented in the email thread between the
 person authorized to make the offer (e.g. CEO) and the applicant.
 
-1. Email example:
-```
-We would love to have you as part of our team. You will have
-a position of [job title]. As a contractor you will invoice [monthly rate] per month.
-You will report to [name of manager]. We proposed to make you eligible for [number] of stock options.
-We will send you a contract on [day of week] based on
-the examples on https://about.gitlab.com/handbook/contracts/. If you have not
-received anything on that day please reply-to-all to let us know. Please let us
-know if you have any questions or concerns in the meantime.
-```
-1. In the email confirmation of the offer,
-put the People Operations email alias (which can be found in the "GitLab Email Forwarding" google doc) in the cc.
+1. Email example is in the "Offer letter" template in Workable. When using the template:
+   1. make sure that you include the People Ops alias in the cc, and
+   1. change the subject line of the email. The default subject line in Workable is "{position name} - GitLab", but when making multiple
+hires for the same position, this can cause confusion in a Gmail inbox that collects conversation
+threads based on subject line. So for example make it "{first name of applicant} -
+offer for {position name} at GitLab" (this is something that we cannot do in the template, unfortunately.
 1. One person from People Operations will reply-to-all to everyone in the thread
 (including the applicant) to confirm that they will make the contract. Speed matters: if you are in People Operations and you can
 tackle this, then raise your hand and hit reply-all.
@@ -239,6 +234,7 @@ platform, and uses reply-all to gather any missing pieces of information, and to
 confirm with a reply-to-all when the contract is sent. Note: the number of proposed stock options
 must always be mentioned specifically, even when it is 0. People Ops must follow-up
 with the person who requested the contract to make sure that this point is addressed.
+1. When the contract is signed, the People Ops team member should move the candidate to the "Hired" bucket in Workable. Thanks to an integration between Workable and BambooHR, this will automatically add an entry for the new team member in BambooHR.
 1. This same person from People Operations files the signed contract in the appropriate place, and starts the [**onboarding issue**](https://about.gitlab.com/handbook/general-onboarding/).
 
 Note for People Operations:

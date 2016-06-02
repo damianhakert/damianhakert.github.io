@@ -10,7 +10,7 @@ community: true
 
 Dear GitLab contributors,
 
-Today we changed the links to [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/) and [GitLab CI](https://gitlab.com/gitlab-org/gitlab-ci/) to [GitLab Cloud](https://www.gitlab.com/cloud/). We are thankful for the hosting GitHub has offered us but [many](https://twitter.com/franckcuny/status/397139473990811648) thought it was long overdue for GitLab to become selfhosted.
+Today we changed the links to [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/) and [GitLab CI](https://gitlab.com/gitlab-org/gitlab-ci/) to [GitLab.com](https://www.gitlab.com/gitlab-com/). We are thankful for the hosting GitHub has offered us but [many](https://twitter.com/franckcuny/status/397139473990811648) thought it was long overdue for GitLab to become selfhosted.
 
 <!--more-->
 

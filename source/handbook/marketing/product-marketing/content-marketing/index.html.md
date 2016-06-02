@@ -5,18 +5,13 @@ title: "Content Marketing"
 
 Welcome to the Content Marketing Handbook
 
-[Up one level to the Product Marketing Handbook](/handbook/marketing/product-marketing/)    
+[Up one level to the Product Marketing Handbook](../) {::comment} TIP FOR ONE LEVEL UP :)  {:/comment}
 
 ## On this page
-* [Introduction](#intro)
-* [2016 activities](#2016)
-* [Webcast Overview](#webcast)
-* [Scheduling webcasts](#scheduling)
-* [Webcast followup](#followup)
-* [Blog Overview](#blog)
-* [Get published on the blog](#getpublished)  
-* [Blog ideas](#ideas)  
+{:.no_toc}
 
+* Will be replaced with the ToC, excluding the "On this page" header
+{:toc}
 
 ## Introduction<a name="intro"></a>
 
@@ -137,24 +132,37 @@ Check the smart list and flow first. To activate: Click the "registered" smart c
 - Blog post to share the recording and slides
 
 
-### <a name="view"></a>Viewing webcasts
+### Viewing webcasts<a name="view"></a>
 
 - [Citrix Online system requirements](https://support.citrixonline.com/webinar/all_files/G2W010003)
 - Using GoToWebinar Instant Join, Linux/Unbuntu users can view in a web browser.
 - Linux users should use Chromium to view the browser.
 
+----
 
-## Blog Overview<a name="blog"></a>
+## GitLab Blog 
+{: #blog}
 
-The [blog](/blog) is our main publishing outlet.
+### Objectives &amp; Purposes
 
-- We aim to publish content multiple times a week, with a reliable publishing
-schedule
-- We also want to bring in voices from all
-throughout the company, as well as from GitLab users and our customers.
-- Content should communicate the benefits of GitLab's unique innovations and tools (CI)
+- Encourage potential users to try GitLab
+- Motivate our community to explore what's best from GitLab features
+- Provide accurate, interesting and new information
 
-### Formats
+### Important considerations
+
+The [blog](/blog) is our main publishing outlet. Let's do our best to show what's best!
+ 
+- Content should communicate the benefits of GitLab's unique innovations and tools (e.g., CI)
+- We want to bring in voices from all throughout the company, as well as 
+from GitLab users and our customers.
+- As always, **everyone can contribute** - GitLab Team members and [Community Writers]
+
+### Posts Formats
+
+We aim to publish content multiple times a week, with a reliable publishing schedule. The user will most likely have a 
+pleasant experience if we combine multiple posts formats, trying never to be too much repetitive. Repetition is boring. 
+<!-- According to our [Content Marketing Strategy][WE'D NEED A LINK], --> We'll alternate between the following formats:
 
 - Short form articles
 - Long form articles
@@ -163,71 +171,156 @@ throughout the company, as well as from GitLab users and our customers.
 - Tutorials
 - Inside GitLab
 
+## Blog Content
+
+It is important to have in mind that a good post can considerably reach a lot of people and acquire more users.
+With well written articles, we have the opportunity to expose and explore, in a friendly language, all the features GitLab provides.
+
+Try to think about what our users might have interest in reading before picking up a subject to work on.
+And remember, our users do not need to be super advanced programmers. They can be newbie folks with limited experience, students,
+technology enthusiasts, and people not used to Git, version control and continuous integration. That's why we need to [define a target audience][tech-writing-audience] before start writing.
+
+Our audience will probably be interested in the topics listed below. 
+
 ### Product-specific topics
 
-- Tutorials on using GitLab, GitLab CI, etc.
-- Feature highlights bring attention to specific features at GitLab.
+- Tutorials on using GitLab, GitLab CI, GitLab Runners, GitLab Geo, GitLab Pages, etc.
+- Feature highlights bring attention to specific features at GitLab
+- GitLab Workflow
+- Key features overviews
+- New feature releases
 
 ### User Stories
 
-* Contributor stories 'why I contribute to GitLab'
-* Use case stories 'how we use GitLab'
-* Boss stories 'how GitLab enabled innersourcing'
-* Inception stories 'how GitLab uses GitLab'
-* Adoption stories 'how we switched from SVN to GitLab'
-* Customer stories 'why we choose GitLab'
+- Contributor stories "why I contribute to GitLab"
+- Use case stories "how we use GitLab"
+- Boss stories "how GitLab enabled innersourcing"
+- Inception stories "how GitLab uses GitLab"
+- Adoption stories "how we switched from SVN to GitLab"
+- Customer stories "why we choose GitLab"
 
-## Getting published on the blog<a name="getpublished"></a>
+Do you have a better idea? Don't hesitate, [create an issue][blog-tracker] with your proposal and we'll be glad to look into it.
 
-Anyone from GitLab, Inc or within the community can propose an topic on the
-GitLab [Blog Post Issue Tracker][blog-tracker].
+### Media
 
-We invite guest posts and also offer compensation through the [Community Writers](https://about.gitlab.com/community/writers) program.
+- Videos with good screencasts, great subtitles, and narratives are expensive but popular, and hard to copy (what does happens to written content). For reference, [Realm.io] does a lot of good videos, for example [about Swift]
+<!-- - Check out our "Screencast Guidelines", if that's the case => CREATE SCREENCAST GUIDELINES -->
+- Try to work with images. At least choose one for the page cover
+- Do not use an image if you are not certain that it is [public domain]
+- Always provide a link to the original source of the image
+- Compress your image. Use [TinyPNG] or a similar tool
 
-1. Submit an issue on the [Blog post issue tracker][blog-tracker].
-2. You'll get feedback on your proposal and outline.
-3. Write your draft as a WIP MR (work in progress merge request) in the [GitLab website project][gitlabwww].
-4. You'll get reviewed and feedback from our editors.
+## Technical Aspects
 
-### About the Blog Post Issue Tracker
+### Publishing process for GitLab Team members
 
-- Anything not assigned to a person is in the [backlog](https://dev.gitlab.org/gitlab/blog-posts/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&author_id=&assignee_id=0&milestone_title=&label_name=)
-- Anything that is assigned to a person in 'in progress'
+1. Choose a [topic](#blog-content)
+1. Define the target audience, knowledge level and system requirements ([example])
+1. Create outlines (a few items describing what you want to discuss along the post)
+1. Submit an issue on the [blog posts issue tracker][blog-tracker] containing the previous items
+1. Mention @amara for feedback on your proposal and on your outlines 
+1. Amara will evaluate the priority and estimate a due date for publishing
+1. Write the post according to the [Professional Writing Techniques][writing-tech]
+1. Submit your draft as a WIP MR (work in progress merge request) in the [GitLab website project][gitlabwww]
+1. You'll get reviewed and feedback from our Marketing Team
+1. Your post will be published
+
+Not a GitLab Team member? Check the process for [Community Writers] below.
+
+### Publishing process for Community Writers
+
+For our [community writers], we will follow the Scalable Writing System described below. 
+
+1. Guest Writer - choose a subject:
+   - Make sure you are familiar with [GitLab Workflow]
+   - Select an issue from <https://gitlab.com/gitlab-com/blog-posts/issues> or create a new one.
+   - Leave a comment "@amara I would like to write this and I accept the terms on [Community Writers Program][Community Writers]. Below follows my writing sample."
+2. Content Marketing - analyse the proposal:
+  - Amara will evaluate the writer's sample and discuss anything necessary before start writing
+  - When the guest writer is approved to get started, Amara will leave a comment "@username, you got it!" and assign the issue to the writer
+3. Guest Writer: prepare local environment and submit the article
+  - Fork <https://gitlab.com/gitlab-com/www-gitlab-com/> and run it locally
+  - Write according to the [Professional Writing Techniques][writing-tech]
+  - Submit a [WIP MR] with the proposal and assign it to Amara
+4. Reviewers: 
+  - Amara will take a first look to approve the article for review, and assign Marcia for the first review
+  - When first review is finished, Marcia will assign Axil for a detailed technical review
+  - When finished, Axil will reassing the MR to Amara, who will follow the [check list](#check-list-before-merging) and approve the content for publishing
+5. Content Marketing: publish
+  - Content Marketing will place the date for publishing
+  - Amara will merge and tweet
+6. Content Marketing / Account Ops: pay the writer
+  - Amara email the writer to wire the money
+  - Guest writer will get paid
+
+### Blog Post Issue Tracker
+
+To keep things clear for everyone, we assume:
+
+- Anything not assigned to a person is in the [backlog]
+- Anything that is assigned to a person is "in progress"
 - Anything that has a WIP MR is ready for review
 
-### Blog post publishing checklist
+### Styles
 
-Before you write, make sure you're on a new branch cloned from master.
-Check these before you publish:
+- Check out our [styles guidelines]
+- Amuse yourself with the power of [Kramdown], our markdown engine for about.GitLab.com <!-- => LINK TO MARKDOWN DOC WHEN READY-->
 
-- First instance of GitLab should be linked to [GitLab](http://about.gitlab.com)
-- Follow the [Blog post style guide](https://gitlab.com/gitlab-com/blog-posts/blob/master/STYLEGUIDE.md)
-- Check all links.
-- Check the date on the file name.
-- Check the date in the post.
-- Check the image is crunched down. Use [tinypng](http://tinypng.com).
-- Check the blog appears good locally.
-- When you have double checked, you can merge!
+### Forked project
+
+Before you write, make sure you forked [`www-gitlab-com`], cloned to your computer, and were able to preview it locally by running `bundle exec middleman`. 
+Before making any change, create a new branch `git checkout -b branchname` cloned from `master`.
+
+### Check list before merging
+
+Reviewer - check these before you publish:
+
+- First instance of GitLab should be linked to [GitLab] <!-- => WHAT EXACTLY DOES IT MEAN? -->
+- Follow the [Blog post style guide]
+- Check all links - make sure none is broken
+- Check the file extension `.html.md`
+- Check the date on the file name
+- Check the date in the post
+- Check the image(s) is(are) crunched down.
+- Check the blog appears good locally
+- When you have double checked, you can merge
 
 It takes about 5 mins for the blog post to appear as published.
 
 After the blog post is published we should tweet immediately from the GitLab
 Twitter account, and schedule follow up tweets and LinkedIn and Facebook.
 
+## Get inspired
 
-## Blog ideas<a name="ideas"></a>
+- The content doesn't have to be about GitLab, it can also be other content aimed at developers, Hacker News or team leads
+- You need to have high quality and high volume, great times are in the [Priceonomics content marketing handbook]
+- When submitting to Hacker News please add a ? to the url and do not announce it anywhere to prevent setting off the voting ring detector
+- What worked for Apigee was the 'collaboration in the 21st century' theme
+- Explore a reading club such as [a NoSQL summer]
+- Milk [GitLab Flow] for more blog posts and videos
 
-* The content doesn't have to be about GitLab, it can also be other content aimed at developers, Hacker News or team leads.
-* When submitting to Hacker News please add a ? to the url and do not announce it anywhere to prevent setting off the voting ring detector.
-* You need to have high quality and high volume, great times are in the [Priceonomics content marketing handbook](http://priceonomics.com/the-content-marketing-handbook/).
-* What worked for Apigee was the 'collaboration in the 21st century' theme
-* Videos with good screencasts, great subtitles, and narratives are expensive but popular, and hard to copy (what does happens to written content), Realm.io does a lot of good videos, for example [about Swift](https://realm.io/news/top-5-swift-videos-of-2014/)
-* A reading club such as [a NoSQL summer](http://nosqlsummer.org/)
-* Milk [GitLab Flow](http://doc.gitlab.com/ee/workflow/gitlab_flow.html) for more blog posts and videos
-* CI for mobile is painful (Gradle files for Android, loads of assets such as Xcode binaries) and the best current option is customizing Jenkins, mobile is a small circle that moves fast, collaborate with leading projects such as [CocoaPods](https://cocoapods.org/) for iOS (Sid can contract [Eloy Durán](https://twitter.com/alloy) and [Gradle](https://gradle.org/) for Android to create a great CI experience and blog about it
-* Can accelerate the above with free CI runners
-* Offer $100 per blog post and use a public issue tracker to gather idea's and tag them as acceptable.
-* Encourage guest posts on our blog
+## Inspire
 
+We invite and encourage guest writers and also offer compensation through the [Community Writers] program.
+
+[a NoSQL summer]: //nosqlsummer.org/
+[about Swift]: https://realm.io/news/top-5-swift-videos-of-2014/
+[backlog]: https://dev.gitlab.org/gitlab/blog-posts/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&author_id=&assignee_id=0&milestone_title=&label_name=
+[Blog post style guide]: https://gitlab.com/gitlab-com/blog-posts/blob/master/STYLEGUIDE.md
 [blog-tracker]: https://gitlab.com/gitlab-com/blog-posts/issues
+[Community Writers]: https://about.gitlab.com/community/writers
+[example]: ../../developer-relations/technical-writing/#st-subject-audience-requirements
+[GitLab]: //about.gitlab.com
+[GitLab Flow]: //doc.gitlab.com/ee/workflow/gitlab_flow.html
+[GitLab Workflow]: https://www.youtube.com/watch?v=enMumwvLAug "Introduction to GitLab Workflow"
 [gitlabwww]: https://gitlab.com/gitlab-com/www-gitlab-com
+[Kramdown]: //kramdown.gettalong.org/
+[Priceonomics content marketing handbook]: http://priceonomics.com/the-content-marketing-handbook/
+[public domain]: https://en.wikipedia.org/wiki/Public_domain
+[Realm.io]: //realm.io
+[styles guidelines]: ../../developer-relations/technical-writing/#styles-guidelines 
+[tech-writing-audience]: ../../developer-relations/technical-writing/#st-subject-audience-requirements
+[tinypng]: //tinypng.com
+[WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
+[writing-tech]: ../../developer-relations/technical-writing/#professional-writing-techniques
+[`www-gitlab-com`]: https://gitlab.com/gitlab-com/www-gitlab-com/

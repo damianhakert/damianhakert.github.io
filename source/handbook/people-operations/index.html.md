@@ -3,41 +3,105 @@ layout: markdown_page
 title: "People Operations"
 ---
 
-- [Reaching People Operations](#reach-peopleops)
-- [Office addresses](#addresses)
-- [Setting up new contracts](#new-contracts)
-   - [Using HelloSign](#hellosign)
-- [Processing changes](#processing-changes)
-- [Using BambooHR](#bamboohr)
-- [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)
-- [Administrative details of benefits for US-based employees](#benefits-us)
-   - [401k](#401k)
-- [Using TriNet](#using-trinet)
-   - [Add new hires to TriNet](#trinet-process)
-   - [Making changes in TriNet](#changes-trinet)
-- [Returning property to GitLab](#returning-property)
-- [Using RingCentral](#ringcentral)
-- [Paperwork people may need to obtain mortgage in the Netherlands](#dutch-mortgage)
-- [Compensation principles](#compensation-principles)
-
 ## Reaching People Operations<a name="reach-peopleops"></a>
 
-To reach People Operations, please post an issue on our [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/)
-and add the 'PeopleOps' label, or send an email to the People Operations group (see the "GitLab Email Forwarding" google doc), or ping an individual
-member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
+- [**Public Issue Tracker**](https://gitlab.com/gitlab-com/peopleops/issues/); please use confidential issues for topics that should only be visible to team members at GitLab)
+- You can also send an email to the People Operations group (see the "GitLab Email Forwarding" google doc for the alias), or ping an individual member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
+- [**Chat channel**](https://gitlab.slack.com/archives/peopleops); please use the `#peopleops` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
+
+## This page
+
+- [Role of People Operations](#role-peopleops)
+- [Office addresses](#addresses)
+- [Policies](#peopleops-policies)
+   - [Compensation principles](#compensation-principles)
+   - [Hiring Significant Others or Family Members](#family-hires)
+   - [Returning property to GitLab](#returning-property)
+      - [FedEx info for the team member](#fedex-info)
+- [Methods and Tools for People Ops](#peopleops-methods)
+   - [Setting up new contracts](#new-contracts)
+   - [Processing changes](#processing-changes)
+   - [Using BambooHR](#bamboohr)
+   - [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)
+   - [Administrative details of benefits for US-based employees](#benefits-us)
+   - [Using TriNet](#using-trinet)
+   - [Using RingCentral](#ringcentral)
+- [Paperwork people may need to obtain mortgage in the Netherlands](#dutch-mortgage)
+- [Involuntary Terminations](#involuntary-terminations)
+
+
+## Other pages related to People Operations
+
+- [Hiring process](/handbook/hiring/)
+- [Onboarding](/handbook/general-onboarding/)
+- [Underperformance](/handbook/hiring/underperformance.html)
+- [Offboarding](/handbook/offboarding/)
+- [Benefits](/handbook/benefits/)
+- [Travel](/handbook/travel/)
+
+## Role of People Operations<a name="role-peopleops"></a>
+
+In general, the People Operations team and processes are here as a service to the rest of the team; helping make your life easier so that you can focus on your work and contributions to GitLab. On that note, please don't hesitate to [reach out](#reach-peopleops) with questions! In the case of a conflict between the company and a team member, People Operations works "on behalf of" the company.
 
 ## Office addresses<a name="addresses"></a>
 
 - For the SF office, see our [visiting](https://about.gitlab.com/visiting/) page.
 - For the NL office, we use a postbox address listed in the "GitLab BV address" note in the Shared vault on 1Password. We use [addpost](www.addpost.nl) to scan our mail and send it along to a physical address upon request. The scans are sent via email to the email alias listed in the "GitLab Email Forwarding" google doc.
 
+## Policies<a name="policies"></a>
 
-## Setting up new hiring contracts<a name="new-contracts"></a>
+### Compensation principles<a name="compensation-principles"></a>
+
+1. We're an open organization and want to be transparent about compensation principles, while not disclosing individual compensation. We're working on having a formula for compensation but this is hard due to the need make the formula work across the globe.
+1. Compensation is based on market rate for the region, your job title, and your (expected) level of performance.
+1. Many of our team members who have joined have taken a decrease in compensation. We pay market rate (30th-60th percentile) for most positions, and we also offer stock options for most positions. All positions have the better-than-market benefits of being part of a remote-only company (flexible, freedom) on a mission to make it so that [everyone can contribute](https://about.gitlab.com/strategy/#why), and working on an open-source project in an open and transparent way.
+1. We base compensation on current position and performance, not on what we paid you last month. This means 50% raises are possible, but also that there are no automatic raises, and we even (although rarely) lower compensation.
+1. When your position or performance changes we'll try to adjust your pay as soon as possible: the manager should take initiative, people should not have to ask for it. But people are free to ask if their manager if they think they are due for a raise.
+1. The market rate depends on your metro region. When you move you have to inform us and we may adjust your compensation up or down.
+1. We hire across the globe but we're not location agnostic. Your timezone, the market rate in your region, and vicinity to other team members, users, customers, and partners can all be factors. For example, we may favor an applicant over another because they live in a region with a lower market rate or because we need someone in that timezone. All things being equal we will hire people in lower cost markets vs. higher cost markets.
+1. As you can see from our [contracts](/handbook/contracts/), compensation is typically set at a fixed monthly rate. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission, for leadership roles sometimes part of it is based on business objectives. Success engineers currently have a lower variable component, we're not sure how this will evolve. All other people have fixed compensation (but we do have [bonuses and incentives](/handbook/#incentives)).
+1. Compensation decisions are taken by the compensation committee. This committee consists of the CFO, CEO, and head of people operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee.
+
+### Hiring Significant Other or Family Members<a name="family-hires"></a>
+
+GitLab is committed to a policy of employment and advancement based on **qualifications and merit** and does not discriminate in favor of or in opposition to the employment of significant others or relatives. Due to the potential for perceived or actual conflicts, such as favoritism or personal conflicts from outside the work environment, which can be carried into the daily working relationship, GitLab will hire or consider other employment actions concerning significant others and/or relatives of persons currently employed or contracted only if:   
+a) candidates for employment will not be working directly for or supervising a significant other or relative, and
+b) candidates for employment will not occupy a position in the same line of authority in which employees can initiate or participate in decisions involving a direct benefit to the significant other or relative. Such decisions include hiring, retention, transfer, promotion, wages and leave requests.
+
+This policy applies to all current employees and candidates for employment.
+
+### Returning property to GitLab<a name="returning-property"></a>
+
+As part of [offboarding](https://about.gitlab.com/handbook/offboarding/), any GitLab property needs to be returned to GitLab. GitLab will pay for the shipping either by People Ops sending a FedEx shipping slip or it can be returned by another mutually agreed method. If property is not returned, GitLab reserves the right to use a creditor company to help retrieve the property.
+
+#### FedEx info for the team member <a name="fedex-info"></a>
+
+Pull up the departing contributors home address. Find a Fedex location close to them. Then follow the template below.
+
+"Hi [Name of team member]
+
+The closest Fedex to you is located on [full street address, city, state, zip code]. Driving or walking directions can be found here: [enter link from “mapping home location to the Fedex location”]
+
+Once there you can use Fedex boxes that you need and do the following actions:
+
+1. Package the equipment in the box
+2. Send package to GitLab HQ in San Francisco
+3. Mark on the invoice "Bill Recipient"
+4. Our Fedex number is: [find the number in Secretarial Vault in 1Password]
+5. Provide People Ops the tracking number via email
+
+Please let People Ops know if you have any questions."
+
+
+
+## Methods and Tools for People Ops<a name="peopleops-methods"></a>
+
+### Setting up new contracts<a name="new-contracts"></a>
 
 New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/) page, including instructions on how to set up new contracts.
 
 
-### Using HelloSign<a name="hellosign"></a>
+#### Using HelloSign<a name="hellosign"></a>
 
 When we need [contracts to be signed](https://about.gitlab.com/handbook/#signing-legal-documents) we use [HelloSign](https://hellosign.com).
 Follow these steps to send out a signature request.
@@ -54,7 +118,7 @@ Follow these steps to send out a signature request.
 
 Once you've sent out the document you will receive email notifications of the progress and a copy of the signed document after all parties have signed.
 
-## Processing changes<a name="processing-changes"></a>
+### Processing changes<a name="processing-changes"></a>
 
 Any changes to a team member’s status, classification, promotion/demotion, pay increase/decrease and
 bonus needs to be communicated via email to People Ops by the team member's manager or CEO. People Ops will then enter
@@ -67,10 +131,11 @@ sends an email to the person reporting / requesting the change (member's manager
 to confirm this.
 
 
-## Using BambooHR<a name="bamboohr"></a>
+### Using BambooHR<a name="bamboohr"></a>
 
 We use [BambooHR](https://gitlab.bamboohr.com) to keep all team member information
 in one place. All team members (all contract types) are in BambooHR.
+We don't have one contact person but can call BambooHR if we want any changes made in the platform. The contact info lives in the Secretarial Vault in 1Password.
 
 Some changes or additions we make to BambooHR require action from our team members.
 Before calling the whole team to action:
@@ -87,7 +152,7 @@ test account that does not have admin privileges.
 the ask, and who to turn to in case of questions.
 
 
-## Managing the PeopleOps onboarding tasks <a name="manage-onboarding-tasks"></a>
+### Managing the PeopleOps onboarding tasks <a name="manage-onboarding-tasks"></a>
 
 Here are some useful guidelines to set up everything for our new team members with the onboarding issue.
 If Google Sheets or Docs are mentioned, these will be shared with you on Google Drive.
@@ -121,33 +186,26 @@ scheduled GitLab 101 in the Availability calendar. Click on "edit event" to open
 On the right enter the team member's GitLab email address in the  "add guests"
 section and click save. When asked select "all events" to add to all scheduled
 meetings and "send" out the invitation.
-- **Order business cards**<a name="b-cards"></a>
+- **Send swag codes to new team members**
+To celebrate a new team member joining our team, send an email with $50 swag credits for our [Swag Store](https://gitlab.mybrightsites.com/), as noted in the onboarding issue. You can get the codes for the swag by finding the Google doc titled "Tshirt and stickers coupons 2.12.16". 
+- **Order business cards**
 Go to the "Notes" field in BambooHR and enter the info needed for the Business Cards.
 Once every week/few days or how often needed, run the "Business Cards order" report in the Reports - My Reports menu of BambooHR.
-Email our partner to order new business cards and add the info for the cards to
-be ordered. Include the address of the team member (found in BambooHR) and inform
-our partner to _**ship the cards directly to that address**_. Double check the
-info that is sent with the preview before approving the print.
+Email our partner to order new business cards and add the info for the cards to be ordered. Include the address of the team member (found in BambooHR) and inform our partner to _**ship the cards directly to that address**_. Double check the info that is sent with the preview before approving the print.
 - **Add team member to Expensify (only with employees)**<a name="add-expensify"></a>
-Login to [Expensify](https://www.expensify.com/signin) and go to "Admin" in the
-top menu. Select the right policy based upon the entity that employs the new team
-member. Select "People" in the left menu. Select "Invite" and add the GitLab email.
-Edit the message to be sent for the employee. Click "invite".
+Login to [Expensify](https://www.expensify.com/signin) and go to "Admin" in the top menu. Select the right policy based upon the entity that employs the new team member. Select "People" in the left menu. Select "Invite" and add the GitLab email. Edit the message to be sent for the employee. Click "invite".
 - **Add team member to Beamy**<a name="add-beamy"></a>
-Login in to access the settings for the [Beam](https://suitabletech.com/accounts/login/).
-In the top menu move your cursor over the blue login button. Go to "Manage your beams".
-Click on "manage" in the lower left corner. Enter the GitLab email and scroll down
-to find the newly added email. Check the box for "Auto connect".
-- **Add team member into the Austin info sheets**
-Add the team member's name to the Travel and Lodging Google sheets to make sure they enter flight details and they are assigned a room.
+Login in to access the settings for the [Beam](https://suitabletech.com/accounts/login/). In the top menu move your cursor over the blue login button. Go to "Manage your beams". Click on "manage" in the lower left corner. Enter the GitLab email and scroll down to find the newly addedd email. Check the box for "Auto connect".
+- **Add team member into the Summit info sheets**
+Add the team member's name to the Travel and Lodging Google sheets to make sure they enter flight details and will be assigned a room.
 - **Add team member to our Egencia platform**<a name="add-egencia"></a>
 Log into Egencia and go to the menu option "manage users". Choose "new user account" and fill in the passport name of the new team member.
 As username choose the same handle as on our dev domain. Enter the GitLab email address and uncheck the newsletter box.
 Lastly assign the department in which the new team member is working.
 
-## Administrative details of benefits for US-based employees <a name="benefits-us"></a>
+### Administrative details of benefits for US-based employees <a name="benefits-us"></a>
 
-### 401k<a name="401k"></a>
+#### 401k<a name="401k"></a>
 
 1. You are eligible to participate in GitLab’s 401k as of the 1st of the month after your hire date.
 1. You will receive a notification on your homepage in TriNet Passport once eligible,
@@ -162,9 +220,9 @@ after the 1st of the month after your hire date.
    1. Zip Code
 1. Once inside the portal you may elect your annual/pay-period contributions, and Investments.
 
-## Using TriNet<a name="using-trinet"></a>
+### Using TriNet<a name="using-trinet"></a>
 
-### Entering New Hires into TriNet<a name="trinet-process"></a>
+#### Entering New Hires into TriNet<a name="trinet-process"></a>
 
 Employer enters the employee data in the HR Passport with the information below
 
@@ -227,9 +285,9 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. The employee is prompted to log on, complete tax withholding (W4 data), direct deposit information, section 1 of the I-9, and benefits election (if eligible).
 1. The employer logs in to HR Passport and is prompted by way of work inbox item, to complete section 2 of the I-9.
 
-### Making changes in TriNet <a name="changes-trinet"></a>
+#### Making changes in TriNet <a name="changes-trinet"></a>
 
-#### Add a New Location
+##### Add a New Location
 
 1. Go to HR Passport homepage
 1. Click Find
@@ -239,7 +297,7 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Complete location information. For a remote location, enter the location (ex. WA remote) in all fields except city, state and zip.
 1. Click Add.
 
-#### Transfer Employee to Different Location
+##### Transfer Employee to Different Location
 
 1. Go to HR Passport homepage.
 1. Click Find.
@@ -251,16 +309,7 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Change location and fill in necessary information.
 1. Select Update.
 
-
-## Returning property to GitLab<a name="returning-property"></a>
-
-As part of [offboarding](https://about.gitlab.com/handbook/offboarding/), any
-GitLab property needs to be returned to GitLab. GitLab
-will pay for the shipping either by PeopleOps sending a FedEx shipping slip or it can be returned
-by another mutually agreed method. If property is not returned, GitLab reserves the
-right to use a creditor company to help retrieve the property.
-
-## Using RingCentral<a name="ringcentral"></a>
+### Using RingCentral<a name="ringcentral"></a>
 
 Our company and office phone lines are handled via RingCentral. The login credentials
 are in the Secretarial vault on 1Password. To add a number to the call handling & forwarding
@@ -290,14 +339,28 @@ you to provide information about your financial status, usually in the form of a
 of your total financial status (including any savings you have). The requirements for
 this seem to vary a bit between mortgage providers.
 
-## Compensation principles<a name="compensation-principles"></a>
+## Involuntary Terminations<a name="involuntary-terminations"></a>
 
-1. We're an open organization and want to be transparent about compensation principles, while not disclosing individual compensation. We're working on having a formula for compensation but this is hard due to the need make the formula work across the globe.
-1. Compensation is based on market rate for the region, your job title, and your (expected) level of performance.
-1. Many of our team members who have joined have taken a decrease in compensation. We pay market rate (30th-60th percentile) for most positions, and we also offer stock options for most positions. All positions have the better-than-market benefits of being part of a remote-only company (flexible, freedom) on a mission to make it so that [everyone can contribute](https://about.gitlab.com/strategy/#why), and working on an open-source project in an open and transparent way.
-1. We base compensation on current position and performance, not on what we paid you last month. This means 50% raises are possible, but also that there are no automatic raises, and we even (although rarely) lower compensation.
-1. When your position or performance changes we'll try to adjust your pay as soon as possible: the manager should take initiative, people should not have to ask for it. But people are free to ask if their manager if they think they are due for a raise.
-1. The market rate depends on your metro region. When you move you have to inform us and we may adjust your compensation up or down.
-1. We hire across the globe but we're not location agnostic. Your timezone, the market rate in your region, and vicinity to other team members, users, customers, and partners can all be factors. For example, we may favor an applicant over another because they live in a region with a lower market rate or because we need someone in that timezone. All things being equal we will hire people in lower cost markets vs. higher cost markets.
-1. As you can see from our [contracts](/handbook/contracts/), compensation is typically set at a fixed monthly rate. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission, for leadership roles sometimes part of it is based on business objectives. Success engineers currently have a lower variable component, we're not sure how this will evolve. All other people have fixed compensation (but we do have [bonuses and incentives](/handbook/#incentives)).
-1. Compensation decisions are taken by the compensation committee. This committee consists of the CFO, CEO, and head of people operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee.
+Involuntary termination of any team member is never easy. We've created some guidelines and information to make this process as painless and easy as possible for everyone involved. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance](/handbook/hiring/underperformance.html), as well as the [offboarding](/handbook/offboarding/) checklist.
+
+
+### Points to cover during the offboarding call, with sample wording
+
+The following points need to be covered for any team member:
+
+1. Final Pay: "your final check (or invoice period) is for the pay period of X and includes X days of pay”.
+1. Company Property: “please return all property as explained in the handbook, also please delete GitLab’s email connection from your phone”.
+1. Business Expenses: “please create your final expense report to Expensify (for employees), OR, please file any outstanding expenses with your final invoice (for contractors), so these can be reimbursed to you in a timely manner”.
+1. Confidentiality and Non-Disclosure: “we know you are a professional, please keep in mind the agreement you signed when you were hired”.
+
+The following points need to be covered for US-based employees:
+
+1. COBRA: “your benefits will cease on last day of the month you are eligible for Consolidated Omnibus Budget Reconciliation Act (“COBRA”), the carrier (TriNet) has been notified and the carrier will send out the paperwork to your home address on file”.
+1. PPACA: "You may also be eligible under the Patient Protection and Affordable Care Act (“PPACA”) for subsidized health care options via the marketplace. If you are interested it is important that you sign up with the market place well before the 15th of the month to have coverage for the following month”.
+1. HIPAA: " under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), if you need a certificate of credible coverage please download it from your current carrier's online portal or request it from TriNet”.
+1. Unemployment insurance: "it is up to your state's labor agency (in CA: EDD) to decide if you are eligible for unemployment insurance”.
+1. Please remember to keep TriNet informed if you move I want to be sure your W-2 gets to you at the end of the year. You may also contact X at GitLab (provide phone number and email address) with any other questions that you may have" (consider inviting them to contact you at anytime for any reason)
+
+### Sample termination memo
+
+If appropriate (to be determined by conversation with the manager, CEO, and people ops), use the following [termination memo](https://docs.google.com/document/d/11Uk8p4VJrLnDD5IAtbTwswPUUEnmeEOazS1kJMhOu70/edit?usp=sharing), which is provided here as an openly viewable Google Doc, but of course needs to be personalized and tailored to each individual's situation. As written, it is applicable to US-based employees only.
