@@ -185,6 +185,7 @@ An example message would be "We are reviewing applications through the end of ne
 Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
 [this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw).
 
+1. Thanks for taking the time to interview with us. I would like to take notes during this interview. This might cause me to look distracted since I'll be looking at another screen. What do you think?
 1. Do you have any questions about the job, our organization, our strategy, or me personally?
 1. Why did you apply to GitLab?
 1. For each significant study and job I will ask: why did you select this one and why you moved on? Please give a short answer in 1 or 2 sentences. I will ask if I want to know more. You don't have to say what you did during the job, you already passed your technical interview.
@@ -217,10 +218,10 @@ Offers made to new team members should be documented in the email thread between
 person authorized to make the offer (e.g. CEO) and the applicant.
 
 1. Email example is in the "Offer letter" template in Workable. When using the template:
-   1. make sure that you include the People Ops alias in the cc, and 
+   1. make sure that you include the People Ops alias in the cc, and
    1. change the subject line of the email. The default subject line in Workable is "{position name} - GitLab", but when making multiple
 hires for the same position, this can cause confusion in a Gmail inbox that collects conversation
-threads based on subject line. So for example make it "{first name of applicant} - 
+threads based on subject line. So for example make it "{first name of applicant} -
 offer for {position name} at GitLab" (this is something that we cannot do in the template, unfortunately.
 1. One person from People Operations will reply-to-all to everyone in the thread
 (including the applicant) to confirm that they will make the contract. Speed matters: if you are in People Operations and you can

@@ -22,6 +22,8 @@ Change all creative work from read-only to read-write so that **everyone can con
 
 ## How
 
+Everyone can contribute to digital products with GitLab, to GitLab itself, and to our organization.
+
 1. To ensure that **everyone can contribute to digital products** we make GitLab joyful to use. It is integrated and opinionated collaboration software. Because there is no need to string together multiple tools you spend less time, have less frustration, there is less [bikeshedding](https://en.wikipedia.org/wiki/Law_of_triviality), and you get more results.
 
 2. To ensure that **everyone can contribute with GitLab** every person in the world should be able to afford it and adapt it. GitLab CE and GitLab.com are both [free as in beer](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/) so everyone can afford it. GitLab.com comes with free private repos and CI runners, so you don't even have to host it yourself. People should be able to adapt GitLab to fit their needs. That is why GitLab CE is also [free as in speech](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/); we distribute the source and use [MIT Expat license](https://www.debian.org/legal/licenses/mit). But open source is more than a license, that is why we actively help our competitor Perforce to ship GitLab as part of Perforce Helix, and are [a good steward of GitLab CE](https://about.gitlab.com/about/#stewardship). And we keep all our software open to inspection, modifications, enhancements, and suggestions.
