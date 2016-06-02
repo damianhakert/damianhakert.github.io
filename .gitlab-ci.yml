@@ -14,8 +14,7 @@ lint:
 build:
   stage: build
   script:
-    - bundle exec middleman build --verbose
-    - bundle exec rake pdfs
+    - bundle exec rake build pdfs
   artifacts:
     paths:
       - public/  
