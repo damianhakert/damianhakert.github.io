@@ -131,7 +131,7 @@ TeX](https://tug.org/mactex/morepackages.html).
 
 You can tweak the 'printable HTML' files in Middleman's development
 mode if you enter the correct URL in your browser (e.g.
-'http://localhost:4567/terms/print/gitlab_subscription_terms.html`).
+`http://localhost:4567/terms/print/gitlab_subscription_terms.html`).
 If you want to tweak pdf_template.tex run `rake build` once, and
 `rake pdfs` as often as needed.
 
