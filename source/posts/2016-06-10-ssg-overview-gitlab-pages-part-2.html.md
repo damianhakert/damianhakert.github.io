@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "SSGs Part 2: Modern Static Site Generators" # any ideas for a better title?
-date: 2016-04-20 20:00:00 # to be replaced
+title: "SSGs Part 2: Modern Static Site Generators"
+date: 2016-06-10 08:00:00
 comments: true
 categories: technical overview
 author: Marcia Ramos
@@ -17,14 +17,13 @@ This is the **Part 2: Modern Static Site Generators**, where we provide you with
 
 The previous post was [**Part 1: Dynamic x Static Websites**][part-1], where we explained its differences, pros and cons.
 
-Stay tunned for the next post: **Part 3: Build any SSG site with GitLab Pages**!
+Stay tuned for the next post: **Part 3: Build any SSG site with GitLab Pages**!
 
-**Note:** For this series, we assume you are familiar with web development, curious about 
-Static Site Generators, and how to use them with GitLab Pages.
+**Note:** For this series, we assume you are familiar with web development, curious about Static Site Generators, and excited to see your site getting deployed with GitLab Pages.
 {: .note}
 
 {::comment}
-Update this for the first post too ^^^^
+Update this for the third post too ^^^^
 {:/comment}
 
 <!-- more -->
@@ -39,11 +38,7 @@ Update this for the first post too ^^^^
 
 ----
 
-## Modern Static Site Generators
-
-{::comment}
-I'm a comment that will not output a regular comment! I'm invisible! Ha! :)
-{:/comment}
+## Benefits of Modern Static Site Generators
 
 Static Site Generators (**[SSGs]**) are software created to automate web development to **output** static sites from **dynamic** writing. So, we code dynamically and publish statically. No pain, all gain.
 
@@ -52,7 +47,7 @@ The most fascinating thing of any SSG is the ability to code fast, save money (o
 **Note:** if you want to know more about it, read the previous article for this series: "[Static x Dynamic Websites][part-1]".
 {: .note}
 
-### Structure
+## Structure of SSGs
 
 The structure of SSGs is a combination of features to make static sites development faster and less repetitive. Let's take a quick look at the list below, then describe them one by one.
 
@@ -107,7 +102,7 @@ A blog **post** or a **page** written in [markdown] will most likely start with 
 # front matter (between three-dashes block)
 title: "Hello World" # post or page title
 date: YYYY-MM-DD HH:MM:SS # date and time, e.g. "2016-04-30 11:00:00"
-author: "Foo Bar" # a common variable to exemplify 
+author: "Foo Bar" # a common variable to exemplify
 ---
 
 # An h1 heading
@@ -146,10 +141,10 @@ Sass:
 
 ```sass
 $clr = #333
-h1 
+h1
   color: $clr
   padding-top: 30px
-p 
+p
   color: $clr
 ```
 
@@ -161,15 +156,19 @@ By the way, this Sass example will be compiled exactly to the CSS code above it.
 
 The **directory structure** is different for each SSG. It's important to study the file tree before we start working with an SSG, otherwise we might face odd build errors that we won't understand solely because we didn't use its structure accordingly. Examples: [Hexo structure][hexo-struc], [Middleman structure][middle-struc], [Jekyll structure][jekyll-struc]. So, just make sure you add new files to the correct directories.
 
-### SSGs built-in features
+## SSGs built-in features
+
+In addition to their standard components, there are also a number of built-in features that make building and previewing static sites easier - and faster.
 
 - Most of SSGs have a pre-installed server for previewing the sites locally
 - Some of them also contain in their installation package a LiveReload plugin, so we don't need to refresh the page in our browser every time we save it
 - Most of them provide us with built-in compilers for their supported preprocessors
 
-### Blog-Aware SSGs
+## Blog-Aware SSGs
 
-A blog-aware website generator will create blog-style content, such as lists of content in reverse chronological order, archive lists, and other common blog-style features. How would an SSG do that? 
+One of the most attractive features for the majority of modern SSGs is the ability to manage blog content without the need of storing posts, or post contents, in databases or in dynamically accessed files.
+
+A blog-aware website generator will create blog-style content, such as lists of content in reverse chronological order, archive lists, and other common blog-style features. How would an SSG do that?
 
 With their file tree and their template engine. The file tree defines the specific directory for `posts` and the template engine call the posts dynamically.
 
@@ -190,11 +189,11 @@ With a `for` loop through the posts, they can be displayed in a single page, as 
 
 This code means that, **for each post** within the **site posts** (`{% for post in site.posts %}`), all of them would be displayed as items of an unordered list of posts, within links for their respective paths.
 
-Of course, you can adapt the HTML structure according to your needs.
+Of course, you can adapt the HTML structure according to your needs. Also, we can use the blog-aware structure to create different kinds of dynamic insertion. For example, we could use them to display multiple things within the same category, as a collection of photos, books, etc. So, each time we add a new item, the SSG uses it's template engine to bring our collections together.
 
-### Supported content
+## Supported content
 
-Static servers fully support any language or script interpreted by browsers, known as **client-side** processing. Let's just remember that a static site is essentially composed by three components: the structure (HTML), the layout and styles (CSS), and the behavior (JavaScript).
+Static servers fully support any language or script interpreted by browsers, known as **client-side** processing. Let's just remember that a static site is essentially composed of three components: the structure (HTML), the layout and styles (CSS), and the behavior (JavaScript).
 
 _Supported languages and file extensions_
 
@@ -218,7 +217,7 @@ _Supported utilities (examples)_
 - [Schema.org] markup, making [search engines][schema-seo] to understand our site content better. This is [one of the numerous SEO][seo] techniques
 - [Sitemaps], important for [SEO][seo-sitemaps] too. E.g., [Jekyll Sitemap plugin][jek-sitemap], [Middleman Sitemap][middle-sitemap], [Hexo Sitemap plugin][hexo-sitemap]
 
-### Limitations
+## Limitations of SSGs
 
 We've just described what we **can do** with SSGs. Now let's see what we **cannot**.
 
@@ -226,6 +225,8 @@ We've just described what we **can do** with SSGs. Now let's see what we **canno
 - Have admin access
 - Send emails via `mail()` function
 - Use any server-side language or script
+
+This kind of actions depend necessarily on server-side processing, which are not handled by static-only web servers, as we explained in the [first post of this series][part-1].
 
 ### Overcoming the limitations
 
@@ -245,7 +246,7 @@ Everything based on JavaScript is allowed to be added to our static sites. Howev
 <noscript>Please enable JavaScript on your browser for a better experience with this website!</noscript>
 ```
 
-## Windup
+## Conclusions
 
 Hopefully now you understand the logic of Static Site Generators, how can we use them wisely, and what we can and cannot do with them.
 
@@ -267,7 +268,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 
 <!-- Cover image: https://unsplash.com/photos/6g0KJWnBhxg -->
 
-<!-- IDENTIFIERS --> 
+<!-- IDENTIFIERS -->
 
 <!-- Alphabetical, miscellaneous -->
 
@@ -311,6 +312,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [swiftype]: https://swiftype.com/
 [Tawk.to]: https://www.tawk.to/
 [template-sys]: https://en.wikipedia.org/wiki/Web_template_system
+[tipue]: //www.tipue.com/
 [Twitter Kit]: https://dev.twitter.com/web/overview
 [video]: //www.w3schools.com/html/html5_video.asp
 [Wufoo]: //www.wufoo.com/
