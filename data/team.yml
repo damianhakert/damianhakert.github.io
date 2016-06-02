@@ -1117,10 +1117,12 @@
   locality: Madrid
   country: Spain
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: Infrastructure Lead
   picture: paco.jpg
   twitter: pacoguzman
   gitlab: pacoguzman
+  maintains: |
+             <li>Performance specialist</li>
   story:  |
           Paco started developing Ruby on Rails Web applications on the university.
           Since then he has been working on different companies on different sectors,
