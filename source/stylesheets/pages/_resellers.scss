@@ -97,17 +97,17 @@
   }
 }
 
-[data-columns]::before {
+.resellers-list[data-columns]::before {
   @media (max-width: ($screen-sm-min - 1px)) {
-    content: '1 .column.size-1of1';
+    content: "1 .column.size-1of1";
   }
 
   @media (min-width: $screen-sm-min) and (max-width: $screen-md-max) {
-    content: '2 .column.size-1of2';
+    content: "2 .column.size-1of2";
   }
 
   @media (min-width: $screen-lg-min) {
-    content: '3 .column.size-1of3';
+    content: "3 .column.size-1of3";
   }
 }
 
