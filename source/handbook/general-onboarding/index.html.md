@@ -64,7 +64,7 @@ We're looking forward to seeing you on our daily Team Call! The first time that 
 Here is some swag credit you can use in our [swag store](https://gitlab.mybrightsites.com/) to celebrate your arrival!<br>
 Swag codes: [Enter 2 swag codes]<br>
 Free shipping: [Enter free shipping code]<br>"
-* [ ] Hiring Manager: Schedule a video call with new team member at the start of their first day.
+* [ ] Hiring Manager: Schedule a video call with new team member at the start of their first day - welcome new team member and emphasize your availability with any questions/problems they have, go over the onboarding issue highlighting key tasks, help new team member setup blue jeans for first team call.
 
 ### ON YOUR FIRST DAY
 
