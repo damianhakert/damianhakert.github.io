@@ -66,6 +66,17 @@ and start again, no matter how “big” or “small” the upgrade is. This beh
 can be changed by adding a [`/etc/gitlab/skip-auto-migrations`
 file](http://doc.gitlab.com/omnibus/update/README.html).
 
+#### For elasticsearch users
+If you use Elasticsearch please run following command after upgrade:
+
+```
+# Omnibus installations
+sudo gitlab-rake gitlab:elastic:reindex_model MODEL=Note
+
+# Installations from source
+bundle exec rake gitlab:elastic:reindex_model MODEL=Note RAILS_ENV=production
+```
+
 ## Updating
 
 To update, check out our [update page](https://about.gitlab.com/update).
