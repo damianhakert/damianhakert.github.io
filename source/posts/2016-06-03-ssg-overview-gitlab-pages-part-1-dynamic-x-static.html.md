@@ -68,9 +68,9 @@ Let's take a look at the image below and see [how static pages and dynamic pages
 
 Every browser (known as _client_) communicates with **web servers only**, via HTTP _(Hyper Text Transfer Protocol)_, with a URL _(Uniform Resource Locator)_.
 
-![Static vs Dynamic pages](/images/blogimages/ssg-gitlab-pages-series/part-1-dynamic-x-static-server.png)
+![Static vs Dynamic server processing](/images/blogimages/ssg-gitlab-pages-series/part-1-dynamic-x-static-server.png)
 
-**Scheme A:** the client (web browser) sends a **HTTP request** to the web server with a URL. The HTML _(Hiper Text Markup Language)_ file requested, stored in the web server, is immediately returned to the client with an **HTTP response**, and its content is interpreted by the browser and then displayed to the user. This is known as _client-side processing_.
+**Scheme A:** the client (web browser) sends an **HTTP request** to the web server with a URL. The HTML _(Hiper Text Markup Language)_ file requested, stored in the web server, is immediately returned to the client with an **HTTP response**, and its content is interpreted by the browser and then displayed to the user. This is known as _client-side processing_.
 
 **Scheme B:** the client sends an **HTTP request** to the **web server**, which dispatches the request to the **application server**. The application server may **request data from a database** first, and then **constructs the HTTP response** based on the data recovered from the database. This response is passed back to the **web server**, which returns the HTML file, constructed by the application server, to the client, via **HTTP response**. This is called _server-side processing_.
 
@@ -78,14 +78,9 @@ The main difference is, dynamic webpages are not served as-is by the web server 
 
 These additional steps, necessary for dynamic websites, increase the time for the user to receive the HTTP response from the server with the requested page (URL). And nobody likes waiting.
 
-Server resources are also affected by dynamic websites, as the content of that website is never ready. So, for each HTTP request, the same content needs to be constructed again and again. These all require time from the server's [CPUs][wiki-cpu], as well as disk access time from the hard drive<sup>[1](#1)</sup>. Depending on the server and the hosting plan you choose, going over the CPU limits assigned for you level of hosting may even result in a [temporary account suspension][cpu-limit] if the usage is severe enough.
+Server resources are also affected by dynamic websites as for each HTTP request, the same content needs to be constructed again and again.
 
 There's another main advantage of static over dynamic sites. Static pages don't process user data, circumventing a major security issue related to dynamic web applications: user privacy. If the users don't send any data to your server, there is no data to be stolen.
-
- <a name="1"></a>
-
-**Note 1:** See the section [Static websites save on resources][static-x-dynamic-overview] of this third-party article for reference.
-{: .note}
 
 ## Conclusion
 
@@ -118,7 +113,6 @@ Illustration (Static x Dynamic Websites): Marcia Ramos for GitLab, Inc.
 [blosxom]: //blosxom.sourceforge.net/
 [cms-list]:  https://en.wikipedia.org/wiki/List_of_content_management_systems
 [common-vulnerabilities]:  https://www.toptal.com/security/10-most-common-web-security-vulnerabilities
-[cpu-limit]: http://www.inmotionhosting.com/support/website/server-usage/how-can-i-view-my-accounts-resource-usage
 [dynamic web]:  https://en.wikipedia.org/wiki/Dynamic_web_page
 [first-cgi]:  //royal.pingdom.com/2007/12/07/a-history-of-the-dynamic-web/
 [first-site-1990]:  //www.telegraph.co.uk/technology/internet/12061803/The-worlds-first-website-went-online-25-years-ago-today.html
@@ -130,7 +124,6 @@ Illustration (Static x Dynamic Websites): Marcia Ramos for GitLab, Inc.
 [security-web-apps]: https://msdn.microsoft.com/en-us/library/zdh19h94.aspx
 [ssgs-list]: https://staticsitegenerators.net/
 [static webpage]: https://en.wikipedia.org/wiki/Static_web_page
-[static-x-dynamic-overview]: http://www.inmotionhosting.com/support/website/slow-websites/dynamic-website-vs-static-website
 [static-x-dynamic-video]: https://www.youtube.com/watch?v=zC03bcuVZHY
 [template-sys]: https://en.wikipedia.org/wiki/Web_template_system
 [tim-bl]: https://en.wikipedia.org/wiki/Tim_Berners-Lee
@@ -139,7 +132,6 @@ Illustration (Static x Dynamic Websites): Marcia Ramos for GitLab, Inc.
 [web-apps]: https://en.wikipedia.org/wiki/Web_application
 [webgen]: //webgen.gettalong.org/news.html#webgen-0-1-0-released
 [wiki-cgi]:  https://en.wikipedia.org/wiki/Common_Gateway_Interface
-[wiki-cpu]: https://en.wikipedia.org/wiki/Central_processing_unit "Central Processing Unit"
 [wiki-vps]: https://en.wikipedia.org/wiki/Virtual_private_server "Virtual Private Server"
 <!-- GitLab -->
 
