@@ -303,7 +303,7 @@ handle requests for gitlab.com.
 
 When resolving Twitter tickets you should:
 
-1. Start by the oldest ticket first
+1. Use [Play mode](https://support.zendesk.com/hc/en-us/articles/203690856-Working-with-tickets#topic_avj_hfg_vt) in the Twitter view. The default Twitter view will sort tickets by created date (ascending).
 1. Not skip any tickets
 1. Assign the ticket to yourself and ask on the appropriate Slack
    channel if you don't know the answer
