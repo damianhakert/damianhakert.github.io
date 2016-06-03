@@ -23,8 +23,8 @@ I even made a messy screenshot with the default project's navigation to illustra
 
 Basically there are several things we did not like: 
 
-* Logically hierarchy of navigation goes from left to right and from top to bottom. 
-But old UI did not follow it.
+* Current navigation is not well organized. In some places it does not follow logic 
+or best practices.
 * We can not use collapsed sidebar or muscle memory for fast click on links because of 
 dynamic menu with too many items.
 * It's hard to navigate when you come to GitLab via link from other 
@@ -46,8 +46,8 @@ But user testing and feedback during release candidate was far from what we expe
 Instead of making things easier to understand and use, we confused users even more 
 and made a decision to rollback the change. We gave up for a while...
 
-Few weeks later we decided to take different path. We splitted GitLab layout 
-on different areas by color and tried to follow navigation hierarchy. 
+A few weeks later we decided to take a different path. We splitted 
+GitLab's layout in different areas by color, and tried to follow the navigation hierarchy.
 
 Global navigation stays in dark left sidebar, and it is static. No matter which 
 page you visit, you can always find GitLab's logo, your profile picture, and 
@@ -56,39 +56,42 @@ the main links for your projects, issues and profile settings.
 ![new navigation explained](/images/navigation-redesign/nav-exp.png)
 
 The whole page, except the left sidebar, is a dynamic area, with its corresponding navigation and content.
-If you visit project page - navigation will be on the top and content below it. 
-Same for group page or profile page. So when you visit any page from within application or 
-via link from external application - you always know that left sidebar is the same 
-and header describe where exactly you are via name and navigation links. 
+If you visit project's page, the context menu will be on the top, and the 
+content just below it. The same for groups and profiles pages. So, when you visit 
+any page from within GitLab or from an external application, you always will 
+know that theleft sidebar is the same, and header describes where exactly 
+you are via name and navigation links.
 
-So when you visit GitLab page N time a day you scan page from top to the bottom starting with
-page/group/project name then navigation and then content below. You mostly ignore 
-left sidebar until you need return to one of main pages like "Projects" or "Groups". 
-So after some time using new UI you might consider collapse left sidebar as its easier
-now to remember icons-only links there.
+So when you visit GitLab page several times a day you scan the page from top to the bottom, starting with
+page/group/project name, followed by the navigation, then the content just below it. 
+
+You mostly ignore the left sidebar until you need to return to one of the main pages, like "Projects" or "Groups". 
+So after some time using the new UI, you might consider collapsing the left sidebar as it's easier
+now to remember the icons related to the links there.
 
 First we tried it on profiles pages and later on group pages and received mostly positive feedback. 
-It passed release candidate and was part of 8.8 release. 
+It passed the release candidate and was part of 8.8 release. 
 
 Group page with new navigation layout: 
 ![group navigation](/images/navigation-redesign/group-nav.png)
 
 Thanks to this changes we were able to improve mobile UI as well. We hide sidebar
-on mobiles phones and toggle by click link in top left corner. It allowed us to save 
-a lot of horizontal space which is really valuable on mobile screens. 
+on mobiles phones and toggle by clicking the link on the top-left corner. It allowed us to save 
+a lot of horizontal space, which is really valuable on mobile screens. 
 
 ![mobile navigation](/images/navigation-redesign/mobile.png)
 
 Next step is 8.9 where we finish navigation redesign by touching most used page - project. 
-Probably this change will bring a lot of feedback from user side as it is the hardest one. 
-We have too many menu items there which is not good for user experience. So beside 
-actually applying new navigation style we also need to re-group logically connected pages
+Probably this change will bring a lot of feedback from the users' side, which is the hardest one. 
+We have too many menu items there, which is not good for user experience. 
+
+So, besides actually applying the new navigation style, we also need to re-group logically connected pages
 under less amount of tabs. Old project navigation had up to 15 menu items which 
 is too much for human eye. 
 
 Here is a spoiler for 8.9: 
 
-![SCREENSHOT HERE](/images/navigation-redesign/project.png)
+![new project navigation](/images/navigation-redesign/project.png)
 
 
 
