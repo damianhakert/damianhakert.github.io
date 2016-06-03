@@ -10,7 +10,7 @@ _This is a guest blog post by Dave Wentzel, a Data Solution Architect
 with Microsoft._
 
 ## Introduction
-{:no_toc}
+{:.no_toc}
 
 GitLab is a scalable, self-hosted Git repository "ecosystem". It is available as
 a free [Community Edition][ce] and as a subscription-based
