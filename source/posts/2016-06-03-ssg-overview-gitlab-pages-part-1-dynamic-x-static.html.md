@@ -110,13 +110,13 @@ Illustration (Static x Dynamic Websites): Marcia Ramos for GitLab, Inc.
 
 <!-- Alphabetical, miscellaneous -->
 
-[blosxom]: //blosxom.sourceforge.net/
+[blosxom]: http://blosxom.sourceforge.net/
 [cms-list]:  https://en.wikipedia.org/wiki/List_of_content_management_systems
 [common-vulnerabilities]:  https://www.toptal.com/security/10-most-common-web-security-vulnerabilities
 [dynamic web]:  https://en.wikipedia.org/wiki/Dynamic_web_page
 [first-cgi]:  //royal.pingdom.com/2007/12/07/a-history-of-the-dynamic-web/
-[first-site-1990]:  //www.telegraph.co.uk/technology/internet/12061803/The-worlds-first-website-went-online-25-years-ago-today.html
-[first-website]: //info.cern.ch/hypertext/WWW/TheProject.html
+[first-site-1990]:  http://www.telegraph.co.uk/technology/internet/12061803/The-worlds-first-website-went-online-25-years-ago-today.html
+[first-website]: http://info.cern.ch/hypertext/WWW/TheProject.html
 [GitLab]: https://about.gitlab.com/ "GitLab.com, GitLab CE, GitLab EE"
 [google trends]: //www.google.com.br/trends/explore?hl=en-US#q=%22static+site+generator%22&cmpt=q&tz=Etc/GMT%2B3&tz=Etc/GMT%2B3
 [Jekyll]: https://jekyllrb.com
@@ -130,7 +130,7 @@ Illustration (Static x Dynamic Websites): Marcia Ramos for GitLab, Inc.
 [tom-pw]: https://en.wikipedia.org/wiki/Tom_Preston-Werner
 [wcms]: https://en.wikipedia.org/wiki/Web_content_management_system
 [web-apps]: https://en.wikipedia.org/wiki/Web_application
-[webgen]: //webgen.gettalong.org/news.html#webgen-0-1-0-released
+[webgen]: http://webgen.gettalong.org/news.html#webgen-0-1-0-released
 [wiki-cgi]:  https://en.wikipedia.org/wiki/Common_Gateway_Interface
 [wiki-vps]: https://en.wikipedia.org/wiki/Virtual_private_server "Virtual Private Server"
 <!-- GitLab -->
