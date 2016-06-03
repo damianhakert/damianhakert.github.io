@@ -66,11 +66,11 @@ Let's take a look at the image below and see [how static pages and dynamic pages
 
 **Web server** software, such as [Apache], [NGINX] and [IIS], are able to store and read static files only: HTML, CSS and JavaScript. **Application server** software, as [PHP], [Cold Fusion] or [ASP.NET] to name a few, are the only ones able to interpret dynamic scripting.
 
-Every browser (known as _client_) communicates with **web servers only**, via HTTP _(Hyper Text Transfer Protocol)_, with a URL _(Uniform Resource Locator)_.
+Every browser (known as _client_) communicates with **web servers only**, via HTTP _(HyperText Transfer Protocol)_, with a URL _(Uniform Resource Locator)_.
 
 ![Static vs Dynamic server processing](/images/blogimages/ssg-gitlab-pages-series/part-1-dynamic-x-static-server.png)
 
-**Scheme A:** the client (web browser) sends an **HTTP request** to the web server with a URL. The HTML _(Hiper Text Markup Language)_ file requested, stored in the web server, is immediately returned to the client with an **HTTP response**, and its content is interpreted by the browser and then displayed to the user. This is known as _client-side processing_.
+**Scheme A:** the client (web browser) sends an **HTTP request** to the web server with a URL. The HTML _(HyperText Markup Language)_ file requested, stored in the web server, is immediately returned to the client with an **HTTP response**, and its content is interpreted by the browser and then displayed to the user. This is known as _client-side processing_.
 
 **Scheme B:** the client sends an **HTTP request** to the **web server**, which dispatches the request to the **application server**. The application server may **request data from a database** first, and then **constructs the HTTP response** based on the data recovered from the database. This response is passed back to the **web server**, which returns the HTML file, constructed by the application server, to the client, via **HTTP response**. This is called _server-side processing_.
 
@@ -110,13 +110,13 @@ Illustration (Static x Dynamic Websites): Marcia Ramos for GitLab, Inc.
 
 <!-- Alphabetical, miscellaneous -->
 
-[blosxom]: //blosxom.sourceforge.net/
+[blosxom]: http://blosxom.sourceforge.net/
 [cms-list]:  https://en.wikipedia.org/wiki/List_of_content_management_systems
 [common-vulnerabilities]:  https://www.toptal.com/security/10-most-common-web-security-vulnerabilities
 [dynamic web]:  https://en.wikipedia.org/wiki/Dynamic_web_page
 [first-cgi]:  //royal.pingdom.com/2007/12/07/a-history-of-the-dynamic-web/
-[first-site-1990]:  //www.telegraph.co.uk/technology/internet/12061803/The-worlds-first-website-went-online-25-years-ago-today.html
-[first-website]: //info.cern.ch/hypertext/WWW/TheProject.html
+[first-site-1990]:  http://www.telegraph.co.uk/technology/internet/12061803/The-worlds-first-website-went-online-25-years-ago-today.html
+[first-website]: http://info.cern.ch/hypertext/WWW/TheProject.html
 [GitLab]: https://about.gitlab.com/ "GitLab.com, GitLab CE, GitLab EE"
 [google trends]: //www.google.com.br/trends/explore?hl=en-US#q=%22static+site+generator%22&cmpt=q&tz=Etc/GMT%2B3&tz=Etc/GMT%2B3
 [Jekyll]: https://jekyllrb.com
@@ -130,7 +130,7 @@ Illustration (Static x Dynamic Websites): Marcia Ramos for GitLab, Inc.
 [tom-pw]: https://en.wikipedia.org/wiki/Tom_Preston-Werner
 [wcms]: https://en.wikipedia.org/wiki/Web_content_management_system
 [web-apps]: https://en.wikipedia.org/wiki/Web_application
-[webgen]: //webgen.gettalong.org/news.html#webgen-0-1-0-released
+[webgen]: http://webgen.gettalong.org/news.html#webgen-0-1-0-released
 [wiki-cgi]:  https://en.wikipedia.org/wiki/Common_Gateway_Interface
 [wiki-vps]: https://en.wikipedia.org/wiki/Virtual_private_server "Virtual Private Server"
 <!-- GitLab -->
