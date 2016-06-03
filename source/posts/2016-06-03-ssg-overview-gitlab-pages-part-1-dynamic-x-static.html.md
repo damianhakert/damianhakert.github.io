@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SSGs Part 1: Static vs Dynamic Websites"
-date: 2016-06-03 10:00:00
+date: 2016-06-03
 comments: true
 categories: technical overview
 author: Marcia Ramos
