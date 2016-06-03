@@ -168,12 +168,11 @@ down to set the permission setting to "make changes to events" Then save in the
 lower left corner.
 - **Add blank entry to team page**<a name="blank-entry"></a>
 Login to [Gitlab.com](www.gitlab.com) and go to the www-gitlab-com project. In
-the left menu click "Files" and select the folder called "source". Continue by
-clicking the folder "data" and select the file called team.yml. In the top right
+the left menu click "Files," select "data," and choose the file called team.yml. In the top right
 corner you can click "edit" to make edits to the code. Scroll all the way down
 and copy-paste the code of the previous blank entry to the team page. Edit the
 fields to the right info of the new hire and find the right job description URL on
-the [Jobs](https://about.gitlab.com/jobs/) page.
+the [Jobs](https://about.gitlab.com/jobs/) page. Do not include the employee's name in the commit message, only initials.  
  **Note** _This can be tricky, so if you run into trouble reach out to some of
 your awesome colleagues in the #questions (channel) on Slack_
 - **Add entry to Team Call agenda**
