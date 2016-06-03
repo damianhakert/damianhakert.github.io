@@ -66,11 +66,11 @@ Let's take a look at the image below and see [how static pages and dynamic pages
 
 **Web server** software, such as [Apache], [NGINX] and [IIS], are able to store and read static files only: HTML, CSS and JavaScript. **Application server** software, as [PHP], [Cold Fusion] or [ASP.NET] to name a few, are the only ones able to interpret dynamic scripting.
 
-Every browser (known as _client_) communicates with **web servers only**, via HTTP _(Hyper Text Transfer Protocol)_, with a URL _(Uniform Resource Locator)_.
+Every browser (known as _client_) communicates with **web servers only**, via HTTP _(HyperText Transfer Protocol)_, with a URL _(Uniform Resource Locator)_.
 
 ![Static vs Dynamic server processing](/images/blogimages/ssg-gitlab-pages-series/part-1-dynamic-x-static-server.png)
 
-**Scheme A:** the client (web browser) sends an **HTTP request** to the web server with a URL. The HTML _(Hiper Text Markup Language)_ file requested, stored in the web server, is immediately returned to the client with an **HTTP response**, and its content is interpreted by the browser and then displayed to the user. This is known as _client-side processing_.
+**Scheme A:** the client (web browser) sends an **HTTP request** to the web server with a URL. The HTML _(HyperText Markup Language)_ file requested, stored in the web server, is immediately returned to the client with an **HTTP response**, and its content is interpreted by the browser and then displayed to the user. This is known as _client-side processing_.
 
 **Scheme B:** the client sends an **HTTP request** to the **web server**, which dispatches the request to the **application server**. The application server may **request data from a database** first, and then **constructs the HTTP response** based on the data recovered from the database. This response is passed back to the **web server**, which returns the HTML file, constructed by the application server, to the client, via **HTTP response**. This is called _server-side processing_.
 
