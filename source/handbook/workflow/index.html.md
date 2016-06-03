@@ -1,6 +1,8 @@
 ---
 layout: markdown_page
 title: "Workflow"
+extra_css:
+  - compared.css
 ---
 
 This document explains the workflow for anyone working with issues
@@ -8,7 +10,10 @@ in GitLab Inc.
 
 ## TL;DR
 
-Start working on an issue you’re assigned to. If you’re not assigned to any issue, find the issue with the highest priority in [direct link]() you can work on, by relevant label.
+Start working on an issue you’re assigned to. If you’re not assigned to any issue, find the issue with the highest priority you can work on, by relevant label.
+
+_**Note:** most of the document below assumes priority labels are live on GitLab.com
+at the time of writing this is not the case yet_
 
 If you need to schedule something or prioritize it, apply the appropriate labels. See below for details.
 
