@@ -156,7 +156,6 @@ to the proper shared Vaults by making a suggestion in the relevant cell in the "
 * [ ] Finance: Add to [QuickBooks users](https://about.gitlab.com/handbook/hiring/) (finance only)
 * [ ] People Ops: Order company credit card (for all sales team members who are employees)
 * [ ] People Ops: If credit card holder, add to expense report calendar reminder
-* [ ] CFO / Ernst: Add to [Hellosign](https://hellosign.com) as a team member
 * [ ] Hiring Manager: Invite to sales meeting.
 * [ ] Hiring Manager: Add to [Recurly](https://app.recurly.com/login)
 * [ ] Hiring Manager: Add to  [Salesforce]
