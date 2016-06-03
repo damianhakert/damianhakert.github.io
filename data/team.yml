@@ -1165,16 +1165,20 @@
   story:  |
           Joining June 1st
 
-- name: C.P.
-  locality:
-  country:
+- name: Chris Peressini
+  locality: Madrid
+  country: Spain
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: chrisperessini.jpg
+  twitter: ChrisPeressini
+  gitlab: cperessini
   story:  |
-          Joining June 1st
+          Based in Madrid, Chris is a UX Designer who is passionate about solving
+          problems and making technology accessible to real people. With a background
+          in Computer Engineering, he started developing mobile apps and fell
+          in love with design in the process. When he's not working, you can find
+          him endlessly browsing for a movie to watch without ever picking one.
   
 - name: H.Y.
   locality:
