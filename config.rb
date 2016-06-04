@@ -75,9 +75,12 @@ helpers do
     Tilt['markdown'].new { text }.render
   end
 
+  def open_jobs
+    data.jobs.select(&:open).sort_by(&:title)
+  end
+
   def job_for_current_page
-    data.jobs.detect do |job|
-      job.open &&
+    open_jobs.detect do |job|
       job.description.start_with?("/#{File.dirname(current_page.request_path)}")
     end
   end

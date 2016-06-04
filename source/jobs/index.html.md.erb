@@ -34,7 +34,7 @@ If you email us we'll reply with [a link to this paragraph](/jobs/#no-recruiters
 
 ## Available Openings
 
-<% data.jobs.select(&:open).sort_by(&:title).each do |job| %>
+<% open_jobs.each do |job| %>
 
 ### <%= job.title %>
 
