@@ -3,7 +3,7 @@ title: "Navigation redesign"
 author: "Dmitriy Zaporozhets"
 author_twitter: dzaporozhets
 categories: 
-image_title: 
+image_title: '/images/blogimages/gitlab-blog-cover.png'
 ---
 
 After 8.5 we looked for a way to improve current user interface for both new and 
