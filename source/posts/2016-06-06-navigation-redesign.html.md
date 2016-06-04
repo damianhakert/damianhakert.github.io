@@ -1,5 +1,6 @@
 ---
 title: "Navigation redesign"
+date: 2016-06-06
 author: "Dmitriy Zaporozhets"
 author_twitter: dzaporozhets
 categories:
