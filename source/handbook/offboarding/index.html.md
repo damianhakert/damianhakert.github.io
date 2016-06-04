@@ -32,6 +32,7 @@ for further details on that process.
 * [ ] People Ops: Inform Controller / Accounting if any items in former team members possession will not be returning, so that they can be removed from asset tracking.
 * [ ] Robert/Jacob: Remove former team members' GitLab.com account from the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members)
 * [ ] Robert/Jacob: Remove former team members' GitLab.com account from the [gitlab-org group](https://gitlab.com/groups/gitlab-org/group_members) (if applicable)
+* [ ] Robert/Jacob: Remove former team members' GitLab.com [administrator account](https://gitlab.com/admin/users?filter=admins) (if applicable)
 * [ ] Robert/Jacob: Remove former team members' GitHub.com account from the [gitlabhq organization](https://github.com/orgs/gitlabhq/people) (if applicable)
 * [ ] Robert/Jacob: Remove former team members' Sentry account from the [sentry.gitlap.com](https://sentry.gitlap.com/organizations/gitlab/members/) (if applicable)
 * [ ] Robert/Jacob/Ernst: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members)
