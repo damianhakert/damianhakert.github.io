@@ -438,7 +438,7 @@
   locality: Olsztyn
   country: Poland
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: CI Lead
   picture: grzegorz.png
   twitter: GrzegorzBizon
   gitlab: grzesiek
@@ -530,7 +530,7 @@
   locality: Olsztyn
   country: Poland
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: CI Lead
   picture: tomasz.jpg
   twitter: TomaszMaczukin
   gitlab: tmaczukin
