@@ -7,6 +7,13 @@ The GitLab Marketing team includes Demand Generation, Developer Relations, Desig
 
 [Up one level to the GitLab Handbook](/handbook/)    
 
+## Reaching Marketing<a name="reach-marketing"></a>
+
+- [**GitLab Marketing public issue tracker**](https://gitlab.com/gitlab-com/marketing/issues/); please use confidential issues for topics that should only be visible to team members at GitLab
+- You can also send an email to the Marketing team (see the "GitLab Email Forwarding" google doc for the alias).
+- [**Chat channel**](https://gitlab.slack.com/archives/marketing); please use the `#marketing` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
+
+
 ## On this page
 * [Marketing mission](#mission)
 * [Functional groups](#groups)
@@ -27,8 +34,6 @@ The GitLab Marketing team includes Demand Generation, Developer Relations, Desig
 # GitLab Marketing Mission: GitLab for All!<a name="mission"></a>
 
 We think GitLab (.com, CE, and EE) can help developers, designers, IT workers, marketers, and everyone in between improve collaboration.
-
-Our marketing issues are publicly viewable via the [GitLab Marketing issue tracker](https://gitlab.com/gitlab-com/marketing/issues).
 
 The GitLab marketing team is composed of a unique set of individuals from interesting backgrounds all over the world. Because of our unique skill sets, we're able to accomplish a lot of high impact campaigns through collaboration and open feedback from our team and the community.  
 
@@ -223,10 +228,11 @@ We use Slack internally as a communication tool. The marketing channels are as f
 - DevRel - A channel for the developer relations team to collaborate.
 - Docs - Technical writing and documentation questions? This is your room.
 - Events - Everything you want to know about events.
+- GitLab Pages - Where we discuss everything related to GitLab Pages.
 - Marketo Users - Having issues with Marketo? Ask here first.
 - Newsletters - Watch our twice monthly newsletter get made here.
 - Social - Twitter, Facebook, and other social media questions?
-- Webcasts - Watch the webcast behind the scenes.  
+- Webcasts - Watch the webcast behind the scenes.
 
 # Marketing Handbook Updates<a name="handbook"></a>
 

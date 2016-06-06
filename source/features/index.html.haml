@@ -12,11 +12,11 @@ extra_js:
     .container-fluid.featurenav
       %ul.nav.nav-pills.nav-justified
         %li
-          %a{href: "#community", onclick: "ga('send', 'event', 'nav','click','ce features');"} Community Edition
+          %a{href: "#community"} Community Edition
         %li
-          %a{href: "#enterprise", onclick: "ga('send', 'event', 'nav','click','ee features');"} Enterprise Edition
+          %a{href: "#enterprise"} Enterprise Edition
         %li
-          %a{href: "#compare", onclick: "ga('send', 'event', 'nav','click','ce ee compare');"} Compare
+          %a{href: "#compare"} Compare
   #community.wide-feature.head
     .container
       .row
@@ -39,8 +39,8 @@ extra_js:
                 %b> Scalable
                 \: support 25,000 users on one server or a highly available active/active cluster
             .actions
-              %a.btn.btn-default.btn-lg{href: "/downloads", onclick: "ga('send', 'event', 'link','click','download ce');"} Download
-              %a.btn.btn-default.btn-lg{href: "https://gitlab.com/gitlab-org/gitlab-ce/tree/master#README", onclick: "ga('send', 'event', 'link','click','source and readme');"} Source + Readme
+              %a.btn.btn-default.btn-lg{href: "/downloads"} Download
+              %a.btn.btn-default.btn-lg{href: "https://gitlab.com/gitlab-org/gitlab-ce/tree/master#README"} Source + Readme
             %br
             If you want to use GitLab without installing it,
             check out
@@ -151,7 +151,7 @@ extra_js:
     .compare
       = partial "includes/features/table"
       .action
-        %a.btn.btn-default.btn-lg{href: "/pricing/", onclick: "ga('send', 'event', 'link','click','pricing options');"}
+        %a.btn.btn-default.btn-lg{href: "/pricing/"}
           %b See Pricing Options
       .action
         %a{href: "/direction/", style: "font-size: 22px;"}

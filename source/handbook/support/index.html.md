@@ -25,7 +25,7 @@ title: Support
    - [Disqus from blog posts](#disqus)
    - [Twitter](#twitter)
    - [Posted Issues](#issue-tracker)
-   - [GitLab.com Support Forum](#supp-forum)
+   - [GitLab.com Support Tracker](#supp-forum)
    - [Facebook](#facebook)
    - [CE/EE/Omnibus Issue Trackers](#product-issue-tracker)
    - [Mailing List](#mailing-list)
@@ -297,13 +297,13 @@ of GitLab.com and to follow up on users reporting that GitLab.com is unavailable
 
 When a tweet mentions 1 or more of the handles described above, it should be replied to from the main handle (@GitLab).
 
-Tweets use short links which require you to visit that link to make sure you understand the context. 
-To clarify if the request refers to GitLab or an externally hosted GitLab instance as we can only 
-handle requests for gitlab.com. 
+Tweets use short links which require you to visit that link to make sure you understand the context.
+To clarify if the request refers to GitLab or an externally hosted GitLab instance as we can only
+handle requests for gitlab.com.
 
 When resolving Twitter tickets you should:
 
-1. Start by the oldest ticket first
+1. Use [Play mode](https://support.zendesk.com/hc/en-us/articles/203690856-Working-with-tickets#topic_avj_hfg_vt) in the Twitter view. The default Twitter view will sort tickets by created date (ascending).
 1. Not skip any tickets
 1. Assign the ticket to yourself and ask on the appropriate Slack
    channel if you don't know the answer
@@ -318,10 +318,10 @@ Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed
 For ZenDesk issues you will have created issues on the relevant issue tracker.
 Please refer to the priority as listed under [GitLab Workflow in the handbook](/handbook/#gitlab-workflow).
 
-### GitLab.com Support Forum<a name="supp-forum"></a>
+### GitLab.com Support Tracker<a name="supp-forum"></a>
 
 For issues specific to GitLab.com that have nothing to do with availability we have the
-[Support Forum](https://gitlab.com/gitlab-com/support-forum/issues). This forum must also be checked periodically
+[Support Tracker](https://gitlab.com/gitlab-com/support-forum/issues). This forum must also be checked periodically
 for new issues and to report back if an issue has been solved. Ensure that you assign the issue to yourself to enable you to keep track of the issue and also to enable other service engineers to easily pick on unassigned tasks at a glance. Some people use this forum to report issues they
 are having with their on-premises installation. In that case, you should refer them to the
 [CE issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) or to our

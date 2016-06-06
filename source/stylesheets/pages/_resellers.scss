@@ -1,0 +1,256 @@
+.reseller-hero {
+  position: relative;
+  padding: 20px 0;
+  background-color: $reseller-hero-bg-color;
+  background-image: url("/images/resellers/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  @media (min-width: $screen-sm-min) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  @media (min-width: $screen-md-min) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, rgba($reseller-hero-bg-color, .9), $reseller-hero-bg-color);
+  }
+
+  .container {
+    position: relative;
+  }
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: $color-white;
+    font-size: 28px;
+    font-weight: 300;
+
+    @media (min-width: $screen-sm-min) {
+      font-size: 38px;
+    }
+
+    @media (min-width: $screen-md-min) {
+      font-size: 48px;
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+    color: $reseller-hero-content-color;
+    font-size: 16px;
+    font-weight: 300;
+
+    @media (min-width: $screen-sm-min) {
+      font-size: 18px;
+    }
+
+    @media (min-width: $screen-md-min) {
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 20px;
+    }
+  }
+}
+
+.resellers-list {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: -30px;
+  font-size: 14px;
+
+  .column {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .size-1of3 {
+    width: (100% / 3);
+  }
+
+  .size-1of2 {
+    width: (100% / 2);
+  }
+
+  .size-1of1 {
+    width: 100%;
+  }
+}
+
+.resellers-list[data-columns]::before {
+  @media (max-width: ($screen-sm-min - 1px)) {
+    content: "1 .column.size-1of1";
+  }
+
+  @media (min-width: $screen-sm-min) and (max-width: $screen-md-max) {
+    content: "2 .column.size-1of2";
+  }
+
+  @media (min-width: $screen-lg-min) {
+    content: "3 .column.size-1of3";
+  }
+}
+
+.reseller-item {
+  display: inline-block;
+  width: 100%;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+  background-color: $color-white;
+  border: 1px solid $border-color;
+  border-radius: 3px;
+}
+
+.reseller-image {
+  margin-bottom: 25px;
+  max-width: 70%;
+}
+
+.reseller-image-gitlab {
+  margin-top: -20px;
+}
+
+.reseller-content {
+  margin-bottom: 0;
+  padding-bottom: 35px;
+
+  &.last {
+    padding-bottom: 0;
+  }
+
+  > p {
+    margin-bottom: 0;
+    font-size: (16px / 14px) * 1em;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+
+  a {
+    color: inherit;
+    border-bottom: 1px solid;
+
+    &:hover {
+      color: $color-primary;
+      border-bottom-color: transparent;
+      text-decoration: none;
+    }
+  }
+}
+
+.reseller-contact-title {
+  padding-bottom: 30px;
+
+  > small {
+    font-size: (16px / 14px) * 1em;
+  }
+
+  > h2 {
+    margin: 0;
+    font-size: (26px / 14px) * 1em;
+    font-weight: 600;
+  }
+}
+
+.reseller-contact {
+  margin-bottom: 0;
+
+  > li {
+    position: relative;
+
+    &:not(:last-child) {
+      padding-bottom: 15px;
+      margin-bottom: 14px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        margin-left: -5px;
+        width: 10px;
+        height: 1px;
+        background-color: $reseller-divider-color;
+      }
+    }
+  }
+}
+
+.reseller-email-link {
+  color: inherit;
+  font-size: (16px / 14px) * 1em;
+  border-bottom: 1px solid;
+
+  &:hover {
+    color: $color-primary;
+    border-bottom-color: transparent;
+    text-decoration: none;
+  }
+}
+
+.reseller-contact-details {
+  padding-bottom: 3px;
+  margin-bottom: 0;
+  font-size: 1em;
+  line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  a {
+    color: inherit;
+    border-bottom: 1px solid;
+
+    &:hover {
+      color: $color-primary;
+      border-bottom-color: transparent;
+      text-decoration: none;
+    }
+  }
+}
+
+.reseller-social {
+  > a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: inherit;
+    font-size: (20px / 14px) * 1em;
+
+    &:hover {
+      color: $color-primary;
+      text-decoration: none;
+    }
+  }
+}
+
+.reseller-you-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: $color-primary;
+  font-size: (26px / 14px) * 1em;
+}
