@@ -32,10 +32,12 @@ the following format: `yourname.jpg` or `yourname.png` and then follow the
 to add an image](http://doc.gitlab.com/ce/gitlab-basics/add-image.html)"
 steps.  
 
-Note: Any picture that you provide will be made black-and-white
+Picture Notes:
++ Ensure the picture size is around 400x400 and the format is JPEG. You can resize your picture using a photo editor like [GIMP](http://www.gimp.org/) (cross-platform) or online by searching for "image resize".
++ Any picture that you provide will be made black-and-white automatically.
 automatically after you add it, but it must be square. Note that your team
 page picture should be added to
-www-gitlab-com/source/images/team/NAME-OF-PERSON-IN-LOWERCASE.jpg.
+`www-gitlab-com/source/images/team/NAME-OF-PERSON-IN-LOWERCASE.jpg`.
 
 6. [Create a Merge Request](http://doc.gitlab.com/ce/gitlab-basics/add-merge-request.html) in [GitLab.com](https://gitlab.com/) with the branch that you created with your picture.
 
@@ -73,7 +75,7 @@ information:
           created.
 ```
 Don't forget to use other team members' information as a reference and to
-respect the spaces between lines. Please don't use "tab" because it will brake the page format.
+respect the spaces between lines. Please don't use "tab" because it will break the page format.
 
 12. After you added your information, add a comment to your commit and click
 on “Commit Changes”.

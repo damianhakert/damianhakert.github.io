@@ -113,3 +113,7 @@ title: "FAQ from prospects"
 - Q: What is the process to upgrade a GitLab instance?
 
   A: Depending on the installation method and the GitLab version, there are multiple update guides in the documentation: http://doc.gitlab.com/ee/update/README.html
+
+- Q: Can I install and upgrade GitLab without an internet connection?
+
+  A: Yes. Our Omnibus packages are self-contained and require no internet access during installation, configuration or afterwards.

@@ -1,2 +1,2 @@
-text: Critical Security Release for GitLab 8.2 through 8.7. You are advised to update immediately.
-link: /2016/05/02/cve-2016-4340-patches/
+text: New release! The GitLab Container Registry is a secure and private registry for Docker images.
+link: /2016/05/23/gitlab-container-registry/

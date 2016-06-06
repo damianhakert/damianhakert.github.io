@@ -52,25 +52,25 @@ We're hiring production engineers, developers, UX designers , and more. https://
 
 ## Hiring Process<a name="hiring-process"></a>
 
-1. Confirm application: applicants automatically receive confirmation of their application, thanking them for submitting their information. This is an automated message from Workable. If the person came through another channel please add them to Workable before continuing the process. There are various ways to do this, see [Workable's documentation](https://resources.workable.com/adding-candidates).
-1. Ask more information if needed: if information is missing and the applicant seems sufficiently promising (or not enough information to be able to make that determination), the appropriate person from the hiring team should follow up requesting additional information.
-1. Hiring manager does a first round of rejections. Disqualified candidates should be sent a note informing them of the rejection. There are templates in Workable to assist, but messages can be tailored as appropriate: place yourself in the receiving end of the message.
-1. [Screening call](#screening-call): in Workable, leave a note for our [administrative coordinator](https://about.gitlab.com/jobs/administrative-coordinator/) to ping for a screening call; and also move the applicant to the "screening call" stage in Workable. Depending on the outcome of the screening call, the hiring manager can either [reject an applicant](#rejecting), or move the applicant to the interview stage in Workable.
-1. Technical interview (optional): As described on the [Jobs](https://about.gitlab.com/jobs/) page, certain positions
-require [technical interviews](https://about.gitlab.com/jobs/#technical-interview).
-1. Manager interview (see below for questions)
-1. For female candidates, include at least one interview with a female GitLab team member.
-1. C-level executive interview (if different than the manager, see below for questions)
-1. CEO interview (if different than the C-level executive, see below for questions)
-1. Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
+### General points about moving applicants through the process
+
+**Inform applicants** about what stage they are in, and what stage they may move to next. So for example, if in the hiring process for the particular position / team you've agreed that there will be 4 stages, make sure to inform the applicant of this during each call / stage: "You are in stage X, and will be moving to stage Y". The process can differ from team to team, and from position to position.
+
+If you have decided to let the applicant move on to the next interview, feel free to send the next interviewer's Calendly link to the applicant. This saves the time that it would otherwise take for the next interviewer to get around to sending the link, and it thus works in everyone's benefit.
+
+### Typical process
+
+1. Confirmation of the application: applicants automatically receive confirmation of their application, thanking them for submitting their information. This is an automated message from Workable. If the person came through another channel please add them to Workable before continuing the process. There are various ways to do this, see [Workable's documentation](https://resources.workable.com/adding-candidates).
+1. Hiring manager does a first round of rejections. Disqualified candidates should be sent a note informing them of the rejection. There are templates in Workable to assist, but messages can be tailored as appropriate: place yourself on the receiving end of the message. If more information is required to make the determination, feel free to specifically ask for it (e.g. a cover letter).
+1. [Screening call](#screening-call): in Workable, ping our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/) to do a screening call; and also move the applicant to the "screening call" stage in Workable. Depending on the outcome of the screening call, the hiring manager can either [reject an applicant](#rejecting), or move the applicant to the interview stage in Workable.
+1. Technical interview (optional): As described on the [Jobs](https://about.gitlab.com/jobs/) page, certain positions require [technical interviews](https://about.gitlab.com/jobs/#technical-interview).
+1. Multiple further interviews (see [below for sample questions](#interview-questions)). At minimum, the candidate should be interviewed by their Manager, one female GitLab team member, and a C-level executive... but this can be one and the same person.
+1. CEO interview: the CEO, as the primary culture carrier of the company, typically interviews all final round candidates.
+1. Optional: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
 1. Make a verbal or written (email) offer (the CEO needs to authorize offers)
 1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
-1. Hiring manager ensures that the contract is signed, and [starts the onboarding process](#move-to-onboarding) (the People Ops team can help).
+1. Hiring manager ensures that the contract is signed, and People Ops [starts the onboarding process](#move-to-onboarding).
 
-### Moving applicants to the next step
-
-If you have decided to let the applicant move on to the next interview, feel free to send the next interviewer's calendly link to the applicant.
-This saves the time that it would otherwise take for the next interviewer to get around to sending the link, and it thus works in everyone's benefit.
 
 ### Interviewing
 
@@ -92,13 +92,13 @@ This is an effort to provide a set of guidelines to make interviewing a bit less
 1. Communication is really hard, don't expect perfect answers. Every person is different and they will express things differently, they are not listening your train of thought so they will say things differently than what you expect, work on approaching to what they are trying to say rather than demanding them to approach to you. Once you have an answer validate your assumptions by explaining to the interviewed what did you understood and allow the candidate to correct your story.
 1. Don't go checking for perfect theoretical knowledge that the interviewee can google when needed, or give a problem that took you 2 months to dominate yet you expect your interviewee to master in a 30 minutes conversation. Be fair.
 1. Aim to at the end of the interview know if you want to work with this person.
-1. Interview for softskills, really, do it. Pick some behavioural questions to get data on what has the candidate done before and how his behaviour aligns to the company values. We are all going to be much happier if we all naturally agree on how things should be.
+1. Interview for soft skills, really, do it. Pick some behavioural questions to get data on what has the candidate done before and how his behaviour aligns to the company values. We are all going to be much happier if we all naturally agree on how things should be.
 1. Consider having more people interviewing with you, different people see and value different things. More data helps making better decisions and ends up being a better use of interviewing time for both the candidate and the company.
 1. Always let the interviewee ask questions at the end, and be frank in your answers.
 
 ##### Technical interviews
 
-1. Try to get a real sample of work (which we already do for developers by working on GitLab issues) Avoid puzzles or weird algorithm testing questions. Probing for datastructures is fine as long as it is relevant to the job the person is going to do.
+1. Try to get a real sample of work (which we already do for developers by working on GitLab issues) Avoid puzzles or weird algorithm testing questions. Probing for data structures is fine as long as it is relevant to the job the person is going to do.
 1. Be mindful of the background of the candidate, someone who knows 10 languages already (and some languages in particular, Perl for ex), may pickup ruby in a second given the right chance. Don't assume that someone with a Java background will not be capable of moving to a different stack.
 1. Consider including non technical people performing soft skills questions. Because technical people should be capable of talking to non-technical just fine, we should assess it.
 
@@ -185,6 +185,7 @@ An example message would be "We are reviewing applications through the end of ne
 Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
 [this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw).
 
+1. Thanks for taking the time to interview with us. I would like to take notes during this interview. This might cause me to look distracted since I'll be looking at another screen. What do you think?
 1. Do you have any questions about the job, our organization, our strategy, or me personally?
 1. Why did you apply to GitLab?
 1. For each significant study and job I will ask: why did you select this one and why you moved on? Please give a short answer in 1 or 2 sentences. I will ask if I want to know more. You don't have to say what you did during the job, you already passed your technical interview.
@@ -192,6 +193,7 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 1. What did you like least about your recent/current position?
 1. Take each skill required for the job and do a [STAR](https://en.wikipedia.org/wiki/Situation,_Task,_Action,_Result) for a couple of situations.
 1. What professional achievements are you most proud of?
+1. Who's careers have you made better?
 1. How do you keep up to date with developments in your profession?
 1. If you don't get this job what will you do?
 1. Are you interviewing anywhere else?
@@ -215,18 +217,12 @@ references to contact. These reference calls are typically be done by our [admin
 Offers made to new team members should be documented in the email thread between the
 person authorized to make the offer (e.g. CEO) and the applicant.
 
-1. Email example:
-```
-We would love to have you as part of our team. You will have
-a position of [job title]. As a contractor you will invoice [monthly rate] per month.
-You will report to [name of manager]. We proposed to make you eligible for [number] of stock options.
-We will send you a contract on [day of week] based on
-the examples on https://about.gitlab.com/handbook/contracts/. If you have not
-received anything on that day please reply-to-all to let us know. Please let us
-know if you have any questions or concerns in the meantime.
-```
-1. In the email confirmation of the offer,
-put the People Operations email alias (which can be found in the "GitLab Email Forwarding" google doc) in the cc.
+1. Email example is in the "Offer letter" template in Workable. When using the template:
+   1. make sure that you include the People Ops alias in the cc, and
+   1. change the subject line of the email. The default subject line in Workable is "{position name} - GitLab", but when making multiple
+hires for the same position, this can cause confusion in a Gmail inbox that collects conversation
+threads based on subject line. So for example make it "{first name of applicant} -
+offer for {position name} at GitLab" (this is something that we cannot do in the template, unfortunately.
 1. One person from People Operations will reply-to-all to everyone in the thread
 (including the applicant) to confirm that they will make the contract. Speed matters: if you are in People Operations and you can
 tackle this, then raise your hand and hit reply-all.
@@ -238,6 +234,7 @@ platform, and uses reply-all to gather any missing pieces of information, and to
 confirm with a reply-to-all when the contract is sent. Note: the number of proposed stock options
 must always be mentioned specifically, even when it is 0. People Ops must follow-up
 with the person who requested the contract to make sure that this point is addressed.
+1. When the contract is signed, the People Ops team member should move the candidate to the "Hired" bucket in Workable. Thanks to an integration between Workable and BambooHR, this will automatically add an entry for the new team member in BambooHR.
 1. This same person from People Operations files the signed contract in the appropriate place, and starts the [**onboarding issue**](https://about.gitlab.com/handbook/general-onboarding/).
 
 Note for People Operations:

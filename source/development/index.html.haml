@@ -28,8 +28,7 @@ extra_css:
             form.getFormElem().hide();
             document.getElementById('confirmform').style.visibility = 'visible';
 
-            ga('send', 'pageview');
-            ga('send', 'event', 'form', 'submit', 'development request');
+            dataLayer.push({event: 'mktoLead', mktoFormId: form.getId()});
             return false;
           });
       });

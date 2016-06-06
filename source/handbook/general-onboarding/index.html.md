@@ -35,43 +35,37 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 lines of the master checklist, paste the private email address of the hire in
 there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @kirsten, and @tiffanie.
 * [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @HANDLE (Nominate someone preferably in similar timezone but different functional group)), and People Ops is tackled by (FILL IN WITH @ HANDLE).
-* [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
-* [ ] People Ops: Add blank entry to team page (only the start date and position, use "logo-extra-whitespace.png" for the picture) so the team can see when new people are joining.
-* [ ] People Ops: Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
+* [ ] Robert/Jacob/Ernst: create Google account, `firstname[at]gitlab.com` or `initial(s)[at]gitlab.com`, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
+* [ ] Robert/Jacob/Ernst: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
+* [ ] Robert/Jacob/Ernst: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
+* [ ] Robert/Jacob/Ernst: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
+* [ ] Robert/Jacob/Ernst: Add to [Slack](https://gitlab.slack.com/admin).
 * [ ] New team member: provide scan of photo ID to People Ops.
 * [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), read
 the relevant onboarding pages that are linked from there, and become comfortable
 with Git and the GitLab workflow.
-* [ ] People Ops: create new profile for team member in BambooHR, and input relevant data (title, dates, contract type, compensation) into the team members profile tabs "Job". Be sure to enable "self-service" before saving the newly entered information.
+* [ ] New team member: pick your [Slack username]( https://gitlab.slack.com/account/settings#username) to be the same as your GitLab email handle, for consistency and ease of use.
+* [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
+* [ ] People Ops: [Add blank entry to team page](https://about.gitlab.com/handbook/people-operations/#blank-entry) (only the start date and position, use "logo-extra-whitespace.png" for the picture) so the team can see when new people are joining.
+* [ ] People Ops: Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
+* [ ] People Ops: create new profile for team member in BambooHR, and input relevant data (title, dates, contract type, compensation) into the team members profile tabs "Job". Be sure to add the personal and work email address and to enable "self-service" before saving the newly entered information.
 * [ ] People Ops: file signed contract with PIAA or NDA+IP agreements in BambooHR profile under "Documents"-->"Signed Contract/Offer Letter". Set the uploaded documents to "shared" so that the team member can also view them.
 * [ ] People Ops: when applicable, file photo ID in BambooHR profile under "Documents"--> "Verification Docs"
 * [ ] People Ops: list any stock options that were part of the offer in BambooHR profile under "Benefits"--> "Stock Options"
-* [ ] Robert/Jacob/Ernst: create Google account, `firstname@gitlab.com` or `initial(s)@gitlab.com`, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
-* [ ] Robert/Jacob/Ernst: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
-* [ ] Robert/Jacob/Ernst: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
-* [ ] Robert/Jacob/Ernst: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
-* [ ] Robert/Jacob/Ernst: Add to [Slack](https://gitlab.slack.com/admin)
 * [ ] People Ops: Give team member access to the GitLab availability calendar
 * [ ] People Ops: Add new team member to the next monthly GitLab 101 call
 * [ ] People Ops: Invite to team meeting, and re-arrange the days on which team members speak in the Team Call Agenda.
 * [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment.
-* [ ] People Ops: Assign buddy and explain to buddy what that means: "If she/he
-has questions she/he can come to you. But your main job as a buddy will be to
-direct her/him to the right parts of the handbook, and/or encourage her/him to
-ask her/his questions of the wider group on Slack, etc."
-* [ ] People Ops: Send brief welcome email to their personal address that directs
-the new team member to their GitLab email and their onboarding issue. Template text:
-"Welcome to GitLab, we are happy to have you on the team! You should have received
-an invitation to your GitLab email account; please let me know if that is not the case.
-Everything you need to get started is listed in your onboarding issue (insert link).
-We're looking forward to seeing you on our daily Team Call! The first time that you
-join, please make sure that you connect at least 10 minutes before the call and
-make sure that your camera and microphone are working properly. We'd like you to
-introduce yourself to the team so please prepare some talking points for yourself.
-Some tips to help you out here: tell us about where you were before GitLab, why
-you wanted to join our team, just a little something about your background and
-of course something on what you like to do in your spare time."
-
+* [ ] Buddy: Schedule video call for first day to introduce yourself, and make sure they know that if they have questions, they can come to you. But your main job as a buddy will be to direct them to the right parts of the handbook, and/or encourage them to ask their questions of the wider group on chat, etc.
+* [ ] People Ops: Send brief welcome email to their personal address that directs the new team member to their GitLab email and their onboarding issue. Template text:<br>
+"Welcome to GitLab, we're excited that you're joining our team!<br>
+You should have received an invitation to your GitLab email account; please let me know if that is not the case.<br>
+Everything you need to get started is listed in your onboarding issue (insert link).<br>
+We're looking forward to seeing you on our daily Team Call! The first time that you join, please make sure that you connect at least 10 minutes before the call and make sure that your camera and microphone are working properly. We'd like you to introduce yourself to the team so please prepare some talking points for yourself. Some tips to help you out here: tell us about where you were before GitLab, why you wanted to join our team, just a little something about your background and of course something on what you like to do in your spare time.<br>
+Here is some swag credit you can use in our [swag store](https://gitlab.mybrightsites.com/) to celebrate your arrival!<br>
+Swag codes: [Enter 2 swag codes]<br>
+Free shipping: [Enter free shipping code]<br>"
+* [ ] Hiring Manager: Schedule a video call with new team member at the start of their first day.
 
 ### ON YOUR FIRST DAY
 
@@ -93,25 +87,23 @@ Next to Savvy, the People Ops team will also get a copy of the form info for you
 
 #### All team members
 
-* [ ] New team member: Register on 1Password by clicking on the link in the shared Google Doc titled "Link to 1Password Sign-Up"
+* [ ] New team member: Register on 1Password by clicking on the link in the ["Link to 1Password Sign-Up"](https://docs.google.com/document/d/15BdqpNhSi_5bc2b9KXo_w5f0gC-3gmuw-aIgzRcbnbk/edit) Google Doc.
 and then ping @rspeicher to confirm your account. You can find this (and other) shared Google Docs by using [`Search <your domain>`](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
 * [ ] New team member: once you are registered on 1Password, ping your hiring manager to grant you access
 to the proper shared Vaults by making a suggestion in the relevant cell in the "1password Shared Folders" Google Sheet.
 * [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
 * [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
 * [ ] Robert/Jacob/Ernst: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
-* [ ] New team member: Use the "reset your password" email of BambooHR to set a password and access your profile.
-* [ ] New team member: Add your Address, Phone number, private email and emergency contact to your BambooHR profile page.
+* [ ] New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information.
 * [ ] New team member: Set up [Calendly](https://about.gitlab.com/handbook/#calendly) and add your Calendly link to your Slack profile.
 
 ### WITHIN FIRST WEEK OF STARTING
 
-* [ ] PeopleOps: Invite to autoconnect on [Beamy](https://about.gitlab.com/handbook#beamy-guidelines).
-* [ ] PeopleOps: Order business cards for new team member.
-* [ ] PeopleOps: Add team member to Expensify (if employee).
-* [ ] PeopleOps: Add new team member to the info sheets of the Austin Summit.
-* [ ] PeopleOps: Send the new team member the "reset password" email for their BambooHR profile.
-* [ ] PeopleOps: Create a profile on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
+* [ ] People Ops: [Invite to autoconnect](https://about.gitlab.com/handbook/people-operations/#add-beamy) on [Beamy](https://about.gitlab.com/handbook/#beamy-guidelines).
+* [ ] People Ops: Order [business cards](https://about.gitlab.com/handbook/people-operations/#b-cards) for new team member.
+* [ ] People Ops: [Add team member](https://about.gitlab.com/handbook/people-operations/#add-expensify) to Expensify (if employee).
+* [ ] People Ops: Add new team member to the info sheets of the next Summit if applies.
+* [ ] People Ops: [Create a profile](https://about.gitlab.com/handbook/people-operations/#add-egencia) on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
 * [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team.
    * [ ] 1. call with ___
    * [ ] 2. call with ___
@@ -128,7 +120,7 @@ to the proper shared Vaults by making a suggestion in the relevant cell in the "
 * [ ] Amara: Send out or schedule a tweet about the new hire when the addition to the team page has been merged. Make screenshot of the profile and include that in the tweet.
 * [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing).
 * [ ] New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
-* [ ] New team member: Read the [Summit page](https://gitlab.com/summits/Austin-Summit-2016-project/) and save the date!
+* [ ] New team member: Check if there is a coming [Summit](https://gitlab.com/summits/) and save the date!
 * [ ] New team member: Make an improvement to the handbook (something that you wished was there), assign the merge request (MR) to your manager and link the MR url in this onboarding issue.
 
 
@@ -137,12 +129,16 @@ to the proper shared Vaults by making a suggestion in the relevant cell in the "
 * [ ] Patricio/Robert/Jacob: Add new team member to the [gitlab-org](https://gitlab.com/groups/gitlab-org/group_members) group on GitLab.com as a `Developer`.
 * [ ] For Production Engineering team members: Hiring manager: add the [sysadmin onboarding checklist](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/onboard-new-sysadmin.md).
 * [ ] PeopleOps: Add the new team member to the next Retro meeting and the Kickoff meeting that's scheduled and save for all events in the future.
+* [ ] For Developer team members: Read the [developer documentation](http://docs.gitlab.com/ce/development/README.html).
 
 #### FOR SERVICE ENGINEERING ONLY
 
 * [ ] Patricio/Robert/Jacob: Create GitLab.com admin account.
-* [ ] Patricio/Ernst: Add to Tweetdeck for `@gitlabstatus`.
-* [ ] Jose: add to slack handle `@supportteam`
+* [ ] Patricio/Ernst: Add to Tweetdeck for [at]gitlabstatus.
+* [ ] Jose/Patricio: [Add new team member](https://support.zendesk.com/hc/en-us/articles/203661986-Adding-end-users-agents-and-administrators#topic_h43_2k2_yg) as an agent in [GitLab ZenDesk](https://gitlab.zendesk.com).
+* [ ] Jose/Patricio: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
+* [ ] New team Member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
+* [ ] Jose/Axil: Add new team member to "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
 * [ ] Jose: invite to support team call
 * [ ] Jose: use the "GitLab Email Forwarding" google doc to request that the new team member is added to the alias for the support team.
 
@@ -161,7 +157,6 @@ to the proper shared Vaults by making a suggestion in the relevant cell in the "
 * [ ] Finance: Add to [QuickBooks users](https://about.gitlab.com/handbook/hiring/) (finance only)
 * [ ] People Ops: Order company credit card (for all sales team members who are employees)
 * [ ] People Ops: If credit card holder, add to expense report calendar reminder
-* [ ] CFO / Ernst: Add to [Hellosign](https://hellosign.com) as a team member
 * [ ] Hiring Manager: Invite to sales meeting.
 * [ ] Hiring Manager: Add to [Recurly](https://app.recurly.com/login)
 * [ ] Hiring Manager: Add to  [Salesforce]

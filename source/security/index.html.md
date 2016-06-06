@@ -3,13 +3,26 @@ layout: markdown_page
 title: Security
 ---
 
-## Security of GitLab by Being an Open-Source Product
+- [Security of GitLab by Being an Open-Source Product](#open-source-security)
+- [GitLab Development Guidelines](#gitlab-development-guidelines)
+- [Common Security Related Questions for Enterprises](#common-security-related-questions)
+   - [Governance](#governance)
+   - [Software Development Life Cycle (SDLC)](#sdlc)
+   - [Training](#training)
+   - [Validation](#validation)
+   - [Security Response](#security-response)
+- [Business Continuity Plan](#business-continuity-plan)
+
+
+
+
+## Security of GitLab by Being an Open-Source Product<a name="open-source-security"></a>
 
 GitLab CE is open source and has over 700 contributors.
 This means there have been over 700 pairs of eyes looking at the GitLab CE source code.
 GitLab EE is open-core, which means the source code is also open for inspection to our customers.
 
-## GitLab Development Guidelines
+## GitLab Development Guidelines<a name="gitlab-development-guidelines"></a>
 
 * [Guidelines for shell commands in the GitLab codebase](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/shell_commands.md)
 * For community contributions, we enforce [style guides](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#style-guides)
@@ -18,9 +31,9 @@ GitLab EE is open-core, which means the source code is also open for inspection 
 
 GitLab also has a [responsible disclosure program](https://about.gitlab.com/disclosure/).
 
-## Common Security Related Questions for Enterprises
+## Common Security Related Questions for Enterprises<a name="common-security-related-questions"></a>
 
-### Governance
+### Governance<a name="governance"></a>
 
 1. Do you maintain a quality management system (QMS) approved by management?
 In lieu of a formal and static QMS, GitLab has a dynamic and responsive approach to quality management.
@@ -99,7 +112,7 @@ Does your quality management system (QMS) include coverage for software applicat
 1. If you use cloud services, do you have key management procedures to manage and maintain encryption keys?
    - YES
 
-### Software Development Life Cycle (SDLC)
+### Software Development Life Cycle (SDLC)<a name="sdlc"></a>
 
 1. Are there documented processes, procedures, standards and templates used in your SDLC process?  
    - YES. See our [Contributing guidelines](https://about.gitlab.com/contributing/), and related documentation on [code review](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/code_review.md) and [development processes](https://gitlab.com/gitlab-org/gitlab-ce/tree/master/doc/development).
@@ -140,10 +153,10 @@ Does your quality management system (QMS) include coverage for software applicat
 1. If so, is access to data controlled by terms of Non-Disclosure Agreements?
    - N/A
 
-### Training
+### Training<a name="training"></a>
 
 1. Is Internal company training available & performed commensurate with personnel roles and responsibilities?
-   - YES; peer-to-peer training is commonplace.
+   - YES; peer-to-peer training is commonplace. 
 
 1. Does training include security awareness?
    - YES; as applicable for the role.
@@ -154,7 +167,7 @@ Does your quality management system (QMS) include coverage for software applicat
 1. Are personnel training plans and records kept for internal company compliance purposes?
    - Tasks and training completed during [onboarding](https://about.gitlab.com/handbook/general-onboarding/) are recorded.
 
-### Validation
+### Validation<a name="validation"></a>
 
 1. Are results from the execution of test plans reported and used to track and justify release readiness?
    - YES. We require all automated tests to pass before any official release (monthly and patch versions), and perform manual QA testing for each monthly release.
@@ -168,7 +181,7 @@ Does your quality management system (QMS) include coverage for software applicat
 1. Is some form of dynamic code scanning performed as part of the release acceptance? What tools are used?
    - YES. We use GitLab CI for this purpose.
 
-### Security Response
+### Security Response<a name="security-response"></a>
 
 1. Do you have a documented company security incident response process?
    - YES. See [security documentation](https://gitlab.com/gitlab-org/release-tools/blob/master/doc/security.md) as well as details on [service level response times and priorities](https://about.gitlab.com/handbook/support/).
@@ -187,3 +200,51 @@ Does your quality management system (QMS) include coverage for software applicat
 
 1. Is there a specified response policy that includes the timeframe issues are to be addressed?
    - YES. See [security documentation](https://gitlab.com/gitlab-org/release-tools/blob/master/doc/security.md) as well as details on [service level response times and priorities](https://about.gitlab.com/handbook/support/).
+
+
+
+## Business Continuity Plan<a name="business-continuity-plan"></a>
+
+GitLab, by it's remote-only nature, is not easily affected by typical causes of business disruption, such as local failures of equipment, power supplies, telecommunications, social unrest, terrorist attacks, fire, or natural disasters. Even so, threats considered in the context of business continuity are categorized by impact of the disruption.
+
+**P1: Outage would have immediate impact on GitLab customer / user operations**
+
+1. Disruption of service of Azure, specifically the region in which GitLab.com and dev.gitlab.org are hosted.
+   - Effect: a loss of the Azure service means that GitLab.com is not available. This affects anyone who uses GitLab.com to host their repositories. GitLab.com is also the primary server where GitLab CE and EE source code and packages are hosted.
+   - Solution(s): There are many other servers across the globe where GitLab CE is readily available.
+   - Effect: Security releases are developed and staged on dev.gitlab.org before being brought to production on GitLab.com; these may be lost or unavailable for the duration of the disruption.
+   - Solution(s): Depending on the duration and nature of the disruption, the solution is to wait for service to be restored (minimal duration), or build a new staging server. Using VM snapshots, recovery from backup is relatively quick.
+
+1. Unavailability of support staff in case of customer emergency.
+   - Effect: emergency response times are greater than intended.
+   - Solution(s): The team is distributed geographically (except during team get-togethers). Customer emergencies are handled by _any_ person who is in the [on-call rotation](/handbook/support/pagerduty). The on-call load is distributed at many levels, service engineers, production engineers, and even developers can be summoned when we have an outage or a customer incident. Emergencies also trigger automatic notifications on our internal chat system, alerting the entire company. There is also an ongoing effort to publish our [runbooks](https://gitlab.com/gitlab-com/runbooks), explaining how we manage our infrastructure and how we deal with outage cases.
+
+1. Disruption of service of ZenDesk.
+   - Effect: support workflows are disrupted. New tickets cannot be created, existing tickets cannot be responded to.
+   - Solution(s): For the duration of the outage (if more than e.g. 4 hours) temporarily re-route incoming support requests to individual email accounts of members of the support team. Customers with premium support also have access to a direct chat channel.
+
+**P2: Outage would have immediate impact on GitLab ability to continue business**
+
+1. Malicious Software (Viruses, Worms, Trojan horses) attack.
+   - Effect: depends on attack.
+   - Solution(s): All the hosts in our fleet are running rkhunter every day to check for known rootkits. We get notifications whenever we detect a change in any of our hosted systems. Each case is handled manually for now.
+
+1. Hacking or other Internet attacks.
+   - Effect: depends on attack.
+   - Solution(s): We log and track any access that happens on any server in the fleet using logstash/kibana at log.gitlap.com.
+
+
+**P3: Outage greater than 72 hours would have impact on GitLab ability to continue to do business**
+
+Disruption of service from Salesforce.com, Zuora
+   - No failover plan currently.
+
+**P4: Outage greater than 10 business days would have impact on GitLab ability to continue business**
+
+Disruption of service from TriNet, NetSuite, Google (gmail)
+   - No failover plan currently.
+
+**P5: Non critical system**
+
+Disruption of service from Egencia, rocket.chat.
+   - No failover plan currently.
