@@ -1,0 +1,37 @@
+#markdown-toc {
+
+  margin:1.625em 0 1.625em;
+  padding:1.625em;
+  border-left:1px dashed #749fe2;
+  background:rgba(221, 232, 248, 0.6);
+
+  ul {
+    margin-left:0;
+    font-size:0.875em;
+    line-height:1.85714;
+    padding: 0px 5px;
+    list-style-type:none;
+
+    li {
+        background:none;
+        list-style-type:none;
+
+      ul {
+          padding-left:1em;
+          margin: 0px;
+          background:none;
+          list-style-type:none;
+      }
+    }
+
+    ul {
+      font-size:1em;
+      list-style-type:none;
+
+      li {
+        padding-left: 1em;
+        list-style-type:none;
+      }
+    }
+  }
+}
