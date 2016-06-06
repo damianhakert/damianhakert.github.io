@@ -118,6 +118,7 @@ Follow these steps to send out a signature request.
 1. Request Signature.
 
 Once you've sent out the document you will receive email notifications of the progress and a copy of the signed document after all parties have signed.
+If you need to make a change, there is an "Edit & Resend" option in HelloSign. If a new document has to be uploaded, cancel the original and stage a new one to send for signatures. 
 
 ### Processing changes<a name="processing-changes"></a>
 
