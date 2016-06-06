@@ -51,9 +51,18 @@ Field marketing includes event marketing and swag production.
 ## Promoting Events<a name="promotion"></a>
 - Use social media to post as soon as committed to attending an event.
 - Email signatures- starting 1 month before event for those attending event.
-- Monthly blog post about upcoming events.
+- Monthly blog post about upcoming events at the first of the month.
+
+## Pre Event Outreach<a name="promotion"></a>
 - Get attendee list and contact customers and prospects before event.
+- If there is not an attendee list do "warm" outreach to prospects- creat email campaign based on location. Send one email 1.5 weeks before event.
 - BDRS will help set up in person meetings to occur at event.
+
+## Complete Before Event<a name="promotion"></a>
+- Set up post event follow up campaigns in Marketo.
+- After Event Survey created and email template ready to go out first work day back after event. Includes details on lead followup and how to add business card details. 
+- Social media to go out during event schdeuled. 
+- Plan for what to do with any remaining swag. 
 
 ## **At Events**
 
@@ -77,9 +86,9 @@ Field marketing includes event marketing and swag production.
 - Feel free to talk about our next release, GitLab [strategy](https://about.gitlab.com/strategy/), or our [product direction](https://about.gitlab.com/direction/#vision).
 
 ## Suggested Attire<a name="attire"></a>
-- Wear at least one branded GitLab piece of clothing.
+- Wear at least one piece of branded GitLab clothing.
 - If the conference is business casual try some nice jeans (no holes) or pants.
-- Clean shoes please.
+- Clean, closed-toed shoes please.
 - A smile.
 
 ## Booth Staffing<a name="boothstaffing"></a>
@@ -94,6 +103,7 @@ Field marketing includes event marketing and swag production.
     - Let them know of any contests happening
     - How to get a hold of you
     - Link to events handbook
+    - Any relevant event set up or clean up
 
 ## After an Event<a name="followup"></a>
 
@@ -113,8 +123,8 @@ Field marketing includes event marketing and swag production.
     - Contests
         - Did the contest(s) effectively build our brand and connecting with our target audience?
 - Make sure contacts/ leads gathered from event are with marketing and categorized under specific event campaign.
+- Sales team and BDR's will have 3 days after event lead list sent to claim leads and add notes before bulk after event outreach will occur. 
 - Follow up with leads from event within 5 business days after event ends.
-
 
 ## Speaker Portal<a name="speakerportal"></a>
 
@@ -122,24 +132,13 @@ Field marketing includes event marketing and swag production.
 
 ## Meetups<a name="meetups"></a>
 
-* Devloping meetup-in-a-box package where we will arrange for:
-
-- Food (not only pizza, something healthy too)
-- GitLab swag
-- Walkthroughs (demo scripts)
-- Exclusive content (can make new feature presentations exclusive to meetups for a month)
-- Puzzles (pub quiz style, score points and compete with other cities)
-- Video Q&A with service engineers and.or developers
-- AMA's with CEO/CTO
-- Visit in person if we can
-- Organizers become part of the GitLab Club (more details to come)
-
-The first meetups should be run by GitLab employees. If someone manages to have 3-4 successive events, the meetup itself will live on. It is much harder to start new meetups versus maintaining existing ones. So we should everything to keep existing events going.
+- Ideally first meetups should be run by GitLab employees. If someone manages to have 3-4 successive events, the meetup itself will live on. It is much harder to start new meetups versus maintaining existing ones. So we should everything to keep existing events going.
+- We love to attend others meetup groups. If you would like someone from the GitLab team to stop by your event please email community@gitlab.com. 
 
 ## Swag<a name="swag"></a>
 
 * We aim to have our swag delight and or be useful.
-* We aim to make limited edition swag for the community to collect.
+* We aim to make limited edition and themed swag for the community to collect.
 * We aim to do swag in a way that doesn't take a lot of time to execute => self serve => [web shop](https://gitlab.mybrightsites.com/)
 * With a webshop you can just give people credit, they can pick what they want and provide shipping info.
-* Of course we love [stickers](http://opensource.com/business/15/11/open-source-stickers). We are working on special edition stickers for contributors to be announced May 2016.
+* Of course we love [stickers](http://opensource.com/business/15/11/open-source-stickers). We are working on special edition stickers for contributors to be announced May 2016- being shipped right now.
