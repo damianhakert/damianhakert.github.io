@@ -22,7 +22,7 @@ extra_css:
               form.getFormElem().hide();
               document.getElementById('confirmform').style.visibility = 'visible';
 
-              dataLayer.push({event: ‘mktoLead’,mktoFormId: form.getId()});
+              dataLayer.push({event: 'mktoLead', mktoFormId: form.getId()});
               return false;
             });
         });
@@ -37,7 +37,7 @@ extra_css:
           %ul.dropdown-menu{role: "menu"}
             - data.platforms_ee.each do |platform|
               %li
-                %a{href: "##{platform.name}", onclick: "dataLayer.push({event: ‘ceDownload’,operatingSystem: '#{platform.name}'});"}
+                %a{href: "##{platform.name}", onclick: "dataLayer.push({event: 'ceDownload', operatingSystem: '#{platform.name}'});"}
                   = platform.long_name
       #tabs
         - data.platforms_ee.each do |platform|
