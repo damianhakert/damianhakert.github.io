@@ -13,4 +13,4 @@ title: "Senior Director Demand Generation"
 * Work with the Senior Demand Generation Manager to build campaigns to target specific pieces of the marketing and sales funnel.
 * Work closely with the CRO to make sure sales needs are met.
 * Launch an outbound strategy by working with the BDR Outbound Lead and Senior Demand Generation Manager to plan and execute.
-* Standard the campaign planning process.
+* Standardize the campaign planning and launch process.
