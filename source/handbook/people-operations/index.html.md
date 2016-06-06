@@ -112,13 +112,13 @@ Follow these steps to send out a signature request.
 1. With more than one signature required, assign signing order (for contracts or offer letters, always have the GitLab Signatory sign first)
 1. Add the People Ops team to the cc
 1. Click on "Prepare Docs for signing"
-1. Drag & Drop the Signature and Date fields to the corresponding empty spaces in the document (you can select the signee with the pop up screen) 
-1. For GitLab Inc. agreements, add a required textbox to Exhibit A, and a supplemental larger textbox below for a comment that is not required. 
+1. Drag & Drop the Signature and Date fields to the corresponding empty spaces in the document (you can select the signee with the pop up screen)
+1. For GitLab Inc. agreements, add a required textbox to Exhibit A, and a supplemental larger textbox below for a comment that is not required.
 1. Add a title and a message for the recipient. For contract use for example: "Dear [...], You can sign [document type] with HelloSign. Once you've signed you will receive a copy by email. If you have any questions, feel free to reach out"
 1. Request Signature.
 
 Once you've sent out the document you will receive email notifications of the progress and a copy of the signed document after all parties have signed.
-If you need to make a change, there is an "Edit & Resend" option in HelloSign. If a new document has to be uploaded, cancel the original and stage a new one to send for signatures. 
+If you need to make a change, there is an "Edit & Resend" option in HelloSign. If a new document has to be uploaded, cancel the original and stage a new one to send for signatures.
 
 ### Processing changes<a name="processing-changes"></a>
 
@@ -188,7 +188,7 @@ On the right enter the team member's GitLab email address in the  "add guests"
 section and click save. When asked select "all events" to add to all scheduled
 meetings and "send" out the invitation.
 - **Send swag codes to new team members**
-To celebrate a new team member joining our team, send an email with $50 swag credits for our [Swag Store](https://gitlab.mybrightsites.com/), as noted in the onboarding issue. You can get the codes for the swag by finding the Google doc titled "Tshirt and stickers coupons 2.12.16". 
+To celebrate a new team member joining our team, send an email with $50 swag credits for our [Swag Store](https://gitlab.mybrightsites.com/), as noted in the onboarding issue. You can get the codes for the swag by finding the Google doc titled "Tshirt and stickers coupons 2.12.16".
 - **Order business cards**
 Go to the "Notes" field in BambooHR and enter the info needed for the Business Cards.
 Once every week/few days or how often needed, run the "Business Cards order" report in the Reports - My Reports menu of BambooHR.
@@ -321,7 +321,7 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Select Effective Date.
 1. Enter new rates.
 1. Answer the worker's compensation question.
-1. Save. 
+1. Save.
 
 ### Using RingCentral<a name="ringcentral"></a>
 
@@ -357,8 +357,19 @@ this seem to vary a bit between mortgage providers.
 
 Involuntary termination of any team member is never easy. We've created some guidelines and information to make this process as painless and easy as possible for everyone involved. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance](/handbook/hiring/underperformance.html), as well as the [offboarding](/handbook/offboarding/) checklist.
 
+### Overall process
 
-### Points to cover during the offboarding call, with sample wording
+Ideally, the manager and the team member have walked through the guidelines on [underperformance](/handbook/hiring/underperformance.html) before reaching this point.
+
+1. Manager: reach out to People Operations for assistance. People Ops will ask about what the performance issues have been, how they have been attempted to be addressed, and will then prepare for the termination.
+1. Manager and People Ops: discuss best mode of communicating the bad news to the team member. This discussion can happen via a private chat-channel, but it is best to be done via a video hangout. Set up a private chat-channel in any case, since this is also useful to have during the eventual call with the affected team member.
+1. Decide who will handle which part of the conversation, and if desired, practice it. It is best practice to have a third person in the call, usually from People Ops, when the bad news is delivered.
+1. Decide what offboarding actions need to be taken _before_ the call (e.g. revoke admin permissions), or _during_ the call (e.g. revoke Slack and Gmail access), and which ones can wait until later (see the [offboarding checklist](/handbook/offboarding)). Make sure someone is on hand (in the private chat-channel) to assist with those practical offboarding details.
+1. Set up a call with the team member in question, and deliver the bad news up-front, do not beat around the bush and prolong the inevitable pain for everyone involved. Explain what led to this decision. Point to the process that was followed to reach this decision. Make it clear that the decision is final, but offer a chance to hear their side of the story and truly listen to it since there may be useful lessons in what they say for the rest of the team e.g. regarding hiring and vetting practices.
+1. Make sure to communicate the [practical points](#offboarding-points) outlined below.
+
+
+### Points to cover during the offboarding call, with sample wording<a name="offboarding-points"></a>
 
 The following points need to be covered for any team member:
 

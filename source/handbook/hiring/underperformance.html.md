@@ -30,7 +30,7 @@ shares with direct report. This plan includes:
 insufficient improvements are made, then team member gets another chance at
 the discretion of the manager.
 
-4) Otherwise, the team member is let go or his/her contract is cancelled.
+4) Otherwise, the team member is let go or his/her contract is [cancelled](/handbook/people-operations/#involuntary-terminations).
 
 5) Manager writes a debrief:
 
@@ -40,4 +40,4 @@ the discretion of the manager.
       would you compare yourself relative to your peers?" People are surprisingly
       honest here.
 
-By using this process, letting people go should not be a surprise to the person in question, but it should be a surprise to the company. If a person does need to be let go, follow the [offboarding steps](/handbook/offboarding/).
+By using this process, letting people go should not be a surprise to the person in question, but it should be a surprise to the company. If a person does need to be let go, follow the process for [involuntary termination](/handbook/people-operations/#involuntary-terminations) and the [offboarding steps](/handbook/offboarding/).
