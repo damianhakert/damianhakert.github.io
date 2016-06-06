@@ -1132,14 +1132,14 @@
           where they worked. Paco lives on Spain and when not working, becames a
           triathlete aficionado or a chef expert on cheesecakes or he brews his own beer.
 
-- name: L.B.
-  locality:
-  country:
+- name: Luke 'Jared' Bennett
+  locality: Plymouth
+  country: England
   role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Jr. Frontend Engineer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: lukebennett.jpg
+  twitter: __lukebennett
+  gitlab: lbennett
   story:  |
           Joining May 30th
 
