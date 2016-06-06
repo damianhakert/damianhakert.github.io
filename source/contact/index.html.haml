@@ -52,8 +52,7 @@ extra_css:
               form.getFormElem().hide();
               document.getElementById('confirmformnewlsetter').style.visibility = 'visible';
 
-              ga('send', 'pageview');
-              ga('send', 'event', 'form', 'submit', 'newsletter subscription');
+              dataLayer.push({event: ‘mktoLead’,mktoFormId: form.getId()});
               return false;
             });
           });
@@ -92,8 +91,7 @@ extra_css:
               form.getFormElem().hide();
               document.getElementById('confirmform').style.visibility = 'visible';
 
-              ga('send', 'pageview');
-              ga('send', 'event', 'form', 'submit', 'security updates newsletter');
+              dataLayer.push({event: ‘mktoLead’,mktoFormId: form.getId()});
               return false;
             });
           });

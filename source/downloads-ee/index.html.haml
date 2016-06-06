@@ -16,19 +16,28 @@ extra_css:
       %script{src: "//app-ab13.marketo.com/js/forms2/js/forms2.min.js"}
       %form#mktoForm_1070
       :javascript
-        MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1070);
+        MktoForms2.loadForm("//app-ab13.marketo.com", "194-VVC-221", 1070, function(form) {
+            form.onSuccess(function(values, followUpUrl) {
+
+              form.getFormElem().hide();
+              document.getElementById('confirmform').style.visibility = 'visible';
+
+              dataLayer.push({event: ‘mktoLead’,mktoFormId: form.getId()});
+              return false;
+            });
+        });
     .col-md-9
       .installation-instructions
         %h2.heavy
           Install a GitLab EE Omnibus package on
         .btn-group
-          %button.btn.btn-default.dropdown-toggle.btn-lg{"data-toggle" => "dropdown", onclick: "ga('send', 'event', 'dropdown','select','omnibus package select open');", type: "button"}
+          %button.btn.btn-default.dropdown-toggle.btn-lg{"data-toggle" => "dropdown", type: "button"}
             Select Operating System
             %span.caret
           %ul.dropdown-menu{role: "menu"}
             - data.platforms_ee.each do |platform|
               %li
-                %a{href: "##{platform.name}", onclick: "ga('send', 'event', 'dropdown','select','omnibus package select #{platform.name}');"}
+                %a{href: "##{platform.name}", onclick: "dataLayer.push({event: ‘ceDownload’,operatingSystem: '#{platform.name}'});"}
                   = platform.long_name
       #tabs
         - data.platforms_ee.each do |platform|

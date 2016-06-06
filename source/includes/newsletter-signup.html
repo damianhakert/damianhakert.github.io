@@ -30,8 +30,7 @@
             form.getFormElem().hide();
             document.getElementById('confirmform').style.display = 'block';
 
-            ga('send', 'pageview');
-            ga('send', 'event', 'form', 'submit', 'newsletter signup');
+            dataLayer.push({event: ‘mktoLead’,mktoFormId: form.getId()});
             return false;
           });
         });
