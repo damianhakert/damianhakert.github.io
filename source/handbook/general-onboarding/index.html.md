@@ -33,7 +33,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 * [ ] People Ops: Once the contract is signed, as soon as possible, create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in
 [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant
 lines of the master checklist, paste the private email address of the hire in
-there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @kirsten, @brittany and @tiffanie.
+there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @brittany, and @tiffanie.
 * [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @HANDLE (Nominate someone preferably in similar timezone but different functional group)), and People Ops is tackled by (FILL IN WITH @ HANDLE).
 * [ ] Robert/Jacob/Ernst: create Google account, `firstname[at]gitlab.com` or `initial(s)[at]gitlab.com`, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
 * [ ] Robert/Jacob/Ernst: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
