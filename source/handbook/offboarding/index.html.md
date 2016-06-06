@@ -42,7 +42,7 @@ for further details on that process.
 * [ ] Ernst/Paul: Remove team member from HelloSign, if applicable.
 * [ ] People Ops: Remove team member from map / Sundial.
 * [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team). Don't forget to remove the profile picture.
-* [ ] Patricio: Remove from tweetdeck
+* [ ] Patricio/Ernst: Remove from tweetdeck
 * [ ] People Ops: Notify eShares administrator (CFO) of offboarding.
 * [ ] People Ops: Note final date of employment / contract in BambooHR.
 * [ ] Infrastructure: If the person is from infrastructure [remove the sysadmin](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/user-administration.md#remove-a-sysadmin)
