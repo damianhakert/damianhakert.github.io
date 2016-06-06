@@ -664,9 +664,13 @@ You can use actions to make it public here
 
 BTW Trying to set this up via Google+ via [https://plus.google.com/hangouts/onair](Hangouts on Air) instead of via YouTube doesn't seem to connect to the right YouTube channel, even if you selected the right account on the top right.
 
-### One Tab
+### One Tab<a name="one-tab"></a>
 
 [One Tab](https://www.one-tab.com/) tames tabs into a list which can be sorted and exported.
+
+### Quitter<a name="quitter"></a>
+
+[Quitter](https://marco.org/apps) will switch off apps for you after some period of inactivity. Consider using this to hide Slack after a while to reduce your urge to check new messages all the time.
 
 ### Check which process occupies a given port
 
