@@ -40,8 +40,6 @@
   logo: /images/organizations/logo_lockheed_martin.svg
 - name: Verizon
   logo: /images/organizations/logo_verizon.svg
-- name: USAA
-  logo: /images/organizations/logo_usaa.svg
 - name: AVG
   logo: /images/organizations/logo_avg.svg
 - name: Nomura
