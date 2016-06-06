@@ -309,6 +309,19 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Change location and fill in necessary information.
 1. Select Update.
 
+##### Record Pay Change
+
+1. Go to HR Passport homepage.
+1. Click Find.
+1. Select find person by Name.
+1. Type the name, click search.
+1. Select Employment Datat on the left side of the screen.
+1. Click Employee Pay Change
+1. Select Effective Date.
+1. Enter new rates.
+1. Answer the worker's compensation question.
+1. Save. 
+
 ### Using RingCentral<a name="ringcentral"></a>
 
 Our company and office phone lines are handled via RingCentral. The login credentials
