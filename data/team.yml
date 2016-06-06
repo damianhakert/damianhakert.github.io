@@ -112,7 +112,7 @@
               <li><a href="http://doc.gitlab.com/ee/workflow/merge_request_approvals.html">Merge Request approvals</a> <a href="/jobs/expert/">expert</a></li>
               <li><a href="http://doc.gitlab.com/ee/integration/elasticsearch.html">ElasticSearch</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
-          I started the GitLab project together with Dmitriy 3 years ago. Today, we are together again :) I like Ruby, UNIX, git and other cool technologies.
+          I started the GitLab project together with Dmitriy in 2011. Today, we are together again :) I like Ruby, UNIX, git and other cool technologies.
           I have a very strong desire to improve the world by making all things easier.
 
 - name: Patricio Cano
