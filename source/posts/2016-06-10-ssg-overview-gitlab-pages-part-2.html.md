@@ -9,13 +9,13 @@ author_twitter: virtuacreative
 image_title: '/images/blogimages/ssg-gitlab-pages-series/ssg-overview-gitlab-pages-cover.jpg'
 ---
 
-What is a Static Site Generator? What is this for? Why should I use one? Do they have limitations? How can I use them with **GitLab Pages**?
+What are Static Site Generators? What are they for? Why should I use them? Do they have limitations? How can I use them with **GitLab Pages**?
 
 If these questions ring a bell, this **series of posts** is for you! We are preparing three articles around the same theme "**Static Site Generators (SSGs)**".
 
-This is the **Part 2: Modern Static Site Generators**, where we provide you with an overview on the subject.
+This is **Part 2: Modern Static Site Generators**, where we provide you with an overview on the subject.
 
-The previous post was [**Part 1: Dynamic x Static Websites**][part-1], where we explained its differences, pros and cons.
+The previous post was [**Part 1: Dynamic x Static Websites**][part-1], where we explained the differences between them, and their pros and cons.
 
 Stay tuned for the next post: **Part 3: Build any SSG site with GitLab Pages**!
 
@@ -83,7 +83,7 @@ To give you a picture, let's see an example for an HTML file, in which we are us
 </html>
 ```
 
-As you probably guessed, we have three files for the content that **repeats** sitewide (head, header and footer), which are included to every page using this template. The only thing that is different is the `{{ content }}` of that page, which is written in separate files, and also included dynamically to the template with this tag. Finally, all the files will be **compiled** to regular HTML pages **before** being stored in the web server. This process is called **build**. GitLab Pages **builds** any SSG.
+As you probably guessed, we have three files for the content that **repeats** sitewide (head, header and footer), which are included to every page using this template. The only thing that is different is the `{{ content }}` of that page, which is written in a separate file, and also included dynamically to the template with this tag. Finally, all the files will be **compiled** to regular HTML pages **before** being stored in the web server. This process is called **build**. GitLab Pages **builds** any SSG.
 
 _Advantages over flat HMTL_
 
@@ -93,7 +93,7 @@ _Advantages over flat HMTL_
 
 ### Markdown engine
 
-The **markdown engine** is a simplified language we'll use to write our content. Generally, we are allowed to choose which markdown engine we want to use. It is set up on the site configuration. Examples: [Kramdown], [RDiscount], [Redcarpet], [RedCloth].
+The **markdown engine** is a simplified language we'll use to write our content. Generally, we are allowed to choose which markdown engine we want to use. It is setup on the site configuration. Examples: [Kramdown], [RDiscount], [Redcarpet], [RedCloth].
 
 A blog **post** or a **page** written in [markdown] will most likely start with a **front matter** section containing information about that page or post, and then comes the content just below it. This is an `example.md` file used in a [Jekyll] site, and also an `example.html.md` file for a [Middleman] site:
 
@@ -110,7 +110,21 @@ author: "Foo Bar" # a common variable to exemplify
 Some text.
 ```
 
-Front matter variables, which are `title`, `date` and `author` for our example above, can be called with template tags all over the site. With Liquid, we'd use `page.title`, `page.date`, `page.author`.
+The front matter variables, which are `title`, `date` and `author` for our example above, can be called with template tags all over the site. With Liquid, if we write:
+
+```liquid
+<h2>Title: {{ page.title }}</h2>
+<p>Date: {{ page.date }}</p>	 
+<p>By {{ page.author }}</p>
+```
+
+The output would be:
+
+```
+<h2>Title: Hello World</h2>
+<p>Date: 2016-04-30 11:00:00</p>	 
+<p>By Foo Bar</p>
+```
 
 The content for our example would output simply:
 
@@ -123,7 +137,7 @@ The content for our example would output simply:
 
 The **preprocessors** are made for speed up our development process too. They simplify the way we code, and then compile their own files into standard ones. Examples: [Sass] and [Stylus] for CSS, [CoffeeScript] for JavaScript.
 
-Again, just to give you a picture, check a CSS code block writen in CSS directly, and the other writen in Sass:
+Again, just to give you a picture, check a CSS code block written in CSS directly, and the other written in Sass:
 
 CSS:
 
@@ -248,7 +262,7 @@ Everything based on JavaScript is allowed to be added to our static sites. Howev
 
 ## Conclusions
 
-Hopefully now you understand the logic of Static Site Generators, how can we use them wisely, and what we can and cannot do with them.
+Hopefully now you understand the logic of Static Site Generators, how we can use them wisely, and what we can and cannot do with them.
 
 In the third post of this series we will bring you a lot of examples for SSGs already running on GitLab Pages, so you'll be able to see and understand different GitLab CI configurations, and create your own.
 
@@ -272,57 +286,57 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 
 <!-- Alphabetical, miscellaneous -->
 
-[part-1]: #ADD-LINK-HERE
+[part-1]: /2016/06/03/ssg-overview-gitlab-pages-part-1-dynamic-x-static/
 
 [AdSense]: https://support.google.com/adsense/answer/181950
 [Adwords]: https://support.google.com/adwords/answer/6331314
 [Analytics]: https://developers.google.com/analytics/devguides/collection/analyticsjs/
-[audio]: //www.w3schools.com/html/html5_audio.asp
-[comment-systems]: //brianshim.com/webtricks/add-a-comment-wall-to-your-website/
+[audio]: http://www.w3schools.com/html/html5_audio.asp
+[comment-systems]: http://brianshim.com/webtricks/add-a-comment-wall-to-your-website/
 [Disqus]: https://disqus.com/
 [Facebook Comments]: https://developers.facebook.com/docs/plugins/comments
 [Facebook Social Plugins]: https://developers.facebook.com/docs/plugins
 [firebase]: https://www.firebase.com/
 [firebase-cool-stuff]: https://www.firebase.com/docs/web/examples.html
-[firebase-user-auth]: //jsfiddle.net/firebase/a221m6pb/
+[firebase-user-auth]: http://jsfiddle.net/firebase/a221m6pb/
 [FormKeep]: https://formkeep.com/
 [Formspree]: https://formspree.io/
-[foxyform]: //www.foxyform.com/
+[foxyform]: http://www.foxyform.com/
 [google-cse]: https://support.google.com/customsearch/answer/4513751?hl=en&ref_topic=4513742&rd=1
 [Google Forms]: https://www.google.com/forms/about/
-[HTML5]: //www.w3schools.com/html/html5_intro.asp
-[images]: //vormplus.be/blog/article/using-images-in-your-html5-document
+[HTML5]: http://www.w3schools.com/html/html5_intro.asp
+[images]: http://vormplus.be/blog/article/using-images-in-your-html5-document
 [Jekyll]: https://jekyllrb.com
 [JivoChat]: https://www.jivochat.com/
-[MailChimp]: //mailchimp.com/
-[no-script]: //www.w3schools.com/tags/tag_noscript.asp
+[MailChimp]: http://mailchimp.com/
+[no-script]: http://www.w3schools.com/tags/tag_noscript.asp
 [page-load]: https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/#dynamic-websites-and-caching
 [PayPal Payments Standard]: https://developer.paypal.com/docs/classic/button-manager/integration-guide/SOAP/ButtonMgrOverview
 [programming language]: https://en.wikipedia.org/wiki/Programming_language
-[Schema.org]: //schema.org/
-[schema-seo]: //schema.org/docs/gs.html
+[Schema.org]: http://schema.org/
+[schema-seo]: http://schema.org/docs/gs.html
 [sendgrid-parse]: https://sendgrid.com/blog/send-email-static-websites-using-parse/
-[SEO]: //www.wordstream.com/blog/ws/2014/03/20/schema-seo
-[seo-sitemaps]: //www.webconfs.com/importance-of-sitemaps-article-17.php
-[server-crash]: //noahveltman.com/static-dynamic/
+[SEO]: http://www.wordstream.com/blog/ws/2014/03/20/schema-seo
+[seo-sitemaps]: http://www.webconfs.com/importance-of-sitemaps-article-17.php
+[server-crash]: http://noahveltman.com/static-dynamic/
 [sitemaps]: https://support.google.com/webmasters/answer/156184?hl=en
-[site-down]: //www.sitepoint.com/wordpress-vs-jekyll-might-want-make-switch/#2-wordpress-struggles-under-heavy-load
+[site-down]: http://www.sitepoint.com/wordpress-vs-jekyll-might-want-make-switch/#2-wordpress-struggles-under-heavy-load
 [SSGs]: https://www.staticgen.com/
 [svg]: https://en.wikipedia.org/wiki/Scalable_Vector_Graphics
 [swiftype]: https://swiftype.com/
 [Tawk.to]: https://www.tawk.to/
 [template-sys]: https://en.wikipedia.org/wiki/Web_template_system
-[tipue]: //www.tipue.com/
+[tipue]: http://www.tipue.com/
 [Twitter Kit]: https://dev.twitter.com/web/overview
-[video]: //www.w3schools.com/html/html5_video.asp
-[Wufoo]: //www.wufoo.com/
+[video]: http://www.w3schools.com/html/html5_video.asp
+[Wufoo]: http://www.wufoo.com/
 
 <!-- GitLab -->
 
 [get-help]: https://about.gitlab.com/getting-help
 [gitlab-com]: https://about.gitlab.com/gitlab-com/
 [pages]: https://pages.gitlab.io
-[pages-ee]: //doc.gitlab.com/ee/pages/README.html
+[pages-ee]: http://doc.gitlab.com/ee/pages/README.html
 [pages-issues]: https://gitlab.com/pages/pages.gitlab.io/issues
 [post-pages]: https://about.gitlab.com/2016/04/07/gitlab-pages-setup/
 [sign-up]: https://gitlab.com/users/sign_in "Sign Up!"
@@ -332,6 +346,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 
 [hexo-struc]: https://hexo.io/docs/setup.html
 [jekyll-struc]: https://jekyllrb.com/docs/structure/
+[Middleman]: https://middlemanapp.com/
 [middle-struc]: https://middlemanapp.com/basics/directory-structure/
 
 [jek-sitemap]: https://github.com/jekyll/jekyll-sitemap
@@ -341,30 +356,30 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 <!-- Languages, preprocessors, libraries and frameworks -->
 
 [animate.css]: https://daneden.github.io/animate.css/
-[Bootstrap]: //getbootstrap.com
-[CoffeeScript]: //coffeescript.org/
-[Foundation]: //foundation.zurb.com/
+[Bootstrap]: http://getbootstrap.com
+[CoffeeScript]: http://coffeescript.org/
+[Foundation]: http://foundation.zurb.com/
 [go]: https://golang.org/
-[haml]: //haml.info/
+[haml]: http://haml.info/
 [html5-boiler]: https://html5boilerplate.com/
-[jquery]: //code.jquery.com/
-[kramdown]: //kramdown.gettalong.org/
+[jquery]: http://code.jquery.com/
+[kramdown]: http://kramdown.gettalong.org/
 [liquid]: https://shopify.github.io/liquid/
 [markdown]: https://en.wikipedia.org/wiki/Markdown
 [modernizr]: https://modernizr.com/
 [node]: https://nodejs.org/en/
 [normalize]: https://necolas.github.io/normalize.css/
 [Python]: https://www.python.org/
-[rdiscount]: //dafoster.net/projects/rdiscount/
+[rdiscount]: http://dafoster.net/projects/rdiscount/
 [redcarpet]: https://github.com/vmg/redcarpet
-[redcloth]: //redcloth.org/
+[redcloth]: http://redcloth.org/
 [Ruby]: https://www.ruby-lang.org/
-[Sass]: //sass-lang.com/
+[Sass]: http://sass-lang.com/
 [skeleton]: http://getskeleton.com/
-[Slim]: //slim-lang.com/
-[Stylus]: //stylus-lang.com/
-[swig]: //paularmstrong.github.io/swig/
-[twig]: //twig.sensiolabs.org/
+[Slim]: http://slim-lang.com/
+[Stylus]: http://stylus-lang.com/
+[swig]: http://paularmstrong.github.io/swig/
+[twig]: http://twig.sensiolabs.org/
 
 <!-- Groups -->
 
