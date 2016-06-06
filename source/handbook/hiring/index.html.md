@@ -20,7 +20,7 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
 
 1. Define hiring team. Roles can be assigned fluidly (see below for the [Hiring Process](#hiring-process)), depending on who is available, bearing in
 mind that the most time consuming aspect tends to be review of the first wave of applicants.
-1. Create the job description on our website, and in Workable
+1. Create the job description on our website, and in Workable. Note: You need to actively link Workable and Gmail.
     1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`
     1. Add a job of the exact same job title on [Workable](https://gitlab.workable.com/backend)
        * For location, select "Telecommute".
