@@ -234,7 +234,7 @@ platform, and uses reply-all to gather any missing pieces of information, and to
 confirm with a reply-to-all when the contract is sent. Note: the number of proposed stock options
 must always be mentioned specifically, even when it is 0. People Ops must follow-up
 with the person who requested the contract to make sure that this point is addressed.
-1. When the contract is signed, the People Ops team member should move the candidate to the "Hired" bucket in Workable. Thanks to an integration between Workable and BambooHR, this will automatically add an entry for the new team member in BambooHR.
+1. When the contract is signed, the People Ops team member should move the candidate to the "Hired" bucket in Workable. Thanks to an integration between Workable and BambooHR, this will automatically add an entry for the new team member in BambooHR. However, in the automatic move, "self-service" is switched off in BambooHR by default, so this must be switched on explicitly within BambooHR.
 1. This same person from People Operations files the signed contract in the appropriate place, and starts the [**onboarding issue**](https://about.gitlab.com/handbook/general-onboarding/).
 
 Note for People Operations:
