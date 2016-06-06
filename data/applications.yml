@@ -254,6 +254,15 @@
       links:
         - url: https://tmetric.com/help/integrations/gitlab-time-tracking/
           title: GitLab time tracking
+    - title: MergeRequestsCI
+      content: A web-based tool to see all merge requests of your team in one place
+      links:
+        - url: https://hexanet.gitlab.io/MergeRequestsCI
+          title: Hosted version on GitLab Pages
+        - url: https://gitlab.com/hexanet/MergeRequestsCI
+          title: Repository on gitlab.com
+        - url: https://github.com/Hexanet/MergeRequestsCI
+          title: Repository on GitHub
 - title: Continuous Integration
   id: continuous-integration
   applications:

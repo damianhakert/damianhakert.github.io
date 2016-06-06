@@ -112,11 +112,13 @@ Follow these steps to send out a signature request.
 1. With more than one signature required, assign signing order (for contracts or offer letters, always have the GitLab Signatory sign first)
 1. Add the People Ops team to the cc
 1. Click on "Prepare Docs for signing"
-1. Drag & Drop the Signature and Date fields to the corresponding empty spaces in the document (you can select the signee with the pop up screen)
+1. Drag & Drop the Signature and Date fields to the corresponding empty spaces in the document (you can select the signee with the pop up screen) 
+1. For GitLab Inc. agreements, add a required textbox to Exhibit A, and a supplemental larger textbox below for a comment that is not required. 
 1. Add a title and a message for the recipient. For contract use for example: "Dear [...], You can sign [document type] with HelloSign. Once you've signed you will receive a copy by email. If you have any questions, feel free to reach out"
 1. Request Signature.
 
 Once you've sent out the document you will receive email notifications of the progress and a copy of the signed document after all parties have signed.
+If you need to make a change, there is an "Edit & Resend" option in HelloSign. If a new document has to be uploaded, cancel the original and stage a new one to send for signatures. 
 
 ### Processing changes<a name="processing-changes"></a>
 
@@ -168,12 +170,11 @@ down to set the permission setting to "make changes to events" Then save in the
 lower left corner.
 - **Add blank entry to team page**<a name="blank-entry"></a>
 Login to [Gitlab.com](www.gitlab.com) and go to the www-gitlab-com project. In
-the left menu click "Files" and select the folder called "source". Continue by
-clicking the folder "data" and select the file called team.yml. In the top right
+the left menu click "Files," select "data," and choose the file called team.yml. In the top right
 corner you can click "edit" to make edits to the code. Scroll all the way down
 and copy-paste the code of the previous blank entry to the team page. Edit the
 fields to the right info of the new hire and find the right job description URL on
-the [Jobs](https://about.gitlab.com/jobs/) page.
+the [Jobs](https://about.gitlab.com/jobs/) page. Do not include the employee's name in the commit message, only initials.  
  **Note** _This can be tricky, so if you run into trouble reach out to some of
 your awesome colleagues in the #questions (channel) on Slack_
 - **Add entry to Team Call agenda**
@@ -308,6 +309,19 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Select Employee Transfer.
 1. Change location and fill in necessary information.
 1. Select Update.
+
+##### Record Pay Change
+
+1. Go to HR Passport homepage.
+1. Click Find.
+1. Select find person by Name.
+1. Type the name, click search.
+1. Select Employment Datat on the left side of the screen.
+1. Click Employee Pay Change
+1. Select Effective Date.
+1. Enter new rates.
+1. Answer the worker's compensation question.
+1. Save. 
 
 ### Using RingCentral<a name="ringcentral"></a>
 

@@ -39,7 +39,7 @@ We'd love to meet you.
 ## Europe
 
 - [Shift Split](http://shiftsplit.com/), June 2nd -3rd in Split, Croatia:  -- [Ivan] will be speaking on, "Why diploma is not enough as a programmer, and what to do about it..."
-- [Rails Girls Warsaw](http://railsgirls.com/warsaw), June 11th - 12th in Warsaw, Poland:  -- We are sponsoring and mentoring. It's still not too late to register for the event.
+- [Rails Girls Warsaw](http://railsgirls.com/warsaw), June 11th - 12th in Warsaw, Poland:  -- We are sponsoring and it's still not too late to register for the event.
 
 [team]: https://about.gitlab.com/team/
 [Amanda]: https://twitter.com/AmbassadorAwsum
