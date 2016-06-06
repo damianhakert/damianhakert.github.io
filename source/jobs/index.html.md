@@ -99,3 +99,8 @@ If you email us we'll reply with [a link to this paragraph](/jobs/#no-recruiters
 
 - [Description](/jobs/ux-designer/)
 - [Apply](https://gitlab.workable.com/jobs/227708/candidates/new)
+
+### Software Packaging Engineer
+
+- [Description](/jobs/software-packaging-engineer)
+- [Apply](TODO)
