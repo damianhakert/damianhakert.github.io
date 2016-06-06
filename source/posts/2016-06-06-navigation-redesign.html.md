@@ -3,18 +3,18 @@ title: "Navigation redesign"
 date: 2016-06-06
 author: "Dmitriy Zaporozhets"
 author_twitter: dzaporozhets
-categories:
+categories: GitLab
 image_title: '/images/blogimages/gitlab-blog-cover.png'
 ---
 
 After GitLab 8.5 was released, we looked for a way to improve the current user
-interface for both new and experienced users. One of our biggest concern was
+interface for both new and experienced users. One of our biggest concerns was
 that it was easy to get lost in the navigation hierarchy with what we currently
 had. New users were quite confused by how the left sidebar constantly changes
-with new links to different pages. At same time, as an experienced user, I was
+with new links to different pages. At the same time, as an experienced user, I was
 annoyed by the old navigation too.
 
-So Andriy (our UX designer) and I, decided to do something about it. It's been
+So Andriy (our UX designer) and I decided to do something about it. It's been
 almost 4 months now that we are working on it, and in this post I will guide you
 through our journey. Feedback is welcome!
 
@@ -32,14 +32,14 @@ There were quite a few things we did not like:
 
 - The current navigation is not well organized. There are places where it does
   not follow logic or best practices.
-- We can not use muscle memory with the collapsed menu sidebar for fast click
+- We cannot use muscle memory with the collapsed menu sidebar for fast click
   on links because the menu has too many items with new ones added every once
   in a while.
 - It's hard to navigate when you come to GitLab via a link from another app
-  (like chat or anything) because of the lack of a logical hierarchy in our UI
+  (like chat, for example) because of the lack of a logical hierarchy in our UI
   navigation.
 
-A few days later, Andriy came with a prototype where the project's menu was
+A few days later, Andriy came up with a prototype where the project's menu was
 displayed within the dashboard navigation. So when you visit the dashboard
 page you see one level of links, and when you visit a project or group page
 the dashboard links get collapsed to icons and the next level of navigation
