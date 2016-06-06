@@ -25,6 +25,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Leadership](/handbook/leadership)
 * [GitLab University](https://university.gitlab.com/)
 * [Social Media Guidelines](/handbook/social-media-guidelines)
+* [Using Git to update this website](/handbook/meta/updating-the-website/)
 
 ## This page
 
@@ -53,7 +54,6 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Signing Legal Documents](#signing-legal-documents)
 * [Working Remotely](#working-remotely)
 * [Tools and Tips](#tools)
-* [Using Git to update this website](#starting-with-git)
 
 ## Values<a name="values"></a>
 
@@ -680,78 +680,4 @@ this command in your `.bash_profile` or equivalent for your shell.
 
 If you install [MobileDay](https://mobileday.com/) on your phone and give it access to your Google Calendar it can dial into conference calls for you. It is very good at detecting the number and password from the calendar invite.
 
-## Using Git to update this website<a name="starting-with-git"></a>
-
-This is a guide on what you'll need to install and run on your machine to get
-Git up and running so you can create your first MR in minutes! Follow the
-numbered steps below to complete your setup.
-
-### 1. Start using GitLab
-
-1. Here's where you can find step-by-step guides on the [basics of working with Git and GitLab](http://doc.gitlab.com/ce/gitlab-basics/README.html). You'll need those later.
-1. Create your [SSH Keys](http://doc.gitlab.com/ce/gitlab-basics/create-your-ssh-keys.html).
-
-### 2. Install Git
-
-1. Open a terminal.
-1. Check your Git version by executing: `git --version`.
-1. If Git is not installed, you should be prompted to install it. Follow this [guide](http://docs.gitlab.com/ce/gitlab-basics/start-using-git.html) to installing Git and
-linking your account to Git.
-
-### 3. Install RVM
-
-1. Visit [https://rvm.io](https://rvm.io/).
-1. In a terminal, execute: `curl -sSL https://get.rvm.io | bash -s stable`.
-1. Close terminal.
-1. Open a new terminal to load the new environment.
-
-### 4. Install Ruby and Bundler
-
-1. In a terminal, execute: `rvm install 2.2.1` to install Ruby
-   (enter your system password if prompted).
-1. Execute: `rvm use 2.2.1 --default` to set your default Ruby to `2.2.1`.
-1. Execute: `ruby --version` to verify Ruby is installed. You should see:
-   `ruby 2.2.1p85 (2015-02-26 revision 49769)`.
-1. Execute: `gem install bundler` to install [Bundler](http://bundler.io/).
-
-### 5. Clone the source of the website and install its dependencies
-
-1. In a terminal execute: `git clone https://gitlab.com/gitlab-com/www-gitlab-com.git`
-   to clone the website.
-1. Execute: `cd www-gitlab-com` to change to the `www-gitlab-com` directory.
-1. Execute: `bundle install` to install all gem dependencies.
-
-### 6. Prevent newlines from causing all following lines in a file to be tagged as changed
-
-This is especially a problem for anyone running a Mac OSX operating system. The
-command to 'tame' git is `git config --global core.autocrlf input` - execute it.
-
-### 7. Read the instructions
-
-Instructions on how to update the website are in the [readme of www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/README.md).
-
-
-### Local Checks of Your Changes
-
-#### 1. Preview website changes locally
-
-1. In a terminal, execute: `bundle exec middleman`.
-1. Visit http://localhost:4567 in your browser.
-1. To edit the site locally you'll need to install a text editor. We recommend
-   [Sublime Text 2](http://www.sublimetext.com/2) or [Atom](https://atom.io/).
-
-#### 2. Test if all URL links in a page are valid
-
-Until this is automated in CI, a quick way to see if there are any invalid
-links inside a page is the following.
-
-1. Install the [check-my-links][] extension in Chrome (no other browsers
-   support unfortunately).
-1. Open the page you wish to preview (see previous step).
-1. Click the newly installed extension in the upper right corner of Chrome.
-
-A pop-up window will open and tell you how many links, if any, are invalid.
-Fix any invalid links and ideally any warnings, commit, push back, test again.
-
-[check-my-links]: https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf/
 [async-communication]: https://about.gitlab.com/2016/03/23/remote-communication#asynchronous-communication-so-everyone-can-focus
