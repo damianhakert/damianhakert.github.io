@@ -6,7 +6,7 @@ comments: true
 categories: technical overview
 author: Marcia Ramos
 author_twitter: virtuacreative
-image_title: '/images/blogimages/ssg-gitlab-pages-series/part-1-static-x-dynamic-cover.jpg'
+image_title: '/images/blogimages/ssg-gitlab-pages-series/ssg-overview-gitlab-pages-part-3-cover.jpg'
 ---
 
 Which **Static Site Generators** (SSGs) can I use with **GitLab Pages**? How to setup GitLab CI to build my SSG site? Where can I find some examples?
@@ -150,6 +150,8 @@ Don't you have an account on [GitLab.com][sign-up] yet? Let's create one!
 Remember, we can use GitLab Pages to [build any SSG][post-pages] for us and host it for free!
 
 Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
+
+<!-- Cover photo: https://unsplash.com/photos/bphc6kyobMg -->
 
 <!-- IDENTIFIERS -->
 
