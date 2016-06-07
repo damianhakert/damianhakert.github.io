@@ -140,7 +140,7 @@ Check the smart list and flow first. To activate: Click the "registered" smart c
 
 ----
 
-## GitLab Blog 
+## GitLab Blog
 {: #blog}
 
 ### Objectives &amp; Purposes
@@ -152,16 +152,16 @@ Check the smart list and flow first. To activate: Click the "registered" smart c
 ### Important considerations
 
 The [blog](/blog) is our main publishing outlet. Let's do our best to show what's best!
- 
+
 - Content should communicate the benefits of GitLab's unique innovations and tools (e.g., CI)
-- We want to bring in voices from all throughout the company, as well as 
+- We want to bring in voices from all throughout the company, as well as
 from GitLab users and our customers.
 - As always, **everyone can contribute** - GitLab Team members and [Community Writers]
 
 ### Posts Formats
 
-We aim to publish content multiple times a week, with a reliable publishing schedule. The user will most likely have a 
-pleasant experience if we combine multiple posts formats, trying never to be too much repetitive. Repetition is boring. 
+We aim to publish content multiple times a week, with a reliable publishing schedule. The user will most likely have a
+pleasant experience if we combine multiple posts formats, trying never to be too much repetitive. Repetition is boring.
 <!-- According to our [Content Marketing Strategy][WE'D NEED A LINK], --> We'll alternate between the following formats:
 
 - Short form articles
@@ -180,7 +180,7 @@ Try to think about what our users might have interest in reading before picking 
 And remember, our users do not need to be super advanced programmers. They can be newbie folks with limited experience, students,
 technology enthusiasts, and people not used to Git, version control and continuous integration. That's why we need to [define a target audience][tech-writing-audience] before start writing.
 
-Our audience will probably be interested in the topics listed below. 
+Our audience will probably be interested in the topics listed below.
 
 ### Product-specific topics
 
@@ -218,18 +218,22 @@ Do you have a better idea? Don't hesitate, [create an issue][blog-tracker] with 
 1. Define the target audience, knowledge level and system requirements ([example])
 1. Create outlines (a few items describing what you want to discuss along the post)
 1. Submit an issue on the [blog posts issue tracker][blog-tracker] containing the previous items
-1. Mention @amara for feedback on your proposal and on your outlines 
+1. Mention @amara for feedback on your proposal and on your outlines
 1. Amara will evaluate the priority and estimate a due date for publishing
 1. Write the post according to the [Professional Writing Techniques][writing-tech]
 1. Submit your draft as a WIP MR (work in progress merge request) in the [GitLab website project][gitlabwww]
-1. You'll get reviewed and feedback from our Marketing Team
+1. You'll get reviewed and feedback from our Marketing Team:
+   - Assign Marcia (@virtuacreative) for a general review
+   - When done, Marcia will reassign to Axil (if technical), or Amara (if non-technical)
+   - Amara gives the last check and approval to merge
 1. Your post will be published
+1. Marketing Team will post on social media (Twitter/Facebook)
 
-Not a GitLab Team member? Check the process for [Community Writers] below.
+Not a GitLab Team member? Check the process for Community Writers below.
 
 ### Publishing process for Community Writers
 
-For our [community writers], we will follow the Scalable Writing System described below. 
+For our [community writers], we will follow the Scalable Writing System described below.
 
 1. Guest Writer - choose a subject:
    - Make sure you are familiar with [GitLab Workflow]
@@ -242,13 +246,13 @@ For our [community writers], we will follow the Scalable Writing System describe
   - Fork <https://gitlab.com/gitlab-com/www-gitlab-com/> and run it locally
   - Write according to the [Professional Writing Techniques][writing-tech]
   - Submit a [WIP MR] with the proposal and assign it to Amara
-4. Reviewers: 
+4. Reviewers:
   - Amara will take a first look to approve the article for review, and assign Marcia for the first review
   - When first review is finished, Marcia will assign Axil for a detailed technical review
   - When finished, Axil will reassing the MR to Amara, who will follow the [check list](#check-list-before-merging) and approve the content for publishing
 5. Content Marketing: publish
   - Content Marketing will place the date for publishing
-  - Amara will merge and tweet
+  - Amara will merge and tweet/Facebook
 6. Content Marketing / Account Ops: pay the writer
   - Amara email the writer to wire the money
   - Guest writer will get paid
@@ -268,7 +272,7 @@ To keep things clear for everyone, we assume:
 
 ### Forked project
 
-Before you write, make sure you forked [`www-gitlab-com`], cloned to your computer, and were able to preview it locally by running `bundle exec middleman`. 
+Before you write, make sure you forked [`www-gitlab-com`], cloned to your computer, and were able to preview it locally by running `bundle exec middleman`.
 Before making any change, create a new branch `git checkout -b branchname` cloned from `master`.
 
 ### Check list before merging
@@ -318,7 +322,7 @@ We invite and encourage guest writers and also offer compensation through the [C
 [Priceonomics content marketing handbook]: http://priceonomics.com/the-content-marketing-handbook/
 [public domain]: https://en.wikipedia.org/wiki/Public_domain
 [Realm.io]: //realm.io
-[styles guidelines]: ../../developer-relations/technical-writing/#styles-guidelines 
+[styles guidelines]: ../../developer-relations/technical-writing/#styles-guidelines
 [tech-writing-audience]: ../../developer-relations/technical-writing/#st-subject-audience-requirements
 [tinypng]: //tinypng.com
 [WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
