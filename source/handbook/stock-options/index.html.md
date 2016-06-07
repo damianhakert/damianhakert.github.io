@@ -104,6 +104,39 @@ termination of services, the company is not obligated to do so.  Accordingly you
 lose some or all of the investment you made.  Because we are a young company there are
 lots of risks so be aware and informed of the risks. Please read this [quora thread about most startups failing](https://www.quora.com/What-is-the-truth-behind-9-out-of-10-startups-fail) and this story of [people paying more in tax for their stock than they get back](http://www.nytimes.com/2015/12/27/technology/when-a-unicorn-start-up-stumbles-its-employees-get-hurt.html).
 
+## How to Exercise Your Stock Options
+
+
+There are two methods to exercise your shares:
+
+- Electronic (US Residents Only)
+
+
+Log into your eShares account
+
+
+Follow directions to enable ACH payments from your bank
+
+
+After ACH has been enabled select exercise option grants and follow the prompts
+
+
+- Manual (Non ACH and Non US Residents)
+
+
+Log into your eshares account
+
+
+Select print grant and print the forms for exercising shares
+
+
+Create PDF of signed forms and send to peopleops@gitlab.com
+
+
+Send payment in US dollars by wire transfer.  You will be provided wire transfer info
+
+Whichever method you choose (for US residents) be sure to download the 83-b election and file with the IRS within 30 days of exercise.  Send a copy of the election form to peopleops@gitlab.com.
+
 
 ## Option Expiration
 
