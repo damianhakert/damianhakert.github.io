@@ -167,7 +167,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [get-help]: https://about.gitlab.com/getting-help
 [gitlab-com]: https://about.gitlab.com/gitlab-com/
 [pages]: https://pages.gitlab.io
-[pages-ee]: //doc.gitlab.com/ee/pages/README.html
+[pages-ee]: http://doc.gitlab.com/ee/pages/README.html
 [pages-issues]: https://gitlab.com/pages/pages.gitlab.io/issues
 [post-pages]: https://about.gitlab.com/2016/04/07/gitlab-pages-setup/
 [sign-up]: https://gitlab.com/users/sign_in "Sign Up!"
@@ -205,30 +205,30 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 <!-- Languages, preprocessors, libraries and frameworks -->
 
 [animate.css]: https://daneden.github.io/animate.css/
-[Bootstrap]: //getbootstrap.com
-[CoffeeScript]: //coffeescript.org/
-[Foundation]: //foundation.zurb.com/
+[Bootstrap]: http://getbootstrap.com
+[CoffeeScript]: http://coffeescript.org/
+[Foundation]: http://foundation.zurb.com/
 [go]: https://golang.org/
-[haml]: //haml.info/
+[haml]: http://haml.info/
 [html5-boiler]: https://html5boilerplate.com/
-[jquery]: //code.jquery.com/
-[kramdown]: //kramdown.gettalong.org/
+[jquery]: http://code.jquery.com/
+[kramdown]: http://kramdown.gettalong.org/
 [liquid]: https://shopify.github.io/liquid/
 [markdown]: https://en.wikipedia.org/wiki/Markdown
 [modernizr]: https://modernizr.com/
 [node]: https://nodejs.org/en/
 [normalize]: https://necolas.github.io/normalize.css/
 [Python]: https://www.python.org/
-[rdiscount]: //dafoster.net/projects/rdiscount/
+[rdiscount]: http://dafoster.net/projects/rdiscount/
 [redcarpet]: https://github.com/vmg/redcarpet
-[redcloth]: //redcloth.org/
+[redcloth]: http://redcloth.org/
 [Ruby]: https://www.ruby-lang.org/
-[Sass]: //sass-lang.com/
+[Sass]: http://sass-lang.com/
 [skeleton]: http://getskeleton.com/
-[Slim]: //slim-lang.com/
-[Stylus]: //stylus-lang.com/
-[swig]: //paularmstrong.github.io/swig/
-[twig]: //twig.sensiolabs.org/
+[Slim]: http://slim-lang.com/
+[Stylus]: http://stylus-lang.com/
+[swig]: http://paularmstrong.github.io/swig/
+[twig]: http://twig.sensiolabs.org/
 
 <!-- Groups -->
 
