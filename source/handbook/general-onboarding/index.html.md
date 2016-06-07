@@ -151,6 +151,7 @@ to the proper shared Vaults by making a suggestion in the relevant cell in the "
 ### FOR MARKETING ONLY
 
 * [ ] Patricio/Ernst: Add to Tweetdeck.
+* [ ] Mitchell: Give access to Google Analytics if needed
 
 ### FOR SALES AND FINANCE ONLY
 
