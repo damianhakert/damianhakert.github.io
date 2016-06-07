@@ -1201,3 +1201,59 @@
   gitlab:
   story:  |
           Joining July 1st
+
+- name: A.H.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
+  reports_to: Senior Production Engineer and Infrastructure lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining July 5th
+
+- name: T.D.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining July 5th
+
+- name: A.S.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
+  reports_to: Senior Production Engineer and Infrastructure lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining July 11th
+
+- name: A.S.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Junior Service Engineer</a>
+  reports_to: Support Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining July 11th
+          
+- name: N.T.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
+  reports_to: Backend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 1st
+
