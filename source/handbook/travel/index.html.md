@@ -15,7 +15,8 @@ your trip. However, the extra days will not be covered by the company.
 - [Arranging a visa for travel](#arrange-visa)
 - [Tips and Tricks for visa arrangements](#visa-tips)
 - [Setting up your Egencia account](#setup-egencia)  
-- [Booking travel through Egencia](#egencia)  
+- [Booking travel through Egencia](#egencia) 
+- [Booking accomodations through Airbnb](#airbnb) 
 - [Expenses while traveling](#expenses-while-traveling)
 
 
@@ -111,6 +112,12 @@ Please send a message to travel@gitlab.com if you need help in booking your trav
 * When you try to book this, an email will be sent to travel@gitlab.com for approval.
 * Please provide extensive reasoning to make approval easier and faster.
 * After 24 hours without any manual action (approved/denied) the booking will automatically be accepted.
+
+### Booking accomodations through Airbnb <a name="airbnb"></a>
+
+If you need an Airbnb for your stay on a business related trip, you can either book it yourself, or send a request to People Ops. 
+For People Ops, please include a link to which airbnb you would like to stay in, the corresponding dates, and the purpose of your travel. 
+If you are booking the trip yourself, you may expense the cost either through Expensify (Employees), or monthly invoices (Contractors). 
 
 ### Expenses While Traveling <a name="expenses-while-traveling"></a>
 
