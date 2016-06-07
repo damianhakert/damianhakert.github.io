@@ -143,6 +143,9 @@ at date of exercise), even if you do not sell the shares, may be counted as a "t
 towards the Alternative Minimum Tax limit.  You should contact a tax advisor to see if
 this would apply to you.
 
+In addition to the benefits of a longer holding period the IRS does have an additional benefit for holders of Qualified Small Business Stock (QSBS for short).  Currently, GitLab meets the criteria for QSBS treatment however, again the Company is not in a position to offer tax or legal advice so check with your own tax and financial advisors.  We found [this article](https://blog.wealthfront.com/qualified-small-business-stock-2016/) helpful in describing the QSBS program in greater detail.
+
+
 Generally, for Non-qualified Stock Options (NSOs), you are taxed on any gain upon exercise
 of a NSO (difference between the exercise price and fair market value at date of exercise).
 NSOs are treated much less favorably under tax law because they can be given to people who
