@@ -211,6 +211,7 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 As part of our hiring process we may ask applicants to provide us with one or more
 references to contact. These reference calls are typically be done by our [administrative coordinator](https://about.gitlab.com/jobs/administrative-coordinator/) or the hiring
  manager for that specific vacancy following [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
+At minimum two reference calls should be done before an offer is extended; one to a manager, the other to a colleague. Reference calls can be done as soon as the applicant has completed the manager interview. 
 
 ## Getting Contracts Ready, Reviewed, and Signed<a name="prep-contracts"></a>
 
