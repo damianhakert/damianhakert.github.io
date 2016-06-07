@@ -89,6 +89,11 @@ If you email us we'll reply with [a link to this paragraph](/jobs/#no-recruiters
 - [Description](/jobs/service-engineer/)
 - [Apply](https://gitlab.workable.com/jobs/87722/candidates/new)
 
+### Software Packaging Engineer
+
+- [Description](/jobs/software-packaging-engineer)
+- [Apply](https://gitlab.workable.com/jobs/271316/candidates/new)
+
 ### Success Engineer (Customer Success)
 
 - [Description](/jobs/success-engineer/)
