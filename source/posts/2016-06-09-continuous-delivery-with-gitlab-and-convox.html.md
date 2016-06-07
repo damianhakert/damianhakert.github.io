@@ -1,34 +1,31 @@
-# Continuous Delivery with GitLab and Convox
+---
+layout: post
+title: "Continuous Delivery with GitLab and Convox"
+date: 2016-06-09
+comments: true
+categories: technical overview
+author: Noah Zoschke
+author_twitter: nzoschke
+---
 
-Convox is an open-source tool for deploying, managing, and monitoring applications in cloud infrastructure. It increases the productivity of your developers, reduces your infrastructure spend, and ensures that your architecture is resilient, consistent, and compliant.
+Convox is an open-source tool for deploying, managing, and monitoring applications on cloud infrastructure. It increases the productivity of your developers, reduces your infrastructure spend, and ensures that your architecture is resilient, consistent, and compliant.
+
+Recently Convox launched a native integration with GitLab for Continuous Delivery (CD). This tutorial will show you how to use GitLab and Convox together to ship software quickly and reliably.
+
+**Note:** For this tutorial we assume you are familiar with Continuous Deployment (CD) and have a GitLab, Slack and Amazon Web Services (AWS) account. We also assume you are curious how the Convox tools make setting up a private, production-ready cloud environment easy.
+{: .note}
 
 <!-- more -->
 
-GitLab is an open-source tool for managing source code collaboratively. It helps your team write great code and conduct code reviews, and coordinates how your team tests and deploys code together.
+----------
 
-Recently Convox launched a native integration with GitLab for Continuous Delivery (CD). By using Convox and GitLab together, your team can:
+### What's in this page?
+{:.no_toc}
 
-* Set up a private deployment cloud in minutes with `convox install`
+- TOC
+{: toc}
 
-* Create a production-ready application with `convox apps create`
-
-* Link GitLab.com or GitLab CE/EE and Slack to your deployment cloud through the Convox Console
-
-* Push code to GitLab with `git push`
-
-* Let GitLab webhooks or CI automatic builds, tests and deploys of your code to Convox
-
-* Notify the team via Slack when the new release is live
-
-This level of automation enables your team to safely release new code as fast as possible. This represents the most productive workflow possible for you and your team.
-
-All of this is facilitated with open source software that you are free to use, modify and work with the OSS communities to improve.
-
-All of this can run in a totally isolated environment where your code, images and containers never leave your control.
-
-![Continuous Delivery from GitLab to Convox](/images/blogimages/continuous-delivery-with-gitlab-and-convox/gitlab-integration.png)*Continuous Delivery from GitLab to Convox*
-
-![Push Code, Get Service](/images/blogimages/continuous-delivery-with-gitlab-and-convox/slack.png)*Push Code, Get Service*
+----
 
 ### Continuous Delivery
 
@@ -42,11 +39,47 @@ Continuous Delivery (CD) is a modern software development best practice. Your te
 
 * Eliminate work and interruptions on infrastructure that’s not core to your business
 
-If you don’t have this, you are wasting precious time and budget on infrastructure, servers and bespoke deployment tools.
+If you don’t have CD tools, you may be spending too much precious time and budget on infrastructure, servers and bespoke deployment tools.
+
+See the [Wikipedia article on Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery) for more details about the Continuous Delivery approach.
+
+## CD with GitLab and Convox
+
+The best Continuous Delivery workflow offers a way to `git push` code and automatically deploy it to resilient cloud infrastructure.
+
+GitLab is an open-source tool for managing source code collaboratively. It helps your team write great code and conduct code reviews, and coordinates how your team tests and deploys code together.
+
+Convox is an open-source tool for deploying, managing, and monitoring applications in cloud infrastructure. It increases the productivity of your developers, reduces your infrastructure spend, and ensures that your architecture is resilient, consistent, and compliant.
+
+These two services together represent a modern open-source based Continuous Delivery platform. By using Convox and GitLab together your team can:
+
+* Set up a private deployment cloud in minutes with `convox install`
+
+* Create a production-ready application with `convox apps create`
+
+* Link GitLab.com or GitLab CE/EE and Slack to your deployment cloud through the Convox Console
+
+* Push code to GitLab with `git push`
+
+* Let GitLab webhooks or CI automate builds, tests and deploys of your code to Convox
+
+* Notify your team via Slack when the new release is live
+
+This level of automation enables your team to safely release new code as fast as possible, offering an extremely productive workflow for you and your team.
+
+All of this is facilitated with open-source software that you are free to use, modify and work with the OSS communities to improve.
+
+All of this can run in a totally isolated environment where your code, images and containers never leave your control.
+
+![Continuous Delivery from GitLab to Convox](/images/blogimages/continuous-delivery-with-gitlab-and-convox/gitlab-integration.png)*Continuous Delivery from GitLab to Convox*
+
+![Push Code, Get Service](/images/blogimages/continuous-delivery-with-gitlab-and-convox/slack.png)*Push Code, Get Service*
 
 ### Setting up a Convox Deployment Environment
 
-We first need to configure an isolated environment where we will deploy everything. When deploying to AWS, there is a minimum architecture we want for a production-ready environment. Convox makes this simple with a `convox install` command that expertly integrates AWS services:
+We first need to configure an isolated environment where we will deploy everything. When deploying to AWS, there is a minimum architecture we want for a production-ready environment. Convox makes this simple with a `convox install` tool. Click the "Get Started" button on [convox.com](https://convox.com/) to access the web or command line installer.
+
+Convox expertly integrates AWS services:
 
 * Virtual Private Cloud spanning 3 availability zones
 
@@ -54,7 +87,7 @@ We first need to configure an isolated environment where we will deploy everythi
 
 * EC2 Container Service (ECS)
 
-* CloudFormation stack for safe, automated updates for new AMIs or to scale up instance type and count
+* CloudFormation stacks for safe, automated updates for new AMIs or to scale up instance type and count
 
 On top of this base we need to create and configure more infrastructure for you app. Convox has wrapped this up behind a simple `convox apps create` command:
 
@@ -62,7 +95,7 @@ On top of this base we need to create and configure more infrastructure for you 
 
 * Elastic Load Balancer (ELB)
 
-* ECS TasksDefinitions and Services that 
+* ECS TasksDefinitions and Services
 
 * CloudWatch Logs for visibility
 
@@ -167,7 +200,7 @@ The final icing on the cake is that your whole team is notified about the new re
 
 ### Automated Testing
 
-I'm sure you noticed that we went directly from a code push to production. This demonstrates all the heavy lifting, and may be suitable for QA or staging workflows, but for anything going out to production we almost certainly wan to to run some tests too.
+I'm sure you noticed that we went directly from a code push to production. This demonstrates all the heavy lifting, and may be suitable for QA or staging workflows, but for anything going out to production we almost certainly want to run some tests too.
 
 This is possible to set up with a few changes. [GitLab CI](https://about.gitlab.com/gitlab-ci/) is an excellent tool and service for automating tests. 
 
@@ -192,18 +225,18 @@ production:
 
 See the [CI Variables](http://docs.gitlab.com/ce/ci/variables/README.html) doc and [GitLab CI Examples](http://docs.gitlab.com/ce/ci/examples/README.html) doc for more information.
 
-### Open Source Evolution
+## Open Source Evolution
 
-Both GitLab and Convox are always working hard to improve APIs, integrations and tools for automating continuous delivery as open source projects.
+Both GitLab and Convox are always working hard to improve APIs, integrations and tools for automating continuous delivery as open-source projects.
 
-We encourage you to participate in the open source projects future enhancements in this space such as a more formal [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286#note_4141009) enhancement and the [Convox Build / Deploy / Release Pipeline](https://github.com/convox/rack/milestones/Build%20/%20Deploy%20/%20Release%20Pipeline) milestone.
+We encourage you to participate in the open-source projects future enhancements in this space such as a more formal [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286#note_4141009) enhancement and the [Convox Build / Deploy / Release Pipeline](https://github.com/convox/rack/milestones/Build%20/%20Deploy%20/%20Release%20Pipeline) milestone.
 
-### Conclusion
+## Conclusion
 
-As you can tell, there is a lot coordinate between your team pushing code and delivering it as a production service in the cloud.
+As you can tell, there is a lot of details to coordinate between your team pushing code and delivering it as a production service in the cloud.
 
-GitLab and Convox understand how important Continuous Delivery is and have gone to great lengths to make this process available to everyone with free and open source software.
+GitLab and Convox understand how important Continuous Delivery is and have gone to great lengths to make this process available to everyone with free and open-source software.
 
---
+## About guest author Noah Zoschke
 
-Please send feedback and/or questions via Twitter to [@nzoschke](https://twitter.com/nzoschke) or email to noah@convox.com.
+[Noah](https://medium.com/@nzoschke) is CTO at Convox. Previously he was Platform Architect at Heroku. He believes that the cloud should be easy to use, secure, reliable and cost effective for teams and systems of all sizes. He believes that simple, open-source tools will unlock this true utility of the cloud.
