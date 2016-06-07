@@ -4,10 +4,11 @@ title: Team Structure
 page_class: org-structure
 ---
 
-GitLab Inc. has at most four layers in the team structure:
+GitLab Inc. has at most five layers in the team structure:
 
 1. CEO
 1. Executives (e-team) consisting of CxO's and VP's
+1. Directors
 1. Leads
 1. Individual contributors (IC's), which can be a [specialist](/jobs/specialist/) in one things and be an [expert](/jobs/expert/) in multiple things.
 
