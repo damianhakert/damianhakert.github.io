@@ -69,9 +69,9 @@ If you email us we'll reply with [a link to this paragraph](/jobs/#no-recruiters
 - [Description](/jobs/people-ops-coordinator/)
 - [Apply](https://gitlab.workable.com/jobs/220106/candidates/new)
 
-### VP of People Operations
+### Director/VP of People Operations
 
-- [Description](/jobs/vp-of-people-ops/)
+- [Description](/jobs/dir-or-vp-of-people-ops/)
 - [Apply](https://gitlab.workable.com/jobs/234625/candidates/new)
 
 ### Production Engineer
