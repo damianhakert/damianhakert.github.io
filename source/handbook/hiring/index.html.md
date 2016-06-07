@@ -18,18 +18,30 @@ title: "Hiring"
 
 The CEO needs to authorize any new job positions/searches, and agree on the proposed hiring team.
 
-1. Define hiring team. Roles can be assigned fluidly (see below for the [Hiring Process](#hiring-process)), depending on who is available, bearing in
-mind that the most time consuming aspect tends to be review of the first wave of applicants.
-1. Create the job description on our website, and in Workable. Note: You need to actively link Workable and Gmail.
+1. Define hiring team. Roles can be assigned fluidly (see below for the
+   [Hiring Process](#hiring-process)), depending on who is available, bearing in
+   mind that the most time-consuming aspect tends to be review of the first wave
+   of applicants.
+1. Create the job description on our website, and in Workable. Note: You need to
+   actively link Workable and Gmail.
     1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`
-    1. Add a job of the exact same job title on [Workable](https://gitlab.workable.com/backend)
+       if it doesn't already exist.
+    1. Add a job of the exact same job title on [Workable](https://gitlab.workable.com/backend):
        * For location, select "Telecommute".
-       * For the description, simply write `For the job description, see [url of relevant jobs page on GitLab's website]`
-       * Indicate what applicants need to provide with their application. By default, this will include their resumé, a cover letter, but it may also
-       include qualifying questions such as "What timezone are you in?" and "Are you aware that this is not a DevOps role?".
+       * For the description, write `For the job description, see [URL of
+         relevant jobs page on about.gitlab.com]`
+       * Indicate what applicants need to provide with their application. By
+         default, this will include their resumé, a cover letter, but it may
+         also include qualifying questions such as "What timezone are you in?"
+         and "Are you aware that this is not a DevOps role?".
        * "Publish" the job, and follow the links to the application form.
-    1. Embed the link to the application form for the new job on our [Jobs page](https://about.gitlab.com/jobs/), and also include a link on their to the job description. As soon as the new job description / posting is "live" on our website, also consider your available [advertising methods](#job-advertising) below.
+    1. In the [`data/jobs.yml`][jobs.yml] file, open the position or add a new
+       entry for it. See [the `README`][jobs_readme] for detailed instructions.
+    1. As soon as the new job description / posting is live on our website,
+       consider your available [advertising methods](#job-advertising) below.
 
+[jobs.yml]: https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml
+[jobs_readme]: https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/README.md#opening-or-closing-hiring
 
 ## Advertising the job<a name="job-advertising"></a>
 
