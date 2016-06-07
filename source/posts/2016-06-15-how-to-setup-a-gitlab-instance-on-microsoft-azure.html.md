@@ -1,16 +1,11 @@
 ---
 title: "How to Setup a GitLab Instance on Microsoft Azure"
 author: Dave Wentzel
+date: 2016-06-15
 author_twitter:
-categories:
+categories: tutorial
 image_title:
 ---
- 
-_This is a guest blog post by Dave Wentzel, a Data Solution Architect
-with Microsoft._
-
-## Introduction
-{:.no_toc}
 
 GitLab is a scalable, self-hosted Git repository "ecosystem". It is available as
 a free [Community Edition][ce] and as a subscription-based
@@ -22,11 +17,22 @@ your own instance can be done in just a few hours using the
 But what if you don't want to invest that much time to see if GitLab is
 for you? Does Linux scare you? Do you want to try GitLab quickly without
 a big up-front investment? Need someone else to handle your GitLab
-administration? [Microsoft Azure](https://azure.microsoft.com/en-us/)
-may be the answer.
+administration? [Microsoft Azure] may be the answer.
+
+**Note:** add to this note what is expected from your audience. See https://about.gitlab.com/handbook/marketing/developer-relations/technical-writing/#st-subject-audience-requirements for reference.
+{: .note}
+
+<!-- more -->
+
+----
+
+### What's in this tutorial?
+{: .no_toc}
 
 - TOC
 {:toc}
+
+----
 
 ## GitLab on Azure
 
@@ -54,7 +60,7 @@ First you need an account on Azure. There are three ways to do this:
 ## Working with Azure
 
 Now that you have an account we can get started. When you log in to
-Azure using [portal.azure.com](https://portal.azure.com) you will see
+Azure using [portal.azure.com] you will see
 the Dashboard which gives you a quick overview of Azure resources:
 
 ![](/images/blogimages/gitlab-azure/image1.png)
@@ -185,9 +191,19 @@ is a great way to experiment with GitLab. If you decide, like me, that
 GitLab is the best solution for source code management you can continue
 to use Azure as your secure, scalable cloud provider.
 
-[free-trial]: https://azure.microsoft.com/en-us/pricing/free-trial/
-[msdn-benefits]: https://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/?WT.mc_id=A261C142F
-[ms-open]: https://stackoverflow.com/questions/33653726/azure-file-share-backup-database-to-mounted-drive
+## About guest author
+
+This is a guest blog post by Dave Wentzel, a Data Solution Architect
+with Microsoft. <!-- Dave: improve at will, if you wish. -->
+
+
+<!-- Identifiers -->
+
 [ce]: https://about.gitlab.com/downloads/
 [ee]: https://about.gitlab.com/pricing/
+[free-trial]: https://azure.microsoft.com/en-us/pricing/free-trial/
+[msdn-benefits]: https://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/?WT.mc_id=A261C142F
 [marketplace]: https://azure.microsoft.com/en-us/marketplace/
+[Microsoft Azure]: https://azure.microsoft.com/en-us/
+[ms-open]: https://stackoverflow.com/questions/33653726/azure-file-share-backup-database-to-mounted-drive
+[portal.azure.com]: https://portal.azure.com
