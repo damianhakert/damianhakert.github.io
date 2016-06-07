@@ -9,9 +9,9 @@ author_twitter: nzoschke
 image_title: '/images/blogimages/continuous-delivery-with-gitlab-and-convox/photo-1448466970641-a7ab63c9a0ec.jpg'
 ---
 
-Convox is an open-source tool for deploying, managing, and monitoring applications on cloud infrastructure. It increases the productivity of your developers, reduces your infrastructure spend, and ensures that your architecture is resilient, consistent, and compliant.
+[Convox](https://convox.com/) is an open-source tool for deploying, managing, and monitoring applications on cloud infrastructure. It increases the productivity of your developers, reduces your infrastructure spend, and ensures that your architecture is resilient, consistent, and compliant.
 
-Recently Convox launched a native integration with GitLab for Continuous Delivery (CD). This tutorial will show you how to use GitLab and Convox together to ship software quickly and reliably.
+Recently Convox launched a native integration with [GitLab](https://about.gitlab.com/) for Continuous Delivery (CD). This tutorial will show you how to use GitLab and Convox together to ship software quickly and reliably.
 
 **Note:** For this tutorial we assume you are familiar with Continuous Deployment (CD) and have a GitLab, Slack and Amazon Web Services (AWS) account. We also assume you are curious how the Convox tools make setting up a private, production-ready cloud environment easy.
 {: .note}
