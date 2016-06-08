@@ -57,6 +57,7 @@ title: Security Handbook
    store your personal passwords please store them in your 'Primary' vault, not
    the vault named 'Your Vault'.
 1. We will configure applications of which we store the passwords in 1password to [not periodically reset passwords](https://www.cesg.gov.uk/articles/problems-forcing-regular-password-expiry).
+1. Do not install software with many known security vulnerabilities (as [listed in the handbook](/handbook/#do-not-use)). When in doubt, do not install until after checking with the team by discussing in an issue, and then document the verdict in the handbook.
 
 [1Password]: https://agilebits.com/onepassword
 [generate strong passwords]: https://support.1password.com/guides/mac/generate-a-strong-password.html
@@ -73,7 +74,7 @@ title: Security Handbook
 hence the name - and let 1Password generate and manage strong, unique passwords
 for every site for which you have a login.
 
-### Terms<a name="1password-terms"></a>
+### Terminology<a name="1password-terms"></a>
 
 Following this guide, it will be helpful to understand a few terms we'll be
 using throughout.
