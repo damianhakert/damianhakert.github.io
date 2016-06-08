@@ -411,51 +411,45 @@ intellectual property violations
 ## Spending Company Money<a name="spending-company-money"></a>
 
 1. Spend company money like it is your **own** money.
-1. You don't have to ask permission before making purchases in the interest of the
-company. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
+1. You don't have to ask permission before making purchases that are **in the interest of the company**, and listed in the guidelines below. However, you should obtain manager approval for items that are more than 15% over the cost of the sample item listed below. When in doubt, contact your manager.
 1. **File** your expense report no later than 7 days after the end of the calendar quarter that you made the purchase in.
-1. Any non-company expenses paid with a company credit card will have to be reported
-to your manager as soon as possible and **refunded** in full within 14 days.
-1. **Mileage** is reimbursed according to local law: [US rate per mile](http://www.irs.gov/Tax-Professionals/Standard-Mileage-Rates),
-or [rate per km](http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/auto_en_vervoer/auto_van_de_onderneming/autokosten/u_rijdt_in_uw_eigen_auto) in the Netherlands.
-1. The company will pay for the following **items** if you need it for work or use
-it mainly for business, and local law allows us to pay for it without incurring
-payroll taxes (links are to sample items, other options can be considered):
+1. Any non-company expenses paid with a company credit card will have to be reported to your manager as soon as possible and **refunded** in full within 14 days.
+
+1. **Items** The company will pay for the following items if you **need it for work or use it mainly for business**, and local law allows us to pay for it without incurring payroll taxes. Items paid for by the company are property of the company and need to be reported with serial numbers etc. to People Ops for proper asset tracking (TODO: describe asset tracking in more detail and link from here). Links in the list below are to sample items, other options can be considered:
     *  Notebook: we recommend getting a [MacBook Pro 13-inch retina with 512GB](http://www.apple.com/shop/buy-mac/macbook-pro) for engineers and a [Macbook 256GB](http://www.apple.com/shop/buy-mac/macbook-pro) for non-engineers. Running Unix makes it easier to work with git from the command line so we strongly recommend against Windows laptops. WebEx screen sharing does not work from a Linux platform while it is one of the more common conferencing tools used with customers that we all need to interact with from time to time. Additionally 1password doesn't have a native client for Linux and the web interface in Firefox is not that good. If you have strong reasons to want to deviate from this guideline just ask your manager.
     *  [Notebook carrying bag](http://www.amazon.com/Under-Armour-Hustle-Backpack-Royal/dp/B00OQSL6LO/ref=sr_1_27?s=office-products&ie=UTF8&qid=1458505246&sr=1-27&keywords=laptop+backpack)
     *  External [monitor](http://www.amazon.com/gp/product/B009C3M7H0?psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s00), [monitor-cable](http://www.amazon.com/Monoprice-32AWG-Mini-DisplayPort-Cable/dp/B0034X6SCY/ref=sr_1_1?ie=UTF8&qid=1442231319&sr=8-1&keywords=Monoprice+6ft+32AWG+Mini+DisplayPort+to+DisplayPort+Cable+-+White),
-    * [webcam](https://www.amazon.com/gp/product/B004YW7WCY/) and [Ethernet connector](https://www.amazon.com/gp/product/B00FFJ0RKE)
-    *  [Headset](http://www.amazon.com/Microsoft-LifeChat-LX-3000-Headset-JUG-00013/dp/B00906E03I?ie=UTF8&keywords=microsoft%20headset&qid=1459468311&ref_=sr_1_1&sr=8-1)
+    * [Webcam](https://www.amazon.com/gp/product/B004YW7WCY/)
+    * [Ethernet connector](https://www.amazon.com/gp/product/B00FFJ0RKE)
+    * [Headset](http://www.amazon.com/Microsoft-LifeChat-LX-3000-Headset-JUG-00013/dp/B00906E03I?ie=UTF8&keywords=microsoft%20headset&qid=1459468311&ref_=sr_1_1&sr=8-1)
     * Keyboard and mouse [set](http://www.amazon.com/Logitech-Wireless-Combo-Mk520-Keyboard/dp/B003VANO7C/ref=sr_1_31?ie=UTF8&qid=1458505505&sr=8-31&keywords=keyboard)
     *  Height adjustable [desk](http://www.amazon.com/ApexDesk-Electric-Height-Adjustable-Standing/dp/B00WRJMYPG/ref=sr_1_40?s=office-products&ie=UTF8&qid=1458506071&sr=1-40&keywords=desk)
     *  Ergonomic [chair](http://www.amazon.com/dp/B00S7EMFN6?psc=1)
+    *  Work-related books
+    *  Mobile phone and/or tablet
+    *  Anything else you need? Please ask by sending an email to People Ops.
+1. **Expenses** The company will reimburse for the following expenses if you need it for work or use it mainly for business, and local law allows us to pay for it without incurring taxes:
+    *  Mileage is reimbursed according to local law: [US rate per mile](http://www.irs.gov/Tax-Professionals/Standard-Mileage-Rates), or [rate per km](http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/auto_en_vervoer/auto_van_de_onderneming/autokosten/u_rijdt_in_uw_eigen_auto) in the Netherlands.
     *  Internet connection, for employees in the Netherlands see [Regeling Internet Thuis](https://docs.google.com/a/gitlab.com/document/d/1J70geARMCjRt_SfxIY6spdfpTbv_1v_KDeJtGRQ6JmM/edit#heading=h.5x5ssjstqpkq)
-    *  Mobile phone and subscription
+    *  Mobile phone subscription
     *  Telephone land line
     *  Skype calling credit, we can autofill your account
     *  Google Hangouts calling credit
     *  Office space (if working from home is not practical)
     *  Work-related online courses
-    *  Work-related books
     *  Work-related conferences (please get permission in advance if total costs are more than $500)
     *  Business travel upgrades per return trip (i.e. not per each leg of the flight):
         * Up to the first [EUR 300](https://www.google.com/search?q=300+eur+in+usd) for an upgrade to Business Class on flights longer than 8 hours.
         * Upgrade to Economy Plus if you’re taller than 1.95m / 6’5” for flights longer than 2 hours.
         * Up to the first [EUR 100](https://www.google.com/search?q=100+eur+in+usd) for an upgrade to Economy Plus (no height restriction) on flights longer than 8 hours.
-    * Anything else you need? Please ask!
-    * To order please send a screenshot of what you need to People Ops.
+    *  Anything else you need? Please ask by sending an email to People Ops.
+
 1. **Expense Reimbursement**
     *  If you are a contractor, please submit an invoice with receipts attached to <ap@gitlab.com>.
-    *  If you are an employee, GitLab uses Expensify to facilitate the reimbursement of your expenses.
-    You will receive an invitation by email to join GitLab's account. Please set up your account
-    by following the instructions in the invitation.
+    *  If you are an employee, GitLab uses Expensify to facilitate the reimbursement of your expenses. As part of onboarding you will receive an invitation by email to join GitLab's account. Please set up your account by following the instructions in the invitation.
     *  If you are new to Expensify and would like a brief review, please see [Getting Started](http://help.expensify.com/getting-started/)
-    *  For step by step instructions on creating, submitting and closing a report
-    please see [Create, Submit, Close](http://help.expensify.com/reports-create/)
-    *  If you are an employee with a company credit card, your company
-    credit card charges will automatically be fed to a new Expensify report each month.
-    Please attach receipts for these expenses (per the Expense Policy, see below) within 5 business days after the end of the month.
-    These amounts will not be reimbursed to you but Expensify provides a platform for documenting your charges correctly.
+    *  For step by step instructions on creating, submitting and closing a report please see [Create, Submit, Close](http://help.expensify.com/reports-create/)
+    *  If you are an employee with a company credit card, your company credit card charges will automatically be fed to a new Expensify report each month. Please attach receipts for these expenses (per the Expense Policy, see below) within 5 business days after the end of the month. These amounts will not be reimbursed to you but Expensify provides a platform for documenting your charges correctly.
    * **Expense Policy**
       * Max Expense Amount - 5,000 USD or 5,000 EUR
       * Receipt Required Amount - 25 USD or 25 EUR
