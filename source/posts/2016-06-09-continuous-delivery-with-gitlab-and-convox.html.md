@@ -48,11 +48,7 @@ See the [Wikipedia article on Continuous Delivery](https://en.wikipedia.org/wiki
 
 The best Continuous Delivery workflow offers a way to `git push` code and automatically deploy it to resilient cloud infrastructure.
 
-GitLab is an open-source tool for managing source code collaboratively. It helps your team write great code and conduct code reviews, and coordinates how your team tests and deploys code together.
-
-Convox is an open-source tool for deploying, managing, and monitoring applications in cloud infrastructure. It increases the productivity of your developers, reduces your infrastructure spend, and ensures that your architecture is resilient, consistent, and compliant.
-
-These two services together represent a modern open-source based Continuous Delivery platform. By using Convox and GitLab together your team can:
+Convox and GitLab together represent a modern open-source based Continuous Delivery solution. With both of them your team can:
 
 * Set up a private deployment cloud in minutes with `convox install`
 
@@ -84,7 +80,7 @@ Convox expertly integrates AWS services:
 
 * Virtual Private Cloud spanning 3 availability zones
 
-* EC2 and an AutoScale Groups (ASG) with at least 3 instances
+* EC2 and an AutoScale Group (ASG) with at least 3 instances
 
 * EC2 Container Service (ECS)
 
@@ -234,7 +230,7 @@ We encourage you to participate in the open-source projects future enhancements 
 
 ## Conclusion
 
-As you can tell, there is a lot of details to coordinate between your team pushing code and delivering it as a production service in the cloud.
+As you can tell, there are a lot of details to coordinate between your team pushing code and delivering it as a production service in the cloud.
 
 GitLab and Convox understand how important Continuous Delivery is and have gone to great lengths to make this process available to everyone with free and open-source software.
 
