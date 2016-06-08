@@ -155,7 +155,7 @@ At GitLab our handbook is extensive and keeping it relevant is an important part
 
 1. Reading is much faster than listening.
 1. Reading is async, you don't have to interrupt someone or wait for them to become available.
-1. Recruiting is easier if people can see what we stand for an how we operate.
+1. Recruiting is easier if people can see what we stand for and how we operate.
 1. Retention is better if people know what they are getting into before they join.
 1. Onboarding is easier if you can find all relevant information spelled out.
 1. Teamwork is easier if you can read how other parts of the company work.
@@ -166,11 +166,10 @@ At GitLab our handbook is extensive and keeping it relevant is an important part
 Documenting things in the handbook takes more time initially and it requires thinking. But it saves time over a longer period and it is essential to scale and adapt our organization. It is not unlike writing tests for your software. Please follow these guidelines and remind others of them.
 
 1. If you need to discuss with a team member for help please realize that probably the majority of the community also doesn't know, be sure to **document** the answer to radiate this information to the whole community. After the question is answered discuss where it should be documented and who will do it. You can remind other people of this by asking 'who will document this'?
-1. When you discuss something is chat always try to **link** to a URL where relevant, for example the documentation you have a questions about or the page that answered your question. You can remind other people of this by asking 'can you please link'?
+1. When you discuss something in chat always try to **link** to a URL where relevant, for example the documentation you have a question about or the page that answered your question. You can remind other people of this by asking 'can you please link'?
 1. To change a guideline or process, **suggest an edit** in the form of a merge request.
 After it is merged you can talk about it during the team call if applicable. You can remind other people of this by asking 'can you please send an MR for the handbook'?
-1. Communicate process changes by linking to the **diff** (a commit that shows the changes before and after). Do not change the process first,
-and then view the documentation as a lower priority task. Planning to do the documentation later inevitably leads to duplicate work communicating the change and to outdated documentation. You can remind other people of this by asking 'can you please update the handbook first?'.
+1. Communicate process changes by linking to the **diff** (a commit that shows the changes before and after). Do not change the process first, and then view the documentation as a lower priority task. Planning to do the documentation later inevitably leads to duplicate work communicating the change and to outdated documentation. You can remind other people of this by asking 'can you please update the handbook first?'.
 1. When communicating something always include a link to the relevant (and up to date) part of the **handbook** instead of including the text in the email/chat/etc. You can remind other people of this by asking 'can you please link to the relevant part of the handbook?'.
 
 Many things can be documented in the handbook, but this will mostly be read by team members. If something can concern users of GitLab it should be documented in the [GitLab documentation](http://doc.gitlab.com/), the [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit), our [CONTRIBUTING file](https://gitlab.com/gitlab-org/gitlab-test/blob/master/CONTRIBUTING.md) or the [PROCESS file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
@@ -217,8 +216,9 @@ to the 'call?' request with a video link or say 'yes' and let the other person
 start it. Don't say 'yes' and start a call 5 seconds later since it is likely
 you'll both be creating a video call link at the same time.
 1. All company data should be **shareable** by default. Don't use a local text
-file but leave comments on an issue. Use merge requests to edit the website, don't use
-Google Docs. If you _do_ need a Google Doc, then create the doc with your company Google
+file but leave comments on an issue.
+1. Work on website edits via commits to a merge request. Never use a Google doc for something non-confidential that is intended for the website. 
+1. If you _do_ need a Google Doc, then create the doc with your company Google
 Apps account. By default share Google docs with the whole company 'anyone at
 GitLab can find and access' with edit (preferred) or comment access for everyone.
 An easy way to do this, is to create your Google docs in a Shared Folder in
@@ -267,7 +267,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
 1. Do not leave issues open for a long time, issues should be **actionable** and realistic. If you are assigned but don't have time, assign it to someone else. If nobody is assigned and it is not a priority, please ensure the community can help and close it.
 1. Make a conscious effort to **prioritize**<a name="prioritize"></a> your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc. This is detailed in [the workflow document](/handbook/workflow).
 1. Use the public issue trackers on GitLab.com for anything related to our software since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
-1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [infrastructure](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues.
+1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [infrastructure](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues that do not have a home in one of the public team trackers that can be found on the [team structure](/team/structure/) page.
 1. Pick issues from the current [milestone](https://gitlab.com/groups/gitlab-org/milestones).
 1. We try not to assign issues to people but to have people **pick issues** in a milestone themselves.
 1. Assign an issue to yourself as soon as you start to work on it, but not before
