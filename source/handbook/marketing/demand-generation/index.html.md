@@ -76,10 +76,13 @@ The Demand Generation organization includes Demand Generation, Business Developm
         => when converting a qualified lead, make sure that you are creating an opportunity upon conversion. This is required to map the BDR to the opportunity.  It also helps us to track the age of an opportunity from discovery call to closed.
 
         => if the lead is not a new opportunity, convert to a contact and uncheck the box to create a new opportunity.
-* MQL is any lead with a lead score of 20 or greater in Marketo (lead score is calculated based on behavioral and demographic data). Some of the behaviors increase the behavioral lead score are as follows:
-   * Signing up to receive the newsletter
-   * Signing up for an account on gitlab.com
-   * Filling out any other form (contacts us, webinar registration, etc)
+* MQL is any lead with a lead score of 20 or greater in Marketo (lead score is calculated based on behavioral and demographic data). Some examples of bahavior or demographic data that increase lead score are:
+   * Signing up to receive the newsletter (behavioral)
+   * Signing up for an account on gitlab.com (behavioral)
+   * Filling out other web forms (contacts us, webinar registration, etc) (behavioral)
+   * Starting an EE Trial (behavioral)
+   * Working at a Fortune 500 (demographic)
+   * Job title (demographic)
 
 ## Lead status<a name="leadStatus"></a>
 
