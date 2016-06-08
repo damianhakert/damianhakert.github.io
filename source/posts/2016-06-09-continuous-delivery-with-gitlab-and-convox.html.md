@@ -6,14 +6,14 @@ comments: true
 categories: technical overview
 author: Noah Zoschke
 author_twitter: nzoschke
-image_title: '/images/blogimages/continuous-delivery-with-gitlab-and-convox/photo-1448466970641-a7ab63c9a0ec.jpg'
+image_title: '/images/unsplash/gitlab-convox-cover.jpg'
 ---
 
 [Convox](https://convox.com/) is an open-source tool for deploying, managing, and monitoring applications on cloud infrastructure. It increases the productivity of your developers, reduces your infrastructure spend, and ensures that your architecture is resilient, consistent, and compliant.
 
 Recently Convox launched a native integration with [GitLab](https://about.gitlab.com/) for Continuous Delivery (CD). This tutorial will show you how to use GitLab and Convox together to ship software quickly and reliably.
 
-**Note:** For this tutorial we assume you are familiar with Continuous Deployment (CD) and have a GitLab, Slack and Amazon Web Services (AWS) account. We also assume you are curious how the Convox tools make setting up a private, production-ready cloud environment easy.
+**Note:** For this tutorial we assume you are familiar with Continuous Deployment (CD) and have a GitLab, Slack and Amazon Web Services (AWS) account. We also assume you are curious about how Convox tools make setting up a private, production-ready cloud environment easy.
 {: .note}
 
 <!-- more -->
@@ -28,7 +28,7 @@ Recently Convox launched a native integration with [GitLab](https://about.gitlab
 
 ----
 
-### Continuous Delivery
+## Continuous Delivery
 
 Continuous Delivery (CD) is a modern software development best practice. Your team wants and needs the ability to safely push updates to production multiple times a day. With a great CD pipeline you can:
 
@@ -68,9 +68,9 @@ These two services together represent a modern open-source based Continuous Deli
 
 This level of automation enables your team to safely release new code as fast as possible, offering an extremely productive workflow for you and your team.
 
-All of this is facilitated with open-source software that you are free to use, modify and work with the OSS communities to improve.
+All of this is built on open-source software that you are free to read, modify, and work with the OSS communities to improve.
 
-All of this can run in a totally isolated environment where your code, images and containers never leave your control.
+On top of the open-source projects, both GitLab and Convox offer enterprise-grade options to run this in a totally isolated environment where your code, images and containers never leave your control.
 
 ![Continuous Delivery from GitLab to Convox](/images/blogimages/continuous-delivery-with-gitlab-and-convox/gitlab-integration.png)*Continuous Delivery from GitLab to Convox*
 
@@ -90,7 +90,7 @@ Convox expertly integrates AWS services:
 
 * CloudFormation stacks for safe, automated updates for new AMIs or to scale up instance type and count
 
-On top of this base we need to create and configure more infrastructure for you app. Convox has wrapped this up behind a simple `convox apps create` command:
+On top of this base we need to create and configure more infrastructure for your app. Convox has wrapped this up behind a simple `convox apps create` command:
 
 * EC2 Container Registry (ECR)
 
@@ -136,7 +136,7 @@ When this is configured Convox will get a notification every time your team push
 
 GitLab has an impeccable security model. If a system like Convox happens to learn the URL for a private repo via a webhook, we still want to control its ability to read or write to this private repo.
 
-To grant Convox limited, read-only access to your private repo, GitLab offers “Deploy Keys.” These are SSH keys that have read-only access to a repo, guaranteeing that a 3rd party system can clone code, but can not push any code back.
+To grant Convox limited, read-only access to your private repo, GitLab offers “Deploy Keys.” These are SSH keys that have read-only access to a repo, guaranteeing that a third-party system can clone code, but can not push any code back.
 
 ![Read-only SSH key](/images/blogimages/continuous-delivery-with-gitlab-and-convox/gitlab-deploy-key.png)*Read-only SSH key*
 
