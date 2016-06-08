@@ -119,6 +119,10 @@ If you need an Airbnb for your stay on a business related trip, you can either b
 For People Ops, please include a link to which airbnb you would like to stay in, the corresponding dates, and the purpose of your travel. 
 If you are booking the trip yourself, you may expense the cost either through Expensify (Employees), or monthly invoices (Contractors). 
 
+### Self Stay Reimbursment Policy <a name="Self Stay"></a>
+
+If you decide to stay with friends or family instead of a hotel/Airbnb for a business trip you have, for saving company money on accomodation expenses, the company will pay you $75 per night saved.
+
 ### Expenses While Traveling <a name="expenses-while-traveling"></a>
 
 1. The company will pay for lodging and meals during the part of the trip
