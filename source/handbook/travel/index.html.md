@@ -117,7 +117,7 @@ Please send a message to travel@gitlab.com if you need help in booking your trav
 
 If you need an Airbnb for your stay on a business related trip, you can either book it yourself, or send a request to People Ops. 
 For People Ops, please include a link to which airbnb you would like to stay in, the corresponding dates, and the purpose of your travel. 
-If you are booking the trip yourself, you may expense the cost either through Expensify (Employees), or monthly invoices (Contractors). 
+If you are booking the trip yourself, you may be reimbursed for the portion of your stay that was business related by submitting in Expensify or on your monthly invoice. 
 
 ### Expenses While Traveling <a name="expenses-while-traveling"></a>
 
