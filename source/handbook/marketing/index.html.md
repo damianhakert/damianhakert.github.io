@@ -233,6 +233,8 @@ We use Slack internally as a communication tool. The marketing channels are as f
 - Newsletters - Watch our twice monthly newsletter get made here.
 - Social - Twitter, Facebook, and other social media questions?
 - Webcasts - Watch the webcast behind the scenes.
+- Support - Ask any and all technical questions here for a quick response.
+- SFDC users - Having issues with SFDC? Ask here first.
 
 # Marketing Handbook Updates<a name="handbook"></a>
 
