@@ -253,7 +253,7 @@ a team member just "@" mention them. If multiple people were working on somethin
 try mentioning each person by "@" name. 'Thanks everyone' does not say much.
 1. To thank someone who is not a team member, mention your manager, our People Ops Coordinator, the name of the person, a quirky gift
 and link to their work. For example: _"@manager, @peopleopscoordinator: Joe deserves a lawnmower for LINK"_.
-With your manager's blessing, the People Ops Coordinators will approach the person in question for their address saying we want to send
+With your manager's blessing, the People Ops Coordinator will approach the person in question for their address saying we want to send
 some swag. We'll ship it in gift wrap with "Thanks for your great work on LINK, love
 from @gitlab".
 1. Don't thank the CEO or other executives for something that the company paid for, thank GitLab instead.
@@ -272,9 +272,8 @@ out to any of the other C-level team members or our board member Bruce Armstrong
 1. Give the community the **chance to help**. For example: place issues on the feedback tracker, leave comments in rake check tests about what you can run manually and ask 'Can you send a merge request to fix this?'.
 1. Submit the **smallest** item of work that makes sense. When creating an issue describe the smallest fix possible, put suggestions for enhancements in separate issues and link them. If you're new to GitLab and are writing documentation or instructions submit your first merge request for at most 20 lines.
 1. Do not leave issues open for a long time, issues should be **actionable** and realistic. If you are assigned but don't have time, assign it to someone else. If nobody is assigned and it is not a priority, please ensure the community can help and close it.
-1. Make a conscious effort to **prioritize**<a name="prioritize"></a> your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc. This is detailed in [the workflow document](/handbook/workflow).
-1. Use the public issue trackers on GitLab.com for anything related to our software since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
-1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [infrastructure](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues that do not have a home in one of the public team trackers that can be found on the [team structure](/team/structure/) page.
+1. Make a conscious effort to **prioritize**<a name="prioritize"></a> your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc. This is detailed in [the development workflow document](/handbook/workflow).
+1. Use the public issue trackers on GitLab.com for everything since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/). We do still use some private issue trackers on our internal dev.gitlab.org server, such as for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues that do not have a home in one of the public team trackers that can be found on the [team structure](/team/structure/) page.
 1. Pick issues from the current [milestone](https://gitlab.com/groups/gitlab-org/milestones).
 1. We try not to assign issues to people but to have people **pick issues** in a milestone themselves.
 1. Assign an issue to yourself as soon as you start to work on it, but not before
