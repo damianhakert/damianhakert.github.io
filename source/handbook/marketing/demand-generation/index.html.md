@@ -159,6 +159,7 @@ Current state
 - If an email is a quote, forward to appropriate sales people.
 - If an email is a refund or other billing request, forward to ar@gitlab.com.
 - If an email is a license issue or question, forward to support@gitlab.com.
+- If an email is received(contact request, account questions, etc. etc.), check in sfdc if there is an account owner. If there is, forward the email to the owner and change the case into their name if there is an open case. If the account owner is Chad or Hank, this is the default. Forward all inquiries/requests to Chad and he will take care of them. Also switch the sfdc case into Chad's name as well.
 
 ## Newsletters<a name="newsletters"></a>
 
