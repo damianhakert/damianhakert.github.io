@@ -9,22 +9,23 @@ author_twitter: virtuacreative
 image_title: '/images/blogimages/ssg-gitlab-pages-series/ssg-overview-gitlab-pages-cover.jpg'
 ---
 
-What are Static Site Generators? What are they for? Why should I use them? Do they have limitations? How can I use them with **GitLab Pages**?
+What are Static Site Generators? What are they for? Why should I use them? Do they have
+limitations? How can I use them with **GitLab Pages**?
 
-If these questions ring a bell, this **series of posts** is for you! We are preparing three articles around the same theme "**Static Site Generators (SSGs)**".
+If these questions ring a bell, this **series of posts** is for you! We are preparing
+three articles around the same theme "**Static Site Generators (SSGs)**".
 
-This is **Part 2: Modern Static Site Generators**, where we provide you with an overview on the subject.
+This is **Part 2: Modern Static Site Generators**, where we provide you with an overview on
+the subject.
 
-The previous post was [**Part 1: Dynamic x Static Websites**][part-1], where we explained the differences between them, and their pros and cons.
+The previous post was [**Part 1: Dynamic x Static Websites**][part-1], where we explained
+the differences between them, and their pros and cons.
 
 Stay tuned for the next post: **Part 3: Build any SSG site with GitLab Pages**!
 
-**Note:** For this series, we assume you are familiar with web development, curious about Static Site Generators, and excited to see your site getting deployed with GitLab Pages.
+**Note:** For this series, we assume you are familiar with web development, curious about
+Static Site Generators, and excited to see your site getting deployed with GitLab Pages.
 {: .note}
-
-{::comment}
-Update this for the third post too ^^^^
-{:/comment}
 
 <!-- more -->
 
@@ -40,34 +41,48 @@ Update this for the third post too ^^^^
 
 ## Benefits of Modern Static Site Generators
 
-Static Site Generators (**[SSGs]**) are software created to automate web development to **output** static sites from **dynamic** writing. So, we code dynamically and publish statically. No pain, all gain.
+Static Site Generators (**[SSGs]**) are software created to automate web development to
+**output** static sites from **dynamic** writing. So, we code dynamically and publish
+statically. No pain, all gain.
 
-The most fascinating thing of any SSG is the ability to code fast, save money (on web hosting), and incredibly [decrease the page loading time][page-load] (compared to server-side dynamic webpages). Also, if we have a lot of visitors at the same time, our [static sites have less chance to crash][server-crash] due to server overload [than dynamic ones][site-down].
+The most fascinating thing of any SSG is the ability to code fast, save money (on web
+hosting), and incredibly [decrease the page loading time][page-load]
+(compared to server-side dynamic webpages). Also, if we have a lot of visitors at the same
+time, our [static sites have less chance to crash][server-crash] due to server overload
+[than dynamic ones][site-down].
 
-**Note:** if you want to know more about it, read the previous article for this series: "[Static x Dynamic Websites][part-1]".
+**Note:** if you want to know more about it, read the previous article for this series:
+"[SSGs Part 1: Static x Dynamic Websites][part-1]".
 {: .note}
 
 ## Structure of SSGs
 
-The structure of SSGs is a combination of features to make static sites development faster and less repetitive. Let's take a quick look at the list below, then describe them one by one.
+The structure of SSGs is a combination of features to make static sites development faster
+and less repetitive. Let's take a quick look at the list below, then describe them one by one.
 
 - Environment
 - Template engine
-- Markdown engine
+- Markup language
 - Preprocessors
 - Directory structure
 
 ### Environment
 
-The **environment**, also called **platform**, consists essentially on the [programming language] the SSG was written in. It will make difference on the configuration, customization, and performance of the SSG. Examples: [Ruby], [Python], [Node JS][node].
+The **environment**, also called **platform**, consists essentially on the [programming language]
+the SSG was written in. It will make difference on the configuration, customization, and performance
+of the SSG. Examples: [Ruby], [Python], [Node JS][node].
 
 <a name="template-engine"></a>
 
 ### Template engine
 
-The **template engine** is very important we understand, since all the dynamic structure of our sites will depend on that. It's essential that we choose an SSG with a [templating system][template-sys] that we can use comfortably. Examples: [Liquid] and [Haml] for Ruby, [Twig] for PHP, [Swig] for JavaScript, [Slim] for HTML.
+The **template engine** is very important we understand, since all the dynamic structure of our sites
+will depend on that. It's essential that we choose an SSG with a [templating system][template-sys]
+that we can use comfortably. Examples: [Liquid], [Haml] and [Slim]  (Ruby), [Twig]  (PHP),
+[Swig]  (JavaScript).
 
-To give you a picture, let's see an example for an HTML file, in which we are using [Liquid Templating Engine][liquid]:
+To give you a picture, let's see an example for an HTML file, in which we are using the
+[Liquid Templating Engine][liquid]:
 
 ```html
 <!DOCTYPE html>
@@ -83,7 +98,12 @@ To give you a picture, let's see an example for an HTML file, in which we are us
 </html>
 ```
 
-As you probably guessed, we have three files for the content that **repeats** sitewide (head, header and footer), which are included to every page using this template. The only thing that is different is the `{{ content }}` of that page, which is written in a separate file, and also included dynamically to the template with this tag. Finally, all the files will be **compiled** to regular HTML pages **before** being stored in the web server. This process is called **build**. GitLab Pages **builds** any SSG.
+As you have probably guessed, we have three files for the content that **repeats** sitewide (head, header
+and footer), which are included to every page using this template. The only thing that is different
+is the `{{ content }}` of that page, which is written in a separate file, and also included
+dynamically to the template with this tag. Finally, all the files will be **compiled** to regular
+HTML pages **before** being stored in the web server. This process is called **build**. GitLab Pages
+**builds** any SSG.
 
 _Advantages over flat HMTL_
 
@@ -91,11 +111,23 @@ _Advantages over flat HMTL_
 - Avoid repetition: every block repeated sitewide would be included to every page, equivalently
 - Update faster: if we change something in the file `footer.html`, it will affect the entire site
 
-### Markdown engine
+### Markup language
 
-The **markdown engine** is a simplified language we'll use to write our content. Generally, we are allowed to choose which markdown engine we want to use. It is setup on the site configuration. Examples: [Kramdown], [RDiscount], [Redcarpet], [RedCloth].
+**[Markup language]** is a system to write documents making them somehow syntactically distinguishable
+from text. [Lightweight markup languages][wiki-markup] have a simplified and unobtrusive syntax, designed to be
+easily written within any text editor. That's what we'll use to write our content.
 
-A blog **post** or a **page** written in [markdown] will most likely start with a **front matter** section containing information about that page or post, and then comes the content just below it. This is an `example.md` file used in a [Jekyll] site, and also an `example.html.md` file for a [Middleman] site:
+The majority of SSGs use **markdown engines** for this purpose. But there are many more
+lightweight markup languages used likely, such as [AsciiDoc], [Textile] and [GFM].
+
+Among those SSGs which use markdown markup, generally we are allowed to choose which markdown engine
+we want to use. It is setup on the site configuration.
+Examples: [Kramdown], [RDiscount], [Redcarpet], [RedCloth].
+
+A blog **post** or a **page** written in [markdown] will most likely start with a **front matter**
+section containing information about that page or post, and then comes the content just below it.
+This is an `example.md` file used in a [Jekyll] site, and also an `example.html.md` file for
+a [Middleman] site:
 
 ```markdown
 ---
@@ -110,7 +142,8 @@ author: "Foo Bar" # a common variable to exemplify
 Some text.
 ```
 
-The front matter variables, which are `title`, `date` and `author` for our example above, can be called with template tags all over the site. With Liquid, if we write:
+The front matter variables, which are `title`, `date` and `author` for our example above,
+can be called with template tags all over the site. With Liquid, if we write:
 
 ```liquid
 <h2>Title: {{ page.title }}</h2>
@@ -135,9 +168,12 @@ The content for our example would output simply:
 
 ### Preprocessors
 
-The **preprocessors** are made for speed up our development process too. They simplify the way we code, and then compile their own files into standard ones. Examples: [Sass] and [Stylus] for CSS, [CoffeeScript] for JavaScript.
+The **preprocessors** are made to speed up our development process too. They simplify
+the way we code, and then compile their own files into standard ones. Examples: [Sass]
+and [Stylus] for CSS, [CoffeeScript] for JavaScript.
 
-Again, just to give you a picture, check a CSS code block written in CSS directly, and the other written in Sass:
+Again, just to give you a picture, check a CSS code block written in CSS directly, and
+the other written in Sass:
 
 CSS:
 
@@ -162,31 +198,46 @@ p
   color: $clr
 ```
 
-In a large-scale styling, saving all curly brackets `{ }` and semi-colons `;` make a lot of difference for who is typing. Also, with Sass variables (e.g., `$clr` above), we can define some standards and apply them all over our stylesheets. In the end, everything will be compiled to regular CSS.
+In a large-scale styling, saving all curly brackets `{ }` and semi-colons `;` makes a lot
+of difference for who is typing. Also, with Sass variables (e.g., `$clr` above), we can
+define some standards and apply them all over our stylesheets. In the end, everything
+will be compiled to regular CSS.
 
 By the way, this Sass example will be compiled exactly to the CSS code above it.
 
 ### Directory structure
 
-The **directory structure** is different for each SSG. It's important to study the file tree before we start working with an SSG, otherwise we might face odd build errors that we won't understand solely because we didn't use its structure accordingly. Examples: [Hexo structure][hexo-struc], [Middleman structure][middle-struc], [Jekyll structure][jekyll-struc]. So, just make sure you add new files to the correct directories.
+The **directory structure** is different for each SSG. It's important to study the file
+tree before we start working with an SSG, otherwise we might face odd build errors that
+we won't understand solely because we didn't use its structure accordingly.
+Examples: [Hexo structure][hexo-struc], [Middleman structure][middle-struc],
+[Jekyll structure][jekyll-struc]. So, just make sure you add new files to the correct directories.
 
 ## SSGs built-in features
 
-In addition to their standard components, there are also a number of built-in features that make building and previewing static sites easier - and faster.
+In addition to their standard components, there are also a number of built-in features
+that make building and previewing static sites easier - and faster.
 
 - Most of SSGs have a pre-installed server for previewing the sites locally
-- Some of them also contain in their installation package a LiveReload plugin, so we don't need to refresh the page in our browser every time we save it
+- Some of them also contain in their installation package a LiveReload plugin, so we
+don't need to refresh the page in our browser every time we save it
 - Most of them provide us with built-in compilers for their supported preprocessors
 
 ## Blog-Aware SSGs
 
-One of the most attractive features for the majority of modern SSGs is the ability to manage blog content without the need of storing posts, or post contents, in databases or in dynamically accessed files.
+One of the most attractive features for the majority of modern SSGs is the ability to manage
+blog content without the need of storing posts, or post contents,
+in databases or in dynamically accessed files.
 
-A blog-aware website generator will create blog-style content, such as lists of content in reverse chronological order, archive lists, and other common blog-style features. How would an SSG do that?
+A blog-aware website generator will create blog-style content, such as lists of content in
+reverse chronological order, archive lists, and other common blog-style features.
+How would an SSG do that?
 
-With their file tree and their template engine. The file tree defines the specific directory for `posts` and the template engine call the posts dynamically.
+With their file tree and their template engine. The file tree defines the specific
+directory for `posts` and the template engine calls the posts dynamically.
 
-With a `for` loop through the posts, they can be displayed in a single page, as illustrated below (with [Liquid]):
+With a `for` loop through the posts, they can be displayed in a single page, as
+illustrated below (with [Liquid]):
 
 ```liquid
   <ul>
@@ -201,13 +252,22 @@ With a `for` loop through the posts, they can be displayed in a single page, as 
   </ul>
 ```
 
-This code means that, **for each post** within the **site posts** (`{% for post in site.posts %}`), all of them would be displayed as items of an unordered list of posts, within links for their respective paths.
+This code means that, **for each post** within the **site posts**
+(`{% for post in site.posts %}`), all of them would be displayed as items of an
+unordered list of posts, within links for their respective paths.
 
-Of course, you can adapt the HTML structure according to your needs. Also, we can use the blog-aware structure to create different kinds of dynamic insertion. For example, we could use them to display multiple things within the same category, as a collection of photos, books, etc. So, each time we add a new item, the SSG uses it's template engine to bring our collections together.
+Of course, you can adapt the HTML structure according to your needs. Also, we can use
+the blog-aware structure to create different kinds of dynamic insertion. For example,
+we could use them to display multiple things within the same category, as a collection
+of photos, books, etc. So, each time we add a new item, the SSG uses it's template
+engine to bring our collections together.
 
 ## Supported content
 
-Static servers fully support any language or script interpreted by browsers, known as **client-side** processing. Let's just remember that a static site is essentially composed of three components: the structure (HTML), the layout and styles (CSS), and the behavior (JavaScript).
+Static servers fully support any language or script interpreted by browsers, known as
+**client-side** processing. Let's just remember that a static site is essentially
+composed of three components: the structure (HTML), the layout and styles (CSS),
+and the behavior (JavaScript).
 
 _Supported languages and file extensions_
 
@@ -240,35 +300,52 @@ We've just described what we **can do** with SSGs. Now let's see what we **canno
 - Send emails via `mail()` function
 - Use any server-side language or script
 
-This kind of actions depend necessarily on server-side processing, which are not handled by static-only web servers, as we explained in the [first post of this series][part-1].
+This kinds of actions depend necessarily on server-side processing, which are not handled
+by static-only web servers, as we explained in the [first post of this series][part-1].
 
 ### Overcoming the limitations
 
 _Users Authentication_
 
-Despite not having the ability to register users nor having admin access for ourselves, with tools like [Firebase] we can power-up our static site with [user authentication][firebase-user-auth]. Find more [cool stuff][firebase-cool-stuff] here, from the same source.
+Despite not having the ability to register users nor having admin access for ourselves,
+with tools like [Firebase] we can power-up our static site with
+[user authentication][firebase-user-auth]. Find more [cool stuff][firebase-cool-stuff] here,
+from the same source.
 
 _Contact Forms_
 
-Yes, we can offer contact forms in our static websites. We can't process the **server-side** script in our static-server, but there are some third-party services we can use for that. For example, you can try [Formspree], [FormKeep], [Wufoo], [FoxyForm], [Google Forms] or any other related service . However, if you want to take control over your mail script, you can try the [parse method with SendGrid][sendgrid-parse].
+Yes, we can offer contact forms in our static websites. We can't process the **server-side**
+script in our static-server, but there are some third-party services we can use for that.
+For example, you can try [Formspree], [FormKeep], [Wufoo], [FoxyForm], [Google Forms] or any
+other related service . However, if you want to take control over your mail script, you can
+try the [parse method with SendGrid][sendgrid-parse].
 
 _JavaScript disabled_
 
-Everything based on JavaScript is allowed to be added to our static sites. However, if JavaScript is disabled on the user's browser, those scripts will not work. But there is something we can do to minimize this issue. We can add a [`<noscript>`][no-script] tag to our web pages, containing a message that will be displayed only if JavaScript disabled:
+Everything based on JavaScript is allowed to be added to our static sites. However, if
+JavaScript is disabled on the user's browser, those scripts will not work. But there is
+something we can do to minimize this issue. We can add a [`<noscript>`][no-script] tag
+to our web pages, containing a message that will be displayed only if JavaScript disabled:
 
 ```html
 <noscript>Please enable JavaScript on your browser for a better experience with this website!</noscript>
 ```
 
-## Conclusions
+## Conclusion
 
-Hopefully now you understand the logic of Static Site Generators, how we can use them wisely, and what we can and cannot do with them.
+Hopefully now you understand the logic of Static Site Generators, how we can use them wisely,
+and what we can and cannot do with them.
 
-In the third post of this series we will bring you a lot of examples for SSGs already running on GitLab Pages, so you'll be able to see and understand different GitLab CI configurations, and create your own.
+In the third post of this series we will bring you a lot of examples for SSGs already running
+on GitLab Pages. Therefore, you'll be able to see and understand different 
+GitLab CI configurations, and create your own.
 
-We already have prepared a bunch of SSGs example projects, you'll find them in the [GitLab Pages][ci-examples] official group. You are very welcome to [contribute][pages-contribute] with new SSGs.
+We already have prepared a bunch of SSGs example projects, you'll find them in the
+[GitLab Pages][ci-examples] official group. You are very welcome to [contribute][pages-contribute]
+with new SSGs.
 
-Don't you have an account on [GitLab.com][sign-up] yet? Let's create one! Remember, we can use GitLab Pages to [build any SSG][post-pages] for us and host it for free!
+Don't you have an account on [GitLab.com][sign-up] yet? Let's create one! Remember, we can
+use GitLab Pages to [build any SSG][post-pages] for us and host it for free!
 
 Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 
@@ -291,6 +368,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [AdSense]: https://support.google.com/adsense/answer/181950
 [Adwords]: https://support.google.com/adwords/answer/6331314
 [Analytics]: https://developers.google.com/analytics/devguides/collection/analyticsjs/
+[AsciiDoc]: https://en.wikipedia.org/wiki/AsciiDoc
 [audio]: http://www.w3schools.com/html/html5_audio.asp
 [comment-systems]: http://brianshim.com/webtricks/add-a-comment-wall-to-your-website/
 [Disqus]: https://disqus.com/
@@ -302,6 +380,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [FormKeep]: https://formkeep.com/
 [Formspree]: https://formspree.io/
 [foxyform]: http://www.foxyform.com/
+[gfm]: https://en.wikipedia.org/wiki/GitHub_Flavored_Markdown
 [google-cse]: https://support.google.com/customsearch/answer/4513751?hl=en&ref_topic=4513742&rd=1
 [Google Forms]: https://www.google.com/forms/about/
 [HTML5]: http://www.w3schools.com/html/html5_intro.asp
@@ -309,6 +388,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [Jekyll]: https://jekyllrb.com
 [JivoChat]: https://www.jivochat.com/
 [MailChimp]: http://mailchimp.com/
+[Markup language]: https://en.wikipedia.org/wiki/Markup_language
 [no-script]: http://www.w3schools.com/tags/tag_noscript.asp
 [page-load]: https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/#dynamic-websites-and-caching
 [PayPal Payments Standard]: https://developer.paypal.com/docs/classic/button-manager/integration-guide/SOAP/ButtonMgrOverview
@@ -326,9 +406,11 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [swiftype]: https://swiftype.com/
 [Tawk.to]: https://www.tawk.to/
 [template-sys]: https://en.wikipedia.org/wiki/Web_template_system
+[textile]: https://en.wikipedia.org/wiki/Textile_(markup_language)
 [tipue]: http://www.tipue.com/
 [Twitter Kit]: https://dev.twitter.com/web/overview
 [video]: http://www.w3schools.com/html/html5_video.asp
+[wiki-markup]: https://en.wikipedia.org/wiki/Lightweight_markup_language
 [Wufoo]: http://www.wufoo.com/
 
 <!-- GitLab -->
