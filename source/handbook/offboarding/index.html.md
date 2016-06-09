@@ -24,7 +24,7 @@ Create issue for former team member on the dev server in the [organization issue
 * [ ] Robert/Jacob V/Ernst: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members)
 * [ ] Robert/Ernst/Jacob V: Remove access to 1Password; take a screenshot of the user's permissions and post it in this offboarding issue.
 * [ ] Robert/Ernst/Jacob V: coordinate or actively change sensitive shared passwords. In particular:
-   * [ ] sysadmin access passwords for GitLab.com Infrastructure
+   * [ ] sysadmin access passwords for GitLab.com Infrastructure (ssh, chef user/key, discuss others)
    * [ ] team call recordings password (i.e. BlueJeans login)
    * [ ] review what vaults former team member had access to, and discuss with vault "owners" which passwords should be changed.
 * [ ] Manager of former team member: Organize smooth hand over of any work or tasks from former team member.
