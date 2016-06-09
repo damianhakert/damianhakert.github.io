@@ -11,9 +11,9 @@ image_title: '/images/unsplash/gitlab-convox-cover.jpg'
 
 [Convox](https://convox.com/) is an open-source tool for deploying, managing, and monitoring applications on cloud infrastructure. It increases the productivity of your developers, reduces your infrastructure spend, and ensures that your architecture is resilient, consistent, and compliant.
 
-Recently Convox launched a native integration with [GitLab](https://about.gitlab.com/) for Continuous Delivery (CD). This tutorial will show you how to use GitLab and Convox together to ship software quickly and reliably.
+Recently, Convox launched a native integration with [GitLab](https://about.gitlab.com/) for Continuous Delivery (CD). This tutorial will show you how to use GitLab and Convox together to ship software quickly and reliably.
 
-**Note:** For this tutorial we assume you are familiar with Continuous Deployment (CD) and have a GitLab, Slack and Amazon Web Services (AWS) account. We also assume you are curious about how Convox tools make setting up a private, production-ready cloud environment easy.
+**Note:** For this tutorial we assume you are familiar with Continuous Deployment (CD) and have a GitLab, [Slack](https://slack.com/) and [Amazon Web Services](https://aws.amazon.com/) (AWS) account. We also assume you are curious about how [Convox](https://convox.com/) utilities make setting up a private, production-ready cloud environment easy.
 {: .note}
 
 <!-- more -->
@@ -33,11 +33,8 @@ Recently Convox launched a native integration with [GitLab](https://about.gitlab
 Continuous Delivery (CD) is a modern software development best practice. Your team wants and needs the ability to safely push updates to production multiple times a day. With a great CD pipeline you can:
 
 * Ship features faster and more frequently
-
 * Roll out bug fixes and security patches instantly
-
 * Keep your development team in a coding flow
-
 * Eliminate work and interruptions on infrastructure that’s not core to your business
 
 If you don’t have CD tools, you may be spending too much precious time and budget on infrastructure, servers and bespoke deployment tools.
@@ -50,17 +47,12 @@ The best Continuous Delivery workflow offers a way to `git push` code and automa
 
 Convox and GitLab together represent a modern open-source based Continuous Delivery solution. With both of them your team can:
 
-* Set up a private deployment cloud in minutes with `convox install`
-
-* Create a production-ready application with `convox apps create`
-
-* Link GitLab.com or GitLab CE/EE and Slack to your deployment cloud through the Convox Console
-
-* Push code to GitLab with `git push`
-
-* Let GitLab webhooks or CI automate builds, tests and deploys of your code to Convox
-
-* Notify your team via Slack when the new release is live
+* **Set up a private deployment cloud in minutes** with `convox install`
+* **Create a production-ready application** with `convox apps create`
+* **Link GitLab.com or GitLab CE/EE and Slack to your deployment cloud** through the Convox Console
+* **Push code to GitLab** with `git push`
+* **Let GitLab webhooks or CI automate builds**, tests and deploys of your code to Convox
+* **Notify your team via Slack** when the new release is live
 
 This level of automation enables your team to safely release new code as fast as possible, offering an extremely productive workflow for you and your team.
 
@@ -74,65 +66,53 @@ On top of the open-source projects, both GitLab and Convox offer enterprise-grad
 
 ### Setting up a Convox Deployment Environment
 
-We first need to configure an isolated environment where we will deploy everything. When deploying to AWS, there is a minimum architecture we want for a production-ready environment. Convox makes this simple with a `convox install` tool. Click the "Get Started" button on [convox.com](https://convox.com/) to access the web or command line installer.
+We first need to configure an isolated environment where we will deploy everything. When deploying to AWS, there is a minimum architecture we want for a production-ready environment. Convox makes this simple with the `convox install` and `convox apps create` tools. Click the "Get Started" button on [convox.com](https://convox.com/) to access the web or command line installer.
 
-Convox expertly integrates AWS services:
+Convox expertly integrates the following AWS services:
 
-* Virtual Private Cloud spanning 3 availability zones
-
-* EC2 and an AutoScale Group (ASG) with at least 3 instances
-
-* EC2 Container Service (ECS)
-
+* Virtual Private Cloud spanning 3 availability zones for network isolation
+* EC2 and an AutoScale Group (ASG) with at least 3 instances for redundancy
 * CloudFormation stacks for safe, automated updates for new AMIs or to scale up instance type and count
+* EC2 Container Service (ECS) for container-based zero downtime deploys
+* EC2 Container Registry (ECR) for storing build artifacts
+* Elastic Load Balancer (ELB) for SSL, websockets and load balancing
+* CloudWatch Logs for log tailing, archiving and search
 
-On top of this base we need to create and configure more infrastructure for your app. Convox has wrapped this up behind a simple `convox apps create` command:
-
-* EC2 Container Registry (ECR)
-
-* Elastic Load Balancer (ELB)
-
-* ECS TasksDefinitions and Services
-
-* CloudWatch Logs for visibility
-
-* CloudFormation stack for safe, automated updates for new Docker images or to scale up process counts
-
-With this consistent, batteries-included cluster setup with the `convox` tools we can now relibly push new instances to ECR, update ECS, and watch our new containers roll out behind our ELB.
+With this consistent, batteries-included cluster setup with the `convox` tools we can now relibly deploy, configure and scale our applications.
 
 You can read the [Getting Started on Convox](https://convox.com/docs/getting-started/) guide for more detailed instructions about setting everything up.
 
 ### Granting GitLab and Slack Auth to Convox
 
-Every service integration begins with authorizing two services to talk to each other. For the first iteration of GitLab and Convox we opted for a simple token-based solution.
+Every service integration begins with authorizing two services to talk to each other. For the first iteration of GitLab and Convox, we opted for a simple token-based solution.
 
 ![Get your GitLab Private Token](/images/blogimages/continuous-delivery-with-gitlab-and-convox/gitlab-account.png)*Get your GitLab Private Token*
 
 ![Give Convox your GitLab Endpoint and Token](/images/blogimages/continuous-delivery-with-gitlab-and-convox/gitlab-setup.png)*Give Convox your GitLab Endpoint and Token*
 
-Convox encrypts this token, and decrypts it when it needs to perform actions on your GitLab like creating a webhooks and deploy key.
+Convox encrypts this token, and decrypts it when it needs to perform actions on your GitLab instance like creating a webhook and deploy key.
 
-Simiarly you integrate Convox and Slack with an OAuth flow.
+Similarly, you integrate Convox and Slack with an OAuth flow.
 
 Now Convox has access tokens to get and send information to GitLab and Slack.
 
 ### Git Push Webhooks
 
-Webhooks — user-defined HTTP callbacks — are the fabric on which Continuous Deployment systems are built.
+[Webhooks](http://docs.gitlab.com/ce/web_hooks/web_hooks.html) — user-defined HTTP callbacks — are the fabric on which Continuous Deployment systems are built.
 
 GitLab has tremendous webhook support, allowing you to configure how it will make an HTTPS request to an external system on events like every comment, code push and code merge.
 
-When you integrate GitLab with a Convox app, the first thing Convox does is add a new Push Event webhook to your repository pointing to a secure and secret Convox URL.
+When you integrate GitLab with a Convox app, the first thing Convox does is add a new Push Event webhook to your project pointing to a secure and secret Convox URL.
 
 ![Tell Convox About the Push](/images/blogimages/continuous-delivery-with-gitlab-and-convox/gitlab-webhooks.png)*Tell Convox About the Push*
 
-When this is configured Convox will get a notification every time your team pushes new code.
+When this is configured, Convox will get a notification every time your team pushes new code.
 
 ### GitLab Deploy Keys
 
 GitLab has an impeccable security model. If a system like Convox happens to learn the URL for a private repo via a webhook, we still want to control its ability to read or write to this private repo.
 
-To grant Convox limited, read-only access to your private repo, GitLab offers “Deploy Keys.” These are SSH keys that have read-only access to a repo, guaranteeing that a third-party system can clone code, but can not push any code back.
+To grant Convox limited, read-only access to your private repo, GitLab offers “[Deploy Keys](http://docs.gitlab.com/ce/ssh/README.html#deploy-keys).” These are SSH keys that have read-only access to a repo, guaranteeing that a third-party system can clone code, but can not push any code back.
 
 ![Read-only SSH key](/images/blogimages/continuous-delivery-with-gitlab-and-convox/gitlab-deploy-key.png)*Read-only SSH key*
 
@@ -189,7 +169,7 @@ d29eb239fda9  web   RQYRSVEXGLD  256   25 seconds ago  httpd-foreground
 ef1d2825f528  web   RVUEQWAOHTN  256   1 day ago       httpd-foreground
 ```
 
-You can see that release `RQYRSVEXGLD` is rolling out and replacing an older release `RVUEQWAOHTN`. In a few more seconds the new code will be up and running. The build and zero-downtime deploy is fully automated by Convox and Gitlab.
+You can see that release `RQYRSVEXGLD` is rolling out and replacing an older release `RVUEQWAOHTN`. In a few more seconds the new code will be up and running. The build and zero-downtime deploy is fully automated by Convox and GitLab.
 
 The final icing on the cake is that your whole team is notified about the new release on Slack:
 
