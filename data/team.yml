@@ -152,7 +152,7 @@
 - name: Paul Machle
   locality: San Francisco, CA
   country: USA
-  role: Chief Financial Officer
+  role: <a href="https://about.gitlab.com/jobs/chief-financial-officer/">Chief Financial Officer (CFO)</a>
   reports_to: CEO
   picture: paul.jpg
   twitter: pmachle
@@ -1152,7 +1152,7 @@
   twitter: brittany_rohde
   gitlab: brittanyr
   story:  |
-           Coming from a mathematics background, Brittany combined her love for human interaction with her thirst for knowledge and began working in human resources. She enjoys learning as much as possible about employee relations and benefits. Originally from Northern California as a giant Giants fan, she stays active in the great outdoors with her husband and their golden retriever, Cowboy Jake. 
+           Coming from a mathematics background, Brittany combined her love for human interaction with her thirst for knowledge and began working in human resources. She enjoys learning as much as possible about employee relations and benefits. Originally from Northern California as a giant Giants fan, she stays active in the great outdoors with her husband and their golden retriever, Cowboy Jake.
 
 - name: J.A.
   locality:
@@ -1179,7 +1179,7 @@
           in Computer Engineering, he started developing mobile apps and fell
           in love with design in the process. When he's not working, you can find
           him endlessly browsing for a movie to watch without ever picking one.
-  
+
 - name: H.Y.
   locality:
   country:
@@ -1245,7 +1245,7 @@
   gitlab:
   story:  |
           Joining July 11th
-          
+
 - name: N.T.
   locality:
   country:
@@ -1256,4 +1256,3 @@
   gitlab:
   story:  |
           Joining August 1st
-
