@@ -888,7 +888,7 @@
 - name: Stan Hu
   locality: San Francisco, CA
   country: USA
-  role: VP of Engineering
+  role: <a href="https://about.gitlab.com/jobs/vp-of-engineering/">VP of Engineering</a>
   reports_to: CEO
   picture: stanhu.jpg
   twitter: stanhu
