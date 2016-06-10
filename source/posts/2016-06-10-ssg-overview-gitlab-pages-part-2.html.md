@@ -98,7 +98,7 @@ To give you a picture, let's see an example for an HTML file, in which we are us
 </html>
 ```
 
-As you have probably guessed, we have three files for the content that **repeats** sitewide (head, header
+As you may have guessed, we have three files for the content that **repeats** sitewide (head, header
 and footer), which are included to every page using this template. The only thing that is different
 is the `{{ content }}` of that page, which is written in a separate file, and also included
 dynamically to the template with this tag. Finally, all the files will be **compiled** to regular
@@ -205,7 +205,7 @@ define some standards and apply them all over our stylesheets. In the end, every
 will be compiled to regular CSS. There are more interesting features and advantages of 
 preprocessors, but that's not in focus on this post. 
 
-By the way, this Sass example will be compiled exactly to the CSS code above it.
+By the way, the given Sass example will be compiled exactly to the CSS code above it.
 
 ### <i class="fa fa-folder-open-o fa-fw" style="color:rgb(226,67,41); font-size:.85em"></i> Directory structure
 
@@ -218,7 +218,7 @@ Examples: [Hexo structure][hexo-struc], [Middleman structure][middle-struc],
 ## SSGs built-in features
 
 In addition to their standard components, there are also a number of built-in features
-that make building and previewing static sites easier - and faster.
+that make building and previewing static sites easier - and faster. For example:
 
 - Most of SSGs have a pre-installed server for previewing the sites locally
 - Some of them also contain in their installation package a LiveReload plugin, so we
@@ -229,7 +229,7 @@ don't need to refresh the page in our browser every time we save it
 
 One of the most attractive features for the majority of modern SSGs is the ability to manage
 blog content without the need of storing posts, or post contents,
-in databases or in dynamically accessed files.
+in databases or in server-side-only processed files.
 
 A blog-aware website generator will create blog-style content, such as lists of content in
 reverse chronological order, archive lists, and other common blog-style features.
@@ -267,7 +267,7 @@ engine to bring our collections together.
 ## Supported content
 
 Static servers fully support any language or script interpreted by browsers, known as
-**client-side** processing. Let's just remember that a static site is essentially
+[**client-side** processing][part-1]. Let's just remember that a static site is essentially
 composed of three components: the structure (HTML), the layout and styles (CSS),
 and the behavior (JavaScript).
 
@@ -302,14 +302,14 @@ We've just described what we **can do** with SSGs. Now let's see what we **canno
 - Send emails via `mail()` function
 - Use any server-side language or script
 
-This kinds of actions depend necessarily on server-side processing, which are not handled
+These kinds of actions depend necessarily on server-side processing, which are not handled
 by static-only web servers, as we explained in the [first post of this series][part-1].
 
 ### Overcoming the limitations
 
-_Users Authentication_
+_User Authentication_
 
-Despite not having the ability to register users nor having admin access for ourselves,
+Despite not having the ability to register users, nor having admin access for ourselves,
 with tools like [Firebase] we can power-up our static site with
 [user authentication][firebase-user-auth]. Find more [cool stuff][firebase-cool-stuff] here,
 from the same source.
@@ -342,12 +342,12 @@ to our web pages, containing a message that will be displayed only if JavaScript
 ## Conclusion
 
 Hopefully now you understand the logic of Static Site Generators, how we can use them wisely,
-and what we can and cannot do with them. Dynamic websites are great, for sure. But if we don't need
-all their functionality, SSGs are certainly wonderful alternatives.
+and what we can and cannot do with them. Dynamic websites are great, for sure. 
+But if we don't need all their functionality, SSGs are certainly wonderful alternatives.
 
 In the third post, which is the last chapter of this series, we will bring you a lot of examples
-for SSGs already running on GitLab Pages. Therefore, you'll be able to see and understand different 
-GitLab CI configurations, and create your own.
+for SSGs already running on GitLab Pages. Therefore, we're confident you'll be able to see and 
+understand different GitLab CI configurations, and create your own.
 
 We already have prepared a bunch of SSGs example projects, you'll find them in the
 [GitLab Pages][ci-examples] official group. You are very welcome to [contribute][pages-contribute]
