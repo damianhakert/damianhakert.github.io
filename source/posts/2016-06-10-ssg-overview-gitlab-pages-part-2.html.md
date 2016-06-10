@@ -18,7 +18,7 @@ three articles around the same theme "**Static Site Generators (SSGs)**".
 This is **Part 2: Modern Static Site Generators**, where we provide you with an overview on
 the subject.
 
-The previous post was [**Part 1: Dynamic x Static Websites**][part-1], where we explained
+The previous post was [**Part 1: Dynamic x Static Websites**][part-1], where we briefly explained
 the differences between them, and their pros and cons.
 
 Stay tuned for the next post: **Part 3: Build any SSG site with GitLab Pages**!
@@ -51,7 +51,7 @@ hosting), and incredibly [decrease the page loading time][page-load]
 time, our [static sites have less chance to crash][server-crash] due to server overload
 [than dynamic ones][site-down].
 
-**Note:** if you want to know more about it, read the previous article for this series:
+**Note:** if you want to know more about it, read the introductory article for this series:
 "[SSGs Part 1: Static x Dynamic Websites][part-1]".
 {: .note}
 
@@ -66,7 +66,7 @@ and less repetitive. Let's take a quick look at the list below, then describe th
 - Preprocessors
 - Directory structure
 
-### Environment
+### <i class="fa fa-terminal fa-fw" style="color:rgb(226,67,41); font-size:.85em"></i> Environment
 
 The **environment**, also called **platform**, consists essentially on the [programming language]
 the SSG was written in. It will make difference on the configuration, customization, and performance
@@ -74,7 +74,7 @@ of the SSG. Examples: [Ruby], [Python], [Node JS][node].
 
 <a name="template-engine"></a>
 
-### Template engine
+### <i class="fa fa-cogs fa-flip-horizontal fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> Template engine
 
 The **template engine** is very important we understand, since all the dynamic structure of our sites
 will depend on that. It's essential that we choose an SSG with a [templating system][template-sys]
@@ -111,18 +111,19 @@ _Advantages over flat HMTL_
 - Avoid repetition: every block repeated sitewide would be included to every page, equivalently
 - Update faster: if we change something in the file `footer.html`, it will affect the entire site
 
-### Markup language
+### <i class="fa fa-pencil fa-flip-horizontal fa-fw" style="color:rgb(226,67,41); font-size:.85em"></i> Markup language
 
 **[Markup language]** is a system to write documents making them somehow syntactically distinguishable
 from text. [Lightweight markup languages][wiki-markup] have a simplified and unobtrusive syntax, designed to be
 easily written within any text editor. That's what we'll use to write our content.
 
 The majority of SSGs use **markdown engines** for this purpose. But there are many more
-lightweight markup languages used likely, such as [AsciiDoc], [Textile] and [GFM].
+lightweight markup languages used likely, such as [AsciiDoc], [Textile] and [ReStructuredText].
 
 Among those SSGs which use markdown markup, generally we are allowed to choose which markdown engine
 we want to use. It is setup on the site configuration.
-Examples: [Kramdown], [RDiscount], [Redcarpet], [RedCloth].
+For example, in Ruby there are a handful of Markdown implementations:
+[Kramdown], [RDiscount], [Redcarpet], [RedCloth].
 
 A blog **post** or a **page** written in [markdown] will most likely start with a **front matter**
 section containing information about that page or post, and then comes the content just below it.
@@ -155,7 +156,7 @@ The output would be:
 
 ```
 <h2>Title: Hello World</h2>
-<p>Date: 2016-04-30 11:00:00</p>	 
+<p>Date: 2016-04-30 11:00:00</p>
 <p>By Foo Bar</p>
 ```
 
@@ -166,7 +167,7 @@ The content for our example would output simply:
 <p>Some text.</p>
 ```
 
-### Preprocessors
+### <i class="fa fa-puzzle-piece fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> Preprocessors
 
 The **preprocessors** are made to speed up our development process too. They simplify
 the way we code, and then compile their own files into standard ones. Examples: [Sass]
@@ -201,11 +202,12 @@ p
 In a large-scale styling, saving all curly brackets `{ }` and semi-colons `;` makes a lot
 of difference for who is typing. Also, with Sass variables (e.g., `$clr` above), we can
 define some standards and apply them all over our stylesheets. In the end, everything
-will be compiled to regular CSS.
+will be compiled to regular CSS. There are more interesting features and advantages of 
+preprocessors, but that's not in focus on this post. 
 
 By the way, this Sass example will be compiled exactly to the CSS code above it.
 
-### Directory structure
+### <i class="fa fa-folder-open-o fa-fw" style="color:rgb(226,67,41); font-size:.85em"></i> Directory structure
 
 The **directory structure** is different for each SSG. It's important to study the file
 tree before we start working with an SSG, otherwise we might face odd build errors that
@@ -312,6 +314,13 @@ with tools like [Firebase] we can power-up our static site with
 [user authentication][firebase-user-auth]. Find more [cool stuff][firebase-cool-stuff] here,
 from the same source.
 
+_Content management_
+
+We can edit the content of our SSGs directly from the web browser with [TeleText]. We can't
+create new pages, but we can edit pages content easily. [Implementing][teletext-tutorial]
+to our sites is also very simple. I tested it within a Jekyll site on GitLab Pages and worked
+fine for me.
+
 _Contact Forms_
 
 Yes, we can offer contact forms in our static websites. We can't process the **server-side**
@@ -334,10 +343,11 @@ to our web pages, containing a message that will be displayed only if JavaScript
 ## Conclusion
 
 Hopefully now you understand the logic of Static Site Generators, how we can use them wisely,
-and what we can and cannot do with them.
+and what we can and cannot do with them. Dynamic websites are great, for sure. But if we don't need
+all their functionality, SSGs are certainly wonderful alternatives.
 
-In the third post of this series we will bring you a lot of examples for SSGs already running
-on GitLab Pages. Therefore, you'll be able to see and understand different 
+In the third post, which is the last chapter of this series, we will bring you a lot of examples
+for SSGs already running on GitLab Pages. Therefore, you'll be able to see and understand different 
 GitLab CI configurations, and create your own.
 
 We already have prepared a bunch of SSGs example projects, you'll find them in the
@@ -380,7 +390,6 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [FormKeep]: https://formkeep.com/
 [Formspree]: https://formspree.io/
 [foxyform]: http://www.foxyform.com/
-[gfm]: https://en.wikipedia.org/wiki/GitHub_Flavored_Markdown
 [google-cse]: https://support.google.com/customsearch/answer/4513751?hl=en&ref_topic=4513742&rd=1
 [Google Forms]: https://www.google.com/forms/about/
 [HTML5]: http://www.w3schools.com/html/html5_intro.asp
@@ -405,8 +414,9 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [svg]: https://en.wikipedia.org/wiki/Scalable_Vector_Graphics
 [swiftype]: https://swiftype.com/
 [Tawk.to]: https://www.tawk.to/
+[teletext]: https://teletext.io/
+[teletext-tutorial]: https://medium.com/teletext-io-blog/empower-your-static-generated-jekyll-site-with-instant-content-management-capabilities-82ce5569d7fb#.v2vo6pp2n
 [template-sys]: https://en.wikipedia.org/wiki/Web_template_system
-[textile]: https://en.wikipedia.org/wiki/Textile_(markup_language)
 [tipue]: http://www.tipue.com/
 [Twitter Kit]: https://dev.twitter.com/web/overview
 [video]: http://www.w3schools.com/html/html5_video.asp
@@ -455,12 +465,14 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [rdiscount]: http://dafoster.net/projects/rdiscount/
 [redcarpet]: https://github.com/vmg/redcarpet
 [redcloth]: http://redcloth.org/
+[restructuredtext]: https://en.wikipedia.org/wiki/ReStructuredText
 [Ruby]: https://www.ruby-lang.org/
 [Sass]: http://sass-lang.com/
 [skeleton]: http://getskeleton.com/
 [Slim]: http://slim-lang.com/
 [Stylus]: http://stylus-lang.com/
 [swig]: http://paularmstrong.github.io/swig/
+[textile]: https://en.wikipedia.org/wiki/Textile_(markup_language)
 [twig]: http://twig.sensiolabs.org/
 
 <!-- Groups -->
