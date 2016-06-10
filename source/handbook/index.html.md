@@ -25,6 +25,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Leadership](/handbook/leadership)
 * [GitLab University](https://university.gitlab.com/)
 * [Social Media Guidelines](/handbook/social-media-guidelines)
+* [Board meetings](/handbook/board-meetings)
 
 ## This page
 
@@ -217,7 +218,7 @@ start it. Don't say 'yes' and start a call 5 seconds later since it is likely
 you'll both be creating a video call link at the same time.
 1. All company data should be **shareable** by default. Don't use a local text
 file but leave comments on an issue.
-1. Work on website edits via commits to a merge request. Never use a Google doc for something non-confidential that is intended for the website. 
+1. Work on website edits via commits to a merge request. Never use a Google doc for something non-confidential that is intended for the website.
 1. If you _do_ need a Google Doc, then create the doc with your company Google
 Apps account. By default share Google docs with the whole company 'anyone at
 GitLab can find and access' with edit (preferred) or comment access for everyone.
