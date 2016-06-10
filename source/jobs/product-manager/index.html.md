@@ -2,7 +2,20 @@
 layout: markdown_page
 title: "Product Manager"
 ---
-Product managers report to the VP of Product and are individual contributors.
+
+We're looking for product managers that can help us work on the future of
+developer tools. Specifically we're looking for independent people that are
+interested in building solutions for (very) large teams and organizations.
+
+We know there are a million things we can and want to improve about GitLab.
+It'll be your job to work out what we are going to do and how.
+
+We work in quite a unique way at GitLab, where lots of flexibility and
+independence is mixed with a high paced, pragmatic way of working. And
+everything we do is in the open.
+
+We recommend looking at our [primer](https://about.gitlab.com/primer)
+to get started.
 
 ## Responsibilities
 
