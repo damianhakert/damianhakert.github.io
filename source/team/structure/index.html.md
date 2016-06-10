@@ -55,7 +55,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - [Infrastructure](/handbook/infrastructure/) - Infrastructure lead - Pablo Carranza
       - [Production Engineers](/jobs/production-engineer/)
       - [Developers](/jobs/developer/) that are a performance specialist
-    - Packaging - Packaging lead - Marin Jankovski
+    - Packaging - [Packaging lead](/jobs/packaging-lead) - Marin Jankovski
     - [Support](/handbook/support/) - Support lead - José Torres
       - [Service Engineers](/jobs/service-engineer/)
     - [Developers](/jobs/developer/) that are maintainers
@@ -64,4 +64,4 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
   - Scaling - [VP of Scaling](/jobs/vp-of-scaling/) - Ernst van Nierop
   - General Product - [VP of Product](/jobs/vice-president-of-product/) - Job van der Voort
   - CI/CD Product - [Head of Product](/jobs/head-of-product/) - Mark Pundsack
-  - Strategic Partnerships - [Director of Strategic Partnerships] (/jobs/director-strategic-partnerships/) - Eliran Mesika
+  - Strategic Partnerships - [Director of Strategic Partnerships](/jobs/director-strategic-partnerships/) - Eliran Mesika
