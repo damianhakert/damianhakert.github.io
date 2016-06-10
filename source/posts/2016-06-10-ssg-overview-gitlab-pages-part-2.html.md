@@ -258,7 +258,7 @@ This code means that, **for each post** within the **site posts**
 (`{% for post in site.posts %}`), all of them would be displayed as items of an
 unordered list of posts, within links for their respective paths.
 
-Of course, you can adapt the HTML structure according to your needs. Also, we can use
+Of course, we can adapt the HTML structure according to our needs. Also, we can use
 the blog-aware structure to create different kinds of dynamic insertion. For example,
 we could use them to display multiple things within the same category, as a collection
 of photos, books, etc. So, each time we add a new item, the SSG uses it's template
@@ -317,9 +317,8 @@ from the same source.
 _Content management_
 
 We can edit the content of our SSGs directly from the web browser with [TeleText]. We can't
-create new pages, but we can edit pages content easily. [Implementing][teletext-tutorial]
-to our sites is also very simple. I tested it within a Jekyll site on GitLab Pages and worked
-fine for me.
+create new pages, but we can edit pages' content easily. Follow the [Teletext tutorial] to learn
+how to implement this for your own website.
 
 _Contact Forms_
 
@@ -415,7 +414,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [swiftype]: https://swiftype.com/
 [Tawk.to]: https://www.tawk.to/
 [teletext]: https://teletext.io/
-[teletext-tutorial]: https://medium.com/teletext-io-blog/empower-your-static-generated-jekyll-site-with-instant-content-management-capabilities-82ce5569d7fb#.v2vo6pp2n
+[teletext tutorial]: https://medium.com/teletext-io-blog/empower-your-static-generated-jekyll-site-with-instant-content-management-capabilities-82ce5569d7fb#.v2vo6pp2n
 [template-sys]: https://en.wikipedia.org/wiki/Web_template_system
 [tipue]: http://www.tipue.com/
 [Twitter Kit]: https://dev.twitter.com/web/overview
