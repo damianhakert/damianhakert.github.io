@@ -9,8 +9,8 @@ Enterprise Edition (EE).
 
 It includes the following fixes:
 
-- **CE/EE:** Fix LDAP-based login for users with 2FA enabled ([!447])
-- **EE:** Remove license over-usage message ([!4493])
+- **CE/EE:** Fix LDAP-based login for users with 2FA enabled ([!4493])
+- **EE:** Remove license over-usage message ([!447])
 
 [!447]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/447
 [!4493]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4493
