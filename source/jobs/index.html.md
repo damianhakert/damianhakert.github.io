@@ -81,8 +81,8 @@ If you email us we'll reply with [a link to this paragraph](/jobs/#no-recruiters
 
 ### Product Manager
 
-- [Description](/jobs/production-engineer/)
-- [Apply](https://gitlab.workable.com/jobs/142989/candidates/new)
+- [Description](/jobs/product-manager/)
+- [Apply](https://gitlab.workable.com/jobs/269007/candidates/new)
 
 ### Sales Operations Manager
 
