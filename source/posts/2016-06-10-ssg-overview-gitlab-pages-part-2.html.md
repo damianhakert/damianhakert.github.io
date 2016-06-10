@@ -67,6 +67,7 @@ and less repetitive. Let's take a quick look at the list below, then describe th
 - Directory structure
 
 ### <i class="fa fa-terminal fa-fw" style="color:rgb(226,67,41); font-size:.85em"></i> Environment
+{: #environment}
 
 The **environment**, also called **platform**, consists essentially on the [programming language]
 the SSG was written in. It will make difference on the configuration, customization, and performance
@@ -75,6 +76,7 @@ of the SSG. Examples: [Ruby], [Python], [Node JS][node].
 <a name="template-engine"></a>
 
 ### <i class="fa fa-cogs fa-flip-horizontal fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> Template engine
+{: #template_engine}
 
 The **template engine** is very important we understand, since all the dynamic structure of our sites
 will depend on that. It's essential that we choose an SSG with a [templating system][template-sys]
@@ -112,6 +114,7 @@ _Advantages over flat HMTL_
 - Update faster: if we change something in the file `footer.html`, it will affect the entire site
 
 ### <i class="fa fa-pencil fa-flip-horizontal fa-fw" style="color:rgb(226,67,41); font-size:.85em"></i> Markup language
+{: #markup-language}
 
 **[Markup language]** is a system to write documents making them somehow syntactically distinguishable
 from text. [Lightweight markup languages][wiki-markup] have a simplified and unobtrusive syntax, designed to be
@@ -168,6 +171,7 @@ The content for our example would output simply:
 ```
 
 ### <i class="fa fa-puzzle-piece fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> Preprocessors
+{: #preprocessors}
 
 The **preprocessors** are made to speed up our development process too. They simplify
 the way we code, and then compile their own files into standard ones. Examples: [Sass]
@@ -208,6 +212,7 @@ preprocessors, but that's not in focus on this post.
 By the way, the given Sass example will be compiled exactly to the CSS code above it.
 
 ### <i class="fa fa-folder-open-o fa-fw" style="color:rgb(226,67,41); font-size:.85em"></i> Directory structure
+{: #directory-structure}
 
 The **directory structure** is different for each SSG. It's important to study the file
 tree before we start working with an SSG, otherwise we might face odd build errors that
