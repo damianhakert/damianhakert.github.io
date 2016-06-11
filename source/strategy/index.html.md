@@ -58,7 +58,7 @@ We want to achieve our goals in the following order:
 
 5. Our [BHAG](https://en.wikipedia.org/wiki/Big_Hairy_Audacious_Goal) is to become the most popular collaboration tool for knowledge workers in any industry. For this we need to make the git workflow much more user friendly. The great thing is that sites like [Penflip](https://www.penflip.com/) are already building on GitLab to make it
 
-While we achieve our goals one by one this doesn't mean we can will focus on only one goal at the time. Simultaniously we'll grow our userbase, get more subscribers for [EE](https://about.gitlab.com/features/#enterprise), grow [GitLab.com](https://about.gitlab.com/gitlab-com/), develop [options](https://about.gitlab.com/pricing/#options), realize our [scope](https://about.gitlab.com/direction/#scope), and make version control usable for more types of work.
+While we achieve our goals one by one this doesn't mean we will focus on only one goal at the time. Simultaneously we'll grow our userbase, get more subscribers for [EE](https://about.gitlab.com/features/#enterprise), grow [GitLab.com](https://about.gitlab.com/gitlab-com/), develop [options](https://about.gitlab.com/pricing/#options), realize our [scope](https://about.gitlab.com/direction/#scope), and make version control usable for more types of work.
 
 ## Principles
 
