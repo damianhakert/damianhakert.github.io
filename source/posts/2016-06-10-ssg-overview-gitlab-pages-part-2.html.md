@@ -107,7 +107,7 @@ dynamically to the template with this tag. Finally, all the files will be **comp
 HTML pages **before** being stored in the web server. This process is called **build**. GitLab Pages
 **builds** any SSG.
 
-_Advantages over flat HMTL_
+_Advantages over flat HTML_
 
 - Minimize typography errors ("typos"): all files are considerably reduced, improving readability
 - Avoid repetition: every block repeated sitewide would be included to every page, equivalently
@@ -321,8 +321,8 @@ from the same source.
 
 _Content management_
 
-We can edit the content of our SSGs directly from the web browser with [TeleText]. We can't
-create new pages, but we can edit pages' content easily. Follow the [Teletext tutorial] to learn
+We can edit the content of our SSGs directly from the web browser with [Teletext.io]. We can't
+create new pages, but we can edit pages' content easily. Follow the [Teletext.io tutorial] to learn
 how to implement this for your own website.
 
 _Contact Forms_
@@ -418,8 +418,8 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [svg]: https://en.wikipedia.org/wiki/Scalable_Vector_Graphics
 [swiftype]: https://swiftype.com/
 [Tawk.to]: https://www.tawk.to/
-[teletext]: https://teletext.io/
-[teletext tutorial]: https://medium.com/teletext-io-blog/empower-your-static-generated-jekyll-site-with-instant-content-management-capabilities-82ce5569d7fb#.v2vo6pp2n
+[teletext.io]: https://teletext.io/
+[teletext.io tutorial]: https://medium.com/teletext-io-blog/empower-your-static-generated-jekyll-site-with-instant-content-management-capabilities-82ce5569d7fb#.v2vo6pp2n
 [template-sys]: https://en.wikipedia.org/wiki/Web_template_system
 [tipue]: http://www.tipue.com/
 [Twitter Kit]: https://dev.twitter.com/web/overview
