@@ -418,7 +418,7 @@
         - url: http://www.perforce.com/git"
           title: perforce.com/git
     - title: O'Reilly Atlas
-      content: 'Technical publisher O''Reilly Media has build their own frontend on top of a GitLab backend. The published a <a href="https://www.youtube.com/watch?v=IHEbYsaKW9Y&feature=youtu.be">video of the app</a> <a href="https://github.com/oreillymedia/backbone-gitlab/">Backbone for GitLab API library</a> they developed for this.'
+      content: 'Technical publisher O''Reilly Media has build their own frontend on top of a GitLab backend. They published a <a href="https://www.youtube.com/watch?v=IHEbYsaKW9Y&feature=youtu.be">video of the app</a> <a href="https://github.com/oreillymedia/backbone-gitlab/">Backbone for GitLab API library</a> they developed for this.'
       links:
         - url: https://atlas.oreilly.com/
           title: atlas.oreilly.com
