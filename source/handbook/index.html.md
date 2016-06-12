@@ -672,6 +672,10 @@ BTW Trying to set this up via Google+ via [https://plus.google.com/hangouts/onai
 
 [Quitter](https://marco.org/apps) will switch off apps for you after some period of inactivity. Consider using this to hide Slack after a while to reduce your urge to check new messages all the time.
 
+### TripMode
+
+[TripMode](https://www.tripmode.ch/) lets you control which apps can use the internet. Especially useful when you're working on a cellular/metered connection.
+
 ### Check which process occupies a given port
 
 When the GitLab Development Kit cannot start using the `./run` command and
