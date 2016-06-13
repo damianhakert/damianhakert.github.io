@@ -118,12 +118,10 @@ part of your response to a ticket. If the documentation does not exist yet, then
 _make_ the documentation and send the link in the response. For those situations
 where making documentation is a more time consuming exercise:
 
-- add the "documentation" tag to the ticket,
+- click the "Document this" checkbox on the ticket,
 - respond to the ticket,
-- create an issue on the [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/) or
-[GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/) repo linking to the ZenDesk
-ticket and add the "Documentation" label, and
-- add the link to this issue in the ZenDesk ticket.
+
+Tickets with the "Document this" option ticked will be added to a Google spreadsheet which the docs team can access.
 
 ### Create issues<a name="create-issue"></a>
 
