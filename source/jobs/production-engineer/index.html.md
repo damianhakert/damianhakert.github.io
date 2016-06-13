@@ -1,7 +1,9 @@
 ---
 layout: markdown_page
-title: "DevOps Engineer"
+title: "Production Engineer"
 ---
+
+Production engineers work on the infrastructure team that runs our services, including GitLab.com.
 
 ## Responsibilities
 
