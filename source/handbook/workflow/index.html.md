@@ -73,13 +73,29 @@ All other issues are nice to land in a milestone, but not expected to do so. The
 
 ## Scheduling issues
 
-Who schedules issues for milestones and how? Right now scheduling is handled by the development leads and product in a scheduling committee. Some guidelines are set:
+GitLab Inc has to be selective in working on particular issues.
+We have a limited capacity to work on new things. Thefore, we have to
+schedule issues carefully. This is done primarily by product and
+engineering managers.
+
+Each issue that is scheduled should meet most of these criteria:
+
+1. It should be in line with our vision for GitLab
+1. It benefits our users
+1. It is technically viable
+1. Its requirements are clear
 
 Direction issues are the big, prioritized new features for each release. They are limited to 36 points per release (4 developers each tackling a single 9-point issue)
-Direction issues are given weight to achieve the above, using planning poker
-All others are given weight based on best-effort.
+Direction issues are given weight using planning poker
+Other issues are given weight based on best-effort.
 
-Issues that are not scheduled for a future milestone, but we are committed to doing are put in the Backlog milestone.
+Issues that are not scheduled for a future milestone,
+but we are committed to doing are put in the Backlog milestone.
+
+Issues that are beneficial to our users, 'nice to haves', that we currently
+don't have the capacity for or want to give the priority to, are not
+scheduled. These issues are labeled as accepting merge requests, so
+the community can make a contribution.
 
 ### Requesting something to be scheduled
 
