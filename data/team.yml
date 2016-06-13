@@ -350,12 +350,11 @@
          2010. Since then he has worked on a wide variety of projects, ranging
          from domain name management software to website scrapers, and from
          Sinatra APIs to Natural Language Processing software. These days he
-         works on <a href="http://rubini.us">Rubinius</a>,
+         works on <a href="https://github.com/YorickPeterse/aeon">Aeon</a>,
          <a href="https://github.com/YorickPeterse/oga">Oga</a>, and various
-         other FOSS projects. Yorick will be spending part of his time improving
-         performance of GitLab, and part of his time improving Rubinius. He's
-         also an avid practitioner of Krav Maga, a tea connoisseur, and a cat
-         enthusiast.
+         other FOSS projects. Yorick will focus primarily on improving the
+         performance of GitLab. He's also an avid practitioner of Krav Maga, a
+         tea connoisseur, and a cat enthusiast.
 
 - name: Kelvin Mutuma
   locality: Nairobi
