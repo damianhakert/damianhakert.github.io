@@ -13,7 +13,7 @@ Make sure to check that if you're looking for anything in particular.
 
 Before you start fixing stuff, log into the [infrastructure room](https://gitlab.slack.com/messages/infrastructure/) and leave a message. Other people might be working at the same time, especially if there was a pagerduty alert. If you don't immediately know what happened, create a postmortem doc with a sequential timeline.
 
-### Why did server X stop working on Monday morning?
+## Why did server X stop working on Monday morning?
 
 Weekly automatic OS updates are performed on Monday at 10:10 UTC.
 
@@ -110,7 +110,7 @@ Deploy with:
 
 * Install the [new certificate](https://dev.gitlab.org/gitlab/gitlab-certificate-toolkit/blob/master/doc/install-new-certificate.md)
 
-### Random tips:
+### Random tips
 
 * Configure Nginx to use the key
 
