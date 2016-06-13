@@ -66,7 +66,7 @@ If you have decided to let the applicant move on to the next interview, feel fre
 1. Technical interview (optional): As described on the [Jobs](https://about.gitlab.com/jobs/) page, certain positions require [technical interviews](https://about.gitlab.com/jobs/#technical-interview).
 1. Multiple further interviews (see [below for sample questions](#interview-questions)). At minimum, the candidate should be interviewed by their Manager, one female GitLab team member, and a C-level executive... but this can be one and the same person.
 1. CEO interview: the CEO, as the primary culture carrier of the company, typically interviews all final round candidates.
-1. Optional: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
+1. Optional: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going. At minimum two reference calls should be done before an offer is extended; one to a manager, the other to a colleague.
 1. Make a verbal or written (email) offer (the CEO needs to authorize offers)
 1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
 1. Hiring manager ensures that the contract is signed, and People Ops [starts the onboarding process](#move-to-onboarding).
@@ -211,7 +211,6 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 As part of our hiring process we may ask applicants to provide us with one or more
 references to contact. These reference calls are typically be done by our [administrative coordinator](https://about.gitlab.com/jobs/administrative-coordinator/) or the hiring
  manager for that specific vacancy following [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
-At minimum two reference calls should be done before an offer is extended; one to a manager, the other to a colleague. Reference calls can be done as soon as the applicant has completed the manager interview. 
 
 ## Getting Contracts Ready, Reviewed, and Signed<a name="prep-contracts"></a>
 
