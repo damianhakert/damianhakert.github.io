@@ -154,7 +154,7 @@ The meeting should run as follows:
 - The meeting will then open to questions starting with the questions already documented.
 - Everyone is encouraged to participate.    
 
-### Tuesday & Thursday dinosaur party   
+### Monday & Wednesday dinosaur party   
 
 **Meeting goal: Dinosaur Party! (and also make sure we're all working together effectively)**    
 **Run time: 10-15 minutes**  
@@ -163,7 +163,7 @@ The Monday and Wednesday Dinosaur Party is where the entire team meets for 10-15
 
 The meeting should run as follows:  
 
-- First 60 seconds: Post funny GIFs in Slack marketing room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis  
+- First 60 seconds: Post funny GIFs in Slack marketing room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis. You can only post one GIF per day. 
 - First 5 minutes: Everyone in order of Team Page (Last goes first) gives 15 seconds about what they are working on. (Marcia, Colton, Amara, Ryan, Amanda, Braden, Mitchell, Ivan, Luke, Axil, Hank, Ashley, Emily)  
 - Last 5 minutes: Discuss roadblocks and any collaboration needs  
 
