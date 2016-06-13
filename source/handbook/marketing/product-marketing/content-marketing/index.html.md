@@ -212,6 +212,8 @@ Do you have a better idea? Don't hesitate, [create an issue][blog-tracker] with 
 
 ## Technical Aspects
 
+**All** blog posts should always have an **author name**. When applicable, add a section "Acknowledgments" to the end of the post to thank contributors.
+
 ### Publishing process for GitLab Team members
 
 1. Choose a [topic](#blog-content)
@@ -233,7 +235,7 @@ Not a GitLab Team member? Check the process for Community Writers below.
 
 ### Publishing process for Community Writers
 
-For our [community writers], we will follow the Scalable Writing System described below.
+For our [community writers], we will follow the Scalable Writing System described below. 
 
 1. Guest Writer - choose a subject:
    - Make sure you are familiar with [GitLab Workflow]
@@ -256,6 +258,9 @@ For our [community writers], we will follow the Scalable Writing System describe
 6. Content Marketing / Account Ops: pay the writer
   - Amara email the writer to wire the money
   - Guest writer will get paid
+
+Important: make sure the last section of the post is "About the guest author", describing in two or three sentences the author's background on the post's subject. It should be written by the author him/herself. Examples: check [this post][post-convox] and [this post][post-iOS] for reference.
+
 
 ### Blog Post Issue Tracker
 
@@ -319,6 +324,8 @@ We invite and encourage guest writers and also offer compensation through the [C
 [GitLab Workflow]: https://www.youtube.com/watch?v=enMumwvLAug "Introduction to GitLab Workflow"
 [gitlabwww]: https://gitlab.com/gitlab-com/www-gitlab-com
 [Kramdown]: //kramdown.gettalong.org/
+[post-convox]: https://about.gitlab.com/2016/06/09/continuous-delivery-with-gitlab-and-convox/#about-guest-author-noah-zoschke
+[post-iOS]: https://about.gitlab.com/2016/03/10/setting-up-gitlab-ci-for-ios-projects/#about-guest-author-angelo-stavrow
 [Priceonomics content marketing handbook]: http://priceonomics.com/the-content-marketing-handbook/
 [public domain]: https://en.wikipedia.org/wiki/Public_domain
 [Realm.io]: //realm.io
