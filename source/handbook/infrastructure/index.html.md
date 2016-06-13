@@ -25,6 +25,14 @@ For [emergency checklist](https://dev.gitlab.org/cookbooks/gitlab-drbd/blob/mast
 
 See [failover procedure](https://dev.gitlab.org/cookbooks/gitlab-drbd/blob/master/doc/control_script.md#failover-procedure).
 
+## Make GitLab.com settings the default
+
+As said in the [production engineer job description]() one of the goals is "Making GitLab easier to maintain for sysadmins all over the world".
+One of the ways we do it is making GitLab.com settings the default for all our customers.
+It is very imporatant that GitLab.com is running GitLab Enterprise Edition with all its default settings.
+We don't want users running GitLab at scale to run into any problems.
+If it is not possible to use the default settings the difference should be documented in [requirements.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/install/requirements.md) before applying them to GitLab.com.
+
 ## Dev.gitlab.org backups
 
 Backups for dev.gitlab.org are stored on S3 in the `backup-dev-gitlab-org` bucket. The backups are protected against deletion using S3 versioning, and move to Glacier storage (slow retrieval) after 7 days.
@@ -60,12 +68,12 @@ Now `git remote -v` should look like:
 
 
 Deploy with:
-    
+
     git push deploy master
 
 ## DRBD reports local disk state is ‘Diskless’
 
-* Try deactivating/activating the DRBD resource: 
+* Try deactivating/activating the DRBD resource:
         sudo drbdadm detach gitlab_data ; sudo drbdadm attach gitlab_data
 
 * Check if any lvm commands are still running `ps ax | grep lvm` . If so, wait for them to finish (may take 15 minutes).
@@ -105,26 +113,26 @@ Deploy with:
 ### Random tips:
 
 * Configure Nginx to use the key
-    
+
         sudo vim /etc/nginx/sites-available/TAB
         ( or sometimes: sudo vim /etc/nginx/ssl.conf )
         ssl_certificate         /etc/ssl/$DOMAIN.crt;
         ssl_certificate_key     /etc/ssl/$DOMAIN.key;
 
 * Test Nginx config
-        
+
         sudo nginx -t
 
 * Restart Nginx
-        
+
         sudo service nginx restart
 
 * Change the firewall rules, needed on Digital Ocean:
-        
+
         sudo ufw allow https
 
 * Consider adding a redirect rule from http to https
-        
+
         server {
           listen *:80;
           server_name www.example.com;
@@ -174,15 +182,15 @@ From 13-20 December we have been storing uploads in the wrong S3 bucket. The buc
 * Locally delete uploads that do not belong in production. Production uploads had IDs in the thousands or tens of thousands; staging uploads had IDs like 1,2,3. I also checked in the S3 web console when some of the files were created to distinguish staging uploads from production uploads.
 
 * Dry run for uploading the cleaned-up local copy of the uploads to the production bucket. Check if the paths make sense
-         
+
          s3cmd -c .s3cfg sync -n gitlab_cloud_staging_us/ s3://gitlab_production_us
 
 * Sync the local uploads to the production bucket
-         
+
          s3cmd -c .s3cfg sync  gitlab_cloud_staging_us/ s3://gitlab_production_us
 
 * Delete the local copy of the uploads
-         
+
          rm -rf gitlab_cloud_staging_us/
 
 ## Monit check for disk space on root filesystem
