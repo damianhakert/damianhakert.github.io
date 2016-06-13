@@ -43,6 +43,6 @@ Senior Developers are experienced developers who:
 * You are passionate about open source
 * You have worked on a production-level Rails application
 * You know how to write your own Ruby gem using TDD techniques
+* You share our [values](/handbook/#values), and work in accordance with those values.
 * Work remotely from anywhere in the world (Curious to see what that looks like?
 Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!)
-
