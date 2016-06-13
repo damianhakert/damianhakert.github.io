@@ -80,9 +80,11 @@ engineering managers.
 
 Each issue that is scheduled should meet most of these criteria:
 
-1. It should be in line with our vision for GitLab
+1. It should be in line with our [vision for GitLab](https://about.gitlab.com/direction/#vision)
 1. It benefits our users
 1. It is technically viable
+1. The technical complexity is acceptable (we want to preserve our ability to make changes quickly in the future so we try to avoid: complex code, complex data structures, and optional settings)
+1. It is ortagonal to other features (prevent overlap with current and future features)
 1. Its requirements are clear
 
 Direction issues are the big, prioritized new features for each release. They are limited to 36 points per release (4 developers each tackling a single 9-point issue)
