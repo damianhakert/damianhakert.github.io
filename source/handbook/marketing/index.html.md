@@ -159,7 +159,7 @@ The meeting should run as follows:
 **Meeting goal: Dinosaur Party! (and also make sure we're all working together effectively)**    
 **Run time: 10-15 minutes**  
 
-The Tuesday and Thursday Dinosaur Party is where the entire team meets for 10-15 minutes immediately following the team call to discuss what we're all working on and to get help with any questions. There is no agenda for this meeting and it should be an open forum.  
+The Monday and Wednesday Dinosaur Party is where the entire team meets for 10-15 minutes immediately following the sales team call to discuss what we're all working on and to get help with any questions. There is no agenda for this meeting and it should be an open forum.  
 
 The meeting should run as follows:  
 
