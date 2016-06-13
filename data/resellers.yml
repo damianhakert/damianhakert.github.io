@@ -1,14 +1,14 @@
 - name: Lyra Infosystems
-  image: /images/resellers/Lyra-logo.png
+  image: /images/resellers/lyra-logo.svg
   content: |
     Lyra is a recognized leader as Open Source Solution Enabler in Asia. We offer comprehensive suite of best-in-class technologies, solutions, support and services to software consuming organizations. Leading enterprises rely on our expertise to maximize their productivity and minimize risk by optimizing their SDLC processes. Our strategic consulting and services deliver high quality, on-demand solutions.
   email: GitLab@LyraInfo.com
   contact:
     - address: Bengaluru, Karnataka
       phone: +91 (80) 40408181
-    - address: Gurugram, Haryana 
+    - address: Gurugram, Haryana
       phone: +91 (124) 4206939
-    - address: Mumbai, Maharashtra 
+    - address: Mumbai, Maharashtra
       phone: +91 (22) 66089618
     - address: Singapore
       phone: +65 6809 7539
@@ -121,5 +121,3 @@
       url: https://twitter.com/ReleaseTEAM
     - type: linkedin
       url: http://www.linkedin.com/in/releaseteam
-
-
