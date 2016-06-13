@@ -1,18 +1,39 @@
-- name: ReleaseTEAM
-  image: /images/resellers/release-team-logo.png
+- name: Lyra Infosystems
+  image: /images/resellers/lyra-logo.svg
   content: |
-    ReleaseTEAM is a veteran owned DevOps consulting firm. We help with Development and Deployment tool implementations, migrations, tool evaluations and software sales with tools from. We have established best of breed partnerships that allow us to have a unique expertise in helping our clients with problems or assessing their environments to identifying areas for improvement.
-  email: GitLab@ReleaseTEAM.com
+    Lyra is a recognized leader as Open Source Solution Enabler in Asia. We offer comprehensive suite of best-in-class technologies, solutions, support and services to software consuming organizations. Leading enterprises rely on our expertise to maximize their productivity and minimize risk by optimizing their SDLC processes. Our strategic consulting and services deliver high quality, on-demand solutions.
+  email: GitLab@LyraInfo.com
   contact:
-    - address: Denver/CO, USA
-      phone: +1 (720) 887-0489
-    - address: Toronto/ON, Canada
-      phone: +1 (866) 887-0489
+    - address: Bengaluru, Karnataka
+      phone: +91 (80) 40408181
+    - address: Gurugram, Haryana
+      phone: +91 (124) 4206939
+    - address: Mumbai, Maharashtra
+      phone: +91 (22) 66089618
+    - address: Singapore
+      phone: +65 6809 7539
+    - website: http://www.lyrainfo.com/
   social:
+    - type: facebook
+      url: https://www.facebook.com/pages/Lyra-Infosystems-Pvt-Ltd/1392172921012991
+    - type: google-plus
+      url: https://plus.google.com/112865872338979236557/about
     - type: twitter
-      url: https://twitter.com/ReleaseTEAM
+      url: https://twitter.com/lyrainfosystems
     - type: linkedin
-      url: http://www.linkedin.com/in/releaseteam
+      url: https://www.linkedin.com/company/657607?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_657607%2Cidx%3A0
+- name: MOUSoft
+  image: /images/resellers/mousoft-logo.svg
+  content: |
+    MOUSoft focuses on software engineering solutions and consulting about ADLM in Korea. Our reliable software engineering solutions and training will help ensure your team can proceed successfully with your projects.
+
+    모우소프트는 소프트웨어 공학 솔루션 및 ADLM 컨설팅 전문 기업입니다. 소프트웨어 공학이 기업에 성공적으로 정착할 수 있도록 최적의 솔루션과 최고의 컨설팅을 제공합니다. 우리는 모든 회사의 팀들이 성공하는 프로젝트가 되도록 지원하는 것을 목표로 합니다.
+  email: sales@mousoft.co.kr
+  contact:
+    - address: 서울, 한국
+      phone: +82 (2) 508-2733
+      website: http://mousoft.co.kr/
+    - website: http://blog.naver.com/mousoft
 - name: InTENSO
   image: /images/resellers/intenso-logo.svg
   content: |
@@ -36,34 +57,6 @@
       url: https://www.linkedin.com/company/117944
     - type: google-plus
       url: https://plus.google.com/+InTENSOpl-IT-Enterprise-Solutions/
-- name: MOUSoft
-  image: /images/resellers/mousoft-logo.svg
-  content: |
-    MOUSoft focuses on software engineering solutions and consulting about ADLM in Korea. Our reliable software engineering solutions and training will help ensure your team can proceed successfully with your projects.
-
-    모우소프트는 소프트웨어 공학 솔루션 및 ADLM 컨설팅 전문 기업입니다. 소프트웨어 공학이 기업에 성공적으로 정착할 수 있도록 최적의 솔루션과 최고의 컨설팅을 제공합니다. 우리는 모든 회사의 팀들이 성공하는 프로젝트가 되도록 지원하는 것을 목표로 합니다.
-  email: sales@mousoft.co.kr
-  contact:
-    - address: 서울, 한국
-      phone: +82 (2) 508-2733
-      website: http://mousoft.co.kr/
-    - website: http://blog.naver.com/mousoft
-- name: Softmart
-  image: /images/resellers/softmart-logo.svg
-  content: |
-    Softmart provides professional services mostly in ALM and ITSM areas in Russia helping organizations to adopt Process management, Continuous Integration, Continuous Deployment, Change and Release Management best practices while approaching DevOps or ITIL targets.
-
-    Softmart оказывает профессиональные инженерные услуги в области разработки, внедрения и поддержки комплексных решений автоматизации ИТ деятельности предприятий, включая процессы разработки ПО и процессы сервисного обслуживания, помогая организациям адаптировать лучшие практики управления бизнес процессами, непрерывной сборкой и развёртыванием, управления изменениями и релизами в контексте внедрения DevOps или ITIL.
-  email: GitLab@SoftMart.ru
-  contact:
-    - address: Москва, Россия
-      phone: + 7 (495) 730-88-03
-    - website: http://www.softmart.ru/ru/content/pages/GitLab.htm
-  social:
-    - type: facebook
-      url: https://www.facebook.com/softmartRUS
-    - type: linkedin
-      url: https://www.linkedin.com/company/softmart-ltd
 - name: Instruct
   image: /images/resellers/instruct-logo.png
   content: |
@@ -84,6 +77,23 @@
       url: https://twitter.com/instructbr
     - type: facebook
       url: https://facebook.com/instructbr
+- name: Softmart
+  image: /images/resellers/softmart-logo.svg
+  content: |
+    Softmart provides professional services mostly in ALM and ITSM areas in Russia helping organizations to adopt Process management, Continuous Integration, Continuous Deployment, Change and Release Management best practices while approaching DevOps or ITIL targets.
+
+    Softmart оказывает профессиональные инженерные услуги в области разработки, внедрения и поддержки комплексных решений автоматизации ИТ деятельности предприятий, включая процессы разработки ПО и процессы сервисного обслуживания, помогая организациям адаптировать лучшие практики управления бизнес процессами, непрерывной сборкой и развёртыванием, управления изменениями и релизами в контексте внедрения DevOps или ITIL.
+  email: GitLab@SoftMart.ru
+  contact:
+    - address: Москва, Россия
+      phone: + 7 (495) 730-88-03
+    - website: http://www.softmart.ru/ru/content/pages/GitLab.htm
+    - website: https://habrahabr.ru/company/softmart/
+  social:
+    - type: facebook
+      url: https://www.facebook.com/softmartRUS
+    - type: linkedin
+      url: https://www.linkedin.com/company/softmart-ltd
 - name: C&S Information Technology
   image: /images/resellers/c-s-logo.svg
   content: |
@@ -95,3 +105,19 @@
     - address: 上海，中国
       phone: + 86 (21) 6121 0910
     - website: http://www.shcsinfo.com/
+- name: ReleaseTEAM
+  image: /images/resellers/release-team-logo.png
+  content: |
+    ReleaseTEAM is a veteran owned DevOps consulting firm. We help with Development and Deployment tool implementations, migrations, tool evaluations and software sales with tools from requirements to deployment. We have established best of breed partnerships that allow us to have a unique expertise in helping our clients with problems or assessing their environments to identifying areas for improvement.
+  email: GitLab@ReleaseTEAM.com
+  contact:
+    - address: Denver/CO, USA
+      phone: +1 (720) 887-0489
+    - address: Toronto/ON, Canada
+      phone: +1 (866) 887-0489
+    - website: https://www.releaseteam.com/gitlab
+  social:
+    - type: twitter
+      url: https://twitter.com/ReleaseTEAM
+    - type: linkedin
+      url: http://www.linkedin.com/in/releaseteam
