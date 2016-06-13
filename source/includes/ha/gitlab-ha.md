@@ -45,7 +45,7 @@ It is possible to create a split between the application server, the file system
 
 The setup is described in the below picture.
 
-![gitlab.com](../images/Config_LB_appservers.png)
+![gitlab.com](/images/Config_LB_appservers.png)
 
 This solution also requires a shared file system (NFS), so it is only available for GitLab versions 6.0 and up, where satellites are in the shared disk. At this point, you should consider putting the filestore and DBMS on separate machines as well. Moreover, the filestore and the DBMS will need recovery protocols on their own (through snapshots or backups)
 
