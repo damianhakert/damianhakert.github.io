@@ -22,6 +22,7 @@ title: "People Operations"
    - [Setting up new contracts](#new-contracts)
    - [Processing changes](#processing-changes)
    - [Using BambooHR](#bamboohr)
+   - [Settings in BambooHR] (#bamboohr-settings)
    - [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)
    - [Administrative details of benefits for US-based employees](#benefits-us)
    - [Using TriNet](#using-trinet)
@@ -153,6 +154,21 @@ test account that does not have admin privileges.
 1. in the note to the team, point to the documentation created in step 1, explain the need and
 the ask, and who to turn to in case of questions.
 
+###Settings in BambooHR<a name="bamboohr-settings"></a>
+
+Changing a Format (Example: Date)
+
+1. Click on Settings 
+1. Choose Account
+1. Select General Settings
+1. Change the date format to match desired output
+
+Adding a New Job Title
+
+1. Click on Settings
+1. Select Employee Field
+1. Select Job Title
+1. Add new job title to the drop down list
 
 ### Managing the PeopleOps onboarding tasks <a name="manage-onboarding-tasks"></a>
 
@@ -181,6 +197,9 @@ your awesome colleagues in the #questions (channel) on Slack_
 Open the Team Agenda google doc, and on the starting day add an Agenda item:
 "[Hiring manager name]: Welcome [name new team member] joining as [job title]"
 as the first item on the agenda
+- **Create new profile for team member in BambooHR, and input relevant data**
+Once the new team member has been transfered from Workable to BambooHR, go to the Dashboard and search their name. Under the Personal tab, add country, work email, and personal email. Under the Job tab, enter the compensation from the contract. Note: We do not use the pay period or pay type option in this list, but BambooHR cannot remove it. 
+Next enter job information. Be sure to verify the proper title and contract type. 
 - **Invite to team meeting and GitLab 101 meeting**
 Go to the team call meeting on the starting date of the team member and the next
 scheduled GitLab 101 in the Availability calendar. Click on "edit event" to open.
