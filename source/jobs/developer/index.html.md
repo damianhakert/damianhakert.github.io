@@ -4,16 +4,16 @@ title: "Developer"
 ---
 
 At GitLab, developers are highly independent and self-organized individual
-contributors who work together as a tight team in a [remote and agile](https://about.gitlab.com/2015/09/14/remote-agile-at-gitlab/) way.
+contributors who work together as a tight team in a [remote and agile](/2015/09/14/remote-agile-at-gitlab/) way.
 
 Most backend developers work on all aspects of GitLab, building features, fixing bugs, and generally improving the application.
-Some developers [specialize](https://about.gitlab.com/jobs/specialist/) and focus on a specific area, such as packaging, performance or GitLab CI.
+Some developers [specialize](/jobs/specialist) and focus on a specific area, such as packaging, performance or GitLab CI.
 Developers can specialize immediately after joining, or after some time, when they have gained familiarity with many areas of GitLab and find one they would like to focus on.
 
 ## Responsibilities
 
 * Develop features from proposal to polished end result.
-* Support our [service engineers](https://about.gitlab.com/jobs/service-engineer) in getting to the bottom of user-reported issues and come up with robust solutions.
+* Support our [service engineers](/jobs/service-engineer) in getting to the bottom of user-reported issues and come up with robust solutions.
 * Engage with the core team and the open source community and collaborate on improving GitLab.
 * Review code contributed by the rest of the community and work with them to get it ready for production.
 * Write documentation around features and configuration to save our users time.
@@ -23,9 +23,9 @@ Developers can specialize immediately after joining, or after some time, when th
 
 ## Workflow
 
-The basics of GitLab development can be found in the [developer onboarding](handbook/developer-onboarding/#basics-of-gitlab-development) document.
+The basics of GitLab development can be found in the [developer onboarding](/handbook/developer-onboarding/#basics-of-gitlab-development) document.
 
-The handbook details the complete [GitLab Workflow](https://about.gitlab.com/handbook/#gitlab-workflow).
+The handbook details the complete [GitLab Workflow](/handbook/#gitlab-workflow).
 
 
 ## Senior Developers
