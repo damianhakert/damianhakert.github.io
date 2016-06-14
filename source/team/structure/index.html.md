@@ -37,13 +37,13 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Technical Writing](https://about.gitlab.com/handbook/marketing/developer-relations/technical-writing/) - [Technical Writer](/jobs/technical-writer/)
   - [Sales](/handbook/sales/) - [CRO](/jobs/chief-revenue-officer/) - Chad Malchow
     - Americas Sales - [Account Executive](/jobs/account-executive/)
-    - EMEA Sales - [Sales Director EMEA](/jobs/sales-director/) (lead) - Richard Pidgeon
+    - EMEA Sales - [Sales Director EMEA](/jobs/sales-director/) - Richard Pidgeon
       - [Account Executive](/jobs/account-executive/)
-    - APAC Sales and channel - [Director of Global Alliances and APAC Sales](/jobs/director-of-global-alliances-and-apac-sales/) (lead) - Michael Alessio
+    - APAC Sales and channel - [Director of Global Alliances and APAC Sales](/jobs/director-of-global-alliances-and-apac-sales/) - Michael Alessio
     - Customer Success - [Director of Customer Success](https://about.gitlab.com/jobs/dir-customer-success/) (vacancy)
       - [Account Manager](/jobs/account-manager/)
       - [Success Engineer](/jobs/success-engineer/)
-  - [People Operations](/handbook/people-operations/) - [Director/VP of People Operations](/jobs/dir-or-vp-of-people-ops/) (lead, vacancy)
+  - [People Operations](/handbook/people-operations/) - [Director/VP of People Operations](/jobs/dir-or-vp-of-people-ops/) (vacancy)
     - [People Operations Coordinator](/jobs/people-ops-coordinator/)
   - Finance - [CFO](/jobs/chief-financial-officer/) - Paul Machle
     - [Accounting](/handbook/accounting/) - [Controller](/jobs/controller/) - Wilson Lau
