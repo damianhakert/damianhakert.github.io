@@ -10,7 +10,9 @@ in GitLab Inc.
 
 ## TL;DR
 
-Start working on an issue you’re assigned to. If you’re not assigned to any issue, find the issue with the highest priority you can work on, by relevant label.
+Start working on an issue you’re assigned to. If you’re not assigned to any issue, find the issue with the highest priority you can work on, by relevant label. [You can use this query, which sorts by priority for the upcoming milestone][priority-issues].
+
+[priority-issues]: https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&sort=priority&state=opened&utf8=%E2%9C%93&milestone_title=%23upcoming&label-name=
 
 _**Note:** most of the document below assumes priority labels are live on GitLab.com
 at the time of writing this is not the case yet_
@@ -19,7 +21,9 @@ If you need to schedule something or prioritize it, apply the appropriate labels
 
 ## Choosing something to work on
 
-Start working on things with the highest priority in the current milestone. The priority of items are defined under labels in the repository, but you should be able to sort by priority (starting with GitLab 8.9).
+Start working on things with the highest priority in the current milestone. The
+priority of items are defined under labels in the repository, but you are able
+to sort by priority (starting with GitLab 8.9).
 
 After sorting by priority, choose something that you’re able to tackle and falls under your responsibility. That means that if you’re a frontend developer, you work on something with the label frontend. To filter very precisely you could filter all issues for:
 
@@ -27,6 +31,8 @@ After sorting by priority, choose something that you’re able to tackle and fal
 - Assignee: Unassigned
 - Label: Your label of choice. For instance Frontend
 - Sort by priority
+
+[Use this link to quickly set the above parameters][priority-issues].
 
 If you’re in doubt about what to work on, ask your lead. They will be able to tell you.
 
@@ -74,7 +80,7 @@ All other issues are nice to land in a milestone, but not expected to do so. The
 ## Scheduling issues
 
 GitLab Inc has to be selective in working on particular issues.
-We have a limited capacity to work on new things. Thefore, we have to
+We have a limited capacity to work on new things. Therefore, we have to
 schedule issues carefully. This is done primarily by product and
 engineering managers.
 
@@ -87,12 +93,12 @@ Each issue that is scheduled should meet most of these criteria:
 1. It is ortagonal to other features (prevent overlap with current and future features)
 1. Its requirements are clear
 
-Direction issues are the big, prioritized new features for each release. They are limited to 36 points per release (4 developers each tackling a single 9-point issue)
-Direction issues are given weight using planning poker
-Other issues are given weight based on best-effort.
+Direction issues are the big, prioritized new features for each release.
+They are limited to a small number per release so that we have plenty of
+capacity to work on other important issues, bug fixes, etc.
 
 Issues that are not scheduled for a future milestone,
-but we are committed to doing are put in the Backlog milestone.
+but we are committed to doing, are put in the Backlog milestone.
 
 Issues that are beneficial to our users, 'nice to haves', that we currently
 don't have the capacity for or want to give the priority to, are not
