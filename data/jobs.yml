@@ -43,6 +43,11 @@
   apply: https://gitlab.workable.com/jobs/142989/candidates/new
   open: true
 
+- title: "Product Manager"
+  description: /jobs/product-manager/
+  apply: https://gitlab.workable.com/jobs/269007/candidates/new
+  open: true
+
 - title: "Sales Operations Manager"
   description: /jobs/sales-operations-manager/
   apply: https://gitlab.workable.com/jobs/236037/candidates/new
