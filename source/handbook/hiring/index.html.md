@@ -34,14 +34,18 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
          default, this will include their resumé, a cover letter, but it may
          also include qualifying questions such as "What timezone are you in?".
        * "Publish" the job, and follow the links to the application form (you will need this URL).
-    1. In the [`data/jobs.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) file, open the position or add a new entry for it. Positions are automatically sorted alphabetically by `title` on the [jobs page](https://about.gitlab.com/jobs/). When someone views the job's description page, an "Apply" button will be shown for that position if we're currently hiring for it.
-          - Adding a new position: add an entry with the following format:<br>
-          `- title: "Chief Happiness Officer"`<br>
-          `description: /jobs/chief-happiness-officer/`<br>
-          `apply: https://gitlab.workable.com/jobs/12345/candidates/new`<br>
-          `open: true`
-          - Opening an existing position: If the position is already listed in the `jobs.yml` file but not "open", simply change `open: false` to `open: true` to have the position appear on the [listings](https://about.gitlab.com/jobs/).
-          - Closing an existing position: If we're no longer hiring for a particular position change `open: true` to `open: false` for that position to hide it from the listings.     
+    1. In the [`data/jobs.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) file, open the position or add a new entry for it. Positions are automatically sorted alphabetically by `title` on the [jobs page](/jobs/). When someone views the job's description page, an "Apply" button will be shown for that position if we're currently hiring for it.
+          - Adding a new position: add an entry with the following format:
+
+            ```yaml
+            - title: "Chief Happiness Officer"
+              description: /jobs/chief-happiness-officer/
+              apply: https://gitlab.workable.com/jobs/12345/candidates/new
+              open: true
+            ```
+
+          - Opening an existing position: If the position is already listed in the `jobs.yml` file but not "open", simply change `open: false` to `open: true` to have the position appear on the [listings](/jobs/).
+          - Closing an existing position: If we're no longer hiring for a particular position change `open: true` to `open: false` for that position to hide it from the listings.
  1. As soon as the new job description / posting is live on our website, consider your available [advertising methods](#job-advertising) below.
 
 ## Advertising the job<a name="job-advertising"></a>
@@ -56,8 +60,17 @@ _Consider_ advertising the job through the following means:
 
 List on:
 
-1. [Hacker News](https://news.ycombinator.com/ask): On the first of the month, include a note for GitLab in the Hacker News thread of "Who's Hiring" . Template text: `REMOTE ONLY GitLab
-We're hiring production engineers, developers, UX designers , and more. https://about.gitlab.com/jobs/ We're a remote only company so everyone is on an equal level. GitLab is an open-source Ruby on Rails project with over 1000 contributors.`
+1. [Hacker News](https://news.ycombinator.com/ask): On the first of the month, include a note for GitLab in the Hacker News thread of "Who's Hiring". Template text:
+
+   > REMOTE ONLY - GitLab
+   >
+   > We're hiring production engineers, developers, UX designers, and more.
+   >
+   > https://about.gitlab.com/jobs/
+   >
+   > We're a remote-only company so everyone is on an equal level. GitLab is an
+   > open-source Ruby on Rails project with over 1,000 contributors.
+
 1. [WeWorkRemotely](https://weworkremotely.com) ($200 for 30 days, per position).
 1. [RemoteOK](https://remoteok.io) ($200 for ?? days, per position)
 
@@ -124,6 +137,7 @@ They usually start with the form "Can you tell me about a time when...". The kin
 There is no right answer, what matters here is to hear the candidate and gather data on how is it telling the story.
 
 Some things to pay attention to:
+
 * What was the candidate role? Was it a leader? A follower? Why?
 * What is it highlighting as important? Did it matter?
 * Is it clearly explained? Is the story well told? If it is a technical story and the interviewer is a non-technical person, are things being explained in a way that make sense?
@@ -145,21 +159,20 @@ Once you have your notes, tell the candidate what you understood, repeat the sto
 Always leave feedback, this will allow the rest people to understand what happened and why you took the decision you took.
 
 One way of writing the feedback is as follows:
-```
-Vote: inclined/not inclined
 
-Summary: your general impressions, a brief description on what have you seen, where you stand, and why.
-
-Pros: what is good, and where did you found it during the interview, bullet points is fine.
-
-Cons: weak spots. Where the candidate failed to you, why, consider that some things can be taught or learnt.
-
-Interview notes: What questions were asked, what story you got back. Ex.
-
-  Tell me about a time when you did X
-
-  The candidate told me a story when she was working in his current gig doing... They had to do... It went well because she took the leadership and .... In the end they increased their sales in a 30%, she measured it by doing ...
-```
+> Vote: inclined/not inclined
+>
+> Summary: your general impressions, a brief description on what have you seen, where you stand, and why.
+>
+> Pros: what is good, and where did you found it during the interview, bullet points is fine.
+>
+> Cons: weak spots. Where the candidate failed to you, why, consider that some things can be taught or learnt.
+>
+> Interview notes: What questions were asked, what story you got back. Ex.
+>
+>   Tell me about a time when you did X
+>
+>   The candidate told me a story when she was working in his current gig doing... They had to do... It went well because she took the leadership and .... In the end they increased their sales in a 30%, she measured it by doing ...
 
 The vote is critical as it is telling the rest of the people what is your final thinking here. The rest should explain why do you think so.
 
@@ -206,16 +219,16 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 1. What did you like least about your recent/current position?
 1. Take each skill required for the job and do a [STAR](https://en.wikipedia.org/wiki/Situation,_Task,_Action,_Result) for a couple of situations.
 1. What professional achievements are you most proud of?
-1. Who's careers have you made better?
-1. How do you keep up to date with developments in your profession?
+1. Whose careers have you made better?
+1. How do you keep up-to-date with developments in your profession?
 1. If you don't get this job what will you do?
 1. Are you interviewing anywhere else?
 1. How can we change GitLab the software product to make it better?
 1. What can we change in GitLab the organization to make it better, for example the hiring process or the handbook?
 1. What do you expect to achieve in your first month at GitLab?
 1. Where do you want to be in three years from now?
-1. How do you feel about working remote?
-1. If you get hired when can you start?
+1. How do you feel about working remotely?
+1. If you get hired, when can you start?
 1. What compensation would you feel comfortable with?
 1. Do you have any questions for me?
 
