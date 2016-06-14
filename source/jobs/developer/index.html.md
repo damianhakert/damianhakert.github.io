@@ -1,12 +1,12 @@
 ---
-layout: markdown_page
+layout: job_page
 title: "Developer"
 ---
 
 At GitLab, developers are highly independent and self-organized individual
 contributors who work together as a tight team in a [remote and agile](https://about.gitlab.com/2015/09/14/remote-agile-at-gitlab/) way.
 
-Most backend developers work on all aspects of GitLab, building features, fixing bugs, and generally improving the application. 
+Most backend developers work on all aspects of GitLab, building features, fixing bugs, and generally improving the application.
 Some developers [specialize](https://about.gitlab.com/jobs/specialist/) and focus on a specific area, such as packaging, performance or GitLab CI.
 Developers can specialize immediately after joining, or after some time, when they have gained familiarity with many areas of GitLab and find one they would like to focus on.
 
@@ -27,6 +27,7 @@ The basics of GitLab development can be found in the [developer onboarding](hand
 
 The handbook details the complete [GitLab Workflow](https://about.gitlab.com/handbook/#gitlab-workflow).
 
+
 ## Senior Developers
 
 Senior Developers are experienced developers who:
@@ -37,12 +38,8 @@ Senior Developers are experienced developers who:
 
 ## Requirements
 
-(Check our [Jobs](https://about.gitlab.com/jobs/) page to see current openings).
-
 * You can reason about software, algorithms and performance from a high level
 * You are passionate about open source
 * You have worked on a production-level Rails application
 * You know how to write your own Ruby gem using TDD techniques
 * You share our [values](/handbook/#values), and work in accordance with those values.
-* Work remotely from anywhere in the world (Curious to see what that looks like?
-Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!)

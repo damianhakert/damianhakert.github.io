@@ -1,5 +1,5 @@
 ---
-layout: markdown_page
+layout: job_page
 title: "Business Development Team Lead"
 ---
 
@@ -24,7 +24,6 @@ You have experience in sales or business development helping people get started 
 
 ## Requirements
 
-* Work remotely from anywhere in the world (Curious to see what that looks like? Check out our <a href="https://about.gitlab.com/2015/04/08/the-remote-manifesto/" target="_blank">remote manifesto</a>!)
 * Excellent spoken and written English
 * Experience in sales, marketing, or customer service for a technical product - leadership experience is highly preferred.
 * Experience with CRM software (Salesforce preferred)

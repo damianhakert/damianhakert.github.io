@@ -1,5 +1,5 @@
 ---
-layout: markdown_page
+layout: job_page
 title: "Content Marketing Manager"
 ---
 
