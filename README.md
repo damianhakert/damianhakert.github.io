@@ -93,38 +93,6 @@ Edit [`data/pets.yml`](./data/pets.yml) and add a new entry.
 
 Images should be uploaded to [`source/images/team/pets`](./source/images/team/pets).
 
-### Opening or closing hiring
-
-The list of available job openings on the [jobs page] is generated from
-[`data/jobs.yml`](./data/jobs.yml).
-
-If we're no longer hiring for a particular position, change `open: true` to
-`open: false` for that position to hide it from the listings.
-
-To add a new position, add a new entry for it:
-
-```yaml
-- title: "Chief Happiness Officer"
-  description: /jobs/chief-happiness-officer/
-  apply: https://gitlab.workable.com/jobs/12345/candidates/new
-  open: true
-```
-
-The purpose of these fields is outlined below:
-
-| Key         | Purpose                                                 |
-| ----------- | ------------------------------------------------------- |
-| title       | Job title; displayed as a header on the jobs page       |
-| description | A link to the job's description page                    |
-| apply       | A link to the job's Workable page                       |
-| open        | Whether or not we're currently hiring for this position |
-
-Positions are automatically sorted alphabetically by `title` on the [jobs page].
-When someone views the job's description page, an "Apply" button will be shown
-for that position if we're currently hiring for it.
-
-[jobs page]: https://about.gitlab.com/jobs
-
 ### Updating the promotion link
 
 This link appears at the top of the homepage and can be used to promote new

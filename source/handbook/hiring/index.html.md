@@ -32,16 +32,17 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
          relevant jobs page on about.gitlab.com]`
        * Indicate what applicants need to provide with their application. By
          default, this will include their resumé, a cover letter, but it may
-         also include qualifying questions such as "What timezone are you in?"
-         and "Are you aware that this is not a DevOps role?".
-       * "Publish" the job, and follow the links to the application form.
-    1. In the [`data/jobs.yml`][jobs.yml] file, open the position or add a new
-       entry for it. See [the `README`][jobs_readme] for detailed instructions.
-    1. As soon as the new job description / posting is live on our website,
-       consider your available [advertising methods](#job-advertising) below.
-
-[jobs.yml]: https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml
-[jobs_readme]: https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/README.md#opening-or-closing-hiring
+         also include qualifying questions such as "What timezone are you in?".
+       * "Publish" the job, and follow the links to the application form (you will need this URL).
+    1. In the [`data/jobs.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) file, open the position or add a new entry for it. Positions are automatically sorted alphabetically by `title` on the [jobs page](https://about.gitlab.com/jobs/). When someone views the job's description page, an "Apply" button will be shown for that position if we're currently hiring for it.
+          - Adding a new position: add an entry with the following format:<br>
+          `- title: "Chief Happiness Officer"`<br>
+          `description: /jobs/chief-happiness-officer/`<br>
+          `apply: https://gitlab.workable.com/jobs/12345/candidates/new`<br>
+          `open: true`
+          - Opening an existing position: If the position is already listed in the `jobs.yml` file but not "open", simply change `open: false` to `open: true` to have the position appear on the [listings](https://about.gitlab.com/jobs/).
+          - Closing an existing position: If we're no longer hiring for a particular position change `open: true` to `open: false` for that position to hide it from the listings.     
+ 1. As soon as the new job description / posting is live on our website, consider your available [advertising methods](#job-advertising) below.
 
 ## Advertising the job<a name="job-advertising"></a>
 
@@ -78,7 +79,7 @@ If you have decided to let the applicant move on to the next interview, feel fre
 1. Technical interview (optional): As described on the [Jobs](https://about.gitlab.com/jobs/) page, certain positions require [technical interviews](https://about.gitlab.com/jobs/#technical-interview).
 1. Multiple further interviews (see [below for sample questions](#interview-questions)). At minimum, the candidate should be interviewed by their Manager, one female GitLab team member, and a C-level executive... but this can be one and the same person.
 1. CEO interview: the CEO, as the primary culture carrier of the company, typically interviews all final round candidates.
-1. Optional: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. At minimum two reference calls should be completed - one to a manager, the other to a colleague. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going. 
+1. Optional: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. At minimum two reference calls should be completed - one to a manager, the other to a colleague. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
 1. Make a verbal or written (email) offer (the CEO needs to authorize offers)
 1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
 1. Hiring manager ensures that the contract is signed, and People Ops [starts the onboarding process](#move-to-onboarding).
