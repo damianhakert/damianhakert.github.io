@@ -19,9 +19,13 @@ class Breadcrumbs < Middleman::Extension
   def breadcrumbs(page, separator: @separator, wrapper: @wrapper)
     hierarchy = [page]
     hierarchy.unshift hierarchy.first.parent while hierarchy.first.parent
-    hierarchy.collect do |page|
+    hierarchy.collect.with_index do |page, i|
       if page.path != "index.html"
-        wrap link_to(page.data.title, "/#{page.path}"), wrapper: wrapper
+        if (i+1) == hierarchy.size
+          content_tag(:li, page.data.title)
+        else
+          wrap link_to(page.data.title, "/#{page.path}"), wrapper: wrapper
+        end
       end
     end.join(h separator)
   end
