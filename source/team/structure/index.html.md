@@ -14,28 +14,27 @@ GitLab Inc. has at most five layers in the team structure:
 
 The indentation below reflects the reporting relations.
 You can see our complete team and who reports to who on the [team page](https://about.gitlab.com/team/).
+If there is one individual for a role this person is named here, if there are multiple there only is a link to a function description in order to reduce the duplication with the team page.
 If there is a hyphen (-) in a line the part before hyphen is the name of the department and sometimes links to the relevant part of the [handbook](https://about.gitlab.com/handbook/).
 The job titles link to the job descriptions.
 Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
 
-
 - [General](/handbook/) - [CEO](/jobs/chief-executive-officer/) - Sid Sijbrandij
   - [Marketing](/handbook/marketing/) - [CMO](/jobs/chief-marketing-officer/) - Ashley Smith
-    - Design - [Designer](/jobs/designer/) - Luke Babb
-    - [Demand generation](/handbook/marketing/demand-generation)
-      - [Director of Demand Generation](/jobs/director-demand-generation) - Joe Lucas
-        - [Senior Demand Generation Manager](/jobs/demand-generation-manager/) - Hank Taylor
-        - [Online Marketing](/handbook/marketing/online-marketing) - [Online Marketing Manager](/jobs/online-marketing-manager/) - Mitchell Wright
-        - Inbound Business Development - [Business Development Team Lead - Inbound](/jobs/business-development-team-lead/) - Colton Taylor
-        - [Field Marketing](/handbook/marketing/developer-relations/field-marketing/) - [Field Marketing Manager](/jobs/field-marketing-manager/) - Emily Kyle
-        - [Business Development Representatives - Inbound](/jobs/business-development-representative/) - Ryan Caplin, Braden Coleman
-        - Outbound Business Development - [Business Development Team Lead - Outbound](/jobs/business-development-team-lead-outbound/)
-    - [Product Marketing](/handbook/marketing/product-marketing/) - [Senior Product Marketing Manager](/jobs/product-marketing-manager/) (lead) - Amara Nwaigwe
+    - [Design](https://about.gitlab.com/handbook/marketing/design/) - [Designer](/jobs/designer/) - Luke Babb
+    - [Demand generation](/handbook/marketing/demand-generation) - [Director of Demand Generation](/jobs/director-demand-generation) - Joe Lucas
+      - [Senior Demand Generation Manager](/jobs/demand-generation-manager/) - Hank Taylor
+      - [Online Marketing](/handbook/marketing/online-marketing) - [Online Marketing Manager](/jobs/online-marketing-manager/) - Mitchell Wright
+      - Inbound Business Development - [Business Development Team Lead - Inbound](/jobs/business-development-team-lead/) - Colton Taylor
+      - [Field Marketing](/handbook/marketing/developer-relations/field-marketing/) - [Field Marketing Manager](/jobs/field-marketing-manager/) - Emily Kyle
+      - [Business Development Representatives - Inbound](/jobs/business-development-representative/)
+      - Outbound Business Development - [Business Development Team Lead - Outbound](/jobs/business-development-team-lead-outbound/)
+    - [Product Marketing](/handbook/marketing/product-marketing/) - [Senior Product Marketing Manager](/jobs/product-marketing-manager/) - Amara Nwaigwe
       - [Partner Marketing](/handbook/marketing/product-marketing/#partnermarketing/) - Partner/Channel Marketing Manager (vacancy)
       - [Content Marketing](/handbook/marketing/developer-relations/content-marketing/) - Content Marketing Manager (vacancy)
-    - Developer Relations
-      - [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/) - [Developer Advocate](/jobs/developer-advocate/) - Ivan Nemytchenko, Amanda Folson
-      - Technical Writing - [Technical Writer](/jobs/technical-writer/) - Axil, Marcia Ramos
+    - [Developer Relations](https://about.gitlab.com/handbook/marketing/developer-relations/)
+      - [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/) - [Developer Advocate](/jobs/developer-advocate/)
+      - Technical Writing - [Technical Writer](/jobs/technical-writer/)
   - [Sales](/handbook/sales/) - [CRO](/jobs/chief-revenue-officer/) - Chad Malchow
     - Americas Sales - [Account Executive](/jobs/account-executive/)
     - EMEA Sales - [Sales Director EMEA](/jobs/sales-director/) (lead) - Richard Pidgeon
