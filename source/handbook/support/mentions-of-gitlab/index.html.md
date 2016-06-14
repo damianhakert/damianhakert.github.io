@@ -5,9 +5,9 @@ title: Service Engineer Onboarding
 
 ## Mentions Channel
 
-We use the [mentions-of-gitlab](https://gitlab.slack.com/messages/mentions-of-gitlab/)  slack channel to track mentions of GitLab across multiple sources to allow us to respond to user requests across various platforms.
+We use the [mentions-of-gitlab](https://gitlab.slack.com/messages/mentions-of-gitlab/) slack channel to track mentions of GitLab across multiple sources. This allows us to respond to user requests across various platforms.
 
-We currently track for GitLab mentions across the following sources:
+We currently track the following sources for GitLab mentions:
 
 1. Product Hunt
 2. Tumblr
