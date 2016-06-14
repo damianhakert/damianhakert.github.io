@@ -1,5 +1,5 @@
 ---
-layout: markdown_page
+layout: job_page
 title: "Service Engineer"
 ---
 The rising popularity of GitLab means that our professional services are in high demand.
@@ -38,14 +38,10 @@ Senior Service Engineers are experienced Service Engineers who
 * take ownership of documentation and feature requests that is based on customer interactions
 * create merge requests to fix bugs
 
-
 ## Requirements for Applicants
-
-(Check our [Jobs](https://about.gitlab.com/jobs/) page to see current openings).
 
 * B.Sc. in Computer Science or equivalent experience
 * Above average knowledge of Unix and Unix based Operating Systems
 * Vast experience with Ruby on Rails Applications and git
 * Good people skills
 * Excellent spoken and written English
-* Work remotely from anywhere in the world (Curious to see what that looks like? Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!)

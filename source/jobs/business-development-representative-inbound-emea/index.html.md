@@ -1,5 +1,5 @@
 ---
-layout: markdown_page
+layout: job_page
 title: "Business Development Representative, EMEA"
 ---
 
@@ -19,7 +19,7 @@ You love talking about GitLab to people and no question or challenge is too big 
 
 ## Requirements
 
-* While you need to serve customers in EMEA, you can work remotely from anywhere in the world (Curious to see what that looks like? Check out our <a href="https://about.gitlab.com/2015/04/08/the-remote-manifesto/" target="_blank">remote manifesto</a>!)
+* While you need to serve customers in EMEA, you can work remotely from anywhere in the world 
 * Excellent spoken and written English
 * Fluency in spoken and written German and/or other European languages is preferred.
 * Experience in sales, marketing, or customer service

@@ -1,8 +1,7 @@
 ---
-layout: markdown_page
+layout: job_page
 title: "Director of Global Alliances & APAC Sales"
 ---
-
 
 ## Description
 

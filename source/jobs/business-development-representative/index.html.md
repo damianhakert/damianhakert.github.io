@@ -1,5 +1,5 @@
 ---
-layout: markdown_page
+layout: job_page
 title: "Business Development Representative"
 ---
 
@@ -19,7 +19,6 @@ You love talking about GitLab to people and no question or challenge is too big 
 
 ## Requirements
 
-* Work remotely from anywhere in the world (Curious to see what that looks like? Check out our <a href="https://about.gitlab.com/2015/04/08/the-remote-manifesto/" target="_blank">remote manifesto</a>!)
 * Excellent spoken and written English
 * Experience in sales, marketing, or customer service
 * Experience with CRM and/or marketing automation software is highly preferred

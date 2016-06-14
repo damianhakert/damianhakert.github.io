@@ -1,5 +1,5 @@
 ---
-layout: markdown_page
+layout: job_page
 title: "Marketing Operations Specialist"
 ---
 
@@ -21,7 +21,6 @@ You have experience in marketing, business development, or sales operations and 
 
 ## Requirements
 
-* Work remotely from anywhere in the world (Curious to see what that looks like? Check out our remote manifesto!).
 * Excellent spoken and written English.
 * Experience with marketing automation software (Marketo highly preferred).
 * Experience with CRM software (Salesforce preferred).

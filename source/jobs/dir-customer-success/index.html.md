@@ -1,16 +1,25 @@
 ---
-layout: markdown_page
+layout: job_page
 title: "Director Customer Success"
 ---
 
+As the Director of Customer Success, you will lead our dynamic customer success
+team and help drive various customer success initiatives, projects and
+strategies.
 
-As the Director of Customer Success, you will lead our dynamic customer success team and help drive various customer success initiatives, projects and strategies. 
-The right candidate will play a critical role in the delivery of a world-class service experience to GitLab's customers and channel partners. 
-The right candidate is responsible for architecting the post-sales customer experience and lifecycle by building a world class service organization, implementing technology and processes, and partnering with the sales, product, engineering and operations teams to deliver the best possible customer experience.
+The right candidate will play a critical role in the delivery of a world-class
+service experience to GitLab's customers and channel partners.
+
+The right candidate is responsible for architecting the post-sales customer
+experience and lifecycle by building a world class service organization,
+implementing technology and processes, and partnering with the sales, product,
+engineering and operations teams to deliver the best possible customer
+experience.
 
 The right candidate is truly passionate about customer advocacy and has a proven track record to talk about! This is an exciting opportunity to unequivocally influence our customers and furthermore, directly impact GitLab’s overall success.
 
 ## Responsibilities:
+
 * Set the overall vision and strategic plan for the Customer Success organization - build and scale an integrated Customer Success organization, with specific focus on Health, Usage and Adoption metrics.
 * Drive Customer Success Outcomes: Increase renewal rates and reduce churn, expand our revenue in accounts through cross-sells and up-sell opportunities, influence future lifetime value through higher product adoption, customer satisfaction and overall health scores, drive new business growth through greater advocacy and reference ability
 * Define and Optimize Customer Lifecycle: define segmentation of customer base and varying strategies, identify opportunities for continuous improvement.
@@ -24,7 +33,8 @@ The right candidate is truly passionate about customer advocacy and has a proven
 * Align with Finance around measurement and forecasting with driving profitable gross margin focus
 
 ## Requirements for applicant
-* 7 - 10 years of management experience – including at least three years heading a successful customer success or services organization in an enterprise software environment 
+
+* 7 - 10 years of management experience – including at least three years heading a successful customer success or services organization in an enterprise software environment
 * Strong understanding and knowledge of the customer success role in successful cloud and enterprise environments
 * Successful and inspired leadership of a management team
 * Experience with customer success and relationship management of large strategic clients. Must be able to oversee the management of a high volume of accounts at all levels: SMB; Mid Market; Enterprise and Partners
@@ -36,5 +46,3 @@ The right candidate is truly passionate about customer advocacy and has a proven
 * Able to collaborate across organization and with external stakeholders
 * Holds strong operational skills that will drive organizational efficiencies and customer satisfaction
 * Willing and able to address escalated client issues with speed and urgency
-
-Work remotely from anywhere in the world. Curious to see what that looks like? Check out our [remote manifesto]( https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!

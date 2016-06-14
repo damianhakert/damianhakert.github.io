@@ -1,5 +1,5 @@
 ---
-layout: markdown_page
+layout: job_page
 title: "People Operations Administrator"
 ---
 
@@ -30,4 +30,3 @@ with the goal always being to make things easier from the perspective of the tea
 * Proven experience in quickly learning new software tools
 * Willing to work with git and GitLab whenever possible
 * Willing to make People Operations as open and transparent as possible
-
