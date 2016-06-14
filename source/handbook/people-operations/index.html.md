@@ -12,6 +12,7 @@ title: "People Operations"
 ## This page
 
 - [Role of People Operations](#role-peopleops)
+- [Team Directory](#directory)
 - [Office addresses](#addresses)
 - [Policies](#peopleops-policies)
    - [Compensation principles](#compensation-principles)
@@ -42,6 +43,14 @@ title: "People Operations"
 ## Role of People Operations<a name="role-peopleops"></a>
 
 In general, the People Operations team and processes are here as a service to the rest of the team; helping make your life easier so that you can focus on your work and contributions to GitLab. On that note, please don't hesitate to [reach out](#reach-peopleops) with questions! In the case of a conflict between the company and a team member, People Operations works "on behalf of" the company.
+
+## Team Directory<a name="directory"></a>
+
+The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is in BambooHR, and is accessible to all team members.
+
+- Please make sure that your own information stays up to date, and reach out to People Ops if you need any help in doing so.
+- Please make sure that your address and phone information are written in such a way that your team mates can reach you from a different country. So, for example, include `+[country code]` in front of your phone number. 
+
 
 ## Office addresses<a name="addresses"></a>
 
