@@ -111,7 +111,7 @@ and then ping @rspeicher to confirm your account. You can find this (and other) 
 * [ ] New team member: once you are registered on 1Password, ping your hiring manager to grant you access
 to the proper shared Vaults by making a suggestion in the relevant cell in the "1password Shared Folders" Google Sheet.
 * [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
-* [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
+* [ ] New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
 * [ ] Robert/Jacob/Ernst: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
 * [ ] New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information. Make sure to add the country code to phone numbers (i.e. all numbers should start with `+`).
 * [ ] New team member: Set up [Calendly](https://about.gitlab.com/handbook/#calendly) and add your Calendly link to your Slack profile.
