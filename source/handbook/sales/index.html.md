@@ -139,8 +139,10 @@ Once the above has happened, please make sure the following actions are done:
 1. Create a renewal opportunity opportunity by cloning the current opportunity and changing the close date to be 12, 24 or 36 months out.
 1. Create an add-on or Existing Account (new division) opportunity if there has been one identified by you at this time.
 1. An automated task is created to check in with the Account, 30 days after the deal closes.  The purpose for this check in is to make sure they are happy, address any questions they have, ask them to be a reference or to speak with our product marketing team on how they use GitLab.
+  * If the customer agrees to be a reference, please check the box on the account object called "referenceable customer".  Also go to the contact object who agreed to be a reference and under the field "role" please select "reference - investors and prospects"
+  * If customer agrees to speak with product marketing about how they use GitLab, please email product marketing manager
 1. Once the opportunity is closed won, the field "type" on the account object will change to "customer"
-1. A task will be auto created in Salesforce.com reminding you to ppdate the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
+1. A task will be auto created in Salesforce.com reminding you to update the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
 
 ### Using Cases in Salesforce <a name="cases"></a>
 
