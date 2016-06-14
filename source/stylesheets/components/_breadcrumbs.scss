@@ -1,8 +1,8 @@
 .breadcrumb {
   font-size: 12px;
-  
+
   > li {
-    &:nth-child(2):before {
+    &:nth-child(2)::before {
       display: none;
     }
   }
