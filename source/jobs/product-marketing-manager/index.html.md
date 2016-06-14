@@ -26,3 +26,4 @@ The Product Marketing Manager role includes 4 key areas of focus:
 * 3-5 years of experience in developer product marketing.
 * Able to coordinate across many teams and perform in fast-moving startup environment.
 * Excellent spoken and written English
+* You share our [values](/handbook/#values), and work in accordance with those values.

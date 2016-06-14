@@ -67,3 +67,4 @@ title: "Director/VP of People Operations"
 - Willing to work with git and GitLab whenever possible
 - Willing to make People Operations as open and transparent as possible
 - Wanting to work for a fast-moving startup
+- You share our [values](/handbook/#values), and work in accordance with those values.

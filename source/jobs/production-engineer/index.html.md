@@ -29,3 +29,4 @@ to GitLab.com availability incidents and customer incidents.
 * Ruby scripting experience (our preferred language for operations scripts)
 * Programming experience (Ruby and Ruby on Rails preferred; for GitLab debugging)
 * Collaborative team spirit with great communication skills
+* You share our [values](/handbook/#values), and work in accordance with those values.

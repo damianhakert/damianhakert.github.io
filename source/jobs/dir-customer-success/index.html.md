@@ -46,3 +46,4 @@ The right candidate is truly passionate about customer advocacy and has a proven
 * Able to collaborate across organization and with external stakeholders
 * Holds strong operational skills that will drive organizational efficiencies and customer satisfaction
 * Willing and able to address escalated client issues with speed and urgency
+* You share our [values](/handbook/#values), and work in accordance with those values.

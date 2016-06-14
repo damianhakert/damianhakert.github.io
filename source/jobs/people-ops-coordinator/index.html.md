@@ -24,6 +24,7 @@ title: "People Operations Coordinator"
 - Willing to work with git and GitLab whenever possible
 - Willing to make People Operations as open and transparent as possible
 - Wanting to work for a fast moving startup
+- You share our [values](/handbook/#values), and work in accordance with those values
 - The ability to work in a fast paced environment with strong attention to detail is essential. You will be fully engaged and busy from the first day and we guarantee there will never be a dull moment.
 
 ## A day in the life of...

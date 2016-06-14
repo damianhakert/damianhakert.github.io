@@ -192,7 +192,7 @@ notified of the rejection.
 
 ## Screening Call<a name="screening-call"></a>
 
-For some positions, we conduct screening calls. This call is typically done by our [administrative coordinator](https://about.gitlab.com/jobs/administrative-coordinator/).
+For some positions, we conduct screening calls. This call is typically done by our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/).
 
 Questions are:
 
@@ -235,7 +235,7 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 ## Reference calls <a name="reference-calls"></a>
 
 As part of our hiring process we may ask applicants to provide us with one or more
-references to contact. These reference calls are typically be done by our [administrative coordinator](https://about.gitlab.com/jobs/administrative-coordinator/) or the hiring
+references to contact. These reference calls are typically be done by our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/) or the hiring
  manager for that specific vacancy following [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
 
 ## Getting Contracts Ready, Reviewed, and Signed<a name="prep-contracts"></a>

@@ -37,5 +37,6 @@ to get started.
 - Passion for design and usability
 - Highly independent and pragmatic
 - You are living wherever you want
+- You share our [values](/handbook/#values), and work in accordance with those values.
 - Bonus points: experience with GitLab
 - Bonus points: experience in working with open source projects

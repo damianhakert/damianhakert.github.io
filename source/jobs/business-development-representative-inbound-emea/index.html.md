@@ -19,7 +19,7 @@ You love talking about GitLab to people and no question or challenge is too big 
 
 ## Requirements
 
-* While you need to serve customers in EMEA, you can work remotely from anywhere in the world 
+* While you need to serve customers in EMEA, you can work remotely from anywhere in the world
 * Excellent spoken and written English
 * Fluency in spoken and written German and/or other European languages is preferred.
 * Experience in sales, marketing, or customer service
@@ -29,3 +29,4 @@ You love talking about GitLab to people and no question or challenge is too big 
 * You are obsessed with making customers happy. You know that the slightest trouble in getting started with a product can ruin customer happiness.
 * Be ready to learn how to use GitLab and Git
 * Start part-time or full-time depending on situation
+* You share our [values](/handbook/#values), and work in accordance with those values.

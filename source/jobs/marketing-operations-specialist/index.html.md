@@ -30,3 +30,4 @@ You have experience in marketing, business development, or sales operations and 
 * Is your college degree in French foreign politics with a minor in interpretive dance but you’ve been selling and marketing products since you were 12? Perfect. We understand that your college degree isn’t the only thing that prepares you as a potential job candidate.
 * You are obsessed with making customers happy. You know that the slightest trouble in getting started with a product can ruin customer happiness.
 * Be ready to learn how to use GitLab and Git
+* You share our [values](/handbook/#values), and work in accordance with those values.
