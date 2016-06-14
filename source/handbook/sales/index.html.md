@@ -130,18 +130,17 @@ In order to close a deal in Salesforce.com, one of the following must happen:
 Once the above has happened, please make sure the following actions are done:
 
 1. Process order in Recurly
-1. Add Invoice Number in the Invoice Number field within the opportunity
+1. Add Invoice Number in the Invoice Number field within the opportunity - Opportunity can not be closed until this is completed.
 1. Make sure opportunity close date matches invoice date in Recurly
 1. Make sure opportunity product matches subscription plan in Recurly
 1. Make sure opportunity amount matches amount in Recurly
 1. Attach any signed agreement, PO, and/or quote as an attachment to the account page/object in Salesforce.com
-1. Add in the competition we were up against in the opportunity.  This can be the legacy SCM solution they had and/or who they were evaluating along side of us.
+1. Add in the competition we were up against in the opportunity.  This can be the legacy SCM solution they had and/or who they were evaluating along side of us. This can also be ourselves, meanign GitLab CE or .com
 1. Create a renewal opportunity opportunity by cloning the current opportunity and changing the close date to be 12, 24 or 36 months out.
 1. Create an add-on or Existing Account (new division) opportunity if there has been one identified by you at this time.
-1. Create a task 30 days later, to check in with Account to make sure they are happy, address any questions they have and to explore any growth opportunity in the account.  Example: new divisions, more users on the exisiting team.
-    * If an add-on or existing account (new division) opportunity has been identified and recorded in Salesforce, create a task for the day you and the client will meet to explore the growth opportunity.
-1. Check to make sure the Type field on the Account page now says Customer.  If not, please manually change it.
-1. Update the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
+1. An automated task is created to check in with the Account, 30 days after the deal closes.  The purpose for this check in is to make sure they are happy, address any questions they have, ask them to be a reference or to speak with our product marketing team on how they use GitLab.
+1. Once the opportunity is closed won, the field "type" on the account object will change to "customer"
+1. A task will be auto created in Salesforce.com reminding you to ppdate the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
 
 ### Using Cases in Salesforce <a name="cases"></a>
 
