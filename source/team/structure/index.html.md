@@ -22,17 +22,20 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
 - [General](/handbook/) - [CEO](/jobs/chief-executive-officer/) - Sid Sijbrandij
   - [Marketing](/handbook/marketing/) - [CMO](/jobs/chief-marketing-officer/) - Ashley Smith
     - Design - [Designer](/jobs/designer/) - Luke Babb
-    - [Demand generation](/handbook/marketing/demand-generation) - [Senior Demand Generation Manager](/jobs/demand-generation-manager/) (lead) - Hank Taylor
-      - [Online Marketing](/handbook/marketing/online-marketing) - [Online Marketing Manager](/jobs/online-marketing-manager/) - Mitchell Wright
-      - Business Development - [Business Development Team Lead](/jobs/business-development-team-lead/) - Colton Taylor
-      - [Business Development Representatives](/jobs/business-development-representative/)
+    - [Demand generation](/handbook/marketing/demand-generation)
+      - [Director of Demand Generation](/jobs/director-demand-generation) - Joe Lucas
+        - [Senior Demand Generation Manager](/jobs/demand-generation-manager/) - Hank Taylor
+        - [Online Marketing](/handbook/marketing/online-marketing) - [Online Marketing Manager](/jobs/online-marketing-manager/) - Mitchell Wright
+        - Inbound Business Development - [Business Development Team Lead - Inbound](/jobs/business-development-team-lead/) - Colton Taylor
+        - [Field Marketing](/handbook/marketing/developer-relations/field-marketing/) - [Field Marketing Manager](/jobs/field-marketing-manager/) - Emily Kyle
+        - [Business Development Representatives - Inbound](/jobs/business-development-representative/) - Ryan Caplin, Braden Coleman
+        - Outbound Business Development - [Business Development Team Lead - Outbound](/jobs/business-development-team-lead-outbound/)
     - [Product Marketing](/handbook/marketing/product-marketing/) - [Senior Product Marketing Manager](/jobs/product-marketing-manager/) (lead) - Amara Nwaigwe
       - [Partner Marketing](/handbook/marketing/product-marketing/#partnermarketing/) - Partner/Channel Marketing Manager (vacancy)
       - [Content Marketing](/handbook/marketing/developer-relations/content-marketing/) - Content Marketing Manager (vacancy)
     - Developer Relations
-      - [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/) - [Developer Advocate](/jobs/developer-advocate/)
-      - [Field Marketing](/handbook/marketing/developer-relations/field-marketing/) - [Field Marketing Manager](/jobs/field-marketing-manager/) - Emily Kyle
-      - Technical Writing - [Technical Writer](/jobs/technical-writer/)
+      - [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/) - [Developer Advocate](/jobs/developer-advocate/) - Ivan Nemytchenko, Amanda Folson
+      - Technical Writing - [Technical Writer](/jobs/technical-writer/) - Axil, Marcia Ramos
   - [Sales](/handbook/sales/) - [CRO](/jobs/chief-revenue-officer/) - Chad Malchow
     - Americas Sales - [Account Executive](/jobs/account-executive/)
     - EMEA Sales - [Sales Director EMEA](/jobs/sales-director/) (lead) - Richard Pidgeon
