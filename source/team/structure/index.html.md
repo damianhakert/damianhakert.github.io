@@ -39,8 +39,8 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - Americas Sales - [Account Executive](/jobs/account-executive/)
     - EMEA Sales - [Sales Director EMEA](/jobs/sales-director/) (lead) - Richard Pidgeon
       - [Account Executive](/jobs/account-executive/)
-    - APAC Sales - [Director of Global Alliances and APAC Sales](/jobs/director-of-global-alliances-and-apac-sales/) (lead) - Michael Alessio
-    - Customer Success - Customer Success Manager (lead, future vacancy)
+    - APAC Sales and channel - [Director of Global Alliances and APAC Sales](/jobs/director-of-global-alliances-and-apac-sales/) (lead) - Michael Alessio
+    - Customer Success - [Director of Customer Success](https://about.gitlab.com/jobs/dir-customer-success/) (vacancy)
       - [Account Manager](/jobs/account-manager/)
       - [Success Engineer](/jobs/success-engineer/)
   - [People Operations](/handbook/people-operations/) - [Director/VP of People Operations](/jobs/dir-or-vp-of-people-ops/) (lead, vacancy)
