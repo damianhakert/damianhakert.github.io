@@ -34,7 +34,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Content Marketing](/handbook/marketing/developer-relations/content-marketing/) - Content Marketing Manager (vacancy)
     - [Developer Relations](https://about.gitlab.com/handbook/marketing/developer-relations/)
       - [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/) - [Developer Advocate](/jobs/developer-advocate/)
-      - Technical Writing - [Technical Writer](/jobs/technical-writer/)
+      - [Technical Writing](https://about.gitlab.com/handbook/marketing/developer-relations/technical-writing/) - [Technical Writer](/jobs/technical-writer/)
   - [Sales](/handbook/sales/) - [CRO](/jobs/chief-revenue-officer/) - Chad Malchow
     - Americas Sales - [Account Executive](/jobs/account-executive/)
     - EMEA Sales - [Sales Director EMEA](/jobs/sales-director/) (lead) - Richard Pidgeon
