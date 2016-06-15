@@ -48,6 +48,12 @@ Field marketing includes event marketing and swag production.
 - Can we pair this event with other local engagements?
 - We want to strike a good balance between: community and enterprise events.
 
+## For GitLab Employees<a name="promotion"></a>
+- If there is an event you would like to attend, are attending, speaking or have proposed a talk please let the Field Marketing Manager know. We will try to suppot you attending the event in any way we can. Even if we are unable to sponsor the event you can likely still attend with your managers approval. 
+- Remeber we are way more likely to sponsor an event if you have solidified a speaking spot. So, if there is something you really want to attend propose a talk. 
+- Calls for papers are posted in the CFP Channel on Slack. 
+- If you do not have any GitLab swag and are going to an event, notify the Field Marketing Manager as soon as possible so we can try and get you a GitLab shirt to wear.
+
 ## Promoting Events<a name="promotion"></a>
 - Use social media to post as soon as committed to attending an event.
 - Email signatures- starting 1 month before event for those attending event.
