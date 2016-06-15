@@ -27,6 +27,7 @@ title: "Software Packaging Engineer"
 * Packaging experience is an advantage, not a requirement. However, you are
   expected to have basic knowledge of at least .deb and .rpm package archives.
 * Collaborative team spirit with good communication skills
+* You share our [values](/handbook/#values), and work in accordance with those values
 
 [omnibus-gitlab]: https://gitlab.com/gitlab-org/omnibus-gitlab
 [direction scope]: https://about.gitlab.com/direction/#scope-a-namescopea

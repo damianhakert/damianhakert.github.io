@@ -27,3 +27,4 @@ You love talking about GitLab to people and no question or challenge is too big 
 * You are obsessed with making customers happy. You know that the slightest trouble in getting started with a product can ruin customer happiness.
 * Be ready to learn how to use GitLab and Git
 * Start part-time or full-time depending on situation
+* You share our [values](/handbook/#values), and work in accordance with those values.

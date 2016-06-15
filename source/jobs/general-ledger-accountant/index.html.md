@@ -22,3 +22,4 @@ Currently this is a **part-time** position.
 - Proficient with Excel and Google Sheets
 - International experience is a plus
 - Self-starter with the ability to work remotely and independently and interact with various teams when needed.
+- You share our [values](/handbook/#values), and work in accordance with those values.

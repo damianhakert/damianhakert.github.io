@@ -23,3 +23,4 @@ As a GitLab Developer Advocate, your goal is to talk with developers to better u
 * Is your college degree in french foreign politics with a minor in interpretive dance but you’ve been hacking together websites since you were 12? Perfect. We understand that your college degree isn’t the only thing that prepares you as a potential job candidate.
 * Excellent spoken and written English
 * Must love travel and hotels/Airbnbs.
+* You share our [values](/handbook/#values), and work in accordance with those values.

@@ -5,7 +5,7 @@ title: "People Operations Administrator"
 
 ## Responsibilities
 
-* Pro-actively improve People Operations activities and processes, 
+* Pro-actively improve People Operations activities and processes,
 and take on a very hands-on role in the day to day administration.
 * Prepare contracts and help ensure smooth onboarding of new team members.
 * Help ensure smooth offboarding of team members.
@@ -30,3 +30,4 @@ with the goal always being to make things easier from the perspective of the tea
 * Proven experience in quickly learning new software tools
 * Willing to work with git and GitLab whenever possible
 * Willing to make People Operations as open and transparent as possible
+* You share our [values](/handbook/#values), and work in accordance with those values.

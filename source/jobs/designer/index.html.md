@@ -31,3 +31,4 @@ This means you get a lot of freedom, independence and responsibilities.
 * Able to work in small, concrete and practical iterations. GitLab has a very short release cycle, you need to be able to keep up
 * Have an understanding of good UX
 * Experience with HTML / CSS won't hurt.
+* You share our [values](/handbook/#values), and work in accordance with those values.

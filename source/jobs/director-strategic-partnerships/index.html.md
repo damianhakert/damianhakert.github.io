@@ -18,3 +18,4 @@ adoption and customer success plans.
 * You know git and the collaboration software ecosystem like the back of your hand.
 * You’re comfortable with code, and enjoy talking with developers and engineering directors alike.
 * You’ve shown that you can build long term (international) strategic relationships, preferably involving open source software.
+* You share our [values](/handbook/#values), and work in accordance with those values.
