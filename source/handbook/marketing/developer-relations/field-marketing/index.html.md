@@ -49,8 +49,8 @@ Field marketing includes event marketing and swag production.
 - We want to strike a good balance between: community and enterprise events.
 
 ## For GitLab Employees<a name="promotion"></a>
-- If there is an event you would like to attend, are attending, speaking or have proposed a talk please let the Field Marketing Manager know. We will try to suppot you attending the event in any way we can. Even if we are unable to sponsor the event you can likely still attend with your managers approval. 
-- Remeber we are way more likely to sponsor an event if you have solidified a speaking spot. So, if there is something you really want to attend propose a talk. 
+- If there is an event you would like to attend, are attending, speaking or have proposed a talk please let the Field Marketing Manager know. We will try to support you attending the event in any way we can. Even if we are unable to sponsor the event you can likely still attend with your managers approval. 
+- Remember we are way more likely to sponsor an event if you have solidified a speaking spot. So, if there is something you really want to attend propose a talk. 
 - Calls for papers are posted in the CFP Channel on Slack. 
 - If you do not have any GitLab swag and are going to an event, notify the Field Marketing Manager as soon as possible so we can try and get you a GitLab shirt to wear.
 
@@ -61,13 +61,13 @@ Field marketing includes event marketing and swag production.
 
 ## Pre Event Outreach<a name="promotion"></a>
 - Get attendee list and contact customers and prospects before event.
-- If there is not an attendee list do "warm" outreach to prospects- creat email campaign based on location. Send one email 1.5 weeks before event.
+- If there is not an attendee list do "warm" outreach to prospects- create email campaign based on location. Send one email 1.5 weeks before event.
 - BDRS will help set up in person meetings to occur at event.
 
 ## Complete Before Event<a name="promotion"></a>
 - Set up post event follow up campaigns in Marketo.
 - After Event Survey created and email template ready to go out first work day back after event. Includes details on lead followup and how to add business card details. 
-- Social media to go out during event schdeuled. 
+- Social media to go out during event scheduled. 
 - Plan for what to do with any remaining swag. 
 
 ## **At Events**
@@ -99,11 +99,11 @@ Field marketing includes event marketing and swag production.
 
 ## Booth Staffing<a name="boothstaffing"></a>
 - Ideally shifts will be around 3 hours or less.
-- Staff more poeple during peak traffic hours.
+- Staff more people during peak traffic hours.
 - Do not have shift changes during peak hours.
-- Send out clendar invites to booth staff with the following information:
+- Send out calendar invites to booth staff with the following information:
     - Time and date of event, booth, and shift
-    - Suggested attrire
+    - Suggested attire
     - How he/ she can find his/ her ticket
     - Any instructions on using or locating lead scanner
     - Let them know of any contests happening
@@ -146,5 +146,5 @@ Field marketing includes event marketing and swag production.
 * We aim to have our swag delight and or be useful.
 * We aim to make limited edition and themed swag for the community to collect.
 * We aim to do swag in a way that doesn't take a lot of time to execute => self serve => [web shop](https://gitlab.mybrightsites.com/)
-* With a webshop you can just give people credit, they can pick what they want and provide shipping info.
+* With a web shop you can just give people credit, they can pick what they want and provide shipping info.
 * Of course we love [stickers](http://opensource.com/business/15/11/open-source-stickers). We are working on special edition stickers for contributors to be announced May 2016- being shipped right now.
