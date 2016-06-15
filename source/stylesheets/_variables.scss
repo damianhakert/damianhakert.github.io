@@ -74,6 +74,9 @@ $subs-header-hr-color: #d4d4d4;
 $pricing-header-color-to: #4887c5;
 
 // Bootstrap overrides
+$breadcrumb-separator: ">";
+$breadcrumb-bg: darken($color-white, 2%);
+
 $container-large-desktop: 1200px;
 
 $body-bg: #f9f9f9;
