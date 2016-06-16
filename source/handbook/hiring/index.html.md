@@ -97,6 +97,19 @@ If you have decided to let the applicant move on to the next interview, feel fre
 1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
 1. Hiring manager ensures that the contract is signed, and People Ops [starts the onboarding process](#move-to-onboarding).
 
+#### Service Engineering Hiring Process
+
+For the specific position of Service Engineering please follow these steps (instructions are above):
+
+1. Confirmation of application and first round of rejections
+1. Screening call done by our People Operations Coordinator 
+1. If necessary, the hiring manager will conduct a technical screening email
+1. Technical Interview
+1. Team Interaction and Customer Scenario Interview
+1. Reference Calls, done by our People Operations Coordinator
+1. VP level interview
+1. CEO Interview 
+1. Make a verbal or written offer with CEO authorization
 
 ### Interviewing
 
