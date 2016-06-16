@@ -311,7 +311,7 @@ step, **re-assign** the issue to that person.
 1. It is OK to talk over people or interrupt people to ask questions, cheer for them or show your compassion. This to encourage more conversation and feedback in the call.
 1. Please look if the person you hand over to is present in the participant list so you don't hand over to someone who is not present.
 1. Last person wishes everyone a good day.
-1. Even if you cannot join the call, consider reviewing the recorded call and at minimum read through the team agenda and the links from there. We often use the team call to make announcements or discuss changes in processes, so make sure to catch up on the news if you have missed a team call (or more).
+1. Even if you cannot join the call, consider reviewing the recorded call or at minimum read through the team agenda and the links from there. We often use the team call to make announcements or discuss changes in processes, so make sure to catch up on the news if you have missed a team call (or more).
 
 ### Scheduling meetings<a name="scheduling-meetings"></a>
 
