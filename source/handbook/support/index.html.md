@@ -9,6 +9,7 @@ title: Support
 - [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
 - [PGP Process](https://about.gitlab.com/handbook/support/pgp_process/)
 - [External support resources for the team](/handbook/support/external/)
+- [Mentions Channel](/handbook/support/mentions-of-gitlab)
 
 ## Contents of the page
 

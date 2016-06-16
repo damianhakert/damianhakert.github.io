@@ -18,6 +18,9 @@ title: "People Operations Coordinator"
 
 ## Requirements
 
+- Prior experience in an HR or People Operations role
+- Clear understanding of US based HR laws
+- Ability to work strange hours when needed (for example, to call an embassy in a different continent)
 - Excellent written and verbal communication skills
 - Enthusiasm for, and broad experience with, software tools
 - Proven experience quickly learning new software tools

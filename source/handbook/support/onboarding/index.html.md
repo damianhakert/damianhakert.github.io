@@ -226,7 +226,8 @@ when appropriate.
 ### When and how to escalate a ticket?<a name="when-escalate"></a>
 
 Do not hesitate to ask for help with a ticket, you can ask any of your colleagues to assist you. You can do this via
-Slack initially. If the person you know can help you the best (expert on a specific topic) is not available on
+Slack initially by [@mentioning](https://get.slack.help/hc/en-us/articles/205240127-Using-mentions) their name and providing a link to the description with an overview of the issue. 
+If the person you know can help you the best (expert on a specific topic) is not available on
 Slack, you can assign the ticket to them, add a comment summarizing the situation, and submit the
 ticket as **open**. Especially if you do are not yet fully familiar with the particular topic of the issue,
 don't spend more than 30 minutes on an issue before escalating it internally.
