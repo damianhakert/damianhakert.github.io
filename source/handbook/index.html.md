@@ -317,7 +317,7 @@ discuss changes in processes, so make sure to catch up on the news if you have m
 ### Random Chat and Room<a name="random-room"></a>
 
 1. The [#random](https://gitlab.slack.com/archives/random) chat channel is your go-to place to share random ideas, pictures, articles, and more. It's a great channel to check out when you need a mental break.
-1. Come hang out any time in the [random room](https://docs.google.com/document/d/1XtNluN1yGJgeFQ_Bepjpg7kYMXGTZ8ZIF5r-qq-_0tM/edit), an open Google Hangout video chat where anyone with a GitLab email address can come and leave as they please. The URL for the virtual break room is in the linked Google Doc to prevent having frequent requests from outside of GitLab to join the room; consider bookmarking the hangout.
+1. Come hang out any time in the **random room**, an open Google Hangout video chat where anyone with a GitLab email address can come and leave as they please. The link is in the description of the `#random` chat channel; consider bookmarking it.
 
 ### Scheduling meetings<a name="scheduling-meetings"></a>
 
