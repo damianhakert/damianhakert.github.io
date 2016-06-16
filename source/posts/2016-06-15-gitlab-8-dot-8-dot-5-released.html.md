@@ -62,8 +62,6 @@ See [the issue][18535] for more details.
 
 [18535]: https://gitlab.com/gitlab-org/gitlab-ce/issues/18535
 
-<!-- more -->
-
 ## Upgrade barometer
 
 This version does not include any migrations, and should not require any
