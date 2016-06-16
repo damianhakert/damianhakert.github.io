@@ -36,6 +36,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Internal Communication](#internal-communication)
    * [GitLab Workflow](#gitlab-workflow)
    * [Team Call](#team-call)
+   * [Virtual Break Room](#virtual-break-room)
    * [Scheduling Meetings](#scheduling-meetings)
    * [Video Calls](#video-calls)
    * [User Communication Guidelines](#user-communication-guidelines)
@@ -122,7 +123,7 @@ people. We try to hire people who think work is a great way to express themselve
 1. Do what is right for our **customers** and the rest of the GitLab community, do what is best over the long term, don't be evil.
 1. We create **simple** software to accomplish complex collaborative tasks.
 1. We **use** our own software to accomplish complex collaborative tasks.
-1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin colour, gender or sexual orientation.
+1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin color, gender or sexual orientation.
 1. Use **inclusive** language. For example, prefer 'Hi everybody' or 'Hi people' to 'Hi guys'.
 1. Share problems you run into, ask for help, be forthcoming with information and **speak up**.
 1. Work out in the **open**, try to use public issue trackers and repositories when possible.
@@ -313,6 +314,10 @@ step, **re-assign** the issue to that person.
 1. Even if you cannot join the call, read through the team agenda and the links from there. We often use the team call to make announcements or
 discuss changes in processes, so make sure to catch up on the news if you have missed a team call (or more).
 
+### Virtual break room<a name="virtual-break-room"></a>
+
+Come hang out any time in the [virtual break room](https://docs.google.com/document/d/1XtNluN1yGJgeFQ_Bepjpg7kYMXGTZ8ZIF5r-qq-_0tM/edit), an open Google Hangout video chat where anyone with a GitLab email address can come and leave as they please. The URL for the virtual break room is in the linked Google Doc to prevent having frequent requests from outside of GitLab to join the room; consider bookmarking the channel.
+
 ### Scheduling meetings<a name="scheduling-meetings"></a>
 
 1. If you want to ask team members if they are available for an event please send a new calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.
@@ -413,7 +418,7 @@ intellectual property violations
 
 In keeping with our values of results, freedom, efficiency, frugality, and boring solutons, we expect team members to take responsibility to determine what they need to purchase or expense in order to do their jobs effectively. We don't want you to have to wait with getting the items that you need to get your job done. You most likely know better than anyone else what the items are that you need to be successful in your job. The guidelines below describe what people in our team commonly expense.
 
-1. Spend company money like it is your **own** money. 
+1. Spend company money like it is your **own** money.
 1. You don't have to ask permission before making purchases **in the interest of the company**. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
 1. It is uncommon for you to need all of the items listed below, use your best judgement and buy them as you need them. If you wonder if something is common, feel free to ask People Ops (and in turn, People Ops should update the list).
 1. It is generally easiest and fastest for you to make the purchases yourself, but feel free to reach out to People Ops if you would like help in acquiring some items.
