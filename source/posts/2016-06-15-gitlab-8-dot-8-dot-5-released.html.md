@@ -13,6 +13,8 @@ GitLab installations be upgraded to one of these versions.
 
 Please read on for more details.
 
+<!-- more -->
+
 8.8.5 includes the following fixes:
 
 - **CE/EE:** Import GitHub repositories respecting the API rate limit ([!4166])
