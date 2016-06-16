@@ -359,11 +359,11 @@
 - name: Kelvin Mutuma
   locality: Nairobi
   country: Kenya
-  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Junior Service Engineer</a>
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
   reports_to: Lead Service Engineer
   picture:  kelvin_mutuma.jpg
   twitter:  kelvinmutuma
-  gitlab: muthuri.kelmut
+  gitlab: kelvinmutuma
   maintains:  |
                 <li>Maintainer of GitLab Mentions</li>
   story:  |
