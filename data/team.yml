@@ -1183,16 +1183,20 @@
           in love with design in the process. When he's not working, you can find
           him endlessly browsing for a movie to watch without ever picking one.
 
-- name: H.Y.
-  locality:
-  country:
+- name: Hazel Yang
+  locality: Shanghai
+  country: China
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: hazel.png
+  twitter: hazelyuyang
+  gitlab: hazelyang
   story:  |
-          Joining June 13th
+          Hazel comes from Taiwan. She is passionate about product design, 
+          interaction design, and illustration.  Before joining GitLab, 
+          she worked for a digital agency and worked as a freelance product designer. 
+          Outside of work, she loves reading (Chinese chivalry novels, design, 
+          business, and inspirational), travel, and food. She’s also a cats lover.
 
 - name: T.B.
   locality:
