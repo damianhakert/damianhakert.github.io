@@ -35,7 +35,7 @@ title: Security Handbook
 1. Enable two-factor authentication (2FA) with [Google Authenticator] or
    1Password for your Google, Slack, GitLab.com, and dev.gitlab.org accounts.
 1. **Encrypt** your computer's home folder. Use [FileVault] on your Mac to
-   encrypt the entire disk.
+   encrypt the entire disk.<a name="encrypt-home-folder"></a>
 1. Set up a screen saver with **password lock** on your laptop. The timeout
    can depend on how you use your laptop.
 1. Never leave your unlocked computer **unattended**. Activate the screensaver,
