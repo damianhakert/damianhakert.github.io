@@ -36,7 +36,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Internal Communication](#internal-communication)
    * [GitLab Workflow](#gitlab-workflow)
    * [Team Call](#team-call)
-   * [Virtual Break Room](#virtual-break-room)
+   * [Random Chat and Room](#random-room)
    * [Scheduling Meetings](#scheduling-meetings)
    * [Video Calls](#video-calls)
    * [User Communication Guidelines](#user-communication-guidelines)
@@ -314,9 +314,10 @@ step, **re-assign** the issue to that person.
 1. Even if you cannot join the call, read through the team agenda and the links from there. We often use the team call to make announcements or
 discuss changes in processes, so make sure to catch up on the news if you have missed a team call (or more).
 
-### Virtual break room<a name="virtual-break-room"></a>
+### Random Chat and Room<a name="random-room"></a>
 
-Come hang out any time in the [virtual break room](https://docs.google.com/document/d/1XtNluN1yGJgeFQ_Bepjpg7kYMXGTZ8ZIF5r-qq-_0tM/edit), an open Google Hangout video chat where anyone with a GitLab email address can come and leave as they please. The URL for the virtual break room is in the linked Google Doc to prevent having frequent requests from outside of GitLab to join the room; consider bookmarking the channel.
+1. The [#random](https://gitlab.slack.com/archives/random) chat channel is your go-to place to share random ideas, pictures, articles, and more. It's a great channel to check out when you need a mental break.
+1. Come hang out any time in the [random room](https://docs.google.com/document/d/1XtNluN1yGJgeFQ_Bepjpg7kYMXGTZ8ZIF5r-qq-_0tM/edit), an open Google Hangout video chat where anyone with a GitLab email address can come and leave as they please. The URL for the virtual break room is in the linked Google Doc to prevent having frequent requests from outside of GitLab to join the room; consider bookmarking the hangout.
 
 ### Scheduling meetings<a name="scheduling-meetings"></a>
 
