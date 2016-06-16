@@ -8,6 +8,11 @@
   apply: https://gitlab.workable.com/jobs/242362/candidates/new
   open: true
 
+- title: "Backend Developer"
+  description: /jobs/developer/
+  apply: https://gitlab.workable.com/jobs/106660/candidates/new
+  open: true
+
 - title: "Content Marketing Manager"
   description: /jobs/content-marketing-manager/
   apply: https://gitlab.workable.com/jobs/252104/candidates/new
