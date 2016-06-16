@@ -24,12 +24,12 @@ Please read on for more details.
 - **CE/EE:** Adjust the SAML control flow to allow LDAP identities to be added to an existing SAML user ([!4498])
 - **CE/EE:** Fix incremental trace upload API when using multi-byte UTF-8 chars in trace ([!4541])
 
-[!4166]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/4166
-[!4300]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/4300
-[!4470]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/4470
-[!4488]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/4488
-[!4498]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/4498
-[!4541]: https://gitlab.com/gitlab-org/gitlab-ee/merge_requests/4541
+[!4166]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4166
+[!4300]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4300
+[!4470]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4470
+[!4488]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4488
+[!4498]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4498
+[!4541]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4541
 
 In addition, 8.8.5, 8.7.7, 8.6.9, 8.5.13, 8.4.11, 8.3.10 and 8.2.6 include the following
 security fixes:
