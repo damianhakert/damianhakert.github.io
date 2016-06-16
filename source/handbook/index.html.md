@@ -479,18 +479,19 @@ page for information on how to handle scheduled leave for someone from the [on-c
 
 The following incentives are available for GitLab team members.
 
-### Sales Target Dinner Bonus<a name="sales-target-dinner"></a>
+### Sales Target Dinner Evangelism Reward<a name="sales-target-dinner"></a>
 
 Since reaching sales targets is a team effort that integrates everything from making a great product
 to providing top notch customer support and everything in between, we reward all
-team members for every month that we reach our Sales Targets. The reward is [100 USD](https://www.google.com/search?q=100+usd+in+eur)
-to each team member, towards a dinner of each team member's own choice. Enjoy!
+team members for every month that we reach our Sales Targets. The incentive is [100 USD](https://www.google.com/search?q=100+usd+in+eur)
+to each team member for the purpose of evangelizing the GitLab story.  You may use the incentive at a restaurant of your choice. Enjoy!
 
 - The CEO, or CRO will announce on the team call if the target was met.
-- To claim the bonus, please submit your receipt through Expensify or include on your contractor invoice as a reimbursable expense.
-- You should spend the bonus on eating out, and can be reimbursed _up to_ the maximum of 100 USD.
-- Use the bonus in the month following the announcement. So for example, if we reach our target in March, use your bonus in April.
-- If you cannot, or decide not to, use the bonus in the expected month, you can carry it over to the next month by notifying Accounts Payable before the 22nd of the month (release day!). You can only carry over one month in this way.
+- To claim the incentive, please submit your receipt through Expensify or include on your contractor invoice as a reimbursable expense.
+- Indicate on your receipt and in the comment section in expensify "GitLab evangelism" and the names of the other particpants.
+- You should spend the incentive on eating out, and can be reimbursed _up to_ the maximum of 100 USD.
+- Use the incentive in the month following the announcement. So for example, if we reach our target in March, use your incentive in April.
+- If you cannot, or decide not to, use the incentive in the expected month, you can carry it over to the next month by notifying Accounts Payable before the 22nd of the month (release day!). You can only carry over one month in this way.
 
 
 ### Discretionary Bonuses<a name="discretionary-bonuses"></a>
