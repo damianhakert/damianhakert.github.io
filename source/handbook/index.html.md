@@ -36,6 +36,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Internal Communication](#internal-communication)
    * [GitLab Workflow](#gitlab-workflow)
    * [Team Call](#team-call)
+   * [Random Chat and Room](#random-room)
    * [Scheduling Meetings](#scheduling-meetings)
    * [Video Calls](#video-calls)
    * [User Communication Guidelines](#user-communication-guidelines)
@@ -122,7 +123,7 @@ people. We try to hire people who think work is a great way to express themselve
 1. Do what is right for our **customers** and the rest of the GitLab community, do what is best over the long term, don't be evil.
 1. We create **simple** software to accomplish complex collaborative tasks.
 1. We **use** our own software to accomplish complex collaborative tasks.
-1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin colour, gender or sexual orientation.
+1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin color, gender or sexual orientation.
 1. Use **inclusive** language. For example, prefer 'Hi everybody' or 'Hi people' to 'Hi guys'.
 1. Share problems you run into, ask for help, be forthcoming with information and **speak up**.
 1. Work out in the **open**, try to use public issue trackers and repositories when possible.
@@ -312,6 +313,11 @@ step, **re-assign** the issue to that person.
 1. Please look if the person you hand over to is present in the participant list so you don't hand over to someone who is not present.
 1. Last person wishes everyone a good day.
 1. Even if you cannot join the call, consider reviewing the recorded call or at minimum read through the team agenda and the links from there. We often use the team call to make announcements or discuss changes in processes, so make sure to catch up on the news if you have missed a team call (or more).
+
+### Random Chat and Room<a name="random-room"></a>
+
+1. The [#random](https://gitlab.slack.com/archives/random) chat channel is your go-to place to share random ideas, pictures, articles, and more. It's a great channel to check out when you need a mental break.
+1. Come hang out any time in the **random room**, an open Google Hangout video chat where anyone with a GitLab email address can come and leave as they please. The link is in the description of the `#random` chat channel; consider bookmarking it.
 
 ### Scheduling meetings<a name="scheduling-meetings"></a>
 
