@@ -36,6 +36,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Internal Communication](#internal-communication)
    * [GitLab Workflow](#gitlab-workflow)
    * [Team Call](#team-call)
+   * [Random Chat and Room](#random-room)
    * [Scheduling Meetings](#scheduling-meetings)
    * [Video Calls](#video-calls)
    * [User Communication Guidelines](#user-communication-guidelines)
@@ -122,7 +123,7 @@ people. We try to hire people who think work is a great way to express themselve
 1. Do what is right for our **customers** and the rest of the GitLab community, do what is best over the long term, don't be evil.
 1. We create **simple** software to accomplish complex collaborative tasks.
 1. We **use** our own software to accomplish complex collaborative tasks.
-1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin colour, gender or sexual orientation.
+1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin color, gender or sexual orientation.
 1. Use **inclusive** language. For example, prefer 'Hi everybody' or 'Hi people' to 'Hi guys'.
 1. Share problems you run into, ask for help, be forthcoming with information and **speak up**.
 1. Work out in the **open**, try to use public issue trackers and repositories when possible.
@@ -295,6 +296,7 @@ step, **re-assign** the issue to that person.
 
 1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
 1. We use Blue Jeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
+1. The call is recorded automatically, and recordings are automatically deleted after 7 days. Recordings can be found by logging in to the [BlueJeans web app](https://gitlab.bluejeans.com), click recordings at the top, and all past recordings show up there. The recordings are private, i.e. only people who are able to log in to the GitLab BlueJeans account can view the recordings. Since you [don't have Flash](#do-not-use), you'll need to download the recording as an `.mp4` file to view it. On some browsers, this requires scrolling to the right to reveal the "Download" button for a given recording, even though a scrollbar may not appear. Make sure the file is downloaded to your [encrypted home drive](/handbook/security/#encrypt-home-folder), and delete it after viewing.
 1. If you have previously logged on to Blue Jeans with different credentials, make sure to log out before joining the call as yourself. You don't need a Blue Jeans account to join the team call.
 1. We start on time and will not wait for people.
 1. Person who has first item on the agenda starts the call.
@@ -303,15 +305,19 @@ step, **re-assign** the issue to that person.
    * Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
    * When done with a point mention the subject of the next item and hand over to the next person.
 1. We have functional group updates (1 group per call) for the following groups: Marketing, Sid, Product, Sales, Ops, Support, HR, Finance, Development, Front-end, UX/UI.
-1. We ask 10-15 people per day to share updates about the most exciting thing from your past or upcoming week/weekend. If anyone has something they'd like to talk about, last person in the list will ask the group if they have anything else to share.
+1. We ask 15-20 people per day to share updates about the most exciting thing from your past or upcoming week/weekend. If anyone has something they'd like to talk about, last person in the list will ask the group if they have anything else to share.
    * The [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) lists who is meant to speak on which day; this can be altered daily if conflicts arise.
    * There is no need to excuse yourself with "I didn't do anything interesting", "I just watched television" or "that's all", it is not a competition. Instead share the most interesting detail, for example what television show you watched, book you are reading, video game you played or what recipe you cooked.
 1. Sequence of asking people is in order of joining the company, same as on the [team page](https://about.gitlab.com/team/). If there are non-team page people in the call we end with those.
-1. It is OK with talk over people or interrupt people to ask questions, cheer for them or show your compassion. This to encourage more conversation and feedback in the call.
+1. It is OK to talk over people or interrupt people to ask questions, cheer for them or show your compassion. This to encourage more conversation and feedback in the call.
 1. Please look if the person you hand over to is present in the participant list so you don't hand over to someone who is not present.
 1. Last person wishes everyone a good day.
-1. Even if you cannot join the call, read through the team agenda and the links from there. We often use the team call to make announcements or
-discuss changes in processes, so make sure to catch up on the news if you have missed a team call (or more).
+1. Even if you cannot join the call, consider reviewing the recorded call or at minimum read through the team agenda and the links from there. We often use the team call to make announcements or discuss changes in processes, so make sure to catch up on the news if you have missed a team call (or more).
+
+### Random Chat and Room<a name="random-room"></a>
+
+1. The [#random](https://gitlab.slack.com/archives/random) chat channel is your go-to place to share random ideas, pictures, articles, and more. It's a great channel to check out when you need a mental break.
+1. Come hang out any time in the **random room**, an open Google Hangout video chat where anyone with a GitLab email address can come and leave as they please. The link is in the description of the `#random` chat channel; consider bookmarking it.
 
 ### Scheduling meetings<a name="scheduling-meetings"></a>
 
@@ -413,14 +419,14 @@ intellectual property violations
 
 In keeping with our values of results, freedom, efficiency, frugality, and boring solutons, we expect team members to take responsibility to determine what they need to purchase or expense in order to do their jobs effectively. We don't want you to have to wait with getting the items that you need to get your job done. You most likely know better than anyone else what the items are that you need to be successful in your job. The guidelines below describe what people in our team commonly expense.
 
-1. Spend company money like it is your **own** money. 
+1. Spend company money like it is your **own** money.
 1. You don't have to ask permission before making purchases **in the interest of the company**. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
 1. It is uncommon for you to need all of the items listed below, use your best judgement and buy them as you need them. If you wonder if something is common, feel free to ask People Ops (and in turn, People Ops should update the list).
 1. It is generally easiest and fastest for you to make the purchases yourself, but feel free to reach out to People Ops if you would like help in acquiring some items.
 1. Employees: file your expense report no later than 7 days after the end of the calendar quarter that you made the purchase in. Contractors: include receipts with your invoices.
 1. Any non-company expenses paid with a company credit card will have to be reported to your manager as soon as possible and **refunded** in full within 14 days.
 1. **Items.** The company will pay for the following items if you **need it for work or use it mainly for business**, and local law allows us to pay for it without incurring payroll taxes. Items paid for by the company are property of the company and need to be reported with serial numbers etc. to People Ops for proper asset tracking (TODO: describe asset tracking in more detail and link from here). Links in the list below are to sample items, other options can be considered:
-    *  Notebook: we recommend getting a [MacBook Pro 13-inch retina with 512GB](http://www.apple.com/shop/buy-mac/macbook-pro) for engineers and a [Macbook 256GB](http://www.apple.com/shop/buy-mac/macbook-pro) for non-engineers. Running Unix makes it easier to work with git from the command line so we strongly recommend against Windows laptops. WebEx screen sharing does not work from a Linux platform while it is one of the more common conferencing tools used with customers that we all need to interact with from time to time. Additionally 1password doesn't have a native client for Linux and the web interface in Firefox is not that good. If you have strong reasons to want to deviate from this guideline just ask your manager.
+    *  Notebook: we recommend getting a [MacBook Pro 13-inch retina with 512GB of storage and 16GB of memory](http://www.apple.com/shop/buy-mac/macbook-pro) for engineers and a [Macbook 256GB](http://www.apple.com/shop/buy-mac/macbook-pro) for non-engineers. Running Unix makes it easier to work with git from the command line so we strongly recommend against Windows laptops. WebEx screen sharing does not work from a Linux platform while it is one of the more common conferencing tools used with customers that we all need to interact with from time to time. Additionally 1password doesn't have a native client for Linux and the web interface in Firefox is not that good. If you have strong reasons to want to deviate from this guideline just ask your manager.
     *  [Notebook carrying bag](http://www.amazon.com/Under-Armour-Hustle-Backpack-Royal/dp/B00OQSL6LO/ref=sr_1_27?s=office-products&ie=UTF8&qid=1458505246&sr=1-27&keywords=laptop+backpack)
     *  External [monitor](http://www.amazon.com/gp/product/B009C3M7H0?psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s00), [monitor-cable](http://www.amazon.com/Monoprice-32AWG-Mini-DisplayPort-Cable/dp/B0034X6SCY/ref=sr_1_1?ie=UTF8&qid=1442231319&sr=8-1&keywords=Monoprice+6ft+32AWG+Mini+DisplayPort+to+DisplayPort+Cable+-+White),
     *  [Webcam](https://www.amazon.com/gp/product/B004YW7WCY/)
