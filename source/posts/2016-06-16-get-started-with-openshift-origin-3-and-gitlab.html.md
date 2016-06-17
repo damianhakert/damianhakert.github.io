@@ -166,23 +166,45 @@ You can always read more about `oc` in the [OpenShift CLI documentation][oc].
 
 ## Deploy GitLab
 
-
+Now that you got a taste of what OpenShift looks like, let's deploy GitLab!
 
 ### Create a new project
 
-You can do this either by running the CLI client:
+First, we will create a new project to host our application. You can do this
+either by running the CLI client:
 
 ```bash
-oc new-project gitlab
+$ oc new-project gitlab
 ```
 
-or use the web interface.
+or by using the web interface:
 
 ![Create a new project from the UI](/images/blogimages/get-started-with-openshift-origin-3-and-gitlab/create-project-ui.png)
 
+If you used the command line, `oc` automatically uses the new project and you
+can see its status with:
+
+```sh
+$ oc status
+
+In project gitlab on server https://10.2.2.2:8443
+
+You have no services, deployment configs, or build configs.
+Run 'oc new-app' to create an application.
+```
+
+If you visit the web console, you can now see `gitlab` listed in the projects list.
+
+The next step is to import the OpenShift template for GitLab.
+
 ### Import the template
 
-First, let's download the template:
+The [template] is basically a JSON file which describes a set of related object
+definitions to be created together, as well as a set of parameters for those
+objects.
+
+The template for GitLab resides in the Omnibus GitLab repository under the
+docker directory. Let's download it locally with `wget`:
 
 ```bash
 wget https://gitlab.com/gitlab-org/omnibus-gitlab/raw/master/docker/openshift-template.json
@@ -191,8 +213,80 @@ wget https://gitlab.com/gitlab-org/omnibus-gitlab/raw/master/docker/openshift-te
 And then let's import it in OpenShift:
 
 ```bash
-oc create -f openshift-template.json
+oc create -f openshift-template.json -n openshift
 ```
+
+>
+The `-n openshift` flag is a trick to make the template available to all
+projects. If you recall from when we created the `gitlab` project, `oc` switched
+to it automatically, and that can be verified by the `oc status` command. If
+you omit the namespace flag, the application will be available only to the
+current project, in our case `gitlab`. The `openshift` namespace is a global
+one that the administrators should use if they want the application to be
+available to all users.
+
+We are now ready to finally deploy GitLab!
+
+### Create a new application
+
+The next step is to use the template we previously imported. Head over to the
+`gitlab` project and hit the **Add to Project** button.
+
+![Add to project](/images/blogimages/get-started-with-openshift-origin-3-and-gitlab/add-to-project.png)
+
+This will bring you to the catalog where you can find all the pre-defined
+applications ready to deploy with the click of a button. Search for `gitlab`
+and you will see the previously imported template:
+
+![Add GitLab to project](/images/blogimages/get-started-with-openshift-origin-3-and-gitlab/add-gitlab-to-project.png)
+
+Select it, and in the following screen you will be presented with the predefined
+values used with the GitLab template:
+
+![GitLab settings](/images/blogimages/get-started-with-openshift-origin-3-and-gitlab/gitlab-settings.png)
+
+If you are deploying to production you may need to use greater values. If you
+don't provide a password for PostgreSQL, it will be created automatically.
+
+Notice at the top that there are three resources to be created with this
+template:
+
+- `gitlab-ce`
+- `gitlab-ce-redis`
+- `gitlab-ce-postgresql`
+
+While PostgreSQL and Redis are bundled in Omnibus GitLab, the template is using
+separate images as you can see from [this line][line] in the template.
+
+As a last step, let's edit the `/etc/exports` file in the VM.
+
+### Edit the NFS exports file
+
+Before you deploy GitLab, you need to change a setting in the NFS shares
+configuration. The rationale is explained in [Current limitations](#current-limitations).
+
+Navigate to **Browse > Storage** and take a note of the volume names. We need
+all names except for the `gitlab-ce-postgresql` one.
+
+![Storage volumes](/images/blogimages/get-started-with-openshift-origin-3-and-gitlab/storage-volumes.png)
+
+In our example, these are:
+
+- **pv02**
+- **pv03**
+- **pv05**
+- **pv10**
+
+First ssh into the VM using the following command (it must be issued from the
+same directory you saved the Vagrantfile):
+
+```sh
+vagrant ssh
+```
+
+Next, edit the `/etc/exports` file and change the volumes you noted before from
+`root_squash` to `no_root_squash`. Run `sudo exportfs -f` for the changes to
+take effect.
 
 ## Manage and scale GitLab
 
@@ -201,7 +295,23 @@ oc create -f openshift-template.json
 
 ## Current limitations
 
+As stated in the [all-in-one VM][vm] page:
+
+> By default, OpenShift will not allow a container to run as root or even a
+non-random container assigned userid. Most Docker images in the Dockerhub do not
+follow this best practice and instead run as root.
+
+The all-in-one VM we are using has this security turned off so it will not
+bother us. In any case, it is something to keep in mind when deploying GitLab
+on a production cluster.
+
+This is the reason we had to alter the NFS settings, since GitLab's docker
+image requires root privileges to run.
+
+This is a known issue to both parties and is [being worked on][1251].
+
 - Support running GitLab in OpenShift without the need for a privileged container ([1251])
+- Support running `gitlab-ctl reconfigure` as non-root user ([1324])
 
 ## Conclusion
 
@@ -215,8 +325,12 @@ oc create -f openshift-template.json
 [Docker]: https://www.docker.com "Docker website"
 [oc]: https://docs.openshift.org/latest/cli_reference/get_started_cli.html "Documentation - oc CLI documentation"
 [1251]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1251 "GitLab - Support running GitLab in OpenShift without the need for a privileged container"
+[1324]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1324 "GitLab - Support running gitlab-ctl reconfigure as non-root user"
 [VirtualBox]: https://www.virtualbox.org/wiki/Downloads "VirtualBox downloads"
 [Vagrant]: https://www.vagrantup.com/downloads.html "Vagrant downloads"
 [Vagrantfile]: https://www.openshift.org/vm/Vagrantfile "OpenShift Vagrantfile"
 [projects]: https://docs.openshift.org/latest/dev_guide/projects.html "Documentation - Projects overview"
 [core]: https://docs.openshift.org/latest/architecture/core_concepts/index.html "Documentation - Core concepts of OpenShift Origin"
+[template]: https://docs.openshift.org/latest/architecture/core_concepts/templates.html "Documentation - OpenShift templates"
+[old-post]: https://blog.openshift.com/deploy-gitlab-openshift/ "Old post - Deploy GitLab on OpenShift"
+[line]: https://gitlab.com/gitlab-org/omnibus-gitlab/blob/658c065c8d022ce858dd63eaeeadb0b2ddc8deea/docker/openshift-template.json#L239 "GitLab - OpenShift template"
