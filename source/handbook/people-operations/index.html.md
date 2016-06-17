@@ -134,8 +134,7 @@ If you need to make a change, there is an "Edit & Resend" option in HelloSign. I
 
 Any changes to a team member’s status, classification, promotion/demotion, pay increase/decrease and
 bonus needs to be communicated via email to People Ops by the team member's manager or CEO. People Ops will then enter
-the changes in BambooHR under the Jobs Tab in the member’s profile; then file the email in the Offers
-and Contracts Folder in the Document Section.
+the changes in BambooHR under the relevant section on the Jobs tab in the member’s profile; and then file the email in the Contracts and Changes folder in the Document tab.
 
 Further changes may need to be [processed in TriNet](#changes-trinet) or Savvy to fully process the change. People Ops
 is responsible for seeing the change through to completion. Once completed, People Ops
