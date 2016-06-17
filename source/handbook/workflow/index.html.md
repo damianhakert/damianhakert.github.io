@@ -5,8 +5,7 @@ extra_css:
   - compared.css
 ---
 
-This document explains the workflow for anyone working with issues
-in GitLab Inc.
+This document explains the workflow for anyone working with issues in GitLab Inc.
 For the workflow that applies to everyone please see [PROCESS.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
 
 ## TL;DR

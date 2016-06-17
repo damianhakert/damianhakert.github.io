@@ -40,12 +40,12 @@
     IT Experts provides a wide range of IT solutions for more than 5 million people from 104 countries all over the world. We believe that these people trust us, not only for the reason that we create IT products or provide services, but we are also in the position to support the development of innovative business models, provide continuous growth and operational excellence.
 
     IT Experts dostarcza szeroki zakres rozwiązań IT, z których korzysta ponad 5 milionów ludzi w 64 krajach na całym świecie. Wierzymy, że zaufanie którym darzą nas klienci jest nie tylko zasługą dostarczania przez nas wysokiej jakości produktów oraz usług IT, ale przede wszystkim cenią nas za rozumienie ich biznesu. Dodatkowo wspieramy ich w budowaniu innowacyjnych modeli biznesowych oraz zapewniamy nieustanny rozwój i operacyjną doskonałość.
-  email: intenso@intenso.pl
+  email: GitLab@intenso.pl
   contact:
     - address: Wrocław, Polska
       phone: + 48 (71) 33 29570
-      website: http://www.InTENSO.pl
-    - address: Berlin, Germany
+      website: http://www.InTENSO.pl/gitlab/
+    - address: Berlin, Deutschland
       phone: + 49 (30) 374 334 69
       website: http://www.intenso-it-experts.de
   social:
@@ -105,6 +105,18 @@
     - address: 上海，中国
       phone: + 86 (21) 6121 0910
     - website: http://www.shcsinfo.com/
+- name: Pivotal Cloud Foundry
+  image: /images/resellers/pivotal-logo.svg
+  content: |
+    Pivotal transforms how the world builds software. We enable the leading companies in the world to transform with a modern approach focused on building—not buying—software. We overcome challenges associated with lengthy enterprise IT cycles by accelerating application delivery, coupled with good software practices that include git-based source code control (gitlab), test driven development and continuous integration and deployment. We develop better products, together, using a proven methodology and the most powerful continuous innovation platform. Pivotal is changing the world by building great software companies.
+  email: isv@pivotal.io
+  contact:
+    - website: https://network.pivotal.io/products/p-gitlab
+  social:
+    - type: twitter
+      url: https://twitter.com/pivotal
+    - type: twitter
+      url: https://twitter.com/pivotalcf
 - name: ReleaseTEAM
   image: /images/resellers/release-team-logo.png
   content: |
