@@ -42,16 +42,27 @@ lightweight nature makes it easy to scale our CI tasks.
 
 <!-- Talk about Docker use in CI, for build and test concurrency -->
 
-## GitLab CI adds auto-scaling with Docker Machine
+## GitLab CI adds autoscaling with Docker Machine
 <!-- Talk about auto-scaling using Docker Machine -->
 
-## GitLab adds a built-in Docker Registry
+## A built-in Docker Registry
 <!-- Talk about the addition of the Docker Registry to GitLab -->
 
-## How GitLab continues to scale using Docker
+## How we continue to scale using Docker
 
 ### Scaling our Tests
-<!-- Talk about how auto-scaling has impacted our tests -->
+
+All of our source branches for GitLab are [tested](https://gitlab.com/gitlab-org/gitlab-ce/builds)
+using GitLab CI. We switched our builds to use the autoscaled Docker executor when
+we released support for it in GitLab CI back in March.
+
+Before switching to the autoscaled runners, tests were on average waiting for **10
+minutes** before an executor became available for them to run. Now the tests only
+ever need to wait a **few seconds** for a new Docker Machine to be brought up.
+
+It is not just our own tests though. We have [enabled autoscaling on our Shared Runners
+on GitLab.com](https://about.gitlab.com/2016/04/05/shared-runners/) for all
+projects. The average Docker Machines we end up running sits around 100.
 
 ### Scaling our Builds
 
