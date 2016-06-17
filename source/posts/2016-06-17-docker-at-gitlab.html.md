@@ -42,8 +42,33 @@ lightweight nature makes it easy to scale our CI tasks.
 
 <!-- Talk about Docker use in CI, for build and test concurrency -->
 
+## GitLab CI adds auto-scaling with Docker Machine
+<!-- Talk about auto-scaling using Docker Machine -->
+
+## GitLab adds a built-in Docker Registry
+<!-- Talk about the addition of the Docker Registry to GitLab -->
+
 ## How GitLab continues to scale using Docker
 
-<!-- Talk about auto-scaling using Docker Machine -->
-<!-- Talk about the addition of the Docker Registry to GitLab -->
-<!-- Talk about building our omnibus packages in Docker -->
+### Scaling our Tests
+<!-- Talk about how auto-scaling has impacted our tests -->
+
+### Scaling our Builds
+
+This month we have moved the building of our GitLab Omnibus Packages into Docker
+as well. Previously we were running a single dedicated VM for all 9 of the
+Operating Systems that we build GitLab packages for. Most package builds took
+about half-an-hour, but because there was only one VM for each OS, doing a
+[security patch across 7 releases](https://about.gitlab.com/2016/06/15/gitlab-8-dot-8-dot-5-released/)
+would take a long time.
+
+Moving the builds to Docker and turning on auto-scaling allows us to run as many
+builds at a time as we need. We are not finished with the move quite yet, our
+Docker builds are currently half the speed of our previous system, taking a full
+hour per build. And flaky build failures often cause us to retry the builds at
+least once per release. We still need to reintroduce some build caching and
+other improvements to fix these problems, but we expect to be able to quickly and
+concurrently build our packages when it is all done. Feel free to
+[track our progress](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1232).
+
+<!-- Conclusion? -->
