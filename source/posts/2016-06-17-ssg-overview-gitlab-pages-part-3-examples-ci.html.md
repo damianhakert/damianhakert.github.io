@@ -145,11 +145,13 @@ open an issue on the [Pages][pages-issues] group.
 With this post we end up this series on SSGs. Hopefully, we got you inspired to start working with Static Site
 Generators, and by now you comprehend what they are and how they work.
 
-If you already work with an SSG, please [let us know][CTA] which one you prefer.
-It's a quick survey that will only take a minute, and your participation means a lot to us!
-
 You are more than welcome to contribute with new SSGs, or with your cool themes and
 templates, to the [groups](#groups) mentioned earlier.
+
+If you already work with an SSG, please let us know which one you prefer (click on the image below).
+It's a quick survey that will only take a minute, and your participation means a lot to us! [Share it] with your friends too!
+
+[![Survey - SSGs on GitLab Pages](/images/blogimages/ssg-gitlab-pages-series/part-3-survey-ssgs-on-gitlab-pages.png)][CTA]
 
 Don't you have an account on [GitLab.com][sign-up] yet? Let's create one!
 Remember, we can use GitLab Pages to [build any SSG][post-pages] for us and host it for free on GitLab.com!
@@ -167,7 +169,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 
 <!-- GitLab -->
 
-[CTA]: https://docs.google.com/forms/d/1I_0PFB7MFm140hoFro-SfeMpU-VS71QmMfO8_4fj2pM/viewform
+[CTA]: http://goo.gl/forms/9CKIkYqa4xQup1DF3
 
 [about-gitlab-com]: https://about.gitlab.com/
 [ci-for-pages]: https://about.gitlab.com/2016/04/07/gitlab-pages-setup/#gitlab-ci
@@ -178,6 +180,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [pages-ee]: http://doc.gitlab.com/ee/pages/README.html
 [pages-issues]: https://gitlab.com/pages/pages.gitlab.io/issues
 [post-pages]: https://about.gitlab.com/2016/04/07/gitlab-pages-setup/
+[Share it]: https://twitter.com/intent/tweet?hashtags=GitLabPages&original_referer=http%3A%2F%2Flocalhost%3A4567%2F2016%2F06%2F17%2Fssg-overview-gitlab-pages-part-3-examples-ci%2F&ref_src=twsrc%5Etfw&related=gitlab&text=SSGs%20on%20GitLab%20Pages&tw_p=tweetbutton&url=http%3A%2F%2Fgoo.gl%2Fforms%2F9CKIkYqa4xQup1DF3&via=gitlab
 [sign-up]: https://gitlab.com/users/sign_in "Sign Up!"
 [twitter]: https://twitter.com/gitlab
 
