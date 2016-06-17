@@ -41,7 +41,7 @@ information to other users. See [the issue][18188] for more details.
 
 [18188]: https://gitlab.com/gitlab-org/gitlab-ce/issues/18188
 
-Thanks to Madhu Akula for responsibly responsibly disclosing this issue to us.
+Thanks to Madhu Akula for responsibly disclosing this issue to us.
 
 ## Cross-site scripting (XSS) vulnerability in Wiki pages
 
