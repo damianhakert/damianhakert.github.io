@@ -62,7 +62,7 @@ ever need to wait a **few seconds** for a new Docker Machine to be brought up.
 
 It is not just our own tests though. We have [enabled autoscaling on our Shared Runners
 on GitLab.com](https://about.gitlab.com/2016/04/05/shared-runners/) for all
-projects. The average Docker Machines we end up running sits around 100.
+projects. The average Docker Machines we end up running sits around 94.
 
 ### Scaling our Builds
 
