@@ -142,16 +142,11 @@ open an issue on the [Pages][pages-issues] group.
 
 ## Conclusion
 
-<!-- TO BE IMPROVED -->
-
 With this post we end up this series on SSGs. Hopefully, we got you inspired to start working with Static Site
 Generators, and by now you comprehend what they are and how they work.
 
 If you already work with an SSG, please [let us know][CTA] which one you prefer.
 It's a quick survey that will only take a minute, and your participation means a lot to us!
-
-<!-- AMARA: PLEASE CHECK THIS GOOGLE FORM! IF WE DECIDE TO USE IT,
-I WILL NEED TO ADD SOMEONE FROM GITLAB AS COLLABORATOR OR OWNER -->
 
 You are more than welcome to contribute with new SSGs, or with your cool themes and
 templates, to the [groups](#groups) mentioned earlier.
