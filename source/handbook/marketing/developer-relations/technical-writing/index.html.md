@@ -19,9 +19,10 @@ Welcome to the Technical Writing Handbook!
 
 - Introduction => to be included
 - Docs and Blog Posts => to be included
-- Styles Guidelines => to be included
 
-----
+## Markdown Style Guide for about.GitLab.com
+
+Check out our [guide] for the markdown markup used throughout about.GitLab.com, including any markdown page and blog post.
 
 ## Professional Writing Techniques
 
@@ -167,6 +168,7 @@ There is a simple list below, for things to do and to avoid when writing. It's n
 [android-doc]: //developer.android.com/intl/pt-br/tools/help/emulator.html
 [android-emulator]: //developer.android.com/intl/pt-br/tools/devices/emulator.html
 [blog-tracker]: https://gitlab.com/gitlab-com/blog-posts/issues
+[guide]: markdown-guide/
 [(key)words]: //www.wordstream.com/seo-keyword
 [synonyms]: //www.thesaurus.com/
 [tech-writing-wiki]: https://en.wikipedia.org/wiki/Technical_writing
