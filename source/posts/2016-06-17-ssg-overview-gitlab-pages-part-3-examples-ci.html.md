@@ -9,18 +9,22 @@ author_twitter: virtuacreative
 image_title: '/images/blogimages/ssg-gitlab-pages-series/ssg-overview-gitlab-pages-part-3-cover.jpg'
 ---
 
-Which **Static Site Generators** (SSGs) can I use with **GitLab Pages**? How to setup GitLab CI to build my SSG site? Where can I find some examples?
+Which **Static Site Generators** (SSGs) can I use with **GitLab Pages**? How to setup GitLab CI to build
+my SSG site? Where can I find some examples?
 
-If these questions ring a bell, this **series of posts** is for you! We prepared three articles around the same theme "**Static Site Generators (SSGs)**".
+If these questions ring a bell, this **series of posts** is for you! We prepared three articles around
+the same theme "**Static Site Generators (SSGs)**".
 
-This is **Part 3: Build any SSG site with GitLab Pages**, where we'll show you some examples of SSGs using distinct GitLab CI configurations, so you can understand it and adjust it to your needs.
+This is **Part 3: Build any SSG site with GitLab Pages**, where we'll show you some examples of SSGs
+using distinct GitLab CI configurations, so you can understand it and adjust it to your needs.
 
 Read through the previous posts:
 
 - [**Part 1: Dynamic vs Static Websites**][part-1]
 - [**Part 2: Modern Static Site Generators**][part-2]
 
-**Note:** For this series, we assume you are familiar with web development, curious about Static Site Generators, and excited to see your site getting deployed with GitLab Pages.
+**Note:** For this series, we assume you are familiar with web development, curious about Static Site Generators,
+and excited to see your site getting deployed with GitLab Pages.
 {: .note}
 
 <!-- more -->
@@ -37,23 +41,28 @@ Read through the previous posts:
 
 ## Build any SSG site with GitLab Pages
 
-Along the previous articles of this series on Static Site Generators, we explained the difference between [static and dynamic websites][part-1], and provided a general [overview on Modern SSGs][part-2]. Now let's understand how can we use them with [GitLab Pages][pages].
+In the previous articles of this series on Static Site Generators, we explained the difference between
+[static and dynamic websites][part-1], and provided a general [overview on Modern SSGs][part-2]. Now let's
+understand how can we use them with [GitLab Pages][pages].
 
 You can use [GitLab Pages][pages] to host and build **any** [SSG][ssgs] available!
 You can also use custom domains, SSL/TLS certificates, create as many sites as you want,
-and deploy your site from **private repositories**. And that's all **for free**!
-If you are not familiar with GitLab Pages, you might want to read the article "[Hosting on GitLab.com with GitLab Pages][post-pages]", where you will find this information and a detailed step-by-step guide to walk you through the process.
+and deploy your site from **private repositories**. And that's all **for free** on GitLab.com!
+If you are not familiar with GitLab Pages, you might want to read the article "[Hosting on GitLab.com with GitLab Pages][post-pages]",
+where you will find this information and a detailed step-by-step guide to walk you through the process.
 See also the [quick start guide][pages] and the [official documentation][pages-ee] for further information.
 
 ## SSGs examples
 
 On the following tables you can explore some examples of SSGs sites **built with
-GitLab Pages** and hosted by GitLab. Some of them came from contributions from our community. We'll be very happy to have your [contribution] too!
+GitLab Pages** and hosted on GitLab.com. Some of them came from contributions from our community.
+We'll be very happy to have [your contribution] too!
 
-The key for building your site with GitLab Pages is the GitLab CI configuration
+The key for [building your site with GitLab Pages][ci-for-pages] is the GitLab CI configuration
 file, called `.gitlab-ci.yml`.
 
-In order to make GitLab CI work for this specific purpose is creating a job called `pages`, and generate your compiled site to a `public` folder. Everything else is adjustable to our needs.
+To make GitLab CI work for this specific purpose is necessary creating a job called `pages`, and generate your
+compiled site to a `public` folder. Everything else is adjustable to your needs.
 
 On the tables below, there are some examples we've gathered for you, organized by their respective environments.
 
@@ -103,12 +112,13 @@ On the following GitLab groups you can find even more examples.
 | [Middleman Themes][middle-examples] | Ruby | Middleman |
 | [Themes and Templates][themes-templates] | Miscellaneous | Miscellaneous |
 
-**Note:** these themes, templates, and SSGs were casually chosen, and listed on this post to provide you with some distinct GitLab CI configurations.
+**Note:** these themes, templates, and SSGs were casually chosen, and listed on this post to provide you with
+some distinct GitLab CI configurations.
 {: .note}
 
 ## FAQ: which SSG should I get started with?
 
-This is a tricky question. There is no easy answer for it. Perhaps the best way
+This is a tricky question, and there is no easy answer for it. Perhaps the best way
 to choose an SSG is installing three or four of them locally and give them a try. [This list][ssgs-more] might help too.
 
 However, if you don't know where to start, and you never used any Static Site Generator
@@ -121,7 +131,7 @@ before, I suggest you to get started with [Jekyll]. Why?
 
 But this was merely a suggestion. There are better ways to choose. For example,
 if you are a programmer, you could choose the SSG according to the language it's
-written in (Ruby, Node JS, Python, etc), picking up one you're familiar with.
+written in (Ruby, JavaScript, Python, etc), picking up one you're familiar with.
 If you are a PHP developer, you might want to choose an SSG with a PHP template engine. And so on.
 
 ## Getting Help
@@ -134,8 +144,8 @@ open an issue on the [Pages][pages-issues] group.
 
 <!-- TO BE IMPROVED -->
 
-Hopefully, we got you inspired to start working with Static Site
-Generators and you comprehend what they are and how do they work.
+With this post we end up this series on SSGs. Hopefully, we got you inspired to start working with Static Site
+Generators, and by now you comprehend what they are and how they work.
 
 If you already work with an SSG, please [let us know][CTA] which one you prefer.
 It's a quick survey that will only take a minute, and your participation means a lot to us!
@@ -143,11 +153,11 @@ It's a quick survey that will only take a minute, and your participation means a
 <!-- AMARA: PLEASE CHECK THIS GOOGLE FORM! IF WE DECIDE TO USE IT,
 I WILL NEED TO ADD SOMEONE FROM GITLAB AS COLLABORATOR OR OWNER -->
 
-You are invited to contribute with new SSGs, or with your cool themes and
+You are more than welcome to contribute with new SSGs, or with your cool themes and
 templates, to the [groups](#groups) mentioned earlier.
 
 Don't you have an account on [GitLab.com][sign-up] yet? Let's create one!
-Remember, we can use GitLab Pages to [build any SSG][post-pages] for us and host it for free!
+Remember, we can use GitLab Pages to [build any SSG][post-pages] for us and host it for free on GitLab.com!
 
 Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 
@@ -165,7 +175,8 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [CTA]: https://docs.google.com/forms/d/1I_0PFB7MFm140hoFro-SfeMpU-VS71QmMfO8_4fj2pM/viewform
 
 [about-gitlab-com]: https://about.gitlab.com/
-[contributions]: https://gitlab.com/pages/pages.gitlab.io/blob/master/CONTRIBUTING.md
+[ci-for-pages]: https://about.gitlab.com/2016/04/07/gitlab-pages-setup/#gitlab-ci
+[your contribution]: https://gitlab.com/pages/pages.gitlab.io/blob/master/CONTRIBUTING.md
 [get-help]: https://about.gitlab.com/getting-help
 [gitlab-com]: https://about.gitlab.com/gitlab-com/
 [pages]: https://pages.gitlab.io
