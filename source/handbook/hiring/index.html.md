@@ -102,13 +102,13 @@ If you have decided to let the applicant move on to the next interview, feel fre
 For the specific position of Service Engineering please follow these steps (instructions are above):
 
 1. Confirmation of application and first round of rejections
-1. Screening call done by our People Operations Coordinator 
+1. Screening call done by our People Operations Coordinator
 1. If necessary, the hiring manager will conduct a technical screening email
 1. Technical Interview
 1. Team Interaction and Customer Scenario Interview
 1. Reference Calls, done by our People Operations Coordinator
 1. VP level interview
-1. CEO Interview 
+1. CEO Interview
 1. Make a verbal or written offer with CEO authorization
 
 ### Interviewing
@@ -236,8 +236,8 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 1. How do you keep up-to-date with developments in your profession?
 1. If you don't get this job what will you do?
 1. Are you interviewing anywhere else?
-1. How can we change GitLab the software product to make it better?
-1. What can we change in GitLab the organization to make it better, for example the hiring process or the handbook?
+1. How can we change GitLab as a software product to make it better?
+1. What can we change in GitLab as an organization to make it better, for example the hiring process or the handbook?
 1. What do you expect to achieve in your first month at GitLab?
 1. Where do you want to be in three years from now?
 1. How do you feel about working remotely?
