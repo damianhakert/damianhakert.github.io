@@ -527,16 +527,11 @@ first 6 months of their hire, then you *also* get a $1,000 bonus.
 
 ### Work Remotely Travel Grant<a name="travel-grant"></a>
 
-GitLab is a [remote-first company](http://zachholman.com/posts/remote-first/)
-with team members all over the world (see the map on our [Team
-page](https://about.gitlab.com/team/) ). If you want to visit a colleague in
-another part of the world, or promote GitLab at events in another country,
-then present your travel plan to your manager or the CEO, and you can receive
-*up to* $2,000 in support for your plan!
+GitLab is a [remote-first company](http://zachholman.com/posts/remote-first/) with team members all over the world (see the map on our [Team page](https://about.gitlab.com/team/) ). If you want to visit a colleague in another part of the world, or promote GitLab at events in another country, then present your travel plan to your manager or the CEO, and you can receive *up to* $2,000 in support for your plan!
 
-As an example, the first grant was handed to a team member who will be
-traveling to 6 team members in different countries during 6 months, and this
-team member will receive the maximum grant of $2,000.
+As an example, the first grant was handed to a team member who will be traveling to 6 team members in different countries during 6 months, and this team member will receive the maximum grant of $2,000.
+
+To claim the approved award, include a line item on your expense report or invoice with the approval email as the receipt. The entire award can be claimed from the first month of travel to up to 3 months after the travel is completed.
 
 ## Signing Legal Documents<a name="signing-legal-documents"></a>
 
