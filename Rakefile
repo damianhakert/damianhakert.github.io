@@ -76,3 +76,47 @@ task :new_release_post, :version do |t, args|
     post.puts template_text
   end
 end
+
+desc 'Build the site in public/ (for deployment)'
+task :build do
+  build_cmd = %W(middleman build --verbose)
+  if !system(*build_cmd)
+    raise "command failed: #{build_cmd.join(' ')}"
+  end
+end
+
+PDFS = %w{
+  public/terms/print/githost_terms.pdf
+  public/terms/print/gitlab_com_terms.pdf
+  public/terms/print/gitlab_consultancy_terms.pdf
+  public/terms/print/gitlab_subscription_terms.pdf
+  public/terms/print/gitlab_subscription_terms_sig.pdf
+  public/high-availability/gitlab-ha.pdf
+  public/features/gitlab-features.pdf
+}
+
+PDF_TEMPLATE = 'pdf_template.tex'
+
+# public/foo/bar.pdf depends on public/foo/bar.html
+rule %r{^public/.*\.pdf} => [->(f) { f.pathmap('%X.html') }, PDF_TEMPLATE] do |pdf|
+  # Avoid distracting 'newline appended' message
+  open(pdf.source, 'a') { |f| f.puts }
+  # Rewrite the generated HTML to fix image links for pandoc. Image paths
+  # need to be relative paths starting with 'public/'.
+  IO.popen(%W(ed -s #{pdf.source}), 'w') do |ed|
+    ed.puts <<-'EOS'
+H
+g/\.\.\/images\// s//\/images\//g
+g/'\/images\/ s//'public\/images\//g
+g/"\/images\// s//"public\/images\//g
+wq
+EOS
+  end
+  options = %W(--template=#{PDF_TEMPLATE} --latex-engine=xelatex -V date=#{Time.now.to_s})
+  warn "Generating #{pdf.name}"
+  cmd = ['pandoc', *options, '-o', pdf.name, pdf.source]
+  abort("command failed: #{cmd.join(' ')}") unless system(*cmd)
+end
+
+desc 'Generate PDFs'
+task :pdfs => PDFS

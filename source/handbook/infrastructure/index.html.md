@@ -13,7 +13,7 @@ Make sure to check that if you're looking for anything in particular.
 
 Before you start fixing stuff, log into the [infrastructure room](https://gitlab.slack.com/messages/infrastructure/) and leave a message. Other people might be working at the same time, especially if there was a pagerduty alert. If you don't immediately know what happened, create a postmortem doc with a sequential timeline.
 
-### Why did server X stop working on Monday morning?
+## Why did server X stop working on Monday morning?
 
 Weekly automatic OS updates are performed on Monday at 10:10 UTC.
 
@@ -24,6 +24,14 @@ For [emergency checklist](https://dev.gitlab.org/cookbooks/gitlab-drbd/blob/mast
 ## How does gitlab-drbd work and how do I failover?
 
 See [failover procedure](https://dev.gitlab.org/cookbooks/gitlab-drbd/blob/master/doc/control_script.md#failover-procedure).
+
+## Make GitLab.com settings the default
+
+As said in the [production engineer job description]() one of the goals is "Making GitLab easier to maintain for sysadmins all over the world".
+One of the ways we do it is making GitLab.com settings the default for all our customers.
+It is very imporatant that GitLab.com is running GitLab Enterprise Edition with all its default settings.
+We don't want users running GitLab at scale to run into any problems.
+If it is not possible to use the default settings the difference should be documented in [requirements.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/install/requirements.md) before applying them to GitLab.com.
 
 ## Dev.gitlab.org backups
 
@@ -60,12 +68,12 @@ Now `git remote -v` should look like:
 
 
 Deploy with:
-    
+
     git push deploy master
 
 ## DRBD reports local disk state is ‘Diskless’
 
-* Try deactivating/activating the DRBD resource: 
+* Try deactivating/activating the DRBD resource:
         sudo drbdadm detach gitlab_data ; sudo drbdadm attach gitlab_data
 
 * Check if any lvm commands are still running `ps ax | grep lvm` . If so, wait for them to finish (may take 15 minutes).
@@ -102,29 +110,29 @@ Deploy with:
 
 * Install the [new certificate](https://dev.gitlab.org/gitlab/gitlab-certificate-toolkit/blob/master/doc/install-new-certificate.md)
 
-### Random tips:
+### Random tips
 
 * Configure Nginx to use the key
-    
+
         sudo vim /etc/nginx/sites-available/TAB
         ( or sometimes: sudo vim /etc/nginx/ssl.conf )
         ssl_certificate         /etc/ssl/$DOMAIN.crt;
         ssl_certificate_key     /etc/ssl/$DOMAIN.key;
 
 * Test Nginx config
-        
+
         sudo nginx -t
 
 * Restart Nginx
-        
+
         sudo service nginx restart
 
 * Change the firewall rules, needed on Digital Ocean:
-        
+
         sudo ufw allow https
 
 * Consider adding a redirect rule from http to https
-        
+
         server {
           listen *:80;
           server_name www.example.com;
@@ -174,15 +182,15 @@ From 13-20 December we have been storing uploads in the wrong S3 bucket. The buc
 * Locally delete uploads that do not belong in production. Production uploads had IDs in the thousands or tens of thousands; staging uploads had IDs like 1,2,3. I also checked in the S3 web console when some of the files were created to distinguish staging uploads from production uploads.
 
 * Dry run for uploading the cleaned-up local copy of the uploads to the production bucket. Check if the paths make sense
-         
+
          s3cmd -c .s3cfg sync -n gitlab_cloud_staging_us/ s3://gitlab_production_us
 
 * Sync the local uploads to the production bucket
-         
+
          s3cmd -c .s3cfg sync  gitlab_cloud_staging_us/ s3://gitlab_production_us
 
 * Delete the local copy of the uploads
-         
+
          rm -rf gitlab_cloud_staging_us/
 
 ## Monit check for disk space on root filesystem

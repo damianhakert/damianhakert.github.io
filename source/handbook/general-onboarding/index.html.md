@@ -35,7 +35,8 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 lines of the master checklist, paste the private email address of the hire in
 there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @brittany, and @tiffanie.
 * [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @HANDLE (Nominate someone preferably in similar timezone but different functional group)), and People Ops is tackled by (FILL IN WITH @ HANDLE).
-* [ ] Robert/Jacob/Ernst: create Google account, `firstname[at]gitlab.com` or `initial(s)[at]gitlab.com`, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it
+* [ ] Robert/Jacob/Ernst: create Google account, `firstname[at]gitlab.com` or `initial(s)[at]gitlab.com`, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it. 
+* [ ] New team member: Google does not support 2FA in some countries ([e.g. Nigeria](https://productforums.google.com/forum/#!topic/gmail/3_wcd8tAqdc) ); if that is the case for you, reach out to People Ops to get the initial authentication code sent to a phone in  supported country, after which 2FA will work as normal. 
 * [ ] Robert/Jacob/Ernst: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 * [ ] Robert/Jacob/Ernst: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] Robert/Jacob/Ernst: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
@@ -56,16 +57,34 @@ with Git and the GitLab workflow.
 * [ ] People Ops: Give team member access to the GitLab availability calendar
 * [ ] People Ops: Add new team member to the next monthly GitLab 101 call
 * [ ] People Ops: Invite to team meeting, and re-arrange the days on which team members speak in the Team Call Agenda.
-* [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment.
+* [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment. Send an email to their GitLab account, personal email, and cc Peopleops.<br>
+"Please let People Ops (cced here) know if there are any necessary supplies or equipment that you need. You can also reference the [company handbook](https://about.gitlab.com/handbook/#spending-company-money) in this matter."
 * [ ] Buddy: Schedule video call for first day to introduce yourself, and make sure they know that if they have questions, they can come to you. But your main job as a buddy will be to direct them to the right parts of the handbook, and/or encourage them to ask their questions of the wider group on chat, etc.
-* [ ] People Ops: Send brief welcome email to their personal address that directs the new team member to their GitLab email and their onboarding issue. Template text:<br>
-"Welcome to GitLab, we're excited that you're joining our team!<br>
-You should have received an invitation to your GitLab email account; please let me know if that is not the case.<br>
-Everything you need to get started is listed in your onboarding issue (insert link).<br>
-We're looking forward to seeing you on our daily Team Call! The first time that you join, please make sure that you connect at least 10 minutes before the call and make sure that your camera and microphone are working properly. We'd like you to introduce yourself to the team so please prepare some talking points for yourself. Some tips to help you out here: tell us about where you were before GitLab, why you wanted to join our team, just a little something about your background and of course something on what you like to do in your spare time.<br>
-Here is some swag credit you can use in our [swag store](https://gitlab.mybrightsites.com/) to celebrate your arrival!<br>
-Swag codes: [Enter 2 swag codes]<br>
-Free shipping: [Enter free shipping code]<br>"
+* [ ] People Ops: Send brief welcome email to their personal address that directs the new team member to their GitLab email and their onboarding issue. Template text:
+
+    > Welcome to GitLab, we're excited that you're joining our team!
+    >
+    > You should have received an invitation to your GitLab email account;
+    > please let me know if that is not the case.
+    >
+    > Everything you need to get started is listed in your onboarding issue:
+    > [Insert link].
+    >
+    > We're looking forward to seeing you on our daily Team Call! The first time
+    > that you join, please make sure that you connect at least 10 minutes
+    > before the call and make sure that your camera and microphone are working
+    > properly. We'd like you to introduce yourself to the team so please
+    > prepare some talking points for yourself. Some tips to help you out here:
+    > tell us about where you were before GitLab, why you wanted to join our
+    > team, just a little something about your background and of course
+    > something on what you like to do in your spare time.
+    >
+    > Here is some swag credit you can use in our [swag store](https://gitlab.mybrightsites.com/) to celebrate your arrival!
+    >
+    > Swag codes: [Enter 2 swag codes]
+    >
+    > Free shipping: [Enter free shipping code]
+
 * [ ] Hiring Manager: Schedule a video call with new team member at the start of their first day.
 
 ### ON YOUR FIRST DAY
@@ -93,9 +112,9 @@ and then ping @rspeicher to confirm your account. You can find this (and other) 
 * [ ] New team member: once you are registered on 1Password, ping your hiring manager to grant you access
 to the proper shared Vaults by making a suggestion in the relevant cell in the "1password Shared Folders" Google Sheet.
 * [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
-* [ ] New team member: Create GitLab.com account and leave a comment in this issue with the handle. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
+* [ ] New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
 * [ ] Robert/Jacob/Ernst: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
-* [ ] New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information.
+* [ ] New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information. Make sure to add the country code to phone numbers (i.e. all numbers should start with `+`).
 * [ ] New team member: Set up [Calendly](https://about.gitlab.com/handbook/#calendly) and add your Calendly link to your Slack profile.
 
 ### WITHIN FIRST WEEK OF STARTING
@@ -143,10 +162,11 @@ to the proper shared Vaults by making a suggestion in the relevant cell in the "
 * [ ] Jose: invite to support team call
 * [ ] Jose: use the "GitLab Email Forwarding" google doc to request that the new team member is added to the alias for the support team.
 
-#### FOR UX/UI DESIGNERS AND FRONTEND ENGINEERING ONLY
+#### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
 
-* [ ] Hiring Manager: leave note below if an Adobe Creative Cloud license is needed, ping Ernst.
-* [ ] Hiring Manager: leave note below if an Antetype license is needed, ping Ernst.
+* [ ] New team member: get the [Pixelmator app](https://itunes.apple.com/us/app/pixelmator/id407963104?mt=12&ign-mpt=uo%3D4) and expense it.
+* [ ] People Ops: provide [Antetype](http://antetype.com/) license by [ordering online](http://sites.fastspring.com/ergosigntechnologies/product/antetype?language=EN), and forwarding the email with the license key to the new team member.
+* [ ] People Ops: (for Designers only, not UX Designers) provide access to [Adobe Creative Cloud](https://www.adobe.com/creativecloud.html) using the shared credential in the Secretarial vault. If a UX Designer feels that they need CC Photoshop and/or CC Illustrator they can request it.
 
 ### FOR MARKETING ONLY
 

@@ -1,0 +1,11 @@
+= wrap_layout :markdown_page do
+  = yield
+
+  - if job = job_for_current_page
+    :markdown
+      Work remotely from anywhere in the world. Curious to see what that looks
+      like? Check out our [remote manifesto]!
+
+      [remote manifesto]: /2015/04/08/the-remote-manifesto/
+
+    = link_to("Apply", job.apply, class: 'btn btn-purple')

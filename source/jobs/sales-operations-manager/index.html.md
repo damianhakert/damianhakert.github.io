@@ -1,8 +1,7 @@
 ---
-layout: markdown_page
+layout: job_page
 title: "Sales Operations Manager"
 ---
-
 
 GitLab is hiring a Sales Ops Manager to help us scale. Your mission is to organize data and generate deep customer insight in order to enhance sales force productivity and effectiveness.
 You will accomplish your mission by working collaboratively with our sales, marketing, finance and operations teams, you will measure everything to help us optimize our sales funnel and achieve growth.
@@ -14,7 +13,7 @@ Your impact will help us make it easier to maintain a competitive edge, enhance 
 * Manage Platforms and Systems: Responsible for all SalesForce.com administration including user management, data management, application setup, customization, reports and dashboards. Zuora, WebEx, TrainTool, etc.
 * Partner in the development of sales coverage, headcount planning and sales quota.
 * Create and manage New Hire Boot Camps to quickly ramp up Sales Reps
-* Improve and manage the [Sales Onboarding Bootcamp](https://about.gitlab.com/handbook/sales-onboarding/) 
+* Improve and manage the [Sales Onboarding Bootcamp](https://about.gitlab.com/handbook/sales-onboarding/)
 * Create Board level presentations for the Chief Revenue Officer
 * Manage, analyze and summarize the weekly Sales Forecast
 * Create and manage programs for Weekly and Quarterly Sales Training sessions
@@ -24,7 +23,6 @@ Your impact will help us make it easier to maintain a competitive edge, enhance 
 * Manage approval process (deal sign off) between sales and finance
 
 ## Requirements for Applicants
-(Check our [Jobs](https://about.gitlab.com/jobs/) page to see current openings).
 
 * Minimum 5 years Sales Ops experience required
 * Strong analytical ability and able to prioritize multiple projects
@@ -33,5 +31,4 @@ Your impact will help us make it easier to maintain a competitive edge, enhance 
 * Deadline driven
 * SaaS and B2B experience preferred
 * Interest in GitLab, and open source software
-
-Work remotely from anywhere in the world. Curious to see what that looks like? Check out our [remote manifesto]( https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!
+* You share our [values](/handbook/#values), and work in accordance with those values.

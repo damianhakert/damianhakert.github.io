@@ -104,6 +104,23 @@ termination of services, the company is not obligated to do so.  Accordingly you
 lose some or all of the investment you made.  Because we are a young company there are
 lots of risks so be aware and informed of the risks. Please read this [quora thread about most startups failing](https://www.quora.com/What-is-the-truth-behind-9-out-of-10-startups-fail) and this story of [people paying more in tax for their stock than they get back](http://www.nytimes.com/2015/12/27/technology/when-a-unicorn-start-up-stumbles-its-employees-get-hurt.html).
 
+## How to Exercise Your Stock Options<a name="how-to-exercise"></a>
+
+
+There are two methods to exercise your shares:
+
+1. Electronic (US Residents Only)
+   - Log into your eShares account
+   - Follow directions to enable ACH payments from your bank
+   - After ACH has been enabled select exercise option grants and follow the prompts
+2. Manual (Non ACH and Non US Residents)
+   - Log into your eShares account
+   - Select print grant and print the forms for exercising shares
+   - Create PDF of signed forms and send to peopleops@gitlab.com
+   - Send payment in US dollars by wire transfer.  You will be provided wire transfer info
+
+Note for US residents: whichever method you choose, be sure to download the 83-b election and file with the IRS within 30 days of exercise. Send a copy of the election form to peopleops@gitlab.com.
+
 
 ## Option Expiration
 
@@ -142,6 +159,9 @@ gain upon exercise of an ISO (difference between the exercise price and fair mar
 at date of exercise), even if you do not sell the shares, may be counted as a "tax preference"
 towards the Alternative Minimum Tax limit.  You should contact a tax advisor to see if
 this would apply to you.
+
+In addition to the benefits of a longer holding period the IRS does have an additional benefit for holders of Qualified Small Business Stock (QSBS for short).  Currently, GitLab meets the criteria for QSBS treatment however, again the Company is not in a position to offer tax or legal advice so check with your own tax and financial advisors.  We found [this article](https://blog.wealthfront.com/qualified-small-business-stock-2016/) helpful in describing the QSBS program in greater detail.
+
 
 Generally, for Non-qualified Stock Options (NSOs), you are taxed on any gain upon exercise
 of a NSO (difference between the exercise price and fair market value at date of exercise).

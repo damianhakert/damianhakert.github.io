@@ -18,18 +18,35 @@ title: "Hiring"
 
 The CEO needs to authorize any new job positions/searches, and agree on the proposed hiring team.
 
-1. Define hiring team. Roles can be assigned fluidly (see below for the [Hiring Process](#hiring-process)), depending on who is available, bearing in
-mind that the most time consuming aspect tends to be review of the first wave of applicants.
-1. Create the job description on our website, and in Workable. Note: You need to actively link Workable and Gmail.
+1. Define hiring team. Roles can be assigned fluidly (see below for the
+   [Hiring Process](#hiring-process)), depending on who is available, bearing in
+   mind that the most time-consuming aspect tends to be review of the first wave
+   of applicants.
+1. Create the job description on our website, and in Workable. Note: You need to
+   actively link Workable and Gmail.
     1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`
-    1. Add a job of the exact same job title on [Workable](https://gitlab.workable.com/backend)
+       if it doesn't already exist.
+    1. Add a job of the exact same job title on [Workable](https://gitlab.workable.com/backend):
        * For location, select "Telecommute".
-       * For the description, simply write `For the job description, see [url of relevant jobs page on GitLab's website]`
-       * Indicate what applicants need to provide with their application. By default, this will include their resumé, a cover letter, but it may also
-       include qualifying questions such as "What timezone are you in?" and "Are you aware that this is not a DevOps role?".
-       * "Publish" the job, and follow the links to the application form.
-    1. Embed the link to the application form for the new job on our [Jobs page](https://about.gitlab.com/jobs/), and also include a link on their to the job description. As soon as the new job description / posting is "live" on our website, also consider your available [advertising methods](#job-advertising) below.
+       * For the description, write `For the job description, see [URL of
+         relevant jobs page on about.gitlab.com]`
+       * Indicate what applicants need to provide with their application. By
+         default, this will include their resumé, a cover letter, but it may
+         also include qualifying questions such as "What timezone are you in?".
+       * "Publish" the job, and follow the links to the application form (you will need this URL).
+    1. In the [`data/jobs.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) file, open the position or add a new entry for it. Positions are automatically sorted alphabetically by `title` on the [jobs page](/jobs/). When someone views the job's description page, an "Apply" button will be shown for that position if we're currently hiring for it.
+          - Adding a new position: add an entry with the following format:
 
+            ```yaml
+            - title: "Chief Happiness Officer"
+              description: /jobs/chief-happiness-officer/
+              apply: https://gitlab.workable.com/jobs/12345/candidates/new
+              open: true
+            ```
+
+          - Opening an existing position: If the position is already listed in the `jobs.yml` file but not "open", simply change `open: false` to `open: true` to have the position appear on the [listings](/jobs/).
+          - Closing an existing position: If we're no longer hiring for a particular position change `open: true` to `open: false` for that position to hide it from the listings.
+ 1. As soon as the new job description / posting is live on our website, consider your available [advertising methods](#job-advertising) below.
 
 ## Advertising the job<a name="job-advertising"></a>
 
@@ -43,8 +60,17 @@ _Consider_ advertising the job through the following means:
 
 List on:
 
-1. [Hacker News](https://news.ycombinator.com/ask): On the first of the month, include a note for GitLab in the Hacker News thread of "Who's Hiring" . Template text: `REMOTE ONLY GitLab
-We're hiring production engineers, developers, UX designers , and more. https://about.gitlab.com/jobs/ We're a remote only company so everyone is on an equal level. GitLab is an open-source Ruby on Rails project with over 1000 contributors.`
+1. [Hacker News](https://news.ycombinator.com/ask): On the first of the month, include a note for GitLab in the Hacker News thread of "Who's Hiring". Template text:
+
+   > REMOTE ONLY - GitLab
+   >
+   > We're hiring production engineers, developers, UX designers, and more.
+   >
+   > https://about.gitlab.com/jobs/
+   >
+   > We're a remote-only company so everyone is on an equal level. GitLab is an
+   > open-source Ruby on Rails project with over 1,000 contributors.
+
 1. [WeWorkRemotely](https://weworkremotely.com) ($200 for 30 days, per position).
 1. [RemoteOK](https://remoteok.io) ($200 for ?? days, per position)
 
@@ -66,11 +92,24 @@ If you have decided to let the applicant move on to the next interview, feel fre
 1. Technical interview (optional): As described on the [Jobs](https://about.gitlab.com/jobs/) page, certain positions require [technical interviews](https://about.gitlab.com/jobs/#technical-interview).
 1. Multiple further interviews (see [below for sample questions](#interview-questions)). At minimum, the candidate should be interviewed by their Manager, one female GitLab team member, and a C-level executive... but this can be one and the same person.
 1. CEO interview: the CEO, as the primary culture carrier of the company, typically interviews all final round candidates.
-1. Optional: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
+1. Optional: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. At minimum two reference calls should be completed - one to a manager, the other to a colleague. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
 1. Make a verbal or written (email) offer (the CEO needs to authorize offers)
 1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
 1. Hiring manager ensures that the contract is signed, and People Ops [starts the onboarding process](#move-to-onboarding).
 
+#### Service Engineering Hiring Process
+
+For the specific position of Service Engineering please follow these steps (instructions are above):
+
+1. Confirmation of application and first round of rejections
+1. Screening call done by our People Operations Coordinator 
+1. If necessary, the hiring manager will conduct a technical screening email
+1. Technical Interview
+1. Team Interaction and Customer Scenario Interview
+1. Reference Calls, done by our People Operations Coordinator
+1. VP level interview
+1. CEO Interview 
+1. Make a verbal or written offer with CEO authorization
 
 ### Interviewing
 
@@ -111,6 +150,7 @@ They usually start with the form "Can you tell me about a time when...". The kin
 There is no right answer, what matters here is to hear the candidate and gather data on how is it telling the story.
 
 Some things to pay attention to:
+
 * What was the candidate role? Was it a leader? A follower? Why?
 * What is it highlighting as important? Did it matter?
 * Is it clearly explained? Is the story well told? If it is a technical story and the interviewer is a non-technical person, are things being explained in a way that make sense?
@@ -132,21 +172,20 @@ Once you have your notes, tell the candidate what you understood, repeat the sto
 Always leave feedback, this will allow the rest people to understand what happened and why you took the decision you took.
 
 One way of writing the feedback is as follows:
-```
-Vote: inclined/not inclined
 
-Summary: your general impressions, a brief description on what have you seen, where you stand, and why.
-
-Pros: what is good, and where did you found it during the interview, bullet points is fine.
-
-Cons: weak spots. Where the candidate failed to you, why, consider that some things can be taught or learnt.
-
-Interview notes: What questions were asked, what story you got back. Ex.
-
-  Tell me about a time when you did X
-
-  The candidate told me a story when she was working in his current gig doing... They had to do... It went well because she took the leadership and .... In the end they increased their sales in a 30%, she measured it by doing ...
-```
+> Vote: inclined/not inclined
+>
+> Summary: your general impressions, a brief description on what have you seen, where you stand, and why.
+>
+> Pros: what is good, and where did you found it during the interview, bullet points is fine.
+>
+> Cons: weak spots. Where the candidate failed to you, why, consider that some things can be taught or learnt.
+>
+> Interview notes: What questions were asked, what story you got back. Ex.
+>
+>   Tell me about a time when you did X
+>
+>   The candidate told me a story when she was working in his current gig doing... They had to do... It went well because she took the leadership and .... In the end they increased their sales in a 30%, she measured it by doing ...
 
 The vote is critical as it is telling the rest of the people what is your final thinking here. The rest should explain why do you think so.
 
@@ -166,7 +205,7 @@ notified of the rejection.
 
 ## Screening Call<a name="screening-call"></a>
 
-For some positions, we conduct screening calls. This call is typically done by our [administrative coordinator](https://about.gitlab.com/jobs/administrative-coordinator/).
+For some positions, we conduct screening calls. This call is typically done by our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/).
 
 Questions are:
 
@@ -193,23 +232,23 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 1. What did you like least about your recent/current position?
 1. Take each skill required for the job and do a [STAR](https://en.wikipedia.org/wiki/Situation,_Task,_Action,_Result) for a couple of situations.
 1. What professional achievements are you most proud of?
-1. Who's careers have you made better?
-1. How do you keep up to date with developments in your profession?
+1. Whose careers have you made better?
+1. How do you keep up-to-date with developments in your profession?
 1. If you don't get this job what will you do?
 1. Are you interviewing anywhere else?
 1. How can we change GitLab the software product to make it better?
 1. What can we change in GitLab the organization to make it better, for example the hiring process or the handbook?
 1. What do you expect to achieve in your first month at GitLab?
 1. Where do you want to be in three years from now?
-1. How do you feel about working remote?
-1. If you get hired when can you start?
+1. How do you feel about working remotely?
+1. If you get hired, when can you start?
 1. What compensation would you feel comfortable with?
 1. Do you have any questions for me?
 
 ## Reference calls <a name="reference-calls"></a>
 
 As part of our hiring process we may ask applicants to provide us with one or more
-references to contact. These reference calls are typically be done by our [administrative coordinator](https://about.gitlab.com/jobs/administrative-coordinator/) or the hiring
+references to contact. These reference calls are typically be done by our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/) or the hiring
  manager for that specific vacancy following [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
 
 ## Getting Contracts Ready, Reviewed, and Signed<a name="prep-contracts"></a>

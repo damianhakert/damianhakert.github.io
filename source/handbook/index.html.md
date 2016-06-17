@@ -25,6 +25,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Leadership](/handbook/leadership)
 * [GitLab University](https://university.gitlab.com/)
 * [Social Media Guidelines](/handbook/social-media-guidelines)
+* [Board meetings](/handbook/board-meetings)
 
 ## This page
 
@@ -35,6 +36,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Internal Communication](#internal-communication)
    * [GitLab Workflow](#gitlab-workflow)
    * [Team Call](#team-call)
+   * [Random Chat and Room](#random-room)
    * [Scheduling Meetings](#scheduling-meetings)
    * [Video Calls](#video-calls)
    * [User Communication Guidelines](#user-communication-guidelines)
@@ -121,7 +123,7 @@ people. We try to hire people who think work is a great way to express themselve
 1. Do what is right for our **customers** and the rest of the GitLab community, do what is best over the long term, don't be evil.
 1. We create **simple** software to accomplish complex collaborative tasks.
 1. We **use** our own software to accomplish complex collaborative tasks.
-1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin colour, gender or sexual orientation.
+1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin color, gender or sexual orientation.
 1. Use **inclusive** language. For example, prefer 'Hi everybody' or 'Hi people' to 'Hi guys'.
 1. Share problems you run into, ask for help, be forthcoming with information and **speak up**.
 1. Work out in the **open**, try to use public issue trackers and repositories when possible.
@@ -155,7 +157,7 @@ At GitLab our handbook is extensive and keeping it relevant is an important part
 
 1. Reading is much faster than listening.
 1. Reading is async, you don't have to interrupt someone or wait for them to become available.
-1. Recruiting is easier if people can see what we stand for an how we operate.
+1. Recruiting is easier if people can see what we stand for and how we operate.
 1. Retention is better if people know what they are getting into before they join.
 1. Onboarding is easier if you can find all relevant information spelled out.
 1. Teamwork is easier if you can read how other parts of the company work.
@@ -166,11 +168,10 @@ At GitLab our handbook is extensive and keeping it relevant is an important part
 Documenting things in the handbook takes more time initially and it requires thinking. But it saves time over a longer period and it is essential to scale and adapt our organization. It is not unlike writing tests for your software. Please follow these guidelines and remind others of them.
 
 1. If you need to discuss with a team member for help please realize that probably the majority of the community also doesn't know, be sure to **document** the answer to radiate this information to the whole community. After the question is answered discuss where it should be documented and who will do it. You can remind other people of this by asking 'who will document this'?
-1. When you discuss something is chat always try to **link** to a URL where relevant, for example the documentation you have a questions about or the page that answered your question. You can remind other people of this by asking 'can you please link'?
+1. When you discuss something in chat always try to **link** to a URL where relevant, for example the documentation you have a question about or the page that answered your question. You can remind other people of this by asking 'can you please link'?
 1. To change a guideline or process, **suggest an edit** in the form of a merge request.
 After it is merged you can talk about it during the team call if applicable. You can remind other people of this by asking 'can you please send an MR for the handbook'?
-1. Communicate process changes by linking to the **diff** (a commit that shows the changes before and after). Do not change the process first,
-and then view the documentation as a lower priority task. Planning to do the documentation later inevitably leads to duplicate work communicating the change and to outdated documentation. You can remind other people of this by asking 'can you please update the handbook first?'.
+1. Communicate process changes by linking to the **diff** (a commit that shows the changes before and after). Do not change the process first, and then view the documentation as a lower priority task. Planning to do the documentation later inevitably leads to duplicate work communicating the change and to outdated documentation. You can remind other people of this by asking 'can you please update the handbook first?'.
 1. When communicating something always include a link to the relevant (and up to date) part of the **handbook** instead of including the text in the email/chat/etc. You can remind other people of this by asking 'can you please link to the relevant part of the handbook?'.
 
 Many things can be documented in the handbook, but this will mostly be read by team members. If something can concern users of GitLab it should be documented in the [GitLab documentation](http://doc.gitlab.com/), the [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit), our [CONTRIBUTING file](https://gitlab.com/gitlab-org/gitlab-test/blob/master/CONTRIBUTING.md) or the [PROCESS file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
@@ -217,8 +218,9 @@ to the 'call?' request with a video link or say 'yes' and let the other person
 start it. Don't say 'yes' and start a call 5 seconds later since it is likely
 you'll both be creating a video call link at the same time.
 1. All company data should be **shareable** by default. Don't use a local text
-file but leave comments on an issue. Use merge requests to edit the website, don't use
-Google Docs. If you _do_ need a Google Doc, then create the doc with your company Google
+file but leave comments on an issue.
+1. Work on website edits via commits to a merge request. Never use a Google doc for something non-confidential that is intended for the website.
+1. If you _do_ need a Google Doc, then create the doc with your company Google
 Apps account. By default share Google docs with the whole company 'anyone at
 GitLab can find and access' with edit (preferred) or comment access for everyone.
 An easy way to do this, is to create your Google docs in a Shared Folder in
@@ -267,21 +269,21 @@ out to any of the other C-level team members or our board member Bruce Armstrong
 1. Do not leave issues open for a long time, issues should be **actionable** and realistic. If you are assigned but don't have time, assign it to someone else. If nobody is assigned and it is not a priority, please ensure the community can help and close it.
 1. Make a conscious effort to **prioritize**<a name="prioritize"></a> your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc. This is detailed in [the workflow document](/handbook/workflow).
 1. Use the public issue trackers on GitLab.com for anything related to our software since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
-1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [infrastructure](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues.
+1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [infrastructure](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues that do not have a home in one of the public team trackers that can be found on the [team structure](/team/structure/) page.
 1. Pick issues from the current [milestone](https://gitlab.com/groups/gitlab-org/milestones).
 1. We try not to assign issues to people but to have people **pick issues** in a milestone themselves.
 1. Assign an issue to yourself as soon as you start to work on it, but not before
 that time. If you complete part of an issue and need someone else to take the next
 step, **re-assign** the issue to that person.
-1. When reassigning an issue, make sure that the issue body contains the latest information. The issue body should be the single source of truth.
+1. When reassigning an issue, make sure that the issue body contains the latest information. The issue body should be the **single source of truth**.
 1. We keep our **promises** and do not make external promises without internal agreement.
 1. Even when something is not done, share it internally so people can comment early and prevent rework. Mark the merge request **[Work In Progress](https://about.gitlab.com/2016/01/08/feature-highlight-wip/)** so it is not merged by accident.
 1. When you create a merge request, **mention** the issue(s) that it solves in the description. If any followup actions are required on the issue after the merge request is merged, like reporting back to any customers or writing documentation, avoid auto closing it by saying `Fixes #1` or `Closes #1`.
-1. Once merge request is created, make sure to assign it to the proper person:
+1. Once a merge request is created, make sure to assign it to the proper person:
     1. For example a merge request that fixes a frontend issue should have the `Frontend` label and be assigned to a Frontend Engineer for review. For other workflow labels please see [PROCESS.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels).
     1. A merge request that is related to Continuous Integration should be assigned to the GitLab CI lead.
     1. All other merge requests should be assigned for review to one of merge request "endbosses". You can find all the roles listed on the [team page](https://about.gitlab.com/team/).
-1. When a merge request is done, remove the WIP prefix and **assign** the merge request to someone to review and merge it. A WIP merge request will never be merged, an unassigned non-WIP merge request can be merged by anyone if it looks ready, an assigned non-WIP will only be merged by the assigned reviewer.
+1. When _you_ are done with your merge request, remove the WIP prefix and **assign** the merge request to someone to review and merge it. You can still make changes based on feedback of course, but by removing the WIP prefix it clarifies when the main body of work is completed.
 1. When a merge request is done, set milestone to the version it should be included in.
 1. If you are assigned to review and merge a merge request and would like the creator to make some **changes**, comment on the merge request and assign it back to the creator. When they have addressed the concern, they will reassign it to the reviewer.
 1. If you are assigned to merge a merge request and there is a **merge conflict**, consider trying to resolve it **yourself** instead of asking the MR creator to resolve the conflict. If it is easy to resolve you avoid a round trip between you and the creator, and the MR gets merged sooner. This is a suggestion, not an obligation.
@@ -294,6 +296,7 @@ step, **re-assign** the issue to that person.
 
 1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
 1. We use Blue Jeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
+1. The call is recorded automatically, and recordings are automatically deleted after 7 days. Recordings can be found by logging in to the [BlueJeans web app](https://gitlab.bluejeans.com), click recordings at the top, and all past recordings show up there. The recordings are private, i.e. only people who are able to log in to the GitLab BlueJeans account can view the recordings. Since you [don't have Flash](#do-not-use), you'll need to download the recording as an `.mp4` file to view it. On some browsers, this requires scrolling to the right to reveal the "Download" button for a given recording, even though a scrollbar may not appear. Make sure the file is downloaded to your [encrypted home drive](/handbook/security/#encrypt-home-folder), and delete it after viewing.
 1. If you have previously logged on to Blue Jeans with different credentials, make sure to log out before joining the call as yourself. You don't need a Blue Jeans account to join the team call.
 1. We start on time and will not wait for people.
 1. Person who has first item on the agenda starts the call.
@@ -302,15 +305,19 @@ step, **re-assign** the issue to that person.
    * Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
    * When done with a point mention the subject of the next item and hand over to the next person.
 1. We have functional group updates (1 group per call) for the following groups: Marketing, Sid, Product, Sales, Ops, Support, HR, Finance, Development, Front-end, UX/UI.
-1. We ask 10-15 people per day to share updates about the most exciting thing from your past or upcoming week/weekend. If anyone has something they'd like to talk about, last person in the list will ask the group if they have anything else to share.
+1. We ask 15-20 people per day to share updates about the most exciting thing from your past or upcoming week/weekend. If anyone has something they'd like to talk about, last person in the list will ask the group if they have anything else to share.
    * The [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) lists who is meant to speak on which day; this can be altered daily if conflicts arise.
    * There is no need to excuse yourself with "I didn't do anything interesting", "I just watched television" or "that's all", it is not a competition. Instead share the most interesting detail, for example what television show you watched, book you are reading, video game you played or what recipe you cooked.
 1. Sequence of asking people is in order of joining the company, same as on the [team page](https://about.gitlab.com/team/). If there are non-team page people in the call we end with those.
-1. It is OK with talk over people or interrupt people to ask questions, cheer for them or show your compassion. This to encourage more conversation and feedback in the call.
+1. It is OK to talk over people or interrupt people to ask questions, cheer for them or show your compassion. This to encourage more conversation and feedback in the call.
 1. Please look if the person you hand over to is present in the participant list so you don't hand over to someone who is not present.
 1. Last person wishes everyone a good day.
-1. Even if you cannot join the call, read through the team agenda and the links from there. We often use the team call to make announcements or
-discuss changes in processes, so make sure to catch up on the news if you have missed a team call (or more).
+1. Even if you cannot join the call, consider reviewing the recorded call or at minimum read through the team agenda and the links from there. We often use the team call to make announcements or discuss changes in processes, so make sure to catch up on the news if you have missed a team call (or more).
+
+### Random Chat and Room<a name="random-room"></a>
+
+1. The [#random](https://gitlab.slack.com/archives/random) chat channel is your go-to place to share random ideas, pictures, articles, and more. It's a great channel to check out when you need a mental break.
+1. Come hang out any time in the **random room**, an open Google Hangout video chat where anyone with a GitLab email address can come and leave as they please. The link is in the description of the `#random` chat channel; consider bookmarking it.
 
 ### Scheduling meetings<a name="scheduling-meetings"></a>
 
@@ -410,52 +417,49 @@ intellectual property violations
 
 ## Spending Company Money<a name="spending-company-money"></a>
 
+In keeping with our values of results, freedom, efficiency, frugality, and boring solutons, we expect team members to take responsibility to determine what they need to purchase or expense in order to do their jobs effectively. We don't want you to have to wait with getting the items that you need to get your job done. You most likely know better than anyone else what the items are that you need to be successful in your job. The guidelines below describe what people in our team commonly expense.
+
 1. Spend company money like it is your **own** money.
-1. You don't have to ask permission before making purchases in the interest of the
-company. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
-1. **File** your expense report no later than 7 days after the end of the calendar quarter that you made the purchase in.
-1. Any non-company expenses paid with a company credit card will have to be reported
-to your manager as soon as possible and **refunded** in full within 14 days.
-1. **Mileage** is reimbursed according to local law: [US rate per mile](http://www.irs.gov/Tax-Professionals/Standard-Mileage-Rates),
-or [rate per km](http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/auto_en_vervoer/auto_van_de_onderneming/autokosten/u_rijdt_in_uw_eigen_auto) in the Netherlands.
-1. The company will pay for the following **items** if you need it for work or use
-it mainly for business, and local law allows us to pay for it without incurring
-payroll taxes (links are to sample items, other options can be considered):
-    *  Notebook: we recommend getting a [MacBook Pro 13-inch retina with 512GB](http://www.apple.com/shop/buy-mac/macbook-pro) for engineers and a [Macbook 256GB](http://www.apple.com/shop/buy-mac/macbook-pro) for non-engineers. Running Unix makes it easier to work with git from the command line so we strongly recommend against Windows laptops. WebEx screen sharing does not work from a Linux platform while it is one of the more common conferencing tools used with customers that we all need to interact with from time to time. Additionally 1password doesn't have a native client for Linux and the web interface in Firefox is not that good. If you have strong reasons to want to deviate from this guideline just ask your manager.
+1. You don't have to ask permission before making purchases **in the interest of the company**. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
+1. It is uncommon for you to need all of the items listed below, use your best judgement and buy them as you need them. If you wonder if something is common, feel free to ask People Ops (and in turn, People Ops should update the list).
+1. It is generally easiest and fastest for you to make the purchases yourself, but feel free to reach out to People Ops if you would like help in acquiring some items.
+1. Employees: file your expense report no later than 7 days after the end of the calendar quarter that you made the purchase in. Contractors: include receipts with your invoices.
+1. Any non-company expenses paid with a company credit card will have to be reported to your manager as soon as possible and **refunded** in full within 14 days.
+1. **Items.** The company will pay for the following items if you **need it for work or use it mainly for business**, and local law allows us to pay for it without incurring payroll taxes. Items paid for by the company are property of the company and need to be reported with serial numbers etc. to People Ops for proper asset tracking (TODO: describe asset tracking in more detail and link from here). Links in the list below are to sample items, other options can be considered:
+    *  Notebook: we recommend getting a [MacBook Pro 13-inch retina with 512GB of storage and 16GB of memory](http://www.apple.com/shop/buy-mac/macbook-pro) for engineers and a [Macbook 256GB](http://www.apple.com/shop/buy-mac/macbook-pro) for non-engineers. Running Unix makes it easier to work with git from the command line so we strongly recommend against Windows laptops. WebEx screen sharing does not work from a Linux platform while it is one of the more common conferencing tools used with customers that we all need to interact with from time to time. Additionally 1password doesn't have a native client for Linux and the web interface in Firefox is not that good. If you have strong reasons to want to deviate from this guideline just ask your manager.
     *  [Notebook carrying bag](http://www.amazon.com/Under-Armour-Hustle-Backpack-Royal/dp/B00OQSL6LO/ref=sr_1_27?s=office-products&ie=UTF8&qid=1458505246&sr=1-27&keywords=laptop+backpack)
     *  External [monitor](http://www.amazon.com/gp/product/B009C3M7H0?psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s00), [monitor-cable](http://www.amazon.com/Monoprice-32AWG-Mini-DisplayPort-Cable/dp/B0034X6SCY/ref=sr_1_1?ie=UTF8&qid=1442231319&sr=8-1&keywords=Monoprice+6ft+32AWG+Mini+DisplayPort+to+DisplayPort+Cable+-+White),
-    * [webcam](http://www.amazon.com/Microsoft-LifeCam-HD-6000-Webcam-Notebooks/dp/B00372567A/ref=sr_1_88?s=pc&rps=1&ie=UTF8&qid=1458505751&sr=1-88&keywords=webcam&refinements=p_85%3A2470955011%2Cp_72%3A1248879011) and ethernet connector
+    *  [Webcam](https://www.amazon.com/gp/product/B004YW7WCY/)
+    *  [Ethernet connector](https://www.amazon.com/gp/product/B00FFJ0RKE)
     *  [Headset](http://www.amazon.com/Microsoft-LifeChat-LX-3000-Headset-JUG-00013/dp/B00906E03I?ie=UTF8&keywords=microsoft%20headset&qid=1459468311&ref_=sr_1_1&sr=8-1)
-    * Keyboard and mouse [set](http://www.amazon.com/Logitech-Wireless-Combo-Mk520-Keyboard/dp/B003VANO7C/ref=sr_1_31?ie=UTF8&qid=1458505505&sr=8-31&keywords=keyboard)
+    *  Keyboard and mouse [set](http://www.amazon.com/Logitech-Wireless-Combo-Mk520-Keyboard/dp/B003VANO7C/ref=sr_1_31?ie=UTF8&qid=1458505505&sr=8-31&keywords=keyboard)
     *  Height adjustable [desk](http://www.amazon.com/ApexDesk-Electric-Height-Adjustable-Standing/dp/B00WRJMYPG/ref=sr_1_40?s=office-products&ie=UTF8&qid=1458506071&sr=1-40&keywords=desk)
     *  Ergonomic [chair](http://www.amazon.com/dp/B00S7EMFN6?psc=1)
+    *  Work-related books
+    *  Mobile phone, we commonly pay for an iPhone SE if you travel a lot as a Developer Advocate.
+    *  Something else? No problem, and consider adding it to this list if others can benefit as well.
+1. **Expenses.** The company will reimburse for the following expenses if you need it for work or use it mainly for business, and local law allows us to pay for it without incurring taxes:
+    *  Mileage is reimbursed according to local law: [US rate per mile](http://www.irs.gov/Tax-Professionals/Standard-Mileage-Rates), or [rate per km](http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/auto_en_vervoer/auto_van_de_onderneming/autokosten/u_rijdt_in_uw_eigen_auto) in the Netherlands.
     *  Internet connection, for employees in the Netherlands see [Regeling Internet Thuis](https://docs.google.com/a/gitlab.com/document/d/1J70geARMCjRt_SfxIY6spdfpTbv_1v_KDeJtGRQ6JmM/edit#heading=h.5x5ssjstqpkq)
-    *  Mobile phone and subscription
-    *  Telephone land line
-    *  Skype calling credit, we can autofill your account
+    *  Mobile subscription, we commonly pay for that if you call a lot as a salesperson or executive.
+    *  Telephone land line (uncommon, except for positions that require a lot of phone calls)
+    *  Skype calling credit, we can autofill your account (uncommon, since we mostly use Google Hangouts, BlueJeans, and WebEx)
     *  Google Hangouts calling credit
     *  Office space (if working from home is not practical)
     *  Work-related online courses
-    *  Work-related books
-    *  Work-related conferences (please get permission in advance if total costs are more than $500)
+    *  Work-related conferences (please get permission from your manager in advance if total costs are more than $500)
     *  Business travel upgrades per return trip (i.e. not per each leg of the flight):
         * Up to the first [EUR 300](https://www.google.com/search?q=300+eur+in+usd) for an upgrade to Business Class on flights longer than 8 hours.
         * Upgrade to Economy Plus if you’re taller than 1.95m / 6’5” for flights longer than 2 hours.
         * Up to the first [EUR 100](https://www.google.com/search?q=100+eur+in+usd) for an upgrade to Economy Plus (no height restriction) on flights longer than 8 hours.
-    * Anything else you need? Please ask!
-    * To order please send a screenshot of what you need to People Ops.
+    *  Something else? No problem, and consider adding it to this list if others can benefit as well.
+
 1. **Expense Reimbursement**
     *  If you are a contractor, please submit an invoice with receipts attached to <ap@gitlab.com>.
-    *  If you are an employee, GitLab uses Expensify to facilitate the reimbursement of your expenses.
-    You will receive an invitation by email to join GitLab's account. Please set up your account
-    by following the instructions in the invitation.
+    *  If you are an employee, GitLab uses Expensify to facilitate the reimbursement of your expenses. As part of onboarding you will receive an invitation by email to join GitLab's account. Please set up your account by following the instructions in the invitation.
     *  If you are new to Expensify and would like a brief review, please see [Getting Started](http://help.expensify.com/getting-started/)
-    *  For step by step instructions on creating, submitting and closing a report
-    please see [Create, Submit, Close](http://help.expensify.com/reports-create/)
-    *  If you are an employee with a company credit card, your company
-    credit card charges will automatically be fed to a new Expensify report each month.
-    Please attach receipts for these expenses (per the Expense Policy, see below) within 5 business days after the end of the month.
-    These amounts will not be reimbursed to you but Expensify provides a platform for documenting your charges correctly.
+    *  For step by step instructions on creating, submitting and closing a report please see [Create, Submit, Close](http://help.expensify.com/reports-create/)
+    *  If you are an employee with a company credit card, your company credit card charges will automatically be fed to a new Expensify report each month. Please attach receipts for these expenses (per the Expense Policy, see below) within 5 business days after the end of the month. These amounts will not be reimbursed to you but Expensify provides a platform for documenting your charges correctly.
    * **Expense Policy**
       * Max Expense Amount - 5,000 USD or 5,000 EUR
       * Receipt Required Amount - 25 USD or 25 EUR
@@ -481,18 +485,19 @@ page for information on how to handle scheduled leave for someone from the [on-c
 
 The following incentives are available for GitLab team members.
 
-### Sales Target Dinner Bonus<a name="sales-target-dinner"></a>
+### Sales Target Dinner Evangelism Reward<a name="sales-target-dinner"></a>
 
 Since reaching sales targets is a team effort that integrates everything from making a great product
 to providing top notch customer support and everything in between, we reward all
-team members for every month that we reach our Sales Targets. The reward is [100 USD](https://www.google.com/search?q=100+usd+in+eur)
-to each team member, towards a dinner of each team member's own choice. Enjoy!
+team members for every month that we reach our Sales Targets. The incentive is [100 USD](https://www.google.com/search?q=100+usd+in+eur)
+to each team member for the purpose of evangelizing the GitLab story.  You may use the incentive at a restaurant of your choice. Enjoy!
 
 - The CEO, or CRO will announce on the team call if the target was met.
-- To claim the bonus, please submit your receipt through Expensify or include on your contractor invoice as a reimbursable expense.
-- You should spend the bonus on eating out, and can be reimbursed _up to_ the maximum of 100 USD.
-- Use the bonus in the month following the announcement. So for example, if we reach our target in March, use your bonus in April.
-- If you cannot, or decide not to, use the bonus in the expected month, you can carry it over to the next month by notifying Accounts Payable before the 22nd of the month (release day!). You can only carry over one month in this way.
+- To claim the incentive, please submit your receipt through Expensify or include on your contractor invoice as a reimbursable expense.
+- Indicate on your receipt and in the comment section in expensify "GitLab evangelism" and the names of the other particpants.
+- You should spend the incentive on eating out, and can be reimbursed _up to_ the maximum of 100 USD.
+- Use the incentive in the month following the announcement. So for example, if we reach our target in March, use your incentive in April.
+- If you cannot, or decide not to, use the incentive in the expected month, you can carry it over to the next month by notifying Accounts Payable before the 22nd of the month (release day!). You can only carry over one month in this way.
 
 
 ### Discretionary Bonuses<a name="discretionary-bonuses"></a>
@@ -672,6 +677,10 @@ BTW Trying to set this up via Google+ via [https://plus.google.com/hangouts/onai
 
 [Quitter](https://marco.org/apps) will switch off apps for you after some period of inactivity. Consider using this to hide Slack after a while to reduce your urge to check new messages all the time.
 
+### TripMode
+
+[TripMode](https://www.tripmode.ch/) lets you control which apps can use the internet. Especially useful when you're working on a cellular/metered connection.
+
 ### Check which process occupies a given port
 
 When the GitLab Development Kit cannot start using the `./run` command and
@@ -683,6 +692,10 @@ this command in your `.bash_profile` or equivalent for your shell.
 ### MobileDay
 
 If you install [MobileDay](https://mobileday.com/) on your phone and give it access to your Google Calendar it can dial into conference calls for you. It is very good at detecting the number and password from the calendar invite.
+
+### Do NOT Use<a name="do-not-use"></a>
+
+**Flash**: Due to security flaws, we strongly recommend _not_ using Adobe Flash. Certainly do not install it on your local machine. But even the Google Chrome plugin that let's you see embedded Flash content in websites can pose a security hazard. If you have not already, go to your [Chrome plugins](chrome://plugins) and disable Flash. For further context, note that [Google Chrome is removing Flash support soon](https://nakedsecurity.sophos.com/2016/05/18/yet-more-bad-news-for-flash-as-google-chrome-says-goodbye-sort-of/), and while the [plugin is better than a local install of Flash](http://security.stackexchange.com/questions/98117/should-flash-be-disabled-or-are-sandboxes-secure-enough), it still leaves vulnerabilities for [zero-day attacks](http://www.pctools.com/security-news/zero-day-vulnerability/).
 
 ## Using Git to update this website<a name="starting-with-git"></a>
 

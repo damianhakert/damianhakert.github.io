@@ -1,9 +1,9 @@
 ---
-layout: markdown_page
+layout: job_page
 title: "Business Development Team Lead - Outbound Team"
 ---
 
-You have experience in sales or business development helping people get started with a technical product. As the first member of our outbound business development team, your job is three-fold: Generate and prospect leads for the sales team, (2) lead and train other members of the outbound business development team, and (3) take on operational and administrative tasks to help the business development team perform. 
+You have experience in sales or business development helping people get started with a technical product. As the first member of our outbound business development team, your job is three-fold: Generate and prospect leads for the sales team, (2) lead and train other members of the outbound business development team, and (3) take on operational and administrative tasks to help the business development team perform.
 
 ## Responsibilities
 
@@ -22,7 +22,6 @@ You have experience in sales or business development helping people get started 
 
 ## Requirements
 
-* Work remotely from anywhere in the world (Curious to see what that looks like? Check out our <a href="https://about.gitlab.com/2015/04/08/the-remote-manifesto/" target="_blank">remote manifesto</a>!)
 * Excellent spoken and written English
 * Experience in sales, marketing, or customer service for a technical product - leadership experience is highly preferred.
 * Experience with CRM software (Salesforce preferred)
@@ -31,3 +30,4 @@ You have experience in sales or business development helping people get started 
 * Is your college degree in French foreign politics with a minor in interpretive dance but you’ve been selling and marketing products since you were 12? Perfect. We understand that your college degree isn’t the only thing that prepares you as a potential job candidate.
 * You are obsessed with making customers happy. You know that the slightest trouble in getting started with a product can ruin customer happiness.
 * Be ready to learn how to use GitLab and Git
+* You share our [values](/handbook/#values), and work in accordance with those values.

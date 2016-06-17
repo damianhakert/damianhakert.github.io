@@ -1,5 +1,6 @@
 require 'generators/direction.rb'
 require 'generators/release_list.rb'
+require 'extensions/breadcrumbs.rb'
 
 ###
 # Page options, layouts, aliases and proxies
@@ -41,6 +42,8 @@ activate :autoprefixer do |config|
   config.browsers = ['last 2 versions', 'Explorer >= 9']
 end
 
+activate :breadcrumbs, wrapper: :li, separator: '', hide_home: true, convert_last: false
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
@@ -73,6 +76,16 @@ helpers do
 
   def markdown(text)
     Tilt['markdown'].new { text }.render
+  end
+
+  def open_jobs
+    data.jobs.select(&:open).sort_by(&:title)
+  end
+
+  def job_for_current_page
+    open_jobs.detect do |job|
+      job.description.start_with?("/#{File.dirname(current_page.request_path)}")
+    end
   end
 end
 

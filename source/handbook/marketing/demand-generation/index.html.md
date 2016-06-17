@@ -76,7 +76,13 @@ The Demand Generation organization includes Demand Generation, Business Developm
         => when converting a qualified lead, make sure that you are creating an opportunity upon conversion. This is required to map the BDR to the opportunity.  It also helps us to track the age of an opportunity from discovery call to closed.
 
         => if the lead is not a new opportunity, convert to a contact and uncheck the box to create a new opportunity.
-* MQL is any lead with a lead score of 20 or greater in Marketo (lead score is calculated based on behavioral and demographic data).
+* MQL is any lead with a lead score of 20 or greater in Marketo (lead score is calculated based on behavioral and demographic data). Some examples of bahavior or demographic data that increase lead score are:
+   * Signing up to receive the newsletter (behavioral)
+   * Signing up for an account on gitlab.com (behavioral)
+   * Filling out other web forms (contacts us, webinar registration, etc) (behavioral)
+   * Starting an EE Trial (behavioral)
+   * Working at a Fortune 500 (demographic)
+   * Job title (demographic)
 
 ## Lead status<a name="leadStatus"></a>
 
@@ -153,6 +159,7 @@ Current state
 - If an email is a quote, forward to appropriate sales people.
 - If an email is a refund or other billing request, forward to ar@gitlab.com.
 - If an email is a license issue or question, forward to support@gitlab.com.
+- If an email is received(contact request, account questions, etc. etc.), check in sfdc if there is an account owner. If there is, forward the email to the owner and change the case into their name if there is an open case. If the account owner is Chad or Hank, this is the default. Forward all inquiries/requests to Chad and he will take care of them. Also switch the sfdc case into Chad's name as well.
 
 ## Newsletters<a name="newsletters"></a>
 
