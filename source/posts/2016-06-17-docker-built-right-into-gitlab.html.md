@@ -68,7 +68,7 @@ and deployment workflows.
 
 ### Scaling our Tests
 
-All of our source branches for GitLab are [tested](https://gitlab.com/gitlab-org/gitlab-ce/builds)
+All of our source branches for GitLab are [tested](https://gitlab.com/gitlab-org/gitlab-ce/pipelines)
 using GitLab CI. We switched our builds to use the autoscaled Docker executor when
 we released support for it in GitLab CI back in March.
 
