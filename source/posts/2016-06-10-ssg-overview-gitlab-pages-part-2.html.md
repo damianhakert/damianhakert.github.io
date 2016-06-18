@@ -21,7 +21,7 @@ the subject.
 The previous post was [**Part 1: Dynamic x Static Websites**][part-1], where we briefly explained
 the differences between them, and their pros and cons.
 
-Stay tuned for the next post: **Part 3: Build any SSG site with GitLab Pages**!
+Stay tuned for the next post: **[Part 3: Build any SSG site with GitLab Pages][part-3]**!
 
 **Note:** For this series, we assume you are familiar with web development, curious about
 Static Site Generators, and excited to see your site getting deployed with GitLab Pages.
@@ -350,7 +350,7 @@ Hopefully now you understand the logic of Static Site Generators, how we can use
 and what we can and cannot do with them. Dynamic websites are great, for sure. 
 But if we don't need all their functionality, SSGs are certainly wonderful alternatives.
 
-In the third post, which is the last chapter of this series, we will bring you a lot of examples
+In the [third post][part-3], which is the last chapter of this series, we will bring you a lot of examples
 for SSGs already running on GitLab Pages. Therefore, we're confident you'll be able to see and 
 understand different GitLab CI configurations, and create your own.
 
@@ -367,9 +367,9 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 
 - [GitLab Pages Quick Start][pages] - learn how to get started with GitLab Pages by forking an existing project
 - [GitLab Pages on GitLab.com][post-pages] - learn how to setup a GitLab Pages project from strach
-- [SSGs Part 1: Static vs Dynamic Websites][part-1] - the first post of this series
 - [GitLab Pages Docs][pages-ee] - the official documentation with all the details you might be interested in
-
+- [SSGs Part 1: Static vs Dynamic Websites][part-1] - the first post of this series
+- [SSGs Part 3: Build any SSG site with GitLab Pages][part-3] - the first post of this series
 
 <!-- Cover image: https://unsplash.com/photos/6g0KJWnBhxg -->
 
@@ -378,6 +378,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 <!-- Alphabetical, miscellaneous -->
 
 [part-1]: /2016/06/03/ssg-overview-gitlab-pages-part-1-dynamic-x-static/
+[part-3]: /2016/06/17/ssg-overview-gitlab-pages-part-3-examples-ci/
 
 [AdSense]: https://support.google.com/adsense/answer/181950
 [Adwords]: https://support.google.com/adwords/answer/6331314
