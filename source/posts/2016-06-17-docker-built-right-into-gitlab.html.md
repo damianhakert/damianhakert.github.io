@@ -45,7 +45,19 @@ lightweight nature makes it easy to scale our CI tasks.
 <!-- Talk about Docker use in CI, for build and test concurrency -->
 
 ### GitLab CI autoscaling with Docker Machine
-<!-- Talk about auto-scaling using Docker Machine -->
+
+The GitLab CI Runners also support autoscaling, which allows us to provision and
+manage multiple remote Docker hosts. We built autoscaling with the help of [Docker Machine](https://docs.docker.com/machine/).
+Docker Machine supports a vast number of [virtualization and cloud providers](https://docs.docker.com/machine/drivers/).
+
+Because the Runners will autoscale, our infrastructure contains only as many
+build instances as necessary. The autoscaling feature promotes heavy
+parallelization of our tests, so they run quickly. The machines we don't
+need are shut down, so we only need to pay for what we are using.
+
+Check out our [autoscale runners release blog post](https://about.gitlab.com/2016/03/29/gitlab-runner-1-1-released/#autoscaling-increases-developer-happiness)
+for more information on how we've found autoscaling to increase developer
+happiness.
 
 ### An integrated Docker Registry
 
