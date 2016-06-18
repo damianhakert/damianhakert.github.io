@@ -41,8 +41,21 @@ lightweight nature makes it easy to scale our CI tasks.
 ## Docker built right into GitLab
 
 ### A GitLab CI Docker executor
-<!-- How GitLab CI started scaling with Docker -->
-<!-- Talk about Docker use in CI, for build and test concurrency -->
+
+[GitLab CI](/gitlab-ci) is our continuous integration feature, built right into
+GitLab. It allows us to run several tasks against our code as we develop
+and deploy our applications. These tasks are run by something called a [Runner](http://doc.gitlab.com/ce/ci/runners/README.html)
+which processes builds.
+
+In 2015 the community created a Runner which supported running tasks using a
+Docker executor. This soon became our [officially supported Runner](https://about.gitlab.com/2015/05/03/unofficial-runner-becomes-official/).
+It runs tasks concurrently, which was a big win.
+
+This new Runner was built with Docker support right from the beginning because
+Docker provides an easy way for us to run each task in a fresh clean environment,
+without any leftovers from previous builds. It also takes care of downloading and
+installing our build dependencies for us. Because of this, using the Docker
+executor in GitLab CI is our _recommended_ approach for running most tasks.
 
 ### GitLab CI autoscaling with Docker Machine
 
