@@ -110,4 +110,9 @@ other improvements to fix these problems, but we expect to be able to quickly an
 concurrently build our packages when it is all done. Feel free to
 [track our progress](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1232).
 
-<!-- Conclusion? -->
+## GitLab <3s Docker
+
+As you can see, providing a GitLab Docker image was just the beginning of our
+Docker obsession. Building Docker directly into GitLab CI, and adding a deeply
+integrated Docker Registry into GitLab CE, is helping us to build and test GitLab
+quicker and more often. We hope it's helping you too!
