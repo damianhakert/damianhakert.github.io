@@ -1,5 +1,5 @@
 ---
-title: "Docker at GitLab"
+title: "Docker built right into GitLab"
 author: DJ Mountney
 author_twitter: twk3
 categories:
@@ -15,7 +15,7 @@ In those years we have pushed over 100 CE and EE docker images to [Docker Hub](h
 and have built new features like GitLab CI with [built-in Docker support](http://docs.gitlab.com/ce/ci/docker/using_docker_images.html),
 helping us (and you!) to test and build our applications easier and faster.
 
-Read on for more details on how GitLab uses Docker to scale.
+Read on for more details on how we scale GitLab by having Docker built in.
 
 <!-- more -->
 
@@ -38,15 +38,31 @@ container provider for our users, and is well supported.
 For use within GitLab CI, we chose it because it is easy to manage and its
 lightweight nature makes it easy to scale our CI tasks.
 
-## How GitLab CI started scaling with Docker
+## Docker built right into GitLab
 
+### A GitLab CI Docker executor
+<!-- How GitLab CI started scaling with Docker -->
 <!-- Talk about Docker use in CI, for build and test concurrency -->
 
-## GitLab CI adds autoscaling with Docker Machine
+### GitLab CI autoscaling with Docker Machine
 <!-- Talk about auto-scaling using Docker Machine -->
 
-## A built-in Docker Registry
-<!-- Talk about the addition of the Docker Registry to GitLab -->
+### An integrated Docker Registry
+
+[GitLab Container Registry](http://docs.gitlab.com/ce/administration/container_registry.html)
+is a secure and private registry for Docker images. Built on [open source software](https://github.com/docker/distribution),
+GitLab Container Registry isn't just a standalone registry; it's _completely_
+integrated with GitLab.
+
+The registry is the place to store and tag images for later use. Developers may
+want to maintain their own registry for private, company images, or for
+throw-away images used only in testing. Using GitLab Container Registry means
+you don't need to set up and administer yet another service, or use a public
+registry.
+
+Check out our [announcement blog post](https://about.gitlab.com/2016/05/23/gitlab-container-registry/)
+for more details on how the GitLab Container Registry simplify your development
+and deployment workflows.
 
 ## How we continue to scale using Docker
 
