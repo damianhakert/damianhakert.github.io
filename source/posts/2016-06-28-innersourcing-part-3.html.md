@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Innersourcing Part 3: Innersourcing" # akward? how about just \"Innersourcing (Part 3)\
+title: "Innersourcing Part 3: Innersourcing" # awkward? how about just \"Innersourcing (Part 3)\"
 date: 2016-06-28 08:00:00
 comments: true
 categories: technical overview
