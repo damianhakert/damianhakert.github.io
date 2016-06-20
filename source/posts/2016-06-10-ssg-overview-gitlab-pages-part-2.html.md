@@ -369,7 +369,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 - [GitLab Pages on GitLab.com][post-pages] - learn how to setup a GitLab Pages project from strach
 - [GitLab Pages Docs][pages-ee] - the official documentation with all the details you might be interested in
 - [SSGs Part 1: Static vs Dynamic Websites][part-1] - the first post of this series
-- [SSGs Part 3: Build any SSG site with GitLab Pages][part-3] - the first post of this series
+- [SSGs Part 3: Build any SSG site with GitLab Pages][part-3] - the third post of this series
 
 <!-- Cover image: https://unsplash.com/photos/6g0KJWnBhxg -->
 
