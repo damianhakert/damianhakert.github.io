@@ -72,50 +72,8 @@ Thank you!
 
 We appreciate your participation.
 
-## Template Invitation Letter for visa purposes <a name="disclaimer"></a>
+## Template Invitation Letter for visa purposes <a name="invitation-letter"></a>
 
-Fields to fill in:
-{GitLab Address}<br>
-{Address of US Consulate/Embassy}<br>
-{Date of issue}<br>
-{Passport #}<br>
-{Mr/Ms. Last name team member}<br>
-{Job title}<br>
-{type of task}<br>
-{Job description link}<br>
-{event}<br>
-{event location}<br>
-{start date event}<br>
-{end date event}<br>
-{GitLab Authorized Phone}<br>
-{GitLab Authorized Signatory}<br>
-{GitLab Authorized Title}<br>
-{GitLab Authorized Email}
+When traveling to the USA for GitLab related business, the following invitation letter may need to be presented to your local US embassy. Contact the People Ops team to get the details right, and have it signed by someone in the executive team.
 
-
-From:	GitLab Inc.
-{GitLab Address}
-
-To:	The U.S. Consulate General
-{Address of US Consulate/Embassy}
-
-Date:	{Date of issue}
-
-Reference: Business Invitation for {Mr/Ms. Last name team member} {Passport #}
-
-
-To whom it may concern,
-
-{Mr/Ms. Last name team member} is currently contracted by GitLab B.V., which is a wholly owned subsidiary of GitLab Inc. (collectively, “GitLab”) as a {Job title}, carrying out general {type of task} tasks as detailed on {Job description link}.
-
-GitLab has invited {Mr/Ms. Last name team member} to join our {event} which takes place in {event location} from {start date event} to {end date event}. While visiting the {event} in {event location}, {Mr/Ms. Last name team member} will be attending business discussions and team building events with the GitLab team. All expenses for this trip are paid for by GitLab, including travel, lodging, meals, and team activities. {Mr/Ms. Last name team member} is welcome to have his/her spouse join him/her at their own expense.
-
-I will be the contact person for {Mr/Ms. Last name team member} during his visit with us in {event location}. If you have any questions, please do not hesitate to contact me on {GitLab Authorized Phone}
-
-
-With kind regards,
-
-
-{GitLab Authorized Signatory}<br>
-{GitLab Authorized Title}<br>
-{GitLab Authorized Email}
+- [Visa invitation letter](https://docs.google.com/document/d/1bKJYdhae5xSFp6wafF4FrfBgXmVgFpiinCJabV5BH-Y/edit)
