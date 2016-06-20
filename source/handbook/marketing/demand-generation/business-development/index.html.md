@@ -7,11 +7,11 @@ BDR Handbook
 [Up one level to the Demand Generation Handbook](/handbook/marketing/demand-generation/)    
 
 ## On this page
-* [BDR FAQ's](#FAQ)  
+* [Customer FAQ's](#FAQ)  
+* [Variable Compensation Guidelines](#compensation) 
+* [Vacation Incentives](#vacation)
 
-
-
-## BDR FAQ's<a name="FAQ"></a>  
+## Customer FAQ's<a name="FAQ"></a>  
 
 
 BDRs are frequently asked the following questions in some form or another:  
@@ -38,3 +38,34 @@ BDRs are frequently asked the following questions in some form or another:
 - Do you provide any reseller discounts?
 - There are some EE features we would like to use, but not all of them - can we pay per feature and add them to CE?
 - How is GitLab.com backed up and secured?
+
+## Variable Compensation Guidelines<a name="compensation"></a>
+
+Full-time BDRs have a significant portion of their pay based on performance and objective attainment. Performance based "bonuses" are based on results. Actions for obtaining results will be prescribed and measured, but are intentionally left out of bonus attainment calculations to encourage experimentation. BDRs will naturally be drawn to activities that have the highest yield, but freedom to choose their own daily activities will allow new, higher yield activities to be discovered.
+
+Guidelines for bonuses:
+* Team and individual objectives are based on GitLab's revenue targets and adjusted monthly. 
+* Bonuses are paid quarterly.
+* Bonuses may be based on various objectives
+    * E.g. a new BDR's first month's bonus is typically based on completing <a href="https://about.gitlab.com/handbook/general-onboarding/" target="_blank">onboarding</a>
+    * Bonuses may be tied to sales target attainment, <a href="https://about.gitlab.com/handbook/marketing/#okrs" target="_blank">OKRs</a>, or other objectives.
+
+## BDR Vacation Incentives<a name="vacation"></a>
+
+Note: this is a new, experimental policy started in June 2016: changes and adjustments are expected
+
+At GitLab, we have an <a href="https://about.gitlab.com/handbook/#paid-time-off" target="_blank">unlimited time off policy</a>. The business development team has additional incentives for taking time off:
+1. The first 5 business days taken off by a BDR in a calendar year prorates their target by 100%, rounded up (i.e. reduces the BDR's target by the period's target divided by the number of business days in the period, times the number of days taken off).
+2. The second 5 business days are prorated by 50%, rounded up if applicable
+3. The third 5 business days are prorated by 25%, rounded up if applicable
+
+E.g. A BDR with a target of 200 opportunities in a January with 20 business days can reduce that month's target to 190 by taking 1 day off, 150 by taking 5 days off, 125 by taking 10 days off, or 113 by taking 15 days off.
+
+Rules and qualifications for BDR Vacation Incentives:
+
+* BDRs must give notice 30 days ahead of intended time off to by the Team Lead and Senior Demand Generation Manager (and ensure they acknowledge receipt within 48 hours)
+* BDRs must add intended time off to the availability calendar
+* Prorated days can be deferred (i.e. take PTO without prorating the target), but are lost at the end of the year. Incidentally, the math usually works out in favor of not deferring.
+* BDRs can take additional vacation days (see <a href="https://about.gitlab.com/handbook/#paid-time-off" target="_blank">GitLab PTO policy</a>), but time off beyond 15 days will not adjust targets.
+
+With <a href="https://about.gitlab.com/handbook/#paid-time-off" target="_blank">GitLab's PTO policy</a>), there's no need to give notice or ask permission to take time off. Unfortunately, a quota carrying BDR can expect to lose some earning potential for taking PTO, which often leads to BDRs not taking vacation. Another problem with unlimited PTO is that management loses forecasting power when BDRs take unexpected PTO, making it tempting for leadership to discourage vacation. We hope that this additional vacation incentive for the team acts as a balancing incentive to both parties by (a) providing a prorated quota for BDRs who plan ahead and (b) helping leadership plan and forecast better without discouraging vacation.
