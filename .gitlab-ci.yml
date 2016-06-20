@@ -17,7 +17,7 @@ build:
     - bundle exec rake build pdfs
   artifacts:
     paths:
-      - public/  
+      - public/
 
 deploy:
   dependencies:
@@ -25,6 +25,7 @@ deploy:
   script:
     - rsync --delete -r public/ ~/public/
   type: deploy
+  environment: production
   tags:
   only:
     - master
