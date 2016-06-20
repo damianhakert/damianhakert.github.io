@@ -1,5 +1,5 @@
 ---
-title: "Docker built right into GitLab"
+title: "How we scale GitLab by having Docker built in"
 author: DJ Mountney
 author_twitter: twk3
 categories:
