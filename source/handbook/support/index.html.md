@@ -97,10 +97,12 @@ That is why some channels are combined.
 Support often gets requests from gitlab.com users to release a username. 
 This can be implemented if the following criteria are met:
 
-1. There hasn't been any activity on the account (i.e. code, issues, MR)
-   for six months. 
-1. There should be at least two attempts per week for two weeks made to 
-   contact the user.  
+1. The account in question has no data. 
+1. There hasn't been any activity on the account (i.e. code, issues, MRs)
+   for six months. This considers activity on projects the account owns 
+   as well as activity on projects the account participants in. 
+1. Support has had four failed attempts to  contact the user within a 
+ two week period.   
 1. The user cannot be an owner of any active project.
 
 Usernames will be prefixed with `idle` to keep the account active but 
