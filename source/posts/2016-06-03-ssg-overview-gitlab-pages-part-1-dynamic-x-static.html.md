@@ -17,8 +17,8 @@ This is **Part 1: Dynamic vs Static Websites**, where we go over their differenc
 
 Stay tuned for the next two posts:
 
-- **Part 2: Modern Static Site Generators**
-- **Part 3: Build any SSG site with GitLab Pages**
+- **[Part 2: Modern Static Site Generators][part-2]**
+- **[Part 3: Build any SSG site with GitLab Pages][part-3]**
 
 **Note:** For this series, we assume you are familiar with web development, curious about Static Site Generators, and excited to see your site getting deployed with GitLab Pages.
 {: .note}
@@ -88,7 +88,7 @@ Fully-featured server providers (Scheme B) have the capability of processing ser
 
 The majority of web developers don't write static sites anymore. It does take a lot more time, both to write and update, than dynamic ones. But, as previously commented, SSGs resolve this problem. We can code dynamically and the SSG outputs only static webpages for us. That's the content uploaded to our web server, in this particular case, **GitLab Pages**, which runs on NGINX.
 
-Stay tuned for the next article of this series, in which we will provide you with an overview on **Modern Static Site Generators**, explaining how they work, what they support, and why should we really consider using SSGs for our sites.
+Stay tuned for the next article of this series, in which we will provide you with an overview on **[Modern Static Site Generators][part-2]**, explaining how they work, what they support, and why should we really consider using SSGs for our sites.
 
 See you there!
 
@@ -107,6 +107,9 @@ Illustration (Static x Dynamic Websites): Marcia Ramos for GitLab, Inc.
 -->
 
 <!-- IDENTIFIERS -->
+
+[part-2]: /2016/06/10/ssg-overview-gitlab-pages-part-2/
+[part-3]: /2016/06/17/ssg-overview-gitlab-pages-part-3-examples-ci/
 
 <!-- Alphabetical, miscellaneous -->
 
