@@ -15,6 +15,7 @@ BDR Handbook
 
 
 BDRs are frequently asked the following questions in some form or another:  
+
 * I didn’t get a confirmation email, what should I do?  
 * I need to change my password, or my password change didn’t work, what should I do?  
 * I want to use [username] but it says it’s already taken, even though that user has never actually done anything on his/her account. Can you remove that user so I can get the username? 
