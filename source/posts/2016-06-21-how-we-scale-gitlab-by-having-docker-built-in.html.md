@@ -129,7 +129,7 @@ concurrently build our packages when it is all done. Feel free to
 [track our progress](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1232).
 
 ## We <i class="fa fa-heart" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> Docker
-{: #gitlab-loves-docker}
+{: #we-love-docker}
 
 As you can see, providing a GitLab Docker image was just the beginning of our
 Docker obsession. Building Docker directly into GitLab CI, and adding a deeply
