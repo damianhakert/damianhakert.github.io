@@ -244,4 +244,4 @@ Note for People Operations:
 
 ## Underperformance <a name="underperformance"></a>
 
-See [underperformance guidelines](/handbook/hiring/underperformance.html).
+See [underperformance guidelines](/handbook/underperformance).

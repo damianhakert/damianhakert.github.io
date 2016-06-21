@@ -34,7 +34,7 @@ title: "People Operations"
 
 - [Hiring process](/handbook/hiring/)
 - [Onboarding](/handbook/general-onboarding/)
-- [Underperformance](/handbook/hiring/underperformance.html)
+- [Underperformance](/handbook/underperformance)
 - [Offboarding](/handbook/offboarding/)
 - [Benefits](/handbook/benefits/)
 - [Travel](/handbook/travel/)
@@ -355,11 +355,11 @@ this seem to vary a bit between mortgage providers.
 
 ## Involuntary Terminations<a name="involuntary-terminations"></a>
 
-Involuntary termination of any team member is never easy. We've created some guidelines and information to make this process as painless and easy as possible for everyone involved. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance](/handbook/hiring/underperformance.html), as well as the [offboarding](/handbook/offboarding/) checklist.
+Involuntary termination of any team member is never easy. We've created some guidelines and information to make this process as painless and easy as possible for everyone involved. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance](/handbook/underperformance), as well as the [offboarding](/handbook/offboarding/) checklist.
 
 ### Overall process
 
-Ideally, the manager and the team member have walked through the guidelines on [underperformance](/handbook/hiring/underperformance.html) before reaching this point.
+Ideally, the manager and the team member have walked through the guidelines on [underperformance](/handbook/underperformance) before reaching this point.
 
 1. Manager: reach out to People Operations for assistance. People Ops will ask about what the performance issues have been, how they have been attempted to be addressed, and will then prepare for the termination.
 1. Manager and People Ops: discuss best mode of communicating the bad news to the team member. This discussion can happen via a private chat-channel, but it is best to be done via a video hangout. Set up a private chat-channel in any case, since this is also useful to have during the eventual call with the affected team member.

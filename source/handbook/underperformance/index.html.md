@@ -19,16 +19,17 @@ go without undertaking these steps--something we wish to avoid if possible.
 needs to improve. If there are extenuating circumstances, some leeway is
 granted, depending on the situation.
 
-2) Otherwise, manager documents a performance improvement plan (PIP) and
+2) Otherwise, manager documents a [performance improvement plan (PIP)](https://www.shrm.org/templatestools/howtoguides/pages/performanceimprovementplan.aspx) and
 shares with direct report. This plan includes:
 
    * Evaluation of current work by manager(s)
    * Clear metrics and concrete goals to improve (e.g. finish X before Y)
    * Resources/coaching necessary to achieve goals
 
-3) Team member gets time (e.g. 1-4 weeks) to demonstrate improvements. If
-insufficient improvements are made, then team member gets another chance at
-the discretion of the manager.
+The manager should consider involving People Ops to help ensure consistency in the PIP process for any affected team member, and also to help protect GitLab should legal claims arise at some point in the future. People Ops does not need to be involved in the creation of the PIP (although People Ops can help), but People Ops should be notified of what is happening.
+
+
+3) Team member gets time (e.g. 2-4 weeks; this can be longer or shorter and depends on the role and the circumstances) to demonstrate improvements and meet the goals that are outlined in the performance improvement plan. If insufficient improvements are made, the period for the performance improvement plan may be extended, at the discretion of the manager.
 
 4) Otherwise, the team member is let go or his/her contract is [cancelled](/handbook/people-operations/#involuntary-terminations).
 
