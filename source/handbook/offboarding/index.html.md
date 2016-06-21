@@ -25,7 +25,8 @@ Create issue for former team member on the dev server in the [organization issue
 * [ ] Manager: Remove access to SalesForce.
 * [ ] Manager: Remove access to Recurly.
 * [ ] Manager: Remove access to Netsuite.
-* [ ] People Ops: Remove former team member from TriNet and payroll if applicable.
+* [ ] People Ops: Remove former team member from TriNet / Savvy and payroll if applicable.
+* [ ] People Ops: Mark former team member as terminated in BambooHR. Use the date mentioned in this issue as final date of employment / contract.
 * [ ] People Ops: Reach out to former team member to identify and retrieve any company
 supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/people-operations/#returning-property)
 for further details on that process.
@@ -42,8 +43,9 @@ for further details on that process.
 * [ ] Ernst/Paul: Remove team member from HelloSign, if applicable.
 * [ ] People Ops: Remove team member from map / Sundial.
 * [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team). Don't forget to remove the profile picture.
+* [ ] People Ops: Remove team member from Egencia
+* [ ] People Ops: Remove team member from Summit planning documents, or inform the organizer.
 * [ ] Patricio/Ernst: Remove from tweetdeck
 * [ ] People Ops: Notify eShares administrator (CFO) of offboarding.
-* [ ] People Ops: Note final date of employment / contract in BambooHR.
 * [ ] Infrastructure: If the person is from infrastructure [remove the sysadmin](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/user-administration.md#remove-a-sysadmin)
 ```

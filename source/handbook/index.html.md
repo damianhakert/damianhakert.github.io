@@ -17,7 +17,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Travel](/handbook/travel)
 * [Sales Handbook](/handbook/sales)
 * [Infrastructure](/handbook/infrastructure)
-* [Accounting](/handbook/accounting)
+* [Finance](/handbook/finance)
 * [Stock Options](/handbook/stock-options)
 * [Marketing](/handbook/marketing)
 * [Security](/handbook/security)
@@ -60,38 +60,38 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 ## Values<a name="values"></a>
 
 We value results, transparency, sharing, freedom, efficiency, frugality,
-collaboration, directness, kindness, diversity, quirkiness, boring solutions, and quirkiness:
+collaboration, directness, kindness, diversity, boring solutions, and quirkiness:
 
-1. Results: We care about what you achieve; the code you shipped, the user you
+1. **Results**: We care about what you achieve; the code you shipped, the user you
 made happy, and the team member you helped. Do not compete by proclaiming how many
 hours you worked yesterday because we don't want someone who took the afternoon
 off to feel like they did something wrong. Instead celebrate the achievements of
 yourself and your teammates. We want people to have the desire to ship.
-1. Transparency: Be open about as many things as possible. By making information
+1. **Transparency**: Be open about as many things as possible. By making information
 public we can reduce the threshold to contribution and make collaboration easier.
 An example is the [public repository of this website](https://gitlab.com/gitlab-com/www-gitlab-com/)
 that also contains this [company handbook](https://about.gitlab.com/handbook/).
 Everything we do is public by default, for example the [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues) and [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues) issue takers, but also [marketing](https://gitlab.com/gitlab-com/marketing/issues) and [operations](https://gitlab.com/gitlab-com/operations/issues). Transparency creates awareness for GitLab, allows us to recruit people that care about our culture, it gets us more and faster feedback from people outside the company, and makes it easier collaborate with them.
 On a personal level you should tell it like it is instead of putting up a poker face. Don't be afraid to admit you made a mistake or were wrong. When something went wrong it is a great opportunity to say 'what’s the [kaizen](https://en.wikipedia.org/wiki/Kaizen) moment here' and find a better way without hurt feelings.
-1. Sharing: We care about giving great software, documentation, examples, lessons,
+1. **Sharing**: We care about giving great software, documentation, examples, lessons,
 and processes to the world. An example is the MIT licensed [GitLab CE](https://about.gitlab.com/features/). We believe that open source creates more value than it captures. We are grateful to our customers, users, partners, investors, and the open source ecosystem.
-1. Freedom: You should have clear objectives and the freedom to work on them as you
+1. **Freedom**: You should have clear objectives and the freedom to work on them as you
 see fit. Any instructions are open to discussion. You don't have to defend how you
 spend your day. We trust team members to do the right thing instead of having rigid rules.
-1. Efficiency: We care about working on the right things, not doing more than needed,
+1. **Efficiency**: We care about working on the right things, not doing more than needed,
 and not duplicating work. This enables us to achieve more progress with less people
 and makes our work more fulfilling. We think of how we can make the company better instead of being territorial or defensive.
-1. Frugality: [Amazon states it best](http://www.amazon.jobs/principles) with:
+1. **Frugality**: [Amazon states it best](http://www.amazon.jobs/principles) with:
 "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency
 and invention. There are no extra points for growing headcount, budget size or
 fixed expense."
-1. Collaboration: Helping others is a priority. You are expected to ask others for
+1. **Collaboration**: Helping others is a priority. You are expected to ask others for
 help and advise. Anyone can chime in on any subject. You don't have to comply with
 all feedback but you should always take it seriously. An example is the inclusion
 of people from outside GitLab Inc. in the [core team](https://about.gitlab.com/core-team/).
-1. Directness: We try to channel our inner Ben Horowitz by being [both straightforward
+1. **Directness**: We try to channel our inner Ben Horowitz by being [both straightforward
 and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b).
-1. Kindness: We don't want [jerks](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) in our team.
+1. **Kindness**: We don't want [jerks](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) in our team.
 Some companies say [Evaluate People Accurately, Not "Kindly"](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf).
 We're all for accurate assessment but we think it must be done in a kind way.
 Give as much positive feedback as you can and do it in a public way. Give negative
@@ -100,16 +100,13 @@ Clearly make negative feedback about the work itself, not the person. When givin
 feedback always provide at least one clear and recent example. If a person is
 going through a hard time in their personal life, then take that into account. An example of
 giving positive feedback is our [thanks chat channel](https://about.gitlab.com/handbook/#internal-communication).
-1. Diversity: The community consists of people from all over the world, with different
-backgrounds and opinions. Encourage hiring in a diverse set of countries. Make everyone feel welcome. Work to increase the participation
-of underrepresented minorities and nationalities in our community and company. An
-example is our sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
-1. Boring solutions: Use the most simple and boring solution for a problem. You
+1. **Diversity**: The community consists of people from all over the world, with different backgrounds and opinions. We hire globally and encourage hiring in a diverse set of countries. We work to make everyone feel welcome and to increase the participation of underrepresented minorities and nationalities in our community and company. An example is our sponsorship of [diversity events](https://about.gitlab.com/2016/03/24/sponsorship-update/).
+1. **Boring solutions**: Use the most simple and boring solution for a problem. You
 can always make it more complex later if that is needed. The speed of innovation
 for our organization and product is constrained by the total complexity we added
 so far, so every little reduction in complexity helps.
 Don't pick an interesting technology just to make your work more fun, using code that is popular will ensure many bugs are already solved and its familiarity makes it easier for others to contribute.
-1. Quirkiness: Unexpected and unconventional things make life more interesting.
+1. **Quirkiness**: Unexpected and unconventional things make life more interesting.
 Celebrate and encourage quirky gifts, habits, behavior, and points of view. An example
 is our [team call](https://about.gitlab.com/handbook/#team-call) where we spend most
 of our time talking about what we did in our private lives, from fire-throwing to
@@ -126,6 +123,7 @@ people. We try to hire people who think work is a great way to express themselve
 1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin color, gender or sexual orientation.
 1. Use **inclusive** language. For example, prefer 'Hi everybody' or 'Hi people' to 'Hi guys'.
 1. Share problems you run into, ask for help, be forthcoming with information and **speak up**.
+1. All our procedures and templates are stored in (mostly public) git repositories instead of Google/Word documents. This makes them easier to find and suggest changes to with the organization and shows our commitment to open collaboration outside the organization.
 1. Work out in the **open**, try to use public issue trackers and repositories when possible.
 1. Most things are **public** unless there is a reason not to, not public by default are: financial information, job applications/compensation/feedback and partnerships with other companies.
 1. Share solutions you find and answers you receive with the **whole community**.
@@ -136,20 +134,17 @@ people. We try to hire people who think work is a great way to express themselve
 1. We want to have a great company so if you meet people that are **better** than yourself try to recruit them to join the company.
 1. Make a conscious effort to **recognize** the constraints of others within the team. For example, sales is hard because you are dependent on another organization, and Development is hard because you have to preserve the ability to quickly improve the product in the future.
 1. Our **strategy** is detailed on the [Strategy page](https://about.gitlab.com/strategy/), please read it and contribute.
-1. For each action or comment, it helps to ask yourself (i) does this
-help the company achieve its strategic goals? (ii) is this in the company's interest,
-and finally, (iii) how can I contribute to this effort/issue in a constructive way?
+1. For each action or comment, it helps to ask yourself (i) does this help the company achieve its strategic goals? (ii) is this in the company's interest, and finally, (iii) how can I contribute to this effort/issue in a constructive way?
 1. There is no need for **consensus**, make sure that you give people that might have good insights a chance to respond (by /cc'ing them) but make a call yourself because [consensus doesn't scale](https://twitter.com/sama/status/585950222703992833).
 1. Everyone at the company cares about your **output**. Being away from the keyboard during the workday, doing private browsing or making personal phone calls is fine and encouraged.
 1. If you fix something for GitLab.com or one of our users make sure to make that the default (preferred) and **radiate** the information in the docs. We should run GitLab.com with the default settings and setup our users would also have.
 1. Everything is **always in draft** and subject to change, including this handbook. So do not delay documenting things and do not include draft in the titles of documents. Ensure everyone can read the current state, nothing will ever be finished.
-1. If you copy content please remove it at the origin place and replace it with a link to the new content. Duplicate content leads to updating it in the wrong place, keep it [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 1. Explicitly note what **next action** you propose or expect and from whom.
 1. When you **reply** to a request please do so after you have completed the request or
 indicate when you plan to do it. In the latter case always send a second message
 when the request is complete.
-1. Respect the privacy of our users and your fellow team members. Secure our production data at all times. Only work with production data when this is needed to perform your job. Looking into production data for malicious reasons (for example [LOVEINT](https://en.wikipedia.org/wiki/LOVEINT) or spying on direct messages of team members) is a fireable offense.
-1. Most guidelines in this handbook are meant to help and unless they state otherwise it is meant to help more than a absolute rule. Don't be afraid to do something because you can't oversee all guidelines. Be gentle when reminding people about these guidelines, for example say: "It is not a problem, but next time please consider the following guideline from the handbook".
+1. Respect the **privacy** of our users and your fellow team members. Secure our production data at all times. Only work with production data when this is needed to perform your job. Looking into production data for malicious reasons (for example [LOVEINT](https://en.wikipedia.org/wiki/LOVEINT) or spying on direct messages of team members) is a fireable offense.
+1. Most guidelines in this handbook are meant to help and unless they state otherwise it is meant to help more than being an absolute rule. Don't be afraid to do something because you can't oversee all guidelines. Be gentle when reminding people about these guidelines, for example say: "It is not a problem, but next time please consider the following guideline from the handbook".
 
 ## Handbook Usage<a name="handbook-usage"></a>
 
@@ -173,16 +168,17 @@ Documenting things in the handbook takes more time initially and it requires thi
 After it is merged you can talk about it during the team call if applicable. You can remind other people of this by asking 'can you please send an MR for the handbook'?
 1. Communicate process changes by linking to the **diff** (a commit that shows the changes before and after). Do not change the process first, and then view the documentation as a lower priority task. Planning to do the documentation later inevitably leads to duplicate work communicating the change and to outdated documentation. You can remind other people of this by asking 'can you please update the handbook first?'.
 1. When communicating something always include a link to the relevant (and up to date) part of the **handbook** instead of including the text in the email/chat/etc. You can remind other people of this by asking 'can you please link to the relevant part of the handbook?'.
+1. If you copy content please remove it at the origin place and replace it with a link to the new content. Duplicate content leads to updating it in the wrong place, keep it [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
 Many things can be documented in the handbook, but this will mostly be read by team members. If something can concern users of GitLab it should be documented in the [GitLab documentation](http://doc.gitlab.com/), the [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit), our [CONTRIBUTING file](https://gitlab.com/gitlab-org/gitlab-test/blob/master/CONTRIBUTING.md) or the [PROCESS file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
 
 ## Communication<a name="communication"></a>
 
-We're a **distributed**, **remote-first** company where people work remote without missing out.
+We're a **distributed**, **remote-only** company where people work remote without missing out.
 For this, we use **asynchronous communication** and are as open as we can be by communicating through public issues, chat channels,
 and placing an emphasis on ensuring that conclusions of offline conversations are written down.
 These communication guidelines are meant to facilitate smooth communication in an
-ever-growing remote-first company.
+ever-growing remote-only company.
 Please keep in mind that you represent GitLab and our culture, also on Social Media.
 When commenting on posts please keep in mind: "Don't argue but represent."
 
@@ -196,18 +192,27 @@ chat), issues are preferred over email, email is preferred over chat, announceme
 people can answer them and many people see the answer (so use issues or public
 chat channels instead of private messages or one-on-one emails) and make sure
 you try to document the answers.
-1. If you have to use email please send one email per subject as multiple items
-in one email will cause delays (have to respond to everything) or misses (forgot
-one of the items).
 1. If you mention something (a merge request, issue, commit, webpage, comment,
 etc.) please include a link to it.
+1. All company data should be **shareable** by default. Don't use a local text
+file but leave comments on an issue.
+
+**Email**
+
+1. When using email, send one email per subject as multiple items
+in one email will cause delays (have to respond to everything) or misses (forgot
+one of the items).
 1. Always reply to emails, even when no action is needed. This lets the other
 person know that you received it. A thread is done when there is a single word
 reply, such as OK, thanks, or done.
 1. If you forward an email without other comments please add FYI (for your
-information) or FYA (for your action). If you forward an external request with FYA it doesn't mean that the company should do whatever is proposed, it just means the person who forwarded it will not follow up on the request.
-1. If you want to create, or be added or removed from an internal email alias (e.g.
-`sales@gitlab.com`) please see the shared "GitLab Email Forwarding" doc.
+information) or FYA (for your action). If you forward an external request with FYA it doesn't mean that the company should do whatever is proposed, it just means the person who forwarded it will not follow up on the request themselves and expects you to do so instead.
+1. Email forwarding rules are specified in the shared "GitLab Email Forwarding" Google doc accessible to people in the company, if you want to be added or removed from an internal alias (e.g. `sales@gitlab.com`), change a rule, or add a forwarding email alias, please [make a suggestion](https://support.google.com/docs/answer/6033474?hl=en) in the document.
+1. Emails are asynchronous, for example if your manager emails you on a weekend it is fine to reply during the workweek.
+1. If an email is or has become urgent feel free to ping people via chat referencing the subject of the email.
+
+**Chat**
+
 1. If you use chat please use a public channel whenever possible, mention the
 person you want to reach if it is urgent. This ensures it is easy for other people
 to chime in, and easy to involve other people, if needed.
@@ -217,8 +222,10 @@ the person that didn't leave the last comment starts the call. So either respond
 to the 'call?' request with a video link or say 'yes' and let the other person
 start it. Don't say 'yes' and start a call 5 seconds later since it is likely
 you'll both be creating a video call link at the same time.
-1. All company data should be **shareable** by default. Don't use a local text
-file but leave comments on an issue.
+
+
+**Google Docs**
+
 1. Work on website edits via commits to a merge request. Never use a Google doc for something non-confidential that is intended for the website.
 1. If you _do_ need a Google Doc, then create the doc with your company Google
 Apps account. By default share Google docs with the whole company 'anyone at
@@ -230,31 +237,29 @@ Instead, write the name of the Google Doc. In the past, giving the URL of a doc
 has led to inadvertent opening of sharing settings beyond what was intended, and it also helps
 prevent spam from people outside of GitLab who request access to the doc when they see the link.
 1. If you are having trouble finding a shared Google Doc, make sure you [Search &lt;your domain&gt;](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
-1. All our procedures and templates are stored in (mostly public) git repositories
-instead of Google/Word documents. This makes them easier to find and suggest
-changes to with the organization and shows our commitment to open collaboration
-outside the organization.
-1. In our handbook, if you find yourself wondering whether it is better to provide a public link to a Google Doc vs. writing out the content on the website, use the following guideline: Is this document frequently adapted / customized? If yes, then provide a link, making sure that the document can be _commented on_ by _anyone_ with the link. For instance, this is how we share our employment contracts. If the document is rarely customized, then provide the content directly on the site and deprecate the Google Doc.
-1. Use video calls if you find yourself going back and forth in an issue/via email
-or over chat.
+1. In our handbook, if you find yourself wondering whether it is better to provide a public link to a Google Doc vs. writing out the content on the website, use the following guideline: Is this document frequently adapted / customized? If yes, then provide a link, making sure that the document can be _commented on_ by _anyone_ with the link. For instance, this is how we share our employment [contracts](/handbook/contracts/). If the document is rarely customized, then provide the content directly on the site and deprecate the Google Doc.
+
+**Video chats**
+
+1. Use video calls if you find yourself going back and forth in an issue/via email or over chat.
 1. Having pets, children, significant others, friends and family visible during
 video chats is encouraged. If they are human, ask them to wave at your remote
 team member to say 'Hi'.
-1. Email forwarding rules are specified in the shared "GitLab Email Forwarding" Google doc accessible to people in the company, if you want to change a rule or add a forwarding email alias, please [make a suggestion](https://support.google.com/docs/answer/6033474?hl=en) in the document.
-1. Emails are asynchronous, for example if your manager emails you on a weekend
-it is fine to reply during the workweek.
-1. If an email is or has become urgent feel free to ping people via chat referencing
-the subject of the email.
+
+**Say Thanks**
+
 1. Thank people that did a great job in our 'Thanks' chat channel. If someone is
-an employee just "@" mention them. If multiple people were working on something
-try mentioning each person by "@" name. 'Thanks everyone' does not say much. If
-someone is not an employee mention our office manager, their name, a quirky gift
-and link to their work. For example: _"@sytse Joe deserves a lawnmower for LINK"_.
-The office manager will approach the people for their address saying we want to send
+a team member just "@" mention them. If multiple people were working on something
+try mentioning each person by "@" name. 'Thanks everyone' does not say much.
+1. To thank someone who is not a team member, mention your manager, our People Ops Coordinator, the name of the person, a quirky gift
+and link to their work. For example: _"@manager, @peopleopscoordinator: Joe deserves a lawnmower for LINK"_.
+With your manager's blessing, the People Ops Coordinator will approach the person in question for their address saying we want to send
 some swag. We'll ship it in gift wrap with "Thanks for your great work on LINK, love
-from @gitlab". Don't thank the CEO or other executives for something that the company
-paid for, thank GitLab instead.
-1. If there is something that you want to discuss, but you do not feel that it is
+from @gitlab".
+1. Don't thank the CEO or other executives for something that the company paid for, thank GitLab instead.
+
+**Not sure where to go?**<br>
+If there is something that you want to discuss, but you do not feel that it is
 a reasonable option to discuss with either your manager or CEO, then you can reach
 out to any of the other C-level team members or our board member Bruce Armstrong.
 
@@ -267,9 +272,8 @@ out to any of the other C-level team members or our board member Bruce Armstrong
 1. Give the community the **chance to help**. For example: place issues on the feedback tracker, leave comments in rake check tests about what you can run manually and ask 'Can you send a merge request to fix this?'.
 1. Submit the **smallest** item of work that makes sense. When creating an issue describe the smallest fix possible, put suggestions for enhancements in separate issues and link them. If you're new to GitLab and are writing documentation or instructions submit your first merge request for at most 20 lines.
 1. Do not leave issues open for a long time, issues should be **actionable** and realistic. If you are assigned but don't have time, assign it to someone else. If nobody is assigned and it is not a priority, please ensure the community can help and close it.
-1. Make a conscious effort to **prioritize**<a name="prioritize"></a> your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc. This is detailed in [the workflow document](/handbook/workflow).
-1. Use the public issue trackers on GitLab.com for anything related to our software since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
-1. Our internal dev.gitlab.org server is used for [security issues](https://dev.gitlab.org/gitlab/gitlabhq/issues) (but do create a double linked tracking issue on GitLab.com), for [infrastructure](https://dev.gitlab.org/cookbooks/chef-repo/issues) and for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues that do not have a home in one of the public team trackers that can be found on the [team structure](/team/structure/) page.
+1. Make a conscious effort to **prioritize**<a name="prioritize"></a> your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc. This is detailed in [the development workflow document](/handbook/workflow).
+1. Use the public issue trackers on GitLab.com for everything since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/). We do still use some private issue trackers on our internal dev.gitlab.org server, such as for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues that do not have a home in one of the public team trackers that can be found on the [team structure](/team/structure/) page.
 1. Pick issues from the current [milestone](https://gitlab.com/groups/gitlab-org/milestones).
 1. We try not to assign issues to people but to have people **pick issues** in a milestone themselves.
 1. Assign an issue to yourself as soon as you start to work on it, but not before
@@ -422,7 +426,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
 1. Spend company money like it is your **own** money.
 1. You don't have to ask permission before making purchases **in the interest of the company**. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
 1. It is uncommon for you to need all of the items listed below, use your best judgement and buy them as you need them. If you wonder if something is common, feel free to ask People Ops (and in turn, People Ops should update the list).
-1. It is generally easiest and fastest for you to make the purchases yourself, but feel free to reach out to People Ops if you would like help in acquiring some items.
+1. It is generally easiest and fastest for you to make the purchases yourself, but feel free to reach out to People Ops if you would like help in acquiring some items. Just include a link and your shipping address in an email, and People Ops will be happy to place the order.
 1. Employees: file your expense report no later than 7 days after the end of the calendar quarter that you made the purchase in. Contractors: include receipts with your invoices.
 1. Any non-company expenses paid with a company credit card will have to be reported to your manager as soon as possible and **refunded** in full within 14 days.
 1. **Items.** The company will pay for the following items if you **need it for work or use it mainly for business**, and local law allows us to pay for it without incurring payroll taxes. Items paid for by the company are property of the company and need to be reported with serial numbers etc. to People Ops for proper asset tracking (TODO: describe asset tracking in more detail and link from here). Links in the list below are to sample items, other options can be considered:
@@ -507,6 +511,7 @@ to each team member for the purpose of evangelizing the GitLab story.  You may u
    * Managers can recommend their team members to the CEO for a $1,000 bonus.
    * On team call, the manager announces the “who” and “why” of the bonus; and the "why"
    should be tied to our [values](#values).
+   * The manager should send a brief email that explains the bonus (same as the team call blurb) to People Ops and our Controller who will [process](/handbook/people-ops/#processing-changes) the information into payroll and BambooHR. People Ops should _confirm_ when these steps have been taken, back to the manager.
 1. If you think you are meeting the requirements for another title, want to change
 jobs within the company, or think your growth should be reflected in your compensation please feel free to discuss with your manager.
 
@@ -526,16 +531,11 @@ first 6 months of their hire, then you *also* get a $1,000 bonus.
 
 ### Work Remotely Travel Grant<a name="travel-grant"></a>
 
-GitLab is a [remote-first company](http://zachholman.com/posts/remote-first/)
-with team members all over the world (see the map on our [Team
-page](https://about.gitlab.com/team/) ). If you want to visit a colleague in
-another part of the world, or promote GitLab at events in another country,
-then present your travel plan to your manager or the CEO, and you can receive
-*up to* $2,000 in support for your plan!
+GitLab is a [remote-first company](http://zachholman.com/posts/remote-first/) with team members all over the world (see the map on our [Team page](https://about.gitlab.com/team/) ). If you want to visit a colleague in another part of the world, or promote GitLab at events in another country, then present your travel plan to your manager or the CEO, and you can receive *up to* $2,000 in support for your plan!
 
-As an example, the first grant was handed to a team member who will be
-traveling to 6 team members in different countries during 6 months, and this
-team member will receive the maximum grant of $2,000.
+As an example, the first grant was handed to a team member who will be traveling to 6 team members in different countries during 6 months, and this team member will receive the maximum grant of $2,000.
+
+To claim the approved award, include a line item on your expense report or invoice with the approval email as the receipt. The entire award can be claimed from the first month of travel to up to 3 months after the travel is completed.
 
 ## Signing Legal Documents<a name="signing-legal-documents"></a>
 

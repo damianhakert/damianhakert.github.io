@@ -365,6 +365,7 @@
   twitter:  kelvinmutuma
   gitlab: kelvinmutuma
   maintains:  |
+                <li>Maintainer of <a href="https://forum.gitlab.com/">forum-gitlab-com</a></li>
                 <li>Maintainer of GitLab Mentions</li>
   story:  |
           Before joining GitLab, Kelvin was a developer and system's engineer for a Kenyan Financial Services platform, Abacus. He is passionate about playing chess, video games, watching sci-fi movies, reading novels and watching soccer.
@@ -562,7 +563,6 @@
               <li>Maintainer of <a href="https://gitlab.com/gitlab-com/gitlab-contributors/">GitLab Contributors</a></li>
               <li>Merge request coach</li>
               <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
-              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           Rémy loves the Web, the open-source, Git and Ruby. He's very versatile
           and enjoys working on complete features from back to front. When not
@@ -612,6 +612,7 @@
   gitlab: jameslopez
   maintains: |
              <li>Part-time maintainer of <a href="https://github.com/jneen/rouge">rouge</a></li>
+             <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           James is an experienced developer coming from the corporate world
           of Vodafone in the UK. He has contributed to the open source
@@ -1102,10 +1103,12 @@
   locality: Santiago
   country: Chile
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: Infrastructure Lead
   picture: alejandro.jpg
   twitter: eReGeBe
   gitlab: eReGeBe
+  maintains: |
+             <li>Performance specialist</li>
   story:  |
           From Venezuela, now in Chile, Alejandro has been passionate about
           computers from the moment he once actually deleted System32 and tried

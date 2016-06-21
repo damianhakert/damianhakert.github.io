@@ -22,18 +22,9 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
    [Hiring Process](#hiring-process)), depending on who is available, bearing in
    mind that the most time-consuming aspect tends to be review of the first wave
    of applicants.
-1. Create the job description on our website, and in Workable. Note: You need to
-   actively link Workable and Gmail.
+1. Create the job description on our website; assign the merge request to the CEO as a way to obtain authorization.
     1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`
        if it doesn't already exist.
-    1. Add a job of the exact same job title on [Workable](https://gitlab.workable.com/backend):
-       * For location, select "Telecommute".
-       * For the description, write `For the job description, see [URL of
-         relevant jobs page on about.gitlab.com]`
-       * Indicate what applicants need to provide with their application. By
-         default, this will include their resumé, a cover letter, but it may
-         also include qualifying questions such as "What timezone are you in?".
-       * "Publish" the job, and follow the links to the application form (you will need this URL).
     1. In the [`data/jobs.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) file, open the position or add a new entry for it. Positions are automatically sorted alphabetically by `title` on the [jobs page](/jobs/). When someone views the job's description page, an "Apply" button will be shown for that position if we're currently hiring for it.
           - Adding a new position: add an entry with the following format:
 
@@ -46,6 +37,12 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
 
           - Opening an existing position: If the position is already listed in the `jobs.yml` file but not "open", simply change `open: false` to `open: true` to have the position appear on the [listings](/jobs/).
           - Closing an existing position: If we're no longer hiring for a particular position change `open: true` to `open: false` for that position to hide it from the listings.
+1. Once the job description and posting have been approved, create the job in [Workable](https://gitlab.workable.com/backend), using the exact same job title. If you do this step earlier, people will be able to apply even though the job posting may not have been approved yet.
+   * For location, select "Telecommute".
+   * For the description, write `For the job description, see [URL of relevant jobs page on about.gitlab.com]`
+   * Indicate what applicants need to provide with their application. By default, this will include their resumé, a cover letter, but it may also include qualifying questions such as "What timezone are you in?".
+   * "Publish" the job, and follow the links to the application form (you will need this URL).
+   * Add the URL to the application form into the merge request for the `data/jobs.yml` file.
  1. As soon as the new job description / posting is live on our website, consider your available [advertising methods](#job-advertising) below.
 
 ## Advertising the job<a name="job-advertising"></a>
@@ -125,7 +122,7 @@ This is an effort to provide a set of guidelines to make interviewing a bit less
 * If the process is taking too long, apologize and explain what is going on. It is really frustrating to not hear anything from the other side, and then resume conversations like nothing has happened. Show respect for the time of the candidate.
 * If the process ends at this stage, be kind, and if the interviewee asks for feedback, give honest constructive feedback that explains why have we taken our decision.
 
-#### During the interview:
+#### During the interview
 
 1. There is an unbalanced power relationship during the interview. The interviewer is in a powerful position. It will decide if this candidate will get an offer or not. Be mindful of this. Be as friendly and approachable as you can. Be frank about what is going on, explain how the interview is going to be and set clear expectations: tell it like it is. This has the added value of getting people comfortable (over time) and allows you to get much better data.
 1. Communication is really hard, don't expect perfect answers. Every person is different and they will express things differently, they are not listening your train of thought so they will say things differently than what you expect, work on approaching to what they are trying to say rather than demanding them to approach to you. Once you have an answer validate your assumptions by explaining to the interviewed what did you understood and allow the candidate to correct your story.
@@ -141,7 +138,7 @@ This is an effort to provide a set of guidelines to make interviewing a bit less
 1. Be mindful of the background of the candidate, someone who knows 10 languages already (and some languages in particular, Perl for ex), may pickup ruby in a second given the right chance. Don't assume that someone with a Java background will not be capable of moving to a different stack.
 1. Consider including non technical people performing soft skills questions. Because technical people should be capable of talking to non-technical just fine, we should assess it.
 
-#### Behavioural questions (STAR)
+#### Behavioral questions (STAR)
 
 The goal of these questions is to get the candidate to share something they did in the past. Previous behaviour is considered the best way to predict how a person is going to act in the future.
 
@@ -234,7 +231,7 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 1. What professional achievements are you most proud of?
 1. Whose careers have you made better?
 1. How do you keep up-to-date with developments in your profession?
-1. If you don't get this job what will you do?
+1. If you don't get this job what will you do instead?
 1. Are you interviewing anywhere else?
 1. How can we change GitLab as a software product to make it better?
 1. What can we change in GitLab as an organization to make it better, for example the hiring process or the handbook?
@@ -253,30 +250,26 @@ references to contact. These reference calls are typically be done by our [Peopl
 
 ## Getting Contracts Ready, Reviewed, and Signed<a name="prep-contracts"></a>
 
-Offers made to new team members should be documented in the email thread between the
-person authorized to make the offer (e.g. CEO) and the applicant.
+Offers made to new team members should be documented in the email thread between the person authorized to make the offer (e.g. CEO) and the applicant.
 
 1. Email example is in the "Offer letter" template in Workable. When using the template:
-   1. make sure that you include the People Ops alias in the cc, and
-   1. change the subject line of the email. The default subject line in Workable is "{position name} - GitLab", but when making multiple
-hires for the same position, this can cause confusion in a Gmail inbox that collects conversation
-threads based on subject line. So for example make it "{first name of applicant} -
-offer for {position name} at GitLab" (this is something that we cannot do in the template, unfortunately.
-1. One person from People Operations will reply-to-all to everyone in the thread
-(including the applicant) to confirm that they will make the contract. Speed matters: if you are in People Operations and you can
-tackle this, then raise your hand and hit reply-all.
-   - The VP of Scaling reviews the contract
-after which it can be sent out to be signed by the C-level team
-member that made the offer.
-1. This person from People Operations makes the contract based on the details found in the Workable
-platform, and uses reply-all to gather any missing pieces of information, and to
-confirm with a reply-to-all when the contract is sent. Note: the number of proposed stock options
-must always be mentioned specifically, even when it is 0. People Ops must follow-up
-with the person who requested the contract to make sure that this point is addressed.
+   1. make sure that you offer the correct [contract type and entity](/handbook/contracts/#how-to-use)
+   1. include the People Ops alias in the cc, and
+   1. change the subject line of the email. The default subject line in Workable is "{position name} - GitLab", but when making multiple hires for the same position, this can cause confusion in a Gmail inbox that collects conversation threads based on subject line. So for example make it "{first name of applicant} - offer for {position name} at GitLab" (this is something that we cannot do in the template, unfortunately).
+   1. Note: the number of proposed stock options must always be mentioned specifically, even when it is 0.
+1. One person from People Operations will reply-to-all to everyone in the thread (including the applicant) to confirm that they will make the contract. Speed matters: if you are in People Operations and you can tackle this, then raise your hand and hit reply-all.
+1. This person from People Operations
+   1. checks all aspects of the offer:
+      - was it approved by the CEO?
+      - do the contract type and entity make sense?
+      - is it clear how many (if any) stock options this person should receive?
+   1. makes the contract based on the details found in the Workable platform, using reply-all to gather any missing pieces of information,
+   1. has the contract reviewed by the VP of Scaling, CEO, or CFO (should not be the same as the person making the offer)
+   1. confirms with a reply-to-all when the contract is sent.
 1. When the contract is signed, the People Ops team member should move the candidate to the "Hired" bucket in Workable. Thanks to an integration between Workable and BambooHR, this will automatically add an entry for the new team member in BambooHR. However, in the automatic move, "self-service" is switched off in BambooHR by default, so this must be switched on explicitly within BambooHR.
 1. This same person from People Operations files the signed contract in the appropriate place, and starts the [**onboarding issue**](https://about.gitlab.com/handbook/general-onboarding/).
 
-Note for People Operations:
+Note for People Operations:<br>
 - the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
 [Contracts page](https://about.gitlab.com/handbook/contracts).
 - Onboarding info for the PeopleOps system, BambooHR, can be found on the [PeopleOps](/handbook/people-operations) page.

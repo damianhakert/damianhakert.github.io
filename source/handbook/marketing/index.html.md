@@ -164,7 +164,7 @@ The Monday and Wednesday Dinosaur Party is where the entire team meets for 10-15
 The meeting should run as follows:  
 
 - First 60 seconds: Post funny GIFs in Slack marketing room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis. You can only post one GIF per day. 
-- First 5 minutes: Everyone in order of Team Page (Last goes first) gives 15 seconds about what they are working on. (Marcia, Colton, Amara, Ryan, Amanda, Braden, Mitchell, Ivan, Luke, Axil, Hank, Ashley, Emily)  
+- First 5 minutes: Everyone in order of Team Page (Last goes first) gives 15 seconds about what they are working on. (Joe, Marcia, Colton, Amara, Ryan, Amanda, Braden, Mitchell, Ivan, Luke, Axil, Hank, Ashley, Emily)  
 - Last 5 minutes: Discuss roadblocks and any collaboration needs  
 
 To find the Dinosaur Sticker leaderboard, search the company Google Drive for "Dinosaurs are awesome"
