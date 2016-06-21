@@ -1103,10 +1103,12 @@
   locality: Santiago
   country: Chile
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: Infrastructure Lead
   picture: alejandro.jpg
   twitter: eReGeBe
   gitlab: eReGeBe
+  maintains: |
+             <li>Performance specialist</li>
   story:  |
           From Venezuela, now in Chile, Alejandro has been passionate about
           computers from the moment he once actually deleted System32 and tried
