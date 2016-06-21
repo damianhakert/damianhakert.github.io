@@ -3,7 +3,7 @@ layout: job_page
 title: "Accounting Manager"
 ---
 
-GitLab is adding the next essential member who can help drive operational improvements within our finance department. You will join our team in its early stages responsible for developing a highly efficient, world class accounting process. We expect you will know your way around GAAP principles, financial statements and be a proven problem solver.
+GitLab is adding the next essential member who can help drive operational improvements within our finance department. You will join our team in its early stages responsible for developing a highly efficient, world class accounting process. We expect you will know your way around GAAP principles, financial statements, and be a proven problem solver.
 
 ## Responsibilities
 
