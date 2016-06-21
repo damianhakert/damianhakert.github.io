@@ -60,6 +60,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - Packaging - [Packaging lead](/jobs/packaging-lead) - Marin Jankovski
     - [Support](/handbook/support/) - Support lead - José Torres
       - [Service Engineers](/jobs/service-engineer/)
+    - CI - CI lead - Kamil Trzciński
     - [Developers](/jobs/developer/) that are maintainers
     of or specialist in projects without a lead
     - [Developers](/jobs/developer/) that are a merge request coach
