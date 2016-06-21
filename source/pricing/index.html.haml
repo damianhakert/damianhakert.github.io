@@ -13,9 +13,9 @@ extra_font:
 .page-container.pricing-container.text-center.animated
   .container
     %h1.page-headline
-      Simple pricing for teams of all sizes
+      Flexible plans for individuals and businesses
     %h4.subheader
-      Includes a 45 day money-back guarantee
+      All plans include Git repository management, code reviews, issue tracking, build-in GitLab CI for continuous integration and delivery, plus a 45 day money-back guarantee.
     .row{ data: { equal: ".col-md-4" } }
       .col-md-4
         .featured-item
@@ -79,7 +79,7 @@ extra_font:
                 = link_to "Learn more...", "/features#enterprise", class: "action-link"
             = link_to "Buy Now", data.pricing.payment_url, class: "featured-item-button"
     %h1.page-headline.cta
-      Try GitLab Enterprise Edition risk free for 30 days
+      Not sure? Try GitLab Enterprise Edition risk free for 30 days
     %h4.subheader.cta
       No Credit card required. Have questions?
       %a.contact-us{href: "https://about.gitlab.com/sales/"} Contact us.
@@ -170,62 +170,12 @@ extra_font:
               Add Pivotal Tile
     %a.featured-item-button.purchase-now{href: data.pricing.payment_url}
       Purchase your GitLab EE package
-.what-is.why-gitlab
+.what-is.choose-gitlab.text-center.animated
   .container
-    .row
-      .col-sm-6.col-md-4.what-is-item-holder
-        .what-is-item
-          = icon "contribute", "what-is-item-icon", {width: 76, height: 76, label: "Contribute"}
-          %h3.what-is-item-title
-            GitLab compared to the competition
-          .what-is-item-content
-            :markdown
-              Lorem ipsum dolor sit amet, adipiscing elit. Integer condimentum
-              eros mauris, quis accumsan justo fermentum sed.
-
-              Sed mollis diam odio, non fringilla felis aliquam id. In ut
-              eleifend nunc. Sed pharetra orci et eros blandit ultrices.
-
-              Lorem ipsum dolor sit amet, adipiscing elit. Integer condimentum
-              eros mauris, quis accumsan justo fermentum sed.
-      .col-sm-6.col-md-4.what-is-item-holder
-        .what-is-item
-          = icon "community", "what-is-item-icon", {width: 76, height: 76, label: "Community"}
-          %h3.what-is-item-title
-            High Availability
-          .what-is-item-content
-            :markdown
-              High availability is a system design that ensures a prearranged
-              level of operational performance throughout a specific
-              time-period. The most common way to measure HA is through the notion
-              of uptime, which measures how long a service is up and running.
-
-              [Learn more](/features/) about the costs and benefits of High
-              Availability on GitLab
-      .col-sm-12.col-md-4.what-is-item-holder
-        .what-is-item
-          = icon "release", "what-is-item-icon", {width: 76, height: 76, label: "Release"}
-          %h3.what-is-item-title
-            GitHost
-          .what-is-item-content
-            :markdown
-              We can host a private GitLab instance for you with GitHost.
-
-              Lorem ipsum dolor sit amet, adipiscing elit. Integer condimentum
-              eros mauris, quis accumsan justo fermentum sed.
-
-              Sed mollis diam odio, non fringilla felis aliquam id. In ut
-              eleifend nunc. Sed pharetra orci et eros blandit ultrices.
-.logos-section
-  .container
-    %h2.logos-section-title.text-center
-      Open sourced & feature packed: GitLab CE vs. GitLab EE
-    %ul.row.list-unstyled.compare-list
-      - data.pricing.compare.each do |feature|
-        = partial "compare", locals: { feature: feature }
-    %h3.compare-sub-title.light.text-center.animated
-      = link_to "Learn more", "/features/"
-      with a full Community & Enterprise Edition feature comparision
+    %h2.choose-gitlab-title
+      Choose the GitLab edition that is best for your team
+    = link_to "/features#compare", class: "choose-gitlab-link" do
+      View a side-by-side feature comparison of GitLab Community and Enterprise Edition
 .content-container.animated
   .container
     %h2.faq-title.light.text-center

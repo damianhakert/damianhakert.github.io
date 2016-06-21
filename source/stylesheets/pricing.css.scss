@@ -37,6 +37,8 @@
 
   .subheader {
     margin-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
     color: $color-gray-light;
     font-weight: 300;
     font-size: 20px;
@@ -173,11 +175,13 @@
   margin-bottom: 0;
 }
 
-.why-gitlab {
+.choose-gitlab {
   padding-bottom: 40px;
+  font-size: 16px;
 
   @media (min-width: $screen-md-min) {
     padding-bottom: 60px;
+    font-size: 20px;
   }
 
   @media (min-width: $screen-lg-min) {
@@ -185,87 +189,24 @@
   }
 }
 
-.compare-list {
-  margin-bottom: 0;
-}
-
-.compare-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  padding-left: 100px;
-  margin-bottom: 30px;
-  min-height: 75px;
-
-  @media (min-width: $screen-sm-min) {
-    margin-bottom: 55px;
-  }
-
-  @media (min-width: $screen-md-min) {
-    margin-bottom: 75px;
-  }
-}
-
-.compare-item-icon {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  margin-top: (-75px / 2);
-
-  path {
-    fill: $color-secondary;
-  }
-}
-
-.compare-item-title {
-  margin: 0;
-  font-size: 28px;
+.choose-gitlab-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: (45px / 20px) * 1em;
   font-weight: 300;
-  line-height: 1;
 }
 
-.compare-item-subtitle {
-  margin-top: 5px;
-  margin-bottom: 0;
-  font-size: 18px;
-  font-style: italic;
-  font-weight: 600;
-  line-height: 1;
-}
+.choose-gitlab-link {
+  color: $color-secondary-alt;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 300;
+  border-bottom: 1px solid $color-secondary-alt;
 
-.compare-sub-title {
-  margin: 0;
-  color: $color-primary;
-  font-size: 20px;
-
-  @media (min-width: $screen-sm-min) {
-    font-size: 28px;
-  }
-
-  a {
-    border-bottom: 1px solid $color-primary;
-    color: $color-primary;
-    font-weight: inherit;
-
-    &:hover {
-      text-decoration: none;
-      border-bottom-color: transparent;
-    }
-  }
-}
-
-.logos-section {
-  .logos-section-title {
-    margin-bottom: 30px;
-
-    @media (min-width: $screen-sm-min) {
-      margin-bottom: 55px;
-    }
-
-    @media (min-width: $screen-md-min) {
-      margin-bottom: 75px;
-    }
+  &:hover {
+    color: $color-secondary-alt;
+    text-decoration: none;
+    border-bottom-color: transparent;
   }
 }
 
@@ -349,7 +290,8 @@
   margin-bottom: 25px;
   color: inherit;
 
-  &:hover {
+  &:hover,
+  &:focus {
     color: $color-secondary;
     text-decoration: none;
   }
@@ -366,5 +308,14 @@
 
   > p:last-child {
     margin-bottom: 0;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+
+    &:hover {
+      color: $color-secondary;
+    }
   }
 }
