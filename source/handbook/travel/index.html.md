@@ -3,28 +3,29 @@ layout: markdown_page
 title: "Travel"
 ---
 
-## Arranging your company travel
+The company will cover all work-related travel expenses.
 
-The company will cover all work related travel costs.  
 - Understand that the guidelines of [Spending Company Money](https://about.gitlab.com/handbook/#spending-company-money) still apply
-- The company can accommodate your custom request. It is OK to stay longer on
-your trip. However, the extra days will not be covered by the company.
+- The company can accommodate your custom request. It is OK to stay longer on your trip. However, the extra days will not be covered by the company.
 
 ## Specific Topics Relating to Egencia and Expenses
 
 - [Arranging a visa for travel](#arrange-visa)
-- [Tips and Tricks for visa arrangements](#visa-tips)
+   - [Tips and Tricks for visa arrangements](#visa-tips)
 - [Setting up your Egencia account](#setup-egencia)  
 - [Booking travel through Egencia](#egencia) 
-- [Booking accomodations through Airbnb](#airbnb) 
+- [Booking accomodations through Airbnb](#airbnb)
+- [Self Stay Reimbursement Policy](#self-stay)
 - [Expenses while traveling](#expenses-while-traveling)
 
 
 ### Arranging a visa for travel <a name="arrange-visa"></a>
+
 In some cases when traveling to a conference or summit you might need to arrange a visa to enter that specific country.
 Always check the website of the Embassy of the Country you want to visit located in your home country. They will have the most updated information on wether or not you need a visa and what is needed for your application. In some instances you can travel under a visa waiver program (e.g. ESTA) in other you might need to arrange a tourist or business visa. Read their website carefully and ask People Ops if you need any help with acquiring the needed documents for your application.
 
 #### Tips & Tricks for visa arrangements <a name="visa-tips"></a>
+
 - Make sure to start in time with your arrangements for a visa. It can take up to 3-4 months to acquire a visa.
 - Check if your passport is still valid long enough
 - Give priority to arranging your visa, it can take time to get an appointment to apply at the Embassy.
@@ -118,6 +119,10 @@ Please send a message to travel@gitlab.com if you need help in booking your trav
 If you need an Airbnb for your stay on a business related trip, you can either book it yourself, or send a request to People Ops. 
 For People Ops, please include a link to which airbnb you would like to stay in, the corresponding dates, and the purpose of your travel. 
 If you are booking the trip yourself, you may be reimbursed for the portion of your stay that was business related by submitting in Expensify or on your monthly invoice. 
+
+### Self Stay Reimbursement Policy <a name="self-stay"></a>
+
+If you decide to stay with friends or family instead of a hotel/Airbnb for a business trip, the company will pay you 50% of what would have been the cost of a reasonable hotel. This is in keeping with our values of frugality and freedom, and intended to reward you for saving company money on accomodation expenses. Please take a screenshot of the hotel search in Egencia and submit this along with your expense report or invoice. 
 
 ### Expenses While Traveling <a name="expenses-while-traveling"></a>
 
