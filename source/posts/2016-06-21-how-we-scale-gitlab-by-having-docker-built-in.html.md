@@ -1,9 +1,11 @@
 ---
+layout: post
 title: "How we scale GitLab by having Docker built in"
+date: 2016-06-21
 author: DJ Mountney
 author_twitter: twk3
-categories:
-image_title:
+categories: technical overview, integrations
+image_title: '/images/blogimages/scale-GitLab-Docker-built-in-cover.png'
 ---
 
 Our [Docker image](http://docs.gitlab.com/omnibus/docker/) is a great way to
@@ -126,9 +128,10 @@ other improvements to fix these problems, but we expect to be able to quickly an
 concurrently build our packages when it is all done. Feel free to
 [track our progress](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1232).
 
-## GitLab <3s Docker
+## We <i class="fa fa-heart" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> Docker
+{: #gitlab-loves-docker}
 
 As you can see, providing a GitLab Docker image was just the beginning of our
 Docker obsession. Building Docker directly into GitLab CI, and adding a deeply
-integrated Docker Registry into GitLab CE, is helping us to build and test GitLab
+integrated Docker Registry into GitLab, is helping us to build and test GitLab
 quicker and more often. We hope it's helping you too!
