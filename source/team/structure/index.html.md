@@ -45,8 +45,8 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Success Engineer](/jobs/success-engineer/)
   - [People Operations](/handbook/people-operations/) - [Director/VP of People Operations](/jobs/dir-or-vp-of-people-ops/) (vacancy)
     - [People Operations Coordinator](/jobs/people-ops-coordinator/)
-  - Finance - [CFO](/jobs/chief-financial-officer/) - Paul Machle
-    - [Accounting](/handbook/accounting/) - [Controller](/jobs/controller/) - Wilson Lau
+  - [Finance](/handbook/finance) - [CFO](/jobs/chief-financial-officer/) - Paul Machle
+    - Accounting - [Controller](/jobs/controller/) - Wilson Lau
   - [Technical Direction](/direction/) - [CTO](/jobs/chief-technology-officer/) - Dmitriy Zaporozhets
   - Engineering - [VP of Engineering](/jobs/vp-of-engineering/) - Stan Hu
     - Backend - [Backend Lead](/jobs/backend-lead/) - Douwe Maan
