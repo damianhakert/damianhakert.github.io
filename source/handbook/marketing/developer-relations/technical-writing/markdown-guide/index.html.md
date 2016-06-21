@@ -381,13 +381,25 @@ To insert images to your markdown file, use the markup `![ALT](/path/image.ext)`
 its structure.
 
 ```md
-![An awesome example image](/images/path/to/folder/image.png)
+![An awesome example image](/images/path/to/folder/image.png "Image Title")
+```
+
+You can also use an identifier, as we do for [links](#links):
+
+```md
+![An awesome example image][identifier]
 ```
 
 If you want to add a caption to your image, it's easily achieved with:
 
 ```md
 ![An awesome example image](/images/path/to/folder/image.png)*My caption*
+```
+
+For clickable images, simply wrap the image markup into a [link markup](#links):
+
+```md
+[![An awesome example image](/images/path/to/folder/image.png "Hello World")*My caption*][about.gitlab.com]
 ```
 
 <div class="panel panel-info">
@@ -397,17 +409,15 @@ If you want to add a caption to your image, it's easily achieved with:
 
 <div class="panel-body">
 
-![An awesome example image](/images/about-gitlab-com.png)*My caption*
+[![An awesome example image](/images/about-gitlab-com.png "hello world")*My caption*][about.gitlab.com]
 
 </div>
 </div>
-
-<!-- change example image (use a shorter one) -->
 
 Notes:
 
 - All images must be placed under `/source/images/`, in an appropriate directory. Only screenshots and public domain images are permitted.
-- The text inside the square brackets are called `ALT`, which stands for _alternative_. It should not be left empty, but contain something to describe that image. `Alt` is useful for hearing impaired folks, for [SEO], and it is displayed when, for some reason, that image is not loaded by the browser. 
+- The text inside the square brackets is an image attribute called `ALT`, which stands for _alternative text_. It [should not be left empty][img-seo], but contain something to describe that image. `ALT` is useful for visually impaired internauts, for SEO, and it is displayed when, for some reason, that image is not loaded by the browser. 
 - For the same reasons, the image must contain a name referencing to it. Example: instead of `image-01.jpg`, name it `black-dog.jpg`, if it's a photo of a black dog.
 
 ----
@@ -511,7 +521,7 @@ path like `path/to/video.mp4`.
 </div>
 
 _**Note:** in case you don't have all formats recommended by w3schools, you can use just one of them, but your video most
-likely won't be supported in all devices and browsers._
+likely won't be supported in all devices and browsers. The video above (`.mp4` only) works on Mozilla Firefox for OS X, Android and Windows, and on Chrome for Android and for Windows. Does not work on Chrome for OS X and iOS, neither on Safari. The best option for most cases is using YouTube or Vimeo._
 
 ## Table of Contents (ToC)
 
@@ -585,13 +595,23 @@ and/or a custom ID](#classes-ids-and-attributes).
 | Third line      | quux         | baz             | bar            |
 |-----------------+--------------+-----------------+----------------|
 | Second body     |              |                 |                |
-| 2nd line        |              |                 |                |
+| 2nd line        |              | Hello World     |                |
 |-----------------+--------------+-----------------+----------------|
 | Third body      |              |                 | Foo            |
 {: .custom-class #custom-id}
 
 </div>
 </div>
+
+<style>
+blockquote {
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}
+</style>
+
+<!-- ANOTHER CHANGE NECESSARY TO ADD TO CSS ^^ -->
 
 Certain tools can help you to create your own complex table if you need merging lines or columns, and more advanced layouts.
 This is a [Table Generator] that perhaps can help you out.
@@ -601,25 +621,160 @@ is not required.
 
 Read through the [Kramdown syntax guide][kram-tables] on tables for further information.
 
+> Markdown is not a replacement for HTML, or even close to it. ([Daring Fireball][daring-quote])
+{: #quote}
+
+Markdown has not been created to replace HTML, so there are situations we can't run from using HTML. With complex tables,
+thats the case.
+
 ----
 
 ## Code blocks
 
+There are a few options for displaying code blocks with Kramdown:
 
-### In-line code blocks
+_In-line_
+
+This is an ``` `in-line` ``` code block.
+
+_Fenced_
+
+    ```
+    def hello
+       puts "Hello world!"
+    end
+    ```
+
+_Fenced Highlighted_
+
+    ```ruby
+    def hello
+       puts "Hello world!"
+    end
+    ```
+
+or
+
+    ```
+    def hello
+       puts "Hello world!"
+    end
+    ```
+    {: .language-ruby}
+
+_Indented (add 4 white spaces before every line)_
+
+        def hello
+           puts "Hello world!"
+        end
+
+_Indented Highlighted_
+
+        def hello
+           puts "Hello world!"
+        end
+    {: .language-ruby}
 
 
-### Nested code blocks
+_Nested (add 4 white spaces before every line)_
 
+        ```
+        def hello
+           puts "Hello world!"
+        end
+        ```
+
+<div class="panel panel-info">
+
+**Output**
+{: .panel-heading}
+
+<div class="panel-body">
+
+
+_In-line_
+
+This is an `in-line` code block.
+
+_Fenced_
+
+```
+def hello
+   puts "Hello world!"
+end
+```
+
+_Fenced Highlighted_
+
+```ruby
+def hello
+   puts "Hello world!"
+end
+```
+
+or
+
+```
+def hello
+   puts "Hello world!"
+end
+```
+{: .language-ruby}
+
+
+_Indented_
+
+    def hello
+       puts "Hello world!"
+    end
+
+_Indented Highlighted_
+
+    def hello
+       puts "Hello world!"
+    end
+{: .language-ruby}
+
+_Nested_
+
+    ```
+    def hello
+       puts "Hello world!"
+    end
+    ```
+
+</div>
+</div>
 
 ----
 
-## Notes
+## Blockquotes
 
-### Notes for regular pages
+Blockquotes are good resources to mentioning someone else's quotes, like we did [just above](#quote). Also, can be use to emphasize a sentence or a small
+paragraph.
 
 ```md
-_**Note:** this is a note: something that needs to be mentioned but is apart from the context._
+> This is a blockquote. 
+>     On multiple lines.
+That may be lazy.
+>
+> This is the second paragraph.
+
+----
+
+> This is a paragraph.
+>
+> > A nested blockquote.
+>
+> ### Headers work
+>
+> * lists too
+>
+> and all other block-level **elements**.
+>
+> Even code blocks:
+>
+>     ruby -e 'puts :works'
 ```
 
 <div class="panel panel-info">
@@ -629,7 +784,50 @@ _**Note:** this is a note: something that needs to be mentioned but is apart fro
 
 <div class="panel-body">
 
-_**Note:** this is a note: something that needs to be mentioned but is apart from the context._
+> This is a blockquote. 
+>     On multiple lines.
+That may be lazy.
+>
+> This is the second paragraph.
+
+----
+
+> This is a paragraph.
+>
+> > A nested blockquote.
+>
+> ### Headers work 
+> {:.no_toc}
+>
+> * lists too
+>
+> and all other block-level **elements**.
+>
+> Even a code block:
+>
+>     ruby -e 'puts :works'
+
+</div>
+</div>
+
+----
+
+## Notes
+
+### Notes for regular pages
+
+```md
+_**Note:** this is a note, which is something that needs to be mentioned but is apart from the context._
+```
+
+<div class="panel panel-info">
+
+**Output**
+{: .panel-heading}
+
+<div class="panel-body">
+
+_**Note:** this is a note, which is something that needs to be mentioned but is apart from the context._
 
 </div>
 </div>
@@ -644,11 +842,119 @@ _**Note:** this is a note: something that needs to be mentioned but is apart fro
 The output will be similar to the notes on regular pages, just the font color will be a little lighter, and
 the font size, a little smaller. 
 
+----
+
+## Comments
+
+_Markdown markup_
+
+```md
+This is a paragraph
+{::comment}
+This is a comment which is
+completely ignored.
+{:/comment}
+... paragraph continues here.
+```
+
+_Regular HTML markup_
+
+    <!-- This is accepted as a comment too -->
+{: .language-html}
+
+<div class="panel panel-info">
+
+**Output**
+{: .panel-heading}
+
+<div class="panel-body">
+
+This is a paragraph
+{::comment}
+This is a comment which is
+completely ignored.
+{:/comment}
+... paragraph continues here.
+
+<!-- This is accepted as a comment too -->
+
+</div>
+</div>
+
+----
+
+## Anchors
+
+Add an anchor anywhere with:
+
+```
+[](){: name="hello-world"}
+
+Some text
+```
+
+Or simply use an ID:
+
+```
+Some text
+{: #hello-world}
+```
+----
+
+## Font Awesome
+
+Yes, we can use fancy [Font Awesome] icons too.
+
+_Regular_
+
+```
+### <i class="fa fa-puzzle-piece" aria-hidden="true"></i> Puzzle Icon
+{: #puzzle}
+```
+
+And you can go further, such as the following.
+
+_Styled_
+
+_
+
+```
+### <i class="fa fa-puzzle-piece fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> Purple Puzzle Icon
+{: #puzzle-purple}
+```
+
+<div class="panel panel-info">
+
+**Output**
+{: .panel-heading}
+
+<div class="panel-body">
+
+_Regular_
+
+### <i class="fa fa-puzzle-piece" aria-hidden="true"></i> Puzzle Icon
+{: #puzzle}
+
+_Styled_
+
+### <i class="fa fa-puzzle-piece fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> Purple Puzzle Icon
+{: #puzzle-purple}
+
+</div>
+</div>
+
+When doing something like this to a heading, it's important give it a custom ID (`{: #puzzle}`), otherwise the one
+automatically created by Kramdown will sound very awkward.
+
+See live examples [on this post][ssgs-post], used to illustrate the text.
+
 -----
 
 ## Classes, IDs and attributes
 
-(Kramdown magic!)
+Defining CSS classes, and elements IDs and attributes with markdown is definitely something unusual (Kramdown magic!).
+
+But yes, if you know how to use it, you'll love it! Check how easy it is to do that with Kramdown:
 
 ```
 Paragraph
@@ -658,67 +964,106 @@ Paragraph
 {: #custom-id}
 
 Paragraph
-{: .class .class-1 #custom-id}
+{: .class .class-1 #custom-id-1}
 
 ## Heading
-{: .class .class-1 #custom-id}
+{: .class .class-1 #custom-id-2}
 
 Paragraph
-{: .class #custom-id style="padding-top:0" key="value"}
+{: .class #custom-id-3 style="padding-top:0" key="value"}
 
 ## Heading {#hello}
 
-- {: .class} List item with custom class
-- {:#id} List item with custom id
-```
-
-List example:
+List:
 
 - {: .class} List item with custom class
 - {:#id} List item with custom id
 
-----
+To a [link]{: #link}, in-line.
 
-## Comments
-
-
------
-
-## Blockquotes
-
-
-----
-
-## Anchors
-
-```
-[](){: name="hello-world"}
-
-Some text
+This is a [link]{:hreflang="es"} in Spanish.
 ```
 
- or simply use an ID:
+<div class="panel panel-info">
+
+**Output**
+{: .panel-heading}
+
+<div class="panel-body">
+
+Paragraph
+{: .class .class-1 .class-2}
+
+Paragraph
+{: #custom-id}
+
+Paragraph
+{: .class .class-1 #custom-id-1}
+
+### Heading
+{: .class .class-1 .no_toc #custom-id-2}
+
+Paragraph
+{: .class #custom-id-3 style="padding-top:0" key="value"}
+
+### Heading {#hello}
+{: .no_toc}
+
+List:
+
+- {: .class} List item with custom class
+- {:#id} List item with custom id
+
+To a [link]{: #link}, in-line.
+
+This is a [link]{:hreflang="es"} in Spanish.
+
+</div>
+</div>
+
+----
+
+## Mix HTML + Markdown Markup
+
+This is something unthinkable to someone used to regular markdown. And it's all over this document!
+
+Use the following markup at the beginning of your document:
+
+```md
+{::options parse_block_html="true" /}
+```
+
+And feel free to mix everything up:
 
 ```
-Some text
-{: #hello-world}
+Something in **markdown**
+
+<p>Then an HTML tag with crazy **markup** _all over_ the place!</p>
+```
+
+<div class="panel panel-info">
+
+**Output**
+{: .panel-heading}
+
+<div class="panel-body">
+
+Something in **markdown**
+
+<p>Then an HTML tag with crazy **markup** _all over_ the place!</p>
+
+</div>
+</div>
+
+You can close the markup parser tag at any point, if you want to:
+
+```md
+{::options parse_block_html="false" /}
 ```
 
 ----
 
-## Mix html + markdown markup
-
-(Kramdown crazy magic!)
-
-----
-
-## Font Awesome
-
-(Kramdown wizardry!)
-
-----
-
-## Markdown Editors / Tools
+## Markdown Editors
 
 _Regular Code Editors_
 
@@ -734,9 +1079,8 @@ _Markdown editors (type and preview simultaneously)_
 
 ## Tips &amp; Tricks
 
-- Avoid leaving double blank spaces between words.
+- Avoid leaving double blank spaces between words, or leaving more blank spaces than the necessary, they can cause render differently of the expected.
 - Always jump a line from one markup to another.
-- Avoid leaving more blank spaces than the necessary, they can cause render differently of the expected.
 - If you are confused about a markup that you find in this file, check its [`raw`] for reference.
 
 
@@ -745,7 +1089,10 @@ _Markdown editors (type and preview simultaneously)_
 
 [about.gitlab.com]: https://about.gitlab.com/
 [atom]: https://atom.io/
+[daring-quote]: http://daringfireball.net/projects/markdown/syntax#html
+[font awesome]: http://fontawesome.io/icons/
 [gitlab-markdown]: https://gitlab.com/help/markdown/markdown
+[img-seo]: http://www.practicalecommerce.com/articles/77645-6-SEO-Myths-about-Alt-Tags
 [kramdown]: http://kramdown.gettalong.org/
 [kram-tables]: http://kramdown.gettalong.org/syntax.html#tables
 [Lightweight markup languages]: https://en.wikipedia.org/wiki/Lightweight_markup_language
