@@ -523,6 +523,8 @@ path like `path/to/video.mp4`.
 _**Note:** in case you don't have all formats recommended by w3schools, you can use just one of them, but your video most
 likely won't be supported in all devices and browsers. The video above (`.mp4` only) works on Mozilla Firefox for OS X, Android and Windows, and on Chrome for Android and for Windows. Does not work on Chrome for OS X and iOS, neither on Safari. The best option for most cases is using YouTube or Vimeo._
 
+----
+
 ## Table of Contents (ToC)
 
 With Kramdown, creating a Table of Contents is the easiest thing ever! The automatic ToC will include every heading in
@@ -1060,6 +1062,50 @@ You can close the markup parser tag at any point, if you want to:
 ```md
 {::options parse_block_html="false" /}
 ```
+
+### Styles
+
+To wrap up, guess what?
+
+This:
+
+```css
+<style>
+  .purple {
+    color:rgb(107,79,187);
+  }
+</style>
+```
+
+<style>
+  .purple {
+    color:rgb(107,79,187);
+  }
+</style>
+
+Plus:
+
+```
+Yes, I'm purple!
+{: .purple}
+```
+
+Equals to:
+
+<div class="panel panel-info">
+
+**Output**
+{: .panel-heading}
+
+<div class="panel-body">
+
+Yes, I'm purple!
+{: .purple}
+
+</div>
+</div>
+
+Believe it or not! 
 
 ----
 
