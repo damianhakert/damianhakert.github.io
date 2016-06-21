@@ -32,7 +32,7 @@ markdown.
 
 In most of GitLab text areas you'll find markdown support. Not all of them run with Kramdown, so the markup will not
 behave equally "GitLabwide". For **GitLab.com**, **GitLab CE** and **GitLab EE** text areas, the markdown engine is currently
-[Redcarpet](http://git.io/ld_NVQ). Here you can find the [markdown style guide][gitlab-markdown] for them.
+[Redcarpet]. Here you can find the [markdown style guide][gitlab-markdown] for them.
 
 This guide has been made to make it easier for everyone to use Kramdown features and save a lot of time writing content for
 [about.GitLab.com], including handbook pages, website pages, blog posts and everything else within the project [www-GitLab-com].
@@ -1146,6 +1146,7 @@ _Markdown editors (type and preview simultaneously)_
 [middleman]: https://middlemanapp.com/
 [mou]: 25.io/mou/
 [`raw`]: # "ADD RAW HERE"
+[Redcarpet]: http://git.io/ld_NVQ
 [ssg]: https://www.staticgen.com/
 [ssgs-post]: https://about.gitlab.com/2016/06/10/ssg-overview-gitlab-pages-part-2/
 [ssgs-post-raw]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/posts/2016-06-10-ssg-overview-gitlab-pages-part-2.html.md
