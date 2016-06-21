@@ -27,7 +27,7 @@ For [about.GitLab.com], we use [Kramdown], which is an advanced markdown engine 
 most of the other engines don't have.
 
 If you never have written a single line in markdown markup, don't worry, it's easy to learn and even easier to use. You'll
-probably be surprised how handy it is once you get used to it. And you'll miss it when the tech you're using doesn't support
+probably be surprised how handy it is once you get used to it. And you'll miss it whenever the tech you're using doesn't support
 markdown.
 
 In most of GitLab text areas you'll find markdown support. Not all of them run with Kramdown, so the markup will not
@@ -73,15 +73,16 @@ standard for about.GitLab.com.
 
 Notes:
 
-- Usually we don't use `h1` headings, as they already are displayed on every page as their titles.
-- Always leave a blank space between the hash markup `#` and the text next to it, otherwise it won't render properly.
+- Usually we don't use `h1` headings, as they already are displayed on every page as titles.
+- Always leave a blank space between the hash `#` and the text next to it, otherwise it won't render properly.
 
 ----
 
 ## Paragraphs, breaks and horizontal lines
 
-Regular paragraphs are just lines with text. If you hit enter between two lines, both lines will be joined in a single paragraph.
-If you leave a blank line between two lines of text, they will split in two paragraphs.
+Regular paragraphs are obtained by just writing text lines. If you hit enter between two lines,
+both lines will be joined into a single paragraph.
+But, if you leave a blank line between them, they will split in two paragraphs.
 
 ### Regular paragraphs and automatic join
 
@@ -114,7 +115,7 @@ word of the line broken within a paragraph, unless you want it to be intentional
 
 ### Additional breaks
 
-In case you need an additional break, you can simply use `<br>`, leaving blank lines above and below it:
+In case you need an additional break (or some extra space between lines), you can simply use the HTML break tag `<br>`, leaving blank lines above and below it:
 
 ```html
 Text A
@@ -142,7 +143,7 @@ Text B
 
 ### Horizontal lines
 
-A sequence of three or more dashes will produce a horizontal line, but let's use always four as standard. Leave blank
+A sequence of three or more dashes will produce a horizontal line, but let's use always **4** for standard. Leave blank
 lines after and before it:
 
 ```html
@@ -250,11 +251,11 @@ order to be easy and quick to find them for both the author and the reviewers.
 </div>
 </div>
 
-Notes:
+Important notes:
 
-- Identifiers are not case sensitive.
-- Avoid using other markup syntax for links.
-- Don't take it as a restrictive rule, but avoid using meaningless texts for links as "this article" or "read here". For these examples, it would be better using "the article's title" or "the documentation on the tool".
+- Identifiers **are not** case sensitive.
+- Avoid using other markup syntax for links. Definitely avoid adding the URL in-line, as in `[link](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2373#note_12594349)`. This syntax works perfectly, but breaks the reading flow, deviating the attention of the reviewer. Also, it may cause repetition of the same link through the document.
+- Don't take it as a restrictive rule, but avoid using meaningless texts for links as "this article" or "read here". For these examples, it would be better using the article's title (for the first) and the documentation's subject, for the latter.
 
 <!-- explanation can be improved ^^ -->
 
@@ -262,11 +263,11 @@ Notes:
 
 ## Lists
 
-Both ordered and unordered lists are very straight-forward to write. There are a few ways
+Both ordered and unordered lists are very straight-forward to produce. There are a few ways
 to produce the same results, but let's stick with the following, again, to maintain
 some standards.
 
-Always use three blank spaces to indent a nested list (to create sub items).
+Always use **3** blank spaces to indent a nested list (to create sub items).
 
 Tip: don't leave blank lines between the items, unless you have a reason to do so.
 
@@ -295,6 +296,34 @@ Ordered lists are pretty easy to create. Couldn't be more intuitive:
    2. Sub item two
    3. Sub item three
 2. Item two
+
+</div>
+</div>
+
+To be practical and avoid errors on the numbers, use "1" for all the items. The markdwon engine will output them
+in the correct order.
+
+```md
+1. Item one
+   1. Sub item one
+   1. Sub item two
+1. Item two
+1. Item three
+```
+
+<div class="panel panel-info">
+
+**Output**
+{: .panel-heading}
+
+
+<div class="panel-body">
+
+1. Item one
+   1. Sub item one
+   2. Sub item two
+1. Item two
+1. Item three
 
 </div>
 </div>
@@ -416,9 +445,13 @@ For clickable images, simply wrap the image markup into a [link markup](#links):
 
 Notes:
 
-- All images must be placed under `/source/images/`, in an appropriate directory. Only screenshots and public domain images are permitted.
-- The text inside the square brackets is an image attribute called `ALT`, which stands for _alternative text_. It [should not be left empty][img-seo], but contain something to describe that image. `ALT` is useful for visually impaired internauts, for SEO, and it is displayed when, for some reason, that image is not loaded by the browser. 
-- For the same reasons, the image must contain a name referencing to it. Example: instead of `image-01.jpg`, name it `black-dog.jpg`, if it's a photo of a black dog.
+- All images must be placed [under `/source/images/`][source-img], in an appropriate directory. Only screenshots
+and public domain images are permitted.
+- The text inside the square brackets is an image attribute called `ALT`, which stands for _alternative text_.
+It [should not be left empty][img-seo], but contain something to describe that image. `ALT` is useful for
+visually impaired internauts, for SEO, and it is displayed when, for some reason, that image is not loaded by the browser. 
+- For the same reasons, the image must contain a name related to it. Example: instead of `image-01.jpg`,
+name it `black-dog.jpg`, if it's a photo of a black dog.
 
 ----
 
@@ -520,8 +553,8 @@ path like `path/to/video.mp4`.
 </div>
 </div>
 
-_**Note:** in case you don't have all formats recommended by w3schools, you can use just one of them, but your video most
-likely won't be supported in all devices and browsers. The video above (`.mp4` only) works on Mozilla Firefox for OS X, Android and Windows, and on Chrome for Android and for Windows. Does not work on Chrome for OS X and iOS, neither on Safari. The best option for most cases is using YouTube or Vimeo._
+_**Note:** in case you don't have all formats recommended by **w3schools**, you can use just one of them, but your video most
+likely won't be supported in all devices and browsers. The video above (`.mp4` only) works on Mozilla Firefox for OS X, Android and Windows, and on Chrome for Android and for Windows. Does not work on Chrome for OS X and iOS, neither on Safari. The best option for most cases is using YouTube or Vimeo embed videos in `<iframe>` tags._
 
 ----
 
@@ -548,20 +581,26 @@ is not required, but recommendable for keeping the same standards through about.
 
 The heading "On this page" can be adapted to your case, e.g., "On this tutorial", or "On this guide", etc.
 
-The markup `{:.no_toc}` is used every time you don't want to include a heading into the ToC. Just add it right above the heading,
-and it won't be included into the ToC. In fact this is a [custom class](#classes-ids-and-attributes), as described later in this guide.
+The markup `{:.no_toc}` is used every time you don't want to include a heading into the ToC. Just add it right below the heading,
+and it won't be included into the ToC. In fact `no_toc` is a [custom class](#classes-ids-and-attributes), as described later in this guide.
 
-The **output** can be found at the very beginning of this page.
+The **output** ToC can be found at the very beginning of this page.
 
 ----
 
 ## Tables
 
-Tables for markdown are challenging. So, we have two approaches: use markdown markup whenever possible, but if you need pretty
-advanced table's layouts, you are free to add the HTML markup instead.
+Tables for markdown are challenging. So, we have two possible approaches: use markdown markup whenever possible,
+but if you need pretty advanced table layouts, you are free to add them in HTML markup instead.
 
-The following table has a header (first line), then markup to define the desired alignment, then the table body. You can go forward
-and add a separator to use a second and a third table body.
+> Markdown is not a replacement for HTML, or even close to it. ([Daring Fireball][daring-quote])
+{: #quote}
+
+As explained by Darin Fireball, the creator of markdown, it has not been created to replace HTML,
+so there are situations we can't run from using HTML. With complex tables, that's the case.
+
+The following table has a header (first line), then markup to define the desired alignment (dashes and colons),
+then the table body. You can go forward and add a separator to create subsequent table bodies.
 
 However you prepare your table, its design will depend upon on the CSS styles defined for them.
 
@@ -622,12 +661,6 @@ Note that the bars, spaces and dashes were used symmetrically above just for pro
 is not required.
 
 Read through the [Kramdown syntax guide][kram-tables] on tables for further information.
-
-> Markdown is not a replacement for HTML, or even close to it. ([Daring Fireball][daring-quote])
-{: #quote}
-
-Markdown has not been created to replace HTML, so there are situations we can't run from using HTML. With complex tables,
-thats the case.
 
 ----
 
@@ -777,6 +810,7 @@ That may be lazy.
 > Even code blocks:
 >
 >     ruby -e 'puts :works'
+> {: .language-ruby}
 ```
 
 <div class="panel panel-info">
@@ -939,7 +973,7 @@ _Regular_
 
 _Styled_
 
-### <i class="fa fa-puzzle-piece fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> Purple Puzzle Icon
+### <i class="fa fa-gitlab fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> Purple GitLab Tanuki
 {: #puzzle-purple}
 
 </div>
@@ -1150,8 +1184,9 @@ _Markdown editors (type and preview simultaneously)_
 [ssg]: https://www.staticgen.com/
 [ssgs-post]: https://about.gitlab.com/2016/06/10/ssg-overview-gitlab-pages-part-2/
 [ssgs-post-raw]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/posts/2016-06-10-ssg-overview-gitlab-pages-part-2.html.md
-[table generator]: http://www.tablesgenerator.com/html_tables
+[source-img]: https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/images
 [stackedit]: https://stackedit.io/
 [sublime]: https://www.sublimetext.com/3
+[table generator]: http://www.tablesgenerator.com/html_tables
 [w3-video]: http://www.w3schools.com/tags/tag_video.asp
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com
