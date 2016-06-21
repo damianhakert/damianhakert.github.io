@@ -231,7 +231,7 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 1. What professional achievements are you most proud of?
 1. Whose careers have you made better?
 1. How do you keep up-to-date with developments in your profession?
-1. If you don't get this job what will you do?
+1. If you don't get this job what will you do instead?
 1. Are you interviewing anywhere else?
 1. How can we change GitLab as a software product to make it better?
 1. What can we change in GitLab as an organization to make it better, for example the hiring process or the handbook?
