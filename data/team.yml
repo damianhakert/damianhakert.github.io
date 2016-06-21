@@ -573,12 +573,11 @@
   locality: Cleveland, OH
   country: USA
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Infrastructure Lead
+  reports_to: Backend Lead
   picture: jfrye.jpg
   twitter: joshfng
   gitlab: joshfng
   maintains:  |
-                <li>Performance specialist</li>
                 <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           Josh is a software developer with a passion for developer tools, automation,
