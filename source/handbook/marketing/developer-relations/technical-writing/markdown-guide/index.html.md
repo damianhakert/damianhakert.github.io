@@ -438,7 +438,7 @@ For clickable images, simply wrap the image markup into a [link markup](#links):
 
 <div class="panel-body">
 
-[![An awesome example image](/images/about-gitlab-com.png "hello world")*My caption*][about.gitlab.com]
+[![An awesome example image](/images/about-gitlab-com.png "Hello World")*My caption*][about.gitlab.com]
 
 </div>
 </div>
@@ -452,6 +452,7 @@ It [should not be left empty][img-seo], but contain something to describe that i
 visually impaired internauts, for SEO, and it is displayed when, for some reason, that image is not loaded by the browser. 
 - For the same reasons, the image must contain a name related to it. Example: instead of `image-01.jpg`,
 name it `black-dog.jpg`, if it's a photo of a black dog.
+- It's also recommendable adding an image title, as the "Hello World" exemplified above.
 
 ----
 
@@ -493,7 +494,7 @@ This method works for YouTube videos and any other embed video within an `<ifram
 1. Copy the code below and paste it into your markdown file. Leave a blank line above and below it
 1. Go the video URL you want to display
 1. Click on "Share", then "Embed"
-1. Copy the `<iframe>` source (`src`) URL and paste it replacing the `src` below
+1. Copy the `<iframe>` source (`src`) URL **only**, and paste it replacing the `src` below:
 
 ```html
 <!-- blank line -->
@@ -842,6 +843,7 @@ That may be lazy.
 > Even a code block:
 >
 >     ruby -e 'puts :works'
+> {: .language-ruby}
 
 </div>
 </div>
@@ -957,6 +959,9 @@ _
 ```
 ### <i class="fa fa-puzzle-piece fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> Purple Puzzle Icon
 {: #puzzle-purple}
+
+### <i class="fa fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Orange GitLab Tanuki
+{: #tanuki-orange}
 ```
 
 <div class="panel panel-info">
@@ -974,15 +979,21 @@ _Regular_
 _Styled_
 
 ### <i class="fa fa-gitlab fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> Purple GitLab Tanuki
-{: #puzzle-purple}
+{: #tanuki-purple}
+
+### <i class="fa fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:.85em" aria-hidden="true"></i> Orange GitLab Tanuki
+{: #tanuki-orange}
 
 </div>
 </div>
 
-When doing something like this to a heading, it's important give it a custom ID (`{: #puzzle}`), otherwise the one
-automatically created by Kramdown will sound very awkward.
+When doing something like this to a heading, it's important give it a custom ID (e.g., `{: #puzzle}`),
+otherwise the one automatically created by Kramdown will sound very awkward.
 
-See live examples [on this post][ssgs-post], used to illustrate the text.
+The class `fa-fw` is used when you want to display the icons as a list. They will be aligned, as well as
+the text right beside them.
+
+See live examples [on this post][ssgs-post], where the icons are used to illustrate the text.
 
 -----
 
@@ -1061,7 +1072,7 @@ This is a [link]{:hreflang="es"} in Spanish.
 
 ## Mix HTML + Markdown Markup
 
-This is something unthinkable to someone used to regular markdown. And it's all over this document!
+This is something almost "unthinkable" to someone used to regular markdown. And it's all over this document!
 
 Use the following markup at the beginning of your document:
 
@@ -1108,6 +1119,9 @@ This:
   .purple {
     color:rgb(107,79,187);
   }
+  .purple:hover {
+    color:rgb(252,109,38);
+  }
 </style>
 ```
 
@@ -1115,12 +1129,15 @@ This:
   .purple {
     color:rgb(107,79,187);
   }
+  .purple:hover {
+    color:rgb(252,109,38);
+  }
 </style>
 
 Plus:
 
 ```
-Yes, I'm purple!
+Yes, I'm purple! Hover the cursor over me! :)
 {: .purple}
 ```
 
@@ -1133,13 +1150,13 @@ Equals to:
 
 <div class="panel-body">
 
-Yes, I'm purple!
+Yes, I'm purple! Hover the cursor over me! :)
 {: .purple}
 
 </div>
 </div>
 
-Believe it or not! 
+And yes, the `<style>` tag is _in_ this very markdown file. Believe it or not! 
 
 ----
 
@@ -1155,6 +1172,16 @@ _Markdown editors (type and preview simultaneously)_
 - Markdown editor for Mac: [Mou]
 - In-browser markdown editor: [StackEdit]
 
+If you're not used to writing markdown, those editors can be helpful. Check a screenshot below of a file being edited on Mou.
+On your left, there's the markdown markup you're writing, and on your right, a preview of the output. The preview won't
+be exactly as the final result, but it's a very good approximation, which gives you a good idea on what you're doing
+while you type.
+
+![Mou for Mac - screenshot of markdown doc write and preview][mou-screenshot]
+
+[StackEdit] is awesome too, you can work on a markdown file even if you're alway from your computer, or out of resources. It works
+from every major browser and saves automatically your work to Google Drive.
+
 ----
 
 ## Tips &amp; Tricks
@@ -1163,7 +1190,10 @@ _Markdown editors (type and preview simultaneously)_
 - Always jump a line from one markup to another.
 - If you are confused about a markup that you find in this file, check its [`raw`] for reference.
 
+## More
+{: .no_toc}
 
+Anything else you know of and is not described here? Any new magic? Any trick? Please contribute!
 
 <!-- Identifiers, in alphabetical order -->
 
@@ -1179,6 +1209,7 @@ _Markdown editors (type and preview simultaneously)_
 [Markup language]: https://en.wikipedia.org/wiki/Markup_language
 [middleman]: https://middlemanapp.com/
 [mou]: 25.io/mou/
+[mou-screenshot]: /images/mou-screenshot-preview-markdown-guide-handbook.png "Mou for Mac - Markdown Preview"
 [`raw`]: # "ADD RAW HERE"
 [Redcarpet]: http://git.io/ld_NVQ
 [ssg]: https://www.staticgen.com/
