@@ -24,6 +24,7 @@ title: "People Operations"
    - [Processing changes](#processing-changes)
    - [Using BambooHR](#bamboohr)
    - [Settings in BambooHR](#bamboohr-settings)
+   - [Asset Tracking](#asset-tracking)
    - [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)
    - [Administrative details of benefits for US-based employees](#benefits-us)
    - [Using TriNet](#using-trinet)
@@ -180,6 +181,21 @@ Adding a New Job Title
 1. Select Job Title
 1. Add new job title to the drop down list
 
+Add a New Division
+1. Click on Settings
+1. Select Employee Field
+1. Select Division
+1. Add new division
+
+### Asset Tracking<a name="asset-tracking"></a>
+
+Items paid for by the company are property of the company and need to be reported to People Ops for proper asset tracking. The information is then entered into BambooHR by People Ops. 
+1. Go to the Employee in BambooHR
+1. Click on the Assets Tab
+1. Click Update Assets
+1. Enter all assets indivdually with as much information as possible. 
+
+
 ### Managing the PeopleOps onboarding tasks <a name="manage-onboarding-tasks"></a>
 
 Here are some useful guidelines to set up everything for our new team members with the onboarding issue.
@@ -268,7 +284,7 @@ Employer enters the employee data in the HR Passport with the information below
     * Address
     * Home phone
     * Home email
-    * Gener
+    * Gender
     * Ethnicity (you must select something - guess if employee declines to state)
     * Military status
 
@@ -345,12 +361,38 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Click Find.
 1. Select find person by Name.
 1. Type the name, click search.
-1. Select Employment Datat on the left side of the screen.
+1. Select Employment Data on the left side of the screen.
 1. Click Employee Pay Change
 1. Select Effective Date.
 1. Enter new rates.
 1. Answer the worker's compensation question.
 1. Save.
+
+##### Record Job Code Change
+
+1. Go to HR Passport homepage.
+1. Click Find.
+1. Select find person by Name.
+1. Type the name, click search.
+1. Select Employment Data on the left side of the screen.
+1. Select the reason for the change.
+1. Enter the effective date.
+1. Click next. 
+1. Select the reason.
+1. Change the business title. Also, change any other applicable fields. 
+1. Enter yes or no under the worker's comp section.
+1. Click Update
+
+##### Enter a Bonus into TriNet
+
+1. Go to HR Passport homepage
+1. Under "My Company" select "Payroll Entry & Admin"
+1. Select the proper payroll 
+1. Under Other Earnings, select the BNO code and enter the amount of the bonus.
+1. **Never** hit submit. 
+1. Click Save when done.
+Note: Make sure to file all appropriate documentation in BambooHR. 
+
 
 ### Using RingCentral<a name="ringcentral"></a>
 
