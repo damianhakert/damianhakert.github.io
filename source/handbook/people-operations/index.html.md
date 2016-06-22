@@ -23,7 +23,7 @@ title: "People Operations"
    - [Setting up new contracts](#new-contracts)
    - [Processing changes](#processing-changes)
    - [Using BambooHR](#bamboohr)
-   - [Settings in BambooHR] (#bamboohr-settings)
+   - [Settings in BambooHR](#bamboohr-settings)
    - [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)
    - [Administrative details of benefits for US-based employees](#benefits-us)
    - [Using TriNet](#using-trinet)
@@ -164,7 +164,7 @@ test account that does not have admin privileges.
 1. in the note to the team, point to the documentation created in step 1, explain the need and
 the ask, and who to turn to in case of questions.
 
-###Settings in BambooHR<a name="bamboohr-settings"></a>
+### Settings in BambooHR<a name="bamboohr-settings"></a>
 
 Changing a Format (Example: Date)
 
