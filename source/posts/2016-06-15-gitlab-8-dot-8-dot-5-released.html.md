@@ -1,7 +1,7 @@
 ---
 title: "GitLab 8.8.5 released"
-author: GitLab
-author_twitter: gitlab
+author: Stan Hu
+author_twitter: stanhu
 ---
 
 Today we are releasing the versions 8.8.5, 8.7.7, 8.6.9, 8.5.13, 8.4.11,
