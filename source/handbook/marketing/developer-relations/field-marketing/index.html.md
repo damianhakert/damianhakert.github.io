@@ -9,12 +9,12 @@ title: "Field Marketing"
 
 ## On this page
 * [Events overview](#events)
-* [Events overview](#goals)
+* [Events goals](#goals)
 * [Evaluating events](#evaluate)
 * [Promoting events](#promotion)
 * [Booth guidelines](#guidelines)
 * [Networking tips](#networking)
-* [Events overview](#attire)
+* [Events attire](#attire)
 * [Booth staffing](#boothstaffing)
 * [Event followup](#followup)
 * [Speaker information](#speakerportal)
@@ -31,7 +31,7 @@ Field marketing includes event marketing and swag production.
 * Get GitLab team members out to meet people in the community. People that you meet in person are more likely to become evangelists for you.
 * If you go talk at small events you'll see that over time you get into bigger ones.
 
-## Events Goals<a name="goals"></a>
+## Event Goals<a name="goals"></a>
 - Evangelism (brand) - Talk to as many people as we can about GitLab. Our booth presence we must be friendly, knowledgeable, and outgoing.
 - Sales leads (revenue) - We will collect business cards and email addresses for potential leads.
 - Hiring (company) - Always be recruiting. See someone doing a great job of evangelism for another product? Ask that person for coffee.
@@ -91,6 +91,16 @@ Field marketing includes event marketing and swag production.
 - Everyone gets shy sometimes, be the brave one and introduce yourself to new people.
 - Feel free to talk about our next release, GitLab [strategy](https://about.gitlab.com/strategy/), or our [product direction](https://about.gitlab.com/direction/#vision).
 
+## Booth Set Up<a name="setup"></a>
+
+- To Bring: 
+    - Generic business cards
+    - [Lego business card holder] (https://gitlab.com/gitlab-com/marketing/issues/306#note_12536262)
+    - Stickers + any other swag
+    - Events lap top (for slide show) + charger
+    - Back up power banks
+    - Gum
+
 ## Suggested Attire<a name="attire"></a>
 - Wear at least one piece of branded GitLab clothing.
 - If the conference is business casual try some nice jeans (no holes) or pants.
@@ -98,7 +108,7 @@ Field marketing includes event marketing and swag production.
 - A smile.
 
 ## Booth Staffing<a name="boothstaffing"></a>
-- Ideally shifts will be around 3 hours or less.
+- Ideally booth shifts will be around 3 hours or less.
 - Staff more people during peak traffic hours.
 - Do not have shift changes during peak hours.
 - Send out calendar invites to booth staff with the following information:
