@@ -457,7 +457,7 @@ Notes:
 and public domain images are permitted.
 - The text inside the square brackets is an image attribute called `ALT`, which stands for _alternative text_.
 It [should not be left empty][img-seo], but contain something to describe that image. `ALT` is useful for
-visually impaired internauts, for SEO, and it is displayed when, for some reason, that image is not loaded by the browser. 
+visually impaired internauts, for SEO, and it is displayed when, for some reason, that image is not loaded by the browser.
 - For the same reasons, the image must contain a name related to it. Example: instead of `image-01.jpg`,
 name it `black-dog.jpg`, if it's a photo of a black dog.
 - It's also recommendable adding an image title, as the "Hello World" exemplified above.
@@ -465,31 +465,6 @@ name it `black-dog.jpg`, if it's a photo of a black dog.
 ----
 
 ## Videos
-
-<style>
-.video_container {
-   position: relative;
-   padding-bottom: 56.25%; /* 16:9 - this is responsive by adjusting the hight according to the width! */
-   padding-top: 0px;
-   height: 0;
-}
-
-.video_container iframe {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-}
-
-.video_container video {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-}
-</style>
 
 <!-- IT'S GOING TO BE NECESSARY ADD THESE STYLES ^^ TO OUR CSS, OTHERWISE VIDEOS WON'T BE RESPONSIVE! WELL, NOT PROPORTIONALLY RESPONSIVE. -->
 
@@ -544,7 +519,7 @@ compatibility: `.mp4`, `.ogg` and `.webm`.
     <source src="path/to/video.mp4" type="video/mp4">
     <source src="path/to/video.ogg" type="video/ogg">
     <source src="path/to/video.webm" type="video/webm">
-  </video> 
+  </video>
 </figure>
 <!-- blank line -->
 ```
@@ -558,7 +533,7 @@ compatibility: `.mp4`, `.ogg` and `.webm`.
 <figure class="video_container">
   <video controls="true" allowfullscreen="true" poster="/images/default-blog-image.png">
     <source src="html5-demo.mp4" type="video/mp4">
-  </video> 
+  </video>
 </figure>
 </div>
 </div>
@@ -566,7 +541,7 @@ compatibility: `.mp4`, `.ogg` and `.webm`.
 _**Note:** in case you don't have all formats recommended by **w3schools**, you can use just one of them,
 but your video most likely won't be supported in all devices and browsers. The video above (`.mp4` only)
 worked on Mozilla Firefox for OS X, Android and Windows, and on Chrome for Android and for Windows.
-But it may not work on other devices/browser, such as Chrome for OS X and iOS, or Safari. 
+But it may not work on other devices/browser, such as Chrome for OS X and iOS, or Safari.
 In fact, the best option is using YouTube or Vimeo embed videos in `<iframe>` tags._
 
 ----
@@ -657,14 +632,6 @@ the `<table>` element a [custom class and/or a custom ID](#classes-ids-and-attri
 
 </div>
 </div>
-
-<style>
-blockquote {
-  font-size: 14px;
-  color: #666;
-  font-style: italic;
-}
-</style>
 
 <!-- ANOTHER CHANGE NECESSARY TO ADD TO CSS ^^ -->
 
@@ -803,7 +770,7 @@ Blockquotes are good resources to mentioning someone else's quotes, like we did 
 Also, can be use to emphasize a sentence or a small paragraph.
 
 ```md
-> This is a blockquote. 
+> This is a blockquote.
 >     On multiple lines.
 That may be lazy.
 >
@@ -836,7 +803,7 @@ That may be lazy.
 
 <div class="panel-body">
 
-> This is a blockquote. 
+> This is a blockquote.
 >     On multiple lines.
 That may be lazy.
 >
@@ -848,7 +815,7 @@ That may be lazy.
 >
 > > A nested blockquote.
 >
-> ### Headers work 
+> ### Headers work
 > {:.no_toc}
 >
 > * lists too
@@ -895,7 +862,7 @@ _**Note:** this is a note, which is something that needs to be mentioned but is 
 ```
 
 The output will be similar to the notes on regular pages, just the font color will be a little lighter, and
-the font size, a little smaller. 
+the font size, a little smaller.
 
 ----
 
@@ -1173,7 +1140,7 @@ Yes, I'm purple! Hover the cursor over me! :)
 </div>
 </div>
 
-And yes, the `<style>` tag is _in_ this very markdown file. Believe it or not! 
+And yes, the `<style>` tag is _in_ this very markdown file. Believe it or not!
 
 ----
 
