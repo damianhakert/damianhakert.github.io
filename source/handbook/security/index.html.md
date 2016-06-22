@@ -32,8 +32,7 @@ title: Security Handbook
    service.
 1. Do not let your password manager store the **master password**. It is okay to
    store the login.
-1. Enable two-factor authentication (2FA) with [Google Authenticator] or
-   1Password for your Google, Slack, GitLab.com, and dev.gitlab.org accounts.
+1. Enable two-factor authentication (2FA) with 1Password [auto-generated TOTP] for your Google, Slack, GitLab.com, and dev.gitlab.org accounts. The nice thing about 1Password is that it migrates when you have a new phone, unlike Google Authenticator.
 1. **Encrypt** your computer's home folder. Use [FileVault] on your Mac to
    encrypt the entire disk.<a name="encrypt-home-folder"></a>
 1. Set up a screen saver with **password lock** on your laptop. The timeout
