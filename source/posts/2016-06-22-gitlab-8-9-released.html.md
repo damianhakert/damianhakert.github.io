@@ -221,7 +221,7 @@ GitLab now fully supports the Universal 2nd Factor (U2F)
 authentication standard. This means you can use a device like the U2F security
 keys by Yubico, known as YubiKeys as your 2nd factor when signing into GitLab.
 
-Read more about our support for U2F in our [our blog post about it](https://about.gitlab.com/2016-06-22-gitlab-adds-support-for-u2f)
+Read more about our support for U2F in our [our blog post about it](https://about.gitlab.com/2016/06/22/gitlab-adds-support-for-u2f)
 and the documentation on [Two-factor Authentication][2fa] in GitLab.
 
 [2fa]: http://docs.gitlab.com/ce/profile/two_factor_authentication.html
