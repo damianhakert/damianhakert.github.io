@@ -10,9 +10,10 @@ extra_css:
 
 ## Index
 
-- [What is Gogs?](#What-is-Gogs?)
-- [Features Shared with Gogs & GitLab](#Features-Shared-with-Gogs-&-GitLab)
+- [What is Gogs?](#what-is-gogs?)
+- [Features Shared with Gogs & GitLab](#features-shared-with-gogs-&-gitLab)
 - [GitLab Features Currently Not Available On Gogs](#gitlab-features-currently-not-available-on-gogs)
+- [Gogs Features Not Available in GitLab](#gogs-features-not-vailable-in-gitLab)
 
 ## What is Gogs?
 
