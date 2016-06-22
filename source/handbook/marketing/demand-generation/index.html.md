@@ -43,6 +43,7 @@ The Demand Generation organization includes Demand Generation, Business Developm
 1. Lead comes into BDR team via one of the named Inbound Lead routes above.
 1. Lead is input into Marketo.
 1. Lead is assigned according to assignment rules.
+1. If the lead is in a Partner Primary Country (currently: Brasil, China, India, Korea, Russia) Lead goes to reseller unless it is a quote request.
 1. If region is EMEA, lead goes directly to EMEA BDR team.
 1. If region is APAC, lead goes directly to APAC Sales Director.
 1. All other regions go directly to NA BDR team.
