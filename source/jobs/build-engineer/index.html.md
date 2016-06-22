@@ -1,11 +1,11 @@
 ---
 layout: job_page
-title: "Software Packaging Engineer"
+title: "Build Engineer"
 ---
 
 ## Responsibilities
 
-* As a Software Packaging engineer your main focus will be on [omnibus-gitlab][], the software that enables our users to install, upgrade, and use GitLab easily
+* As a Build engineer your main focus will be on [omnibus-gitlab][], the software that enables our users to install, upgrade, and use GitLab easily
 * Work on improving various aspects of the omnibus-gitlab package (size, speed, reliability)
 * Implement and bundle new services into the omnibus-gitlab package, for more details see our [direction scope][]
 * Work with the rest of the GitLab development team in supporting newly created features and resolving bugs on the omnibus-gitlab project side
@@ -20,10 +20,9 @@ title: "Software Packaging Engineer"
 
 ## Requirements for Applicants
 
+* Ruby and Chef experience is required
 * Linux experience, comfortable between Debian and RHEL based systems
-* Chef experience
-* Programming experience (Ruby and Ruby on Rails preferred; for GitLab debugging)
-* Knowledge of container ecosystems (Docker, rkt, etc.)
+* Familiarity with container ecosystems (for example: Docker, rkt, etc.)
 * Packaging experience is an advantage, not a requirement. However, you are
   expected to have basic knowledge of at least .deb and .rpm package archives.
 * Collaborative team spirit with good communication skills
