@@ -823,7 +823,9 @@ That may be lazy.
 >
 > Even code blocks:
 >
->     ruby -e 'puts :works'
+>      def hello
+>        puts "Hello world!"
+>      end
 > {: .language-ruby}
 ```
 
@@ -855,7 +857,9 @@ That may be lazy.
 >
 > Even a code block:
 >
->     ruby -e 'puts :works'
+>      def hello
+>        puts "Hello world!"
+>      end
 > {: .language-ruby}
 
 </div>
