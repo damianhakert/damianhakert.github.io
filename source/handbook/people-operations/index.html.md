@@ -50,7 +50,7 @@ In general, the People Operations team and processes are here as a service to th
 The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is in BambooHR, and is accessible to all team members.
 
 - Please make sure that your own information stays up to date, and reach out to People Ops if you need any help in doing so.
-- Please make sure that your address and phone information are written in such a way that your team mates can reach you from a different country. So, for example, include `+[country code]` in front of your phone number. 
+- Please make sure that your address and phone information are written in such a way that your team mates can reach you from a different country. So, for example, include `+[country code]` in front of your phone number.
 
 
 ## Office addresses<a name="addresses"></a>
@@ -64,7 +64,9 @@ The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is
 
 1. We're an open organization and want to be transparent about compensation principles, while not disclosing individual compensation. We're working on having a formula for compensation but this is hard due to the need make the formula work across the globe.
 1. Compensation is based on market rate for the region, your job title, and your (expected) level of performance.
-1. Many of our team members who have joined have taken a decrease in compensation. We pay market rate (30th-60th percentile) for most positions, and we also offer stock options for most positions. All positions have the better-than-market benefits of being part of a remote-only company (flexible, freedom) on a mission to make it so that [everyone can contribute](https://about.gitlab.com/strategy/#why), and working on an open-source project in an open and transparent way.
+1. We pay market rate for most non-engineering positions, and have the better-than-market benefit of being a remote-only company (flexible, freedom).
+1. We pay on the lower end of market rates for engineering positions because we offer the benefit of working on open source (great workflow, peers, build reputation); most engineers take a pay cut to join.
+1. We also offer [stock options](/handbook/stock-options/) for most positions.
 1. We base compensation on current position and performance, not on what we paid you last month. This means 50% raises are possible, but also that there are no automatic raises, and we even (although rarely) lower compensation.
 1. When your position or performance changes we'll try to adjust your pay as soon as possible: the manager should take initiative, people should not have to ask for it. But people are free to ask if their manager if they think they are due for a raise.
 1. The market rate depends on your metro region. When you move you have to inform us and we may adjust your compensation up or down.
@@ -122,13 +124,13 @@ Follow these steps to send out a signature request.
 1. With more than one signature required, assign signing order (for contracts or offer letters, always have the GitLab Signatory sign first)
 1. Add the People Ops team to the cc
 1. Click on "Prepare Docs for signing"
-1. Drag & Drop the Signature and Date fields to the corresponding empty spaces in the document (you can select the signee with the pop up screen) 
-1. For GitLab Inc. agreements, add a required textbox to Exhibit A, and a supplemental larger textbox below for a comment that is not required. 
+1. Drag & Drop the Signature and Date fields to the corresponding empty spaces in the document (you can select the signee with the pop up screen)
+1. For GitLab Inc. agreements, add a required textbox to Exhibit A, and a supplemental larger textbox below for a comment that is not required.
 1. Add a title and a message for the recipient. For contract use for example: "Dear [...], You can sign [document type] with HelloSign. Once you've signed you will receive a copy by email. If you have any questions, feel free to reach out"
 1. Request Signature.
 
 Once you've sent out the document you will receive email notifications of the progress and a copy of the signed document after all parties have signed.
-If you need to make a change, there is an "Edit & Resend" option in HelloSign. If a new document has to be uploaded, cancel the original and stage a new one to send for signatures. 
+If you need to make a change, there is an "Edit & Resend" option in HelloSign. If a new document has to be uploaded, cancel the original and stage a new one to send for signatures.
 
 ### Processing changes<a name="processing-changes"></a>
 
@@ -166,7 +168,7 @@ the ask, and who to turn to in case of questions.
 
 Changing a Format (Example: Date)
 
-1. Click on Settings 
+1. Click on Settings
 1. Choose Account
 1. Select General Settings
 1. Change the date format to match desired output
@@ -206,8 +208,8 @@ Open the Team Agenda google doc, and on the starting day add an Agenda item:
 "[Hiring manager name]: Welcome [name new team member] joining as [job title]"
 as the first item on the agenda
 - **Create new profile for team member in BambooHR, and input relevant data**
-Once the new team member has been transfered from Workable to BambooHR, go to the Dashboard and search their name. Under the Personal tab, add country, work email, and personal email. Under the Job tab, enter the compensation from the contract. Note: We do not use the pay period or pay type option in this list, but BambooHR cannot remove it. 
-Next enter job information. Be sure to verify the proper title and contract type. 
+Once the new team member has been transfered from Workable to BambooHR, go to the Dashboard and search their name. Under the Personal tab, add country, work email, and personal email. Under the Job tab, enter the compensation from the contract. Note: We do not use the pay period or pay type option in this list, but BambooHR cannot remove it.
+Next enter job information. Be sure to verify the proper title and contract type.
 - **Invite to team meeting and GitLab 101 meeting**
 Go to the team call meeting on the starting date of the team member and the next
 scheduled GitLab 101 in the Availability calendar. Click on "edit event" to open.
@@ -215,7 +217,7 @@ On the right enter the team member's GitLab email address in the  "add guests"
 section and click save. When asked select "all events" to add to all scheduled
 meetings and "send" out the invitation.
 - **Send swag codes to new team members**
-To celebrate a new team member joining our team, send an email with $50 swag credits for our [Swag Store](https://gitlab.mybrightsites.com/), as noted in the onboarding issue. You can get the codes for the swag by finding the Google doc titled "Tshirt and stickers coupons 2.12.16". 
+To celebrate a new team member joining our team, send an email with $50 swag credits for our [Swag Store](https://gitlab.mybrightsites.com/), as noted in the onboarding issue. You can get the codes for the swag by finding the Google doc titled "Tshirt and stickers coupons 2.12.16".
 - **Order business cards**
 Go to the "Notes" field in BambooHR and enter the info needed for the Business Cards.
 Once every week/few days or how often needed, run the "Business Cards order" report in the Reports - My Reports menu of BambooHR.
@@ -348,7 +350,7 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Select Effective Date.
 1. Enter new rates.
 1. Answer the worker's compensation question.
-1. Save. 
+1. Save.
 
 ### Using RingCentral<a name="ringcentral"></a>
 
