@@ -27,3 +27,4 @@ GitLab is adding the next essential member who can help drive operational improv
 * Proficient with excel and google sheets
 * International experience preferred.
 * Detail-oriented, self-directed and able to effectively complete tasks with minimal supervision
+* Proficiency with GitLab
