@@ -36,7 +36,7 @@ title: "People Operations"
 
 - [Hiring process](/handbook/hiring/)
 - [Onboarding](/handbook/general-onboarding/)
-- [Underperformance](/handbook/hiring/underperformance.html)
+- [Underperformance](/handbook/underperformance)
 - [Offboarding](/handbook/offboarding/)
 - [Benefits](/handbook/benefits/)
 - [Travel](/handbook/travel/)
@@ -384,10 +384,23 @@ this seem to vary a bit between mortgage providers.
 
 ## Involuntary Terminations<a name="involuntary-terminations"></a>
 
-Involuntary termination of any team member is never easy. We've created some guidelines and information to make this process as painless and easy as possible for everyone involved. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance](/handbook/hiring/underperformance.html), as well as the [offboarding](/handbook/offboarding/) checklist.
+Involuntary termination of any team member is never easy. We've created some guidelines and information to make this process as painless and easy as possible for everyone involved. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance](/handbook/underperformance), as well as the [offboarding](/handbook/offboarding/) checklist.
+
+### Overall process
+
+Ideally, the manager and the team member have walked through the guidelines on [underperformance](/handbook/underperformance) before reaching this point.
+
+1. Manager: reach out to People Operations for assistance. People Ops will ask about what the performance issues have been, how they have been attempted to be addressed, and will then prepare for the termination.
+1. Manager and People Ops: discuss best mode of communicating the bad news to the team member. This discussion can happen via a private chat-channel, but it is best to be done via a video hangout. Set up a private chat-channel in any case, since this is also useful to have during the eventual call with the affected team member.
+1. Manager and People Ops: Decide who will handle which part of the conversation, and if desired, practice it. It is strongly advised to have someone from People Ops on the call when the bad news is delivered.
+1. Manager and People Ops: Decide what offboarding actions need to be taken _before_ the call (e.g. revoke admin permissions), or _during_ the call (e.g. revoke Slack and Gmail access), and which ones can wait until later (see the [offboarding checklist](/handbook/offboarding)). Make sure someone with the necessary admin privileges is on hand (in the private chat-channel) to assist with those sensitive offboarding steps that should occur relatively quickly. Do not create the offboarding issue until _after_ the call, since even confidential issues are still visible to anyone in the team.
+1. Manager: Set up a call with the team member in question. Make a separate private calendar event to invite the People Ops representative.
+1. On the call: deliver the bad news up-front, do not beat around the bush and prolong the inevitable pain for everyone involved. A sample leading sentence can be "Thanks for joining the call ___ . Unfortunately, the reason I wanted to speak with you, is because we have decided that we have to let you go and end your employment / contract with GitLab." At this point, hand over the call to People Ops to continue. People Ops explains what led to this decision and points to the process that was followed to reach this decision. People Ops to make it clear that the decision is final, but also to genuinely listen to their side of the story since there may be useful lessons in what they say for the rest of the team e.g. regarding hiring and vetting practices.
+1. People Ops: Make sure to communicate the [practical points](#offboarding-points) from the termination memo outlined below.
+1. People Ops: Create the [offboarding checklist issue](/handbook/offboarding), and go from there.
 
 
-### Points to cover during the offboarding call, with sample wording
+### Points to cover during the offboarding call, with sample wording<a name="offboarding-points"></a>
 
 The following points need to be covered for any team member:
 
