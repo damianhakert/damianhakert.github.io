@@ -138,7 +138,12 @@
 }
 
 .featured-item-body {
+  position: relative;
   padding: 22px 35px 35px;
+
+  @media (min-width: $screen-md-min) {
+    padding-bottom: 107px;
+  }
 
   .currency {
     position: relative;
@@ -168,6 +173,14 @@
 
   .featured-item-button {
     margin-top: 30px;
+
+    @media (min-width: $screen-md-min) {
+      position: absolute;
+      left: 50%;
+      bottom: 35px;
+      width: 250px;
+      margin-left: (-250px / 2);
+    }
   }
 }
 
@@ -263,7 +276,7 @@
 
 .faq-item {
   width: 100%;
-  color: $color-gray;
+  color: $blog-text-color;
   font-size: 18px;
 
   &.is-open {
@@ -282,7 +295,7 @@
 
 .faq-inner-item {
   padding-top: 25px;
-  border-bottom: 1px solid $color-gray;
+  border-bottom: 1px solid $navbar-default-border;
 }
 
 .faq-question {
@@ -297,6 +310,7 @@
   }
 
   .fa {
+    color: $faq-arrow-color;
     transition: all .2s;
   }
 }
