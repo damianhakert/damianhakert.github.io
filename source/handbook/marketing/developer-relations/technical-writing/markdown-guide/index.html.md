@@ -565,9 +565,9 @@ compatibility: `.mp4`, `.ogg` and `.webm`.
 
 _**Note:** in case you don't have all formats recommended by **w3schools**, you can use just one of them,
 but your video most likely won't be supported in all devices and browsers. The video above (`.mp4` only)
-works on Mozilla Firefox for OS X, Android and Windows, and on Chrome for Android and for Windows.
-Does not work on Chrome for OS X and iOS, neither on Safari. The best option for most cases is using
-YouTube or Vimeo embed videos in `<iframe>` tags._
+worked on Mozilla Firefox for OS X, Android and Windows, and on Chrome for Android and for Windows.
+But it may not work on other devices/browser, such as Chrome for OS X and iOS, or Safari. 
+In fact, the best option is using YouTube or Vimeo embed videos in `<iframe>` tags._
 
 ----
 
