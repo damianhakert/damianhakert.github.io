@@ -4,15 +4,19 @@ title: "Hiring"
 ---
 ## On this page:
 
-* [Vacancy Creation Process](#vacancy-creation-process)
-* [Advertising the job description](#job-advertising)
-* [Hiring Process](#hiring-process)
-* [Screening Call](#screening-call)
-* [Interviewing](#interviewing)
-* [Interview Questions](#interview-questions)
-* [Reference calls](#reference-calls)
-* [Getting Contracts Ready, Reviewed, and Signed](#prep-contracts)
-* [Underperformance](#underperformance)
+- [Vacancy Creation Process](#vacancy-creation-process)
+- [Advertising the job description](#job-advertising)
+- [Hiring Process](#hiring-process)
+   - [General points about moving applicants through the process](#general-points)
+   - [Typical process](#typical-process)
+   - [Service Engineering Hiring Process](#se-process)
+   - [Rejecting applicants](#rejecting)
+- [Screening Call](#screening-call)
+- [Interviewing](#interviewing)
+- [Interview Questions](#interview-questions)
+- [Reference calls](#reference-calls)
+- [Getting Contracts Ready, Reviewed, and Signed](#prep-contracts)
+- [Underperformance](#underperformance)
 
 ## Vacancy Creation Process<a name="vacancy-creation-process"></a>
 
@@ -75,7 +79,7 @@ List on:
 
 ## Hiring Process<a name="hiring-process"></a>
 
-### General points about moving applicants through the process
+### General points about moving applicants through the process<a name="general-points"></a>
 
 **Inform applicants about what stage they are in.** So for example, if in the hiring process for the particular position / team you've agreed that there will be 4 stages, make sure to inform the applicant of this during each call / stage: "You are in stage X, and will be moving to stage Y". The process can differ from team to team, and from position to position.
 
@@ -96,7 +100,7 @@ List on:
 1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
 1. Hiring manager ensures that the contract is signed, and People Ops [starts the onboarding process](#move-to-onboarding).
 
-#### Service Engineering Hiring Process
+### Service Engineering Hiring Process<a name="se-process"></a>
 
 For the specific position of Service Engineering please follow these steps (instructions are above):
 
@@ -109,84 +113,6 @@ For the specific position of Service Engineering please follow these steps (inst
 1. VP level interview
 1. CEO Interview
 1. Make a verbal or written offer with CEO authorization
-
-### Interviewing
-
-Interviewing is hard, it's hard for both sides. In less than one hour you both need to get to know each other and
-both will have to make the decision if you want to work with this person.
-This is an effort to provide a set of guidelines to make interviewing a bit less traumatizing.
-
-
-#### Before the interview
-
-* Screening - writing a good resume is an art, and not many people master it. When you read a resume look for evolution rather than buzzwords, and if something sparks your curiosity, ask.
-* Spend some time talking through email to get to know each other. Since GitLab is remote-only company, most of our interactions happen on written form. Check that this person can communicate efficiently this way. If it is for a technical position, ask open ended technical questions. The value of these questions is that there is no absolute good answer, it lets you see how this person thinks.
-* If the process is taking too long, apologize and explain what is going on. It is really frustrating to not hear anything from the other side, and then resume conversations like nothing has happened. Show respect for the time of the candidate.
-* If the process ends at this stage, be kind, and if the interviewee asks for feedback, give honest constructive feedback that explains why have we taken our decision.
-
-#### During the interview
-
-1. There is an unbalanced power relationship during the interview. The interviewer is in a powerful position. It will decide if this candidate will get an offer or not. Be mindful of this. Be as friendly and approachable as you can. Be frank about what is going on, explain how the interview is going to be and set clear expectations: tell it like it is. This has the added value of getting people comfortable (over time) and allows you to get much better data.
-1. Communication is really hard, don't expect perfect answers. Every person is different and they will express things differently, they are not listening your train of thought so they will say things differently than what you expect, work on approaching to what they are trying to say rather than demanding them to approach to you. Once you have an answer validate your assumptions by explaining to the interviewed what did you understood and allow the candidate to correct your story.
-1. Don't go checking for perfect theoretical knowledge that the interviewee can google when needed, or give a problem that took you 2 months to dominate yet you expect your interviewee to master in a 30 minutes conversation. Be fair.
-1. Aim to at the end of the interview know if you want to work with this person.
-1. Interview for soft skills, really, do it. Pick some behavioural questions to get data on what has the candidate done before and how his behaviour aligns to the company values. We are all going to be much happier if we all naturally agree on how things should be.
-1. Consider having more people interviewing with you, different people see and value different things. More data helps making better decisions and ends up being a better use of interviewing time for both the candidate and the company.
-1. Always let the interviewee ask questions at the end, and be frank in your answers.
-
-##### Technical interviews
-
-1. Try to get a real sample of work (which we already do for developers by working on GitLab issues) Avoid puzzles or weird algorithm testing questions. Probing for data structures is fine as long as it is relevant to the job the person is going to do.
-1. Be mindful of the background of the candidate, someone who knows 10 languages already (and some languages in particular, Perl for ex), may pickup ruby in a second given the right chance. Don't assume that someone with a Java background will not be capable of moving to a different stack.
-1. Consider including non technical people performing soft skills questions. Because technical people should be capable of talking to non-technical just fine, we should assess it.
-
-#### Behavioral questions (STAR)
-
-The goal of these questions is to get the candidate to share something they did in the past. Previous behaviour is considered the best way to predict how a person is going to act in the future.
-
-They usually start with the form "Can you tell me about a time when...". The kind of answer that we are looking for is to get a story that is structured following the Situation, Task, Action, Result.
-
-There is no right answer, what matters here is to hear the candidate and gather data on how is it telling the story.
-
-Some things to pay attention to:
-
-* What was the candidate role? Was it a leader? A follower? Why?
-* What is it highlighting as important? Did it matter?
-* Is it clearly explained? Is the story well told? If it is a technical story and the interviewer is a non-technical person, are things being explained in a way that make sense?
-* If you ask "why?" will you get an actual explanation?
-* Is the Task and the Action clear? Is it well reasoned?
-* Is there a result or was the story left unfinished? Is it still going on?
-* Was the result measured in any way? How does the candidate know that the result matches the expectation? Was there an expectation?
-
-These questions can be quite unbalancing and can increase the stress during the interview. Again, be kind and help the candidate understand what are you looking for, provide a sample if it is needed and you notice that the candidate is blocked.
-
-It can also happen that the candidate does not have a story to share with you, that is OK. It's just another data point that should be added to the feedback (I failed to get data on ...), just move to the next question, just be sure to have a few questions as a backup.
-
-These questions should be aligned with our company values. What we are looking for is understanding how this candidate behaves, and if this behaviour matches the one we look for in our company values.
-
-Once you have your notes, tell the candidate what you understood, repeat the story, and let them correct you as needed.
-
-#### Interview feedback
-
-Always leave feedback, this will allow the rest people to understand what happened and why you took the decision you took.
-
-One way of writing the feedback is as follows:
-
-> Vote: inclined/not inclined
->
-> Summary: your general impressions, a brief description on what have you seen, where you stand, and why.
->
-> Pros: what is good, and where did you found it during the interview, bullet points is fine.
->
-> Cons: weak spots. Where the candidate failed to you, why, consider that some things can be taught or learnt.
->
-> Interview notes: What questions were asked, what story you got back. Ex.
->
->   Tell me about a time when you did X
->
->   The candidate told me a story when she was working in his current gig doing... They had to do... It went well because she took the leadership and .... In the end they increased their sales in a 30%, she measured it by doing ...
-
-The vote is critical as it is telling the rest of the people what is your final thinking here. The rest should explain why do you think so.
 
 ### Rejecting applicants<a name="rejecting"></a>
 
@@ -217,6 +143,84 @@ Questions are:
 
 At the end of the screening call applicant should be told what the timeline is for what the next steps are (if any).
 An example message would be "We are reviewing applications through the end of next week, and will let you know by the end of two weeks from today whether you've been selected for the next round or not. Please feel free to ping us if you haven't heard anything from us by then."
+
+## Interviewing<a name="interviewing"></a>
+
+Interviewing is hard, it's hard for both sides. In less than one hour you both need to get to know each other and
+both will have to make the decision if you want to work with this person.
+This is an effort to provide a set of guidelines to make interviewing a bit less traumatizing.
+
+
+### Before the interview
+
+* Screening - writing a good resume is an art, and not many people master it. When you read a resume look for evolution rather than buzzwords, and if something sparks your curiosity, ask.
+* Spend some time talking through email to get to know each other. Since GitLab is remote-only company, most of our interactions happen on written form. Check that this person can communicate efficiently this way. If it is for a technical position, ask open ended technical questions. The value of these questions is that there is no absolute good answer, it lets you see how this person thinks.
+* If the process is taking too long, apologize and explain what is going on. It is really frustrating to not hear anything from the other side, and then resume conversations like nothing has happened. Show respect for the time of the candidate.
+* If the process ends at this stage, be kind, and if the interviewee asks for feedback, give honest constructive feedback that explains why have we taken our decision.
+
+### During the interview
+
+1. There is an unbalanced power relationship during the interview. The interviewer is in a powerful position. It will decide if this candidate will get an offer or not. Be mindful of this. Be as friendly and approachable as you can. Be frank about what is going on, explain how the interview is going to be and set clear expectations: tell it like it is. This has the added value of getting people comfortable (over time) and allows you to get much better data.
+1. Communication is really hard, don't expect perfect answers. Every person is different and they will express things differently, they are not listening your train of thought so they will say things differently than what you expect, work on approaching to what they are trying to say rather than demanding them to approach to you. Once you have an answer validate your assumptions by explaining to the interviewed what did you understood and allow the candidate to correct your story.
+1. Don't go checking for perfect theoretical knowledge that the interviewee can google when needed, or give a problem that took you 2 months to dominate yet you expect your interviewee to master in a 30 minutes conversation. Be fair.
+1. Aim to at the end of the interview know if you want to work with this person.
+1. Interview for soft skills, really, do it. Pick some behavioural questions to get data on what has the candidate done before and how his behaviour aligns to the company values. We are all going to be much happier if we all naturally agree on how things should be.
+1. Consider having more people interviewing with you, different people see and value different things. More data helps making better decisions and ends up being a better use of interviewing time for both the candidate and the company.
+1. Always let the interviewee ask questions at the end, and be frank in your answers.
+
+#### Technical interviews
+
+1. Try to get a real sample of work (which we already do for developers by working on GitLab issues) Avoid puzzles or weird algorithm testing questions. Probing for data structures is fine as long as it is relevant to the job the person is going to do.
+1. Be mindful of the background of the candidate, someone who knows 10 languages already (and some languages in particular, Perl for ex), may pickup ruby in a second given the right chance. Don't assume that someone with a Java background will not be capable of moving to a different stack.
+1. Consider including non technical people performing soft skills questions. Because technical people should be capable of talking to non-technical just fine, we should assess it.
+
+### Behavioral questions (STAR)
+
+The goal of these questions is to get the candidate to share something they did in the past. Previous behaviour is considered the best way to predict how a person is going to act in the future.
+
+They usually start with the form "Can you tell me about a time when...". The kind of answer that we are looking for is to get a story that is structured following the Situation, Task, Action, Result.
+
+There is no right answer, what matters here is to hear the candidate and gather data on how is it telling the story.
+
+Some things to pay attention to:
+
+* What was the candidate role? Was it a leader? A follower? Why?
+* What is it highlighting as important? Did it matter?
+* Is it clearly explained? Is the story well told? If it is a technical story and the interviewer is a non-technical person, are things being explained in a way that make sense?
+* If you ask "why?" will you get an actual explanation?
+* Is the Task and the Action clear? Is it well reasoned?
+* Is there a result or was the story left unfinished? Is it still going on?
+* Was the result measured in any way? How does the candidate know that the result matches the expectation? Was there an expectation?
+
+These questions can be quite unbalancing and can increase the stress during the interview. Again, be kind and help the candidate understand what are you looking for, provide a sample if it is needed and you notice that the candidate is blocked.
+
+It can also happen that the candidate does not have a story to share with you, that is OK. It's just another data point that should be added to the feedback (I failed to get data on ...), just move to the next question, just be sure to have a few questions as a backup.
+
+These questions should be aligned with our company values. What we are looking for is understanding how this candidate behaves, and if this behaviour matches the one we look for in our company values.
+
+Once you have your notes, tell the candidate what you understood, repeat the story, and let them correct you as needed.
+
+### Interview feedback
+
+Always leave feedback, this will allow the rest people to understand what happened and why you took the decision you took.
+
+One way of writing the feedback is as follows:
+
+> Vote: inclined/not inclined
+>
+> Summary: your general impressions, a brief description on what have you seen, where you stand, and why.
+>
+> Pros: what is good, and where did you found it during the interview, bullet points is fine.
+>
+> Cons: weak spots. Where the candidate failed to you, why, consider that some things can be taught or learnt.
+>
+> Interview notes: What questions were asked, what story you got back. Ex.
+>
+>   Tell me about a time when you did X
+>
+>   The candidate told me a story when she was working in his current gig doing... They had to do... It went well because she took the leadership and .... In the end they increased their sales in a 30%, she measured it by doing ...
+
+The vote is critical as it is telling the rest of the people what is your final thinking here. The rest should explain why do you think so.
 
 ## Interview Questions<a name="interview-questions"></a>
 
