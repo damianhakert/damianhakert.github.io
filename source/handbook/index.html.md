@@ -26,7 +26,6 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * - [Travel](/handbook/travel)
 * - [Security](/handbook/security)
 * - [Leadership](/handbook/leadership)
-* [GitLab University](https://university.gitlab.com/)
 
 ## This page
 
@@ -699,6 +698,8 @@ If you install [MobileDay](https://mobileday.com/) on your phone and give it acc
 **Flash**: Due to security flaws, we strongly recommend _not_ using Adobe Flash. Certainly do not install it on your local machine. But even the Google Chrome plugin that let's you see embedded Flash content in websites can pose a security hazard. If you have not already, go to your [Chrome plugins](chrome://plugins) and disable Flash. For further context, note that [Google Chrome is removing Flash support soon](https://nakedsecurity.sophos.com/2016/05/18/yet-more-bad-news-for-flash-as-google-chrome-says-goodbye-sort-of/), and while the [plugin is better than a local install of Flash](http://security.stackexchange.com/questions/98117/should-flash-be-disabled-or-are-sandboxes-secure-enough), it still leaves vulnerabilities for [zero-day attacks](http://www.pctools.com/security-news/zero-day-vulnerability/).
 
 ## Using Git to update this website<a name="starting-with-git"></a>
+
+For more information about using Git and GitLab see [GitLab University](https://university.gitlab.com/).
 
 This is a guide on what you'll need to install and run on your machine to get
 Git up and running so you can create your first MR in minutes! Follow the
