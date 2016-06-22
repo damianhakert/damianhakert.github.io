@@ -73,8 +73,8 @@
   apply: https://gitlab.workable.com/jobs/242971/candidates/new
   open: true
 
-- title: "Software Packaging Engineer"
-  description: /jobs/software-packaging-engineer
+- title: "Build Engineer"
+  description: /jobs/build-engineer
   apply: https://gitlab.workable.com/jobs/271316/candidates/new
   open: true
 
