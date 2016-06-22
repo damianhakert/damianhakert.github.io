@@ -329,7 +329,7 @@ items quickly to your Todos. Super useful!
 
 ### Bulk-assign labels
 
-With label priorities and future features (such as issue boards), labels are
+With label priorities and future features (such as [issue boards](https://gitlab.com/gitlab-org/gitlab-ce/issues/2306168)), labels are
 becoming more and more important in GitLab.
 To make working with issues a bit easier,
 we've added the ability to bulk-assign labels.
