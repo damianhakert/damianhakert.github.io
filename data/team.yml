@@ -1243,6 +1243,40 @@
   story:  |
           Joining July 5th
 
+- name: M.Y.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/general-ledger-accountant/">Senior Accountant</a>
+  reports_to: Controller
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining July 5th
+
+- name: J.M.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-manager/">Account Manager</a>
+  reports_to: CRO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining July 6th
+
+- name: C.B.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/business-development-team-lead/">Business Development Team Lead</a>
+  reports_to: Senior Demand Generation Manager
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining July 11th
+
+
 - name: A.S.
   locality:
   country:
