@@ -1087,16 +1087,19 @@
           Dungeons & Dragons, following the news, listening to music and
           podcasts, and thoughtleading.
 
-- name: M.K.
-  locality:
-  country:
+- name: Marat Kalibekov
+  locality: Astana
+  country: Kazakhstan
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
   reports_to: Infrastructure Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: marat.png
+  twitter: maratkalibek
+  gitlab: maratkalibek
   story:  |
-          Joining May 23rd
+          Marat is interested in computers since school. He learned how to program from books without any help,
+          wrote his first programs on paper and typed them in school labs during breaks. This was the reason why
+          he chosed study Computer Science in university. After graduating from university, he moved to
+          Astana and worked mostly on government projects. Interested in Programming and Maths.
 
 - name: Alejandro Rodríguez
   locality: Santiago
