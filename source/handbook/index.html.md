@@ -8,23 +8,24 @@ title: Team Handbook
 Please make a <a href="https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests">merge request</a> to suggest improvements or add clarifications.
 Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues</a> to ask questions.
 
-## Other main pages in the team handbook
+## Other main pages
 
-* [Onboarding](/handbook/general-onboarding)
-* [People Operations](/handbook/people-operations)
-* [Benefits](/handbook/benefits)
-* [Hiring](/handbook/hiring)
-* [Travel](/handbook/travel)
-* [Sales Handbook](/handbook/sales)
-* [Infrastructure](/handbook/infrastructure)
-* [Finance](/handbook/finance)
-* [Stock Options](/handbook/stock-options)
+* [Engineering]() TODO
+* - [Support](/handbook/support)
+* - [Infrastructure](/handbook/infrastructure)
 * [Marketing](/handbook/marketing)
-* [Security](/handbook/security)
-* [Support](/handbook/support)
-* [Leadership](/handbook/leadership)
+* - [Social Media Guidelines](/handbook/social-media-guidelines)
+* [Sales](/handbook/sales)
+* [Finance](/handbook/finance)
+* - [Stock Options](/handbook/stock-options)
+* [People Operations](/handbook/people-operations)
+* - [Onboarding](/handbook/general-onboarding)
+* - [Benefits](/handbook/benefits)
+* - [Hiring](/handbook/hiring)
+* - [Travel](/handbook/travel)
+* - [Security](/handbook/security)
+* - [Leadership](/handbook/leadership)
 * [GitLab University](https://university.gitlab.com/)
-* [Social Media Guidelines](/handbook/social-media-guidelines)
 * [Board meetings](/handbook/board-meetings)
 
 ## This page
