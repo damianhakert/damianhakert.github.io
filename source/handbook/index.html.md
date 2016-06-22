@@ -18,6 +18,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Sales](/handbook/sales)
 * [Finance](/handbook/finance)
 * - [Stock Options](/handbook/stock-options)
+* - [Board meetings](/handbook/board-meetings)
 * [People Operations](/handbook/people-operations)
 * - [Onboarding](/handbook/general-onboarding)
 * - [Benefits](/handbook/benefits)
@@ -26,7 +27,6 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * - [Security](/handbook/security)
 * - [Leadership](/handbook/leadership)
 * [GitLab University](https://university.gitlab.com/)
-* [Board meetings](/handbook/board-meetings)
 
 ## This page
 
