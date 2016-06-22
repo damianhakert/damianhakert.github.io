@@ -412,7 +412,7 @@ For more information, see the [custom SSL certificate documentation](http://docs
 ## Performance Improvements
 
 Performance is a great priority for us. We're working hard on making sure
-GitLab can handle the loads of very large instances (like GitLab with hundreds
+GitLab can handle the loads of very large instances (like GitLab.com with hundreds
 of thousands of active users) easily.
 
 With GitLab 8.9 we've made many improvements, below are some of the highlights.
@@ -476,8 +476,6 @@ This API endpoint allows you to retrieve some information about the current stat
 Downtime notice: while technically this release allows one
 to upgrade without downtime, one may get errors if new comments or award emoji
 are created/assigned during the upgrade.
-As a result it's best to take the application offline unless
-you are OK with getting errors.
 
 *__Note__: We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
 If you are upgrading from a GitLab version prior to 8.0 and you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).*
