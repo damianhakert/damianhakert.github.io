@@ -729,6 +729,8 @@
   twitter: zjvandeweg
   gitlab: zj
   maintains: |
+  maintains: |
+              <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ci-yml/">.gitlab-ci.yml</a> templates</li>
               <li>Award Emoji <a href="/jobs/expert/">expert</a></li>
   story:  |
           Zeger-Jan is a husband, father of an awesome son, and about to get his bachelor’s degree in Computer Science. In his spare time he spends time with his family,
