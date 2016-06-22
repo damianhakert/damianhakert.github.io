@@ -16,7 +16,7 @@ title: "Contracts"
 These agreements are examples of the agreements that we currently use at GitLab. However, the terms and conditions of an employee or
 contractor’s agreement will vary based on each employee or contractor’s specific circumstances. GitLab reserves the right to amend or
 change the sample agreements, as well as each employee or contractor’s actual agreement. The samples below are samples only — they are not
-valid as such and do not replace personalized signed agreements.
+valid as such and do not replace personalized signed agreements. Please reference [policies](/handbook/people-operations/#policies) for specific questions.  
 
 ## How to use this page to prepare a contract <a name="how-to-use"></a>
 
