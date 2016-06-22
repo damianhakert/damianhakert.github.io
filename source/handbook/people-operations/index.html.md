@@ -16,6 +16,7 @@ title: "People Operations"
 - [Office addresses](#addresses)
 - [Policies](#peopleops-policies)
    - [Compensation principles](#compensation-principles)
+   - [Equal Employment Opportunity Statement](#equal-employment-opportunity-statement)
    - [Hiring Significant Others or Family Members](#family-hires)
    - [Returning property to GitLab](#returning-property)
       - [FedEx info for the team member](#fedex-info)
@@ -73,7 +74,20 @@ The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is
 1. We hire across the globe but we're not location agnostic. Your timezone, the market rate in your region, and vicinity to other team members, users, customers, and partners can all be factors. For example, we may favor an applicant over another because they live in a region with a lower market rate or because we need someone in that timezone. All things being equal we will hire people in lower cost markets vs. higher cost markets.
 1. As you can see from our [contracts](/handbook/contracts/), compensation is typically set at a fixed monthly rate. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission, for leadership roles sometimes part of it is based on business objectives. Success engineers currently have a lower variable component, we're not sure how this will evolve. All other people have fixed compensation (but we do have [bonuses and incentives](/handbook/#incentives)).
 1. Compensation decisions are taken by the compensation committee. This committee consists of the CFO, CEO, and head of people operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee.
-
+ 
+ ### Equal Employment Opportunity Statement<a name="equal-employment-opportunity-statement"></a>
+ 
+ 1. GitLab provides equal employment opportunities (EEO) to all employees and applicants 
+ for employment without regard to race, color, religion, sex, national origin, age, 
+ disability or genetics. In addition to federal law requirements, GitLab complies with 
+ applicable state and local laws governing nondiscrimination in employment in every location 
+ in which the company has facilities. This policy applies to all terms and conditions of employment, 
+ including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, 
+ leaves of absence, compensation, and training.
+ 1. GitLab expressly prohibits any form of workplace harassment. Improper interference with 
+ the ability of GitLab’s employees to perform their job duties may result in discipline up to and 
+ including discharge.
+ 
 ### Hiring Significant Other or Family Members<a name="family-hires"></a>
 
 GitLab is committed to a policy of employment and advancement based on **qualifications and merit** and does not discriminate in favor of or in opposition to the employment of significant others or relatives. Due to the potential for perceived or actual conflicts, such as favoritism or personal conflicts from outside the work environment, which can be carried into the daily working relationship, GitLab will hire or consider other employment actions concerning significant others and/or relatives of persons currently employed or contracted only if:   
