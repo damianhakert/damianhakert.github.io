@@ -3,14 +3,6 @@ layout: job_page
 title: "Production Engineer"
 ---
 
-Production engineers work on the infrastructure team that runs our services, including GitLab.com.
-
-A production engineer is a developer with deep knowledge of some parts of the stack, either it
-is networking, or the linux kernel, or even an specific interesting in scaling and algorithms.
-
-It could also be seen as a systems engineer who aims to code himself out of a job by automating
-all the things.
-
 ## Responsibilities
 
 * As an Production Engineer you will be on a pager duty rotation to respond

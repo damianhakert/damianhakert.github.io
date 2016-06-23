@@ -3,190 +3,97 @@ layout: markdown_page
 title: "Infrastructure"
 ---
 
-## Infrastructure documentation and reference
+## Infrastructure
 
 The infrastructure team is split between production engineers and performance specialists.
 
-Both roles are closely related as both touch on some of the same spots.
+Both roles are closely related as both touch on some of the same spots, for example, both roles cares about both the
+[availability](https://gitlab.com/gitlab-com/infrastructure/issues?scope=all&sort=updated_desc&state=opened&utf8=%E2%9C%93&label_name%5B%5D=availability&label-name=)
+and [performance](https://gitlab.com/gitlab-com/infrastructure/issues?scope=all&sort=updated_desc&state=opened&utf8=%E2%9C%93&label_name%5B%5D=performance&label-name=)
+of GitLab.com.
 
-Some of the infrastructure documentation and reference can be found in
-[in the Chef Repo](https://dev.gitlab.org/cookbooks/chef-repo).
+Both roles also care about building an infrastructure and monitoring that can be shipped to our customers.
 
-The intent of this documentation is to be integrated out of the chef repo into the runbooks
+### Production Engineers
 
-## Runbooks
+Production engineers work on the infrastructure team that runs our services, including GitLab.com.
 
-Runbooks are [public](https://gitlab.com/gitlab-com/runbooks), but there is an automatically mirrored copy in our [development environment](https://dev.gitlab.org/cookbooks/runbooks/).
+A production engineer is a developer with deep knowledge of some parts of the stack, either it
+is networking, or the linux kernel, or even an specific interesting in scaling and algorithms.
 
-They are divided into 2 main sections:
+It could also be seen as a systems engineer who aims to code himself out of a job by automating
+all the things.
+
+Responsibilities can be found in the [job description](jobs/production-engineer/index.html)
+
+### Production Engineering Resources
+
+- Documentation: refer to runbooks and internal documentation in this very page.
+- Chat channels in Slack:
+  - Alerts: monitoring tools post into this channel, production engineers should monitor this channel to act on alerts. Remember to let the people know when you are dealing with an alert, or if you have triggered it.
+  - Infrastructure: general conversation about infrastructure goes on in this channel. Remember to let the people know when you are about to do some change in the infrastructure.
+  - Releases: deployments and general releases conversation goes on here, lurk it to support deployments and help out when things go wrong.
+- Operations channel archive:
+  - You can find the infrastructure archive [here](https://docs.google.com/document/d/19yzyIHY9F_m5p0B0e6STSZyhzfo-vLIRVQ1zRRevWRM/edit#heading=h.lz1c6r6c9ejd).
+-  Automated tasks and schedules
+  - Weekly automatic OS updates are performed on Monday at 10:10 UTC.
+
+
+### Performance Specialists
+
+Performance specialists are developers that have a focus on improving GitLab.com performance.
+They work on issues from the
+[GitLab-CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&sort=updated_desc&state=opened&utf8=%E2%9C%93&label_name%5B%5D=performance&label-name=)
+project.
+
+For practical reasons we track the work that is on flight in the
+[performance issue tracker](https://gitlab.com/gitlab-com/performance/issues) by cross linking,
+but we keep the discussion in the source issue.
+
+This is so we can have really quick 1 week sprints that allow us to iterate faster.
+
+Performance specialists can also focus on critical infrastructure tasks that will enable GitLab.com to go faster, to
+increase availability, or to just generally make it scale to handle more users with less resources.
+
+## Documentation
+
+The main infrastructure documentation can be found in 2 places:
+
+### Runbooks
+
+[Runbooks are public](https://gitlab.com/gitlab-com/runbooks), but they are automatically mirrored in our
+[development environment](https://dev.gitlab.org/cookbooks/runbooks/), this is so because if GitLab.com is down,
+those runbooks would not be available to take it up again.
+
+These runbooks aim to provide simple solutions for common problems, they should be pointed from our alerting
+system and should also be kept up to date with whatever new finding we get as we learn how to scale GitLab.com
+so these runbooks can also be adopted by our customers.
+
+Runbooks are divided into 2 main sections:
 * What to do when - points to specific runbooks to run on stressful situations (on-call)
 * How do I - points to general administration texts that explain how to perform different administration tasks.
 
 When writing a new runbook, be mindful what the goal of it is.
-If it is for on-call situations, make it brief and try to keep the pre-check, resolution, post-check format.
+If it is for on-call situations, make it crisp and brief. Try to keep the following structure: pre-check, resolution, post-check .
 If it is for general management, it can be freely formatted.
 
-## Always log into the infrastructure room
+### Internal documentation
 
-Before you start fixing stuff, log into the [infrastructure room](https://gitlab.slack.com/messages/infrastructure/) and leave a message. Other people might be working at the same time, especially if there was a pagerduty alert. If you don't immediately know what happened, create a postmortem doc with a sequential timeline.
+Available in the [Chef Repo](https://dev.gitlab.org/cookbooks/chef-repo).
+There is some documentation that is specific to GitLab.com. Things that are specific to our infrastructure
+providers or that would create a security treat for our installation.
 
-### Why did server X stop working on Monday morning?
+Still, this documentation is [in the Chef Repo](https://dev.gitlab.org/cookbooks/chef-repo), and we aim to
+start pulling things out of there into the runbooks, until this documentation is thin and GitLab.com only.
 
-Weekly automatic OS updates are performed on Monday at 10:10 UTC.
+# Make GitLab.com settings the default
 
-## Make GitLab.com settings the default
-
-As said in the [production engineer job description]() one of the goals is "Making GitLab easier to maintain for sysadmins all over the world".
+As said in the [production engineer job description](jobs/production-engineer/index.html)
+one of the goals is "Making GitLab easier to maintain for administrators all over the world".
 One of the ways we do it is making GitLab.com settings the default for all our customers.
-It is very imporatant that GitLab.com is running GitLab Enterprise Edition with all its default settings.
+It is very important that GitLab.com is running GitLab Enterprise Edition with all its default settings.
 We don't want users running GitLab at scale to run into any problems.
-If it is not possible to use the default settings the difference should be documented in [requirements.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/install/requirements.md) before applying them to GitLab.com.
 
-## Dev.gitlab.org backups
-
-Backups for dev.gitlab.org are stored on S3 in the `backup-dev-gitlab-org` bucket. The backups are protected against deletion using S3 versioning, and move to Glacier storage (slow retrieval) after 7 days.
-
-## GitLab Infrastructure Archive
-
-You can find the infrastructure archive [here](https://docs.google.com/document/d/19yzyIHY9F_m5p0B0e6STSZyhzfo-vLIRVQ1zRRevWRM/edit#heading=h.lz1c6r6c9ejd).
-
-## Network
-
-See network spreadsheet [here](https://docs.google.com/spreadsheet/ccc?key=0Am5WZPWXUTUAdGgtVFlYZXFWbk5WdWU2Vko4b2NxdWc#gid=0).
-
-## HTTPS certificate
-
-* Make sure you receive webmaster@ emails (this is almost impossible to test since Gmail doesn't show the incoming email separately, but gitlab.com and gitlab.com both go to sytse@gitlab.com)
-
-* `sudo -i`
-
-* `cd /root`
-
-* Follow the steps to [request new certificate](https://dev.gitlab.org/gitlab/gitlab-certificate-toolkit/blob/master/doc/request-new-certificate.md)
-
-* Request [EssentialSSL Domain Validation](https://rcp.openprovider.eu/ssl/product-overview.php)
-
-* Linux, paste CSR
-
-* Paste certificate in the issue
-
-* Order certificates
-
-* Confirm the request by email by checking the All Mail label
-
-* Emails from openprovider sometimes don't come through, look at [order overview](https://rcp.openprovider.eu/ssl/order-overview.php)
-
-* Do not use empty lines at the end so combining the keys goes cleanly
-
-* Prepare the [new certificate](https://dev.gitlab.org/gitlab/gitlab-certificate-toolkit/blob/master/doc/prepare-new-certificate.md)
-
-* Install the [new certificate](https://dev.gitlab.org/gitlab/gitlab-certificate-toolkit/blob/master/doc/install-new-certificate.md)
-
-### Random tips
-
-* Configure Nginx to use the key
-
-        sudo vim /etc/nginx/sites-available/TAB
-        ( or sometimes: sudo vim /etc/nginx/ssl.conf )
-        ssl_certificate         /etc/ssl/$DOMAIN.crt;
-        ssl_certificate_key     /etc/ssl/$DOMAIN.key;
-
-* Test Nginx config
-
-        sudo nginx -t
-
-* Restart Nginx
-
-        sudo service nginx restart
-
-* Change the firewall rules, needed on Digital Ocean:
-
-        sudo ufw allow https
-
-* Consider adding a redirect rule from http to https
-
-        server {
-          listen *:80;
-          server_name www.example.com;
-          server_tokens off;
-          return 301 https://www.example.com$request_uri;
-        }
-
-## GitLab update on GitLab.com
-
-Documented in [deploy a new gitlab rails](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/administration.md#deploy-a-new-gitlab-rails).
-
-## GitLab Cloud upgrade procedure improvements
-
-* Clear redis before upgrade
-
-* 502 page for nginx (instead of ‘bad gateway’); cp public/{deploy,502}.html
-
-* Functional testing during downtime: start unicorn on different port and connect via SSH tunnel (no users accidentally connecting while we are still down)
-
-* Start sidekiq without mailer? not at all?
-
-* Clear redis when aborting
-
-## User wiki did not transfer correctly
-
-User renamed project, which created an empty new wik repo instead of moving the existing wiki. I fixed this manually in `/home/git/repositories/username` by deleting the empty new one with `rm -rf` and using `mv` to rename the old wiki to the path expected by the new repo.
-
-## Gathering a mailing list
-
-    File.open('public_owners.txt', 'w') { |f| Project.public_only.each { |p| f.puts [p.owner.email.inspect,p.owner.name.inspect].join(',') }; nil }
-
-## Ruby processes memory use
-
-    ps -C ruby -o pid,rss,args
-
-RSS (resident set size) seems to be the property measured by monit.
-
-## Merge carrierwave uploads in two different buckets
-
-From 13-20 December we have been storing uploads in the wrong S3 bucket. The bucket we were storing the uploads in was a staging bucket which already had some other uploads in it.
-
-* Copy 1 week’s worth of uploads to local machine
-
-        mkdir gitlab_cloud_staging_us
-        s3cmd -c .s3cfg.gitlab_staging sync s3://gitlab_cloud_staging_us gitlab_cloud_staging_us/
-
-* Locally delete uploads that do not belong in production. Production uploads had IDs in the thousands or tens of thousands; staging uploads had IDs like 1,2,3. I also checked in the S3 web console when some of the files were created to distinguish staging uploads from production uploads.
-
-* Dry run for uploading the cleaned-up local copy of the uploads to the production bucket. Check if the paths make sense
-
-         s3cmd -c .s3cfg sync -n gitlab_cloud_staging_us/ s3://gitlab_production_us
-
-* Sync the local uploads to the production bucket
-
-         s3cmd -c .s3cfg sync  gitlab_cloud_staging_us/ s3://gitlab_production_us
-
-* Delete the local copy of the uploads
-
-         rm -rf gitlab_cloud_staging_us/
-
-## Monit check for disk space on root filesystem
-
-* `cat /etc/monit/conf.d/disk_usage.monitrc`
-* check filesystem rootfs with path `/dev/xvda1`
-* if space usage > 70% then alert everyone@gitlab.com
-
-Run `sudo service monit restart` after creating/editing the file.
-
-## Changing configuration on GitLab.com using Chef
-
-Setting up Chef server access on your local machine:
-
-The attributes are in [GitLab cluster](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/roles/gitlab-cluster.json) and [default](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/data_bags/omnibus-gitlab/_default.json).
-
-## Update grub
-
-Sometimes when you run `apt-get upgrade`, GRUB wants to reinstall itself. During this process you get asked what disks GRUB should be installed to. Use `lsblk` to look for disks that contain a partition mounted at ‘/’ (there should be two). Install GRUB to those two disks (e.g. sda and sdj).
-
-Example snippet of lsblk output below. Note the ‘/’
-
-    sdj                         8:144  0   2.7T  0 disk
-    ├─sdj1                      8:145  0     1M  0 part
-    ├─sdj2                      8:146  0 931.3G  0 part
-    │ └─md0                     9:0    0 931.2G  0 raid1  /
-    └─sdj3                      8:147  0  93.1G  0 part   [SWAP]
+If it is not possible to use the default settings the difference should be documented in
+[requirements.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/install/requirements.md)
+before applying them to GitLab.com.
