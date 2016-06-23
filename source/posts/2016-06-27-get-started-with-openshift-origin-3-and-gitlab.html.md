@@ -1,5 +1,6 @@
 ---
 title: "Get started with OpenShift Origin 3 and GitLab"
+date: 2016-06-27
 author: Achilleas Pipinellis
 author_twitter: _axil
 categories: tutorials
