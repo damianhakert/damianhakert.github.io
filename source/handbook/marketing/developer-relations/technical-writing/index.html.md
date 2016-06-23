@@ -3,9 +3,10 @@ layout: markdown_page
 title: "Technical Writing"
 ---
 
-Welcome to the Technical Writing Handbook!
+### Welcome to the Technical Writing Handbook!
+{:.no_toc}
 
-[Up one level to the Developer Relations Handbook](../)
+----
 
 ## On this page
 {:.no_toc}
@@ -17,9 +18,34 @@ Welcome to the Technical Writing Handbook!
 
 ## Technical Writing
 
-- Introduction => to be included
-- Docs and Blog Posts => to be included
-- Styles Guidelines => to be included
+[Technical Writers] are part of the Developer Relations Marketing Team. Their mission is to help GitLab to
+have all features well documented,
+to ensure the information regarding GitLab CE/EE/CI and its particularities are up to date, to write guides,
+recipes and blog content, to assist the team with documentation and non-documentation tasks, and to review
+every technical content published in the channels we use.
+
+[Documentation] helps the GitLab community to setup and administrate their accounts, to setup and update GitLab instances,
+to use every tool and feature, and to handle integrations, services and tools. Docs are written technically, methodically,
+programmatically, clearly and practically.
+
+Blog posts have the same purpose of assisting the GitLab community, but with a more flexible and reader-friendly language. Also,
+besides the technical content, posts can be informative, tell use-case stories, customer experience, and present a much more diverse
+sort of content, since it's somehow interesting for our audience.
+
+Whenever we write for GitLab, it's necessary to keep in mind that we are writing _on behalf_ of GitLab. We are representing the
+company. Therefore, it's important to keep our personal opinions, tendencies, and point of views apart, and try to be clear, direct, concise, and professional above all. This is detailed right below, on the section [Professional Writing Techniques].
+Make sure to read this through before writing for GitLab.
+
+Also, our content is written in markdown Kramdown. Make sure to read the [Markdown Style Guide] before adventuring yourself writing for
+our website [about.GitLab.com] and for our [Blog], which are our "face to the world".
+
+On the [Content Marketing Handbook][marketing-blog], you'll find out more about the GitLab Blog directive. And at the end of
+this page, you'll find the [Blog Style Guidelines](#styles-guidelines).
+
+## Markdown Style Guide for about.GitLab.com
+
+Check out our [Markdown Style Guide] for the markup used throughout about.GitLab.com, including any markdown page and blog post. You'll
+find useful information there, some [Kramdown] magic, and it might save you a lot of typing.
 
 ----
 
@@ -159,16 +185,157 @@ There is a simple list below, for things to do and to avoid when writing. It's n
 
 ----
 
-## Styles Guidelines
+## Blog Style Guidelines
+{: #styles-guidelines}
 
-=> to be included from https://gitlab.com/gitlab-com/blog-posts/blob/master/STYLEGUIDE.md
+This style guide is specifically for blog posts on [about.GitLab.com/blog][blog]. 
 
+### Assumptions
 
-[android-doc]: //developer.android.com/intl/pt-br/tools/help/emulator.html
-[android-emulator]: //developer.android.com/intl/pt-br/tools/devices/emulator.html
+Every blog post must start from the documentation, never the opposite. Thus, if the subject you want to write about
+is not documented, please consider contributing to the docs first, or bring it to our attention by
+[creating a new issue][issue-docs], so we can take action to make it documented properly.
+
+Before writing, make sure you've read through this Style Guidelines, the [Blog directives][marketing-blog], the [Technical Aspects], the
+[Professional Writing Techniques] and the [Markdown Style Guide].
+
+Before submitting your post for review, make sure you: 
+
+- Forked the project [www-gitlab-com]
+- Have [Git], [Bundler] and [Middleman] installed locally
+- Have previewed your post locally by running `bundle exec middleman` in your terminal
+
+### Titles and headings
+
+Make sure the post title represents very well the subject, and make it as short as possible. Do the same for headings.
+
+### Frontmatter
+
+The post frontmatter is standard and cannot be changed. Make sure to provide the correct information, but do not add nor remove
+anything from the default template:
+
+```
+---
+layout: post
+title: "This is the post title"
+date: 2016-03-21 08:00:00
+comments: true
+author: Firstname Lastname
+author_twitter: userID
+image_title: '/images/blogimages/post-cover-image.jpg'
+---
+```
+
+### Structure 
+
+- File name: `yyyy-mm-dd-title-of-the-post.html.md`. The date can be changed just before publishing, so don't worry if it is accurate or not, just make sure that the date in the file name matches with the date in the frontmatter, otherwise the build will fail.
+- In all file names, prefer using dashes `-` than underscores `_`. Do not leave blank spaces in file names, ever.
+- Markdown structure: read the [Markdown Style Guide]
+- Post structure:
+  - Introduction. State the problem, audience and purpose of the article.
+  - Add the `<!-- more -->` separator.
+  - Concepts - state and explain the concepts needed to follow through your post.
+  - Software and hardware requirements - explain what the reader needs before following your steps.
+  - Article body - to develop the subject of your post.
+  - Section "Conclusion" - to summarize the article.
+  - Section "About guest author" - when the author is not a GitLab Team member.
+  - Section "Acknowledgments" - whenever there are more people deeply involved in having the post ready to go.
+- If the article is part of a series, make sure to link back among all articles
+in the series to each one after they get published. 
+
+### Tutorials
+
+When writing tutorials, be clear on the steps needed to follow through.
+Break the tutorial into small steps and the steps into tasks.
+But long lists of steps are hard to follow and refer back to. Serialize posts if needed.
+
+### References
+
+As explained on the [Professional Writing Techniques] above, always provide source for your statements.
+
+### Illustration
+
+Illustrate your examples, with code blocks or screenshots. Be consistent along your examples. E.g., if you are using a generic URL
+to exemplify your steps `domain.com`, be consistent and keep it `domain.com`, through the post.
+
+**Important security point:** Do not expose your personal details by using your real tokens or 
+security credentials.
+Use placeholders such as `[project's CI token]` stub instead. Or blur them if displayed on screenshots.
+
+### Images
+
+#### Creating images
+
+- Static images should be used to illustrate concepts, provide diagrams, elements of the UI or orient the reader.
+- Images should not be used to render commands or configuration which would prevent
+someone being able to copy and paste. 
+- Animated GIFs can be used sparingly where you need to show a process or some event
+happening over the course of time or several actions, though they should not replace text descriptions or instructions. 
+
+#### Preparing images
+
+For the blog, images should be cropped in a 700 x 490 pixel *proportion* 
+so the image doesn't get clipped when displayed as a lead image in the blog list. This includes the cover image.
+Compress the image, for example using [TinyPNG.com][tinypng] or any other image editor.
+
+#### Where to place images
+
+Images used to illustrate articles should be placed in the `/source/images/blogimages/` directory. 
+Unless they are 'free to use' lead images from [Unsplash][unsplash], which should be placed in the
+`/source/images/unsplash` directory.
+
+#### Naming images
+
+If you are using a set of images, create a **new directory** under `/source/images/blogimages/`, name it according to
+your post's title and add all the images there. For example, if your post has a file name
+`2015-03-20-my-awesome-post.html.md`, your new folder should be named `my-awesome-post`. 
+
+If you use just a couple images, you can add them directly to `/source/images/blogimages/`, but make sure they begin with the same
+name as you post's. This way it's easy to anyone know which image is related to each post. Name the files according to the previous example.
+So, following the same logic, your cover image would be named `my-awesome-post-cover.png`, accessed under
+`/source/images/blogimages/my-awesome-post-cover.png`.
+
+### Cover image
+
+Choose a cover image for your post. Try any public domain resource that reflects somehow your post's subject. In the absence
+of an image, use one of these: 
+
+- GitLab Default: `'/images/default-blog-image.png'` (purple background and the Tanuki logo)
+- Blog Default: `'/images/blogimages/gitlab-blog-cover.png'` (purple background, the Tanuki logo and "GitLab")
+
+### GitLab Specific Terms 
+
+- **GitLab** is always spelled with capital "G" and "L".
+- If you're writing about the CI feature, it's not a separate product. 
+For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner", capital "R".
+- **GitLab, Inc.** is the company. **GitLab** is the SaaS, which refers to **GitLab.com**, **GitLab EE** and **GitLab CE**.
+- We refer to **GitLab team members** instead of staff. 
+- Make sure the CI configuration file is spelled ``` `.gitlab-ci.yml` ```, with the leading period and backticks.
+- When we refer to specific configuration sections or pages in GitLab they should be in **bold**.
+- Refer to this website as **about.GitLab.com**, with capital "G" and "L", as always. **GitLab.com** is not the website, is the SaaS.
+
+<!-- Identifiers, in alphabetical order -->
+
+[about.GitLab.com]: https://about.gitlab.com/
+[android-doc]: http://developer.android.com/intl/pt-br/tools/help/emulator.html
+[android-emulator]: http://developer.android.com/intl/pt-br/tools/devices/emulator.html
+[blog]: https://about.gitlab.com/blog
 [blog-tracker]: https://gitlab.com/gitlab-com/blog-posts/issues
-[(key)words]: //www.wordstream.com/seo-keyword
-[synonyms]: //www.thesaurus.com/
-[tech-writing-wiki]: https://en.wikipedia.org/wiki/Technical_writing
-[WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
+[bundler]: http://bundler.io/
+[documentation]: http://docs.gitlab.com/
+[git]: https://git-scm.com/
+[issue-docs]: https://gitlab.com/gitlab-com/doc-gitlab-com
+[(key)words]: http://www.wordstream.com/seo-keyword
+[Kramdown]: http://kramdown.gettalong.org
+[Markdown Style Guide]: markdown-guide/
 [marketing-blog]: ../../product-marketing/content-marketing/#blog
+[middleman]: https://middlemanapp.com/basics/install/
+[Professional Writing Techniques]: #professional-writing-techniques
+[synonyms]: //www.thesaurus.com/
+[technical aspects]: https://about.gitlab.com/handbook/marketing/product-marketing/content-marketing/#technical-aspects
+[technical writers]: /jobs/technical-writer/
+[tech-writing-wiki]: https://en.wikipedia.org/wiki/Technical_writing
+[tinypng]: https://tinypng.com/
+[unsplash]: https://unsplash.com/
+[WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
+[www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com/
