@@ -124,7 +124,9 @@ interact with your cluster, kubernetes, run applications, create projects and
 much more.
 
 Let's login to the all-in-one VM and see how to achieve the same results like
-when we visited the web console earlier. The username/password is `admin/admin`:
+when we visited the web console earlier. The username/password for the
+administrator user is `admin/admin`. There is also a test user with username/
+password `user/user`, with limited access. Let's login as admin for the moment:
 
 ```sh
 $ oc login https://10.2.2.2:8443
