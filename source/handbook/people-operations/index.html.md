@@ -193,8 +193,10 @@ Items paid for by the company are property of the company and need to be reporte
 1. Go to the Employee in BambooHR
 1. Click on the Assets Tab
 1. Click Update Assets
-1. Enter all assets indivdually with as much information as possible. 
+1. Enter Asset Category, Asset Description, Serial Number, Asset Cost, and Date Loaned
+1. This process is repeated for each asset purchased 
 
+People Ops should recieve a confirmation and receipt via email after placing an order. Make sure to upload these receipts with your next expense report through [Expensify](/handbook/#spending-company-money). You can automatically do this by forwarding all receipts to receipts@expensify.com.
 
 ### Managing the PeopleOps onboarding tasks <a name="manage-onboarding-tasks"></a>
 
@@ -389,7 +391,7 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Under "My Company" select "Payroll Entry & Admin"
 1. Select the proper payroll 
 1. Under Other Earnings, select the BNO code and enter the amount of the bonus.
-1. **Never** hit submit. 
+1. **Never** hit submit. (It will cause the entire payroll to be paid the next day)
 1. Click Save when done.
 Note: Make sure to file all appropriate documentation in BambooHR. 
 
