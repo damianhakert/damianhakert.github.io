@@ -402,8 +402,8 @@ of resources, you'd be happy to know that you can scale up with the push of a
 button.
 
 In the **Overview** page just click the up arrow button in the pod where
-GitLab is. The change is instant and you can see the number of pods now running
-scaled to 2.
+GitLab is. The change is instant and you can see the number of [replicas] now
+running scaled to 2.
 
 ![GitLab scale](/images/blogimages/get-started-with-openshift-origin-3-and-gitlab/gitlab-scale.png)
 
@@ -415,10 +415,90 @@ You want to also scale up PostgreSQL and Redis? No problem. Follow the same
 route and the new containers will be up in no time.
 
 Bare in mind that you may need more resources (CPU, RAM, disk space) when you
-scale up. If a pod is in pending state too long you can navigate to
+scale up. If a pod is in pending state for too long, you can navigate to
 **Browse > Events** and see the reason and message of the state.
 
 ![No resources](/images/blogimages/get-started-with-openshift-origin-3-and-gitlab/no-resources.png)
+
+### Scale GitLab using the `oc` CLI
+
+Using `oc` is super easy to scale up the replicas of a pod. You may want to
+skim through the [basic CLI operations][basic-cli] to get a taste how the CLI
+commands are used. Pay extra attention to the object types as we will use some
+of them and their abbreviated versions below.
+
+In order to scale up, we need to find out the name of the replication controller.
+Let's see how to do that using the following steps.
+
+1. Make sure you are in the `gitlab` project:
+
+   ```sh
+   oc project gitlab
+   ```
+
+1. See what services are used for this project:
+
+   ```sh
+   oc get svc
+   ```
+
+   The output will be similar to:
+
+   ```
+   NAME                   CLUSTER-IP       EXTERNAL-IP   PORT(S)         AGE
+   gitlab-ce              172.30.243.177   <none>        22/TCP,80/TCP   5d
+   gitlab-ce-postgresql   172.30.116.75    <none>        5432/TCP        5d
+   gitlab-ce-redis        172.30.105.88    <none>        6379/TCP        5d
+   ```
+
+1. We need to see the replication controllers of the `gitlab-ce` service.
+   Get a detailed view of the current ones:
+
+   ```sh
+   oc describe rc gitlab-ce
+   ```
+
+   This will return a large detailed list of the current replication controllers.
+   Search for the name of the GitLab controller, usually `gitlab-ce-1` or if
+   that failed at some point and you spawned another one, it will be named
+   `gitlab-ce-2`.
+
+1. Scale GitLab using the previous information:
+
+   ```sh
+   oc scale --replicas=2 replicationcontrollers gitlab-ce-2
+   ```
+
+1. Get the new replicas number to make sure scaling worked:
+
+   ```sh
+   oc get rc gitlab-ce-2
+   ```
+
+   which will return something like:
+
+   ```
+   NAME          DESIRED   CURRENT   AGE
+   gitlab-ce-2   2         2         5d
+   ```
+
+And that's it! We successfully scaled the replicas to 2 using the CLI.
+
+As always, you can find the name of the controller using the web console. Just
+click on the service you are interested in and you will see the details in the
+right sidebar.
+
+![Replication controller name](/images/blogimages/get-started-with-openshift-origin-3-and-gitlab/rc-name.png)
+
+### Autoscaling GitLab
+
+In case you were wondering whether there is an option to autoscale a pod based
+on the resources of your server, the answer is yes, of course there is.
+
+We will not expand on this matter, but feel free to read the documentation on
+OpenShift's website about [autoscaling].
+
+---
 
 Let's now see how you update to a new GitLab version. GitLab has a new release
 coming out every month on 22nd including bugfixes and many new features you
@@ -478,3 +558,6 @@ OS level. Feel free to subscribe to follow their status:
 [vm image]: https://atlas.hashicorp.com/openshift/boxes/origin-all-in-one "Openshift all-in-one VM 1.3 alpha on Atlas"
 [oc-gh]: https://github.com/openshift/origin/releases/tag/v1.3.0-alpha.1 "Openshift 1.3.0.alpha.1 release on GitHub"
 [ha]: http://docs.gitlab.com/ce/administration/high_availability/gitlab.html "Documentation - GitLab High Availability"
+[replicas]: https://docs.openshift.org/latest/architecture/core_concepts/deployments.html#replication-controllers "Documentation - Replication controller"
+[autoscaling]: https://docs.openshift.org/latest/dev_guide/pod_autoscaling.html "Documentation - Autoscale"
+[basic-cli]: https://docs.openshift.org/latest/cli_reference/basic_cli_operations.html "Documentation - Basic CLI operations"
