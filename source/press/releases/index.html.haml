@@ -1,0 +1,14 @@
+---
+layout: default
+title: Press releases
+---
+
+.blog-index.blog-entry
+  %ul.post-list
+    - data.press.each do |pr|
+      %li.post-list-item
+        = link_to pr.link do
+          = pr.title
+        - if pr.date
+          %time
+            = pr.date.to_time.strftime '%b %e, %Y'
