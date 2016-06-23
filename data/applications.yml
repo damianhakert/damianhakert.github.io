@@ -263,6 +263,15 @@
           title: Repository on gitlab.com
         - url: https://github.com/Hexanet/MergeRequestsCI
           title: Repository on GitHub
+     - title: Hubstaff
+      content: Time tracking software with screenshots and activity levels for Gitlab issues. Issues sync automatically to native apps for Mac, Windows, Linux, iPhone and Android.
+      links:
+        - url: https://hubstaff.com/gitlab_time_tracking 
+          title: Hubstaff GitLab integration 
+        - url: https://www.youtube.com/watch?v=bCJkMiN1hVw
+          title: Integration video walk-through
+        - url: http://support.hubstaff.com/gitlab-time-tracking-integration/
+          title: Integration support page
 - title: Continuous Integration
   id: continuous-integration
   applications:
