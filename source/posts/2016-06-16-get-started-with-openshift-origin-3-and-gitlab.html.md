@@ -328,20 +328,104 @@ In our example, these are:
 - **pv05**
 - **pv10**
 
-First ssh into the VM using the following command (it must be issued from the
-same directory you saved the Vagrantfile):
+Here are the steps:
 
-```sh
-vagrant ssh
-```
+1. First, ssh into the VM using the following command (it must be issued from
+   the same directory you saved the Vagrantfile):
 
-Next, edit the `/etc/exports` file and change the volumes you noted before from
-`root_squash` to `no_root_squash`. Run `sudo exportfs -f` for the changes to
-take effect.
+   ```sh
+   vagrant ssh
+   ```
+
+1. Next, edit the `/etc/exports` file and change the volumes you noted before
+   from `root_squash` to `no_root_squash`.
+
+   Ultimately, `/etc/exports` should look like this:
+
+   ```
+   /nfsvolumes/pv01 *(rw,root_squash)
+   /nfsvolumes/pv02 *(rw,no_root_squash)
+   /nfsvolumes/pv03 *(rw,no_root_squash)
+   /nfsvolumes/pv04 *(rw,root_squash)
+   /nfsvolumes/pv05 *(rw,no_root_squash)
+   /nfsvolumes/pv06 *(rw,root_squash)
+   /nfsvolumes/pv07 *(rw,root_squash)
+   /nfsvolumes/pv08 *(rw,root_squash)
+   /nfsvolumes/pv09 *(rw,root_squash)
+   /nfsvolumes/pv10 *(rw,no_root_squash)
+   ```
+
+1. Run `sudo exportfs -f` for the changes to take effect.
+
+Now that we configured this, let's see how to manage and scale GitLab.
 
 ## Manage and scale GitLab
 
+Setting up GitLab for the first time might take a while depending on your
+internet connection and the resources you have attached to the all-in-one VM.
+GitLab's docker image is quite big (~400MB), so you'll have to wait until
+it's downloaded and configured before you use it.
+
+### Watch while GitLab gets deployed
+
+Navigate to the `gitlab` project at **Overview**. You can notice that the
+deployment is in progress by the orange color. The Docker images are being
+downloaded and soon they will be up and running.
+
+![GitLab overview](/images/blogimages/get-started-with-openshift-origin-3-and-gitlab/gitlab-overview.png)
+
+Switch to the **Browse > Pods** and you will eventually see all 3 pods in a
+running status. Remember the 3 resources that were to be created when we first
+created the GitLab app? This is where you can see them in action.
+
+![Running pods](/images/blogimages/get-started-with-openshift-origin-3-and-gitlab/running-pods.png)
+
+You can see GitLab being reconfigured by taking look at the logs in realtime.
+Click on `gitlab-ce-2-j7ioe` (your ID will be different) and go to the **Logs**
+tab.
+
+![GitLab logs](/images/blogimages/get-started-with-openshift-origin-3-and-gitlab/gitlab-logs.png)
+
+At a point you should see a _**gitlab Reconfigured!**_ message in the logs.
+Navigate back to the **Overview** and hopefully all pods will be up and running.
+
+![GitLab running](/images/blogimages/get-started-with-openshift-origin-3-and-gitlab/gitlab-running.png)
+
+Congratulations! You can now navigate to your new shinny GitLab instance by
+visiting <http://gitlab.apps.10.2.2.2.xip.io> where you will be asked to
+change the root user password. Login and start using GitLab!
+
+### Scale GitLab with the push of a button
+
+If you reach to a point where your GitLab instance could benefit from a boost
+of resources, you'd be happy to know that you can scale up with the push of a
+button.
+
+In the **Overview** page just click the up arrow button in the pod where
+GitLab is. The change is instant and you can see the number of pods now running 
+scaled to 2.
+
+![GitLab scale](/images/blogimages/get-started-with-openshift-origin-3-and-gitlab/gitlab-scale.png)
+
+Upping the GitLab pods is actually like adding new application servers to your
+cluster. You can see how that would work if you didn't use GitLab with
+OpenShift by following the [HA documentation][ha] for the application servers.
+
+You want to also scale up PostgreSQL and Redis? No problem. Follow the same
+route and the new containers will be up in no time.
+
+Bare in mind that you may need more resources (CPU, RAM, disk space) when you
+scale up. If a pod is in pending state too long you can navigate to
+**Browse > Events** and see the reason and message of the state.
+
+![No resources](/images/blogimages/get-started-with-openshift-origin-3-and-gitlab/no-resources.png)
+
+Let's now see how you update to a new GitLab version. GitLab has a new release
+coming out every month on 22nd including bugfixes and many new features you
+don't want to miss!
+
 ## Update GitLab
+
 
 
 ## Current limitations
@@ -387,3 +471,4 @@ This is a known issue to both parties and is [being worked on][1251].
 [line]: https://gitlab.com/gitlab-org/omnibus-gitlab/blob/658c065c8d022ce858dd63eaeeadb0b2ddc8deea/docker/openshift-template.json#L239 "GitLab - OpenShift template"
 [vm image]: https://atlas.hashicorp.com/openshift/boxes/origin-all-in-one "Openshift all-in-one VM 1.3 alpha on Atlas"
 [oc-gh]: https://github.com/openshift/origin/releases/tag/v1.3.0-alpha.1 "Openshift 1.3.0.alpha.1 release on GitHub"
+[ha]: http://docs.gitlab.com/ce/administration/high_availability/gitlab.html "Documentation - GitLab High Availability"
