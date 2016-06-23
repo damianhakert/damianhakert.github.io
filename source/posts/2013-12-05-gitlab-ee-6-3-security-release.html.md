@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GitLab Enterprise Edition 6.3.1 Security Release
 date: December 5, 2013
 author: Jacob Vosmaer

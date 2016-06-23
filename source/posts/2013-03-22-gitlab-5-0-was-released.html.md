@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GitLab 5.0 was released
 tags: []
 status: publish

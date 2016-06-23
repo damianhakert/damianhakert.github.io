@@ -1,5 +1,5 @@
 ---
-layout: markdown_page
+layout: job_page
 title: "Chief Executive Officer"
 ---
 
@@ -9,8 +9,8 @@ The CEO reports to the board of directors of GitLab, Inc.
 
 * Set overall strategy.
 * Hire great people. Help people that are not a good fit find another job.
-* Provide direction for product development with the [CTO](https://about.gitlab.com/jobs/chief-technology-officer) 
-and the [Product Manager](https://about.gitlab.com/jobs/product-manager).
+* Provide direction for product development with the [CTO](https://about.gitlab.com/jobs/chief-technology-officer)
+  and the [Product Manager](https://about.gitlab.com/jobs/product-manager).
 * Communicate company vision and goals to the entire team and the rest of the community.
 * Lead by example.
 * Keep the board of directors and investors well-informed and engaged in GitLab's continued growth and success.

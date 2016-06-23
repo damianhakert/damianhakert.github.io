@@ -110,12 +110,27 @@ pre {
     font-size: 30px;
     color: $blog-text-color;
     font-weight: 200;
+    padding-top: 12px;
   }
 
   p {
     color: $blog-text-color;
     line-height: 1.5;
     margin: 0 0 20px;
+  }
+
+  blockquote {
+    p {
+      font-size: 16px;
+      font-style: italic;
+      color: $blog-notes-color;
+    }
+  }
+
+  .note {
+    font-size: 14px;
+    font-style: italic;
+    color: $blog-notes-color;
   }
 
   .table-responsive {
@@ -381,4 +396,10 @@ pre {
       padding-bottom: 20px;
     }
   }
+}
+
+.blog-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }

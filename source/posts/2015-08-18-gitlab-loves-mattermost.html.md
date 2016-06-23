@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab Mattermost, an open source on-premises Slack alternative"
 date: 2015-08-18
 author: Sytse Sijbrandij

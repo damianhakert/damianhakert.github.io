@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Simple words for a GitLab Newbie"
 date: 2015-05-18
 author: Karen Carias
@@ -85,7 +84,7 @@ What is GitLab? GitLab is an online Git repository manager with a wiki, issue tr
 * It runs GitLab Enterprise Edition and GitLab CI.
 * No installation required, you can just sign up for a free account.
 Support Package:
-* Free subscribers can use the GitLab.com Support Forum if they have questions.
+* Free subscribers can use the GitLab.com Support Tracker if they have questions.
 * GitLab.com Bronze Support will let you email support directly for timely, personal and private answers. This costs $9.99 per user per year for next-business-day response time and is available in packs of 20 users.
 
 ### GitLab Community Edition (CE)

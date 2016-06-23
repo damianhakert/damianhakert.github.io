@@ -22,9 +22,19 @@ extra_css:
               form.getFormElem().hide();
               document.getElementById('confirmform').style.visibility = 'visible';
 
-              ga('send', 'pageview');
-              ga('send', 'event', 'form', 'submit', 'newsletter subscription');
+              dataLayer.push({event: 'mktoLead', mktoFormId: form.getId()});
               return false;
+            });
+            function getgacid() {
+              try {
+                var tracker = ga.getAll()[0];
+                return tracker.get('clientId');
+              } catch (e) {
+                return 'n/a';
+              }
+            }
+            form.vals({
+              'gacid': getgacid()
             });
         });
       #confirmform{style: "visibility:hidden;"}
@@ -34,18 +44,20 @@ extra_css:
         %h2.heavy
           Install a GitLab CE Omnibus package on
         .btn-group
-          %button.btn.btn-default.dropdown-toggle.btn-lg{"data-toggle" => "dropdown", onclick: "ga('send', 'event', 'link', 'click', 'operating system select open');", type: "button"}
+          %button.btn.btn-default.dropdown-toggle.btn-lg{"data-toggle" => "dropdown", type: "button"}
             Select Operating System
             %span.caret
           %ul.dropdown-menu{role: "menu"}
             - data.platforms.each do |platform|
               %li
-                %a{href: "##{platform.name}", onclick: "ga('send', 'event', 'link', 'click', 'operating system select #{platform.name}');"}
+                %a{href: "##{platform.name}", onclick: "dataLayer.push({event: 'ceDownload',operatingSystem: '#{platform.name}'});"}
                   = platform.long_name
       #tabs
         - data.platforms.each do |platform|
-          = partial "includes/downloads/platform", locals: {platform: platform}
+          = partial "includes/downloads/platform", locals: { platform: platform, type: "ce" }
       .other-downloads
         %h5
-          %a{href: "http://about.gitlab.com/downloads-ee"} Download GitLab Enterprise Edition
+          %a{href: "/downloads-ee"} Download GitLab Enterprise Edition
+        %h5
+          %a{href: "https://packages.gitlab.com/gitlab/gitlab-ce"} Browse the packages
       = partial "includes/downloads/other"

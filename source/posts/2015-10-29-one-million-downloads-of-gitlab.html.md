@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "One Million Downloads of GitLab"
 date: 2015-10-29
 author: Sytse Sijbrandij

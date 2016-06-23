@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab Cloud becomes GitLab.com"
 date: 2014-04-18
 categories:

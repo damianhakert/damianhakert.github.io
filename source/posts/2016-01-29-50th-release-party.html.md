@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "50th release party"
 date: 2016-01-29
 author: Job van der Voort

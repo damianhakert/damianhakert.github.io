@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Perforce launches GitSwarm based on GitLab"
 date: 2015-10-06
 author: GitLab

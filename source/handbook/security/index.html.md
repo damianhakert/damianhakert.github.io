@@ -11,14 +11,12 @@ title: Security Handbook
    master password.
 1. Use 1Password to [generate strong passwords] for any new accounts.
 1. When signing up for a new service ask yourself which team members you need to
-   **share access** with. If the service has a built-in way of creating other
-   user accounts, use that and keep your credentials to yourself by storing them in 'Your Vault'.
-   If not, then store your credentials in an
-   appropriate company 1Password vault so that your colleagues can sign in using
-   your credentials. If 2FA should be on for the new user account, make sure to store
-   recovery codes in the login, and consider using [auto-generated TOTP] if useful.
-1. If you need to give more people access to credentials [move them](https://discussions.agilebits.com/discussion/comment/133692/#Comment_133692) to a vault that they can access. Never duplicate credentials! If needed put them in the 'shared' vault that the whole company can access or make a suggestion to create a new vault in the
-   "1password Shared Folders" Google Sheet. Do not share passwords on a per person basis by sharing them via 1password, this is makes it hard to reason about the sharing and doesn't change when the responsibilities change.
+   **share access** with.
+   - If the service has a built-in way of creating individual user accounts, use that functionality and keep your credentials to yourself by storing them in 'Your Vault'.
+   - If not, then store your credentials in an appropriate company 1Password vault so that your colleagues can sign in using your credentials.
+   - At times, there will be credentials that you need which are _not_ stored in a shared vault on 1Password, for example if they are tied to a single individual's Google account. To find those credentials, locate the 'secure note' in the team's Shared vault with the name of the service you are trying to access. That note lists whom you should contact to gain access.
+1. If 2FA should be on for the new user account, make sure to store recovery codes in the login, and consider using [auto-generated TOTP] if useful.
+1. If you need to give more people access to credentials [move them](https://discussions.agilebits.com/discussion/comment/133692/#Comment_133692) to a vault that they can access. Never duplicate credentials! If needed put them in the 'shared' vault that the whole company can access or make a suggestion to create a new vault in the "1password Shared Folders" Google Sheet. Do not share passwords on a per person basis by sharing them via 1password, this makes it hard to reason about the sharing and doesn't change when the responsibilities change.
 1. When asked security questions (what is your favorite pet, etc.) do not answer truthfully since that is easy to research. Make up an answer and write both the question and answer in 1password.
 1. Do not share credentials via email, issue comments, chat etc. This includes
    email addresses to login and API keys. Use 1Password vaults for this. You
@@ -34,10 +32,10 @@ title: Security Handbook
    service.
 1. Do not let your password manager store the **master password**. It is okay to
    store the login.
-1. Enable two-factor authentication (2FA) with [Google Authenticator] or
-   1Password for your Google, Slack, GitLab.com, and dev.gitlab.org accounts.
+1. Enable two-factor authentication (2FA) with 1Password [auto-generated TOTP] for your Google, Slack, GitLab.com, and dev.gitlab.org accounts. The nice thing about 1Password is that it migrates when you have a new phone, unlike Google Authenticator.
+1. You can also consider using a [Yubikey](https://about.gitlab.com/2016/06/22/gitlab-adds-support-for-u2f/) with GitLab.
 1. **Encrypt** your computer's home folder. Use [FileVault] on your Mac to
-   encrypt the entire disk.
+   encrypt the entire disk.<a name="encrypt-home-folder"></a>
 1. Set up a screen saver with **password lock** on your laptop. The timeout
    can depend on how you use your laptop.
 1. Never leave your unlocked computer **unattended**. Activate the screensaver,
@@ -59,6 +57,7 @@ title: Security Handbook
    store your personal passwords please store them in your 'Primary' vault, not
    the vault named 'Your Vault'.
 1. We will configure applications of which we store the passwords in 1password to [not periodically reset passwords](https://www.cesg.gov.uk/articles/problems-forcing-regular-password-expiry).
+1. Do not install software with many known security vulnerabilities (as [listed in the handbook](/handbook/#do-not-use)). When in doubt, do not install until after checking with the team by discussing in an issue, and then document the verdict in the handbook.
 
 [1Password]: https://agilebits.com/onepassword
 [generate strong passwords]: https://support.1password.com/guides/mac/generate-a-strong-password.html
@@ -75,7 +74,7 @@ title: Security Handbook
 hence the name - and let 1Password generate and manage strong, unique passwords
 for every site for which you have a login.
 
-### Terms<a name="1password-terms"></a>
+### Terminology<a name="1password-terms"></a>
 
 Following this guide, it will be helpful to understand a few terms we'll be
 using throughout.

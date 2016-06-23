@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 8.0 released with new looks and integrated CI!"
 date: 2015-09-22
 categories:

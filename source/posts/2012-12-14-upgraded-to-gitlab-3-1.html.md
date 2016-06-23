@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Upgraded to Gitlab 3.1
 tags: []
 status: publish

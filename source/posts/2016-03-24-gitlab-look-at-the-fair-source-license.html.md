@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab Looked at the Fair Source License"
 date: 2016-03-24 10:00
 author: Paul Machle

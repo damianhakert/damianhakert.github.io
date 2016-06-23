@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Unofficial GitLab CI Runner"
 date: 2015-04-17
 author: Kamil Trzciński

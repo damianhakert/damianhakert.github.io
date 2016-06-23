@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Request for comments: GitLab flow'
 tags: []
 status: draft

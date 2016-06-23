@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How GitLab uses Unicorn and unicorn-worker-killer"
 date: 2015-06-05
 author: Jacob Vosmaer

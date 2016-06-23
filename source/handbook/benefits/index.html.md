@@ -13,17 +13,17 @@ NOTE: Our contractor agreements and employment contracts are all on the [Contrac
 
 ## Regular compensation <a name="regular-compensation"></a>
 
-1. Employees of our Dutch entity (GitLab B.V.) will get their salary wired on the 
-25th of every month, and can see their payslip in their personal portal on 
+1. Employees of our Dutch entity (GitLab B.V.) will get their salary wired on the
+25th of every month, and can see their payslip in their personal portal on
 [HR Savvy's system](https://hr-savvy.nmbrs.nl/).
-1. Employees of our US entity (GitLab Inc.) have payroll processed semi-monthly 
+1. Employees of our US entity (GitLab Inc.) have payroll processed semi-monthly
 through TriNet, and they can access their pay slips through the [TriNet portal](https://www.hrpassport.com).
 1. Contractors to GitLab (either entity) should send their invoices for services rendered to ap@gitlab.com
    * For 'fixed fee' contracts, it is OK to send the invoice before the time period
    that it covers is over. For example, an invoice covering the period of March 1-31 can be sent on March 25.
    * All invoices are internally reviewed, approved, and then payment is processed.
    This is usually a fast process, but be aware that it can incur delays around vacations.
-   * An invoice can be found as a Google sheet named "Invoice Template" (also listed on the [accounting page](/handbook/accounting/) )
+   * An invoice can be found as a Google sheet named "Invoice Template" (also listed on the [finance page](/handbook/finance/) )
 
 ## General Benefits <a name="general-benefits"></a>
 
@@ -121,8 +121,8 @@ period of 180 days will apply.
 ### 401k Plan
 
 The company offers a 401k plan in which you may make voluntary pre-tax contributions
-toward your retirement. We do not currently offer matching contributions. See the 
-[People Operations](https://about.gitlab.com/handbook/people-operations/) page for 
+toward your retirement. We do not currently offer matching contributions. See the
+[People Operations](https://about.gitlab.com/handbook/people-operations/) page for
 details on eligibility and sign up.
 
 

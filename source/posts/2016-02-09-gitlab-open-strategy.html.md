@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab's Open Strategy"
 date: 2016-02-09
 author: Sytse Sijbrandij

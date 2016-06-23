@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "8 Tips to help you work better with Git"
 date: 2015-02-19
 image_title: '/images/unsplash/leaves.jpeg'

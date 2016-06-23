@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab on Debian 8"
 date: 2015-05-01
 author: Job van der Voort

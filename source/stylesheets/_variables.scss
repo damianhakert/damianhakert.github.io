@@ -19,6 +19,8 @@ $divider-color: #d3d3d3;
 
 $link-color: #55acee;
 
+$border-color: #dfdfdf;
+
 $header-text-light-color: #a69ebd;
 
 $team-content-color: #999;
@@ -28,6 +30,7 @@ $member-social-color: #ccc;
 
 $blog-date-color: #999;
 $blog-text-color: #444;
+$blog-notes-color: #606060;
 $blog-image-color-to: #4887c5;
 $blog-divider-color: #128bee;
 
@@ -71,6 +74,9 @@ $subs-header-hr-color: #d4d4d4;
 $pricing-header-color-to: #4887c5;
 
 // Bootstrap overrides
+$breadcrumb-separator: ">";
+$breadcrumb-bg: darken($color-white, 2%);
+
 $container-large-desktop: 1200px;
 
 $body-bg: #f9f9f9;
@@ -89,3 +95,8 @@ $navbar-default-border: #d7d7d7;
 $dropdown-bg: #019875;
 $dropdown-link-color: #fff;
 $dropdown-link-hover-color: #18be97;
+
+
+$reseller-divider-color: $navbar-default-border;
+$reseller-hero-bg-color: #35393d;
+$reseller-hero-content-color: #969696;

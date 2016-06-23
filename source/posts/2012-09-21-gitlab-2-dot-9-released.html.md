@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab v2.9 is released"
 date: 2012-09-21 18:45
 categories:

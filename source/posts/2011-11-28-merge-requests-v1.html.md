@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: Merge Requests v1
 wordpress_id: 108
 wordpress_url: http://blog.gitlabhq.com/?p=108

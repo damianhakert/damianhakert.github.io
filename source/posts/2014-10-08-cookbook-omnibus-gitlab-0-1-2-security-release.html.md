@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Cookbook-omnibus-gitlab 0.1.2 security release"
 date: 2014-10-08
 permalink: /2014/10/07/cookbook-omnibus-gitlab-0-1-2-security-release/

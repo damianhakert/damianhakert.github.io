@@ -31,11 +31,9 @@
 %meta{content: "/ico/browserconfig.xml", name: "msapplication-config"}
 
 %link{rel: "stylesheet", href: "//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600"}
-%link{rel: "stylesheet", href: "//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"}
+%link{rel: "stylesheet", href: "//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"}
 
 = stylesheet_link_tag :styles, :highlight
 - if current_page.data.extra_css
   - current_page.data.extra_css.each do |css_name|
     = stylesheet_link_tag css_name
-
-= partial "includes/google/ga"

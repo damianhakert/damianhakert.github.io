@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab CI 4.0 released"
 date: 2013-11-21 14:15
 author: Dmitriy Zaporozhets

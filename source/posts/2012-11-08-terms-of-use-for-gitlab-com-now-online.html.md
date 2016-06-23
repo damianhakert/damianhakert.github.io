@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Terms of use for Gitlab.com now online
 tags: []
 status: publish

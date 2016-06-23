@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How GitLab works remotely"
 date: 2014-07-03
 categories:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: How we use GitLab to build GitLab
 date: 2015-07-07
 author: Karen Carias

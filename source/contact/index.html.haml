@@ -52,9 +52,19 @@ extra_css:
               form.getFormElem().hide();
               document.getElementById('confirmformnewlsetter').style.visibility = 'visible';
 
-              ga('send', 'pageview');
-              ga('send', 'event', 'form', 'submit', 'newsletter subscription');
+              dataLayer.push({event: 'mktoLead', mktoFormId: form.getId()});
               return false;
+            });
+            function getgacid() {
+              try {
+                var tracker = ga.getAll()[0];
+                return tracker.get('clientId');
+              } catch (e) {
+                return 'n/a';
+              }
+            }
+            form.vals({
+              'gacid': getgacid()
             });
           });
         #confirmformnewlsetter{style: "visibility:hidden;"}
@@ -92,9 +102,19 @@ extra_css:
               form.getFormElem().hide();
               document.getElementById('confirmform').style.visibility = 'visible';
 
-              ga('send', 'pageview');
-              ga('send', 'event', 'form', 'submit', 'security updates newsletter');
+              dataLayer.push({event: 'mktoLead',mktoFormId: form.getId()});
               return false;
+            });
+            function getgacid() {
+              try {
+                var tracker = ga.getAll()[0];
+                return tracker.get('clientId');
+              } catch (e) {
+                return 'n/a';
+              }
+            }
+            form.vals({
+              'gacid': getgacid()
             });
           });
         #confirmform{style: "visibility:hidden;"}
