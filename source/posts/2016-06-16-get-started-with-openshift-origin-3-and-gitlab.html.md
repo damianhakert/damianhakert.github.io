@@ -402,7 +402,7 @@ of resources, you'd be happy to know that you can scale up with the push of a
 button.
 
 In the **Overview** page just click the up arrow button in the pod where
-GitLab is. The change is instant and you can see the number of pods now running 
+GitLab is. The change is instant and you can see the number of pods now running
 scaled to 2.
 
 ![GitLab scale](/images/blogimages/get-started-with-openshift-origin-3-and-gitlab/gitlab-scale.png)
@@ -443,7 +443,13 @@ on a production cluster.
 This is the reason we had to alter the NFS settings, since GitLab's docker
 image requires root privileges to run.
 
-This is a known issue to both parties and is [being worked on][1251].
+This is a known issue to both parties and is [being worked on][1251]. This is
+the same case for the Redis image, that's why we need to also alter its NFS
+volume. Current Redis images may have this issue resolved.
+
+Here are some issues which are currently being worked on in order to provide
+full OpenShift support without the need to edit any configuration files in the
+OS level. Feel free to subscribe to follow their status:
 
 - Support running GitLab in OpenShift without the need for a privileged container ([1251])
 - Support running `gitlab-ctl reconfigure` as non-root user ([1324])
