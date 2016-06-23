@@ -11,8 +11,8 @@ platform created by [RedHat] based on [kubernetes] and [Docker]. That means
 you can host your own PaaS for free and almost with no hassle.
 
 In this tutorial we will see how to deploy GitLab in OpenShift using GitLab's
-official Docker image, how to scale it when needed and finally how to manage
-the upgrades.
+official Docker image, scale it when needed and finally how to manage the
+upgrades.
 
 <!-- more -->
 
@@ -36,11 +36,11 @@ test OpenShift easily:
 - [OpenShift Client][oc] (`oc` for short)
 
 It is also important to mention that for the purposes of this tutorial, the
-latest Origin release which is currently on alpha is used:
+latest Origin release, which is currently on alpha, is used:
 
-- **oc** `v1.3.0-alpha.1` (must be installed locally on your computer)
-- **openshift** `v1.3.0-alpha.1-31-g81aecc8` (is pre-installed in the VM image)
-- **kubernetes** `v1.3.0-alpha.1-331-g0522e63` (is pre-installed in the VM image)
+- **oc** `v1.3.0-alpha.1` (must be [installed][oc-gh] locally on your computer)
+- **openshift** `v1.3.0-alpha.1-31-g81aecc8` (is pre-installed in the [VM image])
+- **kubernetes** `v1.3.0-alpha.1-331-g0522e63` (is pre-installed in the [VM image])
 
 > **Note:**
 If you intend to deploy GitLab on a production OpenShift cluster, there are some
@@ -334,3 +334,5 @@ This is a known issue to both parties and is [being worked on][1251].
 [template]: https://docs.openshift.org/latest/architecture/core_concepts/templates.html "Documentation - OpenShift templates"
 [old-post]: https://blog.openshift.com/deploy-gitlab-openshift/ "Old post - Deploy GitLab on OpenShift"
 [line]: https://gitlab.com/gitlab-org/omnibus-gitlab/blob/658c065c8d022ce858dd63eaeeadb0b2ddc8deea/docker/openshift-template.json#L239 "GitLab - OpenShift template"
+[vm image]: https://atlas.hashicorp.com/openshift/boxes/origin-all-in-one "Openshift all-in-one VM 1.3 alpha on Atlas"
+[oc-gh]: https://github.com/openshift/origin/releases/tag/v1.3.0-alpha.1 "Openshift 1.3.0.alpha.1 release on GitHub"
