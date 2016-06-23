@@ -7,22 +7,22 @@ title: "Infrastructure"
 
 The infrastructure team is split between production engineers and performance specialists.
 
-Both roles are closely related as both touch on some of the same spots, for example, both roles cares about both the
+Both roles are closely related as they touch on some of the same spots, for example, both care about the
 [availability](https://gitlab.com/gitlab-com/infrastructure/issues?scope=all&sort=updated_desc&state=opened&utf8=%E2%9C%93&label_name%5B%5D=availability&label-name=)
 and [performance](https://gitlab.com/gitlab-com/infrastructure/issues?scope=all&sort=updated_desc&state=opened&utf8=%E2%9C%93&label_name%5B%5D=performance&label-name=)
-of GitLab.com.
+of GitLab.com, from different perspectives.
 
 Both roles also care about building an infrastructure and monitoring that can be shipped to our customers.
 
 ### Production Engineers
 
-Production engineers work on the infrastructure team that runs our services, including GitLab.com.
+Production engineers work on keeping the infrastructure that runs our services running fast and reliably.
+This infrastructure includes GitLab.com, dev.GitLab.org and GitHost.io.
 
-A production engineer is a developer with deep knowledge of some parts of the stack, either it
-is networking, or the linux kernel, or even an specific interesting in scaling and algorithms.
-
-It could also be seen as a systems engineer who aims to code himself out of a job by automating
-all the things.
+Production engineers also have a strong focus on enabling development to ship features as fast and bug
+free as possible. Providing the monitoring tools that prevent shipping regressions that would affect
+our customers. And building automation tools that lower the barrier of access to production and allow us
+to scale with automation.
 
 Responsibilities can be found in the [job description](jobs/production-engineer/index.html)
 
@@ -70,12 +70,12 @@ system and should also be kept up to date with whatever new finding we get as we
 so these runbooks can also be adopted by our customers.
 
 Runbooks are divided into 2 main sections:
-* What to do when - points to specific runbooks to run on stressful situations (on-call)
-* How do I - points to general administration texts that explain how to perform different administration tasks.
+* What to do when: points to specific runbooks to run on stressful situations (on-call)
+* How do I: points to general administration texts that explain how to perform different administration tasks.
 
-When writing a new runbook, be mindful what the goal of it is.
-If it is for on-call situations, make it crisp and brief. Try to keep the following structure: pre-check, resolution, post-check .
-If it is for general management, it can be freely formatted.
+When writing a new runbook, be mindful what the goal of it is:
+- If it is for on-call situations, make it crisp and brief. Try to keep the following structure: pre-check, resolution, post-check .
+- If it is for general management, it can be freely formatted.
 
 ### Internal documentation
 
