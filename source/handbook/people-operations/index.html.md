@@ -368,7 +368,7 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Answer the worker's compensation question.
 1. Save.
 
-##### Record Job Code Change
+##### Record Job Change
 
 1. Go to HR Passport homepage.
 1. Click Find.
