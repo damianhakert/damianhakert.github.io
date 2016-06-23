@@ -39,8 +39,8 @@ It is also important to mention that for the purposes of this tutorial, the
 latest Origin release, which is currently on alpha, is used:
 
 - **oc** `v1.3.0-alpha.1` (must be [installed][oc-gh] locally on your computer)
-- **openshift** `v1.3.0-alpha.1-31-g81aecc8` (is pre-installed in the [VM image])
-- **kubernetes** `v1.3.0-alpha.1-331-g0522e63` (is pre-installed in the [VM image])
+- **openshift** `v1.3.0-alpha.1-31-g81aecc8` (is pre-installed in the [VM image][vm-new])
+- **kubernetes** `v1.3.0-alpha.1-331-g0522e63` (is pre-installed in the [VM image][vm-new])
 
 > **Note:**
 If you intend to deploy GitLab on a production OpenShift cluster, there are some
@@ -239,9 +239,9 @@ The next step is to import the OpenShift template for GitLab.
 
 ### Import the template
 
-The [template] is basically a JSON file which describes a set of related object
-definitions to be created together, as well as a set of parameters for those
-objects.
+The [template][templates] is basically a JSON file which describes a set of
+related object definitions to be created together, as well as a set of
+parameters for those objects.
 
 The template for GitLab resides in the Omnibus GitLab repository under the
 docker directory. Let's download it locally with `wget`:
@@ -498,16 +498,6 @@ on the resources of your server, the answer is yes, of course there is.
 We will not expand on this matter, but feel free to read the documentation on
 OpenShift's website about [autoscaling].
 
----
-
-Let's now see how you update to a new GitLab version. GitLab has a new release
-coming out every month on 22nd including bugfixes and many new features you
-don't want to miss!
-
-## Update GitLab
-
-
-
 ## Current limitations
 
 As stated in the [all-in-one VM][vm] page:
@@ -536,6 +526,18 @@ OS level. Feel free to subscribe to follow their status:
 
 ## Conclusion
 
+By now, you should have an understanding of the basic OpenShift Origin concepts
+and a sense of how things work using the web console or the CLI.
+
+GitLab was hard if not impossible to install in previous versions of OpenShift,
+but now that's past. Upload a template, create a project, add an application
+and you are done. You are ready to login to your new GitLab instance.
+
+And remember that in this tutorial we just scratched the surface of what Origin
+is capable of. As always, you can refer to the detailed documentation to learn
+more about deploying your own OpenShift PaaS and managing your applications with
+the ease of containers.
+
 [RedHat]: https://www.redhat.com/en "RedHat website"
 [openshift]: https://www.openshift.org "OpenShift Origin website"
 [vm]: https://www.openshift.org/vm/ "OpenShift All-in-one VM"
@@ -552,10 +554,9 @@ OS level. Feel free to subscribe to follow their status:
 [Vagrantfile]: https://www.openshift.org/vm/Vagrantfile "OpenShift Vagrantfile"
 [projects]: https://docs.openshift.org/latest/dev_guide/projects.html "Documentation - Projects overview"
 [core]: https://docs.openshift.org/latest/architecture/core_concepts/index.html "Documentation - Core concepts of OpenShift Origin"
-[template]: https://docs.openshift.org/latest/architecture/core_concepts/templates.html "Documentation - OpenShift templates"
+[templates]: https://docs.openshift.org/latest/architecture/core_concepts/templates.html "Documentation - OpenShift templates"
 [old-post]: https://blog.openshift.com/deploy-gitlab-openshift/ "Old post - Deploy GitLab on OpenShift"
 [line]: https://gitlab.com/gitlab-org/omnibus-gitlab/blob/658c065c8d022ce858dd63eaeeadb0b2ddc8deea/docker/openshift-template.json#L239 "GitLab - OpenShift template"
-[vm image]: https://atlas.hashicorp.com/openshift/boxes/origin-all-in-one "Openshift all-in-one VM 1.3 alpha on Atlas"
 [oc-gh]: https://github.com/openshift/origin/releases/tag/v1.3.0-alpha.1 "Openshift 1.3.0.alpha.1 release on GitHub"
 [ha]: http://docs.gitlab.com/ce/administration/high_availability/gitlab.html "Documentation - GitLab High Availability"
 [replicas]: https://docs.openshift.org/latest/architecture/core_concepts/deployments.html#replication-controllers "Documentation - Replication controller"
