@@ -257,7 +257,7 @@ oc create -f openshift-template.json -n openshift
 ```
 
 >
-The `-n openshift` flag is a trick to make the template available to all
+The `-n openshift` namespace flag is a trick to make the template available to all
 projects. If you recall from when we created the `gitlab` project, `oc` switched
 to it automatically, and that can be verified by the `oc status` command. If
 you omit the namespace flag, the application will be available only to the
