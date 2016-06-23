@@ -136,6 +136,7 @@ Questions are:
 
 1. Why are they looking for a new job?
 1. What is your experience with X? (do for each of the skills asked in the job description)
+1. Current city and country of residence?
 1. How do they feel about working remotely and do they have experience with it?
 1. Compensation expectation and compensation in current/last job.
 
