@@ -5,7 +5,7 @@ title: Press releases
 
 .blog-index.blog-entry
   %ul.post-list
-    - data.press.each do |pr|
+    - data.press.sort_by(&:date).reverse.each do |pr|
       %li.post-list-item
         = link_to pr.link do
           = pr.title
