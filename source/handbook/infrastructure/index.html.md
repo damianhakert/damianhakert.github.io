@@ -5,25 +5,34 @@ title: "Infrastructure"
 
 ## Infrastructure documentation and reference
 
-Most of the infrastructure documentation and reference can be found in
+The infrastructure team is split between production engineers and performance specialists.
+
+Both roles are closely related as both touch on some of the same spots.
+
+Some of the infrastructure documentation and reference can be found in
 [in the Chef Repo](https://dev.gitlab.org/cookbooks/chef-repo).
-Make sure to check that if you're looking for anything in particular.
+
+The intent of this documentation is to be integrated out of the chef repo into the runbooks
+
+## Runbooks
+
+Runbooks are [public](https://gitlab.com/gitlab-com/runbooks), but there is an automatically mirrored copy in our [development environment](https://dev.gitlab.org/cookbooks/runbooks/).
+
+They are divided into 2 main sections:
+* What to do when - points to specific runbooks to run on stressful situations (on-call)
+* How do I - points to general administration texts that explain how to perform different administration tasks.
+
+When writing a new runbook, be mindful what the goal of it is.
+If it is for on-call situations, make it brief and try to keep the pre-check, resolution, post-check format.
+If it is for general management, it can be freely formatted.
 
 ## Always log into the infrastructure room
 
 Before you start fixing stuff, log into the [infrastructure room](https://gitlab.slack.com/messages/infrastructure/) and leave a message. Other people might be working at the same time, especially if there was a pagerduty alert. If you don't immediately know what happened, create a postmortem doc with a sequential timeline.
 
-## Why did server X stop working on Monday morning?
+### Why did server X stop working on Monday morning?
 
 Weekly automatic OS updates are performed on Monday at 10:10 UTC.
-
-## Emergency checklist
-
-For [emergency checklist](https://dev.gitlab.org/cookbooks/gitlab-drbd/blob/master/doc/emergency_checklist.md).
-
-## How does gitlab-drbd work and how do I failover?
-
-See [failover procedure](https://dev.gitlab.org/cookbooks/gitlab-drbd/blob/master/doc/control_script.md#failover-procedure).
 
 ## Make GitLab.com settings the default
 
@@ -44,43 +53,6 @@ You can find the infrastructure archive [here](https://docs.google.com/document/
 ## Network
 
 See network spreadsheet [here](https://docs.google.com/spreadsheet/ccc?key=0Am5WZPWXUTUAdGgtVFlYZXFWbk5WdWU2Vko4b2NxdWc#gid=0).
-
-## HP server
-
-[Documentation](https://drive.google.com/?tab=oo&authuser=0#folders/0B25WZPWXUTUAbnp4UU1lZjBtaU0).
-
-[Hpacucli (RAID CLI) cheat sheet](http://www.datadisk.co.uk/html_docs/redhat/hpacucli.htm).
-
-## WWW deploy
-
-Add the key to root@blue-moon.gitlab.com and note in the Network sheet.
-
-Add the remote:
-
-    git remote add deploy deploy@blue-moon.gitlap.com:~/www-gitlab-com.git
-
-Now `git remote -v` should look like:
-
-    deploy deploy@blue-moon.gitlap.com:~/www-gitlab-com.git (fetch)
-    deploy deploy@blue-moon.gitlap.com:~/www-gitlab-com.git (push)
-    origin git@gitlab.com:gitlab-com/www-gitlab-com.git (fetch)
-    origin git@gitlab.com:gitlab-com/www-gitlab-com.git (push)
-
-
-Deploy with:
-
-    git push deploy master
-
-## DRBD reports local disk state is ‘Diskless’
-
-* Try deactivating/activating the DRBD resource:
-        sudo drbdadm detach gitlab_data ; sudo drbdadm attach gitlab_data
-
-* Check if any lvm commands are still running `ps ax | grep lvm` . If so, wait for them to finish (may take 15 minutes).
-
-* Remove any unnecessary LVM snapshots `sudo /opt/gitlab-backup/bin/gitlab-rotate-backup purge`.
-
-* Try the drbdadm detach/attach again.
 
 ## HTTPS certificate
 
