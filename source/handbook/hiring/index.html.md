@@ -45,7 +45,7 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
    * For location, select "Telecommute".
    * For the description, write `For the job description, see [URL of relevant jobs page on about.gitlab.com]`
    * Indicate what applicants need to provide with their application. By default, this will include their resumé, a cover letter, but it may also include qualifying questions such as "What timezone are you in?".
-   * "Publish" the job, and follow the links to the application form (you will need this URL).
+   * Get one of the admins (People Ops and CEO) to "Publish" the job, and follow the links to the application form (you will need this URL).
    * Add the URL to the application form into the merge request for the `data/jobs.yml` file.
  1. As soon as the new job description / posting is live on our website, consider your available [advertising methods](#job-advertising) below.
 
@@ -87,6 +87,8 @@ List on:
 
 **Only the CEO presents offers.** As outlined in the [typical hiring process](#typical-process) below, discussing a possible offer with the candidate is the role of the CEO in the final interview. The hiring manager should propose a suggestion for an offer (including bonus structure if applicable, etc.) as an internal comment in Workable, but _only_ the CEO may disclose an offer to the candidate. This may change if/when we have a [global compensation framework](/handbook/people-operations/#compensation-principles) in place.
 
+The visibility of internal comments in Workable can be switched between hiring team _managers_ only, or _all_ members of the hiring team. Consider making comments that relate to compensation visible to hiring _managers_ only.
+
 ### Typical process<a name="typical-process"></a>
 
 1. Confirmation of the application: applicants automatically receive confirmation of their application, thanking them for submitting their information. This is an automated message from Workable. If the person came through another channel please add them to Workable before continuing the process. There are various ways to do this, see [Workable's documentation](https://resources.workable.com/adding-candidates).
@@ -111,7 +113,7 @@ For the specific position of Service Engineering please follow these steps (inst
 1. Team Interaction and Customer Scenario Interview
 1. Reference Calls, done by our People Operations Coordinator
 1. VP level interview
-1. CEO Interview
+1. CEO Interview, which may include an offer
 1. Make a verbal or written offer with CEO authorization
 
 ### Rejecting applicants<a name="rejecting"></a>
@@ -272,7 +274,7 @@ Offers made to new team members should be documented in the email thread between
    1. makes the contract based on the details found in the Workable platform, using reply-all to gather any missing pieces of information,
    1. has the contract reviewed by the VP of Scaling, CEO, or CFO (should not be the same as the person making the offer)
    1. confirms with a reply-to-all when the contract is sent.
-1. When the contract is signed, the People Ops team member should move the candidate to the "Hired" bucket in Workable. Thanks to an integration between Workable and BambooHR, this will automatically add an entry for the new team member in BambooHR. However, in the automatic move, "self-service" is switched off in BambooHR by default, so this must be switched on explicitly within BambooHR.
+1. When the contract is signed, the People Ops team member should move the candidate in Workable to the "Hired" bucket of the "Hired Team Members (admin access only)" job. This accomplishes two goals. First, thanks to an integration between Workable and BambooHR, it will automatically add an entry for the new team member in BambooHR. However, in the automatic move, "self-service" is switched off in BambooHR by default, so this must be switched on explicitly within BambooHR. Second, by keeping the application and interview notes of successful applicants in a more restricted area of Workable we are able to maintain confidentiality if/when the applicant becomes involved in the hiring process for their peers.
 1. This same person from People Operations files the signed contract in the appropriate place, and starts the [**onboarding issue**](https://about.gitlab.com/handbook/general-onboarding/).
 
 Note for People Operations:<br>
