@@ -285,9 +285,6 @@ values used with the GitLab template:
 
 ![GitLab settings](/images/blogimages/get-started-with-openshift-origin-3-and-gitlab/gitlab-settings.png)
 
-If you are deploying to production you may need to use greater values. If you
-don't provide a password for PostgreSQL, it will be created automatically.
-
 Notice at the top that there are three resources to be created with this
 template:
 
@@ -298,7 +295,21 @@ template:
 While PostgreSQL and Redis are bundled in Omnibus GitLab, the template is using
 separate images as you can see from [this line][line] in the template.
 
-As a last step, let's edit the `/etc/exports` file in the VM.
+The predefined values have been calculated for the purposes of testing out
+GitLab in the all-in-one VM. You don't need to change anything here, hit
+**Create** to start the deployment.
+
+If you are deploying to production you will want to change the **GitLab instance
+hostname** and use greater values for the volume sizes. If you don't provide a
+password for PostgreSQL, it will be created automatically.
+
+>**Note:**
+The `gitlab.apps.10.2.2.2.xip.io` hostname that is used by default will
+resolve to the host with IP `10.2.2.2` which is the IP our VM uses. It is a
+trick to have distinct FQDNs pointing to services that are on our local network.
+Read more on how this works in <http://xip.io>.
+
+As a last step, we need to edit the `/etc/exports` file in the VM.
 
 ### Edit the NFS exports file
 
