@@ -295,7 +295,7 @@ name as you post's. This way it's easy to anyone know which image is related to 
 So, following the same logic, your cover image would be named `my-awesome-post-cover.png`, accessed under
 `/source/images/blogimages/my-awesome-post-cover.png`.
 
-### Cover image
+#### Cover image
 
 Choose a cover image for your post. Try any public domain resource that reflects somehow your post's subject. In the absence
 of an image, use one of these: 
