@@ -8,12 +8,12 @@ image_title:
 ---
 
 [OpenShift Origin][openshift] is an open source container application
-platform created by [RedHat] based on [kubernetes] and [Docker]. That means
+platform created by [RedHat], based on [kubernetes] and [Docker]. That means
 you can host your own PaaS for free and almost with no hassle.
 
-In this tutorial we will see how to deploy GitLab in OpenShift using GitLab's
-official Docker image, scale it when needed and finally how to manage the
-upgrades.
+In this tutorial, we will see how to deploy GitLab in OpenShift using GitLab's
+official Docker image while getting familiar with the web interface and CLI
+tools that will help us achieve our goal.
 
 <!-- more -->
 
