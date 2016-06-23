@@ -172,9 +172,9 @@ Using the all-in-one VM gives you the ability to test OpenShift whenever you
 want. That means you get to play with it, shutdown the VM, and pick up where
 you left off.
 
-Sometimes though, you may encounter some issues, like OpenShift not running.
-The web UI may not responding or you may see issues when trying to login with
-`oc`:
+Sometimes though, you may encounter some issues, like OpenShift not running
+when booting up the VM. The web UI may not responding or you may see issues
+when trying to login with `oc`, like:
 
 ```
 The connection to the server 10.2.2.2:8443 was refused - did you specify the right host or port?
@@ -183,11 +183,11 @@ The connection to the server 10.2.2.2:8443 was refused - did you specify the rig
 In that case, the OpenShift service might not be running, so in order to fix it:
 
 1. SSH into the VM by going to the directory where the Vagrantfile is and then
-   running:
+   run:
 
-    ```sh
-    vagrant ssh
-    ```
+   ```sh
+   vagrant ssh
+   ```
 
 1. Run `systemctl` and verify by the output that the `openshift` service is not
    running (it will be in red color). If that's the case start the service with:
@@ -198,9 +198,9 @@ In that case, the OpenShift service might not be running, so in order to fix it:
 
 1. Verify the service is up with:
 
-    ```sh
-    systemctl status openshift -l
-    ```
+   ```sh
+   systemctl status openshift -l
+   ```
 
 Now you will be able to login using `oc` and visit the web console.
 
