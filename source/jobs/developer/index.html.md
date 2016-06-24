@@ -53,7 +53,7 @@ Senior Developers are experienced developers who:
 We normally don't offer any internships, but if you get a couple of merge requests
 accepted we'll interview you for one. This will be a remote internship without
 supervision, you'll only get feedback on your merge requests. If you want to
-work on open source and qualify please [submit an application](https://gitlab.workable.com/jobs/207439/candidates/new).
+work on open source and qualify please [submit an application](https://gitlab.workable.com/jobs/106660/candidates/new).
 In the cover letter field please note that you want an internship and link to
 the accepted merge requests. The merge requests should be of significant
 value and difficulty, which is at the discretion of the hiring manager. For
