@@ -1,7 +1,7 @@
 ---
 title: "GitLab 7.10.1 Released"
 date: 2015-04-30
-categories:
+categories: release
 author: Job van der Voort
 author_twitter: Jobvo
 ---
