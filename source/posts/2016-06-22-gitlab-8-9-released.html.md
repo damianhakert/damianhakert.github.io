@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitLab 8.9 released with File Locking, Environments, Priority Labels and more!"
-categories:
+categories: release
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: /images/8_9/windmills.jpg

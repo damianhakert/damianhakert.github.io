@@ -2,7 +2,7 @@
 layout: post
 title: "GitLab 8.8 released with Pipelines and .gitignore templates"
 date: 2016-05-22
-categories:
+categories: release
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: /images/8_8/team.jpg

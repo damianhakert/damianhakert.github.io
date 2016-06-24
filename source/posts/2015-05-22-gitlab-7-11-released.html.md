@@ -1,7 +1,7 @@
 ---
 title: "GitLab 7.11 released with Two-factor Authentication and a publicly viewable Enterprise Edition"
 date: 2015-05-22
-categories:
+categories: release
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: /images/7_11/ny.jpg

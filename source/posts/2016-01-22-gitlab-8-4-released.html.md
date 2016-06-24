@@ -1,7 +1,7 @@
 ---
 title: "GitLab's 50th Release: 8.4"
 date: 2016-01-22
-categories:
+categories: release
 author: Job van der Voort
 author_twitter: Jobvo
 filename: 2016-01-22-gitlab-8-4-released.markdown

@@ -1,7 +1,7 @@
 ---
 title: "GitLab CE 6.8 released"
 date: 2014-04-22 10:04:04 +0100
-categories:
+categories: release
 author: Marin Jankovski, Jacob Vosmaer
 community: false
 ---
