@@ -453,7 +453,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Office space (if working from home is not practical)
     *  Work-related online courses
     *  Work-related conferences (please get permission from your manager in advance if total costs are more than $500)
-    *  Business travel upgrades per return trip (i.e. not per each leg of the flight):
+    *  Business travel upgrades per round-trip (i.e. not per each leg of the flight):
         * Up to the first [EUR 300](https://www.google.com/search?q=300+eur+in+usd) for an upgrade to Business Class on flights longer than 8 hours.
         * Upgrade to Economy Plus if you’re taller than 1.95m / 6’5” for flights longer than 2 hours.
         * Up to the first [EUR 100](https://www.google.com/search?q=100+eur+in+usd) for an upgrade to Economy Plus (no height restriction) on flights longer than 8 hours.
@@ -758,7 +758,7 @@ Instructions on how to update the website are in the [readme of www-gitlab-com](
 1. In a terminal, execute: `bundle exec middleman`.
 1. Visit http://localhost:4567 in your browser.
 1. To edit the site locally you'll need to install a text editor. We recommend
-   [Sublime Text 2](http://www.sublimetext.com/2) or [Atom](https://atom.io/).
+   [Sublime Text 3](http://www.sublimetext.com/3) or [Atom](https://atom.io/).
 
 #### 2. Test if all URL links in a page are valid
 
