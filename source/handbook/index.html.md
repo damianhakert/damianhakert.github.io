@@ -334,6 +334,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. If you want to move a meeting just move the calendar appointment instead of reaching out via other channels, note the change at the top of the description.
 1. Please click 'Guests can modify event' so people can update the time in the calendar instead of having to reach out via other channels. You can install [the Google-Calendar-Guests-Can-Modify-Event-By-Default plugin in Chrome](https://github.com/robin-drexler/Google-Calendar-Guests-Can-Modify-Event-By-Default) to do this automatically.
 1. If you want to schedule a meeting with a person not on the team please use [Calendly](#calendly).
+1. When scheduling a meeting we value people's time and prefer the "speedy meetings" setting in our Google Calendar. This gives us meetings of, for example, 25 or 50  minutes leaving some time to write notes etc before continuing to our next call or meeting. (This setting can be found under the calendar Settings menu at "default event duration")
 
 ### Video calls<a name="video-calls"></a>
 
