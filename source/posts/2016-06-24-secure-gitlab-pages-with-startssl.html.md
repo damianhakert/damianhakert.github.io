@@ -443,7 +443,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [Eddy Nigg]: https://twitter.com/eddy_nigg
 [google-verif]: https://support.google.com/webmasters/answer/35179?hl=en
 [google-gen-csr]: https://developers.google.com/web/fundamentals/security/encrypt-in-transit/generating-keys-and-csr#generate-a-csr
-[import-cert-browser]: //help-icc.untangle.com/Content/User%20Guide/UI_Tabs/SSLCertificateGPO_v4/Appendix%20B%20Installing%20the.htm
+[import-cert-browser]: http://help-icc.untangle.com/Content/User%20Guide/UI_Tabs/SSLCertificateGPO_v4/Appendix%20B%20Installing%20the.htm
 [isrg]: https://en.wikipedia.org/wiki/Internet_Security_Research_Group
 [lets]: https://letsencrypt.org/
 [lets-browser-support]: https://community.letsencrypt.org/t/which-browsers-and-operating-systems-support-lets-encrypt/4394
@@ -451,16 +451,16 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [lets-docs]: https://letsencrypt.readthedocs.org/en/latest/intro.html
 [lets-domain-validation]: https://letsencrypt.org/how-it-works/#domain-validation
 [lest-faq]: https://community.letsencrypt.org/t/frequently-asked-questions-faq/26
-[lets-features]: //letsencrypt.readthedocs.org/en/latest/intro.html?highlight=revoke#current-features
+[lets-features]: http://letsencrypt.readthedocs.org/en/latest/intro.html?highlight=revoke#current-features
 [lets-forum]: https://community.letsencrypt.org/
 [lets-limits]: https://community.letsencrypt.org/t/rate-limits-for-lets-encrypt/6769
 [lets-quote]: https://letsencrypt.org/2015/10/29/phishing-and-malware.html
 [lets-plugins]: https://letsencrypt.readthedocs.org/en/latest/using.html#plugins
 [lets-ref1]: https://www.washingtonpost.com/news/the-switch/wp/2013/12/10/nsa-uses-google-cookies-to-pinpoint-targets-for-hacking/
-[lets-ref2]: //arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/
-[lets-ref3]: //krebsonsecurity.com/2015/04/dont-be-fodder-for-chinas-great-cannon/
-[lets-renewal]: //letsencrypt.readthedocs.org/en/latest/using.html#renewal
-[lets-requirements]: //letsencrypt.readthedocs.org/en/latest/intro.html?highlight=revoke#system-requirements
+[lets-ref2]: http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/
+[lets-ref3]: http://krebsonsecurity.com/2015/04/dont-be-fodder-for-chinas-great-cannon/
+[lets-renewal]: http://letsencrypt.readthedocs.org/en/latest/using.html#renewal
+[lets-requirements]: http://letsencrypt.readthedocs.org/en/latest/intro.html?highlight=revoke#system-requirements
 [lets-sha-256]: https://community.letsencrypt.org/t/does-the-certificate-offer-a-sha-2-signature/8914
 [lets-smime]: https://community.letsencrypt.org/t/s-mime-certificates/153
 [lets-win]: https://cultiv.nl/blog/lets-encrypt-on-windows/
@@ -469,7 +469,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [nginx]: https://www.nginx.com/
 [openssl]: https://www.openssl.org/
 [pages]: https://pages.gitlab.io/
-[pages-doc]: //doc.gitlab.com/ee/pages/README.html
+[pages-doc]: http://doc.gitlab.com/ee/pages/README.html
 [pem]: https://support.ssl.com/Knowledgebase/Article/View/19/0/der-vs-crt-vs-cer-vs-pem-certificates-and-how-to-convert-them
 [pki-google-book]: https://books.google.com.br/books?id=oswvyhAftLsC&pg=PA69&redir_esc=y#v=onepage&q&f=false
 [sha]: https://en.wikipedia.org/wiki/Secure_Hash_Algorithm
@@ -508,9 +508,9 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [get-help]: https://about.gitlab.com/getting-help
 [gitlab-com]: https://about.gitlab.com/gitlab-com/
 [pages]: https://pages.gitlab.io
-[pages-ee]: //doc.gitlab.com/ee/pages/README.html
+[pages-ee]: http://doc.gitlab.com/ee/pages/README.html
 [pages-issues]: https://gitlab.com/pages/pages.gitlab.io/issues
-[gitlab-nginx]: //doc.gitlab.com/ee/install/installation.html#nginx
+[gitlab-nginx]: http://doc.gitlab.com/ee/install/installation.html#nginx
 [gitlab-post-lets]: https://about.gitlab.com/2016/04/11/tutorial-securing-your-gitlab-pages-with-tls-and-letsencrypt/
 [gitlab-post-pages]: https://about.gitlab.com/2016/04/07/gitlab-pages-setup/
 [sign-up]: https://gitlab.com/users/sign_in "Sign Up!"
