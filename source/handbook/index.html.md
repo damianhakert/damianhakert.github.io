@@ -11,22 +11,22 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 ## Other main pages
 
 * [Engineering]() TODO
-* - [Backend]() TODO
-* - [Support](/handbook/support)
-* - [Infrastructure](/handbook/infrastructure)
+  * [Backend]() TODO
+  * [Support](/handbook/support)
+  * [Infrastructure](/handbook/infrastructure)
 * [Marketing](/handbook/marketing)
-* - [Social Media Guidelines](/handbook/social-media-guidelines)
+  * [Social Media Guidelines](/handbook/social-media-guidelines)
 * [Sales](/handbook/sales)
 * [Finance](/handbook/finance)
-* - [Stock Options](/handbook/stock-options)
-* - [Board meetings](/handbook/board-meetings)
+  * [Stock Options](/handbook/stock-options)
+  * [Board meetings](/handbook/board-meetings)
 * [People Operations](/handbook/people-operations)
-* - [Onboarding](/handbook/general-onboarding)
-* - [Benefits](/handbook/benefits)
-* - [Hiring](/handbook/hiring)
-* - [Travel](/handbook/travel)
-* - [Security](/handbook/security)
-* - [Leadership](/handbook/leadership)
+  * [Onboarding](/handbook/general-onboarding)
+  * [Benefits](/handbook/benefits)
+  * [Hiring](/handbook/hiring)
+  * [Travel](/handbook/travel)
+  * [Security](/handbook/security)
+  * [Leadership](/handbook/leadership)
 
 ## This page
 
