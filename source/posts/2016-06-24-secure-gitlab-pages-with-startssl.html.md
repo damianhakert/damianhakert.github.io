@@ -189,7 +189,7 @@ detailed in the tutorial "[Hosting on GitLab.com with GitLab Pages][gitlab-post-
 read the [quick start guide][pages], and the [documentation][pages-doc] for GitLab Pages.
 
 GitLab Pages supports [PEM] certificates issued by any [CA][wiki-ca], though we need to make sure
-that the certificate is compatible with [NGINX], the server [where GitLab runs on][gitlab-nginx]. <!-- AXIL is that correct? All GitLab instances (GitLab.com and GitLab EE) run on Nginx?  -->
+that the certificate is compatible with [NGINX], the server [where GitLab runs on][gitlab-nginx].
 
 StartCom certificates are retrievable from their [User Interface (UI)][startssl], where you have
 access to your own information, certificates requests, expiration dates, etc. 
