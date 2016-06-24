@@ -89,8 +89,8 @@ extra_font:
   .container
     %h1.page-headline
       These powerful tools and services are available as options for the Enterprise Edition
-    .row{ data: { equal: ".col-md-4" } }
-      .col-md-4
+    .row.pricing-tile-row{ data: { equal: ".col-md-4" } }
+      .col-md-4.col-md-offset-2
         .featured-item
           .edition-name
             GitLab Geo
@@ -100,7 +100,7 @@ extra_font:
                 %span.currency $
             %h3.featured-item-headline-small
               per user (no minimum)
-            = icon "gitlab-geo", "featured-item-icon", {width: 76, height: 76, label: "GitLab CE"}
+            = icon "gitlab-geo", "featured-item-icon", {width: 76, height: 76, label: "GitLab Geo"}
             %ul.featured-item-list.list-unstyled
               %li.item-description
                 Mirrored GitLab instance
@@ -125,7 +125,7 @@ extra_font:
                 %span.currency $
             %h3.featured-item-headline-small
               per user (minimum of 100 users)
-            = icon "premium-support", "featured-item-icon", {width: 76, height: 76, label: "GitLab CE"}
+            = icon "premium-support", "featured-item-icon", {width: 76, height: 76, label: "Premium Support"}
             %ul.featured-item-list.list-unstyled
               %li.item-description
                 24/7 emergency support
@@ -140,7 +140,8 @@ extra_font:
                 Live upgrade assistance
             %a.featured-item-button{href: data.pricing.payment_url}
               Add Premium Support
-      .col-md-4
+    .row{ data: { equal: ".col-md-4" } }
+      .col-md-4.col-md-offset-2
         .featured-item
           .edition-name
             Pivotal Tile
@@ -150,13 +151,13 @@ extra_font:
                 %span.currency $
             %h3.featured-item-headline-small
               per user (no minimum)
-            = icon "pivotal-tile", "featured-item-icon", {width: 76, height: 76, label: "GitLab CE"}
+            = icon "pivotal-tile", "featured-item-icon", {width: 76, height: 76, label: "Pivotal Tile"}
             %ul.featured-item-list.list-unstyled
               %li.item-description
                 Simple installation
               %li.line-separator
               %li.item-description
-                High available by default
+                Highly available by default
               %li.line-separator
               %li.item-description
                 Easily scale up
@@ -168,6 +169,30 @@ extra_font:
                 = link_to "Learn more...", "https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/", class: "action-link"
             %a.featured-item-button{href: data.pricing.payment_url}
               Add Pivotal Tile
+      .col-md-4
+        .featured-item
+          .edition-name
+            File Locking
+          .featured-item-body
+            %h2.featured-item-headline
+              = succeed "99/yr" do
+                %span.currency $
+            %h3.featured-item-headline-small
+              per user (no minimum)
+            %ul.featured-item-list.list-unstyled
+              %li.item-description
+                Lock files and folders
+              %li.line-separator
+              %li.item-description
+                View and manage locks
+              %li.line-separator
+              %li.item-description
+                Intuitive UI
+              %li.line-separator
+              %li.item-description
+                = link_to "Learn more...", "http://docs.gitlab.com/ee/user/project/file_lock.html", class: "action-link"
+            %a.featured-item-button{href: data.pricing.payment_url}
+              Add File Locking
     %a.featured-item-button.purchase-now{href: data.pricing.payment_url}
       Purchase your GitLab EE package
 .what-is.choose-gitlab.text-center.animated

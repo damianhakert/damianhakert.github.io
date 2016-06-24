@@ -333,3 +333,9 @@
     }
   }
 }
+
+.pricing-tile-row {
+  @media (min-width: $screen-md-min) {
+    margin-bottom: 30px;
+  }
+}
