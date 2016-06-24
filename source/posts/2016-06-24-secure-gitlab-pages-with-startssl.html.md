@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Secure GitLab Pages with StartSSL"
-date: 2016-06-24 09:00:00 # to be replaced
+date: 2016-06-24 09:00:00
 comments: true
 categories: [technical overview, tutorial]
 author: Marcia Ramos
@@ -39,7 +39,7 @@ with **[StartSSL Class 1 free certificates][startssl-class-1]**.
 ### Why should I care about HTTPS?
 
 Perhaps this might be your first question. If our sites are hosted by [GitLab Pages][pages],
-therefore they are [static][static webpage], hence we are not dealing with server-side scripts
+therefore they are [static][ssg-post], hence we are not dealing with server-side scripts
 nor credit card transactions, so why do we need secure connections? 
 
 Back in the 1990s, where HTTPS came out, [SSL]<sup>[1](#1)</sup> was considered a "special"
@@ -142,7 +142,7 @@ certificates can be used to sign contracts in digital format. Source:
 use a different subdomain in order to create additional certificates without the need to
 revoke a previously created certificate
 
-### StartSSL **x** Let's Encrypt
+### StartSSL **vs** Let's Encrypt
 
 [Let's Encrypt][lets] is a free, automated, and open Certificate Authority (CA), provided by
 [Internet Security Research Group (ISRG)][isrg]. They are the first CA to offer exclusively
@@ -253,7 +253,7 @@ Domain validation is necessary to make sure that the domain you are issuing the 
    - enter the root domain and some subdomains 
    - enter multiple domains (up to 5). 
 
-   Suggestion? Do one by one; if something goes wrong, it will be just one to fix.
+   Suggestion? Issue one different certificate per domain or subdomain; if something goes wrong, it will be just one to fix.
 - Choose the first option: the radio button for PEM certificates **Generate by myself**.
 It will open a text area where you'll add the CSR we'll generate next. Leave the tab opened<a name="tab-step-1"></a>.
 
@@ -269,9 +269,11 @@ For this particular step, we have two different approaches: [Linux and Mac](#uni
 
 - Open the terminal and check if you have [OpenSSL] installed: `$ openssl version`.
 If the response is not `OpenSSL x.x.x date`, install it before continue
-- Run the command recommended by StartCom: 
-  `$ openssl req -newkey rsa:2048 -keyout yourkeyname.key -out yourkeyname.csr`. 
-  Use `sudo` if needed. Alternatively, you can change the key length to `rsa:4096`.
+- Run the command recommended by StartCom:
+
+      openssl req -newkey rsa:4096 -keyout yourkeyname.key -out yourkeyname.csr
+
+  Use `sudo` if needed. Alternatively, you can keep the key length at `rsa:2048`.
   The file name (`yourkeyname`) can be chosen at your will
 - Enter the PEM passphrase (it's like a password)
 - Verify it by typing the same passphrase again. Memorize it or make a note.
@@ -333,7 +335,7 @@ The certificate looks like the code below.
 
 ```
 -----BEGIN CERTIFICATE-----
-MQswCxxxxxxxxwJJTDEWxxxxx1111hMNU3RhcnllllllSSSSSjEGJSNSInjsnxLg
+MQswCKIhggfrOJmJJTDEWjkfhMNU3RhcndfjdfnuNJFHUnjfhjEGJSNSInjsnxLg
 ... 
 nEFH63o+ycNl2jR29jd8c8c+MBIWrYGH8TPy0GCIguwTEzY=
 -----END CERTIFICATE-----
@@ -359,8 +361,13 @@ Choose whichever option you feel more comfortable with.
 
 #### Option A: Via command line
 
-In your terminal, type `$ openssl rsa -in yourkeyname.key -out yourkeyname-decrypted.key`, where `yourkeyname`
-is the name of the encrypted key and `yourkeyname-decrypted.key` will be the name of the decrypted key.
+In your terminal, type 
+
+```
+openssl rsa -in yourkeyname.key -out yourkeyname-decrypted.key
+```
+
+where `yourkeyname` is the name of the encrypted key and `yourkeyname-decrypted.key` will be the name of the decrypted key.
 Use the same password you set up before (on Step 2) when prompted. Your new key will be in your `~home` directory.
 
 On Windows, proceed likewise, but `cd path/to/folder` before beginning. The decrypted key will be stored in the same
@@ -474,6 +481,7 @@ Follow [@GitLab][twitter] on Twitter and stay tuned for updates!
 [pki-google-book]: https://books.google.com.br/books?id=oswvyhAftLsC&pg=PA69&redir_esc=y#v=onepage&q&f=false
 [sha]: https://en.wikipedia.org/wiki/Secure_Hash_Algorithm
 [site-24-7]: https://www.site24x7.com/ssl-certificate.html
+[ssg-post]: https://about.gitlab.com/2016/06/03/ssg-overview-gitlab-pages-part-1-dynamic-x-static/
 [symantec]: https://www.symantec.com/
 [symantec-ssl]: https://www.symantec.com/ssl-certificates/
 [startssl]: https://startssl.com
