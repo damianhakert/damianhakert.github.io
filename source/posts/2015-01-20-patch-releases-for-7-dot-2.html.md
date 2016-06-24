@@ -1,6 +1,7 @@
 ---
 title: "Patch releases for GitLab 7.2, 7.3 and 7.4 CE & EE"
 date: 2015-01-20
+categories: release
 author: Patricio, Job
 ---
 
