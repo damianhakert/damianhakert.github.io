@@ -527,9 +527,9 @@ OS level. Feel free to subscribe to follow their status:
 By now, you should have an understanding of the basic OpenShift Origin concepts
 and a sense of how things work using the web console or the CLI.
 
-GitLab was hard if not impossible to install in previous versions of OpenShift,
-but now that's past. Upload a template, create a project, add an application
-and you are done. You are ready to login to your new GitLab instance.
+GitLab was hard (if not impossible) to install in previous versions of OpenShift,
+but now that belongs to the past. Upload a template, create a project, add an
+application and you are done. You are ready to login to your new GitLab instance.
 
 And remember that in this tutorial we just scratched the surface of what Origin
 is capable of. As always, you can refer to the detailed documentation to learn
