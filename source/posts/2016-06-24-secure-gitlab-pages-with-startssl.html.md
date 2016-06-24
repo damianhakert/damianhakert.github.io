@@ -16,7 +16,7 @@ In this post, first we'll give you a quick overview on SSL/TLS certificates and 
 we will show you a comparison between [StartSSL Class 1][startssl-class-1] and [Let's Encrypt][lets]
 to facilitate your decision to choose one over another.
 
-Finally, we will guide you through the process of securing your GitLab Pages site with
+Finally, we will guide you through the process of securing your GitLab Pages site
 with **[StartSSL Class 1 free certificates][startssl-class-1]**.
 
 **Note:** We assume you are familiar with web development and web hosting.
