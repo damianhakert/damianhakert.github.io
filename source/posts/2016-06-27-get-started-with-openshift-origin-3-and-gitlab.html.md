@@ -412,9 +412,6 @@ Upping the GitLab pods is actually like adding new application servers to your
 cluster. You can see how that would work if you didn't use GitLab with
 OpenShift by following the [HA documentation][ha] for the application servers.
 
-You want to also scale up PostgreSQL and Redis? No problem. Follow the same
-route and the new containers will be up in no time.
-
 Bare in mind that you may need more resources (CPU, RAM, disk space) when you
 scale up. If a pod is in pending state for too long, you can navigate to
 **Browse > Events** and see the reason and message of the state.
