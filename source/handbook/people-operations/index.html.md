@@ -48,7 +48,7 @@ In general, the People Operations team and processes are here as a service to th
 
 ## Team Directory<a name="directory"></a>
 
-The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is in BambooHR, and is accessible to all team members.
+The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is in BambooHR, and is accessible to all team members. This is your one-stop directory for phone numbers and addresses (in case you want to send your team mate an awesome card!).
 
 - Please make sure that your own information stays up to date, and reach out to People Ops if you need any help in doing so.
 - Please make sure that your address and phone information are written in such a way that your team mates can reach you from a different country. So, for example, include `+[country code]` in front of your phone number.
@@ -189,12 +189,12 @@ Add a New Division
 
 ### Asset Tracking<a name="asset-tracking"></a>
 
-Items paid for by the company are property of the company and need to be reported to People Ops for proper asset tracking. The information is then entered into BambooHR by People Ops. 
+Items paid for by the company are property of the company and need to be reported to People Ops for proper asset tracking. The information is then entered into BambooHR by People Ops.
 1. Go to the Employee in BambooHR
 1. Click on the Assets Tab
 1. Click Update Assets
 1. Enter Asset Category, Asset Description, Serial Number, Asset Cost, and Date Loaned
-1. This process is repeated for each asset purchased 
+1. This process is repeated for each asset purchased
 
 People Ops should recieve a confirmation and receipt via email after placing an order. Make sure to upload these receipts with your next expense report through [Expensify](/handbook/#spending-company-money). You can automatically do this by forwarding all receipts to receipts@expensify.com.
 
@@ -379,9 +379,9 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Select Employment Data on the left side of the screen.
 1. Select the reason for the change.
 1. Enter the effective date.
-1. Click next. 
+1. Click next.
 1. Select the reason.
-1. Change the business title. Also, change any other applicable fields. 
+1. Change the business title. Also, change any other applicable fields.
 1. Enter yes or no under the worker's comp section.
 1. Click Update
 
@@ -389,11 +389,11 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 
 1. Go to HR Passport homepage
 1. Under "My Company" select "Payroll Entry & Admin"
-1. Select the proper payroll 
+1. Select the proper payroll
 1. Under Other Earnings, select the BNO code and enter the amount of the bonus.
 1. **Never** hit submit. (It will cause the entire payroll to be paid the next day)
 1. Click Save when done.
-Note: Make sure to file all appropriate documentation in BambooHR. 
+Note: Make sure to file all appropriate documentation in BambooHR.
 
 
 ### Using RingCentral<a name="ringcentral"></a>
