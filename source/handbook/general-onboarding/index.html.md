@@ -15,6 +15,7 @@ title: "GitLab Onboarding"
 * [Master Checklist for Onboarding of New Hires](#checklist)
 * [Onboarding Topics That Apply to Everyone](#everyone)
   * [General](#general)
+  * [Add yourself to the team page](#add-yourself-to-team-page)
   * [GitLab Instances](#gitlab-instances)
   * [Security](#security)
   * [Git Quiz!](#quiz)
@@ -35,8 +36,8 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 lines of the master checklist, paste the private email address of the hire in
 there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @brittany, and @tiffanie.
 * [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @HANDLE (Nominate someone preferably in similar timezone but different functional group)), and People Ops is tackled by (FILL IN WITH @ HANDLE).
-* [ ] Robert/Jacob/Ernst: create Google account, `firstname[at]gitlab.com` or `initial(s)[at]gitlab.com`, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it. 
-* [ ] New team member: Google does not support 2FA in some countries ([e.g. Nigeria](https://productforums.google.com/forum/#!topic/gmail/3_wcd8tAqdc) ); if that is the case for you, reach out to People Ops to get the initial authentication code sent to a phone in  supported country, after which 2FA will work as normal. 
+* [ ] Robert/Jacob/Ernst: create Google account, `firstname[at]gitlab.com` or `initial(s)[at]gitlab.com`, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it.
+* [ ] New team member: Google does not support 2FA in some countries ([e.g. Nigeria](https://productforums.google.com/forum/#!topic/gmail/3_wcd8tAqdc) ); if that is the case for you, reach out to People Ops to get the initial authentication code sent to a phone in  supported country, after which 2FA will work as normal.
 * [ ] Robert/Jacob/Ernst: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 * [ ] Robert/Jacob/Ernst: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
 * [ ] Robert/Jacob/Ernst: @mention the new team member in this onboarding issue once their dev.gitlab.org account has been made.
@@ -113,7 +114,7 @@ Next to Savvy, the People Ops team will also get a copy of the form info for you
 and then ping @rspeicher to confirm your account. You can find this (and other) shared Google Docs by using [`Search <your domain>`](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
 * [ ] New team member: once you are registered on 1Password, ping your hiring manager to grant you access
 to the proper shared Vaults by making a suggestion in the relevant cell in the "1password Shared Folders" Google Sheet.
-* [ ] New team member: install the 1Password app on your computer, and link it to your team account, as described on the [security handbook page](https://about.gitlab.com/handbook/security/). Please let People Ops or your manager know if you need any assistance. 
+* [ ] New team member: install the 1Password app on your computer, and link it to your team account, as described on the [security handbook page](https://about.gitlab.com/handbook/security/). Please let People Ops or your manager know if you need any assistance.
 * [ ] New team member: Set up [secure passwords per the handbook](https://about.gitlab.com/handbook/security/).
 * [ ] New team member: Create GitLab.com account and leave a comment in this issue to tell us the name. (To clarify, this is **not** the same as your account and username on dev.gitlab.org which you already have if you can see this issue).
 * [ ] Robert/Jacob/Ernst: Invite team members' GitLab.com account to the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members) as a developer.
@@ -139,7 +140,7 @@ to the proper shared Vaults by making a suggestion in the relevant cell in the "
    * [ ] 9. call with ___
    * [ ] 10. call with ___
 * [ ] New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/) (don't use an avatar, stock photo or something with sunglasses).
-* [ ] New team member: [Add yourself](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/add_member_to_team_page.md) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. In the description of the merge request, add the template text for the tweet that announces your entry to the team: "Very happy to announce that [NAME] joined our #[TEAM] team! Welcome [TWITTER HANDLE]! https://about.gitlab.com/team/". Assign the merge request to your hiring manager, and @ mention Amara so that she can schedule the tweet to announce you!
+* [ ] New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/) with an easily recognizable photo. In the description of the merge request, add the template text for the tweet that announces your entry to the team: "Very happy to announce that [NAME] joined our #[TEAM] team! Welcome [TWITTER HANDLE]! https://about.gitlab.com/team/". Assign the merge request to your hiring manager, and @ mention Amara so that she can schedule the tweet to announce you!
 * [ ] Amara: Send out or schedule a tweet about the new hire when the addition to the team page has been merged. Make screenshot of the profile and include that in the tweet.
 * [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing).
 * [ ] New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
@@ -245,10 +246,71 @@ The most common Issues are created in the following projects:
   1. Internal issues related to the organization: Use [GitLab Organization](https://dev.gitlab.org/gitlab/organization)
   1. Internal issues relate to Enterprise Edition: Use [GitLab EE](https://dev.gitlab.org/gitlab/gitlab-ee)
 
+### Add yourself to the team page<a name="add-yourself-to-team-page"></a>
+
+Welcome to GitLab! We are happy to have you join our company and to include
+you in our [team page](https://about.gitlab.com/team/). The following are
+the steps to add yourself to the team page. Please follow the links that will guide you to full guides about every step.
+
+1. Create an account on [GitLab.com](https://gitlab.com/) and take note of
+your username and password, because you will need them throughout these steps.
+1. You should have been granted access to the [www-gitlab-com
+project](https://gitlab.com/gitlab-com/www-gitlab-com) as an earlier step of onboarding.
+1. Download Git, following the [start using git
+documentation](http://doc.gitlab.com/ce/gitlab-basics/start-using-git.html). Don't forget to add your Git username and to set your email.
+1. Follow the steps to create and add your [SSH
+keys](http://doc.gitlab.com/ce/gitlab-basics/create-your-ssh-keys.html).<br>
+Note: in some of these steps, your
+[shell](http://doc.gitlab.com/ce/gitlab-basics/start-using-git.html) will
+require you to add your GitLab.com username and password.
+1. Clone the www-gitlab-com project through your shell, following the [command line commands
+documentation](http://doc.gitlab.com/ce/gitlab-basics/command-line-commands.html).
+1. Find the picture that you’d like to add to
+our [team page](https://about.gitlab.com/team/), change the picture's name to
+the following format: `yourname.jpg` or `yourname.png` and then follow the
+"[how to add an image](http://doc.gitlab.com/ce/gitlab-basics/add-image.html)" steps. Picture Notes:
+   - Ensure the picture size is around 400x400 (it must be square) and the format is JPEG or PNG. You can resize your picture using a photo editor like [GIMP](http://www.gimp.org/) (cross-platform) or online by searching for "image resize".
+   - Any picture that you provide will be made black-and-white automatically after you add it. Note that your team page picture should be added to `www-gitlab-com/source/images/team/NAME-OF-PERSON-IN-LOWERCASE.jpg`.
+1. [Create a Merge Request](http://doc.gitlab.com/ce/gitlab-basics/add-merge-request.html) in [GitLab.com](https://gitlab.com/) with the branch that you created with your picture.
+1. In [GitLab.com](https://gitlab.com/), on the left side of your screen, click on "Files".
+1. Find the dropdown menu at the top of your screen and find the branch
+that you previously created to add your picture (they are in alphabetical
+order). If you don't have a branch yet, follow the steps to [create a new
+branch](http://doc.gitlab.com/ce/gitlab-basics/create-branch.html).
+![dropdown menu](/images/dropdown-branch-teampage.jpg)
+1. Information displayed on [Team page](https://about.gitlab.com/team/) is
+pulled from a data file. You can find it by clicking on each of the following items: `data/` and then `team.yml`.
+1. When you are in `team.yml`, click on “edit” on the top right side of
+your screen.
+1. Your information should be added after the last person on the team page.
+You need to copy and paste the following format and fill in your own
+information:
+
+```
+- name: Linus Torvalds
+  role: developer
+  picture: picture_linus.jpg
+  twitter: Linus_Torvalds
+  gitlab: linustorvalds
+  story:  |
+          Linus was the principal force behind the development of the Linux
+          kernel that became the most popular kernel for operating systems.
+          He later became the chief architect of the Linux kernel and now
+          acts as the project's coordinator. He also created the
+          distributed revision control system git. He joined when it was
+          created.
+```
+Don't forget to use other team members' information as a reference and to
+respect the spaces between lines. If you have a nickname, write it as `Firstname 'Nickname' Lastname`. Please don't use "tab" because it will break the page format.
+1. After you added your information, add a comment to your commit and click on “Commit Changes”.
+1. Go to the Merge Request that you previously created with the branch that you are using and assign it to your manager for review.
+
 ### GitLab Instances<a name="gitlab-instances"></a>
+
 We have two GitLab instances that we use primarily, namely the 'dev' server and the free SaaS of GitLab at GitLab.com.
 
 #### dev.gitlab.org
+
 * This server is only accessible to people from GitLab the company.
 * This is the instance we use for customers development.
 * In addition, all our internal (company) issues are found here as well.
@@ -256,12 +318,14 @@ We have two GitLab instances that we use primarily, namely the 'dev' server and 
 * Often referred to as `dev`.
 
 #### GitLab.com
+
 * This is the SaaS of GitLab. Everyone can host their repository for free here and
 this is where the majority of open source contributions come in. Unless there's
 a good reason not to (customer information disclosure, undisclosed security
 issues, etc.), do your development and submit your merge requests here [in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
 
 #### Other instances
+
 Many developers set up their own private GitLab instance somewhere, for instance
 to test and work with LDAP or Active Directory, to give demos, or for various
 other reasons.
