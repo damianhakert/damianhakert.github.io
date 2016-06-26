@@ -1,5 +1,5 @@
 ---
-title: "GitLab 8.8.5 released"
+title: "GitLab 8.9.1 released"
 author: Robert Speicher
 author_twitter: rspeicher
 categories: release
