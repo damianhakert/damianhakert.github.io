@@ -55,8 +55,6 @@ Please read on for more details.
 - **CE/EE:** Bump gitlab_git to 10.2.3 to fix false truncated warnings with ISO-8559 files. ([!4884])
 - **CE/EE:** Apply selected value as label. ([!4886])
 - **CE/EE:** Fix temp file being deleted after the request while importing a GitLab project. ([!4894])
-- **CE/EE:** Fix pagination when sorting by columns with lots of ties (like priority)
-- **CE/EE:** Implement Subresource Integrity for CSS and JavaScript assets. This prevents malicious assets from loading in the case of a CDN compromise.
 - **CE/EE:** Fix user creation with stronger minimum password requirements. ([!4054]) (nathan-pmt)
 - **CE/EE:** Add API endpoint for a group issues. ([!4520]) (mahcsig)
 - **CE/EE:** Fix a wrong MR status when merge_when_build_succeeds & project.only_allow_merge_if_build_succeeds are true. ([!4912])
