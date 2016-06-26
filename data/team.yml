@@ -378,9 +378,10 @@
   picture: gabriel.jpg
   twitter: brodock
   gitlab: brodock
-  maintains: |
-             <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
-             <li><a href="http://doc.gitlab.com/ee/gitlab-geo/README.html">Geo</a> <a href="/jobs/expert/">expert</a></li>
+  maintains:  |
+              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
+              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
+              <li><a href="http://doc.gitlab.com/ee/gitlab-geo/README.html">Geo</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Gabriel is the first Brazillian in the team, before joining GitLab,
           he was fighting the scalability and performance battle on a
@@ -444,6 +445,7 @@
   gitlab: grzesiek
   maintains:  |
                 <li><a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> specialist</li>
+                <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
                 <li>Issue tracker development specialist</li>
   story:  |
           Grzegorz is a developer who has worked on open-source projects since 2002.
@@ -461,6 +463,7 @@
   twitter: dbalexandre
   gitlab: dbalexandre
   maintains:  |
+              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/version-gitlab-com">version-gitlab-com</a> (internal)</li>
               <li>Issue tracker development lead</li>
               <li><a href="http://doc.gitlab.com/ce/workflow/todos.html">Todos</a> <a href="/jobs/expert/">expert</a></li>
@@ -953,6 +956,8 @@
   picture: smcgivern.jpg
   twitter: mcgivernsa
   gitlab: smcgivern
+  maintains:  |
+              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
   story:  |
           Sean likes writing code, and especially likes writing code that helps other
           people write code. Despite dabbling with other editors, he's been unable to
