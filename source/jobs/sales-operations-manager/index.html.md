@@ -3,7 +3,7 @@ layout: job_page
 title: "Sales Operations Manager"
 ---
 
-GitLab is hiring a Sales Ops Manager to help us scale. Your mission is to organize data and generate deep customer insight in order to enhance sales force productivity and effectiveness.
+GitLab is hiring a Sales Ops Manager/Director to help us scale. Your mission is to organize data and generate deep customer insight in order to enhance sales force productivity and effectiveness.
 You will accomplish your mission by working collaboratively with our sales, marketing, finance and operations teams, you will measure everything to help us optimize our sales funnel and achieve growth.
 Your impact will help us make it easier to maintain a competitive edge, enhance sales force effectiveness, and achieve consistent, sustainable sales success.
 
