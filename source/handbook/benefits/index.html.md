@@ -45,8 +45,11 @@ through TriNet, and they can access their pay slips through the [TriNet portal](
 1. Our Sick Leave Policy
     - Contributor's begin to accrue sick leave hours from the first day of work.
     - Accrue .0346 per hour = 3.0 hours of sick leave per semi-monthly pay-period;
-    for a maximum of accrual and carrier over of 72 hours per year
-    - For details on San Francisco Sick Leave Ordinance http://sfgov.org/olse/sites/default/files/FileCenter/Documents/7401-69_PaidSickLeaveOrdinanceBlack1210v4.pdf
+    for a maximum of accrual and carrier over of 72 hours per year.
+1. Sick Leave can be used you when you are ill or to care for  
+    family members include the employee’s parent, child, spouse, registered
+    domestic partner, grandparent, grandchild, and sibling.
+    - For more information on San Francisco Sick Leave Ordinance http://www.sfgov.org/olse/sites/default/files/FileCenter/Documents/8726-2011%20-%20Paid%20Sick%20Leave%20Ordinance1%20Poster.pdf
     - For FAQ's between CA and SF Sick Leave Law http://sfgov.org/olse/sites/default/files/FileCenter/Documents/13606-FAQs%20on%20PSLO%20and%20CA%20PSL%2011_13_15%20Final3.pdf
 1. There are [incentives](https://about.gitlab.com/handbook/#incentives) available.
 
