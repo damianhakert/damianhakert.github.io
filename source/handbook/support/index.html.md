@@ -317,7 +317,8 @@ example.
  
 From time-to-time, we also receive tweets that mention competitors or negative events 
 related to them. In principle, we don't acknowledge these tweets as also described in
-the [developer advocacy social media section](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy).
+the [developer advocacy](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/#representing-gitlab-on-twitter) 
+section.
 
 The @GitLabStatus account should only be used to give updates on the availability
 of GitLab.com and to follow up on users reporting that GitLab.com is unavailable.
