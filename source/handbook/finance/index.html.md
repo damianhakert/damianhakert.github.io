@@ -12,10 +12,11 @@ title: "Finance"
 
 **Other pages**
 
-- [Signature Authorization Matrix](/authorization-matrix)
-- [Sales Compensation Plan](/sales-comp-plan)
+- [Signature Authorization Matrix](authorization-matrix)
+- [Sales Compensation Plan](sales-comp-plan)
 
 **This page**
+
 * [General Topics](#general-topics)
    * [Company accounts](#company-accounts)
 * [Processing Payroll](#payroll)
