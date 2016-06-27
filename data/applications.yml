@@ -43,7 +43,7 @@
       content: Branches is an iPhone and iPad app for managing issues in your GitLab repositories. The app also lets you browse commits, merge requests and files.
       links:
         - url: http://branchesapp.co
-          title: branchesapp.co 
+          title: branchesapp.co
 - title: Command Line Interface (CLI) Clients
   id: cli-clients
   applications:
@@ -263,6 +263,15 @@
           title: Repository on gitlab.com
         - url: https://github.com/Hexanet/MergeRequestsCI
           title: Repository on GitHub
+    - title: Hubstaff
+      content:  Time tracking with screenshots and activity levels for Gitlab issues. Issues sync automatically to native apps for Mac, Windows, Linux, iPhone and Android.
+      links:
+        - url: https://hubstaff.com/gitlab_time_tracking
+          title: Integration overview
+        - url: https://www.youtube.com/watch?v=bCJkMiN1hVw
+          title: Video walk-through
+        - url: http://support.hubstaff.com/gitlab-time-tracking-integration/
+          title: Support
 - title: Continuous Integration
   id: continuous-integration
   applications:
