@@ -82,17 +82,15 @@ In keeping with our [values](/handbook/#values) of freedom, efficiency, transpar
 
 **All team members**
 
-- If you or a loved one is ill, we want you to take care of yourself or your loved one. To facilitate this, you should take sick leave when you need it. You do need to report when you take sick leave, either by emailing your manager and People Ops, or by using the "Request time off" function in BambooHR. This way, it can be tracked in BambooHR and related payroll systems.
+- If you or a loved one is ill, we want you to take care of yourself or your loved one(s). To facilitate this, you should take sick leave when you need it. Sick leave is meant to be used when you are ill, or to care for family members including your parent(s), child(ren), spouse, registered domestic partner, grandparent(s), grandchild(ren), and sibling(s).
+- You do need to report when you take sick leave, either by emailing your manager and People Ops, or by using the "Request time off" function in BambooHR. This way, it can be tracked in BambooHR and related payroll systems.
 - If you need sick leave for more than 8 consecutive calendar days, notify your manager and People Ops to accommodate an extended leave request. What can (or must) be accommodated varies from location to location: GitLab will comply with the applicable laws in your specific location.
 - Upon request, you should be able to provide proper documentation of the reason for your sick leave (doctor's note).
 
 **Details for specific groups of team members**
 
-- Employees of GitLab Inc. who receive a pay stub from TriNet will see sick time accrue on their pay stub, to a maximum of 72 hours. GitLab's policy is more generous than this, in the sense that you can take off non-accrued sick time as written above (a negative balance may show on your pay stub). Sick time does not get paid out in case of termination, nor does it reduce your final paycheck in case of a negative balance.
+- Employees of GitLab Inc. who receive a pay stub from TriNet will see sick time accrue on their pay stub at the rate of 0.0346 hrs per hour worked (3 hours of sick leave per semi-monthly pay-period) for a maximum accrual and carry-over of 72 hours per year. GitLab's policy is more generous than this, in the sense that you can take off non-accrued sick time as written above (a negative balance may show on your pay stub). Sick time does not get paid out in case of termination, nor does it reduce your final paycheck in case of a negative balance. Related to the topic of extended leave requests, see information about [short term disability](/handbook/benefits/#std-ltd) through TriNet / your state.
 - Employees of GitLab B.V. have further rights and responsibilities regarding sick time based on Dutch law, as written into their employment [contracts](#handbook/contracts).
-
-
-
 
 ### Hiring Significant Other or Family Members<a name="family-hires"></a>
 
