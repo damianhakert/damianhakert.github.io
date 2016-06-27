@@ -42,6 +42,12 @@ through TriNet, and they can access their pay slips through the [TriNet portal](
            for example for a team member that works for GitLab 50% of the time,
            the lump sum would be $10,000.
 1. Our [paid time off policy](https://about.gitlab.com/handbook/#paid-time-off)
+1. Our Sick Leave Policy
+    - Contributor's begin to accrue sick leave hours from the first day of work.
+    - Accrue .0346 per hour = 3.0 hours of sick leave per semi-monthly pay-period;
+    for a maximum of accrual and carrier over of 72 hours per year
+    - For details on San Francisco Sick Leave Ordinance http://sfgov.org/olse/sites/default/files/FileCenter/Documents/7401-69_PaidSickLeaveOrdinanceBlack1210v4.pdf
+    - For FAQ's between CA and SF Sick Leave Law http://sfgov.org/olse/sites/default/files/FileCenter/Documents/13606-FAQs%20on%20PSLO%20and%20CA%20PSL%2011_13_15%20Final3.pdf
 1. There are [incentives](https://about.gitlab.com/handbook/#incentives) available.
 
 ## Specific to employees based in the Netherlands <a name="nl-specific-benefits"></a>
@@ -155,4 +161,7 @@ Disability insurance plans are designed to provide income protection while you r
 from a disability. This coverage not only ensures that you are able to receive some
 income while out on disability; it also provides absence management support that helps
 facilitate your return to work. TriNet offers several short and longterm disability
-plan options.
+plan options. Note: There are five states that have state-mandated disability insurance requirements
+California, Hawaii, New Jersey, New York and Rhode Island. If you do not live in one of the listed
+states it is recommended that you elect Short Term Disability Insurance through TriNet to protect
+your financial situation. For more information on State Disability Insurance please contact People Ops.
