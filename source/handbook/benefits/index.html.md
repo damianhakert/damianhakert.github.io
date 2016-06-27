@@ -53,6 +53,24 @@ through TriNet, and they can access their pay slips through the [TriNet portal](
     - For FAQ's between CA and SF Sick Leave Law http://sfgov.org/olse/sites/default/files/FileCenter/Documents/13606-FAQs%20on%20PSLO%20and%20CA%20PSL%2011_13_15%20Final3.pdf
 1. There are [incentives](https://about.gitlab.com/handbook/#incentives) available.
 
+
+## Regular compensation <a name="regular-compensation"></a>
+
+1. Employees of our Dutch entity (GitLab B.V.) will get their salary wired on the 25th of every month, and can see their pay slip in their personal portal on [HR Savvy's system](https://hr-savvy.nmbrs.nl/) towards the end of the month.
+1. Employees of our US entity (GitLab Inc.) have payroll processed semi-monthly through TriNet, and they can access their pay slips through the [TriNet portal](https://www.hrpassport.com).
+1. Contractors to GitLab (either entity) should send their invoices for services rendered to ap@gitlab.com
+   * For 'fixed fee' contracts, it is OK to send the invoice before the time period
+   that it covers is over. For example, an invoice covering the period of March 1-31 can be sent on March 25.
+   * All invoices are internally reviewed, approved, and then payment is processed.
+   This is usually a fast process, but be aware that it can incur delays around vacations.
+1. Any changes to a Contributor's status, classification, promotion/demotion,
+    pay increases/decreases, and bonus need to be communicated to People Operations
+    by the manager or CEO. People Operations then records this formally (for audit purposes)
+    in BambooHR, including a copy of the email that describes the reason for the change. In processing the change, always make sure that the following are noted:
+    - Effective date, approved by whom, and processed by whom (initials suffice)
+    - Then file the email approval in the team member's documentation folder.
+    - Note: don't forget to process payroll changes with Savvy or TriNet.
+
 ## Specific to employees based in the Netherlands <a name="nl-specific-benefits"></a>
 
 Dutch employees get the customary month of vacation money in the month of May.
