@@ -23,20 +23,80 @@ More information can be found on the [support page in the handbook](https://abou
 
 ### Junior Service Engineer
 
-Junior Service Engineer's responsibilities cover all the support channels that are
+* Junior Service Engineer's responsibilities cover all the support channels that are
 supported by a level 3 or 4 SLA, per the definitions on the [Support](/handbook/support/#sla) page.
+* contribute with documentation 
+* manage Feature Proposals created through their user interactions
+* manage Bug reports created through their user interactions
+* Technical Skills
+    * Able to triage basic GitLab issues
+    * Able to perform basic UNIX/GitLab system administration
+    * Able to solve customer tickets in a timely fashion
+* Communication
+    * Able to communicate clearly with customers on technical topics
+    * Able to escalate issues to the right people
+    * Keeps issues up-to-date with progress
+    * Follows up with outstanding issues
+    * Documents relatively simple answers in issues and GitLab documentation
+    * Makes customers happy
+    
+### Service Engineer 
+
+* all Junior Service Engineer responsibilities with less time invested on SLA 3 and SLA 4
+* participate in the On-call schedule 
+* work on SLA1 emergency and security tickets
+* work on SLA 2 customer tickets 
+* maintain GitLab.com and other services such as GitHost.io 
+* Technical Skills
+    * able to triage intermediate GitLab issues and resolve them
+    * able to perform intermediate UNIX/GitLab system administration
+    * can identify relatively challenging bugs/issues with GitLab
+    * can submit merge requests for basic GitLab bugs/problems
+* Workflow
+    * reliably answers on-call emergencies 
+    * exceeds SLAs consistently
+* Communication
+    * documents relatively challenging answers in issues and GitLab documentation
+    * helps ensure that tickets are closed in a timely manner
+    * contributes with training material/sessions
 
 ### Senior Service Engineer
 
-Senior Service Engineers are experienced Service Engineers who
-
-* have deep knowledge of GitLab internals and a variety of possible configurations
-* help hire and train new Service Engineers
-* are a go-to person for the other Service Engineers when they face tough challenges
-* improve the support process (Optimize Zendesk flow, suggest rake task additions)
+* all Service Engineer responsibilities 
+* able to cover all channels
+* help train new service engineers 
+* improve the support workflow (ZenDesk )
+* contributes to complementary projects (e.g. GitLab University, etc.)
+* maintains good Ticket performance
 * write blog articles
 * take ownership of documentation and feature requests that is based on customer interactions
-* create merge requests to fix bugs
+* improve the support process (Optimize Zendesk flow, suggest rake task additions)
+* Technical Skills
+    * have deep knowledge of GitLab internals and a variety of possible configurations
+    * able to perform complex UNIX/GitLab system administration
+    * can debug challenging bugs with GitLab
+    * an submit merge requests for advanced GitLab bugs/problems
+* Leadership
+    * help hire and train new Service Engineers
+    * are a go-to person for the other Service Engineers when they face tough challenges
+    * improves the support process (Optimize Zendesk flow, suggest rake task additions)
+* Communication      
+    * take ownership of documentation
+    * drives feature requests based on customer interactions  
+
+### Staff Service Engineer
+
+* all Senior Service Engineer responsibilities 
+* help hire service engineers as part of the interview process
+* Good ticket Performance
+* Good ticket Satisfaction 
+* Maintains complementary project
+* Contributes to GitLab regularly 
+* Technical Skills
+    * can solve most of support tickets in a reasonable time without escalating to development
+    * Specializes in multiple topics (e.g. LDAP, Jenkins/CI integration, Geo)
+    * Should submit or review MRs with development for customer GitLab bugs/issues
+
 
 ## Requirements for Applicants
 
