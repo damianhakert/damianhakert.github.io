@@ -88,12 +88,14 @@ Enterprise Edition (EE) exclusively in order to generate more income.
 
 We promise that:
 
-1. We won't remove features from CE to make the same feature exclusive in EE
+1. We won't remove features from CE in order to make the same feature exclusive in EE (features might be removed from CE due to changes in the application)
 1. We won't introduce features into CE with a delay, if a feature is planned to land in both it will be released simultaneously in both
 1. We will always release all tests that we have for a feature that is in CE
 1. CE will have all the features that are essential to running a large 'forge' with public and private repositories
-1. CE will not contain any artificial limits (repositories, users, size, etc.)
-1. The majority of new features made by GitLab Inc. will be for both CE and EE
+1. CE will not contain any artificial limits (repositories, users, size, performance, etc.)
+1. All major features in [our scope]() will be available in GitLab CE too
+1. The majority of new features made by GitLab Inc. will be available in both CE and EE
+1. CE will be available for download without leaving an email address
 
 Apart from making new features GitLab Inc. does a lot of work that benefits both CE and EE:
 
@@ -104,7 +106,7 @@ Apart from making new features GitLab Inc. does a lot of work that benefits both
 1. Dependency upgrades (Rails, gems, etc.)
 1. Performance improvements
 
-When we make new features we ask ourselves, is this feature much more relevant for organizations that have more than 100 developers?
+When we make new features we ask ourselves, is this feature much more relevant for organizations that have more than 100 users?
 If the answer is yes the feature is likely to be exclusive to EE.
 We always make sure that CE can do all essential things and there are companies using CE with more than 10,000 developers.
 
