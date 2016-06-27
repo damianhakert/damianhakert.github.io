@@ -70,8 +70,8 @@ system and should also be kept up to date with whatever new finding we get as we
 so these runbooks can also be adopted by our customers.
 
 Runbooks are divided into 2 main sections:
-* What to do when: points to specific runbooks to run on stressful situations (on-call)
-* How do I: points to general administration texts that explain how to perform different administration tasks.
+- What to do when: points to specific runbooks to run on stressful situations (on-call)
+- How do I: points to general administration texts that explain how to perform different administration tasks.
 
 When writing a new runbook, be mindful what the goal of it is:
 - If it is for on-call situations, make it crisp and brief. Try to keep the following structure: pre-check, resolution, post-check .
@@ -86,10 +86,22 @@ providers or that would create a security treat for our installation.
 Still, this documentation is [in the Chef Repo](https://dev.gitlab.org/cookbooks/chef-repo), and we aim to
 start pulling things out of there into the runbooks, until this documentation is thin and GitLab.com only.
 
+## Production events logging
+
+There are 2 kind of production events that we track:
+- Changes into the production fleet: for this we record things [in the Chef Repo](https://dev.gitlab.org/cookbooks/chef-repo).
+  - Deploys will be recorded automagically because of the way we do deploys.
+  - General operations can be recorded by creating an empty commit in the repo and pushing it into origin.
+- Outages and general production events
+  - Create an issue in the [infrastructure](https://gitlab.com/gitlab-com/infrastructure/issues) tracker with the _outage_ label, or whatever else applies,
+  - Try to be as explicit as possible on what the root cause is.
+  - If we don't know the root cause, also state it and leave the issue open for followup.
+  - Add the outage issue to the infrastructure agenda for sharing the knowledge, or to asking for guidence.
+
 # Make GitLab.com settings the default
 
 As said in the [production engineer job description](jobs/production-engineer/index.html)
-one of the goals is "Making GitLab easier to maintain for administrators all over the world".
+one of the goals is "Making GitLab easier to maintain to administrators all over the world".
 One of the ways we do it is making GitLab.com settings the default for all our customers.
 It is very important that GitLab.com is running GitLab Enterprise Edition with all its default settings.
 We don't want users running GitLab at scale to run into any problems.
