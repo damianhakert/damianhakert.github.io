@@ -34,7 +34,7 @@ Create issue for former team member on the dev server in the [organization issue
 * [ ] Manager: Remove access to SalesForce.
 * [ ] Manager: Remove access to Recurly.
 * [ ] Manager: Remove access to Netsuite.
-* [ ] Manager: Remove access to ZenDesk (Service Engineering Only)
+* [ ] Manager: Remove access to ZenDesk (Service Engineering Only) - Follow the [ZD guide to removing agents](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents)
 * [ ] Manager: Remove moderator status from [GitLab Forum](https://forum.gitlab.com/) account (Service Engineering Only)
 * [ ] Manager: Remove access to PagerDuty.
 * [ ] People Ops: Remove former team member from TriNet / Savvy and payroll if applicable.
