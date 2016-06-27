@@ -82,7 +82,7 @@ through social media, advancing to general support tickets, and eventually subsc
 More often than not, WebEx will be the best tool for customer calls, so you can save yourself a step and already start
 a WebEx session for a call. To do this you can use the `GitLab Support` WebEx account. Go to our
 [WebEx Portal](https://gitlabmeetings.webex.com), click on the login button on the top right and use the
-credentials found in the Support Vault on 1password.
+credentials found in the Support Vault on 1Password.
 
 ![WebEx Login](/images/support/web-ex-login.png)
 
@@ -149,7 +149,7 @@ developer might ask more questions before answer)
    - Follow some process as for an unpaid feature request, AND
    - Ask for an estimate
 
-Sometimes it is helpful to create an issue on the [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/)
+Sometimes it is helpful to create an issue on the [support issue tracker](https://gitlab.com/gitlab-com/support/issues)
 when dealing with a **tough ticket**. Creating an issue allows more people within
 GitLab easy access to the questions and suggestions since not everyone is familiar
 with ZenDesk. When in doubt, create an issue. Also see the section on [when to escalate](#when-escalate).
@@ -300,7 +300,7 @@ or follow-up as required.
 Service Engineers are regularly asked to provide customer training, and/or to provide answers to technical
 questions from potential customers. The materials for the customer training should be kept up to date [INSERT LINK] .
 Importantly, requests for Service Engineer's time for training and other non-ticket related work should be done
-via the [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/) using the 'Support' label.
+via the [internal issue tracker](https://gitlab.com/gitlab-com/support/issues) using the 'Support' label.
 If you are receiving such a request via email or Slack, please move it to an issue to allow for wider participation
 or easy escalation when needed.
 
