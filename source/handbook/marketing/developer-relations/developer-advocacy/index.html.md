@@ -270,6 +270,10 @@ About using the tools
 
 -   Use Tweetdeck to find GitLab mentions without the # or @.
 
+Ignore tweets that are negative about competitors
+
+-   From time-to-time, we also receive tweets that mention competitors in a negative way or about negative events related to them. Don't acknowledge these tweets, since that would violate our "Be friendly" policy.
+
 Use English
 
 - [GitLab communicates in English](https://about.gitlab.com/handbook/#internal-communication) so please tweet in English.
