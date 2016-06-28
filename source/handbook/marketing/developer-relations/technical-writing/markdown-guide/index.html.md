@@ -1178,38 +1178,72 @@ You can close the markup parser tag at any point, if you want to:
 {::options parse_block_html="false" /}
 ```
 
-### Notes and warnings
-
-To add note and warning blocks, we are making use of bootstrap's [panel blocks].
-
-Copy paste the following code according to what you want to present to the user
-and replace only the description body. The most common colors are these of
-notes (`info`), warnings (`warning`) and danger (`danger`).
-
 ----
 
-Use the following code for notes, like additional information that is
-slightly out of the scope of the document:
+## Colorful sections
+
+To add notes and warning blocks into colorful boxes,
+we are making use of Bootstrap's [panel blocks] and [alert boxes].
+
+Colorful sections are applied for very specific purposes and must not be overused.
+
+Use panels when your description contains more than one paragraph, or a
+long paragraph. For single and short paragraphs, use alert boxes instead.
+
+When using panels, make sure that the HTML parser markup to the beginning of your document's body:
+`{::options parse_block_html="true" /}`.
+
+Copy paste the following code according to what you want to present to the user
+and replace only the description. The available colors are:
+blue (`info`), green (`success`), amber (`warning`) and red (`danger`), as follows.
+
+### Additional Information
+
+Use the following code for **important notes** and additional information:
 
 ```html
 <div class="panel panel-info">
 **Note**
 {: .panel-heading}
 <div class="panel-body">
+
 NOTE DESCRIPTION
+
 </div>
 </div>
 ```
+
+To apply to a single paragraph, use an alert box:
+
+```
+My important paragraph.
+{: .alert .alert-info}
+```
+
+<div class="panel panel-info">
+**Output**
+{: .panel-heading}
+<div class="panel-body">
+
+Blue panel:
 
 <div class="panel panel-info">
 **Note**
 {: .panel-heading}
 <div class="panel-body">
-NOTE DESCRIPTION
+INFO DESCRIPTION
 </div>
 </div>
 
-----
+Blue alert box:
+
+My important paragraph.
+{: .alert .alert-info}
+
+</div>
+</div>
+
+### Warnings
 
 Use the following code for warnings, like information that may have a different
 result if not used correctly:
@@ -1219,20 +1253,46 @@ result if not used correctly:
 **Warning**
 {: .panel-heading}
 <div class="panel-body">
+
 WARNING DESCRIPTION
+
 </div>
 </div>
 ```
+
+To apply to a single paragraph, use an alert box:
+
+```
+My warning paragraph.
+{: .alert .alert-warning}
+```
+
+<div class="panel panel-info">
+**Output**
+{: .panel-heading}
+<div class="panel-body">
+
+Amber panel:
 
 <div class="panel panel-warning">
 **Warning**
 {: .panel-heading}
 <div class="panel-body">
+
 WARNING DESCRIPTION
+
 </div>
 </div>
 
-----
+Amber alert box:
+
+My warning paragraph.
+{: .alert .alert-warning}
+
+</div>
+</div>
+
+### Danger
 
 Use the following code for crucial warnings, like commands that result to loss
 of data:
@@ -1242,10 +1302,26 @@ of data:
 **Danger**
 {: .panel-heading}
 <div class="panel-body">
+
 DANGER DESCRIPTION
+
 </div>
 </div>
 ```
+
+To apply to a single paragraph, use an alert box:
+
+```
+My danger paragraph.
+{: .alert .alert-danger}
+```
+
+<div class="panel panel-info">
+**Output**
+{: .panel-heading}
+<div class="panel-body">
+
+Red panel:
 
 <div class="panel panel-danger">
 **Danger**
@@ -1255,7 +1331,105 @@ DANGER DESCRIPTION
 </div>
 </div>
 
-### Styles
+Red alert box:
+
+My danger paragraph.
+{: .alert .alert-danger}
+
+</div>
+</div>
+
+### Do's and Don'ts
+
+You can use the combination of green and red panels or alert boxes for "Do's and "Don'ts":
+
+```html
+<div class="panel panel-success">
+**Do's**
+{: .panel-heading}
+<div class="panel-body">
+
+THINGS TO DO
+
+</div>
+</div>
+```
+
+or, use an alert box:
+
+```
+TO DO.
+{: .alert .alert-success}
+```
+
+Not to do:
+
+```html
+<div class="panel panel-danger">
+**Don'ts**
+{: .panel-heading}
+<div class="panel-body">
+
+THINGS NOT TO DO
+
+</div>
+</div>
+```
+
+or, use an alert box:
+
+```
+NOT TO DO.
+{: .alert .alert-danger}
+```
+
+<div class="panel panel-info">
+**Output**
+{: .panel-heading}
+<div class="panel-body">
+
+DO'S:
+
+<div class="panel panel-success">
+**Do's**
+{: .panel-heading}
+<div class="panel-body">
+
+THINGS TO DO
+
+</div>
+</div>
+
+or
+
+TO DO.
+{: .alert .alert-success}
+
+----
+
+DONT'S:
+
+<div class="panel panel-danger">
+**Dont's**
+{: .panel-heading}
+<div class="panel-body">
+
+THINGS NOT TO DO
+
+</div>
+</div>
+
+or
+
+NOT TO DO.
+{: .alert .alert-danger}
+
+</div>
+</div>
+
+----
+
+## Styles
 
 To wrap up, guess what?
 
@@ -1365,6 +1539,7 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 <!-- Identifiers, in alphabetical order -->
 
 [about.gitlab.com]: https://about.gitlab.com/
+[alert boxes]: https://getbootstrap.com/components/#alerts
 [atom]: https://atom.io/
 [daring-quote]: http://daringfireball.net/projects/markdown/syntax#html
 [font awesome]: http://fontawesome.io/icons/
