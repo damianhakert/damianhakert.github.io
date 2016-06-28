@@ -1,12 +1,10 @@
 ---
-layout: default
+layout: markdown_page
 title: GitLab High Availability
 ---
-.container
-  .row
-    .col-sm-8.col-sm-offset-2
-      = partial('includes/ha/gitlab-ha.md')
-      %p
-        Download as
-        %a{href: 'gitlab-ha.pdf'}
-          PDF
+
+= partial('includes/ha/gitlab-ha.md')
+%hr
+  This page can be downloaded as
+  %a{href: 'gitlab-ha.pdf'}
+    PDF.
