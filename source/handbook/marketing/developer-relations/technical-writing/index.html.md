@@ -245,7 +245,7 @@ _Categories_
 Use at **least one** of the following categories, and **a maximum of four** for the same post. Separate them with comas. **Do not** capitalize nor pluralize them, nor change any letter,
 otherwise you'll create another category, which is somenthing we don't want.
 
-- continuous deployment
+- continuous integration
 - git
 - GitLab
 - GitLab CE
