@@ -396,7 +396,7 @@ pre {
 .note {
   font-size: 14px;
   font-style: italic;
-  color: $blog-notes-color !important;
+  color: ($blog-notes-color !important);
 }
 
 .blog-image {
