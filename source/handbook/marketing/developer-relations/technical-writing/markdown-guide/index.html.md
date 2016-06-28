@@ -111,6 +111,7 @@ This will be another paragraph, as it has a blank line above it.
 
 _**Note:** We usually break the lines within paragraphs to facilitate reviews. Do not leave blank spaces after the last
 word of the line broken within a paragraph, unless you want it to be intentionally broken with a `<br>`._
+{: .note}
 
 <!-- REPHRASE THIS ^^ OR REMOVE IT COMPLETELY -->
 
@@ -213,9 +214,9 @@ order to be easy and quick to find them for both the author and the reviewers.
 
 [Another text][another-identifier] will do the same. Hover the mouse over it to see the title.
 
-[Link] will do the same as well.
+[This link] will do the same as well. It works as the identifier itself.
 
-<https://example.com> works too, best for explicit links.
+<https://example.com> works too. Must be used for explicit links.
 
 ... (page content) ...
 
@@ -223,7 +224,7 @@ order to be easy and quick to find them for both the author and the reviewers.
 
 [another-identifier]: https://example.com "This example has a title"
 [identifier]: http://example1.com
-[link]: http://example2.com
+[this link]: http://example2.com
 
 ```
 
@@ -238,9 +239,9 @@ order to be easy and quick to find them for both the author and the reviewers.
 
 [Another text][another-identifier] will do the same. Hover the mouse over it to see the title.
 
-[Link] will do the same as well.
+[This link] will do the same as well. It works as the identifier itself.
 
-<https://example.com> works too, best for explicit links.
+<https://example.com> works too. Must be used for explicit links.
 
 ... (page content) ...
 
@@ -248,23 +249,21 @@ order to be easy and quick to find them for both the author and the reviewers.
 
 [another-identifier]: https://example.com "This example has a title"
 [identifier]: http://example1.com
-[link]: http://example2.com
+[this link]: http://example2.com
 
 </div>
 </div>
 
 Important notes:
 
-- Identifiers **are not** case sensitive.
+- Identifiers **are not** case sensitive. They can be single words as `[link]` or `[multiple words too]`.
 - Avoid using other markup syntax for links. Definitely avoid adding the URL in-line, as
 in `[link](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2373#note_12594349)`.
 This syntax works perfectly, but breaks the reading flow, deviating the attention of the reviewer.
 Also, it may cause repetition of the same link through the document.
-- Don't take it as a restrictive rule, but avoid using meaningless texts for links as "this article"
+- Don't take it as a restrictive rule, but [avoid using meaningless texts for links][handbook-writing] as "this article"
 or "read here". For these examples, it would be better using the article's title (for the first) and
 the documentation's subject, for the latter.
-
-<!-- explanation can be improved ^^ -->
 
 ----
 
@@ -456,7 +455,7 @@ Notes:
 - All images must be placed [under `/source/images/`][source-img], in an appropriate directory. Only screenshots
 and public domain images are permitted.
 - The text inside the square brackets is an image attribute called `ALT`, which stands for _alternative text_.
-It [should not be left empty][img-seo], but contain something to describe that image. `ALT` is useful for
+It [must not be left empty][img-seo], but contain something to describe that image. `ALT` is useful for
 visually impaired internauts, for SEO, and it is displayed when, for some reason, that image is not loaded by the browser.
 - For the same reasons, the image must contain a name related to it. Example: instead of `image-01.jpg`,
 name it `black-dog.jpg`, if it's a photo of a black dog.
@@ -504,7 +503,7 @@ This method works for YouTube videos and any other embed video within an `<ifram
 This method works for any video uploaded to somewhere retrievable from the internet from a URL, or from a relative
 path like `path/to/video.mp4`.
 
-1. Read through the [w3schools HTML5 video guide][w3-video].
+1. Read through the [w3schools HTML5 video guide][w3-video], or the [MDN `<video>` guide][mdn-video].
 1. Record or export the video in these three formats to achieve cross-browser and cross-device
 compatibility: `.mp4`, `.ogg` and `.webm`.
 1. Get the URL for your video
@@ -543,6 +542,7 @@ but your video most likely won't be supported in all devices and browsers. The v
 worked on Mozilla Firefox for OS X, Android and Windows, and on Chrome for Android and for Windows.
 But it may not work on other devices/browser, such as Chrome for OS X and iOS, or Safari.
 In fact, the best option is using YouTube or Vimeo embed videos in `<iframe>` tags._
+{: .note}
 
 ----
 
@@ -567,13 +567,22 @@ an automated process.
 As always, leave a blank line before and after the markup. Note that there are four dashes beginning
 and closing the block, which is not required, but recommendable for keeping the same standards through about.GitLab.com.
 
-The heading "On this page" can be adapted to your case, e.g., "On this tutorial", or "On this guide", etc.
+The heading "On this page" can be adapted to your case, e.g., "On this tutorial", or "On this guide", etc. It's no required
+either, but recommended.
 
 The markup `{:.no_toc}` is used every time you don't want to include a heading into the ToC. Just add
 it right below the heading, and it won't be included into the ToC. In fact `no_toc` is a
 [custom class](#classes-ids-and-attributes), as described later in this guide.
 
 The **output** ToC can be found at the very beginning of this page.
+
+Alternatively, you can use ordered ToC too, displaying numbers at the beginning of the list. Just use the markup for
+ordered lists and Kramdown will be smart enough to understand what you want:
+
+```md
+1. TOC
+{:toc}
+```
 
 ----
 
@@ -582,10 +591,10 @@ The **output** ToC can be found at the very beginning of this page.
 Tables for markdown are challenging. So, we have two possible approaches: use markdown markup whenever possible,
 but if you need pretty advanced table layouts, you are free to add them in HTML markup instead.
 
-> Markdown is not a replacement for HTML, or even close to it. ([Daring Fireball][daring-quote])
+> Markdown is not a replacement for HTML, or even close to it. ([John Gruber][daring-quote])
 {: #quote}
 
-As explained by Darin Fireball, the creator of markdown, it has not been created to replace HTML,
+As explained by John Gruber, the creator of markdown, it has not been created to replace HTML,
 so there are situations we can't run from using HTML. With complex tables, that's the case.
 
 The following table has a header (first line), then markup to define the desired alignment (dashes and colons),
@@ -647,13 +656,28 @@ Read through the [Kramdown syntax guide][kram-tables] on tables for further info
 
 ## Code blocks
 
-There are a few options for displaying code blocks with Kramdown:
+There are a few options for displaying code blocks with Kramdown. Most of them use backticks ``` ` ```.
 
-_In-line_
+### In-line
 
 This is an ``` `in-line` ``` code block.
 
-_Fenced_
+<div class="panel panel-info">
+
+**Output**
+{: .panel-heading}
+
+<div class="panel-body">
+
+
+_In-line_
+
+This is an `in-line` code block.
+
+</div>
+</div>
+
+### Fenced
 
     ```
     def hello
@@ -678,27 +702,6 @@ or
     ```
     {: .language-ruby}
 
-_Indented (add 4 white spaces before every line)_
-
-        def hello
-           puts "Hello world!"
-        end
-
-_Indented Highlighted_
-
-        def hello
-           puts "Hello world!"
-        end
-    {: .language-ruby}
-
-
-_Nested (add 4 white spaces before every line)_
-
-        ```
-        def hello
-           puts "Hello world!"
-        end
-        ```
 
 <div class="panel panel-info">
 
@@ -706,11 +709,6 @@ _Nested (add 4 white spaces before every line)_
 {: .panel-heading}
 
 <div class="panel-body">
-
-
-_In-line_
-
-This is an `in-line` code block.
 
 _Fenced_
 
@@ -738,6 +736,33 @@ end
 {: .language-ruby}
 
 
+</div>
+</div>
+
+
+### Indented 
+
+Add 4 white spaces before every line:
+
+        def hello
+           puts "Hello world!"
+        end
+
+_Indented Highlighted_
+
+        def hello
+           puts "Hello world!"
+        end
+    {: .language-ruby}
+
+
+<div class="panel panel-info">
+
+**Output**
+{: .panel-heading}
+
+<div class="panel-body">
+
 _Indented_
 
     def hello
@@ -751,6 +776,29 @@ _Indented Highlighted_
     end
 {: .language-ruby}
 
+</div>
+</div>
+
+
+
+### Nested
+
+Add 4 white spaces before every line. This is used when you want to display a code block
+within a code block.
+
+        ```
+        def hello
+           puts "Hello world!"
+        end
+        ```
+
+<div class="panel panel-info">
+
+**Output**
+{: .panel-heading}
+
+<div class="panel-body">
+
 _Nested_
 
     ```
@@ -762,12 +810,49 @@ _Nested_
 </div>
 </div>
 
+### In lists
+
+Indent the text of each item in 3 white spaces. Leave blank lines between the code block and the list items,
+and ident the code block in 5 white spaces:
+
+    1.   Item 1
+    1.   Item 2
+
+         ```ruby
+         def hello
+            puts "Hello world!"
+         end
+         ```
+
+    1.   Item 3
+
+<div class="panel panel-info">
+
+**Output**
+{: .panel-heading}
+
+<div class="panel-body">
+
+1.   Item 1
+1.   Item 2
+
+     ```ruby
+     def hello
+        puts "Hello world!"
+     end
+     ```
+
+1.   Item 3
+
+</div>
+</div>
+
 ----
 
 ## Blockquotes
 
 Blockquotes are good resources to mentioning someone else's quotes, like we did [just above](#quote).
-Also, can be use to emphasize a sentence or a small paragraph.
+Also, can be used to emphasize a sentence or a small paragraph.
 
 ```md
 > This is a blockquote.
@@ -836,10 +921,11 @@ That may be lazy.
 
 ## Notes
 
-### Notes for regular pages
-
 ```md
-_**Note:** this is a note, which is something that needs to be mentioned but is apart from the context._
+This is a regular paragraph.
+
+_**Note:** a note is something that needs to be mentioned but is apart from the context._
+{: .note}
 ```
 
 <div class="panel panel-info">
@@ -849,20 +935,13 @@ _**Note:** this is a note, which is something that needs to be mentioned but is 
 
 <div class="panel-body">
 
-_**Note:** this is a note, which is something that needs to be mentioned but is apart from the context._
+This is a regular paragraph.
 
-</div>
-</div>
-
-### Notes for **blog posts**
-
-```md
-**Note:** this is a note: something that needs to be mentioned but is apart from the context.
+_**Note:** a note is something that needs to be mentioned but is apart from the context._
 {: .note}
-```
 
-The output will be similar to the notes on regular pages, just the font color will be a little lighter, and
-the font size, a little smaller.
+</div>
+</div>
 
 ----
 
@@ -938,8 +1017,6 @@ And you can go further, such as the following.
 
 _Styled_
 
-_
-
 ```
 ### <i class="fa fa-puzzle-piece fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> Purple Puzzle Icon
 {: #puzzle-purple}
@@ -959,6 +1036,8 @@ _Regular_
 
 ### <i class="fa fa-puzzle-piece" aria-hidden="true"></i> Puzzle Icon
 {: #puzzle}
+
+----
 
 _Styled_
 
@@ -1012,7 +1091,10 @@ List:
 
 To a [link]{: #link}, in-line.
 
-This is a [link]{:hreflang="es"} in Spanish.
+This is a [link][google-es]{:hreflang="es"} in Spanish.
+
+[link]: https://google.com
+[google-es]: https://google.es
 ```
 
 <div class="panel panel-info">
@@ -1047,7 +1129,10 @@ List:
 
 To a [link]{: #link}, in-line.
 
-This is a [link]{:hreflang="es"} in Spanish.
+This is a [link][google-es]{:hreflang="es"} in Spanish.
+
+[link]: https://google.com
+[google-es]: https://google.es
 
 </div>
 </div>
@@ -1056,7 +1141,8 @@ This is a [link]{:hreflang="es"} in Spanish.
 
 ## Mix HTML + Markdown Markup
 
-This is something almost "unthinkable" to someone used to regular markdown. And it's all over this document!
+Mixing HTML markup with markdown is something almost "unthinkable" to someone used to regular markdown.
+And it's all over this document!
 
 Use the following markup at the beginning of your document:
 
@@ -1067,7 +1153,7 @@ Use the following markup at the beginning of your document:
 And feel free to mix everything up:
 
 ```
-Something in **markdown**
+Something in **markdown**.
 
 <p>Then an HTML tag with crazy **markup** _all over_ the place!</p>
 ```
@@ -1079,7 +1165,7 @@ Something in **markdown**
 
 <div class="panel-body">
 
-Something in **markdown**
+Something in **markdown**.
 
 <p>Then an HTML tag with crazy **markup** _all over_ the place!</p>
 
@@ -1101,27 +1187,27 @@ This:
 ```css
 <style>
   .purple {
-    color:rgb(107,79,187);
+    color:inherit;
   }
   .purple:hover {
-    color:rgb(252,109,38);
+    color:rgb(107,79,187);
   }
 </style>
 ```
 
 <style>
   .purple {
-    color:rgb(107,79,187);
+    color:inherit;
   }
   .purple:hover {
-    color:rgb(252,109,38);
+    color:rgb(107,79,187);
   }
 </style>
 
 Plus:
 
 ```
-Yes, I'm purple! Hover the cursor over me! :)
+Hey! Hover the cursor over me and guess what?! :)
 {: .purple}
 ```
 
@@ -1134,7 +1220,7 @@ Equals to:
 
 <div class="panel-body">
 
-Yes, I'm purple! Hover the cursor over me! :)
+Hey! Hover the cursor over me and guess what?! :)
 {: .purple}
 
 </div>
@@ -1170,10 +1256,29 @@ or out of resources. It works from every major browser and saves automatically y
 
 ## Tips &amp; Tricks
 
-- Avoid leaving double blank spaces between words, or leaving more blank spaces than the necessary,
-they can cause render differently of the expected.
-- Always jump a line from one markup to another.
-- If you are confused about a markup that you find in this file, check its [`raw`] for reference.
+- Words must be separated by one single space only. Do not leave more blank spaces than the necessary,
+they can render differently than the expected and can cause other issues.
+- Do not leave blank spaces at the end of sentences.
+- Always leave a blank line between markups, except between list items. Example:
+
+        ---- (markup for horizontal line)
+        <!-- blank line -->
+        Paragraph.
+        <!-- blank line -->
+        Do not leave blank lines within list items:
+        <!-- blank line -->
+        - Item 1
+        - Item 2
+        - Item 3
+    {: .language-html}
+
+- Do not jump headers. Always do h1 &rarr; h2 &rarr; h3 &rarr; h4. Never h2 &rarr; h4.
+- Prefer short titles and headers. Do not punctuate them (unless they require a question mark or an exclamation).
+- Try not to punctuate list items, but if you do, be consistent and do that through all the list.
+- If you have to mention a not-clickable URL, prefer using backticks: `http://an-example.com`.
+- If you are confused about any markup that you've found in this file, you can check its [`raw` file] for reference,
+where you'll be able to see exactly how everything was written to produce the results you are seeing on this page.
+
 
 ## More
 {: .no_toc}
@@ -1187,15 +1292,17 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [daring-quote]: http://daringfireball.net/projects/markdown/syntax#html
 [font awesome]: http://fontawesome.io/icons/
 [gitlab-markdown]: https://gitlab.com/help/markdown/markdown
+[handbook-writing]: https://about.gitlab.com/handbook/#writing-style-guidelines
 [img-seo]: http://www.practicalecommerce.com/articles/77645-6-SEO-Myths-about-Alt-Tags
 [kramdown]: http://kramdown.gettalong.org/
 [kram-tables]: http://kramdown.gettalong.org/syntax.html#tables
 [Lightweight markup languages]: https://en.wikipedia.org/wiki/Lightweight_markup_language
+[mdn-video]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
 [Markup language]: https://en.wikipedia.org/wiki/Markup_language
 [middleman]: https://middlemanapp.com/
-[mou]: 25.io/mou/
+[mou]: http://25.io/mou/
 [mou-screenshot]: /images/mou-screenshot-preview-markdown-guide-handbook.png "Mou for Mac - Markdown Preview"
-[`raw`]: # "ADD RAW HERE"
+[`raw` file]: # "ADD RAW HERE"
 [Redcarpet]: http://git.io/ld_NVQ
 [ssg]: https://www.staticgen.com/
 [ssgs-post]: https://about.gitlab.com/2016/06/10/ssg-overview-gitlab-pages-part-2/
