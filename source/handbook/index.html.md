@@ -13,8 +13,9 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 - [Engineering](/handbook/engineering)
   - [Backend]() TODO
   - [Frontend]() TODO
-  - [Support](/handbook/support)
   - [Infrastructure](/handbook/infrastructure)
+  - [Packaging]() TODO
+  - [Support](/handbook/support)
 * [Marketing](/handbook/marketing)
   * [Social Media Guidelines](/handbook/social-media-guidelines)
 * [Sales](/handbook/sales)
