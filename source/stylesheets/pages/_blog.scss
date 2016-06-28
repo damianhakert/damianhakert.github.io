@@ -118,6 +118,12 @@ pre {
     color: $blog-text-color;
     line-height: 1.5;
     margin: 0 0 20px;
+
+    &.note {
+      font-size: 14px;
+      font-style: italic;
+      color: $blog-notes-color;
+    }
   }
 
   blockquote {
@@ -393,16 +399,16 @@ pre {
   }
 }
 
-.note {
-  font-size: 14px;
-  font-style: italic;
-  color: ($blog-notes-color !important);
-}
-
 .blog-image {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+
+.note {
+  font-size: 14px;
+  font-style: italic;
+  color: $blog-notes-color;
 }
 
 //scss-lint:disable SelectorFormat
