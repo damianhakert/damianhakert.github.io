@@ -1306,3 +1306,14 @@
   gitlab:
   story:  |
           Joining August 1st
+
+- name: R.F
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
+  reports_to: Vice President of Product
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 1st
