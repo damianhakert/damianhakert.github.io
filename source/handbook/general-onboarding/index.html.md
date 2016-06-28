@@ -47,6 +47,8 @@ there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @brittany, and @tiff
 the relevant onboarding pages that are linked from there, and become comfortable
 with Git and the GitLab workflow.
 * [ ] New team member: pick your [Slack username](https://gitlab.slack.com/account/settings#username) to be the same as your GitLab email handle, for consistency and ease of use.
+* [ ] New team member: Send an email to People Ops with the name of the team member who referred you, if applicable
+* [ ] People Ops: If applicable, process who referred the new team member. 
 * [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
 * [ ] People Ops: [Add blank entry to team page](https://about.gitlab.com/handbook/people-operations/#blank-entry) (only the start date and position, use "logo-extra-whitespace.png" for the picture) so the team can see when new people are joining.
 * [ ] People Ops: Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
