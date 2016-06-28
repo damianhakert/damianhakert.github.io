@@ -61,7 +61,7 @@ guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/update/patch_vers
 **Interested in GitLab Enterprise Edition?**
 For an overview of feature exclusive to GitLab Enterprise Edition please have a
 look at the [features exclusive to GitLab
-EE](http://about.gitlab.com/features/#enterprise).
+EE](https://about.gitlab.com/features/#enterprise).
 
 Access to GitLab Enterprise Edition is included with a
 [subscription](http://www.gitlab.com/subscription/).

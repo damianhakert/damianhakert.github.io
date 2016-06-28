@@ -40,7 +40,7 @@ For installations from source, use [this guide](https://gitlab.com/subscribers/g
 ## Enterprise Edition
 
 Interested in GitLab Enterprise Edition?
-For an overview of feature exclusive to GitLab Enterprise Edition please have a look at the [features exclusive to GitLab EE](http://about.gitlab.com/features/#enterprise).
+For an overview of feature exclusive to GitLab Enterprise Edition please have a look at the [features exclusive to GitLab EE](https://about.gitlab.com/features/#enterprise).
 
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing).
 No time to upgrade GitLab yourself?

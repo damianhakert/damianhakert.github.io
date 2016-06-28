@@ -245,7 +245,7 @@ GitLab has a presence across many social media channels. The following is a list
 
 There are two GitLab Twitter accounts
 
--   [@GitLab](https://twitter.com/gitlab) -  This is the main account for the project and company, which is managed by team members at GitLab, Inc. Everything tweeted, RTd, or liked from @GitLab also gets promoted to http://about.gitlab.com
+-   [@GitLab](https://twitter.com/gitlab) -  This is the main account for the project and company, which is managed by team members at GitLab, Inc. Everything tweeted, RTd, or liked from @GitLab also gets promoted to https://about.gitlab.com
 
 -   [@GitLabStatus](https://twitter.com/gitlabstatus) - This account tweets about the status of GitLab.com services and is managed by the GitLab infrastructure team.
 We don't generally retweet GitLabStatus, but point users to follow that account or check it.
