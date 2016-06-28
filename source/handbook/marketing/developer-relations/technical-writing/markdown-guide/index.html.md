@@ -1190,7 +1190,7 @@ Colorful sections are applied for very specific purposes and must not be overuse
 Use panels when your description contains more than one paragraph, or a
 long paragraph. For single and short paragraphs, use alert boxes instead.
 
-When using panels, make sure that the HTML parser markup to the beginning of your document's body:
+When using panels, make sure to add the HTML parser markup to the beginning of your document's body:
 `{::options parse_block_html="true" /}`.
 
 Copy paste the following code according to what you want to present to the user
