@@ -1178,6 +1178,83 @@ You can close the markup parser tag at any point, if you want to:
 {::options parse_block_html="false" /}
 ```
 
+### Notes and warnings
+
+To add note and warning blocks, we are making use of bootstrap's [panel blocks].
+
+Copy paste the following code according to what you want to present to the user
+and replace only the description body. The most common colors are these of
+notes (`info`), warnings (`warning`) and danger (`danger`).
+
+----
+
+Use the following code for notes, like additional information that is
+slightly out of the scope of the document:
+
+```html
+<div class="panel panel-info">
+**Note**
+{: .panel-heading}
+<div class="panel-body">
+NOTE DESCRIPTION
+</div>
+</div>
+```
+
+<div class="panel panel-info">
+**Note**
+{: .panel-heading}
+<div class="panel-body">
+NOTE DESCRIPTION
+</div>
+</div>
+
+----
+
+Use the following code for warnings, like information that may have a different
+result if not used correctly:
+
+```html
+<div class="panel panel-warning">
+**Warning**
+{: .panel-heading}
+<div class="panel-body">
+WARNING DESCRIPTION
+</div>
+</div>
+```
+
+<div class="panel panel-warning">
+**Warning**
+{: .panel-heading}
+<div class="panel-body">
+WARNING DESCRIPTION
+</div>
+</div>
+
+----
+
+Use the following code for crucial warnings, like commands that result to loss
+of data:
+
+```html
+<div class="panel panel-danger">
+**Danger**
+{: .panel-heading}
+<div class="panel-body">
+DANGER DESCRIPTION
+</div>
+</div>
+```
+
+<div class="panel panel-danger">
+**Danger**
+{: .panel-heading}
+<div class="panel-body">
+DANGER DESCRIPTION
+</div>
+</div>
+
 ### Styles
 
 To wrap up, guess what?
@@ -1302,6 +1379,7 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [middleman]: https://middlemanapp.com/
 [mou]: http://25.io/mou/
 [mou-screenshot]: /images/mou-screenshot-preview-markdown-guide-handbook.png "Mou for Mac - Markdown Preview"
+[panel blocks]: https://getbootstrap.com/components/#panels-alternatives
 [`raw` file]: # "ADD RAW HERE"
 [Redcarpet]: http://git.io/ld_NVQ
 [ssg]: https://www.staticgen.com/
