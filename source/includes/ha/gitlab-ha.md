@@ -1,3 +1,5 @@
+Also see our [technical documentation](http://docs.gitlab.com/ce/administration/high_availability/README.html) on how to configure the components of a high availability system.
+
 ### What is High Availability?
 
 High availability is a system design that ensures a prearranged level of operational performance throughout a specific time-period. The most common way to measure HA is through the notion of uptime, which measures how long a service is up and running.
@@ -45,9 +47,9 @@ It is possible to create a split between the application server, the file system
 
 The setup is described in the below picture.
 
-![gitlab.com](/images/Config_LB_appservers.png)
+![gitlab.com](../images/Config_LB_appservers.png)
 
-This solution also requires a shared file system (NFS), so it is only available for GitLab versions 6.0 and up, where satellites are in the shared disk. At this point, you should consider putting the filestore and DBMS on separate machines as well. Moreover, the filestore and the DBMS will need recovery protocols on their own (through snapshots or backups)
+This solution also requires a shared file system (NFS), so it is only available for GitLab versions 6.0 and up, where satellites are in the shared disk. At this point, you should consider putting the filestore and DBMS on separate machines as well. Moreover, the filestore and the DBMS will need recovery protocols on their own (through snapshots or backups).
 
 #### 4\. Single slave server
 
@@ -69,13 +71,10 @@ Automated failover can be achieved with pacemaker alongside STONITH network mana
 
 In this situation you can also opt to synchronize the database via a database specific protocol instead of DRBD, in the documentation for each database you can find out more about the [options for MySQL](http://dev.mysql.com/doc/mysql-ha-scalability/en/ha-overview.html) and the [options PostgreSQL](http://www.postgresql.org/docs/9.2/static/high-availability.html).
 
-#### 6\. GitLab RE (unreleased)
+#### 6\. GitLab GEO
 
-We're in the planning stage of making GitLab RE for a geographically distributed GitLab. This will consist of a master server that runs GitLab EE. You can add slave servers with GitLab RE where you can only read git repos. This is for example useful when you have a large number of people or CI tools cloning repos and your wide area network (WAN) doesn't have the capacity or availability for this. This product is not available yet. It will likely require a plus subscription to use. Please contact our sales people for more information. For now please consider the following workarounds:
-
-*   If you just need to be able to push to multiple GitLab servers in different locations, you should consider using git remotes.
-*   Use the community made [GitLab mirror](https://github.com/samrocketman/gitlab-mirrors) to mirror repos.
+Since the [release of version 8.5](https://about.gitlab.com/2016/02/22/gitlab-8-5-released/), GitLab GEO allows you to have a remote replicate of your entire GitLab instance. This consists of a master server that runs GitLab EE, and slave servers with GitLab GEO where you can only read git repos. This is for example useful when you have a large number of people or CI tools cloning repos and your wide area network (WAN) doesn't have the capacity or availability for this. Please contact our sales people for more information, and see our [technical documentation](http://docs.gitlab.com/ee/gitlab-geo/README.html) for more details.
 
 #### Please get in touch
 
-Supporting High Availabily setups is something we take very serious at GitLab.com. The information we provide here is just a rough guide designed to help you get a feel of the hardware, software and process implications of different HA setups. When it comes to your specific situation, we prefer to assess it in its context. We strongly suggest you get in touch with us before setting it up. Support for HA is included with [Premium Support](https://about.gitlab.com/pricing/). If you have any questions please [email us](mailto:sales@gitlab.com).
+Supporting High Availability setups is something we take very serious at GitLab. The information we provide here is just a rough guide designed to help you get a feel of the hardware, software, and process implications of different HA setups. When it comes to your specific situation, we prefer to assess it in its context. We strongly suggest you get in touch with us before setting it up. Support for HA is included with [the Standard Subscription](https://www.gitlab.com/subscription/), and take a look at the available [technical documentation](http://docs.gitlab.com/ce/administration/high_availability/README.html) on this topic as well. If you have any questions please [email us](mailto:sales@gitlab.com).
