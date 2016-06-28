@@ -3,7 +3,12 @@ layout: markdown_page
 title: "Infrastructure"
 ---
 
-## Infrastructure
+## Reaching Infrastructure<a name="reach-infra"></a>
+
+- [**Public Issue Tracker**](https://gitlab.com/gitlab-com/infrastructure/issues/); please use confidential issues for topics that should only be visible to team members at GitLab. NOTE: not for support requests themselves, but rather for issues that relate to the support group.
+- [**Chat channel**](https://gitlab.slack.com/archives/infrastructure); please use the `#infrastructure` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
+
+## Infrastructure roles
 
 The infrastructure team is split between production engineers and performance specialists.
 
