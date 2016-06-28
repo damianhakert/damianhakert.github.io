@@ -411,7 +411,7 @@ For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner",
 [Professional Writing Techniques]: #professional-writing-techniques
 [Screenshot Tool]: https://help.ubuntu.com/lts/ubuntu-help/screen-shot-record.html
 [Snipping Tool]: https://support.microsoft.com/en-us/help/13776/windows-use-snipping-tool-to-capture-screenshots
-[synonyms]: //www.thesaurus.com/
+[synonyms]: http://www.thesaurus.com/
 [technical aspects]: https://about.gitlab.com/handbook/marketing/product-marketing/content-marketing/#technical-aspects
 [technical writers]: /jobs/technical-writer/
 [tech-writing-wiki]: https://en.wikipedia.org/wiki/Technical_writing
