@@ -18,18 +18,29 @@ title: "Technical Writing"
 
 ## Technical Writing
 
-[Technical Writers] are part of the Developer Relations Marketing Team. Their mission is to help GitLab to
-have all features well documented,
-to ensure the information regarding GitLab CE/EE/CI and its particularities are up to date, to write guides,
-recipes and blog content, to assist the team with documentation and non-documentation tasks, and to review
-every technical content published in the channels we use.
+[Technical Writers] are part of the Developer Relations Marketing Team. Their mission is to
+help GitLab to:
 
-[Documentation] helps the GitLab community to setup and administrate their accounts, to setup and update GitLab instances,
-to use every tool and feature, and to handle integrations, services and tools. Docs are written technically, methodically,
+- have all features well documented
+- ensure the information regarding GitLab CE/EE/CI and its particularities are up to date
+- write guides, recipes and blog content
+- assist the team with documentation and non-documentation tasks
+- review every technical content published in the channels we use
+
+[Documentation] helps the GitLab community to:
+
+- setup and administrate their accounts
+- setup and update GitLab instances
+- use every tool and feature
+- handle integrations, services and tools
+
+Docs are written technically, methodically,
 programmatically, clearly and practically.
 
-Blog posts have the same purpose of assisting the GitLab community, but with a more flexible and reader-friendly language. Also,
-besides the technical content, posts can be informative, tell use-case stories, customer experience, and present a much more diverse
+[Blog posts][blog] have the same purpose of assisting the GitLab community,
+but with a more flexible and reader-friendly language. Also,
+besides the technical content, posts can be informative, tell use-case stories,
+customer experience, and present a much more diverse
 sort of content, since it's somehow interesting for our audience.
 
 Whenever we write for GitLab, it's necessary to keep in mind that we are writing _on behalf_ of GitLab. We are representing the
@@ -37,10 +48,11 @@ company. Therefore, it's important to keep our personal opinions, tendencies, an
 Make sure to read this through before writing for GitLab.
 
 Also, our content is written in markdown Kramdown. Make sure to read the [Markdown Style Guide] before adventuring yourself writing for
-our website [about.GitLab.com] and for our [Blog], which are our "face to the world".
+our website [about.GitLab.com] and our [Blog], which are our "faces to the world".
 
-On the [Content Marketing Handbook][marketing-blog], you'll find out more about the GitLab Blog directive. And at the end of
-this page, you'll find the [Blog Style Guidelines](#styles-guidelines).
+On the [Content Marketing Handbook][marketing-blog], you'll find out more about the GitLab
+Blog directive, and at the end of this page, you'll find
+the [Blog Style Guidelines](#styles-guidelines).
 
 ## Markdown Style Guide for about.GitLab.com
 
@@ -207,12 +219,13 @@ Before submitting your post for review, make sure you:
 
 ### Titles and headings
 
-Make sure the post title represents very well the subject, and make it as short as possible. Do the same for headings.
+Make sure the post title represents very well the subject, and make it as short as possible.
+Do the same for headings.
 
 ### Frontmatter
 
-The post frontmatter is standard and cannot be changed. Make sure to provide the correct information, but do not add nor remove
-anything from the default template:
+The post frontmatter is standard and cannot be changed. Make sure to provide the correct
+information, but do not add nor remove anything from the default template:
 
 ```
 ---
@@ -222,9 +235,67 @@ date: 2016-03-21 08:00:00
 comments: true
 author: Firstname Lastname
 author_twitter: userID
+categories: technical overview, integration
 image_title: '/images/blogimages/post-cover-image.jpg'
 ---
 ```
+
+_Categories_
+
+Use at **least one** of the following categories, and **a maximum of four** for the same post. Separate them with comas. **Do not** capitalize nor pluralize them, nor change any letter,
+otherwise you'll create another category, which is somenthing we don't want.
+
+- continuous deployment
+- git
+- GitLab
+- GitLab CE
+- GitLab CI
+- GitLab EE
+- GitLab Pages
+- guest
+- innersource
+- integration
+- open source
+- press
+- release
+- remote work
+- SaaS
+- technical overview
+- tutorial
+- version control
+- work at GitLab
+- workflow
+
+Note that the category "GitLab" should be used only for specific products or features,
+like GitLab Geo, GDK, etc.
+
+"GitLab CI" is the feature/product, "continuous integration" is a subject.
+
+We'll improve it, but by now you can find posts under the same category by navigating to
+`https://about.gitlab.com/blog/categories/category-name/`.
+
+If you think we are missing an important category, please let us know by adding a comment
+to this issue: <https://gitlab.com/gitlab-com/www-gitlab-com/issues/721>.
+
+_Comments_
+
+Comments should be present as a frontmatter variable and set to true by default. Set to false
+only if you have a strong reason to do so. They are our best source of feedback on posts.
+
+_Twitter Handle_
+
+Don't worry if you don't have an account on Twitter. Leave the field `author_twitter` blank.
+
+_Date_
+
+The date is always in the format yyyy-mm-dd and must be the same as the date presented on
+the file name. The hour is not required by now, and can be left blank or set
+to 08:00:00 as standard.
+
+_Author Name_
+
+Use the author's full name. If the name has special chars, type it within
+double quotes `"Full Name"`.
 
 ### Structure 
 
@@ -246,8 +317,9 @@ in the series to each one after they get published.
 ### Tutorials
 
 When writing tutorials, be clear on the steps needed to follow through.
-Break the tutorial into small steps and the steps into tasks.
-But long lists of steps are hard to follow and refer back to. Serialize posts if needed.
+Break the tutorial into small steps and the steps into tasks, but bare
+in mind that long lists of steps have the downside of being hard to follow
+and refer back to. So, consider serializing posts if needed.
 
 ### References
 
@@ -256,7 +328,7 @@ As explained on the [Professional Writing Techniques] above, always provide sour
 ### Illustration
 
 Illustrate your examples, with code blocks or screenshots. Be consistent along your examples. E.g., if you are using a generic URL
-to exemplify your steps `domain.com`, be consistent and keep it `domain.com`, through the post.
+to exemplify your steps `domain.com`, be consistent and keep it `domain.com`, throughout the post.
 
 **Important security point:** Do not expose your personal details by using your real tokens or 
 security credentials.
@@ -268,14 +340,18 @@ Use placeholders such as `[project's CI token]` stub instead. Or blur them if di
 
 - Static images should be used to illustrate concepts, provide diagrams, elements of the UI or orient the reader.
 - Images should not be used to render commands or configuration which would prevent
-someone being able to copy and paste. 
+someone being able to copy and paste.
 - Animated GIFs can be used sparingly where you need to show a process or some event
-happening over the course of time or several actions, though they should not replace text descriptions or instructions. 
+happening over the course of time or several actions, though they should not replace text descriptions or instructions.
+- Use screenshots to identify and localize specific parts of the screeen. There are great tools
+for doing so. For example, [Nimbus Screenshot]  (browser extention), [Mac screenshot],
+[Snipping Tool] for Windows, and [Screenshot Tool] for Ubuntu.
 
 #### Preparing images
 
 For the blog, images should be cropped in a 700 x 490 pixel *proportion* 
-so the image doesn't get clipped when displayed as a lead image in the blog list. This includes the cover image.
+so the image doesn't get clipped when displayed as a lead image in the blog list.
+This includes the cover image.
 Compress the image, for example using [TinyPNG.com][tinypng] or any other image editor.
 
 #### Where to place images
@@ -324,13 +400,17 @@ For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner",
 [bundler]: http://bundler.io/
 [documentation]: http://docs.gitlab.com/
 [git]: https://git-scm.com/
-[issue-docs]: https://gitlab.com/gitlab-com/doc-gitlab-com
+[issue-docs]: https://gitlab.com/gitlab-org/gitlab-ce/issues/
 [(key)words]: http://www.wordstream.com/seo-keyword
 [Kramdown]: http://kramdown.gettalong.org
+[Mac screenshot]: https://support.apple.com/en-us/HT201361
 [Markdown Style Guide]: markdown-guide/
 [marketing-blog]: ../../product-marketing/content-marketing/#blog
 [middleman]: https://middlemanapp.com/basics/install/
+[Nimbus Screenshot]: http://nimbus.everhelper.me/screenshot.php
 [Professional Writing Techniques]: #professional-writing-techniques
+[Screenshot Tool]: https://help.ubuntu.com/lts/ubuntu-help/screen-shot-record.html
+[Snipping Tool]: https://support.microsoft.com/en-us/help/13776/windows-use-snipping-tool-to-capture-screenshots
 [synonyms]: //www.thesaurus.com/
 [technical aspects]: https://about.gitlab.com/handbook/marketing/product-marketing/content-marketing/#technical-aspects
 [technical writers]: /jobs/technical-writer/
