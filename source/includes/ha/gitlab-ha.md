@@ -2,7 +2,6 @@
 layout: markdown_page
 title: GitLab High Availability
 ---
-
 High availability (HA) is a system design that ensures a prearranged level of
 operational performance throughout a specific time-period. The most
 common way to measure HA is through the notion of uptime, which measures
@@ -219,5 +218,5 @@ If you have any questions please email us at `sales@gitlab.com`.
 [options for postgresql]: http://www.postgresql.org/docs/9.2/static/high-availability.html "PostgreSQL HA"
 [release of version 8.5]: https://about.gitlab.com/2016/02/22/gitlab-8-5-released/ "GitLab 8.5 release blog post"
 [geo]: http://docs.gitlab.com/ee/gitlab-geo/README.html "GitLab GEO documentation"
-[standard subscription]: https://about.gitlab.com/subscription/ "Standard subscription"
+[standard subscription]: https://about.gitlab.com/pricing "Standard subscription"
 [ee]: /features#enterprise "GitLab Enterprise Edition features"
