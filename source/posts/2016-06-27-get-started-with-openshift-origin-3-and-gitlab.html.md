@@ -4,7 +4,7 @@ date: 2016-06-27
 author: Achilleas Pipinellis
 author_twitter: _axil
 categories: tutorials
-image_title:
+image_title: '/images/default-blog-image.png'
 ---
 
 [OpenShift Origin][openshift] is an open source container application
@@ -18,6 +18,9 @@ tools that will help us achieve our goal.
 <!-- more -->
 
 ---
+
+### What's on this page?
+{: .no_toc}
 
 - TOC
 {:toc}
@@ -82,7 +85,7 @@ Now that OpenShift is setup, let's see how the web console looks like.
 
 ### Explore the OpenShift web console
 
-After Vagrant finishes its thing with the VM, you will be presented with a
+Once Vagrant finishes its thing with the VM, you will be presented with a
 message which has some important information. One of them is the IP address
 of the deployed OpenShift platform and in particular <https://10.2.2.2:8443/console/>.
 Open this link with your browser and accept the self-signed certificate in
@@ -104,12 +107,13 @@ We are not going to explore the whole interface, but if you want to learn about
 the key concepts of OpenShift, read the [core concepts reference][core] in the
 official documentation.
 
-### Explore OpenShift CLI
+### Explore the OpenShift CLI
 
 OpenShift Client (`oc`), is a powerful CLI tool that talks to the OpenShift API
 and performs pretty much everything you can do from the web UI and much more.
 
-Assuming you have installed it, let's explore some of its main functionalities.
+Assuming you have [installed][oc] it, let's explore some of its main
+functionalities.
 
 Let's first see the version of `oc`:
 
@@ -203,7 +207,8 @@ In that case, the OpenShift service might not be running, so in order to fix it:
    systemctl status openshift -l
    ```
 
-Now you will be able to login using `oc` and visit the web console.
+Now you will be able to login using `oc` (like we did before) and visit the web
+console.
 
 ## Deploy GitLab
 
@@ -257,7 +262,7 @@ And then let's import it in OpenShift:
 oc create -f openshift-template.json -n openshift
 ```
 
->
+>**Note:**
 The `-n openshift` namespace flag is a trick to make the template available to all
 projects. If you recall from when we created the `gitlab` project, `oc` switched
 to it automatically, and that can be verified by the `oc status` command. If
@@ -394,7 +399,8 @@ Navigate back to the **Overview** and hopefully all pods will be up and running.
 
 Congratulations! You can now navigate to your new shinny GitLab instance by
 visiting <http://gitlab.apps.10.2.2.2.xip.io> where you will be asked to
-change the root user password. Login and start using GitLab!
+change the root user password. Login using `root` as username and providing the
+password you just set, and start using GitLab!
 
 ### Scale GitLab with the push of a button
 
@@ -509,7 +515,10 @@ bother us. In any case, it is something to keep in mind when deploying GitLab
 on a production cluster.
 
 This is the reason we had to alter the NFS settings, since GitLab's docker
-image requires root privileges to run.
+image requires root privileges to run. The same thing happens with the Redis
+version we use, but that's not the case with PostgreSQL. That's why in the
+[Edit the NFS exports file](#edit-the-nfs-exports-file) section you were asked
+to note down all volumes except for PostgreSQL's.
 
 This is a known issue to both parties and is [being worked on][1251]. This is
 the same case for the Redis image, that's why we need to also alter its NFS
@@ -527,14 +536,14 @@ OS level. Feel free to subscribe to follow their status:
 By now, you should have an understanding of the basic OpenShift Origin concepts
 and a sense of how things work using the web console or the CLI.
 
-GitLab was hard (if not impossible) to install in previous versions of OpenShift,
+GitLab was hard to install in previous versions of OpenShift,
 but now that belongs to the past. Upload a template, create a project, add an
 application and you are done. You are ready to login to your new GitLab instance.
 
 And remember that in this tutorial we just scratched the surface of what Origin
-is capable of. As always, you can refer to the detailed documentation to learn
-more about deploying your own OpenShift PaaS and managing your applications with
-the ease of containers.
+is capable of. As always, you can refer to the detailed
+[documentation][openshift-docs] to learn more about deploying your own OpenShift
+PaaS and managing your applications with the ease of containers.
 
 [RedHat]: https://www.redhat.com/en "RedHat website"
 [openshift]: https://www.openshift.org "OpenShift Origin website"
@@ -560,3 +569,4 @@ the ease of containers.
 [replicas]: https://docs.openshift.org/latest/architecture/core_concepts/deployments.html#replication-controllers "Documentation - Replication controller"
 [autoscaling]: https://docs.openshift.org/latest/dev_guide/pod_autoscaling.html "Documentation - Autoscale"
 [basic-cli]: https://docs.openshift.org/latest/cli_reference/basic_cli_operations.html "Documentation - Basic CLI operations"
+[openshift-docs]: https://docs.openshift.org "OpenShift documentation"
