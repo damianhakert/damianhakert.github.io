@@ -456,7 +456,7 @@ Notes:
 and public domain images are permitted.
 - The text inside the square brackets is an image attribute called `ALT`, which stands for _alternative text_.
 It [must not be left empty][img-seo], but contain something to describe that image. `ALT` is useful for
-visually impaired internauts, for SEO, and it is displayed when, for some reason, that image is not loaded by the browser.
+[visually impaired internauts][visually-impaired], for SEO, and it is displayed when, for some reason, that image is not loaded by the browser.
 - For the same reasons, the image must contain a name related to it. Example: instead of `image-01.jpg`,
 name it `black-dog.jpg`, if it's a photo of a black dog.
 - It's also recommendable adding an image title, as the "Hello World" exemplified above.
@@ -1311,5 +1311,6 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [stackedit]: https://stackedit.io/
 [sublime]: https://www.sublimetext.com/3
 [table generator]: http://www.tablesgenerator.com/html_tables
+[visually-impaired]: https://gitlab.com/gitlab-org/gitlab-ce/issues/12797
 [w3-video]: http://www.w3schools.com/tags/tag_video.asp
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com
