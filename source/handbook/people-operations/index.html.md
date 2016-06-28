@@ -16,6 +16,7 @@ title: "People Operations"
 - [Office addresses](#addresses)
 - [Policies](#peopleops-policies)
    - [Compensation principles](#compensation-principles)
+   - [Sick time - taking and reporting](#sick-time)
    - [Hiring Significant Others or Family Members](#family-hires)
    - [Returning property to GitLab](#returning-property)
       - [FedEx info for the team member](#fedex-info)
@@ -74,6 +75,22 @@ The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is
 1. We hire across the globe but we're not location agnostic. Your timezone, the market rate in your region, and vicinity to other team members, users, customers, and partners can all be factors. For example, we may favor an applicant over another because they live in a region with a lower market rate or because we need someone in that timezone. All things being equal we will hire people in lower cost markets vs. higher cost markets.
 1. As you can see from our [contracts](/handbook/contracts/), compensation is typically set at a fixed monthly rate. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission, for leadership roles sometimes part of it is based on business objectives. Success engineers currently have a lower variable component, we're not sure how this will evolve. All other people have fixed compensation (but we do have [bonuses and incentives](/handbook/#incentives)).
 1. Compensation decisions are taken by the compensation committee. This committee consists of the CFO, CEO, and head of people operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee.
+
+### Sick time - taking and reporting<a name="sick-time"></a>
+
+In keeping with our [values](/handbook/#values) of freedom, efficiency, transparency, kindness, and boring solutions, we have crafted the following protocol around sick leave for all team members.
+
+**All team members**
+
+- If you or a loved one is ill, we want you to take care of yourself or your loved one(s). To facilitate this, you should take sick leave when you need it. Sick leave is meant to be used when you are ill, or to care for family members including your parent(s), child(ren), spouse, registered domestic partner, grandparent(s), grandchild(ren), and sibling(s).
+- You do need to report when you take sick leave, either by emailing your manager and People Ops, or by using the "Request time off" function in BambooHR. This way, it can be tracked in BambooHR and related payroll systems.
+- If you need sick leave for more than 8 consecutive calendar days, notify your manager and People Ops to accommodate an extended leave request. What can (or must) be accommodated varies from location to location: GitLab will comply with the applicable laws in your specific location.
+- Upon request, you should be able to provide proper documentation of the reason for your sick leave (doctor's note).
+
+**Details for specific groups of team members**
+
+- Employees of GitLab Inc. who receive a pay stub from TriNet will see sick time accrue on their pay stub at the rate of 0.0346 hrs per hour worked (3 hours of sick leave per semi-monthly pay-period) for a maximum accrual and carry-over of 72 hours per year. GitLab's policy is more generous than this, in the sense that you can take off non-accrued sick time as written above (a negative balance may show on your pay stub). Sick time does not get paid out in case of termination, nor does it reduce your final paycheck in case of a negative balance. Related to the topic of extended leave requests, see information about [short term disability](/handbook/benefits/#std-ltd) through TriNet / your state.
+- Employees of GitLab B.V. have further rights and responsibilities regarding sick time based on Dutch law, as written into their employment [contracts](#handbook/contracts).
 
 ### Hiring Significant Other or Family Members<a name="family-hires"></a>
 

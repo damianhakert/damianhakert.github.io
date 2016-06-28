@@ -614,7 +614,7 @@
   gitlab: jameslopez
   maintains: |
              <li>Part-time maintainer of <a href="https://github.com/jneen/rouge">rouge</a></li>
-             <li>Import/Export <a href="/jobs/expert/">expert</a></li>
+             <li><a href="http://docs.gitlab.com/ce/user/project/settings/import_export.html">Import/Export</a> <a href="/jobs/expert/">expert</a></li>
              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           James is an experienced developer coming from the corporate world
@@ -1301,6 +1301,17 @@
   country:
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
   reports_to: Backend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 1st
+
+- name: R.F
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
+  reports_to: Vice President of Product
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:

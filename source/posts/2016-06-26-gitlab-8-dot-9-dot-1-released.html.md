@@ -56,7 +56,6 @@ Please read on for more details.
 - **CE/EE:** Apply selected value as label. ([!4886])
 - **CE/EE:** Fix temp file being deleted after the request while importing a GitLab project. ([!4894])
 - **CE/EE:** Fix user creation with stronger minimum password requirements. ([!4054]) (nathan-pmt)
-- **CE/EE:** Add API endpoint for a group issues. ([!4520]) (mahcsig)
 - **CE/EE:** Fix a wrong MR status when merge_when_build_succeeds & project.only_allow_merge_if_build_succeeds are true. ([!4912])
 - **CE/EE:** Add SMTP as default delivery method to match gitlab-org/omnibus-gitlab!826. ([!4915])
 
@@ -101,7 +100,6 @@ Please read on for more details.
 [!4886]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4886
 [!4894]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4894
 [!4054]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4054
-[!4520]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4520
 [!4912]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4912
 [!4915]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4915
 
@@ -122,7 +120,7 @@ To update, check out our [update page](https://about.gitlab.com/update).
 ## Enterprise Edition
 
 Interested in GitLab Enterprise Edition? Check out the [features exclusive to
-EE](http://about.gitlab.com/features/#enterprise).
+EE](https://about.gitlab.com/features/#enterprise).
 
 Access to GitLab Enterprise Edition is included with a [subscription](https://about.gitlab.com/subscription).
 No time to upgrade GitLab yourself? Subscribers receive upgrade and installation
