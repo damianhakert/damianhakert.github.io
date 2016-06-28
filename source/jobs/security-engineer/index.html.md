@@ -11,7 +11,7 @@ security practices within the company.
 
 * Find and fix security issues within the GitLab code base
 * Define, implement, and monitor security measures to protect GitLab.com and company assets
-* Manage a bug bounty program
+* Manage a [bug bounty program](https://medium.com/@collingreene/bug-bounty-5-years-in-c95cda604365#.blaaokpi9)
 * Perform vulnerability testing, risk analyses, and security assessments
 * Investigate intrusion incidents, conduct forensic investigations, and mount incident responses
 * Collaborate with colleagues on authentication, authorization and encryption solutions

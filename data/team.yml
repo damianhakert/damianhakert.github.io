@@ -378,9 +378,10 @@
   picture: gabriel.jpg
   twitter: brodock
   gitlab: brodock
-  maintains: |
-             <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
-             <li><a href="http://doc.gitlab.com/ee/gitlab-geo/README.html">Geo</a> <a href="/jobs/expert/">expert</a></li>
+  maintains:  |
+              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
+              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
+              <li><a href="http://doc.gitlab.com/ee/gitlab-geo/README.html">Geo</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Gabriel is the first Brazillian in the team, before joining GitLab,
           he was fighting the scalability and performance battle on a
@@ -444,6 +445,7 @@
   gitlab: grzesiek
   maintains:  |
                 <li><a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> specialist</li>
+                <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
                 <li>Issue tracker development specialist</li>
   story:  |
           Grzegorz is a developer who has worked on open-source projects since 2002.
@@ -461,6 +463,7 @@
   twitter: dbalexandre
   gitlab: dbalexandre
   maintains:  |
+              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/version-gitlab-com">version-gitlab-com</a> (internal)</li>
               <li>Issue tracker development lead</li>
               <li><a href="http://doc.gitlab.com/ce/workflow/todos.html">Todos</a> <a href="/jobs/expert/">expert</a></li>
@@ -611,6 +614,7 @@
   gitlab: jameslopez
   maintains: |
              <li>Part-time maintainer of <a href="https://github.com/jneen/rouge">rouge</a></li>
+             <li>Import/Export <a href="/jobs/expert/">expert</a></li>
              <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
   story:  |
           James is an experienced developer coming from the corporate world
@@ -635,20 +639,6 @@
           gaming industry doing sales and business development. Timo loves traveling,
           Tarantino movies, good beer, and Mexican cuisine. If you like to discuss
           politics, economics or privacy matters, Timo is your guy.
-
-- name: Tiffanie Ryan
-  locality: San Francisco, CA
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/people-ops-administrator/">People Ops Admin</a>
-  reports_to: VP of Scaling
-  picture: tiffanie.png
-  twitter: tiffyrn
-  gitlab: tiffanie
-  story:  |
-          For the past 3 years Tiffanie has worked with Silicon Valley's finest
-          Startups and VCs. Tiffanie spends her time on-boarding new employees, manages
-          benefits, and assists with the needs of our team in various ways. In her spare
-          time she enjoys going to meet-ups, reading, and volunteering at animal rescues.
 
 - name: Kirsten Abma
   locality: San Francisco, CA
@@ -820,7 +810,7 @@
   story:  |
           Software enthusiast who started his career developing desktop applications. Former member of a repositories/task management company who is here to make GitLab better. Likes playing RTS video games and boxing in his free time.
 
-- name: DJ Mountney
+- name: David 'DJ' Mountney
   locality: Victoria
   country: Canada
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
@@ -905,7 +895,7 @@
           radio. A three-time Boston Marathon qualifier and finisher, Stan now
           channels his energy into training for his next triathlon.
 
-- name: Reb - Richard E. Baum
+- name: Richard 'Reb' Baum
   locality: Jamesburg, NJ
   country: USA
   role: <a href="https://about.gitlab.com/jobs/success-engineer/">Success Engineer</a>
@@ -953,6 +943,8 @@
   picture: smcgivern.jpg
   twitter: mcgivernsa
   gitlab: smcgivern
+  maintains:  |
+              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
   story:  |
           Sean likes writing code, and especially likes writing code that helps other
           people write code. Despite dabbling with other editors, he's been unable to
@@ -1050,7 +1042,7 @@
           England Patriots. When not helping customers solve problems, you can
           find him on the golf course attempting to lower his handicap.
 
-- name: Lin Jen-Shin
+- name: Jen-Shin Lin
   locality: Taipei
   country: Taiwan
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>

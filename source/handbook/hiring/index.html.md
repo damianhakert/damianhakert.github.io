@@ -45,7 +45,7 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
    * For location, select "Telecommute".
    * For the description, write `For the job description, see [URL of relevant jobs page on about.gitlab.com]`
    * Indicate what applicants need to provide with their application. By default, this will include their resumé, a cover letter, but it may also include qualifying questions such as "What timezone are you in?".
-   * "Publish" the job, and follow the links to the application form (you will need this URL).
+   * Get one of the admins (People Ops and CEO) to "Publish" the job, and follow the links to the application form (you will need this URL).
    * Add the URL to the application form into the merge request for the `data/jobs.yml` file.
  1. As soon as the new job description / posting is live on our website, consider your available [advertising methods](#job-advertising) below.
 
@@ -85,7 +85,9 @@ List on:
 
 **Send Calendly link of the next person in the process.** If you have decided to let the applicant move on to the next interview, save time by sending the next interviewer's Calendly link to the applicant. This saves the time that it would otherwise take for the next interviewer to get around to sending the link, and it thus works in everyone's benefit.
 
-**Only the CEO presents offers.** As outlined in the [typical hiring process](#typical-process) below, discussing a possible offer with the candidate is the role of the CEO in the final interview. The hiring manager should propose a suggestion for an offer (including bonus structure if applicable, etc.) as an internal comment in Workable, but _only_ the CEO may disclose an offer to the candidate. This may change if/when we have a [global compensation framework](/handbook/people-operations/#compensation-principles) in place.
+**The CEO authorizes offers.** The hiring manager should propose a suggestion for an offer (including bonus structure if applicable, etc.) as an internal comment in Workable, but _not_ make the offer until the CEO explicitly authorizes this. The CEO authorizes offers by way of an internal comment in Workable of the form "You may offer X base comp, Y stock options, and the following bonus structure" depending on what is applicable. The hiring manager can then make the actual offer to the applicant. This may change if/when we have a [global compensation framework](/handbook/people-operations/#compensation-principles) in place.
+
+The visibility of internal comments in Workable can be switched between hiring team _managers_ only, or _all_ members of the hiring team. Consider making comments that relate to compensation visible to hiring _managers_ only.
 
 ### Typical process<a name="typical-process"></a>
 
@@ -94,7 +96,7 @@ List on:
 1. [Screening call](#screening-call): in Workable, ping our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/) to do a screening call; and also move the applicant to the "screening call" stage in Workable. Depending on the outcome of the screening call, the hiring manager can either [reject an applicant](#rejecting), or move the applicant to the interview stage in Workable.
 1. Technical interview (optional): As described on the [Jobs](/jobs/) page, certain positions require [technical interviews](/jobs/#technical-interview).
 1. Multiple further interviews (see [below for sample questions](#interview-questions)). At minimum, the candidate should be interviewed by their Manager, one female GitLab team member, and a C-level executive... but this can be one and the same person.
-1. CEO interview: the CEO, as the primary culture carrier of the company, interviews all final round candidates and discusses a possible offer.
+1. CEO interview: the CEO, as the primary culture carrier of the company, interviews all final round candidates and decides on a possible offer (but does not always discuss this with the applicant).
 1. Optional: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. At minimum two reference calls should be completed - one to a manager, the other to a colleague. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
 1. Make a verbal or written (email) offer (the CEO needs to authorize offers)
 1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
@@ -111,7 +113,7 @@ For the specific position of Service Engineering please follow these steps (inst
 1. Team Interaction and Customer Scenario Interview
 1. Reference Calls, done by our People Operations Coordinator
 1. VP level interview
-1. CEO Interview
+1. CEO Interview, which may include an offer
 1. Make a verbal or written offer with CEO authorization
 
 ### Rejecting applicants<a name="rejecting"></a>
@@ -136,6 +138,7 @@ Questions are:
 
 1. Why are they looking for a new job?
 1. What is your experience with X? (do for each of the skills asked in the job description)
+1. Current address? (relevant in context of comp, and in case of contract we will need that information).
 1. How do they feel about working remotely and do they have experience with it?
 1. Compensation expectation and compensation in current/last job.
 
@@ -248,6 +251,9 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 1. What compensation would you feel comfortable with?
 1. Do you have any questions for me?
 
+These questions are also available in a [Google form](https://docs.google.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) which can be used to save time during the actual interview.
+
+
 ## Reference calls <a name="reference-calls"></a>
 
 As part of our hiring process we may ask applicants to provide us with one or more
@@ -272,7 +278,7 @@ Offers made to new team members should be documented in the email thread between
    1. makes the contract based on the details found in the Workable platform, using reply-all to gather any missing pieces of information,
    1. has the contract reviewed by the VP of Scaling, CEO, or CFO (should not be the same as the person making the offer)
    1. confirms with a reply-to-all when the contract is sent.
-1. When the contract is signed, the People Ops team member should move the candidate to the "Hired" bucket in Workable. Thanks to an integration between Workable and BambooHR, this will automatically add an entry for the new team member in BambooHR. However, in the automatic move, "self-service" is switched off in BambooHR by default, so this must be switched on explicitly within BambooHR.
+1. When the contract is signed, the People Ops team member should move the candidate in Workable to the "Hired" bucket of the "Hired Team Members (admin access only)" job. This accomplishes two goals. First, thanks to an integration between Workable and BambooHR, it will automatically add an entry for the new team member in BambooHR. However, in the automatic move, "self-service" is switched off in BambooHR by default, so this must be switched on explicitly within BambooHR. Second, by keeping the application and interview notes of successful applicants in a more restricted area of Workable we are able to maintain confidentiality if/when the applicant becomes involved in the hiring process for their peers.
 1. This same person from People Operations files the signed contract in the appropriate place, and starts the [**onboarding issue**](https://about.gitlab.com/handbook/general-onboarding/).
 
 Note for People Operations:<br>

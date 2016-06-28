@@ -1,7 +1,7 @@
 ---
 title: "GitLab 5.3 released"
 date: 2013-06-20 09:28
-categories:
+categories: release
 community: true
 ---
 

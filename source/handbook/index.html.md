@@ -11,22 +11,22 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 ## Other main pages
 
 * [Engineering]() TODO
-* - [Backend]() TODO
-* - [Support](/handbook/support)
-* - [Infrastructure](/handbook/infrastructure)
+  * [Backend]() TODO
+  * [Support](/handbook/support)
+  * [Infrastructure](/handbook/infrastructure)
 * [Marketing](/handbook/marketing)
-* - [Social Media Guidelines](/handbook/social-media-guidelines)
+  * [Social Media Guidelines](/handbook/social-media-guidelines)
 * [Sales](/handbook/sales)
 * [Finance](/handbook/finance)
-* - [Stock Options](/handbook/stock-options)
-* - [Board meetings](/handbook/board-meetings)
+  * [Stock Options](/handbook/stock-options)
+  * [Board meetings](/handbook/board-meetings)
 * [People Operations](/handbook/people-operations)
-* - [Onboarding](/handbook/general-onboarding)
-* - [Benefits](/handbook/benefits)
-* - [Hiring](/handbook/hiring)
-* - [Travel](/handbook/travel)
-* - [Security](/handbook/security)
-* - [Leadership](/handbook/leadership)
+  * [Onboarding](/handbook/general-onboarding)
+  * [Benefits](/handbook/benefits)
+  * [Hiring](/handbook/hiring)
+  * [Travel](/handbook/travel)
+  * [Security](/handbook/security)
+  * [Leadership](/handbook/leadership)
 
 ## This page
 
@@ -287,7 +287,8 @@ step, **re-assign** the issue to that person.
 1. Once a merge request is created, make sure to assign it to the proper person:
     1. For example a merge request that fixes a frontend issue should have the `Frontend` label and be assigned to a Frontend Engineer for review. For other workflow labels please see [PROCESS.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels).
     1. A merge request that is related to Continuous Integration should be assigned to the GitLab CI lead.
-    1. All other merge requests should be assigned for review to one of merge request "endbosses". You can find all the roles listed on the [team page](https://about.gitlab.com/team/).
+    1. All other merge requests should be assigned for review to either a merge request miniboss or endboss. You can find the people with these roles on the [team page](https://about.gitlab.com/team/).
+    1. Once a merge request has gone through review by a miniboss, they will assign it to an endboss who will do a final review and perform the actual merge if satisfied.
 1. When _you_ are done with your merge request, remove the WIP prefix and **assign** the merge request to someone to review and merge it. You can still make changes based on feedback of course, but by removing the WIP prefix it clarifies when the main body of work is completed.
 1. When a merge request is done, set milestone to the version it should be included in.
 1. If you are assigned to review and merge a merge request and would like the creator to make some **changes**, comment on the merge request and assign it back to the creator. When they have addressed the concern, they will reassign it to the reviewer.
@@ -334,6 +335,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. If you want to move a meeting just move the calendar appointment instead of reaching out via other channels, note the change at the top of the description.
 1. Please click 'Guests can modify event' so people can update the time in the calendar instead of having to reach out via other channels. You can install [the Google-Calendar-Guests-Can-Modify-Event-By-Default plugin in Chrome](https://github.com/robin-drexler/Google-Calendar-Guests-Can-Modify-Event-By-Default) to do this automatically.
 1. If you want to schedule a meeting with a person not on the team please use [Calendly](#calendly).
+1. When scheduling a meeting we value people's time and prefer the "speedy meetings" setting in our Google Calendar. This gives us meetings of, for example, 25 or 50  minutes leaving some time to write notes etc before continuing to our next call or meeting. (This setting can be found under the calendar Settings menu at "default event duration")
 
 ### Video calls<a name="video-calls"></a>
 
@@ -425,7 +427,7 @@ intellectual property violations
 In keeping with our values of results, freedom, efficiency, frugality, and boring solutons, we expect team members to take responsibility to determine what they need to purchase or expense in order to do their jobs effectively. We don't want you to have to wait with getting the items that you need to get your job done. You most likely know better than anyone else what the items are that you need to be successful in your job. The guidelines below describe what people in our team commonly expense.
 
 1. Spend company money like it is your **own** money.
-1. You don't have to ask permission before making purchases **in the interest of the company**. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
+1. You don't have to [ask permission](https://m.signalvnoise.com/if-you-ask-for-my-permission-you-wont-have-my-permission-9d8bb4f9c940#.qaa888pwq) before making purchases **in the interest of the company**. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
 1. It is uncommon for you to need all of the items listed below, use your best judgement and buy them as you need them. If you wonder if something is common, feel free to ask People Ops (and in turn, People Ops should update the list).
 1. It is generally easiest and fastest for you to make the purchases yourself, but feel free to reach out to People Ops if you would like help in acquiring some items. Just include a link and your shipping address in an email, and People Ops will be happy to place the order.
 1. Employees: file your expense report no later than 7 days after the end of the calendar quarter that you made the purchase in. Contractors: include receipts with your invoices.
@@ -453,7 +455,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Office space (if working from home is not practical)
     *  Work-related online courses
     *  Work-related conferences (please get permission from your manager in advance if total costs are more than $500)
-    *  Business travel upgrades per return trip (i.e. not per each leg of the flight):
+    *  Business travel upgrades per round-trip (i.e. not per each leg of the flight):
         * Up to the first [EUR 300](https://www.google.com/search?q=300+eur+in+usd) for an upgrade to Business Class on flights longer than 8 hours.
         * Upgrade to Economy Plus if you’re taller than 1.95m / 6’5” for flights longer than 2 hours.
         * Up to the first [EUR 100](https://www.google.com/search?q=100+eur+in+usd) for an upgrade to Economy Plus (no height restriction) on flights longer than 8 hours.
@@ -758,7 +760,7 @@ Instructions on how to update the website are in the [readme of www-gitlab-com](
 1. In a terminal, execute: `bundle exec middleman`.
 1. Visit http://localhost:4567 in your browser.
 1. To edit the site locally you'll need to install a text editor. We recommend
-   [Sublime Text 2](http://www.sublimetext.com/2) or [Atom](https://atom.io/).
+   [Sublime Text 3](http://www.sublimetext.com/3) or [Atom](https://atom.io/).
 
 #### 2. Test if all URL links in a page are valid
 

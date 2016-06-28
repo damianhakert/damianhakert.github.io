@@ -1,7 +1,7 @@
 ---
 title: "GitLab 7.4 released with task lists and multiple LDAP servers support"
 date: 2014-10-22
-categories:
+categories: release
 author: Valery Sizov
 ---
 

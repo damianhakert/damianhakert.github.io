@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitLab 8.9 released with File Locking, Environments, Priority Labels and more!"
-categories:
+categories: release
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: /images/8_9/windmills.jpg
@@ -431,7 +431,7 @@ minutes on average.
 
 ![Increased memory limits in GitLab 8.9 brought down HTTP queue timings](/images/8_9/http-queue-timings.png)
 
-See how this effected the worker load (for GitLab.com):
+See how this affected the worker load (for GitLab.com):
 
 ![Decreased worker load for GitLab 8.9](/images/8_9/worker-load.png)
 
