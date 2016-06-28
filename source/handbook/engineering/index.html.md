@@ -10,10 +10,11 @@ title: "Engineering"
 
 ## Engineering Groups
 
-- [Support](/handbook/support)
 - [Backend Development]() TODO
 - [Frontend Development]() TODO
 - [Infrastructure](/handbook/infrastructure)
+- [Packaging]() TODO
+- [Support](/handbook/support)
 
 ## Resources for Engineering
 
