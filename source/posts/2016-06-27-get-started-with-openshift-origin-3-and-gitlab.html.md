@@ -7,6 +7,8 @@ categories: tutorials
 image_title: '/images/default-blog-image.png'
 ---
 
+{::options parse_block_html="true" /}
+
 [OpenShift Origin][openshift] is an open source container application
 platform created by [RedHat], based on [kubernetes] and [Docker]. That means
 you can host your own PaaS for free and almost with no hassle.
@@ -46,11 +48,16 @@ latest Origin release, which is currently on alpha, is used:
 - **openshift** `v1.3.0-alpha.1-31-g81aecc8` (is pre-installed in the [VM image][vm-new])
 - **kubernetes** `v1.3.0-alpha.1-331-g0522e63` (is pre-installed in the [VM image][vm-new])
 
-> **Note:**
+<div class="panel panel-info">
+**Note**
+{: .panel-heading}
+<div class="panel-body">
 If you intend to deploy GitLab on a production OpenShift cluster, there are some
 limitations to bare in mind. Read on the [limitations](#current-limitations)
 section for more information and follow the linked links for the relevant
 discussions.
+</div>
+</div>
 
 Now that you have all batteries, let's see how easy it is to test OpenShift
 on your computer.
@@ -262,7 +269,10 @@ And then let's import it in OpenShift:
 oc create -f openshift-template.json -n openshift
 ```
 
->**Note:**
+<div class="panel panel-info">
+**Note**
+{: .panel-heading}
+<div class="panel-body">
 The `-n openshift` namespace flag is a trick to make the template available to all
 projects. If you recall from when we created the `gitlab` project, `oc` switched
 to it automatically, and that can be verified by the `oc status` command. If
@@ -270,6 +280,8 @@ you omit the namespace flag, the application will be available only to the
 current project, in our case `gitlab`. The `openshift` namespace is a global
 one that the administrators should use if they want the application to be
 available to all users.
+</div>
+</div>
 
 We are now ready to finally deploy GitLab!
 
@@ -309,11 +321,16 @@ If you are deploying to production you will want to change the **GitLab instance
 hostname** and use greater values for the volume sizes. If you don't provide a
 password for PostgreSQL, it will be created automatically.
 
->**Note:**
+<div class="panel panel-info">
+**Note**
+{: .panel-heading}
+<div class="panel-body">
 The `gitlab.apps.10.2.2.2.xip.io` hostname that is used by default will
 resolve to the host with IP `10.2.2.2` which is the IP our VM uses. It is a
 trick to have distinct FQDNs pointing to services that are on our local network.
 Read more on how this works in <http://xip.io>.
+</div>
+</div>
 
 As a last step, we need to edit the `/etc/exports` file in the VM.
 
