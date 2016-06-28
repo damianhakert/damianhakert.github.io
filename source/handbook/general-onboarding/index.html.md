@@ -227,11 +227,9 @@ Please update this list as more steps arise.
 
 * The first month at a remote first company is hard, especially if you have not worked remote before and/or if you're unfamiliar with the tools used (mainly GitLab, chat, and video calling). If you feel lonely feel free to schedule 1 on 1 video calls to get to know people. If you need help with the tools ask people for help. If you don't know who to ask for help use the #questions chat channel. If you're not happy please let your manager know so we can take action.
 * We've set up a monthly GitLab 101 call to explain our history and have some time for Q&A.
-* We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https://www.google.com/docs/about/) and [dev.gitlab.org](https://dev.gitlab.org) to communicate.
 * Check out our [about page](https://about.gitlab.com/about/), [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/).
 * Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
 * Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
-* Read our [Team Handbook](https://about.gitlab.com/handbook/)
 * Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/)
 * Be aware your google calendar (tied to your GitLab account) is internally viewable by default, you might want to [change this](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en) in your calendar settings.
 * You can [download](https://tools.google.com/dlpage/drive/index.html?hl=en) Google Drive for your computer to access offline
@@ -243,8 +241,6 @@ Please update this list as more steps arise.
   1. [GitLab Enterprise Edition](https://dev.gitlab.org/gitlab/gitlab-ee)
   1. [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq)
   1. [GitLab www-gitlab-com](https://dev.gitlab.org/gitlab/www-gitlab-com)
-* Create an account on our external / public [GitLab Server](https://gitlab.com) and have your manager grant access to the GitLab Enterprise Edition Project, Standard Subscribers Group and other projects / groups relevant to your role
-* Review our [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) for daily call
 * Become familiar with [GitLab's Website](https://about.gitlab.com) and the following links:
   1. [Documentation](https://about.gitlab.com/documentation/)
   1. [EE Pricing](https://about.gitlab.com/pricing/)
@@ -293,7 +289,7 @@ the following format: `yourname.jpg` or `yourname.png` and then follow the
    - Ensure the picture size is around 400x400 (it must be square) and the format is JPEG or PNG. You can resize your picture using a photo editor like [GIMP](http://www.gimp.org/) (cross-platform) or online by searching for "image resize".
    - Any picture that you provide will be made black-and-white automatically after you add it. Note that your team page picture should be added to `www-gitlab-com/source/images/team/NAME-OF-PERSON-IN-LOWERCASE.jpg`.
 1. [Create a Merge Request](http://doc.gitlab.com/ce/gitlab-basics/add-merge-request.html) in [GitLab.com](https://gitlab.com/) with the branch that you created with your picture.
-1. In [GitLab.com](https://gitlab.com/), on the left side of your screen, click on "Files".
+1. In [GitLab.com](https://gitlab.com/), click on "Files".
 1. Find the dropdown menu at the top of your screen and find the branch
 that you previously created to add your picture (they are in alphabetical
 order). If you don't have a branch yet, follow the steps to [create a new
