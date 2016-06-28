@@ -51,15 +51,16 @@ The Demand Generation organization includes Demand Generation, Business Developm
 ## Lead qualification process<a name="leadQual"></a>
 
 1. Unless a specific request is made, provide a useful resource that will help the person have a better GitLab experience.
-2. Ask [Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/) to qualify lead
-3. Soft-BANT is used to determine if a lead should be passed to sales or recommended CE resources. Once determined, BDR team passes all leads to sales for followup via Salesforce assignment and email notification.
-4. If 2 of the 4 elements of BANT are met (budget, authority, need, timeline), BDR team will determine account owner and pass lead.
-5. If further qualification is needed to understand Soft-BANT requirements, BDR team will email or schedule a phone call with lead to understand their project and initiatives.
-6. If Soft-BANT isn't met and there are questions, BDR team will answer all questions or route to support.
-7. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
-8. If a lead is from a [Fortune 500 company](http://fortune.com/fortune500/), it will be assigned to a senior account executive.  For larger opportunities outside the US, lead will be passed to senior account executive or sales director in region.
-9. If a lead is an existing customer or a prospect that's owned/operated by an existing customer, BDR team will determine account owner and pass lead.
-10. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
+1. Ask [Discovery Questions](https://about.gitlab.com/handbook/sales-qualification-questions/) to qualify lead
+1. Soft-BANT is used to determine if a lead should be passed to sales or recommended CE resources. Once determined, BDR team passes all leads to sales for followup via Salesforce assignment and email notification.
+1. If a lead comes in via contact us form and is asking for an EE quote or has EE specific questions, mark as qualifie and reassign to AE based on assignment rules
+1. If 2 of the 4 elements of BANT are met (budget, authority, need, timeline), BDR team will determine account owner and pass lead.
+1. If further qualification is needed to understand Soft-BANT requirements, BDR team will email or schedule a phone call with lead to understand their project and initiatives.
+1. If Soft-BANT isn't met and there are questions, BDR team will answer all questions or route to support.
+1. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
+1. If a lead is from a [Fortune 500 company](http://fortune.com/fortune500/), it will be assigned to a senior account executive.  For larger opportunities outside the US, lead will be passed to senior account executive or sales director in region.
+1. If a lead is an existing customer or a prospect that's owned/operated by an existing customer, BDR team will determine account owner and pass lead.
+1. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
 
 ## Soft-BANT<a name="bant"></a>
 
