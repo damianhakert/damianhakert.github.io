@@ -7,12 +7,16 @@ title: "Benefits"
 - [General Benefits](#general-benefits)
 - [Specific to Netherlands based employees](#nl-specific-benefits)
 - [Specific to US based employees](#us-specific-benefits)
-   - [Sick Leave Accrual and Use](#sick-leave-accrual)
    - [Group Medical Coverage](#group-medical)
    - [Basic Life Insurance and AD&D](#basic-life-ins)
    - [Group Long-Term Disability Insurance](#group-LTD)
    - [401k Plan](#401k)
    - [Optional TriNet Plans Available at Employee Expense](#trinet-optional)
+      - [Flexible Spending Account (FSA) Plans](#fsa-plans)
+      - [Supplemental Life Insurance](#supp-life)
+      - [Supplemental Accidental Death and Dismemberment Insurance](#supp-add)
+      - [Short and Long-Term Disability Insurance](#std-ltd)
+
 
 NOTE: Our contractor agreements and employment contracts are all on the [Contracts](https://about.gitlab.com/handbook/contracts/) page.
 
@@ -64,21 +68,6 @@ to date and correct information is always available to employees through the
 and numbers listed there. This brief overview is not intended to replace the
 documentation in TriNet, but rather to give our team members and applicants a
 quick reference guide.
-
-### Sick Leave Accrual and Use<a name="sick-leave-accrual"></a>
-
-Contributor's begin to accrue sick leave hours from the first day of work, accruing
-0.0346 per hour worked (3 hours of sick leave per semi-monthly pay-period) for a maximum
-accrual and carry-over of 72 hours per year. This accrual appears on your pay slip.
-
-Sick Leave can be used when you are ill, or to care for family members including
-your parent(s), child(ren), spouse, registered domestic partner, grandparent(s),
-grandchild(ren), and sibling(s).
-
-Related links:
-
-- [San Francisco Sick Leave Ordinance](http://www.sfgov.org/olse/sites/default/files/FileCenter/Documents/8726-2011%20-%20Paid%20Sick%20Leave%20Ordinance1%20Poster.pdf)
-- [FAQ's on the connection between CA and SF Sick Leave Law](http://sfgov.org/olse/sites/default/files/FileCenter/Documents/13606-FAQs%20on%20PSLO%20and%20CA%20PSL%2011_13_15%20Final3.pdf)
 
 ### Group Medical Coverage<a name="group-medical"></a>
 
@@ -155,13 +144,13 @@ details on eligibility and sign up.
 
 ### Optional TriNet Plans Available at Employee Expense<a name="trinet-optional"></a>
 
-#### Flexible Spending Account (FSA) Plans
+#### Flexible Spending Account (FSA) Plans<a name="fsa-plans"></a>
 
 FSAs help you pay for eligible out-of-pocket health care and dependent day care expenses
 on a pretax basis. You determine your projected expenses for the Plan Year and then
 elect to set aside a portion of each paycheck into your FSA.
 
-#### Supplemental Life Insurance
+#### Supplemental Life Insurance<a name="supp-life"></a>
 
 If you want extra protection for yourself and your eligible dependents, you have
 the option to elect supplemental life insurance. You may request coverage yourself
@@ -171,12 +160,12 @@ child coverage for $10,000. Note that amounts above guaranteed issue
 ($300,000 for you and $30,000 for your spouse) and certain coverage increases
 must be approved by the insurance carrier.
 
-#### Supplemental Accidental Death and Dismemberment Insurance
+#### Supplemental Accidental Death and Dismemberment Insurance<a name="supp-add"></a>
 
 AD&D covers death or dismemberment from an accident only. You may elect supplemental
 AD&D coverage in amounts of $25,000, $50,000, $100,000, $250,000, $500,000 or $750,000.
 
-#### Short and Long-Term Disability Insurance
+#### Short and Long-Term Disability Insurance<a name="std-ltd"></a>
 
 Disability insurance plans are designed to provide income protection while you recover
 from a disability. This coverage not only ensures that you are able to receive some
