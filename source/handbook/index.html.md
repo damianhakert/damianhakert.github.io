@@ -532,6 +532,8 @@ first 6 months of their hire, then you *also* get a $1,000 bonus.
 1. Exceptions: no bonuses for hiring people who report to you, and no bonus for the executive team.
 1. When your referral applies for an opening, make sure that they enter your name on the application form.
 
+People Ops will [process](/handbook/people-operations/#referral-bonus) the bonus. 
+
 ### Work Remotely Travel Grant<a name="travel-grant"></a>
 
 GitLab is a [remote-first company](http://zachholman.com/posts/remote-first/) with team members all over the world (see the map on our [Team page](https://about.gitlab.com/team/) ). If you want to visit a colleague in another part of the world, or promote GitLab at events in another country, then present your travel plan to your manager or the CEO, and you can receive *up to* $2,000 in support for your plan!
