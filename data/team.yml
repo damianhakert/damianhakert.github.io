@@ -36,7 +36,7 @@
 - name: Marin Jankovski
   locality: Amsterdam
   country: The Netherlands
-  role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a> and Packaging Lead
+  role: Packaging Lead
   reports_to: VP of Engineering
   picture: picture_marin.jpg
   twitter: maxlazio
@@ -164,7 +164,7 @@
 - name: Kamil Trzciński
   locality: Warsaw
   country: Poland
-  role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a> and CI Lead
+  role: CI Lead
   reports_to: VP of Engineering
   picture: kamil.jpg
   twitter: ayufanpl
@@ -319,7 +319,7 @@
   locality: Kearney, NE
   country: USA
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Senior Service Engineer</a>
-  reports_to: Lead Service Engineer
+  reports_to: Support Lead
   picture: drew.jpg
   twitter: drewblessing
   gitlab: dblessing
@@ -360,7 +360,7 @@
   locality: Nairobi
   country: Kenya
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: Lead Service Engineer
+  reports_to: Support Lead
   picture:  kelvin_mutuma.jpg
   twitter:  kelvinmutuma
   gitlab: kelvinmutuma
