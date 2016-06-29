@@ -47,6 +47,7 @@ The Demand Generation organization includes Demand Generation, Business Developm
 1. If region is EMEA, lead goes directly to EMEA BDR team.
 1. If region is APAC, lead goes directly to APAC Sales Director.
 1. All other regions go directly to NA BDR team.
+1. If lead is an Enterprise Edition Trial and is from a Fortune 500 account, reassign to Sr. AE.  If Enterprise trial is from non Fortune 500 account but has 100+ developers shown on LinkedIn, reassing to AE to work.  All other trials go through BDR qualification process.
 1. All other leads pass through BDR lead qualification process.
 
 ## Lead qualification process<a name="leadQual"></a>
