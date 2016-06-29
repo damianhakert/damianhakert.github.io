@@ -4,7 +4,7 @@ title: "UX Lead"
 ---
 
 The User Experience (UX) Lead reports to the VP of Engineering, and UX
-Designers report to him.
+Designers report to the UX Lead.
 
 ## Responsibilities
 
