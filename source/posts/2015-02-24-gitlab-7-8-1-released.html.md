@@ -1,7 +1,7 @@
 ---
 title: "GitLab 7.8.1 Released"
 date: 2015-02-24
-categories:
+categories: release
 author: Marin Jankovski
 author_twitter: maxlazio
 ---

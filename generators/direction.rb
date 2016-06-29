@@ -32,8 +32,10 @@ class GitLabProject
 
    def milestones
      result = @instance.call("/projects/#{@id}/milestones")
-     result = result.select { |ms| ms["state"] != "closed" }
-     result.sort_by { |ms| ms["title"] }
+     result = result.select { |ms| ms["state"] != "closed" &&  /^\d{1,}.\d{1,}$/.match(ms["title"])}
+     result.sort_by! do |ms|
+       ms["title"].split(".").map! {|i| i.to_i}
+     end
    end
 
    def milestone(milestone_id)
@@ -74,7 +76,7 @@ def generate_direction
     direction_output << "## #{project.name}\n\n"
 
     milestones.each do |ms|
-      if ms["due_date"] && Date.parse(ms["due_date"]) > Date.today
+      if ms["due_date"] && Date.parse(ms["due_date"]) >= Date.today
 
         issues = project.milestone_direction_issues(ms["title"])
         direction_output << "### [#{ms["title"]}](#{project.web_url}/milestones/#{ms["iid"]}) \n\n"

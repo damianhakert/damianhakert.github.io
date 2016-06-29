@@ -1,8 +1,7 @@
 ---
-layout: markdown_page
+layout: job_page
 title: "Director of Global Alliances & APAC Sales"
 ---
-
 
 ## Description
 
@@ -26,3 +25,4 @@ will deliver rapid business growth in APAC and with partners, regionally and glo
 & superior execution.
 - Work cross-functionally with marketing and product teams to develop go-to-market strategies and execution.
 Lead ongoing analysis of business performance to support daily operations and quarterly business reviews.
+- You share our [values](/handbook/#values), and work in accordance with those values.

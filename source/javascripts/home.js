@@ -28,23 +28,51 @@ $(function () {
   var $community = $('#js-landing-community');
 
   if ($community.length) {
+    var cutoff = Math.floor(($community.height() / 100) * 40),
+        imgsRowCount = 6,
+        rowCount = 0,
+        imgSize = 55,
+        windowWidth = $(window).width();
+
+    if (windowWidth >= 1200) {
+      cutoff = Math.floor(($community.height() / 100) * 75)
+      imgsRowCount = 20;
+      imgSize = 60;
+    } else if (windowWidth >= 990) {
+      cutoff = Math.floor(($community.height() / 100) * 55)
+      imgsRowCount = 10;
+      imgSize = 99;
+    } else if (windowWidth >= 768) {
+      cutoff = Math.floor(($community.height() / 100) * 40)
+      imgsRowCount = 8;
+      imgSize = 96;
+    }
+
+    rowCount = Math.ceil(cutoff / imgSize);
+    imgsCount = rowCount * imgsRowCount;
+
     // Get JSON
     $.getJSON('team.json', function (d) {
       var team = shuffle(d.concat(d.concat(d)));
 
-      $.each(team, function () {
-        var $img = $('<img />', {
-          src: this.picture
-        });
-        $img.on('load', function () {
-          var $this = $(this);
-          setTimeout(function () {
-            $this.addClass('is-loaded');
-          }, 1000);
-        });
+      var html = []
+      $.each(team, function (i) {
+        if (i < imgsCount) {
+          var $img = $('<img />', {
+            src: this.picture
+          });
+          $img.on('load', function () {
+            var $this = $(this);
+            setTimeout(function () {
+              $this.addClass('is-loaded');
+            }, 1000);
+          });
 
-        $community.append($('<div class="community-image">').append($img));
+          html.push($('<div class="community-image">').append($img));
+        }
       });
+
+      $community.append(html);
     });
   }
 });

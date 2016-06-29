@@ -1,7 +1,7 @@
 ---
 title: "GitLab 7.9.3 released"
 date: 2015-04-08
-categories:
+categories: release
 author: Patricio Cano
 ---
 

@@ -15,6 +15,7 @@ extra_css:
 - [GitLab vs. GitHub](#gitlab-vs-github)
 - [GitLab EE vs. GitHub Enterprise](#gitlab-ee-vs-github-enterprise)
 - [GitLab.com vs. GitHub.com](#gitlabcom-vs-githubcom)
+- [GitLab CE/EE vs. Bitbucket Server](#gitlab-ceee-vs-bitbucket-server)
 - [GitLab.com vs. Bitbucket.org](#gitlabcom-vs-bitbucketorg)
 - [GitLab CE/EE vs. SaaS](#gitlab-ceee-vs-saas)
 - [GitLab vs. SVN](#gitlab-vs-svn)
@@ -75,11 +76,43 @@ View all the issues for the milestone you’re currently working on across multi
 
 [Example milestone for GitLab 8.2 (need to be logged in)](https://gitlab.com/groups/gitlab-org/milestones/8-2?title=8.2)
 
+#### Create new branches from Issues
+
+In GitLab, you can quickly create a new branch from an issue on the issue
+tracker. It will include the issue number and title automatically, making it easy to track which branch belongs to which issue.
+
+[See how in our documentation](http://doc.gitlab.com/ce/workflow/web_editor.html#sts=Create a new branch from an issue)
+
 ### Search through Commits
+
 GitLab not only allows you to search through code, but also searches through your commit messages.
 
 ### Don't take our word for it.
+
 agilob contributed [a great article about why you should choose GitLab for your next open source project.](https://b.agilob.net/choose-gitlab-for-your-next-project/)
+
+### Vote on comments
+
+GitHub allows you to vote on comments. GitLab is still working on this.
+
+> [GitLab issue to allow voting on comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3655)
+
+### Drag and drop tasks
+
+You can change the order of tasks in markdown on GitHub.
+GitLab does not have this ability, but is considering implementing it.
+
+> [See the GitLab issue to implement this](https://gitlab.com/gitlab-org/gitlab-ce/issues/18003)
+
+### Assign multiple people to an issue / MR
+
+GitHub allows you to assign multiple people to an issue or pull request.
+
+GitLab doesn't allow you to do this, but allows for approvals in merge requests,
+which offsets this there. For issues, GitLab does not have an
+equivalent feature, but a feature request has been submitted for this.
+
+> [GitLab issue to implement multiple assignees](https://gitlab.com/gitlab-org/gitlab-ce/issues/13386)
 
 ## GitLab EE vs. GitHub Enterprise
 
@@ -266,7 +299,7 @@ A single repository in Git is typically a number of times smaller than the same 
 ### Authentication
 * GitSwarm uses plain GitLab authentication.  The mapping of how Git Fusion credits individual git commits to Perforce users is set up within Git Fusion and is based on the email address associated with the commit on the git side. This is compared to a text-based table stored within Perforce as part of the Git Fusion configuration.
 * To ensure usernames line up across both GitSwarm and Perforce (via Git Fusion) an external authentication mechanism that both systems use to authenticate (such as LDAP) is required. Currently this can only be done via LDAP.
-* For permission checking, as of the 2016.1 release, GitSwarm has an experimental option to pass a username to Git Fusion to check the Perforce protection table. In that case, the GitSwarm and Perforce usernames would have to be the same.  This functionality passes the username and git path to Git Fusion, which has to work out what is allowed.  It does not mean that permissions within GitSwarm are the same.  This feature is turned off by default. Because of the potential for different permissions for same path in GitSwarm and Perforce, a poor user experience could result if this were turned on.  Turning this on is not recommended by Perforce. 
+* For permission checking, as of the 2016.1 release, GitSwarm has an experimental option to pass a username to Git Fusion to check the Perforce protection table. In that case, the GitSwarm and Perforce usernames would have to be the same.  This functionality passes the username and git path to Git Fusion, which has to work out what is allowed.  It does not mean that permissions within GitSwarm are the same.  This feature is turned off by default. Because of the potential for different permissions for same path in GitSwarm and Perforce, a poor user experience could result if this were turned on.  Turning this on is not recommended by Perforce.
 
 ### Mirroring/Syncing with GitSwarm (requires Git Fusion) and GitLab
 * GitSwarm synchronization with Perforce happens as part of the commit portion of the push process.  It is synchronous.  If the push fails (because of a non fast-forward merge, for example) any fix needs to be addressed from the git end.  This is because Perforce doesn’t allow rewriting of committed history the way git does.  GitSwarm metadata not stored directly by git (comments, wiki messages, issues, etc.) is not pushed to Perforce.
@@ -275,4 +308,4 @@ A single repository in Git is typically a number of times smaller than the same 
 
 
 
-### 
+###

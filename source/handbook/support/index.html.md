@@ -8,6 +8,8 @@ title: Support
 - [Service Engineer Onboarding](/handbook/support/onboarding/)
 - [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
 - [PGP Process](https://about.gitlab.com/handbook/support/pgp_process/)
+- [External support resources for the team](/handbook/support/external/)
+- [Mentions Channel](/handbook/support/mentions-of-gitlab)
 
 ## Contents of the page
 
@@ -15,6 +17,7 @@ title: Support
 - [Service Level Agreements](#sla)
 - [Support Turbo](#support-turbo)
 - [Dashboard](#dashboard)
+- [Dormant Usernames](#dormantusers)
 - [Support Channels](#support-channels)
    - [Emergency Tickets](#emergency)
    - [Security disclosures](#security)
@@ -24,7 +27,7 @@ title: Support
    - [Disqus from blog posts](#disqus)
    - [Twitter](#twitter)
    - [Posted Issues](#issue-tracker)
-   - [GitLab.com Support Forum](#supp-forum)
+   - [GitLab.com Support Tracker](#supp-forum)
    - [Facebook](#facebook)
    - [CE/EE/Omnibus Issue Trackers](#product-issue-tracker)
    - [Mailing List](#mailing-list)
@@ -33,6 +36,7 @@ title: Support
    - [Reddit](#reddit)
    - [Quora](#quora)
 - [Non Channel Work](#other)
+- [Code of Contact](#coc)
 
 ## Support Direction <a name="support-direction"></a>
 
@@ -88,6 +92,22 @@ We have 6 views that are not channels.
 Meaning we have 7 views left for all our channels.
 That is why some channels are combined.
 
+## Dormant Usernames <a name="dormantusers"></a>
+
+Support often gets requests from gitlab.com users to release a username. 
+This can be implemented if the following criteria are met:
+
+1. The account in question has no data. 
+1. There hasn't been any activity on the account (i.e. code, issues, MRs)
+   for six months. This considers activity on projects the account owns 
+   as well as activity on projects the account participants in. 
+1. Support has had four failed attempts to  contact the user within a 
+ two week period.   
+1. The user cannot be an owner of any active project.
+
+Usernames will be prefixed with `idle` to keep the account active but 
+release the namespace.
+
 ## Service Level Agreements <a name="sla"></a>
 
 ### SLA categories
@@ -141,29 +161,7 @@ have the link to the corresponding ZenDesk issue from where you will continue th
 
 Once acknowledged, you need to login to [ZenDesk](https://gitlab.zendesk.com), go to the corresponding ticket
 and let the customer know that you will handle their case. On this response you should ask for the best way
-to contact them. Usual channels are Phone, Skype, WebEx or Hangouts.
-
-#### WebEx
-
-More often than not, WebEx will be the best tool for the job, so you can save yourself a step and already start
-a WebEx session for this call. To do this you can use the `GitLab Support` WebEx account. Go to our
-[WebEx Portal](https://gitlabmeetings.webex.com), click on the login button on the top right and use the
-credentials found in the Support Vault on 1password.
-
-![WebEx Login](/images/support/web-ex-login.png)
-
-Once logged in, click the `Enter Room` button to start the WebEx meeting and send the following link to
-the customer and ask them to join the call.
-
-```
-https://gitlabmeetings.webex.com/meet/gitlabsupport
-```
-
-![WebEx Room](/images/support/web-ex-room.png)
-
-WebEx is usually the best choice, since it allows you to see the customer's desktop and
-to control it on request. It also gives the customer the possibility to join via phone and
-us the possibility to use our computer audio connection.
+to contact them. Usual channels are Phone, Skype, [WebEx](/handbook/support/onboarding/#webex) or Hangouts.
 
 #### Crisis Situations
 
@@ -175,7 +173,7 @@ If an emergency takes longer than an hour to resolve,
 and/or multiple people are or need to be involved, **start a google doc** that is open to the customer and the wider team at GitLab, and keep track of the
 issues and ideas there. ZenDesk's 'linear' display of communication with a customer is not as effective in crisis situations, and the
 majority of developers do not have access to ZenDesk in the first place. Announce the google doc in the appropriate
-slack channel (#operations, #development, #general) so that individuals can contribute solutions and ideas. When the crisis
+slack channel (#infrastructure, #development, #general) so that individuals can contribute solutions and ideas. When the crisis
 has been resolved, be sure to transfer pertinent know-how from the google doc to relevant documentation, handbooks, and/or
 issue trackers, so that the google doc can be deprecated a.s.a.p.  In addition, Service Engineers and Developers involved
 in the crisis should make time to have a hangout for hand-off to make sure that everyone has the chance to recover and stay
@@ -184,7 +182,7 @@ clear-headed.
 ### GitLab.com downtime <a name="downtime"></a>
 
 When GitLab.com goes down a PD incident will be triggered as well, so the flow is the same as emergency tickets
-for the first steps. If you are on call and are still working, you should keep an eye on our #operations channel
+for the first steps. If you are on call and are still working, you should keep an eye on our #infrastructure channel
 in [Slack](https://gitlab.slack.com), as warning messages will often start to appear before the PD incident is triggered.
 
 Once you acknowledge the incident, you need to pinpoint the reason for the outage. Follow the documentation
@@ -250,6 +248,34 @@ You should always answer the tickets in a [FIFO](https://en.wikipedia.org/wiki/F
 manner. Make sure that you answer the tickets that are assigned to you first and then move on to new tickets
 that have come in and are unassigned, again using FIFO.
 When you need others to help please create an issue on the relevant GitLab issue tracker.
+
+### Errors on GitLab.com
+
+If GitLab.com users encounter errors on GitLab.com (particularly Error 500s), it may be useful to see the encountered
+error on our [Sentry instance](https://sentry.gitlap.com). You can search for a specific username in the search bar
+by entering in the following:
+
+user.username:<user ID>
+
+For example:
+
+user.username:sytse
+
+This will bring up all exceptions encountered by the user.
+
+Note that Sentry tries to group similar errors together, but it's possible
+that it creates a separate entry for the same problem. If a GitLab issue
+exists for that exception, it will show up by the headline as GL-XYZ, where
+XYZ is some incident number defined by Sentry. You may have to search other
+similar events or look on the issue tracker on GitLab.com whether a separate
+GitLab issue has been created for the Sentry exception.
+
+If the exception looks like it does not exist, feel free to create a GitLab
+issue by clicking the "Create GitLab Issue" button. This will provide a
+pre-filled form with all the details of the backtrace. Please clean up the
+title and/or augment the description with what the user experienced when this
+exception occurred to make it easier for developers to understand what
+happened.
 
 #### Scheduled calls
 
@@ -317,9 +343,13 @@ of GitLab.com and to follow up on users reporting that GitLab.com is unavailable
 
 When a tweet mentions 1 or more of the handles described above, it should be replied to from the main handle (@GitLab).
 
+Tweets use short links which require you to visit that link to make sure you understand the context.
+To clarify if the request refers to GitLab or an externally hosted GitLab instance as we can only
+handle requests for gitlab.com.
+
 When resolving Twitter tickets you should:
 
-1. Start by the oldest ticket first
+1. Use [Play mode](https://support.zendesk.com/hc/en-us/articles/203690856-Working-with-tickets#topic_avj_hfg_vt) in the Twitter view. The default Twitter view will sort tickets by created date (ascending).
 1. Not skip any tickets
 1. Assign the ticket to yourself and ask on the appropriate Slack
    channel if you don't know the answer
@@ -334,10 +364,10 @@ Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed
 For ZenDesk issues you will have created issues on the relevant issue tracker.
 Please refer to the priority as listed under [GitLab Workflow in the handbook](/handbook/#gitlab-workflow).
 
-### GitLab.com Support Forum<a name="supp-forum"></a>
+### GitLab.com Support Tracker<a name="supp-forum"></a>
 
 For issues specific to GitLab.com that have nothing to do with availability we have the
-[Support Forum](https://gitlab.com/gitlab-com/support-forum/issues). This forum must also be checked periodically
+[Support Tracker](https://gitlab.com/gitlab-com/support-forum/issues). This forum must also be checked periodically
 for new issues and to report back if an issue has been solved. Ensure that you assign the issue to yourself to enable you to keep track of the issue and also to enable other service engineers to easily pick on unassigned tasks at a glance. Some people use this forum to report issues they
 are having with their on-premises installation. In that case, you should refer them to the
 [CE issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) or to our
@@ -380,3 +410,21 @@ Respond to questions about GitLab on Quora, especially the ones that appear in t
 
 If you have time for it please improve GitLab: fix bugs, add features, and polish the website.
 You can also consider hanging out on IRC to answer questions and help people (#gitlab on freenode.net).
+
+## Code of Conduct<a name="coc"></a>
+
+Just as service engineers are expected to adhere to the [Code of
+Conduct](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#code-of-conduct), we
+also expect customers to treat service engineers with the same level of respect.
+
+If you receive threatening or hostile emails from a user, please create a
+confidential issue in the [GitLab Support Issue Tracker](https://gitlab.com/gitlab-com/support/issues)
+and include:
+
+1. A history of the user's communication
+1. Relevant links
+1. Summary of the high-level issues
+
+Include the Support Lead, VP of Engineering, and Director of PeopleOps in this issue. Together we will
+evaluate on a case-by-case basis whether to take action (e.g. ban the user from the forums
+for violating the Code of Conduct).

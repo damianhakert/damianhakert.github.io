@@ -1,7 +1,7 @@
 ---
 title: "GitLab 7.5.3 Release"
 date: 2014-12-05
-categories:
+categories: release
 author: Job van der Voort
 ---
 

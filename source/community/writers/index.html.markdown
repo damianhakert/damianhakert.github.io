@@ -9,29 +9,29 @@ suppress_header: true
 
 # Write for GitLab
 
-We’re opening our blog up to contributions from the community.
+We’ve opened [our blog] up to contributions from the community.
 
-When you get published on our site you can earn $50 to $200 for technical articles. If you’re accepted, you’ll get feedback on your writing, and be guided through making the best resources. Find out how to get started!
+When you get published on our blog you can earn $50 to $200 for technical articles. If you’re accepted, you’ll get feedback on your writing, and be guided through making the best resources. Find out how to get started!
 
 All great contributions come from developers “scratching their own itch.” It’s likely you can share some advice to help someone along the way. You can contribute the technical content you wish was available.
 
-### How it works
+## How it works
 
-1.  Submit topics and a writing sample to us.
-2.  Get approved. Sign contracts.
-3.  Start writing, get feedback and revise.
-4.  Publish.
-5.  Get paid.
+1.  Choose a topic and submit a writing sample to us
+2.  Get approved
+3.  Start writing, get feedback and revise
+4.  Publish
+5.  Get paid
 
-First you’ll submit a writing sample and tell us about your areas of expertise. After you get approved, we’ll contact you to initiate the writing process. You’ll get detailed feedback on your writing as we push the article to publication. Once it’s published you’ll get paid.
+First you’ll submit a writing sample and tell us about your areas of expertise. After you get approved, we’ll contact you to initiate the writing process. We will review in-depth your post, and you’ll get detailed feedback on your writing before we push the article to publication. Once it’s published you’ll get paid.
 
-In terms of pricing, we looked to the industry to see what were the going rates. Your feedback is welcome. Here are our rough guidelines for rates. However, we keep an [open list of topics](https://gitlab.com/gitlab-com/blog-posts/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=0&author_id=&milestone_title=&label_name=&weight=) we have bounties on. That can help you identify our most high-priority topics.
+In terms of pricing, we looked to the industry to see what were the going rates. Your feedback is welcome. Here are our rough guidelines for rates:
 
-- Brief "Quick tips" or feature highlights of less than 800 words. - $50
-- Short tutorials of 800-1500 words. - $100
-- In-depth tutorials or opinion pieces of 1,500+ words. - $200
+- Brief "Quick tips" or feature highlights of less than 800 words. - USD 50.00
+- Short tutorials of 800-1500 words. - USD 100.00
+- In-depth tutorials or opinion pieces of 1,500+ words. - USD 200.00
 
-### What we're looking for
+## What we're looking for
 
 We’re inviting community contribution so we can expand the range of tutorials and advice about creating, collaborating and deploying with GitLab.
 
@@ -41,30 +41,34 @@ It's important that the content is:
 - Complete
 - Original
 
-We'll be able to develop a more complete style guide as we grow out the program. Meanwhile we will rely on referencing [the Digital Ocean style guide, which inspired our community writers program](https://www.digitalocean.com/community/tutorials/how-to-write-an-article-for-the-digitalocean-community).
+## Topics
 
-To find out what topics we're looking for, review [the blog post backlog](https://gitlab.com/gitlab-com/blog-posts/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=0&author_id=&milestone_title=&label_name=&weight=) and see if there are any existing requests for topics that inspire you.
-
-Review our [Blog Post Style Guide](https://gitlab.com/gitlab-com/blog-posts/blob/master/STYLEGUIDE.md)
+To find out what topics we're looking for, review [the blog post backlog][topics-issues] and see if there are any existing requests for topics that inspire you. That can help you identify our most high-priority topics. However, if the subject you want to write about is not there, feel free to add a new issue with it, explainig why do you think that is important for the GitLab Community.
 
 ### Example topic areas
 
-- Comparison posts; Git v W; GitLab v X; GitLab CI v Y. GitLab EE v Z.
-Migrating from X to Git and/or GitLab.
-- Working with GitLab, feature highlights and tutorials.
-- Ways of boosting efficiency.
-- Extending capability with integrations.
-- Improving communication in code-collaboration.
-- Managing open source projects.
+- Comparison posts, e.g., Git v W; GitLab v X; GitLab CI v Y; GitLab EE v Z
+- Migrating from X to Git and/or GitLab
+- Working with GitLab, feature highlights and tutorials
+- Ways of boosting efficiency
+- Extending capability with integrations
+- Improving communication in code-collaboration
+- Managing open source projects
 - Testing X with GitLab CI
+- Case studies
+- How-tos
 
-Got an idea?
+## Writing process
 
-[Submit your proposal!](http://ow.ly/WWMAg)
+We have some stantards, so please, make sure you've **read them before submitting your proposal**. The technical process of writing and reviewing can be found in our Handbooks: [GitLab Blog] and [Technical Writing].
 
-### Find out more
+## Get Paid
 
-- [Our blog](http://about.gitlab.com)
-- [Blog post backlog](http://ow.ly/WWA2n)
-- [Submit your proposal](http://ow.ly/WWMAg)
-- [Blog Style Guide](https://gitlab.com/gitlab-com/blog-posts/blob/master/STYLEGUIDE.md)
+When your post gets published, it's time to claim for your compensation. You will send us an invoice, GitLab will pay you in American Dollars (USD) from a bank account in the USA, via wired transfer to your bank account. We can deal with other possible payment methods via credit card, but please discuss it with us before start writing.
+
+_**Note:** When you start writing for GitLab, we assume you have accepted the terms described along this page._
+
+[topics-issues]: https://gitlab.com/gitlab-com/blog-posts/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=0&author_id=&milestone_title=&label_name=&weight=
+[our blog]: https://about.gitlab.com/blog/
+[GitLab Blog]: https://about.gitlab.com/handbook/marketing/product-marketing/content-marketing/#blog
+[Technical Writing]: https://about.gitlab.com/handbook/marketing/developer-relations/technical-writing/#professional-writing-techniques

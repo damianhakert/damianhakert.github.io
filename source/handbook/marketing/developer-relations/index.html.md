@@ -2,10 +2,14 @@
 layout: markdown_page
 title: "Developer Relations"
 ---
+# Welcome to the Developer Relations Handbook  
 
-The developer relations organization includes the following roles:  
+The Developer Relations organization includes Developer Advocacy, Technical Writing, and Field Marketing.   
 
-- [Technical writing](/jobs/technical-writer/)  
-- [Developer advocacy](/handbook/marketing/developer-relations/developer-advocacy/)  
-- [Field marketing](/handbook/marketing/developer-relations/field-marketing/)  
-- [Content marketing](/handbook/marketing/developer-relations/content-marketing/)  
+[Up one level to the Marketing Handbook](/handbook/marketing/)
+
+Developer Relations Handbooks:  
+
+- [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/)  
+- [Field Marketing](/handbook/marketing/developer-relations/field-marketing/)  
+- [Technical Writing](/handbook/marketing/developer-relations/technical-writing/)  

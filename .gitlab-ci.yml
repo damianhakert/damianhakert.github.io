@@ -10,22 +10,22 @@ lint:
   stage: test
   script:
     - bundle exec rake lint
-  except:
-    - master
 
 build:
-  stage: test
+  stage: build
   script:
-    - bundle exec middleman build --verbose
-  except:
-    - master
+    - bundle exec rake build pdfs
+  artifacts:
+    paths:
+      - public/
 
 deploy:
+  dependencies:
+    - build
   script:
-    - bundle exec rake lint
-    - bundle exec middleman build --verbose
     - rsync --delete -r public/ ~/public/
   type: deploy
+  environment: production
   tags:
   only:
     - master

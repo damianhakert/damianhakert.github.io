@@ -9,25 +9,28 @@ title: "GitLab Strategy"
 
 GitLab was created because Dmitriy needed an affordable tool to collaborate with his team. He wanted something efficient and enjoyable so he could focus on his work, not the tools. He worked on it from home, a house in Ukraine without running water.
 
-We think that it is logical that our collaboration tools are a collaborative work themselves. More than 1000 people have contributed to GitLab to make that a reality. We believe in a world where **everyone can contribute**. Allowing everyone to make a proposal is the core of what a DVCS (Distributed Version Control System) such as Git enables. No invite needed: if you can see it, you can contribute.
+We think that it is logical that our collaboration tools are a collaborative work themselves. More than [1000 people](http://contributors.gitlab.com/) have contributed to GitLab to make that a reality. We believe in a world where **everyone can contribute**. Allowing everyone to make a proposal is the core of what a DVCS ([Distributed Version Control System](https://en.wikipedia.org/wiki/Distributed_version_control)) such as Git enables. No invite needed: if you can see it, you can contribute.
 
-We believe that all digital products should be open to contributions, from legal documents to movie scripts and from websites to chip designs. GitLab Inc. will develop great open source software to enable people to collaborate in this way.
 
-1. To ensure that **everyone can contribute to digital products** we make GitLab joyful to use. It is integrated and opinionated collaboration software. Because there is no need to string together multiple tools you spend less time, have less frustration, there is less [bikeshedding](https://en.wikipedia.org/wiki/Law_of_triviality), and you get more results.
+In summary, our vision is as follows:
 
-2. To ensure that **everyone can contribute with GitLab** every person in the world should be able to afford and adapt. GitLab CE is [free as in beer](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/) so everyone can afford it. And GitLab.com is free with private repos and CI runners, so you don't even have to host it yourself. People should be able to adapt GitLab to fit their needs. That is why GitLab CE is [free as in speech](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/) though the MIT Expat license. But open source is more than a license, that is why we actively help our competitor Perforce to ship GitLab as part of Perforce Helix, and are [a good steward of GitLab CE](https://about.gitlab.com/about/#stewardship). And we keep all our software open to inspection, modifications, enhancements, and suggestions.
-
-3. To ensure that **everyone can contribute to GitLab itself** we actively welcome contributors. We do this by having quality code, tests, documentation, using popular frameworks, and offering a comprehensive [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit). We celebrate contributions by recognizing a Most Valuable Person (MVP) every month. We allow everyone to anticipate, propose, discuss, and contribute features by having everything on a public issue tracker. We ship a new version every month so contributions and feedback are visible fast. To contribute to open source software people must be empowered to learn programming. That is why we sponsor initiatives such as Rails Girls and [Lean Poker](http://leanpoker.org).
-
-4. To ensure that **everyone can contribute to our organization** we have open business processes that allow all team members to suggest improvements to our handbook. We hire remotely so everyone with an internet connection can come work for us and be judged on results, not presence in the office. We offer equal opportunity for every nationality. We are agnostic to location and create more equality of opportunity in the world. We engage on Hacker News, Twitter, and our blog post comments. And we strive to take decisions guided by [our values](https://about.gitlab.com/handbook/#values).
-
-In summary, our vision is as follows.
-GitLab is integrated and opinionated collaboration software that everyone should be able to afford and adapt.
-With GitLab **everyone can contribute** to digital products, GitLab itself, and our organization.
+We believe that all digital products should be open to contributions, from legal documents to movie scripts and from websites to chip designs. GitLab Inc. develops great open source software to enable people to collaborate in this way. GitLab is integrated and opinionated collaboration software that everyone should be able to afford and adapt. With GitLab, **everyone can contribute**.
 
 ## Mission
 
 Change all creative work from read-only to read-write so that **everyone can contribute**.
+
+## How
+
+Everyone can contribute to digital products with GitLab, to GitLab itself, and to our organization.
+
+1. To ensure that **everyone can contribute to digital products** we make GitLab joyful to use. It is integrated and opinionated collaboration software. Because there is no need to string together multiple tools you spend less time, have less frustration, there is less [bikeshedding](https://en.wikipedia.org/wiki/Law_of_triviality), and you get more results.
+
+2. To ensure that **everyone can contribute with GitLab** every person in the world should be able to afford it and adapt it. GitLab CE and GitLab.com are both [free as in beer](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/) so everyone can afford it. GitLab.com comes with free private repos and CI runners, so you don't even have to host it yourself. People should be able to adapt GitLab to fit their needs. That is why GitLab CE is also [free as in speech](http://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/); we distribute the source and use [MIT Expat license](https://www.debian.org/legal/licenses/mit). But open source is more than a license, that is why we actively help our competitor Perforce to ship GitLab as part of Perforce Helix, and are [a good steward of GitLab CE](https://about.gitlab.com/about/#stewardship). And we keep all our software open to inspection, modifications, enhancements, and suggestions.
+
+3. To ensure that **everyone can contribute to GitLab itself** we actively welcome contributors. We do this by having quality code, tests, documentation, using popular frameworks, and offering a comprehensive [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit). We use GitLab at GitLab Inc., to drink our own wine and make it a tool we continue to love. We celebrate contributions by recognizing a Most Valuable Person (MVP) every month. We allow everyone to anticipate, propose, discuss, and contribute features by having everything on a public issue tracker. We ship a new version every month so contributions and feedback are visible fast. To contribute to open source software people must be empowered to learn programming. That is why we sponsor initiatives such as Rails Girls and [Lean Poker](http://leanpoker.org).
+
+4. To ensure that **everyone can contribute to our organization** we have open business processes that allow all team members to suggest improvements to our handbook. We hire remotely so everyone with an internet connection can come work for us and be judged on results, not presence in the office. We offer equal opportunity for every nationality. We are agnostic to location and create more equality of opportunity in the world. We engage on Hacker News, Twitter, and our blog post comments. And we strive to take decisions guided by [our values](https://about.gitlab.com/handbook/#values).
 
 ## Goals
 
@@ -45,23 +48,23 @@ Change all creative work from read-only to read-write so that **everyone can con
 
 We want to achieve our goals in the following order:
 
-1. Become the most popular solution on-premises (DONE)
+1. In 2015 we became the most popular on on-premises software development lifecycle solution and we want to continue that.
 
-2. Become the most revenue generation solution on-premises (through well executed marketing and sales)
+2. We want to become the most revenue generating on-premises software development lifecycle solution
 
-3. Become the most popular SaaS solution for private repositories (a [complete product](https://about.gitlab.com/direction/#scope) that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever) is competitive since network effects are smaller for private repositories than for public ones)
+3. After on-premises we want to become the most popular SaaS solution for private repositories (a [complete product](https://about.gitlab.com/direction/#scope) that is [free forever](https://about.gitlab.com/gitlab-com/#why-gitlab-com-will-be-free-forever) is competitive since network effects are smaller for private repositories than for public ones)
 
-4. Become the most popular SaaS solution for public repositories (easier to overcome network effects if people already use GitLab.com for private repositories)
+4. After private repositories we want to become the most popular SaaS solution for public repositories. This market has a [strong network effect](https://en.wikipedia.org/wiki/Network_effect) since more people will participate if you host your public project on a site with more people. It is easier to overcome this network effect if many people already use GitLab.com for hosting private repositories.
 
-5. All knowledge workers contributing via GitLab (need to make the git workflow much more user friendly)
+5. Our [BHAG](https://en.wikipedia.org/wiki/Big_Hairy_Audacious_Goal) is to become the most popular collaboration tool for knowledge workers in any industry. For this we need to make the git workflow much more user friendly. The great thing is that sites like [Penflip](https://www.penflip.com/) are already building on GitLab to make it
 
-While we achive our goals one by one this doesn't mean we can will focus on only one goal at the time. Simultaniously we'll grow our userbase, get more subscribers for [EE](https://about.gitlab.com/features/#enterprise), grow [GitLab.com](https://about.gitlab.com/gitlab-com/), develop [options](https://about.gitlab.com/pricing/#options), realize our [scope](https://about.gitlab.com/direction/#scope), and make version control usable for more types of work.
+While we achieve our goals one by one this doesn't mean we will focus on only one goal at the time. Simultaneously we'll grow our userbase, get more subscribers for [EE](https://about.gitlab.com/features/#enterprise), grow [GitLab.com](https://about.gitlab.com/gitlab-com/), develop [options](https://about.gitlab.com/pricing/#options), realize our [scope](https://about.gitlab.com/direction/#scope), and make version control usable for more types of work.
 
-## Constraints
+## Principles
 
 1. Founder control: vote & board majority so we can keep making long term decisions.
 
-2. Independence: since we took financing, to prevent being acquired, we need to IPO.
+2. Independence: since we took financing we need to have a [liquidity event](https://en.wikipedia.org/wiki/Liquidity_event); to maintain independence this needs to be an IPO rather than an acquisition.
 
 3. Low burn: spend seed money like it is the last we’ll raise, maintain 2 years of runway.
 
@@ -71,11 +74,11 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 6. Free SaaS: to make GitLab.com the most popular SaaS in 2020 it should be largely free.
 
-7. Reach: go for a broad reach, no focus on business verticals or certain professions.
+7. Reach: go for a broad reach, no focus on business verticals or certain programming languages.
 
 8. Speed: ship every change in the next release to maximize responsiveness and learning.
 
-9. Life balance: we want people to stay with us long time, so time off is encouraged.
+9. Life balance: we want people to stay with us for a long time, so it is important to take time off, work on life balance, and being remote-only is a large part of the solution.
 
 
 ## Assumptions
@@ -86,17 +89,15 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 3. [Innersourcing](https://about.gitlab.com/2014/09/05/innersourcing-using-the-open-source-workflow-to-improve-collaboration-within-an-organization/) is needed and will force companies to choose one solution top-down.
 
-4. Open Source model: openness, 10x better value, and help non-paying users.
+4. Git will dominate the version control market in 2020.
 
-5. Git will dominate the version control market in 2020.
+5. An [integrated tool](https://medium.com/@gerstenzang/developer-tools-why-it-s-hard-to-build-a-big-business-423436993f1c#.ie38a0cls) is superior to a collection of tools or a network of tools. Even so, good integrations are important for network effects and making it possible to integrate GitLab into an organization.
 
-6. An [integrated tool](https://medium.com/@gerstenzang/developer-tools-why-it-s-hard-to-build-a-big-business-423436993f1c#.ie38a0cls) is superior to a collection of tools or a network of tools.
+6. To be sustainable we need an open core model that includes a proprietary GitLab EE.
 
-7. To be sustainable we need an open core model that includes a proprietary GitLab EE.
+7. EE needs a low base price that is publicly available to compete for reach with CE, established competitors, and new entrants to the market.
 
-8. EE has a low base price that is publicly available to compete for reach with CE, established competitors, and new entrants to the market.
-
-9. The low base price is supplemented by a large set of options aimed at larger organizations that get a lot of value from GitLab.
+8. The low base price for EE is supplemented by a large set of options aimed at larger organizations that get a lot of value from GitLab.
 
 ## General 2016
 
@@ -104,7 +105,7 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 2. Partner with Rocket Chat, ship it with GitLab and integrate it.
 
-3. Open up everything we can, including an [open Chef repo](https://dev.gitlab.org/cookbooks/chef-repo/issues/247), and open Asana.
+3. Open up everything we can, including an [open Chef repo](https://dev.gitlab.org/cookbooks/chef-repo/issues/247), and [marketing issue tracker](https://gitlab.com/gitlab-com/marketing/issues).
 
 4. Publish our processes and plans in the handbook or link from there.
 
@@ -114,21 +115,21 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 7. Drop minimum basic subscription user count to 1 user. DONE
 
-8. Work on [leadership development](https://docs.google.com/document/d/11XBwnyLZE7ocHSx147Az09XtElzAPR_osc-H75BYkMI/edit) to promote from within where possible.
+8. Foster leadership that stresses radiating knowledge in code, documentation, and blog articles. Work on [leadership development](https://docs.google.com/document/d/11XBwnyLZE7ocHSx147Az09XtElzAPR_osc-H75BYkMI/edit) to promote from within where possible.
 
-9. Spread monthly version cadence to operations and maybe marketing.
+9. Spread monthly version cadence to operations and maybe marketing by setting monthly goals within these teams.
 
 ## Technology 2016
 
 1. Make something people want: merging community contributions is the priority and at least one person will work on that fulltime.
 
-2. Ship the features in our direction [https://about.gitlab.com/direction/](https://about.gitlab.com/direction/)
+1. Ship the features in our direction [https://about.gitlab.com/direction/](https://about.gitlab.com/direction/)
 
-3. Improve code quality, look and feel, usability, and [performance](https://gitlab.com/gitlab-com/operations/issues/182).
+1. Ship with the full [scope](https://about.gitlab.com/direction/#scope) before the year ends.
 
-4. Implement effective development processes and leadership.
+1. Improve code quality, look and feel, usability, and [performance](https://gitlab.com/gitlab-com/operations/issues/182).
 
-5. Quickly onboard new team members and contributors.
+1. Implement effective development processes and leadership.
 
 ## Revenue 2016
 
@@ -154,7 +155,7 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 2. PR pitch: [opinionated and integrated set of tools based on CoC offers a superior UX](https://about.gitlab.com/direction/).
 
-3. Needs to win hearts and minds with excellent [developer marketing](https://about.gitlab.com/handbook/marketing/developer-marketing/).
+3. Needs to win hearts and minds with excellent [developer advocacy](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/).
 
 4. Show that we can test big projects (Rails, etc.) faster than Travis CI.
 
@@ -182,18 +183,21 @@ While we achive our goals one by one this doesn't mean we can will focus on only
 
 ## People Operations 2016
 
-1. Include goals and promotion criteria in all job descriptions.
+1. Develop great recruiting, hiring, onboarding, offboarding practices with full time [Director/VP of People Operations](https://about.gitlab.com/jobs/dir-or-vp-of-people-ops/) and [Coordinator(s)](https://about.gitlab.com/jobs/people-ops-coordinator/).
 
-2. Develop great recruiting, hiring, onboarding, offboarding practices with full
-time People Operations staff.
+1. Maintain company in compliance and adopt / adapt policies as the company scales with a globally distributed team.
 
-3. To keep our great culture we need to institutionalize feedback.
+1. To support our great culture, institutionalize feedback as being near-continuous and mostly informal.
 
-4. Sponsor initiatives and hire in countries that have low opportunity.
+1. Adopt a coherent approach to [OKR's](https://en.wikipedia.org/wiki/OKR), performance management, and compensation management.
+
+1. Develop job levels with promotion criteria, including criteria on team and company collaboration.
+
+1. Sponsor initiatives and hire in countries that have low opportunity.
 
 ## Service Engineering 2016
 
-1. Provide a great support experience with reliable response times for customers.
+1. Provide a great support experience with reliable and fast response times for customers.
 
 2. Respond to all community communication and recognize community members who provide
 a lot of support to others in the community.
@@ -209,17 +213,15 @@ community engagement.
 
 2. [Free CI runners for everyone](https://dev.gitlab.org/gitlab/gitlab-ci/issues/322) for at least as long as our credits last. DONE
 
-3. Foster leadership that stresses radiating knowledge in code, documentation, and blog articles.
-
 4. [Continuous Deployment of master to GitLab.com via packages.](https://gitlab.com/gitlab-com/operations/issues/146)
 
-5. Solutions for performance measurement, logs, and errors that ship with EE.
+5. Solutions for performance measurement, logs, including tools for alerting when something goes wrong, that ship with EE.
 
 ## Partnerships 2016
 
 1. Most partnerships are not public but people working at GitLab Inc. can find them in the 'Partnerships' Google Doc.
 
-1. We'll hire a Strategic Relations Manager.
+1. We'll hire a [Director of Strategic Partnerships](https://about.gitlab.com/jobs/director-strategic-partnerships/). DONE
 
 1. The reseller partnerships are especially important here.
 

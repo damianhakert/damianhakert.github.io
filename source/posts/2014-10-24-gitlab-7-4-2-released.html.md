@@ -1,7 +1,7 @@
 ---
 title: "GitLab 7.4.2 released"
 date: 2014-10-24
-categories:
+categories: release
 author: Valery Sizov
 ---
 

@@ -2,9 +2,13 @@
 layout: markdown_page
 title: "Demand Generation"
 ---
-Go to the [Marketing Handbook](/handbook/marketing)
+# Welcome to the Demand Generation Handbook  
 
-## This page
+The Demand Generation organization includes Demand Generation, Business Development, and Online Marketing.   
+
+[Up one level to the Marketing Handbook](/handbook/marketing)
+
+## On this page
 * [References](#references)
 * [Inbound Lead Flow](#leadFlow)
 * [Lead Qualification Process](#leadQual)
@@ -17,8 +21,14 @@ Go to the [Marketing Handbook](/handbook/marketing)
 * [Inbound Leads](#inbound)
 * [New license flow](#licenseFlow)
 * [Marketo Tools Server](#marketoTools)
-* [Sales and Community Group Emails](#groupEmail) 
-* [Newsletters](#newsletters) 
+* [Sales and Community Group Emails](#groupEmail)
+* [Newsletters](#newsletters)
+
+## Demand Generation Handbooks:  
+
+- [Demand Generation](/handbook/marketing/demand-generation/)  
+- [Online Marketing](/handbook/marketing/demand-generation/online-marketing/)  
+- [Business Development](/handbook/marketing/demand-generation/business-development)  
 
 ## References<a name="references"></a>
 
@@ -59,14 +69,20 @@ Go to the [Marketing Handbook](/handbook/marketing)
 - Timeline => Are they willing to continue communicating about GitLab in the next few weeks? If they have another solution, are they looking to replace in the next few weeks or months?
 
 ## What counts as an SQL or MQL?<a name="SQL"></a>
-* SQL is any lead which has been both: 
-    * accepted by the sales team which has met the qualification requirements, and 
+* SQL is any lead which has been both:
+    * accepted by the sales team which has met the qualification requirements, and
     * converted to a Contact in SFDC and attached to a new Opportunity in SFDC.
-        
+
         => when converting a qualified lead, make sure that you are creating an opportunity upon conversion. This is required to map the BDR to the opportunity.  It also helps us to track the age of an opportunity from discovery call to closed.
-        
-        => if the lead is not a new opportunity, convert to a contact and uncheck the box to create a new opportunity. 
-* MQL is any lead with a lead score of 20 or greater in Marketo (lead score is calculated based on behavioral and demographic data).
+
+        => if the lead is not a new opportunity, convert to a contact and uncheck the box to create a new opportunity.
+* MQL is any lead with a lead score of 20 or greater in Marketo (lead score is calculated based on behavioral and demographic data). Some examples of bahavior or demographic data that increase lead score are:
+   * Signing up to receive the newsletter (behavioral)
+   * Signing up for an account on gitlab.com (behavioral)
+   * Filling out other web forms (contacts us, webinar registration, etc) (behavioral)
+   * Starting an EE Trial (behavioral)
+   * Working at a Fortune 500 (demographic)
+   * Job title (demographic)
 
 ## Lead status<a name="leadStatus"></a>
 
@@ -143,6 +159,7 @@ Current state
 - If an email is a quote, forward to appropriate sales people.
 - If an email is a refund or other billing request, forward to ar@gitlab.com.
 - If an email is a license issue or question, forward to support@gitlab.com.
+- If an email is received(contact request, account questions, etc. etc.), check in sfdc if there is an account owner. If there is, forward the email to the owner and change the case into their name if there is an open case. If the account owner is Chad or Hank, this is the default. Forward all inquiries/requests to Chad and he will take care of them. Also switch the sfdc case into Chad's name as well.
 
 ## Newsletters<a name="newsletters"></a>
 

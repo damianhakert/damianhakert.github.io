@@ -40,4 +40,4 @@ We'd love to meet you.
 [Richard]: https://twitter.com/catchthepidge
 [Job]: https://twitter.com/Jobvo
 [Douwe]: https://twitter.com/DouweM
-[ZJ]: https://twitter.com/zegerjan
+[ZJ]: https://twitter.com/ZJvandeWeg
