@@ -31,7 +31,7 @@ of the controller methods.
 
 All that changed on Friday, April 22, 2016, when Douwe Maan, our Backend Lead,
 began reviewing the code for the feature. Having reviewed hundreds of merge
-requests and handling an influx of [HackerOne](https://hackerone.com) security
+requests and handled an influx of [HackerOne](https://hackerone.com) security
 reports, Douwe immediately spotted something wrong: a critical authorization
 flaw in one of the API endpoints. This flaw would allow a user to gain full
 GitLab administrative access. Within an hour, Douwe submitted a fix
