@@ -247,7 +247,7 @@
   locality: San Francisco, CA
   country: USA
   role: <a href="https://about.gitlab.com/jobs/field-marketing-manager/">Field Marketing Manager</a>
-  reports_to: CMO
+  reports_to: Director of Demand Generation
   picture: emilykyle.jpg
   twitter: emilylucie
   gitlab: emilykyle
@@ -394,7 +394,7 @@
   locality: San Mateo, CA
   country: USA
   role: <a href="https://about.gitlab.com/jobs/demand-generation-manager/">Senior Demand Generation Manager</a>
-  reports_to: CMO
+  reports_to: Director of Demand Generation
   picture: hank.jpg
   twitter: HenryJTaylor
   gitlab: hanktaylor
@@ -745,7 +745,7 @@
   locality: Lehi, UT
   country: USA
   role: <a href="https://about.gitlab.com/jobs/online-marketing-manager/">Online Marketing Manager</a>
-  reports_to: Senior Demand Generation Manager
+  reports_to: Director of Demand Generation
   picture: mitchell.jpg
   twitter: mitchellbwright
   gitlab: mitchellwright
@@ -769,7 +769,7 @@
   locality: Provo, UT
   country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: Senior Demand Generation Manager
+  reports_to: Business Development Team Lead
   picture: Braden.jpg
   twitter: jannandbraden
   gitlab: bradenC
@@ -792,7 +792,7 @@
   locality: Provo, UT
   country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
-  reports_to: Senior Demand Generation Manager
+  reports_to: Business Development Team Lead
   picture: ryan.jpg
   twitter:
   gitlab: rycap
@@ -955,7 +955,7 @@
   locality: Provo, UT
   country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-team-lead/">Business Development Team Lead</a>
-  reports_to: Senior Demand Generation Manager
+  reports_to: Director of Demand Generation
   picture: colton.jpg
   twitter: ctaylor021
   gitlab: cdtaylor
@@ -1203,7 +1203,7 @@
   country: USA
   role: <a href="https://about.gitlab.com/jobs/director-demand-generation/">Director of Demand Generation</a>
   reports_to: CMO
-  picture: logo-extra-whitespace.png
+  picture: JoeLucas.jpg
   twitter: joelucas
   gitlab: joelucas
   story:  |
@@ -1219,7 +1219,7 @@
   country:
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer Intern</a>
   reports_to: Backend Lead
-  picture: JoeLucas.jpg
+  picture: logo-extra-whitespace.png
   twitter:
   gitlab:
   story:  |
