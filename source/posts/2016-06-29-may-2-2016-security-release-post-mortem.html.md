@@ -21,11 +21,11 @@ Since May 2, we have released a number of security updates to address certain
 vulnerabilities, but none have been as serious as the update for the
 "impersonate user" feature, now known as
 [CVE-2016-4340](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-4340).
-We released this feature in November of 2015 in GitLab 8.2.  This feature
-enables admins to diagnose issues with their GitLab installation by allowing
-them to see what their users see. Since it was released, a number of members
-from the community helped improve the code, but nobody noticed there was a
-security hole in one of the controller methods.
+We released this feature in November of 2015 in GitLab 8.2. It enables admins
+to diagnose issues with their GitLab installation by allowing them to see what
+their users see. Since it was released, a number of members from the community
+helped improve the code, but nobody noticed there was a security hole in one
+of the controller methods.
 
 ## Discovering the hole
 
