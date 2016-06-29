@@ -44,8 +44,10 @@ Our Marketing team is split into four key functional groups. All four groups are
 ### Demand generation
 
 - **Demand Generation:** [Handbook](/handbook/marketing/demand-generation), [Job Description](https://about.gitlab.com/jobs/demand-generation-manager/)  
-- **Online Marketing:** [Handbook](/handbook/marketing/demand-generation/online-marketing/), [Job Description](https://about.gitlab.com/jobs/online-marketing-manager/)
+- **Inbound Marketing:** [Handbook](/handbook/marketing/demand-generation/online-marketing/), [Job Description](https://about.gitlab.com/jobs/online-marketing-manager/)
 - **Business Development:** [Handbook](/handbook/marketing/demand-generation/business-development/), [Job Description](/jobs/business-development-representative/)
+- **Field Marketing:** [Handbook](/handbook/marketing/developer-relations/field-marketing/), [Job Description](/jobs/field-marketing-manager)
+- **Marketing Operations**
 
 ### Design
 
@@ -55,7 +57,6 @@ Our Marketing team is split into four key functional groups. All four groups are
 
 - **Technical Writing:** [Handbook](/handbook/marketing/developer-relations/technical-writing/), [Job Description](/jobs/technical-writer/)
 - **Developer Advocacy:** [Handbook](/handbook/marketing/developer-relations/developer-advocacy/), [Job Description](/jobs/developer-advocate)  
-- **Field Marketing:** [Handbook](/handbook/marketing/developer-relations/field-marketing/), [Job Description](/jobs/field-marketing-manager)
 
 ### Product Marketing
 
