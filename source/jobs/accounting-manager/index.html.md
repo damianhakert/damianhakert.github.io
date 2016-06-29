@@ -16,7 +16,7 @@ GitLab is adding the next essential member who can help drive operational improv
 * Responds to inquiries from the CFO, Controller, and company wide managers regarding financial results, special reporting requests and the like.
 * Assist in preparing for and managing annual external audit.  Coordinate with other auditors as needed.
 * Support overall department goals and objectives
-* This person will initially manage several part time and contract resource. Over time this position will be expected to build and manage a team. 
+* This person will initially coordinate third party providers as an individual contributor. Over time this person will be expected to build and manage a team.
 
 
 ## Requirements
@@ -29,3 +29,4 @@ GitLab is adding the next essential member who can help drive operational improv
 * International experience preferred.
 * Detail-oriented, self-directed and able to effectively complete tasks with minimal supervision
 * Proficiency with GitLab
+- You share our [values](/handbook/#values), and work in accordance with those values.
