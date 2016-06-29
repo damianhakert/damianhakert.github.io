@@ -23,6 +23,7 @@ The Demand Generation organization includes Demand Generation, Business Developm
 * [Marketo Tools Server](#marketoTools)
 * [Sales and Community Group Emails](#groupEmail)
 * [Newsletters](#newsletters)
+* [Webcasts] (#webcasts)
 
 ## Demand Generation Handbooks:  
 
@@ -165,3 +166,29 @@ Current state
 
 - We currently send out two newsletters a month. One is is on the second Tuesday of the month and the other is on the monthly release day (22nd).
 - The newsletters are scheduled to go out between 8 and 9 am Pacific time.
+
+## Webcasts<a name="webcasts"></a>
+
+When you need to create a new webcast program, follow these steps to set up the webcast to run properly:
+
+1. Create webcast in On24
+   - Once the webcast is created, capture the `Event ID` from the overview page.
+   - Make sure to turn off all email notifications within On24 as these will be handled by Marketo
+   - Under the `Registration` tag, under `Options`, check the `Enable Login Only Option`
+2. Clone the most recent webcast in Marketo
+   - Title the webcast in the following format: `July 27 2016 Webcast {Webcast Title}`. For example, July 27 2016 Webcast Security Webcast w/ Yubico
+   - On the webcast summary page, set the event partner with the following information:
+      - Event Partner: ON24
+      - Login: ON24
+      - Event Id: The ID of the event from the On24 platform
+3. Update `My Tokens` at the webcast program level
+   - Update the add to calendar tokens
+      - Create an event in Google Calendar and copy the link from `Publish Event`
+      - Update the information in the iCal and Outlook calendar files (these will be identical)
+   - Update the event date and time
+   - Update the email body with the description of the webcast
+4. Schedule the reminder emails
+   - In the reminders folder, select each of the smart campaigns to send the emails
+   - Under the `Smart List` tab, change the date of activity to not send the email if the user has registered for the webcast within the last 48 hours of when the email will send
+   - Under the `Schedule` tab, schedule the email to go out at the appropriate time based on the smart campaign you are editing
+5. Edit the landing page to have the appropriate webcast description, date, and time.
