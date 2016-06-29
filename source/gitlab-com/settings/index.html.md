@@ -82,10 +82,10 @@ Below are the shared Runners settings.
 
 | Setting                 | GitLab.com        | Default   |
 | -----------             | ----------------- | ----------|
-| [GitLab Runner]         | `1.3.0~beta.85.g346711a` | -  |
+| [GitLab Runner]         | `1.3.2 (0323456)` | -  |
 | Executor                | Docker            | -         |
 | Default Docker image    | `ruby:2.1`        | -         |
-| `privileged` (ability to run Docker in Docker)| `false` | `false`  |
+| `privileged` (run [Docker in Docker])| `true` | `false`  |
 
 ### `config.toml`
 
@@ -130,3 +130,4 @@ The full contents of our `config.toml` are:
 [GitLab Runner]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner
 [altssh]: /2016/02/18/gitlab-dot-com-now-supports-an-alternate-git-plus-ssh-port/ "GitLab.com now supports an alternate git+ssh port"
 [GitLab Pages]: https://pages.gitlab.io "GitLab Pages"
+[docker in docker]: https://hub.docker.com/_/docker/ "Docker in Docker at DockerHub"
