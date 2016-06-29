@@ -61,7 +61,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Developers](/jobs/developer/) that are packaging specialists
     - [Support](/handbook/support/) - [Support lead](/jobs/support-lead) - José Torres
       - [Service Engineers](/jobs/service-engineer/)
-    - CI - CI lead - Kamil Trzciński
+    - CI - [CI lead](/jobs/ci-lead/) - Kamil Trzciński
       - [Developers](/jobs/developer/) that are CI specialists
     - [Developers](/jobs/developer/) that are maintainers
     of or specialist in projects without a lead
