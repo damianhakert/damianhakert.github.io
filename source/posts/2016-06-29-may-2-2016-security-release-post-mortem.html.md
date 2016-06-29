@@ -71,7 +71,7 @@ have updates in time
 ## Warning Users
 
 These reasons convinced us to take the unusual step of giving a notice of an
-impending release within the following Monday. On Wednesday, April 27 around
+impending release for the following Monday. On Wednesday, April 27 around
 5:30 pm UTC, we sent out this announcement to our security mailing list:
 
 > We have discovered a critical security issue in all GitLab CE and EE versions from 8.2 to 8.7.
