@@ -1324,3 +1324,14 @@
   gitlab:
   story:  |
           Joining August 1st
+
+- name: F.A.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/sales-operations-manager/">Director Sales Operations</a>
+  reports_to: CRO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 8th
