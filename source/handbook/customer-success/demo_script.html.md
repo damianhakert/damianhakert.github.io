@@ -49,49 +49,50 @@
  - SSH / HTTPS connection information
  - Star / unstar setting
  - Command line access instructions
-Git setup
-New repo instructions
-Repo import instructions
-Prompt to add ‘README’ file
-Add a ‘README’ file
-Defaults to branch ‘master’
-Enter some text
-Enter a description
-Commit changes
-View project activity from main project screen via ‘activity’ tab
-Show Project->branches
-By default master is protected
-You have to push from another branch
-GitLab Workflow enforced.
-Select Project->Files  (or Code</>)
-Select README.md and then ‘Edit’
-Change the file
-Add a new branchname to the bottom
-Note the ‘start new merge request’ box -- leave it checked
-Commit changes
-New branch is created
-New merge request is created on next screen
-New Merge Request dialog
-‘from <branchname> into ‘master’ is displayed
-DIscuss WIP: header
-Put in a good description
-Assign to yourself
-Check ‘remove source branch when merge request is accepted’
-Submit merge request
-See the branches
-Compare the commits
-Accept Merge Request dialog
-Make sure ‘Remove source branch’ is checked
-Write a comment if desired
-Code->Network
-See network diagram!
-Issues and milestones -- see how they are created, used and closed
-Create issue
-“Readme needs more detail
-Create another issue
-License file needs to be created
-Create milestone
-Add two issues
+  - Git setup
+  - New repo instructions
+  - Repo import instructions
+ - Prompt to add ‘README’ file
+- Add a ‘README’ file
+ - Defaults to branch ‘master’
+ - Enter some text
+ - Enter a description
+ - Commit changes
+- View project activity from main project screen via ‘activity’ tab
+- Show Project->branches
+ - By default master is protected
+ - You have to push from another branch
+ - GitLab Workflow enforced.
+- Select Project->Files  (or Code</>)
+- Select README.md and then ‘Edit’
+ - Change the file
+ - Add a new branchname to the bottom
+ - Note the ‘start new merge request’ box -- leave it checked
+- Commit changes
+ - New branch is created
+ - New merge request is created on next screen
+- New Merge Request dialog
+ - ‘from <branchname> into ‘master’ is displayed
+ - Discuss WIP: header
+ - Put in a good description
+ - Assign to yourself
+ - Check ‘remove source branch when merge request is accepted’
+ - Submit merge request
+- See the branches
+- Compare the commits
+- Accept Merge Request dialog
+ - Make sure ‘Remove source branch’ is checked
+ - Write a comment if desired
+- Code->Network
+ - See network diagram!
+
+# Issues and milestones -- see how they are created, used and closed
+- Create issue
+ - “Readme needs more detail
+- Create another issue
+ - License file needs to be created
+- Create milestone
+ - Add two issues
 
 
    Base files for this project need to be created/fixed
@@ -101,71 +102,76 @@ Update readme file with new information - on temp branch
 Attach readme to merge request with issue
 
 
-Product differentiations
+# Product differentiations
 vs. BitBucket
-Continuous integration tool - Easy-to-set up, performant, stable and elegant continuous integration with every GitLab installation.
-Go to a project, select ‘Pipelines’ and then ‘builds’
-View build status, duration, branch (under ref) and tags
-Select buildID for more detail (and then use back button)
-Click on commit and see the diff
-Inline, side-by-side, comments all available
-(use back button to go back to builds)
-Ref is the branch where it is now located and the stage of the build is shown as well - build test or deploy
-Select “Graphs” then Continuous Integration to see a collection of graphical information on CI
-Docs for learning more about CI:  http://docs.gitlab.com/ce/ci/
-Integrated issue tracking - GitLab includes an issue tracker which you can link to any merge request.
-Click Issues at the top of page in www.gitlab.com project
-Look at Open, Closed or All issues
-Search by Author, Assignee, Milestone, Label, Weight
-Open a closed issue and show the communication which occurred while the issue was open.
-Elastic Search - (not installed by default) GitLab leverages the search capabilities of Elasticsearch and enables it when searching in:
-GitLab application
-Issues
-merge requests
-Milestones
-Notes
-Projects
-Repositories
-Snippets
-wiki repositories
-Details available here: https://gitlab.com/help/integration/elasticsearch.md
-Better activity feed and visualization - Collaborative activity feed to help everyone understand what is happening in a project; graphical view of the commit history.
-From project page of https://gitlab.com select “commits”
-Select a commit
-Look at the history
-Show ability to make comments in the diff itself.
-References to Jira ticket #’s in issues and merge requests
-When the merge happens the Jira ticket will be closed.
-Great user interface - A really clean user interface that your team will love, and also enjoy working with
-Show left hand navigation menu
-From https://gitlab.com select a project
-Note ways to view project data and activity
-Project, Activity, Code, etc…
-Project settings (gear)
-Wiki available - Can be turned on in projects
-More value in a single solution
-To replace GitLab you’d need licenses for all of these:
-BitBucket
-JIRA
-Confluence
-Bamboo
-GitLab was developed as a platform
-Above other products were developed separately (some were acquired)
+- Continuous integration tool - Easy-to-set up, performant, stable and elegant continuous integration with every GitLab installation.
+ - Go to a project, select ‘Pipelines’ and then ‘builds’
+ - View build status, duration, branch (under ref) and tags
+ - Select buildID for more detail (and then use back button)
+ - Click on commit and see the diff
+  - Inline, side-by-side, comments all available
+  - (use back button to go back to builds)
+ - Ref is the branch where it is now located and the stage of the build is shown as well - build test or deploy
+ - Select “Graphs” then Continuous Integration to see a collection of graphical information on CI
+ - Docs for learning more about CI:  http://docs.gitlab.com/ce/ci/
+
+- Integrated issue tracking - GitLab includes an issue tracker which you can link to any merge request.
+ - Click Issues at the top of page in www.gitlab.com project
+ - Look at Open, Closed or All issues
+ - Search by Author, Assignee, Milestone, Label, Weight
+ - Open a closed issue and show the communication which occurred while the issue was open.
+
+- Elastic Search - (not installed by default) GitLab leverages the search capabilities of Elasticsearch and enables it when searching in:
+ - GitLab application
+ - Issues
+ - merge requests
+ - Milestones
+ - Notes
+ - Projects
+ - Repositories
+ - Snippets
+ - wiki repositories
+ - Details available here: https://gitlab.com/help/integration/elasticsearch.md
+
+- Better activity feed and visualization - Collaborative activity feed to help everyone understand what is happening in a project; graphical view of the commit history.
+ - From project page of https://gitlab.com select “commits”
+ - Select a commit
+  - Look at the history
+  - Show ability to make comments in the diff itself.
+  - References to Jira ticket #’s in issues and merge requests 
+  - When the merge happens the Jira ticket will be closed.
+
+- Great user interface - A really clean user interface that your team will love, and also enjoy working with
+ - Show left hand navigation menu
+ - From https://gitlab.com select a project
+ - Note ways to view project data and activity
+  - Project, Activity, Code, etc…
+  - Project settings (gear)
+  - Wiki available - Can be turned on in projects
+
+- More value in a single solution
+ - To replace GitLab you’d need licenses for all of these:
+  - BitBucket
+  - JIRA
+  - Confluence
+  - Bamboo
+- GitLab was developed as a platform
+- Above other products were developed separately (some were acquired)
 
 
 
-EE vs. CE
-Reporting
-Workflow Management
-Additional server management options
-Deeper integration with external tools
+# EE vs. CE
+- Reporting
+- Workflow Management
+- Additional server management options
+- Deeper integration with external tools
 
 
 ___________________________________________________________
+# NOTES:
 
 
-
-NOTES  -- Commit list is GUI equivalent to git log
+-- Commit list is GUI equivalent to git log
   -- Revert & Cherry pick a particular commit from commit screen
 -- Show blame view from the comparison
 
