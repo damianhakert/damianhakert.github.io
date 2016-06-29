@@ -18,8 +18,8 @@ security in the GitLab code base.
 <!-- more -->
 
 Since May 2, we have released a number of security updates to address certain
-vulnerabilities, but none have been as serious as the update for the
-"impersonate user" feature, now known as
+vulnerabilities, but none of the updates have addressed a bug as serious as
+the one in the "impersonate user" feature, which is now known as
 [CVE-2016-4340](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-4340).
 We released this feature in November of 2015 in GitLab 8.2. It enables admins
 to diagnose issues with their GitLab installation by allowing them to see what
