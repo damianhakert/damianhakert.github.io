@@ -99,7 +99,7 @@ In addition, we shared the update patches privately with GitLab package
 maintainers, who all appreciated the advanced warning. They immediately began
 work on updating their native packages with the changes.
 
-## Questions on Whether to Release Early
+## Early Release?
 
 The next day, Thursday, we completed the long task of incorporating the
 patches and building a total of 42 Omnibus packages for all six releases to a
