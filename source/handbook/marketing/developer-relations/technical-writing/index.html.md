@@ -229,10 +229,8 @@ information, but do not add nor remove anything from the default template:
 
 ```
 ---
-layout: post
 title: "This is the post title"
 date: 2016-03-21 08:00:00
-comments: true
 author: Firstname Lastname
 author_twitter: userID
 categories: technical overview, integration
@@ -260,6 +258,7 @@ otherwise you'll create another category, which is somenthing we don't want.
 - release
 - remote work
 - SaaS
+- security
 - technical overview
 - tutorial
 - version control
@@ -296,6 +295,16 @@ _Author Name_
 
 Use the author's full name. If the name has special chars, type it within
 double quotes `"Full Name"`.
+
+#### Create new post from the command line
+
+One of the safest ways to create a new post is typing into your terminal (opened in your local project directory):
+
+```sh
+rake new_post
+```
+
+Hit `enter/return`, then you'll be prompted to enter the post title. Type in the title exactly as you want it, for example "Hello World - I'm a new post" and rake will take care of the file name for you. Then you just open the file, fill in with your name and Twitter handle, add the variable `date: yyyy-mm-dd`, and you'll be good to start writing. 
 
 ### Structure 
 
