@@ -70,10 +70,12 @@ system and should also be kept up to date with whatever new finding we get as we
 so these runbooks can also be adopted by our customers.
 
 Runbooks are divided into 2 main sections:
+
 - What to do when: points to specific runbooks to run on stressful situations (on-call)
 - How do I: points to general administration texts that explain how to perform different administration tasks.
 
 When writing a new runbook, be mindful what the goal of it is:
+
 - If it is for on-call situations, make it crisp and brief. Try to keep the following structure: pre-check, resolution, post-check .
 - If it is for general management, it can be freely formatted.
 
@@ -89,6 +91,7 @@ start pulling things out of there into the runbooks, until this documentation is
 ## Production events logging
 
 There are 2 kind of production events that we track:
+
 - Changes into the production fleet: for this we record things [in the Chef Repo](https://dev.gitlab.org/cookbooks/chef-repo).
   - Deploys will be recorded automagically because of the way we do deploys.
   - General operations can be recorded by creating an empty commit in the repo and pushing it into origin.
