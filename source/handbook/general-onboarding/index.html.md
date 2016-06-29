@@ -161,10 +161,21 @@ to the proper shared Vaults by making a suggestion in the relevant cell in the "
 * [ ] Patricio/Ernst: Add to Tweetdeck for [at]gitlabstatus.
 * [ ] Jose/Patricio: [Add new team member](https://support.zendesk.com/hc/en-us/articles/203661986-Adding-end-users-agents-and-administrators#topic_h43_2k2_yg) as an agent in [GitLab ZenDesk](https://gitlab.zendesk.com).
 * [ ] Jose/Patricio: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
-* [ ] New team Member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
 * [ ] Jose/Axil: Add new team member to "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
 * [ ] Jose: invite to support team call
 * [ ] Jose: use the "GitLab Email Forwarding" google doc to request that the new team member is added to the alias for the support team.
+* [ ] New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
+* [ ] New team member: Lodge an issue on the [infrastructure team project](https://gitlab.com/gitlab-com/infrastructure/issues/new) requesting the creation of a VM instance, use the template below:
+
+> Title: New DO service engineering VM [Request]
+> Hi, 
+> Please provide a standard 2GB DO VM for service engineering testing.  
+> SSH key is: 
+> ```
+> {{SSHKEYHERE}}
+> ```
+> Posix username: {{USERNAME}}
+> Thanks
 
 #### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
 
