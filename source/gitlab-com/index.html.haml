@@ -161,29 +161,6 @@ extra_css:
               = succeed "." do
                 %a{href: "https://status.gitlab.com/", title: "status"} status page
             %li
-              These are the fingerprints for GitLab.com's SSH host keys:
-              %ul
-                %li
-                  DSA
-                  %ul
-                    %li MD5:7a:47:81:3a:ee:89:89:64:33:ca:44:52:3d:30:d4:87
-                    %li SHA256:p8vZBUOR0XQz6sYiaWSMLmh0t9i8srqYKool/Xfdfqw
-                %li
-                  ECDSA
-                  %ul
-                    %li MD5:f1:d0:fb:46:73:7a:70:92:5a:ab:5d:ef:43:e2:1c:35
-                    %li SHA256:HbW3g8zUjNSksFbqTiUWPWg2Bq1x8xdGUrliXFzSnUw
-                %li
-                  ED25519
-                  %ul
-                    %li MD5:2e:65:6a:c8:cf:bf:b2:8b:9a:bd:6d:9f:11:5c:12:16
-                    %li SHA256:eUXGGm1YGsMAS7vkcx6JOJdOGHPem5gQp4taiCfCLB8
-                %li
-                  RSA
-                  %ul
-                    %li MD5:b6:03:0e:39:97:9e:d0:e7:24:ce:a3:77:3e:01:42:09
-                    %li SHA256:ROQFvPThGrW4RuWLoL9tq9I9zJ42fK4XywyRtbOz/EQ
-            %li
               Our servers are hosted on Amazon Web Services (AWS), Digital Ocean, and Azure, we use configuration management, and we patch our servers at least once a week. Our
               %a{href: "https://gitlab.com/gitlab-com/runbooks"} runbooks are public
               as is our
@@ -196,11 +173,6 @@ extra_css:
               %a{href: "http://doc.gitlab.com/ee/administration/audit_events.html"} audit logs,
               and passwords are one-way encrypted.
             %li
-              GitLab.com sends emails from the
-              %code mg.gitlab.com
-              domain via Mailgun and has its own dedicated IP address for this:
-              %code 198.61.254.240
-            %li
               GitLab.com can't be integrated with your LDAP server, if you need this please
               = succeed "." do
                 %a{href: "https://about.gitlab.com/features/"} host GitLab yourself
@@ -210,6 +182,21 @@ extra_css:
         .hidden-xs.hidden-sm.col-md-4
           %i.fa.fa-terminal
         .col-xs-1.col-md-1
+      %hr.divider/
+      .row.support
+        .col-xs-6.col-md-1
+        .col-xs-6.col-md-4.text-center
+          %i.fa.fa-wrench.hidden-xs.hidden-sm
+        .col-md-1.hidden-sm.hidden-xs
+        .col-xs-12.col-md-6
+          %h2
+            GitLab.com settings
+          %a{name: "gitlab-com-settings"}
+          %p
+            For information like fingerprints of GitLab.com's SSH host keys and
+            settings of GitLab Pages, CI, Runners, etc., see the separate
+            = succeed "." do
+              %a{href: "settings/"} GitLab.com settings page
       %hr.divider/
       .row.import
         .col-xs-1.col-md-1
