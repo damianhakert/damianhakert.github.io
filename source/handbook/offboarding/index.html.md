@@ -53,6 +53,7 @@ for further details on that process.
 * [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team). Don't forget to remove the profile picture.
 * [ ] People Ops: Remove team member from Egencia
 * [ ] People Ops: Remove team member from Summit planning documents, or inform the organizer.
+* [ ] People Ops: Remove team member from phishing testing platform
 * [ ] Patricio/Ernst: Remove from tweetdeck
 * [ ] People Ops: Notify eShares administrator (CFO) of offboarding.
 * [ ] Infrastructure: If the person is from infrastructure [remove the sysadmin](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/user-administration.md#remove-a-sysadmin)
