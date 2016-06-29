@@ -48,7 +48,7 @@ Everyone can contribute to digital products with GitLab, to GitLab itself, and t
 
 We want to achieve our goals in the following order:
 
-1. In 2015 we became the most popular on on-premises software development lifecycle solution and we want to continue that.
+1. In 2015 we became the most popular on-premises software development lifecycle solution and we want to continue that.
 
 2. We want to become the most revenue generating on-premises software development lifecycle solution
 
