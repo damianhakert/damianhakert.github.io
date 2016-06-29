@@ -169,10 +169,11 @@ to the proper shared Vaults by making a suggestion in the relevant cell in the "
 > Title: New DO service engineering VM [Request]
 > Hi, 
 > Please provide a standard 2GB DO VM for service engineering testing.  
-> My SSH key is: 
+> SSH key is: 
 > ```
-> {{ SSH KEY HERE }}
+> {{SSHKEYHERE}}
 > ```
+> Posix username: {{USERNAME}}
 > Thanks
 
 #### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
