@@ -26,6 +26,11 @@ Below are the fingerprints for GitLab.com's SSH host keys.
 |  ED25519  | `2e:65:6a:c8:cf:bf:b2:8b:9a:bd:6d:9f:11:5c:12:16` | `eUXGGm1YGsMAS7vkcx6JOJdOGHPem5gQp4taiCfCLB8` |
 |  RSA      | `b6:03:0e:39:97:9e:d0:e7:24:ce:a3:77:3e:01:42:09` | `ROQFvPThGrW4RuWLoL9tq9I9zJ42fK4XywyRtbOz/EQ` |
 
+## Mail configuration
+
+GitLab.com sends emails from the `mg.gitlab.com` domain via [Mailgun] and has
+its own dedicated IP address (`198.61.254.240`).
+
 ## Alternative SSH port
 
 GitLab.com can be reached via a [different SSH port][altssh] for `git+ssh`.
@@ -131,3 +136,4 @@ The full contents of our `config.toml` are:
 [altssh]: /2016/02/18/gitlab-dot-com-now-supports-an-alternate-git-plus-ssh-port/ "GitLab.com now supports an alternate git+ssh port"
 [GitLab Pages]: https://pages.gitlab.io "GitLab Pages"
 [docker in docker]: https://hub.docker.com/_/docker/ "Docker in Docker at DockerHub"
+[mailgun]: https://www.mailgun.com/ "Mailgun website"
