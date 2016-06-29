@@ -43,7 +43,7 @@
       content: Branches is an iPhone and iPad app for managing issues in your GitLab repositories. The app also lets you browse commits, merge requests and files.
       links:
         - url: http://branchesapp.co
-          title: branchesapp.co 
+          title: branchesapp.co
 - title: Command Line Interface (CLI) Clients
   id: cli-clients
   applications:
@@ -372,6 +372,14 @@
       links:
         - url: https://github.com/MatthiasLohr/munin-plugins-gitlab
           title: Plugins on GitHub
+    - title: Blackfire.io
+      content: Blackfire enables you to automate the performance testing and profiling of your code any time you modify it.
+      links:
+        - url: https://blackfire.io
+          title: Blackfire.io
+        - url: https://blackfire.io/docs/integrations/gitlab
+          title: Gitlab integration documentation
+
 - title: Login with your GitLab.com account
   id: login-with-gitlab
   applications:
