@@ -1,12 +1,19 @@
-### This demonstration is designed to show customers the highlights of GitLab and the basics of the Gitlab Flow.
+---
+layout: markdown_page
+title: "Demo Script"
+---
 
-# Prerequisites
+This demonstration is designed to show customers the highlights of GitLab and the basics of the Gitlab Flow.
+
+## Prerequisites
 - Access to a GitLab instance
 - Ability to create a project
 - If Internet access is available, start at this URL while logged in: https://gitlab.com/
 
-# OVERALL NAVIGATION
-## Front page navigation
+## OVERALL NAVIGATION
+
+### Front page navigation
+
 - Screen areas
  - Left hand navigation bar
   - Top - Open and close navigation bar
@@ -18,14 +25,16 @@
   - Todos
   - New project
   - Sign out
-## Left hand global navigation items
+
+### Left hand global navigation items
+
 - Projects - list of projects the current user has access to
  - Explain ‘your projects’ ‘starred projects’ and ‘explore projects’
   - Your projects -- projects you have specific access to
   - Starred projects -- projects you have marked as special to you
   - Explore projects -- all projects you have any access to
  - These filters are used throughout the product
-- Todos - tasks of note for the current user 
+- Todos - tasks of note for the current user
 - Activity - Recent push events, merge requests, etc.
 - Groups - Collections of projects
 - Milestones - Organizes issues and merge requests
@@ -35,8 +44,9 @@
 - Help
 - Profile settings
 
-# BASIC PRODUCT DEMO
-## Project / GitLab flow
+## BASIC PRODUCT DEMO
+
+### Project / GitLab flow
 - Ensure you are signed in
 - Select ‘new project’
  - Discuss per project settings
@@ -86,7 +96,8 @@
 - Code->Network
  - See network diagram!
 
-# Issues and milestones -- see how they are created, used and closed
+## Issues and milestones -- see how they are created, used and closed
+
 - Create issue
  - “Readme needs more detail
 - Create another issue
@@ -102,8 +113,10 @@ Update readme file with new information - on temp branch
 Attach readme to merge request with issue
 
 
-# Product differentiations
-vs. BitBucket
+## Product differentiations
+
+### vs. BitBucket
+
 - Continuous integration tool - Easy-to-set up, performant, stable and elegant continuous integration with every GitLab installation.
  - Go to a project, select ‘Pipelines’ and then ‘builds’
  - View build status, duration, branch (under ref) and tags
@@ -138,7 +151,7 @@ vs. BitBucket
  - Select a commit
   - Look at the history
   - Show ability to make comments in the diff itself.
-  - References to Jira ticket #’s in issues and merge requests 
+  - References to Jira ticket #’s in issues and merge requests
   - When the merge happens the Jira ticket will be closed.
 
 - Great user interface - A really clean user interface that your team will love, and also enjoy working with
@@ -160,15 +173,16 @@ vs. BitBucket
 
 
 
-# EE vs. CE
+## EE vs. CE
 - Reporting
 - Workflow Management
 - Additional server management options
 - Deeper integration with external tools
 
 
-___________________________________________________________
-# NOTES:
+---
+
+## NOTES:
 
 
 -- Commit list is GUI equivalent to git log
@@ -176,7 +190,7 @@ ___________________________________________________________
 -- Show blame view from the comparison
 
 
--- milestones -- reference point for what issues need to be created for, say, a release, debugging session, etc. 
+-- milestones -- reference point for what issues need to be created for, say, a release, debugging session, etc.
 -- Label -- collection of arbitrary issues & merge requests -- NOT commits or files
 -- users can subscribe to labels
 
@@ -188,7 +202,7 @@ ___________________________________________________________
 -- Create WIP: merge request allows team to discuss what might be changed vs. actually performing change.
 -- Add @ mention to comment box
 -- Localized to time zone of user -- hover over timestam in your local time!
--- Add comments to code!	
+-- Add comments to code!
   -- See discussion started in the middle of the file!
 
 -- Go to CE and find a merge request to show comments inline, etc.
@@ -203,7 +217,7 @@ ___________________________________________________________
   -- into revert-afgadgagd
 
 -- Create issue  "Probelm with readme"
-   IN description 
+   IN description
 -- Create new branch from within issue create
 -- Edit file
 -- Start new merge request from within the issue!
@@ -219,5 +233,3 @@ Product differentiations
 Vs. BitBucket
 Vs. GitHub
 Demo of EE for CE user
-
-
