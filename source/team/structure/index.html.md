@@ -43,6 +43,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - Customer Success - [Director of Customer Success](https://about.gitlab.com/jobs/dir-customer-success/) (vacancy)
       - [Account Manager](/jobs/account-manager/)
       - [Success Engineer](/jobs/success-engineer/)
+    - Sales Operations - [Director of Sales Operations](https://about.gitlab.com/jobs/director-sales-operations/)
   - [People Operations](/handbook/people-operations/) - [Director/VP of People Operations](/jobs/dir-or-vp-of-people-ops/) (vacancy)
     - [People Operations Coordinator](/jobs/people-ops-coordinator/)
   - [Finance](/handbook/finance) - [CFO](/jobs/chief-financial-officer/) - Paul Machle
