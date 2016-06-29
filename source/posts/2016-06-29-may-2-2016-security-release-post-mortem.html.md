@@ -176,3 +176,16 @@ within GitLab.
 
 If you have not already, please sign up on for future [security
 notices](https://about.gitlab.com/contact/) on this page.
+
+## Join us on July 27th for our joint webcast with Yubico
+
+We recognize that security is a growing concern for a number of teams. We're partnering with 
+Yubico again. This time to discuss industry trends and best practices for security. Here's
+a quick look at what we'll be talking about.
+
+* Key trends that affect the security of your team
+* Real-life examples of how both GitLab and Yubico work to improve security
+* Advice on industry best practices
+
+If you're interested in learning more or asking security-related questions, please 
+join us on July 27th. [Register here.](https://page.gitlab.com/July27WebcastSecurityWebcastwYubico_LandingPage.html) 
