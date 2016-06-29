@@ -3,7 +3,7 @@ layout: markdown_page
 title: "GitLab Onboarding"
 ---
 
-## Other pages
+## Other pages 
 
 * [Sales onboarding](/handbook/sales-onboarding)
 * [Developer onboarding](/handbook/developer-onboarding)
