@@ -1010,6 +1010,8 @@
   picture: fatih.png
   twitter: fatihacet
   gitlab: fatihacet
+  maintains: |
+              <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
   story:  |
           Based on Istanbul, Fatih is a Frontend Engineer who is passionate about delivering solid Frontend code.
           He loves to see the things he created used by thousands of others.
