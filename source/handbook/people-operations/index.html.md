@@ -254,9 +254,8 @@ meetings and "send" out the invitation.
 - **Send swag codes to new team members**
 To celebrate a new team member joining our team, send an email with $50 swag credits for our [Swag Store](https://gitlab.mybrightsites.com/), as noted in the onboarding issue. You can get the codes for the swag by finding the Google doc titled "Tshirt and stickers coupons 2.12.16".
 - **Order business cards**
-Go to the "Notes" field in BambooHR and enter the info needed for the Business Cards.
-Once every week/few days or how often needed, run the "Business Cards order" report in the Reports - My Reports menu of BambooHR.
-Email our partner to order new business cards and add the info for the cards to be ordered. Include the address of the team member (found in BambooHR) and inform our partner to _**ship the cards directly to that address**_. Double check the info that is sent with the preview before approving the print.
+Go BambooHR and enter the info needed for the Business Cards. This is found by clicking on More, then selecting Business Cards. Select Update Business Card Requests and fill out all the pertinent fields. 
+Email our partner to order new business cards. Include the address of the team member (found in BambooHR) and inform our partner to _**ship the cards directly to that address**_. Double check the info that is sent with the preview before approving the print.
 - **Add team member to Expensify (only with employees)**<a name="add-expensify"></a>
 Login to [Expensify](https://www.expensify.com/signin) and go to "Admin" in the top menu. Select the right policy based upon the entity that employs the new team member. Select "People" in the left menu. Select "Invite" and add the GitLab email. Edit the message to be sent for the employee. Click "invite".
 - **Add team member to Beamy**<a name="add-beamy"></a>
