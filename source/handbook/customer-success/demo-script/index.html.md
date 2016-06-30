@@ -16,23 +16,23 @@ This demonstration is designed to show customers the highlights of GitLab and th
 
 - Screen areas
  - Left hand navigation bar
-  - Top - Open and close navigation bar
-  - Upper part - Global navigation
-  - Lower part - Currently logged-in user
+     - Top - Open and close navigation bar
+     - Upper part - Global navigation
+     - Lower part - Currently logged-in user
  - Top navigation - context-sensitive based on selected left hand item  
-   -Tasks
+     - Tasks
  - Upper right area
-  - Todos
-  - New project
-  - Sign out
+     - Todos
+     - New project
+     - Sign out
 
 ### Left hand global navigation items
 
 - Projects - list of projects the current user has access to
  - Explain ‘your projects’ ‘starred projects’ and ‘explore projects’
-  - Your projects -- projects you have specific access to
-  - Starred projects -- projects you have marked as special to you
-  - Explore projects -- all projects you have any access to
+     - Your projects -- projects you have specific access to
+     - Starred projects -- projects you have marked as special to you
+     - Explore projects -- all projects you have any access to
  - These filters are used throughout the product
 - Todos - tasks of note for the current user
 - Activity - Recent push events, merge requests, etc.
@@ -59,9 +59,9 @@ This demonstration is designed to show customers the highlights of GitLab and th
  - SSH / HTTPS connection information
  - Star / unstar setting
  - Command line access instructions
-  - Git setup
-  - New repo instructions
-  - Repo import instructions
+     - Git setup
+     - New repo instructions
+     - Repo import instructions
  - Prompt to add ‘README’ file
 - Add a ‘README’ file
  - Defaults to branch ‘master’
@@ -122,8 +122,8 @@ Attach readme to merge request with issue
  - View build status, duration, branch (under ref) and tags
  - Select buildID for more detail (and then use back button)
  - Click on commit and see the diff
-  - Inline, side-by-side, comments all available
-  - (use back button to go back to builds)
+     - Inline, side-by-side, comments all available
+     - (use back button to go back to builds)
  - Ref is the branch where it is now located and the stage of the build is shown as well - build test or deploy
  - Select “Graphs” then Continuous Integration to see a collection of graphical information on CI
  - Docs for learning more about CI:  http://docs.gitlab.com/ce/ci/
@@ -149,25 +149,25 @@ Attach readme to merge request with issue
 - Better activity feed and visualization - Collaborative activity feed to help everyone understand what is happening in a project; graphical view of the commit history.
  - From project page of https://gitlab.com select “commits”
  - Select a commit
-  - Look at the history
-  - Show ability to make comments in the diff itself.
-  - References to Jira ticket #’s in issues and merge requests
-  - When the merge happens the Jira ticket will be closed.
+     - Look at the history
+     - Show ability to make comments in the diff itself.
+     - References to Jira ticket #’s in issues and merge requests
+     - When the merge happens the Jira ticket will be closed.
 
 - Great user interface - A really clean user interface that your team will love, and also enjoy working with
  - Show left hand navigation menu
  - From https://gitlab.com select a project
  - Note ways to view project data and activity
-  - Project, Activity, Code, etc…
-  - Project settings (gear)
-  - Wiki available - Can be turned on in projects
+     - Project, Activity, Code, etc…
+     - Project settings (gear)
+     - Wiki available - Can be turned on in projects
 
 - More value in a single solution
  - To replace GitLab you’d need licenses for all of these:
-  - BitBucket
-  - JIRA
-  - Confluence
-  - Bamboo
+     - BitBucket
+     - JIRA
+     - Confluence
+     - Bamboo
 - GitLab was developed as a platform
 - Above other products were developed separately (some were acquired)
 
@@ -179,8 +179,8 @@ Attach readme to merge request with issue
 - Additional server management options
 - Deeper integration with external tools
 
+------
 
----
 
 ## NOTES:
 
