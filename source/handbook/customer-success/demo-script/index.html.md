@@ -5,12 +5,16 @@ title: "Demo Script"
 
 This demonstration is designed to show customers the highlights of GitLab and the basics of the Gitlab Flow.
 
+# Sections
+- [Overall navigation](#overall_navigation)
+- ]Basic product demo](#basic_product_demo)
+
 ## Prerequisites
 - Access to a GitLab instance
 - Ability to create a project
 - If Internet access is available, start at this URL while logged in: https://gitlab.com/
 
-## OVERALL NAVIGATION
+## <A HREF="overall_navigation"></A>OVERALL NAVIGATION
 
 ### Front page navigation
 
@@ -44,7 +48,7 @@ This demonstration is designed to show customers the highlights of GitLab and th
 - Help
 - Profile settings
 
-## BASIC PRODUCT DEMO
+## <A HREF="basic_product_demo"></A>BASIC PRODUCT DEMO
 
 ### Project / GitLab flow
 - Ensure you are signed in
