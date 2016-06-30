@@ -23,7 +23,7 @@ _As everything at GitLab, this document is forever in draft. Merge requests are 
 
 Reduce every change proposal to its very minimally viable form.
 This allows us to ship almost anything within a single release,
-get immediately feedback and avoid deep investments in ideas that might
+get immediate feedback and avoid deep investments in ideas that might
 not work. Other advantages:
 
 - This helps avoiding the sunk-cost fallacy in situations where we might
@@ -32,7 +32,7 @@ on something.
 - It prevents over-engineering
 - It forces everyone involved to look for the most simple solution to a problem,
 which is often the superior solution
-- It forces to work for a 80/20 solution, where competing products might cater
+- It forces working towards an 80/20 solution, where competing products might cater
 to the last 20% of the market, a minimally viable solution is _good enough_ for 80%
 - Further changes or enhancements to the change are driven by feedback from
 actual users. This is a much more informative mechanism than the intuition
@@ -46,13 +46,13 @@ whatever feedback tells us)
 Avoid configuration at all costs.
 
 Every configuration in GitLab multiplies its complexity, which means
-the application is harder to use, harder to develop and
+the application is harder to use, harder to develop, and
 less friendly to its users.
 
-Making features, changes, configurable is _easy_ and _lazy_.
+Making features configurable is _easy_ and _lazy_.
 It's a natural reaction to propose a big change to be configurable,
 as you worry it'll negatively affect certain users. However,
-by making a change configurable you now created two problems.
+by making a feature configurable, you've now created two problems.
 
 ![](/handbook/product/p2.png)
 
@@ -60,9 +60,9 @@ Work on solutions that work for everyone, that replace all
 previous solutions.
 
 Sometimes configuration is inevitable or preferable. GitLab should
-work perfectly right out of the box for any users. Your configuration
+work perfectly right out of the box for most users. Your configuration
 can't make that experience worse and should always _get out of the
-way of the user_
+way of the user_.
 
 ## Be Ambitious
 
@@ -73,8 +73,8 @@ Because we have amazing engineers and a culture of shipping a minimally
 viable change, we are able to do a lot more 'impossible' things than other
 people.
 
-That's why we're shipping merge conflict resolution, how we built-in CI before
-anyone else did it, why we build a better static pages solution and why
+That's why we're shipping merge conflict resolution, why we shipped built-in CI
+before anyone else did it, why we built a better static pages solution, and why
 we're able to compete.
 
 ![](/handbook/product/p3.png)
