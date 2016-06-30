@@ -33,6 +33,20 @@ backing up customers own private and secure GitLab instance.
   will always be automatically updated to the latest GitLab version, or you can
   stay on your current version and choose when you want the upgrade to happen
 
+### What are the advantages of GitHost versus GitLab.com
+
+* Privacy - GitHost runs one server per client, so your code is not stored together with the rest of the customers
+* Speed - A GitHost instance is faster and more performant than GitLab.com
+* Ownership - You own the instance, so you can configure it as you like.
+* Flexibility - You can choose the plan they prefer based on their needs
+
+### What are the advantages of GitHost versus On-premises
+
+* No infrastructure to manage
+* Updates are done by the GitLab team
+* Backups are done by the GitLab team
+* Access to support is actually faster, GitLab support team have full access to the machines
+
 ### What regions does GitHost operate in?
 
 Amsterdam, London, San Francisco, Singapore, Toronto, New York and Frankfurt.
