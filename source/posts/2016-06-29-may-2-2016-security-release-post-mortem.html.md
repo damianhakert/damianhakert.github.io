@@ -95,15 +95,15 @@ impending release for the following Monday. On Wednesday, April 27 around
 >
 > 8.2.0 through 8.2.4
 
-In addition, we shared the update patches privately with GitLab package
-maintainers, who all appreciated the advanced warning. They immediately began
-work on updating their native packages with the changes.
+In addition, we shared patches privately with GitLab package maintainers, who
+all appreciated the advanced warning. They immediately began work on updating
+their native packages with the changes.
 
 ## Early Release?
 
 The next day, Thursday, we completed the long task of incorporating the
 patches and building a total of 42 Omnibus packages for all six releases to a
-private repository. We updated GitLab.com to 8.7.1, which contained the fix
+private repository. We updated GitLab.com to 8.7.1, which contained the fix,
 and removed the HAProxy workaround.
 
 Some recipients of the e-mail [expressed confusion on Hacker
@@ -179,7 +179,7 @@ notices](https://about.gitlab.com/contact/) on this page.
 
 ## Join us on July 27th for our joint webcast with Yubico
 
-We recognize that security is a growing concern for a number of teams. We're partnering with 
+We recognize that security is a growing concern for a number of teams. We're partnering with
 Yubico again. This time to discuss industry trends and best practices for security. Here's
 a quick look at what we'll be talking about.
 
@@ -187,5 +187,5 @@ a quick look at what we'll be talking about.
 * Real-life examples of how both GitLab and Yubico work to improve security
 * Advice on industry best practices
 
-If you're interested in learning more or asking security-related questions, please 
-join us on July 27th. [Register here.](https://page.gitlab.com/July27WebcastSecurityWebcastwYubico_LandingPage.html) 
+If you're interested in learning more or asking security-related questions, please
+join us on July 27th. [Register here.](https://page.gitlab.com/July27WebcastSecurityWebcastwYubico_LandingPage.html)
