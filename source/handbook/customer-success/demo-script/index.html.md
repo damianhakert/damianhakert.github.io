@@ -11,6 +11,7 @@ This demonstration is designed to show customers the highlights of GitLab and th
 - [Issues and milestones](#issues_milestones)
 - [Product differentiations](#product_differentiations)
 - [EE vs. CE](#ee_vs_ce)
+
 ## Prerequisites
 - Access to a GitLab instance
 - Ability to create a project
