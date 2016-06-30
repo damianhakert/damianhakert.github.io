@@ -39,7 +39,7 @@ actual users. This is a much more informative mechanism than the intuition
 of a product person (though note that this doesn't mean we should just build
 whatever feedback tells us)
 
-![](https://imgs.xkcd.com/comics/optimization.png)
+![](/handbook/product/p1.png)
 
 ## Convention over Configuration
 
@@ -54,7 +54,7 @@ It's a natural reaction to propose a big change to be configurable,
 as you worry it'll negatively affect certain users. However,
 by making a change configurable you now created two problems.
 
-![](https://imgs.xkcd.com/comics/standards.png)
+![](/handbook/product/p2.png)
 
 Work on solutions that work for everyone, that replace all
 previous solutions.
@@ -77,7 +77,7 @@ That's why we're shipping merge conflict resolution, how we built-in CI before
 anyone else did it, why we build a better static pages solution and why
 we're able to compete.
 
-![](https://imgs.xkcd.com/comics/squirrel_plan.png)
+![](/handbook/product/p3.png)
 
 ## Do not mess with Flow
 
@@ -94,7 +94,7 @@ issue. This means that every time that someone creates an issue they need
 to click once before resuming their normal action. This is unacceptable.
 A better solution is to add a link to the issue that points the user to this.
 
-![](http://imgs.xkcd.com/comics/app.png)
+![](/handbook/product/p4.png)
 
 It's very hard to maintain flow with a lot of configurations and options.
 In cases where you want to enforce certain behavior, the most obvious step
