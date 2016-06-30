@@ -27,6 +27,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Travel](/handbook/travel)
   * [Security](/handbook/security)
   * [Leadership](/handbook/leadership)
+* [Product](/handbook/product)
 
 ## This page
 
