@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Webcast Recording and Slides: Getting started with CI in GitLab"
 date: 2016-04-20
 author: Amara Nwaigwe

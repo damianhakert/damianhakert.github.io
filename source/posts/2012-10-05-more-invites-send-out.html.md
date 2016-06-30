@@ -1,5 +1,4 @@
 ---
-layout: post
 title: More invites send out
 tags: []
 status: publish

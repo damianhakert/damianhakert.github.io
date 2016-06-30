@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Write for GitLab"
 date: 2016-01-26
 author: Heather McNamee
@@ -8,7 +7,7 @@ image_title: '/images/blogimages/write-gitlab.jpg'
 ---
 
 We’re opening our blog up to contributions from the community. 
-When you get published on our blog at [GitLab](http://about.gitlab.com/blog) you can earn $50 to $200 for technical articles. 
+When you get published on our blog at [GitLab](https://about.gitlab.com/blog) you can earn $50 to $200 for technical articles. 
 
 <!-- more -->
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab Sponsorship Update"
 date: 2016-03-24 15:00
 categories: community

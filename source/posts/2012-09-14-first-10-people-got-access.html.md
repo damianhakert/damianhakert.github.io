@@ -1,5 +1,4 @@
 ---
-layout: post
 title: First 10 people got access
 tags: []
 status: publish

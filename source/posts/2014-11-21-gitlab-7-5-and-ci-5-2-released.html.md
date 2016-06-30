@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "GitLab 7.5 and GitLab CI 5.2 released with new and custom git hooks and parallel builds"
 date: 2014-11-21
-categories:
+categories: release
 author: Job van der Voort
 ---
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab book"
 date: 2014-02-01 14:49
 categories:

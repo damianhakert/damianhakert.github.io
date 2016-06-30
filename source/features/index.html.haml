@@ -12,11 +12,11 @@ extra_js:
     .container-fluid.featurenav
       %ul.nav.nav-pills.nav-justified
         %li
-          %a{href: "#community", onclick: "ga('send', 'event', 'nav','click','ce features');"} Community Edition
+          %a{href: "#community"} Community Edition
         %li
-          %a{href: "#enterprise", onclick: "ga('send', 'event', 'nav','click','ee features');"} Enterprise Edition
+          %a{href: "#enterprise"} Enterprise Edition
         %li
-          %a{href: "#compare", onclick: "ga('send', 'event', 'nav','click','ce ee compare');"} Compare
+          %a{href: "#compare"} Compare
   #community.wide-feature.head
     .container
       .row
@@ -39,8 +39,8 @@ extra_js:
                 %b> Scalable
                 \: support 25,000 users on one server or a highly available active/active cluster
             .actions
-              %a.btn.btn-default.btn-lg{href: "/downloads", onclick: "ga('send', 'event', 'link','click','download ce');"} Download
-              %a.btn.btn-default.btn-lg{href: "https://gitlab.com/gitlab-org/gitlab-ce/tree/master#README", onclick: "ga('send', 'event', 'link','click','source and readme');"} Source + Readme
+              %a.btn.btn-default.btn-lg{href: "/downloads"} Download
+              %a.btn.btn-default.btn-lg{href: "https://gitlab.com/gitlab-org/gitlab-ce/tree/master#README"} Source + Readme
             %br
             If you want to use GitLab without installing it,
             check out
@@ -112,11 +112,15 @@ extra_js:
         gitlab
         %b enterprise edition
       .description
-        GitLab Enterprise Edition builds on top of the Community Edition and includes extra features mainly aimed at organizations with more than 100 users.
-        It has LDAP group sync, audit logs and multiple roles.
-        It includes deeper authentication and authorization integration, has fine-grained workflow management, has extra server management options and it integrates with your tool stack.
-        GitLab EE runs on your servers, for our SaaS offering please see
-        %a{href: "/gitlab-com"} GitLab.com
+        %p
+          GitLab Enterprise Edition builds on top of the Community Edition and includes extra features mainly aimed at organizations with more than 100 users.
+        %p
+          It has LDAP group sync, audit logs and multiple roles.
+          It includes deeper authentication and authorization integration, has fine-grained workflow management, has extra server management options and it integrates with your tool stack.
+          GitLab EE runs on your servers, for our SaaS offering please see
+          %a{href: "/gitlab-com"} GitLab.com
+        %p
+          = link_to "Download GitLab Enterprise Edition", "https://about.gitlab.com/downloads-ee"
   .container
     .row.feature-row
       .col-md-4.small-feature
@@ -133,27 +137,28 @@ extra_js:
           = image_tag "/images/feature_page/ldap_groups_full.png", class: "img-responsive"
       .col-md-4.small-feature
         .name
-          BRANDED
-          %b LOGIN PAGE
-        %a.image-link{href: "/images/feature_page/branded_login_full.png"}
-          = image_tag "/images/feature_page/branded_login_full.png", class: "img-responsive"
+          REPOSITORY
+          %b MIRRORING
+        %a.image-link{href: "/images/feature_page/mirror.png"}
+          = image_tag "/images/feature_page/mirror.png", class: "img-responsive"
         .link
-          %a{href: "https://gitlab.com/users/sign_in"} See the login page from GitLab.com >
+          %a{href: "http://docs.gitlab.com/ee/workflow/repository_mirroring.html"}
+            Read about repository mirroring
   #compare.wide-feature.head.community
     .container
       .name
-        compare gitlab versions
+        compare gitlab editions
   .container
     .compare
       = partial "includes/features/table"
       .action
-        %a.btn.btn-default.btn-lg{href: "/pricing/", onclick: "ga('send', 'event', 'link','click','pricing options');"}
+        %a.btn.btn-default.btn-lg{href: "/pricing/"}
           %b See Pricing Options
       .action
         %a{href: "/direction/", style: "font-size: 22px;"}
           View the direction of development and upcoming features
       .action
-        %a{href: "gitlab-features.pdf", style: "font-size: 22px;"}
+        %a{href: "/images/feature_page/gitlab-features.pdf", style: "font-size: 22px;"}
           Download the feature comparison table as a PDF
       .action
         %a{href: "/comparison", style: "font-size: 22px;"}

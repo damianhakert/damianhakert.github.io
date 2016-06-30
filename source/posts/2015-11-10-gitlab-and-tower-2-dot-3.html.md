@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab + Tower = A Most Efficient Setup"
 date: 2015-11-10
 author: Tobias Günther

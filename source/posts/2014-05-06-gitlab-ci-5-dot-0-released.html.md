@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "GitLab CI 5.0 released"
 date: 2014-05-06 15:55:40 +0300
-categories: 
+categories: release
 author: Dmitriy Zaporozhets
 ---
 

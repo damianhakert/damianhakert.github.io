@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 8.3.4 Released"
 date: 2016-01-12
 author: Jacob Vosmaer
@@ -44,7 +43,7 @@ To update, check out our [update page](https://about.gitlab.com/update).
 ## Enterprise Edition
 
 Interested in GitLab Enterprise Edition? Check out the [features
-exclusive to EE](http://about.gitlab.com/features/#enterprise).
+exclusive to EE](https://about.gitlab.com/features/#enterprise).
 
 Access to GitLab Enterprise Edition is included with a
 [subscription](http://www.gitlab.com/subscription/). No time to upgrade

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 8.0.1 released"
 date: 2015-09-22
 author: GitLab
@@ -43,7 +42,7 @@ To update, check out our [update page](https://about.gitlab.com/update).
 ## Enterprise Edition
 
 Interested in GitLab Enterprise Edition?
-Check out the [features exclusive to GitLab EE](http://about.gitlab.com/features/#enterprise).
+Check out the [features exclusive to GitLab EE](https://about.gitlab.com/features/#enterprise).
 
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/pricing).
 No time to upgrade GitLab yourself?

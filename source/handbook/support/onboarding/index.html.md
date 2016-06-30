@@ -7,6 +7,7 @@ title: Service Engineer Onboarding
 - [Expectations of the support team](#expectations)
 - [First steps when you join the team](#first-steps)
    - [Training](#training)
+   - [WebEx](#webex)
 - [Handling tickets](#handling-tickets)
    - [Assigning a ticket to yourself](#assign-yourself)
    - [Point to documentation, or make it](#document-it)
@@ -34,7 +35,7 @@ expected to:
 - Be open to new ideas and points of view
 - It is OK if you don't know something. You can always ask someone else
 - It is OK to say no to a customer, but try to suggest a workaround and escalate to a Senior if necessary
-- Read the guidelines on how to [respond on social media](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/social-media/).
+- Read the guidelines on how to [respond on social media](https://about.gitlab.com/handbook/social-media-guidelines).
 
 ## First steps when you join the team <a name="first-steps"></a>
 
@@ -76,6 +77,28 @@ Initially, you will pick up relatively less complex tickets, and learn more abou
 responding to a large volume of these tickets. Typically, you will start by answering tickets that come in
 through social media, advancing to general support tickets, and eventually subscriber, security, and emergency tickets.
 
+### WebEx<a name="webex"></a>
+
+More often than not, WebEx will be the best tool for customer calls, so you can save yourself a step and already start
+a WebEx session for a call. To do this you can use the `GitLab Support` WebEx account. Go to our
+[WebEx Portal](https://gitlabmeetings.webex.com), click on the login button on the top right and use the
+credentials found in the Support Vault on 1Password.
+
+![WebEx Login](/images/support/web-ex-login.png)
+
+Once logged in, click the `Enter Room` button to start the WebEx meeting and send the following link to
+the customer and ask them to join the call.
+
+```
+https://gitlabmeetings.webex.com/meet/gitlabsupport
+```
+
+![WebEx Room](/images/support/web-ex-room.png)
+
+WebEx is usually the best choice, since it allows you to see the customer's desktop and
+to control it on request. It also gives the customer the possibility to join via phone and
+us the possibility to use our computer audio connection.
+
 
 ## Handling tickets <a name="handling-tickets"/>
 
@@ -95,12 +118,12 @@ part of your response to a ticket. If the documentation does not exist yet, then
 _make_ the documentation and send the link in the response. For those situations
 where making documentation is a more time consuming exercise:
 
-- add the "documentation" tag to the ticket,
-- respond to the ticket,
-- create an issue on the [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/) or
-[GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/) repo linking to the ZenDesk
-ticket and add the "Documentation" label, and
-- add the link to this issue in the ZenDesk ticket.
+- click the "Document this" checkbox (found on the left-hand side of the ticket)
+- enter an ["internal note"](https://support.zendesk.com/hc/en-us/articles/213519318-Adding-comments-to-tickets#topic_bpn_sbd_bv) describing the documentation requirements
+- update the ticket
+
+Tickets with the "Document this" option are added to a ZenDesk view ["Documentation"](https://gitlab.zendesk.com/agent/#/filters/91188447). 
+A [Zap](https://zapier.com/app/editor/9938098/overview) is used to add ticket details to a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1GcQvDThsXuV_n4OFwdYNmq07oO7coiS8xkMP84_-eKo/edit#gid=0).
 
 ### Create issues<a name="create-issue"></a>
 
@@ -126,7 +149,7 @@ developer might ask more questions before answer)
    - Follow some process as for an unpaid feature request, AND
    - Ask for an estimate
 
-Sometimes it is helpful to create an issue on the [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/)
+Sometimes it is helpful to create an issue on the [support issue tracker](https://gitlab.com/gitlab-com/support/issues)
 when dealing with a **tough ticket**. Creating an issue allows more people within
 GitLab easy access to the questions and suggestions since not everyone is familiar
 with ZenDesk. When in doubt, create an issue. Also see the section on [when to escalate](#when-escalate).
@@ -203,7 +226,8 @@ when appropriate.
 ### When and how to escalate a ticket?<a name="when-escalate"></a>
 
 Do not hesitate to ask for help with a ticket, you can ask any of your colleagues to assist you. You can do this via
-Slack initially. If the person you know can help you the best (expert on a specific topic) is not available on
+Slack initially by [@mentioning](https://get.slack.help/hc/en-us/articles/205240127-Using-mentions) their name and providing a link to the description with an overview of the issue. 
+If the person you know can help you the best (expert on a specific topic) is not available on
 Slack, you can assign the ticket to them, add a comment summarizing the situation, and submit the
 ticket as **open**. Especially if you do are not yet fully familiar with the particular topic of the issue,
 don't spend more than 30 minutes on an issue before escalating it internally.
@@ -276,7 +300,7 @@ or follow-up as required.
 Service Engineers are regularly asked to provide customer training, and/or to provide answers to technical
 questions from potential customers. The materials for the customer training should be kept up to date [INSERT LINK] .
 Importantly, requests for Service Engineer's time for training and other non-ticket related work should be done
-via the [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/) using the 'Support' label.
+via the [internal issue tracker](https://gitlab.com/gitlab-com/support/issues) using the 'Support' label.
 If you are receiving such a request via email or Slack, please move it to an issue to allow for wider participation
 or easy escalation when needed.
 

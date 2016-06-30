@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Omnibus-gitlab OpenSSL 1.0.1h security release
 date: June 6, 2014
 author: Jacob Vosmaer

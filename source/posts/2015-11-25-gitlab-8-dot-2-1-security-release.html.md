@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 8.2.1 security release"
 date: 2015-11-25
 author: Jacob Vosmaer

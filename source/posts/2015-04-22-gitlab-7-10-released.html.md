@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "GitLab 7.10 released with Google Code Import, Default Git Hooks and a package server!"
 date: 2015-04-22
-categories:
+categories: release
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: /images/7_10/sf.jpeg

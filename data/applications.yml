@@ -39,6 +39,11 @@
       links:
         - url: http://git2go.com
           title: git2go.com
+    - title: Branches
+      content: Branches is an iPhone and iPad app for managing issues in your GitLab repositories. The app also lets you browse commits, merge requests and files.
+      links:
+        - url: http://branchesapp.co
+          title: branchesapp.co
 - title: Command Line Interface (CLI) Clients
   id: cli-clients
   applications:
@@ -81,6 +86,13 @@
           title: Repository (and issues) on GitHub
         - url: https://bitbucket.org/guyzmo/git-repo
           title: Repository on Bitbucket
+    - title: gitlab-cli
+      content: |
+        Copy global labels into a project or between projects on the same or
+        different GitLab instances, edit or delete labels using a regex.
+      links:
+        - url: https://github.com/clns/gitlab-cli
+          title: Repository on GitHub
 - title: API Clients
   id: api-clients
   applications:
@@ -162,6 +174,13 @@
         - url: https://github.com/timols/java-gitlab-api
           title: Repository on GitHub
     - title: .NET
+      content: GitLab.NET is a .NET library for GitLab's API.
+      links:
+        - url: https://www.nuget.org/packages/GitLab.NET/
+          title: NuGet Package
+        - url: https://gitlab.com/tstivers/GitLab.NET/
+          title: Repository on GitLab
+    - title: .NET
       content: NGitLab is a .NET client for GitLab.
       links:
         - url: https://github.com/Scooletz/NGitLab
@@ -230,6 +249,20 @@
       links:
         - url: https://www.reviewboard.org/
           title: Review Board
+    - title: TMetric
+      content: Easy time management tool which helps to track all your working activity in GitLab. Follow GitLab time tracking instruction to start using TMetric.
+      links:
+        - url: https://tmetric.com/help/integrations/gitlab-time-tracking/
+          title: GitLab time tracking
+    - title: MergeRequestsCI
+      content: A web-based tool to see all merge requests of your team in one place
+      links:
+        - url: https://hexanet.gitlab.io/MergeRequestsCI
+          title: Hosted version on GitLab Pages
+        - url: https://gitlab.com/hexanet/MergeRequestsCI
+          title: Repository on gitlab.com
+        - url: https://github.com/Hexanet/MergeRequestsCI
+          title: Repository on GitHub
 - title: Continuous Integration
   id: continuous-integration
   applications:
@@ -263,6 +296,14 @@
       links:
         - url: http://doc.gitlab.com/ee/integration/jenkins.html
           title: Jenkins CI integration
+    - title: Shippable
+      content: |
+        Shippable is the one solution you need to automate your application
+        delivery pipelines, with the flexibility to work with your existing
+        tools, processes and infrastructure.
+      links:
+        - url: http://docs.shippable.com/ht_using_gitlab/
+          title: Shippable GitLab integration
 - title: CMS Plugins
   id: cms-plugins
   applications:
@@ -331,6 +372,14 @@
       links:
         - url: https://github.com/MatthiasLohr/munin-plugins-gitlab
           title: Plugins on GitHub
+    - title: Blackfire.io
+      content: Blackfire enables you to automate the performance testing and profiling of your code any time you modify it.
+      links:
+        - url: https://blackfire.io
+          title: Blackfire.io
+        - url: https://blackfire.io/docs/integrations/gitlab
+          title: Gitlab integration documentation
+
 - title: Login with your GitLab.com account
   id: login-with-gitlab
   applications:
@@ -377,7 +426,7 @@
         - url: http://www.perforce.com/git"
           title: perforce.com/git
     - title: O'Reilly Atlas
-      content: 'Technical publisher O''Reilly Media has build their own frontend on top of a GitLab backend. The published a <a href="https://www.youtube.com/watch?v=IHEbYsaKW9Y&feature=youtu.be">video of the app</a> <a href="https://github.com/oreillymedia/backbone-gitlab/">Backbone for GitLab API library</a> they developed for this.'
+      content: 'Technical publisher O''Reilly Media has build their own frontend on top of a GitLab backend. They published a <a href="https://www.youtube.com/watch?v=IHEbYsaKW9Y&feature=youtu.be">video of the app</a> <a href="https://github.com/oreillymedia/backbone-gitlab/">Backbone for GitLab API library</a> they developed for this.'
       links:
         - url: https://atlas.oreilly.com/
           title: atlas.oreilly.com

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab.com outage on 2015-05-29"
 date: 2015-06-04
 author: Jacob Vosmaer

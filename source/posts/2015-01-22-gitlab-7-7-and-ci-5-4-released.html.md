@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "GitLab 7.7 and GitLab CI 5.4 with GitHub importer and OAuth authorization"
 date: 2015-01-22
-categories:
+categories: release
 author: Job van der Voort
 image_title: '/images/7_7/bg.jpeg'
 ---

@@ -15,7 +15,7 @@ backing up customers own private and secure GitLab instance.
   hardware, infrastructure, upgrades and back-ups, without compromising security
 * It allows customers to concentrate on their core business of delivering
   applications to end users
-* It facilitates the use of GitLab for organizations who do have experience in
+* It facilitates the use of GitLab for organizations who do not have experience in
   GitLab, Linux or MySQL/PostgreSQL
 
 ### What is different about GitHost than other hosted Git solutions?

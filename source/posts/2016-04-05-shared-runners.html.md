@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab.com Shared Runners use Autoscaling"
 date: 2016-04-05 16:00
 categories:

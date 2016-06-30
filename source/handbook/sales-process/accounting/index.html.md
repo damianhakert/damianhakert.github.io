@@ -45,7 +45,7 @@ title: "Accounting"
 
 * Add the following information to the terms and conditions:
 
-This order is subject to the [GitLab Terms](http://about.gitlab.com/terms/)
+This order is subject to the [GitLab Terms](https://about.gitlab.com/terms/)
 Payment via check is not possible
 Please pay this invoice by bank transfer:
 Bank: Rabobank, Croeselaan 18, 3500HG Utrecht, Utrecht, The Netherlands, +31302160000 SWIFT / BIC code: RABONL2U, Bank account number: 153952644, IBAN: NL48RABO0153952644

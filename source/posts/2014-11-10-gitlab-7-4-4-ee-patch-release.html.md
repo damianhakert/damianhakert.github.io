@@ -1,9 +1,8 @@
 ---
-layout: post
 title: "GitLab 7.4.4 EE Patch Release"
 date: 2014-11-10 09:45 +0100
+categories: release
 author: Marin Jankovski
-categories:
 ---
 
 We have released GitLab Enterprise Edition 7.4.4 that fixes a bug which causes a failing migration when updating from versions < 7.3.

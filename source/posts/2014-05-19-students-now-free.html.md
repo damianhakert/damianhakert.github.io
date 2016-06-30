@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Subscriptions update: Students do not count as GitLab users anymore"
 date: May 19, 2014
 categories: 

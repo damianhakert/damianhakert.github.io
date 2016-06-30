@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "GitLab 7.4.3 Security Release"
 date: 2014-10-30
-categories:
+categories: release
 author: Valery Sizov
 ---
 

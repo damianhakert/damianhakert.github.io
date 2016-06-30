@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab OSCON Challenge 2015"
 date: 2015-10-14
 author: GitLab Team

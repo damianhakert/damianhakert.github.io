@@ -1,9 +1,8 @@
 ---
-layout: post
 title: "GitLab 7.4.4 and 7.4.5-ee security releases"
 date: 2014-11-20
 author: Jacob Vosmaer
-categories:
+categories: release
 ---
 
 We have just released GitLab Community Edition 7.4.4 and GitLab Enterprise Edition 7.4.5 (7.4.5-ee).

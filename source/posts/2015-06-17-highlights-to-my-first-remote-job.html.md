@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Highlights to my first remote job"
 date: 2015-06-17
 author: "Karen Carías"

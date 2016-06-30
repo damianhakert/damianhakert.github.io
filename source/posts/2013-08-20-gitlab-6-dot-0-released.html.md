@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "GitLab 6.0 released"
 date: 2013-08-20 19:30
-categories:
+categories: release
 community: true
 ---
 

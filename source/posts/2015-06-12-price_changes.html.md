@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Changes to Enterprise Edition subscription pricing"
 date: 2015-06-12
 author: Haydn Mackay

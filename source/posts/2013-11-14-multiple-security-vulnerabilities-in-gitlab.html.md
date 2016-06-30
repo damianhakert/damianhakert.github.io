@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Multiple security vulnerabilities in GitLab
 date: November 14, 2013
 author: Jacob Vosmaer

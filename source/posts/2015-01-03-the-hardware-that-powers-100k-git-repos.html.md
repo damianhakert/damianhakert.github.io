@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "The hardware that powers 100,000 git repositories"
 date: 2015-01-03
 author: Job van der Voort

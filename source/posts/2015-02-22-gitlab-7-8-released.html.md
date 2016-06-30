@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "GitLab 7.8 released with GitLab.com integration, never-lost comments and GitLab Annex for managing large files"
 date: 2015-02-22
-categories:
+categories: release
 author: Job van der Voort
 author_twitter: Jobvo
 ---

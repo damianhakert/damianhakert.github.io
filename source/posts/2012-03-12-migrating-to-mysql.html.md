@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: Migrating to mysql
 wordpress_id: 260
 wordpress_url: http://blog.gitlabhq.com/?p=260

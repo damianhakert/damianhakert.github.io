@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "GitLab 7.14 released with improved syntax highlighting and Variables in CI"
 date: 2015-08-22
-categories:
+categories: release
 author: GitLab
 author_twitter: gitlab
 image_title: /images/7_14/sf.jpg

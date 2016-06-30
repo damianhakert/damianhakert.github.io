@@ -1,9 +1,8 @@
 ---
-layout: post
 title: "GitLab CE 6.3 released"
 date: 2013-11-21 10:19
 author: Dmitriy Zaporozhets
-categories:
+categories: release
 community: true
 ---
 

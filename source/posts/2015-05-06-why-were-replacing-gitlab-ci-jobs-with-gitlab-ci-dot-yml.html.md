@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Why we're replacing GitLab CI jobs with .gitlab-ci.yml"
 date: 2015-05-06
 author: Job van der Voort

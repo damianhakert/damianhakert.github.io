@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GitLab 7.2.2 Security Release and hooks migration"
 date: 2014-09-19
 categories:

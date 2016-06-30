@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "GitLab CE 6.6 released"
 date: 2014-02-21 11:47
-categories:
+categories: release
 community: true
 author: Marin Jankovski
 ---

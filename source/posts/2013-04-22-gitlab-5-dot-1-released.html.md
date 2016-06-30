@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "Gitlab 5.1 released"
 date: 2013-04-22 11:11
-categories:
+categories: release
 community: true
 ---
 

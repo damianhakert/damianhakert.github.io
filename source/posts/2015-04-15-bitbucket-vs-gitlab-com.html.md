@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Bitbucket vs. GitLab.com"
 date: 2015-04-15
 categories:

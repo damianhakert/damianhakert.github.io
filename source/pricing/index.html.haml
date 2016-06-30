@@ -96,9 +96,10 @@ extra_js:
     .row
       .col-sm-12
         %h2
-          Add-ons to the Enterprise Edition
-    .row
-      .col-sm-4
+          Options for the Enterprise Edition
+          %a{name: "options"}
+    .row.pricing-row{ data: { equal: ".col-sm-4" } }
+      .col-sm-4.col-sm-offset-2
         .plus.subscription
           .header
             GitLab Geo
@@ -152,7 +153,8 @@ extra_js:
                 %a{href: "/high-availability/"} High Availability
           %a.basic.button.subscription-btn{href: "https://gitlab.recurly.com/subscribe/gitlab_ee_annual_fee_per_user"}
             Buy now
-      .col-sm-4
+    .row
+      .col-sm-4.col-sm-offset-2
         .plus.subscription
           .header
             Pivotal Tile
@@ -169,6 +171,25 @@ extra_js:
               .body
                 Learn more about
                 %a{href: "https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/"} Pivotal.
+          %a.basic.button.subscription-btn{href: "https://gitlab.recurly.com/subscribe/gitlab_ee_annual_fee_per_user"}
+            Buy now
+      .col-sm-4
+        .plus.subscription
+          .header
+            File Lock
+          .price
+            .money> $
+            99
+            .subprice
+              yearly per user
+              %br/
+              no minimum users
+          .details
+            .detail
+              %span.fa.fa-chevron-right
+              .body
+                Learn more about
+                %a{href: "http://docs.gitlab.com/ee/user/project/file_lock.html"} File Lock.
           %a.basic.button.subscription-btn{href: "https://gitlab.recurly.com/subscribe/gitlab_ee_annual_fee_per_user"}
             Buy now
   .subs-header

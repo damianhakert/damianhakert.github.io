@@ -1,5 +1,4 @@
 ---
-layout: post
 title: GitLab subscription terms have changed
 date: 2015-05-28
 author: Marc Radulescu

@@ -2,9 +2,13 @@
 layout: markdown_page
 title: "Demand Generation"
 ---
-Go to the [Marketing Handbook](/handbook/marketing)
+# Welcome to the Demand Generation Handbook  
 
-## This page
+The Demand Generation organization includes Demand Generation, Business Development, and Online Marketing.   
+
+[Up one level to the Marketing Handbook](/handbook/marketing)
+
+## On this page
 * [References](#references)
 * [Inbound Lead Flow](#leadFlow)
 * [Lead Qualification Process](#leadQual)
@@ -17,8 +21,15 @@ Go to the [Marketing Handbook](/handbook/marketing)
 * [Inbound Leads](#inbound)
 * [New license flow](#licenseFlow)
 * [Marketo Tools Server](#marketoTools)
-* [Sales and Community Group Emails](#groupEmail) 
-* [Newsletters](#newsletters) 
+* [Sales and Community Group Emails](#groupEmail)
+* [Newsletters](#newsletters)
+* [Webcasts](#webcasts)
+
+## Demand Generation Handbooks:  
+
+- [Demand Generation](/handbook/marketing/demand-generation/)  
+- [Online Marketing](/handbook/marketing/demand-generation/online-marketing/)  
+- [Business Development](/handbook/marketing/demand-generation/business-development)  
 
 ## References<a name="references"></a>
 
@@ -36,7 +47,6 @@ Go to the [Marketing Handbook](/handbook/marketing)
 1. If region is EMEA, lead goes directly to EMEA BDR team.
 1. If region is APAC, lead goes directly to APAC Sales Director.
 1. All other regions go directly to NA BDR team.
-1. If outside of EMEA, large accounts and recognizable brand names are first passed directly to Enterprise Sales team via assignment in Salesforce + email alert to account owner.
 1. All other leads pass through BDR lead qualification process.
 
 ## Lead qualification process<a name="leadQual"></a>
@@ -48,7 +58,7 @@ Go to the [Marketing Handbook](/handbook/marketing)
 5. If further qualification is needed to understand Soft-BANT requirements, BDR team will email or schedule a phone call with lead to understand their project and initiatives.
 6. If Soft-BANT isn't met and there are questions, BDR team will answer all questions or route to support.
 7. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
-8. If a lead is from a [Fortune 500 company](http://fortune.com/fortune500/), it will be assigned to a senior account manager.
+8. If a lead is from a [Fortune 500 company](http://fortune.com/fortune500/), it will be assigned to a senior account executive.  For larger opportunities outside the US, lead will be passed to senior account executive or sales director in region.
 9. If a lead is an existing customer or a prospect that's owned/operated by an existing customer, BDR team will determine account owner and pass lead.
 10. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
 
@@ -60,14 +70,20 @@ Go to the [Marketing Handbook](/handbook/marketing)
 - Timeline => Are they willing to continue communicating about GitLab in the next few weeks? If they have another solution, are they looking to replace in the next few weeks or months?
 
 ## What counts as an SQL or MQL?<a name="SQL"></a>
-* SQL is any lead which has been both: 
-    * accepted by the sales team which has met the qualification requirements, and 
+* SQL is any lead which has been both:
+    * accepted by the sales team which has met the qualification requirements, and
     * converted to a Contact in SFDC and attached to a new Opportunity in SFDC.
-        
+
         => when converting a qualified lead, make sure that you are creating an opportunity upon conversion. This is required to map the BDR to the opportunity.  It also helps us to track the age of an opportunity from discovery call to closed.
-        
-        => if the lead is not a new opportunity, convert to a contact and uncheck the box to create a new opportunity. 
-* MQL is any lead with a lead score of 20 or greater in Marketo (lead score is calculated based on behavioral and demographic data).
+
+        => if the lead is not a new opportunity, convert to a contact and uncheck the box to create a new opportunity.
+* MQL is any lead with a lead score of 20 or greater in Marketo (lead score is calculated based on behavioral and demographic data). Some examples of bahavior or demographic data that increase lead score are:
+   * Signing up to receive the newsletter (behavioral)
+   * Signing up for an account on gitlab.com (behavioral)
+   * Filling out other web forms (contacts us, webinar registration, etc) (behavioral)
+   * Starting an EE Trial (behavioral)
+   * Working at a Fortune 500 (demographic)
+   * Job title (demographic)
 
 ## Lead status<a name="leadStatus"></a>
 
@@ -144,8 +160,33 @@ Current state
 - If an email is a quote, forward to appropriate sales people.
 - If an email is a refund or other billing request, forward to ar@gitlab.com.
 - If an email is a license issue or question, forward to support@gitlab.com.
+- If an email is received(contact request, account questions, etc. etc.), check in sfdc if there is an account owner. If there is, forward the email to the owner and change the case into their name if there is an open case. If the account owner is Chad or Hank, this is the default. Forward all inquiries/requests to Chad and he will take care of them. Also switch the sfdc case into Chad's name as well.
 
 ## Newsletters<a name="newsletters"></a>
 
 - We currently send out two newsletters a month. One is is on the second Tuesday of the month and the other is on the monthly release day (22nd).
 - The newsletters are scheduled to go out between 8 and 9 am Pacific time.
+
+## Webcasts<a name="webcasts"></a>
+
+1. Create webcast in On24
+   - Once the webcast is created, capture the `Event ID` from the overview page.
+   - Make sure to turn off all email notifications within On24 as these will be handled by Marketo
+   - Under the `Registration` tag, under `Options`, check the `Enable Login Only Option`
+2. Clone the most recent webcast in Marketo
+   - Title the webcast in the following format: `July 27 2016 Webcast {Webcast Title}`. For example, July 27 2016 Webcast Security Webcast w/ Yubico
+   - On the webcast summary page, set the event partner with the following information:
+      - Event Partner: ON24
+      - Login: ON24
+      - Event Id: The ID of the event from the On24 platform
+3. Update `My Tokens` at the webcast program level
+   - Update the add to calendar tokens
+      - Create an event in Google Calendar and copy the link from `Publish Event`
+      - Update the information in the iCal and Outlook calendar files (these will be identical)
+   - Update the event date and time
+   - Update the email body with the description of the webcast
+4. Schedule the reminder emails
+   - In the reminders folder, select each of the smart campaigns to send the emails
+   - Under the `Smart List` tab, change the date of activity to not send the email if the user has registered for the webcast within the last 48 hours of when the email will send
+   - Under the `Schedule` tab, schedule the email to go out at the appropriate time based on the smart campaign you are editing
+5. Edit the landing page to have the appropriate webcast description, date, and time.

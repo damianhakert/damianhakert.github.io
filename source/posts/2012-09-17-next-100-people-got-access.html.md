@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Next 100 people got access
 tags: []
 status: publish

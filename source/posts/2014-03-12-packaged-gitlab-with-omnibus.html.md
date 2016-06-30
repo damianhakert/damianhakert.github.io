@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Installing a packaged GitLab with GitLab Omnibus screencast
 date: March 12, 2014
 author: Job van der Voort

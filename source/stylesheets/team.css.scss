@@ -59,6 +59,7 @@ h4 {
 
     a {
       color: $color-gray;
+      font-size: 16px;
     }
   }
 
@@ -172,4 +173,8 @@ h4 {
       fill: $color-primary;
     }
   }
+}
+
+.teleport-thing {
+  margin-top: 50px;
 }

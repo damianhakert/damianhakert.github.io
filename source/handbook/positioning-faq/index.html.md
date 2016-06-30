@@ -35,17 +35,17 @@ title: "GitLab Positioning FAQ"
     1. Backed by a community of a few hundred thousand developers and 1,000 contributors.
     1. We launch new features monthly and are iterating on our product faster than anyone in the market. Thanks to our community and our open-way of working, we’ve been able to release new features quickly and effectively.
         - Job’s blog post on the topic is a great read, https://about.gitlab.com/2015/04/15/bitbucket-vs-gitlab-com/
-* I use or am looking at GitSwarm.  Do I need GitLab too?  Am I missing anything by not being with GitLab?
+* I use or am looking at GitSwarm from Perforce.  Do I need GitLab too?  Am I missing anything by not working directly with GitLab?
     1. GitSwarm is built on GitLab CE or EE.
-    1. GitSwarm combines Perforce and GitLab to enable easy project and team management while allowing developers to collaboratively code using their preferred version control system, Git.
+    1. GitSwarm combines Perforce and GitLab to give developers a Git-based workflow they prefer while also providing an organization with enterprise-class scalability, security and file management performance from Perforce.
     1. We’re happy that Perforce chose GitLab to help their customers create, code, and deploy together. To learn more, have a look at the GitSwarm overview, https://www.perforce.com/gitswarm.
-    1. How should GitLab account managers engage prospects that are currently using or evaluating GitSwarm + Perforce
-        - If the prospect is already using GitSwarm the GitLab account manager should focus on the benefits of upgrading existing GitSwarm customers to GitLab EE and track this opportunity in Salesforce with a placeholder.  Upgrading to GitLab EE creates additional reasons for a customer to switch to GitLab.
-        - GitLab EE is more of a cost effective solution.  With Perforce you pay a perpetual license fee up-front then an annual Support and Maintenance fee. The average price for one annual license of Perforce is around $450 upfront plus $100 per year. So for 1000 users you'd be looking at ~$450k versus $49k for GitLab.
-        - GitLab’s new LFS feature will allow us to compete with Perforce by providing storage for large binary files.   This is a must have feature for companies in the video, hardware and gaming space.
-        - GitLab has partnered with Perforce as a reseller and GitLab is comped 50% on every GitLab license that Perforce sells to their customer base.
-        - GitLab Account managers should be proactive in identifying companies that are using Perforce and work with them in developing a plan to migrate towards Git.  Perforce’s source code management tools are becoming outdated and tracking these companies in Salesforce will help us to manage opportunities.   In addition, prospects currently using using GitSwarm + Perforce should be identified in Salesforce.com as an opportunity that could eventually make a full transition to GitLab.  As we continue to add new features and value within the EE product we can work with these prospects towards a migration plan to make the full transition to GitLab.
-        - Perforce has developed GitSwarm as a way to reduce the loss of business from customers that are quickly transitioning to Git. Many long term Perforce customers are in the process of evaluating Git solutions and this is good time to proactively build a relationship during the early evaluation stages to gain a competitive edge. (GitLab Account Managers can review the Perforce website to see a list of Perforce's major customers).
+    1. How should GitLab account executives engage prospects that are currently using or evaluating GitSwarm?
+        - If the prospect is already using GitSwarm CE, the GitLab channel representative should work with the Perforce account executive to focus on the benefits of upgrading the customer to GitSwarm EE.
+        - Perforce customers can pay via a perpetual license fee up-front with an annual Support and Maintenance fee or they can purchase via an annual subscription fee.
+        - GitLab’s new LFS feature addresses the need to provide storage for large binary files, which is a need of many Perforce clients leveraging Git. This is a must-have feature for companies in the video, hardware and gaming space.
+        - GitLab has partnered with Perforce as a reseller.
+        - GitLab channel managers should be proactive in identifying companies that are using Perforce Helix and work with Perforce account executives in developing a plan to move them to using GitSwarm EE (or at a minimum GitSwarm CE).
+        - Many long-term Perforce customers are in the process of evaluating Git solutions for certain user segments within their organizations and this is good time to support Perforce in proactively building a relationship during the early evaluation stages.
 * We’re already using GitLab CE for free. Why should we upgrade?
     1. CE is a great option for smaller teams but larger organizations benefit from the features of GitLab EE.
     1. GitLab Enterprise Edition builds on top of the Community Edition and includes extra features mainly aimed at organizations with more than 100 users.

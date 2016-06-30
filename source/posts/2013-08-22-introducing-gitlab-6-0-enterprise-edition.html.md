@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Introducing GitLab 6.0 Enterprise Edition
 ---
 The GitLab.com team is working on Dmitriy's dream of giving the world great free tools to collaborate. After releasing GitLab 5.0 on March 22 this dream is coming closer every day. Since 5.0 the performance and stability of GitLab are best in class. This helped the community grow from 10.000 to 25.000 organizations using GitLab. We also see growing interest in larger companies with 3 Fortune 100 companies signing up for a [subscription](/subscription/) in the last quarter.
@@ -34,6 +33,6 @@ GitLab is used in a lot of universities and we want to offer affordable support 
 
 We also would like to thank the people who donated to GitLab again. Everyone will get a credit towards GitLab Enterprise of 10 times the amount they donated. Please contact support to claim your credit. From now on we will no longer accept donations but rely on subscriptions to support our full-time developers. If you want to support GitLab please convince someone to buy a subscription or help out on the issue tracker.
 
-  [GitLab Cloud](/cloud/) is our 'GitLab as a Service' and it runs on GitLab CE. It serves as a great way to make people part of the GitLab community. Therefore we want as many people as possible to enjoy it and we have decided to make it completely free. We'll completely reimbursed anyone who made a payment for GitLab Cloud. We hope you'll enjoy the unlimited private repositories and unlimited collaborators on GitLab Cloud.
+  [GitLab.com](/gitlab-com/) is our 'GitLab as a Service' and it runs on GitLab CE. It serves as a great way to make people part of the GitLab community. Therefore we want as many people as possible to enjoy it and we have decided to make it completely free. We'll completely reimbursed anyone who made a payment for GitLab Cloud. We hope you'll enjoy the unlimited private repositories and unlimited collaborators on GitLab Cloud.
 
 GitLab is only possible because of the rest of the GitLab community and we want to thank everyone. We would especially like to thank that Most Valuable Person (MVP) for the GitLab 6.0 release, Izaak Alpert, for contributing the merging between repos functionality.

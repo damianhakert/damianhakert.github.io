@@ -3,7 +3,7 @@
     %p
       %i.fa.fa-info-circle.green
       Check if your server meets
-      %a.green{href: "http://doc.gitlab.com/ce/install/requirements.html"} the hardware requirements.
+      %a.green{href: "http://doc.gitlab.com/#{type}/install/requirements.html"} the hardware requirements.
       GitLab packages are built for 64bit systems. For 32bit OS, consider
       %a.green{href: "https://about.gitlab.com/installation/"} alternative installation methods.
   .tab-step
@@ -27,11 +27,12 @@
     %p
       %pre
         = "#{platform.download_command}\n#{platform.install_commands}"
-      If you are not comfortable installing the repository through a piped script, you can find the
-      %a{href: "https://packages.gitlab.com/gitlab/gitlab-ce/install"} entire script here
-      and
-      %a{href: "https://packages.gitlab.com/gitlab/gitlab-ce"} select and download the package manually
-      and install using
+      %p
+        If you are not comfortable installing the repository through a piped script, you can find the
+        %a{ href: "https://packages.gitlab.com/gitlab/gitlab-#{type}/install" }entire script here
+        and
+        %a{ href: "https://packages.gitlab.com/gitlab/gitlab-#{type}" }select and download the package manually
+        and install using
       %pre
         = platform.install_commands_manual
   .tab-step
@@ -46,7 +47,7 @@
     :markdown
       On your first visit, you'll be redirected to a password reset screen to provide the password for the initial administrator account. Enter your desired password and you'll be redirected back to the login screen.
 
-      The default account's username is **root**.Provide the password you created earlier and login. After login you can change the username if you wish.
+      The default account's username is **root**. Provide the password you created earlier and login. After login you can change the username if you wish.
   .tab-step
     %p
       %i.fa.fa-info-circle.green

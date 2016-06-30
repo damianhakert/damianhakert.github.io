@@ -1,10 +1,9 @@
 ---
-layout: post
 title: "GitLab 7.10.0 Omnibus patch release"
 date: 2015-04-23
+categories: release
 author: Jacob Vosmaer
 author_twitter: jacobvosmaer
-
 ---
 
 We have just released new Omnibus packages for GitLab 7.10 that address issues

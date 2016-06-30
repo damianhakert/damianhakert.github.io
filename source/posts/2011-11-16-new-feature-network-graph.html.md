@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: "New feature: network graph"
 wordpress_id: 39
 wordpress_url: http://blog.gitlabhq.com/?p=39

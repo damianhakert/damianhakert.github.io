@@ -1,5 +1,4 @@
 --- 
-layout: post
 title: Merge Request improved
 wordpress_id: 407
 wordpress_url: http://blog.gitlabhq.com/?p=407

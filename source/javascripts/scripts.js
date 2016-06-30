@@ -15,7 +15,8 @@ $(function() {
       $hireUs = $('#hire-us'),
       $tabs = $('#tabs'),
       $imageLink = $('.image-link'),
-      $blogTables = $('.blog-entry table');
+      $tables = $('table'),
+      internalNavigationEvent = 'onpopstate' in window ? 'popstate' : 'hashchange';
 
   $("input").not("[type=submit]").jqBootstrapValidation();
 
@@ -61,27 +62,24 @@ $(function() {
     });
   }
 
-  if ($blogTables.length) {
-    $blogTables.each(function () {
-      var $table = $(this),
-          isHighlighted = $table.closest('.highlight');
-
-      if (isHighlighted) {
-        $table.addClass('highlighttable');
-      }
+  if ($tables.length) {
+    $tables.each(function () {
+      var $table = $(this);
 
       $(this).wrap('<div class="table-responsive"></div>');
     });
   }
 
   var changeScrollPosition = function () {
+    if (window.location.hash === '' || window.location.hash.indexOf('#stq=') === 0) { return; }
+
     var hash = window.location.hash,
         $el = $('a[name="' + hash.replace('#', '') + '"], ' + hash + ''),
         extraHeight = $('.navbar-header').outerHeight(),
         $qnav = $('#qnav');
 
     if ($qnav.length) {
-      extraHeight += $qnav.outerHeight();
+      extraHeight += $qnav.outerHeight() - 2;
     }
 
     if ($el.length) {
@@ -89,18 +87,30 @@ $(function() {
     }
   }
 
-  $(window).on("hashchange", changeScrollPosition);
-});
+  $(window).on('load ' + internalNavigationEvent, function () {
+    setTimeout(changeScrollPosition, 10);
+  });
 
-$(window).on('load', function () {
-  setTimeout(function() {
-    if (window.location.hash !== '') {
-      var target = $('a[name="' + window.location.hash.replace('#', '') + '"]'),
-          extraHeight = $('.navbar-header').outerHeight();
+  // Search
+  var $search = $('.js-search'),
+      $searchIcon = $('.js-search-icon');
 
-      if (target.length) {
-        $(window).scrollTop(target.offset().top - extraHeight);
-      }
+  $('.js-search-icon').on('click', function () {
+    $searchIcon.parent().addClass('is-open is-focused');
+
+    setTimeout(function () {
+      $search.focus();
+    }, 350);
+  })
+
+  $search.on('keyup', function (e) {
+    if (e.which === 13) {
+      // Trigger a search by changing hash
+      window.location.hash = '#stq=' + $(this).val()
     }
-  }, 10);
+  }).on('focus', function () {
+    $(this).parent().addClass('is-focused');
+  }).on('blur', function () {
+    $(this).parent().removeClass('is-focused');
+  });;
 });
