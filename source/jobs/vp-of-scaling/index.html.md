@@ -5,15 +5,16 @@ title: "Vice President of Scaling"
 
 ## Responsibilities
 
-- Temporarely lead area's where the company is missing a leader
-- While leading change the company processes as needed
-- Hire people and transition the responsibility to them
-- Tackle cross-disciplinary initiatives in colleboration with the CEO
+- Temporarily lead areas where the company is missing a leader
+- While leading, change the company processes as needed
+- Hire people and transition the responsibilities to them
+- Tackle cross-disciplinary initiatives in collaboration with the CEO
 - Be available for quick turnaround time on urgent initiatives as identified by the CEO
 
 ### Current specific responsibilities
 
-Lead the People Ops team, and structure [People Ops processes](https://about.gitlab.com/people-operations/) until handoff to the [People Operations Director](https://about.gitlab.com/jobs/people-ops-director/).
+Lead the People Ops team, and structure [People Ops processes](https://about.gitlab.com/people-operations/) 
+until handoff to the [VP or Director of People Operations](https://about.gitlab.com/jobs/dir-or-vp-of-people-ops/).
 
 ## Requirements
 
