@@ -105,10 +105,10 @@ The full contents of our `config.toml` are:
   executor = "docker+machine"
   [runners.docker]
     image = "ruby:2.1"
-    privileged = false
+    privileged = true
     volumes = ["/cache", "/usr/local/bundle/gems"]
   [runners.machine]
-    IdleCount = 20
+    IdleCount = 40
     IdleTime = 1800
     MaxBuilds = 1
     MachineDriver = "digitalocean"
