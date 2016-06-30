@@ -7,14 +7,16 @@ This demonstration is designed to show customers the highlights of GitLab and th
 
 # Sections
 - [Overall navigation](#overall_navigation)
-- ]Basic product demo](#basic_product_demo)
-
+- [Basic product demo](#basic_product_demo)
+- [Issues and milestones](#issues_milestones)
+- [Product differentiations](#product_differentiations)
+- [EE vs. CE](#ee_vs_ce)
 ## Prerequisites
 - Access to a GitLab instance
 - Ability to create a project
 - If Internet access is available, start at this URL while logged in: https://gitlab.com/
 
-## <A HREF="overall_navigation"></A>OVERALL NAVIGATION
+## <A name="overall_navigation"></A>OVERALL NAVIGATION
 
 ### Front page navigation
 
@@ -48,7 +50,7 @@ This demonstration is designed to show customers the highlights of GitLab and th
 - Help
 - Profile settings
 
-## <A HREF="basic_product_demo"></A>BASIC PRODUCT DEMO
+## <A name="basic_product_demo"></A>BASIC PRODUCT DEMO
 
 ### Project / GitLab flow
 - Ensure you are signed in
@@ -100,7 +102,7 @@ This demonstration is designed to show customers the highlights of GitLab and th
 - Code->Network
  - See network diagram!
 
-## Issues and milestones -- see how they are created, used and closed
+## <A name="issues_milestones"></A>Issues and milestones -- see how they are created, used and closed
 
 - Create issue
  - “Readme needs more detail
@@ -117,7 +119,7 @@ Update readme file with new information - on temp branch
 Attach readme to merge request with issue
 
 
-## Product differentiations
+## <A name="product_differentiations"</A>Product differentiations
 
 ### vs. BitBucket
 
@@ -177,7 +179,7 @@ Attach readme to merge request with issue
 
 
 
-## EE vs. CE
+## <A name="ee_vs_ce"></A>EE vs. CE
 - Reporting
 - Workflow Management
 - Additional server management options
