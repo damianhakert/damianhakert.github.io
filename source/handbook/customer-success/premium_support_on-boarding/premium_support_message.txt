@@ -1,0 +1,11 @@
+Hello!
+
+Thank you for purchasing ia GitLab Premium Technical Support subscription.  We are now in the process of assigning a Service Engineer to your subscription. You can expect to be contacted with in approximately 48 hours to arrange an introductory call.
+
+At any time you can find information on Gitlab Support at this URL:
+
+   https://about.gitlab.com/handbook/support/
+
+Thank you,
+
+The GitLab Team
