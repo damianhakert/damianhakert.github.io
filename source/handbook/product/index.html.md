@@ -12,6 +12,8 @@ and new features.
 
 _As everything at GitLab, this document is forever in draft. Merge requests are very welcome._
 
+Infographics from [xkcd](www.xkcd.com).
+
 ## TL;DR
 
 1. [Minimally Viable Change](#the-minimally-viable-change): Work in iterations by implementing only the minimally viable change
