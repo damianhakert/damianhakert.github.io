@@ -43,7 +43,16 @@ whatever feedback tells us)
 
 ## Convention over Configuration
 
-Avoid configuration at all costs.
+Prefer choices that are well thought out, based on current best practices.
+Avoid unnecessary configuration.
+
+For example, when considering adding a checkbox or two radio boxes, think really
+hard what users really want. Most of the time, you'll find you really only need
+one solution, so remove the option. When two possible choices really are
+necessary, the best or most common one should be default, and the other one
+should be possible. If the non-default choices are significantly less common,
+then consider taking them out of the main workflow for making decisions such as
+putting them behind an Advanced configuration tab.
 
 Every configuration in GitLab multiplies its complexity, which means
 the application is harder to use, harder to develop, and
