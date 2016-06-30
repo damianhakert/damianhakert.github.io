@@ -18,6 +18,7 @@ Create issue for former team member on the dev server in the [organization issue
    * [ ] Robert/Jacob V/Ernst: upon manager's request (typically 4 weeks after blocking
      the Google account), transfer owned documents from Google Drive to
    manager, and delete the Google account. (automatically disables Drive access)
+* [ ] Robert/Jacob V/Ernst: remove former team member's email from email aliases, if not done automatically.
 * [ ] Robert/Jacob V: Remove former team members' GitLab.com account from the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members)
 * [ ] Robert/Jacob V: Remove former team members' GitLab.com account from the [gitlab-org group](https://gitlab.com/groups/gitlab-org/group_members) (if applicable)
 * [ ] Robert/Jacob V: Remove former team members' GitHub.com account from the [gitlabhq organization](https://github.com/orgs/gitlabhq/people) (if applicable)
