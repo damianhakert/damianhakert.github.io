@@ -538,13 +538,10 @@ version we use, but that's not the case with PostgreSQL. That's why in the
 [Edit the NFS exports file](#edit-the-nfs-exports-file) section you were asked
 to note down all volumes except for PostgreSQL's.
 
-This is a known issue to both parties and is [being worked on][1251]. This is
-the same case for the Redis image, that's why we need to also alter its NFS
-volume. Current Redis images may have this issue resolved.
-
-Here are some issues which are currently being worked on in order to provide
-full OpenShift support without the need to edit any configuration files in the
-OS level. Feel free to subscribe to follow their status:
+Here are some issues we are currently working on with the OpenShift team in
+order to provide full OpenShift support without the need to edit any
+configuration files in the OS level. Feel free to subscribe to follow their
+status:
 
 - Support running GitLab in OpenShift without the need for a privileged container ([1251])
 - Support running `gitlab-ctl reconfigure` as non-root user ([1324])
