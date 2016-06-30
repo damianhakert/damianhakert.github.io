@@ -208,7 +208,7 @@ Add a New Division
 
 ### Process Referral Bonus<a name="referral-bonus"></a>
 
-People Ops should receive an email from a new employee stating who [referred](/handbook/#referral-bonuses) them to the position at GitLab. 
+If applicable, People Ops will process a [referral bonus](/handbook/#referral-bonuses). 
 
 #### Document a future bonus in BambooHR
 
