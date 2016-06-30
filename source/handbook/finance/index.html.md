@@ -4,28 +4,20 @@ title: "Finance"
 ---
 
 ## Reaching Finance<a name="reach-finance"></a>
+{: .no_toc}
 
 - [**Public Issue Tracker**](https://gitlab.com/gitlab-com/finance/issues/); please use confidential issues for topics that should only be visible to team members at GitLab.
 - [**Chat channel**](https://gitlab.slack.com/archives/finance); please use the `#finance` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
 
 ## Finance Topics
+{: .no_toc}
 
-* [Signature Authorization Matrix](#auth-matrix)
-* [Sales Compensation Plan](#comp-plan)
-* [General Topics](#general-topics)
-   * [Company accounts](#company-accounts)
-* [Processing Payroll](#payroll)
-   * [GitLab Inc. payroll](#payroll-inc)
-   * [GitLab BV pay slips](#payroll-bv)
-* [Invoices template and where to send](#invoices)
-* [Commission Payment Process](#commission)
-* [Company Credit Cards](#company-cc)
-* [Accounts Receivable](#ar)
-* [Cash Receipt](#cash-receipt)
+- TOC
+{:toc}
 
 ---
 
-## Signature Authorization Matrix<a name="auth-matrix"></a>
+## Signature Authorization Matrix
 
 <table border="1">
   <tr>
@@ -482,21 +474,21 @@ title: "Finance"
   </tr>
 </table>
 
-**Notes/Comments**:  
+**Notes/Comments**:
 
-- (1) If in Plan  
+- (1) If in Plan
 - (2) If Not Included in Company Plan
 - (3) Approved by Compensation Committee (or Board if no Compensation Committee)
 - (4) All purchases must have purchase req (or email approval) in accordance with SAM
 
 ---
 
-## Sales Compensation Plan <a name="comp-plan"></a>
+## Sales Compensation Plan
 
 ### Plan Purpose
 
 GitLab has introduced the 2016 Sales Compensation Plan, as specified in this Master Plan Document (the "Plan"), to develop the highest quality global organization by attracting, retaining and rewarding eligible GitLab contributors (“Participants”) who reach and exceed their sales, revenue and individual performance goals.  “GitLab” is defined as the employing/contracting legal entity of the applicable Participant (from among the GitLab group of Companies, which is comprised of GitLab Inc., GitLab BV and any of its’ direct or indirect subsidiaries or affiliates).
-Except as required by applicable law, nothing in this Plan or any Participant Schedule is intended to create or amend any existing employment or contractor agreement for a particular term with any Participant.  
+Except as required by applicable law, nothing in this Plan or any Participant Schedule is intended to create or amend any existing employment or contractor agreement for a particular term with any Participant.
 Participants are reminded that in addition to their eligibility for Commissions and Bonuses, they are paid a Base Salary or Base Contractor Fee, which entitles GitLab to expect that: each Participant will act in GitLab’s best interest even if it does not result in commissions or bonuses paid to them; Participants will assist others in earning business for GitLab, even if it does not result in commissions or bonuses paid to them; and that Participants will perform all other duties and responsibilities required or assigned to them.
 
 ### Definitions
@@ -524,7 +516,7 @@ Any and all costs of collection.
 ### Effective Date
 
 This Plan is effective for all Commissions or Bonuses calculated for payment or otherwise earned hereunder during the Plan term, which begins on January 1, 2016 (“Effective Date”).  This Plan will remain in effect as the governing plan until explicitly amended or replaced by another plan.   However, each Participant Schedule shall be effective only for the calendar year designated on each such Participant Schedule unless extended by writing (including email) by the Company.
-As of the Effective Date, this Plan supersedes and replaces all prior plans regarding the payment of commissions, bonuses and similar incentive compensation by GitLab.  
+As of the Effective Date, this Plan supersedes and replaces all prior plans regarding the payment of commissions, bonuses and similar incentive compensation by GitLab.
 
 ### Eligibility
 
@@ -593,7 +585,7 @@ For the purposes of this formula:
 “B” means the amount of any Commissions paid on returned Realized Revenue (as determined by GitLab) or third party commissions such as third party software vendors or resellers; and
 “C” means the amount of any Advances Against Compensation.
 (c) Commissions Earned on Realized Revenue paid by the Customer, and advanced Commission payments based on revenue recognized and invoiced pursuant to Section 5(a) above, will be calculated on a monthly basis.
-(d)	Eligible Commissions will be paid within 30 days of the end of the applicable month. Specific payment date(s) will be stated on individual's participant schedule.  
+(d)	Eligible Commissions will be paid within 30 days of the end of the applicable month. Specific payment date(s) will be stated on individual's participant schedule.
 
 ### Non Commission Incentives
 
@@ -602,9 +594,9 @@ Participants may also from time to time be eligible to receive a discretionary b
 ### General Administrative Provisions
 
 1.  This Plan supersedes all prior commission, bonus or incentive compensation plans applicable to Plan Participants.  The provisions of any prior commission, bonus or incentive compensation plan not specifically addressed in this Plan shall no longer operate, nor shall said provisions be considered part of the Plan.  Please also refer to the section entitled “Effective Date” above.
-1.  GitLab reserves the right to interpret, reinterpret, amend, modify, extend, or terminate the Plan and any Participant Schedule, in whole or in part, at any time.  This right includes, but is not limited to, any and all decisions regarding salaries, Commissions, Bonus eligibility, Sales Targets, revenue attainment, sales assignments or areas of responsibility such as assigned industries, Customers, prospective Customers, market segments, specific geographical areas, or any other Commission or Bonus-related classifications and determinations, or any other matter affecting the Participant's employment.  GitLab reserves the right to adjust Sales Targets for any or all Participant's during the year if, in GitLab’ sole opinion, significant changes occur with regard to the industry, GitLab’ assessment of the industry, or GitLab’ position within the industry.  GitLab further reserves the right to adjust Sales Target and Realized Revenue determinations, including decisions regarding the attainment of such targets or levels by any Participant and the corresponding right to adjust or offset Commissions paid or payable and the applicable Commission rates based on such determinations.  GitLab will make decisions related to position transfers that may affect Participants on a case-by-case basis.  All such interpretations, amendments, modifications, extensions, adjustments, changes and/or revisions to the Plan or a Participant Schedule shall be binding on the Participant.  Notification of any such changes to the Plan or any Participant Schedule may be made in writing or by electronic mail to the affected Participants.  In all such matters of administration of the Plan, the CEO, CFO (or the CFO’s designee) shall have final responsibility and authority.  All decisions of the CEO or CFO in interpreting this Plan or a Participant Schedule shall be final and binding.  
+1.  GitLab reserves the right to interpret, reinterpret, amend, modify, extend, or terminate the Plan and any Participant Schedule, in whole or in part, at any time.  This right includes, but is not limited to, any and all decisions regarding salaries, Commissions, Bonus eligibility, Sales Targets, revenue attainment, sales assignments or areas of responsibility such as assigned industries, Customers, prospective Customers, market segments, specific geographical areas, or any other Commission or Bonus-related classifications and determinations, or any other matter affecting the Participant's employment.  GitLab reserves the right to adjust Sales Targets for any or all Participant's during the year if, in GitLab’ sole opinion, significant changes occur with regard to the industry, GitLab’ assessment of the industry, or GitLab’ position within the industry.  GitLab further reserves the right to adjust Sales Target and Realized Revenue determinations, including decisions regarding the attainment of such targets or levels by any Participant and the corresponding right to adjust or offset Commissions paid or payable and the applicable Commission rates based on such determinations.  GitLab will make decisions related to position transfers that may affect Participants on a case-by-case basis.  All such interpretations, amendments, modifications, extensions, adjustments, changes and/or revisions to the Plan or a Participant Schedule shall be binding on the Participant.  Notification of any such changes to the Plan or any Participant Schedule may be made in writing or by electronic mail to the affected Participants.  In all such matters of administration of the Plan, the CEO, CFO (or the CFO’s designee) shall have final responsibility and authority.  All decisions of the CEO or CFO in interpreting this Plan or a Participant Schedule shall be final and binding.
 1.  If (i) any Realized Revenue is subsequently returned (whether as a cash refund or credit for future services) to the Customer for any reason, (ii) any revenue recognized and invoiced, and used by GitLab to calculate and pay an advance Commission payment and/or Advances Against Compensation pursuant to Section 5(a) above, remains unpaid by the Customer after 90 days following the due date of the applicable invoice, or (iii) GitLab’ recognition of Realized Revenue is reversed, then all Commissions paid or payable with respect to such revenues shall be reversed and deducted from the calculation of future Commissions in accordance with the formula in Commissions, Section 5(b) above, or otherwise offset against other Commissions due and payable.  Credit memoranda and write-offs also represent returned revenue that may result in a Commission reversal to be determined at the sole discretion of the CFO.  No Commissions shall be paid on non-purchased credits consumed and invoiced.  The reversal of any unpaid Commissions shall result in a reduction of the Commissions due to the Participant.  The reversal of any paid Commissions shall be charged to the Participant’s account and set off against future Commission payments unless otherwise approved by the CFO.  Any reversal of Commissions and the corresponding Realized Revenue may also result in a reduction and adjustment of the Participant's attainment levels relative to Realized Revenue and Sales Targets attainment, and the applicable Commission percentages paid or payable on a Sales Agreement or Realized Revenue.
-1.  If a Participant disagrees with the calculation of Commission payments or any other decision by GitLab hereunder, the Participant may appeal the decision by submitting an explanation, in writing or by e-mail, to the Participant’s assigned manager and the CFO.  All such appeals must be submitted within 90 days of the original GitLab decision forming the basis of the appeal or the Commission payment or non-payment.  Within a reasonable period of time, not to exceed forty-five (45) days following the submission of the appeal, the CFO will issue a final decision regarding the appeal.  All such decisions shall be final and binding on GitLab and the Participant.  
+1.  If a Participant disagrees with the calculation of Commission payments or any other decision by GitLab hereunder, the Participant may appeal the decision by submitting an explanation, in writing or by e-mail, to the Participant’s assigned manager and the CFO.  All such appeals must be submitted within 90 days of the original GitLab decision forming the basis of the appeal or the Commission payment or non-payment.  Within a reasonable period of time, not to exceed forty-five (45) days following the submission of the appeal, the CFO will issue a final decision regarding the appeal.  All such decisions shall be final and binding on GitLab and the Participant.
 1.  Participants are not authorized to accept or enter into contracts, purchase orders or Statements of Work on behalf of GitLab or otherwise legally bind GitLab in any way.  All contracts and Statements of Work must be presented to the GitLab Legal Department and the CFO (or the CFO’s designee) for review, processing and authorization.  Only the CFO and the CEO of GitLab are authorized to sign and accept contracts on behalf of GitLab, unless specific written authorization to do so is provided by one of the foregoing officers.   GitLab reserves the right to reject any proposed contract or Sales Agreement for any reason at its sole discretion.
 1.  GitLab’ general policy is to allocate Commissions for each Sales Agreement only to the Participant most responsible for closing the Sales Agreement (as determined in GitLab’ sole discretion). Commissions eligibility may also be based upon the closing of business by the Participant's assigned team (as may be further defined in the Participant Schedule).  If a team revenue target applies (as specified in the Participant Schedules of the team members), or in certain other highly exceptional circumstances in which multiple Participants worked cooperatively with each other and such Participants provided significant assistance in all phases of the sales effort, a Commission may be split among the cooperating Participants (which may also include in certain circumstances, as determined in GitLab’s sole discretion, the splitting of Commissions for sales made, and revenue received by, GitLab’s affiliated companies).  The total split Commission will not be greater than the total Commission that could be earned by any Participant individually.  In any such situation, including the transitioning of Customer accounts from one Participant to another, the CFO will determine the appropriate allocation of Commissions among the Participants.  A Participant’s referral of a lead to another Participant or general networking activities (including activities at trade shows) will not warrant the sharing of Commissions.
 1.  If a Participant's employment with GitLab is terminated by the Participant or GitLab, regardless of the reason or cause for such termination (if any), then, except as stated in this Section, the Participant will be paid only for those Commissions Earned through the Participant's last day of employment, provided that, all other terms and conditions of the Plan have been satisfied.  Any Earned Commissions which have not been paid to the former Participant as of his or her termination date may be withheld, at GitLab’s discretion, for up to ninety (90) days following termination of the Participant in order to accommodate potential Commission reversals and other adjustments.  GitLab shall be entitled to recover any unearned advance and/or Advances Against Compensation made intentionally or inadvertently against Commissions, unless the advance is specifically approved as a salary supplement.  If, within 90 days of the invoice date, the Customer does not pay for the services relative to any Commissions advanced by GitLab, at GitLab’s request the Participant agrees to reimburse GitLab for the Commissions advanced.  Advances Against Compensation balances on record upon a Participant’s termination of employment, for any reason, will be collected from the employee's Base Salary or from any other compensation payable to the employee.  Participants electing to receive Advances Against Compensation agree (a) that Participant authorizes GitLab to offset such deficit balance against any unpaid salary, wages (and accrued but unpaid vacation) or travel expense reimbursement owing to Participant upon termination of Participant’s employment with GitLab (b) that upon termination of their employment any Deficit Balance may be deducted from Participant’s final paycheck and (c) the employee will reimburse GitLab for any remaining balance on record with personal funds.
@@ -620,9 +612,9 @@ Participants may also from time to time be eligible to receive a discretionary b
 
 ---
 
-## General Topics<a name="general-topics"></a>
+## General Topics
 
-### Company accounts<a name="company-accounts"></a>
+### Company accounts
 
 Login information for the following accounts can be found in the Secretarial vault
 on 1Password:
@@ -633,9 +625,9 @@ on 1Password:
 
 If you need this information but cannot find it in your shared vaults you can check with PeopleOps to get access.
 
-## Processing Payroll  <a name="payroll"></a>
+## Processing Payroll
 
-### GitLab Inc. Payroll Procedures <a name="payroll-inc"></a>
+### GitLab Inc. Payroll Procedures
 
 1. You will receive a reminder from TriNet the week before payroll closes for each pay period.
 1. If you are handling payroll changes- the email will let you know by what date you must submit those changes.
@@ -675,13 +667,12 @@ If you need this information but cannot find it in your shared vaults you can ch
 1. Review
 1. Update
 
-### GitLab BV Pay Slip Distribution Process <a name="payroll-bv"></a>
+### GitLab BV Pay Slip Distribution Process
 
 All GitLab BV employees receive their payslips within their personal portal of Savvy.
 They can login and download their payslip to their computer if needed.
 
-
-## Invoice template and where to send <a name="invoices"></a>
+## Invoice template and where to send
 
 NOTE: Vendor and contractor invoices are to be sent to ap@gitlab.com. An invoice
 template can be found in Google Docs by the name of "Invoice Template".
@@ -691,12 +682,11 @@ template can be found in Google Docs by the name of "Invoice Template".
 In many cases, VAT will not be payable on transactions between GitLab BV and EU-based
 vendors/contractors, thanks to "Shifted VAT". To make use of this shifted VAT:
 
-* The vendor/contractor writes the phrase "VAT shifted to recipient according to
-article 44 and 196 of the European VAT Directive" on the invoice along with the
+* The vendor/contractor writes the phrase "**VAT shifted to recipient according to
+article 44 and 196 of the European VAT Directive**" on the invoice along with the
 VAT-number of GitLab BV (NL853740343B01).
 * On the vendor's VAT return the revenue from GitLab BV goes to the rubric "Revenue within the EU". It goes without saying that vendors are responsible for their own correct and timely filings.
 * GitLab BV files the VAT on the VAT return, and is generally able to deduct this VAT all as part of the same return.
-
 
 ### Processing payment for invoices
 
@@ -737,7 +727,7 @@ Invoices will arrive by email to ap@gitlab.com.
 1. Add attachments: Copy of invoice and email approval
 1. Save and close
 
-## Commission Payment Process <a name="commission"></a>
+## Commission Payment Process
 
 1. Each sales person will receive their own calculation template.
 1. Salesperson is to complete their monthly template four days (payroll will send reminder) prior to first payroll of the month. Upon completion, salesperson will ping a manager for review and approval.
@@ -747,7 +737,7 @@ Invoices will arrive by email to ap@gitlab.com.
 1. Accounting will ping payroll that commission calculation is complete.
 1. Payroll will enter commission into TriNet.
 
-## Company Credit Cards <a name="company-cc"></a>
+## Company Credit Cards
 
 1. All team members that regularly make company purchases may request a company credit card.
 1. You are personally responsible to make sure that the charges on the card are for GitLab business only.
@@ -755,7 +745,7 @@ Invoices will arrive by email to ap@gitlab.com.
 1. Those who need a company credit card will be provided with additional directions for card management and reporting.
 1. If you request a company credit card for yourself or a direct report, please make sure that you are added to Expensify for monthly reporting by sending an email to finance@gitlab.com
 
-## Accounts Receivable <a name="ar"></a>
+## Accounts Receivable
 
 ### Invoicing
 
@@ -799,11 +789,11 @@ Invoices will arrive by email to ap@gitlab.com.
 
 At this point the invoicing process is complete. Now, continue on to the Cash Receipt posting process for those invoices that were paid by credit card.
 
-## Cash Receipt <a name="cash-receipt"></a>
+## Cash Receipt
 
 ### Credit card customer
 
-Follow this procedure if the customer paid by credit card.  
+Follow this procedure if the customer paid by credit card.
 You may recall from the invoicing process that there was still a balance due when saving the invoice.  The following steps will record the payment and remove the balance due.
 
 1. Login to Stripe dashboard and click on Payments under Transactions (left hand side). You will see a listing of the latest Stripe transactions listed by amount, Recurly transaction, name, date and time. There is also an option to filter the report by clicking on XXX at the top left. Click on XXX to export to excel. This will give you a workbook area and also a breakdown of the fees which we will work on later.
@@ -852,7 +842,6 @@ Post a journal entry:
 1. Leave "Class" blank.
 1. Fill the "Description" with "To record Stripe transfer (date of transfer)".
 1. Click "Save".
-
 
 ### Posting a payment from a “bank customer”
 
