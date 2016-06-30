@@ -103,5 +103,4 @@ work in parallel (like a link in the issue), encouraging rather than enforcing
 certain behaviors.
 
 We don't want users to be able to construct workflows that break GitLab or
-make it work in unpredictable ways. Custom workflows, like you find in JIRA,
-are the opposite of what we want to our users.
+make it work in unpredictable ways.
