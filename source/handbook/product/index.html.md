@@ -10,12 +10,14 @@ GitLab is designed and developed in a unique way.
 This document provides lessons and heuristics on how to design changes
 and new features.
 
+_As everything at GitLab, this document is forever in draft. Merge requests are very welcome._
+
 ## TL;DR
 
-1. MVC: Work in iterations by implementing only the minimally viable change
-1. Convention over Configuration: Avoid configuration and make it work out of the box:
-1. Be ambitious: do things no one else is doing
-1. Do not mess with flow: _frictionless_ from idea to production
+1. [Minimally Viable Change](#the-minimally-viable-change): Work in iterations by implementing only the minimally viable change
+1. [Convention over Configuration](#convention-over-configuration): Avoid configuration and make it work out of the box:
+1. [Be Ambitious](#be-ambitious): do things no one else is doing
+1. [Do not mess with Flow](#do-not-mess-with-flow): _frictionless_ from idea to production. Avoid adding clicks.
 
 ## The Minimally Viable Change
 
