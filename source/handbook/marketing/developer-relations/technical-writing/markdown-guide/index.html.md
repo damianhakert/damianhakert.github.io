@@ -481,7 +481,7 @@ This method works for YouTube videos and any other embed video within an `<ifram
 ```html
 <!-- blank line -->
 <figure class="video_container">
-  <iframe src="http://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 <!-- blank line -->
 ```
@@ -493,7 +493,7 @@ This method works for YouTube videos and any other embed video within an `<ifram
 
 <div class="panel-body">
 <figure class="video_container">
-  <iframe src="http://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 </div>
 </div>
@@ -1220,12 +1220,7 @@ My important paragraph.
 {: .alert .alert-info}
 ```
 
-<div class="panel panel-info">
-**Output**
-{: .panel-heading}
-<div class="panel-body">
-
-Blue panel:
+Blue panels render like:
 
 <div class="panel panel-info">
 **Note**
@@ -1235,13 +1230,10 @@ INFO DESCRIPTION
 </div>
 </div>
 
-Blue alert box:
+And blue alert boxes render like:
 
 My important paragraph.
 {: .alert .alert-info}
-
-</div>
-</div>
 
 ### Warnings
 
@@ -1267,12 +1259,7 @@ My warning paragraph.
 {: .alert .alert-warning}
 ```
 
-<div class="panel panel-info">
-**Output**
-{: .panel-heading}
-<div class="panel-body">
-
-Amber panel:
+Amber panels render like:
 
 <div class="panel panel-warning">
 **Warning**
@@ -1284,13 +1271,10 @@ WARNING DESCRIPTION
 </div>
 </div>
 
-Amber alert box:
+And amber alert boxes render like:
 
 My warning paragraph.
 {: .alert .alert-warning}
-
-</div>
-</div>
 
 ### Danger
 
@@ -1316,12 +1300,7 @@ My danger paragraph.
 {: .alert .alert-danger}
 ```
 
-<div class="panel panel-info">
-**Output**
-{: .panel-heading}
-<div class="panel-body">
-
-Red panel:
+Red panels render like:
 
 <div class="panel panel-danger">
 **Danger**
@@ -1331,13 +1310,10 @@ DANGER DESCRIPTION
 </div>
 </div>
 
-Red alert box:
+And red alert boxes render like:
 
 My danger paragraph.
 {: .alert .alert-danger}
-
-</div>
-</div>
 
 ### Do's and Don'ts
 
@@ -1383,12 +1359,7 @@ NOT TO DO.
 {: .alert .alert-danger}
 ```
 
-<div class="panel panel-info">
-**Output**
-{: .panel-heading}
-<div class="panel-body">
-
-DO'S:
+By doing so, the green panels for "DO'S" will look like:
 
 <div class="panel panel-success">
 **Do's**
@@ -1400,17 +1371,15 @@ THINGS TO DO
 </div>
 </div>
 
-or
+or, if you chose an alert box:
 
 TO DO.
 {: .alert .alert-success}
 
-----
-
-DONT'S:
+And for your "DON'TS" within red panels will look like:
 
 <div class="panel panel-danger">
-**Dont's**
+**Don'ts**
 {: .panel-heading}
 <div class="panel-body">
 
@@ -1419,13 +1388,10 @@ THINGS NOT TO DO
 </div>
 </div>
 
-or
+or, if you chose a red alert box:
 
 NOT TO DO.
 {: .alert .alert-danger}
-
-</div>
-</div>
 
 ----
 
