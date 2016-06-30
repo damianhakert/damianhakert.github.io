@@ -55,6 +55,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Work Remotely Travel Grant](#travel-grant)
 * [Signing Legal Documents](#signing-legal-documents)
 * [Working Remotely](#working-remotely)
+   * [Coffee Break Calls](#coffee-break-calls)
 * [Tools and Tips](#tools)
 * [Using Git to update this website](#starting-with-git)
 
@@ -574,6 +575,10 @@ If you worked at an office before, now you lack a default group to go out to
 lunch with. To look at it from a different perspective, now you can select who
 you lunch with and who you do not lunch with. Haven't spoken to a good friend in
 a while? Now you can have lunch together.
+
+### Coffee Break Calls
+
+Understanding that working remotely leads to mostly work-related conversations with fellow GitLabbers, everyone is encouraged to dedicate **a few hours a week** to having social calls with any GitLab employee - get to know who you work with, talk about everyday things and share a virtual cuppa' coffee. We want you to make friends and build relationships with the people you work with to create a more comfortable, well-rounded environment.
 
 ## Tools and Tips<a name="tools"></a>
 
