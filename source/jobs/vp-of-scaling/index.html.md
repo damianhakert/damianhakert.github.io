@@ -5,20 +5,15 @@ title: "Vice President of Scaling"
 
 ## Responsibilities
 
-- Support CEO in execution of company strategy.
-- Signal potential problems to CEO.
-- Tackle special and strategic initiatives, that help the company scale quickly and robustly.
-- Set up new processes and teams as required, and ensure smooth transfer of ongoing management to the new team lead.
-- Tackle cross-disciplinary  / cross-team initiatives.
-- Be available for quick turnaround time on new tasks.
-- Lead by example.
+- Temporarely lead area's where the company is missing a leader
+- While leading change the company processes as needed
+- Hire people and transition the responsibility to them
+- Tackle cross-disciplinary initiatives in colleboration with the CEO
+- Be available for quick turnaround time on urgent initiatives as identified by the CEO
 
 ### Current specific responsibilities
 
-- Lead the People Ops team, and structure [People Ops processes](https://about.gitlab.com/people-operations/) until handoff to the [People Operations Director](https://about.gitlab.com/jobs/people-ops-director/).
-- Lead the Support team, structuring for robust growth, and providing metrics for
-reporting and improvement (https://about.gitlab.com/handbook/support/) until handoff
-to the [VP of Engineering](https://about.gitlab.com/jobs/vp-of-engineering/).
+Lead the People Ops team, and structure [People Ops processes](https://about.gitlab.com/people-operations/) until handoff to the [People Operations Director](https://about.gitlab.com/jobs/people-ops-director/).
 
 ## Requirements
 
