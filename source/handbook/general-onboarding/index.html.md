@@ -47,8 +47,6 @@ there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @brittany, and @tiff
 the relevant onboarding pages that are linked from there, and become comfortable
 with Git and the GitLab workflow.
 * [ ] New team member: pick your [Slack username](https://gitlab.slack.com/account/settings#username) to be the same as your GitLab email handle, for consistency and ease of use.
-* [ ] New team member: Send an email to People Ops with the name of the team member who referred you, if applicable
-* [ ] People Ops: If applicable, process who referred the new team member. 
 * [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
 * [ ] People Ops: [Add blank entry to team page](https://about.gitlab.com/handbook/people-operations/#blank-entry) (only the start date and position, use "logo-extra-whitespace.png" for the picture) so the team can see when new people are joining.
 * [ ] People Ops: Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
@@ -61,6 +59,7 @@ with Git and the GitLab workflow.
 * [ ] People Ops: Add new team member to the next monthly GitLab 101 call
 * [ ] People Ops: Invite to team meeting, and re-arrange the days on which team members speak in the Team Call Agenda.
 * [ ] People Ops: Add to phishing testing platform
+* [ ] People Ops: Check if new team member indicated who they were referred by (in bottom of application, in Workable). If no referral indicated, check with new team member by asking in this issue "@{new team member} please let people ops know if you were referred by another GitLab team member; otherwise we will assume you were not".
 * [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment. Send an email to their GitLab account, personal email, and cc Peopleops.<br>
 "Please let People Ops (cced here) know if there are any necessary supplies or equipment that you need. You can also reference the [company handbook](https://about.gitlab.com/handbook/#spending-company-money) in this matter."
 * [ ] Buddy: Schedule video call for first day to introduce yourself, and make sure they know that if they have questions, they can come to you. But your main job as a buddy will be to direct them to the right parts of the handbook, and/or encourage them to ask their questions of the wider group on chat, etc.
