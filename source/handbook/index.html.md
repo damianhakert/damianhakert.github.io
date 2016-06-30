@@ -454,8 +454,8 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Google Hangouts calling credit
     *  Office space (if working from home is not practical)
     *  Work-related online courses
-    *  Work-related conferences, including travel, lodging and meals. Please get permission from your manager in advance if total costs exceed $500.
-    *  Travel and lodging to get together and work on a specific project with colleagues, with a minimum of 3 team members present and 3 days of co-location. Please get permission from your manager in advance if total costs exceed $300.
+    *  Work-related conferences, including travel, lodging and meals. If total costs exceed $500, please submit a proposal and get permission from your manager.
+    *  Travel and lodging to get together and work on a specific project with colleagues, with a minimum of 3 team members present and 3 days of co-location. If total costs exceed $300, please submit a proposal to your manager and get permission from them and the VP of your department.
     *  Business travel upgrades per round-trip (i.e. not per each leg of the flight):
         * Up to the first [EUR 300](https://www.google.com/search?q=300+eur+in+usd) for an upgrade to Business Class on flights longer than 8 hours.
         * Upgrade to Economy Plus if you’re taller than 1.95m / 6’5” for flights longer than 2 hours.
