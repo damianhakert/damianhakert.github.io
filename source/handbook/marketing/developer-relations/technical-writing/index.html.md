@@ -213,114 +213,136 @@ Before writing, make sure you've read through this Style Guidelines, the [Blog d
 
 Before submitting your post for review, make sure you: 
 
-- Forked the project [www-gitlab-com]
+- Forked the project [www-gitlab-com] and cloned your fork to your computer
 - Have [Git], [Bundler] and [Middleman] installed locally
-- Have previewed your post locally by running `bundle exec middleman` in your terminal
+- Have all the project dependencies installed, by running `bundle install` in your terminal
+- Have previewed your post locally by running `bundle exec middleman`, then accessing it under <http://localhost:4567/blog/>
 
-### Titles and headings
+### File
 
-Make sure the post title represents very well the subject, and make it as short as possible.
-Do the same for headings.
+The blog posts are located in the project [www-gitlab-com], under `/source/posts/`.
+
+The file name must have this structure: `yyyy-mm-dd-title-of-the-post.html.md`. The date can be
+changed just before publishing, so don't worry if it is accurate or not. Future dates are accepted,
+in case you have estimated the publishing date, which is defined by the Marketing Team.
+
+In all file names, prefer using dashes `-` than underscores `_`. Do not leave blank spaces in file names, ever.
+
+All posts are written in markdown Kramdown. Please read through the [Markdown Style Guide] for reference.
 
 ### Frontmatter
 
-The post frontmatter is standard and cannot be changed. Make sure to provide the correct
-information, but do not add nor remove anything from the default template:
+The post **frontmatter** is the first part of any post. It is standard and cannot be changed, so please make
+sure to provide the correct information, and do not add nor remove anything from the default template:
 
 ```
 ---
 title: "This is the post title"
-date: 2016-03-21 08:00:00
 author: Firstname Lastname
 author_twitter: userID
-categories: technical overview, integration
+categories: technical overview
 image_title: '/images/blogimages/post-cover-image.jpg'
 ---
 ```
 
-_Categories_
+#### Title
+{: .no_toc}
 
-Use at **least one** of the following categories, and **a maximum of four** for the same post. Separate them with comas. **Do not** capitalize nor pluralize them, nor change any letter,
-otherwise you'll create another category, which is somenthing we don't want.
+Make sure the post title represents very well the subject, and make it as short as possible.
+Do the same for headings.
 
-- continuous integration
-- git
-- GitLab
-- GitLab CE
-- GitLab CI
-- GitLab EE
-- GitLab Pages
-- guest
-- innersource
-- integration
-- open source
-- press
-- release
-- remote work
-- SaaS
-- security
-- technical overview
-- tutorial
-- version control
-- work at GitLab
-- workflow
-
-Note that the category "GitLab" should be used only for specific products or features,
-like GitLab Geo, GDK, etc.
-
-"GitLab CI" is the feature/product, "continuous integration" is a subject.
-
-We'll improve it, but by now you can find posts under the same category by navigating to
-`https://about.gitlab.com/blog/categories/category-name/`.
-
-If you think we are missing an important category, please let us know by adding a comment
-to this issue: <https://gitlab.com/gitlab-com/www-gitlab-com/issues/721>.
-
-_Comments_
-
-Comments should be present as a frontmatter variable and set to true by default. Set to false
-only if you have a strong reason to do so. They are our best source of feedback on posts.
-
-_Twitter Handle_
-
-Don't worry if you don't have an account on Twitter. Leave the field `author_twitter` blank.
-
-_Date_
-
-The date is always in the format yyyy-mm-dd and must be the same as the date presented on
-the file name. The hour is not required by now, and can be left blank or set
-to 08:00:00 as standard.
-
-_Author Name_
+#### Author Name
+{: .no_toc}
 
 Use the author's full name. If the name has special chars, type it within
 double quotes `"Full Name"`.
 
-#### Create new post from the command line
+#### Twitter Handle
+{: .no_toc}
 
-One of the safest ways to create a new post is typing into your terminal (opened in your local project directory):
+Don't worry if you don't have an account on Twitter. Leave the field `author_twitter` blank.
+
+#### Categories
+{: .no_toc}
+
+Use only **one** of the following categories per post.
+**Do not** capitalize nor pluralize them, nor change any letter,
+otherwise you'll create another category, which is somenthing we don't want to do unpurposely.
+
+- concepts _(use it when your post in on continuous integration, innersource, open source, version control, SaaS, etc)_
+- git
+- GitLab _(all GitLab products/features: CI, Geo, GDK, Pages, LDPA, Hooks, etc.)_
+- GitLab CE _(use it when highlighting CE features, advantages, etc.)_
+- GitLab EE _(EE-only features)_
+- GitLab workflow _(issues, merge requests, confidential issues, milestones, todos, etc.)_
+- inside GitLab _(remote-first, remote work, team interview, work experience, etc.)_
+- integration _(GitLab + something else)_
+- press
+- release
+- security release _(when the main objective is GitLab security)_
+- technical overview
+- tutorial
+
+We'll improve it, but by now you can find posts under the same category by navigating to
+`https://about.gitlab.com/blog/categories/category-name/`. Dashes will be automatically added
+to multi-word categories and all of them will be lowercased in the URL. For example, the
+category "GitLab CE" will be available under `https://about.gitlab.com/blog/categories/gitlab-ce/`.
+
+If you think we are missing an important category, please let us know by adding a comment
+to this issue: <https://gitlab.com/gitlab-com/www-gitlab-com/issues/721>.
+
+#### Cover Image
+{: .no_toc #cover-image-frontmatter}
+
+Do not leave the post without a cover image (`image_title`), unless you have a strong reason to do so.
+Read more about it [below](#cover-image).
+
+#### Comments
+{: .no_toc}
+
+Comments are present in all posts by default. Set it to false only if you have a strong reason to
+do so (`comments: false`). They are our best source of feedback on posts.
+
+#### Date
+{: .no_toc}
+
+The variable `date: yyyy-mm-aa hh:mm:ss` is not necessary in the frontmatter anymore, unless you want
+to set an specific time. If you do, just make sure that the date in the file name matches with
+the date in the frontmatter, otherwise the build will fail.
+
+### Create a new post
+
+You can create a new post however you prefer: adding a new file to `/source/posts/`, duplicating
+an existing post, or using the command line, which is the safest way to do so. Just is type
+into your terminal (opened in your local project directory):
 
 ```sh
 rake new_post
 ```
 
-Hit `enter/return`, then you'll be prompted to enter the post title. Type in the title exactly as you want it, for example "Hello World - I'm a new post" and rake will take care of the file name for you. Then you just open the file, fill in with your name and Twitter handle, add the variable `date: yyyy-mm-dd`, and you'll be good to start writing. 
+Hit **enter** or **return**, then you'll be prompted to enter the post title. Type in the title exactly as you
+want it, for example "Hello World - I'm a new post" and rake will take care of the file name for you.
+Then you just open the file, fill in with your name, Twitter handle, and the post category, then you'll be
+good to start writing.
 
-### Structure 
+### Body structure
 
-- File name: `yyyy-mm-dd-title-of-the-post.html.md`. The date can be changed just before publishing, so don't worry if it is accurate or not, just make sure that the date in the file name matches with the date in the frontmatter, otherwise the build will fail.
-- In all file names, prefer using dashes `-` than underscores `_`. Do not leave blank spaces in file names, ever.
-- Markdown structure: read the [Markdown Style Guide]
-- Post structure:
-  - Introduction. State the problem, audience and purpose of the article.
-  - Add the `<!-- more -->` separator.
-  - Concepts - state and explain the concepts needed to follow through your post.
-  - Software and hardware requirements - explain what the reader needs before following your steps.
-  - Article body - to develop the subject of your post.
-  - Section "Conclusion" - to summarize the article.
-  - Section "About guest author" - when the author is not a GitLab Team member.
-  - Section "Acknowledgments" - whenever there are more people deeply involved in having the post ready to go.
-- If the article is part of a series, make sure to link back among all articles
+Just below the frontmatter, start writing your post, including the sections as follows:
+
+- Introduction. State the problem, audience and purpose of the article.
+- Add the `<!-- more -->` separator. This is going to separate the visible part on the landing
+page <https://about.GitLab.com/blog/> from the rest of the article body.
+- Software and hardware requirements - explain what the reader needs before following your steps.
+- Concepts - state and explain the concepts needed to follow through your post.
+- Article body - develop the subject of your post.
+- Section `## Conclusion` - summarize the article.
+- Section `## About guest author` - when the author is not a GitLab Team member, add this section telling
+in 3 or 4 sentences who is the guest author, and what is her/his background on the post's subject.
+It must be written by the author her/himself.
+- Section `## Acknowledgments` - whenever there are more people deeply involved in having the post ready to go,
+you can add this section to show your gratitude to your colleagues.
+
+If the article is part of a series, make sure to link back among all articles
 in the series to each one after they get published. 
 
 ### Tutorials
@@ -346,6 +368,7 @@ Use placeholders such as `[project's CI token]` stub instead. Or blur them if di
 ### Images
 
 #### Creating images
+{: .no_toc}
 
 - Static images should be used to illustrate concepts, provide diagrams, elements of the UI or orient the reader.
 - Images should not be used to render commands or configuration which would prevent
@@ -357,6 +380,7 @@ for doing so. For example, [Nimbus Screenshot]  (browser extention), [Mac screen
 [Snipping Tool] for Windows, and [Screenshot Tool] for Ubuntu.
 
 #### Preparing images
+{: .no_toc}
 
 For the blog, images should be cropped in a 700 x 490 pixel *proportion* 
 so the image doesn't get clipped when displayed as a lead image in the blog list.
@@ -364,16 +388,18 @@ This includes the cover image.
 Compress the image, for example using [TinyPNG.com][tinypng] or any other image editor.
 
 #### Where to place images
+{: .no_toc}
 
 Images used to illustrate articles should be placed in the `/source/images/blogimages/` directory. 
 Unless they are 'free to use' lead images from [Unsplash][unsplash], which should be placed in the
 `/source/images/unsplash` directory.
 
 #### Naming images
+{: .no_toc}
 
 If you are using a set of images, create a **new directory** under `/source/images/blogimages/`, name it according to
 your post's title and add all the images there. For example, if your post has a file name
-`2015-03-20-my-awesome-post.html.md`, your new folder should be named `my-awesome-post`. 
+`2015-03-20-my-awesome-post.html.md`, your new folder should be named `/my-awesome-post/`. 
 
 If you use just a couple images, you can add them directly to `/source/images/blogimages/`, but make sure they begin with the same
 name as you post's. This way it's easy to anyone know which image is related to each post. Name the files according to the previous example.
@@ -381,6 +407,7 @@ So, following the same logic, your cover image would be named `my-awesome-post-c
 `/source/images/blogimages/my-awesome-post-cover.png`.
 
 #### Cover image
+{: .no_toc}
 
 Choose a cover image for your post. Try any public domain resource that reflects somehow your post's subject. In the absence
 of an image, use one of these: 
