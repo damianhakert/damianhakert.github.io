@@ -3,6 +3,8 @@ layout: markdown_page
 title: Product
 ---
 
+# Product at GitLab
+
 GitLab is designed and developed in a unique way.
 
 This document provides lessons and heuristics on how to design changes
@@ -29,7 +31,7 @@ on something.
 - It forces everyone involved to look for the most simple solution to a problem,
 which is often the superior solution
 - It forces to work for a 80/20 solution, where competing products might cater
-to the last 20% of the market, our solution is _good enough_ for 80% of it
+to the last 20% of the market, a minimally viable solution is _good enough_ for 80%
 - Further changes or enhancements to the change are driven by feedback from
 actual users. This is a much more informative mechanism than the intuition
 of a product person (though note that this doesn't mean we should just build
