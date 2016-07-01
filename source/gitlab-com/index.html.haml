@@ -47,7 +47,7 @@ extra_css:
             %li Unlimited total disk space
             %li Completely free, no credit card required
             %li
-              %a{href: "https://about.gitlab.com/2016/04/19/gitlab-partners-with-digitalocean-to-make-continuous-integration-faster-safer-and-more-affordable/"} Unlimited CI Runners to do parallel testing
+              %a{href: "/2016/04/19/gitlab-partners-with-digitalocean-to-make-continuous-integration-faster-safer-and-more-affordable/"} Unlimited CI Runners to do parallel testing
             %li
               %a{href: "/2016/02/18/gitlab-dot-com-now-supports-an-alternate-git-plus-ssh-port/"} Alternate SSH port for git+ssh (443)
           %p
@@ -106,7 +106,7 @@ extra_css:
               %a{href: "https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20"} GitLab.com Bronze Support
               you can email support directly for timely, personal and private answers. This costs $9.99 per user per year for next-business-day response time and is available in packs of 20 users.
       .row.panels
-        %h2
+        %h2.text-center
           Select package
           %a{name: "select-package"}
         .col-md-6
@@ -164,16 +164,19 @@ extra_css:
               Our servers are hosted on Amazon Web Services (AWS), Digital Ocean, and Azure, we use configuration management, and we patch our servers at least once a week. Our
               %a{href: "https://gitlab.com/gitlab-com/runbooks"} runbooks are public
               as is our
-              %a{href: "https://gitlab.com/gitlab-com/operations/issues"} operational issue tracker
+              %a{href: "https://gitlab.com/gitlab-com/infrastructure/issues"} operational issue tracker
               \.
             %li
               GitLab offers
-              %a{href: "https://about.gitlab.com/2015/05/22/gitlab-7-11-released/"} Two-Factor Authentication (2FA),
+              %a{href: "http://docs.gitlab.com/ce/profile/two_factor_authentication.html"} Two-Factor Authentication (2FA) via a mobile application or a U2F device,
               %a{href: "http://doc.gitlab.com/ce/security/rack_attack.html"} rate limiting,
               %a{href: "http://doc.gitlab.com/ee/administration/audit_events.html"} audit logs,
               and passwords are one-way encrypted.
             %li
-              GitLab.com can't be integrated with your LDAP server, if you need this please
+              GitLab.com
+              %strong
+                cannot
+              be integrated with your LDAP server, if you need this please
               = succeed "." do
                 %a{href: "https://about.gitlab.com/features/"} host GitLab yourself
               or
@@ -204,15 +207,20 @@ extra_css:
           %h2
             Plenty of import options
             %a{name: "import-options"}
-          %ul
-            %li You can easily import all of your projects, repositories and issues from GitHub with a single click.
+          %p
+            You can easily import your projects from GitHub, Bitbucket, Google
+            Code, Fogbugz, any Git repository by URL, or import an exported
+            GitLab project.
+          %p
+            %a{href: "http://doc.gitlab.com/ce/workflow/importing/README.html"} See our documentation
+            for all your import options.
         .hidden-xs.hidden-sm.col-md-4
-          .import-image
+          = image_tag "/images/gitlab-com/import_options.png"
         .col-xs-1.col-md-1
       %hr.divider/
       .row.import
         .col-xs-1.col-md-1
-        .col-xs-12.col-md-6
+        .col-xs-12.col-md-9
           %h2#why-gitlab-com-will-be-free-forever
             %a{name: "free-forever"}>
             Why GitLab.com will be free forever
@@ -225,7 +233,8 @@ extra_css:
           free today. So we thought, why wait? Let's make it free for everyone
           now. Our subscriptions for GitLab EE on-premises bring in more
           than enough revenue to pay for the hosting of GitLab.com.
-          The revenues from EE and EE options are growing fast enough to keep up with the growth in GitLab.com usage.
+          The revenues from EE and EE options are growing fast enough to keep up
+          with the growth in GitLab.com usage.
           We see GitLab.com as a way to make GitLab more known and popular. In the future we might
           introduce paid features like projects sizes above 10GB and Windows/OSX CI Runners.
           We intend to keep the features that you have now free and monetize only new features.
