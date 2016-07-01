@@ -26,7 +26,7 @@ Please read on for more details.
 - **CE/EE:** Better debugging for memory killer middleware. ([!4936])
 - **CE/EE:** Remove duplicate new page button from edit wiki. ([!4904])
 - **CE/EE:** Use `clock_gettime` for all performance timestamps. ([!4899])
-- **CE/EE:** Use update_columns to by_pass all the dirty code on active_record. ([!4985])
+- **CE/EE:** Use update_columns to bypass all the dirty code on active_record. ([!4985])
 - **CE/EE:** Reduce overhead and optimize ProjectTeam#max_member_access performance. ([!4973])
 - **CE/EE:** Fixes missing avatar on system notes. ([!4954])
 - **CE/EE:** Removed fade when filtering results. ([!4932])
