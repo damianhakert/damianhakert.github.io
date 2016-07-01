@@ -783,5 +783,5 @@ Fix any invalid links and ideally any warnings, commit, push back, test again.
 
 [async-communication]: https://about.gitlab.com/2016/03/23/remote-communication#asynchronous-communication-so-everyone-can-focus
 [check-my-links]: https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf/
-[kramdown]: https://kramdown.gettalong.org/
+[kramdown]: http://kramdown.gettalong.org/
 [markdown guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
