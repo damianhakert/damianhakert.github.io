@@ -23,6 +23,7 @@ title: Support
    - [Security disclosures](#security)
    - [GitLab.com downtime](#downtime)
    - [Regular tickets](#regular)
+   - [Errors on GitLab.com](#errors-on-gitlab-com)
    - [Internal Support](#internal)
    - [Disqus from blog posts](#disqus)
    - [Twitter](#twitter)
@@ -249,7 +250,7 @@ manner. Make sure that you answer the tickets that are assigned to you first and
 that have come in and are unassigned, again using FIFO.
 When you need others to help please create an issue on the relevant GitLab issue tracker.
 
-### Errors on GitLab.com
+### Errors on GitLab.com <a name="errors-on-gitlab-com"></a>
 
 If GitLab.com users encounter errors on GitLab.com (particularly Error 500s), it may be useful to see the encountered
 error on our [Sentry instance](https://sentry.gitlap.com). You can search for a specific username in the search bar
