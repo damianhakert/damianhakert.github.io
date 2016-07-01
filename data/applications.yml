@@ -62,11 +62,6 @@
       links:
         - url: https://gitlab.com/bor-sh/git-gitlab
           title: Repository on GitLab
-    - title: "Drew Blessing's GitLab CLI Tool"
-      content: Interact with your GitLab server via the command line to manage snippets, projects and more.
-      links:
-        - url: https://github.com/drewblessing/gitlab-cli
-          title: Repository on GitHub
     - title: "GoTsunami's GitLab Copy Tool"
       content: Copy issues (with labels, milestones and notes) from one GitLab project to another, possibly running on different GitLab instances.
       links:
