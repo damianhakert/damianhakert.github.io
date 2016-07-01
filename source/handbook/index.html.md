@@ -754,6 +754,10 @@ command to 'tame' git is `git config --global core.autocrlf input` - execute it.
 
 Instructions on how to update the website are in the [readme of www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/README.md).
 
+### 8. Write content
+
+Most pages of the website that you might want to edit are written in markdown [Kramdown].
+Read through our [Markdown Guide] to understand its syntax and create new content.
 
 ### Local Checks of Your Changes
 
@@ -777,5 +781,7 @@ links inside a page is the following.
 A pop-up window will open and tell you how many links, if any, are invalid.
 Fix any invalid links and ideally any warnings, commit, push back, test again.
 
-[check-my-links]: https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf/
 [async-communication]: https://about.gitlab.com/2016/03/23/remote-communication#asynchronous-communication-so-everyone-can-focus
+[check-my-links]: https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf/
+[kramdown]: https://kramdown.gettalong.org/
+[markdown guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
