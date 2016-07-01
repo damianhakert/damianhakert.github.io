@@ -110,5 +110,5 @@ It is very important that GitLab.com is running GitLab Enterprise Edition with a
 We don't want users running GitLab at scale to run into any problems.
 
 If it is not possible to use the default settings the difference should be documented in
-[requirements.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/install/requirements.md)
-before applying them to GitLab.com.
+[GitLab.com settings](https://about.gitlab.com/gitlab-com/settings/#gitlab-pages)
+_before_ applying them to GitLab.com.
