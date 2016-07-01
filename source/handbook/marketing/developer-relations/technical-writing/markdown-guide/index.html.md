@@ -113,8 +113,6 @@ _**Note:** We usually break the lines within paragraphs to facilitate reviews. D
 word of the line broken within a paragraph, unless you want it to be intentionally broken with a `<br>`._
 {: .note}
 
-<!-- REPHRASE THIS ^^ OR REMOVE IT COMPLETELY -->
-
 ### Additional breaks
 
 In case you need an additional break (or some extra space between lines), you can simply use the HTML break tag `<br>`,
@@ -464,8 +462,6 @@ name it `black-dog.jpg`, if it's a photo of a black dog.
 ----
 
 ## Videos
-
-<!-- IT'S GOING TO BE NECESSARY ADD THESE STYLES ^^ TO OUR CSS, OTHERWISE VIDEOS WON'T BE RESPONSIVE! WELL, NOT PROPORTIONALLY RESPONSIVE. -->
 
 There are two ways of displaying videos: within HTML5 `<video>` tags and within `<iframe>` tags.
 
@@ -1521,7 +1517,7 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [mou]: http://25.io/mou/
 [mou-screenshot]: /images/mou-screenshot-preview-markdown-guide-handbook.png "Mou for Mac - Markdown Preview"
 [panel blocks]: https://getbootstrap.com/components/#panels-alternatives
-[`raw` file]: # "ADD RAW HERE"
+[`raw` file]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/handbook/marketing/developer-relations/technical-writing/markdown-guide/index.html.md
 [Redcarpet]: http://git.io/ld_NVQ
 [ssg]: https://www.staticgen.com/
 [ssgs-post]: https://about.gitlab.com/2016/06/10/ssg-overview-gitlab-pages-part-2/
