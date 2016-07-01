@@ -1,4 +1,4 @@
-payment_url: https://gitlab.recurly.com/subscribe/gitlab_ee_annual_fee_per_user
+payment_url: https://customers.gitlab.com
 compare:
   - icon:
     title: Project importing from GitHub
