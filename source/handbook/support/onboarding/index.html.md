@@ -19,6 +19,7 @@ title: Service Engineer Onboarding
    - [When to mark a ticket as solved?](#when-solved)
    - [Clearing out suspended tickets](#clear-suspended)
    - [Allowing teammates to adopt a ticket](#allow-others)
+   - [Update agent signature](#agent-signature)
 - [Receiving feedback](#feedback)
 - [Dedicated Service Engineers](#dse)
 - [Customer Training](#customer-training)
@@ -264,6 +265,23 @@ ticket's title on the list view or by selecting the ticket and reading the
 "Also on this ticket" section on the top left. Notice that if a general account
 like GitLab Support is being used there is no name to refer to so you might want
 to ask on the support and/or general chat channel with the ticket's link.
+
+### Update agent signature<a name="agent-signature"></a>
+
+Your personal ZenDesk signature is shown at the end of every ticket response. 
+You can update this to include a personalized valediction like "Thanks" or "Best Regards" by following these steps.
+
+* In Zendesk, click your user icon in the upper-right corner and select View Profile Page .
+* Under Signature in the left sidebar, enter the signature text.
+
+An example agent signature:
+
+```
+Thanks,
+
+{{agent.name}}
+GitLab, Inc.
+```
 
 ## Receiving feedback<a name="feedback"></a>
 
