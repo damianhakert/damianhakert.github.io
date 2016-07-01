@@ -204,10 +204,15 @@ extra_css:
           %h2
             Plenty of import options
             %a{name: "import-options"}
-          %ul
-            %li You can easily import all of your projects, repositories and issues from GitHub with a single click.
+          %p
+            You can easily import your projects from GitHub, Bitbucket, Google
+            Code, Fogbugz, any Git repository by URL, or import an exported
+            GitLab project.
+          %p
+            %a{href: "http://doc.gitlab.com/ce/workflow/importing/README.html"} See our documentation
+            for all your import options.
         .hidden-xs.hidden-sm.col-md-4
-          .import-image
+          = image_tag "/images/gitlab-com/import_options.png"
         .col-xs-1.col-md-1
       %hr.divider/
       .row.import
