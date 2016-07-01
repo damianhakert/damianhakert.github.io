@@ -65,7 +65,7 @@ List on:
 
    > REMOTE ONLY - GitLab
    >
-   > We're hiring production engineers, developers, UX designers, and more. Work on mostly open source software!
+   > We're hiring production engineers, frontend and backend developers, UX designers, and more. Work on mostly open source software!
    >
    > https://about.gitlab.com/jobs/
    >
