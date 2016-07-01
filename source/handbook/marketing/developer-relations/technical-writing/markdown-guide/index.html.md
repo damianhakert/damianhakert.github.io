@@ -481,7 +481,7 @@ This method works for YouTube videos and any other embed video within an `<ifram
 ```html
 <!-- blank line -->
 <figure class="video_container">
-  <iframe src="http://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 <!-- blank line -->
 ```
@@ -493,7 +493,7 @@ This method works for YouTube videos and any other embed video within an `<ifram
 
 <div class="panel-body">
 <figure class="video_container">
-  <iframe src="http://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 </div>
 </div>
@@ -1178,7 +1178,224 @@ You can close the markup parser tag at any point, if you want to:
 {::options parse_block_html="false" /}
 ```
 
-### Styles
+----
+
+## Colorful sections
+
+To add notes and warning blocks into colorful boxes,
+we are making use of Bootstrap's [panel blocks] and [alert boxes].
+
+Colorful sections are applied for very specific purposes and must not be overused.
+
+Use panels when your description contains more than one paragraph, or a
+long paragraph. For single and short paragraphs, use alert boxes instead.
+
+When using panels, make sure to add the HTML parser markup to the beginning of your document's body:
+`{::options parse_block_html="true" /}`.
+
+Copy paste the following code according to what you want to present to the user
+and replace only the description. The available colors are:
+blue (`info`), green (`success`), amber (`warning`) and red (`danger`), as follows.
+
+### Additional Information
+
+Use the following code for **important notes** and additional information:
+
+```html
+<div class="panel panel-info">
+**Note**
+{: .panel-heading}
+<div class="panel-body">
+
+NOTE DESCRIPTION
+
+</div>
+</div>
+```
+
+To apply to a single paragraph, use an alert box:
+
+```
+My important paragraph.
+{: .alert .alert-info}
+```
+
+Blue panels render like:
+
+<div class="panel panel-info">
+**Note**
+{: .panel-heading}
+<div class="panel-body">
+INFO DESCRIPTION
+</div>
+</div>
+
+And blue alert boxes render like:
+
+My important paragraph.
+{: .alert .alert-info}
+
+### Warnings
+
+Use the following code for warnings, like information that may have a different
+result if not used correctly:
+
+```html
+<div class="panel panel-warning">
+**Warning**
+{: .panel-heading}
+<div class="panel-body">
+
+WARNING DESCRIPTION
+
+</div>
+</div>
+```
+
+To apply to a single paragraph, use an alert box:
+
+```
+My warning paragraph.
+{: .alert .alert-warning}
+```
+
+Amber panels render like:
+
+<div class="panel panel-warning">
+**Warning**
+{: .panel-heading}
+<div class="panel-body">
+
+WARNING DESCRIPTION
+
+</div>
+</div>
+
+And amber alert boxes render like:
+
+My warning paragraph.
+{: .alert .alert-warning}
+
+### Danger
+
+Use the following code for crucial warnings, like commands that result to loss
+of data:
+
+```html
+<div class="panel panel-danger">
+**Danger**
+{: .panel-heading}
+<div class="panel-body">
+
+DANGER DESCRIPTION
+
+</div>
+</div>
+```
+
+To apply to a single paragraph, use an alert box:
+
+```
+My danger paragraph.
+{: .alert .alert-danger}
+```
+
+Red panels render like:
+
+<div class="panel panel-danger">
+**Danger**
+{: .panel-heading}
+<div class="panel-body">
+DANGER DESCRIPTION
+</div>
+</div>
+
+And red alert boxes render like:
+
+My danger paragraph.
+{: .alert .alert-danger}
+
+### Do's and Don'ts
+
+You can use the combination of green and red panels or alert boxes for "Do's and "Don'ts":
+
+```html
+<div class="panel panel-success">
+**Do's**
+{: .panel-heading}
+<div class="panel-body">
+
+THINGS TO DO
+
+</div>
+</div>
+```
+
+or, use an alert box:
+
+```
+TO DO.
+{: .alert .alert-success}
+```
+
+Not to do:
+
+```html
+<div class="panel panel-danger">
+**Don'ts**
+{: .panel-heading}
+<div class="panel-body">
+
+THINGS NOT TO DO
+
+</div>
+</div>
+```
+
+or, use an alert box:
+
+```
+NOT TO DO.
+{: .alert .alert-danger}
+```
+
+By doing so, the green panels for "DO'S" will look like:
+
+<div class="panel panel-success">
+**Do's**
+{: .panel-heading}
+<div class="panel-body">
+
+THINGS TO DO
+
+</div>
+</div>
+
+or, if you chose an alert box:
+
+TO DO.
+{: .alert .alert-success}
+
+And for your "DON'TS" within red panels will look like:
+
+<div class="panel panel-danger">
+**Don'ts**
+{: .panel-heading}
+<div class="panel-body">
+
+THINGS NOT TO DO
+
+</div>
+</div>
+
+or, if you chose a red alert box:
+
+NOT TO DO.
+{: .alert .alert-danger}
+
+----
+
+## Styles
 
 To wrap up, guess what?
 
@@ -1288,6 +1505,7 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 <!-- Identifiers, in alphabetical order -->
 
 [about.gitlab.com]: https://about.gitlab.com/
+[alert boxes]: https://getbootstrap.com/components/#alerts
 [atom]: https://atom.io/
 [daring-quote]: http://daringfireball.net/projects/markdown/syntax#html
 [font awesome]: http://fontawesome.io/icons/
@@ -1302,6 +1520,7 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [middleman]: https://middlemanapp.com/
 [mou]: http://25.io/mou/
 [mou-screenshot]: /images/mou-screenshot-preview-markdown-guide-handbook.png "Mou for Mac - Markdown Preview"
+[panel blocks]: https://getbootstrap.com/components/#panels-alternatives
 [`raw` file]: # "ADD RAW HERE"
 [Redcarpet]: http://git.io/ld_NVQ
 [ssg]: https://www.staticgen.com/
