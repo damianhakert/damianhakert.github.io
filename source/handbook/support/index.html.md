@@ -5,6 +5,7 @@ title: Support
 
 ## Other support pages
 
+- [Support Issue Tracker](https://gitlab.com/gitlab-com/support/issues)
 - [Service Engineer Onboarding](/handbook/support/onboarding/)
 - [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
 - [PGP Process](https://about.gitlab.com/handbook/support/pgp_process/)
@@ -14,6 +15,7 @@ title: Support
 ## Contents of the page
 
 - [Support Direction](#support-direction)
+- [Support Issue Tracker](#issue-tracker)
 - [Service Level Agreements](#sla)
 - [Support Turbo](#support-turbo)
 - [Dashboard](#dashboard)
@@ -73,6 +75,17 @@ for tough issues.
 
 By triaging support effort through internal SLA's, the team can improve the support experience
 for key customers while still addressing the questions of all subscribers, and the rest of the GitLab community.
+
+## Support Issue Tracker <a name="issue-tracker"></a>
+
+The [Support project](https://gitlab.com/gitlab-com/support/issues) 
+hosts an issue tracker meant to improve our workflow by reporting any 
+problems that may arise on our tools or processes. Its also meant to 
+propose and discuss ideas in general. 
+
+The issue tracker is open to the community and part of the GitLab.com 
+group. It should not contain any sensitive information. Links to ZenDesk 
+or other references are encouraged. 
 
 ## Support Turbo<a name="support-turbo"></a>
 
