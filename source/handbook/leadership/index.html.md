@@ -11,6 +11,7 @@ title: Leadership
 
 - [eShares Manager’s FAQ](https://readthink.com/a-managers-faq-35858a229f84)
 - [How Facebook Tries to Prevent Office Politics](https://hbr.org/2016/06/how-facebook-tries-to-prevent-office-politics)
+- [The Management Myth](http://www.theatlantic.com/magazine/archive/2006/06/the-management-myth/304883/)
 
 ## Books
 
