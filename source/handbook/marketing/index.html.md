@@ -7,6 +7,7 @@ title: "Marketing"
 {: .no_toc}
 
 The GitLab Marketing team includes Demand Generation, Developer Relations, Design, and Product Marketing
+{: .note}
 
 ----
 
