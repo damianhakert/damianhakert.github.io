@@ -1,6 +1,7 @@
 - description = current_page.data.description
 - if description
   %meta{name: "description", content: description}
+  %meta{ name: "twitter:description", content: description }
 
 %meta{content: data.site.title, property: "og:site_name"}
 - if current_page.data.title
@@ -22,5 +23,15 @@
 
 - if current_page.data.image_title
   %meta{content: "#{data.site.url}#{current_page.data.image_title}", property: "og:image"}
+  %meta{ name: "twitter:image", content: "#{data.site.url}#{current_page.data.image_title}" }
 - else
   %meta{content: "#{data.site.url}/images/gitlab_logo.png", property: "og:image"}
+  %meta{ name: "twitter:image", content: "#{data.site.url}/images/gitlab_logo.png" }
+
+%meta{ name: "twitter:card", content: "summary_large_image" }
+%meta{ name: "twitter:site", content: "@GitLab" }
+- if current_page.data.title
+  %meta{ name: "twitter:title", content: current_page.data.title }
+
+- if current_page.data.author_twitter
+  %meta{ name: "twitter:creator", content: "@#{current_page.data.author_twitter}" }
