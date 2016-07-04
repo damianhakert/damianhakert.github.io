@@ -5,6 +5,7 @@ title: Support
 
 ## Other support pages
 
+- [Support Issue Tracker](https://gitlab.com/gitlab-com/support/issues)
 - [Service Engineer Onboarding](/handbook/support/onboarding/)
 - [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
 - [PGP Process](https://about.gitlab.com/handbook/support/pgp_process/)
@@ -14,6 +15,7 @@ title: Support
 ## Contents of the page
 
 - [Support Direction](#support-direction)
+- [Support Issue Tracker](#issue-tracker)
 - [Service Level Agreements](#sla)
 - [Support Turbo](#support-turbo)
 - [Dashboard](#dashboard)
@@ -23,6 +25,7 @@ title: Support
    - [Security disclosures](#security)
    - [GitLab.com downtime](#downtime)
    - [Regular tickets](#regular)
+   - [Errors on GitLab.com](#errors-on-gitlab-com)
    - [Internal Support](#internal)
    - [Disqus from blog posts](#disqus)
    - [Twitter](#twitter)
@@ -72,6 +75,17 @@ for tough issues.
 
 By triaging support effort through internal SLA's, the team can improve the support experience
 for key customers while still addressing the questions of all subscribers, and the rest of the GitLab community.
+
+## Support Issue Tracker <a name="issue-tracker"></a>
+
+The [Support project](https://gitlab.com/gitlab-com/support/issues) 
+hosts an issue tracker meant to improve our workflow by reporting any 
+problems that may arise on our tools or processes. Its also meant to 
+propose and discuss ideas in general. 
+
+The issue tracker is open to the community and part of the GitLab.com 
+group. It should not contain any sensitive information. Links to ZenDesk 
+or other references are encouraged. 
 
 ## Support Turbo<a name="support-turbo"></a>
 
@@ -249,7 +263,7 @@ manner. Make sure that you answer the tickets that are assigned to you first and
 that have come in and are unassigned, again using FIFO.
 When you need others to help please create an issue on the relevant GitLab issue tracker.
 
-### Errors on GitLab.com
+### Errors on GitLab.com <a name="errors-on-gitlab-com"></a>
 
 If GitLab.com users encounter errors on GitLab.com (particularly Error 500s), it may be useful to see the encountered
 error on our [Sentry instance](https://sentry.gitlap.com). You can search for a specific username in the search bar
@@ -336,7 +350,17 @@ from ZenDesk also enables us to track our response times vs. our internal [SLA](
 
 Our Developer Advocates also have access to tweets through ZenDesk, and often
 participate in responding to questions. The support team does not retweet or favorite
-any tweets; that is handled by the marketing team.
+any tweets; that is handled by the marketing team. Our support team _does_ reply
+to almost all tweets, following the [social media guidelines](https://about.gitlab.com/handbook/social-media-guidelines/), regardless of whether
+the tweet is of a technical nature or not. The marketing team's decision to favorite
+and/or retweet is independent of the reply provided by the support team; so a tweet
+may be responded to from ZenDesk, and separately favorited from TweetDeck, as an
+example.
+ 
+From time-to-time, we also receive tweets that mention competitors or negative events 
+related to them. In principle, we don't acknowledge these tweets as also described in
+the [developer advocacy](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/#representing-gitlab-on-twitter) 
+section.
 
 The @GitLabStatus account should only be used to give updates on the availability
 of GitLab.com and to follow up on users reporting that GitLab.com is unavailable.
