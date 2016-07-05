@@ -24,7 +24,7 @@ Please read on for more details.
 - **CE/EE:** Handle external issues in IssueReferenceFilter. ([!4988])
 - **CE/EE:** Fix restore warning message. ([!4980])
 - **CE/EE:** Do not show build retry link when build is active. ([!4967])
-- **CE/EE:** Fixed comit avatar alignment. ([!4933])
+- **CE/EE:** Fixed commit avatar alignment. ([!4933])
 - **CE/EE:** Fixed URL on label button when filtering. ([!4897])
 - **CE/EE:** File Browser navigation fixes. ([!4891])
 - **CE/EE:** Resolve "Sub nav isn't showing on file view". ([!4890])
