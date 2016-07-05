@@ -3,28 +3,29 @@ layout: markdown_page
 title: "Travel"
 ---
 
-The company will cover all work-related travel expenses.
+----
 
-- Understand that the guidelines of [Spending Company Money](https://about.gitlab.com/handbook/#spending-company-money) still apply
-- The company can accommodate your custom request. It is OK to stay longer on your trip. However, the extra days will not be covered by the company.
+## On this page
+{:.no_toc}
 
-## Specific Topics Relating to Egencia and Expenses
+- TOC
+{:toc}
 
-- [Arranging a visa for travel](#arrange-visa)
-   - [Tips and Tricks for visa arrangements](#visa-tips)
-- [Setting up your Egencia account](#setup-egencia)  
-- [Booking travel through Egencia](#egencia) 
-- [Booking accomodations through Airbnb](#airbnb)
-- [Self Stay Reimbursement Policy](#self-stay)
-- [Expenses while traveling](#expenses-while-traveling)
+----
 
+## General guidelines
 
-### Arranging a visa for travel <a name="arrange-visa"></a>
+1. The company will cover all work-related travel expenses.
+1. Understand that the guidelines of [Spending Company Money](https://about.gitlab.com/handbook/#spending-company-money) still apply
+1. The company can accommodate your custom request. It is OK to stay longer on your trip. However, the extra days will not be covered by the company.
+
+## Arranging a visa for travel <a name="arrange-visa"></a>
 
 In some cases when traveling to a conference or summit you might need to arrange a visa to enter that specific country.
+
 Always check the website of the Embassy of the Country you want to visit located in your home country. They will have the most updated information on wether or not you need a visa and what is needed for your application. In some instances you can travel under a visa waiver program (e.g. ESTA) in other you might need to arrange a tourist or business visa. Read their website carefully and ask People Ops if you need any help with acquiring the needed documents for your application.
 
-#### Tips & Tricks for visa arrangements <a name="visa-tips"></a>
+### Tips & Tricks for visa arrangements <a name="visa-tips"></a>
 
 - Make sure to start in time with your arrangements for a visa. It can take up to 3-4 months to acquire a visa.
 - Check if your passport is still valid long enough
@@ -33,18 +34,20 @@ Always check the website of the Embassy of the Country you want to visit located
 - Think of the answers you will give during your visa interview; it can influence your visa approval/denial.
 - Once the dates for a conference or summit are set start asap with your application if you have needed a special visa in previous situations, just to give yourself enough time and room for errors if they arrise.
 
+## Egencia<a name="egencia"></a>
+
 ### Setting up your Egencia account<a name="setup-egencia"></a>
 
 Below is some more information to help you get set up with your [Egencia](https://www.egencia.com) account.  
 
-1. You will receive an email from Egencia with your username.
+1. You will receive an email from Egencia with your username. (Contact People Ops if you do not receive anything).
 1. With the link, from step one in this email, you can set a new secure password.
 1. Once you are in your dashboard, setup your info in your profile (see link at top right corner of page).
 1. Make sure to add your phone number in all three "phone number" fields (it can be the same number).
 1. Add your passport information to your profile (only passport information is accepted in Egencia at this time), this will populate your info directly when booking a flight.
 1. Now let's start booking!
 
-### Booking travel through Egencia <a name="egencia"></a>
+### Booking travel through Egencia <a name="booking-travel"></a>
 
 If you book through [Egencia](https://www.egencia.com), the costs will be added
 to the GitLab invoice and **no credit card is needed**.
@@ -67,7 +70,7 @@ such as another flight, a hotel reservation or booking a car.
 #### Checkout flight only
 
 1. Enter your passport information in the "Secure flight" window. This will be
-pre-populated if you setup your profile correctly. At this point, you do have the
+pre-populated if you have previously setup your profile correctly. At this point, you do have the
 option of using your US drivers license for domestic flights within the US.
 1. Enter home, work, and mobile phone number (they can be the same number). This
 will be pre-populated if you already set up your profile before.
@@ -99,30 +102,29 @@ You will get a total overview of what is booked. You can see that the hotel and/
 
 #### Options in Egencia
 
-* Instead of choosing "checkout" you can select "save trip and view itinerary"
-* Here you will get an overview of everything that was selected and you can change items, such as your flight.
-* In the menu on the top left you have some options like "invite others", "print itinerary", send, or delete.
-* You can also download the app "Egencia TripNavigator" to keep your itinerary close and even do bookings on the go if needed.
+- Instead of choosing "checkout" you can select "save trip and view itinerary". Here you will get an overview of everything that was selected and you can change items, such as your flight.
+- In the menu on the top left you have some options like "invite others", "print itinerary", send, or delete.
+- You can also download the app "Egencia TripNavigator" to keep your itinerary close and even do bookings on the go if needed.
 
-Please send a message to travel@gitlab.com if you need help in booking your travel.
+Please send a message to People Ops if you need help in booking your travel.
 
 #### Booking shows Out of Policy
 
-* Sometimes there is no way around booking a flight or hotel that is out of policy.
-* This means that the option selected is more expensive than the cheapest option + our buffer.
-* When you try to book this, an email will be sent to travel@gitlab.com for approval.
-* Please provide extensive reasoning to make approval easier and faster.
-* After 24 hours without any manual action (approved/denied) the booking will automatically be accepted.
+- Sometimes there is no way around booking a flight or hotel that is out of policy.
+- This means that the option selected is more expensive than the cheapest option + our buffer.
+- When you try to book this, an email will be sent to travel@gitlab.com for approval.
+- Please provide extensive reasoning to make approval easier and faster.
+- After 24 hours without any manual action (approved/denied) the booking will automatically be accepted.
 
-### Booking accomodations through Airbnb <a name="airbnb"></a>
+### Booking accommodations through Airbnb <a name="airbnb"></a>
 
-If you need an Airbnb for your stay on a business related trip, you can either book it yourself, or send a request to People Ops. 
-For People Ops, please include a link to which airbnb you would like to stay in, the corresponding dates, and the purpose of your travel. 
-If you are booking the trip yourself, you may be reimbursed for the portion of your stay that was business related by submitting in Expensify or on your monthly invoice. 
+- If you need an Airbnb for your stay on a business related trip, you can either book it yourself, or send a request to People Ops.
+- For People Ops, please include a link to which airbnb you would like to stay in, the corresponding dates, and the purpose of your travel.
+- If you are booking the trip yourself, you may be reimbursed for the portion of your stay that was business related by submitting in Expensify or on your monthly invoice.
 
 ### Self Stay Reimbursement Policy <a name="self-stay"></a>
 
-If you decide to stay with friends or family instead of a hotel/Airbnb for a business trip, the company will pay you 50% of what would have been the cost of a reasonable hotel. This is in keeping with our values of frugality and freedom, and intended to reward you for saving company money on accomodation expenses. Please take a screenshot of the hotel search in Egencia and submit this along with your expense report or invoice. 
+If you decide to stay with friends or family instead of a hotel/Airbnb for a business trip, the company will pay you 50% of what would have been the cost of a reasonable hotel. This is in keeping with our values of frugality and freedom, and intended to reward you for saving company money on accomodation expenses. Please take a screenshot of the hotel search in Egencia and submit this along with your expense report or invoice.
 
 ### Expenses While Traveling <a name="expenses-while-traveling"></a>
 
