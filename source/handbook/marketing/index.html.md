@@ -5,7 +5,6 @@ title: "Marketing"
 # Welcome to the GitLab Marketing Handbook  
 The GitLab Marketing team includes Demand Generation, Developer Relations, Design, and Product Marketing
 
-[Up one level to the GitLab Handbook](/handbook/)    
 
 ## Reaching Marketing<a name="reach-marketing"></a>
 
