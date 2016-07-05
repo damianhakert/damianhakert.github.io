@@ -1227,16 +1227,19 @@
   story:  |
           Joining July 1st
 
-- name: A.H.
-  locality:
-  country:
+- name: Alex Hanselka
+  locality: Austin, TX
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
   reports_to: Senior Production Engineer and Infrastructure lead
-  picture: logo-extra-whitespace.png
+  picture: alex.jpg
   twitter:
-  gitlab:
+  gitlab: ahanselka
   story:  |
-          Joining July 5th
+          Alex first became interested in Open Source when he discovered Linux 
+          in 2003. After trying most distros, he realized the true way of Gentoo
+          and has used it ever since. In his free time he enjoys playing video
+          games, reading, swimming, and of course hanging out with his 2 cats. 
 
 - name: T.D.
   locality:
