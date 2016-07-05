@@ -2,11 +2,13 @@
 layout: markdown_page
 title: "Marketing"
 ---
-# Welcome to the GitLab Marketing Handbook  
+
+# Welcome to the GitLab Marketing Handbook
+
 The GitLab Marketing team includes Demand Generation, Developer Relations, Design, and Product Marketing
 
 
-## Reaching Marketing<a name="reach-marketing"></a>
+## Communication<a name="reach-marketing"></a>
 
 - [**GitLab Marketing public issue tracker**](https://gitlab.com/gitlab-com/marketing/issues/); please use confidential issues for topics that should only be visible to team members at GitLab
 - You can also send an email to the Marketing team (see the "GitLab Email Forwarding" google doc for the alias).
@@ -14,6 +16,7 @@ The GitLab Marketing team includes Demand Generation, Developer Relations, Desig
 
 
 ## On this page
+
 * [Marketing mission](#mission)
 * [Functional groups](#groups)
 * [Marketing OKRs](#okrs)
@@ -25,6 +28,7 @@ The GitLab Marketing team includes Demand Generation, Developer Relations, Desig
 * [Marketing emails](#email)
 
 ## Marketing Handbooks
+
 * [Demand Generation](/handbook/marketing/demand-generation)
 * [Developer Relations](/handbook/marketing/developer-relations)
 * [Design](/handbook/marketing/design/)
