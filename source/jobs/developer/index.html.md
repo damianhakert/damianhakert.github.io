@@ -28,11 +28,14 @@ Developers can specialize immediately after joining, or after some time, when th
 * You have worked on a production-level Rails application
 * You know how to write your own Ruby gem using TDD techniques
 * You share our [values](/handbook/#values), and work in accordance with those values.
+* [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
 
 We typically hire people who have experience in programming languages used
 at GitLab (e.g. Ruby on Rails, Go), but we welcome candidates who have
 excellent experience in other languages and frameworks. Tackling a GitLab CE
 issue is a good way to demonstrate your ability to learn and debug.
+
+
 
 ## Workflow
 
