@@ -16,6 +16,7 @@ title: "Hiring"
 - [Interview Questions](#interview-questions)
 - [Reference calls](#reference-calls)
 - [Getting Contracts Ready, Reviewed, and Signed](#prep-contracts)
+- [Closing a vacancy](#closing-vacancy)
 - [Underperformance](#underperformance)
 
 ## Vacancy Creation Process<a name="vacancy-creation-process"></a>
@@ -101,6 +102,7 @@ The visibility of internal comments in Workable can be switched between hiring t
 1. Make a verbal or written (email) offer (the CEO needs to authorize offers)
 1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
 1. Hiring manager ensures that the contract is signed, and People Ops [starts the onboarding process](#move-to-onboarding).
+1. Hiring manager considers [closing the vacancy](#closing-vacancy).
 
 ### Service Engineering Hiring Process<a name="se-process"></a>
 
@@ -199,7 +201,7 @@ These questions can be quite unbalancing and can increase the stress during the 
 
 It can also happen that the candidate does not have a story to share with you, that is OK. It's just another data point that should be added to the feedback (I failed to get data on ...), just move to the next question, just be sure to have a few questions as a backup.
 
-These questions should be aligned with our company values. What we are looking for is understanding how this candidate behaves, and if this behaviour matches the one we look for in our company values.
+These questions should be aligned with our company values. What we are looking for is understanding how this candidate behaves, and if this behavior matches the one we look for in our company values.
 
 Once you have your notes, tell the candidate what you understood, repeat the story, and let them correct you as needed.
 
@@ -285,6 +287,13 @@ Note for People Operations:<br>
 - the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
 [Contracts page](https://about.gitlab.com/handbook/contracts).
 - Onboarding info for the PeopleOps system, BambooHR, can be found on the [PeopleOps](/handbook/people-operations) page.
+
+## Closing a vacancy <a name="closing-vacancy"></a>
+
+To close a vacancy:
+
+1. Ask a Workable admin (People Ops) to close the position in Workable. People Ops: consider archiving the job posting to reduce number of positions GitLab is charged for by Workable.
+1. Create a MR, in which you remove the application URL for Workable, and set the listing flag in the `jobs.yml` file to `open: false`. See ["vacancy creation process"](#vacancy-creation-process) for reference). 
 
 ## Underperformance <a name="underperformance"></a>
 
