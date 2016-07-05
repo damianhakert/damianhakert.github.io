@@ -3,11 +3,10 @@ layout: markdown_page
 title: Support
 ---
 
-## Reaching the support group<a name="reach-support"></a>
+## Communication<a name="reach-support"></a>
 
-- [**Public Issue Tracker**](https://gitlab.com/gitlab-com/support/issues/); please use confidential issues for topics that should only be visible to team members at GitLab. NOTE: not for support requests themselves, but rather for issues that relate to the support group.
+- [**Public Issue Tracker**](https://gitlab.com/gitlab-com/support/issues/); please use confidential issues for topics that should only be visible to team members at GitLab. NOTE: not for support requests, but for issues that relate to the support group.
 - [**Chat channel**](https://gitlab.slack.com/archives/support); please use the `#support` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
-
 
 ## Other support pages
 
@@ -85,14 +84,14 @@ for key customers while still addressing the questions of all subscribers, and t
 
 ## Support Issue Tracker <a name="issue-tracker"></a>
 
-The [Support project](https://gitlab.com/gitlab-com/support/issues) 
-hosts an issue tracker meant to improve our workflow by reporting any 
-problems that may arise on our tools or processes. Its also meant to 
-propose and discuss ideas in general. 
+The [Support project](https://gitlab.com/gitlab-com/support/issues)
+hosts an issue tracker meant to improve our workflow by reporting any
+problems that may arise on our tools or processes. Its also meant to
+propose and discuss ideas in general.
 
-The issue tracker is open to the community and part of the GitLab.com 
-group. It should not contain any sensitive information. Links to ZenDesk 
-or other references are encouraged. 
+The issue tracker is open to the community and part of the GitLab.com
+group. It should not contain any sensitive information. Links to ZenDesk
+or other references are encouraged.
 
 ## Support Turbo<a name="support-turbo"></a>
 
@@ -363,10 +362,10 @@ the tweet is of a technical nature or not. The marketing team's decision to favo
 and/or retweet is independent of the reply provided by the support team; so a tweet
 may be responded to from ZenDesk, and separately favorited from TweetDeck, as an
 example.
- 
-From time-to-time, we also receive tweets that mention competitors or negative events 
+
+From time-to-time, we also receive tweets that mention competitors or negative events
 related to them. In principle, we don't acknowledge these tweets as also described in
-the [developer advocacy](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/#representing-gitlab-on-twitter) 
+the [developer advocacy](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/#representing-gitlab-on-twitter)
 section.
 
 The @GitLabStatus account should only be used to give updates on the availability
