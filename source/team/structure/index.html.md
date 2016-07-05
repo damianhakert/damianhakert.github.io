@@ -40,7 +40,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - EMEA Sales - [Sales Director EMEA](/jobs/sales-director/) - Richard Pidgeon
       - [Account Executive](/jobs/account-executive/)
     - APAC Sales and channel - [Director of Global Alliances and APAC Sales](/jobs/director-of-global-alliances-and-apac-sales/) - Michael Alessio
-    - Customer Success - [Director of Customer Success](https://about.gitlab.com/jobs/dir-customer-success/) (vacancy)
+    - [Customer Success](/handbook/customer-success) - [Director of Customer Success](https://about.gitlab.com/jobs/dir-customer-success/) (vacancy)
       - [Account Manager](/jobs/account-manager/)
       - [Success Engineer](/jobs/success-engineer/)
     - Sales Operations - [Director of Sales Operations](https://about.gitlab.com/jobs/director-sales-operations/)
@@ -49,7 +49,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
   - [Finance](/handbook/finance) - [CFO](/jobs/chief-financial-officer/) - Paul Machle
     - Accounting - [Controller](/jobs/controller/) - Wilson Lau
   - [Technical Direction](/direction/) - [CTO](/jobs/chief-technology-officer/) - Dmitriy Zaporozhets
-  - Engineering - [VP of Engineering](/jobs/vp-of-engineering/) - Stan Hu
+  - [Engineering](/handbook/engineering) - [VP of Engineering](/jobs/vp-of-engineering/) - Stan Hu
     - Backend - [Backend Lead](/jobs/backend-lead/) - Douwe Maan
       - [Developers](/jobs/developer/) that are backend specialists
     - Frontend - [Frontend Lead](/jobs/frontend-lead/) - Jacob Schatz
@@ -68,6 +68,6 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     of or specialist in projects without a lead
     - [Developers](/jobs/developer/) that are a merge request coach
   - Scaling - [VP of Scaling](/jobs/vp-of-scaling/) - Ernst van Nierop
-  - General Product - [VP of Product](/jobs/vice-president-of-product/) - Job van der Voort
+  - [General Product](/handbook/product/) - [VP of Product](/jobs/vice-president-of-product/) - Job van der Voort
   - CI/CD Product - [Head of Product](/jobs/head-of-product/) - Mark Pundsack
   - Strategic Partnerships - [Director of Strategic Partnerships](/jobs/director-strategic-partnerships/) - Eliran Mesika
