@@ -1,6 +1,6 @@
 ---
 layout: job_page
-title: "Partner Marketing Manager"
+title: "Product Marketing Manager"
 ---
 
 Are you a passionate, strategic marketer with impressive management skills who has 
@@ -14,9 +14,10 @@ and channel partners.
 
 ## Responsibilities
 
-* Define the playbook for partner marketing to build a scalable marketing framework that can be leveraged across new industry partnerships.
-* Work with industry partners to build strong joint value propositions that fit within each company’s messaging and GTM strategies.
+* Develop GitLab's partner marketing playbook to build a scalable framework that can be leveraged across new industry partnerships.
+* Work with industry partners to build strong joint marketing value propositions that fit within each company’s messaging and GTM strategies.
 * Develop strategies to implement bigger and better co-marketing campaigns with industry partners (ie. Partner blogs, webinars, ebooks, customer stories, social etc.). 
+* Work closely with the Director of Strategic Partnerships to execute our vision on strategic initiatives.
 * Maintain positive and productive relationship with industry partners. Keeping in mind that sustaining partnerships is equally, if not more, important than launching them.
 * Build efficient and effective methods to work with channel partners to build channel success and pipeline, as well as provide insight into successes/losses.
 * Develop a channel marketing collateral and sales enablement toolkit to support the onboarding and sustain of our channel partners. 
