@@ -18,34 +18,15 @@ title: Support
 - [External support resources for the team](/handbook/support/external/)
 - [Mentions Channel](/handbook/support/mentions-of-gitlab)
 
-## Contents of the page
+----
 
-- [Support Direction](#support-direction)
-- [Support Issue Tracker](#issue-tracker)
-- [Service Level Agreements](#sla)
-- [Support Turbo](#support-turbo)
-- [Dashboard](#dashboard)
-- [Dormant Usernames](#dormantusers)
-- [Support Channels](#support-channels)
-   - [Emergency Tickets](#emergency)
-   - [Security disclosures](#security)
-   - [GitLab.com downtime](#downtime)
-   - [Regular tickets](#regular)
-   - [Errors on GitLab.com](#errors-on-gitlab-com)
-   - [Internal Support](#internal)
-   - [Disqus from blog posts](#disqus)
-   - [Twitter](#twitter)
-   - [Posted Issues](#issue-tracker)
-   - [GitLab.com Support Tracker](#supp-forum)
-   - [Facebook](#facebook)
-   - [CE/EE/Omnibus Issue Trackers](#product-issue-tracker)
-   - [Mailing List](#mailing-list)
-   - [GitLab Forum](#gitlab-forum)
-   - [Stack Overflow](#stack-overflow)
-   - [Reddit](#reddit)
-   - [Quora](#quora)
-- [Non Channel Work](#other)
-- [Code of Contact](#coc)
+## Contents of the page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+----
 
 ## Support Direction <a name="support-direction"></a>
 
