@@ -81,7 +81,7 @@ This demonstration is designed to show customers the highlights of GitLab and th
    - By default master is protected
    - You have to push from another branch
    - GitLab Workflow enforced.
-- Select Project->Files  (or Code</>)
+- Select Project->Files  (or Code)
 - Select README.md and then ‘Edit’
    - Change the file
    - Add a new branchname to the bottom
@@ -112,13 +112,11 @@ This demonstration is designed to show customers the highlights of GitLab and th
    - License file needs to be created
 - Create milestone
    - Add two issues
-
-
-   Base files for this project need to be created/fixed
-   Tag issue #1 and #2  — and user @reb in the milestone
-View milestone progress
-Update readme file with new information - on temp branch
-Attach readme to merge request with issue
+      - Base files for this project need to be created/fixed
+      - Tag issue #1 and #2  — and user doing the demo in the milestone
+- View milestone progress
+- Update readme file with new information - on temp branch
+- Attach readme to merge request with issue
 
 
 ## <A name="product_differentiations"></A>Product differentiations

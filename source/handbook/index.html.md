@@ -17,6 +17,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Marketing](/handbook/marketing)
   * [Social Media Guidelines](/handbook/social-media-guidelines)
 * [Sales](/handbook/sales)
+  * [Customer Success](/handbook/customer-success)
 * [Finance](/handbook/finance)
   * [Stock Options](/handbook/stock-options)
   * [Board meetings](/handbook/board-meetings)

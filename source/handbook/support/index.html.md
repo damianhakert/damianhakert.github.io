@@ -3,6 +3,12 @@ layout: markdown_page
 title: Support
 ---
 
+## Reaching the support group<a name="reach-support"></a>
+
+- [**Public Issue Tracker**](https://gitlab.com/gitlab-com/support/issues/); please use confidential issues for topics that should only be visible to team members at GitLab. NOTE: not for support requests themselves, but rather for issues that relate to the support group.
+- [**Chat channel**](https://gitlab.slack.com/archives/support); please use the `#support` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
+
+
 ## Other support pages
 
 - [Support Issue Tracker](https://gitlab.com/gitlab-com/support/issues)
@@ -109,18 +115,18 @@ That is why some channels are combined.
 
 ## Dormant Usernames <a name="dormantusers"></a>
 
-Support often gets requests from gitlab.com users to release a username. 
+Support often gets requests from gitlab.com users to release a username.
 This can be implemented if the following criteria are met:
 
-1. The account in question has no data. 
+1. The account in question has no data.
 1. There hasn't been any activity on the account (i.e. code, issues, MRs)
-   for six months. This considers activity on projects the account owns 
-   as well as activity on projects the account participants in. 
-1. Support has had four failed attempts to  contact the user within a 
+   for six months. This considers activity on projects the account owns
+   as well as activity on projects the account participants in.
+1. Support has had four failed attempts to  contact the user within a
  two week period.   
 1. The user cannot be an owner of any active project.
 
-Usernames will be prefixed with `idle` to keep the account active but 
+Usernames will be prefixed with `idle` to keep the account active but
 release the namespace.
 
 ## Service Level Agreements <a name="sla"></a>
