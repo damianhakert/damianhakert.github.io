@@ -6,6 +6,7 @@ title: Support
 ## Other support pages
 
 - [Support Issue Tracker](https://gitlab.com/gitlab-com/support/issues)
+- [Support Knowledge Base](https://gitlab.com/gitlab-com/support-kb)
 - [Service Engineer Onboarding](/handbook/support/onboarding/)
 - [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
 - [PGP Process](https://about.gitlab.com/handbook/support/pgp_process/)
