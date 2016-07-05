@@ -5,7 +5,7 @@ title: "Service Engineer"
 The rising popularity of GitLab means that our professional services are in high demand.
 If you have the skills to help our clients we would love to talk to you.  
 
-We are looking for skilled people around the world. If you would love to 
+We are looking for skilled people around the world. If you would love to
 work from home and help GitLab grow, this is the right spot for you.
 
 ## Responsibilities
@@ -33,7 +33,7 @@ Senior Service Engineers are experienced Service Engineers who
 * have deep knowledge of GitLab internals and a variety of possible configurations
 * help hire and train new Service Engineers
 * are a go-to person for the other Service Engineers when they face tough challenges
-* improve the support process (Optimize Zendesk flow, suggest rake task additions)
+* improve the support process (Optimize ZenDesk flow, suggest rake task additions)
 * write blog articles
 * take ownership of documentation and feature requests that is based on customer interactions
 * create merge requests to fix bugs
@@ -46,3 +46,5 @@ Senior Service Engineers are experienced Service Engineers who
 * Good people skills
 * Excellent spoken and written English
 * You share our [values](/handbook/#values), and work in accordance with those values
+* [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
+* A customer scenario interview is part of the hiring process for this position.
