@@ -167,23 +167,7 @@ The meeting should run as follows:
 - First 5 minutes: Everyone in order of Team Page (Last goes first) gives 15 seconds about what they are working on. (Joe, Marcia, Colton, Amara, Ryan, Amanda, Braden, Mitchell, Ivan, Luke, Axil, Hank, Ashley, Emily)  
 - Last 5 minutes: Discuss roadblocks and any collaboration needs  
 
-To find the Dinosaur Sticker leaderboard, search the company Google Drive for "Dinosaurs are awesome"
-
-### Monthly Marketing Team Meeting
-
-**Meeting goal: OKR review and large campaign planning**
-
-**Run time: 30 minutes**
-
-The Monthly Marketing Team Meeting is for review of our team OKRs (which we set at the Quarterly Marketing Review) and to discuss any large campaigns that are happening in the upcoming month.
-
-The agenda for the meeting can be found by searching the company Google Drive for "Monthly Marketing Meeting"
-
-The meeting should run as follows:
-
-- Agenda items should be addressed first  
-- Discuss any large upcoming campaigns  
-- Team OKRs are quickly reviewed and graded   
+To find the Dinosaur Sticker leaderboard, search the company Google Drive for "Dinosaurs are awesome"  
 
 ### Quarterly marketing review
 
