@@ -24,14 +24,14 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - [Design](https://about.gitlab.com/handbook/marketing/design/) - [Designer](/jobs/designer/) - Luke Babb
     - [Demand generation](/handbook/marketing/demand-generation) - [Director of Demand Generation](/jobs/director-demand-generation) - Joe Lucas
       - [Senior Demand Generation Manager](/jobs/demand-generation-manager/) - Hank Taylor
-      - [Online Marketing](/handbook/marketing/online-marketing) - [Online Marketing Manager](/jobs/online-marketing-manager/) - Mitchell Wright
+      - [Online Marketing](/handbook/marketing/demand-generation/online-marketing/) - [Online Marketing Manager](/jobs/online-marketing-manager/) - Mitchell Wright
       - Inbound Business Development - [Business Development Team Lead - Inbound](/jobs/business-development-team-lead/) - Colton Taylor
       - [Field Marketing](/handbook/marketing/developer-relations/field-marketing/) - [Field Marketing Manager](/jobs/field-marketing-manager/) - Emily Kyle
       - [Business Development Representatives - Inbound](/jobs/business-development-representative/)
       - Outbound Business Development - [Business Development Team Lead - Outbound](/jobs/business-development-team-lead-outbound/)
     - [Product Marketing](/handbook/marketing/product-marketing/) - [Senior Product Marketing Manager](/jobs/product-marketing-manager/) - Amara Nwaigwe
-      - [Partner Marketing](/handbook/marketing/product-marketing/#partnermarketing/) - Partner/Channel Marketing Manager (vacancy)
-      - [Content Marketing](/handbook/marketing/developer-relations/content-marketing/) - Content Marketing Manager (vacancy)
+      - [Partner Marketing](/handbook/marketing/product-marketing/partner-marketing/) - Partner/Channel Marketing Manager (vacancy)
+      - [Content Marketing](/handbook/marketing/product-marketing/content-marketing/) - Content Marketing Manager (vacancy)
     - [Developer Relations](https://about.gitlab.com/handbook/marketing/developer-relations/)
       - [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/) - [Developer Advocate](/jobs/developer-advocate/)
       - [Technical Writing](https://about.gitlab.com/handbook/marketing/developer-relations/technical-writing/) - [Technical Writer](/jobs/technical-writer/)
