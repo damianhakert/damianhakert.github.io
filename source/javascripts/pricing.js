@@ -29,6 +29,7 @@ $(function () {
 
   $('.js-faq-question').on('click', function (e) {
     e.preventDefault()
+    $('.faq-item.is-open').removeClass('is-open');
     $(this).closest('.faq-item').toggleClass('is-open');
   });
 });
