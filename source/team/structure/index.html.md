@@ -69,5 +69,5 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - [Developers](/jobs/developer/) that are a merge request coach
   - Scaling - [VP of Scaling](/jobs/vp-of-scaling/) - Ernst van Nierop
   - [General Product](/handbook/product/) - [VP of Product](/jobs/vice-president-of-product/) - Job van der Voort
-  - CI/CD Product - [Head of Product](/jobs/head-of-product/) - Mark Pundsack
+  - [CI/CD Product](/direction/cicd/) - [Head of Product](/jobs/head-of-product/) - Mark Pundsack
   - Strategic Partnerships - [Director of Strategic Partnerships](/jobs/director-strategic-partnerships/) - Eliran Mesika
