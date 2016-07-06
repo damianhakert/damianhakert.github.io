@@ -120,3 +120,7 @@ certain behaviors.
 
 We don't want users to be able to construct workflows that break GitLab or
 make it work in unpredictable ways.
+
+## CI/CD
+
+For more insights into our vision on Continuous Integration and Continuous Deployment & Delivery, see the [CI/CD page](/direction/cicd).
