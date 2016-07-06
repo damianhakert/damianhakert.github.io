@@ -1238,16 +1238,21 @@
   story:  |
           Joining July 5th
 
-- name: T.D.
-  locality:
-  country:
+- name: Taurie Davis
+  locality: Portland, OR
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
   reports_to: Frontend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: taurie.jpg
+  twitter: tauried
+  gitlab: tauriedavis
   story:  |
-          Joining July 5th
+          Taurie is passionate about identifying problems, creating reliable solutions, 
+          and crafting intutive experiences. She enjoys implementing her own designs while 
+          understanding each step in the development process, ensuring that 
+          the user experience stays top priority. When she is not working, Taurie spends 
+          most of her time training as an aerialist, enjoying the beautiful Pacific Northwest, 
+          or cuddling up at home with a movie and her cat.
 
 - name: M.Y.
   locality:
