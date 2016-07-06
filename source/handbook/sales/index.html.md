@@ -3,7 +3,7 @@ layout: markdown_page
 title: "Sales Handbook"
 ---
 
-## Reaching Sales<a name="reach-sales"></a>
+## Communication<a name="reach-sales"></a>
 
 - [**Public Issue Tracker**](https://gitlab.com/gitlab-com/sales/issues/); please use confidential issues for topics that should only be visible to team members at GitLab.
 - You can also send an email to the Sales team via sales [at] gitlab.com
