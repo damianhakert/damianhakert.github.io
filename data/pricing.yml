@@ -78,10 +78,10 @@ questions:
       key will expire after one year for GitLab subscribers.
   - question: How do I upgrade GitLab EE to 7.11 or above?
     answer: |
-      After you upgrade GitLab to EE version 7.11 and higher, GitLab EE will stop
-      working without a license key. If you don't have a license key, please contact
-      [sales@gitlab.com] and request a key. Once you deploy the key, then GitLab EE
-      will start functioning again.
+      After you upgrade GitLab to EE version 7.11 and higher, GitLab EE will
+      stop working without a license key. If you don't have a license key,
+      please contact <sales@gitlab.com> and request a key. Once you deploy the
+      key, GitLab EE will start functioning again.
   - question: What happens when my subscription is about to expire or has expired?
     answer: |
       - Starting 30 days before the subscription end date, GitLab will display a
