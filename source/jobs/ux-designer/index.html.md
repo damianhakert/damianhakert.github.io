@@ -6,10 +6,10 @@ title: "UX Designer"
 ## Responsibilities
 
 * Create wireframes/mockups/clickable deliverables to show the transitions and interactions of new features
-* Improve the interface of GitLab
-* Work with developers to improve flows
-* Conduct user testing
-- latest UI/UX techniques, prototyping with tools or HTML/CSS, user testing, user flow.
+* Collaborate with the team to improve the interface of GitLab
+* With developers, create ways to improve flows
+* Conduct and manage user testing
+* Use and create the latest UI/UX techniques, prototyping with tools or HTML/CSS, user testing, user flow.
 
 ## Tools
 
