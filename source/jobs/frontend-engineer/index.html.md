@@ -5,9 +5,10 @@ title: "Frontend Engineer"
 
 ## Responsibilities
 
-* Implement the interfaces in GitLab proposed by UX Engineers and contributors
-* Improve the [static website of GitLab](https://about.gitlab.com/) based on the suggestions of the Designer and CMO
-* Continually improve the quality of GitLab
+* Implement the interfaces in GitLab proposed by UX Engineers and contributors.
+* Improve the [static website of GitLab](https://about.gitlab.com/) based on the collaborations with the the Designer and CMO.
+* Continually improve the quality of GitLab by using discretion of where you think changes are needed.
+* Creating high quality code in JavaScript, using J query and or another front end web framework.
 
 ## Workflow
 
