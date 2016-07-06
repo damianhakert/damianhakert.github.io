@@ -1,0 +1,107 @@
+payment_url: https://customers.gitlab.com
+compare:
+  - icon:
+    title: Project importing from GitHub
+    subtitle: Community & Enterprise Edition
+  - icon:
+    title: Top Enterprise Feature
+    subtitle: Enterprise Edition
+  - icon:
+    title: Top Enterprise Feature
+    subtitle: Enterprise Edition
+  - icon:
+    title: GitLab Continuous Integration
+    subtitle: Community & Enterprise Edition
+  - icon:
+    title: LDAP Group Sync
+    subtitle: Enterprise Edition
+  - icon:
+    title: Super-powered search with Elasticsearch
+    subtitle: Enterprise Edition
+questions:
+  - question: What is GitLab High Availability?
+    answer: |
+      High availability is a system design that ensures a prearranged level of operational performance throughout a specific time-period. The most common way to measure HA is through the notion of uptime, which measures how long a service is up and running. <a href="/high-availability/">Learn more...</a>
+  - question: Is there educational pricing?
+    answer: |
+      GitLab's Educational pricing is that for educational institutions, students do not count towards the user count. The purchase of at least one subscription is required.
+  - question: How is GitLab EE licensed?
+    answer: |
+      Every person with a GitLab account that is not blocked by the administrator should be counted in the subscription.
+  - question: Can I get an evaluation license of EE?
+    answer: |
+      It is possible to obtain a free evaluation license of our enterprise edition for a 30 day period for up to 100 users.
+  - question: What will happen to my evaluation license key at the end of the trial period?
+    answer: |
+      When you decide to purchase a subscription, you will be issued a new license key dependent on the type of subscription you sign up for. Should you not take out a subscription, your license key will expire at the end of your evaluation period.
+  - question: Can I add more users to my subscription?
+    answer: |
+      GitLab follows a True-Up model so you can grow now and pay later. You can add
+      more users to the server than what you are licensed for at any time. For users
+      that are added during the year you pay half price when you renew.
+  - question: The True-Up model seems complicated, can you illustrate?
+    answer: |
+      If you have 100 active users today, you should purchase a 100 user subscription.
+      Suppose that when you renew next year you have 300 active users (200 extra
+      users). When you renew you pay for a 300 user subscription and you also pay half
+      a year for the 200 users that you added during the year.
+  - question: Do students have to pay or do they receive a discount?
+    answer: |
+      GitLab's Educational pricing is that for educational institutions, students do
+      not count towards the user count. The purchase of at least one subscription is
+      required.
+  - question: Do non-profits have to pay for the Enterprise Edition?
+    answer: |
+      Non-profits can use GitLab Community edition for free but need to purchase a
+      subscription to the Enterprise Edition at our published rates.
+  - question: Why does GitLab use licenses?
+    answer: |
+      The code for Enterprise Edition is open and can be inspected by anyone. This
+      makes it easier to offer a trial of Enterprise Edition.
+  - question: Can anyone download GitLab EE?
+    answer: |
+      Yes, but it will not be functional without a license key.
+  - question: How does the license key affect customers?
+    answer: |
+      Customers can now download and inspect the code for the latest GitLab EE version
+      for free. However, they cannot use it without a valid subscription. They also
+      cannot make any modification to the GitLab EE code.
+  - question: Do blocked users count towards total user count?
+    answer: |
+      No, only _active_ users count towards total user count.
+  - question: How does the license key work?
+    answer: |
+      The license key is a static file which, upon uploading, allows GitLab Enterprise
+      Edition to run. During license upload we check that the active users on your
+      GitLab Enterprise Edition instance doesn't exceed the new number of users.
+      During the licensed period you may add as many users as you want. The license
+      key will expire after one year for GitLab subscribers.
+  - question: How do I upgrade GitLab EE to 7.11 or above?
+    answer: |
+      After you upgrade GitLab to EE version 7.11 and higher, GitLab EE will stop
+      working without a license key. If you don't have a license key, please contact
+      [sales@gitlab.com] and request a key. Once you deploy the key, then GitLab EE
+      will start functioning again.
+  - question: What happens when my subscription is about to expire or has expired?
+    answer: |
+      - Starting 30 days before the subscription end date, GitLab will display a
+        notice to all administrators informing them of the impending expiration.
+      - On the day the subscription expires, nothing changes.
+      - 14 days after the subscription has ended, GitLab will display a notice to all
+        users informing them of the expiration, and pushing code and creation of
+        issues and merge requests will be disabled.
+  - question: Do I need an additional license if I run more than one server (e.g., for backup, high availability, failover, testing, and staging)?
+    answer: |
+      No, if your GitLab Enterprise Edition servers cover the same users, you can use
+      the same license file for all of them.
+  - question: What happens if I decide to not renew my subscription?
+    answer: |
+      14 days after the end of your subscription, your key will no longer work and
+      GitLab Enterprise Edition will not be functional anymore. You will be able to
+      downgrade to GitLab Community Edition, which is free to use.
+  - question: How does GitLab deal with bug fixes?
+    answer: |
+      Bugs that are reported to us always have a high priority, no matter which
+      subscription you have. In most instances they will be fixed in the next release
+      or the release after that, which means the turnaround is one month or two.
+      Severe bugs will be fixed earlier in a patch release.

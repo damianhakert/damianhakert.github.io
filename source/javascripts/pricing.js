@@ -18,7 +18,18 @@ $(function () {
     $('[data-equal]').each(function(){
       var $this = $(this),
       target = $this.data('equal');
-      $this.find(target).equalHeights();
+
+      if ($(window).width() > 992) {
+        $this.find(target).equalHeights();
+      } else {
+        $this.find(target).css('height', '');
+      }
     });
   }, 500);
+
+  $('.js-faq-question').on('click', function (e) {
+    e.preventDefault()
+    $('.faq-item.is-open').removeClass('is-open');
+    $(this).closest('.faq-item').toggleClass('is-open');
+  });
 });
