@@ -1216,16 +1216,20 @@
           When he's not working you can usually find Joe riding his motorcycle and 
           enjoying all that the beautiful South Carolina coast has to offer.
 
-- name: T.B.
-  locality:
-  country:
+- name: Tiago Botelho
+  locality: Coimbra
+  country: Portugal
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer Intern</a>
   reports_to: Backend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: TiagoBotelho.jpg
+  twitter: tiagobotelho9
+  gitlab:  tiagonbotelho
   story:  |
-          Joining July 1st
+          Tiago is a black belt judoka devoted to technology that is eagered to learn
+          more every day that passes. Prior to joining Gitlab he worked for a static 
+          code analysis called Codacy and founded his own company for crowdsourcing
+          beta versions of games for testing named Betar. He has a dog named Arthur
+          and a cat named Louis. Music is his number one passion.
 
 - name: A.H.
   locality:
