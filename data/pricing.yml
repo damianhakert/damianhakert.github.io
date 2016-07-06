@@ -30,7 +30,7 @@ questions:
       Every person with a GitLab account that is not blocked by the administrator should be counted in the subscription.
   - question: Can I get an evaluation license of EE?
     answer: |
-      It is possible to obtain a free evaluation license of our enterprise edition for a 30 day period for up to 100 users. Please visit our <a href="/pricing">pricing page</a> to sign up.
+      It is possible to obtain a free evaluation license of our enterprise edition for a 30 day period for up to 100 users.
   - question: What will happen to my evaluation license key at the end of the trial period?
     answer: |
       When you decide to purchase a subscription, you will be issued a new license key dependent on the type of subscription you sign up for. Should you not take out a subscription, your license key will expire at the end of your evaluation period.
@@ -68,9 +68,7 @@ questions:
       cannot make any modification to the GitLab EE code.
   - question: Do blocked users count towards total user count?
     answer: |
-      No, only _active_ users count towards total user count. See the blue number in
-      the screenshot below which your administrator can find under **Administration** >
-      **Users**.
+      No, only _active_ users count towards total user count.
   - question: How does the license key work?
     answer: |
       The license key is a static file which, upon uploading, allows GitLab Enterprise

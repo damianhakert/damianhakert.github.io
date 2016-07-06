@@ -79,9 +79,9 @@ extra_font:
                 = link_to "Learn more...", "/features#enterprise", class: "action-link"
             = link_to "Buy Now", "#gitlab-ee", class: "featured-item-button"
     %h1.page-headline.cta
-      Not sure? Try GitLab Enterprise Edition risk free for 30 days
+      Not sure? Try GitLab Enterprise Edition risk-free for 30 days.
     %h4.subheader.cta
-      No Credit card required. Have questions?
+      No credit card required. Have questions?
       %a.contact-us{href: "https://about.gitlab.com/sales/"} Contact us.
     %a.btn.btn-lg.btn-red{ href: "/free-trial/" } Get Your Free Trial Today
 
@@ -112,7 +112,7 @@ extra_font:
                 Faster cloning & fetching
               %li.line-separator
               %li.item-description
-                = link_to "Learn more...", "", class: "action-link"
+                = link_to "Learn more...", "http://docs.gitlab.com/ee/gitlab-geo/README.html", class: "action-link"
             %a.featured-item-button{href: data.pricing.payment_url}
               Add GitLab Geo
       .col-md-4
@@ -208,7 +208,9 @@ extra_font:
       Subscription & Licensing FAQ
     %h3.faq-subtitle.light.text-center
       Still have questions?
-      = link_to "Contact us", "/sales/"
+      = succeed "." do
+        = link_to "Contact us", "/sales/"
     .faq-holder.clearfix
-      - data.pricing.questions.each_slice(data.pricing.questions.size / 2).to_a.each do |group|
+      - size = (data.pricing.questions.size / Float(2)).ceil
+      - data.pricing.questions.each_slice(size).to_a.each do |group|
         = partial "question-group", locals: { group: group }
