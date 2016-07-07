@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Trends in Version Control Land: Innersourcing"
-categories: technical overview
+categories: concepts
 author: Sid Sijbrandij
 author_twitter: sytses
 image_title: '/images/default-blog-image.png'
