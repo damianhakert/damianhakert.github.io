@@ -15,7 +15,7 @@ This demonstration is designed to show customers the highlights of GitLab and th
 ## Prerequisites
 - Access to a GitLab instance
 - Ability to create a project
-- If Internet access is available, start at this URL while logged in: https://gitlab.com/
+- If Internet access is available, start at this URL while logged in: [https://gitlab.com/](https://gitlab.com/)
 
 ## <A name="overall_navigation"></A>OVERALL NAVIGATION
 
@@ -56,7 +56,7 @@ This demonstration is designed to show customers the highlights of GitLab and th
 
 ### Project / GitLab flow
 - Ensure you are signed in
-- Select ‘new project’
+- Select ‘New Project’
    - Discuss per project settings
    - Name/path
    - Description
@@ -132,7 +132,7 @@ This demonstration is designed to show customers the highlights of GitLab and th
        - (use back button to go back to builds)
    - Ref is the branch where it is now located and the stage of the build is shown as well - build test or deploy
    - Select “Graphs” then Continuous Integration to see a collection of graphical information on CI
-   - Docs for learning more about CI:  http://docs.gitlab.com/ce/ci/
+   - Docs for learning more about CI:  [http://docs.gitlab.com/ce/ci/](http://docs.gitlab.com/ce/ci/)
 
 - Integrated issue tracking - GitLab includes an issue tracker which you can link to any merge request.
    - Click Issues at the top of page in www.gitlab.com project
@@ -140,17 +140,16 @@ This demonstration is designed to show customers the highlights of GitLab and th
    - Search by Author, Assignee, Milestone, Label, Weight
    - Open a closed issue and show the communication which occurred while the issue was open.
 
-- Elastic Search - (not installed by default) GitLab leverages the search capabilities of Elasticsearch and enables it when searching in:
-   - GitLab application
+- Elastic Search - (not installed by default) GitLab leverages the search capabilities of Elasticsearch uses it when searching:
    - Issues
-   - merge requests
+   - Merge Requests
    - Milestones
    - Notes
    - Projects
    - Repositories
    - Snippets
-   - wiki repositories
-   - Details available here: https://gitlab.com/help/integration/elasticsearch.md
+   - Wiki Repositories
+   - Details available here: [https://gitlab.com/help/integration/elasticsearch.md](https://gitlab.com/help/integration/elasticsearch.md)
 
 - Better activity feed and visualization - Collaborative activity feed to help everyone understand what is happening in a project; graphical view of the commit history.
    - From project page of https://gitlab.com select “commits”
