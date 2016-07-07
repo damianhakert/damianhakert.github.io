@@ -50,9 +50,8 @@ Make sure to read this through before writing for GitLab.
 Also, our content is written in markdown Kramdown. Make sure to read the [Markdown Style Guide] before adventuring yourself writing for
 our website [about.GitLab.com] and our [Blog], which are our "faces to the world".
 
-On the [Content Marketing Handbook][marketing-blog], you'll find out more about the GitLab
-Blog directive, and at the end of this page, you'll find
-the [Blog Style Guidelines](#styles-guidelines).
+On the [GitLab Blog Handbook][marketing-blog], you'll find out more about the GitLab
+Blog directive, and the [Blog Style Guidelines][blog-guidelines].
 
 ## Markdown Style Guide for about.GitLab.com
 
@@ -197,234 +196,6 @@ There is a simple list below, for things to do and to avoid when writing. It's n
 
 ----
 
-## Blog Style Guidelines
-{: #styles-guidelines}
-
-This style guide is specifically for blog posts on [about.GitLab.com/blog][blog]. 
-
-### Assumptions
-
-Every blog post must start from the documentation, never the opposite. Thus, if the subject you want to write about
-is not documented, please consider contributing to the docs first, or bring it to our attention by
-[creating a new issue][issue-docs], so we can take action to make it documented properly.
-
-Before writing, make sure you've read through this Style Guidelines, the [Blog directives][marketing-blog], the [Technical Aspects], the
-[Professional Writing Techniques] and the [Markdown Style Guide].
-
-Before submitting your post for review, make sure you: 
-
-- Forked the project [www-gitlab-com] and cloned your fork to your computer
-- Have [Git], [Bundler] and [Middleman] installed locally
-- Have all the project dependencies installed, by running `bundle install` in your terminal
-- Have previewed your post locally by running `bundle exec middleman`, then accessing it under <http://localhost:4567/blog/>
-
-### File
-
-The blog posts are located in the project [www-gitlab-com], under `/source/posts/`.
-
-The file name must have this structure: `yyyy-mm-dd-title-of-the-post.html.md`. The date can be
-changed just before publishing, so don't worry if it is accurate or not. Future dates are accepted,
-in case you have estimated the publishing date, which is defined by the Marketing Team.
-
-In all file names, prefer using dashes `-` than underscores `_`. Do not leave blank spaces in file names, ever.
-
-All posts are written in markdown Kramdown. Please read through the [Markdown Style Guide] for reference.
-
-### Frontmatter
-
-The post **frontmatter** is the first part of any post. It is standard and cannot be changed, so please make
-sure to provide the correct information, and do not add nor remove anything from the default template:
-
-```
----
-title: "This is the post title"
-author: Firstname Lastname
-author_twitter: userID
-categories: technical overview
-image_title: '/images/blogimages/post-cover-image.jpg'
----
-```
-
-#### Title
-{: .no_toc}
-
-Make sure the post title represents very well the subject, and make it as short as possible.
-Do the same for headings.
-
-#### Author Name
-{: .no_toc}
-
-Use the author's full name. If the name has special chars, type it within
-double quotes `"Full Name"`.
-
-#### Twitter Handle
-{: .no_toc}
-
-Don't worry if you don't have an account on Twitter. Leave the field `author_twitter` blank.
-
-#### Categories
-{: .no_toc}
-
-Use only **one** of the following categories per post.
-**Do not** capitalize nor pluralize them, nor change any letter,
-otherwise you'll create another category, which is somenthing we don't want to do unpurposely.
-
-- concepts _(use it when your post in on continuous integration, innersource, open source, version control, SaaS, etc)_
-- git
-- GitLab _(all GitLab products/features: CI, Geo, GDK, Pages, LDPA, Hooks, etc.)_
-- GitLab CE _(use it when highlighting CE features, advantages, etc.)_
-- GitLab EE _(EE-only features)_
-- GitLab workflow _(issues, merge requests, confidential issues, milestones, todos, etc.)_
-- inside GitLab _(remote-first, remote work, team interview, work experience, etc.)_
-- integration _(GitLab + something else)_
-- press
-- release
-- security release _(when the main objective is GitLab security)_
-- technical overview
-- tutorial
-
-We'll improve it, but by now you can find posts under the same category by navigating to
-`https://about.gitlab.com/blog/categories/category-name/`. Dashes will be automatically added
-to multi-word categories and all of them will be lowercased in the URL. For example, the
-category "GitLab CE" will be available under `https://about.gitlab.com/blog/categories/gitlab-ce/`.
-
-If you think we are missing an important category, please let us know by adding a comment
-to this issue: <https://gitlab.com/gitlab-com/www-gitlab-com/issues/721>.
-
-#### Cover Image
-{: .no_toc #cover-image-frontmatter}
-
-Do not leave the post without a cover image (`image_title`), unless you have a strong reason to do so.
-Read more about it [below](#cover-image).
-
-#### Comments
-{: .no_toc}
-
-Comments are present in all posts by default. Set it to false only if you have a strong reason to
-do so (`comments: false`). They are our best source of feedback on posts.
-
-#### Date
-{: .no_toc}
-
-The variable `date: yyyy-mm-aa hh:mm:ss` is not necessary in the frontmatter anymore, unless you want
-to set an specific time. If you do, just make sure that the date in the file name matches with
-the date in the frontmatter, otherwise the build will fail.
-
-### Create a new post
-
-You can create a new post however you prefer: adding a new file to `/source/posts/`, duplicating
-an existing post, or using the command line, which is the safest way to do so. Just is type
-into your terminal (opened in your local project directory):
-
-```sh
-rake new_post
-```
-
-Hit **enter** or **return**, then you'll be prompted to enter the post title. Type in the title exactly as you
-want it, for example "Hello World - I'm a new post" and rake will take care of the file name for you.
-Then you just open the file, fill in with your name, Twitter handle, and the post category, then you'll be
-good to start writing.
-
-### Body structure
-
-Just below the frontmatter, start writing your post, including the sections as follows:
-
-- Introduction. State the problem, audience and purpose of the article.
-- Add the `<!-- more -->` separator. This is going to separate the visible part on the landing
-page <https://about.GitLab.com/blog/> from the rest of the article body.
-- Software and hardware requirements - explain what the reader needs before following your steps.
-- Concepts - state and explain the concepts needed to follow through your post.
-- Article body - develop the subject of your post.
-- Section `## Conclusion` - summarize the article.
-- Section `## About guest author` - when the author is not a GitLab Team member, add this section telling
-in 3 or 4 sentences who is the guest author, and what is her/his background on the post's subject.
-It must be written by the author her/himself.
-- Section `## Acknowledgments` - whenever there are more people deeply involved in having the post ready to go,
-you can add this section to show your gratitude to your colleagues.
-
-If the article is part of a series, make sure to link back among all articles
-in the series to each one after they get published. 
-
-### Tutorials
-
-When writing tutorials, be clear on the steps needed to follow through.
-Break the tutorial into small steps and the steps into tasks, but bare
-in mind that long lists of steps have the downside of being hard to follow
-and refer back to. So, consider serializing posts if needed.
-
-### References
-
-As explained on the [Professional Writing Techniques] above, always provide source for your statements.
-
-### Illustration
-
-Illustrate your examples, with code blocks or screenshots. Be consistent along your examples. E.g., if you are using a generic URL
-to exemplify your steps `domain.com`, be consistent and keep it `domain.com`, throughout the post.
-
-**Important security point:** Do not expose your personal details by using your real tokens or 
-security credentials.
-Use placeholders such as `[project's CI token]` stub instead. Or blur them if displayed on screenshots.
-
-### Images
-
-#### Creating images
-{: .no_toc}
-
-- Static images should be used to illustrate concepts, provide diagrams, elements of the UI or orient the reader.
-- Images should not be used to render commands or configuration which would prevent
-someone being able to copy and paste.
-- Animated GIFs can be used sparingly where you need to show a process or some event
-happening over the course of time or several actions, though they should not replace text descriptions or instructions.
-- Use screenshots to identify and localize specific parts of the screeen. There are great tools
-for doing so. For example, [Nimbus Screenshot]  (browser extention), [Mac screenshot],
-[Snipping Tool] for Windows, and [Screenshot Tool] for Ubuntu.
-
-#### Preparing images
-{: .no_toc}
-
-For the blog, images should be cropped in a 700 x 490 pixel *proportion* 
-so the image doesn't get clipped when displayed as a lead image in the blog list.
-This includes the cover image.
-Compress the image, for example using [TinyPNG.com][tinypng] or any other image editor.
-
-#### Where to place images
-{: .no_toc}
-
-Images used to illustrate articles should be placed in the `/source/images/blogimages/` directory. 
-Unless they are 'free to use' lead images from [Unsplash][unsplash], which should be placed in the
-`/source/images/unsplash` directory.
-
-#### Naming images
-{: .no_toc}
-
-If you are using a set of images, create a **new directory** under `/source/images/blogimages/`, name it according to
-your post's title and add all the images there. For example, if your post has a file name
-`2015-03-20-my-awesome-post.html.md`, your new folder should be named `/my-awesome-post/`. 
-
-If you use just a couple images, you can add them directly to `/source/images/blogimages/`, but make sure they begin with the same
-name as you post's. This way it's easy to anyone know which image is related to each post. Name the files according to the previous example.
-So, following the same logic, your cover image would be named `my-awesome-post-cover.png`, accessed under
-`/source/images/blogimages/my-awesome-post-cover.png`.
-
-#### Cover image
-{: .no_toc}
-
-Choose a cover image for your post. Try any public domain resource that reflects somehow your post's subject. In the absence
-of an image, use one of these: 
-
-- GitLab Default: `'/images/default-blog-image.png'` (purple background and the Tanuki logo)
-- Blog Default: `'/images/blogimages/gitlab-blog-cover.png'` (purple background, the Tanuki logo and "GitLab")
-
-### GitLab Specific Terms 
-
-- **GitLab** is always spelled with capital "G" and "L".
-- If you're writing about the CI feature, it's not a separate product. 
-For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner", capital "R".
-- **GitLab, Inc.** is the company. **GitLab** is the SaaS, which refers to **GitLab.com**, **GitLab EE** and **GitLab CE**.
-- We refer to **GitLab team members** instead of staff. 
-- Make sure the CI configuration file is spelled ``` `.gitlab-ci.yml` ```, with the leading period and backticks.
-- When we refer to specific configuration sections or pages in GitLab they should be in **bold**.
-- Refer to this website as **about.GitLab.com**, with capital "G" and "L", as always. **GitLab.com** is not the website, is the SaaS.
 
 <!-- Identifiers, in alphabetical order -->
 
@@ -432,6 +203,7 @@ For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner",
 [android-doc]: http://developer.android.com/intl/pt-br/tools/help/emulator.html
 [android-emulator]: http://developer.android.com/intl/pt-br/tools/devices/emulator.html
 [blog]: https://about.gitlab.com/blog
+[blog-guidelines]: /handbook/marketing/blog/#styles-guidelines
 [blog-tracker]: https://gitlab.com/gitlab-com/blog-posts/issues
 [bundler]: http://bundler.io/
 [documentation]: http://docs.gitlab.com/
@@ -441,7 +213,7 @@ For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner",
 [Kramdown]: http://kramdown.gettalong.org
 [Mac screenshot]: https://support.apple.com/en-us/HT201361
 [Markdown Style Guide]: markdown-guide/
-[marketing-blog]: ../../product-marketing/content-marketing/#blog
+[marketing-blog]: /handbook/marketing/blog/
 [middleman]: https://middlemanapp.com/basics/install/
 [Nimbus Screenshot]: http://nimbus.everhelper.me/screenshot.php
 [Professional Writing Techniques]: #professional-writing-techniques
