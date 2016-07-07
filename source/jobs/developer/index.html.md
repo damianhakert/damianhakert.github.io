@@ -21,12 +21,27 @@ Developers can specialize immediately after joining, or after some time, when th
 * Keep code easy to maintain and keep it easy for others to contribute code to GitLab.
 * Qualify developers for hiring.
 
+## Requirements
+
+* You can reason about software, algorithms and performance from a high level
+* You are passionate about open source
+* You have worked on a production-level Rails application
+* You know how to write your own Ruby gem using TDD techniques
+* You share our [values](/handbook/#values), and work in accordance with those values.
+* [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
+
+We typically hire people who have experience in programming languages used
+at GitLab (e.g. Ruby on Rails, Go), but we welcome candidates who have
+excellent experience in other languages and frameworks. Tackling a GitLab CE
+issue is a good way to demonstrate your ability to learn and debug.
+
+
+
 ## Workflow
 
 The basics of GitLab development can be found in the [developer onboarding](/handbook/developer-onboarding/#basics-of-gitlab-development) document.
 
 The handbook details the complete [GitLab Workflow](/handbook/#gitlab-workflow).
-
 
 ## Senior Developers
 
@@ -36,10 +51,13 @@ Senior Developers are experienced developers who:
 * train new people
 * are the go-to person when people on the team have development questions
 
-## Requirements
+## Internships
 
-* You can reason about software, algorithms and performance from a high level
-* You are passionate about open source
-* You have worked on a production-level Rails application
-* You know how to write your own Ruby gem using TDD techniques
-* You share our [values](/handbook/#values), and work in accordance with those values.
+We normally don't offer any internships, but if you get a couple of merge requests
+accepted we'll interview you for one. This will be a remote internship without
+supervision, you'll only get feedback on your merge requests. If you want to
+work on open source and qualify please [submit an application](https://gitlab.workable.com/jobs/106660/candidates/new).
+In the cover letter field please note that you want an internship and link to
+the accepted merge requests. The merge requests should be of significant
+value and difficulty, which is at the discretion of the hiring manager. For
+example, fixing 10 typos isn't as valuable as shipping 2 new features.

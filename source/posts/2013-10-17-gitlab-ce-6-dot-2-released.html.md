@@ -1,7 +1,7 @@
 ---
 title: "GitLab CE 6.2 released"
 date: 2013-10-17 14:50
-categories:
+categories: release
 community: true
 ---
 

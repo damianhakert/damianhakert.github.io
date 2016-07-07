@@ -2,12 +2,13 @@
 layout: markdown_page
 title: "Marketing"
 ---
-# Welcome to the GitLab Marketing Handbook  
+
+# Welcome to the GitLab Marketing Handbook
+
 The GitLab Marketing team includes Demand Generation, Developer Relations, Design, and Product Marketing
 
-[Up one level to the GitLab Handbook](/handbook/)    
 
-## Reaching Marketing<a name="reach-marketing"></a>
+## Communication<a name="reach-marketing"></a>
 
 - [**GitLab Marketing public issue tracker**](https://gitlab.com/gitlab-com/marketing/issues/); please use confidential issues for topics that should only be visible to team members at GitLab
 - You can also send an email to the Marketing team (see the "GitLab Email Forwarding" google doc for the alias).
@@ -15,6 +16,7 @@ The GitLab Marketing team includes Demand Generation, Developer Relations, Desig
 
 
 ## On this page
+
 * [Marketing mission](#mission)
 * [Functional groups](#groups)
 * [Marketing OKRs](#okrs)
@@ -26,10 +28,13 @@ The GitLab Marketing team includes Demand Generation, Developer Relations, Desig
 * [Marketing emails](#email)
 
 ## Marketing Handbooks
+
 * [Demand Generation](/handbook/marketing/demand-generation)
 * [Developer Relations](/handbook/marketing/developer-relations)
 * [Design](/handbook/marketing/design/)
 * [Product Marketing](/handbook/marketing/product-marketing)
+* [Blog](/handbook/marketing/blog/)
+* [Social Media Guidelines](/handbook/marketing/social-media-guidelines/)
 
 # GitLab Marketing Mission: GitLab for All!<a name="mission"></a>
 
@@ -163,27 +168,12 @@ The Monday and Wednesday Dinosaur Party is where the entire team meets for 10-15
 
 The meeting should run as follows:  
 
-- First 60 seconds: Post funny GIFs in Slack marketing room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis. You can only post one GIF per day. 
-- First 5 minutes: Everyone in order of Team Page (Last goes first) gives 15 seconds about what they are working on. (Marcia, Colton, Amara, Ryan, Amanda, Braden, Mitchell, Ivan, Luke, Axil, Hank, Ashley, Emily)  
-- Last 5 minutes: Discuss roadblocks and any collaboration needs  
+- First 60 seconds: Post funny GIFs in Slack marketing room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis. You can only post one GIF per day.  
+- Agenda items  
+- Everyone in order of Team Page (Last goes first) gives 15 seconds about what they are working on. (Joe, Marcia, Colton, Amara, Ryan, Amanda, Braden, Mitchell, Ivan, Luke, Axil, Hank, Ashley, Emily)  
+- Discuss roadblocks and any collaboration needs  
 
-To find the Dinosaur Sticker leaderboard, search the company Google Drive for "Dinosaurs are awesome"
-
-### Monthly Marketing Team Meeting
-
-**Meeting goal: OKR review and large campaign planning**
-
-**Run time: 30 minutes**
-
-The Monthly Marketing Team Meeting is for review of our team OKRs (which we set at the Quarterly Marketing Review) and to discuss any large campaigns that are happening in the upcoming month.
-
-The agenda for the meeting can be found by searching the company Google Drive for "Monthly Marketing Meeting"
-
-The meeting should run as follows:
-
-- Agenda items should be addressed first  
-- Discuss any large upcoming campaigns  
-- Team OKRs are quickly reviewed and graded   
+To find the Dinosaur Sticker leaderboard, search the company Google Drive for "Dinosaurs are awesome"  
 
 ### Quarterly marketing review
 

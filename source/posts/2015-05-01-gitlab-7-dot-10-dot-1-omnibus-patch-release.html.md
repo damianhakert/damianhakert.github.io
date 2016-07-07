@@ -1,9 +1,9 @@
 ---
 title: "GitLab 7.10.1 Omnibus patch release"
 date: 2015-05-01
+categories: release
 author: Marin Jankovski
 author_twitter: maxlazio
-
 ---
 
 We have just released new Omnibus packages for GitLab 7.10.1 that address issues

@@ -3,7 +3,7 @@ layout: markdown_page
 title: "Sales Handbook"
 ---
 
-## Reaching Sales<a name="reach-sales"></a>
+## Communication<a name="reach-sales"></a>
 
 - [**Public Issue Tracker**](https://gitlab.com/gitlab-com/sales/issues/); please use confidential issues for topics that should only be visible to team members at GitLab.
 - You can also send an email to the Sales team via sales [at] gitlab.com
@@ -20,7 +20,6 @@ title: "Sales Handbook"
 * [Opportunity Types](#types)
 * [Adding Products to an Opportunity](#products)
 * [Opportunity Stages](#stages)
-* [Submitting Quotes in Salesforce](#quotes)
 * [Closing A Won Deal](#closing)
 * [Using Cases in Salesforce](#cases)
 * [Process after you sell a Premium Support Subscription](#premium-support)
@@ -39,6 +38,7 @@ title: "Sales Handbook"
 * [Managing an account](/handbook/sales-process/account_management)
 * [Licenses and EE access](/handbook/sales-process/licenses)
 * [Client Use Cases](https://about.gitlab.com/handbook/use-cases/)
+* [Sales demo script](/handbook/sales/demo/)
 
 ### Pages outside Sales Handbook <a name="pages-outside"></a>
 
@@ -106,26 +106,12 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 1. Won - Deal won and booked
 1. Lost - Opportunity not won at this time
 
-### Submitting Quotes in Salesforce.com <a name="quotes"></a>
-
-To create a quote, you must be in the opportunity object
-
-1. Click New Quote
-1. Name the Quote Suggested format “ GitLab/Company name/Type of Subscription. Customers will see the name of the quote.
-1. Enter expiration date if required - It can be left blank.
-1. In "Prepared for” search for the contact name and ensure email address is correct.
-1. Check correct mailing address this will be pulled from account page. If there is no address, add on to the account page
-1. Save  Quote
-1. Now in the quote "Create PDF” and choose the type of subscription template; Basic,Standard or Plus.
-1. Either "save quote" this allows you to send pdf from your mail client or "save and email quote" this will send from with sfdc mail client.
-
 ### Closing a Won Deal <a name="closing"></a>
 
 In order to close a deal in Salesforce.com, one of the following must happen:
 
 1. Client paid via Credit Card
-1. PO has been received
-1. Prospect has returned a signed quote (attach to the opportunity).
+1. Prospect has returned a signed quote (attach to the opportunity). Quote is needed for non online purchases to confirm what was purchased, the effective dates and the cost.  Quote is also needed to confirm they agree to terms and conditions.  
 
 Once the above has happened, please make sure the following actions are done:
 

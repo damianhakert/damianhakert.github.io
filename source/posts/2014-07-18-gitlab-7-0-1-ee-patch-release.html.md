@@ -1,6 +1,7 @@
 ---
 title: GitLab 7.0.1 EE Release
 date: July 18, 2014
+categories: release
 author: Job van der Voort
 ---
 

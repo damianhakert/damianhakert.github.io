@@ -3,9 +3,10 @@ layout: markdown_page
 title: "Technical Writing"
 ---
 
-Welcome to the Technical Writing Handbook!
+### Welcome to the Technical Writing Handbook!
+{:.no_toc}
 
-[Up one level to the Developer Relations Handbook](../)
+----
 
 ## On this page
 {:.no_toc}
@@ -17,9 +18,45 @@ Welcome to the Technical Writing Handbook!
 
 ## Technical Writing
 
-- Introduction => to be included
-- Docs and Blog Posts => to be included
-- Styles Guidelines => to be included
+[Technical Writers] are part of the Developer Relations Marketing Team. Their mission is to
+help GitLab to:
+
+- have all features well documented
+- ensure the information regarding GitLab CE/EE/CI and its particularities are up to date
+- write guides, recipes and blog content
+- assist the team with documentation and non-documentation tasks
+- review every technical content published in the channels we use
+
+[Documentation] helps the GitLab community to:
+
+- setup and administrate their accounts
+- setup and update GitLab instances
+- use every tool and feature
+- handle integrations, services and tools
+
+Docs are written technically, methodically,
+programmatically, clearly and practically.
+
+[Blog posts][blog] have the same purpose of assisting the GitLab community,
+but with a more flexible and reader-friendly language. Also,
+besides the technical content, posts can be informative, tell use-case stories,
+customer experience, and present a much more diverse
+sort of content, since it's somehow interesting for our audience.
+
+Whenever we write for GitLab, it's necessary to keep in mind that we are writing _on behalf_ of GitLab. We are representing the
+company. Therefore, it's important to keep our personal opinions, tendencies, and point of views apart, and try to be clear, direct, concise, and professional above all. This is detailed right below, on the section [Professional Writing Techniques].
+Make sure to read this through before writing for GitLab.
+
+Also, our content is written in markdown Kramdown. Make sure to read the [Markdown Style Guide] before adventuring yourself writing for
+our website [about.GitLab.com] and our [Blog], which are our "faces to the world".
+
+On the [GitLab Blog Handbook][marketing-blog], you'll find out more about the GitLab
+Blog directive, and the [Blog Style Guidelines][blog-guidelines].
+
+## Markdown Style Guide for about.GitLab.com
+
+Check out our [Markdown Style Guide] for the markup used throughout about.GitLab.com, including any markdown page and blog post. You'll
+find useful information there, some [Kramdown] magic, and it might save you a lot of typing.
 
 ----
 
@@ -159,16 +196,34 @@ There is a simple list below, for things to do and to avoid when writing. It's n
 
 ----
 
-## Styles Guidelines
 
-=> to be included from https://gitlab.com/gitlab-com/blog-posts/blob/master/STYLEGUIDE.md
+<!-- Identifiers, in alphabetical order -->
 
-
-[android-doc]: //developer.android.com/intl/pt-br/tools/help/emulator.html
-[android-emulator]: //developer.android.com/intl/pt-br/tools/devices/emulator.html
+[about.GitLab.com]: https://about.gitlab.com/
+[android-doc]: http://developer.android.com/intl/pt-br/tools/help/emulator.html
+[android-emulator]: http://developer.android.com/intl/pt-br/tools/devices/emulator.html
+[blog]: https://about.gitlab.com/blog
+[blog-guidelines]: /handbook/marketing/blog/#styles-guidelines
 [blog-tracker]: https://gitlab.com/gitlab-com/blog-posts/issues
-[(key)words]: //www.wordstream.com/seo-keyword
-[synonyms]: //www.thesaurus.com/
+[bundler]: http://bundler.io/
+[documentation]: http://docs.gitlab.com/
+[git]: https://git-scm.com/
+[issue-docs]: https://gitlab.com/gitlab-org/gitlab-ce/issues/
+[(key)words]: http://www.wordstream.com/seo-keyword
+[Kramdown]: http://kramdown.gettalong.org
+[Mac screenshot]: https://support.apple.com/en-us/HT201361
+[Markdown Style Guide]: markdown-guide/
+[marketing-blog]: /handbook/marketing/blog/
+[middleman]: https://middlemanapp.com/basics/install/
+[Nimbus Screenshot]: http://nimbus.everhelper.me/screenshot.php
+[Professional Writing Techniques]: #professional-writing-techniques
+[Screenshot Tool]: https://help.ubuntu.com/lts/ubuntu-help/screen-shot-record.html
+[Snipping Tool]: https://support.microsoft.com/en-us/help/13776/windows-use-snipping-tool-to-capture-screenshots
+[synonyms]: http://www.thesaurus.com/
+[technical aspects]: https://about.gitlab.com/handbook/marketing/product-marketing/content-marketing/#technical-aspects
+[technical writers]: /jobs/technical-writer/
 [tech-writing-wiki]: https://en.wikipedia.org/wiki/Technical_writing
+[tinypng]: https://tinypng.com/
+[unsplash]: https://unsplash.com/
 [WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
-[marketing-blog]: ../../product-marketing/content-marketing/#blog
+[www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com/

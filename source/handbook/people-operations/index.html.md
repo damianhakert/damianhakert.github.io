@@ -3,7 +3,7 @@ layout: markdown_page
 title: "People Operations"
 ---
 
-## Reaching People Operations<a name="reach-peopleops"></a>
+## Communication<a name="reach-peopleops"></a>
 
 - [**Public Issue Tracker**](https://gitlab.com/gitlab-com/peopleops/issues/); please use confidential issues for topics that should only be visible to team members at GitLab)
 - You can also send an email to the People Operations group (see the "GitLab Email Forwarding" google doc for the alias), or ping an individual member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
@@ -16,6 +16,7 @@ title: "People Operations"
 - [Office addresses](#addresses)
 - [Policies](#peopleops-policies)
    - [Compensation principles](#compensation-principles)
+   - [Sick time - taking and reporting](#sick-time)
    - [Hiring Significant Others or Family Members](#family-hires)
    - [Returning property to GitLab](#returning-property)
       - [FedEx info for the team member](#fedex-info)
@@ -23,7 +24,8 @@ title: "People Operations"
    - [Setting up new contracts](#new-contracts)
    - [Processing changes](#processing-changes)
    - [Using BambooHR](#bamboohr)
-   - [Settings in BambooHR] (#bamboohr-settings)
+   - [Settings in BambooHR](#bamboohr-settings)
+   - [Asset Tracking](#asset-tracking)
    - [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)
    - [Administrative details of benefits for US-based employees](#benefits-us)
    - [Using TriNet](#using-trinet)
@@ -36,7 +38,7 @@ title: "People Operations"
 
 - [Hiring process](/handbook/hiring/)
 - [Onboarding](/handbook/general-onboarding/)
-- [Underperformance](/handbook/hiring/underperformance.html)
+- [Underperformance](/handbook/underperformance)
 - [Offboarding](/handbook/offboarding/)
 - [Benefits](/handbook/benefits/)
 - [Travel](/handbook/travel/)
@@ -47,10 +49,10 @@ In general, the People Operations team and processes are here as a service to th
 
 ## Team Directory<a name="directory"></a>
 
-The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is in BambooHR, and is accessible to all team members.
+The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is in BambooHR, and is accessible to all team members. This is your one-stop directory for phone numbers and addresses (in case you want to send your team mate an awesome card!).
 
 - Please make sure that your own information stays up to date, and reach out to People Ops if you need any help in doing so.
-- Please make sure that your address and phone information are written in such a way that your team mates can reach you from a different country. So, for example, include `+[country code]` in front of your phone number. 
+- Please make sure that your address and phone information are written in such a way that your team mates can reach you from a different country. So, for example, include `+[country code]` in front of your phone number.
 
 
 ## Office addresses<a name="addresses"></a>
@@ -64,13 +66,31 @@ The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is
 
 1. We're an open organization and want to be transparent about compensation principles, while not disclosing individual compensation. We're working on having a formula for compensation but this is hard due to the need make the formula work across the globe.
 1. Compensation is based on market rate for the region, your job title, and your (expected) level of performance.
-1. Many of our team members who have joined have taken a decrease in compensation. We pay market rate (30th-60th percentile) for most positions, and we also offer stock options for most positions. All positions have the better-than-market benefits of being part of a remote-only company (flexible, freedom) on a mission to make it so that [everyone can contribute](https://about.gitlab.com/strategy/#why), and working on an open-source project in an open and transparent way.
+1. We pay market rate for most non-engineering positions, and have the better-than-market benefit of being a remote-only company (flexible, freedom).
+1. We pay on the lower end of market rates for engineering positions because we offer the benefit of working on open source (great workflow, peers, build reputation); most engineers take a pay cut to join.
+1. We also offer [stock options](/handbook/stock-options/) for most positions.
 1. We base compensation on current position and performance, not on what we paid you last month. This means 50% raises are possible, but also that there are no automatic raises, and we even (although rarely) lower compensation.
 1. When your position or performance changes we'll try to adjust your pay as soon as possible: the manager should take initiative, people should not have to ask for it. But people are free to ask if their manager if they think they are due for a raise.
 1. The market rate depends on your metro region. When you move you have to inform us and we may adjust your compensation up or down.
 1. We hire across the globe but we're not location agnostic. Your timezone, the market rate in your region, and vicinity to other team members, users, customers, and partners can all be factors. For example, we may favor an applicant over another because they live in a region with a lower market rate or because we need someone in that timezone. All things being equal we will hire people in lower cost markets vs. higher cost markets.
 1. As you can see from our [contracts](/handbook/contracts/), compensation is typically set at a fixed monthly rate. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission, for leadership roles sometimes part of it is based on business objectives. Success engineers currently have a lower variable component, we're not sure how this will evolve. All other people have fixed compensation (but we do have [bonuses and incentives](/handbook/#incentives)).
 1. Compensation decisions are taken by the compensation committee. This committee consists of the CFO, CEO, and head of people operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee.
+
+### Sick time - taking and reporting<a name="sick-time"></a>
+
+In keeping with our [values](/handbook/#values) of freedom, efficiency, transparency, kindness, and boring solutions, we have crafted the following protocol around sick leave for all team members.
+
+**All team members**
+
+- If you or a loved one is ill, we want you to take care of yourself or your loved one(s). To facilitate this, you should take sick leave when you need it. Sick leave is meant to be used when you are ill, or to care for family members including your parent(s), child(ren), spouse, registered domestic partner, grandparent(s), grandchild(ren), and sibling(s).
+- You do need to report when you take sick leave, either by emailing your manager and People Ops, or by using the "Request time off" function in BambooHR. This way, it can be tracked in BambooHR and related payroll systems.
+- If you need sick leave for more than 8 consecutive calendar days, notify your manager and People Ops to accommodate an extended leave request. What can (or must) be accommodated varies from location to location: GitLab will comply with the applicable laws in your specific location.
+- Upon request, you should be able to provide proper documentation of the reason for your sick leave (doctor's note).
+
+**Details for specific groups of team members**
+
+- Employees of GitLab Inc. who receive a pay stub from TriNet will see sick time accrue on their pay stub at the rate of 0.0346 hrs per hour worked (3 hours of sick leave per semi-monthly pay-period) for a maximum accrual and carry-over of 72 hours per year. GitLab's policy is more generous than this, in the sense that you can take off non-accrued sick time as written above (a negative balance may show on your pay stub). Sick time does not get paid out in case of termination, nor does it reduce your final paycheck in case of a negative balance. Related to the topic of extended leave requests, see information about [short term disability](/handbook/benefits/#std-ltd) through TriNet / your state.
+- Employees of GitLab B.V. have further rights and responsibilities regarding sick time based on Dutch law, as written into their employment [contracts](#handbook/contracts).
 
 ### Hiring Significant Other or Family Members<a name="family-hires"></a>
 
@@ -122,13 +142,13 @@ Follow these steps to send out a signature request.
 1. With more than one signature required, assign signing order (for contracts or offer letters, always have the GitLab Signatory sign first)
 1. Add the People Ops team to the cc
 1. Click on "Prepare Docs for signing"
-1. Drag & Drop the Signature and Date fields to the corresponding empty spaces in the document (you can select the signee with the pop up screen) 
-1. For GitLab Inc. agreements, add a required textbox to Exhibit A, and a supplemental larger textbox below for a comment that is not required. 
+1. Drag & Drop the Signature and Date fields to the corresponding empty spaces in the document (you can select the signee with the pop up screen)
+1. For GitLab Inc. agreements, add a required textbox to Exhibit A, and a supplemental larger textbox below for a comment that is not required.
 1. Add a title and a message for the recipient. For contract use for example: "Dear [...], You can sign [document type] with HelloSign. Once you've signed you will receive a copy by email. If you have any questions, feel free to reach out"
 1. Request Signature.
 
 Once you've sent out the document you will receive email notifications of the progress and a copy of the signed document after all parties have signed.
-If you need to make a change, there is an "Edit & Resend" option in HelloSign. If a new document has to be uploaded, cancel the original and stage a new one to send for signatures. 
+If you need to make a change, there is an "Edit & Resend" option in HelloSign. If a new document has to be uploaded, cancel the original and stage a new one to send for signatures.
 
 ### Processing changes<a name="processing-changes"></a>
 
@@ -162,11 +182,11 @@ test account that does not have admin privileges.
 1. in the note to the team, point to the documentation created in step 1, explain the need and
 the ask, and who to turn to in case of questions.
 
-###Settings in BambooHR<a name="bamboohr-settings"></a>
+### Settings in BambooHR<a name="bamboohr-settings"></a>
 
 Changing a Format (Example: Date)
 
-1. Click on Settings 
+1. Click on Settings
 1. Choose Account
 1. Select General Settings
 1. Change the date format to match desired output
@@ -177,6 +197,23 @@ Adding a New Job Title
 1. Select Employee Field
 1. Select Job Title
 1. Add new job title to the drop down list
+
+Add a New Division
+1. Click on Settings
+1. Select Employee Field
+1. Select Division
+1. Add new division
+
+### Asset Tracking<a name="asset-tracking"></a>
+
+Items paid for by the company are property of the company and need to be reported to People Ops for proper asset tracking. The information is then entered into BambooHR by People Ops.
+1. Go to the Employee in BambooHR
+1. Click on the Assets Tab
+1. Click Update Assets
+1. Enter Asset Category, Asset Description, Serial Number, Asset Cost, and Date Loaned
+1. This process is repeated for each asset purchased
+
+People Ops should recieve a confirmation and receipt via email after placing an order. Make sure to upload these receipts with your next expense report through [Expensify](/handbook/#spending-company-money). You can automatically do this by forwarding all receipts to receipts@expensify.com.
 
 ### Managing the PeopleOps onboarding tasks <a name="manage-onboarding-tasks"></a>
 
@@ -206,8 +243,8 @@ Open the Team Agenda google doc, and on the starting day add an Agenda item:
 "[Hiring manager name]: Welcome [name new team member] joining as [job title]"
 as the first item on the agenda
 - **Create new profile for team member in BambooHR, and input relevant data**
-Once the new team member has been transfered from Workable to BambooHR, go to the Dashboard and search their name. Under the Personal tab, add country, work email, and personal email. Under the Job tab, enter the compensation from the contract. Note: We do not use the pay period or pay type option in this list, but BambooHR cannot remove it. 
-Next enter job information. Be sure to verify the proper title and contract type. 
+Once the new team member has been transfered from Workable to BambooHR, go to the Dashboard and search their name. Under the Personal tab, add country, work email, and personal email. Under the Job tab, enter the compensation from the contract. Note: We do not use the pay period or pay type option in this list, but BambooHR cannot remove it.
+Next enter job information. Be sure to verify the proper title and contract type.
 - **Invite to team meeting and GitLab 101 meeting**
 Go to the team call meeting on the starting date of the team member and the next
 scheduled GitLab 101 in the Availability calendar. Click on "edit event" to open.
@@ -215,11 +252,10 @@ On the right enter the team member's GitLab email address in the  "add guests"
 section and click save. When asked select "all events" to add to all scheduled
 meetings and "send" out the invitation.
 - **Send swag codes to new team members**
-To celebrate a new team member joining our team, send an email with $50 swag credits for our [Swag Store](https://gitlab.mybrightsites.com/), as noted in the onboarding issue. You can get the codes for the swag by finding the Google doc titled "Tshirt and stickers coupons 2.12.16". 
+To celebrate a new team member joining our team, send an email with $50 swag credits for our [Swag Store](https://gitlab.mybrightsites.com/), as noted in the onboarding issue. You can get the codes for the swag by finding the Google doc titled "Tshirt and stickers coupons 2.12.16".
 - **Order business cards**
-Go to the "Notes" field in BambooHR and enter the info needed for the Business Cards.
-Once every week/few days or how often needed, run the "Business Cards order" report in the Reports - My Reports menu of BambooHR.
-Email our partner to order new business cards and add the info for the cards to be ordered. Include the address of the team member (found in BambooHR) and inform our partner to _**ship the cards directly to that address**_. Double check the info that is sent with the preview before approving the print.
+Go BambooHR and enter the info needed for the Business Cards. This is found by clicking on More, then selecting Business Cards. Select Update Business Card Requests and fill out all the pertinent fields.
+Email our partner to order new business cards. Include the address of the team member (found in BambooHR) and inform our partner to _**ship the cards directly to that address**_. Double check the info that is sent with the preview before approving the print.
 - **Add team member to Expensify (only with employees)**<a name="add-expensify"></a>
 Login to [Expensify](https://www.expensify.com/signin) and go to "Admin" in the top menu. Select the right policy based upon the entity that employs the new team member. Select "People" in the left menu. Select "Invite" and add the GitLab email. Edit the message to be sent for the employee. Click "invite".
 - **Add team member to Beamy**<a name="add-beamy"></a>
@@ -266,7 +302,7 @@ Employer enters the employee data in the HR Passport with the information below
     * Address
     * Home phone
     * Home email
-    * Gener
+    * Gender
     * Ethnicity (you must select something - guess if employee declines to state)
     * Military status
 
@@ -343,12 +379,38 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Click Find.
 1. Select find person by Name.
 1. Type the name, click search.
-1. Select Employment Datat on the left side of the screen.
+1. Select Employment Data on the left side of the screen.
 1. Click Employee Pay Change
 1. Select Effective Date.
 1. Enter new rates.
 1. Answer the worker's compensation question.
-1. Save. 
+1. Save.
+
+##### Record Job Change
+
+1. Go to HR Passport homepage.
+1. Click Find.
+1. Select find person by Name.
+1. Type the name, click search.
+1. Select Employment Data on the left side of the screen.
+1. Select the reason for the change.
+1. Enter the effective date.
+1. Click next.
+1. Select the reason.
+1. Change the business title. Also, change any other applicable fields.
+1. Enter yes or no under the worker's comp section.
+1. Click Update
+
+##### Enter a Bonus into TriNet
+
+1. Go to HR Passport homepage
+1. Under "My Company" select "Payroll Entry & Admin"
+1. Select the proper payroll
+1. Under Other Earnings, select the BNO code and enter the amount of the bonus.
+1. **Never** hit submit. (It will cause the entire payroll to be paid the next day)
+1. Click Save when done.
+Note: Make sure to file all appropriate documentation in BambooHR.
+
 
 ### Using RingCentral<a name="ringcentral"></a>
 
@@ -382,10 +444,23 @@ this seem to vary a bit between mortgage providers.
 
 ## Involuntary Terminations<a name="involuntary-terminations"></a>
 
-Involuntary termination of any team member is never easy. We've created some guidelines and information to make this process as painless and easy as possible for everyone involved. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance](/handbook/hiring/underperformance.html), as well as the [offboarding](/handbook/offboarding/) checklist.
+Involuntary termination of any team member is never easy. We've created some guidelines and information to make this process as painless and easy as possible for everyone involved. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance](/handbook/underperformance), as well as the [offboarding](/handbook/offboarding/) checklist.
+
+### Overall process
+
+Ideally, the manager and the team member have walked through the guidelines on [underperformance](/handbook/underperformance) before reaching this point.
+
+1. Manager: reach out to People Operations for assistance. People Ops will ask about what the performance issues have been, how they have been attempted to be addressed, and will then prepare for the termination.
+1. Manager and People Ops: discuss best mode of communicating the bad news to the team member. This discussion can happen via a private chat-channel, but it is best to be done via a video hangout. Set up a private chat-channel in any case, since this is also useful to have during the eventual call with the affected team member.
+1. Manager and People Ops: Decide who will handle which part of the conversation, and if desired, practice it. It is strongly advised to have someone from People Ops on the call when the bad news is delivered.
+1. Manager and People Ops: Decide what offboarding actions need to be taken _before_ the call (e.g. revoke admin permissions), or _during_ the call (e.g. revoke Slack and Gmail access), and which ones can wait until later (see the [offboarding checklist](/handbook/offboarding)). Make sure someone with the necessary admin privileges is on hand (in the private chat-channel) to assist with those sensitive offboarding steps that should occur relatively quickly. Do not create the offboarding issue until _after_ the call, since even confidential issues are still visible to anyone in the team.
+1. Manager: Set up a call with the team member in question. Make a separate private calendar event to invite the People Ops representative.
+1. On the call: deliver the bad news up-front, do not beat around the bush and prolong the inevitable pain for everyone involved. A sample leading sentence can be "Thanks for joining the call ___ . Unfortunately, the reason I wanted to speak with you, is because we have decided that we have to let you go and end your employment / contract with GitLab." At this point, hand over the call to People Ops to continue. People Ops explains what led to this decision and points to the process that was followed to reach this decision. People Ops to make it clear that the decision is final, but also to genuinely listen to their side of the story since there may be useful lessons in what they say for the rest of the team e.g. regarding hiring and vetting practices.
+1. People Ops: Make sure to communicate the [practical points](#offboarding-points) from the termination memo outlined below.
+1. People Ops: Create the [offboarding checklist issue](/handbook/offboarding), and go from there.
 
 
-### Points to cover during the offboarding call, with sample wording
+### Points to cover during the offboarding call, with sample wording<a name="offboarding-points"></a>
 
 The following points need to be covered for any team member:
 

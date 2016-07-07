@@ -3,224 +3,214 @@ layout: default
 title: Pricing
 suppress_header: true
 extra_css:
-  - subscription.css
+  - pricing.css
 extra_js:
-  - subscription.js
+  - pricing.js
+extra_font:
+  - "Roboto+Slab"
 ---
-.wrapper
-  .pricing-container
-    .pricing-overlay
-      .pricing-content
-        %h1 GitLab Enterprise Edition on your Server
-      .header-btn
-        %a.free-trial{href: "/free-trial"} Free trial
-        %a.contact-us{href: "https://about.gitlab.com/sales/"} Contact us
-  #subs.subscriptions
-    .row{ data: { equal: ".pricing-box" } }
-      .pricing-box.col-sm-4
-        .basic.subscription.main-subscription.main-subscription-extra
-          .header
-            GitLab.com
-          .price
-            Free
-            .subprice
-              unlimited repositories
-              %br/
-            .details
-              .detail
-                %span.fa.fa-chevron-right
-                .body
-                  Hosted on GitLab's servers
-              .detail
-                %span.fa.fa-chevron-right
-                .body
-                  Multi-tenant
-              .detail
-                %span.fa.fa-chevron-right
-                .body
-                  %a{href: "/gitlab-com"}
-                    Learn more about GitLab.com
-          %a.basic.button.empty-content-btn{href: "https://gitlab.com/users/sign_in"}
-            Signup
-      .pricing-box.col-sm-4
-        .basic.subscription.main-subscription.main-subscription-extra
-          .header
-            Community Edition
-          .price
-            Free
-            .subprice
-              unlimited users
-              %br/
-            .details
-              .detail
-                %span.fa.fa-chevron-right
-                .body
-                  On-premises on your server
-              .detail
-                %span.fa.fa-chevron-right
-                .body
-                  %a{href: "/features/#community"} GitLab Community Edition
-              .detail
-                %span.fa.fa-chevron-right
-                .body
-                  Open source
-          %a.basic.button.empty-content-btn{href: "/downloads/"}
-            Download Now
-      .pricing-box.col-sm-4
-        .standard.subscription.main-subscription
-          .header
-            Enterprise Edition
-          .price
-            .money> $
-            39
-            .subprice
-              yearly per user
-              %br/
-              no minimum users
-          .details
-            .detail
-              %span.fa.fa-chevron-right
-              .body
-                On-premises on your server
-            .detail
-              %span.fa.fa-chevron-right
-              .body
-                %a{href: "/features/#enterprise"} GitLab Enterprise Edition
-            .detail
-              %span.fa.fa-chevron-right
-              .body
-                Next business day support
-          %a.basic.button.subscription-btn{href: "https://gitlab.recurly.com/subscribe/gitlab_ee_annual_fee_per_user"}
-            Buy now
-  .subscriptions
-    .row
-      .col-sm-12
-        %h2
-          Options for the Enterprise Edition
-          %a{name: "options"}
-    .row
-      .col-sm-4
-        .plus.subscription
-          .header
-            GitLab Geo
-          .price
-            .money> $
-            99
-            .subprice
-              yearly per user
-              %br/
-              no minimum users
-          .details
-            .detail
-              %span.fa.fa-chevron-right
-              .body
-                Learn more about
-                %a{href: "http://doc.gitlab.com/ee/gitlab-geo/README.html"} GitLab Geo
-          %a.basic.button.subscription-btn{href: "https://gitlab.recurly.com/subscribe/gitlab_ee_annual_fee_per_user"}
-            Buy now
-      .col-sm-4
-        .plus.subscription
-          .header
-            Premium Support
-          .price
-            .money> $
-            99
-            .subprice
-              yearly per user
-              %br/
-              minimum of 100 users
-          .details
-            .detail
-              %span.fa.fa-chevron-right
-              .body
-                24x7 emergency support
-            .detail
-              %span.fa.fa-chevron-right
-              .body
-                Two training workshops
-            .detail
-              %span.fa.fa-chevron-right
-              .body
-                Dedicated service engineer
-            .detail
-              %span.fa.fa-chevron-right
-              .body
-                Live upgrade assistance
-            .detail
-              %span.fa.fa-chevron-right
-              .body
-                Support for
-                %a{href: "/high-availability/"} High Availability
-          %a.basic.button.subscription-btn{href: "https://gitlab.recurly.com/subscribe/gitlab_ee_annual_fee_per_user"}
-            Buy now
-      .col-sm-4
-        .plus.subscription
-          .header
-            Pivotal Tile
-          .price
-            .money> $
-            99
-            .subprice
-              yearly per user
-              %br/
-              no minimum users
-          .details
-            .detail
-              %span.fa.fa-chevron-right
-              .body
-                Learn more about
-                %a{href: "https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/"} Pivotal.
-          %a.basic.button.subscription-btn{href: "https://gitlab.recurly.com/subscribe/gitlab_ee_annual_fee_per_user"}
-            Buy now
-  .subs-header
-    .title Includes a 45 day money-back guarantee
-  .pricing-notes
-    %p
-      %a{href: "/features/#compare"} Compare
-      the features of GitLab Community Edition and Enterprise Edition
-    %p
-      Compare GitLab to the
-      %a{href: "/comparison"} competition
-    %p
-      We can host a private GitLab instance for you with
-      %a{href: "https://githost.io/"} GitHost
-    %p
-      %a{href: "https://about.gitlab.com/sales/", :onclick => "ga('send', 'event', 'link', 'click', 'contact sales');"} Please contact us
-      if you have any questions.
-    %p
-      %a{href: "https://about.gitlab.com/high-availability/"} Learn more
-      about high availability
-    %p
-      %a{href: "/license-faq"} Frequently asked questions
-      about subscriptions and licensing
-  %hr.divider/
+
+.page-container.pricing-container.text-center.animated
   .container
-    #services.row.other-services
-      .subs-header
-        .title
-          Services
-        .subtitle
-          Want us to help you with something else?
-      .col-sm-4
-        .box
-          %a{href: "/consultancy"}
-            %img#consultancy.gs{src: "/images/icons/cons_icon.png"}/
-            %h2 Consultancy
-            %p Upgrade or install GitLab.
-          %a.btn.btn-md.btn-default{href: "/consultancy/"} Contact us
-      .col-sm-4
-        .box
-          %a{href: "/development"}
-            %img#development.gs{src: "/images/icons/dev_icon.png"}/
-            %h2 Development
-            %p Add a new feature to GitLab.
-          %a.btn.btn-md.btn-default{href: "/development/"} Contact us
-      .col-sm-4
-        .box
-          %a{href: "/training"}
-            %img#training.gs{src: "/images/icons/tra_icon.png"}/
-            %h2 Training
-            %p Git training workshop.
-          %a.btn.btn-md.btn-default{href: "/training/"} Contact us
-  %hr.divider/
-  .other-services
+    %h1.page-headline
+      Flexible plans for individuals and businesses
+    %h4.subheader
+      All plans include Git repository management, code reviews, issue tracking, built-in GitLab CI for continuous integration and delivery, plus a 45 day money-back guarantee.
+    .row{ data: { equal: ".col-md-4" } }
+      .col-md-4
+        .featured-item
+          .edition-name
+            GitLab.com
+          .featured-item-body
+            %h2.featured-item-headline
+              Free
+            %h3.featured-item-headline-small
+              unlimited repositories
+            = icon "com", "featured-item-icon", {width: 76, height: 76, label: "GitLab.com"}
+            %ul.featured-item-list.list-unstyled
+              %li.item-description
+                Hosted on GitLab's servers
+              %li.line-separator
+              %li.item-description
+                Unlimited private collaborators
+              %li.line-separator
+              %li.item-description
+                = link_to "Learn more...", "/gitlab-com/", class: "action-link"
+            = link_to "Sign Up", "https://gitlab.com/users/sign_in", class: "featured-item-button"
+      .col-md-4
+        .featured-item
+          .edition-name
+            Community Edition
+          .featured-item-body
+            %h2.featured-item-headline
+              Free
+            %h3.featured-item-headline-small
+              unlimited users
+            = icon "ce", "featured-item-icon", {width: 76, height: 76, label: "GitLab CE"}
+            %ul.featured-item-list.list-unstyled
+              %li.item-description
+                Single-tenant on your server
+              %li.line-separator
+              %li.item-description
+                Open source & scalable
+              %li.line-separator
+              %li.item-description
+                = link_to "Learn more...", "/features#community", class: "action-link"
+            = link_to "Download Now", "/downloads/", class: "featured-item-button"
+      .col-md-4
+        .featured-item
+          .edition-name
+            Enterprise Edition
+          .featured-item-body
+            %h2.featured-item-headline
+              = succeed "39/yr" do
+                %span.currency $
+            %h3.featured-item-headline-small
+              per user (no minimum)
+            = icon "ee", "featured-item-icon", {width: 76, height: 76, label: "GitLab EE"}
+            %ul.featured-item-list.list-unstyled
+              %li.item-description
+                Single-tenant on your server
+              %li.line-separator
+              %li.item-description
+                Next business day support
+              %li.line-separator
+              %li.item-description
+                = link_to "Learn more...", "/features#enterprise", class: "action-link"
+            = link_to "Buy Now", data.pricing.payment_url, class: "featured-item-button"
+    %h1.page-headline.cta
+      Not sure? Try GitLab Enterprise Edition risk-free for 30 days.
+    %h4.subheader.cta
+      No credit card required. Have questions?
+      %a.contact-us{href: "https://about.gitlab.com/sales/"} Contact us.
+    %a.btn.btn-lg.btn-red{ href: "/free-trial/" } Get Your Free Trial Today
+
+#gitlab-ee.page-container.content-container.text-center.animated
+  .container
+    %h1.page-headline
+      These powerful tools and services are available as options for the Enterprise Edition
+    .row.pricing-tile-row{ data: { equal: ".col-md-4" } }
+      .col-md-4.col-md-offset-2
+        .featured-item
+          .edition-name
+            GitLab Geo
+          .featured-item-body
+            %h2.featured-item-headline
+              = succeed "99/yr" do
+                %span.currency $
+            %h3.featured-item-headline-small
+              per user (no minimum)
+            = icon "gitlab-geo", "featured-item-icon", {width: 76, height: 76, label: "GitLab Geo"}
+            %ul.featured-item-list.list-unstyled
+              %li.item-description
+                Mirrored GitLab instance
+              %li.line-separator
+              %li.item-description
+                Built for remote working teams
+              %li.line-separator
+              %li.item-description
+                Faster cloning & fetching
+              %li.line-separator
+              %li.item-description
+                = link_to "Learn more...", "http://docs.gitlab.com/ee/gitlab-geo/README.html", class: "action-link"
+            %a.featured-item-button{href: data.pricing.payment_url}
+              Add GitLab Geo
+      .col-md-4
+        .featured-item
+          .edition-name
+            Premium Support
+          .featured-item-body
+            %h2.featured-item-headline
+              = succeed "99/yr" do
+                %span.currency $
+            %h3.featured-item-headline-small
+              per user (minimum of 100 users)
+            = icon "premium-support", "featured-item-icon", {width: 76, height: 76, label: "Premium Support"}
+            %ul.featured-item-list.list-unstyled
+              %li.item-description
+                24/7 emergency support
+              %li.line-separator
+              %li.item-description
+                Training workshops
+              %li.line-separator
+              %li.item-description
+                Dedicated service engineer
+              %li.line-separator
+              %li.item-description
+                Live upgrade assistance
+            %a.featured-item-button{href: data.pricing.payment_url}
+              Add Premium Support
+    .row{ data: { equal: ".col-md-4" } }
+      .col-md-4.col-md-offset-2
+        .featured-item
+          .edition-name
+            Pivotal Tile
+          .featured-item-body
+            %h2.featured-item-headline
+              = succeed "99/yr" do
+                %span.currency $
+            %h3.featured-item-headline-small
+              per user (no minimum)
+            = icon "pivotal-tile", "featured-item-icon", {width: 76, height: 76, label: "Pivotal Tile"}
+            %ul.featured-item-list.list-unstyled
+              %li.item-description
+                Simple installation
+              %li.line-separator
+              %li.item-description
+                Highly available by default
+              %li.line-separator
+              %li.item-description
+                Easily scale up
+              %li.line-separator
+              %li.item-description
+                Customizable, integrated, & secure
+              %li.line-separator
+              %li.item-description
+                = link_to "Learn more...", "https://about.gitlab.com/2015/11/03/pivotal-cloud-foundry-tile-for-gitlab-ee/", class: "action-link"
+            %a.featured-item-button{href: data.pricing.payment_url}
+              Add Pivotal Tile
+      .col-md-4
+        .featured-item
+          .edition-name
+            File Locking
+          .featured-item-body
+            %h2.featured-item-headline
+              = succeed "99/yr" do
+                %span.currency $
+            %h3.featured-item-headline-small
+              per user (no minimum)
+            = icon "file-locking", "featured-item-icon", {width: 76, height: 76, label: "File Locking"}
+            %ul.featured-item-list.list-unstyled
+              %li.item-description
+                Lock files and folders
+              %li.line-separator
+              %li.item-description
+                View and manage locks
+              %li.line-separator
+              %li.item-description
+                Intuitive UI
+              %li.line-separator
+              %li.item-description
+                = link_to "Learn more...", "http://docs.gitlab.com/ee/user/project/file_lock.html", class: "action-link"
+            %a.featured-item-button{href: data.pricing.payment_url}
+              Add File Locking
+    -# %a.featured-item-button.purchase-now{href: data.pricing.payment_url}
+    -#   Purchase your GitLab EE package
+.what-is.choose-gitlab.text-center.animated
+  .container
+    %h2.choose-gitlab-title
+      Choose the GitLab edition that is best for your team
+    = link_to "/features#compare", class: "choose-gitlab-link" do
+      View a side-by-side feature comparison of GitLab Community and Enterprise Edition
+.content-container.animated
+  .container
+    %h2.faq-title.light.text-center
+      Subscription & Licensing FAQ
+    %h3.faq-subtitle.light.text-center
+      Still have questions?
+      = succeed "." do
+        = link_to "Contact us", "/sales/"
+    .faq-holder.clearfix
+      - size = (data.pricing.questions.size / Float(2)).ceil
+      - data.pricing.questions.each_slice(size).to_a.each do |group|
+        = partial "question-group", locals: { group: group }
