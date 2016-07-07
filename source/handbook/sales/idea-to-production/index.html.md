@@ -20,18 +20,16 @@ A [pre-recorded version](https://youtu.be/tgcYfIy3B0Q) is available on YouTube.
 ----
 
 ## Prerequisites
-{:.no_toc}
 - Access to a GitLab instance
 - Ability to create a project or create issues/MRs on the [example project]( https://gitlab.com/gitlab-examples/docker-cloud)
 - If Internet access is available, start at this URL while logged in: [https://gitlab.com/gitlab-examples/docker-cloud](https://gitlab.com/gitlab-examples/docker-cloud)
 
-## Idea
-{:.no_toc}
+## Scope/Flow
 
 1. Have issue
 2. Have MR
 3. Edit inline
-4. check into version control (git push)
+4. Check into version control
 5. Docker image (alpine linux)
 6. CI creates a container and runs tests
 7. CD deploys to staging
@@ -39,12 +37,11 @@ A [pre-recorded version](https://youtu.be/tgcYfIy3B0Q) is available on YouTube.
 9. Review image in container registry
 10. Review the build
 11. Show link between merge, MR, and issue
-12. Deploy to production (tagged deploy since manual deploys won’t be in by Tuesday)
-13. Review container registry `:latest` tag updated
-14. Revert production deploy with rollback button (Don’t actually revert because of bug)
+12. Deploy to production
+14. Rollback button to revert production deploy
+13. Review container registry `:production` tag updated
 
 ## Links
-{:.no_toc}
 
 Project: [https://gitlab.com/gitlab-examples/docker-cloud](https://gitlab.com/gitlab-examples/docker-cloud)
 
@@ -52,36 +49,28 @@ Example issue: [https://gitlab.com/gitlab-examples/docker-cloud/issues/1](https:
 Example merge request: [https://gitlab.com/gitlab-examples/docker-cloud/merge_requests/1](https://gitlab.com/gitlab-examples/docker-cloud/merge_requests/1)
 
 Production environment: [http://docker-cloud.gitlap.com/](http://docker-cloud.gitlap.com/)  
-
 Staging environment: [http://staging.docker-cloud.gitlap.com/](http://staging.docker-cloud.gitlap.com/)
 
 ## Demo: Idea to Production
-{:.no_toc}
 
 ### Per-Demo Setup
-{:.no_toc}
 
 1. Pre-open project: [project](https://gitlab.com/gitlab-examples/docker-cloud)
-
 2. Create issue using [this template](https://gitlab.com/gitlab-examples/docker-cloud/issues/new?issue%5Btitle%5D=Change%20page%20heading&issue%5Bdescription%5D=Update%20the%20page%20heading%20with%20something%20more%20meaningful.%0A%0ASource:%20http://docker-cloud.gitlap.com/)
-
 3. Create merge request
-
-  1. Click New Branch
-  1. Navigate to views/index.erb
-  1. Edit
-  1. Change line 48 to something new like "Welcome"
-  1. Commit change
-  1. Create merge request
-  1. Submit merge request
+   1. Click New Branch
+   1. Navigate to views/index.erb
+   1. Edit
+   1. Change line 48 to something new like "Welcome"
+   1. Commit change
+   1. Create merge request
+   1. Submit merge request
 
 ### Per-Demo Cleanup
-{:.no_toc}
 
 1. Edit [https://gitlab.com/gitlab-examples/docker-cloud/edit/master/views/index.erb](https://gitlab.com/gitlab-examples/docker-cloud/edit/master/views/index.erb) to reset heading (Line 48) to "TITLE"
 
 ### Demo Script
-{:.no_toc}
 
 Today I’d like to demo some of the power of GitLab’s integrated set of tools for the software development lifecycle, helping you get from idea to production as quickly as possible. We will start with a simple project and will show you the power of built-in continuous integration, built-in container registry, and built-in continuous deployment.
 
@@ -93,7 +82,7 @@ Now, as a developer, I’ll look at the project’s [Issue tracker](https://gitl
 
 It’s asking to change some text; seems pretty straightforward. And look at that, there’s a proposed merge request already. Let’s take a look at that. Here we can see the exact code that has changed and discuss it. But I don’t just want to trust reading the code, I want to see it live. Let’s go back to the project and we see a link to the [staging server](https://staging.docker-cloud.gitlap.com/) where this merge request has already been deployed.
 
-#### Online Edits
+#### Edit Inline
 
 Now this is great, I can see the change running live, but I realize I’m not really happy with that. Let’s make another change.
 
