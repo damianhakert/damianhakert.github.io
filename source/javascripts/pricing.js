@@ -28,8 +28,12 @@ $(function () {
   }, 500);
 
   $('.js-faq-question').on('click', function (e) {
-    e.preventDefault()
+    e.preventDefault();
+    isOpen = $(this).closest('.faq-item').is('.is-open');
     $('.faq-item.is-open').removeClass('is-open');
-    $(this).closest('.faq-item').toggleClass('is-open');
+
+    if (!isOpen) {
+      $(this).closest('.faq-item').toggleClass('is-open');
+    }
   });
 });
