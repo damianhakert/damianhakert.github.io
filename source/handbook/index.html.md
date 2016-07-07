@@ -647,7 +647,7 @@ The default setting of showing the next older message is OK.
 ### Hangouts
 
 In Chrome Hangouts tends to consume 100% of CPU due to use of the vp9 codec.
-On MacOS witching to Safari solves this since it will use h264 that is hardware accelerated.
+On MacOS switching to Safari solves this since it will use h264 that is hardware accelerated.
 
 ### Hangouts on air
 
