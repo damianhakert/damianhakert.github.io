@@ -11,7 +11,7 @@ title: "Design"
 * [Project prioritization](#priority)
 * [Design touchpoints](#touchpoints)
 
-## Demand Generation Handbooks:  
+## Design Handbooks:  
 
 - [Design](/handbook/marketing/design/)  
 - [Brand Guidelines](/handbook/marketing/design/brand-guidelines/)   
