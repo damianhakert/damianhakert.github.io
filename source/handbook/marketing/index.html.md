@@ -33,6 +33,8 @@ The GitLab Marketing team includes Demand Generation, Developer Relations, Desig
 * [Developer Relations](/handbook/marketing/developer-relations)
 * [Design](/handbook/marketing/design/)
 * [Product Marketing](/handbook/marketing/product-marketing)
+* [Blog](/handbook/marketing/blog/)
+* [Social Media Guidelines](/handbook/marketing/social-media-guidelines/)
 
 # GitLab Marketing Mission: GitLab for All!<a name="mission"></a>
 
