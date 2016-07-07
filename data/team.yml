@@ -1314,6 +1314,17 @@
   story:  |
           Joining July 11th
 
+- name: D.L.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/account-executive/">Junior Account Executive</a>
+  reports_to: Sales Director EMEA
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining July 18th
+
 - name: N.T.
   locality:
   country:
