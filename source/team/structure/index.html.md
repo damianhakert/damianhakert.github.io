@@ -55,7 +55,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - Frontend - [Frontend Lead](/jobs/frontend-lead/) - Jacob Schatz
       - [Frontend Engineers](/jobs/frontend-engineer/)
       - [UX Designers](/jobs/ux-designer/)
-    - [Infrastructure](/handbook/infrastructure/) - Infrastructure lead - Pablo Carranza
+    - [Infrastructure](/handbook/infrastructure/) - [Infrastructure Lead](/jobs/infrastructure-lead/) - Pablo Carranza
       - [Production Engineers](/jobs/production-engineer/)
       - [Developers](/jobs/developer/) that are a performance specialist
     - Packaging - [Packaging lead](/jobs/packaging-lead) - Marin Jankovski
