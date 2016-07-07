@@ -345,6 +345,7 @@
   maintains: |
              <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
              <li>Performance specialist</li>
+             <li><a href="http://docs.gitlab.com/ce/markdown/markdown.html">GitLab Flavored Markdown</a> <a href="/jobs/expert/">expert</a></li>
   story: |
          Yorick first started working as a professional software developer in
          2010. Since then he has worked on a wide variety of projects, ranging
@@ -854,6 +855,8 @@
   picture: tim.jpg
   twitter: timothyandrew
   gitlab: timothyandrew
+  maintains:  |
+               <li>2FA and <a href="https://www.yubico.com/about/background/fido/">U2F</a> <a href="/jobs/expert/">Expert</a></li>
   story:  |
           Tim has been vaguely passionate about computers ever since he got all the way through Prince of Persia when he was five. This grew into a legitimate love for the field after he crashed his Windows installation in 2007, and replaced it with a fragile triple-boot system that included a patched version of OS X. Over the last few years, he's built web apps for non-profits, advertising companies, and large online retailers in Rails and Clojure. When he's not glued to a screen of some sort, he's introverted to a fault, likes to play the bass guitar, read murder mysteries, and build computers.
 
@@ -1012,6 +1015,7 @@
   gitlab: fatihacet
   maintains: |
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
+              <li>Award Emoji <a href="/jobs/expert/">expert</a></li>
   story:  |
           Based on Istanbul, Fatih is a Frontend Engineer who is passionate about delivering solid Frontend code.
           He loves to see the things he created used by thousands of others.
@@ -1054,6 +1058,7 @@
   gitlab: godfat
   maintains:  |
               <li><a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> specialist</li>
+              <li><a href="http://docs.gitlab.com/ce/incoming_email/README.html">Reply by Email</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Jen-Shin is a Taiwanese who is also known as @godfat on the Internet. He learned Ruby from 2006 and has built a ton of stuffs with it including open source libraries. He's also passionate about functional programming, particularly Haskell. Other than programming, Jen-Shin loves computer games, especially some indie games. At some point he would really like to write one indie game as well, combining two major interests.
 
@@ -1164,6 +1169,8 @@
   picture: jneen.jpg
   twitter: jneen_
   gitlab: jneen
+  maintains: |
+              <li>Maintainer of <a href="https://github.com/jneen/rouge/">Rouge</a></li>
   story:  |
           Jeanine loves languages. She is the author of the syntax highlighting gem `rouge`
           and is at GitLab working to make our language support and highlighting experience
