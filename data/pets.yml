@@ -86,6 +86,10 @@
   picture: sundae.jpg
   human: alex
   story: Overeager cuddler and bread thief.
+- name: Alex
+  picture: alex.jpg
+  human: taurie
+  story: Consistent cuddler, but usually only with my humans. Sassy with all others, and sometimes also with my humans.
 - name: You?
   picture: ../logo-extra-whitespace.png
   story:  |
