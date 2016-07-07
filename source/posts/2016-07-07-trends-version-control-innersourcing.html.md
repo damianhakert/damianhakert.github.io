@@ -9,7 +9,7 @@ image_title: '/images/default-blog-image.png'
 
 We’re starting a series of posts that explore existing and growing trends in version control. This week we’re looking at innersourcing.
 
-As a follow-up/update to [a post we did innersourcing back in 2014][post-2014], we’ll be looking at what innersourcing is, who’s using it, and how it’s solving some of the biggest problems enterprise developers face.
+As a follow-up/update to [a post we did on innersourcing back in 2014][post-2014], we’ll be looking at what innersourcing is, who’s using it, and how it’s solving some of the biggest problems enterprise developers face.
 
 <!-- more -->
 
