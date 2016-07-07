@@ -3,6 +3,16 @@ layout: markdown_page
 title: "Stock Options"
 ---
 
+----
+
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+----
+
 ## About Your Ownership in GitLab
 
 At GitLab we strongly believe in employee ownership in our Company.  We are in business
@@ -115,11 +125,14 @@ There are two methods to exercise your shares:
    - After ACH has been enabled select exercise option grants and follow the prompts
 2. Manual (Non ACH and Non US Residents)
    - Log into your eShares account
-   - Select print grant and print the forms for exercising shares
-   - Create PDF of signed forms and send to peopleops@gitlab.com
-   - Send payment in US dollars by wire transfer.  You will be provided wire transfer info
+   - Click on "View" (right hand side of screen)
+   - Click on "Attachments and Notes"
+   - Click on "Form of Exercise Agreement"
+   - Print the form, fill in the blanks, and scan it (sorry, no digital signatures)
+   - Create PDF of signed forms and send to the CFO
+   - Send payment in US dollars by wire transfer. You will be provided wire transfer info.
 
-Note for US residents: whichever method you choose, be sure to download the 83-b election and file with the IRS within 30 days of exercise. Send a copy of the election form to peopleops@gitlab.com.
+Note for US residents: whichever method you choose, be sure to download the 83-b election and file with the IRS within 30 days of exercise. Send a copy of the election form to the CFO.
 
 
 ## Option Expiration
