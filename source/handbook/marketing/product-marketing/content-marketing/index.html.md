@@ -48,8 +48,9 @@ which welcome newcomers, celebrate with existing users, and provide access to ex
 
 - You must be a manager of the [GitLab YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg) to upload.
 - To be added as a manager of the GitLab YouTube channel, please request the channel owner add you as manager.
-- Sid is the GitLab YouTube channel owner.
+- The CMO is the GitLab YouTube channel owner.
 - [How to add or remove users to a channel](https://support.google.com/youtube/answer/4628007?hl=en)
+- The direct link to add and remove users for the manager is [here](https://plus.google.com/u/0/b/107491817347842790515/pages/settings/admin).
 - If you’d like to add video bumpers to the beginning or end of your video, please download from this [issue](https://gitlab.com/gitlab-com/gitlab-artwork/tree/master/video-bumpers).
 
 ### Monthly Program
