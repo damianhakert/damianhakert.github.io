@@ -46,7 +46,7 @@ which welcome newcomers, celebrate with existing users, and provide access to ex
 
 ### Uploading video files to the GitLab YouTube channel
 
-- You must be a manager of the GitLab YouTube channel to upload.
+- You must be a manager of the [GitLab YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg) to upload.
 - To be added as a manager of the GitLab YouTube channel, please request the channel owner add you as manager.
 - Sid is the GitLab YouTube channel owner.
 - [How to add or remove users to a channel](https://support.google.com/youtube/answer/4628007?hl=en)
