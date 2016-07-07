@@ -12,7 +12,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 
 * [Engineering](/handbook/engineering)
 * [Marketing](/handbook/marketing)
-  * [Social Media Guidelines](/handbook/social-media-guidelines)
+  * [Social Media Guidelines](/handbook/marketing/social-media-guidelines)
 * [Sales](/handbook/sales)
   * [Customer Success](/handbook/customer-success)
 * [Finance](/handbook/finance)

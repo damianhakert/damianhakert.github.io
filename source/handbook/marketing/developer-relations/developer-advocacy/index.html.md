@@ -223,7 +223,7 @@ In your checked bag:
 
 # Social Media<a name="social-media"></a>
 
-Advocates follow these [guidelines](/handbook/social-media-guidelines) when posting as GitLab.
+Advocates follow these [guidelines](/handbook/marketing/social-media-guidelines) when posting as GitLab.
 
 ## Social Media Channels
 
