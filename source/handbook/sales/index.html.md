@@ -39,6 +39,7 @@ title: "Sales Handbook"
 * [Licenses and EE access](/handbook/sales-process/licenses)
 * [Client Use Cases](https://about.gitlab.com/handbook/use-cases/)
 * [Sales demo script](/handbook/sales/demo/)
+* [Demo: Idea to Production](/handbook/sales/idea-to-production)
 
 ### Pages outside Sales Handbook <a name="pages-outside"></a>
 
