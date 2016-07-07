@@ -17,7 +17,7 @@ extra_css:
 
 ## What is Gogs?
 
-Gogs is an open-source, lean, self-hosted Git service. It's built on Go which makes it cross-platform friendly. Installation is pretty easy with a single binary. Gogs has a low footprint and is easy on system resources (it can even run on Raspberry Pi).
+Gogs is an open-source, lean, self-hosted Git service. It's built on Go which makes it cross-platform friendly. Installation is pretty easy with a single binary. Gogs has a low footprint and is easy on system resources.
 
 ## GitLab's Support of Gogs
 
@@ -35,17 +35,16 @@ Both tools share the following features and capabilities:
 - Organizational support (supporting groups)
 - Webhooks
 
-## Gogs Features Not Available in GitLab:
+## Feature Overview
+Gogs has a few main advantages as a light-weight Git Service, prominant of which are its **low CPU consumption** and **low memory consumption**. 
+It also offers Git hooks. This makes Gogs most suitable for those looking for a Git service that is strong on low system resources yet still 
+providing the core functionality you would expect from a light-weight Git service. Gogs is a great Git service for the smallers teams with lower 
+resouces at hand and a low number of devs collaborating together.
 
-1. **Lower CPU consumption**
-2. **Lower memory consumption**
-3. **Git hooks**
+Because GitLab is a more feature-rich Git service it offers more features than those available with Gogs. It's worth noting that the Gogs community
+is currently working on some of the features mentioned below. Here are some of those features:
 
-## GitLab Features Currently Not Available in Gogs
-
-Although powerful and customizable, Gogs lacks the following features which are available on GitLab.
-
-### LADP
+### LDAP
 1. **Two-Factor authentication**
 2. **CAS authentication**
 
