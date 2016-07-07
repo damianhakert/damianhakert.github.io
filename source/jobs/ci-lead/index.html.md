@@ -3,7 +3,8 @@ layout: markdown_page
 title: "CI Lead"
 ---
 
-The CI Lead reports to the VP of Engineering.
+The CI Lead reports to the VP of Engineering, and CI specialists report to the
+CI Lead.
 
 ## Responsibilities
 
@@ -18,4 +19,3 @@ The CI Lead reports to the VP of Engineering.
 * Does weekly stand-up with a team and product managers to talk about plan for the work in the upcoming week
 * Coordinates a deployment of CI related services with infrastructure team
 * Delivers input on promotions, function changes, demotions and firings in consultation with the CEO, CTO, and VP of Engineering
-
