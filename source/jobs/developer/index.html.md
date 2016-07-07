@@ -55,7 +55,7 @@ A Senior Developer will be promoted to a Staff Developer when he/she has
 demonstrated significant leadership to deliver high-impact projects. This may
 involve a number of items:
 
-1. Proposing new ideas, performing feasibliity analyses, and scoping the work
+1. Proposing new ideas, performing feasibility analyses, and scoping the work
 2. Leading the design for large projects
 3. Working across functional groups to deliver the project
 4. Proactively identifying and reducing technical debt
@@ -69,6 +69,8 @@ demonstrate:
 
 1. The ability to create innovative solutions that push GitLab's technical abilities ahead of the curve
 2. Identifies significant projects that result in substantial cost savings or revenue
+3. Proactively defines and solves important architectural issues
+3. TODO
 
 ## Requirements
 
