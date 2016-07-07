@@ -69,6 +69,6 @@ When your post gets published, it's time to claim for your compensation. You wil
 _**Note:** When you start writing for GitLab, we assume you have accepted the terms described along this page._
 
 [topics-issues]: https://gitlab.com/gitlab-com/blog-posts/issues?milestone_id=&scope=all&sort=created_desc&state=opened&utf8=%E2%9C%93&assignee_id=0&author_id=&milestone_title=&label_name=&weight=
-[our blog]: https://about.gitlab.com/blog/
-[GitLab Blog]: https://about.gitlab.com/handbook/marketing/product-marketing/content-marketing/#blog
-[Technical Writing]: https://about.gitlab.com/handbook/marketing/developer-relations/technical-writing/#professional-writing-techniques
+[our blog]: /blog/
+[GitLab Blog]: /handbook/marketing/blog/#publishing-process-for-community-writers
+[Technical Writing]: /handbook/marketing/developer-relations/technical-writing/#professional-writing-techniques
