@@ -27,6 +27,7 @@ title: "People Operations"
    - [Settings in BambooHR](#bamboohr-settings)
    - [Asset Tracking](#asset-tracking)
    - [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)
+   - [Birthday Swag](#birthday-swag)
    - [Administrative details of benefits for US-based employees](#benefits-us)
    - [Using TriNet](#using-trinet)
    - [Using RingCentral](#ringcentral)
@@ -266,6 +267,11 @@ Add the team member's name to the Travel and Lodging Google sheets to make sure 
 Log into Egencia and go to the menu option "manage users". Choose "new user account" and fill in the passport name of the new team member.
 As username choose the same handle as on our dev domain. Enter the GitLab email address and uncheck the newsletter box.
 Lastly assign the department in which the new team member is working.
+
+### Birthday Swag <a name="birthday-swag"></a>
+
+BambooHR should send an email to People Ops the day before and the day of a team member's birthday. Celebrate by sending the team member a $25 swag code, and free shipping. Swag codes can be found in the google doc titled "Tshirts and Stickers Coupons." 
+Include the link to the [swag store](https://gitlab.mybrightsites.com/) in your email. Also, make sure to post on the #general channel on Slack so all team members can help them celebrate. 
 
 ### Administrative details of benefits for US-based employees <a name="benefits-us"></a>
 
