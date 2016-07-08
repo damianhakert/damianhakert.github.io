@@ -5,9 +5,9 @@ title: "Demo: Idea to Production"
 
 This demonstration is designed to highlight GitLab’s integrated set of tools for the software development lifecycle, from idea to production, including continuous integration Pipelines, continuous deployment Environments, and Container Registry. It takes about 8 minutes and be done on a single-tenant server, or GitLab.com. It happens to use Ruby/Sinatra and Docker Cloud.
 
-A [pre-recorded version](https://youtu.be/tgcYfIy3B0Q) is available on YouTube.
+A [pre-recorded version](https://youtu.be/pY4IbEXxxGY) is available on YouTube.
 
-<iframe width="646" height="408" src="https://www.youtube.com/embed/tgcYfIy3B0Q" frameborder="0" allowfullscreen></iframe>
+<iframe width="646" height="408" src="https://www.youtube.com/embed/pY4IbEXxxGY" frameborder="0" allowfullscreen></iframe>
 
 ----
 
