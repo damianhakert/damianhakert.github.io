@@ -22,6 +22,9 @@ questions:
   - question: What is GitLab High Availability?
     answer: |
       High availability is a system design that ensures a prearranged level of operational performance throughout a specific time-period. The most common way to measure HA is through the notion of uptime, which measures how long a service is up and running. <a href="/high-availability/">Learn more...</a>
+  - question: Can GitLab host a private instance for me?
+    answer: |
+      Yes, we can host a private instance for you with <a href="https://githost.io/">GitHost</a>. We'll handle installing, updating, hosting, and backing up your own private and secure GitLab instance.
   - question: Is there educational pricing?
     answer: |
       GitLab's Educational pricing is that for educational institutions, students do not count towards the user count. The purchase of at least one subscription is required.
