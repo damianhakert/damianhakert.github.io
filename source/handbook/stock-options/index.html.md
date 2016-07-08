@@ -116,9 +116,7 @@ lots of risks so be aware and informed of the risks. Please read this [quora thr
 
 ## How to Exercise Your Stock Options<a name="how-to-exercise"></a>
 
-Options are approved by the Board of Directors at regularly scheduled quarterly board meetings.  
-After your grant has been approved by the Board you will receive a grant notice by email from eShares containing information relevant to the grant 
-including the number of shares, exercise price, vesting period and other key terms.
+Options are approved by the Board of Directors at regularly scheduled quarterly board meetings. After your grant has been approved by the Board you will receive a grant notice by email from eShares containing information relevant to the grant including the number of shares, exercise price, vesting period and other key terms.
 
 There are two methods to exercise your shares:
 
