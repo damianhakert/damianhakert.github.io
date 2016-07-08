@@ -3,7 +3,7 @@ title: "7 Myths About Open Sourcing Your Company's Software"
 author: Amanda Folson
 author_twitter: AmbassadorAwsum
 categories: concepts
-image_title: '/images/default-blog-image.png'
+image_title: '/images/blogimages/code-gitlab-tanuki.png'
 ---
 
 Many companies benefit from open source, and countless companies have opted to open source components of their infrastructure (or even their bread and butter) in an effort to give back. However, there are a lot of misconceptions about what happens when you open up your business' code and workflows to the public, and as companies delve into how to apply open principles within their organization, it's easy to get lost in the weeds. Here are some common misconceptions about what happens when you open source your code.
