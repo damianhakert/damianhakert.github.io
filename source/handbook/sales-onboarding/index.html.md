@@ -142,6 +142,8 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
     - [Upcoming in EE](https://gitlab.com/gitlab-org/University/blob/master/classes/upcoming_in_ee.md)
     - [Big files in Git (Git LFS, Annex)](https://gitlab.com/gitlab-org/University/blob/master/classes/git_lfs_and_annex.md)
 
+* [ ] 8 Minute video of the CI/CD  and container registry features in GitLab](https://youtu.be/pY4IbEXxxGY)
+
 * [ ] [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 
 * [ ] [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=ae7b72c61347030e8aa75328ed4b8660)
