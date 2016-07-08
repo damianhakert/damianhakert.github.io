@@ -5,7 +5,7 @@ title: "Product Marketing Manager"
 
 Are you a passionate, strategic marketer with impressive management skills who has 
 mastered the art of building relationships and executing on exciting new projects? 
-GitLab is looking for an awesome Partner Marketing Manager to design, develop, 
+GitLab is looking for an awesome Product Marketing Manager to design, develop, 
 and execute GitLab’s partner and channel marketing programs, including go-to-market 
 and sustain campaigns for named industry and channel partners. 
 
@@ -25,8 +25,7 @@ and channel partners.
 
 ## Requirements
 
-* Degree in business/marketing or related field
-* 3-5 years experience in marketing, business development, or sales experience, preferably at an enterprise technology company
+* 2-4 years experience in product marketing, preferably at an enterprise technology company
 * A proven track record for creating compelling joint positioning and messaging
 * Strong communication skills without a fear of over communication. This role will require effective collaboration and coordination across internal and external contributors 
 * Extremely detail-oriented and organized, able to manage multiple projects to meet deadlines
