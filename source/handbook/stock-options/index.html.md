@@ -114,11 +114,11 @@ termination of services, the company is not obligated to do so.  Accordingly you
 lose some or all of the investment you made.  Because we are a young company there are
 lots of risks so be aware and informed of the risks. Please read this [quora thread about most startups failing](https://www.quora.com/What-is-the-truth-behind-9-out-of-10-startups-fail) and this story of [people paying more in tax for their stock than they get back](http://www.nytimes.com/2015/12/27/technology/when-a-unicorn-start-up-stumbles-its-employees-get-hurt.html).
 
-Note: Options will be able to be exercised once they are approved by the board. Finance and People Ops are able to run a report in BambooHR called 
-"Stock Options" which states what options have been proposed to team members by date. 
-
 ## How to Exercise Your Stock Options<a name="how-to-exercise"></a>
 
+Options are approved by the Board of Directors at regularly scheduled quarterly board meetings.  
+After your grant has been approved by the Board you will receive a grant notice by email from eShares containing information relevant to the grant 
+including the number of shares, exercise price, vesting period and other key terms.
 
 There are two methods to exercise your shares:
 
