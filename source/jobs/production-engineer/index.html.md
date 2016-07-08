@@ -11,17 +11,17 @@ all the things.
 
 ## Responsibilities
 
-* As an Production Engineer you will be on a pager duty rotation to respond
-to GitLab.com availability incidents and support for service engineers with
-customer incidents.
-* Improve GitLab.com availability and performance.
+* Collaborate with the team to improve GitLab.com availability and performance.
 * Incident response for GitLab.com.
-* Making GitLab easier to maintain for administrators all over the world.
+* Creatively make GitLab easier to maintain for administrators all over the world.
 * Manage our infrastructure with Chef (and a little Ansible)
-* Build monitoring systems so alerts trigger on symptoms and not on outages.
+* Build and manage monitoring systems so alerts trigger on symptoms and not on outages.
 * Improve the deployment process to make it as boring as possible.
 * Scaling GitLab to support hundred of thousands of concurrent users.
 * Work comfortably at any level of the stack.
+* As an Production Engineer you will be on a pager duty rotation to respond
+to GitLab.com availability incidents and support for service engineers with
+customer incidents.
 
 ## Workflow
 
