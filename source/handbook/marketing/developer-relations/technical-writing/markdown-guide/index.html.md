@@ -1443,7 +1443,89 @@ And yes, the `<style>` tag is _in_ this very markdown file. Believe it or not!
 
 ----
 
+## Embed documents
+
+It's easy to embed Google Docs, Sheets and Slides. With your document opened,
+click **File** -> **Publish to the web**:
+
+![Google Sheets - File - Publish to the web](/images/markdown-guide/file-publish-to-the-web.png)
+
+Choose **Embed**, check your settings, click on **Publish** and copy the `<iframe>`. Then go to your markdown file
+and wrap the iframe into a `<figure>` tag with the responsive class, as shown below.
+
+### Google Sheets
+
+Let's exemplify with this [simple spreadsheet]. Follow the steps [above](#embed-documents) to find the iframe:
+
+![Google Sheets - Embed iframe](/images/markdown-guide/embed-google-sheet.png)
+
+Copy the code below and paste to your markdown file (leave a blank line above and below it). Then replace the `<iframe>` with your own:
+
+```html
+<figure class="video_container">
+<iframe src="https://docs.google.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/pubhtml?widget=true&amp;headers=false"></iframe>
+</figure>
+```
+
+#### Output:
+{: .no_toc}
+
+<figure class="video_container">
+<iframe src="https://docs.google.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/pubhtml?widget=true&amp;headers=false"></iframe>
+</figure>
+
+<br>
+
+### Google Slides
+
+Let's exemplify with this [simple presentation]. Follow the steps [above](#embed-documents) to find the iframe:
+
+![Google Slides - Embed iframe](/images/markdown-guide/embed-google-slides.png)
+
+Copy the code below and paste to your markdown file (leave a blank line above and below it). Then replace the `<iframe>` with your own:
+
+```html
+<figure class="video_container">
+<iframe src="https://docs.google.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</figure>
+```
+
+#### Output:
+{: .no_toc}
+
+<figure class="video_container">
+<iframe src="https://docs.google.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</figure>
+
+<br>
+
+### Google Docs
+
+Embedding Google Docs is not a recommended practice. Prefer converting your document content
+to markdown instead. If you need to embed it anyway, follow the same instructions and the same logic as
+we presented for Google Sheets and Slides, wrapping the `<iframe>` with a `<figure>` tag:
+
+```html
+<figure class="video_container">
+<iframe src="https://docs.google.com/document/d/1mHhOhvvrz7xgUPyn5VWCNuKgew5MRRGZp761B9prPqs/pub?embedded=true"></iframe>
+</figure>
+```
+
+----
+
 ## Markdown Editors
+
+Please use one of the following code editors to write in markdown, or another **code editor** of
+your preference.
+
+It is **not** recommend writing your document in a regular text editor, then copy-pasting to markdown,
+as it most likely will bring some characters with a different encoding (non UTF-8), which will cause the
+markdown to not render correctly.
+
+In case you don't have a choice and need to import a text already written in a text editor, paste it
+to your markdown file using **command+shift+V** on a Mac, or **control+shift+V** on Windows or Linux.
+You might minimize the cause of trouble by pasting without format. But yet, is not guaranteed it
+is going to work, so double check your HTML output.
 
 _Regular Code Editors_
 
@@ -1515,10 +1597,12 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [Markup language]: https://en.wikipedia.org/wiki/Markup_language
 [middleman]: https://middlemanapp.com/
 [mou]: http://25.io/mou/
-[mou-screenshot]: /images/mou-screenshot-preview-markdown-guide-handbook.png "Mou for Mac - Markdown Preview"
+[mou-screenshot]: /images/markdown-guide/mou-screenshot-preview.png "Mou for Mac - Markdown Preview"
 [panel blocks]: https://getbootstrap.com/components/#panels-alternatives
 [`raw` file]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/handbook/marketing/developer-relations/technical-writing/markdown-guide/index.html.md
 [Redcarpet]: http://git.io/ld_NVQ
+[simple presentation]: https://docs.google.com/a/gitlab.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/edit?usp=sharing
+[simple spreadsheet]: https://docs.google.com/a/gitlab.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/edit?usp=sharing
 [ssg]: https://www.staticgen.com/
 [ssgs-post]: https://about.gitlab.com/2016/06/10/ssg-overview-gitlab-pages-part-2/
 [ssgs-post-raw]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/posts/2016-06-10-ssg-overview-gitlab-pages-part-2.html.md
