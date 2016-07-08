@@ -14,6 +14,7 @@ title: Leadership
 - [How Facebook Tries to Prevent Office Politics](https://hbr.org/2016/06/how-facebook-tries-to-prevent-office-politics)
 - [The Management Myth](http://www.theatlantic.com/magazine/archive/2006/06/the-management-myth/304883/)
 - [Later Stage Advice for Startups](http://themacro.com/articles/2016/07/later-stage-advice-for-startups/)
+- [Mental Models I Find Repeatedly Useful](https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d)
 
 ## Books
 
