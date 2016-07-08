@@ -6,7 +6,7 @@ title: "Sales Qualification Questions"
 The following questions can be used to help develop the opportunity and advance the buying decision.  These questions are grouped based on sales stages.
 
 1. Qualification Stage
-    * What lead you to look at GitLab?
+    * What led you to look at GitLab?
     * What are you using now?
         - If SVN, What are some of the main motivating factors for considering the move away from SVN to Git?
     * In terms of development, where are you at on the continuous delivery spectrum?
