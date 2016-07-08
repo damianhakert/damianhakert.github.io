@@ -13,6 +13,7 @@ work from home and help GitLab grow, this is the right spot for you.
 * Engage with our customers—anything from a small advertising firm or a university, to Fortune 100 clients and
 help them with anything from a simple support ticket to a customer training
 * Conducting systems analysis of techniques and procedures
+* Engaged in development, using significant computer skills 
 * Communicate via email and video conferencing with potential and current clients
 * Maintain GitLab.com and our other services such as GitHost.io
 * Participate in the rotating "on-call" list to provide 24/7 emergency response availability
