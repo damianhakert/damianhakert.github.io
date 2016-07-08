@@ -8,7 +8,7 @@ title: "Design"
 
 ## On this page
 * [Requesting design help](#designHelp)
-* [`Design`label in issue tracker](#designLabel)
+* [Design label in issue tracker](#designLabel)
 * [Project prioritization](#priority)
 * [Design touchpoints](#touchpoints)
 * [Design onboarding](#onboarding)
@@ -18,7 +18,7 @@ title: "Design"
 * [Team GitLab Dribbble account](#dribbble)
 * [Slack design channels](#chat)  
 * [Design tools](#designTools)
-* [Inspiration, who does design well?](#inspiration)
+* [Design inspiration](#inspiration)
 
 ## Design Handbooks:  
 
@@ -28,8 +28,8 @@ title: "Design"
 ## Requesting design help<a name="designHelp"></a>
 
 1. Create an issue in the corresponding project repository
-  1. For tasks pertaining to [about.gitlab.com](about.gitlab.com) create an issue in the [www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/issues).
-  1. For all other marketing related tasks create an issue in the [marketing project](https://gitlab.com/gitlab-com/marketing/issues).
-1. Add all relevant details, goal(s), purpose, resources, and links in the issue description. Also `@`mention team members who will be involved.
+    1. For tasks pertaining to [about.gitlab.com](about.gitlab.com) create an issue in the [www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/issues).
+    1. For all other marketing related tasks create an issue in the [marketing project](https://gitlab.com/gitlab-com/marketing/issues).
+1. Add all relevant details, goal(s), purpose, resources, and links in the issue description. Also `@` mention team members who will be involved.
 1. Set due date (if possible).
 1. Label issues with `Design`.
