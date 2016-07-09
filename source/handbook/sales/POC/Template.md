@@ -1,3 +1,6 @@
+# TRIAL GUIDELINES
+
+
 The purpose of this document is to outline the GitLab Trial being performed with
 
 XYZ, Inc. It defines the scope, technical guidelines, sequence of events, and
@@ -14,7 +17,7 @@ on expectations, time frame, and the criteria that will be used to gauge the
 
 success of the Trial. 
 
-# CURRENT STATE
+## CURRENT STATE
 
 •	XYZ, Inc. currently uses the products of multiple vendors for Version
 
@@ -26,9 +29,9 @@ with strict Federal security requirements – FedRamp FISMA certification
 
 •	XYZ, Inc. has between 500 – 600 Teams who use the current systems
 
-# CHALLENGES
+## CHALLENGES
 
-*	Since multiple vendors are used, XYZ, Inc. has issues with manageability,
+•	Since multiple vendors are used, XYZ, Inc. has issues with manageability,
 
 control, visibility and reporting of the different systems being used.
 
@@ -36,7 +39,7 @@ control, visibility and reporting of the different systems being used.
 
 •	Challenge 3
 
-# DESIRED STATE
+## DESIRED STATE
 
 •	Standardize companywide on a Git-based Version Control System
 
@@ -49,10 +52,26 @@ control, visibility and reporting of the different systems being used.
 •	Better User and Group Management
 
 
-# BUSINESS PROBLEM
+## BUSINESS PROBLEM
 
 XYZ, Inc. is looking to standardize on one Git-based solution which will be used
 
 companywide. Currently there are number of different solutions in place and this
 
 makes managing, controlling and reporting on the disparate systems difficult.
+
+
+## OBJECTIVE OF THE TRIAL
+
+The objective of this Trial is to prove that GitLab can meet XYZ, Inc.’s needs
+
+for a Git-based solution and to justify the acquisition of GitLab by XYZ, Inc.
+
+
+## TRIAL REQUIREMENT
+
+This section summarizes the agreed upon requirements of the Trial which will be 
+
+considered a success if CSRA can successfully achieve the following goals: 
+
+
