@@ -5,10 +5,10 @@ title: "Marketing"
 
 # Welcome to the GitLab Marketing Handbook
 
-The GitLab Marketing team includes Demand Generation, Developer Relations, Design, and Product Marketing
+The GitLab Marketing team includes four functional groups: Demand Generation, Developer Relations, Design, and Product Marketing
 
 
-## Communication<a name="reach-marketing"></a>
+## How to contact marketing<a name="Contact-marketing"></a>
 
 - [**GitLab Marketing public issue tracker**](https://gitlab.com/gitlab-com/marketing/issues/); please use confidential issues for topics that should only be visible to team members at GitLab
 - You can also send an email to the Marketing team (see the "GitLab Email Forwarding" google doc for the alias).
@@ -29,16 +29,16 @@ The GitLab Marketing team includes Demand Generation, Developer Relations, Desig
 
 ## Marketing Handbooks
 
-* [Demand Generation](/handbook/marketing/demand-generation)
-* [Developer Relations](/handbook/marketing/developer-relations)
-* [Design](/handbook/marketing/design/)
-* [Product Marketing](/handbook/marketing/product-marketing)
-* [Blog](/handbook/marketing/blog/)
-* [Social Media Guidelines](/handbook/marketing/social-media-guidelines/)
-* [Online Marketing](/handbook/marketing/demand-generation/online-marketing)
+* [Blog](/handbook/marketing/blog/)  
 * [Business Development](/handbook/marketing/demand-generation/business-development)
-* [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy)
-* [Technical Writing](/handbook/marketing/developer-relations/technical-writing)
+* [Demand Generation](/handbook/marketing/demand-generation)  
+* [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy)  
+* [Developer Relations](/handbook/marketing/developer-relations)  
+* [Design](/handbook/marketing/design/)  
+* [Online Marketing](/handbook/marketing/demand-generation/online-marketing)  
+* [Product Marketing](/handbook/marketing/product-marketing)  
+* [Social Media Guidelines](/handbook/marketing/social-media-guidelines/)  
+* [Technical Writing](/handbook/marketing/developer-relations/technical-writing)  
 
 # GitLab Marketing Mission: GitLab for All!<a name="mission"></a>
 
@@ -163,7 +163,7 @@ The meeting should run as follows:
 - The meeting will then open to questions starting with the questions already documented.
 - Everyone is encouraged to participate.    
 
-### Monday & Wednesday dinosaur party   
+### Monday & Wednesday Dinosaur party   
 
 **Meeting goal: Dinosaur Party! (and also make sure we're all working together effectively)**    
 **Run time: 10-15 minutes**  
@@ -179,7 +179,7 @@ The meeting should run as follows:
 
 To find the Dinosaur Sticker leaderboard, search the company Google Drive for "Dinosaurs are awesome"  
 
-### Quarterly marketing review
+### Quarterly Marketing Review
 
 **Meeting goal: How did the last quarter go? What should we do for the upcoming quarter?**
 
@@ -237,7 +237,6 @@ Anything that is a process in marketing should be documented in the Marketing Ha
 - Format of all pages should be as follows:  
     - Welcome to the Handbook
     - Functional group overview if handbook for entire functional group or organization
-    - Link up one level
     - "On this page" index of all top level headers on the current page
     - Links to other handbooks included on this page.
 - Rather than create many nested pages, include everything on one page of your role's handbook with an index at the top.
