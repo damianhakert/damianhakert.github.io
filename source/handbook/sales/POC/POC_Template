@@ -7,9 +7,9 @@ beginning the Trial.  This will assure that both companies understand and agree
 on expectations, time frame, and the criteria that will be used to gauge the 
 success of the Trial. 
 
-<#H1>CURRENT STATE<#H1>
+CURRENT STATE
 
-*	XYZ, Inc. currently uses the products of multiple vendors for Version 
+•	XYZ, Inc. currently uses the products of multiple vendors for Version 
 Control and Collaboration – there is no companywide standard.
 •	As a contractor of the United States Government, XYZ, Inc. needs to comply 
 with strict Federal security requirements – FedRamp FISMA certification
@@ -29,6 +29,13 @@ DESIRED STATE
 •	Have the chosen solution hosted in the Amazon GovCloud
 •	FedRamp FISMA Compliance
 •	Better User and Group Management
+
+BUSINESS PROBLEM
+
+XYZ, Inc. is looking to standardize on one Git-based solution which will be used
+companywide. Currently there are number of different solutions in place and this
+makes managing, controlling and reporting on the disparate systems difficult.
+
 
 
 
