@@ -79,8 +79,6 @@ Our team and the demands on marketing are growing quickly. In order to align our
 
 Each member of the marketing team is responsible for 3 Objectives and 3 Key Results for each objective.  
 
-To find the GitLab Marketing Team's OKRs, search the company Google Drive for "Marketing OKRs - Quarterly".
-
 - What is an OKR? Objectives and Key Results
 - Objectives are goals
 - Key Results are measurement
