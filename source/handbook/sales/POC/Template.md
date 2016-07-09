@@ -95,7 +95,7 @@ considered a success if XYZ, Inc. can successfully achieve the following goals:
 
 In order to execute the Trial GitLab and XYZ, Inc. need to commit resources :
 
-GITLAB
+#### GITLAB
 
 •	Attend weekly Trial status calls to discuss the Trial progress and discuss 
 
@@ -108,6 +108,22 @@ support to aid XYZ, Inc.during the Trial.
 •	Execute the Trial and document the results for all scenarios within the 
 
 allotted timeframe.
+
+#### XYZ, Inc.
+
+•	Attend weekly Trial status calls to discuss the Trial progress and discuss 
+
+any open issues.
+
+•	Provide the necessary technical resources to provide knowledge transfer and
+
+support to aid XYZ, Inc.during the Trial.
+
+•	Execute the Trial and document the results for all scenarios within the 
+
+allotted timeframe.
+
+### ESTIMATED START DATE / DURATION:  July 8, 2016 for 30 days.
 
 
 
