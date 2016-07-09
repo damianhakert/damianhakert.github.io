@@ -17,6 +17,7 @@ The GitLab Marketing team includes four functional groups: Demand Generation, De
 
 ## On this page
 
+* [Contact marketing](#Contact-marketing)
 * [Marketing mission](#mission)
 * [Functional groups](#groups)
 * [Marketing OKRs](#okrs)
@@ -72,7 +73,7 @@ Our Marketing team is split into four key functional groups. All four groups are
 - **Partner Marketing:** [Handbook](/handbook/marketing/product-marketing/#partnermarketing/), Job Description coming soon.
 - **Content Marketing:** [Handbook](/handbook/marketing/developer-relations/content-marketing/), [Job Description](/jobs/content-marketing-manager)
 
-# Marketing OKR Overview<a name="okrs"></a>
+# Marketing OKRs<a name="okrs"></a>
 
 Our team and the demands on marketing are growing quickly. In order to align our goals with company goals as well as prioritize what we are working on, OKRs help us to maintain structure. Of course, not everything can be captured in one Google Sheet but this helps us all to know what we consider our goals as a team to be.  
 
@@ -90,8 +91,6 @@ To find the GitLab Marketing Team's OKRs, search the company Google Drive for "M
 - Graded on a scale of 0.0 to 1.0. Normal is around .8
 - [Quick overview of OKRs](http://www.slideshare.net/HenrikJanVanderPol/how-to-outperform-anyone-else-introduction-to-okr)  
 
-
-# Team OKRs   
 <figure class="video_container">
 <iframe src="https://docs.google.com/spreadsheets/d/1JpruAErYC1d_NuJjOfz98tArn8YDIwLJXrSWbt-hMyA/pubhtml?widget=true&amp;headers=false"></iframe>">
 </figure>    
