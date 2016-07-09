@@ -3,7 +3,7 @@
 
 The purpose of this document is to outline the GitLab Trial being performed with
 
-XYZ, Inc. It defines the scope, technical guidelines, sequence of events, and
+<Your Company> It defines the scope, technical guidelines, sequence of events, and
 
 the success criteria for both XYZ, Inc. and GitLab to reference while planning
 
