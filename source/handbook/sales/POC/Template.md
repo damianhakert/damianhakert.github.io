@@ -72,7 +72,7 @@ for a Git-based solution and to justify the acquisition of GitLab by XYZ, Inc.
 
 This section summarizes the agreed upon requirements of the Trial which will be 
 
-considered a success if CSRA can successfully achieve the following goals: 
+considered a success if XYZ, Inc. can successfully achieve the following goals: 
 
 1. Integrate their LDAP into GitLab
 
@@ -89,5 +89,28 @@ considered a success if CSRA can successfully achieve the following goals:
 7. Special Use Case
 
 - [ ] Price Management 
+
+
+### TRIAL LOGISTICS
+
+In order to execute the Trial GitLab and XYZ, Inc. need to commit resources :
+
+GITLAB
+
+•	Attend weekly Trial status calls to discuss the Trial progress and discuss 
+
+any open issues.
+
+•	Provide the necessary technical resources to provide knowledge transfer and
+
+support to aid XYZ, Inc.during the Trial.
+
+•	Execute the Trial and document the results for all scenarios within the 
+
+allotted timeframe.
+
+
+
+
 
 
