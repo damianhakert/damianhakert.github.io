@@ -7,7 +7,7 @@ beginning the Trial.  This will assure that both companies understand and agree
 on expectations, time frame, and the criteria that will be used to gauge the 
 success of the Trial. 
 
-# H1 CURRENT STATE
+#H1 CURRENT STATE
 
 •	XYZ, Inc. currently uses the products of multiple vendors for Version 
 Control and Collaboration – there is no companywide standard.
