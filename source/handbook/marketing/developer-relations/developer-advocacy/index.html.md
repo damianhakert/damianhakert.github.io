@@ -3,8 +3,6 @@ layout: markdown_page
 title: "Developer Advocacy"
 ---
 
-Go to the [Marketing Handbook](/handbook/marketing)
-
 Developer Advocates act as spokespeople and liaisons between GitLab and its users. Their role is to make developers happy to use GitLab by getting customer feedback into the product.
 
 * [Code samples/snippets](#code)
@@ -179,8 +177,8 @@ Please abide by GitLab's [travel policy](/handbook/travel/) unless an exception 
 
 ## Booking Travel
 
-- Book the cheapest travel option that causes you the least amount of agony. If the cheapest flight has a 9 hour layover, it's okay to select a more expensive flight with a smaller layover. 
-- Try to arrive the day before the event begins, and try to leave the day after. 
+- Book the cheapest travel option that causes you the least amount of agony. If the cheapest flight has a 9 hour layover, it's okay to select a more expensive flight with a smaller layover.
+- Try to arrive the day before the event begins, and try to leave the day after.
 - Stay at the conference hotel if possible. Attendees tend to hang out there.
 
 ## Packing List

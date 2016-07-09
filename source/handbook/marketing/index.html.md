@@ -35,6 +35,10 @@ The GitLab Marketing team includes Demand Generation, Developer Relations, Desig
 * [Product Marketing](/handbook/marketing/product-marketing)
 * [Blog](/handbook/marketing/blog/)
 * [Social Media Guidelines](/handbook/marketing/social-media-guidelines/)
+* [Online Marketing](/handbook/marketing/demand-generation/online-marketing)
+* [Business Development](/handbook/marketing/demand-generation/business-development)
+* [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy)
+* [Technical Writing](/handbook/marketing/developer-relations/technical-writing)
 
 # GitLab Marketing Mission: GitLab for All!<a name="mission"></a>
 
@@ -50,7 +54,8 @@ Our Marketing team is split into four key functional groups. All four groups are
 
 - **Demand Generation:** [Handbook](/handbook/marketing/demand-generation), [Job Description](https://about.gitlab.com/jobs/demand-generation-manager/)  
 - **Online Marketing:** [Handbook](/handbook/marketing/demand-generation/online-marketing/), [Job Description](https://about.gitlab.com/jobs/online-marketing-manager/)
-- **Business Development:** [Handbook](/handbook/marketing/demand-generation/business-development/), [Job Description](/jobs/business-development-representative/)
+- **Business Development:** [Handbook](/handbook/marketing/demand-generation/business-development/), [Job Description](/jobs/business-development-representative/)  
+- **Field Marketing:** [Handbook](/handbook/marketing/developer-relations/field-marketing/), [Job Description](/jobs/field-marketing-manager)  
 
 ### Design
 
@@ -60,7 +65,6 @@ Our Marketing team is split into four key functional groups. All four groups are
 
 - **Technical Writing:** [Handbook](/handbook/marketing/developer-relations/technical-writing/), [Job Description](/jobs/technical-writer/)
 - **Developer Advocacy:** [Handbook](/handbook/marketing/developer-relations/developer-advocacy/), [Job Description](/jobs/developer-advocate)  
-- **Field Marketing:** [Handbook](/handbook/marketing/developer-relations/field-marketing/), [Job Description](/jobs/field-marketing-manager)
 
 ### Product Marketing
 
