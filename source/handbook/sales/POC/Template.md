@@ -88,6 +88,6 @@ considered a success if CSRA can successfully achieve the following goals:
 
 7. Special Use Case
 
-- [ ]
+- [ ] Price Management 
 
 
