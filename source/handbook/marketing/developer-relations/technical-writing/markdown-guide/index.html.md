@@ -3,7 +3,8 @@ layout: markdown_page
 title: "Markdown Guide"
 ---
 
-Technical Writing Handbook - Markdown Kramdown Style Guide for [about.GitLab.com]
+#### Welcome to the Markdown Kramdown Style Guide for [about.GitLab.com]
+{:.no_toc}
 
 ----
 
@@ -81,9 +82,9 @@ Notes:
 
 ## Paragraphs, breaks and horizontal lines
 
-Regular paragraphs are obtained by just writing text lines. If you hit enter between two lines,
+Regular paragraphs are obtained by just writing text lines. If you hit **enter** between two lines,
 both lines will be joined into a single paragraph.
-But, if you leave a blank line between them, they will split in two paragraphs.
+But, if you leave a blank line between them, they will split into two paragraphs.
 
 ### Regular paragraphs and automatic join
 
@@ -563,7 +564,7 @@ an automated process.
 As always, leave a blank line before and after the markup. Note that there are four dashes beginning
 and closing the block, which is not required, but recommendable for keeping the same standards through about.GitLab.com.
 
-The heading "On this page" can be adapted to your case, e.g., "On this tutorial", or "On this guide", etc. It's no required
+The heading "On this page" can be adapted to your case, e.g., "On this tutorial", or "On this guide", etc. It's not required
 either, but recommended.
 
 The markup `{:.no_toc}` is used every time you don't want to include a heading into the ToC. Just add
@@ -587,7 +588,7 @@ ordered lists and Kramdown will be smart enough to understand what you want:
 Tables for markdown are challenging. So, we have two possible approaches: use markdown markup whenever possible,
 but if you need pretty advanced table layouts, you are free to add them in HTML markup instead.
 
-> Markdown is not a replacement for HTML, or even close to it. ([John Gruber][daring-quote])
+> _Markdown is not a replacement for HTML, or even close to it. ([John Gruber][daring-quote])_
 {: #quote}
 
 As explained by John Gruber, the creator of markdown, it has not been created to replace HTML,
@@ -920,7 +921,7 @@ That may be lazy.
 ```md
 This is a regular paragraph.
 
-_**Note:** a note is something that needs to be mentioned but is apart from the context._
+**Note:** a note is something that needs to be mentioned but is apart from the context.
 {: .note}
 ```
 
@@ -933,7 +934,7 @@ _**Note:** a note is something that needs to be mentioned but is apart from the 
 
 This is a regular paragraph.
 
-_**Note:** a note is something that needs to be mentioned but is apart from the context._
+**Note:** a note is something that needs to be mentioned but is apart from the context.
 {: .note}
 
 </div>
@@ -1567,10 +1568,10 @@ they can render differently than the expected and can cause other issues.
         - Item 3
     {: .language-html}
 
-- Do not jump headers. Always do h1 &rarr; h2 &rarr; h3 &rarr; h4. Never h2 &rarr; h4.
-- Prefer short titles and headers. Do not punctuate them (unless they require a question mark or an exclamation).
+- Do not jump headings. Always do h1 &rarr; h2 &rarr; h3 &rarr; h4. Never h2 &rarr; h4.
+- Prefer short titles and headings. Do not punctuate them (unless they require a question mark or an exclamation).
 - Try not to punctuate list items, but if you do, be consistent and do that through all the list.
-- If you have to mention a not-clickable URL, prefer using backticks: `http://an-example.com`.
+- If you have to mention a non-clickable URL, prefer using backticks: `http://an-example.com`.
 - If you are confused about any markup that you've found in this file, you can check its [`raw` file] for reference,
 where you'll be able to see exactly how everything was written to produce the results you are seeing on this page.
 
