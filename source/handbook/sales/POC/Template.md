@@ -7,7 +7,7 @@ beginning the Trial.  This will assure that both companies understand and agree
 on expectations, time frame, and the criteria that will be used to gauge the 
 success of the Trial. 
 
-<# H1> CURRENT STATE
+# CURRENT STATE
 
 •	XYZ, Inc. currently uses the products of multiple vendors for Version 
 Control and Collaboration – there is no companywide standard.
@@ -15,14 +15,14 @@ Control and Collaboration – there is no companywide standard.
 with strict Federal security requirements – FedRamp FISMA certification
 •	XYZ, Inc. has between 500 – 600 Teams who use the current systems
 
-CHALLENGES
+# CHALLENGES
 
 •	Since multiple vendors are used, XYZ, Inc. has issues with manageability, 
 control, visibility and reporting of the different systems being used.
 •	Challenge 2
 •	Challenge 3
 
-DESIRED STATE
+# DESIRED STATE
 
 •	Standardize companywide on a Git-based Version Control System
 •	Improved Control, Visibility, Manageability and Reporting
@@ -30,7 +30,7 @@ DESIRED STATE
 •	FedRamp FISMA Compliance
 •	Better User and Group Management
 
-BUSINESS PROBLEM
+# BUSINESS PROBLEM
 
 XYZ, Inc. is looking to standardize on one Git-based solution which will be used
 companywide. Currently there are number of different solutions in place and this
