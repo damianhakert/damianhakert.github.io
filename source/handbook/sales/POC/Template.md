@@ -74,4 +74,18 @@ This section summarizes the agreed upon requirements of the Trial which will be
 
 considered a success if CSRA can successfully achieve the following goals: 
 
+1. Integrate their LDAP into GitLab
+
+2. Active/Active Configuration
+
+3. Reproduce part of their project groups structure
+
+4. Run GitLab in the Amazon GovCloud
+
+5. Speical Use Case
+
+6. Special Use Case
+
+7. Special Use Case
+
 
