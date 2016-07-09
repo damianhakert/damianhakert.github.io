@@ -19,14 +19,16 @@ success of the Trial.
 •	XYZ, Inc. currently uses the products of multiple vendors for Version
 
 Control and Collaboration – there is no companywide standard.
+
 •	As a contractor of the United States Government, XYZ, Inc. needs to comply
 
 with strict Federal security requirements – FedRamp FISMA certification
+
 •	XYZ, Inc. has between 500 – 600 Teams who use the current systems
 
 # CHALLENGES
 
-•	Since multiple vendors are used, XYZ, Inc. has issues with manageability,
+*	Since multiple vendors are used, XYZ, Inc. has issues with manageability,
 
 control, visibility and reporting of the different systems being used.
 
