@@ -1,4 +1,5 @@
 The purpose of this document is to outline the GitLab Trial being performed with
+
 XYZ, Inc. It defines the scope, technical guidelines, sequence of events, and 
 the success criteria for both XYZ, Inc. and GitLab to reference while planning 
 and executing the Trial. Since this project requires the use of resources from 
