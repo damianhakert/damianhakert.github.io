@@ -1446,17 +1446,31 @@ And yes, the `<style>` tag is _in_ this very markdown file. Believe it or not!
 
 ## Embed documents
 
-It's easy to embed Google Docs, Sheets and Slides. With your document opened,
-click **File** -> **Publish to the web**:
+It's easy to embed Google Docs, Sheets, Slides and pretty much everything that
+provides an iframe to use with. The only thing you need to do is use the
+following code inside your markdown file and replace the iframe from the document
+you want to embed:
+
+```html
+<figure class="video_container">
+<iframe IFRAME CONTENT></iframe>
+</figure>
+```
+
+### Google products
+
+For Google products, with your document opened, click **File** -> **Publish to the web**.
+For example here's how Google sheets will look like:
 
 ![Google Sheets - File - Publish to the web](/images/markdown-guide/file-publish-to-the-web.png)
 
-Choose **Embed**, check your settings, click on **Publish** and copy the `<iframe>`. Then go to your markdown file
-and wrap the iframe into a `<figure>` tag with the responsive class, as shown below.
+Choose **Embed**, check your settings, click on **Publish** and copy the `<iframe>`.
+Then go to your markdown file and wrap the iframe into a `<figure>` tag with the
+responsive class, as shown [in the beginning](#embed-documents).
 
-### Google Sheets
+#### Google Sheets
 
-Let's exemplify with this [simple spreadsheet]. Follow the steps [above](#embed-documents) to find the iframe:
+Let's exemplify with this [simple spreadsheet]. Follow the info [above](#google-products) to find the iframe:
 
 ![Google Sheets - Embed iframe](/images/markdown-guide/embed-google-sheet.png)
 
@@ -1477,7 +1491,7 @@ Copy the code below and paste to your markdown file (leave a blank line above an
 
 <br>
 
-### Google Slides
+#### Google Slides
 
 Let's exemplify with this [simple presentation]. Follow the steps [above](#embed-documents) to find the iframe:
 
@@ -1500,7 +1514,7 @@ Copy the code below and paste to your markdown file (leave a blank line above an
 
 <br>
 
-### Google Docs
+#### Google Docs
 
 Embedding Google Docs is not a recommended practice. Prefer converting your document content
 to markdown instead. If you need to embed it anyway, follow the same instructions and the same logic as
@@ -1511,6 +1525,39 @@ we presented for Google Sheets and Slides, wrapping the `<iframe>` with a `<figu
 <iframe src="https://docs.google.com/document/d/1mHhOhvvrz7xgUPyn5VWCNuKgew5MRRGZp761B9prPqs/pub?embedded=true"></iframe>
 </figure>
 ```
+
+### SlideShare
+
+To embed from SlideShare, go to the document you want to embed and hit the **Share**
+button located below the slides. Copy the code under **Embed** and place it
+inside the `figure` class.
+
+<div class="panel panel-warning">
+**Caveat**
+{: .panel-heading}
+<div class="panel-body">
+Be careful to only include the iframe content and strip anything else.
+SlideShare will also add some other information in the embed code which you
+will have to remove, otherwise the markdown page will be broken.
+</div>
+</div>
+
+For example, let's say we wanted to include the slides from [Ivan's talk on
+GitLab Pages][slideshare-ivan]. Copying the embed code and stripping everything
+else except from the iframe, would result in this:
+
+```html
+<figure class="video_container">
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/EixD8OUMBX65Jy" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+</figure>
+```
+
+#### Output:
+{: .no_toc}
+
+<figure class="video_container">
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/EixD8OUMBX65Jy" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+</figure>
 
 ----
 
@@ -1604,6 +1651,7 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [Redcarpet]: http://git.io/ld_NVQ
 [simple presentation]: https://docs.google.com/a/gitlab.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/edit?usp=sharing
 [simple spreadsheet]: https://docs.google.com/a/gitlab.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/edit?usp=sharing
+[slideshare-ivan]: http://www.slideshare.net/creatop/how-to-use-any-static-site-generator-with-gitlab-pages
 [ssg]: https://www.staticgen.com/
 [ssgs-post]: https://about.gitlab.com/2016/06/10/ssg-overview-gitlab-pages-part-2/
 [ssgs-post-raw]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/posts/2016-06-10-ssg-overview-gitlab-pages-part-2.html.md
