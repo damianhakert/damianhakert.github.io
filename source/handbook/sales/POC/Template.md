@@ -95,7 +95,8 @@ considered a success if XYZ, Inc. can successfully achieve the following goals:
 
 In order to execute the Trial GitLab and XYZ, Inc. need to commit resources :
 
-#### ----- GITLAB
+#### GITLAB
+-----------
 
 •	Attend weekly Trial status calls to discuss the Trial progress and discuss 
 
