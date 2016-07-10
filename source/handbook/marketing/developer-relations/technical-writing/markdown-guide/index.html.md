@@ -1466,7 +1466,7 @@ For example here's how Google sheets will look like:
 
 Choose **Embed**, check your settings, click on **Publish** and copy the `<iframe>`.
 Then go to your markdown file and wrap the iframe into a `<figure>` tag with the
-responsive class, as shown [in the beginning](#embed-documents).
+responsive `video_container` class, as shown [in the beginning](#embed-documents).
 
 #### Google Sheets
 
@@ -1530,32 +1530,34 @@ we presented for Google Sheets and Slides, wrapping the `<iframe>` with a `<figu
 
 To embed from SlideShare, go to the document you want to embed and hit the **Share**
 button located below the slides. Copy the code under **Embed** and place it
-inside the `figure` class.
+inside the `figure` tag.
 
-<div class="panel panel-warning">
-**Caveat**
-{: .panel-heading}
-<div class="panel-body">
-Be careful to only include the iframe content and strip anything else.
+<i class="fa fa-exclamation-triangle" aria-hidden="true" style="color: rgb(138, 109, 59)
+;"></i> Be careful to only include the iframe content and strip anything else.
 SlideShare will also add some other information in the embed code which you
 will have to remove, otherwise the markdown page will be broken.
-</div>
-</div>
+{: .alert .alert-warning}
 
 For example, let's say we wanted to include the slides from [Ivan's talk on
 GitLab Pages][slideshare-ivan]. Copying the embed code and stripping everything
 else except from the iframe, would result in this:
 
 ```html
-<figure class="video_container">
+<figure>
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/EixD8OUMBX65Jy" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 </figure>
 ```
 
+<i class="fa fa-info-circle" aria-hidden="true" style="color: rgb(49, 112, 143)
+;"></i> You can safely omit the `<figure>` tag since SlideShare's widget is
+already responsive, but we are showing this that way in order to be consistent
+with the rest of the handbook.
+{: .alert .alert-info}
+
 #### Output:
 {: .no_toc}
 
-<figure class="video_container">
+<figure>
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/EixD8OUMBX65Jy" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 </figure>
 
