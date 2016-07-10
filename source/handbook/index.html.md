@@ -324,7 +324,7 @@ step, **re-assign** the issue to that person.
 ### Random Chat and Room<a name="random-room"></a>
 
 1. The [#random](https://gitlab.slack.com/archives/random) chat channel is your go-to place to share random ideas, pictures, articles, and more. It's a great channel to check out when you need a mental break.
-1. Come hang out any time in the **random room**, an open Google Hangout video chat where anyone with a GitLab email address can come and leave as they please. The link is in the description of the `#random` chat channel; consider bookmarking it.
+1. Come hang out any time in the **random room**, an open Google Hangout video chat where anyone with a GitLab email address can come and leave as they please. The link is in the description of the `#random` chat channel; consider bookmarking it. This room is open for all and should be distinct from the [Coffee Break Calls](#coffee-break-calls), which are 1x1 conversations between teammates. 
 
 ### Scheduling meetings<a name="scheduling-meetings"></a>
 
@@ -578,7 +578,15 @@ a while? Now you can have lunch together.
 
 ### Coffee Break Calls
 
-Understanding that working remotely leads to mostly work-related conversations with fellow GitLabbers, everyone is encouraged to dedicate **a few hours a week** to having social calls with any GitLab employee - get to know who you work with, talk about everyday things and share a virtual cuppa' coffee. We want you to make friends and build relationships with the people you work with to create a more comfortable, well-rounded environment.
+Understanding that working remotely leads to mostly work-related conversations 
+with fellow GitLabbers, everyone is encouraged to dedicate **a few hours a week** 
+to having social calls with any GitLab employee - get to know who you work with, 
+talk about everyday things and share a virtual cuppa' coffee. We want you to make 
+friends and build relationships with the people you work with to create a more comfortable, 
+well-rounded environment. The Coffee Break calls are different to the 
+[Random Room](#random-room) video chat, they are meant for give you the option 
+to have 1x1 calls with specific teammates you wish to speak with and is not a 
+random, open-for-all channel but a conversation between two teammates.
 
 ## Tools and Tips<a name="tools"></a>
 
