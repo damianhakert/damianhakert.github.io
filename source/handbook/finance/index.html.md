@@ -3,7 +3,7 @@ layout: markdown_page
 title: "Finance"
 ---
 
-## Reaching Finance<a name="reach-finance"></a>
+## Communication<a name="reach-finance"></a>
 
 - [**Public Issue Tracker**](https://gitlab.com/gitlab-com/finance/issues/); please use confidential issues for topics that should only be visible to team members at GitLab.
 - [**Chat channel**](https://gitlab.slack.com/archives/finance); please use the `#finance` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.

@@ -9,6 +9,8 @@ title: "Director/VP of People Operations"
     - Keep our guidelines and materials [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) (refer to the updated handbook when emailing instead of duplicating content)
     - Our [handbook](https://about.gitlab.com/handbook/) is the single source of truth
     - Follow the [GitLab workflow](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
+    - Create expectation & value of documenting situations, responses and answers
+    - Survey all new hires after 30 and 90 days and one year to determine effectiveness of onboarding processes. Continuously improve and streamline processes.  
  - **Remote only aspects**
     - Have people feel close through initiatives
     - Structure process efficiently and without duplication

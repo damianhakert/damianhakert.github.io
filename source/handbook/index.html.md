@@ -10,13 +10,12 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 
 ## Other main pages
 
-* [Engineering]() TODO
-  * [Backend]() TODO
-  * [Support](/handbook/support)
-  * [Infrastructure](/handbook/infrastructure)
+* [Engineering](/handbook/engineering)
 * [Marketing](/handbook/marketing)
-  * [Social Media Guidelines](/handbook/social-media-guidelines)
+  * [Social Media Guidelines](/handbook/marketing/social-media-guidelines)
+  * [Blog](/handbook/marketing/blog)
 * [Sales](/handbook/sales)
+  * [Customer Success](/handbook/customer-success)
 * [Finance](/handbook/finance)
   * [Stock Options](/handbook/stock-options)
   * [Board meetings](/handbook/board-meetings)
@@ -456,7 +455,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Office space (if working from home is not practical)
     *  Work-related online courses
     *  Work-related conferences, including travel, lodging and meals. If total costs exceed $500, please submit a proposal and get permission from your manager.
-    *  Travel and lodging to get together and work on a specific project with colleagues, with a minimum of 3 team members present and 3 days of co-location. If total costs exceed $300, please submit a proposal to your manager and get permission from them and the VP of your department.
+    *  Travel and lodging to get together with colleagues and work on a specific project, with a minimum of 3 team members present and 3 days of co-location. Meals are generally not covered out of fairness to any people already on location. If total costs exceed $300, please submit a proposal to your manager and get permission from them and the VP of your department.
     *  Business travel upgrades per round-trip (i.e. not per each leg of the flight):
         * Up to the first [EUR 300](https://www.google.com/search?q=300+eur+in+usd) for an upgrade to Business Class on flights longer than 8 hours.
         * Upgrade to Economy Plus if you’re taller than 1.95m / 6’5” for flights longer than 2 hours.
@@ -645,6 +644,11 @@ If you use the archive function you normally return to your overview.
 With auto-advance you can return to the next message.
 Enable 'Auto-advance' in the labs section under settings.
 The default setting of showing the next older message is OK.
+
+### Hangouts
+
+In Chrome Hangouts tends to consume 100% of CPU due to use of the vp9 codec.
+On MacOS switching to Safari solves this since it will use h264 that is hardware accelerated.
 
 ### Hangouts on air
 

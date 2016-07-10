@@ -2,21 +2,13 @@
 layout: markdown_page
 title: "Hiring"
 ---
-## On this page:
 
-- [Vacancy Creation Process](#vacancy-creation-process)
-- [Advertising the job description](#job-advertising)
-- [Hiring Process](#hiring-process)
-   - [General points about moving applicants through the process](#general-points)
-   - [Typical process](#typical-process)
-   - [Service Engineering Hiring Process](#se-process)
-   - [Rejecting applicants](#rejecting)
-- [Screening Call](#screening-call)
-- [Interviewing](#interviewing)
-- [Interview Questions](#interview-questions)
-- [Reference calls](#reference-calls)
-- [Getting Contracts Ready, Reviewed, and Signed](#prep-contracts)
-- [Underperformance](#underperformance)
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
 
 ## Vacancy Creation Process<a name="vacancy-creation-process"></a>
 
@@ -91,30 +83,17 @@ The visibility of internal comments in Workable can be switched between hiring t
 
 ### Typical process<a name="typical-process"></a>
 
-1. Confirmation of the application: applicants automatically receive confirmation of their application, thanking them for submitting their information. This is an automated message from Workable. If the person came through another channel please add them to Workable before continuing the process. There are various ways to do this, see [Workable's documentation](https://resources.workable.com/adding-candidates).
-1. Hiring manager does a first round of rejections. Disqualified candidates should be sent a note informing them of the rejection. There are templates in Workable to assist, but messages can be tailored as appropriate: place yourself on the receiving end of the message. If more information is required to make the determination, feel free to specifically ask for it (e.g. a cover letter).
-1. [Screening call](#screening-call): in Workable, ping our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/) to do a screening call; and also move the applicant to the "screening call" stage in Workable. Depending on the outcome of the screening call, the hiring manager can either [reject an applicant](#rejecting), or move the applicant to the interview stage in Workable.
-1. Technical interview (optional): As described on the [Jobs](/jobs/) page, certain positions require [technical interviews](/jobs/#technical-interview).
-1. Multiple further interviews (see [below for sample questions](#interview-questions)). At minimum, the candidate should be interviewed by their Manager, one female GitLab team member, and a C-level executive... but this can be one and the same person.
-1. CEO interview: the CEO, as the primary culture carrier of the company, interviews all final round candidates and decides on a possible offer (but does not always discuss this with the applicant).
-1. Optional: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. At minimum two reference calls should be completed - one to a manager, the other to a colleague. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
-1. Make a verbal or written (email) offer (the CEO needs to authorize offers)
+1. **Confirmation of the application**: applicants automatically receive confirmation of their application, thanking them for submitting their information. This is an automated message from Workable. If the person came through another channel please add them to Workable before continuing the process. There are various ways to do this, see [Workable's documentation](https://resources.workable.com/adding-candidates).
+1. Hiring manager does a **first round of evaluations**. Disqualified candidates should be sent a note informing them of the [rejection](#rejecting). There are templates in Workable to assist, but messages can be tailored as appropriate: place yourself on the receiving end of the message. If more information is required to make the determination, feel free to specifically ask for it (e.g. a cover letter).
+1. [**Screening call**](#screening-call): in Workable, ping our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/) to do a screening call; and also move the applicant to the "screening call" stage in Workable. Depending on the outcome of the screening call, the hiring manager can either [reject an applicant](#rejecting), or move the applicant to the interview stage in Workable.
+1. **Technical interview (optional)**: As described on the [Jobs](/jobs/) page, certain positions require [technical interviews](/jobs/#technical-interview).
+1. **Further interviews** that would typically follow the reporting lines up to the CEO. So for instance, the technical interview would be by a co-worker, next interviews would be with the manager / team lead, executive team member, and then the CEO. See below for [sample questions](#interview-questions). The candidate should be interviewed by at least one female GitLab team member.
+1. **CEO interview**: the CEO, as the primary culture carrier of the company, interviews all final round candidates and decides on a possible offer (but does not always discuss this with the applicant).
+1. **Reference calls (optional)**: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. At minimum two reference calls should be completed - one to a manager, the other to a colleague. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
+1. Make a verbal or written (email) **offer** (the CEO needs to authorize offers)
 1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
 1. Hiring manager ensures that the contract is signed, and People Ops [starts the onboarding process](#move-to-onboarding).
-
-### Service Engineering Hiring Process<a name="se-process"></a>
-
-For the specific position of Service Engineering please follow these steps (instructions are above):
-
-1. Confirmation of application and first round of rejections
-1. Screening call done by our People Operations Coordinator
-1. If necessary, the hiring manager will conduct a technical screening email
-1. Technical Interview
-1. Team Interaction and Customer Scenario Interview
-1. Reference Calls, done by our People Operations Coordinator
-1. VP level interview
-1. CEO Interview, which may include an offer
-1. Make a verbal or written offer with CEO authorization
+1. Hiring manager considers [closing the vacancy](#closing-vacancy).
 
 ### Rejecting applicants<a name="rejecting"></a>
 
@@ -167,7 +146,7 @@ This is an effort to provide a set of guidelines to make interviewing a bit less
 1. Communication is really hard, don't expect perfect answers. Every person is different and they will express things differently, they are not listening your train of thought so they will say things differently than what you expect, work on approaching to what they are trying to say rather than demanding them to approach to you. Once you have an answer validate your assumptions by explaining to the interviewed what did you understood and allow the candidate to correct your story.
 1. Don't go checking for perfect theoretical knowledge that the interviewee can google when needed, or give a problem that took you 2 months to dominate yet you expect your interviewee to master in a 30 minutes conversation. Be fair.
 1. Aim to at the end of the interview know if you want to work with this person.
-1. Interview for soft skills, really, do it. Pick some behavioural questions to get data on what has the candidate done before and how his behaviour aligns to the company values. We are all going to be much happier if we all naturally agree on how things should be.
+1. Interview for soft skills, really, do it. Pick some behavioral questions to get data on what has the candidate done before and how his behavior aligns to the company values. We are all going to be much happier if we all naturally agree on how things should be.
 1. Consider having more people interviewing with you, different people see and value different things. More data helps making better decisions and ends up being a better use of interviewing time for both the candidate and the company.
 1. Always let the interviewee ask questions at the end, and be frank in your answers.
 
@@ -179,7 +158,7 @@ This is an effort to provide a set of guidelines to make interviewing a bit less
 
 ### Behavioral questions (STAR)
 
-The goal of these questions is to get the candidate to share something they did in the past. Previous behaviour is considered the best way to predict how a person is going to act in the future.
+The goal of these questions is to get the candidate to share something they did in the past. Previous behavior is considered the best way to predict how a person is going to act in the future.
 
 They usually start with the form "Can you tell me about a time when...". The kind of answer that we are looking for is to get a story that is structured following the Situation, Task, Action, Result.
 
@@ -199,7 +178,7 @@ These questions can be quite unbalancing and can increase the stress during the 
 
 It can also happen that the candidate does not have a story to share with you, that is OK. It's just another data point that should be added to the feedback (I failed to get data on ...), just move to the next question, just be sure to have a few questions as a backup.
 
-These questions should be aligned with our company values. What we are looking for is understanding how this candidate behaves, and if this behaviour matches the one we look for in our company values.
+These questions should be aligned with our company values. What we are looking for is understanding how this candidate behaves, and if this behavior matches the one we look for in our company values.
 
 Once you have your notes, tell the candidate what you understood, repeat the story, and let them correct you as needed.
 
@@ -285,6 +264,13 @@ Note for People Operations:<br>
 - the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
 [Contracts page](https://about.gitlab.com/handbook/contracts).
 - Onboarding info for the PeopleOps system, BambooHR, can be found on the [PeopleOps](/handbook/people-operations) page.
+
+## Closing a vacancy <a name="closing-vacancy"></a>
+
+To close a vacancy:
+
+1. Ask a Workable admin (People Ops) to close the position in Workable. People Ops: consider archiving the job posting to reduce number of positions GitLab is charged for by Workable.
+1. Create a MR, in which you remove the application URL for Workable, and set the listing flag in the `jobs.yml` file to `open: false`. See ["vacancy creation process"](#vacancy-creation-process) for reference).
 
 ## Underperformance <a name="underperformance"></a>
 

@@ -3,6 +3,11 @@ layout: markdown_page
 title: Product
 ---
 
+## Communication<a name="reach-productteam"></a>
+
+- [**Public Issue Tracker (for GitLab CE)**](https://gitlab.com/gitlab-org/gitlab-ce) and **for [GitLab EE**](https://gitlab.com/gitlab-org/gitlab-ee); please use confidential issues for topics that should only be visible to team members at GitLab.
+- [**Chat channel**](https://gitlab.slack.com/archives/product); please use the `#product` chat channels for questions that don't seem appropriate to use the issue tracker or more generic chat channels for.
+
 # Product at GitLab
 
 GitLab is designed and developed in a unique way.

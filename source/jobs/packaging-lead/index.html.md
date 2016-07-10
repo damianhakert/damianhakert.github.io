@@ -3,7 +3,8 @@ layout: job_page
 title: "Packaging Lead"
 ---
 
-The Packaging Lead reports to the VP of Engineering.
+The Packaging Lead reports to the VP of Engineering, and Packaging specialists
+report to the Packaging Lead.
 
 ## Responsibilities
 

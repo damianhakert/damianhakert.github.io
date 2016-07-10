@@ -6,7 +6,7 @@ title: "Production Engineer"
 A production engineer is a developer with deep knowledge of some parts of the stack, either it
 is networking, or the linux kernel, or even an specific interesting in scaling and algorithms.
 
-It could also be seen as a systems engineer who aims to code himself out of a job by automating
+It could also be seen as any systems engineer who aims to code themselves out of a job by automating
 all the things.
 
 ## Responsibilities
@@ -31,7 +31,7 @@ customer incidents.
 ## Requirements for Applicants
 
 * Linux depth of knowledge (we use Ubuntu Server)
-* Database scaling depht of knowledge (we use PostgreSQL and Redis)
+* Database scaling depth of knowledge (we use PostgreSQL and Redis)
 * Chef experience (optional if you are awesome on something else)
 * Ruby scripting experience (our preferred language for operations scripts)
 * Programming expertise (Ruby and Ruby on Rails preferred; for GitLab debugging)

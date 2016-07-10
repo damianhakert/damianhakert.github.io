@@ -3,9 +3,7 @@ layout: markdown_page
 title: "Field Marketing"
 ---
 
-## Welcome to the Field Writing Handbook!
-
-[Up one level to the Developer Relations Handbook](/handbook/marketing/developer-relations/)
+## Welcome to the Field Marketing Handbook!
 
 ## On this page
 * [Events overview](#events)
@@ -93,7 +91,7 @@ Field marketing includes event marketing and swag production.
 
 ## Booth Set Up<a name="setup"></a>
 
-- To Bring: 
+- To Bring:
     - Generic business cards
     - [Lego business card holder] (https://gitlab.com/gitlab-com/marketing/issues/306#note_12536262)
     - Stickers + any other swag
