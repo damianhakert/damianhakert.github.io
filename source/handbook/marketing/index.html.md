@@ -620,7 +620,7 @@ We use Slack internally as a communication tool. The marketing channels are as f
 [Technical Writing]: /handbook/marketing/developer-relations/technical-writing/
 [Markdown Guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
 [Developer Advocacy]: /handbook/marketing/developer-relations/developer-advocacy/
-[Field Marketing]: /handbook/marketing/developer-relations/field-marketing/
+[Field Marketing]: /handbook/marketing/demand-generation/field-marketing/
 [Product Marketing]: /handbook/marketing/product-marketing
 [Partner Marketing]: /handbook/marketing/product-marketing/partner-marketing/
 [Content Marketing]: /handbook/marketing/product-marketing/content-marketing/
