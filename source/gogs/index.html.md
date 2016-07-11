@@ -11,9 +11,9 @@ extra_css:
 ## Index
 
 - [What is Gogs?](#what-is-gogs?)
-- [Features Shared with Gogs & GitLab](#features-shared-with-gogs-&-gitLab)
-- [GitLab Features Currently Not Available On Gogs](#gitlab-features-currently-not-available-on-gogs)
-- [Gogs Features Not Available in GitLab](#gogs-features-not-vailable-in-gitLab)
+- [GitLab's Support of Gogs](#gitlab's-support-of-gogs)
+- [Features Shared with Gogs & GitLab](#features-shared-with-gogs-&-gitlab)
+- [Feature Overview](#feature-overview)
 
 ## What is Gogs?
 
@@ -36,7 +36,7 @@ Both tools share the following features and capabilities:
 - Webhooks
 
 ## Feature Overview
-Gogs has a few main advantages as a light-weight Git Service, prominant of which are its **low CPU consumption** and **low memory consumption**. 
+Gogs has a few main advantages as a light-weight Git Service, prominent of which are its **low CPU consumption** and **low memory consumption**. 
 It also offers Git hooks. This makes Gogs most suitable for those looking for a Git service that is strong on low system resources yet still 
 providing the core functionality you would expect from a light-weight Git service. Gogs is a great Git service for the smallers teams with lower 
 resouces at hand and a low number of devs collaborating together.
