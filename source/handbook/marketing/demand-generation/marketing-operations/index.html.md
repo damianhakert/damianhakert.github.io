@@ -13,6 +13,7 @@ Welcome to the Marketing Operations Handbook.
 ## Tools We Use<a name="toolsWeUse"></a>
 
 Our current marketing tech stack consists of the following tools:
+
 * Marketo
     * Marketing Automation tool used to communicate and manage customers and prospects
 * Google Analytics
