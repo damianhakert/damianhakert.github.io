@@ -43,6 +43,8 @@ Our Marketing team is split into four key functional groups. All four groups are
 
 ### Demand generation
 
+The demand team is organized into [5 functional areas](https://docs.google.com/presentation/d/1yTly27oKyz1OW8L8L6jDv_3waxtgGNvfItDxBWCB9XU/edit?usp=sharing).
+
 - **Demand Generation:** [Handbook](/handbook/marketing/demand-generation), [Job Description](https://about.gitlab.com/jobs/demand-generation-manager/)  
 - **Inbound Marketing:** [Handbook](/handbook/marketing/demand-generation/online-marketing/), [Job Description](https://about.gitlab.com/jobs/online-marketing-manager/)
 - **Business Development:** [Handbook](/handbook/marketing/demand-generation/business-development/), [Job Description](/jobs/business-development-representative/)
