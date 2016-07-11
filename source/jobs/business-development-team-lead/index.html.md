@@ -21,6 +21,8 @@ You have experience in sales or business development helping people get started 
 * Work with the Sales Team to ensure relationships with key accounts are developed and strengthened.
 * Identify and define key sales metrics, measure sales process, and create goals that drive growth
 * Document all processes in the handbook and update as needed.
+* Leading and coordinating business development representatives team.
+* Providing input to Chief Marketing Officer regarding business development representatives team practices. 
 
 ## Requirements
 
