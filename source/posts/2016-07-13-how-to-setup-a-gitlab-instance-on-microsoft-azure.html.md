@@ -1,7 +1,6 @@
 ---
 title: "How to Setup a GitLab Instance on Microsoft Azure"
 author: Dave Wentzel
-date: 2016-06-15
 author_twitter:
 categories: tutorial
 image_title: '/images/blogimages/gitlab-azure/gitlab-on-azure-cover.jpg'
@@ -248,7 +247,7 @@ sudo apt-get update && sudo apt-get install gitlab-ce
 
 Once it completes you should have an up-to-date GitLab instance!
 
-![GitLab up to date](/images/blogimages/gitlab-azure/gitlab-up-to-date.png)
+![GitLab up to date](/images/blogimages/gitlab-azure/gitlab-ce-up-to-date.png)
 
 ## Conclusion
 
