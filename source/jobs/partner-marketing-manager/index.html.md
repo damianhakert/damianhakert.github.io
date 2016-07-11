@@ -3,7 +3,7 @@ layout: job_page
 title: "Product Marketing Manager"
 ---
 
-Are you a passionate, strategic marketer with impressive management skills who has 
+Are you a passionate marketer with impressive management skills who has 
 mastered the art of building relationships and executing on exciting new projects? 
 GitLab is looking for an awesome Product Marketing Manager to design, develop, 
 and execute GitLab’s partner and channel marketing programs, including go-to-market 
@@ -30,4 +30,8 @@ and channel partners.
 * Strong communication skills without a fear of over communication. This role will require effective collaboration and coordination across internal and external contributors 
 * Extremely detail-oriented and organized, able to manage multiple projects to meet deadlines
 * You share our [values](/handbook/#values), and work in accordance with those values
-* BONUS: A passion and strong understanding of the industry and our mission, developer/software marketing, and SaaS/Cloud exposure
+* BONUS: A passion and strong understanding of the industry and our mission
+
+Avoid the [confidence gap](http://www.theatlantic.com/magazine/archive/2014/05/the-confidence-gap/359815/); you do not have to match all the listed requirements exactly to apply.
+
+Work remotely from anywhere in the world. Curious to see what that looks like? Check out our [remote manifesto](https://about.gitlab.com/2015/04/08/the-remote-manifesto/).
