@@ -179,7 +179,7 @@ What is Online Marketing (to be included).
 <div class="modal-body">
 <!-- EDIT FROM HERE ON LIKE NORMAL MARKDOWN -->
 
-Short description: what does Design does for GitLab (to be included).
+Short description: what does Design does for GitLab (to be included). 
 
 [Job Description](/jobs/designer/){:.btn .btn-purple-inv}
 [Handbook][Design]{:.btn .btn-purple}
