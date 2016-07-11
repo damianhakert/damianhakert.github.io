@@ -66,6 +66,7 @@
 .featured-item {
   display: flex;
   flex-direction: column;
+  align-items: stretch;
   height: 100%;
   padding: 0;
 
@@ -79,7 +80,7 @@
   }
 
   .featured-item-body {
-    height: 100%;
+    flex: 1 1 auto;
   }
 }
 
