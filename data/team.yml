@@ -1311,16 +1311,23 @@
           Joining July 11th
 
 
-- name: A.S.
-  locality:
-  country:
+- name: Ahmad Sherif
+  locality: Cairo
+  country: Egypt
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
   reports_to: Senior Production Engineer and Infrastructure lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: ahmad.jpg
+  twitter: ahmadsherif
+  gitlab: ahmadsherif
+  maintains: |
+             <li>Performance specialist</li>
   story:  |
-          Joining July 11th
+          Ahmad has been passionate about web development since he laid his eyes
+          on web forums back in 2003, hasn't stopped coding ever since. He's interested
+          in diving deep down the technology stack, figuring out how everything works
+          and how to make it work better. He contributes to the Rubinius project
+          on some occasions, and when he's not working, he can be fiddling around
+          with 3D modelling or learning new languages.
 
 - name: A.S.
   locality:
