@@ -7,8 +7,7 @@ title: "Demand Generation Manager"
 
 * Own the marketing funnel for our GitLab on-premises offerings (GitLab CE and GitLab EE). 
 From top of the funnel to our already existing customers, your role is to increase conversion and volume.
-* Manage and build the Business Development Representatives team. 
-* Engage with the Chief Marketing Officer and Director of Demand Generation to build the marketing team in accordance with the values of GitLab. 
+* Engage with the Director of Demand Generation to build the marketing team in accordance with the values of GitLab. 
 * Implement creative and effective ideas for bringing new leads into the funnel through online campaigns, channel marketing, 
 technical webcasts, non-spammy email campaigns, etc.
 * Create a better experience online so that it is easy for our enterprise customers to upgrade from GitLab CE to EE easily.
