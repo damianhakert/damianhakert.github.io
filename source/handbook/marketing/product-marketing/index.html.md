@@ -4,7 +4,7 @@ title: "Product Marketing"
 ---
 # Welcome to the Product Marketing Handbook  
 
-The Product Marketing organization includes traditional Product Marketing, Content Marketing, and Partner/Channel Product Marketing.
+The Product Marketing organization includes Product Marketing, Content Marketing, and Partner/Channel Product Marketing.
 
 [Up one level to the Marketing Handbook](/handbook/marketing/)
 
@@ -22,7 +22,7 @@ The Product Marketing organization includes traditional Product Marketing, Conte
 
 ## Key Responsibilities<a name="responsibilities"></a>
 
-At the highest level, the goal of product marketing is to communicate the value of your product
+At the highest level, the goal of product marketing is to communicate the value of our product
 or services to our target audience.
 
 Product marketing has three primary responsibilities.
@@ -108,14 +108,14 @@ GLU sales and product training is a weekly meeting open to all GitLab employees 
 #### **Topics**:
 
 - New releases (selected within the release management process)
-- Existing features or experiences, at request of GitLab team members 
+- Existing features or experiences, at the request of GitLab team members 
 - Customer stories and sales process review
 - Industry and competitive research 
 
 #### **Requesting a new topic**:
  - Create an issue in the [GLU project](https://gitlab.com/gitlab-org/University)
  - Clarify questions you would like answered 
- - Offer any examples when the topic has come up to provide additional context
+ - Offer any examples on when the topic has come up to provide additional context
  - Assign to Amara to organize and schedule
 
 #### **GLU presentations should follow this rough structure**:
