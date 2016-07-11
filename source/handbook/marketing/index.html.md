@@ -27,6 +27,7 @@ The GitLab Marketing team includes four functional groups: Demand Generation, De
    - [Business Development]
    - [Field Marketing]
    - [Online Marketing]
+   - [Marketing Operations]
 - [Design]
 - [Developer Relations]
    - [Developer Advocacy]
@@ -159,6 +160,14 @@ What is Online Marketing (to be included).
 [Job Description](/jobs/online-marketing-manager/){:.btn .btn-purple-inv}
 [Handbook][Online Marketing]{:.btn .btn-purple}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Mitchell][mitchell]{:.btn .btn-orange}
+
+### Marketing Operations
+{: .no_toc}
+
+What is Marketing Operations (to be included).
+
+[Job Description](/jobs/marketing-operations-manager/){:.btn .btn-purple-inv}
+[Handbook][Marketing Operations]{:.btn .btn-purple}
 
 <!-- DON'T EDIT THIS PART BELOW UNLESS YOU KNOW WHAT YOU'RE DOING :) -->
 </div>
