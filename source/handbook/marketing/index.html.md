@@ -26,8 +26,8 @@ The GitLab Marketing team includes four functional groups: Demand Generation, De
 - [Demand Generation]
    - [Business Development]
    - [Field Marketing]
-   - [Online Marketing]
    - [Marketing Operations]
+   - [Online Marketing]
 - [Design]
 - [Developer Relations]
    - [Developer Advocacy]
@@ -152,6 +152,14 @@ What is Field Marketing (to be included).
 [Handbook][Field Marketing]{:.btn .btn-purple}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Emily][emily]{:.btn .btn-orange}
 
+### Marketing Operations
+{: .no_toc}
+
+What is Marketing Operations (to be included).
+
+[Job Description](/jobs/marketing-operations-manager/){:.btn .btn-purple-inv}
+[Handbook][Marketing Operations]{:.btn .btn-purple}
+
 ### Online Marketing
 {: .no_toc}
 
@@ -160,14 +168,6 @@ What is Online Marketing (to be included).
 [Job Description](/jobs/online-marketing-manager/){:.btn .btn-purple-inv}
 [Handbook][Online Marketing]{:.btn .btn-purple}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Mitchell][mitchell]{:.btn .btn-orange}
-
-### Marketing Operations
-{: .no_toc}
-
-What is Marketing Operations (to be included).
-
-[Job Description](/jobs/marketing-operations-manager/){:.btn .btn-purple-inv}
-[Handbook][Marketing Operations]{:.btn .btn-purple}
 
 <!-- DON'T EDIT THIS PART BELOW UNLESS YOU KNOW WHAT YOU'RE DOING :) -->
 </div>
@@ -621,20 +621,21 @@ We use Slack internally as a communication tool. The marketing channels are as f
 
 <!-- HANDBOOKS -->
 
-[Demand Generation]: /handbook/marketing/demand-generation
-[Online Marketing]: /handbook/marketing/demand-generation/online-marketing/
-[Business Development]: /handbook/marketing/demand-generation/business-development/
-[Design]: /handbook/marketing/design/
-[Developer Relations]: /handbook/marketing/developer-relations
-[Technical Writing]: /handbook/marketing/developer-relations/technical-writing/
-[Markdown Guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
-[Developer Advocacy]: /handbook/marketing/developer-relations/developer-advocacy/
-[Field Marketing]: /handbook/marketing/demand-generation/field-marketing/
-[Product Marketing]: /handbook/marketing/product-marketing
-[Partner Marketing]: /handbook/marketing/product-marketing/partner-marketing/
-[Content Marketing]: /handbook/marketing/product-marketing/content-marketing/
 [Blog]: /handbook/marketing/blog/
+[Business Development]: /handbook/marketing/demand-generation/business-development/
+[Content Marketing]: /handbook/marketing/product-marketing/content-marketing/
+[Demand Generation]: /handbook/marketing/demand-generation
+[Developer Advocacy]: /handbook/marketing/developer-relations/developer-advocacy/
+[Developer Relations]: /handbook/marketing/developer-relations
+[Design]: /handbook/marketing/design/
+[Field Marketing]: /handbook/marketing/demand-generation/field-marketing/
+[Markdown Guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
+[Marketing Operations]: /handbook/marketing/demand-generation/marketing-operations/
+[Online Marketing]: /handbook/marketing/demand-generation/online-marketing/
+[Partner Marketing]: /handbook/marketing/product-marketing/partner-marketing/
+[Product Marketing]: /handbook/marketing/product-marketing
 [Social Media Guidelines]: /handbook/marketing/social-media-guidelines/
+[Technical Writing]: /handbook/marketing/developer-relations/technical-writing/
 
 <!-- Marketing Team: GitLab.com Handle -->
 
