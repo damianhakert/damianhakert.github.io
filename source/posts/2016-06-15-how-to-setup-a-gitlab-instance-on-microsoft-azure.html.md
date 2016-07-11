@@ -44,7 +44,7 @@ open source software like Ubuntu, Red Hat Enterprise Linux, and GitLab.
 You can now spin up a pre-configured GitLab VM in just a few clicks.
 Let's get started.
 
-## Getting Started
+## Getting started
 
 First you need an account on Azure. There are three ways to do this:
 
@@ -71,129 +71,184 @@ websites, and perform lots of other cloud tasks. Today we want to try
 GitLab which is part of the [Azure Marketplace][marketplace]. The
 Marketplace is an online store for pre-configured applications and
 services optimized for the cloud by software vendors like GitLab. Click
-on the "+ New" icon and in the search box type "GitLab":
+on the **+ New** icon and in the search box type "GitLab":
 
 ![Search for GitLab on Azure Marketplace](/images/blogimages/gitlab-azure/azure-dashboard-search-gitlab.png)
+
+## Create new VM
 
 Azure Marketplace offerings are always changing but let's click "**GitLab
 Community Edition**". [GitLab CE][ce] is freely available under the MIT Expat
 License. A new "blade" window will pop-out, where you can read about the
-offering. Click "**Create**" and you will be presented with the "Create VM"
-blade. From here we enter some basic setup information for the
-underlying Ubuntu VM. On the screenshot I called my host "GitLab-CE" and I
-chose Password authentication to keep things simple. A "Resource group"
-is a way to group related resources together for easier administration.
-Mine is "GitLab-CE-Azure", but your resource group can have the same name as your VM:
+offering.
 
-![GitLab on Azure - Basic settings](/images/blogimages/gitlab-azure/basic-settings.png)
+![Search for GitLab on Azure Marketplace](/images/blogimages/gitlab-azure/azure-dashboard-select-gitlab.png)
+
+Click "**Create**" and you will be presented with the "Create virtual machine"
+blade.
+
+### Basics
+
+The first thing we need to configure are the basic settings of the underlying
+Ubuntu 14.04.4 VM. On the screenshot below, I set the hostname to "GitLab-CE" and I
+chose Password authentication to keep things simple. This is the password that we will use later to SSH into the VM, so make sure it's a strong password/passphrase.
+Alternatively you can choose to paste your SSH public key so that you don't type
+your password every time. A "Resource group" is a way to group related resources
+together for easier administration. I named mine "GitLab-CE-Azure", but your
+resource group can have the same name as your VM. Click OK when ready.
+
+![GitLab on Azure - Basic settings](/images/blogimages/gitlab-azure/azure-create-vm-basics.png)
+
+### Size
 
 The next screen reviews the Pricing Tiers, which are the VM sizes. I
 chose a "**D1 Standard**" VM, which meets the minimum system requirements to
-run a small GitLab environment:
+run a small GitLab environment. When ready click 'Select'.
 
-![Choose a VM size for GitLab on Azure](/images/blogimages/gitlab-azure/gitlab-ce-azure-plans.png)
+<i class="fa fa-info-circle" aria-hidden="true" style="color: rgb(49, 112, 143);"></i>
+By default, only the recommended tiers are shown. To choose a larger one click
+on 'View all'.
+{: .alert .alert-info}
 
-On the settings blade you can change your Network settings, Storage
-Account, and Availability Set settings. Just review and take the
-defaults which are sufficient for test-driving GitLab.
+![Choose a VM size for GitLab on Azure](/images/blogimages/gitlab-azure/azure-create-vm-size.png)
 
-After you've reviewed all of your settings click "**Create**". At this point
-Azure takes over and begins deploying your GitLab Ubuntu VM. The
-deployment process takes a few minutes:
+### Settings
 
-![Azure deploying GitLab](/images/blogimages/gitlab-azure/gitlab-ce-azure-deploying.png)
+On the next blade, you are called to configure the Storage, Network and
+Availability settings. Just review them and take the defaults which are sufficient
+for test-driving GitLab. Hit OK when done.
 
-Your GitLab environment is ready when you see a dashboard entry like
-this:
+![Configure various settings](/images/blogimages/gitlab-azure/azure-create-vm-settings.png)
 
-![GitLab on Azure - deployment successful](/images/blogimages/gitlab-azure/deployment_succeeded.png)
+### Summary
 
-Click it and you'll see the management blade for your new VM:
+On the summary page you will have the chance to review your choices so far. If
+you change your mind about something, you can go back to the previous steps and
+amend your choice. Hit OK when ready.
 
-![Manage your GitLab VM on Azure](/images/blogimages/gitlab-azure/gitlab-ce-on-azure.png)
+![Azure create VM - Summary](/images/blogimages/gitlab-azure/azure-create-vm-summary.png)
 
-You can manage your VM from this blade. You need to know your Public IP
-address to connect to your instance. If you click the link you can also
-set a friendly DNS name for your instance:
+### Buy
 
-![Setting up a DNS name label for your IP](/images/blogimages/gitlab-azure/DNS-name-azure-gitlab-ce.png)
+This is the last step and you are presented with the price/hour your new VM
+will cost. You can see that we are billed only for the VM at this page, GitLab
+CE is a separate tile which is free to use. Go on and click **Purchase** for
+the deployment to begin.
+
+![Azure create VM - Summary](/images/blogimages/gitlab-azure/azure-create-vm-buy.png)
+
+### Deployment page
+
+At this point, Azure takes over and begins deploying your GitLab Ubuntu VM. You
+can scroll down to see the deployment process which takes a few minutes.
+
+![Azure deploying GitLab](/images/blogimages/gitlab-azure/azure-deploy-vm.png)
+
+When GitLab environment is ready, you will see the management blade for your
+new VM. This is basically your VM dashboard where you can configure many things
+like the DNS name of your instance.
+
+![GitLab VM settings](/images/blogimages/gitlab-azure/azure-deploy-gitlab-settings.png)
+
+### Set up a domain name
+
+The public IP address that the VM uses is shown in the 'Essentials' blade. Click
+on it and select **Configuration** under the 'General' tab. Enter a friendly
+DNS name for your instance in the DNS name label field.
+
+![Setting up a DNS name label for your IP](/images/blogimages/gitlab-azure/azure-gitlab-dns.png)
 
 In the screenshot above I have set my DNS name to
-"gitlab-ce.xxxx.cloudapp.azure.com" (click the link to determine your
-exact DNS name with suffix).
+`gitlab-ce-test.xxx.cloudapp.azure.com`. Hit **Save** for the changes to take
+effect.
 
+<i class="fa fa-info-circle" aria-hidden="true" style="color: rgb(49, 112, 143);"></i>
 If you want to use your own domain name, add a DNS `A` record into your
 domain registrar pointing to the IP address displayed given by Azure.
-It should work out of the blue, just type into your web browser
-"yourdomain.com" and it should redirect you to your new GitLab instance.
-You don't need to set it up in your Azure UI.
+{: .alert .alert-info}
 
 ## Connecting to GitLab
 
-Navigate to your GitLab instance in a new browser window. You will be
-presented with the first GitLab screen:
+Use the IP address or the domain name you set up from the previous step to
+visit GitLab on your browser.
+
+The first time you hit the URL, you will be asked to set up a new password
+for the administrator user that GitLab has created for you.
 
 ![GitLab first screen - choose password for admin user](/images/blogimages/gitlab-azure/gitlab-ce-first-access.png)
 
-Now you need to create a password for the GitLab administrator account. We were
-able to set the Ubuntu user name during setup but the GitLab account
-uses a default username/password, which is "root" for the administrator
-user and the password was setup on the previous screen:
+Once you change the password you will be redirected to login. Use `root` as the
+username and the password you configured just before.
 
-![GitLab - log into your root account](/images/blogimages/gitlab-azure/sign_in.png)  
+![GitLab first screen - login admin user](/images/blogimages/gitlab-azure/gitlab-ce-first-login.png)
 
-At this point you have a working GitLab VM running on Azure.
+At this point you have a working GitLab VM running on Azure. Congratulations!
 
-## Creating Your First Project
+## Creating your first GitLab project
 
-You can skip this section if you are familiar with git and GitLab.
-Otherwise, let's create our first repository. From the Welcome page
-let's click "**New Project**":
+You can skip this section if you are familiar with Git and GitLab.
+Otherwise, let's create our first project. From the Welcome page click
+**New Project**.
 
-![Welcome to GitLab](/images/blogimages/gitlab-azure/welcome-to-gitlab.png)
+![Welcome to GitLab](/images/blogimages/gitlab-azure/gitlab-ce-welcome.png)
 
 I'm going to make this a private project called "demo":
 
-![GitLab - create new project](/images/blogimages/gitlab-azure/new-project.png)
+![GitLab - create new project](/images/blogimages/gitlab-azure/gitlab-ce-create-project.png)
 
-It only takes a few seconds to create the repository and the next screen
+It only takes a few moments to create the project and the next screen
 will show you the commands to begin working with your new repository
 locally.
 
-![GitLab - project git config](/images/blogimages/gitlab-azure/gitlab-new-project.png)
+![GitLab - project git config](/images/blogimages/gitlab-azure/gitlab-ce-new-project.png)
 
 Following these instructions you should be able to push and pull from
 your new GitLab repository.
 
 That's it! You have a working GitLab environment!
 
-## Maintaining Your GitLab Instance
+## Maintaining your GitLab instance
 
-GitLab administration is beyond the scope of this article but it is
-important to keep your GitLab environment up-to-date. The GitLab team is
-constantly making enhancements to the product and occasionally you may
-need to upgrade for security reasons. Let's review how to upgrade
-GitLab. When you click on the "Admin Area" wrench GitLab will tell you
-whether there are updates available.
+It's important to keep your GitLab environment up-to-date and since the GitLab
+team is constantly making enhancements to the product, occasionally you may
+need to upgrade for security reasons.
 
-![GitLab - update asap](/images/blogimages/gitlab-azure/update-asap.png)
+Let's review how to upgrade GitLab. When you click on the "Admin Area" wrench,
+GitLab will tell you whether there are updates available. In the following
+screenshot we are told to update ASAP, and this is because there is a
+security fix.
+
+![GitLab - update asap](/images/blogimages/gitlab-azure/gitlab-ce-update-asap.png)
 
 On the screenshot we can see the current Azure Marketplace offered GitLab CE
-version 8.6.5, and there is an update available. To update you need to connect to
-your ubuntu server using PuTTY or an equivalent SSH tool. Remember to log
-in with the SSH password you specified when you created your Azure VM.
-At the prompt simply type:
+version 8.6.5, and there is an update available. To update you need to connect
+to your Ubuntu server using [PuTTY] or an equivalent SSH tool. Remember to log
+in with the username and password you specified [when you created](#basics)
+your Azure VM.
+
+In your terminal type in the following to connect to your VM:
+
+```bash
+ssh user@gitlab-ce-test.westeurope.cloudapp.azure.com
+```
+
+Provide your password at the prompt to authenticate.
+
+<i class="fa fa-info-circle" aria-hidden="true" style="color: rgb(49, 112, 143);"></i>
+Your domain name will differ and is the one we [set up previously](#set-up-a-domain-name).
+You can also use the public IP instead of the domain name.
+{: .alert .alert-info}
+
+Once you login, use the following command to upgrade GitLab to the latest
+version.
 
 ```bash
 sudo apt-get update && sudo apt-get install gitlab-ce
 ```
 
-![Sheel - update GitLab](/images/blogimages/gitlab-azure/image13.png)
+Once it completes you should have an up-to-date GitLab instance!
 
-Follow the prompts and note that some upgrades do take some time. Once
-it completes you should have an up-to-date GitLab instance.
-
-![GitLab up to date](/images/blogimages/gitlab-azure/image14.png)
+![GitLab up to date](/images/blogimages/gitlab-azure/gitlab-up-to-date.png)
 
 ## Conclusion
 
@@ -213,9 +268,10 @@ with Microsoft. <!-- Dave: improve at will, if you wish. -->
 
 [ce]: https://about.gitlab.com/downloads/
 [ee]: https://about.gitlab.com/pricing/
-[free-trial]: https://azure.microsoft.com/en-us/pricing/free-trial/
+[free-trial]: https://azure.microsoft.com/en-us/free/
 [msdn-benefits]: https://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/?WT.mc_id=A261C142F
 [marketplace]: https://azure.microsoft.com/en-us/marketplace/
 [Microsoft Azure]: https://azure.microsoft.com/en-us/
 [ms-open]: https://stackoverflow.com/questions/33653726/azure-file-share-backup-database-to-mounted-drive
 [portal.azure.com]: https://portal.azure.com
+[putty]: http://www.putty.org/
