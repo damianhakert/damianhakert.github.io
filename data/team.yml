@@ -741,6 +741,7 @@
   twitter: iamphill
   gitlab: iamphill
   maintains:  |
+                <li>Frontend merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
                 <li>Maintainer of <a href="https://gitlab.com/gitlab-com/www-gitlab-com">www-gitlab-com</a></li>
                 <li>Maintainer of <a href="https://gitlab.com/pages/pages.gitlab.io">pages.gitlab.io</a></li>
   story:  |
