@@ -55,8 +55,18 @@ Our Marketing team is split into four key functional groups. All four groups are
 
 ----
 
+<<<<<<< HEAD
 ## <i class="fa fa-book fa-fw purple font-awesome" aria-hidden="true"></i> Marketing Handbooks
 {: #marketing-handbooks}
+=======
+The demand team is organized into [5 functional areas](https://docs.google.com/presentation/d/1yTly27oKyz1OW8L8L6jDv_3waxtgGNvfItDxBWCB9XU/edit?usp=sharing).
+
+- **Demand Generation:** [Handbook](/handbook/marketing/demand-generation), [Job Description](https://about.gitlab.com/jobs/demand-generation-manager/)  
+- **Inbound Marketing:** [Handbook](/handbook/marketing/demand-generation/online-marketing/), [Job Description](https://about.gitlab.com/jobs/online-marketing-manager/)
+- **Business Development:** [Handbook](/handbook/marketing/demand-generation/business-development/), [Job Description](/jobs/business-development-representative/)
+- **Field Marketing:** [Handbook](/handbook/marketing/developer-relations/field-marketing/), [Job Description](/jobs/field-marketing-manager)
+- **Marketing Operations** [Handbook](/handbook/marketing/demand-generation/marketing-operations/), [Job Description](/jobs/marketing-operations-manager/)
+>>>>>>> joe-handbook-updates
 
 - [Blog]
 - [Demand Generation]
@@ -78,7 +88,12 @@ Our Marketing team is split into four key functional groups. All four groups are
 ## <i class="fa fa-gitlab fa-fw orange font-awesome" aria-hidden="true"></i> GitLab Marketing Mission
 {: #mission}
 
+<<<<<<< HEAD
 <br>
+=======
+- **Technical Writing:** [Handbook](/handbook/marketing/developer-relations/technical-writing/), [Job Description](/jobs/technical-writer/)
+- **Developer Advocacy:** [Handbook](/handbook/marketing/developer-relations/developer-advocacy/), [Job Description](/jobs/developer-advocate)  
+>>>>>>> joe-handbook-updates
 
 <div class="alert alert-purple center"><h3 class="purple"><strong>GITLAB FOR ALL</strong></h3></div>
 

@@ -1,6 +1,6 @@
 ---
 layout: job_page
-title: "Marketing Operations Specialist"
+title: "Marketing Operations Manager"
 ---
 
 You have experience in marketing, business development, or sales operations and love diving down the rabbit holes of system errors and leaky lead flows. Your job is three-fold: Keep the software and systems used by marketing running optimally (particularly Marketo and integrated Marketo tools), ensure high data quality and help colleagues access that data, and assist in analysis and reporting on marketing and sales data.
@@ -17,6 +17,7 @@ You have experience in marketing, business development, or sales operations and 
     * Enable users to import and export accurate data through training and documentation
     * Reduce duplicate records and redundant processes
 * Work with our demand generation and sales teams to become an expert on the company's lead funnel - from web visitor to customer and everything in-between.
+* Own the Marketing Technology Stack
 * Document all processes in the handbook and update as needed.
 
 ## Requirements
