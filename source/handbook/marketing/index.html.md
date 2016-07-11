@@ -14,44 +14,8 @@ The GitLab Marketing team includes four functional groups: Demand Generation, De
 ## On this page
 {: .no_toc}
 
-<<<<<<< HEAD
-* [Contact marketing](#Contact-marketing)
-* [Marketing mission](#mission)
-* [Functional groups](#groups)
-* [Marketing OKRs](#okrs)
-* [Meetings and structure](#meetings)
-* [Marketing team SLAs](#sla)
-* [Resources](#resources)
-* [Slack marketing channels](#chat)  
-* [Marketing handbook updates](#handbook)
-* [Marketing emails](#email)
-
-## Marketing Handbooks
-
-* [Blog](/handbook/marketing/blog/)  
-* [Business Development](/handbook/marketing/demand-generation/business-development)
-* [Demand Generation](/handbook/marketing/demand-generation)  
-* [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy)  
-* [Developer Relations](/handbook/marketing/developer-relations)  
-* [Design](/handbook/marketing/design/)  
-* [Online Marketing](/handbook/marketing/demand-generation/online-marketing)  
-* [Product Marketing](/handbook/marketing/product-marketing)  
-* [Social Media Guidelines](/handbook/marketing/social-media-guidelines/)  
-* [Technical Writing](/handbook/marketing/developer-relations/technical-writing)  
-
-# GitLab Marketing Mission: GitLab for All!<a name="mission"></a>
-
-We think GitLab (.com, CE, and EE) can help developers, designers, IT workers, marketers, and everyone in between improve collaboration.
-
-The GitLab marketing team is composed of a unique set of individuals from interesting backgrounds all over the world. Because of our unique skill sets, we're able to accomplish a lot of high impact campaigns through collaboration and open feedback from our team and the community.  
-
-# Marketing Team Functional Groups<a name="groups"></a>
-
-Our Marketing team is split into four key functional groups. All four groups are important for the success of GitLab.
-=======
 - TOC
 {:toc .toc-list-icons}
->>>>>>> 9d43a5d29ebdad388d0de462ef985d99dfbe5844
 
 ----
 
@@ -84,9 +48,6 @@ Our Marketing team is split into four key functional groups. All four groups are
 
 We think GitLab (.com, CE, and EE) can help developers, designers, IT workers, marketers, and everyone in between improve collaboration.
 
-<<<<<<< HEAD
-# Marketing OKRs<a name="okrs"></a>
-=======
 The GitLab marketing team is composed of a unique set of individuals from interesting backgrounds all over the world. Because of our unique skill sets, we're able to accomplish a lot of high impact campaigns through collaboration and open feedback from our team and the community.
 
 ## <i class="fa fa-user fa-fw purple font-awesome" aria-hidden="true"></i> Marketing Team Functional Groups
@@ -430,19 +391,14 @@ What is Partner Marketing (to be included)
 
 ## <i class="fa fa-clock-o fa-fw purple font-awesome" aria-hidden="true"></i> Marketing OKR Overview
 {: #okrs}
->>>>>>> 9d43a5d29ebdad388d0de462ef985d99dfbe5844
 
 Our team and the demands on marketing are growing quickly. In order to align our goals with company goals as well as prioritize what we are working on, OKRs help us to maintain structure. Of course, not everything can be captured in one Google Sheet but this helps us all to know what we consider our goals as a team to be.  
 
 Each member of the marketing team is responsible for 3 Objectives and 3 Key Results for each objective.  
 
-<<<<<<< HEAD
-- What is an OKR? Objectives and Key Results
-=======
 To find the GitLab Marketing Team's OKRs, search the company Google Drive for "Marketing OKRs - Quarterly".
 
 - What is an OKR? **Objectives and Key Results**
->>>>>>> 9d43a5d29ebdad388d0de462ef985d99dfbe5844
 - Objectives are goals
 - Key Results are measurement
 - OKRs help to prioritize and align
@@ -456,11 +412,8 @@ To find the GitLab Marketing Team's OKRs, search the company Google Drive for "M
 ## Team OKRs
 {: .no_toc}
 
-<<<<<<< HEAD
-=======
 <br>
 
->>>>>>> 9d43a5d29ebdad388d0de462ef985d99dfbe5844
 <figure class="video_container">
 <iframe src="https://docs.google.com/spreadsheets/d/1JpruAErYC1d_NuJjOfz98tArn8YDIwLJXrSWbt-hMyA/pubhtml?widget=true&amp;headers=false"></iframe>">
 </figure>
@@ -696,35 +649,35 @@ We use Slack internally as a communication tool. The marketing channels are as f
 
 <style>
 .purple {
-	color: rgb(107,79,187) !important;
+  color: rgb(107,79,187) !important;
 }
 .orange {
-	color:rgb(252,109,38) !important;
+  color:rgb(252,109,38) !important;
 }
 .font-awesome {
-	font-size: .70em;
-	vertical-align: middle;
-	padding-bottom: 5px;
+  font-size: .70em;
+  vertical-align: middle;
+  padding-bottom: 5px;
 }
 .btn-purple {
-	color: rgb(107,79,187);
-	background-color: #fff;
-	border-color: #403366;
+  color: rgb(107,79,187);
+  background-color: #fff;
+  border-color: #403366;
 }
 .btn-purple:hover {
-	color: #fff;
-	background-color: rgb(107,79,187);
-	border-color: #403366;
+  color: #fff;
+  background-color: rgb(107,79,187);
+  border-color: #403366;
 }
 .btn-purple-inv {
-	color: #fff;
-	background-color: rgb(107,79,187);
-	border-color: #403366;
+  color: #fff;
+  background-color: rgb(107,79,187);
+  border-color: #403366;
 }
 .btn-purple-inv:hover {
-	color: rgb(107,79,187);
-	background-color: #fff;
-	border-color: #403366;
+  color: rgb(107,79,187);
+  background-color: #fff;
+  border-color: #403366;
 }
 .btn-orange {
   color: rgb(252,109,38);
@@ -737,64 +690,64 @@ We use Slack internally as a communication tool. The marketing channels are as f
   border-color: rgb(226,67,41);
 }
 .product.thumbnail img {
-	display: block;
-	max-width: 50%;
-	margin: 20px auto;
+  display: block;
+  max-width: 50%;
+  margin: 20px auto;
 }
 .thumbnail img {
-	display: block;
-	max-width: 30%;
-	margin: 20px auto;
+  display: block;
+  max-width: 30%;
+  margin: 20px auto;
 }
 .caption h4 {
-	text-align: center;
+  text-align: center;
 }
 .mkt-box {
-	padding-bottom: 10px;
-	padding-top: 10px;
-	cursor: pointer;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  cursor: pointer;
 }
 .mkt-box:hover {
-	/*border-radius: 5px;*/
-	box-shadow:0 1px 5px rgba(0,0,0,0.3), 0 0 2px rgba(0,0,0,0.1) inset;
+  /*border-radius: 5px;*/
+  box-shadow:0 1px 5px rgba(0,0,0,0.3), 0 0 2px rgba(0,0,0,0.1) inset;
 }
 .mkt-row {
-	padding-top: 20px;
-	padding-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 5px;
 }
 .mkt-row a:focus {
-	outline: none;
+  outline: none;
 }
 .modal-header h2 {
-	margin-top: 0;
+  margin-top: 0;
 }
 .modal-footer p {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 .center {
-	text-align: center;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 .description {
-	color: #999;
+  color: #999;
 }
 .alert-purple {
-	color: rgb(107,79,187);
-	background-color: #fff;
-	border-color: rgba(107,79,187,.5);
+  color: rgb(107,79,187);
+  background-color: #fff;
+  border-color: rgba(107,79,187,.5);
 }
 ul.toc-list-icons,
 ul.toc-list-icons li ul {
-	list-style-type: none;
-	padding-left: 25px;
+  list-style-type: none;
+  padding-left: 25px;
 }
 ul.toc-list-icons li ul {
-	padding-left: 35px;
+  padding-left: 35px;
 }
 ul.toc-list-icons li i,
 ul.toc-list-icons li ul li i{
-	padding-right: 15px;
+  padding-right: 15px;
 }
 </style>
