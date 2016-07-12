@@ -167,89 +167,198 @@ Once this is determined, please add the Dedicated Service Engineer to the Salesf
 1. The next step is to introduce your client to their Dedicated Engineer, and if necessary, work together to schedule an on-boarding call to cover any questions, and give an overview of the support they are entitled to.
 1. You would have probably brought this up prior to the deal closing, but if the client is interested in joining the Slack support channel, please work with the Dedicated Engineer to make this happen.
 
-### Processing Orders in Recurly <a name="processing"></a>
+### Processing Orders via Zuora <a name="processing"></a>
 
-#### Credit Card orders via Recurly
-1. Order comes in via email from recurly and will always have an invoice # on it.
-1. Customer subscribes via Recurly (this happens automatically via the online credit card order form)
-1. Sales Admin to check to see if Salesforce.com record already exists (or not) by searching for the company as shown on the Recurly invoice within the search field of Salesforce.com. If an account already exists, then add an opportunity to the account. If one does not exist, create a new account, contact and opportunity for the name on the invoice.
-1. If standard subscriber: (note - you must have their gitlab.com user name to add them to the subscribers group. You must ask the customer for their user name)
-    * Add to subscribers group (to add subscribers, you need access)
-      1. Click the green button to the right “Add members”
-      1. Copy and paste the customers GitLab.com user name into the field next to People.
-      1. The customers login info will appear as a drop down which you select by clicking
-      1. Then go down to the next field next to Group Access where the default access level is Guest. Click on the field and select Developer from the options
-      1. Then click the green button immediately below “Add users to group”
-    * Send onboarding email. If basic subscriber, do not add.
-1. Generate license keys - the license key should be auto-generated.  If not, follow these steps:
-    * Go to https://license.gitlab.com
-    * Select the sign in with gitlab green button
-    * Select the New License green button
-    * Enter the Recurly subscription ID - follow these steps:
-      1. Go to Recurly login and log in
-      1. Select the Accounts tab at the top of the menu on the left
-      1. Type in the name of the account in the search bar on the right
-      1. Account will show up and select the account
-      1. In the Subscriptions pane, select the More button
-      1. Copy the portion of the URL after subscriptions/ (do not include the /). This portion is the Subscription ID
-      1. Return to https://license.gitlab.com
-      1. Paste the subscription ID (what you just copied from the URL) into the Recurly Subscription ID field (box)
-      1. Select the Make license from Recurly subscription button
-1. Task created for Account Owner to reach out to new client, thanking them for their business and asking for time to learn more about their initiatives for account development opportunities and to ensure their experience is great.
+#### Step 1 - New Account
+1. Click on the Accounts tab
+1. Click on New button to Create Account
+1. Create Account Screen – Enter all mandatory fields and click on Save – Account is created
+1. A specific custom field has been created to capture the Entity information.
+ * NL
+ * US
+1. Sales rep will choose the Entity from the Dropdown
+ 
+#### Step 2 - Contacts
+1. Create Contacts, by clicking on the new contact button
+1. Make sure to add in the address for any contacts associated with the quote (Bill To and Sold To)
+ 
+#### Step 3 -  Opportunity
+1. Create Opportunity by navigating to the Opportunity Related list and click on New button
+1. Enter all the required fields based on your business process and click on Save Button
+ 
+#### Step 4 - Zquotes – New QUOTE
+1. Click on New Quote button within the opportunity
+1. Enter all details and click on Next and select products to complete the Quote creation process
+1. All the fields marked in red are mandatory fields, below are fields description
+1. Valid Date – Date until when Quote is valid; This is auto set to 30 days from today’s date
+1. Quote Template – click on the button to select the Quote template
+1. Bill To contact  - Click on the vlookup button to enter the Bill To contact information. This will bring up a pop-up window that will list all the contact that were created during Step 2 of the process. Bill To person would be the contact to whom the bill will be sent
+1. Sold To Contact - Click on the vlookup button to enter the Sold To contact information. This will bring up a pop-up window that will list all the contact that were created during Step 2 of the process. Sold To person would be the contact to whom the product was sold
+1, Invoice Owner - 
+* This field will only be used incase of creating a Quote created for a End Customer that involves a Partner; Please see Creating a Quote for Partner Section
+1. Payment method -  refers to the type of payment the customer is using for paying this Quote/Subscription
+1. Payment Methods currently defined are as follows –
+ * Credit card
+ * ACH
+ * Check
+ * Wire transfer
+1. Currency - by default below are the fields available, the currencies can be removed/Added or hidden based on your business needs
+ * USD
+ * EUR
+1. Click Thru EULA - is used when an agreement has not been signed; A use case being a product(EE ) is sold through a partner
+1. Start Date -  Specify the date on which this subscription, or contract, is effective. This date becomes the Contract Effective Date of the subscription in Zuora.
+1. Subscription Term Type:
+ * By default set as Termed
+1. Initial Term and Renewal Term -  Specify initial term and the renewal term in months
+1. Auto Renew -  it is checked by Default; Subscription automatically renew when the initial term for a subscription is over.
+1. Special Terms and Notes - Enter any additional notes that is not specified by the above settings. 
+1. Click on Next to make the product selection
+1. Product Selector Page
+1. Click on Product Vlookup Button to make the product selection
+1. Click on Rate plan Vlookup Button to make the rate plan selection
+ * GitLab Enterprise Edition is the rate plan when selling per license seats @ $39
+1. Once the quote has been created, you can modify it, delete it, or send it from Salesforce to Z-Billing to create a subscription.
+ 
+#### Step 5 – Generate PDF
+1. Upon creation of a Quote, click Generate PDF.  The PDF will be saved as an attachment under the opportunity object.
 
-### Invoiced Clients
+#### Step 6 – Send for signature via Sertifi
+1. Within the ZQuote object, click Sertifi E-Sign button near the top of page.
+1. 1st signer will be auto-populated with the bill to contact.  You can change if needed.  
+1. Add in the 2nd signer and click add participant. Second signer is GitLab executive. Click Next
+1. You will now be asked to attach the Quote PDF.  Under the drop down for Related Notes and Attachments.  Select the quote for signature and click send for signature.
+1. Once all parties have signed, the fully executed document will be saved as an attachment.
 
-#### New Business Order
-1. Sales receives an order (one of the three options):
-    * a signed quote (the quote that we sent).
-    * an signed subscription agreement
-1. If no Subscription Agreement or signed quote accompanies PO, only send 30 day temp license and request signed Agreement be returned in that time
-1. Send invoice to customer with one of the two onboarding emails or a renewal email Forward Recurly invoice to customer as safeguard against going to spam. Also reinterate to sign up on GitLab.com and send user name.
-1. PROCESS for bank transfer renewals with PO received before renewal date:
-    * Create a one-off invoice in Recurly and send to customer:
-    * Customer account;
-    * Charges and credits area -> add charge;
-    * In the description, write the exact name of the subscription plan;
-    * Update subscription to start one year from current renewal time
-1. If standard subscriber, add to subscribers group
-1. License keys auto-generated
-1. Sales Admin to check to see if Salesforce.com record already exists (or not) by searching for the company as shown on the Recurly invoice within the search field of Salesforce.com. If an account already exists, then add an opportunity to the account. If one does not exist, create a new account, contact and opportunity for the name on the invoice.
-1. Task created for Account Owner to reach out to new client, thanking them for their business and asking for time to learn more about their initiatives for account development opportunities and to ensure their experience is great.
+#### Step 7 – Send to Z-billing
+1. Once the Quote is signed, Sales rep will click on Send to Z-billing button to send the Quote to Zuora
 
-#### Renewals
+Quote Metrics
+The following quote metrics are available:
+ * MRR (Monthly Recurring Revenue) - Monthly recurring revenue (MRR) calculates subscription recurring fees normalized to a monthly value.
+ * Delta MRR - Delta of the total MRRs between the original subscription and the amendment.
+ * TCV (Total Contract Value) - Total contract value (TCV) calculates the total recurring charges over the lifetime of a subscription.
+ * Delta TCV - Delta of the TCVs between the original subscription and the amendment.
+ * Sub-total - The quote subtotal for the specified billing periods, excluding discount charges and taxes.
+ * Discount - The sum of all discount charges for the specified billing periods.
+ * Tax - The tax calculated for the specified billing periods.
+ * Total - The quote total for the specified billing periods, including discount charges and taxes.
+·       
+Edit Quote Button
+ * You can only edit a quote before it is sent to Z-Billing. After a quote is sent to Z-Billing and its subscription is created, you can no longer edit the quote in Salesforce.
 
-PO order for additional seats when past due:
+Edit a Quote
+ * To Edit a Quote, click Edit Quote Details.
+ * On Edit Quote Details page, make the desired changes.
+ * Click Save
 
-1. Get GitLab quote signed and upload to salesforce account
-1. Get PO from customer with their internal PO number included
-1. In Recurly, click “Add Charge” add quantity, it 2 or 3 years, then add 2 or 3 in quantity then use number that includes any discounts from upfront payments
-1. Click submit, then click manual billing
-1. Add the customers PO number under “PO Number” field, and make sure the number is updated on preview to the right
-1. Click submit, then PO will go to client for them to pay in net30. If they do not, then rep will need to follow up to get payment (will see list in Aging report)
-1. Go to License Key and update for one year
+Select products Button
+ * To add, remove, or update products, rate plans, and charges for a quote sales rep can click Select Products.
+ * Make necessary changes to products, rate plans, and charges
+ * Click Save.
 
-Renewal in Advance- before renew date:
+Delete Button
+ * On the Quote Detail page, click Delete Quote Details to delete a quote that was created.
+ * A message would appear to confirm on delete on click of ok quote gets deleted
+ 
+Generate PDF Button
+ * This will allow the sales rep to Generate a quote pdf
+ * On click of Generate PDF – Quote PDF gets generated 
 
-1. Add charge for renewal amount and process
-1. Click Subscription- Manually change renewal date
-1. Double check license key is sent
+Send to Z-Billing Button
+ * On the Order Preview page that opens, review the information, and then click Submit to send the quote to Z-Billing.
+ * A confirmation popup shows up, Zuora Quotes has successfully sent your quote to the Z-Billing and a subscription was created
 
-Renewal in Advance- plus add users:
+#### Step 8 – Close Win and Opportunity
+1. Once quote is signed and attached to opportunity, via Sertifi or manually and quote has been successfully sent to z-billing, go into the opportunity and change the stage to closed won.
+1. A renewal opportunity will be automatically created for the account
 
-1. Go into account and click add charge- add total number (existing plus added seats) include details in description field.
-1. Click Subscription and manually change renewal date
-1. Click Edit Subscription, add pack with zero charge
-1. Confirm license key matches subscription
+Returning Customer Creation Process(Upgrade/Renewals/Cancellations)
+1. Create an Opportunity for an Add-on or  Renewal 
+1. Once an opportunity is created click on New Quote button within the opportunity
+1. Since this is a returning customer, sales rep would see the following screen
+1. This screen determines that this customer is already established in Zuora and will allow the sales rep to perform on the 4 actions –
 
-Adding users to current subscription as a separate department:
+New Subscription for the account
+ * Amend existing subscription for this billing account
+ * Renew existing subscription for this billing account
+ * Cancel existing subscription for this billing account
+ 
+New Subscription for the account
+1. This will allow the Sales rep to create a new subscription for the existing billing account.
+1. Clicking on Next will take the sales rep thru the same Quoting flow that was seen the new Quote creation process
 
-1. Need to make sure it’s a different division as you will need to issue a second license key
-1. Click Add Subscription on main account page
-1. Process order
-1. Makes sure you see two separate subscriptions on the main page in Recurly
-1. Make sure a second license key is sent to the contact
+Amend existing subscription for the billing account
+1. This process is used to perform any Upgrades on an existing subscription
+1. Choosing “Amend existing subscription for billing account”, will allow sales rep to perform amendment to an existing subscription.(Upgrades)
+1. Clicking on the this radio button will list all subscriptions that are tied to the customer
+1. Click to choose the subscription for performing an Amendment and hit on Next button
 
-Additional billing situations [Accounting procedures](/handbook/sales-process/accounting)
+Zuora Supporting 4 types of Amendments –
+1. Terms and Conditions amendment – The sales rep will be able to change the terms and conditions of an existing subscription;
+1. Remove product Amendment – The sales rep will be be able to perform a Remove a product Amendment;
+ * In this case, sales rep will have to Set the Start date(Contract effective date in Zuora terms) when the remove product amendment should happen
+ * Click on Next
+ * This will take them to the product selector page and displays the original product that was purchased within the subscription
+ * Sales rep can now remove the product
+1. Add product Ammendment – Sales rep can add a new product from the product selector page
+1. Update Product Amendment – Sales rep can update the existing product of the existing selected product
+ * Note: Do not change the Terms and conditions unless you are performing a terms and conditions amendment(except for start date).
+
+Let’s take an Example – Let’s say a sales rep is performing an upgrade to a customer from Basic to Standard product
+This will include 3 steps –
+1. Set the Start date
+1. Remove the basic product
+1. Add the Standard product
+ * Hit on Save
+
+Once on the Quote Summary, will click on generate PDF to generate a Quote PDF
+Send it to the customer - only if there is no record of a signed quote.
+Upon Sign-off, or existing signed quote, click on the Send to Z-billing button to send the Quote over to Zuora
+ 
+Renew existing subscription for the billing account
+1. This process is used to perform Renewal on an existing subscription; this is only created if the AUTO RENEW Flag is set to “NO” for a subscription initially.
+1. Choosing “Renew existing subscription for billing account”, will allow sales rep to perform Renewal to an existing subscription;
+1. Clicking on the this radio button will list all subscriptions that are tied to the customer
+1. Clicking on next will take the sales to the Create Renewal Quote page
+1. Sales rep will select the renewal Quote Template from the list
+1. Enter the Renewal term in months
+1. Will hit on Next
+1. Skip the product selector page, unless want to update the QTY or want to add a new product
+1. Once on the Quote Summary, will click on generate PDF to generate a Quote PDF
+1. Send it to the customer
+1. Upon Sign-off will click on the Send to Z-billing button to send the Quote over to Zuora
+ 
+Cancel existing subscription for the billing account
+1. This process is used to perform Cancellation of an existing subscription;
+1. Choosing “Cancel existing subscription for billing account”, will allow sales rep to perform cancellation to an existing subscription;
+1. Clicking on the this radio button will list all subscriptions that are tied to the customer
+1. Set the Start Date(Contract effective date) of when the customer have request for cancellation
+1. Choose a Cancellation Effective date
+1. Hit on next button
+1. Once on the Quote Summary, will click on generate PDF to generate a Quote PDF
+1. Send it to the customer
+1. Upon Sign-off will click on the Send to Z-billing button to send the Quote over to Zuora
+ 
+
+### Creating a Quote for a Partner Use-case using the Invoice Owner Functionality - 
+ * Note - We can make use of Invoice owner functionality so that subscription can be billed to the Partner and the subscription would be owned by the End Customer; 
+ * Note - if the Partner is a getting created the first time in SF, then please make sure this is also created in Zuora; And partner account(in SF and Zuora) are mapped using the CRM iD in Zuora.
+Please see screenshot below - 
+
+#### Step 1 - Check if the Partner has an Associated Billing Account
+1. Salesrep to see if the partner account is in SF and scroll down to see if there is a mapped Billing Account for the customer Account; please see below 
+ * If yes, Sales rep will then start creating the End Customer details
+1. Salesrep to create an End Customer Account in SF
+1. Creates associated Contact
+1. Creates Opportunity
+ * If no, Sales rep to create a partner Account + a Billing Account in Zuora
+
+#### Step 2 - Create a Quote for the End Customer
+1. Sales rep will create a Quote for the End Customer
+1. On creation of Quote using ZQuotes, sales rep should populate the invoice owner field (shown above)
+1. Upon clicking on the field sales rep will be listed with all Billing Accounts from Zuora. 
+1. Sales rep will select the right partner name since the partner is already established in Zuora
+1. Clicks on Next and selects the products and click on Next
 
 ### Export Control Classification, and Countries We Do Not Do Business In <a name="export-control"></a>
 
