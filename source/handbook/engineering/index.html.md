@@ -16,27 +16,31 @@ title: "Engineering"
 - [Frontend]() TODO
 - [Packaging]() TODO
 
-### Coordination Among Groups
+### Collaboration
 
-Many issues can be handled by a single person, but more complex issues may require
-a significant amount of work from different groups. For example, many features
-may require backend and frontend work. Since involving more people can
-slow down progress, we encourage the following guidelines:
+To maintain our rapid cadence of shipping a new release every month, we must
+keep the barrier low to getting things done. Since our team is distributed
+around the world and therefore working at different times, we need to work
+in parallel and asynchronously as much as possible. That means that if you
+are implementing a new feature, you should feel empowered to work on the entire
+stack if it is most efficient for you to do so. For example, if you are a
+frontend developer, you should feel free to tackle the Ruby code necessary
+to support a new feature. Likewise, a backend developer should feel empowered
+to write the necessary CoffeeScript/JavaScript to enable a new UI element.
 
-* For small issues, frontend developers are free to attempt the necessary backend work and vice versa.
-* For medium-sized issues, there should be a designated frontend and backend developer
-who work together.
-* For large issues, there should be a whole team involving UX, frontend, backend, and product.
-* Arrange a direct call with the team when starting the issue.
+We do need to maintain code quality and standards. There are a few
+guidelines for collaboration:
 
-When in doubt, feel free to ask whether the issue really needs a dedicated
-person in each group.
-
-In all cases, we encourage communicating throughout the process so that there will
-be fewer questions when a merge request is reviewed. Regardless of the size of
-the issue, a backend developer making UI changes should ping a UI/UX person
-early in the process, just as a frontend developer making backend changes should
-contact a backend person for an early review.
+1. If you are working on an issue that touches on areas outside of your expertise, be
+sure to mention someone in the other group(s) as you soon as you start working on it.
+This allows others to give you early feedback, which should save you time in the
+long run.
+2. Security: If a frontend developer needs to touch controller code, a
+backend developer should do a thorough review. An endboss should do a final review.
+3. Big features/moonshots: If we do something ambitious where there are
+no previous examples and requires a high degree of complexity in both
+frontend and backend, form a team upfront that has UX designers, frontend, and
+backend engineers.
 
 ## Resources for Engineering
 
