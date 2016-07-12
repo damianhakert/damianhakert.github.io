@@ -60,17 +60,10 @@ involve a number of items:
 3. Working across functional groups to deliver the project
 4. Proactively identifying and reducing technical debt
 5. Writing in-depth documentation that shares knowledge and radiates GitLab technical strengths
-
-## Senior Staff Developers
-
-A Staff Developer may be promoted to a Senior Staff Developer when he/she has demonstrate
-an increasing amount of depth and breadth of leadership. A Senior Staff Developer should
-demonstrate:
-
-1. The ability to create innovative solutions that push GitLab's technical abilities ahead of the curve
-2. Identifies significant projects that result in substantial cost savings or revenue
-3. Proactively defines and solves important architectural issues
-3. TODO
+6. The ability to create innovative solutions that push GitLab's technical abilities ahead of the curve
+7. Identifies significant projects that result in substantial cost savings or revenue
+8. Proactively defines and solves important architectural issues
+9. TODO
 
 ## Requirements
 
