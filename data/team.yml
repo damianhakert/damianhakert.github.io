@@ -1366,6 +1366,17 @@
   story:  |
           Joining August 1st
 
+- name: J.P
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/dir-or-vp-of-people-ops/">Senior Director of People Operations</a>
+  reports_to: CEO
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 1st
+
 - name: F.A.
   locality:
   country:
