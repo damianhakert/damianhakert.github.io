@@ -10,7 +10,7 @@ Create issue for former team member on the dev server in the [organization issue
 * [ ] Robert/Jacob V/Ernst: Disable team member in Slack.
 * [ ] Robert/Jacob V/Ernst: Dealing with the Google account
    * [ ] Robert/Jacob V/Ernst: Check with the former team member's manager if they
-   want email forwarded. If yes, then:
+   want the former team member's email forwarded to them. If yes, then:
    * [ ] Robert/Jacob V/Ernst: switch off 2FA for the account, reset the password,
    log on, and set email to forward to the manager. Also change the phone number
    and alternative email (typically personal email address) that are associated
