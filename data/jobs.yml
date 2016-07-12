@@ -55,8 +55,8 @@
 
 - title: "Director/VP of People Operations"
   description: /jobs/dir-or-vp-of-people-ops/
-  apply: https://gitlab.workable.com/jobs/234625/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "Production Engineer"
   description: /jobs/production-engineer/
