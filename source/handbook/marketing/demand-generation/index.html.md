@@ -179,7 +179,7 @@ Currently, the newsletter consists of four blocks of content. Each block of cont
 
 For example:
 
-![newsletter block example](/path/image.ext)
+![newsletter block example](https://gitlab.com/gitlab-com/www-gitlab-com/raw/update-newsletters-handbook/source/images/handbook/marketing/newsletter-example-block.png)
 
 The different content ideas are placed in the newsletter issue using the following format:
 ```
