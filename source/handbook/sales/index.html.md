@@ -177,7 +177,7 @@ Once the above has happened, please make sure the following actions are done:
 #### Step 7 – Send to Z-billing
 1. Once the Quote is signed, Sales rep will click on Send to Z-billing button to send the Quote to Zuora
 
-Quote Metrics
+##### Quote Metrics
 The following quote metrics are available:
  * MRR (Monthly Recurring Revenue) - Monthly recurring revenue (MRR) calculates subscription recurring fees normalized to a monthly value.
  * Delta MRR - Delta of the total MRRs between the original subscription and the amendment.
@@ -187,29 +187,29 @@ The following quote metrics are available:
  * Discount - The sum of all discount charges for the specified billing periods.
  * Tax - The tax calculated for the specified billing periods.
  * Total - The quote total for the specified billing periods, including discount charges and taxes.
-·       
-Edit Quote Button
+       
+##### Edit Quote Button
  * You can only edit a quote before it is sent to Z-Billing. After a quote is sent to Z-Billing and its subscription is created, you can no longer edit the quote in Salesforce.
 
-Edit a Quote
+##### Edit a Quote
  * To Edit a Quote, click Edit Quote Details.
  * On Edit Quote Details page, make the desired changes.
  * Click Save
 
-Select products Button
+##### Select products Button
  * To add, remove, or update products, rate plans, and charges for a quote sales rep can click Select Products.
  * Make necessary changes to products, rate plans, and charges
  * Click Save.
 
-Delete Button
+##### Delete Button
  * On the Quote Detail page, click Delete Quote Details to delete a quote that was created.
  * A message would appear to confirm on delete on click of ok quote gets deleted
  
-Generate PDF Button
+##### Generate PDF Button
  * This will allow the sales rep to Generate a quote pdf
  * On click of Generate PDF – Quote PDF gets generated 
 
-Send to Z-Billing Button
+#####  Send to Z-Billing Button
  * On the Order Preview page that opens, review the information, and then click Submit to send the quote to Z-Billing.
  * A confirmation popup shows up, Zuora Quotes has successfully sent your quote to the Z-Billing and a subscription was created
 
