@@ -429,6 +429,18 @@ To find the GitLab Marketing Team's OKRs, search the company Google Drive for "M
 
 <br>
 
+## Hiring Plan
+{: .no_toc}
+
+<br>
+
+<figure class="video_container">
+<iframe src="https://docs.google.com/spreadsheets/d/1Zye1AE9_ouAAiNmugD4uT03fUHC_V3rxvnZY7fa0kBE/pubhtml?widget=true&amp;headers=false"></iframe>
+</figure>
+
+<br>
+
+
 ## <i class="fa fa-users fa-fw orange font-awesome" aria-hidden="true"></i> Meetings and structure
 {: #meetings}
 
