@@ -1,8 +1,7 @@
 ---
-layout: markdown_page
+layout: job_page
 title: "Account Executive"
 ---
-
 
 ## Responsibilities
 
@@ -15,12 +14,12 @@ title: "Account Executive"
     * document the buying process
     * document next steps and owners
     * ensure pipeline accuracy based on evidence and not hope
-* Contribute to documenting improvements in our [sales process](https://about.gitlab.com/handbook/sales-process/).
+* Contribute to documenting improvements in our [sales handbook](https://about.gitlab.com/handbook/sales/).
 * Provide account leadership and direction in the pre- and post-sales process
-* Be the voice of the customer by contributing product ideas to our public [issue tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues)        
+* Be the voice of the customer by contributing product ideas to our public [issue tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues)
 
 ## Requirements
- 
+
 * A true desire to see customers benefit from the investment they make with you
 * 2+ years of experience with B2B sales
 * Interest in GitLab, and open source software
@@ -29,5 +28,4 @@ title: "Account Executive"
 * Motivated, driven and results oriented
 * Excellent negotiation, presentation and closing skills
 * Preferred experience with Git, Software Development Tools, Application Lifecycle Management
-
-Work remotely from anywhere in the world. Curious to see what that looks like? Check out our [remote manifesto]( https://about.gitlab.com/2015/04/08/the-remote-manifesto/)!
+* You share our [values](/handbook/#values), and work in accordance with those values.

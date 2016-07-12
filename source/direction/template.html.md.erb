@@ -58,7 +58,7 @@ We very much welcome contributions that implement any of these things.
 - [Realtime editing of the issue/MR description field](https://gitlab.com/gitlab-org/gitlab-ce/issues/4199)
 - [Handle incoming emails with support questions in issues](https://gitlab.com/gitlab-org/gitlab-ee/issues/149)
 - [Cherry-pick MR into any branch in the web interface](https://gitlab.com/gitlab-org/gitlab-ce/issues/12785)
-- [Allow pusing to multiple servers](https://gitlab.com/gitlab-org/gitlab-ee/issues/276)
+- [Allow pushing to multiple servers](https://gitlab.com/gitlab-org/gitlab-ee/issues/276)
 
 ### Usability
 
@@ -143,15 +143,15 @@ We very much welcome contributions that implement any of these things.
 [Our vision](#vision) is the need for an integrated set of tools for the software development lifecycle based on convention over configuration.
 To achieve this we plan to ship the following stack of tools in our Omnibus package:
 
-1. **Chat** conversation => Mattermost, [Rocket.Chat](http://rocket.chat/) if they can make it [work with PostgreSQL](https://github.com/RocketChat/Rocket.Chat/issues/533)
-1. **Issue** creation => GitLab Issues
-1. **Scrum** board to plan => [Huboard](https://huboard.com/) for which there is a [bounty](https://github.com/huboard/huboard/issues/276)
-1. **Development** => [Browser IDE](https://gitlab.com/gitlab-org/gitlab-ce/issues/12759)
-1. **Version control** => GitLab Repo
-1. **Continuous integration** => GitLab CI
-1. **Code review** => GitLab Merge Requests
-1. **Continuous Delivery** => [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) and maybe delivery with feature flags
-1. **Chatops** to check => [Hubot](https://hubot.github.com/) which has a [Merge Request](https://gitlab.com/gitlab-org/omnibus-gitlab/merge_requests/564) or [Lita](https://www.lita.io/)
+1. **Chat** conversation => [Mattermost](http://www.mattermost.org/) ships with GitLab
+1. **Issue** creation => GitLab Issues ships with GitLab
+1. **Scrum** planning board => We're planning to make an [issue board](https://gitlab.com/gitlab-org/gitlab-ce/issues/17907)
+1. **IDE** => We're planning to ship an [IDE](https://gitlab.com/gitlab-org/gitlab-ce/issues/12759)
+1. **Version control** => GitLab Repositories ships with GitLab
+1. **Continuous integration** => [GitLab CI](https://about.gitlab.com/gitlab-ci/), and [Container Registry](https://about.gitlab.com/2016/05/23/gitlab-container-registry/) ship with GitLab. We would love to add support for [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044) and have an extended [vision for CI and CD](https://about.gitlab.com/direction/cicd/).
+1. **Code review** => GitLab Merge Requests ships with GitLab
+1. **Continuous Delivery** to deploy => [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) already ships many features.
+1. **Chatops** to check => Support to install [Cog](https://operable.io/) [quickly](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1211)
 1. **Wiki** to document => GitLab Wiki
 
 ### Monitoring
@@ -188,10 +188,8 @@ Also, users might be using an existing solution they want to reuse (datadog, etc
 
 ### We would love to partner with
 
-- Scrum boards: We already support [some of them](https://about.gitlab.com/applications/#scrum-boards) but would love for [Waffle.io](https://waffle.io/), and [Zenhub.io](https://www.zenhub.io/) to support GitLab too.
-- [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044)
-- [Oracle database support (EE)](https://gitlab.com/gitlab-org/gitlab-ee/issues/96)
-- Browser IDE's to ship GitLab with them and to have button to open them from GitLab: Koding, Nitrous.io, [Cloud9](https://c9.io/blog/cloud9-template-days/), CodeAnywhere, Codio, and CodeEnvy
+- Scrum boards: We already support [some of them](https://about.gitlab.com/applications/#scrum-boards) and we're adding an [issue board](https://gitlab.com/gitlab-org/gitlab-ce/issues/17907) to GitLab. But would love for [Waffle.io](https://waffle.io/), [Huboard](https://github.com/huboard/huboard/issues/276), and [Zenhub.io](https://www.zenhub.io/) to support GitLab too. Email eliran at our company domain to get in touch.
+- Browser IDE's: We are intergrating [Koding into GitLab](https://gitlab.com/gitlab-org/gitlab-ce/issues/12759). But we would love for other browser IDE's to ship GitLab with them and to have button to open them from GitLab: Nitrous.io, [Cloud9](https://c9.io/blog/cloud9-template-days/), CodeAnywhere, Codio, and CodeEnvy. Email eliran at our company domain to get in touch.
 
 ## Vision <a name="vision"></a>
 

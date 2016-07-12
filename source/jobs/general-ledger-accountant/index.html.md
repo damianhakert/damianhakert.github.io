@@ -1,5 +1,5 @@
 ---
-layout: markdown_page
+layout: job_page
 title: "General Ledger Accountant"
 ---
 
@@ -19,6 +19,7 @@ Currently this is a **part-time** position.
 ## Requirements for Applicants
 
 - Must have experience with Netsuite
-- Proficient with excel and google sheets
+- Proficient with Excel and Google Sheets
 - International experience is a plus
 - Self-starter with the ability to work remotely and independently and interact with various teams when needed.
+- You share our [values](/handbook/#values), and work in accordance with those values.

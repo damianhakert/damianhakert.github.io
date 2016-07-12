@@ -71,7 +71,7 @@ $(function() {
   }
 
   var changeScrollPosition = function () {
-    if (window.location.hash === '') { return; }
+    if (window.location.hash === '' || window.location.hash.indexOf('#stq=') === 0) { return; }
 
     var hash = window.location.hash,
         $el = $('a[name="' + hash.replace('#', '') + '"], ' + hash + ''),
@@ -90,4 +90,27 @@ $(function() {
   $(window).on('load ' + internalNavigationEvent, function () {
     setTimeout(changeScrollPosition, 10);
   });
+
+  // Search
+  var $search = $('.js-search'),
+      $searchIcon = $('.js-search-icon');
+
+  $('.js-search-icon').on('click', function () {
+    $searchIcon.parent().addClass('is-open is-focused');
+
+    setTimeout(function () {
+      $search.focus();
+    }, 350);
+  })
+
+  $search.on('keyup', function (e) {
+    if (e.which === 13) {
+      // Trigger a search by changing hash
+      window.location.hash = '#stq=' + $(this).val()
+    }
+  }).on('focus', function () {
+    $(this).parent().addClass('is-focused');
+  }).on('blur', function () {
+    $(this).parent().removeClass('is-focused');
+  });;
 });

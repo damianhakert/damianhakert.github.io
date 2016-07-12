@@ -246,5 +246,5 @@ Disruption of service from TriNet, NetSuite, Google (gmail)
 
 **P5: Non critical system**
 
-Disruption of service from Egencia, rocket.chat.
+Disruption of service from Egencia, or internal chat tool.
    - No failover plan currently.

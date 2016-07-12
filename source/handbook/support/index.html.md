@@ -3,37 +3,30 @@ layout: markdown_page
 title: Support
 ---
 
+## Communication<a name="reach-support"></a>
+
+- [**Public Issue Tracker**](https://gitlab.com/gitlab-com/support/issues/); please use confidential issues for topics that should only be visible to team members at GitLab. NOTE: not for support requests, but for issues that relate to the support group.
+- [**Chat channel**](https://gitlab.slack.com/archives/support); please use the `#support` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
+
 ## Other support pages
 
+- [Support Issue Tracker](https://gitlab.com/gitlab-com/support/issues)
+- [Support Knowledge Base](https://gitlab.com/gitlab-com/support-kb)
 - [Service Engineer Onboarding](/handbook/support/onboarding/)
 - [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/)
 - [PGP Process](https://about.gitlab.com/handbook/support/pgp_process/)
 - [External support resources for the team](/handbook/support/external/)
+- [Mentions Channel](/handbook/support/mentions-of-gitlab)
+
+----
 
 ## Contents of the page
+{:.no_toc}
 
-- [Support Direction](#support-direction)
-- [Service Level Agreements](#sla)
-- [Support Turbo](#support-turbo)
-- [Dashboard](#dashboard)
-- [Support Channels](#support-channels)
-   - [Emergency Tickets](#emergency)
-   - [Security disclosures](#security)
-   - [GitLab.com downtime](#downtime)
-   - [Regular tickets](#regular)
-   - [Internal Support](#internal)
-   - [Disqus from blog posts](#disqus)
-   - [Twitter](#twitter)
-   - [Posted Issues](#issue-tracker)
-   - [GitLab.com Support Forum](#supp-forum)
-   - [Facebook](#facebook)
-   - [CE/EE/Omnibus Issue Trackers](#product-issue-tracker)
-   - [Mailing List](#mailing-list)
-   - [GitLab Forum](#gitlab-forum)
-   - [Stack Overflow](#stack-overflow)
-   - [Reddit](#reddit)
-   - [Quora](#quora)
-- [Non Channel Work](#other)
+- TOC
+{:toc}
+
+----
 
 ## Support Direction <a name="support-direction"></a>
 
@@ -70,6 +63,17 @@ for tough issues.
 By triaging support effort through internal SLA's, the team can improve the support experience
 for key customers while still addressing the questions of all subscribers, and the rest of the GitLab community.
 
+## Support Issue Tracker <a name="issue-tracker"></a>
+
+The [Support project](https://gitlab.com/gitlab-com/support/issues)
+hosts an issue tracker meant to improve our workflow by reporting any
+problems that may arise on our tools or processes. Its also meant to
+propose and discuss ideas in general.
+
+The issue tracker is open to the community and part of the GitLab.com
+group. It should not contain any sensitive information. Links to ZenDesk
+or other references are encouraged.
+
 ## Support Turbo<a name="support-turbo"></a>
 
 Every now and then, it may occur that we come close to breaching our SLA's.
@@ -88,6 +92,22 @@ We can't fit more than 13 views in the dashboard panel.
 We have 6 views that are not channels.
 Meaning we have 7 views left for all our channels.
 That is why some channels are combined.
+
+## Dormant Usernames <a name="dormantusers"></a>
+
+Support often gets requests from gitlab.com users to release a username.
+This can be implemented if the following criteria are met:
+
+1. The account in question has no data.
+1. There hasn't been any activity on the account (i.e. code, issues, MRs)
+   for six months. This considers activity on projects the account owns
+   as well as activity on projects the account participants in.
+1. Support has had four failed attempts to  contact the user within a
+ two week period.   
+1. The user cannot be an owner of any active project.
+
+Usernames will be prefixed with `idle` to keep the account active but
+release the namespace.
 
 ## Service Level Agreements <a name="sla"></a>
 
@@ -230,6 +250,34 @@ manner. Make sure that you answer the tickets that are assigned to you first and
 that have come in and are unassigned, again using FIFO.
 When you need others to help please create an issue on the relevant GitLab issue tracker.
 
+### Errors on GitLab.com <a name="errors-on-gitlab-com"></a>
+
+If GitLab.com users encounter errors on GitLab.com (particularly Error 500s), it may be useful to see the encountered
+error on our [Sentry instance](https://sentry.gitlap.com). You can search for a specific username in the search bar
+by entering in the following:
+
+user.username:<user ID>
+
+For example:
+
+user.username:sytse
+
+This will bring up all exceptions encountered by the user.
+
+Note that Sentry tries to group similar errors together, but it's possible
+that it creates a separate entry for the same problem. If a GitLab issue
+exists for that exception, it will show up by the headline as GL-XYZ, where
+XYZ is some incident number defined by Sentry. You may have to search other
+similar events or look on the issue tracker on GitLab.com whether a separate
+GitLab issue has been created for the Sentry exception.
+
+If the exception looks like it does not exist, feel free to create a GitLab
+issue by clicking the "Create GitLab Issue" button. This will provide a
+pre-filled form with all the details of the backtrace. Please clean up the
+title and/or augment the description with what the user experienced when this
+exception occurred to make it easier for developers to understand what
+happened.
+
 #### Scheduled calls
 
 We also offer intake, upgrade and installation support for our customers. When these requests come in, you will schedule
@@ -289,16 +337,30 @@ from ZenDesk also enables us to track our response times vs. our internal [SLA](
 
 Our Developer Advocates also have access to tweets through ZenDesk, and often
 participate in responding to questions. The support team does not retweet or favorite
-any tweets; that is handled by the marketing team.
+any tweets; that is handled by the marketing team. Our support team _does_ reply
+to almost all tweets, following the [social media guidelines](https://about.gitlab.com/handbook/marketing/social-media-guidelines/), regardless of whether
+the tweet is of a technical nature or not. The marketing team's decision to favorite
+and/or retweet is independent of the reply provided by the support team; so a tweet
+may be responded to from ZenDesk, and separately favorited from TweetDeck, as an
+example.
+
+From time-to-time, we also receive tweets that mention competitors or negative events
+related to them. In principle, we don't acknowledge these tweets as also described in
+the [developer advocacy](https://about.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/#representing-gitlab-on-twitter)
+section.
 
 The @GitLabStatus account should only be used to give updates on the availability
 of GitLab.com and to follow up on users reporting that GitLab.com is unavailable.
 
 When a tweet mentions 1 or more of the handles described above, it should be replied to from the main handle (@GitLab).
 
+Tweets use short links which require you to visit that link to make sure you understand the context.
+To clarify if the request refers to GitLab or an externally hosted GitLab instance as we can only
+handle requests for gitlab.com.
+
 When resolving Twitter tickets you should:
 
-1. Start by the oldest ticket first
+1. Use [Play mode](https://support.zendesk.com/hc/en-us/articles/203690856-Working-with-tickets#topic_avj_hfg_vt) in the Twitter view. The default Twitter view will sort tickets by created date (ascending).
 1. Not skip any tickets
 1. Assign the ticket to yourself and ask on the appropriate Slack
    channel if you don't know the answer
@@ -313,10 +375,10 @@ Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed
 For ZenDesk issues you will have created issues on the relevant issue tracker.
 Please refer to the priority as listed under [GitLab Workflow in the handbook](/handbook/#gitlab-workflow).
 
-### GitLab.com Support Forum<a name="supp-forum"></a>
+### GitLab.com Support Tracker<a name="supp-forum"></a>
 
 For issues specific to GitLab.com that have nothing to do with availability we have the
-[Support Forum](https://gitlab.com/gitlab-com/support-forum/issues). This forum must also be checked periodically
+[Support Tracker](https://gitlab.com/gitlab-com/support-forum/issues). This forum must also be checked periodically
 for new issues and to report back if an issue has been solved. Ensure that you assign the issue to yourself to enable you to keep track of the issue and also to enable other service engineers to easily pick on unassigned tasks at a glance. Some people use this forum to report issues they
 are having with their on-premises installation. In that case, you should refer them to the
 [CE issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) or to our
@@ -359,3 +421,21 @@ Respond to questions about GitLab on Quora, especially the ones that appear in t
 
 If you have time for it please improve GitLab: fix bugs, add features, and polish the website.
 You can also consider hanging out on IRC to answer questions and help people (#gitlab on freenode.net).
+
+## Code of Conduct<a name="coc"></a>
+
+Just as service engineers are expected to adhere to the [Code of
+Conduct](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#code-of-conduct), we
+also expect customers to treat service engineers with the same level of respect.
+
+If you receive threatening or hostile emails from a user, please create a
+confidential issue in the [GitLab Support Issue Tracker](https://gitlab.com/gitlab-com/support/issues)
+and include:
+
+1. A history of the user's communication
+1. Relevant links
+1. Summary of the high-level issues
+
+Include the Support Lead, VP of Engineering, and Director of PeopleOps in this issue. Together we will
+evaluate on a case-by-case basis whether to take action (e.g. ban the user from the forums
+for violating the Code of Conduct).

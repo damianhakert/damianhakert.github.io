@@ -15,12 +15,12 @@ cache:
 build:
   stage: build
   script:
-    - bundle exec middleman build --verbose
+    - bundle exec rake build pdfs
   tags:
     - docker
   artifacts:
     paths:
-      - public/  
+      - public/
 
 lint:
   stage: test
@@ -36,6 +36,7 @@ deploy:
   before_script: []
   script:
     - rsync --delete -r public/ ~/public/
+  environment: production
   tags:
     - deploy
   only:

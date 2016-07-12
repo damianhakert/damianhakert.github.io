@@ -15,6 +15,7 @@ extra_css:
 - [GitLab vs. GitHub](#gitlab-vs-github)
 - [GitLab EE vs. GitHub Enterprise](#gitlab-ee-vs-github-enterprise)
 - [GitLab.com vs. GitHub.com](#gitlabcom-vs-githubcom)
+- [GitLab CE/EE vs. Bitbucket Server](#gitlab-ceee-vs-bitbucket-server)
 - [GitLab.com vs. Bitbucket.org](#gitlabcom-vs-bitbucketorg)
 - [GitLab CE/EE vs. SaaS](#gitlab-ceee-vs-saas)
 - [GitLab vs. SVN](#gitlab-vs-svn)
@@ -83,10 +84,35 @@ tracker. It will include the issue number and title automatically, making it eas
 [See how in our documentation](http://doc.gitlab.com/ce/workflow/web_editor.html#sts=Create a new branch from an issue)
 
 ### Search through Commits
+
 GitLab not only allows you to search through code, but also searches through your commit messages.
 
 ### Don't take our word for it.
+
 agilob contributed [a great article about why you should choose GitLab for your next open source project.](https://b.agilob.net/choose-gitlab-for-your-next-project/)
+
+### Vote on comments
+
+GitHub allows you to vote on comments. GitLab is still working on this.
+
+> [GitLab issue to allow voting on comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3655)
+
+### Drag and drop tasks
+
+You can change the order of tasks in markdown on GitHub.
+GitLab does not have this ability, but is considering implementing it.
+
+> [See the GitLab issue to implement this](https://gitlab.com/gitlab-org/gitlab-ce/issues/18003)
+
+### Assign multiple people to an issue / MR
+
+GitHub allows you to assign multiple people to an issue or pull request.
+
+GitLab doesn't allow you to do this, but allows for approvals in merge requests,
+which offsets this there. For issues, GitLab does not have an
+equivalent feature, but a feature request has been submitted for this.
+
+> [GitLab issue to implement multiple assignees](https://gitlab.com/gitlab-org/gitlab-ce/issues/13386)
 
 ## GitLab EE vs. GitHub Enterprise
 

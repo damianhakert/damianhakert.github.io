@@ -3,10 +3,13 @@
   %head
     = partial "includes/layout/head"
   %body{data: {spy: "scroll", target: ".qnav"}}
+    = partial "includes/google/gtm"
     = partial "includes/layout/header"
     = partial "includes/layout/headline"
     .wrapper
-      = partial "includes/layout/search"
       .container.md-page{ class: (current_page.data.page_class if current_page.data.page_class) }
+        %ol.breadcrumb
+          %li You are here:
+          = breadcrumbs(current_page)
         = yield
     = partial "includes/layout/footer"

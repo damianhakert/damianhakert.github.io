@@ -3,32 +3,62 @@ layout: markdown_page
 title: "Travel"
 ---
 
-## Arranging your company travel
+----
 
-The company will cover all work related travel costs.  
-- Understand that the guidelines of [Spending Company Money](https://about.gitlab.com/handbook/#spending-company-money) still apply
-- The company can accommodate your custom request. It is OK to stay longer on
-your trip. However, the extra days will not be covered by the company.
+## On this page
+{:.no_toc}
 
-## Specific Topics Relating to Egencia and Expenses
+- TOC
+{:toc}
 
-- [Setting up your Egencia account](#setup-egencia)  
-- [Booking travel through Egencia](#egencia)  
-- [Expenses while traveling](#expenses-while-traveling)
+----
 
+## Expenses While Traveling <a name="expenses-while-traveling"></a>
+
+1. The company will cover all work-related travel expenses. This includes lodging and meals during the part of the trip that is work-related. Depending on the distance of your travel, it can also include one day before and one day after the work related business. For example, if you are attending a 3 day conference in a jetlag-inducing location, the company will cover your lodging and meals those 3 days as well as one day before and one day after.
+1. The company can accommodate custom requests. It is OK to stay longer on your trip. However, the extra days will not be covered by the company.
+1. Understand that the guidelines of [Spending Company Money](https://about.gitlab.com/handbook/#spending-company-money), especially the part about spending it like it is your own money, still apply for all expenses.
+1. Always bring a credit card with you when traveling for company business if you have one.
+1. Hotels will generally expect you to have a physical credit card to present upon check-in. This credit card will be kept on file for the duration of your stay. Even if your lodging was pre-paid by the company or by using a company credit card, the Hotel may still require a card to be on file for "incidentals".
+1. If you incur any work-travel related expenses (on your personal card or a GitLab company card), please make sure to save the original receipt.
+1. When your trip is complete, please file an expense report via Expensify or include the receipts on your next monthly invoice.
+
+## Arranging a visa for travel <a name="arrange-visa"></a>
+
+In some cases when traveling to a conference or summit you might need to arrange a visa to enter that specific country.
+
+Always check the website of the Embassy of the Country you want to visit located in your home country. They will have the most updated information on wether or not you need a visa and what is needed for your application. In some instances you can travel under a visa waiver program (e.g. ESTA) in other you might need to arrange a tourist or business visa. Read their website carefully and ask People Ops if you need any help with acquiring the needed documents for your application.
+
+We gladly organize and pay for local legal assistance, especially if you are at high risk of having a long process.
+
+
+### Tips & Tricks for visa arrangements <a name="visa-tips"></a>
+
+- **Make sure to start on time with your arrangements for a visa**. It can take up to 3-4 **months** to acquire a US visa, as an example. Consider this recent example that several team members faced when they were arranging their visa to come to the summit in Austin in May of 2016. First, there was a delay of weeks to a month between the time they called to make an appointment at a US embassy and the date of the actual appointment. In some cases, the application then moved through the process with no issues and the visa was ready within two weeks. In other cases, the visa application was marked for "administrative processing" which can take up to 60 days, and is pretty much a [black hole in terms of information and process](https://www.quora.com/How-do-I-expedite-the-administrative-process-for-the-U-S-visa).
+- Check if your passport is still valid long enough
+- Give priority to arranging your visa, it can take time to get an appointment to apply at the Embassy.
+- Double check if you have all needed document and information. Ask People Ops to help you check this if you like.
+- Think of the answers you will give during your visa interview; it can influence your visa approval/denial.
+- Once the dates for a conference or summit are set start asap with your application if you have needed a special visa in previous situations, just to give yourself enough time and room for errors if they arise.
+
+## Self Stay Reimbursement Policy <a name="self-stay"></a>
+
+If you decide to stay with friends or family instead of a hotel / Airbnb for a business trip, the company will pay you 50% of what would have been the cost of a reasonable hotel. This is in keeping with our values of frugality and freedom, and intended to reward you for saving company money on accommodation expenses. Please take a screenshot of the hotel search in Egencia and submit this along with your expense report or invoice.
+
+## Booking travel and lodging with Egencia<a name="egencia"></a>
 
 ### Setting up your Egencia account<a name="setup-egencia"></a>
 
 Below is some more information to help you get set up with your [Egencia](https://www.egencia.com) account.  
 
-1. You will receive an email from Egencia with your username.
+1. You will receive an email from Egencia with your username. (Contact People Ops if you do not receive anything).
 1. With the link, from step one in this email, you can set a new secure password.
 1. Once you are in your dashboard, setup your info in your profile (see link at top right corner of page).
 1. Make sure to add your phone number in all three "phone number" fields (it can be the same number).
 1. Add your passport information to your profile (only passport information is accepted in Egencia at this time), this will populate your info directly when booking a flight.
 1. Now let's start booking!
 
-### Booking travel through Egencia <a name="egencia"></a>
+### Booking travel through Egencia <a name="booking-travel"></a>
 
 If you book through [Egencia](https://www.egencia.com), the costs will be added
 to the GitLab invoice and **no credit card is needed**.
@@ -51,7 +81,7 @@ such as another flight, a hotel reservation or booking a car.
 #### Checkout flight only
 
 1. Enter your passport information in the "Secure flight" window. This will be
-pre-populated if you setup your profile correctly. At this point, you do have the
+pre-populated if you have previously setup your profile correctly. At this point, you do have the
 option of using your US drivers license for domestic flights within the US.
 1. Enter home, work, and mobile phone number (they can be the same number). This
 will be pre-populated if you already set up your profile before.
@@ -83,40 +113,22 @@ You will get a total overview of what is booked. You can see that the hotel and/
 
 #### Options in Egencia
 
-* Instead of choosing "checkout" you can select "save trip and view itinerary"
-* Here you will get an overview of everything that was selected and you can change items, such as your flight.
-* In the menu on the top left you have some options like "invite others", "print itinerary", send, or delete.
-* You can also download the app "Egencia TripNavigator" to keep your itinerary close and even do bookings on the go if needed.
+- Instead of choosing "checkout" you can select "save trip and view itinerary". Here you will get an overview of everything that was selected and you can change items, such as your flight.
+- In the menu on the top left you have some options like "invite others", "print itinerary", send, or delete.
+- You can also download the app "Egencia TripNavigator" to keep your itinerary close and even do bookings on the go if needed.
 
-Please send a message to travel@gitlab.com if you need help in booking your travel.
+Please send a message to People Ops if you need help in booking your travel.
 
 #### Booking shows Out of Policy
 
-* Sometimes there is no way around booking a flight or hotel that is out of policy.
-* This means that the option selected is more expensive than the cheapest option + our buffer.
-* When you try to book this, an email will be sent to travel@gitlab.com for approval.
-* Please provide extensive reasoning to make approval easier and faster.
-* After 24 hours without any manual action (approved/denied) the booking will automatically be accepted.
+- Sometimes there is no way around booking a flight or hotel that is out of policy.
+- This means that the option selected is more expensive than the cheapest option + our buffer.
+- When you try to book this, an email will be sent to travel@gitlab.com for approval.
+- Please provide extensive reasoning to make approval easier and faster.
+- After 24 hours without any manual action (approved/denied) the booking will automatically be accepted.
 
-### Expenses While Traveling <a name="expenses-while-traveling"></a>
+## Booking accommodations through Airbnb <a name="airbnb"></a>
 
-1. The company will pay for lodging and meals during the part of the trip
-that is work-related. Depending on the distance of your travel, this can include
-one day before and one day after the work related business. For example, if you
-are attending a 3 day conference in a jetlag-inducing location, the company will
-cover your lodging and meals those 3 days as well as one day before and one day after.
-1. Meals and lodging are covered. The "spend it like it is your own money" rule applies here except
-if explicitly noted otherwise. For example, the limits for during the Austin Summit
-are detailed on the [Austin Summit page](https://dev.gitlab.org/summit_group_2016/Austin-Summit-2016-project).
-1. Always bring a credit card with you when traveling for company business if you have one.
-1. Hotels will generally expect you to have a physical credit card to present upon check-in.
-This credit card will be kept on file for the duration of your stay. Even if your lodging
-was pre-paid by the company or by using a company credit card, the Hotel may still
-require a card to be on file for "incidentals".
-1. If you incur any work-travel related expenses (on your personal card or a GitLab
-company card), please make sure to save the original receipt.
-1. When your trip is complete, please file an expense report via Expensify.
-Expensify steps can be found http://help.expensify.com/getting-started/
-
-See the section on [Spending Company Money](https://about.gitlab.com/handbook/#spending-company-money)
-on the handbook for more details on the expense policies.
+- If you need an Airbnb for your stay on a business related trip, you can either book it yourself, or send a request to People Ops.
+- For People Ops, please include a link to which Airbnb you would like to stay in, the corresponding dates, and the purpose of your travel.
+- If you are booking the trip yourself, you may be reimbursed for the portion of your stay that was business related by submitting in Expensify or on your monthly invoice.

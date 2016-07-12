@@ -1,7 +1,7 @@
 ---
 title: "GitLab CE 6.5 released"
 date: 2014-01-21 13:11
-categories:
+categories: release
 community: true
 ---
 

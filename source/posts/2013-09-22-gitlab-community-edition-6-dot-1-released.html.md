@@ -2,7 +2,7 @@
 title: "GitLab Community Edition 6.1 released"
 date: 2013-09-22 18:00
 author: Jacob Vosmaer
-categories:
+categories: release
 community: true
 ---
 
