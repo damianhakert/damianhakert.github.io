@@ -3,7 +3,7 @@ title: "Our Handbook is open source: here's why"
 author: Sid Sijbrandij
 author_twitter: sytses
 categories: inside GitLab
-image_title: '/images/default-blog-image.png' 
+image_title: '/images/community/love-the-sun-gitlab.jpg'
 ---
 
 In the past two years we’ve gone from a team of 10 people to a team of 90+, spread across 
@@ -45,11 +45,11 @@ culture and processes before they decide to work here. As part of the hiring
 process, it makes things more efficient. 
 
 > _Being able to get a look inside the company and not having to fully rely on the
-representatives of the company makes you feel more confident—you don’t feel like
-you’re being sold. By looking at the handbook, I was able to answer key questions like, 'do I see myself 
-working here' and 'is everything I’m hearing from my interviewers aligned with what I’m reading in the Handbook?'
-For me, I could see myself working in an organization that had thoughtfully crafted how teams could best work together. 
-And three months in to my role at GitLab, the Handbook is aligned with what I heard and it is constantly being 
+representatives of the company makes you feel more confident — you don’t feel like
+you’re being sold. By looking at the handbook, I was able to answer key questions like, "do I see myself 
+working here" and "is everything I’m hearing from my interviewers aligned with what I’m reading in the Handbook?"
+For me, I could see myself working in an organization that had thoughtfully crafted how teams could best work together.
+And three months in to my role at GitLab, the Handbook is aligned with what I heard and it is constantly being
 updated to reflect the latest needs of our team.”_ - [Amara Nwaigwe], Senior Product Marketing Manager at GitLab.
 
 ## Transparency
