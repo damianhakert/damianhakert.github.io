@@ -15,6 +15,7 @@ title: Leadership
 - [The Management Myth](http://www.theatlantic.com/magazine/archive/2006/06/the-management-myth/304883/)
 - [Later Stage Advice for Startups](http://themacro.com/articles/2016/07/later-stage-advice-for-startups/)
 - [Mental Models I Find Repeatedly Useful](https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d)
+- [This Is The Most Difficult Skill For CEOs To Learn](http://www.businessinsider.com/whats-the-most-difficult-ceo-skill-managing-your-own-psychology-2011-4)
 
 ## Books
 
