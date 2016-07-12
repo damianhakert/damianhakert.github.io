@@ -95,4 +95,4 @@ Have an idea for our Handbook? Want to use it to create your own? Feel free to d
 [Amara Nwaigwe]: https://twitter.com/its_amaracle
 [@GitLab]: https://twitter.com/gitlab
 [cc-by]: https://creativecommons.org/licenses/by-sa/4.0/
-[Handbook]: /Handbook/
+[Handbook]: /handbook/
