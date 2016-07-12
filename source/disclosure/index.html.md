@@ -15,4 +15,8 @@ is open source software, you can install a copy yourself and test against that. 
 If you want to perform testing without setting GitLab up yourself please contact us to
 arrange access to a staging server.
 
+We are committed to backporting security-related fixes to the last **three** minor
+versions. For example, if our current release is 8.9.0, we will release 8.9.1,
+8.8.x, and 8.7.x.
+
 On our website you can find more about [the availability and security of GitLab.com](https://about.gitlab.com/gitlab-com/#availability-and-security). Security issues that are not vulnerabilities can be seen on [our public issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=security).
