@@ -21,9 +21,9 @@ title: "Sales Handbook"
 * [Adding Products to an Opportunity](#products)
 * [Opportunity Stages](#stages)
 * [Closing A Won Deal](#closing)
+* [Processing Orders](#processing)
 * [Using Cases in Salesforce](#cases)
 * [Process after you sell a Premium Support Subscription](#premium-support)
-* [Processing Orders in Recurly](#processing)
 * [Export Control Classification, and Countries We Do Not Do Business In](#export-control)
 
 ## Pages inside Sales Handbook <a name="pages"></a>
@@ -87,16 +87,6 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 1. Exisiting Account (new divsion) - This type should be used for new business sold into an existing account but a new division, a new puchasing group.
 1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased or stay the same.  We capture growth/loss as a field in Salesforce.com
 
-### Adding Products to an Opportunity <a name="products"></a>
-
-1. When creating an opportunity, you will be required to add in a product for the opportunity.
-1. Select the product the prospect is interested in.  The product you choose should match the plan you added in the Opportunity Name.
-    * If selling a 24 or 36 month deal, please select the correct product.  Each plan has a 12, 24 and 36 month product.
-    * Please note that the discount (10% for 24 month pre-paid and 15% for 36 month pre-paid) has already been applied to the product amount when you select it. You may change the sales price of the pack if you are giving a further discount or if no discount at all.
-1. If selling more than one pack, please note the number of packs you are selling in the quantity field.
-1. Once you select a product you can edit the quantity and the sales price.
-1. If you want to change the product, you must first delete the product you have currently in the opportunity, then add in the new product.
-
 ### Opportunity Stages <a name="stages"></a>
 
 1. Discovery - research, fact finding, identify contacts, current situation,
@@ -116,56 +106,14 @@ In order to close a deal in Salesforce.com, one of the following must happen:
 
 Once the above has happened, please make sure the following actions are done:
 
-1. Process order in Recurly
-1. Add Invoice Number in the Invoice Number field within the opportunity - Opportunity can not be closed until this is completed.
-1. Make sure opportunity close date matches invoice date in Recurly
-1. Make sure opportunity product matches subscription plan in Recurly
-1. Make sure opportunity amount matches amount in Recurly
 1. Attach any signed agreement, PO, and/or quote as an attachment to the account page/object in Salesforce.com
 1. Add in the competition we were up against in the opportunity.  This can be the legacy SCM solution they had and/or who they were evaluating along side of us. This can also be ourselves, meanign GitLab CE or .com
-1. Create a renewal opportunity opportunity by cloning the current opportunity and changing the close date to be 12, 24 or 36 months out.
 1. Create an add-on or Existing Account (new division) opportunity if there has been one identified by you at this time.
 1. An automated task is created to check in with the Account, 30 days after the deal closes.  The purpose for this check in is to make sure they are happy, address any questions they have, ask them to be a reference or to speak with our product marketing team on how they use GitLab.
   * If the customer agrees to be a reference, please check the box on the account object called "referenceable customer".  Also go to the contact object who agreed to be a reference and under the field "role" please select "reference - investors and prospects"
   * If customer agrees to speak with product marketing about how they use GitLab, please email product marketing manager
 1. Once the opportunity is closed won, the field "type" on the account object will change to "customer"
 1. A task will be auto created in Salesforce.com reminding you to update the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
-
-### Using Cases in Salesforce <a name="cases"></a>
-
-A case is a question or feedback from a prospect or customer. Each of us can review cases to see how we can deliver better service.
-
-When a case is submitted, if the contacts email address is in salesforce, the contact owner will be assigned to the case.  If there is mo match, the case will go to our [BDR Queue](https://na34.salesforce.com/500?fcf=00B610000042ioq). Anyone can check this queue and reasssing to yourself if this is your contact or respond to this case.
-
-Cases display in an Emails related list. The Emails related list includes all emails sent by your customer regarding a particular case, as well the email threads between you and your customer. The first 77 characters of an email message appear in the related list so that you can see what the message is about without having to click on it.
-
-#### To work with Email-to-Case or On-Demand Email-to-Case emails:
-* Click Send An Email to send an email to a contact, another user, or any other email address. Select a "From Address".  Preferrably use sales@ address.
-* Click Reply to respond to an email. The email response automatically includes the email body as received from the customer. Enter your response and click Send.
-* Click To All to respond to all participants on an email thread.
-* The email address of the contact who created the case automatically appears in the To field, as long as the creator is an existing contact. To add more recipients, click Lookup icon to look up an address, or type or paste email addresses or names in the To field.
-* When you enter an email address or name that matches one contact or user, the address appears as a button with the person’s name.
-* To add several addresses at once, copy and paste them separated by spaces or commas. These email addresses appear as buttons, and, if they’re associated with a contact or user, show the contact’s name.
-* When you enter an email address that matches multiple contacts or users, the address appears as a button. Clicking the button brings up a list of people associated with the email address so you can choose the one you want to associate with the message.
-* If you need to copy other people on the message, click Add Cc or Add Bcc.
-* By default, the email subject is the name of the case it’s related to. You can edit the subject if you need to.
-
-* Click the subject of the email to view the email. From the email, you can reply to the sender, reply to everyone, forward the email, or delete it.
-* While viewing an email, you can display a list of all the emails associated with the case by clicking Email Message List, and you can navigate to the case's other emails by clicking Next or Previous.
-* While viewing an email, click Forward to forward it. The email automatically includes the email body as received from the customer. Optionally, enter text and click Send.
-
-#### Closing a Case
-* Before closing a case, make sure that the account is associated with the case
-* Choose the case reason before you close
-
-### Process after you close a Premium Support Subscription <a name="premium-support"></a>
-
-Once you close a Premium Support Subscription deal, you need to do a few things.
-
-1. When possible, create an issue on dev.gitlab.org under Organization with the Support label as soon as it is clear that a dedicated service engineer will be needed. Service Engineers can volunteer, or they will be assigned by VP Engineering if nobody is volunteering. It can depend on the client, and factors like: timezone, language, specific needs, etc.
-Once this is determined, please add the Dedicated Service Engineer to the Salesforce account with the drop down.
-1. The next step is to introduce your client to their Dedicated Engineer, and if necessary, work together to schedule an on-boarding call to cover any questions, and give an overview of the support they are entitled to.
-1. You would have probably brought this up prior to the deal closing, but if the client is interested in joining the Slack support channel, please work with the Dedicated Engineer to make this happen.
 
 ### Processing Orders via Zuora <a name="processing"></a>
 
@@ -339,7 +287,6 @@ Cancel existing subscription for the billing account
 1. Send it to the customer
 1. Upon Sign-off will click on the Send to Z-billing button to send the Quote over to Zuora
  
-
 ### Creating a Quote for a Partner Use-case using the Invoice Owner Functionality - 
  * Note - We can make use of Invoice owner functionality so that subscription can be billed to the Partner and the subscription would be owned by the End Customer; 
  * Note - if the Partner is a getting created the first time in SF, then please make sure this is also created in Zuora; And partner account(in SF and Zuora) are mapped using the CRM iD in Zuora.
@@ -359,6 +306,42 @@ Please see screenshot below -
 1. Upon clicking on the field sales rep will be listed with all Billing Accounts from Zuora. 
 1. Sales rep will select the right partner name since the partner is already established in Zuora
 1. Clicks on Next and selects the products and click on Next
+
+### Using Cases in Salesforce <a name="cases"></a>
+
+A case is a question or feedback from a prospect or customer. Each of us can review cases to see how we can deliver better service.
+
+When a case is submitted, if the contacts email address is in salesforce, the contact owner will be assigned to the case.  If there is mo match, the case will go to our [BDR Queue](https://na34.salesforce.com/500?fcf=00B610000042ioq). Anyone can check this queue and reasssing to yourself if this is your contact or respond to this case.
+
+Cases display in an Emails related list. The Emails related list includes all emails sent by your customer regarding a particular case, as well the email threads between you and your customer. The first 77 characters of an email message appear in the related list so that you can see what the message is about without having to click on it.
+
+#### To work with Email-to-Case or On-Demand Email-to-Case emails:
+* Click Send An Email to send an email to a contact, another user, or any other email address. Select a "From Address".  Preferrably use sales@ address.
+* Click Reply to respond to an email. The email response automatically includes the email body as received from the customer. Enter your response and click Send.
+* Click To All to respond to all participants on an email thread.
+* The email address of the contact who created the case automatically appears in the To field, as long as the creator is an existing contact. To add more recipients, click Lookup icon to look up an address, or type or paste email addresses or names in the To field.
+* When you enter an email address or name that matches one contact or user, the address appears as a button with the person’s name.
+* To add several addresses at once, copy and paste them separated by spaces or commas. These email addresses appear as buttons, and, if they’re associated with a contact or user, show the contact’s name.
+* When you enter an email address that matches multiple contacts or users, the address appears as a button. Clicking the button brings up a list of people associated with the email address so you can choose the one you want to associate with the message.
+* If you need to copy other people on the message, click Add Cc or Add Bcc.
+* By default, the email subject is the name of the case it’s related to. You can edit the subject if you need to.
+
+* Click the subject of the email to view the email. From the email, you can reply to the sender, reply to everyone, forward the email, or delete it.
+* While viewing an email, you can display a list of all the emails associated with the case by clicking Email Message List, and you can navigate to the case's other emails by clicking Next or Previous.
+* While viewing an email, click Forward to forward it. The email automatically includes the email body as received from the customer. Optionally, enter text and click Send.
+
+#### Closing a Case
+* Before closing a case, make sure that the account is associated with the case
+* Choose the case reason before you close
+
+### Process after you close a Premium Support Subscription <a name="premium-support"></a>
+
+Once you close a Premium Support Subscription deal, you need to do a few things.
+
+1. When possible, create an issue on dev.gitlab.org under Organization with the Support label as soon as it is clear that a dedicated service engineer will be needed. Service Engineers can volunteer, or they will be assigned by VP Engineering if nobody is volunteering. It can depend on the client, and factors like: timezone, language, specific needs, etc.
+Once this is determined, please add the Dedicated Service Engineer to the Salesforce account with the drop down.
+1. The next step is to introduce your client to their Dedicated Engineer, and if necessary, work together to schedule an on-boarding call to cover any questions, and give an overview of the support they are entitled to.
+1. You would have probably brought this up prior to the deal closing, but if the client is interested in joining the Slack support channel, please work with the Dedicated Engineer to make this happen.
 
 ### Export Control Classification, and Countries We Do Not Do Business In <a name="export-control"></a>
 
