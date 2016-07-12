@@ -55,6 +55,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Work Remotely Travel Grant](#travel-grant)
 * [Signing Legal Documents](#signing-legal-documents)
 * [Working Remotely](#working-remotely)
+   * [Coffee Break Calls](#coffee-break-calls)
 * [Tools and Tips](#tools)
 * [Using Git to update this website](#starting-with-git)
 
@@ -72,7 +73,7 @@ yourself and your teammates. We want people to have the desire to ship.
 public we can reduce the threshold to contribution and make collaboration easier.
 An example is the [public repository of this website](https://gitlab.com/gitlab-com/www-gitlab-com/)
 that also contains this [company handbook](https://about.gitlab.com/handbook/).
-Everything we do is public by default, for example the [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues) and [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues) issue takers, but also [marketing](https://gitlab.com/gitlab-com/marketing/issues) and [operations](https://gitlab.com/gitlab-com/operations/issues). Transparency creates awareness for GitLab, allows us to recruit people that care about our culture, it gets us more and faster feedback from people outside the company, and makes it easier collaborate with them.
+Everything we do is public by default, for example the [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues) and [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues) issue trackers, but also [marketing](https://gitlab.com/gitlab-com/marketing/issues) and [infrastructure](https://gitlab.com/gitlab-com/infrastructure/issues). Transparency creates awareness for GitLab, allows us to recruit people that care about our culture, it gets us more and faster feedback from people outside the company, and makes it easier collaborate with them.
 On a personal level you should tell it like it is instead of putting up a poker face. Don't be afraid to admit you made a mistake or were wrong. When something went wrong it is a great opportunity to say 'what’s the [kaizen](https://en.wikipedia.org/wiki/Kaizen) moment here' and find a better way without hurt feelings.
 1. **Sharing**: We care about giving great software, documentation, examples, lessons,
 and processes to the world. An example is the MIT licensed [GitLab CE](https://about.gitlab.com/features/). We believe that open source creates more value than it captures. We are grateful to our customers, users, partners, investors, and the open source ecosystem.
@@ -323,7 +324,7 @@ step, **re-assign** the issue to that person.
 ### Random Chat and Room<a name="random-room"></a>
 
 1. The [#random](https://gitlab.slack.com/archives/random) chat channel is your go-to place to share random ideas, pictures, articles, and more. It's a great channel to check out when you need a mental break.
-1. Come hang out any time in the **random room**, an open Google Hangout video chat where anyone with a GitLab email address can come and leave as they please. The link is in the description of the `#random` chat channel; consider bookmarking it.
+1. Come hang out any time in the **random room**, an open Google Hangout video chat where anyone with a GitLab email address can come and leave as they please. The link is in the description of the `#random` chat channel; consider bookmarking it. This room is open for all and should be distinct from the [Coffee Break Calls](#coffee-break-calls), which are 1x1 conversations between teammates. 
 
 ### Scheduling meetings<a name="scheduling-meetings"></a>
 
@@ -575,6 +576,18 @@ If you worked at an office before, now you lack a default group to go out to
 lunch with. To look at it from a different perspective, now you can select who
 you lunch with and who you do not lunch with. Haven't spoken to a good friend in
 a while? Now you can have lunch together.
+
+### Coffee Break Calls
+
+Understanding that working remotely leads to mostly work-related conversations 
+with fellow GitLabbers, everyone is encouraged to dedicate **a few hours a week** 
+to having social calls with any GitLab employee - get to know who you work with, 
+talk about everyday things and share a virtual cuppa' coffee. We want you to make 
+friends and build relationships with the people you work with to create a more comfortable, 
+well-rounded environment. The Coffee Break calls are different to the 
+[Random Room](#random-room) video chat, they are meant for give you the option 
+to have 1x1 calls with specific teammates you wish to speak with and is not a 
+random, open-for-all channel but a conversation between two teammates.
 
 ## Tools and Tips<a name="tools"></a>
 

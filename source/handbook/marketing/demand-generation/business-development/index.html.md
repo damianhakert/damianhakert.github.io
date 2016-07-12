@@ -2,13 +2,11 @@
 layout: markdown_page
 title: "Business Development"
 ---
-BDR Handbook
-
-[Up one level to the Demand Generation Handbook](/handbook/marketing/demand-generation/)    
+BDR Handbook   
 
 ## On this page
 * [Customer FAQ's](#FAQ)  
-* [Variable Compensation Guidelines](#compensation) 
+* [Variable Compensation Guidelines](#compensation)
 * [Vacation Incentives](#vacation)
 
 ## Customer FAQ's<a name="FAQ"></a>  
@@ -18,7 +16,7 @@ BDRs are frequently asked the following questions in some form or another:
 
 * I didn’t get a confirmation email, what should I do?  
 * I need to change my password, or my password change didn’t work, what should I do?  
-* I want to use [username] but it says it’s already taken, even though that user has never actually done anything on his/her account. Can you remove that user so I can get the username? 
+* I want to use [username] but it says it’s already taken, even though that user has never actually done anything on his/her account. Can you remove that user so I can get the username?
 * I made a mistake when setting up my account and need to change it. What should I do?
 * GitLab.com seems slow. Why is that? Is anything being done to address this?
 * I'm migrating from GitHub, BitBucket, SVN, etc. Do you have any migration tools?
@@ -45,7 +43,7 @@ BDRs are frequently asked the following questions in some form or another:
 Full-time BDRs have a significant portion of their pay based on performance and objective attainment. Performance based "bonuses" are based on results. Actions for obtaining results will be prescribed and measured, but are intentionally left out of bonus attainment calculations to encourage experimentation. BDRs will naturally be drawn to activities that have the highest yield, but freedom to choose their own daily activities will allow new, higher yield activities to be discovered.
 
 Guidelines for bonuses:
-* Team and individual objectives are based on GitLab's revenue targets and adjusted monthly. 
+* Team and individual objectives are based on GitLab's revenue targets and adjusted monthly.
 * Bonuses are paid quarterly.
 * Bonuses may be based on various objectives
     * E.g. a new BDR's first month's bonus is typically based on completing <a href="https://about.gitlab.com/handbook/general-onboarding/" target="_blank">onboarding</a>

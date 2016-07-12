@@ -24,6 +24,8 @@ more information.
 
 ### Blog posts
 
+Please read through the [Blog Handbook] before you begin.
+
 A new blog post likely needs to be reviewed by others before being published, so
 it's best to use our standard [feature branch workflow](http://docs.gitlab.com/ee/workflow/workflow.html)
 and to open a Merge Request. If you're not yet comfortable using the Git command
@@ -74,11 +76,12 @@ no one makes a new commit after that time has passed.
 When in doubt, either don't give it a timestamp, or set it to a time that has
 already passed.
 
-Fill in the post's content using [Markdown][gfm]. To preview your post locally
+Fill in the post's content using [Markdown][mkd-guide]. To preview your post locally
 before publishing, see [**Local development**](#local-development) for
 instructions.
 
-[gfm]: http://doc.gitlab.com/ce/markdown/markdown.html
+[Blog Handbook]: https://about.gitlab.com/handbook/marketing/blog/
+[mkd-guide]: https://about.gitlab.com/handbook/marketing/developer-relations/technical-writing/markdown-guide/
 
 ### Adding yourself to the team page
 

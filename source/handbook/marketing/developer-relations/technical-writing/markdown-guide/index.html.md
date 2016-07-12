@@ -3,7 +3,8 @@ layout: markdown_page
 title: "Markdown Guide"
 ---
 
-Technical Writing Handbook - Markdown Kramdown Style Guide for [about.GitLab.com]
+#### Welcome to the Markdown Kramdown Style Guide for [about.GitLab.com]
+{:.no_toc}
 
 ----
 
@@ -81,9 +82,9 @@ Notes:
 
 ## Paragraphs, breaks and horizontal lines
 
-Regular paragraphs are obtained by just writing text lines. If you hit enter between two lines,
+Regular paragraphs are obtained by just writing text lines. If you hit **enter** between two lines,
 both lines will be joined into a single paragraph.
-But, if you leave a blank line between them, they will split in two paragraphs.
+But, if you leave a blank line between them, they will split into two paragraphs.
 
 ### Regular paragraphs and automatic join
 
@@ -563,7 +564,7 @@ an automated process.
 As always, leave a blank line before and after the markup. Note that there are four dashes beginning
 and closing the block, which is not required, but recommendable for keeping the same standards through about.GitLab.com.
 
-The heading "On this page" can be adapted to your case, e.g., "On this tutorial", or "On this guide", etc. It's no required
+The heading "On this page" can be adapted to your case, e.g., "On this tutorial", or "On this guide", etc. It's not required
 either, but recommended.
 
 The markup `{:.no_toc}` is used every time you don't want to include a heading into the ToC. Just add
@@ -587,7 +588,7 @@ ordered lists and Kramdown will be smart enough to understand what you want:
 Tables for markdown are challenging. So, we have two possible approaches: use markdown markup whenever possible,
 but if you need pretty advanced table layouts, you are free to add them in HTML markup instead.
 
-> Markdown is not a replacement for HTML, or even close to it. ([John Gruber][daring-quote])
+> _Markdown is not a replacement for HTML, or even close to it. ([John Gruber][daring-quote])_
 {: #quote}
 
 As explained by John Gruber, the creator of markdown, it has not been created to replace HTML,
@@ -920,7 +921,7 @@ That may be lazy.
 ```md
 This is a regular paragraph.
 
-_**Note:** a note is something that needs to be mentioned but is apart from the context._
+**Note:** a note is something that needs to be mentioned but is apart from the context.
 {: .note}
 ```
 
@@ -933,7 +934,7 @@ _**Note:** a note is something that needs to be mentioned but is apart from the 
 
 This is a regular paragraph.
 
-_**Note:** a note is something that needs to be mentioned but is apart from the context._
+**Note:** a note is something that needs to be mentioned but is apart from the context.
 {: .note}
 
 </div>
@@ -1443,7 +1444,138 @@ And yes, the `<style>` tag is _in_ this very markdown file. Believe it or not!
 
 ----
 
+## Embed documents
+
+It's easy to embed Google Docs, Sheets, Slides and pretty much everything that
+provides an iframe to use with. The only thing you need to do is use the
+following code inside your markdown file and replace the iframe from the document
+you want to embed:
+
+```html
+<figure class="video_container">
+<iframe IFRAME CONTENT></iframe>
+</figure>
+```
+
+### Google products
+
+For Google products, with your document opened, click **File** -> **Publish to the web**.
+For example here's how Google sheets will look like:
+
+![Google Sheets - File - Publish to the web](/images/markdown-guide/file-publish-to-the-web.png)
+
+Choose **Embed**, check your settings, click on **Publish** and copy the `<iframe>`.
+Then go to your markdown file and wrap the iframe into a `<figure>` tag with the
+responsive `video_container` class, as shown [in the beginning](#embed-documents).
+
+#### Google Sheets
+
+Let's exemplify with this [simple spreadsheet]. Follow the info [above](#google-products) to find the iframe:
+
+![Google Sheets - Embed iframe](/images/markdown-guide/embed-google-sheet.png)
+
+Copy the code below and paste to your markdown file (leave a blank line above and below it). Then replace the `<iframe>` with your own:
+
+```html
+<figure class="video_container">
+<iframe src="https://docs.google.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/pubhtml?widget=true&amp;headers=false"></iframe>
+</figure>
+```
+
+#### Output:
+{: .no_toc}
+
+<figure class="video_container">
+<iframe src="https://docs.google.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/pubhtml?widget=true&amp;headers=false"></iframe>
+</figure>
+
+<br>
+
+#### Google Slides
+
+Let's exemplify with this [simple presentation]. Follow the steps [above](#embed-documents) to find the iframe:
+
+![Google Slides - Embed iframe](/images/markdown-guide/embed-google-slides.png)
+
+Copy the code below and paste to your markdown file (leave a blank line above and below it). Then replace the `<iframe>` with your own:
+
+```html
+<figure class="video_container">
+<iframe src="https://docs.google.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</figure>
+```
+
+#### Output:
+{: .no_toc}
+
+<figure class="video_container">
+<iframe src="https://docs.google.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</figure>
+
+<br>
+
+#### Google Docs
+
+Embedding Google Docs is not a recommended practice. Prefer converting your document content
+to markdown instead. If you need to embed it anyway, follow the same instructions and the same logic as
+we presented for Google Sheets and Slides, wrapping the `<iframe>` with a `<figure>` tag:
+
+```html
+<figure class="video_container">
+<iframe src="https://docs.google.com/document/d/1mHhOhvvrz7xgUPyn5VWCNuKgew5MRRGZp761B9prPqs/pub?embedded=true"></iframe>
+</figure>
+```
+
+### SlideShare
+
+To embed from SlideShare, go to the document you want to embed and hit the **Share**
+button located below the slides. Copy the code under **Embed** and place it
+inside the `figure` tag.
+
+<i class="fa fa-exclamation-triangle" aria-hidden="true" style="color: rgb(138, 109, 59)
+;"></i> Be careful to only include the iframe content and strip anything else.
+SlideShare will also add some other information in the embed code which you
+will have to remove, otherwise the markdown page will be broken.
+{: .alert .alert-warning}
+
+For example, let's say we wanted to include the slides from [Ivan's talk on
+GitLab Pages][slideshare-ivan]. Copying the embed code and stripping everything
+else except from the iframe, would result in this:
+
+```html
+<figure>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/EixD8OUMBX65Jy" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+</figure>
+```
+
+<i class="fa fa-info-circle" aria-hidden="true" style="color: rgb(49, 112, 143)
+;"></i> You can safely omit the `<figure>` tag since SlideShare's widget is
+already responsive, but we are showing this that way in order to be consistent
+with the rest of the handbook.
+{: .alert .alert-info}
+
+#### Output:
+{: .no_toc}
+
+<figure>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/EixD8OUMBX65Jy" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+</figure>
+
+----
+
 ## Markdown Editors
+
+Please use one of the following code editors to write in markdown, or another **code editor** of
+your preference.
+
+It is **not** recommend writing your document in a regular text editor, then copy-pasting to markdown,
+as it most likely will bring some characters with a different encoding (non UTF-8), which will cause the
+markdown to not render correctly.
+
+In case you don't have a choice and need to import a text already written in a text editor, paste it
+to your markdown file using **command+shift+V** on a Mac, or **control+shift+V** on Windows or Linux.
+You might minimize the cause of trouble by pasting without format. But yet, is not guaranteed it
+is going to work, so double check your HTML output.
 
 _Regular Code Editors_
 
@@ -1485,10 +1617,10 @@ they can render differently than the expected and can cause other issues.
         - Item 3
     {: .language-html}
 
-- Do not jump headers. Always do h1 &rarr; h2 &rarr; h3 &rarr; h4. Never h2 &rarr; h4.
-- Prefer short titles and headers. Do not punctuate them (unless they require a question mark or an exclamation).
+- Do not jump headings. Always do h1 &rarr; h2 &rarr; h3 &rarr; h4. Never h2 &rarr; h4.
+- Prefer short titles and headings. Do not punctuate them (unless they require a question mark or an exclamation).
 - Try not to punctuate list items, but if you do, be consistent and do that through all the list.
-- If you have to mention a not-clickable URL, prefer using backticks: `http://an-example.com`.
+- If you have to mention a non-clickable URL, prefer using backticks: `http://an-example.com`.
 - If you are confused about any markup that you've found in this file, you can check its [`raw` file] for reference,
 where you'll be able to see exactly how everything was written to produce the results you are seeing on this page.
 
@@ -1515,10 +1647,13 @@ Anything else you know of and is not described here? Any new magic? Any trick? P
 [Markup language]: https://en.wikipedia.org/wiki/Markup_language
 [middleman]: https://middlemanapp.com/
 [mou]: http://25.io/mou/
-[mou-screenshot]: /images/mou-screenshot-preview-markdown-guide-handbook.png "Mou for Mac - Markdown Preview"
+[mou-screenshot]: /images/markdown-guide/mou-screenshot-preview.png "Mou for Mac - Markdown Preview"
 [panel blocks]: https://getbootstrap.com/components/#panels-alternatives
 [`raw` file]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/handbook/marketing/developer-relations/technical-writing/markdown-guide/index.html.md
 [Redcarpet]: http://git.io/ld_NVQ
+[simple presentation]: https://docs.google.com/a/gitlab.com/presentation/d/1qDY601QTBQFIY_TOi8sP0zg7u5jgwzocysb87Upk_ho/edit?usp=sharing
+[simple spreadsheet]: https://docs.google.com/a/gitlab.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/edit?usp=sharing
+[slideshare-ivan]: http://www.slideshare.net/creatop/how-to-use-any-static-site-generator-with-gitlab-pages
 [ssg]: https://www.staticgen.com/
 [ssgs-post]: https://about.gitlab.com/2016/06/10/ssg-overview-gitlab-pages-part-2/
 [ssgs-post-raw]: https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/source/posts/2016-06-10-ssg-overview-gitlab-pages-part-2.html.md

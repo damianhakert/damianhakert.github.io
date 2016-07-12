@@ -3,9 +3,7 @@ layout: markdown_page
 title: "Field Marketing"
 ---
 
-## Welcome to the Field Writing Handbook!
-
-[Up one level to the Developer Relations Handbook](/handbook/marketing/developer-relations/)
+## Welcome to the Field Marketing Handbook!
 
 ## On this page
 * [Events overview](#events)
@@ -93,7 +91,7 @@ Field marketing includes event marketing and swag production.
 
 ## Booth Set Up<a name="setup"></a>
 
-- To Bring: 
+- To Bring:
     - Generic business cards
     - [Lego business card holder] (https://gitlab.com/gitlab-com/marketing/issues/306#note_12536262)
     - Stickers + any other swag
@@ -102,7 +100,7 @@ Field marketing includes event marketing and swag production.
     - Gum
 
 ## Suggested Attire<a name="attire"></a>
-- Wear at least one piece of branded GitLab clothing.
+- Wear at least one piece of branded GitLab clothing. If you prefer to wear something dressier than the GitLab branded items available that is also acceptable. 
 - If the conference is business casual try some nice jeans (no holes) or pants.
 - Clean, closed-toed shoes please.
 - A smile.
@@ -110,7 +108,8 @@ Field marketing includes event marketing and swag production.
 ## Booth Staffing<a name="boothstaffing"></a>
 - Ideally booth shifts will be around 3 hours or less.
 - Staff more people during peak traffic hours.
-- Do not have shift changes during peak hours.
+- Avopid shift changes during peak hours.
+- Aim to staff booth with individuals with a variety of expertise- ideally multiple deparments will be represented.
 - Send out calendar invites to booth staff with the following information:
     - Time and date of event, booth, and shift
     - Suggested attire
@@ -153,8 +152,8 @@ Field marketing includes event marketing and swag production.
 
 ## Swag<a name="swag"></a>
 
-* We aim to have our swag delight and or be useful.
-* We aim to make limited edition and themed swag for the community to collect.
+* We aim to have our swag delight and/ or be useful.
+* We aim to make limited edition and themed swag for the community to collect. Bigger events will have custom tanuki stickers in small runs, only available at specific event.
 * We aim to do swag in a way that doesn't take a lot of time to execute => self serve => [web shop](https://gitlab.mybrightsites.com/)
 * With a web shop you can just give people credit, they can pick what they want and provide shipping info.
 * Of course we love [stickers](http://opensource.com/business/15/11/open-source-stickers). We are working on special edition stickers for contributors to be announced May 2016- being shipped right now.
