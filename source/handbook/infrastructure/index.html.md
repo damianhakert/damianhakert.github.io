@@ -106,7 +106,15 @@ There are 2 kind of production events that we track:
   - If we don't know the root cause, also state it and leave the issue open for followup.
   - Add the outage issue to the infrastructure agenda for sharing the knowledge, or to asking for guidence.
 
-## Chef Cookbooks by GitLab
+## Chef cookbooks
+
+Some basic rules:
+- Use maintained cookbooks from https://supermarket.chef.io.
+- Create a wrapper cookbook whenever a feature is missing.
+- Make sure our custom cookbooks are public available from https://gitlab.com/gitlab-cookbooks.
+- Make sure there is a copy in our DEV environment https://dev.gitlab.org/cookbooks and setup push mirror to keep it in sync.
+- Berkshell should only point to our cookbooks in DEV so we are able to fix our cookbooks whenever GitLab.com comes unavailable.
+
 
 ## Make GitLab.com settings the default
 
