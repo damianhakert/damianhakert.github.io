@@ -168,6 +168,34 @@ Current state
 - We currently send out two newsletters a month. One is is on the second Tuesday of the month and the other is on the monthly release day (22nd).
 - The newsletters are scheduled to go out between 8 and 9 am Pacific time.
 
+
+
+We generally create the issue and Marketo program for the newsletter at least a week in advance of it being sent out. This gives us ample time decide which content will go into the newsletter. The Marketo program is created by cloning the previous newsletter that was sent out.
+
+Currently, the newsletter consists of four blocks of content. Each block of content consists of the following:
+- Title/topic
+- Link and call-to-action
+- Description/copy
+
+For example:
+
+![newsletter block example](https://gitlab.com/gitlab-com/www-gitlab-com/raw/update-newsletters-handbook/source/images/handbook/marketing/newsletter-example-block.png)
+
+The different content ideas are placed in the newsletter issue using the following format:
+```
+[Required] title/topic:
+
+link:
+
+copy:
+
+[Required] link is live/available as of this comment? YES/NO
+```
+
+After the content for the newsletter is finalized, build out the newsletter in Marketo. Be sure to update all the links with the appropriate UTM tracking parameters.
+
+Once the newsletter content is updated, send a test email to `marketing@gitlab.com` and `robert@gitlab.com` and get feedback from everyone on copy, links, layout, etc. Implement whatever changes need to be made and send new test emails until the email is ready. Once it's ready, schedule the email within Marketo.
+
 ## Webcasts<a name="webcasts"></a>
 
 1. Create webcast in On24
