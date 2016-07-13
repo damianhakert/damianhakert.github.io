@@ -127,6 +127,7 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 * [ ] Scalability and High Availability
     - [Recording 2015-12-03](https://www.youtube.com/watch?v=cXRMJJb6sp4&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=2)
     - [High Availability Documentation](https://about.gitlab.com/high-availability/)
+    - [High Availability AWS Tutorial](https://www.youtube.com/watch?v=57qIiunuhaQ)
 
 * [ ] Managing LDAP, Active Directory
     - [Recording of what it is and how to set it up](https://www.youtube.com/watch?v=HPMjM-14qa8)
