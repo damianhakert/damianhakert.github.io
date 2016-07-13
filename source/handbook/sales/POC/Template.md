@@ -3,14 +3,6 @@ layout: markdown_page
 title: "Sales Onboarding"
 ---
 
-Every salesperson who starts at GitLab will enter an intense 30-day sales bootcamp. 
-
-```
-### Stage 1
-
-**Familiarize yourself with the basics**
-
-* [ ] Understanding [terminolo
 
 -----------------------------
 ### TRIAL GUIDELINES
