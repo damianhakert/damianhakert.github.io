@@ -141,6 +141,8 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 * [ ] Upcoming in EE and Big files in Git (Git LFS, Annex)
     - [Upcoming in EE](https://gitlab.com/gitlab-org/University/blob/master/classes/upcoming_in_ee.md)
     - [Big files in Git (Git LFS, Annex)](https://gitlab.com/gitlab-org/University/blob/master/classes/git_lfs_and_annex.md)
+    
+* [ ] Familiarize yourself with our [product direction](https://about.gitlab.com/direction/).  Pay special attention to new features for EE and EE Options.  Each feature that is hyperlinked will take you to the issue to learn more.  
 
 * [ ] [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 
@@ -156,6 +158,7 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 * [ ] Complete TrainTool Course - Closing Techniques
 * [ ] Complete TrainTool Course - Handling Pricing Objections
 * [ ] Record a demo using WebEx and send to your manager and Chad Malchow.  Demo scenario is an organization with 500 seats who uses Jira and BitBucket for a few teams, subversion within a couple teams and GitLab CE is also installed.
+* [ ] Within this sales bootcamp issue, please submit a comment with a link to an EE Option and the names of salespeople you have seen contribute to the discussion.
 
 ### Stage 4 <a name="stage-4"></a>
 
