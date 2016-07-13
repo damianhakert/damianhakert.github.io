@@ -19,7 +19,7 @@ The GitLab Marketing team includes four functional groups: Demand Generation, De
 
 ----
 
-## <i class="fa fa-book fa-fw purple font-awesome" aria-hidden="true"></i> Marketing Handbooks
+## <i class="fa fa-book fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing Handbooks
 {: #marketing-handbooks}
 
 - [Blog]
@@ -40,7 +40,7 @@ The GitLab Marketing team includes four functional groups: Demand Generation, De
 
 ----
 
-## <i class="fa fa-gitlab fa-fw orange font-awesome" aria-hidden="true"></i> GitLab Marketing Mission
+## <i class="fa fa-gitlab fa-fw icon-color font-awesome" aria-hidden="true"></i> GitLab Marketing Mission
 {: #mission}
 
 <br>
@@ -51,7 +51,7 @@ We think GitLab (.com, CE, and EE) can help developers, designers, IT workers, m
 
 The GitLab marketing team is composed of a unique set of individuals from interesting backgrounds all over the world. Because of our unique skill sets, we're able to accomplish a lot of high impact campaigns through collaboration and open feedback from our team and the community.
 
-## <i class="fa fa-user fa-fw purple font-awesome" aria-hidden="true"></i> Marketing Team Functional Groups
+## <i class="fa fa-users fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing Team Functional Groups
 {: #groups}
 
 Our Marketing team is lead by [Ashley Smith][ashley] - [Chief Marketing Officer (CMO)][cmo]. It is split into four key functional groups, which are equally important for the success of GitLab:
@@ -290,7 +290,7 @@ What is Partner Marketing (to be included)
 {::options parse_block_html="false" /}
 <!-- END MARKDOWN + HTML PARSER -->
 
-## <i class="fa fa-suitcase fa-fw orange font-awesome" aria-hidden="true"></i> Marketing Production
+## <i class="fa fa-suitcase fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing Production
 {: #marketing-products}
 
 <!-- The following HTML blocks are the Marketing Products boxes -->
@@ -398,7 +398,7 @@ What is Partner Marketing (to be included)
 </div>
 <!-- END OF MARKETING PRODUCTS -->
 
-## <i class="fa fa-clock-o fa-fw purple font-awesome" aria-hidden="true"></i> Marketing OKR Overview
+## <i class="fa fa-clock-o fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing OKR Overview
 {: #okrs}
 
 Our team and the demands on marketing are growing quickly. In order to align our goals with company goals as well as prioritize what we are working on, OKRs help us to maintain structure. Of course, not everything can be captured in one Google Sheet but this helps us all to know what we consider our goals as a team to be.  
@@ -418,7 +418,7 @@ To find the GitLab Marketing Team's OKRs, search the company Google Drive for "M
 - [Quick overview of OKRs](http://www.slideshare.net/HenrikJanVanderPol/how-to-outperform-anyone-else-introduction-to-okr)
 
 
-## Team OKRs
+### Team OKRs
 {: .no_toc}
 
 <br>
@@ -429,8 +429,8 @@ To find the GitLab Marketing Team's OKRs, search the company Google Drive for "M
 
 <br>
 
-## Hiring Plan
-{: .no_toc}
+## <i class="fa fa-user fa-fw icon-color font-awesome" aria-hidden="true"></i> Hiring Plan
+
 
 <br>
 
@@ -441,7 +441,7 @@ To find the GitLab Marketing Team's OKRs, search the company Google Drive for "M
 <br>
 
 
-## <i class="fa fa-users fa-fw orange font-awesome" aria-hidden="true"></i> Meetings and structure
+## <i class="fa fa-cogs fa-fw icon-color font-awesome" aria-hidden="true"></i> Meetings and structure
 {: #meetings}
 
 These are just the required meetings for team members and managers. Of course, meetings are encouraged when it expedites a project or problem solving amongst member so the team and company. Don't be afraid to say "Hey, can we hangout?" if you need help with something.
@@ -560,7 +560,7 @@ The meeting should run as follows:
 - Team agrees on what key takeaways are from the last quarter.  
 - Team agrees on what our Team OKRs should be for the upcoming quarter.  
 
-## <i class="fa fa-thumbs-o-up fa-fw purple font-awesome" aria-hidden="true"></i> Marketing team SLAs (Service Level Agreements)
+## <i class="fa fa-thumbs-o-up fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing team SLAs (Service Level Agreements)
 {: #sla}
 
 When working remotely in such a quick moving organization, it is important for a team to agree on a few basic service level agreements on how we would like to work together. With anything, things can come up that make it not possible to meet these SLAs but we all agree to use best effort when possible.    
@@ -572,7 +572,7 @@ When working remotely in such a quick moving organization, it is important for a
 - Try not to email co-workers on weekends. Try out [Boomerang](http://www.boomeranggmail.com/) and set all your emails to send Monday morning at 6 AM. People will think you're up and working early! Time off is important. We all have stressful weeks so please unplug on the weekends where possible.
 - Do not ping someone in a public channel on Slack on the weekends. This is rude.
 
-## <i class="fa fa-file-code-o fa-fw orange font-awesome" aria-hidden="true"></i> Marketing Handbook Updates
+## <i class="fa fa-file-code-o fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing Handbook Updates
 {: #handbook}
 
 Anything that is a process in marketing should be documented in the Marketing Handbook.
@@ -587,14 +587,14 @@ Anything that is a process in marketing should be documented in the Marketing Ha
 - If more than one person are performing a role, the task should be shared to update the handbook with all process or guidelines.
 - Follow the [Markdown Style Guide] for about.GitLab.com.
 
-## <i class="fa fa-rocket fa-fw purple font-awesome" aria-hidden="true"></i> How to contact marketing
+## <i class="fa fa-rocket fa-fw icon-color font-awesome" aria-hidden="true"></i> How to contact marketing
 {: #contact-marketing}
 
 - [**GitLab Marketing public issue tracker**](https://gitlab.com/gitlab-com/marketing/issues/); please use confidential issues for topics that should only be visible to team members at GitLab
 - You can also send an email to the Marketing team (see the "GitLab Email Forwarding" google doc for the alias).
 - [**Chat channel**](https://gitlab.slack.com/archives/marketing); please use the `#marketing` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
 
-### <i class="fa fa-slack fa-fw orange font-awesome" aria-hidden="true"></i> Slack Marketing channels
+### <i class="fa fa-slack fa-fw slack font-awesome" aria-hidden="true"></i> Slack Marketing channels
 {: #chat}
 
 We use Slack internally as a communication tool. The marketing channels are as follows:  
@@ -615,7 +615,7 @@ We use Slack internally as a communication tool. The marketing channels are as f
 - Support - Ask any and all technical questions here for a quick response.
 - SFDC users - Having issues with SFDC? Ask here first.
 
-### <i class="fa fa-paper-plane-o fa-fw purple font-awesome" aria-hidden="true"></i> Marketing email alias list
+### <i class="fa fa-paper-plane-o fa-fw email font-awesome" aria-hidden="true"></i> Marketing email alias list
 {: #email}
 
 - Community@gitlab.com is an external email address that goes to the CMO, Field Marketing Manager, Senior Product Marketing Manager, and Demand Generation team.  
@@ -666,7 +666,6 @@ We use Slack internally as a communication tool. The marketing channels are as f
 [mitchell]: https://gitlab.com/u/mitchellwright
 [ryan]: https://gitlab.com/u/rycap
 
-
 <!-- EXTRA STYLES APPLIED FOR THIS PAGE ONLY -->
 
 <style>
@@ -675,6 +674,12 @@ We use Slack internally as a communication tool. The marketing channels are as f
 }
 .orange {
   color:rgb(252,109,38) !important;
+}
+.md-page h2 i.icon-color {
+  color: rgb(107,79,187)
+}
+.md-page h2:nth-of-type(even) i.icon-color{
+  color:rgb(252,109,38);
 }
 .font-awesome {
   font-size: .70em;
@@ -769,7 +774,23 @@ ul.toc-list-icons li ul {
   padding-left: 35px;
 }
 ul.toc-list-icons li i,
-ul.toc-list-icons li ul li i{
+ul.toc-list-icons li ul li i {
   padding-right: 15px;
+  color: rgb(107,79,187);
+}
+.slack {
+  color: rgb(224,23,101);
+}
+.email {
+  color: rgb(192,0,0);
+}
+ul.toc-list-icons li:nth-of-type(even) i {
+  color:rgb(252,109,38);
+}
+ul.toc-list-icons li ul li i.slack {
+  color: rgb(224,23,101);
+}
+ul.toc-list-icons li ul li i.email {
+  color: rgb(192,0,0);
 }
 </style>
