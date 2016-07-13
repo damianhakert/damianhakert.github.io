@@ -198,28 +198,29 @@ The following quote metrics are available:
 1. Once quote is signed and attached to opportunity, via Sertifi or manually and quote has been successfully sent to z-billing, go into the opportunity and change the stage to closed won.
 1. A renewal opportunity will be automatically created for the account
 
-Returning Customer Creation Process(Upgrade/Renewals/Cancellations)
-1. Create an Opportunity for an Add-on or  Renewal 
+
+### Returning Customer Creation Process(Upgrade/Renewals/Cancellations)
+1. Create an Opportunity for an Add-on or Renewal 
 1. Once an opportunity is created click on New Quote button within the opportunity
 1. Since this is a returning customer, sales rep would see the following screen
 1. This screen determines that this customer is already established in Zuora and will allow the sales rep to perform on the 4 actions –
 
-New Subscription for the account
+#### New Subscription for the account
  * Amend existing subscription for this billing account
  * Renew existing subscription for this billing account
  * Cancel existing subscription for this billing account
  
-New Subscription for the account
+##### New Subscription for the account
 1. This will allow the Sales rep to create a new subscription for the existing billing account.
 1. Clicking on Next will take the sales rep thru the same Quoting flow that was seen the new Quote creation process
 
-Amend existing subscription for the billing account
+##### Amend existing subscription for the billing account
 1. This process is used to perform any Upgrades on an existing subscription
 1. Choosing “Amend existing subscription for billing account”, will allow sales rep to perform amendment to an existing subscription.(Upgrades)
 1. Clicking on the this radio button will list all subscriptions that are tied to the customer
 1. Click to choose the subscription for performing an Amendment and hit on Next button
 
-Zuora Supporting 4 types of Amendments –
+#### Zuora Supporting 4 types of Amendments –
 1. Terms and Conditions amendment – The sales rep will be able to change the terms and conditions of an existing subscription;
 1. Remove product Amendment – The sales rep will be be able to perform a Remove a product Amendment;
  * In this case, sales rep will have to Set the Start date(Contract effective date in Zuora terms) when the remove product amendment should happen
@@ -230,7 +231,7 @@ Zuora Supporting 4 types of Amendments –
 1. Update Product Amendment – Sales rep can update the existing product of the existing selected product
  * Note: Do not change the Terms and conditions unless you are performing a terms and conditions amendment(except for start date).
 
-Let’s take an Example – Let’s say a sales rep is performing an upgrade to a customer from Basic to Standard product
+##### Let’s take an Example – Let’s say a sales rep is performing an upgrade to a customer from Basic to Standard product
 This will include 3 steps –
 1. Set the Start date
 1. Remove the basic product
