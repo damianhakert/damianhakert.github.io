@@ -82,6 +82,10 @@
   picture: roshi.jpg
   human: jared
   story: Like many other species of developer, this hungry hedgehog is nocturnal. When Roshi is not performing code reviews, he can be found mistaking hair brushes for his siblings.
+- name: Sundae
+  picture: sundae.jpg
+  human: alex
+  story: Overeager cuddler and bread thief.
 - name: Alex
   picture: alex.jpg
   human: taurie
