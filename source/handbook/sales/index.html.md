@@ -18,10 +18,9 @@ title: "Sales Handbook"
 * [When to create an Opportunity](#opportunity)
 * [Opportunity Naming Convention](#naming)
 * [Opportunity Types](#types)
-* [Adding Products to an Opportunity](#products)
 * [Opportunity Stages](#stages)
-* [Closing A Won Deal](#closing)
 * [Processing Orders](#processing)
+* [Closing A Won Deal](#closing)
 * [Using Cases in Salesforce](#cases)
 * [Process after you sell a Premium Support Subscription](#premium-support)
 * [Export Control Classification, and Countries We Do Not Do Business In](#export-control)
@@ -93,24 +92,6 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 1. Verbal Commitment - how a company approves s business teams desire to purchase, how the company vets purchases from a legal, info security, risk, compliance and vendor management perspective
 1. Won - Deal won and booked
 1. Lost - Opportunity not won at this time
-
-### Closing a Won Deal <a name="closing"></a>
-
-In order to close a deal in Salesforce.com, one of the following must happen:
-
-1. Client paid via Credit Card
-1. Prospect has returned a signed quote (attach to the opportunity). Quote is needed for non online purchases to confirm what was purchased, the effective dates and the cost.  Quote is also needed to confirm they agree to terms and conditions.  
-
-Once the above has happened, please make sure the following actions are done:
-
-1. Attach any signed agreement, PO, and/or quote as an attachment to the account page/object in Salesforce.com
-1. Add in the competition we were up against in the opportunity.  This can be the legacy SCM solution they had and/or who they were evaluating along side of us. This can also be ourselves, meanign GitLab CE or .com
-1. Create an add-on or Existing Account (new division) opportunity if there has been one identified by you at this time.
-1. An automated task is created to check in with the Account, 30 days after the deal closes.  The purpose for this check in is to make sure they are happy, address any questions they have, ask them to be a reference or to speak with our product marketing team on how they use GitLab.
-  * If the customer agrees to be a reference, please check the box on the account object called "referenceable customer".  Also go to the contact object who agreed to be a reference and under the field "role" please select "reference - investors and prospects"
-  * If customer agrees to speak with product marketing about how they use GitLab, please email product marketing manager
-1. Once the opportunity is closed won, the field "type" on the account object will change to "customer"
-1. A task will be auto created in Salesforce.com reminding you to update the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
 
 ### Processing Orders via Zuora <a name="processing"></a>
 
@@ -303,6 +284,24 @@ Please see screenshot below -
 1. Upon clicking on the field sales rep will be listed with all Billing Accounts from Zuora. 
 1. Sales rep will select the right partner name since the partner is already established in Zuora
 1. Clicks on Next and selects the products and click on Next
+
+### Closing a Won Deal <a name="closing"></a>
+
+In order to close a deal in Salesforce.com, one of the following must happen:
+
+1. Client paid via Credit Card
+1. Prospect has returned a signed quote (attach to the opportunity). Quote is needed for non online purchases to confirm what was purchased, the effective dates and the cost.  Quote is also needed to confirm they agree to terms and conditions.  
+
+Once the above has happened, please make sure the following actions are done:
+
+1. Attach any signed agreement, PO, and/or quote as an attachment to the account page/object in Salesforce.com
+1. Add in the competition we were up against in the opportunity.  This can be the legacy SCM solution they had and/or who they were evaluating along side of us. This can also be ourselves, meanign GitLab CE or .com
+1. Create an add-on or Existing Account (new division) opportunity if there has been one identified by you at this time.
+1. An automated task is created to check in with the Account, 30 days after the deal closes.  The purpose for this check in is to make sure they are happy, address any questions they have, ask them to be a reference or to speak with our product marketing team on how they use GitLab.
+  * If the customer agrees to be a reference, please check the box on the account object called "referenceable customer".  Also go to the contact object who agreed to be a reference and under the field "role" please select "reference - investors and prospects"
+  * If customer agrees to speak with product marketing about how they use GitLab, please email product marketing manager
+1. Once the opportunity is closed won, the field "type" on the account object will change to "customer"
+1. A task will be auto created in Salesforce.com reminding you to update the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
 
 ### Using Cases in Salesforce <a name="cases"></a>
 
