@@ -553,7 +553,9 @@ send a copy of the document to legal@gitlab.com with the following information:
 3. Any contractual information that needs to be included in the document.
 4. Deadline by which you need the document prepared.
 5. Deadline by which you need the document to be signed, dated and submitted.
-
+6. Email address and name of third party if you want the signed document to be sent directly to that party once signed.
+  
+Unless otherwise stated, the signed document should be sent to the person who sent the request for signature.
 The document will be managed through HelloSign, a cloud-based electronic
 signature tool. Only C-level executives can sign legal documents, with the
 exception of NDAs covering a physical visit of another organization.
