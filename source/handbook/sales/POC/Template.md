@@ -11,7 +11,7 @@ It also identifies your current challenges and the accompanying business problem
 
 that these challenges generate. Lastly, we identify the specific Success Criteria for your
 
-Trial, GitLab's and your company's commitment and the timeframe of the Trial. 
+Trial as well GitLab's and your company's commitment and the timeframe of the Trial. 
 
 Since this project requires the use of resources from both of our companies, we request
 
@@ -29,7 +29,7 @@ Control and Collaboration – there is no companywide standard.
 
 •	As a contractor of the United States Government, Your Company needs to comply
 
-with strict Federal security requirements – FedRamp FISMA certification
+with strict Federal security requirements
 
 •	Your Company has between 500 – 600 Teams who use the current systems
 
@@ -39,11 +39,9 @@ with strict Federal security requirements – FedRamp FISMA certification
 
 •	Improved Control, Visibility, Manageability and Reporting
 
-•	Have the chosen solution hosted in the Amazon GovCloud
-
-•	FedRamp FISMA Compliance
-
 •	Better User and Group Management
+
+•	Additional Items
 
 #### CHALLENGES
 
