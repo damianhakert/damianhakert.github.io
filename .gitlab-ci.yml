@@ -12,6 +12,13 @@ cache:
   paths:
     - vendor
 
+lint:
+  stage: test
+  script:
+    - bundle exec rake lint
+  tags:
+    - docker
+
 build:
   stage: build
   script:
@@ -21,13 +28,6 @@ build:
   artifacts:
     paths:
       - public/
-
-lint:
-  stage: test
-  script:
-    - bundle exec rake lint
-  tags:
-    - docker
 
 deploy:
   stage: deploy
