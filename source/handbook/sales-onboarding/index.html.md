@@ -54,6 +54,8 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
     - [Recording](https://www.youtube.com/watch?v=raXvuwet78M)
     - Supporting: [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 
+* [ ] [Repositories, Projects and Groups](https://www.youtube.com/watch?v=4TWfh1aKHHw)
+
 **Stage 1 Tests**
 
 * [ ] [Version Control Systems Test](http://goo.gl/forms/8H8SNcH70T)
@@ -93,6 +95,7 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 
 * [ ] GitLab Flow
     - [Recording of what it is](https://www.youtube.com/watch?v=UGotqAUACZA)
+    - [Intro to GitLab Workflow](https://www.youtube.com/watch?v=enMumwvLAug)
     - [GitLab Flow blog post](/2014/09/29/gitlab-flow/)
     - [GitLab Flow documentation](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
 
@@ -138,6 +141,11 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 * [ ] GitLab 8.2
     - [Recording 2015-11-19](https://www.youtube.com/watch?v=09RLHyMFfpA&index=3&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e)
     - [Slides](https://gitlab.com/gitlab-org/University/blob/master/classes/8.2.markdown) 2015-11-19
+    
+* [ ] GitLab CI
+    - [GitLab CI](https://about.gitlab.com/gitlab-ci/)
+    - [Getting started with CI in GitLab](https://www.youtube.com/watch?v=Hs8LCilGVaM)
+    - [Documentation](http://docs.gitlab.com/ce/ci/)
 
 * [ ] Upcoming in EE and Big files in Git (Git LFS, Annex)
     - [Upcoming in EE](https://gitlab.com/gitlab-org/University/blob/master/classes/upcoming_in_ee.md)
