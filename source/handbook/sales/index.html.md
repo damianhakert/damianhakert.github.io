@@ -238,7 +238,7 @@ This will include 3 steps –
 1. Add the Standard product
  * Hit on Save
  
- #### Let's take another Example - Let's say a customer once to add more seats to their license.  
+##### Let's take another Example - Let's say a customer once to add more seats to their license.  
  This will include 2 steps -
  1. Set the start date
  1. Change the quantity field to reflect the new total number of seats
@@ -272,7 +272,7 @@ Renew existing subscription wth a "true-up" for the billing account
 1. Enter the Renewal term in months
 1. Will hit on Next
 1. On the product selector page, add the true up product
- * enter the number of seats they are truing up.  Add in the price of the seat, 50% of price they paid.
+ * enter the number of seats they will true-up.  Add in the price of the seat, 50% of price they paid.
 1. Next, update their current subscription to reflect the new total number of seats they will be renewing for which will be equal or greater than the amount they had with their subscription plus the true up amount.
 1. Once on the Quote Summary, will click on generate PDF to generate a Quote PDF
 1. Send it to the customer, via Sertifi button within Zquote screen
