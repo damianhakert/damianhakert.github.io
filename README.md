@@ -167,7 +167,7 @@ short explanation what each does.
 | ----- | ----------- |
 | `title` | The headline of the article, make sure to include it inside double quotes and remove the trailing period if any. |
 | `link` | The URL that links back to the article. If a press release is hosted on our website, you must first create a blog post with the press release. Create it like any other blog post and make sure to include the `categories: press` in the [frontmatter]. The category is essential if you want the post to appear in the [press category]. That way we can have a list of press posts hosted on our website. |
-| `date` | The date should be in ISO format as stated in the handbooks's [Writing Style Guidelines] (see bullet 4). Make sure to make this right as this value is used make the links listed in descending order (newest to oldest). |
+| `date` | The date should be in ISO format as stated in the handbooks's [Writing Style Guidelines][] (see bullet 4). Make sure to make this right as this value is used make the links listed in descending order (newest to oldest). |
 
 [frontmatter]: https://about.gitlab.com/handbook/marketing/blog/#frontmatter
 [Writing Style Guidelines]: https://about.gitlab.com/handbook/#writing-style-guidelines
