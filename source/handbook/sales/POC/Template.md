@@ -129,7 +129,7 @@ any open issues.
 allotted timeframe.
 
 
-## ESTIMATED START DATE / DURATION:  July 8, 2016 for 30 days.
+## ESTIMATED START DATE / DURATION:  Month Day, 2016 for 21 days.
 
 
 
