@@ -223,7 +223,7 @@ The following quote metrics are available:
 #### Zuora Supporting 4 types of Amendments –
 1. Terms and Conditions amendment – The sales rep will be able to change the terms and conditions of an existing subscription;
 1. Remove product Amendment – The sales rep will be be able to perform a Remove a product Amendment;
- * In this case, sales rep will have to Set the Start date(Contract effective date in Zuora terms) when the remove product amendment should happen
+ * In this case, sales rep will have to Set the Start date (Contract effective date in Zuora terms) when the remove product amendment should happen
  * Click on Next
  * This will take them to the product selector page and displays the original product that was purchased within the subscription
  * Sales rep can now remove the product
@@ -237,9 +237,15 @@ This will include 3 steps –
 1. Remove the basic product
 1. Add the Standard product
  * Hit on Save
+ 
+ #### Let's take another Example - Let's say a customer once to add more seats to their license.  
+ This will include 2 steps -
+ 1. Set the start date
+ 1. Change the quantity field to reflect the new total number of seats
+  * Hit on Save
 
 Once on the Quote Summary, will click on generate PDF to generate a Quote PDF
-Send it to the customer - only if there is no record of a signed quote.
+Send it to the customer - only if there is no record of a signed quote. If customer purchased online, they agreed to our terms and condition, so no need to have them sign a quote.  It is ideal though.
 Upon Sign-off, or existing signed quote, click on the Send to Z-billing button to send the Quote over to Zuora
  
 Renew existing subscription for the billing account
@@ -251,9 +257,27 @@ Renew existing subscription for the billing account
 1. Enter the Renewal term in months
 1. Will hit on Next
 1. Skip the product selector page, unless want to update the QTY or want to add a new product
+ * if they are adding more seats, change the quantity field to reflect the new total number of seats
 1. Once on the Quote Summary, will click on generate PDF to generate a Quote PDF
-1. Send it to the customer
+1. Send it to the customer, via Sertifi button within Zquote screen
 1. Upon Sign-off will click on the Send to Z-billing button to send the Quote over to Zuora
+1. Close Won the opportunity
+
+Renew existing subscription wth a "true-up" for the billing account
+1. This process is used to perform a Renewal on an existing subscription and to add a one time charge for true up; this is only created if the AUTO RENEW Flag is set to “NO” for a subscription initially.
+1. Choosing “Renew existing subscription for billing account”, will allow sales rep to perform Renewal to an existing subscription;
+1. Clicking on the this radio button will list all subscriptions that are tied to the customer
+1. Clicking on next will take the sales to the Create Renewal Quote page
+1. Sales rep will select the renewal Quote Template from the list
+1. Enter the Renewal term in months
+1. Will hit on Next
+1. On the product selector page, add the true up product
+ * enter the number of seats they are truing up.  Add in the price of the seat, 50% of price they paid.
+1. Next, update their current subscription to reflect the new total number of seats they will be renewing for which will be equal or greater than the amount they had with their subscription plus the true up amount.
+1. Once on the Quote Summary, will click on generate PDF to generate a Quote PDF
+1. Send it to the customer, via Sertifi button within Zquote screen
+1. Upon Sign-off will click on the Send to Z-billing button to send the Quote over to Zuora
+1. Close Won the opportunity
  
 Cancel existing subscription for the billing account
 1. This process is used to perform Cancellation of an existing subscription;
