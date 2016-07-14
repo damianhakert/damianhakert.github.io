@@ -429,6 +429,7 @@
   gitlab: balameb
   maintains: |
              <li>On-call hero!</li>
+             <li>Maintainer of <a href="https://gitlab.com/gitlab-org/University">GitLab University</a></li>
              <li><a href="https://hackerone.com/gitlab">HackerOne lead</a></li>
              <li><a href="https://about.gitlab.com/handbook/support/">Support Team Lead</a></li>
   story:  |
@@ -766,8 +767,6 @@
   picture: felipe.jpg
   twitter: juanpintoduran
   gitlab: cabargas
-  maintains:  |
-                <li>Maintainer of <a href="https://gitlab.com/gitlab-org/University">GitLab University</a></li>
   story:  |
           Felipe is a rubyist from Chile trying to get more people into the Git boat. He likes to comunicate tech to non-tech individuals and help local communities reach more people. When AFK, he is desoldering stuff, 3D printing Star Wars models or in the stadium with his father and brother cheering for 'La U'.
 
