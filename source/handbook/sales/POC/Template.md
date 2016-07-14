@@ -1,11 +1,9 @@
 ---
 layout: markdown_page
-
+title: "GitLab POC Template"
 ---
 
 ```
-
-
 -----------------------------
 ### TRIAL GUIDELINES
 
@@ -139,8 +137,7 @@ allotted timeframe.
 
 - [ ] *GitLab Representative, Title, Date*
 
-
-***
+```
 
 
 
