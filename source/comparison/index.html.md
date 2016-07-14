@@ -198,6 +198,15 @@ pulling from repositories.
 
 [Read the Geo docs for more information](http://docs.gitlab.com/ee/gitlab-geo/README.html)
 
+### Lock Files
+File locking in GitLab Enterprise Edition allows you to lock any file or
+directory. This ensures that no one will work on or overwrite work that
+can't be merged easily, for instance when working with art assets or
+other non-text files.
+
+[File locking is available as an Enterprise Edition option](https://about.gitlab.com/pricing/).
+
+[Read the File Locking documentation](http://docs.gitlab.com/ee/user/project/file_lock.html#sts=File Lock)
 
 ### Use the most installed on-premises Git solution
 GitLab is used by over 100,000 organizations worldwide, on their own servers.
