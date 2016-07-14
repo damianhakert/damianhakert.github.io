@@ -23,6 +23,7 @@ title: "Sales Handbook"
 * [Closing A Won Deal](#closing)
 * [Using Cases in Salesforce](#cases)
 * [Process after you sell a Premium Support Subscription](#premium-support)
+* [Contributing to EE Direction](#EE-Direction)
 * [Export Control Classification, and Countries We Do Not Do Business In](#export-control)
 
 ## Pages inside Sales Handbook <a name="pages"></a>
@@ -363,6 +364,10 @@ Once you close a Premium Support Subscription deal, you need to do a few things.
 Once this is determined, please add the Dedicated Service Engineer to the Salesforce account with the drop down.
 1. The next step is to introduce your client to their Dedicated Engineer, and if necessary, work together to schedule an on-boarding call to cover any questions, and give an overview of the support they are entitled to.
 1. You would have probably brought this up prior to the deal closing, but if the client is interested in joining the Slack support channel, please work with the Dedicated Engineer to make this happen.
+
+#### Contributing to EE Direction <a name="EE-Direction"></a>
+Being in a customer facing role, salespeople are expected to contribute to [GitLab Direction](https://about.gitlab.com/direction/).  Each day we talk to customers and prospects we have the opportunity to hear of a feature they find valuable or to give feedback (positive and constructive) to an EE feature that there is an issue for.
+When you hear of feedback or you personally have feedback, we encourage you to comment within the issue, if one exists, or create your own issue on our [EE Issue Tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues). Checking the [GitLab Direction](https://about.gitlab.com/direction/) page and the [EE Issue Tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues) should happen throughout the week.
 
 ### Export Control Classification, and Countries We Do Not Do Business In <a name="export-control"></a>
 
