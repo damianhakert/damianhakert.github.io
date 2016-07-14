@@ -89,9 +89,7 @@ goal is achieved, it will be checked as completed:
 
 - [ ] Active/Active Configuration
 
-- [ ] Reproduce part of their project groups structure
-
-- [ ] Run GitLab in the Amazon GovCloud
+- [ ] Reproduce part of company project groups structure
 
 - [ ] Special Use Case
 
