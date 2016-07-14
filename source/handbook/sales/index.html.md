@@ -240,16 +240,16 @@ This will include 3 steps –
  * Hit on Save
  
 ##### Let's take another Example - Let's say a customer once to add more seats to their license.  
- This will include 2 steps -
- 1. Set the start date
- 1. Change the quantity field to reflect the new total number of seats
-  * Hit on Save
+This will include 2 steps -
+1. Set the start date
+1. Change the quantity field to reflect the new total number of seats
+ * Hit on Save
 
 Once on the Quote Summary, will click on generate PDF to generate a Quote PDF
 Send it to the customer - only if there is no record of a signed quote. If customer purchased online, they agreed to our terms and condition, so no need to have them sign a quote.  It is ideal though.
 Upon Sign-off, or existing signed quote, click on the Send to Z-billing button to send the Quote over to Zuora
  
-Renew existing subscription for the billing account
+##### Renew existing subscription for the billing account
 1. This process is used to perform Renewal on an existing subscription; this is only created if the AUTO RENEW Flag is set to “NO” for a subscription initially.
 1. Choosing “Renew existing subscription for billing account”, will allow sales rep to perform Renewal to an existing subscription;
 1. Clicking on the this radio button will list all subscriptions that are tied to the customer
@@ -264,7 +264,7 @@ Renew existing subscription for the billing account
 1. Upon Sign-off will click on the Send to Z-billing button to send the Quote over to Zuora
 1. Close Won the opportunity
 
-Renew existing subscription wth a "true-up" for the billing account
+##### Renew existing subscription wth a "true-up" for the billing account
 1. This process is used to perform a Renewal on an existing subscription and to add a one time charge for true up; this is only created if the AUTO RENEW Flag is set to “NO” for a subscription initially.
 1. Choosing “Renew existing subscription for billing account”, will allow sales rep to perform Renewal to an existing subscription;
 1. Clicking on the this radio button will list all subscriptions that are tied to the customer
@@ -280,7 +280,7 @@ Renew existing subscription wth a "true-up" for the billing account
 1. Upon Sign-off will click on the Send to Z-billing button to send the Quote over to Zuora
 1. Close Won the opportunity
  
-Cancel existing subscription for the billing account
+##### Cancel existing subscription for the billing account
 1. This process is used to perform Cancellation of an existing subscription;
 1. Choosing “Cancel existing subscription for billing account”, will allow sales rep to perform cancellation to an existing subscription;
 1. Clicking on the this radio button will list all subscriptions that are tied to the customer
