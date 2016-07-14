@@ -36,7 +36,7 @@ sure to mention someone in the other group(s) as you soon as you start working o
 This allows others to give you early feedback, which should save you time in the
 long run.
 2. Security: If a frontend developer needs to touch controller code, a
-backend developer should do a thorough review. An endboss should do a final review.
+backend developer/miniboss/endboss should do a thorough review.
 3. Big features/moonshots: If we do something ambitious where there are
 no previous examples and requires a high degree of complexity in both
 frontend and backend, form a team upfront that has UX designers, frontend, and
