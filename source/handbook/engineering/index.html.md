@@ -41,6 +41,9 @@ backend developer should do a thorough review. An endboss should do a final revi
 no previous examples and requires a high degree of complexity in both
 frontend and backend, form a team upfront that has UX designers, frontend, and
 backend engineers.
+4. Final review: A final review of a merge request should be made by an endboss.
+Frontend code should be reviewed by a frontend endboss, and backend code should be
+reviewed by a backend endboss.
 
 ## Resources for Engineering
 
