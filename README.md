@@ -147,3 +147,29 @@ If you want to tweak pdf_template.tex run `rake build` once, and
 If you want to tweak the source HAML/Markdown/HTML and see the changes
 in the final PDF you have to run `rake build pdfs` after each source
 change.
+
+## Press releases page
+
+Here's a mini how-to add a new press link to the [press releases] page.
+
+1. Open `data/press.yml` with an editor (do **not** use Microsoft Word).
+1. Copy paste the previous block leaving a newline between.
+1. Edit it to your needs and save.
+1. Visit <http://localhost:4567/press/releases/> and make sure it appears in
+   the list.
+1. When ready, commit the changes, push to the repository and open an MR for
+   review.
+
+As you can see, there are three values, `title`, `link` and `date`. Here's a
+short explanation what each does.
+
+| Value | Description |
+| ----- | ----------- |
+| `title` | The headline of the article, make sure to include it inside double quotes and remove the trailing period if any. |
+| `link` | The URL that links back to the article. If a press release is hosted on our website, you must first create a blog post with the press release. Create it like any other blog post and make sure to include the `categories: press` in the [frontmatter]. The category is essential if you want the post to appear in the [press category]. That way we can have a list of press posts hosted on our website. |
+| `date` | The date should be in ISO format as stated in the handbooks's [Writing Style Guidelines] (see bullet 4). Make sure to make this right as this value is used make the links listed in descending order (newest to oldest). |
+
+[frontmatter]: https://about.gitlab.com/handbook/marketing/blog/#frontmatter
+[Writing Style Guidelines]: https://about.gitlab.com/handbook/#writing-style-guidelines
+[press releases]: https://about.gitlab.com/press/releases/
+[press category]: https://about.gitlab.com/blog/categories/press
