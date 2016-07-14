@@ -149,6 +149,10 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 
 * [ ] [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=ae7b72c61347030e8aa75328ed4b8660)
 
+* [ ] [Idea to Production Video}(https://www.youtube.com/watch?v=pY4IbEXxxGY&feature=em-subs_digest)
+
+* [ ] Step-by-step demo script(https://about.gitlab.com/handbook/sales/demo/)
+
 * [ ] [Sales Onboarding materials](/handbook/sales-onboarding/)
 
 **Stage 3 tests**
@@ -158,7 +162,7 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 * [ ] Complete TrainTool Course - Asking Effective Questions
 * [ ] Complete TrainTool Course - Closing Techniques
 * [ ] Complete TrainTool Course - Handling Pricing Objections
-* [ ] Record a demo using WebEx and send to your manager and Chad Malchow.  Demo scenario is an organization with 500 seats who uses Jira and BitBucket for a few teams, subversion within a couple teams and GitLab CE is also installed.
+* [ ] Record a demo, referencing the [demo script](https://about.gitlab.com/handbook/sales/demo/), and using either Blue Jeans or WebEx. Send to your manager and Chad Malchow.  Demo scenario is an organization with 500 seats who uses Jira and BitBucket for a few teams, subversion within a couple teams and GitLab CE is also installed.
 * [ ] Within this sales bootcamp issue, please submit a comment with a link to an EE Option and the names of salespeople you have seen contribute to the discussion.
 
 ### Stage 4 <a name="stage-4"></a>
