@@ -91,12 +91,6 @@ GitLab not only allows you to search through code, but also searches through you
 
 agilob contributed [a great article about why you should choose GitLab for your next open source project.](https://b.agilob.net/choose-gitlab-for-your-next-project/)
 
-### Vote on comments
-
-GitHub allows you to vote on comments. GitLab is still working on this.
-
-> [GitLab issue to allow voting on comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3655)
-
 ### Drag and drop tasks
 
 You can change the order of tasks in markdown on GitHub.
