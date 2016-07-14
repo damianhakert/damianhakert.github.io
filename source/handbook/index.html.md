@@ -303,6 +303,7 @@ step, **re-assign** the issue to that person.
 ### Team Call<a name="team-call"></a>
 
 1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
+1. Every last Friday of the month we have a AMA to talk about anything our team is thinking about.
 1. We use Blue Jeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
 1. The call is recorded automatically, and recordings are automatically deleted after 7 days. Recordings can be found by logging in to the [BlueJeans web app](https://gitlab.bluejeans.com), click recordings at the top, and all past recordings show up there. The recordings are private, i.e. only people who are able to log in to the GitLab BlueJeans account can view the recordings. Since you [don't have Flash](#do-not-use), you'll need to download the recording as an `.mp4` file to view it. On some browsers, this requires scrolling to the right to reveal the "Download" button for a given recording, even though a scrollbar may not appear. Make sure the file is downloaded to your [encrypted home drive](/handbook/security/#encrypt-home-folder), and delete it after viewing.
 1. If you have previously logged on to Blue Jeans with different credentials, make sure to log out before joining the call as yourself. You don't need a Blue Jeans account to join the team call.
