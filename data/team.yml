@@ -1298,16 +1298,16 @@
   story:  |
           Prior to joining Gitlab, Julie worked for a Californian based ISV, supporting the Sydney, Australia office. During this time, Julie spent 10 years covering work across operations, HR, finance and sales.  When she is not working, Julie is at the gym or having quiet catch-ups with friends over coffee. When time permits, she also enjoys a good game of poker.
 
-- name: C.B.
-  locality:
-  country:
+- name: Chet Backman
+  locality: Provo, UT
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-team-lead/">Business Development Team Lead</a>
   reports_to: Director of Demand Generation
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: chet.jpg
+  twitter: chetbackman
+  gitlab: chetbackman
   story:  |
-          Joining July 11th
+          Chet has been in tech sales for the past three years and has grown passionate about performance, user experience, and business development. Originally from Idaho (no he didn't live on a farm...) Chet loves hunting, fishing, and spending time in the outdoors as well as traveling and trying out new restaurants with his wife.
 
 
 - name: Ahmad Sherif
