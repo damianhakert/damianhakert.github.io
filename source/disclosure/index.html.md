@@ -15,4 +15,6 @@ is open source software, you can install a copy yourself and test against that. 
 If you want to perform testing without setting GitLab up yourself please contact us to
 arrange access to a staging server.
 
+You can find more details on how we handle [security releases here](https://gitlab.com/gitlab-org/release-tools/blob/master/doc/security.md).
+
 On our website you can find more about [the availability and security of GitLab.com](https://about.gitlab.com/gitlab-com/#availability-and-security). Security issues that are not vulnerabilities can be seen on [our public issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name%5B%5D=security).

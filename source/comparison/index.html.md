@@ -91,12 +91,6 @@ GitLab not only allows you to search through code, but also searches through you
 
 agilob contributed [a great article about why you should choose GitLab for your next open source project.](https://b.agilob.net/choose-gitlab-for-your-next-project/)
 
-### Vote on comments
-
-GitHub allows you to vote on comments. GitLab is still working on this.
-
-> [GitLab issue to allow voting on comments](https://gitlab.com/gitlab-org/gitlab-ce/issues/3655)
-
 ### Drag and drop tasks
 
 You can change the order of tasks in markdown on GitHub.
@@ -185,9 +179,28 @@ Manage issues using Agile practices by setting the weight of an issue.
 [Issue Weights Documentation](http://doc.gitlab.com/ee/workflow/issue_weight.html)
 
 ### Merge Request Issue Templates
-Create a template for issues and merge requests in your project to ensure all information is entered correctly and to make it easy to standardise.
+Create a template for issues and merge requests in your project to ensure all information is entered correctly and to make it easy to standardize.
 
 [Templates for Issues and Merge Requests Documentation](http://doc.gitlab.com/ee/customization/issue_and_merge_request_template.html)
+
+### Geographic Replication with GitLab Geo
+GitLab Enterprise Edition can have a geographically replicated instance,
+so your remote teams don't have to wait for long downloads when cloning or
+pulling from repositories.
+
+[Geo is available as an Enterprise Edition option](https://about.gitlab.com/pricing/).
+
+[Read the Geo docs for more information](http://docs.gitlab.com/ee/gitlab-geo/README.html)
+
+### Lock Files
+File locking in GitLab Enterprise Edition allows you to lock any file or
+directory. This ensures that no one will work on or overwrite work that
+can't be merged easily, for instance when working with art assets or
+other non-text files.
+
+[File locking is available as an Enterprise Edition option](https://about.gitlab.com/pricing/).
+
+[Read the File Locking documentation](http://docs.gitlab.com/ee/user/project/file_lock.html#sts=File Lock)
 
 ### Use the most installed on-premises Git solution
 GitLab is used by over 100,000 organizations worldwide, on their own servers.
@@ -305,7 +318,3 @@ A single repository in Git is typically a number of times smaller than the same 
 * GitSwarm synchronization with Perforce happens as part of the commit portion of the push process.  It is synchronous.  If the push fails (because of a non fast-forward merge, for example) any fix needs to be addressed from the git end.  This is because Perforce doesn’t allow rewriting of committed history the way git does.  GitSwarm metadata not stored directly by git (comments, wiki messages, issues, etc.) is not pushed to Perforce.
 * GitLab Geo synchronization between GitLab nodes happens asynchronously.  The pushes are performed on a periodic basis. (Either scheduled via cron or initiated by a trigger of some kind).  If a push fails (because of a fast-forward merge, for example) the operation can be addressed on either of the GitLab systems.  Both are running git and both support git’s rewrite functionality.
 * GitLab EE Repository Mirroring to Perforce (via Git Fusion) is performed asynchronously.  If the push fails (because of a non fast-forward merge, for example) any fix needs to be addressed from the git end.  When mirroring this way the GitLab metadata not stored directly by git (comments, wiki messages, issues, etc.) is not pushed to Perforce.
-
-
-
-###

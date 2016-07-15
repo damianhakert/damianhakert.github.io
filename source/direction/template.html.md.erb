@@ -91,7 +91,6 @@ We very much welcome contributions that implement any of these things.
 - [Distributed code-reviews and issues](https://gitlab.com/gitlab-org/gitlab-ce/issues/4084)
 - [Render PSD files](https://gitlab.com/gitlab-org/gitlab-ce/issues/13189)
 - [Snippets backed by a git repository to enable cloning and revisions](https://gitlab.com/gitlab-org/gitlab-ce/issues/13426)
-- [Binary file lock (EE option)](https://gitlab.com/gitlab-org/gitlab-ce/issues/7889)
 
 ### Performance
 
@@ -111,48 +110,62 @@ We very much welcome contributions that implement any of these things.
 - [A/B testing of branches with GitLab Pages (EE option)](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
 - [Code coverage graphs and adding more metrics (EE option)](https://gitlab.com/gitlab-org/gitlab-ce/issues/13409)
 - [Pre-testing of merged results (EE option?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4176)
-- Feature deploy (measure KPI and use feature toggles) (EE option)
-- Automatic environment per merge request (EE option)
-- Automatic A/B testing of branches (EE option)
-- Configuration management integration (Chef, Puppet, Ansible, Salt) (EE option)
 
-### Access control
+### Moonshots
 
-- Directory access management (EE option)
-- Turnstile security that is self learning and location dependent (EE option)
-- Automated vulnerability scanner (EE option)
+- [Resolve merge conflicts in the browser](https://gitlab.com/gitlab-org/gitlab-ce/issues/3567)
+- [Automatic parallelization of tests](https://gitlab.com/gitlab-org/gitlab-ce/issues/3819)
+- [Allow me to work on todo's from my mobile, mobile apps](https://gitlab.com/gitlab-org/gitlab-ce/issues/18669)
+- [Real Time editing of description fields](https://gitlab.com/gitlab-org/gitlab-ce/issues/4199)
+- [Federated merge requests](https://gitlab.com/gitlab-org/gitlab-ce/issues/4013)
+- [.git namespace with onename](https://gitlab.com/gitlab-org/gitlab-ce/issues/4232)
+- [Run tests in the cloud pre-commit from a client](https://gitlab.com/gitlab-org/gitlab-ce/issues/19267)
+- [Copy-on-write fuse filesystem](https://gitlab.com/gitlab-org/gitlab-ce/issues/19292)
+- [Autocommit using auto-assigned approvers](https://gitlab.com/gitlab-org/gitlab-ce/issues/19293)
+- [CI suggesting edits](https://gitlab.com/gitlab-org/gitlab-ce/issues/19294)
+- [Comment on pictures](https://gitlab.com/gitlab-org/gitlab-ce/issues/2641)
+https://gitlab.com/gitlab-org/gitlab-ce/issues/2641
+- [Rebuild all containers](https://gitlab.com/gitlab-org/gitlab-ee/issues/592)
+- [Code to issue audit](https://gitlab.com/gitlab-org/gitlab-ee/issues/740)
+- [Clone MR](https://gitlab.com/gitlab-org/gitlab-ee/issues/741)
+- [Idea to production dashboard ](https://gitlab.com/gitlab-org/gitlab-ce/issues/18687#note_12633700)
+- [Machine learning to classify](https://gitlab.com/gitlab-org/gitlab-ce/issues/19369)
+- [GitLab as a package server](https://gitlab.com/gitlab-org/gitlab-ce/issues/19095)
+- [Commit bots for code cleanup](http://m.cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext) Be sure they don’t break other projects when they change a method or w/e in one project. Also want to see how other projects are using some feature.
 
-### Tracebility
+### EE Options
 
-- Watermarking of binaries that are downloaded (EE option)
-- Build traceability (trace binary to source) (EE option)
-- New code license detection (scans the internet) (EE option)
-
-### Analytics
-
-- Advanced compliance reporting on access rights (EE option)
-- Advanced analytics features (EE option)
-
-### Reporting
-
-- Aggregated time reports (time spent per project, etc.) (EE option)
-- Management dashboard (time spend per phase, cycle time and velocity) (EE option)
+- [A/B testing of branches with GitLab Pages](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
+- [Code coverage graphs and adding more metrics ](https://gitlab.com/gitlab-org/gitlab-ce/issues/13409)
+- [Pre-testing of merged results (EE option?)](https://gitlab.com/gitlab-org/gitlab-ce/issues/4176)
+- [Feature deploy (measure KPI and use feature toggles)](https://gitlab.com/gitlab-org/gitlab-ee/issues/779)
+- [Automatic environment per merge request](https://gitlab.com/gitlab-org/gitlab-ee/issues/684)
+- [Automatic A/B testing of branches](https://gitlab.com/gitlab-org/gitlab-ee/issues/117)
+- [Configuration management integration (Chef, Puppet, Ansible, Salt)](https://gitlab.com/gitlab-org/gitlab-ee/issues/780)
+- [Directory access management](https://gitlab.com/gitlab-org/gitlab-ee/issues/308)
+- [Turnstile security that is self learning and location dependent](https://gitlab.com/gitlab-org/gitlab-ee/issues/782)
+- [Automated vulnerability scanner](https://gitlab.com/gitlab-org/gitlab-ee/issues/781)
+- [Watermarking of binaries that are downloaded](https://gitlab.com/gitlab-org/gitlab-ee/issues/783)
+- [Build traceability (trace binary to source)](https://gitlab.com/gitlab-org/gitlab-ee/issues/622)
+- [New code license detection](https://gitlab.com/gitlab-org/gitlab-ee/issues/744)
+- [Advanced compliance reporting on access rights](https://gitlab.com/gitlab-org/gitlab-ee/issues/784)
+- [Advanced analytics features](https://gitlab.com/gitlab-org/gitlab-ee/issues/112) and [Delivery analytics](https://gitlab.com/gitlab-org/gitlab-ee/issues/110)
+- [Management dashboard (time spend per phase, cycle time and velocity)](https://gitlab.com/gitlab-org/gitlab-ce/issues/19793)
 
 ### Scope <a name="scope"></a>
 
 [Our vision](#vision) is the need for an integrated set of tools for the software development lifecycle based on convention over configuration.
 To achieve this we plan to ship the following stack of tools in our Omnibus package:
 
-1. **Chat** conversation => [Mattermost](http://www.mattermost.org/) ships with GitLab
-1. **Issue** creation => GitLab Issues ships with GitLab
-1. **Scrum** planning board => We're planning to make an [issue board](https://gitlab.com/gitlab-org/gitlab-ce/issues/17907)
-1. **IDE** => We're planning to ship an [IDE](https://gitlab.com/gitlab-org/gitlab-ce/issues/12759)
-1. **Version control** => GitLab Repositories ships with GitLab
-1. **Continuous integration** => [GitLab CI](https://about.gitlab.com/gitlab-ci/), and [Container Registry](https://about.gitlab.com/2016/05/23/gitlab-container-registry/) ship with GitLab. We would love to add support for [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044) and have an extended [vision for CI and CD](https://about.gitlab.com/direction/cicd/).
-1. **Code review** => GitLab Merge Requests ships with GitLab
-1. **Continuous Delivery** to deploy => [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) already ships many features.
-1. **Chatops** to check => Support to install [Cog](https://operable.io/) [quickly](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1211)
-1. **Wiki** to document => GitLab Wiki
+1. **Idea** (Chat) => [Mattermost](http://www.mattermost.org/) ships with GitLab
+1. **Issue** (Tracker) => GitLab Issues ships with GitLab
+1. **Plan** (Board) => We're planning to make an [issue board](https://gitlab.com/gitlab-org/gitlab-ce/issues/17907)
+1. **Code** (IDE) => We're planning to ship an [IDE](https://gitlab.com/gitlab-org/gitlab-ce/issues/12759)
+1. **Commit** (Repo) => GitLab Repositories ships with GitLab
+1. **Test** (CI) => [GitLab Continuous Integration](https://about.gitlab.com/gitlab-ci/), and [Container Registry](https://about.gitlab.com/2016/05/23/gitlab-container-registry/) ship with GitLab. We would love to add support for [CodeClimate](https://gitlab.com/gitlab-org/gitlab-ce/issues/4044) and have an extended [vision for CI and CD](https://about.gitlab.com/direction/cicd/).
+1. **Review** (MR) => GitLab Merge Requests ships with GitLab
+1. **Staging** (CD) => [GitLab Deploy](https://gitlab.com/gitlab-org/gitlab-ce/issues/3286) already ships many features.
+1. **Production** (Chatops) => We're planning to ship with [Cog integration](https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412)
 
 ### Monitoring
 

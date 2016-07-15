@@ -55,6 +55,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
    * [Work Remotely Travel Grant](#travel-grant)
 * [Signing Legal Documents](#signing-legal-documents)
 * [Working Remotely](#working-remotely)
+   * [Coffee Break Calls](#coffee-break-calls)
 * [Tools and Tips](#tools)
 * [Using Git to update this website](#starting-with-git)
 
@@ -72,7 +73,8 @@ yourself and your teammates. We want people to have the desire to ship.
 public we can reduce the threshold to contribution and make collaboration easier.
 An example is the [public repository of this website](https://gitlab.com/gitlab-com/www-gitlab-com/)
 that also contains this [company handbook](https://about.gitlab.com/handbook/).
-Everything we do is public by default, for example the [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues) and [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues) issue takers, but also [marketing](https://gitlab.com/gitlab-com/marketing/issues) and [operations](https://gitlab.com/gitlab-com/operations/issues). Transparency creates awareness for GitLab, allows us to recruit people that care about our culture, it gets us more and faster feedback from people outside the company, and makes it easier collaborate with them.
+Everything we do is public by default, for example the [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues) and [GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues) issue trackers, but also [marketing](https://gitlab.com/gitlab-com/marketing/issues) and [infrastructure](https://gitlab.com/gitlab-com/infrastructure/issues). Transparency creates awareness for GitLab, allows us to recruit people that care about our culture, it gets us more and faster feedback from people outside the company, and makes it easier collaborate with them.
+There are exceptions, material that is not public by default is documented in the [general guidelines](#general-guidelines).
 On a personal level you should tell it like it is instead of putting up a poker face. Don't be afraid to admit you made a mistake or were wrong. When something went wrong it is a great opportunity to say 'what’s the [kaizen](https://en.wikipedia.org/wiki/Kaizen) moment here' and find a better way without hurt feelings.
 1. **Sharing**: We care about giving great software, documentation, examples, lessons,
 and processes to the world. An example is the MIT licensed [GitLab CE](https://about.gitlab.com/features/). We believe that open source creates more value than it captures. We are grateful to our customers, users, partners, investors, and the open source ecosystem.
@@ -126,7 +128,7 @@ people. We try to hire people who think work is a great way to express themselve
 1. Share problems you run into, ask for help, be forthcoming with information and **speak up**.
 1. All our procedures and templates are stored in (mostly public) git repositories instead of Google/Word documents. This makes them easier to find and suggest changes to with the organization and shows our commitment to open collaboration outside the organization.
 1. Work out in the **open**, try to use public issue trackers and repositories when possible.
-1. Most things are **public** unless there is a reason not to, not public by default are: financial information, job applications/compensation/feedback and partnerships with other companies.
+1. Most things are **public** unless there is a reason not to, not public by default are: financial information, legal, job applications/compensation/feedback and partnerships with other companies.
 1. Share solutions you find and answers you receive with the **whole community**.
 1. If you make a mistake, don't worry, correct it and **proactively** let the affected party, your team, and the CEO know what happened, how you corrected it and how, if needed, you changed the process to prevent future mistakes.
 1. You can always **refuse** to deal with people that treat you badly and get out of situations that make you feel uncomfortable.
@@ -301,6 +303,7 @@ step, **re-assign** the issue to that person.
 ### Team Call<a name="team-call"></a>
 
 1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
+1. Every last Friday of the month we have a AMA to talk about anything our team is thinking about.
 1. We use Blue Jeans for the call since Hangouts is capped at 15 people, link is in the calendar invite.
 1. The call is recorded automatically, and recordings are automatically deleted after 7 days. Recordings can be found by logging in to the [BlueJeans web app](https://gitlab.bluejeans.com), click recordings at the top, and all past recordings show up there. The recordings are private, i.e. only people who are able to log in to the GitLab BlueJeans account can view the recordings. Since you [don't have Flash](#do-not-use), you'll need to download the recording as an `.mp4` file to view it. On some browsers, this requires scrolling to the right to reveal the "Download" button for a given recording, even though a scrollbar may not appear. Make sure the file is downloaded to your [encrypted home drive](/handbook/security/#encrypt-home-folder), and delete it after viewing.
 1. If you have previously logged on to Blue Jeans with different credentials, make sure to log out before joining the call as yourself. You don't need a Blue Jeans account to join the team call.
@@ -323,7 +326,7 @@ step, **re-assign** the issue to that person.
 ### Random Chat and Room<a name="random-room"></a>
 
 1. The [#random](https://gitlab.slack.com/archives/random) chat channel is your go-to place to share random ideas, pictures, articles, and more. It's a great channel to check out when you need a mental break.
-1. Come hang out any time in the **random room**, an open Google Hangout video chat where anyone with a GitLab email address can come and leave as they please. The link is in the description of the `#random` chat channel; consider bookmarking it.
+1. Come hang out any time in the **random room**, an open Google Hangout video chat where anyone with a GitLab email address can come and leave as they please. The link is in the description of the `#random` chat channel; consider bookmarking it. This room is open for all and should be distinct from the [Coffee Break Calls](#coffee-break-calls), which are 1x1 conversations between teammates.
 
 ### Scheduling meetings<a name="scheduling-meetings"></a>
 
@@ -424,7 +427,7 @@ intellectual property violations
 
 ## Spending Company Money<a name="spending-company-money"></a>
 
-In keeping with our values of results, freedom, efficiency, frugality, and boring solutons, we expect team members to take responsibility to determine what they need to purchase or expense in order to do their jobs effectively. We don't want you to have to wait with getting the items that you need to get your job done. You most likely know better than anyone else what the items are that you need to be successful in your job. The guidelines below describe what people in our team commonly expense.
+In keeping with our values of results, freedom, efficiency, frugality, and boring solutions, we expect team members to take responsibility to determine what they need to purchase or expense in order to do their jobs effectively. We don't want you to have to wait with getting the items that you need to get your job done. You most likely know better than anyone else what the items are that you need to be successful in your job. The guidelines below describe what people in our team commonly expense.
 
 1. Spend company money like it is your **own** money.
 1. You don't have to [ask permission](https://m.signalvnoise.com/if-you-ask-for-my-permission-you-wont-have-my-permission-9d8bb4f9c940#.qaa888pwq) before making purchases **in the interest of the company**. When in doubt, do **inform** your manager before the purchase, or as soon as possible after the purchase.
@@ -502,7 +505,7 @@ to each team member for the purpose of evangelizing the GitLab story.  You may u
 
 - The CEO, or CRO will announce on the team call if the target was met.
 - To claim the incentive, please submit your receipt through Expensify or include on your contractor invoice as a reimbursable expense.
-- Indicate on your receipt and in the comment section in expensify "GitLab evangelism" and the names of the other particpants.
+- Indicate on your receipt and in the comment section in expensify "GitLab evangelism" and the names of the other participants.
 - You should spend the incentive on eating out, and can be reimbursed _up to_ the maximum of 100 USD.
 - Use the incentive in the month following the announcement. So for example, if we reach our target in March, use your incentive in April.
 - If you cannot, or decide not to, use the incentive in the expected month, you can carry it over to the next month by notifying Accounts Payable before the 22nd of the month (release day!). You can only carry over one month in this way.
@@ -551,7 +554,9 @@ send a copy of the document to legal@gitlab.com with the following information:
 3. Any contractual information that needs to be included in the document.
 4. Deadline by which you need the document prepared.
 5. Deadline by which you need the document to be signed, dated and submitted.
-
+6. Email address and name of third party if you want the signed document to be sent directly to that party once signed.
+  
+Unless otherwise stated, the signed document should be sent to the person who sent the request for signature.
 The document will be managed through HelloSign, a cloud-based electronic
 signature tool. Only C-level executives can sign legal documents, with the
 exception of NDAs covering a physical visit of another organization.
@@ -575,6 +580,18 @@ If you worked at an office before, now you lack a default group to go out to
 lunch with. To look at it from a different perspective, now you can select who
 you lunch with and who you do not lunch with. Haven't spoken to a good friend in
 a while? Now you can have lunch together.
+
+### Coffee Break Calls
+
+Understanding that working remotely leads to mostly work-related conversations
+with fellow GitLabbers, everyone is encouraged to dedicate **a few hours a week**
+to having social calls with any GitLab employee - get to know who you work with,
+talk about everyday things and share a virtual cuppa' coffee. We want you to make
+friends and build relationships with the people you work with to create a more comfortable,
+well-rounded environment. The Coffee Break calls are different to the
+[Random Room](#random-room) video chat, they are meant for give you the option
+to have 1x1 calls with specific teammates you wish to speak with and is not a
+random, open-for-all channel but a conversation between two teammates.
 
 ## Tools and Tips<a name="tools"></a>
 

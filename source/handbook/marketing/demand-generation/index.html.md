@@ -28,10 +28,12 @@ The Demand Generation organization includes Demand Generation, Business Developm
 - [Demand Generation](/handbook/marketing/demand-generation/)  
 - [Online Marketing](/handbook/marketing/demand-generation/online-marketing/)  
 - [Business Development](/handbook/marketing/demand-generation/business-development)  
-- [Field Marketing](/handbook/marketing/demand-generation/field-marketing/)  
+- [Field Marketing](/handbook/marketing/demand-generation/field-marketing/)
+- [Marketing Operations](/handbook/marketing/demand-generation/marketing-operations/)  
 
 ## References<a name="references"></a>
 
+ - [July 2016 Demand Org Structure](https://docs.google.com/presentation/d/1yTly27oKyz1OW8L8L6jDv_3waxtgGNvfItDxBWCB9XU/edit?usp=sharing)
 - [Q1 ‘16 Lead Generation.pptx](https://docs.google.com/presentation/d/1ePns2ln0bLb_SPodXkYC13HEWRoVrJzsOrHQ3aGWio0/edit#slide=id.p5)
 - [Point webhook from mailchimp to marketo issue](https://gitlab.com/gitlab-com/www-gitlab-com/issues/427)
 - [Replace wufoo forms with Marketo forms](https://gitlab.com/gitlab-com/www-gitlab-com/issues/422)
@@ -165,6 +167,34 @@ Current state
 
 - We currently send out two newsletters a month. One is is on the second Tuesday of the month and the other is on the monthly release day (22nd).
 - The newsletters are scheduled to go out between 8 and 9 am Pacific time.
+
+
+
+We generally create the issue and Marketo program for the newsletter at least a week in advance of it being sent out. This gives us ample time decide which content will go into the newsletter. The Marketo program is created by cloning the previous newsletter that was sent out.
+
+Currently, the newsletter consists of four blocks of content. Each block of content consists of the following:
+- Title/topic
+- Link and call-to-action
+- Description/copy
+
+For example:
+
+![newsletter block example](https://gitlab.com/gitlab-com/www-gitlab-com/raw/update-newsletters-handbook/source/images/handbook/marketing/newsletter-example-block.png)
+
+The different content ideas are placed in the newsletter issue using the following format:
+```
+[Required] title/topic:
+
+link:
+
+copy:
+
+[Required] link is live/available as of this comment? YES/NO
+```
+
+After the content for the newsletter is finalized, build out the newsletter in Marketo. Be sure to update all the links with the appropriate UTM tracking parameters.
+
+Once the newsletter content is updated, send a test email to `marketing@gitlab.com` and `robert@gitlab.com` and get feedback from everyone on copy, links, layout, etc. Implement whatever changes need to be made and send new test emails until the email is ready. Once it's ready, schedule the email within Marketo.
 
 ## Webcasts<a name="webcasts"></a>
 

@@ -1,6 +1,6 @@
 ---
 layout: job_page
-title: "Director/VP of People Operations"
+title: "Senior Director of People Operations"
 ---
 
 ## Responsibilities
@@ -10,7 +10,7 @@ title: "Director/VP of People Operations"
     - Our [handbook](https://about.gitlab.com/handbook/) is the single source of truth
     - Follow the [GitLab workflow](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
     - Create expectation & value of documenting situations, responses and answers
-    - Survey all new hires after 30 and 90 days and one year to determine effectiveness of onboarding processes. Continuously improve and streamline processes.  
+    - Survey all new hires after 30 and 90 days and one year to determine effectiveness of onboarding processes. Continuously improve and streamline processes.
  - **Remote only aspects**
     - Have people feel close through initiatives
     - Structure process efficiently and without duplication

@@ -329,6 +329,7 @@
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/support-forum/">GitLab.com Support Tracker</a></li>
              <li>Maintainer of <a href="https://gitlab.com/gitlab-com/githost">GitHost.io feature proposals</a></li>
              <li><a href="http://doc.gitlab.com/ce/administration/auth/ldap.html">LDAP</a> <a href="/jobs/expert/">expert</a></li>
+             <li><a href="http://docs.gitlab.com/ce/project_services/jira.html">JIRA</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Before joining the GitLab team, Drew was involved in the GitLab community as a member of the core team. He is passionate about
           open-source projects and communities and enjoys helping people solve problems. When he is not hacking on a project, Drew enjoys playing piano, working
@@ -345,6 +346,7 @@
   maintains: |
              <li>Trained <a href="https://gitlab.com/gitlab-org/release-tools/blob/master/doc/release-manager.md">Release Manager</a></li>
              <li>Performance specialist</li>
+             <li><a href="http://docs.gitlab.com/ce/markdown/markdown.html">GitLab Flavored Markdown</a> <a href="/jobs/expert/">expert</a></li>
   story: |
          Yorick first started working as a professional software developer in
          2010. Since then he has worked on a wide variety of projects, ranging
@@ -427,6 +429,7 @@
   gitlab: balameb
   maintains: |
              <li>On-call hero!</li>
+             <li>Maintainer of <a href="https://gitlab.com/gitlab-org/University">GitLab University</a></li>
              <li><a href="https://hackerone.com/gitlab">HackerOne lead</a></li>
              <li><a href="https://about.gitlab.com/handbook/support/">Support Team Lead</a></li>
   story:  |
@@ -703,6 +706,9 @@
   picture: alfredo.jpg
   twitter: asumaran
   gitlab: alfredo1
+  maintains:  |
+                <li>Merge Request Frontend<a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
+                <li><a href="/jobs/expert/">Expert</a> on: Bulk Label assignment, Priority Labels</li>
   story:  |
           Alfredo is a multi-disciplined web veteran specializing in front-end development and web design.
           In the past, he also dabbled in back-end, prototyping and graphic design.
@@ -736,6 +742,7 @@
   twitter: iamphill
   gitlab: iamphill
   maintains:  |
+                <li>Frontend merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
                 <li>Maintainer of <a href="https://gitlab.com/gitlab-com/www-gitlab-com">www-gitlab-com</a></li>
                 <li>Maintainer of <a href="https://gitlab.com/pages/pages.gitlab.io">pages.gitlab.io</a></li>
   story:  |
@@ -760,8 +767,6 @@
   picture: felipe.jpg
   twitter: juanpintoduran
   gitlab: cabargas
-  maintains:  |
-                <li>Maintainer of <a href="https://gitlab.com/gitlab-org/University">GitLab University</a></li>
   story:  |
           Felipe is a rubyist from Chile trying to get more people into the Git boat. He likes to comunicate tech to non-tech individuals and help local communities reach more people. When AFK, he is desoldering stuff, 3D printing Star Wars models or in the stadium with his father and brother cheering for 'La U'.
 
@@ -854,6 +859,8 @@
   picture: tim.jpg
   twitter: timothyandrew
   gitlab: timothyandrew
+  maintains:  |
+               <li>2FA and <a href="https://www.yubico.com/about/background/fido/">U2F</a> <a href="/jobs/expert/">Expert</a></li>
   story:  |
           Tim has been vaguely passionate about computers ever since he got all the way through Prince of Persia when he was five. This grew into a legitimate love for the field after he crashed his Windows installation in 2007, and replaced it with a fragile triple-boot system that included a patched version of OS X. Over the last few years, he's built web apps for non-profits, advertising companies, and large online retailers in Rails and Clojure. When he's not glued to a screen of some sort, he's introverted to a fault, likes to play the bass guitar, read murder mysteries, and build computers.
 
@@ -945,6 +952,7 @@
   gitlab: smcgivern
   maintains:  |
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
+              <li>Merge request coach</li>
   story:  |
           Sean likes writing code, and especially likes writing code that helps other
           people write code. Despite dabbling with other editors, he's been unable to
@@ -1012,6 +1020,8 @@
   gitlab: fatihacet
   maintains: |
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=endboss&defid=5331178">endboss</a></li>
+              <li>Award Emoji <a href="/jobs/expert/">expert</a></li>
+              <li>Ace Editor <a href="/jobs/expert/">expert</a></li>
   story:  |
           Based on Istanbul, Fatih is a Frontend Engineer who is passionate about delivering solid Frontend code.
           He loves to see the things he created used by thousands of others.
@@ -1054,6 +1064,7 @@
   gitlab: godfat
   maintains:  |
               <li><a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> specialist</li>
+              <li><a href="http://docs.gitlab.com/ce/incoming_email/README.html">Reply by Email</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Jen-Shin is a Taiwanese who is also known as @godfat on the Internet. He learned Ruby from 2006 and has built a ton of stuffs with it including open source libraries. He's also passionate about functional programming, particularly Haskell. Other than programming, Jen-Shin loves computer games, especially some indie games. At some point he would really like to write one indie game as well, combining two major interests.
 
@@ -1164,6 +1175,8 @@
   picture: jneen.jpg
   twitter: jneen_
   gitlab: jneen
+  maintains: |
+              <li>Maintainer of <a href="https://github.com/jneen/rouge/">Rouge</a></li>
   story:  |
           Jeanine loves languages. She is the author of the syntax highlighting gem `rouge`
           and is at GitLab working to make our language support and highlighting experience
@@ -1179,6 +1192,8 @@
   picture: chrisperessini.jpg
   twitter: ChrisPeressini
   gitlab: cperessini
+  maintains: |
+             <li>Usability specialist</li>
   story:  |
           Based in Madrid, Chris is a UX Designer who is passionate about solving
           problems and making technology accessible to real people. With a background
@@ -1231,16 +1246,19 @@
           beta versions of games for testing named Betar. He has a dog named Arthur
           and a cat named Louis. Music is his number one passion.
 
-- name: A.H.
-  locality:
-  country:
+- name: Alex Hanselka
+  locality: Austin, TX
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
   reports_to: Senior Production Engineer and Infrastructure lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: alex.jpg
+  twitter: purrdeta
+  gitlab: ahanselka
   story:  |
-          Joining July 5th
+          Alex first became interested in Open Source when he discovered Linux 
+          in 2003. After trying most distros, he realized the true way of Gentoo
+          and has used it ever since. In his free time he enjoys playing video
+          games, reading, swimming, and of course hanging out with his 2 cats. 
 
 - name: Taurie Davis
   locality: Portland, OR
@@ -1250,6 +1268,8 @@
   picture: taurie.jpg
   twitter: tauried
   gitlab: tauriedavis
+  maintains: |
+              <li>Usability specialist</li>
   story:  |
           Taurie is passionate about identifying problems, creating reliable solutions, 
           and crafting intuitive experiences. She enjoys implementing her own designs while 
@@ -1269,16 +1289,16 @@
   story:  |
           Joining July 5th
 
-- name: J.M.
-  locality:
-  country:
+- name: Julie Manalo
+  locality: Sydney
+  country: Australia
   role: <a href="https://about.gitlab.com/jobs/account-manager/">Account Manager</a>
   reports_to: CRO
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: julie_manalo.jpg
+  twitter: _julie_manalo
+  gitlab: julie_manalo
   story:  |
-          Joining July 6th
+          Prior to joining Gitlab, Julie worked for a Californian based ISV, supporting the Sydney, Australia office. During this time, Julie spent 10 years covering work across operations, HR, finance and sales.  When she is not working, Julie is at the gym or having quiet catch-ups with friends over coffee. When time permits, she also enjoys a good game of poker.
 
 - name: C.B.
   locality:
@@ -1292,16 +1312,23 @@
           Joining July 11th
 
 
-- name: A.S.
-  locality:
-  country:
+- name: Ahmad Sherif
+  locality: Cairo
+  country: Egypt
   role: <a href="https://about.gitlab.com/jobs/production-engineer/">Junior Production Engineer</a>
   reports_to: Senior Production Engineer and Infrastructure lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: ahmad.jpg
+  twitter: ahmadsherif
+  gitlab: ahmadsherif
+  maintains: |
+             <li>Performance specialist</li>
   story:  |
-          Joining July 11th
+          Ahmad has been passionate about web development since he laid his eyes
+          on web forums back in 2003, hasn't stopped coding ever since. He's interested
+          in diving deep down the technology stack, figuring out how everything works
+          and how to make it work better. He contributes to the Rubinius project
+          on some occasions, and when he's not working, he can be fiddling around
+          with 3D modelling or learning new languages.
 
 - name: A.S.
   locality:
@@ -1356,4 +1383,4 @@
   twitter:
   gitlab:
   story:  |
-          Joining August 8th
+          Joining August 15th
