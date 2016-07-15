@@ -1,10 +1,10 @@
 ---
 layout: job_page
-title: "UX Lead"
+title: "UX/Design Lead"
 ---
 
-The User Experience (UX) Lead reports to the VP of Engineering, and UX
-Designers report to the UX Lead.
+The User Experience (UX) / Design Lead reports to the VP of Engineering, and UX
+Designers report to the UX/Design Lead.
 
 ## Responsibilities
 
