@@ -562,21 +562,6 @@
           thinking about code, Rémy likes to read about philosophy, politics or
           ecology, to play volley-ball and, to freedive.
 
-- name: Josh Frye
-  locality: Cleveland, OH
-  country: USA
-  role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
-  reports_to: Backend Lead
-  picture: jfrye.jpg
-  twitter: joshfng
-  gitlab: joshfng
-  maintains:  |
-                <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
-  story:  |
-          Josh is a software developer with a passion for developer tools, automation,
-          and CI. He enjoys creating and maintaining side projects for developers
-          and spending time with his children.
-
 - name: Luke Babb
   locality: Colorado Springs, CO
   country: USA
