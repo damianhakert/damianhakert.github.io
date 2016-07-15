@@ -5,9 +5,12 @@ title: "Frontend Engineer"
 
 ## Responsibilities
 
-* Implement the interfaces in GitLab proposed by UX Engineers and contributors
-* Improve the [static website of GitLab](https://about.gitlab.com/) based on the suggestions of the Designer and CMO
-* Continually improve the quality of GitLab
+* Fix prioritized issues from the issue tracker.
+* Write the code to complete scheduled direction issues chosen by our scheduling committee, assigned to you by the frontend lead. 
+* Continually improve the quality of GitLab by using discretion of where you think changes are needed.
+* Create high quality frontend code.
+* Frontend Design Specialist: Implement the interfaces in GitLab proposed by UX Engineers and contributors.
+* Frontend Design Specialist: Improve the [static website of GitLab](https://about.gitlab.com/) based on the collaborations with the the Designer and CMO.
 
 ## Workflow
 
