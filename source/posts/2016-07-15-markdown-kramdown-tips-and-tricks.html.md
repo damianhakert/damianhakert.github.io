@@ -12,7 +12,7 @@ learn a few tricks to have more freedom with it, this post is for you.
 The markdown engine we use for [about.GitLab.com] is [Kramdown], and that is the one
 we'll be referring to on this post.
 
-**Note:** We assume you are familiar with markdown, knows what a markdown engine is
+**Note:** We assume you are familiar with web development and markdown, knows what a markdown engine is
 and how it is applied to a website.
 {: .note}
 
