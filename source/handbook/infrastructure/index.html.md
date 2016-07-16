@@ -60,6 +60,8 @@ This is so we can have really quick 1 week sprints that allow us to iterate fast
 Performance specialists can also focus on critical infrastructure tasks that will enable GitLab.com to go faster, to
 increase availability, or to just generally make it scale to handle more users with less resources.
 
+We have a [public monitoring server](http://monitor.gitlab.net/dashboard/db/gitlab-status) that shows our most important metrics.
+
 ## Documentation
 
 The main infrastructure documentation can be found in 2 places:
