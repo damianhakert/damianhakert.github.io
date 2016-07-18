@@ -1,6 +1,6 @@
 ---
 title: "The logic of GitLab CI"
-date: 2016-07-17
+date: 2016-07-21
 categories: howto
 author: Ivan Nemytchenko
 author_twitter: inemation
