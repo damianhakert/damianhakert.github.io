@@ -12,7 +12,6 @@ author_twitter: inemation
   - blank -
 </div>
 
-
 Let's assume that you do not know anything about what is Continuous Integration and why it is needed. Alternatively, you just forgot it. Anyhow, we are starting from scratch.
 
 Imagine, you work on a project, where all the code consists of two text files. Moreover, it is super-critical that concatenation of these two files contains the phrase "Hello world".
@@ -172,7 +171,7 @@ It looks like there's a lot of public images around. So we can just grab one for
 ### Pipelines
 
 So far so good. However, we have just got a new client, who wants us to send him '.tar' instead of '.gz'
-It is not a problem for us anymore. Since CI does whole work, let's just add one more job to it:
+Since CI does whole work, let's just add one more job to it:
 {: #step8}
 
 ```
@@ -223,7 +222,6 @@ Now jobs "build:gz" and "build:tar" are running in parallel as parts of stage "b
 TODO
 
 (install rsync, use `only` or `except`, environments, not sure about `when`)
-
 
 <script type="text/javascript">
   var anchor_offset = $('#step1').offset().top;
