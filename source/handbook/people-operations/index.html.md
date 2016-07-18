@@ -26,6 +26,7 @@ title: "People Operations"
    - [Processing changes](#processing-changes)
    - [Using BambooHR](#bamboohr)
    - [Settings in BambooHR](#bamboohr-settings)
+   - [Process Referral Bonus](#referral-bonus)
    - [Asset Tracking](#asset-tracking)
    - [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)
    - [Birthday Swag](#birthday-swag)
@@ -205,14 +206,41 @@ Adding a New Job Title
 1. Add new job title to the drop down list
 
 Add a New Division
+
 1. Click on Settings
 1. Select Employee Field
 1. Select Division
 1. Add new division
 
+### Process Referral Bonus<a name="referral-bonus"></a>
+
+If applicable, People Ops will process a [referral bonus](/handbook/#referral-bonuses). 
+
+#### Document a future bonus in BambooHR
+
+1. Go to the employee who referred the new team member in BambooHR 
+1. Under the Jobs Tab click Update Bonus
+1. Add the date the bonus will be paid if all conditions are met (90 days from hire of new employee) 
+1. Enter the bonus amount of $1,000
+1. Enter the bonus type to be a Referral Bonus
+1. Enter a note stating that this is a future bonus (this will be changed once the bonus has been paid) 
+
+#### Add a note to the new team member in BambooHR
+
+We want to add a note to the new employee of who referred them, so that if they receive a discretionary bonus within the first six months, the referral also receives a discretionary bonus. 
+
+1. Go to the notes page under the new employee
+1. Add a note of who referred this team member
+
+#### Notification to Process a Bonus
+
+BambooHR will send an email to PeopleOps on the date that the referral bonus should be paid for [processing](/handbook/people-operations/#using-trinet) through the applicable payroll system. If the team member is a contractor, send them an email (and cc Finance) to invoice the bonus. 
+Once the bonus has been processed, change the note in BambooHR to denote the referral bonus has been paid. 
+
 ### Asset Tracking<a name="asset-tracking"></a>
 
 Items paid for by the company are property of the company and need to be reported to People Ops for proper asset tracking. The information is then entered into BambooHR by People Ops.
+
 1. Go to the Employee in BambooHR
 1. Click on the Assets Tab
 1. Click Update Assets
@@ -420,7 +448,7 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Under Other Earnings, select the BNO code and enter the amount of the bonus.
 1. **Never** hit submit. (It will cause the entire payroll to be paid the next day)
 1. Click Save when done.
-Note: Make sure to file all appropriate documentation in BambooHR.
+Note: Make sure to file all appropriate documentation in BambooHR. Also, if the employee has been employed for less than six months, check the notes section in BambooHR to see if they were referred by anyone at GitLab. If so, process a discretionary bonus for that team member as well. 
 
 
 ### Using RingCentral<a name="ringcentral"></a>
