@@ -105,7 +105,7 @@ Developer Relations includes the technical writing and developer advocacy functi
 - How do we use social media to support the community?
 - How do field marketing and developer relations work together to support the community?
 
-For more information, see the [developer relations](/handbook/marketing/developer-relations).
+For more information, see the [developer relations handbook](/handbook/marketing/developer-relations).
 
 #### Design  
 
@@ -169,7 +169,7 @@ The message targeting for the top down strategy will be different from the botto
 
 Top down marketing and bottom up marketing meets in the middle at the product. Your product must be rock solid. Product excellence is a key part of developer marketing strategy in the enterprise.
 
-We are fortunate that our product excellence stands on its own. Through a strong product and engineer team, amazing community feedback, community contributions, and a supportive sales team, our product excellence is our best marketing tool.
+We are fortunate that our product excellence stands on its own. Through a strong product and engineer team, amazing community feedback, community contributions, and a supportive sales team, our product excellence is our best marketing tool.  
 
 
 ## <i class="fa fa-users fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing Team Functional Groups
