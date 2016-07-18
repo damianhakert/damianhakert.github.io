@@ -22,6 +22,7 @@ Create issue for former team member on the dev server in the [organization issue
 * [ ] Robert/Jacob V: Remove former team members' GitLab.com account from the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members)
 * [ ] Robert/Jacob V: Remove former team members' GitLab.com account from the [gitlab-org group](https://gitlab.com/groups/gitlab-org/group_members) (if applicable)
 * [ ] Robert/Jacob V: Remove former team members' GitHub.com account from the [gitlabhq organization](https://github.com/orgs/gitlabhq/people) (if applicable)
+* [ ] Robert/Jacob V: Check former team members' project-level permissions and remove them as-needed.
 * [ ] Robert/Jacob V/Ernst: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members)
 * [ ] Robert/Ernst/Jacob V: Remove access to 1Password; take a screenshot of the user's permissions and post it in this offboarding issue.
 * [ ] Robert/Ernst/Jacob V: coordinate or actively change sensitive shared passwords. In particular:
