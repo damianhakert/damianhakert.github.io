@@ -12,7 +12,7 @@ work from home and help GitLab grow, this is the right spot for you.
 
 * Engage with our customers—anything from a small advertising firm or a university, to Fortune 100 clients and
 help them with anything from a simple support ticket to a customer training
-* Triage customer issues and find workarounds if possible by conducting systems analysis
+* Triage customer issues and find workarounds if possible
 * Engage with the development team to escalate bugs, problems, or missing information
 * Communicate via email and video conferencing with potential and current clients
 * Maintain GitLab.com and our other services such as GitHost.io
