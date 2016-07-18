@@ -8,7 +8,7 @@ author_twitter: inemation
 
 ---
 
-<div id="aside" style="width:400px; height:400px; position:fixed; right:0px; border: 1px solid grey">
+<div id="aside" style="width:500px; height:450px; position:fixed; right:0px; top: 200px; border: 1px solid grey; background: white">
   - blank -
 </div>
 
@@ -33,7 +33,7 @@ It already happened once in last four month, so you decided to solve the problem
 ### Run our first test inside CI
 
 Five minutes to find and read the docs, and it looks like all we need is these two lines of code in `.gitlab-cy.yml`:
-{: #step1}
+{: .step}
 
 ```yaml
 test:
@@ -49,8 +49,7 @@ Okay, it looks like we now have automated testing here!
 The next step is to pack the code before sending it to our customers. Let's automate it as well!
 
 ### Make results of builds downloadable
-
-{: #step2}
+{: .step}
 
 ```yaml
 test:
@@ -65,7 +64,7 @@ We added 'build' task. So it works. We see two tabs now:
 ![](2016-07-13-18-00-18.png)
 
 However, we forgot to tell GitLab to pass the archive to build artifacts, so that it could be downloaded. Fixing it:
-{: #step3}
+{: .step}
 
 ```yaml
 test:
@@ -88,7 +87,7 @@ However, we have a problem to fix: Jobs are running in parallel, but we do not w
 ### Run jobs consequentially
 
 We can define order by specifying stages:
-{: #step4}
+{: .step}
 
 ```yaml
 stages:
@@ -110,7 +109,7 @@ build:
 
 That should be good!
 Also, we forgot to mention, that compilation(which is represented by concatenation in our case) takes a while, so we do not want it to run twice. Let's define separate step for it:
-{: #step5}
+{: .step}
 
 ```yaml
 stages:
@@ -172,9 +171,9 @@ It looks like there's a lot of public images around. So we can just grab one for
 
 So far so good. However, we have just got a new client, who wants us to send him '.tar' instead of '.gz'
 Since CI does whole work, let's just add one more job to it:
-{: #step8}
+{: .step}
 
-```
+```yaml
 image: alpine
 
 stages:
@@ -210,7 +209,7 @@ Wow, it looks like we have a pipeline here:
 ![](draw-a-pictue-of-pipeline.png)
 
 It is evident, why we need a duplication like this:
-```
+```yaml
 test:
   stage: test
 ```
@@ -223,11 +222,20 @@ TODO
 
 (install rsync, use `only` or `except`, environments, not sure about `when`)
 
-<script type="text/javascript">
-  var anchor_offset = $('#step1').offset().top;
+<script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
 
-  $(window).on('scroll', function() {
-    if ( $(window).scrollTop() > anchor_offset - 100)
-      $('#aside').html($('#step1').next("pre").html());
-  });
+<script type="text/javascript">
+$(document).ready(function() {
+  setTimeout(function (){
+    $.each($(".step"), function(i, step){
+      var anchor_offset = $(step).offset().top;
+      $(window).on('scroll', function() {
+        if ( $(window).scrollTop() > anchor_offset - 100)
+          var code = $(step).next("pre").html();
+
+          $('#aside').html("<pre>" + code + "</pre>");
+      });
+    })
+  }, 1000);
+})
 </script>
