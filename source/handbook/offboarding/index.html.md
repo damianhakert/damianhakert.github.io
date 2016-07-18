@@ -41,7 +41,7 @@ Create issue for former team member on the dev server in the [organization issue
 * [ ] People Ops: Remove former team member from TriNet / Savvy and payroll if applicable.
 * [ ] People Ops: Mark former team member as terminated in BambooHR. Use the date mentioned in this issue as final date of employment / contract.
 * [ ] People Ops: Reach out to former team member to identify and retrieve any company
-supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/people-operations/#returning-property)
+supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/handbook/people-operations/#returning-property)
 for further details on that process.
 * [ ] People Ops: Inform Controller / Accounting if any items in former team members possession will not be returning, so that they can be removed from asset tracking.
 
