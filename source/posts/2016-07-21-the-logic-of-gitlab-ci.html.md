@@ -265,10 +265,12 @@ Wow, it looks like we have a pipeline here:
 ![](/images/blogimages/ci-logic/draw-a-pictue-of-pipeline.png)
 
 It is evident, why we need a duplication like this:
+
 ```yaml
 test:
   stage: test
 ```
+
 Now jobs "build:gz" and "build:tar" are running in parallel as parts of stage "build".
 
 <!--### Deployment and Environments
