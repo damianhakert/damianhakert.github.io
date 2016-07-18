@@ -170,6 +170,7 @@ build:
 
 
 Now our config looks pretty impressive:
+
 - We have three following stages to compile, test and build our application.
 - We are passing compiled app to the next **stages** so that there's no need to build it twice(so it will run faster)
 - We are storing packed version of out app in build artifacts for further usage
