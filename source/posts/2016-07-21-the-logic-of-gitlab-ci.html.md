@@ -215,27 +215,30 @@ test:
 ```
 Now jobs "build:gz" and "build:tar" are running in parallel as parts of stage "build".
 
-
-### Deployment and Environments
+<!--### Deployment and Environments
 
 TODO
 
 (install rsync, use `only` or `except`, environments, not sure about `when`)
 
 <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
+-->
 
 <script type="text/javascript">
-$(document).ready(function() {
-  setTimeout(function (){
-    $.each($(".step"), function(i, step){
-      var anchor_offset = $(step).offset().top;
-      $(window).on('scroll', function() {
-        if ( $(window).scrollTop() > anchor_offset - 100)
-          var code = $(step).next("pre").html();
+// $(document).ready(function() {
+//   setTimeout(function (){
 
-          $('#aside').html("<pre>" + code + "</pre>");
-      });
-    })
-  }, 1000);
-})
+//     // 1. find the closest .step element
+//     // 2. take closes "pre" block content and put it to aside
+//     $.each($(".step"), function(i, step){
+//       var anchor_offset = $(step).offset().top;
+//       $(window).on('scroll', function() {
+//         if ( $(window).scrollTop() > anchor_offset - 200) {
+//           var code = $(step).next("pre").html();
+//           $('#aside').html("<pre>" + code + "</pre>");
+//         }
+//       });
+//     })
+//   }, 1000);
+// })
 </script>
