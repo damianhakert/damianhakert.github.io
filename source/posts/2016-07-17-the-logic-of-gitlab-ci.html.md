@@ -175,7 +175,7 @@ So far so good. But we've just got a new client. The client wants us to send him
 It is not a problem for us anymore. Since CI does whole work, let's just add one more job to it:
 {: #step8}
 
-```
+```yaml
 image: alpine
 
 stages:
@@ -211,7 +211,7 @@ Wow, it looks like we have a pipeline here:
 ![](draw-a-pictue-of-pipeline.png)
 
 And now it is evident, why we need a duplication like this:
-```
+```yaml
 test:
   stage: test
 ```
