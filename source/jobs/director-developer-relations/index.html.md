@@ -3,7 +3,7 @@ layout: job_page
 title: "Director of Developer Relations"
 ---
 
-As the Director of Developer Relations, you will be responsible for building the team that supports the GitLab community. You will focus on making it easy to contribute to GitLab, give feedback to our product and documentation, and get education about GitLab.
+As the Director of Developer Relations, you will be responsible for managing and building the team that focuses on supporting the GitLab community. You will help to make it easy to contribute to GitLab, help our community give feedback to our product and documentation, and help to create educational programs for GitLab.
 
 ## Responsibilities  
 
