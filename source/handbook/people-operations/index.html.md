@@ -12,6 +12,7 @@ title: "People Operations"
 ## This page
 
 - [Role of People Operations](#role-peopleops)
+    - [Letter of Employment](#letter-of-employment)
 - [Team Directory](#directory)
 - [Office addresses](#addresses)
 - [Policies](#peopleops-policies)
@@ -46,6 +47,10 @@ title: "People Operations"
 ## Role of People Operations<a name="role-peopleops"></a>
 
 In general, the People Operations team and processes are here as a service to the rest of the team; helping make your life easier so that you can focus on your work and contributions to GitLab. On that note, please don't hesitate to [reach out](#reach-peopleops) with questions! In the case of a conflict between the company and a team member, People Operations works "on behalf of" the company.
+
+### Letter of Employment<a name="letter-of-employment"></a>
+
+If you need a letter from GitLab verifying your employment, please send the request to People Ops citing what information is needed. For example, salary, start date, title, etc. People ops will send you the letter once it is completed. 
 
 ## Team Directory<a name="directory"></a>
 
