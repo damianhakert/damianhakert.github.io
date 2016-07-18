@@ -55,7 +55,7 @@
 
 - title: "Director/VP of People Operations"
   description: /jobs/dir-or-vp-of-people-ops/
-  apply: 
+  apply:
   open: false
 
 - title: "Product Marketing Manager"
@@ -101,4 +101,9 @@
 - title: "UX Lead"
   description: /jobs/ux-lead/
   apply: https://gitlab.workable.com/jobs/279434/candidates/new
+  open: true
+
+- title: "Junior Designer"
+  description: /jobs/junior-designer/
+  apply: https://gitlab.workable.com/jobs/296974
   open: true
