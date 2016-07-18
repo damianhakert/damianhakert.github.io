@@ -137,9 +137,10 @@ build:
 </code></pre>
 
 Let's take a look at our artifacts:
+
 ![](/images/blogimages/ci-logic/clean-artifacts.png)
 
-Hmm, we do not need that "compiled.txt" file to be downloadable. The following looks like a cheat, but it should work and serves the purpose for now: `expire_in: 2 minutes`.
+Hmm, we do not need that "compile" file to be downloadable. The following looks like a cheat, but it should work and serves the purpose for now: `expire_in: 2 minutes`.
 {: .step}
 
 <pre><code>stages:
