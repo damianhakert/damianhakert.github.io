@@ -45,9 +45,9 @@ The GitLab Marketing team includes four functional groups: Demand Generation, De
 
 <br>
 
-<div class="alert alert-purple center"><h3 class="purple"><strong>We <3 GitLab</strong></h3></div>
+<div class="alert alert-purple center"><h3 class="purple"><strong>We <i class="fa fa-heart orange font-awesome" aria-hidden="true"></i> GitLab</strong></h3></div>
 
-#### Marketing Team Purpose  
+### Marketing Team Purpose  
 
 The GitLab Marketing team is here to do the following:  
 
@@ -59,7 +59,7 @@ The GitLab Marketing team is here to do the following:
 
 We think GitLab (.com, CE, and EE) can help developers, designers, IT workers, marketers, and everyone in between improve collaboration.
 
-#### Focus for Q3 and Q4
+### Focus for Q3 and Q4
 
 **Goal:** Ensure we hit company goals set forth by the board for Q3 and Q4 including MQLs, SQLs, and SQL value.
 
@@ -71,11 +71,11 @@ We think GitLab (.com, CE, and EE) can help developers, designers, IT workers, m
 
 For a more granular look at what individuals on the marketing team are focusing on, take a look at the [Marketing Team OKR’s below](https://about.gitlab.com/handbook/marketing/#okrs).
 
-To support these goals, we plan to hire the people outlined in our [hiring plan(/handbook/marketing#i-classfa-fa-user-fa-fw-icon-color-font-awesome-aria-hiddentruei-hiring-plan) during Q3 and Q4 of 2016. Job descriptions are linked from the hiring plan for each role to better understand how each role supports the goals of the marketing team and company.  
+To support these goals, we plan to hire the people outlined in our [hiring plan](#hiring-plan) during Q3 and Q4 of 2016. Job descriptions are linked from the hiring plan for each role to better understand how each role supports the goals of the marketing team and company.  
 
 Take a look at the focus for each functional group:  
 
-#### Demand Generation  
+### Demand Generation  
 
 Demand Generation at GitLab focuses on online marketing, field marketing, business development, campaign planning, funnel metrics, marketing operations, and marketing automation. Demand Generation is responsible for the top of the lead funnel all the way to SQL.
 
@@ -83,13 +83,13 @@ The focus for the second half of 2016 is on hiring, new business pipeline, deman
 
 For more information, see the [demand generation handbook](/handbook/marketing/demand-generation/).
 
-#### Product Marketing
+### Product Marketing
 
 Product Marketing at GitLab focuses on product messaging, product launch marketing, partner marketing, channel marketing, PR and awareness, and content marketing.  
 
 For more information, see the [product marketing handbook](/handbook/marketing/product-marketing).
 
-#### Developer Relations  
+### Developer Relations  
 
 Developer Relations includes the technical writing and developer advocacy functions. The team is focused on answering the following questions:  
 
@@ -107,13 +107,13 @@ Developer Relations includes the technical writing and developer advocacy functi
 
 For more information, see the [developer relations handbook](/handbook/marketing/developer-relations).
 
-#### Design  
+### Design  
 
 Design focuses on creating the visual brand for GitLab. Design supports product marketing, content marketing, demand generation, and almost every function in the marketing team to ensure consistent and clear visual brand. Design is responsible for about.gitLab.com, swag, event design, content design, and branding.
 
 For more information, see the [design handbook](/handbook/marketing/design).
 
-#### How we think about marketing a developer product
+### How we think about marketing a developer product
 
 A common misconception is that developer marketing is showing up at events and giving out free t-shirts and stickers. While true, developers are humans and people like free t-shirts it is not and cannot be the only method to your development marketing strategy, it's a whole lot more.
 
@@ -135,7 +135,7 @@ In addition to the above mentioned tactics, good developer marketing strategy in
 
 In product releases, when your users can see that feedback from the community is taken seriously and put back into the product, it says "we take our community seriously". Listen to the feedback, make it easy to give feedback via issue trackers, Twitter, and/or Support and if it makes sense for the rest of the community to make a requested update to the product, do it.
 
-#### How we think about marketing an open-source product with a paid version  
+### How we think about marketing an open-source product with a paid version  
 
 Marketing an open-source product makes it so that you have to always think about your contributors and community. The flip-side of marketing an open source product is that we’re also creating a paid product that’s based off the open-source product. We have to make sure we are good stewards of the open-source project while also making money off of the paid edition, GitLab Enterprise Edition.  
 
@@ -149,7 +149,7 @@ An example, a developer using GitLab on an individual project or a small team is
 
 We try to not market through spammy email or cold-calling people on the phone, but instead in a more thoughtful way. Our marketing strategy also includes field marketing, content marketing, email marketing, public relations, analyst relations, online marketing, and more to get the right developer resources in front of the right enterprise segment of our community.    
 
-#### Top down and bottom up marketing for developer products  
+### Top down and bottom up marketing for developer products  
 
 When you’re looking at marketing in the enterprise of a developer product, your strategy should be both bottom up and top down.
 
@@ -551,6 +551,7 @@ To find the GitLab Marketing Team's OKRs, search the company Google Drive for "M
 <br>
 
 ## <i class="fa fa-user fa-fw icon-color font-awesome" aria-hidden="true"></i> Hiring Plan
+{: #hiring-plan}
 
 
 <br>
