@@ -6,7 +6,7 @@ categories: technical overview
 image_title: '/images/blogimages/markdown-kramdown-tips-and-tricks-cover.png'
 ---
 
-If you use a markdown engine for writing your website content, and you'd like to
+If you use a markdown engine for writing your website content and you'd like to
 learn a few tricks to have more freedom with it, this post is for you.
 
 The markdown engine we use for [about.GitLab.com] is [Kramdown], and that is the one
@@ -30,7 +30,7 @@ and how it is applied to a website.
 
 ## Our Markdown Guide
 
-This week a lot of people were happy for our [Handbook] being open source, as we explained
+Last week a lot of [people were happy][news] for our [Handbook] being open source, as we explained
 in details on the post "[Our Handbook is open source: here's why][handbook-post]".
 Every GitLab Team member does touch our website, starting on his or her first weeks,
 as part of the onboarding tasks.
@@ -49,22 +49,22 @@ helpful for those completely new to it.
 
 ## Why Kramdown
 
-Perhaps your first question will be something like "okay, why is Kramdown so special?" My first
+Perhaps your first question will be something like "okay, why is Kramdown so special?". My first
 experience with markdown was when I first used a [Static Site Generator][SSGs], Jekyll. Coming from
 previous experiences in web development on PHP and HTML, the first thing I wanted to do to a
 markdown post was adding a class to a particular heading. When I googled for that, I was pretty
-disappointed because apparently we aren't supposed to apply classes inline into markdown files. So I had to
-tweak a lot my experiments until I get some color on to my text.
+disappointed because apparently we aren't supposed to apply classes inline into markdown files.
+So, I had to experiment a lot until I got the desired result: add some color to my heading.
 
-After trying a lot of new tweaks, and digging the web for answers that insisted in not coming, I finally
+After trying a lot of new tweaks, and digging through the web for answers that insisted on not coming, I finally
 found out that with Kramdown, yes, I could do a lot of things. And finally I could apply some inline classes
-through my posts and have my blue headings when I wanted them blue. But at that time I haven't noticed
+through my posts and have my blue headings when I wanted them blue. But at that time, I hadn't noticed
 that we could do some really magic with it, and that's what I'm sharing with you in this post.
 
 ## The magic
 
-The magic Kramdown markup has this syntax: `{: something}`. This little thing is the basis of
-a lot of awesome resources.
+We could say that the Kramdown magic concentrates to the following syntax: `{: something}`.
+This little devil is the basis of a lot of awesome resources.
 
 Let's go over a few of them now, but you'll find a lot more in our [Markdown Guide][guide].
 
@@ -85,7 +85,7 @@ If you think of any CSS class, what comes into your mind first? I suppose it's s
 }
 ```
 
-Okay, we have a `.blue` class. Let's say once and awhile we want a blue paragraph or a blue heading. Just do that:
+Okay, we have a `.blue` class. Let's say once in a while we want a blue paragraph or a blue heading. Just do:
 
 ```md
 This is a paragraph that for some reason we want blue.
@@ -127,7 +127,6 @@ What if I want to apply 2 classes at the same time?
 A blue and bold paragraph.
 {: .blue .bold}
 ```
-
 As simple as that! The markup is simple and intuitive.
 
 Now, guess what, we can do exactly the same for IDs!
@@ -139,7 +138,7 @@ in the heading together, connected by dashes. For the example above, "A blue hea
 will be `a-blue-heading`:
 
 ```html
-<h4 id="a-blue-heading">A blue heading</h4>
+<h4 class="blue" id="a-blue-heading">A blue heading</h4>
 ```
 
 Let's say we want the ID called `blue-h`:
@@ -149,7 +148,13 @@ Let's say we want the ID called `blue-h`:
 {: .blue #blue-h}
 ```
 
-Will produce exactly what it's meant to:
+Will produce exactly what it's meant to (a blue heading with the custom ID):
+
+```html
+<h4 class="blue" id="blue-h">A blue heading</h4>
+```
+
+So, the output would be:
 
 <div class="panel panel-info">
 **Output**
@@ -159,6 +164,10 @@ Will produce exactly what it's meant to:
 {: .blue .no_toc #blue-h}
 </div>
 </div>
+
+Note that we can attribute both class and ID in one markup, as in `{: .class #custom-id}`. But we can use
+just one of them too: `{: .class}` or `{: #custom-id}`.
+{: .alert .alert-warning}
 
 Interesting, isn't it?
 
@@ -171,11 +180,11 @@ An example of key/value pair
 {: .class #id key="value"}
 ```
 
-We can use them, for example, for applying general styles, quickly:
+We can use them, for example, for quickly applying general styles:
 
 ```
 #### A simple example
-{: .class style="margin-top:0"}
+{: #custom-id style="margin-top:0"}
 ```
 
 But they are specially useful for links, as in:
@@ -233,15 +242,6 @@ For these, we apply a class called `no_toc`, and Kramdown will respect our will:
 #### This heading will not be included in the ToC.
 {: .no_toc}
 ```
-
-<div class="panel panel-info">
-**Output**
-{: .panel-heading style="margin-bottom:10px"}
-<div class="panel-body">
-#### This heading will not be included in the ToC.
-{: .no_toc style="margin-top:0"}
-</div>
-</div>
 
 And of course, we can make the ToC an ordered list instead of unordered:
 
@@ -410,6 +410,7 @@ Follow [@GitLab] and stay tunned for the next post!
 [Kramdown]: http://kramdown.gettalong.org/
 [Marketing Handbook]: /handbook/marketing/
 [Middleman]: https://middlemanapp.com/
+[news]: https://news.ycombinator.com/item?id=12091638
 [responsive]: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
 [SSGs]: /2016/06/10/ssg-overview-gitlab-pages-part-2/
 [videos]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#videos
