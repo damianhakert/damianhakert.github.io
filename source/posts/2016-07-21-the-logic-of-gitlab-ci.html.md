@@ -8,8 +8,7 @@ author_twitter: inemation
 
 ---
 
-<div id="aside" style="width:500px; height:450px; position:fixed; right:0px; top: 200px; border: 1px solid grey; background: white">
-  - blank -
+<div id="aside" style="width:500px; height:450px; position:fixed; right:0px; top: 200px; padding: 4px; margin:4px; font-size:90%">
 </div>
 
 Let's assume that you do not know anything about what is Continuous Integration and why it is needed. Alternatively, you just forgot it. Anyhow, we are starting from scratch.
@@ -40,15 +39,20 @@ test:
   script: cat file1.txt file2.txt | grep -q 'Hello world'
 ```
 
-Committing it, and hooray! Our build [is successful](https://gitlab.com/inem/ci/builds/2346110)!
+Committing it, and hooray! Our build is successful:
+[![](/images/blogimages/ci-logic/success.png)](https://gitlab.com/inem/ci/builds/2346110)
 
-To make sure it will not pass for incorrect data, changing the contents of the second file, and build [has failed](https://gitlab.com/inem/ci/builds/2346623) as expected.
+To make sure it will not pass for incorrect data, changing the contents of the second file, and build fails as expected:
+[![](/images/blogimages/ci-logic/failure.png)](https://gitlab.com/inem/ci/builds/2346623)
 
-Okay, it looks like we now have automated testing here!
+
+Okay, it looks like we now have automated tests here!
 
 The next step is to pack the code before sending it to our customers. Let's automate it as well!
 
 ### Make results of builds downloadable
+
+All we need to do is to define another job for CI. Let's name it "build":
 {: .step}
 
 ```yaml
@@ -59,11 +63,10 @@ build:
   script: cat file1.txt file2.txt | gzip > build.gz
 ```
 
-We added 'build' task. So it works. We see two tabs now:
+We have two tabs now:
+![](/images/blogimages/ci-logic/twotabs.png)
 
-![](2016-07-13-18-00-18.png)
-
-However, we forgot to tell GitLab to pass the archive to build artifacts, so that it could be downloaded. Fixing it:
+However, we forgot to specify what should be passed to build artifacts, so that it could be downloaded. Fixing it by adding `artifacts`section:
 {: .step}
 
 ```yaml
@@ -78,15 +81,14 @@ build:
 ```
 
 Checking... It is there:
-
-![](2016-07-13-18-07-14.png)
+![](/images/blogimages/ci-logic/artifacts.png)
 
 Perfect!
-However, we have a problem to fix: Jobs are running in parallel, but we do not want to generate archive if our tests fail.
+However, we have a problem to fix: jobs are running in parallel, but we do not want to generate archive if our tests fail.
 
 ### Run jobs consequentially
 
-We can define order by specifying stages:
+We only want to run 'build' job if tests are successful. Let's define order by specifying `stages`:
 {: .step}
 
 ```yaml
@@ -104,15 +106,13 @@ build:
   artifacts:
     paths:
     - build.gz
-
 ```
 
-That should be good!
+That should be good!<br/>
 Also, we forgot to mention, that compilation(which is represented by concatenation in our case) takes a while, so we do not want it to run twice. Let's define separate step for it:
 {: .step}
 
-```yaml
-stages:
+<pre><code>stages:
   - compile
   - test
   - build
@@ -134,13 +134,38 @@ build:
   artifacts:
     paths:
     - build.gz
-
-```
+</code></pre>
 
 Let's take a look at our artifacts:
-![](2016-07-14-07-52-29.png)
+![](/images/blogimages/ci-logic/clean-artifacts.png)
 
-Hmm, we do not need that `compiled` file to be downloadable. The following looks like a cheat, but it should work and serves the purpose for now: `expire_in: 2 minutes`.
+Hmm, we do not need that "compiled.txt" file to be downloadable. The following looks like a cheat, but it should work and serves the purpose for now: `expire_in: 2 minutes`.
+{: .step}
+
+<pre><code>stages:
+  - compile
+  - test
+  - build
+
+compile:
+  stage: compile
+  script: cat file1.txt file2.txt > compiled.txt
+  artifacts:
+    paths:
+    - compiled.txt
+    expire_in: 2 minutes
+
+test:
+  stage: test
+  script: cat compiled.txt | grep -q 'Hello world'
+
+build:
+  stage: build
+  script: cat compiled.txt | gzip > build.gz
+  artifacts:
+    paths:
+    - build.gz
+</code></pre>
 
 
 Now our config looks pretty impressive:
@@ -152,24 +177,55 @@ Now our config looks pretty impressive:
 ### Learning what Docker image to use
 
 However, it looks like builds are still slow. Wait, what is this?
+
 ```
 Using Docker executor with image ruby:2.1 ...
 Pulling docker image ruby:2.1 ...
 ```
 
-Why do we need Ruby at all? Oh, it looks like GitLab uses Docker images to run our builds, and [by default]((https://about.gitlab.com/gitlab-com/settings/)) it takes image `ruby:2.1`. This image for sure contains many packages we do not need. After a minute of googling figuring out that there's an image called `alpine` which includes a minimum of stuff.
+Why do we need Ruby at all? Oh, it looks like GitLab uses Docker images to run our builds, and [by default](https://about.gitlab.com/gitlab-com/settings/) it uses image `ruby:2.1`. This image for sure contains many packages we do not need. After a minute of googling figuring out that there's an image called `alpine` which is almost blank Linux image.
 
 Ok, let's specify explicitly, that we want to use this image by adding `image: alpine` to `.gitlab-ci.yml`
 Now we are talking!:
+{: .step}
 
-![](2016-07-13-19-09-32.png)
+<div style="display: none">
+<pre><code>image: alpine
+
+stages:
+  - compile
+  - test
+  - build
+
+compile:
+  stage: compile
+  script: cat file1.txt file2.txt > compiled.txt
+  artifacts:
+    paths:
+    - compiled.txt
+    expire_in: 2 minutes
+
+test:
+  stage: test
+  script: cat compiled.txt | grep -q 'Hello world'
+
+build:
+  stage: build
+  script: cat compiled.txt | gzip > build.gz
+  artifacts:
+    paths:
+    - build.gz
+</code></pre>
+</div>
+
+![](/images/blogimages/ci-logic/speed.png)
 
 It looks like there's a lot of public images around. So we can just grab one for our technology stack. It makes sense to specify an image, which contains no extra software because it minimizes download time.
 
 
 ### Pipelines
 
-So far so good. However, we have just got a new client, who wants us to send him '.tar' instead of '.gz'
+So far so good. However, we have just got a new client, who wants us to send him '.tar' instead of '.gz'<br/>
 Since CI does whole work, let's just add one more job to it:
 {: .step}
 
@@ -187,7 +243,7 @@ compile:
   artifacts:
     paths:
     - compiled.txt
-    expire_in: 5 minutes
+    expire_in: 2 minutes
 
 build:gz:
   stage: build
@@ -205,8 +261,7 @@ build:tar:
 ```
 
 Wow, it looks like we have a pipeline here:
-
-![](draw-a-pictue-of-pipeline.png)
+![](/images/blogimages/ci-logic/draw-a-pictue-of-pipeline.png)
 
 It is evident, why we need a duplication like this:
 ```yaml
