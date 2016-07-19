@@ -8,9 +8,6 @@ author_twitter: inemation
 
 ---
 
-<div id="aside" style="width:500px; height:450px; position:fixed; right:0px; top: 200px; padding: 4px; margin:4px; font-size:90%">
-</div>
-
 Let's assume that you do not know anything about what is Continuous Integration and why it is needed. Alternatively, you just forgot it. Anyhow, we are starting from scratch.
 
 Imagine, you work on a project, where all the code consists of two text files. Moreover, it is super-critical that concatenation of these two files contains the phrase "Hello world".
@@ -190,7 +187,7 @@ Using Docker executor with image ruby:2.1 ...
 Pulling docker image ruby:2.1 ...
 ```
 
-Why do we need Ruby at all? Oh, GitLab uses Docker images to run our builds, and [by default](https://about.gitlab.com/gitlab-com/settings/) it uses image [ruby:2.1](https://hub.docker.com/_/ruby/). This image for sure contains many packages we do not need. After a minute of googling figuring out that there's an image called [alpine](https://hub.docker.com/_/alpine/) which is almost blank Linux image.
+Why do we need Ruby at all? Oh, GitLab uses Docker images to run our builds, and [by default](https://about.gitlab.com/gitlab-com/settings/) it uses image [`ruby:2.1`](https://hub.docker.com/_/ruby/). This image for sure contains many packages we do not need. After a minute of googling figuring out that there's an image called [`alpine`](https://hub.docker.com/_/alpine/) which is almost blank Linux image.
 
 Ok, let's specify explicitly, that we want to use this image by adding `image: alpine` to `.gitlab-ci.yml`
 Now we are talking!:
@@ -281,13 +278,45 @@ test:
   stage: test
 ```
 
-Now jobs "build:gz" and "build:tar" are running in parallel as parts of stage "build".
+Jobs named "build:gz" and "build:tar" are running in parallel as parts of stage "build".
+
+
+### Summary
+
+There's much more to cover but let's stop here for now. I hope you liked this short story. All examples were made trivial intentionally, so that you could learn concepts of GitLab CI not being distracted by unfamiliar technology stack. Let's wrap up, what we have learned:
+
+1. In order to delegate some work to GitLab CI you should define one or more [jobs](http://docs.gitlab.com/ce/ci/yaml/README.html#jobs) in `.gitlab-ci.yml`
+2. Job should have a name, and it is your responsibility to come up with a good name
+3. Every job contains set of rules & instructions for GitLab CI, defined by [special keywords](#keywords)
+4. Jobs can run consequently, in parallel, or you can define custom pipeline.
+5. You can pass files between jobs and store them in build artifacts, so that they could be downloaded from interface.
+
+Below is the last section containing more formal description of terms and keywords we used, as well as links to the detailed description of GitLab CI functionality.
+
+
+### Keywords description & links to the documentation
+{: #keywords}
+
+| Keyword/term       | Description |
+|---------------|--------------------|
+| [.gitlab-ci.yml](http://docs.gitlab.com/ce/ci/yaml/README.html#gitlab-ci-yml) | File containing all definitions of how your project should be built |
+| [script](http://docs.gitlab.com/ce/ci/yaml/README.html#script)        | Defines a shell script to be executed |
+| [image](http://docs.gitlab.com/ce/ci/docker/using_docker_images.html#what-is-image) | Defines what docker image to use |
+| [stage](http://docs.gitlab.com/ce/ci/yaml/README.html#stages)         | Defines a build stage (default: `test`) |
+| [artifacts](http://docs.gitlab.com/ce/ci/yaml/README.html#artifacts)     | Define list of build artifacts |
+| [artifacts:expire_in](http://docs.gitlab.com/ce/ci/yaml/README.html#artifactsexpire_in) | Used to delete uploaded artifacts after the specified time |
+| [pipelines](http://docs.gitlab.com/ee/ci/pipelines.html#pipelines) | A pipeline is a group of builds that get executed in stages (batches) |
+
+Let us know in the comments if you want to see more posts like this.
 
 <!--### Deployment and Environments
 
 TODO
 
 (install rsync, use `only` or `except`, environments, not sure about `when`)
+
+<div id="aside" style="width:500px; height:450px; position:fixed; right:0px; top: 200px; padding: 4px; margin:4px; font-size:90%">
+</div>
 
 <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
 -->
