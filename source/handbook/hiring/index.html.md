@@ -9,9 +9,13 @@ title: "Hiring"
 - TOC
 {:toc}
 
-<a name="vacancy-creation-process"></a>
-## Vacancy Creation Process
+## General note on hiring
 
+If you want to hire for a position please [make a job description](#vacancy-creation-process) and ensure there is a [vacancy](#vacancy-creation-process) on our jobs page before we start interviewing. A job description helps you vet candidates. Opening it up helps people find us. If selection of candidates is a lot of work feel free to ask People Ops to help.
+
+
+## Vacancy Creation Process
+<a name="vacancy-creation-process"></a>
 
 The CEO needs to authorize any new job positions/searches, and agree on the proposed hiring team.
 
@@ -40,22 +44,20 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
    * Indicate what applicants need to provide with their application. By default, this will include their resumé, a cover letter, but it may also include qualifying questions such as "What timezone are you in?".
    * Get one of the admins (People Ops and CEO) to "Publish" the job, and follow the links to the application form (you will need this URL).
    * Add the URL to the application form into the merge request for the `data/jobs.yml` file.
- 1. As soon as the new job description / posting is live on our website, consider your available [advertising methods](#job-advertising) below.
+ 1. As soon as the new job description / posting is live on our website, announce it on the team call, in the #general chat channel, and via Twitter. Also consider your additional available [advertising methods](#job-advertising) below.
 
-<a name="job-advertising"></a>
+
 ## Advertising the job
+<a name="job-advertising"></a>
 
-_Always_ advertise the job through the following means:
+**Always** advertise the job through the following means:
 
-1. "Soft” referral, e.g. all GitLab staff post link to jobs site on their LinkedIn profiles.
+1. Announce it on team call, and on the #general chat channel.
 1. Tweet the new job posting.
+1. "Soft” referral, e.g. encourage all GitLab team members to post links to the jobs site on their LinkedIn profiles.
 1. Use the [Workable Clipper](http://resources.workable.com/the-workable-clipper) to help source candidates directly from LinkedIn, and  familiarize yourself with the Workable environment, work flow, features, and support desk.
 
-_Consider_ advertising the job through the following means:
-
-List on:
-
-1. [Hacker News](https://news.ycombinator.com/ask): On the first of the month, include a note for GitLab in the Hacker News thread of "Who's Hiring". Template text:
+Every first of the month, People Ops announces that we are hiring on [Hacker News](https://news.ycombinator.com/ask)'s "Who's Hiring"  thread. Template text:
 
    > REMOTE ONLY - GitLab
    >
@@ -66,15 +68,20 @@ List on:
    > We're a remote-only company so everyone is on an equal level. GitLab is an
    > open-source Ruby on Rails project with over 1,000 contributors.
 
+**Consider** advertising the job through the following sites (People Ops can help with the listings, but the hiring manager should determine whether it is the right place to advertise, and at the right cost):
+
+1. [PowerToFly](https://www.powertofly.com)
 1. [WeWorkRemotely](https://weworkremotely.com) ($200 for 30 days, per position).
 1. [RemoteOK](https://remoteok.io) ($200 for ?? days, per position)
+1. [RemoteBase](https://remotebase.io/)
+1. [StackOverflow](http://stackoverflow.com/jobs); ask People Ops to help
 
 
-<a name="hiring-process"></a>
 ## Hiring Process
+<a name="hiring-process"></a>
 
-<a name="general-points"></a>
 ### General points about moving applicants through the process
+<a name="general-points"></a>
 
 **Inform applicants about what stage they are in.** So for example, if in the hiring process for the particular position / team you've agreed that there will be 4 stages, make sure to inform the applicant of this during each call / stage: "You are in stage X, and will be moving to stage Y". The process can differ from team to team, and from position to position.
 
@@ -84,8 +91,9 @@ List on:
 
 The visibility of internal comments in Workable can be switched between hiring team _managers_ only, or _all_ members of the hiring team. Consider making comments that relate to compensation visible to hiring _managers_ only.
 
-<a name="typical-process"></a>
+
 ### Typical process
+<a name="typical-process"></a>
 
 1. **Confirmation of the application**: applicants automatically receive confirmation of their application, thanking them for submitting their information. This is an automated message from Workable. If the person came through another channel please add them to Workable before continuing the process. There are various ways to do this, see [Workable's documentation](https://resources.workable.com/adding-candidates).
 1. Hiring manager does a **first round of evaluations**. Disqualified candidates should be sent a note informing them of the [rejection](#rejecting). There are templates in Workable to assist, but messages can be tailored as appropriate: place yourself on the receiving end of the message. If more information is required to make the determination, feel free to specifically ask for it (e.g. a cover letter).
@@ -99,8 +107,8 @@ The visibility of internal comments in Workable can be switched between hiring t
 1. Hiring manager ensures that the contract is signed, and People Ops [starts the onboarding process](#move-to-onboarding).
 1. Hiring manager considers [closing the vacancy](#closing-vacancy).
 
-<a name="rejecting"></a>
 ### Rejecting applicants
+<a name="rejecting"></a>
 
 1. At any time during the hiring process the applicant can be rejected
 1. The applicant should always be notified of this. The hiring manager is primarily
@@ -113,8 +121,8 @@ The feedback survey should be sent out about 3 days after the applicant has been
 notified of the rejection.
 1. PeopleOps will receive the feedback and will use this to improve the hiring process.
 
-<a name="screening-call"></a>
 ## Screening Call
+<a name="screening-call"></a>
 
 For some positions, we conduct screening calls. This call is typically done by our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/).
 
@@ -131,8 +139,8 @@ Questions are:
 At the end of the screening call applicant should be told what the timeline is for what the next steps are (if any).
 An example message would be "We are reviewing applications through the end of next week, and will let you know by the end of two weeks from today whether you've been selected for the next round or not. Please feel free to ping us if you haven't heard anything from us by then."
 
-<a name="interviewing"></a>
 ## Interviewing
+<a name="interviewing"></a>
 
 Interviewing is hard, it's hard for both sides. In less than one hour you both need to get to know each other and
 both will have to make the decision if you want to work with this person.
@@ -195,23 +203,17 @@ Always leave feedback, this will allow the rest people to understand what happen
 One way of writing the feedback is as follows:
 
 > Vote: inclined/not inclined
->
 > Summary: your general impressions, a brief description on what have you seen, where you stand, and why.
->
 > Pros: what is good, and where did you found it during the interview, bullet points is fine.
->
 > Cons: weak spots. Where the candidate failed to you, why, consider that some things can be taught or learnt.
->
 > Interview notes: What questions were asked, what story you got back. Ex.
->
 >   Tell me about a time when you did X
->
 >   The candidate told me a story when she was working in his current gig doing... They had to do... It went well because she took the leadership and .... In the end they increased their sales in a 30%, she measured it by doing ...
 
 The vote is critical as it is telling the rest of the people what is your final thinking here. The rest should explain why do you think so.
 
-<a name="interview-questions"></a>
 ## Interview Questions
+<a name="interview-questions"></a>
 
 Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
 [this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw).
@@ -239,16 +241,15 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 
 These questions are also available in a [Google form](https://docs.google.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) which can be used to save time during the actual interview.
 
+## Reference calls
 <a name="reference-calls"></a>
-## Reference calls <a name="reference-calls"></a>
-
 
 As part of our hiring process we may ask applicants to provide us with one or more
 references to contact. These reference calls are typically be done by our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/) or the hiring
  manager for that specific vacancy following [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
 
-<a name="prep-contracts"></a>
 ## Getting Contracts Ready, Reviewed, and Signed
+<a name="prep-contracts"></a>
 
 Offers made to new team members should be documented in the email thread between the person authorized to make the offer (e.g. CEO) and the applicant.
 
@@ -274,15 +275,15 @@ Note for People Operations:<br>
 [Contracts page](https://about.gitlab.com/handbook/contracts).
 - Onboarding info for the PeopleOps system, BambooHR, can be found on the [PeopleOps](/handbook/people-operations) page.
 
-<a name="closing-vacancy"></a>
 ## Closing a vacancy
+<a name="closing-vacancy"></a>
 
 To close a vacancy:
 
 1. Ask a Workable admin (People Ops) to close the position in Workable. People Ops: consider archiving the job posting to reduce number of positions GitLab is charged for by Workable.
 1. Create a MR, in which you remove the application URL for Workable, and set the listing flag in the `jobs.yml` file to `open: false`. See ["vacancy creation process"](#vacancy-creation-process) for reference).
 
-<a name="underperformance"></a>
 ## Underperformance
+<a name="underperformance"></a>
 
 See [underperformance guidelines](/handbook/underperformance).
