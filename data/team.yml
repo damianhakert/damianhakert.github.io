@@ -1302,16 +1302,16 @@
           on some occasions, and when he's not working, he can be fiddling around
           with 3D modelling or learning new languages.
 
-- name: A.S.
-  locality:
-  country:
+- name: Abubakar Siddiq Ango
+  locality: Bauchi, Bauchi State
+  country: Nigeria
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Junior Service Engineer</a>
   reports_to: Support Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: abubakarango.jpg
+  twitter: sarki247
+  gitlab: abuango
   story:  |
-          Joining July 11th
+          Before joining the GitLab team, Abubakar has worked in the academic environment providing support and maintaining IT infrastructure. He also actively participates in several training programs targeted at youths and students. In his spare time, Abubakar reads and also participate in the local developer community events. 
 
 - name: D.L.
   locality:
