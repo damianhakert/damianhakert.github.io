@@ -12,7 +12,7 @@ title: Product
 
 GitLab is designed and developed in a unique way.
 
-This document provides lessons and heuristics on how to design changes
+The direction for the GitLab product is spelled out on the [Direction page](/direction). This document provides lessons and heuristics on how to design changes
 and new features.
 
 _As everything at GitLab, this document is forever in draft. Merge requests are very welcome._
@@ -121,6 +121,6 @@ certain behaviors.
 We don't want users to be able to construct workflows that break GitLab or
 make it work in unpredictable ways.
 
-## CI/CD
+## CI/CD<a name="cicd"></a>
 
 For more insights into our vision on Continuous Integration and Continuous Deployment & Delivery, see the [CI/CD page](/direction/cicd).
