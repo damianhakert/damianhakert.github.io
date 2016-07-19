@@ -308,34 +308,3 @@ Below is the last section containing more formal description of terms and keywor
 | [pipelines](http://docs.gitlab.com/ee/ci/pipelines.html#pipelines) | A pipeline is a group of builds that get executed in stages (batches) |
 
 Let us know in the comments if you want to see more posts like this.
-
-<!--### Deployment and Environments
-
-TODO
-
-(install rsync, use `only` or `except`, environments, not sure about `when`)
-
-<div id="aside" style="width:500px; height:450px; position:fixed; right:0px; top: 200px; padding: 4px; margin:4px; font-size:90%">
-</div>
-
-<script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
--->
-
-<script type="text/javascript">
-// $(document).ready(function() {
-//   setTimeout(function (){
-
-//     // 1. find the closest .step element
-//     // 2. take closes "pre" block content and put it to aside
-//     $.each($(".step"), function(i, step){
-//       var anchor_offset = $(step).offset().top;
-//       $(window).on('scroll', function() {
-//         if ( $(window).scrollTop() > anchor_offset - 200) {
-//           var code = $(step).next("pre").html();
-//           $('#aside').html("<pre>" + code + "</pre>");
-//         }
-//       });
-//     })
-//   }, 1000);
-// })
-</script>
