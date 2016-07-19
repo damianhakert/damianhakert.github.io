@@ -20,13 +20,27 @@ Top 10 reasons to work for GitLab:
 1. Work on a product used by lots of people that care about what you do
 1. As a company we contribute more than that we take, most of our work is released as the open source GitLab CE
 1. Focussed on results, not on long hours, so that you can have a life and don't burn out.
-1. Open internal processes, know what you're getting in to and be assured we're thoughful and effective
+1. Open internal processes, know what you're getting in to and be assured we're thoughtful and effective
 
 ## Summits
 
 Approximately every 6-9 months, we gather in person to see how tall everyone is (hard to see with video conferencing), and to
 get to know each other better by working and 'playing' together. Here are some
  [impressions from the Summit in Amsterdam, October 2015](https://about.gitlab.com/2015/11/30/gitlab-summit-2015/).
+
+## Team Stories
+
+What better way to convey a sense of who we are and how we work together, than by sharing the stories about it?
+
+### Remember...
+
+**the boat?**<br>
+Back then, the whole team used to fit in one car. And the car was called the "boat".
+
+**staring down the cattle?**<br>
+Our CFO was on vacation on a cattle ranch, during a time of fundraising. Normally vacation is vacation of course, but in this case it was necessary to have some calls now and again which required strong internet. To get to strong internet, our CFO had to cross fields with cattle in them, and stare them down. Over the course of many trips he learned that cattle are docile, mostly.
+
+
 
 ## Internal Feedback
 
