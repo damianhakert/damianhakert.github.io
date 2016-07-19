@@ -111,9 +111,9 @@ extra_css:
               %p
                 %a{href: "https://azure.microsoft.com/en-us/"} Microsoft Azure
                 is Microsoft's business cloud. Through the Azure Marketplace, you can spin up a pre-configured GitLab VM in just a few clicks.
-                Get started with this
-                %a{href: "https://about.gitlab.com/2016/07/13/how-to-setup-a-gitlab-instance-on-microsoft-azure/"} tutorial
-                .
+                Get started with
+                = succeed "." do
+                  %a{href: "/2016/07/13/how-to-setup-a-gitlab-instance-on-microsoft-azure/"} this tutorial
         .method
           %h2 Community installation methods
           %ul
