@@ -12,8 +12,7 @@ learn a few tricks to have more freedom with it, this post is for you.
 The markdown engine we use for [about.GitLab.com] is [Kramdown], and that is the one
 we'll be referring to on this post.
 
-**Note:** We assume you are familiar with web development and markdown, knows what a markdown engine is
-and how it is applied to a website.
+**Note:** We assume you already know what a markdown engine is and how it is applied to a website.
 {: .note}
 
 <!-- more -->
@@ -127,6 +126,18 @@ What if I want to apply 2 classes at the same time?
 A blue and bold paragraph.
 {: .blue .bold}
 ```
+
+And the output will be as expected:
+
+<div class="panel panel-info">
+**Output**
+{: .panel-heading style="margin-bottom:10px"}
+<div class="panel-body">
+A blue and bold paragraph.
+{: .blue .bold}
+</div>
+</div>
+
 As simple as that! The markup is simple and intuitive.
 
 Now, guess what, we can do exactly the same for IDs!
@@ -373,7 +384,7 @@ tag to any part of your markdown:
   color: blue;
 }
 .bold {
-  text-decoration: bold;
+  font-weight: bold;
 }
 </style>
 ```
@@ -389,10 +400,13 @@ There is a lot more you can do, mix, and bring together using [Kramdown]. It's a
 our [Markdown Guide][guide] for more resources, examples and applications and use your creativity to create
 beautiful posts, with great styles!
 
+Anything else you know of and is not in our [Guide]? Any new magic?
+Any trick? Please [contribute] by submitting an [MR] to the
+[source file]! Your collaboration is much appreciated!
+
 Happy markdowning!
 
-Follow [@GitLab] and stay tunned for the next post! 
-
+Follow [@GitLab] and stay tunned for the next post!
 
 <!-- identifiers -->
 
@@ -401,6 +415,7 @@ Follow [@GitLab] and stay tunned for the next post!
 [boxes]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#colorful-sections
 [classes]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#classes-ids-and-attributes
 [CodePens]: https://codepen.io
+[contribute]: https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/CONTRIBUTING.md
 [docs]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#embed-documents
 [font awesome]: http://fontawesome.io/
 [guide]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/
@@ -410,17 +425,19 @@ Follow [@GitLab] and stay tunned for the next post!
 [Kramdown]: http://kramdown.gettalong.org/
 [Marketing Handbook]: /handbook/marketing/
 [Middleman]: https://middlemanapp.com/
+[mr]: http://docs.gitlab.com/ce/gitlab-basics/add-merge-request.html "Merge Request"
 [news]: https://news.ycombinator.com/item?id=12091638
 [responsive]: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
 [SSGs]: /2016/06/10/ssg-overview-gitlab-pages-part-2/
 [videos]: /handbook/marketing/developer-relations/technical-writing/markdown-guide/#videos
 [www-GitLab-com]: https://gitlab.com/gitlab-com/www-gitlab-com
+[source file]: https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/marketing/developer-relations/technical-writing/markdown-guide/index.html.md
 
 <style>
 .blue {
   color: blue !important;
 }
 .bold {
-  text-decoration: bold;
+  font-weight: bold;
 }
 </style>
