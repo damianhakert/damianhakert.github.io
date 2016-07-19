@@ -52,7 +52,7 @@ In general, the People Operations team and processes are here as a service to th
 
 ### Letter of Employment<a name="letter-of-employment"></a>
 
-If you need a letter from GitLab verifying your employment, please send the request to People Ops citing what information is needed. For example, salary, start date, title, etc. People ops will send you the letter once it is completed. 
+If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. For example, monthly fee, salary, start date, title, etc. People ops will send you the letter once it is completed. 
 
 ## Team Directory<a name="directory"></a>
 
