@@ -402,7 +402,7 @@ beautiful posts, with great styles!
 
 Anything else you know of and is not in our [Guide]? Any new magic?
 Any trick? Please [contribute] by submitting an [MR] to the
-[source file]! Your collaboration is much appreciated!
+[source file]. Your collaboration is much appreciated.
 
 Happy markdowning!
 
