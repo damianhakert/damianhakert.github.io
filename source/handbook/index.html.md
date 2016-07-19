@@ -126,6 +126,7 @@ people. We try to hire people who think work is a great way to express themselve
 1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin color, gender or sexual orientation.
 1. Use **inclusive** language. For example, prefer 'Hi everybody' or 'Hi people' to 'Hi guys'.
 1. Share problems you run into, ask for help, be forthcoming with information and **speak up**.
+1. Don't be or act surprised when people say they don't know something, as it is important that everyone feels comfortable saying "I don't know" and "I don't understand." (Inspired by [Recurse](https://www.recurse.com/manual#sub-sec-social-rules))
 1. All our procedures and templates are stored in (mostly public) git repositories instead of Google/Word documents. This makes them easier to find and suggest changes to with the organization and shows our commitment to open collaboration outside the organization.
 1. Work out in the **open**, try to use public issue trackers and repositories when possible.
 1. Most things are **public** unless there is a reason not to, not public by default are: financial information, legal, job applications/compensation/feedback and partnerships with other companies.
@@ -536,7 +537,7 @@ first 6 months of their hire, then you *also* get a $1,000 bonus.
 1. Exceptions: no bonuses for hiring people who report to you, and no bonus for the executive team.
 1. When your referral applies for an opening, make sure that they enter your name on the application form.
 
-People Ops will [process](/handbook/people-operations/#referral-bonus) the bonus. 
+People Ops will [process](/handbook/people-operations/#referral-bonus) the bonus.
 
 ### Work Remotely Travel Grant<a name="travel-grant"></a>
 
@@ -557,7 +558,7 @@ send a copy of the document to legal@gitlab.com with the following information:
 4. Deadline by which you need the document prepared.
 5. Deadline by which you need the document to be signed, dated and submitted.
 6. Email address and name of third party if you want the signed document to be sent directly to that party once signed.
-  
+
 Unless otherwise stated, the signed document should be sent to the person who sent the request for signature.
 The document will be managed through HelloSign, a cloud-based electronic
 signature tool. Only C-level executives can sign legal documents, with the
