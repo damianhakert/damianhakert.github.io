@@ -23,12 +23,15 @@
   %meta{content: current_page.data.date, property: "article:published_time"}
   %meta{content: "#{data.site.url}/about", property: "article:author"}
 
-- if current_page.data.image_title
+- if current_page.data.twitter_image
+  %meta{content: "#{data.site.url}#{current_page.data.twitter_image}", property: "og:image"}
+  %meta{ name: "twitter:image", content: "#{data.site.url}#{current_page.data.twitter_image}" }
+- elsif current_page.data.image_title
   %meta{content: "#{data.site.url}#{current_page.data.image_title}", property: "og:image"}
   %meta{ name: "twitter:image", content: "#{data.site.url}#{current_page.data.image_title}" }
 - else
-  %meta{content: "#{data.site.url}/images/gitlab_logo.png", property: "og:image"}
-  %meta{ name: "twitter:image", content: "#{data.site.url}/images/gitlab_logo.png" }
+  %meta{content: "#{data.site.url}/images/blogimages/gitlab-blog-cover.png", property: "og:image"}
+  %meta{ name: "twitter:image", content: "#{data.site.url}/images/blogimages/gitlab-blog-cover.png" }
 
 %meta{ name: "twitter:card", content: "summary_large_image" }
 %meta{ name: "twitter:site", content: "@GitLab" }
