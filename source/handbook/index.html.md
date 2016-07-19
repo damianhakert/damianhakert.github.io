@@ -371,6 +371,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. The community include users, contributors, core team members, customers, people working for GitLab Inc., and friends of GitLab. If you want to refer to 'people not working for GitLab Inc.' just say that and don't use the word community. If you want to refer to people working for GitLab Inc. you can also use 'the GitLab Inc. team' but don't use the 'GitLab Inc. employees'.
 1. All people working for GitLab the company are the [GitLab team](https://about.gitlab.com/team/), we also have the [Core team](https://about.gitlab.com/core-team/) that is part GitLab team, part volunteers.
 1. Please always refer to GitLab Inc. people as team members, not employees.
+1. Use inclusive and gender-neutral language in all writing. So for example, write "they, their" instead "he, his".
 1. Always write GitLab with a capitalized G and L, even when writing GitLab.com.
 1. Monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9
 1. If an email needs a response write the ask at the top of it.
@@ -536,7 +537,7 @@ first 6 months of their hire, then you *also* get a $1,000 bonus.
 1. Exceptions: no bonuses for hiring people who report to you, and no bonus for the executive team.
 1. When your referral applies for an opening, make sure that they enter your name on the application form.
 
-People Ops will [process](/handbook/people-operations/#referral-bonus) the bonus. 
+People Ops will [process](/handbook/people-operations/#referral-bonus) the bonus.
 
 ### Work Remotely Travel Grant<a name="travel-grant"></a>
 
@@ -557,7 +558,7 @@ send a copy of the document to legal@gitlab.com with the following information:
 4. Deadline by which you need the document prepared.
 5. Deadline by which you need the document to be signed, dated and submitted.
 6. Email address and name of third party if you want the signed document to be sent directly to that party once signed.
-  
+
 Unless otherwise stated, the signed document should be sent to the person who sent the request for signature.
 The document will be managed through HelloSign, a cloud-based electronic
 signature tool. Only C-level executives can sign legal documents, with the
