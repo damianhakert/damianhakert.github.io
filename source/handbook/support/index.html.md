@@ -438,7 +438,7 @@ This can be implemented if the following criteria are met:
 1. There hasn't been any activity on the account (i.e. code, issues, MRs)
    for six months. This considers activity on projects the account owns
    as well as activity on projects the account participants in.
-1. Support has had four failed attempts to  contact the user within a
+1. Support has had two failed attempt to contact the user within a
  two week period.   
 1. The user cannot be an owner of any active project.
 
