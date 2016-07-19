@@ -232,7 +232,6 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 
 These questions are also available in a [Google form](https://docs.google.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) which can be used to save time during the actual interview.
 
-
 ## Reference calls <a name="reference-calls"></a>
 
 As part of our hiring process we may ask applicants to provide us with one or more
