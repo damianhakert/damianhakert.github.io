@@ -15,6 +15,8 @@ Let's assume that you do not know anything about what is Continuous Integration 
 
 Imagine, you work on a project, where all the code consists of two text files. Moreover, it is super-critical that concatenation of these two files contains the phrase "Hello world".
 
+![](/images/blogimages/ci-logic/hello.png)
+
 If there's no such phrase, the whole development team stays without a salary for a month. Yeah, that is damn serious!
 
 <!-- more -->
