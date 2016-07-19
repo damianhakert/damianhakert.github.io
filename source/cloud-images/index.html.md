@@ -1,3 +1,8 @@
+---
+layout: markdown_page
+title: Cloud Image Process
+---
+
 ### Goal
 
 Create a clear process, which outlines ownership throughout each sub-flow, with a breakdown of mid-level tasks, order of execution, timelines for delivery and standards for process management.
@@ -72,7 +77,15 @@ If an omnibus package has been uploaded - maintenance won’t be necessary for v
 
 ### AWS Image
 - Documentation on [AWS AMIs](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html)
-- 
+- Login to [AWS console](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#Instances:sort=publicIp)
+- Creating a new image:
+  - Create a new instance and choose the Ubuntu AMI
+  - Install GitLab-ee or GitLab-ce via omnibus:
+    - 'curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash'
+    - 'sudo apt-get install gitlab-ce'
+    - 'gitlab-ctl reconfigure'
+  - [Create the new AMI from this instance](http://docs.aws.amazon.com/AWSToolkitVS/latest/UserGuide/tkv-create-ami-from-instance.html)
+    - Make the AMI public, change the properties in the console when you right click on this AMI
 
 ### Azure Image
 - Manage the account and details on the [publisher portal](https://publish.windowsazure.com/), choose 'Personal' account
@@ -87,4 +100,3 @@ to continue the login.
 2. [Test the image](https://azure.microsoft.com/en-us/documentation/articles/marketplace-publishing-vm-image-test-in-staging/)
 3. [Deploy the image to the marketplace](https://azure.microsoft.com/en-us/documentation/articles/marketplace-publishing-push-to-production/)
 4. [Getting support as a publisher from MS](https://azure.microsoft.com/en-us/documentation/articles/marketplace-publishing-get-publisher-support/)
-
