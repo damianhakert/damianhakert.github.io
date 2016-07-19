@@ -52,7 +52,7 @@ with Git and the GitLab workflow.
 * [ ] People Ops: Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
 * [ ] People Ops: Move the applicant to the "Hired" bucket in Workable, this automagically creates their profile in BambooHR. Make sure that all compensation information is visible to the hiring manager only. Find the profile on BambooHR and enable on "self-service".
 * [ ] People Ops: In BambooHR, input relevant data (title, dates, contract type, compensation) into the team members profile tabs "Job". Be sure to add the personal and work email address before saving the newly entered information.
-* [ ] People Ops: file signed contract with PIAA or NDA+IP agreements in BambooHR profile under "Documents"-->"Signed Contract/Offer Letter". Set the uploaded documents to "shared" so that the team member can also view them. Make sure to delete the google doc on the drive as the signed version supersedes it. 
+* [ ] People Ops: file signed contract with PIAA or NDA+IP agreements in BambooHR profile under "Documents"-->"Signed Contract/Offer Letter". Set the uploaded documents to "shared" so that the team member can also view them. Make sure to delete the google doc on the drive as the signed version supersedes it.
 * [ ] People Ops: file photo ID in BambooHR profile under "Documents"--> "Verification Docs"
 * [ ] People Ops: list any stock options that were part of the offer in BambooHR profile under "Benefits"--> "Stock Options"
 * [ ] People Ops: Give team member access to the GitLab availability calendar
@@ -106,11 +106,12 @@ welcome email to the employee at their work email on their first date of hire.
 #### For GitLab BV employees only
 
 * [ ] New team member: fill in this payroll information [form](https://docs.google.com/a/gitlab.com/forms/d/1mExVeTRn1cd0MtnNuvMSy7UJ8WazI5D6_snq3R6bsmI/viewform)
-This info is needed to get your profile ready with Savvy HR in order to get you your payslips and other information.
+This info is needed to get your profile ready with Savvy HR in order to get you your pay slips and other information.
 Next to Savvy, the People Ops team will also get a copy of the form info for your employee file on BambooHR
 
 #### All team members
 
+* [ ] New team member: Read the [security handbook](/handbook/security), and please ask questions make sure it is all clear to you. 
 * [ ] New team member: Register on 1Password by clicking on the link in the ["Link to 1Password Sign-Up"](https://docs.google.com/document/d/15BdqpNhSi_5bc2b9KXo_w5f0gC-3gmuw-aIgzRcbnbk/edit) Google Doc.
 and then ping @rspeicher to confirm your account. You can find this (and other) shared Google Docs by using [`Search <your domain>`](https://support.google.com/a/answer/3187967?hl=en) in Google Drive. You may need to update the domain of your search scope to include `Search for files shared with gitlab.com`.
 * [ ] New team member: once you are registered on 1Password, ping your hiring manager to grant you access to the proper shared Vaults by making a suggestion in the relevant cell in the ["1Password Shared Folders"](https://docs.google.com/a/gitlab.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit?usp=sharing) Google Sheet.
@@ -168,9 +169,9 @@ and then ping @rspeicher to confirm your account. You can find this (and other) 
 * [ ] New team member: Lodge an issue on the [infrastructure team project](https://gitlab.com/gitlab-com/infrastructure/issues/new) requesting the creation of a VM instance, use the template below:
 
 > Title: New DO service engineering VM [Request]
-> Hi, 
+> Hi,
 > Please provide a standard 2GB DO VM for service engineering testing.  
-> SSH key is: 
+> SSH key is:
 > ```
 > {{SSHKEYHERE}}
 > ```
