@@ -44,7 +44,7 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
    * Indicate what applicants need to provide with their application. By default, this will include their resumé, a cover letter, but it may also include qualifying questions such as "What timezone are you in?".
    * Get one of the admins (People Ops and CEO) to "Publish" the job, and follow the links to the application form (you will need this URL).
    * Add the URL to the application form into the merge request for the `data/jobs.yml` file.
- 1. As soon as the new job description / posting is live on our website, announce it on the team call, in the #general chat channel, and via Twitter. Also consider your additional available [advertising methods](#job-advertising) below.
+ 1. As soon as the new job description / posting is live on our website, the hiring manager should announce it on the team call, in the #general chat channel, and via Twitter. Also consider your additional available [advertising methods](#job-advertising) below.
 
 
 ## Advertising the job
