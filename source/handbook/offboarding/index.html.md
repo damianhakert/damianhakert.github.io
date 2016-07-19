@@ -14,7 +14,9 @@ Create issue for former team member on the dev server in the [organization issue
    * [ ] Robert/Jacob V/Ernst: switch off 2FA for the account, reset the password,
    log on, and set email to forward to the manager. Also change the phone number
    and alternative email (typically personal email address) that are associated
-   with the account. Switch 2FA back on and save login credentials in 1password (PeopleOps vault).
+   with the account. Switch 2FA back on and save login credentials in
+   1password (PeopleOps vault). When asked for a phone number use your
+   own, this is only for the purposes of turning 2FA back on.
    * [ ] Robert/Jacob V/Ernst: upon manager's request (typically 4 weeks after blocking
      the Google account), transfer owned documents from Google Drive to
    manager, and delete the Google account. (automatically disables Drive access)
