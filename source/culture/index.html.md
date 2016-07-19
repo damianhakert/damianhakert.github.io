@@ -35,7 +35,8 @@ What better way to convey a sense of who we are and how we work together, than b
 ### Remember...
 
 **the boat?**<br>
-Back then, the whole team used to fit in one car. And the car was called the "boat".
+![](/images/team/boat.jpg)<br>
+[Back then](https://about.gitlab.com/2016/01/06/our-y-combinator-experience/), the whole team used to fit in one car. And the car was called the "boat".
 
 **staring down the cattle?**<br>
 Our CFO was on vacation on a cattle ranch, during a time of fundraising. Normally vacation is vacation of course, but in this case it was necessary to have some calls now and again which required strong internet. To get to strong internet, our CFO had to cross fields with cattle in them, and stare them down. Over the course of many trips he learned that cattle are docile, mostly.
