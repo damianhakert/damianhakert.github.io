@@ -9,8 +9,9 @@ title: "Hiring"
 - TOC
 {:toc}
 
+<a name="vacancy-creation-process"></a>
+## Vacancy Creation Process
 
-## Vacancy Creation Process<a name="vacancy-creation-process"></a>
 
 The CEO needs to authorize any new job positions/searches, and agree on the proposed hiring team.
 
@@ -41,7 +42,8 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
    * Add the URL to the application form into the merge request for the `data/jobs.yml` file.
  1. As soon as the new job description / posting is live on our website, consider your available [advertising methods](#job-advertising) below.
 
-## Advertising the job<a name="job-advertising"></a>
+<a name="job-advertising"></a>
+## Advertising the job
 
 _Always_ advertise the job through the following means:
 
@@ -68,10 +70,11 @@ List on:
 1. [RemoteOK](https://remoteok.io) ($200 for ?? days, per position)
 
 
+<a name="hiring-process"></a>
+## Hiring Process
 
-## Hiring Process<a name="hiring-process"></a>
-
-### General points about moving applicants through the process<a name="general-points"></a>
+<a name="general-points"></a>
+### General points about moving applicants through the process
 
 **Inform applicants about what stage they are in.** So for example, if in the hiring process for the particular position / team you've agreed that there will be 4 stages, make sure to inform the applicant of this during each call / stage: "You are in stage X, and will be moving to stage Y". The process can differ from team to team, and from position to position.
 
@@ -81,7 +84,8 @@ List on:
 
 The visibility of internal comments in Workable can be switched between hiring team _managers_ only, or _all_ members of the hiring team. Consider making comments that relate to compensation visible to hiring _managers_ only.
 
-### Typical process<a name="typical-process"></a>
+<a name="typical-process"></a>
+### Typical process
 
 1. **Confirmation of the application**: applicants automatically receive confirmation of their application, thanking them for submitting their information. This is an automated message from Workable. If the person came through another channel please add them to Workable before continuing the process. There are various ways to do this, see [Workable's documentation](https://resources.workable.com/adding-candidates).
 1. Hiring manager does a **first round of evaluations**. Disqualified candidates should be sent a note informing them of the [rejection](#rejecting). There are templates in Workable to assist, but messages can be tailored as appropriate: place yourself on the receiving end of the message. If more information is required to make the determination, feel free to specifically ask for it (e.g. a cover letter).
@@ -95,7 +99,8 @@ The visibility of internal comments in Workable can be switched between hiring t
 1. Hiring manager ensures that the contract is signed, and People Ops [starts the onboarding process](#move-to-onboarding).
 1. Hiring manager considers [closing the vacancy](#closing-vacancy).
 
-### Rejecting applicants<a name="rejecting"></a>
+<a name="rejecting"></a>
+### Rejecting applicants
 
 1. At any time during the hiring process the applicant can be rejected
 1. The applicant should always be notified of this. The hiring manager is primarily
@@ -108,8 +113,8 @@ The feedback survey should be sent out about 3 days after the applicant has been
 notified of the rejection.
 1. PeopleOps will receive the feedback and will use this to improve the hiring process.
 
-
-## Screening Call<a name="screening-call"></a>
+<a name="screening-call"></a>
+## Screening Call
 
 For some positions, we conduct screening calls. This call is typically done by our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/).
 
@@ -126,7 +131,8 @@ Questions are:
 At the end of the screening call applicant should be told what the timeline is for what the next steps are (if any).
 An example message would be "We are reviewing applications through the end of next week, and will let you know by the end of two weeks from today whether you've been selected for the next round or not. Please feel free to ping us if you haven't heard anything from us by then."
 
-## Interviewing<a name="interviewing"></a>
+<a name="interviewing"></a>
+## Interviewing
 
 Interviewing is hard, it's hard for both sides. In less than one hour you both need to get to know each other and
 both will have to make the decision if you want to work with this person.
@@ -204,7 +210,8 @@ One way of writing the feedback is as follows:
 
 The vote is critical as it is telling the rest of the people what is your final thinking here. The rest should explain why do you think so.
 
-## Interview Questions<a name="interview-questions"></a>
+<a name="interview-questions"></a>
+## Interview Questions
 
 Note: So you are about to interview folks for a job at GitLab? Please take a moment to carefully read
 [this document on keeping it relevant and legal, including a self-test](https://docs.google.com/document/d/1JNrDqtVGq3Y652ooxrOTr9Nc9TnxLj5N-KozzK5CqXw).
@@ -232,13 +239,16 @@ Note: So you are about to interview folks for a job at GitLab? Please take a mom
 
 These questions are also available in a [Google form](https://docs.google.com/forms/d/1lBq_oXaqpQRs-SeEs3EvpxFGK55Enqn_nzkLq2l3Rwg/viewform) which can be used to save time during the actual interview.
 
+<a name="reference-calls"></a>
 ## Reference calls <a name="reference-calls"></a>
+
 
 As part of our hiring process we may ask applicants to provide us with one or more
 references to contact. These reference calls are typically be done by our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/) or the hiring
  manager for that specific vacancy following [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
 
-## Getting Contracts Ready, Reviewed, and Signed<a name="prep-contracts"></a>
+<a name="prep-contracts"></a>
+## Getting Contracts Ready, Reviewed, and Signed
 
 Offers made to new team members should be documented in the email thread between the person authorized to make the offer (e.g. CEO) and the applicant.
 
@@ -264,13 +274,15 @@ Note for People Operations:<br>
 [Contracts page](https://about.gitlab.com/handbook/contracts).
 - Onboarding info for the PeopleOps system, BambooHR, can be found on the [PeopleOps](/handbook/people-operations) page.
 
-## Closing a vacancy <a name="closing-vacancy"></a>
+<a name="closing-vacancy"></a>
+## Closing a vacancy
 
 To close a vacancy:
 
 1. Ask a Workable admin (People Ops) to close the position in Workable. People Ops: consider archiving the job posting to reduce number of positions GitLab is charged for by Workable.
 1. Create a MR, in which you remove the application URL for Workable, and set the listing flag in the `jobs.yml` file to `open: false`. See ["vacancy creation process"](#vacancy-creation-process) for reference).
 
-## Underperformance <a name="underperformance"></a>
+<a name="underperformance"></a>
+## Underperformance
 
 See [underperformance guidelines](/handbook/underperformance).
