@@ -60,3 +60,12 @@ for further details on that process.
 * [ ] People Ops: Notify eShares administrator (CFO) of offboarding.
 * [ ] Infrastructure: If the person is from infrastructure [remove the sysadmin](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/user-administration.md#remove-a-sysadmin)
 ```
+
+## Tackling Offboarding Checklist
+
+### Remove a team member from Sundial
+
+1. Log in to Sundial using the link in the "Private Sundial URL" Google Doc  
+1. Go to timezone view in the top right corner
+1. Hover over the team member's name that you want to remove
+1. Make sure you are in list view at this point, and then click the "x" to remove the team member 
