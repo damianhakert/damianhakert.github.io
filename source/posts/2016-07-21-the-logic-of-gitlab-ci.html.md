@@ -263,7 +263,7 @@ build:tar:
 ```
 
 Wow, it looks like we have a pipeline here:
-![](/images/blogimages/ci-logic/draw-a-pictue-of-pipeline.png)
+![](/images/blogimages/ci-logic/pipeline.png)
 
 It is evident, why we need a duplication like this:
 
