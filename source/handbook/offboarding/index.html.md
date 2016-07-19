@@ -64,7 +64,7 @@ for further details on that process.
 
 ### Remove a team member from Sundial
 
-1. Log in to Sundial (using the private URL which can be found on the google drive in "Private Sundial URL") 
+1. Log in to Sundial using the link in the "Private Sundial URL" Google Doc  
 1. Go to timezone view in the top right corner
 1. Hover over the team member's name that you want to remove
 1. Make sure you are in list view at this point, and then click the "x" to remove the team member 
