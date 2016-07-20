@@ -5,6 +5,7 @@ author_twitter: xmdramos
 categories: technical overview
 image_title: '/images/blogimages/markdown-kramdown-tips-and-tricks-cover.png'
 twitter_image: '/images/tweets/markdown-kramdown-tips-and-tricks.png'
+description: "Learn how to apply classes to markdown, create ToCs, embed iframes and much more!"
 ---
 
 If you use a markdown engine for writing your website content and you'd like to
