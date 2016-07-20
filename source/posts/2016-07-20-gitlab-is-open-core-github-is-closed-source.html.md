@@ -8,7 +8,9 @@ image_title: '/images/unsplash/sailing-5.jpg'
 
 Disclosure: I'm the CEO of GitLab and we compete with GitHub.
 
-We think of ourselves as an open source company but a commenter on Hacker News rightly [remarked that calling it an open core company is more accurate](https://news.ycombinator.com/item?id=12129626). We ship GitLab CE which is open source and GitLab EE that is closed source. We try to be [a good steward of the open source project](https://about.gitlab.com/about/#stewardship) and the GitLab EE code and issue tracker are publicly viewable and the [EE license](https://gitlab.com/gitlab-org/gitlab-ee/blob/master/LICENSE) allows modifications, but you do need a subscription from us.
+We think of ourselves as an open source company. But today paxcoder on Hacker News rightly [remarked that calling it an open core company is more accurate](https://news.ycombinator.com/item?id=12129626).
+
+We ship GitLab CE which is open source and GitLab EE that is closed source. We try to be [a good steward of the open source project](https://about.gitlab.com/about/#stewardship). The GitLab EE is propietary close source code but we try to work in a way similar to GitLab CE: the [issue tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues) is publicly viewable and the [EE license](https://gitlab.com/gitlab-org/gitlab-ee/blob/master/LICENSE) allows modifications.
 
 Another point of confusion is that many people assume that GitHub is open source http://stackoverflow.com/questions/24254324/is-github-com-source-code-open-source But their only downloadable version called GitHub Enterprise Edition TODO LINK is closed source.
 
