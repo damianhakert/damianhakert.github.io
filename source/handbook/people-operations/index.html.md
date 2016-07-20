@@ -518,4 +518,4 @@ The following points need to be covered for US-based employees:
 
 ### Sample termination memo
 
-If appropriate (to be determined by conversation with the manager, CEO, and people ops), use the following [termination memo](https://docs.google.com/document/d/11Uk8p4VJrLnDD5IAtbTwswPUUEnmeEOazS1kJMhOu70/edit?usp=sharing), which is provided here as an openly viewable Google Doc, but of course needs to be personalized and tailored to each individual's situation. As written, it is applicable to US-based employees only.
+If appropriate (to be determined by conversation with the manager, CEO, and people ops), use the following [termination memo](https://docs.google.com/document/d/11Uk8p4VJrLnDD5IAtbTwswPUUEnmeEOazS1kJMhOu70/edit?usp=sharing) and [Separation and Release of Claims Agreement](https://docs.google.com/document/d/17Dim1GC_LV0XF2DRzYNVRFrKlNE80fuXxAjP-jou8Yw/edit?usp=sharing), which are provided here as an openly viewable Google Doc, but of course needs to be personalized and tailored to each individual's situation. As written, it is applicable to US-based employees only.  
