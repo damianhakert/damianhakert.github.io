@@ -41,6 +41,15 @@ We gladly organize and pay for local legal assistance, especially if you are at 
 - Think of the answers you will give during your visa interview; it can influence your visa approval/denial.
 - Once the dates for a conference or summit are set start asap with your application if you have needed a special visa in previous situations, just to give yourself enough time and room for errors if they arise.
 
+#### Visa application timeline guide for the USA
+
+- 6 months beforehand: make appointment at embassy, and start gathering all necessary paperwork, forms, certificates, pictures, etc. This is the point when it can be helpful to engage the services of a local lawyer who is familiar with the US embassy process to help check that your paperwork is in order, and to practice interview questions.
+   - Sometimes you might call the embassy, and be told that you do not need to schedule an interview so far ahead of your trip. Don't take their word for it, since that advice is typically made with the "typical, best case"  process in mind and does not account for the possibility of a black hole "administrative processing" period. In other words, make sure you get an appointment as early as possible.
+- 4 months beforehand (or earlier): go to embassy for interview.
+- 2 months beforehand: if you have not received your visa by now, contact your local lawyer again, and/or People Ops, to see if anything can be done to expedite the process.
+- remainder of time: wait, hoping for the best.
+
+
 ## Self Stay Reimbursement Policy <a name="self-stay"></a>
 
 If you decide to stay with friends or family instead of a hotel / Airbnb for a business trip, the company will pay you 50% of what would have been the cost of a reasonable hotel. This is in keeping with our values of frugality and freedom, and intended to reward you for saving company money on accommodation expenses. Please take a screenshot of the hotel search in Egencia and submit this along with your expense report or invoice.
