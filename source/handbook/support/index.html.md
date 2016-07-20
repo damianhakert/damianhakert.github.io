@@ -117,7 +117,7 @@ The channels are sorted in order of priority, there are 4 SLA categories:
 
 1. Emergency tickets should be answered within 30 minutes.
 2. Security disclosures through regular tickets should be answered within 1 business day.
-3. Disqus and Twitter: we strive to answer them within 1 business day.
+3. Disqus, Twitter and Google alerts: we strive to answer them within 1 business day.
 4. Posted Issues through the end: we strive to answer them within two weeks but
 not sooner than two days, to give the rest of the community a chance to respond.
 
@@ -369,6 +369,10 @@ When resolving Twitter tickets you should:
 ### Facebook<a name="facebook"></a>
 
 Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed into ZenDesk.
+
+### Google Alerts<a name="google-alerts"></a>
+
+Google alerts configured to track GitLab mentions are also piped into ZenDesk.
 
 ### Follow up on issues posted on GitLab issue tracker<a name="issue-tracker"></a>
 
