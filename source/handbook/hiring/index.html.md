@@ -104,9 +104,9 @@ The visibility of internal comments in Workable can be switched between hiring t
 1. **Further interviews** that would typically follow the reporting lines up to the CEO. So for instance, the technical interview would be by a co-worker, next interviews would be with the manager / team lead, executive team member, and then the CEO. See below for [sample questions](#interview-questions). The candidate should be interviewed by at least one female GitLab team member.
 1. **CEO interview**: the CEO, as the primary culture carrier of the company, interviews all final round candidates and decides on a possible offer (but does not always discuss this with the applicant).
 1. **Reference calls (optional)**: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. At minimum two reference calls should be completed - one to a manager, the other to a colleague. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
-1. Make a verbal or written (email) **offer** (the CEO needs to authorize offers)
-1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
-1. Hiring manager ensures that the contract is signed, and People Ops [starts the onboarding process](#move-to-onboarding).
+1. Make an **offer** (the CEO needs to authorize offers). This can be verbal, but should be followed quickly with the written offer as described in [the section on preparing offers and contracts](#prep-contracts).
+1. Hiring manager follows up to ensure that the offer is accepted, and that the contract is signed.
+1. People Ops [starts the onboarding process](#move-to-onboarding).
 1. Hiring manager considers [closing the vacancy](#closing-vacancy).
 
 ### Rejecting applicants
@@ -255,7 +255,7 @@ As part of our hiring process we may ask applicants to provide us with one or mo
 references to contact. These reference calls are typically be done by our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/) or the hiring
  manager for that specific vacancy following [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
 
-## Getting Contracts Ready, Reviewed, and Signed
+## Getting Offers and Contracts Ready, Reviewed, and Signed
 <a name="prep-contracts"></a>
 
 Offers made to new team members should be documented in the email thread between the person authorized to make the offer (e.g. CEO) and the applicant.
