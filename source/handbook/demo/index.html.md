@@ -1,122 +1,232 @@
 ---
 layout: markdown_page
-title: "Giving a GitLab demo"
+title: "Demo Script"
 ---
 
+This demonstration is designed to show customers the highlights of GitLab and the basics of the Gitlab Flow.
 
-Giving a GitLab demo is simple if you're familiar with GitLab. Make sure you
-understand how the things you demo work, otherwise ask a colleague.
+# Sections
+- [Overall navigation](#overall_navigation)
+- [Basic product demo](#basic_product_demo)
+- [Issues and milestones](#issues_milestones)
+- [Product differentiations](#product_differentiations)
+- [EE vs. CE](#ee_vs_ce)
 
-## Preparation
+## Prerequisites
+- Access to a GitLab instance
+- Ability to create a project
+- If Internet access is available, start at this URL while logged in: https://gitlab.com/
 
-You should know the following things before you give the demo:
+## <A name="overall_navigation"></A>OVERALL NAVIGATION
 
-- Who will be listening in? Developers or managers makes a big difference
-- Where are they coming from? Other git software or something old? Mercurial?
-A competitor?
-- Why are they considering GitLab?
-- Is there a particular feature they're interested in?
+### Front page navigation
 
-## Structure of the demo
+- Screen areas
+   - Left hand navigation bar
+       - Top - Open and close navigation bar
+       - Upper part - Global navigation
+       - Lower part - Currently logged-in user
+   - Top navigation - context-sensitive based on selected left hand item  
+       - Tasks
+   - Upper right area
+       - Todos
+       - New project
+       - Sign out
 
-Each demo should roughly have the same structure. This ensures that you show
-some of the most important parts of GitLab. Often people are unaware of certain
-features or have misinterpreted their meaning or usage.
+### Left hand global navigation items
 
-Therefore the basic structure is always:
+- Projects - list of projects the current user has access to
+   - Explain ‘your projects’ ‘starred projects’ and ‘explore projects’
+       - Your projects -- projects you have specific access to
+       - Starred projects -- projects you have marked as special to you
+       - Explore projects -- all projects you have any access to
+   - These filters are used throughout the product
+- Todos - tasks of note for the current user
+- Activity - Recent push events, merge requests, etc.
+   - Commit list - equivalent to 'git log' 
+- Groups - Collections of projects
+- Milestones - Organizes issues and merge requests
+- Issues - Defect / task tracking
+- Merge requests - Equivalent to Github pull request
+- Snippets -  shared pieces of code
+- Help
+- Profile settings
 
-1. Walkthrough of the main features of GitLab and GitLab EE
-1. More in depth showing of features the customer is interested in
-1. Questions and requests
+## <A name="basic_product_demo"></A>BASIC PRODUCT DEMO
 
-### Handling Questions
+### Project / GitLab flow
+- Ensure you are signed in
+- Select ‘new project’
+   - Discuss per project settings
+   - Name/path
+   - Description
+   - Import (select / unselect)
+   - Visibility levels
+- Create project!
+- ‘Project created’ screen has many useful things
+   - SSH / HTTPS connection information
+   - Star / unstar setting
+   - Command line access instructions
+       - Git setup
+       - New repo instructions
+       - Repo import instructions
+   - Prompt to add ‘README’ file
+- Add a ‘README’ file
+   - Defaults to branch ‘master’
+   - Enter some text
+   - Enter a description
+   - Commit changes
+- View project activity from main project screen via ‘activity’ tab
+- Show Project->branches
+   - By default master is protected
+   - You have to push from another branch
+   - GitLab Workflow enforced.
+- Select Project->Files  (or Code</>)
+- Select README.md and then ‘Edit’
+   - Change the file
+   - Add a new branchname to the bottom
+   - Note the ‘start new merge request’ box -- leave it checked
+- Commit changes
+   - New branch is created
+   - New merge request is created on next screen
+- New Merge Request dialog
+   - ‘from <branchname> into ‘master’ is displayed
+   - Discuss WIP: header
+   - Put in a good description
+   - Assign to yourself
+   - Check ‘remove source branch when merge request is accepted’
+   - Submit merge request
+- See the branches
+- Compare the commits
+- Accept Merge Request dialog
+   - Make sure ‘Remove source branch’ is checked
+   - Write a comment if desired
+- Code->Network
+   - See network diagram!
 
-I always say "Just interrupt me if you have any questions.". That works fairly
-well, but it's a good idea to ask if anyone has any questions, a number of times
-during the demo.
+## <A name="issues_milestones"></A>Issues and milestones -- see how they are created, used and closed
 
-If you can explain something and / or if the question is about something that you
-just showed, it's best to answer the question right away.
+- Create issue
+   - “Readme needs more detail
+- Create another issue
+   - License file needs to be created
+- Create milestone
+   - Add two issues
 
-If the question is about a feature you still have to show, consider saying something like:
-"I'll get to that feature in a bit, I'll be sure to show you then". This ensures
-the right context is given to the feature.
 
-## Demo
+   Base files for this project need to be created/fixed
+   Tag issue #1 and #2  — and user @reb in the milestone
+View milestone progress
+Update readme file with new information - on temp branch
+Attach readme to merge request with issue
 
-You should walk through the things below. Remember that the people listening usually
-don't know _anything_ about GitLab. Use a project on a server with LDAP setup,
-this way you can show the LDAP integration. It's also nice to show one of our
-repositories (GitLab CE for instance), as they have a lot of activity.
 
-1. Home page
-    * Activity view
-    * Starred activity view
-1. Create a new project
-    * Explain organization of projects and groups
-    * Explain visibility levels. No one else has 'internal' projects'
-1. Create a new file in the UI editor with markdown, in your new project
-1. Activity view of the project
+## <A name="product_differentiations"></A>Product differentiations
 
-#### Project
+### vs. BitBucket
 
-At this point, you want to go through the main parts of a project.
-If people are already familiar with similar software, don't spend too much
-time on this, as competitors offer pretty much the same functionality.
+- Continuous integration tool - Easy-to-set up, performant, stable and elegant continuous integration with every GitLab installation.
+   - Go to a project, select ‘Pipelines’ and then ‘builds’
+   - View build status, duration, branch (under ref) and tags
+   - Select buildID for more detail (and then use back button)
+   - Click on commit and see the diff
+       - Inline, side-by-side, comments all available
+       - (use back button to go back to builds)
+   - Ref is the branch where it is now located and the stage of the build is shown as well - build test or deploy
+   - Select “Graphs” then Continuous Integration to see a collection of graphical information on CI
+   - Docs for learning more about CI:  http://docs.gitlab.com/ce/ci/
 
-1. File browser
-1. Commit view
-    * Show the branches tab with the protected branches and note that you'll get back to this later
-1. Show a single commit
-    * Add a line comment to the difference and reference someone there
-    * Explain that you can reference anyone / anything, from anywhere in GitLab
-1. Network graph
-    * To show quickly.
-1. Graphs
-    * Also quickly.
-1. Issues
-    * Explain what issues are, including integration
-1. Merge Requests
-    * Very important! Take your time!
-    * Explain GitLab CI and Jenkins integration
-    * Explain integration with JIRA and Issues
-1. Milestones
-    * Show a milestone
+- Integrated issue tracking - GitLab includes an issue tracker which you can link to any merge request.
+   - Click Issues at the top of page in www.gitlab.com project
+   - Look at Open, Closed or All issues
+   - Search by Author, Assignee, Milestone, Label, Weight
+   - Open a closed issue and show the communication which occurred while the issue was open.
 
-#### Project Settings
+- Elastic Search - (not installed by default) GitLab leverages the search capabilities of Elasticsearch and enables it when searching in:
+   - GitLab application
+   - Issues
+   - merge requests
+   - Milestones
+   - Notes
+   - Projects
+   - Repositories
+   - Snippets
+   - wiki repositories
+   - Details available here: https://gitlab.com/help/integration/elasticsearch.md
 
-1. Show members
-    * Explain permissions
-1. Share with group feature
-1. Deploy keys
-    * Quickly.
-1. Webhooks
-    * Quickly.
-1. Git hooks
-    * Explain what they are, what they do.
-    * Note that we also fully support custom git hooks
-1. Services
-    * GitLab integrates with lots of things and new integrations can be added easily.
-1. Protected branches
-    * This is a really nice feature of GitLab. Explain it well and how you can use it.
-1. Audit events
-    * Quickly.
+- Better activity feed and visualization - Collaborative activity feed to help everyone understand what is happening in a project; graphical view of the commit history.
+   - From project page of https://gitlab.com select “commits”
+   - Select a commit
+       - Look at the history
+       - Show ability to make comments in the diff itself.
+       - References to Jira ticket #’s in issues and merge requests
+       - When the merge happens the Jira ticket will be closed.
 
-#### Group
+- Great user interface - A really clean user interface that your team will love, and also enjoy working with
+   - Show left hand navigation menu
+   - From https://gitlab.com select a project
+   - Note ways to view project data and activity
+       - Project, Activity, Code, etc…
+       - Project settings (gear)
+       - Wiki available - Can be turned on in projects
 
-Now show a group. Often you get additional questions about organization of
-groups and projects in GitLab. Note that although we keep a simple hierarchy,
-our _share with group_ and _LDAP Group Sync_ and the ability to assign permissions
-both in group level and in project level, makes it possible to do almost any kind
-of organization.
+- More value in a single solution
+   - To replace GitLab you’d need licenses for all of these:
+       - BitBucket
+       - JIRA
+       - Confluence
+       - Bamboo
+- GitLab was developed as a platform
+- Above other products were developed separately (some were acquired)
 
-1. LDAP groups
-    * Show this in detail. Explain why it's powerful.
 
-#### Other features
 
-Depending on time, you can show:
+## <A name="ee_vs_ce"></A>EE vs. CE
+- Reporting
+- Workflow Management
+- Additional server management options
+- Deeper integration with external tools
 
-1. Explore view
-1. Snippets
-1. Admin panel
+------
+
+
+## NOTES FOR FUTURE CHANGES TO THE ABOVE:
+
+
+  -- Revert & Cherry pick a particular commit from commit screen
+-- Show blame view from the comparison
+
+
+-- milestones -- reference point for what issues need to be created for, say, a release, debugging session, etc.
+-- Label -- collection of arbitrary issues & merge requests -- NOT commits or files
+-- users can subscribe to labels
+
+-- Merge request -- bottom
+   --list of commits to me merged , builds
+   -- CI passed/failed commits, changes
+   -- line changes in files in commits to be merged
+
+-- Create WIP: merge request allows team to discuss what might be changed vs. actually performing change.
+-- Add @ mention to comment box
+-- Localized to time zone of user -- hover over timestam in your local time!
+-- Add comments to code!
+  -- See discussion started in the middle of the file!
+
+-- Go to CE and find a merge request to show comments inline, etc.
+
+
+-- Make an additional change to the README.md
+-- same merge request, different commit
+-- USer confirms all is well. Remove WIP:
+
+-- Commit merge request, remove source branch (to keep things clean)
+-- Oops -- can easily revert the merge request -- an start a new merge request!
+  -- into revert-afgadgagd
+
+-- Create issue  "Probelm with readme"
+   IN description
+-- Create new branch from within issue create
+-- Edit file
+-- Start new merge request from within the issue!
+-- Submit merge request
+

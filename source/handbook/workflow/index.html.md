@@ -92,6 +92,9 @@ Each issue that is scheduled should meet most of these criteria:
 1. The technical complexity is acceptable (we want to preserve our ability to make changes quickly in the future so we try to avoid: complex code, complex data structures, and optional settings)
 1. It is ortagonal to other features (prevent overlap with current and future features)
 1. Its requirements are clear
+1. It can be achieved within the scheduled milestone.
+Larger issues should be split up, so that individual steps can be achieved
+within a single milestone.
 
 Direction issues are the big, prioritized new features for each release.
 They are limited to a small number per release so that we have plenty of

@@ -29,6 +29,20 @@
     }
 
     > li {
+      &.active {
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          left: 15px;
+          right: 15px;
+          bottom: -1px;
+          height: 4px;
+          background-color: $color-primary;
+        }
+      }
+
       &:last-child {
         border-bottom: 2px solid $color-primary;
 

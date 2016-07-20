@@ -4,9 +4,7 @@ title: "Demand Generation"
 ---
 # Welcome to the Demand Generation Handbook  
 
-The Demand Generation organization includes Demand Generation, Business Development, and Online Marketing.   
-
-[Up one level to the Marketing Handbook](/handbook/marketing)
+The Demand Generation organization includes Demand Generation, Business Development, Field Marketing, and Online Marketing.   
 
 ## On this page
 * [References](#references)
@@ -23,15 +21,19 @@ The Demand Generation organization includes Demand Generation, Business Developm
 * [Marketo Tools Server](#marketoTools)
 * [Sales and Community Group Emails](#groupEmail)
 * [Newsletters](#newsletters)
+* [Webcasts](#webcasts)
 
 ## Demand Generation Handbooks:  
 
 - [Demand Generation](/handbook/marketing/demand-generation/)  
 - [Online Marketing](/handbook/marketing/demand-generation/online-marketing/)  
 - [Business Development](/handbook/marketing/demand-generation/business-development)  
+- [Field Marketing](/handbook/marketing/demand-generation/field-marketing/)
+- [Marketing Operations](/handbook/marketing/demand-generation/marketing-operations/)  
 
 ## References<a name="references"></a>
 
+ - [July 2016 Demand Org Structure](https://docs.google.com/presentation/d/1yTly27oKyz1OW8L8L6jDv_3waxtgGNvfItDxBWCB9XU/edit?usp=sharing)
 - [Q1 ‘16 Lead Generation.pptx](https://docs.google.com/presentation/d/1ePns2ln0bLb_SPodXkYC13HEWRoVrJzsOrHQ3aGWio0/edit#slide=id.p5)
 - [Point webhook from mailchimp to marketo issue](https://gitlab.com/gitlab-com/www-gitlab-com/issues/427)
 - [Replace wufoo forms with Marketo forms](https://gitlab.com/gitlab-com/www-gitlab-com/issues/422)
@@ -165,3 +167,55 @@ Current state
 
 - We currently send out two newsletters a month. One is is on the second Tuesday of the month and the other is on the monthly release day (22nd).
 - The newsletters are scheduled to go out between 8 and 9 am Pacific time.
+
+
+
+We generally create the issue and Marketo program for the newsletter at least a week in advance of it being sent out. This gives us ample time decide which content will go into the newsletter. The Marketo program is created by cloning the previous newsletter that was sent out.
+
+Currently, the newsletter consists of four blocks of content. Each block of content consists of the following:
+- Title/topic
+- Link and call-to-action
+- Description/copy
+
+For example:
+
+![newsletter block example](https://gitlab.com/gitlab-com/www-gitlab-com/raw/update-newsletters-handbook/source/images/handbook/marketing/newsletter-example-block.png)
+
+The different content ideas are placed in the newsletter issue using the following format:
+```
+[Required] title/topic:
+
+link:
+
+copy:
+
+[Required] link is live/available as of this comment? YES/NO
+```
+
+After the content for the newsletter is finalized, build out the newsletter in Marketo. Be sure to update all the links with the appropriate UTM tracking parameters.
+
+Once the newsletter content is updated, send a test email to `marketing@gitlab.com` and `robert@gitlab.com` and get feedback from everyone on copy, links, layout, etc. Implement whatever changes need to be made and send new test emails until the email is ready. Once it's ready, schedule the email within Marketo.
+
+## Webcasts<a name="webcasts"></a>
+
+1. Create webcast in On24
+   - Once the webcast is created, capture the `Event ID` from the overview page.
+   - Make sure to turn off all email notifications within On24 as these will be handled by Marketo
+   - Under the `Registration` tag, under `Options`, check the `Enable Login Only Option`
+2. Clone the most recent webcast in Marketo
+   - Title the webcast in the following format: `July 27 2016 Webcast {Webcast Title}`. For example, July 27 2016 Webcast Security Webcast w/ Yubico
+   - On the webcast summary page, set the event partner with the following information:
+      - Event Partner: ON24
+      - Login: ON24
+      - Event Id: The ID of the event from the On24 platform
+3. Update `My Tokens` at the webcast program level
+   - Update the add to calendar tokens
+      - Create an event in Google Calendar and copy the link from `Publish Event`
+      - Update the information in the iCal and Outlook calendar files (these will be identical)
+   - Update the event date and time
+   - Update the email body with the description of the webcast
+4. Schedule the reminder emails
+   - In the reminders folder, select each of the smart campaigns to send the emails
+   - Under the `Smart List` tab, change the date of activity to not send the email if the user has registered for the webcast within the last 48 hours of when the email will send
+   - Under the `Schedule` tab, schedule the email to go out at the appropriate time based on the smart campaign you are editing
+5. Edit the landing page to have the appropriate webcast description, date, and time.

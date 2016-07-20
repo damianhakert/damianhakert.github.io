@@ -54,6 +54,8 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
     - [Recording](https://www.youtube.com/watch?v=raXvuwet78M)
     - Supporting: [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 
+* [ ] [Repositories, Projects and Groups](https://www.youtube.com/watch?v=4TWfh1aKHHw)
+
 **Stage 1 Tests**
 
 * [ ] [Version Control Systems Test](http://goo.gl/forms/8H8SNcH70T)
@@ -93,6 +95,7 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 
 * [ ] GitLab Flow
     - [Recording of what it is](https://www.youtube.com/watch?v=UGotqAUACZA)
+    - [Intro to GitLab Workflow](https://www.youtube.com/watch?v=enMumwvLAug)
     - [GitLab Flow blog post](/2014/09/29/gitlab-flow/)
     - [GitLab Flow documentation](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
 
@@ -127,6 +130,7 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 * [ ] Scalability and High Availability
     - [Recording 2015-12-03](https://www.youtube.com/watch?v=cXRMJJb6sp4&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=2)
     - [High Availability Documentation](https://about.gitlab.com/high-availability/)
+    - [High Availability AWS Tutorial](https://www.youtube.com/watch?v=57qIiunuhaQ)
 
 * [ ] Managing LDAP, Active Directory
     - [Recording of what it is and how to set it up](https://www.youtube.com/watch?v=HPMjM-14qa8)
@@ -137,14 +141,25 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 * [ ] GitLab 8.2
     - [Recording 2015-11-19](https://www.youtube.com/watch?v=09RLHyMFfpA&index=3&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e)
     - [Slides](https://gitlab.com/gitlab-org/University/blob/master/classes/8.2.markdown) 2015-11-19
+    
+* [ ] GitLab CI
+    - [GitLab CI](https://about.gitlab.com/gitlab-ci/)
+    - [Getting started with CI in GitLab](https://www.youtube.com/watch?v=Hs8LCilGVaM)
+    - [Documentation](http://docs.gitlab.com/ce/ci/)
 
 * [ ] Upcoming in EE and Big files in Git (Git LFS, Annex)
     - [Upcoming in EE](https://gitlab.com/gitlab-org/University/blob/master/classes/upcoming_in_ee.md)
     - [Big files in Git (Git LFS, Annex)](https://gitlab.com/gitlab-org/University/blob/master/classes/git_lfs_and_annex.md)
+    
+* [ ] Familiarize yourself with our [product direction](https://about.gitlab.com/direction/).  Pay special attention to new features for EE and EE Options.  Each feature that is hyperlinked will take you to the issue to learn more.  
 
 * [ ] [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
 
 * [ ] [Client Demo of GitLab with Job and Haydn](https://gitlabmeetings.webex.com/gitlabmeetings/ldr.php?RCID=ae7b72c61347030e8aa75328ed4b8660)
+
+* [ ] [Idea to Production Video}(https://www.youtube.com/watch?v=pY4IbEXxxGY&feature=em-subs_digest)
+
+* [ ] Step-by-step demo script(https://about.gitlab.com/handbook/sales/demo/)
 
 * [ ] [Sales Onboarding materials](/handbook/sales-onboarding/)
 
@@ -155,7 +170,8 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 * [ ] Complete TrainTool Course - Asking Effective Questions
 * [ ] Complete TrainTool Course - Closing Techniques
 * [ ] Complete TrainTool Course - Handling Pricing Objections
-* [ ] Record a demo using WebEx and send to your manager and Chad Malchow.  Demo scenario is an organization with 500 seats who uses Jira and BitBucket for a few teams, subversion within a couple teams and GitLab CE is also installed.
+* [ ] Record a demo, referencing the [demo script](https://about.gitlab.com/handbook/sales/demo/), and using either Blue Jeans or WebEx. Send to your manager and Chad Malchow.  Demo scenario is an organization with 500 seats who uses Jira and BitBucket for a few teams, subversion within a couple teams and GitLab CE is also installed.
+* [ ] Within this sales bootcamp issue, please submit a comment with a link to an EE Option and the names of salespeople you have seen contribute to the discussion.
 
 ### Stage 4 <a name="stage-4"></a>
 

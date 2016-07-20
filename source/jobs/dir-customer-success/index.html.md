@@ -21,9 +21,8 @@ The right candidate is truly passionate about customer advocacy and has a proven
 ## Responsibilities:
 
 * Set the overall vision and strategic plan for the Customer Success organization - build and scale an integrated Customer Success organization, with specific focus on Health, Usage and Adoption metrics.
-* Drive Customer Success Outcomes: Increase renewal rates and reduce churn, expand our revenue in accounts through cross-sells and up-sell opportunities, influence future lifetime value through higher product adoption, customer satisfaction and overall health scores, drive new business growth through greater advocacy and reference ability
+* Drive Customer Success Outcomes: Expand our revenue in accounts through up-sell opportunities with our EE Options, influence future lifetime value through higher product adoption, customer satisfaction and overall health scores, reduce churn and drive new business growth through greater advocacy and reference ability
 * Define and Optimize Customer Lifecycle: define segmentation of customer base and varying strategies, identify opportunities for continuous improvement.
-* Manage Customer Success Activities: deployment, onboarding, training, professional services, customer support, customer success management, renewals, cross-sell /up-sell, advocacy
 * Measure effectiveness of Customer success: define operational metrics for team, establish system for tracking metrics, create cadence for review within the team
 * Lead World-Class Customer Success Team: recruit experienced leaders for each functional role, attract high potential individual contributors into the team, create rapid onboarding process for new team members, and foster collaboration within team and across customers
 * Deliver transformational leadership and so that the CS team is highly motivated and engaged.  Be an inspirational role model by challenging and maximizing the strength of the team and aligning their efforts to the mission and vision of the organization

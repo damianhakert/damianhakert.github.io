@@ -221,6 +221,17 @@
   position: relative;
 }
 
+.plus.subscription {
+  padding-bottom: 45px;
+
+  .button {
+    position: absolute;
+    left: 2.5%;
+    bottom: 5px;
+    margin-bottom: 0;
+  }
+}
+
 .standard.subscription > .header {
   background: $pricing-primary;
 }
@@ -449,5 +460,11 @@
       left: 2.5%;
       bottom: 0;
     }
+  }
+}
+
+@media (min-width: 768px) {
+  .pricing-row {
+    margin-bottom: 20px;
   }
 }

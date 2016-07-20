@@ -1,7 +1,7 @@
 ---
 title: "GitLab 4.1"
 date: 2013-01-22 17:20
-categories:
+categories: release
 community: true
 ---
 

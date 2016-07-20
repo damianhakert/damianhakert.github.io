@@ -3,8 +3,6 @@ layout: markdown_page
 title: "Developer Advocacy"
 ---
 
-Go to the [Marketing Handbook](/handbook/marketing)
-
 Developer Advocates act as spokespeople and liaisons between GitLab and its users. Their role is to make developers happy to use GitLab by getting customer feedback into the product.
 
 * [Code samples/snippets](#code)
@@ -179,8 +177,8 @@ Please abide by GitLab's [travel policy](/handbook/travel/) unless an exception 
 
 ## Booking Travel
 
-- Book the cheapest travel option that causes you the least amount of agony. If the cheapest flight has a 9 hour layover, it's okay to select a more expensive flight with a smaller layover. 
-- Try to arrive the day before the event begins, and try to leave the day after. 
+- Book the cheapest travel option that causes you the least amount of agony. If the cheapest flight has a 9 hour layover, it's okay to select a more expensive flight with a smaller layover.
+- Try to arrive the day before the event begins, and try to leave the day after.
 - Stay at the conference hotel if possible. Attendees tend to hang out there.
 
 ## Packing List
@@ -223,7 +221,7 @@ In your checked bag:
 
 # Social Media<a name="social-media"></a>
 
-Advocates follow these [guidelines](/handbook/social-media-guidelines) when posting as GitLab.
+Advocates follow these [guidelines](/handbook/marketing/social-media-guidelines) when posting as GitLab.
 
 ## Social Media Channels
 
@@ -245,7 +243,7 @@ GitLab has a presence across many social media channels. The following is a list
 
 There are two GitLab Twitter accounts
 
--   [@GitLab](https://twitter.com/gitlab) -  This is the main account for the project and company, which is managed by team members at GitLab, Inc. Everything tweeted, RTd, or liked from @GitLab also gets promoted to http://about.gitlab.com
+-   [@GitLab](https://twitter.com/gitlab) -  This is the main account for the project and company, which is managed by team members at GitLab, Inc. Everything tweeted, RTd, or liked from @GitLab also gets promoted to https://about.gitlab.com
 
 -   [@GitLabStatus](https://twitter.com/gitlabstatus) - This account tweets about the status of GitLab.com services and is managed by the GitLab infrastructure team.
 We don't generally retweet GitLabStatus, but point users to follow that account or check it.
@@ -269,6 +267,10 @@ About using the tools
 -   Zendesk is a good place to reply to tweets, but always check for the tweet history on Tweetdeck.
 
 -   Use Tweetdeck to find GitLab mentions without the # or @.
+
+Ignore tweets that are negative about competitors
+
+-   From time-to-time, we also receive tweets that mention competitors in a negative way or about negative events related to them. Don't acknowledge these tweets, since that would violate our "Be friendly" policy.
 
 Use English
 
