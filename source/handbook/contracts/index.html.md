@@ -10,6 +10,7 @@ title: "Contracts"
 * [Employment and Contractor Agreements](#employee-contractor-agreements)
 * [Usability Testing Consent](#usability-consent)
 * [Template Invitation Letter for visa purposes](#invitation-letter)
+* [Changing Currency of Contract](#changing-currency)
 
 ## Disclaimer <a name="disclaimer"></a>
 
@@ -77,3 +78,7 @@ We appreciate your participation.
 When traveling to the USA for GitLab related business, the following invitation letter may need to be presented to your local US embassy. Contact the People Ops team to get the details right, and have it signed by someone in the executive team.
 
 - [Visa invitation letter](https://docs.google.com/document/d/1bKJYdhae5xSFp6wafF4FrfBgXmVgFpiinCJabV5BH-Y/edit)
+
+## Changing Currency for Contracts <a name="changing-currency"></a>
+
+Sometimes there are some issues with the agreed upon currency when Finance is processing the team member's invoice. Finance will reach out to the team member and People Ops to find another agreeable currency. In these instances, People Ops will research the exchange rate on the date the team member started at GitLab, and the current exchange rate. Based on this information, People Ops will offer a new rate to the team member that seems reasonable. If the rate is accepted, People Ops will file and change the information in BambooHr. 
