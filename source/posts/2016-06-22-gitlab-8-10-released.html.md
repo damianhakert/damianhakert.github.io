@@ -8,8 +8,8 @@ image_title: /images/7_X/PICTURE.PNG
 
 Intro and introduce main features here.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***winniehell*** ***CONTRIBUTION_OF_MVP_USER***.
+Thanks ***winniehell***!
 
 <!--more-->
 
