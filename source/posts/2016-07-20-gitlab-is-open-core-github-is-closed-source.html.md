@@ -12,6 +12,8 @@ We think of ourselves as an open source company. But today paxcoder on Hacker Ne
 
 We ship GitLab CE which is open source and GitLab EE that is closed source. We try to be [a good steward of the open source project](https://about.gitlab.com/about/#stewardship). GitLab EE is proprietary, closed source code but we try to work in a way similar to GitLab CE: the [issue tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues) is publicly viewable and the [EE license](https://gitlab.com/gitlab-org/gitlab-ee/blob/master/LICENSE) allows modifications.
 
+<!-- more -->
+
 Another point of confusion is that [people assume that GitHub is open source](http://stackoverflow.com/questions/24254324/is-github-com-source-code-open-source), but the code that runs GitHub.com and [GitHub Enterprise](https://enterprise.github.com/home) is closed source.
 
 Their hosted service GitHub.com is free for open source projects and has fundamentally improved open source collaboration. I wanted to make sure people understood the difference between hosting open source and open source software.
