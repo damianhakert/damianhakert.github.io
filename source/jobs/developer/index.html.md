@@ -30,13 +30,6 @@ Developers can specialize immediately after joining, or after some time, when th
 * You share our [values](/handbook/#values), and work in accordance with those values.
 * [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
 
-We typically hire people who have experience in programming languages used
-at GitLab (e.g. Ruby on Rails, Go), but we welcome candidates who have
-excellent experience in other languages and frameworks. Tackling a GitLab CE
-issue is a good way to demonstrate your ability to learn and debug.
-
-
-
 ## Workflow
 
 The basics of GitLab development can be found in the [developer onboarding](/handbook/developer-onboarding/#basics-of-gitlab-development) document.
