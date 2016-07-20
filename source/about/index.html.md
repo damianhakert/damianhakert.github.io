@@ -85,6 +85,8 @@ Please see the [values section in our handbook](https://about.gitlab.com/handboo
 GitLab Inc. is a for profit company that balances the need to improve
 GitLab Community Edition (CE) with the need to add features to GitLab
 Enterprise Edition (EE) exclusively in order to generate more income.
+We have an [open core](https://en.wikipedia.org/wiki/Open_core) business model and generate almost all our revenue with [subscriptions to use Enterprise Edition](https://about.gitlab.com/pricing/).
+We recognize that we need to balance the need to generate income and with the needs of the open source project.
 
 We promise that:
 
