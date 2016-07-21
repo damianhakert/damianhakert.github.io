@@ -178,7 +178,9 @@ Read the [Kerberos documentation](http://docs.gitlab.com/ee/integration/kerberos
 
 Syntax highlighting has been massively improved with GitLab 8.10.
 We've updated rouge from 1.11.1 to 2.0.5 and in doing that have added
-[new lexers and bugfixes][changelog-rouge].
+[new lexers and bugfixes][changelog-rouge]. That means syntax highlighting
+for Docker, F#, IDL, and improved highlighting for praat,
+JavaScript, Java, C#, Shell, Liquid, Tulip, Markdown, Ruby, Python and YAML!
 
 You can now also override language guessing with a `.gitattributes` entry.
 [See the documentation for details][override-docs].
