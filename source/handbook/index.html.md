@@ -722,6 +722,10 @@ this command in your `.bash_profile` or equivalent for your shell.
 
 If you install [MobileDay](https://mobileday.com/) on your phone and give it access to your Google Calendar it can dial into conference calls for you. It is very good at detecting the number and password from the calendar invite.
 
+### Visual help to differentiate between GitLab servers
+
+If you are working on multiple GitLab instances and want to have a visual differentiation, you can change the default [Application theme](http://docs.gitlab.com/ce/profile/preferences.html#application-theme) to a different color.
+
 ### Do NOT Use<a name="do-not-use"></a>
 
 **Flash**: Due to security flaws, we strongly recommend _not_ using Adobe Flash. Certainly do not install it on your local machine. But even the Google Chrome plugin that let's you see embedded Flash content in websites can pose a security hazard. If you have not already, go to your [Chrome plugins](chrome://plugins) and disable Flash. For further context, note that [Google Chrome is removing Flash support soon](https://nakedsecurity.sophos.com/2016/05/18/yet-more-bad-news-for-flash-as-google-chrome-says-goodbye-sort-of/), and while the [plugin is better than a local install of Flash](http://security.stackexchange.com/questions/98117/should-flash-be-disabled-or-are-sandboxes-secure-enough), it still leaves vulnerabilities for [zero-day attacks](http://www.pctools.com/security-news/zero-day-vulnerability/).
