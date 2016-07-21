@@ -1,5 +1,5 @@
 ---
-title: "GitLab 8.10 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
+title: "GitLab 8.10 released with Wildcard Branch Protection and Manual Actions for CI"
 categories: release
 author: Job van der Voort
 author_twitter: Jobvo
@@ -44,101 +44,59 @@ press merge.
 Combine this feature with approvals (EE only) to enforce code review by multiple
 people, while still giving developers the power to merge at their discretion.
 
-## Better Side-by-Side Diffs
+## Improved Diffs
+
+Whether you create or review code and content, you are spending a lot of time
+looking at diffs, so they should work really well. With GitLab 8.10 diffs will
+render faster and have even learned a few new tricks.
+
+### Better Side-by-Side Diffs
 
 We've improved side-by-side diffs so that they now accurately show you the
 changes side-by-side.
 
 ![Better side-by-side diffs in GitLab 8.10](/images/8_10/side1.png)
 
-## Inline Diffs
+### Inline Diffs
 
 When you have specific inline changes, we'll now show the exact changes that
 were made, rather than just the entire line:
 
 ![Inline diffs in GitLab 8.10](/images/8_10/inline1.png)
 
-## CI Improvements
+### Collapsable Diffs
 
-### Key Feature
+Diffs can now be collapsed by clicking on the filename, allowing you
+to review file-by-file.
 
-* Manual actions to trigger pipeline jobs: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5297
+Very large diffs will automatically be collapsed and can be expanded on
+demand. This should go a long way into improving working with large diffs with
+many files.
 
-You've already got your [CI/CD pipeline](http://docs.gitlab.com/ce/ci/pipelines.html) configured to continuously deploy changes, right? Well maybe you're not ready to have it automatically deploy to production. You might automatically deploy to staging, but you want to do manual QA before deploying to production. Now you can define how to deploy to production and using `when: manual`, a new action will appear in the web UI so that you or your release manager can trigger that part of the pipeline manually. You can define any kind of job in your pipeline to be performed at a later time, when a user chooses.
+## Manual Actions to Trigger Pipeline Jobs
+
+You've already got your
+[CI/CD pipeline](http://docs.gitlab.com/ce/ci/pipelines.html) configured to
+continuously deploy changes, right? Well maybe you're not ready to have it
+automatically deploy to production. You might automatically deploy to staging,
+but you want to do manual QA before deploying to production. Now you can define
+how to deploy to production and using `when: manual`, a new action will appear
+in the web UI so that you or your release manager can trigger that part of the
+pipeline manually. You can define any kind of job in your pipeline to be
+performed at a later time, when a user chooses.
 
 ![Manual Actions with Pipelines in GitLab 8.10](/images/8_10/ci_manual1.png)
 
-The actions also show up in the environments, making it easy to promote from staging to production:
+The actions also show up in the environments, making it easy to promote from
+staging to production:
 
 ![Manual Actions with Pipelines in GitLab 8.10](/images/8_10/ci_manual2.png)
-
-### Frontend Changes
-* Lots of design updates for pipelines:
-  * Update pipeline/build state icons: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5222 and https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5280
-  * Don't pluralize pipeline stage headings: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5117
-  * Change 'New Pipeline' button to 'Run Pipeline': https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5119
-  * Shorten duration representation: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5121
-  * Distinguish pipeline ref with tag or branch icon: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5239
-* Move Build settings and build badge to new CI/CD Pipelines settings page: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5244
-* Warn on failure (new `success_with_warnings` status): https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5004
-
-### Backend Changes
-* Extend CI predefined variables (`CI_PIPELINE_ID`, `CI_REGISTRY`, `CI_REGISTRY_IMAGE`, `CI_PROJECT_NAME`, `CI_PROJECT_PATH`, `CI_PROJECT_URL`): https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4826
-* Fix LFS for CI: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5270
-* Add an API endpoint to retrieve the latest build artifact for a branch: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5347
-* Allow Slack service to notify status of builds on a different channel: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5124
-
-### Runner v1.4 Changes
-
-From now on, runner releases will be synchronized with monthly GitLab releases. (https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/176)
-
-* Use Sentry in GitLab Runner to monitor critical errors: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/1022: MR: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/217
-* Improve logging: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/218
-* Extend support for caching and artifacts for other executors: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/224
-* Add support for cloning VirtualBox VM snapshots: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/111
-* Improve support for Docker Machine: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/233
-* Improve build abort: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/232
-
-## Performance Improvements
-
-### Backend
-
-* HAML has been replaced with Hamlit to reduce memory usage and rendering timings of views: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3666
-* Certain Git operations are now cached when finding CI pipelines: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4984
-* Various Git operations on project dashboards are now cached, reducing the time spent in Git whenever the caches exist: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4996
-* Git operations related to viewing trees of files are only executed when necessary: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4997
-* The various Markdown reference parsers now re-use SQL queries when used multiple times in the same request, reducing the total number of executed SQL queries: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5020
-* The column `projects.pushes_since_gc` is only updated at most once per minute, reducing the number of writes to the `projects` table: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5083
-* Checking if an avatar is present no longer hits the underlying storage engine, reducing the time it takes to check if an avatar is present: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5093
-* Checking if a user has access to a single project has been optimised: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5102
-* The queries used to get merge request closing/merging events are now cached per request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5151
-* The presence of an external wiki is now cached on database level: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5305
-* Performance of automatically generating links in Markdown has been improved: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5311
-* Checking whether to show a system note has been optimized: gitlab-org/gitlab-ce!5070
-* The maximum access badge for each author of a comment is now cached to prevent multiple lookups for the same author: gitlab-org/gitlab-ce!4982
-
-### Frontend
-
-* Rendering of diffs has been improved by only rendering certain UI elements when necessary: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4776
-* Page specific JS loading has been implemented in a better way, reducing the amount of JS to load per page: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4883
-* Cropper.js has been separated from the main JavaScript file and only load Cropper.js when necessary: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4978
-* The projects dropdown now only sends the data it needs, reducing the time it takes to load the data: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5113
-* Discussion notes are not rendered when the diff tab is requested using Ajax: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5130
-* The code used to check which issues are closed by a merge request is only called when necessary: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5140
-
-### Monitoring
-
-* Sidekiq latency is now tracked: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4871
-* Redis cache hits and misses are now tracked: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4993
-* The Markdown syntax highlighting filter is instrumented: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5038
-
-## Collapsable Diffs
 
 ## Blockquote Fence Syntax
 
 ## Multiple Repository Mount Points
 
-##
+## Bulk Subscribe to Issues
 
 ## Ticket-based Kerberos authentication (Enterprise Edition)
 
@@ -150,9 +108,9 @@ Read the [Kerberos documentation](http://docs.gitlab.com/ee/integration/kerberos
 
 ## Syntax Highlighting
 
-* Override language guessing with a .gitattributes entry: gitlab-org/gitlab-ce!4606
+* Override language guessing with a .gitattributes entry: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4606
   - Documentation: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/project/highlighting.md
-* Upgrade rouge from 1.11.1 to 2.0.5: gitlab-org/gitlab-ce!4691
+* Upgrade rouge from 1.11.1 to 2.0.5: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4691
   - new lexers, bugfixes: https://github.com/jneen/rouge/blob/master/CHANGELOG.md
 
 ## Updated Emoji!
@@ -170,6 +128,62 @@ disable this functionality by unchecking a setting in the application settings
 page, which will also show you the _exact_ payload that we're sending.
 
 ![License Usage Report](/images/8_10/license_report.png)
+
+## Performance Improvements
+
+GitLab is only getting better every single month, and performance is no
+exception. This month we've significantly increased performance for issue
+rendering and diff rendering:
+
+![Faster issues in GitLab 8.10](/images/8_10/perf1.png)
+
+![Faster diffs in GitLab 8.10](/images/8_10/perf2.png)
+
+And have made a large amount of further changes, some highlights below with
+links to their merge requests.
+
+### Backend
+
+* [HAML has been replaced with Hamlit to reduce memory usage and rendering timings of views](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/3666)
+* [Certain Git operations are now cached when finding CI pipelines](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4984)
+* [Various Git operations on project dashboards are now cached, reducing the time spent in Git whenever the caches exist](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4996)
+* [Git operations related to viewing trees of files are only executed when necessary](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4997)
+* [The various Markdown reference parsers now re-use SQL queries when used multiple times in the same request, reducing the total number of executed SQL queries](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5020)
+* [The column `projects.pushes_since_gc` is only updated at most once per minute, reducing the number of writes to the `projects` table](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5083)
+* [Checking if an avatar is present no longer hits the underlying storage engine, reducing the time it takes to check if an avatar is present](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5093)
+* [Checking if a user has access to a single project has been optimised](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5102)
+* [The queries used to get merge request closing/merging events are now cached per request](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5151)
+* [The presence of an external wiki is now cached on database level](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5305)
+* [Performance of automatically generating links in Markdown has been improved](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5311)
+* [Checking whether to show a system note has been optimized](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5070)
+* [The maximum access badge for each author of a comment is now cached to prevent multiple lookups for the same author](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4982)
+
+### Frontend
+
+* [Rendering of diffs has been improved by only rendering certain UI elements when necessary](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4776)
+* [Page specific JS loading has been implemented in a better way, reducing the amount of JS to load per page](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4883)
+* [Cropper.js has been separated from the main JavaScript file and only load Cropper.js when necessary](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4978)
+* [The projects dropdown now only sends the data it needs, reducing the time it takes to load the data](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5113)
+* [Discussion notes are not rendered when the diff tab is requested using Ajax](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5130)
+* [The code used to check which issues are closed by a merge request is only called when necessary](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5140)
+
+### Monitoring
+
+* [Sidekiq latency is now tracked](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4871)
+* [Redis cache hits and misses are now tracked](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4993)
+* [The Markdown syntax highlighting filter is instrumented](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5038)
+
+## Runner v1.4
+
+From now on, runner releases will be synchronized with monthly GitLab releases.
+Changes in this release (links to merge requests):
+
+* [Use Sentry in GitLab Runner to monitor critical errors](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/217)
+* [Improve logging](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/218)
+* [Extend support for caching and artifacts for other executors](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/224)
+* [Add support for cloning VirtualBox VM snapshots](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/111)
+* [Improve support for Docker Machine](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/233)
+* [Improve build abort](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/merge_requests/232)
 
 ## GitLab Mattermost 3.2
 
