@@ -7,8 +7,8 @@ image_title: /images/8_10/bg.jpg
 ---
 
 With GitLab we want you to be able to go frictionless from idea to production.
-But between GitLab _releases_ we want you to go from idea to production
-_faster_, and with 8.10 GitLab is faster than ever.
+But with every GitLab release we want you to go from idea to production
+_faster_. With 8.10, GitLab is _yet again_ faster than ever.
 
 With GitLab 8.10, reviewing code and making sure it gets merged
 is easier and snappier than ever with many improvements to diffs and protected
@@ -62,6 +62,8 @@ press merge.
 Combine this feature with approvals (EE only) to enforce code review by multiple
 people, while still giving developers the power to merge at their discretion.
 
+> [See our documentation on protected branches](http://docs.gitlab.com/ee/workflow/protected_branches.html#sts=Protected Branches)
+
 ## Improved Diffs
 
 Whether you create or review code and content, you are spending a lot of time
@@ -114,6 +116,8 @@ staging to production:
 
 ![Manual Actions with Pipelines in GitLab 8.10](/images/8_10/ci_manual2.png)
 
+> [Read our docs on getting started with GitLab CI](http://docs.gitlab.com/ce/ci/quick_start/README.html)
+
 ## Blockquote Fence Syntax
 
 If you want to quote multiple lines in markdown, you no longer have to
@@ -129,6 +133,8 @@ Independent of the amount of line breaks.
 Yay!
 >>>
 ```
+
+> [Read how to use GitLab Flavored Markdown](http://docs.gitlab.com/ce/markdown/markdown.html#gitlab-flavored-markdown-gfm)
 
 ## Multiple Repository Mount Points
 
@@ -177,7 +183,7 @@ Read the [Kerberos documentation](http://docs.gitlab.com/ee/integration/kerberos
 ## Syntax Highlighting
 
 Syntax highlighting has been massively improved with GitLab 8.10.
-We've updated rouge from 1.11.1 to 2.0.5 and in doing that have added
+We've updated [rouge] from 1.11.1 to 2.0.5 and in doing that have added
 [new lexers and bugfixes][changelog-rouge]. That means syntax highlighting
 for Docker, F#, IDL, and improved highlighting for praat,
 JavaScript, Java, C#, Shell, Liquid, Tulip, Markdown, Ruby, Python and YAML!
@@ -187,11 +193,14 @@ You can now also override language guessing with a `.gitattributes` entry.
 
 [changelog-rouge]: https://github.com/jneen/rouge/blob/master/CHANGELOG.md
 [override-docs]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/project/highlighting.md
+[rouge]: https://github.com/jneen/rouge
 
 ## Disable Access Request
 
 [The ability to request access to a project][access-request] can now be disabled
-for a group or project. By default it's turned on.
+for a group or project.
+
+By default it's turned on.
 
 [access-request]: https://about.gitlab.com/2016/06/22/gitlab-8-9-released/#request-access-to-a-project
 
@@ -220,15 +229,21 @@ adding many new and updated emoji!
 You can now block certain domains from signing up by adding them to the
 domain blacklist. Find the settings in the admin.
 
+> [Read how to blacklist domains in our docs](http://docs.gitlab.com/ce/administration/access_restrictions.html#sts=Blacklist email domains)
+
 ## Toggle Git Access Protocols
 
 You can now configure Git access controls: enabling or disabling SSH, HTTP or
 both.
 
+> [Read how to toggle protocols in our docs](http://docs.gitlab.com/ce/administration/access_restrictions.html#sts=Enabled Protocol)
+
 ## Inline Videos now supported!
 
 GitLab will now render inline videos in comments and descriptions of
 issues and merge requests.
+
+> [How to use GitLab Flavored Markdown](http://docs.gitlab.com/ce/markdown/markdown.html#gitlab-flavored-markdown-gfm)
 
 ## Build Warnings
 
@@ -320,6 +335,7 @@ This release has more improvements, including security fixes. Please check out [
 
 The default NGINX configuration now overwrites the 'Host' and 'X-Forwarded-Host' headers. This adds defense in depth against header injection attacks. For installations from source this means you need to update your NGINX configuration for GitLab. For Omnibus installations this will happen automatically, unless you configured your own 'Host' and 'X-Forwarded-Host' values in gitlab.rb.
 
+### Default behavior
 
 *Note* We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
 If you are upgrading from a GitLab version prior to 8.0 *and* you have CI enabled, you have to upgrade to GitLab 8.0 [first](https://about.gitlab.com/2015/09/22/gitlab-8-0-released/).
