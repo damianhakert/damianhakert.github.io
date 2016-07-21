@@ -1,9 +1,9 @@
 ---
 title: "GitLab 8.10 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 categories: release
-author: ADD_YOUR_FULL_NAME
-author_twitter: TWITTER_USERNAME
-image_title: /images/7_X/PICTURE.PNG
+author: Job van der Voort
+author_twitter: Jobvo
+image_title: /images/8_10/bg.jpg
 ---
 
 Intro and introduce main features here.
