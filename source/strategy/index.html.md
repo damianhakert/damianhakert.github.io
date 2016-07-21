@@ -183,7 +183,7 @@ While we achieve our goals one by one this doesn't mean we will focus on only on
 
 ## People Operations 2016
 
-1. Develop great recruiting, hiring, onboarding, offboarding practices with full time [Director/VP of People Operations](https://about.gitlab.com/jobs/senior-director-of-people-operations/) and [Coordinator(s)](https://about.gitlab.com/jobs/people-ops-coordinator/).
+1. Develop great recruiting, hiring, onboarding, offboarding practices with full time [Sr. Director of People Operations](https://about.gitlab.com/jobs/senior-director-of-people-operations/) and [Coordinator(s)](https://about.gitlab.com/jobs/people-ops-coordinator/).
 
 1. Maintain company in compliance and adopt / adapt policies as the company scales with a globally distributed team.
 
