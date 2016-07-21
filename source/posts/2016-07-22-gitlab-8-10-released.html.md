@@ -87,6 +87,8 @@ were made, rather than just the entire line:
 Diffs can now be collapsed by clicking on the filename, allowing you
 to review file-by-file.
 
+![Collapsable diffs in GitLab 8.10](/images/8_10/cdiff.png)
+
 Very large diffs will automatically be collapsed and can be expanded on
 demand. This should go a long way into improving working with large diffs with
 many files.
