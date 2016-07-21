@@ -15,11 +15,48 @@ Thanks ***Winnie***!
 
 ## Wildcard Branch Protection
 
+To make sure your branches don't get deleted or accidentally pushed to,
+you can protect them. For instance, your production and release branches
+should only be pushed to by certain people.
+
+With Gitlab 8.10 you can now protect any branch automatically, based on a
+wildcard.
+
+For example, if you protect `release-*`, any branch whose name starts
+with `release-` automatically becomes protected. At GitLab we use this feature
+to automatically protect all our stable releases by protecting `*-stable`.
+
 ## Merge into Protected Branches
+
+Using protected branches is a great way to ensure only the right people
+can push to important branches. By default, only `master` permission and higher
+is able to push or merge anything into a protected branch.
+
+Previously, we added the ability to allow `developer` users to also push to
+these branches. With GitLab 8.10 you can now disallow pushing, yet explicitly
+allow merges by `developer` users.
+
+**Concretely this means that `developer` users can merge a merge request but not
+directly push**. So your branches are protected from direct pushes, yet developers
+don't need elevated permissions or wait for someone with a higher permission to
+press merge.
+
+Combine this feature with approvals (EE only) to enforce code review by multiple
+people, while still giving developers the power to merge at their discretion.
 
 ## Better Side-by-Side Diffs
 
+We've improved side-by-side diffs so that they now accurately show you the
+changes side-by-side.
+
+![Better side-by-side diffs in GitLab 8.10](/images/8_10/side1.png)
+
 ## Inline Diffs
+
+When you have specific inline changes, we'll now show the exact changes that
+were made, rather than just the entire line:
+
+![Inline diffs in GitLab 8.10](/images/8_10/inline1.png)
 
 ## CI Improvements
 
@@ -123,16 +160,19 @@ Read the [Kerberos documentation](http://docs.gitlab.com/ee/integration/kerberos
 We've updated to the 2016 library of [gemojione](https://github.com/jonathanwiesel/gemojione),
 adding many new and updated emoji!
 
+![New Emoji in GitLab 8.10!](/images/8_10/new_emoji.png)
+
 ## License Usage Report
 
 To help us better engage with our customers, 8.10 EE periodically attempts to
-send license usage back to GitLab, Inc. (see gitlab-org/gitlab-ee!557). You can
+send license usage back to GitLab, Inc. You can
 disable this functionality by unchecking a setting in the application settings
-page:
+page, which will also show you the _exact_ payload that we're sending.
 
 ![License Usage Report](/images/8_10/license_report.png)
 
 ## GitLab Mattermost 3.2
+
 [Mattermost 3.2](https://www.mattermost.org/mattermost-3-2-german-custom-emoji-improved-threaded-messaging-search-windows-and-mac-apps-plus-more/) ships in GitLab 8.10 with German language translation, custom emoji, improved threaded messages, widescreen search, new Exchange and XMPP integrations, plus many more new benefits.
 
 This version also includes [security updates](http://about.mattermost.com/security-updates/) and upgrade from earlier versions is recommended.
