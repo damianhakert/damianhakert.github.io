@@ -94,9 +94,44 @@ staging to production:
 
 ## Blockquote Fence Syntax
 
+If you want to quote multiple lines in markdown, you no longer have to
+prepend every sentence with `>`, rather you can use the new fence syntax
+in GitLab:
+
+```
+>>>
+This will all become a quote.
+
+Independent of the amount of line breaks.
+
+Yay!
+>>>
+```
+
 ## Multiple Repository Mount Points
 
+You now have the option to distribute storage load over multiple mount points.
+Simply define the alternative mount points in your `gitlab.rb` file:
+
+```
+git_data_dirs({
+  "default" => "/var/opt/gitlab/git-data",
+  "alternative" => "/mnt/nas/git-data"
+})
+```
+
+In the GitLab admin you are able to configure under which mount point
+new repositories will be stored.
+
+> [Read the documentation on multiple mount points](http://docs.gitlab.com/ee/administration/repository_storages.html)
+
 ## Bulk Subscribe to Issues
+
+You can now bulk subscribe and unsubscribe to issues, making it easier to start
+following new activity in a project you just joined or to quiet some of the
+email noise.
+
+![Bulk subscribe to issues in GitLab 8.10](/images/8_10/bulk_sub.gif)
 
 ## Ticket-based Kerberos authentication (Enterprise Edition)
 
