@@ -5,7 +5,7 @@ author: Sid Sijbrandij
 author_twitter: sytses
 image_title: '/images/blogimages/release-early-release-often-cover.jpg'
 twitter_image: '/images/tweets/release-early-release-often.png'
-description: "Understand the logic behind GitLab's time-based releases."
+description: "Let’s explore the rise of releasing early and often!"
 ---
 
 Another trend that keeps popping onto the radar is a continuing **reduction in time between deploys**. In this post we’re looking at what that means and why it’s happened.
