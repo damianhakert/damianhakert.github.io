@@ -1,5 +1,5 @@
 ---
-title: "The logic of GitLab CI"
+title: "The basics of GitLab CI: Learn how to run jobs consequentially, in parallel, or build your own custom pipeline"
 date: 2016-07-21
 categories: tutorial
 author: Ivan Nemytchenko
