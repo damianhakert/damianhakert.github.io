@@ -36,7 +36,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 lines of the master checklist, paste the private email address of the hire in
 there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @brittany, and @tiffanie.
 * [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @HANDLE (Nominate someone preferably in similar timezone but different functional group)), and People Ops is tackled by (FILL IN WITH @ HANDLE).
-* [ ] Robert/Jacob/Ernst: create Google account, `firstname[at]gitlab.com` or `initial(s)[at]gitlab.com`, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it.
+* [ ] Robert/Jacob/Ernst: [create Google account](https://admin.google.com/gitlab.com/AdminHome?pli=1&fral=1#UserList:org=49bxu3w3zb11yx), `firstname[at]gitlab.com` or `initial(s)[at]gitlab.com`, email instructions to private email address, comment with private email below this issue, turn off [2FA enforcement](https://admin.google.com/gitlab.com/AdminHome#ServiceSettings/notab=1&service=securitysetting&subtab=org) and schedule reenabling it.
 * [ ] New team member: Google does not support 2FA in some countries ([e.g. Nigeria](https://productforums.google.com/forum/#!topic/gmail/3_wcd8tAqdc) ); if that is the case for you, reach out to People Ops to get the initial authentication code sent to a phone in  supported country, after which 2FA will work as normal.
 * [ ] Robert/Jacob/Ernst: inform Hiring manager that Google account has been created by mentioning them with a comment in the issue.
 * [ ] Robert/Jacob/Ernst: Create a [new dev.GitLab.org account](https://dev.gitlab.org/admin/users/new) and invite to the [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members) as a developer
@@ -50,15 +50,16 @@ with Git and the GitLab workflow.
 * [ ] People Ops: Add entry to availability calendar so the team can see when new people are joining.
 * [ ] People Ops: [Add blank entry to team page](https://about.gitlab.com/handbook/people-operations/#blank-entry) (only the start date and position, use "logo-extra-whitespace.png" for the picture) so the team can see when new people are joining.
 * [ ] People Ops: Add entry to Team Call agenda to introduce the new team member, and make sure to include the new team members NAME as well as TITLE in the agenda item.
-* [ ] People Ops: Move the applicant to the "Hired" bucket in Workable, this automagically creates their profile in BambooHR. Find the profile on BambooHR and enable on "self-service".
+* [ ] People Ops: Move the applicant to the "Hired" bucket in Workable, this automagically creates their profile in BambooHR. Make sure that all compensation information is visible to the hiring manager only in Workable. Find the profile on BambooHR and enable on "self-service".
 * [ ] People Ops: In BambooHR, input relevant data (title, dates, contract type, compensation) into the team members profile tabs "Job". Be sure to add the personal and work email address before saving the newly entered information.
-* [ ] People Ops: file signed contract with PIAA or NDA+IP agreements in BambooHR profile under "Documents"-->"Signed Contract/Offer Letter". Set the uploaded documents to "shared" so that the team member can also view them.
+* [ ] People Ops: file signed contract with PIAA or NDA+IP agreements in BambooHR profile under "Documents"-->"Signed Contract/Offer Letter". Set the uploaded documents to "shared" so that the team member can also view them. Make sure to delete the google doc on the drive as the signed version supersedes it.
 * [ ] People Ops: file photo ID in BambooHR profile under "Documents"--> "Verification Docs"
 * [ ] People Ops: list any stock options that were part of the offer in BambooHR profile under "Benefits"--> "Stock Options"
 * [ ] People Ops: Give team member access to the GitLab availability calendar
 * [ ] People Ops: Add new team member to the next monthly GitLab 101 call
 * [ ] People Ops: Invite to team meeting, and re-arrange the days on which team members speak in the Team Call Agenda.
 * [ ] People Ops: Add to phishing testing platform
+* [ ] People Ops: Check if new team member indicated who they were referred by (in bottom of application, in Workable). If no referral indicated, check with new team member by asking in this issue "@{new team member} please let people ops know if you were referred by another GitLab team member; otherwise we will assume you were not".
 * [ ] People Ops: reach out to the new team member to identify and order any necessary supplies/equipment. Send an email to their GitLab account, personal email, and cc Peopleops.<br>
 "Please let People Ops (cced here) know if there are any necessary supplies or equipment that you need. You can also reference the [company handbook](https://about.gitlab.com/handbook/#spending-company-money) in this matter."
 * [ ] Buddy: Schedule video call for first day to introduce yourself, and make sure they know that if they have questions, they can come to you. But your main job as a buddy will be to direct them to the right parts of the handbook, and/or encourage them to ask their questions of the wider group on chat, etc.
@@ -105,11 +106,12 @@ welcome email to the employee at their work email on their first date of hire.
 #### For GitLab BV employees only
 
 * [ ] New team member: fill in this payroll information [form](https://docs.google.com/a/gitlab.com/forms/d/1mExVeTRn1cd0MtnNuvMSy7UJ8WazI5D6_snq3R6bsmI/viewform)
-This info is needed to get your profile ready with Savvy HR in order to get you your payslips and other information.
+This info is needed to get your profile ready with Savvy HR in order to get you your pay slips and other information.
 Next to Savvy, the People Ops team will also get a copy of the form info for your employee file on BambooHR
 
 #### All team members
 
+* [ ] New team member: Read the [security handbook](/handbook/security), and please ask questions make sure it is all clear to you. 
 * [ ] New team member: Register on 1Password by clicking on the link in the ["Link to 1Password Sign-Up"](https://docs.google.com/document/d/15BdqpNhSi_5bc2b9KXo_w5f0gC-3gmuw-aIgzRcbnbk/edit) Google Doc.
 and then ping @rspeicher to confirm your account. You can find this (and other) shared Google Docs by using [`Search <your domain>`](https://support.google.com/a/answer/3187967?hl=en) in Google Drive. You may need to update the domain of your search scope to include `Search for files shared with gitlab.com`.
 * [ ] New team member: once you are registered on 1Password, ping your hiring manager to grant you access to the proper shared Vaults by making a suggestion in the relevant cell in the ["1Password Shared Folders"](https://docs.google.com/a/gitlab.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit?usp=sharing) Google Sheet.
@@ -167,9 +169,9 @@ and then ping @rspeicher to confirm your account. You can find this (and other) 
 * [ ] New team member: Lodge an issue on the [infrastructure team project](https://gitlab.com/gitlab-com/infrastructure/issues/new) requesting the creation of a VM instance, use the template below:
 
 > Title: New DO service engineering VM [Request]
-> Hi, 
+> Hi,
 > Please provide a standard 2GB DO VM for service engineering testing.  
-> SSH key is: 
+> SSH key is:
 > ```
 > {{SSHKEYHERE}}
 > ```
@@ -179,8 +181,9 @@ and then ping @rspeicher to confirm your account. You can find this (and other) 
 #### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
 
 * [ ] New team member: get the [Pixelmator app](https://itunes.apple.com/us/app/pixelmator/id407963104?mt=12&ign-mpt=uo%3D4) and expense it.
-* [ ] People Ops: provide [Antetype](http://antetype.com/) license by [ordering online](http://sites.fastspring.com/ergosigntechnologies/product/antetype?language=EN), and forwarding the email with the license key to the new team member.
+* [ ] People Ops: provide [SketchApp](http://www.sketchapp.com/) license by [ordering online](https://sites.fastspring.com/bohemian/order/contents), and forwarding the email with the license key to the new team member.
 * [ ] People Ops: (for Designers only, not UX Designers) provide access to [Adobe Creative Cloud](https://www.adobe.com/creativecloud.html) using the shared credential in the Secretarial vault. If a UX Designer feels that they need CC Photoshop and/or CC Illustrator they can request it.
+* [ ] Manager: (for UX Designers) Give new team member Master access to the gitlab-design project.
 
 ### FOR MARKETING ONLY
 

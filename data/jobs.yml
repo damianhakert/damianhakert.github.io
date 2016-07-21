@@ -43,6 +43,11 @@
   apply: https://gitlab.workable.com/jobs/260762/candidates/new
   open: true
 
+- title: "Marketing Operations Manager"
+  description: /jobs/marketing-operations-manager/
+  apply: https://gitlab.workable.com/jobs/268275/candidates/new
+  open: true
+
 - title: "People Operations Coordinator"
   description: /jobs/people-ops-coordinator/
   apply:
@@ -50,17 +55,17 @@
 
 - title: "Director/VP of People Operations"
   description: /jobs/dir-or-vp-of-people-ops/
-  apply: https://gitlab.workable.com/jobs/234625/candidates/new
+  apply:
+  open: false
+
+- title: "Product Marketing Manager"
+  description: /jobs/product-marketing-manager-partner/
+  apply: https://gitlab.workable.com/jobs/285177/candidates/new
   open: true
 
 - title: "Production Engineer"
   description: /jobs/production-engineer/
   apply: https://gitlab.workable.com/jobs/142989/candidates/new
-  open: true
-
-- title: "Product Manager"
-  description: /jobs/product-manager/
-  apply: https://gitlab.workable.com/jobs/269007/candidates/new
   open: true
 
 - title: "Director of Sales Operations"
@@ -96,4 +101,14 @@
 - title: "UX Lead"
   description: /jobs/ux-lead/
   apply: https://gitlab.workable.com/jobs/279434/candidates/new
+  open: true
+
+- title: "Junior Designer"
+  description: /jobs/junior-designer/
+  apply: https://gitlab.workable.com/jobs/296974
+  open: true
+
+- title: "Open Application"
+  description: /jobs/open-application/
+  apply: https://gitlab.workable.com/jobs/298091
   open: true

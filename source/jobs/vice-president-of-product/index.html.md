@@ -53,3 +53,4 @@ conferences, webinars, etc.) together with the VP of Marketing
 
 - Help with (sales)people training materials and tests
 - Ensure issue and bugs don't fall through the cracks
+- Manages the release kickoff and retrospective

@@ -12,6 +12,7 @@ title: "People Operations"
 ## This page
 
 - [Role of People Operations](#role-peopleops)
+    - [Letter of Employment](#letter-of-employment)
 - [Team Directory](#directory)
 - [Office addresses](#addresses)
 - [Policies](#peopleops-policies)
@@ -25,8 +26,10 @@ title: "People Operations"
    - [Processing changes](#processing-changes)
    - [Using BambooHR](#bamboohr)
    - [Settings in BambooHR](#bamboohr-settings)
+   - [Process Referral Bonus](#referral-bonus)
    - [Asset Tracking](#asset-tracking)
    - [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)
+   - [Birthday Swag](#birthday-swag)
    - [Administrative details of benefits for US-based employees](#benefits-us)
    - [Using TriNet](#using-trinet)
    - [Using RingCentral](#ringcentral)
@@ -46,6 +49,10 @@ title: "People Operations"
 ## Role of People Operations<a name="role-peopleops"></a>
 
 In general, the People Operations team and processes are here as a service to the rest of the team; helping make your life easier so that you can focus on your work and contributions to GitLab. On that note, please don't hesitate to [reach out](#reach-peopleops) with questions! In the case of a conflict between the company and a team member, People Operations works "on behalf of" the company.
+
+### Letter of Employment<a name="letter-of-employment"></a>
+
+If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. For example, monthly fee, salary, start date, title, etc. People ops will send you the letter once it is completed. 
 
 ## Team Directory<a name="directory"></a>
 
@@ -199,14 +206,41 @@ Adding a New Job Title
 1. Add new job title to the drop down list
 
 Add a New Division
+
 1. Click on Settings
 1. Select Employee Field
 1. Select Division
 1. Add new division
 
+### Process Referral Bonus<a name="referral-bonus"></a>
+
+If applicable, People Ops will process a [referral bonus](/handbook/#referral-bonuses). 
+
+#### Document a future bonus in BambooHR
+
+1. Go to the employee who referred the new team member in BambooHR 
+1. Under the Jobs Tab click Update Bonus
+1. Add the date the bonus will be paid if all conditions are met (90 days from hire of new employee) 
+1. Enter the bonus amount of $1,000
+1. Enter the bonus type to be a Referral Bonus
+1. Enter a note stating that this is a future bonus (this will be changed once the bonus has been paid) 
+
+#### Add a note to the new team member in BambooHR
+
+We want to add a note to the new employee of who referred them, so that if they receive a discretionary bonus within the first six months, the referral also receives a discretionary bonus. 
+
+1. Go to the notes page under the new employee
+1. Add a note of who referred this team member
+
+#### Notification to Process a Bonus
+
+BambooHR will send an email to PeopleOps on the date that the referral bonus should be paid for [processing](/handbook/people-operations/#using-trinet) through the applicable payroll system. If the team member is a contractor, send them an email (and cc Finance) to invoice the bonus. 
+Once the bonus has been processed, change the note in BambooHR to denote the referral bonus has been paid. 
+
 ### Asset Tracking<a name="asset-tracking"></a>
 
 Items paid for by the company are property of the company and need to be reported to People Ops for proper asset tracking. The information is then entered into BambooHR by People Ops.
+
 1. Go to the Employee in BambooHR
 1. Click on the Assets Tab
 1. Click Update Assets
@@ -266,6 +300,11 @@ Add the team member's name to the Travel and Lodging Google sheets to make sure 
 Log into Egencia and go to the menu option "manage users". Choose "new user account" and fill in the passport name of the new team member.
 As username choose the same handle as on our dev domain. Enter the GitLab email address and uncheck the newsletter box.
 Lastly assign the department in which the new team member is working.
+
+### Birthday Swag <a name="birthday-swag"></a>
+
+BambooHR should send an email to People Ops the day before and the day of a team member's birthday. Celebrate by sending the team member a $25 swag code, and free shipping. Swag codes can be found in the google doc titled "Tshirts and Stickers Coupons." 
+Include the link to the [swag store](https://gitlab.mybrightsites.com/) in your email. Also, make sure to post on the #general channel on Slack so all team members can help them celebrate. 
 
 ### Administrative details of benefits for US-based employees <a name="benefits-us"></a>
 
@@ -409,7 +448,7 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Under Other Earnings, select the BNO code and enter the amount of the bonus.
 1. **Never** hit submit. (It will cause the entire payroll to be paid the next day)
 1. Click Save when done.
-Note: Make sure to file all appropriate documentation in BambooHR.
+Note: Make sure to file all appropriate documentation in BambooHR. Also, if the employee has been employed for less than six months, check the notes section in BambooHR to see if they were referred by anyone at GitLab. If so, process a discretionary bonus for that team member as well. 
 
 
 ### Using RingCentral<a name="ringcentral"></a>

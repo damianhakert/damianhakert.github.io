@@ -661,19 +661,7 @@ If you need this information but cannot find it in your shared vaults you can ch
 1. Enter the amount per pay period
 1. Enter pay frequency
 
-#### Rate Changes (salary changes) for GitLab, Inc. employees
-
-1. In HR Passport, click Find
-1. Find person by name
-1. Type name and search
-1. Click name
-1. Select Employment Data (on left)
-1. Employee Pay Change
-1. Enter effective date and select next
-1. Enter pay rate change reason (drop down list)
-1. Enter new rate
-1. Review
-1. Update
+Please see People Ops for more information on [making changes in TriNet](/people-operations/#using-trinet). 
 
 ### GitLab BV Pay Slip Distribution Process <a name="payroll-bv"></a>
 

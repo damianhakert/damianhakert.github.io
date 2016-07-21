@@ -10,11 +10,13 @@ Create issue for former team member on the dev server in the [organization issue
 * [ ] Robert/Jacob V/Ernst: Disable team member in Slack.
 * [ ] Robert/Jacob V/Ernst: Dealing with the Google account
    * [ ] Robert/Jacob V/Ernst: Check with the former team member's manager if they
-   want email forwarded. If yes, then:
+   want the former team member's email forwarded to them. If yes, then:
    * [ ] Robert/Jacob V/Ernst: switch off 2FA for the account, reset the password,
    log on, and set email to forward to the manager. Also change the phone number
    and alternative email (typically personal email address) that are associated
-   with the account. Switch 2FA back on and save login credentials in 1password (PeopleOps vault).
+   with the account. Switch 2FA back on and save login credentials in
+   1password (PeopleOps vault). When asked for a phone number use your
+   own, this is only for the purposes of turning 2FA back on.
    * [ ] Robert/Jacob V/Ernst: upon manager's request (typically 4 weeks after blocking
      the Google account), transfer owned documents from Google Drive to
    manager, and delete the Google account. (automatically disables Drive access)
@@ -22,6 +24,7 @@ Create issue for former team member on the dev server in the [organization issue
 * [ ] Robert/Jacob V: Remove former team members' GitLab.com account from the [gitlab-com group](https://gitlab.com/groups/gitlab-com/group_members)
 * [ ] Robert/Jacob V: Remove former team members' GitLab.com account from the [gitlab-org group](https://gitlab.com/groups/gitlab-org/group_members) (if applicable)
 * [ ] Robert/Jacob V: Remove former team members' GitHub.com account from the [gitlabhq organization](https://github.com/orgs/gitlabhq/people) (if applicable)
+* [ ] Robert/Jacob V: Check former team members' project-level permissions and remove them as-needed.
 * [ ] Robert/Jacob V/Ernst: Block former team members' [dev.GitLab.org account](https://dev.gitlab.org/admin/users) and remove from [gitlab group](https://dev.gitlab.org/groups/gitlab/group_members)
 * [ ] Robert/Ernst/Jacob V: Remove access to 1Password; take a screenshot of the user's permissions and post it in this offboarding issue.
 * [ ] Robert/Ernst/Jacob V: coordinate or actively change sensitive shared passwords. In particular:
@@ -41,7 +44,7 @@ Create issue for former team member on the dev server in the [organization issue
 * [ ] People Ops: Remove former team member from TriNet / Savvy and payroll if applicable.
 * [ ] People Ops: Mark former team member as terminated in BambooHR. Use the date mentioned in this issue as final date of employment / contract.
 * [ ] People Ops: Reach out to former team member to identify and retrieve any company
-supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/people-operations/#returning-property)
+supplies/equipment. See the [PeopleOps page](https://about.gitlab.com/handbook/people-operations/#returning-property)
 for further details on that process.
 * [ ] People Ops: Inform Controller / Accounting if any items in former team members possession will not be returning, so that they can be removed from asset tracking.
 
@@ -59,3 +62,12 @@ for further details on that process.
 * [ ] People Ops: Notify eShares administrator (CFO) of offboarding.
 * [ ] Infrastructure: If the person is from infrastructure [remove the sysadmin](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/user-administration.md#remove-a-sysadmin)
 ```
+
+## Tackling Offboarding Checklist
+
+### Remove a team member from Sundial
+
+1. Log in to Sundial using the link in the "Private Sundial URL" Google Doc  
+1. Go to timezone view in the top right corner
+1. Hover over the team member's name that you want to remove
+1. Make sure you are in list view at this point, and then click the "x" to remove the team member 
