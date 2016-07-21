@@ -30,7 +30,7 @@ The problem is that there are ten developers in the team, and, you know, human f
 It already happened once in last four month, so you decided to solve the problem once and for all. Luckily your code is already on GitLab, and you remember that there is [built-in CI system](https://about.gitlab.com/gitlab-ci/). Moreover, you have heard at a conference, that people use CI to run tests...
 
 
-### Run our first test inside CI
+## Run our first test inside CI
 
 Five minutes to find and read the docs, and it seems like all we need is these two lines of code in file called `.gitlab-ci.yml` [(?)](http://docs.gitlab.com/ce/ci/yaml/README.html) :
 {: .step}
@@ -51,7 +51,7 @@ Okay, we now have automated tests here!
 
 The next step is to pack the code before sending it to our customers. Let's automate it as well!
 
-### Make results of builds downloadable
+## Make results of builds downloadable
 
 All we need to do is to define another job for CI. Let's name it "build":
 {: .step}
@@ -87,7 +87,7 @@ Checking... It is there:
 Perfect!
 However, we have a problem to fix: jobs are running in parallel, but we do not want to generate archive if our tests fail.
 
-### Run jobs consequentially
+## Run jobs consequentially
 
 We only want to run 'build' job if tests are successful. Let's define order by specifying `stages`:
 {: .step}
@@ -178,7 +178,7 @@ Now our config looks pretty impressive:
 - We are storing packed version of out app in build artifacts for further usage
 
 
-### Learning what Docker image to use
+## Learning what Docker image to use
 
 However, it appears our builds are still slow. Wait, what is this?
 
@@ -227,7 +227,7 @@ build:
 It looks like [there's](https://hub.docker.com/_/mysql/) [a lot of](https://hub.docker.com/_/python/) [public images](https://hub.docker.com/_/java/) [around](https://hub.docker.com/_/php/). So we can just grab one for our technology stack. It makes sense to specify an image, which contains no extra software because it minimizes download time.
 
 
-### Dealing with complex scenarios
+## Dealing with complex scenarios
 
 So far so good. However, let's suppose we have just got a new client, who wants to get `.tar` instead of `.gz`<br/>
 Since CI does the whole work, let's just add one more job to it:
@@ -281,7 +281,7 @@ test:
 Jobs named "build:gz" and "build:tar" are running in parallel as parts of stage "build".
 
 
-### Summary
+## Summary
 
 There's much more to cover but let's stop here for now. I hope you liked this short story. All examples were made trivial intentionally, so that you could learn concepts of GitLab CI not being distracted by unfamiliar technology stack. Let's wrap up, what we have learned:
 
