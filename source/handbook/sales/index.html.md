@@ -36,6 +36,7 @@ title: "Sales Handbook"
 * [FAQ from prospects](https://about.gitlab.com/handbook/sales-faq-from-prospects/)
 * [Client Use Cases](https://about.gitlab.com/handbook/use-cases/)
 * [Sales demo script](/handbook/sales/demo/)
+* [POC Template](/handbook/sales/POC/) to be used to help manage a trial/proof of concept with success criteria
 * [Demo: Idea to Production](/handbook/sales/idea-to-production)
 
 ### Pages outside Sales Handbook <a name="pages-outside"></a>
