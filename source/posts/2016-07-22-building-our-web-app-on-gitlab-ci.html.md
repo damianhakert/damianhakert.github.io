@@ -52,17 +52,17 @@ Using GitLab CI, the build jobs are determined solely from the `.gitlab-ci.yml` 
 
 GitLab CI makes it really easy to build and test the branch of a **merge request** (or a _“Pull request”_ in GitHub slang). Just a few lines added to our `.gitlab-ci.yml` file, and we were running tests for every push to a merge request.
 
-![Merge automatically when the build succeeds][merge]
+![Merge automatically when the build succeeds][merge]{: .shadow}
 
 We get nice red-or-green-status, the quite useful _“Merge automatically when the build succeeds”_ button — and, as branches are now tested before being merged, much less build breakage.
 
-![Build Passed][build]
+![Build Passed][build]{: .shadow}
 
 ## A slick UI
 
 GitLab CI provides _“Pipelines”_, an overview of all your build jobs. This points you quickly to a failing build, and the stage where the problem occurs. Plus it gets you this warm and fuzzy feeling of safeness when everything is green.
 
-![Pipelines]
+![Pipelines]{: .shadow}
 
 ## In a nutshell
 
@@ -77,10 +77,20 @@ _This post was originally published by [Captain Train]._
 <!-- identifiers -->
 
 [build]: /images/blogimages/cross-post-gitlab-ci/build-passed.png
-[Capitain Train]: https://blog.captaintrain.com/12703-building-on-gitlab-ci#comments
+[Captain Train]: https://blog.captaintrain.com/12703-building-on-gitlab-ci
 [Jenkins]: https://jenkins.io/
 [GitLab]: https://about.gitlab.com
 [GitLab CI]: https://about.gitlab.com/gitlab-ci/
 [CI examples]: http://docs.gitlab.com/ce/ci/quick_start/README.html
 [merge]: /images/blogimages/cross-post-gitlab-ci/merge-when-build-succeeds.png
 [pipelines]:/images/blogimages/cross-post-gitlab-ci/pipelines.png
+
+<style>
+  img.shadow {
+    -webkit-box-shadow: 0 4px 18px 0 rgba(51, 51, 51, 0.1), 0 6px 20px 0 rgba(51, 51, 51, 0.09);
+    -moz-box-shadow: 0 4px 18px 0 rgba(51, 51, 51, 0.1), 0 6px 20px 0 rgba(51, 51, 51, 0.09);
+    box-shadow: 0 4px 18px 0 rgba(51, 51, 51, 0.1), 0 6px 20px 0 rgba(51, 51, 51, 0.09);
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+</style>
