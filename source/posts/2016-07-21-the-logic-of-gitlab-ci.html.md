@@ -142,7 +142,7 @@ Let's take a look at our artifacts:
 
 ![](/images/blogimages/ci-logic/clean-artifacts.png)
 
-Hmm, we do not need that "compile" file to be downloadable. The following looks like a cheat, but it should work and serves the purpose for now: `expire_in: 2 minutes`.
+Hmm, we do not need that "compile" file to be downloadable. The following looks like a cheat, but it should work and serves the purpose for now: `expire_in: 20 minutes`.
 {: .step}
 
 ```yaml
@@ -157,7 +157,7 @@ compile:
   artifacts:
     paths:
     - compiled.txt
-    expire_in: 2 minutes
+    expire_in: 20 minutes
 
 test:
   stage: test
@@ -207,7 +207,7 @@ compile:
   artifacts:
     paths:
     - compiled.txt
-    expire_in: 2 minutes
+    expire_in: 20 minutes
 
 test:
   stage: test
@@ -247,7 +247,7 @@ compile:
   artifacts:
     paths:
     - compiled.txt
-    expire_in: 2 minutes
+    expire_in: 20 minutes
 
 test:
   stage: test
