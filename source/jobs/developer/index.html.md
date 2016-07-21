@@ -12,11 +12,11 @@ Developers can specialize immediately after joining, or after some time, when th
 
 ## Responsibilities
 
-* Develop features from proposal to polished end result.
-* Support our [service engineers](/jobs/service-engineer) in getting to the bottom of user-reported issues and come up with robust solutions.
-* Engage with the core team and the open source community and collaborate on improving GitLab.
-* Review code contributed by the rest of the community and work with them to get it ready for production.
-* Write documentation around features and configuration to save our users time.
+* Develop features from proposal to polished end result. 
+* Support and collaborate with our [service engineers](/jobs/service-engineer) in getting to the bottom of user-reported issues and come up with robust solutions.
+* Engage with the core team and the open source community to collaborate on improving GitLab.
+* Manage and review code contributed by the rest of the community and work with them to get it ready for production.
+* Create and maintain documentation around features and configuration to save our users time.
 * Take initiative in improving the software in small or large ways to address pain points in your own experience as a developer.
 * Keep code easy to maintain and keep it easy for others to contribute code to GitLab.
 * Qualify developers for hiring.
