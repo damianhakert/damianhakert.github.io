@@ -428,7 +428,7 @@ For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner",
 
 ## Blog Content Calendar
 
-In the spreadsheet below you'll find posts recently published (From June 1st on), together with some other posts that are queued for writing, reviewing and publishing. This calendar was implemented not long ago and is still being improved, it's opened to eventual changes and contributions.
+In the spreadsheet below you'll find posts recently published (From 2016, June 1st on), together with some other posts that are queued for writing, reviewing and publishing. This calendar was implemented not long ago and is still being improved, it's opened to eventual changes and contributions.
 
 The link attached to the post title will lead you to the Merge Request, while the link on "Published" will lead you to the post itself.
 
@@ -436,8 +436,11 @@ The link attached to the post title will lead you to the Merge Request, while th
 <iframe width="402" height="346" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?cid=696487FB19CE5807&resid=696487FB19CE5807%21999&authkey=AG3_C1jCZa8qMWo&em=2&ActiveCell='Content%20Queue'!B1&wdHideGridlines=True"></iframe>
 </figure>
 
-Main Content Pillars, subjects, categories, names, content distribution, and other
+<br>
+
+**Note:** Main Content Pillars, subjects, categories, names, content distribution, and other
 specific matters are still being discussed and polished.
+{: .note}
 
 
 <!-- Identifiers, in alphabetical order -->
