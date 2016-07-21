@@ -96,7 +96,9 @@ You've already got your
 [CI/CD pipeline](http://docs.gitlab.com/ce/ci/pipelines.html) configured to
 continuously deploy changes, right? Well maybe you're not ready to have it
 automatically deploy to production. You might automatically deploy to staging,
-but you want to do manual QA before deploying to production. Now you can define
+but you want to do manual QA before deploying to production.
+
+Now you can define
 how to deploy to production and using `when: manual`, a new action will appear
 in the web UI so that you or your release manager can trigger that part of the
 pipeline manually. You can define any kind of job in your pipeline to be
@@ -160,10 +162,15 @@ Read the [Kerberos documentation](http://docs.gitlab.com/ee/integration/kerberos
 
 ## Syntax Highlighting
 
-* Override language guessing with a .gitattributes entry: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4606
-  - Documentation: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/project/highlighting.md
-* Upgrade rouge from 1.11.1 to 2.0.5: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4691
-  - new lexers, bugfixes: https://github.com/jneen/rouge/blob/master/CHANGELOG.md
+Syntax highlighting has been massively improved with GitLab 8.10.
+We've updated rouge from 1.11.1 to 2.0.5 and in doing that have added
+[new lexers and bugfixes][changelog-rouge].
+
+You can now also override language guessing with a `.gitattributes` entry.
+[See the documentation for details][override-docs].
+
+[changelog-rouge]: https://github.com/jneen/rouge/blob/master/CHANGELOG.md
+[override-docs]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/project/highlighting.md
 
 ## Updated Emoji!
 
