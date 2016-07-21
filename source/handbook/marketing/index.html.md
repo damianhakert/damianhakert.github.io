@@ -261,6 +261,7 @@ What is BD (to be included).
 [Job Description](/jobs/business-development-representative/){:.btn .btn-purple-inv}
 [Handbook][Business Development]{:.btn .btn-purple}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Braden][braden]{:.btn .btn-orange}
+[<i class="fa fa-gitlab" aria-hidden="true"></i> Chet][chet]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Colton][colton]{:.btn .btn-orange}
 [<i class="fa fa-gitlab" aria-hidden="true"></i> Ryan][ryan]{:.btn .btn-orange}
 
@@ -656,7 +657,7 @@ The meeting should run as follows:
 
 - First 60 seconds: Post funny GIFs in Slack `#marketing` room and person with funniest gets a dinosaur sticker. Person with most dinosaur stickers per quarter gets $250 bonus. Voting occurs with Smiley face emojis. You can only post one GIF per day
 - Agenda items
-- Everyone in order of Team Page (last goes first) gives 15 seconds about what they are working on. (Joe, Marcia, Colton, Amara, Ryan, Amanda, Braden, Mitchell, Ivan, Luke, Axil, Hank, Ashley, Emily)
+- Everyone in order of Team Page (last goes first) gives 15 seconds about what they are working on. (Chet, Joe, Marcia, Colton, Amara, Ryan, Amanda, Braden, Mitchell, Ivan, Luke, Axil, Hank, Ashley, Emily)
 - Discuss roadblocks and any collaboration needs
 
 To find the Dinosaur Sticker leaderboard, search the company Google Drive for "Dinosaurs are awesome".
@@ -778,6 +779,7 @@ We use Slack internally as a communication tool. The marketing channels are as f
 [ashley]: https://gitlab.com/u/AshleyS
 [axil]: https://gitlab.com/u/axil
 [braden]: https://gitlab.com/u/BradenC
+[chet]: https://gitlab.com/u/chetbackman
 [colton]: https://gitlab.com/u/coltontaylor
 [emily]: https://gitlab.com/u/emilykyle
 [hank]: https://gitlab.com/u/hanktaylor
