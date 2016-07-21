@@ -692,11 +692,10 @@
   locality: Zeist
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Junior Developer</a>
-  reports_to: Backend Lead
+  reports_to: CI Lead
   picture: zegerjan.jpeg
   twitter: zjvandeweg
   gitlab: zj
-  maintains: |
   maintains: |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ci-yml/">.gitlab-ci.yml</a> templates</li>
               <li>Award Emoji <a href="/jobs/expert/">expert</a></li>
@@ -1311,7 +1310,7 @@
   twitter: sarki247
   gitlab: abuango
   story:  |
-          Before joining the GitLab team, Abubakar has worked in the academic environment providing support and maintaining IT infrastructure. He also actively participates in several training programs targeted at youths and students. In his spare time, Abubakar reads and also participate in the local developer community events. 
+          Before joining the GitLab team, Abubakar has worked in the academic environment providing support and maintaining IT infrastructure. He also actively participates in several training programs targeted at youths and students. In his spare time, Abubakar reads and also participate in the local developer community events.
 
 - name: D.L.
   locality:
