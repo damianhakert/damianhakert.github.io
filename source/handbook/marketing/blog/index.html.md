@@ -280,7 +280,8 @@ otherwise you'll create another category, which is somenthing we don't want to d
 
 - concepts _(use it when your post in on continuous integration, innersource, open source, version control, SaaS, etc)_
 - git
-- GitLab _(all GitLab products/features: CI, Geo, GDK, Pages, LDPA, Hooks, etc.)_
+- GitLab _(all GitLab products/features: Geo, GDK, Pages, LDPA, Hooks, etc.)_
+- GitLab CI
 - GitLab CE _(use it when highlighting CE features, advantages, etc.)_
 - GitLab EE _(EE-only features)_
 - GitLab workflow _(issues, merge requests, confidential issues, milestones, todos, etc.)_
