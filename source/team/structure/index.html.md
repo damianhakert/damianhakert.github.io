@@ -44,7 +44,8 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - [Account Manager](/jobs/account-manager/)
       - [Success Engineer](/jobs/success-engineer/)
     - Sales Operations - [Director of Sales Operations](https://about.gitlab.com/jobs/director-sales-operations/)
-  - [People Operations](/handbook/people-operations/) - [Director/VP of People Operations](/jobs/senior-director-of-people-operations/) (vacancy)
+  - [People Operations](/handbook/people-operations/) - [Sr. Director of People Operations](/jobs/senior-director-of-people-operations/)
+    - [People Operations Generalist](/jobs/people-ops-generalist/)
     - [People Operations Coordinator](/jobs/people-ops-coordinator/)
   - [Finance](/handbook/finance) - [CFO](/jobs/chief-financial-officer/) - Paul Machle
     - Accounting - [Controller](/jobs/controller/) - Wilson Lau
