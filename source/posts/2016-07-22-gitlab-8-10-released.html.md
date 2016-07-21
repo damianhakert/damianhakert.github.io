@@ -6,9 +6,17 @@ author_twitter: Jobvo
 image_title: /images/8_10/bg.jpg
 ---
 
-Intro and introduce main features here.
+With GitLab we want you to be able to go frictionless from idea to production.
+But between GitLab _releases_ we want you to go from idea to production
+_faster_, and with 8.10 GitLab is faster than ever.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***Winnie*** ***CONTRIBUTION_OF_MVP_USER***.
+With GitLab 8.10, reviewing code and making sure it gets merged
+is easier and snappier than ever with many improvements to diffs and protected
+branches. And when it's time to deploy it, all it takes is a single click, with
+manual actions.
+
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
+Winnie!
 Thanks ***Winnie***!
 
 <!--more-->
@@ -16,15 +24,22 @@ Thanks ***Winnie***!
 ## Wildcard Branch Protection
 
 To make sure your branches don't get deleted or accidentally pushed to,
-you can protect them. For instance, your production and release branches
-should only be pushed to by certain people.
+[you can protect them][protected-branches]. This even allows you to prevent
+people with lower permission levels to push or merge to these branches,
+which is very convenient for production and release branches.
 
 With Gitlab 8.10 you can now protect any branch automatically, based on a
-wildcard.
+wildcard. This makes it much easier to protect a large amount of branches.
+
+![Wildcard Branch Protection in GitLab 8.10](/images/8_10/wc1.png)
 
 For example, if you protect `release-*`, any branch whose name starts
 with `release-` automatically becomes protected. At GitLab we use this feature
 to automatically protect all our stable releases by protecting `*-stable`.
+
+![Wildcard Branch Protection in GitLab 8.10](/images/8_10/wc2.png)
+
+[protected-branches]: http://docs.gitlab.com/ee/workflow/protected_branches.html
 
 ## Merge into Protected Branches
 
@@ -35,6 +50,8 @@ is able to push or merge anything into a protected branch.
 Previously, we added the ability to allow `developer` users to also push to
 these branches. With GitLab 8.10 you can now disallow pushing, yet explicitly
 allow merges by `developer` users.
+
+![Allow developers to merge to protected branches in GitLab 8.10](/images/8_10/dev_merge.png)
 
 **Concretely this means that `developer` users can merge a merge request but not
 directly push**. So your branches are protected from direct pushes, yet developers
