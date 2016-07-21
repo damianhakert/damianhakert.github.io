@@ -1,6 +1,6 @@
 ---
 title: "GitLab 8.10 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
-categories:
+categories: release
 author: ADD_YOUR_FULL_NAME
 author_twitter: TWITTER_USERNAME
 image_title: /images/7_X/PICTURE.PNG
@@ -8,10 +8,18 @@ image_title: /images/7_X/PICTURE.PNG
 
 Intro and introduce main features here.
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***winniehell*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***winniehell***!
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***Winnie*** ***CONTRIBUTION_OF_MVP_USER***.
+Thanks ***Winnie***!
 
 <!--more-->
+
+## Wildcard Branch Protection
+
+## Merge into Protected Branches
+
+## Better Side-by-Side Diffs
+
+## Inline Diffs
 
 ## CI Improvements
 
@@ -67,7 +75,7 @@ From now on, runner releases will be synchronized with monthly GitLab releases. 
 * Checking if an avatar is present no longer hits the underlying storage engine, reducing the time it takes to check if an avatar is present: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5093
 * Checking if a user has access to a single project has been optimised: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5102
 * The queries used to get merge request closing/merging events are now cached per request: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5151
-* The presence of an external wiki is now cached on database level: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5305 (**not yet merged**)
+* The presence of an external wiki is now cached on database level: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5305
 * Performance of automatically generating links in Markdown has been improved: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5311
 * Checking whether to show a system note has been optimized: gitlab-org/gitlab-ce!5070
 * The maximum access badge for each author of a comment is now cached to prevent multiple lookups for the same author: gitlab-org/gitlab-ce!4982
@@ -88,6 +96,12 @@ From now on, runner releases will be synchronized with monthly GitLab releases. 
 * The Markdown syntax highlighting filter is instrumented: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5038
 
 ## Collapsable Diffs
+
+## Blockquote Fence Syntax
+
+## Multiple Repository Mount Points
+
+##
 
 ## Ticket-based Kerberos authentication (Enterprise Edition)
 
@@ -118,6 +132,10 @@ page:
 
 ![License Usage Report](/images/8_10/license_report.png)
 
+## GitLab Mattermost 3.2
+[Mattermost 3.2](https://www.mattermost.org/mattermost-3-2-german-custom-emoji-improved-threaded-messaging-search-windows-and-mac-apps-plus-more/) ships in GitLab 8.10 with German language translation, custom emoji, improved threaded messages, widescreen search, new Exchange and XMPP integrations, plus many more new benefits.
+
+This version also includes [security updates](http://about.mattermost.com/security-updates/) and upgrade from earlier versions is recommended.
 
 ## Other changes
 
@@ -127,7 +145,7 @@ This release has more improvements, including security fixes. Please check out [
 ## Upgrade barometer
 
 
-## Update your NGINX configuration
+### Update your NGINX configuration
 
 The default NGINX configuration now overwrites the 'Host' and 'X-Forwarded-Host' headers. This adds defense in depth against header injection attacks. For installations from source this means you need to update your NGINX configuration for GitLab. For Omnibus installations this will happen automatically, unless you configured your own 'Host' and 'X-Forwarded-Host' values in gitlab.rb.
 
