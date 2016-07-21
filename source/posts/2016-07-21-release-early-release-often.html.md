@@ -1,15 +1,16 @@
 ---
-title: "Trends in Version Control Land: Continuous Delivery"
+title: "Release Early, Release Often"
 categories: concepts
 author: Sid Sijbrandij
 author_twitter: sytses
-image_title: '/images/blogimages/trends-version-control-continuous-delivery-cover.jpg'
-twitter_image: '/images/tweets/trends-version-control-continuous-delivery.png'
+image_title: '/images/blogimages/release-early-release-often-cover.jpg'
+twitter_image: '/images/tweets/release-early-release-often.png'
+description: "Understand the logic behind GitLab's time-based releases."
 ---
 
 Another trend that keeps popping onto the radar is a continuing **reduction in time between deploys**. In this post we’re looking at what that means and why it’s happened.
 
-**Note:** this post is the second of the series on trends in version control. The first one explored _[Innersourcing][part-1]_.
+**Note:** this post is the second of the series on _Trends in Version Control_. The first one explored _[Innersourcing][part-1]_.
 {: .note}
 
 <!-- more -->
@@ -26,7 +27,7 @@ If there’s a bug, it’s not nearly as a big of a deal as in the days of the a
 
 ## Moving to time-based releases
 
-To make releasing early and often possible, teams have started using time-based releases versus feature-based releases. Moving to time-based releases means no more waiting for features to be ready; instead you only merge features that are ready at the time of your release. At GitLab, we stick to time-based releases. Some may even say we’ve taken them to the extreme. Since 2011, we always ship on the 22nd of every month. Then any patches are released when they are ready. When we first started doing time-based releases, it was difficult to stick to them. Here’s some advice on how you make the move.
+To make releasing early and often possible, teams have started using [time-based releases] versus feature-based releases. Moving to time-based releases means no more waiting for features to be ready; instead you only merge features that are ready at the time of your release. At GitLab, we stick to time-based releases, also does  [Docker], [Ubuntu] and [GNOME]. Some may even say we’ve taken them to the extreme. Since 2011, we always ship on the 22nd of every month. Then any patches are released when they are ready. When we first started doing time-based releases, it was difficult to stick to them. Here’s some advice on how you make the move.
 
 - Decouple features so you don’t have to hold the deploy for one feature
 - Focus on getting smaller features out the door when the first iteration is usable 
@@ -40,8 +41,12 @@ The longer you wait between releases, the more attractive it can be to hold your
 
 Want to read up on more trends? Check out our last post on [Innersourcing][part-1].
 
-<!-- cover image: https://unsplash.com/photos/r-EecLdRRww -->
+<!-- cover image: https://unsplash.com/photos/r-EecLdRRww - resized and compressed -->
 
 <!-- Identifiers, in alphabetical order -->
 
+[DOCKER]: https://github.com/docker/docker/wiki
+[GNOME]: https://wiki.gnome.org/ReleasePlanning/TimeBased
 [part-1]: /2016/07/07/trends-version-control-innersourcing/
+[time-based releases]: http://www.infoworld.com/article/2638146/open-source-software/time-based-release-methodologies-and-open-source-communities.html
+[Ubuntu]: https://wiki.ubuntu.com/TimeBasedReleases
