@@ -313,6 +313,7 @@ step, **re-assign** the issue to that person.
 1. We start by discussing the subjects that are on the agenda for today.
    * Everyone is free to add subjects. Please start with your name and be sure to link to an issue, merge request or commit if that is relevant.
    * When done with a point mention the subject of the next item and hand over to the next person.
+   * When someone passes the call to you, no need to say, “Can you hear me?” Just begin talking. If we can’t hear you, we’ll let you know.
 1. We have functional group updates (1 group per call) for the following groups: Marketing, Sid, Product, Sales, Ops, Support, HR, Finance, Development, Front-end, UX/UI.
 1. We ask 15-20 people per day to share updates about the most exciting thing from your past or upcoming week/weekend. If anyone has something they'd like to talk about, last person in the list will ask the group if they have anything else to share.
    * The [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) lists who is meant to speak on which day; this can be altered daily if conflicts arise.
@@ -721,6 +722,10 @@ this command in your `.bash_profile` or equivalent for your shell.
 ### MobileDay
 
 If you install [MobileDay](https://mobileday.com/) on your phone and give it access to your Google Calendar it can dial into conference calls for you. It is very good at detecting the number and password from the calendar invite.
+
+### Visual help to differentiate between GitLab servers
+
+If you are working on multiple GitLab instances and want to have a visual differentiation, you can change the default [Application theme](http://docs.gitlab.com/ce/profile/preferences.html#application-theme) to a different color.
 
 ### Do NOT Use<a name="do-not-use"></a>
 

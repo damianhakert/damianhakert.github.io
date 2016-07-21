@@ -6,6 +6,8 @@ categories: inside GitLab
 image_title: '/images/team_gitlab.png'
 ---
 
+Please note that while we think of ourselves as an open source company it would be more accurate to call it an open core company since we ship both the open source GitLab Community Edition and the close source GitLab Enterprise Edition. Thanks to paxcoder for [pointing this out on Hacker News](https://news.ycombinator.com/item?id=12129626).
+
 [GitLab] began as a labor of love from [Dmitriy Zaporozhets] and [Valery Sizov], who built the first version together in 2011. Like many open source authors, they were only able to work on the project part time. [Sid Sijbrandij] joined forces a year later and created [GitLab.com], the first SaaS offering and first experiment with monetization.
 
 <!-- more -->

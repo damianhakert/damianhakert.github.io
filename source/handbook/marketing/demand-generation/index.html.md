@@ -60,8 +60,9 @@ The Demand Generation organization includes Demand Generation, Business Developm
 6. If Soft-BANT isn't met and there are questions, BDR team will answer all questions or route to support.
 7. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
 8. If a lead is from a [Fortune 500 company](http://fortune.com/fortune500/), it will be assigned to a senior account executive.  For larger opportunities outside the US, lead will be passed to senior account executive or sales director in region.
-9. If a lead is an existing customer or a prospect that's owned/operated by an existing customer, BDR team will determine account owner and pass lead.
-10. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
+9. If a lead is an existing customer or a prospect that's owned/operated by an existing customer _but is not using EE_, BDR team will determine account owner and pass lead.
+10. If a lead is from an existing account _and is using EE_, the BDR will convert the lead to a contact in SFDC (making sure to check the “Do not create a new opportunity” box) and @mention the lead owner in SFDC to let them know of the new contact. No need to connect the lead with the owner via email.
+11. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
 
 ## Soft-BANT<a name="bant"></a>
 

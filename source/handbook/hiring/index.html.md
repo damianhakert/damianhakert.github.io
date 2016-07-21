@@ -38,6 +38,7 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
 
           - Opening an existing position: If the position is already listed in the `jobs.yml` file but not "open", simply change `open: false` to `open: true` to have the position appear on the [listings](/jobs/).
           - Closing an existing position: If we're no longer hiring for a particular position change `open: true` to `open: false` for that position to hide it from the listings.
+          - Note: You can leave the apply workable link blank until you have created it (see instructions below). 
 1. Once the job description and posting have been approved, create the job in [Workable](https://gitlab.workable.com/backend), using the exact same job title. If you do this step earlier, people will be able to apply even though the job posting may not have been approved yet.
    * For location, select "Telecommute".
    * For the description, write `For the job description, see [URL of relevant jobs page on about.gitlab.com]`
@@ -133,6 +134,7 @@ Questions are:
 1. Current address? (relevant in context of comp, and in case of contract we will need that information).
 1. How do they feel about working remotely and do they have experience with it?
 1. Compensation expectation and compensation in current/last job.
+1. STAR questions and simple technical questions may also be asked during the screening call if applicable. 
 
 [An example of the output of a good screening call](https://gitlab.workable.com/backend/jobs/128446/browser/applied/candidate/7604850) (need workable account).
 
@@ -274,6 +276,7 @@ Note for People Operations:<br>
 - the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
 [Contracts page](https://about.gitlab.com/handbook/contracts).
 - Onboarding info for the PeopleOps system, BambooHR, can be found on the [PeopleOps](/handbook/people-operations) page.
+- All information regarding compensation in Workable should be visible to hiring manager only. 
 
 ## Closing a vacancy
 <a name="closing-vacancy"></a>
