@@ -152,6 +152,17 @@ email noise.
 
 ![Bulk subscribe to issues in GitLab 8.10](/images/8_10/bulk_sub.gif)
 
+## Custom Notification Level for Groups
+
+In GitLab 8.9 [we added a custom notification to projects][custom-not], allowing
+you to only get notified on what's important to you.
+
+With GitLab 8.10 you can now also set this on a group level, setting this for
+all projects except the project that you have overridden with other notification
+settings.
+
+[custom-not]: https://about.gitlab.com/2016/06/22/gitlab-8-9-released/#custom-notification-level
+
 ## Ticket-based Kerberos authentication (Enterprise Edition)
 
 Before GitLab 8.10 users had to submit their Kerberos username and password on the GitLab sign-in page to authenticate with Kerberos. In GitLab 8.10 Enterprise Edition it is possible for Kerberos users to sign in with one click without ever submitting their password to GitLab, via the new 'Kerberos Spnego' button on the sign-in page.
@@ -172,6 +183,26 @@ You can now also override language guessing with a `.gitattributes` entry.
 [changelog-rouge]: https://github.com/jneen/rouge/blob/master/CHANGELOG.md
 [override-docs]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/project/highlighting.md
 
+## Disable Access Request
+
+[The ability to request access to a project][access-request] can now be disabled
+for a group or project. By default it's turned on.
+
+[access-request]: https://about.gitlab.com/2016/06/22/gitlab-8-9-released/#request-access-to-a-project
+
+## Better Slack integration
+
+GitLab can notify you on Slack when certain events happen.
+For instance, when someone posts a comment, when a merge request is created
+or when a build fails.
+
+We've improved the Slack service so you can configure per event to which
+Slack channel GitLab should report.
+
+![Improved Slack integration with GitLab 8.10](/images/8_10/slack.png)
+
+> [Read how to setup the Slack service in GitLab](http://docs.gitlab.com/ce/integration/slack.html)
+
 ## Updated Emoji!
 
 We've updated to the 2016 library of [gemojione](https://github.com/jonathanwiesel/gemojione),
@@ -179,7 +210,7 @@ adding many new and updated emoji!
 
 ![New Emoji in GitLab 8.10!](/images/8_10/new_emoji.png)
 
-## License Usage Report
+## License Usage Report (EE only)
 
 To help us better engage with our customers, 8.10 EE periodically attempts to
 send license usage back to GitLab, Inc. You can
