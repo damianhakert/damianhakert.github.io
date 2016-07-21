@@ -53,32 +53,32 @@ The next step is to pack the code before sending it to our customers. Let's auto
 
 ## Make results of builds downloadable
 
-All we need to do is to define another job for CI. Let's name it "build":
+All we need to do is to define another job for CI. Let's name it "pack":
 {: .step}
 
 ```yaml
 test:
   script: cat file1.txt file2.txt | grep -q 'Hello world'
 
-build:
-  script: cat file1.txt file2.txt | gzip > build.gz
+pack:
+  script: cat file1.txt file2.txt | gzip > pack.gz
 ```
 
 We have two tabs now:
 ![](/images/blogimages/ci-logic/twotabs.png)
 
-However, we forgot to specify what should be passed to build _artifacts_, so that it could be downloaded. Fixing it by adding `artifacts`section:
+However, we forgot to specify what should be passed to build _artifacts_, so that it could be downloaded. Fixing it by adding `artifacts` section:
 {: .step}
 
 ```yaml
 test:
   script: cat file1.txt file2.txt | grep -q 'Hello world'
 
-build:
-  script: cat file1.txt file2.txt | gzip > build.gz
+pack:
+  script: cat file1.txt file2.txt | gzip > packed.gz
   artifacts:
     paths:
-    - build.gz
+    - packed.gz
 ```
 
 Checking... It is there:
@@ -89,24 +89,24 @@ However, we have a problem to fix: jobs are running in parallel, but we do not w
 
 ## Run jobs consequentially
 
-We only want to run 'build' job if tests are successful. Let's define order by specifying `stages`:
+We only want to run 'pack' job if tests are successful. Let's define order by specifying `stages`:
 {: .step}
 
 ```yaml
 stages:
   - test
-  - build
+  - pack
 
 test:
   stage: test
   script: cat file1.txt file2.txt | grep -q 'Hello world'
 
-build:
-  stage: build
-  script: cat file1.txt file2.txt | gzip > build.gz
+pack:
+  stage: pack
+  script: cat file1.txt file2.txt | gzip > packed.gz
   artifacts:
     paths:
-    - build.gz
+    - packed.gz
 ```
 
 That should be good!<br/>
@@ -117,7 +117,7 @@ Also, we forgot to mention, that compilation (which is represented by concatenat
 stages:
   - compile
   - test
-  - build
+  - pack
 
 compile:
   stage: compile
@@ -130,12 +130,12 @@ test:
   stage: test
   script: cat compiled.txt | grep -q 'Hello world'
 
-build:
-  stage: build
-  script: cat compiled.txt | gzip > build.gz
+pack:
+  stage: pack
+  script: cat compiled.txt | gzip > packed.gz
   artifacts:
     paths:
-    - build.gz
+    - packed.gz
 ```
 
 Let's take a look at our artifacts:
@@ -149,7 +149,7 @@ Hmm, we do not need that "compile" file to be downloadable. The following looks 
 stages:
   - compile
   - test
-  - build
+  - pack
 
 compile:
   stage: compile
@@ -163,18 +163,18 @@ test:
   stage: test
   script: cat compiled.txt | grep -q 'Hello world'
 
-build:
-  stage: build
-  script: cat compiled.txt | gzip > build.gz
+pack:
+  stage: pack
+  script: cat compiled.txt | gzip > packed.gz
   artifacts:
     paths:
-    - build.gz
+    - packed.gz
 ```
 
 Now our config looks pretty impressive:
 
-- We have three following stages to compile, test and build our application.
-- We are passing compiled app to next stages so that there's no need to build it twice (so it will run faster)
+- We have three following stages to compile, test and pack our application.
+- We are passing compiled app to next stages so that there's no need to run compilation twice (so it will run faster)
 - We are storing packed version of out app in build artifacts for further usage
 
 
@@ -199,7 +199,7 @@ Now we are talking!:
 stages:
   - compile
   - test
-  - build
+  - pack
 
 compile:
   stage: compile
@@ -213,12 +213,12 @@ test:
   stage: test
   script: cat compiled.txt | grep -q 'Hello world'
 
-build:
-  stage: build
-  script: cat compiled.txt | gzip > build.gz
+pack:
+  stage: pack
+  script: cat compiled.txt | gzip > packed.gz
   artifacts:
     paths:
-    - build.gz
+    - packed.gz
 </code></pre>
 </div>
 
@@ -239,7 +239,7 @@ image: alpine
 stages:
   - compile
   - test
-  - build
+  - pack
 
 compile:
   stage: compile
@@ -253,19 +253,19 @@ test:
   stage: test
   script: cat compiled.txt | grep -q 'Hello world'
 
-build:gz:
-  stage: build
-  script: cat compiled.txt | gzip > build.gz
+pack:gz:
+  stage: pack
+  script: cat compiled.txt | gzip > packed.gz
   artifacts:
     paths:
-    - build.gz
+    - packed.gz
 
-build:tar:
-  stage: build
-  script: tar cf - compiled.txt > build.tar
+pack:tar:
+  stage: pack
+  script: tar cf - compiled.txt > packed.tar
   artifacts:
     paths:
-    - build.tar
+    - packed.tar
 ```
 
 Wow, it looks like we have a pipeline here:
@@ -278,7 +278,7 @@ test:
   stage: test
 ```
 
-Jobs named "build:gz" and "build:tar" are running in parallel as parts of stage "build".
+Jobs named "pack:gz" and "pack:tar" are running in parallel as parts of stage "pack".
 
 
 ## Summary
