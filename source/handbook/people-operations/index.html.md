@@ -235,9 +235,11 @@ Once the bonus has been processed, change the note in BambooHR to denote the ref
 ### Asset Tracking
 <a name="asset-tracking"></a>
 
-Items paid for by the company are property of the company. Assets with purchasing value in excess of $1000 USD are tracked in BambooHR. These assets come to People Ops attention by one of two ways: 1. People Ops makes the purchase on behalf of the team member, or 2. the Finance team notices the line items on expense reports / invoices and passes this along to People Ops.
+Items paid for by the company are property of the company.
 
-The information is then entered into BambooHR by People Ops.
+Assets with purchasing value in excess of $1000 USD are tracked in BambooHR, for assets of lower value we rely on the honor system. These assets come to People Ops attention by one of two ways: 1. People Ops makes the purchase on behalf of the team member, or 2. the Finance team notices the line items on expense reports / invoices and passes this along to People Ops.
+
+The information is then entered into BambooHR (to track who has which piece of equipment) by People Ops, and it is included in the Fixed Asset Schedule by Finance (to track asset value and depreciation). 
 
 1. Go to the team member in BambooHR
 1. Click on the Assets Tab
