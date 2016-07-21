@@ -16,7 +16,8 @@ branches. And when it's time to deploy it, all it takes is a single click, with
 manual actions.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
-Winnie!
+Winnie! Winnie has been incredibly helpful fixing bugs in GitLab and even
+triaging issues on GitLab.com.
 Thanks ***Winnie***!
 
 <!--more-->
@@ -209,6 +210,28 @@ We've updated to the 2016 library of [gemojione](https://github.com/jonathanwies
 adding many new and updated emoji!
 
 ![New Emoji in GitLab 8.10!](/images/8_10/new_emoji.png)
+
+## Domain Blacklist
+
+You can now block certain domains from signing up by adding them to the
+domain blacklist. Find the settings in the admin.
+
+## Toggle Git Access Protocols
+
+You can now configure Git access controls: enabling or disabling SSH, HTTP or
+both.
+
+## Inline Videos now supported!
+
+GitLab will now render inline videos in comments and descriptions of
+issues and merge requests.
+
+## Build Warnings
+
+When your CI pipeline passes, but there were some warnings, GitLab will now
+tell you in the related merge request:
+
+![Build warnings in GitLab 8.10](/images/8_10/warnings.png)
 
 ## License Usage Report (EE only)
 
