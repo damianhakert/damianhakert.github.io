@@ -37,4 +37,4 @@ deploy:
   tags:
     - deploy
   only:
-    - gitlab-com/www-gitlab-com@master
+    - master@gitlab-com/www-gitlab-com
