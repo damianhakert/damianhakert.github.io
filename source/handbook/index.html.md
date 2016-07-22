@@ -14,6 +14,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 * [Marketing](/handbook/marketing)
   * [Social Media Guidelines](/handbook/marketing/social-media-guidelines)
   * [Blog](/handbook/marketing/blog)
+  * [Markdown Guide](/handbook/marketing/developer-relations/technical-writing/markdown-guide/)
 * [Sales](/handbook/sales)
   * [Customer Success](/handbook/customer-success)
 * [Finance](/handbook/finance)
@@ -173,7 +174,7 @@ After it is merged you can talk about it during the team call if applicable. You
 1. When communicating something always include a link to the relevant (and up to date) part of the **handbook** instead of including the text in the email/chat/etc. You can remind other people of this by asking 'can you please link to the relevant part of the handbook?'.
 1. If you copy content please remove it at the origin place and replace it with a link to the new content. Duplicate content leads to updating it in the wrong place, keep it [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
-Many things can be documented in the handbook, but this will mostly be read by team members. If something can concern users of GitLab it should be documented in the [GitLab documentation](http://doc.gitlab.com/), the [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit), our [CONTRIBUTING file](https://gitlab.com/gitlab-org/gitlab-test/blob/master/CONTRIBUTING.md) or the [PROCESS file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
+Many things can be documented in the handbook, but this will mostly be read by team members. If something can concern users of GitLab it should be documented in the [GitLab documentation](http://doc.gitlab.com/), the [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit), our [CONTRIBUTING file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md) or the [PROCESS file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
 
 ## Communication<a name="communication"></a>
 
