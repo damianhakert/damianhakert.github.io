@@ -262,7 +262,7 @@ GitLab will now tell you in the related merge request:
 
 ![Build warnings in GitLab 8.10](/images/8_10/warnings.png)
 
-## License Usage Report (EE only)
+## Usage Ping (EE only)
 
 To help us better engage with our customers, 8.10 EE periodically attempts to
 send license usage back to GitLab, Inc. You can
