@@ -1,5 +1,5 @@
 ---
-title: "The basics of GitLab CI: Learn how to run jobs consequentially, in parallel, or build your own custom pipeline"
+title: "GitLab CI: Learn how to run jobs consequentially, in parallel, or build your own custom pipeline"
 date: 2016-07-21
 categories: tutorial
 author: Ivan Nemytchenko
@@ -142,15 +142,10 @@ Let's take a look at our artifacts:
 
 ![](/images/blogimages/ci-logic/clean-artifacts.png)
 
-Hmm, we do not need that "compile" file to be downloadable. The following looks like a cheat, but it should work and serves the purpose for now: `expire_in: 20 minutes`.
+Hmm, we do not need that "compile" file to be downloadable. Let's make our temporary artifactas expireable by setting <nobr>`expire_in: 20 minutes`</nobr>. It might look like a cheat, but it works and serves the purpose:
 {: .step}
 
 ```yaml
-stages:
-  - compile
-  - test
-  - pack
-
 compile:
   stage: compile
   script: cat file1.txt file2.txt > compiled.txt
@@ -158,29 +153,18 @@ compile:
     paths:
     - compiled.txt
     expire_in: 20 minutes
-
-test:
-  stage: test
-  script: cat compiled.txt | grep -q 'Hello world'
-
-pack:
-  stage: pack
-  script: cat compiled.txt | gzip > packed.gz
-  artifacts:
-    paths:
-    - packed.gz
 ```
 
 Now our config looks pretty impressive:
 
-- We have three following stages to compile, test and pack our application.
+- We have three consequent stages to compile, test and pack our application.
 - We are passing compiled app to next stages so that there's no need to run compilation twice (so it will run faster)
 - We are storing packed version of out app in build artifacts for further usage
 
 
 ## Learning what Docker image to use
 
-However, it appears our builds are still slow. Wait, what is this?
+However, it appears our builds are still slow. Let's look inside the logs. Wait, what is this?
 
 ```
 Using Docker executor with image ruby:2.1 ...
@@ -229,8 +213,57 @@ It looks like [there's](https://hub.docker.com/_/mysql/) [a lot of](https://hub.
 
 ## Dealing with complex scenarios
 
-So far so good. However, let's suppose we have just got a new client, who wants to get `.tar` instead of `.gz`<br/>
-Since CI does the whole work, let's just add one more job to it:
+So far so good. However, let's suppose we have just got a new client, who wants to get `.iso` instead of `.gz`<br/>
+Since CI does the whole work, we can just add one more job to it.
+Iso images can be created using `mkisofs` command. Here's how our config should look like:
+
+```yaml
+stages:
+  - compile
+  - test
+  - pack
+
+# ... "compile" and "test" jobs are skipped here for compactness
+
+pack:gz:
+  stage: pack
+  script: cat compiled.txt | gzip > packed.gz
+  artifacts:
+    paths:
+    - packed.gz
+
+pack:iso:
+  stage: pack
+  script:
+  - mkisofs -o ./packed.iso ./compiled.txt
+  artifacts:
+    paths:
+    - packed.iso
+```
+
+But `mkisofs` is not included in the `alpine` image, so we need to install it first.
+
+## Dealing with missing software/packages
+
+According to [Alpine linux website](https://pkgs.alpinelinux.org/contents?file=mkisofs&path=&name=&branch=&repo=&arch=x86) `mkisofs` is a part of `xorriso` and `cdrkit` packages. These are some magic commands, we need to run to install a package:
+
+```bash
+echo "ipv6" >> /etc/modules  # enable networking
+apk update                   # update packages list
+apk add xorriso              # install package
+```
+
+For CI theese are just like any other commandes. The full list of commands we need to pass to `script` section should look like this:
+
+```yml
+script:
+- echo "ipv6" >> /etc/modules
+- apk update
+- apk add xorriso
+- mkisofs -o ./packed.iso ./compiled.txt
+```
+
+However, to make it semantically correct let's put commands related to package installation to `before_script`. Our final version of `.gitlab-ci.yml`:
 {: .step}
 
 ```yaml
@@ -260,16 +293,23 @@ pack:gz:
     paths:
     - packed.gz
 
-pack:tar:
+pack:iso:
   stage: pack
-  script: tar cf - compiled.txt > packed.tar
+  before_script:
+  - echo "ipv6" >> /etc/modules
+  - apk update
+  - apk add xorriso
+  script:
+  - mkisofs -o ./packed.iso ./compiled.txt
   artifacts:
     paths:
-    - packed.tar
+    - packed.iso
 ```
 
-Wow, it looks like we have a pipeline here:
+Wow, it looks like we have just created a pipeline:
 ![](/images/blogimages/ci-logic/pipeline.png)
+
+We have three consequent stages, but jobs inside `pack` stage are running in parallel.
 
 It is evident, why we need a duplication like this:
 
@@ -277,9 +317,6 @@ It is evident, why we need a duplication like this:
 test:
   stage: test
 ```
-
-Jobs named "pack:gz" and "pack:tar" are running in parallel as parts of stage "pack".
-
 
 ## Summary
 
