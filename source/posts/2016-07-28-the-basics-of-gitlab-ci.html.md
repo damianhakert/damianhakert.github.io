@@ -253,7 +253,7 @@ apk update                   # update packages list
 apk add xorriso              # install package
 ```
 
-For CI theese are just like any other commandes. The full list of commands we need to pass to `script` section should look like this:
+For CI these are just like any other commandes. The full list of commands we need to pass to `script` section should look like this:
 
 ```yml
 script:
@@ -339,7 +339,7 @@ Below is the last section containing a more formal description of terms and keyw
 | [artifacts:expire_in](http://docs.gitlab.com/ce/ci/yaml/README.html#artifactsexpire_in) | Used to delete uploaded artifacts after the specified time |
 | [pipelines](http://docs.gitlab.com/ee/ci/pipelines.html#pipelines) | A pipeline is a group of builds that get executed in stages (batches) |
 
-Don't miss theese GitLab CI stories as well:
+Don't miss these GitLab CI stories as well:
 
 - [Migrating from Jenkins to GitLab CI](https://blog.captaintrain.com/12703-building-on-gitlab-ci)
 - [Decreasing build time from 8 minutes 33 seconds to just 10 seconds](http://beenje.github.io/blog/posts/gitlab-ci-and-conda/)
