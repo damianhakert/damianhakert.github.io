@@ -51,6 +51,7 @@ for further details on that process.
 * [ ] @wilson: Remove access to company credit card.
 * [ ] People Ops: Remove from Beamy
 * [ ] People Ops: Remove team member from the GitLab availability calendar.
+* [ ] People Ops: Remove team member from the GitLab Birthdays calendar. 
 * [ ] People Ops: Remove team member from team call invitation; and remove from Team Call Agenda.
 * [ ] Ernst/Paul: Remove team member from HelloSign, if applicable.
 * [ ] People Ops: Remove team member from map / Sundial.
@@ -70,4 +71,4 @@ for further details on that process.
 1. Log in to Sundial using the link in the "Private Sundial URL" Google Doc  
 1. Go to timezone view in the top right corner
 1. Hover over the team member's name that you want to remove
-1. Make sure you are in list view at this point, and then click the "x" to remove the team member 
+1. Make sure you are in list view at this point, and then click the "x" to remove the team member
