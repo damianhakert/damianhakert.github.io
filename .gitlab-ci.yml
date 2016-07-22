@@ -9,6 +9,7 @@ cache:
     - vendor
 
 lint:
+  image: ruby:2.1
   stage: test
   script:
     - bundle exec rake lint
