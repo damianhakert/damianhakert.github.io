@@ -27,12 +27,12 @@ cat file1.txt file2.txt | grep -q "Hello world"
 
 The problem is that there are ten developers in the team, and, you know, human factor can hit hard.
 
-It already happened once in last four month, so you decided to solve the problem once and for all. Luckily your code is already on GitLab, and you remember that there is [built-in CI system](https://about.gitlab.com/gitlab-ci/). Moreover, you have heard at a conference, that people use CI to run tests...
+It already happened once in last four month, so you decided to solve the problem once and for all. Luckily, your code is already on GitLab, and you remember that there is [built-in CI system](https://about.gitlab.com/gitlab-ci/). Moreover, you have heard at a conference, that people use CI to run tests...
 
 
 ## Run our first test inside CI
 
-Five minutes to find and read the docs, and it seems like all we need is these two lines of code in file called `.gitlab-ci.yml` [(?)](http://docs.gitlab.com/ce/ci/yaml/README.html) :
+Five minutes to find and read the docs, and it seems like all we need is these two lines of code in a file called `.gitlab-ci.yml` [(?)](http://docs.gitlab.com/ce/ci/yaml/README.html) :
 {: .step}
 
 ```yaml
