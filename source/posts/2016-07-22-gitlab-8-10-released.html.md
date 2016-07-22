@@ -198,10 +198,11 @@ for Docker, F#, IDL, and improved highlighting for praat,
 JavaScript, Java, C#, Shell, Liquid, Tulip, Markdown, Ruby, Python and YAML!
 
 You can now also override language guessing with a `.gitattributes` entry.
-[See the documentation for details][override-docs].
+
+> [See the documentation for details][override-docs].
 
 [changelog-rouge]: https://github.com/jneen/rouge/blob/master/CHANGELOG.md
-[override-docs]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/project/highlighting.md
+[override-docs]: http://docs.gitlab.com/ce/user/project/highlighting.html
 [rouge]: https://github.com/jneen/rouge
 
 ## Disable Access Request
