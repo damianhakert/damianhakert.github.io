@@ -1,6 +1,6 @@
 ---
-title: "GitLab CI: Learn how to run jobs consequentially, in parallel, or build your own custom pipeline"
-date: 2016-07-21
+title: "GitLab CI: Learn how to run jobs consequentially, in parallel, or build custom pipeline"
+date: 2016-07-28
 categories: tutorial
 author: Ivan Nemytchenko
 author_twitter: inemation
