@@ -12,6 +12,9 @@ The railway world is a fast-moving environment. To bring you the latest improvem
 
 Did you always wonder how we manage building and deploying all of this without a jolt? Then read-on: here is a technical peek into our engineering process.
 
+**Note:** this post tells the customer story of [Captain Train][cap].
+{: .note}
+
 <!-- more -->
 
 ## From Jenkins to GitLab CI
