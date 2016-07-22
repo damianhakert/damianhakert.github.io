@@ -52,7 +52,7 @@ In general, the People Operations team and processes are here as a service to th
 
 ### Letter of Employment<a name="letter-of-employment"></a>
 
-If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. For example, monthly fee, salary, start date, title, etc. People ops will send you the letter once it is completed. 
+If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. For example, monthly fee, salary, start date, title, etc. People ops will send you the letter once it is completed.
 
 ## Team Directory<a name="directory"></a>
 
@@ -214,28 +214,28 @@ Add a New Division
 
 ### Process Referral Bonus<a name="referral-bonus"></a>
 
-If applicable, People Ops will process a [referral bonus](/handbook/#referral-bonuses). 
+If applicable, People Ops will process a [referral bonus](/handbook/#referral-bonuses).
 
 #### Document a future bonus in BambooHR
 
-1. Go to the employee who referred the new team member in BambooHR 
+1. Go to the employee who referred the new team member in BambooHR
 1. Under the Jobs Tab click Update Bonus
-1. Add the date the bonus will be paid if all conditions are met (90 days from hire of new employee) 
+1. Add the date the bonus will be paid if all conditions are met (90 days from hire of new employee)
 1. Enter the bonus amount of $1,000
 1. Enter the bonus type to be a Referral Bonus
-1. Enter a note stating that this is a future bonus (this will be changed once the bonus has been paid) 
+1. Enter a note stating that this is a future bonus (this will be changed once the bonus has been paid)
 
 #### Add a note to the new team member in BambooHR
 
-We want to add a note to the new employee of who referred them, so that if they receive a discretionary bonus within the first six months, the referral also receives a discretionary bonus. 
+We want to add a note to the new employee of who referred them, so that if they receive a discretionary bonus within the first six months, the referral also receives a discretionary bonus.
 
 1. Go to the notes page under the new employee
 1. Add a note of who referred this team member
 
 #### Notification to Process a Bonus
 
-BambooHR will send an email to PeopleOps on the date that the referral bonus should be paid for [processing](/handbook/people-operations/#using-trinet) through the applicable payroll system. If the team member is a contractor, send them an email (and cc Finance) to invoice the bonus. 
-Once the bonus has been processed, change the note in BambooHR to denote the referral bonus has been paid. 
+BambooHR will send an email to PeopleOps on the date that the referral bonus should be paid for [processing](/handbook/people-operations/#using-trinet) through the applicable payroll system. If the team member is a contractor, send them an email (and cc Finance) to invoice the bonus.
+Once the bonus has been processed, change the note in BambooHR to denote the referral bonus has been paid.
 
 ### Asset Tracking<a name="asset-tracking"></a>
 
@@ -263,6 +263,8 @@ and click the dropdown triangle. Select calendar settings and go to "Share this
 calendar" in the top of the window. Enter the GitLab email address and scroll
 down to set the permission setting to "make changes to events" Then save in the
 lower left corner.
+- **Add team member to the GitLab Birthdays calendar**
+Go to your calendar window, under my calendar select the GitLab Birthdays calendar. Go to the team member's birthdate and add an all day event with their name as the title. Change the setting to repeat annually. Share this calendar with the new team member.  
 - **Add blank entry to team page**<a name="blank-entry"></a>
 Login to [Gitlab.com](www.gitlab.com) and go to the www-gitlab-com project. In
 the left menu click "Files," select "data," and choose the file called team.yml. In the top right
@@ -289,7 +291,7 @@ meetings and "send" out the invitation.
 To celebrate a new team member joining our team, send an email with $50 swag credits for our [Swag Store](https://gitlab.mybrightsites.com/), as noted in the onboarding issue. You can get the codes for the swag by finding the Google doc titled "Tshirt and stickers coupons 2.12.16".
 - **Order business cards**
 Go BambooHR and enter the info needed for the Business Cards. This is found by clicking on More, then selecting Business Cards. Select Update Business Card Requests and fill out all the pertinent fields.
-Log in with your specific credentials to [MOO](https://www.moo.com/m4b/account/login). Select Create New Packs. Create a blank pack, then go to GitLab packs and select the newly created default. Edit the Title to be the team member's name. Click on the preview to edit the name, job title, email, phone number, twitter handle, and location. Once you have made sure all of the information is correct on the business card you can select how many cards you would like to order (standard is 50) and add the cards to the cart. Enter in the team member's shipping address. Place the order with the applicable shipping and billing addresses. 
+Log in with your specific credentials to [MOO](https://www.moo.com/m4b/account/login). Select Create New Packs. Create a blank pack, then go to GitLab packs and select the newly created default. Edit the Title to be the team member's name. Click on the preview to edit the name, job title, email, phone number, twitter handle, and location. Once you have made sure all of the information is correct on the business card you can select how many cards you would like to order (standard is 50) and add the cards to the cart. Enter in the team member's shipping address. Place the order with the applicable shipping and billing addresses.
 - **Add team member to Expensify (only with employees)**<a name="add-expensify"></a>
 Login to [Expensify](https://www.expensify.com/signin) and go to "Admin" in the top menu. Select the right policy based upon the entity that employs the new team member. Select "People" in the left menu. Select "Invite" and add the GitLab email. Edit the message to be sent for the employee. Click "invite".
 - **Add team member to Beamy**<a name="add-beamy"></a>
@@ -303,8 +305,8 @@ Lastly assign the department in which the new team member is working.
 
 ### Birthday Swag <a name="birthday-swag"></a>
 
-BambooHR should send an email to People Ops the day before and the day of a team member's birthday. Celebrate by sending the team member a $25 swag code, and free shipping. Swag codes can be found in the google doc titled "Tshirts and Stickers Coupons." 
-Include the link to the [swag store](https://gitlab.mybrightsites.com/) in your email. Also, make sure to post on the #general channel on Slack so all team members can help them celebrate. 
+BambooHR should send an email to People Ops the day before and the day of a team member's birthday. Celebrate by sending the team member a $25 swag code, and free shipping. Swag codes can be found in the google doc titled "Tshirts and Stickers Coupons."
+Include the link to the [swag store](https://gitlab.mybrightsites.com/) in your email. Also, make sure to post on the #general channel on Slack so all team members can help them celebrate.
 
 ### Administrative details of benefits for US-based employees <a name="benefits-us"></a>
 
@@ -448,7 +450,7 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Under Other Earnings, select the BNO code and enter the amount of the bonus.
 1. **Never** hit submit. (It will cause the entire payroll to be paid the next day)
 1. Click Save when done.
-Note: Make sure to file all appropriate documentation in BambooHR. Also, if the employee has been employed for less than six months, check the notes section in BambooHR to see if they were referred by anyone at GitLab. If so, process a discretionary bonus for that team member as well. 
+Note: Make sure to file all appropriate documentation in BambooHR. Also, if the employee has been employed for less than six months, check the notes section in BambooHR to see if they were referred by anyone at GitLab. If so, process a discretionary bonus for that team member as well.
 
 
 ### Using RingCentral<a name="ringcentral"></a>

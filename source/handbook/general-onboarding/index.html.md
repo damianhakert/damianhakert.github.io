@@ -56,6 +56,7 @@ with Git and the GitLab workflow.
 * [ ] People Ops: file photo ID in BambooHR profile under "Documents"--> "Verification Docs"
 * [ ] People Ops: list any stock options that were part of the offer in BambooHR profile under "Benefits"--> "Stock Options"
 * [ ] People Ops: Give team member access to the GitLab availability calendar
+* [ ] People Ops: Add team member's birthday to the GitLab Birthdays calendar
 * [ ] People Ops: Add new team member to the next monthly GitLab 101 call
 * [ ] People Ops: Invite to team meeting, and re-arrange the days on which team members speak in the Team Call Agenda.
 * [ ] People Ops: Add to phishing testing platform
