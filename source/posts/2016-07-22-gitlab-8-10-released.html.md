@@ -247,8 +247,9 @@ issues and merge requests.
 
 ## Build Warnings
 
-When your CI pipeline passes, but there were some warnings, GitLab will now
-tell you in the related merge request:
+When your CI pipeline passes, but there were some warnings since you
+[allow some jobs to fail](http://docs.gitlab.com/ce/ci/yaml/README.html#allow_failure),
+GitLab will now tell you in the related merge request:
 
 ![Build warnings in GitLab 8.10](/images/8_10/warnings.png)
 
