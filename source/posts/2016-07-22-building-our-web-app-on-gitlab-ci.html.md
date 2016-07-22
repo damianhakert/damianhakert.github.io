@@ -92,13 +92,3 @@ _[Captain Train][cap], the European train ticketing company, makes buying train 
 [CI examples]: http://docs.gitlab.com/ce/ci/quick_start/README.html
 [merge]: /images/blogimages/cross-post-gitlab-ci/merge-when-build-succeeds.png
 [pipelines]:/images/blogimages/cross-post-gitlab-ci/pipelines.png
-
-<style>
-  img.shadow {
-    -webkit-box-shadow: 0 4px 18px 0 rgba(51, 51, 51, 0.1), 0 6px 20px 0 rgba(51, 51, 51, 0.09);
-    -moz-box-shadow: 0 4px 18px 0 rgba(51, 51, 51, 0.1), 0 6px 20px 0 rgba(51, 51, 51, 0.09);
-    box-shadow: 0 4px 18px 0 rgba(51, 51, 51, 0.1), 0 6px 20px 0 rgba(51, 51, 51, 0.09);
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
-</style>
