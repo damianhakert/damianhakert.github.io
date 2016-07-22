@@ -141,6 +141,7 @@ pack:
 Let's take a look at our artifacts:
 
 ![](/images/blogimages/ci-logic/clean-artifacts.png)
+{TODO: make new screenshot!}
 
 Hmm, we do not need that "compile" file to be downloadable. Let's make our temporary artifactas expireable by setting <nobr>`expire_in: 20 minutes`</nobr>. It might look like a cheat, but it works and serves the purpose:
 {: .step}
@@ -170,6 +171,7 @@ However, it appears our builds are still slow. Let's look inside the logs. Wait,
 Using Docker executor with image ruby:2.1 ...
 Pulling docker image ruby:2.1 ...
 ```
+{TODO: replace with screenshot?}
 
 Why do we need Ruby at all? Oh, GitLab uses Docker images to run our builds, and [by default](https://about.gitlab.com/gitlab-com/settings/) it uses image [`ruby:2.1`](https://hub.docker.com/_/ruby/). This image for sure contains many packages we do not need. After a minute of googling figuring out that there's an image called [`alpine`](https://hub.docker.com/_/alpine/) which is almost blank Linux image.
 
@@ -306,21 +308,13 @@ pack:iso:
     - packed.iso
 ```
 
-Wow, it looks like we have just created a pipeline:
+Wow, it looks like we have just created a pipeline! We have three consequent stages, but jobs `pack:gz` and `pack:iso` inside `pack` stage are running in parallel:
+
 ![](/images/blogimages/ci-logic/pipeline.png)
-
-We have three consequent stages, but jobs inside `pack` stage are running in parallel.
-
-It is evident, why we need a duplication like this:
-
-```yaml
-test:
-  stage: test
-```
 
 ## Summary
 
-There's much more to cover but let's stop here for now. I hope you liked this short story. All examples were made trivial intentionally, so that you could learn concepts of GitLab CI not being distracted by unfamiliar technology stack. Let's wrap up, what we have learned:
+There's much more to cover but let's stop here for now. I hope you liked this short story. All examples were made trivial intentionally, so that you could learn concepts of GitLab CI not being distracted by unfamiliar technology stack. Let's wrap up what we have learned:
 
 1. In order to delegate some work to GitLab CI you should define one or more [jobs](http://docs.gitlab.com/ce/ci/yaml/README.html#jobs) in `.gitlab-ci.yml`
 2. Job should have a name, and it is your responsibility to come up with a good name
@@ -344,4 +338,8 @@ Below is the last section containing more formal description of terms and keywor
 | [artifacts:expire_in](http://docs.gitlab.com/ce/ci/yaml/README.html#artifactsexpire_in) | Used to delete uploaded artifacts after the specified time |
 | [pipelines](http://docs.gitlab.com/ee/ci/pipelines.html#pipelines) | A pipeline is a group of builds that get executed in stages (batches) |
 
-Let us know in the comments if you want to see more posts like this.
+What else to read:
+
+- [Building our web-app on GitLab-CI](https://blog.captaintrain.com/12703-building-on-gitlab-ci)
+- [GitLab CI and conda](http://beenje.github.io/blog/posts/gitlab-ci-and-conda/)
+
