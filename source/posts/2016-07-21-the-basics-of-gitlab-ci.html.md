@@ -243,11 +243,11 @@ pack:iso:
     - packed.iso
 ```
 
-But `mkisofs` is not included in the `alpine` image, so we need to install it first.
+However, `mkisofs` is not included in the `alpine` image, so we need to install it first.
 
 ## Dealing with missing software/packages
 
-According to [Alpine linux website](https://pkgs.alpinelinux.org/contents?file=mkisofs&path=&name=&branch=&repo=&arch=x86) `mkisofs` is a part of `xorriso` and `cdrkit` packages. These are some magic commands, we need to run to install a package:
+According to [Alpine linux website](https://pkgs.alpinelinux.org/contents?file=mkisofs&path=&name=&branch=&repo=&arch=x86) `mkisofs` is a part of `xorriso` and `cdrkit` packages. These are some magic commands that we need to run to install a package:
 
 ```bash
 echo "ipv6" >> /etc/modules  # enable networking
@@ -314,15 +314,15 @@ Wow, it looks like we have just created a pipeline! We have three consequent sta
 
 ## Summary
 
-There's much more to cover but let's stop here for now. I hope you liked this short story. All examples were made trivial intentionally, so that you could learn concepts of GitLab CI not being distracted by unfamiliar technology stack. Let's wrap up what we have learned:
+There's much more to cover but let's stop here for now. I hope you liked this short story. All examples were made trivial intentionally so that you could learn concepts of GitLab CI not being distracted by unfamiliar technology stack. Let's wrap up what we have learned:
 
-1. In order to delegate some work to GitLab CI you should define one or more [jobs](http://docs.gitlab.com/ce/ci/yaml/README.html#jobs) in `.gitlab-ci.yml`
+1. To delegate some work to GitLab CI you should define one or more [jobs](http://docs.gitlab.com/ce/ci/yaml/README.html#jobs) in `.gitlab-ci.yml`
 2. Job should have a name, and it is your responsibility to come up with a good name
 3. Every job contains set of rules & instructions for GitLab CI, defined by [special keywords](#keywords)
 4. Jobs can run consequently, in parallel, or you can define custom pipeline.
-5. You can pass files between jobs and store them in build artifacts, so that they could be downloaded from interface.
+5. You can pass files between jobs and store them in build artifacts so that they could be downloaded from the interface.
 
-Below is the last section containing more formal description of terms and keywords we used, as well as links to the detailed description of GitLab CI functionality.
+Below is the last section containing a more formal description of terms and keywords we used, as well as links to the detailed description of GitLab CI functionality.
 
 
 ### Keywords description & links to the documentation
@@ -342,4 +342,3 @@ What else to read:
 
 - [Building our web-app on GitLab-CI](https://blog.captaintrain.com/12703-building-on-gitlab-ci)
 - [GitLab CI and conda](http://beenje.github.io/blog/posts/gitlab-ci-and-conda/)
-
