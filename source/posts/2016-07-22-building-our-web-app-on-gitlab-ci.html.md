@@ -5,7 +5,7 @@ author_twitter: pmorinerie
 categories: GitLab CI
 image_title: '/images/blogimages/cross-post-gitlab-ci/building-our-web-app-on-gitlab-ci-cover.jpg'
 twitter_image: '/images/tweets/building-our-web-app-on-gitlab-ci.png'
-description: "Our experience migrating from Jenkins to GitLab CI for building our web-app."
+description: "5 reasons why Captain Train migrated from Jenkins to GitLab CI"
 ---
 
 The railway world is a fast-moving environment. To bring you the latest improvements and fixes as quick as possible, Captain Train’s web-app is often updated, sometimes several times per day.
@@ -72,12 +72,16 @@ Our Android team also migrated their pipeline, and are now building the integrat
 
 For further reading, you can find on the official website a nice [overview of GitLab CI features][GitLab CI], and some [examples of `.gitlab-ci.yml` files][CI examples].
 
-_This post was originally published by [Captain Train]._
+_This post was originally [published by Captain Train][cap-post]._
+
+_[Captain Train][cap], the European train ticketing company, makes buying train tickets faster, easier, and ad-free. Their goal is to revolutionize the purchase of train tickets and their doing it by engineering the best user-experience._
+{: .note}
 
 <!-- identifiers -->
 
 [build]: /images/blogimages/cross-post-gitlab-ci/build-passed.png
-[Captain Train]: https://blog.captaintrain.com/12703-building-on-gitlab-ci
+[cap]: https://www.captaintrain.com
+[cap-post]: https://blog.captaintrain.com/12703-building-on-gitlab-ci
 [Jenkins]: https://jenkins.io/
 [GitLab]: https://about.gitlab.com
 [GitLab CI]: https://about.gitlab.com/gitlab-ci/
