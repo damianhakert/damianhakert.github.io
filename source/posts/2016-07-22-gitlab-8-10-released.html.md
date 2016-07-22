@@ -229,14 +229,14 @@ adding many new and updated emoji!
 You can now block certain domains from signing up by adding them to the
 domain blacklist. Find the settings in the admin.
 
-> [Read how to blacklist domains in our docs](http://docs.gitlab.com/ce/administration/access_restrictions.html#sts=Blacklist email domains)
+> [Read how to blacklist domains in our docs](http://docs.gitlab.com/ce/user/admin_area/settings/sign_up_restrictions.md#blacklist-email-domains)
 
 ## Toggle Git Access Protocols
 
 You can now configure Git access controls: enabling or disabling SSH, HTTP or
 both.
 
-> [Read how to toggle protocols in our docs](http://docs.gitlab.com/ce/administration/access_restrictions.html#sts=Enabled Protocol)
+> [Read how to toggle protocols in our docs](http://docs.gitlab.com/ce/user/admin_area/settings/visibility_and_access_controls.md#enabled-git-access-protocols)
 
 ## Inline Videos now supported!
 
