@@ -52,7 +52,7 @@ In general, the People Operations team and processes are here as a service to th
 
 ### Letter of Employment<a name="letter-of-employment"></a>
 
-If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. For example, monthly fee, salary, start date, title, etc. People ops will send you the letter once it is completed. 
+If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. For example, monthly fee, salary, start date, title, etc. People ops will send you the letter once it is completed.
 
 ## Team Directory<a name="directory"></a>
 
@@ -214,28 +214,28 @@ Add a New Division
 
 ### Process Referral Bonus<a name="referral-bonus"></a>
 
-If applicable, People Ops will process a [referral bonus](/handbook/#referral-bonuses). 
+If applicable, People Ops will process a [referral bonus](/handbook/#referral-bonuses).
 
 #### Document a future bonus in BambooHR
 
-1. Go to the employee who referred the new team member in BambooHR 
+1. Go to the employee who referred the new team member in BambooHR
 1. Under the Jobs Tab click Update Bonus
-1. Add the date the bonus will be paid if all conditions are met (90 days from hire of new employee) 
+1. Add the date the bonus will be paid if all conditions are met (90 days from hire of new employee)
 1. Enter the bonus amount of $1,000
 1. Enter the bonus type to be a Referral Bonus
-1. Enter a note stating that this is a future bonus (this will be changed once the bonus has been paid) 
+1. Enter a note stating that this is a future bonus (this will be changed once the bonus has been paid)
 
 #### Add a note to the new team member in BambooHR
 
-We want to add a note to the new employee of who referred them, so that if they receive a discretionary bonus within the first six months, the referral also receives a discretionary bonus. 
+We want to add a note to the new employee of who referred them, so that if they receive a discretionary bonus within the first six months, the referral also receives a discretionary bonus.
 
 1. Go to the notes page under the new employee
 1. Add a note of who referred this team member
 
 #### Notification to Process a Bonus
 
-BambooHR will send an email to PeopleOps on the date that the referral bonus should be paid for [processing](/handbook/people-operations/#using-trinet) through the applicable payroll system. If the team member is a contractor, send them an email (and cc Finance) to invoice the bonus. 
-Once the bonus has been processed, change the note in BambooHR to denote the referral bonus has been paid. 
+BambooHR will send an email to PeopleOps on the date that the referral bonus should be paid for [processing](/handbook/people-operations/#using-trinet) through the applicable payroll system. If the team member is a contractor, send them an email (and cc Finance) to invoice the bonus.
+Once the bonus has been processed, change the note in BambooHR to denote the referral bonus has been paid.
 
 ### Asset Tracking<a name="asset-tracking"></a>
 
@@ -303,8 +303,8 @@ Lastly assign the department in which the new team member is working.
 
 ### Birthday Swag <a name="birthday-swag"></a>
 
-BambooHR should send an email to People Ops the day before and the day of a team member's birthday. Celebrate by sending the team member a $25 swag code, and free shipping. Swag codes can be found in the google doc titled "Tshirts and Stickers Coupons." 
-Include the link to the [swag store](https://gitlab.mybrightsites.com/) in your email. Also, make sure to post on the #general channel on Slack so all team members can help them celebrate. 
+BambooHR should send an email to People Ops the day before and the day of a team member's birthday. Celebrate by sending the team member a $25 swag code, and free shipping. Swag codes can be found in the google doc titled "Tshirts and Stickers Coupons."
+Include the link to the [swag store](https://gitlab.mybrightsites.com/) in your email. Also, make sure to post on the #general channel on Slack so all team members can help them celebrate.
 
 ### Administrative details of benefits for US-based employees <a name="benefits-us"></a>
 
@@ -448,7 +448,7 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. Under Other Earnings, select the BNO code and enter the amount of the bonus.
 1. **Never** hit submit. (It will cause the entire payroll to be paid the next day)
 1. Click Save when done.
-Note: Make sure to file all appropriate documentation in BambooHR. Also, if the employee has been employed for less than six months, check the notes section in BambooHR to see if they were referred by anyone at GitLab. If so, process a discretionary bonus for that team member as well. 
+Note: Make sure to file all appropriate documentation in BambooHR. Also, if the employee has been employed for less than six months, check the notes section in BambooHR to see if they were referred by anyone at GitLab. If so, process a discretionary bonus for that team member as well.
 
 
 ### Using RingCentral<a name="ringcentral"></a>
@@ -490,13 +490,15 @@ Involuntary termination of any team member is never easy. We've created some gui
 Ideally, the manager and the team member have walked through the guidelines on [underperformance](/handbook/underperformance) before reaching this point.
 
 1. Manager: reach out to People Operations for assistance. People Ops will ask about what the performance issues have been, how they have been attempted to be addressed, and will then prepare for the termination.
+1. People Ops: with manager and/or CEO determine if a [separation and release of claims agreement](#separation-agreement) is appropriate. If so, have it prepared prior to the call.
 1. Manager and People Ops: discuss best mode of communicating the bad news to the team member. This discussion can happen via a private chat-channel, but it is best to be done via a video hangout. Set up a private chat-channel in any case, since this is also useful to have during the eventual call with the affected team member.
 1. Manager and People Ops: Decide who will handle which part of the conversation, and if desired, practice it. It is strongly advised to have someone from People Ops on the call when the bad news is delivered.
 1. Manager and People Ops: Decide what offboarding actions need to be taken _before_ the call (e.g. revoke admin permissions), or _during_ the call (e.g. revoke Slack and Gmail access), and which ones can wait until later (see the [offboarding checklist](/handbook/offboarding)). Make sure someone with the necessary admin privileges is on hand (in the private chat-channel) to assist with those sensitive offboarding steps that should occur relatively quickly. Do not create the offboarding issue until _after_ the call, since even confidential issues are still visible to anyone in the team.
 1. Manager: Set up a call with the team member in question. Make a separate private calendar event to invite the People Ops representative.
-1. On the call: deliver the bad news up-front, do not beat around the bush and prolong the inevitable pain for everyone involved. A sample leading sentence can be "Thanks for joining the call ___ . Unfortunately, the reason I wanted to speak with you, is because we have decided that we have to let you go and end your employment / contract with GitLab." At this point, hand over the call to People Ops to continue. People Ops explains what led to this decision and points to the process that was followed to reach this decision. People Ops to make it clear that the decision is final, but also to genuinely listen to their side of the story since there may be useful lessons in what they say for the rest of the team e.g. regarding hiring and vetting practices.
+1. On the call: deliver the bad news up-front, do not beat around the bush and prolong the inevitable pain for everyone involved. A sample leading sentence can be "Thanks for joining the call ___ . Unfortunately, the reason I wanted to speak with you, is because we have decided that we have to let you go and end your employment / contract with GitLab." At this point, hand over the call to People Ops to continue. People Ops explains what led to this decision and points to the process that was followed to reach this decision. People Ops will make it clear that the decision is final, but will also genuinely listen to their side of the story since there may be useful lessons in what they say for the rest of the team e.g. regarding hiring and vetting practices.
 1. People Ops: Make sure to communicate the [practical points](#offboarding-points) from the termination memo outlined below.
 1. People Ops: Create the [offboarding checklist issue](/handbook/offboarding), and go from there.
+1. People Ops: If appropriate (default is that it is appropriate), send a [termination memo](#termination-memo).
 
 
 ### Points to cover during the offboarding call, with sample wording<a name="offboarding-points"></a>
@@ -514,8 +516,26 @@ The following points need to be covered for US-based employees:
 1. PPACA: "You may also be eligible under the Patient Protection and Affordable Care Act (“PPACA”) for subsidized health care options via the marketplace. If you are interested it is important that you sign up with the market place well before the 15th of the month to have coverage for the following month”.
 1. HIPAA: " under the Health Insurance Portability and Accountability Act of 1996 (HIPAA), if you need a certificate of credible coverage please download it from your current carrier's online portal or request it from TriNet”.
 1. Unemployment insurance: "it is up to your state's labor agency (in CA: EDD) to decide if you are eligible for unemployment insurance”.
-1. Please remember to keep TriNet informed if you move I want to be sure your W-2 gets to you at the end of the year. You may also contact X at GitLab (provide phone number and email address) with any other questions that you may have" (consider inviting them to contact you at anytime for any reason)
+1. Please remember to keep TriNet informed: "if you move I want to be sure your W-2 gets to you at the end of the year. You may also contact X at GitLab (provide phone number and email address) with any other questions that you may have" (consider inviting them to contact you at anytime for any reason)
 
 ### Sample termination memo
+<a name="termination-memo"></a>
 
-If appropriate (to be determined by conversation with the manager, CEO, and people ops), use the following [termination memo](https://docs.google.com/document/d/11Uk8p4VJrLnDD5IAtbTwswPUUEnmeEOazS1kJMhOu70/edit?usp=sharing) and [Separation and Release of Claims Agreement](https://docs.google.com/document/d/17Dim1GC_LV0XF2DRzYNVRFrKlNE80fuXxAjP-jou8Yw/edit?usp=sharing), which are provided here as an openly viewable Google Doc, but of course needs to be personalized and tailored to each individual's situation. As written, it is applicable to US-based employees only.  
+If appropriate (to be determined by conversation with the manager, CEO, and people ops), use the following [termination memo](https://docs.google.com/document/d/11Uk8p4VJrLnDD5IAtbTwswPUUEnmeEOazS1kJMhOu70/edit?usp=sharing) which is provided here as an openly viewable Google Doc, but of course needs to be personalized and tailored to each individual's situation. As written, it is applicable to US-based employees only.  
+
+### Separation and Release of Claims Agreements
+<a name="separation-agreement"></a>
+
+and [Separation and Release of Claims Agreement](https://docs.google.com/document/d/17Dim1GC_LV0XF2DRzYNVRFrKlNE80fuXxAjP-jou8Yw/edit?usp=sharing),
+
+If appropriate (currently only in the case of US based employees, and to be determined by conversation with the manager, CEO, and people ops) prepare a Separation and Release of Claims Agreement following the steps outlined here. All of these steps are done by People Ops unless specified differently.
+
+1. Send an email to Anne (GitLab HR legal counsel) to loop her in that you will be using a separation agreement to offer severance pay (this is a courtesy and will also keep her informed in the case reversed action from the ex-team member). In the email, confirm whether that this is an involuntary termination.
+1. Prepare the agreement.
+   - For team members over 40 years of age, use the [over 40 template](https://docs.google.com/document/d/1QhImH95nQk-Obpw_L81SrBeH89mZz5BkWUnG9BrOK8M/edit?usp=sharing)
+   - For team members under the age of 40, use the [under 40 template](https://docs.google.com/document/d/1E7qki9nHHbhRZKbIQp4E8WgK_Tn35UiW_hBO2dfNEgk/edit?usp=sharing)
+
+Additional notes:<br>
+1. Separation pay is not paid until the ex-team member signs the document and the revocation period has passed.
+1. Make sure you understand the rules for over 40
+1. You must use language in your exit meeting that is in no way forceful of the ex-team member to sign the agreement. Use phrasing such as “if you choose to sign”; “you have a right to have legal council review this document before your sign”, etc.
