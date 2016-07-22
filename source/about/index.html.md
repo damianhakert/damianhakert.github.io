@@ -119,12 +119,15 @@ The features we plan to build for EE are shared on our [direction page](https://
 When someone does contribute a feature to CE that is already in EE we weigh a couple of factors in that decision:
 
 1. What is the quality of the submitted code?
-1. Is it complete and does it meet the criteria of the [definition of done](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#definition-of-done)?
+1. Is it a complete replacement of the EE functionality?
+1. Does it meet the criteria of the [definition of done](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#definition-of-done)?
 1. Is it more relevant for organizations that have more than 100 users?
 1. Did the person or organization submitting this contribute to GitLab before?
-1. Is it something that many of our existing customers choose GitLab Enterprise Edition for or not?
-1. Is it relevant for running a large open forge?
+1. Is it something that many of our existing customers choose GitLab Enterprise Edition for?
+1. Is it relevant for running a large open source forge?
 1. Is it an original work or based on the EE code?
+
+We'll weight all factors and you can judge our stewardship of CE based on the outcome. So far (July 22, 2016) we had only two cases, one had low code quality and the other one copied the EE code down to the last space.
 
 In case we're not sure, we'll consult with the [core team](https://about.gitlab.com/core-team/) to reach a conclusion.
 
