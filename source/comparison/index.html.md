@@ -177,7 +177,7 @@ To ensure strict code review, you can require a specific number of approvals on 
 Easily migrate all repos and merge request data from your previous provider.
 
 ### Security and Policy enforcement
-Git Hooks and Audit logs and enhanced LDAP integration give you and the added security to meet the increasing requirements of compliance teams.
+Push Rules and Audit logs and enhanced LDAP integration give you and the added security to meet the increasing requirements of compliance teams.
 
 ### Issue Weights
 Manage issues using Agile practices by setting the weight of an issue.

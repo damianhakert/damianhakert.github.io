@@ -51,8 +51,8 @@
     link: http://doc.gitlab.com/ee/workflow/rebase_before_merge.html
   - description: Use fast-forward merges when possible
     link: http://doc.gitlab.com/ee/workflow/ff_merge.html
-  - description: Git hooks (commit message must mention an issue, no tag deletion, etc.)
-    link: http://doc.gitlab.com/ee/git_hooks/git_hooks.html
+  - description: Push Rules (commit message must mention an issue, no tag deletion, etc.)
+    link: http://docs.gitlab.com/ee/push_rules/push_rules.html
   - description: Webhooks at Project Level
     link: http://doc.gitlab.com/ee/web_hooks/web_hooks.html
     in_ce: true

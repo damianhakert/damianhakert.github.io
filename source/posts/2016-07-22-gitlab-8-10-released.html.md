@@ -350,6 +350,16 @@ configuration for GitLab. For Omnibus installations this will happen
 automatically, unless you configured your own 'Host' and 'X-Forwarded-Host'
 values in `gitlab.rb`.
 
+### Git Hooks renamed to Push Rules and Deprecated API
+
+We renamed Git Hooks to Push Rules and have deprecated the git hooks API,
+it will be removed with GitLab 9.0. We recommend you switch to using the
+[new push_rules API][push-rules] as soon as possible.
+
+> [Read about Push Rules in our docs](http://docs.gitlab.com/ee/push_rules/push_rules.html#sts=Push Rules)
+
+[push-rules]: http://docs.gitlab.com/ee/api/projects.html#sts=Push Rules (EE only)
+
 ### Default behavior
 
 *Note* We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
