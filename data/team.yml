@@ -1357,6 +1357,17 @@
   story:  |
           Joining August 1st
 
+- name: A.G
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
+  reports_to: Support Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 1st
+
 - name: F.A.
   locality:
   country:
@@ -1367,3 +1378,14 @@
   gitlab:
   story:  |
           Joining August 15th
+
+- name: A.M.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/people-ops-generalist/">People Operations Generalist</a>
+  reports_to: VP of Scaling
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining September 1st 
