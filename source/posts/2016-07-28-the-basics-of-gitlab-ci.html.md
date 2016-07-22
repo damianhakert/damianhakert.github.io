@@ -141,9 +141,8 @@ pack:
 Let's take a look at our artifacts:
 
 ![](/images/blogimages/ci-logic/clean-artifacts.png)
-{TODO: make new screenshot!}
 
-Hmm, we do not need that "compile" file to be downloadable. Let's make our temporary artifactas expireable by setting <nobr>`expire_in: 20 minutes`</nobr>. It might look like a cheat, but it works and serves the purpose:
+Hmm, we do not need that "compile" file to be downloadable. Let's make our temporary artifactas expireable by setting `expire_in: 20 minutes` . It might look like a cheat, but it works and serves the purpose:
 {: .step}
 
 ```yaml
@@ -165,13 +164,12 @@ Now our config looks pretty impressive:
 
 ## Learning what Docker image to use
 
-However, it appears our builds are still slow. Let's look at the logs. Wait, what is this?
+However, it appears our builds are still slow. Let's look at the logs.
 
-```
-Using Docker executor with image ruby:2.1 ...
-Pulling docker image ruby:2.1 ...
-```
-{TODO: replace with screenshot?}
+![](/images/blogimages/ci-logic/logs.png)
+
+Wait, what is this?
+
 
 Why do we need Ruby at all? Oh, GitLab uses Docker images to run our builds, and [by default](https://about.gitlab.com/gitlab-com/settings/) it uses image [`ruby:2.1`](https://hub.docker.com/_/ruby/). This image for sure contains many packages we do not need. After a minute of googling figuring out that there's an image called [`alpine`](https://hub.docker.com/_/alpine/) which is almost blank Linux image.
 
