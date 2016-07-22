@@ -6,6 +6,7 @@ categories: GitLab CI
 image_title: '/images/blogimages/cross-post-gitlab-ci/building-our-web-app-on-gitlab-ci-cover.jpg'
 twitter_image: '/images/tweets/building-our-web-app-on-gitlab-ci.png'
 description: "5 reasons why Captain Train migrated from Jenkins to GitLab CI"
+date: 2016-07-22 16:00
 ---
 
 The railway world is a fast-moving environment. To bring you the latest improvements and fixes as quick as possible, Captain Train’s web-app is often updated, sometimes several times per day.
