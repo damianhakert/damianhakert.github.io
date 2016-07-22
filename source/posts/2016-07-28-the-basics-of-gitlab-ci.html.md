@@ -41,10 +41,10 @@ test:
 ```
 
 Committing it, and hooray! Our build is successful:
-[![](/images/blogimages/ci-logic/success.png)](https://gitlab.com/inem/ci/builds/2346110)
+![](/images/blogimages/ci-logic/success.png)
 
 Lets change "world" to "Africa" in the second file and check what will happen:
-[![](/images/blogimages/ci-logic/failure.png)](https://gitlab.com/inem/ci/builds/2346623)
+![](/images/blogimages/ci-logic/failure.png)
 
 Build fails as expected!</br>
 Okay, we now have automated tests here!
