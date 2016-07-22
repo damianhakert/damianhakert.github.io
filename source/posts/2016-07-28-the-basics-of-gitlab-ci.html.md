@@ -165,7 +165,7 @@ Now our config looks pretty impressive:
 
 ## Learning what Docker image to use
 
-However, it appears our builds are still slow. Let's look inside the logs. Wait, what is this?
+However, it appears our builds are still slow. Let's look at the logs. Wait, what is this?
 
 ```
 Using Docker executor with image ruby:2.1 ...
@@ -265,7 +265,9 @@ script:
 - mkisofs -o ./packed.iso ./compiled.txt
 ```
 
-However, to make it semantically correct let's put commands related to package installation to `before_script`. Our final version of `.gitlab-ci.yml`:
+However, to make it semantically correct let's put commands related to package installation to `before_script`. Note that if you use `before_script` at the top level of a configuration, then related commands will run before all jobs.
+
+Our final version of `.gitlab-ci.yml`:
 {: .step}
 
 ```yaml
@@ -332,13 +334,14 @@ Below is the last section containing a more formal description of terms and keyw
 |---------------|--------------------|
 | [.gitlab-ci.yml](http://docs.gitlab.com/ce/ci/yaml/README.html#gitlab-ci-yml) | File containing all definitions of how your project should be built |
 | [script](http://docs.gitlab.com/ce/ci/yaml/README.html#script)        | Defines a shell script to be executed |
+| [before_script](http://docs.gitlab.com/ce/ci/yaml/README.html#before_script) | Used to define the command that should be run before all jobs |
 | [image](http://docs.gitlab.com/ce/ci/docker/using_docker_images.html#what-is-image) | Defines what docker image to use |
 | [stage](http://docs.gitlab.com/ce/ci/yaml/README.html#stages)         | Defines a build stage (default: `test`) |
 | [artifacts](http://docs.gitlab.com/ce/ci/yaml/README.html#artifacts)     | Define list of build artifacts |
 | [artifacts:expire_in](http://docs.gitlab.com/ce/ci/yaml/README.html#artifactsexpire_in) | Used to delete uploaded artifacts after the specified time |
 | [pipelines](http://docs.gitlab.com/ee/ci/pipelines.html#pipelines) | A pipeline is a group of builds that get executed in stages (batches) |
 
-What else to read:
+If you liked the story, read theese awesome blog posts as well:
 
-- [Building our web-app on GitLab-CI](https://blog.captaintrain.com/12703-building-on-gitlab-ci)
-- [GitLab CI and conda](http://beenje.github.io/blog/posts/gitlab-ci-and-conda/)
+- [Story about migration from Jenkins to GitLab CI](https://blog.captaintrain.com/12703-building-on-gitlab-ci)
+- [Decreasing build time from 8 minutes 33 seconds to just 10 seconds](http://beenje.github.io/blog/posts/gitlab-ci-and-conda/)
