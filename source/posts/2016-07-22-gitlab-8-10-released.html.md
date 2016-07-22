@@ -6,19 +6,22 @@ author_twitter: Jobvo
 image_title: /images/8_10/bg.jpg
 ---
 
-With GitLab we want you to be able to go frictionless from idea to production.
-But with every GitLab release we want you to go from idea to production
-_faster_. With 8.10, GitLab is _yet again_ faster than ever.
+GitLab enables you to go faster from idea to production.
+With every GitLab release we want to improve this and with 8.10,
+GitLab is _yet again_ faster than ever.
+
 
 With GitLab 8.10, reviewing code and making sure it gets merged
 is easier and snappier than ever with many improvements to diffs and protected
-branches. And when it's time to deploy it, all it takes is a single click, with
-manual actions.
+branches. And when it's time to deploy, you can now do a manual check before
+deploying with a single click, with manual actions.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is
-Winnie! Winnie has been incredibly helpful fixing bugs in GitLab and even
+Winnie! Winnie has been incredibly helpful [fixing bugs][winnie-wins] in GitLab and even
 triaging issues on GitLab.com.
 Thanks ***Winnie***!
+
+[winnie-wins]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests?author_id=14714&scope=all&sort=id_desc&state=merged
 
 <!--more-->
 
@@ -57,7 +60,8 @@ allow merges by `Developer` users.
 **Concretely this means that `Developer` users can merge a merge request but not
 directly push**. So your branches are protected from direct pushes, yet developers
 don't need elevated permissions or wait for someone with a higher permission to
-press merge.
+press merge (this is only possible to the web interface,
+not from the command line).
 
 Combine this feature with approvals (EE only) to enforce code review by multiple
 people, while still giving developers the power to merge at their discretion.
@@ -91,9 +95,11 @@ to review file-by-file.
 
 ![Collapsable diffs in GitLab 8.10](/images/8_10/cdiff.png)
 
-Very large diffs will automatically be collapsed and can be expanded on
+Very large diffs ([> 10kb][10kb]) will automatically be collapsed and can be expanded on
 demand. This should go a long way into improving working with large diffs with
 many files.
+
+[10kb]: https://gitlab.com/gitlab-org/gitlab_git/merge_requests/101#note_13100125
 
 ## Manual Actions to Trigger Pipeline Jobs
 
@@ -117,6 +123,7 @@ staging to production:
 ![Manual Actions with Pipelines in GitLab 8.10](/images/8_10/ci_manual2.png)
 
 > [Read our docs on getting started with GitLab CI](http://docs.gitlab.com/ce/ci/quick_start/README.html)
+> [Documentation on Environments and Deployments in GitLab CI](http://docs.gitlab.com/ce/ci/environments.html)
 
 ## Blockquote Fence Syntax
 
@@ -151,7 +158,7 @@ git_data_dirs({
 In the GitLab admin you are able to configure under which mount point
 new repositories will be stored.
 
-> [Read the documentation on multiple mount points](http://docs.gitlab.com/ee/administration/repository_storages.html)
+> [Read the documentation on multiple mount points](http://docs.gitlab.com/ce/administration/repository_storages.html)
 
 ## Bulk Subscribe to Issues
 
@@ -328,13 +335,20 @@ This version also includes [security updates](http://about.mattermost.com/securi
 
 This release has more improvements, including security fixes. Please check out [the Changelog](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG) to see the all named changes.
 
-
 ## Upgrade barometer
 
+To upgrade to GitLab 8.10, about 15 to 30 minutes downtime is required.
+Several database columns are renamed and migrations are done for changes in the
+code. To prevent faulty data, GitLab will need to be offline during this time.
 
 ### Update your NGINX configuration
 
-The default NGINX configuration now overwrites the 'Host' and 'X-Forwarded-Host' headers. This adds defense in depth against header injection attacks. For installations from source this means you need to update your NGINX configuration for GitLab. For Omnibus installations this will happen automatically, unless you configured your own 'Host' and 'X-Forwarded-Host' values in gitlab.rb.
+The default NGINX configuration now overwrites the 'Host' and 'X-Forwarded-Host'
+headers. This adds defense in depth against header injection attacks.
+For installations from source this means you need to update your NGINX
+configuration for GitLab. For Omnibus installations this will happen
+automatically, unless you configured your own 'Host' and 'X-Forwarded-Host'
+values in `gitlab.rb`.
 
 ### Default behavior
 
@@ -359,7 +373,8 @@ Check out our [update page](https://about.gitlab.com/update/).
 
 ## Enterprise Edition
 
-The mentioned EE only features and things like LDAP group support can be found in GitLab Enterprise Edition.
+GitLab Enterprise Edition includes advanced features such as LDAP Group support,
+merge request approvals, Geo and File locking.
 For a complete overview please have a look at the [feature list of GitLab EE]( https://about.gitlab.com/features/#enterprise).
 
 Access to GitLab Enterprise Edition is included with a
