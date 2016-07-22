@@ -526,16 +526,11 @@ If appropriate (to be determined by conversation with the manager, CEO, and peop
 ### Separation and Release of Claims Agreements
 <a name="separation-agreement"></a>
 
-and [Separation and Release of Claims Agreement](https://docs.google.com/document/d/17Dim1GC_LV0XF2DRzYNVRFrKlNE80fuXxAjP-jou8Yw/edit?usp=sharing),
-
 If appropriate (currently only in the case of US based employees, and to be determined by conversation with the manager, CEO, and people ops) prepare a Separation and Release of Claims Agreement following the steps outlined here. All of these steps are done by People Ops unless specified differently.
 
 1. Send an email to Anne (GitLab HR legal counsel) to loop her in that you will be using a separation agreement to offer severance pay (this is a courtesy and will also keep her informed in the case reversed action from the ex-team member). In the email, confirm whether that this is an involuntary termination.
-1. Prepare the agreement.
-   - For team members over 40 years of age, use the [over 40 template](https://docs.google.com/document/d/1QhImH95nQk-Obpw_L81SrBeH89mZz5BkWUnG9BrOK8M/edit?usp=sharing)
-   - For team members under the age of 40, use the [under 40 template](https://docs.google.com/document/d/1E7qki9nHHbhRZKbIQp4E8WgK_Tn35UiW_hBO2dfNEgk/edit?usp=sharing)
-
-Additional notes:<br>
-1. Separation pay is not paid until the ex-team member signs the document and the revocation period has passed.
-1. Make sure you understand the rules for over 40
-1. You must use language in your exit meeting that is in no way forceful of the ex-team member to sign the agreement. Use phrasing such as “if you choose to sign”; “you have a right to have legal council review this document before your sign”, etc.
+1. Prepare the [agreement](https://docs.google.com/document/d/17Dim1GC_LV0XF2DRzYNVRFrKlNE80fuXxAjP-jou8Yw/edit?usp=sharing).
+1. Additional notes:
+   1. Separation pay is not paid until the ex-team member signs the document and the revocation period has passed.
+   1. Make sure you understand the rules for over 40
+   1. You must use language in your exit meeting that is in no way forceful of the ex-team member to sign the agreement. Use phrasing such as “if you choose to sign”; “you have a right to have legal council review this document before your sign”, etc.
