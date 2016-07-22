@@ -215,7 +215,7 @@ Slack channel GitLab should report.
 
 ![Improved Slack integration with GitLab 8.10](/images/8_10/slack.png)
 
-> [Read how to setup the Slack service in GitLab](http://docs.gitlab.com/ce/integration/slack.html)
+> [Read how to setup the Slack service in GitLab](http://docs.gitlab.com/ce/project_services/slack.html)
 
 ## Updated Emoji!
 
