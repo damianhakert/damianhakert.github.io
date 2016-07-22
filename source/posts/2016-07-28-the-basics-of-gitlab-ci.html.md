@@ -225,7 +225,7 @@ stages:
   - test
   - pack
 
-# ... "compile" and "test" jobs are skipped here for compactness
+# ... "compile" and "test" jobs are skipped here for the sake of compactness
 
 pack:gz:
   stage: pack
