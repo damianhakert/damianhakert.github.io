@@ -372,7 +372,7 @@ Messages sent to our [Facebook page](https://www.facebook.com/gitlab/) also feed
 
 ### Google Alerts<a name="google-alerts"></a>
 
-Google alerts configured to track GitLab mentions are also piped into ZenDesk.
+Google Alerts configured to track GitLab mentions are also piped into ZenDesk.
 
 ### Follow up on issues posted on GitLab issue tracker<a name="issue-tracker"></a>
 
