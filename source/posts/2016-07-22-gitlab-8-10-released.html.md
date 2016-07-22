@@ -5,6 +5,7 @@ author: Job van der Voort
 author_twitter: Jobvo
 image_title: /images/8_10/bg.jpg
 date: 2016-07-22 17:00
+twitter_image: '/images/tweets/gitlab-8-10-released.png'
 ---
 
 GitLab enables you to go faster from idea to production.
