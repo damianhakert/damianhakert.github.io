@@ -127,6 +127,7 @@ people. We try to hire people who think work is a great way to express themselve
 1. Do **not** make jokes or unfriendly remarks about race, ethnic origin, skin color, gender or sexual orientation.
 1. Use **inclusive** language. For example, prefer 'Hi everybody' or 'Hi people' to 'Hi guys'.
 1. Share problems you run into, ask for help, be forthcoming with information and **speak up**.
+1. Don't display surprise when people say they don't know something, as it is important that everyone feels comfortable saying "I don't know" and "I don't understand." (Inspired by [Recurse](https://www.recurse.com/manual#sub-sec-social-rules))
 1. All our procedures and templates are stored in (mostly public) git repositories instead of Google/Word documents. This makes them easier to find and suggest changes to with the organization and shows our commitment to open collaboration outside the organization.
 1. Work out in the **open**, try to use public issue trackers and repositories when possible.
 1. Most things are **public** unless there is a reason not to, not public by default are: financial information, legal, job applications/compensation/feedback and partnerships with other companies.
