@@ -233,7 +233,7 @@ All posts are written in markdown Kramdown. Please read through the [Markdown St
 The post **frontmatter** is the first part of any post. It is standard and cannot be changed, so please make
 sure to provide the correct information, and do not add nor remove anything from the default template:
 
-```
+```yaml
 ---
 title: "This is the post title"
 author: Firstname Lastname
@@ -243,25 +243,36 @@ image_title: '/images/blogimages/post-cover-image.jpg'
 ---
 ```
 
+<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> New frontmatter options! Social Media information: `twitter_image` and `description`!
+{: .alert .alert-warning .ambar}
+
+```yaml
+---
+title: "This is the post title"
+author: Firstname Lastname
+author_twitter: userID
+categories: technical overview
+image_title: '/images/blogimages/post-cover-image.jpg'
+twitter_image: '/images/tweets/post-screenshot-image.png'
+description: "Short description for the blog post"
+---
+```
+
 #### Title
-{: .no_toc}
 
 Make sure the post title represents very well the subject, and make it as short as possible.
 Do the same for headings.
 
 #### Author Name
-{: .no_toc}
 
 Use the author's full name. If the name has special chars, type it within
 double quotes `"Full Name"`.
 
 #### Twitter Handle
-{: .no_toc}
 
 Don't worry if you don't have an account on Twitter. Leave the field `author_twitter` blank.
 
 #### Categories
-{: .no_toc}
 
 Use only **one** of the following categories per post.
 **Do not** capitalize nor pluralize them, nor change any letter,
@@ -269,7 +280,8 @@ otherwise you'll create another category, which is somenthing we don't want to d
 
 - concepts _(use it when your post in on continuous integration, innersource, open source, version control, SaaS, etc)_
 - git
-- GitLab _(all GitLab products/features: CI, Geo, GDK, Pages, LDPA, Hooks, etc.)_
+- GitLab _(all GitLab products/features: Geo, GDK, Pages, LDPA, Hooks, etc.)_
+- GitLab CI
 - GitLab CE _(use it when highlighting CE features, advantages, etc.)_
 - GitLab EE _(EE-only features)_
 - GitLab workflow _(issues, merge requests, confidential issues, milestones, todos, etc.)_
@@ -290,19 +302,56 @@ If you think we are missing an important category, please let us know by adding 
 to this issue: <https://gitlab.com/gitlab-com/www-gitlab-com/issues/721>.
 
 #### Cover Image
-{: .no_toc #cover-image-frontmatter}
+{: #cover-image-frontmatter}
 
 Do not leave the post without a cover image (`image_title`), unless you have a strong reason to do so.
 Read more about it [below](#cover-image).
 
+#### Social Media Info
+
+When you post a link on Facebook or Twitter, either you can
+see only a link, or a full interactive card, which displays
+information about that link: title, **description**, **image** and URL.
+
+For Facebook these cards are configured via [OpenGraph Meta Tags][OG].
+[Twitter Cards] were recently setup for our website as well.
+
+Please compare the following images illustrating post's tweets.
+
+A complete card will look like this:
+
+![Twitter Card example - complete][twitter-card-comp]
+
+An incomplete card will look like this:
+
+![Twitter Card example - incomplete][twitter-card-incomp]
+
+Note that the [first post] has a **specific description** and the image is a **screenshot**
+of the post's cover image, taken from the [Blog landing page][blog]. This screenshot
+can be taken locally when previewing the site at `localhost:4567/blog/`.
+
+All the screenshots for `twitter_image` should be pushed to the [www-gitlab-com] project
+at `/source/images/tweets/` and must be named after the post's file name.
+If the post is called `2016-03-20-hello-world.html.md`, the tweet image
+must be named `hello-world.png` (or `.jpg`).
+
+For the [second post] above, note that the tweet image is the blog post cover image itself,
+not the screenshot. Also, there's no `description` provided in the frontmatter, so our
+Twitter Cards and Facebook's post will present the _fall back description_,
+which is the same for all [about.GitLab.com].
+
+Whenever possible, provide the post description in the frontmatter
+and the post screenshot image.
+
+You can check and preview them with the [Twitter Card Validator]
+and the [Facebook Debugger].
+
 #### Comments
-{: .no_toc}
 
 Comments are present in all posts by default. Set it to false only if you have a strong reason to
 do so (`comments: false`). They are our best source of feedback on posts.
 
 #### Date
-{: .no_toc}
 
 The variable `date: yyyy-mm-aa hh:mm:ss` is not necessary in the frontmatter anymore, unless you want
 to set an specific time. If you do, just make sure that the date in the file name matches with
@@ -485,6 +534,8 @@ specific matters are still being discussed and polished.
 [blog-tracker]: https://gitlab.com/gitlab-com/blog-posts/issues
 [bundler]: http://bundler.io/
 [documentation]: http://docs.gitlab.com/
+[facebook debugger]: https://developers.facebook.com/tools/debug/
+[first post]: /2016/07/19/markdown-kramdown-tips-and-tricks/
 [git]: https://git-scm.com/
 [issue-docs]: https://gitlab.com/gitlab-org/gitlab-ce/issues/
 [(key)words]: http://www.wordstream.com/seo-keyword
@@ -493,17 +544,22 @@ specific matters are still being discussed and polished.
 [marketing-blog]: #blog
 [middleman]: https://middlemanapp.com/basics/install/
 [Nimbus Screenshot]: http://nimbus.everhelper.me/screenshot.php
+[OG]: https://developers.facebook.com/docs/sharing/webmasters#markup
 [Screenshot Tool]: https://help.ubuntu.com/lts/ubuntu-help/screen-shot-record.html
+[second post]: /2016/07/20/gitlab-is-open-core-github-is-closed-source/
 [Snipping Tool]: https://support.microsoft.com/en-us/help/13776/windows-use-snipping-tool-to-capture-screenshots
 [synonyms]: http://www.thesaurus.com/
 [technical aspects]: #technical-aspects
 [technical writers]: /jobs/technical-writer/
 [tech-writing-wiki]: https://en.wikipedia.org/wiki/Technical_writing
 [tinypng]: https://tinypng.com/
+[twitter-card-comp]: /images/handbook/marketing/twitter-card-complete.jpg
+[twitter-card-incomp]: /images/handbook/marketing/twitter-card-incomplete.jpg
+[twitter cards]: https://dev.twitter.com/cards/overview
+[twitter card validator]: https://cards-dev.twitter.com/validator
 [unsplash]: https://unsplash.com/
 [WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com/
-
 
 <!-- Styles -->
 
@@ -521,5 +577,8 @@ specific matters are still being discussed and polished.
  }
   .purple {
    color: rgb(107,79,187) !important;
+ }
+   .ambar {
+    color: rgb(138,109,59) !important;
  }
  </style>
