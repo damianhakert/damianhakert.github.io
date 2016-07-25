@@ -22,7 +22,7 @@ Please read on for more details.
 - **CE/EE:** Fix Error 500 when creating Wiki pages with hyphens or spaces. ([!5444])
 - **CE/EE:** Fix bug where replies to commit notes displayed in the MR discussion tab wouldn't show up on the commit page. ([!5446])
 - **CE/EE:** Ignore invalid trusted proxies in `X-Forwarded-For` header. ([!5454])
-- **CE/EE:** Add links to the real markdown.md file for all GFM examples. ([!5458])
+- **CE/EE:** Add links to the real `markdown.md` file for all GFM examples. ([!5458])
 - **Omnibus GitLab:** Fix custom HTTP/HTTPS external ports. ([!887])
 
 [!5428]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5428
@@ -37,8 +37,7 @@ Please read on for more details.
 
 ## Upgrade barometer
 
-This version does not include any migrations, and should not require any
-downtime.
+This version has one migration, but should not require any downtime.
 
 Please be aware that by default the Omnibus packages will stop, run migrations,
 and start again, no matter how “big” or “small” the upgrade is. This behavior
@@ -47,13 +46,13 @@ file](http://doc.gitlab.com/omnibus/update/README.html).
 
 ## Updating
 
-To update, check out our [update page](https://about.gitlab.com/update).
+To update, check out our [update page](https://about.gitlab.com/update/).
 
 ## Enterprise Edition
 
 Interested in GitLab Enterprise Edition? Check out the [features exclusive to
 EE](https://about.gitlab.com/features/#enterprise).
 
-Access to GitLab Enterprise Edition is included with a [subscription](https://about.gitlab.com/subscription).
+Access to GitLab Enterprise Edition is included with a [subscription](https://about.gitlab.com/pricing/).
 No time to upgrade GitLab yourself? Subscribers receive upgrade and installation
 services.
