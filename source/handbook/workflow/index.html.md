@@ -1,12 +1,17 @@
 ---
 layout: markdown_page
-title: "Workflow"
+title: "Engineering Workflow"
 extra_css:
   - compared.css
 ---
 
 This document explains the workflow for anyone working with issues in GitLab Inc.
 For the workflow that applies to everyone please see [PROCESS.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
+
+**Table of contents**
+
+- TOC
+{:toc}
 
 ## TL;DR
 
@@ -18,6 +23,17 @@ _**Note:** most of the document below assumes priority labels are live on GitLab
 at the time of writing this is not the case yet_
 
 If you need to schedule something or prioritize it, apply the appropriate labels. See below for details.
+
+## Working in Teams
+
+For larger issues or issues that contain many different moving parts,
+you'll be likely working in a team.
+
+1. Teams have a shared responsibility to ship the issue in the planned release
+1. If the team suspects that they might not be able to ship something in time,
+the team should escalate / inform others as soon as possible
+1. Start a Slack channel for a new team, but remember to write all relevant
+information in the related issue(s)
 
 ## Choosing something to work on
 
