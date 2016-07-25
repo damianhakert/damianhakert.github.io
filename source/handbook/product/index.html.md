@@ -3,6 +3,11 @@ layout: markdown_page
 title: Product
 ---
 
+**Table of contents**
+
+- TOC
+{:toc}
+
 ## Communication<a name="reach-productteam"></a>
 
 - [**Public Issue Tracker (for GitLab CE)**](https://gitlab.com/gitlab-org/gitlab-ce) and **for [GitLab EE**](https://gitlab.com/gitlab-org/gitlab-ee); please use confidential issues for topics that should only be visible to team members at GitLab.
