@@ -1181,6 +1181,9 @@
   picture: hazel.jpg
   twitter: hazelyuyang
   gitlab: hazelyang
+  maintains: |
+             <li>Interaction design specialist</li>
+             <li>Visual design specialist</li>
   story:  |
           Hazel comes from Taiwan. She is passionate about product design, interaction design,
           and illustration.  Before joining GitLab, she worked for a digital agency and worked
@@ -1311,7 +1314,7 @@
   twitter: sarki247
   gitlab: abuango
   story:  |
-          Before joining the GitLab team, Abubakar has worked in the academic environment providing support and maintaining IT infrastructure. He also actively participates in several training programs targeted at youths and students. In his spare time, Abubakar reads and also participate in the local developer community events. 
+          Before joining the GitLab team, Abubakar has worked in the academic environment providing support and maintaining IT infrastructure. He also actively participates in several training programs targeted at youths and students. In his spare time, Abubakar reads and also participate in the local developer community events.
 
 - name: D.L.
   locality:
@@ -1388,4 +1391,4 @@
   twitter:
   gitlab:
   story:  |
-          Joining September 1st 
+          Joining September 1st
