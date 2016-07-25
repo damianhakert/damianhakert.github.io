@@ -411,7 +411,7 @@ You can also consider hanging out on IRC to answer questions and help people (#g
 ### Removal of 2FA <a name="2faremoval"></a>
 
 [Two-factor Authentication](http://docs.gitlab.com/ee/profile/two_factor_authentication.html) (2FA) 
-can only be removed if one of the following combinations are met:
+can only be removed from a GitLab.com account if one of the following combinations are met:
 
 #### Combination 1:
 
