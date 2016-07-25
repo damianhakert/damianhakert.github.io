@@ -36,8 +36,8 @@ the team is responsible for shipping in time, not you.
 _product_. You'll be required to take the lead in decisions about the product,
 but it's not your role to manage the people that build the product.
 - Capacity and availability planning. You will work together with engineering
-managers on schedules and planning: you are steering, engineering managers
-provide the thrust. Together you can establish when you'll arrive.
+managers on schedules and planning: you prioritize, the engineering managers
+determine how much can be scheduled.
 
 ## Requirements
 
