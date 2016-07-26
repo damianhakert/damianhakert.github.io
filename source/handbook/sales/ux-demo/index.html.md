@@ -6,7 +6,7 @@ title: "UX Demo: Idea to Production"
 ## Preamble
 {:.no_toc}
 
-This demonstration is designed to highlight GitLab’s integrated set of tools for the software development lifecycle, from idea to production, through chat, issues, planning, merge request, CI, and CD.
+This demonstration is designed to highlight GitLab’s open set of tools for the software development lifecycle, from idea to production, through chat, issues, planning, merge request, CI, and CD.
 
 ![](handbook/sales/lifecycle.png)
 
@@ -60,13 +60,26 @@ We're going to start from scratch, creating a brand new GitLab installation.
 
 ### Demo Script
 
-Today I'd like to demo some of the power of GitLab’s integrated set of tools for the software development lifecycle, helping you get from idea to production as quickly as possible. We'll start from scratch, creating a brand new GitLab installation, and then take you through using chatops, issues, planning boards, merge requests, CI, CD, and more.
+Today I'd like to demo some of the power of GitLab’s open set of tools for the software development lifecycle, helping you get from idea to production as quickly as possible. We'll start from scratch, creating a brand new GitLab installation, and then take you through using chatops, issues, planning boards, merge requests, CI, CD, and more.
 
 #### Installation [#19839](https://gitlab.com/gitlab-org/gitlab-ce/issues/19839)
+
+> *Steps:*
+>
+> * Open Openshift web UI
+> * Find GitLab in list of templates
+> * Click
+> * Show running GitLab
 
 The first step is to install GitLab itself. Since we have a Docker image, it's really easy to deploy to any number of container schedulers. Today I'm going to use RedHat's Openshift with Kubernetes. We'll start by opening the Openshift web UI, finding GitLab in the list of templates, and clicking on it. Enter a few optional parameters and after a few minutes, boom, you've got a shiny new GitLab installation. Just for fun, let's scale up the main service so we've got some redundancy. There, we've now got 3 containers running the main GitLab CE service, one running Postgres, and one running Redis.
 
 #### Setup [#19839](https://gitlab.com/gitlab-org/gitlab-ce/issues/19839)
+
+> *Steps:*
+>
+> Add text to README:
+>
+>> This is going to be great!
 
 Now that we've got GitLab running, let's open it up and log in with the super secret root password. I'm going to create a new user for me, and a new project to start off with. Let's call it Velociraptor. Now a project isn't very good without a README, is it? Let's go create one while we're here.
 
@@ -165,3 +178,8 @@ Now that everything is updated and our fix is deployed, we can now go to our web
 #### Review the time from Idea to Production using Velocity Analytics [#18687](https://gitlab.com/gitlab-org/gitlab-ce/issues/18687)
 
 One final thing. Since the velocity of getting ideas to production is so important, GitLab has a built in dashboard that helps you track that velocity. Here we can see some metrics on the overall health of our project, and then a breakdown of average times spent in each stage on the way from idea to production. This is great for team managers or high level managers looking to better understand their company's velocity.
+
+## Todos
+* Add reviews apps
+* Add environment variables for production secrets
+* Remove redundancy, for example revisiting the container registry (currently needed while waiting for deploys)
