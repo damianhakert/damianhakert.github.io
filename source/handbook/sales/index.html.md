@@ -39,6 +39,7 @@ title: "Sales Handbook"
 * [Sales demo script](/handbook/sales/demo/)
 * [POC Template](/handbook/sales/POC/) to be used to help manage a trial/proof of concept with success criteria
 * [Demo: Idea to Production](/handbook/sales/idea-to-production)
+* [UX Demo: Idea to Production](/handbook/sales/ux-demo)
 
 ### Pages outside Sales Handbook <a name="pages-outside"></a>
 
