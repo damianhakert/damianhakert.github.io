@@ -27,13 +27,6 @@ extra_css:
 
 Since GitLab fans wrote most of the text here there is a pro-GitLab bias. Nonetheless we try hard to ensure the comparisons are fair and factual. Please also add things that are great in other products but missing in GitLab. If you find something that is invalid, biased, missing, or out of date in the comparisons, please [open a merge request for this website](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests) to correct it. As with all the pages on this website you can find where this page lives in the repository via the link in the footer.
 
-## Faster from Idea to Production
-The leading Git products in the market share the differentiation to GitLab in their approach to code development and deployment. GitLab focuses on delivering a holistic solution that will see developers from idea to production seamlessly and on a single platform. Shipping with different tools out of the box, from a chat client, through a web development environment, continuous deployment from the GitLab CI, and onto feedback analytics on your entire development process, that is the vision of GitLab for an application lifecycle management approach.
-On the other hand, the approach of products such as GitHub, BitBucket and SVN provides a plethora of plugins and integrations, thus giving the developers a wide range of flexibility in choice of preferred tools to work with its version control core. The downside of the plugin approach is two folds. The first, is having to setup and configure each of the tools you choose to work with. That is often time consuming and also requires separate licenses to be purchased and maintained. The second, is working with tools that were not designed to collaborate with your choice of Git product from day 1.
-
-## Open-Core
-GitLab is an open-core product where is GitHub and BitBucket are closed-source products. The GitLab Community Edition is fully open-source, and the Enterprise Edition is open-core.
-
 ## GitLab CE vs. GitLab EE
 
 To learn more about how GitLab Community Edition compares to GitLab Enterprise Edition, take a look at the [comparison table on our features page][comparison-versions].
@@ -41,6 +34,12 @@ To learn more about how GitLab Community Edition compares to GitLab Enterprise E
 [comparison-versions]: https://about.gitlab.com/features/#compare
 
 ## GitLab vs. GitHub
+
+### Faster from Idea to Production
+GitLab has a different approach to code development and deployment compared with GitHub. GitLab focuses on delivering a holistic solution that will see developers from idea to production seamlessly and on a single platform. You can read more about our [vision](https://about.gitlab.com/direction/#vision).
+
+### Open-Core
+GitLab is an open-core product where is GitHub is a closed-source product. The GitLab Community Edition is fully open-source, and the Enterprise Edition is open-core.
 
 ### Multiple authentication Levels
 
