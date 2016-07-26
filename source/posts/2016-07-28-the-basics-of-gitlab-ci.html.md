@@ -45,22 +45,22 @@ Committing it, and hooray! Our build is successful:
 Let's change "world" to "Africa" in the second file and check what happens:
 ![](/images/blogimages/ci-logic/failure.png)
 
-The build fails as expected!  
+The build fails as expected!
 Okay, we now have automated tests here!
 
 ## Make results of builds downloadable
 
-The next step is to pack the code before sending it to our customers. Let's automate it as well!
+The next business requirement is to package the code before sending it to our customers. Let's automate it as well!
 
-All we need to do is to define another job for CI. Let's name it "pack":
+All we need to do is to define another job for CI. Let's name it "package":
 {: .step}
 
 ```yaml
 test:
   script: cat file1.txt file2.txt | grep -q 'Hello world'
 
-pack:
-  script: cat file1.txt file2.txt | gzip > pack.gz
+package:
+  script: cat file1.txt file2.txt | gzip > package.gz
 ```
 
 We have two tabs now:
@@ -73,39 +73,39 @@ However, we forgot to specify that the new file is a build _artifact_, so that i
 test:
   script: cat file1.txt file2.txt | grep -q 'Hello world'
 
-pack:
-  script: cat file1.txt file2.txt | gzip > packed.gz
+package:
+  script: cat file1.txt file2.txt | gzip > packaged.gz
   artifacts:
     paths:
-    - packed.gz
+    - packaged.gz
 ```
 
 Checking... It is there:
 ![](/images/blogimages/ci-logic/artifacts.png)
 
 Perfect!
-However, we have a problem to fix: the jobs are running in parallel, but we do not want to generate the archive if our tests fail.
+However, we have a problem to fix: the jobs are running in parallel, but we do not want to package our application if our tests fail.
 
 ## Run jobs sequentially
 
-We only want to run the 'pack' job if the tests are successful. Let's define the order by specifying `stages`:
+We only want to run the 'package' job if the tests are successful. Let's define the order by specifying `stages`:
 {: .step}
 
 ```yaml
 stages:
   - test
-  - pack
+  - package
 
 test:
   stage: test
   script: cat file1.txt file2.txt | grep -q 'Hello world'
 
-pack:
-  stage: pack
-  script: cat file1.txt file2.txt | gzip > packed.gz
+package:
+  stage: package
+  script: cat file1.txt file2.txt | gzip > packaged.gz
   artifacts:
     paths:
-    - packed.gz
+    - packaged.gz
 ```
 
 That should be good!
@@ -117,7 +117,7 @@ Also, we forgot to mention, that compilation (which is represented by concatenat
 stages:
   - compile
   - test
-  - pack
+  - package
 
 compile:
   stage: compile
@@ -130,12 +130,12 @@ test:
   stage: test
   script: cat compiled.txt | grep -q 'Hello world'
 
-pack:
-  stage: pack
-  script: cat compiled.txt | gzip > packed.gz
+package:
+  stage: package
+  script: cat compiled.txt | gzip > packaged.gz
   artifacts:
     paths:
-    - packed.gz
+    - packaged.gz
 ```
 
 Let's take a look at our artifacts:
@@ -157,9 +157,9 @@ compile:
 
 Now our config looks pretty impressive:
 
-- We have three sequential stages to compile, test, and pack our application.
+- We have three sequential stages to compile, test, and package our application.
 - We are passing the compiled app to the next stages so that there's no need to run compilation twice (so it will run faster).
-- We are storing a packed version of our app in build artifacts for further usage.
+- We are storing a packaged version of our app in build artifacts for further usage.
 
 ## Learning what Docker image to use
 
@@ -169,7 +169,7 @@ However, it appears our builds are still slow. Let's look at the logs.
 
 Wait, what is this?
 
-Why do we need Ruby at all? Oh, GitLab uses Docker images to run our builds, and [by default](https://about.gitlab.com/gitlab-com/settings/) it uses the [`ruby:2.1`](https://hub.docker.com/_/ruby/) image. For sure, this image contains many packages we don't need. After a minute of googling, we figure out that there's an image called [`alpine`](https://hub.docker.com/_/alpine/) which is an almost blank Linux image.
+Why do we need Ruby at all? Oh, GitLab uses Docker images to run our builds, and [by default](https://about.gitlab.com/gitlab-com/settings/) it uses the [`ruby:2.1`](https://hub.docker.com/_/ruby/) image. For sure, this image contains many packageages we don't need. After a minute of googling, we figure out that there's an image called [`alpine`](https://hub.docker.com/_/alpine/) which is an almost blank Linux image.
 
 Ok, let's explicitly specify that we want to use this image by adding `image: alpine` to `.gitlab-ci.yml`.
 Now we're talking! We shaved 2 minutes off:
@@ -181,7 +181,7 @@ Now we're talking! We shaved 2 minutes off:
 stages:
   - compile
   - test
-  - pack
+  - package
 
 compile:
   stage: compile
@@ -195,12 +195,12 @@ test:
   stage: test
   script: cat compiled.txt | grep -q 'Hello world'
 
-pack:
-  stage: pack
-  script: cat compiled.txt | gzip > packed.gz
+package:
+  stage: package
+  script: cat compiled.txt | gzip > packaged.gz
   artifacts:
     paths:
-    - packed.gz
+    - packaged.gz
 </code></pre>
 </div>
 
@@ -210,7 +210,7 @@ It looks like [there's](https://hub.docker.com/_/mysql/) [a lot of](https://hub.
 
 ## Dealing with complex scenarios
 
-So far so good. However, let's suppose we just got a new client who wants to get an `.iso` instead of `.gz`  
+So far so good. However, let's suppose we just got a new client who wants to get an `.iso` instead of `.gz`
 Since CI does the whole work, we can just add one more job to it.
 Iso images can be created using the `mkisofs` command. Here's how our config should look:
 
@@ -220,36 +220,36 @@ image: alpine
 stages:
   - compile
   - test
-  - pack
+  - package
 
 # ... "compile" and "test" jobs are skipped here for the sake of compactness
 
-pack:gz:
-  stage: pack
-  script: cat compiled.txt | gzip > packed.gz
+package:gz:
+  stage: package
+  script: cat compiled.txt | gzip > packaged.gz
   artifacts:
     paths:
-    - packed.gz
+    - packaged.gz
 
-pack:iso:
-  stage: pack
+package:iso:
+  stage: package
   script:
-  - mkisofs -o ./packed.iso ./compiled.txt
+  - mkisofs -o ./packaged.iso ./compiled.txt
   artifacts:
     paths:
-    - packed.iso
+    - packaged.iso
 ```
 
 However, `mkisofs` is not included in the `alpine` image, so we need to install it first.
 
-## Dealing with missing software/packages
+## Dealing with missing software/packageages
 
-According to the [Alpine linux website](https://pkgs.alpinelinux.org/contents?file=mkisofs&path=&name=&branch=&repo=&arch=x86) `mkisofs` is a part of the `xorriso` and `cdrkit` packages. These are the magic commands that we need to run to install a package:
+According to the [Alpine linux website](https://pkgs.alpinelinux.org/contents?file=mkisofs&path=&name=&branch=&repo=&arch=x86) `mkisofs` is a part of the `xorriso` and `cdrkit` packageages. These are the magic commands that we need to run to install a packageage:
 
 ```bash
 echo "ipv6" >> /etc/modules  # enable networking
-apk update                   # update packages list
-apk add xorriso              # install package
+apk update                   # update packageages list
+apk add xorriso              # install packageage
 ```
 
 For CI, these are just like any other commands. The full list of commands we need to pass to `script` section should look like this:
@@ -259,10 +259,10 @@ script:
 - echo "ipv6" >> /etc/modules
 - apk update
 - apk add xorriso
-- mkisofs -o ./packed.iso ./compiled.txt
+- mkisofs -o ./packaged.iso ./compiled.txt
 ```
 
-However, to make it semantically correct, let's put commands related to package installation in `before_script`. Note that if you use `before_script` at the top level of a configuration, then the commands will run before all jobs. In our case, we just want it to run before one specific job.
+However, to make it semantically correct, let's put commands related to packageage installation in `before_script`. Note that if you use `before_script` at the top level of a configuration, then the commands will run before all jobs. In our case, we just want it to run before one specific job.
 
 Our final version of `.gitlab-ci.yml`:
 {: .step}
@@ -273,7 +273,7 @@ image: alpine
 stages:
   - compile
   - test
-  - pack
+  - package
 
 compile:
   stage: compile
@@ -287,27 +287,27 @@ test:
   stage: test
   script: cat compiled.txt | grep -q 'Hello world'
 
-pack:gz:
-  stage: pack
-  script: cat compiled.txt | gzip > packed.gz
+package:gz:
+  stage: package
+  script: cat compiled.txt | gzip > packaged.gz
   artifacts:
     paths:
-    - packed.gz
+    - packaged.gz
 
-pack:iso:
-  stage: pack
+package:iso:
+  stage: package
   before_script:
   - echo "ipv6" >> /etc/modules
   - apk update
   - apk add xorriso
   script:
-  - mkisofs -o ./packed.iso ./compiled.txt
+  - mkisofs -o ./packaged.iso ./compiled.txt
   artifacts:
     paths:
-    - packed.iso
+    - packaged.iso
 ```
 
-Wow, it looks like we have just created a pipeline! We have three sequential stages, but jobs `pack:gz` and `pack:iso`, inside the `pack` stage, are running in parallel:
+Wow, it looks like we have just created a pipeline! We have three sequential stages, but jobs `package:gz` and `package:iso`, inside the `package` stage, are running in parallel:
 
 ![](/images/blogimages/ci-logic/pipeline.png)
 
