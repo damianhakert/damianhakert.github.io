@@ -11,8 +11,6 @@ extra_css:
 ## Index
 
 - [Bias](#bias)
-- [Faster from Idea to Production](#faster-from-idea-to-production)
-- [Open-Core](#open-core)
 - [GitLab CE vs. GitLab EE](#gitlab-ce-vs-gitlab-ee)
 - [GitLab vs. GitHub](#gitlab-vs-github)
 - [GitLab EE vs. GitHub Enterprise](#gitlab-ee-vs-github-enterprise)
