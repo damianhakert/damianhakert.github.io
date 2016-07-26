@@ -43,3 +43,22 @@ The `Design` label helps us find and track issues relevant to the Design team. I
 The prioritization of design projects is based on the [company goals](/handbook/marketing/#focus-for-q3-and-q4) as defined in the marketing handbook. If a proposed project directly effects one or several of these goals it is deemed a high priority. In addition to our company goals, priority is also based on Design's quarterly [OKRs](/handbook/marketing/#okrs).
 
 Any design requests that do not fall in line with the company goals or Design OKRs will be given a lower priority and factored in as time allows.
+
+## Design touchpoints
+
+The Design team has a rather wide reach and plays a big part in almost all marketing efforts. Design touchpoints range from the [GitLab website](about.gitlab.com) to print collateral, swag, and business cards.
+
+### Web & Digital
+- Redesign, updates, and maintenance of the [GitLab website](about.gitlab.com)
+- Landing pages (campaigns and feature marketing)
+- Swag shop (shop design and new swag)
+- Presentation decks
+- Infographics & diagrams for releases, documentation, blog posts, etc.
+- Web advertisements for webcasts, new features, partnerships, etc.
+
+### Field Design & Branding
+- Conference booth design
+- Banners
+- Swag (t-shirts, socks, stickers)
+- Event-specific slide decks
+- Business cards
