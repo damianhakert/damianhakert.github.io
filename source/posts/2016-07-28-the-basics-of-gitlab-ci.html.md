@@ -50,7 +50,7 @@ Okay, we now have automated tests here!
 
 ## Make results of builds downloadable
 
-The next step is to package the code before sending it to our customers. Let's automate it as well!
+The next business requirement is to package the code before sending it to our customers. Let's automate it as well!
 
 All we need to do is to define another job for CI. Let's name it "package":
 {: .step}
@@ -84,7 +84,7 @@ Checking... It is there:
 ![](/images/blogimages/ci-logic/artifacts.png)
 
 Perfect!
-However, we have a problem to fix: the jobs are running in parallel, but we do not want to generate the archive if our tests fail.
+However, we have a problem to fix: the jobs are running in parallel, but we do not want to package our application if our tests fail.
 
 ## Run jobs sequentially
 
