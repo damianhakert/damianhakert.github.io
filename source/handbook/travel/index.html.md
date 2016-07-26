@@ -45,15 +45,12 @@ We gladly organize and pay for local legal assistance, especially if you are at 
 
 - 6 months beforehand: make appointment at embassy, and start gathering all necessary 
 paperwork, forms, certificates, pictures, etc.
-   - This is the point when it can be helpful 
+   - This is the point when we recommend 
 to engage the services of a local lawyer who is familiar with the US embassy process 
-to help check that your paperwork is in order, and to practice interview questions. A lawyer won't
-be necessary for everyone, but we recommend it if you are in a country where the embassy
-or consulate of the USA has a [high tendency to say "no" to visa applications](http://www.alllaw.com/articles/nolo/us-immigration/harder-get-visa-from-certain-countries.html).
-One crude guideline on that is simply average income in the country. 
-If your country is listed as anything other than "High Income" by the 
+to help check that your paperwork is in order, and to practice interview questions. This 
+is especially the case if your country is listed as anything other than "High Income" by the 
 [World Bank's "Little Data Book"](https://openknowledge.worldbank.org/bitstream/handle/10986/23968/9781464808340.pdf?sequence=4&isAllowed=y)
-, you should ask a lawyer for help. 
+since the embassy or consulate of the USA there has a [high tendency to say "no" to visa applications](http://www.alllaw.com/articles/nolo/us-immigration/harder-get-visa-from-certain-countries.html).
    - Sometimes you might call the embassy, and be told that you do not need to schedule 
    an interview so far ahead of your trip. Don't take their word for it, since that 
    advice is typically made with the "typical, best case"  process in mind and does 
