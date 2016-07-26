@@ -5,6 +5,7 @@ author: Sid Sijbrandij
 author_twitter: sytses
 image_title: '/images/blogimages/the-11-commandments-of-gitlab-flow-cover.png'
 description: "Doing Git Right: The 11 Commandments of GitLab Flow"
+twitter_image: '/images/tweets/the-11-commandments-of-gitlab-flow.png'
 ---
 
 Version management with [Git] is an improvement over methods used before Git almost as a rule. However, many organizations end up with messy workflows, or overly complex ones. This is particularly a problem for organizations who have transitioned from another version control system.
