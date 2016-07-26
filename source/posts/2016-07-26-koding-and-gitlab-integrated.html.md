@@ -2,18 +2,21 @@
 title: "Koding + GitLab: Contribute code faster"
 author: Sid Sijbrandij
 author_twitter: sytses
-categories: 
-image_title: '/images/blogimages/Koding_and_gitlab_hero_image.png' 
+categories: integration
+image_title: '/images/blogimages/koding-and-gitlab-integrated-cover.png'
+twitter_image: '/images/tweets/koding-and-gitlab-integrated.png'
+description: "Koding and GitLab are integrated to make contributing code faster!"
 ---
 
 Today, developers spend hours creating dev environments before they can write a single line of code. 
 We think that's backwards. Development is collaborative and most developers work across a variety of environments 
-so the time spent building unique dev environments builds up pretty quickly. With Koding and GitLab, developers 
+so the time spent building unique dev environments builds up pretty quickly. With [Koding] and GitLab, developers 
 never have to waste time on this again.
 
 <!-- more -->
 
 ## Our vision
+
 Our vision is that developers should be able to contribute code faster with one-click to build 
 every project, issue, and merge request in a complete IDE. Koding makes it so much easier to get started.
 If you see an issue you want to work on, it only takes one-click to build an environment where you 
@@ -23,9 +26,12 @@ on any cloud. You can get started as a contributor, check out merge requests, an
 and easier than ever. Our hope is that removing the burden of building dev environments will help developers
 collaborate on more projects and focus on writing code that will improve their products.
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/7rX_KzCMNtk" frameborder="0" allowfullscreen></iframe>
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/7rX_KzCMNtk" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ## Faster from idea to production
+
 At GitLab, we want to enable teams to go faster from idea to production by using one integrated set of tools for 
 the software development lifecycle. We see a world where you chat about something, turn that idea into an issue
 without leaving the chat interface, spin up an IDE to work on the issue,  commit your changes, run tests with GitLab
@@ -37,6 +43,8 @@ just shared. In the meantime, watch our [current demo](https://youtu.be/pY4IbEXx
 
 ## What's next 
 
-Both GitLab and Koding are excited about what we have coming with our integration. We hope to deliver the first
+Both GitLab and [Koding] are excited about what we have coming with our integration. We hope to deliver the first
 iteration in our next release on August 22nd. If you're interested in learning more or you want to share your ideas,
 check out this issue that details more of our plans.  
+
+[koding]: http://www.koding.com/
