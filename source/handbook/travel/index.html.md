@@ -43,11 +43,22 @@ We gladly organize and pay for local legal assistance, especially if you are at 
 
 #### Visa application timeline guide for the USA
 
-- 6 months beforehand: make appointment at embassy, and start gathering all necessary paperwork, forms, certificates, pictures, etc. This is the point when it can be helpful to engage the services of a local lawyer who is familiar with the US embassy process to help check that your paperwork is in order, and to practice interview questions.
-   - Sometimes you might call the embassy, and be told that you do not need to schedule an interview so far ahead of your trip. Don't take their word for it, since that advice is typically made with the "typical, best case"  process in mind and does not account for the possibility of a black hole "administrative processing" period. In other words, make sure you get an appointment as early as possible.
+- 6 months beforehand: make appointment at embassy, and start gathering all necessary 
+paperwork, forms, certificates, pictures, etc.
+   - This is the point when it can be helpful 
+to engage the services of a local lawyer who is familiar with the US embassy process 
+to help check that your paperwork is in order, and to practice interview questions. A lawyer won't
+be necessary for everyone, but we recommend it if you are in a country where the embassy
+or consulate of the USA has a [high tendency to say "no" to visa applications](http://www.alllaw.com/articles/nolo/us-immigration/harder-get-visa-from-certain-countries.html).
+One crude guideline on that is simply average income in the country. 
+If your country is listed as "Lower Middle Income" or "Low Income" by the [World Bank's "Little Data Book"](https://openknowledge.worldbank.org/bitstream/handle/10986/23968/9781464808340.pdf?sequence=4&isAllowed=y), strongly consider asking a lawyer for help. 
+   - Sometimes you might call the embassy, and be told that you do not need to schedule 
+   an interview so far ahead of your trip. Don't take their word for it, since that 
+   advice is typically made with the "typical, best case"  process in mind and does 
+   not account for the possibility of a black hole "administrative processing" period. 
+   In other words, make sure you get an appointment as early as possible.
 - 4 months beforehand (or earlier): go to embassy for interview.
 - 2 months beforehand: if you have not received your visa by now, contact your local lawyer again, and/or People Ops, to see if anything can be done to expedite the process.
-- remainder of time: wait, hoping for the best.
 
 
 ## Self Stay Reimbursement Policy <a name="self-stay"></a>
