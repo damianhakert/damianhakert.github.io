@@ -43,6 +43,7 @@ task :new_post, :title do |t, args|
     post.puts "author_twitter: "
     post.puts "categories: "
     post.puts "image_title: "
+    post.puts "description: "
     post.puts "---"
   end
 end
