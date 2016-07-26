@@ -8,8 +8,12 @@ cache:
   paths:
     - vendor
 
+stages:
+  - build
+  - deploy
+
 lint:
-  stage: test
+  stage: build
   script:
     - bundle exec rake lint
   tags:
