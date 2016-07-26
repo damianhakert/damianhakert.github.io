@@ -45,6 +45,6 @@ just shared. In the meantime, watch our [current demo](https://youtu.be/pY4IbEXx
 
 Both GitLab and [Koding] are excited about what we have coming with our integration. We hope to deliver the first
 iteration in our next release on August 22nd. If you're interested in learning more or you want to share your ideas,
-check out this issue that details more of our plans.  
+check out [this issue](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/4769) that details more of our plans.  
 
 [koding]: http://www.koding.com/
