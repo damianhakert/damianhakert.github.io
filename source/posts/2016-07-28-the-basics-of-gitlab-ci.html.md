@@ -4,15 +4,13 @@ date: 2016-07-28
 categories: tutorial
 author: Ivan Nemytchenko
 author_twitter: inemation
-#image_title: '/images/50th/cover.png'
+image_title: '/images/blogimages/ci-logic/hello.png'
 
 ---
 
 Let's assume that you don't know anything about what  Continuous Integration is and why it's needed. Or, you just forgot. Anyway, we're starting from scratch here.
 
 Imagine, you work on a project, where all the code consists of two text files. Moreover, it is super-critical that concatenation of these two files contains the phrase "Hello world".
-
-![](/images/blogimages/ci-logic/hello.png)
 
 If there's no such phrase, the whole development team stays without a salary for a month. Yeah, that is damn serious!
 
