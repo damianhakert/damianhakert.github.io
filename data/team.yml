@@ -1373,6 +1373,17 @@
   story:  |
           Joining August 1st
 
+- name: J.C
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/marketing-operations-manager/">Marketing Operations Manager</a>
+  reports_to: Director of Demand Generation
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 1st
+
 - name: F.A.
   locality:
   country:
@@ -1383,6 +1394,39 @@
   gitlab:
   story:  |
           Joining August 15th
+
+- name: K.T.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
+  reports_to: Business Development Team Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 15th
+
+- name: E.L.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/content-marketing-manager/">Content Marketing Manager</a>
+  reports_to: Senior Product Marketing Manager
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 18th
+
+- name: B.J.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 22nd
 
 - name: A.M.
   locality:
