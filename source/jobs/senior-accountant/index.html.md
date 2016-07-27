@@ -1,6 +1,6 @@
 ---
 layout: job_page
-title: "General Ledger Accountant"
+title: "Senior Accountant"
 ---
 
 Currently this is a **part-time** position.

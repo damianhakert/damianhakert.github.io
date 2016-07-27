@@ -38,14 +38,14 @@
   apply: https://gitlab.workable.com/jobs/181461/candidates/new
   open: true
 
-- title: "General Ledger Accountant (part time)"
-  description: /jobs/general-ledger-accountant/
+- title: "Senior Accountant (part time)"
+  description: /jobs/senior-accountant/
   apply: https://gitlab.workable.com/jobs/260762/candidates/new
   open: true
 
 - title: "Marketing Operations Manager"
   description: /jobs/marketing-operations-manager/
-  apply: 
+  apply:
   open: false
 
 - title: "People Operations Coordinator"
