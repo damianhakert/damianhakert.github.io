@@ -44,7 +44,8 @@ Let's change "world" to "Africa" in the second file and check what happens:
 ![Build failed](/images/blogimages/the-basics-of-gitlab-ci/failure.png){: .shadow}
 
 The build fails as expected!
-Okay, we now have automated tests here!
+
+Okay, we now have automated tests here! GitLab CI will run our test script every time we push new code to the repository.
 
 ## Make results of builds downloadable
 
