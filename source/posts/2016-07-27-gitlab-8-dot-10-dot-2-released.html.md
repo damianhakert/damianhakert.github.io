@@ -19,7 +19,7 @@ Please read on for more details.
 - **EE:** Decouple an ES index update from `RepositoryUpdateMirrorWorker`. ([!593])
 - **EE:** Fix broken `user_allowed?` check in Git Annex push. ([!597])
 - **CE/EE:** User can now search branches by name. ([!5144])
-- **CE/EE:** Page is now properlty rendered after commiting the first file and creating the first branch. ([!5399])
+- **CE/EE:** Page is now properly rendered after committing the first file and creating the first branch. ([!5399])
 - **CE/EE:** Add branch or tag icon to ref in builds page. ([!5434])
 - **CE/EE:** Fix backup restore. ([!5459])
 - **CE/EE:** Use project ID in repository cache to prevent stale data from persisting across projects. ([!5460])
