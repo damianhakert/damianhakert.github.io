@@ -32,7 +32,7 @@ It already happened once in the last four months, so you decided to solve the pr
 ## Run our first test inside CI
 
 Five minutes to find and read the docs, and it seems like all we need is these two lines of code in a file called `.gitlab-ci.yml` [(?)](http://docs.gitlab.com/ce/ci/yaml/README.html) :
-{: .step}
+
 
 ```yaml
 test:
@@ -53,7 +53,7 @@ Okay, we now have automated tests here!
 The next business requirement is to package the code before sending it to our customers. Let's automate it as well!
 
 All we need to do is to define another job for CI. Let's name it "package":
-{: .step}
+
 
 ```yaml
 test:
@@ -67,7 +67,7 @@ We have two tabs now:
 ![](/images/blogimages/ci-logic/twotabs.png)
 
 However, we forgot to specify that the new file is a build _artifact_, so that it could be downloaded. We fix it by adding an `artifacts` section:
-{: .step}
+
 
 ```yaml
 test:
@@ -89,7 +89,7 @@ However, we have a problem to fix: the jobs are running in parallel, but we do n
 ## Run jobs sequentially
 
 We only want to run the 'package' job if the tests are successful. Let's define the order by specifying `stages`:
-{: .step}
+
 
 ```yaml
 stages:
@@ -111,7 +111,7 @@ package:
 That should be good!
 
 Also, we forgot to mention, that compilation (which is represented by concatenation in our case) takes a while, so we don't want to run it twice. Let's define a separate step for it:
-{: .step}
+
 
 ```yaml
 stages:
@@ -143,7 +143,7 @@ Let's take a look at our artifacts:
 ![](/images/blogimages/ci-logic/clean-artifacts.png)
 
 Hmm, we do not need that "compile" file to be downloadable. Let's make our temporary artifacts expire by setting `expire_in: 20 minutes`. It might look like cheating, but it works and serves the purpose:
-{: .step}
+
 
 ```yaml
 compile:
@@ -173,36 +173,6 @@ Why do we need Ruby at all? Oh, GitLab uses Docker images to run our builds, and
 
 Ok, let's explicitly specify that we want to use this image by adding `image: alpine` to `.gitlab-ci.yml`.
 Now we're talking! We shaved 2 minutes off:
-{: .step}
-
-<div style="display: none">
-<pre><code>image: alpine
-
-stages:
-  - compile
-  - test
-  - package
-
-compile:
-  stage: compile
-  script: cat file1.txt file2.txt > compiled.txt
-  artifacts:
-    paths:
-    - compiled.txt
-    expire_in: 20 minutes
-
-test:
-  stage: test
-  script: cat compiled.txt | grep -q 'Hello world'
-
-package:
-  stage: package
-  script: cat compiled.txt | gzip > packaged.gz
-  artifacts:
-    paths:
-    - packaged.gz
-</code></pre>
-</div>
 
 ![](/images/blogimages/ci-logic/speed.png)
 
@@ -224,14 +194,14 @@ stages:
 
 # ... "compile" and "test" jobs are skipped here for the sake of compactness
 
-package:gz:
+pack-gz:
   stage: package
   script: cat compiled.txt | gzip > packaged.gz
   artifacts:
     paths:
     - packaged.gz
 
-package:iso:
+pack-iso:
   stage: package
   script:
   - mkisofs -o ./packaged.iso ./compiled.txt
@@ -265,7 +235,7 @@ script:
 However, to make it semantically correct, let's put commands related to packageage installation in `before_script`. Note that if you use `before_script` at the top level of a configuration, then the commands will run before all jobs. In our case, we just want it to run before one specific job.
 
 Our final version of `.gitlab-ci.yml`:
-{: .step}
+
 
 ```yaml
 image: alpine
