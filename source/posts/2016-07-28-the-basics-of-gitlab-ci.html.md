@@ -39,10 +39,10 @@ test:
 ```
 
 Committing it, and hooray! Our build is successful:
-![](/images/blogimages/ci-logic/success.png){: .shadow}
+![Build succeeded](/images/blogimages/ci-logic/success.png){: .shadow}
 
 Let's change "world" to "Africa" in the second file and check what happens:
-![](/images/blogimages/ci-logic/failure.png){: .shadow}
+![Build failed](/images/blogimages/ci-logic/failure.png){: .shadow}
 
 The build fails as expected!
 Okay, we now have automated tests here!
@@ -63,7 +63,7 @@ package:
 ```
 
 We have two tabs now:
-![](/images/blogimages/ci-logic/twotabs.png){: .shadow}
+![Two tabs - generated from two jobs](/images/blogimages/ci-logic/twotabs.png){: .shadow}
 
 However, we forgot to specify that the new file is a build _artifact_, so that it could be downloaded. We fix it by adding an `artifacts` section:
 
@@ -80,7 +80,7 @@ package:
 ```
 
 Checking... It is there:
-![](/images/blogimages/ci-logic/artifacts.png){: .shadow}
+![Checking the download buttons](/images/blogimages/ci-logic/artifacts.png){: .shadow}
 
 Perfect!
 However, we have a problem to fix: the jobs are running in parallel, but we do not want to package our application if our tests fail.
@@ -139,7 +139,7 @@ package:
 
 Let's take a look at our artifacts:
 
-![](/images/blogimages/ci-logic/clean-artifacts.png){: .shadow}
+![Unnecessary artifact](/images/blogimages/ci-logic/clean-artifacts.png){: .shadow}
 
 Hmm, we do not need that "compile" file to be downloadable. Let's make our temporary artifacts expire by setting `expire_in` to '20 minutes':
 
@@ -163,7 +163,7 @@ Now our config looks pretty impressive:
 
 So far so good. However, it appears our builds are still slow. Let's take a look at the logs.
 
-![](/images/blogimages/ci-logic/logs.png){: .shadow}
+![Ruby 2.1 is the logs](/images/blogimages/ci-logic/logs.png){: .shadow}
 
 Wait, what is this? Ruby 2.1?
 
@@ -172,7 +172,7 @@ Why do we need Ruby at all? Oh, GitLab uses Docker images to run our builds, and
 Ok, let's explicitly specify that we want to use this image by adding `image: alpine` to `.gitlab-ci.yml`.
 Now we're talking! We shaved almost 3 minutes off:
 
-![](/images/blogimages/ci-logic/speed.png){: .shadow}
+![Build speed improved](/images/blogimages/ci-logic/speed.png){: .shadow}
 
 It looks like [there's](https://hub.docker.com/_/mysql/) [a lot of](https://hub.docker.com/_/python/) [public images](https://hub.docker.com/_/java/) [around](https://hub.docker.com/_/php/). So we can just grab one for our technology stack. It makes sense to specify an image which contains no extra software because it minimizes download time.
 
@@ -283,7 +283,7 @@ pack-iso:
 
 Wow, it looks like we have just created a pipeline! We have three sequential stages, but jobs `pack-gz` and `pack-iso`, inside the `package` stage, are running in parallel:
 
-![](/images/blogimages/ci-logic/pipeline.png)
+![Pipelines illustration](/images/blogimages/ci-logic/pipeline.png)
 
 ## Summary
 
