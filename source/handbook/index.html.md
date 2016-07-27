@@ -94,7 +94,7 @@ help and advise. Anyone can chime in on any subject. You don't have to comply wi
 all feedback but you should always take it seriously. An example is the inclusion
 of people from outside GitLab Inc. in the [core team](https://about.gitlab.com/core-team/).
 1. **Directness**: We try to channel our inner Ben Horowitz by being [both straightforward
-and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b).
+and kind, an uncommon cocktail of no-bullshit and no-asshole](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b). Although the feedback is always about your work and not your person it will not be easy to receive it.
 1. **Kindness**: We don't want [jerks](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) in our team.
 Some companies say [Evaluate People Accurately, Not "Kindly"](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf).
 We're all for accurate assessment but we think it must be done in a kind way.
