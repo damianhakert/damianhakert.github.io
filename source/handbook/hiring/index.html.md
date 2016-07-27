@@ -19,14 +19,15 @@ If you want to hire for a position please [make a job description](#vacancy-crea
 
 The CEO needs to authorize any new job positions/searches, and agree on the proposed hiring team.
 
-1. Define role and ask the [compensation committee](/handbook/people-operations/#compensation-committee) for compensation baselines / bands / guidelines. If the location of the applicant is important, then a compensation range corresponding to that location can be provided as part of the job posting.
+1. Define role and ask People Ops for compensation baselines / bands / guidelines. People Ops proposes a compensation range and submits this to the [compensation committee](/handbook/people-operations/#compensation-committee) for approval. 
+1. CEO approves the job requisition, which at this point includes title, role, and target compensation range.
 1. Define hiring team. Roles can be assigned fluidly (see below for the
    [Hiring Process](#hiring-process)), depending on who is available, bearing in
    mind that the most time-consuming aspect tends to be review of the first wave
    of applicants.
 1. If there is not already a job description, create the job description on our website; assign the merge request to the CEO as a way to obtain authorization.
     1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`
-       if it doesn't already exist.
+       if it doesn't already exist. If the location of the applicant is important, then the location and a compensation range corresponding to that location can be provided as part of the job posting.
     1. In the [`data/jobs.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) file, open the position or add a new entry for it. Positions are automatically sorted alphabetically by `title` on the [jobs page](/jobs/). When someone views the job's description page, an "Apply" button will be shown for that position if we're currently hiring for it.
           - Adding a new position: add an entry with the following format:
 
