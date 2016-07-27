@@ -11,7 +11,7 @@ twitter_image: '/images/tweets/the-11-rules-of-gitlab-flow.png'
 Version management with [Git] is an improvement over methods used before Git in just about every way. However, many organizations end up with messy workflows, or overly complex ones. This is particularly a problem for organizations who have transitioned from another version control system.
 
 In this post we're laying out 11 rules for the [GitLab Workflow][doc], as proposed by [Kelvin Mutuma][kelvin], to help simplify and clean it up. The major benefit of the rules (or so we hope) is that it simplifies the process and produces a more efficient and cleaner outcome.
- 
+
 We think there's always room for improvement, and everything is a draft. As always, **everyone can contribute**! Feedback and opinions are very welcome.
 
 <!-- more -->
@@ -54,7 +54,9 @@ If you tag something, that creates a new release.
 <i class="fa fa-eye-slash" aria-hidden="true"></i> **8. Pushed commits are never rebased.**
 {: .alert .alert-success .green}
 
-As soon as you commit, you should never rebase it; you don’t want to lose information. 
+If you push to a public branch you shouldn't rebase it since that makes it hard to follow what you're improving, what the test results were, and it breaks cherrypicking.
+We sometimes sin against this rule ourselves when we ask a contributor to squash and rebase at the end of a review process to make something easier to revert.
+But in general the guideline is: code should be clean, history should be realistic.
 
 <i class="fa fa-folder-open-o" aria-hidden="true"></i> **9. Everyone starts from master, and targets master.**
 {: .alert .alert-success .green}
@@ -68,7 +70,7 @@ If you find a bug, the **worst** thing you can do is fix it in the just-released
 
 <i class="fa fa-pencil-square-o" aria-hidden="true"></i> **11. Commit messages reflect intent.**
 {: .alert .alert-success .green}
- 
+
 You should not only say what you did, but also why you did it. It’s even more useful if you explain why you did this over any other options.
 
 ----
