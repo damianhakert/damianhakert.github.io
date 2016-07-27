@@ -95,7 +95,7 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 1. Won - Deal won and booked
 1. Lost - Opportunity not won at this time
 
-### Processing Orders via Zuora <a name="processing"></a>
+### Processing Orders <a name="processing"></a>
 
 #### Step 1 - New Account
 1. Click on the Accounts tab
