@@ -172,7 +172,7 @@ Wait, what is this?
 Why do we need Ruby at all? Oh, GitLab uses Docker images to run our builds, and [by default](https://about.gitlab.com/gitlab-com/settings/) it uses the [`ruby:2.1`](https://hub.docker.com/_/ruby/) image. For sure, this image contains many packageages we don't need. After a minute of googling, we figure out that there's an image called [`alpine`](https://hub.docker.com/_/alpine/) which is an almost blank Linux image.
 
 Ok, let's explicitly specify that we want to use this image by adding `image: alpine` to `.gitlab-ci.yml`.
-Now we're talking! We shaved 2 minutes off:
+Now we're talking! We shaved almost 3 minutes off:
 
 ![](/images/blogimages/ci-logic/speed.png){: .shadow}
 
