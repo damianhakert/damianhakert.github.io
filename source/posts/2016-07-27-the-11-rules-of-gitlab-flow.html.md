@@ -75,7 +75,7 @@ You should not only say what you did, but also why you did it. It’s even more 
 
 ----
 
-Read more at the [GitLab Workflow documentation][doc].
+Read more at the [GitLab Flow documentation][doc].
 
 Follow [@GitLab] and stay tuned for the next post!
 
