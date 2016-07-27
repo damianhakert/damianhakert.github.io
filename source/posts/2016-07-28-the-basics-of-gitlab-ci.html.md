@@ -210,7 +210,12 @@ pack-iso:
     - packaged.iso
 ```
 
-However, `mkisofs` is not included in the `alpine` image, so we need to install it first.
+Note that job names shouldn't be necessarily the same. In fact if they should be the same, we would be no way to make them run in parallel inside the same stage. Hence, think of same names of jobs & stages as coincedence.
+
+Anyhow, the build is failing:
+![Failed build because of missing mkisofs](/images/blogimages/ci-logic/mkisofs.png)
+
+The is that `mkisofs` is not included in the `alpine` image, so we need to install it first.
 
 ## Dealing with missing software/packageages
 
@@ -257,14 +262,14 @@ test:
   stage: test
   script: cat compiled.txt | grep -q 'Hello world'
 
-package:gz:
+pack-gz:
   stage: package
   script: cat compiled.txt | gzip > packaged.gz
   artifacts:
     paths:
     - packaged.gz
 
-package:iso:
+pack-iso:
   stage: package
   before_script:
   - echo "ipv6" >> /etc/modules
@@ -277,7 +282,7 @@ package:iso:
     - packaged.iso
 ```
 
-Wow, it looks like we have just created a pipeline! We have three sequential stages, but jobs `package:gz` and `package:iso`, inside the `package` stage, are running in parallel:
+Wow, it looks like we have just created a pipeline! We have three sequential stages, but jobs `pack-gz` and `pack-iso`, inside the `package` stage, are running in parallel:
 
 ![](/images/blogimages/ci-logic/pipeline.png)
 
