@@ -5,7 +5,6 @@ categories: GitLab CI
 author: Ivan Nemytchenko
 author_twitter: inemation
 image_title: '/images/blogimages/the-basics-of-gitlab-ci/hello.png'
-
 ---
 
 Let's assume that you don't know anything about what Continuous Integration is and why it's needed. Or, you just forgot. Anyway, we're starting from scratch here.
@@ -53,7 +52,6 @@ The next business requirement is to package the code before sending it to our cu
 
 All we need to do is to define another job for CI. Let's name it "package":
 
-
 ```yaml
 test:
   script: cat file1.txt file2.txt | grep -q 'Hello world'
@@ -66,7 +64,6 @@ We have two tabs now:
 ![Two tabs - generated from two jobs](/images/blogimages/the-basics-of-gitlab-ci/twotabs.png){: .shadow}
 
 However, we forgot to specify that the new file is a build _artifact_, so that it could be downloaded. We fix it by adding an `artifacts` section:
-
 
 ```yaml
 test:
@@ -88,7 +85,6 @@ However, we have a problem to fix: the jobs are running in parallel, but we do n
 ## Run jobs sequentially
 
 We only want to run the 'package' job if the tests are successful. Let's define the order by specifying `stages`:
-
 
 ```yaml
 stages:
