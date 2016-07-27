@@ -451,6 +451,8 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Ergonomic [chair](http://www.amazon.com/dp/B00S7EMFN6?psc=1)
     *  Work-related books
     *  Mobile phone, we commonly pay for an iPhone SE if you travel a lot as a Developer Advocate.
+    *  [Whiteboard](https://www.amazon.com/Viz-Pro-Melamine-Inches-Silver-Aluminium/dp/B01461WT9S/ref=sr_1_17?ie=UTF8&qid=1469618096&sr=8-17-spons&keywords=whiteboard&psc=1)
+    *  [Yubikey](https://www.yubico.com/store/)
     *  Something else? No problem, and consider adding it to this list if others can benefit as well.
 1. **Expenses.** The company will reimburse for the following expenses if you need it for work or use it mainly for business, and local law allows us to pay for it without incurring taxes:
     *  Mileage is reimbursed according to local law: [US rate per mile](http://www.irs.gov/Tax-Professionals/Standard-Mileage-Rates), or [rate per km](http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/auto_en_vervoer/auto_van_de_onderneming/autokosten/u_rijdt_in_uw_eigen_auto) in the Netherlands.
