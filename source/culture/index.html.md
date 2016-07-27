@@ -54,7 +54,7 @@ What better way to convey a sense of who we are and how we work together, than b
     </figure>
   </div>
   <div class="col-sm-4 col-xm-12">
-    <p class="justify">We even took the Boat from San Francisco to Las Vegas to celebrate Job's bachelor party, but as you can see in the video below he thought we were going to visit a customer in Los Angeles!</p>
+    <p class="justify">We even took the Boat from San Francisco to Las Vegas to celebrate Job's bachelor party, but as you can see in this video, he thought we were going to visit a customer in Los Angeles!</p>
   </div>
 </div>
 
