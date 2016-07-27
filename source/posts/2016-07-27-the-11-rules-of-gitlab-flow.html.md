@@ -1,6 +1,6 @@
 ---
 title: "The 11 Rules of GitLab Flow"
-categories: GitLab
+categories: GitLab workflow
 author: Sid Sijbrandij
 author_twitter: sytses
 image_title: '/images/blogimages/the-11-rules-of-gitlab-flow-cover.png'
