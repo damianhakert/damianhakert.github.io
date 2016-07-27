@@ -1,16 +1,16 @@
 ---
-title: "The 11 Commandments of GitLab Flow"
+title: "The 11 Rules of GitLab Flow"
 categories: GitLab
 author: Sid Sijbrandij
 author_twitter: sytses
-image_title: '/images/blogimages/the-11-commandments-of-gitlab-flow-cover.png'
-description: "Doing Git Right: The 11 Commandments of GitLab Flow"
-twitter_image: '/images/tweets/the-11-commandments-of-gitlab-flow.png'
+image_title: '/images/blogimages/the-11-rules-of-gitlab-flow-cover.png'
+description: "Doing Git Right: The 11 Rules of GitLab Flow"
+twitter_image: '/images/tweets/the-11-rules-of-gitlab-flow.png'
 ---
 
 Version management with [Git] is an improvement over methods used before Git almost as a rule. However, many organizations end up with messy workflows, or overly complex ones. This is particularly a problem for organizations who have transitioned from another version control system.
 
-In this post we're laying out 11 rules for the [GitLab Workflow][doc], as proposed by [Kelvin Mutuma][kelvin], to help simplify and clean it up. The major benefit of the commandments (or so we hope) is that it simplifies the process and produces a more efficient and cleaner outcome.
+In this post we're laying out 11 rules for the [GitLab Workflow][doc], as proposed by [Kelvin Mutuma][kelvin], to help simplify and clean it up. The major benefit of the rules (or so we hope) is that it simplifies the process and produces a more efficient and cleaner outcome.
  
 We think there's always improvement and everything is a draft. As always, **everyone can contribute**! Feedback and opinions are very welcome.
 
