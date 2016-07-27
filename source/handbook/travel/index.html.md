@@ -50,9 +50,9 @@ an interview so far ahead of your trip. Don't take their word for it, since that
 advice is typically made with the "typical, best case"  process in mind and for example in the case of the USA does
 not account for the possibility of a black hole "administrative processing" period.
 In other words, make sure you get an appointment as early as possible.
-   - In the case of applying for a visa for the USA: If the country where the embassy/consulate is located where you are going for your application is listed as anything other than "High Income" by the
+   - If the country where the embassy/consulate is located where you are going for your application is listed as anything other than "High Income" by the
 [World Bank's "Little Data Book"](https://openknowledge.worldbank.org/bitstream/handle/10986/23968/9781464808340.pdf?sequence=4&isAllowed=y)
-then it is likely that the embassy/consulate there has a [high tendency to say "no" to visa applications](http://www.alllaw.com/articles/nolo/us-immigration/harder-get-visa-from-certain-countries.html). We recommend to engage the services of a local lawyer who is familiar with the US embassy process to help check that your paperwork is in order, and to practice interview questions. You're also welcome to ask for support when you are in a "High Income" country. People Ops can help you with this.       
+then it is likely that the embassy/consulate there has a [high tendency to say "no" to visa applications](http://www.alllaw.com/articles/nolo/us-immigration/harder-get-visa-from-certain-countries.html). We recommend to engage the services of a local lawyer who is familiar with the embassy process to help check that your paperwork is in order, and to practice interview questions. You're also welcome to ask for support when you are in a "High Income" country. People Ops can help you with this.       
 - **4 months beforehand** (or earlier): go to embassy for interview.
 - **2 months beforehand**: if you have not received your visa by now, contact your local lawyer again, and/or People Ops, to see if anything can be done to expedite the process.
 
