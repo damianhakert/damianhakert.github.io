@@ -1,23 +1,24 @@
 ---
-title: "GitLab CI: Learn how to run jobs sequentially, in parallel, or build a custom pipeline"
+title: "GitLab CI: Run jobs sequentially, in parallel or build a custom pipeline"
+description: "GitLab CI: Learn how to run jobs sequentially, in parallel, or build a custom pipeline"
 date: 2016-07-28
-categories: tutorial
+categories: GitLab CI
 author: Ivan Nemytchenko
 author_twitter: inemation
 image_title: '/images/blogimages/ci-logic/hello.png'
 
 ---
 
-Let's assume that you don't know anything about what  Continuous Integration is and why it's needed. Or, you just forgot. Anyway, we're starting from scratch here.
+Let's assume that you don't know anything about what Continuous Integration is and why it's needed. Or, you just forgot. Anyway, we're starting from scratch here.
 
-Imagine, you work on a project, where all the code consists of two text files. Moreover, it is super-critical that concatenation of these two files contains the phrase "Hello world".
+Imagine that you work on a project, where all the code consists of two text files. Moreover, it is super-critical that the concatenation of these two files contains the phrase "Hello world".
 
 If there's no such phrase, the whole development team stays without a salary for a month. Yeah, that is damn serious!
 
 <!-- more -->
 
 The most responsible developer wrote a small script to run every time we are about to send our code to customers.
-Code is pretty sophisticated:
+The code is pretty sophisticated:
 
 ```bash
 cat file1.txt file2.txt | grep -q "Hello world"
@@ -25,11 +26,11 @@ cat file1.txt file2.txt | grep -q "Hello world"
 
 The problem is that there are ten developers in the team, and, you know, human factors can hit hard.
 
-It already happened once in the last four months, so you decided to solve the problem once and for all. Luckily, your code is already on GitLab, and you remember that there is a [built-in CI system](https://about.gitlab.com/gitlab-ci/). Moreover, you heard at a conference that people use CI to run tests...
+A week ago a new guy forgot to run the script, and three clients got broken builds. So you decided to solve the problem once and for all. Luckily, your code is already on GitLab, and you remember that there is a [built-in CI system](https://about.gitlab.com/gitlab-ci/). Moreover, you heard at a conference that people use CI to run tests...
 
 ## Run our first test inside CI
 
-Five minutes to find and read the docs, and it seems like all we need is these two lines of code in a file called `.gitlab-ci.yml` [(?)](http://docs.gitlab.com/ce/ci/yaml/README.html) :
+After a couple minutes to find and read the docs, it seems like all we need is these two lines of code in a file called `.gitlab-ci.yml` [(?)](http://docs.gitlab.com/ce/ci/yaml/README.html) :
 
 
 ```yaml
@@ -140,8 +141,7 @@ Let's take a look at our artifacts:
 
 ![](/images/blogimages/ci-logic/clean-artifacts.png){: .shadow}
 
-Hmm, we do not need that "compile" file to be downloadable. Let's make our temporary artifacts expire by setting `expire_in: 20 minutes`. It might look like cheating, but it works and serves the purpose:
-
+Hmm, we do not need that "compile" file to be downloadable. Let's make our temporary artifacts expire by setting `expire_in` to '20 minutes':
 
 ```yaml
 compile:
@@ -159,13 +159,13 @@ Now our config looks pretty impressive:
 - We are passing the compiled app to the next stages so that there's no need to run compilation twice (so it will run faster).
 - We are storing a packaged version of our app in build artifacts for further usage.
 
-## Learning what Docker image to use
+## Learning which Docker image to use
 
-However, it appears our builds are still slow. Let's look at the logs.
+So far so good. However, it appears our builds are still slow. Let's take a look at the logs.
 
 ![](/images/blogimages/ci-logic/logs.png){: .shadow}
 
-Wait, what is this?
+Wait, what is this? Ruby 2.1?
 
 Why do we need Ruby at all? Oh, GitLab uses Docker images to run our builds, and [by default](https://about.gitlab.com/gitlab-com/settings/) it uses the [`ruby:2.1`](https://hub.docker.com/_/ruby/) image. For sure, this image contains many packageages we don't need. After a minute of googling, we figure out that there's an image called [`alpine`](https://hub.docker.com/_/alpine/) which is an almost blank Linux image.
 
@@ -178,9 +178,9 @@ It looks like [there's](https://hub.docker.com/_/mysql/) [a lot of](https://hub.
 
 ## Dealing with complex scenarios
 
-So far so good. However, let's suppose we just got a new client who wants to get an `.iso` instead of `.gz`
+So far so good. However, let's suppose we have a new client who wants us to package our app into `.iso` image instead of `.gz`
 Since CI does the whole work, we can just add one more job to it.
-Iso images can be created using the `mkisofs` command. Here's how our config should look:
+Iso images can be created using the [mkisofs](http://linuxcommand.org/man_pages/mkisofs8.html) command. Here's how our config should look:
 
 ```yaml
 image: alpine
@@ -287,7 +287,7 @@ Wow, it looks like we have just created a pipeline! We have three sequential sta
 
 ## Summary
 
-There's much more to cover but let's stop here for now. I hope you liked this short story. All examples were made trivial intentionally so that you could learn concepts of GitLab CI without being distracted by an unfamiliar technology stack. Let's wrap up what we have learned:
+There's much more to cover but let's stop here for now. I hope you liked this short story. All examples were made intentionally trivial so that you could learn the concepts of GitLab CI without being distracted by an unfamiliar technology stack. Let's wrap up what we have learned:
 
 1. To delegate some work to GitLab CI you should define one or more [jobs](http://docs.gitlab.com/ce/ci/yaml/README.html#jobs) in `.gitlab-ci.yml`.
 2. Jobs should have names, and it's your responsibility to come up with good names.
