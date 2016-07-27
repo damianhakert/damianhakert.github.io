@@ -310,5 +310,5 @@ Below is the last section containing a more formal description of terms and keyw
 
 Don't miss these GitLab CI stories as well:
 
-- [Migrating from Jenkins to GitLab CI](https://blog.captaintrain.com/12703-building-on-gitlab-ci)
+- [Migrating from Jenkins to GitLab CI](https://about.gitlab.com/2016/07/22/building-our-web-app-on-gitlab-ci/)
 - [Decreasing build time from 8 minutes 33 seconds to just 10 seconds](http://beenje.github.io/blog/posts/gitlab-ci-and-conda/)
