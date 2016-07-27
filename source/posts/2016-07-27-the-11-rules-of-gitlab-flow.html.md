@@ -91,6 +91,6 @@ Follow [@GitLab] and stay tuned for the next post!
   color: rgb(60,118,61) !important;
 }
 .green i {
-  color: rgb(85,68,136) !important;
+  color: rgb(226,67,41) !important;
 }
 </style>
