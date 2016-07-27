@@ -692,11 +692,10 @@
   locality: Zeist
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Junior Developer</a>
-  reports_to: Backend Lead
+  reports_to: CI Lead
   picture: zegerjan.jpeg
   twitter: zjvandeweg
   gitlab: zj
-  maintains: |
   maintains: |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ci-yml/">.gitlab-ci.yml</a> templates</li>
               <li>Award Emoji <a href="/jobs/expert/">expert</a></li>
