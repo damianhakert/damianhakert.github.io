@@ -147,7 +147,7 @@ Follow these steps to send out a signature request.
 1. Upload your document that needs signing
 1. Enter the names of the people that need to sign
 1. With more than one signature required, assign signing order (for contracts or offer letters, always have the GitLab Signatory sign first)
-1. Add the People Ops team to the cc
+1. Add the People Ops team to the cc. Also add the hiring manager to the cc, if that person is different from the signatory. 
 1. Click on "Prepare Docs for signing"
 1. Drag & Drop the Signature and Date fields to the corresponding empty spaces in the document (you can select the signee with the pop up screen)
 1. For GitLab Inc. agreements, add a required textbox to Exhibit A, and a supplemental larger textbox below for a comment that is not required.

@@ -257,7 +257,7 @@ Offers made to new team members should be documented in the email thread between
 
 1. Email example is in the "Offer letter" template in Workable. When using the template:
    1. make sure that you offer the correct [contract type and entity](/handbook/contracts/#how-to-use)
-   1. include the People Ops alias in the cc, and
+   1. include the People Ops alias in the cc (when you are ready for a written contract to be made), and
    1. change the subject line of the email. The default subject line in Workable is "{position name} - GitLab", but when making multiple hires for the same position, this can cause confusion in a Gmail inbox that collects conversation threads based on subject line. So for example make it "{first name of applicant} - offer for {position name} at GitLab" (this is something that we cannot do in the template, unfortunately).
    1. Note: the number of proposed stock options must always be mentioned specifically, even when it is 0.
 1. One person from People Operations will reply-to-all to everyone in the thread (including the applicant) to confirm that they will make the contract. Speed matters: if you are in People Operations and you can tackle this, then raise your hand and hit reply-all.
@@ -266,10 +266,11 @@ Offers made to new team members should be documented in the email thread between
       - was it approved by the CEO?
       - do the contract type and entity make sense?
       - is it clear how many (if any) stock options this person should receive?
+      - is all necessary information (start date, salary, etc.) clearly agreed to? 
    1. makes the contract based on the details found in the Workable platform, using reply-all to gather any missing pieces of information,
    1. has the contract reviewed by the VP of Scaling, CEO, or CFO (should not be the same as the person making the offer)
-   1. confirms with a reply-to-all when the contract is sent.
-1. When the contract is signed, the People Ops team member should move the candidate in Workable to the "Hired" bucket of the "Hired Team Members (admin access only)" job. This accomplishes two goals. First, thanks to an integration between Workable and BambooHR, it will automatically add an entry for the new team member in BambooHR. However, in the automatic move, "self-service" is switched off in BambooHR by default, so this must be switched on explicitly within BambooHR. Second, by keeping the application and interview notes of successful applicants in a more restricted area of Workable we are able to maintain confidentiality if/when the applicant becomes involved in the hiring process for their peers.
+   1. confirms with a reply-to-all when the contract is sent. 
+1. When the contract is signed, the People Ops team member or hiring manager should move the candidate in Workable to the "Hired" bucket of the "Hired Team Members (admin access only)" job. This accomplishes two goals. First, thanks to an integration between Workable and BambooHR, it will automatically add an entry for the new team member in BambooHR. However, in the automatic move, "self-service" is switched off in BambooHR by default, so this must be switched on explicitly within BambooHR. Second, by keeping the application and interview notes of successful applicants in a more restricted area of Workable we are able to maintain confidentiality if/when the applicant becomes involved in the hiring process for their peers.
 1. This same person from People Operations files the signed contract in the appropriate place, and starts the [**onboarding issue**](https://about.gitlab.com/handbook/general-onboarding/).
 
 Note for People Operations:<br>
