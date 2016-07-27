@@ -34,12 +34,20 @@ What better way to convey a sense of who we are and how we work together, than b
 
 ### Remember...
 
-**the boat?**<br>
-![](/images/team/boat.jpg)<br>
-[Back then](https://about.gitlab.com/2016/01/06/our-y-combinator-experience/), the whole team used to fit in one car. And the car was called the "boat".
+#### **The boat?**
 
-**staring down the cattle?**<br>
-![](/images/cattle_stare.jpg)<br>
+![The Boat](/images/team/boat.jpg)<br>
+[Back then](https://about.gitlab.com/2016/01/06/our-y-combinator-experience/), the whole team used to fit in one car. And the car was called the "boat". We even took the boat from San Francisco to Las Vegas to celebrate Job's bachelor party, but as you can see in the video below he thought we were going to visit a customer in Los Angeles!
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/4TnKmrpiSgQ" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+<br>
+
+#### **Staring down the cattle?**
+
+<center> ![Staring down cattle](/images/cattle_stare.jpg) </center><br>
 Our CFO, Paul, was on vacation on a cattle ranch, during a time of fundraising. Normally vacation is vacation of course, but in this case it was necessary to have some calls now and again which required strong internet. To get to strong internet, Paul had to cross fields with cattle in them, and stare them down. Over the course of many trips he learned that cattle are docile, mostly... but don't turn your back on them because they can't be outrun!
 
 
