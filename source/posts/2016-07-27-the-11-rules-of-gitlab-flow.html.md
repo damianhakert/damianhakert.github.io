@@ -10,7 +10,7 @@ twitter_image: '/images/tweets/the-11-rules-of-gitlab-flow.png'
 
 Version management with [Git] is an improvement over methods used before Git in just about every way. However, many organizations end up with messy workflows, or overly complex ones. This is particularly a problem for organizations who have transitioned from another version control system.
 
-In this post we're laying out 11 rules for the [GitLab Workflow][doc], as proposed by [Kelvin Mutuma][kelvin], to help simplify and clean it up. The major benefit of the rules (or so we hope) is that it simplifies the process and produces a more efficient and cleaner outcome.
+In this post we're laying out 11 rules for the [GitLab Workflow][doc], to help simplify and clean it up. The major benefit of the rules (or so we hope) is that it simplifies the process and produces a more efficient and cleaner outcome.
 
 We think there's always room for improvement, and everything is a draft. As always, **everyone can contribute**! Feedback and opinions are very welcome.
 
