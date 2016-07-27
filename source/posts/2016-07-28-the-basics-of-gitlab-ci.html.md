@@ -29,7 +29,7 @@ A week ago a new guy forgot to run the script, and three clients got broken buil
 
 ## Run our first test inside CI
 
-After a couple minutes to find and read the docs, it seems like all we need is these two lines of code in a file called `.gitlab-ci.yml` [(?)](http://docs.gitlab.com/ce/ci/yaml/README.html) :
+After a couple minutes to find and read the docs, it seems like all we need is these two lines of code in a file called `.gitlab-ci.yml`:
 
 
 ```yaml
