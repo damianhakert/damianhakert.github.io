@@ -45,8 +45,8 @@
 
 - title: "Marketing Operations Manager"
   description: /jobs/marketing-operations-manager/
-  apply: https://gitlab.workable.com/jobs/268275/candidates/new
-  open: true
+  apply: 
+  open: false
 
 - title: "People Operations Coordinator"
   description: /jobs/people-ops-coordinator/
