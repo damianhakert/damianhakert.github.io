@@ -1,7 +1,6 @@
 ---
 title: "GitLab CI: Run jobs sequentially, in parallel or build a custom pipeline"
 description: "GitLab CI: Learn how to run jobs sequentially, in parallel, or build a custom pipeline"
-date: 2016-07-28
 categories: GitLab CI
 author: Ivan Nemytchenko
 author_twitter: inemation
