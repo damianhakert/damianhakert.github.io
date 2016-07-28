@@ -3,15 +3,17 @@ layout: markdown_page
 title: "Content Marketing"
 ---
 
-Welcome to the Content Marketing Handbook
+## Welcome to the Content Marketing Handbook
 
-[Up one level to the Product Marketing Handbook](../) {::comment} TIP FOR ONE LEVEL UP :)  {:/comment}
+----
 
 ## On this page
 {:.no_toc}
 
-* Will be replaced with the ToC, excluding the "On this page" header
+- TOC
 {:toc}
+
+----
 
 ## Introduction<a name="intro"></a>
 
@@ -52,6 +54,7 @@ which welcome newcomers, celebrate with existing users, and provide access to ex
 - [How to add or remove users to a channel](https://support.google.com/youtube/answer/4628007?hl=en)
 - The direct link to add and remove users for the manager is [here](https://plus.google.com/u/0/b/107491817347842790515/pages/settings/admin).
 - If you’d like to add video bumpers to the beginning or end of your video, please download from this [issue](https://gitlab.com/gitlab-com/gitlab-artwork/tree/master/video-bumpers).
+- **Protip:** If you’re using [ScreenFlow](http://www.telestream.net/screenflow/) to record a screencast, there’s a [checkbox to remove background noise](http://www.telestream.net/telestream-support/screen-flow/help/Editing.06.21.html) from your audio.
 
 ### Monthly Program
 
@@ -108,7 +111,6 @@ GoToWebinar doesn't send out a Google calendar friendly invite
 - Include their actual URL from their invite.
 - Do the same for the rehearsal invitation.
 
-
 #### Create the program in Marketo
 
 - Clone the last campaign
@@ -138,7 +140,7 @@ Check the smart list and flow first. To activate: Click the "registered" smart c
 - Process the recording as .mov
 - Upload to YouTube and slides to Speakerdeck
 - Blog post to share the recording and slides
-
+- **Protip:** If you’re using [ScreenFlow](http://www.telestream.net/screenflow/) to record a screencast, there’s a [checkbox to remove background noise](http://www.telestream.net/telestream-support/screen-flow/help/Editing.06.21.html) from your audio.
 
 ### Viewing webcasts<a name="view"></a>
 
