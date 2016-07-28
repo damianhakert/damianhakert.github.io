@@ -51,7 +51,7 @@ for further details on that process.
 * [ ] @wilson: Remove access to company credit card.
 * [ ] People Ops: Remove from Beamy
 * [ ] People Ops: Remove team member from the GitLab availability calendar.
-* [ ] People Ops: Remove team member from the GitLab Birthdays calendar. 
+* [ ] People Ops: Remove team member from the GitLab Birthdays calendar, along with entry for birthday and work anniversary. 
 * [ ] People Ops: Remove team member from team call invitation; and remove from Team Call Agenda.
 * [ ] Ernst/Paul: Remove team member from HelloSign, if applicable.
 * [ ] People Ops: Remove team member from map / Sundial.

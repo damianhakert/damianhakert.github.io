@@ -139,7 +139,7 @@ Follow these steps to send out a signature request.
 1. Upload your document that needs signing
 1. Enter the names of the people that need to sign
 1. With more than one signature required, assign signing order (for contracts or offer letters, always have the GitLab Signatory sign first)
-1. Add the People Ops team to the cc. Also add the hiring manager to the cc, if that person is different from the signatory. 
+1. Add the People Ops team to the cc. Also add the hiring manager to the cc, if that person is different from the signatory.
 1. Click on "Prepare Docs for signing"
 1. Drag & Drop the Signature and Date fields to the corresponding empty spaces in the document (you can select the signee with the pop up screen)
 1. For GitLab Inc. agreements, add a required textbox to Exhibit A, and a supplemental larger textbox below for a comment that is not required.
@@ -239,7 +239,7 @@ Items paid for by the company are property of the company.
 
 Assets with purchasing value in excess of $1000 USD are tracked in BambooHR, for assets of lower value we rely on the honor system. These assets come to People Ops attention by one of two ways: 1. People Ops makes the purchase on behalf of the team member, or 2. the Finance team notices the line items on expense reports / invoices and passes this along to People Ops.
 
-The information is then entered into BambooHR (to track who has which piece of equipment) by People Ops, and it is included in the Fixed Asset Schedule by Finance (to track asset value and depreciation). 
+The information is then entered into BambooHR (to track who has which piece of equipment) by People Ops, and it is included in the Fixed Asset Schedule by Finance (to track asset value and depreciation).
 
 1. Go to the team member in BambooHR
 1. Click on the Assets Tab
@@ -263,7 +263,7 @@ calendar" in the top of the window. Enter the GitLab email address and scroll
 down to set the permission setting to "make changes to events" Then save in the
 lower left corner.
 - **Add team member to the GitLab Birthdays calendar**
-Go to your calendar window, under my calendar select the GitLab Birthdays calendar. Go to the team member's birthdate and add an all day event with their name as the title. Change the setting to repeat annually. Share this calendar with the new team member.  
+Go to your calendar window, under my calendar select the GitLab Birthdays calendar. Go to the team member's birthdate and add an all day event with their name as the title. Change the setting to repeat annually. Also add an entry for the team member's work anniversary. Change the color of the event to blue, make it an annual event, and include Name and Work Anniversary in the title. Share this calendar with the new team member.  
 - **Add blank entry to team page**<a name="blank-entry"></a>
 Login to [Gitlab.com](www.gitlab.com) and go to the www-gitlab-com project. In
 the left menu click "Files," select "data," and choose the file called team.yml. In the top right

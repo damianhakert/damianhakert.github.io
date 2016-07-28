@@ -22,11 +22,26 @@ Top 10 reasons to work for GitLab:
 1. Focussed on results, not on long hours, so that you can have a life and don't burn out.
 1. Open internal processes, know what you're getting in to and be assured we're thoughtful and effective
 
+## Historical Anecdotes
+
+### _August 2nd_
+
+Sid and Dmitry started GitLab.
+
+### _August 15th_
+
+Series A Funding was signed.
+
+### _October 10th_
+
+Anniversary of our fitst ever summit in Amsterdam with 25 team members. 
+
 ## Summits
 
 Approximately every 6-9 months, we gather in person to see how tall everyone is (hard to see with video conferencing), and to
 get to know each other better by working and 'playing' together. Here are some
- [impressions from the Summit in Amsterdam, October 2015](https://about.gitlab.com/2015/11/30/gitlab-summit-2015/).
+ [impressions from our first Summit in Amsterdam, October 2015](https://about.gitlab.com/2015/11/30/gitlab-summit-2015/).
+
 
 ## Team Stories
 
