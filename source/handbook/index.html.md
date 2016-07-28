@@ -445,7 +445,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  External [monitor](http://www.amazon.com/gp/product/B009C3M7H0?psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s00), [monitor-cable](http://www.amazon.com/Monoprice-32AWG-Mini-DisplayPort-Cable/dp/B0034X6SCY/ref=sr_1_1?ie=UTF8&qid=1442231319&sr=8-1&keywords=Monoprice+6ft+32AWG+Mini+DisplayPort+to+DisplayPort+Cable+-+White),
     *  [Webcam](https://www.amazon.com/gp/product/B004YW7WCY/)
     *  [Ethernet connector](https://www.amazon.com/gp/product/B00FFJ0RKE)
-    *  [Headset](http://www.amazon.com/Microsoft-LifeChat-LX-3000-Headset-JUG-00013/dp/B00906E03I?ie=UTF8&keywords=microsoft%20headset&qid=1459468311&ref_=sr_1_1&sr=8-1)
+    *  [Headset](http://www.apple.com/shop/product/MD827LL/A/apple-earpods-with-remote-and-mic?fnode=ac5827eb0f710d43c99d3715a05c0470fc91de286c1b5b57d4ff3412191a59385cab6f561626d062ee8e07a4b043fc12ab31a822639ade516ee00e2f5c61576a5ddb7e97cbb90a6ea5af3add73c1d412017bb8691535185d1776390844ca2825)
     *  Keyboard and mouse [set](http://www.amazon.com/Logitech-Wireless-Combo-Mk520-Keyboard/dp/B003VANO7C/ref=sr_1_31?ie=UTF8&qid=1458505505&sr=8-31&keywords=keyboard)
     *  Height adjustable [desk](http://www.amazon.com/ApexDesk-Electric-Height-Adjustable-Standing/dp/B00WRJMYPG/ref=sr_1_40?s=office-products&ie=UTF8&qid=1458506071&sr=1-40&keywords=desk)
     *  Ergonomic [chair](http://www.amazon.com/dp/B00S7EMFN6?psc=1)
