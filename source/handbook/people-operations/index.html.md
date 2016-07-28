@@ -9,14 +9,6 @@ title: "People Operations"
 - You can also send an email to the People Operations group (see the "GitLab Email Forwarding" google doc for the alias), or ping an individual member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
 - [**Chat channel**](https://gitlab.slack.com/archives/peopleops); please use the `#peopleops` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
 
-
-## On this page
-{:.no_toc}
-
-- TOC
-{:toc}
-
-
 ## Other pages related to People Operations
 
 - [Hiring process](/handbook/hiring/)
@@ -26,14 +18,17 @@ title: "People Operations"
 - [Benefits](/handbook/benefits/)
 - [Travel](/handbook/travel/)
 
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+
 ## Role of People Operations
 <a name="role-peopleops"></a>
 
 In general, the People Operations team and processes are here as a service to the rest of the team; helping make your life easier so that you can focus on your work and contributions to GitLab. On that note, please don't hesitate to [reach out](#reach-peopleops) with questions! In the case of a conflict between the company and a team member, People Operations works "on behalf of" the company.
-
-### Letter of Employment<a name="letter-of-employment"></a>
-
-If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. For example, monthly fee, salary, start date, title, etc. People ops will send you the letter once it is completed.
 
 ## Team Directory
 <a name="directory"></a>
@@ -43,6 +38,10 @@ The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is
 - Please make sure that your own information stays up to date, and reach out to People Ops if you need any help in doing so.
 - Please make sure that your address and phone information are written in such a way that your team mates can reach you from a different country. So, for example, include `+[country code]` in front of your phone number.
 
+## Letter of Employment
+<a name="letter-of-employment"></a>
+
+If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. For example, monthly fee, salary, start date, title, etc. People ops will send you the letter once it is completed.
 
 ## Office addresses
 <a name="addresses"></a>
