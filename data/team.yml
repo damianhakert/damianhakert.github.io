@@ -36,7 +36,7 @@
 - name: Marin Jankovski
   locality: Amsterdam
   country: The Netherlands
-  role: Packaging Lead
+  role: <a href="https://about.gitlab.com/jobs/packaging-lead/">Packaging Lead</a>
   reports_to: VP of Engineering
   picture: picture_marin.jpg
   twitter: maxlazio
@@ -164,7 +164,7 @@
 - name: Kamil Trzciński
   locality: Warsaw
   country: Poland
-  role: CI Lead
+  role: <a href="https://about.gitlab.com/jobs/ci-lead/">CI Lead</a>
   reports_to: VP of Engineering
   picture: kamil.jpg
   twitter: ayufanpl
@@ -409,7 +409,7 @@
 - name: José Torres
   locality: San José Pinula
   country: Guatemala
-  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Support Lead</a>
+  role: <a href="https://about.gitlab.com/jobs/support-lead/">Support Lead</a>
   reports_to: VP of Engineering
   picture: josetorres.jpg
   twitter: random_primate
@@ -503,7 +503,7 @@
 - name: Wilson Lau
   locality: San Francisco, CA
   country: USA
-  role: Controller
+  role: <a href="https://about.gitlab.com/jobs/controller/">Controller</a>
   reports_to: CFO
   picture: wilsonlau.jpg
   gitlab: wilsonlau
@@ -641,7 +641,7 @@
 - name: Pablo Carranza
   locality: Dublin
   country: Ireland
-  role: Senior <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a> and Infrastructure lead
+  role: <a href="https://about.gitlab.com/jobs/infrastructure-lead/">Infrastructure Lead</a>
   reports_to: CEO
   picture: pablo.jpg
   twitter: psczg
@@ -1257,7 +1257,7 @@
 - name: M.Y.
   locality:
   country:
-  role: <a href="https://about.gitlab.com/jobs/general-ledger-accountant/">Senior Accountant</a>
+  role: <a href="https://about.gitlab.com/jobs/senior-accountant/">Senior Accountant</a>
   reports_to: Controller
   picture: logo-extra-whitespace.png
   twitter:
