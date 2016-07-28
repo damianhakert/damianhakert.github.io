@@ -20,7 +20,7 @@ title: "UX Designer"
 
 * You work on issues tagged with 'UX' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=ux) and [EE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=ux).
 * When done with an UX issue remove the UX label and add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) which is probably the 'Frontend' label.
-* Also see the [basics of GitLab development in the developer onboarding](handbook/developer-onboarding/#basics-of-gitlab-development).
+* Also see the [basics of GitLab development in the developer onboarding](https://about.gitlab.com/handbook/developer-onboarding/#basics-of-gitlab-development).
 
 ## Success Criteria
 
