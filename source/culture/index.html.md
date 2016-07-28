@@ -32,28 +32,56 @@ get to know each other better by working and 'playing' together. Here are some
 
 What better way to convey a sense of who we are and how we work together, than by sharing the stories about it?
 
-### Remember...
+### The Boat
 
-**the boat?**<br>
-![](/images/team/boat.jpg)<br>
-[Back then](https://about.gitlab.com/2016/01/06/our-y-combinator-experience/), the whole team used to fit in one car. And the car was called the "boat".
+<!-- HTML blocks below - applied to make the images and the video more harmonic than 1 single column with each on a different "row" -->
 
-**staring down the cattle?**<br>
-![](/images/cattle_stare.jpg)<br>
-Our CFO, Paul, was on vacation on a cattle ranch, during a time of fundraising. Normally vacation is vacation of course, but in this case it was necessary to have some calls now and again which required strong internet. To get to strong internet, Paul had to cross fields with cattle in them, and stare them down. Over the course of many trips he learned that cattle are docile, mostly... but don't turn your back on them because they can't be outrun!
+<br>
 
+<div class="row">
+  <div class="col-sm-8 col-xm-12"><img src="../images/team/boat.jpg" alt="The Boat"></div>
+  <div class="col-md-4 col-xm-12">
+    <p class="justify"><a href="https://about.gitlab.com/2016/01/06/our-y-combinator-experience/">Back then</a>, the whole team used to fit in one car. And the car was called "the Boat".</p>
+  </div>
+</div>
 
+<br>
+
+<div class="row">
+  <div class="col-sm-8 col-xm-12">
+    <figure class="video_container">
+      <iframe src="https://www.youtube.com/embed/4TnKmrpiSgQ" frameborder="0" allowfullscreen="true"> </iframe>
+    </figure>
+  </div>
+  <div class="col-sm-4 col-xm-12">
+    <p class="justify">We even took the Boat from San Francisco to Las Vegas to celebrate Job's bachelor party, but as you can see in this video, he thought we were going to visit a customer in Los Angeles!</p>
+  </div>
+</div>
+
+<br>
+
+### The cattle
+
+<br>
+
+<div class="row">
+  <div class="col-md-4 col-xm-12"><img class="cattle" src="../images/cattle_stare.JPG" alt="Staring down cattle"></div>
+  <div class="col-md-8 col-xm-12">
+    <h4 class="media-heading">Staring down the cattle?</h4>
+    <p class="justify-1">Our CFO, Paul, was on vacation on a cattle ranch, during a time of fundraising. Normally vacation is vacation of course, but in this case it was necessary to have some calls now and again which required strong internet. To get to strong internet, Paul had to cross fields with cattle in them, and stare them down. Over the course of many trips he learned that cattle are docile, mostly... but don't turn your back on them because they can't be outrun!Our CFO, Paul, was on vacation on a cattle ranch, during a time of fundraising. Normally vacation is vacation of course, but in this case it was necessary to have some calls now and again which required strong internet. To get to strong internet, Paul had to cross fields with cattle in them, and stare them down. Over the course of many trips he learned that cattle are docile, mostly... but don't turn your back on them because they can't be outrun!</p>
+  </div>
+</div>
 
 ## Internal Feedback
 
 By sending out our Feedback Form (find the link to the "open" form by accessing
-[this "closed" document](https://docs.google.com/document/d/12ZAACGeS2_nz6AFXqf78x9iv2LB_hyX9fcT4s9nJF4M/edit) )
+[this "closed" document](https://docs.google.com/document/d/12ZAACGeS2_nz6AFXqf78x9iv2LB_hyX9fcT4s9nJF4M/edit))
 we gather feedback from the team members anonymously. We then share the main highlights
 and concerns / wishes / things people wonder about with the entire team by discussing
 them during our [Team Call](https://about.gitlab.com/handbook/#team-call) and posting
 all topics that came up along with their responses here (with the exception of
-  [topics](https://about.gitlab.com/handbook/#general-guidelines) that by nature
-  are not shared outside of the company). _The responses may be altered from the original wording in an effort to maintain anonymity, while also maintaining the same spirit and message of the response._
+[topics](https://about.gitlab.com/handbook/#general-guidelines) that by nature
+are not shared outside of the company). _The responses may be altered from the original wording in an effort to maintain anonymity, while also maintaining the same spirit and message of the response._
 
 ### Feedback from January 2016, and responses
 
@@ -176,7 +204,8 @@ our work is public so we can talk about it, and our ability to create new proces
 1. What the company will look like 3, 6, 12 months from now? (community-ish, enterprise-ish)
    * The community and people using GitLab will keep growing. 12 months from now
   we'll answer all questions from the community on all platforms (from forum to
-  Stack Overflow), we'll have a proper swag shop and have more developer oriented
+  Stack Overflow), we
+  'll have a proper swag shop and have more developer oriented
   content (blog posts, video's).
    * Enterprise wise we'll have double the features we have now, a twice as large sales
 team, and many add-ons. Feel free to ask something more specific if you need more
@@ -185,3 +214,17 @@ detail. And of course try to shape it as you think it should look.
    * Very committed. At least one tentpole EE feature every month. Next 3 releases contain 2 or 3 each! https://about.gitlab.com/direction/
 1. Sales team hiring plan
    * We're hiring but it is not a priority until everyone is up to speed and trained. But we expect that to happen soon, and the marketing machine will come up to speed soon, after which hiring becomes a priority.
+
+<!-- particular styles for the pictures and video at the beginning -->
+
+<style>
+.justify,.justify-1 { text-align: justify; }
+.media-heading { margin-bottom: 5px; }
+
+@media (max-width: 767px) {
+.col-sm-8 h4,.justify { padding-top: 10px; }
+}
+@media (max-width: 991px) {
+.col-md-8 h4,.justify-1 { padding-top: 10px; }
+}
+</style>
