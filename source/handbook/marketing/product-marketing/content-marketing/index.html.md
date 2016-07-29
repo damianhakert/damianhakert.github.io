@@ -13,21 +13,28 @@ Welcome to the Content Marketing Handbook
 * Will be replaced with the ToC, excluding the "On this page" header
 {:toc}
 
-## Introduction<a name="intro"></a>
+## Content Mission<a name="mission"></a>
 
-The philosophy for Content Marketing at GitLab is to help bring insider
-knowledge and implicit practice to the hands of developers getting acquainted
-with GitLab, and decision makers considering GitLab.
+Our content mission is to create a shared space where modern developers and decisions makers find and share useful information, advice,
+resources, and inspiration for becoming better distributed and collaborative development teams.
 
-We want to meet each user where they are now, and help them be the most
-efficient they can be with our tools.
-We want to help their teams realize their creative and collaborative goals.
+For every piece of content we share the goal should be to  make an individual or a team better. To achieve
+this we should empathize with our audience, thinking about who the content is for and how it will help.
+We should aim to share both the 
+"how-to" and "the why it matters" in our content. We should strive to make takeaways clear and actionable.  
 
-We also want to address the whole organization, the coal-face of development
-or in decision making roles. GitLab is not only used for code development and
-review. Those same tools are used by team members to track progress, create
-documentation and collaborate on projects. When we show how we work "inside
-GitLab" we also model how to use our software.
+## Content Persona<a name="persona"></a>
+
+GitLab is a classic oversharer of ideas, opinions, and experiences that help better the community. We think
+of GitLab's voice as human, empathetic, light-hearted, and opinionated yet humble. We share our point of
+view and opinions but do not forget to provide context and ask for other opinions. 
+
+Things you can expect GitLab to overshare on:
+
+* **Community Guidance**: Empowering developers to get stuff done by making it easy to get started with git and GitLab
+* **Enterprise Answers**: Working in large teams is often challenging. We'd like to understand more about the painpoints of enterprise development teams, present solutions, and answer questions. 
+* **Thought Leadership**: Share our perspective on variety of topics like open source, open organization, innersourcing, modern development, and change management.
+* **Quirky Culture**: Showcase our unique company culture and team members, focusing on remote-only, transparency, product design, employee learnings, stickers etc.) 
 
 ## 2016 activities<a name="2016"></a>
 
@@ -35,6 +42,20 @@ GitLab" we also model how to use our software.
 - Host [webcasts](webcasts/)
 which welcome newcomers, celebrate with existing users, and provide access to expertise.
 - Publish a twice-monthly email newsletter you can sign up to on [our contact page](https://about.gitlab.com/contact/).
+
+### Q3 Content Pillars 
+
+Non-GitLab Specific 
+
+* Open source and open organizations
+* Innersourcing
+* Modern development
+
+GitLab Specific 
+
+* GitLab workflow
+* GitLab tutorials and migration guides
+* Remote-only and team member stories
 
 ## What is the webcast program at GitLab?<a name="webcast"></a>
 
@@ -87,61 +108,38 @@ This program is in development. For the first month, January, we'll start with o
 -   After event: Blog post of findings from the Q+A, results of survey.
 -   Roll-up content into an downloadable ebook, course or other way to make the content more easily accessed and reviewed.
 
-## Scheduling webcasts<a name="schedule"></a>
+## Delivering Webcasts<a name="webcast"></a>
 
-- Webcasts are on Thursdays, 17:00 UTC (9am PST, 6pm CET)
+- Webcasts are delivered in partnership with the [Demand Generation](https://about.gitlab.com/handbook/marketing/demand-generation/#webcasts) team
+- Webcasts are on Wednesdays, 17:00 UTC (9am PST, 6pm CET)
 - Panelists should arrive 15 mins before the webcast for a final sound check
 - Panelists should participate in a rehearsal before the webcast
 
-#### Webcast configuration checklist
+#### Pre-webcast checklist
 
-- Set up webinar in Gotowebinar by cloning the most recent webcast.
-- Add a welcome message to attendees
-- Upload any handouts (up to 5)
-- Upload images, branding and speaker photos (must be jpg or gif and the exact dimensions)
+- Create webcast copy (Amara)
+- Create the webcast registration page (Mitchell)
+- Send calendar invitation (with 15 minute buffer) to presenters with presenter link (Mitchell)
+- Send webcast dry run calendar invitation to presenters 
+- Create ads promoting webcast (Mitchell)
+- Promote webcast in newsletter (Amara)
+- Schedule webcast promo tweets T - 3 weeks, T - 2 weeks, T - 3 days, and T - 1 day, and T (Amara)
+- Add webcast to banner on about.gitlab.com T - 1 week (Amara)
+- Create and share webcast deck for feedback (Amara)
+- Host webcast dry run and ensure everyone is comfortable with platform (Mitchell and Amara)
+- Load final slides, polls, and resources into webcast platform (Mitchell)
 
-#### Create a calendar event
+#### During the webcast
 
-GoToWebinar doesn't send out a Google calendar friendly invite
-
-- Create an invitation for speakers in Google calendar
-- Include their actual URL from their invite.
-- Do the same for the rehearsal invitation.
-
-
-#### Create the program in Marketo
-
-- Clone the last campaign
-- Connect the webcast campaign to Gotowebinar. Webcast > Event Settings > Event partner
-- Correct version number and invitation date and details for assets:
-    -   The landing page
-    -   The confirmation email
-- Update the hero form on the landing page to the correct form.
-- Final check: If the lightbulb is not "on" (yellow), then it's not doing anything.
-Check the smart list and flow first. To activate: Click the "registered" smart campaign -> "Schedule" tab -> "Activate" button
-
-#### Promote
-
-- Publish to Facebook
-- Schedule tweets
-- Create a blog post
-- Add to next newsletter
-
-#### As the event starts
-
-- Promote [the appropriate attendees to panelist](https://support.citrixonline.com/en_US/webinar/knowledge_articles/000027765)
-- Conduct a sound check and sharing check for anyone who will present.
-- Organizers and Panelists are listed in the "Staff" tab and they can mute and unmute attendees, and see questions sent to the Panelists, etc.
-
-## After the webcast<a name="followup"></a>
-
-- Process the recording as .mov
-- Upload to YouTube and slides to Speakerdeck
-- Blog post to share the recording and slides
+- All presenters should log into the platform 15 minutes ahead of time for a sound check
+- Presenters will deliver slides and must remain mindful of time and shorten their presentations if needed to make up time
+- Every webcast should leave at least 10 minutes for a Q&A
 
 
-### Viewing webcasts<a name="view"></a>
+#### Post webcast
 
-- [Citrix Online system requirements](https://support.citrixonline.com/webinar/all_files/G2W010003)
-- Using GoToWebinar Instant Join, Linux/Unbuntu users can view in a web browser.
-- Linux users should use Chromium to view the browser.
+- Edit the recording (Amara)
+- Post on YouTube, Speakerdeck, and blog (Amara)
+- Promote blog post on Twitter (Amara)
+- Send webinar follow up emails (Mitchell)
+- Add to newsletter (Amara)
