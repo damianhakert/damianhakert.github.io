@@ -225,9 +225,7 @@ Please update this list as more steps arise.
 
 ### General<a name="general"></a>
 
-* The first month at a remote first company is hard, especially if you have not worked remote before and/or if you're unfamiliar with the tools used (mainly GitLab, chat, and video calling). If you feel lonely feel free to schedule 1 on 1 video calls to get to know people. If you need help with the tools ask people for help. If you don't know who to ask for help use the #questions chat channel. If you're not happy please let your manager know so we can take action.
-* We've set up a monthly GitLab 101 call to explain our history and have some time for Q&A.
-* Check out our [about page](https://about.gitlab.com/about/), [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/).
+* The first month at a remote first company is hard, especially if you have not worked remote before and/or if you're unfamiliar with the tools used (mainly GitLab, chat, and video calling). If you feel lonely feel free to schedule 1 on 1 video calls to get to know people. If you need help with the tools ask people for help. If you don't know who to ask for help use the #questions chat channel. If you're not happy please let your manager know so we can take action. We have also set up a monthly GitLab 101 call to explain our history and have some time for Q&A.
 * Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
 * Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
 * Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/)
@@ -269,10 +267,8 @@ Welcome to GitLab! We are happy to have you join our company and to include
 you in our [team page](https://about.gitlab.com/team/). The following are
 the steps to add yourself to the team page. Please follow the links that will guide you to full guides about every step.
 
-1. Create an account on [GitLab.com](https://gitlab.com/) and take note of
-your username and password, because you will need them throughout these steps.
-1. You should have been granted access to the [www-gitlab-com
-project](https://gitlab.com/gitlab-com/www-gitlab-com) as an earlier step of onboarding.
+1. As a part of onboarding you should have created a [GitLab.com](https://gitlab.com/) account. You also should have been granted access [www-gitlab-com
+project](https://gitlab.com/gitlab-com/www-gitlab-com).
 1. Download Git, following the [start using git
 documentation](http://doc.gitlab.com/ce/gitlab-basics/start-using-git.html). Don't forget to add your Git username and to set your email.
 1. Follow the steps to create and add your [SSH
@@ -294,7 +290,6 @@ the following format: `yourname.jpg` or `yourname.png` and then follow the
 that you previously created to add your picture (they are in alphabetical
 order). If you don't have a branch yet, follow the steps to [create a new
 branch](http://doc.gitlab.com/ce/gitlab-basics/create-branch.html).
-![dropdown menu](/images/dropdown-branch-teampage.jpg)
 1. Information displayed on [Team page](https://about.gitlab.com/team/) is
 pulled from a data file. You can find it by clicking on each of the following items: `data/` and then `team.yml`.
 1. When you are in `team.yml`, click on “edit” on the top right side of
