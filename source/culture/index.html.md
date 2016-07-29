@@ -83,7 +83,13 @@ What better way to convey a sense of who we are and how we work together, than b
   <div class="col-md-4 col-xm-12"><img class="cattle" src="../images/cattle_stare.JPG" alt="Staring down cattle"></div>
   <div class="col-md-8 col-xm-12">
     <h4 class="media-heading">Staring down the cattle?</h4>
-    <p class="justify-1">Our CFO, Paul, was on vacation on a cattle ranch, during a time of fundraising. Normally vacation is vacation of course, but in this case it was necessary to have some calls now and again which required strong internet. To get to strong internet, Paul had to cross fields with cattle in them, and stare them down. Over the course of many trips he learned that cattle are docile, mostly... but don't turn your back on them because they can't be outrun!Our CFO, Paul, was on vacation on a cattle ranch, during a time of fundraising. Normally vacation is vacation of course, but in this case it was necessary to have some calls now and again which required strong internet. To get to strong internet, Paul had to cross fields with cattle in them, and stare them down. Over the course of many trips he learned that cattle are docile, mostly... but don't turn your back on them because they can't be outrun!</p>
+    <p class="justify-1">Our CFO, Paul, was on vacation on a cattle ranch,
+    during a time of fundraising. Normally vacation is vacation of course, but
+    in this case it was necessary to have some calls now and again which
+    required strong internet. To get to strong internet, Paul had to cross
+    fields with cattle in them, and stare them down. Over the course of many
+    trips he learned that cattle are docile, mostly... but don't turn your back
+    on them because they can't be outrun!</p>
   </div>
 </div>
 
