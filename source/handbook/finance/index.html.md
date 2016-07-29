@@ -3,10 +3,18 @@ layout: markdown_page
 title: "Finance"
 ---
 
-## Communication<a name="reach-finance"></a>
+## Communication
+<a name="reach-finance"></a>
 
 - [**Public Issue Tracker**](https://gitlab.com/gitlab-com/finance/issues/); please use confidential issues for topics that should only be visible to team members at GitLab.
 - [**Chat channel**](https://gitlab.slack.com/archives/finance); please use the `#finance` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
+
+## Other pages
+
+- [Signature authorization matrix](/handbook/finance/authorization-matrix)
+- [Sales compensation plan](/handbook/finance/sales-comp-plan)
+
+---
 
 ## On this page
 {:.no_toc}
@@ -16,17 +24,13 @@ title: "Finance"
 
 ---
 
-## Other pages
-
-- [Signature authorization matrix](/handbook/finance/authorization-matrix)
-- [Sales compensation plan](/handbook/finance/sales-comp-plan)
 
 
----
+## General Topics
+<a name="general-topics"></a>
 
-## General Topics<a name="general-topics"></a>
-
-### Company accounts<a name="company-accounts"></a>
+### Company accounts
+<a name="company-accounts"></a>
 
 Login information for the following accounts can be found in the Secretarial vault
 on 1Password:
@@ -37,9 +41,11 @@ on 1Password:
 
 If you need this information but cannot find it in your shared vaults you can check with PeopleOps to get access.
 
-## Processing Payroll  <a name="payroll"></a>
+## Processing Payroll
+<a name="payroll"></a>
 
-### GitLab Inc. Payroll Procedures <a name="payroll-inc"></a>
+### GitLab Inc. Payroll Procedures
+<a name="payroll-inc"></a>
 
 1. You will receive a reminder from TriNet the week before payroll closes for each pay period.
 1. If you are handling payroll changes- the email will let you know by what date you must submit those changes.
@@ -65,15 +71,17 @@ If you need this information but cannot find it in your shared vaults you can ch
 1. Enter the amount per pay period
 1. Enter pay frequency
 
-Please see People Ops for more information on [making changes in TriNet](/people-operations/#using-trinet). 
+Please see People Ops for more information on [making changes in TriNet](/people-operations/#using-trinet).
 
-### GitLab BV Pay Slip Distribution Process <a name="payroll-bv"></a>
+### GitLab BV Pay Slip Distribution Process
+<a name="payroll-bv"></a>
 
 All GitLab BV employees receive their payslips within their personal portal of Savvy.
 They can login and download their payslip to their computer if needed.
 
 
-## Invoice template and where to send <a name="invoices"></a>
+## Invoice template and where to send
+<a name="invoices"></a>
 
 NOTE: Vendor and contractor invoices are to be sent to ap@gitlab.com. An invoice
 template can be found in Google Docs by the name of "Invoice Template".
@@ -129,17 +137,19 @@ Invoices will arrive by email to ap@gitlab.com.
 1. Add attachments: Copy of invoice and email approval
 1. Save and close
 
-## Commission Payment Process <a name="commission"></a>
+## Commission Payment Process
+<a name="commission"></a>
 
 1. Each sales person will receive their own calculation template.
 1. Salesperson is to complete their monthly template four days (payroll will send reminder) prior to first payroll of the month. Upon completion, salesperson will ping a manager for review and approval.
 1. Approving manager will ping accounting upon approval.
 1. Accounting will review and reconcile paid vs unpaid invoices.
-1. Accounting will note in calculation template the amounts to be paid in commision.
+1. Accounting will note in calculation template the amounts to be paid in commission.
 1. Accounting will ping payroll that commission calculation is complete.
 1. Payroll will enter commission into TriNet.
 
-## Company Credit Cards <a name="company-cc"></a>
+## Company Credit Cards
+<a name="company-cc"></a>
 
 1. All team members that regularly make company purchases may request a company credit card.
 1. You are personally responsible to make sure that the charges on the card are for GitLab business only.
@@ -147,7 +157,8 @@ Invoices will arrive by email to ap@gitlab.com.
 1. Those who need a company credit card will be provided with additional directions for card management and reporting.
 1. If you request a company credit card for yourself or a direct report, please make sure that you are added to Expensify for monthly reporting by sending an email to finance@gitlab.com
 
-## Accounts Receivable <a name="ar"></a>
+## Accounts Receivable
+<a name="ar"></a>
 
 ### Invoicing
 
@@ -191,7 +202,8 @@ Invoices will arrive by email to ap@gitlab.com.
 
 At this point the invoicing process is complete. Now, continue on to the Cash Receipt posting process for those invoices that were paid by credit card.
 
-## Cash Receipt <a name="cash-receipt"></a>
+## Cash Receipt
+<a name="cash-receipt"></a>
 
 ### Credit card customer
 
