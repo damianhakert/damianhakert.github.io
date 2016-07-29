@@ -9,9 +9,9 @@ image_title: '/images/blogimages/the-basics-of-gitlab-ci/hello.png'
 
 Let's assume that you don't know anything about what Continuous Integration is and why it's needed. Or, you just forgot. Anyway, we're starting from scratch here.
 
-Imagine that you work on a project, where all the code consists of two text files. Moreover, it is super-critical that the concatenation of these two files contains the phrase "Hello world".
+Imagine that you work on a project, where all the code consists of two text files. Moreover, it is super-critical that the concatenation of these two files contains the phrase "Hello world."
 
-If there's no such phrase, the whole development team stays without a salary for a month. Yeah, that is damn serious!
+If there's no such phrase, the whole development team stays without a salary for a month. Yeah, it is that serious!
 
 <!-- more -->
 
@@ -24,7 +24,7 @@ cat file1.txt file2.txt | grep -q "Hello world"
 
 The problem is that there are ten developers in the team, and, you know, human factors can hit hard.
 
-A week ago a new guy forgot to run the script, and three clients got broken builds. So you decided to solve the problem once and for all. Luckily, your code is already on GitLab, and you remember that there is a [built-in CI system](https://about.gitlab.com/gitlab-ci/). Moreover, you heard at a conference that people use CI to run tests...
+A week ago, a new guy forgot to run the script and three clients got broken builds. So you decided to solve the problem once and for all. Luckily, your code is already on GitLab, and you remember that there is a [built-in CI system](https://about.gitlab.com/gitlab-ci/). Moreover, you heard at a conference that people use CI to run tests...
 
 ## Run our first test inside CI
 
@@ -48,9 +48,9 @@ Okay, we now have automated tests here! GitLab CI will run our test script every
 
 ## Make results of builds downloadable
 
-The next business requirement is to package the code before sending it to our customers. Let's automate it as well!
+The next business requirement is to package the code before sending it to our customers. Let's automate that as well!
 
-All we need to do is to define another job for CI. Let's name it "package":
+All we need to do is define another job for CI. Let's name the job "package":
 
 ```yaml
 test:
@@ -63,7 +63,7 @@ package:
 We have two tabs now:
 ![Two tabs - generated from two jobs](/images/blogimages/the-basics-of-gitlab-ci/twotabs.png){: .shadow}
 
-However, we forgot to specify that the new file is a build _artifact_, so that it could be downloaded. We fix it by adding an `artifacts` section:
+However, we forgot to specify that the new file is a build _artifact_, so that it could be downloaded. We can fix it by adding an `artifacts` section:
 
 ```yaml
 test:
@@ -204,7 +204,7 @@ pack-iso:
     - packaged.iso
 ```
 
-Note that job names shouldn't be necessarily the same. In fact if they should be the same, we would be no way to make them run in parallel inside the same stage. Hence, think of same names of jobs & stages as coincedence.
+Note that job names shouldn't necessarily be the same. In fact if they were the same, it wouldn't be possible to make the jobs run in parallel inside the same stage. Hence, think of same names of jobs & stages as coincedence.
 
 Anyhow, the build is failing:
 ![Failed build because of missing mkisofs](/images/blogimages/the-basics-of-gitlab-ci/mkisofs.png){: .shadow}
@@ -286,7 +286,7 @@ Wow, it looks like we have just created a pipeline! We have three sequential sta
 There's much more to cover but let's stop here for now. I hope you liked this short story. All examples were made intentionally trivial so that you could learn the concepts of GitLab CI without being distracted by an unfamiliar technology stack. Let's wrap up what we have learned:
 
 1. To delegate some work to GitLab CI you should define one or more [jobs](http://docs.gitlab.com/ce/ci/yaml/README.html#jobs) in `.gitlab-ci.yml`.
-2. Jobs should have names, and it's your responsibility to come up with good names.
+2. Jobs should have names and it's your responsibility to come up with good ones.
 3. Every job contains a set of rules & instructions for GitLab CI, defined by [special keywords](#keywords).
 4. Jobs can run sequentially, in parallel, or you can define a custom pipeline.
 5. You can pass files between jobs and store them in build artifacts so that they can be downloaded from the interface.
