@@ -136,7 +136,7 @@ and then ping @rspeicher to confirm your account. You can find this (and other) 
 * [ ] People Ops: [Add team member](https://about.gitlab.com/handbook/people-operations/#add-expensify) to Expensify (if employee).
 * [ ] People Ops: Add new team member to the info sheets of the next Summit if applies.
 * [ ] People Ops: [Create a profile](https://about.gitlab.com/handbook/people-operations/#add-egencia) on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
-* [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team.
+* [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know our team. You can also schedule more calls, or ask for help on the #questions channel in slack.
    * [ ] 1. call with ___
    * [ ] 2. call with ___
    * [ ] 3. call with ___
@@ -155,7 +155,9 @@ and then ping @rspeicher to confirm your account. You can find this (and other) 
 * [ ] New team member: Comment with a screenshot verifying that your hard drive is encrypted (`Command` + `Shift` + `3` on Mac).
 * [ ] New team member: Check if there is a coming [Summit](https://gitlab.com/summits/) and save the date!
 * [ ] New team member: Make an improvement to the handbook (something that you wished was there), assign the merge request (MR) to your manager and link the MR url in this onboarding issue.
-
+* [ ] Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
+* [ ] Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
+* [ ] Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/) where you can [download](https://tools.google.com/dlpage/drive/index.html?hl=en) to work offline. Be aware your google calendar (tied to your GitLab account) is internally viewable by default, you might want to [change this](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en) in your calendar settings.
 
 ### FOR ENGINEERING ONLY (Devs, PEs, SEs)
 
@@ -225,12 +227,6 @@ Please update this list as more steps arise.
 
 ### General<a name="general"></a>
 
-* The first month at a remote first company is hard, especially if you have not worked remote before and/or if you're unfamiliar with the tools used (mainly GitLab, chat, and video calling). If you feel lonely feel free to schedule 1 on 1 video calls to get to know people. If you need help with the tools ask people for help. If you don't know who to ask for help use the #questions chat channel. If you're not happy please let your manager know so we can take action. We have also set up a monthly GitLab 101 call to explain our history and have some time for Q&A.
-* Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
-* Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
-* Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/)
-* Be aware your google calendar (tied to your GitLab account) is internally viewable by default, you might want to [change this](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en) in your calendar settings.
-* You can [download](https://tools.google.com/dlpage/drive/index.html?hl=en) Google Drive for your computer to access offline
 * You should have been provided access to our [Internal GitLab Server](https://dev.gitlab.org). Take a moment to familiarize yourself with:
   1. The Dashboard
   1. The Projects
@@ -294,53 +290,12 @@ branch](http://doc.gitlab.com/ce/gitlab-basics/create-branch.html).
 pulled from a data file. You can find it by clicking on each of the following items: `data/` and then `team.yml`.
 1. When you are in `team.yml`, click on “edit” on the top right side of
 your screen.
-1. Your information should be added after the last person on the team page.
-You need to copy and paste the following format and fill in your own
-information:
+1. Your information should already be added after the last person on the team page. Update the initials to be your `Firstname 'Nickname' Lastname`. Verify that your title is entered correctly. Add the file name of the picture that you uploaded previously. Enter your twitter and gitlab handle. Write a story about yourself. 
 
-```
-- name: Linus Torvalds
-  role: developer
-  picture: picture_linus.jpg
-  twitter: Linus_Torvalds
-  gitlab: linustorvalds
-  story:  |
-          Linus was the principal force behind the development of the Linux
-          kernel that became the most popular kernel for operating systems.
-          He later became the chief architect of the Linux kernel and now
-          acts as the project's coordinator. He also created the
-          distributed revision control system git. He joined when it was
-          created.
-```
 Don't forget to use other team members' information as a reference and to
-respect the spaces between lines. If you have a nickname, write it as `Firstname 'Nickname' Lastname`. Please don't use "tab" because it will break the page format.
+respect the spaces between lines. Please don't use "tab" because it will break the page format.
 1. After you added your information, add a comment to your commit and click on “Commit Changes”.
 1. Go to the Merge Request that you previously created with the branch that you are using and assign it to your manager for review.
-
-### GitLab Instances<a name="gitlab-instances"></a>
-
-We have two GitLab instances that we use primarily, namely the 'dev' server and the free SaaS of GitLab at GitLab.com.
-
-#### dev.gitlab.org
-
-* This server is only accessible to people from GitLab the company.
-* This is the instance we use for customers development.
-* In addition, all our internal (company) issues are found here as well.
-* This server is updated from master every night, so we quickly see if we broke something.
-* Often referred to as `dev`.
-
-#### GitLab.com
-
-* This is the SaaS of GitLab. Everyone can host their repository for free here and
-this is where the majority of open source contributions come in. Unless there's
-a good reason not to (customer information disclosure, undisclosed security
-issues, etc.), do your development and submit your merge requests here [in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
-
-#### Other instances
-
-Many developers set up their own private GitLab instance somewhere, for instance
-to test and work with LDAP or Active Directory, to give demos, or for various
-other reasons.
 
 ### Security<a name="security"></a>
 
