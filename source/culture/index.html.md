@@ -24,17 +24,17 @@ Top 10 reasons to work for GitLab:
 
 ## Historical Anecdotes
 
-### _August 2nd_
+### _August 2nd, 2011_
 
 Sid and Dmitry started GitLab.
 
-### _August 15th_
+### _August 15th, 2015_
 
 Series A Funding was signed.
 
-### _October 10th_
+### _October 10th, 2015_
 
-Anniversary of our fitst ever summit in Amsterdam with 25 team members. 
+Anniversary of our first ever summit in Amsterdam with 25 team members. 
 
 ## Summits
 
