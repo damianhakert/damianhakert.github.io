@@ -100,11 +100,10 @@ supported by a level 3 or 4 SLA, per the definitions on the [Support](/handbook/
 
 
 ## Requirements for Applicants
-
-* B.Sc. in Computer Science or equivalent experience
+* Relevant qualifications or equivalent experience
 * Above average knowledge of Unix and Unix based Operating Systems
 * Vast experience with Ruby on Rails Applications and git
-* Good people skills
+* Customer service experience is an advantage
 * Excellent spoken and written English
 * You share our [values](/handbook/#values), and work in accordance with those values
 * [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
