@@ -210,7 +210,7 @@ Anyhow, the build is failing:
 ![Failed build because of missing mkisofs](/images/blogimages/the-basics-of-gitlab-ci/mkisofs.png){: .shadow}
 
 
-The is that `mkisofs` is not included in the `alpine` image, so we need to install it first.
+The problem is that `mkisofs` is not included in the `alpine` image, so we need to install it first.
 
 ## Dealing with missing software/packageages
 
