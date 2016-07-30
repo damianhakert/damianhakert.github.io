@@ -163,9 +163,9 @@ So far so good. However, it appears our builds are still slow. Let's take a look
 
 Wait, what is this? Ruby 2.1?
 
-Why do we need Ruby at all? Oh, GitLab uses Docker images to run our builds, and [by default](https://about.gitlab.com/gitlab-com/settings/) it uses the [`ruby:2.1`](https://hub.docker.com/_/ruby/) image. For sure, this image contains many packageages we don't need. After a minute of googling, we figure out that there's an image called [`alpine`](https://hub.docker.com/_/alpine/) which is an almost blank Linux image.
+Why do we need Ruby at all? Oh, GitLab.com uses Docker images to [run our builds](/2016/04/05/shared-runners/), and [by default](/gitlab-com/settings/#shared-runners) it uses the [`ruby:2.1`](https://hub.docker.com/_/ruby/) image. For sure, this image contains many packages we don't need. After a minute of googling, we figure out that there's an image called [`alpine`](https://hub.docker.com/_/alpine/) which is an almost blank Linux image.
 
-Ok, let's explicitly specify that we want to use this image by adding `image: alpine` to `.gitlab-ci.yml`.
+OK, let's explicitly specify that we want to use this image by adding `image: alpine` to `.gitlab-ci.yml`.
 Now we're talking! We shaved almost 3 minutes off:
 
 ![Build speed improved](/images/blogimages/the-basics-of-gitlab-ci/speed.png){: .shadow}
@@ -176,7 +176,7 @@ It looks like [there's](https://hub.docker.com/_/mysql/) [a lot of](https://hub.
 
 So far so good. However, let's suppose we have a new client who wants us to package our app into `.iso` image instead of `.gz`
 Since CI does the whole work, we can just add one more job to it.
-Iso images can be created using the [mkisofs](http://linuxcommand.org/man_pages/mkisofs8.html) command. Here's how our config should look:
+ISO images can be created using the [mkisofs](http://linuxcommand.org/man_pages/mkisofs8.html) command. Here's how our config should look:
 
 ```yaml
 image: alpine
@@ -204,7 +204,7 @@ pack-iso:
     - packaged.iso
 ```
 
-Note that job names shouldn't necessarily be the same. In fact if they were the same, it wouldn't be possible to make the jobs run in parallel inside the same stage. Hence, think of same names of jobs & stages as coincedence.
+Note that job names shouldn't necessarily be the same. In fact if they were the same, it wouldn't be possible to make the jobs run in parallel inside the same stage. Hence, think of same names of jobs & stages as coincidence.
 
 Anyhow, the build is failing:
 ![Failed build because of missing mkisofs](/images/blogimages/the-basics-of-gitlab-ci/mkisofs.png){: .shadow}
@@ -212,14 +212,14 @@ Anyhow, the build is failing:
 
 The problem is that `mkisofs` is not included in the `alpine` image, so we need to install it first.
 
-## Dealing with missing software/packageages
+## Dealing with missing software/packages
 
-According to the [Alpine linux website](https://pkgs.alpinelinux.org/contents?file=mkisofs&path=&name=&branch=&repo=&arch=x86) `mkisofs` is a part of the `xorriso` and `cdrkit` packageages. These are the magic commands that we need to run to install a packageage:
+According to the [Alpine Linux website](https://pkgs.alpinelinux.org/contents?file=mkisofs&path=&name=&branch=&repo=&arch=x86) `mkisofs` is a part of the `xorriso` and `cdrkit` packages. These are the magic commands that we need to run to install a package:
 
 ```bash
 echo "ipv6" >> /etc/modules  # enable networking
-apk update                   # update packageages list
-apk add xorriso              # install packageage
+apk update                   # update packages list
+apk add xorriso              # install package
 ```
 
 For CI, these are just like any other commands. The full list of commands we need to pass to `script` section should look like this:
@@ -232,7 +232,7 @@ script:
 - mkisofs -o ./packaged.iso ./compiled.txt
 ```
 
-However, to make it semantically correct, let's put commands related to packageage installation in `before_script`. Note that if you use `before_script` at the top level of a configuration, then the commands will run before all jobs. In our case, we just want it to run before one specific job.
+However, to make it semantically correct, let's put commands related to package installation in `before_script`. Note that if you use `before_script` at the top level of a configuration, then the commands will run before all jobs. In our case, we just want it to run before one specific job.
 
 Our final version of `.gitlab-ci.yml`:
 
