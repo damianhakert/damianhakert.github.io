@@ -1,6 +1,7 @@
 image: registry.gitlab.com/gitlab-org/gitlab-build-images:www-gitlab-com
 
 before_script:
+  - locale -a
   - bundle install --jobs 4 --path vendor
 
 cache:
