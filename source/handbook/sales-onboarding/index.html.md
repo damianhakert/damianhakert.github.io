@@ -14,16 +14,21 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
    Please create a merge request for any term that does not have an answer or
    to add a term that you feel is relevant but is not on this page.
 
-* [ ] Understanding Version Control Systems
-    - [Presentation](https://docs.google.com/presentation/d/16sX7hUrCZyOFbpvnrAFrg6tVO5_yT98IgdAqOmXwBho/edit#slide=id.g72f2e4906_2_29)
+* [ ] What is Git
+    - [Basics of software version control](https://git-scm.com/video/what-is-version-control) (6 minutes)
+    - [The evolution of SVC products](http://blog.plasticscm.com/2010/11/version-control-timeline.html)
+    - [Intro to Git](https://www.youtube.com/watch?v=3m7BgIvC-uQ) (1:39 hours)
+
+* [ ] Application Lifecycle Management (ALM):
+    - [What is ALM?](https://blogs.msdn.microsoft.com/africaapps/2013/05/29/application-lifecycle-management-part-1-of-5/)
+    - [5 Imperatives for ALM](https://www.youtube.com/watch?v=l_W5nkG6iAE) (3 minutes)
+    - [The ecosystem](https://www.youtube.com/watch?v=sXlhgPK1NTY&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=6) (1:03 hours)
+        - [Slides](https://docs.google.com/presentation/d/1vCU-NbZWz8NTNK8Vu3y4zGMAHb5DpC8PE5mHtw1PWfI/edit)
+    - [Development methodologies (waterfall, agile, scrum, kanban etc.)](http://venturebeat.com/2014/11/24/choosing-the-right-development-methodology-is-part-education-part-instinct/)
 
 * [ ] Operating Systems and How Git Works
     - [Operating Systems and How Git Works](https://drive.google.com/a/gitlab.com/file/d/0B41DBToSSIG_OVYxVFJDOGI3Vzg/view?usp=sharing)
       recorded date: 2015-10-01
-
-* [ ] Introduction to Git
-    - [Intro to Git](https://www.codeschool.com/account/courses/try-git)
-    - Supporting: [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
 
 * [ ] [GitLab Workshop Part 1: Basics of Git and GitLab](https://courses.platzi.com/classes/git-gitlab/concepto/part-1/part-1/material/)
 
@@ -70,10 +75,6 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 ### Stage 2
 
 **Experience first hand the power of GitLab**
-
-* [ ] Ecosystem
-    - [Recording 2015-11-05](https://www.youtube.com/watch?v=sXlhgPK1NTY&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=6)
-    - [GitLab Ecosystem slides](https://docs.google.com/presentation/d/1vCU-NbZWz8NTNK8Vu3y4zGMAHb5DpC8PE5mHtw1PWfI/edit)
 
 * [ ] [Compare GitLab versions](/features/#compare)
 
@@ -141,7 +142,7 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 * [ ] GitLab 8.2
     - [Recording 2015-11-19](https://www.youtube.com/watch?v=09RLHyMFfpA&index=3&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e)
     - [Slides](https://gitlab.com/gitlab-org/University/blob/master/classes/8.2.markdown) 2015-11-19
-    
+
 * [ ] GitLab CI
     - [GitLab CI](https://about.gitlab.com/gitlab-ci/)
     - [Getting started with CI in GitLab](https://www.youtube.com/watch?v=Hs8LCilGVaM)
@@ -150,7 +151,7 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 * [ ] Upcoming in EE and Big files in Git (Git LFS, Annex)
     - [Upcoming in EE](https://gitlab.com/gitlab-org/University/blob/master/classes/upcoming_in_ee.md)
     - [Big files in Git (Git LFS, Annex)](https://gitlab.com/gitlab-org/University/blob/master/classes/git_lfs_and_annex.md)
-    
+
 * [ ] Familiarize yourself with our [product direction](https://about.gitlab.com/direction/).  Pay special attention to new features for EE and EE Options.  Each feature that is hyperlinked will take you to the issue to learn more.  
 
 * [ ] [Demo of GitLab.com](https://www.youtube.com/watch?v=WaiL5DGEMR4)
