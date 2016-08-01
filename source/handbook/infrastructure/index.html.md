@@ -96,7 +96,7 @@ Still, this documentation is [in the Chef Repo](https://dev.gitlab.org/cookbooks
 start pulling things out of there into the runbooks, until this documentation is thin and GitLab.com only.
 
 ### GitLab Cloud Images
-A detailed process on creating and maintaining GitLab cloud images can be found [here](https://about.gitlab.com/handbook/cloud-images).
+A detailed process on creating and maintaining GitLab cloud images can be found [here](https://about.gitlab.com/cloud-images/).
 
 ## Production events logging
 

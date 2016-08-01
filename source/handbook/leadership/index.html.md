@@ -3,10 +3,19 @@ layout: markdown_page
 title: Leadership
 ---
 
-## Behavior
+## Guidelines
 
 - As a leader team members will follow your behavior, always do the right thing.
 - Behavior should be consistent inside and outside the company, don't fake it outside, just do the right thing inside the company as well.
+- In tough times people will put it in their best efforts when they do it for eachother.
+- When times are great be a voice of moderation, when times are bad be a voice of hope.
+- A span of control should be around 7, from 4 to 10. Lower means too many generals and too few soldiers. Higher means you don't have time for 1:1's anymore.
+- We work async, lead by example and make sure people understand that things need to be written down in issues as they happen.
+- Start meetings on time, be on time yourself, don't ask if everyone is there, and don't punish people at showed up on time by waiting anyone.
+- We have a simple hierarchy, everyone has one boss that is experienced in their subject matter. Matrix organizations are too hard.
+- We don't have project managers. The individual contributors need to manage themselves.
+- We are not a democratic or consensus driven company. People are encouraged to give their comments and opinions. But in the end one person decides the matter after have listened to all the feedback.
+- It is encouraged to disagree and have a constructive confrontation, but it is "disagree & commit", when a decision is taken you make it happen.
 
 ## Articles
 
@@ -19,6 +28,6 @@ title: Leadership
 
 ## Books
 
-- High output management - Andrew Grove
+- High output management - Andrew Grove ([top 10](https://getlighthouse.com/blog/andy-grove-quotes-leadership-high-output-management/))
 - The Hard thing about hard things - Ben Horowitz
 - [The score takes care of itself - Bill Walsh](http://coachjacksonspages.com/The%20Score%20Takes%20Care.pdf)

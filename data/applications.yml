@@ -267,6 +267,13 @@
           title: Video walk-through
         - url: http://support.hubstaff.com/gitlab-time-tracking-integration/
           title: Support
+    - title: POEditor
+      content: Collaborative translation platform and localization management software. The integration with GitLab connects the translations in POEditor projects with language files in GitLab repos, simplifying translation management and syncronization.
+      links:
+        - url: https://poeditor.com/
+          title: POEditor
+        - url: https://poeditor.com/help/how_to_translate_a_language_file_from_a_gitlab_project
+          title: GitLab Integration
 - title: Continuous Integration
   id: continuous-integration
   applications:

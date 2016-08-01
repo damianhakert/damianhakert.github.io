@@ -29,14 +29,15 @@ In teams, the team is responsible for this (see below).
 For larger issues or issues that contain many different moving parts,
 you'll be likely working in a team.
 
-1. Teams have a shared responsibility to ship the issue in the planned release
+1. Teams have a shared responsibility to ship the issue in the planned release.
     1. If the team suspects that they might not be able to ship something in
   time, the team should escalate / inform others as soon as possible.
   A good start is informing your lead.
     1. It's generally preferable to ship a smaller iteration of an issue,
-  than ship something a release later
-1. Start a Slack channel for a new team, but remember to write all relevant
-information in the related issue(s)
+  than ship something a release later.
+1. Consider starting a Slack channel for a new team,
+but remember to write all relevant information in the related issue(s).
+You don't want to have to read up on two threads, rather than only one.
 
 ## Choosing something to work on
 

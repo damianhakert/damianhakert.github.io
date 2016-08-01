@@ -93,22 +93,6 @@ We have 6 views that are not channels.
 Meaning we have 7 views left for all our channels.
 That is why some channels are combined.
 
-## Dormant Usernames <a name="dormantusers"></a>
-
-Support often gets requests from gitlab.com users to release a username.
-This can be implemented if the following criteria are met:
-
-1. The account in question has no data.
-1. There hasn't been any activity on the account (i.e. code, issues, MRs)
-   for six months. This considers activity on projects the account owns
-   as well as activity on projects the account participants in.
-1. Support has had four failed attempts to  contact the user within a
- two week period.   
-1. The user cannot be an owner of any active project.
-
-Usernames will be prefixed with `idle` to keep the account active but
-release the namespace.
-
 ## Service Level Agreements <a name="sla"></a>
 
 ### SLA categories
@@ -404,6 +388,10 @@ Respond to questions on the [GitLab Mailing List](https://groups.google.com/foru
 Questions from the [GitLab Forum](https://forum.gitlab.com/) flow into ZenDesk, but can only be responded to from
 within the Forum environment.
 
+### TODO Docker<a name="docker"></a>
+
+TODO Questions from Docker's [GitLab CE](https://hub.docker.com/r/gitlab/gitlab-ce/) page flow into ZenDesk.
+
 ### Stack Overflow<a name="stack-overflow"></a>
 
 The [Stack Overflow tagged questions](http://stackoverflow.com/questions/tagged/gitlab) that relate to GitLab
@@ -422,7 +410,47 @@ Respond to questions about GitLab on Quora, especially the ones that appear in t
 If you have time for it please improve GitLab: fix bugs, add features, and polish the website.
 You can also consider hanging out on IRC to answer questions and help people (#gitlab on freenode.net).
 
-## Code of Conduct<a name="coc"></a>
+## Support Policies
+
+### Removal of 2FA <a name="2faremoval"></a>
+
+[Two-factor Authentication](http://docs.gitlab.com/ee/profile/two_factor_authentication.html) (2FA) 
+can only be removed from a GitLab.com account if one of the following combinations are met:
+
+#### Combination 1:
+
+Push a certain file to a repository in a personal project
+
+#### Combination 2:
+
+Photo ID and picture of user with ID
+
+Examples:
+
++ Driver's License
++ Passport
++ Military/Government ID
++ Permanent Resident Cards
+
+
+### Dormant Usernames <a name="dormantusers"></a>
+
+Support often gets requests from gitlab.com users to release a username.
+This can be implemented if the following criteria are met:
+
+1. The account in question has no data.
+1. There hasn't been any activity on the account (i.e. code, issues, MRs)
+   for six months. This considers activity on projects the account owns
+   as well as activity on projects the account participants in.
+1. Support has had two failed attempt to contact the user within a
+ two week period.   
+1. The user cannot be an owner of any active project.
+
+Usernames will be prefixed with `idle` to keep the account active but
+release the namespace.
+
+
+### Code of Conduct<a name="coc"></a>
 
 Just as service engineers are expected to adhere to the [Code of
 Conduct](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#code-of-conduct), we

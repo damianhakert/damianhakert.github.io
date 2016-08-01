@@ -1,15 +1,19 @@
 image: registry.gitlab.com/gitlab-org/gitlab-build-images:www-gitlab-com
 
 before_script:
-  - bundle install --path vendor
+  - bundle install --jobs 4 --path vendor
 
 cache:
   key: "website"
   paths:
     - vendor
 
+stages:
+  - build
+  - deploy
+
 lint:
-  stage: test
+  stage: build
   script:
     - bundle exec rake lint
   tags:

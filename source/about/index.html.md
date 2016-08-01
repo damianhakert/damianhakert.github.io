@@ -23,7 +23,7 @@ GitLab Inc. also offers:
 1. [Custom Development work](https://about.gitlab.com/development/)
 
 GitLab is a community project, over 1000 people worldwide have [contributed to GitLab]!
-GitLab Inc. is an active participant in this community, trying to serve its needs and lead by example. For more information see 'Our stewardship of GitLab CE' further down this page.
+GitLab Inc. is an active participant in this community, trying to serve its needs and lead by example. For more information see [Our stewardship of GitLab CE](#stewardship) further down this page.
 
 ## A brief history of GitLab
 
@@ -84,7 +84,7 @@ Please see the [values section in our handbook](https://about.gitlab.com/handboo
 
 GitLab Inc. is a for profit company that balances the need to improve
 GitLab Community Edition (CE) with the need to add features to GitLab
-Enterprise Edition (EE) exclusively in order to generate more income.
+Enterprise Edition (EE) exclusively in order to generate income.
 We have an [open core](https://en.wikipedia.org/wiki/Open_core) business model and generate almost all our revenue with [subscriptions to use Enterprise Edition](https://about.gitlab.com/pricing/).
 We recognize that we need to balance the need to generate income and with the needs of the open source project.
 
@@ -108,7 +108,7 @@ Apart from making new features GitLab Inc. does a lot of work that benefits both
 1. Dependency upgrades (Rails, gems, etc.)
 1. Performance improvements
 
-When we make new features we ask ourselves, is this feature more relevant for organizations that have more than 100 users?
+When we make new features we ask ourselves, is this feature **more relevant for organizations that have more than 100 users**?
 If the answer is yes the feature is likely to be exclusive to EE.
 We always make sure that CE can do all essential things and there are companies using CE with more than 10,000 developers.
 
@@ -122,12 +122,16 @@ When someone does contribute a feature to CE that is already in EE we weigh a co
 1. Is it a complete replacement of the EE functionality?
 1. Does it meet the criteria of the [definition of done](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#definition-of-done)?
 1. Is it more relevant for organizations that have more than 100 users?
+1. Is the person or organizating submitting this using GitLab with more or less than 100 users?
 1. Did the person or organization submitting this contribute to GitLab before?
 1. Is it something that many of our existing customers choose GitLab Enterprise Edition for?
 1. Is it relevant for running a large open source forge?
 1. Is it an original work or based on the EE code?
+1. Is there an actively maintained fork that incorporates this?
+1. How many organizations are using this code in production?
+1. How frequently has this functionality been requested for CE and by whom?
 
-We'll weight all factors and you can judge our stewardship of CE based on the outcome. So far (July 22, 2016) we had only two cases, one had low code quality and the other one copied the EE code down to the last space.
+We'll weight all factors and you can judge our stewardship of CE based on the outcome. So far (July 22, 2016) we had only two cases, one had low code quality and the other one copied the EE code down to the last space. If you find these or other examples please link them here so people can get an idea of the outcome.
 
 In case we're not sure, we'll consult with the [core team](https://about.gitlab.com/core-team/) to reach a conclusion.
 

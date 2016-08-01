@@ -38,7 +38,7 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
 
           - Opening an existing position: If the position is already listed in the `jobs.yml` file but not "open", simply change `open: false` to `open: true` to have the position appear on the [listings](/jobs/).
           - Closing an existing position: If we're no longer hiring for a particular position change `open: true` to `open: false` for that position to hide it from the listings.
-          - Note: You can leave the apply workable link blank until you have created it (see instructions below). 
+          - Note: You can leave the apply workable link blank until you have created it (see instructions below).
 1. Once the job description and posting have been approved, create the job in [Workable](https://gitlab.workable.com/backend), using the exact same job title. If you do this step earlier, people will be able to apply even though the job posting may not have been approved yet.
    * For location, select "Telecommute".
    * For the description, write `For the job description, see [URL of relevant jobs page on about.gitlab.com]`
@@ -62,7 +62,7 @@ Every first of the month, People Ops announces that we are hiring on [Hacker New
 
    > REMOTE ONLY - GitLab
    >
-   > We're hiring production engineers, developers, UX designers, and more. Work on mostly open source software!
+   > We're hiring production engineers, frontend and backend developers, UX designers, and more. Work on mostly open source software!
    >
    > https://about.gitlab.com/jobs/
    >
@@ -76,6 +76,7 @@ Every first of the month, People Ops announces that we are hiring on [Hacker New
 1. [RemoteOK](https://remoteok.io) ($200 for ?? days, per position)
 1. [RemoteBase](https://remotebase.io/)
 1. [StackOverflow](http://stackoverflow.com/jobs); ask People Ops to help
+1. [Tech Ladies](http://www.hiretechladies.com/) ($299 for 30 days, 2,000+ women in the database, current concentration in SF and NY)
 
 
 ## Hiring Process
@@ -134,7 +135,7 @@ Questions are:
 1. Current address? (relevant in context of comp, and in case of contract we will need that information).
 1. How do they feel about working remotely and do they have experience with it?
 1. Compensation expectation and compensation in current/last job.
-1. STAR questions and simple technical questions may also be asked during the screening call if applicable. 
+1. STAR questions and simple technical questions may also be asked during the screening call if applicable.
 
 [An example of the output of a good screening call](https://gitlab.workable.com/backend/jobs/128446/browser/applied/candidate/7604850) (need workable account).
 
@@ -257,7 +258,7 @@ Offers made to new team members should be documented in the email thread between
 
 1. Email example is in the "Offer letter" template in Workable. When using the template:
    1. make sure that you offer the correct [contract type and entity](/handbook/contracts/#how-to-use)
-   1. include the People Ops alias in the cc, and
+   1. include the People Ops alias in the cc (when you are ready for a written contract to be made), and
    1. change the subject line of the email. The default subject line in Workable is "{position name} - GitLab", but when making multiple hires for the same position, this can cause confusion in a Gmail inbox that collects conversation threads based on subject line. So for example make it "{first name of applicant} - offer for {position name} at GitLab" (this is something that we cannot do in the template, unfortunately).
    1. Note: the number of proposed stock options must always be mentioned specifically, even when it is 0.
 1. One person from People Operations will reply-to-all to everyone in the thread (including the applicant) to confirm that they will make the contract. Speed matters: if you are in People Operations and you can tackle this, then raise your hand and hit reply-all.
@@ -266,17 +267,18 @@ Offers made to new team members should be documented in the email thread between
       - was it approved by the CEO?
       - do the contract type and entity make sense?
       - is it clear how many (if any) stock options this person should receive?
+      - is all necessary information (start date, salary, etc.) clearly agreed to?
    1. makes the contract based on the details found in the Workable platform, using reply-all to gather any missing pieces of information,
    1. has the contract reviewed by the VP of Scaling, CEO, or CFO (should not be the same as the person making the offer)
    1. confirms with a reply-to-all when the contract is sent.
-1. When the contract is signed, the People Ops team member should move the candidate in Workable to the "Hired" bucket of the "Hired Team Members (admin access only)" job. This accomplishes two goals. First, thanks to an integration between Workable and BambooHR, it will automatically add an entry for the new team member in BambooHR. However, in the automatic move, "self-service" is switched off in BambooHR by default, so this must be switched on explicitly within BambooHR. Second, by keeping the application and interview notes of successful applicants in a more restricted area of Workable we are able to maintain confidentiality if/when the applicant becomes involved in the hiring process for their peers.
+1. When the contract is signed, the People Ops team member or hiring manager should move the candidate in Workable to the "Hired" bucket of the "Hired Team Members (admin access only)" job. This accomplishes two goals. First, thanks to an integration between Workable and BambooHR, it will automatically add an entry for the new team member in BambooHR. However, in the automatic move, "self-service" is switched off in BambooHR by default, so this must be switched on explicitly within BambooHR. Second, by keeping the application and interview notes of successful applicants in a more restricted area of Workable we are able to maintain confidentiality if/when the applicant becomes involved in the hiring process for their peers.
 1. This same person from People Operations files the signed contract in the appropriate place, and starts the [**onboarding issue**](https://about.gitlab.com/handbook/general-onboarding/).
 
 Note for People Operations:<br>
 - the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
 [Contracts page](https://about.gitlab.com/handbook/contracts).
 - Onboarding info for the PeopleOps system, BambooHR, can be found on the [PeopleOps](/handbook/people-operations) page.
-- All information regarding compensation in Workable should be visible to hiring manager only. 
+- All information regarding compensation in Workable should be visible to hiring manager only.
 
 ## Closing a vacancy
 <a name="closing-vacancy"></a>

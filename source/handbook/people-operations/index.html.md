@@ -9,34 +9,6 @@ title: "People Operations"
 - You can also send an email to the People Operations group (see the "GitLab Email Forwarding" google doc for the alias), or ping an individual member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
 - [**Chat channel**](https://gitlab.slack.com/archives/peopleops); please use the `#peopleops` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
 
-## This page
-
-- [Role of People Operations](#role-peopleops)
-    - [Letter of Employment](#letter-of-employment)
-- [Team Directory](#directory)
-- [Office addresses](#addresses)
-- [Policies](#peopleops-policies)
-   - [Compensation principles](#compensation-principles)
-   - [Sick time - taking and reporting](#sick-time)
-   - [Hiring Significant Others or Family Members](#family-hires)
-   - [Returning property to GitLab](#returning-property)
-      - [FedEx info for the team member](#fedex-info)
-- [Methods and Tools for People Ops](#peopleops-methods)
-   - [Setting up new contracts](#new-contracts)
-   - [Processing changes](#processing-changes)
-   - [Using BambooHR](#bamboohr)
-   - [Settings in BambooHR](#bamboohr-settings)
-   - [Process Referral Bonus](#referral-bonus)
-   - [Asset Tracking](#asset-tracking)
-   - [Managing the PeopleOps onboarding tasks](#manage-onboarding-tasks)
-   - [Birthday Swag](#birthday-swag)
-   - [Administrative details of benefits for US-based employees](#benefits-us)
-   - [Using TriNet](#using-trinet)
-   - [Using RingCentral](#ringcentral)
-- [Paperwork people may need to obtain mortgage in the Netherlands](#dutch-mortgage)
-- [Involuntary Terminations](#involuntary-terminations)
-
-
 ## Other pages related to People Operations
 
 - [Hiring process](/handbook/hiring/)
@@ -46,30 +18,42 @@ title: "People Operations"
 - [Benefits](/handbook/benefits/)
 - [Travel](/handbook/travel/)
 
-## Role of People Operations<a name="role-peopleops"></a>
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+
+## Role of People Operations
+<a name="role-peopleops"></a>
 
 In general, the People Operations team and processes are here as a service to the rest of the team; helping make your life easier so that you can focus on your work and contributions to GitLab. On that note, please don't hesitate to [reach out](#reach-peopleops) with questions! In the case of a conflict between the company and a team member, People Operations works "on behalf of" the company.
 
-### Letter of Employment<a name="letter-of-employment"></a>
-
-If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. For example, monthly fee, salary, start date, title, etc. People ops will send you the letter once it is completed.
-
-## Team Directory<a name="directory"></a>
+## Team Directory
+<a name="directory"></a>
 
 The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is in BambooHR, and is accessible to all team members. This is your one-stop directory for phone numbers and addresses (in case you want to send your team mate an awesome card!).
 
 - Please make sure that your own information stays up to date, and reach out to People Ops if you need any help in doing so.
 - Please make sure that your address and phone information are written in such a way that your team mates can reach you from a different country. So, for example, include `+[country code]` in front of your phone number.
 
+## Letter of Employment
+<a name="letter-of-employment"></a>
 
-## Office addresses<a name="addresses"></a>
+If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. For example, monthly fee, salary, start date, title, etc. People ops will send you the letter once it is completed.
+
+## Office addresses
+<a name="addresses"></a>
 
 - For the SF office, see our [visiting](https://about.gitlab.com/visiting/) page.
 - For the NL office, we use a postbox address listed in the "GitLab BV address" note in the Shared vault on 1Password. We use [addpost](www.addpost.nl) to scan our mail and send it along to a physical address upon request. The scans are sent via email to the email alias listed in the "GitLab Email Forwarding" google doc.
 
-## Policies<a name="policies"></a>
+## Policies
+<a name="policies"></a>
 
-### Compensation principles<a name="compensation-principles"></a>
+### Compensation principles
+<a name="compensation-principles"></a>
 
 1. We're an open organization and want to be transparent about compensation principles, while not disclosing individual compensation. We're working on having a formula for compensation but this is hard due to the need make the formula work across the globe.
 1. Compensation is based on market rate for the region, your job title, and your (expected) level of performance.
@@ -83,7 +67,8 @@ The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is
 1. As you can see from our [contracts](/handbook/contracts/), compensation is typically set at a fixed monthly rate. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission, for leadership roles sometimes part of it is based on business objectives. Success engineers currently have a lower variable component, we're not sure how this will evolve. All other people have fixed compensation (but we do have [bonuses and incentives](/handbook/#incentives)).
 1. Compensation decisions are taken by the compensation committee. This committee consists of the CFO, CEO, and head of people operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee.
 
-### Sick time - taking and reporting<a name="sick-time"></a>
+### Sick time - taking and reporting
+<a name="sick-time"></a>
 
 In keeping with our [values](/handbook/#values) of freedom, efficiency, transparency, kindness, and boring solutions, we have crafted the following protocol around sick leave for all team members.
 
@@ -99,7 +84,8 @@ In keeping with our [values](/handbook/#values) of freedom, efficiency, transpar
 - Employees of GitLab Inc. who receive a pay stub from TriNet will see sick time accrue on their pay stub at the rate of 0.0346 hrs per hour worked (3 hours of sick leave per semi-monthly pay-period) for a maximum accrual and carry-over of 72 hours per year. GitLab's policy is more generous than this, in the sense that you can take off non-accrued sick time as written above (a negative balance may show on your pay stub). Sick time does not get paid out in case of termination, nor does it reduce your final paycheck in case of a negative balance. Related to the topic of extended leave requests, see information about [short term disability](/handbook/benefits/#std-ltd) through TriNet / your state.
 - Employees of GitLab B.V. have further rights and responsibilities regarding sick time based on Dutch law, as written into their employment [contracts](#handbook/contracts).
 
-### Hiring Significant Other or Family Members<a name="family-hires"></a>
+### Hiring Significant Other or Family Members
+<a name="family-hires"></a>
 
 GitLab is committed to a policy of employment and advancement based on **qualifications and merit** and does not discriminate in favor of or in opposition to the employment of significant others or relatives. Due to the potential for perceived or actual conflicts, such as favoritism or personal conflicts from outside the work environment, which can be carried into the daily working relationship, GitLab will hire or consider other employment actions concerning significant others and/or relatives of persons currently employed or contracted only if:   
 a) candidates for employment will not be working directly for or supervising a significant other or relative, and
@@ -107,11 +93,13 @@ b) candidates for employment will not occupy a position in the same line of auth
 
 This policy applies to all current employees and candidates for employment.
 
-### Returning property to GitLab<a name="returning-property"></a>
+### Returning property to GitLab
+<a name="returning-property"></a>
 
 As part of [offboarding](https://about.gitlab.com/handbook/offboarding/), any GitLab property needs to be returned to GitLab. GitLab will pay for the shipping either by People Ops sending a FedEx shipping slip or it can be returned by another mutually agreed method. If property is not returned, GitLab reserves the right to use a creditor company to help retrieve the property.
 
-#### FedEx info for the team member <a name="fedex-info"></a>
+#### FedEx info for the team member
+<a name="fedex-info"></a>
 
 Pull up the departing contributors home address. Find a Fedex location close to them. Then follow the template below.
 
@@ -131,14 +119,17 @@ Please let People Ops know if you have any questions."
 
 
 
-## Methods and Tools for People Ops<a name="peopleops-methods"></a>
+## Methods and Tools for People Ops
+<a name="peopleops-methods"></a>
 
-### Setting up new contracts<a name="new-contracts"></a>
+### Setting up new contracts
+<a name="new-contracts"></a>
 
 New team hire contracts are found on the [Contracts](https://about.gitlab.com/handbook/contracts/) page, including instructions on how to set up new contracts.
 
 
-#### Using HelloSign<a name="hellosign"></a>
+#### Using HelloSign
+<a name="hellosign"></a>
 
 When we need [contracts to be signed](https://about.gitlab.com/handbook/#signing-legal-documents) we use [HelloSign](https://hellosign.com).
 Follow these steps to send out a signature request.
@@ -147,7 +138,7 @@ Follow these steps to send out a signature request.
 1. Upload your document that needs signing
 1. Enter the names of the people that need to sign
 1. With more than one signature required, assign signing order (for contracts or offer letters, always have the GitLab Signatory sign first)
-1. Add the People Ops team to the cc
+1. Add the People Ops team to the cc. Also add the hiring manager to the cc, if that person is different from the signatory.
 1. Click on "Prepare Docs for signing"
 1. Drag & Drop the Signature and Date fields to the corresponding empty spaces in the document (you can select the signee with the pop up screen)
 1. For GitLab Inc. agreements, add a required textbox to Exhibit A, and a supplemental larger textbox below for a comment that is not required.
@@ -157,7 +148,8 @@ Follow these steps to send out a signature request.
 Once you've sent out the document you will receive email notifications of the progress and a copy of the signed document after all parties have signed.
 If you need to make a change, there is an "Edit & Resend" option in HelloSign. If a new document has to be uploaded, cancel the original and stage a new one to send for signatures.
 
-### Processing changes<a name="processing-changes"></a>
+### Processing changes
+<a name="processing-changes"></a>
 
 Any changes to a team member’s status, classification, promotion/demotion, pay increase/decrease and
 bonus needs to be communicated via email to People Ops by the team member's manager or CEO. People Ops will then enter
@@ -169,7 +161,8 @@ sends an email to the person reporting / requesting the change (member's manager
 to confirm this.
 
 
-### Using BambooHR<a name="bamboohr"></a>
+### Using BambooHR
+<a name="bamboohr"></a>
 
 We use [BambooHR](https://gitlab.bamboohr.com) to keep all team member information
 in one place. All team members (all contract types) are in BambooHR.
@@ -189,7 +182,8 @@ test account that does not have admin privileges.
 1. in the note to the team, point to the documentation created in step 1, explain the need and
 the ask, and who to turn to in case of questions.
 
-### Settings in BambooHR<a name="bamboohr-settings"></a>
+### Settings in BambooHR
+<a name="bamboohr-settings"></a>
 
 Changing a Format (Example: Date)
 
@@ -237,19 +231,23 @@ We want to add a note to the new employee of who referred them, so that if they 
 BambooHR will send an email to PeopleOps on the date that the referral bonus should be paid for [processing](/handbook/people-operations/#using-trinet) through the applicable payroll system. If the team member is a contractor, send them an email (and cc Finance) to invoice the bonus.
 Once the bonus has been processed, change the note in BambooHR to denote the referral bonus has been paid.
 
-### Asset Tracking<a name="asset-tracking"></a>
+### Asset Tracking
+<a name="asset-tracking"></a>
 
-Items paid for by the company are property of the company and need to be reported to People Ops for proper asset tracking. The information is then entered into BambooHR by People Ops.
+Items paid for by the company are property of the company.
 
-1. Go to the Employee in BambooHR
+Assets with purchasing value in excess of $1000 USD are tracked in BambooHR, for assets of lower value we rely on the honor system. These assets come to People Ops attention by one of two ways: 1. People Ops makes the purchase on behalf of the team member, or 2. the Finance team notices the line items on expense reports / invoices and passes this along to People Ops.
+
+The information is then entered into BambooHR (to track who has which piece of equipment) by People Ops, and it is included in the Fixed Asset Schedule by Finance (to track asset value and depreciation).
+
+1. Go to the team member in BambooHR
 1. Click on the Assets Tab
 1. Click Update Assets
 1. Enter Asset Category, Asset Description, Serial Number, Asset Cost, and Date Loaned
 1. This process is repeated for each asset purchased
 
-People Ops should recieve a confirmation and receipt via email after placing an order. Make sure to upload these receipts with your next expense report through [Expensify](/handbook/#spending-company-money). You can automatically do this by forwarding all receipts to receipts@expensify.com.
-
-### Managing the PeopleOps onboarding tasks <a name="manage-onboarding-tasks"></a>
+### Managing the PeopleOps onboarding tasks
+<a name="manage-onboarding-tasks"></a>
 
 Here are some useful guidelines to set up everything for our new team members with the onboarding issue.
 If Google Sheets or Docs are mentioned, these will be shared with you on Google Drive.
@@ -264,7 +262,7 @@ calendar" in the top of the window. Enter the GitLab email address and scroll
 down to set the permission setting to "make changes to events" Then save in the
 lower left corner.
 - **Add team member to the GitLab Birthdays calendar**
-Go to your calendar window, under my calendar select the GitLab Birthdays calendar. Go to the team member's birthdate and add an all day event with their name as the title. Change the setting to repeat annually. Share this calendar with the new team member.  
+Go to your calendar window, under my calendar select the GitLab Birthdays calendar. Go to the team member's birthdate and add an all day event with their name as the title. Change the setting to repeat annually. Also add an entry for the team member's work anniversary. Change the color of the event to blue, make it an annual event, and include Name and Work Anniversary in the title. Share this calendar with the new team member.  
 - **Add blank entry to team page**<a name="blank-entry"></a>
 Login to [Gitlab.com](www.gitlab.com) and go to the www-gitlab-com project. In
 the left menu click "Files," select "data," and choose the file called team.yml. In the top right
@@ -279,7 +277,7 @@ Open the Team Agenda google doc, and on the starting day add an Agenda item:
 "[Hiring manager name]: Welcome [name new team member] joining as [job title]"
 as the first item on the agenda
 - **Create new profile for team member in BambooHR, and input relevant data**
-Once the new team member has been transfered from Workable to BambooHR, go to the Dashboard and search their name. Under the Personal tab, add country, work email, and personal email. Under the Job tab, enter the compensation from the contract. Note: We do not use the pay period or pay type option in this list, but BambooHR cannot remove it.
+Once the new team member has been transferred from Workable to BambooHR, go to the Dashboard and search their name. Under the Personal tab, add country, work email, and personal email. Under the Job tab, enter the compensation from the contract. Note: We do not use the pay period or pay type option in this list, but BambooHR cannot remove it.
 Next enter job information. Be sure to verify the proper title and contract type.
 - **Invite to team meeting and GitLab 101 meeting**
 Go to the team call meeting on the starting date of the team member and the next
@@ -303,14 +301,17 @@ Log into Egencia and go to the menu option "manage users". Choose "new user acco
 As username choose the same handle as on our dev domain. Enter the GitLab email address and uncheck the newsletter box.
 Lastly assign the department in which the new team member is working.
 
-### Birthday Swag <a name="birthday-swag"></a>
+### Birthday Swag
+<a name="birthday-swag"></a>
 
 BambooHR should send an email to People Ops the day before and the day of a team member's birthday. Celebrate by sending the team member a $25 swag code, and free shipping. Swag codes can be found in the google doc titled "Tshirts and Stickers Coupons."
 Include the link to the [swag store](https://gitlab.mybrightsites.com/) in your email. Also, make sure to post on the #general channel on Slack so all team members can help them celebrate.
 
-### Administrative details of benefits for US-based employees <a name="benefits-us"></a>
+### Administrative details of benefits for US-based employees
+<a name="benefits-us"></a>
 
-#### 401k<a name="401k"></a>
+#### 401k
+<a name="401k"></a>
 
 1. You are eligible to participate in GitLab’s 401k as of the 1st of the month after your hire date.
 1. You will receive a notification on your homepage in TriNet Passport once eligible,
@@ -325,15 +326,17 @@ after the 1st of the month after your hire date.
    1. Zip Code
 1. Once inside the portal you may elect your annual/pay-period contributions, and Investments.
 
-### Using TriNet<a name="using-trinet"></a>
+### Using TriNet
+<a name="using-trinet"></a>
 
-#### Entering New Hires into TriNet<a name="trinet-process"></a>
+#### Entering New Hires into TriNet
+<a name="trinet-process"></a>
 
 Employer enters the employee data in the HR Passport with the information below
 
 1. Under the My Staff tab- select new hire/rehire and a drop down menu will appear.
 1. Enter all of the necessary information:
-    * Company name autopopulates
+    * Company name auto-populates
     * SS
     * Form of address for hire (Mr. Ms, etc.)
     * First name
@@ -390,7 +393,8 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 1. The employee is prompted to log on, complete tax withholding (W4 data), direct deposit information, section 1 of the I-9, and benefits election (if eligible).
 1. The employer logs in to HR Passport and is prompted by way of work inbox item, to complete section 2 of the I-9.
 
-#### Making changes in TriNet <a name="changes-trinet"></a>
+#### Making changes in TriNet
+<a name="changes-trinet"></a>
 
 ##### Add a New Location
 
@@ -453,7 +457,8 @@ Note: if you save the information to finish at a later date, go to the Work Inbo
 Note: Make sure to file all appropriate documentation in BambooHR. Also, if the employee has been employed for less than six months, check the notes section in BambooHR to see if they were referred by anyone at GitLab. If so, process a discretionary bonus for that team member as well.
 
 
-### Using RingCentral<a name="ringcentral"></a>
+### Using RingCentral
+<a name="ringcentral"></a>
 
 Our company and office phone lines are handled via RingCentral. The login credentials
 are in the Secretarial vault on 1Password. To add a number to the call handling & forwarding
@@ -466,7 +471,8 @@ the current settings which show all the people and numbers that are alerted when
 number is dialed.
 - Add the new forwarding number (along with a name for the number), and click Save.
 
-## Paperwork people may need to obtain mortgage in the Netherlands<a name="dutch-mortgage"></a>
+## Paperwork people may need to obtain mortgage in the Netherlands
+<a name="dutch-mortgage"></a>
 
 When your employment contract is for a fixed period of time (e.g. 12 months) you'll need a "werkgeversverklaring".
 This document describes your salary and states that your employer expects to continue to employ
@@ -483,7 +489,8 @@ you to provide information about your financial status, usually in the form of a
 of your total financial status (including any savings you have). The requirements for
 this seem to vary a bit between mortgage providers.
 
-## Involuntary Terminations<a name="involuntary-terminations"></a>
+## Involuntary Terminations
+<a name="involuntary-terminations"></a>
 
 Involuntary termination of any team member is never easy. We've created some guidelines and information to make this process as painless and easy as possible for everyone involved. Beyond the points outlined below, make sure to refer to our guidelines on [underperformance](/handbook/underperformance), as well as the [offboarding](/handbook/offboarding/) checklist.
 
@@ -501,7 +508,8 @@ Ideally, the manager and the team member have walked through the guidelines on [
 1. People Ops: Create the [offboarding checklist issue](/handbook/offboarding), and go from there.
 
 
-### Points to cover during the offboarding call, with sample wording<a name="offboarding-points"></a>
+### Points to cover during the offboarding call, with sample wording
+<a name="offboarding-points"></a>
 
 The following points need to be covered for any team member:
 

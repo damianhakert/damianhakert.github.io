@@ -85,10 +85,6 @@ extra_css:
                 %a{href: "https://www.digitalocean.com/community/tutorials/how-to-use-the-gitlab-one-click-install-image-to-manage-git-repositories"} tutorial
             %li
               %p
-                %a{href: "https://developers.google.com/cloud/gitlab/"} Google Compute Engine
-                offers a click to deploy GitLab template
-            %li
-              %p
                 %a{href: "https://app.cloud66.com/easydeploys"} Cloud 66 deployment and management
                 to deploy GitLab to your own server or any cloud (DigitalOcean/AWS/Rackspace/GCE/etc.) and then manage it with database backups, scaling and more
             %li
@@ -117,6 +113,19 @@ extra_css:
         .method
           %h2 Community installation methods
           %ul
+            %li
+              %p
+                %a{href: "http://packages.ubuntu.com/search?keywords=gitlab&searchon=names&suite=all&section=all"} Ubuntu package
+                by Masters of the Universe
+                based on the Debian package
+                install GitLab on Ubuntu 16.04 and higher with just `apt-get install gitlab`
+                (we do recommend to use the official Omnibus package instead for faster updates and higher reliability)
+            %li
+              %p
+                %a{href: "https://packages.debian.org/search?keywords=gitlab"} Debian package
+                by Pirate Praveen
+                install GitLab on Debian Stretch and higher with just `apt-get install gitlab`
+                (we do recommend to use the official Omnibus package instead for faster updates and higher reliability)
             %li
               %p
                 %a{href: "https://forge.puppetlabs.com/vshn/gitlab"} Puppet module

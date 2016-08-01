@@ -25,8 +25,8 @@
 
 - title: "Content Marketing Manager"
   description: /jobs/content-marketing-manager/
-  apply: https://gitlab.workable.com/jobs/252104/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "Director Customer Success"
   description: /jobs/dir-customer-success/
@@ -38,15 +38,15 @@
   apply: https://gitlab.workable.com/jobs/181461/candidates/new
   open: true
 
-- title: "General Ledger Accountant (part time)"
-  description: /jobs/general-ledger-accountant/
+- title: "Senior Accountant (part time)"
+  description: /jobs/senior-accountant/
   apply: https://gitlab.workable.com/jobs/260762/candidates/new
   open: true
 
 - title: "Marketing Operations Manager"
   description: /jobs/marketing-operations-manager/
-  apply: https://gitlab.workable.com/jobs/268275/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "People Operations Coordinator"
   description: /jobs/people-ops-coordinator/
@@ -57,6 +57,11 @@
   description: /jobs/senior-director-of-people-operations/
   apply:
   open: false
+
+- title: "Product Manager"
+  description: /jobs/product-manager
+  apply:
+  open: true
 
 - title: "Product Marketing Manager"
   description: /jobs/product-marketing-manager-partner/
@@ -106,6 +111,11 @@
 - title: "Junior Designer"
   description: /jobs/junior-designer/
   apply: https://gitlab.workable.com/jobs/296974
+  open: true
+
+- title: "Director of Developer Relations"
+  description: /jobs/director-developer-relations/
+  apply: https://gitlab.workable.com/jobs/298091
   open: true
 
 - title: "Open Application"

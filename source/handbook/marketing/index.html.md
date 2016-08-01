@@ -73,45 +73,7 @@ For a more granular look at what individuals on the marketing team are focusing 
 
 To support these goals, we plan to hire the people outlined in our [hiring plan](#hiring-plan) during Q3 and Q4 of 2016. Job descriptions are linked from the hiring plan for each role to better understand how each role supports the goals of the marketing team and company.  
 
-Take a look at the focus for each functional group:  
-
-### Demand Generation  
-
-Demand Generation at GitLab focuses on online marketing, field marketing, business development, campaign planning, funnel metrics, marketing operations, and marketing automation. Demand Generation is responsible for the top of the lead funnel all the way to SQL.
-
-The focus for the second half of 2016 is on hiring, new business pipeline, demand infrastructure, and events.
-
-For more information, see the [demand generation handbook](/handbook/marketing/demand-generation/).
-
-### Product Marketing
-
-Product Marketing at GitLab focuses on product messaging, product launch marketing, partner marketing, channel marketing, PR/AR, and content marketing.  
-
-For more information, see the [product marketing handbook](/handbook/marketing/product-marketing).
-
-### Developer Relations  
-
-Developer Relations includes the technical writing and developer advocacy functions. The team is focused on answering the following questions:  
-
-- What are scalable developer education tools?
-- How do we turn in person feedback at events into actionable product requests?
-- What are the best and most engaging talks we can give to help educate developers?
-- How do we support the community?
-- How do we make the documentation even better?
-- How do we make it even more fun and easy to get started?
-- What is engaging developer content for blog, video, social media?
-- How do we build our global meetup plan so word of mouth + make it easy to love GitLab?
-- What is the developer GitLab experience?
-- How do we use social media to support the community?
-- How do field marketing and developer relations work together to support the community?
-
-For more information, see the [developer relations handbook](/handbook/marketing/developer-relations).
-
-### Design  
-
-Design focuses on creating the visual brand for GitLab. Design supports product marketing, content marketing, demand generation, and almost every function in the marketing team to ensure consistent and clear visual brand. Design is responsible for about.gitLab.com, swag, event design, content design, and branding.
-
-For more information, see the [design handbook](/handbook/marketing/design).
+The focus for each [functional group](#groups) is described below.
 
 ### How we think about marketing a developer product
 
@@ -169,8 +131,7 @@ The message targeting for the top down strategy will be different from the botto
 
 Top down marketing and bottom up marketing meets in the middle at the product. Your product must be rock solid. Product excellence is a key part of developer marketing strategy in the enterprise.
 
-We are fortunate that our product excellence stands on its own. Through a strong product and engineer team, amazing community feedback, community contributions, and a supportive sales team, our product excellence is our best marketing tool.  
-
+We are fortunate that our product excellence stands on its own. Through a strong product and engineer team, amazing community feedback, community contributions, and a supportive sales team, our product excellence is our best marketing tool.
 
 ## <i class="fa fa-users fa-fw icon-color font-awesome" aria-hidden="true"></i> Marketing Team Functional Groups
 {: #groups}
@@ -246,7 +207,9 @@ as we are using the markdown parser to mix it up with markdown. Intending will g
 <div class="modal-body">
 <!-- EDIT FROM HERE ON LIKE NORMAL MARKDOWN -->
 
-What is Demand Generation (to be included).
+Demand Generation at GitLab focuses on online marketing, field marketing, business development, campaign planning, funnel metrics, marketing operations, and marketing automation. Demand Generation is responsible for the top of the lead funnel all the way to SQL.
+
+The focus for the second half of 2016 is on hiring, new business pipeline, demand infrastructure, and events.
 
 [Job Description](/jobs/demand-generation-manager/){:.btn .btn-purple-inv}
 [Handbook][Demand Generation]{:.btn .btn-purple}
@@ -310,7 +273,7 @@ What is Online Marketing (to be included).
 <div class="modal-body">
 <!-- EDIT FROM HERE ON LIKE NORMAL MARKDOWN -->
 
-Short description: what does Design does for GitLab (to be included).
+Design focuses on creating the visual brand for GitLab. Design supports product marketing, content marketing, demand generation, and almost every function in the marketing team to ensure consistent and clear visual brand. Design is responsible for about.gitLab.com, swag, event design, content design, and branding.
 
 [Job Description](/jobs/designer/){:.btn .btn-purple-inv}
 [Handbook][Design]{:.btn .btn-purple}
@@ -335,7 +298,20 @@ Short description: what does Design does for GitLab (to be included).
 <div class="modal-body">
 <!-- EDIT FROM HERE ON LIKE NORMAL MARKDOWN -->
 
-What is Developer Relations (to be included).
+Developer Relations includes the technical writing and developer advocacy functions. The team is focused on answering the following questions:  
+
+- What are scalable developer education tools?
+- How do we turn in person feedback at events into actionable product requests?
+- What are the best and most engaging talks we can give to help educate developers?
+- How do we support the community?
+- How do we make the documentation even better?
+- How do we make it even more fun and easy to get started?
+- What is engaging developer content for blog, video, social media?
+- How do we build our global meetup plan so word of mouth + make it easy to love GitLab?
+- What is the developer GitLab experience?
+- How do we use social media to support the community?
+- How do field marketing and developer relations work together to support the community?
+
 
 ### Developer Advocacy
 {: .no_toc}
@@ -378,7 +354,8 @@ At GitLab, tech writers are the folks who take care of writing and maintaining t
 <div class="modal-body">
 <!-- EDIT FROM HERE ON LIKE NORMAL MARKDOWN -->
 
-What is Product Marketing (to be included)
+
+Product Marketing at GitLab focuses on product messaging, product launch marketing, partner marketing, channel marketing, PR/AR, and content marketing.  
 
 [Job Description](/jobs/product-marketing-manager){:.btn .btn-purple-inv}
 [Handbook](/handbook/marketing/product-marketing){:.btn .btn-purple}
@@ -717,7 +694,7 @@ Anything that is a process in marketing should be documented in the Marketing Ha
 - You can also send an email to the Marketing team (see the "GitLab Email Forwarding" google doc for the alias).
 - [**Chat channel**](https://gitlab.slack.com/archives/marketing); please use the `#marketing` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
 
-### <i class="fa fa-slack fa-fw slack font-awesome" aria-hidden="true"></i> Slack Marketing channels
+### Slack Marketing channels
 {: #chat}
 
 We use Slack internally as a communication tool. The marketing channels are as follows:  
@@ -738,14 +715,14 @@ We use Slack internally as a communication tool. The marketing channels are as f
 - Support - Ask any and all technical questions here for a quick response.
 - SFDC users - Having issues with SFDC? Ask here first.
 
-### <i class="fa fa-paper-plane-o fa-fw email font-awesome" aria-hidden="true"></i> Marketing email alias list
+### Marketing email alias list
 {: #email}
 
-- Community@gitlab.com is an external email address that goes to the CMO, Field Marketing Manager, Senior Product Marketing Manager, and Demand Generation team.  
-- Marketing@gitlab.com is an internal team email address for everyone on the marketing team.  
-- Press@gitlab.com directs to the CMO and Senior Product Marketing Manager.  
-- News@gitlab.com is an external email address for sending newsletters that goes to the Online Marketing Manager and Senior Demand Generation Manager.  
-- Securityalerts@gitlab.com is an external email address for sending security alerts that goes to the Online Marketing Manager and Senior Demand Generation Manager.
+- Community@ company domain is an external email address that goes to the CMO, Field Marketing Manager, Senior Product Marketing Manager, and Demand Generation team.  
+- Marketing@ company domain is an internal team email address for everyone on the marketing team.  
+- Press@ company domain directs to the CMO and Senior Product Marketing Manager.  
+- News@ company domain is an external email address for sending newsletters that goes to the Online Marketing Manager and Senior Demand Generation Manager.  
+- Securityalerts@ company domain is an external email address for sending security alerts that goes to the Online Marketing Manager and Senior Demand Generation Manager.
 
 <!-- IDENTIFIERS -->
 
@@ -889,8 +866,14 @@ We use Slack internally as a communication tool. The marketing channels are as f
   background-color: #fff;
   border-color: rgba(107,79,187,.5);
 }
-ul.toc-list-icons,
+ul.toc-list-icons {
+  list-style-type: none;
+  padding-left: 25px;
+}
 ul.toc-list-icons li ul {
+  padding-left: 25px;
+}
+ul.toc-list-icons {
   list-style-type: none;
   padding-left: 25px;
 }
@@ -901,12 +884,6 @@ ul.toc-list-icons li i,
 ul.toc-list-icons li ul li i {
   padding-right: 15px;
   color: rgb(107,79,187);
-}
-.slack {
-  color: rgb(224,23,101);
-}
-.email {
-  color: rgb(192,0,0);
 }
 ul.toc-list-icons li:nth-of-type(even) i {
   color:rgb(252,109,38);

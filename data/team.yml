@@ -1,6 +1,6 @@
 - name: Dmitriy Zaporozhets
-  locality: Utrecht
-  country: The Netherlands
+  locality: Kharkiv
+  country: Ukraine
   role: Co-founder, <a href="https://about.gitlab.com/jobs/chief-technology-officer/">Chief Technical Officer (CTO)</a>
   reports_to: CEO
   twitter: dzaporozhets
@@ -36,7 +36,7 @@
 - name: Marin Jankovski
   locality: Amsterdam
   country: The Netherlands
-  role: Packaging Lead
+  role: <a href="https://about.gitlab.com/jobs/packaging-lead/">Packaging Lead</a>
   reports_to: VP of Engineering
   picture: picture_marin.jpg
   twitter: maxlazio
@@ -138,7 +138,7 @@
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/backend-lead/">Backend Lead</a>
   reports_to: VP of Engineering
-  picture: picture_douwe.png
+  picture: douwe.jpg
   twitter: DouweM
   gitlab: DouweM
   maintains:  |
@@ -164,7 +164,7 @@
 - name: Kamil Trzciński
   locality: Warsaw
   country: Poland
-  role: CI Lead
+  role: <a href="https://about.gitlab.com/jobs/ci-lead/">CI Lead</a>
   reports_to: VP of Engineering
   picture: kamil.jpg
   twitter: ayufanpl
@@ -409,7 +409,7 @@
 - name: José Torres
   locality: San José Pinula
   country: Guatemala
-  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Support Lead</a>
+  role: <a href="https://about.gitlab.com/jobs/support-lead/">Support Lead</a>
   reports_to: VP of Engineering
   picture: josetorres.jpg
   twitter: random_primate
@@ -503,7 +503,7 @@
 - name: Wilson Lau
   locality: San Francisco, CA
   country: USA
-  role: Controller
+  role: <a href="https://about.gitlab.com/jobs/controller/">Controller</a>
   reports_to: CFO
   picture: wilsonlau.jpg
   gitlab: wilsonlau
@@ -641,7 +641,7 @@
 - name: Pablo Carranza
   locality: Dublin
   country: Ireland
-  role: Senior <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a> and Infrastructure lead
+  role: <a href="https://about.gitlab.com/jobs/infrastructure-lead/">Infrastructure Lead</a>
   reports_to: CEO
   picture: pablo.jpg
   twitter: psczg
@@ -692,11 +692,10 @@
   locality: Zeist
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/developer/">Junior Developer</a>
-  reports_to: Backend Lead
+  reports_to: CI Lead
   picture: zegerjan.jpeg
   twitter: zjvandeweg
   gitlab: zj
-  maintains: |
   maintains: |
               <li>Maintainer of <a href="https://gitlab.com/gitlab-org/gitlab-ci-yml/">.gitlab-ci.yml</a> templates</li>
               <li>Award Emoji <a href="/jobs/expert/">expert</a></li>
@@ -809,6 +808,8 @@
   reports_to: Frontend Lead
   picture: annabel.png
   gitlab: annabeldunstone
+  maintains:  |
+              <li>Frontend UI merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
   story:  |
           Annabel is a front end developer with a passion for creating beautiful and functional applications. She has learned bits and pieces of various languages during her career, but is most excited about JavaScript, SASS, and Rails. In her free time she enjoys curling up with a good book, inventing cookie recipes, and spending time with her wonderful husband.
 
@@ -1181,6 +1182,9 @@
   picture: hazel.jpg
   twitter: hazelyuyang
   gitlab: hazelyang
+  maintains: |
+             <li>Interaction design specialist</li>
+             <li>Visual design specialist</li>
   story:  |
           Hazel comes from Taiwan. She is passionate about product design, interaction design,
           and illustration.  Before joining GitLab, she worked for a digital agency and worked
@@ -1253,7 +1257,7 @@
 - name: M.Y.
   locality:
   country:
-  role: <a href="https://about.gitlab.com/jobs/general-ledger-accountant/">Senior Accountant</a>
+  role: <a href="https://about.gitlab.com/jobs/senior-accountant/">Senior Accountant</a>
   reports_to: Controller
   picture: logo-extra-whitespace.png
   twitter:
@@ -1311,18 +1315,18 @@
   twitter: sarki247
   gitlab: abuango
   story:  |
-          Before joining the GitLab team, Abubakar has worked in the academic environment providing support and maintaining IT infrastructure. He also actively participates in several training programs targeted at youths and students. In his spare time, Abubakar reads and also participate in the local developer community events. 
+          Before joining the GitLab team, Abubakar has worked in the academic environment providing support and maintaining IT infrastructure. He also actively participates in several training programs targeted at youths and students. In his spare time, Abubakar reads and also participate in the local developer community events.
 
-- name: D.L.
-  locality:
-  country:
+- name: Dan Leonte
+  locality: Arlon
+  country: Belgium
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Junior Account Executive</a>
   reports_to: Sales Director EMEA
   picture: logo-extra-whitespace.png
   twitter:
-  gitlab:
+  gitlab: dan.gitlab
   story:  |
-          Joining July 18th
+          Dan is passionate about helping people become more effective in their activity by introducing to them one of the best and easy to use tool in the market for version control.
 
 - name: N.T.
   locality:
@@ -1368,6 +1372,17 @@
   story:  |
           Joining August 1st
 
+- name: J.C
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/marketing-operations-manager/">Marketing Operations Manager</a>
+  reports_to: Director of Demand Generation
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 1st
+
 - name: F.A.
   locality:
   country:
@@ -1379,6 +1394,39 @@
   story:  |
           Joining August 15th
 
+- name: K.T.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
+  reports_to: Business Development Team Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 15th
+
+- name: E.L.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/content-marketing-manager/">Content Marketing Manager</a>
+  reports_to: Senior Product Marketing Manager
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 18th
+
+- name: B.J.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 22nd
+
 - name: A.M.
   locality:
   country:
@@ -1388,4 +1436,4 @@
   twitter:
   gitlab:
   story:  |
-          Joining September 1st 
+          Joining September 1st

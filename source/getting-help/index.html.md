@@ -27,7 +27,7 @@ Please search for similar proposals before posting your own.
 ## Discussion
 * [#gitlab IRC channel](https://webchat.freenode.net/?channels=gitlab): a Freenode channel to get in touch with other GitLab users and get help. It is managed by James Newton (newton) and Drew Blessing (dblessing).
 * [Gitter chat room](https://gitter.im/gitlabhq/gitlabhq#): here you can ask questions when you need help.
-* [GitLab.com](https://about.gitlab.com/gitlab-com/) users can use the [GitLab.com Support Tracker](https://gitlab.com/gitlab-com/support-forum/issues) to report issues  and bugs if they do not have a [GitLab.com Bronze Support package](https://gitlab.recurly.com/subscribe/gitlab-com-bronze-yearly-20).
+* [GitLab.com](https://about.gitlab.com/gitlab-com/) users can use the [GitLab.com Support Tracker](https://gitlab.com/gitlab-com/support-forum/issues) to report issues and bugs if they do not have a [GitLab.com Bronze Support package](https://about.gitlab.com/gitlab-com/). To order Bronze Support, [contact sales](https://about.gitlab.com/sales/)
 * [GitLab Community Forum](https://forum.gitlab.com/): this is the best place to have a discussion.
 
 ## Reference
