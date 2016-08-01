@@ -166,7 +166,7 @@ and then ping @rspeicher to confirm your account. You can find this (and other) 
 
 #### FOR SERVICE ENGINEERING ONLY
 
-* [ ] Patricio/Robert/Jacob: Create GitLab.com admin account.
+* [ ] Jose/Robert/Jacob: Create GitLab.com admin account.
 * [ ] Patricio/Ernst: Add to Tweetdeck for [at]gitlabstatus.
 * [ ] Jose/Patricio: [Add new team member](https://support.zendesk.com/hc/en-us/articles/203661986-Adding-end-users-agents-and-administrators#topic_h43_2k2_yg) as an agent in [GitLab ZenDesk](https://gitlab.zendesk.com).
 * [ ] Jose/Patricio: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
