@@ -113,7 +113,7 @@ There are 2 kind of production events that we track:
 
 # Make GitLab.com settings the default
 
-As said in the [production engineer job description](jobs/production-engineer/index.html)
+As said in the [production engineer job description](/jobs/production-engineer/index.html)
 one of the goals is "Making GitLab easier to maintain to administrators all over the world".
 One of the ways we do it is making GitLab.com settings the default for all our customers.
 It is very important that GitLab.com is running GitLab Enterprise Edition with all its default settings.
