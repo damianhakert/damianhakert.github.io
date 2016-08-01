@@ -6,6 +6,7 @@ comments: true
 author: Emily Kyle
 author_twitter: emilylucie
 image_title: '/images/blogimages/SHU_4933.jpg'
+categories: events
 ---
 
 If you have been following along last month the entire GitLab team met, many for the first time, in Austin, TX. The trip was a great success. We were able to fit in work, OSCON, fun, and lots of BBQ.
