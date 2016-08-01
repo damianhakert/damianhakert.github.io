@@ -204,7 +204,7 @@ a lot of support to others in the community.
 
 3. Make service engineering onboarding and training a mostly self-guided experience that scales.
 
-4. Reduce the demand for support by improved documentation, training, tutorials, and
+4. Empower users through improved documentation, training, tutorials, and
 community engagement.
 
 ## Production Engineering 2016
