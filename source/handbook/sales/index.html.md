@@ -200,6 +200,10 @@ The following quote metrics are available:
 1. Once quote is signed and attached to opportunity, via Sertifi or manually and quote has been successfully sent to z-billing, go into the opportunity and change the stage to closed won.
 1. A renewal opportunity will be automatically created for the account
 
+####Closing Deals for Educational Institutions receiving educational pricing
+ * The customer should purchase a license as normal through Zuora, except that the number of users purchased should only include non-student users (as described in [Educational Pricing](https://about.gitlab.com/license-faq/)).
+ * After the customer purchases the license, the account executive then manually creates and sends a license that includes the total number of users, where `total # of users = students + non-students`.
+
 
 ### Returning Customer Creation Process(Upgrade/Renewals/Cancellations)
 1. Create an Opportunity for an Add-on or Renewal 
@@ -334,7 +338,7 @@ Once the above has happened, please make sure the following actions are done:
 
 A case is a question or feedback from a prospect or customer. Each of us can review cases to see how we can deliver better service.
 
-When a case is submitted, if the contacts email address is in salesforce, the contact owner will be assigned to the case.  If there is mo match, the case will go to our [BDR Queue](https://na34.salesforce.com/500?fcf=00B610000042ioq). Anyone can check this queue and reasssing to yourself if this is your contact or respond to this case.
+When a case is submitted, if the contacts email address is in salesforce, the contact owner will be assigned to the case.  If there is no match, the case will go to our [BDR Queue](https://na34.salesforce.com/500?fcf=00B610000042ioq). Anyone can check this queue and reassign to yourself if this is your contact or respond to this case.
 
 Cases display in an Emails related list. The Emails related list includes all emails sent by your customer regarding a particular case, as well the email threads between you and your customer. The first 77 characters of an email message appear in the related list so that you can see what the message is about without having to click on it.
 
