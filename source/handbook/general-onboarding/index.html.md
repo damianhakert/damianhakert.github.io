@@ -113,7 +113,7 @@ Next to Savvy, the People Ops team will also get a copy of the form info for you
 
 #### All team members
 
-* [ ] New team member: Read the [security handbook](/handbook/security), and please ask questions make sure it is all clear to you.
+* [ ] New team member: Read the [security handbook](https://about.gitlab.com/handbook/security/), and please ask questions make sure it is all clear to you.
 * [ ] New team member: If you authenticated your GitLab.com account with Google, GitHub, etc. you should either disconnect them or make sure they use two-factor authentication.
 * [ ] New team member: Enable [two-factor authentication](http://docs.gitlab.com/ee/profile/two_factor_authentication.html) on your GitLab.com account.
 * [ ] New team member: Make sure your notifications for GitLab.com aren't sent to a personal email. Send them to your `@gitlab.com` email.
