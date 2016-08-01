@@ -29,7 +29,7 @@ free as possible. Providing the monitoring tools that prevent shipping regressio
 our customers. And building automation tools that lower the barrier of access to production and allow us
 to scale with automation.
 
-Responsibilities can be found in the [job description](jobs/production-engineer/index.html)
+Responsibilities can be found in the [job description](/jobs/production-engineer/index.html)
 
 ### Production Engineering Resources
 
