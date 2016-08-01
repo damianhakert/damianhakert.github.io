@@ -43,7 +43,7 @@
       content: Branches is an iPhone and iPad app for managing issues in your GitLab repositories. The app also lets you browse commits, merge requests and files.
       links:
         - url: http://branchesapp.co
-          title: branchesapp.co 
+          title: branchesapp.co
 - title: Command Line Interface (CLI) Clients
   id: cli-clients
   applications:
@@ -62,11 +62,6 @@
       links:
         - url: https://gitlab.com/bor-sh/git-gitlab
           title: Repository on GitLab
-    - title: "Drew Blessing's GitLab CLI Tool"
-      content: Interact with your GitLab server via the command line to manage snippets, projects and more.
-      links:
-        - url: https://github.com/drewblessing/gitlab-cli
-          title: Repository on GitHub
     - title: "GoTsunami's GitLab Copy Tool"
       content: Copy issues (with labels, milestones and notes) from one GitLab project to another, possibly running on different GitLab instances.
       links:
@@ -86,6 +81,13 @@
           title: Repository (and issues) on GitHub
         - url: https://bitbucket.org/guyzmo/git-repo
           title: Repository on Bitbucket
+    - title: gitlab-cli
+      content: |
+        Copy global labels into a project or between projects on the same or
+        different GitLab instances, edit or delete labels using a regex.
+      links:
+        - url: https://github.com/clns/gitlab-cli
+          title: Repository on GitHub
 - title: API Clients
   id: api-clients
   applications:
@@ -167,6 +169,13 @@
         - url: https://github.com/timols/java-gitlab-api
           title: Repository on GitHub
     - title: .NET
+      content: GitLab.NET is a .NET library for GitLab's API.
+      links:
+        - url: https://www.nuget.org/packages/GitLab.NET/
+          title: NuGet Package
+        - url: https://gitlab.com/tstivers/GitLab.NET/
+          title: Repository on GitLab
+    - title: .NET
       content: NGitLab is a .NET client for GitLab.
       links:
         - url: https://github.com/Scooletz/NGitLab
@@ -240,6 +249,31 @@
       links:
         - url: https://tmetric.com/help/integrations/gitlab-time-tracking/
           title: GitLab time tracking
+    - title: MergeRequestsCI
+      content: A web-based tool to see all merge requests of your team in one place
+      links:
+        - url: https://hexanet.gitlab.io/MergeRequestsCI
+          title: Hosted version on GitLab Pages
+        - url: https://gitlab.com/hexanet/MergeRequestsCI
+          title: Repository on gitlab.com
+        - url: https://github.com/Hexanet/MergeRequestsCI
+          title: Repository on GitHub
+    - title: Hubstaff
+      content: Time tracking with screenshots and activity levels for GitLab issues. Issues sync automatically to native apps for Mac, Windows, Linux, iPhone and Android.
+      links:
+        - url: https://hubstaff.com/gitlab_time_tracking
+          title: Integration
+        - url: https://www.youtube.com/watch?v=bCJkMiN1hVw
+          title: Video walk-through
+        - url: http://support.hubstaff.com/gitlab-time-tracking-integration/
+          title: Support
+    - title: POEditor
+      content: Collaborative translation platform and localization management software. The integration with GitLab connects the translations in POEditor projects with language files in GitLab repos, simplifying translation management and syncronization.
+      links:
+        - url: https://poeditor.com/
+          title: POEditor
+        - url: https://poeditor.com/help/how_to_translate_a_language_file_from_a_gitlab_project
+          title: GitLab Integration
 - title: Continuous Integration
   id: continuous-integration
   applications:
@@ -349,6 +383,14 @@
       links:
         - url: https://github.com/MatthiasLohr/munin-plugins-gitlab
           title: Plugins on GitHub
+    - title: Blackfire.io
+      content: Blackfire enables you to automate the performance testing and profiling of your code any time you modify it.
+      links:
+        - url: https://blackfire.io
+          title: Blackfire.io
+        - url: https://blackfire.io/docs/integrations/gitlab
+          title: Gitlab integration documentation
+
 - title: Login with your GitLab.com account
   id: login-with-gitlab
   applications:
@@ -395,7 +437,7 @@
         - url: http://www.perforce.com/git"
           title: perforce.com/git
     - title: O'Reilly Atlas
-      content: 'Technical publisher O''Reilly Media has build their own frontend on top of a GitLab backend. The published a <a href="https://www.youtube.com/watch?v=IHEbYsaKW9Y&feature=youtu.be">video of the app</a> <a href="https://github.com/oreillymedia/backbone-gitlab/">Backbone for GitLab API library</a> they developed for this.'
+      content: 'Technical publisher O''Reilly Media has build their own frontend on top of a GitLab backend. They published a <a href="https://www.youtube.com/watch?v=IHEbYsaKW9Y&feature=youtu.be">video of the app</a> <a href="https://github.com/oreillymedia/backbone-gitlab/">Backbone for GitLab API library</a> they developed for this.'
       links:
         - url: https://atlas.oreilly.com/
           title: atlas.oreilly.com

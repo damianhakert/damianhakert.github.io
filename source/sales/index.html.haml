@@ -15,8 +15,9 @@ extra_css:
       Please contact our sales team with any questions
       about
       %a{href: "/features/#enterprise"} GitLab Enterprise Edition
-      and
-      someone will get back to you within one business day.
+      and someone will get back to you within one business day. If you need technical help, visit 
+      %a{href: "/getting-help/"} Getting Help
+      
     %script{src: "//app-ab13.marketo.com/js/forms2/js/forms2.min.js"}
     %form#mktoForm_1036
     :javascript
@@ -26,9 +27,19 @@ extra_css:
           form.getFormElem().hide();
           document.getElementById('confirmform').style.visibility = 'visible';
 
-          ga('send', 'pageview');
-          ga('send', 'event', 'form', 'submit', 'sales request');
+          dataLayer.push({event: 'mktoLead', mktoFormId: form.getId()});
           return false;
+        });
+        function getgacid() {
+          try {
+            var tracker = ga.getAll()[0];
+            return tracker.get('clientId');
+          } catch (e) {
+            return 'n/a';
+          }
+        }
+        form.vals({
+          'gacid': getgacid()
         });
       });
     #confirmform{style: "visibility:hidden;"}

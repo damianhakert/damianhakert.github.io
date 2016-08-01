@@ -1,0 +1,145 @@
+---
+layout: markdown_page
+title: "Content Marketing"
+---
+
+Welcome to the Content Marketing Handbook
+
+[Up one level to the Product Marketing Handbook](../) {::comment} TIP FOR ONE LEVEL UP :)  {:/comment}
+
+## On this page
+{:.no_toc}
+
+* Will be replaced with the ToC, excluding the "On this page" header
+{:toc}
+
+## Content Mission<a name="mission"></a>
+
+Our content mission is to create a shared space where modern developers and decisions makers find and share useful information, advice,
+resources, and inspiration for becoming better distributed and collaborative development teams.
+
+For every piece of content we share the goal should be to  make an individual or a team better. To achieve
+this we should empathize with our audience, thinking about who the content is for and how it will help.
+We should aim to share both the 
+"how-to" and "the why it matters" in our content. We should strive to make takeaways clear and actionable.  
+
+## Content Persona<a name="persona"></a>
+
+GitLab is a classic oversharer of ideas, opinions, and experiences that help better the community. We think
+of GitLab's voice as human, empathetic, light-hearted, and opinionated yet humble. We share our point of
+view and opinions but do not forget to provide context and ask for other opinions. 
+
+Things you can expect GitLab to overshare on:
+
+* **Community Guidance**: Empowering developers to get stuff done by making it easy to get started with git and GitLab
+* **Enterprise Answers**: Working in large teams is often challenging. We'd like to understand more about the painpoints of enterprise development teams, present solutions, and answer questions. 
+* **Thought Leadership**: Share our perspective on variety of topics like open source, open organization, innersourcing, modern development, and change management.
+* **Quirky Culture**: Showcase our unique company culture and team members, focusing on remote-only, transparency, product design, employee learnings, stickers etc.) 
+
+## 2016 activities<a name="2016"></a>
+
+- Publish an active [blog](blog/) with useful content relevant to GitLab users.
+- Host [webcasts](webcasts/)
+which welcome newcomers, celebrate with existing users, and provide access to expertise.
+- Publish a twice-monthly email newsletter you can sign up to on [our contact page](https://about.gitlab.com/contact/).
+
+### Q3 Content Pillars 
+
+Non-GitLab Specific 
+
+* Open source and open organizations
+* Innersourcing
+* Modern development
+
+GitLab Specific 
+
+* GitLab workflow
+* GitLab tutorials and migration guides
+* Remote-only and team member stories
+
+## What is the webcast program at GitLab?<a name="webcast"></a>
+
+-   The webcast program consists of regular online events for GitLab users and community members.
+-   The webcasts are recorded and distributed to GitLab users, and can be referred to in the Resource Library as part of GitLab University
+
+- [How to Schedule a webcast](#schedule)
+- [Technical requirements to view a webcast](#view)
+
+### Uploading video files to the GitLab YouTube channel
+
+- You must be a manager of the [GitLab YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg) to upload.
+- To be added as a manager of the GitLab YouTube channel, please request the channel owner add you as manager.
+- The CMO is the GitLab YouTube channel owner.
+- [How to add or remove users to a channel](https://support.google.com/youtube/answer/4628007?hl=en)
+- The direct link to add and remove users for the manager is [here](https://plus.google.com/u/0/b/107491817347842790515/pages/settings/admin).
+- If you’d like to add video bumpers to the beginning or end of your video, please download from this [issue](https://gitlab.com/gitlab-com/gitlab-artwork/tree/master/video-bumpers).
+
+### Monthly Program
+
+This program is in development. For the first month, January, we'll start with one webcast, then add another and build up to the full schedule.
+
+### Welcome to GitLab - 20 mins (coming soon!)
+
+-   Live demo run.
+-   Similar base demo script each month.
+    -   How to use GitLab - essential demo.
+    -   This month’s Q+A (commonly asked questions, recent questions from twitter)
+    -   GitLab’s products and services.
+    -   How to find stuff in the GitLab; getting help, direction, participation.
+    -   Community welcome mat: How to meet other GitLab users what events we’ll be at, how about you?
+-   Aimed at developers or decision makers who have signed up in the last 30 days, inviting them into the community.
+
+### Release Party - 30 - 40 mins
+
+-   Monthly Thursday following a release.
+-   Present highlights from the new features.
+-   Refer to any resources, docs, screencasts, etc.
+-   Guest speakers from the dev team about the new features.
+-   Highlight contributors and the MVP for that month.
+-   New contributors welcomed.
+-   Q+A from audience.
+
+### GitLab Tutorials - 40 mins - 1 hour
+
+-   Live presentation, demo or discussion on monthly in-depth learning theme.
+-   Preceded by 3 weeks of blog posts, screencasts, tutorial and an invitation which leads to the online event.
+-   Live event includes: Guest speaker / interview / presentation / demo as appropriate to topic.
+-   Q+A from audience. Survey to GitLab users on the topic if appropriate.
+-   After event: Blog post of findings from the Q+A, results of survey.
+-   Roll-up content into an downloadable ebook, course or other way to make the content more easily accessed and reviewed.
+
+## Delivering Webcasts<a name="webcast"></a>
+
+- Webcasts are delivered in partnership with the [Demand Generation](https://about.gitlab.com/handbook/marketing/demand-generation/#webcasts) team
+- Webcasts are on Wednesdays, 17:00 UTC (9am PST, 6pm CET)
+- Panelists should arrive 15 mins before the webcast for a final sound check
+- Panelists should participate in a rehearsal before the webcast
+
+#### Pre-webcast checklist
+
+- Create webcast copy (Amara)
+- Create the webcast registration page (Mitchell)
+- Send calendar invitation (with 15 minute buffer) to presenters with presenter link (Mitchell)
+- Send webcast dry run calendar invitation to presenters 
+- Create ads promoting webcast (Mitchell)
+- Promote webcast in newsletter (Amara)
+- Schedule webcast promo tweets T - 3 weeks, T - 2 weeks, T - 3 days, and T - 1 day, and T (Amara)
+- Add webcast to banner on about.gitlab.com T - 1 week (Amara)
+- Create and share webcast deck for feedback (Amara)
+- Host webcast dry run and ensure everyone is comfortable with platform (Mitchell and Amara)
+- Load final slides, polls, and resources into webcast platform (Mitchell)
+
+#### During the webcast
+
+- All presenters should log into the platform 15 minutes ahead of time for a sound check
+- Presenters will deliver slides and must remain mindful of time and shorten their presentations if needed to make up time
+- Every webcast should leave at least 10 minutes for a Q&A
+
+
+#### Post webcast
+
+- Edit the recording (Amara)
+- Post on YouTube, Speakerdeck, and blog (Amara)
+- Promote blog post on Twitter (Amara)
+- Send webinar follow up emails (Mitchell)
+- Add to newsletter (Amara)

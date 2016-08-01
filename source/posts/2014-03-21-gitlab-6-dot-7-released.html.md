@@ -1,7 +1,7 @@
 ---
 title: "GitLab CE 6.7 released!"
 date: 2014-03-21
-categories: 
+categories: release
 community: true
 ---
 

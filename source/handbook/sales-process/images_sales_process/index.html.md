@@ -110,9 +110,9 @@ To create a quote, you must be in the opportunity object
 
 In order to close a deal in Salesforce.com, one of the following must happen:
 
-1. Client paid via Credit Card
-1. PO has been received
-1. Prospect has returned a signed quote (attach to the opportunity).
+1. Client paid via Credit Card. Terms are automatically accepted.
+1. Prospect or existing customer has returned a signed quote (attach to the opportunity) that acknowledges acceptance of GitLab terms.
+1. If customer has made modifications to standard terms then a signed copy the subscription terms.  The quote template must indicate the effective date of the subscription terms.
 
 Once the above has happened, please make sure the following actions are done:
 

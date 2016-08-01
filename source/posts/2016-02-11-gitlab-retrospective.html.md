@@ -12,7 +12,7 @@ is
 [the year of](http://mashable.com/2016/01/26/raccoon-dog/#5qybqogFK5qz) the
 [Tanuki](http://edition.cnn.com/2016/01/27/travel/raccoon-dog-tanuki-named-tanu-feat/)!
 
-The last 12 months at [GitLab](http://about.gitlab.com) have been amazing — we are super busy, growing fast, 
+The last 12 months at [GitLab](https://about.gitlab.com) have been amazing — we are super busy, growing fast, 
 and making a difference to a lot of developers.
 We feel special, honored, thankful and hope you are ready for even more!
 

@@ -1,24 +1,20 @@
 ---
-layout: markdown_page
+layout: job_page
 title: "Vice President of Scaling"
 ---
 
 ## Responsibilities
 
-- Support CEO in execution of company strategy.
-- Signal potential problems to CEO.
-- Tackle special and strategic initiatives, that help the company scale quickly and robustly.
-- Set up new processes and teams as required, and ensure smooth transfer of ongoing management to the new team lead.
-- Tackle cross-disciplinary  / cross-team initiatives.
-- Be available for quick turnaround time on new tasks.
-- Lead by example.
+- Temporarily lead areas where the company is missing a leader
+- While leading, change the company processes as needed
+- Hire people and transition the responsibilities to them
+- Tackle cross-disciplinary initiatives in collaboration with the CEO
+- Be available for quick turnaround time on urgent initiatives as identified by the CEO
 
 ### Current specific responsibilities
 
-- Lead the People Ops team, and structure [People Ops processes](https://about.gitlab.com/people-operations/) until handoff to the [People Operations Director](https://about.gitlab.com/jobs/people-ops-director/).
-- Lead the Support team, structuring for robust growth, and providing metrics for
-reporting and improvement (https://about.gitlab.com/handbook/support/) until handoff
-to the [VP of Engineering](https://about.gitlab.com/jobs/vp-of-engineering/).
+Lead the People Ops team, and structure [People Ops processes](https://about.gitlab.com/people-operations/) 
+until handoff to the [VP or Director of People Operations](https://about.gitlab.com/jobs/senior-director-of-people-operations/).
 
 ## Requirements
 
@@ -28,3 +24,4 @@ to the [VP of Engineering](https://about.gitlab.com/jobs/vp-of-engineering/).
 - Ability to manage competing company and team priorities in collaborative and cross-disciplinary way.
 - Ability to work well with colleagues both in and outside of the organization, with good judgement, discretion, and tact.
 - Ability to work independently and to undertake supervisory responsibilities as needed.
+- You share our [values](/handbook/#values), and work in accordance with those values

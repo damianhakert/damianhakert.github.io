@@ -14,6 +14,11 @@
           %h5
             Reports to
             = member.reports_to
+        - if member.locality || member.country
+          - location = [member.locality, member.country].compact.join(", ")
+          %h5
+            Lives in
+            = link_to location, "https://maps.google.com?q=#{location}"
         - if member.maintains
           %ul
             = member.maintains

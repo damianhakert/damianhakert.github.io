@@ -19,6 +19,7 @@ title: Service Engineer Onboarding
    - [When to mark a ticket as solved?](#when-solved)
    - [Clearing out suspended tickets](#clear-suspended)
    - [Allowing teammates to adopt a ticket](#allow-others)
+   - [Update agent signature](#agent-signature)
 - [Receiving feedback](#feedback)
 - [Dedicated Service Engineers](#dse)
 - [Customer Training](#customer-training)
@@ -35,7 +36,7 @@ expected to:
 - Be open to new ideas and points of view
 - It is OK if you don't know something. You can always ask someone else
 - It is OK to say no to a customer, but try to suggest a workaround and escalate to a Senior if necessary
-- Read the guidelines on how to [respond on social media](https://about.gitlab.com/handbook/social-media-guidelines).
+- Read the guidelines on how to [respond on social media](https://about.gitlab.com/handbook/marketing/social-media-guidelines).
 
 ## First steps when you join the team <a name="first-steps"></a>
 
@@ -82,7 +83,7 @@ through social media, advancing to general support tickets, and eventually subsc
 More often than not, WebEx will be the best tool for customer calls, so you can save yourself a step and already start
 a WebEx session for a call. To do this you can use the `GitLab Support` WebEx account. Go to our
 [WebEx Portal](https://gitlabmeetings.webex.com), click on the login button on the top right and use the
-credentials found in the Support Vault on 1password.
+credentials found in the Support Vault on 1Password.
 
 ![WebEx Login](/images/support/web-ex-login.png)
 
@@ -118,12 +119,12 @@ part of your response to a ticket. If the documentation does not exist yet, then
 _make_ the documentation and send the link in the response. For those situations
 where making documentation is a more time consuming exercise:
 
-- add the "documentation" tag to the ticket,
-- respond to the ticket,
-- create an issue on the [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/) or
-[GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/) repo linking to the ZenDesk
-ticket and add the "Documentation" label, and
-- add the link to this issue in the ZenDesk ticket.
+- click the "Document this" checkbox (found on the left-hand side of the ticket)
+- enter an ["internal note"](https://support.zendesk.com/hc/en-us/articles/213519318-Adding-comments-to-tickets#topic_bpn_sbd_bv) describing the documentation requirements
+- update the ticket
+
+Tickets with the "Document this" option are added to a ZenDesk view ["Documentation"](https://gitlab.zendesk.com/agent/#/filters/91188447). 
+A [Zap](https://zapier.com/app/editor/9938098/overview) is used to add ticket details to a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1GcQvDThsXuV_n4OFwdYNmq07oO7coiS8xkMP84_-eKo/edit#gid=0).
 
 ### Create issues<a name="create-issue"></a>
 
@@ -149,7 +150,7 @@ developer might ask more questions before answer)
    - Follow some process as for an unpaid feature request, AND
    - Ask for an estimate
 
-Sometimes it is helpful to create an issue on the [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/)
+Sometimes it is helpful to create an issue on the [support issue tracker](https://gitlab.com/gitlab-com/support/issues)
 when dealing with a **tough ticket**. Creating an issue allows more people within
 GitLab easy access to the questions and suggestions since not everyone is familiar
 with ZenDesk. When in doubt, create an issue. Also see the section on [when to escalate](#when-escalate).
@@ -226,7 +227,8 @@ when appropriate.
 ### When and how to escalate a ticket?<a name="when-escalate"></a>
 
 Do not hesitate to ask for help with a ticket, you can ask any of your colleagues to assist you. You can do this via
-Slack initially. If the person you know can help you the best (expert on a specific topic) is not available on
+Slack initially by [@mentioning](https://get.slack.help/hc/en-us/articles/205240127-Using-mentions) their name and providing a link to the description with an overview of the issue. 
+If the person you know can help you the best (expert on a specific topic) is not available on
 Slack, you can assign the ticket to them, add a comment summarizing the situation, and submit the
 ticket as **open**. Especially if you do are not yet fully familiar with the particular topic of the issue,
 don't spend more than 30 minutes on an issue before escalating it internally.
@@ -264,6 +266,23 @@ ticket's title on the list view or by selecting the ticket and reading the
 like GitLab Support is being used there is no name to refer to so you might want
 to ask on the support and/or general chat channel with the ticket's link.
 
+### Update agent signature<a name="agent-signature"></a>
+
+Your personal ZenDesk signature is shown at the end of every ticket response. 
+You can update this to include a personalized valediction like "Thanks" or "Best Regards" by following these steps.
+
+* In Zendesk, click your user icon in the upper-right corner and select View Profile Page .
+* Under Signature in the left sidebar, enter the signature text.
+
+An example agent signature:
+
+```
+Thanks,
+
+{{agent.name}}
+GitLab, Inc.
+```
+
 ## Receiving feedback<a name="feedback"></a>
 
 After 24 hours of marking the ticket as solved a survey is sent to our customers, where they can rate
@@ -299,7 +318,7 @@ or follow-up as required.
 Service Engineers are regularly asked to provide customer training, and/or to provide answers to technical
 questions from potential customers. The materials for the customer training should be kept up to date [INSERT LINK] .
 Importantly, requests for Service Engineer's time for training and other non-ticket related work should be done
-via the [internal issue tracker](https://dev.gitlab.org/gitlab/organization/issues/) using the 'Support' label.
+via the [internal issue tracker](https://gitlab.com/gitlab-com/support/issues) using the 'Support' label.
 If you are receiving such a request via email or Slack, please move it to an issue to allow for wider participation
 or easy escalation when needed.
 
@@ -326,9 +345,15 @@ Availability Calendar. Vacation days are first come first served.
 
 **Tickets assigned to you**
 
-Try to solve as many of the tickets that are assigned to you as you can and try not to take on too many
-difficult tickets right before you leave. If there are still tickets assigned to you that you will not
-be able to handle, talk to your colleagues to see who can take them over.
+You'll need to mark yourself as unavailable in ZenDesk when taking leave longer then 2 days. Marking yourself as unavailable allows other agents to respond to any tickets that receive a response while you're away.
+
+
+1. Sign into [ZenDesk](https://gitlab.zendesk.com/agent).
+1. Ensure any active tickets are in the Pending or On-Hold states and not Open.
+2. View the [Out Of Office](https://gitlab.zendesk.com/agent/apps/out-of-office) app.
+3. Toggle your agent status to "Unavailable".
+   + Note: Do not tick **"Unassign All Open Tickets"**.
+5. Click "Set to Unavailable"
 
 ### Illness
 
