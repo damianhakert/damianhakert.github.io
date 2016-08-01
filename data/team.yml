@@ -1328,16 +1328,18 @@
   story:  |
           Dan is passionate about helping people become more effective in their activity by introducing to them one of the best and easy to use tool in the market for version control.
 
-- name: N.T.
-  locality:
-  country:
+- name: Nicholas 'Nick' Thomas
+  locality: York
+  country: England
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
   reports_to: Backend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: nick-thomas.png
+  twitter: lupine_85
+  gitlab: nick.thomas
   story:  |
-          Joining August 1st
+          After eight years spent building The Cloud (or at least, A Cloud),
+          Nick fell in love with his newest tool for doing so - GitLab! His free
+          time is spent dancing, skating, and running.
 
 - name: R.F
   locality:
