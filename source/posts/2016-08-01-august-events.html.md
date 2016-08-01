@@ -11,7 +11,7 @@ I keep saying how is it already August, but really, where has this year gone? Th
 
 <!-- more -->
 
-Some highlight so fast month include:
+Some highlights include:
 
 - Supporting our partners, Red Hat at their summit in San Francisco.
 - Our user appreciation event in Austin at Easy Tiger and meeting lots of other fans at Texas Linux Fest and Chef Conf.
@@ -20,8 +20,8 @@ Some highlight so fast month include:
 
 ![GitLab does ping pong](/images/blogimages/pingpong-swag.JPG){: .shadow}
 
-This month we will be doing fewer events so we can focus our efforts on the main event- the GitLab World Tour and User Conference.
-What is this World Tour you ask? Well, let me be the first to tell you, GitLab is planning a 3 city World Tour with tour dates in London, NYC, and Amsterdam. The tour will lead up to the main event, our user conference, which will be held in San Francisco next February. Each stop on the tour will offer unique content, exclusive GitLab workshops, demos, and a keynote with our very own Rockstar, Sid. Dates and detail to follow in future event posts. 
+This month we will be doing fewer events so we can focus our efforts on the main event: the GitLab World Tour and User Conference.
+What is this World Tour, you ask? Well, let me be the first to tell you! GitLab is planning a three-city World Tour with tour dates in London, NYC, and Amsterdam. The tour will lead up to the main event, our user conference, which will be held in San Francisco next February. Each stop on the tour will offer unique content, exclusive GitLab workshops, demos, and a keynote with our very own rockstar, Sid. Dates and details to follow in future event posts.
 
 This month you can catch some GitLab team members at the following events:
 
