@@ -138,8 +138,8 @@ You will most likely want to include the following letter when sending in the 83
 >
 ><<Date Filed>>
 >
->
 >Department of the Treasury
+>
 ><<Address provided from eShares 83-b instructions>>
 >
 >To whom it may concern:
