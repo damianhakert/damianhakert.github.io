@@ -26,21 +26,21 @@ This month you can catch some GitLab team members at the following events:
 
 ## North America
 
-- [SpringOne Platform](https://springoneplatform.io/), Aug 1st-4th in Las Vegas, NV. [John] will be joining our partners, Pivotal, and giving the talk "From Commit to Cloud with GitLab and PCF".
+- [SpringOne Platform](https://springoneplatform.io/): Aug 1st-4th in Las Vegas, NV. [John] will be joining our partners, Pivotal, and giving the talk "**From Commit to Cloud with GitLab and PCF**".
 
 ## South America
 
-- [Congresso Internacional](http://congresoinnovatics.org/), Aug 1st-2nd in Bratislava, Slovakia. [Felipe] will be speaking on...
-- [IV Devs Hackathon](http://ivdevs.com), Aug 12th in La Serena, Chile.
+- [Congresso Internacional](http://congresoinnovatics.org/): Aug 1st-2nd in Bratislava, Slovakia. [Felipe] will be speaking on...
+- [IV Devs Hackathon](http://ivdevs.com): Aug 12th in La Serena, Chile.
 
 ## EMEA
 
-- [AlterConf](https://www.alterconf.com/), Aug 6th in Dublin, Ireland.
+- [AlterConf](https://www.alterconf.com/): Aug 6th in Dublin, Ireland.
 
 ## Asia
 
-- [InOut Hackathon](https://hackinout.co/), Aug 13th-14th in Surat, India.
-- [HackIIITD](https://hack.iiitd.in/), Aug 19th in Dehli, India.
+- [InOut Hackathon](https://hackinout.co/): Aug 13th-14th in Surat, India.
+- [HackIIITD](https://hack.iiitd.in/): Aug 19th in Dehli, India.
 
 [team]: https://about.gitlab.com/team/
 [John]: https://twitter.com/northrup
