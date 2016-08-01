@@ -96,7 +96,7 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
 * [ ] GitLab Flow
     - [Recording of what it is](https://www.youtube.com/watch?v=UGotqAUACZA)
     - [Intro to GitLab Workflow](https://www.youtube.com/watch?v=enMumwvLAug)
-    - [GitLab Flow blog post](/2014/09/29/gitlab-flow/)
+    - [GitLab Flow blog post](https://about.gitlab.com/2014/09/29/gitlab-flow/)
     - [GitLab Flow documentation](http://doc.gitlab.com/ee/workflow/gitlab_flow.html)
 
 * [ ] GitLab Integrations
