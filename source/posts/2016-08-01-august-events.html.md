@@ -30,7 +30,7 @@ This month you can catch some GitLab team members at the following events:
 
 ## South America
 
-- [Congresso Internacional](http://congresoinnovatics.org/): Aug 1st-2nd in Bratislava, Slovakia. [Felipe] will be speaking on...
+- [Congresso Internacional](http://congresoinnovatics.org/): Aug 1st-2nd in Santiago, Chile. [Felipe]'s talk is on [**Designing for people**][felipe-talk].
 - [IV Devs Hackathon](http://ivdevs.com): Aug 12th in La Serena, Chile.
 
 ## EMEA
@@ -45,3 +45,4 @@ This month you can catch some GitLab team members at the following events:
 [team]: https://about.gitlab.com/team/
 [John]: https://twitter.com/northrup
 [Felipe]: https://twitter.com/juanpintoduran
+[felipe-talk]: http://congresoinnovatics.org/content/felipe-cabargas-service-enginner-en-gitlab
