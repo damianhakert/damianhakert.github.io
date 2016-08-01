@@ -4,6 +4,7 @@ author: Emily Kyle
 author_twitter: emilylucie
 image_title: '/images/blogimages/easy-tiger.JPG'
 description: "GitLab on the Road: catch up with GitLab team members this August!"
+categories: events
 ---
 
 I keep saying how is it already August, but really, where has this year gone? The Gitlab team has attended and sponsored over 45 events in a dozen different countries in the past 4 months. The fact that the company is fully remote makes all of this possible.
