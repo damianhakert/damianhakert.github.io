@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Workflow"
+title: "Engineering Workflow"
 extra_css:
   - compared.css
 ---
@@ -8,13 +8,36 @@ extra_css:
 This document explains the workflow for anyone working with issues in GitLab Inc.
 For the workflow that applies to everyone please see [PROCESS.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
 
-## TL;DR
+**Table of contents**
 
-Start working on an issue you’re assigned to. If you’re not assigned to any issue, find the issue with the highest priority you can work on, by relevant label. [You can use this query, which sorts unassigned issues by priority for the upcoming milestone][priority-issues].
+- TOC
+{:toc}
 
-[priority-issues]: https://gitlab.com/groups/gitlab-org/issues?assignee_id=0&milestone_title=8.11&scope=all&sort=priority&state=opened
+## Basics
 
-If you need to schedule something or prioritize it, apply the appropriate labels. See below for details.
+1. Start working on an issue you’re assigned to. If you’re not assigned to any issue, find the issue with the highest priority you can work on, by relevant label. [You can use this query, which sorts by priority for the upcoming milestone][priority-issues].
+1. If you need to schedule something or prioritize it, apply the appropriate labels. See below for details.
+1. You are responsible for the issue that you're assigned to. This means it has
+to ship with the milestone that is has. If you are not able to do this,
+you have to communicate this early.
+In teams, the team is responsible for this (see below).
+
+[priority-issues]: https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&sort=priority&state=opened&utf8=%E2%9C%93&milestone_title=%23upcoming&label-name=
+
+## Working in Teams
+
+For larger issues or issues that contain many different moving parts,
+you'll be likely working in a team.
+
+1. Teams have a shared responsibility to ship the issue in the planned release.
+    1. If the team suspects that they might not be able to ship something in
+  time, the team should escalate / inform others as soon as possible.
+  A good start is informing your lead.
+    1. It's generally preferable to ship a smaller iteration of an issue,
+  than ship something a release later.
+1. Consider starting a Slack channel for a new team,
+but remember to write all relevant information in the related issue(s).
+You don't want to have to read up on two threads, rather than only one.
 
 ## Choosing something to work on
 
