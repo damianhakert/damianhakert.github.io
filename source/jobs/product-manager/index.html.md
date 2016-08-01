@@ -28,12 +28,23 @@ to get started.
 - Finding the weak spots of GitLab and executing plans to improve them
 - Work together with other stakeholders on scheduling and executing releases
 
+## You are _not_ responsible for
+
+- Shipping in time. As a PM you are part of a team that delivers a change,
+the team is responsible for shipping in time, not you.
+- A team of engineers. PMs at GitLab do not manage people, they manage the
+_product_. You'll be required to take the lead in decisions about the product,
+but it's not your role to manage the people that build the product.
+- Capacity and availability planning. You will work together with engineering
+managers on schedules and planning: you prioritize, the engineering managers
+determine how much can be scheduled.
+
 ## Requirements
 
 - Experience in product management
 - Strong understanding of Git and Git workflows
 - Knowledge of the developer tool space
-- Strong technically. You understand how software is built, packaged and deployed
+- Strong technically. You understand how software is built, packaged and deployed.
 - Passion for design and usability
 - Highly independent and pragmatic
 - You are living wherever you want
