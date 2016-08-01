@@ -131,7 +131,26 @@ There are two methods to exercise your shares:
    - Complete the form, sign and return as PDF to the CFO
    - Send payment in US dollars by wire transfer. You will be provided wire transfer info.
 
-Note for US residents: whichever method you choose, be sure to download the 83-b election and file with the IRS within 30 days of exercise. Send a copy of the election form to the CFO.
+Note for US residents: whichever method you choose, be sure to download the 83-b election form provided by eShares and file with the IRS within 30 days of exercise. Send a copy of the election form to the CFO.
+
+You will most likely want to include the following letter when sending in the 83-b election to the IRS.
+
+>
+><<Date Filed>>
+>
+>
+>Department of the Treasury
+><<Address provided from eShares 83-b instructions>>
+>
+>To whom it may concern:
+>
+>Please find enclosed two copies of the 83-b election in connection with my purchase of shares of GitLab Inc. common stock.  Please return one copy stamped as received to my attention in the enclosed self addressed stamped envelope.  
+>
+>Yours Truly,
+>
+>//signature
+
+
 
 
 ## Option Expiration
