@@ -49,12 +49,12 @@ with relevant keywords, and gather data on channel load, agent load, and topic t
 through implementation of Swiftype on the [documentation](https://doc.gitlab.com/) server, we'll
 get a better handle on what people are looking for and/or not finding.
 
-**Decrease Demand for Support**
+**Empower Users**
 
 By making training materials for customer trainings available on [GitLab University](https://university.gitlab.com/),
 making documentation easy to find and easy to search, and constantly contributing to further documentation
 with the trend discovery showing where the need is greatest, we can help the community become
-as self sufficient as possible. A seamless interface between the support team and developers closes the
+as self sufficient as possible and empower users to problem-solve. A seamless interface between the support team and developers closes the
 feedback loop of user experience back to development, and provides 'network' support for the Service Engineers
 for tough issues.
 
