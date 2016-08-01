@@ -21,7 +21,8 @@ title: "Frontend Engineer"
 ## Requirements for Applicants
 
 * Know how to use CSS effectively
-* Know how to use JavaScript effectively
+* Expert knowledge of JavaScript
+* Basic knowledge of Vue.js is a plus but not a requirement
 * Collaborate effectively with UX Designers, Developers, and Designers
 * Be able to work with the rest of the community
 * Needs to have extensive knowledge of Rails
