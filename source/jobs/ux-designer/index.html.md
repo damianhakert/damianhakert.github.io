@@ -46,3 +46,8 @@ The UX Interview determines if a UX Designer is a good fit for GitLab. Here are 
 1. Similarly, what is your flow from idea to deployment?
 1. What are some existing designs we can see as an example of you work?
 1. When you did `x` project, what was the biggest problem that you had to solve and how did you solve it?
+
+## Relevant links
+
+- [Engineering Handbook](/handbook/engineering)
+- [Engineering Workflow](/handbook/engineering/workflow)
