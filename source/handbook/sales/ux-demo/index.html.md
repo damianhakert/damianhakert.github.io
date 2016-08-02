@@ -91,7 +91,7 @@ The first step is to install GitLab itself. Since we have a Docker image, it's r
 >
 >> This is going to be great!
 
-Now that we've got GitLab running, let's open it up and log in with the super secret root password. I'm going to create a new user for me, and a new project to start off with. Let's call it Velociraptor. Now a project isn't very good without a README, is it? Let's go create one while we're here.
+Now that we've got GitLab running, let's open it up and create a new user for me, and a new project to start off with. Let's call it Velociraptor. Now a project isn't very good without a README, is it? Let's go create one while we're here.
 
 #### Chat [#19838](https://gitlab.com/gitlab-org/gitlab-ce/issues/19838)
 
