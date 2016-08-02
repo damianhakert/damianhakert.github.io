@@ -47,16 +47,26 @@ We're going to start from scratch, creating a brand new GitLab installation.
 - [Original Slideware](https://docs.google.com/presentation/d/1D_L7s5xqDLw82B-drpM0av1-1m92f_ibIWruTmar-IQ/edit)
 - [Meta Issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/19793)
 
-## Demo: Idea to Production
+## UX Demo: Idea to Production
 
-### Per-Demo Setup
+### Demo Setup
 
-- Set up OpenShift w/ GitLab template and empty project.
-- Pre-fix the NFS problem.
+- Log in to [Openshift Origin](https://origin.gitlap.com:8443).
+* Set up new project (Dockersaurus or Development or GitLab).
+* Upload GitLab templates.
+  * `oc login --server=origin.gitlap.com`
+  * `wget https://gitlab.com/gitlab-org/omnibus-gitlab/raw/ux-demo/docker/openshift-template.json`
+  * `oc create -f openshift-template.json`
+  * `wget https://gitlab.com/gitlab-org/omnibus-gitlab/raw/ux-demo/docker/openshift-ci-template.json`
+  * `oc create -f openshift-ci-template.json`
+* Create public project on GitLab `markpundsack/velociraptor`
+* Create [issue #1](https://gitlab.com/markpundsack/velociraptor/issues/new?issue%5Btitle%5D=Add%20a%20logo&issue%5Bdescription%5D=From%20https%3A%2F%2Fdockersaurus.slack.com%2Farchives%2Fvelociraptor%2Fp1470115616000002%3A%0A%0A%3E%20We%20need%20a%20logo%20for%20the%20project.%20%20%0A%3E%20Yeah%2C%20it%20should%20be%20orange%2C%20like%20GitLab%27s%20logo!%20%20%0A%3E%20Great%20idea!)
 
 ### Per-Demo Cleanup
 
-- Clear the project
+* Delete the Openshift project
+  * `oc delete project dockersaurus`
+* Delete `markpundsack/velociraptor`
 
 ### Demo Script
 
