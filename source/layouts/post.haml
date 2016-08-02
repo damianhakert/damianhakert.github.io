@@ -13,6 +13,7 @@
           - if is_blog_article?
             = current_article.date.to_time.strftime '%b %e, %Y'
         = yield
+        %hr
         = partial "includes/blog/share"
         = partial "includes/download"
         %hr
