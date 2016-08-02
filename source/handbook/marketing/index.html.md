@@ -718,11 +718,11 @@ We use Slack internally as a communication tool. The marketing channels are as f
 ### Marketing email alias list
 {: #email}
 
-- Community@gitlab.com is an external email address that goes to the CMO, Field Marketing Manager, Senior Product Marketing Manager, and Demand Generation team.  
-- Marketing@gitlab.com is an internal team email address for everyone on the marketing team.  
-- Press@gitlab.com directs to the CMO and Senior Product Marketing Manager.  
-- News@gitlab.com is an external email address for sending newsletters that goes to the Online Marketing Manager and Senior Demand Generation Manager.  
-- Securityalerts@gitlab.com is an external email address for sending security alerts that goes to the Online Marketing Manager and Senior Demand Generation Manager.
+- Community@ company domain is an external email address that goes to the CMO, Field Marketing Manager, Senior Product Marketing Manager, and Demand Generation team.  
+- Marketing@ company domain is an internal team email address for everyone on the marketing team.  
+- Press@ company domain directs to the CMO and Senior Product Marketing Manager.  
+- News@ company domain is an external email address for sending newsletters that goes to the Online Marketing Manager and Senior Demand Generation Manager.  
+- Securityalerts@ company domain is an external email address for sending security alerts that goes to the Online Marketing Manager and Senior Demand Generation Manager.
 
 <!-- IDENTIFIERS -->
 

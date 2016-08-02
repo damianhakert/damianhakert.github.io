@@ -58,6 +58,11 @@
   apply:
   open: false
 
+- title: "Product Manager"
+  description: /jobs/product-manager
+  apply:
+  open: true
+
 - title: "Product Marketing Manager"
   description: /jobs/product-marketing-manager-partner/
   apply: https://gitlab.workable.com/jobs/285177/candidates/new
@@ -110,7 +115,7 @@
 
 - title: "Director of Developer Relations"
   description: /jobs/director-developer-relations/
-  apply: https://gitlab.workable.com/jobs/298091
+  apply: https://gitlab.workable.com/jobs/269330
   open: true
 
 - title: "Open Application"

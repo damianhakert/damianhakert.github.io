@@ -113,7 +113,7 @@ Next to Savvy, the People Ops team will also get a copy of the form info for you
 
 #### All team members
 
-* [ ] New team member: Read the [security handbook](/handbook/security), and please ask questions make sure it is all clear to you.
+* [ ] New team member: Read the [security handbook](https://about.gitlab.com/handbook/security/), and please ask questions make sure it is all clear to you.
 * [ ] New team member: If you authenticated your GitLab.com account with Google, GitHub, etc. you should either disconnect them or make sure they use two-factor authentication.
 * [ ] New team member: Enable [two-factor authentication](http://docs.gitlab.com/ee/profile/two_factor_authentication.html) on your GitLab.com account.
 * [ ] New team member: Make sure your notifications for GitLab.com aren't sent to a personal email. Send them to your `@gitlab.com` email.
@@ -216,6 +216,13 @@ and then ping @rspeicher to confirm your account. You can find this (and other) 
   1. [Our Sales Communication Guide](https://docs.google.com/document/d/1IMDzTj3hZrnsA417z9Ye7WBa8yLkWxGzaLZNJ3O_nVA/edit#heading=h.3nffcmsbeqo7)
 * [ ] New team member: familiarize yourself with the [Support](https://about.gitlab.com/handbook/support/) process.
 * [ ] New team member: familiarize yourself with [giving a GitLab demo](https://about.gitlab.com/handbook/demo/)
+
+### FOR PEOPLE OPS ONLY
+
+* [ ] Manager: Add team member to applicable email addresses, ex. jobs@gitlab.com 
+* [ ] People Ops: Add team member to BambooHR and Workable as an admin.
+* [ ] Manager: Add team member to TriNet and HR Savvy as an admin. 
+* [ ] People Ops: Invite team member to People Ops Confidential channel in Slack. 
 
 ```
 

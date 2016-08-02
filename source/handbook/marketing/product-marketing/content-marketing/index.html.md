@@ -3,15 +3,17 @@ layout: markdown_page
 title: "Content Marketing"
 ---
 
-Welcome to the Content Marketing Handbook
+## Welcome to the Content Marketing Handbook
 
-[Up one level to the Product Marketing Handbook](../) {::comment} TIP FOR ONE LEVEL UP :)  {:/comment}
+----
 
 ## On this page
 {:.no_toc}
 
-* Will be replaced with the ToC, excluding the "On this page" header
+- TOC
 {:toc}
+
+----
 
 ## Content Mission<a name="mission"></a>
 
@@ -73,6 +75,7 @@ GitLab Specific
 - [How to add or remove users to a channel](https://support.google.com/youtube/answer/4628007?hl=en)
 - The direct link to add and remove users for the manager is [here](https://plus.google.com/u/0/b/107491817347842790515/pages/settings/admin).
 - If you’d like to add video bumpers to the beginning or end of your video, please download from this [issue](https://gitlab.com/gitlab-com/gitlab-artwork/tree/master/video-bumpers).
+- **Protip:** If you’re using [ScreenFlow](http://www.telestream.net/screenflow/) to record a screencast, there’s a [checkbox to remove background noise](http://www.telestream.net/telestream-support/screen-flow/help/Editing.06.21.html) from your audio.
 
 ### Monthly Program
 
@@ -139,6 +142,7 @@ This program is in development. For the first month, January, we'll start with o
 #### Post webcast
 
 - Edit the recording (Amara)
+- **Protip:** If you’re using [ScreenFlow](http://www.telestream.net/screenflow/) to record a screencast, there’s a [checkbox to remove background noise](http://www.telestream.net/telestream-support/screen-flow/help/Editing.06.21.html) from your audio.
 - Post on YouTube, Speakerdeck, and blog (Amara)
 - Promote blog post on Twitter (Amara)
 - Send webinar follow up emails (Mitchell)

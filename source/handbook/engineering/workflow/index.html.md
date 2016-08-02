@@ -1,6 +1,6 @@
 ---
 layout: markdown_page
-title: "Workflow"
+title: "Engineering Workflow"
 extra_css:
   - compared.css
 ---
@@ -8,13 +8,36 @@ extra_css:
 This document explains the workflow for anyone working with issues in GitLab Inc.
 For the workflow that applies to everyone please see [PROCESS.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
 
-## TL;DR
+**Table of contents**
 
-Start working on an issue you’re assigned to. If you’re not assigned to any issue, find the issue with the highest priority you can work on, by relevant label. [You can use this query, which sorts unassigned issues by priority for the upcoming milestone][priority-issues].
+- TOC
+{:toc}
 
-[priority-issues]: https://gitlab.com/groups/gitlab-org/issues?assignee_id=0&milestone_title=8.11&scope=all&sort=priority&state=opened
+## Basics
 
-If you need to schedule something or prioritize it, apply the appropriate labels. See below for details.
+1. Start working on an issue you’re assigned to. If you’re not assigned to any issue, find the issue with the highest priority you can work on, by relevant label. [You can use this query, which sorts by priority for the upcoming milestone][priority-issues].
+1. If you need to schedule something or prioritize it, apply the appropriate labels. See below for details.
+1. You are responsible for the issue that you're assigned to. This means it has
+to ship with the milestone that is has. If you are not able to do this,
+you have to communicate this early.
+In teams, the team is responsible for this (see below).
+
+[priority-issues]: https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&sort=priority&state=opened&utf8=%E2%9C%93&milestone_title=%23upcoming&label-name=
+
+## Working in Teams
+
+For larger issues or issues that contain many different moving parts,
+you'll be likely working in a team.
+
+1. Teams have a shared responsibility to ship the issue in the planned release.
+    1. If the team suspects that they might not be able to ship something in
+  time, the team should escalate / inform others as soon as possible.
+  A good start is informing your lead.
+    1. It's generally preferable to ship a smaller iteration of an issue,
+  than ship something a release later.
+1. Consider starting a Slack channel for a new team,
+but remember to write all relevant information in the related issue(s).
+You don't want to have to read up on two threads, rather than only one.
 
 ## Choosing something to work on
 
@@ -112,3 +135,15 @@ Only fleshed-out issues can be scheduled. If an issue is vague or has unclear re
 To request a scheduling of an issue, ask the responsible lead. You can find the leads on the team page. For (major) feature requests, ask the relevant product manager. Right now this is either Mark (for CI) or Job.
 
 We have much more requests for great features than we have capacity to work on. There is a good chance we’ll not be able to work on something. Make sure the appropriate labels (such as `customer`) are applied so every issue is given the priority it deserves.
+
+### Scheduling Committee
+
+There is an informal scheduling committee that has a weekly meeting that
+discusses issues _around_ scheduling and how the process of scheduling issues
+can be improved. Actual scheduling, prioritization and others has to happen
+on GitLab.com and nowhere else.
+
+The meeting is open to anyone wanting to join. Ask in #scheduling to be added.
+
+- [Scheduling committee agenda](https://docs.google.com/document/d/1C1cZ_72cml-6S98eULTspkZwKR4gBSgmZRhyy_pcLEc/edit)
+- Slack channel: `#scheduling`

@@ -3,6 +3,11 @@ layout: markdown_page
 title: Product
 ---
 
+**Table of contents**
+
+- TOC
+{:toc}
+
 ## Communication<a name="reach-productteam"></a>
 
 - [**Public Issue Tracker (for GitLab CE)**](https://gitlab.com/gitlab-org/gitlab-ce) and **for [GitLab EE**](https://gitlab.com/gitlab-org/gitlab-ee); please use confidential issues for topics that should only be visible to team members at GitLab.
@@ -124,3 +129,7 @@ make it work in unpredictable ways.
 ## CI/CD<a name="cicd"></a>
 
 For more insights into our vision on Continuous Integration and Continuous Deployment & Delivery, see the [CI/CD page](/direction/cicd).
+
+# Links
+
+- [Engineering Workflow](/handbook/engineering/workflow)
