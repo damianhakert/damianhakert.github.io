@@ -59,7 +59,7 @@ We're going to start from scratch, creating a brand new GitLab installation.
   * `oc create -f openshift-template.json`
   * `wget https://gitlab.com/gitlab-org/omnibus-gitlab/raw/ux-demo/docker/openshift-ci-template.json`
   * `oc create -f openshift-ci-template.json`
-* Create public project on GitLab `markpundsack/velociraptor`
+* Create public project on GitLab `markpundsack/velociraptor` with description: "App for the fastest idea-to-production company ever."
 * Create [issue #1](https://gitlab.com/markpundsack/velociraptor/issues/new?issue%5Btitle%5D=Add%20a%20logo&issue%5Bdescription%5D=From%20https%3A%2F%2Fdockersaurus.slack.com%2Farchives%2Fvelociraptor%2Fp1470115616000002%3A%0A%0A%3E%20We%20need%20a%20logo%20for%20the%20project.%20%20%0A%3E%20Yeah%2C%20it%20should%20be%20orange%2C%20like%20GitLab%27s%20logo!%20%20%0A%3E%20Great%20idea!)
 
 ### Per-Demo Cleanup
