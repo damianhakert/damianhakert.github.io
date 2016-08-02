@@ -48,4 +48,4 @@ reviewed by a backend endboss.
 ## Resources for Engineering
 
 - [Developer onboarding](/handbook/developer-onboarding)
-- [Workflow](/handbook/workflow)
+- [Engineering Workflow](/handbook/engineering/workflow)
