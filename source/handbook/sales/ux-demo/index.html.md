@@ -95,6 +95,13 @@ Now that we've got GitLab running, let's open it up and create a new user for me
 
 #### Chat [#19838](https://gitlab.com/gitlab-org/gitlab-ce/issues/19838)
 
+> *Steps:*
+>
+> Add comment:
+>
+>> Great idea!
+>/issue create Add a logo
+
 I'm going to log in to the chat client. It already knows who I am through the integration with GitLab's user model.
 
 I see there's a chat room for our new project, created automatically when I created the project. Let's go there and talk with the team. Well that was quick, I see someone else is in there and has already come up with a great idea. It would be such a waste to let a good idea die in a chat room. Let's act on that and turn it into a new issue, right from the chat interface.
