@@ -32,12 +32,7 @@ We're doing this for a number of reasons:
 - We want to enable people to order individual licenses. Now, if you need 2 licenses
 you don't need to buy a pack of 10 or if you need 104 you don’t need to buy two licenses of 100.
 - We want to avoid raising the price of our basic package.
-- We will also be offering additional Products for organizations to purchase with their EE subscription. Products will be specific features which certain organizations will find valuable. We want to charge only the people that use
-<<<<<<< f493bcedafc4307d85f97d9914b7ad8c4da46268
-these Products instead of raising the price for everyone. An example of an additional Product, is [GitLab Geo](http://doc.gitlab.com/ee/gitlab-geo/README.html) for $99/year/user.
-=======
-these Options instead of raising the price for everyone. An example of an additional Product, is [GitLab Geo](http://doc.gitlab.com/ee/gitlab-geo/README.html) for $99/year/user.
->>>>>>> rebasing
+- We will also be offering additional Products for organizations to purchase with their EE subscription. Products will be specific features which certain organizations will find valuable. We want to charge only the people that use these Products instead of raising the price for everyone. An example of an additional Product, is [GitLab Geo](http://doc.gitlab.com/ee/gitlab-geo/README.html) for $99/year/user.
 - We want to charge more for 24/7 support.
 - Our plus package wasn't customizable enough for what our customers were requesting.
 
