@@ -1,12 +1,11 @@
 ---
-layout: post
 title: "Setting up GitLab CI for iOS projects"
-date: 2016-03-10
-comments: true
-categories:
 author: Angelo Stavrow
 author_twitter: AngeloStavrow
+categories: tutorial
 image_title: '/images/unsplash/ios-development.jpg'
+twitter_image: '/images/tweets/setting-up-gitlab-ci-for-ios-projects.png'
+description: "Learn how to set up GitLab CI for your iOS projects."
 ---
 
 In this post I'll show you how to set up GitLab CI for your iOS projects, 
@@ -243,7 +242,7 @@ build_project:
 Save this file in your Xcode project folder as `.gitlab-ci.yml`, and don't forget 
 the period at the beginning of the file name!
 
-> **Update:** To clarify, the `.gitlab-ci.yml` file should go in the same folder as your project's `.git` directory and the `.gitignore` file is found, which is also typically where your Xcode project file (`ProjectName.xcodeproj`) is found. Thanks to commenter Palo for pointing this out!
+> **Update:** To clarify, the `.gitlab-ci.yml` file should go in the folder you created for your iOS project, which is also typically where your Xcode project file (`ProjectName.xcodeproj`) is found. Thanks to commenter Palo for pointing this out!
 
 Let's go through the file with some detail:
 
