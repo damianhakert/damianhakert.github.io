@@ -25,6 +25,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
     - [Demand generation](/handbook/marketing/demand-generation) - [Director of Demand Generation](/jobs/director-demand-generation) - Joe Lucas
       - [Senior Demand Generation Manager](/jobs/demand-generation-manager/) - Hank Taylor
       - [Online Marketing](/handbook/marketing/demand-generation/online-marketing/) - [Online Marketing Manager](/jobs/online-marketing-manager/) - Mitchell Wright
+      - [Marketing Operations Manager](https://about.gitlab.com/jobs/marketing-operations-manager/) - Jennifer Cordz
       - Inbound Business Development - [Business Development Team Lead - Inbound](/jobs/business-development-team-lead/) - Colton Taylor
       - [Field Marketing](/handbook/marketing/developer-relations/field-marketing/) - [Field Marketing Manager](/jobs/field-marketing-manager/) - Emily Kyle
       - [Business Development Representatives - Inbound](/jobs/business-development-representative/)
