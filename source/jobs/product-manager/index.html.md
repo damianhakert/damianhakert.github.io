@@ -51,3 +51,8 @@ determine how much can be scheduled.
 - You share our [values](/handbook/#values), and work in accordance with those values.
 - Bonus points: experience with GitLab
 - Bonus points: experience in working with open source projects
+
+## Relevant links
+
+- [Product Handbook](/handbook/product)
+- [Engineering Workflow](/handbook/engineering/workflow)

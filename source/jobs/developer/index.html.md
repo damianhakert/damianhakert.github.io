@@ -12,7 +12,7 @@ Developers can specialize immediately after joining, or after some time, when th
 
 ## Responsibilities
 
-* Develop features from proposal to polished end result. 
+* Develop features from proposal to polished end result.
 * Support and collaborate with our [service engineers](/jobs/service-engineer) in getting to the bottom of user-reported issues and come up with robust solutions.
 * Engage with the core team and the open source community to collaborate on improving GitLab.
 * Manage and review code contributed by the rest of the community and work with them to get it ready for production.
@@ -84,3 +84,8 @@ In the cover letter field please note that you want an internship and link to
 the accepted merge requests. The merge requests should be of significant
 value and difficulty, which is at the discretion of the hiring manager. For
 example, fixing 10 typos isn't as valuable as shipping 2 new features.
+
+## Relevant links
+
+- [Engineering Handbook](/handbook/engineering)
+- [Engineering Workflow](/handbook/engineering/workflow)

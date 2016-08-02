@@ -13,8 +13,8 @@ title: Service Engineer Onboarding
    - [Point to documentation, or make it](#document-it)
    - [Create issues](#create-issue)
    - [Recording information about the organization](#fix-organization)
-   - [Tags tickets](#tags)   
-   - [After the first response](#first-response)   
+   - [Tags tickets](#tags)
+   - [After the first response](#first-response)
    - [When and how to escalate a ticket?](#when-escalate)
    - [When to mark a ticket as solved?](#when-solved)
    - [Clearing out suspended tickets](#clear-suspended)
@@ -123,7 +123,7 @@ where making documentation is a more time consuming exercise:
 - enter an ["internal note"](https://support.zendesk.com/hc/en-us/articles/213519318-Adding-comments-to-tickets#topic_bpn_sbd_bv) describing the documentation requirements
 - update the ticket
 
-Tickets with the "Document this" option are added to a ZenDesk view ["Documentation"](https://gitlab.zendesk.com/agent/#/filters/91188447). 
+Tickets with the "Document this" option are added to a ZenDesk view ["Documentation"](https://gitlab.zendesk.com/agent/#/filters/91188447).
 A [Zap](https://zapier.com/app/editor/9938098/overview) is used to add ticket details to a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1GcQvDThsXuV_n4OFwdYNmq07oO7coiS8xkMP84_-eKo/edit#gid=0).
 
 ### Create issues<a name="create-issue"></a>
@@ -227,7 +227,7 @@ when appropriate.
 ### When and how to escalate a ticket?<a name="when-escalate"></a>
 
 Do not hesitate to ask for help with a ticket, you can ask any of your colleagues to assist you. You can do this via
-Slack initially by [@mentioning](https://get.slack.help/hc/en-us/articles/205240127-Using-mentions) their name and providing a link to the description with an overview of the issue. 
+Slack initially by [@mentioning](https://get.slack.help/hc/en-us/articles/205240127-Using-mentions) their name and providing a link to the description with an overview of the issue.
 If the person you know can help you the best (expert on a specific topic) is not available on
 Slack, you can assign the ticket to them, add a comment summarizing the situation, and submit the
 ticket as **open**. Especially if you do are not yet fully familiar with the particular topic of the issue,
@@ -268,7 +268,7 @@ to ask on the support and/or general chat channel with the ticket's link.
 
 ### Update agent signature<a name="agent-signature"></a>
 
-Your personal ZenDesk signature is shown at the end of every ticket response. 
+Your personal ZenDesk signature is shown at the end of every ticket response.
 You can update this to include a personalized valediction like "Thanks" or "Best Regards" by following these steps.
 
 * In Zendesk, click your user icon in the upper-right corner and select View Profile Page .
