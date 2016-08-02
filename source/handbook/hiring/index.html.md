@@ -120,6 +120,7 @@ is hard, but it is part of our company values.
     * All feedback should be constructive and said in a positive manner. Keep it short and sweet. 
     * Feedback should always be applicable to the skill set of the position the candidate applied and interviewed for. 
     * Feedback and rejection should not be based on soft skills. 
+    * If you feel uncomfortable providing feedback for whatever reason, reach out to People Ops for assistance.
 1. If the candidate is not hired, People Ops sends out an email to ask for feedback.
 There is a "gathering applicant feedback" template in Workable with these questions.
 The feedback survey should be sent out about 3 days after the applicant has been
