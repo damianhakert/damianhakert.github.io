@@ -135,3 +135,15 @@ Only fleshed-out issues can be scheduled. If an issue is vague or has unclear re
 To request a scheduling of an issue, ask the responsible lead. You can find the leads on the team page. For (major) feature requests, ask the relevant product manager. Right now this is either Mark (for CI) or Job.
 
 We have much more requests for great features than we have capacity to work on. There is a good chance we’ll not be able to work on something. Make sure the appropriate labels (such as `customer`) are applied so every issue is given the priority it deserves.
+
+### Scheduling Committee
+
+There is an informal scheduling committee that has a weekly meeting that
+discusses issues _around_ scheduling and how the process of scheduling issues
+can be improved. Actual scheduling, prioritization and others has to happen
+on GitLab.com and nowhere else.
+
+The meeting is open to anyone wanting to join. Ask in #scheduling to be added.
+
+- [Scheduling committee agenda](https://docs.google.com/document/d/1C1cZ_72cml-6S98eULTspkZwKR4gBSgmZRhyy_pcLEc/edit)
+- Slack channel: `#scheduling`

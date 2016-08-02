@@ -91,9 +91,9 @@ For everything related to infrastructure, check out the
 
 ### Workflow
 
-The priority of the issues can be found in the handbook under
-[GitLab Workflow under prioritize](/handbook/#prioritize) and
-[priority in the same milestone](/handbook/#priority).
+Please see the [engineering workflow document][eng-wf] in the handbook.
+
+[eng-wf]: /handbook/engineering/workflow
 
 ### Quality
 
@@ -150,3 +150,9 @@ You're of course free to add other developers as well.
 [handbook]: https://about.gitlab.com/handbook
 [in the open]: https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/
 [contrib-guide]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md
+
+## Relevant links
+
+- [Engineering Handbook](/handbook/engineering)
+- [Engineering Workflow](/handbook/engineering/workflow)
+- [Product Handbook](/handbook/product)
