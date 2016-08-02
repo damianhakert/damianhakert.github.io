@@ -217,6 +217,13 @@ and then ping @rspeicher to confirm your account. You can find this (and other) 
 * [ ] New team member: familiarize yourself with the [Support](https://about.gitlab.com/handbook/support/) process.
 * [ ] New team member: familiarize yourself with [giving a GitLab demo](https://about.gitlab.com/handbook/demo/)
 
+### FOR PEOPLE OPS ONLY
+
+* [ ] Manager: Add team member to applicable email addresses, ex. jobs@gitlab.com 
+* [ ] People Ops: Add team member to BambooHR and Workable as an admin.
+* [ ] Manager: Add team member to TriNet and HR Savvy as an admin. 
+* [ ] People Ops: Invite team member to People Ops Confidential channel in Slack. 
+
 ```
 
 Please update this list as more steps arise.
