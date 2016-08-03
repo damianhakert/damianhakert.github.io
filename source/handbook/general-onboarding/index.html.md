@@ -10,23 +10,24 @@ title: "GitLab Onboarding"
 * [Service engineer onboarding](/handbook/support/onboarding/)
 * [Offboarding](/handbook/offboarding/)
 
-## This page
+----
 
-* [Master Checklist for Onboarding of New Hires](#checklist)
-* [Onboarding Topics That Apply to Everyone](#everyone)
-  * [General](#general)
-  * [Add yourself to the team page](#add-yourself-to-team-page)
-  * [GitLab Instances](#gitlab-instances)
-  * [Security](#security)
-  * [Git Quiz!](#quiz)
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+----
 
 
-## Master Checklist for Onboarding of New Hires <a name="checklist"></a>
+## Master Checklist for Onboarding of New Hires
+<a name="checklist"></a>
 
 Create issue for new hire in organization with following checklist.
 This list looks strange in this handbook but this is to ensure you can copy paste it into an issue.
 When you paste it in an issue it will have checkboxes that you can click to complete.
-The topics are ordered by priority in which they need to be tackled, and the main person responsible is called out at the beginning of each task.
+The topics are ordered by priority in which they need to be tackled, and the main person responsible is called out at the beginning of each task. Please update this list as more steps arise, and then also update the associated item on the [offboarding list](/handbook/offboarding).
 
 ```
 ### BEFORE STARTING AT GITLAB
@@ -110,16 +111,16 @@ welcome email to the employee at their work email on their first date of hire.
 #### For GitLab BV employees only
 
 1. [ ] New team member: fill in this payroll information [form](https://docs.google.com/a/gitlab.com/forms/d/1mExVeTRn1cd0MtnNuvMSy7UJ8WazI5D6_snq3R6bsmI/viewform)
-This info is needed to get your profile ready with Savvy HR in order to get you your pay slips and other information. Next to Savvy, the People Ops team will also get a copy of the form info for your employee file on BambooHR
+This info is needed to get your profile ready with Savvy HR in order to get you your pay slips and other information. Next to Savvy, the People Ops team will also get a copy of the form info for your employee file on BambooHR.
 
 #### All team members
 
-1. [ ] New team member: Read the [security handbook](https://about.gitlab.com/handbook/security/), and please ask questions make sure it is all clear to you.
+1. [ ] New team member: Read the [security handbook](https://about.gitlab.com/handbook/security/), and please ask questions to make sure it is all clear to you.
 1. [ ] New team member: If you authenticated your GitLab.com account with Google, GitHub, etc. you should either disconnect them or make sure they use two-factor authentication.
 1. [ ] New team member: Enable [two-factor authentication](http://docs.gitlab.com/ee/profile/two_factor_authentication.html) on your GitLab.com account.
 1. [ ] New team member: Make sure your notifications for GitLab.com aren't sent to a personal email. Send them to your `@gitlab.com` email.
 1. [ ] 1Password
-   1. [ ] New team member: Register on 1Password by clicking on the link in the ["Link to 1Password Sign-Up"](https://docs.google.com/document/d/15BdqpNhSi_5bc2b9KXo_w5f0gC-3gmuw-aIgzRcbnbk/edit) Google Doc and then ping @rspeicher to confirm your account. You can find this (and other) shared Google Docs by using [`Search <your domain>`](https://support.google.com/a/answer/3187967?hl=en) in Google Drive. You may need to update the domain of your search scope to include `Search for files shared with gitlab.com`.
+   1. [ ] New team member: Register on 1Password by clicking on the link in the ["Link to 1Password Sign-Up"](https://docs.google.com/document/d/15BdqpNhSi_5bc2b9KXo_w5f0gC-3gmuw-aIgzRcbnbk/edit) Google Doc and then ping @rspeicher to confirm your account. You can find this (and other) shared Google Docs by using [`Search for files shared with gitlab.com`](https://support.google.com/a/answer/3187967?hl=en) in Google Drive.
    1. [ ] New team member: once you are registered on 1Password, ping your hiring manager to grant you access to the proper shared Vaults by making a suggestion in the relevant cell in the ["1Password Shared Folders"](https://docs.google.com/a/gitlab.com/spreadsheets/d/1dSlIRbD1b8XisIBbANDK5NGe55LvVSTsWM7aHcWCOVU/edit?usp=sharing) Google Sheet.
    1. [ ] New team member: install the 1Password app on your computer, and link it to your team account, as described on the [security handbook page](https://about.gitlab.com/handbook/security/). Please let People Ops or your manager know if you need any assistance.
    1. [ ] New team member: Change your password on GitLab.com to use 1Password if you had an account before joining the company.
@@ -136,6 +137,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] People Ops: Order [business cards](https://about.gitlab.com/handbook/people-operations/#b-cards) for new team member.
 1. [ ] People Ops: [Add team member](https://about.gitlab.com/handbook/people-operations/#add-expensify) to Expensify (if employee).
 1. [ ] People Ops: Add new team member to the info sheets of the next Summit if applies.
+1. [ ] New team member: Check if there is a coming [Summit](https://gitlab.com/summits/) and save the date!
 1. [ ] People Ops: [Create a profile](https://about.gitlab.com/handbook/people-operations/#add-egencia) on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
 1. [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know your team.
    1. [ ] call with ___
@@ -154,7 +156,6 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] New team member: Add yourself to the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing).
 1. [ ] New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
 1. [ ] New team member: Comment with a screenshot verifying that your hard drive is encrypted (`Command` + `Shift` + `3` on Mac).
-1. [ ] New team member: Check if there is a coming [Summit](https://gitlab.com/summits/) and save the date!
 1. [ ] New team member: Make an improvement to the handbook (something that you wished was there), assign the merge request (MR) to your manager and link the MR url in this onboarding issue.
 
 
@@ -171,7 +172,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 1. [ ] Patricio/Robert/Jacob V: Create GitLab.com admin account.
 1. [ ] Patricio/Ernst: Add to Tweetdeck for [at]gitlabstatus.
-1. [ ] Jose/Patricio: [Add new team member](https://support.zendesk.com/hc/en-us/articles/203661986-Adding-end-users-agents-and-administrators#topic_h43_2k2_yg) as an agent in [GitLab ZenDesk](https://gitlab.zendesk.com).
+1. [ ] Jose/Drew: [Add new team member](https://support.zendesk.com/hc/en-us/articles/203661986-Adding-end-users-agents-and-administrators#topic_h43_2k2_yg) as an agent in [GitLab ZenDesk](https://gitlab.zendesk.com).
 1. [ ] Jose/Drew: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
 1. [ ] Jose/Axil: Add new team member to "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
 1. [ ] Jose: invite to support team call
@@ -229,11 +230,13 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 ```
 
-Please update this list as more steps arise.
 
-## Onboarding topics that apply to everyone<a name="everyone"></a>
 
-### General<a name="general"></a>
+## Onboarding topics that apply to everyone
+<a name="everyone"></a>
+
+### General
+<a name="general"></a>
 
 * The first month at a remote first company is hard, especially if you have not worked remote before and/or if you're unfamiliar with the tools used (mainly GitLab, chat, and video calling). If you feel lonely feel free to schedule 1 on 1 video calls to get to know people. If you need help with the tools ask people for help. If you don't know who to ask for help use the #questions chat channel. If you're not happy please let your manager know so we can take action.
 * We've set up a monthly GitLab 101 call to explain our history and have some time for Q&A.
@@ -277,7 +280,8 @@ The most common Issues are created in the following projects:
   1. Internal issues related to the organization: Use [GitLab Organization](https://dev.gitlab.org/gitlab/organization)
   1. Internal issues relate to Enterprise Edition: Use [GitLab EE](https://dev.gitlab.org/gitlab/gitlab-ee)
 
-### Add yourself to the team page<a name="add-yourself-to-team-page"></a>
+### Add yourself to the team page
+<a name="add-yourself-to-team-page"></a>
 
 Welcome to GitLab! We are happy to have you join our company and to include
 you in our [team page](https://about.gitlab.com/team/). The following are
@@ -336,7 +340,8 @@ respect the spaces between lines. If you have a nickname, write it as `Firstname
 1. After you added your information, add a comment to your commit and click on “Commit Changes”.
 1. Go to the Merge Request that you previously created with the branch that you are using and assign it to your manager for review.
 
-### GitLab Instances<a name="gitlab-instances"></a>
+### GitLab Instances
+<a name="gitlab-instances"></a>
 
 We have two GitLab instances that we use primarily, namely the 'dev' server and the free SaaS of GitLab at GitLab.com.
 
@@ -361,11 +366,13 @@ Many developers set up their own private GitLab instance somewhere, for instance
 to test and work with LDAP or Active Directory, to give demos, or for various
 other reasons.
 
-### Security<a name="security"></a>
+### Security
+<a name="security"></a>
 
 See the [security handbook](https://about.gitlab.com/handbook/security).
 
-### Quiz<a name="quiz"></a>
+### Quiz
+<a name="quiz"></a>
 Employees should answer GitLab quiz questions in the first 2 weeks of working in
 the company. If the answers are not accurate, you may retest once: [GitLab Quiz](https://about.gitlab.com/handbook/questions/)
 Please schedule a call with your hiring manager.
