@@ -1385,6 +1385,17 @@
   story:  |
           Joining August 1st
 
+- name: D.H.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/ux-designer/">Junior UX Designer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 4th
+
 - name: F.A.
   locality:
   country:
