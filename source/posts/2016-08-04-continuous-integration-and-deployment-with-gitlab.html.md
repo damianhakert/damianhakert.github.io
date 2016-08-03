@@ -23,7 +23,7 @@ GitLab. Check how you can easily deploy automatically your app from GitLab to Do
 First, let's try to understand the definitions of some topics relevant to this post.
 
 **[Continuous Integration][ci]** is a software development practice in which you build and test software
-every time a developer pushes code to the application.
+every time a developer pushes code to the application, and it happens several times a day.
 
 **[Continuous Delivery][cd]** is a software engineering approach in which **continuous integration**, **automated
 testing**, and **automated deployment** capabilities allow software to be developed and [deployed rapidly],
@@ -54,7 +54,7 @@ From every commit, we use [GitLab CI] to test and build our software. We run uni
 some changes didn't break other parts of the software. [Every push triggers multiple tests][ce-pipes],
 making it easier to identify where the error is, when a test happens to fail.
 But we do not deploy to production often, making both GitLab CE and EE cases
-of Continuous Integration only. <!-- to be reviewed/improved -->
+of Continuous Integration only.
 
 ### Continuous Delivery
 
@@ -74,15 +74,18 @@ The answer was:
 For non-SaaS companies, it’s getting **automation technologies to integrate**.
 {: .alert .alert-success}
 
-Well, with GitLab, we have all of this technology, **integrated into one single UI**. With [GitLab 8.10] on, you can
-actually [perform Manual Actions], and deploy manually your application with a click of a button:
+Well, with GitLab, we have all of this technology, **fully-integrated into one single UI**. With [GitLab 8.10] on, you can
+actually [perform Manual Actions], and deploy manually your application with a click of a button, making Continuous Delivery
+easier than ever:
 
-![Continuous Delivery with GitLab]{: .shadow}
+![Continuous Delivery - deploy to staging]{: .shadow}
+
+![Continuous Delivery - deploy to production]{: .shadow}
 
 ### Continuous Deployment
 
 Our website, [about.GitLab.com], is **continuously deployed**. Every time we merge to the
-`master` branch, the code is tested, built, and deployed, passing through the entire [pipeline][com-pipe]. There's no
+`master` branch, the code is tested, built, and deployed to production, passing through the entire [pipeline][com-pipe]. There's no
 further manual action that triggers the deployment: it is an automated process, controlled by GitLab CI.
 
 Other great examples of companies that adopted Continuous Deployment are [Flickr] and [Etsy].
@@ -90,11 +93,11 @@ Both deploy multiple times a day.
 
 ## From idea to production with GitLab
 
-Our Head of Product, [Mark Pundsack], created a demonstration which illustrates an integration of **GitLab CI**,
-**Continuous Deployment**, and our built-in **Container Registry** capability to develop faster
-**from idea to production**.
+Our Head of Product, [Mark Pundsack], created a demonstration which illustrates an use-case of our built-in capabilities
+with **GitLab CI**, **Continuous Deployment**, and **Container Registry** together, to develop **faster
+from idea to production**.
 
-In this video, you can see how it's possible, within one single interface (GitLab.com), to do everything:
+In this video, you can see how it's possible, within one single interface (GitLab), to do everything:
 
 - Have an idea
 - Create an issue to discuss it with your team
@@ -102,6 +105,7 @@ In this video, you can see how it's possible, within one single interface (GitLa
 - Run automated scripts (sequential or parallel) to build, test **and deploy** to a staging environment and actually preview the changes
 - Review the code and get it approved
 - Merge the feature-branch into `master`: the system deploys the new feature automatically to a [production environment][env]
+- Rollback if something goes wrong
 
 The most amazing thing is, you can track the entire process, from idea to production, within GitLab. Everything else is
 integrated automatically with GitLab already, you don't need any other tools to deliver your software.
@@ -125,8 +129,7 @@ Check it out, it's awesome!
 **Note:** we assume you know what Docker is, how to use it and how to deploy an app to [Docker Cloud].
 {: .note}
 
-Mark also talks about all the techniques briefly described on this post in a video for GitLab University (GLU), which is
-our internal channel for training our team. The video is called [GLU: Idea to Production][glu] and it's available in our [GitLab YouTube Channel][youtube].
+There's a [complete overview][idea-to-prod] on this demo in our Handbook, in case you want to reproduce Mark's steps.
 
 ## Conclusion
 
@@ -149,6 +152,8 @@ Follow [@GitLab] on Twitter and stay tuned for updates!
 [ce-repo]: https://gitlab.com/gitlab-org/gitlab-ce
 [container history]: https://gitlab.com/gitlab-examples/docker-cloud/container_registry
 [container registry]: /2016/05/23/gitlab-container-registry/
+[Continuous Delivery - deploy to staging]: /images/8_10/ci_manual1.png
+[Continuous Delivery - deploy to production]: /images/8_10/ci_manual2.png
 [core]: https://about.gitlab.com/core-team/
 [com-pipe]: https://gitlab.com/gitlab-com/www-gitlab-com/pipelines
 [deployed rapidly]: /2016/07/21/release-early-release-often/
@@ -164,8 +169,9 @@ Follow [@GitLab] on Twitter and stay tuned for updates!
 [GitLab CI]: /gitlab-ci/
 [GitLab.com]: https://gitlab.com/users/sign_in
 [GitLab EE]: /features/#enterprise
-[glu]: https://www.youtube.com/watch?v=25pHyknRgEo
-[Continuous Delivery with GitLab]: /images/8_10/ci_manual1.png
+[handbook]: /handbook/
+[handbook-post]: https://about.gitlab.com/2016/07/12/our-handbook-is-open-source-heres-why/
+[idea-to-prod]: https://about.gitlab.com/handbook/sales/idea-to-production/
 [mark-pipes]: https://gitlab.com/gitlab-examples/docker-cloud/pipelines
 [Mark Pundsack]: https://twitter.com/MarkPundsack
 [moz]: https://quality.mozilla.org/2014/10/continuous-delivery-a-generic-plan/
