@@ -80,7 +80,7 @@ If an omnibus package has been uploaded - maintenance won’t be necessary for v
 - Login to [AWS console](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#Instances:sort=publicIp)
 - Creating a new image:
   - Create a new instance and choose the Ubuntu AMI
-  - Install GitLab-ee or GitLab-ce via omnibus:
+  - Install GitLab-ee or GitLab-ce via omnibus (change to the appropriate version CE/EE in the commands below):
     - 'curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash'
     - 'sudo apt-get install gitlab-ce'
     - 'gitlab-ctl reconfigure'
