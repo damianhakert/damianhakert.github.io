@@ -24,9 +24,34 @@ Top 10 reasons to work for GitLab:
 
 ## Historical Anecdotes
 
-### _August 2nd, 2011_
+### _October 8th, 2011_
 
-Sid and Dmitry started GitLab.
+Dmitriy started GitLab when he pushed the [initial commit](https://gitlab.com/gitlab-org/gitlab-ce/commit/9ba1224867665844b117fa037e1465bb706b3685).
+
+### _August 24th, 2012_
+
+Sid announced [GitLab on HN](https://news.ycombinator.com/item?id=4428278).
+
+### _September 14th, 2012_
+
+[First 10 people get access](https://about.gitlab.com/2012/09/14/first-10-people-got-access/)
+to GitLab Cloud (now known as GitLab.com).
+
+### _November 13th, 2012_
+
+[GitLab CI is officially announced](https://about.gitlab.com/2012/11/13/continuous-integration-server-from-gitlab/).
+
+### _July 22nd, 2013_
+
+[GitLab Enterprise Edition is announced](https://about.gitlab.com/2013/07/22/announcing-gitlab-enterprise-edition/).
+
+### _April 18th, 2014_
+
+[GitLab Cloud renamed to GitLab.com](https://about.gitlab.com/2014/04/18/gitlab-cloud-becomes-gitlab-com/).
+
+### _March 4th, 2015_
+
+[GitLab in Y Combinator winter 2015 batch](https://about.gitlab.com/2015/03/04/gitlab-is-part-of-the-y-combinator-family/).
 
 ### _August 15th, 2015_
 
@@ -34,7 +59,7 @@ Series A Funding was signed.
 
 ### _October 10th, 2015_
 
-Anniversary of our first ever summit in Amsterdam with 25 team members. 
+Anniversary of our first ever summit in Amsterdam with 25 team members.
 
 ## Summits
 
