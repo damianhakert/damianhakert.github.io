@@ -16,10 +16,12 @@ kind comments left by users, which is always great to see. We’re excited to ha
 a lot of loyal fans (many of whom are also contributors).
 
 While there’s no magic formula for getting people to like you, we think that
-some of it has to do with the values embedded in your company culture.
-This post is going to outline the principles that we think make it
-easier for people to become fans. Please feel free to translate this back to
-your own company culture in whatever form makes sense.
+some of it has to do with the values embedded in your company culture. Your company culture not only defines how your organization works together
+but it also defines how your team interacts with the outside world. It dictates the underlying philosophies for how you treat employees, customers, partners, suppliers, etc. 
+A great company culture can help you attact great talent and earn respect from your customers and partners. At GitLab, we take our culture very seriously
+and we are constantly working to maintain it as we grow. This post outlines the principles that we think make it
+easier for people to become fans. Naturally, every company culture is unique so there are our thoughts on what works for us. We think there may be some learnings 
+here for your company as well. We could also learn from your culture so please comment on this post with what works for your company or team. 
 
 <!-- more -->
 
