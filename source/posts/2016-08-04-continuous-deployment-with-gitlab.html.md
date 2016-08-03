@@ -1,19 +1,19 @@
 ---
-title: "Continuous Deployment with GitLab" # anyone with a better idea?
+title: "Continuous Integration and Deployment with GitLab" # anyone with a better idea?
 author: Marcia Ramos
 author_twitter: XMDRamos
 categories: GitLab
 image_title:  # to be added
-description: "CI, CD and Docker Registry: all built-in GitLab"
+description: "CI, CD and Container Registry: all built-in GitLab" # to be improved
 twitter_image:  # to be added
 ---
 
-Can you imagine having **Continuous Integration**, Continuous **Deployment**
+Can you imagine having **Continuous Integration**, **Continuous Deployment**
 and **Container Registry** within the same web interface? With **GitLab**, you can!
 
-After a brief information on CI, Continuous Delivery and Continuous Deployment,
-and a short walk through a few use-cases for these development practices, we'll present you
-with a **video** illustrating the capability of going **faster from idea to production** with
+After a brief introduction to Continuous Integration, Continuous Delivery and Continuous Deployment,
+and a short walk through of some use-cases for these development practices, we'll present you
+with a **video** illustrating the capability of going **from idea to production faster** with
 GitLab. Check how you can easily deploy automatically your app from GitLab to DockerCloud.
 
 <!-- more -->
@@ -28,10 +28,10 @@ every time a developer pushes code to the application.
 **Continuous Delivery** is a software development practice in which **continuous integration**, **automated
 testing**, and **automated deployment** capabilities allow software to be developed and [deployed rapidly],
 reliably and repeatedly with minimal manual overhead. Still, the deployment is defined strategically
-and pushed manually to production stage.
+and pushed manually to the production stage.
 
 **Continuous Deployment** is a software development practice in which every code change goes through
-the entire pipeline and is put **into production**, **automatically**, resulting in many production
+the entire pipeline and is put **into production automatically**, resulting in many production
 deployments every day.
 
 **Source:** <http://electric-cloud.com/wiki/display/releasemanagement/Continuous+Deployment>
@@ -39,26 +39,28 @@ deployments every day.
 
 ## Use-cases
 
-Let's take a look at a couple use-cases as real examples of the techniques explained above.
+Let's take a look at a couple of use-cases as real examples of the techniques explained above.
 
 ### Continuous Integration
 
 [GitLab.com] is our [SaaS]. It's 100% free to use by anyone or any team. It runs on [GitLab EE],
-our single tenant premium product, fully-featured. [GitLab CE] is our free on-premises product:
+our single-tenant premium product. [GitLab CE] is our free on-premises product:
 anyone can download and install it in their chosen server.
 
 Our developers, as well as our community and [core contributors][core], push code to [GitLab CE][ce-repo]
 and [GitLab EE][ee-repo] every day, multiple times per day.
-From every commit, we use GitLab CI to test and build our software. But, we do not deploy to production
-every time we push, or even a couple times a day, making both GitLab CE and EE cases of Continuous Integration.
-
+From every commit, we use GitLab CI to test and build our software. We run unit tests to make sure
+some changes didn't break other parts of the software. [Every push triggers multiple tests][ce-pipes],
+making it easier to identify where the error is, when a test happens to fail.
+But we do not deploy to production often, making both GitLab CE and EE cases
+of Continuous Integration only. <!-- to be reviewed/improved -->
 
 ### Continuous Delivery
 
 [Mozilla Firefox][moz] and [Envato] are good examples of Continuous Delivery. They both get their product
-deployed to production as soon as it's ready, with the minimum human intervention as possible.
+deployed to production as soon as it's ready with as little human intervention as possible.
 
-[Perforce performed a study][perforce] that reveals that most of the companies are using Continuous
+[Perforce performed a study][perforce] that revealed that most of the companies surveyed are using Continuous
 Delivery methods to ship their products.
 
 They raised an interesting question:
@@ -71,12 +73,12 @@ The answer was:
 For non-SaaS companies, it’s getting **automation technologies to integrate**.
 {: .alert .alert-success}
 
-Well, with GitLab, you can have all this technology, **integrated into one single UI**.
+Well, with GitLab, you can have all of this technology, **integrated into one single UI**.
 
 ### Continuous Deployment
 
 Our website, [about.GitLab.com], is **continuously deployed**. Every time we merge to the
-`master` branch, the code is tested, built and deployed, passing through the entire [pipeline][com-pipe]. There's no
+`master` branch, the code is tested, built, and deployed, passing through the entire [pipeline][com-pipe]. There's no
 further manual action that triggers the deployment: it is an automated process, controlled by [GitLab CI],
 our built-in continuous integration tool.
 
@@ -86,8 +88,12 @@ Both deploy multiple times a day.
 ## From idea to production with GitLab
 
 Our Head of Product, [Mark Pundsack], created a demonstration which illustrates an integration of **GitLab CI**,
-**Continuous Deployment**, and our built-in **[Container Registry]** capability to develop faster
+**Continuous Deployment**, and our built-in **Container Registry** capability to develop faster
 **from idea to production**.
+
+**GitLab Container Registry** is a secure and private registry for Docker images. Built on
+open source software, our Registry isn't just a standalone one; it's completely integrated with GitLab.
+Read more about it on the post [GitLab Container Registry][Container Registry].
 
 In this video, you can see how it's possible, within one single interface (GitLab.com), to do everything:
 
@@ -125,7 +131,7 @@ our internal channel for training our team. The video is called [GLU: Idea to Pr
 
 ## Conclusion
 
-Out DevTeam works hard to offer the best solution on modern software development tools and techniques. We ship a new
+Our DevTeam works hard to offer the best solution on modern software development tools and techniques. We ship a new
 version once a month, every 22nd, with more features and improvements, for making development faster and better.
 
 With GitLab, we go from idea to production using one single interface that integrates all the tools we need!
@@ -137,6 +143,7 @@ Follow [@GitLab] on Twitter and stay tuned for updates!
 
 [about.GitLab.com]: /
 [@GitLab]: https://twitter.com/gitlab
+[ce-pipes]: https://gitlab.com/gitlab-org/gitlab-ce/pipelines
 [ce-repo]: https://gitlab.com/gitlab-org/gitlab-ce
 [container history]: https://gitlab.com/gitlab-examples/docker-cloud/container_registry
 [container registry]: /2016/05/23/gitlab-container-registry/
