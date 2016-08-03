@@ -3,12 +3,16 @@ layout: markdown_page
 title: Team Handbook
 ---
 
-## Feedback<a name="feedback"></a>
+## Welcome to the GitLab Handbook
+{: .no_toc}
 
-Please make a <a href="https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests">merge request</a> to suggest improvements or add clarifications.
+The GitLab team handbook is the central repository for how we run the company. As part of our dedication to being as open and transparent as possible, the handbook is open to the world, and we welcome feedback<a name="feedback"></a>. Please make a <a href="https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests">merge request</a> to suggest improvements or add clarifications.
 Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues</a> to ask questions.
+{: .note}
 
-## Other main pages
+----
+
+## <i class="fa fa-book fa-fw icon-color font-awesome" aria-hidden="true"></i> Other Main Pages in Handbook
 
 * [Engineering](/handbook/engineering)
 * [Marketing](/handbook/marketing)
@@ -29,38 +33,19 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
   * [Leadership](/handbook/leadership)
 * [Product](/handbook/product)
 
+----
+
 ## This page
 
-* [Values](#values)
-* [General Guidelines](#general-guidelines)
-* [Handbook Usage](#handbook-usage)
-* [Communication](#communication)
-   * [Internal Communication](#internal-communication)
-   * [GitLab Workflow](#gitlab-workflow)
-   * [Team Call](#team-call)
-   * [Random Chat and Room](#random-room)
-   * [Scheduling Meetings](#scheduling-meetings)
-   * [Video Calls](#video-calls)
-   * [User Communication Guidelines](#user-communication-guidelines)
-   * [Writing Style Guidelines](#writing-style-guidelines)
-   * [Beamy Guidelines](#beamy-guidelines)
-   * [Company Phone Number](#phone-number)
-* [On Call Rotation and Schedule](#on-call)
-* [Intellectual Property](#intellectual-property)
-* [Spending Company Money](#spending-company-money)
-* [Paid Time Off](#paid-time-off)
-* [Incentives](#incentives)
-   * [Sales Target Dinner Bonus](#sales-target-dinner)
-   * [Discretionary Bonuses](#discretionary-bonuses)
-   * [Referral Bonuses](#referral-bonuses)
-   * [Work Remotely Travel Grant](#travel-grant)
-* [Signing Legal Documents](#signing-legal-documents)
-* [Working Remotely](#working-remotely)
-   * [Coffee Break Calls](#coffee-break-calls)
-* [Tools and Tips](#tools)
-* [Using Git to update this website](#starting-with-git)
+{: .no_toc}
 
-## Values<a name="values"></a>
+- TOC
+{:toc .toc-list-icons}
+
+----
+
+## <i class="fa fa-gitlab fa-fw icon-color font-awesome" aria-hidden="true"></i> Values
+<a name="values"></a>
 
 We value results, transparency, sharing, freedom, efficiency, frugality,
 collaboration, directness, kindness, diversity, boring solutions, and quirkiness:
@@ -117,7 +102,8 @@ of our time talking about what we did in our private lives, from fire-throwing t
 knitting. Open source is a great way to interact with interesting
 people. We try to hire people who think work is a great way to express themselves.
 
-## General Guidelines<a name="general-guidelines"></a>
+## General Guidelines
+<a name="general-guidelines"></a>
 
 1. Working at GitLab Inc. is cooperating with the most talented people you've ever worked with, being the **most productive** you'll ever be, and creating software that is helping the most people you've ever reached.
 1. We recognize that inspiration is perishable, so if you’re **enthusiastic** about something that generates great results in relatively little time feel free to work on that.
@@ -151,7 +137,8 @@ when the request is complete.
 1. Respect the **privacy** of our users and your fellow team members. Secure our production data at all times. Only work with production data when this is needed to perform your job. Looking into production data for malicious reasons (for example [LOVEINT](https://en.wikipedia.org/wiki/LOVEINT) or spying on direct messages of team members) is a fireable offense.
 1. Most guidelines in this handbook are meant to help and unless they state otherwise it is meant to help more than being an absolute rule. Don't be afraid to do something because you can't oversee all guidelines. Be gentle when reminding people about these guidelines, for example say: "It is not a problem, but next time please consider the following guideline from the handbook".
 
-## Handbook Usage<a name="handbook-usage"></a>
+## Handbook Usage
+<a name="handbook-usage"></a>
 
 At GitLab our handbook is extensive and keeping it relevant is an important part of everyone's job. The reasons for having a handbook are:
 
@@ -177,7 +164,8 @@ After it is merged you can talk about it during the team call if applicable. You
 
 Many things can be documented in the handbook, but this will mostly be read by team members. If something can concern users of GitLab it should be documented in the [GitLab documentation](http://doc.gitlab.com/), the [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit), our [CONTRIBUTING file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md) or the [PROCESS file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md).
 
-## Communication<a name="communication"></a>
+## Communication
+<a name="communication"></a>
 
 We're a **distributed**, **remote-only** company where people work remote without missing out.
 For this, we use **asynchronous communication** and are as open as we can be by communicating through public issues, chat channels,
@@ -187,7 +175,8 @@ ever-growing remote-only company.
 Please keep in mind that you represent GitLab and our culture, also on Social Media.
 When commenting on posts please keep in mind: "Don't argue but represent."
 
-### Internal Communication<a name="internal-communication"></a>
+### Internal Communication
+<a name="internal-communication"></a>
 
 1. All written communication happens in English, even when sent one on one,
 because sometimes you need to forward an email or chat.
@@ -268,7 +257,8 @@ If there is something that you want to discuss, but you do not feel that it is
 a reasonable option to discuss with either your manager or CEO, then you can reach
 out to any of the other C-level team members or our board member Bruce Armstrong.
 
-### GitLab Workflow<a name="gitlab-workflow"></a>
+### GitLab Workflow
+<a name="gitlab-workflow"></a>
 
 1. Always **create** an issue for things you work on. If it is worth spending time on, it is worth creating an issue for it since that enables other people to learn and help. You can always edit the description or close it when the problem is something different or disappears.
 1. **'Double link'** issues to prevent internal confusion and us failing to report back to the reporters. For example, open an issue with link to ZenDesk and close the issue with copy of the response. Or add 'Report: ' lines to the description with links to relevant issues and feature requests and ensure they are closed and note this with a comment. If you are not responsible for reporting back please do not close an issue, instead reassign it.
@@ -302,7 +292,8 @@ step, **re-assign** the issue to that person.
 1. When **closing** an issue leave a comment explaining why you are closing the issue.
 1. If a user suggests an enhancement, try and find an existing issue that addresses their concern, or create a new one. Ask if they'd like to elaborate on their idea in one of these issues.
 
-### Team Call<a name="team-call"></a>
+### Team Call
+<a name="team-call"></a>
 
 1. The team call is every workday except Friday from 8:30am to 9:00am Pacific Time (mostly 5:30pm - 6:00pm Central European Time).
 1. Every last Friday of the month we have a AMA to talk about anything our team is thinking about.
@@ -326,12 +317,14 @@ step, **re-assign** the issue to that person.
 1. Last person wishes everyone a good day.
 1. Even if you cannot join the call, consider reviewing the recorded call or at minimum read through the team agenda and the links from there. We often use the team call to make announcements or discuss changes in processes, so make sure to catch up on the news if you have missed a team call (or more).
 
-### Random Chat and Room<a name="random-room"></a>
+### Random Chat and Room
+<a name="random-room"></a>
 
 1. The [#random](https://gitlab.slack.com/archives/random) chat channel is your go-to place to share random ideas, pictures, articles, and more. It's a great channel to check out when you need a mental break.
 1. Come hang out any time in the **random room**, an open Google Hangout video chat where anyone with a GitLab email address can come and leave as they please. The link is in the description of the `#random` chat channel; consider bookmarking it. This room is open for all and should be distinct from the [Coffee Break Calls](#coffee-break-calls), which are 1x1 conversations between teammates.
 
-### Scheduling meetings<a name="scheduling-meetings"></a>
+### Scheduling meetings
+<a name="scheduling-meetings"></a>
 
 1. If you want to ask team members if they are available for an event please send a new calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.
 1. If there are materials relevant for a calendar meeting please add the URL to the meeting invite description. Normally this would be a Google Doc for the agenda and any relevant issues.
@@ -344,7 +337,8 @@ doesn't unnecessarily appear on other people's calendars.
 1. If you want to schedule a meeting with a person not on the team please use [Calendly](#calendly).
 1. When scheduling a meeting we value people's time and prefer the "speedy meetings" setting in our Google Calendar. This gives us meetings of, for example, 25 or 50  minutes leaving some time to write notes etc before continuing to our next call or meeting. (This setting can be found under the calendar Settings menu at "default event duration")
 
-### Video calls<a name="video-calls"></a>
+### Video calls
+<a name="video-calls"></a>
 
 1. For smaller meetings we use Google Hangouts, for larger meetings we prefer Blue Jeans (Google Hangouts technical limit is 15 for scheduled meetings).
 1. For meetings that are scheduled via calendar there is automatically a Google Hangout URL added, this is the meeting place. Having a url in advance is much more reliable than trying to call via hangouts as the meeting start.
@@ -352,7 +346,8 @@ doesn't unnecessarily appear on other people's calendars.
 1. Consider using a utility to easily mute/unmute yourself, see [Shush](#shush) in the tools section.
 1. In video calls everyone should own camera and headset, even when they are in the same room. This helps to see the person that is talking clearly on the camera and their name in the list. It also allows people to easily talk and mute themselves. And using a headset prevents an echoing. You wouldn't share an office seat together, don't share your virtual seat at the table.
 
-### User Communication Guidelines<a name="user-communication-guidelines"></a>
+### User Communication Guidelines
+<a name="user-communication-guidelines"></a>
 
 1. Keep conversations positive, friendly, real and productive while adding value.
 1. If you make a mistake, admit it. Be upfront and be quick with your correction. If you're posting to a blog, you may choose to modify an earlier post, just make it clear that you have done so.
@@ -363,7 +358,8 @@ doesn't unnecessarily appear on other people's calendars.
 1. Guide users who ask for help or give a suggestion and share links. [Improving Open Development for Everyone](https://about.gitlab.com/2015/12/16/improving-open-development-for-everyone/), [Types of requests](https://about.gitlab.com/2014/12/08/explaining-gitlab-bugs/).
 1. When facing negative comment, respond patiently and treat every user as an individual, people with the strongest opinions can turn into [the strongest supporters](https://about.gitlab.com/2015/05/20/gitlab-gitorious-free-software/).
 
-### Writing Style Guidelines<a name="writing-style-guidelines"></a>
+### Writing Style Guidelines
+<a name="writing-style-guidelines"></a>
 
 1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](http://doc.gitlab.com/ce/markdown/markdown.html) instead.
 1. We use Unix style (lf) line endings, not Windows style (crlf), please ensure `*.md text eol=lf` is set in the repository's `.gitattributes` and run `git config --global core.autocrlf input` on your client.
@@ -388,7 +384,8 @@ doesn't unnecessarily appear on other people's calendars.
 1. Always use a single space between sentences rather than two.
 1. Read our [Documentation Styleguide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc_styleguide.md) for more information when writing documentation.
 
-### Beamy Guidelines<a name="beamy-guidelines"></a>
+### Beamy Guidelines
+<a name="beamy-guidelines"></a>
 
 Beamy is our company conference call robot. It lives in the San Francisco Howard St. office.
 Its main purpose is to allow those outside of the office a view into the space and people.
@@ -408,20 +405,23 @@ Make sure it is charging, otherwise try again.
 * More info can be found at https://www.suitabletech.com/
 * Please report any questions or issues you have about the beam by @mentioning Emily in the #general channel.
 
-### Company phone number<a name="phone-number"></a>
+### Company phone number
+<a name="phone-number"></a>
 
 If you need to provide the details of GitLab's contact information you can take the [address of the office](https://about.gitlab.com/visiting/) for reference; or the [mailing address](https://about.gitlab.com/handbook/people-operations/#addresses) of the office in the Netherlands if that is more applicable.
 
 If a phone number is required, leave this field empty by default. If that is not possible, then use
 the general number (+1-415-761-1791), but be aware that this number simply guides to a voice message that refers the caller back to contacting us via email.
 
-## On-Call Rotation and Scheduling<a name="on-call"></a>
+## On-Call Rotation and Scheduling
+<a name="on-call"></a>
 
 We have on-call heroes (see the [team page](https://about.gitlab.com/team/)) to
 respond quickly to GitLab.com downtime, and customer emergencies. Details about the schedule
 and how to swap duty in the [PagerDuty](https://about.gitlab.com/handbook/support/pagerduty/) page.
 
-## Intellectual Property<a name="intellectual-property"></a>
+## Intellectual Property
+<a name="intellectual-property"></a>
 
 1. Take proper care of any **confidential** information you get from our customers.
 1. If you copy code always **check** the license and attribute when needed or appropriate.
@@ -431,7 +431,8 @@ and how to swap duty in the [PagerDuty](https://about.gitlab.com/handbook/suppor
 intellectual property violations
 1. Comply with the [GitLab Inc. Proprietary Information and Assignment Agreement](Proprietary Information and Assignment Agreement) and/or [GitLab B.V. NDA and IP Agreements](https://about.gitlab.com/handbook/contracts/#bv-nda-ip).
 
-## Spending Company Money<a name="spending-company-money"></a>
+## Spending Company Money
+<a name="spending-company-money"></a>
 
 In keeping with our values of results, freedom, efficiency, frugality, and boring solutions, we expect team members to take responsibility to determine what they need to purchase or expense in order to do their jobs effectively. We don't want you to have to wait with getting the items that you need to get your job done. You most likely know better than anyone else what the items are that you need to be successful in your job. The guidelines below describe what people in our team commonly expense.
 
@@ -482,7 +483,8 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
       * Max Expense Amount - 5,000 USD or 5,000 EUR
       * Receipt Required Amount - 25 USD or 25 EUR
 
-## Paid Time Off<a name="paid-time-off"></a>
+## Paid Time Off
+<a name="paid-time-off"></a>
 
 1. Don't frown on people taking time off, but rather encourage that people take care of themselves and others.
 1. Working hours are flexible, you are invited to the [team call](#team-call) if you are available, and we encourage you to post to the #working-on chat channel when you start your day so others can offer suggestions.
@@ -499,11 +501,13 @@ page for information on how to handle scheduled leave for someone from the [on-c
 1. We will **help** clients during official days off, unless they are official days off in both the Netherlands and the U.S. We try to have people working who are in a country that don't have an official day off. If you need to work during an official day off in your country, you should take a day off in return.
 1. If you have to respond to an incident while being on-call outside of your regular working hours, you should feel free to take off some time the following day to recover and be well-rested. If you feel pressure to _not_ take the time off to rest, refer to this part of the handbook and explain that you had to handle an incident.
 
-## Incentives<a name="incentives"></a>
+## Incentives
+<a name="incentives"></a>
 
 The following incentives are available for GitLab team members.
 
-### Sales Target Dinner Evangelism Reward<a name="sales-target-dinner"></a>
+### Sales Target Dinner Evangelism Reward
+<a name="sales-target-dinner"></a>
 
 Since reaching sales targets is a team effort that integrates everything from making a great product
 to providing top notch customer support and everything in between, we reward all
@@ -518,7 +522,8 @@ to each team member for the purpose of evangelizing the GitLab story.  You may u
 - If you cannot, or decide not to, use the incentive in the expected month, you can carry it over to the next month by notifying Accounts Payable before the 22nd of the month (release day!). You can only carry over one month in this way.
 
 
-### Discretionary Bonuses<a name="discretionary-bonuses"></a>
+### Discretionary Bonuses
+<a name="discretionary-bonuses"></a>
 
 1. Every now and then, individual team members really shine as they go above and beyond their regular responsibilities and tasks.
    * We recognize this through the #thanks channel, and sometimes also through a discretionary bonus.
@@ -529,7 +534,8 @@ to each team member for the purpose of evangelizing the GitLab story.  You may u
 1. If you think you are meeting the requirements for another title, want to change
 jobs within the company, or think your growth should be reflected in your compensation please feel free to discuss with your manager.
 
-### Referral Bonuses<a name="referral-bonuses"></a>
+### Referral Bonuses
+<a name="referral-bonuses"></a>
 
 Chances are that if you work at GitLab, you have great friends and peers who would
 also be fantastic additions to our [Team](https://about.gitlab.com/team/) and who
@@ -545,7 +551,8 @@ first 6 months of their hire, then you *also* get a $1,000 bonus.
 
 People Ops will [process](/handbook/people-operations/#referral-bonus) the bonus.
 
-### Work Remotely Travel Grant<a name="travel-grant"></a>
+### Work Remotely Travel Grant
+<a name="travel-grant"></a>
 
 GitLab is a [remote-first company](http://zachholman.com/posts/remote-first/) with team members all over the world (see the map on our [Team page](https://about.gitlab.com/team/) ). If you want to visit a colleague in another part of the world, or promote GitLab at events in another country, then present your travel plan to your manager or the CEO, and you can receive *up to* $2,000 in support for your plan!
 
@@ -553,7 +560,8 @@ As an example, the first grant was handed to a team member who will be traveling
 
 To claim the approved award, include a line item on your expense report or invoice with the approval email as the receipt. The entire award can be claimed from the first month of travel to up to 3 months after the travel is completed.
 
-## Signing Legal Documents<a name="signing-legal-documents"></a>
+## Signing Legal Documents
+<a name="signing-legal-documents"></a>
 
 Only C-level executives can sign legal documents, with the exception of NDAs covering a physical visit of another organization.
 When working with legal agreements with vendors, consultants, and so forth, bear in mind the [signature authorization matrix](https://about.gitlab.com/handbook/finance/authorization-matrix/).
@@ -571,7 +579,8 @@ The process that "legal" (currently a combination of People Ops and Finance) wil
 1. Stage the document for signing in HelloSign and cc (at minimum) the requestor and `legal@`.
 1. Once signed, the person who staged it in HelloSign places the document in the contracts folder on Google Drive.
 
-## Working remotely<a name="working-remotely"></a>
+## Working remotely
+<a name="working-remotely"></a>
 
 Working remotely has a lot of advantages, but also a couple of challenges.
 The goal of this section is to provide information and tips to maximize the
@@ -603,13 +612,15 @@ well-rounded environment. The Coffee Break calls are different to the
 to have 1x1 calls with specific teammates you wish to speak with and is not a
 random, open-for-all channel but a conversation between two teammates.
 
-## Tools and Tips<a name="tools"></a>
+## Tools and Tips
+<a name="tools"></a>
 
 A lot of tools we use are described in the rest of the handbook (GitLab, Google
 Docs, Google Hangouts, 1Password, etc.). This section is for tools that don't
 fit anywhere else.
 
-### Calendly<a name="calendly"></a>
+### Calendly
+<a name="calendly"></a>
 
 [Calendly](https://calendly.com/) connects to your Google calendar so people can book a time with you without having a Google Account.
 
@@ -621,7 +632,8 @@ fit anywhere else.
 1. Update you availability on [Calendy Event Types](https://calendly.com/event_types/)
 1. Consider adding your Calendly link to your [Slack profile](https://get.slack.help/hc/en-us/articles/204092246-Editing-your-profile) For `Display Text`, use this line: `Schedule a meeting with me!` so team members can schedule a 1:1 call with you in GitLab, by simply click your Calendly link in your Slack profile.
 
-### Shush<a name="shush"></a>
+### Shush
+<a name="shush"></a>
 
 [$4.99 tool for OSX](http://mizage.com/shush/) that allows you to use you fn key as a push to talk or push to mute.
 Never again will you have switch window focus to Google Hangout or Blue Jeans to speak or mute.
@@ -705,11 +717,13 @@ You can use actions to make it public here
 
 BTW Trying to set this up via Google+ via [https://plus.google.com/hangouts/onair](Hangouts on Air) instead of via YouTube doesn't seem to connect to the right YouTube channel, even if you selected the right account on the top right.
 
-### One Tab<a name="one-tab"></a>
+### One Tab
+<a name="one-tab"></a>
 
 [One Tab](https://www.one-tab.com/) tames tabs into a list which can be sorted and exported.
 
-### Quitter<a name="quitter"></a>
+### Quitter
+<a name="quitter"></a>
 
 [Quitter](https://marco.org/apps) will switch off apps for you after some period of inactivity. Consider using this to hide Slack after a while to reduce your urge to check new messages all the time.
 
@@ -733,11 +747,13 @@ If you install [MobileDay](https://mobileday.com/) on your phone and give it acc
 
 If you are working on multiple GitLab instances and want to have a visual differentiation, you can change the default [Application theme](http://docs.gitlab.com/ce/profile/preferences.html#application-theme) to a different color.
 
-### Do NOT Use<a name="do-not-use"></a>
+### Do NOT Use
+<a name="do-not-use"></a>
 
 **Flash**: Due to security flaws, we strongly recommend _not_ using Adobe Flash. Certainly do not install it on your local machine. But even the Google Chrome plugin that let's you see embedded Flash content in websites can pose a security hazard. If you have not already, go to your [Chrome plugins](chrome://plugins) and disable Flash. For further context, note that [Google Chrome is removing Flash support soon](https://nakedsecurity.sophos.com/2016/05/18/yet-more-bad-news-for-flash-as-google-chrome-says-goodbye-sort-of/), and while the [plugin is better than a local install of Flash](http://security.stackexchange.com/questions/98117/should-flash-be-disabled-or-are-sandboxes-secure-enough), it still leaves vulnerabilities for [zero-day attacks](http://www.pctools.com/security-news/zero-day-vulnerability/).
 
-## Using Git to update this website<a name="starting-with-git"></a>
+## Using Git to update this website
+<a name="starting-with-git"></a>
 
 For more information about using Git and GitLab see [GitLab University](https://university.gitlab.com/).
 
