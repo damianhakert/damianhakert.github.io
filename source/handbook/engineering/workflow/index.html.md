@@ -29,8 +29,9 @@ In teams, the team is responsible for this (see below).
 For larger issues or issues that contain many different moving parts,
 you'll be likely working in a team. This team will typically consist of a 
 [backend developer](https://about.gitlab.com/jobs/developer/), a 
-[frontend developer](https://about.gitlab.com/jobs/frontend-engineer) and a
-[UX designer](https://about.gitlab.com/jobs/ux-designer/).
+[frontend developer](https://about.gitlab.com/jobs/frontend-engineer/), a
+[UX designer](https://about.gitlab.com/jobs/ux-designer/) and a
+[product manager](https://about.gitlab.com/jobs/product-manager/).
 
 1. Teams have a shared responsibility to ship the issue in the planned release.
     1. If the team suspects that they might not be able to ship something in
