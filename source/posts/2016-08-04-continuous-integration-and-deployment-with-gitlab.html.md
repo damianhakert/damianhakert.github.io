@@ -3,9 +3,9 @@ title: "Continuous Integration and Deployment with GitLab" # anyone with a bette
 author: Marcia Ramos
 author_twitter: XMDRamos
 categories: GitLab
-image_title:  # to be added
+image_title: '/images/blogimages/continuous-integration-and-deployment-with-gitlab-cover.png'
 description: "CI, CD and Container Registry: all built-in GitLab" # to be improved
-twitter_image:  # to be added
+twitter_image: '/images/tweets/continuous-integration-and-deployment-with-gitlab.png'
 ---
 
 Can you imagine having **Continuous Integration**, **Continuous Deployment**
