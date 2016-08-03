@@ -84,7 +84,7 @@ with Git and the GitLab workflow.
     > team, just a little something about your background and of course
     > something on what you like to do in your spare time.
     >
-    > Here is some swag credit you can use in our [swag store](https://gitlab.mybrightsites.com/) to celebrate your arrival!
+    > Here is some swag credit you can use in our swag store (https://gitlab.mybrightsites.com/) to celebrate your arrival!
     >
     > Swag codes: [Enter 2 swag codes]
     >
