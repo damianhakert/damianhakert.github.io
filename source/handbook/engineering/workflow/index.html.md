@@ -22,7 +22,7 @@ to ship with the milestone that is has. If you are not able to do this,
 you have to communicate this early.
 In teams, the team is responsible for this (see below).
 
-[priority-issues]: https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&sort=priority&state=opened&utf8=%E2%9C%93&milestone_title=%23upcoming&label-name=
+[priority-issues]: https://gitlab.com/groups/gitlab-org/issues?scope=all&sort=priority&state=opened&milestone_title=%23upcoming&assignee_id=0
 
 ## Working in Teams
 
