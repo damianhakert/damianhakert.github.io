@@ -1363,16 +1363,16 @@
   story:  |
           Joining August 1st
 
-- name: A.G
-  locality:
-  country:
+- name: Arihant Godha
+  locality: Mumbai
+  country: India
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
   reports_to: Support Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: arihant.png
+  twitter: arihantar
+  gitlab: arihantar
   story:  |
-          Joining August 1st
+          Arihant is passionate about automating the boring parts of work life and likes to write small and useful ruby scripts. He loves interacting with people and solving problems. He also enjoys playing with his kid and likes social outings.
 
 - name: J.C
   locality:
