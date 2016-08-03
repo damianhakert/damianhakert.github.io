@@ -122,3 +122,9 @@
   description: /jobs/open-application/
   apply: https://gitlab.workable.com/jobs/298091
   open: true
+
+- title: "Business Development Representative - Outbound"
+  description: /jobs/business-development-representative-outbound/
+  apply: 
+  open: true
+  
