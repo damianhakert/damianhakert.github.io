@@ -1,13 +1,13 @@
 ---
-title: "Make It Easier to Become a Fan"
+title: "Building a Culture People Love"
 author: Sid Sijbrandij
 author_twitter: sytses
 categories: GitLab
 image_title: '/images/unsplash/million_downloads.jpg'
-description: "Five principles that make it easier to become a fan"
+description: "Five principles that make it easier for people to love your company culture"
 ---
 
-We were very pleased and surprised to see [this recent article](https://www.b.agilob.net/choose-gitlab-for-your-next-project/) pop up
+We were very pleased and surprised to see [this article](https://www.b.agilob.net/choose-gitlab-for-your-next-project/) pop up
 (thanks, agilob!) as well as [this one](https://news.ycombinator.com/item?id=11091980),
 [this one](https://news.ycombinator.com/item?id=11095652), and
 [this one](https://news.ycombinator.com/item?id=11091577) that all arrived on
@@ -17,7 +17,7 @@ a lot of loyal fans (many of whom are also contributors).
 
 While there’s no magic formula for getting people to like you, we think that
 some of it has to do with the values embedded in your company culture.
-This post is going to outline the principles that we think probably make it
+This post is going to outline the principles that we think make it
 easier for people to become fans. Please feel free to translate this back to
 your own company culture in whatever form makes sense.
 
