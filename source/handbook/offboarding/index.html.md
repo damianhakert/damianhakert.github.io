@@ -32,6 +32,7 @@ Create issue for former team member on the dev server in the [organization issue
    1. [x] _not relevant_ People Ops: Add new team member to the next monthly GitLab 101 call
    1. [ ] People Ops: Remove team member from Team Call Agenda and re-arrange the days on which team members speak in the Team Call Agenda.
    1. [ ] Manager: Add entry to Team Call agenda to announce departure of team member: 'X is no longer with GitLab'.
+   1. [ ] PeopleOps: Remove former team member from the next Retro meeting and the Kickoff meeting that's scheduled and save for all events in the future.
 1. [ ] People Ops: Remove team member from [team page](https://about.gitlab.com/team). Don't forget to remove the profile picture.
 1. [ ] People Ops: Remove team member from phishing testing platform
 1. [x] _not relevant_ People Ops: Check if new team member indicated who they were referred by.
@@ -76,6 +77,8 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [x] _not relevant_ New team member: Access BambooHR, set a secure password and fill out any missing details of your profile; specifically your address, phone number(s), and emergency contact information. Make sure to add the country code to phone numbers (i.e. all numbers should start with `+`).
 1. [x] _not relevant_ New team member: Set up [Calendly](https://about.gitlab.com/handbook/#calendly) and add your Calendly link to your Slack profile.
 
+## FROM ONBOARDING'S "WITHIN FIRST WEEK"
+
 1. [ ] People Ops: Remove from Beamy
 1. [x] _not relevant_ People Ops: Order [business cards](https://about.gitlab.com/handbook/people-operations/#b-cards) for new team member.
 1. [ ] People Ops: [Remove team member](https://about.gitlab.com/handbook/people-operations/#add-expensify) from Expensify (if employee).
@@ -93,18 +96,60 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 ### FOR ENGINEERING ONLY (Devs, PEs, SEs)
 
-1. [ ] Robert/Jacob V: Remove former team members' GitLab.com account from the [gitlab-org group](https://gitlab.com/groups/gitlab-org/group_members) (if applicable)
+1. [ ] Robert/Jacob V: Remove former team members' GitLab.com account from the [gitlab-org group](https://gitlab.com/groups/gitlab-org/group_members)
 1. [ ] Robert/Jacob V: Remove former team members' GitHub.com account from the [gitlabhq organization](https://github.com/orgs/gitlabhq/people) (if applicable)
 1. [ ] Robert/Jacob V: Check former team members' project-level permissions and remove them as-needed.
 1. [ ] For former Production Engineering team members: Hiring manager: add relevant topics from the [sysadmin onboarding checklist](https://dev.gitlab.org/cookbooks/chef-repo/blob/master/doc/onboard-new-sysadmin.md) for offboarding action.
-1. [ ] PeopleOps: Remove former team member from the next Retro meeting and the Kickoff meeting that's scheduled and save for all events in the future.
 1. [x] _not relevant_ For Developer team members: Read the [developer documentation](http://docs.gitlab.com/ce/development/README.html).
+1. [ ] Hiring Manager: Remove access to PagerDuty.
 
 #### FOR SERVICE ENGINEERING ONLY
 
-1. [ ] Manager: Remove access to ZenDesk (Service Engineering Only) - Follow the [ZD guide to removing agents](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents)
-1. [ ] Manager: Remove moderator status from [GitLab Forum](https://forum.gitlab.com/) account (Service Engineering Only)
-1. [ ] Manager: Remove access to PagerDuty.
+1. [ ] Patricio/Robert/Jacob V: Remove former team member's GitLab.com admin account.
+1. [ ] Patricio/Ernst: Remove access from Tweetdeck for [at]gitlabstatus and [at]gitlab.
+1. [ ] Jose/Patricio: Remove access to ZenDesk (Service Engineering Only) - Follow the [ZD guide to removing agents](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents).
+1. [x] _not relevant_ New team member: Comment with a screenshot verifying Jose/Drew: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
+1. [ ] Jose/Axil: Remove team member from "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
+1. [ ] Jose: remove from support team call
+1. [x] _not relevant, already addressed_ Jose: use the "GitLab Email Forwarding" google doc to request that the new team member is added to the alias for the support team.
+1. [x] _not relevant_ New team member: Create new account for the [GitLab community forum](https://forum.gitlab.com/) using the sign in with GitLab option and mention the username used.
+1. [x] _not relevant_ New team member: Lodge an issue on the [infrastructure team project](https://gitlab.com/gitlab-com/infrastructure/issues/new) requesting the creation of a VM instance.
+
+#### FOR UX DESIGNERS, FRONTEND DEVS, AND DESIGNERS ONLY
+
+1. [x] _not relevant_ New team member: get the [Pixelmator app](https://itunes.apple.com/us/app/pixelmator/id407963104?mt=12&ign-mpt=uo%3D4) and expense it.
+1. [ ] People Ops: cancel [SketchApp](http://www.sketchapp.com/) license (?).
+1. [ ] People Ops: (for Designers only, not UX Designers) remove access to [Adobe Creative Cloud](https://www.adobe.com/creativecloud.html) using the shared credential in the Secretarial vault.
+1. [ ] Hiring Manager: (for UX Designers) remove former team member's Master access to the gitlab-design project.
+
+### FOR MARKETING ONLY
+
+1. [ ] Patricio/Amara: Remove from Tweetdeck.
+
+### FOR SALES AND FINANCE ONLY
+
+1. [ ] Finance: Remove from Comerica (as user or viewer only if in Finance)
+1. [ ] Finance: Remove from [QuickBooks users](https://about.gitlab.com/handbook/hiring/) (finance only)
+1. [ ] Finance: revoke company credit card (for all sales team members who are employees)
+1. [ ] People Ops: If credit card holder, remove from expense report calendar reminder
+1. [ ] Hiring Manager: Remove from sales meeting.
+1. [ ] Hiring Manager: Remove from [Recurly](https://app.recurly.com/login)
+1. [ ] Hiring Manager: Remove from  [Salesforce]
+1. [x] _not relevant_ New team member: Ask a colleague if they can do a screenshare the next time they process an order using Recurly and Salesforce.
+1. [x] _not relevant_ Sales Manager: Grant access to the [Sales Folder](https://drive.google.com/drive/u/0/#shared-with-me) in our Google Docs. In this folder, familiarize yourself with:
+1. [x] _not relevant_ New team member: In the [Sales Folder](https://drive.google.com/drive/u/0/#shared-with-me), familiarize yourself with
+  1. [Our Sales Process](https://docs.google.com/document/d/1F0vXw58ctLfk9LKrh35kOSjYvdah4skGGUt46l1-4GM/edit)
+  1. [Our Sales Agenda](https://docs.google.com/document/d/1l1ecVjKAJY67Zk28CYFiepHAFzvMNu9yDUYVSQmlTmU/edit)
+  1. [The Sales Sheet](https://docs.google.com/spreadsheets/d/1755SblMccalWXSahspOrfzBwjGp4F8TkwlB8dOXCGlU/edit#gid=11) - add any targets to the Target tab
+  1. Competition https://about.gitlab.com/comparison/
+  1. [Our Sales Communication Guide](https://docs.google.com/document/d/1IMDzTj3hZrnsA417z9Ye7WBa8yLkWxGzaLZNJ3O_nVA/edit#heading=h.3nffcmsbeqo7)
+1. [ ] New team member: familiarize yourself with the [Support](https://about.gitlab.com/handbook/support/) process.
+1. [ ] New team member: familiarize yourself with [giving a GitLab demo](https://about.gitlab.com/handbook/demo/)
+
+
+
+
+
 
 1. [ ] Manager: offer option to send a message to everyone in the company (i.e. forwarded by the manager), for a farewell message and/or to transmit their personal email address in case people wish to stay in touch.
 1. [ ] Manager: Announce in general chat channel 'X is no longer with GitLab'
@@ -116,12 +161,6 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] Manager: Remove access to SalesForce.
 1. [ ] Manager: Remove access to Recurly.
 1. [ ] Manager: Remove access to Netsuite.
-
-
-
-
-
-
 1. [ ] @wilson: Remove access to company credit card.
 1. [ ] People Ops: Remove from Beamy
 1. [ ] Ernst/Paul: Remove team member from HelloSign, if applicable.
