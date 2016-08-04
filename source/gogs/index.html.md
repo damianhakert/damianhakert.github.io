@@ -36,13 +36,9 @@ Both tools share the following features and capabilities:
 - Webhooks
 
 ## Feature Overview
-Gogs has a few main advantages as a light-weight Git Service, prominent of which are its **low CPU consumption** and **low memory consumption**. 
-It also offers Git hooks. This makes Gogs most suitable for those looking for a Git service that is strong on low system resources yet still 
-providing the core functionality you would expect from a light-weight Git service. Gogs is a great Git service for the smallers teams with lower 
-resouces at hand and a low number of devs collaborating together.
-
-Because GitLab is a more feature-rich Git service it offers more features than those available with Gogs. It's worth noting that the Gogs community
-is currently working on some of the features mentioned below. Here are some of those features:
+GitLab is optimized for feature richness. Most of it is written in Ruby on Rails and it has has over [1000 non-unique dependencies](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/Gemfile). 
+The disadvantage is the it has higher [system requirements](http://docs.gitlab.com/ce/install/requirements.html). The advantage is that it offers many more features which are listed below. 
+Here are some of those features:
 
 ### LDAP
 1. **Two-Factor authentication**
