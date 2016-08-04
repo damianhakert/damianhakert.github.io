@@ -188,7 +188,7 @@ database specific protocol instead of DRBD. In the documentation for
 each database you can find out more about the [options for MySQL]
 and the [options for PostgreSQL].
 
-### GitLab GEO
+## GitLab GEO
 
 Since the [release of version 8.5], GitLab GEO allows you to have a remote
 replica of your entire GitLab instance. This consists of a master server
@@ -197,7 +197,7 @@ where you can only read Git repositories. This is for example useful when you
 have a large number of people or CI tools cloning repositories and your wide
 area network (WAN) doesn't have the capacity or availability for this. Please
 contact our sales people for more information, and see our
-[technical documentation][geo] for more details.
+[technical documentation][geo] for more details. You can't fail over to this server.
 
 ## Please get in touch
 
