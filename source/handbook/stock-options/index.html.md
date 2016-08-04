@@ -200,10 +200,7 @@ NSOs are treated much less favorably under tax law because they can be given to 
 don’t work at GitLab. This complicates the tax law and is beyond the current scope of this
 document.
 
-For our employees based in the Netherlands, the Dutch taxing authority has a similar concept in that
-only the difference between the exercise price and the fair market value is considered taxable.  So if
-you exercise early there is no difference between the two and therefore no taxable gain.
-Again, the decision to exercise early should be done in consultation with your tax advisor.
+For our employees based in the Netherlands, the Dutch taxing authority has a similar concept in that only the difference between the exercise price and the fair market value is considered taxable. So if you exercise early there is no difference between the two and therefore no taxable gain. With respect to tax reporting, you report the difference between fair market value at exercise and the exercise price. So if there is no difference between the two, nothing needs to be reported. Once you have exercised options, then you will need to speak with your tax advisor about how to report them for the purposes of Dutch wealth tax. Again the Company is not in a position to offer tax or legal advice around early exercising or tax reporting, so check with your own tax and financial advisors.
 
 Anyone is always welcome to ask our CFO any questions they have about their options,
  GitLab’s fundraising, or anything else related to equity at GitLab. However, everyone should
