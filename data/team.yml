@@ -1341,16 +1341,18 @@
           Nick fell in love with his newest tool for doing so - GitLab! His free
           time is spent dancing, skating, and running.
 
-- name: R.F
-  locality:
-  country:
+- name: Régis Freyd
+  locality: Montréal
+  country: Québec
   role: <a href="https://about.gitlab.com/jobs/product-manager/">Product Manager</a>
   reports_to: Vice President of Product
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: regis.jpg
+  twitter: djaiss
+  gitlab: regisF
   story:  |
-          Joining August 1st
+          Based in Canada, Regis has always been a product guy with a strong
+          interest in development and design. When he's not coding or playing
+          with his daughter, he enjoys training for triathlon.
 
 - name: J.P
   locality:
