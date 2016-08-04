@@ -396,6 +396,31 @@ iframe {
   }
 }
 
+.gitlab-com-panel {
+  height: 100%;
+
+  .panel-body {
+    position: relative;
+
+    @media (min-width: $screen-md-min) {
+      height: 100%;
+      padding-bottom: 100px;
+    }
+  }
+
+  @media (min-width: $screen-md-min) {
+    .btns {
+      position: absolute;
+      bottom: 70px;
+
+      b {
+        display: inline-block;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
 // scss-lint:disable SelectorFormat
 .a2a_default_style {
   margin-top: 10px;

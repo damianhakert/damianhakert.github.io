@@ -25,8 +25,7 @@ title: "Getting Help for GitLab"
 
 ## GitLab.com Support
 
-* [GitLab.com](https://about.gitlab.com/gitlab-com/) users can use the [GitLab.com Support Tracker](https://gitlab.com/gitlab-com/support-forum/issues) to report issues and bugs if they do not have a [GitLab.com Bronze Support package](https://about.gitlab.com/gitlab-com/).
-* To order Bronze Support, [contact sales](https://about.gitlab.com/sales/)
+* [GitLab.com](https://about.gitlab.com/gitlab-com/) users can use the [GitLab.com Support Tracker](https://gitlab.com/gitlab-com/support-forum/issues) to report issues and bugs if they do not have a [Premium Support subscription](https://about.gitlab.com/pricing/#gitlab-ee).
 
 ## Feature Proposals
 * Submit feature proposals on the issue tracker for
