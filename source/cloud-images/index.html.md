@@ -81,9 +81,9 @@ If an omnibus package has been uploaded - maintenance won’t be necessary for v
 - Creating a new image:
   - Create a new instance and choose the Ubuntu AMI
   - Install GitLab-ee or GitLab-ce via omnibus (change to the appropriate version CE/EE in the commands below):
-    - 'curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash'
-    - 'sudo apt-get install gitlab-ce'
-    - 'gitlab-ctl reconfigure'
+    - `curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash`
+    - `sudo apt-get install gitlab-ce`
+    - `gitlab-ctl reconfigure`
   - [Create the new AMI from this instance](http://docs.aws.amazon.com/AWSToolkitVS/latest/UserGuide/tkv-create-ami-from-instance.html)
     - Make the AMI public, change the properties in the console when you right click on this AMI
 
