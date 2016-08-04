@@ -98,6 +98,10 @@
   picture: griffin.png
   human: reb
   story: I may be a loaner-beagle, but that doesn't stop me from pulling at my leash.
+- name: Fifille and Lola
+  picture: fifille_lola.jpg
+  human: chriscool
+  story: Fifille and Lola are very fearful guinea pigs, unless you approach them with cucumber slices.
 - name: You?
   picture: ../logo-extra-whitespace.png
   story:  |
