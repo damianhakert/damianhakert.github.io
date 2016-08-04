@@ -210,6 +210,16 @@ Anyone is always welcome to ask our CFO any questions they have about their opti
  also consult a lawyer before making important financial decisions, especially regarding
  their equity because there are complex legal and tax requirements that may apply.
 
+## Stock option grant levels
+
+|Level|Number of Options|
+|----|----:|
+|Sr. Director|15,000|
+|Director|10,000|
+|Sr. Manager|5,000|
+|Manager / Lead / Individual contributor|2,000|
+
+
 ## References
 
-Our team member Drew Blessing [wrote about what he learned about stock options](http://blessing.io/startups/stock-options/2016/02/15/navigating-your-stock-options.html) after starting to research them because he received them when joining us. His article is grealy appreciated but GitLab Inc. does not endorse it, any advise is his.
+Our team member Drew Blessing [wrote about what he learned about stock options](http://blessing.io/startups/stock-options/2016/02/15/navigating-your-stock-options.html) after starting to research them because he received them when joining us. His article is greatly appreciated but GitLab Inc. does not endorse it, any advise is his.
