@@ -8,7 +8,7 @@ description: "Migrating from GitHub to GitLab and setting up your own GitLab ins
 twitter_image: '/images/tweets/moving-to-gitlab-yes-its-worth-it.png'
 ---
 
-**Note:** This post is a customer story on the benefits of migrating from GitHub to GitLab, by Fabio Akita, a Brazilian rubyst.
+**Note:** This post is a customer story on the benefits of migrating from GitHub to GitLab, by Fabio Akita, a Brazilian Rubyist.
 {: .note}
 
 I started [evangelizing Git in 2007][evang]. It was a very tough sell to make at the time.
