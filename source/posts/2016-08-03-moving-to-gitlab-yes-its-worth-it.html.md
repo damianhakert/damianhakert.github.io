@@ -1,5 +1,5 @@
 ---
-title: "Moving to Gitlab! Yes, it's worth it!"
+title: "Moving to GitLab! Yes, it's worth it!"
 author: Fabio Akita
 author_twitter: AkitaOnRails
 categories: technical overview
@@ -523,43 +523,41 @@ _**Note:** this article was originally posted by [AkitaOnRails]._
 <!-- identifiers -->
 
 [AkitaOnRails]: http://www.akitaonrails.com/2016/08/03/moving-to-gitlab-yes-it-s-worth-it
-[evang]: http://www.akitaonrails.com/2007/9/22/jogar-pedra-em-gato-morto-por-que-subversion-no-presta
-[gitorious]: https://gitorious.org/gitorious/oboxodo-gitorious?p=gitorious:oboxodo-gitorious.git;a=search;h=9f6bdf5887c65a440bc3fdc43a14652f42ddf103;s=Fabio+Akita;st=committer
-[gh-fund]: https://www.crunchbase.com/organization/github#/entity
-[gl]: https://about.gitlab.com/
-[gl-fund]: https://www.crunchbase.com/organization/gitlab-com#/entity
-[comm-graph]: https://github.com/gitlabhq/gitlabhq/graphs/contributors?from=2015-03-14&to=2016-08-02&type=c
-[gh-prices]: https://github.com/blog/2164-introducing-unlimited-private-repositories
-[runner]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner
-[do-inst]: https://www.digitalocean.com/features/one-click-apps/gitlab/
-[documentation]: https://about.gitlab.com/installation/
-[omni-auth]: http://docs.gitlab.com/ee/integration/omniauth.html
-[vars]: https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/files/gitlab-cookbooks/gitlab/attributes/default.rb#L57
-[override]: https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/settings/environment-variables.md
-[douglas]: https://gitlab.com/u/dbalexandre
-[gabriel]: https://gitlab.com/u/brodock
-[conf]: http://www.rubyconf.com.br/pt-BR/speakers#Gabriel%20Gon%C3%A7alves%20Nunes%20Mazetto
-[do-ub]: https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04
-[locale]: http://askubuntu.com/questions/162391/how-do-i-fix-my-locale-issue
-[inst-gl-run]: https://about.gitlab.com/2016/04/19/how-to-set-up-gitlab-runner-on-digitalocean/
-[auto-scaling]: https://about.gitlab.com/2016/03/29/gitlab-runner-1-1-released/
-[GitLab.com]: https://gitlab.com/users/sign_in
-[doc-runner]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/autoscaling.md#prepare-the-docker-registry-and-cache-server
-[Minio]: https://github.com/minio/minio
-[bucket]: http://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html
-[do-tok]: https://cloud.digitalocean.com/settings/api/tokens
 [auto-sc-doc]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/configuration/autoscale.md
+[auto-scaling]: https://about.gitlab.com/2016/03/29/gitlab-runner-1-1-released/
+[bucket]: http://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html
+[ce]: https://gitlab.com/gitlab-org/gitlab-ce
 [codeminer]: http://www.codeminer42.com/
+[comm-graph]: https://github.com/gitlabhq/gitlabhq/graphs/contributors?from=2015-03-14&to=2016-08-02&type=c
+[conf]: http://www.rubyconf.com.br/pt-BR/speakers#Gabriel%20Gon%C3%A7alves%20Nunes%20Mazetto
+[do-inst]: https://www.digitalocean.com/features/one-click-apps/gitlab/
+[do-tok]: https://cloud.digitalocean.com/settings/api/tokens
+[do-ub]: https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04
+[doc-runner]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/autoscaling.md#prepare-the-docker-registry-and-cache-server
 [Docker image]: https://hub.docker.com/r/codeminer42/ci-ruby/
 [docker-conf]: http://www.rubyconf.com.br/pt-BR/speakers#Paulo%20Diovani%20Gon%C3%A7alves
+[documentation]: https://about.gitlab.com/installation/
+[douglas]: https://gitlab.com/u/dbalexandre
+[evang]: http://www.akitaonrails.com/2007/9/22/jogar-pedra-em-gato-morto-por-que-subversion-no-presta
+[gabriel]: https://gitlab.com/u/brodock
+[gh-fund]: https://www.crunchbase.com/organization/github#/entity
+[gh-prices]: https://github.com/blog/2164-introducing-unlimited-private-repositories
 [Git flows]: https://about.gitlab.com/2014/09/29/gitlab-flow/
+[GitLab.com]: https://gitlab.com/users/sign_in
+[gitorious]: https://gitorious.org/gitorious/oboxodo-gitorious?p=gitorious:oboxodo-gitorious.git;a=search;h=9f6bdf5887c65a440bc3fdc43a14652f42ddf103;s=Fabio+Akita;st=committer
+[gl-fund]: https://www.crunchbase.com/organization/gitlab-com#/entity
 [gl-issues]: https://gitlab.com/gitlab-org/gitlab-ce/issues
-
-
-[ce]: https://gitlab.com/gitlab-org/gitlab-ce
-[shell]: https://gitlab.com/gitlab-org/gitlab-shell
-[run]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner
+[gl]: https://about.gitlab.com/
+[inst-gl-run]: https://about.gitlab.com/2016/04/19/how-to-set-up-gitlab-runner-on-digitalocean/
+[locale]: http://askubuntu.com/questions/162391/how-do-i-fix-my-locale-issue
+[Minio]: https://github.com/minio/minio
 [omn]: https://gitlab.com/gitlab-org/omnibus-gitlab
+[omni-auth]: http://docs.gitlab.com/ee/integration/omniauth.html
+[override]: https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/settings/environment-variables.md
+[run]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner
+[runner]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner
+[shell]: https://gitlab.com/gitlab-org/gitlab-shell
+[vars]: https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/files/gitlab-cookbooks/gitlab/attributes/default.rb#L57
 
 <style>
   img {
