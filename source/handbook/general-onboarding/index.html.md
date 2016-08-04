@@ -219,10 +219,10 @@ and then ping @rspeicher to confirm your account. You can find this (and other) 
 
 ### FOR PEOPLE OPS ONLY
 
-* [ ] Manager: Add team member to applicable email addresses, ex. jobs@gitlab.com 
+* [ ] Manager: Add team member to applicable email addresses, ex. jobs@gitlab.com
 * [ ] People Ops: Add team member to BambooHR and Workable as an admin.
-* [ ] Manager: Add team member to TriNet and HR Savvy as an admin. 
-* [ ] People Ops: Invite team member to People Ops Confidential channel in Slack. 
+* [ ] Manager: Add team member to TriNet and HR Savvy as an admin.
+* [ ] People Ops: Invite team member to People Ops Confidential channel in Slack.
 
 ```
 
@@ -235,9 +235,11 @@ Please update this list as more steps arise.
 * The first month at a remote first company is hard, especially if you have not worked remote before and/or if you're unfamiliar with the tools used (mainly GitLab, chat, and video calling). If you feel lonely feel free to schedule 1 on 1 video calls to get to know people. If you need help with the tools ask people for help. If you don't know who to ask for help use the #questions chat channel. If you're not happy please let your manager know so we can take action.
 * We've set up a monthly GitLab 101 call to explain our history and have some time for Q&A.
 * We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https://www.google.com/docs/about/) and [dev.gitlab.org](https://dev.gitlab.org) to communicate.
+* You will automatically have access to general channels on Slack. Your manager and other team members will invite you to the channels you need to you be in to do your job.
 * Check out our [about page](https://about.gitlab.com/about/), [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/).
 * Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
 * Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
+* If you need any help with Git itself, subscribe to the `#git-help` channel on Slack and feel free to ask any question you might have.
 * Read our [Team Handbook](https://about.gitlab.com/handbook/)
 * Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/)
 * Be aware your google calendar (tied to your GitLab account) is internally viewable by default, you might want to [change this](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en) in your calendar settings.
