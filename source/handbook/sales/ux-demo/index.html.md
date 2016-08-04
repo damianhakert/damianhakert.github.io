@@ -85,13 +85,7 @@ The first step is to install GitLab itself. Since we have a Docker image, it's r
 
 #### Setup [#19839](https://gitlab.com/gitlab-org/gitlab-ce/issues/19839)
 
-> *Steps:*
->
-> Add text to README:
->
->> This is going to be great!
-
-Now that we've got GitLab running, let's open it up and create a new user for me, and a new project to start off with. Let's call it Velociraptor. Now a project isn't very good without a README, is it? Let's go create one while we're here.
+Now that we've got GitLab running, let's open it up and create a new user for me, and a new project to start off with. Let's call it Velociraptor.
 
 #### Chat [#19838](https://gitlab.com/gitlab-org/gitlab-ce/issues/19838)
 
@@ -116,23 +110,58 @@ As a team lead or manager, I'd go to the Issue Board. Since this is our first ti
 
 #### Online IDE [#19953](https://gitlab.com/gitlab-org/gitlab-ce/issues/19953)
 
-Now as a developer on the team seeing the issue in the sprint view, I decide to pick it up. I'll drag it to Doing first and then click through. I'll assign the issue to myself to let the team know that it's claimed. Then let's kick off Koding to write code directly in Koding's sweet online IDE; using the full power of a development environment that happens to be running in the cloud.
+> *Hidden Steps:*
+>
+>* `mkdir velociraptor; cd velociraptor; git init .; cp ~/kubernetes-example/.gitlab-ci.yml .; cp ~/kubernetes-example/.dockerignore .; cd`
 
-Since this is a new project, it's a nearly blank repo. But of course my fictitious company has boilerplate starter applications I can copy, so I'll start from there.
+Now as a developer on the team seeing the issue in the sprint view, I decide to pick it up. I'll drag it to Doing first and then click through. I'll assign the issue to myself to let the team know that it's claimed.
 
-And then there's the new idea itself. I'll just paste this in to save some time. Great, now we're done. If I got stuck, I could turn on "Start Collaboration", share the link, and someone else on my team could peer program with me.
+Now let's get coding! Back to the project view, I see that the project is completely empty, but here are some suggestions to get started. A project isn't very good without a README, is it? Let's go create one. Type in some very helpful information...
+
+> *This is going to be great!*
+
+Then commit. Great, our first change!
+
+Editing one file at a time through this UI could get a bit tedious. How about we kick off Koding to write code directly in Koding's sweet online IDE; using the full power of a development environment that happens to be running in the cloud.
+
+Here we go, an integrated development environment, running in the cloud. It even has a full terminal, so we can run all those CLI tasks a developer needs.
+
+Since this is a new project, there's no real code yet. But of course my fictitious company has a boilerplate starter application I can copy, so I'll start from there.
+
+>* `cd velociraptor`
+>* `cp -R ~/kubernetes-example/* .`
+>* `git add .`
+>* `git commit`
+>* `git push origin master`
+
+And then there's the new idea itself. Let's create a new branch. I'll just copy the new logo over...
+
+>* `cp ~/logo.svg public`
+
+Great, that was pretty simple, but If I get stuck, I can turn on "Start Collaboration", share the link, and someone else on my team could peer program with me.
 
 #### Review with Koding
 
-Also, Koding isn't just an IDE. It's a full development environment. That means I can run anything from the command line that I would do on my laptop. Let's go ahead and run this app we just created. We'll install all the required modules. Now start up the web server. Great, now let's look at the app. Pretty exciting, isn't it? Even better, any other developer on the team could do the same thing, starting where I left off. It can also be used to show the running app to other team members such as product managers that need to review the results without caring about the code itself.
+Now, Koding isn't just an editor. It's a full development environment. That means I can run anything from the command line that I would do on my laptop. Let's go ahead and run this app we just created.
+
+>* `npm install`
+>* `npm start`
+
+We'll install all the required modules. Now start up the web server. Great, now go to the IP address of this server and take a look at the app. Beautiful, isn't it?
 
 #### Merge Request
 
-So everything looks good, let's check in our changes and push them back to GitLab. Now let's switch back to GitLab. Here we see it's detected the new branch and offered to create a Merge Request for us, how nice of it. Let's go ahead and do that, creating the merge request. It knows by the branch name that it closes issue #1 and adds that message automatically. Let's add a message and save this.
+So everything looks good, let's check in our changes and push them back to GitLab.
 
-#### Test with GitLab CI
+>* `git checkout -b 1-add-new-logo`
+>* `git commit -am "Add new logo"`
+>* `git push origin 1-add-new-logo`
 
-There's one more thing we need to do to this project, and that's to configure CI. Luckily GitLab provides a bunch of templates to get us started. Let's pick the one for our language and go ahead and save it to our merge request branch. GitLab detects the configuration and starts running CI right away. It's kicked off a pipeline of automated processes to build, test, and optionally deploy that change. Let’s follow the progress.
+Now let's switch back to GitLab. Here we see it's detected the new branch and offered to create a Merge Request for us, how nice of it. Let's go ahead and do that, creating the merge request. It knows by the branch name that it closes issue #1 and adds that message automatically. Let's save this.
+
+#### *Test with GitLab CI*
+
+*There's one more thing we need to do to this project, and that's to configure CI. Luckily GitLab provides a bunch of templates to get us started. Let's pick the one for our language and go ahead and save it to our merge request branch. GitLab detects the configuration and starts running CI right away.* It's kicked off a pipeline of automated processes to build, test, and optionally deploy that change. Let’s follow the progress.
 
 #### Test Stage
 
@@ -149,6 +178,9 @@ Let’s take a quick trip over to the [container registry](https://gitlab.com/gi
 #### Peer Review
 
 Going back to the Merge Request, we could ask for another developer on the team to review it. They can see the exact code that has changed, comment on it, and we'd see a thread of the discussion, as well as get an email notification, of course.
+
+Even better, any other developer on the team could do the same thing, starting where I left off. It can also be used to show the running app to other team members such as product managers that need to review the results without caring about the code itself.
+
 
 #### Manual Deploy to Development
 
