@@ -66,7 +66,7 @@ So let's make the math for a year's worth of service. First considering no GitHu
 USD 5,400 (**GitHub**) + USD 5,868 (**Travis**) = **USD 11,268 a year**.
 {: .alert .alert-danger}
 
-Now, the GitLab + GitLab Runner + Digital Ocean for the same features and unlimited users, unlimited repositores, unlimited concurrent builds:
+Now, the GitLab + GitLab Runner + Digital Ocean for the same features and unlimited users, unlimited repositories, unlimited concurrent builds:
 
 USD 480 (**GitLab**) + USD 840 (**Runner box**) = **USD 1,320 a year**.
 {: .alert .alert-success}
@@ -198,7 +198,7 @@ The import procedure from GitHub is quite complete, it brings not only the git r
 
 But I'd recommend waiting for at least version 8.11 (it's currently 8.10.3) before trying to import large GitHub projects.
 
-If you're on Bitbucket, unfortunatelly there are less features in the importer. It will mostly just bring the source code. So be aware of that if you extensively depend on their pull request system and you want to preserve this history. More feature will come and you can even help them out, they are very resourceful and willing to make GitLab better.
+If you're on Bitbucket, unfortunately there are less features in the importer. It will mostly just bring the source code. So be aware of that if you extensively depend on their pull request system and you want to preserve this history. More feature will come and you can even help them out, they are very resourceful and willing to make GitLab better.
 
 ## Side-track: Customizations for every Digital Ocean box
 
@@ -502,7 +502,7 @@ The math is hard to argue against: the GitLab + GitLab CI + Digital Ocean combo 
 
 We can use all the [Git flows] we're used to.
 
-**GitLab CE** is stil a work in progress though, the team is increasing their pace but there are currently more than [4,200 open issues][gl-issues]. But as this is all Ruby on Rails and Ruby tooling, you can easily jump in and contribute. No contribution is too small. Just by reporting how to reproduce a bug is help enough to assist the developers to figure out how to improve faster.
+**GitLab CE** is still a work in progress though, the team is increasing their pace but there are currently more than [4,200 open issues][gl-issues]. But as this is all Ruby on Rails and Ruby tooling, you can easily jump in and contribute. No contribution is too small. Just by reporting how to reproduce a bug is help enough to assist the developers to figure out how to improve faster.
 
 But don't shy away because of the open issues, it's fully functional as of right now and I have not found any bugs that could be considered show stoppers.
 
@@ -510,7 +510,7 @@ They have many things right. First of all, it's a "simple" Ruby on Rails project
 
 The APIs are all written using Grape. They have the [GitLab CE][ce] project separated from other components, such as the [GitLab Shell][shell] and [GitLab CI Multi-Runner][run].
 
-They also forked [Omnibus][omn] in order to be able to package the CE Rails project as a ".deb". Everything is orchestrated with Docker. And when a new version is available, you only need to `apt-get update && apt-get ugprade` and it will do all the work of backing up and migratind Postgresql, updating the code, bundling in new dependencies, restarting the services and so forth. It's super convenient and you should take a look at this project if you have complicated Rails deployments into your own infrastructure (out of Heroku, for example).
+They also forked [Omnibus][omn] in order to be able to package the CE Rails project as a ".deb". Everything is orchestrated with Docker. And when a new version is available, you only need to `apt-get update && apt-get ugprade` and it will do all the work of backing up and migrating Postgresql, updating the code, bundling in new dependencies, restarting the services and so forth. It's super convenient and you should take a look at this project if you have complicated Rails deployments into your own infrastructure (out of Heroku, for example).
 
 I am almost done moving hundreds of repositories from both BitBucket and GitHub to GitLab right now and the developers from my company are already using it in a daily basis without any problems. We are almost at the point where we can disengage from BitBucket, GitHub and external CIs.
 
@@ -531,7 +531,7 @@ _**Note:** this article was originally posted by [AkitaOnRails]._
 [comm-graph]: https://github.com/gitlabhq/gitlabhq/graphs/contributors?from=2015-03-14&to=2016-08-02&type=c
 [conf]: http://www.rubyconf.com.br/pt-BR/speakers#Gabriel%20Gon%C3%A7alves%20Nunes%20Mazetto
 [do-inst]: https://www.digitalocean.com/features/one-click-apps/gitlab/
-[do-tok]: https://cloud.digitalocean.com/settings/api/tokens
+[do-tok]: https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-api-v2
 [do-ub]: https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04
 [doc-runner]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/install/autoscaling.md#prepare-the-docker-registry-and-cache-server
 [Docker image]: https://hub.docker.com/r/codeminer42/ci-ruby/
@@ -558,11 +558,3 @@ _**Note:** this article was originally posted by [AkitaOnRails]._
 [runner]: https://gitlab.com/gitlab-org/gitlab-ci-multi-runner
 [shell]: https://gitlab.com/gitlab-org/gitlab-shell
 [vars]: https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/files/gitlab-cookbooks/gitlab/attributes/default.rb#L57
-
-<style>
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-</style>
