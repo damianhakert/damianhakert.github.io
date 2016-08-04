@@ -91,7 +91,7 @@ If an omnibus package has been uploaded - maintenance won’t be necessary for v
 - Manage the account and details on the [publisher portal](https://publish.windowsazure.com/), choose 'Personal' account
 to continue the login.
 - Once logged in, you can view the images and the marketing information for the account there
-- [How to publish an offer to the Azure Marketplace](https://azure.microsoft.com/en-us/documentation/articles/marketplace-publishing-getting-started/
+- [How to publish an offer to the Azure Marketplace](https://azure.microsoft.com/en-us/documentation/articles/marketplace-publishing-getting-started/)
 1. Create the image:
     - [General non-technical prerequisites](https://azure.microsoft.com/en-us/documentation/articles/marketplace-publishing-pre-requisites/)
     - [VM image technical prerequisites](https://azure.microsoft.com/en-us/documentation/articles/marketplace-publishing-vm-image-creation-prerequisites/)
