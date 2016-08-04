@@ -21,7 +21,7 @@ I always knew that we should have a "local" option, which is why I tried to [con
 
 GitHub itself raised [USD 350 million in funding][gh-fund] and one of its required goals is to nail the Enterprise Edition for big corporations that don't want their data outside their closed gardens. Although GitHub hosts every single open source project out there, they are themselves closed-source.
 
-[GitLab Inc.][GL] started differently with an open source-first approach with their Community Edition (CE) and having both a GitHub-like hosted option as well as a supported Enteprise Edition for fearsome corporations. They already raised [USD 5.62 million in funding][gl-fund], and they are the most promising alternative to GitHub so far.
+[GitLab Inc.][GL] started differently with an open source-first approach with their Community Edition (CE) and having both a GitHub-like hosted option as well as a supported Enterprise Edition for fearsome corporations. They already raised [USD 5.62 million in funding][gl-fund], and they are the most promising alternative to GitHub so far.
 
 <!-- more -->
 
@@ -78,7 +78,7 @@ For the worst case scenario, compare it when **GitHub** decides to enforce the n
 USD 10,560 (**GitHub new plans**) + USD 5,868 (**Travis**) = **USD 16,428**
 {: .alert .alert-danger}
 
-Now the **GitLab** option is **11x cheaper**! You're **saving almost USD 15,000 a year!** This is not something you can ignore in you cost sheet.
+Now the **GitLab** option is **11x cheaper**! You're **saving almost USD 15,000 a year!** This is not something you can ignore in your cost sheet.
 {: .alert .alert-success}
 
 As I said, the calculations above are only significant in a scenario of a 100 developers. You must do your own math taking into account your team size and number of active projects (you can always archive unused projects).
