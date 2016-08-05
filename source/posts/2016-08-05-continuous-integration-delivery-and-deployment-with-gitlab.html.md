@@ -15,34 +15,56 @@ within the same web interface? With **GitLab**, you can!
 After a brief introduction to these topics,
 and a short walk through of some use-cases for these development practices, we'll present you
 with a **video** illustrating the capability of going **from idea to production faster** with
-GitLab. Check how you can easily deploy your app automatically from GitLab to, for example, Docker Cloud.
+GitLab. Check how you can easily deploy your app automatically from GitLab to Docker Cloud.
 
 <!-- more -->
 
 ## Continuous Integration
 
-**[Continuous Integration][ci]** is a software development practice in which you build and test software
+**[Continuous Integration][ci]** is a software development practice in which you **build and test** software
 every time a developer pushes code to the application, and it happens several times a day.
+
+Continuous Integration = TEST - BUILT
+{: .alert .alert-warning .yellow}
 
 For example, our developers, as well as our community and [core contributors][core], push code to [GitLab CE][ce-repo]
 and [GitLab EE][ee-repo] every day, multiple times per day.
-For every commit, we use [GitLab CI] to test and build our software. We run unit tests to make sure
+For every commit, we use [GitLab CI] to **test and build** our software. We run unit tests to make sure
 some change didn't break other parts of the software. [Every push triggers multiple tests][ce-pipes],
 making it easier to identify where the error is, when a test happens to fail.
-But we do not deploy to production often, making both GitLab CE and EE cases
-of Continuous Integration only.
+But we **do not deploy to production often**, making both GitLab CE and EE cases
+of **Continuous Integration** only.
 
 ## Continuous Delivery
 
 **[Continuous Delivery][cd]** is a software engineering approach in which **continuous integration**, **automated
 testing**, and **automated deployment** capabilities allow software to be developed and [deployed rapidly],
-reliably and repeatedly with minimal human intervention. Still, the deployment to production is defined strategically,
-and triggered manually, even though the rest of the deploy is automatic.
+reliably and repeatedly with minimal human intervention. Still, the **deployment to production** is defined strategically
+and **triggered manually**.
+
+Continuous Delivery = TEST - BUILT - <i class="fa fa-hand-pointer-o" aria-hidden="true" style="color: rgb(252,109,38) !important;"></i> - DEPLOY
+{: .alert .alert-warning .yellow}
 
 [Mozilla Firefox][moz] and [Envato] are good examples of Continuous Delivery. They both get their product
-deployed to production as soon as it's ready with as little human intervention as possible.
+**deployed to production** as soon as it's ready with as little human intervention as possible.
 
-### Challenges
+## Continuous Deployment
+
+**[Continuous Deployment][cdp]** is a software development practice in which every code change goes through
+the entire pipeline and is put **into production automatically**, resulting in many production
+deployments every day. It does everything that Continuous Delivery does, but the process is fully automated,
+there's **no human intervention at all**.
+
+Continuous Deployment = TEST - BUILT - <i class="fa fa-cogs" aria-hidden="true" style="color: rgb(252,109,38) !important"></i> - DEPLOY
+{: .alert .alert-warning .yellow}
+
+For example, our website [about.GitLab.com], is **continuously deployed**. We commit multiple times a day to
+feature-branches, and every push triggers a [parallel][doc-stages] **test and build**. Every time we merge to the
+`master` branch (and we do that a lot, every day), the code is tested, built, and **deployed to
+the production** [environment][env], passing through the entire [pipeline][com-pipe].
+There's **no further manual action** that triggers the deployment: it is an automated process, controlled by GitLab CI.
+
+## Challenges
 
 [Perforce performed a study][perforce] that revealed that most of the companies surveyed are using Continuous
 Delivery methods to ship their products.
@@ -58,33 +80,20 @@ For non-SaaS companies, it’s getting **automation technologies to integrate**.
 {: .alert .alert-success}
 
 Well, with GitLab, you have all of this, **fully-integrated into one single UI**. From [GitLab 8.10] on,
-you can [perform Manual Actions] and manually deploy your application with the click of a button,
+you can [perform Manual Actions][manual] and manually deploy your application with the click of a button,
 making Continuous Delivery easier than ever. Take a look.
 
-Deploy to staging:
+You can manually **deploy** to staging:
 
 ![Continuous Delivery - deploy to staging]{: .shadow}
 
-Deploy to production:
+You can also manually **deploy** to production:
 
 ![Continuous Delivery - deploy to production]{: .shadow}
 
-Rollback to the previous state with a click of a button:
+And you are free to **rollback** to the previous state with the click of a button:
 
 ![Continuous Delivery - rollback]{: .shadow}
-
-## Continuous Deployment
-
-**[Continuous Deployment][cdp]** is a software development practice in which every code change goes through
-the entire pipeline and is put **into production immediately**, resulting in many production
-deployments every day. It does everything that Continuous Delivery does, but the process is fully automated,
-there's no human intervention at all.
-
-For example, our website [about.GitLab.com], is **continuously deployed**. We commit multiple times a day to
-feature-branches, and every push triggers a [parallel][doc-stages] test and build. Every time we merge to the
-`master` branch (and we do that a lot, every day), the code is **tested**, **built**, and **deployed** to
-the production [environment][env], passing through the entire [pipeline][com-pipe].
-There's no further manual action that triggers the deployment: it is an automated process, controlled by GitLab CI.
 
 ## From idea to production with GitLab
 
@@ -133,14 +142,11 @@ There's a [complete overview][idea-to-prod] on this demo in our Handbook, in cas
 
 ## Conclusion
 
-> _It's easy to confuse Continuous Delivery and Continuous Deployment, and even get them backwards. Continuous
-Delivery is about "delivering to the user", so obviously that means fully automated deployment to production.
-And "doesn't deploying to staging count as continuous deployment?" But these terms were defined a few years back,
-and it's best to stick with them. However, for this and other reasons, most people just use the shortcut "CD"
-to mean the whole thing. The difference between the two is mostly cultural rather than tooling anyway. E.g.,
-most CD tools support fully automated and manually triggered deployment flows.
-It's up to you and your company how you use them._ - Says [Mark Pundsack], our Head of Product at GitLab.
-{: .justify}
+The terms Continuous **Delivery** and Continuous **Deployment** are confusing, but now hopefully you
+understand the difference between them. The goal is pushing code frequently, and having it tested,
+built, and deployed. If you prefer having the human decision before deploying to production, GitLab
+allows you to do that with [Manual Actions][manual]. If you want a fully-automated process, with GitLab you
+can do that too. Whatever strategy your company chooses, GitLab does the job, and does it well!
 
 Our development team works hard to offer the best solution on modern software development tools and techniques. We ship a new
 version once a month, every 22nd, with more features and improvements, for making development faster and better.
@@ -183,11 +189,11 @@ Follow [@GitLab] on Twitter and stay tuned for updates!
 [handbook-post]: /2016/07/12/our-handbook-is-open-source-heres-why/
 [handbook]: /handbook/
 [idea-to-prod]: /handbook/sales/idea-to-production/
+[manual]: /2016/07/22/gitlab-8-10-released/#manual-actions-to-trigger-pipeline-jobs
 [Mark Pundsack]: https://twitter.com/MarkPundsack
 [mark-pipes]: https://gitlab.com/gitlab-examples/docker-cloud/pipelines
 [moz]: https://quality.mozilla.org/2014/10/continuous-delivery-a-generic-plan/
 [perforce]: https://www.perforce.com/company/newsletter/2014/02/continuous-delivery-new-normal-software-development
-[perform Manual Actions]: /2016/07/22/gitlab-8-10-released/#manual-actions-to-trigger-pipeline-jobs
 [registry-doc]: http://docs.gitlab.com/ce/administration/container_registry.html
 [SaaS]: https://en.wikipedia.org/wiki/Software_as_a_service
 [youtube]: https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg
@@ -206,5 +212,10 @@ ul.list-icons {
 }
 .justify {
   text-align: justify;
+}
+.yellow {
+  color: rgb(138,109,59) !important;
+  font-weight: bold;
+  text-align: center;
 }
 </style>
