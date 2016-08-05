@@ -80,7 +80,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
     > We're looking forward to seeing you on our daily Team Call! The first time
     > that you join, please make sure that you connect at least 10 minutes
     > before the call and make sure that your camera and microphone are working
-    > properly. We'd like you to introduce yourself to the team so please
+    > properly. We'd like you to introduce yourself to the team (±1 minute), so please
     > prepare some talking points for yourself. Some tips to help you out here:
     > tell us about where you were before GitLab, why you wanted to join our
     > team, just a little something about your background and of course
