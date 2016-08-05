@@ -6,6 +6,7 @@ categories: GitLab
 image_title: '/images/blogimages/feature-highlight-set-dates-for-issues/gitlab-milestones-cover.png'
 twitter_image: '/images/blogimages/feature-highlight-set-dates-for-issues/gitlab-milestones-cover.png'
 description: "Feature Highlight: Learn how you can leverage issue due dates and milestones to help manage your projects with GitLab."
+date: 2016-08-05 10:00:00
 ---
 
 GitLab has a powerful issue tracker that completely integrates into the GitLab workflow. Our team uses our issue tracker for almost everything, including projects that contain no code. We believe that if anything is significant enough to work on then [it deserves an issue](/handbook/#gitlab-workflow). Before GitLab 8.7, there was no way to communicate that you needed a specific issue to be completed by a specified time. While we had the ability to add milestones to issues and merge requests, there was no way to say "I am working on X and I need to have it completed by Y date." So in GitLab 8.7 we added the ability to set due dates on an issue.
