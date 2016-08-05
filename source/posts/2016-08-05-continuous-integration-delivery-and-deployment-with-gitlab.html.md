@@ -1,5 +1,6 @@
 ---
 title: "Continuous Integration, Delivery, and Deployment with GitLab"
+date: 2016-08-05 15:00:00
 author: Marcia Ramos
 author_twitter: XMDRamos
 categories: GitLab
@@ -8,13 +9,13 @@ description: "CI/CD: faster from idea to production with GitLab!"
 twitter_image: '/images/tweets/continuous-integration-delivery-and-deployment-with-gitlab.png'
 ---
 
-Can you imagine having **Continuous Integration**, **Continuous Delivery**, **Continuous Deployment**
-and **Container Registry** within the same web interface? With **GitLab**, you can!
+Can you imagine having **Continuous Integration**, **Continuous Delivery**, and **Continuous Deployment**
+within the same web interface? With **GitLab**, you can!
 
 After a brief introduction to these topics,
 and a short walk through of some use-cases for these development practices, we'll present you
 with a **video** illustrating the capability of going **from idea to production faster** with
-GitLab. Check how you can easily deploy automatically your app from GitLab to Docker Cloud, for example.
+GitLab. Check how you can easily deploy your app automatically from GitLab to, for example, Docker Cloud.
 
 <!-- more -->
 
@@ -23,14 +24,10 @@ GitLab. Check how you can easily deploy automatically your app from GitLab to Do
 **[Continuous Integration][ci]** is a software development practice in which you build and test software
 every time a developer pushes code to the application, and it happens several times a day.
 
-[GitLab.com] is our [SaaS]. It's 100% free to use by anyone or any team. It runs on [GitLab EE],
-our single-tenant premium product. [GitLab CE] is our free on-premises product:
-anyone can download and install it in their chosen server.
-
-Our developers, as well as our community and [core contributors][core], push code to [GitLab CE][ce-repo]
+For example, our developers, as well as our community and [core contributors][core], push code to [GitLab CE][ce-repo]
 and [GitLab EE][ee-repo] every day, multiple times per day.
-From every commit, we use [GitLab CI] to test and build our software. We run unit tests to make sure
-some changes didn't break other parts of the software. [Every push triggers multiple tests][ce-pipes],
+For every commit, we use [GitLab CI] to test and build our software. We run unit tests to make sure
+some change didn't break other parts of the software. [Every push triggers multiple tests][ce-pipes],
 making it easier to identify where the error is, when a test happens to fail.
 But we do not deploy to production often, making both GitLab CE and EE cases
 of Continuous Integration only.
@@ -39,11 +36,13 @@ of Continuous Integration only.
 
 **[Continuous Delivery][cd]** is a software engineering approach in which **continuous integration**, **automated
 testing**, and **automated deployment** capabilities allow software to be developed and [deployed rapidly],
-reliably and repeatedly with minimal human intervention. Still, the deployment is defined strategically
-and pushed manually to the production stage.
+reliably and repeatedly with minimal human intervention. Still, the deployment to production is defined strategically,
+and triggered manually, even though the rest of the deploy is automatic.
 
 [Mozilla Firefox][moz] and [Envato] are good examples of Continuous Delivery. They both get their product
 deployed to production as soon as it's ready with as little human intervention as possible.
+
+### Challenges
 
 [Perforce performed a study][perforce] that revealed that most of the companies surveyed are using Continuous
 Delivery methods to ship their products.
@@ -58,9 +57,9 @@ The answer was:
 For non-SaaS companies, it’s getting **automation technologies to integrate**.
 {: .alert .alert-success}
 
-Well, with GitLab, we have all of this technology, **fully-integrated into one single UI**. With [GitLab 8.10] on, you can
-actually [perform Manual Actions], and deploy manually your application with a click of a button, making Continuous Delivery
-easier than ever, take a look.
+Well, with GitLab, you have all of this, **fully-integrated into one single UI**. From [GitLab 8.10] on,
+you can [perform Manual Actions] and manually deploy your application with the click of a button,
+making Continuous Delivery easier than ever. Take a look.
 
 Deploy to staging:
 
@@ -77,22 +76,19 @@ Rollback to the previous state with a click of a button:
 ## Continuous Deployment
 
 **[Continuous Deployment][cdp]** is a software development practice in which every code change goes through
-the entire pipeline and is put **into production automatically**, resulting in many production
+the entire pipeline and is put **into production immediately**, resulting in many production
 deployments every day. It does everything that Continuous Delivery does, but the process is fully automated,
 there's no human intervention at all.
 
 For example, our website [about.GitLab.com], is **continuously deployed**. We commit multiple times a day to
-feature-branches, and every push triggers a [parallel][doc-stages] test and build. Therefore, every time we merge to the
+feature-branches, and every push triggers a [parallel][doc-stages] test and build. Every time we merge to the
 `master` branch (and we do that a lot, every day), the code is **tested**, **built**, and **deployed** to
 the production [environment][env], passing through the entire [pipeline][com-pipe].
 There's no further manual action that triggers the deployment: it is an automated process, controlled by GitLab CI.
 
-Other great examples of companies that adopted Continuous Deployment are [Flickr] and [Etsy].
-Both deploy multiple times a day.
-
 ## From idea to production with GitLab
 
-Our Head of Product, [Mark Pundsack], created a demonstration which illustrates an use-case of our built-in capabilities
+Our Head of Product, [Mark Pundsack], created a demonstration which illustrates our built-in capabilities
 with **GitLab CI**, **Continuous Deployment**, and **[Container Registry]** together, to develop **faster
 from idea to production**.
 
@@ -104,14 +100,14 @@ In his video, you can see how it's possible, within one single interface (GitLab
 - <i class="fa fa-terminal fa-fw" aria-hidden="true"></i> Run automated scripts (sequential or parallel)
    - Build, test **and deploy** to a **staging environment**
    - Preview the changes
-- <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Review the code and get it approved
+- <i class="fa fa-pencil-square-o fa-fw" aria-hidden="true"></i> Review the code and get it approved
 - <i class="fa fa-code-fork fa-fw" aria-hidden="true"></i> Merge the feature-branch into `master`
    - **Deploy** your changes **automatically** to a **production environment**
 - <i class="fa fa-undo fa-fw" aria-hidden="true"></i> Rollback if something goes wrong
 {: .list-icons}
 
 The most amazing thing is, you can track the entire process. Everything is
-fully-integrated with GitLab already, you don't need any other tools to deliver your software, nor jump
+fully-integrated with GitLab already; you don't need any other tools to deliver your software, nor jump
 between different applications and interfaces to track the process.
 
 The full spectrum is clearly visible: the issue, the commits to the merge request, the reviews, the builds, the tests,
@@ -137,13 +133,21 @@ There's a [complete overview][idea-to-prod] on this demo in our Handbook, in cas
 
 ## Conclusion
 
+> _It's easy to confuse Continuous Delivery and Continuous Deployment, and even get them backwards. Continuous
+Delivery is about "delivering to the user", so obviously that means fully automated deployment to production.
+And "doesn't deploying to staging count as continuous deployment?" But these terms were defined a few years back,
+and it's best to stick with them. However, for this and other reasons, most people just use the shortcut "CD"
+to mean the whole thing. The difference between the two is mostly cultural rather than tooling anyway. E.g.,
+most CD tools support fully automated and manually triggered deployment flows.
+It's up to you and your company how you use them._ - Says [Mark Pundsack], our Head of Product at GitLab.
+{: .justify}
+
 Our development team works hard to offer the best solution on modern software development tools and techniques. We ship a new
 version once a month, every 22nd, with more features and improvements, for making development faster and better.
 
 GitLab is unique: we go [from idea to production][direction] using one single interface that integrates all the tools we need!
 
 Follow [@GitLab] on Twitter and stay tuned for updates!
-
 
 <!-- identifiers -->
 
@@ -199,5 +203,8 @@ ul.list-icons li:nth-of-type(even) i {
 ul.list-icons {
   list-style-type: none;
   padding-left: 25px;
+}
+.justify {
+  text-align: justify;
 }
 </style>
