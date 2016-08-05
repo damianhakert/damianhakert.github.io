@@ -3,14 +3,17 @@ layout: markdown_page
 title: "UX Demo: Idea to Production"
 ---
 
-## Preamble
-{:.no_toc}
-
 This demonstration is designed to highlight GitLab’s open set of tools for the software development lifecycle, from idea to production, through chat, issues, planning, merge request, CI, and CD.
 
 ![](handbook/sales/lifecycle.png)
 
 We're going to start from scratch, creating a brand new GitLab installation.
+
+A [pre-recorded version](https://youtu.be/7QXhH4WGLfc) is available on YouTube.
+
+<iframe width="640" height="389" src="https://www.youtube.com/embed/7QXhH4WGLfc" frameborder="0" allowfullscreen></iframe>
+
+----
 
 ## Sections
 {:.no_toc}
@@ -237,6 +240,5 @@ This is great for team managers and high level managers looking to better unders
 So that's it. We've taken you on a little journey. In less than 20 minutes, we installed GitLab from scratch, taken an idea through issue tracking, planning with an issue board, coding in an IDE, committing to the repo, testing with continuous integration, reviewing with a merge request and a review app, deploying to staging with continuous deployment, deploying to production with ChatOps, and closing the feedback look with cycle analytics dashboard. Welcome to Gitlab.
 
 ## Todos
-* Add reviews apps
 * Add environment variables for production secrets
 * Remove redundancy, for example revisiting the container registry (currently needed while waiting for deploys)
