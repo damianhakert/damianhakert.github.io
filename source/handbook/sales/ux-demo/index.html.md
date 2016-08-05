@@ -218,15 +218,19 @@ Since we’re happy with the changes, let’s ship them to production! Looking a
 
 While we’re waiting, let’s go back to Environments. Clicking through on `staging`, we see a history of everything that has been deployed so far. This is great to see exactly what has been deployed, and also exactly when changes were deployed. There’s also an easy way to rollback to one of the previous deploys. That can be a life-saver in an emergency so you don’t have to wait to write a hotfix, wait for it to be tested again, etc.
 
-Our fix should be pretty much deployed to production by now. Let’s go back to Pipelines; yep, it’s been deployed. Check the chat log, yep, it's let everyone know the deploy has finished. Let’s check the environment; yep, we have a new environment for `production`, and it was deployed about a minute ago.
+Our fix should be pretty much deployed to production by now. Let’s go back to Pipelines; yep, it’s been deployed. Check the chat log, yep, it's let everyone know the deploy has finished. Let’s check the environment tag... Ok great, we now see this production environment shows up, and we see the deploy happened less than a minute ago. And it's got our master changes with our new logo, and everything is in sync!
 
-#### Production and Container Registry
+#### Production
 
-Now that everything is updated and our fix is deployed, we can now go to our website and verify that the fix is indeed deployed. If we want, we can also go to the Container Registry to see that the production image has been updated.
+Now let's head over to our production site and refresh. Now, there we go. We've got our new logo in it; in production. All the way from idea to production!
 
-#### Review the time from Idea to Production using Velocity Analytics [#18687](https://gitlab.com/gitlab-org/gitlab-ce/issues/18687)
+#### Review the cycle time from Idea to Production using Cycle Analytics [#18687](https://gitlab.com/gitlab-org/gitlab-ce/issues/18687)
 
-One final thing. Since the velocity of getting ideas to production is so important, GitLab has a built in dashboard that helps you track that velocity. Here we can see some metrics on the overall health of our project, and then a breakdown of average times spent in each stage on the way from idea to production. This is great for team managers or high level managers looking to better understand their company's velocity.
+One final thing. Since the cycle time of getting from idea to production is so important, GitLab has a built in dashboard that helps you track that. Clicking on Cycle Analytics, we can see some metrics on the overall health of our project, and then a breakdown of average times spent in each stage on the way from idea to production. This is great for team managers or high level managers looking to better understand their company's cycle time. It even includes stats for the last few features that made it into production. And you can drill down to each stage and see how those features looked. It's not so exciting yet, with only one feature shipped to production, but trust me, this is big.
+
+#### Summary
+
+So that's it. We've taken you on a little journey. In less than 20 minutes, we installed GitLab from scratch, taken an idea through issue tracking, planning with an issue board, coding in an IDE, committing to the repo, testing with continuous integration, reviewing with a merge request and a review app, deploying to staging with continuous deployment, deploying to production with ChatOps, and closing the feedback look with cycle analytics dashboard. Welcome to Gitlab.
 
 ## Todos
 * Add reviews apps
