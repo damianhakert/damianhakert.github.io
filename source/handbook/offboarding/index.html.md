@@ -113,7 +113,11 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 
 1. [ ] Patricio/Robert/Jacob V: Remove former team member's GitLab.com admin account.
 1. [ ] Patricio/Ernst: Remove access from Tweetdeck for [at]gitlabstatus and [at]gitlab.
-1. [ ] Jose/Drew: Remove access to ZenDesk (Service Engineering Only) - Follow the [ZD guide to removing agents](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents).
+1. [ ] ZenDesk [more information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2):
+   1. [ ] Jose/Drew: Remove any triggers related to the agent - https://gitlab.zendesk.com/agent/admin/triggers
+   1. [ ] Jose/Drew: Downgrade the agent role to "end-user" - [more information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#2)
+        + **Warning: This will unassign all tickets from the agent**
+   1. [ ] Jose/Drew: Schedule a date to suspend the agents account. [More information](https://support.zendesk.com/hc/en-us/articles/203661156-Best-practices-for-removing-agents#3)
 1. [x] _not relevant_ Jose/Drew: Add agent to required [support groups](https://support.zendesk.com/hc/en-us/articles/203661766-About-organizations-and-groups) in [GitLab ZenDesk](https://gitlab.zendesk.com).
 1. [ ] Jose/Axil: Remove team member from "moderators" group on the [GitLab community forum](https://forum.gitlab.com/).
 1. [ ] Jose: remove from support team call
