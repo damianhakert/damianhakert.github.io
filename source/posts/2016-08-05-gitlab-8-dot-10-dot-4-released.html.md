@@ -3,6 +3,7 @@ title: "GitLab 8.10.4 released"
 author: Rémy Coutable
 author_twitter: rymai
 categories: release
+date: 2016-08-05 09:00:00
 ---
 
 Today we are releasing version 8.10.4 for GitLab Community Edition (CE) and
