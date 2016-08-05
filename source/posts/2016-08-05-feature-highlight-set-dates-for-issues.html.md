@@ -4,7 +4,7 @@ author: Amanda Folson
 author_twitter: AmbassadorAwsum
 categories: GitLab
 image_title: '/images/blogimages/feature-highlight-set-dates-for-issues/gitlab-milestones-cover.png'
-twitter_image: '/images/blogimages/feature-highlight-set-dates-for-issues/gitlab-milestones-cover.png'
+twitter_image: '/images/blogimages/feature-highlight-set-dates-for-issues/feature-highlight-set-dates-for-issues.png'
 description: "Feature Highlight: Learn how you can leverage issue due dates and milestones to help manage your projects with GitLab."
 date: 2016-08-05 10:00:00
 ---
