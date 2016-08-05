@@ -223,11 +223,34 @@ You need to do 2 things:
 1. Follow the steps outlined in the section [Add an internal URL to the press
    releases archive manually](#add-an-internal-url-to-the-press-releases-archive-manually)
 
-### Add an external URL to the press releases archive manually
+### Add an existing URL to the press releases archive using the raketask
 
-By external, we mean a URL that is not under the `about.gitlab.com` domain
+1. Go to the root directory of `www-gitlab-com`
+1. Create a new branch: `git checkout -b press-release-branch`
+1. Run the following:
 
-### Add an internal URL to the press releases archive manually
+    ```
+    rake add_press
+    ```
+
+    You will be asked three questions, 1) the `date` of the press release in ISO
+    format, 2) the `title` of the press release, and 3) the URL of the press
+    release.
+
+    These data will be used to automatically populate `data/press.yml` with the
+    right information.
+
+1. Add the changed file and commit the changes:
+
+    ```
+    git add data
+    git commit -m "New press release"
+    git push origin press-release-branch
+    ```
+
+1. Create a new merge request.
+
+### Add an existing URL to the press releases archive manually
 
 To add an existing URL under `about.gitlab.com` in the press releases page,
 follow the steps below:

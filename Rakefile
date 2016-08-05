@@ -107,6 +107,27 @@ task :new_press, :title do |t, args|
   end
 end
 
+desc "Add an existing press release to the archive"
+task :add_press, :title do |t, args|
+  data_dir = File.expand_path('../data', __FILE__)
+
+  puts "Enter a date for the press release (ISO format, example: 2016-12-30): "
+  date = STDIN.gets.chomp
+  puts "Enter a title for the press release: "
+  title = STDIN.gets.chomp
+  puts "Enter the URL of the press release: "
+  link = STDIN.gets.chomp
+
+  press_yml = "#{data_dir}/press.yml"
+  puts "Populating data/press.yml"
+  open(press_yml, 'a') do |yaml|
+    yaml.puts ""
+    yaml.puts "- title: \"#{title}\""
+    yaml.puts "  link: #{link}"
+    yaml.puts "  date: #{date}"
+  end
+end
+
 desc 'Build the site in public/ (for deployment)'
 task :build do
   build_cmd = %W(middleman build --verbose)
