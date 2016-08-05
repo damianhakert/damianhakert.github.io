@@ -1450,3 +1450,14 @@
   gitlab:
   story:  |
           Joining September 1st
+
+- name: Dimitrie Hoekstra
+  locality: Breda
+  country: The Netherlands
+  role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
+  reports_to: UX Designer
+  picture: dimitrie.jpg
+  twitter: dimitrieh
+  gitlab: dimitrieh
+  story:  |
+          With a deep passion for design, a love for beautiful typography and an incredible enthusiasm for the open source community, Dimitrie strives to create elegant interfaces that delight the user. He has a background in 3D and an endless technical curiosity for new tools and software. When he's not working or online, he enjoys being with his friends and family, swimming, reading fantasy novels and playing board games. 
