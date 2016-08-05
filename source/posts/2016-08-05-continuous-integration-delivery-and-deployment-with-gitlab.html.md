@@ -24,10 +24,10 @@ GitLab. Check how you can easily deploy your app automatically from GitLab to Do
 **[Continuous Integration][ci]** is a software development practice in which you **build and test** software
 every time a developer pushes code to the application, and it happens several times a day.
 
-Continuous Integration = TEST - BUILT
+Continuous Integration: TEST - BUILD
 {: .alert .alert-warning .yellow}
 
-For example, our developers, as well as our community and [core contributors][core], push code to [GitLab CE][ce-repo]
+For example, our developers push code to [GitLab CE][ce-repo]
 and [GitLab EE][ee-repo] every day, multiple times per day.
 For every commit, we use [GitLab CI] to **test and build** our software. We run unit tests to make sure
 some change didn't break other parts of the software. [Every push triggers multiple tests][ce-pipes],
@@ -42,7 +42,7 @@ testing**, and **automated deployment** capabilities allow software to be develo
 reliably and repeatedly with minimal human intervention. Still, the **deployment to production** is defined strategically
 and **triggered manually**.
 
-Continuous Delivery = TEST - BUILT - <i class="fa fa-hand-pointer-o" aria-hidden="true" style="color: rgb(252,109,38) !important;"></i> - DEPLOY
+Continuous Delivery: TEST - BUILD - <i class="fa fa-hand-pointer-o" aria-hidden="true" style="color: rgb(252,109,38) !important;"></i> - DEPLOY
 {: .alert .alert-warning .yellow}
 
 [Mozilla Firefox][moz] and [Envato] are good examples of Continuous Delivery. They both get their product
@@ -55,7 +55,7 @@ the entire pipeline and is put **into production automatically**, resulting in m
 deployments every day. It does everything that Continuous Delivery does, but the process is fully automated,
 there's **no human intervention at all**.
 
-Continuous Deployment = TEST - BUILT - <i class="fa fa-cogs" aria-hidden="true" style="color: rgb(252,109,38) !important"></i> - DEPLOY
+Continuous Deployment: TEST - BUILD - <i class="fa fa-cogs" aria-hidden="true" style="color: rgb(252,109,38) !important"></i> - DEPLOY
 {: .alert .alert-warning .yellow}
 
 For example, our website [about.GitLab.com], is **continuously deployed**. We commit multiple times a day to
@@ -67,9 +67,17 @@ There's **no further manual action** that triggers the deployment: it is an auto
 ## Challenges
 
 [Perforce performed a study][perforce] that revealed that most of the companies surveyed are using Continuous
-Delivery methods to ship their products.
+Delivery methods to ship their products:
 
-They raised an interesting question:
+> _The [study] indicates that Continuous Delivery has really taken off: 65% say their companies have migrated at
+least one project/team to Continuous Delivery practices._
+>
+_80% of SaaS companies are doing Continuous Delivery, compared to 51% of non-SaaS companies (like boxed or on-premise software, embedded systems or hardware, industrial goods, etc.)_
+> 
+_Nearly everyone agrees on the vital role of the collaboration platform (version management, build automation, code review, etc.) in achieving Continuous Delivery. 96% said it’s important and 40% said it’s critical. No argument here._
+{: .justify}
+
+And they raised an interesting question:
 
 What’s the hardest thing about **Continuous Delivery**?
 {: .alert .alert-info}
@@ -170,7 +178,6 @@ Follow [@GitLab] on Twitter and stay tuned for updates!
 [Continuous Delivery - deploy to production]: /images/8_10/ci_manual2.png
 [Continuous Delivery - deploy to staging]: /images/8_10/ci_manual1.png
 [Continuous Delivery - rollback]: /images/blogimages/continuous-integration-delivery-and-deployment-with-gitlab-rollback.png
-[core]: /core-team/
 [deployed rapidly]: /2016/07/21/release-early-release-often/
 [direction]: /direction/cicd/
 [doc-stages]: http://docs.gitlab.com/ce/ci/yaml/README.html#stages
@@ -196,6 +203,7 @@ Follow [@GitLab] on Twitter and stay tuned for updates!
 [perforce]: https://www.perforce.com/company/newsletter/2014/02/continuous-delivery-new-normal-software-development
 [registry-doc]: http://docs.gitlab.com/ce/administration/container_registry.html
 [SaaS]: https://en.wikipedia.org/wiki/Software_as_a_service
+[study]: https://www.perforce.com/pdf/continuous-delivery-report.pdf
 [youtube]: https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg
 
 <style>
