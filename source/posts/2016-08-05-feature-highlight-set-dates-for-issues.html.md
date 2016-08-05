@@ -46,7 +46,7 @@ Once the milestone is created, you can add issues to it from any project. The mi
 
 At any time, you may also get an overview of a milestone's progress. This overview will show you how many issues are open, how many merge requests are open, and the percent of completion based off of completed tasks.
 
-![Create a milestone for projects under a group](/images/blogimages/feature-highlight-set-dates-for-issues/gitlab-milestone-progress.png){: .shadow}
+![Create a milestone for projects under a group](/images/blogimages/feature-highlight-set-dates-for-issues/gitlab-ce-milestones.png){: .shadow}
 
 ## At GitLab
 
