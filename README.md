@@ -175,17 +175,30 @@ Assuming you have cloned the repository, you have Ruby installed and have ran
 automatically:
 
 1. Go to the root directory of `www-gitlab-com`
-1. Run `rake new_press`.
+1. Create a new branch: `git checkout -b press-release-branch`
+1. Run the following:
 
-You will be asked two questions, 1) the `date` of the press release in ISO format,
-2) the `title` of the press release.
+    ```
+    rake new_press
+    ```
 
-These data will be used to automatically create a new file
-`source/press/releases/{date}-{title}.html.md` and will also populate `data/press.yml`
-with the right information.
+    You will be asked two questions, 1) the `date` of the press release in ISO
+    format, 2) the `title` of the press release.
 
-In the end, all you have to do is fill in the content of the press release file
-and submit your changes to GitLab with a merge request.
+    These data will be used to automatically create a new file
+    `source/press/releases/{date}-{title}.html.md` and will also populate
+    `data/press.yml` with the right information.
+
+1. Add content to the new press release file according to our [Markdown guide][md].
+1. Add the changed files and commit the changes:
+
+    ```
+    git add data press
+    git commit -m "New press release"
+    git push origin press-release-branch
+    ```
+
+1. Create a new merge request.
 
 #### Manually create a new press release page
 
