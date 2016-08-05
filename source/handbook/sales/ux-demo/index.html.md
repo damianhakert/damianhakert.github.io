@@ -226,7 +226,11 @@ Now let's head over to our production site and refresh. Now, there we go. We've 
 
 #### Review the cycle time from Idea to Production using Cycle Analytics [#18687](https://gitlab.com/gitlab-org/gitlab-ce/issues/18687)
 
-One final thing. Since the cycle time of getting from idea to production is so important, GitLab has a built in dashboard that helps you track that. Clicking on Cycle Analytics, we can see some metrics on the overall health of our project, and then a breakdown of average times spent in each stage on the way from idea to production. This is great for team managers or high level managers looking to better understand their company's cycle time. It even includes stats for the last few features that made it into production. And you can drill down to each stage and see how those features looked. It's not so exciting yet, with only one feature shipped to production, but trust me, this is big.
+One final thing. Since the cycle time of getting from idea to production is so important, GitLab has built a dashboard that helps you track that. Clicking on Cycle Analytics...
+
+Here we can see some metrics on the overall health of our project, and then a breakdown of average times spent in each stage on the way from idea to production. So far, we're doing amazingly well, with only 12 minutes for the complete release cycle.
+
+This is great for team managers and high level managers looking to better understand their company's release cycle time, which is key to staying competitive and responding to customers. It even includes stats for the last few features that made it into production. And you can drill down to each stage and see how those features looked. It's not so exciting yet, with only one feature shipped to production, but trust me, this is big.
 
 #### Summary
 
