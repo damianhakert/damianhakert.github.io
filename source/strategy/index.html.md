@@ -133,7 +133,7 @@ While we achieve our goals one by one this doesn't mean we will focus on only on
 
 ## Revenue 2016
 
-1. Triple ARR (Annual Recurring Revenue) in 2016&17&18, double it in 2019&20.
+1. Triple ARR (Annual Recurring Revenue) in 2016&17, double it in 2019&20 ([T2D3](https://techcrunch.com/2015/02/01/the-saas-travel-adventure/)).
 
 2. Enable sales to provide more effective product demonstrations, share use case stories and create custom solutions and proposals.
 
