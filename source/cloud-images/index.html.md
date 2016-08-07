@@ -15,6 +15,10 @@ Create a clear process, which outlines ownership throughout each sub-flow, with 
 - Omnibus team - Packing and maintaining
 - Partner Marketing team - Announcements and promotions
 
+**Due to lack of available resources in the packaging team, Eliran Mesika, Director 
+of Strategic Partnerships, will be the temporary maintainer of the available cloud images. Once hiring 
+will complete for the packaging team they will reinstate their ownership as maintainers of the images.**
+
 ### Project Building Blocks
 
 - Progress Tracking: GitLab issue
