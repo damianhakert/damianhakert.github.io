@@ -19,11 +19,12 @@ If you want to hire for a position please [make a job description](#vacancy-crea
 
 The CEO needs to authorize any new job positions/searches, and agree on the proposed hiring team.
 
+1. Define role and ask the [compensation committee](/handbook/people-operations/#compensation-committee) for compensation baselines / bands / guidelines. If the location of the applicant is important, then a compensation range corresponding to that location can be provided as part of the job posting.
 1. Define hiring team. Roles can be assigned fluidly (see below for the
    [Hiring Process](#hiring-process)), depending on who is available, bearing in
    mind that the most time-consuming aspect tends to be review of the first wave
    of applicants.
-1. Create the job description on our website; assign the merge request to the CEO as a way to obtain authorization.
+1. If there is not already a job description, create the job description on our website; assign the merge request to the CEO as a way to obtain authorization.
     1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`
        if it doesn't already exist.
     1. In the [`data/jobs.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) file, open the position or add a new entry for it. Positions are automatically sorted alphabetically by `title` on the [jobs page](/jobs/). When someone views the job's description page, an "Apply" button will be shown for that position if we're currently hiring for it.
@@ -89,9 +90,11 @@ Every first of the month, People Ops announces that we are hiring on [Hacker New
 
 **Send Calendly link of the next person in the process.** If you have decided to let the applicant move on to the next interview, save time by sending the next interviewer's Calendly link to the applicant. This saves the time that it would otherwise take for the next interviewer to get around to sending the link, and it thus works in everyone's benefit.
 
-**The CEO authorizes offers.** The hiring manager should propose a suggestion for an offer (including bonus structure if applicable, etc.) as an internal comment in Workable, but _not_ make the offer until the CEO explicitly authorizes this. The CEO authorizes offers by way of an internal comment in Workable of the form "You may offer X base comp, Y stock options, and the following bonus structure" depending on what is applicable. The hiring manager can then make the actual offer to the applicant. This may change if/when we have a [global compensation framework](/handbook/people-operations/#compensation-principles) in place.
+**Compensation is discussed at start and end, but not in between.** Compensation expectations are asked about during the [screening call](#screening-call). If the expectations seem unworkable to the hiring manager (based on what had been discussed with the compensation committee at the [creation of the vacancy](#vacancy-creation-process)), then the hiring manager can send a note (or ask People Ops to send a note) to the candidate explaining that the expectations are too far apart. If the expectations are aligned, then the topic of compensation should not re-surface until an [offer is discussed internally](#offer-authorization). Following this guideline avoids conflating technical and team interviews with contract discussions, and keeps the process flowing smoothly.
 
-The visibility of internal comments in Workable can be switched between hiring team _managers_ only, or _all_ members of the hiring team. Consider making comments that relate to compensation visible to hiring _managers_ only.
+**The CEO authorizes offers.** <a name="offer-authorization"></a>The hiring manager should propose a suggestion for an offer (including bonus structure if applicable, etc.) as an internal comment in Workable, but _not_ make the offer until the CEO explicitly authorizes this. The CEO authorizes offers by way of an internal comment in Workable of the form "You may offer X base comp, Y stock options, and the following bonus structure" depending on what is applicable. The hiring manager can then make the actual offer to the applicant. This may change if/when we have a [global compensation framework](/handbook/people-operations/#compensation-principles) in place.
+
+The visibility of internal comments in Workable can be switched between hiring team _managers_ only, or _all_ members of the hiring team. Comments that relate to compensation should be visible to hiring _managers_ only.
 
 
 ### Typical process
@@ -112,20 +115,20 @@ The visibility of internal comments in Workable can be switched between hiring t
 ### Rejecting applicants
 <a name="rejecting"></a>
 
-1. At any time during the hiring process the applicant can be rejected
+1. At any time during the hiring process the applicant can be rejected.
 1. The applicant should always be notified of this. The hiring manager is primarily
 responsible for this, but People Ops can help and does a weekly check-up in Workable.
 1. If the applicant asks for further feedback always offer frank feedback. This
-is hard, but it is part of our company values.
-    * All feedback should be constructive and said in a positive manner. Keep it short and sweet. 
-    * Feedback should always be applicable to the skill set of the position the candidate applied and interviewed for. 
-    * Feedback and rejection should not be based on soft skills. 
+is hard, but it is part of our [company values](/handbook/#values).
+    * All feedback should be constructive and said in a positive manner. Keep it short and sweet.
+    * Feedback should always be applicable to the skill set of the position the candidate applied and interviewed for.
+    * Feedback and rejection should not be based on soft skills.
     * If you feel uncomfortable providing feedback for whatever reason, reach out to People Ops for assistance.
-1. If the candidate is not hired, People Ops sends out an email to ask for feedback.
-There is a "gathering applicant feedback" template in Workable with these questions.
+1. TODO: If the candidate is not hired, People Ops sends out an email to ask for feedback.
+   * There is a "gathering applicant feedback" template in Workable with these questions.
 The feedback survey should be sent out about 3 days after the applicant has been
 notified of the rejection.
-1. PeopleOps will receive the feedback and will use this to improve the hiring process.
+   * PeopleOps will receive the feedback and will use this to improve the hiring process.
 
 ## Screening Call
 <a name="screening-call"></a>
