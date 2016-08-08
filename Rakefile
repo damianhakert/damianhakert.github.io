@@ -94,6 +94,7 @@ PDFS = %w{
   public/terms/print/gitlab_subscription_terms_sig.pdf
   public/high-availability/gitlab-ha.pdf
   public/features/gitlab-features.pdf
+  public/pdfs/the-eleven-rules-of-gitlab-flow.pdf
 }
 
 PDF_TEMPLATE = 'pdf_template.tex'
