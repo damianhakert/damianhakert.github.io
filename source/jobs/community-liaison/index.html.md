@@ -11,7 +11,7 @@ The Community Liaison reports to the VP of Engineering.
 * Monitor discussions, responds in a timely fashion where appropriate (or
   ensures relevant responders are “nudged” to respond)
 * Identify patterns or common issues reported by community
-* Fixes community-reported bugs when possible
+* Fixes community-reported bugs when possible (approximately 20% of the time)
 * Develop tools to consolidate and reduce duplicate issues
 * Create/manage the moderation and terms of use policies
 * Communicate important community concerns to the appropriate team
