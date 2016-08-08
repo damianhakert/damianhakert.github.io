@@ -588,12 +588,6 @@ specific matters are still being discussed and polished.
 [WIP MR]: http://docs.gitlab.com/ce/workflow/wip_merge_requests.html "Work In Progress Merge Request"
 [www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com/
 
-he `description` meta tag [is important][description-tag]
-for SEO, also is part of [Facebook Sharing] and [Twitter Cards]. We set it up in the [post frontmatter], as a small summary of what the post is about.
-
-It is mandatory for all the new posts, and it [has been included][MR-description] in the default post f
-
-
 <!-- Styles -->
 
 <style>
