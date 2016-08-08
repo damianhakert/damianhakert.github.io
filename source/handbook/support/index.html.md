@@ -379,6 +379,8 @@ the case.
 - [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues)
 - [Omnibus](https://gitlab.com/gitlab-org/omnibus-gitlab/issues)
 
+See [the issue triage policies](/handbook/engineering/issues/issue-triage-policies.html) for the above trackers for more information on how issues should be handled.
+
 ### Mailing list<a name="mailing-list"></a>
 
 Respond to questions on the [GitLab Mailing List](https://groups.google.com/forum/#!forum/gitlabhq).
