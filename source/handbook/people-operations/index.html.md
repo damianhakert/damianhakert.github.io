@@ -124,6 +124,11 @@ the current settings which show all the people and numbers that are alerted when
 number is dialed.
 - Add the new forwarding number (along with a name for the number), and click Save.
 
+## Dutch work permits
+
+Some of our GitLab team members in the Netherlands have a "werkvergunning" or work permit under the [highly skilled migrants](https://ind.nl/EN/business/employer/highly-skilled-migrants/Pages/default.aspx) category of the Immigration and Naturalization Service (IND). GitLab is a recognized organization ("erkend referrent") with the IND, and Savvy provides support with respect to applying for new visas / permits or extending existing ones. Work permits must be renewed at the end of each contract period, but at minimum once every 5 years. This should be taken into account when issuing a new contract, since these are typically for either one year or for an indefinite period. Here is a [generally helpful guide](http://www.expatica.com/nl/visas-and-permits/When-your-residence-permit-expires-or-you-want-to-leave-the-Netherlands_108416.html) on considerations around permit extensions, including [income requirements](https://www.ind.nl/en/individuals/employee/costs-income-requirements/Income-requirements) at the time of the extension.
+
+
 ## Paperwork people may need to obtain mortgage in the Netherlands
 <a name="dutch-mortgage"></a>
 
