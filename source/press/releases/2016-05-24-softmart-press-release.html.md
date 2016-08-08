@@ -1,6 +1,6 @@
  ---
  layout: markdown_page
- title: "GitLab adds Shanghai Information Technology Co. to Global Partnership Program"
+ title: "GitLab adds SoftMart, Ltd. to Global Partnership Program"
  ---
  
  San Francisco (May 24th, 2016) – Today, GitLab announced a partnership with SoftMart, Ltd., a leading authority on application lifecycle management, 
