@@ -290,7 +290,6 @@ Note for People Operations:<br>
 - the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
 [Contracts page](/handbook/contracts).
 - Onboarding info for the PeopleOps system, BambooHR, can be found on the [PeopleOps](/handbook/people-operations) page.
-- All information regarding compensation in Workable should be visible to hiring manager only.
 
 ## Closing a vacancy
 <a name="closing-vacancy"></a>
