@@ -246,11 +246,13 @@ The information is then entered into BambooHR (to track who has which piece of e
 1. Enter Asset Category, Asset Description, Serial Number, Asset Cost, and Date Loaned
 1. This process is repeated for each asset purchased
 
-### Managing the PeopleOps onboarding tasks
+### Managing the PeopleOps onboarding and offboarding tasks
 <a name="manage-onboarding-tasks"></a>
 
 Here are some useful guidelines to set up everything for our new team members with the onboarding issue.
 If Google Sheets or Docs are mentioned, these will be shared with you on Google Drive.
+
+#### Onboarding
 
 - **Add team member to availability calendar**
 Make a new "all-day" event on the day the new team member starts "[Name] joining
@@ -300,6 +302,14 @@ Add the team member's name to the Travel and Lodging Google sheets to make sure 
 Log into Egencia and go to the menu option "manage users". Choose "new user account" and fill in the passport name of the new team member.
 As username choose the same handle as on our dev domain. Enter the GitLab email address and uncheck the newsletter box.
 Lastly assign the department in which the new team member is working.
+
+#### Offboarding
+
+- **Remove a team member from Sundial**<a name="sundial-removal"></a>
+1. Log in to Sundial using the link in the "Private Sundial URL" Google Doc  
+1. Go to timezone view in the top right corner
+1. Hover over the team member's name that you want to remove
+1. Make sure you are in list view at this point, and then click the "x" to remove the team member
 
 ### Birthday Swag
 <a name="birthday-swag"></a>

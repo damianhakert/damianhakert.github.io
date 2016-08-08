@@ -95,7 +95,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [x] _not relevant_ New team member: Link your GitLab email address to an easily recognizable photo of yourself on [gravatar](https://en.gravatar.com/).
 1. [x] _not relevant, already addressed_ New team member: [Add yourself](https://about.gitlab.com/handbook/general-onboarding/#add-yourself-to-team-page) to the [team page](https://about.gitlab.com/team/)
 1. [x] _not relevant_ Amara: Send out or schedule a tweet about the new hire when the addition to the team page has been merged. Make screenshot of the profile and include that in the tweet.
-1. [ ] PeopleOps: Remove team member from the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://docs.google.com/a/gitlab.com/document/d/1U0ZYlKgX_VZVCKUozRYehRSiNquzIN1hg8B2RP19QCw/edit?usp=sharing).
+1. [ ] PeopleOps: Remove team member from the [public map](https://sundial.teleport.org/public/groups/Y3IahPR5vYjBpMyU2kZj) of everyone's location via [Sundial](https://about.gitlab.com/handbook/people-operations/#sundial-removal).
 1. [x] _not relevant_ New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
 1. [x] _not relevant_ New team member: Comment with a screenshot verifying that your hard drive is encrypted (`Command` + `Shift` + `3` on Mac).
 1. [x] _not relevant_ New team member: Make an improvement to the handbook (something that you wished was there).
@@ -155,12 +155,3 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 * [x] _not relevant, already handled_ People Ops: Invite team member to People Ops Confidential channel in Slack.
 
 ```
-
-## Tackling Offboarding Checklist
-
-### Remove a team member from Sundial
-
-1. Log in to Sundial using the link in the "Private Sundial URL" Google Doc  
-1. Go to timezone view in the top right corner
-1. Hover over the team member's name that you want to remove
-1. Make sure you are in list view at this point, and then click the "x" to remove the team member
