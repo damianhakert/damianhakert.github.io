@@ -10,7 +10,7 @@ After purchase of a Premium Support subscription is completed, the following ste
    - Email address of the primary contact person is mandatory
    - Domain name where email requests will come from is required for proper Zendesk routing
 - Sales sends the customer an email message with the [text contained here](premium_support_message.txt) so the customer knows what to expect.
-- Sales opens a [confdential issue in the support project](https://gitlab.com/gitlab-com/support/issues) asking for an Service Engineer to be assigned
+- Sales opens a [confdential issue in the support project](https://gitlab.com/gitlab-com/support/issues) asking for a Service Engineer to be assigned
 - Sales notifies the designated Support person who processes the issue.
 - Support assigns an Service Engineer based on a number of factors
    - Location
