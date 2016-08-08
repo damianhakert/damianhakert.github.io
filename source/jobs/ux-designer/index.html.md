@@ -34,8 +34,8 @@ You know you are doing a good job as a UX Designer when:
 
 ## Roles in practice
 
-* Andriy is mostly working in close collaboration with Dmitriy on his initiatives.
-* Others are mostly working on the items in the milestone and making mockups for new features.
+* Designers are working on the items in the milestone and making mockups for new features.
+* Currently working on design guidelines for UX/UI
 * All are learning HTML and CSS to have deliverables that are a good draft for the implementation.
 
 ### UX Interview Questions <a name="ux-interview-questions"></a>
