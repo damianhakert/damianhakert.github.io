@@ -65,7 +65,11 @@ If you need a letter from GitLab verifying your employment/contractor status, pl
 1. The market rate depends on your metro region. When you move you have to inform us and we may adjust your compensation up or down.
 1. We hire across the globe but we're not location agnostic. Your timezone, the market rate in your region, and vicinity to other team members, users, customers, and partners can all be factors. For example, we may favor an applicant over another because they live in a region with a lower market rate or because we need someone in that timezone. All things being equal we will hire people in lower cost markets vs. higher cost markets.
 1. As you can see from our [contracts](/handbook/contracts/), compensation is typically set at a fixed monthly rate. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission, for leadership roles sometimes part of it is based on business objectives. Success engineers currently have a lower variable component, we're not sure how this will evolve. All other people have fixed compensation (but we do have [bonuses and incentives](/handbook/#incentives)).
+<<<<<<< HEAD
 1. Compensation decisions are taken by the compensation committee<a name="compensation-committee"></a>. This committee consists of the CFO, CEO, and head of people operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee.
+=======
+1. Compensation decisions are taken by the compensation committee. This committee consists of the CFO, CEO, and Senior Director of People Operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee. When the CEO is away (e.g. vacation), the two other members of the committee can take a decision and inform the committee. Whatever the decision is, the compensation committee should be cc-ed (or bcc-ed) on the final email, so that the committee members can know that the loop was closed.
+>>>>>>> d5c391e... comp committee operating procedure
 
 ### Sick time - taking and reporting
 <a name="sick-time"></a>
