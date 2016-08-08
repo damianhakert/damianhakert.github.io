@@ -95,7 +95,7 @@ Every first of the month, People Ops announces that we are hiring on [Hacker New
 
 **The CEO authorizes offers.** <a name="offer-authorization"></a>The hiring manager should propose a suggestion for an offer (including bonus structure if applicable, etc.) as an internal comment in Workable, but _not_ make the offer until the CEO explicitly authorizes this. The CEO authorizes offers by way of an internal comment in Workable of the form "You may offer X base comp, Y stock options, and the following bonus structure" depending on what is applicable. The hiring manager can then make the actual offer to the applicant. This may change if/when we have a [global compensation framework](/handbook/people-operations/#compensation-principles) in place.
 
-The visibility of internal comments in Workable can be switched between hiring team _managers_ only, or _all_ members of the hiring team. Comments that relate to compensation should be visible to hiring _managers_ only.
+Be aware that the visibility of internal comments in Workable can be switched between hiring team _managers_ only, or _all_ members of the hiring team.
 
 
 ### Typical process
