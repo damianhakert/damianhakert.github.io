@@ -141,7 +141,7 @@ And then there's the new idea itself. Let's create a new branch. I'll just copy 
 
 >* `cp ~/logo.svg public`
 
-Great, that was pretty simple, but If I get stuck, I can turn on "Start Collaboration", share the link, and someone else on my team could peer program with me.
+Great, that was pretty simple, but If I get stuck, I can turn on "Start Collaboration", share the link, and someone else on my team could pair program with me.
 
 #### Review with Koding
 
