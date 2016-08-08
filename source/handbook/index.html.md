@@ -285,7 +285,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
 that time. If you complete part of an issue and need someone else to take the next
 step, **re-assign** the issue to that person.
 1. When reassigning an issue, make sure that the issue body contains the latest information. The issue body should be the **single source of truth**.
-1. When working on an issue, **ask for feedback** from your peers. For example, if you're a designer and propose a design, ping a fellow designer so they'll review your work. If they approve it you can pass it along to the next team, but if they suggest changes you get to improve your design. This promotes collaboration and advances everyone's skills and experience.
+1. When working on an issue, **ask for feedback** from your peers. For example, if you're a designer and you propose a design, ping a fellow designer to review your work. If they approve, you can move it to the next step. If they suggest changes, you get the opportunity to improve your design. This promotes collaboration and advances everyone's skills.
 1. We keep our **promises** and do not make external promises without internal agreement.
 1. Even when something is not done, share it internally so people can comment early and prevent rework. Mark the merge request **[Work In Progress](https://about.gitlab.com/2016/01/08/feature-highlight-wip/)** so it is not merged by accident.
 1. When you create a merge request, **mention** the issue(s) that it solves in the description. If any followup actions are required on the issue after the merge request is merged, like reporting back to any customers or writing documentation, avoid auto closing it by saying `Fixes #1` or `Closes #1`.
