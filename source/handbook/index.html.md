@@ -553,9 +553,9 @@ To claim the approved award, include a line item on your expense report or invoi
 
 ## Signing Legal Documents<a name="signing-legal-documents"></a>
 
-Only C-level executives can sign legal documents, with the
-exception of NDAs covering a physical visit of another organization. If you need to sign, fill out, send or retrieve documents electronically, please
-send a description of what you need or a copy of the document to legal@gitlab.com with the following information:
+Only C-level executives can sign legal documents, with the exception of NDAs covering a physical visit of another organization. 
+When working with legal agreements with vendors, consultants, and so forth, bear in mind the [signature authorization matrix](https://about.gitlab.com/handbook/finance/authorization-matrix/). 
+If you need to sign, fill out, send or retrieve documents electronically, please send a description of what you need or a copy of the document to legal@gitlab.com with the following information:
 
 1. Names and email addresses of those who need to sign the document.
 1. Any contractual information that needs to be included in the document.
