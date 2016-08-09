@@ -6,7 +6,7 @@ categories: tutorial
 image_title: '/images/default-blog-image.png'
 description: "How to post to your GitLab Pages blog from iOS"
 ---
-## Introduction
+
 Speed and stability under load are [advantages of using a static-site generator (SSG)][1],
 but because building the site and uploading the generated HTML is done on a computer,
 are you stuck hauling around your laptop to post to your SSG-powered blog?
