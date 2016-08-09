@@ -3,7 +3,7 @@ title: "Posting to your GitLab Pages blog from iOS"
 author: Angelo Stavrow
 author_twitter: AngeloStavrow
 categories: tutorial
-image_title: '/images/default-blog-image.png'
+image_title: '/images/unsplash/ios-writing-anywhere.png'
 description: "Tutorial: Learn how to post to your GitLab Pages blog from anywhere, using your iOS device."
 ---
 
