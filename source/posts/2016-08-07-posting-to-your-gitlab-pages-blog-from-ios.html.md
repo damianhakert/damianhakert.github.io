@@ -4,7 +4,7 @@ author: Angelo Stavrow
 author_twitter: AngeloStavrow
 categories: tutorial
 image_title: '/images/default-blog-image.png'
-description: "How to post to your GitLab Pages blog from iOS"
+description: "Tutorial: Learn how to post to your GitLab Pages blog from anywhere, using your iOS device."
 ---
 
 Speed and stability under load are [advantages of using a static-site generator (SSG)][1],
