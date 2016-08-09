@@ -76,7 +76,7 @@ Every first of the month, People Ops announces that we are hiring on [Hacker New
 1. [PowerToFly](https://www.powertofly.com)
 1. [WeWorkRemotely](https://weworkremotely.com) ($200 for 30 days, per position).
 1. [RemoteOK](https://remoteok.io) ($200 for ?? days, per position)
-1. [RemoteBase](https://remotebase.io/) ($50 per position, job descriptions are synched directly to our site once added)
+1. [RemoteBase](https://remotebase.io/) ($50 per position, job descriptions are synced directly to our site once added)
 1. [StackOverflow](http://stackoverflow.com/jobs); ask People Ops to help
 1. [Tech Ladies](http://www.hiretechladies.com/) ($299 for 30 days, 2,000+ women in the database, current concentration in SF and NY)
 
