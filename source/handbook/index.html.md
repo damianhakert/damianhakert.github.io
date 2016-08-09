@@ -334,7 +334,8 @@ step, **re-assign** the issue to that person.
 ### Scheduling meetings<a name="scheduling-meetings"></a>
 
 1. If you want to ask team members if they are available for an event please send a new calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.
-1. If there are materials relevant for a calendar meeting (for example a Google Doc) please add the URL to the meeting invite description.
+1. If there are materials relevant for a calendar meeting (for example a Google Doc or issues) please add the URL to the meeting invite description.
+1. Put the agenda in a Google Doc that has edits rights for all participants and take notes during the meeting. Nobody wants to write up a meeting after the fact and this helps to structure the thought process and everyone can contribute. Being able to structure conclusions and follow up actions in realtime makes a video call more effective than an in-person meeting.
 1. If you want to check if a team member is available for an outside meeting, create a calendar appointment and invite the team member only, after they respond yes then invite outside people.
 1. When scheduling a call with multiple people, invite them using a Google Calendar that is your own, or one specific to the people joining, so the calendar item
 doesn't unnecessarily appear on other people's calendars.
@@ -553,8 +554,8 @@ To claim the approved award, include a line item on your expense report or invoi
 
 ## Signing Legal Documents<a name="signing-legal-documents"></a>
 
-Only C-level executives can sign legal documents, with the exception of NDAs covering a physical visit of another organization. 
-When working with legal agreements with vendors, consultants, and so forth, bear in mind the [signature authorization matrix](https://about.gitlab.com/handbook/finance/authorization-matrix/). 
+Only C-level executives can sign legal documents, with the exception of NDAs covering a physical visit of another organization.
+When working with legal agreements with vendors, consultants, and so forth, bear in mind the [signature authorization matrix](https://about.gitlab.com/handbook/finance/authorization-matrix/).
 If you need to sign, fill out, send or retrieve documents electronically, please send a description of what you need or a copy of the document to legal@gitlab.com with the following information:
 
 1. Names and email addresses of those who need to sign the document.
