@@ -16,10 +16,14 @@ title: Leadership
 - We don't have project managers. The individual contributors need to manage themselves.
 - We are not a democratic or consensus driven company. People are encouraged to give their comments and opinions. But in the end one person decides the matter after have listened to all the feedback.
 - It is encouraged to disagree and have a constructive confrontation, but it is "disagree & commit", when a decision is taken you make it happen.
+- We give feedback, lots of it, don't hold back on suggestions to improve.
+- If you praise someone try to do it in front of an audiance, if you give suggestions to improve do it 1 on 1.
+- If you meet external people always ask what they think we should improve.
 
 ## Articles
 
 - [eShares Manager’s FAQ](https://readthink.com/a-managers-faq-35858a229f84)
+- [eShares How to hire](https://blog.esharesinc.com/how-to-hire-34f4ded5f176)
 - [How Facebook Tries to Prevent Office Politics](https://hbr.org/2016/06/how-facebook-tries-to-prevent-office-politics)
 - [The Management Myth](http://www.theatlantic.com/magazine/archive/2006/06/the-management-myth/304883/)
 - [Later Stage Advice for Startups](http://themacro.com/articles/2016/07/later-stage-advice-for-startups/)
