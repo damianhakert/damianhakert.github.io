@@ -26,6 +26,7 @@ handle git operations and [Editorial][6] for text-editing. There are more option
 available; you can explore some of them on the [GitLab Community Applications page][7].
 
 ## Concept
+
 GitLab Pages uses GitLab CI to automate building and deploying your SSG-powered
 website when you push a commit to `master`. When GitLab CI sees a new commit, it
 triggers the GitLab Runner to execute the scripts in the `.gitlab-ci.yml` file you
@@ -54,6 +55,7 @@ useful), and then tap on **Done**. Tap the **<** (back) button on the top-left o
 the navigation bar twice to go back to your repository.
 
 ### Creating a new file for the post
+
 Now that you're on a new branch, navigate your repository to the folder where
 posts go. In Hugo, this is `/content/post`&mdash;navigating here, you should see
 all of your existing posts listed. To add a new file, tap the **&#43;** button
@@ -62,6 +64,7 @@ in the top-right of the navigation bar, and from the sheet that pops up, tap
 like, tap on the newly-created file to view details, then go back.
 
 ### Opening the file for editing
+
 Of course, since the file is empty, you need to edit it to draft your post. Swipe
 to the left on the file in the table view to display three options: **Action**,
 **Commit**, and **Delete**. Tap on **Action**, and in the share sheet that pops
@@ -74,6 +77,7 @@ and invite you to install the "Working Copy" workflow in Editorial. This will le
 you send the file back to Working Copy, ready for committing.
 
 ### Adding required front matter
+
 Hugo (and most other SSGs) require each post to have some front matter, including
 a date, a title, and so on. One nice option with Editorial is that it can natively
 expand [TextExpander][9] shortcuts _without_ having to switch to alternate keyboards.
@@ -82,6 +86,7 @@ type the shortcut (e.g., `;toml` or `;yaml`), and&mdash;💥 poof 💥&mdash;the
 expanded and ready for whatever you need to enter.
 
 ### Writing the post
+
 You're now ready to type your article! Go ahead and type to your heart's content.
 You can swipe to the left from the edge of the screen in Editorial to show a Markdown
 preview of what you've written so far, in case you want to check how things are
@@ -95,6 +100,7 @@ Copy** workflow, and you'll be taken back to Working Copy, ready to commit. Ente
 a commit message and tap **Commit** in the navigation bar to commit your changes.
 
 ### Adding images to your post
+
 Want to add an image to your post? You can save a photo to your repository in Working
 Copy by navigating to the right folder (in Hugo, images should be saved in the
 `static` folder; other SSGs will vary), tapping the **&#43;** button, and tapping
@@ -104,6 +110,7 @@ first), and it'll be added to the repository. You then just have to reference th
 appropriately in your Markdown file.
 
 ### Committing your changes and pushing the content back to GitLab
+
 Once you're ready to commit, tap the **Repository** field in Working Copy's repository
 navigator, then tap on the **Commit changes** button. You'll be prompted to enter
 a short summary, as well as an (optional) detailed explanation of the changes. Below
@@ -116,6 +123,7 @@ them to GitLab; otherwise, the commit will only take place on your iOS device. T
 the **&#43;Push** button to toggle this behavior.
 
 ### Merging the post branch into master to trigger CI and publish
+
 So you've written your post, added some images, and pushed the changes to GitLab.
 Want to publish from your iPhone? You can easily do so from GitLab! Launch
 Safari and log in to GitLab, and create a new Merge Request as you normally
@@ -124,6 +132,7 @@ would to merge the changes in your `post_title-of-article_yyyy-mm-dd` branch to
 required scripts, and publish the changes to your site!
 
 ## Final thoughts
+
 Is it really worth doing this? It depends on your writing style. If you're the type
 to be struck by inspiration and want to be able to draft something quickly, or if
 you're often away from your computer (or use iOS devices in place of computers),
@@ -153,6 +162,7 @@ Whatever method you choose, it's comforting to know that GitLab has you covered
 should you want to post to your SSG-powered blog from your iOS device!
 
 ## About the author
+
 [Angelo](http://angelostavrow.com) is a Quality Engineer and Software Developer
 living in Montreal, Canada. He believes that open, honest, collaboration is the
 best path towards building great things _and_ great teams.
