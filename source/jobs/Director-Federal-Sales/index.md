@@ -3,11 +3,9 @@ layout: job_page
 title: "Director Federal Sales"
 ---
 
-The Director of Federal Sales is responsible for managing and leading the Federal sales teams by overseeing sales, operations and strategies for new and existing customers of GitLab. 
+The Director of Federal Sales is responsible for building, managing and leading the Federal sales teams by overseeing sales, operations and strategies for new and existing customers of GitLab. 
 
-As the Director of Federal Sales, you will have the opportunity to build a Federal Program and team
-
-The right candidate will play a critical role in the creation and exeuction of a Federal Sales Program (Team, Strategy, Systems & Process) to maximize the adoption of GitLab within the Federal market.
+The right candidate will play a critical role in the creation and execution of a Federal Sales Program (Team, Strategy, Systems & Process) to maximize the adoption of GitLab within the Federal market.
 
 ## Responsibilities:
 * Drives, manages and executes the business and revenue of the federal sales team; develops, coaches and trains sales staff
