@@ -357,7 +357,7 @@ running already the config should be automatically reloaded!
 Let's make a copy of the original configuration, just to be safe:
 
 ```shell
-cp /etc/gitlab-runner/config.toml `/etc/gitlab-runner/config.bak`
+cp /etc/gitlab-runner/config.toml /etc/gitlab-runner/config.bak
 ```
 
 Copy the first few lines of this file (you want the token), it will look like this:
