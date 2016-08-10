@@ -25,8 +25,8 @@
 
 - title: "Content Marketing Manager"
   description: /jobs/content-marketing-manager/
-  apply: https://gitlab.workable.com/jobs/252104/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "Director Customer Success"
   description: /jobs/dir-customer-success/
@@ -57,6 +57,11 @@
   description: /jobs/senior-director-of-people-operations/
   apply:
   open: false
+
+- title: "Product Manager"
+  description: /jobs/product-manager
+  apply:
+  open: true
 
 - title: "Product Marketing Manager"
   description: /jobs/product-marketing-manager-partner/
@@ -110,10 +115,16 @@
 
 - title: "Director of Developer Relations"
   description: /jobs/director-developer-relations/
-  apply: https://gitlab.workable.com/jobs/298091
+  apply: https://gitlab.workable.com/jobs/269330
   open: true
 
 - title: "Open Application"
   description: /jobs/open-application/
   apply: https://gitlab.workable.com/jobs/298091
   open: true
+
+- title: "Business Development Representative - Outbound"
+  description: /jobs/business-development-representative-outbound/
+  apply: https://gitlab.workable.com/jobs/308669/candidates/new
+  open: true
+  

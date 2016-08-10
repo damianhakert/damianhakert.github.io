@@ -277,7 +277,7 @@ out to any of the other C-level team members or our board member Bruce Armstrong
 1. Give the community the **chance to help**. For example: place issues on the feedback tracker, leave comments in rake check tests about what you can run manually and ask 'Can you send a merge request to fix this?'.
 1. Submit the **smallest** item of work that makes sense. When creating an issue describe the smallest fix possible, put suggestions for enhancements in separate issues and link them. If you're new to GitLab and are writing documentation or instructions submit your first merge request for at most 20 lines.
 1. Do not leave issues open for a long time, issues should be **actionable** and realistic. If you are assigned but don't have time, assign it to someone else. If nobody is assigned and it is not a priority, please ensure the community can help and close it.
-1. Make a conscious effort to **prioritize**<a name="prioritize"></a> your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc. This is detailed in [the development workflow document](/handbook/workflow).
+1. Make a conscious effort to **prioritize**<a name="prioritize"></a> your work. The priority of items depends on multiple factors: is there a team member waiting for the answer, what is the impact if you delay it, how many people does it affect, etc. This is detailed in [the engineering workflow document](/handbook/engineering/workflow).
 1. Use the public issue trackers on GitLab.com for everything since [we work out in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/). We do still use some private issue trackers on our internal dev.gitlab.org server, such as for [organizational](https://dev.gitlab.org/gitlab/organization/issues) issues that do not have a home in one of the public team trackers that can be found on the [team structure](/team/structure/) page.
 1. Pick issues from the current [milestone](https://gitlab.com/groups/gitlab-org/milestones).
 1. We try not to assign issues to people but to have people **pick issues** in a milestone themselves.
@@ -334,7 +334,8 @@ step, **re-assign** the issue to that person.
 ### Scheduling meetings<a name="scheduling-meetings"></a>
 
 1. If you want to ask team members if they are available for an event please send a new calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.
-1. If there are materials relevant for a calendar meeting (for example a Google Doc) please add the URL to the meeting invite description.
+1. If there are materials relevant for a calendar meeting (for example a Google Doc or issues) please add the URL to the meeting invite description.
+1. Put the agenda in a Google Doc that has edits rights for all participants and take notes during the meeting. Nobody wants to write up a meeting after the fact and this helps to structure the thought process and everyone can contribute. Being able to structure conclusions and follow up actions in realtime makes a video call more effective than an in-person meeting.
 1. If you want to check if a team member is available for an outside meeting, create a calendar appointment and invite the team member only, after they respond yes then invite outside people.
 1. When scheduling a call with multiple people, invite them using a Google Calendar that is your own, or one specific to the people joining, so the calendar item
 doesn't unnecessarily appear on other people's calendars.
@@ -445,7 +446,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  External [monitor](http://www.amazon.com/gp/product/B009C3M7H0?psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s00), [monitor-cable](http://www.amazon.com/Monoprice-32AWG-Mini-DisplayPort-Cable/dp/B0034X6SCY/ref=sr_1_1?ie=UTF8&qid=1442231319&sr=8-1&keywords=Monoprice+6ft+32AWG+Mini+DisplayPort+to+DisplayPort+Cable+-+White),
     *  [Webcam](https://www.amazon.com/gp/product/B004YW7WCY/)
     *  [Ethernet connector](https://www.amazon.com/gp/product/B00FFJ0RKE)
-    *  [Headset](http://www.amazon.com/Microsoft-LifeChat-LX-3000-Headset-JUG-00013/dp/B00906E03I?ie=UTF8&keywords=microsoft%20headset&qid=1459468311&ref_=sr_1_1&sr=8-1)
+    *  [Headset](http://www.apple.com/shop/product/MD827LL/A/apple-earpods-with-remote-and-mic?fnode=ac5827eb0f710d43c99d3715a05c0470fc91de286c1b5b57d4ff3412191a59385cab6f561626d062ee8e07a4b043fc12ab31a822639ade516ee00e2f5c61576a5ddb7e97cbb90a6ea5af3add73c1d412017bb8691535185d1776390844ca2825)
     *  Keyboard and mouse [set](http://www.amazon.com/Logitech-Wireless-Combo-Mk520-Keyboard/dp/B003VANO7C/ref=sr_1_31?ie=UTF8&qid=1458505505&sr=8-31&keywords=keyboard)
     *  Height adjustable [desk](http://www.amazon.com/ApexDesk-Electric-Height-Adjustable-Standing/dp/B00WRJMYPG/ref=sr_1_40?s=office-products&ie=UTF8&qid=1458506071&sr=1-40&keywords=desk)
     *  Ergonomic [chair](http://www.amazon.com/dp/B00S7EMFN6?psc=1)
@@ -553,20 +554,21 @@ To claim the approved award, include a line item on your expense report or invoi
 
 ## Signing Legal Documents<a name="signing-legal-documents"></a>
 
-If you need to sign, fill out, send or retrieve documents electronically, please
-send a copy of the document to legal@gitlab.com with the following information:
+Only C-level executives can sign legal documents, with the exception of NDAs covering a physical visit of another organization.
+When working with legal agreements with vendors, consultants, and so forth, bear in mind the [signature authorization matrix](https://about.gitlab.com/handbook/finance/authorization-matrix/).
+If you need to sign, fill out, send or retrieve documents electronically, please send a description of what you need or a copy of the document to legal@gitlab.com with the following information:
 
-1. Names of those who need to sign the document.
-2. Email addresses of any non-GitLab employees needing to sign the document.
-3. Any contractual information that needs to be included in the document.
-4. Deadline by which you need the document prepared.
-5. Deadline by which you need the document to be signed, dated and submitted.
-6. Email address and name of third party if you want the signed document to be sent directly to that party once signed.
+1. Names and email addresses of those who need to sign the document.
+1. Any contractual information that needs to be included in the document.
+1. Deadline (or preferred timeline) by which you need the document prepared (i.e. staged in [HelloSign](https://www.hellosign.com) for relevant signatures)
+1. Names and email addresses of those who need to be cc-ed on the signed document.
 
-Unless otherwise stated, the signed document should be sent to the person who sent the request for signature.
-The document will be managed through HelloSign, a cloud-based electronic
-signature tool. Only C-level executives can sign legal documents, with the
-exception of NDAs covering a physical visit of another organization.
+The process that "legal" (currently a combination of People Ops and Finance) will follow is:
+
+1. Prepare the document as requested.
+1. Have the requestor check the prepared document, AND obtain approval from the CFO or CEO (such approval may be explicit in the email thread that was sent to `legal@`, in which case a second approval is not needed unless there have been significant edits to the document).
+1. Stage the document for signing in HelloSign and cc (at minimum) the requestor and `legal@`.
+1. Once signed, the person who staged it in HelloSign places the document in the contracts folder on Google Drive.
 
 ## Working remotely<a name="working-remotely"></a>
 

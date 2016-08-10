@@ -8,6 +8,8 @@ The Demand Generation organization includes Demand Generation, Business Developm
 
 ## On this page
 * [References](#references)
+* [Campaigns](#campaigns)
+* [Campaign Brief Process](#campaignbrief)
 * [Inbound Lead Flow](#leadFlow)
 * [Lead Qualification Process](#leadQual)
 * [Soft-BANT](#bant)
@@ -39,6 +41,21 @@ The Demand Generation organization includes Demand Generation, Business Developm
 - [Replace wufoo forms with Marketo forms](https://gitlab.com/gitlab-com/www-gitlab-com/issues/422)
 - [Marketo webhooks docs](http://developers.marketo.com/documentation/webhooks/)
 - [Recurly data into Marketo](https://gitlab.com/gitlab-com/www-gitlab-com/issues/526)
+
+## Campaigns<a name="campaigns"></a>
+Demand Gen is responsible for executing marketing campaigns for GitLab.  We define a campaign as any programmed interaction with a user, customer, or prospect.  For each campaign, we will create a campaign brief that outlines the overall strategy, goals, and plans for the campaign.
+
+## Campaign Brief Process<a name="campaignbrief"></a>
+To create a campaign brief, first start with the [campaign brief template](https://docs.google.com/a/gitlab.com/document/d/1GttZqr7sjuvP9kWuIPfbif2b2VyNJtbN8CbL4tKJX2Q/edit?usp=sharing).  Fill out all fields in the brief as completely as possible.  Certain fields might not be applicable to a particular campaign.  For example, an email nurture campaign leveraging text based emails won’t have a visual design component.  This field can be left blank in that example. 
+
+Once the campaign brief is filled out, create an issue in the GitLab Marketing project and link to the campaign brief.
+
+On the GitLab issue, make sure to:
+* Tag all stakeholders
+* Use the Marketing Campaign label
+* Set the appropriate due date (the due date should be the campaign launch date)
+* If there are specific deliverables, create a todo list in the issue description for each stakeholder along with a due date
+
 
 ## Inbound Lead Flow<a name="leadFlow"></a>
 
@@ -180,9 +197,10 @@ Currently, the newsletter consists of four blocks of content. Each block of cont
 
 For example:
 
-![newsletter block example](https://gitlab.com/gitlab-com/www-gitlab-com/raw/update-newsletters-handbook/source/images/handbook/marketing/newsletter-example-block.png)
+![newsletter block example](https://about.gitlab.com/images/handbook/marketing/newsletter-example-block.png)
 
 The different content ideas are placed in the newsletter issue using the following format:
+
 ```
 [Required] title/topic:
 

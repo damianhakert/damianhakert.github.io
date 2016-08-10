@@ -36,7 +36,7 @@
 - name: Marin Jankovski
   locality: Amsterdam
   country: The Netherlands
-  role: Packaging Lead
+  role: <a href="https://about.gitlab.com/jobs/packaging-lead/">Packaging Lead</a>
   reports_to: VP of Engineering
   picture: picture_marin.jpg
   twitter: maxlazio
@@ -138,7 +138,7 @@
   country: The Netherlands
   role: <a href="https://about.gitlab.com/jobs/backend-lead/">Backend Lead</a>
   reports_to: VP of Engineering
-  picture: picture_douwe.png
+  picture: douwe.jpg
   twitter: DouweM
   gitlab: DouweM
   maintains:  |
@@ -164,7 +164,7 @@
 - name: Kamil Trzciński
   locality: Warsaw
   country: Poland
-  role: CI Lead
+  role: <a href="https://about.gitlab.com/jobs/ci-lead/">CI Lead</a>
   reports_to: VP of Engineering
   picture: kamil.jpg
   twitter: ayufanpl
@@ -251,6 +251,8 @@
   picture: emilykyle.jpg
   twitter: emilylucie
   gitlab: emilykyle
+  maintains:  |
+              <li><a href="https://gitlab.mybrightsites.com/">Swag Queen</a></li>
   story: |
          After making it to round four of the Mars One selection process, Emily decided she would miss Mexican food too much on Mars,
          so she removed herself from the running. If the selection process taught her anything it was how critical collaboration is for getting things accomplished.
@@ -363,7 +365,7 @@
   locality: Florianópolis
   country: Brazil
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
-  reports_to: Backend Lead
+  reports_to: Packaging Lead
   picture: gabriel.jpg
   twitter: brodock
   gitlab: brodock
@@ -371,6 +373,7 @@
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li><a href="https://about.gitlab.com/handbook/support/#support-turbo">Support Turbo</a></li>
               <li><a href="http://doc.gitlab.com/ee/gitlab-geo/README.html">Geo</a> <a href="/jobs/expert/">expert</a></li>
+              <li>Packaging specialist</li>
   story:  |
           Gabriel is the first Brazillian in the team, before joining GitLab,
           he was fighting the scalability and performance battle on a
@@ -409,7 +412,7 @@
 - name: José Torres
   locality: San José Pinula
   country: Guatemala
-  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Support Lead</a>
+  role: <a href="https://about.gitlab.com/jobs/support-lead/">Support Lead</a>
   reports_to: VP of Engineering
   picture: josetorres.jpg
   twitter: random_primate
@@ -436,7 +439,6 @@
   maintains:  |
                 <li><a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> specialist</li>
                 <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
-                <li>Issue tracker development specialist</li>
   story:  |
           Grzegorz is a developer who has worked on open-source projects since 2002.
           He enjoys creating software that people actually love using, so GitLab was an obvious choice for his next company to work at.
@@ -455,7 +457,6 @@
   maintains:  |
               <li>Merge request <a href="http://www.urbandictionary.com/define.php?term=mini-boss&defid=605674">miniboss</a></li>
               <li>Maintainer of <a href="https://dev.gitlab.org/gitlab/version-gitlab-com">version-gitlab-com</a> (internal)</li>
-              <li>Issue tracker development lead</li>
               <li><a href="http://doc.gitlab.com/ce/workflow/todos.html">Todos</a> <a href="/jobs/expert/">expert</a></li>
   story:  |
           Douglas is a software developer that fell in love with Ruby since 2007 and the open-source community surrounding it and has been working with Ruby on Rails for the past 3 years. Before joining GitLab, he was working remotely for nonprofit organization based in Brazil. He enjoys to improve people's lives with the product he is working on, so GitLab was a perfect match to him. In his free time, he loves to drink a good beer and, spend time with his friends.
@@ -503,7 +504,7 @@
 - name: Wilson Lau
   locality: San Francisco, CA
   country: USA
-  role: Controller
+  role: <a href="https://about.gitlab.com/jobs/controller/">Controller</a>
   reports_to: CFO
   picture: wilsonlau.jpg
   gitlab: wilsonlau
@@ -544,7 +545,7 @@
           Cat lover.
 
 - name: Rémy Coutable
-  locality: Tourtour
+  locality: Cannes
   country: France
   role: <a href="https://about.gitlab.com/jobs/developer/">Developer</a>
   reports_to: VP of Engineering
@@ -639,9 +640,9 @@
           Michael has been helping customers choose, deploy, and use software development tools since the 80's at companies like Borland, Symantec, Gupta, and Perforce.  Michael is passionate about building teams and business in the far-flung corners of the world.  When not working, Michael is an award winning wine maker and heavily involved in the local Boy Scouts.
 
 - name: Pablo Carranza
-  locality: Dublin
-  country: Ireland
-  role: Senior <a href="https://about.gitlab.com/jobs/production-engineer/">Production Engineer</a> and Infrastructure lead
+  locality: Zamora
+  country: Spain
+  role: <a href="https://about.gitlab.com/jobs/infrastructure-lead/">Infrastructure Lead</a>
   reports_to: CEO
   picture: pablo.jpg
   twitter: psczg
@@ -656,8 +657,8 @@
           of his family and enjoys riding in 2 wheels, with or without engine.
 
 - name: Ivan Nemytchenko
-  locality: Yekaterinburg
-  country: Russia
+  locality: Belgrade
+  country: Serbia
   role: <a href="https://about.gitlab.com/jobs/developer-advocate/">Developer Advocate</a>
   reports_to: CMO
   picture: ivan.jpg
@@ -1257,7 +1258,7 @@
 - name: M.Y.
   locality:
   country:
-  role: <a href="https://about.gitlab.com/jobs/general-ledger-accountant/">Senior Accountant</a>
+  role: <a href="https://about.gitlab.com/jobs/senior-accountant/">Senior Accountant</a>
   reports_to: Controller
   picture: logo-extra-whitespace.png
   twitter:
@@ -1322,22 +1323,24 @@
   country: Belgium
   role: <a href="https://about.gitlab.com/jobs/account-executive/">Junior Account Executive</a>
   reports_to: Sales Director EMEA
-  picture: logo-extra-whitespace.png
+  picture: dan.jpg
   twitter:
   gitlab: dan.gitlab
   story:  |
           Dan is passionate about helping people become more effective in their activity by introducing to them one of the best and easy to use tool in the market for version control.
 
-- name: N.T.
-  locality:
-  country:
+- name: Nicholas 'Nick' Thomas
+  locality: York
+  country: England
   role: <a href="https://about.gitlab.com/jobs/developer/">Senior Developer</a>
   reports_to: Backend Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: nick-thomas.png
+  twitter: lupine_85
+  gitlab: nick.thomas
   story:  |
-          Joining August 1st
+          After eight years spent building The Cloud (or at least, A Cloud),
+          Nick fell in love with his newest tool for doing so - GitLab! His free
+          time is spent dancing, skating, and running.
 
 - name: R.F
   locality:
@@ -1361,16 +1364,16 @@
   story:  |
           Joining August 1st
 
-- name: A.G
-  locality:
-  country:
+- name: Arihant Godha
+  locality: Mumbai
+  country: India
   role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
   reports_to: Support Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: arihant.png
+  twitter: arihantar
+  gitlab: arihantar
   story:  |
-          Joining August 1st
+          Arihant is passionate about automating the boring parts of work life and likes to write small and useful ruby scripts. He loves interacting with people and solving problems. He also enjoys playing with his kid and likes social outings.
 
 - name: J.C
   locality:
@@ -1382,6 +1385,17 @@
   gitlab:
   story:  |
           Joining August 1st
+
+- name: D.H.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/ux-designer/">Junior UX Designer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 4th
 
 - name: F.A.
   locality:
@@ -1437,3 +1451,14 @@
   gitlab:
   story:  |
           Joining September 1st
+
+- name: Dimitrie Hoekstra
+  locality: Breda
+  country: The Netherlands
+  role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
+  reports_to: UX Designer
+  picture: dimitrie.jpg
+  twitter: dimitrieh
+  gitlab: dimitrieh
+  story:  |
+          With a deep passion for design, a love for beautiful typography and an incredible enthusiasm for the open source community, Dimitrie strives to create elegant interfaces that delight the user. He has a background in 3D and an endless technical curiosity for new tools and software. When he's not working or online, he enjoys being with his friends and family, swimming, reading fantasy novels and playing board games. 

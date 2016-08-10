@@ -9,14 +9,6 @@ title: "People Operations"
 - You can also send an email to the People Operations group (see the "GitLab Email Forwarding" google doc for the alias), or ping an individual member of the People Operations team, as listed on our [Team page](https://about.gitlab.com/team/).
 - [**Chat channel**](https://gitlab.slack.com/archives/peopleops); please use the `#peopleops` chat channel for questions that don't seem appropriate to use the issue tracker or the internal email address for.
 
-
-## On this page
-{:.no_toc}
-
-- TOC
-{:toc}
-
-
 ## Other pages related to People Operations
 
 - [Hiring process](/handbook/hiring/)
@@ -26,14 +18,17 @@ title: "People Operations"
 - [Benefits](/handbook/benefits/)
 - [Travel](/handbook/travel/)
 
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+
 ## Role of People Operations
 <a name="role-peopleops"></a>
 
 In general, the People Operations team and processes are here as a service to the rest of the team; helping make your life easier so that you can focus on your work and contributions to GitLab. On that note, please don't hesitate to [reach out](#reach-peopleops) with questions! In the case of a conflict between the company and a team member, People Operations works "on behalf of" the company.
-
-### Letter of Employment<a name="letter-of-employment"></a>
-
-If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. For example, monthly fee, salary, start date, title, etc. People ops will send you the letter once it is completed.
 
 ## Team Directory
 <a name="directory"></a>
@@ -43,6 +38,10 @@ The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is
 - Please make sure that your own information stays up to date, and reach out to People Ops if you need any help in doing so.
 - Please make sure that your address and phone information are written in such a way that your team mates can reach you from a different country. So, for example, include `+[country code]` in front of your phone number.
 
+## Letter of Employment
+<a name="letter-of-employment"></a>
+
+If you need a letter from GitLab verifying your employment/contractor status, please send the request to People Ops citing what information is needed. For example, monthly fee, salary, start date, title, etc. People ops will send you the letter once it is completed.
 
 ## Office addresses
 <a name="addresses"></a>
@@ -66,7 +65,7 @@ The [team directory](https://gitlab.bamboohr.com/employees/directory.php?pin) is
 1. The market rate depends on your metro region. When you move you have to inform us and we may adjust your compensation up or down.
 1. We hire across the globe but we're not location agnostic. Your timezone, the market rate in your region, and vicinity to other team members, users, customers, and partners can all be factors. For example, we may favor an applicant over another because they live in a region with a lower market rate or because we need someone in that timezone. All things being equal we will hire people in lower cost markets vs. higher cost markets.
 1. As you can see from our [contracts](/handbook/contracts/), compensation is typically set at a fixed monthly rate. People on quota (account executives, account managers, and sales leadership) have variable compensation that is about 50% of their On Target Earnings (OTE). Individual contributors in the sales organization have variable compensation that is purely based on commission, for leadership roles sometimes part of it is based on business objectives. Success engineers currently have a lower variable component, we're not sure how this will evolve. All other people have fixed compensation (but we do have [bonuses and incentives](/handbook/#incentives)).
-1. Compensation decisions are taken by the compensation committee. This committee consists of the CFO, CEO, and head of people operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee.
+1. Compensation decisions are taken by the compensation committee<a name="compensation-committee"></a>. This committee consists of the CFO, CEO, and head of people operations. When there is no time to coordinate with the committee the CEO can take a decision and inform the committee.
 
 ### Sick time - taking and reporting
 <a name="sick-time"></a>
@@ -139,7 +138,7 @@ Follow these steps to send out a signature request.
 1. Upload your document that needs signing
 1. Enter the names of the people that need to sign
 1. With more than one signature required, assign signing order (for contracts or offer letters, always have the GitLab Signatory sign first)
-1. Add the People Ops team to the cc. Also add the hiring manager to the cc, if that person is different from the signatory. 
+1. Add the People Ops team to the cc. Also add the hiring manager to the cc, if that person is different from the signatory.
 1. Click on "Prepare Docs for signing"
 1. Drag & Drop the Signature and Date fields to the corresponding empty spaces in the document (you can select the signee with the pop up screen)
 1. For GitLab Inc. agreements, add a required textbox to Exhibit A, and a supplemental larger textbox below for a comment that is not required.
@@ -239,7 +238,7 @@ Items paid for by the company are property of the company.
 
 Assets with purchasing value in excess of $1000 USD are tracked in BambooHR, for assets of lower value we rely on the honor system. These assets come to People Ops attention by one of two ways: 1. People Ops makes the purchase on behalf of the team member, or 2. the Finance team notices the line items on expense reports / invoices and passes this along to People Ops.
 
-The information is then entered into BambooHR (to track who has which piece of equipment) by People Ops, and it is included in the Fixed Asset Schedule by Finance (to track asset value and depreciation). 
+The information is then entered into BambooHR (to track who has which piece of equipment) by People Ops, and it is included in the Fixed Asset Schedule by Finance (to track asset value and depreciation).
 
 1. Go to the team member in BambooHR
 1. Click on the Assets Tab
@@ -247,11 +246,13 @@ The information is then entered into BambooHR (to track who has which piece of e
 1. Enter Asset Category, Asset Description, Serial Number, Asset Cost, and Date Loaned
 1. This process is repeated for each asset purchased
 
-### Managing the PeopleOps onboarding tasks
+### Managing the PeopleOps onboarding and offboarding tasks
 <a name="manage-onboarding-tasks"></a>
 
 Here are some useful guidelines to set up everything for our new team members with the onboarding issue.
 If Google Sheets or Docs are mentioned, these will be shared with you on Google Drive.
+
+#### Onboarding
 
 - **Add team member to availability calendar**
 Make a new "all-day" event on the day the new team member starts "[Name] joining
@@ -263,7 +264,7 @@ calendar" in the top of the window. Enter the GitLab email address and scroll
 down to set the permission setting to "make changes to events" Then save in the
 lower left corner.
 - **Add team member to the GitLab Birthdays calendar**
-Go to your calendar window, under my calendar select the GitLab Birthdays calendar. Go to the team member's birthdate and add an all day event with their name as the title. Change the setting to repeat annually. Share this calendar with the new team member.  
+Go to your calendar window, under my calendar select the GitLab Birthdays calendar. Go to the team member's birthdate and add an all day event with their name as the title. Change the setting to repeat annually. Also add an entry for the team member's work anniversary. Change the color of the event to blue, make it an annual event, and include Name and Work Anniversary in the title. Share this calendar with the new team member.  
 - **Add blank entry to team page**<a name="blank-entry"></a>
 Login to [Gitlab.com](www.gitlab.com) and go to the www-gitlab-com project. In
 the left menu click "Files," select "data," and choose the file called team.yml. In the top right
@@ -301,6 +302,14 @@ Add the team member's name to the Travel and Lodging Google sheets to make sure 
 Log into Egencia and go to the menu option "manage users". Choose "new user account" and fill in the passport name of the new team member.
 As username choose the same handle as on our dev domain. Enter the GitLab email address and uncheck the newsletter box.
 Lastly assign the department in which the new team member is working.
+
+#### Offboarding
+
+- **Remove a team member from Sundial**<a name="sundial-removal"></a>
+1. Log in to Sundial using the link in the "Private Sundial URL" Google Doc  
+1. Go to timezone view in the top right corner
+1. Hover over the team member's name that you want to remove
+1. Make sure you are in list view at this point, and then click the "x" to remove the team member
 
 ### Birthday Swag
 <a name="birthday-swag"></a>

@@ -20,7 +20,7 @@ title: "UX Designer"
 
 * You work on issues tagged with 'UX' on [CE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=ux) and [EE](https://gitlab.com/gitlab-org/gitlab-ce/issues?label_name=ux).
 * When done with an UX issue remove the UX label and add the next [workflow label](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/PROCESS.md#workflow-labels) which is probably the 'Frontend' label.
-* Also see the [basics of GitLab development in the developer onboarding](handbook/developer-onboarding/#basics-of-gitlab-development).
+* Also see the [basics of GitLab development in the developer onboarding](https://about.gitlab.com/handbook/developer-onboarding/#basics-of-gitlab-development).
 
 ## Success Criteria
 
@@ -46,3 +46,8 @@ The UX Interview determines if a UX Designer is a good fit for GitLab. Here are 
 1. Similarly, what is your flow from idea to deployment?
 1. What are some existing designs we can see as an example of you work?
 1. When you did `x` project, what was the biggest problem that you had to solve and how did you solve it?
+
+## Relevant links
+
+- [Engineering Handbook](/handbook/engineering)
+- [Engineering Workflow](/handbook/engineering/workflow)

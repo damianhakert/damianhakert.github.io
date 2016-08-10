@@ -19,13 +19,15 @@ If you want to hire for a position please [make a job description](#vacancy-crea
 
 The CEO needs to authorize any new job positions/searches, and agree on the proposed hiring team.
 
+1. Define role and ask People Ops for compensation baselines / bands / guidelines. People Ops proposes a compensation range and submits this to the [compensation committee](/handbook/people-operations/#compensation-committee) for approval.
+1. CEO approves the job requisition, which at this point includes title, role, and target compensation range.
 1. Define hiring team. Roles can be assigned fluidly (see below for the
    [Hiring Process](#hiring-process)), depending on who is available, bearing in
    mind that the most time-consuming aspect tends to be review of the first wave
    of applicants.
-1. Create the job description on our website; assign the merge request to the CEO as a way to obtain authorization.
+1. If there is not already a job description, create the job description on our website; assign the merge request to the CEO as a way to obtain authorization.
     1. Create the relevant page in `https://about.gitlab.com/jobs/[name-of-job]`
-       if it doesn't already exist.
+       if it doesn't already exist. If the location of the applicant is important, then the location and a compensation range corresponding to that location can be provided as part of the job posting.
     1. In the [`data/jobs.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/jobs.yml) file, open the position or add a new entry for it. Positions are automatically sorted alphabetically by `title` on the [jobs page](/jobs/). When someone views the job's description page, an "Apply" button will be shown for that position if we're currently hiring for it.
           - Adding a new position: add an entry with the following format:
 
@@ -38,7 +40,7 @@ The CEO needs to authorize any new job positions/searches, and agree on the prop
 
           - Opening an existing position: If the position is already listed in the `jobs.yml` file but not "open", simply change `open: false` to `open: true` to have the position appear on the [listings](/jobs/).
           - Closing an existing position: If we're no longer hiring for a particular position change `open: true` to `open: false` for that position to hide it from the listings.
-          - Note: You can leave the apply workable link blank until you have created it (see instructions below). 
+          - Note: You can leave the apply workable link blank until you have created it (see instructions below).
 1. Once the job description and posting have been approved, create the job in [Workable](https://gitlab.workable.com/backend), using the exact same job title. If you do this step earlier, people will be able to apply even though the job posting may not have been approved yet.
    * For location, select "Telecommute".
    * For the description, write `For the job description, see [URL of relevant jobs page on about.gitlab.com]`
@@ -76,6 +78,7 @@ Every first of the month, People Ops announces that we are hiring on [Hacker New
 1. [RemoteOK](https://remoteok.io) ($200 for ?? days, per position)
 1. [RemoteBase](https://remotebase.io/)
 1. [StackOverflow](http://stackoverflow.com/jobs); ask People Ops to help
+1. [Tech Ladies](http://www.hiretechladies.com/) ($299 for 30 days, 2,000+ women in the database, current concentration in SF and NY)
 
 
 ## Hiring Process
@@ -88,39 +91,49 @@ Every first of the month, People Ops announces that we are hiring on [Hacker New
 
 **Send Calendly link of the next person in the process.** If you have decided to let the applicant move on to the next interview, save time by sending the next interviewer's Calendly link to the applicant. This saves the time that it would otherwise take for the next interviewer to get around to sending the link, and it thus works in everyone's benefit.
 
-**The CEO authorizes offers.** The hiring manager should propose a suggestion for an offer (including bonus structure if applicable, etc.) as an internal comment in Workable, but _not_ make the offer until the CEO explicitly authorizes this. The CEO authorizes offers by way of an internal comment in Workable of the form "You may offer X base comp, Y stock options, and the following bonus structure" depending on what is applicable. The hiring manager can then make the actual offer to the applicant. This may change if/when we have a [global compensation framework](/handbook/people-operations/#compensation-principles) in place.
+**Compensation is discussed at start and end, but not in between.** Compensation expectations are asked about during the [screening call](#screening-call). If the expectations seem unworkable to the hiring manager (based on what had been discussed with the compensation committee at the [creation of the vacancy](#vacancy-creation-process)), then the hiring manager can send a note (or ask People Ops to send a note) to the candidate explaining that the expectations are too far apart. If the expectations are aligned, then the topic of compensation should not re-surface until an [offer is discussed internally](#offer-authorization). Following this guideline avoids conflating technical and team interviews with contract discussions, and keeps the process flowing smoothly.
 
-The visibility of internal comments in Workable can be switched between hiring team _managers_ only, or _all_ members of the hiring team. Consider making comments that relate to compensation visible to hiring _managers_ only.
+**The CEO authorizes offers.** <a name="offer-authorization"></a>The hiring manager should propose a suggestion for an offer (including bonus structure if applicable, etc.) as an internal comment in Workable, but _not_ make the offer until the CEO explicitly authorizes this. The CEO authorizes offers by way of an internal comment in Workable of the form "You may offer X base comp, Y stock options, and the following bonus structure" depending on what is applicable. The hiring manager can then make the actual offer to the applicant. This may change if/when we have a [global compensation framework](/handbook/people-operations/#compensation-principles) in place.
+
+Be aware that the visibility of internal comments in Workable can be switched between hiring team _managers_ only, or _all_ members of the hiring team.
 
 
 ### Typical process
 <a name="typical-process"></a>
 
 1. **Confirmation of the application**: applicants automatically receive confirmation of their application, thanking them for submitting their information. This is an automated message from Workable. If the person came through another channel please add them to Workable before continuing the process. There are various ways to do this, see [Workable's documentation](https://resources.workable.com/adding-candidates).
-1. Hiring manager does a **first round of evaluations**. Disqualified candidates should be sent a note informing them of the [rejection](#rejecting). There are templates in Workable to assist, but messages can be tailored as appropriate: place yourself on the receiving end of the message. If more information is required to make the determination, feel free to specifically ask for it (e.g. a cover letter).
-1. [**Screening call**](#screening-call): in Workable, ping our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/) to do a screening call; and also move the applicant to the "screening call" stage in Workable. Depending on the outcome of the screening call, the hiring manager can either [reject an applicant](#rejecting), or move the applicant to the interview stage in Workable.
+1. Hiring manager does a **first round of evaluations**. Disqualified candidates should be sent a note informing them of the [rejection](#rejecting). There are templates in Workable to assist, but messages can be tailored as appropriate: place yourself on the receiving end of the message. If more information is required to make the determination, feel free to specifically ask for it (e.g. a cover letter). (If you don't see the templates, you probably haven't [linked your email account to Workable](https://resources.workable.com/support/connecting-gmail-with-workable) yet.)
+1. [**Screening call**](#screening-call): in Workable,
+   1. ping our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/) to do a screening call;
+   1. move the applicant to the "screening call" stage in Workable.
+   1. send the applicant the calendly link of the People Ops Coordinator.
+Depending on the outcome of the screening call, the hiring manager can either [reject an applicant](#rejecting), or move the applicant to the interview stage in Workable.
 1. **Technical interview (optional)**: As described on the [Jobs](/jobs/) page, certain positions require [technical interviews](/jobs/#technical-interview).
 1. **Further interviews** that would typically follow the reporting lines up to the CEO. So for instance, the technical interview would be by a co-worker, next interviews would be with the manager / team lead, executive team member, and then the CEO. See below for [sample questions](#interview-questions). The candidate should be interviewed by at least one female GitLab team member.
-1. **CEO interview**: the CEO, as the primary culture carrier of the company, interviews all final round candidates and decides on a possible offer (but does not always discuss this with the applicant).
+1. **CEO interview**: the CEO, as the primary culture carrier of the company, interviews all final round candidates and decides on a possible offer (but does not always discuss this with the applicant). The hiring manager should have [suggested an offer](#offer-authorization) internally at this stage.
 1. **Reference calls (optional)**: Make [reference calls](#reference-calls) for promising candidates. This process can start at an earlier stage, but should happen before an offer is made. At minimum two reference calls should be completed - one to a manager, the other to a colleague. Move the candidate to the "Reference Call" stage in Workable, and ping the relevant person from People Ops to get it going.
-1. Make a verbal or written (email) **offer** (the CEO needs to authorize offers)
-1. Hiring manager follows up to ensure that the offer is accepted, and then moves to [preparing contracts](#prep-contracts)
-1. Hiring manager ensures that the contract is signed, and People Ops [starts the onboarding process](#move-to-onboarding).
+1. Make an **offer** (the CEO needs to authorize offers). This can be verbal, but should be followed quickly with the written offer as described in [the section on preparing offers and contracts](#prep-contracts).
+1. Hiring manager follows up to ensure that the offer is accepted, and that the contract is signed.
+1. People Ops [starts the onboarding process](#move-to-onboarding).
 1. Hiring manager considers [closing the vacancy](#closing-vacancy).
 
 ### Rejecting applicants
 <a name="rejecting"></a>
 
-1. At any time during the hiring process the applicant can be rejected
+1. At any time during the hiring process the applicant can be rejected.
 1. The applicant should always be notified of this. The hiring manager is primarily
 responsible for this, but People Ops can help and does a weekly check-up in Workable.
 1. If the applicant asks for further feedback always offer frank feedback. This
-is hard, but it is part of our company values.
-1. If the candidate is not hired, People Ops sends out an email to ask for feedback.
-There is a "gathering applicant feedback" template in Workable with these questions.
+is hard, but it is part of our [company values](/handbook/#values).
+    * All feedback should be constructive and said in a positive manner. Keep it short and sweet.
+    * Feedback should always be applicable to the skill set of the position the candidate applied and interviewed for.
+    * Feedback and rejection should not be based on soft skills.
+    * If you feel uncomfortable providing feedback for whatever reason, reach out to People Ops for assistance.
+1. TODO: If the candidate is not hired, People Ops sends out an email to ask for feedback.
+   * There is a "gathering applicant feedback" template in Workable with these questions.
 The feedback survey should be sent out about 3 days after the applicant has been
 notified of the rejection.
-1. PeopleOps will receive the feedback and will use this to improve the hiring process.
+   * PeopleOps will receive the feedback and will use this to improve the hiring process.
 
 ## Screening Call
 <a name="screening-call"></a>
@@ -134,7 +147,7 @@ Questions are:
 1. Current address? (relevant in context of comp, and in case of contract we will need that information).
 1. How do they feel about working remotely and do they have experience with it?
 1. Compensation expectation and compensation in current/last job.
-1. STAR questions and simple technical questions may also be asked during the screening call if applicable. 
+1. STAR questions and simple technical questions may also be asked during the screening call if applicable.
 
 [An example of the output of a good screening call](https://gitlab.workable.com/backend/jobs/128446/browser/applied/candidate/7604850) (need workable account).
 
@@ -250,15 +263,15 @@ As part of our hiring process we may ask applicants to provide us with one or mo
 references to contact. These reference calls are typically be done by our [People Ops Coordinator](https://about.gitlab.com/jobs/people-ops-coordinator/) or the hiring
  manager for that specific vacancy following [these guidelines](http://www.bothsidesofthetable.com/2014/04/06/how-to-make-better-reference-calls/).
 
-## Getting Contracts Ready, Reviewed, and Signed
+## Getting Offers and Contracts Ready, Reviewed, and Signed
 <a name="prep-contracts"></a>
 
 Offers made to new team members should be documented in the email thread between the person authorized to make the offer (e.g. CEO) and the applicant.
 
 1. Email example is in the "Offer letter" template in Workable. When using the template:
-   1. make sure that you offer the correct [contract type and entity](/handbook/contracts/#how-to-use)
+   1. make sure that you offer the correct [contract type and entity](/handbook/contracts/#how-to-use), ask People Ops if in doubt;
    1. include the People Ops alias in the cc (when you are ready for a written contract to be made), and
-   1. change the subject line of the email. The default subject line in Workable is "{position name} - GitLab", but when making multiple hires for the same position, this can cause confusion in a Gmail inbox that collects conversation threads based on subject line. So for example make it "{first name of applicant} - offer for {position name} at GitLab" (this is something that we cannot do in the template, unfortunately).
+   1. change the subject line of the email. The default subject line in Workable is "{position name} - GitLab", but when making multiple hires for the same position, this can cause confusion in a Gmail inbox that collects conversation threads based on subject line. So for example make it "{first name of applicant} - offer for {position name} at GitLab" (this is something that we cannot do in the Workable template, unfortunately).
    1. Note: the number of proposed stock options must always be mentioned specifically, even when it is 0.
 1. One person from People Operations will reply-to-all to everyone in the thread (including the applicant) to confirm that they will make the contract. Speed matters: if you are in People Operations and you can tackle this, then raise your hand and hit reply-all.
 1. This person from People Operations
@@ -266,24 +279,24 @@ Offers made to new team members should be documented in the email thread between
       - was it approved by the CEO?
       - do the contract type and entity make sense?
       - is it clear how many (if any) stock options this person should receive?
-      - is all necessary information (start date, salary, etc.) clearly agreed to? 
+      - is all necessary information (start date, salary, location, etc.) clearly available and agreed to?
    1. makes the contract based on the details found in the Workable platform, using reply-all to gather any missing pieces of information,
    1. has the contract reviewed by the VP of Scaling, CEO, or CFO (should not be the same as the person making the offer)
-   1. confirms with a reply-to-all when the contract is sent. 
+   1. confirms with a reply-to-all when the contract is sent.
 1. When the contract is signed, the People Ops team member or hiring manager should move the candidate in Workable to the "Hired" bucket of the "Hired Team Members (admin access only)" job. This accomplishes two goals. First, thanks to an integration between Workable and BambooHR, it will automatically add an entry for the new team member in BambooHR. However, in the automatic move, "self-service" is switched off in BambooHR by default, so this must be switched on explicitly within BambooHR. Second, by keeping the application and interview notes of successful applicants in a more restricted area of Workable we are able to maintain confidentiality if/when the applicant becomes involved in the hiring process for their peers.
-1. This same person from People Operations files the signed contract in the appropriate place, and starts the [**onboarding issue**](https://about.gitlab.com/handbook/general-onboarding/).
+1. This same person from People Operations files the signed contract in the appropriate place, and starts the [**onboarding issue**](/handbook/general-onboarding/).
 
 Note for People Operations:<br>
 - the type of contract required (employee or contractor; BV or Inc) is clarified by the guideline on the
-[Contracts page](https://about.gitlab.com/handbook/contracts).
+[Contracts page](/handbook/contracts).
 - Onboarding info for the PeopleOps system, BambooHR, can be found on the [PeopleOps](/handbook/people-operations) page.
-- All information regarding compensation in Workable should be visible to hiring manager only. 
 
 ## Closing a vacancy
 <a name="closing-vacancy"></a>
 
 To close a vacancy:
 
+1. Hiring manager to clear the pipeline of candidates in all stages of application. Consider adding tags to candidates who were interesting but were passed over in this hiring process. Adding tags makes it easier to find them in Workable later on if you are recruiting for the same or a similar position.
 1. Ask a Workable admin (People Ops) to close the position in Workable. People Ops: consider archiving the job posting to reduce number of positions GitLab is charged for by Workable.
 1. Create a MR, in which you remove the application URL for Workable, and set the listing flag in the `jobs.yml` file to `open: false`. See ["vacancy creation process"](#vacancy-creation-process) for reference).
 

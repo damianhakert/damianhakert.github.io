@@ -6,7 +6,7 @@ title: "Frontend Engineer"
 ## Responsibilities
 
 * Fix prioritized issues from the issue tracker.
-* Write the code to complete scheduled direction issues chosen by our scheduling committee, assigned to you by the frontend lead. 
+* Write the code to complete scheduled direction issues chosen by our scheduling committee, assigned to you by the frontend lead.
 * Continually improve the quality of GitLab by using discretion of where you think changes are needed.
 * Create high quality frontend code.
 * Frontend Design Specialist: Implement the interfaces in GitLab proposed by UX Engineers and contributors.
@@ -21,8 +21,14 @@ title: "Frontend Engineer"
 ## Requirements for Applicants
 
 * Know how to use CSS effectively
-* Know how to use JavaScript effectively
+* Expert knowledge of JavaScript
+* Basic knowledge of Vue.js is a plus but not a requirement
 * Collaborate effectively with UX Designers, Developers, and Designers
 * Be able to work with the rest of the community
 * Needs to have extensive knowledge of Rails
 * You share our [values](/handbook/#values), and work in accordance with those values.
+
+## Relevant links
+
+- [Engineering Handbook](/handbook/engineering)
+- [Engineering Workflow](/handbook/engineering/workflow)
