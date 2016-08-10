@@ -67,3 +67,23 @@
     outline: 0;
   }
 }
+
+.cta-btn {
+  display: inline-block;
+  padding: 0 30px;
+  margin: 10px;
+  font-size: 16px;
+  line-height: 40px;
+  min-width: 140px;
+  font-weight: 600;
+
+  &.red {
+    background-color: $color-secondary;
+    color: $color-white;
+  }
+
+  &.white {
+    background-color: $color-white;
+    color: $color-secondary;
+  }
+}

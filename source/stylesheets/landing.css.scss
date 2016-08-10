@@ -27,10 +27,50 @@
   }
 
   .landing-hero {
-    margin-bottom: 30px;
+    margin: 10px 0 70px;
 
     path {
       fill: $color-secondary;
+    }
+  }
+
+  .page-headline {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    color: $blueish-gray;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+}
+
+.dev-cycle-container {
+  margin-top: 70px;
+
+  svg {
+    height: 46px;
+    width: 46px;
+
+    path {
+      fill: $blueish-gray;
+    }
+  }
+
+  .step {
+    margin: 0 20px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .arrows {
+    position: absolute;
+    top: 15px;
+    right: -22px;
+
+    i {
+      color: $color-white;
+      margin-right: -3px;
     }
   }
 }
@@ -184,30 +224,6 @@
 
     &:hover {
       background-color: $landing-organization-color;
-    }
-  }
-}
-
-.what-is-twitter {
-  padding-top: 20px;
-
-  @media (min-width: 990px) {
-    padding-top: 60px;
-  }
-
-  @media (min-width: 1200px) {
-    padding-top: 80px;
-  }
-
-  a {
-    color: $color-secondary-alt;
-    text-decoration: none;
-    font-size: (20px / 16px) * 1em;
-    font-weight: 300;
-    border-bottom: 1px solid $color-secondary-alt;
-
-    &:hover {
-      border-bottom-color: transparent;
     }
   }
 }
