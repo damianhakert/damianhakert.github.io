@@ -319,14 +319,14 @@ Upon Sign-off, or existing signed quote, click on the Send to Z-billing button t
 1. Send it to the customer
 1. Upon Sign-off will click on the Send to Z-billing button to send the Quote over to Zuora
  
-### Creating a Quote for a Partner Use-case using the Invoice Owner Functionality - <a name="resellerQuote"></a>
-A reseller quote has a few different things than a rregular quote:
-* Quote Name Field:  append “via resellerName” to the Quote name (ie: “Quote for Federal Reserve via ReleaseTEAM” 
+### Creating a Quote for a Partner <a name="resellerQuote"></a>
+A reseller quote has a few different things than a regular quote:
+* Quote Name Field:  append “via reseller name” to the Quote name (ie: “Quote for Federal Reserve via ReleaseTEAM” 
 * Quote Template:  Needs to be a reseller template.  Since resellers cannot accept terms for their customers, the reseller template contains different language around acceptance.  There is currently an issue with the reseller templates  Please see [Workaround for the lack of a reseller quote template](#ResellerTemplateWorkaround) below
 * Sold To Contact and Bill To Contact fields both need to be a person at the end customer.  This is who will accept the EULA.
-* Invoice Owner Field:  This needs to be the resellers account.  If you do not see the reseller listed, then you need to send the SFDC URL of the reseller’s billing contact to finance and ask him to create an Invoice Owner record.	
-* Click Through EULA required: Set this to Yes.  This will cause a URL to be sent to the customer where they agree to our Terms and Conditions before getting their license key.  This is important as a reseller cannot agree to terms on behalf of the end user.  Alternativly, the reseller could obtain a physical signature and send it to you.
-* Discount: Authorised resellers all have pre-defined discounts from 15% to 25% depending upon the market they serve and the services they provide to gitlab.  GitHost is never discounted as our margin after paying Digital Ocean is very small.  We do not give discounts to fullfillment houses like SHI, Insights or other resellers that are not authorised resellers.  Reseller discounts can be found on the first page of the [Resellers List](https://docs.google.com/spreadsheets/d/1tQjPMRUuzsDR4mNj74aY-W8jBQH4u9h7PpEsw088Zx0/edit#gid=1395032632)
+* Invoice Owner Field:  This needs to be the resellers account.  If you do not see the reseller listed, then you need to send the SFDC URL of the reseller’s billing contact to finance and for an Invoice Owner record to be created.	
+* Click Through EULA required: Set this to Yes.  This will cause a URL to be sent to the customer where they agree to our Terms and Conditions before getting their license key.  This is important as a reseller cannot agree to terms on behalf of the end user.  Alternatively, the reseller could obtain a physical signature and send it to you.
+* Discount: Authorised resellers all have pre-defined discounts depending upon the market they serve and the services they provide to GitLab.  GitHost is never discounted as our margin after paying Digital Ocean is very small.  We do not give discounts to fullfillment houses like SHI, Insights or other resellers that are not authorised resellers.  Reseller discounts can be found on the first page of the [Resellers List](https://docs.google.com/spreadsheets/d/1tQjPMRUuzsDR4mNj74aY-W8jBQH4u9h7PpEsw088Zx0/edit#gid=1395032632)
 When in doubt please consult the reseller team.
 
 ### Workaround for the lack of a reseller quote template:<a name="ResellerTemplateWorkaround"></a>
@@ -336,7 +336,6 @@ When in doubt please consult the reseller team.
 4. Attach this new word doc to the opportunity
 5. Delete the original attachment
 6. Send the new attachment to the reseller contact with Sertifi as normal
-
 
 ### Closing a Won Deal <a name="closing"></a>
 
