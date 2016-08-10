@@ -17,9 +17,12 @@ a lot of loyal fans (many of whom are also contributors).
 
 While there’s no magic formula for getting people to like you, we think that
 some of it has to do with the values embedded in your company culture. Your company culture not only defines how your organization works together
-but it also defines how your team interacts with the outside world. It dictates the underlying philosophies for how you treat employees, customers, partners, suppliers, etc. 
-A great company culture can help you attact great talent and earn respect from your customers and partners. At GitLab, we take our culture very seriously
-and we are constantly working to maintain it as we grow. This post outlines the principles that we think make it
+but it also defines how your team interacts with the outside world. It dictates the underlying philosophies for how you treat employees, customers, partners, suppliers, etc.
+A great company culture can help you attact great talent and earn respect from your
+customers and partners. At GitLab, we take our culture very seriously
+and we are constantly working to maintain it as we grow. 
+
+This post outlines the principles that we think make it
 easier for people to become fans. Naturally, every company culture is unique so there are our thoughts on what works for us. We think there may be some learnings 
 here for your company as well. We could also learn from your culture so please comment on this post with what works for your company or team. 
 
@@ -40,8 +43,12 @@ If people have access to clear information about who we are and how we work,
 they can become better ambassadors for GitLab.
 That means, basically, knowing our values in a way that can be communicated forward.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My fave <a href="https://twitter.com/gitlab">@GitLab</a> handbook rule: family visible during chats is encouraged <a href="https://twitter.com/hashtag/Remoteworking?src=hash">#Remoteworking</a> <a href="https://t.co/GqC7V3sBPe">https://t.co/GqC7V3sBPe</a> <a href="https://t.co/lEakDljgYH">pic.twitter.com/lEakDljgYH</a></p>&mdash; Heather (@nearlythere) <a href="https://twitter.com/nearlythere/status/714878434455982080">March 29, 2016</a></blockquote>
+<div class="center">
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Possibly one of the best startup resources that I&#39;ve ever come across: <a href="https://twitter.com/gitlab">@GitLab</a>&#39;s Handbook, <a href="https://t.co/IU5Ee8voI3">https://t.co/IU5Ee8voI3</a>. Absolutely incredible.</p>&mdash; Omar Kassim (@okassim) <a href="https://twitter.com/okassim/status/753650731001999360">July 14, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</div>
 
 ## Be productive
 
@@ -52,14 +59,23 @@ in our work, because we value productivity.
 In short: don’t try to create a problem where there isn’t one; solve a real
 problem. And then do it again, and again, and again. People will appreciate it.
 
+![Be productive - thanks channel](/images/blogimages/building-a-culture-people-love-be-productive.png){: .shadow}
+
 ## Be collaborative
 
 One of our core values at GitLab is to contribute to the bigger project rather
 than guarding one corner of it. In one sense this is just a more efficient way
-to solve problems, by group-sourcing solutions.  We developed our public issue
-tracker to help make [collaboration][contribute] as easy as possible.
+to solve problems, by group-sourcing solutions. We developed our public issue
+tracker to help make [collaboration][1000] as easy as possible.
 But not surprisingly, collaboration also builds solidarity, goodwill, and
 loyal fans. Just one more reason to do it.
+
+<div class="center">
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Thanks <a href="https://twitter.com/gitlab">@gitlab</a> you make me feels special today :) Loved the handwritten message behind the card ! <a href="https://t.co/Enc1FejpTx">pic.twitter.com/Enc1FejpTx</a></p>&mdash; Stéphane HULARD (@s_hulard) <a href="https://twitter.com/s_hulard/status/760834353660366848">August 3, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</div>
 
 ## Be opinionated
 
@@ -101,3 +117,15 @@ opinion?
 [strategy]: https://about.gitlab.com/strategy/
 [handbook]: https://about.gitlab.com/handbook/
 [contribution]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md
+[1000]: /2016/05/24/1k-contributors/
+
+<style>
+  .center twitterwidget {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+</style>
