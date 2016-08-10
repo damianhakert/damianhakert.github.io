@@ -2,7 +2,7 @@
 title: "Building a Culture People Love"
 author: Sid Sijbrandij
 author_twitter: sytses
-categories: GitLab
+categories: inside GitLab
 image_title: '/images/unsplash/million_downloads.jpg'
 description: "Five principles that make it easier for people to love your company culture"
 ---
