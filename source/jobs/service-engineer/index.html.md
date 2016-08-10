@@ -5,38 +5,99 @@ title: "Service Engineer"
 The rising popularity of GitLab means that our professional services are in high demand.
 If you have the skills to help our clients we would love to talk to you.  
 
-We are looking for skilled people around the world. If you would love to 
+We are looking for skilled people around the world. If you would love to
 work from home and help GitLab grow, this is the right spot for you.
 
 ## Responsibilities
 
 * Engage with our customers—anything from a small advertising firm or a university, to Fortune 100 clients and
 help them with anything from a simple support ticket to a customer training
+* Triage customer issues and find workarounds if possible
+* Engage with the development team to escalate bugs, problems, or missing information
 * Communicate via email and video conferencing with potential and current clients
 * Maintain GitLab.com and our other services such as GitHost.io
 * Participate in the rotating "on-call" list to provide 24/7 emergency response availability
 * Ensure that everything we learn from running GitLab.com is set as default or communicated to our users
-* Write and update documentation based on customer interactions
+* Maintain documentation relating to troubleshooting and other knowledge gained via customer interactions
 * Submit and comment on feature requests based on customer interactions
 
 More information can be found on the [support page in the handbook](https://about.gitlab.com/handbook/support/).
 
 ### Junior Service Engineer
 
-Junior Service Engineer's responsibilities cover all the support channels that are
+* Junior Service Engineer's responsibilities cover all the support channels that are
 supported by a level 3 or 4 SLA, per the definitions on the [Support](/handbook/support/#sla) page.
+* Contribute with documentation 
+* Manage Feature Proposals created through their user interactions
+* Manage Bug reports created through their user interactions
+* Technical Skills
+    * Able to triage basic GitLab issues
+    * Able to perform basic UNIX/GitLab system administration
+    * Able to solve customer tickets in a timely fashion
+* Communication
+    * Able to communicate clearly with customers on technical topics
+    * Able to escalate issues to the right people
+    * Keeps issues up-to-date with progress
+    * Follows up with outstanding issues
+    * Documents relatively simple answers in issues and GitLab documentation
+    * Makes customers happy
+    
+### Service Engineer 
+
+* All Junior Service Engineer responsibilities with less time invested on SLA 3 and SLA 4
+* Participate in the On-call schedule 
+* Work on SLA 1 emergency and security tickets
+* Work on SLA 2 customer tickets 
+* Maintain GitLab.com and other services such as GitHost.io 
+* Technical Skills
+    * Able to triage intermediate GitLab issues and resolve them
+    * Able to perform intermediate UNIX/GitLab system administration
+    * Can identify relatively challenging bugs/issues with GitLab
+    * Can submit merge requests for basic GitLab bugs/problems
+* Workflow
+    * Reliably answers on-call emergencies 
+    * Exceeds SLAs consistently
+* Communication
+    * Documents relatively challenging answers in issues and GitLab documentation
+    * Helps ensure that tickets are closed in a timely manner
+    * Contributes with training material/sessions
 
 ### Senior Service Engineer
 
-Senior Service Engineers are experienced Service Engineers who
+* All Service Engineer responsibilities 
+* Able to cover all channels
+* Help train new service engineers 
+* Improve the support workflow (ZenDesk)
+* Contributes to complementary projects (e.g. GitLab University, etc.)
+* Maintains good ticket performance
+* Write blog articles
+* Take ownership of documentation and feature requests that is based on customer interactions
+* Improve the support process (on-boarding, training, escalation, etc)
+* Technical Skills
+    * Have deep knowledge of GitLab internals and a variety of possible configurations
+    * Able to perform complex UNIX/GitLab system administration
+    * Can debug challenging bugs with GitLab
+    * Can submit merge requests for advanced GitLab bugs/problems
+* Leadership
+    * Help hire and train new Service Engineers
+    * Are a go-to person for the other Service Engineers when they face tough challenges
+* Communication      
+    * Take ownership of documentation
+    * Drives feature requests based on customer interactions  
 
-* have deep knowledge of GitLab internals and a variety of possible configurations
-* help hire and train new Service Engineers
-* are a go-to person for the other Service Engineers when they face tough challenges
-* improve the support process (Optimize Zendesk flow, suggest rake task additions)
-* write blog articles
-* take ownership of documentation and feature requests that is based on customer interactions
-* create merge requests to fix bugs
+### Staff Engineer
+
+* All Senior Service Engineer responsibilities 
+* Help hire service engineers as part of the interview process
+* Good ticket performance
+* Good ticket satisfaction 
+* Maintains complementary project
+* Contributes to GitLab regularly 
+* Technical Skills
+    * Can solve most support tickets in a reasonable time without escalating to development
+    * Specializes in multiple topics (e.g. LDAP, Jenkins/CI integration, Geo)
+    * Should submit or review MRs with development for customer GitLab bugs/issues
+
 
 ## Requirements for Applicants
 
@@ -46,3 +107,5 @@ Senior Service Engineers are experienced Service Engineers who
 * Good people skills
 * Excellent spoken and written English
 * You share our [values](/handbook/#values), and work in accordance with those values
+* [A technical interview](/jobs/#technical-interview) is part of the hiring process for this position.
+* A customer scenario interview is part of the hiring process for this position.

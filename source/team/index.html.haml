@@ -6,7 +6,7 @@ extra_css:
   - team.css
 image_title: /images/team/team.jpg
 ---
--# THE MEMBER CONTENT FOR THIS PAGE IS IN THE team.yml FILE
+-# THE MEMBER CONTENT FOR THIS PAGE IS IN THE data/team.yml FILE
 .hidden-xs.teleport-thing
   %iframe{frameborder: "0", height: "500", scrolling: "no", src: "https://sundial.teleport.org/public/map/Y3IahPR5vYjBpMyU2kZj?mousescroll=false", width: "100%"}
 .wrapper
@@ -16,10 +16,12 @@ image_title: /images/team/team.jpg
         MEET OUR
         %b TEAM
       %p
-        The GitLab Inc. team consists of the following #{data.team.size} individuals in
-        #{data.team.group_by(&:country).size} countries,
-        and their #{data.pets.size} #{link_to('pets', '/team-pets')}.
-        This page also lists who people report to, and on a separate page we
+        More than 1200 people have #{link_to('contributed to GitLab', 'http://contributors.gitlab.com/')}.
+        The GitLab Inc. team consists of the following #{data.team.size} team members and their
+        #{link_to("#{data.pets.size} pets", '/team-pets')}.
+        We're a #{link_to('remote only', 'http://www.remoteonly.org/')} organization
+        and we currently have team members in #{data.team.group_by(&:country).size} countries.
+        This page lists who people report to, and on a separate page we
         detail the #{link_to('team structure', '/team/structure')}.
         You can get a sense of the team culture by visiting our
         #{link_to('culture page', '/culture')}.
@@ -35,7 +37,7 @@ image_title: /images/team/team.jpg
               %br/
               %p{style: "text-align: center; padding: 0 25px;"}
                 Want to see your name and picture here? Check out our latest
-                %a{href: "http://about.gitlab.com/jobs/"} job openings!
+                %a{href: "https://about.gitlab.com/jobs/"} job openings!
               .social
                 %a{href: "https://twitter.com/gitlab"}
                   %i.fa.fa-twitter

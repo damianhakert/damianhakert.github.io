@@ -1,7 +1,7 @@
 ---
 title: "GitLab 8.8.5 released"
-author: GitLab
-author_twitter: gitlab
+author: Stan Hu
+author_twitter: stanhu
 ---
 
 Today we are releasing the versions 8.8.5, 8.7.7, 8.6.9, 8.5.13, 8.4.11,
@@ -79,7 +79,7 @@ To update, check out our [update page](https://about.gitlab.com/update).
 ## Enterprise Edition
 
 Interested in GitLab Enterprise Edition? Check out the [features exclusive to
-EE](http://about.gitlab.com/features/#enterprise).
+EE](https://about.gitlab.com/features/#enterprise).
 
 Access to GitLab Enterprise Edition is included with a [subscription](https://about.gitlab.com/subscription).
 No time to upgrade GitLab yourself? Subscribers receive upgrade and installation

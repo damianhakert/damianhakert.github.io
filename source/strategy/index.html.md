@@ -48,7 +48,7 @@ Everyone can contribute to digital products with GitLab, to GitLab itself, and t
 
 We want to achieve our goals in the following order:
 
-1. In 2015 we became the most popular on on-premises software development lifecycle solution and we want to continue that.
+1. In 2015 we became the most popular on-premises software development lifecycle solution and we want to continue that.
 
 2. We want to become the most revenue generating on-premises software development lifecycle solution
 
@@ -133,7 +133,7 @@ While we achieve our goals one by one this doesn't mean we will focus on only on
 
 ## Revenue 2016
 
-1. Triple ARR (Annual Recurring Revenue) in 2016&17&18, double it in 2019&20.
+1. Triple ARR (Annual Recurring Revenue) in 2016&17, double it in 2019&20 ([T2D3](https://techcrunch.com/2015/02/01/the-saas-travel-adventure/)).
 
 2. Enable sales to provide more effective product demonstrations, share use case stories and create custom solutions and proposals.
 
@@ -183,7 +183,7 @@ While we achieve our goals one by one this doesn't mean we will focus on only on
 
 ## People Operations 2016
 
-1. Develop great recruiting, hiring, onboarding, offboarding practices with full time [Director/VP of People Operations](https://about.gitlab.com/jobs/dir-or-vp-of-people-ops/) and [Coordinator(s)](https://about.gitlab.com/jobs/people-ops-coordinator/).
+1. Develop great recruiting, hiring, onboarding, offboarding practices with full time [Sr. Director of People Operations](https://about.gitlab.com/jobs/senior-director-of-people-operations/) and [Coordinator(s)](https://about.gitlab.com/jobs/people-ops-coordinator/).
 
 1. Maintain company in compliance and adopt / adapt policies as the company scales with a globally distributed team.
 
@@ -204,7 +204,7 @@ a lot of support to others in the community.
 
 3. Make service engineering onboarding and training a mostly self-guided experience that scales.
 
-4. Reduce the demand for support by improved documentation, training, tutorials, and
+4. Empower users through improved documentation, training, tutorials, and
 community engagement.
 
 ## Production Engineering 2016

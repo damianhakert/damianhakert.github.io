@@ -1,6 +1,7 @@
 ---
 title: "GitLab 7.12.1 patch release"
 date: 2015-07-01
+categories: release
 author: Jacob Vosmaer
 author_twitter: jacobvosmaer
 ---

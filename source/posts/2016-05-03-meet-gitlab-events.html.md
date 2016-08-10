@@ -5,6 +5,7 @@ comments: true
 author: Emily Kyle
 author_twitter: emilylucie
 image_title: '/images/blogimages/eventspic.jpg'
+categories: events
 ---
 
 May is a very busy and exciting events month for our [team]! Since we are a remote first company, we rarely get to meet in person, but this month the whole team is meeting in Austin, TX for OSCON. The last time we met was in October and since then the team has grown significantly. We get to meet each other face to face for the first time and hopefully get to see some of you throughout the month as well.

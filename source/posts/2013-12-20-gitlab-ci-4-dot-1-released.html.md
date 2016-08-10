@@ -2,7 +2,7 @@
 title: "GitLab CI 4.1 released"
 date: 2013-12-20 13:22
 author: Dmitriy Zaporozhets
-categories:
+categories: release
 community: true
 ---
 

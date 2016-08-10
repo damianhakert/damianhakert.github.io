@@ -35,10 +35,14 @@ that are added during the year you pay half price when you renew.
 
 ### The True-Up model seems complicated, can you illustrate?
 
-If you have 100 active users today, you should purchase a 100 user subscription.
-Suppose that when you renew next year you have 300 active users (200 extra
-users). When you renew you pay for a 300 user subscription and you also pay half
-a year for the 200 users that you added during the year.
+Under the true-up model you pay 50% of the annual cost of a license upon your renewal for the maximum number of users added during the year
+and you renew for that same amount of users or higher. Example, if you have 100 active users today, you should purchase a 100 user subscription.
+Suppose that when you renew next year you have added 300 users during the year (200 additonal users). When you renew you pay for the maximum user 
+count, 300, and you also pay half a year for the additional 200 users that you added during the year.
+
+Example
+* Original 100 seats @ $39 = $3900
+* Upon renewal additional 200 users added for a total of 300 users.  300 users x $39 = $11,700 + 200 additional users x $19.50 ($39/2) = $3,900 for a total amount at renewal of $15,600
 
 ### Do students have to pay or do they receive a discount?
 

@@ -43,6 +43,7 @@ task :new_post, :title do |t, args|
     post.puts "author_twitter: "
     post.puts "categories: "
     post.puts "image_title: "
+    post.puts "description: "
     post.puts "---"
   end
 end
@@ -74,6 +75,56 @@ task :new_release_post, :version do |t, args|
 
   open(filename, 'w') do |post|
     post.puts template_text
+  end
+end
+
+desc "Create a new press release"
+task :new_press, :title do |t, args|
+  data_dir = File.expand_path('../data', __FILE__)
+
+  puts "Enter a date for the press release (ISO format, example: 2016-12-30): "
+  date = STDIN.gets.chomp
+  puts "Enter a title for the press release: "
+  title = STDIN.gets.chomp
+
+  filename = "source/press/releases/#{date}-#{title.to_url}.html.md"
+  puts "Creating new press release: #{filename}"
+  open(filename, 'w') do |pressrel|
+    pressrel.puts "---"
+    pressrel.puts "layout: markdown_page"
+    pressrel.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+    pressrel.puts "---"
+    pressrel.puts ""
+  end
+
+  press_yml = "#{data_dir}/press.yml"
+  puts "Populating data/press.yml"
+  open(press_yml, 'a') do |yaml|
+    yaml.puts ""
+    yaml.puts "- title: \"#{title.gsub(/&/,'&amp;')}\""
+    yaml.puts "  link: #{date}-#{title.to_url}.html"
+    yaml.puts "  date: #{date}"
+  end
+end
+
+desc "Add an existing press release to the archive"
+task :add_press, :title do |t, args|
+  data_dir = File.expand_path('../data', __FILE__)
+
+  puts "Enter a date for the press release (ISO format, example: 2016-12-30): "
+  date = STDIN.gets.chomp
+  puts "Enter a title for the press release: "
+  title = STDIN.gets.chomp
+  puts "Enter the URL of the press release: "
+  link = STDIN.gets.chomp
+
+  press_yml = "#{data_dir}/press.yml"
+  puts "Populating data/press.yml"
+  open(press_yml, 'a') do |yaml|
+    yaml.puts ""
+    yaml.puts "- title: \"#{title}\""
+    yaml.puts "  link: #{link}"
+    yaml.puts "  date: #{date}"
   end
 end
 

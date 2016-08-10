@@ -1,0 +1,29 @@
+---
+layout: default
+title: Press releases
+suppress_header: true
+extra_css:
+  - press.css
+---
+
+.wrapper
+  .press-container
+    .press-content
+      %h1 GitLab in the news
+      %h3
+        Press releases and GitLab mentions
+.sub-wrapper
+  .container.text-center
+    %p
+      Up one level to the
+      %a{href: "/press/"} Press and Logos
+      page.
+.blog-index.blog-entry
+  %ul.post-list
+    - data.press.sort_by(&:date).reverse.each do |pr|
+      %li.post-list-item
+        = link_to pr.link do
+          = pr.title
+        - if pr.date
+          %time
+            = pr.date.to_time.strftime '%b %e, %Y'

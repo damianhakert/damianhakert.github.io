@@ -29,10 +29,11 @@ pre {
   box-shadow: 0 3px 3px rgba($color-dark, .1);
 }
 
-.blog-entry {
+.blog-entry,
+.md-page {
   margin-right: auto;
   margin-left: auto;
-  max-width: 760px;
+  max-width: 900px;
   font-size: 16px;
   word-wrap: break-word;
 
@@ -63,8 +64,6 @@ pre {
 
   li {
     color: $blog-text-color;
-    line-height: 2.9rem;
-    padding-bottom: 4px;
   }
 
   .image-title h1 a {
@@ -117,20 +116,20 @@ pre {
     color: $blog-text-color;
     line-height: 1.5;
     margin: 0 0 20px;
-  }
 
-  blockquote {
-    p {
-      font-size: 16px;
+    &.note {
+      font-size: 14px;
       font-style: italic;
       color: $blog-notes-color;
     }
   }
 
-  .note {
-    font-size: 14px;
-    font-style: italic;
-    color: $blog-notes-color;
+  blockquote {
+    p {
+      font-size: 16px;
+      font-style: normal;
+      color: $blog-notes-color;
+    }
   }
 
   .table-responsive {
@@ -250,7 +249,7 @@ pre {
   background: $color-primary;
   color: $color-white;
   font-size: 24px;
-  margin: 30px 0;
+  margin: 20px 0;
 
   a {
     position: relative;
@@ -397,3 +396,33 @@ pre {
     }
   }
 }
+
+.blog-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.note {
+  font-size: 14px;
+  font-style: italic;
+  color: $blog-notes-color;
+}
+
+//scss-lint:disable SelectorFormat
+.video_container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0;
+  height: 0;
+
+  iframe,
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+//scss-lint:enable SelectorFormat

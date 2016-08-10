@@ -1,7 +1,7 @@
 ---
 title: "GitLab 8.7 released with Due Date for Issues and Remote Mirrors"
 date: 2016-04-22
-categories:
+categories: release
 author: Job van der Voort
 author_twitter: Jobvo
 image_title: /images/8_7/ny.jpg

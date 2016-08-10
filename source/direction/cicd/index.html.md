@@ -5,8 +5,6 @@ title: "GitLab CI/CD Vision"
 
 ## Preamble
 
-As I write this on 2016-05-03, this represents only the views of one person, Mark Pundsack. In some ways, I'm doing this to expose my biases so they can be understood and validated or invalidated.
-
 Many of the examples describe development of an n-tier web app, but could equally be applied to an iOS app, Ruby gem, static website, or other type of project.
 
 ## Scope

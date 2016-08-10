@@ -6,7 +6,7 @@ layout: default
 .blog-index.blog-entry
   %ul.post-list
     - page_articles.each do |post|
-      %li
+      %li.post-list-item
         = link_to post.url do
           = post.title
         - if post.date

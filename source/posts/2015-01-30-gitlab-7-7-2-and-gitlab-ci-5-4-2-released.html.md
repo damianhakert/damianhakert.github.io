@@ -1,7 +1,7 @@
 ---
 title: "GitLab 7.7.2 and GitLab CI 5.4.2 Released"
 date: 2015-01-30
-categories:
+categories: release
 author: Job van der Voort
 ---
 
@@ -37,7 +37,7 @@ To upgrade a GitLab CI installation from source, please use the [upgrade guide](
 Omnibus packages for GitLab Enterprise Edition 7.7.2 and GitLab CI 5.4.2 are available for subscribers [here](https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/install/packages.md). For installations from source, use [this guide](https://gitlab.com/subscribers/gitlab-ee/blob/master/doc/update/patch_versions.md).
 
 Interested in GitLab Enterprise Edition?
-For an overview of feature exclusive to GitLab Enterprise Edition please have a look at the [features exclusive to GitLab EE](http://about.gitlab.com/features/#enterprise).
+For an overview of feature exclusive to GitLab Enterprise Edition please have a look at the [features exclusive to GitLab EE](https://about.gitlab.com/features/#enterprise).
 
 Access to GitLab Enterprise Edition is included with a [subscription](http://www.gitlab.com/subscription/).
 No time to upgrade GitLab yourself?

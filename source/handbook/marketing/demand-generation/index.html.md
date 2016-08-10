@@ -4,12 +4,12 @@ title: "Demand Generation"
 ---
 # Welcome to the Demand Generation Handbook  
 
-The Demand Generation organization includes Demand Generation, Business Development, and Online Marketing.   
-
-[Up one level to the Marketing Handbook](/handbook/marketing)
+The Demand Generation organization includes Demand Generation, Business Development, Field Marketing, and Online Marketing.   
 
 ## On this page
 * [References](#references)
+* [Campaigns](#campaigns)
+* [Campaign Brief Process](#campaignbrief)
 * [Inbound Lead Flow](#leadFlow)
 * [Lead Qualification Process](#leadQual)
 * [Soft-BANT](#bant)
@@ -23,20 +23,39 @@ The Demand Generation organization includes Demand Generation, Business Developm
 * [Marketo Tools Server](#marketoTools)
 * [Sales and Community Group Emails](#groupEmail)
 * [Newsletters](#newsletters)
+* [Webcasts](#webcasts)
 
 ## Demand Generation Handbooks:  
 
 - [Demand Generation](/handbook/marketing/demand-generation/)  
 - [Online Marketing](/handbook/marketing/demand-generation/online-marketing/)  
 - [Business Development](/handbook/marketing/demand-generation/business-development)  
+- [Field Marketing](/handbook/marketing/demand-generation/field-marketing/)
+- [Marketing Operations](/handbook/marketing/demand-generation/marketing-operations/)  
 
 ## References<a name="references"></a>
 
+ - [July 2016 Demand Org Structure](https://docs.google.com/presentation/d/1yTly27oKyz1OW8L8L6jDv_3waxtgGNvfItDxBWCB9XU/edit?usp=sharing)
 - [Q1 ‘16 Lead Generation.pptx](https://docs.google.com/presentation/d/1ePns2ln0bLb_SPodXkYC13HEWRoVrJzsOrHQ3aGWio0/edit#slide=id.p5)
 - [Point webhook from mailchimp to marketo issue](https://gitlab.com/gitlab-com/www-gitlab-com/issues/427)
 - [Replace wufoo forms with Marketo forms](https://gitlab.com/gitlab-com/www-gitlab-com/issues/422)
 - [Marketo webhooks docs](http://developers.marketo.com/documentation/webhooks/)
 - [Recurly data into Marketo](https://gitlab.com/gitlab-com/www-gitlab-com/issues/526)
+
+## Campaigns<a name="campaigns"></a>
+Demand Gen is responsible for executing marketing campaigns for GitLab.  We define a campaign as any programmed interaction with a user, customer, or prospect.  For each campaign, we will create a campaign brief that outlines the overall strategy, goals, and plans for the campaign.
+
+## Campaign Brief Process<a name="campaignbrief"></a>
+To create a campaign brief, first start with the [campaign brief template](https://docs.google.com/a/gitlab.com/document/d/1GttZqr7sjuvP9kWuIPfbif2b2VyNJtbN8CbL4tKJX2Q/edit?usp=sharing).  Fill out all fields in the brief as completely as possible.  Certain fields might not be applicable to a particular campaign.  For example, an email nurture campaign leveraging text based emails won’t have a visual design component.  This field can be left blank in that example. 
+
+Once the campaign brief is filled out, create an issue in the GitLab Marketing project and link to the campaign brief.
+
+On the GitLab issue, make sure to:
+* Tag all stakeholders
+* Use the Marketing Campaign label
+* Set the appropriate due date (the due date should be the campaign launch date)
+* If there are specific deliverables, create a todo list in the issue description for each stakeholder along with a due date
+
 
 ## Inbound Lead Flow<a name="leadFlow"></a>
 
@@ -58,8 +77,9 @@ The Demand Generation organization includes Demand Generation, Business Developm
 6. If Soft-BANT isn't met and there are questions, BDR team will answer all questions or route to support.
 7. If there are no questions and lead isn't qualified yet, the lead status is updated appropriately. See "lead status" above.
 8. If a lead is from a [Fortune 500 company](http://fortune.com/fortune500/), it will be assigned to a senior account executive.  For larger opportunities outside the US, lead will be passed to senior account executive or sales director in region.
-9. If a lead is an existing customer or a prospect that's owned/operated by an existing customer, BDR team will determine account owner and pass lead.
-10. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
+9. If a lead is an existing customer or a prospect that's owned/operated by an existing customer _but is not using EE_, BDR team will determine account owner and pass lead.
+10. If a lead is from an existing account _and is using EE_, the BDR will convert the lead to a contact in SFDC (making sure to check the “Do not create a new opportunity” box) and @mention the lead owner in SFDC to let them know of the new contact. No need to connect the lead with the owner via email.
+11. If a lead is from a company that is already in Salesforce, BDR team will determine account owner and pass lead.
 
 ## Soft-BANT<a name="bant"></a>
 
@@ -165,3 +185,56 @@ Current state
 
 - We currently send out two newsletters a month. One is is on the second Tuesday of the month and the other is on the monthly release day (22nd).
 - The newsletters are scheduled to go out between 8 and 9 am Pacific time.
+
+
+
+We generally create the issue and Marketo program for the newsletter at least a week in advance of it being sent out. This gives us ample time decide which content will go into the newsletter. The Marketo program is created by cloning the previous newsletter that was sent out.
+
+Currently, the newsletter consists of four blocks of content. Each block of content consists of the following:
+- Title/topic
+- Link and call-to-action
+- Description/copy
+
+For example:
+
+![newsletter block example](https://about.gitlab.com/images/handbook/marketing/newsletter-example-block.png)
+
+The different content ideas are placed in the newsletter issue using the following format:
+
+```
+[Required] title/topic:
+
+link:
+
+copy:
+
+[Required] link is live/available as of this comment? YES/NO
+```
+
+After the content for the newsletter is finalized, build out the newsletter in Marketo. Be sure to update all the links with the appropriate UTM tracking parameters.
+
+Once the newsletter content is updated, send a test email to `marketing@gitlab.com` and `robert@gitlab.com` and get feedback from everyone on copy, links, layout, etc. Implement whatever changes need to be made and send new test emails until the email is ready. Once it's ready, schedule the email within Marketo.
+
+## Webcasts<a name="webcasts"></a>
+
+1. Create webcast in On24
+   - Once the webcast is created, capture the `Event ID` from the overview page.
+   - Make sure to turn off all email notifications within On24 as these will be handled by Marketo
+   - Under the `Registration` tag, under `Options`, check the `Enable Login Only Option`
+2. Clone the most recent webcast in Marketo
+   - Title the webcast in the following format: `July 27 2016 Webcast {Webcast Title}`. For example, July 27 2016 Webcast Security Webcast w/ Yubico
+   - On the webcast summary page, set the event partner with the following information:
+      - Event Partner: ON24
+      - Login: ON24
+      - Event Id: The ID of the event from the On24 platform
+3. Update `My Tokens` at the webcast program level
+   - Update the add to calendar tokens
+      - Create an event in Google Calendar and copy the link from `Publish Event`
+      - Update the information in the iCal and Outlook calendar files (these will be identical)
+   - Update the event date and time
+   - Update the email body with the description of the webcast
+4. Schedule the reminder emails
+   - In the reminders folder, select each of the smart campaigns to send the emails
+   - Under the `Smart List` tab, change the date of activity to not send the email if the user has registered for the webcast within the last 48 hours of when the email will send
+   - Under the `Schedule` tab, schedule the email to go out at the appropriate time based on the smart campaign you are editing
+5. Edit the landing page to have the appropriate webcast description, date, and time.

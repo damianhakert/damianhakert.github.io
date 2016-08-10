@@ -8,15 +8,25 @@
   apply: https://gitlab.workable.com/jobs/242362/candidates/new
   open: true
 
+- title: "Accounting Manager"
+  description: /jobs/accounting-manager/
+  apply: https://gitlab.workable.com/jobs/285650/candidates/new
+  open: true
+
 - title: "Backend Developer"
   description: /jobs/developer/
   apply: https://gitlab.workable.com/jobs/106660/candidates/new
   open: true
 
+- title: "Business Development Representative"
+  description: /jobs/business-development-representative/
+  apply: https://gitlab.workable.com/jobs/198792/candidates/new
+  open: true
+
 - title: "Content Marketing Manager"
   description: /jobs/content-marketing-manager/
-  apply: https://gitlab.workable.com/jobs/252104/candidates/new
-  open: true
+  apply:
+  open: false
 
 - title: "Director Customer Success"
   description: /jobs/dir-customer-success/
@@ -28,19 +38,34 @@
   apply: https://gitlab.workable.com/jobs/181461/candidates/new
   open: true
 
-- title: "General Ledger Accountant (part time)"
-  description: /jobs/general-ledger-accountant/
+- title: "Senior Accountant (part time)"
+  description: /jobs/senior-accountant/
   apply: https://gitlab.workable.com/jobs/260762/candidates/new
   open: true
 
+- title: "Marketing Operations Manager"
+  description: /jobs/marketing-operations-manager/
+  apply:
+  open: false
+
 - title: "People Operations Coordinator"
   description: /jobs/people-ops-coordinator/
-  apply: https://gitlab.workable.com/jobs/220106/candidates/new
+  apply:
+  open: false
+
+- title: "Sr. Director of People Operations"
+  description: /jobs/senior-director-of-people-operations/
+  apply:
+  open: false
+
+- title: "Product Manager"
+  description: /jobs/product-manager
+  apply:
   open: true
 
-- title: "Director/VP of People Operations"
-  description: /jobs/dir-or-vp-of-people-ops/
-  apply: https://gitlab.workable.com/jobs/234625/candidates/new
+- title: "Product Marketing Manager"
+  description: /jobs/product-marketing-manager-partner/
+  apply: https://gitlab.workable.com/jobs/285177/candidates/new
   open: true
 
 - title: "Production Engineer"
@@ -48,14 +73,14 @@
   apply: https://gitlab.workable.com/jobs/142989/candidates/new
   open: true
 
-- title: "Product Manager"
-  description: /jobs/product-manager/
-  apply: https://gitlab.workable.com/jobs/269007/candidates/new
-  open: true
+- title: "Director of Sales Operations"
+  description: /jobs/director-sales-operations/
+  apply:
+  open: false
 
-- title: "Sales Operations Manager"
-  description: /jobs/sales-operations-manager/
-  apply: https://gitlab.workable.com/jobs/236037/candidates/new
+- title: "Security Engineer"
+  description: /jobs/security-engineer/
+  apply: https://gitlab.workable.com/jobs/278602/candidates/new
   open: true
 
 - title: "Service Engineer"
@@ -68,8 +93,8 @@
   apply: https://gitlab.workable.com/jobs/242971/candidates/new
   open: true
 
-- title: "Software Packaging Engineer"
-  description: /jobs/software-packaging-engineer
+- title: "Build Engineer"
+  description: /jobs/build-engineer
   apply: https://gitlab.workable.com/jobs/271316/candidates/new
   open: true
 
@@ -77,3 +102,29 @@
   description: /jobs/ux-designer/
   apply: https://gitlab.workable.com/jobs/227708/candidates/new
   open: true
+
+- title: "UX Lead"
+  description: /jobs/ux-lead/
+  apply: https://gitlab.workable.com/jobs/279434/candidates/new
+  open: true
+
+- title: "Junior Designer"
+  description: /jobs/junior-designer/
+  apply: https://gitlab.workable.com/jobs/296974
+  open: true
+
+- title: "Director of Developer Relations"
+  description: /jobs/director-developer-relations/
+  apply: https://gitlab.workable.com/jobs/269330
+  open: true
+
+- title: "Open Application"
+  description: /jobs/open-application/
+  apply: https://gitlab.workable.com/jobs/298091
+  open: true
+
+- title: "Business Development Representative - Outbound"
+  description: /jobs/business-development-representative-outbound/
+  apply: https://gitlab.workable.com/jobs/308669/candidates/new
+  open: true
+  
