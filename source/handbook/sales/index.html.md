@@ -67,6 +67,28 @@ Before a lead is converted or an opportunity is created the following must occur
 * Interest by GitLab salesperson to pursue the opportunity
 * If you have given a quote (pricing) please convert as this is now a sales opportunity
 
+### Reseller Opportunities <a name="reseller"></a>
+
+Opportunities utilising a reseller require slightly different data:
+
+* Opportunity Name:  
+If the partner is an authorised reseller, rename the opportunity with the partner’s nick-name in front, then a dash.  For instance; if it is a Perforce deal, the opportunity name should start with P4 - (whatever your opportunity name is)  This is important for the workflow that solicits updates from the reseller.  
+
+* Account Name:  
+It is important that opportunities using a reseller are created on the END CUSTOMER’s account, and not the reseller’s account.  The account name on an opportunity is never a reseller.  Resellers do not buy licenses; they purchase them on the behalf of an end customer.  For instance, the account name field on an opportunity should never be SHI.
+
+* Opportunity Owner:  
+Should be the name of the AE who is working the deal with the reseller
+
+* Associating Contact Roles:  
+After creating the opportunity, click “New” in the contact section to associate contacts with the opportunity.
+- The primary contact should always be a contact at the end user’s account and not a contact at the reseller.  This is important as resellers come and go, and if we do not capture the contact at the end user account, we will not be able to sell to this account if the reseller ends their relationship with us or with the end account.
+- A reseller contact (say, the sales rep at ReleaseTEAM) can, and should be added to the opportunity with the role of Influencer.  NOTE: A contact that works for a reseller should never be added to an end user account.  For instance an employee of SoftwareOne should be a contact of the SoftwareOne account only, and not the Boeing account.  
+
+* Associating Partners to an Opportunity:  
+After creating the opportunity, click “New” in the Partners section to associate the reseller with the opportunity.
+- You can associate multiple partners with an opportunity if there is more than one reseller involved in the opportunity.  This is not uncommon for government opportunities, or opportunities where the customer is asking multiple fulfillment houses (like SHI and SoftwareOne) to fulfill the order.
+
 ### Opportunity Naming Convention <a name="naming"></a>
 
 Opportunities will follow the following rules:
