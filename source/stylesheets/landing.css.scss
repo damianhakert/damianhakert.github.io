@@ -29,15 +29,7 @@
   .landing-hero {
     margin-bottom: 30px;
 
-    .illustration-stroke {
-      fill: transparent;
-      stroke: $color-secondary;
-      stroke-width: 2;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-
-    .illustration-fill {
+    path {
       fill: $color-secondary;
     }
   }
