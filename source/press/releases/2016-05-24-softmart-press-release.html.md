@@ -1,7 +1,7 @@
- ---
- layout: markdown_page
- title: "GitLab adds SoftMart, Ltd. to Global Partnership Program"
- ---
+---
+layout: markdown_page
+title: "GitLab adds SoftMart, Ltd. to Global Partnership Program"
+---
  
  San Francisco (May 24th, 2016) – Today, GitLab announced a partnership with SoftMart, Ltd., a leading authority on application lifecycle management, 
  development tools, and consulting services in Russia. SoftMart, Ltd. will now sell and support GitLab products as part of their portfolio. 
