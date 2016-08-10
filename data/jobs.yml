@@ -98,6 +98,11 @@
   apply: https://gitlab.workable.com/jobs/271316/candidates/new
   open: true
 
+- title: "UX Designer"
+   description: /jobs/ux-designer/
+   apply: 
+   open: false
+
 - title: "UX Lead"
   description: /jobs/ux-lead/
   apply: https://gitlab.workable.com/jobs/279434/candidates/new
