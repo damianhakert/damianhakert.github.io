@@ -2,7 +2,7 @@
 layout: markdown_page
 title: "GitLab Onboarding"
 ---
-
+ 
 ## Other pages
 
 * [Sales onboarding](/handbook/sales-onboarding)
