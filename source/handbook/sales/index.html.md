@@ -16,6 +16,7 @@ title: "Sales Handbook"
 * [GitLab Version Check](#version_check)
 * [Parent and Child Accounts](#parent)
 * [When to create an Opportunity](#opportunity)
+* [Reseller Opportunities](#reseller)
 * [Opportunity Naming Convention](#naming)
 * [Opportunity Types](#types)
 * [Opportunity Stages](#stages)
