@@ -25,20 +25,48 @@ extra_js:
     %a.btn.cta-btn.white{href: "/features"}
       Learn More
 
-    .dev-cycle-container
-      .cycle-icon-row.hidden-sm
-        - steps = ['idea', 'issue', 'plan', 'code', 'commit', 'test', 'review', 'staging', 'production']
-        - steps.each_with_index do |step, index|
-          .step
-            = partial "images/home/icon-step-#{index + 1}.svg"
+
+    .dev-cycle.cycle-icon-row.hidden-xs.hidden-sm
+      - steps = ['idea', 'issue', 'plan', 'code', 'commit', 'test', 'review', 'staging', 'production']
+      - steps.each_with_index do |step, index|
+        .step
+          = partial "images/home/icon-step-#{index + 1}.svg"
+          .step-name-container
             .step-name
               #{step}
-            .arrows
-              %i.fa.fa-angle-right
-              %i.fa.fa-angle-right
-        .step
-          = partial "images/home/icon-step-10.svg"
+          .arrows
+            %i.fa.fa-angle-right
+            %i.fa.fa-angle-right
+      .step
+        = partial "images/home/icon-step-10.svg"
+        .step-name-container
           .step-name feedback
+
+
+.dev-cycle.cycle-vertical
+  - cycle_items = [{name:'idea', description: 'Start with a conversation'},
+                   {name:'issue', description: 'Turn ideas into issues'},
+                   {name:'plan', description: 'Visualize your plans'},
+                   {name:'code', description: 'Contribute right away'},
+                   {name:'commit', description: 'Kick off the feedback process'},
+                   {name:'test', description: 'Run tests and monitor progress'},
+                   {name:'review', description: 'Get feedback from your peers'},
+                   {name:'staging', description: 'Name your environment and deploy to it'},
+                   {name:'production', description: 'Close the loop by deploying from the initial chatroom'}]
+  - cycle_items.each_with_index do |item, index|
+    .step
+      = partial "images/home/icon-step-#{index + 1}.svg"
+      .step-name
+        #{item[:name]}
+      .description
+        #{item[:description]}
+      .line-container
+        = partial "images/home/icon-line.svg"
+  .step
+    = partial "images/home/icon-step-10.svg"
+    .step-name feedback
+    .description Learn from the process and get better each time
+
 
 
 = partial "includes/organizations/grid"

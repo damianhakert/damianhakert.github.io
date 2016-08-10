@@ -198,6 +198,12 @@ iframe {
   @media (min-width: 1200px) {
     padding-bottom: 120px;
   }
+
+  &.landing-container {
+    @media (min-width: 1200px) {
+      padding-bottom: 70px;
+    }
+  }
 }
 
 .featured-item {
