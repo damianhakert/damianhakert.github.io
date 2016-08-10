@@ -16,6 +16,7 @@ title: "Sales Handbook"
 * [GitLab Version Check](#version_check)
 * [Parent and Child Accounts](#parent)
 * [When to create an Opportunity](#opportunity)
+* [Reseller Opportunities](#reseller)
 * [Opportunity Naming Convention](#naming)
 * [Opportunity Types](#types)
 * [Opportunity Stages](#stages)
@@ -66,6 +67,28 @@ Before a lead is converted or an opportunity is created the following must occur
 * Discovery call scheduled with prospect - moving to discovery stage
 * Interest by GitLab salesperson to pursue the opportunity
 * If you have given a quote (pricing) please convert as this is now a sales opportunity
+
+### Reseller Opportunities <a name="reseller"></a>
+
+Opportunities utilising a reseller require slightly different data:
+
+* Opportunity Name:  
+If the partner is an authorised reseller, rename the opportunity with the partner’s nick-name in front, then a dash.  For instance; if it is a Perforce deal, the opportunity name should start with P4 - (whatever your opportunity name is)  This is important for the workflow that solicits updates from the reseller.  
+
+* Account Name:  
+It is important that opportunities using a reseller are created on the END CUSTOMER’s account, and not the reseller’s account.  The account name on an opportunity is never a reseller.  Resellers do not buy licenses; they purchase them on the behalf of an end customer.  For instance, the account name field on an opportunity should never be SHI.
+
+* Opportunity Owner:  
+Should be the name of the AE who is working the deal with the reseller
+
+* Associating Contact Roles:  
+After creating the opportunity, click “New” in the contact section to associate contacts with the opportunity.
+- The primary contact should always be a contact at the end user’s account and not a contact at the reseller.  This is important as resellers come and go, and if we do not capture the contact at the end user account, we will not be able to sell to this account if the reseller ends their relationship with us or with the end account.
+- A reseller contact (say, the sales rep at ReleaseTEAM) can, and should be added to the opportunity with the role of Influencer.  NOTE: A contact that works for a reseller should never be added to an end user account.  For instance an employee of SoftwareOne should be a contact of the SoftwareOne account only, and not the Boeing account.  
+
+* Associating Partners to an Opportunity:  
+After creating the opportunity, click “New” in the Partners section to associate the reseller with the opportunity.
+- You can associate multiple partners with an opportunity if there is more than one reseller involved in the opportunity.  This is not uncommon for government opportunities, or opportunities where the customer is asking multiple fulfillment houses (like SHI and SoftwareOne) to fulfill the order.
 
 ### Opportunity Naming Convention <a name="naming"></a>
 
@@ -123,7 +146,7 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 1. Bill To contact  - Click on the vlookup button to enter the Bill To contact information. This will bring up a pop-up window that will list all the contact that were created during Step 2 of the process. Bill To person would be the contact to whom the bill will be sent
 1. Sold To Contact - Click on the vlookup button to enter the Sold To contact information. This will bring up a pop-up window that will list all the contact that were created during Step 2 of the process. Sold To person would be the contact to whom the product was sold
 1, Invoice Owner - 
-* This field will only be used incase of creating a Quote created for a End Customer that involves a Partner; Please see Creating a Quote for Partner Section
+* This field will only be used incase of creating a Quote created for a End Customer that involves a Partner; Please see [Creating a Quote for Partner Section](#resellerQuote)
 1. Payment method -  refers to the type of payment the customer is using for paying this Quote/Subscription
 1. Payment Methods currently defined are as follows –
  * Credit card
@@ -296,25 +319,23 @@ Upon Sign-off, or existing signed quote, click on the Send to Z-billing button t
 1. Send it to the customer
 1. Upon Sign-off will click on the Send to Z-billing button to send the Quote over to Zuora
  
-### Creating a Quote for a Partner Use-case using the Invoice Owner Functionality - 
- * Note - We can make use of Invoice owner functionality so that subscription can be billed to the Partner and the subscription would be owned by the End Customer; 
- * Note - if the Partner is a getting created the first time in SF, then please make sure this is also created in Zuora; And partner account(in SF and Zuora) are mapped using the CRM iD in Zuora.
-Please see screenshot below - 
+### Creating a Quote for a Partner <a name="resellerQuote"></a>
+A reseller quote has a few different things than a regular quote:
+* Quote Name Field:  append “via reseller name” to the Quote name (ie: “Quote for Federal Reserve via ReleaseTEAM” 
+* Quote Template:  Needs to be a reseller template.  Since resellers cannot accept terms for their customers, the reseller template contains different language around acceptance.  There is currently an issue with the reseller templates  Please see [Workaround for the lack of a reseller quote template](#ResellerTemplateWorkaround) below
+* Sold To Contact and Bill To Contact fields both need to be a person at the end customer.  This is who will accept the EULA.
+* Invoice Owner Field:  This needs to be the resellers account.  If you do not see the reseller listed, then you need to send the SFDC URL of the reseller’s billing contact to finance and for an Invoice Owner record to be created.	
+* Click Through EULA required: Set this to Yes.  This will cause a URL to be sent to the customer where they agree to our Terms and Conditions before getting their license key.  This is important as a reseller cannot agree to terms on behalf of the end user.  Alternatively, the reseller could obtain a physical signature and send it to you.
+* Discount: Authorised resellers all have pre-defined discounts depending upon the market they serve and the services they provide to GitLab.  GitHost is never discounted as our margin after paying Digital Ocean is very small.  We do not give discounts to fullfillment houses like SHI, Insights or other resellers that are not authorised resellers.  Reseller discounts can be found on the first page of the [Resellers List](https://docs.google.com/spreadsheets/d/1tQjPMRUuzsDR4mNj74aY-W8jBQH4u9h7PpEsw088Zx0/edit#gid=1395032632)
+When in doubt please consult the reseller team.
 
-#### Step 1 - Check if the Partner has an Associated Billing Account
-1. Salesrep to see if the partner account is in SF and scroll down to see if there is a mapped Billing Account for the customer Account; please see below 
- * If yes, Sales rep will then start creating the End Customer details
-1. Salesrep to create an End Customer Account in SF
-1. Creates associated Contact
-1. Creates Opportunity
- * If no, Sales rep to create a partner Account + a Billing Account in Zuora
-
-#### Step 2 - Create a Quote for the End Customer
-1. Sales rep will create a Quote for the End Customer
-1. On creation of Quote using ZQuotes, sales rep should populate the invoice owner field (shown above)
-1. Upon clicking on the field sales rep will be listed with all Billing Accounts from Zuora. 
-1. Sales rep will select the right partner name since the partner is already established in Zuora
-1. Clicks on Next and selects the products and click on Next
+### Workaround for the lack of a reseller quote template:<a name="ResellerTemplateWorkaround"></a>
+1. When creating the quote, create the word doc version.  
+2. Download and open the quote in word
+3. Then cut and paste the appropriate data into the template at: [https://drive.google.com/open?id=0B5Yzx31C60SST2pKbWxOdi00Ync]
+4. Attach this new word doc to the opportunity
+5. Delete the original attachment
+6. Send the new attachment to the reseller contact with Sertifi as normal
 
 ### Closing a Won Deal <a name="closing"></a>
 
