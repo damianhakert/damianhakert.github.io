@@ -8,9 +8,16 @@ BDR Handbook
 * [Customer FAQ's](#FAQ)  
 * [Variable Compensation Guidelines](#compensation)
 * [Vacation Incentives](#vacation)
+* [Daily Prospecting Toolkit](#Toolkit)
+* [Buyer Types](#Buyer Types)
+* [Research Process 3X3](#Research Process)
+* [Basic Principles of Prospecting](#Basic)
+* [Initial Cadence Sample](#Sample)
+* [Cold Call Framework](#Cold)
+* [Email Prospecting](#Email)
+* [Outbound Process](#Outbound)
 
 ## Customer FAQ's<a name="FAQ"></a>  
-
 
 BDRs are frequently asked the following questions in some form or another:  
 
@@ -68,3 +75,241 @@ Rules and qualifications for BDR Vacation Incentives:
 * BDRs can take additional vacation days (see <a href="https://about.gitlab.com/handbook/#paid-time-off" target="_blank">GitLab PTO policy</a>), but time off beyond 15 days will not adjust targets.
 
 With <a href="https://about.gitlab.com/handbook/#paid-time-off" target="_blank">GitLab's PTO policy</a>), there's no need to give notice or ask permission to take time off. Unfortunately, a quota carrying BDR can expect to lose some earning potential for taking PTO, which often leads to BDRs not taking vacation. Another problem with unlimited PTO is that management loses forecasting power when BDRs take unexpected PTO, making it tempting for leadership to discourage vacation. We hope that this additional vacation incentive for the team acts as a balancing incentive to both parties by (a) providing a prorated quota for BDRs who plan ahead and (b) helping leadership plan and forecast better without discouraging vacation.
+
+## Daily Prospecting Toolkit<a name="FAQ"></a>
+
+#### Learn
+- Read industry trends and articles about your job
+- Reach out to high performers on the sales and business development teams to learn or improve a skill
+- Read the BDR handbook
+
+#### Research
+- Add at least 10 new contacts to salesforce everyday
+- Learn something new about all of your targeted accounts
+- Look for a deposit you can make in your prospecting emails/calls from an article or study online
+
+#### Plan
+- Plan your day out entirely 
+- Have metric based goals for scheduled slot whether it is calling, emailing, mining, or reading
+- Try not not multitask, become focused and separate activities to increase efficiency
+
+#### Prospect
+- Pick up the phone and dial! You are not overstepping anyone's boundaries by doing this
+- Email all newly added prospects
+- Work your desired cadence of calls/emails/voicemails
+- Follow up with historical leads that pertain to your targeted list
+- Send content to at least 10 prospects without asking for anything in return
+
+#### Evaluate
+- Look at your most productive day and duplicate it
+- Analyze and benchmark your numbers
+- Make sure Salesforce is up to date with any account/contact information
+
+#### Additional Resources
+- <a href="https://university.gitlab.com/" target="_blank">GitLab University</a>
+- <a href="https://www.youtube.com/watch?v=sXlhgPK1NTY&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=6" target="_blank">GitLab Market and Ecosystem</a>
+- <a href="http://docs.gitlab.com/ee/" target="_blank">GitLab Documentation</a>
+- <a href="https://about.gitlab.com/2016/07/22/building-our-web-app-on-gitlab-ci/" target="_blank">GitLab CI</a>
+- <a href="https://about.gitlab.com/features/#compare" target="_blank">GitLab Editions</a>
+- <a href="https://about.gitlab.com/comparison/" target="_blank">GitLab compared to other tools</a>
+
+## Buyer Types<a name="Buyer Types"></a>
+
+#### Technical
+- (End User)
+- Collaborate, features, data
+
+#### Functional
+- (Director)
+- Making team projects more collaborative 
+
+#### Economic
+- (CXO)
+- Hit Team Targets and ROI
+
+Your messaging for each one will be different. An end user or lower level developer will not care much about the ROI on our product.
+
+## Research Process<a name="Research Process"></a>
+
+3 X 3 X 3
+
+Three things in three minutes about the:
+- Organization
+- Industry
+- Individual
+
+#### Where to Start?
+
+1. Salesforce
+    - Lost deals, users and customers (CE and EE)
+    - Contacts
+        - What relevant titles should we be reaching out to
+    - Activity History
+        - Who in the org have we called before that we can follow up with or reference
+    - Cross reference with version.gitlab.com to see their version and available other usage info
+
+2. Linkedin
+    - Summary/Bio - Anything mentioned about job responsibilities or skills
+    - Previous work - Any Gitlab Customers that we can reference
+    - Connections - Are they connected to anyone at GitLab for a possible introduction
+
+3. Website
+    - Mission Statement
+    - Press Releases/Newsroom
+    - (ctrl F) search for keywords
+
+## Basic Principles of Prospecting<a name="Basic"></a>
+- Call about them, not you
+- Be confident and passionate
+- Aim high and wide
+- Multithreading
+- Don’t sell into an interruption
+- Focus on the objective
+- Make it easy to say yes
+- Objection handling
+- Get something actionable
+- Reschedules are part of it
+
+#### Initial Prospecting Process/Call Cadence:<a name="Sample"></a>
+- 8-10 Calls (4-5 voicemails - Every other call/1-2 per week)
+- 5-6 Emails (Include 2 InMails/1-2 per week)
+
+Step 1 - Call VM/Email
+- Day or two break
+
+Step 2 - Email follow-up/InMail
+- Day or two break
+
+Step 3 - Call 2x
+- Morning (no voicemail)
+- Afternoon (voicemail)
+    - Day or two break
+
+Step 4 - Email (Deposit)
+- 3rd party resource
+    - Day or two break
+
+Step 5 - Call 2x
+- Morning (voicemail)
+- Afternoon (no voicemail)
+    - Day or two break
+    
+Step 6 - InMail follow-up/Call 2x
+- Day or two break
+
+Step 7 - Call VM/Email "Why Not?"
+- Day or two break
+
+Step 8 - Call VM/Email "Too Busy or Not Interested?"
+
+## Cold Call Framework<a name="Cold"></a>
+
+#### Introduction
+Hi. This is (Name) from GitLab
+
+#### Ask for Time
+“Do you have just a moment?”
+
+#### Magic Question
+“Have you heard of GitLab before?”
+
+#### Initial Message with IBS
+“GitLab helps (Title) in the (Industry) industry solve issues around (pain & need) or
+“(Industry specific client) used GitLab to (Case study value proposition)
+
+#### Confirm that they are the right person
+“I understand you are in charge of application/program development, is that correct?
+
+#### Schedule meeting
+"Do you have 15 minutes on (specific day and time) to discuss your developer life cycle?"
+
+#### Initial Benefit Statement example
+- GitLab is an end-to-end developer lifecycle solution that allows developers to collaborate on code, project management, and to create a seamless workflow between teams across the entire org.
+
+#### Anatomy of a Prospecting Call
+- Introduction………………………...Approach/Into
+- Initial Benefit Statement………….Brief/IBS “Why me?”
+- Qualification………………………..Ask questions
+- Value proposition………………….Dive into IBS? “Why now?”
+- Education…………………………...Educate about GitLab
+- Next steps…………………………..Commitment and/or next steps
+
+## Email Prospecting<a name="Email"></a>
+
+#### Emails
+- Execs read emails in the morning
+- Expect to be forwarded to the right person (Always ask)
+- Keep emails 90 words or less
+- Break into readable stanzas
+- Always be specific and tailored
+- Make your request clear
+- Make your emails viewable from a mobile device
+
+#### Email Components
+- Subject line
+- Preview Pain
+- Opening Stanza (Best Practice is something about them)
+- Benefit & Value Proposition
+- Create Urgency
+- Definite Ask with available days and times
+
+#### Basho Makeup
+- Include “you” or “your” in the subject line
+- Customer specific reference in subject line
+- First paragraph relevant customer news
+- Second paragraph is the “so what” and why they should take your call
+- End with a meeting request
+
+#### Subject: Your new project on Git
+
+Larry,
+
+You recently launched a new version of the webpage XYZ. Congrats! I am sure everyone at XYZ are loving the expertise you bring to the table. I read on your web page that it was developed using Git. 
+
+Everyday here at GitLab we help senior developers like yourself to collaborate on code, and project management in the IT departments of the Fortune 1000, ultimately leading to an average savings of 30% when compared to other tools on the market.
+
+What day do you have 15 minutes on your calendar to discuss?
+
+Thanks,
+
+## Outbound Process<a name="Outbound"></a>
+
+Each rep will be assigned a list of 15-30 targeted accounts to work on a monthly or quarterly basis.
+
+#### Criteria for those accounts still TBD
+- Tier
+- Industry
+- # of Employees
+- Revenue
+- Populated with contacts and activity
+- Last activity date
+- Lost opportunities
+- Former or current customers
+
+#### Help Marketing create campaigns focusing on:
+- Accounts using specific competitors
+- Up-to-date Titles
+- Up-to-date company sizes
+- Contract end dates
+
+#### Rules of engagement
+- Outbound to work off of contacts and leads within SFDC
+- Outbound does not touch any historical lead that has activity on it within the last 45 days. We are on the same team as inbound, no bad blood, etc.
+
+#### Formal Weekly 1:1
+BDR and BDR Team Lead
+- Mental check-in (winning and success)
+- Discuss progress on targeted accounts
+- Coaching - email strategy, campaigns, cadence, best practices
+- Review goals at the account level and personal level
+- Strategy for next week
+- Upcoming events/campaigns that can be leveraged
+- Personal goals and commitments 
+
+
+
+
+
+
+
+
