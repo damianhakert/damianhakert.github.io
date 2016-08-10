@@ -334,6 +334,10 @@ Once the above has happened, please make sure the following actions are done:
 1. Once the opportunity is closed won, the field "type" on the account object will change to "customer"
 1. A task will be auto created in Salesforce.com reminding you to update the Technology Stack field on the account to reflect the GitLab Tools they are using. Example: GitLab Issue Tracker, CI, Wiki
 
+#### View and download invoices in Salesforce:
+
+As soon as an invoice was generated, the sales rep can view and download it as a PDF in Salesforce. Scroll to the bottom within the Salesforce-Account and click on the invoice number under "Invoices". Then on the bottom of the invoice view, click "Invoice PDF".
+
 ### Using Cases in Salesforce <a name="cases"></a>
 
 A case is a question or feedback from a prospect or customer. Each of us can review cases to see how we can deliver better service.
