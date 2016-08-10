@@ -66,6 +66,7 @@ Our open vacancies are at our [jobs page](https://about.gitlab.com/jobs/).
       - Response - [Response lead](/jobs/support-lead) - José Torres
         - [Service Engineers](/jobs/service-engineer/)
       - Community
+        - [Service Engineers](/jobs/service-engineer/)
         - Issue triage specialists
     - CI - [CI lead](/jobs/ci-lead/) - Kamil Trzciński
       - [Developers](/jobs/developer/) that are CI specialists
