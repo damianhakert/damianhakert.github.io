@@ -219,14 +219,13 @@ The following quote metrics are available:
  * On the Order Preview page that opens, review the information, and then click Submit to send the quote to Z-Billing.
  * A confirmation popup shows up, Zuora Quotes has successfully sent your quote to the Z-Billing and a subscription was created
 
-#### Step 8 – Close Win and Opportunity
+#### Step 8 – Close Win an Opportunity
 1. Once quote is signed and attached to opportunity, via Sertifi or manually and quote has been successfully sent to z-billing, go into the opportunity and change the stage to closed won.
 1. A renewal opportunity will be automatically created for the account
 
-####Closing Deals for Educational Institutions receiving educational pricing
+#### Closing Deals for Educational Institutions receiving educational pricing
  * The customer should purchase a license as normal through Zuora, except that the number of users purchased should only include non-student users (as described in [Educational Pricing](https://about.gitlab.com/license-faq/)).
  * After the customer purchases the license, the account executive then manually creates and sends a license that includes the total number of users, where `total # of users = students + non-students`.
-
 
 ### Returning Customer Creation Process(Upgrade/Renewals/Cancellations)
 1. Create an Opportunity for an Add-on or Renewal 
@@ -341,12 +340,14 @@ When in doubt please consult the reseller team.
 
 In order to close a deal in Salesforce.com, one of the following must happen:
 
-1. Client paid via Credit Card
-1. Prospect has returned a signed quote (attach to the opportunity). Quote is needed for non online purchases to confirm what was purchased, the effective dates and the cost.  Quote is also needed to confirm they agree to terms and conditions.  
+1. Client paid via Credit Card through the web portal (terms are agreed upon sign up)
+  * Renewals for clients who made their purchase via the web portal; therefore agreed to terms of service, a signd quote is not necessary to close the opportunity.  Just need to make sure an invoice (Credit Card) was charged.   
+1. Prospect has returned a signed quote (attach to the opportunity). Quote is needed for purchases not made via web portal and to confirm what was purchased, the effective dates and the cost.  Quote is also needed to confirm they agree to terms and conditions.  
+  * If a PO is received, we need to received a signed quote showing the seats purchased, cost and effective date for the license.  The accepting terms of service language can be removed but click-thru EULA needs to be checked when sending out the license key.
 
 Once the above has happened, please make sure the following actions are done:
 
-1. Attach any signed agreement, PO, and/or quote as an attachment to the account page/object in Salesforce.com
+1. Attach any signed agreement, PO, and/or quote as an attachment to the opportunity page/object in Salesforce.com.  If sent/signed via sertifi, this will happen automatically.
 1. Add in the competition we were up against in the opportunity.  This can be the legacy SCM solution they had and/or who they were evaluating along side of us. This can also be ourselves, meanign GitLab CE or .com
 1. Create an add-on or Existing Account (new division) opportunity if there has been one identified by you at this time.
 1. An automated task is created to check in with the Account, 30 days after the deal closes.  The purpose for this check in is to make sure they are happy, address any questions they have, ask them to be a reference or to speak with our product marketing team on how they use GitLab.
