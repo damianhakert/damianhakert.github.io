@@ -4,7 +4,7 @@ author: Alexander Malaev
 author_twitter: spscream
 categories: GitLab CI
 image_title: '/images/containers.jpg'
-description: "Deploying projects written in Elixir/Erlang to production with Docker Containers with GitLab CI!"
+description: "Deploying projects written in Elixir/Erlang to production with Docker Containers and GitLab CI!"
 twitter_image: '/images/tweets/continuous-integration-delivery-and-deployment-with-gitlab.png'
 ---
 
