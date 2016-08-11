@@ -255,7 +255,7 @@ h2.orange-title.page-headline {
 }
 
 .step-number {
-  font-size: 14px;
+  font-size: (15px / 20px) * 1em;
   display: block;
   margin-top: 10px;
   margin-bottom: 0;
@@ -264,12 +264,12 @@ h2.orange-title.page-headline {
   text-transform: uppercase;
 
   @media (max-width: $screen-xs-max) {
-    font-size: 14px;
+    font-size: (14px / 14px) * 1em;
   }
 }
 
 .step-title {
-  font-size: 32px;
+  font-size: (48px / 20px) * 1em;
   margin-top: 0;
   margin-bottom: 20px;
   color: $color-secondary;
@@ -278,7 +278,7 @@ h2.orange-title.page-headline {
 }
 
 .step-lead-text {
-  font-size: 20px;
+  font-size: (24px / 20px) * 1em;
 
   &:not(.step-lead-text-last) {
     margin-bottom: 20px;
@@ -302,7 +302,7 @@ h2.orange-title.page-headline {
 }
 
 .step-content {
-  font-size: 18px;
+  font-size: (20px / 20px) * 1em;
 
   @media (max-width: $screen-xs-max) {
     padding-top: 20px;
@@ -311,5 +311,23 @@ h2.orange-title.page-headline {
   p {
     margin: 0;
     margin-bottom: 5px;
+  }
+}
+
+.try-gitlab-ee {
+  border-top: 1px solid $navbar-default-border;
+  padding-top: 120px;
+
+  .page-headline {
+    color: $color-primary;
+  }
+
+  .subheader {
+    color: $color-gray;
+
+    a {
+      color: $color-gray;
+      text-decoration: underline;
+    }
   }
 }
