@@ -4,7 +4,8 @@ author: Alexander Malaev
 author_twitter: spscream
 categories: GitLab CI
 image_title: '/images/containers.jpg'
-description: "Running projects written in Elixir/Erlang in production in Docker-containers"
+description: "Deploying projects written in Elixir/Erlang to production with Docker Containers with GitLab CI!"
+twitter_image: '/images/tweets/continuous-integration-delivery-and-deployment-with-gitlab.png'
 ---
 
 **Note:** this post is a customer story by Alexander Malaev, a software developer.
