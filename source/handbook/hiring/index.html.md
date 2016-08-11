@@ -74,6 +74,8 @@ Every first of the month, People Ops announces that we are hiring on [Hacker New
 **Consider** advertising the job through the following sites (People Ops can help with the listings, but the hiring manager should determine whether it is the right place to advertise, and at the right cost):
 
 1. [PowerToFly](https://www.powertofly.com)
+1. [Hacker News](https://news.ycombinator.com/ask): On the first of the month, include a note for GitLab in the Hacker News thread of "Who's Hiring" . Template text: `REMOTE ONLY GitLab
+We're hiring production engineers, developers, UX designers , and more. https://about.gitlab.com/jobs/ We're a remote only company so everyone can contribute. GitLab is an open-source Ruby on Rails project with over 1000 contributors.`
 1. [WeWorkRemotely](https://weworkremotely.com) ($200 for 30 days, per position).
 1. [RemoteOK](https://remoteok.io) ($200 for ?? days, per position)
 1. [RemoteBase](https://remotebase.io/)
