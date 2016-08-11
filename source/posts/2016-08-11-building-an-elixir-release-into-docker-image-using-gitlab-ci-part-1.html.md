@@ -21,7 +21,7 @@ On every push to a project's branch on [GitLab], [GitLab CI] runs tests, style c
 
 So, in the following I will describe our release pipeline for Elixir services, using snippets from our project’s `.gitlab-ci.yml`.
 
-We are using `docker:latest` image for our runner, and several stages:
+We are using `docker:latest` image for our Runner, and several stages:
 
 ```yaml
 image: docker:latest
@@ -122,7 +122,7 @@ release:
     - master
 ```
 
-We are using conform to achieve runtime configuration of the release using environment variables. I use the approach described on this [blog post][post-env].
+We are using Conform to achieve runtime configuration of the release using environment variables. I use the approach described on this [blog post][post-env].
 
 Task to cleanup things:
 
@@ -163,7 +163,7 @@ This Dockerfile is used to build an actual image with the Elixir release.
 
 - Now we don’t use the "Erlang hot upgrade" feature;
 - We don’t test if the release is correctly starting, now we are testing it manually and locally;
-- Every container uses its own "epmd" and intercommunication between the services, now made using rest apis, but I’m working on integration of [Erlang-In-Docker approach][approach] to use native erlang messaging between services.
+- Every container uses its own "epmd" and intercommunication between the services, now made using REST apis, but I’m working on integration of [Erlang-In-Docker approach][approach] to use native erlang messaging between services.
 
 ## What’s next?
 
