@@ -334,8 +334,8 @@ step, **re-assign** the issue to that person.
 ### Scheduling meetings<a name="scheduling-meetings"></a>
 
 1. If you want to ask team members if they are available for an event please send a new calendar appointment from and to the company address. This makes it easier for people to check availability and to put on their calendar. It automatically shows up on calendars even when the email is not opened. It is easier to signal presence and to see the status of everyone. Please respond quickly to invites so people can make plans.
-1. If there are materials relevant for a calendar meeting (for example a Google Doc or issues) please add the URL to the meeting invite description.
-1. Put the agenda in a Google Doc that has edits rights for all participants and take notes during the meeting. Nobody wants to write up a meeting after the fact and this helps to structure the thought process and everyone can contribute. Being able to structure conclusions and follow up actions in realtime makes a video call more effective than an in-person meeting.
+1. If there are materials relevant for a calendar meeting please add the URL to the meeting invite description. Normally this would be a Google Doc for the agenda and any relevant issues.
+1. Put the agenda in a Google Doc that has edits rights for all participants (including people not part of GitLab Inc.). Take notes of the points and todo's during the meeting. Nobody wants to write up a meeting after the fact and this helps to structure the thought process and everyone can contribute. Being able to structure conclusions and follow up actions in realtime makes a video call more effective than an in-person meeting.
 1. If you want to check if a team member is available for an outside meeting, create a calendar appointment and invite the team member only, after they respond yes then invite outside people.
 1. When scheduling a call with multiple people, invite them using a Google Calendar that is your own, or one specific to the people joining, so the calendar item
 doesn't unnecessarily appear on other people's calendars.
@@ -456,7 +456,7 @@ In keeping with our values of results, freedom, efficiency, frugality, and borin
     *  Something else? No problem, and consider adding it to this list if others can benefit as well.
 1. **Expenses.** The company will reimburse for the following expenses if you need it for work or use it mainly for business, and local law allows us to pay for it without incurring taxes:
     *  Mileage is reimbursed according to local law: [US rate per mile](http://www.irs.gov/Tax-Professionals/Standard-Mileage-Rates), or [rate per km](http://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/auto_en_vervoer/auto_van_de_onderneming/autokosten/u_rijdt_in_uw_eigen_auto) in the Netherlands.
-    *  Internet connection, for employees in the Netherlands see [Regeling Internet Thuis](https://docs.google.com/a/gitlab.com/document/d/1J70geARMCjRt_SfxIY6spdfpTbv_1v_KDeJtGRQ6JmM/edit#heading=h.5x5ssjstqpkq). Send the signed form to People Ops once completed. 
+    *  Internet connection, for employees in the Netherlands see [Regeling Internet Thuis](https://docs.google.com/a/gitlab.com/document/d/1J70geARMCjRt_SfxIY6spdfpTbv_1v_KDeJtGRQ6JmM/edit#heading=h.5x5ssjstqpkq). Send the signed form to People Ops once completed.
     *  Mobile subscription, we commonly pay for that if you call a lot as a salesperson or executive.
     *  Telephone land line (uncommon, except for positions that require a lot of phone calls)
     *  Skype calling credit, we can autofill your account (uncommon, since we mostly use Google Hangouts, BlueJeans, and WebEx)
