@@ -61,18 +61,18 @@ We also learned that most of our traffic comes from new projects that are being 
 
 1. Assumption: ssh is slow because we are doing a linear search in the `authorized_keys` file. Data to back up this assumption is the current graphs for io metrics in the main NFS server.
 1. Experiment: adding an [authorized keys](https://gitlab.com/gitlab-com/operations/issues/99) api command and using it for openssh authorization will give better performance.
-1. Result: stabilized API access because of less filesystem access, but API is still slow ![API Accesss](/images/blogimages/grape-internal-allowed-timings.png)
+1. Result: stabilized API access because of less filesystem access, but API is still slow ![Stabilized API Access](/images/blogimages/grape-internal-allowed-timings.png)
 1. Assumption: web in general (API included) is slow because the worker nodes are [being restarted too often](https://gitlab.com/gitlab-com/operations/issues/276)
 1. Experiment: [adding queueing times for http requests](https://gitlab.com/gitlab-com/operations/issues/264) will give us understanding of how much time is a request waiting to be served.
 1. Result: we had way better information and realized that our http requests where queueing for 1 second in the p99 case.
-1. Assumption: preventing unicorn processes from being killed too often we will avoid enqueuing requests for so long
-1. Experiment: increase _out of memory_ killer will keep workers running for longer
+1. Assumption: by preventing unicorn processes from being killed too often we will avoid enqueuing requests for too long.
+1. Experiment: increasing _out of memory_ killer will keep workers running for longer.
 1. Result: http queueing time dropped to virtually zero and transaction timings were also [massively impacted](https://gitlab.com/gitlab-com/operations/issues/276#note_12353835) [!HTTP Queueing time](/images/blogimages/http-queue-timings.png)
 1. New data: from the wider picture perspective, our ssh access is still irregular and quite slow intermittently [!intermittent slow ssh access](/images/blogimages/slow-ssh-access.png)
-1. Assumption: after deeper investigation, [dbus is queueing connections](https://gitlab.com/gitlab-com/infrastructure/issues/290#note_13536786) because of arbitrary max sockets limit and bad file descriptor handling
+1. Assumption: after deeper investigation, [dbus is queueing connections](https://gitlab.com/gitlab-com/infrastructure/issues/290#note_13536786) because of an arbitrary max sockets limit and bad file descriptor handling.
 1. Experiment: patching dbus in a PPA package and [bouncing all the workers](https://gitlab.com/gitlab-com/infrastructure/issues/290#note_13607928) will remove the dbus queuing time.
 1. Result: git ssh access [stabilized at ~2 seconds for push, ~5 seconds for pull](https://gitlab.com/gitlab-com/infrastructure/issues/290#note_13613187) [!stable ssh access times](/images/blogimages/stable-ssh-access.png)
-1. Ongoing further actions: investigate how we can reduce those timings, and [contribute back to the community](https://gitlab.com/gitlab-com/infrastructure/issues/290#note_13613213) so everyone can benefit from this.
+1. Ongoing further actions: investigate how we can reduce those ssh access timings, and [contribute back to the community](https://gitlab.com/gitlab-com/infrastructure/issues/290#note_13613213) so everyone can benefit from this.
 
 Other things happened in the mean time, we added a [public black box monitoring system](http://monitor.gitlab.net/) to make our performance improvement efforts public. We used this monitoring to start with simple things, and over time we added more and more metrics to get better insight.
 For example, monitoring our ssh access times was as easy as writing a [simple script](https://gitlab.com/gitlab-org/gitlab-monitor) and adding a cronjob to probe the access every minute. Only with this _boring solution_ we managed to understand how was GitLab.com behaving, and we managed to see how it was evolving in our efforts to build a better system.
