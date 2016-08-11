@@ -1,0 +1,164 @@
+---
+layout: default
+title: Issue Boards
+suppress_header: true
+extra_css:
+  - "issue-boards.css"
+extra_js:
+  - "issue-boards.js"
+---
+
+.page-container.issue-boards-container.text-center.animated
+  .container
+    %h1.page-headline
+      Introducing GitLab Issue Boards
+    %h4.subheader
+      The perfect pairing of issue tracking and project management
+    %a.btn.btn-lg.btn-red{ href: "/FILLER/" } View Blog Post
+    %a.btn.btn-lg.btn-white{ href: "/FILLER/" } Watch Video
+
+.page-container.content-container.text-center.animated
+  .container
+    %h2.page-headline.orange-title
+      What are GitLab Issue Boards?
+    .feature-item.col-md-10.col-md-push-1
+      = icon("issue-boards-feature-1-icon", "feature-icon", { label: "One tool, endless functionality" })
+      %h3
+        One tool, endless functionality
+      %p 
+        Everything in one place. Track issues and communicate progress without switching between products. One interface to follow your issues from backlog to done.
+    .feature-item.col-md-10.col-md-push-1
+      = icon("issue-boards-feature-2-icon", "feature-icon", { label: "Beautiful and comprehensive" })
+      %h3
+        Beautiful and comprehensive
+      %p 
+        It’s more than a visual representation. It’s your issues, your labels, and all the metadata that comes with them. And you still have all the same sorting and filtering tools that you use across GitLab.
+    .feature-item.col-md-10.col-md-push-1
+      = icon("issue-boards-feature-3-icon", "feature-icon", { label: "Flexible setup" })
+      %h3
+        Flexible setup
+      %p 
+        You define your process and we organize it. You create the label. We create the corresponding column and pull in your existing issues. When you're ready you drag and drop from one step to the next.
+
+.page-container.content-container.text-center.video-explainer
+  .container
+    %h2.page-headline
+      Check Out Issue Boards In Action
+
+    .video-container
+      %iframe{ width: "969", height: "612", src: "https://www.youtube.com/embed/pY4IbEXxxGY", frameborder: "0", allowfullscreen: true }
+  
+
+.what-is.purple-section.text-center.animated
+  .container
+    %h2.purple-section-title
+      Join our Webcast!
+    .purple-section-subtitle
+      Lorem ipsum dolor sit amet tagline goes here...
+    %a.featured-item-button.white-on-primary{ href: "/FILLER/" } Sign Up Today
+
+.page-container.content-container.animated
+  .container
+    %h2.page-headline.text-center
+      Getting started with your Issue Board
+    %section#steps.steps
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("issue-boards-step-1-icon", "step-icon", { label: "Create an issue" })
+            %span.step-number.text-center
+              [ step 01 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Create an issue
+              .lead.text-center.step-lead-text
+                :markdown
+                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              .row.row-eq-height
+                .col-md-6.step-content
+                  :markdown
+                    Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum.
+
+                    Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum.
+                .col-md-6
+                  = image_tag "/images/issue-boards/create-an-issue.png", class: "img-responsive"
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("issue-boards-step-2-icon", "step-icon", { label: "Add a label" })
+            %span.step-number.text-center
+              [ step 02 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Add a label (or create a new one)
+              .lead.text-center.step-lead-text
+                :markdown
+                  Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              .row.row-eq-height
+                .col-md-6
+                  = image_tag "/images/issue-boards/add-a-label.png", class: "img-responsive"
+                .col-md-6.step-content
+                  :markdown
+                    Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod.
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("issue-boards-step-3-icon", "step-icon step-icon-3", { label: "Go to your board" })
+            %span.step-number.text-center
+              [ step 03 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Go to your board
+              .lead.text-center.step-lead-text
+                :markdown
+                  Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper.
+              .row.row-eq-height
+                .col-md-6.col-md-push-6
+                  = image_tag "/images/issue-boards/go-to-board.png", class: "img-responsive"
+                .col-md-6.col-md-pull-6.step-content
+                  :markdown
+                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper.
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("issue-boards-step-4-icon", "step-icon", { label: "Create a list based on a label" })
+            %span.step-number.text-center
+              [ step 04 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Create a list based on a label
+              .lead.text-center.step-lead-text
+                :markdown
+                  Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper.
+              .row.row-eq-height
+                .col-md-6
+                  = image_tag "/images/issue-boards/create-list.png", class: "img-responsive"
+                .col-md-6.step-content
+                  :markdown
+                    Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod.
+      .step.js-step
+        .container
+          .step-icon-container
+            = icon("issue-boards-step-5-icon", "step-icon", { label: "Drag and drop to organize issues" })
+            %span.step-number.text-center
+              [ step 05 ]
+          .row
+            .col-md-10.col-md-push-1.step-content-holder
+              %h3.step-title.text-center
+                Drag and drop to organize issues
+              .lead.text-center.step-lead-text.step-lead-text-last
+                :markdown
+                  Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+              .row.row-eq-height
+                .col-md-6.step-content
+                  :markdown
+                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui.
+
+                    Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                .col-md-6
+                  = image_tag "/images/issue-boards/drag-and-drop.png", class: "img-responsive"
+              
