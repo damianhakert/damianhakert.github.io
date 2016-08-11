@@ -385,6 +385,7 @@ doesn't unnecessarily appear on other people's calendars.
 1. Please refer to self-hosted installations as on-premises, not on-premise.
 1. If you use headers properly format them (`##` in Markdown, "Heading 2" in Google docs), start at the second header level because header level 1 is for titles, do not end headers with a colon.
 1. Always use an [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma) in lists of three or more terms.
+1. Always use a single space between sentences rather than two.
 1. Read our [Documentation Styleguide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc_styleguide.md) for more information when writing documentation.
 
 ### Beamy Guidelines<a name="beamy-guidelines"></a>
