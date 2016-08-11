@@ -51,7 +51,7 @@ Our process to get ahead of this was:
 1. Identify the problem: we are running out of storage space and performance. This opens the questions: how much time left we have?
 1. Add monitoring to understand what the context and environment is: monitor iostat, monitor filesystem growth, plan how much time we have left.
 1. Build a hypothesis and an experiment to challenge our assumptions: by using [multiple shards](https://gitlab.com/gitlab-com/infrastructure/issues/139) we can buy time increasing complexity to move to a better solution.
-1. Run the experiment by building a small piece of infrastructure: [attach a new filesystem shard to the nodes](https://gitlab.com/gitlab-com/infrastructure/issues/139), and set up new projects to be created there.
+1. Run the experiment by building a small piece of infrastructure: [attach a new filesystem shard to the nodes](https://gitlab.com/gitlab-com/infrastructure/issues/192), and set up new projects to be created there.
 1. Learn, and move to the next iteration of solving this long running issue, leaving better tooling behind to make a better decision next time.
 
 In this iteration we realized that our [git ssh access timings where not to blame to NFS at all](https://gitlab.com/gitlab-com/infrastructure/issues/59#note_13488035), it was all within ssh.
