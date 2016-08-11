@@ -89,6 +89,10 @@
       padding-bottom: 75px;
     }
   }
+
+  &.white-bg {
+    background-color: #fff;
+  }
 }
 
 .header-graphic img {
@@ -157,7 +161,8 @@ h2.orange-title.page-headline {
   }
 
   p {
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 300;
   }
 }
 
