@@ -46,7 +46,7 @@ activate :breadcrumbs, wrapper: :li, separator: '', hide_home: true, convert_las
 
 # Reload the browser automatically whenever files change
 configure :development do
-  activate :livereload
+  # activate :livereload
 end
 
 ##

@@ -222,6 +222,23 @@
       padding-top: 80px;
       padding-bottom: 80px;
     }
+
+    &.is-visible {
+      .step-icon {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      .step-number {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .step-content-holder {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
   }
 
   a {
@@ -256,6 +273,10 @@
   display: block;
   fill: $color-secondary;
   margin: auto;
+  transform: scale(0);
+  opacity: 0;
+  transition: .25s ease-in-out;
+  fill: $color-secondary;
 }
 
 .step-number {
@@ -266,10 +287,19 @@
   color: $color-secondary;
   font-weight: 400;
   text-transform: uppercase;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: .55s .25s ease-in-out;
 
   @media (max-width: $screen-xs-max) {
     font-size: (14px / 14px) * 1em;
   }
+}
+
+.step-content-holder {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: .8s .2s ease-in-out;
 }
 
 .step-title {
