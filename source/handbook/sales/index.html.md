@@ -342,8 +342,8 @@ In order to close a deal in Salesforce.com, one of the following must happen:
 
 1. Client paid via Credit Card through the web portal (terms are agreed upon sign up)
   * Renewals for clients who made their purchase via the web portal; therefore agreed to terms of service, a signd quote is not necessary to close the opportunity.  Just need to make sure an invoice (Credit Card) was charged.   
-1. Prospect has returned a signed quote (attach to the opportunity). Quote is needed for purchases not made via web portal and to confirm what was purchased, the effective dates and the cost.  Quote is also needed to confirm they agree to terms and conditions.  
-  * If a PO is received, we need to received a signed quote showing the seats purchased, cost and effective date for the license.  The accepting terms of service language can be removed but click-thru EULA needs to be checked when sending out the license key.
+1. Prospect has returned a signed quote (attach to the opportunity). Quote required for all purchases not made via web portal in order to confirm products purchased, # of seats, term and pricing.  Quote is also needed to confirm they agree to terms and conditions.  
+  * If a PO is received, we need to received a signed quote showing the products, # of users, term and pricing of the subscription.  The acceptance of terms language can be removed but click-thru EULA needs to be checked when sending out the license key.
 
 Once the above has happened, please make sure the following actions are done:
 
