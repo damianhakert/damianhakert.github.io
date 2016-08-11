@@ -218,11 +218,11 @@
   border-bottom: 1px solid $landing-organization-color;
 
   @media (min-width: 990px) {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
   }
 
   @media (min-width: 1200px) {
-    padding-bottom: 50px;
+    padding-bottom: 70px;
   }
 
   a:hover {
@@ -343,6 +343,29 @@
     .description,
     img {
       margin-bottom: 30px;
+    }
+  }
+}
+
+.homepage-blog-section {
+  padding: 70px 0 15px;
+
+  .post-item {
+    text-align: center;
+
+    h4,
+    a {
+      color: $color-white;
+      font-weight: 300;
+
+    }
+
+    .color-bg {
+      height: 200px;
+      padding: 0 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 }
