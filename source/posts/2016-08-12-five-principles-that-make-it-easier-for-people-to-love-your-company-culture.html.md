@@ -1,5 +1,5 @@
 ---
-title: "Building a Culture People Love"
+title: "Five principles that make it easier for people to love your company culture"
 author: Sid Sijbrandij
 author_twitter: sytses
 categories: inside GitLab
@@ -23,7 +23,7 @@ customers and partners. At GitLab, we take our culture very seriously
 and we are constantly working to maintain it as we grow. 
 
 This post outlines the principles that we think make it
-easier for people to become fans. Naturally, every company culture is unique so there are our thoughts on what works for us. We think there may be some learnings 
+easier for people to become fans. Naturally, every company culture is unique so these are our thoughts on what works for us. We think there may be some learnings 
 here for your company as well. We could also learn from your culture so please comment on this post with what works for your company or team. 
 
 <!-- more -->
@@ -37,7 +37,7 @@ the Thursday of every week; when you can rely on something, it’s easier to get
 committed to it.
 
 We also try to make it very easy for our users and team to understand our
-processes, for example by having our [handbook]
+processes, for example by having our [Handbook]
 and [strategy] out in the open.
 If people have access to clear information about who we are and how we work,
 they can become better ambassadors for GitLab.
@@ -81,7 +81,7 @@ loyal fans. Just one more reason to do it.
 
 Many companies try to tread a careful line, never taking much of an opinion so
 as not to alienate potential customers. We don’t believe in that. We’re vocal
-about things we believe in, like the fact that we think remote-first is the way
+about things we believe in, like the fact that we think [remote only] is the way
 forward.
 
 It’s hard for people to become fans if you never take a position on things.
@@ -98,8 +98,8 @@ company documents online. We think real transparency is about trying to do as
 much as possible out in the open, so that anyone can see it. Being remote-only
 makes this easier, because we can ensure that most of our comms are logged publicly.
 
-We still run into conflicts, because we’re also a commercial entity that has to
-survive, which means some things have to be kept private. We’ve outlined our
+We still run into conflicts, because we’re also a commercial entity that has customers and
+partners, which means some things have to be kept private. We’ve outlined our
 commitment by looking at other communities and projects which have struggled
 with the open-source issue. We try to achieve:
 
@@ -113,11 +113,12 @@ We’re working hard, but there’s always a lot to potentially improve upon.
 What do you think is important and and what could we be doing better in your
 opinion?
 
-[releasedate]: https://about.gitlab.com/2015/12/07/why-we-shift-objectives-and-not-release-dates-at-gitlab/
-[strategy]: https://about.gitlab.com/strategy/
-[handbook]: https://about.gitlab.com/handbook/
-[contribution]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md
 [1000]: /2016/05/24/1k-contributors/
+[contribution]: https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md
+[handbook]: https://about.gitlab.com/handbook/
+[releasedate]: https://about.gitlab.com/2015/12/07/why-we-shift-objectives-and-not-release-dates-at-gitlab/
+[remote only]: http://www.remoteonly.org/
+[strategy]: https://about.gitlab.com/strategy/
 
 <style>
   .center twitterwidget {
