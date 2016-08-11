@@ -33,6 +33,11 @@
   apply: https://gitlab.workable.com/jobs/267597/candidates/new
   open: true
 
+- title: "Director Federal Sales"
+  description: /jobs/director-federal-sales/
+  apply: https://gitlab.workable.com/jobs/315093/candidates/new
+  open: true
+
 - title: "Frontend Engineer"
   description: /jobs/frontend-engineer/
   apply: https://gitlab.workable.com/jobs/181461/candidates/new
