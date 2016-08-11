@@ -124,7 +124,6 @@ gitlab_rails['lfs_enabled'] = true
 
 # register your emails
 gitlab_rails['gitlab_email_from'] = "no-reply@my-gitlab-server.com"
-gitlab_rails['gitlab_support_email'] = "contact@my-gitlab-server.com"
 
 # add your email configuration (template for gmail)
 gitlab_rails['smtp_enable'] = true
