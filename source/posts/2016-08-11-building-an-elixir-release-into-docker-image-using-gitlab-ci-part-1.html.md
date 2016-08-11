@@ -131,7 +131,7 @@ Below are our Dockerfiles:
 
 `Dockerfile.build`:
 
-```
+```dockerfile
 FROM msaraiva/elixir-gcc
 RUN apk add postgresql-client erlang-xmerl erlang-tools --no-cache
 WORKDIR /build
