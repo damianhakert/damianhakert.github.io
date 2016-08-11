@@ -1,24 +1,24 @@
 ---
-title: "Building an Elixir Release into Docker-image using GitLab CI - Part 1"
+title: "Building an Elixir Release into a Docker image using GitLab CI - Part 1"
 author: Alexander Malaev
 author_twitter: spscream
 categories: GitLab CI
-image_title: # to be added
-description: # to be added
+image_title: '/images/containers.jpg'
+description: "Running projects written in Elixir/Erlang in production in Docker-containers"
 ---
 
 **Note:** this post is a customer story by Alexander Malaev, a software developer.
 {: .note}
 
-Well, we are actively using Phoenix/Elixir in our projects for backend development, we also have RoR project as a frontend-service for Admin UI. Our project consists of a bunch of microservices written in Elixir/Erlang, and we are running it in production in Docker-containers linked together and composed by docker-compose.
+Well, we are actively using Phoenix/Elixir in our projects for backend development, we also have a RoR project as a frontend-service for our Admin UI. Our project consists of a bunch of microservices written in Elixir/Erlang, and we are running it in production with Docker-containers linked together and composed by Docker-compose.
 
-On every push to project branch on [GitLab], [GitLab CI] runs tests, style checking, and other tasks. These tasks are configured using `.gitlab-ci.yml`, and on every merge to `master` GitLab builds a release image for us and uploads it to [GitLab Container Registry][registry]. After all we run `docker-compose pull && docker-compose up -d` on servers to download the latest release images and upgrade containers.
+On every push to a project's branch on [GitLab], [GitLab CI] runs tests, style checking, and other tasks. These tasks are configured using `.gitlab-ci.yml`. On every merge to `master` GitLab builds a release image for us and uploads it to [GitLab Container Registry][registry]. After all, we run `docker-compose pull && docker-compose up -d` on the servers to download the latest release images and upgrade our containers.
 
 <!-- more -->
 
 ## CI pipeline
 
-So, following I will describe our release pipeline for Elixir services, using snippets from our project’s `.gitlab-ci.yml`.
+So, in the following I will describe our release pipeline for Elixir services, using snippets from our project’s `.gitlab-ci.yml`.
 
 We are using `docker:latest` image for our runner, and several stages:
 
@@ -44,7 +44,7 @@ variables:
   POSTGRES_PASSWORD: password
 ```
 
-Those variables used during release build, they will be available to all stages. E.g., `CONTAINER_RELEASE_IMAGE` is used on release stage, as a link to push release image to. The `POSTGRES_*` variables are used to configure postgres service, and to connect later from containers.
+These variables are used during the release's build, so they will be available for all the stages. E.g., `CONTAINER_RELEASE_IMAGE` is used on the release stage, as a link to push the release image to. The `POSTGRES_*` variables are used to configure postgres service, and to connect later from containers.
 
 Our build stage:
 
@@ -65,7 +65,7 @@ build:
     - docker run --volumes-from build_data_$CI_PROJECT_ID_$CI_BUILD_REF --rm -t ci-project-build-$CI_PROJECT_ID:$CI_BUILD_REF
 ```
 
-Before running this stage we create container which provides volumes for building artifacts, by the way GitLab CI has a cache volume itself for similar purposes, but I couldn’t make it working correctly with GitLab Runner using Docker image.
+Before running this stage, we create a container which provides volumes for building artifacts. By the way, GitLab CI has a cache volume itself for similar purposes, but I couldn’t make it working correctly with GitLab Runner using Docker image.
 
 ```yaml
 test:
@@ -85,15 +85,15 @@ test:
       --volumes-from build_data_$CI_PROJECT_ID_$CI_BUILD_REF ci-project-build-$CI_PROJECT_ID:$CI_BUILD_REF sh -c "mix ecto.setup && mix test"
 ```
 
-Notice what we must pass variables and link postgres manually since GitLab Runner is passing variables only to the first level of Docker, but we go deeply ;)
+Notice that we must pass the variables and link postgres manually, since GitLab Runner is passing the variables only to the first level of Docker, but we go deeply ;)
 
-We could link any services as we want, e.g. we are using Kafka in production and on our test stage we make Kafka service available to running tests.
+We could link as many services as we want. For example, we are using Kafka for production, and on our test stage we make Kafka service available for running tests.
 
 Style checking:
 
 ```yaml
 styles:
-  tags:
+  tags: 
     - docker
   stage: styles
   script:
@@ -101,7 +101,7 @@ styles:
       --volumes-from build_data_$CI_PROJECT_ID_$CI_BUILD_REF ci-project-build-$CI_PROJECT_ID:$CI_BUILD_REF sh -c "mix credo --strict"
 ```
 
-Release task, we run it only on pushes to master:
+Release task; we run it only on pushes to `master`:
 
 ```yaml 
 release:
@@ -121,11 +121,11 @@ release:
     - master
 ```
 
-We are using conform to achieve runtime configuration of release using environment variables. I use approach described in this [blog post][post-env].
+We are using conform to achieve runtime configuration of the release using environment variables. I use the approach described on this [blog post][post-env].
 
-And task to cleanup things:
+Task to cleanup things:
 
-It removes container with volumes created for build artifacts and removes image used during pipeline. This task is running every time, despite results of any previous tasks.
+It removes the container with volumes created for build artifacts, and removes the image used during the pipeline. This task is running every time, despite the results of any previous tasks.
 
 Below are our Dockerfiles:
 
@@ -139,7 +139,7 @@ ADD . /build
 CMD mix deps.get
 ```
 
-This image is used to create a container for run tests and style checks.
+This image is used to create a container for running tests and style checks.
 
 `Dockerfile`:
 
@@ -156,22 +156,21 @@ EXPOSE $PORT
 CMD trap exit TERM; /app/bin/$APP_NAME foreground & wait
 ```
 
-This Dockerfile is used to build an actual image with Elixir release.
+This Dockerfile is used to build an actual image with the Elixir release.
 
 ## Existing problems
 
-- Now we don’t use erlang hot upgrade feature;
-- We don’t test if release is correctly starting, now we are testing it manually and locally;
-- Every container uses it’s own epmd and intercommunication between services now made using rest apis and I’m working on integration of [Erlang-In-Docker approach][approach] to use native erlang messaging between services.
-
+- Now we don’t use the "Erlang hot upgrade" feature;
+- We don’t test if the release is correctly starting, now we are testing it manually and locally;
+- Every container uses its own "epmd" and intercommunication between the services, now made using rest apis, but I’m working on integration of [Erlang-In-Docker approach][approach] to use native erlang messaging between services.
 
 ## What’s next?
 
 I have a plan to write and publish several articles about our release pipeline, to answer the following questions:
 
 - How do we compile and publish assets?
-- How do we run our database migrations, since mix tasks aren’t available from release image?
-- What problems are we faced during implementation of this pipeline, and what solutions we found.
+- How do we run our database migrations, since mix tasks aren’t available from the release image?
+- What problems are we facing during the implementation of this pipeline, and what solutions have we found.
 
 Thanks for reading!
 
