@@ -30,10 +30,11 @@ stay steps ahead of them.
 Like most things, change is a process. Here are the steps we took:
 
 * **Focus on infrastructure**: We shifted the team to drop the operations view that segregates systems engineering and instead focus on building infrastructure from a development perspective. Our goal was to get away from a world where developers code features and then system engineers deploy it and provision machines. We achieve better results when everyone has to be included in this process, either by building the product adding features, or by building the infrastructure and driving how the product uses the infrastructure to grow.
-* **Spot patterns**: We learned to spot patterns. Fortunately, our brains are very good at pattern matching. It's just the way our brain works. Of course, just seeing the pattern isn’t enough. We’d spot the pattern and then work to match it to what we already knew were signs of good performance levels. The only way to be able to spot patterns is to commit to long terms metrics that you will collect data on over an extended period of time.
+* **Spot patterns**: We built graphs to spot patterns. Fortunately, human brains are very good at pattern matching. It's just the way our brain works. Of course, just seeing the pattern isn’t enough. We’d spot the pattern and then work to match it to what we already knew were signs of good performance levels. The only way to be able to spot patterns is to commit to time based metrics that you will collect and the correlate.
 * **Mind the gap**: When we spotted an unexpected or strange behavior we moved closer to the problem to understand where it was coming from, build a hypothesis, and then challenge our assumptions. We don't take feelings as data, if someone on the team feels that something is slow, we still need to get a number showing how slow, in a way that we can reproduce the experiment.
 * **Align resources effectively**: With data on what’s not working and how is this affecting your system, you can focus on the right problem and allocate the right level of people and resources to find a solution.
-* **Seek to automate**: If you find yourself performing a manual task, you should do it once, twice, then many. By that, I mean you do the manual work to fix it once, twice, and then you if you have to fix it a third time you need to automate the fix. This is the laziness in [the three virtues](http://threevirtues.com/). The goal is to rinse and repeat, forever.
+* **Seek to automate**: If you find yourself performing a manual task, you should do it once, twice, then many. By that, I mean you do the manual work once, a second time, and then you if you need to perform it a third time you need to automate it somehow. This is the laziness Larry Wall talks about in [the three virtues of a great programmer](http://threevirtues.com/). The goal is to stop doing the boring work a machine is so good at.
+* **Rinse and repeat**: Take your graphs, make your assumptions, challenge them with an experiment, get your results, and start again following an iterative process, forever.
 
 ## Cultural shift
 
@@ -49,13 +50,12 @@ Our process to get ahead of this was:
 
 1. Identify the problem: we are running out of storage space and performance. This opens the questions: how much time left we have?
 1. Add monitoring to understand what the context and environment is: monitor iostat, monitor filesystem growth, plan how much time we have left.
-1. Build a hypothesis and an experiment to challenge our assumptions: by using multiple shards we can buy time increasing complexity to move to a better solution.
-1. Run the experiment by building a small piece of infrastructure: attach a new filesystem shard to the nodes, and set up new projects to be created there.
+1. Build a hypothesis and an experiment to challenge our assumptions: by using [multiple shards](https://gitlab.com/gitlab-com/infrastructure/issues/139) we can buy time increasing complexity to move to a better solution.
+1. Run the experiment by building a small piece of infrastructure: [attach a new filesystem shard to the nodes](https://gitlab.com/gitlab-com/infrastructure/issues/139), and set up new projects to be created there.
 1. Learn, and move to the next iteration of solving this long running issue, leaving better tooling behind to make a better decision next time.
 
-In this iteration we realized that our git ssh access timings where not to blame to NFS at all, it was all within ssh. We also learned that most of our
-traffic comes from new projects that are being imported into GitLab.com so most of the write load moved to the new shard. This is good information
-that we can use to plan our infrastructure using our resources better.
+In this iteration we realized that our [git ssh access timings where not to blame to NFS at all](https://gitlab.com/gitlab-com/infrastructure/issues/59#note_13488035), it was all within ssh.
+We also learned that most of our traffic comes from new projects that are being imported into GitLab.com so most of the write load moved to the new shard. This is good information that we can use to plan our infrastructure using our resources better.
 
 ## The story of a recent win: improve our ssh git access time
 
