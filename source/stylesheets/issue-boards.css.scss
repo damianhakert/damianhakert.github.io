@@ -91,7 +91,7 @@
   }
 
   &.white-bg {
-    background-color: #fff;
+    background-color: $color-white;
   }
 }
 
@@ -127,7 +127,7 @@
   text-decoration: none;
   font-size: 1.2em;
   font-weight: 300;
-  
+
   a {
     border-bottom: 1px solid $color-secondary-alt;
   }
@@ -142,7 +142,7 @@
   }
 }
 
-h2.orange-title.page-headline {
+.orange-title.page-headline {
   margin-top: 0;
   margin-bottom: 0;
   color: $color-secondary;
@@ -173,7 +173,7 @@ h2.orange-title.page-headline {
 .video-explainer {
   background-color: $landing-community-bg;
 
-  h2.page-headline {
+  .page-headline {
     color: $color-white;
   }
 
@@ -186,8 +186,9 @@ h2.orange-title.page-headline {
       height: 408px;
     }
 
-    @media (max-width: $screen-sm-max) {
-
+    @media (max-width: $screen-xs-max) {
+      width: 323px;
+      height: 204px;
     }
   }
 }
