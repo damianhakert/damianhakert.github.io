@@ -4,12 +4,13 @@ title: Issue Boards
 suppress_header: true
 extra_css:
   - "issue-boards.css"
-extra_js:
-  - "issue-boards.js"
 ---
 
 .page-container.issue-boards-container.text-center.animated
   .container
+    .header-graphic
+      = image_tag "/images/issue-boards/icon-header.png", class: "img-responsive"
+
     %h1.page-headline
       Introducing GitLab Issue Boards
     %h4.subheader
@@ -22,19 +23,19 @@ extra_js:
     %h2.page-headline.orange-title
       What are GitLab Issue Boards?
     .feature-item.col-md-10.col-md-push-1
-      = icon("issue-boards-feature-1-icon", "feature-icon", { label: "One tool, endless functionality" })
+      = icon("issue-boards/icon-benefit-1", "feature-icon", { label: "One tool, endless functionality" })
       %h3
         One tool, endless functionality
       %p 
         Everything in one place. Track issues and communicate progress without switching between products. One interface to follow your issues from backlog to done.
     .feature-item.col-md-10.col-md-push-1
-      = icon("issue-boards-feature-2-icon", "feature-icon", { label: "Beautiful and comprehensive" })
+      = icon("issue-boards/icon-benefit-2", "feature-icon", { label: "Beautiful and comprehensive" })
       %h3
         Beautiful and comprehensive
       %p 
         It’s more than a visual representation. It’s your issues, your labels, and all the metadata that comes with them. And you still have all the same sorting and filtering tools that you use across GitLab.
     .feature-item.col-md-10.col-md-push-1
-      = icon("issue-boards-feature-3-icon", "feature-icon", { label: "Flexible setup" })
+      = icon("issue-boards/icon-benefit-3", "feature-icon", { label: "Flexible setup" })
       %h3
         Flexible setup
       %p 
@@ -46,7 +47,7 @@ extra_js:
       Check Out Issue Boards In Action
 
     .video-container
-      %iframe{ width: "969", height: "612", src: "https://www.youtube.com/embed/pY4IbEXxxGY", frameborder: "0", allowfullscreen: true }
+      %iframe{ src: "https://www.youtube.com/embed/pY4IbEXxxGY", frameborder: "0", allowfullscreen: true }
   
 
 .what-is.purple-section.text-center.animated
@@ -65,7 +66,7 @@ extra_js:
       .step.js-step
         .container
           .step-icon-container
-            = icon("issue-boards-step-1-icon", "step-icon", { label: "Create an issue" })
+            = icon("issue-boards/icon-step-1", "step-icon", { label: "Create an issue" })
             %span.step-number.text-center
               [ step 01 ]
           .row
@@ -86,7 +87,7 @@ extra_js:
       .step.js-step
         .container
           .step-icon-container
-            = icon("issue-boards-step-2-icon", "step-icon", { label: "Add a label" })
+            = icon("issue-boards/icon-step-2", "step-icon", { label: "Add a label" })
             %span.step-number.text-center
               [ step 02 ]
           .row
@@ -105,7 +106,7 @@ extra_js:
       .step.js-step
         .container
           .step-icon-container
-            = icon("issue-boards-step-3-icon", "step-icon step-icon-3", { label: "Go to your board" })
+            = icon("issue-boards/icon-step-3", "step-icon step-icon-3", { label: "Go to your board" })
             %span.step-number.text-center
               [ step 03 ]
           .row
@@ -124,7 +125,7 @@ extra_js:
       .step.js-step
         .container
           .step-icon-container
-            = icon("issue-boards-step-4-icon", "step-icon", { label: "Create a list based on a label" })
+            = icon("issue-boards/icon-step-4", "step-icon", { label: "Create a list based on a label" })
             %span.step-number.text-center
               [ step 04 ]
           .row
@@ -143,7 +144,7 @@ extra_js:
       .step.js-step
         .container
           .step-icon-container
-            = icon("issue-boards-step-5-icon", "step-icon", { label: "Drag and drop to organize issues" })
+            = icon("issue-boards/icon-step-5", "step-icon", { label: "Drag and drop to organize issues" })
             %span.step-number.text-center
               [ step 05 ]
           .row
