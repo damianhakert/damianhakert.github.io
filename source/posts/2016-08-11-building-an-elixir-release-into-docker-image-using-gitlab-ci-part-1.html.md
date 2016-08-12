@@ -126,6 +126,17 @@ We are using Conform to achieve runtime configuration of the release using envir
 
 Task to cleanup things:
 
+```yaml
+cleanup_job:
+  tags:
+    - docker
+  stage: cleanup
+  script:
+    - docker rm -v build_data_$CI_PROJECT_ID_$CI_BUILD_REF
+    - docker rmi ci-project-build-$CI_PROJECT_ID:$CI_BUILD_REF
+  when: always
+```
+
 It removes the container with volumes created for build artifacts, and removes the image used during the pipeline. This task is running every time, despite the results of any previous tasks.
 
 Below are our Dockerfiles:
