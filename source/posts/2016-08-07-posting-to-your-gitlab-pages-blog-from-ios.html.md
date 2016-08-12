@@ -58,6 +58,8 @@ the navigation bar twice to go back to your repository.
 
 ### Creating a new file for the post
 
+![Creating a new file in Working Copy](images/blogimages/posting-to-your-gitlab-pages-blog-from-ios/wc-add-new-file-annotated.png)
+
 Now that you're on a new branch, navigate your repository to the folder where
 posts go. In Hugo, this is `/content/post`&mdash;navigating here, you should see
 all of your existing posts listed. To add a new file, tap the **&#43;** button
