@@ -4,7 +4,6 @@ author: Sid Sijbrandij
 author_twitter: sytses
 categories: inside GitLab
 image_title: '/images/unsplash/million_downloads.jpg'
-description: "Five principles that make it easier for people to love your company culture"
 ---
 
 We were very pleased and surprised to see [this article](https://www.b.agilob.net/choose-gitlab-for-your-next-project/) pop up
