@@ -6,6 +6,7 @@ categories: inside GitLab
 image_title: '/images/blogimages/moving-from-ops-to-infrastructure/infrastructure-cover-image.jpg'
 description: "Why and how GitLab moved from an Ops mindset to an Infrastructure mindset"
 twitter_image: '/images/tweets/moving-from-ops-to-infrastructure.png'
+date: 2016-08-12 13:00
 ---
 
 There is Ops, Infrastructure, Performance, DevOps etc. The terms and titles go on and they vary based on a
