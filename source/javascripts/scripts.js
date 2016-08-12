@@ -142,7 +142,7 @@ $(function() {
         var divPosition = $(this).offset().top - navHeight - (devCycleNavHeight * 3.5);
         $('.cycle-icon-row .step').removeClass('active');
 
-        if( divPosition - 1 < scroll ){
+        if (divPosition - 1 < scroll) {
           $currentSection = $(this);
         }
 
