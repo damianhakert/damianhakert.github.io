@@ -118,10 +118,10 @@ $(function() {
 
   $(".cycle-icon-row").removeClass('stuck');
   $(document).scroll(function(){
-    navHeight = $('.navbar-fixed-top').height();
-    devCycleNavHeight = $('.cycle-icon-row').height();
-    $iconNav = $('.cycle-icon-row');
-    scroll = $(window).scrollTop();
+    var navHeight = $('.navbar-fixed-top').height();
+    var devCycleNavHeight = $('.cycle-icon-row').height();
+    var $iconNav = $('.cycle-icon-row');
+    var scroll = $(window).scrollTop();
 
     if ($iconNav.is(':visible')) {
 
@@ -166,10 +166,11 @@ $(function() {
   };
 
   $('.cycle-icon-row .step').click(function(e) {
-  e.preventDefault();
+    e.preventDefault();
 
-  var anchor = $(this).attr('href');
+    var anchor = $(this).attr('href');
     animateScroll($(anchor).offset().top - 200);
   });
+
 
 });
