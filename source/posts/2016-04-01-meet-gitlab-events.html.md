@@ -4,6 +4,7 @@ date: 2016-04-01 21:00
 author: Emily Kyle
 author_twitter: emilylucie
 image_title: '/images/blogimages/railsgirls-tomazs.jpg'
+categories: events
 ---
 
 Our [team] is growing! Since we're remote only we have no real headquarters

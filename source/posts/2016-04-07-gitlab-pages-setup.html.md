@@ -5,6 +5,8 @@ categories: tutorial
 author: Marcia Ramos
 author_twitter: virtuacreative
 image_title: '/images/blogimages/gitlab-pages-setup-cover.jpg'
+twitter_image: '/images/tweets/gitlab-pages-setup.png'
+description: "Learn how to host your website on GitLab.com with GitLab Pages"
 ---
 
 In this article we provide you with detailed information about using [GitLab Pages][pages] to
@@ -299,7 +301,8 @@ _Steps to set up a custom domain_
 - If you have an SSL/TLS digital certificate and its key, add them to their respective fields.
 If you don't, just leave the fields blank.
 - Click on **Create New Domain**.
-- Finally, access your domain control panel and create a new [DNS `A` record][dns-A] pointing to the IP of Pages server:
+- Finally, access your domain control panel and create a new [DNS `A` record][dns-A] pointing
+to the [IP of GitLab Pages server][pages-settings]:
 
 ```
 mydomain.com A 104.208.235.32
@@ -347,7 +350,7 @@ post to provide you with some distinct GitLab CI configurations.
 
 Yes, it is! On [GitLab.com][sign-up] you can create your free account
 and enjoy all its [features][gitlab-com], including unlimited private repositories,
-projects, websites, and contributors. Also, you'll have 10GB disk space per project, [1GB per Pages artifacts][pages-1GB-artifacts],
+projects, websites, and contributors. Also, you'll have 10GB disk space per project, [1GB per Pages artifacts][pages-settings],
 and unlimited total disk space. Awesome, isn't it? Why don't you take a peek at the [public projects][explore]?
 
 ### Where is the `public` folder?
@@ -422,7 +425,6 @@ When she is not coding, she is writing articles, studying, teaching or contribut
 [doc-stages]: http://doc.gitlab.com/ce/ci/yaml/README.html#stages
 [ee-yaml-ci]: http://doc.gitlab.com/ee/ci/yaml/README.html
 [pages]: https://pages.gitlab.io
-[pages-1GB-artifacts]: https://about.gitlab.com/2016/02/22/gitlab-8-5-released/#comment-2533247852
 [pages-ee]: http://doc.gitlab.com/ee/pages/README.html
 [pages-introduced]: https://about.gitlab.com/2016/04/04/gitlab-pages-get-started/
 [pages-issues]: https://gitlab.com/pages/pages.gitlab.io/issues
@@ -432,6 +434,7 @@ When she is not coding, she is writing articles, studying, teaching or contribut
 [pages-ci-html]: http://doc.gitlab.com/ee/pages/README.html#how-.gitlab-ci.yml-looks-like-when-the-static-content-is-in-your-repository
 [pages-ci-jekyll]: http://doc.gitlab.com/ee/pages/README.html#how-.gitlab-ci.yml-looks-like-when-using-a-static-generator
 [pages-custom-domain]: http://doc.gitlab.com/ee/pages/README.html#add-a-custom-domain-to-your-pages-website
+[pages-settings]: https://about.gitlab.com/gitlab-com/settings/#gitlab-pages
 [quick start guide]: http://doc.gitlab.com/ee/ci/quick_start/README.html
 
 [about-gitlab-com]: https://about.gitlab.com/

@@ -87,6 +87,17 @@ helpers do
       job.description.start_with?("/#{File.dirname(current_page.request_path)}")
     end
   end
+
+  def font_url(current_page)
+    fonts = ["Source+Sans+Pro:300,400,600"]
+
+    if current_page.data.extra_font
+      fonts = fonts.concat current_page.data.extra_font
+    end
+    fonts = fonts.join("|")
+
+    "//fonts.googleapis.com/css?family=#{fonts}"
+  end
 end
 
 # Build-specific configuration

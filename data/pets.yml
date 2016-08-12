@@ -82,10 +82,30 @@
   picture: roshi.jpg
   human: jared
   story: Like many other species of developer, this hungry hedgehog is nocturnal. When Roshi is not performing code reviews, he can be found mistaking hair brushes for his siblings.
+- name: Sundae
+  picture: sundae.jpg
+  human: alex
+  story: Overeager cuddler and bread thief.
+- name: Coconut (aka coworker cat)
+  picture: coconut.jpg
+  human: alex
+  story: I enjoy my title of coworker cat. I work hard (and by that I mean look cute) to keep morale up, but I'm not very good at the business aspect of things since I sleep most of the time.
+- name: Alex
+  picture: alex.jpg
+  human: taurie
+  story: Consistent cuddler, but usually only with my humans. Sassy with all others, and sometimes also with my humans.
+- name: Griffin
+  picture: griffin.png
+  human: reb
+  story: I may be a loaner-beagle, but that doesn't stop me from pulling at my leash.
+- name: Fifille and Lola
+  picture: fifille_lola.jpg
+  human: chriscool
+  story: Fifille and Lola are very fearful guinea pigs, unless you approach them with cucumber slices.
 - name: You?
   picture: ../logo-extra-whitespace.png
   story:  |
 
           Want to see your name and picture here? Ask your owner/servant to
           check out our latest
-          <a href="http://about.gitlab.com/jobs/">job openings</a>!
+          <a href="https://about.gitlab.com/jobs/">job openings</a>!

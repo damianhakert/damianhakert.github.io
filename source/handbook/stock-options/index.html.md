@@ -3,6 +3,16 @@ layout: markdown_page
 title: "Stock Options"
 ---
 
+----
+
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+----
+
 ## About Your Ownership in GitLab
 
 At GitLab we strongly believe in employee ownership in our Company.  We are in business
@@ -115,11 +125,32 @@ There are two methods to exercise your shares:
    - After ACH has been enabled select exercise option grants and follow the prompts
 2. Manual (Non ACH and Non US Residents)
    - Log into your eShares account
-   - Select print grant and print the forms for exercising shares
-   - Create PDF of signed forms and send to peopleops@gitlab.com
-   - Send payment in US dollars by wire transfer.  You will be provided wire transfer info
+   - Click on "View" (right hand side of screen)
+   - Click on "Attachments and Notes"
+   - Click on "Form of Exercise Agreement"
+   - Complete the form, sign and return as PDF to the CFO
+   - Send payment in US dollars by wire transfer. You will be provided wire transfer info.
 
-Note for US residents: whichever method you choose, be sure to download the 83-b election and file with the IRS within 30 days of exercise. Send a copy of the election form to peopleops@gitlab.com.
+Note for US residents: whichever method you choose, be sure to download the 83-b election form provided by eShares and file with the IRS within 30 days of exercise. Send a copy of the election form to the CFO.
+
+You will most likely want to include the following letter when sending in the 83-b election to the IRS.
+
+>
+><<Date Filed>>
+>
+>Department of the Treasury
+>
+><<Address provided from eShares 83-b instructions>>
+>
+>To whom it may concern:
+>
+>Please find enclosed two copies of the 83-b election in connection with my purchase of shares of GitLab Inc. common stock.  Please return one copy stamped as received to my attention in the enclosed self addressed stamped envelope.  
+>
+>Yours Truly,
+>
+>//signature
+
+
 
 
 ## Option Expiration
@@ -169,16 +200,23 @@ NSOs are treated much less favorably under tax law because they can be given to 
 don’t work at GitLab. This complicates the tax law and is beyond the current scope of this
 document.
 
-For our employees based in the Netherlands, the Dutch taxing authority has a similar concept in that
-only the difference between the exercise price and the fair market value is considered taxable.  So if
-you exercise early there is no difference between the two and therefore no taxable gain.
-Again, the decision to exercise early should be done in consultation with your tax advisor.
+For our employees based in the Netherlands, the Dutch taxing authority has a similar concept in that only the difference between the exercise price and the fair market value is considered taxable. So if you exercise early there is no difference between the two and therefore no taxable gain. With respect to tax reporting, you report the difference between fair market value at exercise and the exercise price. So if there is no difference between the two, nothing needs to be reported. Once you have exercised options, then you will need to speak with your tax advisor about how to report them for the purposes of Dutch wealth tax. Again the Company is not in a position to offer tax or legal advice around early exercising or tax reporting, so check with your own tax and financial advisors.
 
 Anyone is always welcome to ask our CFO any questions they have about their options,
  GitLab’s fundraising, or anything else related to equity at GitLab. However, everyone should
  also consult a lawyer before making important financial decisions, especially regarding
  their equity because there are complex legal and tax requirements that may apply.
 
+## Stock option grant levels
+
+|Level|Number of Options|
+|----|----:|
+|Sr. Director|15,000|
+|Director|10,000|
+|Sr. Manager|5,000|
+|Manager / Lead / Individual contributor|2,000|
+
+
 ## References
 
-Our team member Drew Blessing [wrote about what he learned about stock options](http://blessing.io/startups/stock-options/2016/02/15/navigating-your-stock-options.html) after starting to research them because he received them when joining us. His article is grealy appreciated but GitLab Inc. does not endorse it, any advise is his.
+Our team member Drew Blessing [wrote about what he learned about stock options](http://blessing.io/startups/stock-options/2016/02/15/navigating-your-stock-options.html) after starting to research them because he received them when joining us. His article is greatly appreciated but GitLab Inc. does not endorse it, any advise is his.

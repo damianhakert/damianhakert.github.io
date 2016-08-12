@@ -43,7 +43,7 @@
       content: Branches is an iPhone and iPad app for managing issues in your GitLab repositories. The app also lets you browse commits, merge requests and files.
       links:
         - url: http://branchesapp.co
-          title: branchesapp.co 
+          title: branchesapp.co
 - title: Command Line Interface (CLI) Clients
   id: cli-clients
   applications:
@@ -62,11 +62,6 @@
       links:
         - url: https://gitlab.com/bor-sh/git-gitlab
           title: Repository on GitLab
-    - title: "Drew Blessing's GitLab CLI Tool"
-      content: Interact with your GitLab server via the command line to manage snippets, projects and more.
-      links:
-        - url: https://github.com/drewblessing/gitlab-cli
-          title: Repository on GitHub
     - title: "GoTsunami's GitLab Copy Tool"
       content: Copy issues (with labels, milestones and notes) from one GitLab project to another, possibly running on different GitLab instances.
       links:
@@ -263,6 +258,22 @@
           title: Repository on gitlab.com
         - url: https://github.com/Hexanet/MergeRequestsCI
           title: Repository on GitHub
+    - title: Hubstaff
+      content: Time tracking with screenshots and activity levels for GitLab issues. Issues sync automatically to native apps for Mac, Windows, Linux, iPhone and Android.
+      links:
+        - url: https://hubstaff.com/gitlab_time_tracking
+          title: Integration
+        - url: https://www.youtube.com/watch?v=bCJkMiN1hVw
+          title: Video walk-through
+        - url: http://support.hubstaff.com/gitlab-time-tracking-integration/
+          title: Support
+    - title: POEditor
+      content: Collaborative translation platform and localization management software. The integration with GitLab connects the translations in POEditor projects with language files in GitLab repos, simplifying translation management and syncronization.
+      links:
+        - url: https://poeditor.com/
+          title: POEditor
+        - url: https://poeditor.com/help/how_to_translate_a_language_file_from_a_gitlab_project
+          title: GitLab Integration
 - title: Continuous Integration
   id: continuous-integration
   applications:
@@ -372,6 +383,14 @@
       links:
         - url: https://github.com/MatthiasLohr/munin-plugins-gitlab
           title: Plugins on GitHub
+    - title: Blackfire.io
+      content: Blackfire enables you to automate the performance testing and profiling of your code any time you modify it.
+      links:
+        - url: https://blackfire.io
+          title: Blackfire.io
+        - url: https://blackfire.io/docs/integrations/gitlab
+          title: Gitlab integration documentation
+
 - title: Login with your GitLab.com account
   id: login-with-gitlab
   applications:
@@ -400,7 +419,7 @@
         - url: http://kanban.leanlabs.io/
           title: Kanban.Leanlabs.io
     - title: Vivify Scrum
-      content: SaaS for agile project management.
+      content: "A project management tool that is Scrum and Kanban compatible. Intuitive and efficient. Built for software developers by software developers. Let's you focus on what matters."
       links:
         - url: https://www.vivifyscrum.com/
           title: Vivify Scrum
