@@ -16,12 +16,12 @@ implementing technology and processes, and partnering with the sales, product,
 engineering and operations teams to deliver the best possible customer
 experience.
 
-The right candidate is truly passionate about customer advocacy and has a proven track record to talk about! This is an exciting opportunity to unequivocally influence our customers and furthermore, directly impact GitLab’s overall success.
+The right candidate is truly passionate about customer advocacy and has a proven track record to talk about! This is an exciting opportunity to unequivocally influence our customers and furthermore, directly impact GitLab’s overall success and growth.
 
 ## Responsibilities:
 
 * Set the overall vision and strategic plan for the Customer Success organization - build and scale an integrated Customer Success organization, with specific focus on Health, Usage and Adoption metrics.
-* Drive Customer Success Outcomes: Expand our revenue in accounts through up-sell opportunities with our EE Options, influence future lifetime value through higher product adoption, customer satisfaction and overall health scores, reduce churn and drive new business growth through greater advocacy and reference ability
+* Drive Customer Success Outcomes: Expand our revenue in accounts through up-sell opportunities with our GitLab Products, influence future lifetime value through higher product adoption, customer satisfaction and overall health scores, reduce churn and drive new business growth through greater advocacy and reference ability
 * Define and Optimize Customer Lifecycle: define segmentation of customer base and varying strategies, identify opportunities for continuous improvement.
 * Measure effectiveness of Customer success: define operational metrics for team, establish system for tracking metrics, create cadence for review within the team
 * Lead World-Class Customer Success Team: recruit experienced leaders for each functional role, attract high potential individual contributors into the team, create rapid onboarding process for new team members, and foster collaboration within team and across customers
