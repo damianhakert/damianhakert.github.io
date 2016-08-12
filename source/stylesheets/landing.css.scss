@@ -69,7 +69,8 @@
       position: fixed;
       top: 50px;
       bottom: auto;
-      background-color: $landing-community-bg;
+      background-image: linear-gradient($landing-community-bg 50%, rgba(0,0,0,0));
+      padding-bottom: 75px;
     }
 
     .step {

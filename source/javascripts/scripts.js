@@ -139,7 +139,7 @@ $(function() {
 
       var $currentSection;
       $('.cycle-vertical .step').each(function() {
-        var divPosition = $(this).offset().top - navHeight - (devCycleNavHeight * 2.3);
+        var divPosition = $(this).offset().top - navHeight - (devCycleNavHeight * 3.5);
         $('.cycle-icon-row .step').removeClass('active');
 
         if( divPosition - 1 < scroll ){
