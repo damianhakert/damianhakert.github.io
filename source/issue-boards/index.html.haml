@@ -28,19 +28,19 @@ extra_js:
       = icon("issue-boards/icon-benefit-1", "feature-icon", { label: "One tool, endless functionality" })
       %h3
         One tool, endless functionality
-      %p 
+      %p
         Everything in one place. Track issues and communicate progress without switching between products. One interface to follow your issues from backlog to done.
     .feature-item.col-md-10.col-md-push-1
       = icon("issue-boards/icon-benefit-2", "feature-icon", { label: "Beautiful and comprehensive" })
       %h3
         Beautiful and comprehensive
-      %p 
+      %p
         It’s more than a visual representation. It’s your issues, your labels, and all the metadata that comes with them. And you still have all the same sorting and filtering tools that you use across GitLab.
     .feature-item.col-md-10.col-md-push-1
       = icon("issue-boards/icon-benefit-3", "feature-icon", { label: "Flexible setup" })
       %h3
         Flexible setup
-      %p 
+      %p
         You define your process and we organize it. You create the label. We create the corresponding column and pull in your existing issues. When you're ready you drag and drop from one step to the next.
 
 .page-container.content-container.text-center.video-explainer
@@ -50,7 +50,7 @@ extra_js:
 
     .video-container
       %iframe{ src: "https://www.youtube.com/embed/dQw4w9WgXcQ", frameborder: "0", allowfullscreen: true }
-  
+
 
 .what-is.purple-section.text-center.animated
   .container
@@ -77,13 +77,15 @@ extra_js:
                 Create an issue
               .lead.text-center.step-lead-text
                 :markdown
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                  [Creating issues](/2016/03/03/start-with-an-issue/) helps you
+                  summarize your ideas and share it with your collaborators to
+                  have their say early in the process.
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum.
-
-                    Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum.
+                    Navigate to the **Issues** tab under your project's page
+                    and create your first issue. If your project already has
+                    some issues, jump right to the next step!
                 .col-md-6
                   = image_tag "/images/issue-boards/create-an-issue.png", class: "img-responsive"
       .step.js-step
@@ -98,13 +100,18 @@ extra_js:
                 Add a label (or create a new one)
               .lead.text-center.step-lead-text
                 :markdown
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                  [Labels](http://docs.gitlab.com/ce/user/project/labels.html) provide
+                  an easy way to categorize issues. Issue Boards are based on labels,
+                  so this is an important step.
               .row.row-eq-height
                 .col-md-6
                   = image_tag "/images/issue-boards/add-a-label.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
-                    Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod.
+                    Creating your first label is simple! You can create it from
+                    [within the issue](http://docs.gitlab.com/ce/user/project/labels.html#create-a-new-label-right-from-the-issue-tracker)
+                    itself or by navigating to the [labels area](http://docs.gitlab.com/ce/user/project/labels.html#create-new-labels).
+                    If you already have some labels, it's time to meet the Issue Board!
       .step.js-step
         .container
           .step-icon-container
@@ -114,16 +121,20 @@ extra_js:
           .row
             .col-md-10.col-md-push-1.step-content-holder
               %h3.step-title.text-center
-                Go to your board
+                Go to your Board
               .lead.text-center.step-lead-text
                 :markdown
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper.
+                  The Issue Board consists of a number of columns called lists and each
+                  list contains the issues that are are treated as cards.
               .row.row-eq-height
                 .col-md-6.col-md-push-6
                   = image_tag "/images/issue-boards/go-to-board.png", class: "img-responsive"
                 .col-md-6.col-md-pull-6.step-content
                   :markdown
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper.
+                    Find the Issue Board by navigating to your project's **Issues > Board**.
+                    You can create lists which are based on the labels that already
+                    exist in your issue tracker. Issues can be seen as cards and they can
+                    easily be moved between the lists, as to create workflows.
       .step.js-step
         .container
           .step-icon-container
@@ -136,13 +147,23 @@ extra_js:
                 Create a list based on a label
               .lead.text-center.step-lead-text
                 :markdown
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper.
+                  Lists are based on the labels already created for your project. Each
+                  list contains the issues that are assigned to the corresponding label.
               .row.row-eq-height
                 .col-md-6
                   = image_tag "/images/issue-boards/create-list.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
-                    Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod.
+                    You start by having two special lists: **Backlog** and **Done**. Under
+                    **Backlog** you can see all issues that are not yet assigned to a list.
+                    The **Done** list, will close the relevant issue.
+
+                    Click **Create new list** and you'll get to choose a label to create
+                    the list from. Once done, the list will appear as a new column in your
+                    board. You can create up to 10 lists per project.
+
+                    If you are starting fresh, you can opt-in and let GitLab
+                    create a predefined set of lists for you.
       .step.js-step
         .container
           .step-icon-container
@@ -152,14 +173,24 @@ extra_js:
           .row
             .col-md-10.col-md-push-1.step-content-holder
               %h3.step-title.text-center
-                Drag and drop to organize issues
+                Move issues between lists
               .lead.text-center.step-lead-text.step-lead-text-last
                 :markdown
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+                  Every issue is displayed in a card which you can drag and
+                  drop to a different list in order to organize your project.
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui.
+                    Move a card between two lists and the relevant issue will
+                    get its labels swapped.
+
+                    When you create a new issue and add a label to it which
+                    corresponds to an existing list, that issue will be automatically
+                    displayed on that list in your board. If you move it to **Done**,
+                    the issue will be automatically closed for you!
+
+                    You can also drag-and-drop the lists themselves, to organize
+                    them in a flow you'd like to work with.
                 .col-md-6
                   = image_tag "/images/issue-boards/drag-and-drop.png", class: "img-responsive"
 
