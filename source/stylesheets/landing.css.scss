@@ -61,7 +61,7 @@
   &.cycle-icon-row {
     position: absolute;
     padding: 20px 0 25px;
-    bottom: 0px;
+    bottom: 0;
     left: 0;
     right: 0;
 
@@ -114,12 +114,9 @@
     &.active {
       color: $color-secondary;
 
-      svg {
-        path {
-          fill: $color-secondary;
-        }
+      svg path {
+        fill: $color-secondary;
       }
-
     }
   }
 
