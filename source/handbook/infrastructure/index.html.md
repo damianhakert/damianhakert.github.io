@@ -119,6 +119,16 @@ There are 2 kind of production events that we track:
   - If we don't know the root cause, also state it and leave the issue open for followup.
   - Add the outage issue to the infrastructure agenda for sharing the knowledge, or to asking for guidence.
 
+## On Call
+
+- We do 12hs shifts in a follow the sun style based on your location.
+- After each shift the on call person will send a handoff email to the next on call explaining what happened and what's ongoing, pointing at the right issues with the progress.
+- We only have 1 person at any time doing on call, we avoid to have fallbacks because that leads to ignore pages becase "the next fallback will pick it up", we take on call seriously.
+- Escalation will page everyone on the on call rotation in 15 minutes, and if that fails it will page up in the management chain.
+- We track metrics on uptime first, then on time to fix (TTF). We do so to understand where the pain is, and how much time are we investing in fixing a problem and use those metrics to drive automation priorities.
+- When being on call prioritize work that will make the on call better (that includes building projects). We strive to have nothing to do when on call, the only way that will happen is by investing time in automating ourselves out a job.
+- After being on call take some time off, being available for and issues outages has to be rewarded and resting is critical for proper functioning. Just let your team know.
+
 # Make GitLab.com settings the default
 
 As said in the [production engineer job description](jobs/production-engineer/index.html)
