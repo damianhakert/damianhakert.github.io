@@ -327,9 +327,13 @@
 
 .idea-to-production {
   background-color: $color-primary-alt;
-  padding: 100px 0;
+  padding: 100px 0 60px;
   position: relative;
   z-index: 10;
+
+  @media (max-width: $screen-md-max) {
+    padding-bottom: 0;
+  }
 
   h1 {
     color: $color-white;
@@ -343,7 +347,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
   }
 
   h3 {
@@ -354,19 +358,6 @@
   .description {
     color: $color-white;
     font-size: 18px;
-  }
-
-  .image-column {
-    text-align: center;
-
-    img {
-      max-height: 280px;
-      width: auto;
-    }
-
-    .building-img {
-      max-height: 350px;
-    }
   }
 
   @media (max-width: $screen-sm-max) {
