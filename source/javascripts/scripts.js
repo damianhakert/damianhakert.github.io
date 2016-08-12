@@ -117,18 +117,36 @@ $(function() {
   // Sticky dev cycle nav
 
   $(document).scroll(function(){
-    $navHeight = 50;
+    navHeight = 50;
+    scroll = $(window).scrollTop();
 
-    if ($(window).scrollTop() > 0) {
+    if (scroll > 0) {
       $(".cycle-icon-row").removeClass('stuck-top');
     }
 
-    if ($(window).scrollTop() >= $('.cycle-icon-row').offset().top - $navHeight) {
+    if (scroll >= $('.cycle-icon-row').offset().top - navHeight) {
       $(".cycle-icon-row").addClass('stuck-top');
     }
 
-    if ($(window).scrollTop() >= $('.idea-to-production').offset().top) {
+    if (scroll >= $('.idea-to-production').offset().top) {
       $(".cycle-icon-row").removeClass('stuck-top');
     }
+
+    var $currentSection;
+    $('.cycle-vertical .step').each(function() {
+      var divPosition = $(this).offset().top;
+
+      if( divPosition - 1 < scroll ){
+        $currentSection = $(this);
+      }
+
+
+      if ($currentSection) {
+        var id = $currentSection.attr("id");
+        $('.cycle-icon-row .step').removeClass('active');
+        $("[href='#" + id + "']").addClass('active');
+      }
+    })
+
   });
 });

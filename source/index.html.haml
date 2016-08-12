@@ -29,7 +29,7 @@ extra_js:
     .dev-cycle.cycle-icon-row.hidden-xs.hidden-sm
       - steps = ['idea', 'issue', 'plan', 'code', 'commit', 'test', 'review', 'staging', 'production']
       - steps.each_with_index do |step, index|
-        .step
+        %a.step{href: "#step-#{index+1}"}
           = partial "images/home/icon-step-#{index + 1}.svg"
           .step-name-container
             .step-name
@@ -54,7 +54,7 @@ extra_js:
                    {name:'staging', description: 'Name your environment and deploy to it'},
                    {name:'production', description: 'Close the loop by deploying from the initial chatroom'}]
   - cycle_items.each_with_index do |item, index|
-    .step
+    .step{:id => "step-#{index+1}"}
       = partial "images/home/icon-step-#{index + 1}.svg"
       .step-name
         #{item[:name]}
