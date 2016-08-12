@@ -97,6 +97,8 @@ rendering, but keep in mind that your SSG may not be using the same rendering en
 as Editorial does, so if you're using non-standard Markdown elements, the final
 post may not render exactly the same.
 
+![Sending the file back to Working Copy from Editorial](images/blogimages/posting-to-your-gitlab-pages-blog-from-ios/wc-editorial-workflow-annotated.png)
+
 When you're at a point where you want to save and commit your progress, tap the
 🔧 icon in the top-right of the navigation bar in Editorial, then tap the **Working
 Copy** workflow, and you'll be taken back to Working Copy, ready to commit. Enter
@@ -118,6 +120,8 @@ Once you're ready to commit, tap the **Repository** field in Working Copy's repo
 navigator, then tap on the **Commit changes** button. You'll be prompted to enter
 a short summary, as well as an (optional) detailed explanation of the changes. Below
 the text fields, you'll see a list of files to commit.
+
+![Commit and push from Working Copy to GitLab](images/blogimages/posting-to-your-gitlab-pages-blog-from-ios/wc-commit-and-push-annotated.png)
 
 Once you've entered a commit message, the **Commit** button will be enabled in the
 top-right of the navigation bar. Next to it is a **&#43;Push** toggle; if it's
