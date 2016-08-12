@@ -11,7 +11,7 @@ date: 2016-08-12 13:00
 
 There is Ops, Infrastructure, Performance, DevOps etc. The terms and titles go on and they vary based on a
 variety of industries, companies, and cultures. At GitLab, we focus on the philosophy not the title. In this
-post, I’ll explain why and how our team shifted our philosophy on how we approach the GitLab's performance
+post, I’ll explain why and how our team shifted our philosophy on how we approach GitLab's performance
 from an Operations mindset to an Infrastructure mindset.
 
 <!-- more -->
@@ -21,19 +21,19 @@ from an Operations mindset to an Infrastructure mindset.
 With more and more people using GitLab to host their public and private repos, run CI tests, and deploy to a
 number of different environments, we started experiencing noticeable performance and scaling challenges. We’d spot a problem and then race to get it fixed.
 The team was incredibly reactionary, working to fix this and change that. The reality is that computers will
-break and as you scale more things will fail. With this mind, we could’ve
+break and as you scale more things will fail. With this in mind, we could’ve
 taken the “Mongolian hoard approach” and thrown more people at the problem. However, that would have been
 another knee-jerk reaction and we could already see that the reactive way of doing things would never scale.
-So, we had to change. Our goal was to stop running behind the issues and start anticipating challenges to
-stay steps ahead of them.
+So, we had to change. Our goal was to stop running behind the issues and start anticipating challenges in
+order to stay steps ahead of them.
 
 ## The transition
 
 Like most things, change is a process. Here are the steps we took:
 
 * **Focus on infrastructure**: We shifted the team to drop the operations view that segregates systems engineering and instead focus on building infrastructure from a development perspective. Our goal was to get away from a world where developers code features and then system engineers deploy it and provision machines. We achieve better results when everyone has to be included in this process, either by building the product adding features, or by building the infrastructure and driving how the product uses the infrastructure to grow.
-* **Spot patterns**: We built graphs to spot patterns. Fortunately, human brains are very good at pattern matching. It's just the way our brain works. Of course, just seeing the pattern isn’t enough. We’d spot the pattern and then work to match it to what we already knew were signs of good performance levels. The only way to be able to spot patterns is to commit to time based metrics that you will collect and the correlate.
-* **Mind the gap**: When we spotted an unexpected or strange behavior we moved closer to the problem to understand where it was coming from, build a hypothesis, and then challenge our assumptions. We don't take feelings as data, if someone on the team feels that something is slow, we still need to get a number showing how slow, in a way that we can reproduce the experiment.
+* **Spot patterns**: We built graphs to spot patterns. Fortunately, human brains are very good at pattern matching. It's just the way our brain works. Of course, just seeing the pattern isn’t enough. We’d spot the pattern and then work to match it to what we already knew were signs of good performance levels. The only way to be able to spot patterns is to commit to time based metrics that you will collect and then correlate.
+* **Mind the gap**: When we spotted an unexpected or strange behavior we moved closer to the problem to understand where it was coming from, build a hypothesis, and then challenge our assumptions. We don't take feelings as data, if someone on the team feels that something is slow, we still need to get a number showing how slow, in a way that we can measure and reproduce the experiment.
 * **Align resources effectively**: With data on what’s not working and how is this affecting your system, you can focus on the right problem and allocate the right level of people and resources to find a solution.
 * **Seek to automate**: If you find yourself performing a manual task, you should do it once, twice, then many. By that, I mean you do the manual work once, a second time, and then you if you need to perform it a third time you need to automate it somehow. This is the laziness Larry Wall talks about in [the three virtues of a great programmer](http://threevirtues.com/). The goal is to stop doing the boring work a machine is so good at.
 * **Rinse and repeat**: Take your graphs, make your assumptions, challenge them with an experiment, get your results, and start again following an iterative process, forever.
