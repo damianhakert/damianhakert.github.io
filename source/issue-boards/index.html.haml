@@ -86,8 +86,9 @@ extra_js:
                     Navigate to the **Issues** tab under your project's page
                     and create your first issue. If your project already has
                     some issues, jump right to the next step!
-                .col-md-6
-                  = image_tag "/images/issue-boards/create-an-issue.png", class: "img-responsive"
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/issue-boards/step-1-create-issue.png", class: "img-responsive"
       .step.js-step
         .container
           .step-icon-container
@@ -104,8 +105,9 @@ extra_js:
                   an easy way to categorize issues. Issue Boards are based on labels,
                   so this is an important step.
               .row.row-eq-height
-                .col-md-6
-                  = image_tag "/images/issue-boards/add-a-label.png", class: "img-responsive"
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/issue-boards/step-2-labels.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
                     Creating your first label is simple! You can create it from
@@ -127,14 +129,15 @@ extra_js:
                   The Issue Board consists of a number of columns called lists and each
                   list contains the issues that are are treated as cards.
               .row.row-eq-height
-                .col-md-6.col-md-push-6
-                  = image_tag "/images/issue-boards/go-to-board.png", class: "img-responsive"
-                .col-md-6.col-md-pull-6.step-content
+                .col-md-6.step-content
                   :markdown
                     Find the Issue Board by navigating to your project's **Issues > Board**.
                     You can create lists which are based on the labels that already
                     exist in your issue tracker. Issues can be seen as cards and they can
                     easily be moved between the lists, as to create workflows.
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/issue-boards/step-3-go-to-board.png", class: "img-responsive"
       .step.js-step
         .container
           .step-icon-container
@@ -150,8 +153,9 @@ extra_js:
                   Lists are based on the labels already created for your project. Each
                   list contains the issues that are assigned to the corresponding label.
               .row.row-eq-height
-                .col-md-6
-                  = image_tag "/images/issue-boards/create-list.png", class: "img-responsive"
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/issue-boards/step-4-create-list.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
                     You start by having two special lists: **Backlog** and **Done**. Under
@@ -191,8 +195,9 @@ extra_js:
 
                     You can also drag-and-drop the lists themselves, to organize
                     them in a flow you'd like to work with.
-                .col-md-6
-                  = image_tag "/images/issue-boards/drag-and-drop.png", class: "img-responsive"
+                .col-md-6.step-image-container
+                  .step-image
+                    = image_tag "/images/issue-boards/step-5-drag-and-drop.png", class: "img-responsive"
 
 .page-container.try-gitlab-ee.text-center.animated
   .container
