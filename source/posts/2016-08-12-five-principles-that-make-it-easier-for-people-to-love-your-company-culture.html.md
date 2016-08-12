@@ -4,6 +4,7 @@ author: Sid Sijbrandij
 author_twitter: sytses
 categories: inside GitLab
 image_title: '/images/unsplash/million_downloads.jpg'
+date: 2016-08-12 16:00
 ---
 
 We were very pleased and surprised to see [this article](https://www.b.agilob.net/choose-gitlab-for-your-next-project/) pop up
