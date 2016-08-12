@@ -113,4 +113,22 @@ $(function() {
   }).on('blur', function () {
     $(this).parent().removeClass('is-focused');
   });;
+
+  // Sticky dev cycle nav
+
+  $(document).scroll(function(){
+    $navHeight = 50;
+
+    if ($(window).scrollTop() > 0) {
+      $(".cycle-icon-row").removeClass('stuck-top');
+    }
+
+    if ($(window).scrollTop() >= $('.cycle-icon-row').offset().top - $navHeight) {
+      $(".cycle-icon-row").addClass('stuck-top');
+    }
+
+    if ($(window).scrollTop() >= $('.idea-to-production').offset().top) {
+      $(".cycle-icon-row").removeClass('stuck-top');
+    }
+  });
 });

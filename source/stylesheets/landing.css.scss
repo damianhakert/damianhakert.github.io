@@ -46,10 +46,31 @@
   }
 }
 
+.splash-container {
+  position: relative;
+  padding-bottom: 120px;
+
+  @media (max-width: $screen-sm-max) {
+    padding-bottom: 0;
+  }
+
+}
+
 .dev-cycle {
 
   &.cycle-icon-row {
-    margin-top: 70px;
+    position: absolute;
+    padding: 20px 0 25px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+
+    &.stuck-top {
+      position: fixed;
+      top: 50px;
+      bottom: auto;
+      background-color: $landing-community-bg;
+    }
 
     .step {
       width: 46px;
@@ -75,6 +96,7 @@
 
     path {
       fill: $blueish-gray;
+      transition: fill .2s linear;
     }
   }
 
@@ -82,9 +104,22 @@
     margin: 0 20px;
     position: relative;
     color: $blueish-gray;
+    transition: color .2s linear;
 
     .step-name {
       text-transform: uppercase;
+    }
+
+
+    &.active {
+      color: $color-secondary;
+
+      svg {
+        path {
+          fill: $color-secondary;
+        }
+      }
+
     }
   }
 
@@ -295,6 +330,8 @@
 .idea-to-production {
   background-color: $color-primary-alt;
   padding: 100px 0;
+  position: relative;
+  z-index: 10;
 
   h1 {
     color: $color-white;
@@ -348,7 +385,7 @@
 }
 
 .homepage-blog-section {
-  padding: 70px 0 15px;
+  padding-top: 70px;
 
   .post-item {
     text-align: center;
@@ -360,9 +397,17 @@
 
     }
 
+    .no-image {
+      background-image: url("/images/home/generic-blog-cover.png");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+
     .color-bg {
       height: 200px;
       padding: 0 25px;
+      margin-bottom: 30px;
       display: flex;
       align-items: center;
       justify-content: center;
