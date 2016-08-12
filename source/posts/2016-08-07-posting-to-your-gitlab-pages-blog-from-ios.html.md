@@ -69,16 +69,15 @@ like, tap on the newly-created file to view details, then go back.
 
 ### Opening the file for editing
 
-Of course, since the file is empty, you need to edit it to draft your post. Swipe
-to the left on the file in the table view to display three options: **Action**,
-**Commit**, and **Delete**. Tap on **Action**, and in the share sheet that pops
-up, tap **Edit** to begin editing the file in Working Copy, or&mdash;if you have
-it installed&mdash;tap **Edit in Editorial** to open the file in Editorial for
-writing.
+![Opening the file for editing in Editorial](images/blogimages/posting-to-your-gitlab-pages-blog-from-ios/wc-open-file-for-editing-annotated.png)
 
-The first time you do so, Working Copy will let you know what's going to happen,
-and invite you to install the "Working Copy" workflow in Editorial. This will let
-you send the file back to Working Copy, ready for committing.
+Of course, since the file is empty, you need to edit it to draft your post. Tap on
+the file in the table view to display the file contents (currently empty), then
+tap on the share icon in the upper-right corner of the navigation bar, and in the
+share sheet that pops up, tap **Edit** to begin editing the file in Working Copy, or&mdash;if you have it installed&mdash;tap **Edit in Editorial** to open the
+file in Editorial for writing. The first time you do so, Working Copy will let you
+know what's going to happen, and invite you to install the "Working Copy" workflow
+in Editorial. This will let you send the file back to Working Copy, ready for committing.
 
 ### Adding required front matter
 
