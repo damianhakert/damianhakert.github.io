@@ -167,6 +167,8 @@ should you want to post to your SSG-powered blog from your iOS device!
 living in Montreal, Canada. He believes that open, honest, collaboration is the
 best path towards building great things _and_ great teams.
 
+<!-- cover image: https://unsplash.com/photos/hkN2Zde2ga4 -->
+
 [1]: https://about.gitlab.com/2016/06/03/ssg-overview-gitlab-pages-part-1-dynamic-x-static/
 [2]: https://pages.gitlab.io/
 [3]: https://about.gitlab.com/2016/04/07/gitlab-pages-setup/
