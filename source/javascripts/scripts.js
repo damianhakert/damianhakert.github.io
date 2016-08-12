@@ -116,37 +116,43 @@ $(function() {
 
   // Sticky dev cycle nav
 
+  $(".cycle-icon-row").removeClass('stuck');
   $(document).scroll(function(){
-    navHeight = 50;
+    navHeight = $('.navbar-fixed-top').height();
+    devCycleNavHeight = $('.cycle-icon-row').height();
+    $iconNav = $('.cycle-icon-row');
     scroll = $(window).scrollTop();
 
-    if (scroll > 0) {
-      $(".cycle-icon-row").removeClass('stuck-top');
-    }
+    if ($iconNav.is(':visible')) {
 
-    if (scroll >= $('.cycle-icon-row').offset().top - navHeight) {
-      $(".cycle-icon-row").addClass('stuck-top');
-    }
-
-    if (scroll >= $('.idea-to-production').offset().top) {
-      $(".cycle-icon-row").removeClass('stuck-top');
-    }
-
-    var $currentSection;
-    $('.cycle-vertical .step').each(function() {
-      var divPosition = $(this).offset().top;
-
-      if( divPosition - 1 < scroll ){
-        $currentSection = $(this);
+      if (scroll > 0) {
+        $iconNav.removeClass('stuck');
       }
 
+      if (scroll >= $iconNav.offset().top - navHeight) {
+        $iconNav.addClass('stuck');
+      }
 
-      if ($currentSection) {
-        var id = $currentSection.attr("id");
+      if (scroll >= $('.idea-to-production').offset().top) {
+        $iconNav.removeClass('stuck');
+      }
+
+      var $currentSection;
+      $('.cycle-vertical .step').each(function() {
+        var divPosition = $(this).offset().top - navHeight - (devCycleNavHeight * 2.3);
         $('.cycle-icon-row .step').removeClass('active');
-        $("[href='#" + id + "']").addClass('active');
-      }
-    })
 
+        if( divPosition - 1 < scroll ){
+          $currentSection = $(this);
+        }
+
+        if ($currentSection) {
+          var id = $currentSection.attr("id");
+          $('.cycle-icon-row .step').removeClass('active');
+          $("[href='#" + id + "']").addClass('active');
+        }
+      })
+    }
   });
+
 });

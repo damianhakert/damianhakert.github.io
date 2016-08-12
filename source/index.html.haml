@@ -37,7 +37,7 @@ extra_js:
           .arrows
             %i.fa.fa-angle-right
             %i.fa.fa-angle-right
-      .step
+      %a.step{href: "#step-10"}
         = partial "images/home/icon-step-10.svg"
         .step-name-container
           .step-name feedback
@@ -62,7 +62,7 @@ extra_js:
         #{item[:description]}
       .line-container
         = partial "images/home/icon-line.svg"
-  .step
+  .step#step-10
     = partial "images/home/icon-step-10.svg"
     .step-name feedback
     .description Learn from the process and get better each time
