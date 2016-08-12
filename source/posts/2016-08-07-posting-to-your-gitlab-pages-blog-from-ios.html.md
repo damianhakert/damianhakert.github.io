@@ -47,6 +47,8 @@ repository to your iOS device by following the instructions in the app's [user g
 
 ### Creating a new branch
 
+![Creating a new branch in Working Copy](images/blogimages/posting-to-your-gitlab-pages-blog-from-ios/wc-add-new-branch-annotated.png)
+
 Next, navigate to your site's repository and create a new branch. In Editorial,
 this is done by tapping the **Repository** cell, then the **Branch** cell, and then
 the top-rightmost button (create new branch) in the navigation bar. Give your branch
