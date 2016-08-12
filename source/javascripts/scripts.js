@@ -147,29 +147,20 @@ $(function() {
         }
 
         if ($currentSection) {
-          var id = $currentSection.attr("id");
-          $('.cycle-icon-row .step').removeClass('active');
-          $("[href='#" + id + "']").addClass('active');
+          var id = $currentSection.attr('id');
+          $('a[href="#' + id + '"]').addClass('active');
         }
       })
     }
   });
 
   // Animate scroll to icon
-  var animateScroll = function(targetPos) {
-    var currentPos = window.pageYOffset || document.documentElement.scrollTop;
-    var distance = Math.abs(currentPos - targetPos);
-    var speed = 1;
-    var time = distance / speed;
-
-    $('body,html').animate({scrollTop: targetPos}, time);
-  };
-
-  $('.cycle-icon-row .step').click(function(e) {
+  $('.cycle-icon-row .step').on('click', function (e){
     e.preventDefault();
-
     var anchor = $(this).attr('href');
-    animateScroll($(anchor).offset().top - 200);
+    $('html, body').animate({
+      scrollTop: ($(anchor).offset().top - 200)
+    }, 1000);
   });
 
 
