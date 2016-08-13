@@ -11,6 +11,16 @@ extra_js:
   .gitlab-promo-banner.animated
     %a{href: data.promo.link}= data.promo.text
 
+- cycle_items = [{name:'idea', description: 'Start with a conversation'},
+                 {name:'issue', description: 'Turn ideas into issues'},
+                 {name:'plan', description: 'Visualize your plans'},
+                 {name:'code', description: 'Contribute right away'},
+                 {name:'commit', description: 'Kick off the feedback process'},
+                 {name:'test', description: 'Run tests and monitor progress'},
+                 {name:'review', description: 'Get feedback from your peers'},
+                 {name:'staging', description: 'Name your environment and deploy to it'},
+                 {name:'production', description: 'Close the loop by deploying from the initial chatroom'}]
+
 .page-container.landing-container.text-center
   #js-landing-community.landing-community
   .container.splash-container
@@ -27,13 +37,12 @@ extra_js:
 
 
     .dev-cycle.cycle-icon-row.hidden-xs.hidden-sm
-      - steps = ['idea', 'issue', 'plan', 'code', 'commit', 'test', 'review', 'staging', 'production']
-      - steps.each_with_index do |step, index|
+      - cycle_items.each_with_index do |item, index|
         %a.step{href: "#step-#{index+1}"}
           = partial "images/home/icon-step-#{index + 1}.svg"
           .step-name-container
             .step-name
-              #{step}
+              #{item[:name]}
           .arrows
             %i.fa.fa-angle-right
             %i.fa.fa-angle-right
@@ -44,17 +53,8 @@ extra_js:
 
 
 .dev-cycle.cycle-vertical
-  - cycle_items = [{name:'idea', description: 'Start with a conversation'},
-                   {name:'issue', description: 'Turn ideas into issues'},
-                   {name:'plan', description: 'Visualize your plans'},
-                   {name:'code', description: 'Contribute right away'},
-                   {name:'commit', description: 'Kick off the feedback process'},
-                   {name:'test', description: 'Run tests and monitor progress'},
-                   {name:'review', description: 'Get feedback from your peers'},
-                   {name:'staging', description: 'Name your environment and deploy to it'},
-                   {name:'production', description: 'Close the loop by deploying from the initial chatroom'}]
   - cycle_items.each_with_index do |item, index|
-    .step{:id => "step-#{index+1}"}
+    .step{id: "step-#{index+1}"}
       = partial "images/home/icon-step-#{index + 1}.svg"
       .step-name
         #{item[:name]}
@@ -67,7 +67,7 @@ extra_js:
     .step-name feedback
     .description Learn from the process and get better each time
 
-= partial "includes/features/idea-to-prod"
+= partial "includes/features/idea-to-production"
 = partial "includes/organizations/grid"
 = partial "includes/testimonials/slider"
 

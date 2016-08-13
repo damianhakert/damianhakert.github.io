@@ -112,56 +112,6 @@ $(function() {
     $(this).parent().addClass('is-focused');
   }).on('blur', function () {
     $(this).parent().removeClass('is-focused');
-  });;
-
-  // Sticky dev cycle nav
-
-  $(".cycle-icon-row").removeClass('stuck');
-  $(document).scroll(function(){
-    var navHeight = $('.navbar-fixed-top').height();
-    var devCycleNavHeight = $('.cycle-icon-row').height();
-    var $iconNav = $('.cycle-icon-row');
-    var scroll = $(window).scrollTop();
-
-    if ($iconNav.is(':visible')) {
-
-      if (scroll > 0) {
-        $iconNav.removeClass('stuck');
-      }
-
-      if (scroll >= $iconNav.offset().top - navHeight) {
-        $iconNav.addClass('stuck');
-      }
-
-      if (scroll >= $('.idea-to-production').offset().top) {
-        $iconNav.removeClass('stuck');
-      }
-
-      var $currentSection;
-      $('.cycle-vertical .step').each(function() {
-        var divPosition = $(this).offset().top - navHeight - (devCycleNavHeight * 3.5);
-        $('.cycle-icon-row .step').removeClass('active');
-
-        if (divPosition - 1 < scroll) {
-          $currentSection = $(this);
-        }
-
-        if ($currentSection) {
-          var id = $currentSection.attr('id');
-          $('a[href="#' + id + '"]').addClass('active');
-        }
-      })
-    }
   });
-
-  // Animate scroll to icon
-  $('.cycle-icon-row .step').on('click', function (e){
-    e.preventDefault();
-    var anchor = $(this).attr('href');
-    $('html, body').animate({
-      scrollTop: ($(anchor).offset().top - 200)
-    }, 1000);
-  });
-
 
 });
