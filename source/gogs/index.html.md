@@ -17,7 +17,7 @@ extra_css:
 
 ## What is Gogs?
 
-Gogs is an open-source, lean, self-hosted Git service. It's built on Go which makes it cross-platform friendly. Installation is pretty easy with a single binary. Gogs has a low footprint and is easy on system resources.
+[Gogs](https://gogs.io/) is an open-source, lean, self-hosted Git service. It's built on Go which makes it cross-platform friendly. Installation is pretty easy with a single binary. Gogs has a low footprint and is easy on system resources.
 
 ## GitLab's Support of Gogs
 
@@ -46,8 +46,7 @@ Here are some of those features:
 
 ### Workflow
 1. **LFS support** - Use GitLab to version your large files with support for Large File Storage (LFS)
-2. **Webhooks at project level** - currently Gogs only offers push/branch/tag on the
-project levels
+2. **Webhooks at project level** - Define your project webhooks to listen to specific events like pushes, issues or merge requests on GitLab
 3. **To-Do lists** - GitLab handles any @ mentions within issues and then populates
 a to-do from those. There's a dedicated To-Do page to view all your tasks and check
 them off. Gogs offers an activity board similar to the activity log on GitHub
