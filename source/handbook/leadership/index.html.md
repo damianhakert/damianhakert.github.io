@@ -16,8 +16,8 @@ title: Leadership
 - We don't have project managers. The individual contributors need to manage themselves.
 - We are not a democratic or consensus driven company. People are encouraged to give their comments and opinions. But in the end one person decides the matter after have listened to all the feedback.
 - It is encouraged to disagree and have a constructive confrontation, but it is "disagree & commit", when a decision is taken you make it happen.
-- We avoid meetings because those aren't supporting the asynchronous work flow, are hard to conduct due to timezone differences, are inclusive - 
-making it harder to share with the community, are usually inefficient and aren't continous.
+- We avoid meetings because those aren't supporting the asynchronous work flow, are hard to conduct due to timezone differences, are limited only to those attending them - 
+making it harder to share.
 
 ## Articles
 
