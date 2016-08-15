@@ -3,7 +3,9 @@ layout: markdown_page
 title: Issue Triage Policies
 ---
 
-In order to keep the GitLab projects' issue trackers maintainable, the policies outlined below were created and will be enforced.
+GitLab believes in [Open Development](open-development), and we encourage the community to file issues and open merge requests for our projects on [GitLab.com](https://gitlab.com/groups/gitlab-org). Their contributions are valuable, and we should aim to triage new issues as promptly as we can in recognition of this.
+
+Triage is something any engineer at GitLab can do. Keeping the number of untriaged issues low is essential for maintainability, and is our collective responsibility. Consider triaging a few [issues](untriaged-issues-query) around your other responsibilities, or scheduling some time for it on a regular basis.
 
 ## Policies
 
@@ -59,6 +61,8 @@ The following projects, resources, and blog posts were very helpful in crafting 
 - [My condolences, you’re now the maintainer of a popular open source project][my-condolences]
 - [The Art of Closing][art-of-closing]
 
+[open-development]: https://about.gitlab.com/2015/12/16/improving-open-development-for-everyone/
+[untriaged-issues-query]: https://gitlab.com/gitlab-org/gitlab-ce/issues?scope=all&sort=updated_asc&state=opened&assignee_id=0&milestone_title=No+Milestone&label_name%5B%5D=No+Label&weight=No+Weight
 [17693]: https://gitlab.com/gitlab-org/gitlab-ce/issues/17693
 [code-triage]: https://www.codetriage.com/
 [open-source-gardener]: http://words.steveklabnik.com/how-to-be-an-open-source-gardener
