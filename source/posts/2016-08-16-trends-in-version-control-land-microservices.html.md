@@ -16,9 +16,9 @@ looking at what that is, and what some of the benefits and drawbacks are.
 
 <!-- more -->
 
-## What’s microservice?
+## What are microservices?
 
-[Microservice architecture][micro-arch] is a way designing software applications as smaller, independent,
+[Microservices architecture][micro-arch] is a way designing software applications as smaller, independent,
 cloud-based services rather than one monolithic data center. [Netflix][netflix-micro] is a good example: their
 users application, movies application and ratings application are deployed independently.
 Netflix has made a lot of the code behind their [microservice architecture open source][netflix-oss].
@@ -27,15 +27,15 @@ Netflix has made a lot of the code behind their [microservice architecture open 
 
 To use Netflix as an example, the benefits of moving to cloud-based microservices has been undeniable.
 
-System-wide stability: Since doing so they have achieved much greater system-wide stability,
+System-wide stability: since doing so they have achieved much greater system-wide stability,
 because API service interruptions are localized, and new services can be built and tested far less intrusively.
 
-Faster releases and fixes: Basically, with microservices you can move more quickly because each app can
+Faster releases and fixes: basically, with microservices you can move more quickly because each app can
 deploy independently of the others. Lots of people can contribute simultaneously, which is helpful.
 And if there’s an error, you can bring just one app down rather than all of them.
 
-Scale: At the same time, with capacity made virtually limitless by existing in the cloud, Netflix has
-become vastly scalable. Microservice architecture can scale much more easily and affordably, because
+Scale: at the same time, with capacity made virtually limitless by existing in the cloud, Netflix has
+become vastly scalable. Microservices architecture can scale much more easily and affordably, because
 you don’t need to create giant data centers on a regular basis just to accommodate growth.
 
 ## Drawbacks of microservices
@@ -43,7 +43,7 @@ you don’t need to create giant data centers on a regular basis just to accommo
 Like most things, it’s not perfect. You have to add new repositories for every microservice application,
 and as such you end up with a lot of work in terms of setting up new tools and integrating them with each
 application. For every new app you raise your work exponentially, because the number of connections rises
-exponentially.  Add in the IoT, and you have a LOT of codebases to deal with. In short, the situation
+exponentially. In short, the situation
 increases the need for one tool from issue to deploy, otherwise you’re going to spend your life doing integrations.
 
 At GitLab we try to make sure you can do everything you need within GitLab, so you don’t have to set up
@@ -55,13 +55,9 @@ tools for each project and spend the time integrating them.
 are a few of the companies that [are using microservices][companies-micro] to deliver their applications. Uber gives
 a really nice narrative of their [move from monolith to microservices][uber-blog] on their blog.
 
-Clearly microservice architecture has amazing potential, not least because it makes the user experience more efficient.
+Clearly microservices architecture has amazing potential, not least because it makes the user experience more efficient.
 We’re very much on board with this trend. A major goal for us at GitLab is to make sure you can do everything
 you need to do within GitLab, with as few external integrations to deal with as possible.
-
-## Deciding if microservices is right for your team?
-
-<!-- TO BE INCLUDED - or title removed-->
 
 Watch out for our next post of this series, where we'll go through **Open Source**!
 
