@@ -138,7 +138,12 @@
   apply: https://gitlab.workable.com/jobs/308669/candidates/new
   open: true
 
-- title: " Content Designer"
+- title: "Content Designer"
   description: /jobs/content-designer/
+  apply: https://gitlab.workable.com/jobs/298091
+  open: true
+
+- title: "Marketing Executive Assistant"
+  description: /jobs/marketing-executive-assistant/
   apply: https://gitlab.workable.com/jobs/298091
   open: true
