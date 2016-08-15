@@ -38,9 +38,13 @@ $(function () {
       }
     });
 
-    var tryOnScreen = isElementOnScreen($tryGitlabEnterprise, ($(window).scrollTop() - 150));
+    var tryOnScreen = isElementOnScreen($tryGitlabEnterprise, ($(window).scrollTop() - 50));
     if (tryOnScreen && $stickyBanner.hasClass('active')) {
       $stickyBanner.removeClass('active');
+    }
+
+    if (!tryOnScreen && !$stickyBanner.hasClass('active')) {
+      $stickyBanner.addClass('active');
     }
   });
 });
