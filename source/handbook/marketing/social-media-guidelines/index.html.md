@@ -7,7 +7,7 @@ Go to the [Handbook](/handbook/)
 
 ## Responding to Requests
 
-Any time GitLab is mentioned or relevant to a thread, someone from GitLab should be responding to questions or feedback. The idea here is to be available for people without making them feel obligated to talk to you. Remain positive.
+Any time GitLab is mentioned or relevant to a thread it gets directed to our different chat channels and someone from GitLab should be responding to questions or feedback. The idea here is to be available for people without making them feel obligated to talk to you. Remain positive.
 
 - **Continue the conversation by providing meaningful responses instead of just upvoting or saying a one word “Thanks!”** If a post will add to a discussion, post it. If someone has given you feedback, link them to a relevant issue showing the feedback has been received. You can even provide people with links to non-GitLab things such as Git guides or DevOps guides. There is always a feature to mention or gratitude to express 'Thanks you so much for spreading the word about GitLab.'. For an example see the first three responses to [a HN post where the first three comments where positive but no questions](https://news.ycombinator.com/item?id=12052695). Or see [this response](https://twitter.com/sytses/status/762578230197022720) that links to the actual issue and therefore a reply that the original 'thank you' didn't get.
 - **Remember that you’re speaking to a human being.** The people behind the comments are real, so treat them how you’d want to be treated if the roles were reversed. Try to find their real name so that you can personalize your message to them.
