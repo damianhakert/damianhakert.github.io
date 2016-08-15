@@ -27,14 +27,14 @@ Netflix has made a lot of the code behind their [microservice architecture open 
 
 To use Netflix as an example, the benefits of moving to cloud-based microservices has been undeniable.
 
-System-wide stability: since doing so they have achieved much greater system-wide stability,
+**System-wide stability:** since doing so they have achieved much greater system-wide stability,
 because API service interruptions are localized, and new services can be built and tested far less intrusively.
 
-Faster releases and fixes: basically, with microservices you can move more quickly because each app can
+**Faster releases and fixes:** basically, with microservices you can move more quickly because each app can
 deploy independently of the others. Lots of people can contribute simultaneously, which is helpful.
 And if there’s an error, you can bring just one app down rather than all of them.
 
-Scale: at the same time, with capacity made virtually limitless by existing in the cloud, Netflix has
+**Scale:** at the same time, with capacity made virtually limitless by existing in the cloud, Netflix has
 become vastly scalable. Microservices architecture can scale much more easily and affordably, because
 you don’t need to create giant data centers on a regular basis just to accommodate growth.
 
@@ -46,9 +46,6 @@ application. For every new app you raise your work exponentially, because the nu
 exponentially. In short, the situation
 increases the need for one tool from issue to deploy, otherwise you’re going to spend your life doing integrations.
 
-At GitLab we try to make sure you can do everything you need within GitLab, so you don’t have to set up
-tools for each project and spend the time integrating them.
-
 ## Who else is using microservice architecture?
 
 [Uber][uber-eng], [Soundcloud][soundcloud-micro], [Hailo][hailo-micro], [Amazon][amazon-micro], and [Ebay][ebay-micro]
@@ -56,10 +53,12 @@ are a few of the companies that [are using microservices][companies-micro] to de
 a really nice narrative of their [move from monolith to microservices][uber-blog] on their blog.
 
 Clearly microservices architecture has amazing potential, not least because it makes the user experience more efficient.
-We’re very much on board with this trend. A major goal for us at GitLab is to make sure you can do everything
-you need to do within GitLab, with as few external integrations to deal with as possible.
+We’re very much on board with this trend. A major goal for us at GitLab is to make sure you
+can do everything you need to do within GitLab, with as few external integrations to deal
+with as possible. This way you don’t have to set up tools for each project and spend the time
+integrating them. It's all already pre-configured to use from within one single UI.
 
-Watch out for our next post of this series, where we'll go through **Open Source**!
+Watch out for our last post of this series, where we'll go through **Open Source**!
 
 <!-- identifiers -->
 
