@@ -2,13 +2,10 @@
 @import "vendor/bootstrap/bootstrap/variables";
 
 .issue-boards-container {
-  background-image: url("/images/issue-boards/header_photo.jpg");
+  background-image: url("/images/issue-boards/header-background-photo.png");
   background-size: cover;
-  padding-top: 40px;
-
-  @media (min-width: $screen-sm-min) {
-    padding-top: 80px;
-  }
+  max-height: 620px;
+  padding-top: 20px;
 
   &::after {
     background-image: linear-gradient(to bottom, rgba($landing-community-bg, .85), $landing-community-bg 75%);
@@ -42,7 +39,7 @@
     font-size: 20px;
 
     @media (min-width: $screen-sm-min) {
-      margin-bottom: 75px;
+      margin-bottom: 20px;
     }
 
     &.cta {
