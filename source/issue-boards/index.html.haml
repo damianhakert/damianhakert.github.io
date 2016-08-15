@@ -77,15 +77,12 @@ extra_js:
                 Create an issue
               .lead.text-center.step-lead-text
                 :markdown
-                  [Creating issues](/2016/03/03/start-with-an-issue/) helps you
-                  summarize your ideas and share it with your collaborators to
-                  have their say early in the process.
+                  Issues help you summarize your ideas and align the team on a common goal.
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    Navigate to the **Issues** tab under your project's page
-                    and create your first issue. If your project already has
-                    some issues, jump right to the next step!
+                    Go to the **Issues** tab under your project's page and create your first issue.
+                    If your project already has some issues, jump right to the next step!
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/issue-boards/step-1-create-issue.png", class: "img-responsive"
@@ -98,19 +95,20 @@ extra_js:
           .row
             .col-md-10.col-md-push-1.step-content-holder
               %h3.step-title.text-center
-                Add a label (or create a new one)
+                Label your issue
               .lead.text-center.step-lead-text
                 :markdown
-                  [Labels](http://docs.gitlab.com/ce/user/project/labels.html) provide
-                  an easy way to categorize issues. Issue Boards are based on labels,
-                  so this is an important step.
+                  [Labels](http://docs.gitlab.com/ce/user/project/labels.html) make it easy to
+                  categorize issues based on descriptive titles. They help teams quickly understand
+                  the context of an issue. Labels can be used to describe the issue type, like
+                  "new feature," or describe the issue stage, like "QA."
               .row.row-eq-height
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/issue-boards/step-2-labels.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
-                    Creating your first label is simple! You can create it from
+                    Create your first label: it's simple, you can create it from
                     [within the issue](http://docs.gitlab.com/ce/user/project/labels.html#create-a-new-label-right-from-the-issue-tracker)
                     itself or by navigating to the [labels area](http://docs.gitlab.com/ce/user/project/labels.html#create-new-labels).
                     If you already have some labels, it's time to meet the Issue Board!
@@ -123,18 +121,18 @@ extra_js:
           .row
             .col-md-10.col-md-push-1.step-content-holder
               %h3.step-title.text-center
-                Go to your Board
+                Go to your Issue Board
               .lead.text-center.step-lead-text
                 :markdown
-                  The Issue Board consists of a number of columns called lists and each
-                  list contains the issues that are are treated as cards.
+                  Issues appear as cards on the Issue Board. They can be arranged
+                  across a number of columns called lists.
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    Find the Issue Board by navigating to your project's **Issues > Board**.
-                    You can create lists which are based on the labels that already
-                    exist in your issue tracker. Issues can be seen as cards and they can
-                    easily be moved between the lists, as to create workflows.
+                    Find your Issue Board by navigating to your project's **Issues > Board**.
+                    By default, there's a list called Backlog, where you'll find all the issues
+                    in that project, and there's a list called Done, which will contain all
+                    the issues that have already been closed. Now let's create some new lists.
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/issue-boards/step-3-go-to-board.png", class: "img-responsive"
@@ -147,27 +145,25 @@ extra_js:
           .row
             .col-md-10.col-md-push-1.step-content-holder
               %h3.step-title.text-center
-                Create a list based on a label
+                Create a new list
               .lead.text-center.step-lead-text
                 :markdown
-                  Lists are based on the labels already created for your project. Each
-                  list contains the issues that are assigned to the corresponding label.
+                  Lists are based on the labels already created for your project. Each list contains
+                  the issues that are assigned to the corresponding label.
               .row.row-eq-height
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/issue-boards/step-4-create-list.png", class: "img-responsive"
                 .col-md-6.step-content
                   :markdown
-                    You start by having two special lists: **Backlog** and **Done**. Under
-                    **Backlog** you can see all issues that are not yet assigned to a list.
-                    The **Done** list, will close the relevant issue.
+                    Click **Create new list** and choose a label to create the list from.
+                    Once done, the list will appear as a new column in your board, and the issues
+                    assigned to that label will be automatically moved from Backlog to your new list.
 
-                    Click **Create new list** and you'll get to choose a label to create
-                    the list from. Once done, the list will appear as a new column in your
-                    board. You can create up to 10 lists per project.
+                    If you are starting fresh, you can opt-in and let GitLab create a predefined set
+                    of lists for you. You can create up to 10 lists per Issue Board.
 
-                    If you are starting fresh, you can opt-in and let GitLab
-                    create a predefined set of lists for you.
+                    You can also drag-and-drop the lists themselves, to organize them in a flow you'd like to work with.
       .step.js-step
         .container
           .step-icon-container
@@ -180,21 +176,15 @@ extra_js:
                 Move issues between lists
               .lead.text-center.step-lead-text.step-lead-text-last
                 :markdown
-                  Every issue is displayed in a card which you can drag and
-                  drop to a different list in order to organize your project.
+                  Communicate progress on your release by dragging and dropping issues from one column to another.
               .row.row-eq-height
                 .col-md-6.step-content
                   :markdown
-                    Move a card between two lists and the relevant issue will
-                    get its labels swapped.
+                     Move an issue between two columns and watch as the labels swap to represent the new column.
 
-                    When you create a new issue and add a label to it which
-                    corresponds to an existing list, that issue will be automatically
-                    displayed on that list in your board. If you move it to **Done**,
-                    the issue will be automatically closed for you!
-
-                    You can also drag-and-drop the lists themselves, to organize
-                    them in a flow you'd like to work with.
+                     Every time you create a new issue with any of the labels you used in your lists, the issue
+                     will be automatically displayed on your Issue Board. If you move it to **Done**, the issue
+                     will be automatically closed for you!
                 .col-md-6.step-image-container
                   .step-image
                     = image_tag "/images/issue-boards/step-5-drag-and-drop.png", class: "img-responsive"
