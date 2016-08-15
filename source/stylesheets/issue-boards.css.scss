@@ -208,6 +208,13 @@
     @media (min-width: $screen-sm-min) {
       padding-top: 50px;
       padding-bottom: 50px;
+
+      // Vertically center the text next to screenshots unless it's a
+      // mobile device.
+      .row {
+        display: flex;
+        align-items: center;
+      }
     }
 
     @media (min-width: $screen-md-min) {
@@ -236,15 +243,10 @@
         transform: translateY(0);
       }
     }
-
-    .row {
-      display: flex;
-      align-items: center;
-    }
   }
 
   a {
-    color: $color-primary;
+    color: $color-primary-alt;
     font-weight: 300;
   }
 }
