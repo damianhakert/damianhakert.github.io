@@ -26,6 +26,8 @@ title: "Marketing Executive Assistant"
 * Sign up for services, make changes to them, and close them.  
 * Coordinate marketing events, summits, and off-sites.  
 * Be willing and ready to learn new things and jump in and help when new tasks come up.  
+* Make sure all new team members on the marketing team are onboarded and added to all relevant calendar invites.
+* Answer emails on behalf of the CMO when possible. 
 
 ## Requirements  
 * Strong english skills.  
