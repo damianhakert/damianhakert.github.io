@@ -13,6 +13,7 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 ----
 
 ## <i class="fa fa-book fa-fw icon-color font-awesome" aria-hidden="true"></i> Other Main Pages in Handbook
+{: .no_toc}
 
 * [Engineering](/handbook/engineering)
 * [Marketing](/handbook/marketing)
@@ -36,7 +37,6 @@ Please use <a href="https://gitlab.com/gitlab-com/www-gitlab-com/issues">issues<
 ----
 
 ## This page
-
 {: .no_toc}
 
 - TOC
