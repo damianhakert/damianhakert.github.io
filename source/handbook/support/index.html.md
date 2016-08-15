@@ -453,9 +453,12 @@ This can be implemented if the following criteria are met:
  two week period.   
 1. The user cannot be an owner of any active project.
 
-Usernames will be prefixed with `idle` to keep the account active but
+Usernames will be appended with `_idle` to keep the account active but
 release the namespace.
 
+Support agents will not release a current user's contact information to another
+user. GitLab also will not contact a user on behalf of another user to request
+surrender of an apparently active username.
 
 ### Code of Conduct<a name="coc"></a>
 
