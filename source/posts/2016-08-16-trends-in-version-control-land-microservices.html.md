@@ -56,8 +56,8 @@ Clearly microservices architecture has amazing potential, not least because it m
 
 We’re very much on board with this trend. A major goal for us at GitLab is to make sure you
 can do everything you need to do within GitLab, with as few external integrations to deal
-with as possible. This way you don’t have to set up tools for each project and spend the time
-integrating them. It's all already pre-configured to use from within one single UI.
+with as possible. This way, you don’t have to set up tools for each project and spend the time
+integrating them, they're all already pre-configured to use from one single UI.
 
 Watch out for our last post of this series, where we'll go through **Open Source**!
 
