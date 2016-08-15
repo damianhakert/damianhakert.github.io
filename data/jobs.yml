@@ -137,4 +137,8 @@
   description: /jobs/business-development-representative-outbound/
   apply: https://gitlab.workable.com/jobs/308669/candidates/new
   open: true
-  
+
+- title: "Marketing Frontend Engineer"
+  description: /jobs/marketing-frontend-engineer/
+  apply: https://gitlab.workable.com/jobs/298091
+  open: true
