@@ -1,5 +1,5 @@
 - name: idea
-  description: Start with a conversation
+  description: Share ideas in a chatroom
 - name: issue
   description: Turn ideas into issues
 - name: plan

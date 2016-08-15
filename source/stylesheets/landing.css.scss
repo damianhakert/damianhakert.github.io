@@ -39,6 +39,12 @@
     margin-bottom: 0;
   }
 
+  .page-subtitle {
+    @media (max-width: $screen-xs-max) {
+      font-size: 24px;
+    }
+  }
+
   h2 {
     color: $blueish-gray;
     font-weight: 300;
