@@ -77,7 +77,6 @@ $(function () {
   }
 
   // Sticky dev cycle nav
-
   $(".cycle-icon-row").removeClass('stuck');
   $(document).scroll(function(){
     var navHeight = $('.navbar-fixed-top').height();
