@@ -19,6 +19,8 @@ title: Leadership
 - We give feedback, lots of it, don't hold back on suggestions to improve.
 - If you praise someone try to do it in front of an audiance, if you give suggestions to improve do it 1 on 1.
 - If you meet external people always ask what they think we should improve.
+- As soon as you know you'll have to let someone go, do it immediately. The team member is entitled to knowing where they stand. Delaying it for days or weeks causes problems with confidentiality (find out that they will be let go), causation (attributing it to another reason), and escalation (the working relation is probably going downhill).
+- When someone says they are considering to quit drop everything and listen to them by asking questions. Find out what the concerns are and address the reasonable ones the next few hours and days where needed. If you delay the person will not feel valued and the decision will be irreversible.
 
 ## Articles
 
