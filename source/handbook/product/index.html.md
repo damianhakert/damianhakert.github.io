@@ -25,8 +25,12 @@ issue tracker or more generic chat channels for.
 Everyone at GitLab is involved with the product. It's the reason why we are
 working together.
 
+<<<<<<< 0822ed57623dbd7f63981351b01dac01d66fb37a
 <<<<<<< 5fd30dec30db326264b258a98cd34447d08d1f62
 With every release of GitLab, we want to achieve each of the following
+=======
+With every release of GitLab, we want to achieve each one of those following
+>>>>>>> Add responsabilities and how we work sections
 =======
 With every release of GitLab, we want to achieve each one of those following
 >>>>>>> Add responsabilities and how we work sections
@@ -153,6 +157,7 @@ certain behaviours.
 We don't want users to be able to construct workflows that break GitLab or
 make it work in unpredictable ways.
 
+<<<<<<< 0822ed57623dbd7f63981351b01dac01d66fb37a
 <<<<<<< 5fd30dec30db326264b258a98cd34447d08d1f62
 ## Alignment
 
@@ -180,6 +185,8 @@ To make it concrete with an example, the CI/CD team might ask:
 
 ## CI/CD<a name="cicd"></a>
 =======
+=======
+>>>>>>> Add responsabilities and how we work sections
 ### Responsibilities of a Product Manager
 
 As a Product Manager, you are expected to act as the reference for everything
@@ -323,6 +330,7 @@ handbook](https://about.gitlab.com/handbook/).
 TBD
 
 ## Continuous Integration (CI)/Continuous Deployment and Delivery (CD)<a name="cicd"></a>
+<<<<<<< 0822ed57623dbd7f63981351b01dac01d66fb37a
 >>>>>>> Add responsabilities and how we work sections
 
 For more insights into our vision on Continuous Integration and Continuous
@@ -358,6 +366,13 @@ planned, not to come up with every idea or change.
 
 # Links
 =======
+## Relevant links
+>>>>>>> Add responsabilities and how we work sections
+=======
+
+For more insights into our vision on Continuous Integration and Continuous
+Deployment & Delivery, see the [CI/CD page](/direction/cicd).
+
 ## Relevant links
 >>>>>>> Add responsabilities and how we work sections
 
