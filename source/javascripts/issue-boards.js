@@ -26,6 +26,9 @@ $(function () {
   // Scroll effect on steps
   var $steps = $('.js-step, .js-learn-more');
 
+  var $stickyBanner = $('.js-sticky-banner');
+  var $tryGitlabEnterprise = $('.js-try-gitlab-ee');
+
   $(window).on('scroll', function() {
     $steps.each(function() {
       var isOnScreen = isElementOnScreen($(this), ($(window).scrollTop() - 150));
@@ -34,5 +37,10 @@ $(function () {
         $(this).addClass('is-visible');
       }
     });
+
+    var tryOnScreen = isElementOnScreen($tryGitlabEnterprise, ($(window).scrollTop() - 150));
+    if (tryOnScreen && $stickyBanner.hasClass('active')) {
+      $stickyBanner.removeClass('active');
+    }
   });
 });
