@@ -4,7 +4,7 @@ categories: concepts
 author: Sid Sijbrandij
 author_twitter: sytses
 description: "Learn some benefits of microservices, and check out who's using it!"
-image_title: '/images/default-blog-image.png'
+image_title: '/images/blogimages/trends-in-version-control-land-microservices-cover.jpg'
 twitter_image: '/images/tweets/trends-in-version-control-land-microservices.png'
 ---
 
@@ -53,6 +53,7 @@ are a few of the companies that [are using microservices][companies-micro] to de
 a really nice narrative of their [move from monolith to microservices][uber-blog] on their blog.
 
 Clearly microservices architecture has amazing potential, not least because it makes the user experience more efficient.
+
 We’re very much on board with this trend. A major goal for us at GitLab is to make sure you
 can do everything you need to do within GitLab, with as few external integrations to deal
 with as possible. This way you don’t have to set up tools for each project and spend the time
@@ -75,3 +76,8 @@ Watch out for our last post of this series, where we'll go through **Open Source
 [soundcloud-micro]: https://developers.soundcloud.com/blog/building-products-at-soundcloud-part-1-dealing-with-the-monolith
 [uber-blog]: https://eng.uber.com/building-tincup/
 [uber-eng]: https://eng.uber.com/soa/
+
+<!-- 
+cover image: http://hubblesite.org/newscenter/archive/releases/2016/28/image/a/format/xlarge_web/layout/thumb/
+copyright - public domain: http://hubblesite.org/about_us/copyright.php 
+-->
