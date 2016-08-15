@@ -8,7 +8,7 @@ image_title: '/images/blogimages/trends-in-version-control-land-microservices-co
 twitter_image: '/images/tweets/trends-in-version-control-land-microservices.png'
 ---
 
-One trend of the last few years is microservice architecture. In this post we’re
+One trend of the last few years is microservices architecture. In this post we’re
 looking at what that is, and what some of the benefits and drawbacks are.
 
 **Note:** This post is the third of the four-posts series on **Trends on Version Control Land**, after [Innersourcing][post-1] and [Release Early, Release Often][post-2].
@@ -29,23 +29,23 @@ Netflix has made a lot of the code behind their [microservice architecture open 
 because API service interruptions are restricted to one service.
 
 **Scale teams:** with microservices you can move more quickly because each app can
-deploy independently of the others. Teams can operate independently. Since larger team have more overhead (decisions, training) being able to split them up per service increases efficiency.
+deploy independently of the others. Teams can operate independently. Since larger teams have more overhead (decisions, training), being able to split them up per service increases efficiency.
 
-**Diverse technology:** because services are independent you can use the best programming language and database for the job.
+**Diverse technology:** because services are independent, you can use the best programming language and database for the job.
 
-**Improved architecture:** splitting up the application in multiple services enforces module boundaries, each applications has its own responsibilities. Please note that it only helps with enforcement, in a monolitic application you can also have great module boundaries.
+**Improved architecture:** splitting up the application in multiple services enforces module boundaries; each application has its own responsibilities. Please note that it only helps with enforcement, in a monolitic application you can also have great module boundaries.
 
 ## Drawbacks
 
 **Latency:** making function calls between different services instead of in an application slows everything down.
 
-**Distributed system:** the [first rule of distributed object design](http://martinfowler.com/bliki/FirstLaw.html) is don't distribute your objects. Distribud systems are harder to debug, reason about, and do transactions in.
+**Distributed system:** the [first rule of distributed object design](http://martinfowler.com/bliki/FirstLaw.html) is don't distribute your objects. Distributed systems are harder to debug, reason about, and do transactions in.
 
 **Three step rollouts:** if you have a change that affects other services you first have to push a new version of your application, ensure all other services start using that, and then deprecate the old version. If it was a single application you would be done in one step.
 
 **Need to accommodate failure modes:** you can only increase system wide stability if services can deal with other services being down. You will have to program this into your application, for example displaying generic recommendations instead of personalized ones.
 
-**Infrastructure complexity:** microservices increase the mumber of applications you have to deploy, monitor, and throttle. You will need to automate everything to make this work.
+**Infrastructure complexity:** microservices increase the number of applications you have to deploy, monitor, and throttle. You will need to automate everything to make this work.
 
 **Multiple projects:** every services will be its own project, so you need to set up multiple repositories, CI, CD, and issue trackers.
 
@@ -59,10 +59,10 @@ To ensure the the right people have access to each project you can use [LDAP gro
 ## When are microservices right for your team?
 
 We think that microservices are great when your team is spending too much time coordinating.
-There is no set number but when you have more than 25 backend developers coordination can become harders.
+There is no set number but when you have more than 25 backend developers, coordination can become harder.
 For another take on the benefits and drawbacks see [Martin Forler his take on this](http://martinfowler.com/articles/microservice-trade-offs.html).
 
-## Who else is using microservice architecture?
+## Who else is using microservices architecture?
 
 [Uber][uber-eng], [Soundcloud][soundcloud-micro], [Hailo][hailo-micro], [Amazon][amazon-micro], and [Ebay][ebay-micro]
 are a few of the companies that [are using microservices][companies-micro] to deliver their applications. Uber gives
