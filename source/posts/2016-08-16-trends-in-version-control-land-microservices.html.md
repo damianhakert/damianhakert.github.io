@@ -25,39 +25,48 @@ Netflix has made a lot of the code behind their [microservice architecture open 
 
 ## Benefits of microservices
 
-To use Netflix as an example, the benefits of moving to cloud-based microservices has been undeniable.
-
 **System-wide stability:** since doing so they have achieved much greater system-wide stability,
-because API service interruptions are localized, and new services can be built and tested far less intrusively.
+because API service interruptions are restricted to one service.
 
-**Faster releases and fixes:** basically, with microservices you can move more quickly because each app can
-deploy independently of the others. Lots of people can contribute simultaneously, which is helpful.
-And if there’s an error, you can bring just one app down rather than all of them.
+**Scale teams:** with microservices you can move more quickly because each app can
+deploy independently of the others. Teams can operate independently. Since larger team have more overhead (decisions, training) being able to split them up per service increases efficiency.
 
-**Scale:** at the same time, with capacity made virtually limitless by existing in the cloud, Netflix has
-become vastly scalable. Microservices architecture can scale much more easily and affordably, because
-you don’t need to create giant data centers on a regular basis just to accommodate growth.
+**Diverse technology:** because services are independent you can use the best programming language and database for the job.
 
-## Drawbacks of microservices
+**Improved architecture:** splitting up the application in multiple services enforces module boundaries, each applications has its own responsibilities. Please note that it only helps with enforcement, in a monolitic application you can also have great module boundaries.
 
-Like most things, it’s not perfect. You have to add new repositories for every microservice application,
-and as such you end up with a lot of work in terms of setting up new tools and integrating them with each
-application. For every new app you raise your work exponentially, because the number of connections rises
-exponentially. In short, the situation
-increases the need for one tool from issue to deploy, otherwise you’re going to spend your life doing integrations.
+## Drawbacks
+
+**Latency:** making function calls between different services instead of in an application slows everything down.
+
+**Distributed system:** the [first rule of distributed object design](http://martinfowler.com/bliki/FirstLaw.html) is don't distribute your objects. Distribud systems are harder to debug, reason about, and do transactions in.
+
+**Three step rollouts:** if you have a change that affects other services you first have to push a new version of your application, ensure all other services start using that, and then deprecate the old version. If it was a single application you would be done in one step.
+
+**Need to accommodate failure modes:** you can only increase system wide stability if services can deal with other services being down. You will have to program this into your application, for example displaying generic recommendations instead of personalized ones.
+
+**Infrastructure complexity:** microservices increase the mumber of applications you have to deploy, monitor, and throttle. You will need to automate everything to make this work.
+
+**Multiple projects:** every services will be its own project, so you need to set up multiple repositories, CI, CD, and issue trackers.
+
+## GitLab and microservices
+
+A major goal for us at GitLab is to make sure you can do everything you need to do within GitLab, with as few external integrations to deal
+with as possible. This way, you don’t have to set up [CI/CD](https://about.gitlab.com/gitlab-ci/), and an issue tracker for each project and spend the time integrating them, they're all already pre-configured to use from one single UI.
+You can [move issues](https://about.gitlab.com/2016/04/20/feature-highlight-move-issues/) between the projects of the different services and aggregate them with [group level milestones](http://docs.gitlab.com/ee/workflow/milestones.html).
+To ensure the the right people have access to each project you can use [LDAP group sync](https://about.gitlab.com/2014/07/10/feature-highlight-ldap-sync/) and the ability to invite teams from other projects.
+
+## When are microservices right for your team?
+
+We think that microservices are great when your team is spending too much time coordinating.
+There is no set number but when you have more than 25 backend developers coordination can become harders.
+For another take on the benefits and drawbacks see [Martin Forler his take on this](http://martinfowler.com/articles/microservice-trade-offs.html).
 
 ## Who else is using microservice architecture?
 
 [Uber][uber-eng], [Soundcloud][soundcloud-micro], [Hailo][hailo-micro], [Amazon][amazon-micro], and [Ebay][ebay-micro]
 are a few of the companies that [are using microservices][companies-micro] to deliver their applications. Uber gives
 a really nice narrative of their [move from monolith to microservices][uber-blog] on their blog.
-
-Clearly microservices architecture has amazing potential, not least because it makes the user experience more efficient.
-
-We’re very much on board with this trend. A major goal for us at GitLab is to make sure you
-can do everything you need to do within GitLab, with as few external integrations to deal
-with as possible. This way, you don’t have to set up tools for each project and spend the time
-integrating them, they're all already pre-configured to use from one single UI.
 
 Watch out for our last post of this series, where we'll go through **Open Source**!
 
@@ -77,7 +86,7 @@ Watch out for our last post of this series, where we'll go through **Open Source
 [uber-blog]: https://eng.uber.com/building-tincup/
 [uber-eng]: https://eng.uber.com/soa/
 
-<!-- 
+<!--
 cover image: http://hubblesite.org/newscenter/archive/releases/2016/28/image/a/format/xlarge_web/layout/thumb/
-copyright - public domain: http://hubblesite.org/about_us/copyright.php 
+copyright - public domain: http://hubblesite.org/about_us/copyright.php
 -->
