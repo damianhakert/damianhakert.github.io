@@ -28,6 +28,9 @@ title: "Marketing Executive Assistant"
 * Be willing and ready to learn new things and jump in and help when new tasks come up.  
 * Make sure all new team members on the marketing team are onboarded and added to all relevant calendar invites.
 * Answer emails on behalf of the CMO when possible. 
+* Assist CMO and team reconcile marketing budget. 
+* Ensure all bonuses for team are tracked w/ HR and manager. 
+
 
 ## Requirements  
 * Strong english skills.  
