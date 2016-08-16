@@ -3,7 +3,7 @@
   - description: Host static pages straight (with TLS and CNAME support) from GitLab using GitLab Pages
     link: http://doc.gitlab.com/ee/pages/README.html
   - description: Contribution Analytics, see detailed statistics of contributors
-    link: https://about.gitlab.com/features/#compare
+    link: http://docs.gitlab.com/ee/analytics/contribution_analytics.html
   - description: Edit files, directories and create merge requests straight from the web interface
     link: http://doc.gitlab.com/ce/workflow/web_editor.html
     in_ce: true
