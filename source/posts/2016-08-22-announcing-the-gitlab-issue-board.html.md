@@ -83,7 +83,7 @@ There are 10 steps from idea to production in the modern development lifecycle.
 
 <!-- image: screenshot of the 10 steps -> IMAGE TO BE IMPROVED -->
 
-![FROM IDEA TO PRODUCTION IN 10 STEPS](https://gitlab.com/gitlab-com/marketing/uploads/9b5cf608ba6198ae5d84e14f65824670/idea-to-production.png){: .shadow}
+![FROM IDEA TO PRODUCTION IN 10 STEPS](/images/blogimages/announcing-the-gitlab-issue-board/10-step-dev-lifecycle-plan.png)
 
 1. Chat conversation &#8594; [Mattermost ships with GitLab][mattermost]
 1. Issue creation &#8594; [GitLab Issues][issue]
@@ -127,7 +127,7 @@ appear in the lists as you create them.
 <i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> Each
 Issue Board starts with two lists: **Backlog** and **Done**. The Backlog will hold all the issues in
 your project which don't have any label assigned to a list. Once you label an issue, and create a list for that
-label, it will be automatically moved from **Backlog** to the corresponding list. You can create up to 10 lists.
+label, it will be automatically moved from **Backlog** to the corresponding list. You can create unlimited lists!
 
 <i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> You
 can drag and drop the lists to organize your Board according to your own workflow:
