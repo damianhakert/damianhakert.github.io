@@ -3,7 +3,7 @@ title: "Announcing The GitLab Issue Board"
 author: Sid Sijbrandij
 author_twitter: sytses
 categories: GitLab
-image_title: '/images/blogimages/announcing-the-gitlab-issue-board/gitlab-issue-board-cover.png'
+image_title: '/images/blogimages/announcing-the-gitlab-issue-board/gitlab-issue-board-cover-v2.png'
 description: "Strengthen your Release Management Process: announcing the GitLab Issue Board"
 ---
 
@@ -36,7 +36,7 @@ engineers, and 5 UX designers, it has become increasingly more important to
 ensure the full team has visibility into the overall release process.
 {: .alert .alert-info .blue}
 
-## What the experts had to say 
+## What the experts had to say
 
 Obviously, we’re not “the experts.” But we’ve summarized their feedback.
 The International Journal of Computer Applications [2013 study][2013] has
@@ -77,7 +77,7 @@ Modern development teams are optimizing for speed without sacrificing quality.
 They are moving away from older process-driven development styles like Waterfall,
 Scrum, and Agile and towards continuous delivery and deployment. To
 support modern development practices, GitLab has everything you need to get
-[from idea to production faster][cd]. 
+[from idea to production faster][cd].
 
 There are 10 steps from idea to production in the modern development lifecycle.
 
@@ -167,7 +167,7 @@ Read through the [Issue Board documentation][doc] to know everything you can do 
 
 <i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> Using
 GitLab’s existing Label functionality also means that you’ll have all the same
-filtering and sorting abilities you see across the rest of the product. 
+filtering and sorting abilities you see across the rest of the product.
 
 ### Live demo
 
