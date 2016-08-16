@@ -15,34 +15,36 @@ Every salesperson who starts at GitLab will enter an intense 30-day sales bootca
    to add a term that you feel is relevant but is not on this page.
 
 * [ ] What is Git
-    [ ] [Basics of software version control](https://git-scm.com/video/what-is-version-control) (6 minutes)
-    [ ] [The evolution of SVC products](http://blog.plasticscm.com/2010/11/version-control-timeline.html)
-    [ ] [Intro to Git](https://www.youtube.com/watch?v=3m7BgIvC-uQ) (1:39 hours)
+  * [ ] [Basics of software version control](https://git-scm.com/video/what-is-version-control) (6 minutes)
+  * [ ] [The evolution of SVC products](http://blog.plasticscm.com/2010/11/version-control-timeline.html)
+  * [ ] [Intro to Git](https://www.youtube.com/watch?v=3m7BgIvC-uQ) (1:39 hours)
 
 * [ ] Application Lifecycle Management (ALM):
-    [ ] [What is ALM?](https://blogs.msdn.microsoft.com/africaapps/2013/05/29/application-lifecycle-management-part-1-of-5/)
-    [ ] [5 Imperatives for ALM](https://www.youtube.com/watch?v=l_W5nkG6iAE) (3 minutes)
-    [ ] [The ecosystem](https://www.youtube.com/watch?v=sXlhgPK1NTY&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=6) (1:03 hours)
+  * [ ] [What is ALM?](https://blogs.msdn.microsoft.com/africaapps/2013/05/29/application-lifecycle-management-part-1-of-5/)
+  * [ ] [5 Imperatives for ALM](https://www.youtube.com/watch?v=l_W5nkG6iAE) (3 minutes)
+  * [ ] [The ecosystem](https://www.youtube.com/watch?v=sXlhgPK1NTY&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e&index=6) (1:03 hours)
         - [Slides](https://docs.google.com/presentation/d/1vCU-NbZWz8NTNK8Vu3y4zGMAHb5DpC8PE5mHtw1PWfI/edit)
-    [ ] [Development methodologies (waterfall, agile, scrum, kanban etc.)](http://venturebeat.com/2014/11/24/choosing-the-right-development-methodology-is-part-education-part-instinct/)
+  * [ ] [Development methodologies (waterfall, agile, scrum, kanban etc.)](http://venturebeat.com/2014/11/24/choosing-the-right-development-methodology-is-part-education-part-instinct/)
 
 * [ ] [Operating Systems and Infrastructure Mechanisms](https://drive.google.com/a/gitlab.com/file/d/0B41DBToSSIG_OVYxVFJDOGI3Vzg/view?usp=sharing)
       recorded date: 2015-10-01
 
 * [ ] GitLab (2:06 hours)
-    [ ] [Basic features of GitLab](https://www.youtube.com/watch?v=LgY8XuoM8aU&list=PLLnpHn493BHGgDmJGfCzRYRkFYWcRrxDT&index=3) (10 minutes)
-    [ ] [Create SSH key] (https://www.youtube.com/watch?v=0z28J0RfaJM&list=PLLnpHn493BHGgDmJGfCzRYRkFYWcRrxDT&index=4) (9 minutes)
-    [ ] [Repositories, Projects and Groups](https://www.youtube.com/watch?v=4TWfh1aKHHw&index=1&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e) (41 minutes)
-    [ ] [Commits, Merge requests](https://www.youtube.com/watch?v=Ddd3dbl4-2w&list=PLLnpHn493BHGgDmJGfCzRYRkFYWcRrxDT&index=7) (6 minutes)
-    [ ] [Issue Tracking, Milestones](https://www.youtube.com/watch?v=tv4UM1ruQRs&index=5&list=PLLnpHn493BHGgDmJGfCzRYRkFYWcRrxDT) (9 minutes)
-    [ ] [Creating a GitLab DigitalOcean droplet](https://www.youtube.com/watch?v=QCZl0eNzMTs) (10 minutes)
-    [ ] [GitLab workflow](https://www.youtube.com/watch?v=enMumwvLAug) - Full recap of all of the above (41 minutes)
+  * [ ] [Basic features of GitLab](https://www.youtube.com/watch?v=LgY8XuoM8aU&list=PLLnpHn493BHGgDmJGfCzRYRkFYWcRrxDT&index=3) (10 minutes)
+  * [ ] [Create SSH key] (https://www.youtube.com/watch?v=0z28J0RfaJM&list=PLLnpHn493BHGgDmJGfCzRYRkFYWcRrxDT&index=4) (9 minutes)
+  * [ ] [Repositories, Projects and Groups](https://www.youtube.com/watch?v=4TWfh1aKHHw&index=1&list=PLFGfElNsQthbQu_IWlNOxul0TbS_2JH-e) (41 minutes)
+  * [ ] [Commits, Merge requests](https://www.youtube.com/watch?v=Ddd3dbl4-2w&list=PLLnpHn493BHGgDmJGfCzRYRkFYWcRrxDT&index=7) (6 minutes)
+  * [ ] [Issue Tracking, Milestones](https://www.youtube.com/watch?v=tv4UM1ruQRs&index=5&list=PLLnpHn493BHGgDmJGfCzRYRkFYWcRrxDT) (9 minutes)
+  * [ ] [Creating a GitLab DigitalOcean droplet](https://www.youtube.com/watch?v=QCZl0eNzMTs) (10 minutes)
+  * [ ] [GitLab workflow](https://www.youtube.com/watch?v=enMumwvLAug) - Full recap of all of the above (41 minutes)
 
 * [ ] CI:
-    [ ] [Overview](https://www.youtube.com/watch?v=Hs8LCilGVaM) (49 minutes)
-    [ ] [What is a Runner](http://docs.gitlab.com/ce/ci/runners/README.html)?
-    [ ] [What is autoscaling?](https://www.techopedia.com/definition/29432/auto-scaling)
-    [ ] [Documentation](http://docs.gitlab.com/ce/ci/)
+  * [ ] [Continuous Integration, Delivery and Deployment](https://codeship.com/continuous-integration-essentials)
+  * [ ] [Overview](https://www.youtube.com/watch?v=Hs8LCilGVaM) (49 minutes)
+  * [ ] [What is a Runner](http://docs.gitlab.com/ce/ci/runners/README.html)?
+  * [ ] [What is autoscaling?](https://www.techopedia.com/definition/29432/auto-scaling)
+  * [ ] [Documentation](http://docs.gitlab.com/ce/ci/)
+
 
 * [ ] [Making GitLab Great for Everyone, our response to the Dear GitHub letter](https://www.youtube.com/watch?v=GGC40y4vMx0)
 
