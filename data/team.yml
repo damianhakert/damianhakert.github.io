@@ -1457,7 +1457,7 @@
 - name: P.M.
   locality:
   country:
-  role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer></a>
+  role: <a href="https://about.gitlab.com/jobs/ux-designer/">UX Designer</a>
   reports_to: Frontend Lead
   picture: logo-extra-whitespace.png
   twitter:
