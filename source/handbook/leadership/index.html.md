@@ -20,7 +20,8 @@ title: Leadership
 - If you praise someone try to do it in front of an audiance, if you give suggestions to improve do it 1 on 1.
 - If you meet external people always ask what they think we should improve.
 - As soon as you know you'll have to let someone go, do it immediately. The team member is entitled to knowing where they stand. Delaying it for days or weeks causes problems with confidentiality (find out that they will be let go), causation (attributing it to another reason), and escalation (the working relation is probably going downhill).
-- When someone says they are considering to quit drop everything and listen to them by asking questions. Find out what the concerns are and address the reasonable ones the next few hours and days where needed. If you delay the person will not feel valued and the decision will be irreversible.
+- When someone says they are considering to quit drop everything and listen to them by asking questions to find out what their concerns are. If you delay the person will not feel valued and the decision will be irreversible.
+- People should not be raised or given a title because they ask for it or threaten to quit. We should proactively raise and promote people without people asking. If you do it when people ask you are disadvantaging people that don't ask and you'll end up with many more people asking.
 
 ## Articles
 
