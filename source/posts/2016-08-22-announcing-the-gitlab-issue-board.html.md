@@ -81,9 +81,9 @@ from idea to production faster.
 
 There are 10 steps from idea to production in the modern development lifecycle.
 
-<!-- image: screenshot of the 10 steps -->
+<!-- image: screenshot of the 10 steps -> IMAGE TO BE IMPROVED -->
 
-![FROM IDEA TO PRODUCTION IN 10 STEPS](#){: .shadow}
+![FROM IDEA TO PRODUCTION IN 10 STEPS](https://gitlab.com/gitlab-com/marketing/uploads/9b5cf608ba6198ae5d84e14f65824670/idea-to-production.png){: .shadow}
 
 1. Chat conversation &#8594; [Mattermost ships with GitLab][mattermost]
 1. Issue creation &#8594; [GitLab Issues][issue]
@@ -98,35 +98,79 @@ There are 10 steps from idea to production in the modern development lifecycle.
 
 The 10 steps of the modern development lifecycle will be included directly in
 GitLab in the coming months. Today we are announcing the [GitLab Issue Board],
-a software project management tool used to plan, organize, and visualize a team’s
+a software project management tool used to **plan**, **organize**, and **visualize** a team’s
 feature or product release process.
 
 ## Closer look at the GitLab Issue Board
 
 The Issue Board builds on GitLab’s existing issue tracking functionality and now
 offers teams the ability project manage their release and deployment process. This
-is the first iteration of our Issue Board. Here are the six things you should know about it:
+is the first iteration of our Issue Board. Here are a few things you should know about:
 
-1. It’s a new way to manage your issues in GitLab. Your issues appear as cards on the Board.
-1. Lists (or columns) represent each step in your development process.
-1. Your lists are based on your Labels. Which means it works out of the box with your existing issues.
+### The GitLab Issue Board
+
+<i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> It’s
+a new way to **manage** your **issues** in GitLab. Your issues appear as **cards** on the Board.
+
+<i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> **Lists**
+(or columns) represent each step in your development process.
+
+<i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> Your
+lists are **based on** your **Labels**. Which means it works out of the box with your existing issues.
 So if you’ve already labeled things with “Development” and “Production”, the corresponding issues will
-appear in the lists as you create them. <br>
+appear in the lists as you create them.
+
 ![GITLAB ISSUE BOARD](/images/blogimages/announcing-the-gitlab-issue-board/gitlab-issue-board.png){: .shadow}
-1. Each Issue Board starts with two lists: **Backlog** and **Done**. The Backlog will hold all the issues in
+
+### Lists
+
+<i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> Each
+Issue Board starts with two lists: **Backlog** and **Done**. The Backlog will hold all the issues in
 your project which don't have any label assigned to a list. Once you label an issue, and create a list for that
 label, it will be automatically moved from **Backlog** to the corresponding list. You can create up to 10 lists.
-1. When you move issues between lists, the label on the issue is automatically updated. This
-new label is displayed in the Issue Tracker as well as on the issue itself. So, even if someone on
-your team isn’t checking the Issue Board, they’ll still have a record of what step an issue is on: <br> 
-![drag and drop issue](/images/blogimages/announcing-the-gitlab-issue-board/gif-drag-and-drop.gif){: .shadow .center}
-1. You can also drag and drop the lists themselves to create your own workflow: <br>
+
+<i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> You
+can drag and drop the lists to organize your Board according to your own workflow:
+
 ![drag and drop issue](/images/blogimages/announcing-the-gitlab-issue-board/gif-drag-and-drop-list.gif){: .shadow .center}
-1. If you drag and drop the card to the list **Done**, the issue will be automatically closed.
-1. **Bonus:** using GitLab’s existing Label functionality also means that you’ll have all the same
+
+### Labels
+
+<i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> When
+you move issues between lists, the label on the issue is automatically updated.
+
+![drag and drop issue](/images/blogimages/announcing-the-gitlab-issue-board/gif-drag-and-drop.gif){: .shadow .center}
+
+<i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> This
+new label is displayed in the Issue Tracker as well as on the issue itself. So, even if someone on
+your team isn’t checking the Issue Board, they’ll still have a record of what step an issue is on.
+
+<i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> If
+you drag and drop the card to the list **Done**, the issue will be automatically closed.
+
+### Functionality
+
+#### Example
+
+<i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> By
+adding new lists, you can create workflows. For example, you can create a list
+based on the label of “Frontend” and one for “Backend”. A designer can start working on
+an issue by dragging it from **Backlog** to “Frontend”. That way, everyone knows,
+this issue is now being worked on by the frontend engineers.
+Then, once they’re done, all they have to do is drag it over to the next list, Backend,
+where a backend developer can eventually pick it up. Once they’re done, they move it to
+the list **Done**, to close the issue.
+
+#### Bonus
+
+<i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> Using
+GitLab’s existing Label functionality also means that you’ll have all the same
 filtering and sorting abilities you see across the rest of the product. 
 
-To see the GitLab Issue Board in action, take a look at GitLab Developer Advocate
+### Live demo
+
+<i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> To
+see the GitLab Issue Board in action, take a look at GitLab Developer Advocate
 ([Amanda] or [Ivan])’s screencast below. <!-- ADD LINK TO TWITTER -->
 
 <!-- VIDEO TO BE UPDATED -->
@@ -140,24 +184,24 @@ To see the GitLab Issue Board in action, take a look at GitLab Developer Advocat
 ## Join our webcast on August 25
 
 On August 25th, we’ll be hosting a webinar to discuss and demo the Issue Board and all of the other
-great features in GitLab 8.11. Register here.
+great features in GitLab 8.11. [Register here][webcast].
 
 <!-- identifiers -->
 
-[ce]: https://gitlab.com/gitlab-org/gitlab-ce/issues
-[direction]: https://about.gitlab.com/direction/
 [2013]: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.403.1791&rep=rep1&type=pdf
+[about-gitlab-com]: htpps://about.gitlab.com/
+[cd]: https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
+[ce]: https://gitlab.com/gitlab-org/gitlab-ce/issues
+[ci]: https://about.gitlab.com/gitlab-ci/
 [cog]: https://gitlab.com/gitlab-org/omnibus-gitlab/issues/1412
-[mattermost]: https://about.gitlab.com/2015/08/18/gitlab-loves-mattermost/
+[container]: https://about.gitlab.com/2016/05/23/gitlab-container-registry/
+[cycle]: https://gitlab.com/gitlab-org/gitlab-ee/issues/847
+[direction]: https://about.gitlab.com/direction/
+[GitLab Issue Board]: # <!-- LINK TO BE UPDATED -->
 [issue]: https://about.gitlab.com/2016/03/03/start-with-an-issue/
 [koding]: https://about.gitlab.com/2016/07/26/koding-and-gitlab-integrated/
-[about-gitlab-com]: htpps://about.gitlab.com/
-[ci]: https://about.gitlab.com/gitlab-ci/
-[container]: https://about.gitlab.com/2016/05/23/gitlab-container-registry/
-[cd]: https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
-[cycle]: https://gitlab.com/gitlab-org/gitlab-ee/issues/847
-
-[GitLab Issue Board]: # <!-- LINK TO BE UPDATED -->
+[mattermost]: https://about.gitlab.com/2015/08/18/gitlab-loves-mattermost/
+[webcast]: # <!-- LINK TO BE UPDATED -->
 
 <style>
   .blue {
@@ -176,5 +220,8 @@ great features in GitLab 8.11. Register here.
   }
   .orange {
     color:rgb(252,109,38);
+  }
+  .green {
+    color: rgb(60,118,61);
   }
 </style>
