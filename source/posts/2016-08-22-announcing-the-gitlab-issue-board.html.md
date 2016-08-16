@@ -77,7 +77,7 @@ Modern development teams are optimizing for speed without sacrificing quality.
 They are moving away from older process-driven development styles like Waterfall,
 Scrum, and Agile and towards continuous delivery and deployment. To
 support modern development practices, GitLab has everything you need to get
-from idea to production faster. 
+[from idea to production faster][cd]. 
 
 There are 10 steps from idea to production in the modern development lifecycle.
 
@@ -161,6 +161,8 @@ Then, once they’re done, all they have to do is drag it over to the next list,
 where a backend developer can eventually pick it up. Once they’re done, they move it to
 the list **Done**, to close the issue.
 
+Read through the [Issue Board documentation][doc] to know everything you can do with it.
+
 #### Bonus
 
 <i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> Using
@@ -197,7 +199,8 @@ great features in GitLab 8.11. [Register here][webcast].
 [container]: https://about.gitlab.com/2016/05/23/gitlab-container-registry/
 [cycle]: https://gitlab.com/gitlab-org/gitlab-ee/issues/847
 [direction]: https://about.gitlab.com/direction/
-[GitLab Issue Board]: # <!-- LINK TO BE UPDATED -->
+[doc]: http://docs.gitlab.com/ce/user/project/issue_board.html
+[GitLab Issue Board]: /solutions/issueboard/ <!-- CHECK LINK -->
 [issue]: https://about.gitlab.com/2016/03/03/start-with-an-issue/
 [koding]: https://about.gitlab.com/2016/07/26/koding-and-gitlab-integrated/
 [mattermost]: https://about.gitlab.com/2015/08/18/gitlab-loves-mattermost/
