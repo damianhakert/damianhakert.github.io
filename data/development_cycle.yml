@@ -1,5 +1,5 @@
 - name: idea
-  description: Share ideas in a chatroom
+  description: Chat with your team about ideas
 - name: issue
   description: Turn ideas into issues
 - name: plan
@@ -15,6 +15,6 @@
 - name: staging
   description: Name your environment and deploy to it
 - name: production
-  description: Close the loop by deploying from the initial chatroom
+  description: Close the loop by deploying directly from chat
 - name: feedback
   description: Learn from the process and get better each time
