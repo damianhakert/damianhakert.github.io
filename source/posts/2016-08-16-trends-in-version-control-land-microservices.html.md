@@ -3,7 +3,7 @@ title: "Trends in Version Control Land: Microservices"
 categories: concepts
 author: Sid Sijbrandij
 author_twitter: sytses
-description: "Learn some benefits of microservices, and check out who's using it!"
+description: "The benefits and drawbacks of microservices and how to decide if it is right for your team."
 image_title: '/images/blogimages/trends-in-version-control-land-microservices-cover.jpg'
 twitter_image: '/images/tweets/trends-in-version-control-land-microservices.png'
 ---
@@ -11,43 +11,45 @@ twitter_image: '/images/tweets/trends-in-version-control-land-microservices.png'
 One trend of the last few years is microservices architecture. In this post we’re
 looking at what that is, and what some of the benefits and drawbacks are.
 
-**Note:** This post is the third of the four-posts series on **Trends on Version Control Land**, after [Innersourcing][post-1] and [Release Early, Release Often][post-2].
+**Note:** This is the third post of our four-post series on **Trends on Version Control Land**. Take a look at the first post on [Innersourcing][post-1] to learn more about common challenges large organizations face and how Innersourcing can solve them. Also check out our second post, [Release Early, Release Often][post-2], to read about how and why GitLab releases monthly.
 {: .note}
 
 <!-- more -->
 
 ## What are microservices?
 
-[Microservices architecture][micro-arch] is a way designing software applications as smaller, independent,
+[Microservices architecture][micro-arch] is a way of designing software applications as smaller, independent,
 cloud-based services rather than one monolithic data center. [Netflix][netflix-micro] is a good example: their
 users application, movies application and ratings application are deployed independently.
-Netflix has made a lot of the code behind their [microservice architecture open source][netflix-oss].
+Netflix has made a lot of the code behind their [microservice architecture open source][netflix-oss]. [Uber][uber-eng], [Soundcloud][soundcloud-micro], [Hailo][hailo-micro], [Amazon][amazon-micro], and [Ebay][ebay-micro]
+are a few other companies that [are using microservices][companies-micro] to deliver their applications. Uber shared
+a really nice narrative of their [move from monolith to microservices][uber-blog] on their blog.
 
 ## Benefits of microservices
 
-**System-wide stability:** since doing so they have achieved much greater system-wide stability,
+**System-wide stability:** Using Nextflix as an example again, since moving to a microservices architecture, they have achieved much greater system-wide stability,
 because API service interruptions are restricted to one service.
 
-**Scale teams:** with microservices you can move more quickly because each app can
-deploy independently of the others. Teams can operate independently. Since larger teams have more overhead (decisions, training), being able to split them up per service increases efficiency.
+**Scale teams:** With microservices you can move more quickly because each app can
+deploy independently of the others. Teams can operate independently. Since larger teams have more overhead (decisions, training, etc.), being able to split them up per service increases efficiency.
 
-**Diverse technology:** because services are independent, you can use the best programming language and database for the job.
+**Diverse technology:** Since each service is independent, you can use the best programming language and database for each respective job.
 
-**Improved architecture:** splitting up the application in multiple services enforces module boundaries; each application has its own responsibilities. Please note that it only helps with enforcement, in a monolitic application you can also have great module boundaries.
+**Improved architecture:** Splitting up the application in multiple services enforces module boundaries; each application has its own responsibilities. Please note that it only helps with enforcement, in a monolitic application you can also have great module boundaries.
 
 ## Drawbacks
 
-**Latency:** making function calls between different services instead of in an application slows everything down.
+**Latency:** Making function calls between different services instead of in an application slows everything down.
 
-**Distributed system:** the [first rule of distributed object design](http://martinfowler.com/bliki/FirstLaw.html) is don't distribute your objects. Distributed systems are harder to debug, reason about, and do transactions in.
+**Distributed system:** The [first rule of distributed object design](http://martinfowler.com/bliki/FirstLaw.html) is don't distribute your objects. Distributed systems are harder to debug, reason about, and do transactions in.
 
-**Three step rollouts:** if you have a change that affects other services you first have to push a new version of your application, ensure all other services start using that, and then deprecate the old version. If it was a single application you would be done in one step.
+**Three-step rollouts:** If you have a change that affects other services you first have to push a new version of your application, then ensure all other services start using that, and finally deprecate the old version. If it was a single application that process could be done in one step.
 
-**Need to accommodate failure modes:** you can only increase system wide stability if services can deal with other services being down. You will have to program this into your application, for example displaying generic recommendations instead of personalized ones.
+**The need to accommodate failure modes:** You can only increase system-wide stability if services can deal with other services being down. You will have to program this into your application. For example, if Netflix's recomendations service goes down, they can't just remove recommendations from the console. Instead they'll need to build their application to display generic recommendations instead of personalized ones.
 
-**Infrastructure complexity:** microservices increase the number of applications you have to deploy, monitor, and throttle. You will need to automate everything to make this work.
+**Infrastructure complexity:** Microservices increase the number of applications you have to deploy, monitor, and throttle. You will need to automate everything to make this work.
 
-**Multiple projects:** every services will be its own project, so you need to set up multiple repositories, CI, CD, and issue trackers.
+**Multiple projects:** Each service will need to be its own project to achieve the necessary independence. Each service will need multiple repositories, CI, CD, and issue trackers.
 
 ## GitLab and microservices
 
@@ -59,16 +61,10 @@ To ensure the the right people have access to each project you can use [LDAP gro
 ## When are microservices right for your team?
 
 We think that microservices are great when your team is spending too much time coordinating.
-There is no set number but when you have more than 25 backend developers, coordination can become harder.
-For another take on the benefits and drawbacks see [Martin Forler his take on this](http://martinfowler.com/articles/microservice-trade-offs.html).
+There is no set number but when you have more than 25 backend developers, coordination becomes more challenging.
+For another take on the benefits and drawbacks see [Martin Fowler's take on the trade-offs](http://martinfowler.com/articles/microservice-trade-offs.html).
 
-## Who else is using microservices architecture?
-
-[Uber][uber-eng], [Soundcloud][soundcloud-micro], [Hailo][hailo-micro], [Amazon][amazon-micro], and [Ebay][ebay-micro]
-are a few of the companies that [are using microservices][companies-micro] to deliver their applications. Uber gives
-a really nice narrative of their [move from monolith to microservices][uber-blog] on their blog.
-
-Watch out for our last post of this series, where we'll go through **Open Source**!
+Watch out for our last post of this series,  we'll share our thoughts on what industries are likely to embrace **Open Source**!
 
 <!-- identifiers -->
 
