@@ -1,12 +1,20 @@
 - name: Business Insider
-  logo: /images/testimonials/bi.svg
+  logo: /images/testimonials/bi-logo.svg
   quote: This 'well-kept' secret for programmers is suddenly popping up in the Fortune 500
   link: http://www.businessinsider.com/gitlab-ceo-sytse-sid-sijbrandij-interview-2015-10
+- name: Tech Crunch
+  logo: /images/testimonials/techcrunch-logo.svg
+  quote: GitLab-Digital Ocean partnership to provide free hosting for continuous online code testing
+  link: https://techcrunch.com/2016/04/19/gitlab-digital-ocean-partnership-to-provide-free-hosting-for-continuous-online-code-testing/
 - name: The Next Web
-  logo: /images/testimonials/user_99.svg
+  logo: /images/testimonials/tnw-logo.svg
   quote: Code collaboration platform GitLab acquires rival Gitorious
   link: http://thenextweb.com/insider/2015/03/03/gitlab-acquires-rival-gitorious-will-shut-june-1/
 - name: Tech Crunch
-  logo: /images/testimonials/user_100.svg
+  logo: /images/testimonials/techcrunch-logo.svg
   quote: YC-Backed GitLab Is Like GitHub But For Enterprise
   link: http://techcrunch.com/2015/03/03/the-great-git-debate/
+- name: InfoWorld
+  logo: /images/testimonials/infoworld-logo.svg
+  quote: GitLab goes heavy on Docker registry support, light on restrictions
+  link: http://www.infoworld.com/article/3072886/application-development/gitlab-goes-heavy-on-docker-registry-support-light-on-restrictions.html
