@@ -91,6 +91,11 @@ Now I can direct my attention to only those items that need it.
 This post was [originally published][post] by Brian O'Connor himself.
 {: .note}
 
+<!-- 
+original cover photo: http://www.freeimages.com/photo/labels-1420786
+license: http://www.freeimages.com/license
+-->
+
 <!-- identifiers -->
 
 [doc]: http://docs.gitlab.com/ee/user/project/labels.html
