@@ -3,8 +3,10 @@ title: "Announcing The GitLab Issue Board"
 author: Sid Sijbrandij
 author_twitter: sytses
 categories: GitLab
-image_title: '/images/blogimages/announcing-the-gitlab-issue-board/gitlab-issue-board-cover-v2.png'
-description: "Strengthen your Release Management Process: announcing the GitLab Issue Board"
+image_title: '/images/blogimages/announcing-the-gitlab-issue-board/gitlab-issue-board-cover.png'
+description: "Strengthen your Release Management Process: announcing the GitLab Issue Board!"
+twitter_image: '/images/tweets/announcing-the-gitlab-issue-board.png'
+date: 2016-08-22 15:00
 ---
 
 Software is taking over the world. Development best practices are quickly
