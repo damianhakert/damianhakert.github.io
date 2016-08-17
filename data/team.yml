@@ -348,20 +348,6 @@
          performance of GitLab. He's also an avid practitioner of Krav Maga, a
          tea connoisseur, and a cat enthusiast.
 
-- name: Kelvin Mutuma
-  locality: Nairobi
-  country: Kenya
-  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: Support Lead
-  picture:  kelvin_mutuma.jpg
-  twitter:  kelvinmutuma
-  gitlab: kelvinmutuma
-  maintains:  |
-                <li>Maintainer of <a href="https://forum.gitlab.com/">forum-gitlab-com</a></li>
-                <li>Maintainer of GitLab Mentions</li>
-  story:  |
-          Before joining GitLab, Kelvin was a developer and system's engineer for a Kenyan Financial Services platform, Abacus. He is passionate about playing chess, video games, watching sci-fi movies, reading novels and watching soccer.
-
 - name: Gabriel Mazetto
   locality: Florianópolis
   country: Brazil
