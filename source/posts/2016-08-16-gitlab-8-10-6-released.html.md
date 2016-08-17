@@ -19,6 +19,7 @@ Please read on for more details.
 - **CE/EE:** Upgrade Rails to 4.2.7.1. ([!5781])
 - **CE/EE:** Fix privilege escalation via project export.
 - **CE/EE:** Restore "Largest repository" sort option on Admin > Projects page. ([!5797])
+- **CE/EE:** Require administrator privileges to perform a project import.
 - **EE:** Fix race condition with UpdateMirrorWorker Lease. ([!641])
 
 [!5781]: https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/5781
@@ -30,6 +31,10 @@ Please read on for more details.
 Due to incorrect attribute whitelisting, it was possible for a project export to
 contain the full User attributes of project members, including their API tokens.
 See [the issue][20974] for more details.
+
+***Update (2016-08-17 22:00 UTC):*** We have temporarily made importing a GitLab
+project export require administrator access while we further audit the security
+of the import/export feature as a whole.
 
 Thanks to [Jobert Abma](https://twitter.com/jobertabma) of
 [HackerOne](https://hackerone.com/jobert) for responsibly disclosing this issue
