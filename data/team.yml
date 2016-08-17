@@ -947,12 +947,12 @@
 - name: Mark Fletcher
   locality: Edinburgh
   country: Scotland
-  role: <a href="https://about.gitlab.com/jobs/community-liasion/">Community Liaison</a>
+  role: Developer
   reports_to: VP of Engineering
   picture: logo-extra-whitespace.png
   gitlab: markglenfletcher
   maintains:  |
-              <li>Issue triage specialist</li>
+              <a href="https://about.gitlab.com/jobs/specialist/issue-triage/"><li>Issue triage specialist</li></a>
   picture: mark.jpg
   story:  |
           Mark's experience within the technology sector has been varied, including various Web Development and Technical Support roles.
@@ -1466,4 +1466,3 @@
   gitlab:
   story:  |
           Joining September 15th
-
