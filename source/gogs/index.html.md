@@ -6,28 +6,28 @@ extra_css:
   - compared.css
 ---
 
-# An Overview of Gogs - Go Git Service
+# Gogs - Go Git Service
 
 ## Index
 
 - [What is Gogs?](#what-is-gogs?)
 - [GitLab's Support of Gogs](#gitlab's-support-of-gogs)
-- [Features Shared with Gogs & GitLab](#features-shared-with-gogs-&-gitlab)
-- [Feature Overview](#feature-overview)
+- [Features Shared with Gogs & GitLab](#shared-features)
+- [Gogs advantages](#gogs-advantages)
+- [GitLab Feature Overview](#gitlab-advantages)
 
 ## What is Gogs?
 
-[Gogs](https://gogs.io/) is an open-source, lean, self-hosted Git service. It's built on Go which makes it cross-platform friendly. Installation is pretty easy with a single binary. Gogs has a low footprint and is easy on system resources.
+[Gogs](https://gogs.io/) is an open-source, lean, self-hosted Git service. It's built on Go which makes it cross-platform friendly.
 
 ## GitLab's Support of Gogs
 
-GitLab is a strong believer in Gogs and thinks it's a great Git service for individuals. We're proud to be the only company who is fully supporting a full-time, paid contributor to the project.
+GitLab is a strong believer in Gogs and thinks it fills an important role. We're proud to have the only full-time contributor to the project, [Kim Carlbäcker](https://twitter.com/bkcsoft), on our team.
 
-## Features Shared with Gogs & GitLab
+## Shared Features
 
-Both tools share the following features and capabilities:  
+Both Gogs & GitLab share the following features and capabilities:
 
-### General Features
 - Dashboard
 - File browser
 - Issue tracking
@@ -35,16 +35,28 @@ Both tools share the following features and capabilities:
 - Organizational support (supporting groups)
 - Webhooks
 
-## Feature Overview
-GitLab is optimized for feature richness. Most of it is written in Ruby on Rails and it has has over [1000 non-unique dependencies](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/Gemfile). 
-The disadvantage is the it has higher [system requirements](http://docs.gitlab.com/ce/install/requirements.html). The advantage is that it offers many more features which are listed below. 
-Here are some of those features:
+## Gogs Advantages
+
+Gogs is a self container binary in Go.
+The disadvantage is that is more time consuming to build complex features.
+The advantages are that it:
+
+1. Comes in a single binary so it is easy to install
+1. Runs on Windows and Mac in addition to Linux
+1. Uses little memory, it runs fine with 512MB
+1. Uses little CPU power since Go is a compiled language
+
+## GitLab Advantages
+
+GitLab is optimized for feature richness. Most of it is written in Ruby on Rails and it has has over [1000 non-unique dependencies](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/Gemfile). The disadvantage is the it has higher [system requirements](http://docs.gitlab.com/ce/install/requirements.html). The advantages are that it offers many more features:
 
 ### LDAP
+
 1. **Two-Factor authentication**
 2. **CAS authentication**
 
 ### Workflow
+
 1. **LFS support** - Use GitLab to version your large files with support for Large File Storage (LFS)
 2. **Webhooks at project level** - Define your project webhooks to listen to specific events like pushes, issues or merge requests on GitLab
 3. **To-Do lists** - GitLab handles any @ mentions within issues and then populates
@@ -54,16 +66,18 @@ to let you see when commits have been pushed, an issue was created or someone ha
 commented on an issue.
 
 ### Server Management
+
 1. **Branded login page** - Add your brand logo and access whitelabel support on GitLab. Gogs offers complete control over the template as you wish (customization required)
 2. **Project importing** - Easily import your projects from popular git platforms like:  GitHub, BitBucket and more
 3. **Search** - Search your projects on all their assets: issues, merge requests, milestones and projects
 
 ### CI
+
 1. Natively integrated CI (Pipelines)
 2. **Automatic merge** - Automatically merge on build success
 
-
 ### General
+
 1. **Authorization granularity** - Limit specific users' access to the issue tracker or wiki. Control who can contribute to the project
 2. **Work-in-Progress protection** - Mark a branch/MR as WIP
 3. **Hosted solution** - Host your GitLab instance with GitLab
