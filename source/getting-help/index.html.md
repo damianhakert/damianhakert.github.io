@@ -16,26 +16,58 @@ title: "Getting Help for GitLab"
 * [GitLab update page](https://about.gitlab.com/update/): resources and information to help you update your GitLab instance.
 * [Maintenance policy](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/MAINTENANCE.md): specifies what versions are supported.
 
+## Discussion
+
+If you'd like to discuss a feature proposal or a bug found within the product. Please raise an issue to the offical GitLab issue trackers:
+
+### Feature Proposals
+
+Feature proposals should be submitted to the issue tracker of the relevant product:
+
+* [GitLab CE Issue Tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues)
+* [GitLab EE Issue Tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues)
+
+Please read the [contributing guidelines for feature proposals](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#feature-proposals) before posting on the Issue tracker
+
+### Reproducible Bugs
+
+Bug reports should be submitted to the issue tracker of the relevant product:
+
+* [GitLab CE Issue Tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues)
+* [GitLab EE Issue Tracker](https://gitlab.com/gitlab-org/gitlab-ee/issues)
+
+Please read the [contributing guidelines for reporting bugs](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#issue-tracker-guidelines) before posting on the Issue tracker.
+
+Other resources for discussion:
+
+* [#gitlab IRC channel](https://webchat.freenode.net/?channels=gitlab): a Freenode channel to get in touch with other GitLab users and get help. It is managed by James Newton (newton) and Drew Blessing (dblessing).
+* [GitLab Community Forum](https://forum.gitlab.com/): this is the best place to have a discussion.
+* [Mailing list](https://groups.google.com/forum/#!forum/gitlabhq): Please search for similar issues before posting your own, there's a good chance somebody else had the same issue you have now and has resolved it.
+* [Gitter chat room](https://gitter.im/gitlabhq/gitlabhq#): here you can ask questions when you need help.
+
 ## Technical Support
-* [Troubleshooting guide](https://github.com/gitlabhq/gitlab-public-wiki/wiki/Trouble-Shooting-Guide): contains solutions to common problems.
+
+### GitLab Community Edition
+
+If you are seeking help with your GitLab Community Edition installation, please use the following resources:
+
+* [GitLab Documentation](https://docs.gitlab.com): Extensive Documentation is available regarding the Supported Configurations of GitLab.
+* [Stack Overflow](http://stackoverflow.com/questions/tagged/gitlab): Please search for similar issues before posting your own, there's a good chance somebody else had the same issue you have now and has resolved it.
+* [GitLab Community Forum](https://forum.gitlab.com/): this is the best place to have a discussion about your chosen configuration and options.
+
+### GitLab Enterprise Edition
+
+If you are seeking help with your GitLab Enterprise Edition installation,
+please use the following resources:
+
 * [Subscription](https://about.gitlab.com/pricing/): allows you to contact our GitLab service engineers to solve your problem.
 * [Consultancy](https://about.gitlab.com/consultancy/): personalized attention from the GitLab experts for installations, upgrades and customizations.
-* [Mailing list](https://groups.google.com/forum/#!forum/gitlabhq): Please search for similar issues before posting your own, there's a good chance somebody else had the same issue you have now and has resolved it.
-* [Stack Overflow](http://stackoverflow.com/questions/tagged/gitlab): Please search for similar issues before posting your own, there's a good chance somebody else had the same issue you have now and has resolved it.
 
-## GitLab.com Support
+### GitLab.com Service
 
-* [GitLab.com](https://about.gitlab.com/gitlab-com/) users can use the [GitLab.com Support Tracker](https://gitlab.com/gitlab-com/support-forum/issues) to report issues and bugs if they do not have a [Premium Support subscription](https://about.gitlab.com/pricing/#gitlab-ee).
+If you are seeking help regarding the service provided at GitLab.com, please use the following resources:
 
-## Feature Proposals
-* Submit feature proposals on the issue tracker for
-[GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues) or
-[GitLab EE](https://gitlab.com/gitlab-org/gitlab-ee/issues) and
-add the label `feature proposal`.
-Please search for similar proposals before posting your own.
-
-## Reproducible Bugs
-* [The issue tracker](https://gitlab.com/gitlab-org/gitlab-ce/issues) lists errors and bugs people are experiencing. Please read the [contributing guidelines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#issue-tracker) before posting on the Issue tracker.
+* [GitLab.com Support Tracker](https://gitlab.com/gitlab-com/support-forum/issues) to report issues and bugs if you do not have a [Premium Support subscription](https://about.gitlab.com/pricing/#gitlab-ee).
 
 ## Security
 * [The responsible disclosure page](https://about.gitlab.com/disclosure/) describes how to contact GitLab to report security vulnerabilities and other security information.
@@ -43,11 +75,6 @@ Please search for similar proposals before posting your own.
 
 ## Contributing
 * [Contributing guide](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md): describes how to submit Merge Requests and issues. Pull Requests and Issues not in line with the guidelines in this document will be closed.
-
-## Discussion
-* [#gitlab IRC channel](https://webchat.freenode.net/?channels=gitlab): a Freenode channel to get in touch with other GitLab users and get help. It is managed by James Newton (newton) and Drew Blessing (dblessing).
-* [Gitter chat room](https://gitter.im/gitlabhq/gitlabhq#): here you can ask questions when you need help.
-* [GitLab Community Forum](https://forum.gitlab.com/): this is the best place to have a discussion.
 
 ## Reference
 * [GitLab University](https://university.gitlab.com/) contains a variety of resources.
