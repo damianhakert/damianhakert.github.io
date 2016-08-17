@@ -1410,16 +1410,16 @@
   story:  |
           Joining August 15th
 
-- name: K.T.
-  locality:
-  country:
+- name: Kris Touzel
+  locality: Myrtle Beach, SC
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/business-development-representative/">Business Development Representative</a>
   reports_to: Business Development Team Lead
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: kris.jpg
+  twitter: kris_touzel
+  gitlab: Touzel2
   story:  |
-          Joining August 15th
+          Prior to joining GitLab, Kris was a civil engineering designer. When he is not at work he is enjoying the outdoors, surfing, kayaking, camping, and attending NASCAR races.
 
 - name: E.L.
   locality:
