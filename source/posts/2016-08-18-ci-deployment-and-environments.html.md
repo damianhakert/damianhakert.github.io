@@ -7,180 +7,260 @@ author_twitter: inemation
 image_title: '/images/blogimages/ci-deployment-and-environments/intro.png'
 ---
 
-In previous blog post we covered the very basics of GitLab CI. As you might have guessed, today we'll cover deployment question.
+## GitLab CI: Deployment & environments
+  
+In [the earlier blog](https://about.gitlab.com/2016/07/29/the-basics-of-gitlab-ci/) post we have covered the very basics of GitLab CI. Today we'll be deploying your web-application. 
+  
+Luckily you already host your project code on GitLab.com. You already know that you can run tests inside GitLab CI. Now you’re curious whether it can be used for deployment, and how far can you go with it.
 
-We'll be deploying your website. In order to keep our story technology stack-agnostic, let's assume that it is just a set of HTML and CSS files. No serverside, and no fancy JS assets compilation. Oh, what a pleasure! :)
+To keep our story technology stack-agnostic, let's assume that the app is just a set of HTML files. No server side, no fancy JS assets compilation.
 
-You've just set up your new and shiny virtual server on Digital Ocean. You already host your project code on GitLab.com. Now you're ready to do your first deployment.
+Destination platform is also simplistic - we will use Amazon S3.
+  
+Warning: The goal of the article is not to give you a bunch of copypasteable snippets. The goal is to show principles & features of GitLab CI, so you could apply them to your technology stack with ease.
 
-Let's do it!
+Let’s start from the beginning: no CI in our story yet.
 
 <!-- more -->
-## Trivial hand deployment
 
-The most trivial way to do it is to ssh to your server, and run `git clone ...`. But you need to convince GitLab that this server should have an access to you code. 
+## A starting point
 
-In order to do that you need to set a public key of that server as a Deploy Key on GitLab.com
-<i>If you forgot how to create SSH key, don't tell anyone, just quickly [take a look at the docs](DK ).</i>
+You have a bunch of HTML files, you need to put them to S3, which is already configured to for [static website hosting](http://docs.aws.amazon.com/AmazonS3/latest/dev/HowDoIWebsiteConfiguration.html?shortFooter=true).
 
-![DK Adding Deploy Key]()
+There’s a million ways to do it. We’ll use library [awscli](http://docs.aws.amazon.com/cli/latest/reference/s3/cp.html#examples), provided by Amazon. 
 
-Now your server has read-only access to your repository. And you can do your manual deployment without any issues. However you have read article about basics of GitLab CI, and you have a strong desire to automate as much as possible. 
+Full command looks like this:
+`aws s3 cp ./ s3://yourbucket/ --recursive --exclude "*" --include "*.html"`
 
-## Making GitLab CI to run deployment for you
+Important detail: the command [expects you](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#config-settings-and-precedence) to provide ``AWS_ACCESS_KEY_ID` and  `AWS_SECRET_ACCESS_KEY`` environment variables. Also you might need to specify `AWS_DEFAULT_REGION`.
 
-Generally speaking, for GitLab there's no difference what commands to run. You put your commands, you name the job, and GitLab will run it. 
+Above might look like unnecessary details for a person who never cared how S3 works. But for us it is just an example of a command used to deliver code to a destination system.
 
-### Mechanics of deployment
+The principle is more or less the same, no matter what tool you use and where you deploy to.
 
-No matter what you use to deploy, the principle is the same: You need to pass some secret key or a set of keys to a command you run to deploy your code. No matter what command it is and where you're deploying to. For AWS you need to provide Access Key ID & Secret Key, for Heroku - API key, etc.
+Let’s see what GitLab has to offer for us.
 
-It would be a bad idea to put them openly in `.gitlab-ci.yml`. There is a Secret Variables page in your Project Settings for that purpose:
+## First automated deployment
 
-![DK Picture of Secret Variables page]()
+Frankly speaking, for GitLab there's no difference what commands to run. Put your script to `.gitlab-ci.yml` and push your code - that’s it: CI triggers a job, your commands are executed.
 
-Let's make CI system to execute required commands over SSH. Sounds simple, right? 
+So far your website is small, you have 20-30 daily visitors, so you’re developing everything in `master` branch. 
 
-### Deploy Keys vs Secret Variables
-Remember those Deploy Keys? Surprisingly, they will not help us here at all! Let shortly recall how SSH works.
-
-![Picture of a Laptop with Virtual server in Clouds]()
-Here we should put public key to authorized_keys on our server, and keep private key on our laptop.
-
-![Picture of a repo on GitLab with Virtual server in Clouds]()
-Here we should generate key on the server, and put public key to Deploy Keys on GitLab(it will go to authorized_keys?).
-
-![Picture of a Virtual machine with CI Runner with Virtual server in Clouds]()
-We should somehow pass private key to GitLab, and add public one to authorized keys on server. 
-
-Still sounds complicated? Well, then just follow the instructions above:
-
-### Run commands over SSH from CI
-
-1. Generate SSH key pair using `ssh-keygen`, and put contents of *private key* to a Secret variable, named SSH_PRIVATE_KEY. 
-2. Add public key to authorized_keys on your server
-3. Add the following into your `.gitlab-ci.yml`(assuming you have Ubuntu or Debian based Docker image):
+Minimal `.gitlab-ci.yml` should look like this:
 
 ```yaml
-before_script:
-  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
-  - eval $(ssh-agent -s)
-  - ssh-add <(echo "$SSH_PRIVATE_KEY")
-  - mkdir -p ~/.ssh
-  - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+deploy:
+  script: aws s3 cp ./ s3://yourbucket/ --recursive --exclude "*" --include "*.html"
+`
+
+Of course no luck: 
+![Failed command](#)(/images/blogimages/ci-deployment-and-environments/fail1.png){: .shadow}
+
+It is our job to ensure that there is an `aws` executable. Let’s specify image with preinstalled python and install `awscli` using `pip`:  
+
+```yaml
+deploy:
+  image: python:latest
+  script:
+  - pip install awscli
+  - aws s3 cp ./ s3://yourbucket/ --recursive --exclude "*" --include "*.html"
+`
+
+Installation of `awscli` of course extends job execution time a bit. If you need speed, look for a Docker image with preinstalled `awscli`, or create an image by yourself.
+
+Also, let’s not forget about these environment variables:
+
+```yaml
+variables:
+ AWS_ACCESS_KEY_ID: "AKIAIOSFODNN7EXAMPLE"
+ AWS_SECRET_ACCESS_KEY: “wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY”
+
+deploy:
+  image: python:latest
+  script:
+  - pip install awscli
+  - aws s3 cp ./ s3://yourbucket/ --recursive --exclude "*" --include "*.html"
+`
+
+It should work, however keeping secret keys open, even in a private repository, is a bad idea.
+
+### Keeping secret things secret
+
+There is a special place for secret variables: **Settings → Variables**
+
+![Picture of Variables page](#)(/images/blogimages/ci-deployment-and-environments/variables.png){: .shadow}
+
+Whatever you put there will be turned into environment variables. 
+Only an administrator of the project can see and modify Variables.
+
+We could remove `variables` section from our config. However, let’s use it for another purpose.
+
+### Specifying and using non-secret variables
+
+Let’s create a variable for S3 bucket name so it’ll be convenient to change it in future:
+
+```yaml
+variables:
+ S3_BUCKET_NAME: "yourbucket"
+deploy:
+  image: python:latest
+  script:
+  - pip install awscli
+  - aws s3 cp ./ s3://$S3_BUCKET_NAME/ --recursive --exclude "*" --include "*.html"
+`
+
+So far so good:
+
+![Successful build](#)(/images/blogimages/ci-deployment-and-environments/build.png){: .shadow}
+
+But audience of your website grows, so you hired one more guy to help you. This should definitely affect the workflow.
+
+
+## Dealing with teamwork
+
+Now there’s two of you working  on the same website. It is no longer convenient to work in `master` branch. You decide to write new articles in separate branches, and merge them into `master` when they are ready.
+
+The problem is that you current CI config doesn’t care about branches at all. Whenever you push anything to GitLab, it will be deployed to S3.
+
+We can prevent this easily by adding `only: master` to our “deploy” job.
+
+It would be also really nice to preview work on these branches.
+
+
+### Second place for testing purposes
+
+Patrick(the guy you recently hired) reminds you that there is such a thing called [GitLab Pages](http://pages.gitlab.io). It looks like a perfect candidate for a place to preview work in progress. 
+
+To host something on GitLab Pages your CI configuration should satisfy these simple rules:
+- job should be named “pages”
+- there should be an `artifacts` section  with folder “public” in it
+- everything you want to host should be in this “public” folder
+
+After applying [example config for plain-html websites](https://gitlab.com/pages/plain-html/blob/master/.gitlab-ci.yml), full CI configuration looks like this:
+
+```yaml
+variables:
+ S3_BUCKET_NAME: "yourbucket"
+deploy:
+  image: python:latest
+  script:
+  - pip install awscli
+  - aws s3 cp ./ s3://$S3_BUCKET_NAME/ --recursive --exclude "*" --include "*.html"
+  only: 
+  - master
+
+pages:
+  image: alpine:latest
+  script:
+  - mkdir -p ./public
+  - cp ./*.html ./public/
+  artifacts:
+    paths:
+    - public
+  except: 
+  - master
 ```
 
-You can find [detailed explanation here](http://docs.gitlab.com/ce/ci/ssh_keys/README.html#ssh-keys-when-using-the-docker-executor)
 
-Ok, let's add our deployment command... 
+
+But “except master” means that one can trigger a deploy, while another tryes to preview his branch.
+
+### Slack notifications
+
+You decide to set up Slack notifications about deployments to prevent collisions.
+
+It is a [really straightforward process](http://docs.gitlab.com/ce/project_services/slack.html).
+
+Really, the whole idea is to take Incoming WebHook URL from Slack.. 
+
+![Grabbing Incoming WebHook URL in Slack](#)(/images/blogimages/ci-deployment-and-environments/incoming-webhook.png){: .shadow}
+
+..and put it into **Settings → Services → Slack** together with your Slack nickname:
+
+![Configuring Slack Service in GitLab](#)(/images/blogimages/ci-deployment-and-environments/services-slack.png){: .shadow}
+
+We only care about deploy, so uncheck all the checkboxes, except “Build” in the settings above. That’s it. Now you’re notified of every deployment:
+
+![Deployment notifications in Slack](#)(/images/blogimages/ci-deployment-and-environments/slack.png){: .shadow}
+
+
+
+## Environments
+
+Ok, let’s return to our config. We specified two jobs. One job deploys website for your customers to S3. Another - for developers to GitLab Pages.
+
+They are being called Production and Staging environments.
+
+Looks like GitLab has [support for environments](http://docs.gitlab.com/ee/ci/environments.html#environments), and all you need to do it to add environment for your deployments jobs:
 
 ```yaml
-script:
-- scp ./*.html root@productionserver.io:/www/data/
+variables:
+ S3_BUCKET_NAME: "yourbucket"
+deploy to production:
+  environment: production
+  image: python:latest
+  script:
+  - pip install awscli
+  - aws s3 cp ./ s3://$S3_BUCKET_NAME/ --recursive --exclude "*" --include "*.html"
+  only: 
+  - master
+
+pages:
+  image: alpine:latest
+  environment: staging
+  script:
+  - mkdir -p ./public
+  - cp ./*.html ./public/
+  artifacts:
+    paths:
+    - public
+  except: 
+  - master
 ```
 
-...and check how it works:
-![DK Screenshot of Pipelines]
+Now GitLab keeps track of what is deployed where:
 
-It simply works. Great!
+![List of environments](#)(/images/blogimages/ci-deployment-and-environments/environments.png){: .shadow}
 
-As the time passes
+Also you can see whole history of your deployments per each environment:
 
+![List of deployments to staging environment](#)(/images/blogimages/ci-deployment-and-environments/staging.png){: .shadow}
 
-Сайт стал популярным, и вы наняли еще одного человека в помощь. Чтобы работать параллельно, вы начали использовать ветки.
+Now when everything is automated and set up accordingly, we’re ready for new challenges business might have for us.
 
-Чтобы CI не деплоил изменения только с мастера, нужно дописать немного наш конфиг, добавив в него 
+## Dealing with teamwork at scale
+
+Your website becomes really popular, and you had to hire more developers.
+
+The problems is that “Deploy every branch to staging” strategy is not working anymore.
+
+You decided to solve the problem by changing your process a bit. You agreed that is someone wants to see his changes on staging server, he should first merge his changes to “staging” branch.
+
+In terms of CI configuration, the change is minimal:
 
 ```yaml
-script:
-- scp ./*.html root@productionserver.io:/www/data/
-only:
+except:
 - master
 ```
 
-Изменения на других ветках игнорируются. Однако вы решаете, что было бы неплохо завести отдельное место, где можно было бы просматривать работу на рабочих ветках до публикации. Вы вспомнили о сервере на котором у вас поднят FTP, и который хостит все что вы туда заливаете. Прекрасно, давайте настроим CI так, чтобы он заливал туда все кроме master
-
-TODO: FTP --> S3
+is now changed to
 
 ```yaml
-DK Конфиг для FTP
-
-script:
-  - curl -T *.html ftp://ftp.example.com --user user:secret`
+only:
+- develop
 ```
 
-TODO: >> Можно ли "*" в curl?
+### Handling emergencies
 
-```yaml
-DK Конфиг полностью без environments
-```
+Shit happens! And it happened to your website. One of the juniors overlooked bug and pushed it straight to production. Exactly when your website was on top of HackerNews, so thousands of people saw completely broken layout instead of your shiny main page.
 
-Now every time someone pushes something new to some branch, it is deployed your second server via FTP.
+Luckily, someone found Rollback button, and deployed previous version, so website was fixed a minute after the problem have been discovered.
 
-TODO: Introducing environments
-TODO: Screenshots & summary
+![List of environments](#)(/images/blogimages/ci-deployment-and-environments/rollback-arrow.png){: .shadow}
 
-It might look not very convenient. But for a team of two it is an acceptable sollution. To prevent collisions you decide to set up Slack notifications about deployments.
+Rollback - is no more than same job relaunched with the code repository at the same state it was.
 
-## Setting up Slack notifications
+Anyhow, the problem requires a reaction. And finally you decide to turn off autodeploy to production. To switch to manual deployment you need to add `when: manual` to your job.
 
----
-
-Your business is growing. You have even more people working on the project. You decide to switch to GitLab Flow, where you have "develop" branch. And you Everything that is pushed to that branch, goes to Staging
-
-It is more of a process change. Config change is trivial:
-
-```yaml
-except --> only: develop
-```
-
----
-
-Since work on the project is much more intensive, you missed a bug, and the layout of you website was broken for 30 minutes during час пик. And since you website is pretty popular, more than 10000 people saw that.
-Luckily, there's a rollback button, so it took minutes to revert website to last working version.
-
-TODO: screenshot
-
-
----
-
-You decide to disable automatic deployment.
-
-```yaml
-when: manual
-```
-
-TODO: ScreenShot
-
-
-## 
----
-
-Все устали мержить в develop - решили что неплохо было бы иметь по инстансу на каждую ветку/Merge Request
-
-
-
-
-
-Заливать на s3 в разные бакеты 
-
-
---------
-
-
-Пояснения:
-
-Examples in this story were intentionally over-simplified, so that you could focus on ideas of deployment & environments itself. 
-
-For real cases, the config will be much longer
-
-Take a look at some examples:
-- Demo deploy to docker-cloud
-- Elixir stuff deployment
-- more examples??
-
-
-Заливка на s3 в разные бакеты - это конечно эмуляция. В реальной жизни надо гасить такие инстансы через полчаса. И скорее всего вы не захотите поднимать инстанс на каждую ветку. Может быть нарулено вот так например: В чате задается команда, и поднимается сервак.
-
-- Review apps в будущем релизе GitLab.
-
+Whenever you feel safe to deploy, go to **Pipelines→Builds**, and click the button:
+![Skipped job is available for manual launch](#)(/images/blogimages/ci-deployment-and-environments/skipped.png){: .shadow}
