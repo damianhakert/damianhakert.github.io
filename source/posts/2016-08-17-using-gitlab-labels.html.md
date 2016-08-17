@@ -88,7 +88,7 @@ Now I can direct my attention to only those items that need it.
 
 ----
 
-This post was [originally published][post] by Brian O'Connor himself.
+This post was [originally published][post] by Brian O'Connell himself.
 {: .note}
 
 <!-- 
