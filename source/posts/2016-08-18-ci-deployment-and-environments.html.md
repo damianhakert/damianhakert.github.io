@@ -58,7 +58,7 @@ deploy:
 
 No luck: 
 
-![Failed command](#)(/images/blogimages/ci-deployment-and-environments/fail1.png){: .shadow}
+![Failed command](/images/blogimages/ci-deployment-and-environments/fail1.png){: .shadow}
 
 It is our job to ensure that there is an `aws` executable. Let’s specify image with preinstalled python and install `awscli` using `pip`:  
 
@@ -92,7 +92,7 @@ It should work, however keeping secret keys open, even in a private repository, 
 
 There is a special place for secret variables: **Settings → Variables**
 
-![Picture of Variables page](#)(/images/blogimages/ci-deployment-and-environments/variables.png){: .shadow}
+![Picture of Variables page](/images/blogimages/ci-deployment-and-environments/variables.png){: .shadow}
 
 Whatever you put there will be turned into environment variables. 
 
@@ -117,7 +117,7 @@ deploy:
 
 So far so good:
 
-![Successful build](#)(/images/blogimages/ci-deployment-and-environments/build.png){: .shadow}
+![Successful build](/images/blogimages/ci-deployment-and-environments/build.png){: .shadow}
 
 But the audience of your website grows, so you hired one more guy to help you. Team growth should definitely affect the workflow.
 
@@ -180,15 +180,15 @@ It is a [straightforward process](http://docs.gitlab.com/ce/project_services/sla
 
 The whole idea is to take Incoming WebHook URL from Slack... 
 
-![Grabbing Incoming WebHook URL in Slack](#)(/images/blogimages/ci-deployment-and-environments/incoming-webhook.png){: .shadow}
+![Grabbing Incoming WebHook URL in Slack](/images/blogimages/ci-deployment-and-environments/incoming-webhook.png){: .shadow}
 
 ...and put it into **Settings → Services → Slack** together with your Slack nickname:
 
-![Configuring Slack Service in GitLab](#)(/images/blogimages/ci-deployment-and-environments/services-slack.png){: .shadow}
+![Configuring Slack Service in GitLab](/images/blogimages/ci-deployment-and-environments/services-slack.png){: .shadow}
 
 We only care about deploy, so uncheck all the checkboxes, except “Build” in the settings above. That’s it. Now you’re notified of every deployment:
 
-![Deployment notifications in Slack](#)(/images/blogimages/ci-deployment-and-environments/slack.png){: .shadow}
+![Deployment notifications in Slack](/images/blogimages/ci-deployment-and-environments/slack.png){: .shadow}
 
 
 ## Environments
@@ -227,11 +227,11 @@ pages:
 
 Now GitLab keeps track of what is deployed where:
 
-![List of environments](#)(/images/blogimages/ci-deployment-and-environments/environments.png){: .shadow}
+![List of environments](/images/blogimages/ci-deployment-and-environments/environments.png){: .shadow}
 
 Also you can see whole history of your deployments per each environment:
 
-![List of deployments to staging environment](#)(/images/blogimages/ci-deployment-and-environments/staging.png){: .shadow}
+![List of deployments to staging environment](/images/blogimages/ci-deployment-and-environments/staging.png){: .shadow}
 
 Now when everything is automated and set up, we’re ready for new challenges business might have for us.
 
@@ -265,7 +265,7 @@ Shit happens! And it happened to your website. One junior overlooked bug and pus
 
 Luckily, someone found Rollback button, and deployed the previous version, so the website was fixed a minute after the problem have been discovered.
 
-![List of environments](#)(/images/blogimages/ci-deployment-and-environments/rollback-arrow.png){: .shadow}
+![List of environments](/images/blogimages/ci-deployment-and-environments/rollback-arrow.png){: .shadow}
 
 Rollback just relaunches the same job with the same commit.
 
@@ -273,4 +273,4 @@ Anyhow, you need to react to the problem. So you decide to turn off auto deploy 
 
 Whenever you feel safe to deploy, go to **Pipelines→Builds**, and click the button:
 
-![Skipped job is available for manual launch](#)(/images/blogimages/ci-deployment-and-environments/skipped.png){: .shadow}
+![Skipped job is available for manual launch](/images/blogimages/ci-deployment-and-environments/skipped.png){: .shadow}
