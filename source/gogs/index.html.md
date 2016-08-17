@@ -12,8 +12,8 @@ extra_css:
 
 - [What is Gogs?](#what-is-gogs?)
 - [GitLab's Support of Gogs](#gitlab's-support-of-gogs)
-- [Features Shared with Gogs & GitLab](#shared-features)
-- [Gogs advantages](#gogs-advantages)
+- [Shared Features](#shared-features)
+- [Gogs Advantages](#gogs-advantages)
 - [GitLab Feature Overview](#gitlab-advantages)
 
 ## What is Gogs?
