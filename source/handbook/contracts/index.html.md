@@ -41,7 +41,7 @@ addresses, etc. (fields are named the same in the contracts / PIAA to make this 
 
 The following contracts are in Google docs that are viewable by anyone with the link.
 
-- [GitLab Inc., employee offer letter with PIAA](https://docs.google.com/document/d/1URzYApx6SzjqDq4kv6pvvlZAgtF1xNAbl04vMQo1J_s/edit#)
+- [GitLab Inc., employee offer letter with PIAA](https://docs.google.com/document/d/1-55l7O7L2BOMzFBsHLKheJW4v_1HfU-SiAKxSOlk9cQ/edit)
 - [GitLab Inc., contractor agreement with PIAA](https://docs.google.com/document/d/1TJXiS8LLwyFZSUH2eKj3Y24TYoqDEnLV7b9WFXfnPs8/edit)
 - [GitLab BV, employment contract with IP and NDA agreements](https://docs.google.com/document/d/1aWeNkw0J5O-BOBZXi8U0LUDEnjcvuWWiQXHVy-f_Pz0/edit#)
 - [GitLab BV, contractor agreement with IP and NDA agreements](https://docs.google.com/document/d/1jlzCpJqHx_pY0yFKf7FrAB8pBUc6tazqv5TA9MhK3-g/edit#)
