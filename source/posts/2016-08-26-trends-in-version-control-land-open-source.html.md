@@ -9,7 +9,7 @@ twitter_image: '/images/tweets/trends-in-version-control-land-open-source.png'
 
 Earlier in this series we talked about how [innersourcing][post-1] could
 be the solution to common enterprise challenges, the benefits of
-[releasing early and often][post-2], and the incredible efficiency of
+[releasing early and often][post-2], and the efficiency of
 [microservice architecture][post-3]. In this final post, I’d like to
 share my thoughts on the exciting trend we see with open source practices
 expanding across a variety of industries.
@@ -42,11 +42,11 @@ likely to become open source, as is software that’s very popular within a
 particular sector. More and more, enterprise infrastructure is becoming open
 source, including networking programs, security scanning, ERP, etc.
 
-**2. If a lot of international companies use it, open source makes even more sense.**
+**2. If a lot of companies use it, open source makes even more sense.**
 {: .alert .alert-info}
 
 When there’s a software solution that can serve a lot of different needs,
-and thus is adopted by a lot of different companies internationally, then
+and thus is adopted by a lot of different companies, then
 it will likely become open source. The same rule applies as above
 (more users = shortcut to improvement), but broad international use
 intensifies this effect, where having a strong reputation among developers
@@ -66,11 +66,10 @@ makers are likely to include those who understand the value of open
 source, making it a faster leap.
 
 Really, the only software that is likely to stay proprietary is something
-that is used by very small or specific groups, and where data security has
-to be handled in a particular way. This includes verticals like oil and
-gas or healthcare. Although, even in healthcare open source is happening — it’s
+that is used by very small or specific groups. This includes verticals like oil and
+gas or healthcare. Although, even in [healthcare open source is happening](https://en.wikipedia.org/wiki/List_of_open-source_health_software) — it’s
 just happening more slowly, and it may not affect everyone.
- 
+
 Have you spotted a version control trend that you want to share or that
 you’d like us to write about? Let us know! Comment or tweet at us [@GitLab].
 
