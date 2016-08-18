@@ -105,7 +105,7 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 1. New Business - This type should be used for any new account (business) who signs up. Paid training also falls under this type if the organization does not have an enterprise license.
 1. Web Direct -  This type should be used for any new business who pays directly online
 1. Add-on - This type should be used for any incremental/upsell business sold into an existing account and division mid term, meaning not at renewal.
-1. Exisiting Account (new divsion) - This type should be used for new business sold into an existing account but a new division, a new puchasing group.
+1. Existing Account (new division) - This type should be used for new business sold into an existing account but a new division, a new puchasing group.
 1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased or stay the same.  We capture growth/loss as a field in Salesforce.com
 
 ### Opportunity Stages <a name="stages"></a>
