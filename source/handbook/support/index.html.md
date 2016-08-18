@@ -127,6 +127,13 @@ the [automation in ZenDesk](https://gitlab.zendesk.com/agent/admin/automations/e
 Within ZenDesk, currently we do _not_ have an SLA assigned (and no automated warnings)
 to any tickets from channels in category 3 and 4, but we do track response times.
 
+#### SLA Workflow
+
+Service Engineers can work on any ticket they feel they can contribute to. When 
+a ticket is breaching or has breached it's SLA this ticket must be picked up by 
+a Service Engineer independently of who is assigned to it. This also applies to 
+tickets for Premium Customers.
+
 ## Support Channels <a name="support-channels"></a>
 
 Our [service engineers](/jobs/service-engineer) handle the channels listed below.
@@ -378,6 +385,8 @@ emailing us. When a new issue is created here, a ticket is created in ZenDesk, s
 the case.
 - [GitLab CE](https://gitlab.com/gitlab-org/gitlab-ce/issues)
 - [Omnibus](https://gitlab.com/gitlab-org/omnibus-gitlab/issues)
+
+See [the issue triage policies](/handbook/engineering/issues/issue-triage-policies.html) for the above trackers for more information on how issues should be handled.
 
 ### Mailing list<a name="mailing-list"></a>
 
