@@ -112,5 +112,6 @@ $(function() {
     $(this).parent().addClass('is-focused');
   }).on('blur', function () {
     $(this).parent().removeClass('is-focused');
-  });;
+  });
+
 });
