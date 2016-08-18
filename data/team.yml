@@ -1392,16 +1392,20 @@
   story:  |
           With a deep passion for design, a love for beautiful typography, and an incredible enthusiasm for the open source community, Dimitrie strives to create elegant interfaces that delight the user. He has a background in 3D and an endless technical curiosity for new tools and software. When he's not working or online, he enjoys being with his friends and family, swimming, reading fantasy novels, and playing board games or guitar.
 
-- name: F.A.
-  locality:
-  country:
+- name: Francis Aquino
+  locality: New York, NY    
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/director-sales-operations/">Director Sales Operations</a>
   reports_to: CRO
   picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  twitter: N/A
+  gitlab: superfrank316
   story:  |
-          Joining August 15th
+          Francis has years of experience building out sales processes for SaaS companies
+          of all shapes and sizes. Asides from optimzing workflows and eliminating inefficiencies,
+          he enjoys the occassional music concert, destroying his opponents in table tennis, and playing
+          "Dust in the Wind" on his acoustic guitar ("You're my boy, Blue!!"). His pet peeves include inefficienct processes,
+          slow walkers, and people who continuously press the call button believing the elevator will arrive sooner.
 
 - name: Kris Touzel
   locality: Myrtle Beach, SC
