@@ -1,25 +1,39 @@
 ---
 title: "GitLab 8.11 released with MAIN_CE_FEATURE and MAIN_EE_FEATURE"
 categories:
-author: ADD_YOUR_FULL_NAME
-author_twitter: TWITTER_USERNAME
+author: Job van der Voort
+author_twitter: Jobvo
 image_title: /images/7_X/PICTURE.PNG
 ---
-
-Intro and introduce main features here.
 
 This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
 Thanks ***MVP_USER_FIRST_NAME***!
 
 <!--more-->
 
-## feature 1
+## Issue Boards
 
 > [Documentation link](link)
 
-## feature 2
+## Merge Conflict Resolution
 
 > [Documentation link](link)
+
+## (EE) Branch Permissions for Groups and People
+
+## Resolve Discussions in MRs
+
+## Visual Pipelines
+
+## Issue Templates
+
+## Koding Integration
+
+## Pipelines everywhere
+
+## New MR link when pushing
+
+## Performance improvements
 
 ## Other changes
 
@@ -28,10 +42,20 @@ This release has more improvements, including security fixes. Please check out [
 
 ## Upgrade barometer
 
+### (EE Only) Elasticsearch reindexing
 
-*** DESCRIBE HOW INVOLVED THE MIGRATIONS ARE. CAN USERS EXPECT MUCH DOWNTIME? ***
-*** CHECK IF THERE ARE ANY MIGRATIONS THAT REMOVE OR CHANGE COLUMNS. ***
-*** IF THERE ARE ONLY ADDITIONS OR NO MIGRATIONS CONFIRM THAT DEPLOY CAN BE WITHOUT DOWNTIME ****
+We changed the structure of Elasticsearch indexes, making use of parent/child
+relationships. This has performance advantages, but requires a total rebuild
+of the ES index. After upgrading to GitLab 8.11, you will need to remove the
+old indexes and rebuild new indexes:
+
+To remove the old indexes, call to Elasticsearch:
+
+```
+curl -XDELETE 'http://localhost:9200/_all/'
+```
+
+Then rebuild new indexes as described in [Elasticsearch integration](../integration/elasticsearch.md#add-gitlabs-data-to-the-elasticsearch-index)
 
 
 *Note* We assume you are upgrading from the latest version. If not, then also consult the upgrade barometers of any intermediate versions you are skipping.
