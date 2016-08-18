@@ -23,8 +23,13 @@ and for text editing on your iOS device.
 
 In this tutorial, we'll post to a [Hugo][4]-based site (though it'll work with
 [any SSG that you use with GitLab Pages][pageshowto]) using [Working Copy][5] to
-handle Git operations and [Editorial][6] for text-editing. There are more options
-available; you can explore some of them on the [GitLab Community Applications page][7].
+handle Git operations and [Editorial][6] for text-editing.
+
+Note that these apps aren't free. Working Copy requires an in-app purchase to be
+enable pushing to a remote repository, and Editorial costs a small amount. Of course,
+there are other options available (you can explore some of them on the
+[GitLab Community Applications page][7]), but these are the apps we'll be using
+to describe the process in this tutorial.
 
 ## Concept
 
