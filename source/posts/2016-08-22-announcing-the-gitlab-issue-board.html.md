@@ -171,7 +171,7 @@ filtering and sorting abilities you see across the rest of the product.
 
 <i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> To
 see the GitLab Issue Board in action, take a look at GitLab Developer Advocates
-([Amanda] and [Ivan])’s screencast below. <!-- ADD LINK TO TWITTER -->
+([Amanda] and [Ivan])’s screencast below.
 
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/UWsJ8tkHAa8" frameborder="0" allowfullscreen="true"> </iframe>
