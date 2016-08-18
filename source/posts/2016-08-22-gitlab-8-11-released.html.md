@@ -56,7 +56,6 @@ those simpler conflicts less of a headache.
 ## (EE) Branch Permissions for Groups and People
 
 
-
 ## Resolve Discussions in MRs
 
 Discussions on diffs in merge requests can be hard to keep track off, yet
@@ -96,11 +95,28 @@ a new issue or merge request:
 
 ## Koding Integration
 
-## Pipelines everywhere
+## Pipelines in MRs
 
-## New MR link when pushing
+You will now see your Pipelines in merge requests:
+
+![]()
+
+
+## MR links when pushing
+
+You'll now see a link to quickly create a new merge request and
+any related merge requests when you push to GitLab.
+
+![Merge request links when pushing in GitLab 8.11](/images/8_11/mr_link.png)
 
 ## Move projects between shards
+
+With GitLab 8.10 we [introduced][mount-points] multiple mount points in GitLab.
+
+With GitLab 8.11 you can move projects between shards with a rake command.
+This is not something for everyday use, but convenient if you want to test
+a new shard or want to move that super-heavily used project over to faster
+storage.
 
 ### Improvements
 
