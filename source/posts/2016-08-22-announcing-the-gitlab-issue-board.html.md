@@ -141,11 +141,11 @@ can drag and drop the lists to organize your Board according to your own workflo
 <i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> When
 you move issues between lists, the label on the issue is automatically updated.
 
-![drag and drop issue](/images/blogimages/announcing-the-gitlab-issue-board/gif-drag-and-drop.gif){: .shadow .center}
-
 <i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> This
 new label is displayed in the Issue Tracker as well as on the issue itself. So, even if someone on
 your team isn’t checking the Issue Board, they’ll still have a record of what step an issue is on.
+
+![drag and drop issue](/images/blogimages/announcing-the-gitlab-issue-board/gif-drag-and-drop.gif){: .shadow .center}
 
 <i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> If
 you drag and drop the card to the list **Done**, the issue will be automatically closed.
