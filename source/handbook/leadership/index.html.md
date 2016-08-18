@@ -22,7 +22,7 @@ title: Leadership
 - As soon as you know you'll have to let someone go, do it immediately. The team member is entitled to knowing where they stand. Delaying it for days or weeks causes problems with confidentiality (find out that they will be let go), causation (attributing it to another reason), and escalation (the working relation is probably going downhill).
 - When someone says they are considering to quit drop everything and listen to them by asking questions to find out what their concerns are. If you delay the person will not feel valued and the decision will be irreversible.
 - People should not be raised or given a title because they ask for it or threaten to quit. We should proactively raise and promote people without people asking. If you do it when people ask you are disadvantaging people that don't ask and you'll end up with many more people asking.
-- Don't refer to team members [as family](https://hbr.org/2014/06/your-company-is-not-a-family). It is great that our team feels like a close nit group and we should encourage that. But families don't have an an [offboarding process](https://about.gitlab.com/handbook/offboarding/).
+- Don't refer to team members [as family](https://hbr.org/2014/06/your-company-is-not-a-family). It is great that our team feels like a close-knit group and we should encourage that. But families don't have an an [offboarding process](https://about.gitlab.com/handbook/offboarding/).
 
 ## Articles
 
