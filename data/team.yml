@@ -348,20 +348,6 @@
          performance of GitLab. He's also an avid practitioner of Krav Maga, a
          tea connoisseur, and a cat enthusiast.
 
-- name: Kelvin Mutuma
-  locality: Nairobi
-  country: Kenya
-  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: Support Lead
-  picture:  kelvin_mutuma.jpg
-  twitter:  kelvinmutuma
-  gitlab: kelvinmutuma
-  maintains:  |
-                <li>Maintainer of <a href="https://forum.gitlab.com/">forum-gitlab-com</a></li>
-                <li>Maintainer of GitLab Mentions</li>
-  story:  |
-          Before joining GitLab, Kelvin was a developer and system's engineer for a Kenyan Financial Services platform, Abacus. He is passionate about playing chess, video games, watching sci-fi movies, reading novels and watching soccer.
-
 - name: Gabriel Mazetto
   locality: Florianópolis
   country: Brazil
@@ -950,10 +936,12 @@
 - name: Mark Fletcher
   locality: Edinburgh
   country: Scotland
-  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: Support Lead
+  role: Developer
+  reports_to: VP of Engineering
   picture: logo-extra-whitespace.png
   gitlab: markglenfletcher
+  maintains:  |
+              <a href="https://about.gitlab.com/jobs/specialist/issue-triage/"><li>Issue triage specialist</li></a>
   picture: mark.jpg
   story:  |
           Mark's experience within the technology sector has been varied, including various Web Development and Technical Support roles.
@@ -1360,16 +1348,16 @@
           interest in development and design. When he's not coding or playing
           with his daughter, he enjoys training for triathlon.
 
-- name: J.P
-  locality:
-  country:
+- name: Joan Parrow
+  locality: Pennsylvania 
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/senior-director-of-people-operations/">Senior Director of People Operations</a>
   reports_to: CEO
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: JoanP.JPG
+  twitter: joan_gitlab
+  gitlab: jparrow
   story:  |
-          Joining August 1st
+          With 20+ years background in Human Resources, Joan brings a comprehensive toolkit to her new role leading People Operations for GitLab. You'll see the twinkle in Joan's eye most bright when working on the design and implementation of new ideas, process improvements and better resources for the organization.  When not at work, you'll most likely find Joan playing 8 ball or 9 ball for the local APA league, riding "navigator" on her husband's custom Harley Davidson or spending time with her family.   
 
 - name: Arihant Godha
   locality: Mumbai
@@ -1382,16 +1370,16 @@
   story:  |
           Arihant is passionate about automating the boring parts of work life and likes to write small and useful ruby scripts. He loves interacting with people and solving problems. He also enjoys playing with his kid and likes social outings.
 
-- name: J.C
-  locality:
-  country:
+- name: Jennifer "JJ" Cordz
+  locality: Spokane, WA
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/marketing-operations-manager/">Marketing Operations Manager</a>
   reports_to: Director of Demand Generation
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: jennifer.jpg
+  twitter: JJCordz
+  gitlab: jjcordz
   story:  |
-          Joining August 1st
+          Based in the beautiful Pacific Northwest, JJ is passionate about marketing, digital technology and analytics. Prior to joining GitLab, JJ worked as a freelancer doing web development and digital marketing. When not working she enjoys traveling, being outdoors at the beach, hiking or skiing in the winter, spending time with her son and playing sports. 
 
 - name: Dimitrie Hoekstra
   locality: Breda
@@ -1448,11 +1436,22 @@
   story:  |
           Joining August 22nd
 
+- name: M.G.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 22nd
+
 - name: A.M.
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/people-ops-generalist/">People Operations Generalist</a>
-  reports_to: VP of Scaling
+  reports_to: Senior Director of People Operations
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:

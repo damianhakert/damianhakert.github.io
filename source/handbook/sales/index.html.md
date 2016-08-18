@@ -105,7 +105,7 @@ follow the workflow described on the [Support handbook](https://about.gitlab.com
 1. New Business - This type should be used for any new account (business) who signs up. Paid training also falls under this type if the organization does not have an enterprise license.
 1. Web Direct -  This type should be used for any new business who pays directly online
 1. Add-on - This type should be used for any incremental/upsell business sold into an existing account and division mid term, meaning not at renewal.
-1. Exisiting Account (new divsion) - This type should be used for new business sold into an existing account but a new division, a new puchasing group.
+1. Existing Account (new division) - This type should be used for new business sold into an existing account but a new division, a new puchasing group.
 1. Renewal - This type should be used for an existing account renewing their license with GitLab.  Renewals can have their value increased, decreased or stay the same.  We capture growth/loss as a field in Salesforce.com
 
 ### Opportunity Stages <a name="stages"></a>
@@ -341,9 +341,9 @@ When in doubt please consult the reseller team.
 In order to close a deal in Salesforce.com, one of the following must happen:
 
 1. Client paid via Credit Card through the web portal (terms are agreed upon sign up)
-  * Renewals for clients who made their purchase via the web portal; therefore agreed to terms of service, a signd quote is not necessary to close the opportunity.  Just need to make sure an invoice (Credit Card) was charged.   
+  * Renewals for clients who made their purchase via the web portal; they have agreed to terms of service, therefore a signed quote is not necessary to close the opportunity.  Just need to make sure an invoice (Credit Card) was charged.   
 1. Prospect has returned a signed quote (attach to the opportunity). Quote required for all purchases not made via web portal in order to confirm products purchased, # of seats, term and pricing.  Quote is also needed to confirm they agree to terms and conditions.  
-  * If a PO is received, we need to received a signed quote showing the products, # of users, term and pricing of the subscription.  The acceptance of terms language can be removed but click-thru EULA needs to be checked when sending out the license key.
+  * If a PO is received, we need to receive a signed quote showing the products, # of users, term and pricing of the subscription.  The acceptance of terms language can be removed but click-thru EULA needs to be checked when sending out the license key.
 
 Once the above has happened, please make sure the following actions are done:
 
