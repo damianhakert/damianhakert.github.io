@@ -936,10 +936,12 @@
 - name: Mark Fletcher
   locality: Edinburgh
   country: Scotland
-  role: <a href="https://about.gitlab.com/jobs/service-engineer/">Service Engineer</a>
-  reports_to: Support Lead
+  role: Developer
+  reports_to: VP of Engineering
   picture: logo-extra-whitespace.png
   gitlab: markglenfletcher
+  maintains:  |
+              <a href="https://about.gitlab.com/jobs/specialist/issue-triage/"><li>Issue triage specialist</li></a>
   picture: mark.jpg
   story:  |
           Mark's experience within the technology sector has been varied, including various Web Development and Technical Support roles.
