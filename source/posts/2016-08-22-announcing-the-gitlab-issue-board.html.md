@@ -9,12 +9,10 @@ twitter_image: '/images/tweets/announcing-the-gitlab-issue-board.png'
 date: 2016-08-22 15:00
 ---
 
-Software is taking over the world. Development best practices are quickly
-rising as a competitive advantage amongst teams. Who will be first to market?
-Which product will have the fewest bugs? Which development team will be able
-to release, gather feedback, and rapidly iterate towards a better product?
-The team that solves these questions through planning and good process will
-deliver quality software.
+Software is eating the world. Reducing the time between having an idea and having the code in production 
+is a great competitive advantage. Planning what to do next is an essential part of that process. Today we 
+introduce our Issue Board that will make it faster to plan issues. It is an integrated part of GitLab, ensuring 
+you don't have to switch tools to get things done.
 
 <!-- more -->
 
@@ -206,7 +204,7 @@ great features in GitLab 8.11. [Register here][webcast].
 [issue]: https://about.gitlab.com/2016/03/03/start-with-an-issue/
 [koding]: https://about.gitlab.com/2016/07/26/koding-and-gitlab-integrated/
 [mattermost]: https://about.gitlab.com/2015/08/18/gitlab-loves-mattermost/
-[webcast]: # <!-- LINK TO BE UPDATED -->
+[webcast]: https://page.gitlab.com/AugustWebcast_LandingPage.html
 
 <style>
   .blue {
