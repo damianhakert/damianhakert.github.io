@@ -1382,16 +1382,16 @@
   story:  |
           Arihant is passionate about automating the boring parts of work life and likes to write small and useful ruby scripts. He loves interacting with people and solving problems. He also enjoys playing with his kid and likes social outings.
 
-- name: J.C
-  locality:
-  country:
+- name: Jennifer "JJ" Cordz
+  locality: Spokane, WA
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/marketing-operations-manager/">Marketing Operations Manager</a>
   reports_to: Director of Demand Generation
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: jennifer.jpg
+  twitter: JJCordz
+  gitlab: jjcordz
   story:  |
-          Joining August 1st
+          Based in the beautiful Pacific Northwest, JJ is passionate about marketing, digital technology and analytics. Prior to joining GitLab, JJ worked as a freelancer doing web development and digital marketing. When not working she enjoys traveling, being outdoors at the beach, hiking or skiing in the winter, spending time with her son and playing sports. 
 
 - name: Dimitrie Hoekstra
   locality: Breda
