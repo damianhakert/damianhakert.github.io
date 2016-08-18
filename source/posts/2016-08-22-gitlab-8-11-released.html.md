@@ -6,8 +6,8 @@ author_twitter: Jobvo
 image_title: /images/7_X/PICTURE.PNG
 ---
 
-This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is ***MVP_USER*** ***CONTRIBUTION_OF_MVP_USER***.
-Thanks ***MVP_USER_FIRST_NAME***!
+This month's Most Valuable Person ([MVP](https://about.gitlab.com/mvp/)) is Clement Ho for his various merge requests and responsiveness on issues.
+Thanks Clement Ho!
 
 <!--more-->
 
