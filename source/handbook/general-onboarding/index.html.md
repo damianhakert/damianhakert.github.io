@@ -32,7 +32,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
 ```
 ### BEFORE STARTING AT GITLAB
 
-1. [ ] People Ops: Once the contract is signed, as soon as possible, create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master checklist, paste the private email address of the hire in there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @brittany.
+1. [ ] People Ops: Once the contract is signed, as soon as possible, create issue called 'Onboarding (NAME), starting (DATE), as (ROLE)' in [organization](https://dev.gitlab.org/gitlab/organization/issues) with relevant lines of the master checklist, paste the private email address of the hire in there and /cc @rspeicher, @jacobvosmaer, @patricio, @ernst, @brittany, @joan.
 1. [ ] Hiring manager is (FILL IN WITH @ HANDLE), buddy is (FILL IN WITH @HANDLE (Nominate someone preferably in similar timezone but different functional group)), and People Ops is tackled by (FILL IN WITH @ HANDLE).
 1. [ ] People Ops: Send an email to the chosen buddy letting them know that they have been chosen and include a link to the onboarding issue.
 1. [ ] Google account
@@ -49,7 +49,7 @@ The topics are ordered by priority in which they need to be tackled, and the mai
    1. [ ] New team member: provide scan of photo ID to People Ops (used for verification and business travel purposes)
    1. [ ] People Ops: Move the applicant to the "Hired" bucket in Workable, this automagically creates their profile in BambooHR. Make sure that all compensation information is visible to the hiring manager only in Workable. Find the profile on BambooHR and enable "self-service".
    1. [ ] People Ops: In BambooHR, input relevant data (title, dates, contract type, compensation) into the team members profile tabs "Job". Be sure to add the personal and work email address before saving the newly entered information.
-   1. [ ] People Ops: file signed contract with PIAA or NDA+IP agreements in BambooHR profile under "Documents"-->"Signed Contract/Offer Letter". Set the uploaded documents to "shared" so that the team member can also view them. For GitLab Inc. contractor agreements, also file the W9. If the contract has any exceptions to the IP agreement, check the applicable box under the Jobs tab. 
+   1. [ ] People Ops: file signed contract with PIAA or NDA+IP agreements in BambooHR profile under "Documents"-->"Signed Contract/Offer Letter". Set the uploaded documents to "shared" so that the team member can also view them. For GitLab Inc. contractor agreements, also file the W9. If the contract has any exceptions to the IP agreement, check the applicable box under the Jobs tab.
    1. [ ] People Ops: file photo ID in BambooHR profile under "Documents"--> "Verification Docs"
    1. [ ] People Ops: list any stock options that were part of the offer in BambooHR profile under "Benefits"--> "Stock Options"
 1. [ ] New team member: read [Handbooks](https://about.gitlab.com/handbook/), read the relevant onboarding pages that are linked from there, and become comfortable with Git and the GitLab workflow.
@@ -137,9 +137,10 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] People Ops: Order [business cards](https://about.gitlab.com/handbook/people-operations/#b-cards) for new team member.
 1. [ ] People Ops: [Add team member](https://about.gitlab.com/handbook/people-operations/#add-expensify) to Expensify (if employee).
 1. [ ] People Ops: Add new team member to the info sheets of the next Summit if applies.
+1. [ ] Hiring Manager: Invite new team member to the recurring weekly team-meeting.
 1. [ ] New team member: Check if there is a coming [Summit](https://gitlab.com/summits/) and save the date!
 1. [ ] People Ops: [Create a profile](https://about.gitlab.com/handbook/people-operations/#add-egencia) on [Egencia](https://about.gitlab.com/handbook/travel/) for new team member.
-1. [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know your team.
+1. [ ] New team member: schedule 10 calls of 30 mins with 10 different colleagues to get to know your team. You can also schedule more calls, or ask for help on the #questions channel in slack.
    1. [ ] call with ___
    1. [ ] call with ___
    1. [ ] call with ___
@@ -157,6 +158,9 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] New team member: I verify that the home folder of my hard drive is encrypted (see the [security handbook](https://about.gitlab.com/handbook/security) for help).
 1. [ ] New team member: Comment with a screenshot verifying that your hard drive is encrypted (`Command` + `Shift` + `3` on Mac).
 1. [ ] New team member: Make an improvement to the handbook (something that you wished was there), assign the merge request (MR) to your manager and link the MR url in this onboarding issue.
+1. [ ] Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
+1. [ ] Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
+1. [ ] Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/) where you can [download](https://tools.google.com/dlpage/drive/index.html?hl=en) to work offline. Be aware your google calendar (tied to your GitLab account) is internally viewable by default, you might want to [change this](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en) in your calendar settings.
 
 
 ### FOR ENGINEERING ONLY (Devs, PEs, SEs)
@@ -196,6 +200,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 1. [ ] People Ops: provide [SketchApp](http://www.sketchapp.com/) license by [ordering online](https://sites.fastspring.com/bohemian/order/contents), and forwarding the email with the license key to the new team member.
 1. [ ] People Ops: (for Designers only, not UX Designers) provide access to [Adobe Creative Cloud](https://www.adobe.com/creativecloud.html) using the shared credential in the Secretarial vault. If a UX Designer feels that they need CC Photoshop and/or CC Illustrator they can request it.
 1. [ ] Hiring Manager: (for UX Designers) Give new team member Master access to the gitlab-design project.
+1. [ ] Hiring Manager: (for UX Designers) Add new team member to the GitLab Dribbble Organization.
 
 ### FOR MARKETING ONLY
 
@@ -238,18 +243,8 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
 ### General
 <a name="general"></a>
 
-* The first month at a remote first company is hard, especially if you have not worked remote before and/or if you're unfamiliar with the tools used (mainly GitLab, chat, and video calling). If you feel lonely feel free to schedule 1 on 1 video calls to get to know people. If you need help with the tools ask people for help. If you don't know who to ask for help use the #questions chat channel. If you're not happy please let your manager know so we can take action.
-* We've set up a monthly GitLab 101 call to explain our history and have some time for Q&A.
-* We use [Slack](https://gitlab.slack.com/messages/general/), [Google Docs](https://www.google.com/docs/about/) and [dev.gitlab.org](https://dev.gitlab.org) to communicate.
-* You will automatically have access to general channels on Slack. Your manager and other team members will invite you to the channels you need to you be in to do your job.
 * Check out our [about page](https://about.gitlab.com/about/), [How we use GitLab to build GitLab](https://about.gitlab.com/2015/07/07/how-we-use-gitlab-to-build-gitlab/).
-* Follow the Git and GitLab course on [Platzi](https://courses.platzi.com/courses/git-gitlab/)
-* Become familiar with how GitLab works by learning our [GitLab Basics](http://doc.gitlab.com/ce/gitlab-basics/README.html)
 * If you need any help with Git itself, subscribe to the `#git-help` channel on Slack and feel free to ask any question you might have.
-* Read our [Team Handbook](https://about.gitlab.com/handbook/)
-* Set-up and familiarize yourself with our apps: [Gmail](https://mail.google.com/), [Google Calendar](https://www.google.com/calendar/), [Slack](https://gitlab.slack.com/messages/general/) and [Google Drive](https://www.google.com/drive/)
-* Be aware your google calendar (tied to your GitLab account) is internally viewable by default, you might want to [change this](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en) in your calendar settings.
-* You can [download](https://tools.google.com/dlpage/drive/index.html?hl=en) Google Drive for your computer to access offline
 * You should have been provided access to our [Internal GitLab Server](https://dev.gitlab.org). Take a moment to familiarize yourself with:
   1. The Dashboard
   1. The Projects
@@ -258,8 +253,6 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
   1. [GitLab Enterprise Edition](https://dev.gitlab.org/gitlab/gitlab-ee)
   1. [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq)
   1. [GitLab www-gitlab-com](https://dev.gitlab.org/gitlab/www-gitlab-com)
-* Create an account on our external / public [GitLab Server](https://gitlab.com) and have your manager grant access to the GitLab Enterprise Edition Project, Standard Subscribers Group and other projects / groups relevant to your role
-* Review our [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) for daily call
 * Become familiar with [GitLab's Website](https://about.gitlab.com) and the following links:
   1. [Documentation](https://about.gitlab.com/documentation/)
   1. [EE Pricing](https://about.gitlab.com/pricing/)
@@ -309,7 +302,7 @@ the following format: `yourname.jpg` or `yourname.png` and then follow the
    - Ensure the picture size is around 400x400 (it must be square) and the format is JPEG or PNG. You can resize your picture using a photo editor like [GIMP](http://www.gimp.org/) (cross-platform) or online by searching for "image resize".
    - Any picture that you provide will be made black-and-white automatically after you add it. Note that your team page picture should be added to `www-gitlab-com/source/images/team/NAME-OF-PERSON-IN-LOWERCASE.jpg`.
 1. [Create a Merge Request](http://doc.gitlab.com/ce/gitlab-basics/add-merge-request.html) in [GitLab.com](https://gitlab.com/) with the branch that you created with your picture.
-1. In [GitLab.com](https://gitlab.com/), on the left side of your screen, click on "Files".
+1. In [GitLab.com](https://gitlab.com/), click on "Files".
 1. Find the dropdown menu at the top of your screen and find the branch
 that you previously created to add your picture (they are in alphabetical
 order). If you don't have a branch yet, follow the steps to [create a new
@@ -319,59 +312,11 @@ branch](http://doc.gitlab.com/ce/gitlab-basics/create-branch.html).
 pulled from a data file. You can find it by clicking on each of the following items: `data/` and then `team.yml`.
 1. When you are in `team.yml`, click on “edit” on the top right side of
 your screen.
-1. Your information should be added after the last person on the team page.
-You need to copy and paste the following format and fill in your own
-information:
-
-```
-- name: Linus Torvalds
-  role: developer
-  picture: picture_linus.jpg
-  twitter: Linus_Torvalds
-  gitlab: linustorvalds
-  story:  |
-          Linus was the principal force behind the development of the Linux
-          kernel that became the most popular kernel for operating systems.
-          He later became the chief architect of the Linux kernel and now
-          acts as the project's coordinator. He also created the
-          distributed revision control system git. He joined when it was
-          created.
-```
+1. Your information should already be added after the last person on the team page. Update the initials to be your `Firstname 'Nickname' Lastname`. Verify that your title is entered correctly. Add the file name of the picture that you uploaded previously. Enter your twitter and gitlab handle. Write a story about yourself.
 Don't forget to use other team members' information as a reference and to
-respect the spaces between lines. If you have a nickname, write it as `Firstname 'Nickname' Lastname`. Please don't use "tab" because it will break the page format.
+respect the spaces between lines. Please don't use "tab" because it will break the page format.
 1. After you added your information, add a comment to your commit and click on “Commit Changes”.
 1. Go to the Merge Request that you previously created with the branch that you are using and assign it to your manager for review.
-
-### GitLab Instances
-<a name="gitlab-instances"></a>
-
-We have two GitLab instances that we use primarily, namely the 'dev' server and the free SaaS of GitLab at GitLab.com.
-
-#### dev.gitlab.org
-
-* This server is only accessible to people from GitLab the company.
-* This is the instance we use for customers development.
-* In addition, all our internal (company) issues are found here as well.
-* This server is updated from master every night, so we quickly see if we broke something.
-* Often referred to as `dev`.
-
-#### GitLab.com
-
-* This is the SaaS of GitLab. Everyone can host their repository for free here and
-this is where the majority of open source contributions come in. Unless there's
-a good reason not to (customer information disclosure, undisclosed security
-issues, etc.), do your development and submit your merge requests here [in the open](https://about.gitlab.com/2015/08/03/almost-everything-we-do-is-now-open/).
-
-#### Other instances
-
-Many developers set up their own private GitLab instance somewhere, for instance
-to test and work with LDAP or Active Directory, to give demos, or for various
-other reasons.
-
-### Security
-<a name="security"></a>
-
-See the [security handbook](https://about.gitlab.com/handbook/security).
 
 ### Quiz
 <a name="quiz"></a>

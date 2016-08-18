@@ -23,14 +23,24 @@
   apply: https://gitlab.workable.com/jobs/198792/candidates/new
   open: true
 
+- title: "Content Designer"
+  description: /jobs/content-designer/
+  apply: https://gitlab.workable.com/jobs/317102/candidates/new
+  open: true
+
 - title: "Content Marketing Manager"
   description: /jobs/content-marketing-manager/
   apply:
   open: false
 
-- title: "Director Customer Success"
-  description: /jobs/dir-customer-success/
+- title: "Director of Global Account Management"
+  description: /jobs/dir-global-account-management
   apply: https://gitlab.workable.com/jobs/267597/candidates/new
+  open: true
+
+- title: "Director Federal Sales"
+  description: /jobs/director-federal-sales/
+  apply: https://gitlab.workable.com/jobs/315093/candidates/new
   open: true
 
 - title: "Frontend Engineer"
@@ -60,7 +70,7 @@
 
 - title: "Product Manager"
   description: /jobs/product-manager
-  apply:
+  apply: https://gitlab.workable.com/jobs/269007/candidates/new
   open: true
 
 - title: "Product Marketing Manager"
@@ -108,6 +118,11 @@
   apply: https://gitlab.workable.com/jobs/279434/candidates/new
   open: true
 
+- title: "UX Researcher"
+  description: /jobs/ux-researcher/
+  apply: https://gitlab.workable.com/jobs/304926/candidates/new
+  open: true
+
 - title: "Junior Designer"
   description: /jobs/junior-designer/
   apply: https://gitlab.workable.com/jobs/296974
@@ -126,4 +141,9 @@
 - title: "Business Development Representative - Outbound"
   description: /jobs/business-development-representative-outbound/
   apply: https://gitlab.workable.com/jobs/308669/candidates/new
+  open: true
+
+- title: "Marketing Frontend Engineer"
+  description: /jobs/marketing-frontend-engineer/
+  apply: https://gitlab.workable.com/jobs/317072/candidates/new
   open: true
