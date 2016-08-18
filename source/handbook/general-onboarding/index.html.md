@@ -255,7 +255,7 @@ This info is needed to get your profile ready with Savvy HR in order to get you 
   1. [GitLab HQ](https://dev.gitlab.org/gitlab/gitlabhq)
   1. [GitLab www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com)
 * Create an account on our external / public [GitLab Server](https://gitlab.com) and have your manager grant access to the GitLab Enterprise Edition Project, Standard Subscribers Group and other projects / groups relevant to your role
-* Review our [Team Agenda](https://docs.google.com/document/d/1JiLWsTOm0yprPVIW9W-hM4iUsRxkBt_1bpm3VXV4Muc/edit) for daily call
+* Review our [Team Call Section](/handbook/#team-call)) for the daily call
 * Become familiar with [GitLab's Website](https://about.gitlab.com) and the following links:
   1. [Documentation](https://about.gitlab.com/documentation/)
   1. [EE Pricing](https://about.gitlab.com/pricing/)
