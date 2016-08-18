@@ -81,8 +81,6 @@ support modern development practices, GitLab has everything you need to get
 
 There are 10 steps from idea to production in the modern development lifecycle.
 
-<!-- image: screenshot of the 10 steps -> IMAGE TO BE IMPROVED -->
-
 ![FROM IDEA TO PRODUCTION IN 10 STEPS](/images/blogimages/announcing-the-gitlab-issue-board/10-step-dev-lifecycle-plan.png)
 
 1. Chat conversation &#8594; [Mattermost ships with GitLab][mattermost]
@@ -172,16 +170,12 @@ filtering and sorting abilities you see across the rest of the product.
 ### Live demo
 
 <i class="fa fa-check-circle-o fa-fw font-awesome green" aria-hidden="true"></i> To
-see the GitLab Issue Board in action, take a look at GitLab Developer Advocate
-([Amanda] or [Ivan])’s screencast below. <!-- ADD LINK TO TWITTER -->
-
-<!-- VIDEO TO BE UPDATED -->
+see the GitLab Issue Board in action, take a look at GitLab Developer Advocates
+([Amanda] and [Ivan])’s screencast below. <!-- ADD LINK TO TWITTER -->
 
 <figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/pY4IbEXxxGY" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube.com/embed/UWsJ8tkHAa8" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
-
-<!-- VIDEO TO BE UPDATED -->
 
 ## Join our webcast on August 25
 
@@ -200,11 +194,13 @@ great features in GitLab 8.11. [Register here][webcast].
 [cycle]: https://gitlab.com/gitlab-org/gitlab-ee/issues/847
 [direction]: https://about.gitlab.com/direction/
 [doc]: http://docs.gitlab.com/ce/user/project/issue_board.html
-[GitLab Issue Board]: /solutions/issueboard/ <!-- CHECK LINK -->
+[GitLab Issue Board]: /solutions/issueboard/
 [issue]: https://about.gitlab.com/2016/03/03/start-with-an-issue/
 [koding]: https://about.gitlab.com/2016/07/26/koding-and-gitlab-integrated/
 [mattermost]: https://about.gitlab.com/2015/08/18/gitlab-loves-mattermost/
 [webcast]: https://page.gitlab.com/AugustWebcast_LandingPage.html
+[Amanda]: https://twitter.com/AmbassadorAwsum
+[Ivan]: https://twitter.com/inemation
 
 <style>
   .blue {
