@@ -18,25 +18,30 @@ update your site from your iOS device anywhere, anytime.
 ## Requirements
 
 You'll need an SSG-powered site set up on GitLab.com, of course (they're free _and_
-[easy to set up][3]!), but you'll also need an app for performing git operations
+[easy to set up][3]!), but you'll also need an app for performing [Git][Git] operations
 and for text editing on your iOS device.
 
-In this tutorial, we'll post to a [Hugo][4]-based site using [Working Copy][5] to
-handle git operations and [Editorial][6] for text-editing. There are more options
+In this tutorial, we'll post to a [Hugo][4]-based site (though it'll work with
+[any SSG that you use with GitLab Pages][pageshowto]) using [Working Copy][5] to
+handle Git operations and [Editorial][6] for text-editing. There are more options
 available; you can explore some of them on the [GitLab Community Applications page][7].
 
 ## Concept
 
-GitLab Pages uses GitLab CI to automate building and deploying your SSG-powered
-website when you push a commit to `master`. When GitLab CI sees a new commit, it
-triggers the GitLab Runner to execute the scripts in the `.gitlab-ci.yml` file you
-created when you set up your SSG for GitLab Pages.
+GitLab Pages uses [GitLab CI][ci] to automate [building and deploying][cd] your SSG-powered
+website when you push a commit to a certain branch (e.g., `master`). When GitLab CI
+sees a new commit on this branch, it triggers the [GitLab Runner][gitlabrunner] to
+execute the scripts in the [`.gitlab-ci.yml`][gitlabciyml] file you created when
+you set up your SSG for GitLab Pages. There's a [great set of templates][templates]
+for setting up your SSG of choice, including sample `.gitlab-ci.yml` files.
 
-This is why we need an app to handle committing and pushing to GitLab, but it's
-also a good reason to checkout a new branch while you're working on your edits&mdash;you
-don't want to be drafting a new article on your iPhone, then push it to GitLab so
-that you can pick up where you left off on another device, only to have a half-finished
-post published automatically!
+Since the process needs some (pretty straightforward) Git management, we need an
+app to handle committing and pushing to GitLab. It's also a good reason to
+checkout a new branch while you're working on your edits! Imagine you're drafting
+a new article on your iPhone, then push it to `master` on GitLab so that you can
+pick up where you left off on another device (say, your computer). GitLab CI will
+pick up the commit, and publish a half-finished post automatically! By working on
+a separate branch, you don't have to worry about that happening.
 
 ## The details
 
@@ -60,12 +65,13 @@ the navigation bar twice to go back to your repository.
 
 ![Creating a new file in Working Copy](images/blogimages/posting-to-your-gitlab-pages-blog-from-ios/wc-add-new-file-annotated.png)
 
-Now that you're on a new branch, navigate your repository to the folder where
-posts go. In Hugo, this is `/content/post`&mdash;navigating here, you should see
-all of your existing posts listed. To add a new file, tap the **&#43;** button
-in the top-right of the navigation bar, and from the sheet that pops up, tap
-**Create text file**. Give the file a name (e.g., `title-of-article.md`). If you
-like, tap on the newly-created file to view details, then go back.
+Now that you're on a new branch, navigate within your repository to the folder where
+posts go. In Hugo's default [setup][hugoquickstart], this is `/content/post`&mdash;
+navigating here, you should see all of your existing posts listed. To add a new
+file, tap the **&#43;** button in the top-right of the navigation bar, and from
+the sheet that pops up, tap **Create text file**. Give the file a name (e.g.,
+`title-of-article.md`). If you like, tap on the newly-created file to view details,
+then go back.
 
 ### Opening the file for editing
 
@@ -81,26 +87,27 @@ in Editorial. This will let you send the file back to Working Copy, ready for co
 
 ### Adding required front matter
 
-Hugo (and most other SSGs) require each post to have some front matter, including
-a date, a title, and so on. One nice option with Editorial is that it can natively
-expand [TextExpander][9] shortcuts _without_ having to switch to alternate keyboards.
-You can create a template for your front matter and, upon opening the file in Editorial,
-type the shortcut (e.g., `;toml` or `;yaml`), and&mdash;💥 poof 💥&mdash;the shortcut will be
-expanded and ready for whatever you need to enter.
+Hugo (and most other SSGs) require each post to have some [front matter][hugofrontmatter],
+including a date, a title, and so on. One nice option with Editorial is that it
+can natively expand [TextExpander][9] shortcuts _without_ having to switch to
+alternate keyboards. You can create a template for your front matter and, upon
+opening the file in Editorial, type the shortcut (e.g., `;toml` or `;yaml`),
+and&mdash;💥 poof💥&mdash;the shortcut will be expanded and ready for whatever
+you need to enter.
 
 ### Writing the post
 
 You're now ready to type your article! Go ahead and type to your heart's content.
 You can swipe to the left from the edge of the screen in Editorial to show a Markdown
-preview of what you've written so far, in case you want to check how things are
-rendering, but keep in mind that your SSG may not be using the same rendering engine
-as Editorial does, so if you're using non-standard Markdown elements, the final
-post may not render exactly the same.
+preview of what you've written so far, in case you want to preview the post. Keep
+in mind that your SSG may not be using the same Markdown rendering engine as
+Editorial does, so if you're using non-standard Markdown elements, the final post
+may not look exactly the same.
 
 ![Sending the file back to Working Copy from Editorial](images/blogimages/posting-to-your-gitlab-pages-blog-from-ios/wc-editorial-workflow-annotated.png)
 
-When you're at a point where you want to save and commit your progress, tap the
-🔧 icon in the top-right of the navigation bar in Editorial, then tap the **Working
+When you're at a point where you want to save and commit your progress, tap the 🔧
+icon in the top-right of the navigation bar in Editorial, then tap the **Working
 Copy** workflow, and you'll be taken back to Working Copy, ready to commit. Enter
 a commit message and tap **Commit** in the navigation bar to commit your changes.
 
@@ -119,7 +126,8 @@ appropriately in your Markdown file.
 Once you're ready to commit, tap the **Repository** field in Working Copy's repository
 navigator, then tap on the **Commit changes** button. You'll be prompted to enter
 a short summary, as well as an (optional) detailed explanation of the changes. Below
-the text fields, you'll see a list of files to commit.
+the text fields, you'll see a list of files to commit (i.e., the text file you added
+for your post, and any images you uploaded in Working Copy).
 
 ![Commit and push from Working Copy to GitLab](images/blogimages/posting-to-your-gitlab-pages-blog-from-ios/wc-commit-and-push-annotated.png)
 
@@ -127,7 +135,9 @@ Once you've entered a commit message, the **Commit** button will be enabled in t
 top-right of the navigation bar. Next to it is a **&#43;Push** toggle; if it's
 highlighted in blue, tapping on the commit button will commit the changes and push
 them to GitLab; otherwise, the commit will only take place on your iOS device. Tap
-the **&#43;Push** button to toggle this behavior.
+the **&#43;Push** button to toggle this behavior. This may be useful if you want
+to make multiple commits while you're working without a network connection, for
+example, then pushing them all at once to GitLab once you're connected again.
 
 ### Merging the post branch into master to trigger CI and publish
 
@@ -140,19 +150,25 @@ required scripts, and publish the changes to your site!
 
 ## Final thoughts
 
-Is it really worth doing this? It depends on your writing style. If you're the type
-to be struck by inspiration and want to be able to draft something quickly, or if
-you're often away from your computer (or use iOS devices in place of computers),
+If:
+
+- you're the type to be struck by inspiration, and want to be able to draft something
+quickly, or
+- you're often away from your computer, or
+- you want to blog about your trip while you're travelling, or
+- you just plain prefer to use iOS devices in place of computers,
+
 this is a very convenient way to use a SSG for its benefits without giving up your
 ability to work from anywhere.
 
 However, there are some caveats to consider. For one, you can't render site locally
-to preview what your post (or other changes, for that matter) will look like when
-it goes live. If you're still in the process of tweaking things, or you haven't
-fully explored your SSG's Markdown rendering engine, that can be a bit
+on your iPhone to preview what your post (or other changes, for that matter) will
+look like when it goes live. If you're still in the process of tweaking things, or
+ you haven't fully explored your SSG's Markdown rendering engine, that can be a bit
 troublesome&mdash;for example, you may only find out after the post goes live that
 it will correctly render an HTML entity by code (e.g., `&#43;`) but not by description
-(e.g., `&plus;`). Oops.
+(e.g., `&plus;`). Oops. Of course, you can always sync your working branch back
+to your computer and preview it there, if you really need to.
 
 Additionally, if you're using your iPhone, the screen and virtual keyboard size
 may be uncomfortable for typing longer posts. You can of course use an external
@@ -183,5 +199,14 @@ best path towards building great things _and_ great teams.
 [5]: http://workingcopyapp.com/
 [6]: http://omz-software.com/editorial/
 [7]: https://about.gitlab.com/applications/
-[8]: http://workingcopyapp.com/manual.html
+[8]: http://workingcopyapp.com/manual.html#cloning-repos
 [9]: https://textexpander.com/
+[Git]: https://git-scm.com/
+[ci]: https://about.gitlab.com/gitlab-ci/
+[cd]: https://about.gitlab.com/2016/08/05/continuous-integration-delivery-and-deployment-with-gitlab/
+[templates]: https://gitlab.com/groups/pages
+[gitlabrunner]: http://doc.gitlab.com/ee/ci/quick_start/README.html#shared-runners
+[gitlabciyml]: https://about.gitlab.com/2016/04/07/gitlab-pages-setup/#gitlab-ci
+[pageshowto]: https://about.gitlab.com/2016/06/17/ssg-overview-gitlab-pages-part-3-examples-ci/
+[hugoquickstart]: http://gohugo.io/overview/quickstart/
+[hugofrontmatter]: https://gohugo.io/content/front-matter/
