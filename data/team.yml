@@ -1448,6 +1448,17 @@
   story:  |
           Joining August 22nd
 
+- name: M.G.
+  locality:
+  country:
+  role: <a href="https://about.gitlab.com/jobs/frontend-engineer/">Frontend Engineer</a>
+  reports_to: Frontend Lead
+  picture: logo-extra-whitespace.png
+  twitter:
+  gitlab:
+  story:  |
+          Joining August 22nd
+
 - name: A.M.
   locality:
   country:
