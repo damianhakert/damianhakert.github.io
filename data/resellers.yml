@@ -1,3 +1,20 @@
+- name: Vertical Sysadmin
+  image: /images/resellers/vsa_logo_blue.jpeg
+  content: |
+    Vertical Sysadmin increases competence of the professionals supporting the IT fabric of modern civilization so that society lasts! We specialize in delivering effective training on excellent technologies.
+  email: GitLab@VerticalSysadmin.com
+  contact:
+    - address: Burbank/CA, USA
+    - website: http://www.verticalsysadmin.com/
+  social:
+    - type: gitlab
+      url: https://gitlab.com/u/vsagitlab
+    - type: facebook
+      url: https://www.facebook.com/Vertical-Sysadmin-Inc-159564187456238
+    - type: twitter
+      url: https://twitter.com/verticalsysadmn
+    - type: linkedin
+      url: https://www.linkedin.com/company/6425144
 - name: LSD Information Technology
   image: /images/resellers/LSD_logoV2.png
   content: |
