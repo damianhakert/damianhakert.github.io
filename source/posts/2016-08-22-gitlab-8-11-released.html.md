@@ -79,8 +79,20 @@ a graph of a single pipeline and its status:
 
 TODO Find it HERE AND HERE
 
+## Issue and MR Templates
 
-## Issue Templates
+To standardize on a certain format for issues and merge requests,
+you could already create templates in GitLab Enterprise Edition.
+
+With GitLab 8.11, we're bringing the ability to create multiple templates
+(for instance, one for feature proposals, another for bugs) to GitLab CE and EE.
+
+Templates are Markdown files (`.md`) that live in the repository in a `.gitlab`
+directory and either the `.gitlab/issue_templates` or
+`.gitlab/merge_request_templates`. They will appear in a dropdown when creating
+a new issue or merge request:
+
+![]()
 
 ## Koding Integration
 
