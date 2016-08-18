@@ -13,17 +13,72 @@ Thanks ***MVP_USER_FIRST_NAME***!
 
 ## Issue Boards
 
+GitLab Issues are very flexible. You can crosslink them, prioritize them and
+rank them by popularity. With GitLab Issue Boards we've added something new:
+
+You can now create workflows, quickly get an idea of the status of your
+issues and all that in a simple, beautiful Board, not unlike a Kanban or Scrum
+board.
+
+![]()
+
+You have a board for every project, which starts with a Backlog with all open
+issues and a Done list, where issues are automatically closed.
+
+By adding new lists you can create workflows. Lists are based on labels, this
+means that adding an issue to a list will add that label to the issue and
+removing it from a list, will remove the label.
+
+As effect, this means all your current issues will automatically appear in new
+lists you create and that you can quickly see whether a certain issue is
+in one (or more!) of the lists.
+
 > [Documentation link](link)
 
 ## Merge Conflict Resolution
+
+Merge conflicts can be a real pain when you want to get something to merge
+in a busy project. We believe you shouldn't need any external tools to
+fix your conflicts, which is why you can now solve simple conflicts straight
+from GitLab.
+
+![]()
+
+When you encounter a conflict, you simply click X to be able to select
+how you want the conflicts to be resolved. You confirm at the end to make a
+commit with your fix.
+
+We realize that this won't work for all conflicts, but hope that this will make
+those simpler conflicts less of a headache.
 
 > [Documentation link](link)
 
 ## (EE) Branch Permissions for Groups and People
 
+
+
 ## Resolve Discussions in MRs
 
-## Visual Pipelines
+Discussions on diffs in merge requests can be hard to keep track off, yet
+it's important that you actually give each comment attention.
+
+To make it easier to find, fix and resolve those comments and discussions,
+we've added the ability to do just that: Each comment and discussion on merge
+request diffs can be resolved. Longer threads can be resolved all at once
+or just comment-by-comment.
+
+![]()
+
+## Pipelines Graph
+
+Pipelines in GitLab can be complex structures with many sequential and parallel
+builds. To make it a little easier to see what is going on, you can now view
+a graph of a single pipeline and its status:
+
+![]()
+
+TODO Find it HERE AND HERE
+
 
 ## Issue Templates
 
@@ -32,6 +87,8 @@ Thanks ***MVP_USER_FIRST_NAME***!
 ## Pipelines everywhere
 
 ## New MR link when pushing
+
+## Move projects between shards
 
 ### Improvements
 
