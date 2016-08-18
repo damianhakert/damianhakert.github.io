@@ -1346,16 +1346,16 @@
           interest in development and design. When he's not coding or playing
           with his daughter, he enjoys training for triathlon.
 
-- name: J.P
-  locality:
-  country:
+- name: Joan Parrow
+  locality: Pennsylvania 
+  country: USA
   role: <a href="https://about.gitlab.com/jobs/senior-director-of-people-operations/">Senior Director of People Operations</a>
   reports_to: CEO
-  picture: logo-extra-whitespace.png
-  twitter:
-  gitlab:
+  picture: JoanP.JPG
+  twitter: joan_gitlab
+  gitlab: jparrow
   story:  |
-          Joining August 1st
+          With 20+ years background in Human Resources, Joan brings a comprehensive toolkit to her new role leading People Operations for GitLab. You'll see the twinkle in Joan's eye most bright when working on the design and implementation of new ideas, process improvements and better resources for the organization.  When not at work, you'll most likely find Joan playing 8 ball or 9 ball for the local APA league, riding "navigator" on her husband's custom Harley Davidson or spending time with her family.   
 
 - name: Arihant Godha
   locality: Mumbai
@@ -1449,7 +1449,7 @@
   locality:
   country:
   role: <a href="https://about.gitlab.com/jobs/people-ops-generalist/">People Operations Generalist</a>
-  reports_to: VP of Scaling
+  reports_to: Senior Director of People Operations
   picture: logo-extra-whitespace.png
   twitter:
   gitlab:
