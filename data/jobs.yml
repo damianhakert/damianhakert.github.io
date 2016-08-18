@@ -109,9 +109,9 @@
   open: true
 
 - title: "UX Designer"
-   description: /jobs/ux-designer/
-   apply:
-   open: false
+  description: /jobs/ux-designer/
+  apply:
+  open: false
 
 - title: "UX Lead"
   description: /jobs/ux-lead/
