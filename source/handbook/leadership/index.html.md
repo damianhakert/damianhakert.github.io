@@ -19,6 +19,10 @@ title: Leadership
 - We give feedback, lots of it, don't hold back on suggestions to improve.
 - If you praise someone try to do it in front of an audiance, if you give suggestions to improve do it 1 on 1.
 - If you meet external people always ask what they think we should improve.
+- As soon as you know you'll have to let someone go, do it immediately. The team member is entitled to knowing where they stand. Delaying it for days or weeks causes problems with confidentiality (find out that they will be let go), causation (attributing it to another reason), and escalation (the working relation is probably going downhill).
+- When someone says they are considering to quit drop everything and listen to them by asking questions to find out what their concerns are. If you delay the person will not feel valued and the decision will be irreversible.
+- People should not be raised or given a title because they ask for it or threaten to quit. We should proactively raise and promote people without people asking. If you do it when people ask you are disadvantaging people that don't ask and you'll end up with many more people asking.
+- Don't refer to team members [as family](https://hbr.org/2014/06/your-company-is-not-a-family). It is great that our team feels like a close nit group and we should encourage that. But families don't have an an [offboarding process](https://about.gitlab.com/handbook/offboarding/).
 
 ## Articles
 
@@ -35,3 +39,14 @@ title: Leadership
 - High output management - Andrew Grove ([top 10](https://getlighthouse.com/blog/andy-grove-quotes-leadership-high-output-management/))
 - The Hard thing about hard things - Ben Horowitz
 - [The score takes care of itself - Bill Walsh](http://coachjacksonspages.com/The%20Score%20Takes%20Care.pdf)
+
+## No matrix organization
+
+We believe everyone deserves to report to exactly one person and that knows and understands what you do day to day.
+We don't want a matrix organizations where you work with a lead day to day but formally report to someone else.
+The advantage of our structure for team members is that you get great feedback, and that your career progress is based on your impact.
+For the organization forgoing a seperate class of managers ensures a simple structure with clear responsibilities.
+It reduces compensation costs, coordination costs, and office politics.
+The disadvantage is that your manager has a limited amount of time for you and probably has less experience managing people.
+To mitigate these disadvantages we should offer ample training, coaching, support structures, and processes to ensure our managers can handle these tasks correctly and in limited amount of time.
+Everyone deserves a great boss that helps you with your career, lets you know when you should improve, hires a great team, and motivates and coaches you to get the best our of yourself.

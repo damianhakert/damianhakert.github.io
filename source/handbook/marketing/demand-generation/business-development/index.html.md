@@ -279,7 +279,7 @@ Each rep will be assigned a list of 15-30 targeted accounts to work on a monthly
 #### Criteria for those accounts still TBD
 - Tier
 - Industry
-- # of Employees
+- Number of Employees
 - Revenue
 - Populated with contacts and activity
 - Last activity date
@@ -297,13 +297,21 @@ Each rep will be assigned a list of 15-30 targeted accounts to work on a monthly
 - Outbound does not touch any historical lead that has activity on it within the last 45 days. We are on the same team as inbound, no bad blood, etc.
 
 #### Formal Weekly 1:1
+
 BDR and BDR Team Lead
+
 - Mental check-in (winning and success)
+
 - Discuss progress on targeted accounts
+
 - Coaching - email strategy, campaigns, cadence, best practices
+
 - Review goals at the account level and personal level
+
 - Strategy for next week
+
 - Upcoming events/campaigns that can be leveraged
+
 - Personal goals and commitments 
 
 
