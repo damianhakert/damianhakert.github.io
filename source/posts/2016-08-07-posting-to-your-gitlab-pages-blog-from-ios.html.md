@@ -23,7 +23,8 @@ and for text editing on your iOS device.
 
 In this tutorial, we'll post to a [Hugo][4]-based site (though it'll work with
 [any SSG that you use with GitLab Pages][pageshowto]) using [Working Copy][5] to
-handle Git operations and [Editorial][6] for text-editing.
+handle Git operations and [Editorial][6] for text-editing. GitLab provides
+[a template][hugotemplate] that you can use to set up your own Hugo-powered SSG.
 
 Note that these apps aren't free. Working Copy requires an in-app purchase to be
 enable pushing to a remote repository, and Editorial costs a small amount. Of course,
@@ -215,3 +216,4 @@ best path towards building great things _and_ great teams.
 [pageshowto]: https://about.gitlab.com/2016/06/17/ssg-overview-gitlab-pages-part-3-examples-ci/
 [hugoquickstart]: http://gohugo.io/overview/quickstart/
 [hugofrontmatter]: https://gohugo.io/content/front-matter/
+[hugotemplate]: https://gitlab.com/pages/hugo
