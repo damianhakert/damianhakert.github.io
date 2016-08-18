@@ -1,6 +1,6 @@
 ---
 title: "Applying GitLab Labels Automatically"
-author: "Brian O'Connor"
+author: "Brian O'Connell"
 author_twitter: boc_tothefuture
 categories: GitLab
 image_title: '/images/blogimages/applying-gitlab-labels-automatically-cover.jpg'
@@ -99,7 +99,7 @@ to the original webhook server I wrote.
 
 ----
 
-This post was [originally published][post] by Brian O'Connor himself.
+This post was [originally published][post] by Brian O'Connell himself.
 {: .note}
 
 <!-- 
