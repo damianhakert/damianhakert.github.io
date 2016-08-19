@@ -11,6 +11,7 @@
         %ol.breadcrumb
           %li You are here:
           = breadcrumbs(current_page)
-        = partial "includes/layout/handbook_search.html.haml"
+        - if current_page.request_path.start_with?('handbook')
+          = partial "includes/layout/handbook_search.html.haml"
         = yield
     = partial "includes/layout/footer"
